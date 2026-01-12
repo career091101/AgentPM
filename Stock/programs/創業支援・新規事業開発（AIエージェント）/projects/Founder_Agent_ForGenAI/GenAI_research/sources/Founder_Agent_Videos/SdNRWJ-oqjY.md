@@ -1,0 +1,1195 @@
+---
+title: "Transcript: SdNRWJ-oqjY"
+video_id: "SdNRWJ-oqjY"
+video_url: "https://www.youtube.com/watch?v=SdNRWJ-oqjY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:41:17"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: SdNRWJ-oqjY
+
+- URL: https://www.youtube.com/watch?v=SdNRWJ-oqjY
+- Retrieved at: 2025-12-30T10:53:08+09:00
+
+## Text
+
+- [00:01] I don't think this is a finite game. I
+- [00:03] don't think there is a winner. I think
+- [00:04] this is the classic Simon Sync Infinite
+- [00:06] game. I think um the players are going
+- [00:09] to play until they run out of resources
+- [00:11] and they can no longer play the game.
+- [00:13] And I think we're going to win, right? I
+- [00:15] think it opens up a creator ecosystem.
+- [00:17] What I hope that it breaks up is all
+- [00:20] these kind of web 2 massive companies
+- [00:23] controlling everything and we can get a
+- [00:25] a more uh surrounded marketplace. All
+- [00:29] that and more on today's Mixture of
+- [00:30] Experts.
+- [00:36] I'm Tim Huang and welcome to Mixture of
+- [00:38] Experts. Each week, Moe brings together
+- [00:40] a panel of the smartest and most
+- [00:42] charming thinkers in technology to
+- [00:43] distill down what's important in
+- [00:45] artificial intelligence. Joining us
+- [00:47] today are three incredible panelists.
+- [00:48] We've got Chris Haye, distinguished
+- [00:49] engineer, Lauren McHugh Oende, program
+- [00:52] director AI open innovation, and Vulmar
+- [00:54] Ulleig VP core AI and Watson X AI. So,
+- [00:57] this is our Thanksgiving episode and
+- [00:58] we're going to change up the format a
+- [01:00] little bit. Rather than ticking through
+- [01:01] the news of the moment, we're going to
+- [01:03] take a step back and have a focused
+- [01:04] discussion about the bigger picture.
+- [01:06] But, as always, we've got the headlines
+- [01:07] with
+- [01:12] Hi everyone, I'm Eile McConnen, a tech
+- [01:14] news writer for IBM Think. As always,
+- [01:17] I'm here to cover your top AI news of
+- [01:19] the week. But instead of running through
+- [01:21] a bunch of headlines today, we're
+- [01:22] actually going to focus on one, the big
+- [01:24] news of the week. Anthropic's new Claude
+- [01:27] 4.5 Opus model which just dropped. And
+- [01:29] to do this, I'm joined by our expert,
+- [01:31] Mihi Creetti, distinguished engineer for
+- [01:33] Aentic AI.
+- [01:35] >> When I heard it was about the latest
+- [01:37] model from cloud, I couldn't resist. So
+- [01:39] happy to be here.
+- [01:40] >> What would you say is the most important
+- [01:42] thing that users need to know about
+- [01:44] Anthropic's new Claude 4.5 opus?
+- [01:46] >> I think it's just how efficient it is
+- [01:48] with its tokens. It's 50% more efficient
+- [01:51] than Cloud Opus 4.1. So even though it's
+- [01:54] a reasoning model, even though it can be
+- [01:55] a fairly expensive model, it's cheaper,
+- [01:58] but it also consumes 50% fewer tokens
+- [02:00] when reasoning. So it's it's one of the
+- [02:02] most efficient models out there. So
+- [02:04] don't be afraid to use it. Give it a
+- [02:06] try. I think the best way to use it is
+- [02:08] through cloud code and leveraging those
+- [02:11] capabilities and it really performs very
+- [02:14] well for how token efficient it is.
+- [02:16] >> Mihi, what are some of your initial
+- [02:18] reactions to the model after playing
+- [02:19] with it? Yeah, it's all kind of fresh
+- [02:21] because I think it all happened like 21
+- [02:22] hours ago. So, this is all fairly new.
+- [02:25] Um, but I've already been using it. I've
+- [02:27] been using it with both, you know, the
+- [02:30] desktop application and with cloud code
+- [02:32] and I can say this is by far the best
+- [02:34] model for coding and the bar has already
+- [02:36] been set quite high. Uh, as you know,
+- [02:38] Google has released Gemini 3 Pro quite
+- [02:41] recently and I think uh two three days
+- [02:44] ago. Um, OpenAI released GPD 5.1 Pro
+- [02:48] which has great reasoning capabilities,
+- [02:50] but also they've released GPD 5.1 Codeex
+- [02:53] Max, which makes their codeex uh I would
+- [02:56] say agentic platform really really good.
+- [02:59] I suspect at least from my initial
+- [03:01] testing that it was on par or even
+- [03:03] better than um cloth code with um the
+- [03:06] previous 4.1 models or opus 4.1 or 4.5
+- [03:10] set but now with Opus 4.5 I believe uh
+- [03:15] entropics has regained the lead in terms
+- [03:16] of the best model for coding still doing
+- [03:19] some initial testing on it but it's
+- [03:22] performing really well. That's super
+- [03:23] interesting. And you mentioned this
+- [03:25] comes, you know, shortly after the
+- [03:26] release of Gemini 3 and we've had some
+- [03:29] other big models. You know, what do you
+- [03:31] make of the the timing of Anthropics
+- [03:32] release? Obviously, it's been a busy
+- [03:34] fall for big releases of coding agents.
+- [03:37] >> This can't be a coincidence. I'm
+- [03:38] wondering if these vendors just have
+- [03:40] these models ready to go. Um, they just
+- [03:43] might not have the best, I would say,
+- [03:45] uh, price performance or they're waiting
+- [03:47] from another announcement from their
+- [03:49] competitors before they put them out to
+- [03:51] market. uh because the timing was really
+- [03:53] really good. I mean within the span of
+- [03:54] three days we got you know three world
+- [03:56] leading models or all for code all
+- [03:59] outperforming each other in various
+- [04:01] benchmarks which is you know quite
+- [04:04] interesting.
+- [04:04] >> And are there you mentioned you know
+- [04:06] three uh strong performing new agents
+- [04:10] you know being released in quick
+- [04:11] succession. Is there any aspect of um
+- [04:14] the cloud 4.5 opus that is different or
+- [04:17] that you know obviously it has it sounds
+- [04:19] like slightly superior performance but
+- [04:21] you know what what makes this release
+- [04:22] different if it is from your perspective
+- [04:25] >> I think it's the pricing as well they're
+- [04:27] able to reach much better price per
+- [04:29] performance or number of tokens used
+- [04:31] than the previous 4.1 opus um I was at
+- [04:34] some point where I was just using um 4.1
+- [04:37] opens for the planning or the more
+- [04:39] complex tasks and using 4.5 set or the
+- [04:41] previous models for the actual work cuz
+- [04:44] they have, you know, a very large uh
+- [04:46] context window. They were cheaper, they
+- [04:47] were faster. I think they've been making
+- [04:50] some optimizations in terms of things
+- [04:52] like pricing and performance as well for
+- [04:54] Oppus 4 lat 5 and it feels you get a bit
+- [04:56] more bang for your buck than the
+- [04:58] previous versions of um you know for lot
+- [05:00] one opus
+- [05:01] >> and can you talk a little bit more about
+- [05:03] how you know they've achieved that those
+- [05:06] uh a lower pricing you know are there
+- [05:08] sort of innovations in how they're
+- [05:10] approaching things that have helped them
+- [05:12] um to do that
+- [05:13] >> I'm not sure it's necessarily to do with
+- [05:15] innovation maybe it just has to do with
+- [05:16] more availability of the hardware. You
+- [05:18] know, they've recently announced some
+- [05:20] very, very strong partnerships with both
+- [05:23] u Microsoft Azure and with uh Google to
+- [05:25] use, you know, more GPUs, more TPUs. Uh
+- [05:28] I think part of it just has to do with
+- [05:30] having more availability of the
+- [05:31] infrastructure and being able to reach a
+- [05:34] bit further and say, hey, we're putting
+- [05:36] some of our best models out there as the
+- [05:37] default. I was actually quite surprised
+- [05:39] and maybe even shocked that when I've
+- [05:42] opened up
+- [05:44] uh cloud code, it recommended 4.5 opus
+- [05:47] as the default, which is somewhat
+- [05:49] unusual. It might say something like,
+- [05:50] "Hey, we're going to use for.1 or we're
+- [05:52] going to use for 5 for uh thinking and
+- [05:54] then we're going to transition into 4.1,
+- [05:56] but outright they've launched a new
+- [05:58] version of uh cloud code and it used for
+- [06:01] five opus as a default."
+- [06:03] >> And I guess it's hard to predict, but
+- [06:05] how long does Anthropic have the lead?
+- [06:07] you know, we've had is it 48 hours? Will
+- [06:10] we have something new by um by next week
+- [06:12] or you know, does this set itself apart
+- [06:15] such that you'll be using it yourself at
+- [06:17] least as your top choice for at least
+- [06:19] the coming weeks?
+- [06:20] >> I think the way I see it and I'm I'm
+- [06:23] using all three models. I'm using Gemini
+- [06:26] for a lot of my deep research, my
+- [06:28] research, my advisory. I'm using codeex
+- [06:32] sorry cloud code with um opus for
+- [06:36] writing code or for you know writing
+- [06:38] test cases and I'm using uh codeex with
+- [06:40] GBD for reviews or for anything else uh
+- [06:44] after so I'm actually using all three
+- [06:46] but I would say by number of tokens
+- [06:49] it's still the entropic models they're
+- [06:51] I'm using the most tokens with uh
+- [06:53] they're writing the vast majority of the
+- [06:55] code for me because they perform the
+- [06:57] best for this particular use case. uh I
+- [07:00] don't see it necessarily as a
+- [07:03] situation where if I had a different use
+- [07:05] case I would still use the mouse from
+- [07:07] from entropic if it was you know u
+- [07:09] summarization or content generation or
+- [07:12] creative thinking or creative writing u
+- [07:14] maybe I would lean more towards GBD5.1
+- [07:17] pro um but at least for in the area of
+- [07:20] code it could also be a combination with
+- [07:22] what they put in uh the cl code tooling
+- [07:25] it still seems to outperform
+- [07:28] um codeex at least for my use cases or
+- [07:31] from my my personal experience.
+- [07:33] >> Do you think for that specific area of
+- [07:35] coding does this sort of have enterprise
+- [07:37] application or usefulness or you know do
+- [07:39] you think that's part of the the play in
+- [07:41] trying to bring the cost down to make it
+- [07:42] sort of um more enterprise friendly or
+- [07:45] yeah how do you see that? Yeah, I think
+- [07:47] the strategy of making this available
+- [07:49] through the various hyperscalers at um I
+- [07:52] would say at a reasonable cost is going
+- [07:54] to help with enterprise deployments
+- [07:56] because many of the enterprises are
+- [07:58] never going to consume the models
+- [07:59] directly from the provider. So you know
+- [08:01] you're not going to go off and consume
+- [08:03] this on if you're using models from open
+- [08:06] AAI you're going to consume them likely
+- [08:08] on Azure from Microsoft not necessarily
+- [08:10] directly from chat GPT. Uh same thing
+- [08:13] goes with cloud. You're going to consume
+- [08:14] it through maybe AWS bedrock, but there
+- [08:16] has been somewhat of a limiting choice.
+- [08:18] Uh for enterprises with its availability
+- [08:20] through Microsoft Azure, for example,
+- [08:23] this has really opened it up to to
+- [08:24] enterprise customers and uh uh
+- [08:27] consumers.
+- [08:28] >> Is there anything else about the model
+- [08:30] um you know that's worth worth talking
+- [08:32] about that we haven't covered yet that
+- [08:34] sort of strikes you as interesting?
+- [08:36] Yeah, I think um clearly they've
+- [08:37] optimized it for agents, they've
+- [08:39] optimized it for computer use, they've
+- [08:40] optimized it for coding, but I like the
+- [08:42] fact they've also optimized it for
+- [08:44] things like building PowerPoint slides,
+- [08:45] which was maybe at um something that,
+- [08:48] you know, even Microsoft was looking at
+- [08:50] these models for for use in Office 365
+- [08:53] or, you know, PowerPoint generation,
+- [08:54] slide generation. So, they're not
+- [08:56] looking just at software development use
+- [08:59] cases. They're now starting to tackle a
+- [09:01] lot of other enterprise use cases. you
+- [09:03] know being the best model for generating
+- [09:05] a PowerPoint slide or generating a word
+- [09:07] document of generating and working with
+- [09:08] you know XML or working with the schema
+- [09:11] uh required to build those documents. So
+- [09:13] I I I'm I'm pleased and happy to see
+- [09:15] that models are being optimized for
+- [09:17] these enterprise use cases.
+- [09:18] >> I'd be happy to have a model uh to do my
+- [09:20] PowerPoint slides as well.
+- [09:22] >> Yeah, 100%
+- [09:23] >> to optimize. Thank you Mihi so much for
+- [09:25] joining our conversation. And now we're
+- [09:27] going to return to our special
+- [09:29] Thanksgiving episode. Happy holidays
+- [09:31] everybody.
+- [09:35] Thanksgiving, I think, is like a really
+- [09:37] good time to be talking about agents
+- [09:39] because, of course, agents have been
+- [09:41] very much hyped in 2025, but Agentic
+- [09:43] Commerce has been one of the things in
+- [09:46] agents that people have been excited
+- [09:47] about. And you know, this week is going
+- [09:49] to feature Thanksgiving, but also
+- [09:50] importantly, Black Friday, which is one
+- [09:52] of the biggest shopping moments of the
+- [09:54] year. And so, I guess maybe Chris, I'll
+- [09:57] kick it to you first. you know, do you
+- [09:59] think this week is going to be breakout
+- [10:01] moment for agents in Agentic Commerce?
+- [10:03] You know, why or why not?
+- [10:05] >> No, I don't think it will be. I think
+- [10:07] we're probably another year away from
+- [10:09] that. Um, why not is that I think all of
+- [10:15] the ingredients are getting in place. So
+- [10:16] if you think about what OpenAI's done,
+- [10:19] they're now bringing on board the
+- [10:21] ability to shop in their channel for uh
+- [10:24] commerce products and they partnered
+- [10:25] with uh you know uh you know Shopify
+- [10:29] etc. But there's so many commerce
+- [10:32] retailers that they've not on boarded
+- [10:33] yet. So I think that's really early and
+- [10:35] it is US only at the moment. And then
+- [10:37] Google has released their uh agent
+- [10:40] commerce protocol and again that's
+- [10:43] really early at the moment. So I think
+- [10:46] we're and agentic browsers haven't quite
+- [10:49] taken off yet. So I I I just think we're
+- [10:51] about a year away from that. Now what
+- [10:53] where where I do think it's going to
+- [10:54] become relevant is utilizing web search
+- [10:58] and deep researchers from within chat
+- [11:00] GPD to find the products that you want.
+- [11:03] That is going to be big and that is
+- [11:04] disrupting retailers. But I I I don't
+- [11:07] see a massive effect on Black Friday
+- [11:09] this year. And what's sort of
+- [11:10] interesting and I'd love to kind of
+- [11:11] parse that out a little bit more is I
+- [11:13] guess Chris you've listed like a couple
+- [11:15] key components right it's almost like
+- [11:17] the agentic browser is not quite there
+- [11:20] the uh you know the the like
+- [11:22] partnerships are not right there from a
+- [11:24] business standpoint I guess Lauren do
+- [11:26] you kind of agree with this assessment
+- [11:27] do you think like you know this week is
+- [11:29] going to be big for Aenta commerce I
+- [11:30] guess you know Chris is almost saying
+- [11:32] like I guess there is some in so far as
+- [11:34] people are using it to find products but
+- [11:36] um it's it's not obviously what we were
+- [11:37] promised in the in the the the exciting
+- [11:40] early days of 2025.
+- [11:42] >> Yeah, my feeling is it's also not going
+- [11:44] to be so different from last year. So,
+- [11:47] the you know, the protocols that Chris
+- [11:48] talked about will help in automating the
+- [11:53] actual checkout. Once you're using chat
+- [11:55] GBT and you find the thing you want, you
+- [11:56] can automate the checkout. But I'm not
+- [11:59] sure that was really ever the biggest
+- [12:02] problem. You know, I didn't have a big
+- [12:03] problem putting in my credit card
+- [12:05] manually once I get to the link. They
+- [12:07] spent a lot of time making it easy to
+- [12:09] spend money on the internet.
+- [12:11] >> Yeah.
+- [12:11] >> I mean, we've had automated checkout for
+- [12:14] a while. It was very hacky. You know,
+- [12:16] that's why it's hard to get concert
+- [12:18] tickets is because it is possible to
+- [12:20] build browser automation to buy things
+- [12:23] automatically. So, I don't see a big
+- [12:26] revolution coming from the simple act of
+- [12:29] being able to check it out once you're
+- [12:31] in the AI application. And I do think
+- [12:34] too that even the product research
+- [12:36] capabilities are a bit underwhelming.
+- [12:39] You know, when you know you're looking
+- [12:40] for something specific like size,
+- [12:42] dimensions or a style or something, it's
+- [12:46] not it's not always easy to find that
+- [12:49] just through the kind of interface that
+- [12:51] we have now. And I think a lot more work
+- [12:54] could be done on both training AI models
+- [12:57] on e-commerce relevant information. So
+- [13:01] you know what are the input output pairs
+- [13:03] of input this was the customer intention
+- [13:05] output this is what they ultimately
+- [13:07] selected and you know allow the AI model
+- [13:09] to build those pattern recognition of
+- [13:12] okay you know that intention really
+- [13:13] meant this size of things or this
+- [13:16] configuration so I think there's
+- [13:17] definitely work that could be done on
+- [13:20] that front of having the models
+- [13:21] themselves better uh working better for
+- [13:25] e-commerce and then I think there's also
+- [13:27] you know when you fit those models into
+- [13:29] a aent authentic pattern. How do you you
+- [13:33] know prompt it? How do you build in the
+- [13:35] steps of that process? So you know like
+- [13:38] first by start start by identifying the
+- [13:40] retailers you want to look in then you
+- [13:42] know get the information you need on
+- [13:44] their products then compare them like
+- [13:47] that's a whole flow that using a general
+- [13:49] purpose um chatbot or you know chat GPT
+- [13:53] or whatever pick your system is not it's
+- [13:56] not made specifically for that. So I
+- [13:58] think if we had more workflows that were
+- [14:01] built specifically for that, the
+- [14:03] performance of those would go could go,
+- [14:05] you know, through the roof that you know
+- [14:07] when you have an intention, you can get
+- [14:09] a specific link to that product right
+- [14:11] away. So I think that's really where I'd
+- [14:12] like to see more improvements.
+- [14:14] >> Yeah, definitely. Vulmar, I'd love to
+- [14:15] bring you in because I think your angle
+- [14:17] of this is really interesting. When we
+- [14:18] talk about agents, obviously we tend to
+- [14:20] talk about like higher up in the stack,
+- [14:21] right? It's like the application's not
+- [14:23] quite there. Even like the business
+- [14:25] partnerships are not quite there to get
+- [14:26] this to work. Is there a hardware
+- [14:27] limiter to the world of agents really
+- [14:29] taking off particularly in commerce but
+- [14:31] I guess otherwise or is this not like
+- [14:33] almost not even in the picture? So I I
+- [14:35] would take a completely different stand
+- [14:37] right I think it is actually the year of
+- [14:39] agents and the reason is very simple um
+- [14:42] if you look at black Friday 15 to 20% of
+- [14:46] the stuff gets returned right and so I
+- [14:49] think the agents are not the consumerf
+- [14:52] facing agents but the agents are
+- [14:53] actually the back end and I think this
+- [14:55] is where the true adoption happens where
+- [14:58] stuff you know people are returning it's
+- [15:00] the same after Christmas like you know
+- [15:02] it's like statistics like it's unclear
+- [15:04] somewhere between 15 and 25%. It depends
+- [15:06] on the product category. So if you look
+- [15:08] at Amazon today already um you know if
+- [15:11] you want to return something it used to
+- [15:13] be like you know they they click five
+- [15:15] buttons and then they're like okay good
+- [15:17] ship it back or no we reject it and you
+- [15:19] had to make a phone call. Now that's all
+- [15:21] done through agentic workloads. And so I
+- [15:24] think from from the big retailers and
+- [15:26] probably not I mean Shopify at some
+- [15:28] point will offer it as well but the big
+- [15:30] retailers uh are already in that motion
+- [15:33] of actually optimizing that backend
+- [15:35] flow. I do not know what they are doing
+- [15:38] when the product hits you know their
+- [15:40] their shipping center. um if they have
+- [15:42] agentic workloads there I'm sure they do
+- [15:45] but that first customer touch point uh
+- [15:48] effectively doing like the return I
+- [15:50] think that's where the the majority of
+- [15:52] the labor is on their side because the
+- [15:53] the front end is very optimized so um we
+- [15:57] just don't see it as a consumer but we
+- [15:59] see it indirectly because actually
+- [16:01] return is easier
+- [16:03] >> yeah definitely and I think this is kind
+- [16:04] of a pattern I did want to talk about I
+- [16:06] mean just zooming out from e-commerce
+- [16:08] right or like you know buying stuff
+- [16:10] online is I think it's almost easy as
+- [16:12] like a consumer to be like agents are
+- [16:14] the dog that didn't bark in 2025 because
+- [16:17] yeah most of the people I know are not
+- [16:19] using agents every single day for all
+- [16:20] sorts of things but it does seem like on
+- [16:22] the back end on the enterprise there is
+- [16:24] a lot of agent activity and so it's sort
+- [16:26] of interesting is that kind of like the
+- [16:28] public face and public experience of
+- [16:29] agents is like very underwhelming
+- [16:32] whereas you know Vulmar there's like
+- [16:33] stuff under running under the hood for
+- [16:34] like returns which are like very much
+- [16:37] identified um and so we have this kind
+- [16:38] of split screen that's happening in in
+- [16:41] agents that might actually fool us about
+- [16:43] just how far this thing is going.
+- [16:44] >> And I think that I mean if you look at
+- [16:46] programming agents it's pretty
+- [16:47] complicated you know what you need to do
+- [16:49] and you need to coers it into doing the
+- [16:50] right thing and so I think the consumer
+- [16:53] will always uh consume agents indirectly
+- [16:56] through products and so it's not like
+- [16:58] you know I mean we have like these apps
+- [16:59] on the phone where I can automate stuff.
+- [17:02] I don't know I I have one automation on
+- [17:04] my iPhone which is like when I'm driving
+- [17:06] close to our community open the gate.
+- [17:08] Okay, that's the only automation I have
+- [17:10] out of all the automations I could
+- [17:11] build. And so humans typically like you
+- [17:15] know they want to have a packaged
+- [17:16] product which just solves the problem.
+- [17:18] And I think this the beauty of what CHPT
+- [17:21] did is giving you that that one line
+- [17:23] everybody knows how to use from Google
+- [17:25] over 20 years. Um and it's it's really
+- [17:28] easy to consume and now they're building
+- [17:31] similar to Google all these capabilities
+- [17:32] in. So I think that's how we will as a
+- [17:35] human we will consume agents. Um but
+- [17:37] then in the enterprise no you take your
+- [17:39] business process and where every every
+- [17:42] place you have a human you can actually
+- [17:43] try to put an agent and so I think we
+- [17:45] will see adoption indirectly but not
+- [17:48] directly now is it the year of the
+- [17:50] agents I think we are still in the PC
+- [17:53] phase and some companies and so in that
+- [17:55] sense I just want to have a contrarian
+- [17:57] opinion I think to a certain extent um
+- [18:00] the it is probably the year of the agent
+- [18:03] PC's let's call it this way
+- [18:05] >> okay yeah pilot agent Yeah, the pilot
+- [18:07] agents. Yes.
+- [18:08] >> Yeah. Chris, go.
+- [18:10] >> Yeah. No, it's it's the year of the
+- [18:12] agents. I don't you know, I disagree
+- [18:14] with Mar. It's the year of the agents.
+- [18:16] So,
+- [18:17] >> you don't need to caveat that. Uh you
+- [18:19] say, yeah,
+- [18:20] >> it just is, right? I mean, we we need to
+- [18:23] think about this for a second, right?
+- [18:24] So, if we
+- [18:26] >> look at what has happened with chat GPT,
+- [18:28] right? And we'll we'll start from there
+- [18:30] and then move outwards. But um
+- [18:32] integrated both in it claw Gemini you've
+- [18:35] got web search capabilities which is
+- [18:37] which is tool calling you've now got the
+- [18:39] model catalog so you can hook up things
+- [18:41] like your Jira your you know and pretty
+- [18:44] much anybody who's got a service uh on
+- [18:46] the internet you can hook up as a
+- [18:48] connector now and that is basically tool
+- [18:50] calling everybody's offering deep
+- [18:51] researcher which is a agent behaviors um
+- [18:55] and then probably the biggest star of
+- [18:56] them all is going to be the coding
+- [18:58] agents right that's just went crazy
+- [18:59] especially things like claude code if
+- [19:01] you think about things like lovable etc.
+- [19:03] um everybody uh you know codecs
+- [19:06] everybody's using codec uh coding agents
+- [19:09] uh to get their work done and the
+- [19:10] biggest thing that's made the difference
+- [19:11] there is given access to tools so I I
+- [19:15] think agents are here and as I said at
+- [19:17] the beginning of the year year to super
+- [19:19] agent is that um the fact is that with
+- [19:23] planning and reasoning these agents have
+- [19:26] became really really capable so I I
+- [19:29] think uh it can still feel PC like
+- [19:32] because everything's maybe not agent
+- [19:35] agent agent in the way that you think,
+- [19:36] but we are all pretty much using agents
+- [19:39] every day. We're just not thinking about
+- [19:40] them in that way.
+- [19:42] >> Yeah. And I guess they're not weaved
+- [19:43] together in kind of like the cohesive
+- [19:45] experience that we've been promised,
+- [19:47] right? Like Chris, you began by saying
+- [19:48] like, well, it's not like Black Friday
+- [19:51] like agent commerce is really going to
+- [19:53] be happening everywhere because all
+- [19:54] these pieces are still missing. They're
+- [19:55] they're there, but they just haven't
+- [19:57] been kind of orchestrated in a certain
+- [19:59] sense. Um, Lauren, I I always joke, you
+- [20:02] know, the agentic consumer demo is
+- [20:04] always like, you need to book a trip and
+- [20:06] he's like, push the button and the trip
+- [20:07] is booked. Um, and I guess kind of what
+- [20:10] Vulkmar is saying is like that that
+- [20:12] isn't that isn't happening. Might take a
+- [20:14] really long time to happen. Do you think
+- [20:16] it eventually will like will we get to
+- [20:18] the much more kind of like consumerry
+- [20:21] agentic experience, right? That like I
+- [20:23] think that is the source of all these
+- [20:25] like splashy videos and startups that
+- [20:27] people are working on. Um, or is that or
+- [20:29] is that kind of I mean Vulmore what I
+- [20:30] heard you saying is almost a little bit
+- [20:31] like the future may not actually look a
+- [20:34] whole lot like that just because of all
+- [20:35] the things you need to package and so
+- [20:37] like all the agents might always be kind
+- [20:39] of a little bit in the background but
+- [20:41] I'm curious about kind of like how far
+- [20:43] to the consumer you think the age agent
+- [20:45] experience will look like.
+- [20:46] >> Yeah, I think the trajectory of just
+- [20:49] LLMs standalone is a really interesting
+- [20:52] one to compare this to. So LLMs we had,
+- [20:56] you know, 2017 the Transformers paper.
+- [20:58] Um 2018 was the year that we got BERT
+- [21:03] and was the year that we got GPT1
+- [21:06] and then 2022 was when we got those
+- [21:09] things available to the end consumer in
+- [21:12] a very very easy way like in the form of
+- [21:14] a web app or a mobile app. So I feel
+- [21:17] like where we are with agents is maybe
+- [21:18] that 2018 like you know not purely
+- [21:22] research paper level but still not in
+- [21:24] the hand not 2022 in the hands of every
+- [21:27] single person. You know we have like our
+- [21:30] GPT1 BERT kind of demos and things to
+- [21:33] look at and then I think the big
+- [21:35] question is will it take four years to
+- [21:38] get into the hands of everyone like it
+- [21:40] did with LLMs? You know, there's
+- [21:42] definitely reason to think that across
+- [21:44] the board, these timelines are
+- [21:46] accelerating. So maybe it could be less
+- [21:48] than four years. We have way more
+- [21:50] attention and investment in this
+- [21:53] technology than we did with, you know,
+- [21:55] there was just low awareness amongst
+- [21:56] the, you know, community of investors
+- [21:59] and people who are going to nudge this
+- [22:01] along back in 2018 of LLMs. Um, so could
+- [22:05] it be faster because of that or could it
+- [22:06] be longer because maybe it's a lot going
+- [22:09] to turn out to be a lot more complicated
+- [22:11] than getting LLMs into production and
+- [22:14] into everyone's hands. So
+- [22:15] >> yeah, it's like I I do like the idea
+- [22:17] this like background hype on AI makes
+- [22:19] all downstream AI things happen faster
+- [22:22] because everybody's paying attention to
+- [22:23] it now. Um, and I guess Lauren, what I
+- [22:26] think this is actually one thing I did
+- [22:27] want to ask you a little bit about is
+- [22:29] that like a big part of this
+- [22:30] acceleration is whether or not it's easy
+- [22:32] for people to develop agentic platforms,
+- [22:35] tools, applications. And do you want to
+- [22:38] give just kind of a flavor of the state
+- [22:39] of the developer ecosystem right now?
+- [22:40] Because I feel like that's a critical
+- [22:41] thing. I mean, I think Vulmar said a
+- [22:43] moment ago, right, like getting these to
+- [22:45] work still takes a lot of work, right?
+- [22:48] And so I feel like that in some ways
+- [22:49] limits our progress just because like
+- [22:50] the number of organizations and people
+- [22:52] who can actually do this is like small.
+- [22:54] And so one way you increase progress is
+- [22:56] you just make it easier for people to
+- [22:58] develop for it. And so interested in how
+- [22:59] you see the developer ecosystem around
+- [23:01] this uh evolving.
+- [23:02] >> I think it's a really really fun time to
+- [23:05] be a developer if you want to try and
+- [23:07] you want to experiment and you can I
+- [23:09] mean you can do that no code. There's
+- [23:10] things like lang flow that you I mean
+- [23:12] it's visual to build an agent and drag
+- [23:15] and drop. That's super cool. that helps
+- [23:17] you not waste a lot of time coding
+- [23:20] something that ultimately you know the
+- [23:21] data is just not there or the LLM just
+- [23:23] doesn't understand all the way to like
+- [23:25] the pro code there's lane chain lane
+- [23:27] graph crew AI autogen semantic kernel
+- [23:30] there's I mean your choice of things and
+- [23:32] some are a bit more easier and
+- [23:34] abstracted to use some give you full
+- [23:37] control if you want it so I think if you
+- [23:39] want to try you have all of the tools to
+- [23:42] do that that should never be the problem
+- [23:44] I think if you want to actually deploy
+- [23:46] deploy that and take it out of, you
+- [23:48] know, a very tightly controlled
+- [23:50] environment with a very, you know,
+- [23:54] precisely specified use case, which is
+- [23:56] probably book a trip. Like you said, if
+- [23:59] you want to ever, you know, expand
+- [24:01] beyond that, actually have it hosted
+- [24:02] somewhere, somewhere where you could
+- [24:04] invite your friends to try it, that's
+- [24:06] where it immediately gets very
+- [24:08] complicated and there's far fewer just
+- [24:12] obvious options of what you're going to
+- [24:14] use. You know, you might have to I mean,
+- [24:17] right now it would probably make sense
+- [24:19] to you want to deploy an agent and have
+- [24:22] it hosted somewhere. You have to figure
+- [24:23] out where to host the agent logic
+- [24:25] itself, which is not really LLM type
+- [24:28] workloads and then a separate
+- [24:30] environment to host the actual inference
+- [24:33] and then patch those two things
+- [24:34] together. So, it's really not ideal. So,
+- [24:37] I think you know actually scaling up,
+- [24:39] sharing, hosting what you build is the
+- [24:42] hard part. So I think it's also one of
+- [24:44] the inhibitors right so if you look at
+- [24:46] it right now we don't have this packaged
+- [24:48] all happy solution and it's the the
+- [24:50] entry barrier we are not at the Shopify
+- [24:53] level right where the you know a mom and
+- [24:56] pop shop can say hey I want to have an
+- [24:58] agent and it should you know deal with
+- [25:00] something um you know and I think the
+- [25:02] the there are some projects we have in
+- [25:05] IBM where we take the the um like the
+- [25:09] flows and the business um like
+- [25:12] description and we're converting that
+- [25:14] straight up from English into like you
+- [25:17] know an a lang flow and so that
+- [25:20] transformation when we are at the point
+- [25:22] that you can actually use English to
+- [25:25] describe what problem you want to
+- [25:26] automate um and not know anything about
+- [25:29] programming I think then you get uh you
+- [25:31] get it to the masses and then you can do
+- [25:33] it on a cell phone right it's like hey
+- [25:35] when I come home I want the lights to be
+- [25:36] on and not like you know build
+- [25:39] automation you know when someone's like
+- [25:41] it's it's the the the interface is just
+- [25:43] like really it's it's um it's a baby
+- [25:46] programmer interface for people who can
+- [25:48] program and that's why nobody uses it
+- [25:50] right but I mean there there's a logic
+- [25:52] and and I can describe that logic in
+- [25:54] English so now you need to be very
+- [25:55] explicit but I think the models can
+- [25:58] already fill in the gaps they are smart
+- [26:00] enough for that if you can get to a
+- [26:02] point similar to you know right now we
+- [26:03] are doing English to code if we can get
+- [26:06] English to agent then we are at a point
+- [26:08] that it's mass consumable and right now
+- [26:11] the interface is are still it's still
+- [26:12] built for programmers. It's not built
+- [26:14] for consumers.
+- [26:15] >> Yeah, that's right. And I feel like that
+- [26:16] vision almost shortcircuits it which is
+- [26:18] like well do you need a developer
+- [26:20] ecosystem, right, for a whole set of
+- [26:23] applications? Um which I think is pretty
+- [26:25] pretty interesting.
+- [26:26] >> I think it's pretty obvious that you
+- [26:27] know someone like I always use Shopify
+- [26:29] but Shopify was this you know if you
+- [26:32] look in the 2000s it was like oh my god
+- [26:34] you can you can run a web server on the
+- [26:36] internet that's amazing right? So I can
+- [26:38] build a billion dollar business and then
+- [26:39] Shopify came along and just in fact we
+- [26:41] democratized this. We are not yet at the
+- [26:44] point it's still high-tech. It's not
+- [26:46] democratized. But it's just a question
+- [26:48] of time that someone wraps it and says
+- [26:50] okay you know I make it really easy and
+- [26:52] and that easiness once you have that and
+- [26:54] you the complexity goes down by a factor
+- [26:56] of 10 or 100 then it will be then you
+- [26:58] know everybody will use it because
+- [27:00] otherwise you die and I think there will
+- [27:02] be an an integration in already these
+- [27:04] type of commerce applications. Um, and
+- [27:07] so the moment someone figures this out,
+- [27:09] well, it will just be wildfire. But I
+- [27:11] think that pivotal moment hasn't
+- [27:12] happened. The Shopify moment for agents
+- [27:15] hasn't happened.
+- [27:15] >> Yeah. There's almost a tension between
+- [27:17] these kind of two pathways. It feels
+- [27:18] like where one of them is Vulmar where
+- [27:20] you're talking about which is like
+- [27:21] language to agent. If we got that really
+- [27:23] good and really powerful, then you
+- [27:25] almost don't need to build a lot of the
+- [27:27] kind of like deployment infrastructure,
+- [27:29] I guess, in some ways that like Lauren
+- [27:31] you're talking about, right? which is oh
+- [27:32] we've got this like prototype we're
+- [27:34] building and then now it's got to be on
+- [27:35] some kind of rails for us to like make
+- [27:36] it more available. There's kind of a
+- [27:39] vision for I guess Vulma where you're
+- [27:40] talking about which is like the consumer
+- [27:42] just simply types in what they want and
+- [27:44] then it it happens basically. Um, I I
+- [27:47] guess Chris, maybe to bring you into the
+- [27:49] conversation, I think going to kind of
+- [27:50] what Lauren is saying about like, okay,
+- [27:52] right now there's lots of ways of kind
+- [27:53] of like prototyping an agent, but the
+- [27:56] minute you want to do anything more
+- [27:57] complicated or to scale it, there's just
+- [27:59] this like gap in the space. Um, do you
+- [28:02] have a sense of kind of like what's
+- [28:03] necessary to sort of mature that right
+- [28:05] now? Is like we're I guess we're still
+- [28:07] waiting on the companies and platforms
+- [28:08] that are going to make that happen.
+- [28:09] >> Yeah, I I think so. I mean I I think it
+- [28:13] is to to take things to your point from
+- [28:16] from P and MVP to scale is a hard
+- [28:20] problem because you know consumers do
+- [28:22] crazy things right so you start to have
+- [28:25] to say well am I am I putting the LLM
+- [28:27] right in front of the consumer and if
+- [28:30] you are at that point then you need to
+- [28:32] guard rail it and that could be things
+- [28:33] like guard models it could be running
+- [28:36] you know deterministic flows in
+- [28:38] conjunction with the AI to keep it on
+- [28:40] track to Vogmar's point about text to
+- [28:43] plans if you look at something like
+- [28:45] claude code if you look at something
+- [28:47] like cursor wind surf etc almost all of
+- [28:50] these things have a built-in planner and
+- [28:52] and so when you ask a question the first
+- [28:55] thing that happens is it goes to the
+- [28:57] planning module for anything complex and
+- [28:59] then the model is kept to the plan and
+- [29:02] you see that you know we talked about
+- [29:03] manis early in the year same sort of
+- [29:05] thing right you ask a task it goes the
+- [29:07] planning module the planning agent uh
+- [29:10] kicks in creates the plan and then the
+- [29:12] agents execute to the plan. And and
+- [29:14] there's a good reason that exists, which
+- [29:17] is if you give an LLM and agent uh a big
+- [29:21] list of tools, who knows what tool it's
+- [29:24] going to pick, right? And and and and my
+- [29:27] favorite one at the moment for this is
+- [29:28] the Kimmy K2 model, right? I love the
+- [29:30] Kimmy K2 model. It can call 200, 300
+- [29:33] tools. It has a long sequential range of
+- [29:36] tool call and it can do a massive amount
+- [29:37] of tools. But you know what it is? You
+- [29:39] give it a tool, it's gonna call it,
+- [29:41] baby. You know what it's like? It's like
+- [29:43] every tool that it's got, it's like, I
+- [29:45] will do it this way. I will do it that
+- [29:47] way. It goes off the rails. It's in a
+- [29:49] phenomenal model, but it goes off the
+- [29:51] rails because it can't keep itself on
+- [29:53] track. And then even when you're
+- [29:55] executing to the plan, quite often the
+- [29:57] models will either use its own memory or
+- [30:00] it will not even bother updating the
+- [30:03] progress. So, it will be like, "Oh, no,
+- [30:04] no, no. I know the answer to this." And
+- [30:06] then just answer it, right? as opposed
+- [30:07] to no I I need you to use the tool.
+- [30:10] Right. Your your information that that
+- [30:11] that you've got isn't enough. I need you
+- [30:13] to use a tool. And it's like no no no I
+- [30:15] know I know this. I know this. And then
+- [30:17] gives it Yeah. Exactly. And it's like
+- [30:18] you don't got it. I do. I do. I do. And
+- [30:20] then and then and even if it does that
+- [30:23] once it's done the task when you're
+- [30:24] following a plan you want to go executed
+- [30:27] step executed step executed. And again
+- [30:29] the model if if you're not deterministic
+- [30:32] and if you leave the model on its own it
+- [30:34] will skip steps in the plan or not even
+- [30:36] update it. Right? So actually to that
+- [30:38] point about frameworks when you want to
+- [30:40] start to get to production that's where
+- [30:42] those sort of frameworks become really
+- [30:44] important in place but but the reality
+- [30:47] is that there's not a lot of you you you
+- [30:50] then back to a developer mindset to be
+- [30:52] able to put those frameworks in place to
+- [30:54] deploy. They're not out of the box. I
+- [30:56] think I think when we see that being a
+- [30:58] mass thing, those frameworks are either
+- [31:01] just going to be part of the platform
+- [31:02] and ecosystem you deploy your code onto
+- [31:04] it or that's going to be solved at the
+- [31:06] model level.
+- [31:07] >> So I guess in the last few minutes I
+- [31:08] want to talk a little bit about sort of
+- [31:10] we've been talking about technically
+- [31:11] what needs to happen for 2026 I guess to
+- [31:14] be the the the real year of the agent.
+- [31:16] Um I'm interested a little bit in sort
+- [31:19] of like uh winners and losers and kind
+- [31:22] of platforms here, right? Um, you know,
+- [31:24] I I guess the question is like are the
+- [31:26] winners in agent land from a platform
+- [31:28] standpoint going to be the winners in AI
+- [31:31] in general, right? Like is it going to
+- [31:32] be, you know, open AI and Enthropic that
+- [31:35] end up dominating the kind of like
+- [31:37] agentic ecosystem? Will it be, you know,
+- [31:40] some of the maybe the cloud players that
+- [31:41] really end up doing this? Uh, I don't
+- [31:43] know if anyone here has any strong
+- [31:44] priors on like who's well positioned to
+- [31:46] kind of really be the the major platform
+- [31:49] for this space.
+- [31:50] >> I think there are two questions to
+- [31:52] answer. So one is what model or what
+- [31:55] model zoo do I need to use um to
+- [31:58] actually get good results and what Chris
+- [32:01] just said was you know that these things
+- [32:03] go off the rails and so you need to kind
+- [32:05] of babysit them into giving you the the
+- [32:06] right answer. I had a case where I you
+- [32:09] know I tried to program something and it
+- [32:11] had an API call and the API call didn't
+- [32:13] work and so in the end the model just
+- [32:15] decided like oh I I just stub it and you
+- [32:19] know I just call my own function and
+- [32:20] it's like look I'm done it works right
+- [32:22] and didn't do anything anymore. So it's
+- [32:24] like the solution is don't do anything
+- [32:26] and then I'm good and it's like success
+- [32:28] congratulations. So I think there's a
+- [32:31] the whole like how do we manage the
+- [32:34] model and uh that's um that's a hard
+- [32:37] problem in itself right um building a
+- [32:40] model like right now we are the state of
+- [32:42] the world is you need these frontier
+- [32:44] models because otherwise the reasoning
+- [32:45] capabilities are not not you know not
+- [32:48] prevalent enough now I think that
+- [32:50] probably next year we will see people
+- [32:52] just building like planning models like
+- [32:55] you just focus on one thing get the
+- [32:57] planning right and then of course the
+- [32:59] the models underneath to execute the
+- [33:01] plan and not go off the track and right
+- [33:03] now I don't think we have done that. Uh
+- [33:05] and so I think the the the frontier
+- [33:07] models are really the only place where
+- [33:09] it can go right now but of course with
+- [33:10] humongous cost associated to it. So so
+- [33:13] we will see um like the smaller models
+- [33:15] being specialized for planning. Um the
+- [33:19] uh I think the second question is how
+- [33:22] you execute this and where you execute
+- [33:24] this. And I think that's a that's a
+- [33:26] really good question. My belief is and
+- [33:28] this where I'm also taking uh like the
+- [33:31] our product is AI is everywhere. There
+- [33:34] is no place where AI is not right. So
+- [33:37] the idea that we are like oh we're just
+- [33:38] putting a bunch of you know H100s or
+- [33:40] H200s in the data center and that's
+- [33:42] where all the AI will happen. That's
+- [33:44] just not true. Like we will see
+- [33:46] pervasive application. It will happen on
+- [33:48] your cell phone. It will happen in the
+- [33:50] data center. And so um the real trick
+- [33:53] here is who can make those agents
+- [33:55] cost-effective because in the end right
+- [33:57] now the work is done right in in
+- [33:58] Portugal in in business scenarios um the
+- [34:01] work is done by labor right there is a
+- [34:03] person who is currently doing it by hand
+- [34:06] and what we are hoping for is that the
+- [34:07] agents a replace the people who do it by
+- [34:09] hand so that the people who are doing by
+- [34:11] things by hand can do better things. Um
+- [34:14] and then the other one is uh we want to
+- [34:16] have agents in the hands where right now
+- [34:18] the work doesn't get done at all. right
+- [34:20] or poorly. So I we want to get more
+- [34:22] choices. And so that one is really now a
+- [34:25] cost optimization problem. And so I
+- [34:27] think there's an industry at the bottom
+- [34:29] of like we need to efficiently run that
+- [34:32] capacity that infrastructure so that we
+- [34:34] bring down the cost of these agents you
+- [34:36] know by 10 or 100x and if we hit that
+- [34:39] then it will be pervasive. Right now we
+- [34:41] are using it primarily for like high
+- [34:43] value tasks which are incredibly labor
+- [34:45] intensive right or which are very very
+- [34:48] controlled. So I can actually say I have
+- [34:50] you know thousands of people doing this
+- [34:52] but I can put an agent behind it um
+- [34:54] because it's a confined enough problem
+- [34:56] space that I can supervise and watch it
+- [34:58] and so the moment these things get more
+- [35:00] powerful and we bring the cost down I
+- [35:02] think then it will be a more pervasive
+- [35:04] application.
+- [35:04] >> Yeah that's right. I like seeing that
+- [35:05] kind of like almost like the market sort
+- [35:07] of dividing between sort of maybe like
+- [35:08] the existing frontier AI model companies
+- [35:11] going more agentic and like that's kind
+- [35:13] of one part of the market and then
+- [35:14] there's a whole kind of like cost
+- [35:16] efficiency universe that kind of emerges
+- [35:18] and they they also like you know the
+- [35:20] frontier model companies might also get
+- [35:22] into that but it's also like maybe looks
+- [35:23] like a very different kind of market and
+- [35:25] a very different kind of ecosystem. Um,
+- [35:28] Lauren, I'm curious about how you divide
+- [35:29] up the future agentic market. Is it, you
+- [35:32] know, one model model's to rule them
+- [35:34] all? You know, is it uh I just kind of
+- [35:36] curious there's many ways this could
+- [35:37] play out and I'm sort of interested in
+- [35:38] how you how you forecast here. Yeah, I
+- [35:40] think whoever can make something
+- [35:42] repeatable will win because it really
+- [35:45] feels like this moment of agents right
+- [35:47] now is like traditional AI 10 years ago
+- [35:50] where it was really cool that you could
+- [35:53] build an AI model to do anything, but
+- [35:56] you had to do that from scratch. So you
+- [35:58] wanted it to predict education outcomes,
+- [36:00] you had to find the data, train the
+- [36:02] model just for that, refine it, and then
+- [36:05] package it up and use it. And then if
+- [36:07] you wanted it to do something else, you
+- [36:08] had to start over. It was a whole
+- [36:09] endto-end process every time. And that's
+- [36:12] kind of what agent building is right
+- [36:14] now. And it's even more painful because
+- [36:16] it's not just code based, it's language
+- [36:19] based. So so much of that rebuilding is
+- [36:21] like prompting it and figuring out how
+- [36:23] to nudge it in certain directions and
+- [36:26] get it to use tools sometimes and not
+- [36:27] other times and use the tools in better
+- [36:29] ways. So I feel like if there
+- [36:33] I mean the breakthrough with traditional
+- [36:34] AI was foundation models. We then
+- [36:37] trained bigger better models because we
+- [36:40] could we had more data we had more
+- [36:41] compute and then that one model could do
+- [36:45] different things because it knew a
+- [36:47] little bit of everything. I think if we
+- [36:49] similarly had some concept of foundation
+- [36:52] agents it could work similar um and then
+- [36:55] you know kind of reduce that friction of
+- [36:57] having to build from scratch every
+- [36:59] single time.
+- [37:00] >> Yeah for sure. And you think the winners
+- [37:01] that are best positioned I guess there
+- [37:03] would be the existing leaders right like
+- [37:05] I guess they take their model polish it
+- [37:07] off and then it's the foundation at
+- [37:09] Gentic you know model basically
+- [37:11] >> and I don't even think it would be model
+- [37:12] at this point it would be orchestration
+- [37:15] of multiple models plus other um you
+- [37:18] know constraints put on that
+- [37:21] >> um I really don't know I don't know if
+- [37:23] it would be the existing leaders or is
+- [37:26] it going to be some dark horse that
+- [37:28] builds one agent initially builds one
+- [37:30] agent to do one specific thing but then
+- [37:33] takes the pieces of that you know
+- [37:36] whatever percent of the code and uses
+- [37:38] that to do a second thing and then a
+- [37:40] third thing and then eventually because
+- [37:42] that was kind of the AWS story right is
+- [37:43] they were building for themselves to do
+- [37:45] something specific initially but then a
+- [37:48] lot of that cloud infrastructure could
+- [37:49] be used for other things beyond that so
+- [37:51] I think there is a scenario where that
+- [37:54] happens where someone just commits to a
+- [37:56] use case and initially you know they're
+- [37:58] kind of looked down upon because they're
+- [38:00] using AI to just do one thing but do it
+- [38:03] well, but then they realize what the
+- [38:05] pattern is to expand to other things and
+- [38:07] eventually build something that's more
+- [38:09] repeatable and more of a platform.
+- [38:10] >> Yeah, that's very rich. I never really
+- [38:12] thought about that as basically like
+- [38:13] what's the specific agentic problem that
+- [38:16] if you solve unlocks the largest number
+- [38:18] of subsequent agentic problems and it's
+- [38:20] kind of interesting to think about like
+- [38:22] is that is that the travel planning one?
+- [38:24] Like what what what is that use case?
+- [38:26] So, um Chris, do you want to give us a
+- [38:28] final thought here before we close up? I
+- [38:30] don't think this is a finite game. I
+- [38:32] don't think there is a winner. I think
+- [38:33] this is the classic Simon Sync infinite
+- [38:35] game. I think um the players are going
+- [38:37] to play until they run out of resources
+- [38:40] and they can no longer play the game.
+- [38:41] And I think that's that's that's what's
+- [38:44] going to happen, right? So I I think a
+- [38:46] lot of the technology and the techniques
+- [38:48] is known. I think it's well known across
+- [38:51] the world and the limiting factor is
+- [38:52] resource. But in an agentic world, the
+- [38:55] the models need to get smaller and
+- [38:57] smarter and they need and in the future
+- [38:58] be able to fit on a chip, right? And and
+- [39:00] therefore I I just don't think there is
+- [39:03] a winner in this scenario. So who do I
+- [39:06] think is going to win? I think we're
+- [39:07] going to win, right? I think it opens up
+- [39:10] a creator ecosystem. What I hope that it
+- [39:12] breaks up is all these kind of web 2
+- [39:15] massive companies controlling everything
+- [39:18] and we can get a a more uh surrounded
+- [39:21] marketplace. That's what I believe in.
+- [39:22] And and and the biggest thing if I think
+- [39:25] about this is what what I think was
+- [39:28] going to happen for 26 and 27 is you
+- [39:30] remember the Rick Rubin episode where I
+- [39:32] was frantically uh googling who Rick
+- [39:35] Rubin was so and I could give an
+- [39:36] intelligent answer to your question,
+- [39:38] Tim. Um I'm obsessed with Rick Rubin at
+- [39:41] the moment because actually I think
+- [39:45] composition is where we're going. I
+- [39:47] think 26 and 27 is going to be about
+- [39:49] marketplace, but I think it's going to
+- [39:51] be about being being producers. And
+- [39:54] you're going to say, "Okay, I've got
+- [39:55] this model over here and I've got my
+- [39:56] piece of data and I've got my brand and
+- [39:58] my style and I've got these five tools
+- [40:00] and then I'm going to combine them
+- [40:01] together into my ecosystem and I'm going
+- [40:03] to create something new and beautiful
+- [40:05] and therefore and that's going to be my
+- [40:07] product." And and so I I hope that's
+- [40:09] what happens is that it's not this this
+- [40:13] one model or whatever is is the winner.
+- [40:15] That's a depressing future. What I'm
+- [40:17] hoping is this vibrant, amazing
+- [40:19] ecosystem and marketplace where
+- [40:21] everybody's got a chance to use AI to
+- [40:23] improve their lives, personalize it to
+- [40:25] them, and create their own company's
+- [40:27] products and data without the
+- [40:28] limitations that we have today. So,
+- [40:30] we're going to be the winners. And but
+- [40:32] but I I think these model providers,
+- [40:33] they're going to come and go, right? And
+- [40:36] we saw that this year. Who you know who
+- [40:38] who was Moonshot and Kimmy, right? You
+- [40:40] know, ask that question six months ago,
+- [40:43] right? And then and then if we go back
+- [40:45] last year, who was DeepSeek, right? Same
+- [40:47] sort of thing. And and new new model
+- [40:50] providers are going to come in. And you
+- [40:51] remember when we were super excited
+- [40:53] about Manis again? I expect them to come
+- [40:56] back at some point. Just people are
+- [40:57] going to come in and out and it's and
+- [40:59] it's fine and it's okay. But uh yeah,
+- [41:01] who knows for the future, but it's going
+- [41:02] to be fun.
+- [41:03] >> Nice. Well, on that hopeful note, I'm
+- [41:06] going to let you all get to your
+- [41:07] impending holidays. Uh Vulmar, Lauren,
+- [41:09] Chris, thanks for joining us. And thanks
+- [41:11] to you listeners for joining us. Uh, if
+- [41:12] you enjoyed what you heard, you can get
+- [41:13] us on Apple Podcast, Spotify, and
+- [41:15] podcast platforms everywhere. And we'll
+- [41:17] see you next week on Mixture of Experts.

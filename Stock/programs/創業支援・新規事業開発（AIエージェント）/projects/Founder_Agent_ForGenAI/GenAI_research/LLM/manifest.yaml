@@ -1,0 +1,31 @@
+version: 1
+purpose: "LLMへ渡す際の推奨ファイルセット（読み順と優先度）"
+
+core:
+  - path: "LLM/00_INDEX.md"
+  - path: "LLM/01_LifeisBeautiful_insights.md"
+  - path: "LLM/02_Ochyai_Note_insights.md"
+  - path: "LLM/03_source_map.md"
+  - path: "LLM/10_prompt_template.md"
+
+priority_A_sources:
+  - path: "LifeisBeautiful/2025-02-04_週刊Life is beautiful ２０２５年２月４日号 quotMove 37quotモーメン.md"
+    why: "DeepSeek/AIインフラ投資/ジェボンズのパラドックス/投資家視点"
+  - path: "LifeisBeautiful/2025-04-15_週刊Life is beautiful ２０２５年４月１５日号Agent2Agent protoco.md"
+    why: "エージェント間プロトコル・標準化の話題"
+  - path: "LifeisBeautiful/2025-06-17_週刊Life is beautiful ２０２５年６月１７日号 Claude CodeAIにコーディ.md"
+    why: "AIによる開発生産性・現場適用の話題"
+  - path: "LifeisBeautiful/2025-06-24_週刊Life is beautiful ２０２５年６月２４日号OpenAI CodexProduct.md"
+    why: "Codex/プロダクト化・エージェント実装の話題"
+  - path: "LifeisBeautiful/2025-07-08_週刊Life is beautiful ２０２５年７月８日号AI時代の社会保証制度米中の対立と日本が.md"
+    why: "未来社会（社会保障・制度設計）"
+  - path: "LifeisBeautiful/2025-08-26_週刊Life is beautiful ２０２５年８月２６日号AIによる仕事の消失が最初に始まった業.md"
+    why: "雇用・労働市場の変化"
+  - path: "Ochyai_Note/articles/2025-12-21_鉄道・運河・オープンソース：展開のパラドックスとAIの公共財化:資本破壊がいかにして社会的繁栄の礎となるか｜落合陽一.md"
+    why: "AIバブルをインフラ革命として捉える枠組み（公共財化）"
+
+exclude_globs:
+  - "Ochyai_Note/images/**"
+  - "Ochyai_Note/**/__pycache__/**"
+  - "Ochyai_Note/articles/*.json"
+  - "**/.DS_Store"

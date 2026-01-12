@@ -1,0 +1,336 @@
+---
+title: "Transcript: U2iFkardx9g"
+video_id: "U2iFkardx9g"
+video_url: "https://www.youtube.com/watch?v=U2iFkardx9g"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:11:39"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: U2iFkardx9g
+
+- URL: https://www.youtube.com/watch?v=U2iFkardx9g
+- Retrieved at: 2025-12-30T11:00:20+09:00
+
+## Text
+
+- [00:00] Quite recently, I made a video
+- [00:01] showcasing what I believe is the ideal
+- [00:04] AI coding workflow for consistently
+- [00:06] producing highquality code. And at the
+- [00:08] center of that workflow were two models
+- [00:11] that are both incredible. Both excel in
+- [00:14] very different ways. The Gemini 3.0 Pro
+- [00:16] is all about speed, minimalism, and
+- [00:19] precision instruction following and
+- [00:21] making it so that it is able to generate
+- [00:23] highquality front-end code. The cloud
+- [00:26] opus 4.5 on the other hand is something
+- [00:28] that shines when it comes to full
+- [00:30] production systems with deep
+- [00:32] architecture and tool level coding. So
+- [00:35] how do you get the best of both worlds?
+- [00:37] You combine them. In that previous
+- [00:39] video, I showcase a workflow using Kilo
+- [00:42] Code, which works great, but it isn't
+- [00:44] free. That's why I'm back again to
+- [00:46] showcase another method that lets you
+- [00:49] fully leverage these two AI giants
+- [00:51] completely for free. And it's inside
+- [00:53] Google's IDE called Anti-gravity. And it
+- [00:56] gets even better. Anti-gravity now has
+- [00:59] added Pod 4.5 Opus. And it means that
+- [01:02] you can run this exact dual model
+- [01:04] workflow directly inside Google's
+- [01:07] ecosystem. And on top of that, if you
+- [01:09] have a Google AI Pro or Ultra
+- [01:12] subscription, you now get a higher rate
+- [01:14] limit within Anti-Gravity. And this is
+- [01:16] because previously they weren't getting
+- [01:19] any sort of benefit for having the
+- [01:20] subscription. But now you have it so
+- [01:23] that they have a generous rate limit
+- [01:24] with quotes that refresh every 5 hours.
+- [01:28] And don't worry, even with the free
+- [01:29] tier, you have received an increased
+- [01:31] usage. So, you're going to be able to
+- [01:33] use a lot of different features
+- [01:34] completely for free within anti-gravity
+- [01:37] while accessing top tier models like
+- [01:38] Gemini 3 Pro as well as Claude 4.5 Opus.
+- [01:42] Also, another huge benefit that I highly
+- [01:45] recommend that you use is if you are a
+- [01:47] student, make sure you go ahead and
+- [01:49] start your free trial cuz you have the
+- [01:51] ability to access all of Google's AI
+- [01:54] suite of tools completely for free for a
+- [01:56] year. So you get like a pro tier
+- [01:58] completely for free where you get the
+- [02:00] ability to access all these different
+- [02:02] tools including anti-gravity where you
+- [02:04] can access these tool models. In
+- [02:06] essence, by pairing Gemini's fast, clean
+- [02:09] front-end generation with Claude's deep
+- [02:11] back-end reasoning and architectural
+- [02:13] planning, you end up with an ultimate
+- [02:15] dual engine AI coding system. One model
+- [02:18] designs and the other prototypes at
+- [02:20] lightning fast speed, while the other
+- [02:22] builds robust productionready systems.
+- [02:24] Together, they produce better quality
+- [02:26] code apps faster and smarter than either
+- [02:30] model could alone. So, to get started,
+- [02:32] head over to Google's Anti-Gravity
+- [02:34] website, which I'll leave a link in the
+- [02:36] description below. And make sure you go
+- [02:37] ahead and have uh a Google account on
+- [02:40] standby cuz you're going to be needing
+- [02:41] that to access anti-gravity. You can
+- [02:43] install it for whatever operating system
+- [02:45] you have. You can install it for Mac OS,
+- [02:47] Windows, as well as Linux. I'll suggest
+- [02:49] an FI for those who do not know what
+- [02:51] anti-gravity is. It's Google's very new
+- [02:53] Agentic AI code editor which is enabling
+- [02:57] you to autonomously operate across the
+- [02:59] editor, terminal, and browser. And it's
+- [03:01] an optimal tool that's completely free
+- [03:03] and a direct competitor to cursor.
+- [03:06] Before we get started, I just want to
+- [03:07] mention that you should definitely go
+- [03:09] ahead and subscribe to the World of AI
+- [03:11] newsletter. I'm constantly posting
+- [03:13] different newsletters on a weekly basis.
+- [03:15] So this is where you can easily get
+- [03:18] up-to-date knowledge about what is
+- [03:20] happening in the AI space. So definitely
+- [03:22] go ahead and subscribe as this is
+- [03:23] completely for free. After configuring
+- [03:26] anti-gravity to your preference as well
+- [03:29] as logging in with a Google account,
+- [03:31] what you can now do is within this
+- [03:33] right-hand panel, the agent mode, what
+- [03:35] you want to do is click on these three
+- [03:37] dots and you can click on customization.
+- [03:39] This is where within the rules, you can
+- [03:41] either set it so that it uses it as a
+- [03:44] global rule or you can set it to a
+- [03:46] specific workspace, which is ideal, but
+- [03:50] for this example, I'm going to be adding
+- [03:52] it as a global rule. And I'll leave this
+- [03:54] system prompt in the description below.
+- [03:56] Essentially, it's the best way to
+- [03:58] combine the Claude 4.5 Opus and Gemini
+- [04:00] 3.0 through this hybrid approach. And it
+- [04:04] is something that exploits their
+- [04:06] complimentary strengths like leveraging
+- [04:08] Gemini 3.0's know speed as well as its
+- [04:10] massive context window for rapid
+- [04:12] frontend and UI designing. It is also
+- [04:15] going to be helping us with its
+- [04:16] multimodal task and large context
+- [04:18] analysis. But it will then use the cloud
+- [04:21] 4.5 opus where it is going to be able to
+- [04:24] implement its superior agentic precision
+- [04:27] and reliability. It is also going to
+- [04:29] help with debugging and deep reasoning.
+- [04:32] So how I particularly use these to model
+- [04:34] is having Claude 4.5 Opus be used as the
+- [04:38] primary model for planning and using its
+- [04:41] deep reasoning capabilities and then
+- [04:43] switching over to Gemini 3.0 to
+- [04:45] following through with the plan as well
+- [04:48] as the implementation. And you can
+- [04:50] obviously have Cloud Opus 4.5 be
+- [04:53] implemented in any step of the
+- [04:56] generation. This is where you can
+- [04:58] specify within the system prompt to have
+- [05:00] it tap in whenever it's needed. And it
+- [05:03] can also debug the overall codebase
+- [05:06] whenever it's needed as well. So now
+- [05:08] since we are ready, we can go ahead and
+- [05:11] open up a new workspace where we can
+- [05:13] start prototyping as well as just simply
+- [05:15] just coding. This is where we're going
+- [05:17] to be creating a new app which is where
+- [05:21] it is going to be able to convert UI
+- [05:23] mockups into real production ready web
+- [05:25] applications. And this is by combining
+- [05:27] these two models to help us do this.
+- [05:29] We're going to start off with the
+- [05:30] planning phase. Within the planning
+- [05:32] phase, the agent is going to be able to
+- [05:34] thoroughly and meticulously state all
+- [05:37] the different tasks that the Gemini
+- [05:39] model is going to be needing to take.
+- [05:41] So, we can select the planning mode and
+- [05:43] we can send in our prompt. And now that
+- [05:46] our global rules are also activated, it
+- [05:48] is going to thoroughly hand off to the
+- [05:50] Gemini 3.0 know whenever it needs to
+- [05:53] scaffold and start building out all the
+- [05:55] components. Save some time. I had it
+- [05:58] generate the plan and it's still
+- [06:00] actually generating it cuz I'm refining
+- [06:02] it and adding more features. This is the
+- [06:04] task list. This is something that will
+- [06:07] generate different phases as to how it's
+- [06:09] going to implement a functional app like
+- [06:12] in this case the mockup creator. And it
+- [06:15] also created a detailed implementation
+- [06:17] plan. This is where it talks about a
+- [06:20] full list of how it's going to implement
+- [06:22] it, the architecture overview, which is
+- [06:24] insane that it developed this, as well
+- [06:27] as the core user flow, what sort of
+- [06:29] apps, the project structure, different
+- [06:31] files, the system tokens, as well as the
+- [06:34] design system, like the color palette.
+- [06:37] There's so much that goes into this. And
+- [06:39] this is why I really like using the Opus
+- [06:41] 4.5 cuz it is really detailed in every
+- [06:45] way possible when it comes to backend as
+- [06:47] well as setting up different plans for
+- [06:50] your agent to follow through with. So
+- [06:52] now it looks like it is taking in the
+- [06:54] implementation process and it is setting
+- [06:57] up the project foundation with the
+- [06:58] Gemini 3 Pro and you can see all the
+- [07:01] diffs being opened where it's creating
+- [07:03] the UI components and mapping out
+- [07:05] everything.
+- [07:07] So it looks like it is finally finished
+- [07:09] with the generation to create our mockup
+- [07:12] to app engine. Essentially it was able
+- [07:15] to thoroughly implement the
+- [07:17] implementation plan that the claude opus
+- [07:19] 4.5 generated. And now thanks to the
+- [07:22] Gemini 3.0 working with the Opus model,
+- [07:25] it was able to generate this beautiful
+- [07:27] app. We can start off with the sketch
+- [07:29] wireframe where we can simply go ahead
+- [07:31] and draw something with the shapes as
+- [07:33] well as the draw uh feature and we can
+- [07:36] describe what we want it to generate. So
+- [07:38] in this case I can say I want to
+- [07:40] generate a newsletter blog post and we
+- [07:45] can generate the UI for that specific
+- [07:47] thing that we requested. This will take
+- [07:49] a couple seconds and there we go. We
+- [07:51] have our newsletter blog fully
+- [07:54] generated. It didn't generate the image,
+- [07:56] but it did generate the same structure
+- [07:58] that we were looking for. And there's
+- [08:00] actually a way for you to uh see the
+- [08:02] wireframe that you had uploaded that
+- [08:05] will represent the future generation as
+- [08:07] well. So you can get a clear idea of how
+- [08:10] the previous generation looks with the
+- [08:12] new gen. But there's also an editor
+- [08:14] built within. So if you actually click
+- [08:17] on code, you can see that it is an
+- [08:20] editor that you can tweak when you
+- [08:21] switch it over to the edit mode. But
+- [08:24] this is something that has been
+- [08:25] integrated thanks to the cloud 4.5
+- [08:29] working on creating a detail plan to
+- [08:31] implement the project files within this
+- [08:33] app. Now one thing that you can also do
+- [08:36] is you have a couple of other things
+- [08:38] like a style turner. So you can change
+- [08:40] it to a modern deck or other styles that
+- [08:44] will change the overall UI of our app
+- [08:47] that we had generated. And there we go.
+- [08:50] Just like that, we have a darker theme
+- [08:52] added to our newsletter blog. You can
+- [08:55] also request it to write tests, mock
+- [08:58] data, magic, animate, and you also have
+- [09:00] other styles and presets. So, if you
+- [09:03] want to create a playful style, it can
+- [09:05] do that as well. And you can even chat
+- [09:07] with the AI itself. There is an AI
+- [09:10] assistant that gets you better
+- [09:12] understanding because it has context of
+- [09:14] your overall project, which is a feature
+- [09:16] that I also requested the Opus model to
+- [09:18] generate.
+- [09:20] And over here we have the playful theme
+- [09:22] that has been added. Not too beautiful
+- [09:25] or anything, but it's something that is
+- [09:27] able to do. Now in the actual uh
+- [09:30] assistant, we can actually work with it
+- [09:32] to have a better idea of what our
+- [09:35] project is about. So we can ask it what
+- [09:38] is the app tsx file and it will give us
+- [09:42] a response on what that overall file is.
+- [09:45] Gives us a breakdown of it. There's also
+- [09:47] a code health where you can run an audit
+- [09:50] to understand if the generation that it
+- [09:53] had worked upon is falter or not and it
+- [09:57] will allow you to actually fix it
+- [09:58] automatically directly within this panel
+- [10:01] and within the history you can see the
+- [10:03] previous generations of whatever you had
+- [10:06] worked upon and you can even restore it
+- [10:07] over here. This was a simple app that I
+- [10:10] had generated properly with these tool
+- [10:13] models integrated. And to be honest, if
+- [10:15] I was to actually uh provide a better
+- [10:18] system prompt, I would be able to get
+- [10:20] better generations and maybe even sell
+- [10:22] this app that I created with the
+- [10:24] combination of these two models within a
+- [10:27] free tier within Google's anti-gravity
+- [10:30] IDE. If you like this video and would
+- [10:32] love to support the channel, you can
+- [10:34] consider donating to my channel through
+- [10:36] the super thanks option below. Or you
+- [10:39] can consider joining our private Discord
+- [10:41] where you can access multiple
+- [10:42] subscriptions to different AI tools for
+- [10:44] free on a monthly basis, plus daily AI
+- [10:47] news and exclusive content, plus a lot
+- [10:50] more. There's so much more to this. And
+- [10:53] if there is anything that you think
+- [10:55] would be better with the system prompt
+- [10:57] or with the workflow, please let me know
+- [10:59] cuz I'm always looking to improve this
+- [11:01] workflow even further. And this is
+- [11:04] obviously a better way for others to
+- [11:05] actually learn and get a better workflow
+- [11:08] integrated within their editors or
+- [11:10] whatever workflow they have. But that's
+- [11:12] basically it, guys. I hope you found
+- [11:13] this video to be helpful. This is a free
+- [11:15] way to use these two models within a
+- [11:18] great editor like anti-gravity. I'll
+- [11:20] leave these links in the description
+- [11:21] below. Make sure you go ahead and
+- [11:23] subscribe to the second channel, join
+- [11:24] the newsletter, join our Discord, follow
+- [11:26] me on Twitter, and lastly, make sure you
+- [11:28] guys subscribe, turn on notification
+- [11:30] bell, like this video, and please take a
+- [11:31] look at our previous videos because
+- [11:32] there's a lot of content that you will
+- [11:34] truly benefit from. But with that
+- [11:36] thought, guys, have an amazing day,
+- [11:37] spare positivity, and I'll see you guys
+- [11:39] fairly shortly. He saw fuzz.

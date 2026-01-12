@@ -1,0 +1,453 @@
+---
+title: "YouTube Video: 5AfJ0N3MvpA"
+video_id: "5AfJ0N3MvpA"
+video_url: "https://www.youtube.com/watch?v=5AfJ0N3MvpA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+summary: |
+  Hello all, my name is Krishna and uh welcome to my YouTube channel. So guys um before I proceed, I really want to wish you a very happy teachers day. I pray to God that you achieve all your goals in y...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "AI Technical"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 5AfJ0N3MvpA
+
+- URL: https://www.youtube.com/watch?v=5AfJ0N3MvpA
+- Retrieved at: 2025-12-30T09:37:09+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and uh
+- [00:02] welcome to my YouTube channel. So guys
+- [00:04] um before I proceed, I really want to
+- [00:06] wish you a very happy teachers day. I
+- [00:09] pray to God that you achieve all your
+- [00:11] goals in your life and you do well for
+- [00:14] yourself and your family members. Now in
+- [00:16] this particular video I'm going to talk
+- [00:18] about future of coding with the help of
+- [00:19] AI agents. And uh the reason why I'm
+- [00:22] making this specific video is that
+- [00:24] because you should definitely have a new
+- [00:26] perspective like how applications are
+- [00:29] being currently built. Okay? Because
+- [00:31] this will be really really helpful for
+- [00:33] you all in companies and uh definitely
+- [00:35] to improve your productivity. This video
+- [00:37] will be must okay. So uh let's go ahead
+- [00:41] and let's talk about when I started my
+- [00:42] IT IT career right in 2011. I would
+- [00:45] suggest like in 2011 if you were
+- [00:47] starting at that point of time you know
+- [00:50] coding definitely was a very difficult
+- [00:52] work you know why because you needed to
+- [00:55] refer so many things to implement
+- [00:56] anything as such you know you cannot
+- [00:58] just buy heart each and everything you
+- [01:00] had books you had some of the blogs you
+- [01:03] had stack overflow but now as things are
+- [01:06] getting evolved you know you know how AI
+- [01:08] has got evolved from machine learning to
+- [01:10] deep learning to generative AI agentic
+- [01:12] AI now you have so many different kind
+- [01:14] of LLA models
+- [01:15] you know which are able to probably do a
+- [01:17] lot of task for you generate code and
+- [01:20] you know in short it is improving your
+- [01:22] productivity so if you see from 2011 to
+- [01:26] 2025 I really feel blessed because I've
+- [01:28] seen almost each and everything I'm an
+- [01:30] experienced coder so definitely for me
+- [01:34] this will be a productivity kind of
+- [01:36] thing for me right I now if I really
+- [01:38] want to do any kind of coding all the
+- [01:41] repetitive tasks that I used to do no I
+- [01:44] will be able to do it with the help of
+- [01:45] AI only new concepts that I really
+- [01:48] wanted to do for that I had to actually
+- [01:50] put my mind right so currently the
+- [01:53] coding culture is completely different
+- [01:55] with the help of AI agents and in this
+- [01:58] particular video I'll be talking about
+- [01:59] that so let's let's go ahead and share
+- [02:00] my screen and as I said guys before
+- [02:05] let's say in 2011 12 13 right whenever
+- [02:08] we had a startup idea right definitely
+- [02:10] we needed to have some kind of team
+- [02:12] members to develop the prototype type to
+- [02:14] develop the MVP product. But now things
+- [02:17] are different you know since AI is
+- [02:19] there. Uh if you have a startup idea
+- [02:22] definitely go ahead and implement it.
+- [02:24] You know at least implement the MVB
+- [02:26] product and uh you know with that MVB
+- [02:30] product at least showcase it to the
+- [02:31] entire world like how is the idea
+- [02:33] whether it is good or bad. Many people
+- [02:35] will give hundreds of feedbacks for you
+- [02:37] right and you may be thinking Krish how
+- [02:39] that will be possible how me and for to
+- [02:43] implement this definitely you need to
+- [02:45] have some kind of coding background if
+- [02:47] you're a fresher this will not be
+- [02:48] possible right in this today's time you
+- [02:51] really need to be a very very good coder
+- [02:53] if you really want to start something of
+- [02:55] your own right because if you have that
+- [02:57] particular knowledge you'll be quickly
+- [02:59] able to develop a prototype once you
+- [03:01] develop a prototype once you develop an
+- [03:02] MVP product once you showcase that to
+- [03:04] the world if you get good feedbacks that
+- [03:06] is the stage that you should go ahead
+- [03:08] with it right so in this now I'll show
+- [03:12] you like how if you also are a starter
+- [03:15] and you're probably thinking of a
+- [03:17] startup idea you want to probably
+- [03:19] develop the MVP product now how the
+- [03:21] coding culture has completely changed
+- [03:24] with the help of AI agent so usually
+- [03:26] there are a lot of AI agents that we
+- [03:28] specifically use for coding there are
+- [03:29] like GitHub copilot we have cloudy code
+- [03:31] and all right so let's say that this is
+- [03:34] uh if are following my rag playlist. Um
+- [03:36] these were all the codes that I have
+- [03:38] explained in my previous session and all
+- [03:39] right and now you see if I have this
+- [03:43] entire code now I want to convert this
+- [03:45] into a modular structure right in
+- [03:46] Jupyter notebook you can see that
+- [03:48] quickly I have done some ideation I
+- [03:50] created something I developed the rack
+- [03:52] pipeline step by step I did it right now
+- [03:56] in order to convert this into a modular
+- [03:57] coding do you think that I will just go
+- [03:59] ahead and create keep on creating a
+- [04:01] files for myself make sure to create
+- [04:04] that folder structure do the importing
+- [04:05] this that brief before I used to do this
+- [04:08] right before I used to do this if I talk
+- [04:10] about four to five years back uh I would
+- [04:12] suggest okay I have to develop
+- [04:14] everything from scratch and go to this
+- [04:15] but now because of the AI agents what
+- [04:18] has actually changed so let me just go
+- [04:20] ahead and quickly show you so here what
+- [04:22] I will do I will just go back to my
+- [04:24] extension and here I will just go ahead
+- [04:25] and install GitHub copilot now if you
+- [04:28] don't know what is GitHub copilot so
+- [04:30] GitHub copilot is your AI pair
+- [04:32] programmer right and recently GitHub
+- [04:34] copilot have also come up with a uh
+- [04:36] agent which is called as uh GitHub
+- [04:38] copilot chat. So in the chat what
+- [04:41] happens is that whenever you open the
+- [04:43] chat right so how do you open the chat?
+- [04:45] First of all you go to GitHub copilot
+- [04:47] install it you know for me GitHub has
+- [04:49] given this for free you know for some
+- [04:51] number of request every month because I
+- [04:53] was a GitHub star. So I will just try to
+- [04:56] go ahead and use this. So let's say that
+- [04:57] I will go ahead and
+- [04:59] uh click on open chat. Okay. So here you
+- [05:01] can see open chart right and you can see
+- [05:04] over here that all the kind of
+- [05:06] instruction that I have earlier given
+- [05:07] over here. Okay. So let's say that I I
+- [05:10] uh once you open this particular chart
+- [05:12] right so this is just like a AI
+- [05:13] programmer pair programmer. So here you
+- [05:15] basically go ahead and select the agent
+- [05:17] you select what model you really want to
+- [05:19] use. Let's say that I want to use GPT41.
+- [05:21] So let's say I will go ahead and ask hey
+- [05:23] please explain me about the about the
+- [05:28] explain me about the project repository
+- [05:34] okay
+- [05:36] repository
+- [05:39] I'll I'll just go ahead and ask this
+- [05:40] particular question now here you can see
+- [05:42] that um it'll take some time it'll go
+- [05:45] ahead and explore everything that is
+- [05:47] present over here and it'll give me the
+- [05:48] answer right now I know that let's say
+- [05:50] that I want to probably go ahead and
+- [05:51] develop a rag application. Okay. So now
+- [05:53] I want to go ahead and do it in a
+- [05:55] modular coding.
+- [05:57] I am already an experienced developer. I
+- [05:59] know the concepts very well. So do you
+- [06:01] think that I really have to do the
+- [06:03] coding? Even though I know the coding.
+- [06:05] Okay, I know the coding. I can
+- [06:06] definitely do the coding over here. It
+- [06:08] will take me a couple of days to
+- [06:10] complete the project. But what if I just
+- [06:13] want to quickly test the prototype in 1
+- [06:15] hour? I can do that. So here see what
+- [06:17] I'll do. I'll say hey inside the src
+- [06:19] folder initially initially implement
+- [06:24] logging and exception handling. So let's
+- [06:26] say that I have given this particular
+- [06:28] because I know before I I really want to
+- [06:30] go ahead and do or start any of this
+- [06:33] particular project I need to implement
+- [06:35] uh the logging and exception handling.
+- [06:37] Okay. So here all the logs should be
+- [06:41] stored in the log folder in the
+- [06:46] log folder in the
+- [06:49] root workspace. Okay. So see I've just
+- [06:53] written this now automatically what will
+- [06:55] happen it'll think what what is the
+- [06:57] question that I have actually given and
+- [06:58] here now it is going to go ahead and
+- [07:00] create a log folder. So somewhere you'll
+- [07:02] be able to see that checklist. It has
+- [07:04] said that create a log folder in this.
+- [07:06] It'll create an entire plan how the
+- [07:08] execution is basically going to happen.
+- [07:10] Now automatically a log folder is
+- [07:11] created over here. This is my logger.
+- [07:13] This is my exception. Here you can see
+- [07:14] this right here is my logging. Here is
+- [07:18] my here is my exception. Here is my
+- [07:19] logger. Right? And this code is
+- [07:22] definitely from the same thing what you
+- [07:23] have actually used in the documentation
+- [07:25] and all. So now I will just go ahead and
+- [07:27] keep this and even I can go ahead and do
+- [07:29] the testing if I want. Okay. So now what
+- [07:32] I will do I will also say update
+- [07:36] the code with the test condition
+- [07:42] inside a main function inside the main
+- [07:45] function within the file
+- [07:48] within the file. Now if I just go ahead
+- [07:51] and see the code you know I will be able
+- [07:53] to understand the code itself. So that
+- [07:55] is this reason I said that hey
+- [07:58] this is what I'm actually going to do is
+- [08:00] that the main thing is that I need to
+- [08:01] understand the code. If I'm able to
+- [08:03] understand the code I know I will be
+- [08:04] able to do the testing. Okay. Now you
+- [08:06] see this I have updated the main file.
+- [08:08] Okay. So main over here you can see test
+- [08:10] condition test flag is equal to the
+- [08:11] value error exception. This is a test
+- [08:13] exception. Okay. Now I'll go ahead and
+- [08:15] keep it. Now quickly I will if I want to
+- [08:18] go ahead and execute it then how I'll do
+- [08:20] it. I will first of all go ahead and
+- [08:22] open my command prompt. I will activate
+- [08:24] my u virtual environment and here I will
+- [08:27] just go ahead and write python main. py.
+- [08:30] So once I execute it here you can see
+- [08:32] that exception is basically getting
+- [08:34] handled right now. Do you see in app.log
+- [08:37] anything is getting updated. Yes it is
+- [08:39] getting updated right now quickly you
+- [08:41] could see right if I really wanted to
+- [08:44] implement the for my for my experience
+- [08:46] right if I want to really implement
+- [08:48] exception handing and logging it would
+- [08:49] have taken me 15 minutes. I have to
+- [08:51] probably go ahead and see the
+- [08:52] documentation. I would had probably seen
+- [08:54] what all parameters are basically
+- [08:55] required each and everything right now
+- [08:57] see logging and exception is done. Now
+- [08:59] what I can do I can again close this.
+- [09:01] See this okay I know the first step is
+- [09:03] data injection. And I'll say hey
+- [09:04] implement in a rag implement the data
+- [09:08] injection
+- [09:10] in rag inside or I'll just say that hey
+- [09:15] create a data injection
+- [09:19] dot py file
+- [09:22] data injection py file inside the source
+- [09:26] folder source folder and it should read
+- [09:33] all the PDF files
+- [09:37] inside the data folder
+- [09:42] data folder
+- [09:44] using langen document loader let's say
+- [09:47] langchen document and convert into and
+- [09:50] convert into
+- [09:52] langen documents now this is my data
+- [09:54] injection now I've given the instruction
+- [09:56] I know how to do this okay I I
+- [09:59] definitely know how to do this okay now
+- [10:01] for every instruction that I do it'll
+- [10:03] basically create a plan okay and it'll
+- [10:06] start working on it see the file is
+- [10:07] basically created now here you can see
+- [10:09] that I have all these things and it has
+- [10:11] also executed this name function and
+- [10:13] such right now here you can just go
+- [10:15] ahead and load all the PDFs right so
+- [10:17] here you can see ole directory PDF path
+- [10:19] right and PDF path is basically where uh
+- [10:21] here you can actually go ahead and see
+- [10:23] the PDF path so PDF directory PDF
+- [10:25] directory is over here if I just go
+- [10:27] ahead and see here is also given the
+- [10:30] file name that is data PDF see data
+- [10:33] Right now, if you want to quickly go
+- [10:34] ahead and execute it, I'll keep this
+- [10:36] particular code. Right? And I will just
+- [10:38] go ahead and write Python source data
+- [10:42] data injection py.
+- [10:47] Right? So here with the help of GitHub
+- [10:49] copilot, I'm able to quickly test things
+- [10:52] over here. Now this will get executed.
+- [10:53] It'll go ahead and see that how many
+- [10:54] number of PDF files is basically over
+- [10:56] here. Right? And here you can see that
+- [10:58] it is being able to read it.
+- [11:01] beautifully right now before just
+- [11:04] imagine if I did not use coding agent
+- [11:06] right how much time this was basically
+- [11:08] taking yes I can go and write this code
+- [11:11] I'll do some kind of Google search I'll
+- [11:12] see the documentation how to read from a
+- [11:14] PDF di because I cannot buy the code
+- [11:16] itself right so these are all my code
+- [11:20] that is redundant all the times I keep
+- [11:22] on writing if I really want to go ahead
+- [11:23] and write data injection I definitely
+- [11:25] had to probably go ahead and do it again
+- [11:26] and again because these agents have
+- [11:28] already been trained with huge amount of
+- [11:30] data itself self right now let's say
+- [11:32] that next step I will go ahead over here
+- [11:35] and I'll say after data injection what
+- [11:36] do we do let's go ahead and implement
+- [11:38] the chunking so I'll say hey uh create
+- [11:41] chunker py
+- [11:43] file inside the source folder
+- [11:48] source folder and create and uh perform
+- [11:54] chunking
+- [11:56] perform chunking perform chunking
+- [12:01] perform chunking
+- [12:03] after the data injection pipeline. Okay.
+- [12:08] Now see I'm just doing this okay I I've
+- [12:11] just written in a very vague manner
+- [12:13] create chunker. And so I'm perform
+- [12:15] chunking after the data injection
+- [12:16] pipeline. So this is basically planned
+- [12:18] my chunker.py has been created. Now I'm
+- [12:20] also using model structure. Okay. So
+- [12:22] here you can see definition chunker. So
+- [12:25] here we have basically called load pdf
+- [12:27] and then chunking is basically there. I
+- [12:29] can also go ahead and tell them hey
+- [12:31] please use modular coding please use
+- [12:32] classes automatically. Okay so let me
+- [12:35] say hey can you use classes
+- [12:40] inside chunka
+- [12:42] py.
+- [12:44] So here what I'm doing is that if I want
+- [12:46] a function I can go ahead and this is
+- [12:48] for starters. If I want to make it more
+- [12:50] complex I can tell uh my GitHub copilot
+- [12:53] agent uh specifically the chat agent to
+- [12:56] probably go ahead and refactor the code.
+- [12:58] Right. So here you can see that now I
+- [13:00] will go ahead and keep it.
+- [13:03] So these all things are basically
+- [13:04] getting update. I'll go ahead and keep
+- [13:05] it. And here you can see now I have a
+- [13:07] class and I have an init method. And
+- [13:09] then the same thing is basically
+- [13:10] happening over here. Now if I want to
+- [13:11] quickly go ahead and execute this,
+- [13:14] right? I will clear the screen. I will
+- [13:16] clear the screen and I will say hey
+- [13:20] let's do one thing. Let's do just go
+- [13:22] ahead and execute python src/chunker.
+- [13:26] py. Now what will happen? Both the
+- [13:28] pipeline will get executed.
+- [13:31] Now see overall the main thing is that
+- [13:34] you need to know the concept. If you
+- [13:36] know the concept you can create a plan
+- [13:38] and you can keep on executing and this
+- [13:39] is how the future of coding is going to
+- [13:41] look like. Okay. This is definitely how
+- [13:43] the future of coding is going to look
+- [13:45] like. Now here you will be able to see
+- [13:47] that let's let's go to uh one of the
+- [13:50] courses that see my main aim of
+- [13:52] launching anything that you see around
+- [13:56] yourself is for a specific reason if I
+- [13:58] go to krishna.in Right? If I go to live
+- [14:01] classes, so here what we are doing
+- [14:04] generative AI for everyone. We are
+- [14:06] bringing up this specific course and we
+- [14:07] teach all these things over here. Right?
+- [14:10] We say people that hey how you can go
+- [14:12] ahead and probably do this. You need not
+- [14:14] even have a coding knowledge but at
+- [14:15] least some basic idea of coding is more
+- [14:17] than sufficient to get started. Right?
+- [14:19] Here we are saying that how we can use
+- [14:21] these all amazing tools and how
+- [14:24] beautiful things you can actually do
+- [14:25] with this. Here we show you that how you
+- [14:27] can use all these tools along with this.
+- [14:30] I also use cloudy cloudy code. So if you
+- [14:32] know about cloudy code so that is also a
+- [14:35] very good handy AI agent for useful for
+- [14:38] integration with the code and all right
+- [14:40] I use that part. But I hope you're
+- [14:42] getting an idea like how now the coding
+- [14:44] is basically going to change. This is
+- [14:48] really important. Now let me talk about
+- [14:49] some of the pros and cons in this. Now
+- [14:51] you may be thinking can a fresher start
+- [14:53] with this? No,
+- [14:55] you become a good coder and then try to
+- [14:58] use this for your productivity. That's
+- [15:00] it. You know before any projects that I
+- [15:03] really wanted to build. See, I have a
+- [15:05] lot of knowledge. I have a lot of
+- [15:06] architecture knowledge. I've done a lot
+- [15:08] of different kind of projects. I've seen
+- [15:09] different different complexity. Just
+- [15:12] imagine for implementing a project I
+- [15:14] will definitely say that hey I know all
+- [15:16] this stuffs. Now I'll tell my agent to
+- [15:18] specifically do that. People lack that
+- [15:21] thing. If you do not have that knowledge
+- [15:23] how you will be able to use the
+- [15:24] productivity a so for that you need to
+- [15:27] be a better coder you need to start from
+- [15:29] scratch you need to get a better handy
+- [15:31] knowledge for person who are very highly
+- [15:34] experienced if they have some kind of
+- [15:36] MVP ideas in them they can directly go
+- [15:38] ahead and implement this and that is
+- [15:40] what the future looks like with respect
+- [15:42] to coding so I hope you like this
+- [15:44] particular video this was it from my
+- [15:45] side I'll see you on the next video
+- [15:47] thank

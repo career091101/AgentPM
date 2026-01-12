@@ -1,0 +1,1622 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=v0btR9rK5NM"
+video_id: "v0btR9rK5NM"
+video_url: "https://www.youtube.com/watch?v=v0btR9rK5NM"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "startup", "PMF", "AI", "investment", "funding", "team_building", "product_development"]
+topics: ["資金調達", "組織構築", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=v0btR9rK5NM
+  - Retrieved at: 2025-12-30T16:36:20+09:00
+  - [00:00] So yeah, let's uh let's go ahead and get
+key_points:
+  - "- [02:42] more importantly um we can handle uh"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: v0btR9rK5NM
+
+- URL: https://www.youtube.com/watch?v=v0btR9rK5NM
+- Retrieved at: 2025-12-30T16:36:20+09:00
+
+## Text
+
+- [00:00] So yeah, let's uh let's go ahead and get
+- [00:03] started. Um um so
+- [00:07] some of you have already seen me for
+- [00:09] those of you who have been here this uh
+- [00:11] since this morning. So you have seen me.
+- [00:12] My name is Raj Bal. I'm the founder of
+- [00:14] Aento AI. I'm also the founder of data
+- [00:16] science dojo but I mean Aento is a new
+- [00:19] thing that I'm doing. Um so the uh in uh
+- [00:24] in this panel we are going to focus on
+- [00:26] MCP which is uh which is really central
+- [00:30] to what we call context engineering and
+- [00:33] uh MCP is being positioned as a as a
+- [00:37] powerful way to simplify context
+- [00:39] engineering for agentic AI applications.
+- [00:42] Um and I like that analogy of the USBC
+- [00:46] of all the data sources for LLM
+- [00:48] applications.
+- [00:50] Um so making it easy to connect uh you
+- [00:53] know really more standardize uh
+- [00:56] standardize your um data sharing with uh
+- [01:01] uh in a manner that is very similar to
+- [01:03] uh the rest APIs. Um so you standardize
+- [01:07] you know all the AI agent connections to
+- [01:10] tools, data sources and workflows. uh
+- [01:13] but but as we uh start adopting uh MCP
+- [01:18] tools, there are uh there are actually
+- [01:21] uh concerns around governance and
+- [01:24] security and primarily around um uh is
+- [01:28] there a chance that these MCP servers
+- [01:30] and tools they will become new vectors
+- [01:33] for security risks. Uh what will be the
+- [01:36] governance practice uh practices? Um and
+- [01:39] uh we are uh we have built uh the
+- [01:42] platform that we are building. I mean
+- [01:43] one of the things that actually is uh is
+- [01:46] a concern is where we are uh concerned
+- [01:50] about the role based access to any MCP
+- [01:53] calls and uh and how do organizations
+- [01:57] actually balance the speed of innovation
+- [01:59] with the guardrails and required
+- [02:00] compliance and safety uh first. So I
+- [02:05] will uh go ahead and um you know welcome
+- [02:08] all of you. I will go ahead and ask you
+- [02:10] all uh to go around and uh introduce
+- [02:13] yourselves and uh we'll take it from
+- [02:15] there. Uh Alex, you want to go first?
+- [02:18] >> Hey uh I'm Alex Salazar. I am the
+- [02:20] co-founder CEO of arcade.dev and we are
+- [02:25] an MCP execution and authorization
+- [02:28] platform. meaning that uh we have a
+- [02:31] number of MCP servers and toolkits um
+- [02:34] for for use for out of the box like
+- [02:37] Google and Slack etc.
+- [02:39] um we can execute custom MCP servers but
+- [02:42] more importantly um we can handle uh
+- [02:45] what's called agent authorization can
+- [02:47] this agent on behalf of this user
+- [02:49] perform this action on this resource and
+- [02:52] that's one of the big one of the big
+- [02:54] problems in SAP today so and uh my team
+- [02:57] is most of my team is former octa
+- [02:59] including myself
+- [03:01] >> thank you Alex Mark you want to
+- [03:03] >> sure nice to meet all of you uh my name
+- [03:05] is Mark Cavage I'm president of docker
+- [03:07] uh my background ground personally is
+- [03:09] building developer platforms for I don't
+- [03:10] know 25 30 years I guess I'm old at this
+- [03:12] point I was early AWS I ran Java for a
+- [03:14] while I ran most of Stripe um I've done
+- [03:17] a lot of stuff u but I'm super excited
+- [03:18] about where Docker is going um we're
+- [03:20] super invested in developer productivity
+- [03:22] security and AI um and across all those
+- [03:25] AI and MCP kind of sit at the
+- [03:27] intersection and what I'll say is um you
+- [03:30] know we're in the nice position of
+- [03:32] Docker being such a widely used and
+- [03:34] ubiquitous platform I get the privilege
+- [03:36] to talk to a ton of customers and users
+- [03:38] And what I'll say is uh at this point I
+- [03:40] feel like there's like at best 1% of the
+- [03:42] population that is not thinking about
+- [03:44] how to adopt MCP and that's an equal
+- [03:47] amount of both excitement and euphoria
+- [03:49] and also confusion and kind of like oh
+- [03:52] my god I'm scared uh for all the reasons
+- [03:54] kind of previously talked about. So
+- [03:55] really excited to talk to you guys all
+- [03:56] today and be here and talk about that.
+- [03:59] >> Thank you Mark. Uh
+- [04:02] >> hey thanks Raja. uh I lead uh
+- [04:05] engineering for ecosystem and
+- [04:07] marketplace at Atlassian. Um you know
+- [04:09] I'm similar to you Mark very passionate
+- [04:12] about platform and tool sets and enable
+- [04:14] all builders across you know multiple
+- [04:16] different uh uh you know uh geographies
+- [04:19] as well as uh different uh uh industries
+- [04:23] to be enable them to use the Atlassian
+- [04:25] products and you know essentially my
+- [04:26] teams build platforms that others can
+- [04:28] extend and build on top of Atlassian. So
+- [04:30] we have a forge platform to build
+- [04:31] applications and now the Atlassian MCP
+- [04:34] as well as of course more directly APIs
+- [04:36] as well. So this helps uh the builders
+- [04:38] and each of the enterprises then
+- [04:40] customize the Atlassian instance that
+- [04:43] they have to actually serve more and
+- [04:45] more purposes beyond what we built out
+- [04:47] of the box. So I'm super passionate
+- [04:48] about this space um and really looking
+- [04:51] forward to this conversation today about
+- [04:52] how we think about MCP across the
+- [04:54] industry.
+- [04:56] >> Thank you so much Reena and thanks
+- [04:57] everyone for um the introductions. So
+- [05:00] let's uh uh dive right in. Um so um so
+- [05:03] I'm an educator at heart, right? So I'm
+- [05:05] an engineer but also an educator. So
+- [05:07] first thing that I would like to do is
+- [05:09] uh so we have a diverse audience. Uh
+- [05:11] would any of you uh like to describe MCP
+- [05:14] for anyone who has been in technology
+- [05:17] but they don't know aki. So what is MCP
+- [05:21] and why does it matter?
+- [05:27] >> Nobody's going to jump. I can jump
+- [05:29] >> just any of you.
+- [05:30] >> Sure. Yeah. Um I'll I'll I'll start and
+- [05:33] then uh yeah, Alex and Rita jump in. Um
+- [05:36] uh the the way I mean Raj, you kind of
+- [05:39] said this at the beginning, MCP is just
+- [05:40] sort of this universal description of
+- [05:42] how to present your systems and your
+- [05:44] your data um and your services to an
+- [05:47] LLM. And you know, an LLM doesn't
+- [05:50] actually make calls for you. It tells
+- [05:52] you what it wants to go call. So
+- [05:53] something has to describe what that what
+- [05:55] those things are. So for example, if you
+- [05:57] have, you know, a Postgress database or
+- [05:59] a Graphana interface or a Jira catalog
+- [06:01] or whatever, you know, you can you can
+- [06:04] in the old days you would basically have
+- [06:06] to describe that all manually to the LM
+- [06:07] of here's this thing that you can call
+- [06:09] me back for and get access to. MCP is a
+- [06:11] standardized way of doing that and gives
+- [06:13] you these building blocks for both how
+- [06:15] to connect to it and sort of a standard
+- [06:17] for how to go present that information.
+- [06:19] So you can, you know, the the the unit
+- [06:21] the the the metaphor that always goes
+- [06:22] around is the USB socket or USBC socket
+- [06:24] for um uh uh for LMs, but think of it as
+- [06:28] effectively just a standard way of
+- [06:30] describing some system that you want to
+- [06:32] get the LM to understand and be able to
+- [06:34] interrogate and act on.
+- [06:36] >> Yeah, I'll that's a great definition.
+- [06:39] I'll I'll build on that. Um if you look
+- [06:42] at how an agent's built, there's there's
+- [06:45] just there's a few tiers that every
+- [06:47] agent has. You have the large language
+- [06:49] model acting as the brain coordinating
+- [06:52] how the workflow is being executed. You
+- [06:55] have some semblance of an orchestration
+- [06:58] system that's building some
+- [07:00] predetermined set of workflows or rough
+- [07:02] approximations of workflows around that
+- [07:03] large language model. And then all of
+- [07:06] those workflows ultimately
+- [07:08] tend to terminate a tool call. Um this
+- [07:11] is where the that the agent takes an
+- [07:13] action and that could be a retrieval, it
+- [07:14] could be a manipulation, um it could be
+- [07:17] anything.
+- [07:19] when the agent goes to take an action,
+- [07:21] the protocol between the agent and the
+- [07:24] action increasingly is becoming MCP.
+- [07:27] Now, I think where I think people are
+- [07:30] getting really tripped up with MCP in a
+- [07:33] in true agent building is they they're
+- [07:36] using them like like APIs. Um, and I
+- [07:40] think that's why so many uh agents are
+- [07:42] having a hard time. um MCP like APIs are
+- [07:46] a service contract. They are describing
+- [07:49] how your service works so that another
+- [07:51] service can interact with it.
+- [07:54] That's not a really good use of MCP. Um
+- [07:57] APIs are actually great for that. Um MCP
+- [07:59] is best used when it's the actually the
+- [08:01] inverse. It is kind of like the service
+- [08:04] contract for the agent of what it's
+- [08:06] trying to do. And so, um, you know,
+- [08:10] having like a like a MongoDB or a Jira
+- [08:13] MCP service, it's valuable for sure, but
+- [08:16] the agent almost never actually cares
+- [08:18] about the downstream service. It really
+- [08:21] cares about the action it's trying to
+- [08:22] take. And I'll give you a really, really
+- [08:24] mundane example. Um, let's say that I'm
+- [08:26] building a sales agent and it's going to
+- [08:29] help me brief, you know, my rep before
+- [08:31] they walk into an account, you know, so
+- [08:33] I have a one pager and the right
+- [08:34] brochures and the right talking points,
+- [08:36] all that fun stuff. It's going to hit
+- [08:37] the CRM. It's going to hit Google Drive
+- [08:38] for brochures. It's going to check email
+- [08:41] for past communication. So, let's say we
+- [08:43] have a Google Drive tool, Google Drive
+- [08:45] toolkit, Google Drive MCP. Let's assume
+- [08:47] Google was all in on MCP. Uh, my agent,
+- [08:50] if I was using the direct Google Drive
+- [08:52] MCP server, would need to know how to
+- [08:56] traverse the Google Drive, you know,
+- [09:00] file structure to go find the right
+- [09:01] brochures. To do that, right, I need to
+- [09:04] stuff context into the agent to explain
+- [09:07] to it how to find the right brochures by
+- [09:09] using Drive. The better way to do it is
+- [09:12] to build a brochure MCP server because
+- [09:15] that's what the agent's attempting to
+- [09:16] do. And then that thing can talk to a
+- [09:19] Google Drive MCP server if it wants to.
+- [09:22] Truth is, it's probably better off
+- [09:23] talking to the Google APIs
+- [09:25] because that's really the the thing
+- [09:27] that's trying to be achieved. MCP or
+- [09:29] tools in general are intentbased
+- [09:32] workflows, not service based contracts.
+- [09:36] >> Yeah. Uh thank you, Alex and Mark.
+- [09:38] Right. So I I love the I love the way
+- [09:40] you described it. Uh so so basically
+- [09:43] what you're saying is that the
+- [09:44] responsibility for uh describing the
+- [09:47] contract is on the publisher side.
+- [09:49] whoever publishes the MCP server and
+- [09:51] then the caller it because I just uh I
+- [09:55] just call uh in natural language and the
+- [09:58] on the other side it is the job of the
+- [10:01] uh the MCP server publisher to actually
+- [10:04] standardize how
+- [10:05] >> oh I would say the way around right like
+- [10:08] you know hot take I think the reason why
+- [10:10] you know so many of the services are
+- [10:12] releasing MCP servers and they're
+- [10:14] getting adoption is because the first
+- [10:16] wave of MCP adoption are is cursor and
+- [10:21] warp, right? It is it is general
+- [10:24] engineering services. And so when the
+- [10:27] user is trying to like when trying to
+- [10:30] communicate about what they want to do
+- [10:31] in a prompt when they want to interact
+- [10:33] with Jira or linear or you know docker
+- [10:36] or MongoDB they are stating intentions
+- [10:39] that are almost tightly onetoone mapped
+- [10:42] to what those services do. Um, I'll give
+- [10:46] you an example. Like I I actually have
+- [10:48] just as much success, if not more, using
+- [10:51] the AWS or the GitHub command line tool
+- [10:54] in my agent than I do the actual MCP
+- [10:57] server because the intent is mapped
+- [11:00] almost one to one. Um, but if you look
+- [11:03] at the agents that are being built in
+- [11:04] the enterprise or in production, they
+- [11:07] have nothing to do with the downstream
+- [11:08] services, right? like they're trying to
+- [11:10] achieve a higher order business goal and
+- [11:12] the downstream services are really
+- [11:14] implementation details. And so like an
+- [11:17] MCP server in in practice in in in
+- [11:20] production is just tightly coupled to
+- [11:23] the agents intent. And so what we've
+- [11:25] been seeing is that they do best when
+- [11:28] they're written by the application
+- [11:30] developer, not the downstream service
+- [11:33] provider.
+- [11:34] >> Yeah. Yeah.
+- [11:35] >> Yeah. I would I would plus one that I
+- [11:37] think the best uses that we're finding
+- [11:39] as well is when we're describing in the
+- [11:41] MCP server tools as how we would want
+- [11:45] that agentic application to use it and
+- [11:47] you know really um inside the MCP server
+- [11:50] the most critical part is the tools that
+- [11:51] we're exposing and then how we are
+- [11:53] actually describing the intent of those
+- [11:55] tools and the tools are not a onetoone
+- [11:57] mapping with the APIs they will use APIs
+- [11:59] underlying it but often times it's a
+- [12:01] combination of multiple APIs that bring
+- [12:04] it
+- [12:06] And Mark, do you want to add something?
+- [12:08] >> I I'll just double down on what Alex and
+- [12:10] Rena both said. Alex said that and Reena
+- [12:11] just said at the end that really this
+- [12:13] point of the MCPs being effectively like
+- [12:16] deacto teddy is I have a rest API and I
+- [12:18] slapped an MCP on top of it. That is a
+- [12:20] starting point. But to Alex's point
+- [12:22] doesn't it only it only kind of works.
+- [12:24] And actually the way I I give a lot of
+- [12:25] people advice this is it's incredibly
+- [12:27] easy to write an basic MCP server that
+- [12:29] does that. It's actually incredibly hard
+- [12:31] to write one that's good that actually
+- [12:33] expresses intent and actually solves
+- [12:35] goals that are built for an LLM. Like
+- [12:37] there's a big difference between REST
+- [12:38] APIs for curl and what the LM actually
+- [12:40] needs. And I think that gap is something
+- [12:43] everybody's kind of trying to still
+- [12:45] figure out as we as basically as we
+- [12:46] speak. So
+- [12:47] >> yeah, and that gap is measured very
+- [12:50] objectively um and quantifiably. It is
+- [12:53] about token minimization,
+- [12:56] error rate minimization, and latency
+- [12:58] minimization. And so if you give an
+- [13:01] agent a generic MCP server, like the
+- [13:05] most the the the hardest example, the
+- [13:07] one that most people fail on is like a
+- [13:09] database MCP server, right? If you give
+- [13:12] your agent like a MongoDB MCP server and
+- [13:17] you just interact directly with it,
+- [13:19] you're going to have a very hard time.
+- [13:20] you're going to have to stuff it with so
+- [13:22] much context. You're going to have to do
+- [13:24] so many turns on it to get what you want
+- [13:27] that you're ultimately going to consume
+- [13:29] a ton of tokens. You're going to have
+- [13:32] really high latency and as a result of
+- [13:34] both of those, you're going to have high
+- [13:36] error rates. And that's not nothing to
+- [13:38] do with MongoDB. They did a great job
+- [13:39] with their with their MCP server. I
+- [13:41] think it's a fantastic implementation.
+- [13:43] It's just you're using the wrong tool
+- [13:44] for the wrong job. What the developer
+- [13:47] should be doing is they should be
+- [13:48] building an MCP server themselves that
+- [13:52] represents the kinds of activity or
+- [13:55] intentions that the agent wants to
+- [13:57] perform that just happen to consume
+- [14:01] MongoDB.
+- [14:03] And when you do that, it's a one shot.
+- [14:06] It's like, hey, pull up users. There's
+- [14:08] no checking the database to see do you
+- [14:10] what does your table even look like? the
+- [14:12] SCP server already encapsulates like
+- [14:15] what it means to look up a user. So,
+- [14:17] it's one it's one call. There's you
+- [14:20] don't you don't need very much context
+- [14:21] at all. Um and as a result, it's
+- [14:24] cheaper, faster, and lower error rate.
+- [14:27] >> Okay.
+- [14:28] >> And Alex, I'm glad you pointed this out,
+- [14:30] right? So, so some of the MCP servers
+- [14:32] that uh I've used, I don't want to name
+- [14:34] names here, right? So, in many cases,
+- [14:37] right? So, um so my intent is missed,
+- [14:40] right? So what I'm trying to do it it
+- [14:42] really it really doesn't get done right.
+- [14:44] So uh so
+- [14:47] uh does does this uh uh does this
+- [14:50] actually
+- [14:52] um make you um you know so if it is more
+- [14:55] of a descriptive or generative task
+- [14:58] that's a different story but if it is
+- [15:00] more an action that I have to take right
+- [15:02] so any misfired action based on a wrong
+- [15:07] understanding or interpretation of my
+- [15:09] intent it can actually expose the
+- [15:11] organization to all sorts of problems.
+- [15:14] So my next question actually the
+- [15:16] follow-up question is going to be uh so
+- [15:19] what are the most pressing uh security
+- [15:22] and governance uh risks when deploying
+- [15:24] MCP right so the the so-called arbback
+- [15:29] or role based access control right so uh
+- [15:31] when you deploy an MCP server uh uh is
+- [15:34] it going to be the system user that is
+- [15:37] going to be deploying it or is it going
+- [15:39] to be individual when I use it is it my
+- [15:42] application that is using that MCP P
+- [15:43] server or am I using it as Raja right so
+- [15:46] and going and using that MCP server so
+- [15:48] my question for uh for you um perhaps
+- [15:51] Mark maybe I can start with you here um
+- [15:55] so h how what are the most pressing uh
+- [15:58] security risks uh when deploying MCPs uh
+- [16:01] because you are you're doing a lot of
+- [16:03] work in that space so let let's start
+- [16:06] with Mark right and and how do these
+- [16:08] differ uh from a traditional API or
+- [16:10] plug-in integration
+- [16:12] >> sure yeah actually I'm going to get to
+- [16:13] that. I I do want to hit on a point or
+- [16:15] build on something Alex just said though
+- [16:16] on this because I I I don't know about
+- [16:18] Reena and Alex if you guys have this
+- [16:19] experience. Um I talked to a lot of
+- [16:21] people about MCP and like the thing that
+- [16:23] comes up is like oh what are we talking
+- [16:24] about? It'll all be MCP remotes and it's
+- [16:26] all fine. And the thing I keep telling
+- [16:28] people is literally what Alex just said
+- [16:29] and why why we're so invested in Docker
+- [16:31] on these being containers being the
+- [16:32] right platform from this. You can can
+- [16:34] change where you deploy it. I deeply
+- [16:36] believe everybody's got to get their
+- [16:37] head around the thing Alex said of you
+- [16:39] you the application developer have to go
+- [16:41] write an MCP server that can itself
+- [16:43] build on somebody. You can go build on
+- [16:45] the you can build on the stripe,
+- [16:46] you can build on the Twilio, that'll all
+- [16:48] be useful, but so much of these things
+- [16:50] are actually about business goals. And
+- [16:51] the business goal is fundamentally about
+- [16:53] that organization and their setup that I
+- [16:55] think most people you're not going to
+- [16:57] actually get what you want with most
+- [16:59] off-the-shelf things. You're going to
+- [17:00] have to go build a lot of these
+- [17:01] yourselves and actually put the thought
+- [17:03] and logic into that. So that's anyway
+- [17:04] just as a as an assertion this is why
+- [17:06] like we know I'll put the one the one
+- [17:08] shameless plug above um
+- [17:10] >> and Mark and Mark you're referring to
+- [17:12] this as a consumer on my a consumer or
+- [17:14] as a publisher of MCP server right so so
+- [17:17] as a consumer I have to add
+- [17:20] >> honestly honestly I think either so
+- [17:22] there's the people building MCP servers
+- [17:23] that want you know let's call them an
+- [17:25] independent software value arena and you
+- [17:26] want you're an ISV you need to have a
+- [17:28] you know MCP server out for your stack
+- [17:30] or your Docker or whatever else and then
+- [17:33] but a consumer if you if you posit that
+- [17:36] everybody is writing agents in the year
+- [17:37] 2025 or if everybody's at least thinking
+- [17:39] about writing agents and in 2026 they're
+- [17:40] definitely writing agents if you're
+- [17:43] doing that you basically have to both
+- [17:45] consume MCP and produce MCPS yourself
+- [17:48] and so there's not really a difference
+- [17:50] in my opinion and in which case this
+- [17:52] really requires you to then effectively
+- [17:53] go back to okay what does it take to
+- [17:55] build and package software because
+- [17:57] that's all it is and how to go share
+- [17:59] that with somebody else and you have all
+- [18:00] the same problems that you've always had
+- [18:02] around okay where's the credentials
+- [18:03] where does it run? How do I get it
+- [18:05] there? How do I share to somebody else?
+- [18:06] How do I version it? How do I revoke it?
+- [18:08] Like all that stuff. And so that's, you
+- [18:09] know, just we we we at Docker have been
+- [18:11] putting a very emphatic uh voice out to
+- [18:13] the industry that OCI uh container open
+- [18:16] container initiative is the right way to
+- [18:18] go do that and package the ones that you
+- [18:20] yourself build regardless what you're
+- [18:22] consuming. Anyways, that's my my plug on
+- [18:24] the uh
+- [18:26] before I get into the security the
+- [18:28] security panel section of Alex. Alex,
+- [18:29] you're going to jump in.
+- [18:31] No, I I actually that's a great lead
+- [18:33] into a security comp to your own
+- [18:34] security answer about tell. But I would
+- [18:36] say that we actually agree with you. We
+- [18:38] all of our all of our toolkits are
+- [18:41] containerized with Docker
+- [18:42] >> because I don't know how else you would
+- [18:44] do it. Uh it's madness without it. Uh
+- [18:47] but anyways, Mike, back to you. I think
+- [18:49] you're answering the security question.
+- [18:50] >> Yeah. Yeah. But that mostly that's a it
+- [18:53] was a was a good was a good build and a
+- [18:54] good, you know, a good thing for people
+- [18:56] to understand that you're going to be
+- [18:57] writing them yourself. whether you're
+- [18:58] going to use them or not, you're going
+- [18:59] to write them yourself. Okay. So, in
+- [19:01] terms of like what are the problems and
+- [19:02] what's different um I'll give you some
+- [19:04] I'll give you some kind of hot take
+- [19:05] snarky takes and then some actual you
+- [19:07] know substantive things. Um hot take I
+- [19:09] think right now like nobody knows what's
+- [19:11] going on. You do talk to any company and
+- [19:12] effectively I get the following story of
+- [19:14] like what are you doing with AI? I'm all
+- [19:16] in on co-pilot. We love the co-pilot.
+- [19:17] Oh, but then the developers found cursor
+- [19:19] and then oh my god I don't know what
+- [19:20] they connected to the cursor to the Jira
+- [19:22] to the service now and like it's madness
+- [19:24] and I don't know what's going on. That's
+- [19:26] effectively every company that um I
+- [19:28] speak to. And I think what that means
+- [19:31] then really is at the most basic level
+- [19:32] before we get to all the fancy things of
+- [19:34] MCP, it's actually to start with like
+- [19:36] basic observability auditing and kill
+- [19:38] switches like that's the things I think
+- [19:40] people are fundamentally struggling with
+- [19:41] right now because you've got very much
+- [19:43] the decentralized um uh adoption of the
+- [19:46] coding agents all like cloud code etc.
+- [19:48] and very much decentralized and
+- [19:50] democratized um kind of organizational
+- [19:53] push and thesis that we don't want to
+- [19:54] miss out. We want everybody using all
+- [19:56] the AI they can. We'll figure out how
+- [19:58] to, you know, control costs and control
+- [20:00] things later. But right now, I think
+- [20:02] just basics on inside most
+- [20:04] organizations, they're really struggling
+- [20:05] with just even getting to that number
+- [20:07] one. But then in terms of the actual
+- [20:08] problems then beyond the the you know
+- [20:10] the the baseline, you know, whatever you
+- [20:13] you can go it'll take you 30 seconds to
+- [20:16] ask chat GPT or or Google for a long
+- [20:18] list and we'll tell you about a 100
+- [20:19] different problems. But um if I were to
+- [20:21] pick just a couple of them um you know
+- [20:23] prompt injection I think is the one and
+- [20:25] tool poisoning are the big ones that you
+- [20:26] know everybody thinks about. But because
+- [20:27] it's so um it's so easy to say but it's
+- [20:31] also so easy for it to actually happen.
+- [20:33] Like there's a you know we we at Docker
+- [20:34] published these horror story blogs.
+- [20:36] They're worth reading if you haven't but
+- [20:37] one of them is about actually the GitHub
+- [20:39] injection. It's like cool. This is
+- [20:41] actually like you could almost imagine
+- [20:43] even if it weren't like the truly most
+- [20:44] malicious attacker that was like
+- [20:45] poisoning GitHub issues with like prompt
+- [20:47] injections. you could almost imagine the
+- [20:49] ele getting tricked and even with
+- [20:50] innocuous things. So one is one is that
+- [20:53] um you know I think the identity the
+- [20:55] identity and secrets management is like
+- [20:56] I don't know else to put it but it's a
+- [20:58] total pain in the ass. Um and so that's
+- [21:00] I think just a you know kind of a really
+- [21:02] hard thing for people to to get their
+- [21:03] head around in particular around where
+- [21:05] they run and like again who you share it
+- [21:06] to and there's just so much of this
+- [21:08] divide between what's a system agent,
+- [21:09] what's an agent acting on my Mark's
+- [21:11] behalf or my Roger's behalf or so on
+- [21:14] versus what's one for the team. Like
+- [21:15] it's just it's hard. Um I think you know
+- [21:18] basically people what in practice like
+- [21:21] we're kind of building on this story of
+- [21:22] well people connect the cursor to all
+- [21:25] their systems and all the tools are just
+- [21:26] super pro promiscuous and over
+- [21:28] permissive and I don't know everybody I
+- [21:30] know just hits the yolo button of like
+- [21:32] okay I'm I'm tired of hitting the I'm
+- [21:34] tired of hitting the allow button I'll
+- [21:35] hit the allow every time like just make
+- [21:36] it all go away in which case it becomes
+- [21:38] very easy for these things to start
+- [21:40] getting chained in ways that you don't
+- [21:41] understand and because you don't have
+- [21:42] observability it makes it that much
+- [21:44] worse. Um, and then of course you'd have
+- [21:46] all the other supply chain risks of
+- [21:47] people, you know, injecting a bad tool
+- [21:49] and so on. And then you kind of asked
+- [21:51] the very last thing and I'll I'll turn
+- [21:53] over to to Reena and Alex to build on.
+- [21:55] You know, you asked like what's
+- [21:56] different about this than just APIs and
+- [21:58] and so on as part of the question. And
+- [22:00] Alex kind of said this at the very
+- [22:02] beginning like there's this huge shift
+- [22:03] of you're not writing code anymore and
+- [22:05] you're not making decisions. The LM is
+- [22:06] the LM is the decision maker which means
+- [22:08] you get very non-deterministic results
+- [22:10] every time it runs. you use a tool which
+- [22:12] makes it very hard to have trustable
+- [22:14] guard rails. And so you know that
+- [22:16] coupled with the like how just the mere
+- [22:18] nature of how low friction it is to
+- [22:20] connect these things just in makes you
+- [22:22] know massive amounts of blond rate
+- [22:24] massive amounts of blast radius. So you
+- [22:26] know that's as I keep saying it's
+- [22:28] incredibly easy to write a basic MCP
+- [22:30] server in particular one that does reads
+- [22:31] and even then you'll still have
+- [22:33] injections and risks and and data
+- [22:35] leakage and it's incredibly hard to
+- [22:37] write something that is both useful and
+- [22:39] safe. So that's my my my take on what
+- [22:41] what I see a lot of.
+- [22:44] >> Yeah.
+- [22:45] Can I can I build on that?
+- [22:48] >> Uh go uh Alex if I can then I'll jump
+- [22:51] in. So yeah I I think I think great
+- [22:53] great context on that one Mark. I think
+- [22:55] what what kind of you know being on the
+- [22:57] builder side here and where we are kind
+- [22:59] of you know really custodians of
+- [23:00] enterprise data and protectors of it. We
+- [23:02] do kind of you know take all of those
+- [23:04] very seriously from our perspective. So
+- [23:06] I think it you know all of your points
+- [23:08] actually just don't go away. So I think
+- [23:10] kind of you know as we're moving from
+- [23:11] like you know uh humans making decisions
+- [23:13] to LLM making decisions like you said um
+- [23:16] the the controls kind of stay the same.
+- [23:18] In fact, they just get enhanced is how
+- [23:20] we think about it, right? And how I
+- [23:22] think about it also is that uh you know,
+- [23:24] giving admins still the controls about
+- [23:26] what what uh what MCPS they allow inside
+- [23:29] their their system to then connect a
+- [23:31] cursor or copilot or whatever that new
+- [23:33] agent may be is very very critical and
+- [23:36] it in fact becomes even more kind of
+- [23:37] required now to say okay what are the
+- [23:39] tools that those uh that those kind of
+- [23:41] agents are actually or those MCB servers
+- [23:44] are actually building and providing to
+- [23:45] my users? how much access do they
+- [23:47] control do they have and really kind of
+- [23:49] you know the question that Raja was
+- [23:50] asking is like do the uh do the
+- [23:53] granularity of it at the system level or
+- [23:55] the arbback or the user level go away
+- [23:57] it's like no they they stay the same I
+- [23:58] think the those kind of you know just
+- [24:00] manifest into different uh personas and
+- [24:02] different kind of entities right now so
+- [24:04] I think as a as a MCP server builder we
+- [24:08] not just have to worry about you know uh
+- [24:10] what our server is doing but also what
+- [24:12] is the client we're enabling on the
+- [24:14] other side who's the host and what are
+- [24:16] their security practices and
+- [24:17] requirements and and possibly going to
+- [24:19] protect ourselves from other MCP servers
+- [24:21] that they are also going to be enabling
+- [24:23] in the same context because that is
+- [24:24] where the leakage of the data and other
+- [24:26] kind of you know proliferations could
+- [24:27] happen as well. So there is a kind of
+- [24:29] you know I think the security piece is
+- [24:30] just getting more and more heightened
+- [24:32] exactly what you're saying here Mark too
+- [24:34] and um I think the uh the onus on the
+- [24:38] data governance both from the admins as
+- [24:40] well as the builders of software like us
+- [24:42] kind of you know just goes up even more.
+- [24:45] >> So if if I if I bring it down a level
+- [24:48] right now no one can write an MCP server
+- [24:51] that is not a service account unless you
+- [24:54] are the vendor. And so um everything we
+- [24:57] just talked about I'm building an agent
+- [24:59] I want to talk to you know I want to
+- [25:00] talk to Jira as an example um or I want
+- [25:03] to talk to Google I can't write that MCP
+- [25:05] server and not and do anything other
+- [25:07] than give it a service account because
+- [25:09] the spec does not support
+- [25:12] >> uh delegated authorization and so there
+- [25:15] is no way for today for an agent to act
+- [25:19] on as as an agent on my behalf in a
+- [25:24] scoped privileged a to any downstream
+- [25:27] service. The spec doesn't support it.
+- [25:29] Um, now we as Arcade, we contributed
+- [25:32] this an RFC to the spec. It was recently
+- [25:35] accepted um to go enable this uh to
+- [25:40] enable delegated authorization so that I
+- [25:42] so that Chad GPT can send an email
+- [25:44] because it's still it's 20 it's almost
+- [25:45] 2026 and you still can't send an email
+- [25:47] from Chad GPT for this reason. Um, if
+- [25:50] you want to build an agent that sends
+- [25:52] email, you can't. Uh, as a user, if you
+- [25:55] the reason there aren't personal
+- [25:56] assistant agents is because they can't
+- [25:58] access your calendar. Um, and so that is
+- [26:01] the biggest problem uh in an MCP right
+- [26:05] now in my opinion and in agent
+- [26:06] development. You can't have an agent act
+- [26:08] on your behalf unless you give it a
+- [26:11] service account. And service accounts
+- [26:13] are a non-starter in the enterprise
+- [26:15] because it creates what's called an
+- [26:16] authorization bypass vulnerability. And
+- [26:19] so if I give a service account, you
+- [26:21] know, any level of of of of access in a
+- [26:24] system like Jira or Google or SAP or
+- [26:27] whatever and it's anything other than
+- [26:29] the lowest common denominator of the
+- [26:31] user and then the intern gets access to
+- [26:34] the agent, the intern just privile just
+- [26:36] escalated their privileges.
+- [26:38] And so
+- [26:40] this is why when we talk to
+- [26:41] organizations that are trying to put
+- [26:43] agents in production, which surprisingly
+- [26:45] are a lot of the Fortune 500 and 1000,
+- [26:49] they're having to kill their agent
+- [26:50] projects because they can't pass
+- [26:52] security review because they can't
+- [26:53] handle scoped access on behalf of a
+- [26:55] user.
+- [26:57] >> The only So I'll I'll jump on one thing
+- [26:59] there. So I agree on all that. The one
+- [27:02] caveat that I I will say that I'm seeing
+- [27:04] now which has been surprising to me, but
+- [27:05] I see this because we're the desktop
+- [27:07] people. We have Docker Desktop. We're
+- [27:09] seeing a bunch of agents actually get
+- [27:10] built that are effectively not being
+- [27:13] deployed to something like a backend
+- [27:14] which limits, you know, things like
+- [27:15] Slack connectivity and so on. But for
+- [27:18] me, I want to I want to make my claude
+- [27:19] send an email. Like effectively this is
+- [27:21] what people are using Docker Desktop for
+- [27:23] is because I can get
+- [27:24] >> Mark's OOTH token injected into Docker's
+- [27:27] MCP gateway on the desktop and then
+- [27:29] actually it may funny enough what I the
+- [27:31] way I term this is I'm basically seeing
+- [27:32] the desktop become the new production
+- [27:34] endpoint because because a the coding
+- [27:36] agent runs there and b well you can
+- [27:38] actually solve a bunch of these problems
+- [27:40] because you already have them
+- [27:41] effectively with either you know one
+- [27:43] password of the keychain or you can at
+- [27:45] least get you know configuration of ooth
+- [27:46] injected manually. And so what funny
+- [27:49] that's all true except for this one
+- [27:52] thing of all of a sudden seeing desktop
+- [27:53] usage like spike for that exact purpose.
+- [27:56] >> Yeah, actually I'll comment on that. So
+- [27:57] we we've been seeing that too, but it is
+- [27:59] a bit of an illusion largely and I'm not
+- [28:01] surprised that you guys at Docker are
+- [28:03] seeing it because the illusion is
+- [28:04] largely that the early adopters of MCP
+- [28:07] and MCP desktop with standard IO with a
+- [28:09] standard IO interface are developers and
+- [28:12] DevOps people, right? and so that
+- [28:13] they're very comfortable, you know,
+- [28:15] running and installing these things on
+- [28:16] their machines and and and the types of
+- [28:18] things that they're talking to lend
+- [28:20] themselves to these interactions. One of
+- [28:22] the big problems though, even with that
+- [28:24] model, is that in those scenarios that
+- [28:27] MCP server, it assumes the identity
+- [28:30] >> of the user. It's not acting on behalf
+- [28:33] of the user. It is the user. And that's
+- [28:36] that's not a security problem. It's a
+- [28:38] safety problem. And so I've seen cursor
+- [28:41] try and delete my root directory um
+- [28:45] accidentally. Now thankfully it doesn't
+- [28:46] have pseudo access. And so when it tried
+- [28:48] it failed and it was very kind. It
+- [28:50] apologized profusely. Um but when the
+- [28:54] agents act at like when they act as you
+- [28:57] and they assume your roles and your
+- [28:59] credentials without having like a
+- [29:01] delegated authorization model. Then they
+- [29:05] can delete emails, they can delete
+- [29:07] drive, they can delete folders. like
+- [29:09] there's there's no way other than how
+- [29:11] you construct the MCP server. There's no
+- [29:14] way to and like to to scope what the
+- [29:16] agent can do separate from the user. And
+- [29:18] so the right way to do it is basically
+- [29:20] OOTH. You have an application that's
+- [29:23] registered that has its own scopes and
+- [29:25] claims as your agent. And so you can
+- [29:27] say, "Hey agent, you can't delete email,
+- [29:28] but you can read them." And then you
+- [29:30] have the user's identity and their
+- [29:32] permissions, which is I can only read
+- [29:34] and access my email. And then the
+- [29:37] intersection of the two gives you
+- [29:38] security and safety, but it's early
+- [29:41] innings like this is what we do as a
+- [29:43] business. Um, help people with that, but
+- [29:46] the spec is catching up. And so it's a
+- [29:49] problem right now. We're all bullish
+- [29:50] that it's going to be much easier in
+- [29:53] about 6 months or earlier, but it's one
+- [29:55] of the biggest problems right now.
+- [29:56] >> Yeah. So, Alex, speaking of uh you know
+- [29:59] uh cursor apologizing profusely, if it
+- [30:02] had it had deleted it, it would have a
+- [30:05] apologized more profusely actually. I
+- [30:06] mean, I' I've read those horror stories.
+- [30:08] I mean, they just uh you know, but but
+- [30:10] yeah, so let's let's actually use this
+- [30:13] as segue, right? So, on the building
+- [30:15] side of it, so uh so Reena, I know that
+- [30:18] Atlassian has been working on uh MCP
+- [30:21] servers for their products. So uh so
+- [30:24] what what are some of the in your
+- [30:27] opinion as as someone who's releasing
+- [30:29] this to your customer I mean you have a
+- [30:31] huge customer base a lot of adoption
+- [30:34] what are you what are the potential
+- [30:35] implications of any lapses that uh that
+- [30:38] came up in your product meetings say hey
+- [30:40] I mean we don't want to do this if we if
+- [30:42] we allow this action this might happen
+- [30:45] if we disallow this is going to be a
+- [30:47] product you know it's going to be a poor
+- [30:49] customer experience so um how do you can
+- [30:52] Can you walk us through and give us an
+- [30:54] idea what are some of the potential
+- [30:56] implications and what is the thinking
+- [30:58] process behind uh when you're uh
+- [31:00] building these MCPs alert?
+- [31:02] >> Yeah, definitely you know security is
+- [31:04] paramount for however we think about it.
+- [31:07] You know before we develop a product the
+- [31:09] first thing is like okay what's what's
+- [31:10] the security guard rails and constraints
+- [31:12] and you know um audit points and
+- [31:14] checkpoints that we're going to put in
+- [31:15] the system. So that's definitely been
+- [31:17] one of the key guiding principles for
+- [31:19] MCP and MCB as we are just discussing
+- [31:21] it's like so new that you know we're
+- [31:23] still kind of getting around to
+- [31:24] understanding it fully. Of course the uh
+- [31:26] oath 2.1 uh implementation is something
+- [31:29] that we've adopted completely and that
+- [31:31] that gives us the overlying uh or would
+- [31:34] say the boundaries around the uh the
+- [31:37] authentication piece that Alex was
+- [31:38] mentioning. So that's one that we kind
+- [31:39] of you know make sure that we are doing
+- [31:41] definitely to start with. what uh what
+- [31:43] kind of you know continues to be a
+- [31:44] challenge is uh uh the uh the pieces
+- [31:47] that you know we do want to kind of give
+- [31:50] access and control to the admins to do.
+- [31:52] So we want to give the admins much much
+- [31:54] more of the controls at the same time
+- [31:55] while we are building our MCP servers in
+- [31:58] a way which is secure. um give the
+- [32:00] admins controls for you know what they
+- [32:02] want to be enabling which types of
+- [32:04] agents they want to be enabling to be
+- [32:05] using RMCB server itself as well so that
+- [32:08] they can control their uh the uh egress
+- [32:11] of the enterprise data which is really
+- [32:13] kind of you know their crown jewels and
+- [32:15] u the audit trails that they need to
+- [32:17] have in addition to say you know the
+- [32:19] pseudo access type issues or something
+- [32:20] really nasty if it did happen as well do
+- [32:23] they even know kind of what happened and
+- [32:25] do they have the ability to trace back
+- [32:27] uh we definitely don't want any of those
+- [32:29] things to happen in the first place. So
+- [32:30] what our approach really has been you
+- [32:32] know let's start with the being mindful
+- [32:34] of exposing the tools that we start with
+- [32:37] as well so that we are kind of you know
+- [32:38] being super careful about what could be
+- [32:41] destructive actions that could be taken
+- [32:43] uh around the data itself and uh you
+- [32:45] know making those much more u uh
+- [32:49] constrained and restrained around that
+- [32:51] aspect as well. Um so this is this is
+- [32:54] really kind of you know our uh key
+- [32:55] tenants here that we ensure that the
+- [32:57] security and data governance of our
+- [33:00] customers data is something that we are
+- [33:02] controlling and then of course we are
+- [33:03] giving the admins the tools and the
+- [33:05] granularity that they can then uh
+- [33:07] control while also kind of you know
+- [33:08] really enjoying all of the benefits that
+- [33:10] they uh that they want to be and we we
+- [33:12] want them to also have through the new
+- [33:14] agentic AI workflows that they can
+- [33:16] enable.
+- [33:17] So, so uh do you think a misconfigure
+- [33:19] misconfigured MCP um tool or MCP server
+- [33:24] I mean can an intern delete my entire
+- [33:26] git repository that have been on
+- [33:28] >> definitely not that's that's exactly why
+- [33:30] we don't we don't expose tools that make
+- [33:32] those happen either so you know that's
+- [33:34] kind of definitely the paramount piece
+- [33:36] is like what tools are we exposing in
+- [33:38] the first place and that's up to us to
+- [33:40] to control
+- [33:42] >> this is great and thanks Reina uh so so
+- [33:44] Mark um uh Docker is sitting at this uh
+- [33:48] you know they they have built this
+- [33:49] ecosystem you know for you know other uh
+- [33:53] you know containerization and and now
+- [33:56] even for MCP right so you have an MCP
+- [33:58] image it makes it actually quite
+- [33:59] convenient to go and get that MCP server
+- [34:02] deployed in no time actually I love I
+- [34:04] love that as uh you know as an engineer
+- [34:07] how do you vet this out I mean this is I
+- [34:09] I don't even know how you must vet this
+- [34:11] out because how do you mitigate uh the
+- [34:14] the supply chain and open-source risk
+- [34:16] risks and uh you know abuse and misuse
+- [34:19] or how do you vet out?
+- [34:21] >> Yep. No, great question. Well, one, I'm
+- [34:23] very I'm very glad you found it easy and
+- [34:25] and you were happy with it. That's
+- [34:26] actually
+- [34:27] >> Yeah, I love it, too. Um in terms of you
+- [34:29] know, how do we vet it? Um yeah, this is
+- [34:31] the part where it this is part of why
+- [34:33] I'm so excited for us at Docker to be
+- [34:35] doing this. Look, we can build on top of
+- [34:36] the shoulders and foundation of what
+- [34:37] we've been doing for the last 10 years.
+- [34:39] So ignoring MCP for a moment um you know
+- [34:41] Docker Hub is this vast
+- [34:44] vast ocean of things out there that you
+- [34:46] can go pull and um you know we billions
+- [34:49] of polls you know a month come out of
+- [34:51] it. Um there is however a Docker
+- [34:54] official images curated section where
+- [34:56] we've been for the last decade working
+- [34:58] with open source and upstream on
+- [35:00] effectively every project that you know
+- [35:03] is the top whatever 100 200 or so that
+- [35:05] that really matter to folks. Um, and
+- [35:08] effectively it kind of looks like a
+- [35:09] distro where we stamp and certify that
+- [35:12] the source and the maintenance of those
+- [35:13] packages is good that there's not
+- [35:15] vulnerabilities and we build that on our
+- [35:17] systems. So we've been doing that for a
+- [35:19] long time for base images, application
+- [35:21] images, framework images, etc. For the
+- [35:24] MCP catalog, of course you can publish
+- [35:26] your own, but for the point of getting
+- [35:29] to curation of how do you actually know
+- [35:30] what you trust and what you vet and so
+- [35:32] on. effectively we have this cheat code
+- [35:34] of well I could build on top of the
+- [35:35] exact processes we have or we're already
+- [35:37] pretty good at working with open open
+- [35:38] source and upstream and so yes MCP
+- [35:41] requires a new cast of characters that
+- [35:43] didn't exist before um to work in there
+- [35:45] but effectively we're able to use the
+- [35:47] same process and the same you know and
+- [35:50] this this is not a thing I can tell you
+- [35:51] about where it's like oh my god we do
+- [35:52] all the amazing AI that just makes it
+- [35:54] all possible at the end of the day it's
+- [35:55] humans and us actually going through
+- [35:56] with a high degree of confidence and a
+- [35:58] high degree of vetting and trust that
+- [36:00] actually what's coming in is actually
+- [36:01] something we will stamp and we'll
+- [36:02] certify and that's what makes it into
+- [36:04] our curated catalog. This is part of why
+- [36:06] besides you know really the the goal
+- [36:08] from us is make it incredibly easy and
+- [36:11] low friction for a developer to connect
+- [36:13] to you know cursor cloud code or
+- [36:15] whatever and work with MCPS and or build
+- [36:18] on top of them but also make it safe and
+- [36:20] possible for you to work from out of the
+- [36:21] registry. So, you know, we're we're it's
+- [36:23] an open registry. We try to have anybody
+- [36:24] and everybody come in that can work with
+- [36:26] us and we, you know, do all the the
+- [36:28] vetting like at last scene is in there
+- [36:29] and Stripes in there and I don't
+- [36:30] remember if there's an arcade dev one
+- [36:31] off the top of my head, but you know,
+- [36:32] we'd love to have one. So,
+- [36:35] >> yeah, there's a lot actually. So, we are
+- [36:38] using quite a lot of those actually in
+- [36:40] our uh on our end and um yeah, it it
+- [36:44] makes it actually quite convenient. Um
+- [36:47] so um Alex u how how is uh how are you
+- [36:51] guys actually helping this entire
+- [36:52] ecosystem right so what uh I mean if you
+- [36:55] can give us an idea
+- [36:57] >> yeah yeah so the biggest thing that we
+- [37:00] do is that we solve the the the off
+- [37:04] problem uh the agent off problem and so
+- [37:06] if you're trying to build an agent and
+- [37:07] you want the agent to interact with some
+- [37:10] of these secure systems which is almost
+- [37:12] everything Google Ajira Slack
+- [37:16] um SAP your own custom APIs. We make it
+- [37:20] very easy to build secure uh toolkits
+- [37:23] that that the the agent can communicate
+- [37:25] with an awful lot of work to. Um and as
+- [37:29] part of that, you know, we're very big
+- [37:30] believers and contributors to the MCP
+- [37:31] spec. Um we just contributed a lot of
+- [37:33] our a lot of the way we do it to the
+- [37:35] spec. Um and as and as part of that, we
+- [37:39] ourselves also build out a lot of these
+- [37:42] toolkits. And so we have a large a large
+- [37:44] library of pre-built
+- [37:47] LLM optimized LLM eval uh tools for all
+- [37:51] the major services including Jer just
+- [37:53] came out about a month ago. Uh it's
+- [37:55] great use it um to make it very easy for
+- [37:57] agent developers to just go turn this
+- [38:00] stuff on and build whatever it is they
+- [38:02] want. Um, and then we have a really nice
+- [38:05] SDK so that a developer can very easily
+- [38:08] and very quickly build their own
+- [38:09] toolkits for what their agent needs that
+- [38:12] might consume other downstream services
+- [38:15] or just do something for their own
+- [38:16] services.
+- [38:19] >> So should I expect role based access
+- [38:21] coming up coming up with MC?
+- [38:23] >> Yes. So we already support role-based
+- [38:25] access right now. We support delegated
+- [38:27] delegated authorizations. We support and
+- [38:29] user based OOTH today. um we we just
+- [38:33] don't do it via MCP until the spec can
+- [38:35] support it. Uh but we we added that to
+- [38:39] the spec along with our partners at
+- [38:40] Enthropic and and other companies. Now
+- [38:43] we're all just collectively waiting for
+- [38:44] that to get merged into the spec. And
+- [38:45] once that happens, all of our
+- [38:47] functionality around O will also support
+- [38:51] MCP. In the short term, until that
+- [38:53] happens, we have toolkits that work
+- [38:55] without MCP and do all the same work.
+- [38:58] Okay. Um so um um I will present this uh
+- [39:03] not so hypothetical question right so as
+- [39:05] um as someone who's building products uh
+- [39:08] and I'm uh I'm someone who is adopting
+- [39:10] MCP servers and uh integrating them in
+- [39:13] our my agenti workflows. So uh um let's
+- [39:17] say I'm the CIO of a company. how should
+- [39:20] I decide or um evaluate an MCP product
+- [39:25] and what should be my considerations uh
+- [39:27] when I bring in uh of course I I cannot
+- [39:30] go MCP server by MCP server right so
+- [39:33] what would be the best practices of
+- [39:35] bringing MCP in my uh in my organization
+- [39:42] I know it's a tough one I know that
+- [39:44] right so you know because there there's
+- [39:46] no there are no books I mean we are
+- [39:48] still it's very nent But I'm just
+- [39:50] curious uh you know for instance I mean
+- [39:53] my first rule internally is it has to be
+- [39:56] the official MC MCP server from Docker
+- [39:58] and that's that's the first starting
+- [40:00] point. So I took the easy one. Uh what
+- [40:03] would be the what would be the
+- [40:04] recommendation beside this? How how
+- [40:06] should a CIO evaluate? Yeah. I mean, I
+- [40:08] I'll take the I'll take the opposite
+- [40:10] position
+- [40:12] kind of back to my earlier point like
+- [40:14] the official
+- [40:15] >> the official anything MCP server is not
+- [40:18] terribly valuable if you're building any
+- [40:19] of
+- [40:19] >> course. Yeah. Yeah.
+- [40:21] >> And so I I I don't even know that that
+- [40:24] would work. Um
+- [40:26] >> yeah,
+- [40:26] >> I would inverse the question and be like
+- [40:28] what's the agent you're trying to build
+- [40:30] and let's go make sure we get like let's
+- [40:33] go it's basic product management. Let's
+- [40:34] go figure out what the agent is. just go
+- [40:36] figure out how we're going to do it
+- [40:37] >> and then and then if an MCP server is
+- [40:39] the right answer let's use that if if a
+- [40:42] diff you know if A toa or something else
+- [40:44] or you know customuilt thing is is the
+- [40:47] right thing and let's take that path um
+- [40:50] you know I don't I don't yet believe MCP
+- [40:53] is we're huge believers in MCP and we
+- [40:55] think MCP will be like you know the
+- [40:58] thing for everything but it isn't that
+- [40:59] yet and I think people people jumping
+- [41:04] ahead to where MCP's going to be and
+- [41:06] expecting it to be that today is
+- [41:08] honestly the biggest headwind to MCP.
+- [41:11] Like so much of the negative press is
+- [41:13] because people are expecting too much of
+- [41:15] a of a of a protocol that's not even a
+- [41:17] year old yet. Um and so you know right
+- [41:20] tool for the right job.
+- [41:25] >> I would say I I will say well agree I
+- [41:28] mean at the end of the day I agree and
+- [41:29] um I'd even go further. I I I I I spend
+- [41:32] even for our own organization, we have a
+- [41:33] lot of build versus buy conversations
+- [41:35] because everybody is out pitching you
+- [41:36] their, you know, every every SAS vendor
+- [41:38] is effectively telling you like, oh, I
+- [41:39] got an agent now. So, you know, you got
+- [41:40] to figure out do I actually think this
+- [41:41] is going to be useful or not.
+- [41:43] >> But so you agree with Alex actually in
+- [41:46] terms of at the end of the day like it's
+- [41:48] it's just not that big of a protocol.
+- [41:49] It's only your old like I'm whatever I'm
+- [41:51] old I've never seen a protocol in my
+- [41:52] life go this fast from a blog post to
+- [41:55] like everybody on earth uses it and
+- [41:57] we're having conferences and panels
+- [41:58] about it. Um it is you know you you are
+- [42:01] still going to connect it's not
+- [42:03] everything Alex said is true you are
+- [42:05] still going to need to find them to go
+- [42:06] connect to something in which case yeah
+- [42:07] the easy button is well start with
+- [42:09] docker start with the remotes because at
+- [42:10] least you're getting a warranty on those
+- [42:12] where they come from and if not for that
+- [42:14] then you're basically in kind of like to
+- [42:15] Al's point in product management 101 of
+- [42:17] and quality assurance 101 of well you're
+- [42:19] going to have to in introspect it
+- [42:21] understand what it does understand how
+- [42:23] it breaks like you know that every every
+- [42:25] as I I've been describing to to people
+- [42:27] for 30 years of teaching interns and so
+- [42:29] on like if it magically works it will
+- [42:31] magically break and LLMs are magic in
+- [42:33] which case they may magically break an
+- [42:35] MCP may magically break and so really
+- [42:37] it's on you know it's on you the
+- [42:38] organization to understand what it is
+- [42:40] you're consuming and understand what the
+- [42:42] boundaries are for it and then you can
+- [42:44] make an assessment and there's not you
+- [42:46] know we at Docker can give you the
+- [42:47] shortcut for getting them from at least
+- [42:50] an upstream place at least you know
+- [42:51] they're trustworthy and they're good
+- [42:52] whether they solve your exact problem
+- [42:54] not I loved Alex's framing in terms of
+- [42:56] errors um cost uh and so on at the
+- [42:58] beginning like in terms of your actual
+- [43:00] objective goals but at least you can
+- [43:02] trust them you know you still have to
+- [43:04] you basically have to go through the
+- [43:05] same things you've always gone when you
+- [43:07] bring in any kind of a technology
+- [43:08] whether it's MCP or just generic open
+- [43:10] source or a third party vendor which is
+- [43:12] do I understand what it does am I going
+- [43:13] to get value from it and do I trust it
+- [43:15] and have I actually quality done some
+- [43:17] level of acceptance testing that it
+- [43:19] meets what I want as an organization
+- [43:22] >> that's that's great thanks Mark um so um
+- [43:26] so there was this uh report that was
+- [43:28] news uh from uh MIT that only 95% of
+- [43:32] investments in AI that result in 95%
+- [43:36] actually result in zero ROI and only 5%
+- [43:39] actually uh provide any meaningful
+- [43:42] business value and uh um I think one of
+- [43:46] the reasons among many other things I
+- [43:48] mean it's it's far more complex than uh
+- [43:50] this that but one of the one of the
+- [43:53] complexity in building these agentic
+- [43:55] systems is uh well uh getting the right
+- [43:58] context at the right time uh and
+- [44:00] correctly
+- [44:02] uh and uh lack of standardization silo
+- [44:04] data sources and all of that right do
+- [44:06] you think uh that characterization that
+- [44:09] assessment is correct among many other
+- [44:12] things and do do we think that MCP is
+- [44:14] going to help in this case or is it
+- [44:16] going to hurt right so maybe people are
+- [44:19] going to become more cautious and hey I
+- [44:21] mean we don't want to deal with this
+- [44:23] right so Reena you want to go ahead and
+- [44:26] uh maybe what's your take on this
+- [44:28] >> definitely. So um that was such a
+- [44:30] fascinating report. I was like really
+- [44:32] really I'm first of all I'm just very
+- [44:35] very grateful for the insights that they
+- [44:36] provided the depth of findings that
+- [44:38] they've gone into. Um and of course like
+- [44:40] I think uh I suspect you know it's a
+- [44:43] little more stark than what probably the
+- [44:45] reality is but it's good to have I think
+- [44:47] the a little bit of kind of you know
+- [44:49] cold water on all of the uh the high
+- [44:51] expectations that we've had on AI for a
+- [44:53] bit. So uh coming to kind of you know
+- [44:55] your question on what what I think about
+- [44:58] kind of you know where things are
+- [44:59] heading and how uh maybe in the context
+- [45:01] of this particular question or with this
+- [45:04] particular panel here as to how is MCP
+- [45:06] going to kind of help help with this
+- [45:08] space or not. I definitely think that
+- [45:10] you know I'll go back to what Alex said
+- [45:12] a huge plus one to that which is that
+- [45:13] first of all I think what we haven't
+- [45:15] been able to do in the AI space really
+- [45:17] is understand what are those hero use
+- [45:19] cases what is this you know working
+- [45:21] backwards from the customer or the user
+- [45:23] of these which is you know the knowledge
+- [45:24] worker and most of these enterprises
+- [45:26] what do they really kind of you know
+- [45:28] want and care for and how where is the
+- [45:30] product market fit right now like today
+- [45:32] with the agentic systems that we can
+- [45:34] provide them and uh this is where I
+- [45:37] think the uh of course the MCP can be a
+- [45:39] very rich set of tools that we can give
+- [45:42] to the agentic systems to then help
+- [45:44] those solve those problems. And I think
+- [45:46] the fact that uh the MCP makes these
+- [45:48] much more kind of you know discrete and
+- [45:50] easy to understand more deterministic in
+- [45:52] their flows solve some of the quality
+- [45:55] assurance and of course provides a
+- [45:57] little bit more guardrails around
+- [45:58] security if we add them to the mix a
+- [46:01] little more. I do think that there are
+- [46:03] ways for us to be able to solve some
+- [46:05] more of the customer use cases problems
+- [46:08] and really kind of you know getting into
+- [46:10] the reliability pieces getting into the
+- [46:12] quality pieces getting into the
+- [46:13] understanding of really where the user
+- [46:15] use cases are. So I think if we were to
+- [46:18] kind of for our customers do better with
+- [46:20] understanding their use cases and then
+- [46:22] being able to you know bring the right
+- [46:24] tools for the right uh uh for the right
+- [46:27] problems we'll be able to get much
+- [46:28] faster into the adoption and the usage
+- [46:31] of these agent systems. I think we are
+- [46:33] still kind of groping our wares around
+- [46:35] for various of these uh installations
+- [46:37] unfortunately today. Yeah. So Reena, so
+- [46:39] if I understood correctly, so it is
+- [46:41] basically not having well- definfined
+- [46:44] use cases. uh and um so we'll need a lot
+- [46:48] of uh very technical talented product
+- [46:50] managers then who can
+- [46:52] >> yeah I think I think it's it's a
+- [46:53] question of really marrying the use
+- [46:56] cases and where the users are at
+- [46:58] bringing them along the journey and
+- [47:00] bringing the tools that match their kind
+- [47:02] of you know use cases and their
+- [47:04] requirements and really MCPS can help
+- [47:06] with that because we do kind of you know
+- [47:08] then pro able to provide them those
+- [47:10] specific tools those specific kind of
+- [47:12] you know understanding while leveraging
+- [47:14] ing all of the kind of you know really
+- [47:16] great smarts from the agentic AI spaces
+- [47:19] of you know being understanding the
+- [47:21] inference and you know understanding the
+- [47:22] context bringing the context along both
+- [47:24] in the user space as well as from
+- [47:26] multiple other sources uh to the same
+- [47:29] agent in the same in the same session.
+- [47:33] >> Thanks Reena Mark Alex do you want to
+- [47:36] add anything to it? Sure. I'm I'm full
+- [47:38] of hot and snarky takes. So basically if
+- [47:41] you take um the report on AI everything
+- [47:45] said like I agree with by the way. Um
+- [47:46] but if you take that report from MIT the
+- [47:48] 95% of people get zero value. Um if if
+- [47:51] you just I I'll draw a comparison. If
+- [47:53] you just start with just developers and
+- [47:54] I'll come back to the business view of
+- [47:56] all AI in a second. Um for my entire
+- [47:58] career watch people try to measure
+- [48:00] developer productivity and largely you
+- [48:02] know fail at it basically where it's
+- [48:03] like oh we have all these metrics we
+- [48:04] have the door. the space we have all
+- [48:06] these things that we go do and at the
+- [48:08] end of the day it's incredibly hard and
+- [48:10] subjective to figure that out and so
+- [48:11] it's like hard to figure out have you
+- [48:13] actually moved the needle on developer
+- [48:14] productivity inside an organization from
+- [48:17] an ROI perspective of like whatever you
+- [48:19] brought in and you kind of like it's
+- [48:20] like I subjectively know like oh this
+- [48:21] was better this was not and I got some
+- [48:22] metrics that may or may not line up to
+- [48:24] that but so from an AI um in whether the
+- [48:28] right number is 95% or not I don't know
+- [48:30] but in that paper what I particularly
+- [48:31] loved was the shadow there's a call out
+- [48:33] but the shadow effectively the where it
+- [48:34] succeeds ing is the shadow organizations
+- [48:37] that are basically the people that are
+- [48:38] off close to the close to the actual
+- [48:40] problem thinking hard about it and then
+- [48:42] just kind of doing their own thing in
+- [48:44] the weeds and they come back with
+- [48:46] something that actually solved the
+- [48:47] business problem because when you go to
+- [48:49] do I find that number kind of believable
+- [48:51] like I do at the end of the day because
+- [48:52] I think if we can't articulate very well
+- [48:54] what ROI is on a development
+- [48:56] organization and everybody struggles
+- [48:58] with this most businesses I think
+- [49:00] especially from a productivity
+- [49:01] productivity is very hard to measure and
+- [49:02] manage from an actual productivity
+- [49:05] measure just any function whether it's
+- [49:06] HR, sales, accounting, whatever it is,
+- [49:09] it's incredibly hard and so you're just
+- [49:11] like pouring money into AI hoping for
+- [49:13] some magic to come back and it's really
+- [49:15] the cases where the people understand
+- [49:17] what the pain point is and what the
+- [49:18] value is that have actually solved it
+- [49:19] and so my suspicion is it's better than
+- [49:21] 5%. But from if you're looking at it
+- [49:23] from like a board level view, probably
+- [49:25] that actually number is pretty accurate
+- [49:26] to what I would imagine is actually
+- [49:28] happening. But you know, the truth is
+- [49:29] somewhere in the middle
+- [49:31] >> and you can never make the board happy,
+- [49:33] right? So I mean you have to keep doing
+- [49:34] more, right? So yeah.
+- [49:36] >> Yeah. Um okay, Alex, you want to add
+- [49:38] something?
+- [49:39] >> Yeah. You know, we're we're in the field
+- [49:41] all day with customers that are actively
+- [49:43] like have staffed and budgeted agent
+- [49:46] building teams. Um, and so from from
+- [49:48] that from that perch, um, you know, I
+- [49:52] don't know what the number is, but it's
+- [49:53] directionally correct. We see a lot of
+- [49:54] failed projects and killed projects. So,
+- [49:56] I'll use that as the metric. Um, it's
+- [49:59] actually a it's a very finite set of
+- [50:01] reasons why these projects fail. It's uh
+- [50:04] the costs were just untenable because
+- [50:06] they were using the token weight. They
+- [50:07] were using just tokens too much. So, the
+- [50:09] LLM costs were were uneconomical for
+- [50:11] what they were trying to build. latency
+- [50:13] was just similarly just unachievable. It
+- [50:18] was just too long uh for user time to
+- [50:20] wait that long. And then um the third
+- [50:23] one was the accuracy rates weren't high
+- [50:25] enough. Um in a demo you can get
+- [50:26] something really cool working but if you
+- [50:28] can't get it above like 80 something%
+- [50:30] consistency, no one will use it in
+- [50:32] production. You can release it but no
+- [50:34] one will adopt it. And then oh and then
+- [50:36] there's a fourth which is security kills
+- [50:38] it. Um, so we see we see some
+- [50:40] combination of those happening to the
+- [50:42] majority projects we see in the field.
+- [50:44] Um, and and MCP isn't isn't part of the
+- [50:48] solution, frankly. Not because it's bad.
+- [50:50] It's just it's just a protocol, right?
+- [50:52] It's it's not like a white horse. The
+- [50:55] problem is multi-layered. Part of it is
+- [50:57] talent. Like very few people know how to
+- [51:00] build agents today. And so they're
+- [51:02] running into a lot of basic problems.
+- [51:04] Nobody knows how to do evals as an
+- [51:05] example. Um the second one is there are
+- [51:08] security real security issues uh around
+- [51:11] authorization around safety etc people
+- [51:13] are trying to figure out and then uh but
+- [51:16] I do think that MCP represents a body of
+- [51:20] work that is part of the solution which
+- [51:22] is tool use and uh but I'll remind the
+- [51:25] audience that MCP is a protocol for tool
+- [51:27] use it is not itself
+- [51:30] tool use or tools.
+- [51:33] Thanks Alex. We are actually over time.
+- [51:36] I will take take a look at um probably
+- [51:39] we can answer two questions from here.
+- [51:42] So I will just quickly scan through. Um
+- [51:45] so I will take this one. Rolling out MCP
+- [51:48] or wide. Uh what's your nobrainer
+- [51:50] guardrail stack and how do you keep dev
+- [51:53] speed by up? So basically I think the
+- [51:55] question is around what kind of
+- [51:56] guardrails you would put around MCP uh
+- [52:00] uh and uh how do you keep up how do you
+- [52:04] stay compliant?
+- [52:07] >> I feel like this is a this is a gimme
+- [52:08] for Alex and I where it's like well the
+- [52:10] two things I would imagine you clearly
+- [52:11] want to roll out as Docker and
+- [52:12] Arcade.dev both of whom are actually
+- [52:14] solving a whole lot of MCP governance
+- [52:16] problems. Um but to some extent that's
+- [52:19] kind of a serious answer to some extent.
+- [52:20] Um, you know, there's not I don't think
+- [52:22] we're I don't think this is anywhere
+- [52:23] near mature enough yet where we can all
+- [52:25] look at it like it's like, you know, it
+- [52:27] the I'm going to date myself here, but
+- [52:29] it's the equivalent of the LAMP stack
+- [52:30] where we all agree that's the exact, you
+- [52:32] know, right um configuration of things.
+- [52:35] A lot of this is still, you know,
+- [52:37] there's evals are this very basic narrow
+- [52:40] thing for prompts, but then really you
+- [52:41] need overall observability of the whole
+- [52:43] platform. And like we're just not there
+- [52:44] yet, frankly, in terms of something that
+- [52:46] where everything end to end works
+- [52:47] across, you know, supply chain and
+- [52:49] discovery through building through
+- [52:51] deployment through like just it's just
+- [52:53] it's just not there. And I think it's
+- [52:54] it's you're you're we're living in the
+- [52:56] world of the point of that that that
+- [52:58] paper. It's the shadow. It's the shadow
+- [53:01] IT or the shadow organizations that are
+- [53:02] doing this and they're kind of like wild
+- [53:04] west putting together what they need
+- [53:05] from a bunch of different places because
+- [53:06] the space is just moving so fast. So
+- [53:09] that said, I think Docker and Arcade.dev
+- [53:10] are both solving very meaningful
+- [53:11] problems for people and we will help.
+- [53:13] >> Yeah. And but actually I think you have
+- [53:15] the you have the right panel for it
+- [53:16] because as much as as much as we can
+- [53:19] solve things like delegated
+- [53:20] authorization like we can only do what
+- [53:24] the downstream service like an Atlassian
+- [53:27] has exposed at its policy layer and so
+- [53:30] if you know if you're a SAS vendor and
+- [53:32] want people to use you and your agentic
+- [53:34] flows in a secure fashion or you
+- [53:36] yourself are trying to expose part of
+- [53:39] your own functionality uh for your own
+- [53:42] agents to consume the policy layer,
+- [53:45] arbach, abbach, whatever, what you know,
+- [53:48] contextual access management, all of
+- [53:50] that stuff, it actually needs to live in
+- [53:54] those services that you want the agent
+- [53:56] to talk to. You do not want to create an
+- [53:58] intermediate layer for this stuff
+- [54:00] because then you're going to end up with
+- [54:01] identity silos and those don't work at
+- [54:04] all. Like that you will create more
+- [54:06] problems than you'll solve. And so it's
+- [54:09] it's it's it's like the work that
+- [54:11] Lassian's doing and Mongo's doing and
+- [54:13] and other people are doing. It's having
+- [54:16] richer policies available to lock this
+- [54:19] stuff down so services like Docker and
+- [54:21] Arcade can best enforce.
+- [54:25] >> And thank you Alex. Uh we are way over
+- [54:29] time so I will uh I will close with one
+- [54:31] last question. I will go around and uh
+- [54:32] all of you can answer this. What are you
+- [54:35] what are you most excited about? in the
+- [54:38] context of whatever you're building at
+- [54:39] Atlassian maybe Reena you can go first
+- [54:41] and Docker and then Arcade.
+- [54:45] Yeah, I think I'm I'm just like
+- [54:47] specifically in the context of MCP
+- [54:48] servers, probably just most exciting for
+- [54:50] me is the collaborative agentic
+- [54:52] workflows that we can be building
+- [54:54] across, you know, multiple different SAS
+- [54:56] tools at this point. And how do we get
+- [54:58] our users to get so much more value
+- [55:00] outside of kind of you know just the
+- [55:02] Atlassian boundaries so that they can
+- [55:04] then be using not just you know
+- [55:05] Atlassian tool sets but actually
+- [55:07] connecting all of their system of work
+- [55:09] that they have today whether that be
+- [55:10] email be slack be um you know their uh
+- [55:13] salesforce or other kind of you know
+- [55:15] ways to manage their campaigns and uh
+- [55:18] create content and so on. So really kind
+- [55:19] of you know how do we become more and
+- [55:21] more uh available to our builders and
+- [55:25] the knowledge workers so that they kind
+- [55:27] of you know are able to leverage all of
+- [55:29] these agentic workflows that are coming
+- [55:30] across in a collaborative way and in a
+- [55:32] way that are totally secure and you know
+- [55:34] follow the uh follow much more of their
+- [55:37] kind of you know where they want to take
+- [55:38] their lives and their systems.
+- [55:41] >> Thank you. Yeah Mark
+- [55:42] >> I can go next. Yeah I um uh sort of
+- [55:46] similar at the end of the day we're an
+- [55:48] app dev company. We're kind of a DevOps
+- [55:49] company. We help people build and
+- [55:51] package apps and get them to prod. And I
+- [55:52] think what I'm most excited about is
+- [55:55] doing for agents what we did for
+- [55:56] microservices, right? You know, I think
+- [55:58] really Docker basically made like the
+- [56:00] modern era of cloud native ultimately by
+- [56:02] being container native possible by
+- [56:03] helping people factor things down and
+- [56:05] then actually have flows around that.
+- [56:07] And at the end of the day, we have a lot
+- [56:08] of stuff we're doing around security and
+- [56:10] governance and management and deployment
+- [56:12] and all the rest for MCP. And
+- [56:13] fundamentally what I think is most
+- [56:15] exciting is, you know, as as people get
+- [56:17] through this first wave of having a
+- [56:18] whole lot of agentic projects fail, we
+- [56:21] will get there. And I deeply believe
+- [56:23] Edward will figure out I have to spend a
+- [56:25] lot more time than I think I have to
+- [56:26] spend using something like what Reena
+- [56:28] built, building it my own logic on top
+- [56:30] of that that suits my business need and
+- [56:32] then packaging that up as applications.
+- [56:34] And I think, you know, we at Docker are
+- [56:37] this is this is kind of what we do is
+- [56:38] kind of our jam. So I'm I'm excited
+- [56:40] about the new world as we evolve
+- [56:42] forward.
+- [56:43] of uh I'm super excited because uh we've
+- [56:47] been talking about models models models
+- [56:49] models for the last you know two years
+- [56:51] and the models are now good enough and
+- [56:54] uh the real problems the real
+- [56:56] bottlenecks in agent development are now
+- [56:58] what can the models actually do what can
+- [56:59] the agents do with all of this
+- [57:01] intelligence and the answer to that
+- [57:03] question is tool use and that's what
+- [57:07] we're enabling along with MCP and so uh
+- [57:10] I'm super excited to be to be helping to
+- [57:12] drive that
+- [57:14] Okay. Um, thanks uh, Alex, Mark and
+- [57:16] Reena. Thank you so much um,
+- [57:19] >> for having us.
+- [57:20] >> I I would love to continue the
+- [57:22] conversation but we are approaching the
+- [57:23] next uh, next panel, right? So we'll we
+- [57:26] going to take a five minute break and
+- [57:27] then we'll come back. Thanks everyone.
+- [57:30] Okay, bye.
+- [57:31] >> Thanks everybody.
+- [57:32] >> Thank you.

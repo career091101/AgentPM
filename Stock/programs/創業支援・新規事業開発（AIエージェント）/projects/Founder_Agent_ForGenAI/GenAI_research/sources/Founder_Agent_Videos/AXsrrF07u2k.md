@@ -1,0 +1,652 @@
+---
+title: "YouTube Video: AXsrrF07u2k"
+video_id: "AXsrrF07u2k"
+video_url: "https://www.youtube.com/watch?v=AXsrrF07u2k"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  So, we've gotten pretty comfortable at delegating tasks to our AI coding agents like Cloud Code and our terminal or an IDE like Cursor. But what about when you're away from your desk or if you want to...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: AXsrrF07u2k
+
+- URL: https://www.youtube.com/watch?v=AXsrrF07u2k
+- Retrieved at: 2025-12-30T09:58:18+09:00
+
+## Text
+
+- [00:00] So, we've gotten pretty comfortable at
+- [00:01] delegating tasks to our AI coding agents
+- [00:04] like Cloud Code and our terminal or an
+- [00:07] IDE like Cursor. But what about when
+- [00:09] you're away from your desk or if you
+- [00:12] want to kick off a big complex build
+- [00:14] before you leave for the day and you
+- [00:16] just want to come back in the morning
+- [00:17] and find it done? That's where
+- [00:19] cloud-based background agents come in.
+- [00:21] And right now, we've got three major
+- [00:23] players who are offering pretty good
+- [00:25] options for running coding agents in the
+- [00:27] cloud. We've got Claude Code on the web.
+- [00:30] We've got Cursor's background agents.
+- [00:33] And we have OpenAI's codecs on the web.
+- [00:35] Now, on the surface, all three of these
+- [00:37] tools are pretty similar. They all spin
+- [00:39] up a cloud environment. They connect to
+- [00:41] your GitHub repository and then they
+- [00:43] create their own branch and eventually
+- [00:45] they'll submit a pull request. So, the
+- [00:47] basic mechanics are the same. But where
+- [00:49] they differ, and this is what actually
+- [00:51] matters, is the workflow. So, how do you
+- [00:53] actually initiate a new task with a
+- [00:55] cloud agent? How do you monitor its
+- [00:58] progress? How do you check it out on
+- [00:59] your mobile device? Or how do you wrap
+- [01:01] things up when it's done? The interface
+- [01:03] and the workflow varies quite a bit
+- [01:06] between cloud code on the web, cursor
+- [01:08] background agents, and codecs on the
+- [01:10] web. So, in this video, I'm not just
+- [01:12] comparing whether they can complete a
+- [01:14] feature in the background. That's table
+- [01:16] stakes. I want to show you what it
+- [01:18] actually feels like to use each one of
+- [01:21] these tools day-to-day because that
+- [01:23] workflow experience, that's what
+- [01:24] determines whether you'll actually reach
+- [01:26] for one of these cloud background agent
+- [01:29] tools or just stick with your local
+- [01:31] setup. Now, if you're serious about
+- [01:33] staying ahead of the curve when it comes
+- [01:34] to building with AI, and I mean actually
+- [01:37] building, not just following the hype,
+- [01:39] then I want you to read my builder
+- [01:40] briefing. That's a 5-minute read that I
+- [01:42] send every Friday. No fluff, just
+- [01:44] practical notes on what's working right
+- [01:46] now in AI first development. You can get
+- [01:49] yours by going to buildermethods.com and
+- [01:51] subscribers are always the first to know
+- [01:53] about my next live workshop where we
+- [01:55] talk about what's working right now when
+- [01:57] building with AI. All right, so to give
+- [01:59] these three different uh cloud agent
+- [02:02] systems uh a really good go at it, I
+- [02:04] want to make an update to my builder
+- [02:06] methods uh application and my website uh
+- [02:09] specifically on the workshops area. So,
+- [02:11] I run these live workshops on building
+- [02:13] with AI. I do these about once a month.
+- [02:15] And currently, it's just a really simple
+- [02:17] index view which just has a list of the
+- [02:21] workshops. Sometimes they're upcoming in
+- [02:23] the future, sometimes they're in the
+- [02:24] past. Uh, and then it links to the uh
+- [02:27] the page where, you know, you can either
+- [02:28] purchase a ticket or if you're a Builder
+- [02:30] Methods Pro member, then uh you get
+- [02:32] complimentary access to all past and
+- [02:35] future workshops. Uh, but I want to
+- [02:37] improve this layout. I want to give them
+- [02:39] nice thumbnails here. I want to be able
+- [02:40] to filter by which workshops are
+- [02:43] upcoming in the future and which ones
+- [02:45] are in the past and just have recordings
+- [02:47] available. Um, and I've also designed
+- [02:49] some new thumbnails that I want to, you
+- [02:52] know, display on each of these
+- [02:53] workshops, you know, kind of like that
+- [02:55] one. Um, and the nice thing is that I've
+- [02:57] already designed a section of the site
+- [02:58] that has this layout that I'm going for.
+- [03:01] So this is our video library uh which
+- [03:04] has you know a bunch of videos and um
+- [03:06] it's a grid layout or you can toggle to
+- [03:09] a list layout like that and the system
+- [03:12] will remember your layout and then you
+- [03:14] can also filter by topics and here in
+- [03:17] this case uh the person viewing is not a
+- [03:21] logged in builder methods pro member so
+- [03:23] we show this call out that points to
+- [03:25] that um but if I do log in and then I go
+- [03:28] to library you know we have the same
+- [03:30] grid layout here with the list view. Uh,
+- [03:33] but instead of the call out, now we have
+- [03:34] some filters. So, I can see like which
+- [03:37] videos I have recently viewed and I can
+- [03:39] see which videos I'm adding to my list
+- [03:42] and so on. So, I want to actually reuse
+- [03:44] this same layout, the grid and the list
+- [03:47] view toggle. And I also want to
+- [03:49] establish a topics filter for workshops.
+- [03:52] And then I also want to have a filter so
+- [03:54] that users can easily see which
+- [03:56] workshops are coming in the future and
+- [03:58] which ones are uh in the past. So to do
+- [04:00] this uh we're going to run this in cloud
+- [04:02] code on the web. We're also going to run
+- [04:05] a background agent in cursor and I'm
+- [04:08] going to use codeex uh on the web. And
+- [04:10] I'm going to sort of compare all three
+- [04:12] of these and I'll give you my
+- [04:13] impressions uh all the way through this
+- [04:15] process. Um so before I start to kick it
+- [04:18] off, I want to show you the prompt that
+- [04:20] I'm going to be using. And as you can
+- [04:21] see, it's a pretty long one. Um and it
+- [04:23] includes most of what I just described.
+- [04:25] And this is what I typically do. I will
+- [04:27] draft a prompt in detail. I'm giving it
+- [04:30] very specific instruction on which files
+- [04:33] and patterns and interfaces and
+- [04:35] components that I I've already
+- [04:37] established in this interface for
+- [04:39] browsing the library. So hopefully the
+- [04:41] agents will reuse a lot of that code and
+- [04:45] and that interface. Okay, so let's kick
+- [04:47] this off. I'm going to start with cloud
+- [04:49] code on the web. And what I like about
+- [04:50] it off the bat is that this this seems
+- [04:52] to be like the closest to the cloud code
+- [04:57] CLI experience. It's it it really feels
+- [04:59] like uh just a web version of the same
+- [05:02] experience. It's very consistent. Okay,
+- [05:04] so now first thing you will need to
+- [05:06] connect your GitHub repository for your
+- [05:08] project and I've already done that for
+- [05:09] my builder methods project. Also in
+- [05:11] cloud code you can select which model.
+- [05:13] Uh, for smaller things, I would probably
+- [05:15] go with Haiku, but uh, for this is a
+- [05:17] somewhat larger piece, so I'm going to,
+- [05:19] um, use the Sonnet 4.5 model. That's
+- [05:21] sort of my go-to these days uh, on most
+- [05:24] things. I use that and cursors composer
+- [05:26] model, which we'll I'll show you in just
+- [05:28] a minute. So, I'm going to take my long
+- [05:29] prompt and I'm just going to drop it
+- [05:31] right in here. And we're going to kick
+- [05:32] this off.
+- [05:35] Okay, so Claude is getting to work and I
+- [05:37] can already see it's updating live on my
+- [05:40] iPhone through the uh, Claude mobile
+- [05:42] app. Um, so that's nice and and it all
+- [05:44] looks really consistent between the two.
+- [05:46] It actually seems to be happening in
+- [05:48] sync. So I could I could see like if I
+- [05:50] ever out or traveling or something and I
+- [05:52] want to kick off a new task, like it's
+- [05:53] it's all right here. So that's really
+- [05:55] cool. Um, so that's working. Now, let's
+- [05:57] go ahead and get a cursor agent up and
+- [05:59] running. So this one I'm really
+- [06:01] interested in using because I use cursor
+- [06:03] every day as my IDE. So uh, here I am in
+- [06:07] the web interface. Now, Cursor, as far
+- [06:09] as I know, I don't believe they have an
+- [06:10] actual mobile app the way that Claude
+- [06:13] does and ChatgBT does uh with with
+- [06:16] Codeex. Um, but cursor.com, I find
+- [06:19] actually is totally usable on the mobile
+- [06:22] web. It's totally responsive. It's
+- [06:24] actually a really good interface. Um, so
+- [06:26] I've been pretty happy with it in both
+- [06:28] cases. So, I'm going to go ahead and So,
+- [06:30] I'm here in the web interface. I'm going
+- [06:32] to, you know, I've already started up a
+- [06:34] new agent here. Once again, I you know,
+- [06:36] you also need to connect your GitHub
+- [06:38] repository, which I've already done here
+- [06:40] for builder methods. It's the same repo
+- [06:42] that I'm working in. This indicates that
+- [06:44] we're going to be branching off of the
+- [06:46] main branch. Uh I think there was a
+- [06:48] similar
+- [06:50] You know what? I'm not sure if cloud
+- [06:52] code even had that selection. There
+- [06:54] might be a setting for it somewhere, but
+- [06:56] yeah. So, this is specifying that I am
+- [06:58] branching off of main. And then we can
+- [07:00] select the model. So, I am going to use
+- [07:02] Cursor's Composer 1 model, which is
+- [07:04] their new model. I did an entire video
+- [07:06] here on the channel last week covering
+- [07:09] uh Cursor 2.0 and the new Composer
+- [07:12] model, which I'm super impressed with.
+- [07:14] It's incredibly fast, and it's also
+- [07:16] really accurate, and I find it's almost
+- [07:19] as good as set 4.5 in most cases. The
+- [07:22] other cool thing about Cursor 2.0, you
+- [07:24] know, and you can do this through their
+- [07:25] their web background agents is you can
+- [07:27] actually run multiple uh different
+- [07:30] agents and even run multiple instances
+- [07:32] of them, you know, multiply them. We're
+- [07:34] not going to do that here. Uh I've used
+- [07:37] enough token usage uh in my cursor
+- [07:39] account this month, but um I'm going to
+- [07:41] stick with curs uh composer one and I'm
+- [07:43] going to give it that prompt. And I bet
+- [07:44] that even though I'm starting this way
+- [07:47] later than the cloud code agent, I bet
+- [07:49] this is going to finish even faster
+- [07:50] because composer is just lightning fast.
+- [07:53] Okay, so composer model using cursor is
+- [07:57] off and running. And I can see that here
+- [07:59] in the web interface and I'm going to
+- [08:02] check it out on mobile by going to
+- [08:05] cursor.com.
+- [08:08] And there it is. It's already there. Uh
+- [08:10] I'll show this on screen. You know, it's
+- [08:11] got a it's got a pretty nice mobile
+- [08:13] interface that I can easily use using,
+- [08:15] you know, like mobile Safari or mobile
+- [08:17] Chrome or something like that. Now, what
+- [08:19] I'm also interested to see is how does
+- [08:21] this work? If I click open in cursor
+- [08:24] because I am a cursor user. Cursor is my
+- [08:26] IDE. So if I am sitting here in the
+- [08:28] office, I'm going to click open in
+- [08:30] cursor. And here it is. It's actually
+- [08:32] showing me the cloud agent here in the
+- [08:35] uh in cursor agent. And I can see down
+- [08:38] here it indicates uh this little icon
+- [08:40] means that I'm looking at the cloud
+- [08:41] agent, not a local agent. And if I go
+- [08:44] into my agents list in in agents view
+- [08:47] again, I'm seeing that agent here in the
+- [08:48] middle and I'm also seeing that agent in
+- [08:52] this uh in progress section here in in
+- [08:55] cursor. So I really do like that that
+- [08:57] integration. I can jump, you know,
+- [08:59] straight from the web interface right
+- [09:01] into cursor which is right here on my
+- [09:03] computer and I can see it all happening
+- [09:05] right there. So that's really nice.
+- [09:06] Okay, let's go over to codecs. You know,
+- [09:08] this is linked right off of my chat GPT
+- [09:10] account. Um, once again, you do need to
+- [09:13] connect your GitHub repository, but I
+- [09:16] found that Codeex sort of tripped me up
+- [09:18] a little bit because in addition to
+- [09:19] connecting your repo, you also need to
+- [09:21] connect what they call an environment.
+- [09:23] And all three of these are technically
+- [09:25] creating a cloud environment where it's
+- [09:28] running your application in the cloud on
+- [09:30] their servers, not on your local
+- [09:32] machine. Right? Codeex is a little bit
+- [09:34] more more explicit about that. And this
+- [09:36] is this is what tripped me up because
+- [09:37] you can connect I think multiple
+- [09:40] repositories into a single environment
+- [09:42] and I had accidentally connected my
+- [09:44] builder methods repo to a different
+- [09:46] environment that I had been working on a
+- [09:48] few months ago and that sort of tripped
+- [09:50] it up. So I had to both create a repo
+- [09:53] like connect my repo and create the
+- [09:56] environment in codec. So I did that.
+- [09:58] Something to be aware of if if it might
+- [10:00] trip you up. So in codeex I can also run
+- [10:04] they call them versions. This is like
+- [10:06] running multiple agents. So, that's kind
+- [10:08] of cool. You can try out different takes
+- [10:10] on the same build, similar to what you
+- [10:11] can do with cursor. Right now, it is
+- [10:13] giving me the option on which branch I
+- [10:15] want to branch off of cuz all three of
+- [10:17] these are going to create a new branch.
+- [10:19] The question is where are we branching
+- [10:20] off of? I'm going to branch off of the
+- [10:22] main branch. That's fine. One thing that
+- [10:23] I'm not seeing, maybe I'm missing it
+- [10:26] somewhere, but I can't actually select
+- [10:28] the model. I'm assuming that this is
+- [10:31] going to be GPT5 and it might be or it
+- [10:34] probably is their GPT5 codeex flavored
+- [10:37] model. Um, and that's, you know, what is
+- [10:40] typically used with, uh, codeex CLI. And
+- [10:43] I have a separate video doing a deep
+- [10:45] dive on that as well. So, I don't see
+- [10:47] the model selector. That's a little bit
+- [10:48] strange to me. But anyway, I'm going to
+- [10:50] go ahead and uh, copy my prompt into
+- [10:53] here. And let's kick this off as well.
+- [10:59] So I see my task here at the top of my
+- [11:01] list and I can click into it and I can
+- [11:03] see uh it is spinning up uh the
+- [11:06] environment. This is sort of like you
+- [11:07] know a look at at the terminal there.
+- [11:10] Let's see if I click view log now. We're
+- [11:12] going to sort of like zero in. I think
+- [11:14] it's just spinning it up right now. So
+- [11:15] it's just getting started. We're going
+- [11:16] to check in on the progress as it goes
+- [11:18] along. But I'm also going to open up my
+- [11:20] chat GPT mobile app and I'm going to go
+- [11:23] to codeex. And I do see it right here.
+- [11:26] So here here it is at the top and I can
+- [11:28] I can see the progress. So all three of
+- [11:30] these are working although composer is
+- [11:33] already done as and I'm not surprised by
+- [11:35] that and we're going to review all of
+- [11:37] its work here in just a minute but let's
+- [11:38] wait for all three of them to be
+- [11:39] finished. It looks like sonnet 4.5 with
+- [11:42] cloud code on the web. It's about
+- [11:44] halfway through its uh its to-dos. So uh
+- [11:48] so yeah I'm going to I'm going to pause
+- [11:50] here and I'm going to come right back
+- [11:51] when all three agents are done and then
+- [11:53] we'll take it from there. Okay. So, it
+- [11:55] looks like all three agents are now
+- [11:57] complete. Let's take a look at cloud
+- [11:59] code first. And so, we can see that all
+- [12:01] of the to-dos are finished, and it gave
+- [12:03] me the the typical summary for a cloud
+- [12:06] code task. And it's all set here in
+- [12:08] cursor with uh with composer. So, here's
+- [12:11] the finished work there. And then over
+- [12:13] in codeex, uh here is the summary here.
+- [12:16] I can see that it worked for 11 minutes.
+- [12:18] Um so, cloud code probably took about 12
+- [12:21] 13 minutes. Uh I guess codeex took about
+- [12:24] 11 minutes and composer I don't have a
+- [12:26] time on this but it was done in like 2
+- [12:28] minutes something like that. Now let me
+- [12:30] just compare what the experience is
+- [12:33] after the agent has finished their works
+- [12:35] and kind of reviewing the work there.
+- [12:37] There are a few slight differences
+- [12:39] between the three tools here. So with
+- [12:41] cloud code I see here that this is the
+- [12:44] branch and I just copied that to the
+- [12:46] clipboard and that's really nice because
+- [12:48] I can just you know pull that down and
+- [12:50] and check it out. And I'm going to do
+- [12:52] that here in just a second. Um, it does
+- [12:54] have a link here to create a PR, but
+- [12:57] Claude Code doesn't automatically create
+- [12:59] a PR, which is a little bit weird. I I
+- [13:01] kind of wish it would just create it. I
+- [13:03] don't know why it doesn't. But one of
+- [13:04] the really cool things of Cloud Code on
+- [13:06] the web is this button. I can click open
+- [13:09] in CLI, and I'm going to click that and
+- [13:11] then it's going to copy a command to my
+- [13:13] clipboard. So then I can go into I'm
+- [13:17] going to go into editor mode in cursor.
+- [13:19] And instead of just running claude, I'm
+- [13:22] going to paste that in. So here I am
+- [13:24] going to run claude, but it's going to
+- [13:26] add this flag for teleport and then this
+- [13:29] session ID. So I'm going to run that.
+- [13:31] And so that is going to start up cloud
+- [13:34] code and it's going to pull in the
+- [13:37] entire session. All of the agents work.
+- [13:40] All the history here is automatically
+- [13:43] pulled in, which is really pretty cool.
+- [13:46] And then the other thing that I noticed
+- [13:47] is that in addition to that, it also
+- [13:50] automatically opened or pulled this
+- [13:54] branch and checked it out. So the thing
+- [13:56] with background agents or really any
+- [13:58] agents for that matter is of course we
+- [14:00] can review their code. Of course we can
+- [14:01] do a pull request and and do a code
+- [14:03] review there. But what's always most
+- [14:05] important to me is to actually run the
+- [14:07] server and check it out in the browser
+- [14:08] and check out the user experience of the
+- [14:11] product that I'm building. Right? So
+- [14:13] here I have it checked out. We're going
+- [14:14] to check the work that Cloud Code did uh
+- [14:16] in the browser. I'm going to run the
+- [14:18] server and I bet there's going to be
+- [14:21] some uh migrations that are pending.
+- [14:23] Yeah. So, we're going to need to run
+- [14:25] those. Okay. So, uh I'm here on my local
+- [14:29] machine now and I'm going to go down to
+- [14:30] resources. I'm going to go to workshops
+- [14:33] and all right. So, here is the uh the
+- [14:35] workshops index view. Now, I have not
+- [14:38] uploaded my thumbnail images yet. So it
+- [14:40] looks like these are like temporary
+- [14:41] placeholders when there's not a
+- [14:43] thumbnail for the workshop. So that's
+- [14:44] pretty good. This is exactly according
+- [14:46] to my prompt that I gave it. So this is
+- [14:48] really looking good so far. Um I can
+- [14:52] toggle between the list view and the and
+- [14:54] the grid view and it should remember my
+- [14:57] preference there when I refresh the page
+- [14:59] and it does. So that's pretty cool. And
+- [15:01] then I have this toggle switch. Now, I
+- [15:03] actually already have a toggle switch
+- [15:06] component, and this looks a little bit
+- [15:08] off from that. Functionally, it works,
+- [15:10] but it didn't actually use the right
+- [15:12] toggle switch. All right, so topics.
+- [15:14] Now, I don't I haven't actually created
+- [15:15] any workshop topics yet. So, let's go
+- [15:18] ahead and check out the admin interface.
+- [15:20] This is the workshops area. Okay, so
+- [15:22] I've created some uh workshop topics or
+- [15:25] workshop tags. And then I can go into
+- [15:29] each workshop now. And nice, I can I
+- [15:32] have my topic and tag interface here.
+- [15:35] So, this interface is a little bit
+- [15:37] buggy, but again, it's just for me to
+- [15:39] use. Um, and it functionally works. So,
+- [15:41] that's that's good enough for me. Okay.
+- [15:43] So, now I have some topics in the
+- [15:44] system, and I can filter them like that.
+- [15:47] Okay, we've got a little error here that
+- [15:50] I'll need to get worked out and I can
+- [15:52] fix that later. I I just want to move on
+- [15:54] with the video here and compare uh the
+- [15:56] other two agents work here. So overall,
+- [15:58] I'm actually pretty happy with the work
+- [16:00] that Claude Code and Sonnet 4.5 did
+- [16:02] here. I do have some cleanup, some
+- [16:04] errors to fix. Oh, one more thing I
+- [16:06] wanted to check actually, and that is
+- [16:08] the workshops view when I'm logged out.
+- [16:11] And good, it shows this call to action
+- [16:13] for builder methods pro. Uh because you
+- [16:16] know, if you're a pro member, you get
+- [16:19] complimentary access to all the
+- [16:20] workshops, whereas if you're not, then
+- [16:22] you can, you know, like purchase a
+- [16:24] ticket to any individual workshop. So
+- [16:26] that's why I wanted to have this uh call
+- [16:28] out here. Okay. So let me uh sort of
+- [16:30] backtrack and we're going to shift over
+- [16:32] to the work that cursor did the cursor
+- [16:35] background agent with the composer one
+- [16:37] model. So in order to do this since
+- [16:40] there was a a database migration uh and
+- [16:43] I need to get the database back to its
+- [16:45] previous state. Rails DB roll back. This
+- [16:49] is just a Ruby on Rails thing here of
+- [16:51] course. And now I'm going to go back to
+- [16:52] main and we should be back to our
+- [16:56] original state. And yeah, we are. So
+- [16:59] this is how we started off before the
+- [17:01] the agents did any of their work. This
+- [17:03] is sort of like the boring [laughter] uh
+- [17:05] index view for workshops. So now let's
+- [17:08] go to cursor. I'm looking at the cursor
+- [17:10] web interface here. Now cursor unlike
+- [17:15] cloud code and unlike codeex it does
+- [17:18] automatically immediately create a PR
+- [17:21] and I can just click this button and
+- [17:23] that's going to open up the pull request
+- [17:25] in GitHub and I can view it here. This
+- [17:27] comment it looks like it's from me but
+- [17:29] it was actually written by the agent
+- [17:31] before I merge it in. Um even if I
+- [17:33] review the code I always want to check
+- [17:35] it in the browser. And by the way, also
+- [17:37] in cursor itself, I can open this agent
+- [17:40] and it shows me all the history here.
+- [17:42] Looks like it's a little bit different
+- [17:43] if I go between editor mode and agents
+- [17:46] agents mode. So when I'm in agents mode,
+- [17:49] I can actually see
+- [17:52] um the I don't know what this review
+- [17:55] button does. Let's see. Okay, so that
+- [17:57] that basically just opens up all of the
+- [17:59] um all the files that were changed. Uh,
+- [18:02] but this one is also a link to the PR
+- [18:05] and I can check out the branch. You
+- [18:07] know, you can use cursors interface for
+- [18:09] checking out the branch, but actually
+- [18:11] I'm going to use my own alias for doing
+- [18:14] this. So, I'm just going to grab this
+- [18:16] branch name. And I have an alias that
+- [18:18] fetches a branch off of GitHub and then
+- [18:21] checks it out and switches to that
+- [18:23] branch automatically. I guess that
+- [18:24] cursor, you know, their interface here
+- [18:26] would would probably do the same, but
+- [18:28] it's just part of my muscle memory and
+- [18:31] my and it's like a workflow that I that
+- [18:33] I trust that always works uh the way
+- [18:35] that I want it to work. And I think
+- [18:36] that's just really important in general
+- [18:38] when we're when we're tweaking and we're
+- [18:40] trying out new tools in our workflow.
+- [18:41] So, I'm going to go ahead and do my
+- [18:44] alias for this and I'm going to paste
+- [18:45] that branch name in here. And so, okay.
+- [18:48] So, now I've just checked it out. We're
+- [18:50] good to go. I'm going to run this
+- [18:51] server. And again, we're probably going
+- [18:53] to run into those uh migrations. But
+- [18:56] just to make sure, let's see how
+- [18:59] composer one did from cursor. Here we
+- [19:02] are. All right. It looks looks pretty
+- [19:04] good. So, here are our four um workshops
+- [19:08] and it has my toggle UI all all set up.
+- [19:12] Uh you know, the nice thing is that I've
+- [19:13] already designed this same UI before, so
+- [19:15] it just reused a lot of the same logic.
+- [19:17] So, it it did that really well. Here is
+- [19:19] the toggle switch. And that one actually
+- [19:21] works a lot better than the one that
+- [19:23] Claude Code created. So that's that's
+- [19:25] interesting. I'll go back to workshops
+- [19:26] and I will apply some tags.
+- [19:29] Interestingly, uh this interface works
+- [19:32] much better than the one that Claude
+- [19:33] Code did. So that's another it's another
+- [19:35] data point that makes me think I I might
+- [19:38] keep the composer work instead of the
+- [19:40] claude code work on this one. Um so
+- [19:42] that's looking good. Uh but overall I'm
+- [19:44] actually very happy with the work that
+- [19:46] the composer model from cursor did. And
+- [19:49] it did it so much faster than than the
+- [19:51] other two did. Okay. But for now, let's
+- [19:54] let's backtrack again and let's check
+- [19:55] out the work from Codeex and GPT5 from
+- [19:59] OpenAI. So we're going to do the same
+- [20:01] thing again. We're going to Okay, so
+- [20:02] let's go over to Codeex. Again, Codeex
+- [20:06] does not automatically create a pull
+- [20:08] request in GitHub. Uh, in order to do
+- [20:10] that, you'll need to click this button,
+- [20:12] create PR, and then we can click view
+- [20:15] PR. All right, so now I'm just going to
+- [20:16] do the same thing. I'm going to grab the
+- [20:18] branch name that Codeex had created in
+- [20:20] my system, and I'm going to fetch that
+- [20:22] and switch to it. I'm going to run my
+- [20:24] server. I'm guessing once again, we're
+- [20:27] going to have some pending migrations.
+- [20:29] We're going to run those, and let's
+- [20:31] check out the workshops index view. And,
+- [20:34] uh, yeah, this one has a little issue
+- [20:36] here. So let's go ahead and have let's
+- [20:39] at least get this working, right? Let's
+- [20:41] see if composer can uh can fix this
+- [20:43] issue. So now we have the composer model
+- [20:46] fixing the work of GPT5 with with
+- [20:48] codecs. Okay, all fixed up. Okay, so uh
+- [20:51] this one looks pretty good as well.
+- [20:53] We've got our uh list mode and the grid
+- [20:57] mode. This one has the thumbnail. This
+- [20:59] one is coming up in the future and the
+- [21:01] rest of these are in the past. I would
+- [21:03] want to actually look into this time
+- [21:05] zone issue here. And then we've got the
+- [21:07] upcoming toggle switch, which seems to
+- [21:10] be working just fine. So, that's good.
+- [21:12] Let's go ahead and check this out. And
+- [21:14] this one works just fine. Cool. All
+- [21:17] right. Let's uh look at this in another
+- [21:20] browser. And it got the uh the call to
+- [21:22] action to join Builder Methods Pro.
+- [21:24] That's all looking good. And uh here is
+- [21:27] the link that points to the the page to
+- [21:30] get a ticket. Good. All right. So I
+- [21:31] would say like overall I was most
+- [21:33] impressed with the cursor uh both the
+- [21:36] cursor experience with with running uh
+- [21:38] background agents but also uh the work
+- [21:40] that the composer model did. They were
+- [21:42] all very similar. They all mostly
+- [21:44] finished the the feature pretty well.
+- [21:46] I'm a bit surprised that Claude Code and
+- [21:49] Sonnet 4.5 uh didn't quite hit the mark
+- [21:52] on this one even though that's typically
+- [21:54] the the best performer of the three. Um
+- [21:56] but you know it really is different from
+- [21:58] from one feature to the next. It's kind
+- [22:00] of an interesting time. So, I hope you
+- [22:02] found this comparison helpful as you
+- [22:03] look at different tools for running
+- [22:05] cloud coding agents. Uh, as you saw in
+- [22:08] the video, I kind of like cloud code
+- [22:10] since I use that quite a bit. Cloud code
+- [22:12] on the web is pretty impressive. But in
+- [22:14] my experience right now, I'm sort of
+- [22:16] leaning toward the cursor background
+- [22:18] agent workflow, especially since I use
+- [22:20] cursor every day as my daily driver, as
+- [22:24] my IDE. Now, if you haven't seen it yet,
+- [22:26] cursor 2.0 0 recently dropped along with
+- [22:29] the composer model which I demoed in
+- [22:32] this video. I did a deep dive into
+- [22:33] cursor 2.0 and the composer model
+- [22:36] specifically the two features that have
+- [22:38] actually completely changed how I work
+- [22:40] day-to-day. So right after you hit
+- [22:43] subscribe on this channel I'll see you
+- [22:45] over there next. Let's keep building.

@@ -1,0 +1,880 @@
+---
+title: "YouTube Video: AYsg5gAMWyo"
+video_id: "AYsg5gAMWyo"
+video_url: "https://www.youtube.com/watch?v=AYsg5gAMWyo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Tutorial"
+topics:
+  - "Tutorial"
+summary: |
+  VO3.1 Nano Banana Sora 2. There are all of these amazing models dropping. So, I figured why not just build a system where we can use all of them. So, what we're going to be looking at today is the ult...
+key_points:
+  - "this exact system. So, the first product"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: AYsg5gAMWyo
+
+- URL: https://www.youtube.com/watch?v=AYsg5gAMWyo
+- Retrieved at: 2025-12-30T09:58:32+09:00
+
+## Text
+
+- [00:00] VO3.1 Nano Banana Sora 2. There are all
+- [00:03] of these amazing models dropping. So, I
+- [00:04] figured why not just build a system
+- [00:06] where we can use all of them. So, what
+- [00:08] we're going to be looking at today is
+- [00:09] the ultimate UGC ads system where all
+- [00:11] you have to do is fill in some raw
+- [00:12] information on a Google sheet like a
+- [00:14] product photo, the ICP, the features of
+- [00:16] that product, and a setting of the
+- [00:18] video. And then all you have to do is
+- [00:19] come in here and choose your model.
+- [00:21] Whether that is V3.1, a combination of
+- [00:23] Nano Banana and V3.1, which is super
+- [00:25] cool. I'll show you guys exactly how we
+- [00:26] do that in a sec here, or using Sora 2.
+- [00:29] This lets you seamlessly test a bunch of
+- [00:30] different creatives and product features
+- [00:32] and settings across a ton of these
+- [00:34] different AI video generation models.
+- [00:36] So, the question that we're going to be
+- [00:37] trying to answer today is which one is
+- [00:39] best for UGC ads. So, taking a look at
+- [00:41] this workflow, you can see that there's
+- [00:42] basically three paths. There's the VO3.1
+- [00:44] path, the Nano Banana Plus V3.1 path,
+- [00:47] and then the Sora 2 path. So, we're
+- [00:49] going to jump into a live demo. We're
+- [00:50] going to run all three of these paths,
+- [00:51] and I'm going to explain what every
+- [00:52] single node is doing so that you guys
+- [00:54] can set this up for yourself. And as
+- [00:55] always, I'm giving away the entire
+- [00:57] system for free. All you have to do is
+- [00:58] join my free school community. The link
+- [01:00] for that is down in the description. So,
+- [01:01] before we go ahead and run the live
+- [01:02] example, let's look at a few of our
+- [01:04] outputs that we've already gotten with
+- [01:06] this exact system. So, the first product
+- [01:08] we tried was creatine gummies. Here is
+- [01:10] what the actual product photo looks
+- [01:11] like. So, you can see it's a creatine
+- [01:12] gummy jar. We then have the ICP, which
+- [01:14] is young adults wanting to stay fit. The
+- [01:16] product features for this are delicious
+- [01:18] gummies, easy to remember to take daily,
+- [01:20] makes workouts better, more energetic,
+- [01:21] stuff like that. In the video setting,
+- [01:23] we have a young man who is parked in his
+- [01:25] car about to go into the gym holding the
+- [01:27] gummies. So, the first one we'll look at
+- [01:28] is Nano Banana Plus Google V3.1.
+- [01:31] >> I love that these creatine gummies
+- [01:33] actually give me more energy for my sets
+- [01:35] and they're tasty, so I actually
+- [01:36] remember to take them every day.
+- [01:39] >> All right, here's the same one with Sora
+- [01:40] 2.
+- [01:41] >> I love these creatine gummies. They
+- [01:43] actually taste amazing and I never
+- [01:45] forget to take them. They make my
+- [01:46] workout stronger and I feel more
+- [01:48] energized.
+- [01:49] >> And then here's V3.1. These taste
+- [01:51] amazing and I actually remember them
+- [01:53] every day for a my workouts feel
+- [01:55] stronger and I've got more energy.
+- [01:57] >> You may have noticed a few things with
+- [01:58] the reference image and the way they
+- [01:59] were speaking, but let's continue on to
+- [02:01] the second example which was hair shine
+- [02:03] spray. So, I'm going to go in the same
+- [02:04] order. Nano Banana Plus VO3.1 Sor 2 and
+- [02:07] then V3.1.
+- [02:08] >> I love how this gives my hair that
+- [02:10] glossy finish without any greasiness. It
+- [02:13] dries instantly and feels weightless. I
+- [02:16] love how this gives instant glossy shine
+- [02:17] without any greasiness. It dries fast
+- [02:19] and feels weightless. I love how this
+- [02:21] adds instant gloss without feeling
+- [02:24] greasy. It dries so fast and leaves no
+- [02:26] sticky buildup.
+- [02:28] >> All right, so we've seen a few examples.
+- [02:29] We'll come back at the end and compare
+- [02:30] more outputs and see which one we
+- [02:32] ultimately deem being the king of these
+- [02:34] models. But let's go ahead and do a live
+- [02:35] example. So the first two that we did
+- [02:37] were AI generated images. This first one
+- [02:39] was creatine gummies, as you can see,
+- [02:41] and the second one was our hairspray,
+- [02:43] which looked like this. So, what we're
+- [02:45] going to do for the third example is a
+- [02:46] real product image, and this is actually
+- [02:48] from an Amazon listing. So, it is a
+- [02:50] portable neck fan like this. We have the
+- [02:52] ICP of middle-aged adults who spend long
+- [02:54] hours outdoors or landscapers,
+- [02:56] construction workers. We have product
+- [02:58] features like it's comfortable, it's
+- [02:59] light, it delivers powerful air upward
+- [03:01] and downward, and it regulates your body
+- [03:03] temperature. And we have the video
+- [03:05] setting for a friendly middle-aged woman
+- [03:07] tending her garden in the afternoon sun.
+- [03:09] So, hopefully you guys can see the value
+- [03:10] prop here. it'd be really easy to just
+- [03:12] throw in your product information right
+- [03:14] here and then have this thing every day
+- [03:15] create tons of UGC ad content for you.
+- [03:18] Then what happens in the workflow is it
+- [03:20] takes that and we have different AI
+- [03:22] agents here that are trained to prompt
+- [03:23] in different ways and that's how we're
+- [03:25] optimizing you know the features and ICP
+- [03:27] and the setting to actually go into this
+- [03:30] UGC content. So I'm going to go ahead
+- [03:31] and hit execute workflow. It's going to
+- [03:33] pull in that data from the sheet. It's
+- [03:34] going to do one row first and the first
+- [03:36] row that it's doing is nano Banana plus
+- [03:38] V3.1 because as you can see right here
+- [03:41] it's basically processing this row and
+- [03:42] that's the model that we chose was
+- [03:44] NanoBanana plus V3.1. So I'm actually
+- [03:47] just going to start to explain what's
+- [03:48] going on here as this is running. So you
+- [03:51] can see here we're pulling in data from
+- [03:52] this sheet, right? The only thing
+- [03:54] special going on here is we're making
+- [03:55] sure that the status column equals ready
+- [03:58] because we don't want to pull in all of
+- [03:59] these rows that have already been
+- [04:00] finished. And then we also turned on
+- [04:02] this option that says return only the
+- [04:03] first matching row because we don't want
+- [04:05] to do, you know, all six of these at a
+- [04:07] time. We want to just do one by one. You
+- [04:09] could obviously change that if you want,
+- [04:10] but that's the way we're rocking right
+- [04:11] now. Anyways, we then go into this
+- [04:13] switch node and what happens here is it
+- [04:15] basically just checks what the model was
+- [04:17] selected as. So if it was V3.1, it goes
+- [04:20] up. If it was nano plus V3.1, it goes to
+- [04:23] the middle. And if it was SOAR 2, it
+- [04:25] goes down. As you can see, these three
+- [04:26] paths. So, this one was obviously V3.1
+- [04:29] plus nanobanana, which is why it went
+- [04:31] here. And that's why we're doing this
+- [04:33] first step, which is an image prompt.
+- [04:35] So, let me explain why I'm doing this.
+- [04:37] What we're starting with is a picture of
+- [04:39] our product because we need to make sure
+- [04:40] that the product image looks actually
+- [04:43] good in our final copy. Otherwise, we're
+- [04:45] not going to be able to sell any of
+- [04:46] that. So, in my mind, the most ideal way
+- [04:48] to do this is to take that product image
+- [04:50] that we're given. So, if we just want to
+- [04:51] get a quick refresher, taking this
+- [04:53] product image right here and using AI to
+- [04:56] turn this into an image where someone is
+- [04:58] wearing it or holding it and then we can
+- [05:01] take that optimized image and turn that
+- [05:03] into a video. And so, ideally, I would
+- [05:05] do this also for Sora. But when you send
+- [05:07] a image to Sora, if it looks like a
+- [05:10] realistic human person, even if it's an
+- [05:12] AI generated human, it's going to reject
+- [05:14] it. Google VO3.1 however does not reject
+- [05:17] it which is why we have this little
+- [05:19] extra bonus method here. Now the
+- [05:21] workaround here is if you do Sora 2 you
+- [05:23] can use cameos. So if you haven't seen
+- [05:25] that before then I'll drop my video I
+- [05:27] made with Nitn and Sora 2. I'll tag it
+- [05:29] right up here and you can see you could
+- [05:30] use cameos. So you could create one of
+- [05:32] yourself or you could use some other
+- [05:33] person and have them being in your
+- [05:35] content with your product something like
+- [05:38] that. So anyways we're using Nano Banana
+- [05:40] to create an image of the product being
+- [05:42] held or worn by a person. And then we
+- [05:44] take that image and we turn it into a
+- [05:45] video with VO3.1. So anyways, you can
+- [05:48] see that that actually just finished up.
+- [05:49] So that's telling me I need to speed up
+- [05:51] a little bit. Let's click into this AI
+- [05:53] agent to understand how it is making an
+- [05:55] image prompt. We're giving it two
+- [05:56] things. We're giving it the product,
+- [05:58] which as you can see, if I open this up,
+- [06:00] it's coming through as portable neck
+- [06:02] fan, and we're giving it the image
+- [06:03] setting, which is actually just the
+- [06:04] video setting, but it says, "A friendly
+- [06:06] middle-aged woman is tending her garden
+- [06:08] under the sun. She pauses, smiles at the
+- [06:10] camera, and gestures toward the sleek
+- [06:11] fan resting around her neck." So the AI
+- [06:13] agent takes that information and then it
+- [06:15] reads through its system prompt to
+- [06:17] understand what do I need to do with
+- [06:18] that information. I'm not going to read
+- [06:20] this entire system prompt, but you guys
+- [06:22] will be able to once again download this
+- [06:23] template for free and you can dive into
+- [06:25] this and understand why I have it set up
+- [06:27] this way. One thing I did want to
+- [06:28] preface though is I made this workflow
+- [06:30] to be a template. So these system
+- [06:31] prompts are not perfect or optimized and
+- [06:33] it would really be on you to get in here
+- [06:35] and customize them a little bit for your
+- [06:36] use case, but it gives us a great place
+- [06:38] to start. So anyways, you are an expert
+- [06:40] in hyperrealistic UGC userenerated
+- [06:43] content photography and your role is to
+- [06:46] generate detailed image prompts, not the
+- [06:48] images themselves. So you will be
+- [06:50] provided with a product photo which
+- [06:51] should not be changed or altered in any
+- [06:53] way. And you will also be given a
+- [06:55] specific setting or scene description.
+- [06:57] So it knows that its role is to create a
+- [06:59] prompt. So we come in here and we give
+- [07:00] it some prompt guidelines. We talk about
+- [07:02] human realism. We talk about product
+- [07:04] accuracy. We talk about composition and
+- [07:07] perspective. We talk about lighting and
+- [07:09] environment. We talk about authentic
+- [07:11] details, technical style. And then
+- [07:13] finally, some critical instruction like
+- [07:14] only outputting the image prompt, not an
+- [07:17] actual image or you know, hey, here's
+- [07:19] your image prompt. You know, we just
+- [07:20] want the prompt. So, out of that, what
+- [07:22] we get is our image prompt. And you can
+- [07:24] see it's pretty detailed. It has stuff
+- [07:26] like lighting. It has stuff like camera
+- [07:27] angle and composition and stuff like
+- [07:29] that. And we're able to take that
+- [07:31] output, feed it into the next node,
+- [07:34] which is our HTTP request to a service
+- [07:37] called Key AI, which lets us access tons
+- [07:39] of different AI image and video
+- [07:41] generation models. So this is key. As
+- [07:43] you can see, we have tons of stuff like
+- [07:44] VO3.1, Sora 2 Pro, 40 image, Flux
+- [07:48] Context, Cling Turbo. It's kind of like
+- [07:50] the open router for image and video
+- [07:53] generation models. So, I'm not going to
+- [07:54] deep dive into exactly how I set up this
+- [07:56] API call, but definitely go and watch
+- [07:58] that sore video if you haven't because I
+- [08:00] actually go step by step and show you
+- [08:01] guys how I did that. I'll also tag right
+- [08:03] up here an API video that I made, which
+- [08:05] you should watch anyways because it
+- [08:06] really explains APIs and agents and
+- [08:08] stuff like that. Anyways, essentially
+- [08:09] what we're passing over here is our JSON
+- [08:12] body, which is the most important part.
+- [08:13] The model that we want to use is nano
+- [08:15] bananait. We're sending over the input
+- [08:17] prompt, which as you can see right here
+- [08:19] is coming through. This is the output of
+- [08:21] the image prompt agent that we just
+- [08:22] looked at. Now, there is one thing I did
+- [08:24] here that's kind of special is I
+- [08:25] replaced new lines because you can see
+- [08:27] if I get rid of this expression real
+- [08:28] quick, what happens is we get these
+- [08:30] little line breaks in here and we don't
+- [08:32] want that because that will actually
+- [08:33] break our request to key AI. So, that's
+- [08:36] why I use that little expression. I also
+- [08:38] talk about that in the Sora video. And
+- [08:39] then we're giving it the image URL,
+- [08:41] which is the one that came from our
+- [08:42] Google sheet right here as you can see.
+- [08:44] Finally, we're just saying we want this
+- [08:46] to be vertical because a lot of times
+- [08:47] the UGC content is kind of selfie style
+- [08:49] and it's for like a Tik Tok or an
+- [08:51] Instagram reel. So that's what we do
+- [08:52] there. Once key gets this request, it
+- [08:55] basically says to us, okay, cool. I got
+- [08:58] all this information. We're working on
+- [08:59] that right now. And so the next step
+- [09:01] that we move into here is a wait node.
+- [09:04] You can see that I have this set up for
+- [09:06] 5 seconds. So it goes ahead and it waits
+- [09:08] for 5 seconds and then it checks in on
+- [09:10] key and says, "Hey, do you have my order
+- [09:12] done yet?" And we're able to get to that
+- [09:14] by sending over the task ID of the
+- [09:16] previous order. So it's like when you go
+- [09:17] to a food truck and you order your food
+- [09:19] and it says, "Okay, your order number
+- [09:20] 43." This is basically you walking back
+- [09:22] up to the truck and saying, "Hey, I'm
+- [09:23] order 43. Is it done?" And they'll
+- [09:25] either say yes or no. And that's why we
+- [09:27] use this little if node right here,
+- [09:29] which is basically our yes or no check.
+- [09:31] And we're looking to see if the state
+- [09:32] equals success. Because if you look at
+- [09:34] the first time we checked in, the state
+- [09:36] equals waiting. The second time that we
+- [09:38] checked in, the state equaled waiting.
+- [09:40] And finally, the third time we checked
+- [09:42] in, the state equals success, which
+- [09:43] means that our order is ready. And so
+- [09:45] notice that we have false branch or true
+- [09:47] branch, and it's true when it's done. So
+- [09:50] what we do is if it's false, we have
+- [09:51] this line that goes back to the wait. So
+- [09:53] this is why you can see it waited three
+- [09:55] times, which means this took about 15
+- [09:56] seconds to generate. And so the first
+- [09:58] time it wasn't ready, it came back.
+- [10:00] Second time it wasn't ready. We checked
+- [10:01] in again. And then the third time after
+- [10:03] it waited again, it was done. And so
+- [10:05] when that's done, what we end up doing
+- [10:07] is we want to real quick analyze that
+- [10:09] image to see what is actually in there.
+- [10:11] So here's the actual image that it
+- [10:13] created for us, which looks awesome.
+- [10:14] It's a green portable neck fan. She's in
+- [10:16] her garden, and it even matches the
+- [10:18] writing, as you can see. See, if we go
+- [10:19] back to the source image, there's a
+- [10:20] little bit of gold text right there.
+- [10:22] There's these circles. So, that looks
+- [10:23] really good. And so, I basically grabbed
+- [10:25] this open AI note and said, "Describe
+- [10:26] what's in the image. Describe the
+- [10:28] environment." Stuff like that. And we
+- [10:29] get back, the image features a woman
+- [10:31] standing outdoors in what appears to be
+- [10:32] a garden. The environment has raised
+- [10:34] garden beds, blah blah blah. The woman
+- [10:36] is wearing a light blue shirt. She has
+- [10:37] her hair pulled back. Around her neck,
+- [10:38] she has a green wearable device that
+- [10:40] looks like a personal neck fan. Blah
+- [10:41] blah blah. So, the reason why I wanted
+- [10:43] to analyze the image real quick is
+- [10:45] because the next step is to use another
+- [10:47] AI agent to create a video prompt. And
+- [10:49] in order to create a video prompt that
+- [10:51] is consistent with our image, not only
+- [10:53] are we going to give it that image, but
+- [10:54] we also want to give it a quick analysis
+- [10:56] of what is actually in that image so
+- [10:58] that its prompt is consistent. And I
+- [11:00] have tried doing this without the
+- [11:01] analyze image step and it still works.
+- [11:03] But doing this, it just seems to be
+- [11:04] higher quality. So, anyways, we are
+- [11:07] hitting another AI agent. This time
+- [11:09] we're giving it a little bit more
+- [11:10] information because keep in mind this
+- [11:13] agent isn't just creating a video
+- [11:15] prompt. It's also creating the dialogue
+- [11:17] that the person in that video is going
+- [11:19] to say. And so in order to do that, we
+- [11:21] give it the product. We give it the
+- [11:23] product ICP. We give it the product
+- [11:25] features. We give the video setting. And
+- [11:27] here's where we give it the reference
+- [11:28] image description. So this is the
+- [11:30] analysis of that image. So it looks at
+- [11:32] all that information and it says, "Okay,
+- [11:33] what do I do with that?" And so now we
+- [11:35] have our system prompt. Once again, not
+- [11:37] going to read the whole thing, but you
+- [11:38] guys can have access to it for free. So,
+- [11:40] we said that your role as an expert UGC
+- [11:42] video creator. Your task is to generate
+- [11:44] a prompt for an AI video model like
+- [11:46] VO3.1. Your goal is to create a
+- [11:48] realistic selfie style video that
+- [11:50] appears to be filmed by an influencer
+- [11:51] using one hand to hold the phone and the
+- [11:53] other to interact with the product. The
+- [11:55] video needs to feel authentic, which is
+- [11:57] why UGC ads are converting so well right
+- [11:59] now because it's just real people
+- [12:01] speaking real raw thoughts. Anyways, we
+- [12:03] gave it some requirements like subject
+- [12:05] and framing. We talk about the visual
+- [12:07] style. We talk about tone and dialogue.
+- [12:10] We give it some technical specs. We give
+- [12:12] it some embedded elements in the prompt.
+- [12:13] As you can see, we tell it that it's
+- [12:15] going to get a reference image and it
+- [12:16] needs to match that appearance and tone.
+- [12:18] And then a real quick output prompt,
+- [12:21] which is pretty concise. And honestly,
+- [12:22] it looks like I might have accidentally
+- [12:23] cut off the last sentence here, but
+- [12:26] hopefully it still came out all right.
+- [12:27] And so after that, we get this output.
+- [12:29] You can see it starts off with a natural
+- [12:30] selfie style 9x6 vertical video, 8
+- [12:33] seconds long. friendly middle-aged
+- [12:35] woman, gardener. She's filming on her
+- [12:36] phone. She's wearing a light blue shirt.
+- [12:38] And then down here is where you can see
+- [12:39] what the dialogue says. So, I love how
+- [12:41] it's so light. I almost forget it's on,
+- [12:42] but it pushes a ton of air and the
+- [12:44] battery lasts all afternoon. So, that
+- [12:46] basically took the product features that
+- [12:47] we had given it and it made a quick
+- [12:49] little blurb for this influencer to say
+- [12:52] in the video. Now, we're going to take
+- [12:54] this video prompt and we're going to
+- [12:56] feed that into key once again and we're
+- [12:59] going to send it to VO3.1. So, here is
+- [13:01] our HTTP request where we're submitting
+- [13:03] an order to VO3.1.
+- [13:06] I'm going to open up this body, and you
+- [13:07] can see that we have a prompt, which is
+- [13:09] exactly what we just got from the lefth
+- [13:10] hand side. Now, the reason it looks all
+- [13:12] messy like this is because I'm actually
+- [13:13] using three replace functions. I'm just
+- [13:15] going to replace new lines, which we
+- [13:17] already talked about. I'm going to
+- [13:18] replace double quotes right here. It
+- [13:20] previously said, I love how it's so
+- [13:21] light and pushes a ton of air, and this
+- [13:23] was wrapped in double quotes, but we
+- [13:25] took those away because that will also
+- [13:26] break the JSON body. And then I also had
+- [13:28] to add another one. Sometimes based on
+- [13:31] your chat model, it can be really weird
+- [13:32] and output these double curly quotes
+- [13:34] which don't actually get captured with
+- [13:36] this previous replace function. So I
+- [13:38] threw in this one just as an extra
+- [13:39] guardrail which you guys will already
+- [13:40] have all this set up. So you should be
+- [13:41] good to go. But now we're basically
+- [13:43] ensuring that our request will go
+- [13:45] through. You can see once again we're
+- [13:46] giving it the image URL except for this
+- [13:48] one is actually the image you know it's
+- [13:50] this one that Nano Banana made for us.
+- [13:52] And then for the model we're saying V3
+- [13:54] fast. We're using fast instead of
+- [13:56] quality because it's cheaper and it's
+- [13:57] faster and it's still really good. And I
+- [13:59] know this says V3, but trust me, this is
+- [14:00] using V3.1. And then aspect ratio 9x6.
+- [14:04] We wanted to make sure that it matches
+- [14:05] the source image. So now that we have
+- [14:08] that, it basically does the exact same
+- [14:09] thing. It gives us back a order number
+- [14:11] or some sort of ticket. And we go ahead
+- [14:13] and wait for 10 seconds right here. We
+- [14:15] then go ahead and check back in on this
+- [14:17] request, giving it our order number to
+- [14:19] make to see if it's done or not. And
+- [14:21] then you can see this happened eight
+- [14:23] times. And so we basically checked in
+- [14:25] eight times. So a total of 80 seconds.
+- [14:27] So almost a minute and a half. And then
+- [14:29] when we realize that the order is
+- [14:30] actually done, we go ahead and we write
+- [14:31] back to Google Sheets. And let me show
+- [14:33] you real quick how we set up this Google
+- [14:35] sheet right back. So we're using the
+- [14:37] operation to update the row. And we
+- [14:39] choose our sheet. Of course, we shoot we
+- [14:41] choose our document. And then it says
+- [14:42] that we have to match on a certain
+- [14:44] column. So what we decide to do is match
+- [14:46] on the column number. So you can see
+- [14:49] right here, all of these rows have a
+- [14:50] different unique number. And when the
+- [14:52] workflow gets triggered, if we go all
+- [14:54] the way back down to our initial get
+- [14:56] rows, you can see that this row came in
+- [14:58] and it was row number 10 or technically
+- [15:00] row number 11, but the number was 10.
+- [15:04] And so we're basically going to drag in
+- [15:05] the number right here and say, okay, the
+- [15:07] row that we want to update is the row
+- [15:08] where the number column equals 10. And
+- [15:11] so that's why it was able to write back
+- [15:13] to this row right here, which you can
+- [15:14] now see has been changed to status
+- [15:16] finished. And we have our finished file
+- [15:18] right here. because in Nitn we manually
+- [15:21] set the status to be finished and then
+- [15:23] we drag in the finished video URL that
+- [15:25] we just got back from our key request.
+- [15:29] And so that's basically the full process
+- [15:31] and that's the most complicated one
+- [15:32] because both the top one and the bottom
+- [15:34] one are just doing reference image to
+- [15:36] video rather than reference image to
+- [15:38] image and then taking that image to
+- [15:40] video. So anyways, we just covered the
+- [15:42] hardest one and then we'll look at the
+- [15:43] other ones. But real quick, let's just
+- [15:45] go look at the actual output because of
+- [15:47] course I'm very curious. I love how it's
+- [15:49] so light I almost forget it's on, but it
+- [15:51] pushes tons of air and the battery lasts
+- [15:55] all afternoon.
+- [15:56] >> That's really impressive. I was nervous
+- [15:57] to see because it's different from
+- [15:59] someone holding a product. She's
+- [16:00] actually wearing it. But I mean, the
+- [16:02] voice was really good. The tonality was
+- [16:04] good. I thought that this was an
+- [16:05] impressive result. But let's move on to
+- [16:07] the next one, which is Sora 2. So, what
+- [16:10] I'm going to do is go back into the
+- [16:11] workflow and I'm going to execute it.
+- [16:13] What this is going to do is pull in the
+- [16:15] next And you can see it got pushed down
+- [16:17] to Sora 2 because when it does this
+- [16:20] check for the model, it knows that the
+- [16:22] model was right here marked off as Sora
+- [16:24] 2. So I'm honestly not going to spend as
+- [16:26] much time in these next two flows
+- [16:28] because you guys pretty much already
+- [16:30] understand exactly what's going on. We
+- [16:32] have this video prompt agent which once
+- [16:34] again is looking at the product, the
+- [16:36] product ICP, the product features, and
+- [16:38] the video setting. The only difference
+- [16:40] here is that it doesn't have a analysis
+- [16:42] of the reference image because it'll
+- [16:44] just be given that. But the system
+- [16:46] prompt once again we basically say
+- [16:48] you're an advanced UGC video creator.
+- [16:50] You're optimizing for video prompts for
+- [16:51] Sora 2. Here is what you'll be given.
+- [16:54] And we go over basically the same exact
+- [16:56] headers. Subject and framing, visual
+- [16:58] style, uh tone and dialogue, technical
+- [17:01] specs, prompt, construction,
+- [17:03] instructions, and an example output
+- [17:05] prompt as you can see down there. So
+- [17:07] what that does is it once again it
+- [17:08] outputs us a video prompt. And you can
+- [17:10] see in this one there actually are new
+- [17:12] lines. So, good thing we have that
+- [17:13] guardrail baked in to get rid of those
+- [17:15] new lines. As you can see in this HTTP
+- [17:17] request to key, we fill in our body by
+- [17:21] saying, okay, the model we want to use
+- [17:22] is store to image to video. Here is the
+- [17:25] prompt. And of course, we're using all
+- [17:26] of those nasty replace functions once
+- [17:28] again. We've got the image URL, which
+- [17:30] we're grabbing from the Google sheet,
+- [17:31] which once again looks like this right
+- [17:33] there. And we're basically just sending
+- [17:34] all of that over. And so, it's going to
+- [17:36] take that video prompt and it's going to
+- [17:38] take that source image and it's going to
+- [17:40] turn that into a video. We're doing the
+- [17:42] exact same thing here where, you know,
+- [17:43] we submitted the order, we have to wait
+- [17:44] 10 seconds and then check in and we're
+- [17:46] going to go ahead and constantly be
+- [17:48] checking until we know that our video is
+- [17:50] done. On average, I have been seeing
+- [17:51] that V3 fast is finishing in anywhere
+- [17:54] from a minute to 2 minutes. And Sora 2
+- [17:56] has been taking typically a little bit
+- [17:57] more than that, maybe a minute and a
+- [17:59] half to 3 minutes. There are a few
+- [18:00] things to consider. Sometimes if you do
+- [18:02] something like a cameo, it's going to
+- [18:03] take longer. If you've got a really long
+- [18:04] video prompt, it'll take longer. Also,
+- [18:06] what can influence it is how many people
+- [18:07] in the world are trying to use keys
+- [18:09] endpoints. that can make it take longer,
+- [18:11] too. But typically, Google V3 fast is
+- [18:13] faster, but it's the exact same flow
+- [18:15] from there. We're pulling it back in.
+- [18:17] We're doing the same match to update the
+- [18:19] row, and then we're just updating the
+- [18:20] status of finished. And we are putting
+- [18:22] in the final video link into the Google
+- [18:24] sheet. There you go. It looks like it
+- [18:25] just finished up. Let's go back into the
+- [18:27] Google sheet. It just got marked as
+- [18:28] finished. And we have our file. So,
+- [18:30] let's take a look at the Sora 2 output.
+- [18:33] >> Man, this thing is so light and the
+- [18:35] airflow hits my face perfectly. Keeps me
+- [18:37] cool while I work. And the battery lasts
+- [18:40] for hours, so I don't have to worry
+- [18:41] about it dying out here.
+- [18:43] >> Man, well, that was another really good
+- [18:44] one. A little bit confused where this
+- [18:46] thing came from. That was a bit of a
+- [18:47] hallucination, but as you can see, this
+- [18:49] was the reference image, and it looks
+- [18:50] really good in this video. Super
+- [18:52] authentic, and it looks like she's
+- [18:53] obviously standing there taking a selfie
+- [18:55] video. All right, so the final one for
+- [18:56] this example is V3.1. So, I'm going to
+- [18:59] go ahead and zoom out a little bit, hit
+- [19:01] execute workflow, and it should shoot it
+- [19:02] up this top branch now. And I'm honestly
+- [19:05] not even going to break this down
+- [19:06] because it's the exact same thing. I
+- [19:08] copied over basically the exact same
+- [19:09] system prompt. I just switched out 10
+- [19:12] seconds, which is how long the Sor
+- [19:13] videos are, for 8 seconds for how long
+- [19:15] the V3.1 videos are. And then I switched
+- [19:17] out sore 2 for V3.1. But I wanted to
+- [19:20] keep these prompts across all of these
+- [19:22] flows as consistent as possible to kind
+- [19:25] of limit the variability that we have in
+- [19:27] order to truly see the power of these
+- [19:28] models when we have as many things
+- [19:30] consistent as we can. So, I'm just going
+- [19:32] to let this finish up and I will check
+- [19:33] in with you guys when we get our
+- [19:34] finished output from V3.1. All right, so
+- [19:36] you can see that that one just finished
+- [19:37] up. Once again, took about 80 seconds.
+- [19:40] Let's go ahead and make sure we got this
+- [19:42] updated. And let's take a look at the
+- [19:44] V3.1 output.
+- [19:46] >> I love how light this is turning. It
+- [19:48] actually blows enough air to keep me
+- [19:50] cool for hours while I'm working.
+- [19:52] >> Okay, so it's not too bad. I honestly
+- [19:54] think that right now my my order is this
+- [19:56] exact order that we have here, which is
+- [19:58] Nano plus V3.1, then Sora 2, then just
+- [20:01] V3.1. A lot of these VO ones have like
+- [20:04] this super HDR weird orange glow looking
+- [20:08] effect. I'm not sure if you guys had
+- [20:09] noticed that. Here's another example of
+- [20:11] the VO3.1. It's not it's not terrible,
+- [20:13] but just in comparison to some of the
+- [20:15] other ones, it definitely looks a bit
+- [20:16] more orange. And then another thing I
+- [20:18] noticed is this is the V3.1 example, and
+- [20:21] I explicitly told it to not change
+- [20:23] anything about the reference image
+- [20:24] itself, but we can see the creatine
+- [20:26] gummies is a jar and then in the video
+- [20:28] it's a bag. And so it does have the same
+- [20:30] branding and same font as you can see.
+- [20:32] He even actually, this is funny, he's
+- [20:33] got the logo on his hoodie, which is
+- [20:35] honestly a nice touch, but this is a
+- [20:37] bag. And in the source image, it was a
+- [20:39] jar. And the other creatine ones didn't
+- [20:41] have a bag. They had the the correct
+- [20:42] jar, too. And I know we didn't look at
+- [20:44] the forearm strengthener example, but
+- [20:46] this was another one where, for example,
+- [20:47] Nano Plus V3.1. Let me just show you
+- [20:49] guys this one. I love that the
+- [20:51] adjustable resistance actually makes my
+- [20:53] grip get stronger week to week, and it's
+- [20:55] small enough to use right at my desk.
+- [20:57] like super good, super natural, and the
+- [20:59] product photo looked exactly like it did
+- [21:01] that I gave it, which looked like this,
+- [21:03] as you can see right here. But then that
+- [21:05] same one with VO3.1 without Nano Banana.
+- [21:08] Once again, it looks a bit it has some
+- [21:10] weird shadows and it looks orange.
+- [21:11] >> I love how the adjustable resistance
+- [21:12] actually lets me progress without extra
+- [21:14] gear.
+- [21:15] >> But it the product photo also once again
+- [21:17] does not exactly match the source image.
+- [21:19] So that's kind of like a huge no no for
+- [21:22] me. And another thing that you guys will
+- [21:24] notice when you send a source image and
+- [21:26] you turn that into a video both with
+- [21:28] V3.1 and Sora is the first frame is the
+- [21:31] reference image. And this is that first
+- [21:33] creatine example we looked at with sore
+- [21:35] 2. And you'll notice the very first
+- [21:36] frame is once again the reference image.
+- [21:38] And so when we do nanobanana plus Google
+- [21:40] V3.1 it still does that but our
+- [21:44] reference image is this. So it just is
+- [21:46] able to you know pick up right from here
+- [21:48] and it looks way more natural. So the
+- [21:50] point being you could kind of like
+- [21:52] automate the content creation and you
+- [21:54] could have it auto post as well with
+- [21:56] this branch, but I probably wouldn't
+- [21:58] auto post Google V3 like this or sore 2
+- [22:01] like this because of that whole first
+- [22:03] frame, first couple milliseconds thing.
+- [22:05] Now some people argue that it's good
+- [22:07] because then you have a thumbnail, but
+- [22:08] then every single thumbnail on your feed
+- [22:10] would look the exact same and that I
+- [22:12] think would just come across really bad.
+- [22:14] So that's why I think right now my
+- [22:16] favorite is honestly Nanobanana plus
+- [22:18] V3.1.
+- [22:20] Now I think Sora would give it a run for
+- [22:22] its money if it allowed you to upload a
+- [22:24] realistic photo of a human. Because if
+- [22:26] we go back to this first example with
+- [22:27] the portable neck fan when Nano Banana
+- [22:29] made that image, even though this is a
+- [22:31] fake person and an AI generated image,
+- [22:33] if you tried to feed that into Soore 2,
+- [22:35] it would block you because of content
+- [22:37] restrictions. So that's why this combo
+- [22:39] has my vote right now. But another thing
+- [22:41] to consider, of course, is cost. So
+- [22:43] comparing these options, I guess there
+- [22:45] were technically three, but let's just
+- [22:46] look at these two because V3 is in here
+- [22:48] for both. But option one is nanobanana
+- [22:50] plus V3 fast. When you're going through
+- [22:53] KI, which is the one that we were on
+- [22:55] right up here, a nano banana image is
+- [22:57] going to cost you 2 cents. So not bad.
+- [22:59] And an 8second V3 fast video will cost
+- [23:01] you 30. So total cost per piece of
+- [23:04] content with this system would be 32.
+- [23:07] Now, for option two, if you're using
+- [23:09] Sora 2 and you're going through KAI,
+- [23:11] which is the cheapest I've seen it, so
+- [23:12] definitely do that. It will cost you 15
+- [23:15] cents for 10-second video. So, really
+- [23:16] not bad at all. About half the cost of
+- [23:19] VO3 fast. So, option one is roughly two
+- [23:21] times more expensive than Sora 2. So,
+- [23:23] the question is, is it two times higher
+- [23:26] quality and will it result in two times
+- [23:28] more conversions? Or maybe it's not
+- [23:29] exactly a two times match because it's a
+- [23:31] lot cheaper than how much money you'd
+- [23:33] make per sale or whatever it is. But
+- [23:36] there is a bit of a trade-off there
+- [23:37] because you can essentially make double
+- [23:38] the amount of short form UDC content
+- [23:40] with SOR 2 for the same price as using
+- [23:42] Nano Banana and V3 Fast. So anyways, I
+- [23:45] just wanted to sort of give you guys all
+- [23:46] the info, give you the template, show
+- [23:48] you the system, and explain the
+- [23:49] differences between these two models.
+- [23:51] And of course, I'm really really bullish
+- [23:52] on all of this because the fact of the
+- [23:54] matter is you guys can get in here and
+- [23:56] make these prompts better. You can play
+- [23:58] around with different chat models if you
+- [23:59] want. We used GPT5 Mini for all of them
+- [24:01] as you can see here. And think about in
+- [24:05] 6 months from now, a year from now, how
+- [24:07] much better these models will be when
+- [24:08] Sora 4 comes out and when V4 comes out.
+- [24:11] They're just going to get better and
+- [24:12] better and better and cheaper and
+- [24:14] cheaper and cheaper. Anyways, I don't
+- [24:15] want this video to go too long, but I
+- [24:17] did say that you guys could access this
+- [24:18] entire template for free. So, all you
+- [24:20] have to do is join my free school
+- [24:21] community. The link for that will be
+- [24:22] down in the description. There will also
+- [24:23] be a full setup guide right over here
+- [24:25] when you download this template. And
+- [24:26] when you join my free school community,
+- [24:28] this is what it will look like. You'll
+- [24:29] just have to click on YouTube resources
+- [24:30] or you can search for the title of this
+- [24:32] video. And when you click on the post
+- [24:34] associated with the video, you will have
+- [24:36] right here the JSON file to download and
+- [24:38] you import that into niten and any other
+- [24:40] guides or PDFs that you need. I will
+- [24:42] also write here similar to this post, I
+- [24:44] will include the link to copy this
+- [24:46] Google sheet template so that you guys
+- [24:48] can plug everything in and have a very
+- [24:50] minimal amount of custom configuration
+- [24:52] and just start, you know, producing
+- [24:54] these types of results. And if you want
+- [24:56] to see me actually build this system
+- [24:57] live and just kind of talk about what
+- [24:59] I'm doing, why I'm doing it, and my
+- [25:01] thought process, then definitely check
+- [25:03] out my plus community. The link for this
+- [25:04] will also be down in the description.
+- [25:05] We've got a great community of over 200
+- [25:08] members who are building with naden
+- [25:09] every day, asking questions, sharing
+- [25:11] what they're learning, helping each
+- [25:12] other out, and a lot of these people are
+- [25:13] building businesses with NAND right now.
+- [25:16] We've also got a classroom section with
+- [25:17] three full courses. We've got agent
+- [25:19] zero, which is the foundations for
+- [25:20] beginners. We have 10 hours to 10
+- [25:22] seconds where you learn how to identify,
+- [25:23] design, and build time-saving
+- [25:25] automations. We have one person AI
+- [25:27] agency which is for our premium members
+- [25:29] laying the foundation to build a
+- [25:31] scalable AI automation business. And
+- [25:32] then here's the course I was just
+- [25:34] talking about with projects where we
+- [25:35] actually dive into step-by-step setups
+- [25:38] of practical workflows that you can
+- [25:39] actually use. Probably one of the best
+- [25:41] ways to actually learn NN in and out. We
+- [25:43] also have one live call per week.
+- [25:45] They're super fun. Everyone gets on
+- [25:46] there and we ask questions and we have
+- [25:48] some cool conversations about the space,
+- [25:49] the industry, all this kind of stuff.
+- [25:51] So, I'd love to see you guys in those
+- [25:52] live calls in the community. But that's
+- [25:54] going to do it for today. So, if you
+- [25:55] enjoyed this one or you learned
+- [25:56] something new, please give it a like. It
+- [25:57] definitely helps me out a ton. And as
+- [25:59] always, I appreciate you guys making it
+- [26:00] to the end of the video. I'll see you on
+- [26:01] the next one. Thanks everyone.

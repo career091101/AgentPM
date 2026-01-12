@@ -1,0 +1,524 @@
+---
+title: "So, we built these four AI agents and got paid $23,000 total by four separate businesses, and they weren't anything too"
+video_id: "HNKlFTd1maM"
+video_url: "https://www.youtube.com/watch?v=HNKlFTd1maM"
+speaker: "confident"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  So, we built these four AI agents and got paid $23,000 total by four separate businesses, and they weren't anything too complex or advanced
+  In fact, I actually started selling agents just like this a few months after starting out
+  So, I'm confident that you could build and sell something just like them
+key_points:
+  - "agent I sold, which was a personalized outreach agent"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:21:19+09:00"
+---
+
+# Transcript: HNKlFTd1maM
+
+- URL: https://www.youtube.com/watch?v=HNKlFTd1maM
+- Retrieved at: 2025-12-30T10:21:19+09:00
+
+## Text
+
+- [00:00] So, we built these four AI agents and
+- [00:01] got paid $23,000 total by four separate
+- [00:04] businesses, and they weren't anything
+- [00:06] too complex or advanced. In fact, I
+- [00:08] actually started selling agents just
+- [00:09] like this a few months after starting
+- [00:11] out. So, I'm confident that you could
+- [00:12] build and sell something just like them.
+- [00:14] In this video, I'm going to walk you
+- [00:16] guys through what each agent actually
+- [00:17] did, how much we charged per agent, the
+- [00:19] exact process we followed to sell our
+- [00:21] agents, and how you can sell your first
+- [00:23] agent a step by step. And stay to the
+- [00:24] end because that's when I go through the
+- [00:26] most expensive agent out of the four.
+- [00:27] All right, let's start with the first
+- [00:29] agent I sold, which was a personalized
+- [00:30] outreach agent. Basically, it let my
+- [00:32] client drop in a list of contacts,
+- [00:34] however many he wanted, and the system
+- [00:36] would automatically research each person
+- [00:37] and their company, then generate a
+- [00:39] personalized outreach message and
+- [00:41] follow-up message for them. This agent
+- [00:43] didn't actually send the messages or run
+- [00:44] the campaigns. It simply filled up the
+- [00:46] database with ready to go, customized,
+- [00:48] researchbacked messages that he could
+- [00:50] then plug into an email or DM sequence.
+- [00:53] Super simple, but insanely valuable. I
+- [00:55] ended up charging $1,650 for this build.
+- [00:58] And honestly, that number was pretty
+- [00:59] random. At the time, I had already sold
+- [01:01] another agent for 1,200, so that was
+- [01:03] kind of my baseline. And I thought to
+- [01:04] myself, okay, this one's a bit more.
+- [01:06] Let's try 1650. I was clearly a
+- [01:09] beginner, and I wasn't even thinking
+- [01:10] about ROI back then. But if you actually
+- [01:12] do calculate the ROI, it still was a
+- [01:14] total no-brainer for him. I think he got
+- [01:16] a great deal because he was spending 2
+- [01:17] to three hours per week crafting
+- [01:19] personalized messages and doing all that
+- [01:20] research himself. So, let's say his time
+- [01:22] was worth 50 bucks an hour. That's
+- [01:24] around $400 a month. With the system, he
+- [01:26] instantly got that time back, which
+- [01:27] means in about four months, he's made
+- [01:29] his money back. And every month after
+- [01:30] that, it's pure ROI. Over the course of
+- [01:32] a year, that's nearly $5,000 saved. And
+- [01:34] that doesn't even count the opportunity
+- [01:36] cost of having those extra hours back
+- [01:38] every week to actually grow the business
+- [01:40] instead of writing repetitive outreach.
+- [01:42] Now, how did I actually sell this? Well,
+- [01:43] the client found me on YouTube because I
+- [01:45] had built something similar on my
+- [01:46] channel just for fun. And he emailed me
+- [01:48] saying that he wanted something similar.
+- [01:50] We hopped on a couple of calls. I scoped
+- [01:51] out the build. I told him I could do it.
+- [01:53] He said yes. It was that simple. The
+- [01:54] crazy part is at this stage I wasn't
+- [01:57] positioning myself as a freelancer or
+- [01:58] saying that I did paid work. I just
+- [02:00] happened to have my email address in the
+- [02:01] description of the videos and I was
+- [02:03] posting builds online because I was
+- [02:04] excited about learning. But because I
+- [02:06] was putting myself out there, people
+- [02:07] started reaching out and that's how I
+- [02:09] was able to close this deal and my other
+- [02:11] first ones. So that was the first agent.
+- [02:13] Soon after that, things started moving a
+- [02:14] lot faster. I'd quit my job. I started
+- [02:16] getting more inbound traction and I
+- [02:18] realized I couldn't keep doing
+- [02:19] everything solo. That's when I decided
+- [02:20] to team up with my co-founders and we
+- [02:22] started building what's now our AI
+- [02:24] business, True Horizon AI. And this was
+- [02:25] a big turning point because up until
+- [02:27] then, I was just throwing out random
+- [02:29] numbers for pricing, like that $1,650
+- [02:31] outreach agent. But once I had a team,
+- [02:33] we started taking this more seriously,
+- [02:34] and we realized we needed to get a
+- [02:36] system for pricing rather than just
+- [02:38] throwing out a number. That way, instead
+- [02:39] of guessing, we could actually sit down
+- [02:41] with a client, break down how much time
+- [02:43] or money a process was costing them, and
+- [02:45] show them exactly how an automation
+- [02:46] would save that time or money. and then
+- [02:48] we could price the system in a way that
+- [02:49] made sense for both sides. That made
+- [02:51] selling way easier because clients could
+- [02:52] see in black and white that it wasn't an
+- [02:54] expense, it was an investment with a
+- [02:56] measurable return. And that's how we
+- [02:57] ended up landing the second agent that
+- [02:58] I'm going to show you guys. So once I
+- [03:00] started working with my business
+- [03:01] partners Milan and Tyler, we launched
+- [03:03] True Horizon AI. We started getting our
+- [03:05] internal systems in place and we landed
+- [03:07] one of our first products together. This
+- [03:08] one was a type of sales agent. The idea
+- [03:10] here was simple but really impactful.
+- [03:12] The agent could handle customer
+- [03:13] inquiries, generate quotes, and
+- [03:15] automatically enter everything into the
+- [03:16] CRM. It would talk to both the customer
+- [03:18] and the orders team, generate an
+- [03:20] accurate quote, and then log all the
+- [03:22] important details like name, email,
+- [03:23] phone number, location, and even a
+- [03:25] summary of the conversation back into
+- [03:27] the CRM. The value proposition here was
+- [03:29] clear. The system would cut down manual
+- [03:31] data entry, reduce errors, and free up
+- [03:33] the business owner's time so he could
+- [03:34] focus on growth rather than repetitive
+- [03:36] administrative work. And because it
+- [03:38] streamlined operations, it also gave him
+- [03:39] a foundation to scale without hiring
+- [03:41] more staff. And that was a huge deal for
+- [03:43] him because hiring wasn't something he
+- [03:45] could yet afford to do. but he still
+- [03:46] needed to grow his business. So for this
+- [03:48] project, we charged $4,000 and the
+- [03:50] client was happy to pay that because we
+- [03:52] weren't just automating a small task. We
+- [03:54] were removing hours of repetitive work,
+- [03:55] setting up a system he could scale with,
+- [03:57] and helping him avoid the cost of extra
+- [03:59] headcount. Now, let's talk about the
+- [04:00] sales process. It started with me
+- [04:02] hopping on an initial discovery call to
+- [04:04] scope things out. From there, I brought
+- [04:05] in my co-founders, Milan, our CEO, and
+- [04:07] Tyler, our CTO, to make sure there
+- [04:09] weren't any crazy technical requirements
+- [04:11] that we were overlooking and that we had
+- [04:12] the bandwidth to actually deliver on
+- [04:14] this project. After that, Milan and I
+- [04:16] ran a second discovery call with the
+- [04:17] client and then Milan closed the deal on
+- [04:19] the third call. Looking back, we
+- [04:20] definitely didn't have our processes
+- [04:22] nailed down yet. For example, we forgot
+- [04:24] to collect baseline data, which meant we
+- [04:26] couldn't build a strong case study to
+- [04:27] show the ROI afterward. At the same
+- [04:29] time, we were getting flooded with
+- [04:30] inbound requests, but didn't have solid
+- [04:32] SOPs or systems to handle them. So, for
+- [04:35] delivery of this build, Milan, our CEO,
+- [04:37] ended up doing a lot of the heavy
+- [04:38] lifting himself and then transitioned
+- [04:40] into more of an account management role
+- [04:42] once we brought on a developer to help
+- [04:44] finish things out. But I want to be
+- [04:45] clear, you don't need a co-founder or a
+- [04:47] full team to land a $4,000 project. What
+- [04:49] this really shows is that the jump from
+- [04:51] freelancer to consultant to trying to
+- [04:53] run an agency is tough. There are
+- [04:54] growing pains, and even though you might
+- [04:56] be able to charge more, you'll still be
+- [04:57] figuring out internal systems along the
+- [04:59] way. This third agent that we built was
+- [05:01] essentially a personal assistant for a
+- [05:02] business owner and his team. It could
+- [05:04] provide quick access to internal data
+- [05:05] sources, streamline task management, and
+- [05:07] improve team productivity, all directly
+- [05:09] inside Slack, which was where the
+- [05:11] company lived most of the day. The value
+- [05:12] prop here was all about productivity,
+- [05:14] centralizing data retrieval, automating
+- [05:16] routine admin tasks, and enabling faster
+- [05:18] communication without switching between
+- [05:19] tools. Now, when it came to pricing,
+- [05:22] this one was trickier. With sales or
+- [05:23] outreach agents, it's easy to calculate
+- [05:25] how much time you're saving. But with
+- [05:26] something like a personal assistant, the
+- [05:27] value is a little more variable because
+- [05:29] those small admin tasks don't happen on
+- [05:31] a set cadence. So, it's harder to
+- [05:33] directly tie them to ROI. So, we ended
+- [05:35] up charging $6,000 for this project. And
+- [05:37] even though we tried to back that number
+- [05:39] with some ROI calculations, the truth is
+- [05:42] we priced more on complexity of the
+- [05:43] build rather than the actual long-term
+- [05:45] value. Valuebased pricing is obviously
+- [05:47] the way to go and something that we
+- [05:48] didn't learn right away. And when you
+- [05:50] really break it down in terms of value,
+- [05:51] I actually think that we should have
+- [05:53] charged more for the sales agent than we
+- [05:54] did for this personal assistant agent.
+- [05:56] If you think about the way that the
+- [05:57] usage and leverage of a system actually
+- [05:59] compounds with a process like a sales
+- [06:01] agent compared to a personal assistant
+- [06:03] administrative agent, it becomes very
+- [06:05] clear because if the sales agent
+- [06:06] converts those leads, the business grows
+- [06:07] and as the business grows, more leads
+- [06:09] come through. So the usage of the system
+- [06:10] grows and this creates like this
+- [06:12] flywheel where the ROI of the system
+- [06:14] actually exponentially scales. And
+- [06:16] that's something that's not as clear
+- [06:17] with a personal assistant because as the
+- [06:18] business grows, does the personal
+- [06:20] assistant usage grow? Maybe it does,
+- [06:22] maybe it doesn't, but it doesn't scale
+- [06:24] in the same way. And that's an important
+- [06:25] lesson because pricing in this space is
+- [06:27] hard and it takes time, data, and
+- [06:29] experience to get it right. Looking
+- [06:30] back, I know we were pricing too low
+- [06:32] because our close rate was insanely
+- [06:34] high. If you're closing over 50% of your
+- [06:36] proposals, it means your clients are
+- [06:37] realizing that they're getting a steal,
+- [06:39] and this is the market telling you that
+- [06:40] you need to charge more. It means that
+- [06:42] you're rarely getting push back on your
+- [06:43] pricing, which is a strong signal that
+- [06:45] you're doing it too low. So, anyways,
+- [06:47] the sales process for this project
+- [06:49] looked a lot like the previous one.
+- [06:50] Milan and I ran the discovery calls. We
+- [06:52] brought in Tyler, our CTO, to doublech
+- [06:54] checkck the technical scope and then we
+- [06:55] closed the deal. But this is where our
+- [06:57] growing pains really showed because in
+- [06:58] order to deliver this build, our CTO
+- [07:01] ended up being the one in the weeds
+- [07:02] developing the workflow. And that's not
+- [07:04] how a CTO should spend their time. He
+- [07:06] should be managing a team of engineers
+- [07:08] and innovating, which is what Tyler's
+- [07:09] passionate about and does best, not
+- [07:11] being stuck in the weeds of a build
+- [07:13] connecting nodes to an agent. So this
+- [07:15] process was another reminder that
+- [07:16] scaling a team doesn't automatically
+- [07:18] make things easier. It actually gives
+- [07:19] you more things to manage, more moving
+- [07:21] pieces, and more chances for
+- [07:22] inefficiency. But by the time we got to
+- [07:24] our next agent, we were in a much better
+- [07:26] place. We had stronger SOPs, better
+- [07:28] systems. And because of that, we were
+- [07:29] finally able to charge double what we
+- [07:31] just charged for this one. Finally, the
+- [07:33] fourth agent we sold was a full AI
+- [07:35] concierge. This one was designed to
+- [07:37] support a client's business by helping
+- [07:38] their members with everything they
+- [07:39] needed. Onboarding, finding and starting
+- [07:41] events, managing guest passes, offering
+- [07:43] support, and even keeping a running
+- [07:45] conversation history across all the
+- [07:47] members. In other words, it acted like a
+- [07:49] virtual secretary, a single point of
+- [07:51] contact that could handle the day-to-day
+- [07:52] tasks of guiding users and keeping the
+- [07:54] business running smoothly. And because
+- [07:56] the company was launching a new offer,
+- [07:57] our AI concierge was critical in helping
+- [07:59] them get it off the ground quickly
+- [08:01] without hiring more staff. This was also
+- [08:03] right around the time that MCP servers
+- [08:04] started to become a big deal online and
+- [08:06] we were able to transition the scope and
+- [08:08] architect to incorporate this new
+- [08:10] technology which was another value lever
+- [08:12] for us to pull here by showing the
+- [08:14] client that we stay bleeding edge and
+- [08:15] are always looking for the newest
+- [08:17] technology. This was by far one of the
+- [08:19] more complex systems that we had built
+- [08:20] up to this point and that's why we
+- [08:22] charged $12,000. The client could
+- [08:24] clearly see the value because the agent
+- [08:26] was basically filling the role of an
+- [08:27] intern or assistant but at a fraction of
+- [08:29] the long-term cost of hiring. The good
+- [08:31] news was by this point our internal
+- [08:33] systems were finally catching up to the
+- [08:35] size of the projects we were landing. We
+- [08:36] had a dedicated account manager keeping
+- [08:38] the client communication smooth. Our CEO
+- [08:40] was in the right spot, focusing on sales
+- [08:41] strategy, operations, and growth. And
+- [08:43] our CTO was finally managing a team of
+- [08:45] engineers instead of being stuck
+- [08:47] building by himself. And for me, I
+- [08:49] finally had more freedom to spend time
+- [08:50] creating YouTube videos and focusing on
+- [08:52] the front end of the business instead of
+- [08:54] being buried in client projects. So this
+- [08:56] project wasn't just a win because of the
+- [08:57] $12,000 price tag. It was proof that we
+- [09:00] had gone from scrappy freelancers to
+- [09:02] consultants, then to building a business
+- [09:04] with real systems that could handle
+- [09:05] bigger and more valuable clients, and
+- [09:07] now looking to scale our operations. All
+- [09:09] right, so we've walked through the four
+- [09:10] agents that we sold. Now, the question
+- [09:12] is, how do you actually do this
+- [09:14] yourself? This is the exact road map
+- [09:15] I've followed as a freelancer, then when
+- [09:17] I built my own agency, and now with my
+- [09:19] co-founders at True Horizon as we
+- [09:21] started to move up market. And it's the
+- [09:23] same road map you can follow to start
+- [09:24] landing your first real AI automation
+- [09:26] clients. Step one, diagnose the problem.
+- [09:29] Prescribe a solution. The very first
+- [09:31] step is learning to think like a problem
+- [09:32] solver. The value isn't in the fact that
+- [09:34] you know how to wire up nodes in your AI
+- [09:36] workflow. The value is your brain and
+- [09:38] your ability to understand how a
+- [09:40] business runs, where it's leaking time
+- [09:42] or money, and where an automation can
+- [09:44] fix that. For example, don't pitch, I
+- [09:46] can build you an AI chatbot. Instead,
+- [09:48] say your team spends 15 hours a week
+- [09:50] answering repetitive client questions. I
+- [09:52] can build a system that cuts that down
+- [09:54] to almost zero, freeing them up to close
+- [09:55] more deals. That shift takes you from
+- [09:57] just being a builder to being a business
+- [09:59] partner. Number two, pick simple tools.
+- [10:01] Once you've identified the problem, the
+- [10:03] tools are just the way you solve it. For
+- [10:05] 90% of use cases, simple building blocks
+- [10:07] like Naden, vector databases, and an AI
+- [10:09] model or two will get the job done. But
+- [10:11] don't over complicate the step. Many
+- [10:13] freelancers underpric because they think
+- [10:14] in terms of technical effort. Clients
+- [10:16] don't care if it takes you 2 hours or
+- [10:18] 20. They care about the outcome. Selling
+- [10:20] workflows and templates may have worked
+- [10:21] when the space first started up, but if
+- [10:23] your value is defined by the templates
+- [10:24] you give out, it's all becoming
+- [10:26] commoditized. You should leverage
+- [10:27] templates to help you build quicker and
+- [10:29] smarter, but the value is how you were
+- [10:30] able to customize them to fit the
+- [10:32] client's needs. Step three is to
+- [10:34] multiply the hours saved by the hourly
+- [10:36] rate by 4 weeks, and that's how you get
+- [10:38] to monthly savings, and then just times
+- [10:40] that by 12 to get to annual savings. So,
+- [10:42] number four is to package and anchor
+- [10:44] your offers. Don't just blurt out a
+- [10:45] number. Try creating tiered packages
+- [10:47] like a starter plan, a growth plan, and
+- [10:49] a scale plan so clients can self- select
+- [10:51] and always lead with the highest anchor.
+- [10:53] So, for example, our scale package is
+- [10:55] 25,000 and it includes these
+- [10:56] functionalities, but most clients
+- [10:58] actually go with the growth package at
+- [10:59] 12K that has these functionalities.
+- [11:01] Suddenly, that 12K feels like the smart
+- [11:03] middle option. Packaging makes you look
+- [11:05] professional. Anchoring makes your
+- [11:06] pricing logical, and together they stop
+- [11:08] clients from comparing you to hourly
+- [11:10] freelancers. Number five, avoid the
+- [11:13] traps. There are a couple of silent
+- [11:14] killers that you need to watch out for.
+- [11:16] One of them is underpricing. It attracts
+- [11:17] the wrong clients and makes it nearly
+- [11:19] impossible to raise your rates later.
+- [11:21] Number two is under scoping. Saying yes
+- [11:23] to just one more feature without
+- [11:24] rescoping will destroy your margins and
+- [11:27] always define exactly what's included
+- [11:28] and create a change request process for
+- [11:31] anything outside the scope. Number three
+- [11:32] is chasing small retainers too early.
+- [11:34] One $10,000 project is often more
+- [11:37] profitable and better for your mental
+- [11:38] health and business reputation than five
+- [11:40] $2,000 a month retainers. Stability
+- [11:43] comes from having a lead pipeline, not
+- [11:45] from having retainers. And just another
+- [11:47] quick reminder to raise your rates
+- [11:49] regularly. If your close rate is way
+- [11:51] above 40 to 50%, it's a clear signal
+- [11:53] that you're underpricing. For B2B
+- [11:54] consulting services, a 20 to 30% close
+- [11:56] rate is considered strong. So, if you're
+- [11:58] not receiving any friction or push back,
+- [12:00] you're going down a bad path where your
+- [12:01] CLV or customer lifetime value is going
+- [12:04] to be way too low. Number six, we have
+- [12:06] prototype and QA. Now that you've priced
+- [12:08] and packaged the deal, it's time to
+- [12:10] build. But don't overthink it. Prototype
+- [12:12] fast. get a working version live, then
+- [12:14] test. At True Horizon, we follow a
+- [12:16] simple QA cycle, which is one week of
+- [12:17] internal QA. We run it through a sample
+- [12:19] and a real data set. We stress test it
+- [12:21] with edge cases, and we fix issues
+- [12:23] before the client sees anything. And
+- [12:24] then we give the client a week to QA,
+- [12:26] where he or she will test it in the real
+- [12:28] world, give us feedback, and then we're
+- [12:29] able to iterate and make those
+- [12:31] adjustments. The QA process does two
+- [12:33] things. One, it protects you from edge
+- [12:34] case failures, and two, it shows your
+- [12:36] client that you're professional,
+- [12:37] reliable, and looking out for their
+- [12:39] business. Number seven, building
+- [12:40] long-term partnerships. Finally, just
+- [12:42] remember this. You're not selling
+- [12:44] one-off automations. You're building
+- [12:46] relationships. Your early projects
+- [12:47] position you in the client's mind as
+- [12:49] either the cheap freelancer or the
+- [12:50] strategic AI partner. Long-term value
+- [12:52] comes from collecting data and case
+- [12:54] studies from every project, turning one
+- [12:56] project into multiple by showing
+- [12:57] measurable ROI, offering ongoing
+- [12:59] optimization or expansion once trust is
+- [13:02] established, and building relationships
+- [13:03] with more than just one person in the
+- [13:05] customer's organization. When you can
+- [13:07] clearly demonstrate this system saves
+- [13:09] you 10 times what you paid me, clients
+- [13:11] stop thinking about cost and start
+- [13:12] thinking about how else they can work
+- [13:14] with you. So if you want to follow the
+- [13:16] same path, here's the road map. Spot the
+- [13:18] problem, pick simple tools, price based
+- [13:20] on ROI, package an anchor, avoid the
+- [13:22] traps, prototype, and build long-term
+- [13:24] partnerships. That's the exact framework
+- [13:26] that I've used to find success selling a
+- [13:28] agents. And it's the same one that we
+- [13:30] will still use today at True Horizon. So
+- [13:32] that's going to do it for today. I'm
+- [13:33] going to have this full resource pack in
+- [13:35] my free school community if you guys
+- [13:36] want to access that. It just basically
+- [13:38] goes over everything that I just talked
+- [13:39] about here so you can reference that
+- [13:41] later. And if you're looking to go even
+- [13:42] deeper with this kind of stuff and you
+- [13:43] also want to connect with other people
+- [13:45] who are building businesses with NN,
+- [13:46] then definitely check out my plus group.
+- [13:48] The link for that is also down in the
+- [13:49] description. And by the time you're
+- [13:50] watching this, we just dropped a full
+- [13:52] course called automation to monetization
+- [13:54] where I talk about how you can actually
+- [13:55] start to monetize your AI skills now
+- [13:57] that you are not just advanced in edited
+- [13:59] end, but you're also becoming advanced
+- [14:00] in AI implementation and becoming a
+- [14:02] problem solver for these businesses. And
+- [14:04] trust me, these businesses desperately
+- [14:06] need someone to help them out with their
+- [14:07] AI implementation road maps. If you guys
+- [14:09] enjoyed or you learned something new,
+- [14:11] please give it a like. Definitely helps
+- [14:12] me out a ton. And as always, I
+- [14:13] appreciate you guys making it to the end
+- [14:14] of the video. I'll see you on the next
+- [14:16] one. Thanks everyone.

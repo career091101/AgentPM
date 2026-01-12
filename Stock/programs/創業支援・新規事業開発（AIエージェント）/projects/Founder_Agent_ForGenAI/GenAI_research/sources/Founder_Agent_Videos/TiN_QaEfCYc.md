@@ -1,0 +1,323 @@
+---
+title: "Transcript: TiN_QaEfCYc"
+video_id: "TiN_QaEfCYc"
+video_url: "https://www.youtube.com/watch?v=TiN_QaEfCYc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:12:56"
+tags:
+  - "AI"
+  - "Agents"
+topics:
+  - "AI Agents"
+  - "Team Building"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TiN_QaEfCYc
+
+- URL: https://www.youtube.com/watch?v=TiN_QaEfCYc
+- Retrieved at: 2025-12-30T10:58:08+09:00
+
+## Text
+
+- [00:00] Is the new CHPd browser any good? Hello
+- [00:03] my friends and how are you doing? Today
+- [00:05] I want to check out together with you
+- [00:06] the new Atlas browser from OpenAI that
+- [00:09] has CHD integrated and because of that
+- [00:11] couldn't do some really magical things
+- [00:13] but is it actually any good? We will
+- [00:16] find it out. Let's get started. So one
+- [00:18] thing before that is there is also a
+- [00:20] perplexity browser. This one is called
+- [00:22] Comet which is interesting. All of them
+- [00:24] are kind of like space themed. Now the
+- [00:26] thing here is that the Perplexity Comet
+- [00:29] browser is available for Windows also.
+- [00:32] So you can use it right away. While for
+- [00:35] some reason the OpenAI browser is only
+- [00:38] for Apple and only for the computers,
+- [00:41] not for the phones, which by the way,
+- [00:43] the Perplexity Comet browser also not
+- [00:46] available for Android. I really hope
+- [00:49] they bring that soon. But on the other
+- [00:51] hand, they already have their Android
+- [00:53] app. So maybe they not need that. But
+- [00:56] for example, the email integration you
+- [00:58] have with Perplexity comment browser is
+- [01:01] actually pretty cool. Now, another thing
+- [01:03] that is actually important to talk about
+- [01:05] is that the user Brave on Twitter posted
+- [01:08] that they found vulnerabilities with
+- [01:11] prompt injection for the Comet browser
+- [01:14] because of the integrated AI. And they
+- [01:17] said that prompt injection can lead the
+- [01:20] AI to do completely different things.
+- [01:22] And when it is integrated into the
+- [01:24] browser and of course also directly
+- [01:26] connecting with the internet and doing
+- [01:29] stuff there, it might be injected with
+- [01:31] prompts that are not coming from you. So
+- [01:34] there is a certain risk. Now let's have
+- [01:36] a look at the Atlas browser. First of
+- [01:39] all, it is pretty interesting. It's a
+- [01:41] normal browser, but Chas is right in
+- [01:44] there. One thing I didn't quite like is
+- [01:46] when you look at the top um you don't
+- [01:49] have the normal address bar and often if
+- [01:52] you type something in there it goes
+- [01:54] right into chat GPT and I didn't quite
+- [01:57] like that because I kind of like my
+- [01:59] browser to be an actual browser and then
+- [02:02] chat GBT to be an agent on the site. Um
+- [02:06] so that was already a thing where I was
+- [02:08] like a little bit of overreach maybe.
+- [02:11] Now another thing that is interesting
+- [02:13] for that browser is that it actually
+- [02:15] tracks your history especially what
+- [02:17] you've done together with chatbtd. So it
+- [02:20] can recall these actions and you can ask
+- [02:22] questions about what you have done with
+- [02:25] chat GBT in the past. Although that
+- [02:29] might be another level of browser
+- [02:31] history that might not be as easy to
+- [02:34] delete afterwards. So you might be
+- [02:37] caught doing something you shouldn't do
+- [02:39] and then maybe your spouse or your
+- [02:41] parents are checking out on JBT what
+- [02:45] actually happened and they might find
+- [02:47] out stuff you don't want them to know.
+- [02:50] So maybe also a little bit of an
+- [02:52] overreach. You have to decide that for
+- [02:55] yourself. Uh, by the way, I have to
+- [02:57] point out right now that when I tried to
+- [03:01] recall the websites I have looked at
+- [03:04] with CHBT or topics we looked into, in
+- [03:08] no case of all of my different tries,
+- [03:11] ChatJBT inside of the Atlas browser
+- [03:14] could recall the tabs or the websites or
+- [03:17] the topics you have talked about even
+- [03:19] though it is in the browser history.
+- [03:22] That was really kind of strange. Now,
+- [03:25] one thing I tried out which I really
+- [03:27] liked when I looked at the website is
+- [03:29] this kind of like a chantic ability. So,
+- [03:32] I said find three solar punk novels on
+- [03:36] Amazon for me. And what it does is it
+- [03:39] kind of like opens up this window that
+- [03:41] looks a little bit magical. And then on
+- [03:44] the right side, it shows you the
+- [03:46] thinking process. On on the left side,
+- [03:49] it I don't know what it does. It doesn't
+- [03:51] really do anything to be honest. It just
+- [03:53] opens up Amazon and then you look at the
+- [03:55] page and sometimes the page changes but
+- [03:57] you don't see like a mouse cursor move
+- [03:59] around or any kind of interaction. Now
+- [04:02] this search for three books took four
+- [04:06] minutes. That was pretty long. Now to be
+- [04:08] honest the four minutes have been spent
+- [04:10] on two individual searches because first
+- [04:14] it suggested to me three different solar
+- [04:16] punk novels but those have all had only
+- [04:20] like 17 ratings. I want to have
+- [04:22] something that is good. So I said, "Show
+- [04:25] me some novels that are actually highly
+- [04:28] rated." And that triggered a second
+- [04:30] search. So you have to be kind of uh
+- [04:33] precise for it to check out what you
+- [04:35] want. But then I actually got three
+- [04:37] suggestions. But again, it took four
+- [04:40] minutes. And even if it only took 2
+- [04:42] minutes, that is quite long to get only
+- [04:45] three book suggestions. I think I would
+- [04:48] be faster to just ask JBT and then go to
+- [04:51] Amazon and copy paste the titles in
+- [04:53] there myself. Now another thing I did
+- [04:57] was to ask and I really like that
+- [04:59] function to be honest is I want to spend
+- [05:02] a day in Paris. I want to go to cafes to
+- [05:05] markets a little bit of fashion a little
+- [05:07] bit of sites. Uh figure out a route for
+- [05:10] me and then also plot that route for me
+- [05:12] on Google Maps. And that also took 2
+- [05:15] minutes. So, for some reason, all these
+- [05:17] tasks seem to be twominut tasks, but it
+- [05:20] did make a plan for me. I like that. So,
+- [05:23] that's pretty cool. It had some cafes in
+- [05:25] there and sites and everything, and then
+- [05:27] it plotted them out on Google Maps,
+- [05:29] which is also very nice because I could
+- [05:31] open it up. Actually, now I remember I
+- [05:34] asked it for two days. So, it made two
+- [05:37] different Google Maps with these
+- [05:39] different locations in there. And that
+- [05:41] was actually pretty nice. I really like
+- [05:43] that I have it inside of Google Maps.
+- [05:45] Now, one thing I want to point out here
+- [05:48] is that Google Maps sadly has a
+- [05:50] limitation of 10 location points in a
+- [05:53] route, which I feel is not enough.
+- [05:56] Google needs to ramp that up. Uh but
+- [05:59] otherwise, you actually have a route in
+- [06:01] there. It might not be the most
+- [06:03] effective route maybe, but it is a
+- [06:05] route. Now, Perplexity can also do that,
+- [06:08] but it cannot put it into Google Maps,
+- [06:11] which is interesting because the comet
+- [06:14] browser from Perplexity can actually
+- [06:17] connect to the Google services, at least
+- [06:20] the calendar and the emails. But there's
+- [06:23] also another interesting point. Sorry
+- [06:25] for swapping over a little bit to the
+- [06:28] comment browser because it can look into
+- [06:30] your emails. and I said, "Hey, I want to
+- [06:32] have my emails from the last week with
+- [06:35] that person." And it listed out these
+- [06:37] emails. That was cool. Now, afterwards,
+- [06:40] I said, "Show me everything I ever spent
+- [06:43] on Humble Bundle in my emails." And I
+- [06:46] got blocked. And after that, I couldn't
+- [06:49] do any email search anymore. I don't
+- [06:52] know. I guess Gmail doesn't like if you
+- [06:54] want to look at all of the emails, it
+- [06:56] might be just okay to have like the last
+- [06:59] 10 days or something. But even when I
+- [07:01] asked for just 7 days of Humble Bundle
+- [07:04] emails, it wouldn't show me anything. It
+- [07:06] just said this query is not possible. So
+- [07:09] I was blocked there. Another thing I
+- [07:12] tried was to go to Wikipedia and there I
+- [07:15] wanted to click on something because it
+- [07:17] has this kind of like builtin rightclick
+- [07:20] function where then it pops up on the
+- [07:22] site and it searches for the term and
+- [07:25] you can add some extra information for
+- [07:27] that term. That worked for me exactly
+- [07:30] once and then never again because it
+- [07:33] just wouldn't put the text into that
+- [07:35] little area on the lower right side
+- [07:39] where you can put the question. So I had
+- [07:41] to copy it over manually. It would not
+- [07:44] do it automatically. Also, by the way,
+- [07:45] one thing I have to say I really don't
+- [07:48] like about that function is that you
+- [07:49] actually have to go to the sidebar and
+- [07:53] that this kind of like right-click popup
+- [07:55] menu has no additional functions. That
+- [07:58] is not so great to be honest because for
+- [08:01] example if you have a Kindle or the
+- [08:03] Kindle app and you read ebooks you know
+- [08:06] that when you press with your finger on
+- [08:08] one word it opens up uh the definition
+- [08:11] it opens up the translation it opens up
+- [08:13] the Wikipedia definition of that word
+- [08:16] all together in the lower area. That is
+- [08:19] something I would want it for that to
+- [08:22] have some right away information maybe
+- [08:25] even as a little popup in that area of
+- [08:27] the browser where I am. Uh but it did
+- [08:30] not do that. Now another thing that I
+- [08:33] actually liked is that you can say give
+- [08:35] me the key points of that website or
+- [08:37] summarize the website or tell me what is
+- [08:39] in the first paragraph of that website.
+- [08:42] And that kind of like worked reliably.
+- [08:46] And I also asked, "Give me the first
+- [08:48] paragraph of that website and then
+- [08:50] translate it into German." And that also
+- [08:53] turned out to be working. I think it
+- [08:56] did. I didn't check it word for word to
+- [08:58] be honest. Now, another thing I tried
+- [09:01] and that was really interesting. I went
+- [09:03] to the website where the Atlas browser
+- [09:06] is announced and I asked it how often is
+- [09:10] chat GPT mentioned in that page and it
+- [09:15] gave me a number and then I checked the
+- [09:18] number myself and it didn't match. So I
+- [09:21] asked are you sure and it said there are
+- [09:24] this many times that chat GBT is named
+- [09:29] on that page was a different number and
+- [09:31] I asked again are you sure and it gave
+- [09:34] me yet another number and then I asked
+- [09:36] again are you sure and it gave me yet
+- [09:38] another number so there is hallucination
+- [09:41] so even when it is on the website itself
+- [09:44] it will just give you a random number of
+- [09:46] how many times this word is mentioned
+- [09:49] which is really strange because the only
+- [09:51] thing you need to do is to use how often
+- [09:54] the browser found that word. So how that
+- [09:57] is not integrated is uh kind of strange
+- [10:00] to be honest. Another thing I tried is
+- [10:03] to say search images for me and it did
+- [10:06] that. It did that beautifully. I
+- [10:07] searched first images of a tiger and it
+- [10:11] did that in a very nice way. Then I
+- [10:13] actually searched images of myself and
+- [10:16] that was pretty funny because it found
+- [10:18] images of myself but for some reason not
+- [10:20] the best images of myself and then I
+- [10:23] asked again about or highresolution
+- [10:26] photos of me and something really
+- [10:28] interesting happened. So, it gave me
+- [10:29] some sources of these images and then it
+- [10:32] said Olivio Sarakas has on Unsplash an
+- [10:37] account under the username Multi4G.
+- [10:40] And I was like, what? What is going on
+- [10:43] here? Multi4G because Multiverch is my
+- [10:46] gamer name. That is often what I use on
+- [10:48] Xbox and Steam and stuff like that.
+- [10:51] Crazy. A last thing I did is to look for
+- [10:55] a math problem. I actually looked on
+- [10:57] images to find a picture of a math
+- [11:00] problem and then I dragged it into the
+- [11:02] sidebar and asked it if you can solve it
+- [11:05] and it actually gave me the two
+- [11:08] solutions of one and nine and said that
+- [11:11] nine is the right solution for that and
+- [11:14] often people get it wrong as one is the
+- [11:16] solution. Let me know in the comments
+- [11:19] what you think. Is it one or is it nine
+- [11:21] as a solution? Personally, I don't know,
+- [11:23] but it was interesting that the browser
+- [11:26] could check out the image and solve the
+- [11:28] problem for me with an explanation.
+- [11:31] So, overall, am I impressed with this
+- [11:34] browser? Is it the best thing ever? I
+- [11:36] have to say I'm a little bit here and a
+- [11:39] little bit there. It does some pretty
+- [11:41] cool stuff. I really love the thing it
+- [11:43] did on Google Maps. Some other stuff I
+- [11:46] was like, I'm not 100% sure. I want to
+- [11:49] point out that I think that this is a
+- [11:51] great starting point. There is a lot of
+- [11:53] room for improvement. Personally, I'm
+- [11:56] very disappointed that this is only for
+- [11:59] Mac and not for Windows at the same
+- [12:01] time. But I also have to point out that
+- [12:05] this is available worldwide. At least it
+- [12:07] was available my country. I'm in Austria
+- [12:10] right now. So that is pretty cool that
+- [12:12] this is not another of these America
+- [12:14] first things where I need a VPN to use
+- [12:16] it. No, you can just download and
+- [12:19] install that. And as I said, if you
+- [12:21] don't have a Mac, if you have Windows,
+- [12:24] check out the Comet Browser by
+- [12:26] Perplexity. Is actually pretty good and
+- [12:30] fun to use. Let me know in the comments
+- [12:33] if I should do a review about the
+- [12:36] Perplexity comment browser. Thanks for
+- [12:39] watching. See you soon and leave a like
+- [12:41] if you enjoyed this video. Bye.
+- [12:56] >> [music]

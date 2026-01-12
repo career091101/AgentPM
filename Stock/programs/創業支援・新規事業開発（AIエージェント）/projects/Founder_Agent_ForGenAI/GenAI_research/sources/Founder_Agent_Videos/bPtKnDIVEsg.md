@@ -1,0 +1,1175 @@
+---
+title: "Hey guys, in today's video I'm going to show you how you can deploy agents from Google's new agent d..."
+video_id: "bPtKnDIVEsg"
+video_url: "https://www.youtube.com/watch?v=bPtKnDIVEsg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  Hey guys, in today's video I'm going to
+  show you how you can deploy agents from
+  Google's new agent development kit to
+key_points:
+  - "show you how you can deploy agents from"
+  - "And by the end of this video, you'll"
+  - "world request. And because you guys are"
+  - "the source code in this video, plus some"
+  - "free, so you can build and deploy your"
+  - "you can go ahead and download everything"
+  - "Or you can head over to my free school"
+  - "community where you can talk with me and"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: bPtKnDIVEsg
+
+- URL: https://www.youtube.com/watch?v=bPtKnDIVEsg
+- Retrieved at: 2025-12-30T11:34:30+09:00
+
+## Text
+
+- [00:00] Hey guys, in today's video I'm going to
+- [00:02] show you how you can deploy agents from
+- [00:04] Google's new agent development kit to
+- [00:06] the cloud. More specifically, I'm going
+- [00:08] to walk you through the full process of
+- [00:09] deploying your agents to Google's agent
+- [00:12] deployment service called Agent Engine.
+- [00:14] And by the end of this video, you'll
+- [00:15] have your first agent deployed to the
+- [00:17] cloud, ready to respond to your real
+- [00:19] world request. And because you guys are
+- [00:21] awesome, I'm going to be giving away all
+- [00:22] the source code in this video, plus some
+- [00:24] step-by-step instructions completely for
+- [00:26] free, so you can build and deploy your
+- [00:28] own agents on your own time. Just check
+- [00:30] out the link down description below so
+- [00:31] you can go ahead and download everything
+- [00:32] today. And don't worry if you're new to
+- [00:34] Agent Development Kit or the cloud. I'm
+- [00:36] going to be breaking down everything
+- [00:37] step by step, so it's as easy as
+- [00:39] possible to follow. And if you get stuck
+- [00:41] or have questions for whatever reason,
+- [00:42] feel free to drop a comment down below.
+- [00:44] Or you can head over to my free school
+- [00:45] community where you can talk with me and
+- [00:47] other like-minded AI developers so we
+- [00:49] can get you unstuck and moving on your
+- [00:50] projects. But enough talking, let's go
+- [00:52] ahead and do a quick overview of the
+- [00:53] core technologies you're going to be
+- [00:54] using today so that we're on the same
+- [00:56] page. And then we're going to head over
+- [00:57] to the five steps you need to follow to
+- [00:59] deploy your local agents to the cloud.
+- [01:01] So let's go ahead and dive in. All
+- [01:02] right, guys. So before we dive into
+- [01:04] actually building out and deploying all
+- [01:05] of our agents to the cloud, we need to
+- [01:07] understand the core two technologies
+- [01:09] we're going to be using today. Agent
+- [01:10] Development Kit and then Vertex AI agent
+- [01:13] engine. So let's explain what they are
+- [01:14] and how they work together to deploy
+- [01:16] agents. All right, first things first is
+- [01:17] going to be agent development kit. Agent
+- [01:19] Development Kit is Google's new agentic
+- [01:22] framework that allows you to build out
+- [01:24] agents. So if you've used Langchain or
+- [01:27] Crew AI, Lum Index, any of these agent
+- [01:29] frameworks, it is exactly like that. So
+- [01:31] you'll probably recognize a lot of these
+- [01:34] instructions for creating an agent to
+- [01:36] where you pass in a model that you want
+- [01:37] the agent to use. Give it a name and
+- [01:39] then pass in some instructions on like
+- [01:41] all right agent. Here's exactly what you
+- [01:42] need to go off to do. So it should be
+- [01:44] super familiar to you. A few other cool
+- [01:45] points to note is agent development kit.
+- [01:48] You can actually pass in any model. So
+- [01:50] you could pass in an open AI model, a
+- [01:51] cloud model, any of them. You're not
+- [01:53] stuck using the Gemini models from
+- [01:54] Google. And it is completely free to use
+- [01:57] just like it is to use link chain or
+- [01:59] crew AAI. It's actually an open source
+- [02:00] repository, so you can actually go in,
+- [02:02] look at the source code, download it,
+- [02:03] make pull request, whatever you want to
+- [02:05] do. Now, that's how we're going to
+- [02:06] create our agents. And then now we need
+- [02:08] to talk about step number two, which is
+- [02:10] going to be deploying our agents. And
+- [02:11] we're going to do that through Vert.Ex
+- [02:13] AI agent engine. This is Google's
+- [02:15] platform to make agent deployment as
+- [02:17] easy as possible. Without a tool like
+- [02:20] this, creating agents and actually
+- [02:21] deploying them can be a ton of work, and
+- [02:23] they've done a really good job of
+- [02:24] simplifying the whole process and making
+- [02:26] it super affordable. So, a few things
+- [02:28] that you need to know inside agent
+- [02:30] engine, you can actually pass in any
+- [02:32] type of framework you want. So, I think
+- [02:34] they have a really good chart down here
+- [02:35] that explains it all. So, within agent
+- [02:37] engine, this is where you'll actually be
+- [02:39] like deploying all of your agents. You
+- [02:41] can actually pass in any agent framework
+- [02:43] you want. You could pass in crewi, lang
+- [02:45] chain, llama index, any agent framework
+- [02:47] you want. You can pass it in and deploy
+- [02:49] it through agent engine. And then once a
+- [02:51] agent is deployed, you can actually go
+- [02:53] off and make requests to it almost like
+- [02:55] you would just a regular API. So you can
+- [02:57] say like, hey agent, take in this
+- [02:59] request. Agent engine is going to host
+- [03:01] it, deploy it, and actually run the
+- [03:02] agent and then spit back the answer to
+- [03:04] you. Makes it super super easy to do.
+- [03:06] And a few other things that I think are
+- [03:08] pretty cool that you would like to know
+- [03:09] is when it comes to pricing, it's
+- [03:11] actually super super affordable. It is a
+- [03:13] pay as you go model to where you only
+- [03:15] pay as the agent is running, which is
+- [03:17] super important to me because I don't
+- [03:18] want to be racking up a huge bill of
+- [03:20] like hundreds of dollars if the agent
+- [03:22] only gets triggered once. So basically
+- [03:23] the way it works is, you know, whenever
+- [03:25] you send a request off to the agent,
+- [03:27] it's going to start tracking its time
+- [03:28] and say, "Okay, cool. It looks like I
+- [03:30] ran for a total of 3 minutes." And along
+- [03:33] the way, I used 10,000 tokens. So you're
+- [03:36] automatically going to pay for the
+- [03:37] tokens you use. And then on top of that,
+- [03:38] you're going to pay for the resources
+- [03:40] that you used. So you can see you're
+- [03:42] going to pay basically for CPU usage and
+- [03:44] memory. So if you were to run all in all
+- [03:46] for an hour, you can expect to pay
+- [03:48] around 11 cent if you used one core and
+- [03:51] 1 gigabyte. So all around very
+- [03:53] affordable, which was I was super
+- [03:55] impressed with. So very excited that
+- [03:56] they've made it easy to deploy and
+- [03:58] basically very affordable as well. All
+- [04:00] right. So, now that we've talked about
+- [04:01] what are the two tools we're using, now
+- [04:03] it's time for us to actually go ahead
+- [04:04] and see how we're going to create our
+- [04:06] agents with Agent Development Kit and
+- [04:08] then easily go ahead and deploy them
+- [04:09] over to Agent Engine over in Vertex AI.
+- [04:12] So, if you have any questions on any of
+- [04:14] that, feel free drop a question down
+- [04:15] below. I know these are some like more
+- [04:16] advanced, bigger topics, but let's go
+- [04:18] ahead now and head into the five core
+- [04:20] steps you need to go from agent to
+- [04:22] deployed agent. So, let's go ahead and
+- [04:23] dive in. Okay, so now that we've talked
+- [04:25] about the two tools you're going to be
+- [04:26] using, Agent Development Kit and Agent
+- [04:28] Engine, let's go ahead and cover at a
+- [04:30] high level the five steps you need to
+- [04:32] take to deploy your agents to the cloud.
+- [04:34] So, first things first, we are going to
+- [04:37] create an agent using ADK. So, I already
+- [04:39] have a pre-built one for you that you
+- [04:41] can just go ahead and download for free
+- [04:42] down in the description below. Once we
+- [04:44] have our agent set up on our local
+- [04:46] computer, then we need to go ahead and
+- [04:48] start setting up our cloud resources.
+- [04:50] So, first we're going to go ahead and
+- [04:51] create a new project in Google Cloud
+- [04:53] Platform. From there, inside Google
+- [04:55] Cloud Platform, we're going to enable
+- [04:57] and set up our AI resources. Once we
+- [04:59] have the cloud set up to support all the
+- [05:01] AI functionality, we're on our local
+- [05:03] computer going to installed Google Cloud
+- [05:06] CLI. This is going to allow us to log
+- [05:08] in, access our cloud resources, and it's
+- [05:10] going to enable us to connect to Vertex
+- [05:13] AI so that we can actually start to run
+- [05:15] our agent locally because it'll have
+- [05:17] access to our Gemini keys and everything
+- [05:19] else we need to run it. And then
+- [05:20] finally, once it's up and working and
+- [05:22] everything's installed, we can then go
+- [05:24] ahead and deploy our agent to the cloud.
+- [05:26] And I have scripts and everything else
+- [05:28] that you need to make this as easy as
+- [05:29] possible. Like I said, I've tried to
+- [05:31] break down everything step by step. So
+- [05:32] let's go ahead and hop over to the first
+- [05:34] step where we are going to look at the
+- [05:36] agent that we are going to deploying to
+- [05:38] the cloud today. So let's go ahead and
+- [05:39] hit to step number one. So welcome to
+- [05:40] step number one where we're going to do
+- [05:41] a quick overview of the agent that we're
+- [05:44] going to be deploying to the cloud
+- [05:45] today. So at a high level what we're
+- [05:47] doing is I've built a shortbot agent for
+- [05:49] you guys which all it does is this agent
+- [05:51] takes in a message and then makes it as
+- [05:54] short as possible to get the same
+- [05:56] message across. So, as you can see, this
+- [05:58] looks just like lang chain and crewi
+- [06:01] where you pass a name, model, and
+- [06:02] description. You pass in your
+- [06:04] instructions here where you basically go
+- [06:06] ahead and say like, hey, this is the
+- [06:07] task you're trying to perform. And what
+- [06:10] you can also see is you can pass in
+- [06:12] tools just like you would normally do
+- [06:13] with lang chain or crewi. So, inside the
+- [06:16] tools, you just go ahead and make a
+- [06:18] normal Python function, give it a
+- [06:21] parameters, give it the types, give it a
+- [06:23] dock string of what it should do, and
+- [06:24] then all the code that needs to run.
+- [06:26] Like I said, this is more of a
+- [06:27] deployment tutorial, so we're not
+- [06:28] getting super fancy with the underlying
+- [06:30] agent. Okay, so first things first, I
+- [06:33] have set up instructions for you guys so
+- [06:35] that you can easily install this and run
+- [06:37] it locally. So, if you head over to the
+- [06:39] readme after you download this source
+- [06:41] code for free, what you can see is I
+- [06:43] have basically step-by-step instructions
+- [06:45] to where you guys can, you know, go
+- [06:47] ahead and install the project. And to
+- [06:49] install it, you're going to need to use
+- [06:51] Poetry. Don't worry if you run into any
+- [06:52] issues. drop a comment down below or you
+- [06:54] can go ahead and actually talk to Tit
+- [06:57] and it'll walk you through installing
+- [06:58] Poetry on your local computer. Once you
+- [06:59] have installed Poetry, all you need to
+- [07:01] do is run poetry install and this is
+- [07:04] going to go off and install all the
+- [07:05] necessary dependencies that you need to
+- [07:07] actually run this project. Everything
+- [07:10] from the Google Agent Development Kit,
+- [07:12] which is the main one, and all the other
+- [07:14] tools you need for deploying and
+- [07:15] everything else. So, that's what's going
+- [07:16] on at a high level. And then what you
+- [07:18] can do next is go ahead and activate the
+- [07:21] environment that you just created. And
+- [07:23] what this will allow you to do is
+- [07:24] actually run commands. Specifically,
+- [07:26] what you can do now is down here, what
+- [07:28] I've showed you guys is you can actually
+- [07:30] go ahead and start to run your agent.
+- [07:33] Now, what you can do is just type in ADK
+- [07:35] web. And what this will do is it'll go
+- [07:37] ahead and spin up the web version of
+- [07:40] this agent so that you can begin to chat
+- [07:42] with it. Now, I am going a little bit of
+- [07:44] ahead and step four will actually go
+- [07:46] ahead and install Google Cloud, which
+- [07:48] will connect you to Vert.Ex AI, which
+- [07:50] will actually allow you to like go ahead
+- [07:52] and start running this. So, this won't
+- [07:53] work out of the box until we do step
+- [07:55] four. I just want to go ahead and give
+- [07:56] you a quick overview of the agent. So,
+- [07:58] if we head over here, you can see we're
+- [08:00] now in the web view of our agent. So, up
+- [08:03] here on the top left, you can see all of
+- [08:04] our agents that we have running. And
+- [08:06] then we can go ahead and start to type
+- [08:07] in messages that will get sent to our
+- [08:09] shortbot. So, we can say, "Hey, how was
+- [08:12] your weekend?" We can say, "Anything
+- [08:15] fun? Have fun with the family." And then
+- [08:19] what it'll do is it'll go ahead and send
+- [08:21] that message off to our agent. And then
+- [08:24] our agent will go ahead and type a
+- [08:26] response back. Sorry, I actually, this
+- [08:28] is on me. I I meant to refresh the page.
+- [08:29] So, if we go ahead and send it again,
+- [08:31] what it'll do is it'll go ahead and
+- [08:32] actually run. And you can see what I've
+- [08:35] told the agent to do is give me the
+- [08:36] original character count, the new
+- [08:38] character count, and the new message. So
+- [08:40] you can see basically what it did is
+- [08:42] like hey this was kind of redundant and
+- [08:44] what it did is it made it shorter. So
+- [08:46] you can see the agent's up and running.
+- [08:47] You can dive in to you know seeing the
+- [08:50] events that happened, the initial
+- [08:51] request that was being passed in the
+- [08:53] response. Don't worry if any of this is
+- [08:55] confusing. I'm actually going to after
+- [08:56] this video create a agent development
+- [08:58] kit quick start where I dive deeper and
+- [09:00] I'm also going to create an agent
+- [09:02] development kit masterass. So I'm going
+- [09:03] to have a lot more content coming out
+- [09:05] around this but today I just wanted to
+- [09:07] focus on deployment. So, as you can see,
+- [09:08] our agent is actually up and running and
+- [09:10] it works. And you can see that there are
+- [09:12] instructions that will walk you through
+- [09:14] exactly how to install your agent and
+- [09:17] get everything running. Okay, cool. So,
+- [09:18] we are officially done on the setup. The
+- [09:20] only other things that I do want to
+- [09:22] mention that are very important for you
+- [09:24] to understand how it all works at a high
+- [09:25] level for agent development kit is the
+- [09:27] fact that the way agent development kit
+- [09:30] works is you create agents through
+- [09:32] folders. So you can see we have an ADK
+- [09:35] shortbot that is going to be the name of
+- [09:38] our agent and then within this folder
+- [09:40] you can see I create an agent.py file.
+- [09:43] Well that's basically how it works. This
+- [09:45] is kind of how they want their structure
+- [09:46] of agent set up. So you can see name of
+- [09:49] agent here. Then we give the
+- [09:50] instructions for the agent. This name
+- [09:53] needs to match this name. It's very
+- [09:55] important that they match folder and
+- [09:57] project name. So that was just one thing
+- [09:59] that tripped me up whenever I first
+- [10:00] created agents in agent development kit.
+- [10:02] So yeah. So, that's everything that you
+- [10:03] need to know at a high level when it
+- [10:05] comes to creating your agents. And we're
+- [10:07] going to go ahead and head over to step
+- [10:08] number two where we're going to start
+- [10:10] walking you through actually getting
+- [10:11] everything set up for the cloud. Let's
+- [10:12] go ahead head over to step number two.
+- [10:14] So, welcome to step number two where
+- [10:15] we're going to create your Google Cloud
+- [10:18] Platform account and the project that
+- [10:20] you're going to be using to manage all
+- [10:22] the resources for our deployed agent.
+- [10:25] So, first things first, inside of
+- [10:26] Google, just type in GCP cloud and you
+- [10:29] should see a link to that will point you
+- [10:30] over to Google Cloud. So, we're going to
+- [10:32] go ahead and click that. Now, what we
+- [10:34] need to do next is if you've never
+- [10:36] created a Google Cloud account before,
+- [10:38] you're going to want to go ahead and
+- [10:39] sign up to create an account. It should
+- [10:41] be completely free to do. If anything,
+- [10:43] you might need to hook up a payment
+- [10:45] method. It's not going to charge you
+- [10:47] anything, but you might be asked to
+- [10:48] connect a payment method just so that
+- [10:50] you can access some of the newer
+- [10:51] features. You won't be charged until you
+- [10:53] run anything, so don't worry about that,
+- [10:55] but just wanted to point that out as an
+- [10:56] important note. Great. Once you've
+- [10:58] signed up, now it's time for us to go
+- [10:59] ahead and go over to our console. So,
+- [11:02] you're going to click console. And what
+- [11:04] this will do is it'll take you to inside
+- [11:06] of Google Cloud Platform. Now, if you
+- [11:09] see a screen like this, yours might be a
+- [11:10] little bit different if you've never
+- [11:11] created a project before, but as you can
+- [11:13] see on my screen, I can see I'm in the
+- [11:14] Brandon Hancock.io workspace and I'm
+- [11:17] working on the deploy ADK quickart
+- [11:19] project. Together, we're going to go
+- [11:21] ahead and create a new project from
+- [11:22] scratch so that we're working from the
+- [11:24] same area. So, what I'm going to go
+- [11:26] ahead and do is click new project. And
+- [11:29] I'm going to call this ADK
+- [11:32] shortbot YouTube. So, this is the name
+- [11:35] of my project. You don't the naming
+- [11:37] really doesn't matter. It's just
+- [11:38] something that you'll easily memorize
+- [11:40] and recognize when you see it. Now, what
+- [11:42] you want to do next is click the billing
+- [11:44] account. So, in my case, I have two
+- [11:46] billing accounts. You probably will now
+- [11:47] have one billing account because you
+- [11:49] went through the setup process. So,
+- [11:51] click that. And then, when it comes to
+- [11:52] your organization, I only have one. And
+- [11:53] then location. I only have one either.
+- [11:55] So, uh, it should be pretty much just
+- [11:57] like this except reflect your
+- [11:58] information. So, next we're going to go
+- [12:00] ahead and click create. And this will
+- [12:02] take a few seconds to create your new
+- [12:04] project, spin up all the resources, and
+- [12:06] get everything ready. Now, once it's
+- [12:08] done, you can click this button right
+- [12:10] here to select your project. And you can
+- [12:12] see in the top left, it now shows we're
+- [12:14] working inside the new project. If for
+- [12:16] whatever reason that didn't happen, you
+- [12:18] can always just click up here in the top
+- [12:19] left and research all the projects that
+- [12:21] you have and click the proper one. So
+- [12:23] great, we now are done with step two. So
+- [12:25] let's go ahead and head over to step
+- [12:26] number three where we're going to enable
+- [12:28] all of our AI resources. So welcome to
+- [12:30] step number three where we're going to
+- [12:31] start enabling all of the AI services
+- [12:33] inside of your Google Cloud project so
+- [12:35] that we can start to deploy our agent.
+- [12:38] So first things first, what do we need
+- [12:39] to do? We need to enable Vertex AI. So,
+- [12:42] what we can do is in the top of our
+- [12:44] search bar, type in Vertex AI and you
+- [12:46] should see a search result just like
+- [12:48] this. We're going to click Vertex AI and
+- [12:51] then we are going to click enable all
+- [12:53] recommended APIs. And this is going to
+- [12:56] create Vertex AI Studio and everything
+- [12:58] else that you need in order to start
+- [13:00] working with, you know, Vert.ex AI. And
+- [13:02] a quick reminder, Vertex AI is also
+- [13:05] going to enable us to start using agent
+- [13:07] engine, which is the most important
+- [13:08] thing that we're trying to use here.
+- [13:09] Now, this does take quite a few seconds
+- [13:11] to create. So, if you click on this
+- [13:13] little notification bell in the top
+- [13:14] rightand corner, you can see all of the
+- [13:17] different resources and services that
+- [13:19] it's enabling. Everything from compute,
+- [13:21] notebooks, data flows, everything that
+- [13:23] you need. And you can see it also went
+- [13:24] off and created a bunch of other
+- [13:26] services right here. So, we're going to
+- [13:28] let that run. And then what we also need
+- [13:30] to do is create a new bucket where we
+- [13:33] can start to store our deploy agents.
+- [13:36] And what is important to note about
+- [13:38] this, I'm just going to show you an
+- [13:38] existing project so you can see it in
+- [13:40] action. This is something that I created
+- [13:42] a while ago. And you can see I made a
+- [13:44] bucket which is where we're going to
+- [13:46] basically store our deployed agents. And
+- [13:48] you can see I made previously an ADK
+- [13:51] shortbot and it got deployed to this
+- [13:53] bucket. And if you dig in, you can
+- [13:54] actually start to see some of the like
+- [13:56] all the different folders and resources
+- [13:58] stored in order to actually run our
+- [14:00] agent. So all this is going to get
+- [14:01] stored to the cloud. Okay. So that's
+- [14:03] what we're ultimately trying to do. So
+- [14:05] what we can type in is bucket. And if
+- [14:07] you go to cloud storage bucket, this is
+- [14:09] what we're trying to do. And we need to
+- [14:10] create a new one. So in our case, you're
+- [14:12] going to click create. And then from
+- [14:14] here, we're just going to give it a
+- [14:15] simple name. So I'm going to call it the
+- [14:16] same name as my project. So ADK shortbot
+- [14:20] YouTube. And then we can pretty much
+- [14:22] click continue for everything else. Now,
+- [14:24] it is important to note that this will
+- [14:27] cost money, you know, but it's like
+- [14:29] insanely cheap. So you can see it cost
+- [14:31] almost 3 cent per gigabyte per month and
+- [14:34] we're going to be using barely anything.
+- [14:36] So like we might get charged a penny per
+- [14:38] month with what we're doing here. So
+- [14:40] don't worry about it. Like we're not
+- [14:41] going to be breaking the bank. So click
+- [14:43] continue. Pretty much click continue
+- [14:45] through everything and the defaults are
+- [14:47] usually great enough. And we're going to
+- [14:50] click and continue. The next one is what
+- [14:53] we want to do is this one is important.
+- [14:55] Enforce public access prevention.
+- [14:58] Basically what this mean is, hey, can
+- [15:00] the outside world access our stuff? And
+- [15:02] the answer is no. We do not want the
+- [15:04] outside world accessing information in
+- [15:06] this bucket. So that is important that
+- [15:08] it stays checked. So we're going to
+- [15:09] click continue. We're going to use the
+- [15:11] normal soft delete policies and click
+- [15:14] continue. Basically, go ahead and just
+- [15:16] click everything as the default and you
+- [15:18] should be good. So great, our bucket is
+- [15:20] now set up. Things are great. And if you
+- [15:22] go back to our notification bell, you
+- [15:24] can also see that everything has been
+- [15:26] set up properly. Fantastic. Now, there's
+- [15:28] one last piece that we need to work on
+- [15:31] together. So, if you just click back to
+- [15:34] the root menu, which you can click on
+- [15:36] Google Cloud, it'll take you back to the
+- [15:37] root. We need to copy over a few pieces
+- [15:39] of information over to our bucket. So,
+- [15:43] we need to copy two things. One, we need
+- [15:45] to copy the project ID. So, you can
+- [15:46] click copy. And basically what we're
+- [15:48] doing is we are trying to update our
+- [15:51] environment to say, "Hey AI agent, where
+- [15:54] do you want me to deploy and use all my
+- [15:56] project resources?" That's exactly what
+- [15:57] we need to set up. So when it comes to
+- [15:59] Google Cloud Project, we're going to put
+- [16:01] your new project name here. For cloud
+- [16:03] location, we're just going to use the
+- [16:05] default, which in my case was US Central
+- [16:07] 1. I would recommend using this one as
+- [16:09] well. Basically, you could use any of
+- [16:11] the deployed AI enabled locations.
+- [16:14] There's a huge list, I think about 30
+- [16:16] different places that enable access to
+- [16:18] AI features, but US Central 1 works. So,
+- [16:20] I would definitely recommend using this.
+- [16:21] The final thing we need to do is say,
+- [16:24] hey, where is the bucket that you want
+- [16:25] me to deploy resources to? So, what you
+- [16:28] can do is go ahead and type in click
+- [16:31] cloud storage, which will take you back
+- [16:32] to your bucket. You're going to click
+- [16:33] buckets. Then, when you click ADK
+- [16:35] shortbot or whatever name you gave it,
+- [16:37] what you can do is you can find the name
+- [16:39] for it right here. So, whatever name
+- [16:42] pops up right here, that is the name of
+- [16:43] your bucket. So, you can come back over
+- [16:45] here, paste it in. Fantastic. You now
+- [16:47] have your project set up to where it's
+- [16:49] pointing to all of your cloud resources.
+- [16:51] And that's everything that you need to
+- [16:53] do now that you've enabled all of your
+- [16:54] AI resources, set up your bucket, and
+- [16:57] you've updated your environment
+- [16:58] variables. So, now what we can do is go
+- [17:00] ahead and head over to step number four
+- [17:02] where we're going to start setting up
+- [17:03] Google Cloud CLI to connect your local
+- [17:05] computer to all of your cloud resources.
+- [17:07] So, let's go ahead and head over to step
+- [17:09] number four. So, welcome to step number
+- [17:11] four where we're going to set up the
+- [17:13] Google Cloud CLI on your local computer.
+- [17:16] And this is what's going to allow you to
+- [17:17] do two things. One, it's going to allow
+- [17:19] you to actually run your local agents
+- [17:21] properly because it's going to give you
+- [17:23] access to Gemini on your local computer
+- [17:26] to where it's going to pull down all the
+- [17:27] credentials and give you access to
+- [17:28] running it. And two, it's going to give
+- [17:30] you the ability to start deploying your
+- [17:32] agents to Google Cloud. Now, why are we
+- [17:35] doing this? Well, if you actually head
+- [17:37] over to the agent development kit quick
+- [17:40] start guide, you can see there is a step
+- [17:42] to where it's like, all right, cool. In
+- [17:44] order to actually start to use these
+- [17:46] large language models, which option do
+- [17:48] you want to do to access the LLM
+- [17:50] service? And in our case, we are using
+- [17:52] Vertex AI because that Vertex AI is what
+- [17:54] also gives us access to agent engine.
+- [17:57] So, this is exactly why we're following
+- [17:59] the steps. So, as you can see, it says
+- [18:01] to set up Google Cloud CLI. So, what you
+- [18:04] can do is click this link or in the
+- [18:06] readme docs, I have a link for you to
+- [18:08] follow to. So, what you want to do,
+- [18:09] click this link and it'll take you to a
+- [18:11] website that looks just like this where
+- [18:13] it's going to say, okay, here are the
+- [18:15] different platforms you can install
+- [18:17] Google Cloud CLI on. And in my case, I'm
+- [18:20] on a Mac. So, all I needed to do was,
+- [18:23] you obviously are going to click
+- [18:24] whatever platform you're using, but in
+- [18:25] my case, I'm on a Mac and I'm using
+- [18:27] Apple Silicon. So, I went ahead and
+- [18:29] clicked this and then I downloaded it.
+- [18:31] Once I downloaded it, all I needed to do
+- [18:34] was run this command that it tells you
+- [18:36] to run. And this is going to go ahead
+- [18:37] and install it on your local computer.
+- [18:40] So, literally just follow these
+- [18:41] instructions. And then once it's
+- [18:42] installed, all you need to do is run
+- [18:44] Google Cloud Unnit. What this is going
+- [18:47] to do is allow you to start to run
+- [18:50] Google Cloud anywhere on your computer.
+- [18:51] So once you run Google Cloud init, it's
+- [18:53] going to add it to your path. So you can
+- [18:55] at any point anywhere just run Google
+- [18:57] Cloud and it'll start to work on your
+- [18:59] computer just like this. Great. So I'm
+- [19:01] going to run Google Cloud init with you
+- [19:03] because we also need to set up and
+- [19:04] connect our project to actually point to
+- [19:07] the proper project. So when you're first
+- [19:09] using it, it's going to ask you to do
+- [19:11] two things. It's probably going to ask
+- [19:13] you to log in. So let me just show you
+- [19:14] that as well. So you're going to run
+- [19:16] g-cloud login. And what this will do is
+- [19:19] actually ask you to sorry G-Cloud off
+- [19:21] login. So what this is going to ask you
+- [19:23] to do is go ahead and log in to your
+- [19:25] account. So I'm going to log in. And
+- [19:26] then once you log in, you're going to
+- [19:28] say, "Yes, I want to accept all of these
+- [19:30] different permissions." Great. You're
+- [19:32] now logged into Google Cloud CLI. And
+- [19:34] you can start to run any of the things
+- [19:36] that you want to do and actually have
+- [19:38] access to Google Cloud. Then what we can
+- [19:40] do is run Google Cloud. And this is
+- [19:43] where we're going to go ahead and start
+- [19:45] setting up our local environment to
+- [19:48] start pointing to the proper projects.
+- [19:50] So yours is going to not show this
+- [19:52] because you're doing this for the first
+- [19:53] time. So, you're going to probably just
+- [19:55] walk through the like, hey, what project
+- [19:57] would you like to set up? In my case,
+- [19:59] I'm going to say, hey, I want to
+- [20:00] reinitialize this to point to the proper
+- [20:02] project. So, I'm gonna say one, I'd like
+- [20:04] you to show me all my potential
+- [20:06] projects. And I'll point to the right
+- [20:07] one. And before I do that, it's going to
+- [20:09] ask which account would you like to use
+- [20:10] to perform? In my case, you saw me just
+- [20:12] log in with my email. So, that's exactly
+- [20:14] what I'm going to do. Then, it's going
+- [20:15] to show me all of my existing projects.
+- [20:18] Now, in my case, we just created this
+- [20:20] project. So, number one, so this is the
+- [20:22] project I'm going to pick. You obviously
+- [20:23] want to pick the project you created in
+- [20:25] Google Cloud. Then it's going to say, do
+- [20:26] you want to configure a default zone?
+- [20:28] We're not going to worry about that for
+- [20:29] now. And now you can see, hey, congrats.
+- [20:32] You are ready to start using Google
+- [20:34] Cloud and it's connected to this
+- [20:36] project. So fantastic. You have actually
+- [20:38] set up Google Cloud to work locally on
+- [20:41] your computer. And what's really cool is
+- [20:44] now you also have ability to run that
+- [20:46] ADK command I showed originally that ADK
+- [20:49] web where it actually spins up the local
+- [20:52] agent that we created and runs it. Now
+- [20:54] that we have access to Vertex AI and all
+- [20:57] of our Gemini keys and everything else
+- [20:59] that are just automatically created
+- [21:00] under the hood, you can now start to
+- [21:01] actually run this as well. So this is
+- [21:03] where you can start to come in here,
+- [21:05] pick an agent. Let's actually go ahead.
+- [21:07] Sorry, I'm running this from the wrong
+- [21:08] folder. I was like, why is it showing
+- [21:09] all those random files? So sorry. You
+- [21:11] can actually run it here. ADK web. And
+- [21:13] this is where it'll show all of your
+- [21:14] different potential agents that you
+- [21:16] have. And this is where you can start to
+- [21:18] run it all. So ADK and then hey, how are
+- [21:22] you? So just to show that's working. So
+- [21:25] it's going to run. It's going to go
+- [21:27] trigger it. It's going to original
+- [21:28] count, new count. Fantastic. So
+- [21:30] everything is looking good. So we now
+- [21:32] have our agent up and running. And we
+- [21:34] are now at the final step where we're
+- [21:36] going to start walking through how we
+- [21:37] can start to deploy this agent that
+- [21:40] we've created now to Google Cloud now
+- [21:42] that we've set up and connected
+- [21:43] everything. So let's go ahead and head
+- [21:44] to step number five. So welcome to step
+- [21:46] number five where we're now going to
+- [21:47] dive into deploying your agents over to
+- [21:50] agent engine. And before we just start
+- [21:51] running through the code where you're
+- [21:53] going to see exactly how to deploy these
+- [21:54] agents, I want to walk you through a few
+- [21:57] core concepts you need to understand
+- [21:59] first. So when we're actually looking at
+- [22:01] the code in just a second, you
+- [22:02] understand, oh yeah, that is what's
+- [22:04] happening and I understand why all the
+- [22:06] different parts are moving the way they
+- [22:07] are. Okay. So let's look at a few of the
+- [22:09] most important things first. So what
+- [22:12] we've done so far is we have created an
+- [22:15] agent and now that agent can run locally
+- [22:17] on our computer and what we're trying to
+- [22:19] do is two things. One, we want this
+- [22:21] agent to get bundled up into a container
+- [22:24] and deployed over to Vertex AI engine.
+- [22:27] That's exactly what we're trying to do
+- [22:29] here. And under the hood, when we dive
+- [22:30] in the code, you're going to see that
+- [22:31] this is actually super straightforward.
+- [22:34] You really will do two things. You are
+- [22:36] going to create the engine, and it's
+- [22:39] going to be called a reasoning engine
+- [22:40] cuz we're basically almost like building
+- [22:42] a chat agent is what we've done so far.
+- [22:44] And so, we're creating a reasoning
+- [22:46] engine. And all we're doing is passing
+- [22:48] in our root agent, which is our
+- [22:50] shortbot. And what we're doing is
+- [22:51] saying, "Hey, enable tracing." And once
+- [22:53] you've created your agent and it gets
+- [22:56] wrapped and turned into an application,
+- [22:58] all we need to do is then deploy it. And
+- [23:00] we're going to dive more into the code
+- [23:01] in just a second, but what we're going
+- [23:03] to do is create a deployment. And how
+- [23:05] this works is you say agent engine,
+- [23:08] please create a new engine. And all you
+- [23:11] do is pass in this application right
+- [23:13] here. And it's going to take all of the
+- [23:15] different agents, sub agents, tools.
+- [23:17] It's going to package it all together
+- [23:19] and deploy it over to agent engine. And
+- [23:22] you need to specify two other things.
+- [23:24] Any requirements. So basically, it's all
+- [23:26] getting bundled and packaged together.
+- [23:28] So if there's any specific packages your
+- [23:30] agents use, like if you're building a
+- [23:31] weather application and you needed to
+- [23:33] use like a Python weather SDK or
+- [23:36] anything like that, you would start
+- [23:37] adding all of those additional packages
+- [23:39] right here. So weather SDKs, if you were
+- [23:42] using some other fancy libraries, you'd
+- [23:44] pass them all right here. And then when
+- [23:45] it comes to extra packages, what you
+- [23:48] want to do is put the name of your
+- [23:50] package. So in our case, if you actually
+- [23:53] go look at the code that I wrote, you
+- [23:55] can see that everything that we're
+- [23:57] trying to deploy is in the
+- [24:00] ADK_Shortbot package. So that's exactly
+- [24:02] what we've done over here where we just
+- [24:04] say, "Hey, the only package you need to
+- [24:06] deploy is ADK shortbot because this
+- [24:08] includes all the agents you need for
+- [24:10] deployment." So that's what we're
+- [24:12] putting there. So that's the only thing
+- [24:13] you need to put in the extra packages.
+- [24:15] Okay, check. We've walked through high
+- [24:17] level what's happening. Now there's a
+- [24:19] few core pieces of terminology you need
+- [24:21] to understand before we start deploying
+- [24:24] these to the cloud. So so far you've
+- [24:26] seen how we can create a deployment and
+- [24:29] we run this Python code and it actually
+- [24:31] deploys it off to agent engine and what
+- [24:33] that's going to do is create a
+- [24:34] deployment. A deployment is nothing more
+- [24:37] than all the instructions needed to run
+- [24:39] the agent. So it's just sitting there
+- [24:41] waiting to be used. Then what we can do
+- [24:43] is create a session. And a session is
+- [24:46] nothing more than saying okay I would
+- [24:48] like to use this deployed agent and now
+- [24:50] I'm going to start having a conversation
+- [24:51] with it. So a session is nothing more
+- [24:53] than a conversation with an agent. So
+- [24:55] hopefully that makes sense. So let me
+- [24:57] show you some examples of this in
+- [24:59] action. When we were using our ADK web
+- [25:02] earlier in the browser, you saw how we
+- [25:05] could chat with our agent. So you can
+- [25:07] say we're chatting with this agent. And
+- [25:09] every time we create a new conversation,
+- [25:10] it's going to add a new session. And if
+- [25:12] you remember, a session is nothing more
+- [25:13] than messages. So if you actually click
+- [25:15] into a session, what you'll notice is it
+- [25:18] just shows this. It just shows a summary
+- [25:20] of all the messages we pass back and
+- [25:22] forth between us and the agent. If we
+- [25:24] had more tool calls, it would show the
+- [25:25] tool calls in here. And that's pretty
+- [25:28] much everything you need to know when it
+- [25:29] comes to deploying agents. There's
+- [25:31] deployments and there's sessions.
+- [25:33] Deployments contain all the instructions
+- [25:34] and packages and everything needed to
+- [25:36] run the agent and sessions are actual
+- [25:38] conversations with messages with that
+- [25:40] specific deployed agent. Okay, so
+- [25:43] hopefully that makes sense and you kind
+- [25:44] of see how the dots connect. And don't
+- [25:46] worry, we're going to actually now that
+- [25:47] you've seen these highle concepts, we're
+- [25:49] going to hop over to the code, deploy
+- [25:51] our agent, go ahead and start creating
+- [25:52] new sessions. And once we've created a
+- [25:54] session, you're going to see us actually
+- [25:56] start chatting with the agent back and
+- [25:57] forth. So let's go ahead and hop over to
+- [25:59] the code where we're going to start
+- [26:00] taking action on everything you just
+- [26:02] learned. All right, guys. So, welcome to
+- [26:03] the code portion of deploying your
+- [26:05] agents to agent engine. And before we
+- [26:07] dive in to look at the code, I just want
+- [26:09] to mention that I've created a script
+- [26:10] for you guys to make deployment as easy
+- [26:13] as possible. And I've tried to set it up
+- [26:15] in a way to where you can just type in
+- [26:17] the command line and perform all the
+- [26:19] actions that you would like to do.
+- [26:21] Specifically, I have set up the code in
+- [26:24] a fashion so that you can create and
+- [26:27] delete and list all of your deployments
+- [26:29] that you've made to agent engine. And
+- [26:31] then outside of that, I've also set it
+- [26:33] up so that you can look and start to
+- [26:37] chat with all the sessions that you
+- [26:39] create because you remember sessions are
+- [26:41] where we chat to. And then finally, I've
+- [26:43] set it up so that you can easily send
+- [26:45] messages and start to chat with your
+- [26:47] deployed agents in one of these
+- [26:49] sessions. So this will make more sense
+- [26:50] and we're going to actually walk through
+- [26:51] it part by part. So don't worry if any
+- [26:53] of this is confusing. We're going to go
+- [26:55] step by step and hit each one of these.
+- [26:57] Okay, so first things first, what we
+- [26:59] need to do is create our own agent and
+- [27:02] deploy it to agent engine. This is the
+- [27:05] exact same code that you guys saw
+- [27:06] earlier where we're going off and first
+- [27:09] creating the application and then
+- [27:11] deploying the agent application to
+- [27:14] Google Cloud App Engine. So here's what
+- [27:16] we need to do. If you come down to your
+- [27:18] terminal, you can type in poetry run and
+- [27:22] then you can type in deploy remote. Now,
+- [27:24] let me break down each part of this so
+- [27:26] it actually makes sense on why we're
+- [27:27] doing each thing. So, poetry, this is
+- [27:30] what we're using for our package
+- [27:31] management. And what we're doing is
+- [27:33] saying, "Hey, I would like you to run
+- [27:36] this script." So, where the heck is this
+- [27:38] script defined? Great question. If you
+- [27:40] head back over to pipro.tl, you can see
+- [27:43] that I've created a script for you guys,
+- [27:45] which is deploy remote. And deploy
+- [27:47] remote calls the deployment python file.
+- [27:51] and it calls remote sorry it goes to the
+- [27:54] deployment folder calls the remote
+- [27:56] Python file and runs the main function.
+- [27:58] So that's exactly what we have. So here
+- [28:00] is our deployment folder with our remote
+- [28:03] Python file and then inside of that we
+- [28:06] are trying to run this main function. So
+- [28:09] that's exactly what we have here folder
+- [28:11] file function. Okay, cool. Hopefully
+- [28:13] that makes sense. So now what we're
+- [28:14] going to do is we would like to go ahead
+- [28:17] and create our deployment of our agent.
+- [28:21] So I'm going to run it first just so you
+- [28:23] can see how it works. We're not actually
+- [28:25] deploying and creating it yet. I just
+- [28:27] want to show you that it's going to give
+- [28:28] you all the possible options that you
+- [28:30] can run to basically use this deploy
+- [28:32] script. In our case, we're trying to
+- [28:35] create our deployment which is going to
+- [28:36] push our local agent to the cloud. So
+- [28:39] we're going to run at the very end of
+- [28:40] this command d-create. And I'll make it
+- [28:43] a little bit bigger for you guys so you
+- [28:44] can see too. So now when I run create,
+- [28:46] what it's going to do is go, thank you
+- [28:48] for giving me everything that I need.
+- [28:51] I'm going to install all the proper
+- [28:53] dependencies that I need. And then from
+- [28:55] there, once I know everything I need to
+- [28:57] install, I'm going to use that bucket
+- [28:59] that you created earlier and we set up
+- [29:02] in our environment variable files. And
+- [29:03] I'm going to start saving everything
+- [29:06] over to our Google storage bucket. So,
+- [29:08] I'm going to save all the instructions
+- [29:10] dependencies and I'm going to go ahead
+- [29:12] and build this agent and save it in a
+- [29:14] zip file over to our bucket. And then
+- [29:17] once it's saved everything to the cloud,
+- [29:19] things are happy. Then it's going to
+- [29:22] kick off agent engine and saying, "Hey,
+- [29:24] you here's all the raw ingredients you
+- [29:26] need. Now, please go forth and deploy
+- [29:29] this agent." And you can actually look
+- [29:31] at the progress of this agent in real
+- [29:33] time to see where it's at in the
+- [29:34] deployment process. Quick heads up, this
+- [29:36] can take like up to 10 minutes to deploy
+- [29:38] an agent. So, you know, get a cup of
+- [29:39] coffee and wait. But let me show you
+- [29:41] what's going to happen in real time. So,
+- [29:42] if we click on that link, we can look at
+- [29:44] the logs, the deployment logs in real
+- [29:46] time. So, let me go ahead and make this
+- [29:48] full screen for you guys. So, what we
+- [29:50] can see is we are in our correct
+- [29:52] project. And then you can see in real
+- [29:54] time it is going through the entire
+- [29:57] deployment process. So, you can see, let
+- [29:59] me zoom out. Oops. Sorry. It doesn't
+- [30:01] like being in this like half state. So
+- [30:03] you can see in real time what it's doing
+- [30:05] is it is going okay cool all those
+- [30:08] packages you put in listed in our Google
+- [30:10] storage bucket. I'm going to go ahead
+- [30:12] and download everything in the bucket
+- [30:14] that you told me to download. And I can
+- [30:16] actually show this to you in real time.
+- [30:18] So if we hop back over over here and we
+- [30:20] go to our cloud storage bucket, you can
+- [30:22] see that our new everything that we
+- [30:25] talked about is actually deployed. So
+- [30:26] you can see in our agent engine folder,
+- [30:28] you can now see it has all of our
+- [30:30] requirements. So you can see if I was to
+- [30:33] actually look at this. So we'll go ahead
+- [30:34] and look at it just so you can see it.
+- [30:35] So you can see it has all of the proper
+- [30:37] dependencies needed to actually run this
+- [30:39] agent. And then what it's doing is it's
+- [30:41] downloading everything and those
+- [30:43] requirements file. And from there what
+- [30:44] it's doing is it's installing all the
+- [30:46] dependencies in real time. And what it's
+- [30:48] trying to do is fully download create
+- [30:51] the container and get it ready to be
+- [30:53] fully deployed on agent engine. So, what
+- [30:55] I'm going to do is do a quick pause and
+- [30:56] we're going to come back once the agent
+- [30:58] is fully deployed because like I said,
+- [30:59] it can take up to 10 minutes. And I'll
+- [31:01] show you that it's running once it's
+- [31:02] done deploying. All right, guys. So, it
+- [31:04] just deployed our agent to agent engine,
+- [31:07] and we can confirm that it properly
+- [31:08] deployed it by running the list
+- [31:10] deployments command. So, you can see we
+- [31:13] have an extra function in here that's
+- [31:15] going to say, "All right, agent engine,
+- [31:16] please list out all the deployments so I
+- [31:18] can see what's actually been deployed to
+- [31:20] the cloud." So to run this, all we need
+- [31:22] to do is go back and see what available
+- [31:25] commands we have to us. And in our case,
+- [31:27] we want to run the list command. So come
+- [31:30] back up here, type in list. And now we
+- [31:32] should see that we have a deployed agent
+- [31:34] on agent engine. Fantastic. This is the
+- [31:37] exact agent we wanted to deploy. Now we
+- [31:39] can move forth with creating a new
+- [31:42] session. And a session is nothing more
+- [31:44] than a conversation between us and our
+- [31:47] deployed agent. And the important
+- [31:49] variables that you need to pass in when
+- [31:51] creating a session are the resource ID.
+- [31:54] So this is like hey what deployed agent
+- [31:56] should I talk to. Also which user is
+- [31:59] talking with the agent. This doesn't
+- [32:01] need to exist anywhere else. Like this
+- [32:03] you know usually would just come from
+- [32:04] your application. And the reason agent
+- [32:06] engine put this in here is so that at
+- [32:08] any point you could go up and look to
+- [32:10] figure out all the different
+- [32:12] conversations a specific user has had
+- [32:14] with a specific agent. So that's why
+- [32:16] they put it here. It's really just to
+- [32:17] help you list out sessions later on. So,
+- [32:20] let us go ahead and try it out. So,
+- [32:23] we're going to copy the resource ID
+- [32:25] because that's what we needed. And in
+- [32:26] this time, what we're going to do is run
+- [32:28] the create session command. This is what
+- [32:30] we're running this time. So, we're going
+- [32:32] to type in create session. Create
+- [32:35] session. And then pass in the resource
+- [32:38] ID. And if you don't pass in a user ID
+- [32:42] specifically, it just uses test user by
+- [32:44] default. So, that's totally fine with
+- [32:45] me. So, we're going to go ahead and
+- [32:47] create our session. And this will take a
+- [32:49] few seconds and showcase the new session
+- [32:51] results. So, tada. You can now see I
+- [32:54] just created your session for you.
+- [32:56] Here's the new session ID. Here's the
+- [32:58] user ID, in our case, test user, and
+- [33:00] everything else you need to know about
+- [33:01] the new session with our agent. Great.
+- [33:04] So, now that we have that set up, what
+- [33:06] we can do is fetch that specific session
+- [33:08] just to show that it was created
+- [33:10] properly. So, what we can do, you can
+- [33:12] see we have a get session flag. We'll
+- [33:14] actually skip it and we're just going to
+- [33:15] go ahead and chat with the session. But
+- [33:16] just know you could list out all your
+- [33:18] sessions for our specific user and you
+- [33:20] could grab a specific session to see all
+- [33:22] the message history. But in our case,
+- [33:24] let's go ahead and have fun and send the
+- [33:26] specific message. So going back to
+- [33:28] earlier, we need to call the send flag.
+- [33:31] So in our case, send is the new command
+- [33:34] we're trying to run. So we're going to
+- [33:36] type in send. And now we can look up
+- [33:38] what information do we need to provide.
+- [33:40] Well, resource ID, we have that. What
+- [33:42] else do we need to provide? We need to
+- [33:44] provide the user ID. In our case, this
+- [33:47] was just test user. And then finally, we
+- [33:50] need to pass in the session ID. So
+- [33:52] session ID, you can grab that right
+- [33:55] here. And then what we need to do is
+- [33:57] pass in the actual message itself. So
+- [34:00] you can see message right here. So d-
+- [34:02] message. And now we can just say like,
+- [34:05] hey, how did your weekend go? Anything
+- [34:10] fun? And then we can send this off to
+- [34:13] our agent. And what we should see back
+- [34:15] in just a few seconds is our agent
+- [34:18] responding back to us. So you can say,
+- [34:20] "We sent this message. How'd your
+- [34:21] weekend go?" And then we got back this
+- [34:23] response. So the original character
+- [34:25] count was 38. I shortened it to 23 just
+- [34:28] by saying, "Hey, how was your weekend?"
+- [34:29] So all around it did a good job of
+- [34:31] shortening the entire thing. So all
+- [34:33] around super impressed. And that is us
+- [34:35] actually communicating with our deployed
+- [34:37] agent. This isn't local. This is a
+- [34:39] deployed agent running in the cloud to
+- [34:41] where it's running, doing its thing. So
+- [34:43] all around, I thought this is amazing.
+- [34:45] Now, let me go ahead and we're going to
+- [34:46] hop over next just as a bonus session. I
+- [34:48] want to show you how you can start to
+- [34:50] look at traces and logs of these
+- [34:52] deployed agents. Let's go ahead and look
+- [34:53] at that real quick. Okay, so as a bonus,
+- [34:55] I wanted to show you guys how you could
+- [34:57] look at traces for your deployed agents.
+- [34:59] And a trace is nothing more than a
+- [35:01] specific set of messages that have been
+- [35:02] passed back and forth. It's how you can
+- [35:04] actually see what's going on between
+- [35:06] your agent and your users. So, all you
+- [35:08] need to do back inside Google Cloud,
+- [35:10] what you can do is type in traces, and
+- [35:13] you'll should see something called trace
+- [35:14] explore. That's exactly what we want to
+- [35:16] click. Once you click trace explore, you
+- [35:18] can start to see all the different
+- [35:20] messages that have been sent between you
+- [35:22] and your customers. So, you can see we
+- [35:24] have an invocation which goes ahead and
+- [35:27] if you click on it, you can see how it
+- [35:29] says, "All right, this trace shows that
+- [35:31] agent, specifically the ADK shortbot was
+- [35:34] called." Then you can see, well, what
+- [35:36] did that agent do? Well, it called an
+- [35:38] LLM. Then you can dive in here to see
+- [35:40] everything that happened. So, you can
+- [35:42] see we called Gemini Flash 2.0. You can
+- [35:45] see that we gave an instruction saying
+- [35:47] like, "Hey, your message is shortening
+- [35:49] assistant. Here's what you should do."
+- [35:50] You can see the response from the LLM.
+- [35:52] So, you can actually see everything that
+- [35:54] happens inside of your agents going
+- [35:56] through traces. So, this is a really
+- [35:57] cool way to like look back and see like,
+- [35:59] hey, what has been happening inside of
+- [36:01] my agent? Is it been performing
+- [36:03] properly? You can, you know, if you
+- [36:04] wanted to, you could do some filters
+- [36:06] here to say like, hey, I only want to
+- [36:08] look at LLM calls that have happened and
+- [36:11] see, well, what are the LLM calls that
+- [36:13] happen? So, you can actually dig in and
+- [36:14] see everything here. I thought traces
+- [36:16] was a super cool functionality and
+- [36:17] definitely wanted to show it to you guys
+- [36:19] cuz now you're an expert at deploying
+- [36:20] agents to agent engine and this is a
+- [36:23] next step that you could look in to see
+- [36:25] how your agents are performing. And just
+- [36:26] a few quick reminders, you can download
+- [36:28] all the source code that you saw in the
+- [36:29] video today completely for free. Just
+- [36:30] check out the link down description
+- [36:31] below. And if you need help, feel free
+- [36:33] to drop a comment down below or to head
+- [36:35] over to my free school community with
+- [36:37] over 6,000 like-minded AI developers
+- [36:39] where we have weekly free coaching calls
+- [36:41] and we'd love to chat with you and get
+- [36:42] you unstuck and moving forward on your
+- [36:44] AI projects. Also, I have a lot more AI
+- [36:47] content right here on this channel. I
+- [36:48] definitely recommend checking out
+- [36:49] whatever videos are popping up next. And
+- [36:51] I'll soon be dropping new videos on
+- [36:53] agent development kit, a complete master
+- [36:55] class, and a quick start guide. So
+- [36:57] definitely hit the like and subscribe
+- [36:58] button so you can be notified as soon as
+- [37:00] those videos come out. But until the
+- [37:01] next time, I can't wait to see you guys
+- [37:03] and good luck on all of your AI
+- [37:04] projects. See you.
+- [37:06] [Music]

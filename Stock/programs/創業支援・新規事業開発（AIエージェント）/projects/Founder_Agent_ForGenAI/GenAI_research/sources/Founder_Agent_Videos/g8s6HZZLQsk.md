@@ -1,0 +1,1114 @@
+---
+title: "Hey guys, I was just able to compete in Google's second episode of the AI Agent Bakeoff, which is a ..."
+video_id: "g8s6HZZLQsk"
+video_url: "https://www.youtube.com/watch?v=g8s6HZZLQsk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Anthropic"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  Hey guys, I was just able to compete in
+  Google's second episode of the AI Agent
+  Bakeoff, which is a fivehour challenge
+key_points:
+  - "Google's second episode of the AI Agent"
+  - "Bakeoff, which is a fivehour challenge"
+  - "helpful tips that you can copy and steal"
+  - "chance to watch the entire episode that"
+  - "here in this video as well. And because"
+  - "you guys are awesome, I'm going to be"
+  - "down the description below so you can"
+  - "building out this agent project so you"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: g8s6HZZLQsk
+
+- URL: https://www.youtube.com/watch?v=g8s6HZZLQsk
+- Retrieved at: 2025-12-30T14:38:15+09:00
+
+## Text
+
+- [00:00] Hey guys, I was just able to compete in
+- [00:02] Google's second episode of the AI Agent
+- [00:05] Bakeoff, which is a fivehour challenge
+- [00:08] where we had to build a brand new
+- [00:10] Agentic banking application in just
+- [00:13] under 5 hours. And thanks to enough
+- [00:15] caffeine and the right strategies, I was
+- [00:18] able to win with my partner. So, in
+- [00:20] today's video, I want to break down
+- [00:22] those exact strategies I used into five
+- [00:24] helpful tips that you can copy and steal
+- [00:27] for your own workflows to build better
+- [00:29] and faster agent workflows for your own
+- [00:31] applications. Also, if you haven't had a
+- [00:33] chance to watch the entire episode that
+- [00:35] Google just produced where we're all
+- [00:37] competing and building out the best
+- [00:38] agents, I definitely recommend you
+- [00:40] checking out that full video. I'll have
+- [00:41] a link to it down in the description
+- [00:42] below. But don't worry, I'll still give
+- [00:44] you guys a quick recap of all the
+- [00:46] important things as we break it down
+- [00:47] here in this video as well. And because
+- [00:49] you guys are awesome, I'm going to be
+- [00:50] giving away the entire source code for
+- [00:52] the project I built during the bake off
+- [00:54] completely for free. Just click the link
+- [00:56] down the description below so you can
+- [00:57] get access to the front-end application,
+- [00:59] plus all the different agents that I
+- [01:01] built under the hood. But enough of
+- [01:02] that. Let's go ahead and dive into
+- [01:04] breaking down everything that went into
+- [01:06] building out this agent project so you
+- [01:08] can start to copy my tips and tricks for
+- [01:09] building real world agents. All right.
+- [01:11] So, what I want to do is paint the
+- [01:13] picture of exactly what we were getting
+- [01:15] ourselves into in this competition
+- [01:17] because in a matter of five hours, we
+- [01:19] had to go from a list of instructions,
+- [01:22] requirements, all the way to a
+- [01:23] full-blown working application that we
+- [01:25] could show off to the judges. So, I just
+- [01:27] want you guys to see how much we had to
+- [01:29] do in 5 hours because you're going to
+- [01:32] see, man, this is an insane amount of
+- [01:33] work and the only way I was able to get
+- [01:35] it done is by doing like AIdriven
+- [01:37] development. So, that's exactly what I'm
+- [01:39] going to be sharing with you guys in the
+- [01:40] five tips section, but I just want to
+- [01:41] paint a picture of what did we have to
+- [01:43] build, what did we build, and then the
+- [01:45] rest of the video, I'm going to show you
+- [01:46] how we got there. So, let's break down
+- [01:48] what we were tasked with doing because
+- [01:50] this was a ton of fun, but stressful
+- [01:53] because we had so much to build in such
+- [01:55] short time. So, we had to create a
+- [01:57] multi- aent system that builds the
+- [01:59] future of personal finance. Now, what
+- [02:01] does that actually mean? Well, we needed
+- [02:03] to build out a beautiful UI where users
+- [02:06] could go in and engage with agents. We
+- [02:09] had to make sure that our agents we were
+- [02:11] building offered proactive guidance to
+- [02:13] help people accomplish their major life
+- [02:15] goals for budgeting, doing vacations.
+- [02:17] Outside of that, we needed to make sure
+- [02:19] that our agents were intelligent. So,
+- [02:21] not only did we need to include chat
+- [02:23] bots where people could actively talk to
+- [02:25] these agents, but we had to add in
+- [02:27] workflows that automated a lot of the
+- [02:29] works that people would normally go do
+- [02:31] when like planning a trip and stuff like
+- [02:32] that. Outside of that, just like you
+- [02:34] would have to do in Top Chef where
+- [02:36] you're like instructed to go make a
+- [02:37] certain type of dish. Well, you have to
+- [02:40] use certain ingredients as well. So,
+- [02:42] inside of the bake off, we had to use
+- [02:44] certain ingredients such as or in our
+- [02:45] case certain technologies such as agent
+- [02:47] development kit. We had to use the agent
+- [02:49] agent protocol and we had to use Gemini
+- [02:51] API. So this was a ton of fun. But what
+- [02:53] I want to do is just break down like
+- [02:55] let's actually get really concrete and
+- [02:57] let me show you exactly what Google was
+- [02:59] basically asking us to build. So at the
+- [03:02] end of the day, here's what Google was
+- [03:03] saying. They're saying, "Hey, we already
+- [03:05] have an existing bank. It's boring. It's
+- [03:07] an old bank, but this bank does come
+- [03:09] with a backend and a front end, but most
+- [03:11] importantly, this bank comes with an
+- [03:13] agent. And as time goes on, agents
+- [03:16] become more powerful and more prevalent.
+- [03:17] Agentto agent protocol is going to
+- [03:19] become huge where you are going to have
+- [03:21] agents that are going to be talking to
+- [03:23] other agents inside of companies to
+- [03:25] where they do all the work and basically
+- [03:27] make things magic for us. So what Google
+- [03:29] was asking us to do inside this
+- [03:31] competition is to build out everything
+- [03:33] that you see right here in 5 hours.
+- [03:36] Meaning we had to create a custom
+- [03:38] application and we had to for each one
+- [03:41] of the main topics that we were asked to
+- [03:43] do like working with financial
+- [03:45] statements, helping people plan their
+- [03:47] goals, you know, a bunch of like
+- [03:49] analyzing perks that might be available
+- [03:50] to the customers inside the bank. Like
+- [03:53] we had to build out agent workflows for
+- [03:55] each one of these, which is insane for 5
+- [03:57] hours. Not only that, but we had to
+- [03:59] figure out how to connect our agents to
+- [04:01] the bank's agent and we were able to do
+- [04:03] that thanks to the A2A protocol. So, as
+- [04:05] you can see, this was a ton of work, but
+- [04:07] let me actually just show you a quick
+- [04:08] overview of the application that was
+- [04:10] built. So, you can see, you know, this
+- [04:11] is what me and my partner built in 5
+- [04:14] hours. So, super super powerful and
+- [04:17] super super proud of what we built. So,
+- [04:18] this is a full-blown application. So,
+- [04:21] you can see we have multiple tabs to
+- [04:23] help people achieve their different
+- [04:24] goals. So, we have in each one of these
+- [04:27] pages correlates to different agents and
+- [04:29] agent workflows. So, you can see we have
+- [04:31] spending. So inside this we have a
+- [04:34] spending agent workflow where we had an
+- [04:36] agent go off and analyze the person's
+- [04:38] income, expenses, recent activities.
+- [04:40] Outside of that we also had a you know a
+- [04:43] other agent that was responsible for
+- [04:46] asking and answering questions on
+- [04:48] everything that you see on this page. So
+- [04:50] as you can see like this was a ton of
+- [04:52] work that had to get done in multiple
+- [04:54] hours. So this is one part, this is
+- [04:56] another part and this gets repeated on
+- [04:58] every single page. And this was the way
+- [05:01] I wanted to structure building out the
+- [05:02] application. Definitely recommend you
+- [05:04] checking out the full episode so you can
+- [05:05] see how other people tackled it. But
+- [05:07] once again, super excited for it to work
+- [05:09] and just to show you guys, you can see
+- [05:10] like what did I spend the most on this
+- [05:12] month? This is triggering off an agent
+- [05:14] that's asking questions over here about
+- [05:16] what was spent on. So you can see the
+- [05:18] most expensive thing that we did last
+- [05:20] month was rent and you can see it right
+- [05:22] here. So yeah, all around like it's a
+- [05:24] working application. You can try it out.
+- [05:26] You'll learn a ton of cool insights on
+- [05:28] how we set up the agents to actually
+- [05:29] handle working with Ato. So yeah,
+- [05:32] there's a ton inside of here. I won't go
+- [05:34] super super deep into actually how
+- [05:36] everything was built. I definitely
+- [05:38] recommend you guys hopping inside of
+- [05:40] here and just asking AI like, "Hey,
+- [05:42] please walk me through this." There's a
+- [05:44] ton of cool really interesting places
+- [05:45] that you can use to jump start your own
+- [05:47] full stack AI development journey. But
+- [05:49] what I want to mostly focus on is how
+- [05:52] the heck were we able to build
+- [05:54] everything that you see over here in
+- [05:57] five hours from all the agents to the
+- [05:58] full stack application to the agents
+- [06:00] having tools to do a like this was a
+- [06:02] monster task and I want to show you how
+- [06:04] we did it in 5 hours and I'm going to
+- [06:06] break it down right now in five tips
+- [06:08] that you guys can copy. So the first tip
+- [06:09] I want to share with you guys is the
+- [06:11] concept of an AI reference project. Now,
+- [06:14] this one tip alone is the single most
+- [06:17] important tip that allowed me to go and
+- [06:19] build out this full stack AI application
+- [06:22] in a matter of 5 hours instead of 5 days
+- [06:25] or more, truthfully. And the best way to
+- [06:28] fully understand this tip, and don't
+- [06:29] worry, I'm going to share examples of
+- [06:30] how I actually did it. But the main
+- [06:32] thing that you need to understand before
+- [06:34] diving into what is an AI reference
+- [06:37] project, you need to understand the new
+- [06:39] job promotion you just got thanks to AI
+- [06:41] agents. So you are now an AI developer.
+- [06:45] You're no longer a software developer.
+- [06:46] You're an AI software developer. What
+- [06:49] that means is at this point you should
+- [06:51] probably never be writing a single line
+- [06:52] of code again. I have not written a
+- [06:54] single line of code in probably close to
+- [06:57] 2 years at this point. What I have been
+- [06:59] doing though and what I recommend you
+- [07:00] guys to do and exactly what I did in
+- [07:02] this competition is I provided context
+- [07:05] to AI agents. What that means is I'm
+- [07:08] telling AI here's what you should be
+- [07:10] doing. Here's why you should be doing
+- [07:11] it. And ideally, here is an example of
+- [07:15] how you should do it. And that's what
+- [07:17] really what I mean by AI reference. We
+- [07:19] are referencing existing working code
+- [07:22] and different projects so that we can
+- [07:24] just go exponentially faster. So, let me
+- [07:27] break down a little bit more what the
+- [07:28] role means and then I'm going to break
+- [07:30] down exactly how to apply and explain
+- [07:32] what AI reference projects are. Okay.
+- [07:33] So, here's what I mean. At this point,
+- [07:35] our job is to provide context to AI
+- [07:37] agents. We're not coding anymore. If
+- [07:38] you're coding, you're going slow. So
+- [07:40] what do we need to be doing as AI
+- [07:42] software developers? Well, our job is to
+- [07:44] know what exists. So what does a ad ADK
+- [07:47] do? What does A2A do? What is possible
+- [07:49] with these frameworks? What can I do
+- [07:51] with ADK? What can't I do with ADK? When
+- [07:53] it comes to A2A, what does it allow
+- [07:56] agents to do? And also more importantly,
+- [07:59] we need to know where can I find working
+- [08:01] samples and examples of these different
+- [08:04] frameworks. So, is there a example
+- [08:07] project of ADK working properly? Is
+- [08:09] there a working example of ADK using A2A
+- [08:13] properly? Because if there is, there's
+- [08:15] no reason for me to actually, you know,
+- [08:17] type out and explain and manually type
+- [08:19] out, all right, new function, go get
+- [08:22] this, you know, card from this other
+- [08:24] agent. No, what I should be doing is I
+- [08:26] should be passing that information over
+- [08:28] to AI and say, hey, AI, I know that this
+- [08:31] tool can do it. Here's an example of
+- [08:33] another project doing what I want. and I
+- [08:35] would like you to tweak it for our use
+- [08:36] case. That is what we should be doing in
+- [08:39] the world of being AI developers. And
+- [08:41] this is exactly what I did to crank out
+- [08:44] five days work of work in 5 hours. So
+- [08:47] let me give you a concrete example. In
+- [08:48] our case, as you saw, we have to build
+- [08:50] out an ADK application that has a full
+- [08:53] stack application using ADK where ADK is
+- [08:56] using A2A to talk to the bank agent. So
+- [09:00] my whole job going into this competition
+- [09:02] knowing my new role as a AI developer is
+- [09:05] I'm like man I have to get smart on what
+- [09:07] ADK can do. I have to get smart on
+- [09:09] finding example projects. So when it is
+- [09:11] game time I can say and just hey agents
+- [09:14] go to work. Here's exactly what I want
+- [09:15] you to build. So what does this actually
+- [09:17] mean inside of your projects? Like what
+- [09:20] should you be doing? Well what you
+- [09:22] should be doing is you should be
+- [09:24] preparing your projects to have a
+- [09:26] reference folder. This reference folder
+- [09:28] is combined with every type of project
+- [09:30] reference that you can find. So you
+- [09:32] should be looking up and adding in
+- [09:34] existing applications. So in my case,
+- [09:36] I've already built out A2A applications
+- [09:39] in the past. I have found a ton of ADK
+- [09:43] documents that explain exactly what you
+- [09:46] can and can't do. I have projects of ADK
+- [09:50] for building out tons of different
+- [09:52] projects. So these are all different
+- [09:53] projects that Google has created to
+- [09:56] showcase the different powers of agents.
+- [09:58] Outside of that, there is other agents
+- [10:01] where there's projects that showcase how
+- [10:03] to use ADK plus A2A. So my job at this
+- [10:07] point, heck, there's even an A2A samples
+- [10:09] repository that shows exactly how to use
+- [10:12] ADK plus A2A. So my job is just to go
+- [10:16] search the internet and I'm going to use
+- [10:18] AI to do it. But I'm going to go search
+- [10:19] all example projects and basically
+- [10:22] prepare and stack the deck in my favor
+- [10:24] when I'm going to start a new project.
+- [10:25] So whenever it's time to hit go, I
+- [10:27] already have a thousand repositories of
+- [10:30] projects that explain exactly what
+- [10:32] functionality we need to build. So in
+- [10:34] our case when it comes to building out
+- [10:36] this application all I'm basically
+- [10:38] saying is like hey I would like you to
+- [10:41] look at project one where they connected
+- [10:44] their ADK agents to ATA. I would like
+- [10:46] you to look at project two where they
+- [10:48] connected ADK to the front end. And when
+- [10:51] it comes to project three I would like
+- [10:53] you to look at how they built out multi-
+- [10:56] aent workflows where they had agent one
+- [10:58] work with agent two to then spit out a
+- [11:00] result. So, I'm hoping you guys can see
+- [11:02] at this point the kicker here is we just
+- [11:04] need to be basically understanding what
+- [11:07] is possible and then just having like
+- [11:09] you know in our heads just a bunch of
+- [11:11] like little memories of like I remember
+- [11:13] that did that I remember that did that.
+- [11:14] So whenever it comes time to coding, we
+- [11:16] can just pass all this into our
+- [11:18] projects, specifically inside of our
+- [11:20] reference folder, and then let our
+- [11:22] agents do the work. Because the agents,
+- [11:23] they're so smart. The second they see
+- [11:25] the code from here and the code from
+- [11:27] this other project, they'll go, "Oh
+- [11:28] yeah, I can copy that for your new
+- [11:30] project. That's going to be so easy.
+- [11:31] Thank you for providing the necessary
+- [11:33] context so I can implement exactly what
+- [11:35] you want." So I'm hoping this is super
+- [11:37] helpful cuz this is the exact process I
+- [11:40] did to crank out weeks worth of work in
+- [11:42] 5 days. All right, so let's go ahead and
+- [11:43] hop over to tip number two because if
+- [11:45] you thought this one was super helpful,
+- [11:47] you're going to love tip number two.
+- [11:48] Also, if you're liking the idea of
+- [11:50] reference projects, you're absolutely
+- [11:51] going to love what we built for you
+- [11:52] inside of Shipkit.AI, which is a
+- [11:55] combination of pre-built ready projects,
+- [11:58] AIdriven courses, and everything else
+- [12:00] you need to launch AI applications in
+- [12:02] days instead of months. And just inside
+- [12:05] of Shipkit, like I said, you're going to
+- [12:07] have access to a course where you get to
+- [12:09] learn how to go from an idea. And AI is
+- [12:11] going to help you every step along of
+- [12:12] the way to go from idea to a full-blown
+- [12:14] application to deploying your
+- [12:16] application. Like I said, we have every
+- [12:18] type of common AI project you would like
+- [12:19] to use. Everything from agent
+- [12:21] development kit to rag to chat,
+- [12:23] everything. We have a full-blown
+- [12:25] pre-existing AI application that's
+- [12:27] working. You get the source code for it.
+- [12:29] You also get example walkthroughs of how
+- [12:31] I converted each one of these pre-built
+- [12:34] templates over into a custom project.
+- [12:36] And you get to see exact breakdowns of
+- [12:38] how everything works. So, Shipkit is the
+- [12:41] number one tool if you're looking to
+- [12:42] build out real world AI projects using
+- [12:45] these new technologies and tips and
+- [12:46] tricks and see exactly how I build real
+- [12:48] world applications in days instead of
+- [12:50] months. And if you're looking to get
+- [12:51] Shipkit, we're doing $50 off if you want
+- [12:53] to use code bake off. And if you have
+- [12:55] any questions, feel free, let me know.
+- [12:57] But I definitely recommend checking
+- [12:58] watching this video if you have any
+- [13:00] questions or shoot me an email. But
+- [13:01] yeah, thanks guys and let's get back to
+- [13:03] tip number two. So the second tip I want
+- [13:05] to show you guys is that you need to be
+- [13:07] talking to your computer and this
+- [13:10] absolutely broke everyone's brain at the
+- [13:12] competition because everyone else is
+- [13:14] sitting, you know, heads down, earphones
+- [13:16] in, and they're just typing as fast as
+- [13:18] they can. And I, on the other hand, am
+- [13:20] just talking to my computer saying like,
+- [13:22] hey, I think we should build this. Oh,
+- [13:24] and this needs to connect to this. And
+- [13:25] basically I'm just talking. And the way
+- [13:27] I'm able to do that is using the tool
+- [13:29] called Whisper Flow. And Whisper Flow
+- [13:31] literally just listens to you. And they
+- [13:33] have a bunch of cool tools in here to
+- [13:35] help out if you're using tools like
+- [13:37] Cursor or Claude Code where they'll also
+- [13:39] look at your files and add them in. And
+- [13:40] at this point, why I love Whisper Flow
+- [13:43] so much is because I'm able to just go
+- [13:45] as fast as I can talk. So if I can talk
+- [13:47] faster, it'll listen. If I talk slower,
+- [13:49] it'll listen. It doesn't matter. At this
+- [13:50] point, I wish I could talk and type at
+- [13:53] 122 words per minute, but my fingers
+- [13:54] just don't do it. And it's so much
+- [13:56] easier just to sit back in your chair,
+- [13:57] look up, and just describe what you want
+- [13:59] and talk and then have the AI build it
+- [14:01] for you. It's a funny thing at first,
+- [14:03] but the second you start doing it,
+- [14:04] you'll never go back to typing unless
+- [14:06] you have to like, you know, call out
+- [14:08] something specific. But just when you're
+- [14:09] trying to solve the context problem,
+- [14:11] which is what we're trying to do right
+- [14:12] now, we're trying to put as much context
+- [14:15] in our heads into the computer as
+- [14:16] possible on how to solve the problem so
+- [14:18] the agent can go off and do the work.
+- [14:19] So, the more you can talk, the more you
+- [14:21] can explain what you're looking for,
+- [14:23] what problems you're running into, and
+- [14:24] what the ideal goal state is, the better
+- [14:26] these agents are going to do. And that's
+- [14:27] why I love Whisper Flow because it
+- [14:29] breaks down that barrier of preventing
+- [14:31] me from putting more context into the
+- [14:33] system. And if you want to get uh
+- [14:35] Whisper Flow, not sponsored by them or
+- [14:37] anything like that, which I was, but I
+- [14:39] have a link in the description below
+- [14:40] where you guys can get two months for
+- [14:42] free of Whisper Flow. Absolutely love
+- [14:43] it. But what I want to show you is just
+- [14:45] Whisper Flow in action really fast. So,
+- [14:47] I can update the shortcuts on my
+- [14:49] computer to where whenever I now hit the
+- [14:51] option and spacebar. I get this to where
+- [14:54] I can just talk to my computer, it's
+- [14:55] listening in real time. You can see down
+- [14:57] here at the bottom of my screen, it has
+- [14:58] the little squiggies. And this is where
+- [14:59] I can just say like, "Hey, we're trying
+- [15:00] to solve this problem. Make sure to look
+- [15:02] up at setup.md file to see how we are
+- [15:05] trying to tackle this problem." And
+- [15:07] then, oh, by the way, this other
+- [15:08] reference project solves the exact
+- [15:10] thing. And then as soon as I'm done
+- [15:11] talking and rambling, which is totally
+- [15:13] fine to do, like you can ramble, it's
+- [15:15] totally fine. the AI will just put that
+- [15:18] in as context and boom, it'll work on
+- [15:20] solving it and it's hooked up to cursor
+- [15:22] so it knows whenever you call out a
+- [15:23] file, oh, I need to include that file.
+- [15:25] So, this thing is just insane. Now, if
+- [15:28] you want to do poor man's version of
+- [15:29] Whisper Flow, totally understand. I have
+- [15:31] a cool thing I want to show you. If
+- [15:32] you're on Mac, what you can do, you can
+- [15:35] actually go over to settings and type in
+- [15:37] the word dictation. I wish I could make
+- [15:39] this bigger, but for some reason, they
+- [15:40] don't let this get bigger. But what you
+- [15:42] can also do is update the dictation
+- [15:44] shortcut once you turn it on to hit the
+- [15:47] right command key twice and you can
+- [15:49] actually talk to the computer. So let me
+- [15:50] show you what this one looks like cuz
+- [15:52] this is also super helpful. So you can
+- [15:53] say, "Hey, I'm just trying to show to
+- [15:56] YouTube right now how cool it is to use
+- [15:58] the dictation tool where you get to use
+- [16:00] your Mac and just talk to it completely
+- [16:02] for free." And this is automatically
+- [16:03] included right out the gate when you're
+- [16:05] using Mac OS. So yeah, as you can see,
+- [16:07] this is a insanely cool tool. So, if
+- [16:09] you're not able to type at 122 words per
+- [16:12] minute, you definitely want to consider
+- [16:14] using tools like Whisper Flow or
+- [16:16] dictation so that you can get all the
+- [16:18] ideas out of your head and into the
+- [16:19] computer to help solve that context
+- [16:21] problem so that these agents can work
+- [16:23] their magic. So, yeah, that's tip number
+- [16:24] two. So, let's go ahead and hop over to
+- [16:26] tip number three. So, the third tip I
+- [16:27] want to share with you guys is the
+- [16:29] concept of building out an agent
+- [16:31] workflow digital twin. Every time I have
+- [16:34] shown someone in my free school
+- [16:36] community or inside of Shipkit this
+- [16:38] concept when they're building out
+- [16:39] multi-agent workflows, the light bulb
+- [16:41] goes off. They go, "Thank you, Brandon.
+- [16:43] I will never build agents the same, and
+- [16:46] I'm going to be using this every time
+- [16:47] going forward." So, let me explain what
+- [16:50] the digital twin concept is and how it
+- [16:52] makes building agent workflows a
+- [16:54] thousand times easier. So, I think
+- [16:55] what's best is to let's cover the
+- [16:57] problem first. So the problem is when
+- [16:59] we're building out multi- aent
+- [17:00] workflows, we're creating a bunch of
+- [17:03] different files. So for example, to
+- [17:05] build out this workflow right here to
+- [17:07] where we have a root agent where our
+- [17:09] root agent has sub agents and each sub
+- [17:11] agent has, you know, different
+- [17:13] callbacks, different tools, they might
+- [17:14] access state differently. Well, as we
+- [17:16] begin to build more and more complex
+- [17:18] workflows, these grow in files. So we
+- [17:21] are right now ending up with at least
+- [17:23] four different files where if we ever
+- [17:26] want to make a change to let's say our
+- [17:28] root agent and our root agent changes
+- [17:30] the way that it access state. So instead
+- [17:32] of writing you know here's the goal
+- [17:36] instead of writing the goal it now
+- [17:38] writes here is the task. Well every one
+- [17:41] of our sub aents that used to be looking
+- [17:43] for goal well now it needs to be looking
+- [17:45] for task. So, we accidentally just broke
+- [17:47] all of our sub aents because as we're
+- [17:50] making a change, the AI like cursor for
+- [17:52] example is going to go, "Yeah, I I'll
+- [17:54] happily update your root agent, but as a
+- [17:56] result, we accidentally break everything
+- [17:58] downstream." That's the issue. Now, here
+- [18:01] is the solution. What we end up doing is
+- [18:03] creating a digital twin that is a direct
+- [18:06] replica of our actual workflow. So you
+- [18:09] can see what we're basically doing is at
+- [18:11] a high level we're just creating a
+- [18:13] markdown file that says all right our
+- [18:15] root agent our root agent has access to
+- [18:17] these different sub aents in addition to
+- [18:19] having access to those sub aents here's
+- [18:21] the tools that it's going to do here's
+- [18:23] the overall goal and what
+- [18:24] responsibilities this agent does here's
+- [18:26] the inputs of the agent here's the
+- [18:28] outputs of the agent and we're basically
+- [18:29] just replicating what's on the left and
+- [18:31] we're putting it into a markdown file.
+- [18:32] The reason why this is so helpful is
+- [18:35] because anytime we go to actually make a
+- [18:37] change like hey your goal now is to not
+- [18:40] write the output to be like I said goal
+- [18:43] it now should be task well whenever we
+- [18:45] go to make the change now and we
+- [18:46] actually pass in this markdown file
+- [18:48] what's going to happen is our agent's
+- [18:50] going to go hey I can see you're trying
+- [18:52] to make this change but did you know
+- [18:53] you're accidentally breaking the three
+- [18:56] other agents that need this as a
+- [18:58] required input and you're going to go oh
+- [19:01] shoot thank you for telling me that I
+- [19:04] will would like you to also go update
+- [19:06] these other agents to make sure that
+- [19:08] they reflect our change. Now, that's I
+- [19:10] promise you the second you start
+- [19:11] building digital twins of your agent
+- [19:13] workflows, you're going to be like, "Oh
+- [19:14] my gosh, this used to be such a pain in
+- [19:15] the butt where I'd fix one thing and it
+- [19:17] would break four other things." But now
+- [19:18] it's working like a charm. So, and
+- [19:20] here's exactly what you need to do. You
+- [19:21] need to create, like I said, a agent
+- [19:24] digital twin. And all this agent digital
+- [19:26] twin needs to do is list out at a high
+- [19:29] level what each agent does. And every
+- [19:31] time you make a change, you're going to
+- [19:33] update this file. So this file is going
+- [19:35] to include, like I said, the name of the
+- [19:36] agents, what they do, what tools,
+- [19:37] callbacks, and everything else. And then
+- [19:39] outside of that, you also just want to
+- [19:41] list like the highlevel overview of what
+- [19:44] each like how do all the agents connect.
+- [19:46] And you want to just basically keep
+- [19:47] replicating everything that's done over
+- [19:49] here and actually just replicate it over
+- [19:51] in your digital twin. You can definitely
+- [19:53] create yourself. It's already included
+- [19:54] in Shipkit. But this one change right
+- [19:56] here, every person that has started to
+- [19:57] create digital twins inside of their own
+- [20:00] workflows, they never go back cuz the
+- [20:02] second you just it works flawlessly and
+- [20:05] you get to move a thousand times faster
+- [20:07] and you can build more complex workflows
+- [20:09] because everything's stable. And when
+- [20:11] you make a change, you know where else
+- [20:13] that change is going to cause impacts
+- [20:14] downstream and you can fix it down
+- [20:16] there, too. So, promise you guys,
+- [20:18] digital twin is an absolute cheat code
+- [20:20] if you're building out agent workflows.
+- [20:22] All right, let's go ahead and hop over
+- [20:23] to tip number four. So the fourth tip
+- [20:25] that I want to share with you guys is
+- [20:26] that you need to train AI to work with
+- [20:29] your tech stack. This is one of the
+- [20:31] biggest unfair advantages that you could
+- [20:33] have to code a thousand times faster
+- [20:35] than everyone else because while
+- [20:38] everyone else is, you know, working on
+- [20:40] implementing a feature and their agents
+- [20:41] are adding mistake after mistake after
+- [20:43] mistake and they're just going in a
+- [20:45] circle saying, "Please AI, stop messing
+- [20:47] up. Just build the feature. You're
+- [20:49] already on the 10th feature and you're
+- [20:50] already done with the project and on to
+- [20:52] the next." And the way we're able to do
+- [20:54] that is once again by training AI to
+- [20:56] work on textX. So let me just give a
+- [20:58] quick noob verse pro because I'm hoping
+- [21:00] this is going to make sense when we
+- [21:01] click it in. But how noobs usually use
+- [21:04] these different tools like cursor and
+- [21:06] cloud code is they open up a new chat
+- [21:08] and they say hey AI please create me a
+- [21:10] new ADK agent that's going to make a
+- [21:12] tool call to get the weather. Now
+- [21:15] they're going to hit enter. They're like
+- [21:16] hell yeah I have AI working for me. And
+- [21:18] then all of a sudden it's going to come
+- [21:20] up with honestly I have no idea what
+- [21:22] because ADK was not released in 2024
+- [21:26] when the training cut off was for all
+- [21:28] these models. So you're basically just
+- [21:30] having AI in no man's land trying to do
+- [21:32] something it doesn't know how to do. So
+- [21:34] it's just going to produce something.
+- [21:35] Good luck. I doubt it'll work. So what
+- [21:37] we want to do is we want to train AI to
+- [21:41] implement and actually know how to work
+- [21:44] with our tech stack. And the way we do
+- [21:46] that is we create something called a
+- [21:47] task template. This is basically just an
+- [21:50] expert who knows everything about the
+- [21:52] tech stack that we're using. And this
+- [21:54] expert is going to generate tasks. So
+- [21:56] like if we were thinking about this in
+- [21:57] the terms of people, we're basically
+- [21:59] having an expert. This expert is going
+- [22:01] to produce documents where these
+- [22:03] documents provide the exact
+- [22:05] step-by-steps instructions on what code
+- [22:08] changes need to be made to actually get
+- [22:10] the desired functionality that we want
+- [22:12] inside of our codebase. So this is the
+- [22:14] expert. The expert's going to produce
+- [22:16] the task document and the task document
+- [22:18] is what's going to be used to implement,
+- [22:20] oh, we need to change this file and we
+- [22:22] need to change this file. So that's what
+- [22:23] we do. Now, how the heck do you make an
+- [22:25] AI and train AI to be an expert at it?
+- [22:28] Well, it's actually not that hard and
+- [22:30] I'll show you an example um right now.
+- [22:32] So this is what a task template looks
+- [22:35] like. It is nothing more than a list of
+- [22:38] instructions on how to use a specific
+- [22:41] technology. And ideally what it's trying
+- [22:43] to do is take in the desired
+- [22:45] functionality that you're trying to
+- [22:46] build. It understands the text stack in
+- [22:48] and out and all the mistakes to avoid.
+- [22:51] And then it's just going to write all of
+- [22:53] the functionality to say, "Hey, when
+- [22:55] we're trying to add the new feature that
+- [22:56] they're asking for." Cool. Yeah, I'll
+- [22:58] happily make that task and I'll do it
+- [23:00] well cuz I know exactly what to avoid
+- [23:02] and what mistakes to not make. And that
+- [23:04] way whenever you go to make the code
+- [23:05] change, this code change is actually
+- [23:06] just going to be perfect. So here's what
+- [23:08] it looks like and I'll show you how to
+- [23:09] make one yourself in just a second. But
+- [23:12] basically this document just contains
+- [23:14] all of the common features and
+- [23:17] functionalities that we'd want to do.
+- [23:18] We've basically standardized writing
+- [23:20] code. So what you want to do is you want
+- [23:22] to say hey when you're working with ADK
+- [23:25] you need to make sure that you can fully
+- [23:27] analyze the current project from
+- [23:29] beginning to end. So it needs to
+- [23:30] understand the structure of an ADK
+- [23:32] project which usually starts with a root
+- [23:34] agent and a root agent has sub aents. In
+- [23:36] addition to that, it has tools. In
+- [23:38] addition to that, it has libraries. In
+- [23:41] addition to that, like there's a, you
+- [23:42] know, it basically just needs to know
+- [23:43] the common structure of an ADK
+- [23:45] application. From there, it needs to
+- [23:46] understand what is what problems we're
+- [23:49] actually trying to solve. From there, it
+- [23:52] needs to understand some technical
+- [23:54] requirements about like what actually
+- [23:56] goes into building out ADK applications.
+- [23:59] So, it needs to know like, hey, here's
+- [24:02] what you should do when you're trying to
+- [24:03] add a callback. Here's what are all the
+- [24:05] types of callbacks there are. Here's
+- [24:07] what you should never do when trying to
+- [24:09] add callbacks. And you know, this is
+- [24:11] just like a long long document that
+- [24:13] describes all the best practices of
+- [24:15] working with a specific technology. Now,
+- [24:18] they're not that hard to make. And
+- [24:19] that's what I want to show you right now
+- [24:21] so that you can basically train your own
+- [24:23] AI specialist so that when you're trying
+- [24:26] to work on a task, you can easily knock
+- [24:28] it out. So, here's what we have done.
+- [24:30] We're trying to create an ADK task
+- [24:32] template. And this is the genius on the
+- [24:34] tech stack. And the whole purpose of
+- [24:36] this genius is to create task documents.
+- [24:39] These task documents once again they
+- [24:40] just contain the instructions on how to
+- [24:43] update the code. Now so you can see an
+- [24:45] example of this. I just made one for you
+- [24:48] guys. And let's look at this. So here's
+- [24:50] an example of a task where a task just
+- [24:53] describes, hey, you're trying to in our
+- [24:55] case add the weather like we showed
+- [24:57] earlier. So your goal is to do this.
+- [24:59] Here's the goal. Now here is what you
+- [25:02] need to do. You need to understand the
+- [25:03] tool that you're working with, the
+- [25:05] models, the different files that exist.
+- [25:07] So the current state and basically just
+- [25:09] keep going on from there on what changes
+- [25:12] need to be made, the current state of
+- [25:13] the application and you know it also is
+- [25:16] going to include all the instructions
+- [25:18] and it's automatically going to do a
+- [25:20] good job because it knows not to do A
+- [25:21] but it needs to do B. Now here's what
+- [25:24] you can do to make your own task
+- [25:25] basically your task genius because this
+- [25:26] thing is the most important part to help
+- [25:28] you go a thousand times faster. So what
+- [25:30] you need to do is you need to say and
+- [25:32] create a brand new markdown file and say
+- [25:35] hey you are a specialist at ADK. Go use
+- [25:38] context 7 to learn as much about this
+- [25:41] technology as you can and your whole
+- [25:43] goal is I'm going to give you an input
+- [25:45] of what problem I'm trying to solve. And
+- [25:48] your job is to create a task document
+- [25:50] that includes all the code changes. And
+- [25:52] then what you do is once you have V1 of
+- [25:55] this task template set up, you take it
+- [25:57] for a run. you take it for a spin and
+- [25:58] you say, "Hey, please go add the weather
+- [26:01] to this specific agent." And it's going
+- [26:03] to come up with a task that looks just
+- [26:05] like this to where it's going to go
+- [26:07] update the weather. And then you're
+- [26:08] going to apply that task and say, "Cool,
+- [26:11] I'm going to go update the agent now."
+- [26:12] And to start, it's going to fail. It's
+- [26:14] going to write garbage code cuz it's
+- [26:17] it's learning. And you're going to say,
+- [26:18] "Hey, you made this mistake. Never make
+- [26:22] this mistake again." Then you're going
+- [26:23] to say, "Hey, make sure you add some
+- [26:26] instructions in this task template to
+- [26:28] avoid this mistake. Here's what you did
+- [26:29] wrong. Here's what you should have
+- [26:30] done." Then you do it again. And now
+- [26:32] it's going to make a new task to add a
+- [26:34] new tool to an agent. And you're going
+- [26:36] to apply that task again to the code,
+- [26:38] and it's going to do better, but it's
+- [26:40] going to hit another error. And you're
+- [26:41] going to go, "Hey, you actually forgot
+- [26:43] to add context to the tool call. So
+- [26:46] there was no way for us to save the
+- [26:48] state of the weather to global state."
+- [26:50] So once again, you made a mistake.
+- [26:53] Please, ADK genius expert, never make
+- [26:55] this mistake again. Please update your
+- [26:58] instructions. And then you're going to
+- [26:59] keep going through this over and over
+- [27:01] and over again in a feedback loop until
+- [27:04] you end up with what I'm calling the
+- [27:06] task template that is responsible for
+- [27:08] creating the task until this thing can
+- [27:09] make task perfectly every time. So
+- [27:12] you're going to go through this over and
+- [27:13] over and over again. And you want to do
+- [27:14] this for every technology stack. You can
+- [27:16] do this for ADK, Nex.js, everything. And
+- [27:18] eventually what's going to happen is
+- [27:20] when you go to implement a new code
+- [27:21] change, the task document is going to be
+- [27:24] perfect and golden and exactly implement
+- [27:26] the exact thing that you want. And it's
+- [27:28] going to write perfect code whenever it
+- [27:29] comes to actually implementing the
+- [27:30] change. And that is what's going to
+- [27:32] allow you to just move faster and build
+- [27:35] out real functional code way quicker
+- [27:37] than everyone else who's constantly
+- [27:38] like, "Please AI, please work." And they
+- [27:41] wonder why it doesn't work. And it's
+- [27:42] because like it was never trained on
+- [27:44] their tech stack in the first place. So,
+- [27:45] of course, it doesn't have context on
+- [27:47] how to solve the problem. So, hopefully
+- [27:49] seeing this workflow in action is super
+- [27:51] helpful because this is exactly what I
+- [27:53] have done every time I go to work on a
+- [27:55] new project. It does take some time
+- [27:57] upfront to, you know, build out these
+- [27:59] types of task templates, but the second
+- [28:01] you put up the upfront work of maybe a
+- [28:02] few hours, you're going to move faster
+- [28:04] for the rest of time. So, I definitely
+- [28:06] recommend checking out, you know,
+- [28:08] building out your own ADK task
+- [28:09] templates. If you have questions, always
+- [28:11] feel free to drop into a free school
+- [28:12] community. I'd be happy to go deeper
+- [28:14] with this with you guys. So you can make
+- [28:15] your own or we always have these in
+- [28:17] shipkit so you can grab them there too.
+- [28:18] But yeah, thanks guys and we're going to
+- [28:19] go ahead and head over to test number
+- [28:21] five which is where we really put some
+- [28:23] gas on to cranking out code a thousand
+- [28:25] times faster. And I'm excited to show
+- [28:27] you this next one as well. All right, so
+- [28:28] the fifth tip that I wanted to share
+- [28:30] with you guys is that you should be
+- [28:32] doing parallel AI development to move as
+- [28:35] fast as possible in building out your AI
+- [28:38] projects. Now what does this actually
+- [28:39] mean? Well, it means inside of tools
+- [28:43] like cursor, cloud code, windsurf, you
+- [28:45] should be opening up multiple tabs at
+- [28:47] the same time to work on different
+- [28:50] features at the same time. And what this
+- [28:52] means is, you know, we're going to kick
+- [28:53] off this job right here. While that
+- [28:55] guy's working, we're going to trigger
+- [28:57] off this one. While that one's working,
+- [28:58] then we're going to trigger off this
+- [29:00] one. So, we basically have multiple
+- [29:01] tasks running at the same time to start
+- [29:03] building out our application. And by
+- [29:05] implementing this, we are going to go so
+- [29:07] fast it feels like cheating. Now, what
+- [29:10] does this like? How do you do this in
+- [29:11] practice? And why should we be doing
+- [29:12] this? Let's go why first. Well, if you
+- [29:15] were at a corporate company and let's
+- [29:17] imagine you are the boss. Well, if you
+- [29:20] had literally unlimited employees, it
+- [29:23] would be silly to say, I'm only going to
+- [29:26] allow employee number one to make code
+- [29:28] changes. That's it. He's the only
+- [29:30] employee that's allowed to make code
+- [29:31] changes, and I'm going to wait for this
+- [29:33] employee or intern to get back to me
+- [29:35] before I do anything else. Like it would
+- [29:37] be silly to build out an application
+- [29:39] literally just one small feature after
+- [29:41] another. Especially when most of the
+- [29:43] time when building out applications
+- [29:45] there's some stuff that you could make
+- [29:47] changes to on the front end while at the
+- [29:49] same time you could also probably make
+- [29:51] some changes to the backend for another
+- [29:52] feature or a new bug fix. Or if there's
+- [29:55] multiple pages of your application,
+- [29:57] there's nothing stopping you from
+- [29:58] working on this page and this page at
+- [30:01] the same time. Or if you're doing agent
+- [30:03] development, there's nothing stopping
+- [30:04] you from working on agent one. And while
+- [30:06] that's taking 1 to 3 minutes to
+- [30:08] implement, there's nothing stopping you
+- [30:10] from working on agent two at the same
+- [30:11] time to where you are like the main
+- [30:14] concept I'm trying to get across here is
+- [30:16] like you are the boss and there's the
+- [30:19] best way to be working is to think about
+- [30:21] it this way to where you are saying hey
+- [30:23] intern one you know it is your job to go
+- [30:26] work on this task. I know you're going
+- [30:28] to need some time so go off and do it.
+- [30:30] While you're working on that, I'm going
+- [30:31] to call in another intern. And this
+- [30:34] other intern is going to work on the
+- [30:35] next feature. And I'm just going to
+- [30:37] continually do this over and over again
+- [30:39] for as many features as I can handle in
+- [30:42] parallel. Like what's crazy is the
+- [30:44] bottleneck in this workflow is us. It's
+- [30:47] how many tasks we can, you know, keep up
+- [30:49] with in our heads at the same time. So
+- [30:51] like you'll see me in the bake off to
+- [30:53] where I'm saying like you'll see this
+- [30:55] throughout the episodes where I'm like,
+- [30:56] "Hey, go make this change on the front
+- [30:57] end." Oh, okay. Agent two, it's doing
+- [31:00] this wrong. It should be doing this.
+- [31:01] Okay, cool. For some reason, something's
+- [31:03] going wrong when it comes to our login
+- [31:05] page before we can go to the
+- [31:06] application, work on this. And I'll
+- [31:08] literally do this in parallel. I'll have
+- [31:09] like five or six tabs working at the
+- [31:11] same time. And then as soon as I'm done,
+- [31:13] you know, looking at the task, cuz
+- [31:14] that's the kicker. The intern does the
+- [31:16] work and reports back to us the code
+- [31:18] change and we quickly sign off on that
+- [31:20] code change and then kick it off to the
+- [31:22] next thing or we say, "Go make this
+- [31:24] change." So we're constantly in in a new
+- [31:28] paradigm as an AI developer. We're
+- [31:30] providing context saying go work on this
+- [31:32] and reviewing. Those are our two jobs.
+- [31:34] Context and review. And you know to
+- [31:37] review obviously you kind of need to
+- [31:38] know a little bit about like the tech
+- [31:40] stack and what's good code, what's
+- [31:41] what's not good code. And you need to
+- [31:43] understand like is this the actual
+- [31:45] desired functionality and were any
+- [31:47] mistakes made? But as long as you can
+- [31:49] just quickly review these code changes,
+- [31:51] you can work on many tasks in parallel.
+- [31:53] and our brains in the amount of
+- [31:55] different tasks we can handle, we become
+- [31:57] the bottleneck. But what's crazy though
+- [31:59] is we're working on four tasks at the
+- [32:01] same time. So like truthfully me, I do
+- [32:03] this all the time now. I feel like I'm
+- [32:05] entering the matrix when I'm doing this,
+- [32:06] but I'm getting a week's worth of work
+- [32:09] done in a day by following this because
+- [32:12] I'm doing five things at the same time.
+- [32:14] So this is it's just a mind-blowing tip
+- [32:17] and I cannot recommend you guys enough
+- [32:18] to do this. And so basically when you
+- [32:20] kind of start stacking everything that
+- [32:22] we've talked about today on top of each
+- [32:23] other, you guys are going to be
+- [32:25] unstoppable. So, you know, when you guys
+- [32:27] are using Whisper Flow to actually talk
+- [32:31] to your computer, you're going to be
+- [32:33] typing faster. So, you know, in this
+- [32:35] case, you're going to be typing at, you
+- [32:36] know, 122 words per minute. Also, you're
+- [32:38] going to be using in your own case,
+- [32:41] you're going to be using task templates,
+- [32:44] which are specialist at implementing
+- [32:46] code. So these task templates are going
+- [32:48] to make sure that you write quality code
+- [32:50] to implement the desired feature. So
+- [32:52] you're going to be inputting stuff
+- [32:53] faster to the computer. When the agents
+- [32:56] are working, they're going to be doing
+- [32:57] better work. In addition to that, you
+- [32:59] guys are also going to be working in
+- [33:01] parallel at the same time on multiple
+- [33:03] different tasks. So you're like
+- [33:06] multiplying your efforts as well. And
+- [33:08] these just all stack on top of each
+- [33:10] other one at a time. And when you are
+- [33:13] working on task, you also have a ton of
+- [33:15] AI reference projects that basically
+- [33:18] call out exactly the desired
+- [33:20] functionality that you wanted in the
+- [33:22] first place. So between the task
+- [33:24] templates and the reference projects, my
+- [33:26] god, you guys are going to be moving so
+- [33:27] fast. So this is one of the ways to
+- [33:29] where I was able to in the bake off was
+- [33:31] one of the only people that was able to
+- [33:33] actually build and complete everything
+- [33:36] in the 5-hour allocation and have a
+- [33:38] working project to show at the end of
+- [33:39] it. And the only way I was able to get
+- [33:41] it done is to follow these exact
+- [33:43] strategies that I've been sharing with
+- [33:44] you guys today. So, I'm hoping you've
+- [33:46] had the light bulb moment and you're
+- [33:48] like, man, I want to implement these so
+- [33:50] bad. And I think the best way to get
+- [33:52] started, like I said, I have the free
+- [33:53] school community. I would hop over. We
+- [33:55] have weekly free coaching calls every
+- [33:57] Tuesday at 600 p.m. Eastern time. Would
+- [34:00] love to help you guys. If you have any
+- [34:01] questions on any of this, walk you
+- [34:03] through exactly how you can use some of
+- [34:05] this inside of your own applications and
+- [34:07] your own workflows. Super happy to help.
+- [34:09] and we have a ton of awesome other AI
+- [34:11] developers on the call. So, I think
+- [34:12] you'll really like to get to meet a lot
+- [34:14] of developers who are on the same
+- [34:15] journey because we're all learning and
+- [34:17] getting better at the same time. But
+- [34:18] yeah, that is the five tips that I think
+- [34:20] you guys should definitely be
+- [34:21] implementing to help you build a
+- [34:23] thousand times faster when trying to
+- [34:25] crank out real world AI projects. So, I
+- [34:27] hoped you guys enjoyed seeing all the
+- [34:29] behindthe-scenes tools, tips, and tricks
+- [34:31] on how I was able to crank out the
+- [34:34] projects for the ADK agent bake off and
+- [34:37] was able to win the whole thing. I had
+- [34:39] an absolute amazing time. Shout out to
+- [34:41] Google for hosting such an amazing
+- [34:42] event. And quick reminders, you can
+- [34:44] download all the source code for the
+- [34:46] completed project that I did at the bake
+- [34:48] off completely for free. Just click the
+- [34:50] link down description below. You can
+- [34:52] also I have a ton of 80K related content
+- [34:55] right here on this channel. everything
+- [34:56] from an ADK master class, do some deep
+- [34:59] dives into voice agents, rag agents, so
+- [35:01] many other tips and tricks on ADK. So, I
+- [35:04] definitely recommend checking out those
+- [35:05] on the channel. And I also recommend you
+- [35:08] checking out the school community I have
+- [35:10] for you guys where you get to hop on
+- [35:11] weekly coaching calls with me and a
+- [35:14] bunch of other AI developers on
+- [35:16] everyone's on their own journey. We all
+- [35:17] work together to help make sure
+- [35:19] everyone's making progress. And if you
+- [35:20] want to jumpstart your AI development
+- [35:22] journey, I cannot recommend enough for
+- [35:24] you guys to check out Shipkit where
+- [35:26] you're going to get access to all sorts
+- [35:28] of pre-built AI projects so that you can
+- [35:30] implement a lot of the different
+- [35:32] features we talked about and tips in
+- [35:34] today's video. And if you have any
+- [35:36] questions on it, feel free to always
+- [35:37] shoot me an email at brandon@shipkit.ai.
+- [35:40] But enough of that. Let's go ahead and I
+- [35:42] recommend you checking out whichever
+- [35:43] video is popping up on the screen right
+- [35:44] now. And I cannot wait to see you guys
+- [35:45] in the next one. See you.

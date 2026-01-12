@@ -1,0 +1,952 @@
+---
+title: "Transcript: Vm8QOo9MiC4"
+video_id: "Vm8QOo9MiC4"
+video_url: "https://www.youtube.com/watch?v=Vm8QOo9MiC4"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:28:32"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: Vm8QOo9MiC4
+
+- URL: https://www.youtube.com/watch?v=Vm8QOo9MiC4
+- Retrieved at: 2025-12-30T11:10:34+09:00
+
+## Text
+
+- [00:00] So, Sor 2 has been taking the internet
+- [00:01] by storm. So, what I'm going to do today
+- [00:03] is show you guys how you can use Nitend
+- [00:04] to get 10 times the output, higher
+- [00:06] quality outputs, no watermarks, and use
+- [00:09] Sor 2 for six times cheaper than through
+- [00:11] OpenAI directly. So, Sor 2 has some
+- [00:13] really fun use cases, and I love that
+- [00:15] it's getting people who aren't super
+- [00:16] interested into AI interested in AI. But
+- [00:18] it's more than just having these funny,
+- [00:20] cool videos. Businesses and
+- [00:21] organizations are actually using Sora 2
+- [00:23] to power their creatives, their media,
+- [00:25] their content, their marketing, all this
+- [00:27] kind of stuff. Not only does it create
+- [00:29] video, but it automatically creates the
+- [00:30] audio, too. Just look at this Starbucks
+- [00:32] example.
+- [00:40] >> Starbucks. Discover your flavor.
+- [00:42] >> So, if you understand how to use this
+- [00:44] technology, not only can you save
+- [00:45] yourself or a business a ton of time,
+- [00:47] but you could make a lot of money. So
+- [00:48] anyways, today I'm going to be showing
+- [00:49] you guys step by step how to connect to
+- [00:51] SOR 2 in NADN over API, but then I'm
+- [00:53] also going to be going over these
+- [00:55] examples where you can do text to video,
+- [00:57] image to video. You can have cameos, so
+- [00:59] people like Mark Cuban or Sam Alman in
+- [01:01] your Sor 2 videos. You can create
+- [01:03] storyboards so you can lay out different
+- [01:04] scenes and have consistent characters
+- [01:05] throughout. And then I'm also going to
+- [01:07] talk about prompting. So feel free to
+- [01:09] follow along. I'm going to give you guys
+- [01:10] this entire template for free so that
+- [01:12] you guys don't have to actually go build
+- [01:13] this yourself. You can just use what I
+- [01:14] have here already. And you can access
+- [01:16] that by joining my free school
+- [01:17] community. The link for that will be in
+- [01:18] the description, but I don't want to
+- [01:19] waste any time. Let's get straight into
+- [01:20] the video. All right, so before we dive
+- [01:22] into these examples, I want to start
+- [01:24] from scratch and show you guys how I
+- [01:25] connect to Sora 2 in Naden. So the first
+- [01:28] step is to go to a platform called Key
+- [01:30] AI, which is what we were just looking
+- [01:32] at over here. It's spelled Kie.ai.
+- [01:35] In the past, you guys have seen me use
+- [01:37] foul.ai, which is a very, very similar
+- [01:38] platform. Essentially, it's just like a
+- [01:40] marketplace for all of these image and
+- [01:42] video generation models, as you can see
+- [01:44] here. But here's the key difference on
+- [01:45] price. FAL and OpenAI are charging you
+- [01:48] 10 cents per second of Sora 2 video
+- [01:50] generation whereas keys only charging
+- [01:52] you 1.5 cents per second. So it's six
+- [01:55] times cheaper to make these videos. And
+- [01:57] of course you're still getting the same
+- [01:58] quality of output if not better. If we
+- [02:01] make a 10-second video, that's only
+- [02:02] going to cost us 15. Whereas on Fowl or
+- [02:05] OpenAI, that 10-second video would cost
+- [02:06] us a dollar. Anyways, the first thing
+- [02:08] you're going to do when you get to
+- [02:09] key.ai is go to your billing information
+- [02:11] and just make sure you have some
+- [02:12] credits. You'll probably have some for
+- [02:14] free when you get in there, but
+- [02:15] otherwise just grab five bucks worth.
+- [02:16] It's going to last you a long time. And
+- [02:18] then on the lefth hand side, you can see
+- [02:19] there's a section called API key. And
+- [02:21] we'll have to use this in just a minute
+- [02:23] or so, but just remember for now, that's
+- [02:24] where it is. But anyways, I'm going to
+- [02:26] click on models market. We have all of
+- [02:28] these different providers and options we
+- [02:30] can use like Google Vo 3.1, Sora 2 Pro,
+- [02:33] and for now, I'm just going to go ahead
+- [02:34] and click on Sora 2. And so this opens
+- [02:36] up a playground environment where you
+- [02:38] could write in here start to prompt Sora
+- [02:40] 2 and get your outputs right here just
+- [02:42] to play around with how the prompting
+- [02:43] works and how the outputs look. But what
+- [02:45] we're interested in is using this over
+- [02:47] API. So I'm on Sora 2 textto video and
+- [02:49] I'm going to click on API right here.
+- [02:51] And now all we have to do is scroll to
+- [02:53] the bottom and I'm going to show you
+- [02:54] guys how we can set up a curl which
+- [02:56] makes it really really easy. You can see
+- [02:58] down here there is a request example and
+- [03:00] you make sure you're on curl and then
+- [03:01] we're going to copy this right here. I'm
+- [03:03] going to go back into Nitn. I'm going to
+- [03:05] add an HTTP request to our workflow. And
+- [03:08] I don't have to configure this method,
+- [03:10] this URL, any of this stuff. I'm just
+- [03:11] going to go ahead and hit import curl.
+- [03:13] Paste in that curl command that we just
+- [03:15] copied. And then when I import it, it
+- [03:17] basically fills out pretty much
+- [03:18] everything that we need. Now, we just
+- [03:20] have to make a few tweaks. So, the first
+- [03:22] step would be to add your API key. So,
+- [03:24] right here it says authorization and
+- [03:26] then it says bearer space API key. And
+- [03:28] so, this is where you would go back into
+- [03:30] key. You go to your API key and you'd
+- [03:33] copy this value right here. And then
+- [03:35] you're just going to paste that right
+- [03:37] there like that. And then you'd be able
+- [03:38] to access key. And this would basically
+- [03:41] access your billing information that you
+- [03:42] put in there. But because we're going to
+- [03:44] be making multiple requests to key, I
+- [03:46] don't want to copy and paste this every
+- [03:48] single time I want to make a request. I
+- [03:50] just want to save this. So what I'm
+- [03:51] going to do is I'm going to scroll up a
+- [03:52] little bit. And right here you can see
+- [03:54] authentication. I'm going to go ahead
+- [03:56] and open this up and click on generic.
+- [03:58] For generic type, I'm going to go ahead
+- [03:59] and choose header because you can see
+- [04:01] right here, this is a header parameter.
+- [04:03] And then you can see I have all of these
+- [04:04] different ones that I've already saved.
+- [04:06] You can also see that I already have one
+- [04:07] for key, but I'm just going to go ahead
+- [04:08] and make a new one with you guys right
+- [04:10] here to show you how it works. So, you
+- [04:11] click on create new credential. And
+- [04:13] remember, it's the same thing as we just
+- [04:14] saw down there. So, for the name, we're
+- [04:16] going to type in authorization. And for
+- [04:18] the value, you're going to type in
+- [04:19] capital B bearer space and then paste in
+- [04:23] your API key. And then when you go ahead
+- [04:25] and save that, now you're connected to
+- [04:27] key and you can name this credential
+- [04:29] like keyai and save that. And so now I
+- [04:32] have this saved every single time that I
+- [04:34] need to use key, which as you can see in
+- [04:36] this workflow, each one of these little
+- [04:39] workflows is one that we're going to be
+- [04:40] using key. So now I just have it saved
+- [04:43] and all I'd have to do is choose it
+- [04:44] right there rather than go back and copy
+- [04:46] my API key every time. So just a little
+- [04:47] fun trick. And then once you do that,
+- [04:49] you can just turn off the headers cuz we
+- [04:50] don't need to send our API key twice.
+- [04:52] But from here, what we have is the JSON
+- [04:54] body. And I'm just going to change this
+- [04:56] to an expression and open this up full
+- [04:57] screen so we can all look at it. So what
+- [04:59] we're looking at here is basically all
+- [05:01] of the little filters that we're sending
+- [05:03] over to Sora 2 and saying this is the
+- [05:05] type of video we want. We can see we
+- [05:07] have model is Sora 2 textto video. We
+- [05:09] have a callback URL, which I'm just
+- [05:11] going to go ahead and delete because
+- [05:12] that's an optional field. The only
+- [05:13] reason I know that's optional is because
+- [05:15] in this API documentation is what it's
+- [05:17] called. It basically shows you what you
+- [05:19] need to send over. So you can see the
+- [05:21] model that's required callback URL
+- [05:24] optional input prompt required aspect
+- [05:27] ratio optional. So you can actually go
+- [05:30] ahead and look at this API documentation
+- [05:32] and understand how you can change the
+- [05:34] behavior of the Sor2 API. So I'm not
+- [05:37] going to dive too deep into that right
+- [05:38] now. If you want to deep dive, I made a
+- [05:40] full course on that. You can go ahead
+- [05:41] and watch that video. I'll tag it right
+- [05:42] up here. Anyways, going back into Nitn,
+- [05:45] we can see that we have a prompt. We
+- [05:47] have um an aspect ratio. We have a
+- [05:49] number of frames which we can choose
+- [05:51] between 10 or 15. And then we have
+- [05:53] remove watermark true. So right here,
+- [05:55] what I'm going to do is just change this
+- [05:56] prompt. And this is turning our text
+- [05:59] into video. So I could just say a video
+- [06:01] of a young man throwing a coffee mug
+- [06:05] against the wall.
+- [06:07] So we have our JSON body ready. What I'm
+- [06:09] going to do now is hit execute step. So
+- [06:11] this just executed. It gave us a 200
+- [06:13] code which is good. It says success. And
+- [06:16] then we see our task ID is this long
+- [06:18] string. So if we go back to the
+- [06:20] documentation now, we can see what
+- [06:21] happens is when we make that request,
+- [06:23] Sora 2 or key basically says, okay, we
+- [06:26] got this request. We're working on it.
+- [06:28] And so what we need to do next is
+- [06:30] actually grab that back. So there's
+- [06:31] another endpoint right here that says
+- [06:33] query task. I'm going to click on that.
+- [06:35] And all I'm going to do is copy this
+- [06:36] curl statement once again. So the
+- [06:38] request example, I'm going to copy that.
+- [06:40] We're going to come back into NAN and
+- [06:41] we're going to add another HTTP request
+- [06:44] and once again we're just going to
+- [06:46] import that curl. And so this is going
+- [06:48] to set us up with what we need. The
+- [06:50] first thing you'll notice is that we
+- [06:51] have a task ID parameter. So basically
+- [06:53] it's saying what request are you looking
+- [06:55] to get back. So I'm going to delete this
+- [06:57] example task ID and all I have to do is
+- [06:59] drag in the task ID that we just got
+- [07:01] from the previous node. So I'll put that
+- [07:03] right there. Now that's a dynamic
+- [07:04] expression. And then the last thing you
+- [07:06] can see is once again it's sending over
+- [07:07] our API key. So, I'm just going to turn
+- [07:09] off the headers because we know we
+- [07:11] already set this up up here as a generic
+- [07:13] as a header. And then we should have our
+- [07:15] key API somewhere in here. There we go.
+- [07:18] Key AI. And so, now we're set up once
+- [07:19] again. And so, I'm going to go ahead and
+- [07:21] execute this step. And you can see when
+- [07:23] I run that, it comes back and it says,
+- [07:24] okay, the state is generating. And while
+- [07:26] this is generating, I'll just show you
+- [07:28] guys in key how you can actually check
+- [07:29] on your requests. So, if I go to my
+- [07:32] logs, you can see right now that this
+- [07:34] says it's running. And you can see my
+- [07:35] past runs have taken 195 seconds, 227
+- [07:39] seconds. So it may just take like 3 to
+- [07:41] four minutes for us. But this lets us
+- [07:42] look at all of our inputs. So we can see
+- [07:44] our prompts. We can see all of the
+- [07:46] things that we've requested from um
+- [07:48] these different models. So anyways, I'll
+- [07:50] check back in with you guys once this
+- [07:51] one is done. Okay, so I ran it again and
+- [07:53] you can now see that it says state
+- [07:54] equals success. And then down here, what
+- [07:57] we get is a result. So we got two
+- [07:59] different URLs. We got one with a
+- [08:00] watermark and one without a watermark.
+- [08:02] So, if I go ahead and copy this URL and
+- [08:05] I just basically say go to this URL, it
+- [08:07] downloads a file. And when I open up
+- [08:09] that download, this is what I get.
+- [08:12] [music]
+- [08:17] [sighs and gasps]
+- [08:19] Okay, that's pretty ridiculous. And
+- [08:22] first of all, what you'll notice is it
+- [08:23] was like it was in slow motion. The
+- [08:25] sound was a little weird. And the reason
+- [08:26] why this all happened is because we
+- [08:29] hardly prompt this thing at all. If you
+- [08:31] remember in the request that we made, I
+- [08:33] literally just said a video of a young
+- [08:34] man throwing a coffee mug against a
+- [08:36] wall. And so, you really can't expect to
+- [08:38] get a good output if you don't prompt it
+- [08:39] very well. And so, I'll talk a little
+- [08:41] bit later about prompting and how you
+- [08:42] can really get some cool outputs from
+- [08:44] Sora 2. But anyways, the point of what I
+- [08:46] just did there right up here was just to
+- [08:48] show you guys that we're making two
+- [08:49] requests. The first one we set up to
+- [08:51] say, "Hey, Sora, here's the type of
+- [08:52] video I want." The second one we set up
+- [08:54] to say, "Okay, Sora, is that video done
+- [08:56] yet? Like, can I can I see it?"
+- [08:57] Basically, so we're basically going to
+- [08:59] follow that pattern for all of these
+- [09:00] different workflows and it will start to
+- [09:02] make sense. But like I said, you'll be
+- [09:03] able to download all of this. So you'll
+- [09:05] be able to play around with it and see.
+- [09:07] The first example that we have here is
+- [09:09] turning text into video, which is kind
+- [09:10] of what we just did up here. But what I
+- [09:12] wanted to introduce to you guys is this
+- [09:14] concept of polling. So let me real quick
+- [09:16] start this request and then I'll explain
+- [09:18] what polling is. So, if you guys got
+- [09:20] into this template, all you'd have to do
+- [09:21] is go to this video prompt node. And
+- [09:23] right here, you could basically just
+- [09:25] input your video prompts of what you
+- [09:26] want to get back. So, right here, we
+- [09:28] have the default example about a
+- [09:29] professor giving a lecture and
+- [09:31] explaining that Sor 2 is live. So, what
+- [09:32] I'm going to do is execute this
+- [09:33] workflow. We're going to see this run.
+- [09:35] We can see what happened here is it made
+- [09:37] the request. So, Sor 2 is currently
+- [09:39] working on our video. Then, we have a
+- [09:41] wait node because we know this takes
+- [09:42] anywhere from, you know, 2 to 3 to 4
+- [09:45] minutes. But what you just saw happen is
+- [09:47] we checked in to see if it was done
+- [09:49] after the wait node and it's not done
+- [09:51] yet and it just happened again. So this
+- [09:53] is going to be an infinite check where
+- [09:55] it's going to every 10 seconds go ask
+- [09:57] sor 2 if it's done until we know for a
+- [09:59] fact that it is done. And this is called
+- [10:01] polling because we're constantly making
+- [10:03] checks. And this is better than just
+- [10:04] estimating and saying okay well roughly
+- [10:06] this takes 3 minutes so I'm going to
+- [10:08] just set my weight for 4 minutes to be
+- [10:09] safe. Well that could be inefficient.
+- [10:11] And also what happens if for some reason
+- [10:13] it takes five minutes and then your flow
+- [10:15] moves on and there's just a big error.
+- [10:16] So anyways, the reason why this works is
+- [10:19] because in this if node what I'm doing
+- [10:21] is if I just make this section a little
+- [10:23] bit bigger over here, the state equals
+- [10:25] generating. And what I'm doing is I'm
+- [10:27] saying if the state equals success, then
+- [10:30] we're good. And then we go up the true
+- [10:31] branch. But you can see we've had six
+- [10:33] items come through and they've all gone
+- [10:35] through the false branch because the
+- [10:37] state equals generating. There was
+- [10:39] another seventh one. So, it's a super
+- [10:40] simple conditional check. We're just
+- [10:42] looking to see if it's done or not. Now,
+- [10:44] one thing you would want to consider is
+- [10:46] potentially using a switch node because
+- [10:47] there's other states that could happen.
+- [10:49] You could get success. You could get
+- [10:51] generating. You could potentially get
+- [10:52] failed. And if you get failed, it
+- [10:54] wouldn't really know what to do here.
+- [10:55] So, if you wanted to make this more
+- [10:57] production ready, you would probably
+- [10:58] also work in a conditional check to see
+- [11:00] if the state equals failed. And that
+- [11:02] would send you some sort of notification
+- [11:04] or something like that. All right. So,
+- [11:05] that just finished up. You can see that
+- [11:06] it took 18 tries, so about 180 seconds.
+- [11:09] And then what we get at the end is our
+- [11:11] final video URL. I did a quick
+- [11:13] expression within this JSON variable to
+- [11:17] isolate just the link that we want. So,
+- [11:19] I'm going to go ahead and open this up
+- [11:20] and we'll take a look.
+- [11:21] >> And here's the exciting part. Sora 2 is
+- [11:23] now available on Kai AI, making it
+- [11:25] easier than ever to create stunning
+- [11:26] videos.
+- [11:27] >> You can experiment, iterate, and bring
+- [11:29] your wildest ideas to life right from
+- [11:31] your lap.
+- [11:31] >> Okay, I mean, that's pretty good. You
+- [11:32] can see there's dialogue. You can see
+- [11:34] there's energy. And once again, we
+- [11:35] didn't even really put any best
+- [11:37] practices with prompting into play yet.
+- [11:39] So, we'll show that near the end of the
+- [11:41] video. But let's move on to this next
+- [11:42] example, which is turning an image into
+- [11:44] video, which is really, really cool. And
+- [11:46] I think this is what unlocks tons of
+- [11:48] potential. So, what we have here is
+- [11:50] similar. When you guys get in here,
+- [11:51] you'll have an image URL. So, right
+- [11:53] here, I have this image URL, which if I
+- [11:54] open this up real quick, you can see
+- [11:56] it's a AI generated image of a fake curl
+- [11:59] cream product for your hair. And then if
+- [12:02] we go to the video prompt, you can see
+- [12:03] I'm basically saying a realistic UGC
+- [12:05] style video of a young woman with curly
+- [12:07] hair sitting in her car recording a
+- [12:08] selfie style video explaining what she
+- [12:10] loves about the product. So UGC ads is a
+- [12:13] huge use case here because that's like
+- [12:15] what converts really well nowadays
+- [12:16] online on Tik Tok shop, stuff like that
+- [12:18] is just real authentic people holding
+- [12:21] something with a selfie style, you know,
+- [12:23] video and just saying, "This product is
+- [12:24] awesome. This is why I love it." And so
+- [12:26] imagine you have a product and you can
+- [12:27] just pump out five organic videos like
+- [12:30] that every single day without hiring
+- [12:32] actors or anything like that. So what
+- [12:34] I'm going to do is just go ahead and run
+- [12:35] this workflow and then we'll dive into
+- [12:37] once again how it's working. So you can
+- [12:39] see we have the polling flow set up very
+- [12:40] similar to the way we had it up here.
+- [12:42] The only difference really is in this
+- [12:44] HTTP request to key is we have the video
+- [12:48] model which is not text to video. Now
+- [12:50] it's imageto video. We have the prompt
+- [12:52] once again, but now we have a section
+- [12:54] called image URLs. We're sending over
+- [12:55] that public image which the model will
+- [12:57] use as reference. So in our final video,
+- [13:00] it should be holding the product that
+- [13:01] looks exactly the same as our source
+- [13:02] image. As you can see here, I said
+- [13:04] nothing about the product from the
+- [13:05] source image should change. It should
+- [13:07] appear exactly as given. We're also
+- [13:09] telling Sora that the woman in the video
+- [13:10] should say, "I absolutely love this curl
+- [13:12] cream. It keeps my hair bouncy, curly,
+- [13:14] and lightweight all day long. You guys
+- [13:15] have to try it." So you can have full
+- [13:17] control over what the AI person in the
+- [13:19] video is saying. You could also control
+- [13:21] their accent and their tone and their
+- [13:23] style, that kind of stuff, too. Just
+- [13:25] keep in mind that for this image URL, it
+- [13:27] has to be a publicly accessible file.
+- [13:29] So, it can't be local. And then for
+- [13:30] aspect ratio, we said portrait, and
+- [13:32] that's pretty much the only difference
+- [13:33] because we want it to be like a Tik Tok
+- [13:34] or an Instagram reel style. So, this is
+- [13:37] running. This is doing its polling
+- [13:38] check. And I will check in with you guys
+- [13:40] once it is finished up. All right, we
+- [13:42] just got that one back. Let's go ahead
+- [13:43] and take a look at this video.
+- [13:45] >> I absolutely love this curl cream. It
+- [13:48] keeps my hair bouncy, curly, and
+- [13:49] lightweight all day long. You guys have
+- [13:52] to try it.
+- [13:53] >> Okay, that's insane. If you guys see
+- [13:55] what happened here at the end, she puts
+- [13:58] it near the camera and this looks pretty
+- [14:00] much identical to the source image that
+- [14:02] we had. It has the same font. It has all
+- [14:04] of the words looking really good and it
+- [14:06] has that little logo. One thing you'll
+- [14:07] notice though about Sora 2 right now is
+- [14:09] that the first like millisecond will be
+- [14:11] your source image. Right now, there's
+- [14:13] just not great support for this, but I
+- [14:14] imagine that will be fixed very, very
+- [14:15] soon. But you can see there's the
+- [14:17] original image and then there's the
+- [14:18] product appearing in the video. So it's
+- [14:20] like pretty much the exact same. One
+- [14:21] other thing that you may notice is if
+- [14:23] you want to do image to video with Sora
+- [14:25] 2, you can't have it be a person in the
+- [14:28] image. It will basically tell you we
+- [14:30] can't do this because it's a realistic
+- [14:32] looking person. even if that person is
+- [14:33] AI generated, unlike V3 where you could
+- [14:36] give it an AI generated person holding
+- [14:37] your product in case you wanted that to
+- [14:39] be like your brand ambassador on all of
+- [14:41] your videos and then V3 could take that
+- [14:43] image of the person holding the product
+- [14:45] and turn that into a video and that
+- [14:46] would help you sort of like leaprog over
+- [14:48] the issue with the first millisecond
+- [14:49] being the source image, but that's very
+- [14:52] easy to crop out. But anyways, I think
+- [14:53] that those UGC content use cases are
+- [14:55] super cool because you could basically
+- [14:57] just keep generating those and it will
+- [14:59] be a new person every time and it will
+- [15:00] look and feel very real and it will look
+- [15:02] good for your brand. And once again,
+- [15:04] that would only get better if you
+- [15:05] actually prompted it with best
+- [15:07] practices. Okay, so this next thing is
+- [15:09] really cool. This is using cameos, which
+- [15:11] basically means you can use famous
+- [15:13] people's faces and likeness in your
+- [15:15] videos. So on the Soru app, it's kind
+- [15:17] of, you know, like a social feed and
+- [15:19] people have profiles. So, if I went here
+- [15:21] and I searched Sam A, this is going to
+- [15:23] pull up Sam Alman's profile. And you can
+- [15:24] see here in his profile, if I go to
+- [15:26] cameos, we can see all of the times that
+- [15:28] people have made videos with Sam in
+- [15:30] them. And all we have to do to use Sam's
+- [15:32] cameo because he made it publicly
+- [15:33] accessible to people is we just copy his
+- [15:35] username, which is Sam A. So, in our
+- [15:37] Cameo example here, I have Sam A
+- [15:40] recording a selfie style video in a car
+- [15:42] explaining how Gravity works in two
+- [15:43] short sentences. So, let's go ahead and
+- [15:45] run this one. And it's going to do the
+- [15:47] same polling flow and everything like
+- [15:48] that. Keep in mind you can also use
+- [15:50] cameos in your um image to video
+- [15:54] generations as well. Right now I'm just
+- [15:56] doing a text to video to keep it simple.
+- [15:57] But one thing you may notice with cameos
+- [15:59] is Sora 2 may be a little bit more
+- [16:01] restrictive. So I tried doing some
+- [16:03] crazier prompts or I tried throwing in
+- [16:05] some other cameos like Shaq and Mark
+- [16:07] Human and it was kind of rejecting my
+- [16:09] prompts. So it just may be a little bit
+- [16:11] sensitive especially right now
+- [16:12] especially with so many people using
+- [16:14] cameos and using Sora 2. So just keep
+- [16:16] that in mind. Anyways, I will check in
+- [16:17] with you guys once this is done polling
+- [16:19] and once our video has been generated.
+- [16:21] All right, looks like we got that done.
+- [16:23] I'm going to go ahead and download this
+- [16:24] video and we'll see what Sam has to say
+- [16:27] for us. So, here we go.
+- [16:28] >> Everything with mass pulls on everything
+- [16:31] else. That pull makes things fall toward
+- [16:35] Earth. [laughter]
+- [16:36] >> Okay, that was kind of ridiculous, but
+- [16:39] looked like him, sounded like him. we
+- [16:41] maybe just would want to prompt that a
+- [16:43] little bit better so he doesn't sound
+- [16:44] like he wants to die because I literally
+- [16:46] just said a selfie style video in a car
+- [16:48] explaining how gravity works in two
+- [16:49] short sentences. And what's cool is you
+- [16:51] can go ahead and create an account on
+- [16:52] Sora and you know do the process of
+- [16:54] setting up your own cameo and then you
+- [16:56] could use that in your automations. So
+- [16:58] you can have you know an avatar of
+- [16:59] yourself on your social media and you
+- [17:01] can just generate all these videos. So
+- [17:03] very cool stuff. All right, so now let's
+- [17:05] look at another really cool feature
+- [17:06] which is the storyboards. And to explain
+- [17:08] how this works, I'm real quick going to
+- [17:09] actually switch back to KAI and we're
+- [17:12] going to click on right here Sora 2 Pro
+- [17:15] storyboard. And for those of you
+- [17:16] wondering, we see Sora 2 text to video,
+- [17:18] Sora 2 Pro text to video. Honestly, I
+- [17:20] haven't seen a huge difference. And for
+- [17:22] the cost, how cheap Sora 2 regular is on
+- [17:25] KAI, I would just stick with this for
+- [17:27] now. But if maybe you do start to scale
+- [17:29] up the system and you want all of your
+- [17:31] content going out on Tik Tok or
+- [17:32] Instagram and you want to use Pro, then
+- [17:34] go for Pro. But anyways, for the
+- [17:35] storyboard, how this works is you're
+- [17:37] able to set different scenes. And like I
+- [17:40] said, you can have consistent characters
+- [17:41] within those scenes. And you're able to
+- [17:43] allocate a different amount of time per
+- [17:45] scene as long as it adds up to the total
+- [17:48] duration, which you can choose between
+- [17:49] 10, 15, or 25. But as you can see, it
+- [17:52] has to allocate correctly across the
+- [17:54] three scenes. So anyways, what I would
+- [17:56] do is I would go ahead and copy the
+- [17:58] request example once again like you guys
+- [17:59] saw in the demo. And what I did here was
+- [18:01] I set this up so you guys could
+- [18:02] basically put in an image URL. And then
+- [18:05] you could have three different scenes.
+- [18:07] So this image, as you can see, is an AI
+- [18:09] generated image of a curious,
+- [18:11] adventurous frog. And then our three
+- [18:13] scenes are basically that frog finding
+- [18:15] treasure and jumping around in the
+- [18:16] forest. So we're going to go ahead and
+- [18:18] run this. I will say I have sometimes
+- [18:20] had a 500 internal server error from key
+- [18:24] when I've been trying to do these
+- [18:25] storyboards, but we're going to go ahead
+- [18:26] and give it a try. So I'll execute the
+- [18:27] workflow. It's going to run our prompts
+- [18:29] through this request. It's going to go
+- [18:30] ahead and do the polling feature. And I
+- [18:32] will also say when I've done storyboards
+- [18:34] in the past, it's taken anywhere from
+- [18:36] like 500 to 700 seconds rather than just
+- [18:40] like, you know, your typical 180 to 250.
+- [18:43] So, this one may take a little bit
+- [18:45] longer, but I'll just check in with you
+- [18:46] guys and see if it worked or not. All
+- [18:48] right. So, while this one's running, I
+- [18:49] thought it would be a good opportunity
+- [18:50] to just talk about prompting because
+- [18:52] this has taken 740 seconds and I've just
+- [18:54] been sitting here staring at it and I'm
+- [18:56] getting bored. So, let's talk about
+- [18:57] prompting a little bit. So, there are
+- [18:59] people right now that are making a lot
+- [19:00] of money by going into like marketing
+- [19:02] departments and teaching them how to
+- [19:04] prompt Nanobanana, which is one of
+- [19:06] Google's image generation models and
+- [19:08] things like Sora 2 or Google V3. Because
+- [19:11] if you understand how to prompt these
+- [19:12] things and you can make high quality
+- [19:14] like UGC ads or VFX ads or scenes for
+- [19:17] movies and TV, whatever it is, there's a
+- [19:20] lot of money in that space because it
+- [19:22] costs so much money to get drones out
+- [19:24] there or have all the mics and you have
+- [19:26] to make sure the weather's correct when
+- [19:27] you're doing all of this in real life.
+- [19:29] And so, if you can just generate these
+- [19:30] scenes with good prompting, like I said,
+- [19:33] it's a really, really cool opportunity.
+- [19:35] So, I'm not a prompting expert when it
+- [19:36] comes to these creative generation
+- [19:39] models, but what I do know is there are
+- [19:41] certain things that you want to have in
+- [19:44] your video prompts. So, here is a very
+- [19:46] very basic highle prompt that I have for
+- [19:48] this AI agent that's going to take our
+- [19:50] raw input, optimize it, and then shoot
+- [19:52] it off to Sora 2. So, I'm sort of going
+- [19:54] to skim over this, but you guys will be
+- [19:55] able to access this for free when you
+- [19:57] download the free template. And so what
+- [19:58] I have here is you are an expert AI
+- [20:00] video prompt engineer trained to design
+- [20:02] optimized prompts for Sora 2. Your role
+- [20:05] is to take a raw input concept and
+- [20:07] transform it into a highly detailed
+- [20:09] video prompt. So this agent needs to
+- [20:11] always describe the main subject like
+- [20:12] appearance, clothing, age, gender,
+- [20:14] expression, and motion. The setting, so
+- [20:17] what's the location, what's in the
+- [20:18] background, what's the lighting like?
+- [20:19] What's the time of day? All this kind of
+- [20:21] stuff. The camera style, so the angle,
+- [20:23] the lens, the type of video, if there's
+- [20:24] any camera movement, all of that stuff
+- [20:26] really matters. The idea is that the
+- [20:28] prompt should sound like a professional
+- [20:30] cinematographer describing a shot to an
+- [20:32] actual like visual effects team. So
+- [20:34] anyways, this agent will take a raw
+- [20:35] input and transform it. So what I'm
+- [20:38] actually going to do is I'm going to
+- [20:39] stop this generation because we will be
+- [20:41] able to check on that in our key
+- [20:42] dashboard right here. You can see this
+- [20:44] one is still running. And what I'm going
+- [20:46] to do is drag this down here and run
+- [20:49] this one. And so if you remember what we
+- [20:51] did earlier with our texttov video
+- [20:53] prompt which was up here we had the one
+- [20:55] of the professor saying to its students
+- [20:57] that sor 2 is available on key. We have
+- [21:00] that exact same system prompt. So this
+- [21:01] is the exact same raw input that we gave
+- [21:03] earlier. And now what we're having the
+- [21:05] agent do is take that raw input and make
+- [21:07] it better and optimized for sore 2. So
+- [21:10] you can see now we get this huge input.
+- [21:12] We get a lively cinematic classroom shot
+- [21:15] as a sequence of natural documentary
+- [21:17] style coverage that highlights a
+- [21:18] charismatic professor and the engaged
+- [21:20] students. We've got a wide shot which is
+- [21:22] 24 mm tripod dolly. We later have medium
+- [21:26] twoshot which is 35mm gentle handheld.
+- [21:29] We've got a different type of reaction
+- [21:30] cutins with 50 mm. We've got the um
+- [21:33] quote right here. We have lip sync. We
+- [21:35] have all of this kind of stuff. It even
+- [21:37] gives us the overall tone, directorial
+- [21:39] notes, all of this stuff. So now what's
+- [21:41] happening is that got sent off to Sora 2
+- [21:44] as you can see and it tells us that once
+- [21:46] again it's generating this message and
+- [21:48] so I'll check in with you guys when this
+- [21:49] one has been completed and we'll compare
+- [21:51] it to that video that we had earlier.
+- [21:52] All right, so this one finished up. It
+- [21:54] was a bigger prompt so it took a little
+- [21:55] longer. It took about 300 seconds. So
+- [21:57] first let's watch the original one that
+- [21:59] had no prompting, just the raw input.
+- [22:01] >> And here's the exciting part. Sora 2 is
+- [22:03] now available on Kai AI making it easier
+- [22:05] than ever to create stunning videos.
+- [22:07] >> You can experiment, iterate, and bring
+- [22:08] your wildest ideas to life. Okay, nice.
+- [22:11] So, that's still not bad, right? But
+- [22:13] look at this one. Because we had the
+- [22:15] best practices of prompting worked in,
+- [22:17] >> Sora 2 is now available on KA AI, making
+- [22:21] it easier than ever to create stunning
+- [22:23] videos.
+- [22:26] All right, so I hope you could tell that
+- [22:27] the second one felt a lot more cinematic
+- [22:29] and there was different shots and there
+- [22:30] was like different scenes going on in
+- [22:32] there. So, I just thought that that's
+- [22:33] pretty cool. And once again, the idea is
+- [22:35] all you have to do is give it the raw
+- [22:36] input and then the AI agent that you
+- [22:38] prompt to specialize in making it into a
+- [22:41] video prompt is going to take care of
+- [22:42] that for you. And so, yes, it's nice
+- [22:44] that we have kind of like a highlevel
+- [22:46] here are some good practices for
+- [22:47] prompting. But what you would do is when
+- [22:50] you have your specific use case, like
+- [22:51] let's say it's your UGC ads, on top of
+- [22:53] giving it just these basic rules, you
+- [22:56] would come in here and really tailor
+- [22:57] this towards specifically UGC content
+- [23:00] video prompting. And as you refine that
+- [23:02] prompt and make it better and better,
+- [23:04] your outputs are just going to get
+- [23:05] better and better as well. So, for
+- [23:06] example, and just to sort of hint at a
+- [23:08] future video that may be coming, you
+- [23:09] could have a Google sheet like this
+- [23:11] where you have a product photo of your
+- [23:13] own product, you have just the ICP, you
+- [23:16] have the features of the product, and
+- [23:17] you have a video setting, and that's all
+- [23:19] you have to give it. And then your AI
+- [23:21] agents in NN could take all of that and
+- [23:23] make the optimized script, make the
+- [23:25] optimized video prompt, and then you're
+- [23:27] just getting all of these UGC content
+- [23:28] videos pumped out automatically because
+- [23:30] you could have 10 coming out a day, 10
+- [23:32] coming out an hour, however many you
+- [23:34] want. Okay, so the storyboard video that
+- [23:37] we generated together live here, it took
+- [23:40] 35 minutes, but it did finish up. So,
+- [23:42] let's go ahead and give it a quick
+- [23:43] watch.
+- [23:47] >> [music]
+- [23:59] >> Okay. So, that's pretty funny. You can
+- [24:01] see what it did though is it was able to
+- [24:03] use our image URL that we provided right
+- [24:06] here. So, this is the character that we
+- [24:08] wanted it to be and it was consistent
+- [24:09] throughout the three scenes. it would
+- [24:11] now just be a matter of making these
+- [24:12] prompts a little bit better because all
+- [24:13] of these prompts had, you know, not
+- [24:15] really the elements that we discussed as
+- [24:17] far as lighting, background, camera
+- [24:20] movement, camera style, all that kind of
+- [24:21] stuff. But hopefully now you can just
+- [24:22] get a sense of how those storyboards
+- [24:24] work and how you can control the scenes
+- [24:26] and timing to create some consistent
+- [24:28] character videos. The final thing I want
+- [24:30] to talk about here is doing some data
+- [24:31] cleanup. So something that you guys
+- [24:33] didn't see that happened in this step up
+- [24:35] here was our AI agent output this prompt
+- [24:39] with new lines. So we had new lines and
+- [24:41] then also down here you can see we had
+- [24:44] double quotation marks and both new
+- [24:46] lines and double quotes will break the
+- [24:48] JSON body request. So as a best practice
+- [24:51] you can use these expressions which I'll
+- [24:53] show you guys in a sec in your request
+- [24:55] to Sora 2. So in this body request you
+- [24:59] can see I don't just have the output.
+- [25:01] Let me actually just delete this real
+- [25:02] quick. So this is the output of the
+- [25:04] agent and on the right hand side is the
+- [25:06] result. So you can see there's new lines
+- [25:08] here which would break this. And then
+- [25:10] also we have our wherever they are
+- [25:12] somewhere down here. Right here we have
+- [25:14] the double quotes. Sor 2 is now
+- [25:16] available on KI. And so when we put in
+- [25:18] this little expression, it's basically
+- [25:20] replacing those new lines. As you can
+- [25:21] see, they got chopped off. And I'm not
+- [25:23] going to be able to find it again now,
+- [25:24] but the double quotes would have been
+- [25:26] removed as well. And that's how you make
+- [25:27] sure no matter what your AI agent
+- [25:29] outputs, because sometimes they'll throw
+- [25:30] in new lines and double quotes even if
+- [25:32] you prompt them not to, you can
+- [25:33] basically get rid of that no matter
+- [25:34] what. And so what I wanted to show real
+- [25:36] quick is if I run this setup down here,
+- [25:38] so you guys can kind of just isolate
+- [25:40] those variables and look at it. We have
+- [25:42] right here we have new lines. So this is
+- [25:44] line one, this is line two, this is line
+- [25:45] three, and then we have another text
+- [25:47] over here with double quotes that says
+- [25:48] pizza pizza. And if we run this second
+- [25:50] one, we have the replace function up
+- [25:52] here to get rid of new lines. And then
+- [25:53] we have the replace function here to get
+- [25:55] rid of the double quotes. And now you
+- [25:56] can see on the right hand side they're
+- [25:57] both coming out completely clean. So
+- [25:59] that's how those replace function works.
+- [26:01] And then you can basically just copy
+- [26:02] these and save them. So whenever you
+- [26:04] need to use that replace you've got it
+- [26:05] right here. The last thing I wanted to
+- [26:07] talk about is errors. When you're maybe
+- [26:09] getting a failure in your sore video
+- [26:12] generations. So here are some failures
+- [26:14] that I got. You can see all of these
+- [26:15] have error code 500 which means there's
+- [26:17] something internally going on and that's
+- [26:19] why it errored. And by internally I mean
+- [26:21] on the key or sor 2 on the server side
+- [26:24] of things. So, this could mean that
+- [26:26] they're getting way too many requests
+- [26:27] and there's just an issue. It could mean
+- [26:29] that AWS blacked out and they're down or
+- [26:31] something like that. But it could also
+- [26:33] mean that your content is being
+- [26:35] restricted because maybe you put
+- [26:37] something in there that is automatically
+- [26:38] getting flagged and they're just
+- [26:39] basically rejecting you. So, here's an
+- [26:41] example of a Sor 2 Pro storyboard that I
+- [26:43] did and you can see it got rejected.
+- [26:45] Internal error. I'm not exactly sure
+- [26:47] why. But then here's another Soru
+- [26:49] storyboard that I did and it was
+- [26:50] successful and this one took um almost 7
+- [26:53] minutes. So, this was the highle video
+- [26:55] of different ways that you can use sore
+- [26:56] 2. If you guys have some specific use
+- [26:58] cases that you'd want to see me build an
+- [27:00] automation for or certain agents for,
+- [27:02] then definitely let me know down below.
+- [27:03] I'd love to bring some more Sor 2 and
+- [27:05] some VO 3.1 content for you guys cuz I
+- [27:07] think this creative AI space is super
+- [27:09] cool. And once again, you guys can
+- [27:10] download this entire template and get
+- [27:12] all of this stuff so you can play around
+- [27:13] for completely free. All you have to do
+- [27:14] is join my free school community. The
+- [27:16] link for that is down in the
+- [27:17] description. When you join this free
+- [27:18] school community, all you have to do to
+- [27:20] find that is go to YouTube resources or
+- [27:22] search for the title of this video. And
+- [27:24] in that post associated with the video,
+- [27:27] you'll find the JSON right here. And you
+- [27:29] just have to download that JSON, import
+- [27:30] it into your NADN, and then this exact
+- [27:33] workflow will pop up. There will also be
+- [27:34] a setup guide over here that shows you
+- [27:36] like what you need to connect and all
+- [27:37] that kind of stuff. And if you're
+- [27:38] looking to dive deeper with AI
+- [27:40] automations and connect with over 200
+- [27:42] members who are learning every day and
+- [27:43] building businesses with AI every day,
+- [27:45] then definitely check out my plus
+- [27:46] community. The link for that is also
+- [27:47] down in the description. Like I said,
+- [27:49] it's a super supportive community of
+- [27:51] members who are building businesses and
+- [27:52] sharing what they're learning. And we
+- [27:54] have three full courses. We have Agent
+- [27:55] Zero, which is the foundations of AI
+- [27:57] automation for beginners. We've got 10
+- [27:59] hours to 10 seconds where you learn how
+- [28:01] to identify, design, and build
+- [28:02] time-saving automations. And then for
+- [28:04] our annual members, or if you've been
+- [28:06] with us for 6 months, we've got
+- [28:07] oneperson AI automation agency where we
+- [28:10] start to talk about how you can actually
+- [28:11] get in front of business owners and
+- [28:12] start to sell these solutions. On top of
+- [28:14] that, we also have one live Q&A per week
+- [28:16] where I get to just basically talk to
+- [28:18] you guys and have some pretty fun
+- [28:19] discussions. So, I'd love to see you
+- [28:20] guys in those calls. I would love to see
+- [28:22] you in these communities. But that's
+- [28:23] going to do it for today. So, if you
+- [28:25] enjoyed the video or you learned
+- [28:26] something new, please give it a like. It
+- [28:27] definitely helps me out a ton. And as
+- [28:29] always, I appreciate you guys making it
+- [28:30] to the end of the video. I'll see you on
+- [28:32] the next one. Thanks so much everyone.

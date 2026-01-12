@@ -1,0 +1,219 @@
+---
+title: "Transcript: Wr0AsdR-I3k"
+video_id: "Wr0AsdR-I3k"
+video_url: "https://www.youtube.com/watch?v=Wr0AsdR-I3k"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:07:40"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: Wr0AsdR-I3k
+
+- URL: https://www.youtube.com/watch?v=Wr0AsdR-I3k
+- Retrieved at: 2025-12-30T11:14:50+09:00
+
+## Text
+
+- [00:00] There are many agentic AI frameworks out
+- [00:02] there and we are going to talk about
+- [00:04] some of the no code and with code
+- [00:06] frameworks. In with code frameworks
+- [00:08] we'll discuss agno, langraph, crewi etc.
+- [00:11] In no code will quickly review nit and
+- [00:14] make. Let's talk about eggno. It's very
+- [00:16] lightweight and super fast framework to
+- [00:19] build agentic application. If you want
+- [00:21] to build an agent that performs really
+- [00:23] fast and also you want to save on your
+- [00:26] development time then agno should be
+- [00:27] your choice. You can see that creating
+- [00:29] agent is is as easy as writing this one
+- [00:32] line where you specify model then tools
+- [00:35] then instructions and when you run this
+- [00:37] code it will write a report on Nvidia.
+- [00:40] So see I run this code and it will write
+- [00:43] a comprehensive report on Nvidia. Eggno
+- [00:48] comes up with lot of tools. So uh if you
+- [00:50] look at their tools you will see they
+- [00:55] have so many different tools integrated
+- [00:57] say Discord, email, Gmail like Slack
+- [01:00] whatever and then they also have this
+- [01:02] MCP integration. So if you want to use
+- [01:05] some of the existing MCP servers, you
+- [01:08] can just import MCP tools and you can
+- [01:11] use that MCP tool as a tools argument in
+- [01:14] your agent class. And that way you can
+- [01:17] uh utilize all the MCP servers which are
+- [01:20] out there uh on the internet. They also
+- [01:22] provide knowledge, memory, reasoning or
+- [01:25] whatever support you need to build a
+- [01:27] reliable agent. On their GitHub, you can
+- [01:29] check some of their performance
+- [01:30] statistics. they have compared it with
+- [01:32] langraph and you will see based on this
+- [01:35] statistics agno is super fast. The
+- [01:38] second one is langraph which is a
+- [01:40] reliable multi-step custom workflow
+- [01:43] framework. So if you want to build
+- [01:45] something really custom
+- [01:47] multi-step
+- [01:48] workflow which is very reliable then
+- [01:50] langraph should be your choice. Langraph
+- [01:53] is part of langchain ecosystem.
+- [01:55] Langchain is one of the most popular
+- [01:57] library out there when you talk about
+- [02:00] building LLM application. So Langraph
+- [02:03] obviously is very popular. It is being
+- [02:05] used by many companies. Uh Langchain and
+- [02:08] Langraph have one issue which is they
+- [02:10] release a new version and it will be
+- [02:11] sometimes backward incompatible. So I
+- [02:14] know some of my friends who are working
+- [02:16] with this and they were getting
+- [02:17] extremely frustrated with this backward
+- [02:19] incompatible change. But now they have
+- [02:21] improved you know they are also becoming
+- [02:23] mature and this is the framework that
+- [02:25] you must know if you are building agent
+- [02:28] AI applications. Here I want to also
+- [02:30] show you the code for lang graph where
+- [02:33] you can build this kind of stateful
+- [02:36] graph. Okay this is a simple graph but
+- [02:38] you can have a complex graph and you can
+- [02:40] orchestrate your work via this graph.
+- [02:43] There can be retry, there can be
+- [02:45] feedback loop. Okay. So this can build a
+- [02:48] reliable agent with multi-turn approach
+- [02:51] for you. Then comes crew AI. This is
+- [02:54] useful especially when you are building
+- [02:56] multi- aent systems with orchestration.
+- [02:59] So here I have a sample code where I
+- [03:02] have created a crew. So crew means
+- [03:05] multiple agent right. So here in the
+- [03:07] crew class you will specify both of your
+- [03:09] agent. You will also specify task which
+- [03:12] it will execute in sequence. Okay. And
+- [03:15] if you look at agent there is a research
+- [03:16] agent and there is a writer agent. Okay.
+- [03:19] And also you have tools here. See here
+- [03:22] you have ser dev tool. So now you
+- [03:24] specify all these agents as a crew.
+- [03:27] Okay. So crew is mainly for building
+- [03:29] multi- aent system where you specify
+- [03:32] crew which is individual agents and they
+- [03:34] will work together to perform set of
+- [03:37] task. Then comes Google ADK and open
+- [03:39] AIDK. Google ADK provides tight GCP uh
+- [03:44] integration. I have a friend who is a
+- [03:46] head of chatbot division in a company
+- [03:48] here in US that uses Google mainly.
+- [03:51] Okay, they use Vortex, they use Google
+- [03:54] cloud. So for companies which are deep
+- [03:56] into Google ecosystem, it makes sense
+- [03:58] that you use Google ADK. But one
+- [04:01] downside of Google and even OpenAI ADK
+- [04:04] is that these ADKs are designed
+- [04:06] specifically for their LLM. So open AI
+- [04:09] ADK will have a very good integration
+- [04:11] with OpenAI models. But let's say using
+- [04:13] open AI ADK if you want to integrate
+- [04:15] with Google model or let's say claude
+- [04:17] model I mean they will provide support
+- [04:19] but I don't think it is in their best
+- [04:21] interest to provide integration with
+- [04:23] some third party LLMs right so because
+- [04:25] of this vendor lockins what I personally
+- [04:28] like is some kind of opensource model
+- [04:31] agnostic framework like langraph or agno
+- [04:34] you know they are not tied to a specific
+- [04:36] vendor whereas these uh frameworks are
+- [04:39] designed by specific companies and they
+- [04:41] have this interest that okay you know
+- [04:44] clients should be using their own LLMs
+- [04:46] okay so if let's say you are using open
+- [04:49] AI already like in your organization you
+- [04:52] have been using open AI you're deep into
+- [04:54] open AI ecosystem then of course you can
+- [04:56] go ahead and use it otherwise I would
+- [04:58] personally prefer using kui langraph
+- [05:01] agno etc so this is a table which will
+- [05:04] provide you a quick summary so langraph
+- [05:06] is a reliable multi-step workflow
+- [05:09] framework it is uh having these key
+- [05:13] features state machine graph memory
+- [05:14] retries and the learning curve is
+- [05:16] medium. Now if you look at the most
+- [05:18] easiest learning curve that is Agno.
+- [05:20] Okay. So if you want to build uh super
+- [05:23] fast quick agents go with Agno. If you
+- [05:26] want to build multi-step workflows with
+- [05:28] state machines you know state graphs go
+- [05:30] with lang graph. For multi- aent system
+- [05:33] go with crewi. And if you are deeper
+- [05:35] into openi or google adk
+- [05:38] google ecosystem you know in your
+- [05:40] company then you can choose one of these
+- [05:42] two. To learn some of these frameworks.
+- [05:44] I have complete tutorials. I will
+- [05:46] provide link of all these tutorials
+- [05:48] below so you can have like a complete
+- [05:50] crash course. Now talking about no code
+- [05:53] we have n and make there are many other
+- [05:56] tools out there but n is kind of very
+- [05:59] popular nowadays. So let me just show
+- [06:01] you. So n provides this kind of low code
+- [06:06] um agent building. So let's say if you
+- [06:08] are a person who doesn't know coding,
+- [06:10] you are a marketing person, you are a
+- [06:12] salesperson and you want to use drag and
+- [06:14] drop to build agentic workflows then
+- [06:17] nitn and even make.com is perfect for
+- [06:21] you. Here you're using graphical user
+- [06:23] interface. You can see see you can
+- [06:25] integrate with different platforms like
+- [06:27] HubSpot, Outlook and you know you can
+- [06:32] integrate different models like
+- [06:33] anthropic or Google Gemini you can
+- [06:35] connect with Postgress and so on you can
+- [06:38] then send a message to uh the Slack
+- [06:40] channel. So these kind of low code
+- [06:43] frameworks are making it easy for
+- [06:46] non-technical folks to build agentic AI
+- [06:48] workflows.
+- [06:50] All right folks so which framework is
+- [06:52] the best? Well, it depends. If you don't
+- [06:56] want to do coding, if you want to build
+- [06:58] agents using no code uh graphical user
+- [07:02] interface, then go with nine or make. If
+- [07:05] you want to build customized workflows,
+- [07:07] right? And uh if you want to build very
+- [07:10] fast agents, then go with agno. If you
+- [07:14] want to build uh super customized
+- [07:17] stateful agents, then go with langraph.
+- [07:20] For multi- aents, go with crew AI. And
+- [07:22] uh if you are into Google or OpenAI
+- [07:24] ecosystem uh you can choose one of these
+- [07:27] two. So based on the situation you can
+- [07:29] evaluate which framework is the best one
+- [07:31] for you. I hope you like this video. If
+- [07:33] you have any question post in the
+- [07:34] comment box below. If you if you like
+- [07:37] the content, please give it a thumbs up
+- [07:38] and share it with your friends who are
+- [07:40] learning agenti.

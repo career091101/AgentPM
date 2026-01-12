@@ -1,0 +1,289 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=z7YsP05thd0"
+video_id: "z7YsP05thd0"
+video_url: "https://www.youtube.com/watch?v=z7YsP05thd0"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=z7YsP05thd0
+  - Retrieved at: 2025-12-30T16:45:30+09:00
+  - [00:00] All right, so another pretty wild week
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=z7YsP05thd0"
+  - "- Retrieved at: 2025-12-30T16:45:30+09:00"
+  - "- [00:00] All right, so another pretty wild week"
+  - "- [00:02] in AI. Open AAI just held their annual"
+  - "- [00:05] dev day where they revealed what's"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: z7YsP05thd0
+
+- URL: https://www.youtube.com/watch?v=z7YsP05thd0
+- Retrieved at: 2025-12-30T16:45:30+09:00
+
+## Text
+
+- [00:00] All right, so another pretty wild week
+- [00:02] in AI. Open AAI just held their annual
+- [00:05] dev day where they revealed what's
+- [00:07] coming next. Basically, their future
+- [00:09] vision for ChatBT. Figure dropped a
+- [00:12] massive update to their robots, showing
+- [00:14] new capabilities that CEO Brett Adcock
+- [00:17] says could change everything. And
+- [00:20] Nvidia's Jensen Huang had some pretty
+- [00:22] shocking things to say about China and
+- [00:25] their growing advantages in the AI race.
+- [00:28] Let's get into it. All right, so
+- [00:29] starting with OpenAI's Dev Day, one of
+- [00:32] the first things they showed off was
+- [00:33] their insane user growth. They now have
+- [00:36] 800 million weekly active users, up 8x
+- [00:40] from just last year, and they're now
+- [00:43] also generating billions of tokens per
+- [00:45] minute. So yeah, demand is clearly still
+- [00:48] skyrocketing. Then they dropped the big
+- [00:50] stuff, apps inside Chachib and a brand
+- [00:53] new agent builder. Apps inside Chachib
+- [00:56] is pretty wild. It basically lets you
+- [00:59] use many apps built right inside chatbt.
+- [01:02] So instead of jumping between tabs,
+- [01:04] chatbt can now pull in tools,
+- [01:06] extensions, and even custom assistants
+- [01:09] that work directly in the chat. Think of
+- [01:11] it like chatbt slowly turning into your
+- [01:13] operating system. One that already knows
+- [01:16] your context, remembers what you've
+- [01:18] talked about, and can actually use those
+- [01:20] apps to get things done for you. Here's
+- [01:22] a quick demo. When someone's using
+- [01:24] chatbt, you'll be able to find an app by
+- [01:26] asking for it by name. For example, you
+- [01:30] could sketch out a product flow for
+- [01:32] chatbt and then say, "Figma, turn the
+- [01:34] sketch into a workable diagram." The
+- [01:36] Figma app will take over respond and
+- [01:38] complete the action. You can also then
+- [01:40] launch Fig Jam from Chatbt if you want
+- [01:42] to iterate further. We're also making
+- [01:44] apps discoverable right in the
+- [01:46] conversation. So, when a user asks for
+- [01:49] something, we can surface a relevant app
+- [01:50] as a recommendation. Maybe a user says
+- [01:53] they need a playlist for their party
+- [01:54] this weekend. Chachi BT could then
+- [01:56] recommend building it in Spotify. It's
+- [01:58] an easy way to find the right app or
+- [02:00] have the right app presented to you at
+- [02:01] the right time. And there will be a
+- [02:02] whole bunch of new ways for developers
+- [02:04] to get discovered.
+- [02:05] >> So yeah, that's the idea. Users can now
+- [02:07] interact with apps naturally inside of
+- [02:10] chatbt and it can use them contextually
+- [02:13] to actually do things for you. But the
+- [02:15] wild part is you can actually build your
+- [02:18] own even if you're not a developer.
+- [02:20] OpenAI announced something called the
+- [02:22] agent kit and at the core of it is the
+- [02:24] new agent builder. Basically, it's a
+- [02:27] visual canvas that lets anyone design
+- [02:29] and deploy their own AI agents. No
+- [02:31] coding needed. You can map out the
+- [02:33] logic, test it right there, and ship it
+- [02:36] straight into Chatbt. There's also a
+- [02:38] chat kit for embedding chat interfaces
+- [02:41] into your own apps, plus built-in eval
+- [02:44] tools so developers can track how their
+- [02:46] agents make decisions and improve over
+- [02:48] time. In short, OpenAI just made it
+- [02:51] easier than ever to build and ship AI
+- [02:54] agents. And while it's only available in
+- [02:57] preview right now, I have a feeling this
+- [02:59] is going to be huge. I mean, just think
+- [03:01] about where this is heading. Soon,
+- [03:03] anyone from indie creators to massive
+- [03:06] research teams will be able to spin up
+- [03:09] their own specialized AI agent for
+- [03:11] anything. Scientists could build agents
+- [03:14] that automate experiments or analyze new
+- [03:16] data. startups, even big companies could
+- [03:19] roll out entire customer support systems
+- [03:21] in a day, and individuals could
+- [03:24] literally have their own AI coworker
+- [03:26] customized just for them. It's really
+- [03:28] one of those updates that quietly shifts
+- [03:31] what's possible. And it kind of ties
+- [03:33] into what Sam Ultimate said during dev
+- [03:35] day about AGI feeling closer because
+- [03:38] we're already seeing glimpses of it.
+- [03:40] Models like GBT 5 Pro starting to make
+- [03:42] actual discoveries on their own. And now
+- [03:45] with agents in the mix, that progress is
+- [03:48] only going to accelerate. Check it out.
+- [03:50] >> Like many other people, I have multiple
+- [03:52] definitions of AGI. It's it's a the
+- [03:54] closer we get to it, the fuzzier concept
+- [03:57] the concept becomes. But the one thing
+- [03:59] that I care the most about, and to my
+- [04:01] like great surprise, we're finally in
+- [04:02] the moment where it's starting to
+- [04:03] happen, is when AI can do novel
+- [04:05] discovery. when AI can like expand the
+- [04:09] total human knowledge base and
+- [04:13] it's these things are very small I
+- [04:15] really don't want to overstate it but
+- [04:16] you see all these examples now on
+- [04:18] Twitter where scientists in these
+- [04:19] different fields are saying like it made
+- [04:21] a small discovery or it came up with a
+- [04:23] novel approach or it figured something
+- [04:24] out and
+- [04:27] again don't want to overstate it don't
+- [04:28] want to understate it either like this
+- [04:30] is this is like the thing and the fact
+- [04:32] that we're at the very beginning of that
+- [04:34] and that we are optimistic we'll be ble
+- [04:36] to push hard on it in the coming months
+- [04:39] and years. Like that that is a really
+- [04:42] big deal. That's probably the like
+- [04:46] AGI like thing I care about the most.
+- [04:48] >> So yeah, this is something Sam Ultman's
+- [04:50] been very vocal about, the idea of AI
+- [04:53] accelerating scientific discovery and
+- [04:56] actually coming up with its own
+- [04:57] insights. And it seems like we're
+- [04:59] finally starting to see that now, which
+- [05:01] is both extremely exciting and also kind
+- [05:04] of terrifying because, well, in literal
+- [05:07] real time, we're watching these AIs
+- [05:10] start to surpass our collective human
+- [05:12] intelligence. It's honestly wild. And
+- [05:15] Google's latest update is a perfect
+- [05:17] example of that. They just dropped
+- [05:19] Gemini 2.5 for computer use, and it's
+- [05:22] already hitting new state-of-the-art
+- [05:24] scores across multiple benchmarks. This
+- [05:27] thing doesn't just process information.
+- [05:29] It actually uses your computer to solve
+- [05:31] tasks. Like a digital coworker that can
+- [05:34] click, search, and execute commands
+- [05:36] completely on its own. These computer
+- [05:38] use agents have only been around for
+- [05:40] what, maybe 2 or 3 years. And they're
+- [05:43] already better at using a computer than
+- [05:45] a lot of people I know. Granted, a lot
+- [05:47] of old people I know. But still, the
+- [05:50] progress here is incredible. It reminds
+- [05:52] me of the progress we've seen with AI
+- [05:54] image and video models, which somehow
+- [05:57] keep pushing the boundaries of what's
+- [05:58] possible. This week, XAI dropped Grom
+- [06:01] Imagine version.9, their new video
+- [06:04] generation model with major upgrades in
+- [06:06] visual quality, motion, audio
+- [06:09] generation, and more. Now, it's no Sora
+- [06:12] 2, but it's still an impressive model
+- [06:14] all around. And what really sets it
+- [06:16] apart is that it's incredibly
+- [06:18] unfiltered. I can't even show you some
+- [06:20] of the stuff this model can generate on
+- [06:22] YouTube, but if you're on X, you've
+- [06:24] probably already seen it. It's easily
+- [06:26] the most unfiltered model I've seen, and
+- [06:29] I'm not even kidding. And now, while AI
+- [06:32] models keep getting smarter, the real
+- [06:34] world side of things is catching up
+- [06:36] fast, too. Figure just unveiled their
+- [06:39] brand new humanoid robot, Figure03, and
+- [06:42] it's a massive leap forward. It's been
+- [06:45] completely redesigned from the ground
+- [06:46] up. faster sensors, smoother movement,
+- [06:50] lower latency, and way more precise hand
+- [06:52] control. Its new tactile fingertips can
+- [06:55] detect forces as tiny as 3 g, meaning it
+- [06:59] can pick up delicate objects like an egg
+- [07:01] or handle tools with actual finesse. But
+- [07:04] it's not just about performance. This
+- [07:06] version was built for scale. They've
+- [07:08] reworked the hardware, materials, and
+- [07:11] supply chain so these robots can
+- [07:13] actually be mass- prodduced. And the
+- [07:15] wild part is Figure says this model is
+- [07:18] designed not just for factories but for
+- [07:20] homes. It's smaller, quieter, wirelessly
+- [07:23] charges through its feet, and uses
+- [07:26] softer materials, so it's safe to be
+- [07:28] around. Here's a short clip they posted
+- [07:30] that honestly feels like a glimpse into
+- [07:32] the future. Check this out.
+- [07:36] >> Hello.
+- [07:38] >> Hello, Andrea. Here is your key. You'll
+- [07:40] be in room 23. The elevators are past
+- [07:43] the door on the right. Enjoy your stay.
+- [07:50] >> So yeah, this is honestly insane, guys.
+- [07:53] I can't stress enough how transformative
+- [07:55] AI powered robotics will be. I mean,
+- [07:58] we're literally creating AI models that
+- [08:00] are smarter than us and then embodying
+- [08:03] them in robotic bodies that will
+- [08:05] eventually be better than ours, more
+- [08:07] dextrous, faster, stronger, more
+- [08:10] durable. All the above. The inevitable
+- [08:13] outcome of this feels almost obvious.
+- [08:16] Once these systems can think, move, and
+- [08:19] produce better than we can in the real
+- [08:21] world, everything about how the world
+- [08:23] operates starts to shift from jobs to
+- [08:27] the economy to society in general. Now,
+- [08:30] on a completely different note, and to
+- [08:32] wrap up this week's AI recap, Nvidia's
+- [08:35] Jensen Hang made some pretty strong
+- [08:38] comments this week about China and the
+- [08:40] global AI race. In a CNBC interview, he
+- [08:43] basically said that while the US is
+- [08:45] leading in model innovation, China is
+- [08:47] rapidly advancing on almost all other
+- [08:50] fronts. I don't think I can actually
+- [08:52] play this clip due to copyright reasons,
+- [08:54] but here is a great summary. Nvidia CEO.
+- [08:57] China way ahead on energy. US way ahead
+- [09:00] on chips. China competitive on
+- [09:03] infrastructure. China competitive on AI
+- [09:05] models. China way ahead in open-source
+- [09:08] models. US frontier models better
+- [09:10] overall though. China has lighter
+- [09:13] industrial regulation. China
+- [09:15] applications advancing fast. China's
+- [09:17] society adopts new technology faster.
+- [09:20] China has the larger government supplied
+- [09:23] non-in training data. US companies and
+- [09:26] society need to adopt AI faster. So
+- [09:29] yeah, he paints a pretty clear picture.
+- [09:31] China isn't just catching up, they're
+- [09:33] competing on almost every level. Hearing
+- [09:35] that from Jensen Huang, the guy whose
+- [09:38] chips literally power the entire AI
+- [09:40] industry should make everyone pay
+- [09:42] attention because again, this isn't just
+- [09:44] a software race anymore. It's an
+- [09:46] infrastructure race, an energy race, and
+- [09:49] maybe even a cultural one. Either way,
+- [09:52] it's clear the next phase of AI isn't
+- [09:54] just about who can build the smarter
+- [09:56] models, but who can build the world
+- [09:58] those models run in. Basically, who can
+- [10:01] build the next internet, but this time
+- [10:03] powered by intelligence, not
+- [10:05] information. Anyways, that's all for
+- [10:08] this week's AI recap. Drop a like,
+- [10:11] subscribe to stay ahead of the curve,
+- [10:12] and as always, I'll be catching you guys
+- [10:15] in the next

@@ -1,0 +1,1051 @@
+---
+title: "YouTube Video: 5SbLJNVuqR0"
+video_id: "5SbLJNVuqR0"
+video_url: "https://www.youtube.com/watch?v=5SbLJNVuqR0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Tutorial"
+summary: |
+  and deploy it end to end. So that is uh what we are going to talk about. Um so u I have not done my formal introduction uh so far right. So I am um I've been doing AI for quite some time. Um I am also...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 5SbLJNVuqR0
+
+- URL: https://www.youtube.com/watch?v=5SbLJNVuqR0
+- Retrieved at: 2025-12-30T09:38:17+09:00
+
+## Text
+
+- [00:00] and deploy it end to end. So that is uh
+- [00:04] what we are going to talk about. Um so u
+- [00:08] I have not done my formal introduction
+- [00:11] uh so far right. So I am um I've been
+- [00:14] doing AI for quite some time. Um I am
+- [00:18] also teaching uh at the University of
+- [00:21] Pittsburgh. I'm a part-time faculty
+- [00:23] member at University of Pittsburgh. um
+- [00:26] recently built uh um an agent platform
+- [00:30] called Aento and prior to that data
+- [00:33] science dojo I founded data science dojo
+- [00:36] as well and u uh worked at Microsoft and
+- [00:40] I've been doing AI as I said for quite
+- [00:42] some time
+- [00:43] so here is a very simple agenda we will
+- [00:46] talk about what are the considerations
+- [00:48] when you're building an agentic AI uh
+- [00:51] workflow and agentic AI application and
+- [00:54] we will actually go ahead didn't see an
+- [00:56] agentic AI platform um that is uh built
+- [01:00] keeping all of uh all of the
+- [01:02] considerations in mind.
+- [01:05] Um
+- [01:07] so I like to um I like to characterize
+- [01:12] uh uh this whole agent ecosystem
+- [01:16] um using this pyramid. And for those of
+- [01:18] you who uh who recognize this, this is
+- [01:22] inspired by Maslo's hierarchy of needs.
+- [01:25] Uh if you look at it, most of the
+- [01:28] organizations uh they start building
+- [01:32] their agentic AI applications
+- [01:36] uh by simply just uh you know just
+- [01:40] building a wrapper around their existing
+- [01:43] uh their existing um
+- [01:46] some of the existing models and simply
+- [01:49] build a wrapper around it. But the
+- [01:51] reality of it is that uh before you even
+- [01:55] get to building and scaling AI agents in
+- [01:58] production, you have to really take care
+- [02:01] of your infrastructure, your data and
+- [02:03] your tools. Um are the tools connected?
+- [02:06] Uh are the tools interoperable? Are they
+- [02:08] connected or not? Um is uh uh is
+- [02:12] everything uh secure and uh you know are
+- [02:15] you compliant? Um uh you have to worry
+- [02:18] about data governance. And now we talk
+- [02:20] about AI governance. Uh we talked about
+- [02:23] um prompt hijacking and jailbreaking.
+- [02:26] A and um and in the previous session uh
+- [02:30] we were discussing about having an
+- [02:32] appreciation and understanding of uh
+- [02:35] organizational
+- [02:36] alignment in terms of what use cases we
+- [02:39] are working on, what we are not working
+- [02:40] on. and that uh uh that MIT um
+- [02:46] um publication that talked about uh 95%
+- [02:51] of uh
+- [02:54] PC's never seeing uh
+- [02:57] um never making it to production. This
+- [03:00] is primarily because of all of this uh
+- [03:04] all of these uh factors you do uh most
+- [03:07] organizations that directly jumping to
+- [03:10] scaling of agents which is fine for a PC
+- [03:13] but there but beyond that um there has
+- [03:17] to be some leg work that needs to be
+- [03:19] done and I'm going to talk about some of
+- [03:20] the lessons learned and then after that
+- [03:23] we are going to uh we going to um look
+- [03:26] at a demo and I will show you what does
+- [03:28] a complete finished product look like.
+- [03:32] Okay.
+- [03:33] Um so I showed this uh slide earlier
+- [03:36] this morning as well. Uh in an agentic
+- [03:38] AI workflow you have uh the first thing
+- [03:42] that you have to have is uh the
+- [03:43] perception right. So are you you may be
+- [03:46] reading data from a PDF from a from an
+- [03:49] image from it could be a multimodal
+- [03:52] input. Uh do you understand the intent?
+- [03:54] Intent is everything. Uh so um uh if the
+- [03:58] user types in something um what if it is
+- [04:01] misunderstood? So there is this
+- [04:03] perception aspect to uh agentic AI. Uh
+- [04:07] then a lot of leg work actually happens
+- [04:09] a lot of grunt work actually that
+- [04:11] happens in uh cognition and planning.
+- [04:13] You have goal management uh reasoning
+- [04:16] and inference u uh then planning and
+- [04:19] memory and self-reflection.
+- [04:22] Uh the knowledge representation right so
+- [04:23] the context engineering the short-term
+- [04:25] and long-term memory. Do I know this
+- [04:27] user uh from the previous interactions
+- [04:30] with the application? Do I know what the
+- [04:32] user in the within the same session what
+- [04:34] was the user asking? Uh do I have uh
+- [04:39] access to users um some u HR records? Do
+- [04:44] I have uh uh access to users um
+- [04:48] information in previous orders depending
+- [04:50] upon the application. Then there is the
+- [04:53] autonomy aspect of it. Once it has uh
+- [04:55] perceived and planned and understood the
+- [04:58] knowledge um uh does it take actions uh
+- [05:02] what kind of actions it will take then
+- [05:04] the safety and governance aspect of it
+- [05:06] uh which actions are allowed and which
+- [05:09] actions are not allowed and this this
+- [05:12] really aligns with the discussion that
+- [05:15] we were having not just in the previous
+- [05:16] session and the sessions before we have
+- [05:18] talked about all of this the entire day.
+- [05:21] Uh so safety and governance is important
+- [05:23] right so we want to make sure that uh
+- [05:26] you know uh the applications that we are
+- [05:28] building they are safe and evaluation uh
+- [05:31] how do we evaluate um there is uh
+- [05:37] um
+- [05:41] in in traditional machine learning
+- [05:46] if I have to evaluate an application
+- [05:48] that is let's say a fraud prediction
+- [05:50] model it is very simple right so if
+- [05:53] either the transaction was fraud or it
+- [05:56] wasn't a fraud right so if I evaluate my
+- [05:59] prediction is all um either correct or
+- [06:02] wrong um in um so this was for a
+- [06:06] classification model in a regression
+- [06:08] model my prediction could be off by
+- [06:12] let's say housing price prediction model
+- [06:14] my prediction could be off by 100 or
+- [06:16] 1,000 or 10,000 you know I I can measure
+- [06:20] that deviation and for other predictive
+- [06:22] models I mean there are other metrics
+- [06:25] but how do we evaluate uh an LLM
+- [06:27] application so uh these are some of the
+- [06:31] challenges that uh or some of the
+- [06:33] built-in blocks uh that eventually turn
+- [06:35] into challenges when we are building
+- [06:38] agentic AI applications. So we will talk
+- [06:41] about some of the lessons that uh have
+- [06:44] uh that we have learned and um for those
+- [06:47] of you have attended all the sessions
+- [06:49] you will actually now you can completely
+- [06:51] see how these are connected right. So um
+- [06:56] as much as uh many of the uh the leading
+- [07:00] companies they try to convince you
+- [07:02] turnkey enterprise uh AI gen AI it's a
+- [07:06] it is a pipe dream for most cases. I'm
+- [07:09] not saying for every single case but for
+- [07:11] most cases it is uh building a
+- [07:14] production system that is uh that is
+- [07:16] safe that is compliant that keeps you
+- [07:18] out of trouble um and I'm talking about
+- [07:20] enterprise applications of course right
+- [07:22] it keeps you out of trouble it is
+- [07:24] accurate it is uh costefficient
+- [07:28] everything um there's no turnkey
+- [07:31] solution usually barring a few uh simple
+- [07:35] use cases there is no um turnkey
+- [07:38] solution that is possible. um you have
+- [07:42] to work on it, you have to tweak it, you
+- [07:43] have to build it and there will always
+- [07:46] be some aspect of working on um on these
+- [07:49] uh working on these applications. And
+- [07:53] this is uh this idea that when
+- [07:57] u when a technology trigger happens um
+- [07:59] case in point chart GPT chart GPT came
+- [08:02] out uh generative models claude uh
+- [08:06] Gemini um uh chart GPT all of them the
+- [08:10] inflations are the expectations are
+- [08:12] inflated I mean PC's on like maybe 10
+- [08:16] PDFs or 100 documents they work amazing
+- [08:20] right and suddenly when We when we try
+- [08:23] to operationalize or deploy these models
+- [08:25] or deploy deploy these applications
+- [08:28] um there are adoption barriers there are
+- [08:30] challenges um and then there is this
+- [08:33] sustained learning curve after that uh
+- [08:35] you know organizations they invest on uh
+- [08:38] invest on learning and making sure that
+- [08:41] um uh that uh um
+- [08:46] eventually the use cases are figured
+- [08:47] out. Eventually uh you know all the
+- [08:50] security issues and uh you know
+- [08:52] governance issues they are taken care of
+- [08:54] and use cases have been identified.
+- [08:59] uh um this goes back actually so a lot
+- [09:01] of this will go back to the previous
+- [09:03] previous session right so uh as uh in
+- [09:05] the previous session Reena was
+- [09:06] mentioning this that organizations are
+- [09:08] often unclear about AI use cases right
+- [09:11] so many companies they want to adopt AI
+- [09:15] but do not have a strong problem
+- [09:17] statement um and I was I was I was
+- [09:20] looking at the uh the comments or the
+- [09:23] questions in our uh Q&A someone me
+- [09:26] someone mentioned isn't it obvious that
+- [09:28] uh it should start with the business use
+- [09:30] case. I mean shouldn't that start with
+- [09:31] that? But you know as surprising as it
+- [09:34] may sound a lot of times it's it's not
+- [09:37] that obvious to many organizations.
+- [09:39] Um
+- [09:41] there are uh you know challenges around
+- [09:44] uh estab well established use cases
+- [09:46] within organizations.
+- [09:48] Um the third thing is uh what I have
+- [09:52] found fascinating both um we teach a uh
+- [09:56] boot camp uh on aentki and we also have
+- [09:59] an agenti platform. uh so interacting
+- [10:02] with uh the learners and the students in
+- [10:05] our uh boot camp and also interacting
+- [10:07] with some of the customers somehow there
+- [10:09] is this uh this perception that
+- [10:12] magically you know uh these all these
+- [10:14] models are all knowing and magically
+- [10:16] they are going to figure out everything
+- [10:18] right so claude uh and llama and uh you
+- [10:22] know open AAI GPD4 GPD5 um they are
+- [10:26] going to take care of everything but the
+- [10:27] truth of the matter is the data is still
+- [10:30] the king you have to provide context,
+- [10:32] you have to provide uh the right
+- [10:35] prompts, you have to provide uh
+- [10:37] information in the in the manner it can
+- [10:38] be uh in ingested, right? So for
+- [10:41] instance, if I go and ask a question uh
+- [10:44] not on chat GPD, but if I go and ask a
+- [10:46] question about uh anything that recently
+- [10:49] happened, the model will say the I mean
+- [10:52] as of my last update uh in on such and
+- [10:55] such date, I don't have any informations
+- [10:58] about what happened in April of 2025.
+- [11:00] um these models well uh they know
+- [11:03] whatever was given to them by that time
+- [11:06] but
+- [11:08] they don't know anything that is
+- [11:10] happening in the future and for that
+- [11:12] purpose you have to connect different
+- [11:13] sources of context or different sources
+- [11:15] of data um we have talked about MCP uh
+- [11:19] so you you can connect an MCP for a web
+- [11:22] search you can connect MCP for your
+- [11:24] Google drive for for your your CRM
+- [11:27] system your um for your website really
+- [11:30] build a context provider
+- [11:33] uh uh using either tools or APIs or uh
+- [11:37] as uh we discussed uh using some um some
+- [11:41] kind of some sort of MCP connection that
+- [11:43] will allow it standardization and
+- [11:46] interoperability
+- [11:49] compliance will be a major barrier. um
+- [11:52] agent applications from our experience
+- [11:55] they have been
+- [11:57] uh the nightmare of the infosc team. I
+- [12:01] mean for um
+- [12:03] infosc uh people especially the CISOs
+- [12:07] the chief information security officers
+- [12:09] at companies they simply cannot wrap
+- [12:12] their head around this this
+- [12:14] non-deterministic nature of uh well are
+- [12:17] you telling me that uh you know no
+- [12:20] matter what I ask uh you know it will
+- [12:22] just interpret and it can take any
+- [12:23] action right so and people can and then
+- [12:26] when they when they learn about prompt
+- [12:28] hijacking and jailbreaking and all of
+- [12:30] that they seriously they go crazy,
+- [12:32] right? So, can um can someone prompt u
+- [12:38] prompt hack or you know just make the
+- [12:40] make my chatbot my customer support
+- [12:42] chatbot uh make it say anything.
+- [12:47] Uh compliance is actually a major issue.
+- [12:49] Your legal and uh infosc they uh they
+- [12:53] won't like it, right? So or your
+- [12:54] customers legal legal info in infosc
+- [12:56] they're not going to like uh your
+- [12:58] agentic AI applications. Um so the
+- [13:01] nature of AI models is actually making
+- [13:03] compliance related tasks very difficult.
+- [13:06] You have data privacy and protection
+- [13:08] issues some regulatory compliance uh
+- [13:11] problems sensitive data handling
+- [13:13] problem. you have intellectual property
+- [13:16] and copyright. Um you know the the uh
+- [13:20] the data that you or the the content
+- [13:22] that you consume and the content you
+- [13:25] create. Um copyright intellectual
+- [13:27] property issues around that uh
+- [13:30] responsible AI amplification of uh
+- [13:32] biases and uh uh transparency and
+- [13:36] explanability and u security and misuse
+- [13:39] and auditability. Why was I given this
+- [13:42] answer?
+- [13:44] uh can I explain this answer based on uh
+- [13:47] the sources?
+- [13:49] uh and whichever way you go uh in this
+- [13:54] case if you uh the example is not very
+- [13:56] obvious. If I ask uh a model uh they are
+- [14:00] trying to correct this but not long ago
+- [14:03] when you try to create uh an image uh
+- [14:06] give me an image of a taxi driver, give
+- [14:08] me an image of a housekeeper or software
+- [14:10] developer or a flight flight attendant.
+- [14:12] Um you can clearly see the biases that
+- [14:15] ex have existed in the society and in in
+- [14:19] our um you know on on uh internet as
+- [14:24] because it's primarily this is the uh
+- [14:27] internet is the source of data for us.
+- [14:29] Uh you see these biases and these um
+- [14:33] model builders these uh in this case the
+- [14:35] image generation model builders they are
+- [14:38] constantly working on fixing these
+- [14:42] biases. Well in this case well there has
+- [14:45] to be diversity and then you have to
+- [14:47] have uh um you have to have
+- [14:50] representations from um you know
+- [14:52] potentially whatever the source of
+- [14:53] biases. in all genders and uh all
+- [14:57] ethnicities and you know all colors and
+- [15:00] all races and so on. But um but if you
+- [15:04] try to correct it, this is an example
+- [15:07] where Google actually uh tried to fix
+- [15:09] these biases and then here is an
+- [15:11] example, right? So someone asked for an
+- [15:13] image
+- [15:14] um um create an image for um
+- [15:19] portrait of founding father of America
+- [15:21] and then it gave these options uh which
+- [15:24] was very inclusive among for and you
+- [15:27] know all that DEI business uh it kicked
+- [15:30] in but is this now this is not correct
+- [15:33] right so from a uh from a factual
+- [15:36] standpoint this is not correct and uh so
+- [15:39] if they do this they are made a fun of
+- [15:42] they get in trouble. If they do this
+- [15:45] they are made fun of and they get in
+- [15:47] trouble. So when you deploy these
+- [15:49] applications it is um it is very easy to
+- [15:54] build an application a proof of concept
+- [15:56] no big deal but building something that
+- [15:59] does not get you in trouble like this u
+- [16:02] that is actually quite hard.
+- [16:06] Also LLMs have what we call the
+- [16:10] eagerness to pre please problem. LLMs
+- [16:13] they tend to be um you know by design um
+- [16:17] the discussion is actually beyond the
+- [16:19] scope uh of this presentation but from a
+- [16:22] UX standpoint or from a design
+- [16:24] standpoint LLMs are uh these LLM
+- [16:28] applications chat GPT and the underlying
+- [16:31] foundation models they are uh they have
+- [16:34] this eagerness to please problem. So
+- [16:36] much so that one of the models uh I
+- [16:38] believe it was one a version of GPD 4.5
+- [16:42] they rolled it back because it was
+- [16:44] showing signs of psychopensy
+- [16:47] and uh the idea is um so if you if you
+- [16:50] look at this uh here the uh on the
+- [16:53] horizontal axis we have some terms of
+- [16:55] service and the vertical axis we have uh
+- [16:58] some persuasion techniques and a higher
+- [17:01] the higher this or the darker the color
+- [17:04] is uh or the higher the number that
+- [17:06] means that uh for instance this is one
+- [17:09] one is illegal activity and logical
+- [17:12] appeal. So you can get chat GPT or uh I
+- [17:17] think this was done on chat GPT or even
+- [17:19] on llama 2 actually. So uh there was uh
+- [17:23] this uh study that was performed that
+- [17:26] showed empirically that these uh models
+- [17:30] they are they are prone to um prone to
+- [17:35] hijacking. So you can easily uh you can
+- [17:38] show logical appeal and you can perform
+- [17:41] a legal activity. But on the other hand
+- [17:43] some activities are going to be very
+- [17:45] hard to um hard to perform. For instance
+- [17:48] this one number three. Number three is
+- [17:51] uh hate, harassment and violence. Right?
+- [17:53] So in that case uh it is very hard. Uh
+- [17:56] so there is a paper if you look at it uh
+- [17:59] Jang at all uh um there there's a paper
+- [18:03] that you can uh I think this is the
+- [18:05] title of the paper how can Johnny
+- [18:07] persuade LLMs to jailbreak them. So
+- [18:10] there's a problem. So why why am I
+- [18:13] concerned about this? Because most of us
+- [18:15] when we use our when we build these
+- [18:17] agent applications under the hood the
+- [18:20] main engine is going to be one of uh
+- [18:23] llama or claude or GPD models and if
+- [18:26] they are prone to jailbreaking our
+- [18:28] applications are prone to jailbreaking.
+- [18:31] Um, a while back, uh, I think one of the
+- [18:34] Ford or GM dealers,
+- [18:37] uh, car dealers, um, in, uh, somewhere
+- [18:41] in the Midwest,
+- [18:43] um, they got in trouble because their
+- [18:45] chatbot actually convinced, uh, their
+- [18:48] chatbot, uh, one of the customers
+- [18:50] convinced their chatbot to give them,
+- [18:52] uh, a brand new Ford truck for a dollar,
+- [18:55] right? So, it's, uh, so I mean, so so
+- [18:59] many things are possible. uh and um the
+- [19:02] models are easy to jailbreak. Similarly,
+- [19:05] Air Canada got sued
+- [19:08] by a customer because Air Canada uh the
+- [19:12] chatbot that they deployed uh the
+- [19:14] customer somehow
+- [19:17] convinced it uh convinced the chatbot or
+- [19:20] the bot was misled. Maybe I I don't know
+- [19:22] exactly what happened. The bot had uh
+- [19:25] stale information
+- [19:27] and uh uh the bot uh the chatbot offered
+- [19:31] um a special discount um on bereavement
+- [19:34] fair um and the uh matter went to go
+- [19:38] court and the court ruled in favor of
+- [19:41] the customer.
+- [19:44] Um when you're building this for those
+- [19:46] of you who are in software engineering
+- [19:48] you're you probably know this term um
+- [19:50] you know technical debt. So when you
+- [19:52] build uh a product uh which is uh you
+- [19:56] know an angenti application so technical
+- [19:58] debt is going to be inevitable. You will
+- [20:00] build you will be building these
+- [20:02] systems. I mean things are changing. You
+- [20:04] want use one library the library has
+- [20:06] moved on again. I will um I will refer
+- [20:10] to the previous uh session where um Mark
+- [20:13] actually mentioned that uh
+- [20:16] um everything is still evolving right?
+- [20:19] So we are playing catchup. So there is
+- [20:21] no standardization that uh uh for the
+- [20:24] most part for a lot of things they're
+- [20:26] changing. So since sync will be changing
+- [20:29] uh technical data is going to be u
+- [20:32] inevitable.
+- [20:35] Um you will need amazing um like good
+- [20:40] product good technical product managers
+- [20:42] who are also technically very solid. Um
+- [20:45] it is very hard for a technical product
+- [20:49] manager um or for a less than technical
+- [20:52] product manager to build genai products.
+- [20:55] Um it is it is simply not possible
+- [20:57] because the nuances that are there to
+- [20:59] make the right decisions for the product
+- [21:02] um they simply
+- [21:05] they're simply going to consume the
+- [21:06] entire organization.
+- [21:09] And uh here is uh this this notion of
+- [21:12] you have if you have a genai not
+- [21:14] technical genai uh PM you start with the
+- [21:18] strategy um you know you're um but um if
+- [21:23] you don't know uh the problems you don't
+- [21:25] understand the product you're not very
+- [21:26] technical then uh your devs and other
+- [21:30] stakeholders they hijack the road map
+- [21:32] they hijack the road map uh of course
+- [21:34] product does not meet expectations
+- [21:37] uh more interference and for uh control
+- [21:40] and this is a vicious cycle that you
+- [21:42] remain stuck in forever after uh you
+- [21:45] know once your PM does is not in
+- [21:48] control.
+- [21:49] Uh rollouts are going to be um a bigger
+- [21:54] pain in the neck than you would you can
+- [21:57] even imagine
+- [21:59] when I release uh
+- [22:03] uh a bunch of uh new lines of code. Um
+- [22:05] well my my product is non-deterministic
+- [22:10] uh my in in a traditional software
+- [22:12] product my product is deterministic
+- [22:14] right so I'm calling some lines of code
+- [22:17] I know exactly what to expect but when
+- [22:19] you roll out prompts when you roll out
+- [22:22] your genai changes in your genai
+- [22:24] application even adding a new document
+- [22:28] or adding a new data source it can
+- [22:30] completely change
+- [22:32] how your genai application or how your
+- [22:34] agent AI application behaves. So how do
+- [22:38] you roll out uh how would you decide uh
+- [22:41] how do you do prompt control or source
+- [22:44] control on prompts for the lack of a
+- [22:46] better term there right? So can you can
+- [22:48] you have a version control on your
+- [22:50] prompts? Um well you can um even if you
+- [22:52] implemented version control on your
+- [22:54] prompts can you have version control on
+- [22:56] your documents and all of that. So there
+- [22:58] is actually a lot of things that can go
+- [23:00] wrong. So and there are different
+- [23:03] techniques right? So you know you can
+- [23:05] have universal deployment, you can have
+- [23:06] opt-in and there are there are different
+- [23:08] ways which are once again beyond the
+- [23:11] scope of the discussion here.
+- [23:14] Um
+- [23:17] setting up evaluation and monitoring and
+- [23:18] guardrails early on they're going to be
+- [23:21] a lifesaver for you. Um make sure that
+- [23:24] you're continuously monitoring um your
+- [23:29] your application uh which MCP was
+- [23:32] called, which tool was called. um you
+- [23:34] know how many documents were returned
+- [23:36] how the reasoning happened um you know
+- [23:39] how many tokens were consumed
+- [23:41] um what was the latency of inference and
+- [23:44] so on so u setting these up earlier on
+- [23:48] it is very helpful also having
+- [23:50] guardrails guardrails on both inputs
+- [23:53] sometimes you go and pre uh and I will
+- [23:56] show this in uh all of this that I'm
+- [23:58] talking about in a demo I will make some
+- [24:00] queries without the guardrails I will
+- [24:02] make some queries with the guardrails
+- [24:04] and then I will show you uh you know
+- [24:06] what that actually means.
+- [24:09] Um uh but having guardrails is going to
+- [24:12] be very helpful. It will keep you and
+- [24:14] your company out of trouble. Um because
+- [24:17] in this case if you look at this uh the
+- [24:19] question here is how many rocks shall I
+- [24:21] eat? And um uh this is from Google
+- [24:25] Gemini by the way.
+- [24:27] If you don't recognize this is Google
+- [24:29] and uh you should eat at least one small
+- [24:32] rock per day. I'm feeling depressed,
+- [24:34] right? So, and um uh one Reddit user
+- [24:38] suggest jumping off the Golden Gate
+- [24:40] Bridge. Um then um then you can u so
+- [24:45] cheese not sticking to pizza. Uh you can
+- [24:47] add also add about 1/8 cup of non-toxic
+- [24:51] glue to the sauce to give it more
+- [24:52] tackiness.
+- [24:54] So if you look at this, right? So these
+- [24:56] are uh uh and why is this happening? Um
+- [25:00] uh Google and Gemini they rely on
+- [25:06] Reddit as one of the most important
+- [25:08] sources of data. Perhaps these answers
+- [25:10] that they fetched it from they were one
+- [25:13] of the highest voted answers. So
+- [25:15] basically it is a community guiding uh
+- [25:17] these models and uh and these kind of
+- [25:20] things can happen based of sarcasm or
+- [25:22] for many reasons that I will let you
+- [25:25] think about.
+- [25:28] Um
+- [25:30] it is important to build a UI that is
+- [25:33] defensive.
+- [25:35] Make sure that you are using proper
+- [25:39] um you know a monitoring and evaluation
+- [25:42] guards. In addition to that, make sure
+- [25:44] that you have uh a UI that don't doesn't
+- [25:47] let people do things that they should
+- [25:49] not be doing.
+- [25:51] And uh the last thing is that you will
+- [25:55] always find yourself uh stuck in this uh
+- [25:59] you know performance, cost and
+- [26:01] correctness. um in addition to of course
+- [26:04] the compliance and governance and safety
+- [26:05] and guardrails type uh challenges you
+- [26:08] will always find yourself struggling
+- [26:10] with these when you're building these
+- [26:12] applications.
+- [26:14] Um so before I go to a demo the product
+- [26:17] that I'm going to show you this is uh uh
+- [26:20] called Aento and what uh the approach
+- [26:23] that we took we started about two years
+- [26:25] ago uh and the pro approach that we took
+- [26:27] was that uh the Aento is a compliance
+- [26:31] and safety first platform. So it was not
+- [26:35] an afterthought. It was something that
+- [26:38] was built into the design. Right. So
+- [26:40] compliance and safety, interoperability
+- [26:42] of agents, agents can collaborate with
+- [26:44] each other. Um and they are
+- [26:46] interoperable and then uh it is it is an
+- [26:50] entire platform and uh um
+- [26:54] we um so how do we handle the governance
+- [26:57] and compliance aspect and security and
+- [26:59] control aspect? Um so Aento actually
+- [27:02] goes and sits within the customer cloud.
+- [27:05] Um so um you know why can't I go and
+- [27:09] build the same thing in let's say using
+- [27:12] open AI or cloud you know chat GPT well
+- [27:16] uh I can build my custom GPT models but
+- [27:19] then I will be uploading data and giving
+- [27:21] it to a third party then access and
+- [27:24] access controls um you know I hope that
+- [27:27] the those of you who were there in the
+- [27:29] previous sessions you are seeing the
+- [27:30] dots being connected uh there is
+- [27:32] authorization and access controls uh
+- [27:34] that are built built in uh data
+- [27:37] governance is uh built in. AI governance
+- [27:39] is also there. AI governance refers to
+- [27:41] the fact that I know I can explain the
+- [27:43] responses that I get. I have guardrails
+- [27:46] on inputs. What kind of questions are
+- [27:48] okay? What kind of questions are cool?
+- [27:50] What kind of questions are not okay? Um
+- [27:54] then you have observability. You can
+- [27:56] actually go and see what what happened
+- [27:58] in each uh each uh user prompt.
+- [28:03] Um then there are feedback feedback
+- [28:06] loops and uh you know custom
+- [28:10] uh or a multi- aent collaboration as
+- [28:12] well. Um and the way agentto works is
+- [28:17] that instead of letting everyone just go
+- [28:21] and deploy their agents,
+- [28:24] what we do here is um it is basically
+- [28:27] the IT and the subject matter uh subject
+- [28:29] matter experts at a company let's say
+- [28:31] company X uh you know 10,000 people
+- [28:34] company there's only 10 or 15 people who
+- [28:37] are building these agents along with uh
+- [28:40] along with uh some of the subject matter
+- [28:42] experts.
+- [28:43] And these subject matter experts they
+- [28:46] make sure that they identify the use
+- [28:48] case and uh deployment scenarios. Um
+- [28:52] they continuously look at the uh and
+- [28:55] monitor the feedback given for the
+- [28:57] agents. Hey this is a good response,
+- [28:59] this is a bad response and those uh form
+- [29:02] the feedback loop. Uh agent ops
+- [29:05] observability and cost and continuous
+- [29:07] monitoring. Uh it's almost like uh it's
+- [29:10] almost like just like uh your HR your HR
+- [29:14] actually does your onboarding and
+- [29:16] recruiting learning and development you
+- [29:19] know um just offboarding if needed
+- [29:22] organizational alignment and compliance.
+- [29:25] So all of that is actually built in into
+- [29:28] the platform.
+- [29:30] I think it is a good time. I will answer
+- [29:33] a few questions and after that I will go
+- [29:37] to
+- [29:40] um I will go to the the demo here. Let
+- [29:45] me see. Uh I will start with the most
+- [29:48] recent one.
+- [29:50] Let's see.
+- [29:55] Okay. Uh
+- [29:58] I think these are okay. These are
+- [30:00] related to this session. So with respect
+- [30:03] to data governance and policies which we
+- [30:05] have in India, how can we leverage akai
+- [30:08] connecting with MCP servers in terms of
+- [30:10] data security? As NOS's who handle large
+- [30:13] volumes of data, they can rely and use
+- [30:16] this. So this question is from SEP. Uh
+- [30:19] Sep uh I am
+- [30:24] uh um I think it is a question that is
+- [30:27] complex enough complex enough that uh I
+- [30:32] don't know how to answer it here. Um
+- [30:35] because you will have to actually look
+- [30:37] at uh if you're working for a government
+- [30:40] organization
+- [30:42] um uh you will have to actually look at
+- [30:44] I mean uh if your if your government has
+- [30:47] uh this requirement or this uh uh this
+- [30:51] uh law uh that uh the data has to reside
+- [30:55] within the within
+- [30:58] uh within the country within the the
+- [31:00] jurisdiction or the the geography of the
+- [31:03] country then you will have to actually
+- [31:05] find ways you have to find some local
+- [31:06] cloud or of course the um some of the
+- [31:10] companies I I believe Azure and AWS they
+- [31:13] they should have uh they should have uh
+- [31:16] data centers within uh India and then
+- [31:19] you have other uh you have other
+- [31:21] concerns but primarily I think from
+- [31:23] government I think often the especially
+- [31:28] um the requirements are around you know
+- [31:30] where the data is kept Uh
+- [31:34] let me see are these slides. Uh
+- [31:38] we will not be sharing the slides. We'll
+- [31:41] be sharing the recording and it will be
+- [31:43] on the uh on the on our YouTube channel
+- [31:47] or also on the LinkedIn uh our LinkedIn
+- [31:51] um
+- [31:53] uh page.
+- [31:55] Uh okay.
+- [31:59] [Music]
+- [32:02] Let me see IML required knowledge of
+- [32:05] technology and functions whereas other
+- [32:07] products are not. Okay. Okay. So I think
+- [32:10] these are some thoughts as I was
+- [32:12] presenting.
+- [32:15] Yes. I mean I actually think uh so there
+- [32:17] is a comment here. I'm glad tech
+- [32:19] technical product management will become
+- [32:21] critical. Absolutely. Right. So uh if
+- [32:24] you are a good AI or genai technical
+- [32:26] product manager um I think despite all
+- [32:30] the issues or all the challenges in the
+- [32:32] job market that all of us see um this uh
+- [32:36] I mean this should be something this
+- [32:38] should be a skill that can actually help
+- [32:41] you a lot in getting your uh next role
+- [32:43] and if you're already a TPM uh learn
+- [32:46] some aentic AI learn genai and
+- [32:49] understand how products are built it
+- [32:51] will help do in the long run. Okay. What
+- [32:55] was the technical stack tools used to
+- [32:56] build the applications for various
+- [32:58] components? Uh you can build this in any
+- [33:01] uh any of uh the mainstream platforms.
+- [33:05] You can build it in AWS, GCP, these are
+- [33:08] all contain containerized. Um so of
+- [33:11] course the MCP servers that I will show
+- [33:13] you in a bit. I think we still have a
+- [33:15] few more minutes. uh I will show you the
+- [33:16] MCP uh connections and really give you a
+- [33:20] sense of how do we control the you know
+- [33:22] certain types of access and all of that.
+- [33:25] So,
+- [33:26] so um we built uh everything in Azure
+- [33:31] but I don't want to mislead that it
+- [33:33] cannot be done in a in a different
+- [33:35] platform right so you can do the same
+- [33:37] thing uh if we wanted we can actually go
+- [33:39] and deploy this in Azure as well because
+- [33:42] most of our services are containerized u
+- [33:45] and you know it's it's very easy to port
+- [33:48] from one platform to another
+- [33:50] okay uh there's a comment from the uh
+- [33:54] centraliz Centralized AI agent uh agent
+- [33:57] platforms promise scalability and
+- [33:59] consistency but how do they balance the
+- [34:01] benefits of central orchestration with
+- [34:03] the risks of single point of failure
+- [34:05] vendor lock in and reduced flexibility
+- [34:07] for enterprise team. This is a great
+- [34:09] question debucker. Um so
+- [34:14] um so of course uh I mean no matter what
+- [34:17] we uh where we go if it's a non-trivial
+- [34:20] solution you will have to choose one of
+- [34:22] the clouds. I mean um in principle this
+- [34:26] uh um you know you can have your MCP
+- [34:29] servers your sources of data you can
+- [34:31] still have your uh data in Amazon red
+- [34:34] shift and you're running it in this this
+- [34:37] platform in Azure but this the the uh
+- [34:40] the platform has to actually run in
+- [34:41] Azure but the data sources and the
+- [34:44] context and even other agents they can
+- [34:46] be in different platforms so I think uh
+- [34:49] uh yes I see that um uh you know it will
+- [34:53] reduce uh some flexibility but you um
+- [34:57] I'm assuming from your question I I see
+- [34:59] um um I sense that you have been in this
+- [35:02] space for some time um you um you know
+- [35:05] if you have to manage uh the same um
+- [35:08] manage a very complex multicloud
+- [35:11] platform it has its own challenges so
+- [35:15] um
+- [35:17] so um I I think there are pros and cons
+- [35:20] of both right so being in a single
+- [35:22] single platform uh or single cloud
+- [35:24] platform versus uh being in multiple uh
+- [35:27] platforms. Okay, I think I will move on
+- [35:30] to the demo. I apologize. Uh let me see
+- [35:33] if I can see very quickly if there are
+- [35:39] okay what eval
+- [35:42] this agentic AI OS that you were
+- [35:44] building. We have actually a lot of
+- [35:46] different evaluations. I can actually
+- [35:48] show you. Let's move on to the demo. Uh
+- [35:50] and then it should actually bring uh
+- [35:53] this um it should uh start to make
+- [35:57] sense. Let me see.
+- [36:04] Okay, I will have to
+- [36:08] No, I think this is not the one.
+- [36:12] I will go to
+- [36:14] [Music]
+- [36:26] I'm just trying to find the agent that I
+- [36:29] wanted to show for the demo
+- [36:32] send assistance. Um
+- [36:37] so let me show you this uh show you all
+- [36:39] this uh this particular so um so this
+- [36:44] will actually um this will show you both
+- [36:47] uh the MCT server and also how we are
+- [36:51] actually using this right so this is a
+- [36:53] dummy deal that we have in our um CRM.
+- [36:57] So if you look at this uh so these are
+- [37:00] um uh these are our MCP servers that we
+- [37:03] have connected. Um so if you look at
+- [37:05] this uh I have connected HubSpot MCP
+- [37:08] server with the agent. I will go back
+- [37:09] and show you there's a SharePoint MCP
+- [37:11] server. Uh there's a notion slack MCP
+- [37:15] server perplexity MCP server and so on.
+- [37:18] And um uh if you recall from our
+- [37:20] discussion in the previous uh in the
+- [37:23] previous uh session uh we were talking
+- [37:26] about how Docker is well dockerizing or
+- [37:29] containerizing all the MCP server. So
+- [37:32] literally these so we have built an MCP
+- [37:34] client and once we have built that MCP
+- [37:37] client we can actually uh connect any
+- [37:40] MCP server that is available out there
+- [37:43] or we can write our own MCP servers and
+- [37:46] um put it there. Right. So if you now if
+- [37:49] you look at this
+- [37:52] move a few windows around. So if you
+- [37:54] look at this um um so this is the
+- [37:57] official HubSpot MCP server and if you
+- [37:59] look at this I have this uh I can get a
+- [38:02] contact I can update a contact I can
+- [38:04] create a deal I can update a deal. Uh
+- [38:07] and what kind of actions are available?
+- [38:09] I can if you look at this I can create
+- [38:11] associations
+- [38:13] u batch create objects list associ. So
+- [38:16] these are the actions and these are this
+- [38:18] is the information that is available to
+- [38:20] me. If I want to connect it um uh so
+- [38:24] there is this uh MCP server that we have
+- [38:27] deployed and then we have given it some
+- [38:30] permission. Uh and how does this work?
+- [38:33] Uh and similarly I can connect a
+- [38:35] perplexity MCP server. I can uh uh use a
+- [38:39] uh web search Google drive and so on.
+- [38:42] Let me go back and show you what are the
+- [38:44] implications of this.
+- [38:45] So this is my um once again uh we do
+- [38:49] trainings all the time uh on with data
+- [38:52] science dojo. So um you know I have
+- [38:54] connected this training proposal writer
+- [38:57] to uh our HubSpot MCP server. Uh there's
+- [39:01] a retrieval retriever tool which is
+- [39:03] aentic uh retriever. Uh then we have uh
+- [39:07] a perplexity web search tool rack tool
+- [39:10] etc. Right?
+- [39:12] And u so this is a deal a dummy deal
+- [39:15] that I created yesterday and uh so we
+- [39:19] are pretending that agent of AI wants an
+- [39:21] agentic training. Uh so I asked it a
+- [39:24] question check the HubSpot enterprise
+- [39:26] training deals pipeline for
+- [39:29] uh for um um from Aentto AI agentic AI
+- [39:35] training. Let me see what it looks like.
+- [39:39] So yeah, I think it might not be very
+- [39:42] helpful but so I mean basically it is
+- [39:44] some information we're pretending that
+- [39:46] someone reached out and asked uh from
+- [39:48] Magento asked us for a training and then
+- [39:51] now we have to provide uh the context
+- [39:53] and this is saying um so summarize the
+- [39:56] communication so far and check the notes
+- [39:58] and email communication on this deal
+- [39:59] right and without me even going to the
+- [40:02] HubSpot MCB uh or HubSpot uh CRM it is
+- [40:06] actually telling me all the notes and
+- [40:08] all the communication that has happened
+- [40:10] so far. Okay. Um so
+- [40:15] um now how do I how do I make it uh you
+- [40:21] know use different kind of models? I can
+- [40:24] actually go and make it use any kind of
+- [40:26] models. If you look at this, right? So I
+- [40:28] can I can make it use web search. Uh I
+- [40:31] can uh change it to
+- [40:35] um from GPD 4.1. I can change it to a
+- [40:38] GPD5 or any other model. Um I can also
+- [40:42] uh right now it is using this uh react
+- [40:46] framework. I mean uh there could be a
+- [40:48] reflection. If you remember uh from the
+- [40:50] first or the second session we were
+- [40:52] talking about being able to reflect on
+- [40:54] your output. So uh if you uh give it a
+- [40:59] reflection type approach, it will look
+- [41:02] once once it has generated the answer,
+- [41:04] it will go back and correct or uh
+- [41:06] reflect on the answers and make sure
+- [41:09] that the answers are correct. Um
+- [41:13] I can also uh set up uh some topical
+- [41:17] guardrails, right? Let's say
+- [41:20] um I can tell it do not talk about
+- [41:26] uh agentic AI training. So this is my
+- [41:29] guardrail. When I go and save this
+- [41:31] guardrail
+- [41:33] um now I hope that it was updated. Let
+- [41:37] me see. Let me see. Um
+- [41:40] um
+- [41:42] what is uh tell me
+- [41:47] uh about the agentic AI training and
+- [41:51] after enabling this guardrail I expect
+- [41:53] it to com uh not to respond. Let's see
+- [41:56] uh I'm doing this in a rush so hopefully
+- [41:58] this should work out.
+- [42:04] Okay. So you see Okay. So this uh for
+- [42:09] some reason I mean like any demos this
+- [42:12] is let me see if it
+- [42:16] it is actually
+- [42:19] let's see what it does from the end.
+- [42:21] Okay. So it was able to give it to me.
+- [42:23] Um um so um I can actually tell it to
+- [42:26] redact the PII. If I redacted the PII,
+- [42:30] it will actually remove any names from
+- [42:33] responses and so on. So this this is an
+- [42:35] example of guardrails. Um what else? Uh
+- [42:39] we were talking about monitoring and uh
+- [42:43] uh monitoring and analytics. I can
+- [42:45] actually go and see how many queries,
+- [42:47] how many active agents, uh which ones
+- [42:50] are the most active agents and so on. Um
+- [42:54] I will show you one more agent and I
+- [42:57] think I will be out of here.
+- [43:00] Actually the guardrail worked here fine.
+- [43:02] I should have actually. So in this case
+- [43:04] if you look at this I have set this
+- [43:06] guardrail
+- [43:09] and here I have set this guardrail
+- [43:12] which says
+- [43:14] uh
+- [43:16] do not let me actually suppose disable
+- [43:19] the guardrail. And so this is uh um this
+- [43:23] agent uh this is another another
+- [43:25] assistant general agent that is
+- [43:27] connected to the clinical trials API. So
+- [43:30] this is not an MCP server. This is an
+- [43:32] API connection.
+- [43:34] Um and then I will go and ask it this
+- [43:37] question uh find all clinical trials uh
+- [43:43] for women with breast cancer. The trial
+- [43:45] should be in the United States. And what
+- [43:47] it does is it just goes and calls that
+- [43:49] API. Uh I ask in natural language. Uh
+- [43:52] let's say I'm a doctor. I'm looking for
+- [43:54] medical tri uh some clinical trials or
+- [43:57] maybe some administrator for a hospital.
+- [44:01] Uh it converts my query into uh into
+- [44:06] uh a clinical trials.gov uh API call and
+- [44:11] it gives me it fetches this in real
+- [44:13] time. I can ask it
+- [44:16] give me more information on
+- [44:23] uh this one. Okay,
+- [44:30] so this is a specific clinical trial uh
+- [44:32] ID
+- [44:34] and we are actually asking this
+- [44:36] question. Let's see what it does. And
+- [44:39] you can see that we are analyzing the
+- [44:41] query uh processing the query and it is
+- [44:44] going and fetching uh uh fetching the
+- [44:47] results right now for this.
+- [44:53] Let's see. Hope this goes through
+- [44:56] quickly.
+- [44:57] Don't have much time.
+- [45:07] And this is in reflection mode. So
+- [45:08] that's why it is taking a lot of time.
+- [45:11] Okay. So it is giving me more details,
+- [45:14] right? So University of Maryland uh NCI
+- [45:18] uh giving me all the details. I can
+- [45:21] actually
+- [45:23] um
+- [45:25] I can look at it here. I want to show
+- [45:28] one more thing. Okay. So let me actually
+- [45:32] try to apply guardrail here.
+- [45:35] Okay. Uh do not answer any question
+- [45:42] about
+- [45:44] uh
+- [45:45] uh
+- [45:47] um any trials
+- [45:50] related to breast cancer.
+- [45:56] I don't know why we would do it but I
+- [45:58] mean it is what it is right. So we will
+- [46:00] uh we'll try and let me ask this
+- [46:03] question. uh find all clinical trials. I
+- [46:06] will let me start a new thread and I
+- [46:10] will ask a question and expect it to
+- [46:12] block it. If it doesn't then you know I
+- [46:14] need to go back and check with the team
+- [46:16] why it is not blocking but it should
+- [46:18] actually block this query.
+- [46:22] Okay, I love it. Right. So, if you look
+- [46:24] at this, it is saying I'm not actually
+- [46:27] configured to answer a question about
+- [46:29] this. And there are many many use cases.
+- [46:32] I wish we had more time. I would love to
+- [46:34] uh would have loved to uh but you know
+- [46:37] there are many many use cases where you
+- [46:39] even a legit question you might say no I
+- [46:43] mean this is not what I do. Do uh no uh
+- [46:46] do not answer this question. Okay, I am
+- [46:50] going to stop sharing and I will uh take
+- [46:54] see if there are any questions.
+- [46:58] Okay. Is it possible to add more
+- [47:00] comprehensive guardrails experience show
+- [47:01] that any context or system from guard?
+- [47:03] Yes. Yes. Uh so Doug uh this is a
+- [47:06] wonderful question. Uh can we uh can we
+- [47:09] bypass uh so can we add more guardrails?
+- [47:12] Yes, we have uh so these are what we
+- [47:15] call um uh these guardrails are what we
+- [47:19] call the
+- [47:20] uh you know more like generative
+- [47:23] guardrails but we also have some
+- [47:25] predictive guardrails and some reax
+- [47:27] based guardrails right so if this word
+- [47:29] is there in the input or this word is
+- [47:32] there in the output just block it right
+- [47:33] so because these uh these guardrails are
+- [47:37] prone to failing so that's definitely
+- [47:42] So Ahmed your question is is Aento AI
+- [47:45] your platform? Yes. Uh this is our
+- [47:47] platform and we actually have
+- [47:51] more than 10 enterprise customers at the
+- [47:53] moment and uh you know you can think of
+- [47:57] like companies ranging from 10 million
+- [47:59] to like 20 billion in revenue. So this
+- [48:02] is our own platform. Uh
+- [48:06] uh okay. Um let me see.

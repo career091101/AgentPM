@@ -1,0 +1,751 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=nKuXMDCtyQI"
+video_id: "nKuXMDCtyQI"
+video_url: "https://www.youtube.com/watch?v=nKuXMDCtyQI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=nKuXMDCtyQI
+  - Retrieved at: 2025-12-30T16:15:35+09:00
+  - [00:07] Hey everyone, how's it going? How we
+key_points:
+  - "- [00:10] feeling? Do we like the keynote? Good."
+  - "- [03:25] AI, but you should think about them as"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: nKuXMDCtyQI
+
+- URL: https://www.youtube.com/watch?v=nKuXMDCtyQI
+- Retrieved at: 2025-12-30T16:15:35+09:00
+
+## Text
+
+- [00:07] Hey everyone, how's it going? How we
+- [00:10] feeling? Do we like the keynote? Good.
+- [00:13] Uh my name is Scotty. Uh super excited
+- [00:16] to be here today. Uh you just heard on
+- [00:19] the main stage about new features that
+- [00:21] are going to make it easier to deploy
+- [00:23] agent-driven workflows. In the next 20
+- [00:26] minutes, we're going to talk about how
+- [00:27] we put that technology to work inside
+- [00:30] open AAI. I'm joining from the go to
+- [00:33] market innovation team. We are a team of
+- [00:35] developers that are responsible for
+- [00:38] deploying our technology inside our goto
+- [00:40] market organization.
+- [00:43] So, a quick show of hands and we got
+- [00:45] some people filtering in in the back.
+- [00:47] Quick show of hands here. Who here is
+- [00:49] building a product that they plan on
+- [00:52] selling to customers that's sort of
+- [00:54] externally facing, right? Expect maybe
+- [00:56] like most most of the hands in here. Um,
+- [00:59] today we're going to actually focus on a
+- [01:01] slightly different surface uh where
+- [01:04] there's really never been an better
+- [01:05] opportunity to build and that's internal
+- [01:08] applications.
+- [01:09] Internal applications are sort of like
+- [01:11] the glue that can make your company more
+- [01:14] effective. And today in the world of you
+- [01:18] know internal app development most teams
+- [01:21] tend to think about you know how can
+- [01:24] they streamline operations and the
+- [01:27] question that people are asking in that
+- [01:28] space is how do we use AI to drive
+- [01:34] efficiency? This is a question we hear
+- [01:35] all the time and you know we think this
+- [01:39] is part of the right answer but there's
+- [01:42] or the right question um but there's
+- [01:44] there's a bigger question and we've been
+- [01:46] trying a different frame internally to
+- [01:48] really capture this opportunity. So
+- [01:50] we've been asking how do we use AI to
+- [01:54] amplify expertise.
+- [01:57] So let me explain what I mean. Every
+- [02:00] company has embedded expertise. You have
+- [02:04] your uh your top salesperson, Sophie,
+- [02:06] who knows just how to connect with
+- [02:08] customers. You have your support
+- [02:11] specialist, Ken, who knows how to
+- [02:13] untangle even the most complex system.
+- [02:16] You have maybe your uh your engineer,
+- [02:18] Alex, who can just crank out code and
+- [02:21] release features in days.
+- [02:23] The promise of AI is not only
+- [02:26] automation. It's capturing the craft of
+- [02:30] these practitioners and then finding a
+- [02:32] way to encode and distribute it across
+- [02:35] your entire organization so that every
+- [02:37] employee in your organization can
+- [02:40] operate like your best operator.
+- [02:44] This opportunity is driving what we call
+- [02:46] a golden age of internal building. And
+- [02:49] as a developer, it's also incredibly fun
+- [02:53] work. You get to pull up a chair next to
+- [02:55] your top operator, understand their
+- [02:58] work, iterate in fast loops, and drive
+- [03:00] real value in days.
+- [03:03] The right builds internally can 10x your
+- [03:06] company's agility and impact. And today
+- [03:10] we're going to talk about three real
+- [03:12] examples that have hit that mark
+- [03:14] internally here at OpenAI across sales,
+- [03:17] people, and support. So each of the sort
+- [03:21] of internal products that we talk about
+- [03:22] today are only being used inside open
+- [03:25] AI, but you should think about them as
+- [03:28] illustrative examples of how you can
+- [03:30] deploy frontier AI to solve real
+- [03:34] problems. We're going to walk through
+- [03:36] what made each of these use cases
+- [03:37] successful and some patterns that you
+- [03:39] can take back to your companies. Um, and
+- [03:41] we're going to start today with a use
+- [03:43] case that's that's very near and dear to
+- [03:45] my heart coming from the go to market
+- [03:46] organization. Um, and that's the go to
+- [03:48] market assistant.
+- [03:50] So, let's talk a little bit about sales
+- [03:52] at OpenAI. I bet everyone here can
+- [03:54] imagine being on the sales team at
+- [03:56] OpenAI can be really intense. You got
+- [03:59] new customers, new features, um,
+- [04:01] everything you saw live on stage today,
+- [04:03] bringing that to customers. And so, last
+- [04:06] year about this time, our teams were
+- [04:08] really hitting a breaking point. And
+- [04:10] what they needed was quicker customer
+- [04:13] research and technical answers to from
+- [04:15] questions from customers while also
+- [04:18] expanding their capacity and maintaining
+- [04:20] a great customer experience. These two
+- [04:22] things are very much intention to do
+- [04:24] them both well. And so I started by
+- [04:28] sitting down with our very best rep. Uh
+- [04:30] her name is Sophie. Uh Sophie is
+- [04:33] amazing, a real person also. Um even
+- [04:36] during that period last year, uh Sophie
+- [04:39] just had this incredible way even with
+- [04:41] extremely unscalable workflows of like
+- [04:44] finding a way to win with customers. And
+- [04:47] so I started just sitting down with
+- [04:49] Sophie, getting to know her. She had uh
+- [04:51] joined the company about the same time
+- [04:52] that I had. She came from a startup, so
+- [04:54] she kind of had this like scrappy
+- [04:56] building spirit. And through our
+- [04:59] conversations, I learned that Sophie had
+- [05:02] this sort of special formula to scaling
+- [05:04] her craft. And she showed me exactly how
+- [05:08] she wins across prepping for customer
+- [05:10] meetings, uh, generating sort of product
+- [05:13] champions, uh, thinking about product
+- [05:15] demos across our API and chatbt, and
+- [05:18] then following up as quick as she
+- [05:20] possibly could uh, to meetings with
+- [05:22] customers. So I really focused on this
+- [05:24] first workflow which was prepping for
+- [05:26] customer meetings and there was a really
+- [05:28] clear definition of success and we built
+- [05:31] an agent that was specialized to just
+- [05:33] Sophie's version of excellence and then
+- [05:36] we tried to repeat that for the rest of
+- [05:38] these skills and what we found is we
+- [05:41] were able to build a system and when you
+- [05:43] put that system to work inside of
+- [05:45] Sophie's daily work across systems she
+- [05:48] already uses so chat GBT and Slack
+- [05:50] primarily we are able to create this
+- [05:53] great experience that you're going to
+- [05:54] see in just a moment. Um, and the result
+- [05:57] was go to market assistant. Uh, go to
+- [05:59] market assistant is sort of this
+- [06:00] collection of workflows that enable
+- [06:03] every single one of our reps to bring
+- [06:05] their very best to every single customer
+- [06:08] engagement. And so, let's get into the
+- [06:10] nuts and bolts. Um, what you're going to
+- [06:11] see here is a familiar slide. We're
+- [06:12] going to come back to this slide three
+- [06:14] times today for each of our use cases.
+- [06:16] Um, also headline for people who are
+- [06:18] joining us from the back. We're talking
+- [06:19] about the way they're deploying our
+- [06:21] products internally. Uh, and first we're
+- [06:23] starting with sales. Um, and so we're
+- [06:25] talking about the go to market
+- [06:26] assistant. Here we have our kind of
+- [06:27] foundation. And really what it starts
+- [06:29] with is getting your data right. And so
+- [06:31] down here we have customer data. Anybody
+- [06:33] who's worked on a go to market team
+- [06:35] before knows that understanding your
+- [06:37] customers is like priority number one.
+- [06:39] But doing that is very hard because the
+- [06:41] data is everywhere. It's spread out
+- [06:42] across systems. And so what was
+- [06:44] important here to start was to build a
+- [06:46] simplified data model and then to set up
+- [06:48] a semantic layer where GPT5 could really
+- [06:52] understand what our customer is and how
+- [06:55] it can provide good data on that
+- [06:56] customers back to our reps. We
+- [06:58] vectorized a bunch of key documents here
+- [07:00] including some internal resources to
+- [07:02] talk about our go to market strategy.
+- [07:04] And then you have this core kind of
+- [07:05] agent spine across agents SDK, GPD5 and
+- [07:09] the responses API. And what you see
+- [07:11] inside of here are the skills that we
+- [07:13] started with. And we call these skills,
+- [07:16] but these are agents that are specified
+- [07:18] to this specific version of excellence.
+- [07:21] Again, that came from those
+- [07:22] conversations with Sophie. We have
+- [07:24] meetings, product knowledge, custom
+- [07:26] demos, customer research. We started
+- [07:28] with four. We have about 10 live today.
+- [07:30] And finally, you have self-improvement
+- [07:31] on the side here, uh, which is really
+- [07:34] driving that continual, uh, sort of
+- [07:36] improvement workflow, really driving
+- [07:38] that high bar of success. And finally,
+- [07:40] services is where you actually
+- [07:41] distribute your product. And so we have
+- [07:43] uh chatbt here, which is enabled via an
+- [07:46] MCP connector, Slack, which we're going
+- [07:48] to look at in just a moment, and finally
+- [07:50] the OpenAI platform when we're dealing
+- [07:51] with some of these kind of back-end task
+- [07:54] uh executions.
+- [07:55] So now let's imagine that I'm a rep on
+- [07:58] the mid-market team, just joined. Great
+- [08:00] job. Funing team to be on. Uh this is
+- [08:03] the same team that Sophie was on right
+- [08:04] when we started building this product
+- [08:06] about a year ago. On the mid-market
+- [08:08] team, you might have hundreds of
+- [08:10] customers and you might in a single day
+- [08:13] have eight customer meetings. So, it can
+- [08:15] be a really challenging job to bring
+- [08:17] your best to every one of those customer
+- [08:19] engagements.
+- [08:21] Now, I just start my day with the go to
+- [08:23] market assistant. And so, I'm going to
+- [08:25] give everyone a quick orientation here.
+- [08:26] We're looking at a Slack workspace right
+- [08:28] now. Uh we are inside a private channel
+- [08:30] which is just me and my goto market
+- [08:32] assistant. And I just received my
+- [08:34] Tuesday briefing. So, let's imagine it's
+- [08:35] Tuesday morning. Um, we have Acne,
+- [08:38] Brookfield, and Redwood. Uh, looks like
+- [08:40] I got three meetings and they're all
+- [08:41] quite close, like hopefully can fit in a
+- [08:43] lunch here. Uh, we have one first call,
+- [08:45] meaning it's the first time I'm talking
+- [08:47] to the customer. Two follow-ups and a
+- [08:49] little headline of information I should
+- [08:50] pay attention to. But the real beef of
+- [08:53] the information here is in the thread
+- [08:55] where we get this detailed meeting prep
+- [08:57] dock. I have some attendees I can
+- [08:59] quickly click into LinkedIn. This was
+- [09:00] surfaced via web browse. We have our uh,
+- [09:03] OpenAI data. And this is where it's
+- [09:05] really as a rep, I'd have to go to
+- [09:07] multiple dashboards to kind of
+- [09:09] understand the state of this customer
+- [09:10] and what it means and what I should
+- [09:12] bring today. Here, it's actually
+- [09:13] surfacing for this customer I'm just
+- [09:15] starting to meet that they're already
+- [09:16] starting to use our products in the
+- [09:18] self-s serve world. Um, and that's
+- [09:20] really important information I can bring
+- [09:22] to this conversation. Finally, we have
+- [09:24] hypotheses and opportunities. Obviously,
+- [09:26] my role as a seller is to be very
+- [09:28] strategic in every conversation. And
+- [09:30] what my assistant is helping me with
+- [09:32] here is distilling all of that
+- [09:33] information to help me show up prepared
+- [09:36] to this customer conversation. In that
+- [09:38] recommendation, it it had recommended
+- [09:40] that I create a demo for Acne Search
+- [09:42] focused on coding and deep research. So,
+- [09:44] I actually just invoked that here. And
+- [09:46] it's coming back with a step-by-step
+- [09:48] script that I can use with the customer.
+- [09:50] This one's again interesting because
+- [09:52] this actually represents one of our best
+- [09:54] solutions engineers whose name is Max.
+- [09:56] Um, Max has been at the company about
+- [09:58] two years. He has over a hundred
+- [10:00] different demos for chatbt that have
+- [10:02] really landed with customers. And that's
+- [10:04] sort of the grounding data set here that
+- [10:06] we've now remixed with this customer's
+- [10:09] data to create this really useful demo.
+- [10:12] And so what this allows us to do is to
+- [10:14] provide a great customer engagement for
+- [10:15] every customer no matter the capacity of
+- [10:18] our technical teams. And so I can take
+- [10:20] this prompt right here, drop it into
+- [10:22] chatbt that would render a dynamic web
+- [10:24] page where we could really walk through
+- [10:26] the customer this real coding example.
+- [10:28] I'm going to scroll down. Um, let's
+- [10:30] imagine I just got a meeting recap. So
+- [10:32] that meeting just finished about 30
+- [10:34] minutes ago. Now I have some key
+- [10:36] takeaways here. Uh, we have some action
+- [10:37] items and it looks like the customer
+- [10:40] actually asked a question on the call.
+- [10:42] Um, and so sort of a technical question
+- [10:43] here about chat completions and the
+- [10:45] responses API. This is great for me as a
+- [10:47] rep. Now I know I can be tracking
+- [10:50] follow-ups sort of inside this thread.
+- [10:52] But even better is the assistant is
+- [10:54] actually recognizing this question and
+- [10:56] sending it directly to our product
+- [10:58] knowledge skill which is prepping this
+- [11:00] answer I can now take directly to the
+- [11:02] customer. So it's closing out that loop
+- [11:04] and allowing me to scale my support
+- [11:06] quicker. But as I'm reading this sort of
+- [11:08] uh rec this recap here, I actually
+- [11:11] noticed that it missed a key next step.
+- [11:13] it missed the next steps that the
+- [11:15] customer had asked for a prompt tuning
+- [11:17] workshop for GPT5. And so sort of my
+- [11:20] expertise as a seller here is I know
+- [11:22] exactly what happened this meeting. This
+- [11:24] is helping me scale my work, but I also
+- [11:26] know these things are not 100%. Right?
+- [11:28] They might be 90 95%. They're getting me
+- [11:30] most of the way there. I'm still using
+- [11:32] my subject matter expertise to maybe
+- [11:34] recognize places where it's off. And
+- [11:37] then I can go down here to say was it
+- [11:39] helpful? Click no. I can provide that
+- [11:41] feedback that it missed this key
+- [11:43] takeaway. This is going to prompt a
+- [11:45] regeneration on the backend for this
+- [11:48] particular task. And in so a moment here
+- [11:50] I'm going to get my kind of updated
+- [11:52] drafted email um which now fundamentally
+- [11:56] or critically is going to have this next
+- [11:58] step about this propt timing workshop.
+- [12:00] Now this is obviously great for me as a
+- [12:02] rep. Now I got what I need in my flow of
+- [12:04] work to support this customer. But even
+- [12:06] better is this same piece of feedback
+- [12:08] went to our eval platform and triggered
+- [12:10] a prompt optimization flow and that
+- [12:13] prompt optimization insight was brought
+- [12:15] directly to our developers inside of a
+- [12:17] developer only channel and now I'm
+- [12:20] reviewing the scope and impact of this
+- [12:22] change and as a developer I can approve
+- [12:25] it directly in my flow of work. So what
+- [12:28] we've done here is we've actually had a
+- [12:30] top operator, myself in this case, um
+- [12:33] train the system and that piece of
+- [12:36] training then get distributed to the
+- [12:38] distributed to the entire organization
+- [12:40] to really uplevel that skill over time.
+- [12:44] So people trust the go to market
+- [12:47] assistant because they help define it
+- [12:48] and they're helping to train it every
+- [12:50] single day. And we have about 10 skills
+- [12:52] or so in go to market assistant today.
+- [12:54] And when I look at each of those skill,
+- [12:56] I see people. I see people from Maggie's
+- [12:58] team back there who helped build one of
+- [13:00] our product assistant uh knowledge
+- [13:02] skills. I see uh Max who helped build
+- [13:04] our custom demo workflow. I see uh
+- [13:07] Sophie who built the meetings prep. So
+- [13:09] that those little pieces of excellence
+- [13:11] inside of our go to market org now are
+- [13:13] distributed to every one of our more
+- [13:15] than 400 members of the team. Today, our
+- [13:18] reps are spending about uh exchanging
+- [13:20] about 20 messages every single week with
+- [13:22] the assistant. And they've reported one
+- [13:24] full day in time saved they can now
+- [13:26] spend on higher leverage tasks. I asked
+- [13:28] you what would you do with like an extra
+- [13:30] full day each week. That's what these
+- [13:32] kind of products through very quick
+- [13:33] revolutions can drive for your business.
+- [13:36] And as a final note, as a developer,
+- [13:38] this has also been like a very fun
+- [13:40] project because the go to market team,
+- [13:42] they have this sort of eagerness to
+- [13:44] build this creativity and when you give
+- [13:46] them the tools, they can really engage
+- [13:49] with those tools to scale their best
+- [13:51] work. So, we just got through our first
+- [13:54] use case uh for people who maybe showed
+- [13:55] up late. We're talking about internal uh
+- [13:57] applications of our technology here at
+- [13:59] OpenAI. We just covered sales and now
+- [14:01] we're going to talk about people. So, uh
+- [14:03] or people in HR. So in the people in HR
+- [14:06] space uh we also are dealing with a
+- [14:08] challenge of scale. Uh we've been
+- [14:11] rapidly adding employees across the
+- [14:12] globe and you have sort of uh new
+- [14:15] employees, you got new offices, new
+- [14:16] policies and it's uh extremely
+- [14:21] challenging you know as an employee to
+- [14:22] pick up on all the institutional context
+- [14:24] you need to be successful in your role.
+- [14:27] And so through that massive growth, how
+- [14:30] do you help employ how do you help
+- [14:31] employees quickly understand how the
+- [14:33] company operates?
+- [14:35] Openhouse was our solution and it's
+- [14:38] built through a very similar structure
+- [14:40] of connectors, orchestration and
+- [14:41] services. But the difference is now we
+- [14:44] have people and HR systems at the core
+- [14:47] of this uh agentic framework. So at the
+- [14:50] bottom here you have HR systems things
+- [14:52] like workday where you're connecting
+- [14:53] sort of personnel records and who's in
+- [14:56] each role what the expectations of the
+- [14:58] role is. You have uh some vectorized
+- [15:00] documents here and I want to focus on
+- [15:02] this CMS here. This was sort of trying
+- [15:04] to solve the problem of you have all
+- [15:07] this all these events happening across
+- [15:09] your uh company things like
+- [15:11] announcements uh new updates to maybe
+- [15:13] key policies and it's really easy to get
+- [15:16] kind of lost in the shuffle right so
+- [15:18] this CMS is actually capturing each of
+- [15:20] those little bits of information
+- [15:22] happening across our organization and
+- [15:24] it's storing them so that I can easily
+- [15:26] access them inside of a single system
+- [15:28] and we're going to see that in just a
+- [15:29] second. We have the same spine in the
+- [15:31] middle but now different skills. So we
+- [15:33] have our company knowledge, our people
+- [15:35] connector. Uh we have career growth
+- [15:37] which kind of helps me understand my
+- [15:39] expectations for my role. And then
+- [15:41] self-improvement uh driven by the same
+- [15:43] kind of eval and guard rules bit. Um and
+- [15:46] finally surfaces where we're trying to
+- [15:47] build this directly into our team's flow
+- [15:49] of work with chatbt Slack where it's
+- [15:52] kind of added as like a Q&A bots that
+- [15:55] can respond in some of these kind of
+- [15:56] global company channels. And finally,
+- [15:58] chatkit, which we're going to look at uh
+- [16:00] right now. So, we are looking now at
+- [16:04] openhouse. Okay, I'm going to walk
+- [16:06] everyone through what openhouse is and
+- [16:08] then talk about how I used it last
+- [16:10] month. So, on the left here, we have
+- [16:12] directory, announcements, videos,
+- [16:14] resources, and support by team. These
+- [16:17] are all kind of sub widgets where I can
+- [16:18] explore some more information. Um in the
+- [16:21] middle here, you have in case you missed
+- [16:22] it, um this is where those kind of
+- [16:24] announcements get bubbled up, right? Um,
+- [16:26] Slack can kind of be chaos. This is
+- [16:28] where you go to know the pieces of
+- [16:30] information you really need to see that
+- [16:31] are relevant to your role. And then
+- [16:33] finally, in the middle here, we have
+- [16:34] this common kind of chat format. Um,
+- [16:36] which we're going to use right now. So,
+- [16:40] about a month ago, I was taking a trip
+- [16:41] to New York. Uh, I was trying to visit a
+- [16:43] customer for an on-site. And for any new
+- [16:46] employee who's trying to travel to a new
+- [16:47] office, right, the first thing you want
+- [16:49] to know is like, how can I access the
+- [16:51] office? Like, what's the travel policy?
+- [16:53] and uh how can I sort of make this trip
+- [16:56] successful? Um, so previously you might
+- [16:58] like message a few of your co-workers
+- [17:01] like hope you find the office manager
+- [17:03] and maybe worst case scenario you like
+- [17:05] book something that's out of policy and
+- [17:07] then your expense report gets denied bad
+- [17:10] outcome right now you can just start
+- [17:12] with openhouse and so I took that
+- [17:14] question directly to openhouse and I
+- [17:16] asked hey I'm visiting New York office
+- [17:18] can you help me with the travel policy
+- [17:19] how to access the office I get this kind
+- [17:22] of summarized chain of thought here and
+- [17:24] then I get this nice sort of chat ready
+- [17:26] answer. Obviously, very familiar format
+- [17:28] to people who are using chat daily. We
+- [17:30] have our citations though here too. And
+- [17:33] I'm going to actually click into our
+- [17:34] office guide book here over on the
+- [17:35] right. Um, this is sort of maintained by
+- [17:38] our office manager. We get all the
+- [17:39] details here including like where I
+- [17:41] should sit, how to access the office.
+- [17:43] Um, travel policy was back on that main
+- [17:46] page. And I could actually click into
+- [17:47] our Slack channel right here and I would
+- [17:49] see, you know, what's for lunch, right?
+- [17:52] So, first off, now I can access the
+- [17:54] office. Obviously that's great. Probably
+- [17:56] could have done that you know I just
+- [17:57] finding the right file. What's really
+- [18:00] though taking this one step further is
+- [18:02] you know I had this customer demo right
+- [18:04] I was meeting with a customer talking
+- [18:05] about go to market use cases for our
+- [18:07] technology obviously a bit familiar. Um
+- [18:10] and so I could take that same question
+- [18:12] right here and you can see me asking now
+- [18:15] is anyone on my team in New York that
+- [18:17] could help me build a great use case for
+- [18:19] go to market uh go to market use of our
+- [18:21] technology. It's gonna now look
+- [18:24] primarily at our directory. So, this
+- [18:26] mapping of kind of all of our employees
+- [18:28] and these like internal wiks. And it's
+- [18:30] going to bring to me I got five
+- [18:31] different profiles here. Um, and I'm
+- [18:33] going to click into Joe's. It's
+- [18:35] highlighting Joe's might be relevant
+- [18:36] here. I can go into the sources on the
+- [18:38] right here. And now I see Joe's kind of
+- [18:40] personalized profile. Um, every employee
+- [18:43] at OpenAI is actually filling these out
+- [18:45] um as a part of their new hireer
+- [18:46] onboarding. Now, we're also kind of
+- [18:48] prepopulating with some of those kind of
+- [18:50] HR and people systems data. And so it
+- [18:52] looks like Joe actually has some
+- [18:53] expertise in building customer demos.
+- [18:57] And so what I can do here is I can just
+- [18:58] click down on the Slack button here to
+- [19:00] the to the left. Um quickly jump into
+- [19:03] Slack, send Joe a message, say that I'm
+- [19:05] visiting New York next week. U see
+- [19:07] details right here for the demo I'm
+- [19:09] trying to drive. Said openhouse was a
+- [19:11] suggested that I was a good person to
+- [19:13] meet with. Um asked him if he has time
+- [19:15] and he could respond directly in thread
+- [19:18] and it looks like he's there. So what
+- [19:21] happened here is that I was able to tune
+- [19:24] in to the institutional knowledge that
+- [19:26] exists across the entire organization.
+- [19:28] Usually that's sort of locked in these
+- [19:30] silos and what openhouse allowed me to
+- [19:32] do was ask the question, get an answer,
+- [19:34] connect with a co-orker and then bring
+- [19:36] that directly to the customer. Our teams
+- [19:39] have also been engaging through these
+- [19:41] same patterns and about 75% of our
+- [19:43] employees are using openhouse every
+- [19:45] single week. And the reason that it's so
+- [19:47] high is that it's built on good data. It
+- [19:49] was designed around real questions and
+- [19:51] it's very easy to use. Okay, we're we
+- [19:55] got through two. We're at the third demo
+- [19:57] or the third use case today. We're going
+- [19:59] to talk about support. Um support is
+- [20:01] this world of massive data and sort of
+- [20:04] operational complexity. And at at
+- [20:06] OpenAI, we have, you know, hundreds of
+- [20:08] millions of users and millions of
+- [20:10] support ticket questions every single
+- [20:12] year with a relentless rate of change.
+- [20:16] Now many companies face like some
+- [20:18] element of scale. Far fewer face maybe
+- [20:21] scale at the same time as hyperrowth and
+- [20:25] hardly any do that while also building a
+- [20:27] technology that can change the equation.
+- [20:30] And so we tried to tackle support for
+- [20:33] more of a engineering and design
+- [20:34] operations challenge to think about how
+- [20:37] we could build a model where every
+- [20:39] interaction improves the next. And so
+- [20:42] here's a concrete example of kind of the
+- [20:44] scale we're talking about. You're
+- [20:45] looking at service tickets over time and
+- [20:48] in the middle here you see the launch of
+- [20:50] image gen. Uh if people remember that
+- [20:52] from like a few months ago, we had
+- [20:54] several magnitudes our normal ticket
+- [20:56] volume in just a few days. Uh and over a
+- [20:59] 100 million users added in just a few
+- [21:02] days. Um obviously, you know, anyone on
+- [21:05] the growth team is looking at this being
+- [21:06] like great, five-star, this is exactly
+- [21:09] what you want to see. But from a
+- [21:11] customer support standpoint, this is
+- [21:12] really unworkable and it's unscalable
+- [21:15] with any sort of traditional model.
+- [21:18] So we started by defining the process.
+- [21:20] We reviewed all of our conversation logs
+- [21:23] with specialists or maybe not all of
+- [21:24] them. We spoke picked thousands of
+- [21:26] conversations to review with
+- [21:27] specialists. We defined gold standards
+- [21:29] for how should an agent behave here?
+- [21:32] When should it respond to the customer
+- [21:34] quickly? When should it escalate for
+- [21:35] support? When should it tag for audit uh
+- [21:37] for added complexity? We then codified
+- [21:40] all of those standards into knowledge uh
+- [21:43] and we call our knowledge in the sale in
+- [21:45] the support world SOPs or sort of
+- [21:47] standardized operating procedures. Those
+- [21:49] are like an industry standard term. And
+- [21:51] then finally we took our SOPs and
+- [21:53] connected them to knowledge and eval so
+- [21:55] that we could drive this kind of
+- [21:56] self-improving loop where every
+- [21:58] interaction improves the next. See a lot
+- [21:59] of nodding heads. This is a familiar
+- [22:01] structure here. Now we're going to talk
+- [22:04] about uh the same framework. Right? So
+- [22:06] we're back to the same slide. This is
+- [22:07] the third time. And now we have support
+- [22:09] context embedded. We have customer
+- [22:11] tickets at the bottom and we have our
+- [22:13] kind of vectorized help center articles,
+- [22:15] our support SOPs. And the really key
+- [22:18] tiein here that was important for
+- [22:19] support is to make sure that as we saw
+- [22:21] novel patterns with new tickets that
+- [22:23] were maybe going directly to humans and
+- [22:25] maybe cases where our automation was
+- [22:27] failing that that was driving
+- [22:29] self-improvement loops that directly
+- [22:30] updated the SOPs so that you have this
+- [22:33] kind of self-improving system that can
+- [22:35] really scale with volume. In the middle,
+- [22:37] we have ticket classification and
+- [22:39] actions as kind of the core skills. And
+- [22:41] then distribution inside of the help
+- [22:43] center, which we're going to look at in
+- [22:44] just a second, and also the real-time
+- [22:46] API, which is sort of more of an alpha
+- [22:48] product right now, uh, or this sort of
+- [22:50] application of that product where people
+- [22:51] can call in and get live support. Now,
+- [22:53] the really compelling thing about the
+- [22:54] real-time API here is we didn't have to
+- [22:56] significantly rearchitect this
+- [22:58] foundation because if you get this piece
+- [23:00] right, you can expand to multimodal and
+- [23:03] you can expand to more surfaces. I'm
+- [23:05] going to quickly show the support page
+- [23:07] here and uh headline here is we're
+- [23:09] spending 10 seconds here and that's
+- [23:11] because the point is that you ask a
+- [23:13] question you can get answers in your
+- [23:15] flow of work and as a users all you want
+- [23:17] from support is to get what you need and
+- [23:19] that's what this system can really drive
+- [23:21] at scale. A quick uh some quick hits on
+- [23:24] impact. We're seeing about 70% of our
+- [23:26] tickets now are deflected or sort of
+- [23:27] handled autonomously by this system.
+- [23:30] This system is outperforming our legacy
+- [23:31] system by about 30%. And about 80% of
+- [23:34] these tickets when manually reviewed by
+- [23:36] a QA team are rated as highly positive.
+- [23:40] So we just got through three use cases.
+- [23:42] We talked about uh sales, we talked
+- [23:43] about people, we talked about support.
+- [23:45] And what you saw from all three of these
+- [23:47] was agents that could collect content,
+- [23:50] collect context, they can make
+- [23:52] decisions, and they can take actions
+- [23:53] inside of your systems.
+- [23:56] You are also starting to see this sort
+- [23:58] of trend where every single department
+- [24:00] that we talked about today is operating
+- [24:02] a little bit like a software development
+- [24:04] team. And we think that trend is going
+- [24:06] to continue across every department
+- [24:08] inside of businesses across the globe.
+- [24:10] And that's going to create incredible
+- [24:12] opportunities for everybody in this room
+- [24:14] and for all of our developers to change
+- [24:16] the speed and shape of every part of
+- [24:18] your business. Now, to help you do the
+- [24:21] same inside of your business, uh you
+- [24:22] just heard from Sam on stage about agent
+- [24:24] kit. Um, again, agent kit is a sort of
+- [24:26] like starter kit for deploying these
+- [24:28] agents quicker. It includes agent
+- [24:30] builder, which is that kind of visual uh
+- [24:32] you're able to quickly map out the
+- [24:34] visual logic uh for your agent. We have
+- [24:36] chatkit, which is like that easible
+- [24:38] easily embeddible chat component. We
+- [24:41] have eval which allows you to drive some
+- [24:42] of those like self-improvement uh loops
+- [24:45] and performance at scale.
+- [24:48] So, great package there. Circling back
+- [24:50] to where we started, I asked the
+- [24:52] question, how do we use AI to amplify
+- [24:55] expertise,
+- [24:58] we challenge everyone in this room to
+- [25:00] start with these three items and frame
+- [25:03] it around a sprint that you can start
+- [25:05] this week. Number one is find your
+- [25:07] Sophie. Who is your like top operator
+- [25:10] that is excited to automate and
+- [25:12] orchestrate their work, understand their
+- [25:14] work and move in fast loops? The second
+- [25:17] is to build inside of familiar tools.
+- [25:20] You should not be building a separate
+- [25:21] set of software here. This is embedded
+- [25:23] into the tools that your teams are
+- [25:25] already using so that both using the
+- [25:27] tool and providing feedback on the tool
+- [25:29] is incredibly native. The third part
+- [25:32] here is scaled platforms. Pick agent
+- [25:34] kit. Build some of these common
+- [25:36] platforms so that you can really drive
+- [25:38] your velocity, your development velocity
+- [25:40] at scale.
+- [25:42] I challenge everyone in this room to go
+- [25:45] back to your companies and build
+- [25:47] something that your teams can't live
+- [25:50] without. Um, today we're going to be uh
+- [25:53] if you want to hear more from the
+- [25:54] builders at OpenAI, I'll be answering
+- [25:56] some questions on Discord. Uh, there's a
+- [25:58] Discord channel hopefully everyone has
+- [25:59] access to. Um, we also have the lead
+- [26:01] developers uh from each of the use cases
+- [26:04] that we just talked about today. Um,
+- [26:05] they'll kind of be hanging out over
+- [26:06] here. So, if you have specific
+- [26:07] questions, come on up and see us. Uh,
+- [26:10] hope everyone has a great rest of your
+- [26:11] dev day and thanks for joining us. We'll
+- [26:13] see you around.

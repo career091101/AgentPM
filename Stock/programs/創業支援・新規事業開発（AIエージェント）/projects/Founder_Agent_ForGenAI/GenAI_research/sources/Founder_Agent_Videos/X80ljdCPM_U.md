@@ -1,0 +1,646 @@
+---
+title: "Transcript: X80ljdCPM_U"
+video_id: "X80ljdCPM_U"
+video_url: "https://www.youtube.com/watch?v=X80ljdCPM_U"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:19:18"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: X80ljdCPM_U
+
+- URL: https://www.youtube.com/watch?v=X80ljdCPM_U
+- Retrieved at: 2025-12-30T11:15:53+09:00
+
+## Text
+
+- [00:00] So, Anthropic just released Cloud Sonnet
+- [00:02] 4.5, which is their newest AI model and
+- [00:04] their smartest AI model yet. So, today
+- [00:06] I'm going to be talking about how you
+- [00:07] can build anything with Sonnet 4.5 and
+- [00:10] NAND AI agents. Of course, we're not
+- [00:13] just going to be talking about it. I'm
+- [00:14] going to be showing you guys some stuff,
+- [00:15] too. So, we'll hop into NADN, and we'll
+- [00:17] actually experiment with a few things
+- [00:18] with Sonnet 4.5 in NADN. But before
+- [00:21] that, I think we just need to do a real
+- [00:23] quick overview of this new Sonnet 4.5
+- [00:25] release. So, here's what we got. Sonet
+- [00:27] 4.5 was released on September 29th of
+- [00:30] 2025. And yeah, I know it feels like a
+- [00:32] new foundational model is being dropped
+- [00:34] every single day. It's currently
+- [00:35] available for anyone and you can use it
+- [00:37] through cloud's web, iOS, Android apps,
+- [00:39] and you can also use it over API, which
+- [00:41] is why we're connecting it today into
+- [00:43] our AI agents. And basically, this is
+- [00:45] just Enthropic's latest model. Cloud
+- [00:47] Sonnet 4.5 is an artificial intelligence
+- [00:49] model designed to help with coding,
+- [00:51] building complex agents, running
+- [00:52] business and research workflows, and
+- [00:54] using computers like a human assistant.
+- [00:56] Here's a quote from Shawn Ward, CEO of
+- [00:58] IGENT AI. Sonnet 4.5 resets our
+- [01:01] expectations. It handles 30 plus hours
+- [01:03] of autonomous coding, freeing our
+- [01:04] engineers to tackle months of complex
+- [01:06] architectural work in dramatically less
+- [01:08] time while maintaining coherence across
+- [01:11] massive databases or sorry, code bases.
+- [01:13] In the past, one limitation of a lot of
+- [01:15] these models has been trying to work
+- [01:17] across tons and tons and tons of context
+- [01:19] over tons and tons of time and as like
+- [01:21] an ongoing project. So, it will be cool
+- [01:23] to see how Sonnet 4.5 changes this. And
+- [01:26] if you've heard of Enthropic, you've
+- [01:27] heard of Claude, you've heard of Opus.
+- [01:29] They're all basically baked into
+- [01:30] Anthropic's Claude model family. So,
+- [01:32] we've got a few different ones. We have
+- [01:33] Haiku, we have Sonnet, and we have Opus.
+- [01:36] They're all basically for different
+- [01:37] purposes. Haiku is faster and more
+- [01:39] affordable. Sonnet's a good balance, and
+- [01:40] then Opus is like a max power reasoning
+- [01:42] model. And as far as the cost, you can
+- [01:44] see the breakdown right here. Sonnet 4.5
+- [01:46] is the exact same cost as Sonnet 4. And
+- [01:49] as you can see, the Opus models, which
+- [01:50] are reasoning models, are a lot more
+- [01:52] expensive. So why is Sonnet 4.5 better
+- [01:54] than the previous Sonnet models? Well,
+- [01:57] according to the benchmarks and the
+- [01:58] metrics, which we'll look at after this
+- [02:00] slide, Sonnet 4.5 outperforms earlier
+- [02:02] models in coding, long runs, and real
+- [02:04] world agent tasks. It has stronger
+- [02:06] memory and can handle bigger projects
+- [02:08] without forgetting. And it costs the
+- [02:09] same as Sonnet 4, so you're getting more
+- [02:10] bang for your buck. Now, one thing I
+- [02:12] wanted to hit on real quick here is that
+- [02:13] the context window of this sonnet model.
+- [02:16] It's 200,000, which is a lot more tokens
+- [02:18] than you actually may think, but it's
+- [02:20] not as big as some of the other models
+- [02:22] out there. So, that is one of the things
+- [02:23] I would say is a limitation of this
+- [02:25] model. As you can see, looking at this
+- [02:27] Vellum AI arena with context window, you
+- [02:30] can see like, you know, Llama, Scout,
+- [02:32] Llama for Maverick, Gemini 2. Flash,
+- [02:34] these guys are in the millions. We even
+- [02:36] have GPD 4.1 Nano Mini and 4.1 the base.
+- [02:40] That's also a million. 2.5 Pro Gemini.
+- [02:42] And you can see GBD5 has 400,000. And
+- [02:45] the highest that Claude can go right now
+- [02:46] has been 200,000 unless you're on like
+- [02:48] the beta or enterprise plans. I believe
+- [02:50] those get up to a million. But still,
+- [02:52] I'll be showing you guys how much
+- [02:53] context we're going to shove into this
+- [02:54] agent and how 200,000 is still a lot of
+- [02:57] tokens. So, of course, I wanted to show
+- [02:59] you guys some benchmarks. So, let's look
+- [03:01] at some of these tests. This first one
+- [03:03] is the S. Bench verified, which is kind
+- [03:05] of like a coding or software engineering
+- [03:07] exam. Sonnet 4.5 scored an
+- [03:09] industry-leading 77 to 82% on this exam,
+- [03:13] meaning it can automatically fix or
+- [03:14] write real world software and handle
+- [03:16] coding tasks with the skill of a
+- [03:18] professional developer, which is huge
+- [03:19] for beginners like me in coding because
+- [03:22] we can actually trust it to help solve
+- [03:24] our programming problems. And I recently
+- [03:26] just did one of these exact same types
+- [03:27] of videos when GBT5 dropped. And you can
+- [03:30] see that GBT5 ranked down here and
+- [03:32] sonnet 4.5 is already beating GBT5 and
+- [03:36] Codeex. We can also see according to
+- [03:38] this table that sonnet 4.5 leads all
+- [03:41] models in key tests like coding,
+- [03:43] computer use, financial analysis, which
+- [03:46] means that it's currently the best for
+- [03:47] automating real software jobs and
+- [03:49] handling complex computer tasks. And I
+- [03:51] know I'm going pretty fast through this.
+- [03:52] I just want to get into the fun stuff in
+- [03:54] Nen. So if you want to see the actual
+- [03:55] release doc from Anthropic, just look up
+- [03:57] Cloud Sonnet 4.5 release notes or I'll
+- [03:59] also put it in the description of this
+- [04:01] video. Now, this one I thought was
+- [04:02] pretty interesting, which is also on the
+- [04:04] anthropic release doc, but you can see
+- [04:06] we've got finance, medicine, law, and
+- [04:09] STEM. And in orange up top, we have
+- [04:11] Sonnet 4.5, which is outperforming
+- [04:13] pretty much all of the other clawed
+- [04:14] family models in these categories. And
+- [04:17] this basically means that Sonnet 4.5 is
+- [04:19] much better at answering complicated
+- [04:20] questions about finance, law, medicine,
+- [04:22] and science than earlier AI models. So,
+- [04:25] it gives more accurate and expert level
+- [04:27] advice on these topics, which is going
+- [04:28] to be really important when you're using
+- [04:30] AI agents. You still have to prompt your
+- [04:31] agents with your subject matter
+- [04:33] expertise and give them the right tools
+- [04:34] and context they need to get the job
+- [04:36] done, but this is a really nice baseline
+- [04:38] to start from. Now, of course, how
+- [04:39] practical is this stuff? How does Sonnet
+- [04:41] 4.5 and NADN revolutionize automation?
+- [04:44] Well, we have smarter automation to
+- [04:46] start with. Sonnet's experting and
+- [04:48] coding skills let NAND automations
+- [04:50] think, fix problems, and adapt to
+- [04:52] problems. We also have tons of custom
+- [04:54] power in one workflow because we can run
+- [04:56] really advanced flows and have these
+- [04:58] really advanced models in them as well.
+- [05:00] And the idea still is that, you know, AI
+- [05:02] should automate stuff, but you should be
+- [05:03] there for human approval and feedback
+- [05:05] loops. But we're getting closer to the
+- [05:07] point where it used to be like, okay, I
+- [05:08] would trust AI to do 60%, now 70%, now
+- [05:11] 80%. And we're just slowly creeping up
+- [05:13] that spectrum. Of course, it's getting
+- [05:14] more and more accessible. So, NADN is
+- [05:16] already very accessible in the
+- [05:17] beginning. I don't have coding
+- [05:18] background. A lot of the people that I'm
+- [05:20] teaching don't have coding backgrounds.
+- [05:21] So nen plus a model that's getting
+- [05:24] better and better at coding and
+- [05:25] reasoning and needs less of a system
+- [05:28] prompt. It just decreases the barrier to
+- [05:30] entry for getting into building custom
+- [05:32] AI automations. And then of course the
+- [05:34] industry impact of being smarter in
+- [05:35] areas that are really key like finance,
+- [05:37] law, medicine, and science and of course
+- [05:40] coding. So we're about to get into
+- [05:41] NIDEN. I'm going to show you guys how we
+- [05:43] can connect Sonnet 4.5 to our AI agents.
+- [05:45] I'm going to show you guys an example of
+- [05:47] some content creation with the base
+- [05:48] model. We'll compare it to some other
+- [05:50] models and see how well it does. We're
+- [05:51] also going to do a context window
+- [05:53] evaluation. So, we're going to shove a
+- [05:54] ton of information in it and we're going
+- [05:56] to see how well it's able to pick out
+- [05:57] the right answers from that context. And
+- [05:59] then we're going to throw a ton of tools
+- [06:00] at it and not even give it a system
+- [06:02] prompt and see how well it can handle
+- [06:03] all those. So, that sounds good. Let's
+- [06:05] get into edit end. All right. So, first
+- [06:06] things first, I want to show you guys
+- [06:07] how we can connect to Sonnet 4.5 within
+- [06:10] our AI agents. So, you can see we have
+- [06:12] an AI agent here and what we need to do
+- [06:13] is connect a brain. So, I'm going to
+- [06:15] click on chat model and I'm going to
+- [06:16] choose anthropic. But I've seen an issue
+- [06:19] with this. Let me show you guys what I
+- [06:20] mean by that and then I'll show you how
+- [06:21] we can fix it. But what we have here is
+- [06:23] Enthropic. What you need to do is go in
+- [06:25] here and create an Anthropic account. So
+- [06:28] you would basically just come here,
+- [06:29] click create new credential, and it
+- [06:30] prompts you for an API key. You would
+- [06:32] then just go to Google and type in
+- [06:33] Anthropic Claude console. And it should
+- [06:35] look like this. Once you get in here,
+- [06:37] this is different than your regular, you
+- [06:39] know, chat with Claude environment. You
+- [06:41] need to make sure that you put in some
+- [06:42] billing information. So just put in a
+- [06:44] card. And then when you go to this
+- [06:45] section down here called API keys, all
+- [06:47] you have to do is click create a key.
+- [06:49] Give it a name. It will give you this
+- [06:51] string to copy. And then you're just
+- [06:52] going to paste that right in here. Hit
+- [06:54] save and you should go green. Once you
+- [06:56] do that, you should be able to open up
+- [06:57] this list of models. And you can see
+- [06:59] right here we have sonnet 4.5. And let
+- [07:02] me show you guys what I've noticed with
+- [07:03] this model. When I go here and I say
+- [07:06] hello, I basically get this issue which
+- [07:08] is bad request check your parameters.
+- [07:10] and it says that top_p cannot be set to
+- [07:13] negative 1. And if I go to top p, it's
+- [07:16] actually not set to negative 1. And then
+- [07:17] I get this other issue where it says
+- [07:19] something's wrong with the temperature.
+- [07:20] So I think it's just an issue right now
+- [07:22] with sonnet 4.5 through anthropic
+- [07:25] because if I go to sonnet 4 and I repost
+- [07:27] the same message, we have no problem.
+- [07:30] So the workaround right now and the way
+- [07:32] that I would advise you to do it anyways
+- [07:34] is to grab an open router chat model.
+- [07:36] This is basically the same thing because
+- [07:38] it lets you connect to tons of different
+- [07:39] models. And once again, all you need to
+- [07:41] do is put in an API key. So you'd go to
+- [07:43] open routouter.ai. You can see, you
+- [07:45] know, you can route to as many different
+- [07:47] models as you want. And then you would
+- [07:48] just come up here top right, go to keys,
+- [07:50] and you would create a new key. And
+- [07:52] you'll copy that. You'll put that into
+- [07:54] here. And then you'll be good to go. And
+- [07:55] now we can go ahead and grab a sonnet
+- [07:57] 4.5. And if I say hello, you can see
+- [08:00] that it's actually going to work through
+- [08:02] open router. And now we're good with
+- [08:05] sonnet 4.5. And I would actually just
+- [08:06] recommend to use open router anyways
+- [08:08] because you can track all of your usage
+- [08:10] across all of your different chat models
+- [08:11] and you can just keep your billing
+- [08:13] information in one spot. So I like to
+- [08:15] use an open router. So anyways, let's
+- [08:16] move on to our first experiment which is
+- [08:18] some content creation. So what's going
+- [08:20] on here is we have an AI agent and it
+- [08:23] has no system prompt at all. So the only
+- [08:25] thing it's getting is this same input
+- [08:27] which is just saying create an HTML
+- [08:29] styled email which must be like a
+- [08:31] professional report about the effects of
+- [08:33] getting lowquality sleep or not much
+- [08:35] sleep at all. In this first example
+- [08:37] we're going to try it with GPT 4.1. So
+- [08:40] we just got that back. Let's see how
+- [08:41] that turned out. All right. So here we
+- [08:42] are. The impact of not getting enough
+- [08:44] sleep. Keep in mind I didn't give it any
+- [08:46] assistant prompting at all. So we've got
+- [08:47] key effects. We have a little quote
+- [08:49] right here. And then we have tips for
+- [08:51] better sleep. And you can see pretty
+- [08:52] concise, but not too bad. Now, we're
+- [08:54] going to go ahead and run it again. This
+- [08:56] time, we're using Sonnet 4.5. Keep in
+- [08:59] mind, no system prompt and same exact
+- [09:01] input. So, I'll check in with you guys
+- [09:02] when we get this back. All right, so
+- [09:04] here's what we just got for set 4.5. You
+- [09:06] can see it's a lot more colorful with
+- [09:07] the HTML. We've got the effects of sleep
+- [09:09] deprivation. We have a quote about sleep
+- [09:12] is not luxury. We've got seven to nine
+- [09:14] hours recommended. 35% of adults don't
+- [09:16] get enough. It then goes into some
+- [09:18] health consequences on your
+- [09:19] cardiovascular system, weight gain,
+- [09:21] weakened immune function, mental and
+- [09:23] cognitive effects. Got little important
+- [09:25] notants here. And so the point being,
+- [09:27] look how detailed this one is and how
+- [09:29] good it actually is formatted. We've got
+- [09:31] recommendations for better sleep. And so
+- [09:32] what's cool about this is if you
+- [09:34] remember this agent has zero system
+- [09:36] prompt and it has zero tools. So it was
+- [09:38] able to pull this all just off the base
+- [09:39] model itself. And we're going to run one
+- [09:41] last one with probably Sonnet's at this
+- [09:43] point biggest competitor which is GPT5.
+- [09:46] So I'll check in with you guys when we
+- [09:48] get that email back and we'll see how
+- [09:50] much we like it compared to Sonnet 4.5.
+- [09:53] All right, here is the example for GPT5,
+- [09:55] the effects of not getting enough sleep.
+- [09:57] We have key takeaways. We have what
+- [09:59] happens if you don't get enough sleep,
+- [10:00] cognitive, mood and mental, metabolic
+- [10:02] and hormonal, cardiovascular, short-term
+- [10:05] effects, long-term risks. It also goes
+- [10:07] into some signs that you may be sleepd
+- [10:09] deprived. It also hits on the 7 to N
+- [10:11] hours per night being enough sleep.
+- [10:13] We've got some practical steps to
+- [10:14] improve your sleep and when to seek
+- [10:16] professional help. So, I'd say it's
+- [10:17] pretty similar to Enthropics. This one
+- [10:20] actually does include some sources at
+- [10:21] the bottom, which is pretty cool. And it
+- [10:23] actually does look, in my opinion, a
+- [10:24] little more professional as like a
+- [10:26] report. Once again, this was Sonnet 4.5,
+- [10:28] so it was colorful. It's impressive
+- [10:30] still, but actually, I think that I
+- [10:32] would probably prefer ChachiBt 5s in
+- [10:35] this case. Okay, so right now in the
+- [10:37] mental scorecard, I've got GBT up for
+- [10:40] now, but let's see what happens on this
+- [10:42] next one, which is going to be the
+- [10:43] context window evaluation. So, we're
+- [10:45] actually going to be using any
+- [10:47] evaluation feature, and we have
+- [10:49] questions ready to go. And what we have
+- [10:51] in the system prompt of this agent is
+- [10:53] literally just that you are a helpful
+- [10:55] agent. And then we put in an entire PDF.
+- [10:59] So, this was like Apple's 10K. And here
+- [11:01] is the actual doc that we pulled from.
+- [11:03] So, this is a 121page PDF with just tons
+- [11:06] and tons of information in here. And
+- [11:08] when we run this, you guys will see that
+- [11:10] this entire PDF is just under 100,000
+- [11:12] tokens. So, it's well within the limit
+- [11:14] of Sonnet 4.5. But anyways, what we're
+- [11:17] going to do is we're going to start off
+- [11:18] here with GPT5. I'm going to go to the
+- [11:21] evaluations tab and I'm just going to go
+- [11:22] ahead and run this test and we're going
+- [11:24] to get back an average correctness score
+- [11:26] and I'll also tell you guys how much
+- [11:28] each of these runs is costing. So, I'll
+- [11:30] check back in with you guys once this
+- [11:32] run finishes up from GBTE 5. All right,
+- [11:35] so GBT5 just finished up and you can see
+- [11:38] that it got a correctness score of 4.2.
+- [11:40] So, I'm just going to go ahead and real
+- [11:41] quick switch this chat model to Sonnet
+- [11:44] 4.5 and we're going to go ahead and run
+- [11:46] it again and we have to see if it's
+- [11:48] going to beat 4.2. So, I'm going to
+- [11:50] start this test and we will see. And
+- [11:52] actually, I just noticed something
+- [11:53] really interesting. So we have the model
+- [11:55] comparison between GBD5 and Claude
+- [11:57] Sonnet 4.5 right here in open router and
+- [11:59] you can see first of all that GBD5 is
+- [12:01] cheaper so about half the cost on the
+- [12:03] input tokens and a little bit cheaper on
+- [12:05] the output tokens as well but what's
+- [12:07] interesting here is that through open
+- [12:08] router it looks like we actually get a
+- [12:10] context window of a million and so I
+- [12:12] think if you would have gone through
+- [12:13] anthropics console you would only get
+- [12:14] 200k but I guess we get access to the
+- [12:17] beta or enterprise version of sonnet 4.5
+- [12:20] through open router so that's a huge
+- [12:21] plus but because of the price
+- [12:23] difference. If Enthropic doesn't score
+- [12:25] better on this specific evaluation, then
+- [12:27] for this specific use case, then I would
+- [12:29] go with GBT5. But of course, that's why
+- [12:31] evaluations are here because depending
+- [12:32] on the use case, the different models
+- [12:34] are going to perform differently. All
+- [12:36] right, so 4x5 just finished up and you
+- [12:39] can see that it just barely beat GPT5
+- [12:41] with a 4.3 correctness and this is out
+- [12:43] of five. Now, one thing I wanted to say
+- [12:45] is that I only ran 10 use cases, which
+- [12:47] is way too small of a data set to really
+- [12:49] know if a model is better or not. But I
+- [12:52] just wanted to show you guys real quick
+- [12:53] how I would start to think about
+- [12:54] objectively comparing two different
+- [12:56] models. Now, one thing to keep in mind
+- [12:58] here is with the price. So, if these
+- [13:00] things were the exact same price, I
+- [13:01] would probably prefer Sonnet 4.5 in this
+- [13:04] use case. But, as we know, GBT is a
+- [13:06] little bit cheaper. And if we go to my
+- [13:07] activity here in Open Router, you can
+- [13:09] see that each one of those runs was
+- [13:11] taking about 96,000 tokens for Sonnet
+- [13:13] 4.5, and that comes in at just about 30.
+- [13:16] And when we look at the previous
+- [13:17] evaluation, it was taking about 90,000
+- [13:19] tokens for GPT5, which it's coming in
+- [13:22] here at zero, but when you do the math,
+- [13:23] it's about 10 to 12 cents. So about half
+- [13:26] the cost. And so then the question, of
+- [13:28] course, is is it worth it to pay half
+- [13:30] and get similar results. What I would
+- [13:32] say is you probably want to run more
+- [13:34] than just 10 evaluation sets. You
+- [13:36] probably want to run close to 100, maybe
+- [13:38] even 200, and then you have way more
+- [13:40] data to actually pick from. So I
+- [13:41] actually came back real quick while I
+- [13:42] was editing cuz I wanted to just run a
+- [13:44] few more models. And you can see it's
+- [13:45] really interesting. In general, they're
+- [13:47] scoring pretty high. This one was sonnet
+- [13:49] 4. This one was Gemini Flash, which is
+- [13:52] really good at needle in the haststack
+- [13:54] test or scanning tons of context and
+- [13:56] picking out the right stuff. This was
+- [13:58] GBT40. This was sonnet 3.5. And this was
+- [14:00] DeepSeek R1. The point being, all of
+- [14:02] these have a different amount of tokens
+- [14:04] and how long it took and all this kind
+- [14:06] of stuff. So, you really got to run also
+- [14:08] more than just 10 questions through the
+- [14:10] data set. But it's all about figuring
+- [14:12] out which specific model of which
+- [14:13] specific foundational family is optimal
+- [14:16] for this specific use case. Anyways,
+- [14:18] thought you guys might find that
+- [14:19] interesting. Let's get back to the
+- [14:21] video. But anyways, I hope that this was
+- [14:22] insightful and shows you guys maybe how
+- [14:24] you could start to think about choosing
+- [14:26] between different models. So with that,
+- [14:27] let's head on to the final experiment,
+- [14:29] which is doing some tool calling with
+- [14:30] our agents in NAND. Okay, for the final
+- [14:34] example, what we're going to do is we
+- [14:35] have Sonnet 4.5, as you can see, hooked
+- [14:37] up to a ton of these different tools. So
+- [14:40] basic stuff like sending emails,
+- [14:41] managing calendar events, and searching
+- [14:43] the web, stuff like that. So what I'm
+- [14:44] testing here is how quickly could a
+- [14:46] beginner come into edit and hook up some
+- [14:49] tools to an agent. And we don't even
+- [14:50] have a system prompt in here. All we're
+- [14:52] doing is giving it today's time and
+- [14:53] date. So let's start off with a quick
+- [14:55] example. I'm going to say, use your
+- [14:57] contact database to get Michael Scott's
+- [15:00] email and send him an email telling him
+- [15:03] I'm going to be 20 minutes late to
+- [15:04] today's meeting. So we will go ahead and
+- [15:06] shoot that off. We will hide the chat
+- [15:08] and we'll see what it's thinking about
+- [15:09] doing here. Okay. Interesting. So, we're
+- [15:11] getting an issue with the way that it's
+- [15:13] trying to parse the tool arguments for
+- [15:15] the chat model. So, I'm curious if maybe
+- [15:17] that was an issue because of the tools
+- [15:19] rather than calling certain things like
+- [15:22] subworkflows. So, I'm going to try it
+- [15:24] again in this workflow where we have an
+- [15:25] ultimate assistant with sub aents rather
+- [15:27] than just tools. So, I'm telling the
+- [15:29] agent to do research on voice agents and
+- [15:31] then send it to Michael Scott. And you
+- [15:34] can see what's happening here is it's
+- [15:35] using Plexity. It's also calling the
+- [15:38] contact agent. And now we'll see if it's
+- [15:40] able to pass that information into the
+- [15:41] email agent and send that email for us.
+- [15:44] So far so good. You can see it was able
+- [15:45] to call the email agent as well. Okay,
+- [15:47] so you can see it actually finished up
+- [15:48] and it said that it did all of that
+- [15:50] stuff for us. Let's go take a look at
+- [15:51] the email. All right, so it was able to
+- [15:53] send this to the correct email for
+- [15:55] Michael Scott. We have AI voice agents
+- [15:57] are intelligent software systems that
+- [15:58] understand, interpret, and respond to
+- [16:00] human speech in real time. How they
+- [16:02] work. We have NLP. We have TTS. We have
+- [16:05] current applications, benefits, and
+- [16:07] latest developments. And then a sign off
+- [16:08] from Nate. So, as you can see, it's more
+- [16:10] than capable of handling stuff like
+- [16:12] this. The issue over here was just
+- [16:15] because it was trying to use tools
+- [16:17] straight up rather than subworkflows for
+- [16:20] some reason. And honestly, I'm not
+- [16:21] exactly sure why that's happening. And
+- [16:23] here you can see that we're using Claude
+- [16:24] Sonnet 4.5. You also saw that it called
+- [16:27] Perplexity and it didn't have an issue
+- [16:28] there. And the tools that we're using
+- [16:30] within these agents down here are the
+- [16:32] exact same tools that we have right
+- [16:34] here. And so if we have just this base
+- [16:36] Sonnet 4.5 agent with just one tool to
+- [16:38] send an email and I say please send an
+- [16:41] email to nateample.com
+- [16:43] asking what's up and we shoot that off.
+- [16:46] Is it going to be able to do this or
+- [16:47] not? Maybe it was just overwhelmed.
+- [16:48] Okay, so it looks like maybe it was just
+- [16:50] overwhelmed with all of the tools that
+- [16:51] it had access to. And you can see we did
+- [16:53] get that email to nateample.com asking
+- [16:56] what's up. Okay, let's try another one.
+- [16:57] I've just now added two more tools and
+- [16:59] I'm going to go ahead and say, "Please
+- [17:01] do research on the difference between
+- [17:02] dogs and cats and send that as an email
+- [17:04] to nate@acample.com
+- [17:06] and also create a calendar event for
+- [17:08] lunch today at 2 p.m. with bob
+- [17:12] atample.com." Okay, let's see if it can
+- [17:14] handle those requests with three tools.
+- [17:16] There is no system prompt in here
+- [17:17] besides the date and time. It just
+- [17:19] created the calendar event. It just
+- [17:20] searched Tavi and it looks like it's
+- [17:22] going to have no problem sending that
+- [17:24] research back to the email tool and it
+- [17:28] should be able to send that email. Okay,
+- [17:29] cool. So, that all finished up. If I go
+- [17:31] into my calendar real quick, we have
+- [17:32] lunch with Bob and it has Bob
+- [17:34] atample.com. We also in my email have
+- [17:36] two Nate@acample.com research on the
+- [17:39] difference between cats and dogs. And
+- [17:40] this is formatted pretty weird because
+- [17:42] of the way that the tool was set up in
+- [17:43] here. As you can see, it was just set up
+- [17:45] to send HTML, not text. So, it came
+- [17:47] through weird. But the point is that it
+- [17:50] can call tools and it doesn't have
+- [17:52] issues here as you can see. I think for
+- [17:54] some reason I just overwhelmed it with
+- [17:55] too many tools. And that's not even a
+- [17:57] realistic example of what you'd want to
+- [17:59] do with that many tools because it
+- [18:01] worked perfectly over here when we had
+- [18:02] the ultimate assistant where we had all
+- [18:04] of these tools grouped into specialized
+- [18:06] agents and that worked a lot better. So
+- [18:08] that wraps up the experiments that we
+- [18:10] had for today. Ultimately, when it comes
+- [18:12] to choosing a chat model, what I usually
+- [18:13] do is I stick with something to start
+- [18:15] with, like a GBT40 or a five. And then
+- [18:17] from there, I'll think, okay, based on
+- [18:19] this use case right now, what model do I
+- [18:22] think might be better? And then I'll run
+- [18:23] evaluations to see if it's better or
+- [18:24] not. The more you play with agents, the
+- [18:26] more you'll start to understand which
+- [18:27] ones you like to use for certain
+- [18:28] scenarios. So, it's hard to say that
+- [18:30] like, you know, Sonnet 4.5 is the new
+- [18:33] king of LLMs because every LLM is better
+- [18:35] at different things. But the good news
+- [18:37] is if you want to be in a community
+- [18:38] where you can constantly have
+- [18:39] conversations like this and hear what
+- [18:41] other people are using for different use
+- [18:42] cases then definitely check out my plus
+- [18:44] community. The link for this is down in
+- [18:45] the description. We've got a great
+- [18:46] community of over 2500 members who are
+- [18:48] building with nodn every day and
+- [18:50] building businesses with nodn. We've
+- [18:51] also got a classroom section with three
+- [18:53] courses right now. We've got agent zero
+- [18:54] which is the foundations for beginners.
+- [18:56] We've got 10 hours at 10 seconds where
+- [18:58] we dive into nodn. And then we have one
+- [18:59] person AI agency which is our new course
+- [19:02] for annual members where we talk about
+- [19:04] laying the foundation for a scalable AI
+- [19:06] automation business. So I'd love to see
+- [19:08] you guys in these calls and in this
+- [19:09] community. But that's going to do it for
+- [19:10] the video. If you enjoyed or you learned
+- [19:12] something new, please give it a like. It
+- [19:13] definitely helps me out a ton. And as
+- [19:15] always, I appreciate you guys making it
+- [19:16] to the end of the video. I'll see you on
+- [19:18] the next one. Thanks everyone.

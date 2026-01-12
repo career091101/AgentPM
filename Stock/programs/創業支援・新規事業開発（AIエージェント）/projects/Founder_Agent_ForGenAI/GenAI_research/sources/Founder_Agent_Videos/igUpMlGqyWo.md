@@ -1,0 +1,446 @@
+---
+title: "Faltorians uh predictability cost efficiency that is what will define AI agents for the enterprise i..."
+video_id: "igUpMlGqyWo"
+video_url: "https://www.youtube.com/watch?v=igUpMlGqyWo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Faltorians uh predictability cost
+  efficiency that is what will define AI
+  agents for the enterprise in the future.
+key_points:
+  - "efficiency that is what will define AI"
+  - "agents for the enterprise in the future."
+  - "introduction of the company. If you are"
+  - "not aware Jet Brains is the vendor of"
+  - "assistant in our ideas. We also trained"
+  - "the Melo model which is the best LLM for"
+  - "agent, coding assistant that works in"
+  - "these ones are based on um cook"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: igUpMlGqyWo
+
+- URL: https://www.youtube.com/watch?v=igUpMlGqyWo
+- Retrieved at: 2025-12-30T15:57:14+09:00
+
+## Text
+
+- [00:00] Faltorians uh predictability cost
+- [00:02] efficiency that is what will define AI
+- [00:06] agents for the enterprise in the future.
+- [00:09] So let me first start with the
+- [00:11] introduction of the company. If you are
+- [00:14] not aware Jet Brains is the vendor of
+- [00:17] the professional IDs such as Intelligj,
+- [00:19] PyCharm and multiple others.
+- [00:22] But other than that we have a Jet Brains
+- [00:25] AI brand. So who heard about Jet Brains
+- [00:29] CI?
+- [00:30] Okay, quite quite some people sounds
+- [00:33] good. So um just a brief uh overview. So
+- [00:36] in Jet Brains we have created AI
+- [00:39] assistant in our ideas. We also trained
+- [00:42] the Melo model which is the best LLM for
+- [00:46] code completion in the world and it's a
+- [00:48] local model and it's open source.
+- [00:51] Uh we also have um AI agent uh called
+- [00:55] Juny. It's a fully autonomous coding
+- [00:58] agent, coding assistant that works in
+- [01:00] the ID and it helps you to automate
+- [01:02] coding tasks. And uh quite recently,
+- [01:06] actually like a few weeks ago or maybe
+- [01:08] less, uh we announced a matter. Do you
+- [01:11] know why? Because every person in the
+- [01:14] development team matters. It's a
+- [01:17] collaborative AI agent environment in
+- [01:20] the cloud that brings in developers, QA
+- [01:24] uh like product managers, designers all
+- [01:27] to work together on the same products
+- [01:30] using AI agents
+- [01:32] and uh most of our AI products not only
+- [01:35] these ones are based on um cook
+- [01:38] framework
+- [01:40] which is um the combination all of this
+- [01:43] AI experience that we have in Jet
+- [01:45] Brains.
+- [01:47] And um yeah uh what what did we learn
+- [01:50] with from all of this experience? First
+- [01:52] thing is AI is not a solution for any
+- [01:56] problem. It's not a solution at all.
+- [01:59] Why? Because it's a tool. AI is a tool.
+- [02:03] And if you are enterprise, you already
+- [02:06] have much more advanced and important
+- [02:09] tools to build actually uh great AI
+- [02:12] agents. So some of them are obviously
+- [02:16] data access. Enterprises in the existing
+- [02:18] enterprise environments already have the
+- [02:21] access to lots of data and also
+- [02:24] functionality and connections.
+- [02:27] So
+- [02:29] it's really important in my opinion uh
+- [02:32] not to focus just on AI but to focus on
+- [02:36] bringing this AI to where your
+- [02:38] enterprise already lives to the stacks
+- [02:41] that your enterprise already operate on
+- [02:45] and that is the key to success.
+- [02:48] So um going back to my AI experience
+- [02:50] story that um we gained uh in Jet
+- [02:53] Brains, every AI experience starts with
+- [02:57] obviously AI experiments and you like we
+- [03:00] all love AI experiments uh but they have
+- [03:03] some limitations. First of them is um
+- [03:07] you have fast iterations. You code
+- [03:09] something, you check if it works, you do
+- [03:11] it in your Jupyter notebook in Python
+- [03:13] somewhere, then you you run a few times
+- [03:15] and then you get the results.
+- [03:18] Uh also uh the maintainability cycle of
+- [03:20] such experiments is pretty pretty low
+- [03:23] right you just uh do the experiment get
+- [03:26] the result and then you have to include
+- [03:27] it to your actual enterprise codebase
+- [03:30] right and then it works uh somewhere in
+- [03:34] in a notebook in full isolation from the
+- [03:37] actual products and if it breaks well uh
+- [03:41] no one no one no one will die right no
+- [03:44] one cares it's fine there is a low
+- [03:46] breaks risk
+- [03:47] uh if it breaks
+- [03:49] but when experiments meet production
+- [03:52] that's the whole another story. So first
+- [03:55] of all most of the production workloads
+- [03:58] especially the backend ones are
+- [04:00] operating on the JVM and some others are
+- [04:03] on net and node
+- [04:06] and um it's as I said extremely
+- [04:09] important to bring AI agents to the
+- [04:12] stack of your existing AI applications
+- [04:14] because they already have all of the
+- [04:16] benefits all the data access all the
+- [04:18] functionality access
+- [04:21] and in production uh you have uh quite a
+- [04:24] lot of maintainability requirements. You
+- [04:26] have to be able to read and reason about
+- [04:28] your code and refactor it and operate
+- [04:30] with with all of that code that you
+- [04:32] produce efficiently
+- [04:35] and um you face a huge reputational and
+- [04:39] financial risks if something breaks if
+- [04:41] something goes wrong.
+- [04:44] Um but what else apart from the stack?
+- [04:47] What else defines the enterprise AI
+- [04:49] agents? Well, the first thing that
+- [04:51] obviously comes into mind is
+- [04:53] predictability.
+- [04:55] Who loves prompt engineering? Prompt
+- [04:58] engineering is amazing, but naive prompt
+- [05:00] engineering brings unp unreliable
+- [05:02] results.
+- [05:04] And uh don't get me wrong like models
+- [05:06] are improving and uh prompt engineers
+- [05:09] are doing great work, great job, but you
+- [05:13] know it's like um you can write a really
+- [05:16] long essay how you spend the last summer
+- [05:19] and what you want to be achieved until
+- [05:21] the next winter but at the end of the
+- [05:23] day you cannot guarantee anything. You
+- [05:25] can only hope and that's a problem
+- [05:28] right? Uh to illustrate if like it's
+- [05:30] really a problem let's think of this
+- [05:31] example. the models are improving and
+- [05:34] even if you manage to get 99% of
+- [05:36] correctness rate, is that really enough
+- [05:40] for deploying it on a critical
+- [05:42] enterprise application? Well, let's kind
+- [05:45] of think of this example from from the
+- [05:48] business perspective. If 99% of the time
+- [05:50] is correct result, but 1% it leads to
+- [05:53] for example a customer churn, not that
+- [05:56] bad, right? But given that each single
+- [06:00] run of AI agent is unpredictable and if
+- [06:03] the first run was successful, it doesn't
+- [06:05] guarantee anything of about the previous
+- [06:07] run. Uh all of that uh customer turn
+- [06:10] rate it actually compounds. So if you
+- [06:12] have 100 times returning customer, the
+- [06:15] churn rate will be already 63%. Which is
+- [06:17] quite not noticeable, right? And of
+- [06:20] course that's that's just an
+- [06:21] illustration, right, of how how
+- [06:23] important that is.
+- [06:25] So uh the next thing that is also
+- [06:28] important is fault tolerance.
+- [06:31] Why? Uh because well usually enterprises
+- [06:35] doesn't don't really like when something
+- [06:37] just breaks and stops working. Users
+- [06:39] start complaining and there is a huge
+- [06:40] risk uh from the repos reputational
+- [06:43] perspective. But other than that, if
+- [06:46] your agent just stops running for some
+- [06:49] reason, for example, you have a bug in
+- [06:51] your application or you're running that
+- [06:53] on the AWS EC2 instances which are great
+- [06:56] for cost optimization reasons that can
+- [06:59] you know you are using the um unused uh
+- [07:02] capacity on uh Amazon machines which is
+- [07:05] cool but uh at some point Amazon can
+- [07:08] preempt your instance and rerun your
+- [07:10] process on another machine. So
+- [07:13] essentially for backend application
+- [07:15] because of all of persistence things
+- [07:17] that they have um it works but for naive
+- [07:21] AI agent it doesn't. So what does what
+- [07:24] does it mean? It means that your agent
+- [07:26] will have to restart on another machine
+- [07:29] from scratch. They will lose all the
+- [07:31] progress and you will have to spend the
+- [07:33] same amount of money again to meet the
+- [07:36] same point. So if you add the recovery
+- [07:39] system somehow to that you will save a
+- [07:42] lot of money that that is essential for
+- [07:44] enterprise.
+- [07:46] So and for this all of this and many
+- [07:49] others uh of the problems that we faced
+- [07:51] we made a solution and it's called cook.
+- [07:53] Uh it's an open-source uh AI framework
+- [07:56] by Jet Brains that allows you to build
+- [07:58] and run AI agents uh on the JVM.
+- [08:03] So you can run agent uh agents on the
+- [08:07] enterprise stack that actually you have
+- [08:10] in in your systems right. So cook
+- [08:13] targets JVM natively Android iOS
+- [08:16] JavaScript and web assembly same code
+- [08:19] runs actually everywhere thanks to
+- [08:21] cotlin mult platform.
+- [08:24] So it actually allows you to bring um AI
+- [08:27] agents not only to the back end but also
+- [08:30] to the edge devices to the devices
+- [08:32] locally that your kind like customers
+- [08:35] have right
+- [08:37] and it's actually battle tested on um
+- [08:39] our own products of Jet Brains and it
+- [08:42] solves the real world problems that we
+- [08:44] faced when delivering actual AI
+- [08:46] applications to millions of users.
+- [08:49] So to sum things up, cook is created by
+- [08:52] the enterprise and for the enterprise.
+- [08:56] And um let me list um a few other
+- [08:59] problems that we solved. First of them
+- [09:01] is scalability. One of the issues that
+- [09:04] we faced when lining running actual
+- [09:06] agents at scale for a long time is that
+- [09:09] you eventually hit the context limit.
+- [09:11] then you have to do something with that
+- [09:13] and we built a uh solution for that like
+- [09:16] we have pretty advanced and fine-tuned
+- [09:18] strategies out of the box for
+- [09:21] compressing the history and retrieving
+- [09:23] the facts. So you only have to use that
+- [09:25] solution and declare what facts are
+- [09:27] important and then the framework will
+- [09:29] handle the rest.
+- [09:31] Um also you get the full control of uh
+- [09:34] the agents behavior. I think this
+- [09:36] picture might be familiar to you. So in
+- [09:38] cook you can uh define the precise uh
+- [09:41] graphs of uh the precise workflows uh
+- [09:44] for your agent and which steps follow
+- [09:47] after which other steps and on which
+- [09:49] conditions you go to some other branch
+- [09:52] and uh you can also compose uh the
+- [09:55] higher level level components. I will
+- [09:57] show it later. So essentially you can
+- [09:59] have subtasks or like sub agents but
+- [10:02] they are not independent. They all share
+- [10:04] the same history
+- [10:06] and uh we have the solution for fall
+- [10:09] tolerance and for recovery and last but
+- [10:12] not least observability why else I would
+- [10:14] be here we integrate with weights and
+- [10:16] biases with I show it late later
+- [10:20] so um for those of you who are
+- [10:22] developers that's the very simple
+- [10:24] example of an agent uh built with cook
+- [10:28] uh it's in cotlin you can also do that
+- [10:30] uh in Java so you just register tools
+- [10:33] they they are just functions of your
+- [10:35] existing JVM application. You define the
+- [10:38] agent connect to open AI define the
+- [10:40] prompt for example if you give the
+- [10:42] banking tools and you define the banking
+- [10:44] prompt then it can solve banking tasks
+- [10:47] like sending money and something else
+- [10:49] right but that's not the real power much
+- [10:52] more more powerful approach is when you
+- [10:54] define the strategy for the agent and
+- [10:56] that's the cotlin DSL for that as simple
+- [10:59] as as it is that's the whole code that
+- [11:01] you need uh to write uh with cook in
+- [11:04] order to get the workflow that you see
+- [11:06] on the right in the picture um sorry
+- [11:08] it's yeah on the right so um essentially
+- [11:13] you can define uh or like use predefined
+- [11:16] nodes like requests uh calling some
+- [11:19] available tools sending back the results
+- [11:22] and then you can build the conditions
+- [11:23] and draw the graphs
+- [11:26] but that's um not impressive enough
+- [11:29] right isn't it
+- [11:32] so the actual uh like the the most
+- [11:36] powerful thing that cook provides is it
+- [11:38] provides the the domain modeling out of
+- [11:40] the box. So what does it mean? You can
+- [11:43] define autonomous steps, autonomous sub
+- [11:46] aents or actual subtasks that are
+- [11:50] focused on a subtask of your overall uh
+- [11:53] goal and it has a limited access to only
+- [11:56] required tools. But what is important is
+- [12:00] that it has it all everything in cook is
+- [12:02] type safe and it have a speci spec
+- [12:05] specified input data type and the output
+- [12:08] data type. Why is that important? Let me
+- [12:12] show it. So uh oh sorry
+- [12:17] just a second.
+- [12:21] Yeah I think
+- [12:24] my apologies. I think some slides have
+- [12:26] been corrupted but essentially uh let me
+- [12:29] just say it out loud. Uh so you can
+- [12:32] define a data class which has all the
+- [12:35] fields required for the agent output.
+- [12:38] Like imagine like in the real life when
+- [12:40] you're coming to a bank and you want to
+- [12:42] open your bank account uh they don't
+- [12:45] just accept you right you have a
+- [12:47] requirements you have to bring your
+- [12:48] passport you have to bring some other
+- [12:50] documents and you have to fill in the
+- [12:52] application form and unless you get
+- [12:55] everything required and you fill in the
+- [12:57] form you cannot proceed further and open
+- [13:00] the bank account that guarantees the uh
+- [13:03] success right and the same with uh the
+- [13:06] main modeling approach So you instead of
+- [13:09] writing everything in a textual prompt
+- [13:12] and hoping that it works, you can
+- [13:14] specify the data class which is
+- [13:16] essentially the form that the LLM have
+- [13:18] to fill before it proceeds to the next
+- [13:21] step. It will like call the tools and do
+- [13:23] many other different types of work until
+- [13:25] uh the form is fully fulfilled and only
+- [13:28] then you can proceed further and that's
+- [13:31] guarantees you the success right. So
+- [13:33] naive prompt engineering can give you
+- [13:35] only hope. Domain modeling can give you
+- [13:38] the contract the trustful guarantee and
+- [13:42] you can actually program the data flow
+- [13:45] of your agent.
+- [13:48] Um the next thing that I promised is
+- [13:50] fault tolerance. Uh and that's how you
+- [13:52] can do it in cook. Uh imagine that you
+- [13:54] have AI agent defined somehow and then
+- [13:57] essentially you can just install the
+- [14:00] persistence.
+- [14:02] So inside that uh persistence
+- [14:04] installation block you just specify
+- [14:06] where to store the the data like in some
+- [14:08] database and that's pretty much it. The
+- [14:10] magic will happen. So what will happen
+- [14:13] is cook will checkpoint the whole state
+- [14:16] machine after each step of execution.
+- [14:19] And that's important. It will not
+- [14:20] checkpoint just the message history and
+- [14:22] tool calling history. It will checkpoint
+- [14:24] the exact place in the algorithm. And
+- [14:28] then when the application is crashed and
+- [14:30] gets recovered, it will start from the
+- [14:32] same place in the algorithm, the same
+- [14:34] place in the state machine. And
+- [14:37] moreover, cook allows you to uh roll
+- [14:39] back in time and it also allows you to
+- [14:42] specify the rollbacks for any side
+- [14:45] effects in your database because when
+- [14:46] you roll back in time, you already have
+- [14:48] the database mess messed up and cook can
+- [14:51] handle all those problems as well. So
+- [14:54] that's the illustration how it works. So
+- [14:57] um you have a um strategy graph like
+- [15:01] with a few steps and somewhere in the
+- [15:03] middle uh that's the where the execution
+- [15:06] is happening right now and what cook
+- [15:08] does it saves the place of the execution
+- [15:11] the exact nodes and all the other state
+- [15:14] types of state including the message
+- [15:15] history including the metadata and many
+- [15:17] other things and then it rec recovers
+- [15:19] right from there
+- [15:22] and um the last feature that I would
+- [15:25] like to demonstrate is observer
+- [15:26] capability. Same way you just installed
+- [15:29] and added persistence to your agent, you
+- [15:32] can install open telemetry and inside we
+- [15:35] provide the uh out of the box with
+- [15:38] integration. You just provide the
+- [15:40] credential to your v instance like API
+- [15:43] key, the entity if you have a
+- [15:45] self-hosted one and the project and then
+- [15:49] you can open the v console and observe
+- [15:51] what's happening in your agent uh
+- [15:54] execution. So if you actually zoom in
+- [15:56] which I couldn't do it here on the
+- [15:58] slide, you will see all the steps and
+- [16:00] the nodes throughout your your graph
+- [16:04] what happened in the agent and you can
+- [16:06] reason about the execution.
+- [16:09] So essentially how it's done is uh cooks
+- [16:12] um all the events like LM requests,
+- [16:14] strategy steps and other types of meta
+- [16:16] information to uh V console and then you
+- [16:20] can open it and discover why the agent
+- [16:22] ended up here and how much you spent on
+- [16:25] each step.
+- [16:27] So together with cook and when weights
+- [16:30] and biases with you can build uh not not
+- [16:33] just a funny demos but trustful systems
+- [16:36] that are predictable, scalable,
+- [16:39] enterprise ready and explainable
+- [16:43] and um just want to share um a few uh
+- [16:47] notes from the community. So we launched
+- [16:49] Cook quite uh recently uh like less than
+- [16:54] five months ago and it's gained already
+- [16:56] 3.4K 4K stars on GitHub, mainly from the
+- [16:59] JVM community. And uh we got quite a few
+- [17:04] important uh notices from the likes of
+- [17:06] Docker, which by the way played a very
+- [17:10] funny analogy of the cook name like and
+- [17:12] the Ratatouille uh cooking cartoon and
+- [17:16] Mercedes-Benz for example uh who are on
+- [17:18] openly speaking on uh public conferences
+- [17:21] about using Cook for uh building AI
+- [17:23] agents.
+- [17:26] And if you want to also be part of this
+- [17:28] community, try cook today and cook your
+- [17:30] enterprise AI tomorrow. Let's stop
+- [17:33] building funny demos and start building
+- [17:35] production ready systems. And thank you
+- [17:37] so much for your attention. If you have
+- [17:38] any questions, feel free.

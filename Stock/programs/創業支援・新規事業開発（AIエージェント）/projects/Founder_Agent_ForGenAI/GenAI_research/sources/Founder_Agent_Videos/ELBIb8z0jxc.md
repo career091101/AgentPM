@@ -1,0 +1,524 @@
+---
+title: "Some of the very best AI tools are adding AI agents on top of their AI tools."
+video_id: "ELBIb8z0jxc"
+video_url: "https://www.youtube.com/watch?v=ELBIb8z0jxc"
+speaker: "all"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Development"]
+summary: |
+  Some of the very best AI tools are adding AI agents on top of their AI tools
+  So instead of just using the AI tool, you just talk to the agent inside of chat and the agent does all the work for you
+  Let me show you the top seven that recently got AI agents
+key_points:
+  - "one is inside of Gamma"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:12:07+09:00"
+---
+
+# Transcript: ELBIb8z0jxc
+
+- URL: https://www.youtube.com/watch?v=ELBIb8z0jxc
+- Retrieved at: 2025-12-30T10:12:07+09:00
+
+## Text
+
+- [00:00] Some of the very best AI tools are
+- [00:01] adding AI agents on top of their AI
+- [00:04] tools. So instead of just using the AI
+- [00:06] tool, you just talk to the agent inside
+- [00:09] of chat and the agent does all the work
+- [00:12] for you. Let me show you the top seven
+- [00:14] that recently got AI agents. Okay, the
+- [00:17] very first one is inside of Gamma. So if
+- [00:19] you haven't used Gamma before, Gamma
+- [00:21] turns a text prompt or existing text
+- [00:24] into these type of presentations. And
+- [00:26] this is all AI. The images are AI. AI
+- [00:29] wrote all the text, created all the
+- [00:31] slides. Right? So that's great. I've
+- [00:33] been using Gamma for two years pretty
+- [00:34] much every single week for every single
+- [00:36] presentation. Now you'll see this option
+- [00:39] on top called agents. Let me click on
+- [00:41] this. With agent mode, you basically
+- [00:44] type in what you want changed or ask for
+- [00:47] suggestions and the agent will help you
+- [00:50] do that. I'll choose one of the options
+- [00:51] that they have over here. Recommend a
+- [00:53] theme based on my content. In two
+- [00:56] seconds, it applied a new theme over
+- [00:58] here and it selected other themes. So,
+- [01:01] here's the original. I could just revert
+- [01:03] back to it quickly. This is the new one
+- [01:05] that it just added on its own. You could
+- [01:07] see how quickly I could change those.
+- [01:09] And then here's the founder theme. It's
+- [01:10] giving me other recommendations. So, I
+- [01:12] could go through and see which one I
+- [01:14] like best. I actually like this one the
+- [01:16] best here. So, I just had a presentation
+- [01:18] where I couldn't use any images. So
+- [01:20] typically I would just click on the
+- [01:22] image and remove it slide by slide. But
+- [01:26] what I was able to do is instead of
+- [01:28] doing that I came down here and I said
+- [01:30] remove all images. And just like that
+- [01:33] the slideshow has no images from a
+- [01:36] single text prompt to the agent instead
+- [01:38] of doing it one slide at a time. Right?
+- [01:39] So it cut my time significantly just by
+- [01:42] using the AI agent. Now I'm going to
+- [01:45] reverse this one. I want to show you one
+- [01:46] more inside of this. any element that
+- [01:49] you select like this image right here.
+- [01:51] You could do the traditional things like
+- [01:53] ask AI to change that specific thing.
+- [01:55] But you could see when I select
+- [01:57] something, it shows up here inside of
+- [01:59] the AI agent and it actually gives me
+- [02:02] suggestions on what I should do instead
+- [02:04] of coming up with the prompt myself. So
+- [02:06] right here, if I want to make this
+- [02:07] brighter, it decided, hey, this might be
+- [02:09] too dark for what you want, you want to
+- [02:11] see a brighter version, I click on that,
+- [02:13] it edits the image. Now these are AI
+- [02:15] generated right inside of Gamma. I
+- [02:16] didn't use any other app for this
+- [02:18] presentation. So, it's going to use one
+- [02:20] of these best AI models here to generate
+- [02:22] a new image for me. Okay, here's the
+- [02:24] modified version. It also shows me the
+- [02:26] original. So, I could quickly compare
+- [02:28] the two. And if I change my mind, I
+- [02:29] could always revert back very, very
+- [02:32] quickly. Now, here's another really
+- [02:34] useful one with the agent. Quick edits.
+- [02:36] You could research, search the web, and
+- [02:38] add citation to your slideshow directly
+- [02:40] from here. Okay. You could refine
+- [02:42] existing things. Again, it's giving you
+- [02:44] some options like fixing all typos. This
+- [02:47] already was created with AI, but if you
+- [02:49] created it manually, this is a one-click
+- [02:52] fix and restyling, which I showed you.
+- [02:54] So, if I wanted to add more evidence, I
+- [02:56] could select this option right here, for
+- [02:58] example, if it made sense with my
+- [03:00] slideshow. And here, it gave me three
+- [03:02] different options. So, I'm just going to
+- [03:03] choose option one, which is actually
+- [03:05] very useful. It just didn't do something
+- [03:08] without checking with me first. And it's
+- [03:10] going to go ahead and search the web
+- [03:12] here right inside of Gamma. I don't have
+- [03:14] to use any thirdparty tool for that. And
+- [03:15] after it search, it created new cards
+- [03:17] for me. It edited existing cards and is
+- [03:20] showing me again the variation between
+- [03:22] what I had before. So here's what I had
+- [03:24] before and here is the one that it
+- [03:26] created for me with some data to support
+- [03:29] what this slide was all about. So that
+- [03:31] is fantastic. And then again, you could
+- [03:33] decide to keep the original or the
+- [03:36] modified version just very quickly
+- [03:37] switching between the two. So if you're
+- [03:39] still doing presentation the old school
+- [03:40] way, definitely worth a look. Now the
+- [03:42] very next agent is going to be a image
+- [03:44] generation agent and this one works in
+- [03:46] the background in a very unique way. So
+- [03:48] the website is image genen.ai. And
+- [03:51] obviously I'll link everything in the
+- [03:52] description of this video. So with
+- [03:54] genen, it is going to use the Gemini
+- [03:57] model. So one of the best image models
+- [03:59] right now inside of Google Gemini, but
+- [04:01] it's inside of this website or recraft,
+- [04:03] which I've covered in different videos.
+- [04:05] That's a great AI image generation model
+- [04:07] too. And then you could choose your
+- [04:09] style. Now, this is by agent.ai. So, the
+- [04:13] creator of HubSpot created a website
+- [04:15] called agent.ai, which I'll show you
+- [04:17] here, too. So, when I make agent videos,
+- [04:19] I often talk about agentai. With
+- [04:21] agentai, it's basically a marketplace of
+- [04:24] AI agents. So, they have ton of
+- [04:25] different ones that I've tested out
+- [04:26] here. Worth a look for sure. But,
+- [04:29] imagen.ai is actually its own separate
+- [04:31] website, but you could still see it's by
+- [04:33] agent.ai.
+- [04:35] So, this is what's unique about it. It
+- [04:37] basically in the background fixes the
+- [04:40] typos for you as one of the examples
+- [04:43] that he gave. So let's say I'm going to
+- [04:45] create an AI certification. Create a AI
+- [04:48] certification for Skilip AI for AI in
+- [04:50] marketing. I'm going to create this in
+- [04:52] square format, but they actually have
+- [04:53] all these presets for different
+- [04:54] platforms. Now, you could always add
+- [04:56] images if you want to edit existing
+- [04:58] images, too. That's where Gemini really
+- [05:00] comes in handy. But I'm going to go
+- [05:01] ahead and generate one from scratch.
+- [05:03] Okay, so it created this image for me.
+- [05:05] And at first glance, it looks like the
+- [05:07] same type of thing that you could do
+- [05:08] inside of Gemini or Recraft. But what it
+- [05:10] does is it actually checks the spelling,
+- [05:14] recreates it if you had a typo, so you
+- [05:17] don't have to do that yourself, and it's
+- [05:19] pretty good. For the few times I've
+- [05:21] tried it so far, this just came out.
+- [05:23] It's pretty good. And on the bottom, it
+- [05:25] has a edit box. So if you want to do any
+- [05:27] type of revisions, well, you know
+- [05:28] exactly where to put that. Press revise
+- [05:31] and it will do the update for you and
+- [05:32] give you another image. And you could
+- [05:35] quickly go ahead and download this right
+- [05:37] here as an image or as a SVG or you just
+- [05:40] copy the URL. So very very easy to use.
+- [05:43] Tells you what image model you also used
+- [05:45] in the background. Now the next one on
+- [05:47] my list is called Lindy, the sponsor of
+- [05:49] today's video and I've covered them
+- [05:50] before for their AI agent which takes
+- [05:53] care of automations. But they have
+- [05:54] something new here. So right on their
+- [05:56] website I could click on build apps and
+- [05:59] I could actually create an app from text
+- [06:01] prompt. I was able to build a fully
+- [06:03] functioning merchandise store in under
+- [06:06] five minutes using Lindy's new build
+- [06:08] feature. And I started with a very
+- [06:10] simple prompt and I'll show you why. I
+- [06:11] set up Skillip AI, a YouTube creator,
+- [06:13] build me a merchandise store. Because
+- [06:15] unlike some other AI apps that just go
+- [06:17] and do the work without really figuring
+- [06:19] out what you want, this will ask you a
+- [06:22] follow-up question. It's asking me what
+- [06:24] kind of merchandise I want to sell.
+- [06:26] Obviously, something it needs to know
+- [06:28] instead of just going to work. It's
+- [06:29] asking me that. It's asking me what my
+- [06:31] brand style is and it's also asking me
+- [06:33] do I have any existing assets. So I told
+- [06:36] it I want to sell t-shirts and hoodies
+- [06:38] and hats. They're going to be tech
+- [06:39] focused in blue and white theme. Now
+- [06:42] it's giving me a recap of everything I
+- [06:44] told it so far. And it's asking me
+- [06:46] should we build this which is nice. If
+- [06:48] anything it doesn't sound right. I want
+- [06:49] to add more details. I could do that
+- [06:51] here. Okay. Now Lindy is going to go to
+- [06:53] work. So I'm going to let it go to work.
+- [06:54] But it does something very unique while
+- [06:56] it's working. It's actually gonna do a
+- [06:58] quality check and check its own work and
+- [07:01] it's going to give us a real e-commerce
+- [07:02] store. It's going to have product
+- [07:04] listing, shopping cart functionality,
+- [07:06] checkout integration, and in less than 5
+- [07:08] minutes, I'm going to have a fully
+- [07:10] functioning merchandise store. And here
+- [07:12] it is. And I also added my own images
+- [07:14] that I created inside of Gemini of all
+- [07:16] these products. So, I could select the
+- [07:18] size here. I could go ahead and add it
+- [07:20] to cart. And my cart's up here. inside
+- [07:22] of my cart. I could go ahead and
+- [07:24] increase or decrease the number of items
+- [07:27] and I could go ahead and proceed to
+- [07:29] checkout by connecting Stripe. So, let
+- [07:31] me show you that. With Lindy, you have
+- [07:33] integrations. So, you could just add it
+- [07:35] to Stripe here and it will put this
+- [07:37] prompt and it will go through the
+- [07:38] process and you could connect it with
+- [07:40] your actual Stripe account. And you also
+- [07:42] have other integrations available.
+- [07:44] Again, very easy. It will put it in the
+- [07:46] text prompt for you and you just have a
+- [07:48] back and forth chat till you get exactly
+- [07:50] what you're looking for. Now, this is
+- [07:51] obviously a prototype, but you can see
+- [07:53] exactly how Lindy build works, and it
+- [07:55] could literally build anything you want
+- [07:56] in a matter of minutes. And I think this
+- [07:59] is the future of building apps. There's
+- [08:01] no coding required. You just describe to
+- [08:03] the agent what you want in plain text,
+- [08:05] and it will go ahead and build it for
+- [08:06] you. Now, you could try Lindy using the
+- [08:08] link in the description, and you get $20
+- [08:10] worth of credits absolutely free. Thanks
+- [08:12] for Lindy for sponsoring this video.
+- [08:14] Now, the next one is inside of 11 Labs.
+- [08:16] So 11 Labs, if you have used it before,
+- [08:18] you most likely use the creative side of
+- [08:20] it where it will turn a text prompt into
+- [08:23] an AI generated voice. The best voice
+- [08:26] platform out there by far, but they have
+- [08:28] ton of different updates. But they
+- [08:30] actually have a different platform here
+- [08:32] called agent platform. You could select
+- [08:34] it right on top and it could create
+- [08:36] voice agents that will take phone calls
+- [08:38] for you. All kinds of different things.
+- [08:40] But this new thing is really
+- [08:41] interesting. There's something called
+- [08:43] agent testing. test agents and tool
+- [08:45] calls to ship your agent with
+- [08:48] confidence. So instead of just creating
+- [08:50] an agent, putting it out there in the
+- [08:51] real world, you could create a test.
+- [08:54] Now, this is very early. I'm showing you
+- [08:56] this in their alpha, right? It's not
+- [08:58] even in beta. This will be based on
+- [09:01] hypothetical conversation and you could
+- [09:03] run them to make sure it's actually a
+- [09:06] quality agent and it follows what you
+- [09:08] want. So, I'm going to create one for
+- [09:09] you to show you how it works. Now, you
+- [09:11] could do two types of tests. Next, reply
+- [09:13] test. what do you expect the agent to
+- [09:14] say next? And you could run through a
+- [09:16] long conversation just to make sure. And
+- [09:18] you also have a tool test. So you could
+- [09:20] see what type of tool and how it's using
+- [09:23] different tools. And in this case, I
+- [09:24] want to test how my agent is going to
+- [09:26] say goodbye. So I just said polite
+- [09:28] goodbye and I describe what I'm
+- [09:29] expecting the goodbye to be. And under
+- [09:32] the agent tab, this is where you
+- [09:33] actually build the agent. So I had
+- [09:35] previously built a support agent, but
+- [09:37] this testing is what I wanted to show
+- [09:38] you that is new where you could test how
+- [09:41] it will behave. So, if you haven't built
+- [09:43] one before, it's pretty straightforward.
+- [09:45] You could actually describe your first
+- [09:47] message here. You could give it a system
+- [09:49] prompt on what you want it to do. You
+- [09:51] could add all kinds of variables. You
+- [09:53] could decide what large language model
+- [09:55] looks like. I haven't updated this one,
+- [09:56] so I could choose a newer one here. I'll
+- [09:58] choose this one and I'll save it. You
+- [10:00] could decide what tools you have access
+- [10:02] to. So, all these things are available
+- [10:04] and it has different workflows you could
+- [10:06] build out. So, this will take you some
+- [10:08] getting used to if you haven't built
+- [10:10] these agents before. But under the test
+- [10:12] tab now I could add a test and the test
+- [10:15] has to be created in the other tab. But
+- [10:16] then I could bring it in here and I
+- [10:18] could go ahead and run this test. Now
+- [10:20] here's the test. It actually failed
+- [10:21] because it gave me a different goodbye
+- [10:24] only because I wanted to show you I
+- [10:25] haven't updated the agent with the
+- [10:27] correct messaging that I wanted. So this
+- [10:29] just used Gemini here to give an answer.
+- [10:32] It's still a good answer but it's not
+- [10:34] what I was testing for. I want the exact
+- [10:36] goodbye every single time in this case.
+- [10:39] And I'm going to do that by adding this
+- [10:41] to my system prompt. I'm going to say
+- [10:43] always say goodbye this way. And with my
+- [10:46] system prompt updated now, I could see
+- [10:48] this is exactly how it's going to do it.
+- [10:50] So you don't have to test in the wild
+- [10:52] with actual customers, right? You could
+- [10:54] do this with your agent and then improve
+- [10:57] the system prompt till it does exactly
+- [10:59] what you want. Run the hypotheticals on
+- [11:01] what happens when they ask for a refund,
+- [11:03] what happens if they change their time.
+- [11:05] all the different things that you would
+- [11:06] know about your business, you could go
+- [11:08] ahead and test that here with different
+- [11:10] tests and you could run them all at the
+- [11:11] same time too with multiple tests all at
+- [11:14] once. Okay, the next one is a video AI
+- [11:16] agent. This platform I've also made
+- [11:18] videos about is called V and is very
+- [11:20] very popular. It could do all kinds of
+- [11:22] different things with AI and with
+- [11:24] regular video creation. But they have a
+- [11:27] new thing called AI video agent. This
+- [11:29] will edit videos by typing instructions.
+- [11:32] Okay, this is going to be a game
+- [11:34] changer. AI agents add subtitles, cleans
+- [11:36] the audio, resizes the video, and more.
+- [11:39] And again, remember AI agents are a
+- [11:41] chatbot that will do the work for you.
+- [11:43] So, you could do all these things with
+- [11:45] other AI tools, maybe one at a time. But
+- [11:48] let me show you what this does. Okay,
+- [11:50] now with my video uploading, I'm going
+- [11:52] to go to the AI agent tab, which is the
+- [11:54] very first tab on top, where I could
+- [11:55] describe what I want to happen to my
+- [11:57] video. They also let you click right
+- [12:00] here and choose from any of these
+- [12:02] options. So you could automatically add
+- [12:03] subtitles, which will do transcription,
+- [12:06] select the type of styling, all that in
+- [12:08] one go instead of just being one
+- [12:11] individual tool. You could also do this
+- [12:13] magic cut option, which will edit the
+- [12:15] video for you, which is wild. But in my
+- [12:18] use case, I'm going to actually make
+- [12:19] this available for Tik Tok. So I'm going
+- [12:21] to say make my video good for Tik Tok.
+- [12:23] Now, the very first thing it did is it
+- [12:26] resized the whole video. So you can see
+- [12:28] now it's for Tik Tok. It's also going to
+- [12:30] select anything from my timeline down
+- [12:32] here. It's going to generate the
+- [12:33] subtitles next. Already halfway done.
+- [12:35] Now let me press play to show you what
+- [12:37] it's done already. Chat GPT just
+- [12:39] released a very interesting update. It's
+- [12:41] called Chat GPT. Okay. So so far it
+- [12:44] added the subtitles where they need to
+- [12:45] go. It's resized me. It's put me center
+- [12:48] frame. Now some other things I could do
+- [12:50] is this option is really interesting.
+- [12:52] create B-roll images that go along with
+- [12:56] what I'm talking about. Okay, you could
+- [12:57] also ask the agent to do that. Okay, now
+- [12:59] you see all these little red sections.
+- [13:01] These are all the different images that
+- [13:03] created for me and laid over what I'm
+- [13:05] talking about automatically. Now, I
+- [13:07] added background music. I asked it to
+- [13:08] make it more vibrant and bright. It did
+- [13:10] a little too much vibrance, so I said
+- [13:12] less. I just typed in one word and he
+- [13:14] actually decreased the vibrance here.
+- [13:16] And it's actually pretty good here. Now,
+- [13:18] some of these images probably need work.
+- [13:19] I noticed some typos in them. So, I
+- [13:21] could just select each one and adjust it
+- [13:24] here manually or regenerate it or
+- [13:25] replace it with something I have myself.
+- [13:28] But for the most part, it's a huge
+- [13:31] timesaver. I basically just talked to
+- [13:33] the AI agent. I didn't do any actual
+- [13:36] editing. I think this is going to be a
+- [13:38] fantastic tool if you do any type of
+- [13:41] content creation. Now, the next one on
+- [13:42] my list is also a video agent, but very
+- [13:44] different. It's from Hey Jen. Bring any
+- [13:47] idea to life with a video agent. You
+- [13:48] could create professional videos with a
+- [13:51] simple prompt. Let's try this out. Now,
+- [13:53] if you don't know where to start, Hunen
+- [13:55] also has this notion site and they have
+- [13:57] a custom GPT where you could ask it for
+- [13:59] a prompt. So, if you wanted to make an
+- [14:02] explainer video, it tells you what the
+- [14:04] prompt should be for that explainer
+- [14:05] video, educational video, onboarding,
+- [14:08] all these different formats could be
+- [14:10] done with this. So, I'll link this in
+- [14:12] the description as well. They just
+- [14:14] emailed all their users this. This was
+- [14:16] not a special link just for me. Now,
+- [14:18] this gave me the full plan again, and he
+- [14:20] asked me if that all sounds good. I'm
+- [14:21] going to say yes. Okay, this did take a
+- [14:24] little while, and this is my very first
+- [14:26] time using HeyJam video agent. It just
+- [14:28] came out. So, I'm going to go ahead and
+- [14:30] press play and then we'll judge how it
+- [14:32] turned out.
+- [14:33] >> Welcome to prompting 101. Let's unlock
+- [14:35] the power of effective AI communication.
+- [14:39] First, be specific and clear. Vague
+- [14:41] prompts get vague results. Be precise.
+- [14:45] Instead of write about dogs, try write a
+- [14:48] 100word paragraph about golden
+- [14:50] retrievers.
+- [14:51] >> Okay, pretty good. Let's look at our
+- [14:53] prompt though to see if it followed it.
+- [14:56] So the audience was individuals looking
+- [14:57] to improve their AI interaction. I think
+- [14:59] that hit the mark. It was educational
+- [15:02] with background music. It hit the mark
+- [15:04] there. It was in vertical format. Hit
+- [15:06] the mark there. The script format. It
+- [15:08] followed a professionallook female
+- [15:10] presenter. It followed the mark there.
+- [15:12] Now, I did not specifically say to make
+- [15:14] an animated video. That's looks like an
+- [15:16] option it shows by default or it picked
+- [15:18] that up from somewhere else. And these
+- [15:20] are fully editable. So, if I want to
+- [15:21] edit that, I do have things like the
+- [15:24] voice I could change out. I could also
+- [15:26] change out things like the background
+- [15:28] music. And it looks like the avatar
+- [15:30] could be changed. So, let's go ahead and
+- [15:32] change that in one click. Oh, that's
+- [15:34] pretty good. Let me go ahead and
+- [15:35] generate this one to see what a
+- [15:36] realistic looking avatar would look
+- [15:38] like.
+- [15:38] >> Next, provide context. The more info,
+- [15:42] the better the AI understands your
+- [15:43] intent. For marketing copy, specify your
+- [15:46] target audience, product features, and
+- [15:49] desired tone. Also, define the output
+- [15:52] format, lists, emails, or tables. Be
+- [15:56] clear about it. This ensures the AI
+- [15:58] delivers results structured to your
+- [16:00] needs. And the last one is inside of
+- [16:02] chat GPT. And I'll keep it brief because
+- [16:04] I did make a different video about it
+- [16:05] which I will link at the end of this
+- [16:07] video. But they introduced something
+- [16:08] called chat GPT pulse which is an AI
+- [16:11] agent that works in the background each
+- [16:13] day looking at everything you did on
+- [16:16] chat GPT even your Gmail and calendar if
+- [16:18] you decide to give it access to that.
+- [16:20] And then the next day gives you what's
+- [16:22] called a daily pulse. It tells you
+- [16:25] everything that you did before and where
+- [16:27] you could pick up from there. So, it
+- [16:29] does research in the background and
+- [16:31] starts the conversation. It is pretty
+- [16:33] mind-blowing. The only problem is only
+- [16:35] available in the chat GPT pro plan, at
+- [16:37] least as I'm making this video. The plan
+- [16:39] is to bring it to the plus plan and
+- [16:42] eventually to the free plan. But chat
+- [16:44] GPT can now start the conversation
+- [16:46] instead of you starting the
+- [16:47] conversation. And this agent gives you
+- [16:49] really useful things every single day.
+- [16:52] Now, you'll see this video here. I
+- [16:54] recommend you check that out if you want
+- [16:55] to see how Pulse works. And he only
+- [16:56] works on the mobile app. again in the
+- [16:58] pro version of Chhat GPT which is $200 a
+- [17:01] month. But check it out.

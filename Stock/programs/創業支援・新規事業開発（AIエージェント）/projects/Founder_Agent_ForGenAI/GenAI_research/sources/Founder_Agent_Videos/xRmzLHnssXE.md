@@ -1,0 +1,517 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=xRmzLHnssXE"
+video_id: "xRmzLHnssXE"
+video_url: "https://www.youtube.com/watch?v=xRmzLHnssXE"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=xRmzLHnssXE
+  - Retrieved at: 2025-12-30T16:41:37+09:00
+  - [00:00] An app that I've used for almost 5 years
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=xRmzLHnssXE"
+  - "- Retrieved at: 2025-12-30T16:41:37+09:00"
+  - "- [00:00] An app that I've used for almost 5 years"
+  - "- [00:02] has released an update that saves me"
+  - "- [00:04] almost a full hour every single morning."
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: xRmzLHnssXE
+
+- URL: https://www.youtube.com/watch?v=xRmzLHnssXE
+- Retrieved at: 2025-12-30T16:41:37+09:00
+
+## Text
+
+- [00:00] An app that I've used for almost 5 years
+- [00:02] has released an update that saves me
+- [00:04] almost a full hour every single morning.
+- [00:06] And here's an example of just one of the
+- [00:08] workflows that I'll show you. I gave it
+- [00:10] a really simple prompt. Basically, it
+- [00:12] just had my goal and the plans that I
+- [00:14] wanted to do for me to update pages for
+- [00:17] me, refresh my entire database for me,
+- [00:20] and actually give me the results for
+- [00:22] review in a single document called daily
+- [00:25] update summary. And this AI agent
+- [00:27] basically created an entire plan for
+- [00:29] itself. Then it looked through my entire
+- [00:31] database, over 70 different documents
+- [00:33] here. And then it updated the things
+- [00:36] that needed updating. And then it
+- [00:37] created a document for me. And on the
+- [00:39] bottom here, it says exactly what it
+- [00:42] did. I created a daily summary for you
+- [00:44] with links to each of the pages that had
+- [00:46] updates. If I click this link, it's
+- [00:48] created this entire document for me with
+- [00:50] links to everything that has been
+- [00:52] updated and a quick detail on the
+- [00:54] bottom. This is called Notion AI Agent,
+- [00:56] and I partnered with Notion for this
+- [00:58] video to show you exactly how this new
+- [01:00] AI agent works inside of my exact
+- [01:02] workflow, inside of my real company
+- [01:04] here, and how I use it every day to
+- [01:06] automate real day-to-day tasks. Now,
+- [01:08] I've been using Notion for a very long
+- [01:10] time, and it basically lets me keep
+- [01:12] everything in my company organized in
+- [01:14] one place. This is the release of Notion
+- [01:16] version 3.0, and they've released
+- [01:19] something completely new called Notion
+- [01:21] Agents. These are not at all like normal
+- [01:24] chat bots or any type of writing
+- [01:26] assistant. These are basically like AI
+- [01:28] teammates. They could actually complete
+- [01:30] the entire work for you endtoend inside
+- [01:33] of your own notion workspace. And as I
+- [01:35] showed you in the beginning, the agent
+- [01:36] actually forms a plan based on your
+- [01:38] prompt and then it goes through the
+- [01:40] multi-step tasks. edit multiple
+- [01:42] different pages as needed, updates your
+- [01:44] database, and it could also connect to
+- [01:46] some tools like Google Drive if you have
+- [01:48] some data there, your Slack, your Gmail
+- [01:51] to pull in all the context you need in
+- [01:54] one place to help you finish the task
+- [01:56] completely end to end. Now, I think the
+- [01:57] best way to show you how it works is to
+- [01:59] show you real demos. So, my actual
+- [02:02] workflow here, I put it into multiple
+- [02:04] different demos for you to show you
+- [02:06] practical examples. Now, inside of my
+- [02:08] notion account here in the age of AI,
+- [02:11] it's become so much more useful and
+- [02:13] practical because even before the AI
+- [02:15] agent, I had the ability to use the
+- [02:17] regular Notion AI to actually interact
+- [02:20] with anything that I had to find things
+- [02:22] quickly. So, I took the time to put all
+- [02:25] the different companies I have and I
+- [02:27] work with inside of different folders
+- [02:30] and organize everything we have inside
+- [02:32] of different notion docs. So, this is
+- [02:34] how it's able to be so powerful. But on
+- [02:37] top of that, it will connect to other
+- [02:38] things where I do have resources like
+- [02:41] Google Drive and Gmail and Slack, too.
+- [02:42] Now, I'm going to jump into this tab,
+- [02:44] Notion AI, here, and I'm going to use
+- [02:45] the Notion AI agent right through the
+- [02:47] chat box right over here. Now, before
+- [02:49] you use the agent, make sure your Notion
+- [02:51] workspace has access to the Notion AI
+- [02:54] feature. So, I'm in the business plan.
+- [02:56] The business and enterprise plans get
+- [02:58] the full set of tools, too. So they get
+- [03:00] connectors like Slack and Google Drive
+- [03:03] and they will be able to sync that in a
+- [03:05] day or two across all your different
+- [03:07] documents. So it becomes a super
+- [03:08] centralized knowledge base for
+- [03:10] everything. Now the first demo I'll show
+- [03:12] you here and I'll walk you through my
+- [03:13] prompt in detail is project kickstart.
+- [03:16] So anytime I have a new project that I
+- [03:17] want to start, I use this prompt here
+- [03:20] inside of notion. So I just said create
+- [03:22] a new project inside of our directory
+- [03:24] the skill leap directory and I give it a
+- [03:26] name startup mentor launch plan and then
+- [03:28] I told it exactly what I need done. I
+- [03:31] want a well ststructured project page
+- [03:33] with clear sections and then I explain
+- [03:35] each section here. This way it kind of
+- [03:37] creates a templated format for me that I
+- [03:39] have in every project kickstart. It
+- [03:42] generates a simple timeline of key
+- [03:44] milestones for us. It creates a task
+- [03:46] list. It assigns it to the people I want
+- [03:48] to assign it to. Right now, I just
+- [03:50] assign it to myself. And then at the
+- [03:51] end, I said, "Draft a short project
+- [03:53] overview explaining the purpose of this
+- [03:56] plan." And then when you're done, give
+- [03:58] me the summary of what you created and
+- [04:00] link to the new page. So, this is what
+- [04:02] I'm asking the agent to do for us. Now,
+- [04:05] you'll see some other resources here if
+- [04:06] you want. This is already going to go to
+- [04:08] work, but if you wanted to manually add
+- [04:10] any context, you can pull in anything
+- [04:12] here. It is not required as the agent
+- [04:14] will be able to look inside of your
+- [04:15] whole directory, but this is always
+- [04:17] available to you. If you for some reason
+- [04:19] wanted to change the model that is
+- [04:22] working in the background, you can do
+- [04:24] that. I usually leave it on auto, but if
+- [04:26] you do like other AI models that is
+- [04:27] available here. And you could also turn
+- [04:29] on other resources here. So if you have
+- [04:32] any apps and integrations, you could
+- [04:34] actually bring that in. I'll show you
+- [04:36] that in a little bit here on how to do
+- [04:37] that. You could also decide to bring in
+- [04:39] web search or turn it off so it just
+- [04:41] stays more self-contained here and
+- [04:43] doesn't look on the web. But we'll go
+- [04:45] ahead and connect apps and do that in a
+- [04:46] different example. Right now all these
+- [04:48] things that I asked it to do are inside
+- [04:51] of my notion. I don't need any external
+- [04:52] tools for it. Now the very first thing
+- [04:54] you'll notice here that's different is
+- [04:56] that notion agents actually complete
+- [04:58] things end to end the entire task. So I
+- [05:01] don't have to actually provide any type
+- [05:04] of replies right agent will form the
+- [05:07] plan. It will search. It will read. It
+- [05:08] will decide. It will update and it will
+- [05:10] notify me when it's all done. Right? It
+- [05:13] actually handles all the steps. all the
+- [05:15] multi-step tasks get done. And it will
+- [05:17] edit things for me, too. So, this option
+- [05:19] right here, it says allow edits. It can
+- [05:22] edit one or multiple pages. It could
+- [05:24] update my entire data list if it needs
+- [05:26] to. And I just had to give it that goal
+- [05:29] and basically let it go to work. Okay.
+- [05:31] Now, let me show you exactly what it
+- [05:33] did. It basically created an entire plan
+- [05:35] for itself. It created self a checklist.
+- [05:38] It went through everything you needed
+- [05:39] to. And then it gave me a summary here.
+- [05:41] All set. I created this document for you
+- [05:43] inside of your directory. and structure
+- [05:45] it this way based on my prompt. Here is
+- [05:47] the link to the new page. Let's go
+- [05:48] there. Okay. Formatted exactly the way I
+- [05:51] want. Overview, goals, timeline, the
+- [05:54] different tasks here and assigned to me.
+- [05:56] I could have been more specific in my
+- [05:58] prompt, assigned different things to
+- [05:59] different people and it would have
+- [06:00] created that and assigned them
+- [06:02] automatically. The deliverables, the
+- [06:04] resources, and the notes. And I actually
+- [06:07] have notion AI that pops up here
+- [06:09] available. So, anything I want to
+- [06:11] improve on this or change about this, I
+- [06:14] could just do that with a follow-up
+- [06:15] prompt here. And this entire task took
+- [06:18] under two minutes here. I have that
+- [06:19] prompt saved as a template because every
+- [06:21] time I create a project, I do create it
+- [06:23] this way. And this creates this document
+- [06:25] for me, assigns it to the right people.
+- [06:27] Any tweaks I want to do, I just do it
+- [06:29] with a chat on the side with notion AI.
+- [06:31] And that's another big difference with
+- [06:33] this because this notion agent actually
+- [06:35] knows all the different Notion building
+- [06:37] blocks. So, it could create pages, it
+- [06:39] could edit pages, right? Organize
+- [06:41] things, it could enrich your database,
+- [06:43] it could assign things to people, it
+- [06:45] could view things. Pretty much all the
+- [06:47] different ways you could use Notion.
+- [06:49] Well, this knows how to do it. You don't
+- [06:51] actually have to learn Notion the old
+- [06:53] school way. And by the way, you could
+- [06:55] always undo any changes because you are
+- [06:57] giving the agent a lot of control here
+- [06:59] to do things for you. But you could
+- [07:00] trust it to do important work because,
+- [07:02] you know, if anything goes wrong, you
+- [07:04] could always undo it easily. Now, the
+- [07:06] second demo I want to show you, I call
+- [07:07] it the SOP finder and refresher.
+- [07:10] Basically, what it does is the Notion AI
+- [07:12] agent could find any SOP that is
+- [07:15] relevant to the topic I'm searching for.
+- [07:17] In this case, it's about our course
+- [07:19] production workflow. We have multiple
+- [07:20] instructors. So, I've documented exactly
+- [07:23] how we create courses from video
+- [07:26] uploading to publishing, everything. all
+- [07:28] the steps are created, but I want to
+- [07:30] make sure they're up to date and I want
+- [07:31] to make sure I have them all in one
+- [07:32] place so I could easily onboard someone
+- [07:35] in how we do things when I bring on a
+- [07:37] new instructor here. So, for this one, I
+- [07:39] actually wanted to keep my prompt
+- [07:41] simpler because the notion AI agent will
+- [07:43] still create a plan and do a pretty good
+- [07:44] job. So, I have a simple prompt
+- [07:46] sometimes and sometimes I really spell
+- [07:49] out what I want done if I know what I
+- [07:51] want done very specifically like the
+- [07:53] previous prompt. But this one says,
+- [07:54] "Find all the SOPs in my workspace
+- [07:57] related to course production. Create a
+- [07:59] new page called course production SOP
+- [08:01] list and group everything by topic. Add
+- [08:04] a short note under each one if anything
+- [08:06] looks out of date and link back to the
+- [08:08] original pages. Now, I want to show you
+- [08:11] another thing here that you could do,
+- [08:13] which you'll see right underneath this
+- [08:15] right here. It says get better answers
+- [08:16] from your apps. So, if you click here,
+- [08:19] this is what I have with my business
+- [08:20] plan. So, I could actually get it to
+- [08:23] link to other things. Now, I have a lot
+- [08:25] of things inside of my Google Drive,
+- [08:27] especially a lot of different scripts.
+- [08:28] Maybe some SOPs are there. We try to
+- [08:30] keep it organized here, but let's go
+- [08:32] ahead and click on this. And here, it
+- [08:34] will just walk you through confirming
+- [08:36] that connection. Sometimes it will take
+- [08:38] up to 36 hours to sync everything,
+- [08:41] especially if you have a large database
+- [08:43] here inside of your Google Drive. But
+- [08:45] that is one of the apps that I recommend
+- [08:47] you connect, especially if you keep
+- [08:49] things there. They have Google Calendar
+- [08:51] here. You could also connect Gmail and a
+- [08:53] couple other settings here that I wanted
+- [08:54] to also show you. You can, if you want,
+- [08:57] turn off web search, so it's on by
+- [08:59] default, so it can allow the AI to go
+- [09:02] look for up-to-date information when
+- [09:04] answering your questions. But if you
+- [09:06] don't want that, I know some people just
+- [09:08] want to keep their information contained
+- [09:10] and not give it web access, you can
+- [09:12] always turn that off here and basically
+- [09:14] just interact with your knowledge base.
+- [09:16] And once you do connect anything, you
+- [09:18] can always right here choose to use apps
+- [09:22] and integration or not to use them. You
+- [09:24] could always do that with web search
+- [09:26] too, just right inside of chat. Okay,
+- [09:28] this time it created a new document for
+- [09:30] us. Course production SOP list. Let's go
+- [09:33] there. It's a very nice and organized
+- [09:35] document that I could share with someone
+- [09:36] from planning to content creation to
+- [09:39] post-prouction, publishing and all the
+- [09:41] different SOPs related to that. It found
+- [09:43] out if anything was updated and when it
+- [09:46] was updated. So, this was updated eight
+- [09:48] months ago. So, it's giving me a
+- [09:49] suggestion on how I would want to update
+- [09:52] that. In some cases, it's telling me
+- [09:53] that this one is older. For example,
+- [09:56] this note says this is updated recently.
+- [09:58] It looks current. So, in just maybe one
+- [10:01] minute, I got something I could share
+- [10:02] with anyone. And most importantly, if
+- [10:05] something is outdated, it's telling me
+- [10:06] that it's outdated. So, I could go
+- [10:08] review it and make sure if I want to
+- [10:10] make any changes, I can. I could always
+- [10:12] bring the Notion AI agent back up here,
+- [10:13] too, to make any changes relevant to
+- [10:15] anything that I just asked about. Now,
+- [10:17] this next example is how I keep a lot of
+- [10:19] my information nice and organized inside
+- [10:21] of Notion, but I let the Notion AI agent
+- [10:23] do the work. So, I went to this really
+- [10:26] long document I have. This is a script
+- [10:28] for one of our courses on digital
+- [10:30] marketing. And I just copied all the
+- [10:32] information here, all the different
+- [10:33] sections. And I brought it over to
+- [10:36] notion. And all I wrote here is add a
+- [10:39] new parent page for this course and
+- [10:41] organize everything by chapters. Then
+- [10:44] create individual pages for each lesson
+- [10:46] and organize them in order. And I just
+- [10:49] pasted the entire script that I just
+- [10:50] copied on over and send this out. And in
+- [10:52] a couple minutes, it created this page
+- [10:55] for us. So the entire course structure
+- [10:57] on top and then a link to all the
+- [11:00] different lessons here which before this
+- [11:03] I used to literally have to create
+- [11:05] individual pages, format them, organize
+- [11:08] them, copy and paste. It created all
+- [11:10] these individual pages. And if I go to
+- [11:12] any one of these pages like this, it has
+- [11:14] the script from that nicely formatted,
+- [11:17] right? It has the heading. It has the
+- [11:19] subheading. Everything is organized into
+- [11:21] bullet points, into numbered list, and
+- [11:24] it's all ready to go. Now, my AI agent
+- [11:26] has access to all this information
+- [11:29] inside of Notion. In this case, the
+- [11:30] connection to Google Drive was fine, but
+- [11:32] I love to have everything nice and
+- [11:34] organized here in this format. I mean,
+- [11:36] this is just nice and easy, and it
+- [11:39] really ties nicely to my next example,
+- [11:41] too. Now, before I show you the next
+- [11:43] demo, there's an option here that also
+- [11:45] lets you personalize everything to you.
+- [11:47] So, you'll see that option right on top.
+- [11:49] This allows your agent to learn your
+- [11:51] style and the way you like to work. So,
+- [11:53] you could set up different profile pages
+- [11:55] and tell your agents on how to behave.
+- [11:57] This could be shortcuts, the format you
+- [11:59] wanted to respond in, any type of
+- [12:02] content for reference. And as you work,
+- [12:04] you ask your agent to remember things,
+- [12:06] and it will automatically update the
+- [12:08] profile page with what are called
+- [12:10] memories here. And you could always edit
+- [12:12] that at any time. So with this writer
+- [12:15] agent, I'm going to set up my
+- [12:16] instructions here. They also have an
+- [12:18] entire template page here you could
+- [12:20] choose from. So I'll choose the
+- [12:21] educational one here. So this is what
+- [12:23] those pages look like. I really like
+- [12:25] this one educational template. This page
+- [12:27] will define the instruction, the work
+- [12:29] style, and the identity of this agent.
+- [12:31] Okay. So you'll see kind of these are
+- [12:33] usually called system prompts where the
+- [12:35] agent knows exactly how to behave.
+- [12:37] You're patient, educational, committed
+- [12:39] to helping users. So, this is going to
+- [12:40] be good for my writer agent here. And I
+- [12:43] could always edit those instructions
+- [12:45] when I come back to this personalization
+- [12:46] page. I could just go ahead and edit and
+- [12:48] change anything on this page that I want
+- [12:50] to change. And you could always go here
+- [12:52] and create your own agent, too. So, it
+- [12:54] will just give you a template here, and
+- [12:56] you just fill in the blanks on how you
+- [12:58] want. But, I like the templates. They
+- [13:00] give you a guideline on how you can
+- [13:02] dress up these agents, basically. Okay.
+- [13:04] This last demo has saved me a ton of
+- [13:06] time. And if you have a use case like
+- [13:08] this, this is going to completely change
+- [13:10] how you work. This is something I really
+- [13:12] haven't been able to find a good
+- [13:13] solution for in the last three years or
+- [13:16] so covering AI. So this is what I'm
+- [13:18] going to do. This demo, I'm going to
+- [13:19] call it the knowledgebased auditor.
+- [13:22] Okay? And this skill leap example is a
+- [13:24] good one. So skill leap is our learning
+- [13:26] platform and we have 30 courses there.
+- [13:28] Well, the problem is every time a new AI
+- [13:30] tool comes out across dozens of courses,
+- [13:34] different pages, different lessons,
+- [13:35] different scripts, different
+- [13:36] instructors, well, they need regular
+- [13:39] updates, right? And that's been
+- [13:41] extremely hard to do. For example, our
+- [13:44] chat GPT course, I think, has gone
+- [13:46] through six different revisions and as
+- [13:49] of today, it's out of date because a new
+- [13:51] model just came out, right? So, I'm
+- [13:54] going to ask the AI agent to actually
+- [13:56] look into my entire knowledge base, any
+- [13:59] type of connections that I have, and try
+- [14:01] to figure out what is out ofd. So, let
+- [14:05] me give it this prompt. And my prompt
+- [14:07] says, "Search my entire course pages for
+- [14:10] anything that mentions chat GPT4 or
+- [14:12] GPT4. Create a page called outdated
+- [14:16] reference report and list everything you
+- [14:18] find. For each item, update the doc with
+- [14:22] GPT5 wording and link back to the
+- [14:24] original page. Now, I'm going to do the
+- [14:27] exact same thing with Dolly because Chad
+- [14:29] GPT doesn't call their image generation
+- [14:31] model Dolly inside of ChatgPT. That's
+- [14:33] another one. Google Gemini has come up
+- [14:35] with something new since the last
+- [14:37] release of our Google Gemini course.
+- [14:39] Notebook LM has some updates that I want
+- [14:40] to go ahead and tweak, right? And this
+- [14:42] has web search so it can cross reference
+- [14:45] this information inside of my knowledge
+- [14:47] list with what's actually new too. So
+- [14:49] that's another way to use it. Let me
+- [14:50] send this out. Okay, it created a nice
+- [14:52] summary page which is actually my
+- [14:54] favorite way to use the agent. I want to
+- [14:56] see a nice summary page here. And it
+- [14:58] told us exactly what it updated. In this
+- [15:00] case, it looks like we've already
+- [15:01] updated a lot of our information. So it
+- [15:03] only found stuff in our 14-day AI boot
+- [15:05] camp. So the video script is giving me a
+- [15:07] link to the video script of rewarded the
+- [15:10] legacy model sentence to avoid GPT4. New
+- [15:13] wording keeps it current with GPT 5
+- [15:15] here. And if I click to that 14-day boot
+- [15:18] camp script here, if I search for chat
+- [15:20] GPT5, yeah, these are all the different
+- [15:22] times that it's updated from chat GPT4
+- [15:26] to 5, keeping this up to date. Such a
+- [15:30] massive timesaver. Just this one
+- [15:32] example. They're also working on
+- [15:33] something called custom agents that are
+- [15:35] coming soon. So, you'll be able to
+- [15:37] create specialized agents, these type of
+- [15:39] AI teammates that could automatically
+- [15:42] run on a trigger or on a schedule. And
+- [15:44] notion also has plans on more connectors
+- [15:47] and a better mobile experience. And
+- [15:49] they're improving their personalization
+- [15:51] here with more options for memory and
+- [15:53] behavior, too. So, if you live inside of
+- [15:55] Notion, obviously, this AI agent is a
+- [15:58] major upgrade. It feels like a real
+- [15:59] teammate that understands your workspace
+- [16:01] and your business and could actually act
+- [16:03] on it. And you could do something small
+- [16:05] like handling repetitive document
+- [16:07] creation or any type of data base update
+- [16:10] that needs to happen on a recurring
+- [16:12] basis. And then you could use some of my
+- [16:14] examples and obviously expand based on
+- [16:16] your use case. And if you don't use
+- [16:18] notion, that one example I showed you
+- [16:19] where I just took documents from other
+- [16:21] things like Google Drive and had notion
+- [16:23] create those pages, you can create a
+- [16:26] pretty robust notion database. now very
+- [16:29] quickly with the help of the agent. No
+- [16:31] more manually building one page at a
+- [16:32] time. This literally, I don't know,
+- [16:34] created like 30 pages for me with a
+- [16:36] simple prompt in two minutes. So, it's
+- [16:38] made it a lot easier to get into the
+- [16:41] Notion ecosystem, too. Thanks again for
+- [16:43] Notion for sponsoring this video. I love
+- [16:45] when I use a tool for many, many years
+- [16:47] and then I get to do a partnership like
+- [16:49] this with them on YouTube. I think it
+- [16:51] was a great fit. I'll put a link in the
+- [16:53] description of this video so you could
+- [16:54] use Notion AI agent for yourself and I
+- [16:56] think you're going to find it really,
+- [16:58] really beneficial. I'll see you on the
+- [17:00] next video.

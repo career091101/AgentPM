@@ -1,0 +1,1462 @@
+---
+title: "So, is human intelligence going to be the upper limit of what's possible? >> I think absolutely not...."
+video_id: "l3u_FAv33G0"
+video_url: "https://www.youtube.com/watch?v=l3u_FAv33G0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  So, is human intelligence going to be
+  the upper limit of what's possible?
+  >> I think absolutely not.
+key_points:
+  - "So, is human intelligence going to be"
+  - ">> I do wonder what all of this means for"
+  - "people. I mean, if we are getting to a"
+  - "intelligence is dwarfed by super"
+  - ">> It means a massive transformation. This"
+  - "is actually something which is going to"
+  - "Fry. AGI is coming. That's what everyone"
+  - "on the podcast is Shane Le, chief ADI"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: l3u_FAv33G0
+
+- URL: https://www.youtube.com/watch?v=l3u_FAv33G0
+- Retrieved at: 2025-12-30T16:04:15+09:00
+
+## Text
+
+- [00:00] So, is human intelligence going to be
+- [00:03] the upper limit of what's possible?
+- [00:06] >> I think absolutely not.
+- [00:07] >> I do wonder what all of this means for
+- [00:09] people. I mean, if we are getting to a
+- [00:13] point where essentially I mean human
+- [00:16] intelligence is dwarfed by super
+- [00:17] intelligence.
+- [00:19] What does that mean for society?
+- [00:21] >> It means a massive transformation. This
+- [00:24] is actually something which is going to
+- [00:25] structurally change the economy and
+- [00:28] society and all kinds of things. And we
+- [00:31] need to think about how do we structure
+- [00:35] this new world.
+- [00:41] Welcome to Google Deep Mind the podcast
+- [00:43] with me, your host, Professor Hannah
+- [00:45] Fry. AGI is coming. That's what everyone
+- [00:48] seems to be saying. Well, today my guest
+- [00:50] on the podcast is Shane Le, chief ADI
+- [00:53] scientist and co-founder of Google Deep
+- [00:56] Mind. Shane has been talking about AGI
+- [00:58] for decades, even back when it was
+- [01:00] considered, in his words, the lunatic
+- [01:03] fringe. He is credited with popularizing
+- [01:05] the term and making some of the earliest
+- [01:07] attempts to work out what it might
+- [01:10] actually be. Now, in the conversation
+- [01:12] today, we're going to talk to him about
+- [01:13] how AGI should be defined, how we might
+- [01:16] recognize it when it arrives, how to
+- [01:18] make sure that it is safe and ethical,
+- [01:21] and then crucially, what the world looks
+- [01:23] like once we get there. And I have to
+- [01:26] tell you, Shane was remarkably candid
+- [01:29] about the ways that the whole of society
+- [01:31] will be impacted over the coming decade.
+- [01:34] It's definitely worth staying with us
+- [01:36] for that discussion. Welcome to the
+- [01:38] podcast, Shane. uh we last spoke to you
+- [01:41] five years ago and then you were telling
+- [01:43] us your your sort of vision for what AGI
+- [01:45] might look like in terms of the AI
+- [01:47] citizens that we got now today. Do you
+- [01:49] think that they're showing little sparks
+- [01:50] of being AGI?
+- [01:52] >> Yeah, I think it's a lot more than
+- [01:53] sparks.
+- [01:54] >> More than sparks.
+- [01:55] >> Oh yeah. Yeah. So my my definition of
+- [01:57] AGI or sometimes call minimal AGI is
+- [02:01] it's an artificial agent that can at
+- [02:04] least do the kinds of cognitive things
+- [02:06] people can typically do.
+- [02:08] >> Yeah.
+- [02:09] And I like that bar because if it's less
+- [02:12] than that, it feels like well, it's
+- [02:14] failing to do things we'd cognitive
+- [02:16] things that we'd expect people to be
+- [02:17] able to do. So, it feels like we're not
+- [02:18] really there yet.
+- [02:20] >> On the other hand, if I set the minimal
+- [02:21] bar much higher than that, I'm setting
+- [02:23] it at a level where many people, a lot
+- [02:27] of people wouldn't actually be able to
+- [02:29] do some of the things we're requiring of
+- [02:30] the AGI. So, you know, we we believe
+- [02:32] people have some sort of, I don't know,
+- [02:34] general intelligence, you might call it.
+- [02:36] So I feels like if it if an AI can do
+- [02:39] the kinds of cognitive things people can
+- [02:40] typically do at least possibly more then
+- [02:43] we should sort of consider it within
+- [02:44] that kind of a class.
+- [02:45] >> The stuff that we have now where is it
+- [02:47] on those levels
+- [02:48] >> right? Um so it's uneven so it's already
+- [02:52] much much better than people that say
+- [02:54] speaking languages. So it'll speak 150
+- [02:56] languages or something. Nobody can do
+- [02:57] that. Uh and it general knowledge is
+- [03:00] phenomenal. I can ask it about uh you
+- [03:02] know the suburb I grew up in a small
+- [03:04] town in New Zealand and it happens to
+- [03:05] know things about it right um on the
+- [03:08] other hand they still fail to do things
+- [03:10] that we would expect people typically be
+- [03:12] able to do uh they're not very good at
+- [03:14] continual learning learning new sort of
+- [03:16] skills over an extended period of time
+- [03:18] and that's incredibly important for
+- [03:20] example if you're taking on a new job
+- [03:22] you know you're not expected to know
+- [03:23] everything to be performant in the job
+- [03:25] when you arrive but you have to learn
+- [03:26] over time to do it there also have some
+- [03:29] weaknesses in reasoning ing um
+- [03:31] particularly things like visual
+- [03:32] reasoning.
+- [03:33] >> So the AI are very good at say
+- [03:34] recognizing objects. They can recognize
+- [03:36] cats and dogs and all these sort of
+- [03:37] things. They've done that for a while.
+- [03:39] Um but if you ask them to reason about
+- [03:41] things within a within a scene, they get
+- [03:44] a lot more shaky. So you might say,
+- [03:46] well, you know, you can see you can see
+- [03:47] a red car and a blue car and you ask
+- [03:49] them which car is bigger. Um people
+- [03:52] understand that there's perspective
+- [03:53] involved and maybe the blue car is
+- [03:55] bigger, but it looks smaller cuz it's
+- [03:56] further away, right? Uh AIS are not so
+- [03:59] good at that. Or if you have some sort
+- [04:01] of diagram with nodes and eges between
+- [04:04] them
+- [04:04] >> like a network
+- [04:05] >> a network yeah or a graph as a
+- [04:07] mathematician would say um and you ask
+- [04:10] questions about that and has to count
+- [04:11] the number of um you know edges spokes
+- [04:14] spokes that are coming out of you know
+- [04:15] one of the nodes on the graph.
+- [04:17] >> Um a person does that by paying
+- [04:19] attention to different points and then
+- [04:21] actually mentally maybe counting them or
+- [04:22] what have you. Um the AI's not very good
+- [04:25] at doing that type of thing. So there
+- [04:26] are all sorts of things like this uh
+- [04:29] that we currently see. Uh I don't think
+- [04:32] there are fundamental blockers on any of
+- [04:35] these things and we have ideas on how to
+- [04:37] develop systems that can do these things
+- [04:40] and we see metrics improving over time
+- [04:41] in a bunch of these areas. So my
+- [04:44] expectation is over a number of years
+- [04:46] these things will all get addressed but
+- [04:48] they're not there yet and I think it's
+- [04:50] going to take a little bit of time to go
+- [04:52] through that cuz it's quite a long tale
+- [04:53] of all sorts of cognitive things that
+- [04:57] people can do uh where the AIs are still
+- [05:00] below below human performance
+- [05:03] as we reach that and I think that's
+- [05:05] coming in a few years unclear exactly
+- [05:09] um the AIS will be a lot more reliable
+- [05:12] and that will increase their value quite
+- [05:14] a lot in many ways but they'll they will
+- [05:16] also during that period become
+- [05:18] increasingly capable like to um
+- [05:21] professional level and beyond and maybe
+- [05:22] in coding mathematics already in you
+- [05:25] know known mult languages general
+- [05:26] knowledge of the world and stuff like
+- [05:28] this. So it's kind of a it's an uneven
+- [05:30] thing
+- [05:30] >> if you think that they will become more
+- [05:33] reliable over time like how is it just a
+- [05:37] question of making the models bigger
+- [05:39] doing things at larger scale is it more
+- [05:42] data I mean do you have a clear path to
+- [05:44] make them more reliable uh I think we do
+- [05:48] and it's not one particular thing it's
+- [05:49] just not bigger models or more data um
+- [05:54] in some cases it's more data of a
+- [05:56] particular mind and then when you
+- [05:59] collect data that requires that say
+- [06:02] visual reasoning then the models learn
+- [06:04] how to do it. In some cases it requires
+- [06:06] algorithmic things like new processes
+- [06:09] within. So for example, if you want to
+- [06:12] do continual learning, so the AI keeps
+- [06:13] learning over time, you might need some
+- [06:15] process whereby new information is maybe
+- [06:18] stored in something, some sort of
+- [06:20] retrieval system, an episodic memory if
+- [06:22] you like. And then you might have
+- [06:24] systems whereby that information over
+- [06:26] time is trained back into some
+- [06:28] underlying model. So that requires more
+- [06:31] than just more data. It requires some
+- [06:33] sort of algorithmic and architectural
+- [06:35] changes. So I think the answer is a
+- [06:37] combination of these things and it
+- [06:38] depends on what the particular issue is.
+- [06:41] >> I know that you don't think the AGI
+- [06:43] should be this this single yes no like a
+- [06:45] threshold that you cross but but but
+- [06:47] more of a sort of spectrum as it were
+- [06:49] that you have these levels. Just just
+- [06:51] talk me through that.
+- [06:52] >> Yeah. So I have um what I call minimal
+- [06:55] AGI and that's when you have an
+- [06:57] artificial agent that it can at least do
+- [06:59] all the sorts of cognitive things that
+- [07:01] we would typically expect people to be
+- [07:02] able to do. And um we're not there yet,
+- [07:05] but it could be one year, it could be 5
+- [07:07] years. I'm guessing probably about two
+- [07:09] or so.
+- [07:10] >> So that's the lowest level then.
+- [07:11] >> That's the my what I call minimal AGI.
+- [07:14] That's the point at which I'd say okay
+- [07:16] this AI is no longer failing in ways
+- [07:19] that we would find surprising if we gave
+- [07:22] a person that cognitive task. And I
+- [07:24] think that's the that's the minimum bar.
+- [07:26] Now that doesn't mean we understand
+- [07:29] fully how to reach the capabilities of
+- [07:32] human intelligence because you can have
+- [07:34] extraordinary people who who go and do
+- [07:37] amazing you know cognitive feats
+- [07:39] inventing new theories in physics or
+- [07:41] maths or developing you know incredible
+- [07:44] symphonies or doing all writing amazing
+- [07:46] literature and so on. Um, and just
+- [07:49] because our AI can do what's typical of
+- [07:51] human cognition doesn't necessarily mean
+- [07:55] we know all the recipes and algorithms
+- [07:57] everything required to achieve um very
+- [08:00] extraordinary feats of human cognition.
+- [08:02] Um once we can with our AI achieve the
+- [08:07] full spectrum of what's possible with
+- [08:09] human cognition uh then we really know
+- [08:12] that we've nailed you know at least
+- [08:14] fully to human level. And so we call
+- [08:15] that full AGI.
+- [08:17] >> And then is there a level beyond that?
+- [08:20] >> Um yeah. So I think once you start going
+- [08:22] beyond what is possible with human
+- [08:24] cognition, you start heading into
+- [08:26] something that's called um artificial
+- [08:28] super intelligence or ASI. Um there
+- [08:31] aren't really good clear definitions of
+- [08:33] that. Um I've actually tried on a number
+- [08:36] of occasions to come up with a good
+- [08:37] definition of that. Every definition
+- [08:38] I've ever come up with has some sort of
+- [08:41] significant problems. But at least in
+- [08:43] vague terms, it means something like
+- [08:45] it's it's an AGI. So it has the
+- [08:47] generality of an AGI, but it's now so
+- [08:50] capable in general, it's somehow far
+- [08:52] beyond what uh you know what humans are
+- [08:55] capable of of reaching.
+- [08:57] >> Cuz I know that you were one of the
+- [08:58] people who helped to coin that phrase
+- [09:00] AI. Do you think that it's still useful
+- [09:03] as a phrase? I mean, there's so many
+- [09:05] competing definitions now. It's sort of
+- [09:07] like the buzz word that everyone's
+- [09:08] using. And you're right that it's sort
+- [09:10] of it the way that it's described is
+- [09:12] almost like a yes no like a kind of
+- [09:14] discrete line that gets crossed rather
+- [09:16] than this this this continuum almost of
+- [09:18] levels as you're describing.
+- [09:20] >> Yeah. So when I proposed the term, I was
+- [09:24] thinking of it more as a field of study
+- [09:27] >> because uh I was uh talking to a guy Ben
+- [09:30] Girtzol who I'd worked for um a year or
+- [09:33] so before and he wanted to write a book
+- [09:36] on sort of the old vision of AI this
+- [09:38] thinking machines these machines that
+- [09:39] can do lots and lots of different things
+- [09:40] rather than it's just specialized. It
+- [09:43] just plays poker. It just does text to
+- [09:45] speech. It just does you know very very
+- [09:47] specific things which were sort of
+- [09:48] typical at the time. I was like, what
+- [09:50] about the old dream of AI? Building a
+- [09:53] system that has a very general
+- [09:54] capability and it can learn and reason
+- [09:56] and do language and write poetry or do
+- [09:59] maths or maybe paint a picture or, you
+- [10:02] know, all sorts of different things.
+- [10:04] What do we call that? And uh I said to
+- [10:08] him, well, if it's really about the
+- [10:09] generality we want, why don't we just
+- [10:10] put the word general in in in the name
+- [10:12] and call artificial general
+- [10:13] intelligence. AGI kind of rolls off the
+- [10:15] tongue.
+- [10:16] >> Um maybe we do that. But then what
+- [10:18] happened is that um a number of people
+- [10:20] started using the term online and then
+- [10:22] very quickly people started talking
+- [10:24] about well when will we have AGI and so
+- [10:26] then AGI moved from being a sort of
+- [10:29] field of study or a sub field to a
+- [10:32] category of artifacts right and then it
+- [10:35] needs a definition. So perhaps it was a
+- [10:37] mistake that I should have gone in and
+- [10:40] defined it. Um you know there now it
+- [10:42] turned out a few years later we found
+- [10:43] there was a guy Marco Brud who had
+- [10:45] actually written a paper in 97
+- [10:48] uh we had used the term but it was in a
+- [10:50] nanotech security conference and none of
+- [10:52] us knew about this. Um but the way he
+- [10:55] defined it was actually in reference to
+- [10:56] the sorts of cognitive things people do
+- [10:59] in industry and other places like that.
+- [11:00] So it's quite similar flavor to even
+- [11:02] what I'm I'm using now. Yeah. If it had
+- [11:04] been fixed more clearly early on, that
+- [11:07] would that that would be helpful.
+- [11:08] >> Do you regret coin?
+- [11:09] >> No, no, no. Because I think it it gave a
+- [11:13] way for people to refer to this idea of
+- [11:17] building AIs that were actually general.
+- [11:20] >> Mhm.
+- [11:21] >> Um or at least as general general to the
+- [11:23] extent that people's, you know,
+- [11:25] intelligence is general. There was a
+- [11:27] need for that, I think, and that's why I
+- [11:29] think the term caught on because there
+- [11:30] was sort of, you know, how do you refer
+- [11:32] to that if you're not referring to this?
+- [11:33] If people use phrases like advanced AI,
+- [11:35] well alpha fold is an advanced AI in
+- [11:38] some sense, right? Uh and it's very
+- [11:41] impactful, but it's very very narrow,
+- [11:42] right? Or alpha go again is very narrow
+- [11:45] and it's some sort of advanced AI
+- [11:46] system. So how do you refer to systems
+- [11:48] that are very general? But then what's
+- [11:50] happened is that different people
+- [11:54] saw the term and took on they they they
+- [11:57] adapted in different ways or they looked
+- [11:59] at it through different lenses. So for
+- [12:00] some people uh back even in the early
+- [12:03] days when they thought of AGI they
+- [12:05] thought of something in the future
+- [12:07] decades away and that this would be very
+- [12:10] transformative and so they started
+- [12:12] thinking about AGI in terms of the
+- [12:13] transformation it would create in
+- [12:14] society
+- [12:15] >> and so then they started if they try to
+- [12:17] define it they tend to think about oh
+- [12:19] it's because it can lead to I don't know
+- [12:21] economic growth or it's going to do all
+- [12:22] these sorts of things right
+- [12:24] >> some I tend to think of it as a more of
+- [12:26] a historical point in time it's the
+- [12:28] point in time at which we sort of have
+- [12:32] to say, well, these AIs in some sense
+- [12:33] belong in a similar category to our
+- [12:36] intelligence and that they can do
+- [12:38] cognitive things that we typically can
+- [12:39] do. Um, now that doesn't necessarily
+- [12:43] revolutionize the world. The typical
+- [12:45] person walking around isn't going to be
+- [12:46] a Mozart or an Einstein and invent the
+- [12:49] successor to quantum theory or whatever,
+- [12:52] right? Um, but it's a very interesting
+- [12:54] point in time because 10 years ago, 20,
+- [12:57] you know, whatever, we did not have AIs
+- [13:00] that were anywhere close to being able
+- [13:02] to do the cognitive things that people
+- [13:03] can typically do. So, I think this is an
+- [13:05] important sort of historical moment in
+- [13:08] that AIS are somehow in a similar
+- [13:10] category to us.
+- [13:11] >> I also think and I think it's useful to
+- [13:13] try to define it a bit because one of
+- [13:15] the issues that come up people have
+- [13:17] these different timelines, right?
+- [13:18] >> Some people say, "Oh, AR, I think it's
+- [13:20] going to be here in 3 years. Oh, I think
+- [13:22] it's going to be 15 years away or 20
+- [13:24] years or whatever. Um, and often when I
+- [13:27] go and talk to them about that, I find
+- [13:30] that they're using a different
+- [13:31] definition. And so that just leads to a
+- [13:33] lot of confusion because people use the
+- [13:35] term to mean different things. And in
+- [13:37] some cases, I actually agree with what
+- [13:39] they think is going to happen. They're
+- [13:40] just using the word in a different way.
+- [13:41] And that just creates quite a lot of
+- [13:42] confusion.
+- [13:43] >> I just want to compare some of the other
+- [13:44] definitions that people are using for
+- [13:46] for AGI. So um some people have
+- [13:47] suggested that it's like there's a
+- [13:49] checklist of tasks or maybe there's uh
+- [13:51] humanities last exam which is this this
+- [13:54] sort of language model benchmark of two
+- [13:56] and a half thousand questions across
+- [13:58] different subjects. So humanities and
+- [13:59] natural sciences.
+- [14:00] >> Um there's other people that have said
+- [14:02] oh you uh you it needs to be able to
+- [14:04] perform in a kitchen. This is sort of
+- [14:07] trained as a chef and be able to be
+- [14:08] dropped into a different kitchen and
+- [14:09] perform or or there's even one which is
+- [14:12] um could it be able to make a million
+- [14:15] dollars from $100,000?
+- [14:17] >> What do you what's your take on those
+- [14:19] definitions?
+- [14:20] >> Well, each one I have a take on. Go
+- [14:22] >> ahead.
+- [14:25] >> Um I mean make was a million dollars
+- [14:27] from $1,000 or something like that. Um
+- [14:32] I mean that that's obviously a very
+- [14:34] economic kind of perspective on it. Um
+- [14:39] I think a lot of people would struggle
+- [14:41] to do that. Um it's a very I think in
+- [14:45] some ways quite narrow perspective on on
+- [14:48] this. I mean, maybe you could have, I
+- [14:50] don't know, a trading algorithm that
+- [14:52] trades uh trades on the markets that
+- [14:55] could do that, but that's all it can do
+- [14:58] is that's not what I'm talking about.
+- [15:01] So, I think it's the G that's the G in
+- [15:04] AGI. It's the generality that I find
+- [15:06] interesting and I I think that's one of
+- [15:07] the incredible things of the human mind
+- [15:09] is our flexibility and generality to do
+- [15:11] many, many different things. If you have
+- [15:14] a particular set of tasks, well, okay,
+- [15:18] maybe you can build a system that can do
+- [15:20] those tasks, but maybe it's still
+- [15:22] failing to do basic cognitive things
+- [15:24] that we'd expect almost anybody to be
+- [15:26] able to do. I think that's unsatisfying.
+- [15:29] It's like, oh, our AI just failed again
+- [15:31] because it doesn't understand that
+- [15:33] really simple thing that I would expect
+- [15:35] pretty much anybody to understand. So
+- [15:37] the way I would operationalize my
+- [15:39] definition is I would have a suite of
+- [15:42] tasks where I know what typical
+- [15:45] performance is
+- [15:46] >> from humans
+- [15:47] >> from humans and I would see whether the
+- [15:50] AI can do all those tasks. Now if it
+- [15:53] fails at any of those tasks it fails to
+- [15:55] meet my definition
+- [15:56] >> because it's not general enough.
+- [15:58] >> Yeah. It's failing to do some cognitive
+- [15:59] thing that we'd expect people to be able
+- [16:01] to do. If it passes that then I would
+- [16:05] propose we then go into a second phase
+- [16:07] which is more adversarial and we say
+- [16:09] okay it passed the battery of tests so
+- [16:11] it's not failing at anything in our
+- [16:13] standard collection of however many
+- [16:15] thousands of tests or whatever we have
+- [16:17] now let's do an adversarial test get a
+- [16:20] team of people give them I don't know a
+- [16:21] month or two or whatever they're allowed
+- [16:23] to look inside the AI they're allowed to
+- [16:24] do whatever they like their job is find
+- [16:26] something that we believe people can
+- [16:29] typically do and it's cognitive
+- [16:31] where the AI fails at. If they can find
+- [16:34] it, it fails by definition. If they
+- [16:37] can't after a few months of probing it
+- [16:39] and testing it and and scratching the
+- [16:41] heads and trying to find it, I think for
+- [16:43] intensive purposes, most practical
+- [16:45] purposes, we're there because this
+- [16:48] failure cases now so hard to find. Even
+- [16:50] teams of people after an extended period
+- [16:52] of time can't even find these failure
+- [16:54] cases. Do you think that we'll ever
+- [16:56] agree on a definition of what of what
+- [16:59] intelligence is or or what AGI is?
+- [17:01] Indeed.
+- [17:02] >> Um, in terms of AGI itself, my guess is
+- [17:06] that
+- [17:08] uh some years from now,
+- [17:11] the AIS will become so generally capable
+- [17:14] in so many different ways, people will
+- [17:16] just talk about them as being AGI and AI
+- [17:18] will just happen to mean those things.
+- [17:21] And maybe people will be less worried
+- [17:23] about they will have less arguments
+- [17:24] about whether this is an AGI or not.
+- [17:26] People will say, "Oh, I've got the
+- [17:27] latest Gemini 9 or whatever it is." And
+- [17:30] it is really good. It, you know, it can
+- [17:32] it can write poetry. You can teach it a
+- [17:34] card game and it can play with you that
+- [17:36] you you just made up. It can do math. It
+- [17:39] can translate things. It can
+- [17:41] >> plan a holiday with you or whatever,
+- [17:43] right? It's really really generally
+- [17:45] capable and it'll just seem obvious to
+- [17:46] people that it has some sort of
+- [17:48] generality of intelligence. But then for
+- [17:50] now, I mean, in terms of having before
+- [17:52] we get there, having this kind of
+- [17:54] defined path on the route to AGI, um, I
+- [17:58] mean, you talk about the the the risks
+- [18:00] of not having one that it could like
+- [18:01] acquire a certain piece of knowledge
+- [18:03] before another, for instance, I don't
+- [18:05] know, like being good at chemical
+- [18:08] engineering before it gets really good
+- [18:10] at ethics. I mean, how important is it
+- [18:13] to have this work now in advance of of
+- [18:16] getting there? So work around
+- [18:18] understanding its capabilities in
+- [18:19] different dimensions.
+- [18:21] >> Uh I think it's very important um
+- [18:24] because we have to think about
+- [18:27] how do how do we being society navigate
+- [18:32] uh the arrival of powerful capable
+- [18:36] machine intelligence
+- [18:38] and
+- [18:40] you can't just put it on a single
+- [18:42] dimension. It may be superhumanly
+- [18:45] capable at some things. It may be very
+- [18:48] fragile and weak in some other areas.
+- [18:50] And if you don't understand what that
+- [18:52] distribution looks like, you're going to
+- [18:55] not understand the opportunities that
+- [18:58] exist. You're also not going to
+- [19:00] understand the risks or the ways in
+- [19:02] which it could be misapplied because you
+- [19:04] know, oh, it's super capable over here,
+- [19:06] but you need to understand that it's
+- [19:08] very, very weak over here and so certain
+- [19:09] things can go wrong. So I think it's
+- [19:11] just an important part of society
+- [19:13] navigating
+- [19:15] and understanding what the current
+- [19:17] situation is. So you know I think a lot
+- [19:20] of the dialogue around AI already tends
+- [19:23] to talk about as being so so capable or
+- [19:26] sort of being not really that capable
+- [19:27] and it's overhyped or whatever. I think
+- [19:29] the reality is much more complicated. It
+- [19:32] is incredibly capable in some ways and
+- [19:34] it is quite fragile in others.
+- [19:36] >> You have to take the whole picture
+- [19:37] essentially.
+- [19:37] >> You got to take the whole picture. Yeah.
+- [19:39] And it's like, you know, human
+- [19:41] intelligence as well. You know, some
+- [19:43] people are really, really good. They
+- [19:44] speak a whole bunch of languages. Some
+- [19:46] people are really good at math. Some
+- [19:47] people are really good at music, but
+- [19:48] maybe they're not so good at something
+- [19:50] else.
+- [19:50] >> So, okay, if we've got we've sort of got
+- [19:52] performance and generality. The other
+- [19:54] sort of arm of this that I want to talk
+- [19:55] to you about is is ethics. How does that
+- [19:57] fit into all of this?
+- [19:59] >> There are many aspects to ethics and and
+- [20:01] AI. Um, one aspect is simply does the AI
+- [20:06] itself have a good understanding of what
+- [20:09] ethical behavior is and is it able to
+- [20:11] analyze
+- [20:13] uh possible things it can do in terms of
+- [20:16] this ethical behavior and do that
+- [20:18] robustly in a way that we can trust.
+- [20:21] >> So the AI itself can reason about the
+- [20:23] ethics of what it's doing.
+- [20:24] >> Yes.
+- [20:25] >> How does that work then? How do you
+- [20:27] embed that within it? I have a few
+- [20:29] thoughts on that but there's not a
+- [20:30] solved problem but it's I think it's a
+- [20:32] very very important problem. I like
+- [20:36] something which some people call chain
+- [20:38] of thought monitoring.
+- [20:39] >> Uh I've talked about this uh I've given
+- [20:42] some short talks on it and so on. I call
+- [20:44] it system two safety and
+- [20:47] >> this is the Daniel Connean system one
+- [20:49] system two thinking.
+- [20:50] >> Exactly. And so the basic idea is
+- [20:52] something like this. say as a person if
+- [20:56] you're faced with a difficult ethical
+- [20:58] situation
+- [21:00] um it's often not sufficient just to go
+- [21:04] with your gut instinct right you
+- [21:06] actually need to sit down and think
+- [21:07] about okay this is the situation these
+- [21:10] are the various complexities nuances
+- [21:12] these are the possible actions that
+- [21:14] could be taken these are the likely
+- [21:16] consequences of taking different actions
+- [21:19] and then analyze all of that with
+- [21:22] respect to some system of ethics and
+- [21:25] norms and morals and what have you that
+- [21:27] you have and maybe you have to reason
+- [21:30] about that quite a bit to really
+- [21:32] understand how all this fits together
+- [21:34] and then use that understanding to
+- [21:36] decide what what should be done. So
+- [21:38] let's say that the way that the human
+- [21:40] brain works in this situation I mean
+- [21:42] this is the conne stuff right is that uh
+- [21:45] you know someone annoys you say you have
+- [21:47] a rush of anger you want to react that's
+- [21:49] your system one sort of quick thinking
+- [21:50] instinctive
+- [21:52] >> but you take a breath you think it
+- [21:53] through consider the consequences that's
+- [21:55] your system two thinking and then you
+- [21:57] might choose a different a different
+- [21:59] path
+- [22:00] >> yes so you might say for example I don't
+- [22:02] know lying is bad right so we're not
+- [22:04] going to lie but you could be in a
+- [22:06] particular situation where I don't know
+- [22:09] you, you know, there's some bad people
+- [22:11] coming to get somebody and if you tell a
+- [22:13] lie, you can save their life and then
+- [22:15] the ethical thing to do is maybe to lie,
+- [22:17] right?
+- [22:18] >> And so the the the the simple rule is
+- [22:21] not always adequate to really make the
+- [22:22] right decision. So sometimes you need a
+- [22:25] little bit of logic and reasoning to
+- [22:27] really think through well in this case
+- [22:30] it's a it is actually the ethical thing
+- [22:31] to do is to tell a lie and maybe save
+- [22:34] someone's life or what have you, right?
+- [22:36] But it gets very complicated and you
+- [22:38] have you know you probably heard of all
+- [22:39] these trolley problems and all these
+- [22:41] sorts of things right where our
+- [22:44] instincts and the analysis in some cases
+- [22:47] start diverging and causes a lot of
+- [22:49] confusion right so these are this is not
+- [22:51] simple territory at all and we have AIs
+- [22:55] now that do this these thinking AIs
+- [22:58] right and so you can actually see the
+- [23:00] chain of thought that the the AIS use
+- [23:02] and so when you give an AI some question
+- [23:05] has a moral aspect to it, some ethical
+- [23:08] aspect, you can actually see it go away
+- [23:10] and reason about the situation. And if
+- [23:14] we can make that reasoning really really
+- [23:16] tight and has a really strong
+- [23:18] understanding of uh some ethics and
+- [23:21] morals that we want it to adhere to, I
+- [23:24] think it should in principle actually be
+- [23:26] be a become more ethical than people
+- [23:29] >> because it can more consistently apply
+- [23:32] and reason at maybe a superhuman level
+- [23:36] um the decision, you know, the choices
+- [23:38] that it's faced with and so on
+- [23:40] >> because that switches ethics into a
+- [23:42] reasoning problem as it were, rather
+- [23:44] than just a sort of a a feeling thing.
+- [23:47] >> Yeah.
+- [23:47] >> But then at the same time, I do wonder
+- [23:48] when you're saying that I do wonder a
+- [23:50] bit about grounding. I mean, these
+- [23:51] things
+- [23:53] certainly for now are like not living in
+- [23:55] the world as humans.
+- [23:57] >> Is it possible to sort of take what it
+- [23:59] feels like to experience the world from
+- [24:01] a human perspective and truly ground
+- [24:03] these machines in in in in sort of human
+- [24:06] ethics?
+- [24:08] >> Um, well, there's a few complexities.
+- [24:11] One complexity there is that there is
+- [24:13] not one human ethics.
+- [24:14] >> Agree.
+- [24:15] >> Um and there are different uh ideas
+- [24:18] about this uh that vary between people
+- [24:21] but also between cultures and regions
+- [24:23] and so on.
+- [24:24] >> So it'll have to understand that in
+- [24:26] certain places the norms are and
+- [24:29] expectations are a bit different.
+- [24:31] >> Um and to some extent the models do know
+- [24:34] quite a lot of this actually because
+- [24:35] they absorb data from all around the
+- [24:37] world. Um but yeah, it will need to be
+- [24:40] uh really good at that in terms of
+- [24:42] grounding in reality. Um at the moment
+- [24:49] we're building these agents by
+- [24:51] collecting lots of data from the world,
+- [24:53] training them into these big models and
+- [24:55] then they become relatively static
+- [24:58] objects that we then interact with and
+- [25:01] they don't really learn much new or
+- [25:03] anything like that.
+- [25:05] um that's shifting and we're bringing in
+- [25:09] uh more learning algorithms and all that
+- [25:11] kind of thing, but we're also making the
+- [25:12] systems more agentic. So they're not
+- [25:15] just a a system that you talk to and
+- [25:18] then it processes and gives a response,
+- [25:20] but there may be a system that can go
+- [25:22] and do something. So you can say to it,
+- [25:24] okay, I want you to write some software
+- [25:25] that does such and such. Oh, I want you
+- [25:27] to go and um I don't know, come up with
+- [25:30] a plan for my trip to Mexico and I want
+- [25:32] to see this and this, but I don't like
+- [25:34] this or whatever. And then those agents
+- [25:36] will also start to become more embodied
+- [25:39] in robotics and things like that. Some
+- [25:40] of them will be software agents. They'll
+- [25:42] do those sorts of things. Um but they'll
+- [25:44] with time I think they'll become more
+- [25:46] they'll turn up in robots and all that
+- [25:47] kind of thing. And as you keep going
+- [25:48] along this this track, the AIS become
+- [25:51] more connected to reality through all
+- [25:54] sorts of different things. And they
+- [25:55] actually have to learn through
+- [25:56] interaction and experience rather than
+- [25:59] just sort of a large data set that sort
+- [26:01] of goes in at the beginning.
+- [26:03] >> That's where the connection to reality
+- [26:06] tightens up a lot. That said, you know,
+- [26:10] a lot of this data that was poured into
+- [26:12] them at the beginning that came from
+- [26:14] somewhere and a lot of it came from
+- [26:16] people. Mhm.
+- [26:17] >> So there is a grounding to reality that
+- [26:19] that comes via that process as well.
+- [26:22] >> This idea of the AI being better at
+- [26:26] ethics than than humans themselves. How
+- [26:28] do you until you get there until like
+- [26:31] the reasoning is as good as ours? How do
+- [26:34] you make sure that it's implemented in a
+- [26:37] safe way? I mean,
+- [26:38] >> yeah, it's a big
+- [26:40] >> stop. I don't know like so for example,
+- [26:42] you know, a utilitarian argument, right,
+- [26:44] that that works quite well for for
+- [26:46] driverless cars on the roads is like you
+- [26:47] want to save as many lives as possible.
+- [26:49] But then in medicine, that same idea,
+- [26:52] right, it it doesn't work anymore. You
+- [26:53] can't sacrifice one healthy patient to
+- [26:56] save the lives of five others. How do
+- [26:57] you make sure that it ends up reasoning
+- [26:59] in the correct direction?
+- [27:01] >> Uh you can't guarantee everything. The
+- [27:04] space of possibilities of action in the
+- [27:06] world is so huge that 100% reliability
+- [27:11] is not a thing
+- [27:13] >> but it's not a thing in a lot of the
+- [27:15] world as it exists. If you need a
+- [27:17] surgery and you go and talk to the
+- [27:19] surgeon and you say, "Well, you know,
+- [27:21] I'm going to get something removed or
+- [27:22] whatever."
+- [27:23] >> And the surgeon says to you, "It's 100%
+- [27:26] safe." As a mathematician, you know that
+- [27:29] they're not telling you the truth,
+- [27:31] >> right? Nothing is ever 100%.
+- [27:33] >> Um, so what we have to do is we have to
+- [27:36] test these systems
+- [27:38] um and make them as safe and reliable as
+- [27:40] possible. And we have to trade off the
+- [27:43] benefits and the risks. And we also have
+- [27:46] to, you know, we have to do other things
+- [27:47] like monitor them. So when they're in
+- [27:48] deployment, we we monitor them, keep
+- [27:51] track of what's going on. So if we start
+- [27:53] seeing that, you know, there are failure
+- [27:55] cases that are beyond what we consider
+- [27:58] acceptable, we may have to roll back and
+- [28:00] stop them or do whatever, right? So
+- [28:02] there's a whole range of different
+- [28:04] things we need to do. We need to we need
+- [28:05] to do testing before it goes out. We
+- [28:07] need to monitor it when it when they are
+- [28:09] out there doing things. We need to do
+- [28:11] things like interpretability. we're able
+- [28:13] to look inside the system. That's one
+- [28:16] nice thing about system two. If it's
+- [28:18] safety, if it's implemented the right
+- [28:19] way, you can actually see it reasoning
+- [28:21] about things. But you got to check that
+- [28:22] this reasoning is actually an accurate
+- [28:24] reflection of what it's really trying to
+- [28:26] do. But, you know, if you have ways to
+- [28:29] look inside the system and really see
+- [28:30] why they're doing things, that can maybe
+- [28:32] give you another level of reassurance as
+- [28:35] to that they are sort of, you know,
+- [28:38] trying to act in the right way
+- [28:39] >> because that's another important, you
+- [28:41] know, subtlety. It's not always
+- [28:44] just about the outcome but maybe the
+- [28:46] intention right so there's a big
+- [28:48] difference between I know somebody
+- [28:49] hurting you intentionally and somebody I
+- [28:52] don't know accidentally bumping you and
+- [28:54] it hurts or something right and we
+- [28:55] interpret that very very differently so
+- [28:57] if we can see inside our AIS we might
+- [28:59] accept that well you know it was dealing
+- [29:01] with a tricky situation it tried to do
+- [29:03] the best thing it could according to it
+- [29:05] analysis but there was some negative
+- [29:07] side effect we might be sort of okay
+- [29:09] with that because maybe even as people
+- [29:10] in that tricky situation it would be
+- [29:12] very difficult for us to do the right
+- [29:13] thing. But if it did the wrong thing
+- [29:15] intentionally, that's a whole different
+- [29:17] thing. So there these are all aspects of
+- [29:20] uh AI AGI safety and we have people
+- [29:23] working on all of these all these
+- [29:24] topics.
+- [29:25] >> So then do you sort of limit the the
+- [29:27] amount that these things can interact
+- [29:29] with the real world, how quickly you
+- [29:30] release them and so on and so on until
+- [29:32] you feel confident that they're they're
+- [29:34] at the safety threshold.
+- [29:35] >> Yeah. So we have all kinds of testing
+- [29:38] benchmarks and tests and we we we run
+- [29:41] them you know internally for a while and
+- [29:43] we we have particular things that we
+- [29:44] test for that are that risky areas
+- [29:48] >> um
+- [29:48] >> like what
+- [29:49] >> we try to see if the system will help
+- [29:50] develop I don't know like a boweapon or
+- [29:52] something like that
+- [29:53] >> right
+- [29:53] >> and obviously it should not
+- [29:55] >> yes
+- [29:56] >> and so if we start seeing that it it it
+- [29:59] we can somehow trick it or force it into
+- [30:02] being helpful in that area that's a
+- [30:04] problem
+- [30:04] >> right
+- [30:05] >> hacking is another one. Will it help
+- [30:07] people you know hack things and so on so
+- [30:10] so yeah we have uh at the moment a
+- [30:13] collection of these tests and these
+- [30:14] collection keeps growing over time and
+- [30:16] then we assess how powerful it is in
+- [30:20] some of these areas and then we have
+- [30:21] mitigations appropriate to each level of
+- [30:24] capability that we see. It could mean
+- [30:26] that we don't release the model. It
+- [30:27] could mean that various different things
+- [30:30] depending on what we find. Yeah. Well,
+- [30:31] let's talk about the impact on society
+- [30:33] of some of this stuff like once we get
+- [30:35] to really capable AGI and I know that
+- [30:38] this is something that you have thought
+- [30:39] an awful lot about. Is that fair to say?
+- [30:41] >> Yeah. My main focus now is trying to
+- [30:45] understand
+- [30:48] what if we get AGI and it's reasonably
+- [30:51] safe for its level of capability. What
+- [30:54] about everything else? And the list of
+- [30:57] everything else is is enormous. M
+- [31:00] >> there are questions like um so okay
+- [31:03] we've got powerful AGI and it's
+- [31:05] reasonably safe is it conscious do we is
+- [31:08] that even a meaningful question
+- [31:11] >> do you have a stance on that
+- [31:12] >> even
+- [31:14] >> uh
+- [31:15] well we've got a group looking at that
+- [31:18] and we've talked to a lot of uh leading
+- [31:22] experts in the world who study this and
+- [31:24] I think the short answer is nobody
+- [31:27] really knows
+- [31:28] >> to be absolutely absolutely clear. We're
+- [31:30] talking about full AGI here rather than
+- [31:32] the stuff we have at the moment.
+- [31:33] >> Yes.
+- [31:34] >> Are you comfortable the stuff at the
+- [31:35] moment is not?
+- [31:36] >> I don't think it is.
+- [31:39] >> Um as we go into some future AGI years
+- [31:43] in the no 10 years in the future or
+- [31:44] something uh which is very very capable
+- [31:48] will that system be conscious when I
+- [31:51] talk to some of the most famous experts
+- [31:52] in the world that study this. There are
+- [31:54] various people who have arguments for
+- [31:56] there are various people who are
+- [31:57] arguments against. But when I actually
+- [31:59] put a concrete scenario to them and I
+- [32:00] say, "Look, we've got Gemini 10 here and
+- [32:03] it's embodied in a, you know, humanoid
+- [32:05] robot and it it learns and it integrates
+- [32:07] information across sensors and it can
+- [32:09] remember its own history as an agent in
+- [32:12] the world and and do all these sorts of
+- [32:14] things."
+- [32:15] >> Uh, and also talks about its own
+- [32:17] consciousness because you can actually
+- [32:18] get AI models to talk about that
+- [32:19] consciousness now if you, you know, you
+- [32:22] prompt them in the right kind of way.
+- [32:24] >> Is it conscious? And when I put that to
+- [32:27] uh people in the field, they're like,
+- [32:29] well, I think probably not or I think
+- [32:31] probably yes, but actually I'm not ab
+- [32:34] absolutely sure.
+- [32:36] And who knows, maybe we will have an
+- [32:38] answer to that. I think it's a
+- [32:41] long-standing question and it's a very
+- [32:43] difficult question to even make into a
+- [32:45] strict scientific question because we
+- [32:47] don't know how to frame this as a
+- [32:49] measurable thing. What I am sure is
+- [32:51] going to happen is that some people will
+- [32:53] think they are conscious and some people
+- [32:55] will think they are not. That is
+- [32:57] certainly going to happen. Um
+- [32:59] particularly in the absence of a really
+- [33:02] well-accepted scientific definition and
+- [33:04] way of measuring it. And then how are we
+- [33:06] going to navigate that? That's a very
+- [33:08] interesting question as well. But this
+- [33:10] is just one question of you know we have
+- [33:12] things like um are we going to go from
+- [33:15] AGI say full AGI? Are we going to go
+- [33:17] towards super intelligence that's far
+- [33:19] far beyond human intelligence? Um, is it
+- [33:22] going to happen quickly, slowly, never?
+- [33:27] And if it does go to super intelligence,
+- [33:29] what is that super intelligence? What's
+- [33:31] the what's the cognitive profile of that
+- [33:34] super intelligence? Are there certain
+- [33:36] things where it's going to be far far
+- [33:38] beyond human? We already see it can
+- [33:40] speak 200 languages or something that
+- [33:41] that's clear. And are there other things
+- [33:44] where maybe because of the computational
+- [33:47] complexity or whatever is not actually
+- [33:49] going to be much better than humans,
+- [33:51] right?
+- [33:52] >> Um do we have any idea of that? That
+- [33:54] seems like a really important question
+- [33:56] for you know humanity to be thinking
+- [33:59] about. Are we going to go into super
+- [34:00] intelligence in a decade or two decades
+- [34:02] or something like that?
+- [34:03] >> Do you have a stance on that? Do you
+- [34:05] think it will go to super intelligence?
+- [34:06] >> Um
+- [34:07] >> I mean I'm sort of thinking here about
+- [34:08] like um you know Einstein for example
+- [34:10] came up with general relativity. Will we
+- [34:12] be in a position where you have AGI that
+- [34:14] can theorize about the world come up
+- [34:16] with genuine scientific understanding
+- [34:18] that goes beyond what humans have
+- [34:20] managed?
+- [34:21] >> Uh I think it will
+- [34:24] based on computation and the human brain
+- [34:29] is a a mobile processor. It weighs a few
+- [34:32] pounds. It consumes I think around 20
+- [34:35] watts. Um signals are sent within the
+- [34:38] brain uh through dendrites.
+- [34:41] Um the frequency on the channel is about
+- [34:44] order of 100 hertz or maybe 200 htz in
+- [34:46] in the cortex. Um and the signals
+- [34:49] themselves are electrochemical wave
+- [34:51] propagations. They move at about 30 m/s.
+- [34:54] Okay. So if you compare that to what we
+- [34:57] see in a data center instead of 20 watts
+- [34:59] you could have 200 megaww instead of a
+- [35:02] few pounds you could have several
+- [35:03] million pounds. Instead of 100 hertz on
+- [35:06] the channel you can have 10 billion
+- [35:08] hertz on the channel. Right? And instead
+- [35:10] of uh electrochemical wave propagation
+- [35:12] at 30 meters/s, you can be at the speed
+- [35:14] of light 300,000 kilometers/s. Right? So
+- [35:19] in terms of energy consumption, space,
+- [35:22] bandwidth on the channel, speed of
+- [35:24] signal propagation, you've got six,
+- [35:26] seven, maybe eight orders of magnitude
+- [35:29] in all four dimensions simultaneously.
+- [35:32] Right? So is human intelligence going to
+- [35:35] be the upper limit of what's possible? I
+- [35:39] think absolutely not. And so I think we
+- [35:43] as our understanding of how to build
+- [35:45] intelligent systems develops, we're
+- [35:48] going to see these AIs go far beyond
+- [35:50] human intelligence. Um in the same way
+- [35:54] that you know
+- [35:56] humans, you know, we can't outrun a top
+- [35:59] fuel dragster over 100 meters, right? We
+- [36:02] can't lift more than a crane, right? We
+- [36:05] can't see further than the Hubble
+- [36:06] telescope. I mean it's we already see
+- [36:11] machines in particular areas that can
+- [36:14] you know fly faster than the fastest
+- [36:16] bird and all these sorts of things right
+- [36:19] uh I think we'll see that in cognition
+- [36:20] as well we've already seen in some
+- [36:22] aspects you know you don't know more
+- [36:24] than Google right um and so on on like
+- [36:28] information storage and stuff like that
+- [36:30] we already gone beyond what the human
+- [36:31] brain is capable of I think we're going
+- [36:33] to start seeing that in reasoning and
+- [36:34] all kinds of other domains so yes I
+- [36:37] think we are going to go towards super
+- [36:38] intelligence. So that's why I'm very
+- [36:40] interested in things like system two
+- [36:41] safety because if we can't stop the
+- [36:45] development towards super intelligence
+- [36:47] because of competitive dynamics globally
+- [36:49] and all these sorts of things um then we
+- [36:53] need to think really hard about how do
+- [36:55] we make a super intelligence super
+- [36:58] ethical
+- [37:00] and if you have a system that can apply
+- [37:03] the capabilities of it intelligence not
+- [37:05] just to achieving goals and doing things
+- [37:07] but actually applying it to to making
+- [37:09] ethical decisions as well then it might
+- [37:11] scale with its capabilities in some way.
+- [37:14] >> I do wonder what all of this means for
+- [37:16] people. I mean if we are getting to a
+- [37:19] point where essentially I mean human
+- [37:22] intelligence is dwarfed by super
+- [37:24] intelligence.
+- [37:26] What does that mean for society? Does
+- [37:28] that mean just massive inequality that
+- [37:31] you have the people who no longer have
+- [37:33] value essentially in what they they can
+- [37:35] they can offer the economy um being
+- [37:38] completely left behind?
+- [37:41] It means a massive transformation. I
+- [37:44] think the current system where people
+- [37:47] contribute their
+- [37:49] um their mental and physical labor in
+- [37:52] return to access to resources that are
+- [37:54] generating the economy. uh that may not
+- [37:57] work the same anymore and we may need
+- [38:00] different ways of doing things. Now the
+- [38:01] pie should get much bigger. So there's
+- [38:03] there's not a problem of a lack of goods
+- [38:06] and services that are produced. If
+- [38:08] anything that's getting much much
+- [38:09] better, but we need to think carefully
+- [38:11] about what is the what's the system for
+- [38:15] people? What is how do we distribute uh
+- [38:17] the wealth that exists in society? I
+- [38:20] think there needs to be a lot more
+- [38:21] thought going into this of how a post
+- [38:24] AGI economy works and how the structure
+- [38:28] of a post AI um society works as well. I
+- [38:33] I gave a talk to the um Russell Group
+- [38:36] vice chancellor. So in the UK, the
+- [38:38] Russell Group is the top universities in
+- [38:40] the UK.
+- [38:41] And um I said to them, look, this AGI
+- [38:45] thing's coming and it's not that far
+- [38:48] away.
+- [38:48] >> You know, in 10 years, we're going to
+- [38:51] have it and it's going to start being
+- [38:54] able to do a significant fraction of all
+- [38:57] kinds of cognitive labor and work and
+- [39:00] things that people do, right? We
+- [39:02] actually need people in all these
+- [39:06] different aspects of society and how
+- [39:09] society works to think about what that
+- [39:11] means in their particular area. So we
+- [39:13] really need every faculty and every
+- [39:16] department that you have in your
+- [39:18] university to take this seriously and
+- [39:20] think what does it mean for education,
+- [39:24] right? What does it mean for law? What
+- [39:27] does it mean for engineering,
+- [39:29] mathematics?
+- [39:31] um city planning, uh literature,
+- [39:35] politics, economics, finance,
+- [39:39] medicine, dot dot dot dot dot dot,
+- [39:41] right? So basically every faculty, every
+- [39:45] department studies something where human
+- [39:48] intelligence is a really important
+- [39:50] thing. And so if you have the presence
+- [39:52] of cheap, abundant, capable machine
+- [39:54] intelligence turning up, that thing
+- [39:56] needs to be thought about again. What is
+- [39:59] the implications of this? should it be
+- [40:00] done in a different way? What are the
+- [40:03] opportunities? What are the risks and so
+- [40:04] on? So, I think there's an enormous
+- [40:06] opportunity here. But just like, you
+- [40:10] know, any revolution like the industrial
+- [40:12] revolution or anything, um, it's
+- [40:14] complicated. It has all kinds of effects
+- [40:16] on society in all kinds of ways. And to
+- [40:20] get the benefits of that and and
+- [40:22] minimize the risks and the costs of
+- [40:24] that, we need to navigate this
+- [40:26] carefully. And at the moment I think
+- [40:29] nowhere near enough people are thinking
+- [40:32] about what AGI means for this particular
+- [40:37] thing and we need a lot more people
+- [40:38] doing that.
+- [40:39] >> Do do you remember in March 2020 when
+- [40:42] the experts were saying there's this
+- [40:45] pandemic coming? It's really it's it's
+- [40:47] we're really standing on the on the edge
+- [40:48] of an exponential curve
+- [40:50] >> and then everyone was still sort of in
+- [40:52] pubs and you know going to football
+- [40:54] games and things and the experts were
+- [40:56] increasingly shouting about what was
+- [40:58] coming.
+- [40:59] >> Do you sort of feel a little bit like
+- [41:00] that?
+- [41:01] >> I remember those days well. Um it does
+- [41:03] feel a bit like that. People find it
+- [41:06] very hard to believe that a really big
+- [41:08] change is coming because most of the
+- [41:10] time the story that something really
+- [41:12] huge is about to happen.
+- [41:15] It's not always the physical out to
+- [41:17] nothing, right?
+- [41:19] >> And so as a kind of a huristic, if
+- [41:22] somebody tells you some crazy crazy big
+- [41:24] things are going to happen
+- [41:27] as a heristic probably you can ignore
+- [41:29] most of those. But you do have to pay
+- [41:32] attention. Sometimes there are
+- [41:33] fundamentals that are driving these
+- [41:35] things and if you understand the
+- [41:38] fundamentals you need to take seriously
+- [41:40] the idea that a big change does come and
+- [41:42] you know sometimes big changes do come.
+- [41:45] >> What does this mean though? Because I
+- [41:47] mean, okay, you describe a sort of a a
+- [41:49] long-term vision where you have full AGI
+- [41:52] and there's like prosperity that can,
+- [41:54] you know, potentially be shared and so
+- [41:56] on, but but getting there, I mean, we're
+- [41:57] talking about some really big
+- [42:00] >> I mean, that's an understatement,
+- [42:02] massive economic disruption, structural
+- [42:05] risks here. Just talk us through what
+- [42:08] you expect the next few years to look
+- [42:10] like. I mean, tell us what we didn't
+- [42:11] know in March 2020.
+- [42:14] I think what we'll see in the next few
+- [42:16] years is not those big disruptions
+- [42:18] you're talking about. I think we'll see
+- [42:20] in the next few years is AI systems
+- [42:23] going from being very useful tools to
+- [42:27] actually taking on more of a uh load in
+- [42:31] terms of doing really economically
+- [42:32] valuable uh work and I think it'll be
+- [42:35] quite uneven. It'll happen in certain
+- [42:37] domains fast than others. So for example
+- [42:39] in software engineering I think in the
+- [42:41] next few years the fraction of software
+- [42:44] being written by AI is going to go up
+- [42:47] and so in a few years where prior you
+- [42:50] needed a 100 software engineers maybe
+- [42:52] you need 20 and those 20 use advanced AI
+- [42:54] tools over a few years we'll see AI
+- [42:58] going from kind of just a sort of a a
+- [43:01] useful tool to being to doing really
+- [43:04] meaningful productive work
+- [43:06] >> and increasing the productivity of
+- [43:08] people that work in those areas. It'll
+- [43:10] also create some disruption in uh in the
+- [43:14] labor market in certain areas. And then
+- [43:17] as that happens, um I think a lot of the
+- [43:21] discussion around AI is going to um
+- [43:24] shift and become a lot more serious. And
+- [43:27] so it's going to shift from being just
+- [43:29] sort of like, oh, this is really cool.
+- [43:30] You can ask it to plan your holiday and
+- [43:33] help you with your, you know,
+- [43:34] children's, if they're stuck in
+- [43:36] something and they don't understand
+- [43:37] their homework or whatever, things like
+- [43:38] this. Um, through to something that's
+- [43:41] like, okay, this is not some
+- [43:46] nice new tool. This is actually
+- [43:48] something which is going to structurally
+- [43:49] change the economy and society and all
+- [43:52] kinds of things. And we need to think
+- [43:55] about how do we structure
+- [43:58] this new world because I do believe that
+- [44:01] if we can harness this capability, this
+- [44:04] could be a real golden age cuz we now
+- [44:06] have machines that can dramatically
+- [44:09] increase production of many types of
+- [44:12] things, right? And advance science and
+- [44:15] and um relieve us of all kinds of labor
+- [44:20] that maybe we don't need to be doing if
+- [44:21] the machines can do it, right? So
+- [44:23] there's an opportunity here, but that is
+- [44:26] only good if we can somehow translate
+- [44:31] this incredible capability of machines
+- [44:34] into a vision of society where there is
+- [44:37] some flourishing of people as
+- [44:40] individuals and as groups of people in
+- [44:42] society that benefit from all this
+- [44:45] capability. Because in the meantime, you
+- [44:47] have those 80 software engineers who are
+- [44:49] no longer needed and all of the other
+- [44:51] people the the entry level employees at
+- [44:53] the moment, you know, graduates who are
+- [44:55] sort of noticing that they're the first
+- [44:57] ones to to be affected by this. Are
+- [44:59] there any industries that are not going
+- [45:01] to be impacted by this?
+- [45:04] >> Uh in the short to medium term, I think
+- [45:07] there'll actually be quite a lot of
+- [45:08] things. So plumbers often go, right? um
+- [45:13] e I think in the next in the coming
+- [45:16] years we're not going even if the AI
+- [45:19] does develop quite quickly then it's
+- [45:21] purely cognitive sense I don't think
+- [45:23] robotics will be at the point which
+- [45:25] could be a plumber and then even when
+- [45:27] that is possible
+- [45:30] um I think it's going to take quite a
+- [45:31] while before it's price competitive with
+- [45:34] a human plumber right and so I think
+- [45:38] there are all kinds of
+- [45:41] uh work which is not purely cognitive
+- [45:45] uh that will be relatively protected
+- [45:48] from some of this stuff. The interesting
+- [45:50] thing is that a lot of uh work which
+- [45:54] currently commands uh very high
+- [45:57] compensation is sort of elite cognitive
+- [46:00] work right so it's people doing I don't
+- [46:03] know
+- [46:05] >> um sort of highowered lawyers that are
+- [46:07] doing complex merger and acquisition
+- [46:09] deals across the globe and uh people
+- [46:12] doing advanced stuff in finance or now
+- [46:15] people doing you know advanced machine
+- [46:16] learning software engineering all these
+- [46:18] types of things. Um,
+- [46:22] >> mathematicians,
+- [46:23] >> one rule of thumb that I quite like is
+- [46:26] >> if you can do the job remotely over the
+- [46:29] internet, just using a laptop, so you're
+- [46:31] not some full haptic body suit with some
+- [46:33] robot, you know, controlling whatever,
+- [46:35] just normal interface, keyboard, screen,
+- [46:38] camera, speaker, microphone, you know,
+- [46:42] mouse. If you can do your work
+- [46:45] completely that way, uh then it's
+- [46:48] probably very much cognitive work. So if
+- [46:50] you're in that category,
+- [46:52] uh I think that uh advanced AI uh will
+- [46:57] be able to operate in that base. um to
+- [47:02] to to some extent. The the other thing
+- [47:05] that uh is I think protective is
+- [47:09] even if it is cog sort of cognitive
+- [47:11] work, there can be a human aspect to
+- [47:13] some types of um
+- [47:17] work and things that people do. So for
+- [47:19] example,
+- [47:21] let's say you are I don't know an
+- [47:23] influencer, right? and you work, you can
+- [47:26] do that work maybe remotely, but the
+- [47:29] fact that you're a particular person
+- [47:31] with a particular personality and people
+- [47:33] know there is a person behind, you know,
+- [47:35] what's going on there, that may be
+- [47:37] valuable in many cases, right?
+- [47:39] >> That leaves a lot of people though,
+- [47:40] doesn't it?
+- [47:42] >> I think what we what we need is is sort
+- [47:45] of along the lines of what I suggested
+- [47:46] to the the Russell group is we we need
+- [47:50] people who study all these different
+- [47:51] aspects of society to take Agi
+- [47:53] seriously.
+- [47:54] And my impression is that a lot of these
+- [47:56] people are not. And when I go and talk
+- [47:59] to people who are interested in one of
+- [48:01] these particular things, like, oh yeah,
+- [48:03] it's kind of like, you know, it's it's
+- [48:05] an interesting tool, it's kind of
+- [48:07] amusing, whatever,
+- [48:08] >> but they haven't internalized the idea
+- [48:10] that what they're seeing now and any
+- [48:14] current limitations that they currently
+- [48:15] know of, which by the way are often out
+- [48:17] of date. Often these people say, "Oh, I
+- [48:19] tried to do something with it a year
+- [48:20] ago." It's like a year ago is now
+- [48:21] ancient history compared to what the
+- [48:23] current models are doing and one year
+- [48:24] from now it's going to be a lot better.
+- [48:26] Um they're not seeing that trend in some
+- [48:29] ways. I actually think many people in
+- [48:31] the general public are ahead of the
+- [48:34] experts because I think there's a human
+- [48:37] tendency
+- [48:38] you know if I talk to non- tech people
+- [48:41] about um current AI systems some of the
+- [48:45] people say to me oh well doesn't it
+- [48:47] already have like human intelligence? It
+- [48:49] speaks more languages than me. It can do
+- [48:52] math and physics problems better than I
+- [48:53] could ever do at high school. Uh, it
+- [48:56] knows more recipes than me. Uh, it can
+- [48:59] help me with all kinds of things. I was
+- [49:00] confused about my tax return and explain
+- [49:02] something to me or whatever. They're
+- [49:04] like, "So, in what way is it not
+- [49:06] intelligent?" You know, this is the sort
+- [49:07] of thing that I I get when I talk to a
+- [49:09] number of non- tech people. But often
+- [49:12] people who are experts in a particular
+- [49:13] domain, they really like to feel that
+- [49:16] their thing is very deep and special and
+- [49:18] this AI is not really going to touch
+- [49:20] them.
+- [49:20] >> I think I want to end with your now
+- [49:23] quite famous prediction about AGI and
+- [49:26] you have stayed incredibly consistent on
+- [49:28] this um for over a decade. In fact, you
+- [49:32] have said that there is a 50/50 chance
+- [49:33] of AGI by 2028.
+- [49:36] >> Yes.
+- [49:37] >> Is that that's minimal AGI?
+- [49:39] >> Yes.
+- [49:39] >> Wow. And um
+- [49:42] >> are you still 50/50 by 2028?
+- [49:44] >> Yes,
+- [49:45] >> 2028. And you can see that on my blog
+- [49:47] from 2009.
+- [49:49] >> And what do you think about full AGI?
+- [49:51] What's your timeline for that?
+- [49:55] >> Uh
+- [49:57] there some years later. Could be three,
+- [50:00] four, five, six years later.
+- [50:03] Yeah.
+- [50:04] >> Within a decade.
+- [50:05] >> Yeah, I think it'll be within a decade.
+- [50:10] Do you ever just feel a bit nihilistic
+- [50:13] with all of this knowledge?
+- [50:16] >> I think there is an enormous opportunity
+- [50:17] here. A lot of people do a lot put a lot
+- [50:21] of effort into doing a lot of work and
+- [50:23] not all of it is that much fun. And
+- [50:27] I think there's an incredible
+- [50:29] opportunity here to just like the
+- [50:32] industrial revolution en sort of took
+- [50:35] the harnessing of energy to do all sorts
+- [50:37] of mechanical work which created a lot
+- [50:39] more wealth in society. Now we can
+- [50:43] harness data and algorithms and
+- [50:45] computation to do all kinds of more
+- [50:48] cognitive work as well. And so
+- [50:53] that can enable a huge amount of wealth
+- [50:56] to exist for people and wealth not just
+- [51:00] in terms of production of goods and
+- [51:01] services and so on but you know new
+- [51:02] technologies, new medicines and all
+- [51:03] kinds of things like this. So
+- [51:06] this is technology that has an
+- [51:08] incredible
+- [51:10] potential for benefit.
+- [51:13] Now the challenge is how do we get those
+- [51:18] benefits while
+- [51:21] dealing with the risks and potential
+- [51:24] costs and so on. Can we imagine a future
+- [51:27] world where we're really benefiting from
+- [51:30] having intelligence really helping us to
+- [51:32] flourish and what does that look like?
+- [51:35] And that's you know I can't just answer
+- [51:38] that. I'm I'm very interested in that.
+- [51:39] I'm going to try and understand the best
+- [51:40] I can. But this is a really profound
+- [51:42] question. It touches on philosophy and
+- [51:45] economics and psychology and ethics and
+- [51:49] all kinds of questions, right? Um, and
+- [51:52] we need we need a lot more people
+- [51:54] thinking about this and trying to
+- [51:56] imagine what that positive future looks
+- [51:57] like.
+- [51:58] >> Shane, thank you so much. That was
+- [52:01] mindexpanding to say the least. Humans
+- [52:04] are not very good at exponentials and
+- [52:07] right now at this moment we are standing
+- [52:10] right on the bend of the curve. AGI is
+- [52:13] not a distant thought experiment
+- [52:15] anymore. What I found so interesting
+- [52:18] about that conversation with Shane is
+- [52:19] that he thinks the general public
+- [52:21] understand this better than the experts.
+- [52:24] And if his timelines are anything like
+- [52:26] correct, and he's had a habit of being
+- [52:28] right in the past, we might not have the
+- [52:30] luxury of time for slow reflection and
+- [52:33] realization here. We have got difficult,
+- [52:36] urgent, and potentially genuinely
+- [52:38] exciting questions that need some
+- [52:40] serious attention. Now, you have been
+- [52:43] listening to Google Deep Mind the
+- [52:45] podcast with me, your host Hannah Fry.
+- [52:47] If you enjoyed that conversation, please
+- [52:49] do subscribe to our podcast or leave us
+- [52:51] a review. Next episode we are going to
+- [52:53] be sitting down with Deep Mind
+- [52:55] co-founder Deis Habis. So trust us when
+- [52:58] we tell you you don't want to miss that
+- [53:00] one.

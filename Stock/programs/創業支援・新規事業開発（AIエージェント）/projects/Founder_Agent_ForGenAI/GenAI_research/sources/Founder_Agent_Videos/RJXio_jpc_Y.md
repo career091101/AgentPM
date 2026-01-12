@@ -1,0 +1,505 @@
+---
+title: "Transcript: RJXio_jpc_Y"
+video_id: "RJXio_jpc_Y"
+video_url: "https://www.youtube.com/watch?v=RJXio_jpc_Y"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:22:26"
+tags:
+  - "AI"
+topics:
+  - "General AI Discussion"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI"
+confidence_level: "high"
+---
+
+# Transcript: RJXio_jpc_Y
+
+- URL: https://www.youtube.com/watch?v=RJXio_jpc_Y
+- Retrieved at: 2025-12-30T10:51:34+09:00
+
+## Text
+
+- [00:00] here is a chick that's been fluttered
+- [00:02] with copper
+- [00:06] kind of spooky
+- [00:09] I realized I hadn't made a video yet
+- [00:12] about my scanning electron microscope
+- [00:14] and I've been posting pictures I got
+- [00:16] from it all over my blog or website
+- [00:18] recently and I wanted to make a quick
+- [00:21] video where I show the setup and basic
+- [00:24] operation of this microscope so this is
+- [00:27] that this is a Joel jsm 6300 scanning
+- [00:31] electron microscope I picked it up on
+- [00:33] eBay a couple of months ago and the
+- [00:37] Pascal month I've been studying up and
+- [00:39] learning how to use it and it's been
+- [00:41] really really fun I didn't know really
+- [00:44] anything about this just a couple months
+- [00:46] ago and now I'm able to operate it and
+- [00:49] get the basic images so I'll give a
+- [00:52] quick tour of it now so this is the main
+- [00:56] console on the left here there's an
+- [00:58] analog CRT monitor and on the right
+- [01:00] displays the digital images that are
+- [01:03] required and below it are all the
+- [01:05] controls for magnification focus the
+- [01:08] stig mater all kinds of scan settings
+- [01:11] and here you can switch between the
+- [01:13] secondary and backscatter electron
+- [01:14] detectors all kinds of other things
+- [01:17] because what you use to saturate your
+- [01:19] filament and is a couple of keyboards
+- [01:21] there's a computer built in here and
+- [01:23] there's also this other computer out
+- [01:24] here that runs Windows 98 and this has
+- [01:26] the digital capture software and stuff
+- [01:28] on that's pretty fun the image capture
+- [01:32] from the day 1996 there abouts was this
+- [01:35] Polaroid camera here which is pretty
+- [01:37] awesome there's a CRT down here that
+- [01:39] fires upward and you're supposed to put
+- [01:42] polarized film in here and scanned the
+- [01:44] beam across and will expose a Polaroid
+- [01:48] sheet on top of the console here I have
+- [01:53] electronics waveform monitor so I can
+- [01:55] just Center the like NTSC analog video
+- [01:58] on the sole scope I was playing around
+- [02:00] earlier with measuring the probe current
+- [02:02] and this is my really high tech vacuum
+- [02:06] meter this is wired in the column over
+- [02:09] here has three Pirani gauge is on it so
+- [02:11] I tapped into one of them and I can just
+- [02:14] get a it's not accurate but I can get a
+- [02:16] quick visual on whether word
+- [02:20] atmosphere pump down or somewhere in
+- [02:23] between and pump down this is about one
+- [02:25] time since the - forced to work is this
+- [02:27] is a diffusion pump based machine if you
+- [02:30] had the big manual which I couldn't have
+- [02:31] got it working without around back of
+- [02:36] the console see all the wires and
+- [02:39] everything I had to connect to get this
+- [02:42] thing running so there's a ton of
+- [02:43] unlabeled and crazy cables and luckily I
+- [02:47] had a wiring diagram so I was able to
+- [02:49] figure out you know what different
+- [02:50] circuit boards and things do but it
+- [02:51] really is the rats mess back here this
+- [02:54] is the 30 kV power supply for the
+- [02:57] filament there's a high tension cable
+- [02:59] that comes out of it and this is all
+- [03:00] immersed in transformer oil I had to
+- [03:03] replace that that was fun and this is
+- [03:09] the column here so this is the actual
+- [03:11] microscope the whole thing is under high
+- [03:13] vacuum right now the top part here has a
+- [03:16] little cap this will pop open that's
+- [03:18] where your filament goes so this is the
+- [03:20] electron source and the focused electron
+- [03:22] beam gets shot down here there's tilt
+- [03:25] and shift coils and goals focusing and
+- [03:27] diggnation coils and there's an aperture
+- [03:29] right here which consists of a very very
+- [03:31] small piece of foil with small like 50
+- [03:35] micron ish holes in it you can just and
+- [03:37] center that and there's a gate valve
+- [03:39] here that separates this column from
+- [03:41] your specimen specimen stage and this
+- [03:44] thing is pretty cool you can put up to a
+- [03:46] six inch 6 inch specimen in it which is
+- [03:49] quite huge especially for this being in
+- [03:51] 1996 era you can draw out this entire
+- [03:55] thing it'll slide out it's on like
+- [03:57] little desk chair wheels down here and
+- [03:59] you can put a six-inch sample in or you
+- [04:02] can put a smaller sample in through the
+- [04:04] load lock or an air lock in the front
+- [04:08] here so I'll show you that in a bit and
+- [04:11] that's a really really nice feature it
+- [04:12] saves a lot of time this down here is
+- [04:14] the backscattered electron preamplifier
+- [04:16] this is the secondary electron detector
+- [04:18] and these are motorized XY manipulators
+- [04:22] that go down to a microns these are very
+- [04:24] nice there's stage tilt and rotation and
+- [04:28] all kinds of other adjustments
+- [04:30] around there this is the evacuation
+- [04:32] manifold so this is what evacuates this
+- [04:35] area down to high vacuum this is one of
+- [04:37] those Piranha gauges I was talking about
+- [04:38] so I tap into one of those on that
+- [04:41] multimeter requires a nitrogen cylinder
+- [04:45] that's right here and that does there's
+- [04:48] all kinds of solenoids and stuff in here
+- [04:51] and it also when you bring the chamber
+- [04:53] up to atmosphere rather than just
+- [04:54] letting air go ahead back into the
+- [04:56] chamber it can control that with the
+- [04:57] nitrogen and it's also much much cleaner
+- [04:59] this is the rotary mechanical pump and
+- [05:03] that goes through a vibration isolators
+- [05:04] down here it's like a big heavy brick
+- [05:06] and then that goes into the back of
+- [05:08] machine I has a side panel off here so
+- [05:10] you can see the inside there's one of
+- [05:14] the diffusion pumps here there's one
+- [05:16] right here and then one in the back
+- [05:17] there and it's a mess in here as well up
+- [05:21] there there is a 10 liter vacuum
+- [05:23] reservoir which allows you to pump down
+- [05:25] the little airlock thing there really
+- [05:29] really quickly which is nice and the
+- [05:32] diffusion pumps are water cool I'll show
+- [05:34] you the children in a few minutes and
+- [05:37] this is the back of the vacuum control
+- [05:38] board which are having some issues with
+- [05:40] so I have the front panel off as well
+- [05:41] this thing is supposed to automatically
+- [05:44] control the vacuum system so when you
+- [05:46] turn the microscope on it should rock
+- [05:48] the main chamber and then evacuate it
+- [05:50] down with the diffusion pumps
+- [05:51] automatically but it's having some
+- [05:53] issues so I have to do it manually by
+- [05:54] flipping all these switches and looking
+- [05:55] at this diagram here so it's a little
+- [05:59] bit annoying but it's not that big of a
+- [06:01] deal
+- [06:02] that's everything down here the water
+- [06:06] chiller which I'll show you in a second
+- [06:08] needs a water supply of its own this is
+- [06:09] basically a heat exchanger so I had
+- [06:11] these copper pipes here plumbed and they
+- [06:13] go all the way up to the ceiling and all
+- [06:16] the way in the back to a to the same so
+- [06:19] behind the microscope under this bench
+- [06:21] here there's an electrical pedal right
+- [06:25] here and so the main shutoff and then a
+- [06:28] 30 amp breaker for the microscope and a
+- [06:30] 15 amp breaker for the chiller this is a
+- [06:33] power supply this thing has three big
+- [06:35] transformers on the bottom I had to
+- [06:37] change the taps on this so it takes 240
+- [06:39] volts in and makes 200 volts and
+- [06:42] wonderful
+- [06:42] the other weird power the microscope
+- [06:44] needs it's a Japanese machine and this
+- [06:47] is the cello right here it'll do
+- [06:50] something like plus or minus 0.1 of a
+- [06:52] degrees C per hour something like that
+- [06:54] and it flows about five liters per
+- [06:56] minute it's got a temperature digital
+- [06:59] temperature readout on the front which
+- [07:01] is nice it's pretty nice unit
+- [07:03] and that's basically everything for the
+- [07:10] microscope so now I'll go through the
+- [07:13] setup procedure and get it running we
+- [07:15] can look at a couple samples first thing
+- [07:17] I do is go to this panel here and hit
+- [07:20] the main breaker next thing I'm going to
+- [07:23] do is walk over here and turn the
+- [07:26] nitrogen cylinder on and have pressure
+- [07:33] the lines from last time now I'm going
+- [07:38] to walk you outside of the shop by the
+- [07:40] sink and this is the water supply line
+- [07:44] for the chiller now that's on we can go
+- [07:47] back and now I'm going to start up a
+- [07:48] chiller it's going to get a little bit
+- [07:49] noisy the chiller runs water through the
+- [07:54] diffusion pumps and also in the back of
+- [07:56] this console here there's a bunch of
+- [07:57] electronics that are water-cooled so
+- [08:01] this is an interlock switch for the
+- [08:03] chiller
+- [08:05] now that's on I want 68 degree water
+- [08:09] which is about 20 degrees C right now
+- [08:11] we're at 66 degrees that's going to come
+- [08:13] up and we can see over here that we're
+- [08:17] at 5 meters so now we have the power on
+- [08:26] the water chiller and the nitrogen on
+- [08:28] and we can go ahead and turn the actual
+- [08:31] microscope on down here is a little key
+- [08:33] switch just like starting a car you put
+- [08:36] it on the on setting and then flip it to
+- [08:38] start and the CRT is fully going to come
+- [08:44] on you heard the rotary pump just come
+- [08:46] on and some lights are turning on down
+- [08:47] there on the vacuum control panel so
+- [08:50] things are happening the first digital
+- [08:52] CRT is coming on I'm going to boot up
+- [08:54] the windows 98 computer at this point I
+- [08:57] takes a little while to go turn this guy
+- [09:02] on
+- [09:05] and our vacuum you just turned on in the
+- [09:09] meter and that's going to Center down in
+- [09:13] a minute and it's going to be somewhere
+- [09:14] around here when I last used it it was
+- [09:17] pumped down and then it leaks up a
+- [09:18] little bit but we're not quite at
+- [09:20] atmosphere so in a minute here that's
+- [09:21] going to that's going to come down
+- [09:22] that's not a real reading so want to
+- [09:27] show you how to load a sample the cool
+- [09:28] way the less interesting way is using
+- [09:32] this thing here you'll load your sample
+- [09:35] on to a sample holder or pedestal like
+- [09:37] this and the end of this rod will thread
+- [09:39] into it and the rod will be inserted
+- [09:42] into the microscope like that the
+- [09:45] airlock will be evacuated and then you
+- [09:46] push this red ball all the way in there
+- [09:48] and then you unthread the sample some
+- [09:50] sample stays in there and you can
+- [09:52] retract this and pull it out but I want
+- [09:55] to show you the hole inside of this so I
+- [09:57] have to bring this up to atmosphere and
+- [09:59] then it's going to slide out so to do
+- [10:01] that we go down to you're on the vacuum
+- [10:03] control and we can vent the gun or the
+- [10:06] specimen chamber hammer event the
+- [10:07] specimen chamber so I'll hit that valve
+- [10:10] lv3 will open that flows nitrogen into
+- [10:14] this chamber and then in a couple
+- [10:16] minutes I'm gonna be able to draw that
+- [10:17] out the computer is booting up here okay
+- [10:21] there we go alright this guy is ready to
+- [10:23] be drawn out
+- [10:32] this is the stage here the sample will
+- [10:36] fit right here and this is the XY table
+- [10:40] that's the cash is that if you can pump
+- [10:42] with that screen there and you can see
+- [10:45] up there at the backscattered electron
+- [10:47] detector and then to the right of that
+- [10:49] is through the Faraday cage on the
+- [10:51] secondary electron detector now we can
+- [10:56] put a sample in so I have this one for a
+- [10:58] parrot already this guy has a ton of
+- [11:01] things on it it's got a bunch of bugs
+- [11:03] and stuff as you can see that really so
+- [11:11] this is got a bunch of bugs that I've
+- [11:12] sputtered so they're conductive so you
+- [11:15] can look at them under the microscope
+- [11:16] it's also got a light bulb filament a
+- [11:18] really really tiny gallium arsenide high
+- [11:21] electron mobility RF transistor FET and
+- [11:24] some really small medical chains and
+- [11:28] devices and cool stuff like that so they
+- [11:33] come over the microscope
+- [11:36] and just slide it on here
+- [11:41] make sure it's seated and now I can
+- [11:45] close this
+- [11:52] and if everything was working perfectly
+- [11:53] I would be able to depress this button
+- [11:58] and the chamber would automatically vent
+- [12:00] itself but it's not working so instead
+- [12:05] of doing that I have to come to the
+- [12:06] vacuum panel here and I have to initiate
+- [12:09] the roughing sequence manually so I have
+- [12:11] to switch I had to flip switches v1b v4
+- [12:14] and v6 and it's a bit over to manual and
+- [12:18] now that's in a sucking I'm just pulling
+- [12:23] there and it grabbed so now this chamber
+- [12:26] is being roughed down by the mechanical
+- [12:28] pump and we'll do the new on the vacuum
+- [12:30] gauge start to come down in a minute and
+- [12:32] I'll come back when Matt's rough down to
+- [12:35] the point where I can start the
+- [12:37] diffusion pump the diffusion pumps are
+- [12:39] being heated right now the heater is not
+- [12:41] all the way warmed up and gated by that
+- [12:43] light and then I'll come back then and
+- [12:47] we'll turn on that if your ship works ok
+- [12:49] but the system is been rough down so
+- [12:53] when I'm in here I'm going to connect
+- [12:54] the diffusion pump to do that I'm going
+- [12:56] to close valve v6 and b4 and I'm going
+- [12:59] to leave v1 be open and open B 1 a and B
+- [13:02] 2 and it's going to rough down for a
+- [13:05] couple minutes
+- [13:06] or rather evacuate to 1 a minus 4 for a
+- [13:09] couple minutes really doesn't make that
+- [13:10] long and once that's done I will open
+- [13:14] the 7 which is the gate valve between
+- [13:16] the gun and the specimen chambers and
+- [13:18] then I can turn my electron beam on
+- [13:20] saturate the filament and we are getting
+- [13:22] some images then they can do which is
+- [13:26] pretty nice rather than redoing all the
+- [13:29] settings for gun alignment everything
+- [13:30] like that every time I turn the computer
+- [13:31] on or turn the microscope on I can load
+- [13:34] and see the SCM parameters so system or
+- [13:37] a couple days ago and I can load that on
+- [13:41] to the microscope these are all my
+- [13:43] settings
+- [13:44] and I'm going to start loading in here
+- [13:48] on the computer it just saved some time
+- [13:53] I waiting for it to pump down and I got
+- [13:57] bored so I thought I'd show you how I
+- [13:58] prepare the samples this is my high
+- [14:00] vacuum chamber and right now it's set up
+- [14:02] for sputtering so over here I have some
+- [14:05] gases I can flow argon into the chamber
+- [14:08] via the mass flow controller very very
+- [14:10] precisely and well first I have
+- [14:13] activated with the turbo pump over there
+- [14:14] and then once the blazing that slowed
+- [14:16] down I can allow argon back into it and
+- [14:17] make whatever partial pressure of argon
+- [14:20] I walk and inside of it I have right
+- [14:24] there that big stainless plate there is
+- [14:26] where you put the sample you want a coat
+- [14:28] and on top I have a plate of copper and
+- [14:30] that's the target I get sputter down
+- [14:32] onto it and big electrical fuse down
+- [14:34] here those wires are too small for
+- [14:38] sputtering right now I've got a few
+- [14:40] plasma cleaning my sputtering supply
+- [14:43] actually burnt out so I'd come over here
+- [14:47] and the pressure is too high right now
+- [14:48] so I can't sustain the plasma and if
+- [14:50] energies of arcing in the chamber but I
+- [14:53] can just go like this and turn that on
+- [14:57] to few hundred volts and you can see the
+- [15:00] plasma the chamber
+- [15:06] [Music]
+- [15:13] [Music]
+- [15:17] we're all pumped down so I can go ahead
+- [15:19] and turn the acceleration or pajama when
+- [15:22] I turn that on except the 2080 right now
+- [15:25] when I turn that on the meter here is
+- [15:27] going to come up and that's showing the
+- [15:28] emission current through the filament
+- [15:31] I'll click this and I'll show the
+- [15:32] forward current that we're spending too
+- [15:34] so I just turned on the acceleration
+- [15:37] voltage and the current voltage and
+- [15:39] later you know and you'll see up on the
+- [15:43] waveform monitor we actually have an
+- [15:46] image so without even touching anything
+- [15:48] else right now I can adjust that in
+- [15:51] brightness and contrast an actual image
+- [15:54] of what's going on in the chamber so I'm
+- [15:57] not going to touch that right now I'm
+- [15:59] going to quickly make sure that the
+- [16:03] foliage is saturated and right now we're
+- [16:05] putting on 6 about 70 micro amps out and
+- [16:09] make sure that's saturated and I'm going
+- [16:13] to align the gun on for children ship
+- [16:15] and a couple of other things and then
+- [16:17] we'll be ready to go
+- [16:25] [Music]
+- [16:50] in the tungsten filament as you go to
+- [16:52] saturate it would be a first peek in a
+- [16:53] second you when you're doing critical
+- [16:55] work you want to write the second peak
+- [16:57] that'll give you higher resolution with
+- [16:58] your filament will burn out faster so
+- [17:00] I'm gonna get the first peak right now
+- [17:02] for lower clarity +5 we're assessing
+- [17:06] around experience
+- [17:27] it's very very quick
+- [17:30] that
+- [17:32] all right
+- [17:34] just bring it a little bit closer here
+- [17:37] and see what's going on so these are all
+- [17:41] of the parts that are cited it the
+- [17:46] computer has an awesome function we're
+- [17:48] using this ball mouse here when you
+- [17:51] going to the right menu you can use it
+- [17:53] to actually move the stage so wash these
+- [17:57] manipulators and they move the ball
+- [17:59] mouth around pretty useful feature so we
+- [18:07] can look around and I'll find some cool
+- [18:09] stuff to look at
+- [18:11] I'm sorry for these artifacts on the
+- [18:13] screen here it's kind of hard to film
+- [18:15] CRT but anyway this is the light bulb
+- [18:20] filament I have a center dump on here we
+- [18:24] look to wise little glass feed bag later
+- [18:27] I'd add that
+- [18:31] and then I can just operate in and the
+- [18:34] background you're seeing here is the
+- [18:36] double sniffing table using prepare the
+- [18:37] sample its conductive carbon
+- [18:44] these images are quite low quality
+- [18:47] because we're very fast and of going on
+- [18:50] here
+- [18:50] let's look better yeah it looks a little
+- [18:52] bit better so you can actually see even
+- [18:56] in these lower quality skin you can see
+- [18:58] lines across the pumpkin filament and
+- [18:59] those are actually the tooling in
+- [19:01] perfection and the dullness of the tool
+- [19:04] that they use to create this element so
+- [19:07] if I wanted to get a higher quality
+- [19:09] image I would then do it a little bit of
+- [19:12] a slower scan and then it would
+- [19:14] integrate over multiple passes of the
+- [19:17] electron beam and you get a much higher
+- [19:19] resolution image that's pretty neat
+- [19:24] looking back to a fast scan and it zoom
+- [19:27] out a little bit and I'm gonna suppose
+- [19:30] can that again and then what I'm happy
+- [19:32] with the image I can then send it up to
+- [19:35] the digital computer and then I could
+- [19:38] then export it to a more modern computer
+- [19:40] so I go to the imaging tab I take your
+- [19:42] speed and it'll freeze the digital
+- [19:46] monitor there and it'll send it over via
+- [19:48] skuzzy cable to the ancient computer
+- [19:56] and there we go we have the image we're
+- [19:59] in auto brightness contrast if you look
+- [20:02] around it's pretty cool and I can
+- [20:05] imagine all executed with ruff diameter
+- [20:07] of the wire is roughly thirty six point
+- [20:10] eight six microns
+- [20:12] and the diameter of the overall winding
+- [20:19] almost 200 microns across it
+- [20:26] here is a kick that's been sputtered
+- [20:29] with copper kind of spooky
+- [20:37] yeah pretty scary
+- [20:44] this poppy thief
+- [20:50] looks pretty neat
+- [20:55] and here's the leg of some insect three
+- [20:58] large insect I only know what what it
+- [21:02] was though
+- [21:06] those are the hairs on the leg of some
+- [21:09] insects which I know yeah there you go
+- [21:23] now if I wanted to actually grab really
+- [21:25] high-resolution images the two things I
+- [21:27] would use the first thing I would do is
+- [21:29] I put the some woman at its absolute
+- [21:30] saturation so that's the second peak I
+- [21:33] would go over the aperture right there
+- [21:34] and I would close that in right now
+- [21:35] we're at aperture setting 3 which is a
+- [21:37] pretty wide aperture so we're close late
+- [21:39] in that would physically it was a
+- [21:40] smaller electron beam then I would lower
+- [21:42] the probe current which further gives
+- [21:45] you a smaller beam I would make sure the
+- [21:48] acceleration voltage is maxed out at 30
+- [21:50] kV then I would redo a gun alignment for
+- [21:53] tilt and shift and I would also Center
+- [21:56] the aperture by engaging the wobbler
+- [21:58] here and it's actually pretty well
+- [22:00] centered right now so that's all for my
+- [22:06] scanning electron microscope video
+- [22:09] please check out my website and posting
+- [22:11] a lot more pictures from this and really
+- [22:13] having a lot of fun with it so thanks
+- [22:16] for watching and I hope you learned
+- [22:17] something and if you do too do decide to
+- [22:20] grab one of these for yourself and put
+- [22:22] it in your garage best of luck and have
+- [22:26] fun search around eBay

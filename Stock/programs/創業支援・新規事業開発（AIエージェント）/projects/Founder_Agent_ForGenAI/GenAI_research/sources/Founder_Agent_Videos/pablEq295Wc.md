@@ -1,0 +1,797 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=pablEq295Wc"
+video_id: "pablEq295Wc"
+video_url: "https://www.youtube.com/watch?v=pablEq295Wc"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "product_development", "growth"]
+topics: ["資金調達", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=pablEq295Wc
+  - Retrieved at: 2025-12-30T16:20:41+09:00
+  - [00:00] Hello and welcome back to Equity
+key_points:
+  - "- [01:16] in Hollywood like feel this need to kind"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: pablEq295Wc
+
+- URL: https://www.youtube.com/watch?v=pablEq295Wc
+- Retrieved at: 2025-12-30T16:20:41+09:00
+
+## Text
+
+- [00:00] Hello and welcome back to Equity
+- [00:02] Techrunch's podcast about the business
+- [00:04] of startups. Today is Friday, December
+- [00:07] 5th. I had to check on that one. I'm
+- [00:09] Kirsten Coruscation editor here at
+- [00:11] Techrunch and I'm joined by Anthony Ha
+- [00:14] and Sean O'Neal
+- [00:20] have something to say about James
+- [00:21] Cameron and his views on generative AI.
+- [00:24] >> Yeah. Um, I was excited to talk about
+- [00:26] this because actually an old colleague
+- [00:28] of mine described this as an extremely
+- [00:30] Anthony Hawcoded story. You know,
+- [00:32] there's a new Avatar movie coming out
+- [00:33] later this month. James Cameron is
+- [00:34] trying to do PR for that. He did a
+- [00:36] segment with CBS Sunday Morning. And one
+- [00:38] of the things he seems to be sort of at
+- [00:40] pains to emphasize is the idea that
+- [00:42] obviously we think of the Avatar movies
+- [00:44] as super kind of tech heavy
+- [00:46] computerenerated, but he really wants
+- [00:48] people to understand this is not
+- [00:49] generative AI. He said generative AI is
+- [00:52] horrifying and that the technology they
+- [00:54] use which is called performance capture,
+- [00:56] motion capture, he sees that as really
+- [00:58] the the opposite of generative AI
+- [01:01] because it's still about a real actor
+- [01:02] giving a real performance even though
+- [01:04] they're sort of digital artists in
+- [01:06] between who then translated that into a
+- [01:08] character that I think to him that's
+- [01:10] very distinct and I think that's you
+- [01:12] know both an interesting point and also
+- [01:14] indicative of how just in general people
+- [01:16] in Hollywood like feel this need to kind
+- [01:18] of draw a line in the sand and say we
+- [01:20] are not doing that.
+- [01:21] >> But I was well informed by members of
+- [01:24] the public town square that is the
+- [01:26] social media site X that uh Hollywood is
+- [01:28] cooked that you can create your own
+- [01:30] Hollywood blockbuster.
+- [01:32] >> I don't know if any of you have seen
+- [01:33] this, but the sort of push back on
+- [01:35] generative AI and whether they can take
+- [01:37] like actors jobs. I've seen folks like
+- [01:40] use generative AI and pretend that
+- [01:42] they're actors and see how they like
+- [01:44] basically fail at being an actor. And I
+- [01:47] think we're going to keep seeing that.
+- [01:49] What's interesting to me is this idea
+- [01:52] that every studio is coming out and
+- [01:55] saying, "Hey, we're not doing generative
+- [01:56] AI." And like educating people on what
+- [01:59] is like stopmotion and what is Gen AI. I
+- [02:04] will say I think it's going to continue
+- [02:05] to be an issue especially as you know
+- [02:08] states with a lot of entertainment focus
+- [02:10] like California for instance. Um there
+- [02:13] are state regulations popping up in and
+- [02:15] around AI and it'll be curious to see
+- [02:16] also how like labor unions weigh in on
+- [02:19] this. There have been efforts at the
+- [02:21] federal level to tuck in essentially
+- [02:23] like a preeemption law which would
+- [02:25] restrict states from regulating AI into
+- [02:29] the defense bill. But that actually this
+- [02:31] week just failed. So I expect a
+- [02:34] continuation of sort of patchwork laws
+- [02:37] in in states that are particularly
+- [02:39] interested or have a lot of these
+- [02:41] companies that are based there. But I do
+- [02:43] want to get into other things we want to
+- [02:45] talk about today. So today on the show
+- [02:48] we have deals of the week from nothing
+- [02:50] and autolane. Then we're going to get
+- [02:52] into some of the biggest news out of
+- [02:54] AWS's annual tech conference. And then
+- [02:56] we're going to get into the trend that
+- [02:58] is wrapped.
+- [03:06] So Anthony, nothing. What is it?
+- [03:09] >> Nothing. Yes. Which, you know, just just
+- [03:11] to acknow I mean I think you have to say
+- [03:13] this anytime you talk about nothing is
+- [03:14] just one of those classic company names
+- [03:16] where like come come on. Like this is
+- [03:19] such a pain to talk about. But I'm sure
+- [03:21] intentional. Um but but nothing the
+- [03:23] smartphone company they had this
+- [03:25] interesting announcement where they said
+- [03:26] that basically uh consumers can invest
+- [03:30] in the company and so it's going to be a
+- [03:32] $5 million round which you know
+- [03:35] nothing's most recent funding rounds
+- [03:36] were in the hundreds of millions of
+- [03:38] dollars that this is not something that
+- [03:40] I would you know it doesn't seem like
+- [03:41] this is a big chunk of change for them
+- [03:44] that that this is funding that they need
+- [03:46] but that they're exploring this as a way
+- [03:49] to get you know consumers kind of more
+- [03:52] involved in the company, you know, have
+- [03:53] a stake in its success. There is even
+- [03:55] supposed to be a board seat that kind of
+- [03:57] represents the community going forward,
+- [03:59] which I found pretty interesting. Now,
+- [04:01] of course, like as journalists, we
+- [04:03] generally don't invest in uh tech
+- [04:05] companies and startups ourselves, but
+- [04:07] I'm curious. Do I mean, do either of you
+- [04:09] think that this would be a good
+- [04:11] investment?
+- [04:12] >> I I will say upfront, sometimes these
+- [04:14] are run through uh services like
+- [04:16] Weunder. Sometimes these companies will
+- [04:18] do it straight through um you know the
+- [04:20] public markets in these weird kind of
+- [04:22] like side deals, but they always give me
+- [04:24] a bit of the heebie-jebies because you
+- [04:27] really if I were in the position of
+- [04:30] being someone who wanted to buy into one
+- [04:32] of these rounds, I would really want to
+- [04:33] know what am I supposed to be getting in
+- [04:35] return because
+- [04:37] there's a long history of broken
+- [04:40] promises from companies that do stuff
+- [04:42] like this that are sort of promising,
+- [04:44] you know, the ultimate product that
+- [04:45] they're trying to deliver and this is
+- [04:48] like the last effort that they make to
+- [04:52] like get the money together to make the
+- [04:53] product and and that's never a good
+- [04:55] situation. We're clearly not in that
+- [04:57] situation with nothing since they have
+- [04:59] an established track record of products
+- [05:01] and and are raising elsewhere. It makes
+- [05:03] me wonder like what else they evaluated
+- [05:07] as far as trying to come up with a way
+- [05:09] to like foster this community, right?
+- [05:12] like did they look at any other options
+- [05:15] like you know I don't even know do they
+- [05:17] have like a Discord server or something
+- [05:19] like that like this idea of going right
+- [05:21] to like we'll take some of your money
+- [05:22] and like maybe you'll get like one
+- [05:24] person representing like a couple
+- [05:26] hundred people on our board like I don't
+- [05:28] it just I would want more out of it
+- [05:30] before I would really be throwing in my
+- [05:32] own money.
+- [05:33] >> Yeah, I would not be giving I would not
+- [05:36] be participating in this um for the some
+- [05:39] of the same reasons. And I also think
+- [05:40] it's interesting that they're also
+- [05:43] hinting at an IPO, which I feel is a bit
+- [05:45] of a like give us your money now as like
+- [05:48] community cuz we want to be ready for an
+- [05:49] IPO 3 years from now, which to me feels
+- [05:53] like a more of a marketing ploy than an
+- [05:56] actual thing.
+- [05:58] >> Yeah, I would be sort of similarly
+- [06:00] nervous if you know you're putting a lot
+- [06:02] of money and thinking you're going to
+- [06:04] make a quick buck on this. And and I
+- [06:06] think particularly the fact that they're
+- [06:08] using the IPO language at the same time
+- [06:10] does make me extra nervous because then
+- [06:13] again you just worry about people kind
+- [06:15] of being like, "Okay, there's going to
+- [06:16] be an IPO soon. I've heard stories about
+- [06:18] how great it is to be like an employee
+- [06:20] at a startup before it IPOs and you you
+- [06:22] make a ton of money. This could be like
+- [06:24] that." And and you know, just people
+- [06:25] with sort of like dollar signs in their
+- [06:26] eyes, which I think generally people
+- [06:29] don't [laughter] make great decisions
+- [06:30] when they're looking at it that way. It
+- [06:32] is an interesting question of you know
+- [06:34] on the one hand when you think about
+- [06:36] community you know a group of like
+- [06:37] shareholders is not what I would think
+- [06:40] of but at the same time you could also
+- [06:41] argue that you know that's how you can
+- [06:44] have a real stake in decision-m versus
+- [06:47] just sort of paying lip service to it
+- [06:48] but hey if like there's somebody who you
+- [06:51] have you know at least some small
+- [06:53] fiduciary duty to then potentially you
+- [06:56] might need to answer to them more so it
+- [06:58] seems interesting I mean it also is you
+- [06:59] know Sean you mentioned like you know we
+- [07:01] was one the platforms that they're going
+- [07:02] to use for this. I think that there was
+- [07:04] this period for a while where, you know,
+- [07:06] there was this idea of people just kind
+- [07:08] of, you know, anyone can be an investor
+- [07:11] in any company, but it seemed like that
+- [07:13] kind of went away for a while and and in
+- [07:16] some ways nothing is trying to bring it
+- [07:17] back.
+- [07:18] >> You know, one thing I will say really
+- [07:20] quickly is it should be noted that this
+- [07:22] isn't a company that doesn't have any
+- [07:24] money. Like they've raised 450 million
+- [07:27] total. So, I do see this as maybe just
+- [07:31] I'm not going to say a ploy, but maybe
+- [07:33] like a strategy to get, you know, early
+- [07:36] investors in and get support for or
+- [07:39] gauge support for an IPO. It it doesn't
+- [07:42] have as many red flags. It would if it
+- [07:44] was a company that had only raised,
+- [07:46] let's say, 2 million and was like didn't
+- [07:48] have fully developed products and was
+- [07:49] still like claiming this IPO. So, I do
+- [07:51] think that, you know, to be a little bit
+- [07:53] fair to them, they they clearly have
+- [07:55] some major backers. Tiger Global being
+- [07:57] one of them and they've raised quite a
+- [07:58] bit of money
+- [07:59] >> and they've done some of this community
+- [08:00] fundraising in the past and I'll also
+- [08:03] say like at least up until now they've
+- [08:06] been in some pretty highly competitive
+- [08:08] markets, right? Like they are trying to
+- [08:10] make a they make a phone. It's not easy
+- [08:13] to make a phone and sell it at scale
+- [08:15] these days if you're not Apple or
+- [08:17] Samsung. They make earbuds. Like those
+- [08:19] are probably uh a wider appeal type
+- [08:22] thing for them. And and so
+- [08:25] the idea of leaning more on building a
+- [08:28] community in different ways does make
+- [08:31] sense to me for a company like this.
+- [08:32] Carl Pay, the you know the guy who runs
+- [08:34] nothing also has always kind of been at
+- [08:37] this. Um trying to generate hype around
+- [08:40] it, bringing in creators into their
+- [08:42] events earlier than I think a lot of the
+- [08:44] other tech companies were. Um, so you
+- [08:46] know, it's not surprising to me that
+- [08:48] they're doing this and and yeah, like
+- [08:49] Kirsten, you said, it it feels less uh
+- [08:53] unsteady than some of the other ones
+- [08:55] we've seen like this. Also just makes me
+- [08:56] really realize that we're so far past
+- [08:59] like that big boom of Kickstarter
+- [09:02] companies, right? like we we were in a
+- [09:03] wave of Kickstarter and Indiegogo
+- [09:06] products and companies for so long and
+- [09:08] stuff like this every time I see it come
+- [09:09] up I'm like man I'm sure there's still
+- [09:11] stuff happening on those platforms but
+- [09:13] it's not anywhere near what it was 10
+- [09:15] years ago
+- [09:16] >> yeah it's not 2010 anymore I do want to
+- [09:18] get into another company which is
+- [09:21] autoane you wrote about this company a
+- [09:23] really interesting idea here uh they are
+- [09:26] based in Palo Alto they raised 7.4 4
+- [09:29] million. And what exactly are they
+- [09:32] trying to do? Because the the name
+- [09:34] suggests it has something to do with
+- [09:35] automotive or maybe autonomous. What is
+- [09:37] it that they're doing?
+- [09:38] >> Yeah, I I found this to be a really
+- [09:40] interesting one in the sense that it's
+- [09:42] it feels like one of those companies
+- [09:43] that we would have seen pop up 10 years
+- [09:45] ago.
+- [09:46] >> Yeah.
+- [09:46] >> When the sort of initial wave of
+- [09:48] autonomous vehicle hype was cresting.
+- [09:51] But now we're at a place where we're
+- [09:53] seeing companies like Whimo, like Zuks,
+- [09:55] Tesla to a certain extent deploying
+- [09:58] realworld applications of robo taxis at
+- [10:01] different scales uh certainly and moving
+- [10:03] at different pace for each of them. And
+- [10:05] so the idea of what Autoine is doing
+- [10:08] feels a bit more tangible. And so their
+- [10:11] whole idea is essentially if you believe
+- [10:14] that we're going to continue on this
+- [10:16] trajectory of autonomous vehicles
+- [10:18] essentially like being everywhere
+- [10:20] offering rides to people on surface
+- [10:22] streets and highways and then also being
+- [10:24] available to deliver
+- [10:26] goods whether that's groceries,
+- [10:28] packages, pick up your dry cleaning,
+- [10:30] then there needs to be some coordination
+- [10:32] there. And especially for companies that
+- [10:35] are on private property, own their own
+- [10:37] private property or lease it. This isn't
+- [10:39] really, they're not trying to solve
+- [10:40] anything about sort of pickup and drop
+- [10:42] off for robo taxis. They're really
+- [10:44] looking at these commercial companies
+- [10:47] that might want to bring a Whimo or a
+- [10:50] Zuk's robo taxi to a specific spot on
+- [10:54] their on site. and and in fact they've
+- [10:55] already struck a deal alongside this
+- [10:57] raise that they announced this week with
+- [10:58] Simon Property Group which uh runs the
+- [11:01] domain in Austin which is a big shopping
+- [11:03] center um kind of living center and uh a
+- [11:07] couple others in the San Francisco area
+- [11:09] and so they're trying to build this kind
+- [11:11] of like coordination layer what the the
+- [11:13] CEO and co-founder Ben Cidle told me is
+- [11:15] like essentially air traffic control for
+- [11:17] robo taxis so the ability to set a place
+- [11:20] for pickup and drop off precisely uh by
+- [11:23] GPS coordinates and also the ability to
+- [11:25] see, oh, we have, you know, 20 people on
+- [11:29] the way here, uh, and and 40 people
+- [11:32] planning rides out of here. And so, it
+- [11:34] just makes that coordination a little
+- [11:36] easier. Um, because, you know, as we've
+- [11:38] seen as this technology has spread,
+- [11:41] there's not a lot of that coordination
+- [11:43] right now. And it's a lot to ask I think
+- [11:46] even you know not to go defend the robo
+- [11:48] taxi companies it's a lot to ask them to
+- [11:50] handle all that in some regards uh
+- [11:53] because there's just so much other work
+- [11:56] that those companies have to do to make
+- [11:57] sure that they're offering useful
+- [11:59] technology and and safe technology to
+- [12:02] people. You and you could see this going
+- [12:03] in a million different directions,
+- [12:04] right? Like Chick-fil-A, um you know,
+- [12:06] other drive-throughs that are sort of
+- [12:08] notorious to navigate. We even saw a
+- [12:10] Whimo get stuck in one earlier this year
+- [12:13] which which Ben Cidle the CEO sort of
+- [12:15] brought up as a an example of a problem
+- [12:17] that they could solve uh in the near
+- [12:19] term with this. So it's that's kind of
+- [12:21] the whole view of this and it's I feel
+- [12:23] like we're going to see a lot more of
+- [12:24] these kind of companies try to pop up
+- [12:26] over the next couple years now that we
+- [12:28] actually see a bunch of robo taxis on
+- [12:30] the road.
+- [12:30] >> I'm curious, you know, just trying to
+- [12:32] think of trying to understand their
+- [12:33] model like if their if their customer is
+- [12:36] more sort of the property owner. I mean,
+- [12:38] I imagine they still need to have a
+- [12:40] pretty good relationship with all the
+- [12:41] different robo taxi companies, right?
+- [12:43] >> Yeah.
+- [12:44] >> Is that something they a relationship
+- [12:45] they've already built?
+- [12:46] >> It it that's what they're working on
+- [12:47] because the the group that is inside a
+- [12:50] now, including the CEO, they don't
+- [12:53] really come from that world. They are
+- [12:55] more from this kind of like real estate
+- [12:56] and and other sort of commercial
+- [12:58] business side. Uh which is why it kind
+- [13:00] of makes sense to me that they were able
+- [13:02] to strike up a deal with a company like
+- [13:04] Simon Property Group so quickly. And so
+- [13:06] that's I think that's one of the biggest
+- [13:08] questions here for me other than the
+- [13:10] really like heady you know like highle
+- [13:13] question of like whether or not this is
+- [13:15] going to be useful um as these things
+- [13:17] scale and if these things scale it's
+- [13:19] really about like
+- [13:21] do companies like Whimo feel like
+- [13:23] they're going to be ambitious enough to
+- [13:25] just figure this stuff out on their own.
+- [13:27] I mean to me like I see value in this
+- [13:30] just in the sense of like how much
+- [13:32] infrastructure we do see for like Uber
+- [13:34] and lift pick up and drop off. So like
+- [13:36] even if we're just thinking robo taxis,
+- [13:38] there is a lot of that work that has had
+- [13:40] to be done over the last decade just to
+- [13:43] smooth that process and it's still not
+- [13:45] done, right? Like there's still so many
+- [13:46] places that you go and Uber and lift
+- [13:48] drop off and pickup are kind of a mess.
+- [13:51] And so there's definitely work to be
+- [13:54] done here and they want to be the first
+- [13:56] ones to go out and try and build this
+- [13:58] like you know sort of so-called like
+- [13:59] application layer with the big idea and
+- [14:02] I think this is how they were able to
+- [14:03] bring in like Draper Associates as a
+- [14:06] backer of scaling this much much larger
+- [14:10] if we do get to a point where you are
+- [14:12] able to say you know hey personal Toyota
+- [14:15] Tesla whatever you own go pick up my dry
+- [14:18] cleaning or go pick up my kid from
+- [14:20] school or whatever. ever like in that
+- [14:22] kind of world if that exists like
+- [14:24] something like this is going to need to
+- [14:26] happen to coordinate this stuff more
+- [14:28] more cleanly.
+- [14:29] >> Well, you know, real estate I think is
+- [14:31] like a very interesting and smart way to
+- [14:33] go about this. It's not clear to me
+- [14:35] exactly how they're making money if
+- [14:37] they're charging or getting a small fee.
+- [14:39] But when you think about um the success
+- [14:41] of for instance non-aututonomous
+- [14:44] vehicles but Tesla with the supercharger
+- [14:47] network that was a huge real estate play
+- [14:49] and they had a whole firm that was
+- [14:50] working on that and and [clears throat]
+- [14:52] pinpointing exactly where that was going
+- [14:54] to be. It was one of those things that
+- [14:56] took years to build out but made a lot
+- [14:58] of sense now that it exists. And you
+- [15:00] know, I think that when it comes to
+- [15:02] private property, especially in areas
+- [15:05] where you still see now pilots of drones
+- [15:09] and robo taxis and lift, it's a lot of
+- [15:12] coordination happening. Um, and then of
+- [15:14] course potentially autonomous trucks
+- [15:17] dropping things off. Like in some of
+- [15:19] these markets, all of these actors are
+- [15:22] going to be in the same space. So
+- [15:24] getting in early even though right now
+- [15:25] it might be like okay there's really two
+- [15:28] main robo taxi companies maybe this
+- [15:30] isn't needed right now at least
+- [15:32] commercially I could see 5 10 years from
+- [15:34] now if you already have that those real
+- [15:36] estate deals in place it makes a lot of
+- [15:39] sense so we do have to move on though
+- [15:42] and I want to talk about AWS everyone's
+- [15:45] favorite annual tech conference right
+- [15:48] I'm sure you guys are tracking like
+- [15:49] every single product announcement but I
+- [15:52] actually am curious Did either of you
+- [15:55] catch up on AWS reinvent which every
+- [15:58] year is in Vegas and it's sort of like a
+- [16:02] several day event in which there are
+- [16:04] literally a million product
+- [16:06] announcements. It's kind of can be tough
+- [16:08] to figure out what is interesting and
+- [16:10] and what is maybe you know a nothing
+- [16:12] burger.
+- [16:13] >> Yeah. I mean I I did catch up although
+- [16:15] full disclosure I did so primarily
+- [16:16] because I knew we were going to be
+- [16:17] talking about it on this episode. But I
+- [16:20] think what was really striking to me
+- [16:21] going it was, you know, just sort of the
+- [16:23] the number of announcements and kind of
+- [16:25] how granular and wonky a lot of them
+- [16:28] seemed. Um, and I I think, you know,
+- [16:30] this is a developer conference, right?
+- [16:32] This is an AWS conference. This is not
+- [16:34] an Amazon consumer product conference.
+- [16:36] And so it's about, you know, winning
+- [16:38] over developers to build like AI pro uh,
+- [16:41] you know, AI products on top of the AWS
+- [16:43] platform. But even so, I think like I I
+- [16:46] guess again, you know, not being a
+- [16:48] developer myself, I I think of Amazon
+- [16:50] the AI side, you know, that it feels
+- [16:52] like Amazon is still trying to sort of
+- [16:54] establish itself. And at least for me,
+- [16:57] it it felt like there were a lot of
+- [16:58] announcements, big emphasis on AI
+- [17:00] agents, but nothing that kind of jumped
+- [17:02] out at me as like, oh, this is going to
+- [17:04] be something that really changes the
+- [17:06] landscape and and kind of pushes Amazon
+- [17:09] forward.
+- [17:10] >> Well, okay. So I would say I would agree
+- [17:13] with you on the AI agents thing. I mean
+- [17:14] that was by far by far in a way like the
+- [17:19] big messaging that was happening and the
+- [17:22] AWS CEO Matt Garmin said that he
+- [17:25] believed that AI agents is where they
+- [17:28] unlock and actually I think other
+- [17:29] companies also unlock the real value of
+- [17:32] AI and was really pushing this message
+- [17:34] of return on investment. But you're
+- [17:36] correct in that AWS in terms of like AI
+- [17:39] enterprise tools um may be behind and
+- [17:42] and certainly like doesn't necessarily
+- [17:44] have the market share that others. So
+- [17:46] there are really messaging around this.
+- [17:48] There were a couple of announcements
+- [17:50] that I thought was really interesting.
+- [17:53] One was this idea of their AI training
+- [17:56] chip which has been around actually this
+- [17:58] is like on its third generation but
+- [18:01] Amazon CEO Andy Jasse took to X right
+- [18:05] after the keynote to basically say like
+- [18:06] hey by the way we already have like a
+- [18:09] really good business with this chip
+- [18:12] already and he was really pushing the
+- [18:14] revenue numbers which gives us a little
+- [18:16] bit of insight into the company and this
+- [18:19] chip which of course like all these
+- [18:20] companies have like these very jargony
+- [18:22] names Tranium 3. Well, Trrenium 4, which
+- [18:26] is in the works right now, that caught
+- [18:29] my eye because it is going to be
+- [18:31] compatible with Nvidia's um chips. So,
+- [18:36] they're clearly like looking at Nvidia
+- [18:39] as not necessarily a partner per se, but
+- [18:42] but as compatibility being really
+- [18:45] important and and so that was really
+- [18:47] interesting to me. The one other thing I
+- [18:50] will flag is that there was an
+- [18:52] announcement during the keynote. You
+- [18:54] know, there was a ton of these
+- [18:55] announcements, right? But one of them
+- [18:56] was that AWS was launching database
+- [18:58] savings plans. And apparently that like
+- [19:02] got one of the biggest cheers in the
+- [19:03] keynote. So it it just it goes to show
+- [19:06] that sometimes things just like
+- [19:08] discounts actually are the most valuable
+- [19:11] to these developers. And um this
+- [19:15] specific plan was like a 35% you know
+- [19:18] database discount if they commit to
+- [19:22] consistent usage for a one-year term. So
+- [19:25] AWS clearly trying to like lock folks
+- [19:28] in. I mean, Amazon,
+- [19:31] like Anthony said, is not thought of as
+- [19:33] this kind of like place where Frontier
+- [19:36] AI is being developed, which to me is
+- [19:40] like kind of crazy in the sense that
+- [19:42] like,
+- [19:44] you know,
+- [19:46] it makes sense that they would have been
+- [19:47] working on some of this stuff because I
+- [19:49] think back to all the, you know,
+- [19:51] original Echo products and all these
+- [19:54] integrations and like the way that
+- [19:56] Amazon was going so hard after the smart
+- [19:57] home and this idea of like speaking to a
+- [20:00] computer and having it go do things for
+- [20:02] you in your house, not really external
+- [20:04] to that. And and so to me it feels like
+- [20:07] there was like a hiccup there between
+- [20:09] between then and now. And there was no
+- [20:11] one was able to not to mix metaphors but
+- [20:13] like build the bridge between like that
+- [20:15] idea of you know sort of ambient
+- [20:17] computing to what the modern version of
+- [20:20] that is which is you know this hope that
+- [20:22] AI agents will become a thing. And you
+- [20:25] know, it just makes me wonder if we see
+- [20:28] something similar happen with Amazon
+- [20:30] that we have recently seen with Google,
+- [20:32] which is like for a couple years now,
+- [20:35] we've seen a bunch of mud slung at
+- [20:38] Google for being like the company that,
+- [20:41] you know, invented the transformer that
+- [20:42] is in chat GPT and like, you know, they
+- [20:44] were behind and now Gemini 3's out and
+- [20:46] everybody's kind of like, whoa, okay,
+- [20:47] actually like we we can't keep
+- [20:50] badmouthing Google because this is
+- [20:51] really useful um or at least on par with
+- [20:54] the other companies that are making this
+- [20:56] technology. And so I wonder if there's
+- [20:58] something
+- [21:00] that is coming from Amazon that will
+- [21:02] make us feel the same way.
+- [21:05] >> I don't have I don't expect that. If
+- [21:08] only because to me like Amazon in
+- [21:10] general just still feels like it has so
+- [21:12] much going on that a lot of stuff gets
+- [21:14] left by the wayside. And there seems to
+- [21:15] be an inability sometimes for the
+- [21:19] company to just cut bait. Like I think
+- [21:21] of how every couple days in my inbox I
+- [21:24] should just turn these emails off, but I
+- [21:26] get these like promotional emails from
+- [21:27] Amazon that are like, "Hey, guess what
+- [21:29] buddy? We have like podcasts and music
+- [21:33] and you haven't used those these
+- [21:34] exciting benefits to your Prime
+- [21:36] subscription and you haven't used them.
+- [21:38] Come check them out." And I'm like, I'm
+- [21:40] never going to do this. I use all these
+- [21:41] other services for that stuff and like
+- [21:44] who is using Amazon podcast at scale?
+- [21:46] You know, it's like stuff like that
+- [21:47] where I I wonder if they're able to sort
+- [21:50] of like lop off the things that they
+- [21:52] don't need and focus on the things that
+- [21:54] make sense for what Amazon uh is doing.
+- [21:57] >> Yeah, I think it's a little early to see
+- [21:59] them lop anything off, especially if you
+- [22:01] were to compare it to some of their
+- [22:02] consumer products, which they've held on
+- [22:04] to for a very long time in spite of
+- [22:06] maybe not having, you know, a market
+- [22:10] share for that. They've stayed committed
+- [22:11] to it. The AI agents thing I think is
+- [22:13] pretty early for them. But clearly the
+- [22:15] one thing that they seem to be really
+- [22:17] leaning into, which by the way, every
+- [22:19] other enterprise AI company is doing
+- [22:22] with their AI agents is
+- [22:24] >> the customization, flexibility, like
+- [22:27] efficiency. You know, these are all
+- [22:29] we're hearing all the same messages from
+- [22:30] like other companies as well.
+- [22:32] >> But AWS of course does have the benefit
+- [22:35] of being a major cloud provider. And so
+- [22:38] I think for some businesses and clearly
+- [22:40] they they trotted out a ton of different
+- [22:43] customers. I mean Lyft was one, Adobe
+- [22:45] was one like um of these customer
+- [22:47] success stories. That's like a big part
+- [22:49] of AWS reinvent. But to show that and to
+- [22:53] show that like hey we're the cloud
+- [22:55] provider don't you also want to use
+- [22:57] these tools? Um and so they have like a
+- [22:59] good chance of capturing that just
+- [23:01] whether which one of these is going to
+- [23:03] rise to the top. the the Kira one was
+- [23:05] was interesting in that they were
+- [23:08] clearly going after startups and this
+- [23:10] idea is that uh they were giving like a
+- [23:13] hundred free subscriptions essentially.
+- [23:16] I mean like a marketing tactic as old as
+- [23:19] time is to give something away free and
+- [23:20] get people like into it. We'll see how
+- [23:22] it is. I'm sure we'll hear about it next
+- [23:24] year. And the final keynote is happening
+- [23:26] actually as we're recording this. So
+- [23:29] we'll I'm sure there'll maybe even be a
+- [23:31] little bit more coming out of this show.
+- [23:33] But I do want to wrap the show. See what
+- [23:36] I'm about to do?
+- [23:37] >> Um,
+- [23:40] with the wrapped trend. So, Spotify
+- [23:43] every year. I don't know. It's kind of
+- [23:45] fun to get the the wrapped that shows,
+- [23:48] you know, all the music that you listen
+- [23:49] to the most. But there's other companies
+- [23:52] that are also doing the wrapped trend.
+- [23:55] >> Definitely. Anthony, I'm wondering if
+- [23:57] you looked at wrapped or on Spotify or
+- [24:01] YouTube or some of the other companies.
+- [24:03] >> I mean, I wanted to in a way. I mean, it
+- [24:05] it is for me always this kind of like
+- [24:07] annual humiliation ritual because I
+- [24:10] generally the things I listen to the
+- [24:12] most are like things that can fade into
+- [24:14] the background while I'm writing. And
+- [24:16] so, I think there was a year where the
+- [24:17] Frozen soundtrack was my most Why am I
+- [24:19] telling this to the public? But yes, the
+- [24:21] the Frozen soundtrack was was my most
+- [24:23] listened to album one year. Um, and so
+- [24:26] this year, you know, because I switched
+- [24:28] from Spotify to Apple Music about a
+- [24:30] month ago, like I, you know, I don't
+- [24:31] really have a Spotify rap or at least I
+- [24:33] haven't looked at it and I don't have
+- [24:34] enough data in Apple Music for it to be
+- [24:36] particularly meaningful yet. So, I'm
+- [24:38] like, you know, dealing with this
+- [24:39] incredible posity of data about myself.
+- [24:41] I don't know what's happened to me this
+- [24:43] year. I don't know what I've watched. It
+- [24:44] feels like this real vacuum. But I I
+- [24:47] have been thinking just also like you
+- [24:48] said about this broader trend of why is
+- [24:50] it these other services want to to
+- [24:52] launch similar things? like what is it
+- [24:54] that they're trying to recapture with
+- [24:56] Spotify wrapped and obviously a lot of
+- [24:58] it is just it's viral content right it's
+- [24:59] suddenly you're all everyone's posting
+- [25:01] about Spotify and and they want that for
+- [25:03] themselves too and I think it is also
+- [25:05] this way of you know kind of like
+- [25:06] locking people in right because again if
+- [25:08] you if you switch services like towards
+- [25:10] the end of the year suddenly you don't
+- [25:12] get that same kind of uh viral
+- [25:14] experience that sense of like oh I'm
+- [25:16] learning something about my habits if I
+- [25:19] you know switch or if I'm like listening
+- [25:21] across a bunch of different services um
+- [25:23] but I mean, do either of you did you
+- [25:24] look at your Spotify rap?
+- [25:26] >> I like you am an Apple Music person
+- [25:29] because I was an audio loyalist back in
+- [25:33] the day and when audio died off, Apple
+- [25:35] Music was the closest um design-wise,
+- [25:38] you know, set aside even the the ease
+- [25:40] factor of being on an iPhone and it just
+- [25:42] being the default. So, I've only looked
+- [25:44] at that. You're right. I think it's like
+- [25:46] it's totally a like, you know, a thing
+- [25:50] that is beyond it being a marketing
+- [25:51] tool. It's a thing that is meant to like
+- [25:52] sort of disincentivize you from leaving
+- [25:54] because then you're going to screw up a
+- [25:55] whole year's worth of data or whatever.
+- [25:57] To me, like the proof is in the pudding
+- [25:59] in how widely people share the Spotify
+- [26:02] rap stuff at a time when like a lot of
+- [26:04] people really don't like Spotify. Like I
+- [26:07] feel like there's real negative
+- [26:08] sentiment around the company as a whole
+- [26:10] and like it just goes right out the
+- [26:12] window as soon as these get released
+- [26:14] every year. So I don't know. I was
+- [26:16] looking at my Apple Music replay one
+- [26:18] just because it came up. You know, it
+- [26:20] wasn't terribly interesting. It was like
+- [26:21] the most interesting thing to me was
+- [26:22] like uh this year one of the songs, you
+- [26:26] know, my top song wasn't something that
+- [26:28] I played for my son 90 times or
+- [26:30] whatever.
+- [26:31] >> So no Baby Shark.
+- [26:32] >> Yeah. No, I mean it was it was Bat
+- [26:34] Wheels last year. Um, which I I don't
+- [26:36] mind cuz it's actually really good music
+- [26:37] on that that cartoon. But my question is
+- [26:39] like where does this stuff go next now
+- [26:41] that there's like kind of competition on
+- [26:43] all these fronts? YouTube's doing it and
+- [26:45] and Apple's been doing it for a couple
+- [26:46] years, like do any of these services try
+- [26:50] to break that mold a bit?
+- [26:52] >> So to answer your question of, you know,
+- [26:55] in spite of Spotify having some, you
+- [26:58] know, negativity around it, do people
+- [27:00] use it? And I can tell you yes, 200
+- [27:02] million engaged in the first 24 hours on
+- [27:05] wrapped, which is 19% higher than last
+- [27:09] year. And if you remember, last year was
+- [27:11] like very AI heavy did not go well. They
+- [27:14] clearly were uh repositioning things.
+- [27:17] And there is still AI elements in there,
+- [27:20] but not front and center. I was actually
+- [27:23] really proud of my rap this year. Um I
+- [27:25] also have Apple Music, but I also have
+- [27:27] Spotify because I just subscribe to
+- [27:29] everything. And this is where all my
+- [27:31] money goes to is like dumb
+- [27:32] subscriptions. But the age thing was
+- [27:34] really interesting. I got the age of 23.
+- [27:37] So,
+- [27:38] >> wow. Congratulations.
+- [27:39] >> Based on my listening habits. Yeah, I'm
+- [27:41] pretty I'm pretty proud about that
+- [27:43] because everyone else I've spoken to has
+- [27:45] had the average age of 70. We do have to
+- [27:48] wrap again. I'm just going to keep doing
+- [27:50] that joke. Thanks again to our audience
+- [27:52] for listening to another episode of
+- [27:53] Equity. You can always find us at
+- [27:55] EquityPod on X and threads and we'll see
+- [27:58] you next

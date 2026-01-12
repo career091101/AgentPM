@@ -1,0 +1,263 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=nHkS-JQyThE"
+video_id: "nHkS-JQyThE"
+video_url: "https://www.youtube.com/watch?v=nHkS-JQyThE"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=nHkS-JQyThE
+  - Retrieved at: 2025-12-30T16:13:12+09:00
+  - [00:00] Yesterday, Google had launched Gemini
+key_points:
+  - "- [02:47] mention that you should definitely go"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: nHkS-JQyThE
+
+- URL: https://www.youtube.com/watch?v=nHkS-JQyThE
+- Retrieved at: 2025-12-30T16:13:12+09:00
+
+## Text
+
+- [00:00] Yesterday, Google had launched Gemini
+- [00:02] 3.0, the most advanced AI model ever. It
+- [00:05] delivers state-of-the-art reasoning,
+- [00:07] multimodal intelligence, and aentic
+- [00:09] abilities that can turn any sort of idea
+- [00:12] into a working solution instantly. For
+- [00:14] example, just take a look at the quality
+- [00:16] of apps it can create. In seconds, it
+- [00:19] was able to produce a stunning front-end
+- [00:21] UI of a web page. Fullon complex
+- [00:24] animations and components that would
+- [00:26] normally take developers days to build.
+- [00:28] Designing has never been this fast and
+- [00:30] easy. And with the launch of the Gemini
+- [00:33] 3.0 Pro model, you can now easily access
+- [00:36] it completely for free because Google
+- [00:38] has made it super accessible. You can
+- [00:40] use many of their suit of tools like
+- [00:42] anti-gravity, their IDE to access it for
+- [00:45] free or Google AI Studio. And a way to
+- [00:48] basically harness its capabilities is
+- [00:50] with the build mode. This is where you
+- [00:53] can supercharge any idea with this
+- [00:55] Gemini 3.0 0 Pro model completely for
+- [00:58] free. This is where people have been
+- [01:00] creating incredible apps. Here is an
+- [01:03] example app that was built with the
+- [01:05] build mode and this is where it
+- [01:07] generates SVG based off the textual
+- [01:09] prompt you give it. This is where it
+- [01:11] created a space rocket SVG where you can
+- [01:14] download the code and you can see that
+- [01:16] it has downloaded the SVG code for this
+- [01:18] space rocket ship. This is another app
+- [01:20] where you can bring any idea to life,
+- [01:23] where you can attach wireframes,
+- [01:25] doodles, or napkin sketches. In this
+- [01:27] case, I'm uploading a napkin sketch of a
+- [01:30] blog article page, and we're going to be
+- [01:32] handing it over to this app that was
+- [01:34] built with the build mode. And by
+- [01:35] providing the napkin sketch diagram or
+- [01:38] wireframe, this app is going to make it
+- [01:40] more interactive and visually appealing
+- [01:43] so that we can interact with these
+- [01:44] sketches a lot better. Just like that,
+- [01:47] it was able to take our napkin sketch
+- [01:49] and make a dashboard that helps us
+- [01:52] interact with the components that we had
+- [01:54] drew out. This is a great way for you to
+- [01:56] get interactive lessons from diagrams as
+- [02:00] well as have it generate various sorts
+- [02:02] of components directly into a visualized
+- [02:06] dashboard. With this canvas, you can see
+- [02:07] that it was able to depict every
+- [02:09] component that we had drew out and it
+- [02:12] was able to thoroughly output it with
+- [02:14] the code. And you can even play a
+- [02:16] prototype that visualizes how this
+- [02:18] actually works that mimics all of the
+- [02:20] components that we had drew out. This is
+- [02:22] the capability of the build mode and
+- [02:25] this is the type of quality of apps that
+- [02:27] you can create with it. And the best
+- [02:29] part is is that you can interact with
+- [02:31] the code where you can easily download
+- [02:33] it locally so that you can have it so
+- [02:35] that you can iterate further on this app
+- [02:37] that the Gemini model developed
+- [02:39] completely for free. You can even save
+- [02:41] it to GitHub and you can even copy this
+- [02:43] app and share it around with others.
+- [02:45] Before we get started, I just want to
+- [02:47] mention that you should definitely go
+- [02:48] ahead and subscribe to the World of AI
+- [02:50] newsletter. I'm constantly posting
+- [02:52] different newsletters on a weekly basis.
+- [02:55] So, this is where you can easily get
+- [02:57] up-to-date knowledge about what is
+- [02:59] happening in the AI space. So,
+- [03:01] definitely go ahead and subscribe as
+- [03:02] this is completely for free. But what I
+- [03:05] really love about the new build mode
+- [03:07] inside Google AI Studio is that it can
+- [03:10] basically supercharge your apps with
+- [03:12] Google's AI integrations, which you see
+- [03:14] over here. Gemini 3.0 doesn't just
+- [03:16] generate a beautiful UI, it is also
+- [03:19] going to be able to create a functional
+- [03:22] app, it powers it. And with the build
+- [03:24] mode, it can instantly plug in these
+- [03:26] preset AI features that makes your app
+- [03:28] practical, useful, and production ready.
+- [03:31] You can add an AI powered chatbot. You
+- [03:34] can add the use of Google Maps data
+- [03:37] directly within your app. Ability to
+- [03:39] generate images with Google models.
+- [03:41] There's so much you can do to integrate
+- [03:43] with your app. And you can simply just
+- [03:45] select how many presets you want within
+- [03:48] your app and it will be integrated
+- [03:50] directly with it. So, let's get started.
+- [03:52] We're going to select the Gemini 3 Pro
+- [03:54] preview model and we're going to
+- [03:55] describe whatever we want to build. And
+- [03:58] what we're going to do is have an AI
+- [04:00] powered chatbot built inside our app as
+- [04:02] well as have Gemini intelligence
+- [04:04] integrated within it. The reason why is
+- [04:06] because we're building a content fixer
+- [04:09] and connoisseur app that is a small
+- [04:11] editor powered by Gemini. It can
+- [04:13] analyze, rewrite, and improve any text.
+- [04:16] It is a context aware of our chatbot
+- [04:18] that's also integrated. It can improve
+- [04:19] text users paste in and it's going to be
+- [04:22] able to make multi-step edits for you.
+- [04:24] And you can see that once you send in
+- [04:26] the prompt, the thinking mode will be
+- [04:28] integrated within this build mode where
+- [04:30] it's going to reason and work on how
+- [04:33] it's going to accomplish this task. And
+- [04:34] you can get a good detailed
+- [04:36] understanding of the steps it's going to
+- [04:38] take to accomplish this. And now it is
+- [04:40] working on building out the code. And
+- [04:43] you'll get a live preview of what it's
+- [04:45] actually generating live in action.
+- [04:50] And there we go. It ran for only 95
+- [04:53] seconds and it was able to build out our
+- [04:55] app. All the components have been fully
+- [04:57] developed and you can actually visualize
+- [04:59] the code that it generated for all of
+- [05:01] the components. Now, if we go over to
+- [05:03] preview, we can try this out. We can
+- [05:05] paste in any type of text here. This is
+- [05:08] a short story that I had provided within
+- [05:10] the draft editor. And we can use all of
+- [05:12] these features that we wanted it to
+- [05:13] integrate like proofread. You can also
+- [05:16] shorten it. You can even summarize it.
+- [05:18] and directly. If you click on these
+- [05:19] buttons, it'll work on providing the
+- [05:21] brief summary. You can see that it is a
+- [05:24] story that talks about someone is in a
+- [05:26] quiet city library, an old AI named
+- [05:29] Lumen residing in a forgotten computer
+- [05:32] uh is finding its purpose when a young
+- [05:35] girl mirror blah blah blah blah blah.
+- [05:36] But you can see that it was able to
+- [05:38] actually work on uh creating the summary
+- [05:41] for this. You can also add in a
+- [05:43] professional tone to this. In essence,
+- [05:45] this is an ideal text editor app that it
+- [05:47] built in less than 90 seconds. And it
+- [05:50] was able to do a great job in
+- [05:52] implementing all the features that we
+- [05:53] had requested. It was able to have it so
+- [05:56] that whenever you paste in any text, you
+- [05:58] can use the AI Gemini features built
+- [06:00] within this app to get you the
+- [06:02] enhancements you're looking for. Whether
+- [06:04] that's summarizing it, adding a new
+- [06:06] tone, or proofreading it. This is
+- [06:08] something that you can easily work with
+- [06:10] to develop anything. And you can even
+- [06:12] add other features to it like improve
+- [06:14] prompt suggestion could be another
+- [06:16] feature you can add and it will fully
+- [06:18] work on coding that new feature out
+- [06:20] built within this app. Now in my
+- [06:22] yesterday video with the studio I was
+- [06:24] actually able to create a fullon
+- [06:26] Minecraft clone. Guys, this is where I'm
+- [06:28] currently building my house. Uh
+- [06:31] obviously certain components are still a
+- [06:33] little wonky but overall it did a great
+- [06:35] job in building out the terrain. And you
+- [06:37] can see this with the trees. you have
+- [06:39] the ability to move around actually as
+- [06:41] most Minecraft clones don't even let you
+- [06:43] do that. But in this case, I can place
+- [06:45] down different blocks and it was able to
+- [06:47] depict how a terrain actually looks like
+- [06:50] how you would typically see something
+- [06:52] within the sandbox game itself. You're
+- [06:54] going to be able to also break different
+- [06:56] blocks. And you can see that it also
+- [06:59] adds the bottom layer, which is the
+- [07:01] cobblestone. This is something that I
+- [07:03] developed in a single shot, and it's
+- [07:05] just incredible to see. In short, you
+- [07:08] want to be using these tools that are
+- [07:10] free right now. And it's something that
+- [07:12] you can make the most out of by simply
+- [07:14] just creating a Google account. All you
+- [07:16] got to do is just simply create a Google
+- [07:18] account and you can access these
+- [07:19] capabilities, state-of-the-art models
+- [07:21] that can help you design, build, and
+- [07:24] turn any idea into a full functional
+- [07:26] app. The reason why I emphasize so much
+- [07:28] on this is because before we would see a
+- [07:31] lot of people complaining about any sort
+- [07:32] of tool that would have a payw wall and
+- [07:35] it would basically restrict anyone from
+- [07:38] generating or using AI for any sort of
+- [07:41] use case. But with Google's tool sets
+- [07:43] like Google AI studio or the build mode,
+- [07:46] you have the opportunity to harness the
+- [07:48] capabilities of these great models to
+- [07:50] build anything completely for free. So I
+- [07:53] definitely recommend that you try this
+- [07:54] out. even try out anti-gravity, see if
+- [07:57] that works for you. These are free tools
+- [07:58] and you can make the most out of it. The
+- [08:00] only thing that I would keep in mind is
+- [08:03] that they might harvest data. So, that
+- [08:05] is a potential concern that you should
+- [08:08] keep in mind if you're working with
+- [08:09] these tools. So, let me know what you
+- [08:11] guys think. I'll leave these links in
+- [08:12] the description below. Make sure you go
+- [08:14] ahead and subscribe to the second
+- [08:15] channel if you haven't already. Join the
+- [08:16] newsletter. Join our private Discord.
+- [08:18] Follow me on Twitter. And lastly, make
+- [08:20] sure you guys subscribe, turn on
+- [08:21] notification bell, like this video, and
+- [08:23] please take a look at our previous
+- [08:24] videos so that you can stay up to date
+- [08:25] with the latest videos. But with that
+- [08:27] thought, guys, have an amazing day,
+- [08:28] spread positivity, and I'll see you guys
+- [08:31] shortly. He suffers.

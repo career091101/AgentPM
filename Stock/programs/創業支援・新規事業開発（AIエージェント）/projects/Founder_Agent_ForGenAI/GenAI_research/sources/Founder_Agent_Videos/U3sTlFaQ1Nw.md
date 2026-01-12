@@ -1,0 +1,285 @@
+---
+title: "Transcript: U3sTlFaQ1Nw"
+video_id: "U3sTlFaQ1Nw"
+video_url: "https://www.youtube.com/watch?v=U3sTlFaQ1Nw"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:09:11"
+tags:
+  - "AI"
+  - "Agents"
+topics:
+  - "AI Agents"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: U3sTlFaQ1Nw
+
+- URL: https://www.youtube.com/watch?v=U3sTlFaQ1Nw
+- Retrieved at: 2025-12-30T11:00:27+09:00
+
+## Text
+
+- [00:00] Today marks the launch of Gemini 3.0,
+- [00:03] Google's most advanced AI model.
+- [00:05] Combining state-of-the-art reasoning,
+- [00:07] multimodal understanding, and a
+- [00:09] capabilities to instantly turn ideas
+- [00:11] into apps, workflows, or insights. It's
+- [00:14] the next generation model that's built
+- [00:16] to learn, build, and plan anything with
+- [00:19] unprecedented speed and intelligence. In
+- [00:21] coding, the Gemini 3.0 O delivers
+- [00:24] state-of-the-art performance with top
+- [00:25] scores on live codebench and terminal
+- [00:28] bench and other frontier benchmarks. And
+- [00:30] alongside this release, Google also
+- [00:33] unveiled Google's anti-gravity IDE, a
+- [00:36] fully free next generation ID that
+- [00:39] brings software development into the
+- [00:40] agent first era, powered entirely by
+- [00:43] Gemini 3.0. Think of it as Google's
+- [00:45] counter to cursor, featuring everything
+- [00:47] you'd expect from advanced AI editing
+- [00:50] with tab autocomp completion and natural
+- [00:52] language code commands with configurable
+- [00:54] agents and deep contextaware workflows.
+- [00:58] This is an IDE that also features higher
+- [01:00] level abstractions, which is a more
+- [01:02] intuitive taskbased system that shows
+- [01:05] essential artifacts, verification
+- [01:07] results, and agent discussions. And it
+- [01:09] helps you build trust in each step.
+- [01:12] There's also cross surface agents. This
+- [01:14] is where you can synchronize agents
+- [01:16] control across your editor, terminal,
+- [01:18] and browser for seamless end-to-end
+- [01:20] development. You also have user
+- [01:22] feedback, which is where it will easily
+- [01:25] inject feedback across any surface or
+- [01:28] artifact to guide, correct, and refine
+- [01:30] an agent's work. And lastly, you also
+- [01:33] have an agent first experience with this
+- [01:35] editor where you can manage multiple
+- [01:37] agents simultaneously across any
+- [01:39] workspace using one unified mission
+- [01:41] control view. This is just wild cuz just
+- [01:44] take a look at this example where
+- [01:45] anti-gravity's aensi capabilities was
+- [01:47] capable of building a fully functional
+- [01:50] collaborative multi-whiteboard
+- [01:51] application where multiple people can
+- [01:54] draw, brainstorm, and sketch ideas
+- [01:56] together. All generated end to end by
+- [01:58] leveraging the full power of Gemini 3.0.
+- [02:01] note. And the best part is is that you
+- [02:03] have the ability to access this
+- [02:04] completely for free with the individual
+- [02:07] plan. You can get started with the
+- [02:09] Google account. It's rate limited, but
+- [02:10] you're going to be able to get a
+- [02:12] generous amount of use cases out of this
+- [02:14] model with the new ID Google has. And to
+- [02:18] get started, head over to the
+- [02:19] anti-gravity website, which I'll leave a
+- [02:20] link to in the description below. And
+- [02:22] what you can do is click on download for
+- [02:24] your operating system. This is where you
+- [02:26] can install it for whatever operating
+- [02:28] system you may have, whether that's
+- [02:29] Windows, Linux, or Mac OS. Once
+- [02:31] installed, you can get started with the
+- [02:32] setup process. This is where you can
+- [02:34] either start fresh or import settings
+- [02:37] from other IDs you may have. I'm going
+- [02:39] to do this for VS Code. And then I'm
+- [02:41] going to set my editor theme type. And
+- [02:44] then we can have it so that we can use
+- [02:46] the anti-gravity agent type. This is
+- [02:49] where you can use the recommended agent
+- [02:51] assisted development process or you can
+- [02:53] have it so that you can review every
+- [02:56] sort of generation by the AI. You can
+- [02:58] also set custom configurations. I
+- [03:00] believe it's best set for the agent
+- [03:03] driven uh assisted development. And now
+- [03:06] what you can do is click next and then
+- [03:08] you can configure the key bindings
+- [03:10] extensions and command line. Once that
+- [03:12] is set, you can then sign in with your
+- [03:14] Google account and get started with
+- [03:15] this.
+- [03:17] And there we go. This is the
+- [03:18] anti-gravity IDE. It is a VS Code clone.
+- [03:22] And you can see on the left hand side,
+- [03:24] you can manage, explore, the code
+- [03:26] search. You also have the source
+- [03:27] control. All of the features that you
+- [03:28] would see within VS Code. All of your
+- [03:30] extensions will be also displayed over
+- [03:32] here. None of them have been installed
+- [03:34] yet, but you can easily manage all of
+- [03:36] them directly from here. And then you
+- [03:38] can open up your folder. And then you
+- [03:40] can open up the agent manager. This is a
+- [03:43] new feature built within anti-gravity.
+- [03:46] The agent manager is the mission control
+- [03:48] for running multiple agents at the same
+- [03:51] time. So, if you're going to be running
+- [03:52] multiple agents simultaneously, you're
+- [03:54] going to be able to manage them directly
+- [03:56] over here. And you can essentially chat
+- [03:58] with all the agents with the Gemini 3
+- [04:01] Pro high model so that you can easily
+- [04:03] work with it to accomplish any task.
+- [04:06] There's two modes that you can use,
+- [04:08] planning and fast. Planning is going to
+- [04:10] take a bit more time to use deep
+- [04:12] research to solve complex tasks. And
+- [04:14] then the fast method is just deploying
+- [04:16] it with a faster agent to execute these
+- [04:19] tasks. Now what I'm going to do is have
+- [04:21] it deploy multiple agents to create a
+- [04:23] cananband board to deploy multiple
+- [04:25] agents to tackle any task. So it's an
+- [04:28] inception where I'm going to have it
+- [04:30] work on creating a canban board which is
+- [04:32] like a dashboard where I can work on
+- [04:34] deploying and using these agents to
+- [04:37] tackle other tasks. This is where it has
+- [04:40] built the plan that you can approve. If
+- [04:42] you approve of it, you can then proceed
+- [04:43] forward and if not, you can obviously
+- [04:45] request it to iterate further on it. If
+- [04:48] you click on this Chrome icon, this will
+- [04:50] have you install the antsgravity browser
+- [04:52] control agent. This is where it can
+- [04:55] better control your browser so that you
+- [04:58] can debug as well as execute different
+- [05:00] tasks. So, a couple of different example
+- [05:02] use cases is you can have it work on
+- [05:04] debugging for quality assurance testing,
+- [05:07] monitoring dashboards, and get live
+- [05:09] feedback to your AI agent faster than
+- [05:12] something like just taking screenshots.
+- [05:14] This relates to the dev tools that we
+- [05:16] had mentioned previously on our Chrome
+- [05:18] video. But with anti-gravity's agent
+- [05:21] manager, you can see that it will deploy
+- [05:22] multiple agents to work on executing all
+- [05:25] of these tasks for you. You can see that
+- [05:27] it has finished fixing and preparing the
+- [05:30] multi- Asian canband board. We can
+- [05:32] actually open up the walkthrough as to
+- [05:34] how you can set this up and you can use
+- [05:37] the npm install command to get it
+- [05:39] running. And once you approve of this,
+- [05:41] you can then obviously start it up. But
+- [05:43] if you scroll all the way to the top,
+- [05:45] you can see all the agents that were
+- [05:47] deployed to code out all the components,
+- [05:49] all the different pages to have this
+- [05:52] functional. Now within the anti-gravity
+- [05:54] IDE, you also have the chat panel where
+- [05:57] you can interact with the agent. This is
+- [05:59] where you can use it like line or like
+- [06:01] other extensions to help you code and
+- [06:04] build anything. Just take a look at it.
+- [06:05] Right now it is using the browser agent
+- [06:08] and it is working on controlling the
+- [06:10] browser to now debug the app that it has
+- [06:14] created. And there we go. We have the
+- [06:16] multi- aent canband board that works.
+- [06:18] And this is where you can see all the
+- [06:20] tasks that it will work on like the
+- [06:22] initial research, the setup environment.
+- [06:24] They'll also design a database. These
+- [06:26] are just a list of different tasks that
+- [06:27] it can execute. And all you got to do
+- [06:29] now is just deploy the agent. And this
+- [06:32] is where it's connected to actually the
+- [06:34] backend within VS Code. And it can
+- [06:37] actually execute all these tasks like
+- [06:39] initiating the research, setting up the
+- [06:41] environment. And as you saw, it was able
+- [06:43] to do all of that quite quickly. And
+- [06:45] just to showcase something cool, this is
+- [06:47] where I am working with the agent
+- [06:49] directly built within the panel. And
+- [06:52] there is an artifacts that you can work
+- [06:54] with. So if you click on the artifacts,
+- [06:56] it will give you a live visualization of
+- [06:58] what it's working on currently. This is
+- [07:00] where it has worked on the
+- [07:01] implementation plan. And if you approve
+- [07:04] of this plan, you can then click on
+- [07:06] proceed and it will start working on
+- [07:08] deploying agents to execute that plan.
+- [07:10] But think of this as a cool way to
+- [07:12] visualize what the agent is working on.
+- [07:15] So if you actually have a full-on
+- [07:16] functional app, you can actually point
+- [07:18] out certain things like adding a comment
+- [07:20] to this line and improving it. Or you
+- [07:22] can highlight a certain section so that
+- [07:24] you can deploy agents to work on
+- [07:26] improving a feature or prototyping a new
+- [07:28] feature. What I really like is that
+- [07:30] there's also a review changes section
+- [07:32] that gives you a good view of all the
+- [07:35] diff changes across multiple files. And
+- [07:37] there we go. We have a browserbased Mac
+- [07:40] OS style operating system. And this is
+- [07:42] where we can enter in password. It could
+- [07:45] be anything which it states over here.
+- [07:47] So we're going to click enter. And there
+- [07:49] we go. This is beautiful. This actually
+- [07:52] looks exactly like a Mac OS. Doesn't
+- [07:54] have a background, but we have a Safari.
+- [07:57] We also have the file manager. You also
+- [07:59] have the terminal, the notes app, the
+- [08:02] actual calculator, calendar, and a
+- [08:04] couple of other things. This is the
+- [08:06] capability of this app. You can see I
+- [08:09] just changed the background of the
+- [08:11] operating system. This is how incredible
+- [08:13] anti-gravity's capability is. If you
+- [08:15] like this video and would love to
+- [08:17] support the channel, you can consider
+- [08:19] donating to my channel through the super
+- [08:21] thanks option below. Or you can consider
+- [08:23] joining our private Discord where you
+- [08:26] can access multiple subscriptions to
+- [08:27] different AI tools for free on a monthly
+- [08:30] basis, plus daily AI news and exclusive
+- [08:33] content, plus a lot more. But that's
+- [08:35] basically guys for today's video on
+- [08:36] anti-gravity. This is something that's
+- [08:38] much more than just a basic agentic IDE.
+- [08:41] It is something that lets you harvest
+- [08:43] the ability of the Gemini 3.0 model at
+- [08:46] its full potential. I highly recommend
+- [08:48] that you try this out. This is something
+- [08:50] that is fully free right now and we'll
+- [08:52] be switching over to a paid plan
+- [08:54] probably in the near future. I'll leave
+- [08:55] all these links in the description
+- [08:56] below. Make sure you go ahead and
+- [08:57] subscribe to the second channel if you
+- [08:59] haven't already. Join the newsletter,
+- [09:00] join our private Discord, me on Twitter,
+- [09:02] and then also please take a look at our
+- [09:05] previous videos because there's a lot of
+- [09:06] content that you'll truly benefit from.
+- [09:08] But with that thought, guys, have an
+- [09:09] amazing day, spread positivity, and I'll
+- [09:11] see you guys fairly shortly. He suffers.

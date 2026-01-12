@@ -1,0 +1,1420 @@
+---
+title: "Transcript: WKF__cJTxvg"
+video_id: "WKF__cJTxvg"
+video_url: "https://www.youtube.com/watch?v=WKF__cJTxvg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:61:54"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: WKF__cJTxvg
+
+- URL: https://www.youtube.com/watch?v=WKF__cJTxvg
+- Retrieved at: 2025-12-30T11:11:15+09:00
+
+## Text
+
+- [00:00] what is going on everybody Welcome to a
+- [00:02] video on programming in
+- [00:05] 2025 using um large language models llms
+- [00:10] and uh agents possibly so I see a lot of
+- [00:13] kind of critiques and questions about
+- [00:17] agents and llms and coding and is it
+- [00:19] like all hype and then like some people
+- [00:21] love these things and then some people
+- [00:23] act like um they're just like a giant
+- [00:25] waste of time or they don't understand
+- [00:28] like how are people using this or they
+- [00:29] just building like really basic apps
+- [00:31] only or like what's the deal there and I
+- [00:34] think there's two groups of people uh
+- [00:36] really three groups one group of people
+- [00:38] just gets it one group of people uh
+- [00:40] doesn't get it and then the other group
+- [00:42] doesn't want to get it and I can't help
+- [00:44] the latter group but the uh the second
+- [00:47] group I can definitely help at least
+- [00:49] maybe a little bit so uh what I'm going
+- [00:51] to use today is this thing called open
+- [00:53] hands and this is kind of an a agentic
+- [00:56] layer and I will admit the term agent
+- [00:59] just sounds fancy but for the most part
+- [01:02] it is just kind of like a almost a for
+- [01:05] Loop some if statements and some fancy
+- [01:07] prompting and boom you have an agent but
+- [01:10] done in the right way uh it can make
+- [01:12] your life much much easier and um
+- [01:15] there's also cursor the reason I'm not
+- [01:18] going to use cursor here in this video
+- [01:20] is you have to pay for cursor it's like
+- [01:21] 20 bucks a month and I am a little
+- [01:24] annoyed at everything is like 20 bucks a
+- [01:26] month um but for the most part uh all
+- [01:29] these things are like massive
+- [01:31] amplifications of my my actual output so
+- [01:34] I do think it's worth it but just
+- [01:36] because I don't I don't really want to
+- [01:37] keep showing everything that's super
+- [01:38] expensive uh or or I just want to show
+- [01:41] that you don't have to pay money for
+- [01:43] like any of this stuff you can even use
+- [01:44] open hands with closed Source or I'm
+- [01:46] sorry with an open source open weights
+- [01:48] model it doesn't have to be with a
+- [01:49] closed Source model um but you can also
+- [01:52] do a lot of things I'm going to be
+- [01:53] talking about today with uh something
+- [01:56] like Claud or even chat GPT the the
+- [01:58] actual UI um as you can see here I even
+- [02:01] used uh Chad GPT because I was really
+- [02:03] struggling with um what are my various
+- [02:06] options for um
+- [02:09] actually loading uh that deep seek
+- [02:13] model I started off thinking I was going
+- [02:15] to load fp8 on a CPU uh so that that's
+- [02:18] where I came from I like never run
+- [02:20] models on the uh on the CPU so anyways
+- [02:24] um okay so anyways you can follow along
+- [02:27] with a lot of the tactics that I'm going
+- [02:28] to use today are are similar across
+- [02:31] everything you don't even have to use an
+- [02:33] agent but if you are going to use an
+- [02:34] agent I do like Open Hands I do like
+- [02:36] cursor cursor has their little uh what
+- [02:38] is it composer agent or whatever you can
+- [02:40] use that too you just have to it I think
+- [02:42] there's like a free trial and then you
+- [02:43] have to pay for it so anyways uh keep
+- [02:45] that in mind I do think this is pretty
+- [02:46] cool you can install it essentially with
+- [02:48] two commands run this and then run this
+- [02:51] and again that's what I'm going to use
+- [02:52] but again also the hopefully um I I
+- [02:55] haven't done many videos lately because
+- [02:57] I feel like there's like nothing that is
+- [02:59] uh um nothing is sticking these days
+- [03:02] like within a week or two everything
+- [03:05] that you you just talked about is like
+- [03:06] outdated so that's probably going to
+- [03:08] happen today but uh but I these
+- [03:11] principles are principles that I've been
+- [03:13] using with coding with llms now for um
+- [03:17] at least a little bit so uh anyways so
+- [03:20] I'm running that second command or
+- [03:21] actually did I already no no no yeah so
+- [03:23] I'm running that second command and I'll
+- [03:24] just open it in a
+- [03:25] browser and then boom you're in open
+- [03:28] hands now I think if this a first time
+- [03:30] you're loading it you do have to set up
+- [03:32] uh an API key um I'm using anthropic I
+- [03:36] already uploaded um my key but you can
+- [03:39] use basically all of these um and then
+- [03:42] I'm not actually sure uh if like I'm
+- [03:45] pretty sure you can load your
+- [03:47] own um like you can set up something
+- [03:50] with like uh uh ll. CPP set up your own
+- [03:54] little private uh API with that and then
+- [03:57] you could run it off that so you don't
+- [03:58] have to pay a penny uh if you don't want
+- [04:00] to but I like CLA onic 3.5 right now as
+- [04:03] my coding model although that varies
+- [04:05] from time to time um I swear that model
+- [04:07] gets really dumb I think it's just they
+- [04:09] change the number of concurrence uh per
+- [04:12] GPU uh that's my best guess is why it
+- [04:14] gets crappy but uh so anyways to start
+- [04:17] you can upload a zip and the zip works I
+- [04:20] wish you could upload single files for
+- [04:22] some reason that does not work so
+- [04:23] usually my opening statement at least to
+- [04:25] this agent is one moment I will upload
+- [04:29] some well actually I'm just going to
+- [04:30] upload a file so I just open with that
+- [04:33] um and again every agent is going to be
+- [04:34] a little different so there's some
+- [04:36] little quirks that are just super
+- [04:37] specific to what I'm doing right here
+- [04:40] but um not always so and also let's just
+- [04:42] move I'm going to move my little head up
+- [04:45] here um as for the ultra patriotic
+- [04:48] background um I am changing where I'm
+- [04:50] putting the camera in this space mostly
+- [04:53] because actually the old direction is
+- [04:55] filled with a bunch of toddler stuff so
+- [04:58] so I like this backr a little better uh
+- [05:01] and actually these are all like family
+- [05:02] heirloom things the swords on the top
+- [05:04] and bottom are from uh the US uh from
+- [05:07] the Korean War those are from the uh
+- [05:10] Captain EXO and then uh that uh I don't
+- [05:13] know if Katana I don't think Katana is
+- [05:15] the right word it's a sword I don't
+- [05:16] think it's a katana I forget I don't
+- [05:18] know what the word is um but that's from
+- [05:20] it's like a captured uh Korean sword uh
+- [05:23] and then the bayonet is from the Civil
+- [05:24] War so slightly different era there but
+- [05:26] anyways and then a commission flag
+- [05:28] anyways um contining on uh let's
+- [05:31] see um upload so we need to upload our
+- [05:34] files so for upload and then sometimes
+- [05:36] download at least for me open hands used
+- [05:39] to the download always worked and then
+- [05:41] lately the download does not work so
+- [05:44] like whenever you're all done you can
+- [05:45] usually click this button and then
+- [05:47] download all the files but for some
+- [05:48] reason that has not been successful for
+- [05:50] me lately but no matter what you do
+- [05:52] first of all there's there's a million
+- [05:53] ways like you're using just keep in mind
+- [05:55] you're using an agent you can do
+- [05:58] whatever you want don't let yourself be
+- [06:00] like contained in like a little box so
+- [06:02] like in in this case like you could just
+- [06:04] open vs code in the browser and then now
+- [06:07] this yes I trust myself uh you can
+- [06:09] upload and download files right here and
+- [06:12] what if for example you don't want to
+- [06:13] download all those like individual files
+- [06:16] you come over to the agent and you tell
+- [06:18] it zip up the files and then you come
+- [06:20] over here and you just download that one
+- [06:22] single zip okay so start thinking in
+- [06:24] those terms um now for me I am going to
+- [06:27] just upload uh Shakespeare text here and
+- [06:30] so I'm just going to slap that in here
+- [06:32] now no matter what problem I do here
+- [06:35] there's going to be people who are like
+- [06:37] oh you just solved like that again you
+- [06:39] just started from nothing uh you just
+- [06:41] worked on like a simple R&D project
+- [06:44] agents don't work for a large code base
+- [06:45] that's all a lie it works for large code
+- [06:47] bases I'm not going to show you a giant
+- [06:49] large code base I also this will be the
+- [06:52] third time I'm recording this video
+- [06:54] hopefully I can actually get it
+- [06:55] condensed into one video and the other
+- [06:58] ones were like
+- [07:00] three plus hours of recording just
+- [07:01] simply because that's how long a big
+- [07:04] project takes and really if I was doing
+- [07:06] it by hand it would take me weeks like
+- [07:08] weeks to do big projects so anyways uh
+- [07:11] this is I'm going to try to keep this
+- [07:13] really simple um and still show all the
+- [07:16] my tips and tricks I suppose for for
+- [07:18] working with agents but also hopefully
+- [07:20] be able to show you why these things are
+- [07:23] so powerful so okay with that in mind
+- [07:25] let's go so we have shakespeare. text
+- [07:28] and now one of the one of the actual
+- [07:30] benefits is quick R&D so for
+- [07:34] example imagine uh you don't like
+- [07:37] language models like we've been on this
+- [07:39] Transformer stick for so long like
+- [07:42] wouldn't it be nice if there was
+- [07:43] something else uh besides Transformer
+- [07:46] models for either language models but
+- [07:48] then also in my opinion uh before we
+- [07:51] reach like ASI we are not going to be uh
+- [07:55] doing it with chatbots I just don't
+- [07:57] think so and like the the base core uh
+- [08:00] thing the base core element is not going
+- [08:03] to be tokens right there certainly not
+- [08:06] word tokens so
+- [08:08] [Music]
+- [08:10] um what is that
+- [08:13] word let's just scroll down a little bit
+- [08:15] here uh this is Trump's America I
+- [08:17] suppose but anyways um what is that word
+- [08:21] we I do need to know I need to know do I
+- [08:23] have to like re redo this video or not
+- [08:25] uh what is Shakespeare's
+- [08:28] [Music]
+- [08:30] usage of the word
+- [08:35] mean um so I don't
+- [08:43] think yeah what's the
+- [08:47] uh
+- [08:53] add anyway um we just got to figure out
+- [08:57] if uh
+- [09:05] it says Claud says it's unrelated we're
+- [09:07] good we're good guys okay so
+- [09:11] um so I don't think that like even think
+- [09:14] about like humans human intelligence
+- [09:16] human intelligence is it the result of
+- [09:18] language or is it the result of
+- [09:20] communication right and I think language
+- [09:23] is like a um an emergence of
+- [09:26] communication and intelligence as
+- [09:28] opposed to being like The Source okay so
+- [09:31] I don't think AI in the future like ASI
+- [09:34] type stuff it's not going to be word uh
+- [09:37] it's not going to be from uh like tokens
+- [09:40] right okay so anyway so what if we try
+- [09:42] other things okay that's that's let's
+- [09:44] imagine that's the uh the pretext of of
+- [09:46] our new project here now that we're 10
+- [09:48] minutes into this video that I really
+- [09:49] don't want to be three hours so uh so
+- [09:51] we've uploaded our shakespeare. text
+- [09:53] we're going to use this as training data
+- [09:54] and let's say we want to use like an
+- [09:56] evolutionary algorithm to train on
+- [09:58] shakespeare.
+- [10:00] now to begin we could we can do quite a
+- [10:02] few things so first of all on
+- [10:04] shakespeare. text we could say hey um I
+- [10:07] want
+- [10:08] to eventually train a language model
+- [10:13] on the Shak spear. text file I
+- [10:18] uploaded I would like to have the input
+- [10:22] be an
+- [10:23] encoded uh let's say 15 characters 15
+- [10:26] characters and the output be an
+- [10:30] encoded three
+- [10:32] characters I am not positive on the uh
+- [10:37] encoding but I think it would be cool to
+- [10:42] uh make that a like bit style of
+- [10:46] encoding like make each like uh make
+- [10:51] each character the bit representation of
+- [10:55] that character okay something like that
+- [10:58] hey bro uh something like that would be
+- [11:00] really cool right like a language model
+- [11:02] that's actually like built from bits
+- [11:04] like that would be
+- [11:07] uh darn near a Holy Grail I think um
+- [11:11] there's all kinds of problems that are
+- [11:12] going to likely arise from doing this
+- [11:14] bit and coding and I and I promise we
+- [11:17] are not going to solve it in this video
+- [11:19] uh this is a very complex problem um but
+- [11:21] I just kind of want to show some of my
+- [11:24] usual things of like working with these
+- [11:27] um um agents and large language models
+- [11:31] um so one of the things is you would
+- [11:32] never approach the agent and ask it to
+- [11:36] do the whole thing in one prompt right
+- [11:38] that's way too big you would not
+- [11:41] approach that problem now maybe in the
+- [11:42] future when we actually have ASI we
+- [11:44] could ask you know hey hey this is what
+- [11:46] I want make it happen and maybe that
+- [11:48] will work but today uh you can't do that
+- [11:51] just like regular programmers can't you
+- [11:52] can't do it that way you have to break
+- [11:53] it down into little sub problems and
+- [11:55] then solve the sub problem one step at a
+- [11:58] time so um so I'm just informing it hey
+- [12:02] this is what I I'm headed towards right
+- [12:05] um and I think I want to encode it this
+- [12:07] way so maybe so I think the first step
+- [12:11] we should do is take that uh text file
+- [12:16] and create some training data from it in
+- [12:20] this way let's create a python file that
+- [12:24] first loads this uh text file and
+- [12:28] encodes the characters to bits and then
+- [12:32] creates the input 15 characters to
+- [12:37] Output three oops to put putut putput
+- [12:43] to three
+- [12:46] characters but uh encoded into
+- [12:51] bits can you do that okay so hopefully
+- [12:55] uh we'll start off there sometimes like
+- [12:56] this agent will like write the code but
+- [12:58] it won't make a file I think it's G to
+- [12:59] make a file here we'll see what
+- [13:06] happens and we want to do uh three
+- [13:09] characters instead of one character
+- [13:10] because I think a lot of times we'll end
+- [13:11] up on like spaces and stuff like that
+- [13:14] also um I think if we do only one
+- [13:17] character the model will very especially
+- [13:19] with like an evolutionary or RL based
+- [13:21] kind of algorithm but many algorithms
+- [13:24] would learn to predict the most common
+- [13:26] letter and then probably get stuck like
+- [13:28] in that kind of a like a local minimum
+- [13:31] basically and we don't want that so
+- [13:34] we're waiting on this thing to hurry up
+- [13:35] and code so yeah it calls it pre-process
+- [13:37] that's good I mean that's what it should
+- [13:39] be called um and we're just kind of
+- [13:42] waiting for
+- [13:45] it so one of the other cool things um
+- [13:48] about agents is you know some people say
+- [13:51] that it takes you it takes much longer
+- [13:54] to produce code than if you just like
+- [13:56] wrote it yourself and sometimes that's
+- [13:57] true like sometimes
+- [13:59] there's like a really easy solution and
+- [14:01] like you you think that you can get the
+- [14:03] the AI to do it for you but it would
+- [14:05] just be quicker if you just did it um oh
+- [14:07] that's cool so it saved at as a numpy so
+- [14:09] remove uh so how many training samples
+- [14:12] from the first thousand
+- [14:14] characters
+- [14:17] um I don't know if I want that because
+- [14:19] it's it is pro is likely a sliding
+- [14:21] window but I'm not really
+- [14:23] sure um if I like it being only a
+- [14:26] thousand
+- [14:30] let me just see if the down this
+- [14:31] historically well historically this has
+- [14:34] worked but lately it has not worked so I
+- [14:35] just want to see if it
+- [14:37] works it is not going to work today I
+- [14:40] don't know why that is oh no I forgot
+- [14:43] this is like when this breaks you have
+- [14:44] to like refresh it's it's like super
+- [14:46] annoying um but anyways I'll we'll
+- [14:49] discuss that momentarily um so here's
+- [14:51] the next tip and trick that I like to do
+- [14:54] so it's done this already and so as you
+- [14:57] can see we already have uh we have that
+- [14:59] text file we've got these numpy files
+- [15:00] and then we got the python file and as
+- [15:02] you continue to increase the size of
+- [15:04] this code base you will wind up with
+- [15:07] more and more issues along the way so uh
+- [15:10] what I like to do is could you also
+- [15:14] create a and in this case we'll call it
+- [15:16] a readme.md
+- [15:17] file that uh summarizes our current
+- [15:22] goals and objectives the things things
+- [15:26] we've done so far the files in the code
+- [15:29] code
+- [15:29] base uh actually we'll call the files in
+- [15:32] the
+- [15:33] workspace and a bit of a
+- [15:36] to-do of a
+- [15:38] to-do um beyond that please try to to
+- [15:43] keep this file up to date so the reason
+- [15:46] why I want to do that is as I discuss as
+- [15:49] we talk in like this little chat box
+- [15:51] here uh the context gets longer and
+- [15:54] longer and longer and longer and
+- [15:56] eventually it gets a little unruly I in
+- [15:58] general I find the correct number of
+- [16:01] essentially steps to take now it depends
+- [16:03] on the context per step but in general
+- [16:06] after by the time I reach like 200 steps
+- [16:09] I find it's best to go ahead and just
+- [16:11] reset uh reset everything and so in
+- [16:13] order to do that you need to at least
+- [16:15] have kind of like this running sort of
+- [16:17] summary of what's going on what you're
+- [16:19] working on and all that to like come
+- [16:21] back from so you'll either download all
+- [16:24] the files if that actually works um
+- [16:26] again historically that has worked and
+- [16:27] just for the record of
+- [16:29] this so like right now as I record the
+- [16:30] version
+- [16:31] 0.23 I feel like the version updates
+- [16:34] like once a week or something like that
+- [16:36] it's pretty frequent so um hopefully at
+- [16:38] some point that'll be fixed uh so we'll
+- [16:40] see but and and honestly it's been it's
+- [16:41] been a lot of fun using this one because
+- [16:43] it it updates like so fast and there's
+- [16:46] like little things that hopefully we'll
+- [16:47] get to see some of that uh in in this
+- [16:49] recording um that I'll I'll kind of
+- [16:51] point out but like little behaviors that
+- [16:53] you see come through that clearly like
+- [16:54] the prompting has changed and you're
+- [16:56] like oh that's so cool so anyway so now
+- [16:58] we have this read me file so again we
+- [17:00] can come over here and we can kind of
+- [17:01] just see what it's done so far so it
+- [17:03] just populates this with some useful
+- [17:05] information that if we want to start
+- [17:07] over the context the first thing you
+- [17:09] tell the the agent when you start a new
+- [17:10] chat is please check the readme.md file
+- [17:13] to understand what we're doing and right
+- [17:14] before you reset you'll tell it you'll
+- [17:17] just make sure that it up has updated
+- [17:18] the readme.md you should double check it
+- [17:21] and you can make any modifications that
+- [17:22] you want or whatever but I find that to
+- [17:24] be a really great way to uh keep context
+- [17:27] down keep everything kind of flowing
+- [17:29] pretty good but then yeah not have this
+- [17:31] like giant because like sometimes like
+- [17:32] that giant context actually makes the
+- [17:34] model worse so whether or not you care
+- [17:36] about paying for those tokens it's also
+- [17:38] just like trying to keep it focused so
+- [17:41] anyways coming back to uh where we're
+- [17:44] working okay so we got the read me file
+- [17:46] very good and we created some samples
+- [17:48] now we want to make uh there's all kinds
+- [17:50] of stuff that you could do you could you
+- [17:51] I I like evolutionary algorithms I just
+- [17:53] think they're really cool um but in the
+- [17:56] case of binary uh it could be an
+- [17:58] evolutionary algorithm it could be an
+- [17:59] RNN right it could be all kinds of
+- [18:02] things it something something new is
+- [18:04] coming for sure it won't always be
+- [18:06] Transformers um but so anyways like okay
+- [18:09] let's say you want to try an
+- [18:10] evolutionary based
+- [18:12] algorithm okay so I'd like to try an
+- [18:16] evolutionary based algorithm to start on
+- [18:20] this data what do you
+- [18:23] think um and then also let's check this
+- [18:26] pre-process so what I will say is
+- [18:31] um um I think that we probably would
+- [18:35] want to have more than a thousand
+- [18:37] samples most likely but then also one of
+- [18:39] the things I want to point out is a lot
+- [18:41] of times when I'm working with these
+- [18:42] agents I you'll I'll have the agent will
+- [18:46] have produced like thousands of lines of
+- [18:48] code for me and I won't have even seen
+- [18:51] it like I won't even look at it uh
+- [18:54] that's how that's where things are
+- [18:57] lately and I just think that's pretty
+- [19:00] crazy uh so like I get a little bit of
+- [19:02] benefit having been a programmer in a
+- [19:05] past life that like I know it's possible
+- [19:08] I know it's not possible like when I'm
+- [19:09] asking the model here to uh use an
+- [19:12] evolutionary based algorithm I could
+- [19:13] tell it hey use the neat library because
+- [19:15] that's a really good library to get
+- [19:17] things going
+- [19:18] [Music]
+- [19:19] um okay this is just a sample I I'm not
+- [19:22] sure what it's doing right now uh is it
+- [19:24] actually running something what are you
+- [19:25] doing so it's pre-processed but then
+- [19:27] it's not actually
+- [19:31] oh so it is building something I just
+- [19:32] don't see it for some reason yet here's
+- [19:34] that file so I get I get a benefit
+- [19:37] because I know like what is possible or
+- [19:39] what exists but again I I do think that
+- [19:42] we're kind of at the point now where we
+- [19:45] could um you could probably be you could
+- [19:48] probably program without being a like
+- [19:51] being a programmer at all like you could
+- [19:52] ask an agent like this to do things and
+- [19:54] just report the
+- [19:55] results um okay so coming back here um
+- [19:58] an evolutionary is an interesting
+- [20:00] approach blah blah blah update the read
+- [20:01] me look at that being a being a good
+- [20:03] little agent um input 120 bits hidden
+- [20:06] layer 64 so I do think that we probably
+- [20:08] need two minimum two hidden layers uh I
+- [20:11] think that that has been very well
+- [20:13] documented that you have to have at
+- [20:14] least two hidden layers so we'll go
+- [20:16] ahead and add a hidden I think we'll
+- [20:18] start with two hidden layers minimum
+- [20:20] genetic operations blah blah blah
+- [20:22] mutation flips bits with a given
+- [20:25] probability comines two parent selection
+- [20:28] I do think we want some sort of mutation
+- [20:30] and evolution that adds layers adds
+- [20:33] nodes removes nodes adds connections all
+- [20:35] that kind of
+- [20:36] stuff Fitness is slightly above monism
+- [20:40] blah blah blah architectural changes
+- [20:42] blah blah blah okay so again I I do
+- [20:45] benefit from having been like a
+- [20:47] programmer working on these things um
+- [20:50] literally writing the book on neural
+- [20:52] networks you kind of need a second
+- [20:54] hidden layer so let's go ahead and um
+- [20:56] let's make the
+- [20:59] uh default starting point have two
+- [21:02] hidden
+- [21:03] layers um well how many was it
+- [21:07] 64 64 that's just that's well 64 is fine
+- [21:11] we'll keep 6 the problem is like you
+- [21:13] don't really even need probably 64 uh
+- [21:16] two hidden layers um two hidden layers
+- [21:19] uh 32 nodes we'll just start there uh to
+- [21:23] start um during evolution
+- [21:28] we should allow for mutation to add
+- [21:34] nodes uh add nodes add nodes
+- [21:38] connections or
+- [21:40] remove as well as add new
+- [21:46] layers adding new layers should
+- [21:50] be relatively rare but
+- [21:55] possible I'm trying to think if there's
+- [21:57] anything else I want to change
+- [21:59] so uh coming over here as well uh let's
+- [22:01] see so I mean we did we improved general
+- [22:04] fitness we did 50 Generations we don't
+- [22:06] have very much data um and then it's
+- [22:08] also important to recognize the average
+- [22:10] fitness I think until average fitness
+- [22:12] goes up that means no improvement really
+- [22:15] I'm not sure about 50% I guess 50%
+- [22:17] because it's it's a zero or a one I
+- [22:19] guess that's why how how that's doing
+- [22:20] the calculation um and then the actual
+- [22:23] predictions I mean most of these are
+- [22:25] like special characters um I'm going to
+- [22:27] call that Emer
+- [22:29] so I'm ready to raise trillion on hey I
+- [22:32] just I just created a you know people
+- [22:34] always say that language models um can
+- [22:38] only produce what they were trained on
+- [22:40] like they only know what they were
+- [22:41] trained on Boom here's some evidence I
+- [22:43] got a model right here it's emerging on
+- [22:45] a new
+- [22:46] language 7
+- [22:49] trillion
+- [22:51] uh okay so uh one of the other benefits
+- [22:55] of these agents is like I'm doing this
+- [22:58] and talking to you again I'm not really
+- [23:00] writing code I'm writing English and
+- [23:01] that's about it in reality like when I'm
+- [23:04] working I'm espe even if I just was
+- [23:07] trying to solve this one problem I I
+- [23:10] would have four of these up at any given
+- [23:13] time five maybe and uh and if I'm not
+- [23:16] working on just this one problem maybe
+- [23:18] I'm working on multiple problems I'm
+- [23:20] still uh I'm going to have many things
+- [23:23] up all at once so even if the agent
+- [23:25] itself is barely faster than you are if
+- [23:29] you're just on that one agent the
+- [23:30] difference is while this agent's doing
+- [23:32] this I could be off instructing a
+- [23:34] different agent to do something else at
+- [23:36] a minimum this thing it it speeds me up
+- [23:39] I feel like even one agent I'm usually
+- [23:41] about 10x my my speed but I can use five
+- [23:44] agents at a time so I'm like 50x I mean
+- [23:48] it's like it's crazy the the the uh
+- [23:50] amount of Leverage that you get when
+- [23:52] you're using something like um agents is
+- [23:57] it's absolutely staggering
+- [23:59] um okay so I'll modify the evolutionary
+- [24:01] model blah blah blah Dynamic
+- [24:03] architecture mutation types 80
+- [24:15] chance hey it improved to 50% but I
+- [24:18] think a I'm not sure Best Fitness really
+- [24:21] matters I feel like average fitness has
+- [24:23] to you have to raise up the average
+- [24:25] fitness otherwise you probably haven't
+- [24:26] training increase so what is the
+- [24:28] population
+- [24:30] size possible improvements we could try
+- [24:32] a fitness
+- [24:33] function okay so I actually I mean it
+- [24:36] was a joke earlier but I actually don't
+- [24:38] think you want to get rid of this you
+- [24:40] you might want to it might actually make
+- [24:42] it better but I don't I don't want to do
+- [24:45] that it's more fun not to do that uh
+- [24:47] waight different bit positions
+- [24:50] differently I mean that is the other
+- [24:52] thing so one of the common things with
+- [24:55] uh with so like with 8bit representation
+- [24:58] I want to say the 128 comes from the
+- [25:01] fact that you have even though it's
+- [25:03] represented in 8 Bits the the zeroth bit
+- [25:09] is always going to be a zero or at least
+- [25:12] almost always I I think there might be
+- [25:13] some scenarios some comment below if
+- [25:15] there's what what scenarios that the
+- [25:17] zeroeth bit would be a one but you can
+- [25:19] almost guarantee success which is why
+- [25:21] it's unfortunate that we're still
+- [25:23] average fitness 50% like we should do a
+- [25:25] little better because you could always
+- [25:26] predict that zeroth every eight bit so
+- [25:29] like here zero uh 1 2 3 4 five 6 7 zero
+- [25:35] uh 1 2 three four five six seven zero
+- [25:39] like it should always be a zero uh so
+- [25:41] it's shocking it hasn't quite figured
+- [25:43] that one out yet but that's okay um okay
+- [25:46] wait
+- [25:48] different okay first off first off since
+- [25:52] we're rep uh I don't even I don't know
+- [25:56] if I I feel like that could that would
+- [25:57] like confuse the agent potentially so I
+- [25:59] don't even know if I want to touch that
+- [26:01] uh consider sequence level patterns I
+- [26:03] don't think I don't know if I want to do
+- [26:04] that feels too too tokeny like
+- [26:06] architecture start with larger
+- [26:10] layers I'm not sure why would you need
+- [26:12] to start with larger layers if it's 8
+- [26:14] bit
+- [26:15] representation but you do have okay fine
+- [26:17] we'll start okay fine okay fine uh let's
+- [26:21] go with larger layers 64 each to start
+- [26:26] remember though we can always add more
+- [26:31] neurons I'd rather start small and grow
+- [26:36] rapidly then start giant okay um what is
+- [26:42] our current uh increase the PO what is
+- [26:44] the population size I don't even know I
+- [26:46] have no idea it's not my
+- [26:48] code uh let's see if we 100 I feel like
+- [26:52] a hundred's a pretty good starting
+- [26:54] population but
+- [26:56] uh increase the population size to
+- [27:01] whatever you think is
+- [27:06] best yeah I don't really
+- [27:08] know I feel like 100 is actually pretty
+- [27:11] good because I also think the population
+- [27:13] size I don't know in in this code if if
+- [27:15] the population size will ever
+- [27:19] grow one moment please while I check
+- [27:21] something on my phone
+- [27:36] H okay um 64 that's F uh 200 population
+- [27:42] Dynamic bit flip I think bit flip is a
+- [27:46] potential issue that starts to suggest
+- [27:48] to me that maybe our activation
+- [27:50] functions
+- [27:52] are Dynamic I hate that it does this too
+- [27:55] but there there's something else we can
+- [27:56] do for that as well so as it
+- [28:00] runs oh it's running right now
+- [28:03] yes Dynamic evolutionary model
+- [28:10] um wait where is the activation where is
+- [28:15] our activation function wow I can't even
+- [28:18] find
+- [28:21] it add node remove node add
+- [28:25] layer am I blind
+- [28:35] I'll just ask the
+- [28:37] model
+- [28:38] um what are the activation
+- [28:43] functions
+- [28:47] for these
+- [28:53] layers started here improved to
+- [28:56] here yeah it's probably not and I bet
+- [28:59] the average was still yeah too close to
+- [29:04] 50% waiting bits by position I don't
+- [29:07] even know what MSB or LSB stands for I
+- [29:12] don't want to Val I don't want
+- [29:15] to should
+- [29:18] we we could probably improve immediately
+- [29:21] if we just made that change uh add Skip
+- [29:25] connections yes add Skip connections
+- [29:28] yes add Skip
+- [29:30] connections yes add attention with uh
+- [29:36] let's try to add some
+- [29:40] attention it is all you need damn it
+- [29:42] we're just going to wind up creating a a
+- [29:44] Transformer probably but okay um
+- [29:47] Evolution strategy uh add
+- [29:50] speciation like in
+- [29:52] neat Island model I don't know what
+- [29:55] island model
+- [30:00] let's also
+- [30:04] improve oh man I don't the the the the
+- [30:08] calculation is probably um adjusted from
+- [30:11] this point but
+- [30:15] um uh also
+- [30:18] also um let's try to keep the pi files
+- [30:23] in the workspace somewhat clean uh
+- [30:27] please
+- [30:28] [Music]
+- [30:30] um put
+- [30:33] previous uh evolutionary
+- [30:36] scripts that we're no longer using into
+- [30:41] a folder
+- [30:43] called pref but hopefully it'll do like
+- [30:46] multiple things
+- [30:52] here yeah so there is no activation
+- [30:55] function so that's your problem it's
+- [30:58] really yeah an exor
+- [31:01] um
+- [31:09] exactly with new activation
+- [31:13] functions binary sigmoid binary tan I
+- [31:17] think a sigmoid would be good because
+- [31:18] then we could act we could we would
+- [31:19] likely see much more
+- [31:26] training binary
+- [31:28] and binary okay that's fine I don't mind
+- [31:30] a tan and sigo uh output
+- [31:34] [Music]
+- [31:39] layer I'm predicting all ones oh my
+- [31:42] god oh there you go so so you do have
+- [31:45] scenarios where you could actually start
+- [31:47] with a z or with a one instead of a zero
+- [32:02] let okay scale the weights to prevent
+- [32:05] saturation add weight initialization
+- [32:08] scaling add a biased term to help with
+- [32:12] activation improve the fitness function
+- [32:14] to consider partial matches uh sure
+- [32:18] let's do all of those
+- [32:25] probably oh
+- [32:33] oh look at him he's still R usually it
+- [32:35] forgets to to do what you asked it uh
+- [32:38] with respect to the read me file so I'm
+- [32:40] pretty impressed that he's remembering
+- [32:41] to do
+- [32:48] that all right let's see if this
+- [32:54] actually model did you put anything in
+- [32:56] there so so wait is it putting D hold
+- [33:05] on no just evolutionary
+- [33:08] Transformer so why
+- [33:11] is this I don't know why these two
+- [33:14] unless it's using using it it doesn't
+- [33:17] look like it is
+- [33:28] okay this might be uh the new this might
+- [33:31] be an example I think it's actually
+- [33:33] probably still running let's
+- [33:38] see hard to
+- [33:42] say this is all probably just the
+- [33:44] spyware around my computer running uh
+- [33:46] let's see
+- [33:47] [Music]
+- [33:52] so let's check in on the current status
+- [34:02] yeah okay so this that's what I thought
+- [34:04] was would happen so this was this was I
+- [34:06] think new as in 0 22 or 0 23 but it used
+- [34:10] to be the case that if you had any
+- [34:13] command that would take longer than two
+- [34:14] minutes you just like couldn't run it in
+- [34:16] open hands because it would just time
+- [34:18] out it would just say oh this is taking
+- [34:19] too long and just give up uh whereas now
+- [34:21] it just it like just sends it it leaves
+- [34:24] it running and then just sends this
+- [34:26] empty command and it should give give
+- [34:27] you a result but it's possible that
+- [34:29] maybe this is not printing as it's
+- [34:32] going um so we'll see if it get let's
+- [34:35] interrupt the current process to add
+- [34:36] some progress indicator yeah it
+- [34:38] literally read my mind so again we're
+- [34:41] sitting here this is taking a while I'm
+- [34:42] looking at the timer on the recorder 34
+- [34:44] minutes and what again I just want to
+- [34:47] say while it's doing this I would be in
+- [34:49] a different window doing something else
+- [34:51] entirely like I'm not going to sit here
+- [34:54] and keep staring at this like and and
+- [34:56] there's so many things that are very
+- [34:57] common so for example let's check in on
+- [35:00] the current status there's no
+- [35:01] information oh right you have to
+- [35:03] basically all your scripts should have
+- [35:05] tons of debugging happening in the
+- [35:07] console and if not in the console it
+- [35:08] should output to like a Json file
+- [35:10] something like that so if it takes a
+- [35:12] really long time like in the case of
+- [35:14] like um Benchmark scripts for language
+- [35:17] models for example it might take a while
+- [35:19] to run and get the inference for those
+- [35:21] benchmarks and then if you want to
+- [35:23] perform like analysis or you want to
+- [35:25] like work on the logic of extracting
+- [35:28] answers from those uh the inference
+- [35:31] rather than rerunning over and over and
+- [35:33] over just output to a Json and then you
+- [35:35] can iterate over that Json right um but
+- [35:37] again these are all uh this is all stuff
+- [35:41] that you should have been doing when you
+- [35:43] were programming as well so you you
+- [35:46] you're like we're still in an era where
+- [35:48] you you still kind of have to be the
+- [35:49] engineer and you still kind of have to
+- [35:51] think about like how to break things
+- [35:53] down um
+- [35:55] and like a big problem break that down
+- [35:58] into smaller problem and chunks that you
+- [35:59] can kind of solve and use things like
+- [36:02] debugging and all that and for more
+- [36:04] challenging things generally if you can
+- [36:06] come up with like a like a test case
+- [36:09] where you would know if it worked if it
+- [36:12] passes these tests or you'd be very
+- [36:14] confident at least you can come up with
+- [36:16] those tests and then tell it this is the
+- [36:18] test you would save it to like a file
+- [36:20] even and say hey this is the test case
+- [36:21] just keep iterating until you can solve
+- [36:23] these test cases um and eventually it
+- [36:27] will either you know expend a ton of
+- [36:29] money or solve the test cases uh and
+- [36:32] you'll be good so like there's lots of
+- [36:34] like little ways that you still have to
+- [36:36] like be a programmer to some extent or
+- [36:37] an engineer to some extent but
+- [36:39] everything is just so much easier
+- [36:41] nowadays um and then let me see here I
+- [36:44] will say like at least Claude if if
+- [36:46] you're seeing like I apologize or if you
+- [36:49] see like the oh now I see what the
+- [36:51] problem is if you start seeing that
+- [36:53] stuff a lot just you got to clean up
+- [36:55] start over cuz it'll be Stu going a loop
+- [36:58] forever uh as soon as you start seeing
+- [37:00] messages like that like definitely start
+- [37:02] the context over all that it's it's a
+- [37:04] lost cause at that point okay so now the
+- [37:06] fitness evaluation is taking quite long
+- [37:08] so for
+- [37:10] example there is a big how much what was
+- [37:13] my uh memory up to last time I don't
+- [37:16] remember H let's first see how things
+- [37:20] are
+- [37:22] progressing even if it's slow uh before
+- [37:25] we go m making
+- [37:29] changes uh I think we'd like to see at
+- [37:34] least a few
+- [37:37] Generations I mean we're definitely Uh
+- [37:40] something's happening because we are
+- [37:41] using massive amounts of memory um not
+- [37:45] quite
+- [37:46] sure what or why but uh we can address
+- [37:49] that at a later date I'm just I just
+- [37:52] really want to see number go up like how
+- [37:54] hard is that to show me number go up
+- [37:59] let's go ahead and break that then use
+- [38:07] numis
+- [38:09] vectorization
+- [38:10] plus let's use some
+- [38:15] parallelization I have 64 total cores
+- [38:18] let's
+- [38:20] Reserve 12 for me so use
+- [38:26] 52 to
+- [38:30] process yeah you start seeing stuff like
+- [38:32] this you should be on red alert at least
+- [38:35] with with Claude ah anything like that
+- [38:38] no no no no you got to be careful whoa
+- [38:41] look look at it go oh for a split second
+- [38:44] it must have hit another error
+- [38:46] probably uh that was awesome looking for
+- [38:48] a
+- [38:50] moment ah I see the problem ah no I know
+- [38:54] what to do ah I see ah
+- [38:58] there you go as soon as you if if you
+- [39:00] have too many awz happening all at
+- [39:04] once things are not looking good we'll
+- [39:07] see though we'll
+- [39:09] see we'll see it's a red flag though
+- [39:12] it's a red flag watch closely dang look
+- [39:15] at them go uh did I or did I not say
+- [39:20] 52 I think it's violating my request
+- [39:23] it's probably going to screw up my
+- [39:25] video okay we are uh check the timer on
+- [39:29] the video 57 minutes 57 and A2
+- [39:33] minutes and I have done no coding we
+- [39:36] have reached the point of basically here
+- [39:40] we got a Best Fitness up to uh
+- [39:42] 76% um reached that in generation
+- [39:46] 47 I think we only did 50 um and
+- [39:50] actually it really probably was it did
+- [39:51] 50 but it starts at zero so really it
+- [39:53] only had two more Generations so it
+- [39:55] sounds like it was continuing to improve
+- [39:57] as time went on started to predict valid
+- [39:59] asy characters um final uh predictions
+- [40:04] show learning of character patterns I'm
+- [40:06] not really positive that I would
+- [40:07] necessarily agree with that but that's
+- [40:08] what it says um areas for improvement uh
+- [40:11] more sophisticated fit Fitness function
+- [40:13] maybe it it seems like things are
+- [40:15] getting better but it if we're already
+- [40:16] at 76 and these are the predictions that
+- [40:18] we're getting uh my guess is
+- [40:22] [Music]
+- [40:23] um uh
+- [40:25] potentially uh this is more like a local
+- [40:27] Minima type scenario um but we'll get
+- [40:30] there
+- [40:32] um okay so probably the last thing I
+- [40:34] would do here is show you guys um well
+- [40:38] two things one again I don't know what
+- [40:40] step we're at but I don't think it we're
+- [40:41] near enough to
+- [40:43] reset
+- [40:47] uh yeah we're only at step 85 but again
+- [40:50] if you did need to reset context for any
+- [40:52] reason because this download files is
+- [40:53] not working you literally just ask the
+- [40:55] model hey could you please zip this
+- [40:58] entire workspace into a workspace do zip
+- [41:02] file for me thanks uh and it will do
+- [41:06] that it probably doesn't have zip
+- [41:07] installed but it will just install zip
+- [41:09] and put it in um a
+- [41:13] workspace um and then from here you can
+- [41:16] do all kinds of stuff and like stuff
+- [41:17] that I I would just never personally do
+- [41:20] um like you just would never take the
+- [41:21] time to really make it really nice so
+- [41:23] for example is like visualizations
+- [41:24] dashboards stuff like that like as this
+- [41:26] trains
+- [41:27] uh one of the other things that you
+- [41:29] could ask uh is hey instead of like a
+- [41:31] tensor board necessarily that just shows
+- [41:33] the stuff that tensor board could show
+- [41:35] you could tell it like hey show me the
+- [41:37] the best fitness show me a best fitness
+- [41:39] graph over time as it trains like create
+- [41:42] like some sort of uh dashboard for this
+- [41:45] um and then also things like show me
+- [41:47] some examples like every generation so
+- [41:49] show me some of the best uh final
+- [41:51] prediction examples stuff like that um
+- [41:54] and you can kind of keep going with that
+- [41:55] but anyway for doing stuff like that for
+- [41:57] like dashboards and all that uh it's
+- [41:59] really really powerful so anyways um
+- [42:02] this is like a perfect stopping point it
+- [42:04] was an hour in again I did almost no
+- [42:06] coding a lot of that I was just like
+- [42:08] looking at something else doing
+- [42:09] something else um or talking to you on
+- [42:11] camera or like explaining something but
+- [42:14] but really the actual input required of
+- [42:16] me was minimal to get to this point now
+- [42:18] again we did not solve we didn't make a
+- [42:20] new breakthrough in uh new language
+- [42:23] models or anything like that or we
+- [42:24] didn't make ASI today but the point is
+- [42:27] you can you can use this to do like if
+- [42:30] I'm not recording a video again I'm
+- [42:32] doing like five of these at any one time
+- [42:35] to try to solve certain different
+- [42:36] different problems um so especially if
+- [42:38] you're an R&D or something like that it
+- [42:40] it is much faster but it doesn't have to
+- [42:41] be R&D it can literally be like I use
+- [42:44] this with my work for benchmarking uh
+- [42:46] large language models it makes it so
+- [42:47] much easier to like quickly Implement a
+- [42:49] benchmark like any Benchmark there's
+- [42:51] always like all these like brand new
+- [42:52] benchmarks everyone does them in
+- [42:54] different ways everything has its own
+- [42:55] little quirks and features and every
+- [42:58] model is a little different and it's
+- [43:00] just kind of a nightmare implementing
+- [43:02] models on benchmarks for example but
+- [43:04] doing it with language models it's like
+- [43:07] so easy it's so fast like when you're
+- [43:10] using something like an agent so anyways
+- [43:12] I definitely encourage you everybody to
+- [43:14] to try these things out try out Open
+- [43:16] Hands use the cursor agent even just
+- [43:18] using the chat you know the web UI um
+- [43:20] all these things are extremely powerful
+- [43:22] um and if you're not using them you're
+- [43:23] missing out if you're refusing to use
+- [43:25] them uh you're going to be replaced prop
+- [43:27] probably so anyways uh that's all for
+- [43:30] now uh if if you have questions comments
+- [43:32] concerns suggestions something else I
+- [43:34] should look at uh let me know in the
+- [43:36] comments below if you're interested in
+- [43:37] learning about how normal networks work
+- [43:39] like at a deep level uh check out the
+- [43:41] noral networks from scratchbook at
+- [43:43] ns. otherwise I will see you guys
+- [43:45] anywhere from a few days to a couple of
+- [43:48] years uh till till next time okay bonus
+- [43:51] points um I did ask it to do something
+- [43:53] and then I left and um I think it
+- [43:55] actually maybe worked so uh basically I
+- [43:58] just asked it to train uh save like best
+- [44:00] fitness and like all the fitnesses to
+- [44:02] like a Json and then we could display it
+- [44:04] in a live uh dashboard as it trains and
+- [44:07] then maybe view progress over time or
+- [44:09] something so it looks like it actually
+- [44:11] did that and then I just asked it hey
+- [44:13] will you zip everything up into a
+- [44:14] worksspace do zip because I was having a
+- [44:16] problem like doing the download all
+- [44:17] files thing so it did that made me a
+- [44:20] little zip file um okay so coming over
+- [44:23] here uh we will extract come into the
+- [44:26] works space and um what were the two
+- [44:30] files I already forgot we want to run a
+- [44:33] training
+- [44:35] dashboard um for the live visualization
+- [44:39] and
+- [44:41] then oops uh python training
+- [44:46] dashboard
+- [44:49] um okay we'll see uh and then
+- [44:54] finally H what was the other thing
+- [44:57] parallel evolutionary transformer.
+- [45:00] Pi pull that up and actually that needs
+- [45:03] to be uh python python parallel
+- [45:08] evolutionary transformer. Pi cool um oh
+- [45:12] it's
+- [45:13] uh it's acting like it's a local hold on
+- [45:17] let me fix that okay so in these two
+- [45:19] files this is what we want to do we want
+- [45:20] toplace replace workspace with like
+- [45:23] nothing now we could ask the model like
+- [45:25] you could pass his error to the model
+- [45:26] but I don't have time for this so I'm
+- [45:28] going to do that save come over here and
+- [45:30] then basically yeah do the same thing uh
+- [45:33] just get rid of all wait did it not
+- [45:35] there we go okay save so then coming
+- [45:39] back over to here one more
+- [45:43] time okay so things are
+- [45:46] training things are laggy as
+- [45:49] heck and then we'll come over here I
+- [45:51] don't really see anything yet Island one
+- [46:02] oh my gosh it's murdering hold
+- [46:11] on okay I just can't help myself I have
+- [46:14] to go um but uh this is just way too
+- [46:17] addicting first of all what the heck
+- [46:20] this is not what I was expecting for a a
+- [46:23] dashboard um but this is like the
+- [46:25] coolest implementation of a dashboard
+- [46:28] that I could ever have expected I would
+- [46:30] never have even asked for something like
+- [46:31] this it does appear that the trend is
+- [46:33] going up um and then yeah what I want
+- [46:35] for the fitness history is to be both uh
+- [46:38] Best Fitness but also the average
+- [46:39] fitness I think that would be cool to
+- [46:41] track as time goes on
+- [46:44] um uh which okay that's easy um and then
+- [46:50] uh okay that's fine
+- [46:57] so hopefully it'll do all this we'll ask
+- [46:58] it to zip it one more time and then
+- [47:00] we'll run it and then that will be uh
+- [47:02] the end I just can't help myself this is
+- [47:04] the coolest visualization I I would
+- [47:05] never have made this visualization this
+- [47:07] is just so this is just so cool uh I I
+- [47:10] just I have to see this um very good uh
+- [47:15] okay
+- [47:22] great work space. zip to contain all
+- [47:28] of this
+- [47:36] awesome what is this about oh that's
+- [47:38] just historical
+- [47:41] okay okay so then we'll come over here
+- [47:43] and I'm going to grab
+- [47:45] this okay training dashboard run that
+- [47:49] and then run
+- [47:53] this and finally we will also pull up an
+- [47:56] H top
+- [47:57] make sure it's doing what we said to do
+- [48:01] please uh oh the dashboard's already
+- [48:04] running okay so run
+- [48:11] that oh this is this must be the uh
+- [48:15] average yeah it says so oh my gosh is
+- [48:19] this not just the cutest thing in the
+- [48:21] freaking world oh my God
+- [48:28] [Music]
+- [48:29] and it appears to be honoring our
+- [48:31] request that's
+- [48:39] cool oh my God I'm nerding out over this
+- [48:43] this is so
+- [48:44] cool oh my God this is the best
+- [48:46] dashboard I've ever seen in my life
+- [48:58] [Applause]
+- [49:02] oh my goodness this is this is so cool I
+- [49:04] I I I can't get over this dashboard that
+- [49:06] is so so cool so probably I would do
+- [49:10] maybe more generations to see if this
+- [49:11] keeps going up but uh I'm having way too
+- [49:13] much fun that is that is just so cool uh
+- [49:16] let's see uh parallel evolutionary
+- [49:18] Transformer somewhere in here we got to
+- [49:20] be able to pick wait where did it okay
+- [49:23] num cores that's fine um
+- [49:28] my dog is like licking the floor making
+- [49:30] nasty noises for
+- [49:31] us uh where is this
+- [49:35] uh what was it uh 50 Generations
+- [49:41] 50 maybe it's just Islands oh generation
+- [49:44] here we go uh can we do that so Island
+- [49:47] size 50 Generations 50 let's do um let's
+- [49:51] do 200 save that and then I wonder can I
+- [49:55] just restart I have no idea I I have no
+- [49:56] idea this is not my
+- [50:00] code it looks like we
+- [50:04] can dude I can't get over this chart
+- [50:07] this is the coolest um thing I wonder if
+- [50:09] it were going to ruin the chart though
+- [50:11] because in the past it looked like like
+- [50:13] if this is 15 out of 200 I wonder what
+- [50:16] happens to our
+- [50:17] chart we're going to find out
+- [50:26] come on buddy let's go
+- [50:37] outside dude I I love this this is just
+- [50:41] so fun this is so fun I would never have
+- [50:43] made a dashboard look like this here let
+- [50:45] me uh let's see here move this over a
+- [50:48] little bit and then maybe do like that
+- [50:51] fit my face in there could also just get
+- [50:53] rid of it yeah isn't that awesome oh my
+- [50:58] goodness I love this I just love this
+- [51:01] okay so uh I am kind of curious
+- [51:03] what's going to happen because we're
+- [51:04] going to run out of space here and I'm
+- [51:06] guessing this will not handle for that
+- [51:08] but I mean this is we are off to the
+- [51:11] this was this is like the this is way
+- [51:12] better than I thought it was ever going
+- [51:14] to be on this video I'm so excited for
+- [51:16] this kind of a visualization that is so
+- [51:19] cool I I hope you guys are enjoying this
+- [51:21] visualization as much as I am look at
+- [51:24] covering over this oh my goodness this
+- [51:26] is just like the coolest way dude I need
+- [51:27] to I need to learn more about how is it
+- [51:31] doing that like I need all my
+- [51:33] visualizations to be in the console from
+- [51:35] now on that is so cool is it moving it
+- [51:38] is
+- [51:39] moving oh man oh my
+- [51:44] God I just had no idea this was even an
+- [51:46] option see this is a perfect example of
+- [51:48] like yeah in some in some respects it's
+- [51:50] useful to be a programmer because you
+- [51:51] know like what's possible what's not
+- [51:53] possible but then in some respects it's
+- [51:55] like man I didn't even know this was
+- [51:56] possible I had no idea this is so cool
+- [51:59] this is so cool just I'm dying it's all
+- [52:02] with curses oh my
+- [52:09] goodness this is so this is mind blowing
+- [52:12] to me I wish we had I wish we had the
+- [52:14] full history because it it looks better
+- [52:16] because like now the gains are slowing
+- [52:18] down um but dang dude that's so cool
+- [52:23] that is so cool I hope you guys are
+- [52:25] loving this as much as I am
+- [52:27] I to be honest I don't even care if you
+- [52:28] don't uh that is that is super cool
+- [52:36] um it is predicting slightly better like
+- [52:39] it's getting closer and closer we do we
+- [52:41] have a lot of work to do still but like
+- [52:42] I said we were never going to solve this
+- [52:44] we were never going to solve that um but
+- [52:47] this is our this is way better than I
+- [52:49] thought it was ever going to be so that
+- [52:50] that is super cool um okay now for real
+- [52:53] I am going to cut it here I could spend
+- [52:55] oh my God I has spent hours at this I
+- [52:57] love this visualization that is so cool
+- [53:01] uh wow um yeah so anyways I'm going to
+- [53:04] stop here uh questions comments concerns
+- [53:07] suggestions whatever uh feel free to
+- [53:09] leave them below maybe I will have an
+- [53:11] update on this because I I definitely
+- [53:13] have to keep keep trucking along and I
+- [53:15] love this dashboard I I'm I'm going to
+- [53:16] like make everything I think I had been
+- [53:18] wanting to look into curses for some
+- [53:20] time now I just never had the
+- [53:22] opportunity
+- [53:24] um and like again this is a perfect
+- [53:26] example I will I would never have made
+- [53:28] this not in a million
+- [53:30] years but but the joy that has been
+- [53:34] brought to me by my uh agent making this
+- [53:37] for me is immense immense uh wow wow
+- [53:45] okay yeah that's all that's all for now
+- [53:48] I will see you guys in I don't know
+- [53:49] another you know a few days few months
+- [53:51] couple years who knows uh anyway till
+- [53:54] next time use some agents
+- [53:59] I I just couldn't help myself I'm back
+- [54:01] with some more bonus content um I need
+- [54:03] to know two things uh I need to know
+- [54:06] first of all rather than having the
+- [54:08] sliding window can we make it such that
+- [54:11] it has um all of the history so we can
+- [54:15] see it more like long large scale and
+- [54:18] then also I must
+- [54:20] know uh can we make this like a line now
+- [54:23] I know that this is just curses like
+- [54:26] it's not a graphing library but I really
+- [54:29] need to see lines like I need to know is
+- [54:32] this doable so um so that's what I'm
+- [54:34] going to do I'm I'm first I'm just going
+- [54:36] to say
+- [54:38] um looking really good uh could
+- [54:44] we uh change from a scatter plot to a
+- [54:49] line graph for both of these metrics by
+- [54:54] chance
+- [54:56] I think that would look better also
+- [55:00] could
+- [55:01] we um add values to the x
+- [55:08] axis x- axis uh generation number uh and
+- [55:13] then finally what was the other thing
+- [55:17] um finally could we
+- [55:21] show um all the steps all the steps
+- [55:25] rather than oops rather than just the
+- [55:31] um a sort of sliding
+- [55:35] window so let's code for 200 generations
+- [55:40] and when we get to 200 I want to be able
+- [55:46] to see from the beginning to end all in
+- [55:52] the chart
+- [55:54] makes sense
+- [55:56] all right let's see let's see if this
+- [55:58] can do it um uh I will be super excited
+- [56:02] if so I uh this this has this has uh
+- [56:05] changed so much for me I don't know if
+- [56:08] we can label the x-axis that would be
+- [56:10] crazy if we can um this is just so cool
+- [56:14] I'm I'm a real sucker for stuff like
+- [56:16] this um I'm like just just making like
+- [56:19] colors in the in the UI of like some
+- [56:21] sort of console stuff like that just
+- [56:23] tickles me but this is something else
+- [56:26] especially when it had like a legend and
+- [56:28] everything
+- [56:30] like come on man that is crazy I mean
+- [56:34] it's just
+- [56:37] crazy we'll see if it makes these
+- [56:38] modifications I I feel like the line
+- [56:41] graph is probably somewhat difficult
+- [56:43] like coating this is probably easy but
+- [56:45] making it be like lines I feel like
+- [56:47] would be pretty hard without I don't
+- [56:50] even know I mean I I know you could do
+- [56:51] it but you would almost need like some
+- [56:52] sort of graphing package or something I
+- [56:54] don't know but even this this is like
+- [56:56] really cool I'm just I'm really uh I'm
+- [56:59] tripping I'm going to need it to like
+- [57:00] always do this for me from like now on I
+- [57:03] don't want uh web- based UI anymore I
+- [57:06] need this um also I apologize my eyes
+- [57:09] are dry as
+- [57:12] heck we're having some crazy weather
+- [57:15] right now and it's getting very dry we
+- [57:17] we have like this massive cold front
+- [57:18] coming in um okay
+- [57:21] so um cool so I think it's done great
+- [57:26] let's go ahead and zip all that up
+- [57:30] please into
+- [57:32] workpace uh that
+- [57:35] zip very good very good very
+- [57:38] good
+- [57:40] five oh okay I think okay that makes
+- [57:43] sense okay that'll make
+- [57:48] sense very good um I me let's just see
+- [57:51] if it works uh oops what happened here
+- [57:53] oh okay anyway uh
+- [57:56] blah all right wish us luck everybody
+- [58:02] okay I'm not sure what I'm seeing
+- [58:05] here I mean that's not terrible I was
+- [58:08] really hoping to
+- [58:10] like have slashes be used like to notch
+- [58:14] up use a slash I think that would have
+- [58:15] been pretty cool and then I'm not sure
+- [58:19] what's happening down here because it
+- [58:21] like was modifying that that's kind of
+- [58:23] odd um
+- [58:28] maybe we'll go back to the scatters I'm
+- [58:30] not really
+- [58:41] sure it's just so cool I just can't stop
+- [58:44] myself from uh tinkering with this and I
+- [58:47] don't know it's just it's what makes it
+- [58:48] so much fun is like it gets you straight
+- [58:50] to the the fun of programming and again
+- [58:53] I think I think it probably varies by
+- [58:55] who you know who and why what you know
+- [58:57] why did you learn to program do you like
+- [58:59] to program or do you just like to build
+- [59:00] stuff and like I just want to build
+- [59:02] stuff and uh this just makes it really
+- [59:05] fun to do so because now okay like I
+- [59:07] just I'm trying to answer some questions
+- [59:09] you know so like this helps me to first
+- [59:11] of all see okay I can actually see like
+- [59:13] okay there's a little bit more of a
+- [59:14] trend going on here um and now I'm
+- [59:18] starting to wonder I mean this is
+- [59:19] running really fast as a parallel
+- [59:21] process now too and so like if we check
+- [59:24] uh htop real quick
+- [59:27] um yeah we got we got plenty of of cores
+- [59:32] to dedicate to the cause so we could go
+- [59:35] longer we could add a much even bigger
+- [59:38] population we could add way more
+- [59:39] exploration all that so I think that's
+- [59:42] probably what I would likely do next um
+- [59:47] please don't expect uh more bonus
+- [59:49] content though because I I really I have
+- [59:50] to stop at some point I just have to but
+- [59:52] I mean look at this curve I mean dang it
+- [59:54] just it really uh you know it's begging
+- [59:56] to like continue onward
+- [59:59] honestly I got to do more than 200
+- [60:02] apparently oh man this is so addicting
+- [60:05] uh anyway yeah agents are awesome yeah
+- [60:07] that's just so cool I think we probably
+- [60:10] need to put the
+- [60:14] um uh the legend like down in the bottom
+- [60:17] right you know like that's probably a
+- [60:18] better spot for it or like outside the
+- [60:20] graph a little bit or something uh or
+- [60:22] even like up here like in the in this
+- [60:24] little title but uh overall uh yeah
+- [60:28] that's pretty cool there's a very clear
+- [60:30] Trend here I would keep going I would
+- [60:32] look possibly even further into what is
+- [60:35] Fitness and all that make sure that's
+- [60:37] actually still logical uh we probably
+- [60:39] want more than four species I don't know
+- [60:41] if that's like the island concept or
+- [60:43] what so I'd probably want to look more
+- [60:44] into that but again instead of like
+- [60:46] looking at the code I mean directly
+- [60:48] looking at the code you would just ask
+- [60:49] the agent um you know hey what's going
+- [60:52] on here why is it only four species oh
+- [60:53] it's because the okay let's have more
+- [60:55] and like let's have more uh mutation
+- [60:58] like you you would keep going from here
+- [61:00] um but I mean right now we're actually
+- [61:01] on a pretty interesting track like these
+- [61:03] these uh predictions aren't exactly uh
+- [61:06] perfect but if I recall right we did not
+- [61:08] reward for ask not or yeah we did not
+- [61:10] reward for like straight up characters
+- [61:13] like e j e all that like the model is
+- [61:15] just learning that that's probably more
+- [61:17] likely what we're looking for and even
+- [61:20] that that's cool um I didn't think that
+- [61:22] this would get this far to be honest
+- [61:24] with you so uh yeah that's awesome that
+- [61:27] is just so cool and I love this curses
+- [61:29] oh man that just that really did that
+- [61:31] like made my day so okay I really should
+- [61:34] stop it here uh otherwise this will be
+- [61:36] yet again another like 5 10 hour video
+- [61:38] so anyways that's all for now
+- [61:54] bye for

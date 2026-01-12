@@ -1,0 +1,283 @@
+---
+title: "Transcript: TISRD930_qc"
+video_id: "TISRD930_qc"
+video_url: "https://www.youtube.com/watch?v=TISRD930_qc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:09:11"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: TISRD930_qc
+
+- URL: https://www.youtube.com/watch?v=TISRD930_qc
+- Retrieved at: 2025-12-30T10:56:36+09:00
+
+## Text
+
+- [00:00] These days, AI can almost do anything.
+- [00:03] It can help you code out fullon
+- [00:05] applications autonomously. You can run
+- [00:07] deep research on complex concepts,
+- [00:10] automate workflows, and even control
+- [00:12] your browser like a real digital worker.
+- [00:14] But the truth is simple. Nothing brings
+- [00:17] all these abilities together in one
+- [00:19] place. Nothing acts as a single agent
+- [00:21] that can think, [music] build, research,
+- [00:23] and execute to keep working long after
+- [00:26] you've logged off. Now, imagine an AI
+- [00:29] that does exactly all of that. An agent
+- [00:32] that can build full-on applications,
+- [00:34] perform multi-step tasks on the web,
+- [00:36] write detailed reports, automate your
+- [00:39] computer, and even run on its own
+- [00:41] schedule with background chron jobs. It
+- [00:44] wakes up, browses the internet, gathers
+- [00:46] new data, updates dashboards, refreshes
+- [00:49] intelligence, and triggers actions
+- [00:51] completely on its own. That is exactly
+- [00:54] what Deep Agent by Abacus AI can do. An
+- [00:58] all-in-one autonomous AI agent system
+- [01:01] that works like a full team, operates
+- [01:04] 24/7, and handles everything without
+- [01:06] lifting a single finger. Just take a
+- [01:08] look at this demo where Deep Agent was
+- [01:10] asked to build a fullon live dashboard
+- [01:13] for verified startup funding news. It
+- [01:15] generated the entire dashboard where it
+- [01:17] created the backend to pull data from
+- [01:19] trusted sources and deployed autonomous
+- [01:22] scraping agents to gather information.
+- [01:24] It is then scheduling these background
+- [01:26] agents to refresh task so that the
+- [01:29] dashboard stays upto-date with
+- [01:31] information on a daily basis where it
+- [01:33] finds funding news on a recursive
+- [01:36] 24-hour basis that runs automatically
+- [01:39] and keeps itself updated without any
+- [01:41] manual work. Here is another example of
+- [01:43] deep agent in action. This one is pretty
+- [01:44] wild cuz it is where it is automating a
+- [01:47] full-on browserbased workflow. It was
+- [01:50] prompted to manage the invoices from
+- [01:52] multiple sources and condense the
+- [01:54] information into a Google sheet. E page
+- [01:56] handled the entire process of navigating
+- [01:59] the entire site, collecting the
+- [02:01] invoices, extracting the key details and
+- [02:04] adding them into a clean, organized
+- [02:06] sheet. It even generated a dashboard to
+- [02:08] visualize the data that was sent into a
+- [02:11] breakdown email through Gmail. Finally,
+- [02:14] it updated the Google sheet with a
+- [02:15] summarized view of all the invoice
+- [02:17] totals and the entire workflow ran end
+- [02:20] to end with no manual step needed.
+- [02:22] Before we get started, I just want to
+- [02:24] mention that you should definitely go
+- [02:25] ahead and subscribe to the world of AI
+- [02:28] newsletter. I'm constantly posting
+- [02:29] different newsletters on a weekly basis.
+- [02:32] So, this is where you can easily get
+- [02:34] up-to-date knowledge about what is
+- [02:36] happening in the AI space. So,
+- [02:38] definitely go ahead and subscribe as
+- [02:40] this is completely for free. This is the
+- [02:42] capability of Avacus AI's deep agent,
+- [02:45] the powerful general agent that can do
+- [02:47] almost anything. This is something that
+- [02:50] not only gets you access of the
+- [02:52] capabilities of this unified general
+- [02:54] agent, but you also get access to chat
+- [02:57] lm. This is a way for you to access
+- [02:59] state-of-the-art models like the new GPT
+- [03:02] models or the new Sonnet models all
+- [03:04] directly in one unified platform. You
+- [03:07] also have the ability to access Abacus
+- [03:09] AI's desktop app. This is their AI
+- [03:12] coding agent that also has a built-in
+- [03:15] desktop listener for real-time AI
+- [03:17] meeting help. It also is a
+- [03:19] state-of-the-art number one ranked
+- [03:21] coding agent on Terminal Bench, scoring
+- [03:23] a 62.3 percentage, which is one of the
+- [03:27] best AI coding agents available that can
+- [03:29] help you build almost anything. And with
+- [03:32] all of these different tools combined,
+- [03:34] you have one of the best workflows for
+- [03:36] using AI in your day-to-day tasks. And
+- [03:39] the craziest thing is is that all of
+- [03:41] this is available for $10 per user build
+- [03:44] monthly. With $10, you can access all
+- [03:46] the suite of tools that Abacus AI
+- [03:48] provides, which is just insane. So to
+- [03:51] get started, use the link in the
+- [03:52] description below and head over to
+- [03:53] Abacus AI's website and you can click on
+- [03:56] get started to create an account. After
+- [03:58] signing up or logging in, you're going
+- [04:00] to be then greeted with the main
+- [04:01] dashboard of Deep Agent. This is where
+- [04:03] you can interact with this unified AI
+- [04:06] agent to accomplish any task based off
+- [04:08] the natural language description that
+- [04:10] you give it. You can have it build out
+- [04:12] apps, powerpoints, use it for browser
+- [04:14] automation, create chat bots, AI
+- [04:17] workflows, and so much more. The options
+- [04:19] are truly endless. And to showcase how
+- [04:22] powerful Deep Agent is, I can simply go
+- [04:24] ahead and request it to build something
+- [04:26] like a stock insights dashboard for Meta
+- [04:28] and Nvidia. This is where it is going to
+- [04:31] be able to aggregate the latest news,
+- [04:33] analyzes and market trends from credible
+- [04:36] web sources. This is where I wanted to
+- [04:38] include sections for price movement,
+- [04:40] analyst recommendations, social
+- [04:42] sentiment, and emerging trends affecting
+- [04:44] each stock. Now, the reason why I'm
+- [04:47] doing this is because I want deep agent
+- [04:49] to write the backend, design the
+- [04:50] interface, and I also wanted to perform
+- [04:53] the research and even generate the daily
+- [04:55] recommendations based off of the fresh
+- [04:57] indications. You can see right here it
+- [05:00] is creating a rough plan as to how it's
+- [05:02] going to accomplish this. And if you
+- [05:05] validate this, you can tell it to
+- [05:06] continue forward or you can tweak
+- [05:08] certain components of this. I'm using
+- [05:10] the new DP agent feature where it is
+- [05:12] going to allow the app that it creates
+- [05:14] to refresh itself autonomously every
+- [05:17] single day at 9:00 a.m. PTD. The reason
+- [05:20] why is because this is a new feature
+- [05:23] that deep agent has integrated within
+- [05:26] its platform where it can recursively
+- [05:29] work on gathering new data, scraping new
+- [05:32] contents and it can even update visuals
+- [05:34] and push out clean daily summaries for
+- [05:36] you. Right now it is thinking to create
+- [05:38] a plan and it's going to execute it by
+- [05:41] developing the fullon structure for it.
+- [05:43] It looks like it has started working on
+- [05:46] the research phase where it is working
+- [05:48] on using multiple sources with its deep
+- [05:51] research capabilities to get the right
+- [05:53] contents needed to build out this
+- [05:55] dashboard. It is then going to work on
+- [05:57] coding out the whole on dashboard and
+- [05:59] then deploying AI agents to execute the
+- [06:02] task that we had told it to like
+- [06:04] performing the research and even
+- [06:06] generating the daily recommendations
+- [06:08] based off the indicators. Looks like it
+- [06:10] is now live streaming the code being
+- [06:13] generated for each and every component
+- [06:15] of this app to be functional from the
+- [06:17] back end all the way to coding out the
+- [06:19] front end. And then after it's finished,
+- [06:21] you can take a look at the preview of it
+- [06:23] once it has finished creating the app.
+- [06:25] You can even get a log and then deploy
+- [06:27] it directly with a single click. And say
+- [06:29] if you're interested in downloading all
+- [06:31] the files, this is a way for you to
+- [06:33] download a zip archive of this folder.
+- [06:35] And then you can start working on
+- [06:37] iterating on it locally if needed, maybe
+- [06:39] even with the desktop coding editor that
+- [06:42] Abacus AI provides. And there we go.
+- [06:45] Just take a look at this dashboard which
+- [06:47] looks absolutely amazing guys. This is a
+- [06:49] productionready dashboard that has live
+- [06:52] insights on these different stocks like
+- [06:54] Meta as well as Nvidia showcasing the
+- [06:56] market cap, volume, PE ratio and the
+- [06:59] current price chart. You can also get a
+- [07:01] good recursive analysis on the market
+- [07:03] news. So every single day it is going to
+- [07:06] deploy the AI agents to recursively
+- [07:08] extract contents and it will even source
+- [07:10] it to the correct source as to where it
+- [07:13] found it. and it actually validates the
+- [07:15] source as well cuz there's other agents
+- [07:17] that run in the background to make sure
+- [07:19] that everything is functional in that
+- [07:21] case. There's pricing charts that have
+- [07:23] been generated market news with the
+- [07:25] latest headlines, AI insights, which is
+- [07:28] pretty cool because it gives you good
+- [07:29] analysis on if the stock is a buy or
+- [07:32] not. You can also track performance
+- [07:34] metrics as well as trends. And then if
+- [07:37] needed, you can refresh the data, which
+- [07:38] is where it's going to deploy the agents
+- [07:40] to recursively find the new data that is
+- [07:44] going to be updated upon this dashboard.
+- [07:46] And something cool that you can also do
+- [07:48] is have it so that it can actually work
+- [07:51] on sending you a condensed report of the
+- [07:53] findings every single day. So, if you
+- [07:55] want it after 9:00 a.m. PTD, it can send
+- [07:58] you a good condensed version by having
+- [08:00] it set up through an email account. If
+- [08:03] you like this video and would love to
+- [08:04] support the channel, you can consider
+- [08:06] donating to my channel through the super
+- [08:08] thanks option below. Or you can consider
+- [08:11] joining our private Discord where you
+- [08:13] can access multiple subscriptions to
+- [08:15] different AI tools for free on a monthly
+- [08:17] basis, plus daily AI news and exclusive
+- [08:20] content, plus a lot more. This is just
+- [08:22] one simple example of what you can do
+- [08:24] with deep agent. There's endless
+- [08:26] possibilities with this. So, I highly
+- [08:28] recommend that you take a look at this
+- [08:29] because you have the ability to access
+- [08:31] the coding agent, the general AI agent,
+- [08:34] as well as chatm, which lets you access
+- [08:36] all the state-of-the-art models in one
+- [08:39] unified platform. This is the capability
+- [08:41] of AOCUS AI suite of tools, and I highly
+- [08:44] recommend that you take a look at it
+- [08:45] with the links in the description below.
+- [08:47] Thanks to them for sponsoring today's
+- [08:48] video. But with that thought, guys,
+- [08:50] thank you guys so much for watching.
+- [08:51] Have an amazing day. Spread positivity.
+- [08:53] Make sure you go ahead and subscribe to
+- [08:54] the second channel. Join the newsletter.
+- [08:56] Join our private Discord. Follow me on
+- [08:58] Twitter. And lastly, make sure you guys
+- [09:00] subscribe, turn on notification bell,
+- [09:01] like this video, and please take a look
+- [09:03] at our previous videos because there is
+- [09:04] a lot of content that you will truly
+- [09:06] benefit from. But with that thought,
+- [09:07] guys, have an amazing day. Spread
+- [09:09] positivity, and I'll see you guys really
+- [09:11] shortly. He suffers.

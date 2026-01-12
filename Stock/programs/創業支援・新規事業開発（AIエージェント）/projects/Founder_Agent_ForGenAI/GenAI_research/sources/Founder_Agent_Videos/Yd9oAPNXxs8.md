@@ -1,0 +1,309 @@
+---
+title: "Transcript: Yd9oAPNXxs8"
+video_id: "Yd9oAPNXxs8"
+video_url: "https://www.youtube.com/watch?v=Yd9oAPNXxs8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:10:55"
+tags:
+  - "AI"
+  - "Agents"
+topics:
+  - "AI Agents"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: Yd9oAPNXxs8
+
+- URL: https://www.youtube.com/watch?v=Yd9oAPNXxs8
+- Retrieved at: 2025-12-30T11:19:27+09:00
+
+## Text
+
+- [00:00] And here we have it. Damn, that looks
+- [00:01] good, right? So, look at this background
+- [00:03] image. Titan bear path of XR2 build
+- [00:06] guide. They have the rage bar here.
+- [00:08] Today, uh I wanted to try out a kind a
+- [00:10] new workflow using claw code where we
+- [00:12] integrate sub agents. And I wanted to
+- [00:15] kind of explain how this works. So,
+- [00:17] basically, I want the user to do like an
+- [00:20] input. And this could be something as
+- [00:23] we're going to do in this video. create
+- [00:24] a cool uh one pager that has my P path
+- [00:29] of exile build or something like that.
+- [00:31] So, we're going to send that user input
+- [00:33] to the main agent and the main agent has
+- [00:35] control over these four sub agents.
+- [00:39] Okay, so one sub agent is the image
+- [00:42] generator that's going to create a spec.
+- [00:44] So, this is more like a specd driven or
+- [00:46] image driven way of writing code as you
+- [00:48] will see soon. And this also has like a
+- [00:51] style agent that uses files from the
+- [00:54] inspiration files we can give it. This
+- [00:56] could be reference images to Nano Banana
+- [00:58] Pro. And we're going to use a screenshot
+- [01:01] agent that is going to screenshot the
+- [01:03] image. So the claude uh code made agent
+- [01:06] can give feedback uh of how the page is
+- [01:09] looking. And we have the iteration agent
+- [01:11] that is going to work more on the
+- [01:13] iteration loop. So we're going to do a
+- [01:15] three times mandatory iteration loops to
+- [01:18] kind of improve the page and we're going
+- [01:20] to suggest new features and stuff from
+- [01:22] the iteration agent. So this is like a
+- [01:24] closed loop where we uh recursively not
+- [01:28] really but improve the page over time
+- [01:31] and after the three iteration loops we
+- [01:33] can say yeah I'm happy or we can
+- [01:36] continue. So I think this is a bit
+- [01:38] confusing but you will see as in in my
+- [01:40] workflow now how this works. Okay. So
+- [01:42] let me show you how this works now. So
+- [01:44] if we go to claude right uh remember we
+- [01:46] had our sub agents. So I'm going to show
+- [01:48] you those. If you go slash agents you
+- [01:50] can see here is all our sub agent. We
+- [01:52] have the style agent, the screenshot
+- [01:54] agent, the image generator agent and the
+- [01:57] iteration agent. [music] So what is cool
+- [02:00] about cloud code is that we can also
+- [02:01] edit these agents. If I wanted this
+- [02:03] agent to just run the let's say the
+- [02:06] haiku model, right? I could do that. Uh,
+- [02:09] and we can also do inherent from parent,
+- [02:11] but we're just going to select the opus
+- [02:13] model for this agent. I'm just going to
+- [02:15] keep it like this. And remember, I said
+- [02:18] we also need to add some inspiration.
+- [02:22] So, in this case, I have added uh an
+- [02:26] inspiration of a path of exile skill.
+- [02:29] Uh, Path of Exile skill and I have a
+- [02:31] Path of Exile. Yeah, it's just a styling
+- [02:34] for a new patch. Okay. And I have some
+- [02:36] information about the build I want to
+- [02:38] play.
+- [02:39] So that is all the inspiration uh
+- [02:41] content I have given kind of the agents
+- [02:43] here. So basically all we need to do now
+- [02:46] is just start a prompt because we have
+- [02:48] updated our claw.md so it kind of knows
+- [02:51] about this workflow. So I'm just going
+- [02:53] to give this a prompt now. So I'm just
+- [02:55] going to do create a insane cool page
+- [02:58] for a Titan bear build for Path of Exile
+- [03:00] 2. Send that. And now we should know
+- [03:04] what to do. So you can see now the first
+- [03:06] thing we need to do is uh yeah uh search
+- [03:10] the inspiration page. Yeah, we need to
+- [03:12] find the files. We probably need to read
+- [03:14] those. We are reading all the
+- [03:16] inspirational
+- [03:17] uh content we have given this um this
+- [03:21] setup that was the three images and the
+- [03:23] build.txt.
+- [03:25] I can see a dot atmospheric POV style
+- [03:28] with druid character blood magic
+- [03:31] uh a couple of skills. Right, let's
+- [03:33] create the epic page following the
+- [03:35] workflow. So now we kind of come into
+- [03:37] the part where we need to use the sub
+- [03:39] agents. You can see the claw code is
+- [03:41] launching the image generator sub agent
+- [03:43] here that is going to generate a Titan
+- [03:46] bear spec. So this is an image. So we're
+- [03:48] using Nano Banana Pro to create a spec
+- [03:51] of the page in image form. This is kind
+- [03:54] of more of the
+- [03:56] uh an image is worth more than a
+- [03:58] thousand words kind of thinking part. So
+- [04:02] let's generate this uh spec image and we
+- [04:04] can look it up before we move on. So now
+- [04:07] you can see we have created our first
+- [04:09] spec part. So if we go back to cursor
+- [04:11] now and we take a look at this. So this
+- [04:14] is the spec we are going to send to uh
+- [04:17] the the main agent cloud code. So here
+- [04:20] we have a structure in the top left.
+- [04:22] Here's the kind of the structure of the
+- [04:24] page. We have some design tokens. We
+- [04:26] have some interactions and what by using
+- [04:29] Nano Banana Pro you can see we get this
+- [04:31] clear text and every text is readable
+- [04:34] here. So we get a bunch of information
+- [04:37] inside just one image and this is kind
+- [04:39] of the idea. So you can see we have the
+- [04:41] cards here Furious Slam Savage Fury and
+- [04:44] we can compress a lot of information
+- [04:47] about our page into just one image by
+- [04:49] using Nano Banana Pro. And now you can
+- [04:52] see the image is going to read this
+- [04:53] output. And from this output, we're
+- [04:57] going to start creating the page. And
+- [04:59] hopefully we can use the style agent
+- [05:01] later to actually do some um yeah, add
+- [05:05] some assets. So you can see we're going
+- [05:07] to cue the style agent now to generate
+- [05:09] some assets for this page. And it's
+- [05:11] going to be interesting to see how well
+- [05:13] these assets turn out that we're going
+- [05:15] to fill in the page. So, I'm just going
+- [05:17] to let this run a bit more and take you
+- [05:19] back when we hopefully have something
+- [05:21] here. Okay. So, you can see now we have
+- [05:23] generated our first asset. And if you go
+- [05:26] to the asset here, you can see uh not
+- [05:28] here. Here is the bare hero image. Okay,
+- [05:32] that's pretty cool, right? So, you can
+- [05:34] see it's clearly inspired from this art
+- [05:36] style here that we put in inspiration.
+- [05:39] And we get this bear here that has these
+- [05:41] cool flames. And I really like it. I
+- [05:44] hope we can use this as an asset in the
+- [05:46] page. And you can see now, yeah, we
+- [05:48] generated a new asset. This is the scary
+- [05:51] fury furious slam skill. Okay, I like
+- [05:55] it. I think it's pretty cool. And this
+- [05:58] kind of reflects on this art style. I
+- [06:00] don't know. I guess it's fine. But uh
+- [06:04] yeah, it's it's working. At least that's
+- [06:06] what I wanted to see. And now we're
+- [06:08] going to create the pounds skill. And
+- [06:10] after that, hopefully we can continue
+- [06:12] building out the page and we can have
+- [06:14] something that we can check out soon.
+- [06:16] Okay, so just a quick update. Now we
+- [06:18] should have all the assets. We have the
+- [06:20] background that looks great. We have the
+- [06:23] items. This is the weapon talisman.
+- [06:25] Okay. Uh we have a couple of skill
+- [06:28] items. We have the fury mountain skill
+- [06:31] and the savage fury, I think. Also
+- [06:34] looking pretty good. So now we're just
+- [06:36] going to continue and starting to
+- [06:38] implement these assets into our actual
+- [06:40] landing page and hopefully this works.
+- [06:43] Now you can see the page is built. Let
+- [06:45] me take a screenshot to verify. The page
+- [06:47] looks epic. I can see all of this. Uh
+- [06:50] there was a small error. So we try to
+- [06:52] fix that. But if we go to kind of the
+- [06:55] screenshot now this is what we got and
+- [06:57] you can see yeah there is an error at
+- [06:59] top here but we could fix that. But the
+- [07:02] main thing is to see that we are using
+- [07:04] the assets on the core skills. We have
+- [07:05] furious slam, pounds, fury of the
+- [07:07] mountain. All the assets we created are
+- [07:10] kind of inserted here. So I'm super
+- [07:11] happy about that. Primal rotation. We
+- [07:14] have some rage mechanics. We have a
+- [07:16] placeholder for an asset maybe. So yeah,
+- [07:18] this is looking good. And now we are
+- [07:20] kind of back on the iteration loop. We
+- [07:22] have run the iteration agent. We have
+- [07:24] started to generate some new assets
+- [07:26] maybe. And it's going to be super
+- [07:28] interesting to see how this turns out
+- [07:29] now. Okay. Okay, so let me just update
+- [07:31] you on the second iteration loop. Here
+- [07:33] are some more assets we have created.
+- [07:35] This is the skill tree. Here is the
+- [07:37] icon. This is a rage. I think this was
+- [07:40] pretty cool. This is the rage bar. I
+- [07:42] like this asset. So hopefully we can
+- [07:44] find a way to integrate these assets
+- [07:46] into the page now by using the iteration
+- [07:49] agent. You can see we are trying to
+- [07:51] update the page now. That looks pretty
+- [07:52] good. And let me check the asset
+- [07:55] generation to also update the navigation
+- [07:57] link on the main build page. There we
+- [07:59] could probably we going to use the rage
+- [08:02] uh bar there maybe let's see uh but
+- [08:04] again I'm going to take you back when we
+- [08:06] have done some more implementations here
+- [08:08] to see how this turns out okay so we
+- [08:10] have completed iteration two so if we go
+- [08:13] here now and let's check out the skill
+- [08:15] tree screenshot so this is the
+- [08:17] screenshot we took of uh the second
+- [08:19] iteration this is the skill tree page we
+- [08:22] have the rage generation slam damage
+- [08:24] area of effects ability and I kind of
+- [08:27] like all the icons here So, that looks
+- [08:29] pretty cool. But, uh, for now, I think
+- [08:31] we kind of get the idea here. We're
+- [08:33] going to continue with the last
+- [08:34] iterations and I'm going to take you
+- [08:36] back when we have kind of the final page
+- [08:38] and we can explore everything. Look at
+- [08:40] all the assets we generated uh for this
+- [08:43] um, yeah, how would you call it? Like an
+- [08:45] imagriven
+- [08:47] uh, workflow for agents, something like
+- [08:50] that. I'm not quite sure uh where we can
+- [08:52] generate assets on the fly, but uh, so
+- [08:55] far I've been super impressed by this
+- [08:56] workflow. So, let's just skip to the
+- [08:58] final results. And here we have it.
+- [09:01] Damn, that looks good, right? So, look
+- [09:02] at this background image. Titan bear,
+- [09:05] Path of Exile 2 build guide. They have
+- [09:06] the rage bar here. And if you scroll
+- [09:09] down, you can see we have all the
+- [09:11] assets, the core skills. We have some
+- [09:13] small animations, fury of the mountains,
+- [09:15] our fury pounds, furious slam, we have
+- [09:17] the rotation, we have some essential
+- [09:19] gear. Um, okay. I don't know about that,
+- [09:21] but we have uh also up an hour here. We
+- [09:24] can go to the skill tree. Yeah, this is
+- [09:27] not accurate, but you kind of get the
+- [09:28] point. We have some uh clusters here.
+- [09:31] So, this is the key clusters with all
+- [09:33] the custom assets. Here are the mountain
+- [09:36] splitter. This is a Titan ascendancy we
+- [09:39] want to pick. That looks pretty neat,
+- [09:41] too. And we have some leveling
+- [09:43] progression here. Uh up to 90. Okay,
+- [09:46] that's pretty pretty accurate. If you
+- [09:49] check out the skill gems here, we have
+- [09:52] something. We have all the small uh did
+- [09:55] we get any assets here? I don't think
+- [09:57] so. Uh I think we did an asset for that,
+- [10:00] but these these are not working. But we
+- [10:02] still have kind of the gem priority. We
+- [10:04] can check out the gear page.
+- [10:07] Uh here we have some body armor, helmet,
+- [10:10] what we want to go for here. And yeah,
+- [10:13] some flags setup, stat priority, league
+- [10:17] start, best in slot. Overall, I think
+- [10:20] this is a super cool way of working. Uh,
+- [10:22] what I liked most was kind of the custom
+- [10:24] assets that we build based on the if you
+- [10:28] go here and we check out the
+- [10:30] inspiration. So, I guess it based it on
+- [10:32] kind of this art style, right? That was
+- [10:35] the inspiration. If you kind of look at
+- [10:36] the bear in the background here and I
+- [10:38] think this is a super cool way to use
+- [10:41] this sub agents and I'm going to explore
+- [10:43] this more. But yeah, that was what one I
+- [10:46] wanted to do today. And I think it
+- [10:47] turned out pretty good. So yeah, super
+- [10:49] happy about this. Maybe this gave you
+- [10:51] some inspiration of what you can do with
+- [10:53] this sub chance. Thank you for tuning
+- [10:55] in. See you tomorrow. Have a great day.

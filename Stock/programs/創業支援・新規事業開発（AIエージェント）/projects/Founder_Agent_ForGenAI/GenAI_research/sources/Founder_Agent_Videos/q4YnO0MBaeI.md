@@ -1,0 +1,393 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=q4YnO0MBaeI"
+video_id: "q4YnO0MBaeI"
+video_url: "https://www.youtube.com/watch?v=q4YnO0MBaeI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=q4YnO0MBaeI
+  - Retrieved at: 2025-12-30T16:23:27+09:00
+  - [00:07] Hi, I'm Russ from Weights and Biases and
+key_points:
+  - "- [00:33] each of these dimensions are key"
+  - "- [00:41] issues need to be addressed and"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: q4YnO0MBaeI
+
+- URL: https://www.youtube.com/watch?v=q4YnO0MBaeI
+- Retrieved at: 2025-12-30T16:23:27+09:00
+
+## Text
+
+- [00:07] Hi, I'm Russ from Weights and Biases and
+- [00:09] today I'll be discussing how W&B
+- [00:11] training serverless RL powered by
+- [00:13] Coreweed can improve AI agent
+- [00:16] performance without requiring an
+- [00:18] enormous amount of time, resources, or
+- [00:20] deep technical expertise.
+- [00:23] No matter what type of AI application
+- [00:25] you're building, it's always critical to
+- [00:28] track accuracy, latency, cost, and
+- [00:30] safety. Performance measurements along
+- [00:33] each of these dimensions are key
+- [00:34] indicators of whether your application
+- [00:36] is closer to prototype or production.
+- [00:40] Depending on which performance-based
+- [00:41] issues need to be addressed and
+- [00:43] available developer skill sets, there
+- [00:46] are a number of techniques available to
+- [00:48] improve application behavior.
+- [00:50] Swapping LLMs, experimenting with
+- [00:53] different rag content, and prompt
+- [00:55] engineering are three relatively easy
+- [00:57] and effective methods to move things
+- [00:59] closer to production readiness. But
+- [01:02] gains resulting from these techniques
+- [01:04] can often only get you so far.
+- [01:07] Post-training LLM using reinforcement
+- [01:10] learning is an effective way to
+- [01:11] fine-tune large language models for
+- [01:13] agentic tasks. Whereas supervised
+- [01:16] fine-tuning is ideal for improving
+- [01:18] instruction following, formatting, and
+- [01:20] domain grounding, reinforcement learning
+- [01:22] excels when optimizing for user
+- [01:24] preferences or complex outcome focused
+- [01:27] goals. Applying RL to an LLM is quickly
+- [01:31] becoming the preferred approach for
+- [01:33] improving overall AI application
+- [01:35] reliability, correcting specific
+- [01:38] mistakes identified during QA testing or
+- [01:41] in production, and building confidence
+- [01:43] in your application before production
+- [01:45] deployment. Until recently, the barriers
+- [01:48] to conducting reinforcement learning
+- [01:50] were significant. First of all,
+- [01:52] researching and comparing GPU providers
+- [01:54] to find the best fit and the best deal
+- [01:57] demands time and expert resources.
+- [02:00] Second, the process of developing
+- [02:02] effective RL scripts capable of
+- [02:04] achieving performance goals also
+- [02:06] requires skilled developers with a fair
+- [02:08] amount of time on their hands. Frankly,
+- [02:11] doing this right certainly was not a
+- [02:12] matter of hours or even days, but most
+- [02:15] likely weeks.
+- [02:17] Enter W&B training serverless RL. By
+- [02:21] addressing the two most significant
+- [02:22] challenges, this breakthrough approach
+- [02:24] to reinforcement learning lets you start
+- [02:26] experimenting with RL and improving AI
+- [02:29] application performance immediately.
+- [02:32] In addition to serverless RL that
+- [02:34] provides instant access to coreweave GPU
+- [02:37] capacity with elastic scaling and no
+- [02:39] provisioning W&B training also includes
+- [02:42] an integration with ART which stands for
+- [02:45] agent reinforcement trainer the popular
+- [02:48] open-source RL framework that improves
+- [02:50] agent reliability by allowing LLMs to
+- [02:53] learn from experience and Ruler the
+- [02:56] open-source universal verifier for RL
+- [02:59] rewards included through the art
+- [03:01] integration.
+- [03:02] With much of the resource inensive work
+- [03:04] previously required by reinforcement
+- [03:06] learning out of the way, just create
+- [03:09] your environment, write your agent code,
+- [03:11] and provide the scenarios you want to
+- [03:13] train on. Now, just kick off your
+- [03:16] training process using serverless RL as
+- [03:18] the backend for your ART training loop
+- [03:21] as your agent explores the environment,
+- [03:23] collects rewards, and updates the
+- [03:25] model's low rank adaptation or Laura
+- [03:28] weights.
+- [03:33] Serverless RL, ART, and Ruler remove the
+- [03:36] most common obstacles to reinforcement
+- [03:38] learning, allowing you to easily apply
+- [03:40] RL for post-training your LLMs. Weights
+- [03:43] and Biases industry first publicly
+- [03:45] available serverless RL not only makes
+- [03:48] getting started simple, it also handles
+- [03:51] scaling as your infrastructure demands
+- [03:53] grow or shrink and significantly lowers
+- [03:56] the cost of managing RL infrastructure
+- [03:58] on your own. and provides built-in
+- [04:00] observability for monitoring and
+- [04:02] debugging your training runs. To
+- [04:05] demonstrate serverless RL, we're going
+- [04:07] to use a multi- aent contact center
+- [04:09] we've built to help credit card
+- [04:11] customers of a consumer bank. Looking
+- [04:14] quickly at our workflow diagram here,
+- [04:16] once a verified user has engaged with
+- [04:18] our contact center, a planner agent in
+- [04:21] turn engages a number of other helper
+- [04:23] agents and tools to address the specific
+- [04:25] issue at hand. Our contact center has
+- [04:29] been optimized to manage costs, provide
+- [04:31] a positive, helpful customer experience,
+- [04:34] and handle common support questions
+- [04:37] using a combination of prompt
+- [04:38] engineering and rag content. But given
+- [04:41] that it's operating within the world of
+- [04:43] consumer finance, there are some issues
+- [04:45] that are just too critical, both for the
+- [04:48] customer and for the bank to leave to
+- [04:50] our AI agents on their own.
+- [04:53] Example scenarios where we'd like to
+- [04:55] connect customers with human agents
+- [04:56] include disputing a credit card
+- [04:59] transaction, account closure requests,
+- [05:01] or reporting fraudulent credit card
+- [05:03] transactions.
+- [05:05] For these higher risk and higher value
+- [05:07] scenarios, we need our multi-agent
+- [05:09] contact center to route customers to a
+- [05:11] human agent in the right department who
+- [05:14] can provide the proper support. Proper
+- [05:17] routing not only ensures the best
+- [05:18] possible experience for the customer, it
+- [05:21] also ensures increased productivity as
+- [05:23] the bank is making the most efficient
+- [05:25] and effective use of its valuable human
+- [05:28] resources. Because it's so important to
+- [05:30] send customers to a human agent in the
+- [05:32] appropriate department when urgent
+- [05:34] issues arise, we need to take every
+- [05:36] measure possible to improve the
+- [05:37] performance of our agents, especially
+- [05:39] our planner agent. As mentioned a moment
+- [05:42] ago, we've employed prompt engineering
+- [05:44] and refined our rag content as well as
+- [05:47] tried out a few different LLMs under the
+- [05:48] hood. As is often the case, we're
+- [05:51] optimizing here not only for accuracy
+- [05:53] but also latency and cost. Let's take a
+- [05:57] quick look at our evaluation results so
+- [05:59] far. at this stage focusing primarily on
+- [06:02] the performance of different LLMs
+- [06:04] including Sonnet 4, Gemini 25 flash
+- [06:07] light, a couple of OpenAI GPT models,
+- [06:11] and the Quen 3 14B Instruct model using
+- [06:14] W&B inference powered by Core.
+- [06:25] Right off the bat, we can see that our
+- [06:27] Sonnet 4 model is higher latency and
+- [06:29] more expensive, but also does the best
+- [06:33] job of routing customers to the proper
+- [06:35] department. In this evaluation, the
+- [06:38] Gemini model didn't perform quite as
+- [06:40] well as the GPT models in routing and
+- [06:42] human agent escalation,
+- [06:45] but it was faster and less expensive.
+- [06:49] And finally, we have our open- source
+- [06:51] Quen model, which performs predictably
+- [06:54] lower in some of the behavioral tasks,
+- [06:58] but looks fantastic when it comes to
+- [07:00] latency and cost. This is the perfect
+- [07:03] use case for RL fine-tuning. Let's see
+- [07:06] if we can improve our behavioral metrics
+- [07:08] using Qued while keeping latency and
+- [07:11] cost low. To help get you up and running
+- [07:14] with reinforcement learning, there are a
+- [07:16] number of notebooks and code samples
+- [07:17] available. You can find these by going
+- [07:20] to docs.wandb.ai/training
+- [07:23] and then following links to openpipe
+- [07:26] serverless RL quickart and GitHub repo.
+- [07:30] W&B serverless RL uses ART which stands
+- [07:33] for agent reinforcement trainer an
+- [07:35] open-source framework from openpipe for
+- [07:38] LLM reinforcement learning using group
+- [07:40] relative policy optimization or GRPO.
+- [07:44] We'll take a look at the RL code for our
+- [07:46] contact center agent in a moment but I
+- [07:49] think it's useful to quickly walk
+- [07:50] through the high-level RL workflow using
+- [07:53] one of the starter notebooks available
+- [07:54] on the openpipe website.
+- [07:57] This notebook also provides code for
+- [08:00] post- training a quen 314b model. The
+- [08:04] use case in this example is optimizing
+- [08:06] the LLM to more effectively search
+- [08:08] through emails and answer questions
+- [08:10] about them.
+- [08:13] First, it's necessary to set up the
+- [08:15] environment where the LLM can operate.
+- [08:18] In this case, the environment is a
+- [08:20] database containing the Enron email data
+- [08:22] set.
+- [08:25] Next, we define a model to be
+- [08:27] post-trained as the trainable model.
+- [08:30] This is where we specify the Quen model
+- [08:32] as our base model and also provide the
+- [08:34] name and project that will be used to
+- [08:36] track our reinforcement learning effort
+- [08:38] in W&B models.
+- [08:42] We then define our roll out which is a
+- [08:44] single episode of an agent performing
+- [08:46] its task. And based on the results,
+- [08:50] we also establish a correctness metric
+- [08:53] to indicate whether this email search
+- [08:55] agent has come up with the correct
+- [08:56] answer. Of course, in the case of our
+- [08:59] contact center agent, correctness is
+- [09:01] defined by whether or not our customer
+- [09:03] has been routed to the proper department
+- [09:05] and if appropriate, the conversation has
+- [09:07] been escalated to a human customer
+- [09:09] support agent.
+- [09:12] Now that we have our rollout set, we can
+- [09:14] set up ruler, our general purpose
+- [09:16] rewards function. Rather than requiring
+- [09:19] users to navigate the complexities of
+- [09:22] defining and redefining and dedicating
+- [09:24] an extraordinary amount of time
+- [09:26] specifically on the reward function,
+- [09:28] ruler analyzes the agents prompt to
+- [09:30] generate an LLM as a judge that's then
+- [09:33] used to rank multiple agent
+- [09:34] trajectories.
+- [09:36] Ruler requires no label data, expert
+- [09:39] feedback, or handcrafted reward
+- [09:41] functions.
+- [09:42] Art separates its functionality into a
+- [09:45] client and a back end. The client
+- [09:47] connects to your code and manages
+- [09:49] communication while the backend handles
+- [09:51] the heavy lifting of inference and
+- [09:53] training on a GPU. Of course, with
+- [09:56] serverless RL, we're only worried about
+- [09:58] the client while Coreweave
+- [10:00] infrastructure provides the back end.
+- [10:03] During training, the ART client runs
+- [10:05] agentic workflows, gathers data, assigns
+- [10:08] rewards, and then sends this information
+- [10:10] to the back end, which updates your
+- [10:12] model. This loop continues
+- [10:14] automatically, alternating between
+- [10:16] training and inference until your
+- [10:18] desired number of iterations is reached.
+- [10:21] The Lauras are low-rank adapters that
+- [10:23] you train, are automatically stored as
+- [10:26] artifacts in your W&B account and
+- [10:28] available for hosting on W&B inference.
+- [10:31] To use serverless RL for our contact
+- [10:34] center agent, we just need to adapt the
+- [10:36] collab a bit to focus on the appropriate
+- [10:38] performance optimizations, routing
+- [10:40] customers to the correct department, and
+- [10:42] escalating conversations to a human
+- [10:44] agent only when necessary.
+- [10:47] Looking at our serverless RL script,
+- [10:51] here's where we specify the scenarios
+- [10:53] data to be used as our training
+- [10:54] environment.
+- [10:57] Here's the correctness judge to judge
+- [10:59] the performance of our agent.
+- [11:02] our rollout function
+- [11:05] and our agents planner prompt,
+- [11:10] our training function.
+- [11:13] And finally, the main function, our
+- [11:15] entry point where we set our training
+- [11:17] run parameters and specify the customer
+- [11:19] issues data set stored in weave that
+- [11:22] contains our scenarios data. Once we've
+- [11:24] kicked off our serverless RL script, we
+- [11:27] can track its progress using W&B models
+- [11:29] for our model fine-tuning and W&B weave
+- [11:32] to observe the rollouts.
+- [11:34] The metrics that we're tracking most
+- [11:35] closely during our runs are route
+- [11:38] correct, send to human correct, and the
+- [11:41] ruler score to see the scores assigned
+- [11:43] during each step of our post training
+- [11:45] run. You can see all of our serverless
+- [11:48] RL runs here on the left. As is always
+- [11:51] the case in the AI development workflow,
+- [11:53] iteration and evaluation are key. We set
+- [11:57] up our RL runs, record and track the
+- [11:59] metrics, submit the train Lauras for
+- [12:02] further evaluation using weave, and
+- [12:04] iterate until we get the performance
+- [12:06] results that we're looking for.
+- [12:09] As you can see from the charts,
+- [12:11] we begin our testing with a smaller
+- [12:13] number of steps. And once we start
+- [12:16] seeing some promising results,
+- [12:18] increasing the number of steps is one of
+- [12:20] many configuration parameters we have
+- [12:22] available to try to further optimize the
+- [12:24] end result.
+- [12:26] We have plenty of post-train models now
+- [12:28] available for further testing. And I'm
+- [12:30] encouraged by the positive trending and
+- [12:32] ruler score during this training run
+- [12:34] here. Let's jump over to weave and run
+- [12:37] an evaluation on this model to see how
+- [12:39] well it performs compared to the others.
+- [12:42] Our goal in this exercise is to use RL
+- [12:45] post training to bring our open-source
+- [12:46] model up to par with these much more
+- [12:48] expensive and to some extent less
+- [12:51] flexible proprietary models.
+- [12:57] Looking at our new evaluation results
+- [12:59] that include our fine-tuned model here
+- [13:02] in orange, we can see we've still got
+- [13:04] most of the proprietary field beat on
+- [13:06] latency and all of them on cost.
+- [13:10] Our route score number has improved
+- [13:12] significantly over the untrained Quen
+- [13:14] model, but is still a tad behind our
+- [13:16] proprietary models. The send to human
+- [13:19] score, however, looks great. Given that
+- [13:22] making the most productive use of our
+- [13:24] human agents time as our primary goal,
+- [13:26] evaluating overall performance across
+- [13:29] different models gives us the results we
+- [13:30] need to confidently deploy our
+- [13:32] fine-tuned Quen model into production.
+- [13:35] Of course, we'll continue to not only
+- [13:37] observe our post-trainqu model in
+- [13:39] action, but also we'll continue to tune
+- [13:42] the model using reinforcement learning
+- [13:44] and refining our prompt and planning
+- [13:46] workflow to make sure that we're always
+- [13:48] able to best address the needs of the
+- [13:50] customer. Post-training LLMs with
+- [13:53] reinforcement learning improves
+- [13:54] performance along multiple dimensions.
+- [13:57] But until now, the technical and
+- [13:59] financial resources required to conduct
+- [14:01] RL successfully presented a formidable
+- [14:04] challenge.
+- [14:05] W&B training serverless RL has removed
+- [14:07] these obstacles by providing a way to
+- [14:09] more easily apply RL fine-tuning using
+- [14:12] cuttingedge infrastructure at affordable
+- [14:15] costs with built-in observability.
+- [14:18] Weights and biases makes it easier than
+- [14:20] ever to optimize your agentic AI
+- [14:22] applications. From foundation model
+- [14:25] building to supervised fine-tuning,
+- [14:27] prompt engineering to pre-training, W&B
+- [14:30] models, weave, inference, and training
+- [14:33] provide all the tools you need to
+- [14:35] deliver AI with confidence.
+- [14:38] Thanks for your time, and if you haven't
+- [14:39] already, head on over to
+- [14:41] wandb.me/tryweave,
+- [14:43] sign up for weave, and give the Weights
+- [14:45] and Biases AI developer platform a try
+- [14:48] today.

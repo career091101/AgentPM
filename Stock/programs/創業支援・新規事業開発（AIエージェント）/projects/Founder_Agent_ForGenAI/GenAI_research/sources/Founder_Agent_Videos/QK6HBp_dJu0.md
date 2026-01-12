@@ -1,0 +1,485 @@
+---
+title: "Transcript: QK6HBp_dJu0"
+video_id: "QK6HBp_dJu0"
+video_url: "https://www.youtube.com/watch?v=QK6HBp_dJu0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:17:26"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Team Building"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: QK6HBp_dJu0
+
+- URL: https://www.youtube.com/watch?v=QK6HBp_dJu0
+- Retrieved at: 2025-12-30T10:47:58+09:00
+
+## Text
+
+- [00:00] I'm really late on this because I was
+- [00:02] out of town, but Enthropic dropped a new
+- [00:04] gem, a high quality coding model built
+- [00:07] to power heavyduty agentic tasks. Allow
+- [00:10] me to introduce Claude Opus 4.5, the
+- [00:13] best coding model available. And I'm not
+- [00:15] joking with that claim. The Enthropic
+- [00:17] team really went to work with this
+- [00:18] release cuz this new model is super
+- [00:20] intelligent, efficient, and hands down
+- [00:23] the best model in the world now for
+- [00:25] coding agents and full computer use
+- [00:27] tasks. They're also saying it's
+- [00:29] meaningfully better at everyday tasks
+- [00:31] like deep research, which is something I
+- [00:34] personally doubt, and I'll explain later
+- [00:35] on why, but it apparently works really
+- [00:38] well with slides, spreadsheets, and
+- [00:40] structured business workflows. Overall,
+- [00:42] this model is a major step forward in
+- [00:45] what AI systems can do and preview at a
+- [00:48] larger shift, which is coming as to how
+- [00:51] it gets things done. In terms of
+- [00:54] benchmark scores, it is hitting
+- [00:56] state-of-the-art on realworld software
+- [00:58] engineering tests, scoring an 80.9
+- [01:00] percentage on the sway bench verified
+- [01:02] test, which is an insane number that
+- [01:05] surpasses every other model right now,
+- [01:07] including the new Gemini 3.0 Pro, as
+- [01:10] well as the previous Claude Sonnet 4.5.
+- [01:13] In terms of pricing, it lands at $5 per
+- [01:16] 1 million input tokens and $25 per 1
+- [01:19] million output tokens, which is
+- [01:21] definitely on the expensive side and
+- [01:23] higher than the newly released Gemini
+- [01:25] 3.0. It also supports a 64K max output
+- [01:29] token length as well as a 200k context
+- [01:32] window, same as the other models in the
+- [01:34] lineup, which is kind of unfortunate. I
+- [01:36] was hoping to see a jump to a full 1
+- [01:38] million context window, but we'll likely
+- [01:41] see that with the 5.0 you know series
+- [01:42] next year. Now in terms of benchmarks,
+- [01:45] this model is outperforming every human
+- [01:48] candidate on Enthropic's notorious
+- [01:50] difficult 2hour performance engineering
+- [01:52] take-home exam. It highlights
+- [01:54] exceptional technical ability under
+- [01:56] pressure and beyond coding. This model
+- [01:58] is showing major gains in vision,
+- [02:01] reasoning, and mathematics and achieving
+- [02:03] state-of-the-art results obviously on
+- [02:04] the sway bench multilingual ader polyth
+- [02:08] as well as the browser comp plus
+- [02:10] benchmark. It is also demonstrating
+- [02:12] stronger long-term task reliability
+- [02:15] scoring 29% higher than Sonnet 4.5 on
+- [02:18] the vending benchmark and notably on a
+- [02:21] Gentech evaluations like the T2 bench.
+- [02:24] Opus 4.5 even devised a creative
+- [02:27] legitimate workaround which is upgrading
+- [02:30] customers cabin class first to allow
+- [02:33] later flight changes and showing deeper
+- [02:35] problem solving than the benchmark
+- [02:37] itself expects. Now, overall, this model
+- [02:40] is doing insanely well in coding
+- [02:42] benchmarks over even something like the
+- [02:44] Gemini 3.0 Pro, which just released,
+- [02:47] which is scoring state-of-the-art on
+- [02:49] every benchmark from computer use to a
+- [02:51] genensic terminal coding all the way to
+- [02:53] Aentic tool use. This is quite
+- [02:55] impressive. Before we get started, allow
+- [02:57] me to introduce today's video sponsor,
+- [02:59] Web Flow AI, the all-in-one platform
+- [03:02] that lets you design, build, and scale
+- [03:05] digital experiences at the speed of
+- [03:07] imagination. With Web Flow, you don't
+- [03:10] just make websites. You build full
+- [03:12] digital ecosystems from product pages to
+- [03:15] entire experiences, all powered by AI.
+- [03:18] You need a landing page, just describe
+- [03:20] it. Web Flow's AI instantly drafts
+- [03:23] structure, layouts, and content that's
+- [03:25] ready to publish in minutes. And here is
+- [03:28] where things get smarter. Web Flow
+- [03:30] introduces AEO, which stands for answer
+- [03:33] engine optimization. Think about SEO
+- [03:36] 2.0, where AI helps your site stay
+- [03:39] visible, accessible, and human friendly.
+- [03:42] With one click, Web Flow's AI audits
+- [03:45] your website, and it is going to be able
+- [03:47] to suggest real-time fixes, faster load
+- [03:50] times, better design balances, and
+- [03:52] content that ranks across AI search
+- [03:54] engines. No more endless tweaking cuz
+- [03:57] the AI does the heavy lifting for you,
+- [03:59] so you can focus on what actually
+- [04:01] matters. What's wild is that before Web
+- [04:03] Flow, this would take a full dev team.
+- [04:05] Now, it's just one creator, one
+- [04:07] platform, and infinite potential. With
+- [04:10] Web Flow AI, you can design smarter,
+- [04:12] build faster, and create digital
+- [04:14] experiences that think ahead. Start
+- [04:17] building today at webflow.com and bring
+- [04:19] your imagination to life with the link
+- [04:21] in the description below. Now, my two
+- [04:23] cents after testing the Opus 4.5 isn't
+- [04:27] just as a great coding model. It might
+- [04:29] lack in certain areas like front-end
+- [04:31] development, as Gemini 3.0 is something
+- [04:33] that does better at it and while being a
+- [04:36] lot more cheaper. But where it
+- [04:38] absolutely shines is hard coding with
+- [04:41] back-end engineering and tool-driven
+- [04:43] workflows. Its ability to execute
+- [04:45] multi-step agentic tasks is genuinely
+- [04:48] impressive with stable, logical, and
+- [04:50] reliability even without special
+- [04:52] prompting or tuning. This is where in
+- [04:55] this example where I'm showing this
+- [04:57] video, the Cloud 4.5 Opus can complete
+- [05:00] an endto-end task of doing taxes. This
+- [05:03] workflow is going to be accomplished in
+- [05:06] a single pass with no fine-tuning, just
+- [05:08] straight reasoning and task execution at
+- [05:11] 20 times the speed. The level of
+- [05:13] autonomous tool use with this model plus
+- [05:15] its deep technical reasoning is where
+- [05:17] Opus really sets itself apart. And like
+- [05:20] I mentioned about the reasoning mode
+- [05:22] enabled or not, if you select the no
+- [05:24] thinking mode enabled, honestly the
+- [05:26] difference with thinking on isn't that
+- [05:29] dramatic. The Opus 4.5 is already so
+- [05:32] stable with the base model and it's so
+- [05:34] confident in tool use workflows that
+- [05:36] turning on chain of dot barely changes
+- [05:38] the output quality. It gets slightly
+- [05:41] more verbose but maybe a bit cleaner I
+- [05:44] guess in the step-by-step planning but
+- [05:46] the actual results are almost identical.
+- [05:48] So rather than paying a bit more, I
+- [05:50] believe it's better with no uh thinking
+- [05:53] mode enabled in certain tasks. Not every
+- [05:55] task, but in terms of the base quality
+- [05:59] of this model, it is super superior in
+- [06:01] comparison to other models I've seen.
+- [06:03] This is where it's going to be a lot
+- [06:05] cheaper with the Gentic Task where it's
+- [06:07] going to save you tokens. Even though
+- [06:08] it's priced super high, it's going to
+- [06:10] save you a lot of money in terms of
+- [06:12] using tool use efficiently rather than
+- [06:14] any other model we've showcased. So, if
+- [06:17] you're looking to get started with this
+- [06:18] model, you can access it through
+- [06:20] Claude's chatbot. But the only thing is
+- [06:22] is that you're going to need Claude Pro
+- [06:23] to use the Opus 4.5 directly within
+- [06:26] Enthropics chatbot. You can access it
+- [06:28] via API. Let's say if you do not want to
+- [06:31] pay for an API, you can use Kilo code
+- [06:33] because they offer a free $25 credit
+- [06:36] that lets you access the models for free
+- [06:39] completely with an API so that you can
+- [06:41] use it within something like uh cursor
+- [06:44] or within any sort of ID like VS code
+- [06:47] within the kilo code extension. Another
+- [06:50] way is using open router. This is
+- [06:52] another option for you to access the
+- [06:54] cloud opus 4.5. And the best part is is
+- [06:57] that Kilo code is an open- source
+- [06:59] extension. So you can click on install
+- [07:01] kilo code and you can install it also
+- [07:03] through the extension store by going
+- [07:05] over to kilo code and downloading it.
+- [07:08] And then on the left hand side you can
+- [07:09] access it. But now we can start running
+- [07:11] the test with the cloud opus 4.5. You
+- [07:13] can select this model and start
+- [07:15] generating things. So our first test is
+- [07:17] actually going to be create a SAS
+- [07:20] landing page with many features. This is
+- [07:23] a baseline test I usually send into
+- [07:25] every model to assess how well it is in
+- [07:27] terms of its front-end capabilities. And
+- [07:29] you can see with kilo code powered by
+- [07:31] the cloud opus 4.5, it is going to work
+- [07:34] on generating the SAS landing page.
+- [07:37] We're looking for creative output. We're
+- [07:39] looking for its capability in planning
+- [07:42] the structure out as well as how
+- [07:44] proficient the front-end code is for the
+- [07:46] SAS landing page. Right now you can see
+- [07:48] a live stream of it and it is going to
+- [07:51] work on generating all the components
+- [07:53] for it autonomously. And something I've
+- [07:55] realized so far with the generations is
+- [07:56] that it is thoroughly working on making
+- [07:59] sure that each component is thoroughly
+- [08:01] generated. It is uh spending a lot more
+- [08:04] time in comparison to something like
+- [08:06] Gemini 3.0. Even Gemini 3.0 spends a lot
+- [08:09] of time but you can see the amount of
+- [08:10] lines of code it worked on generating
+- [08:13] for the SAS landing page. Obviously, it
+- [08:15] works a lot better with a coding agent
+- [08:17] like Hilo Code, but you can see that
+- [08:19] there is approximately over 1,400 lines
+- [08:23] of code for just this front end. And
+- [08:26] it's working on all the variables and
+- [08:28] generating components for it to be
+- [08:30] functional. And looks like it is still
+- [08:32] generating the styles CSS file. And
+- [08:35] there's over, I believe, 3,000 lines of
+- [08:38] code. So, you can see how much effort
+- [08:41] goes into generating all the components.
+- [08:46] But there we go. This is our SAS landing
+- [08:49] page that it had generated. And it
+- [08:51] actually looks pretty decent in my
+- [08:52] opinion. There's animations. You also
+- [08:54] have the cookie banner. And this is
+- [08:57] overall something that it was able to
+- [08:59] generate quite quickly. It added the
+- [09:01] carousel for the trending companies,
+- [09:03] added animations to it, which is really
+- [09:04] nice. So, it was able to meticulously
+- [09:06] focus on every component really well.
+- [09:09] Its front-end capabilities are not the
+- [09:11] best, I'll tell you that. It's not
+- [09:13] better than Gemini 3.0. Maybe with
+- [09:15] prompting it can get there. But you can
+- [09:17] see that the small things a part of this
+- [09:19] model is what makes it a proficient
+- [09:22] model that you would want to use for
+- [09:23] development. Overall, it did a great job
+- [09:26] in my opinion with this SAS landing
+- [09:27] page. I would give it a 9 out of 10
+- [09:29] overall with its functionality. But with
+- [09:32] this front end style, it's still the
+- [09:34] basic typical AI generated uh front end
+- [09:37] style, which is not horrible, but you
+- [09:39] can see how interactive and how thorough
+- [09:43] it was able to generate each component.
+- [09:45] It just keeps going and it did overall a
+- [09:48] great job. All of these small features
+- [09:50] makes it perfect in my opinion. With the
+- [09:52] dark mode, it looks a lot better in my
+- [09:54] opinion, too. And you can see how much
+- [09:56] effort it put into each component. Also,
+- [09:59] another thing you'll notice is that its
+- [10:01] browser use component is a lot better in
+- [10:04] comparison to previous models. This is
+- [10:06] where it can debug and test a lot
+- [10:08] better. It's obviously going to be a lot
+- [10:10] more expensive where it took $2.55 to
+- [10:13] generate the SAS landing page, but in
+- [10:16] terms of its overall quality and using
+- [10:18] the browser use agent, it is going to be
+- [10:20] really helpful in finding and testing
+- [10:22] bugs. In my next test, I had requested
+- [10:25] the Opus 4.5 to generate an SOG of a
+- [10:29] butterfly, and this is where it did
+- [10:32] this. This is incredible, guys. In my
+- [10:34] opinion, this is better than the
+- [10:35] generation I saw of the Gemini 3.0. It
+- [10:39] was able to create a really cool looking
+- [10:42] butterfly. I didn't even tell it to
+- [10:44] create animations for it, but it had
+- [10:46] done that on its own. And it's
+- [10:47] interactive. It made sure uh all of the
+- [10:50] components are symmetrical and it did a
+- [10:53] great job overall in generating this.
+- [10:55] Next up, I'm requesting it to create a
+- [10:57] browserbased operating system. And you
+- [10:59] can see that it is working on generating
+- [11:02] the plan for it. Essentially, we're
+- [11:04] trying to see how well it is in terms of
+- [11:06] proficiently generating this application
+- [11:09] and how it's able to code out all the
+- [11:11] components. So, spent approximately
+- [11:13] $1.70 to generate the landing page. And
+- [11:16] this is essentially how it looks. Go
+- [11:19] ahead and open it up. You have a loading
+- [11:21] animation to start up the operating
+- [11:23] system, which is absolutely awesome. We
+- [11:26] can go ahead and sign in by clicking
+- [11:28] enter. And there we go. This is our
+- [11:30] browserbased OS, which actually looks
+- [11:33] pretty good in my opinion. You have
+- [11:34] better icons in terms of SVG. It did a
+- [11:37] great job in generating these different
+- [11:39] icons. You have the file explorer, which
+- [11:41] actually works, and this is actually
+- [11:43] great. And you can actually open up
+- [11:44] these different individual applications.
+- [11:47] There is documents, downloads. All these
+- [11:49] components have been fully thoroughly
+- [11:51] generated. You have the media player
+- [11:53] which looks awesome. I don't believe
+- [11:55] this is going to work, but it looks a
+- [11:57] lot better than what I saw previously
+- [11:59] with other models. You have a paint. All
+- [12:02] these are functional apps that have been
+- [12:03] generated, which is just awesome.
+- [12:05] Notepad works. The calculator also
+- [12:07] works. You also have a weather app,
+- [12:09] which is great to see. You even have a
+- [12:12] terminal and this terminal will actually
+- [12:15] function as well. You have a calendar.
+- [12:18] You have a browser which is really great
+- [12:21] to see and it actually prompts you to
+- [12:24] open it up within another uh prompt
+- [12:27] within your web browser. There's a
+- [12:29] settings tab where you can change the
+- [12:31] personalization. You can change the
+- [12:33] wallpaper which is pretty cool in my
+- [12:35] opinion. So you can see how meticulous
+- [12:38] it was in terms of generating all of
+- [12:40] these components, which is just great to
+- [12:41] see. There's a snake game that also
+- [12:44] generated directly within the game. And
+- [12:46] I believe you can actually interact with
+- [12:47] it, which is just wild to me. You also
+- [12:50] have mind sweeper, which it also
+- [12:52] generated. And there's different levels
+- [12:54] to this. So in my opinion, this is just
+- [12:57] impressive cuz each detail has been
+- [12:59] meticulously generated. You can see
+- [13:01] there's a tab section. There's also the
+- [13:04] actual Windows brow or not Windows but
+- [13:06] you have that uh window that pops up
+- [13:08] whenever you click the main settings tab
+- [13:10] and you can log off, you can restart it,
+- [13:12] you can lock your device. So each
+- [13:14] component has been thoroughly generated
+- [13:16] and in my opinion this model is actually
+- [13:19] the best coding model that I've seen for
+- [13:21] backend related tasks. So, in my
+- [13:23] opinion, the new tech stack that I would
+- [13:25] work with is having Claude Opus 4.5
+- [13:28] powering my backend related tasks and
+- [13:30] using front-end capabilities of Gemini
+- [13:32] 3.0. And with the combination of the
+- [13:35] two, you're going to be able to generate
+- [13:37] a lot of great things with these two
+- [13:38] models. Next up, I really want to test
+- [13:41] the stress test of this model by using a
+- [13:44] prompt like working on multiple subtests
+- [13:47] where it's going to test the model's end
+- [13:49] to end agentic dev skills. This is where
+- [13:52] we're testing how agentic it is and how
+- [13:54] it can orchestrate multiple tools. We
+- [13:56] know this model is really good with tool
+- [13:58] calling. So I want to see how well it is
+- [14:00] in terms of performing this task where
+- [14:02] it can clone a public GitHub repository
+- [14:05] for a simple web app. Run and build test
+- [14:08] commands in the shell. If the tests are
+- [14:10] failing or lint errors, fix them
+- [14:12] automatically. Commit your fixes and
+- [14:15] push them back. Then set up the basic CI
+- [14:17] config files and then generate the brief
+- [14:20] summary. So essentially, we're having it
+- [14:22] run down on understanding the code,
+- [14:25] fixing failures, producing different
+- [14:27] changes with minimal human prompting,
+- [14:29] which is where I wanted to see how well
+- [14:31] it is in terms of performing all these
+- [14:34] specific actions from automated
+- [14:36] debugging to CI/CD configuration to also
+- [14:39] different tool orchestrations and web
+- [14:41] search use cases. We're going to see how
+- [14:43] robust it is with a prompt like this. So
+- [14:46] it looks like it has finished
+- [14:48] accomplishing this task and you can see
+- [14:50] that it was able to clone the repository
+- [14:52] which it did. It was able to run the
+- [14:55] build test and it was able to see what
+- [14:59] sort of errors it found. It fixed them
+- [15:01] automatically like the issues amongst
+- [15:03] all of these different files and it was
+- [15:05] able to resolve all of them. And at the
+- [15:08] end you can see the pull request list
+- [15:09] that it had generated which is great to
+- [15:12] see. And at the end there's also the
+- [15:15] different branch that it created with
+- [15:17] all the edits and the final test results
+- [15:20] it was able to uh list. Now within open
+- [15:22] router I had prompted to create a
+- [15:24] Minecraft clone and this is what I have
+- [15:27] gotten. I have gotten the control list.
+- [15:29] I can click enter and this is the
+- [15:31] Minecraft clone which actually looks
+- [15:33] pretty good in my opinion. Now, in terms
+- [15:35] of the functions though, it's not
+- [15:37] working as I want it to be, which is
+- [15:40] kind of unfortunate, but I guess you can
+- [15:41] place down blocks, which is kind of
+- [15:43] great to see. It added a great
+- [15:46] atmosphere and terrain. And what you can
+- [15:48] see is if you're turning around, there's
+- [15:50] an interactive GUI at the top left that
+- [15:53] showcases the FPS that's actually
+- [15:55] showcasing the live view of it, the
+- [15:58] facing direction, as well as a couple
+- [16:00] other things like the chunk and the
+- [16:02] ground. Now, I'm not too sure why my
+- [16:04] current uh build is not working where I
+- [16:07] can move. Maybe it's because I need to
+- [16:09] install the files locally to have it
+- [16:11] operational, but this is where I did a
+- [16:13] great job in generating these different
+- [16:15] components quite rapidly. If you like
+- [16:18] this video and would love to support the
+- [16:20] channel, you can consider donating to my
+- [16:22] channel through the super thanks option
+- [16:24] below. Or you can consider joining our
+- [16:26] private Discord where you can access
+- [16:28] multiple subscriptions to different AI
+- [16:30] tools for free on a monthly basis, plus
+- [16:33] daily AI news and exclusive content,
+- [16:36] plus a lot more. Overall, I believe
+- [16:38] Enthropic is making a good standpoint in
+- [16:41] the AI field right now with the release
+- [16:43] of Claude Opus 4.5. This is a really
+- [16:46] great model in my opinion and this is
+- [16:49] personally the best coding model
+- [16:50] available. Uh for front-end related
+- [16:53] tasks, you can use Gemini 3.0 you know,
+- [16:54] but with its aentic capabilities, this
+- [16:56] is a perfect model that I would 100% use
+- [16:59] as my day-to-day model. I'll leave all
+- [17:02] these links in the description below.
+- [17:03] Huge props to Enthropic team for killing
+- [17:05] it with this model release. But with
+- [17:07] that thought, guys, thank you guys so
+- [17:08] much for watching. Make sure you
+- [17:09] subscribe to the second channel if you
+- [17:11] haven't already. Join the newsletter.
+- [17:13] Join our private Discord, follow me on
+- [17:15] Twitter, and lastly, make sure you guys
+- [17:16] subscribe, turn on notification bell,
+- [17:17] like this video, and please take a look
+- [17:19] at our previous videos cuz there is a
+- [17:20] lot of content that you'll truly benefit
+- [17:22] from. But with that thought, guys, have
+- [17:24] an amazing day. Spread positivity and
+- [17:26] I'll see you guys fairly shortly.

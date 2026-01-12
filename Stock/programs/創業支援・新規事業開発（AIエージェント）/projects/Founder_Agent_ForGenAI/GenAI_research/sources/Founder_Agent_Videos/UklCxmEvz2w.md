@@ -1,0 +1,1776 @@
+---
+title: "Transcript: UklCxmEvz2w"
+video_id: "UklCxmEvz2w"
+video_url: "https://www.youtube.com/watch?v=UklCxmEvz2w"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:70:03"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: UklCxmEvz2w
+
+- URL: https://www.youtube.com/watch?v=UklCxmEvz2w
+- Retrieved at: 2025-12-30T11:06:52+09:00
+
+## Text
+
+- [00:00] What's up everybody? Adele here. Today
+- [00:02] we're going to get our hands dirty with
+- [00:04] Lang Graph, a framework that lets you
+- [00:06] define AI agents as graphs and nodes.
+- [00:08] We're going to learn how to build AI
+- [00:10] agents that can think, reason, and act
+- [00:13] with tools. Our instructor, VBA, will
+- [00:15] walk you exactly how to build your AI
+- [00:17] agents using Langraph. So, make sure to
+- [00:19] stay tuned for that. Now, if you want to
+- [00:21] jump directly to the coding section,
+- [00:22] make sure to check out the timestamp
+- [00:24] below. And make sure to check out the
+- [00:26] data lab notebook that's accompanied in
+- [00:28] the description so you can code along
+- [00:30] with the video. If you want to take your
+- [00:32] skills to the next level and learn how
+- [00:33] to build multi- aent systems using
+- [00:35] Langraph, make sure to check out the
+- [00:37] course that you can see in the
+- [00:38] description here and learn how to build
+- [00:41] an AI agent that can take data from
+- [00:43] Wikipedia, analyze stock data, and
+- [00:46] provide you with sound analysis on the
+- [00:48] performance of a particular stock. Now
+- [00:50] with that said, let's get started. Hey
+- [00:53] guys, welcome to data cam. In this
+- [00:56] tutorial, I'm going to be teaching you
+- [00:57] about the fundamentals of Langraph. Now
+- [00:59] this is a beginner level tutorial. So I
+- [01:02] assume you know little to no knowledge
+- [01:03] in langraph. From this tutorial, we're
+- [01:06] going to go right from the basics and
+- [01:07] build ourselves up so that by the end of
+- [01:09] it, you can build almost any AI agent
+- [01:12] out there. Now, if that sounds good to
+- [01:14] you, let's begin with this tutorial. So
+- [01:16] I'm going to ask you two simple
+- [01:18] questions. What is the difference
+- [01:20] between an LLM and an AI agent? You can
+- [01:23] think of an LLM as a model that
+- [01:26] understands and generates humanlike text
+- [01:28] based on the patterns it received in its
+- [01:30] training data. An AI agent, on the other
+- [01:32] hand, it uses this LLM to reason, plan,
+- [01:36] and use tools and overall take the best
+- [01:39] respective actions over time. Now, I've
+- [01:41] put the word tools in bold yet because
+- [01:43] it will be coming up quite often soon.
+- [01:46] My next question is this. What even is
+- [01:48] Langraph? Langraph is a framework that
+- [01:51] lets us build AI agents as graphs where
+- [01:54] each node does a task and edges decide
+- [01:57] what happens next. Now, don't worry if
+- [01:59] you don't know what a node and an edge
+- [02:00] is. We will discuss them shortly. You
+- [02:03] can think of it like having a flowchart
+- [02:05] which I've shown here. This flowchart
+- [02:07] basically represents an AI agent and it
+- [02:09] shows how it thinks, how it acts, and
+- [02:12] all of the internal decision-m. For
+- [02:14] example, it has the start and the end
+- [02:16] point here and then you have the input
+- [02:18] query. So the input query could be from
+- [02:20] me and I can say give me this this this
+- [02:24] and then it gets passed to the tool
+- [02:26] selector part. Its job is to be able to
+- [02:28] select well the correct tool. For
+- [02:30] example, if I ask it to do a very simple
+- [02:32] query like what is 2 + 3? It should be
+- [02:35] able to pick the maths tool not the web
+- [02:37] search tool because well why would you
+- [02:39] search what the answer for 2 plus 3 is
+- [02:41] right? So the tool selector is quite an
+- [02:43] important part of an AI agent. Then
+- [02:46] based on whatever tool it picks, it then
+- [02:48] outputs the result and then well the
+- [02:50] query finishes, right? Hopefully that
+- [02:52] flowchart analogy helps you to
+- [02:54] understand what an AI agent is. What is
+- [02:56] this tutorial's overall aim? It really
+- [02:59] is to be able to understand and master
+- [03:02] the architecture of Langraph. If you can
+- [03:04] understand and master the architecture,
+- [03:06] well, you can build any AI agent in from
+- [03:09] Langraph, right? So let's begin by pip
+- [03:12] installing all of the libraries we'll
+- [03:13] need. So for this tutorial you need to
+- [03:16] install lang graph langchain core lang
+- [03:19] openai duck go search lang chain
+- [03:22] community and you also will need to
+- [03:23] install models. The ammo models I will
+- [03:26] discuss in the end of the tutorial. For
+- [03:28] the majority of this tutorial I'm going
+- [03:29] to be using openAI and you can get its
+- [03:32] openi API key through their website.
+- [03:34] It's very very cheap. So don't worry it
+- [03:36] will be in the matter of pennies or
+- [03:38] cents. So the price is very cheap. So
+- [03:41] don't worry about that. So let's go
+- [03:43] ahead and pip install all of this. And
+- [03:46] perfect. Let's get started with coding
+- [03:49] right away. I want to build this very
+- [03:51] simple agent. Agent one. The aim of this
+- [03:54] very simple agent is this. I want to be
+- [03:56] able to teach you what states, edges,
+- [04:00] nodes, graph, and state graph is. I also
+- [04:03] want to teach you about type dictionary.
+- [04:06] Now that's a type annotation which we're
+- [04:08] going to uh learn about very shortly.
+- [04:10] Third thing is how do we even integrate
+- [04:12] an LLM using langraph specifically again
+- [04:15] the open AAI model. Now please note you
+- [04:17] can use any model you want. You can use
+- [04:19] the Gemini model, you can use anthropics
+- [04:21] model. I personally use OpenAI model
+- [04:23] because I've seen their performance is
+- [04:25] quite good and also because well they're
+- [04:28] quite cheap as well. Obviously they're
+- [04:30] not free completely. That's why I've
+- [04:32] also used Olama at the end of this
+- [04:33] tutorial. But all in all, OpenAI is a
+- [04:36] good choice. Now, I also want to teach
+- [04:38] you about the basic syntax of Langraph.
+- [04:41] Let's build our intuition on the
+- [04:43] fundamental building blocks in Langraph.
+- [04:45] And I'm going to be using a game analogy
+- [04:48] for this. So, let's start off with the
+- [04:50] first fundamental building block, which
+- [04:52] is the state. Now think of the state as
+- [04:55] a data structure that is shared and it
+- [04:58] holds the current information or context
+- [05:00] of the entire application. So in terms
+- [05:04] of a game analogy you can think of it as
+- [05:06] a file in a game which saves everything
+- [05:09] which you have in the game such as your
+- [05:10] health, your score, your weapons, you
+- [05:13] get the point. So it basically stores
+- [05:15] everything the game needs to remember.
+- [05:17] Hence this uh asset which I've drawn
+- [05:20] that is where state is. Now let's move
+- [05:22] to a node. A node is a self-contained
+- [05:26] function or a step and it carries out
+- [05:29] really specific tasks within the graph.
+- [05:32] For example, in a game analogy, it could
+- [05:34] be a particular task or a particular
+- [05:36] scene like a battle scene or a puzzle
+- [05:39] scene or a cutscene that happens when
+- [05:41] you reach a particular point on the map.
+- [05:44] Hence this puzzle piece. Now an edge
+- [05:47] remember edge and node was something we
+- [05:49] just briefly talked about and mentioned
+- [05:51] here. But an edge it's defined as the
+- [05:54] how the process moves from one node to
+- [05:57] another. Remember in a graph you have
+- [06:00] nodes and to connect these nodes you
+- [06:02] have edges. You have edges and
+- [06:03] conditional edges. Conditional edges are
+- [06:05] something we will be covering later. But
+- [06:08] remember you need something to connect
+- [06:10] these nodes or functions together right
+- [06:12] and that is what an edge is and it
+- [06:14] controls the direction and logic of
+- [06:16] execution. You can think of these as a
+- [06:18] door or a road or choices that connect
+- [06:22] scenes. Essentially they decide where
+- [06:24] the game goes next based on what has
+- [06:26] already happened. The next thing is well
+- [06:28] graph lang graph the most probably the
+- [06:31] most important uh fundamental building
+- [06:34] block in langraph. So, it's the main
+- [06:36] structure that defines how tasks aka
+- [06:38] nodes are linked together and carried
+- [06:41] out. Like I just said, edges and nodes
+- [06:43] make up a graph. The game analogy for
+- [06:46] this is the complete overall design
+- [06:49] showing all the levels, all the possible
+- [06:51] paths, and all the decision points. Kind
+- [06:54] of like how a full map of how a game
+- [06:57] unfolds. The last thing is a state
+- [06:59] graph. Now a state graph essentially
+- [07:02] think of it as merging the state and
+- [07:04] merging the graph together. So it builds
+- [07:07] and manages the entire graph. It uh has
+- [07:10] the nodes, it has the edges, it has the
+- [07:12] shared state and its main job is to
+- [07:15] ensure the smooth data flow and
+- [07:18] coordinated execution. In terms of the
+- [07:20] game analogy again, it's like the
+- [07:22] current live game you're playing. It's
+- [07:25] keeping track of your location, your
+- [07:26] inventory, your choices, and progress on
+- [07:29] the map. Remember, it is very, very
+- [07:31] similar to state and graph. It's like
+- [07:33] the fusion. Now, if you didn't
+- [07:35] understand this, don't worry. We will
+- [07:37] consolidate this using code. Let's start
+- [07:39] off with this. So, this is all of the
+- [07:42] imports we will need for creating our
+- [07:44] very first AI agent, the simple agent.
+- [07:47] So, you can see I've done from typing
+- [07:49] import type dictionary. And this is the
+- [07:52] add data annotation which we're about to
+- [07:54] cover. Then we have lang chain code on
+- [07:56] messages import human message. And a
+- [07:58] human message is a message type which
+- [08:01] represents the input from a user. So
+- [08:05] back into the flowchart analogy where I
+- [08:08] said input query. The input is again a
+- [08:11] human message. Now there's loads of
+- [08:13] types of uh messages in LN graph. For
+- [08:15] example, there is an AI message, human
+- [08:18] message, tool message. We will cover
+- [08:20] them all shortly. Don't worry. Back to
+- [08:22] the imports though. We have lang chain
+- [08:24] openai, import chat openai. And well,
+- [08:27] you've guessed it. This is to import the
+- [08:29] LLM or use the LLM. And the last point
+- [08:33] is from langraph.graph import state
+- [08:35] graph start and end. Essentially, this
+- [08:37] will help us build the overall graph
+- [08:39] structure. So, this is obviously quite
+- [08:41] important. Now, back to this type
+- [08:43] dictionary. If you don't know what a
+- [08:44] type dictionary, it's essentially a data
+- [08:46] annotation. And it's like a dictionary
+- [08:49] but type the data type is quite
+- [08:52] important to define a type dictionary in
+- [08:53] Python. You use it like this. So you
+- [08:56] define a class and then obviously the
+- [08:59] name of the class and then you assign
+- [09:01] type dictionary as a superass. Now
+- [09:04] within this type dictionary I have three
+- [09:06] keys. I have the name, the age and if
+- [09:09] this person is a student or not. So for
+- [09:12] the name well it can't be an integer
+- [09:14] right? How many people do you know who's
+- [09:16] called like one or two for example they
+- [09:18] are a string for example the age also
+- [09:21] needs to be an integer and in if it's is
+- [09:24] student it can either be true or false
+- [09:26] right it can't be something in between
+- [09:28] to create our own type dictionary or an
+- [09:31] instance of this type dictionary we use
+- [09:33] this syntax we use curly brackets we
+- [09:36] define the key with the respective value
+- [09:39] but because we've used a type dictionary
+- [09:41] Python will automatically throw an error
+- [09:43] if it's the wrong data type. Now, we
+- [09:45] could have obviously used a simple
+- [09:47] dictionary and that's fine, but in
+- [09:49] industry or in very very large
+- [09:51] applications, type annotations are quite
+- [09:54] a huge problem. Data types in general
+- [09:58] because well, data types cause a lot of
+- [10:00] logic errors. And to evade all of those
+- [10:03] logic errors, that's why type
+- [10:04] dictionaries are used. It just makes
+- [10:06] everything more robust. And in Langraph,
+- [10:08] robustness is everything. So, that's why
+- [10:10] we use type dictionary here. So now that
+- [10:12] you know what a type dictionary is, oh
+- [10:14] and we've also printed the person and
+- [10:16] you can see the printed statement is
+- [10:18] exactly what we had uh initialized here
+- [10:20] instantiated. We're now going to define
+- [10:22] the state of our agent. So to define a
+- [10:25] state you use again the type dictionary
+- [10:28] what we just used here and we use the
+- [10:32] same syntax. So we define a class the
+- [10:34] name of the state. Now the name of the
+- [10:36] state can be absolutely anything. I've
+- [10:38] just kept it as agent state here because
+- [10:40] well it's easier to follow that's why
+- [10:43] but you could name it whatever you want
+- [10:44] you can name it state you could name it
+- [10:47] Bob whatever you want and then obviously
+- [10:50] you pass in type dictionary because it
+- [10:51] acts as the superass now for this agent
+- [10:54] what did we want let's go back to the
+- [10:56] aims so the aim was here how to
+- [10:58] integrate an LLM and understand the
+- [11:00] basic syntax of langraph so essentially
+- [11:02] what I want is I want to be able to say
+- [11:04] something and our AI agent should be
+- [11:06] able to reply it
+- [11:08] So realistically the only thing which I
+- [11:10] need to store is my my own input
+- [11:13] message. And what will the input message
+- [11:15] be? Well, we just spoke about that it
+- [11:18] will be in the form of a human message
+- [11:20] and that's why we have created a key
+- [11:23] which is user message and it will be the
+- [11:26] type human message. Remember human
+- [11:28] message, AI message, all of these
+- [11:30] message types in langraph are data types
+- [11:32] and that's why I referred to it as human
+- [11:34] message like this syntax.
+- [11:37] So remember this is quite a very very
+- [11:39] basic AI agent that's why I only have
+- [11:41] one key but later on we will have
+- [11:43] multiple keys. So now we define an LLM
+- [11:46] in langraph and we use chat openai. Now
+- [11:49] if you know lang chain or know a little
+- [11:51] bit about lang chain this is exactly how
+- [11:53] you define an LLM in lang chain as well.
+- [11:56] Remember langraph is built on lang
+- [11:58] chain. They're built by the same sort of
+- [12:00] developers. So a lot of the tools and
+- [12:02] everything which we uh use in lang chain
+- [12:05] have also been implemented in langraph.
+- [12:07] It just makes things much more
+- [12:09] compatible and easier. Right? So for
+- [12:11] this example I'm going to be using the
+- [12:13] GPT40 mini. You can use any open AI
+- [12:17] model. You can use any LLM model if you
+- [12:19] want. You just need to change this. You
+- [12:21] can have chat gemini chat perplexity
+- [12:24] chat anthropic whatever. You can refer
+- [12:26] to the lang chain langraph documentation
+- [12:29] and lang chain documentation. We will
+- [12:31] talk about the documentation in a bit.
+- [12:32] But going back to this example, I've
+- [12:34] also set this attribute here which is
+- [12:36] temperature. Now temperature is an
+- [12:38] attribute which controls the creativity
+- [12:41] of our AI agent. So it's between 0 and
+- [12:43] one for open AI models. If it's towards
+- [12:46] one, it means the LLM will be more
+- [12:48] creative. And if it's towards zero,
+- [12:50] well, it would be more it will be less
+- [12:52] stochastic. So I've kept it at 0.7
+- [12:55] because I want a little bit more
+- [12:56] creativity than 0.5. So this is
+- [12:59] arbitrary. You can set whatever you
+- [13:01] want. Uh but that's not really
+- [13:03] important. I've just kept it here just
+- [13:04] to show you that chat open AAI has a lot
+- [13:06] of attributes which we can tweak. It can
+- [13:08] you can change the top K parameters, top
+- [13:10] P parameters. If you don't know what
+- [13:12] that is, that is completely fine. The
+- [13:14] most important thing which you need to
+- [13:15] know is that this you need to set the
+- [13:17] model here. In terms of the API key, by
+- [13:20] the way, I've set it as an environment
+- [13:22] variable. If you using this locally, you
+- [13:25] can store it in av file and then you can
+- [13:28] uh import it using the from.env load.env
+- [13:32] uh syntax. I'm using data lab and it
+- [13:34] just makes things easier because
+- [13:35] everything's in the environment. So that
+- [13:37] is how you create the agent state and
+- [13:40] how you initialize a large language
+- [13:42] model. Now I'm going to be creating a
+- [13:44] node. So the purpose of this node is to
+- [13:46] pass the user's message to the LLM. So
+- [13:49] to be able to do this I define a
+- [13:50] function. So it will take in the state
+- [13:53] which will be agent state which is the
+- [13:55] state of our agent which we just uh
+- [13:58] created and it will output the exact
+- [14:00] same agent state. Remember a node has to
+- [14:03] be able to in uh has to be able to
+- [14:05] intake a state and then output the
+- [14:08] updated state. The state in any graph is
+- [14:12] the most important thing in there. If
+- [14:14] you don't have the state well your
+- [14:16] entire robustness completely falls
+- [14:18] apart. So remember a rule of thumb is
+- [14:20] always always always always output the
+- [14:23] agent state. Now this is Python 3 uh
+- [14:26] syntax but this really just shows the
+- [14:30] reader that you're inputting an agent
+- [14:32] state and you're outputting the same
+- [14:34] state or the updated state. So within
+- [14:36] this function you can see that I have
+- [14:37] this line of code. It's saying it's
+- [14:40] using llm.invoke state user message. Now
+- [14:43] what does this line even mean? Well
+- [14:45] llm.invoke Invoke is a really fancy way
+- [14:48] of just saying of you of running this
+- [14:50] LLM. So whatever I pass here, it will
+- [14:53] get passed to this LLM or the chat open
+- [14:56] AI model which we uh defined the state
+- [14:59] user message this will contain our
+- [15:01] query. Now I haven't passed any query
+- [15:04] yet but overall this line is essentially
+- [15:06] saying that whatever I have that gets
+- [15:09] passed to the lm using this invoke
+- [15:11] method and the invoke method is an
+- [15:13] inbuilt method. And then this is just me
+- [15:16] printing what the response is. Now the
+- [15:18] reason I haven't just printed response
+- [15:20] by itself and I've used response.content
+- [15:23] is because if you play around with this
+- [15:25] and you just print response, well what
+- [15:27] happens is you get a lot of unnecessary
+- [15:30] metadata. For example, you get the
+- [15:32] number of input tokens, the number of
+- [15:34] output tokens, you get a lot of
+- [15:36] unnecessary stuff. So if you just want
+- [15:38] the clean AI output result, you can just
+- [15:41] use response.content. And finally, I'm
+- [15:43] returning the state because that is what
+- [15:45] my function uh wants. I want to return
+- [15:47] the updated state. In this case, I'm not
+- [15:49] updating the state at all. But overall,
+- [15:52] this node is really just to pass the
+- [15:54] user's message to the LLM. It's really
+- [15:57] dead simple, but it shows you how we
+- [16:00] create the underlying function behind a
+- [16:02] node. So, now that we've covered the the
+- [16:05] stuff, let's actually build the graph
+- [16:08] itself. So, how do we do this? Well, you
+- [16:11] start off by saying graph is equal to
+- [16:13] state graph agent state. And this state
+- [16:15] graph was remember we just covered it
+- [16:17] previously here. It builds and manages
+- [16:20] the entire graph. We have to pass in
+- [16:23] what the shared state is. In this case,
+- [16:26] the shared state is this the agent state
+- [16:28] which we had just defined. Remember the
+- [16:31] state is really just it's a shared data
+- [16:34] structure which holds record of
+- [16:36] everything you want. In this case, it's
+- [16:38] just uh storing the human message. But
+- [16:41] in more complicated AI agents which
+- [16:42] we're going to build, it will store a
+- [16:44] lot more stuff. Now, how do we create a
+- [16:46] node and an edge? This is the underlying
+- [16:49] function of the node. So, if I go to
+- [16:51] this line, it says graph.add node. And I
+- [16:54] have two parameters here. Node one and
+- [16:57] first node. So, this part is the name of
+- [17:00] the node of the graph. And then the
+- [17:02] other part is the name of the underlying
+- [17:05] function aka action. This is the
+- [17:07] underlying function and this overall now
+- [17:10] is the node along with its name. Then we
+- [17:13] also to create an edge we use graph.add
+- [17:16] edge and we use the start and the end
+- [17:18] point. Start and end point well they're
+- [17:20] quite self-explanatory right but an edge
+- [17:23] has a start point and an endpoint
+- [17:25] itself. So we want our graph to look
+- [17:28] something like this. We want it to
+- [17:30] start. We want it to be passed to our
+- [17:32] node which was uh this. And then we want
+- [17:36] it to end. Uh these two lines of code is
+- [17:38] an in-built function in langraph where
+- [17:41] you can uh where you're able to
+- [17:43] visualize your uh graphs quite well. You
+- [17:46] don't need to use any external Python
+- [17:48] libraries. You can just use this using
+- [17:50] ipython. So it's really a great
+- [17:52] visualization tool in case you're messed
+- [17:55] up somewhere. Uh a rule of thumb here
+- [17:57] though is this. If the graph does
+- [17:59] compile fully and you get a result and
+- [18:02] it's uh it looks all fine, chances are
+- [18:05] you might have messed up internally and
+- [18:07] it doesn't always show you the internal
+- [18:08] mechanics. So that's just a heads up.
+- [18:10] Now going back to here, I created
+- [18:12] another edge which is this edge here. Uh
+- [18:15] it goes from node one and it ends. So to
+- [18:18] summarize everything again, we create
+- [18:20] the add node which is this node. This
+- [18:23] node's underlying function is this.
+- [18:27] And the this edge is from this start
+- [18:31] point to node one. And this edge is from
+- [18:34] node one to end point. Lastly, I just
+- [18:37] compile the entire graph and I store it
+- [18:40] in an agent variable. Now, another heads
+- [18:42] up is this. Notice how I written
+- [18:45] agent.getgraphth dot draw mermaid png so
+- [18:49] on and I've not written graph. The
+- [18:52] reason I've done agent instead of graph
+- [18:54] is because if I did graph, it wouldn't
+- [18:56] work. Why wouldn't it work is because
+- [18:59] graph isn't compiled yet. I need to be
+- [19:02] able to send to this function the
+- [19:04] compiled version of the graph and the
+- [19:06] compiled version of the graph is well
+- [19:08] Asian. That's why we did graph to
+- [19:09] compile. So that's how you define uh a
+- [19:14] very very simple graph. Now let's
+- [19:16] actually test it. So let me just make
+- [19:18] sure everything is running. 2 3 Perfect.
+- [19:22] Now let's run this. Okay. So this
+- [19:26] function is an infinite loop where I
+- [19:29] input something it um unless if it's
+- [19:32] exit it just keeps going. So I can say
+- [19:34] hi there.
+- [19:37] There you go. The AI responds how can I
+- [19:39] assist you today. Now if you don't
+- [19:41] believe me uh I can write something like
+- [19:43] who made you and it should say something
+- [19:46] like open AI. Right there we go. I was
+- [19:48] created by OpenAI an AI research
+- [19:50] organization.
+- [19:52] Now notice and I can also obviously exit
+- [19:55] but I'm now about to do something here.
+- [19:57] So I'm going to say uh my name is Vav.
+- [20:03] So nice to meet you Vav. How can I
+- [20:05] assist you today? So where's the
+- [20:07] problem? The problem is this. What is my
+- [20:11] name? Do you think you will be able to
+- [20:14] recall my name?
+- [20:16] I'm sorry but I don't have access to
+- [20:18] personal information blah blah blah. So
+- [20:21] let me just exit. Perfect. That's
+- [20:23] exited. So now you can clearly see what
+- [20:25] the problem is, right? It doesn't recall
+- [20:27] the previous messages. Why? Well, it's
+- [20:31] because we never created our state that
+- [20:34] way. All we did in our state was to
+- [20:38] store the human message. And the human
+- [20:40] message, for example, was hi there or uh
+- [20:44] who made you or my name is Vav or what
+- [20:47] is my name? These queries were the human
+- [20:49] messages. I send these messages. That's
+- [20:51] why they're human messages. Right? So
+- [20:54] this is quite a big problem, right? So
+- [20:57] how can we fix this? Well, let's move to
+- [20:59] the next section which is this. So we
+- [21:02] have a problem. Our agent doesn't have
+- [21:04] any recollection of what the previous
+- [21:06] message was. I.e. it doesn't have a
+- [21:08] context. Context is written in bold here
+- [21:11] because that's the fancy way of saying
+- [21:13] that it doesn't have any prior
+- [21:14] knowledge. This is because each time
+- [21:16] we're running the this program, it's a
+- [21:19] separate API call. So what happens is
+- [21:22] when I send a request the AI model or
+- [21:25] the open air from the open AI server, it
+- [21:27] gives me the request back. But that's
+- [21:29] it. Then I ask it again. If I go back to
+- [21:32] here, I say hi there, it sends a
+- [21:35] response which is hello, how can I
+- [21:36] assist you today? That's the end of the
+- [21:37] conversation. If I ask who made you,
+- [21:40] that's a new API request. it doesn't
+- [21:42] recall anything uh from previously. So
+- [21:46] we need to somehow integrate memory into
+- [21:48] this. Now luckily there is a lot of
+- [21:50] different ways to be able to integrate
+- [21:51] memory into Langraph agents. And these
+- [21:54] are some of the multiple ways you can do
+- [21:55] it. For example, you can combine with
+- [21:58] the current request with previous
+- [22:00] context. You can save it in a text file
+- [22:03] or in any external file. It could be a
+- [22:04] CSV, a JSON, whatever. You can use
+- [22:06] inbuilt lang chain memory tools like
+- [22:09] checkpointter memory for example. You
+- [22:11] can use rag for larger data storage or
+- [22:14] you can use external memory tools such
+- [22:15] as mem zero. These tools are also
+- [22:18] getting quite popular but you'll need to
+- [22:20] understand the basic documentation of uh
+- [22:23] different libraries. Mem is a different
+- [22:25] library. There's multiple different uh
+- [22:27] such libraries. The same goes for rag.
+- [22:29] You can use for example pine cone chroma
+- [22:32] database. There's many but you need to
+- [22:34] understand slight fundamentals of it. If
+- [22:36] you just want to stick to langraph you
+- [22:38] can use checkpoint memory. These are all
+- [22:40] slightly beyond the scope of this
+- [22:41] tutorial. I'm going to still integrate
+- [22:43] memory somehow and that is using the
+- [22:45] first option. The second option is also
+- [22:47] quite easy. You can just use a simple
+- [22:49] text file but the first one is the
+- [22:51] easiest and this moves uh this brings us
+- [22:54] to the next part which is agent 2. And
+- [22:57] this agent will essentially be our
+- [23:00] simple agent but infused with context.
+- [23:03] So agent with context feeding. So it
+- [23:05] will have some form of basic memory. Now
+- [23:08] the aim of this agent is to understand
+- [23:10] the different messages in lang. Remember
+- [23:13] I told you there were loads of different
+- [23:15] messages not just human message there's
+- [23:17] AI message tool message system message
+- [23:19] lot of different messages coming up.
+- [23:21] Then we're also going to understand the
+- [23:22] union type annotation and we're also
+- [23:24] going to feed context back into the LLM
+- [23:27] aka the whole overall aim of this agent.
+- [23:30] These are all the imports we're going to
+- [23:31] need this time around. We're going to
+- [23:34] import OS. We're going to from the
+- [23:36] typing library import type dictionary,
+- [23:38] list and union. We've covered what a
+- [23:40] type dictionary is. We know what a list
+- [23:42] is. We don't know what a union is. Uh
+- [23:44] before I explain that, there's also this
+- [23:47] these two uh imports which we've already
+- [23:49] covered and this new one. We've we
+- [23:52] already know what a human message, but
+- [23:53] what is an AI message and a system
+- [23:55] message? Well, an AI message is well the
+- [23:58] response of the AI model. In this case,
+- [24:02] the AI message was this. Now, why didn't
+- [24:05] I use AI message in the state before?
+- [24:08] Well, because we didn't need to store
+- [24:10] it. We never stored it. We just wanted
+- [24:11] to store the human message and that's
+- [24:13] it. But now, we're going to also store
+- [24:15] the AI message. And then there's also
+- [24:17] this system message. This one, the
+- [24:19] system message is essentially telling
+- [24:21] our large language model to be able to
+- [24:23] it it gives instructions to it. If you
+- [24:26] don't want to give instructions via the
+- [24:28] human message and you just want it to be
+- [24:30] infused, uh we use a system message. Uh
+- [24:33] don't worry if you didn't understand
+- [24:34] that, it will make much more sense when
+- [24:36] we actually code this up. But back to
+- [24:38] this union type annotation. So union is
+- [24:41] a type annotation that allows for a
+- [24:44] variable to be more than one data type.
+- [24:46] For example, in this very very uh dead
+- [24:49] simple function which I created, it uses
+- [24:52] a a variable called value and I used a
+- [24:55] union type annotation and it allows this
+- [24:58] variable value to be either an integer
+- [25:00] or a float. So like I said, uh this
+- [25:04] variable value can only be an integer or
+- [25:07] float. So it can't be anything like a
+- [25:09] string or a boolean or any custom data
+- [25:11] type I make only these two. So hopefully
+- [25:14] you now understand what a union is. So
+- [25:17] if we go back to uh our code, we create
+- [25:21] a new state class agent state type
+- [25:24] dictionary again and we again only have
+- [25:27] one single key messages. Last time we
+- [25:30] had user message but this time we're
+- [25:32] storing every single message. We've
+- [25:34] stored this as a union. This could be
+- [25:36] human message, AI message, and system
+- [25:37] message. These are the three message
+- [25:39] types we'll be covering in this agent.
+- [25:41] And we're going to be storing this in a
+- [25:43] list format. So again, I've used the
+- [25:45] same LLM and defined it here. Uh we've
+- [25:48] mentioned what uh model is. We've
+- [25:50] mentioned what a temperature is. And now
+- [25:52] I'm going to be I'm going to be creating
+- [25:54] this variable. And this is called a
+- [25:56] conversation history. So this is where
+- [25:59] the system message comes in. So it says
+- [26:01] you are an AI assistant that speaks like
+- [26:03] a pirate. Answer all of my questions
+- [26:05] properly. Now the reason I've said speak
+- [26:08] like a pirate is really to show you the
+- [26:10] value of system message. The system
+- [26:12] message is slightly different to the
+- [26:14] human message in the sense that the
+- [26:16] system message is purely just
+- [26:18] instructions which the uh AI agent has
+- [26:21] to follow every single time. But whereas
+- [26:23] a human message well that's dependent on
+- [26:25] me right in this case I want the AI
+- [26:28] agent to be able to speak like a pirate
+- [26:30] every single time it answers back. So it
+- [26:34] will craft its AI message in that way in
+- [26:37] this case like a pirate. So we're now
+- [26:40] going to uh define another node in this
+- [26:42] case our processing node. So this node
+- [26:45] uh this underlying function uh of the
+- [26:47] node is slightly more complicated in the
+- [26:50] sense that although we've uh sent the
+- [26:52] response again this time we're not uh
+- [26:55] sending just the human message we're
+- [26:57] sending the uh her message the system
+- [26:59] message the AI message everything. Why?
+- [27:02] because well in our state we've defined
+- [27:04] it like that. We've defined it as a list
+- [27:06] of either human message, AI message or
+- [27:08] system message, right? All of that is
+- [27:10] going to get passed into our LLM. Now we
+- [27:13] update this uh state and this is where
+- [27:17] the context or the memory comes in
+- [27:19] because of this line. It appends this
+- [27:22] state and that allows for the AI agent
+- [27:25] to essentially recall what's happened in
+- [27:27] the previous queries in the
+- [27:28] conversation. So although we're still
+- [27:31] sending separate API requests, it kind
+- [27:33] of it will act like it know it's like a
+- [27:36] flowing conversation. Now obviously
+- [27:37] there are pros and cons to this which
+- [27:39] we'll discuss in just a bit. But going
+- [27:41] back to the code this again I print the
+- [27:43] response or content and I finally return
+- [27:46] the updated state. Now this time
+- [27:47] remember we've also updated the state
+- [27:49] because of this line because we've
+- [27:50] appended it and that's why I had also
+- [27:53] created this as a list to be able to
+- [27:55] append our new uh new state. If we go to
+- [27:58] this line now again it's the exact same
+- [28:02] syntax which was in the simple agent.
+- [28:04] The overall graph structure hasn't
+- [28:06] changed at all. You can see that we have
+- [28:08] the same start point. We have an end
+- [28:10] point. I have changed the name of the
+- [28:12] function to help you get familiar with
+- [28:14] uh the syntax. The add note I can save
+- [28:17] this as whatever I want. I can name this
+- [28:19] as another new node or something. And
+- [28:22] this is the underlying function which is
+- [28:24] our processing node. Right? And again we
+- [28:26] have the start and end point. But a very
+- [28:28] very common mistake is this in a lang
+- [28:31] graph which is we mess up the names of
+- [28:34] our nodes. So that's why I like to keep
+- [28:36] these nodes quite simple and intuitive.
+- [28:39] Don't try to name it something like
+- [28:42] completely out of the blue. Try to name
+- [28:43] it like um something intuitive something
+- [28:46] easy to remember and something which
+- [28:47] makes sense. In this case LLM node does
+- [28:50] make sense. So that's why I've kept it.
+- [28:52] And let's now run this. So we can run
+- [28:56] this, run that,
+- [29:00] that. And we're back. Perfect. So let's
+- [29:04] try this simple agent. So now I ask it,
+- [29:06] hi, who are you?
+- [29:10] So what do you think it will output this
+- [29:13] time? Think about it.
+- [29:17] Okay. So, obviously you're not going to
+- [29:19] guess it uh word by word, but I hope you
+- [29:22] said something like it will uh give us
+- [29:24] an answer in a pirate themed manner. And
+- [29:27] again, it does because we set the system
+- [29:29] message or instructions here.
+- [29:33] If we go here, it says, "Ahoy matey, I
+- [29:36] be your trusty AI assistant here to help
+- [29:39] you." Whatever, whatever. Okay. Now let
+- [29:41] me remove this break line and let's run
+- [29:44] this again. So I'll again ask it hi.
+- [29:49] Perfect. Now I'm going to ask say my
+- [29:51] name again. So my
+- [29:54] name is Okay. Perfect. Still all good.
+- [29:57] And now let me ask it what is my
+- [30:02] name? If I can spell.
+- [30:05] Perfect. Ye be called Va Savvi. It still
+- [30:08] speaks in a pythine manner and it still
+- [30:11] is able to remember what I just asked
+- [30:13] him. Why? Because every single time in
+- [30:16] our node we are appending the uh update.
+- [30:20] We're appending the new state. So we're
+- [30:22] getting an updated state. I can also
+- [30:24] print the current how the current state
+- [30:26] looks like to be able to give you a
+- [30:28] better intuition. So if I stop this.
+- [30:32] Okay, that's just a keyboard interrupt.
+- [30:34] Don't worry about that. Let's run this
+- [30:36] again. Let me actually break this so it
+- [30:39] keeps everything simple.
+- [30:42] Actually, let's do this.
+- [30:46] Stop and run. Okay, now look at how the
+- [30:50] state gets updated. So again, I'm going
+- [30:52] to write hi
+- [30:54] ao mi whatever. But our current state
+- [30:57] looks like this. This new print
+- [30:59] statement was what I've just added here.
+- [31:02] And this is again to show you how the
+- [31:03] state changes. So if you look here uh it
+- [31:07] says uh the system message which is you
+- [31:10] are an AI assistant then the human
+- [31:13] message which is hi and then it also
+- [31:15] says the AI message. And why does it
+- [31:18] store all of these three message types?
+- [31:20] Well it's because we had defined them
+- [31:21] here. Okay. So hopefully everything is
+- [31:25] like piecing together now. And now look
+- [31:28] at how we change the how the state gets
+- [31:31] updated. So again I'll write uh I can
+- [31:33] write something like who are you?
+- [31:37] Okay it's now given me the new response
+- [31:39] but now look at how the current state is
+- [31:42] the state is content you are an AI
+- [31:44] assistant that stays the same. Then we
+- [31:46] have the human message which is hi which
+- [31:49] was the first message we we've ever
+- [31:51] written. And then we have the its
+- [31:54] respective uh AI message which is here
+- [31:58] and then we have the human message again
+- [32:00] the new human message which is who are
+- [32:03] you which I just asked it and then this
+- [32:05] new AI response is right here. And also
+- [32:09] one more thing remember uh earlier I had
+- [32:11] said we do response.content content is
+- [32:14] because look at all this unnecessary
+- [32:16] metadata. For example, this additional
+- [32:18] keyword arguments, response metadata. It
+- [32:21] can also sometimes output the input
+- [32:23] tokens, output tokens, which we just
+- [32:24] don't want. We want a clean content and
+- [32:27] that's why we just use the content uh
+- [32:30] method response.content. Hopefully, you
+- [32:33] started to understand how this state
+- [32:35] works and why it gets updated like this.
+- [32:37] to summarize it stores in this case it
+- [32:40] stores the human message the AI message
+- [32:43] and the system message and every time
+- [32:45] we've run it again or we ask a query it
+- [32:48] gets appended why it it gets appended
+- [32:51] because we uh wrote append right and it
+- [32:54] gets stored in a list format and it can
+- [32:56] take either a human message AI message
+- [32:57] or system message and that's why because
+- [33:00] we're appending it it gets sent to the
+- [33:03] uh back of the list so we can now stop
+- [33:06] But cool. That's a keyword argument.
+- [33:09] Perfect. But but I had said there are
+- [33:12] pros and cons to this agent. So we have
+- [33:16] a problem. As our conversation increases
+- [33:18] in size, we will use more input tokens.
+- [33:22] And because we are using a paid model,
+- [33:24] an open AI model, it means more cost per
+- [33:27] API call gradually. So for example,
+- [33:30] right now we are working in like tenth
+- [33:33] of a cent but gradually as a
+- [33:35] conversation builds builds builds we
+- [33:37] might be at the point where we're
+- [33:39] sending thousands and thousands and
+- [33:40] thousands of tokens every single API
+- [33:43] call and that keeps getting appended
+- [33:45] because we haven't set any hard limit.
+- [33:47] So the simplest simplest way to reduce
+- [33:50] the cost if you're using this memory uh
+- [33:52] this way of memory is to set a
+- [33:55] restriction of the number of messages
+- [33:57] you store. So you could limit it to the
+- [34:00] last five messages. The reason I've said
+- [34:02] last five messages is because of recency
+- [34:04] bias because you're more likely to be
+- [34:07] sending new or the more relevant
+- [34:09] important information in the previous
+- [34:12] end number of messages. The number five
+- [34:14] I've just set it as arbitrary. You can
+- [34:16] set it as seven. You can set it as 10.
+- [34:18] You can set whatever you want if you go
+- [34:20] with this technique. But yeah, this is a
+- [34:22] very very very easy way of being able to
+- [34:25] create uh a form of memory for your AI
+- [34:28] agent with very very limited number of
+- [34:31] code lines. That's the second agent
+- [34:33] done. So well done. We're making good
+- [34:35] progress. But now it's time to take our
+- [34:37] AI agents to a whole new level. Remember
+- [34:40] at the start where I asked you the two
+- [34:42] questions here,
+- [34:44] I had put tools as uh in bold. Now we
+- [34:48] actually talk about it. Agent three is
+- [34:51] agent with inbuilt tools. Now there's
+- [34:53] two types of tools in Langraph. There's
+- [34:54] the in-built tools and there are your
+- [34:57] own custom tools. For this agent, we
+- [34:59] will be using the in-built tools and I
+- [35:01] want to talk about them because they are
+- [35:02] important and they can save you a lot of
+- [35:04] time as well. So until now what we've
+- [35:07] built is really just the LLM, right?
+- [35:09] There's no clear distinction between an
+- [35:11] LLM and an AI agent. Everything which
+- [35:14] we've done so far, well, you could have
+- [35:15] just asked an LLM simply to do without
+- [35:18] needing the overall the overhanging
+- [35:21] Langro code, right? But now, here's
+- [35:23] where Langroth gets really like useful.
+- [35:26] But so now we're going to upgrade. So
+- [35:28] we're going to be creating an AI agent,
+- [35:30] a true AI agent this time, which has
+- [35:32] access to different tools. So the aim is
+- [35:35] to be able to understand what tools and
+- [35:37] conditional edges are to be able to
+- [35:38] understand what the base message is to
+- [35:41] be able to understand the annotated type
+- [35:43] annotation a new type annotation which
+- [35:44] we're going to learn and also how to
+- [35:47] access inbuilt tools in langraph. Okay,
+- [35:50] so let's get started with what tools and
+- [35:52] conditional edges are. And these are the
+- [35:54] last two fundamental building blocks
+- [35:56] which you'll need. And if you master
+- [35:58] these five uh building blocks here,
+- [36:02] state, nodes, edges, graph, state graph,
+- [36:05] and then these last two which are tools
+- [36:08] and conditional edge. You can really
+- [36:10] build any robust AI agent out there.
+- [36:13] Almost any AI agent out there using
+- [36:14] Langraph only if you are able to master
+- [36:17] these uh certain tools uh certain
+- [36:19] fundamental building blocks. Okay. So
+- [36:21] what is a tool? Think of a tool as a
+- [36:24] specialized function that the agent can
+- [36:26] utilize to perform specific tasks. It
+- [36:29] could be to fetch data from an API. For
+- [36:32] example, from a weather API, it can uh
+- [36:35] get the weather and that would be your
+- [36:37] weather tool. So going back to the game
+- [36:40] analogy, it could be something the
+- [36:42] player aka our agent can use like a
+- [36:45] weapon or a healing potion which I've
+- [36:47] created here to perform a specific
+- [36:50] action. This is very important. The aim
+- [36:53] of a tool is to be able to allow our LLM
+- [36:56] to be able to perform a specific action.
+- [36:58] So what is a conditional edge? So these
+- [37:01] are specialized connections that decide
+- [37:03] the next node to execute based on the
+- [37:06] specific conditions or logic applied to
+- [37:08] the current state. Damn, that's a
+- [37:09] mouthful, right? So a good analogy for
+- [37:12] this is going back to a video game
+- [37:14] analogy and it's thinking of like a path
+- [37:16] that only opens if a condition is met.
+- [37:19] Kind of like an if else statement. We're
+- [37:21] going to understand these two in more
+- [37:24] depth right here. So these are all the
+- [37:26] imports which we're going to need. And
+- [37:28] it's a lot more import than last time,
+- [37:30] right? Really, we've only added this
+- [37:32] this line which is annotated. Then we've
+- [37:35] used from langching.cord on messages.
+- [37:37] And we've imported all of these new
+- [37:38] stuff, particularly base message. We're
+- [37:41] going to talk about what a base message
+- [37:42] is soon. But going to the imports, we
+- [37:45] already know chat openai. And then
+- [37:47] there's this new line of code from
+- [37:50] langro.graph message import add
+- [37:52] messages. So this is called a reducer
+- [37:55] function. You don't need to know what a
+- [37:57] reducer function is in depth, but think
+- [38:00] of a reducer function as basically being
+- [38:02] able to add your messages without them
+- [38:04] being overwritten. That's a very very
+- [38:07] simple way to put what add messages
+- [38:09] reducer function does. We will code this
+- [38:11] up in just a bit. But there's also these
+- [38:14] two. So the duck go search run is a
+- [38:18] inbuilt tool uh which lang chain has.
+- [38:21] We're going to be talking about where
+- [38:22] you can get access to these tools. And
+- [38:24] then there's this tool node which is
+- [38:26] essentially just the fusion of a tool
+- [38:28] and a node. Kind of like how the state
+- [38:30] graph was the fusion of the state and
+- [38:33] the graph. So the annotated is a type
+- [38:37] annotation. So it allows for a variable
+- [38:40] to be more than one data type. Now it's
+- [38:42] very similar to what a union was right.
+- [38:45] So it allows for uh for in example in
+- [38:49] this case it's an integer and an age
+- [38:52] which which is x. and I've set it to as
+- [38:54] 20. So it basically allows us to provide
+- [38:57] extra information about the type of
+- [38:59] value. In this case, we're providing age
+- [39:02] as extra information about the variable
+- [39:04] x. Now sequence is another type
+- [39:06] annotation which allows a variable to be
+- [39:08] any ordered collection. So it could be
+- [39:10] like a list or a pupil or a string or
+- [39:13] whatever. There's a slight difference
+- [39:15] between what a list and a sequence is.
+- [39:17] You don't need to know about this in
+- [39:19] depth. The reason I've included sequence
+- [39:21] here is because we've used that in the
+- [39:22] code. So if we go to here from typing
+- [39:25] import sequence, uh it's really similar
+- [39:28] to what a list is. Uh but there's a
+- [39:30] slight difference which is a sequence is
+- [39:32] a read only access to any order data
+- [39:35] type. But a list is a mutable ordered
+- [39:37] collection. So a sequence is only used
+- [39:40] when you only need to read the data, not
+- [39:42] modify it. And a list is you can add,
+- [39:45] remove or change items in it. That's why
+- [39:46] we've used a reducer function for the
+- [39:48] sequence which you're going to see in a
+- [39:50] minute. Now, what is a base message?
+- [39:52] Remember, we just imported what what the
+- [39:55] base message was uh right here. So, what
+- [39:58] exactly is it? Think of the base message
+- [40:01] as the parent class of all of the
+- [40:04] different types of messages such as the
+- [40:06] human message, AI message, system
+- [40:08] message. Now there's so many different
+- [40:10] message types in langraph and lang chain
+- [40:13] that it could be quite cumbersome to
+- [40:15] write all of them and to make sure we've
+- [40:17] got all of them. So we can just simply
+- [40:19] put base message. So again think of base
+- [40:22] message as the parent class and human
+- [40:24] message AI message as the children
+- [40:26] classes which inherit all the properties
+- [40:28] of the base message and also have their
+- [40:31] own uh properties respectively. Right?
+- [40:33] So that is what a base message is. Now
+- [40:36] going back to the inbuilt tools in
+- [40:39] Langra and Langraph have a lot of
+- [40:40] inbuilt tools. So this is where the
+- [40:43] documentation is. So if I follow the
+- [40:45] link, we come to this. Now this is a
+- [40:48] really well-written documentation and
+- [40:50] they have a lot of tools um inbuilt
+- [40:53] already. For example, there's searches,
+- [40:55] there's for code interpreters, there's
+- [40:57] for productivity, web browsing,
+- [41:00] databases, etc., etc. You get the point.
+- [41:03] There's a lot of stuff here. So you can
+- [41:06] even click on anything. For example, if
+- [41:07] we go to search and duck.go, which is
+- [41:09] what we're going to be using for this
+- [41:11] agent, you can see all of the uh
+- [41:13] documentation and it's very very very
+- [41:15] well organized. So going back to this,
+- [41:18] we I want to show you how we can use
+- [41:20] this duck.go search run. So for example,
+- [41:24] I've asked it a query who won the
+- [41:26] Champions League final 2025, which
+- [41:28] recently happened. our AI agent. Well, I
+- [41:31] can show you here
+- [41:33] if I run this.
+- [41:36] Okay, so I've printed two different
+- [41:38] types here. I've printed the AI response
+- [41:40] and I've printed the duck.go search runs
+- [41:43] uh response aka the search tools. You
+- [41:45] can see that GPD40 minis says I'm sorry,
+- [41:49] but I don't have information on events
+- [41:51] that occurred after October 2021. Why?
+- [41:54] Because these models, well, their
+- [41:56] training data was up to this set date.
+- [41:58] So obviously it won't have access to um
+- [42:02] uh 2025 Champions League final, right?
+- [42:05] It we're lucky that it was able to say
+- [42:07] that it didn't because a lot of the
+- [42:10] times the model can um it can
+- [42:11] hallucinate and obviously that's quite
+- [42:13] bad. If you don't know what
+- [42:15] hallucination is, hallucination is
+- [42:16] essentially when an AI model just spits
+- [42:19] out garbage because it just needs to
+- [42:21] spit out something, right? Uh so that's
+- [42:24] what hallucination is. So it could have
+- [42:26] said something like uh the winners of
+- [42:28] Champions League final was like Real
+- [42:30] Madrid or or some something which is
+- [42:32] completely wrong or uh infactual. But
+- [42:35] look at what the search tool print did.
+- [42:37] It said PSG and Inter Milan locked horns
+- [42:39] in the final of the UFA Champions League
+- [42:41] in 2025 and it eventually says that PSG
+- [42:44] achieved a historic milestone by
+- [42:46] winning. So it was able to uh show us
+- [42:50] all of the details fully. It showed when
+- [42:52] the date was, what the time was, who
+- [42:54] won, who it was between, what date it
+- [42:57] was, everything. And you can now see if
+- [43:00] we were able to connect the tool and an
+- [43:03] AI agent together, sorry, a tool or an
+- [43:06] LLM together, it could be quite
+- [43:08] powerful, right? So that is the whole
+- [43:10] point of AI agents. And that's exactly
+- [43:12] what we're about to do right now. If we
+- [43:14] go and define our class agent state
+- [43:16] here, it's the same way how we've been
+- [43:18] defining the state in our previous
+- [43:20] agents. But this time the messages key
+- [43:23] is slightly different. We've used
+- [43:26] annotated which we just talked about
+- [43:28] which is over here. It allows us to
+- [43:31] provide extra information about the type
+- [43:33] of value. In this case, we're providing
+- [43:35] age as extra information about the
+- [43:36] variable X. So that's what annotated
+- [43:39] does. It literally is just a way to be
+- [43:41] able to provide extra information. And
+- [43:44] over here that's what we've done. So
+- [43:47] this essentially says this part is what
+- [43:49] data type the um your uh message is. So
+- [43:53] it could be either a tool message, an AI
+- [43:57] message, etc. And this all stems from
+- [43:59] the base message. Remember what is the
+- [44:00] base message? The base message is the
+- [44:03] parent class of all of the different
+- [44:04] types of messages. So and this add
+- [44:07] messages is the reducer function. And
+- [44:09] I've written in comments here. It
+- [44:11] essentially allows for the addition of
+- [44:12] messages without getting deleted. So
+- [44:14] that's all you need to know for this.
+- [44:17] Now a tip is you can use this line of
+- [44:20] these two lines of code in almost any AI
+- [44:23] agent where you just want to store the
+- [44:25] messages. It will work completely fine
+- [44:27] because you're storing the messages
+- [44:29] without any overwriting and you don't
+- [44:30] need to work uh you don't need to worry
+- [44:32] about the different message types like
+- [44:34] uh human message, AI message and all
+- [44:36] that. It covers everything. So there you
+- [44:38] go. Now we create a list of tools which
+- [44:40] we have. In this case, I will only give
+- [44:42] our AI agent the access to the doctor go
+- [44:45] search run tool. So you can have as many
+- [44:47] tools as you want. You can write
+- [44:49] something like whatever tool you want.
+- [44:51] But obviously make sure it's a proper
+- [44:53] tool. But because we're only using
+- [44:54] inbuilt tools and I want to keep this
+- [44:56] very simple. I'm only going for Dr. Go
+- [44:59] searchron tool. So now we go with the
+- [45:01] model uh definition here. I've upgraded
+- [45:04] to GPT40 here because I personally feel
+- [45:07] like GBT40 is the best LLM uh which is
+- [45:10] also reasonable in pricing uh for tool
+- [45:13] calling from the OpenAI uh services and
+- [45:16] it's also fast. I could have also used a
+- [45:18] reasoning model but obviously that would
+- [45:19] have taken more time to uh give an
+- [45:21] answer right. So how am I able to
+- [45:24] connect my LLM to uh these tools? So the
+- [45:29] way to do it is through this dobbind
+- [45:31] tools. So this is really how to give our
+- [45:35] LLM knowledge about these tools. Gives
+- [45:37] basically the access for uh it gives the
+- [45:40] LLM uh knowledge about the existence of
+- [45:43] these tools. So if I run this perfect uh
+- [45:48] now I've defined another node and this
+- [45:50] is model call. So essentially this is
+- [45:53] quite similar to what we've been doing
+- [45:54] previously. We just use uh we create
+- [45:58] system message and I'm no more pirate
+- [46:01] stuff. I have just kept it very simple
+- [46:03] saying you are my AI assistant please
+- [46:05] answer my query to the best of your
+- [46:06] ability. So it should there's no pirate
+- [46:09] stuff there's nothing just a clearcut
+- [46:11] answer to my request and then I invoke
+- [46:15] the model and now I pass the system
+- [46:18] prompt which is the system message here
+- [46:20] as well as all of the state um which we
+- [46:23] had before and then we just return the
+- [46:25] messages the response of the messages.
+- [46:28] Perfect. Okay, now here's where it gets
+- [46:32] slightly tricky. And um so pay attention
+- [46:35] here because now we're going to be
+- [46:36] defining the conditional edge. So if I
+- [46:39] quickly run this, okay, and run this.
+- [46:44] Okay, so let's go with this function. So
+- [46:48] this should continue function is the
+- [46:50] underlying action behind the conditional
+- [46:53] edge. The conditional edge is a decision
+- [46:56] element at the end of the day. So it in
+- [46:58] this line of uh in this function what
+- [47:00] we've done is we take the messages. So
+- [47:03] we copy the latest state into the
+- [47:05] messages variable and then we look at
+- [47:07] the last message. Now there's a reason
+- [47:09] we look at the last message and it's
+- [47:11] mainly to look for if there's any
+- [47:14] further tool calling. Why? Because if
+- [47:17] there's no further tool calling required
+- [47:19] in the last message, well we can just
+- [47:21] end. That's what this line of code says.
+- [47:23] If not last message tool cause. So if it
+- [47:26] doesn't need any more tools, it just
+- [47:28] ends the thing. Else we return and uh
+- [47:31] else we return continue. So continue is
+- [47:34] an edge and end is an edge as well. And
+- [47:36] this will make a lot more sense in just
+- [47:38] a minute. Just bear with me. I want to
+- [47:41] create the graph itself first. So we
+- [47:44] again use state graph agent state. We
+- [47:47] use the add node method which we've done
+- [47:49] to uh add this node which is the model
+- [47:51] calling which is very very similar to
+- [47:53] our previous two AI agents. And then we
+- [47:55] create a tool node. Now a tool node is
+- [47:58] essentially just a node that neatly
+- [48:00] contains all of the tools we want our
+- [48:02] agent to have. So it basically is one
+- [48:05] single node which will have all of these
+- [48:07] tools neatly arranged. So we don't need
+- [48:09] to worry about all of the internal
+- [48:11] mechanics. So that's what this line of
+- [48:13] code does. And then we add this node as
+- [48:15] tools in our graph. So visually speaking
+- [48:18] we have created this this tool node
+- [48:21] here. Here's the uh the obviously the
+- [48:23] set entry point is our agent. So this is
+- [48:25] another way you can define a start and
+- [48:28] an end point in uh langraph. You can
+- [48:31] either use end or end start or you can
+- [48:33] use dot set entry point and dot set
+- [48:36] finish point or dot set end point in
+- [48:38] langraph. There's multiple ways. I don't
+- [48:40] personally have a preference but you can
+- [48:41] use both ways. So that's why I've
+- [48:43] written it like this. At the end of the
+- [48:45] day, you need to define your start and
+- [48:48] your end point somehow. And there's
+- [48:49] multiple ways to do it. That said, but
+- [48:52] how do we create this conditional edge?
+- [48:54] If we go to this uh line of code, it
+- [48:56] says graph.add conditional edges. So
+- [48:58] this internal method essentially creates
+- [49:01] the conditional edge for us. Now you can
+- [49:03] have many many many conditional edges
+- [49:05] within your uh langraph or within your
+- [49:07] graph, but in this case, we're just
+- [49:10] sticking with one. So for this method
+- [49:13] the add conditional edges we have the
+- [49:16] first parameter needs to be the origin
+- [49:18] and this is our agent. Now what is our
+- [49:20] agent? Our agent is the node which we
+- [49:22] just created. This is where all the
+- [49:24] model calling gets passed. Then we have
+- [49:26] the underlying action. So similar to how
+- [49:29] the node needed the name of the node and
+- [49:32] the underlying action aka the function
+- [49:34] behind this node which in this case was
+- [49:36] a model call. Similarly, our underlying
+- [49:39] action is should continue which is this
+- [49:42] function or this underlying logic. It
+- [49:45] returns two parts. It returns either an
+- [49:47] end or it returns a continue. So if it
+- [49:50] returns end, we go to the end part. Then
+- [49:53] you can see this dotted edge line here
+- [49:55] that it returns end. It goes to the end
+- [49:58] point. But if our underlying function,
+- [50:00] the should continue function return
+- [50:03] continue. Well, that means it still
+- [50:04] needs to run some more tools and that's
+- [50:06] why it goes back to the tool node. So
+- [50:09] from this it goes our agent continue and
+- [50:12] this goes to the end if there's no more
+- [50:14] tool calling left. But the graph would
+- [50:17] still not be complete if we had left it
+- [50:19] by this point because if you go to your
+- [50:22] tools there's no way to go back to your
+- [50:24] agent and that's where you create this
+- [50:27] new edge as well. And this this edge
+- [50:29] goes from tools to our agent. Uh the
+- [50:32] direction is from the start point tools
+- [50:34] and the end point our agent. Now that
+- [50:36] was quite a lot. So I'm going to
+- [50:38] summarize it one more time which is this
+- [50:40] the it starts with the start point with
+- [50:42] this set entry point. Then we define our
+- [50:45] node our agent which we've been doing
+- [50:47] for the past uh three AI agents now and
+- [50:50] that was through this. Then we created
+- [50:53] our conditional edge which was either
+- [50:55] continue
+- [50:56] or end. Uh and the underlying function
+- [50:59] behind that was this should continue
+- [51:01] function. And lastly we needed to create
+- [51:04] an edge which goes from tools to our
+- [51:06] agent which was through this. And then
+- [51:09] we compile the graph and then we send
+- [51:11] this to uh visualize it. So let's just
+- [51:13] run this to make sure everything is
+- [51:15] working. And now let's actually try
+- [51:17] this. So this fancy piece of code which
+- [51:20] I've written here is really just a way
+- [51:23] of making the print statements or the
+- [51:26] output look better. So all it says is
+- [51:28] basically u if it's a human message you
+- [51:31] write human message. If it's an AI
+- [51:33] message write a AI message. If it's a
+- [51:34] tool message write a tool message. You
+- [51:36] get the point. It's just a way to neatly
+- [51:38] organize it. So you can steal this piece
+- [51:40] of code if you uh want to um uh
+- [51:43] visualize your uh outputs in a much
+- [51:46] neater way. So now I pass in the query
+- [51:49] who won the Champions League final in
+- [51:51] 2025. Uh the same query I had passed
+- [51:54] before. And notice the tool message
+- [51:57] which was this massive piece of um
+- [52:00] output and then the AI message the final
+- [52:03] AI message which was PSG won in 2025
+- [52:06] defeating Inter Milan with a final
+- [52:07] victory at this display this place. What
+- [52:10] exactly happened here? Let's go through
+- [52:12] the workflow. So we passed in a query
+- [52:14] which was at the start and then we
+- [52:16] passed it to our agent. Then AI agent
+- [52:19] decided okay the user wants to do a
+- [52:23] searching. How did it decide that? Well,
+- [52:25] the an internal LLM GPD40 decided okay
+- [52:28] the user wants to search. So it used
+- [52:31] tool calling search aka this over here.
+- [52:35] It used the duck.go search here uh with
+- [52:38] it uh with his respective call ID and
+- [52:40] with the respective query and the query
+- [52:42] which was passed to the actual duck.go
+- [52:45] search was Champions League final 2025
+- [52:48] winner. It's slightly different with the
+- [52:50] human message. So you can see that the
+- [52:53] AI the LLM in the background decided
+- [52:56] what to pass or what the argument to
+- [52:58] pass to this Dr. Go search was and the
+- [53:02] Dr. Go search returned the tool uh
+- [53:04] returned this output. How did it uh
+- [53:07] return it? It went through this edge
+- [53:09] over here and passed all of the output
+- [53:12] aka all of this output back to our
+- [53:15] agent. Then our agent decided whether we
+- [53:18] need any further tool calling because we
+- [53:20] only asked for one thing. We don't need
+- [53:22] any further more further tool calling
+- [53:25] right. Uh and because of this logic
+- [53:27] which we defined in this we just return
+- [53:29] end. So it goes to the endpoint and it
+- [53:32] outputs the result which was PSG won the
+- [53:34] Champions League final in 2025. So that
+- [53:38] was how we can create a robust AI agent
+- [53:42] by connecting an LLM with a tool. So
+- [53:45] great job so far. That was quite a lot.
+- [53:48] But remember, practice makes perfect. So
+- [53:50] try to create your own AI tools. Try to
+- [53:52] go to this documentation and try to
+- [53:55] create uh try to pick up any of these
+- [53:57] tools and just build. There are also
+- [54:00] free and paid. So be mindful of that. I
+- [54:02] used a free tool, but there's a lot of
+- [54:04] uh there's a lot of options. So feel
+- [54:07] free have at it. Now I'm going to
+- [54:08] introduce you to a new piece of
+- [54:10] terminology which is a react agent. So a
+- [54:15] react agent stands for reasoning and
+- [54:17] acting agent. Uh they look like this in
+- [54:20] a nutshell. So you have your start and
+- [54:22] your uh endpoint. Then you have your
+- [54:24] agent in the middle and then you have a
+- [54:26] loop which uses uh which keeps going
+- [54:30] with the tools and back and forth. But
+- [54:32] hold on. Doesn't this look a bit
+- [54:34] familiar? If you if you scroll slightly
+- [54:36] up, if I hide this output, you can see
+- [54:38] that this is almost exactly, if not
+- [54:41] exactly the same as this, the these
+- [54:44] graphs are isomeorphic. So, they're just
+- [54:45] translated differently. The tools in the
+- [54:47] endpoint have switched uh positions, but
+- [54:49] you can see that this and this are
+- [54:51] exactly the same. So, what we just did
+- [54:54] was create a React agent. And React
+- [54:57] agents are really, really, really common
+- [55:00] in industry and in personal projects.
+- [55:02] Now because they are so common and they
+- [55:05] first of all they're common because
+- [55:06] they're quite robust. Because they're so
+- [55:08] common, Langraph implemented its own
+- [55:11] custom method uh within its library. Now
+- [55:14] this will make things a lot easier.
+- [55:16] After this you will have one question
+- [55:18] which is why did I go through all of
+- [55:20] this line of code and it was really to
+- [55:23] be able to teach you about conditional
+- [55:25] edges and tools. So if you've mastered
+- [55:28] that uh you can now create the same
+- [55:32] react agent the exact same react agent
+- [55:34] in very few lines of code and this is
+- [55:36] how you do it. So agent 4 react agent
+- [55:39] the easy way to create these agents. So
+- [55:43] the aim of this is really how to create
+- [55:45] react agents fast. So these are all of
+- [55:48] the new libraries uh the meth all the
+- [55:50] imports you need to make and there's
+- [55:52] only one new input which you need to
+- [55:53] make which is create react agent. This
+- [55:56] will be the uh method in the inbuilt
+- [55:58] method which will be able to create
+- [56:00] these react agents for us. So we again
+- [56:04] define the list of tools and we have our
+- [56:07] LLM chat openai and again we're using
+- [56:10] GPT40 shock and this is how we create
+- [56:14] the exact same react agent through very
+- [56:17] few lines of code. So we use the inbuilt
+- [56:20] method. We pass whatever model we want.
+- [56:23] In this case, we're going to be using
+- [56:24] chat GBD40 from OpenAI. We are going to
+- [56:26] pass in the list of tools. We're going
+- [56:28] to name our agent search agent because
+- [56:31] it's spitting, right? It only has access
+- [56:33] to the doctor go search run tool and our
+- [56:36] prompt aka our system message. Uh so you
+- [56:38] are my AM you are my AI system is the
+- [56:41] exact same thing. You don't need to
+- [56:42] specify that this is a system message
+- [56:44] because uh the internal mechanics
+- [56:46] handles that for you. So if I run this
+- [56:49] and this perfect, it should work. Okay,
+- [56:52] awesome. And if I print this again,
+- [56:56] you can see the almost the exact same
+- [56:58] thing was outputed in very few lines of
+- [57:01] code. The tool calling we did was
+- [57:03] duck.go search with the uh this query
+- [57:06] and the final answer was this. So in
+- [57:09] what few like three or four lines of
+- [57:12] code, we were able to completely
+- [57:13] replicate what we had done in the
+- [57:15] previous AI agents. So if you need to
+- [57:17] create React agents files or just create
+- [57:19] React AI agents in general after you've
+- [57:22] mastered what a conditional edge and a
+- [57:24] tool is, you can just create this uh you
+- [57:26] can just use this inbuilt method. It
+- [57:27] makes things so much easier. Yeah. So
+- [57:29] we've achieved the same result in much
+- [57:31] fewer lines. But now we go to agent 5.
+- [57:34] And your question might be this. How do
+- [57:36] we is there a way to create our agents
+- [57:39] using our own tools? And the short
+- [57:42] answer is yes, obviously. So what if we
+- [57:45] want to make our own tools? After all,
+- [57:47] Langro would have all the inbuilt tools
+- [57:49] we want, right? So that's the aim of
+- [57:51] this agent. Also, please note that we're
+- [57:53] going to be using the inbuilt method to
+- [57:55] create these React agents from now on.
+- [57:57] Uh the reason is well, if I write all of
+- [58:00] this unnecessary code again, it will
+- [58:01] just get messy and it will just be
+- [58:04] unreadable. If we import this, oh that's
+- [58:06] agent 4. If we import this, perfect. So
+- [58:10] this is the new line of code and this
+- [58:12] line of code essentially tells langraph
+- [58:15] that this function is a tool or a
+- [58:18] specialized function. So how do we
+- [58:20] actually define a tool in langraph our
+- [58:23] own tool. So you use at tool which is a
+- [58:26] decorator and this decorator basically
+- [58:29] tells langraph that this is a special
+- [58:30] function aka in this case it's a tool
+- [58:33] and in this case I have just created a
+- [58:35] very very dead simple tool which is the
+- [58:37] weather tool. So it basically gives the
+- [58:39] weather in a given city. So the two most
+- [58:42] important things which you need to know
+- [58:44] uh which you need to be mindful of when
+- [58:46] creating your own tools is using this
+- [58:49] decorator and also this dock string.
+- [58:51] Possibly the most important thing if you
+- [58:54] don't have a dock string your entire
+- [58:56] graph will not compile. And the reason
+- [58:58] for this dock string is it tells our
+- [59:00] agent what the tool is form. In the next
+- [59:03] agent, I will tell you how to structure
+- [59:05] the docs training in a better manner.
+- [59:07] But for now, to keep it very simple,
+- [59:09] I've just said it gets the weather in a
+- [59:11] given city. So our underlying LLM will
+- [59:13] know, okay, this tool, this weather tool
+- [59:16] uh has is for getting the weather in a
+- [59:18] given city. Now your question could be
+- [59:20] the previous doctor go search tool.
+- [59:22] Where's the dock string in that? There
+- [59:24] is a dock string. If you go within the
+- [59:26] documentation, all of the dock strings
+- [59:28] are uh written by the Langraph team. So
+- [59:30] that's why you didn't need to write any
+- [59:32] dock strings for that. So let's run this
+- [59:34] as well.
+- [59:37] And again we create the same list of
+- [59:38] tools and we use the create react agent.
+- [59:41] And in this case I've named it weather
+- [59:43] agent. Why? Because well we're using the
+- [59:45] weather tool our own custom tool.
+- [59:48] Perfect. And now let's just run this. So
+- [59:51] we are invoking the tool by setting the
+- [59:54] messages uh as what is the weather in
+- [59:57] London. So the hard-coded message is the
+- [60:01] weather in this city is sunny. And if
+- [60:03] you look, the weather in London is
+- [60:05] currently sunny. You can see that it
+- [60:07] works completely as if we were using an
+- [60:10] inbuilt tool. It uses the weather tool.
+- [60:12] It sets the arguments and everything
+- [60:14] works flawlessly. Now what if we wanted
+- [60:16] in multiple tools? Well, you can do that
+- [60:18] as well in Langraph. You can. In this
+- [60:21] case, I have set the uh another created
+- [60:24] another tool which is the social media
+- [60:26] follower account. So you pass in the
+- [60:29] social media as obviously as a string
+- [60:31] and this is how you write dock strings.
+- [60:34] So you have the explanation, you have
+- [60:37] your arguments, you have what's returned
+- [60:40] and you also provide an example. All of
+- [60:42] this dock string is passed into the LLM.
+- [60:45] So obviously the more stuff you have
+- [60:47] here, the better the LLM will
+- [60:49] understand. Okay, what this person or
+- [60:52] what this tool needs me to pass in as
+- [60:54] arguments. The very simple return
+- [60:56] statement is you have 9876 followers on
+- [60:59] social media. Something random I
+- [61:01] completely make made up. But this is how
+- [61:04] you create another tool. And now look at
+- [61:07] how we've created our tools list. It's
+- [61:09] increased by one because now we're
+- [61:11] giving our AI agent our AI agent uh more
+- [61:15] tools. So again, we're using the GPT40
+- [61:18] tool, a GPD40 LN, and we're giving it
+- [61:21] access to the tools. And now I've set it
+- [61:23] as a different name, aka the general
+- [61:25] agent. The same prompt though, and let's
+- [61:28] invoke this.
+- [61:30] So this time I've asked what is the
+- [61:32] weather in London and how many followers
+- [61:34] do I have on Instagram? And then what
+- [61:36] about Twitter? So there's quite a lot of
+- [61:39] uh tool calling which will be necessary.
+- [61:41] But look at why Langro is so robust and
+- [61:44] it's the number one upcoming AI agent
+- [61:46] framework now. It's because in very few
+- [61:49] lines of code I was able to call the
+- [61:51] weather the social media follow account
+- [61:53] twice. One for Instagram and one for
+- [61:56] Twitter. And look at the final response.
+- [61:58] The weather in London is sunny which is
+- [62:00] true. And you have 9876 followers on
+- [62:03] Instagram and on Twitter as well. So in
+- [62:06] very very very few lines of code I was
+- [62:08] able to create a very robust AI agent
+- [62:12] and I can even increase by asking what
+- [62:14] about on Facebook or what about on
+- [62:16] Snapchat. You get the point. I could
+- [62:18] have also asked what is the weather in
+- [62:20] front uh what's the weather in Paris and
+- [62:22] it would have still worked flawlessly as
+- [62:24] well. So that is why AI agents in
+- [62:27] langraph are so robust because of that
+- [62:29] graph structure and this create react
+- [62:31] agent is why is also why it's so
+- [62:34] commonly used in industry and in uh
+- [62:37] personal projects. I made a promise at
+- [62:39] the start of this course that I will be
+- [62:40] using models as well and this is where
+- [62:43] it comes in models our sixth and final
+- [62:47] agent for this course. For this agent
+- [62:49] we're going to explore models. So we're
+- [62:52] going to integrate Olama models into
+- [62:53] langraph and discuss the pros and cons
+- [62:56] of Olama models. So for running these
+- [62:59] Olama models, I will run these locally,
+- [63:01] not in this data lab file, but in my own
+- [63:03] local file. So let's jump into that.
+- [63:06] Okay people. So now I'm on VS Code and
+- [63:08] I'm going to be running my Olabo models
+- [63:10] through here. In particular, I'm going
+- [63:12] to be using Quen 2.5. I personally like
+- [63:14] the Quen model series. I think they're
+- [63:16] great, but you can use any model. You
+- [63:18] can download any models. You can
+- [63:19] download Deep Seeks. you can download
+- [63:21] llama etc. In this particular case, I
+- [63:24] want to compare the performance of
+- [63:26] OpenAI and O Lama models and really show
+- [63:29] you this comparison and also show you
+- [63:31] why I used OpenAI models throughout this
+- [63:35] tutorial rather than Olama. So the only
+- [63:37] difference of imports is this one line
+- [63:39] of code and it's quite self-explanatory.
+- [63:41] It's just chat oama very similar to
+- [63:43] OpenAI. It just allows us to use Olama
+- [63:45] models. In terms of the tool, this is
+- [63:47] our own custom tool which we've already
+- [63:49] created before. It's the weather tool
+- [63:51] and this is the duck.go search run uh
+- [63:53] tool which is the inbuilt tool and now
+- [63:56] we pass this to the uh both open AAI
+- [63:59] agent uh and the OAMA agent which is
+- [64:03] over here.
+- [64:05] Uh in terms of the prompt I have set the
+- [64:08] exact same prompt in um for both in this
+- [64:11] case it will be you are my AI assistant
+- [64:13] that has access to certain tools uh use
+- [64:15] the tools to help me with my task.
+- [64:17] That's the uh prompt, the system
+- [64:18] message. And in terms of my query, I've
+- [64:21] also said it the same. So I've asked
+- [64:24] both uh LLMs or both AI agents, what is
+- [64:26] the weather in San Francisco and tell me
+- [64:29] the latest news about the stock of Apple
+- [64:30] of today and the date today please date.
+- [64:34] I've also asked it one more thing which
+- [64:36] we haven't actually asked before which
+- [64:38] is also tell me a list of tools you have
+- [64:40] please. So the correct answer should be
+- [64:43] uh that it has access to these two
+- [64:45] tools, right? Okay, so let's see how
+- [64:47] they perform. So again, it's the same
+- [64:51] create react agent. I'm just going to
+- [64:52] show you the uh the comparison between
+- [64:54] the performance of Olama and OpenAI. So
+- [64:57] I've already ran this code once and
+- [64:59] here's what the results are. So this was
+- [65:01] OpenAI Asians results. It used the
+- [65:04] following tools with this respective
+- [65:06] arguments and the final answer was the
+- [65:08] weather in San Francisco was sunny. Uh
+- [65:10] the latest news about Apple stock is
+- [65:12] this is this and it gives detail
+- [65:14] regarding the date. Today is June 12th
+- [65:16] which we also asked for. Remember we
+- [65:18] asked for what the date is uh here. Uh
+- [65:22] and the date today please.
+- [65:25] And if we go back and it also said as
+- [65:28] for the list of tools I have they
+- [65:30] include functions weather to get the
+- [65:32] weather in a given city and duck.go
+- [65:34] search to perform a search query using
+- [65:36] duck.go. Uh and that is on obviously
+- [65:40] like fully correct right. I don't really
+- [65:41] have any problem with it. It used the
+- [65:43] right number of tools. It answered every
+- [65:45] single aspect of my query properly. Now
+- [65:47] look at the Olama uh result. So if I
+- [65:51] press enter a few times here, perfect.
+- [65:53] You should be able to see that. Okay.
+- [65:55] Over here it's used the weather tool
+- [65:57] which is correct. It said latest news
+- [65:59] about uh stock today which is 12th of
+- [66:02] June 2025 which is also correct. But
+- [66:04] then it started looking for date today
+- [66:06] please 12th June which doesn't actually
+- [66:08] make any sense. And then if we look at
+- [66:11] the final answer, it says the latest
+- [66:13] news in the latest with the weather in
+- [66:15] San Francisco is sunny. The latest news
+- [66:18] is this. And then look here, it says the
+- [66:21] today's date is Tuesday, June 10th,
+- [66:23] 2025,
+- [66:25] which is wrong even though it correctly
+- [66:28] uh mentioned uh what the actual date is
+- [66:31] 12th June correctly several times
+- [66:33] before, but it did say uh it did
+- [66:35] correctly give the list of tools uh
+- [66:38] properly. It said weather inductor go
+- [66:40] search. So there's obviously clear flaws
+- [66:43] with the Olama model specifically quen
+- [66:45] 2.5. In particular I want to show you
+- [66:47] this piece of uh leaderboard. So this
+- [66:50] leaderboard is essentially in a nutshell
+- [66:53] a way to classify how good a particular
+- [66:56] model is when it comes to tool calling.
+- [67:00] So if you can see that GPD 40 ranks
+- [67:02] quite high. All of the GPD models rank
+- [67:05] quite relatively quite high. If I search
+- [67:07] up for quen 2.5 quen 2.5
+- [67:12] you can see they place this is the 72
+- [67:14] billion one 32 billion one 72 billion 32
+- [67:17] 14 14 77 73 so in my case I was using
+- [67:22] either the 3B the 7B or the 3B one of
+- [67:25] these two but you can see look at the
+- [67:27] ranks 66 and 81st compared to GPT's one
+- [67:31] which was quite highly ranked uh this is
+- [67:34] this is also in the data lab file if you
+- [67:36] access to this. This is the URL as well.
+- [67:39] But let's go back to the uh model uh
+- [67:43] model results. The point I'm trying to
+- [67:45] say state is this. I would personally
+- [67:49] use OpenAI models or Gemini models or uh
+- [67:52] these APIs even though they are paid. If
+- [67:55] you want some robust tool calling, I
+- [67:57] would highly recommend those unless if
+- [68:00] privacy is an issue. If privacy is an
+- [68:02] issue, then obviously you need to go for
+- [68:04] models, right? You could also make a
+- [68:06] counterargument here that you can't
+- [68:08] really compare GPT40 which I used here
+- [68:12] versus quen 2.5 which is like in few
+- [68:15] billion of parameters versus a trillion
+- [68:17] parameter model and that is fair but the
+- [68:20] counterargument for that is that your uh
+- [68:23] models are dependent on your computer
+- [68:25] specification right if you could run
+- [68:28] very very large model like deepsek 650
+- [68:30] billion parameter model then obviously
+- [68:32] the performance would be quite similar
+- [68:34] but to be able to run those you need so
+- [68:36] much compute and at that rate if you if
+- [68:39] privacy isn't a concern and you want
+- [68:41] something which is relatively
+- [68:43] inexpensive and still robust I would
+- [68:45] highly recommend um either OpenAI models
+- [68:48] Gemini models um these sort of models uh
+- [68:51] cuz you can see from the results they
+- [68:53] are quite a lot more robust and that
+- [68:56] brings us to the end of this tutorial
+- [68:58] and well done for completing this
+- [69:00] tutorial we've learned so much in 1 hour
+- [69:02] uh to quickly summarize what we've
+- [69:04] learned We learned how to create our own
+- [69:06] custom tools. We learned what React
+- [69:08] agents are. We learned how to use uh
+- [69:10] inbuilt tools. We learned how to uh
+- [69:13] create React agents. We learned what all
+- [69:15] the different type annotations are, the
+- [69:17] different types of messages are, the
+- [69:19] different types of uh fundamental
+- [69:21] building blocks are such as conditional
+- [69:22] edges, tools, etc. We built six agents
+- [69:25] in together. We showed how to visualize
+- [69:28] uh agents. Uh we we showed how to
+- [69:30] visualize graphs. We learned a ton of
+- [69:32] stuff. So massive massive
+- [69:34] congratulations for completing this. But
+- [69:36] remember practice makes perfect. So now
+- [69:38] go ahead and actually build these AI
+- [69:40] agents and graphs by yourself. Uh try to
+- [69:43] build any AI agent. Try to solve your
+- [69:45] own problem because remember practicing
+- [69:47] is how you're going to actually solidify
+- [69:50] your fundamentals and understanding. If
+- [69:52] you have any further questions or want
+- [69:54] to state your opinion or anything, you
+- [69:56] can write them in the comments in uh
+- [69:58] under this video. With that being said,
+- [70:00] that brings us to the end of this
+- [70:01] tutorial and I'll see you in another
+- [70:03] tutorial. Goodbye.

@@ -1,0 +1,2802 @@
+---
+collection: Founder Agent Videos - Part 4
+description: YouTube トランスクリプトコレクション（ファイル352-469）
+total_files: 118
+categories:
+  AI技術: 93
+  AI Agent Development: 20
+  AI & Technology: 4
+  Technical Tutorial: 1
+tags:
+  AI: 117
+  machine_learning: 93
+  PMF: 59
+  hiring: 46
+  team_building: 46
+  product_development: 44
+  marketing: 36
+  entrepreneurship: 35
+  startup: 35
+  investment: 32
+  funding: 32
+  Agents: 21
+  LLM: 21
+  growth: 21
+  Programming: 18
+  Tutorial: 16
+  Startup: 15
+  Automation: 13
+  OpenAI: 10
+  Anthropic: 8
+  MCP: 5
+files:
+- file: i5kwX7jeWL8.md
+  video_id: i5kwX7jeWL8
+  title: Not only have I built hundreds of AI agents myself, I've seen other people
+    build thousands for every...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Anthropic
+  - MCP
+  - Programming
+  - Tutorial
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'Not only have I built hundreds of AI
+
+    agents myself, I''ve seen other people
+
+    build thousands for every use case under
+
+    '
+- file: iF9iV4xponk.md
+  video_id: iF9iV4xponk
+  title: I think back to when I first started learning coding, I was the kid that
+    sat in the back of math cla...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Anthropic
+  - MCP
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'I think back to when I
+
+    first started learning coding,
+
+    I was the kid that sat in the back
+
+    '
+- file: iLtU0wQvCBU.md
+  video_id: iLtU0wQvCBU
+  title: Today we are replacing our marketing team with AI agents that we created
+    on a noode tool called NAN....
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - OpenAI
+  - MCP
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  - Startup
+  category: AI Agent Development
+  summary: 'Today we are replacing our marketing
+
+    team with AI agents that we created on a
+
+    noode tool called NAN. And we even built
+
+    '
+- file: iT1fWrKhD9M.md
+  video_id: iT1fWrKhD9M
+  title: So, OpenAI just launched ChadBt Atlas. This is OpenAI's own browser. So,
+    here Atlas integrates Chad ...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Tutorial
+  - Startup
+  topics:
+  - LLM Development
+  - Prompt Engineering
+  - Workflow Automation
+  - Product Development
+  category: Technical Tutorial
+  summary: 'So, OpenAI just launched ChadBt Atlas.
+
+    This is OpenAI''s own browser. So, here
+
+    Atlas integrates Chad GBT directly into
+
+    '
+- file: iV5RZ_XKXBc.md
+  video_id: iV5RZ_XKXBc
+  title: Retrieval augmented generation is the go-to way for giving your AI agents
+    access to your knowledge b...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Anthropic
+  - Programming
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  category: AI Agent Development
+  summary: 'Retrieval augmented generation is the
+
+    go-to way for giving your AI agents
+
+    access to your knowledge base. And over
+
+    '
+- file: iWtVbgqFSFg.md
+  video_id: iWtVbgqFSFg
+  title: こんにちは。イです。今週も注目のAI ニュースを見ていきましょう。今週は やはりこちらOpenAIデブデがあり ましたね。であったりジェミニ エンタープライズやMCPという標準企画
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  - OpenAI
+  topics:
+  - LLM Development
+  - Tool Integration
+  category: AI & Technology
+  summary: ''
+- file: iaZS1jer8MY.md
+  video_id: iaZS1jer8MY
+  title: This seems like a really simple way to evade detection. You put in a random
+    time in between keystrok...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - Tool Integration
+  - Workflow Automation
+  - Product Development
+  category: AI Agent Development
+  summary: 'This seems like a really simple way to evade detection.
+
+    You put in a random time in between keystrokes. This
+
+    should have been done 10 years ago. Right? But on
+
+    '
+- file: igUpMlGqyWo.md
+  video_id: igUpMlGqyWo
+  title: Faltorians uh predictability cost efficiency that is what will define AI
+    agents for the enterprise i...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'Faltorians uh predictability cost
+
+    efficiency that is what will define AI
+
+    agents for the enterprise in the future.
+
+    '
+- file: ilaDQLa1Lrk.md
+  video_id: ilaDQLa1Lrk
+  title: People that will join companies next year will be managers on day one. They
+    will just be managing a ...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Automation
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Tool Integration
+  - Startup
+  - Product Development
+  category: AI Agent Development
+  summary: 'join companies next year
+
+    will be managers on day one.
+
+    agentic-based workforce,
+
+    '
+- file: ipY_e9sldFM.md
+  video_id: ipY_e9sldFM
+  title: A while back, we had taken a look at an Aentic open-source coding agent that
+    lives directly inside y...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Automation
+  - Programming
+  topics:
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'A while back, we had taken a look at an
+
+    Aentic open-source coding agent that
+
+    lives directly inside your terminal, and
+
+    '
+- file: irg-2IfAjpo.md
+  video_id: irg-2IfAjpo
+  title: So Gemini's new file search API is awesome because it allows you to drop
+    in a document. It generates...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Automation
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'So Gemini''s new file search API is
+
+    awesome because it allows you to drop in
+
+    a document. It generates those
+
+    '
+- file: jTuwNBcsOXQ.md
+  video_id: jTuwNBcsOXQ
+  title: 疑似6ツール結局どれを使えばいいか 分からない。どれも月額料金がかかるし、 また新しいツールを覚えるのか。実はいつ も使っているジェミニでその悩みを完全に
+    解決できるようになったんです。会議の
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  topics:
+  - LLM Development
+  category: AI & Technology
+  summary: ''
+- file: jVazhPkg-8Q.md
+  video_id: jVazhPkg-8Q
+  title: Excellent. All right. Uh, hey folks. My name is Isaac Pervetera. I'm a principal
+    scientist in the ge...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - MCP
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'All right. Uh, hey folks. My name is
+
+    Isaac Pervetera. I''m a principal
+
+    scientist in the generative AI
+
+    '
+- file: jld--NLqTMg.md
+  video_id: jld--NLqTMg
+  title: はい、どうもこんにちは。ひろです。本日 はリファイトザピアMCPを連携させた 自動メール送信のAIエージェントの作り 方についてご紹介しようかなと思っており
+    ます。今まで人間が手作業で行っていた
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  topics:
+  - LLM Development
+  - Tool Integration
+  category: AI & Technology
+  summary: ''
+- file: k-Cj6H6Zwos.md
+  video_id: k-Cj6H6Zwos
+  title: I've been building AI agents since 2022, and in the grand scheme of things,
+    that's not a lot of time...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Anthropic
+  - MCP
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'I''ve been building AI agents since 2022,
+
+    and in the grand scheme of things,
+
+    that''s not a lot of time, but for AI
+
+    '
+- file: k-qPKE8pZAw.md
+  video_id: k-qPKE8pZAw
+  title: right now the AI world is on fire with new models dropping left and right
+    and in today's video we're...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Anthropic
+  - Programming
+  - Tutorial
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'right now the AI world is on fire with
+
+    new models dropping left and right and
+
+    in today''s video we''re going to figure
+
+    '
+- file: kG69Ry0kXXM.md
+  video_id: kG69Ry0kXXM
+  title: you're using Claude Code for web wrong. If you use it the right way, your
+    entire Claude Code workflo...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Anthropic
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'you''re using Claude Code for web wrong.
+
+    If you use it the right way, your entire
+
+    Claude Code workflow will 10X. In this
+
+    '
+- file: k_5NcmxWlVg.md
+  video_id: k_5NcmxWlVg
+  title: Today I'm going to be building a lead generation and outreach system right
+    here in front of you guys...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Anthropic
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'Today I''m going to be building a lead
+
+    generation and outreach system right
+
+    here in front of you guys just using my
+
+    '
+- file: khZS7dMkqek.md
+  video_id: khZS7dMkqek
+  title: Music Hey, hey, hey. Music
+  speaker: Unknown
+  tags: null
+  topics: null
+  category: AI & Technology
+  summary: ''
+- file: kmAXSlpPyvE.md
+  video_id: kmAXSlpPyvE
+  title: What if I told you that you could run more AI workloads on your existing
+    infra while cutting inferen...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'What if I told you that you could run
+
+    more AI workloads on your existing infra
+
+    while cutting inference cost up to 98%
+
+    '
+- file: knT3kN4EpOo.md
+  video_id: knT3kN4EpOo
+  title: I have shot a video before about using GPUs in Cloud Run. Viewers asked in
+    the comments about a real...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Programming
+  topics:
+  - AI Agents
+  - LLM Development
+  - Tool Integration
+  - Workflow Automation
+  - Product Development
+  category: AI Agent Development
+  summary: 'I have shot a video before about using
+
+    GPUs in Cloud Run. Viewers asked in the
+
+    comments about a realistic application
+
+    '
+- file: l3u_FAv33G0.md
+  video_id: l3u_FAv33G0
+  title: So, is human intelligence going to be the upper limit of what's possible?
+    >> I think absolutely not....
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'So, is human intelligence going to be
+
+    the upper limit of what''s possible?
+
+    >> I think absolutely not.
+
+    '
+- file: l5GLvMlfIyg.md
+  video_id: l5GLvMlfIyg
+  title: Hello all, my name is Krishna and welcome to my YouTube channel. So guys,
+    I am super excited to anno...
+  speaker: Krishna
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Automation
+  - Programming
+  topics:
+  - AI Agents
+  - LLM Development
+  - Tool Integration
+  - Workflow Automation
+  - Product Development
+  category: AI Agent Development
+  summary: 'Hello all, my name is Krishna and
+
+    welcome to my YouTube channel. So guys,
+
+    I am super excited to announce a new
+
+    '
+- file: l93vxp-jcvY.md
+  video_id: l93vxp-jcvY
+  title: Music Welcome to venturebe in conversation. Joining me today is Mike Hanley,
+    chief security officer ...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - Programming
+  - Startup
+  topics:
+  - AI Agents
+  - Tool Integration
+  - Workflow Automation
+  - Product Development
+  category: AI Agent Development
+  summary: 'Welcome to venturebe in conversation.
+
+    Joining me today is Mike Hanley, chief
+
+    security officer and senior vice
+
+    '
+- file: lB8jythC-vQ.md
+  video_id: lB8jythC-vQ
+  title: All right, so we're gonna welcome back Matt Marshall to the stage and he's
+    going to be chatting with...
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - OpenAI
+  - Anthropic
+  - Automation
+  - Programming
+  - Tutorial
+  - Startup
+  topics:
+  - AI Agents
+  - LLM Development
+  - Prompt Engineering
+  - Tool Integration
+  - Workflow Automation
+  category: AI Agent Development
+  summary: 'All right, so we''re gonna welcome back
+
+    Matt Marshall to the stage and he''s
+
+    going to be chatting with Andrew at Deep
+
+    '
+- file: lcNN3X9gXls.md
+  video_id: lcNN3X9gXls
+  title: '- URL: https://www.youtube.com/watch?v=lcNN3X9gXls'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=lcNN3X9gXls
+
+    - Retrieved at: 2025-12-30T16:07:14+09:00
+
+    - [00:00] So NIN released their data tables which
+
+    '
+- file: leC9vkDsGqM.md
+  video_id: leC9vkDsGqM
+  title: '- URL: https://www.youtube.com/watch?v=leC9vkDsGqM'
+  speaker: ''
+  tags:
+  - hiring
+  - AI
+  - machine_learning
+  - team_building
+  topics:
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=leC9vkDsGqM
+
+    - Retrieved at: 2025-12-30T16:07:24+09:00
+
+    - [00:00] Data teams spend more time wrangling data and maintaining pipelines
+    than delivering insights. Agentic
+
+    '
+- file: lglldcu24ok.md
+  video_id: lglldcu24ok
+  title: '- URL: https://www.youtube.com/watch?v=lglldcu24ok'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=lglldcu24ok
+
+    - Retrieved at: 2025-12-30T16:07:33+09:00
+
+    - [00:00] We''re back on unsupervised learning with
+
+    '
+- file: lhr-drVknW0.md
+  video_id: lhr-drVknW0
+  title: '- URL: https://www.youtube.com/watch?v=lhr-drVknW0'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=lhr-drVknW0
+
+    - Retrieved at: 2025-12-30T13:30:45+09:00
+
+    - [00:00] こんにちは。チャンネルです。ついに
+
+    '
+- file: lokbsA5VXOk.md
+  video_id: lokbsA5VXOk
+  title: '- URL: https://www.youtube.com/watch?v=lokbsA5VXOk'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=lokbsA5VXOk
+
+    - Retrieved at: 2025-12-30T16:08:30+09:00
+
+    - [00:00] So if we want to have an AI agent that
+
+    '
+- file: lqokpIme47A.md
+  video_id: lqokpIme47A
+  title: '- URL: https://www.youtube.com/watch?v=lqokpIme47A'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=lqokpIme47A
+
+    - Retrieved at: 2025-12-30T16:08:50+09:00
+
+    - [00:00] In the last seven days, we''ve signed the
+
+    '
+- file: lx813D-mb7Y.md
+  video_id: lx813D-mb7Y
+  title: '- URL: https://www.youtube.com/watch?v=lx813D-mb7Y'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  - investment
+  - funding
+  topics:
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=lx813D-mb7Y
+
+    - Retrieved at: 2025-12-30T16:09:09+09:00
+
+    - [00:11] As we progress in all directions of
+
+    '
+- file: m8ohXrzqoO0.md
+  video_id: m8ohXrzqoO0
+  title: '- URL: https://www.youtube.com/watch?v=m8ohXrzqoO0'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=m8ohXrzqoO0
+
+    - Retrieved at: 2025-12-30T16:09:19+09:00
+
+    - [00:00] I''m excited to be here. Thanks everyone
+
+    '
+- file: mCS3xE81O04.md
+  video_id: mCS3xE81O04
+  title: '- URL: https://www.youtube.com/watch?v=mCS3xE81O04'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mCS3xE81O04
+
+    - Retrieved at: 2025-12-30T16:09:36+09:00
+
+    - [00:00] はい、皆さんこんにちは。にゃんとです。
+
+    '
+- file: mNcXue7X8H0.md
+  video_id: mNcXue7X8H0
+  title: '- URL: https://www.youtube.com/watch?v=mNcXue7X8H0'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mNcXue7X8H0
+
+    - Retrieved at: 2025-12-30T16:09:43+09:00
+
+    - [00:00] Welcome to the video that I have put the
+
+    '
+- file: m_dNwtoxqd8.md
+  video_id: m_dNwtoxqd8
+  title: '- URL: https://www.youtube.com/watch?v=m_dNwtoxqd8'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=m_dNwtoxqd8
+
+    - Retrieved at: 2025-12-30T16:09:54+09:00
+
+    - [00:00] I''m thrilled to introduce semantic
+
+    '
+- file: mcxeEUC5B4M.md
+  video_id: mcxeEUC5B4M
+  title: '- URL: https://www.youtube.com/watch?v=mcxeEUC5B4M'
+  speaker: ''
+  tags:
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - investment
+  - funding
+  - product_development
+  - growth
+  topics:
+  - 成長戦略
+  - プロダクト開発
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mcxeEUC5B4M
+
+    - Retrieved at: 2025-12-30T16:10:09+09:00
+
+    - [00:00] But I do think that uh overall the
+
+    '
+- file: mkACzUDc8Vc.md
+  video_id: mkACzUDc8Vc
+  title: '- URL: https://www.youtube.com/watch?v=mkACzUDc8Vc'
+  speaker: ''
+  tags:
+  - machine_learning
+  - PMF
+  - AI
+  - investment
+  - funding
+  - product_development
+  topics:
+  - プロダクト開発
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mkACzUDc8Vc
+
+    - Retrieved at: 2025-12-30T16:10:25+09:00
+
+    - [00:00] Let''s learn how we can upgrade our AI
+
+    '
+- file: mlLdzM2Xp08.md
+  video_id: mlLdzM2Xp08
+  title: '- URL: https://www.youtube.com/watch?v=mlLdzM2Xp08'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 成長戦略
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mlLdzM2Xp08
+
+    - Retrieved at: 2025-12-30T16:11:00+09:00
+
+    - [00:06] We''ll be discussing what is an agentic
+
+    '
+- file: mnQmBFJEqPg.md
+  video_id: mnQmBFJEqPg
+  title: '- URL: https://www.youtube.com/watch?v=mnQmBFJEqPg'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mnQmBFJEqPg
+
+    - Retrieved at: 2025-12-30T16:11:14+09:00
+
+    - [00:00] I have built hundreds of AI agents and
+
+    '
+- file: mv7G38U8iYY.md
+  video_id: mv7G38U8iYY
+  title: '- URL: https://www.youtube.com/watch?v=mv7G38U8iYY'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  topics:
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=mv7G38U8iYY
+
+    - Retrieved at: 2025-12-30T16:12:42+09:00
+
+    - [00:09] um so I''m Jason lki I''m with a rise AI
+
+    '
+- file: nHkS-JQyThE.md
+  video_id: nHkS-JQyThE
+  title: '- URL: https://www.youtube.com/watch?v=nHkS-JQyThE'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=nHkS-JQyThE
+
+    - Retrieved at: 2025-12-30T16:13:12+09:00
+
+    - [00:00] Yesterday, Google had launched Gemini
+
+    '
+- file: nItsfXwujjg.md
+  video_id: nItsfXwujjg
+  title: '- URL: https://www.youtube.com/watch?v=nItsfXwujjg'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=nItsfXwujjg
+
+    - Retrieved at: 2025-12-30T16:15:26+09:00
+
+    - [00:00] Anthropic just killed the manual code
+
+    '
+- file: nKuXMDCtyQI.md
+  video_id: nKuXMDCtyQI
+  title: '- URL: https://www.youtube.com/watch?v=nKuXMDCtyQI'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=nKuXMDCtyQI
+
+    - Retrieved at: 2025-12-30T16:15:35+09:00
+
+    - [00:07] Hey everyone, how''s it going? How we
+
+    '
+- file: nMKS-QXjqo8.md
+  video_id: nMKS-QXjqo8
+  title: '- URL: https://www.youtube.com/watch?v=nMKS-QXjqo8'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=nMKS-QXjqo8
+
+    - Retrieved at: 2025-12-30T16:15:54+09:00
+
+    - [00:10] Okay, it''s merged.
+
+    '
+- file: nTD4wZBC0CI.md
+  video_id: nTD4wZBC0CI
+  title: '- URL: https://www.youtube.com/watch?v=nTD4wZBC0CI'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=nTD4wZBC0CI
+
+    - Retrieved at: 2025-12-30T16:16:06+09:00
+
+    - [00:00] I think with all the experimentation, we
+
+    '
+- file: ni8Xl0ANx0E.md
+  video_id: ni8Xl0ANx0E
+  title: '- URL: https://www.youtube.com/watch?v=ni8Xl0ANx0E'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=ni8Xl0ANx0E
+
+    - Retrieved at: 2025-12-30T16:16:14+09:00
+
+    - [00:00] Recently, I have been obsessed with
+
+    '
+- file: npkGMKCD9wI.md
+  video_id: npkGMKCD9wI
+  title: '- URL: https://www.youtube.com/watch?v=npkGMKCD9wI'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=npkGMKCD9wI
+
+    - Retrieved at: 2025-12-30T16:16:40+09:00
+
+    - [00:02] が企画をどう新しく生み出すか、これを
+
+    '
+- file: oAoigBWLZgE.md
+  video_id: oAoigBWLZgE
+  title: '- URL: https://www.youtube.com/watch?v=oAoigBWLZgE'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=oAoigBWLZgE
+
+    - Retrieved at: 2025-12-30T16:17:13+09:00
+
+    - [00:00] I''ve been playing with mCP integration
+
+    '
+- file: oEgiCgQwi-A.md
+  video_id: oEgiCgQwi-A
+  title: '- URL: https://www.youtube.com/watch?v=oEgiCgQwi-A'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=oEgiCgQwi-A
+
+    - Retrieved at: 2025-12-30T16:17:23+09:00
+
+    - [00:00] Okay, so today uh I just wanted to share
+
+    '
+- file: oOylEw3tPQ8.md
+  video_id: oOylEw3tPQ8
+  title: '- URL: https://www.youtube.com/watch?v=oOylEw3tPQ8'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=oOylEw3tPQ8
+
+    - Retrieved at: 2025-12-30T16:17:37+09:00
+
+    - [00:00] For us, the end goal is to replace
+
+    '
+- file: oWdJMJp2HgM.md
+  video_id: oWdJMJp2HgM
+  title: '- URL: https://www.youtube.com/watch?v=oWdJMJp2HgM'
+  speaker: ''
+  tags:
+  - hiring
+  - AI
+  - machine_learning
+  - team_building
+  topics:
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=oWdJMJp2HgM
+
+    - Retrieved at: 2025-12-30T16:17:53+09:00
+
+    - [00:00] Nad just dropped their new native
+
+    '
+- file: od5zckQpJRo.md
+  video_id: od5zckQpJRo
+  title: '- URL: https://www.youtube.com/watch?v=od5zckQpJRo'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=od5zckQpJRo
+
+    - Retrieved at: 2025-12-30T16:18:07+09:00
+
+    - [00:00] Hey chat GPT start computer use to
+
+    '
+- file: on623d5EfPw.md
+  video_id: on623d5EfPw
+  title: '- URL: https://www.youtube.com/watch?v=on623d5EfPw'
+  speaker: ''
+  tags:
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - AI
+  - growth
+  topics:
+  - 成長戦略
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=on623d5EfPw
+
+    - Retrieved at: 2025-12-30T16:18:29+09:00
+
+    - [00:00] hello world it''s siraj and I built an
+
+    '
+- file: oowzvdpH_2o.md
+  video_id: oowzvdpH_2o
+  title: '- URL: https://www.youtube.com/watch?v=oowzvdpH_2o'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=oowzvdpH_2o
+
+    - Retrieved at: 2025-12-30T16:18:39+09:00
+
+    - [00:00] So, OpenAI just launched CHBD pulse and
+
+    '
+- file: ouaEORSQatY.md
+  video_id: ouaEORSQatY
+  title: '- URL: https://www.youtube.com/watch?v=ouaEORSQatY'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=ouaEORSQatY
+
+    - Retrieved at: 2025-12-30T16:18:53+09:00
+
+    - [00:12] 今日から長知能をかける、え、近未来社会
+
+    '
+- file: p0FERNkpyHE.md
+  video_id: p0FERNkpyHE
+  title: '- URL: https://www.youtube.com/watch?v=p0FERNkpyHE'
+  speaker: ''
+  tags:
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - product_development
+  topics:
+  - プロダクト開発
+  - 起業
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=p0FERNkpyHE
+
+    - Retrieved at: 2025-12-30T16:19:01+09:00
+
+    - [00:00] Over the last couple of months, I have
+
+    '
+- file: p8Jx4qvDoSo.md
+  video_id: p8Jx4qvDoSo
+  title: '- URL: https://www.youtube.com/watch?v=p8Jx4qvDoSo'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=p8Jx4qvDoSo
+
+    - Retrieved at: 2025-12-30T16:19:14+09:00
+
+    - [00:00] Hey everyone. Um, I''m Jared Kaplan. I''m
+
+    '
+- file: pPRoAs8xh2o.md
+  video_id: pPRoAs8xh2o
+  title: '- URL: https://www.youtube.com/watch?v=pPRoAs8xh2o'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=pPRoAs8xh2o
+
+    - Retrieved at: 2025-12-30T16:20:20+09:00
+
+    - [00:00] My name is David Andre and in this video
+
+    '
+- file: pablEq295Wc.md
+  video_id: pablEq295Wc
+  title: '- URL: https://www.youtube.com/watch?v=pablEq295Wc'
+  speaker: ''
+  tags:
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - product_development
+  - growth
+  topics:
+  - 資金調達
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=pablEq295Wc
+
+    - Retrieved at: 2025-12-30T16:20:41+09:00
+
+    - [00:00] Hello and welcome back to Equity
+
+    '
+- file: pecSfrcQZbI.md
+  video_id: pecSfrcQZbI
+  title: '- URL: https://www.youtube.com/watch?v=pecSfrcQZbI'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=pecSfrcQZbI
+
+    - Retrieved at: 2025-12-30T16:20:52+09:00
+
+    - [00:07] Okay, cool. Let''s go ahead and do some
+
+    '
+- file: pjF-0dliYhg.md
+  video_id: pjF-0dliYhg
+  title: '- URL: https://www.youtube.com/watch?v=pjF-0dliYhg'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=pjF-0dliYhg
+
+    - Retrieved at: 2025-12-30T16:23:14+09:00
+
+    - [00:00] quick announcement that I''m super
+
+    '
+- file: q4YnO0MBaeI.md
+  video_id: q4YnO0MBaeI
+  title: '- URL: https://www.youtube.com/watch?v=q4YnO0MBaeI'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=q4YnO0MBaeI
+
+    - Retrieved at: 2025-12-30T16:23:27+09:00
+
+    - [00:07] Hi, I''m Russ from Weights and Biases and
+
+    '
+- file: q6DU_9CzgXA.md
+  video_id: q6DU_9CzgXA
+  title: '- URL: https://www.youtube.com/watch?v=q6DU_9CzgXA'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  topics:
+  - プロダクト開発
+  - 組織構築
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=q6DU_9CzgXA
+
+    - Retrieved at: 2025-12-30T16:23:43+09:00
+
+    - [00:01] Hello everybody. Welcome and thanks so
+
+    '
+- file: qKMc-uzDxEk.md
+  video_id: qKMc-uzDxEk
+  title: '- URL: https://www.youtube.com/watch?v=qKMc-uzDxEk'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=qKMc-uzDxEk
+
+    - Retrieved at: 2025-12-30T16:24:10+09:00
+
+    - [00:00] 私は職業柄どうやってAIの情報を集め
+
+    '
+- file: qgqiSDV8FsQ.md
+  video_id: qgqiSDV8FsQ
+  title: '- URL: https://www.youtube.com/watch?v=qgqiSDV8FsQ'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=qgqiSDV8FsQ
+
+    - Retrieved at: 2025-12-30T16:24:23+09:00
+
+    - [00:00] Okay, so we haven''t really done any MCPS
+
+    '
+- file: qsO5jVrzoas.md
+  video_id: qsO5jVrzoas
+  title: '- URL: https://www.youtube.com/watch?v=qsO5jVrzoas'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  topics:
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=qsO5jVrzoas
+
+    - Retrieved at: 2025-12-30T16:25:29+09:00
+
+    - [00:01] One thing that I absolutely don''t
+
+    '
+- file: rLxJzeRGzV8.md
+  video_id: rLxJzeRGzV8
+  title: '- URL: https://www.youtube.com/watch?v=rLxJzeRGzV8'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=rLxJzeRGzV8
+
+    - Retrieved at: 2025-12-30T16:26:51+09:00
+
+    - [00:00] Over the course of those first few
+
+    '
+- file: rMO_P4nnATI.md
+  video_id: rMO_P4nnATI
+  title: '- URL: https://www.youtube.com/watch?v=rMO_P4nnATI'
+  speaker: ''
+  tags:
+  - marketing
+  - AI
+  - machine_learning
+  - growth
+  topics:
+  - 成長戦略
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=rMO_P4nnATI
+
+    - Retrieved at: 2025-12-30T16:27:12+09:00
+
+    - [00:00] We''ve all heard of Nan. It''s an
+
+    '
+- file: rTKt5Wv_HTI.md
+  video_id: rTKt5Wv_HTI
+  title: '- URL: https://www.youtube.com/watch?v=rTKt5Wv_HTI'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  topics:
+  - 資金調達
+  - 組織構築
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=rTKt5Wv_HTI
+
+    - Retrieved at: 2025-12-30T16:27:26+09:00
+
+    - [00:04] Hello everyone. Welcome to again to
+
+    '
+- file: rohkXyzbryI.md
+  video_id: rohkXyzbryI
+  title: '- URL: https://www.youtube.com/watch?v=rohkXyzbryI'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=rohkXyzbryI
+
+    - Retrieved at: 2025-12-30T16:27:59+09:00
+
+    - [00:00] 皆さん、ウェブサイトは何で作ってます
+
+    '
+- file: rooK0exeBQU.md
+  video_id: rooK0exeBQU
+  title: '- URL: https://www.youtube.com/watch?v=rooK0exeBQU'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=rooK0exeBQU
+
+    - Retrieved at: 2025-12-30T16:28:16+09:00
+
+    - [00:00] こんにちは。どもです。今週も注目のAI
+
+    '
+- file: s71I9pVdsv8.md
+  video_id: s71I9pVdsv8
+  title: '- URL: https://www.youtube.com/watch?v=s71I9pVdsv8'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=s71I9pVdsv8
+
+    - Retrieved at: 2025-12-30T16:28:24+09:00
+
+    - [00:00] はい、皆さんこんにちは。ニントです。
+
+    '
+- file: sMQ5R92F86o.md
+  video_id: sMQ5R92F86o
+  title: '- URL: https://www.youtube.com/watch?v=sMQ5R92F86o'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 成長戦略
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=sMQ5R92F86o
+
+    - Retrieved at: 2025-12-30T16:28:37+09:00
+
+    - [00:00] Most AI agents don''t fail because of weak models. They fail because
+    of the data behind them. More
+
+    '
+- file: sVXOYsgIig8.md
+  video_id: sVXOYsgIig8
+  title: '- URL: https://www.youtube.com/watch?v=sVXOYsgIig8'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=sVXOYsgIig8
+
+    - Retrieved at: 2025-12-30T16:28:48+09:00
+
+    - [00:11] right, great.
+
+    '
+- file: sWH0T4Zez6I.md
+  video_id: sWH0T4Zez6I
+  title: '- URL: https://www.youtube.com/watch?v=sWH0T4Zez6I'
+  speaker: ''
+  tags:
+  - marketing
+  - AI
+  - machine_learning
+  - growth
+  topics:
+  - 成長戦略
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=sWH0T4Zez6I
+
+    - Retrieved at: 2025-12-30T16:28:56+09:00
+
+    - [00:00] Here''s a bee. On its own, it can collect nectar, but that''s about
+    it. Now add thousands
+
+    '
+- file: slN-Ms8rdxw.md
+  video_id: slN-Ms8rdxw
+  title: '- URL: https://www.youtube.com/watch?v=slN-Ms8rdxw'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=slN-Ms8rdxw
+
+    - Retrieved at: 2025-12-30T16:29:03+09:00
+
+    - [00:00] おすです。本日はですね、クロードコード
+
+    '
+- file: sucokz-tMWU.md
+  video_id: sucokz-tMWU
+  title: '- URL: https://www.youtube.com/watch?v=sucokz-tMWU'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=sucokz-tMWU
+
+    - Retrieved at: 2025-12-30T16:29:12+09:00
+
+    - [00:00] こんにちは。みきです。私については
+
+    '
+- file: sxTNACldK3Y.md
+  video_id: sxTNACldK3Y
+  title: '- URL: https://www.youtube.com/watch?v=sxTNACldK3Y'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  - investment
+  - funding
+  topics:
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=sxTNACldK3Y
+
+    - Retrieved at: 2025-12-30T16:29:21+09:00
+
+    - [00:00] We can now give a task
+
+    '
+- file: t8jNXTe2_Gk.md
+  video_id: t8jNXTe2_Gk
+  title: '- URL: https://www.youtube.com/watch?v=t8jNXTe2_Gk'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=t8jNXTe2_Gk
+
+    - Retrieved at: 2025-12-30T16:31:52+09:00
+
+    - [00:00] from the foundation model perspective
+
+    '
+- file: tFFKuq2t0rI.md
+  video_id: tFFKuq2t0rI
+  title: '- URL: https://www.youtube.com/watch?v=tFFKuq2t0rI'
+  speaker: ''
+  tags:
+  - machine_learning
+  - PMF
+  - AI
+  - investment
+  - funding
+  - product_development
+  topics:
+  - プロダクト開発
+  - 資金調達
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=tFFKuq2t0rI
+
+    - Retrieved at: 2025-12-30T16:32:18+09:00
+
+    - [00:00] Today we''re going to be talking about
+
+    '
+- file: tHoJAwrs1q8.md
+  video_id: tHoJAwrs1q8
+  title: '- URL: https://www.youtube.com/watch?v=tHoJAwrs1q8'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=tHoJAwrs1q8
+
+    - Retrieved at: 2025-12-30T16:32:31+09:00
+
+    - [00:00] はい、皆さんこんにちは。にゃんたです。
+
+    '
+- file: tRGoT1QV8VA.md
+  video_id: tRGoT1QV8VA
+  title: '- URL: https://www.youtube.com/watch?v=tRGoT1QV8VA'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  topics:
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=tRGoT1QV8VA
+
+    - Retrieved at: 2025-12-30T16:33:14+09:00
+
+    - [00:07] Hello everyone. This is Nico and Karan
+
+    '
+- file: t_zeCzH7u1w.md
+  video_id: t_zeCzH7u1w
+  title: '- URL: https://www.youtube.com/watch?v=t_zeCzH7u1w'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=t_zeCzH7u1w
+
+    - Retrieved at: 2025-12-30T16:33:31+09:00
+
+    - [00:00] Hello and welcome back to Equity
+
+    '
+- file: u5Vcrwpzoz8.md
+  video_id: u5Vcrwpzoz8
+  title: '- URL: https://www.youtube.com/watch?v=u5Vcrwpzoz8'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=u5Vcrwpzoz8
+
+    - Retrieved at: 2025-12-30T16:33:43+09:00
+
+    - [00:03] if you ask me what is one use case that
+
+    '
+- file: uAI5NLoojso.md
+  video_id: uAI5NLoojso
+  title: '- URL: https://www.youtube.com/watch?v=uAI5NLoojso'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=uAI5NLoojso
+
+    - Retrieved at: 2025-12-30T16:34:00+09:00
+
+    - [00:00] Vibe coding tools like lovable, cursor,
+
+    '
+- file: uRa0_Oq2U5Y.md
+  video_id: uRa0_Oq2U5Y
+  title: '- URL: https://www.youtube.com/watch?v=uRa0_Oq2U5Y'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=uRa0_Oq2U5Y
+
+    - Retrieved at: 2025-12-30T16:35:43+09:00
+
+    - [00:00] 僕らがローンチした日、ジJジJ内に2.
+
+    '
+- file: uhJJgc-0iTQ.md
+  video_id: uhJJgc-0iTQ
+  title: '- URL: https://www.youtube.com/watch?v=uhJJgc-0iTQ'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  topics:
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=uhJJgc-0iTQ
+
+    - Retrieved at: 2025-12-30T16:35:52+09:00
+
+    - [00:00] - I think there''s also a
+
+    '
+- file: v0btR9rK5NM.md
+  video_id: v0btR9rK5NM
+  title: '- URL: https://www.youtube.com/watch?v=v0btR9rK5NM'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  topics:
+  - 資金調達
+  - 組織構築
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=v0btR9rK5NM
+
+    - Retrieved at: 2025-12-30T16:36:20+09:00
+
+    - [00:00] So yeah, let''s uh let''s go ahead and get
+
+    '
+- file: v4j1_qHLq9s.md
+  video_id: v4j1_qHLq9s
+  title: '- URL: https://www.youtube.com/watch?v=v4j1_qHLq9s'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=v4j1_qHLq9s
+
+    - Retrieved at: 2025-12-30T16:36:31+09:00
+
+    - [00:00] Just two weeks ago, I covered Open Code,
+
+    '
+- file: vePNTU3T8WY.md
+  video_id: vePNTU3T8WY
+  title: '- URL: https://www.youtube.com/watch?v=vePNTU3T8WY'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=vePNTU3T8WY
+
+    - Retrieved at: 2025-12-30T16:36:38+09:00
+
+    - [00:00] My name is David Andre and here is how
+
+    '
+- file: vnzt4lwzbXU.md
+  video_id: vnzt4lwzbXU
+  title: '- URL: https://www.youtube.com/watch?v=vnzt4lwzbXU'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=vnzt4lwzbXU
+
+    - Retrieved at: 2025-12-30T16:36:50+09:00
+
+    - [00:00] hello world it''s siraj and I built a
+
+    '
+- file: vzJOAnwIokM.md
+  video_id: vzJOAnwIokM
+  title: '- URL: https://www.youtube.com/watch?v=vzJOAnwIokM'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=vzJOAnwIokM
+
+    - Retrieved at: 2025-12-30T16:37:02+09:00
+
+    - [00:00] Hello all, my name is Krishna and
+
+    '
+- file: w5xtbdoPfTg.md
+  video_id: w5xtbdoPfTg
+  title: '- URL: https://www.youtube.com/watch?v=w5xtbdoPfTg'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=w5xtbdoPfTg
+
+    - Retrieved at: 2025-12-30T16:37:11+09:00
+
+    - [00:01] Hello, I''m Matt Marshall, founder and
+
+    '
+- file: w9-gfaV5vlM.md
+  video_id: w9-gfaV5vlM
+  title: '- URL: https://www.youtube.com/watch?v=w9-gfaV5vlM'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=w9-gfaV5vlM
+
+    - Retrieved at: 2025-12-30T16:37:24+09:00
+
+    - [00:00] If you want to make money with AI, you
+
+    '
+- file: wXujj978x6o.md
+  video_id: wXujj978x6o
+  title: '- URL: https://www.youtube.com/watch?v=wXujj978x6o'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=wXujj978x6o
+
+    - Retrieved at: 2025-12-30T16:38:41+09:00
+
+    - [00:00] おスモさです。本日はですね、
+
+    '
+- file: weJ83HRc5zU.md
+  video_id: weJ83HRc5zU
+  title: '- URL: https://www.youtube.com/watch?v=weJ83HRc5zU'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=weJ83HRc5zU
+
+    - Retrieved at: 2025-12-30T16:40:54+09:00
+
+    - [00:00] はいどうもこんにちはひろです本日は
+
+    '
+- file: x2n_kbeUODI.md
+  video_id: x2n_kbeUODI
+  title: '- URL: https://www.youtube.com/watch?v=x2n_kbeUODI'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  topics:
+  - 資金調達
+  - 組織構築
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=x2n_kbeUODI
+
+    - Retrieved at: 2025-12-30T16:41:02+09:00
+
+    - [00:00] The Elon Musk vers Sam Alman saga
+
+    '
+- file: xNplBYQSUAw.md
+  video_id: xNplBYQSUAw
+  title: '- URL: https://www.youtube.com/watch?v=xNplBYQSUAw'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - AI
+  - team_building
+  - growth
+  topics:
+  - 成長戦略
+  - 組織構築
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xNplBYQSUAw
+
+    - Retrieved at: 2025-12-30T16:41:09+09:00
+
+    - [00:00] give me the next 10 minutes and I''m
+
+    '
+- file: xOO8Wt_i72s.md
+  video_id: xOO8Wt_i72s
+  title: '- URL: https://www.youtube.com/watch?v=xOO8Wt_i72s'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  topics:
+  - 資金調達
+  - 組織構築
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xOO8Wt_i72s
+
+    - Retrieved at: 2025-12-30T16:41:23+09:00
+
+    - [00:00] I keep tweeting about the workflow I''m
+
+    '
+- file: xRmzLHnssXE.md
+  video_id: xRmzLHnssXE
+  title: '- URL: https://www.youtube.com/watch?v=xRmzLHnssXE'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xRmzLHnssXE
+
+    - Retrieved at: 2025-12-30T16:41:37+09:00
+
+    - [00:00] An app that I''ve used for almost 5 years
+
+    '
+- file: xe39_2W05B0.md
+  video_id: xe39_2W05B0
+  title: '- URL: https://www.youtube.com/watch?v=xe39_2W05B0'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xe39_2W05B0
+
+    - Retrieved at: 2025-12-30T16:41:52+09:00
+
+    - [00:00] かチです。今回はGPT5の仕事術につい
+
+    '
+- file: xeFPr1bBhj8.md
+  video_id: xeFPr1bBhj8
+  title: '- URL: https://www.youtube.com/watch?v=xeFPr1bBhj8'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xeFPr1bBhj8
+
+    - Retrieved at: 2025-12-30T14:11:00+09:00
+
+    - [00:07] I''m going to talk a little bit about
+
+    '
+- file: xk6J70MPVkA.md
+  video_id: xk6J70MPVkA
+  title: '- URL: https://www.youtube.com/watch?v=xk6J70MPVkA'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  topics:
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xk6J70MPVkA
+
+    - Retrieved at: 2025-12-30T16:42:43+09:00
+
+    - [00:00] Chat GPT introduced AI agents about a
+
+    '
+- file: xyvyYDW1K6A.md
+  video_id: xyvyYDW1K6A
+  title: '- URL: https://www.youtube.com/watch?v=xyvyYDW1K6A'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=xyvyYDW1K6A
+
+    - Retrieved at: 2025-12-30T16:43:01+09:00
+
+    - [00:00] はい、こんにちは。ちゃんです。またまた
+
+    '
+- file: yAslhELtKEg.md
+  video_id: yAslhELtKEg
+  title: '- URL: https://www.youtube.com/watch?v=yAslhELtKEg'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=yAslhELtKEg
+
+    - Retrieved at: 2025-12-30T16:43:23+09:00
+
+    - [00:00] Here are five simple Cloud Code
+
+    '
+- file: yD-hKFj78g0.md
+  video_id: yD-hKFj78g0
+  title: '- URL: https://www.youtube.com/watch?v=yD-hKFj78g0'
+  speaker: ''
+  tags:
+  - PMF
+  - AI
+  - machine_learning
+  - product_development
+  topics:
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=yD-hKFj78g0
+
+    - Retrieved at: 2025-12-30T16:43:34+09:00
+
+    - [00:00] Okay, so yesterday was Open AI''s dev day
+
+    '
+- file: yDpV_jgO93c.md
+  video_id: yDpV_jgO93c
+  title: '- URL: https://www.youtube.com/watch?v=yDpV_jgO93c'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  topics:
+  - 資金調達
+  - 組織構築
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=yDpV_jgO93c
+
+    - Retrieved at: 2025-12-30T16:43:44+09:00
+
+    - [00:00] Hey there everyone. I''m absolutely
+
+    '
+- file: yFisfVMWtcw.md
+  video_id: yFisfVMWtcw
+  title: '- URL: https://www.youtube.com/watch?v=yFisfVMWtcw'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - investment
+  - funding
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 資金調達
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=yFisfVMWtcw
+
+    - Retrieved at: 2025-12-30T16:44:04+09:00
+
+    - [00:06] thanks for joining today''s last session
+
+    '
+- file: yKPAwTF1SGY.md
+  video_id: yKPAwTF1SGY
+  title: '- URL: https://www.youtube.com/watch?v=yKPAwTF1SGY'
+  speaker: ''
+  tags:
+  - hiring
+  - AI
+  - machine_learning
+  - team_building
+  topics:
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=yKPAwTF1SGY
+
+    - Retrieved at: 2025-12-30T16:44:17+09:00
+
+    - [00:00] Today, artificial intelligence is everywhere. And if you''re working
+    in IT or you''re a developer, uh
+
+    '
+- file: y_N5oaBOdcs.md
+  video_id: y_N5oaBOdcs
+  title: '- URL: https://www.youtube.com/watch?v=y_N5oaBOdcs'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=y_N5oaBOdcs
+
+    - Retrieved at: 2025-12-30T16:44:28+09:00
+
+    - [00:00] どうもハムです。治療作成のやばいCIが
+
+    '
+- file: y__qEgqXcF4.md
+  video_id: y__qEgqXcF4
+  title: '- URL: https://www.youtube.com/watch?v=y__qEgqXcF4'
+  speaker: ''
+  tags:
+  - machine_learning
+  - entrepreneurship
+  - startup
+  - PMF
+  - AI
+  - product_development
+  topics:
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=y__qEgqXcF4
+
+    - Retrieved at: 2025-12-30T16:44:38+09:00
+
+    - [00:00] to end the year. Uh I wanted to do this
+
+    '
+- file: yw3QQxX9FZQ.md
+  video_id: yw3QQxX9FZQ
+  title: '- URL: https://www.youtube.com/watch?v=yw3QQxX9FZQ'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=yw3QQxX9FZQ
+
+    - Retrieved at: 2025-12-30T16:44:47+09:00
+
+    - [00:11] それでは、え、2025年10月7日
+
+    '
+- file: z7JijNu5j4w.md
+  video_id: z7JijNu5j4w
+  title: '- URL: https://www.youtube.com/watch?v=z7JijNu5j4w'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=z7JijNu5j4w
+
+    - Retrieved at: 2025-12-30T16:45:13+09:00
+
+    - [00:06] Nice moves.
+
+    '
+- file: z7YsP05thd0.md
+  video_id: z7YsP05thd0
+  title: '- URL: https://www.youtube.com/watch?v=z7YsP05thd0'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - entrepreneurship
+  - marketing
+  - startup
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 組織構築
+  - 成長戦略
+  - プロダクト開発
+  - 起業
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=z7YsP05thd0
+
+    - Retrieved at: 2025-12-30T16:45:30+09:00
+
+    - [00:00] All right, so another pretty wild week
+
+    '
+- file: zC-_g1UtEP0.md
+  video_id: zC-_g1UtEP0
+  title: '- URL: https://www.youtube.com/watch?v=zC-_g1UtEP0'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=zC-_g1UtEP0
+
+    - Retrieved at: 2025-12-30T16:45:43+09:00
+
+    - [00:00] おスマサです。本日はですね、開発AI
+
+    '
+- file: zjwhh2MEa0Q.md
+  video_id: zjwhh2MEa0Q
+  title: '- URL: https://www.youtube.com/watch?v=zjwhh2MEa0Q'
+  speaker: ''
+  tags:
+  - AI
+  - machine_learning
+  topics:
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=zjwhh2MEa0Q
+
+    - Retrieved at: 2025-12-30T16:47:55+09:00
+
+    - [00:00] Yes, Python has a ternary operator.
+
+    '
+- file: zt0JA5rxdfM.md
+  video_id: zt0JA5rxdfM
+  title: '- URL: https://www.youtube.com/watch?v=zt0JA5rxdfM'
+  speaker: ''
+  tags:
+  - hiring
+  - machine_learning
+  - marketing
+  - PMF
+  - AI
+  - team_building
+  - product_development
+  - growth
+  topics:
+  - 成長戦略
+  - プロダクト開発
+  - 組織構築
+  - AI技術
+  category: AI技術
+  summary: '- URL: https://www.youtube.com/watch?v=zt0JA5rxdfM
+
+    - Retrieved at: 2025-12-30T16:48:11+09:00
+
+    - [00:00] What will be the most important trends in AI in
+
+    '
+---

@@ -1,0 +1,403 @@
+---
+title: "YouTube Video: 6H5gQXzN6vQ"
+video_id: "6H5gQXzN6vQ"
+video_url: "https://www.youtube.com/watch?v=6H5gQXzN6vQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Hello all, my name is Prash Nayak and welcome to my YouTube channel. So guys uh recently Google has announced its own ID which is called as Google anti-gravity and this specific ID is like a next gene...
+key_points:
+  - "this specific video, this is the first"
+  - "know, what are the important things that"
+  - "this ID can actually do. Okay. So first"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 6H5gQXzN6vQ
+
+- URL: https://www.youtube.com/watch?v=6H5gQXzN6vQ
+- Retrieved at: 2025-12-30T09:40:27+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Prash Nayak and
+- [00:02] welcome to my YouTube channel. So guys
+- [00:04] uh recently Google has announced its own
+- [00:07] ID which is called as Google
+- [00:08] anti-gravity
+- [00:10] and this specific ID is like a next
+- [00:12] generation ID which supports agentic AI
+- [00:14] development and all uh you will be able
+- [00:17] to it's it's kind of a competitor for
+- [00:19] cursor also uh VS code also and I have I
+- [00:22] hope you have seen me making
+- [00:24] applications in VS code in cursor. So in
+- [00:27] this specific video, this is the first
+- [00:29] time that I'm using this. Uh I have just
+- [00:32] downloaded the .exe file. Uh we'll make
+- [00:34] this video a little bit interesting. Uh
+- [00:36] so that you'll also understand that how
+- [00:38] I specifically do my research, how uh I
+- [00:42] like any new thing comes, you know, uh
+- [00:44] how do I probably go ahead with it? You
+- [00:46] know, what are the important things that
+- [00:47] I usually check, right? So please make
+- [00:50] sure that you watch this video till the
+- [00:51] end. we will go ahead step by step in
+- [00:53] understanding what all uh amazing things
+- [00:56] this ID can actually do. Okay. So first
+- [00:58] of all uh the Google anti-gravity here
+- [01:00] you can see that it is the next
+- [01:02] generation ID. Here you have lot of use
+- [01:05] cases like here you have three main use
+- [01:08] cases. Uh if I probably talk about one
+- [01:10] is professional, front end and full
+- [01:12] stack. When we talk about professional,
+- [01:14] at its core, anti-gravity is still a
+- [01:16] fully featured AI ID, but the agent
+- [01:19] manager provides a new mission control
+- [01:21] surface for background agents to tackle
+- [01:23] backlog task, perform codebased
+- [01:25] research, and reduce context switching.
+- [01:27] Okay. And recently, if you know, Google
+- [01:30] has also come up with its Giny 3 uh and
+- [01:33] five. By far, it is probably the best
+- [01:36] model, I guess, uh because uh we were
+- [01:38] seeing the metrics, it was very very
+- [01:40] good when compared to the other models,
+- [01:41] right? And if you can see over here if I
+- [01:44] just go ahead and click on explore use
+- [01:45] cases uh with respect to professionals
+- [01:48] uh you can do a lot of task here you can
+- [01:50] see Google anti-gravity streamlined
+- [01:52] workflows by offering tools for
+- [01:53] parallelization customization and
+- [01:55] efficient knowledge management
+- [01:57] um and there are like you know
+- [02:00] background agents codebased
+- [02:01] understanding uh you can actually do
+- [02:04] reduce context switching build for trust
+- [02:06] and there are a lot of videos also which
+- [02:08] we which you can also see for this right
+- [02:11] and then You have another features like
+- [02:13] for front end you can use browser in the
+- [02:16] loop iteration that basically means if
+- [02:18] you're doing the coding probably on the
+- [02:20] left hand side on the right hand side
+- [02:21] you can directly see how the UI may
+- [02:24] actually look right so that will
+- [02:26] actually give you the visual feedback
+- [02:27] which is really really good uh you know
+- [02:30] because you have a kind of a browser
+- [02:31] integration kind of stuff over there
+- [02:33] right and there is also one more which
+- [02:35] is called as full stack uh it places an
+- [02:38] emphasis on verification communication
+- [02:39] to user via artifacts and all Right. And
+- [02:42] here uh there is also kind of pricing uh
+- [02:44] individual plan. This is the best thing
+- [02:47] about Google. It launches everything for
+- [02:48] free. So here you have $0 per month. And
+- [02:52] uh you will be having access to Gemini 3
+- [02:54] Pro which is good. Cloud set 4.5 which
+- [02:57] uh you know cloud code also has this
+- [02:59] specific model GPT OSS which is an open
+- [03:02] source model also right? Unlimited tab
+- [03:05] completion unlimited command request
+- [03:06] generous rate limit. So this is the best
+- [03:08] thing about Google. It provides you for
+- [03:10] free. It has huge amount of money. So
+- [03:12] you can go ahead and try it out. Okay.
+- [03:14] Now let's go ahead and download it. So
+- [03:16] for downloading all you have to do is
+- [03:17] just click over here. I have already
+- [03:18] downloaded it over here. Right. And uh
+- [03:21] as soon I started the execution. Here
+- [03:23] you can see that the first option that I
+- [03:25] got was to choose the editor theme type.
+- [03:28] Uh I have selected dark. And here you
+- [03:31] can see there are a lot of options.
+- [03:32] Agentdriven development, agent assisted
+- [03:35] development, reviewdriven development,
+- [03:36] custom configuration. So let's say that
+- [03:38] you are a kind of a VIP coding guy. You
+- [03:41] can go ahead with agent-driven
+- [03:42] development. But I would like to have
+- [03:44] agent assisted development because I
+- [03:46] still believe I'm a good developer and
+- [03:48] uh review policies. Agent decides here
+- [03:51] you can also select always proceed
+- [03:52] request review. Uh all these things are
+- [03:55] so right now we'll keep this use the
+- [03:57] default alloy list for the browser. I'll
+- [03:59] go ahead and select next. Configure your
+- [04:01] keyboard binding. There is options
+- [04:03] normal. uh there are some seven
+- [04:06] extensions popular extension it is going
+- [04:08] to install and it is also going to have
+- [04:10] a command line tool to open anti-gravity
+- [04:12] with agy okay now I can go ahead and
+- [04:15] sign it with Google I will go ahead and
+- [04:17] use one of my email id for doing that
+- [04:19] and once I do that I think we should be
+- [04:22] able to open the anti-gravity perfect so
+- [04:26] now it is setting up as our account okay
+- [04:28] we'll go step by step I'm also using it
+- [04:31] for the first time okay so this looks
+- [04:33] code here you can see uh the UI is is
+- [04:38] almost like VS code but VS code has more
+- [04:41] information right uh here I've also
+- [04:43] opened cursor so you can see cursor is
+- [04:46] over here okay and in the cursor also
+- [04:49] you'll be able to find uh on the right
+- [04:51] hand side there will be a chat for the
+- [04:53] agent and all right so this is how my
+- [04:56] anti-gravity this looks like I can open
+- [04:58] my folder so let's say that I go ahead
+- [05:01] and open any of the project So many
+- [05:03] different projects that I have actually
+- [05:05] created you know. So let's open some
+- [05:08] cloudy projects stock rack. Okay I I'll
+- [05:10] just open this particular project. Okay
+- [05:12] just type trust author. So this is my
+- [05:14] entire project structure. Again it looks
+- [05:16] good over here. Let me hide my face so
+- [05:19] that you'll be able to see this. Uh this
+- [05:21] is the agent here. You can actually do
+- [05:24] planning each and everything. I'll
+- [05:25] dismiss this. Okay. See planning fast
+- [05:28] agent can plan before executing task.
+- [05:30] Use for deep research and all. agent
+- [05:32] will execute the task directly used for
+- [05:35] simple task that can be compiled faster
+- [05:37] and here you have lot of options with
+- [05:39] respect to the model again as said it is
+- [05:42] free for a specific user you can go
+- [05:43] ahead and try it out right so here I'll
+- [05:45] just go ahead and ask a question uh
+- [05:47] explain me about the code base okay so
+- [05:54] now probably we'll go ahead and hit this
+- [05:55] particular request and see uh it is
+- [05:58] examining the code structure it is fast
+- [06:00] it is fast this is really good I think
+- [06:02] I'm going to probably switch to the
+- [06:04] anti-gravity. Um, but still I have that
+- [06:08] very good feeling about VS Code because
+- [06:09] I've been using it for a long time. But,
+- [06:13] uh, this looks good, you know, and uh,
+- [06:15] let me just zoom in so that you will
+- [06:17] also be able to see this. So, here it is
+- [06:19] analyzing all the projects uh, run
+- [06:21] injection, run API. So, I've created a
+- [06:24] lot many things over here, right? So,
+- [06:26] here is my source folder. I have this
+- [06:28] embedding. I I was basically creating a
+- [06:30] rag application. So here you'll be able
+- [06:32] to see everything and it is doing really
+- [06:35] fast is using this Germany 3 pro and it
+- [06:38] is probably making that specific
+- [06:39] decisions quickly right this is good and
+- [06:43] this free version can definitely be very
+- [06:45] very important for all the people out
+- [06:47] there who do not like to pay any kind of
+- [06:49] money for the pro version. So getting
+- [06:51] started to run the system you typically
+- [06:53] set up your environment with open AI API
+- [06:55] key python run this one python run API
+- [06:58] to start the server each and every
+- [06:59] information you are basically given uh
+- [07:02] let's say that I go ahead and ask can
+- [07:04] you provide some
+- [07:07] improvements on the code
+- [07:10] on the code
+- [07:12] just
+- [07:14] suggest okay so let's say that I've
+- [07:17] again asked some of the questions uh
+- [07:19] we'll see some more uh options with this
+- [07:22] coding agent edit code in line all the
+- [07:25] things uh one by one okay so here you
+- [07:27] can see I'm diving into this this this
+- [07:29] all the information is there reading
+- [07:31] vector stroke crawl and implementation
+- [07:33] everything is there okay um then we will
+- [07:36] see this three important functionalities
+- [07:38] that it has right and I feel this is the
+- [07:40] future guys uh you have to probably do
+- [07:43] the development with the help of agents
+- [07:45] uh that is what we can actually see okay
+- [07:48] uh one thing that I could not see over
+- [07:50] Here just a second if I go ahead and
+- [07:51] write okay images option is also there
+- [07:53] workflow option is also there mention
+- [07:55] you can add context based on this but I
+- [07:58] did not see any MCP options uh which
+- [08:00] usually cursor usually uh cloud code
+- [08:04] usually has but this does not have that
+- [08:06] basically means it is just focusing on
+- [08:08] itself I've analyzed the core and list
+- [08:10] recommended uh this one uh recommended
+- [08:12] improvements so here you can see all the
+- [08:14] information is basically there now let's
+- [08:16] uh do one thing let's uh open the agent
+- [08:19] agent manager once I'll just go ahead
+- [08:21] and press Ctrl E. So here you can see
+- [08:24] that uh it is an agent manager. You can
+- [08:27] start the conversation. Uh here is the
+- [08:29] agent manager. When you do ctrl E agent
+- [08:33] manager basically uh uh it it starts
+- [08:36] agents on task like deep research
+- [08:38] longunning projects or background task
+- [08:40] you can monitor the progress of multiple
+- [08:42] agents and all are there right? So I'll
+- [08:44] go ahead and say okay you can probably
+- [08:46] open any number of agents in short.
+- [08:48] Right? So that is what this is all
+- [08:50] about. Uh if you want to try coding with
+- [08:52] code with agents uh I will just press
+- [08:55] Ctrl L which is this one. Okay. And edit
+- [08:58] code inline Ctrl I. Let's open my fun
+- [09:01] file. Ctrl I. So here you can see do you
+- [09:04] want to install the uh recommended
+- [09:06] Python extension for MS Python? Yes,
+- [09:08] I'll go ahead and install it. So here
+- [09:09] you can go ahead and install any kind of
+- [09:13] uh um you know extensions that you
+- [09:16] specifically require. And if you really
+- [09:18] want to start with any kind of ID, you
+- [09:20] need to have installation of Python and
+- [09:22] all, right? If you want to go ahead and
+- [09:24] start it, right? So if you want to go
+- [09:26] ahead and execute it. So that that
+- [09:28] option is there. So you you can go ahead
+- [09:30] and install it. I will close this. Okay.
+- [09:33] So mostly these are the functions. Along
+- [09:35] with this, you have this one. You have
+- [09:38] options of committing the code. All the
+- [09:41] ID functionality is almost same. Nothing
+- [09:43] so different. But I think this three are
+- [09:46] there. The best thing for the user is
+- [09:48] that you have you use it completely for
+- [09:50] free. You can actually work with uh any
+- [09:53] kind of agents over here. You can do
+- [09:55] wipe coding. Uh the look and feel um I
+- [09:59] would not say exactly it is like VS
+- [10:00] code. It is a little bit different but
+- [10:03] you know at the end of the day you don't
+- [10:05] have to do anything you need you if you
+- [10:07] believe in Google Germany models uh
+- [10:10] which they actually providing you to for
+- [10:12] completely for free can go ahead and
+- [10:14] start planning and executing your code
+- [10:15] with respect to this. Okay that was uh
+- [10:19] most of it but all the other tasks that
+- [10:21] you actually do in most of the projects
+- [10:24] this can be really really handy. Okay.
+- [10:26] Now let me do one thing. Let me go ahead
+- [10:28] and create one project from scratch so
+- [10:30] that you can also see that how fast it
+- [10:33] can actually do it. Okay. So I'll go to
+- [10:36] aentic AI. I will make a new folder
+- [10:38] saying that okay this is my anti-gravity
+- [10:41] demo. I will start completely from
+- [10:43] scratch. I will open this.
+- [10:47] Okay let's open this particular folder.
+- [10:50] open folder
+- [10:52] cloudy agentic AI
+- [10:56] and let me see anti-gravity demo okay so
+- [11:00] here it is uh yes I trust the authors
+- [11:03] let's open the terminal the terminal
+- [11:05] also looks almost same like how it is
+- [11:08] for GitHub copilot okay command prompt
+- [11:11] let's see I will go ahead and write uv
+- [11:13] in it so it is initialized this
+- [11:16] particular project repository I will go
+- [11:18] ahead and write uvv and
+- [11:20] So this is my environment.
+- [11:23] Okay. I will go ahead and activate
+- [11:26] things. Okay. And uh quickly I will go
+- [11:29] ahead and write UV add let's say fast
+- [11:33] API. I want to go ahead and add this
+- [11:35] particular packages. Okay. Clear the
+- [11:38] screen. Okay. Now I can go ahead and say
+- [11:40] hey uh create a simple calculator.
+- [11:47] calculator
+- [11:51] app with fast API. Okay, the reason why
+- [11:56] I'm using fast API is basically that I
+- [11:58] can actually run this also. Okay, now it
+- [12:00] is probably planning and it does not
+- [12:02] have anything as such. Here you can see
+- [12:04] that uh uh UV also it is able to detect
+- [12:07] because you have this pi project to ml
+- [12:10] file. So here you have installed pi fast
+- [12:13] uh API. Okay. And now here you can see
+- [12:16] right all the information is basically
+- [12:18] coming up. See
+- [12:21] now let's see uh open implementation
+- [12:23] plan. So I will go ahead and open it. I
+- [12:25] will proceed it. Okay something is
+- [12:27] coming over here. I'll dismiss this.
+- [12:29] Okay implementation plan. So this is the
+- [12:31] plan. It probably creates this create a
+- [12:34] simple plan calculator. Uh
+- [12:37] here you can see I'll go ahead and
+- [12:39] accept this. It'll run the command.
+- [12:41] Everything is happening. You can see
+- [12:43] modify main.py py all the information is
+- [12:45] basically here and then you can execute
+- [12:48] it by using this command uicon right so
+- [12:52] I will go ahead and accept it
+- [12:55] uicon is also been executed see the
+- [12:57] command is also getting executed and I
+- [12:59] hope so it is basically getting executed
+- [13:01] within the same environment right and
+- [13:04] here you can see all the information see
+- [13:06] terminal things everything is basically
+- [13:08] happening the UI uh still the UI needs
+- [13:11] to be better but I feel Yeah, if if a
+- [13:15] normal developer is there, I think he
+- [13:17] should be able to understand it. Okay,
+- [13:19] implemented backend logic. So in the
+- [13:21] main.py, you can see all the information
+- [13:23] is there. I will accept this. Okay.
+- [13:28] Accept it.
+- [13:30] And then you can see that we can run
+- [13:32] this particular command in order to go
+- [13:35] ahead and execute this. Okay.
+- [13:43] So now you can just open this particular
+- [13:45] link and your calculator has started.
+- [13:49] Yeah. So everything is working
+- [13:51] absolutely fine. So see how quickly
+- [13:53] within just a couple of minute. Okay.
+- [13:57] And I can just say stop the app. Okay.
+- [14:00] When we say stop the app, you will be
+- [14:02] able to see that it'll just go ahead and
+- [14:04] close the app. From here also you can go
+- [14:06] ahead and execute it. Uh uh from this
+- [14:09] side also you can go ahead and execute
+- [14:11] it. Right? So overall I liked the
+- [14:15] anti-gravity. You should also definitely
+- [14:17] go ahead and try it out. This was it
+- [14:18] from my side. I hope you like this
+- [14:20] particular video. Please do make sure to
+- [14:22] hit like share with all your friends.
+- [14:23] I'll see you all in the next video.
+- [14:24] Bye-bye. Ticker.

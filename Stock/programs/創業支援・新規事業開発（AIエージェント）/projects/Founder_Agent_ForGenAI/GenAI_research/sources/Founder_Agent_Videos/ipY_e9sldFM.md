@@ -1,0 +1,295 @@
+---
+title: "A while back, we had taken a look at an Aentic open-source coding agent that lives directly inside y..."
+video_id: "ipY_e9sldFM"
+video_url: "https://www.youtube.com/watch?v=ipY_e9sldFM"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Automation"
+  - "Programming"
+topics:
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  A while back, we had taken a look at an
+  Aentic open-source coding agent that
+  lives directly inside your terminal, and
+key_points:
+  - "Code is an AI coding agent that's built"
+  - "for the terminal that is completely"
+  - "better feature sets than most AI CLIs."
+  - "AI CLI that are available today. Since"
+  - "changes like we' mentioned, which is why"
+  - "will definitely make you want to use it"
+  - "includes Mgrep and this alone is"
+  - "completely a gamecher. Mgrep is going to"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: ipY_e9sldFM
+
+- URL: https://www.youtube.com/watch?v=ipY_e9sldFM
+- Retrieved at: 2025-12-30T15:57:45+09:00
+
+## Text
+
+- [00:00] A while back, we had taken a look at an
+- [00:02] Aentic open-source coding agent that
+- [00:05] lives directly inside your terminal, and
+- [00:07] it functions completely for free. It's a
+- [00:09] perfect alternative to Cloud Code and
+- [00:11] Gemini CLI that's called Open Code. We
+- [00:14] were actually the first channel to cover
+- [00:16] it and since then it has grown
+- [00:18] remarkably. For anyone new here, Open
+- [00:21] Code is an AI coding agent that's built
+- [00:23] for the terminal that is completely
+- [00:26] open- source and it actually ships with
+- [00:28] better feature sets than most AI CLIs.
+- [00:32] You get out of the box LSV support, a
+- [00:34] clean and beautiful TUI, more commands,
+- [00:37] and an entire different architecture
+- [00:40] that makes working in the terminal feel
+- [00:42] modern and powerful. And ever since my
+- [00:44] last video on open code, it has gotten
+- [00:47] drastically better. to a point where
+- [00:49] I've genuinely used it over many of the
+- [00:51] AI CLI that are available today. Since
+- [00:54] our last video, there have been a lot of
+- [00:56] changes like we' mentioned, which is why
+- [00:58] today I'm back again to explore all of
+- [01:00] the new changes a part of Open Code that
+- [01:03] will definitely make you want to use it
+- [01:05] even more. To start off, Open Code now
+- [01:08] includes Mgrep and this alone is
+- [01:10] completely a gamecher. Mgrep is going to
+- [01:13] make open code four times faster while
+- [01:16] using three times fewer tokens. You can
+- [01:19] install it super simply using the mpm
+- [01:22] install mghrep open code command which
+- [01:24] I'll leave in the description below. And
+- [01:26] once it's enabled, you can semantically
+- [01:29] gp anything. This is what mgp is capable
+- [01:31] of doing. It's a commi native way to
+- [01:33] semantically grap everything like code,
+- [01:36] images, pdfs, and much more. It is
+- [01:39] something that will make your coding
+- [01:41] agent faster and more efficient. This
+- [01:43] means fewer tokens will be wasted.
+- [01:46] You're going to get faster results and a
+- [01:48] far more efficient terminal agent. Just
+- [01:51] take a look at this demo where it
+- [01:53] compares open code with mgrep versus
+- [01:56] without it. And you can clearly see how
+- [01:58] drastically mgrep improves the workflow.
+- [02:01] It gets the job done faster, cheaper,
+- [02:03] and without sacrificing the quality of
+- [02:06] results. Next is where open code is
+- [02:09] releasing a new desktop app. This is
+- [02:12] something that will be coming soon and
+- [02:14] you can join the wait list by obviously
+- [02:16] giving your email address.
+- [02:20] Something I also realized before making
+- [02:21] this video is that open code is coming
+- [02:23] out with their own desktop app which is
+- [02:26] actually pretty impressive cuz this is
+- [02:27] going to make the whole experience a lot
+- [02:29] easier to work with. It's not out yet
+- [02:31] but the results are pretty impressive.
+- [02:34] This is the preview of the new Open Code
+- [02:36] desktop app. You have the terminal and
+- [02:38] you can manage multiple sessions, which
+- [02:40] is something that's really similar to
+- [02:42] Warp, but obviously this is better cuz
+- [02:44] it's open- source and it actually
+- [02:46] functions a lot better than Warp, which
+- [02:48] is something that's helped a lot of
+- [02:50] people not to use Warp over many of
+- [02:52] these free tools that are out there.
+- [02:54] This is something that lets you run the
+- [02:56] terminal agent directly within the app.
+- [02:59] You have a new TUI that we're going to
+- [03:01] be showcasing as well with this current
+- [03:03] update. And you can easily plan and
+- [03:06] build things with the new desktop app.
+- [03:08] But speaking of the TUI, the overall
+- [03:11] interface of the CLI tool has gotten
+- [03:14] drastically better than what we saw
+- [03:16] previously. It is a lot easier to work
+- [03:19] with. It is super appealing and there's
+- [03:21] a lot of fixes to make this overall a
+- [03:25] lot better in terms of the user flow. It
+- [03:27] has improved drastically on textbased
+- [03:30] interfaces, clear, large, and obvious
+- [03:33] animations for agents to work and
+- [03:36] display their progress. And you have a
+- [03:39] lot of different things that makes this
+- [03:40] overall interface a lot visually
+- [03:43] appealing with less noise and more
+- [03:45] focused animations. This new upgrade
+- [03:48] with the TUI showcases this right-hand
+- [03:51] panel. This is the check-in panel that
+- [03:54] showcases the context, how much it was
+- [03:56] used, as well as how much you spent. It
+- [03:59] will also showcase the LSPs, which is
+- [04:01] the language server protocol. Before we
+- [04:04] get started, I just want to mention that
+- [04:05] you should definitely go ahead and
+- [04:07] subscribe to the world of AI newsletter.
+- [04:09] I'm constantly posting different
+- [04:11] newsletters on a weekly basis. So, this
+- [04:14] is where you can easily get up-to-date
+- [04:16] knowledge about what is happening in the
+- [04:18] AI space. So definitely go ahead and
+- [04:20] subscribe as this is completely for
+- [04:21] free. Next is where open code also now
+- [04:25] has a z.dev extension. This is where you
+- [04:28] can now install and start using it with
+- [04:30] just one click. You don't need to log in
+- [04:32] and you can just simply go ahead and
+- [04:34] install it and use it directly within
+- [04:35] the zed editor. So you can use the
+- [04:37] terminal agent alongside the editor. And
+- [04:40] if you do have the zed editor, you can
+- [04:42] simply head over to the extension store,
+- [04:44] click on install in zed. This will
+- [04:46] prompt open the editor itself and then
+- [04:48] you can install it with a single click.
+- [04:50] By the way, I found an open sandbox
+- [04:52] environment that actually hosts the Open
+- [04:55] Code SDK which you can access on the
+- [04:58] web. Now, I haven't tested this out, but
+- [05:01] this is a test project that I found on
+- [05:02] Twitter that you can basically use on
+- [05:05] the web. This is pretty subtle, but it
+- [05:07] is pretty cool cuz Open Code can run
+- [05:10] itself and other toys directly within
+- [05:12] the agent. This is an update that was
+- [05:15] powered by a major node PR and it's
+- [05:17] honestly one of the coolest upgrades
+- [05:19] that I was able to notice because with
+- [05:22] this change any large language model can
+- [05:24] actually see the NC output and it can
+- [05:27] render it inside the open tui directly
+- [05:30] where it appears within the real
+- [05:32] terminal. And so if you were to guess
+- [05:35] what a tui looks like open code can
+- [05:38] visualize it. it can interact with it
+- [05:39] and work with the terminal instance that
+- [05:42] is just like something a real developer
+- [05:44] would actually do. Next is the open code
+- [05:47] SDK, a new type safe JavaScript and
+- [05:50] TypeScript client that lets any
+- [05:52] developer embed and control open code
+- [05:55] programmatically. It is the same SDK in
+- [05:58] TUI that it uses internally. meaning
+- [06:00] anything the TUI can do will basically
+- [06:03] have it trigger any sort of TUI actions
+- [06:06] that you can automate from your own
+- [06:08] code. So this is something that you can
+- [06:11] easily install with the client. You can
+- [06:13] configure it and it is something that
+- [06:16] will also allow you to run multiple
+- [06:18] tasks in parallel, build custom
+- [06:20] integrations or embed open code directly
+- [06:23] into your app which is definitely
+- [06:25] remarkable. you can have it so that it
+- [06:28] is going to be not just a terminal agent
+- [06:30] anymore because with this SDK it is
+- [06:32] fully programmable where the AI coding
+- [06:35] engine can build on top of whatever
+- [06:38] you're working on. Looks like Open Code
+- [06:40] also introduced their own curated model
+- [06:42] provider that's called Zen. This is a
+- [06:45] plug-and-play list of highquality
+- [06:47] pre-ested AI models that's optimized
+- [06:50] specifically for coding so you get the
+- [06:52] best performance without configuring
+- [06:53] providers yourself. I am definitely not
+- [06:56] recommending to use this cuz I believe
+- [06:58] it is something that you can set on your
+- [07:01] own where you can just use and configure
+- [07:04] uh a planning agent with the Opus 4.5
+- [07:06] and then using the Gemini 3.0 as your
+- [07:09] code executor. This is the optimal uh
+- [07:13] code workflow that I have set and it's
+- [07:15] something that I demonstrated in my most
+- [07:17] recent video which I highly recommend
+- [07:19] that you watch because it is going to
+- [07:21] practically show you the best practices
+- [07:23] for using AI with coding and in the same
+- [07:26] manner you can use that with open code
+- [07:28] where you can use the opus for the
+- [07:30] architect and then you can use the
+- [07:32] gemini model for the coder and if you're
+- [07:35] looking to install this it is super
+- [07:37] simple you can easily install it with a
+- [07:39] single npm command. You can use whatever
+- [07:42] you want like bun brew peru as well as
+- [07:45] curl. To run it, just simply type in
+- [07:48] open code within your terminal. And this
+- [07:50] is where you will be able to access the
+- [07:52] latest version of open code. And you can
+- [07:54] see that it looks a lot cleaner. You can
+- [07:57] switch between the different modes like
+- [07:59] plan as well as build. And you can
+- [08:01] change whatever model you want to use by
+- [08:03] using the model command. Now you have a
+- [08:05] lot of different options of whatever
+- [08:07] model provider you want to use as well
+- [08:08] as model and you can actually interact
+- [08:11] with these with actual mouse and you can
+- [08:14] select the model that you want to work
+- [08:16] with. There is different commands that
+- [08:18] have been also introduced like opening
+- [08:21] the editor directly within the terminal.
+- [08:24] You have the ability to switch sessions
+- [08:27] where you can run multiple sessions
+- [08:28] simultaneously which is a new feature
+- [08:31] and different modes like model cycle
+- [08:33] reverse switching agents and different
+- [08:36] commands that I highly recommend that
+- [08:38] you view through. Currently, Grock code
+- [08:40] fast one is available for free directly
+- [08:43] within open code and you can see this is
+- [08:45] the new TUI with the animations on the
+- [08:48] left and you have the panel that
+- [08:51] showcases the context of what it's
+- [08:53] working on. If you like this video and
+- [08:56] would love to support the channel, you
+- [08:57] can consider donating to my channel
+- [08:59] through the super thanks option below.
+- [09:02] Or you can consider joining our private
+- [09:04] Discord where you can access multiple
+- [09:06] subscriptions to different AI tools for
+- [09:08] free on a monthly basis, plus daily AI
+- [09:11] news and exclusive content, plus a lot
+- [09:13] more. But that's basically it, guys, for
+- [09:15] today's video on the new update for Open
+- [09:18] Code. There's a lot more to this, and
+- [09:20] within the change log, they actually
+- [09:22] showcase a lot of cool things that you
+- [09:23] can do with Open Code. So, I will leave
+- [09:26] all these links in the description
+- [09:27] below. But with that thought, guys,
+- [09:29] thank you guys so much for watching.
+- [09:30] Make sure you go ahead and subscribe to
+- [09:31] second channel, join the newsletter,
+- [09:33] join our Discord, follow me on Twitter,
+- [09:35] and lastly, make sure you get
+- [09:36] subscribed, turn on notification bell,
+- [09:38] like this video, and please take a look
+- [09:40] at our previous videos because there is
+- [09:41] a lot of content that you will truly
+- [09:43] benefit from. But with that thought,
+- [09:45] guys, have an amazing day. Spread
+- [09:46] positivity, and I'll see you guys really
+- [09:48] shortly. Peace out, fellas.

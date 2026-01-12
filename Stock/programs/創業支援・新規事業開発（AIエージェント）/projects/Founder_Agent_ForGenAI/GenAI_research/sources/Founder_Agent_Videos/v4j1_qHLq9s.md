@@ -1,0 +1,277 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=v4j1_qHLq9s"
+video_id: "v4j1_qHLq9s"
+video_url: "https://www.youtube.com/watch?v=v4j1_qHLq9s"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=v4j1_qHLq9s
+  - Retrieved at: 2025-12-30T16:36:31+09:00
+  - [00:00] Just two weeks ago, I covered Open Code,
+key_points:
+  - "- [02:35] completely through your own API key."
+  - "- [02:52] just want to mention that you should"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: v4j1_qHLq9s
+
+- URL: https://www.youtube.com/watch?v=v4j1_qHLq9s
+- Retrieved at: 2025-12-30T16:36:31+09:00
+
+## Text
+
+- [00:00] Just two weeks ago, I covered Open Code,
+- [00:02] the open-source and in my opinion best
+- [00:05] AI coding agent that's available and
+- [00:07] that lives directly within your
+- [00:09] terminal. It's a perfect alternative to
+- [00:11] Cloud Code and Gemini CLI. Within that
+- [00:14] video, I talked about how drastically
+- [00:16] Open Code had improved and mentioned
+- [00:19] that a desktop app was coming soon.
+- [00:21] Well, it looks like that time is finally
+- [00:23] here cuz the Open Code desktop app is
+- [00:26] finally available and it is in beta. And
+- [00:29] honestly, it's quite amazing. This
+- [00:31] desktop version of Open Code is the same
+- [00:34] open-source AI coding agent that helps
+- [00:36] developers write, explain, and refractor
+- [00:39] code using language models, but now with
+- [00:41] a fully graphical interface and many
+- [00:44] other features. It's available on Mac
+- [00:46] OS, Windows, and Linux. and it
+- [00:48] complements the terminal and ID
+- [00:50] experience with different extensions and
+- [00:52] a richer UI that makes interacting with
+- [00:55] agents even better. For those who do not
+- [00:57] know what Open Code is, it's an AI
+- [01:00] coding agent that was initially built
+- [01:02] for the terminal that's completely open-
+- [01:04] source and allows you to use free
+- [01:05] models. It actually ships with a better
+- [01:08] feature set than most AI CLIs out there.
+- [01:11] You get out of the box LSP support, a
+- [01:14] clean and beautiful TUI, more commands,
+- [01:16] and fundamentally better with a
+- [01:18] different architecture that makes
+- [01:20] working within the terminal feel modern,
+- [01:22] fast, and powerful. To get started with
+- [01:24] this new desktop app, I'll leave a link
+- [01:26] to open code in the description below.
+- [01:28] This is where it will take you to the
+- [01:30] main page where you can either install
+- [01:32] the CLI or you can install the new
+- [01:34] desktop app by clicking on download now,
+- [01:37] which will take you to the download
+- [01:38] page. And you can easily set this up for
+- [01:40] whatever operating system you want. In
+- [01:42] this case, I have Windows, so I'm going
+- [01:44] to simply go ahead and install it for my
+- [01:45] Windows operating system. After
+- [01:47] installing, this is how Open Codes
+- [01:49] desktop app actually looks. And one
+- [01:51] thing I want to note is that this is
+- [01:53] currently in beta. So, expect a lot of
+- [01:55] bugs as this is something that they're
+- [01:57] going to be refining over the next
+- [01:59] couple of weeks. Now, after selecting
+- [02:01] any sort of directory that you want to
+- [02:03] work in, you have the ability to select
+- [02:05] the build mode or the plan mode, similar
+- [02:07] to how you would with any typical AI
+- [02:09] agent, where you can plan out the
+- [02:11] architecture and then have the AI build
+- [02:13] it out. You can also use a lot of these
+- [02:16] different models. There's three free
+- [02:17] models directly built within Open Code.
+- [02:20] They give you access to GBT 5 Nano,
+- [02:22] which is great, Rock Code, Fast One, as
+- [02:24] well as Big Pickle, which is one of
+- [02:27] their open code models. Now, you also
+- [02:29] have the ability to connect in other
+- [02:31] providers locally as well. And this way,
+- [02:33] you can access state-of-the-art models
+- [02:35] completely through your own API key.
+- [02:38] After selecting your provider, you can
+- [02:39] then simply start off by planning
+- [02:41] anything. It's not necessary that you
+- [02:43] have to plan through, but this is a user
+- [02:45] interface that lets you work with your
+- [02:47] code a lot better directly with the open
+- [02:50] code agents. Before we get started, I
+- [02:52] just want to mention that you should
+- [02:53] definitely go ahead and subscribe to the
+- [02:55] world of AI newsletter. I'm constantly
+- [02:57] posting different newsletters on a
+- [02:59] weekly basis. So this is where you can
+- [03:02] easily get up-to-date knowledge about
+- [03:04] what is happening in the AI space. So
+- [03:06] definitely go ahead and subscribe as
+- [03:08] this is completely for free. For
+- [03:10] example, I can tell the open code agent
+- [03:12] to plan out this task where I want to
+- [03:14] create an app that lets me use AI within
+- [03:17] my spreadsheets and I wanted to help me
+- [03:19] plan it out. And you can see that it is
+- [03:21] going to be able to reason by using the
+- [03:23] Gemini 3.0 Pro and it is going to be
+- [03:26] able to also display the reasoning
+- [03:28] directly within the app's interface. It
+- [03:30] is going to be able to uh access the
+- [03:33] directory as well and plan out all the
+- [03:35] steps. There's sound effects like you
+- [03:37] heard and you can see that it is now
+- [03:39] creating a plan as to how it can do
+- [03:42] this. And you can also even use the
+- [03:44] terminal directly within the open code
+- [03:47] desktop app. After approving the plan,
+- [03:49] you can actually see that it creates
+- [03:51] multiple sessions as to how you're
+- [03:53] working on this particular uh setup for
+- [03:56] the spreadsheet app. And right now, I
+- [03:58] simply just have it so that it will now
+- [04:00] build out the plan that I had it
+- [04:03] generate. And it is now working on using
+- [04:06] the shell as well to create the project
+- [04:09] directory. And it's going to display
+- [04:10] everything that is necessary to make
+- [04:13] this app functional directly within this
+- [04:15] desktop app.
+- [04:18] Within the session, you also have it so
+- [04:20] that it will actually show you a
+- [04:21] visualization of all the diffs being
+- [04:23] showcased and edited directly live in
+- [04:26] preview. You also have it so that you
+- [04:28] can run multiple open code AI agents
+- [04:31] which will help you run multiple tasks
+- [04:34] simultaneously which is great. So it
+- [04:36] looks like it has finished generating
+- [04:38] our app and you can actually see the
+- [04:40] code directly that it generated as well
+- [04:43] as all the different files that it made
+- [04:44] changes to.
+- [04:47] And there we go. This is our spreadsheet
+- [04:49] AI app where it is going to be able to
+- [04:52] have data intelligence showcased
+- [04:55] directly within any spreadsheet. So in
+- [04:57] this case, I can load in any sort of
+- [04:59] data set. In this case, I'm going to be
+- [05:01] using this demo data and I can upload it
+- [05:04] to the AI where it can actually generate
+- [05:06] an AI summary. So this is where you can
+- [05:10] see that there's a chatbot that it
+- [05:12] generated based off of the plan that it
+- [05:14] created. There's also a data grid that
+- [05:16] showcases you the sample data of all the
+- [05:19] different columns and rows and you can
+- [05:22] even have it so that you can chat with
+- [05:24] your spreadsheet. So in this case I told
+- [05:25] it what is the total closed one and loss
+- [05:28] revenue by region and product and the
+- [05:30] analyst the AI agent that is going to be
+- [05:33] analyzing our pipeline is going to be
+- [05:35] able to response with the correct answer
+- [05:37] and it can even output graphs and this
+- [05:40] is the quality of output that you can
+- [05:42] get from a simple prompt sent into the
+- [05:44] open code desktop app. Also just an FI
+- [05:48] you can actually manage the session
+- [05:49] changes directly within the app. So in
+- [05:52] this case, if I'm launching a new
+- [05:54] feature, I can actually review the full
+- [05:56] diff directly within the session
+- [05:58] changes. And you can even have it so
+- [05:59] that open code can be directly opened
+- [06:02] within a new terminal. But what I really
+- [06:04] love about open code is that it has LSP
+- [06:07] support. And honestly, it is a game
+- [06:09] changer cuz in this case, you can see
+- [06:11] from this demo where it was stress
+- [06:13] tested, it's renamed symbol refractor
+- [06:16] tool and it correctly handled 379
+- [06:19] updates in just 22 seconds. The same
+- [06:22] person who ran this demo ran the same
+- [06:24] test with cloud code to compare it. And
+- [06:26] it literally took so long that the
+- [06:29] person actually gave up waiting for the
+- [06:31] response to actually come through. But
+- [06:33] with Open Code, thanks to the LSV
+- [06:35] support, it was able to handle the job
+- [06:37] really quickly and it was able to
+- [06:39] efficiently get the task done. I talked
+- [06:41] about this before, but Open Code now
+- [06:43] includes Mgra. And this is something
+- [06:45] that is visible within the terminal
+- [06:48] agent itself as well as through the
+- [06:50] desktop app. And this alone is a
+- [06:52] complete game changer cuz Mgra makes
+- [06:54] open code much faster, specifically four
+- [06:58] times faster and while using three times
+- [07:00] fewer tokens. You can install using the
+- [07:03] npm install command to install MG grap.
+- [07:05] And once it's enabled, it can
+- [07:07] semantically grap everything, whether
+- [07:08] that's code, images, PDFs, and much
+- [07:10] more. This means fewer tokens are
+- [07:13] wasted, faster results are being
+- [07:15] outputed, and far more efficient
+- [07:16] terminal agents can be created. Just
+- [07:19] take a look at this demo where it
+- [07:20] compares open code with MGRP. And
+- [07:22] without it, you can clearly see how
+- [07:24] drastically mgrep improves the workflow.
+- [07:27] It gets the job done faster, cheaper,
+- [07:29] and without sacrificing the quality of
+- [07:31] results. And once you install this, it
+- [07:34] can be globally accessible through the
+- [07:36] desktop app as well. So I'll leave this
+- [07:38] GitHub repo in the description below. If
+- [07:40] you like this video and would love to
+- [07:42] support the channel, you can consider
+- [07:44] donating to my channel through the super
+- [07:46] thanks option below. Or you can consider
+- [07:48] joining our private Discord where you
+- [07:50] can access multiple subscriptions to
+- [07:52] different AI tools for free on a monthly
+- [07:54] basis, plus daily AI news and exclusive
+- [07:57] content, plus a lot more. But that's
+- [08:00] basically guys for today's video on the
+- [08:01] open-source AI coding agent, Open Code.
+- [08:04] This is something that you can get
+- [08:05] started with completely for free. This
+- [08:07] desktop app is something that I highly
+- [08:09] recommend that you make the most out of.
+- [08:11] Maybe they might be shifting towards a
+- [08:13] paid plan in the future. So keep that in
+- [08:16] mind. I think that this is something
+- [08:18] that will stay open source maybe with
+- [08:20] the CLI tool, but the app might be
+- [08:23] turned into a paid tool in the near
+- [08:24] future. So make the most out of it while
+- [08:26] it's free. It is quite buggy, so keep
+- [08:29] that in mind. But it is something that
+- [08:31] can help you prototype and build
+- [08:33] different sorts of apps quite rapidly.
+- [08:35] But with that thought, guys, thank you
+- [08:37] guys so much for watching. I'll leave
+- [08:38] these links in the description below so
+- [08:40] that you can easily get started. Make
+- [08:41] sure you go ahead and subscribe to the
+- [08:43] second channel, join our Discord, follow
+- [08:45] me on the newsletter, follow me on
+- [08:47] Twitter, and lastly, make sure you get
+- [08:48] subscribed, turn on the notification
+- [08:50] bell, like this video, and please take a
+- [08:51] look at our previous videos because
+- [08:52] there's a lot of content that you will
+- [08:54] truly benefit from. But with that
+- [08:56] thought, guys, have an amazing day.
+- [08:57] Spread positivity and I'll see you guys
+- [08:59] fairly shortly. Peace out, fellas.

@@ -1,0 +1,598 @@
+---
+title: "Retrieval augmented generation is the go-to way for giving your AI agents access to your knowledge b..."
+video_id: "iV5RZ_XKXBc"
+video_url: "https://www.youtube.com/watch?v=iV5RZ_XKXBc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Anthropic"
+  - "Programming"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+summary: |
+  Retrieval augmented generation is the
+  go-to way for giving your AI agents
+  access to your knowledge base. And over
+key_points:
+  - "Retrieval augmented generation is the"
+  - "this for a long time now, starting with"
+  - "upgrades to this template that I want to"
+  - "how you can use this template for"
+  - "strategies in the first place is a basic"
+  - "rag implementation is just not enough."
+  - "If you aren't strategic about the rag"
+  - "to seem like rag is fundamentally"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: iV5RZ_XKXBc
+
+- URL: https://www.youtube.com/watch?v=iV5RZ_XKXBc
+- Retrieved at: 2025-12-30T15:54:31+09:00
+
+## Text
+
+- [00:00] Retrieval augmented generation is the
+- [00:02] go-to way for giving your AI agents
+- [00:04] access to your knowledge base. And over
+- [00:06] the past few months, I've been
+- [00:08] experimenting with every rag strategy
+- [00:10] under the sun and combining the best
+- [00:12] together into a single N8N agent
+- [00:15] template for you. And I've been evolving
+- [00:17] this for a long time now, starting with
+- [00:19] super basic rag as an introduction all
+- [00:22] the way to what we have now with
+- [00:23] multiple rag strategies combined
+- [00:25] together. I've been making some big
+- [00:27] upgrades to this template that I want to
+- [00:29] show you today and I want to show you
+- [00:30] how you can use this template for
+- [00:32] yourself. Now, the reason I'm putting so
+- [00:34] much effort into these different
+- [00:36] strategies in the first place is a basic
+- [00:38] rag implementation is just not enough.
+- [00:41] If you aren't strategic about the rag
+- [00:43] strategies that you use, it's just going
+- [00:45] to seem like rag is fundamentally
+- [00:47] flawed. So, what do I mean by that?
+- [00:49] Well, I have the very first version of
+- [00:51] my NANN rag template so that I can
+- [00:54] explain the fundamental flaws that we
+- [00:56] have with a very basic implementation.
+- [00:58] Now, let me be clear. This template is a
+- [01:01] good introduction to Rag, but there is a
+- [01:03] reason I've been evolving it so much
+- [01:05] over the last year. So, every RG
+- [01:08] implementation has two components. We
+- [01:10] have our rag pipeline where we convert
+- [01:13] documents from our document store into
+- [01:16] the format that we're going to store in
+- [01:17] our knowledge base. So, we chunk things
+- [01:19] up into bite-sized pieces for our LLM.
+- [01:22] And then we give tools to our agent.
+- [01:24] This is the second component to search
+- [01:26] through our knowledge base. And so, I'll
+- [01:28] just give you an example here. I'll ask
+- [01:30] it a question where it's going to have
+- [01:31] to search through the documents that
+- [01:32] originate in my Google Drive. Going
+- [01:34] through the knowledge base to find the
+- [01:36] information to answer my question. Now,
+- [01:38] both the rag pipeline and Asian Tools,
+- [01:41] there is a lot of risk here that they
+- [01:44] miss key context and related
+- [01:46] information. When we do these very
+- [01:47] direct searches, a lot of times we're
+- [01:49] just not getting what we need from the
+- [01:51] knowledge base. If you're not very
+- [01:53] strategic about how you are chunking and
+- [01:55] curating the knowledge for your
+- [01:57] knowledge base, it doesn't matter how
+- [01:58] effective your agentic search strategies
+- [02:00] are, your agent will fall apart. And the
+- [02:02] same thing applies if we're curating our
+- [02:04] knowledge really well, but then we don't
+- [02:06] have effective search strategies. And so
+- [02:09] we want to solve for all of this. And
+- [02:11] this is what I have for you in the
+- [02:12] latest version of the N8N rag template.
+- [02:15] So this is what has evolved to now. It
+- [02:17] looks a lot more complex, but I'll break
+- [02:19] it down in this video. We have
+- [02:21] strategies for effective knowledge
+- [02:23] creation and effective knowledgebased
+- [02:26] search. And also, I want to hear from
+- [02:28] you what other strategies you want me to
+- [02:30] add into this template as I continue to
+- [02:32] evolve it. I could add in knowledge
+- [02:33] graphs or contextual embedding. So many
+- [02:36] different ways to build on top of this.
+- [02:38] Let me know in the comments what you
+- [02:39] think. So, I just wanted to say that
+- [02:40] really quick, but yeah, let's get into
+- [02:41] it now. And really, these rag strategies
+- [02:43] are going to be super helpful for you no
+- [02:45] matter the rag agent you want to build.
+- [02:48] So, you can use this template as a
+- [02:49] starting point. I'll speak to how you
+- [02:51] can do that and adapt it to your use
+- [02:53] case throughout this video as well. So,
+- [02:55] here are the three big strategies that
+- [02:57] we're going to be covering in this video
+- [02:58] that I've added to the template. First
+- [03:01] of all, we have a gentic chunking. Then,
+- [03:03] I want to dive into a gentic rag. And
+- [03:06] then, finally, we will cover re-ranking.
+- [03:08] Now, a gentic rag is something that I
+- [03:11] added in the last evolution of this
+- [03:12] template. So, check out this video right
+- [03:14] here if you really want to dive deep
+- [03:16] into that. But what I've added for the
+- [03:17] first time now is a gentic chunking and
+- [03:20] reranking. And man, do these strategies
+- [03:22] make a big difference. And so these are
+- [03:24] the huge upgrades that I'm talking
+- [03:25] about. Really excited to be covering
+- [03:27] this with you right now. Now the first
+- [03:29] rag strategy that I want to dive into
+- [03:31] with you that I added is a gentic
+- [03:33] chunking. And this one is really
+- [03:34] powerful because what we're doing is
+- [03:37] leveraging the intelligence of a large
+- [03:38] language model to help us determine how
+- [03:41] to chunk our documents. In a more
+- [03:43] traditional rag implementation, like in
+- [03:46] this template right here, we're using a
+- [03:48] more deterministic approach where we're
+- [03:50] splitting documents every 1,000
+- [03:52] characters or 400 characters. And the
+- [03:54] problem with this is we're now splitting
+- [03:57] ideas in our document between different
+- [04:00] chunks that we'd want to actually have
+- [04:01] grouped together. And it even goes so
+- [04:03] far as to split in the middle of words
+- [04:05] and sentences with a very basic
+- [04:07] implementation. And we can get a little
+- [04:09] bit more elaborate and try to respect
+- [04:12] sentence and paragraph boundaries, but
+- [04:14] you're still going to be splitting in
+- [04:15] the middle of ideas that you want to
+- [04:17] have grouped together. And so this just
+- [04:19] leads to a lot of context loss when we
+- [04:22] search through our knowledge base and
+- [04:23] we're finding these chunks. Well, maybe
+- [04:25] what we have in this chunk, we actually
+- [04:27] want to have part of this chunk to
+- [04:29] really have that complete thought to
+- [04:31] answer the user's question. And so with
+- [04:32] a gentic chunking, this is the power
+- [04:34] here is we're giving the document to the
+- [04:37] large language model. We're telling it
+- [04:38] like based on the need that we have to
+- [04:41] keep ideas together, how should we split
+- [04:44] up this document? And so now going into
+- [04:46] my database. So this template uses
+- [04:48] Postgress. I've actually evolved it. So
+- [04:50] you can use any Postgress database like
+- [04:52] Superbase or self-hosted Postgress. I'm
+- [04:54] using Neon here for my database. We can
+- [04:57] see that with a gentic chunking. If I
+- [05:00] click into any of the chunks that we
+- [05:01] have here, we can see that we start with
+- [05:04] the beginning of a sentence and we go
+- [05:06] all the way through all these bullet
+- [05:07] points. So, like we're keeping this full
+- [05:09] idea, like this list of bullet points
+- [05:11] together. And you'll see that same kind
+- [05:13] of thing as I go through the different
+- [05:15] chunks here. We're not splitting in the
+- [05:17] middle of words or sentences that often.
+- [05:19] That's what we want to preserve here.
+- [05:21] Now, we do have to chunk documents. Like
+- [05:24] we can't just store every single
+- [05:25] document as a single record here because
+- [05:27] that's way too much to pull into the
+- [05:29] large language model and it's going to
+- [05:31] make the embeddings really inaccurate.
+- [05:32] So we need to have these bite-sized
+- [05:34] pieces of information. But as much as we
+- [05:36] can, we want to keep the concrete ideas
+- [05:39] together splitting the document with the
+- [05:41] help of a large language model. That's
+- [05:42] what agentic chunking gives us. And the
+- [05:44] rest of this rag pipeline is really the
+- [05:46] same as the previous iteration of this
+- [05:49] template. So again, check out the Aentic
+- [05:52] rag video that I linked to earlier if
+- [05:54] you want to dive more into this. So I'm
+- [05:56] keeping things concise here focusing on
+- [05:57] the newer strategies as well. But just
+- [06:00] for a quick recap, we have our document
+- [06:02] store, which in my case is Google Drive.
+- [06:04] You can easily update this though to be
+- [06:05] something like Dropbox or SharePoint
+- [06:07] instead. So we're watching for files
+- [06:09] that are created or updated. And if a
+- [06:11] file is updated, we also want to delete
+- [06:13] the old rows so we can insert just the
+- [06:15] new ones. And then we download the file
+- [06:16] from Google Drive. And then based on the
+- [06:19] file type, we have these different nodes
+- [06:20] in N8N that extract the text from that
+- [06:24] file format. So we even support tabular
+- [06:26] data with Excel and CSV files. I'll get
+- [06:29] into that a bit more when I talk about
+- [06:30] agentic rag. And then we have our
+- [06:32] textbased files. So Google Docs, text
+- [06:35] documents, markdown documents, PDFs. We
+- [06:37] extract the text from there. And then
+- [06:39] for these types of documents, this is
+- [06:41] where we feed into our agentic chunking
+- [06:44] system. And because this is a lot more
+- [06:47] of a custom implementation, there's not
+- [06:48] really a way to do this without code.
+- [06:51] But this is where the beauty of the lang
+- [06:53] chain code node comes in. So we can
+- [06:55] attach a large language model that we
+- [06:57] can use with the lang chain library
+- [07:00] right in nadm. This is a thing of beauty
+- [07:01] and I actually use cloud code to help me
+- [07:04] build this out. So basically the
+- [07:06] important things here is we have this
+- [07:08] prompt that we feed into our large
+- [07:10] language model that describes its role
+- [07:12] and the instructions for how we want it
+- [07:14] to intelligently split documents to keep
+- [07:17] the core ideas together. And you can see
+- [07:20] here that like based on some of the
+- [07:21] splits it's not ideal but for the most
+- [07:24] part it very much is starting the chunks
+- [07:26] and ending them with a key idea kept
+- [07:30] together. That's what we're trying to
+- [07:31] accomplish here. And this fixes a lot of
+- [07:33] problems that we have with rag where we
+- [07:34] just have so much fragmented context
+- [07:37] between the different chunks that we
+- [07:38] have for our document. So I send this
+- [07:41] prompt into the LLM and basically the
+- [07:43] LLM is going to output a word to split
+- [07:46] two chunks on. That's how we create
+- [07:48] these chunks over time. And all of this
+- [07:51] is going to be stored in our vector
+- [07:53] database. And so you could very much
+- [07:56] swap this out to use another vector
+- [07:57] database like Quadrant or Pine Cone if
+- [07:59] you want. Generally I love using
+- [08:01] Postgress. So I also evolved this
+- [08:03] template to work not just with Superbase
+- [08:06] like I had before but also any Postgress
+- [08:08] database. Right now I am using Neon
+- [08:11] which I have been loving recently. It's
+- [08:13] blazing fast serverless Postgress free
+- [08:16] to get started and I'll show you really
+- [08:17] quick. If you go into the dashboard,
+- [08:18] click on the connect button. This gives
+- [08:20] you all the information in the
+- [08:21] connection string here for you to
+- [08:22] connect with your Postgress credentials
+- [08:25] in N8N. So, super easy to get started.
+- [08:28] And really, that's everything for a
+- [08:30] gentic chunking. The last thing that I
+- [08:31] want to say here is that the other
+- [08:35] beautiful part of a gentic chunking is
+- [08:37] how flexible it is. Because you can
+- [08:38] tweak this prompt based on your use case
+- [08:42] to get really specific with how you want
+- [08:44] the LLM to split your documents. And so
+- [08:47] I've tried a lot of other strategies for
+- [08:50] chunking like recursive character text
+- [08:52] splitting, working with markdown
+- [08:53] documents and there are different
+- [08:54] subsections. I tried semantic chunking
+- [08:57] which is actually using embedding models
+- [08:58] instead of large language models to
+- [09:00] determine these boundaries. But man,
+- [09:02] agentic chunking is just the most
+- [09:05] flexible and the most powerful. So I
+- [09:07] absolutely love it and that is really
+- [09:08] the big thing that improves our
+- [09:10] knowledge curation, our rag pipeline for
+- [09:13] this template. The sponsor of today's
+- [09:15] video is depot and their brand new
+- [09:17] remote agent sandboxes for cloud code.
+- [09:20] I'll get into that in a little bit. But
+- [09:22] what depot has built is insanely fast
+- [09:24] globally distributed cloud
+- [09:26] infrastructure and persistent caching to
+- [09:28] make for extremely fast application
+- [09:30] builds. Things like remote container
+- [09:32] builds and GitHub action runners. And
+- [09:35] companies that have switched to depot
+- [09:37] have gotten up to 55 times the
+- [09:39] performance increase for their builds.
+- [09:41] And there are a ton of integrations with
+- [09:43] things like GitHub actions, CircleCI,
+- [09:46] Docker, and GitLab. And depot's cloud
+- [09:48] infrastructure has positioned them
+- [09:50] perfectly to build what I've always
+- [09:52] wanted for cloud code, remote agent
+- [09:55] sandboxes. And now they are here. It is
+- [09:57] a beautiful thing. Basically, what we
+- [09:59] can do is kick off a ton of remote Cloud
+- [10:02] Code sessions in parallel, all working
+- [10:03] on different features and issues in our
+- [10:06] GitHub repositories, and it's never
+- [10:08] running on our own machine. It's all
+- [10:09] running on Depot's infrastructure and
+- [10:11] getting started is super easy. So, I'll
+- [10:13] link to this quick start in the
+- [10:14] description as well. You just have to
+- [10:16] follow these steps to install the depot
+- [10:18] CLI, get your anthropic credentials
+- [10:20] connected and then we just operate in
+- [10:22] the terminal just like we do with cloud
+- [10:24] code. So, for example, I am asking it to
+- [10:27] summarize the archon repository linking
+- [10:29] to my repo. This is kicking off a
+- [10:31] session which we can view all of our
+- [10:33] sessions in the dashboard here. I can
+- [10:35] click into this and we can see the logs
+- [10:37] just like we're working with cloud code
+- [10:38] on our machine, but this is all running
+- [10:40] remotely. We could even kick this off
+- [10:41] from a mobile device if we want. The
+- [10:43] possibilities are endless for this and
+- [10:45] the power that it gives us. So, if
+- [10:47] you've always wanted to be a cloud code
+- [10:49] mastermind, kicking off a ton of remote
+- [10:51] sessions in parallel from anywhere,
+- [10:53] definitely check out. I'll have a link
+- [10:55] in the description. Now, the next rag
+- [10:57] strategy that I want to hit on is a
+- [10:59] gentic rag. This one is a gamecher and
+- [11:01] the implementation can differ a lot
+- [11:03] depending on your use case. But the
+- [11:05] general idea that I convey with this
+- [11:07] template is you want to give your agent
+- [11:09] the ability to explore your knowledge in
+- [11:11] different ways depending on what works
+- [11:13] best for the specific document and user
+- [11:16] question. And the way that the agent
+- [11:17] determines where to look is just all
+- [11:20] based on the system prompt. So you give
+- [11:22] it the ability to search in different
+- [11:23] ways and then in the system prompt you
+- [11:25] describe what that exactly looks like
+- [11:27] and you can tune this to your use case.
+- [11:30] So we want to be flexible here. That's
+- [11:32] kind of the theme for a lot of these
+- [11:34] strategies. So going back to our
+- [11:36] original template, there are two reasons
+- [11:38] why it is inflexible. First of all,
+- [11:40] we're only giving our agent a single
+- [11:42] tool to search our knowledge base and
+- [11:45] we're handling all file types in our rag
+- [11:48] pipeline the exact same way. But it
+- [11:50] works a lot better if we actually treat
+- [11:53] each of the different file types with
+- [11:55] respect. Like going back to the most
+- [11:57] up-to-date rag pipeline, for example,
+- [12:00] we're handling tabular data in a much
+- [12:02] different way where we're storing the
+- [12:04] records individually. Take a look at
+- [12:06] this. If I go back to my Postgress
+- [12:08] database in Neon, we have this special
+- [12:10] table called document rows specifically
+- [12:13] to store the rows for the tables that we
+- [12:16] are ingesting from Google Drive. like I
+- [12:17] have this uh fake mock data generated
+- [12:20] for a revenue spreadsheet here. We're
+- [12:23] storing each one of these records as an
+- [12:25] individual row in this document rows
+- [12:27] table. And the really cool thing with
+- [12:28] this, and again I dive into this a lot
+- [12:30] more in my agentic rag specific video is
+- [12:32] we're giving a tool for our agents
+- [12:34] specifically allowing it to generate SQL
+- [12:37] queries to calculate things like sums
+- [12:40] and averages and maximums over this
+- [12:42] tabular data. That's the kind of thing
+- [12:44] that rag normally completely falls on
+- [12:46] its face with. So, we can't just search
+- [12:49] tabular data just like we search text
+- [12:51] data. We can't ingest it the same way.
+- [12:54] And this can apply to a lot of different
+- [12:55] file types as well. So, I hope you're
+- [12:57] starting to see the idea here, the
+- [12:59] flexibility that we're adding with a
+- [13:00] gentic rag. Another really good example
+- [13:02] is sometimes if your documents are short
+- [13:05] enough to fit into the context for the
+- [13:07] LLM comfortably, you actually want to
+- [13:09] view the entire document instead of just
+- [13:12] viewing a couple of chunks. And so
+- [13:14] that's another thing that we're doing
+- [13:15] here within the most up-to-date rag
+- [13:17] pipeline. We're inserting what's called
+- [13:20] the document metadata. So essentially we
+- [13:22] have this separate table here where
+- [13:25] instead of storing all of the chunks
+- [13:27] split up we just have one record per
+- [13:30] document and then if our agent decides
+- [13:32] like oh this chunk is useful let me view
+- [13:34] the entire document it can actually do
+- [13:36] that. So we give it one tool to list all
+- [13:39] the documents that are available in the
+- [13:41] knowledge base. So, it's going to query
+- [13:42] this document metadata table and then
+- [13:45] when it finds a document like, oh, I
+- [13:47] should look in the research brief here.
+- [13:48] It can actually combine all of the
+- [13:50] chunks together to grab the complete
+- [13:53] document to look at it with a much more
+- [13:55] holistic picture. So, we have this tool
+- [13:57] as well, specifically to get all the
+- [14:00] file content for a specific file just
+- [14:02] based on the file ID that we have coming
+- [14:04] in from Google Drive. So, now I'll
+- [14:06] actually give you a couple of demos here
+- [14:07] so we can see a gentic rag in action.
+- [14:09] And so I'll open up the chat and I'll
+- [14:11] say what is the average revenue uh in
+- [14:14] August of 2024. And so this is going to
+- [14:17] query the sheet that we have right here.
+- [14:20] And so I'm going to go back. We can see
+- [14:21] that it first listed the documents that
+- [14:23] we have available to us. So it's
+- [14:24] querying the metadata. It's seeing that
+- [14:26] we have these specific columns here so
+- [14:28] that it can write that SQL query to
+- [14:30] query the rows that we have in document
+- [14:32] rows. So here is our query that it
+- [14:33] created. We got back the answer of
+- [14:35] 309.5,
+- [14:37] which is what it gave us. And that is
+- [14:38] looking really good. If I actually go in
+- [14:40] the sheet here and do an average of B2
+- [14:42] to B. Sure enough, we've got 309.5. So,
+- [14:46] this is looking great. And then I can
+- [14:47] ask another question here. Like, let's
+- [14:48] just pull up the marketing strategy
+- [14:50] meeting. So, I'll pull this up and I'll
+- [14:53] just ask it to view the entire marketing
+- [14:56] strategy meeting doc and give me a
+- [14:59] summary. So, I'm just being explicit
+- [15:01] here that I wanted to use the agentic
+- [15:02] rag tools to get the full contents of a
+- [15:05] file, which is what it did right here
+- [15:07] for the marketing strategy meeting. And
+- [15:09] then we'll go back to our chat. And yep,
+- [15:10] here is our summary based on this
+- [15:12] document right here. So, sometimes you
+- [15:14] want to do that kind of thing where you
+- [15:15] want to pull the entire document when
+- [15:17] it's short enough like this to do
+- [15:19] something like a full summary that we
+- [15:21] wouldn't necessarily be able to do if we
+- [15:22] just returned a couple of chunks with a
+- [15:24] classic semantic search rag lookup. So
+- [15:27] that is everything for a gentic rag and
+- [15:30] it's pretty neat like with a gentic
+- [15:31] chunking it was just touching the rag
+- [15:33] pipeline. Then with a gentic rag we are
+- [15:36] hitting on both the rag pipeline and the
+- [15:38] agent search. And now last but not least
+- [15:41] we have re-ranking which is specific to
+- [15:44] the search part of our rag system. So
+- [15:46] what even is a reranker? Well, you can
+- [15:48] think of it as a special kind of model.
+- [15:51] Not a large language model, but a
+- [15:54] re-ranker model where its sole job is to
+- [15:56] take in a massive amount of chunks from
+- [15:59] our knowledge base from our search. Like
+- [16:00] in this case, I have it set to 25 and
+- [16:03] it's going to rerank and filter those
+- [16:05] out only returning the top four. And you
+- [16:07] can adjust these numbers based on your
+- [16:08] use case as well. Now, the reason this
+- [16:10] is so powerful is if we were to return
+- [16:13] 25 chunks straight to the large language
+- [16:16] model, it would completely overwhelm it.
+- [16:18] It's going to make our agent more
+- [16:20] expensive, a lot slower, and 25 chunks
+- [16:24] leads to a very high risk of
+- [16:25] hallucinating because there's just so
+- [16:27] much information coming in. But
+- [16:28] re-rankers are designed to handle this
+- [16:31] much information, and they're a lot
+- [16:32] cheaper and faster. So, they don't have
+- [16:35] general intelligence like a large
+- [16:36] language model. can't build agents
+- [16:38] around re-rankers, but they're made to
+- [16:40] take in all these chunks and do that
+- [16:42] kind of reranking and filtering. And so,
+- [16:44] going back to the very first version of
+- [16:46] our template with Rag, we're only ever
+- [16:49] picking four chunks at most from our
+- [16:52] knowledge base, but that's pretty
+- [16:53] limiting. What if we want to actually
+- [16:54] deal with dozens of chunks and then just
+- [16:57] pick the top ones? Well, that's what
+- [16:58] re-ranking allows us to do. So, I'll
+- [17:01] give you an example here. I'll open up
+- [17:02] the chat and I'll say, "Give me an
+- [17:04] overview of Neuroverse." This is just
+- [17:05] one of the uh fake companies that I had
+- [17:07] claw generate for mock data here. So,
+- [17:09] we're using the semantic similarity
+- [17:11] search tool. That's the classic rag
+- [17:12] search that we've had throughout all the
+- [17:14] iterations of our template here. And if
+- [17:16] I click into this, we can see that we're
+- [17:18] only returning four chunks even though
+- [17:20] our limit is 25 because take a look at
+- [17:23] this. If I click into the re-ranker
+- [17:26] model and we look at the input that came
+- [17:28] in from our knowledge base, there is a
+- [17:30] lot of information here. We are taking
+- [17:33] 25 chunks. Take a look at this. It's a
+- [17:36] zero index. So this means there are 25
+- [17:38] chunks in total. And then we are
+- [17:39] spitting out the top four after we use
+- [17:42] this reranker to figure out the ones
+- [17:45] that are the most relevant based on our
+- [17:47] question of give me an overview of
+- [17:49] neuroversee. Really really nice. And so
+- [17:51] the large language model if we take a
+- [17:53] look at the prompt that came in. This is
+- [17:55] the full prompt to the large language
+- [17:56] model. It's not that big overall. We
+- [17:58] have one chunk, two chunks, three
+- [18:01] chunks, four chunks as a part of our
+- [18:03] prompt. So that's an added context for
+- [18:05] retrieval augments generation. This is
+- [18:07] much better than if we actually gave 25
+- [18:10] chunks, but we still got to sift through
+- [18:12] that many using the reanker to deal with
+- [18:15] all that information before it goes to
+- [18:16] our LLM. So that's re-ranking and
+- [18:19] there's only one option for a reranker
+- [18:21] right now in N using the cohhere models.
+- [18:23] But cohhere is actually fantastic. So
+- [18:25] you just have to go to cohhere.com. you
+- [18:28] can create a free API key. I'm just on
+- [18:30] the free tier right now. So, I'm not
+- [18:31] paying anything for this, just like I'm
+- [18:33] not with Neon. So, that's how you can
+- [18:34] add re-ranking into your N8N agents. So,
+- [18:38] that is everything that I have for this
+- [18:40] massively upgraded version of the N8N
+- [18:42] rag agent template. And I hope that I
+- [18:45] have covered really well how you can
+- [18:46] adapt this to your specific use case,
+- [18:49] picking and choosing some of the rag
+- [18:50] strategies, adjusting certain
+- [18:52] parameters, even adding in your own
+- [18:53] strategies. And there's a lot more that
+- [18:55] I could cover as well. So definitely let
+- [18:57] me know in the comments if you want me
+- [18:58] to cover knowledge graphs in this or
+- [19:00] contextual embedding. So many other
+- [19:02] strategies that I could include as well.
+- [19:04] And rag is just so important for AI. So
+- [19:07] I'm always down to cover more with my
+- [19:09] content. So if you appreciated this and
+- [19:11] you're looking forward to more things AI
+- [19:12] agents and rag, I would appreciate a
+- [19:15] like and a subscribe. And with that, I
+- [19:17] will see you in the next

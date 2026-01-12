@@ -1,0 +1,501 @@
+---
+title: "YouTube Video: 8_liatgLkLc"
+video_id: "8_liatgLkLc"
+video_url: "https://www.youtube.com/watch?v=8_liatgLkLc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  This video is brought to you by Squarespace. If you're trying to build something with large language models, you know things can get messy pretty quickly. You start with one prompt, then you add a few...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 8_liatgLkLc
+
+- URL: https://www.youtube.com/watch?v=8_liatgLkLc
+- Retrieved at: 2025-12-30T09:49:13+09:00
+
+## Text
+
+- [00:00] This video is brought to you by
+- [00:01] Squarespace. If you're trying to build
+- [00:03] something with large language models,
+- [00:05] you know things can get messy pretty
+- [00:07] quickly. You start with one prompt, then
+- [00:10] you add a few tools, then you pass some
+- [00:12] data to another model, and before long,
+- [00:14] your logic is going to be scattered and
+- [00:16] all over the place. So, the question is,
+- [00:19] how do you structure AI systems the
+- [00:21] right way? In this video, I'm going to
+- [00:24] show you three design patterns that I've
+- [00:27] adapted for LLMs and agents that are
+- [00:30] going to help you build cleaner, more
+- [00:32] modular AI systems. Let's go. The
+- [00:35] example that I'm going to use in this
+- [00:37] video is a travel agent. And this agent
+- [00:40] can help you find hotels and flights,
+- [00:43] etc., etc. Now, there is one prompt that
+- [00:46] I'm going to start with, which is this.
+- [00:49] I want a rainy city trip within Europe.
+- [00:52] I love towers. I don't want to cross
+- [00:54] water to get there. And this is Maria
+- [00:56] who lives in Berlin. So, let's run this
+- [00:59] particular example and see what happens.
+- [01:01] The agent has decided that Maria needs
+- [01:03] to go to Paris, France, which is wrong.
+- [01:06] It should be Utre, the Netherlands.
+- [01:08] Anyway, okay, Paris. Fine. So, then the
+- [01:11] agent books a flight from Berlin to
+- [01:13] Paris, which arrives at 6:00 p.m. It
+- [01:17] looks for a hotel, which is the highest
+- [01:19] regency in Paris. I don't know if this
+- [01:21] is a good hotel or not. And then uh but
+- [01:25] it is quite expensive so hopefully it
+- [01:28] is. And then there are some activities
+- [01:29] for early evening explorers. You can
+- [01:32] visit the shopping mall, take an evening
+- [01:35] walk, uh enjoy a dinner, etc., etc. So
+- [01:39] the Asian has done like a bunch of
+- [01:41] different things here. And that's
+- [01:44] typically something that you're going to
+- [01:45] encounter in AI application, right? It's
+- [01:47] not just I send a prompt and I get back
+- [01:50] a response. I mean, we can just use a
+- [01:52] chat agent for that. We want something
+- [01:54] that's a bit more uh involved. And of
+- [01:57] course, in this particular situation,
+- [01:58] you don't want to handle everything in
+- [02:00] one massive prompt because that's simply
+- [02:03] not going to work. You need to break it
+- [02:05] down into separate agents and then each
+- [02:08] is responsible for a single step. So we
+- [02:10] have choosing a destination, we have
+- [02:12] planning the flight, recommending a
+- [02:14] hotel, and suggesting things to do. The
+- [02:17] way I've built this is that I'm
+- [02:19] implementing each of these steps as its
+- [02:21] own function. And then you can execute
+- [02:25] them in order by storing them in a list.
+- [02:27] More about that in a minute. So how is
+- [02:29] this code actually set up? I'm using
+- [02:31] byic AI for the agents. So first I load
+- [02:35] the environment variables. In this case,
+- [02:37] there's just one which is the OpenAI API
+- [02:39] key. Then we have some dependencies
+- [02:43] which is we need to know the username.
+- [02:45] We need to know the origin city and then
+- [02:48] there is a context that's basically the
+- [02:51] information that each of these agents is
+- [02:53] going to need. So things like the
+- [02:54] destination, the uh origin city, the
+- [02:57] arrival time, the hotel name, etc. And
+- [02:59] this going to be filled in step by step
+- [03:01] by the agents. Then for each step I have
+- [03:04] an agent. So in this case I have a
+- [03:06] destination agent that helps users find
+- [03:09] a ideal tra travel destination based on
+- [03:12] their preferences.
+- [03:14] Then I have a flight agent that can look
+- [03:17] for flights for a particular trip. Then
+- [03:21] I have a hotel recommendation agent that
+- [03:26] suggests a good hotel near the airport
+- [03:28] or city center. Then we have an activity
+- [03:31] agent that suggests local activities. So
+- [03:34] you have all these different agents that
+- [03:35] can do each a specific thing that also
+- [03:37] have their own system prompts that to
+- [03:40] adapt them. And then the pattern that
+- [03:41] I'm using to perform these tasks in
+- [03:44] order is the chain of responsibility.
+- [03:47] And what that pattern entails that you
+- [03:49] have a bunch of different functions that
+- [03:51] are executed in order. Now you might
+- [03:54] say, hey, design pattern should use
+- [03:55] classes and inheritance and things like
+- [03:58] that. But I'm sort of taking a bit of
+- [04:01] creative liberty here and using my own
+- [04:05] take on these patterns in this
+- [04:06] particular example. So instead of using
+- [04:08] classes here, I'm just using a function
+- [04:11] because I just think that's simpler. Now
+- [04:13] the important thing here is that each of
+- [04:15] these functions, so I have handle
+- [04:17] destination which gets uh arguments and
+- [04:20] then uses the agent. We have handle
+- [04:22] flight, we have handle hotel and handle
+- [04:25] activities which all do a part of the
+- [04:27] job. But the important thing is that the
+- [04:29] arguments here are actually the same. We
+- [04:32] have the user input, we have the
+- [04:34] dependencies,
+- [04:36] we have the context of the trip that
+- [04:38] contains information about the trip. And
+- [04:41] as you can see the context is being
+- [04:44] filled in by each of these agents in
+- [04:46] steps. So for example, this destination
+- [04:48] agent sets the destination in the
+- [04:50] context object which is then again used
+- [04:53] by the flight agent to plan a flight to
+- [04:57] that particular destination and then
+- [05:00] same for the hotel. So the hotel also is
+- [05:03] recommended in the destination place. So
+- [05:05] all of these steps use results from the
+- [05:08] previous steps. And what makes it work
+- [05:11] is that the arguments here are always
+- [05:13] exactly the same. user inputs,
+- [05:15] dependencies and the context. And then
+- [05:17] once you have all this, then we can have
+- [05:18] a plan trip function that actually
+- [05:21] executes this chain. So it creates the
+- [05:24] trip context. It has a chain of
+- [05:27] functions and then I'm using a for loop
+- [05:29] to call each of these functions in turn
+- [05:32] with the particular user input. Now,
+- [05:35] this way of setting it up is actually
+- [05:36] really flexible because we have these
+- [05:38] specific things that are done in these
+- [05:41] functions, but the structure is actually
+- [05:43] somewhere else. So, that's actually
+- [05:45] really nice. Also, it's really easy to
+- [05:48] add another handler here. You simply
+- [05:50] define the function and you insert it
+- [05:52] into the chain. You don't have to change
+- [05:54] anything else. You could even decide to
+- [05:57] make this dynamic and uh basically let
+- [06:01] the user select which things uh you want
+- [06:04] the AI agent to do by I don't know
+- [06:05] ticking some boxes or something and you
+- [06:08] can simply enable or disable them in the
+- [06:10] chain without having to do something
+- [06:12] somewhere else in your code. So that's
+- [06:14] the chain of responsibility. Now this is
+- [06:16] a very basic implementation of that. You
+- [06:18] can do more advanced things as well such
+- [06:20] as uh handling errors for example and
+- [06:23] make sure that if I don't know handle
+- [06:25] destination has an error that the chain
+- [06:27] isn't completed anymore. Or of course
+- [06:30] you could generalize this to more like a
+- [06:32] graph structure which is actually
+- [06:34] already built into pideantic AI. But
+- [06:36] typically what you're going to often
+- [06:38] need is a simple chain of things that
+- [06:40] needs to happen. And this is a pretty
+- [06:42] neat way of setting it up. So, that's
+- [06:44] chain of responsibility for AI agents.
+- [06:48] Now, there are two more patterns that
+- [06:49] I'm going to show you. But before I do
+- [06:51] that, I want to talk about this video
+- [06:53] sponsor, Squarespace. Squarespace is an
+- [06:55] all-in-one website platform designed to
+- [06:58] help you stand out and succeed online.
+- [07:00] Whether you're just starting out or
+- [07:02] scaling your business, it gives you
+- [07:03] everything you need to claim your
+- [07:05] domain, build a professional site, grow
+- [07:07] your brand, and get paid all in one
+- [07:09] place. I've used Squarespace myself to
+- [07:12] launch websites for my businesses. And
+- [07:14] as someone who builds software and
+- [07:15] teaches software design, I really
+- [07:17] appreciate tools that are thoughtfully
+- [07:19] designed and just work. It's really easy
+- [07:21] to get started by using Blueprint AI,
+- [07:23] which generates a fully custom website
+- [07:26] based on just a few prompts. There are a
+- [07:28] ton of templates that all look really
+- [07:29] good. After that, it's trivial to add
+- [07:32] sections or change the appearance to
+- [07:34] your liking. And boom, you have a full
+- [07:36] professional website. Squarespace comes
+- [07:38] with integrated SEO tools, so you don't
+- [07:41] need to worry about optimizing meta
+- [07:43] descriptions or generating site maps. It
+- [07:45] handles all of that automatically. If
+- [07:48] you ever tried to get a new dev blog or
+- [07:50] documentation site indexed properly, you
+- [07:53] know how frustrating that can be. With
+- [07:56] Squarespace, it's baked in. And with the
+- [07:59] built-in analytics dashboard, you can
+- [08:01] track traffic, engagement, and even
+- [08:03] revenue if you're selling something. or
+- [08:06] you can use to figure out what landing
+- [08:07] pages are working and what needs to be
+- [08:09] improved. Whether you're building a site
+- [08:11] to showcase your portfolio or launch a
+- [08:14] software as a service that you just
+- [08:16] vibecoded, Squarespace makes it
+- [08:18] incredibly easy. Head over to
+- [08:20] squarespace.com/rincodes
+- [08:22] for a free trial. And when you're ready
+- [08:24] to launch, use offer code iron codes to
+- [08:27] save 10% off your first purchase of a
+- [08:30] website or domain. Now, back to the
+- [08:33] video. The next pattern that I want to
+- [08:34] talk about is the observer pattern. This
+- [08:37] has to do with visibility. When you're
+- [08:40] calling multiple agents in a chain, just
+- [08:43] like I showed you before, it's actually
+- [08:45] pretty helpful to know like what prompt
+- [08:48] was sent, what response came back, how
+- [08:50] long did it take, was there a problem
+- [08:52] with the response. So, you can solve
+- [08:54] that by using the observer pattern. And
+- [08:56] what that allows you to do is that
+- [08:58] instead of scattering logging code
+- [09:01] throughout your app, you can define an
+- [09:03] observable agent. Basically, an agent
+- [09:05] that logs things. It can measure
+- [09:07] response time. It can call attached
+- [09:10] observer objects with structured info
+- [09:13] about the call. And that allows you to
+- [09:15] more easily inspect what is actually
+- [09:17] happening in your agent system. So
+- [09:19] here's what I did. I have another
+- [09:21] example here which again uses pyic AI.
+- [09:24] In this case, I just have a single agent
+- [09:26] because I just want to show uh very
+- [09:28] basic example of how to set this up. But
+- [09:30] we have again our travel dependencies,
+- [09:33] username and the origin, city, and we
+- [09:35] have a travel response. So in this case,
+- [09:37] I'm just looking at the destination
+- [09:39] agent. And then what I've done is
+- [09:41] implement a sort of observer pattern. So
+- [09:43] the way to do that is that you have to
+- [09:45] specify what an observer actually is and
+- [09:49] how it's structured. So in this case I'm
+- [09:52] using a protocol class to define an
+- [09:55] agent observer and this has a single
+- [09:58] method called notify that gets things
+- [10:00] like the agent name the prompt that was
+- [10:02] used the current dependencies the output
+- [10:05] the duration etc etc and then I've
+- [10:09] created a class console logger that
+- [10:12] implements this protocol but of course
+- [10:14] you can add other classes as well you
+- [10:16] could also send it to a logging surface
+- [10:18] or store it in a file or do whatever you
+- [10:21] want. That's the power of the observer
+- [10:23] pattern. And there what I'm simply doing
+- [10:25] now is just printing the agent call log
+- [10:28] and that's all there's to it. Then what
+- [10:30] I've done in order to make pyantic AI
+- [10:32] compatible with my observers is that I
+- [10:35] define a function called run with
+- [10:38] observers that gets an agent prompt
+- [10:40] dependencies and the list of observers.
+- [10:43] Now you could also go the more
+- [10:45] objectoriented route and actually create
+- [10:47] maybe a subclass of agent that is an
+- [10:50] observer. But in this case I've uh done
+- [10:53] it with a function because to me that
+- [10:55] also works pretty well. Like I said I'm
+- [10:57] not following design patterns to the tea
+- [11:01] here. I'm using my own interpretation of
+- [11:03] them. And what I've done here is that I
+- [11:05] record the time that it takes in order
+- [11:08] to do that request to the agent. And
+- [11:10] then for each of the observers in the
+- [11:12] list, I call the notify method with the
+- [11:15] information that it needs. And then
+- [11:17] finally, I return the output. The agent
+- [11:19] itself is the travel agent that
+- [11:22] basically recommends a destination just
+- [11:24] like in the previous example. And then I
+- [11:26] have the main function. So it creates
+- [11:28] the dependencies. In this case, it's
+- [11:30] Nina who's in Copenhagen. Copenhagen.
+- [11:34] And there's a prompt. Well, I want to
+- [11:36] escape to a cozy place in the mountains
+- [11:38] for the weekend. So that's definitely
+- [11:40] not going to be the Netherlands. And
+- [11:42] then we're going to call this run with
+- [11:45] observers function. And as the
+- [11:47] observers, I provide the console logger
+- [11:50] that I just defined. Let's run this code
+- [11:53] and see what happens. So as you can see,
+- [11:54] we now get a log that's provided by our
+- [11:57] console log observer. And the nice thing
+- [11:59] is that because we've now abstracted
+- [12:02] this away, uh there is just this simple
+- [12:05] uh function call. If you have multiple
+- [12:07] agents, you can simply call this run
+- [12:10] function with the agent that you need
+- [12:12] and the prompt that you need and you
+- [12:14] supply the observers. And so it's pretty
+- [12:16] straightforward to do this. Like I
+- [12:18] mentioned, you can define any type of
+- [12:20] observer here. It can log to the
+- [12:22] console. It can log to a file, send it
+- [12:24] to database or logging service. The main
+- [12:27] thing here is that this setup, this
+- [12:30] pattern keeps your agents observable
+- [12:32] without coupling them to any specific
+- [12:35] logging implementation. And by the way,
+- [12:37] if you're serious about learning how to
+- [12:39] design better systems, AI or otherwise,
+- [12:42] I've put together a free guide at
+- [12:44] arn.code/design guide that walks you
+- [12:46] through the exact seven steps I use when
+- [12:49] designing software from scratch. The
+- [12:51] link is in the video description. The
+- [12:53] final pattern that I want to show you
+- [12:54] that is useful in AI systems is the
+- [12:57] strategy pattern. Let's say your travel
+- [12:59] assistant should behave differently
+- [13:02] depending on the user. Maybe one user
+- [13:04] wants a formal professional travel
+- [13:07] agent, another one wants a more quirky
+- [13:11] or fun experience. And there is a third
+- [13:13] type of person that cares mostly about
+- [13:15] budget. Now instead of hard coding that
+- [13:18] behavior, you can actually use the
+- [13:20] strategy pattern to use different
+- [13:23] personalities. Now the strategy pattern
+- [13:25] again if you follow the Ganger 4 book it
+- [13:28] uses classes and inheritance where each
+- [13:30] class has one method. We can actually do
+- [13:33] it a bit simpler and then uh use a
+- [13:36] function instead that supplies the thing
+- [13:38] that we need. So, what I'm going to do
+- [13:41] is implement each travel agent
+- [13:43] personality as a function that returns a
+- [13:46] preconfigured agent. It's going to have
+- [13:49] the same input, the same output, just
+- [13:51] the system prompt is different. And this
+- [13:53] is what that example looks like. Again,
+- [13:56] by AAI, I'm loading the API key from the
+- [13:59] N file. I have my travel recommendation.
+- [14:02] I have the dependencies. And then I have
+- [14:04] my strategy function that each returns a
+- [14:07] different type of agent. So, I have the
+- [14:09] professional agent, I have the fun
+- [14:11] agent, and I have the budget agent. Now,
+- [14:15] like I said, the only thing that changes
+- [14:16] here is the system prompt, but you can
+- [14:18] imagine that you also want to have other
+- [14:21] settings in your agent that depend on
+- [14:24] the type of agent that you want. Maybe,
+- [14:26] I don't know, the temperature should be
+- [14:27] different for the fun agent because it
+- [14:30] should come up with more creative
+- [14:31] solutions or something like that. By
+- [14:33] using functions in this way, we can swap
+- [14:35] them out dynamically, which is really
+- [14:37] nice. Then how do you use that
+- [14:39] functional version of the strategy
+- [14:41] pattern? Well, that's what this other
+- [14:43] function does. Run travel strategy. So
+- [14:45] this gets a strategy function which is a
+- [14:48] callable that returns an agent. Now you
+- [14:51] might say, why not simply pass in the
+- [14:53] agent? Well, that's a fair point. But
+- [14:55] the nice thing about the strategy
+- [14:56] pattern is that the agent is created
+- [14:59] here and not before. So you don't have
+- [15:01] to create all the agents before you
+- [15:03] actually run the strategy. And you can
+- [15:06] use this function to pass arguments. So
+- [15:08] you can even modify the behavior of how
+- [15:10] the agent is being created by calling
+- [15:13] the function here. So we pass this
+- [15:14] function as an argument to this
+- [15:16] function. We create the agent and then
+- [15:18] we run it with the prompt and the
+- [15:20] dependencies. And then what you can do
+- [15:22] is depending on the type of agent you
+- [15:25] want, you can run the strategy with that
+- [15:28] particular agent. So in this case I call
+- [15:31] run travel strategy with the
+- [15:33] professional agent function or here I
+- [15:36] call with the fun agent function or the
+- [15:38] budget agent function and we're going to
+- [15:39] get different results each time. So let
+- [15:42] me run this and you can see what the
+- [15:44] difference is. So as you can see we have
+- [15:46] different types of responses. This is a
+- [15:48] pretty professional response. Then we
+- [15:51] have something that's a bit more fun
+- [15:53] with exclamation marks and yeah I don't
+- [15:56] really like that. Uh and then there's
+- [15:58] the uh budget agent that uh looks at
+- [16:01] cost of living which is very affordable
+- [16:03] etc etc. The nice thing about this
+- [16:06] pattern is that the run travel strategy
+- [16:09] function doesn't need to know anything
+- [16:10] about the particular agent that's being
+- [16:12] used. You can uh keep your business
+- [16:15] logic basically what is in here
+- [16:17] consistent while allowing for flexible
+- [16:20] behavior. Now one thing you probably
+- [16:22] notice is that these patterns don't
+- [16:24] really change. They're not different for
+- [16:26] AI systems than for other systems, but
+- [16:29] some of these patterns are quite useful
+- [16:31] in particular for AI systems like the
+- [16:33] ones that I've shown you today. Again,
+- [16:35] I've used my own take on these. So,
+- [16:38] these are not like strictly following
+- [16:40] the gang of four book or anything like
+- [16:42] that. I typically tend to use functions,
+- [16:45] protocols, whatever works for me,
+- [16:47] whatever makes it simple and easy to
+- [16:50] work with. That's just my style. I know
+- [16:52] there are people that like more strict
+- [16:54] implementations of these patterns. I
+- [16:56] typically take a bit of freedom with
+- [16:58] them. I do think that patterns like
+- [17:00] this, designs like this, help you build
+- [17:02] systems that are a bit more scalable.
+- [17:04] They're going to let you decompose
+- [17:07] complex task into clearer steps. You can
+- [17:10] add observability without polluting your
+- [17:12] logic. You can inject behavior
+- [17:14] dynamically and cleanly with the
+- [17:17] patterns that I just shown you. When you
+- [17:19] when you combine this with pantic AI,
+- [17:21] you're going to get strongly typed
+- [17:23] validated outputs, fewer runtime errors,
+- [17:26] easier testing and reuse. And to me,
+- [17:29] this is how you go from, let's say,
+- [17:31] one-off hacks to scalable, maintainable
+- [17:34] AI systems. But I'd like to hear from
+- [17:37] you. Are you using any of these design
+- [17:40] patterns in your projects? Do you
+- [17:42] implement them in this way as well? or
+- [17:44] do you use the more traditional
+- [17:46] implementation from the GA 4 book? Is
+- [17:49] there another design pattern that you
+- [17:51] use a lot in systems that work with LLMs
+- [17:55] or another pattern that you'd like to
+- [17:57] see applied to these LLMs? Then I can do
+- [17:59] a video about that. Let me know in the
+- [18:01] comments. Like I said, I've used
+- [18:03] Binantic AI in this example in a very
+- [18:06] basic fashion, but it's actually really
+- [18:08] powerful. If you want to learn more
+- [18:10] about how to use Binantic AI in your
+- [18:12] projects and what you can do with it,
+- [18:14] check out this video next.

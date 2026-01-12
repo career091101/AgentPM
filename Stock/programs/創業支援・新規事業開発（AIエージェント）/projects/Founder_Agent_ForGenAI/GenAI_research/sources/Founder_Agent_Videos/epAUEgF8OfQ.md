@@ -1,0 +1,1294 @@
+---
+title: "Welcome to dataf framed. This is Richie. Retrieve augmented generation or rag to its friends is a po..."
+video_id: "epAUEgF8OfQ"
+video_url: "https://www.youtube.com/watch?v=epAUEgF8OfQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Welcome to dataf framed. This is Richie.
+  Retrieve augmented generation or rag to
+  its friends is a popular technique for
+key_points:
+  - "Welcome to dataf framed. This is Richie."
+  - "its friends is a popular technique for"
+  - "include in your prompt. This is supposed"
+  - "more sophisticated. Today, I want to"
+  - "are greatly exaggerated or not. Our"
+  - "guest is Da Keela, who was part of the"
+  - "parts are kind of cobbled together, but"
+  - "agent is just something that actively"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: epAUEgF8OfQ
+
+- URL: https://www.youtube.com/watch?v=epAUEgF8OfQ
+- Retrieved at: 2025-12-30T14:29:44+09:00
+
+## Text
+
+- [00:00] Welcome to dataf framed. This is Richie.
+- [00:02] Retrieve augmented generation or rag to
+- [00:04] its friends is a popular technique for
+- [00:06] retrieving supporting information to
+- [00:08] include in your prompt. This is supposed
+- [00:09] to reduce the hallucination problem that
+- [00:12] LLM suffer. For all its success, I quite
+- [00:14] regularly see people proclaiming its
+- [00:16] imminent death in favor of something
+- [00:18] more sophisticated. Today, I want to
+- [00:20] know whether the reports of rag's death
+- [00:22] are greatly exaggerated or not. Our
+- [00:24] guest is Da Keela, who was part of the
+- [00:27] team at Meta that invented rag. These
+- [00:29] days, he's CEO of Contextual AI, a
+- [00:32] platform for creating rag agents and
+- [00:34] custom LLMs known as contextual language
+- [00:37] models. All right, let's find out about
+- [00:39] the fate of rag. A lot of rag systems
+- [00:41] like 2 years ago were what we called
+- [00:43] like Frankenstein's rag. All of these
+- [00:45] parts are kind of cobbled together, but
+- [00:47] they're not really designed to work well
+- [00:49] together. In our case, all of these
+- [00:50] components are designed to be
+- [00:51] state-of-the-art, and they're also
+- [00:53] designed to work well together. I think
+- [00:55] the a much more useful definition of an
+- [00:57] agent is just something that actively
+- [00:59] reasons. The really exciting technology
+- [01:02] that that has enabled all of this is
+- [01:04] just test time reasoning and the insight
+- [01:05] that shifting the compute from the
+- [01:08] training side to the test time inference
+- [01:10] side um actually has very very nice uh
+- [01:13] properties.
+- [01:17] Hi DA, welcome to the show. Hi, thanks
+- [01:20] for having me. Cool. So, I've been
+- [01:22] hearing a lot in the last year about
+- [01:24] people predicting the death of retrieval
+- [01:26] augmented generation. Brag, why do you
+- [01:28] think people keep thinking this is going
+- [01:30] to happen? Yeah. And that that usually
+- [01:34] happens with with good simple ideas
+- [01:36] where where people are trying to sort of
+- [01:38] um rewrite history maybe from a
+- [01:40] marketing perspective a little bit. And
+- [01:43] rag is such a simple idea uh that I
+- [01:46] think it's a little bit silly to declare
+- [01:48] it. Um, so, um, I I guess everybody
+- [01:52] listening in here knows what RAG stands
+- [01:54] for, right? Retrieval augmented
+- [01:56] generation. And so the G is just any Gen
+- [01:59] AI model and then you want to make that
+- [02:02] model work on your data, which means you
+- [02:04] need to augment it with your data. And
+- [02:06] the way to do that is through some form
+- [02:08] of retrieval. So it's such a kind of
+- [02:11] generic paradigm that it doesn't really
+- [02:13] make sense to to pronounce it that I
+- [02:16] think. But from a marketing perspective,
+- [02:18] a lot of people keep saying, "Oh, you
+- [02:19] you know, you don't need rag, you need
+- [02:21] fine-tuning, or you don't need rag, you
+- [02:23] need um long context windows." Um, and
+- [02:26] yeah, I mean, we can we can go into the
+- [02:28] specifics of each of those. Um, but uh,
+- [02:31] yeah, I think these are mostly marketing
+- [02:34] tricks. Okay, that's good to know. So I
+- [02:36] suppose it feels a bit like linear
+- [02:38] regression is very simple and I mean
+- [02:40] it's been around for like almost a
+- [02:42] century now and people still use it
+- [02:44] because it's simple even though there
+- [02:45] are more sophisticated models out there
+- [02:47] now. Yeah, exactly. Yeah, we even bought
+- [02:50] a domain name is rank dead yet.com uh
+- [02:54] where we can point people to a blog post
+- [02:56] about uh about whether rag is dead or
+- [02:59] not. Yeah, I mean so these are the types
+- [03:01] of things that you cannot really declare
+- [03:03] dead I think. Uh but I guess I'm biased.
+- [03:07] Okay. Uh there are any problems though?
+- [03:09] Are there any limitations to this? Oh,
+- [03:12] absolutely. Uh so so I I I think if you
+- [03:15] look at agents, right, agents in
+- [03:17] general, uh retrievo is just one of the
+- [03:20] tools in the toolbox of an agent. Um and
+- [03:23] so um I think it's it's very true that
+- [03:27] we should not just have rag as the only
+- [03:30] thing that these agents uh can do. But
+- [03:32] yeah, that feels a little obvious,
+- [03:34] right? So, um, in terms of of the
+- [03:36] current limitation still of rag, I think
+- [03:39] part of the solution there is actually
+- [03:41] long context, right? So, if a retrieval
+- [03:44] system is imperfect, then ideally you
+- [03:46] want to cast a wider net. So, have more
+- [03:49] information that you can put into the
+- [03:52] context of the language model in the
+- [03:53] hope that there's something useful in
+- [03:55] there. Um, and then um uh that's that's
+- [03:59] where you need a longer context. That
+- [04:00] that's why I always talk about these
+- [04:02] dichotoies as sort of being false,
+- [04:03] right? It's like you need both. It's
+- [04:06] like you're not going to put the entire
+- [04:08] like internet in the context of your
+- [04:10] language model. So that's why you are
+- [04:12] going to do some search. So rag
+- [04:14] basically, but then you want to ideally
+- [04:16] put lots of search results in the
+- [04:18] context of the language model so that it
+- [04:19] can do its job and and answer the
+- [04:22] question correctly, right? So uh yeah,
+- [04:24] we need all of those things. Okay, so
+- [04:26] just to make sure I've understood this
+- [04:28] correctly, the whole point of rag is
+- [04:31] that you're going to reduce
+- [04:32] hallucinations by just getting or just
+- [04:34] retrieving relevant information and
+- [04:37] putting that inside your prompt and then
+- [04:39] that's going to help the large language
+- [04:41] model give you the correct answer. So if
+- [04:44] you have a longer context window, you
+- [04:46] can put more information in there that's
+- [04:47] going to assist it. And so the idea of
+- [04:51] long context windows and rag they sound
+- [04:53] like they're competing but actually
+- [04:55] they're kind of complimentary. Is that
+- [04:58] right? Very very complimentary. Yes.
+- [05:01] Okay. Wonderful. So I know in the
+- [05:04] contextual blog you've introduced the
+- [05:06] idea of rag 2.0. So can you tell me what
+- [05:09] rag 2.0 is and how is it different from
+- [05:12] the original rag? Yeah. So, so the way
+- [05:15] we do rag is is uh a bit different I
+- [05:18] guess from what everybody else is doing.
+- [05:20] And so we started the company when we
+- [05:22] saw the world get very excited after
+- [05:25] chat GPT and then get very frustrated uh
+- [05:28] because the technology wasn't quite
+- [05:30] ready and that that was especially true
+- [05:31] for uh enterprise use cases. So um we
+- [05:36] knew that rag would be part of the
+- [05:37] answer obviously given what we knew
+- [05:39] about rag. We also knew that rag was
+- [05:41] just the first idea there and that and
+- [05:43] that uh even in the rag paper we talk
+- [05:46] about sort of what the the vision is and
+- [05:48] what we really want to achieve which is
+- [05:50] that these components are designed to
+- [05:52] work together right so so a lot of um um
+- [05:56] rag systems like two years ago were what
+- [05:58] we called like Frankenstein's rag where
+- [06:01] it's all of these parts are kind of
+- [06:02] coupled together but they're not really
+- [06:04] designed to work well together. So uh
+- [06:07] our rag 2.0 I know approach is about
+- [06:09] making sure that all of the components
+- [06:11] of a modern RAD pipeline. So that's not
+- [06:13] just a vector database and a language
+- [06:15] model anymore. It's much more
+- [06:16] complicated as a system. In our case,
+- [06:19] all of these components are designed to
+- [06:20] be state-of-the-art and they're also
+- [06:22] designed to work well together. And you
+- [06:25] can do that through uh training on the
+- [06:27] same uh data distribution essentially so
+- [06:29] that all the parts are designed to work
+- [06:32] well together. They're literally like
+- [06:34] trained to work well together. And so uh
+- [06:36] that combination of having very good
+- [06:39] components and then having a very good
+- [06:40] compound um that that makes our our
+- [06:44] system much better at rag than than
+- [06:46] anybody else. Okay. So in theory that
+- [06:49] sounds like a very useful idea for the
+- [06:51] idea that the data in your database and
+- [06:54] the data in the large language model
+- [06:56] they're kind of harmonized in some way.
+- [06:59] You got all the components working
+- [07:00] together. Um do you have a sense of when
+- [07:03] this might be useful and what sort of
+- [07:05] benefits you might get from it? Uh it's
+- [07:07] always
+- [07:08] useful. I mean uh it's it's the use
+- [07:12] cases we are focused on as a company. Uh
+- [07:14] they they tend to be high stakes use
+- [07:17] cases with a low tolerance for mistakes
+- [07:19] and a and sort of high uh high accuracy
+- [07:22] requirements where you want to have very
+- [07:24] accurate attributions. So very often
+- [07:26] this is in regulated industries and then
+- [07:29] you want to um um you know where you're
+- [07:31] also sensitive about your data and if
+- [07:34] you have those characteristics then then
+- [07:36] uh we are much better than than anything
+- [07:39] else out there. Okay. Yeah. So I can see
+- [07:41] if you got a high requirement that the
+- [07:42] answer you're giving is correct in some
+- [07:45] way. You need to put more effort into
+- [07:47] this. Uh do you have any examples maybe
+- [07:50] from one of your customers of things
+- [07:52] that have been built using this
+- [07:53] approach? Yeah. So, so one one use case
+- [07:56] I'm very proud of is the work we've been
+- [07:58] doing with Qualcomm. Um, so um their
+- [08:02] customer engineering department is using
+- [08:04] us where their only genai deployment at
+- [08:07] scale as far as I know. Uh where um yeah
+- [08:10] we these are thousands of engineers who
+- [08:12] are using us uh on a daily basis to
+- [08:16] answer very complicated questions. So
+- [08:18] these are not the simple kind of
+- [08:20] questions where you have like your
+- [08:21] internal search and maybe it's like you
+- [08:23] know something like glean and you would
+- [08:24] ask it like who is our 401k provider or
+- [08:27] how many vacation days do I get right um
+- [08:30] that that's not really where the the ROI
+- [08:32] of AI is going to come from you want to
+- [08:34] focus on these much more uh expert uh
+- [08:37] kind of specialist knowledge worker use
+- [08:39] cases and and uh so that's what we did
+- [08:42] with Qualcomm and we can answer very
+- [08:44] complicated questions where I don't
+- [08:46] understand what the question means
+- [08:48] uh and definitely don't understand what
+- [08:49] the answer means, but the system does a
+- [08:51] really good job at uh explaining the the
+- [08:54] information and giving the right answer.
+- [08:56] Okay. Yeah. So, if you got a simple true
+- [08:58] or false or give me a number, retrieve
+- [09:01] one simple fact kind of situation, then
+- [09:04] rag 2.0 is maybe overkill. Is that
+- [09:06] right? But if you got a more complicated
+- [09:08] question, then that's when it's going to
+- [09:10] shine. It's not really overkill. It's
+- [09:12] more that um you'll So, the rag 2.0 know
+- [09:16] uh uh happens during training, right?
+- [09:18] Not during inference. So during
+- [09:20] inference, it's still a normal rag
+- [09:22] system, but just a really really good
+- [09:24] one. Um so it it doesn't um make things
+- [09:27] more complicated for you. Uh if
+- [09:29] anything, it makes everything easier
+- [09:31] because we offer it in one platform
+- [09:33] where you can build these agents really
+- [09:34] in 10 seconds. Uh I I can build a a
+- [09:38] state-of-the-art rag agent a agent in in
+- [09:41] 10 seconds, which is I think pretty
+- [09:43] powerful. 10 seconds. Okay. Well, I'm
+- [09:45] that's pretty short. I mean, it's about
+- [09:48] as short a development time as you can
+- [09:50] get. Yeah. So, talk me through uh what
+- [09:53] do you do then if you're going to build
+- [09:54] something in 10 seconds.
+- [09:57] So, uh we had these two concepts uh of
+- [09:59] agents and data stores in our platform.
+- [10:02] And so what you would do is you would
+- [10:03] create a data store. Um and then um you
+- [10:07] would tell the agent that that is the
+- [10:09] data store that it has to work on top of
+- [10:11] and you put some files or a database uh
+- [10:14] into that data store and now you can
+- [10:16] talk to that data and do rag on top of
+- [10:18] that data with a a state-of-the-art rag
+- [10:21] system. Okay, that sounds very
+- [10:24] straightforward. Just copy some files
+- [10:25] into a database and say okay go look at
+- [10:28] them. So tell me something about what's
+- [10:30] in there.
+- [10:31] Um, all right. Nice. Um, and if you're
+- [10:34] going to look at one of these very
+- [10:36] strict use cases that you mentioned, uh,
+- [10:39] that one of these regulated examples, do
+- [10:41] you need some sort of tuning of that?
+- [10:43] Um, like some sort of optimization to
+- [10:47] make sure it all works properly. Yeah.
+- [10:48] So, you can do that. So, our hope is
+- [10:51] that out of the box, our performance is
+- [10:53] already good enough, which turns out to
+- [10:55] be the case uh, for many use cases. But
+- [10:58] um yeah, if you if you work in finance
+- [11:01] for example, then you really want to uh
+- [11:04] uh uh get maximum performance and so
+- [11:06] that means that you need to really
+- [11:07] specialize for the use case and you can
+- [11:09] do that through our platform. So we
+- [11:12] allow you to tune not just the language
+- [11:14] model or just the retriever, we allow
+- [11:16] you to tune the entire rag pipeline for
+- [11:19] your specific problem. Uh, and so often
+- [11:22] that that leads to uh to pretty
+- [11:24] substantial uh performance improvements
+- [11:25] on top of already state-of-the-art out
+- [11:27] of the box performance. Okay. All right.
+- [11:30] So, it sounds like a lot of the secret
+- [11:32] to this is around the fine-tuning steps
+- [11:35] and the other steps around making sure
+- [11:37] the model quality is high. Yeah, some of
+- [11:39] it is. So, it's also just about having
+- [11:42] very good components, right? So, for for
+- [11:44] uh folks listening in on the podcast,
+- [11:46] they can also use these components
+- [11:48] themselves. We've made them available
+- [11:49] independently. So if you uh want to have
+- [11:52] a grounded language model that is
+- [11:54] designed for rag and nothing else, so
+- [11:56] it's really specialized for rag, then
+- [11:58] you can use that. If you want to use a
+- [12:00] reranker um uh that is state-of-the-art
+- [12:03] and that can follow instructions,
+- [12:05] um you can also do that, right? And so
+- [12:08] it's the same for our retrieval pipeline
+- [12:09] and for our uh document intelligence
+- [12:11] pipeline. So, all of the components that
+- [12:14] make up our state-of-the-art uh uh rag
+- [12:17] system, they're they're available on
+- [12:19] their own as well. Uh because we uh just
+- [12:22] like seeing what people build with them.
+- [12:24] Interesting. Uh I'm curious as to how
+- [12:26] you measure what the benefits are. It
+- [12:28] seems like it's quite tricky to work out
+- [12:31] um what the quality of the responses are
+- [12:33] in general. So, how do you go about
+- [12:36] doing this? Yeah, evaluation is such an
+- [12:39] important area and and so
+- [12:41] underappreciated and so we we do it in a
+- [12:45] variety of different ways. I mean
+- [12:46] obviously we look at kind of standard
+- [12:48] benchmarks, right? And so like rag QA
+- [12:50] arena is a benchmark and and we are
+- [12:53] state-of-the-art on that and so that's
+- [12:54] what we um care about too. Uh but that
+- [12:58] doesn't even necessarily translate to
+- [13:00] real world performance. Uh so we we look
+- [13:03] much more closely at our our uh actual
+- [13:05] customer data sets and um sort of the
+- [13:08] process of UAT user acceptability
+- [13:10] testing. So do people actually consider
+- [13:13] this answer to be correct and useful? Um
+- [13:16] and that's ultimately what you care
+- [13:17] about, right? That's where the the ROI
+- [13:19] comes from. Um so that's one thing. I I
+- [13:22] think the other thing that's maybe worth
+- [13:24] uh mentioning here is that we have this
+- [13:27] this framework around natural language
+- [13:29] unit testing. um where um you you're
+- [13:33] familiar with unit testing, right? It's
+- [13:35] it's the what you do with code is like
+- [13:37] just step by step measuring small small
+- [13:40] things about your code, small units and
+- [13:43] and then making sure that they are
+- [13:45] correct and and you can use the same
+- [13:48] idea for language model responses where
+- [13:51] you can delineate very precisely what
+- [13:54] the characteristics are of a good
+- [13:55] answer. So, so you could say okay like
+- [13:58] it needs to mention this thing first.
+- [14:00] that needs to be in this particular
+- [14:02] style. It can absolutely not talk about
+- [14:04] this thing and you know whatever the
+- [14:07] characteristics are of the answer you
+- [14:08] can write specific unit tests for. And
+- [14:11] so doing that gives you much much richer
+- [14:13] signal than just looking at what
+- [14:16] everybody else is doing now with LLM as
+- [14:18] a judge models which is just like is
+- [14:20] this generated response equivalent to my
+- [14:23] ground truth response? And so maybe that
+- [14:26] makes sense if you're generating a few
+- [14:27] sentences, but if you're generating a
+- [14:29] long answer, then that's just not going
+- [14:31] to cut it. Interesting. So, uh, you want
+- [14:33] to be able to ask specific questions
+- [14:36] about the response and just check does
+- [14:39] it match all of these different criteria
+- [14:42] and it can do pass or fail for lots of
+- [14:45] different things then. Exactly. But
+- [14:47] that's really great too, right? Because
+- [14:48] if you think about like a regulated
+- [14:50] industry
+- [14:51] um the you have you will have people in
+- [14:54] like the the model risk management
+- [14:56] department of the bank and they need to
+- [14:58] write out what a good answer looks like
+- [15:01] and what cannot be uh a part of any
+- [15:04] answer right so if they can just write
+- [15:06] those unit tests in natural language and
+- [15:08] then the system can test against that
+- [15:10] for every generation uh that's something
+- [15:13] that that you that will make regulators
+- [15:15] much happier basically basically yeah I
+- [15:17] Certainly from my experience of creating
+- [15:19] software uh when you write the test it
+- [15:22] really helps clarify what you actually
+- [15:23] want the software to do. I'm sure it's
+- [15:26] the same situation with your large
+- [15:28] language models. Yeah, test driven
+- [15:30] development. Yeah, absolutely. Cool. So
+- [15:33] I guess related to this is the idea of
+- [15:37] maintenance. So if your data is changing
+- [15:40] very rapidly, how do you go about
+- [15:42] maintaining your model just to make sure
+- [15:44] it's continually giving the right
+- [15:45] results?
+- [15:47] Yeah. Uh, so I mean what rag is useful
+- [15:51] for is making sure that things will keep
+- [15:54] working on your data even as the data
+- [15:56] changes, right? That's part of part of
+- [15:57] the the appeal of rag. Um, so um I I I
+- [16:02] think you you kind of do that
+- [16:04] automatically there. But one of the
+- [16:05] things that we're always thinking about
+- [16:07] is how can we make sure that we have the
+- [16:08] best components and continuously keep
+- [16:11] updating the best components to make
+- [16:12] sure that they're integrated into the
+- [16:14] the the overall pipeline. Um and and so
+- [16:18] that actually takes a lot of effort,
+- [16:20] right? Make just staying at the frontier
+- [16:23] of AI which is moving so quickly. Um
+- [16:26] that is is a lot of work. Um and and so
+- [16:30] um yeah that's that's exciting to that
+- [16:32] we get to do uh things like that right
+- [16:34] as a broader kind of research community
+- [16:36] research community. Okay. So in theory
+- [16:38] you shouldn't have to do too much
+- [16:39] maintenance as long as the systems in
+- [16:42] place and you test it once. So even if
+- [16:45] your data changes it's still going to
+- [16:48] work. Yeah. I actually I so I was at
+- [16:51] this uh I was at this this Gartner
+- [16:54] conference and it was data and analytics
+- [16:58] and and so everybody at the Gartner
+- [17:00] conference and this is really not my
+- [17:02] crowd to be honest. these are are not
+- [17:04] not like uh you know AI uh people they
+- [17:07] are like real enterprise people and it
+- [17:09] was really eye openening for me to just
+- [17:10] be there and talk to all these amazing
+- [17:12] people and get their perspectives which
+- [17:14] were very different from what I've been
+- [17:16] hearing everywhere and and the whole
+- [17:17] conference was just talking about uh
+- [17:20] making your data ready for AI and and I
+- [17:24] just felt like that's a massive copout
+- [17:27] right that you should not have to make
+- [17:28] your data ready for AI you should make
+- [17:31] your AI ready for your data
+- [17:34] Right. And and so so that in an ideal
+- [17:38] world and I think where we're headed is
+- [17:40] that you don't have to do anything to
+- [17:42] your data to make it work. You just have
+- [17:43] very good AI that works on top of that
+- [17:45] data and you and we just have to accept
+- [17:48] that data is noisy. And so that's why we
+- [17:51] have like this multi-stage retrieval
+- [17:53] pipeline. That's why we have this
+- [17:54] powerful re-ranker that can follow
+- [17:56] instructions. that that's exactly
+- [17:58] because you need to make sense of noisy
+- [17:59] data and filter out the things that you
+- [18:01] don't want and make sure you get the
+- [18:03] things that you do want into the
+- [18:04] language model. Um, so uh yeah, in an
+- [18:08] ideal world in the long run I I can't
+- [18:09] promise it now yet, but in the long run
+- [18:12] you want to make sure that AI just works
+- [18:14] on your data and you don't have to make
+- [18:16] your data AI ready. Okay, I think I just
+- [18:18] heard everyone listening in who works in
+- [18:20] data governance just gasp all at once.
+- [18:25] uh just just wait don't waste your time
+- [18:28] preparing for uh this work in in the
+- [18:31] near future. Okay. So do you have any
+- [18:33] advice for people who do work in data
+- [18:35] governance then? So if your company's
+- [18:38] making applications involves search or
+- [18:40] retrieval, what do data governance
+- [18:42] people need to do? Be very careful about
+- [18:45] your metadata. Um, so I I think that's
+- [18:48] really one of the crucial parts of of
+- [18:50] state-of-the-art modern rag pipelines is
+- [18:52] making sure that you have high quality
+- [18:54] metadata or annotations for your
+- [18:56] documents and and uh database schemas or
+- [18:59] things like that. Um, so that that is is
+- [19:02] definitely still going to matter having
+- [19:04] rich metadata. Um and so yeah the other
+- [19:08] thing is is really about I think
+- [19:10] thinking carefully through like your
+- [19:12] entitlements model especially when you
+- [19:14] have multiple data sources that might be
+- [19:16] very desperate. So you you know we
+- [19:19] talked to a lot of companies that have
+- [19:20] like SharePoint and Confluence and like
+- [19:22] Jura and Slack and like Google Drive and
+- [19:25] all kinds of different things and then
+- [19:27] they want to work on top of all of
+- [19:28] those. Um but so getting that to
+- [19:31] actually work with a with a proper sort
+- [19:33] of role-based access control
+- [19:35] entitlements uh setup is is not trivial
+- [19:39] at all. So that's one of the things that
+- [19:41] that we are uh are good at. But uh if
+- [19:44] you if you have a more centralized way
+- [19:47] of dealing with that from a data
+- [19:48] governance perspective uh then you can
+- [19:51] save yourself a big headache. Okay.
+- [19:53] Yeah. So certainly I can see how lineage
+- [19:55] is incredibly important. Do you want to
+- [19:58] go into a bit more about the
+- [19:59] entitlements? Uh it sounds as if
+- [20:01] different people have got different
+- [20:02] permissions on data and it makes
+- [20:04] retrieval a bit complicated.
+- [20:07] Yeah. So if you think about like real
+- [20:09] world companies with like 100,000
+- [20:12] employees and not everybody has access
+- [20:14] to the same amount of data um and or so
+- [20:18] right some some like companies actually
+- [20:21] from a regulatory perspective have sort
+- [20:22] of hard fencing between departments. Um
+- [20:27] yeah so you need to make sure that you
+- [20:28] capture that and that you don't make any
+- [20:30] mistakes. Um and so uh yeah, setting
+- [20:33] things up the right way for handling
+- [20:35] that at the scale of 100,000 people in a
+- [20:38] large company. Um that's a that's a very
+- [20:41] interesting problem. Sure. Yeah. So in
+- [20:43] that case, I guess you want the model to
+- [20:45] give different responses depending on
+- [20:47] who is asking the question because
+- [20:49] they're going to see different data.
+- [20:52] Yeah. So like I always enjoy saying
+- [20:55] everything is
+- [20:56] contextual and and so you want to get
+- [20:59] that context into the the model and so
+- [21:01] for every user and every user
+- [21:04] interaction even um the the context
+- [21:07] should be different. Okay, nice. So I
+- [21:09] know handling permissions has been
+- [21:11] around forever in relational databases.
+- [21:14] I don't know what the status is with
+- [21:16] vector databases. So, is it easy to
+- [21:19] manage who gets access to what data and
+- [21:22] like is it as sophisticated as with
+- [21:24] relational databases? No, it's not it's
+- [21:27] not nearly as sophisticated. Uh it's
+- [21:30] getting better, but it's not not as
+- [21:31] sophisticated. And even with relational
+- [21:33] databases, I I I think it's actually not
+- [21:36] that that easy. Um so you can do it in
+- [21:39] like one one sort of single uh database
+- [21:43] but doing it across databases um uh is
+- [21:46] is also not easy. Okay. So is there a
+- [21:49] solution to this then? Yeah. So the the
+- [21:52] way we do it is we we synchronize the
+- [21:54] the data with our um sort of data store
+- [21:58] concept which we talked about right and
+- [22:00] then um when we do the retrieval step we
+- [22:04] validate using an entitlements API that
+- [22:06] sort of calls all the upstream APIs to
+- [22:08] to make sure that the that you still
+- [22:11] have access. Um and so that obviously
+- [22:14] cannot always happen in real time
+- [22:15] depending on your latency constraints
+- [22:17] but there's some sort of um
+- [22:19] synchronization uh step that happens in
+- [22:22] between there and so yeah so the model
+- [22:24] is basically like you ingest you do the
+- [22:27] retrieval over that index kind of a
+- [22:29] complicated index um and then uh when
+- [22:33] you find the results you validate that
+- [22:35] the results you found are actually
+- [22:36] accessible by the user using an
+- [22:38] entitlements API. All right. So, if it
+- [22:40] sounds like one of those problems where
+- [22:42] it's going to be much better if someone
+- [22:43] else solves it for you, like it doesn't
+- [22:45] sound like the sort of fun thing you
+- [22:47] want to play around with yourself.
+- [22:49] That's what I've been trying to tell
+- [22:50] people. Stop trying to DIY complex rag
+- [22:54] systems. It's not worth your time. Just
+- [22:56] like you wouldn't build your own
+- [22:57] database or your own language model,
+- [23:00] like you shouldn't build your own rag
+- [23:03] platform, you should be building rag
+- [23:05] agents and applications on top of that
+- [23:07] platform to solve uh important business
+- [23:09] problems for your business. Okay. Yeah.
+- [23:12] So I mean that seems incredibly
+- [23:13] important. Uh so it's like try and
+- [23:16] figure out where you can add the most
+- [23:18] value to solve problems to your
+- [23:20] business. Uh can you just talk me
+- [23:22] through how do you go about thinking
+- [23:24] about this? Where should you be spending
+- [23:25] your time? Do you have any examples?
+- [23:28] Yeah. So, so
+- [23:29] the differentiated value for a company
+- [23:32] is what companies are all about, right?
+- [23:35] Like your company wants to be better
+- [23:36] than your competition. That that's sort
+- [23:38] of the goal of every company. And and so
+- [23:41] the more you can focus on that um and
+- [23:44] thinking about okay, how can we um uh
+- [23:47] use our data and how can we automate
+- [23:49] some of our processes or improve some of
+- [23:51] the things that we do. um the more time
+- [23:53] you can spend on that and not on like
+- [23:56] the optimal chunking strategy uh or like
+- [23:59] how to make sure that your VLM doesn't
+- [24:01] continuously go down or like basic
+- [24:04] problems that you have to deal with on
+- [24:05] the sort of red plumbing side of things.
+- [24:08] Um the less you have to worry about the
+- [24:10] plumbing, the more you can worry about
+- [24:12] actually solving real problems that that
+- [24:14] add business value. Yeah, that makes
+- [24:16] sense. just really think about how can I
+- [24:19] actually make my business better and
+- [24:21] then try and get as close to just
+- [24:23] creating stuff on that level rather than
+- [24:25] worrying too much about the low-level
+- [24:27] infrastructure if possible. Okay. So
+- [24:30] there's something you mentioned a few
+- [24:32] times uh it's the idea of a
+- [24:35] reranker. It sounds quite technical but
+- [24:37] I feel like it's one of those
+- [24:39] underleveled components of AI systems
+- [24:41] that isn't talked about much. So, do you
+- [24:43] want to explain what is a re-ranker and
+- [24:45] why would I need one? Yeah, the the
+- [24:48] re-ranker is super important. I think
+- [24:50] every modern rag pipeline in production
+- [24:52] that I've seen has a re-ranker in it.
+- [24:55] And so, the idea is actually very
+- [24:57] simple. It's when you do retrieval um
+- [25:01] because you you need to do retrieval
+- [25:03] over large amounts of data, you cannot
+- [25:05] have a very big model doing that. So,
+- [25:08] embeddings models are are you cache the
+- [25:10] embeddings, right? it's relatively uh uh
+- [25:14] cheap compute. Maybe you do some like
+- [25:16] keyword search um and then you get a
+- [25:19] bunch of results. But now because you
+- [25:21] you had to do this at a very large
+- [25:23] scale, you will have made mistakes
+- [25:25] because you had to do it sort of quickly
+- [25:27] enough, right? So you couldn't have like
+- [25:29] a a smarter model take a look at it. So
+- [25:32] that that's what the reranker is. It's a
+- [25:34] smarter model that does a second pass at
+- [25:37] your initial retrieval results and says
+- [25:39] actually like this I you know I can see
+- [25:42] why it was sort of relevant but it's
+- [25:43] really not relevant or you know this one
+- [25:46] is actually super super important for
+- [25:48] getting the right answer. Um, and so,
+- [25:50] uh, our re-ranker is, uh,
+- [25:52] state-of-the-art by by a large margin.
+- [25:54] So, it's much better than other
+- [25:56] rebankers out there, and it's the only
+- [25:58] one that can follow instructions, which
+- [26:00] is really important because now you can
+- [26:02] tell it what your um data hierarchy is
+- [26:05] basically. So, again, at the level of
+- [26:08] the user or even of the the individual
+- [26:10] query, you can say this is the priority
+- [26:13] of my retrieval results based on my
+- [26:16] preferences. So most recent first um if
+- [26:20] it is a PDF then it's more true than if
+- [26:22] it's a slack message um you know if it
+- [26:25] comes from our internal wiki or if the
+- [26:27] boss wrote it then it's more true than
+- [26:29] if it's an intern uh document and it has
+- [26:31] draft in the title right the these types
+- [26:33] of of rules for how to prioritize data
+- [26:36] and how to break conflicts in rag
+- [26:38] pipelines um that's what you need an
+- [26:41] instruction following re-ranker for and
+- [26:43] and so uh yeah that's that's one of the
+- [26:46] that we have in our platform and that's
+- [26:48] one of the things that makes us better.
+- [26:50] Okay. Yeah. So I think the standard
+- [26:53] approach for retrieving information from
+- [26:54] a backto-day space is just a simple dot
+- [26:57] product of like 19th century maths. Uh
+- [27:00] so I'm curious you mentioned if you want
+- [27:03] to rerank information uh you got to have
+- [27:06] a set of rules on precedence. So is that
+- [27:09] something you need to write manually uh
+- [27:11] these precedence rules or can they be
+- [27:13] automatically generated?
+- [27:16] Yeah. So, so we usually have pretty good
+- [27:18] default rules in place uh for for the
+- [27:21] re-ranker. And so that would be things
+- [27:22] like most recent first and kind of
+- [27:24] common sense uh rules. Um so you don't
+- [27:28] have to come up with them yourself if
+- [27:30] you don't want to. You can also ask a
+- [27:31] language model based on your data what
+- [27:33] it thinks the rules should be. Um um but
+- [27:37] uh yeah, so you you you can do it
+- [27:39] yourself or you can just go with the
+- [27:41] defaults.
+- [27:43] Okay, nice. So again, this sounds like
+- [27:44] something where you could easily get
+- [27:46] very deep into the weeds and figure out
+- [27:49] what's the optimal strategy here, but it
+- [27:51] also feels like again this could be
+- [27:52] tricky stuff. Yeah. So if you have a
+- [27:55] very specific rank problem and there's a
+- [27:56] very specific thing that needs to happen
+- [27:58] there um just because of the problem
+- [28:01] you're trying to solve, then then you
+- [28:03] could try to solve it through the system
+- [28:05] prompt, but ideally you solve it by
+- [28:07] prompting your retrieval uh pipeline,
+- [28:09] right? And so you obviously can't do
+- [28:11] that in your first stage retriever
+- [28:12] because it doesn't have the ability to
+- [28:14] follow any instructions, but you can do
+- [28:16] it in your second stage. Uh so in your
+- [28:19] reranker. So the tricky part here comes
+- [28:22] when like what happens if you've got
+- [28:24] information that conflicts with each
+- [28:27] other. So you're trying
+- [28:29] to you give a problem that's trying to
+- [28:32] give a specific answer. So you pull some
+- [28:34] information from your knowledge base or
+- [28:36] whatever and you've got two different
+- [28:39] results that give you different answers.
+- [28:42] Uh talk me through how do you go about
+- [28:44] resolving this? So I mean it depends on
+- [28:46] the type of conflict. U but you can tell
+- [28:49] it through instructions how how to deal
+- [28:51] with that conflict or how to break the
+- [28:52] tie basically. So you could say most
+- [28:55] recent first. So if you find two
+- [28:57] documents and one is more recent, then
+- [28:59] you uh rank that one much higher, right?
+- [29:02] Or you could say different data sources.
+- [29:04] It's like I prefer this data source over
+- [29:06] that one. Um so you can you can just put
+- [29:09] that in the instructions too. And then
+- [29:12] there are that's why again why it's so
+- [29:14] important that you can prompt these
+- [29:15] components is because there are
+- [29:17] different uh strategies for dealing with
+- [29:20] conflicts. So one is you go for most
+- [29:23] recent the other is um you report both
+- [29:26] results but you say that one is more
+- [29:28] recent right so uh it really depends and
+- [29:32] and that's that's why it's so important
+- [29:33] that you get control over those aspects
+- [29:36] of a rag system okay so it's good that
+- [29:39] there's some sort of way of resolving
+- [29:40] these conflicts I'm curious is there any
+- [29:43] way to feedback from when you have these
+- [29:45] conflicts uh to then put that into your
+- [29:47] data governance strategy
+- [29:51] Yeah. So, so we have uh some customers
+- [29:55] where um when the system, so one of our
+- [29:58] our uh very special capabilities is our
+- [30:00] ability to say I don't know. Um which is
+- [30:03] an underrated feature. It's much better
+- [30:06] to say I don't know than to make up a
+- [30:07] wrong answer, right? So um um that's a
+- [30:11] really really good thing. But then when
+- [30:12] you have an I don't know answer, ideally
+- [30:15] you want to have the ability to annotate
+- [30:17] that answer so that the next time you
+- [30:19] get the question, you do have relevant
+- [30:21] information in your your documentation
+- [30:24] for for resolving that question, right?
+- [30:26] Uh so that's one feedback loop and then
+- [30:28] the other is yeah we we collect feedback
+- [30:31] uh through our our UI or through our
+- [30:33] APIs and then you can export that
+- [30:35] feedback and actually train on that
+- [30:37] feedback. Um and so that's how you can
+- [30:40] uh specialize it for the use case over
+- [30:41] time. Just keep making it this sounds
+- [30:44] pretty useful for creating the feedback
+- [30:45] that you get. Start off saying okay
+- [30:47] we've got some wrong answers and then
+- [30:50] you give those wrong answers back to the
+- [30:52] people who actually curate the data or
+- [30:54] maintain it and that's going to feed
+- [30:56] back into a better system for later on.
+- [30:59] Yeah. So that's over time at least how
+- [31:01] you can capture most of the
+- [31:02] distribution. Obviously the tail of the
+- [31:04] distribution you're never going to fully
+- [31:06] be able to capture uh but you can
+- [31:08] fine-tune system maybe to generally be
+- [31:10] better also at the tail. Now we talked a
+- [31:13] little bit before about the idea of a
+- [31:15] rag agent. So I am curious as to whether
+- [31:19] rag agents have a different architecture
+- [31:22] compared to other rag applications. Uh
+- [31:25] yes and no. I guess we should talk a bit
+- [31:27] about what an agent is right because
+- [31:29] everybody's very confused. Absolutely.
+- [31:31] Uh so I think an agent is a very general
+- [31:35] concept. I mean so it it comes from uh
+- [31:38] reinforcement learning uh or even it's
+- [31:41] maybe even older than reinforcement
+- [31:42] learning itself where it's really just
+- [31:44] about like a policy that takes actions
+- [31:47] in an environment and and that policy
+- [31:49] has some sort of state and so it can
+- [31:52] manipulate the environment um uh but it
+- [31:55] doesn't necessarily have to manipulate
+- [31:57] the environment in order to be
+- [31:59] considered an agent. Uh so another way
+- [32:01] to put that's maybe maybe a bit closer
+- [32:03] to home for uh folks listening to this
+- [32:06] podcast is if you think about an agent
+- [32:09] that can do SQL queries. Um some people
+- [32:13] will say oh but it's only an agent if it
+- [32:15] changes the environment which would mean
+- [32:17] that it is only an agent if it generates
+- [32:20] insert queries or update queries. And if
+- [32:23] it just does select queries then
+- [32:24] suddenly it's no longer an agent. So I
+- [32:28] mean when you explain it like that it
+- [32:29] sounds a bit silly right as like
+- [32:31] obviously that's still an agent like
+- [32:33] deep research doesn't do any insert
+- [32:35] queries or update queries but it does do
+- [32:37] a lot of useful stuff right so um I I
+- [32:41] think a much more useful definition of
+- [32:43] an agent is just something that actively
+- [32:45] reasons um so something that thinks
+- [32:48] about what it's doing formulates a plan
+- [32:50] executes on the plan and then can revise
+- [32:52] that plan based on the information that
+- [32:54] came in so that's active reasoning and
+- [32:56] and So the really exciting uh technology
+- [32:59] that that has enabled all of this is
+- [33:01] just test time reasoning and the insight
+- [33:03] that um that uh shifting the compute
+- [33:06] from the training side to the test time
+- [33:08] inference side um actually has very very
+- [33:12] nice uh properties. Okay. Yeah, I like
+- [33:14] that. So I think uh with your
+- [33:17] explanation there it was just
+- [33:18] introducing all the important bits of
+- [33:20] jargon from reinforcement learning uh
+- [33:23] just the idea of policies and
+- [33:25] environments and all those other things.
+- [33:26] If you're interested in reinforcement
+- [33:27] learning please just rewind and re
+- [33:29] listen to that last minute or so. Uh
+- [33:31] okay uh I do like the idea uh that you
+- [33:34] mentioned uh with test time reasoning.
+- [33:36] So you're doing reasoning at the time
+- [33:38] the user asks for it. Uh and then it can
+- [33:41] go and check things on its own and uh
+- [33:44] work through things step by step. Yeah.
+- [33:46] No, so I I I think like the the simple
+- [33:49] chatbot is a subset of the overall
+- [33:51] concept of an agent. Uh so you can just
+- [33:54] have a you can have a chatbot agent and
+- [33:57] it probably for most chatbot use cases
+- [33:59] it doesn't have to do a lot of thinking.
+- [34:01] Um so it the the same agent can also
+- [34:05] power the chatbot use case. It is just
+- [34:07] more powerful. It depends on how how
+- [34:09] much um you want to budget for test time
+- [34:12] compute. And so if you want to minimize
+- [34:15] that then uh you probably um uh yeah
+- [34:18] just have something like a standard
+- [34:19] chatbot. But but the the boundary is is
+- [34:22] is very blurry, right? Because when I
+- [34:24] have a rag application, which maybe is
+- [34:28] not really an agent, but as a part of my
+- [34:31] rag step, I do query decomposition and I
+- [34:34] formulate sort of a plan and then I do
+- [34:36] some filtering on top. It's sort of an
+- [34:38] agent, right? Like that that is what
+- [34:41] agents would do, but the agent sort of
+- [34:42] maybe determines that more dynamically
+- [34:45] on the fly sort of what it would want to
+- [34:47] do. Um but yeah, the the boundary is not
+- [34:50] as well defined, I think, as a lot of
+- [34:52] people like to pretend. Um but so
+- [34:55] overall, I think so this really is the
+- [34:57] year of agents. There's a lot of
+- [34:58] excitement about them. They don't really
+- [35:00] work quite yet. I think a lot of people
+- [35:04] um are are sort of blown away by the
+- [35:06] potential, but like in practice, I
+- [35:08] haven't seen any real agent deployments
+- [35:10] that have like material impact on a
+- [35:12] company's business uh yet. I mean, I'm
+- [35:15] sure it's going to come, but it's going
+- [35:17] to take some time. Um, but these agents
+- [35:19] obviously they need to work on your
+- [35:21] data, too, right? Just like with what we
+- [35:23] were doing before with NAI. It's like,
+- [35:25] yeah, we need agents, but the agents
+- [35:27] need to work on your data. So, they need
+- [35:29] to be rag agents because rag is the way
+- [35:32] that you get things to work on top of
+- [35:34] your data. Um so um yeah, rag is one of
+- [35:38] the tools that these agents need to rely
+- [35:40] on for them to be useful especially in
+- [35:43] enterprise settings. Ah this is
+- [35:45] interesting. So I think the big
+- [35:47] difference is that with this sort of
+- [35:49] standard rack approach you've got some
+- [35:51] software saying uh okay let's shove all
+- [35:53] the bits of information from the vector
+- [35:56] database into the prompt and those kind
+- [36:00] of being pushed to the LLM. Whereas if
+- [36:02] you're doing things with um inference
+- [36:06] time reasoning then the LLM has to ask
+- [36:08] for the information just kind of pulling
+- [36:10] it
+- [36:11] in. Uh so there's a a swap is that about
+- [36:15] right? Yeah that's right. So but again
+- [36:18] right it's not really like one or the
+- [36:20] other. It's really a spectrum like I
+- [36:22] think most modern rag systems they
+- [36:24] probably have some kind of classifier
+- [36:26] that says should I retrieve or not right
+- [36:30] so and then based on that you say okay
+- [36:32] so like if I say hello then then you
+- [36:34] don't have to retrieve in your rag
+- [36:36] chatbot you just say hello back right so
+- [36:39] first thing is you you need to so that's
+- [36:41] already kind of active retrieval where
+- [36:43] in the old rag setup where it's really
+- [36:45] passive retrieval is you get a query you
+- [36:48] always search for that query
+- [36:50] uh in your vector database. You always
+- [36:52] give the results to the language model
+- [36:55] like that's that's prehistoric at this
+- [36:58] point, right? So it's much more
+- [36:59] complicated. There's there's like active
+- [37:02] decision making involved in these rag
+- [37:04] pipelines. There's a lot of uh like
+- [37:06] filtering. There's the reranker uh that
+- [37:09] has a huge impact. Um there there's this
+- [37:12] sort of active retrieval component.
+- [37:14] There's query decomposition which is
+- [37:15] almost like formulating a a retrieval
+- [37:18] plan like that that's all very agentic
+- [37:21] but now when you have an agent you can
+- [37:22] do that much more dynamically and that's
+- [37:24] that's why that's so exciting. Well
+- [37:26] okay. Yeah. So you got more flexibility
+- [37:29] about what the behavior is going to be
+- [37:31] uh rather than having a more rigid
+- [37:32] pipeline. Yeah. Exactly. And it can also
+- [37:36] like recover from its mistakes which is
+- [37:38] very important. Right. So if it
+- [37:39] retrieves something and it thinks oh
+- [37:41] actually this is not what I wanted let
+- [37:42] me try a different query and then it
+- [37:44] gets the result that's very powerful and
+- [37:46] that's something you can do with with uh
+- [37:49] aentic abilities um and then uh the
+- [37:52] other thing is is more around sort of
+- [37:54] multihop questions or or like multi-step
+- [37:57] reasoning is like like first I need to
+- [37:59] know this and then I need to know that
+- [38:01] and then I need to compare those things
+- [38:02] and then maybe based on the result do
+- [38:04] something else right that that type of
+- [38:07] multihop uh problem that that's I think
+- [38:10] very interesting uh uh in terms of
+- [38:12] business value as well. Okay. So you
+- [38:14] mentioned that there haven't really been
+- [38:16] any deployments of agents so far that
+- [38:18] have wowed you. Uh so what do you think
+- [38:21] would wow you? I mean, they wowed me in
+- [38:24] terms of like seeing the potential, but
+- [38:26] they haven't wowed me in like, oh, this
+- [38:28] company has saved like $10 million this
+- [38:31] year because they had an agent doing
+- [38:33] something. I like a like a proper agent
+- [38:36] uh using test time reasoning and not
+- [38:38] something that was branded an agent, but
+- [38:39] that was something that we were already
+- [38:42] uh capable of doing before kind of uh
+- [38:44] reasoning models. So, what do you think
+- [38:47] the sticking points are? Where are we
+- [38:49] falling short? I think generalization
+- [38:53] sort of um um so so actually having it
+- [38:57] work in in realw world settings where
+- [39:00] it's not in the the toy domain right so
+- [39:03] getting things to work in a toy domain
+- [39:05] or in a nice demo that that that used to
+- [39:08] be my sort of story around rag is and
+- [39:10] that's still very true people think that
+- [39:12] rag is easy because you can build a a
+- [39:15] nice rag demo on a single document very
+- [39:18] quickly now and it will be pretty nice.
+- [39:21] Um, but getting this to actually work at
+- [39:23] scale on real world data, uh, where you
+- [39:26] have enterprise constraints, it's very
+- [39:28] different problem. And so it's the same
+- [39:30] with agents where it's like, oh, I can
+- [39:32] make something like do this one
+- [39:33] particular thing when I prompt it and
+- [39:35] basically just make everything look good
+- [39:38] for exactly the one thing I wanted to
+- [39:39] do, but then when you actually have to
+- [39:42] make this work in in a real world
+- [39:45] setting, then then everything just
+- [39:46] breaks down very quickly still. So
+- [39:48] that's going to get better over time
+- [39:50] obviously. Um and and so I think the
+- [39:53] hype is justified. Um but yeah, it's
+- [39:57] going to take some time for for these
+- [39:58] systems to be enterprise grade enough
+- [40:00] for anybody to really deploy this uh in
+- [40:03] a in a critical setting. So since a lot
+- [40:06] of companies are just thinking we got to
+- [40:09] get on the AI game, we got to build
+- [40:13] something.
+- [40:15] What can you build that is likely to
+- [40:17] work and to add value? Yeah. So, um what
+- [40:21] you can build um so you can build basic
+- [40:25] u solutions for the relatively uh boring
+- [40:28] problems. So, um one thing you can do is
+- [40:31] go for like the basic problems where you
+- [40:33] ask the basic questions like internal
+- [40:35] search, right? But that doesn't really
+- [40:36] get you value. It's much more like
+- [40:38] trying to find um workflows that exist
+- [40:41] in your company that are a little bit
+- [40:44] boring but that where it's important
+- [40:47] that you get it right and where it
+- [40:48] requires some expertise. uh if you can
+- [40:51] solve those problems then uh you can you
+- [40:54] can make your your uh company much
+- [40:56] better, right? And and so these could be
+- [40:58] very simple things from like you know
+- [41:00] checking for uh compliance against your
+- [41:03] set of policies
+- [41:05] um or doing basic research. Uh we have a
+- [41:09] very nice demo where we fill out Excel
+- [41:11] spreadsheets on unstructured data on the
+- [41:13] fly so that you don't have to manually
+- [41:15] go and copy and paste. you just directly
+- [41:18] in your Excel uh kind of call a macro
+- [41:20] and then fill out the spreadsheet with
+- [41:22] unstructured data from different data
+- [41:24] sources. Um doing things like customer
+- [41:28] support um there there's a lot of um
+- [41:31] lowhanging fruit um in kind of the the
+- [41:34] codegen side of things. So there a lot
+- [41:36] of it is happening kind of across the
+- [41:38] board, right? It's just um um yeah doing
+- [41:41] this this the right way takes time. So
+- [41:44] there's there's a big gap between sort
+- [41:46] of where the hype cycle is and where
+- [41:48] like reality is in enterprises, but I
+- [41:50] mean it it's coming. Um uh it's it's
+- [41:53] just u yeah it takes time. Okay. So it
+- [41:56] sounds like the best approach then is to
+- [41:58] go for maybe slightly more narrow use
+- [42:00] cases where there's less flexibility
+- [42:01] needed, less generalization needed. I
+- [42:04] guess maybe all most build disposable
+- [42:08] agents. does if you can build something
+- [42:10] quickly um that just solve your problems
+- [42:12] and then be done that works. I like I
+- [42:15] like that idea. You can build disposable
+- [42:17] agents on our platform and
+- [42:21] maybe I should rebrand like that the
+- [42:23] disposable agent platform.
+- [42:26] Nice. Uh so just to wrap up, what are
+- [42:28] you most excited about in the world of
+- [42:30] AI? Yeah, so I'm obviously very excited
+- [42:34] about all the Gentic things. Um I I
+- [42:37] think for for me personally where I I
+- [42:41] see a lot of very interesting problems
+- [42:43] is at the intersection of structured and
+- [42:45] unstructured data. Um so you have a
+- [42:48] bunch of documents but you also have
+- [42:50] your traditional uh kind of structured
+- [42:52] relational databases uh your snowflake
+- [42:55] or your bigquery or whatever you use and
+- [42:58] now you want to kind of cross-sect that
+- [43:00] information using a gentic rag. And so
+- [43:03] if you can do that which you you can now
+- [43:06] uh start doing because of these agentic
+- [43:08] abilities that unlocks so much
+- [43:10] interesting um potential. Um so I think
+- [43:15] that's really exciting. The other thing
+- [43:17] is multimodality is obviously still um
+- [43:20] very under unexplored. I think uh um
+- [43:24] every time there's like an image
+- [43:26] generation feature uh uh getting shipped
+- [43:28] that kind of goes viral. But um I think
+- [43:31] image understanding is actually much
+- [43:33] more valuable um from a from a kind of
+- [43:36] enterprise perspective. Um so so I think
+- [43:40] that that's also a really uh key unlock
+- [43:43] that is coming soon. So chart
+- [43:45] understanding for example and and things
+- [43:47] like that understanding um you know a
+- [43:50] McKenzie slide deck that has lots of
+- [43:52] different diagrams and charts and things
+- [43:53] in there like right now that's not
+- [43:55] really within the capabilities of these
+- [43:57] systems. Um, but it it's coming very
+- [43:59] quickly. Okay, I got to follow up on
+- [44:01] that. Uh, so talk me through it. You
+- [44:04] basically want the ability to understand
+- [44:05] a presentation, then just throw it a
+- [44:09] PowerPoint and explain what the output
+- [44:12] is. Yeah. So that's the simple case. So
+- [44:15] the hard case is I have uh a 100 million
+- [44:18] PowerPoints that my company has made in
+- [44:20] the history of my company with a 100,000
+- [44:22] people in my company. And now I want to
+- [44:25] answer questions based on all of that
+- [44:27] information. Uh so it's not just like
+- [44:31] one single PowerPoint because that you
+- [44:33] can kind of start to do even though it's
+- [44:34] not very accurate but you need to do it
+- [44:36] at scale right? So over over lots of u
+- [44:40] uh presentations. So if you can do that
+- [44:42] then you can do very interesting kind of
+- [44:44] synthesis on top of it right. So how did
+- [44:47] our perspective on a particular type of
+- [44:49] thing change over the years? uh and then
+- [44:52] you can just find the relevant
+- [44:53] presentation decks that cover this
+- [44:55] particular thing. Look at the charts,
+- [44:57] reason about the trends in the charts
+- [44:59] and then combine that into a new
+- [45:01] insight. Um that that's all kind of
+- [45:03] starting to become possible now. Okay,
+- [45:07] that would be very interesting. Although
+- [45:08] I have to say I've definitely had a few
+- [45:09] colleagues in the past where even with
+- [45:11] them talking over the PowerPoint, I am
+- [45:13] not sure what they've been on about.
+- [45:16] It's similar to what everybody says,
+- [45:17] garbage in, garbage out. You cannot be
+- [45:19] much better than your data. You can try
+- [45:21] to reason about it intelligently but
+- [45:23] there are limits there. Absolutely.
+- [45:25] Absolutely. Wonderful. So all right. Uh
+- [45:27] since you've actually been involved in
+- [45:29] rag since the beginning I mean you were
+- [45:32] there when rag was created as part of
+- [45:33] the uh team at meta. Uh so do you think
+- [45:37] rag has lived up to your expectations?
+- [45:40] Has it panned out as you expected?
+- [45:43] That's a nice question.
+- [45:44] Um I mean I I think that the the
+- [45:48] original vision was always that we would
+- [45:51] have um kind of a decoupling between the
+- [45:54] knowledge and the reasoning where the
+- [45:57] reasoning is really just like taking
+- [45:59] whatever the relevant knowledge is and
+- [46:01] then uh giving the right answer on top
+- [46:03] of it without um um having any of of the
+- [46:08] knowledge in it itself. So that didn't
+- [46:10] really pan out and and so um that's part
+- [46:14] of the reason why these systems
+- [46:15] hallucinate and and that that's um I
+- [46:18] mean it's a longer story but but so for
+- [46:20] for rag I think when the paper came out
+- [46:23] uh it was very focused on open domain
+- [46:25] question answering which is the the
+- [46:27] domain that you evaluate these systems
+- [46:28] on um and so it was wellreceived but at
+- [46:33] the time Gen AI like vector databases
+- [46:35] basically didn't really exist right that
+- [46:37] became a thing after uh the paper uh
+- [46:40] language models didn't really exist. We
+- [46:42] had like Bart and T5, but there there
+- [46:44] wasn't really a concept of like an auto
+- [46:46] reggressive uh generative model. So I
+- [46:50] think like the reason rag became such a
+- [46:52] popular like paradigm and concept um and
+- [46:55] why it's called rag is because because
+- [46:57] of the G. So it's really just because
+- [46:59] genai became a thing that rag became a
+- [47:02] thing. Um and there are lots of papers
+- [47:04] from around that same time. And there's
+- [47:06] this amazing paper from folks at Google
+- [47:08] called Realm where that didn't become
+- [47:10] the name of the paradigm because it
+- [47:13] didn't have a G in it. It was a a mass
+- [47:15] language model, right? So um yeah,
+- [47:20] hindsight is sort of 2020. It is amazing
+- [47:22] how small changes to the name have a big
+- [47:24] difference on your success or not. I
+- [47:27] mean it was it's not just the name,
+- [47:28] right? is is that we were interested in
+- [47:30] trying to see if you could generate the
+- [47:32] answer without uh sort of so the
+- [47:35] alternative is just predicting the
+- [47:36] answer which is uh what was much more
+- [47:38] normal to do at the time. So I guess we
+- [47:41] were ahead of our time in the right way
+- [47:43] there. Wonderful. Yeah, certainly I mean
+- [47:45] uh it's taken over in so many different
+- [47:46] ways. Uh it's ubiquitous now. Uh so
+- [47:49] obviously very successful and uh just
+- [47:53] finally I want ideas for people to
+- [47:56] follow. So whose work are you most
+- [47:57] interested in at the moment? Whose work
+- [48:00] am I most interested in? Um I think
+- [48:02] there there is a
+- [48:04] um a lot of interesting work happening
+- [48:08] in this new testime compute paradigm. So
+- [48:11] I I mean I still have my kind of
+- [48:14] part-time Stanford adjunct professor uh
+- [48:17] gig which is great for me to kind of uh
+- [48:20] stay stay at least a little bit up to
+- [48:22] date on the latest latest research
+- [48:23] trends. Um, and I I think there's just a
+- [48:26] lot of interesting research happening
+- [48:27] around this testime reasoning and and
+- [48:29] what you can do there. I think we've
+- [48:31] only just scratched the surface. Um, and
+- [48:34] and so uh what happened with Deep Seek
+- [48:36] and things like that has been very
+- [48:38] encouraging, I think, from that
+- [48:39] perspective where it's actually not that
+- [48:41] hard for um for like nonfrontier le um
+- [48:47] folks to to do interesting things in
+- [48:49] this space and and have impact. Um so um
+- [48:53] yeah and I I follow a lot of uh just
+- [48:56] smart academics. Uh yeah smart academics
+- [48:59] always worth following I think. Uh very
+- [49:00] good genre of people to uh to watch out
+- [49:02] for. Uh so all right uh thank you so
+- [49:05] much for your time to
+- [49:07] thanks for having me.
+- [49:10] [Music]

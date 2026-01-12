@@ -1,0 +1,425 @@
+---
+title: "Hello, welcome to Python operators and expressions. I'm Joseph and I'll be your explainer guy for th..."
+video_id: "_esGZDtDjPs"
+video_url: "https://www.youtube.com/watch?v=_esGZDtDjPs"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "Tool Integration"
+  - "Product Development"
+summary: |
+  Hello, welcome to Python operators and
+  expressions. I'm Joseph and I'll be your
+  explainer guy for this video course.
+key_points:
+  - "explainer guy for this video course."
+  - "want to get a handle on is the syntax,"
+  - "which is kind of like the grammar of the"
+  - "of this is understanding its various"
+  - "rules, they can seem a little mystifying"
+  - "want to solidify your knowledge, this is"
+  - "By the end of this course, you'll be"
+  - "built-in operators. Distinguish between"
+category: "Technical Tutorial"
+confidence_level: "high"
+---
+
+# Transcript: _esGZDtDjPs
+
+- URL: https://www.youtube.com/watch?v=_esGZDtDjPs
+- Retrieved at: 2025-12-30T11:31:26+09:00
+
+## Text
+
+- [00:00] Hello, welcome to Python operators and
+- [00:02] expressions. I'm Joseph and I'll be your
+- [00:05] explainer guy for this video course.
+- [00:07] When you start learning any programming
+- [00:09] language, one of the first things you'll
+- [00:10] want to get a handle on is the syntax,
+- [00:12] which is kind of like the grammar of the
+- [00:14] language, the rules around how to write
+- [00:16] it. Essentially, in Python, a huge part
+- [00:19] of this is understanding its various
+- [00:20] operators and using them to build
+- [00:22] expressions. They give you easy access
+- [00:24] to a bunch of useful computations, but
+- [00:27] because they have their own sets of
+- [00:28] rules, they can seem a little mystifying
+- [00:30] at first. However, once you understand
+- [00:33] their subtleties and nuances, you'll
+- [00:34] find yourself with some powerful new
+- [00:36] tools in your toolkit. So whether you're
+- [00:38] still new to these concepts or you just
+- [00:40] want to solidify your knowledge, this is
+- [00:42] the course for you.
+- [00:44] By the end of this course, you'll be
+- [00:46] able to understand and apply Python's
+- [00:48] built-in operators. Distinguish between
+- [00:50] unary, binary, and turnary operators.
+- [00:53] Recognize how expressions differ from
+- [00:56] statements. Perform mathematical
+- [00:58] calculations with arithmetic operators.
+- [01:01] Work with operators that return boolean
+- [01:03] results. And build logical expressions
+- [01:06] with Boolean operators.
+- [01:09] While this is a course meant to be
+- [01:10] understood by Python users of all
+- [01:12] levels, it'll help if you're comfortable
+- [01:14] with Python basics like variables,
+- [01:16] assignments, and built-in data types.
+- [01:19] For a refresher on data types, I suggest
+- [01:22] basic data types in Python, a quick
+- [01:24] exploration.
+- [01:26] And if you're ready to get started, meet
+- [01:28] me in the next lesson where we'll begin
+- [01:29] with an overview of operators and
+- [01:31] expressions.
+- [01:33] So, what are operators? Well, within
+- [01:36] your programs, there are many different
+- [01:37] operations you might need to perform,
+- [01:39] like addition of numeric types or
+- [01:41] assigning a value to a variable. The
+- [01:44] special identifiers you use to execute
+- [01:46] these operations are called operators.
+- [01:48] In Python, they can be symbols,
+- [01:50] combinations of symbols, or even
+- [01:52] keywords. And these various operations
+- [01:55] act on operands. We have special names
+- [01:58] for operators based on how many operands
+- [02:00] they work with. You can have unary
+- [02:02] operators which involve one operand. For
+- [02:05] example, in minus 273.15,
+- [02:09] the minus symbol is acting as the
+- [02:11] negation operator taking in one operand.
+- [02:14] There's also binary operators involving
+- [02:16] two operands. In 8 - 4, the subtraction
+- [02:21] operator now involves both 8 and four.
+- [02:24] There's also something called the
+- [02:25] turnary operator which works on well the
+- [02:28] three operands but more on that in a
+- [02:30] later lesson.
+- [02:33] The categories of operators found in
+- [02:34] Python include the assignment operators
+- [02:37] which assign values to variables. The
+- [02:39] arithmetic operators for performing
+- [02:41] mathematical calculations. The
+- [02:43] comparison operators that you'll use to
+- [02:45] evaluate relationships between different
+- [02:47] values. Boolean or logical operators
+- [02:50] that you can use to build logical
+- [02:52] expressions. The identity operators that
+- [02:54] determine if two operands refer to the
+- [02:56] same object. And membership operators
+- [02:59] which check for the presence of a value
+- [03:00] in a container.
+- [03:03] So that's operators. But what about
+- [03:04] expressions? Well, to understand
+- [03:06] expressions, you need to start by
+- [03:08] looking at statements. In Python, you
+- [03:10] can find simple and compound statements.
+- [03:13] Simple statements fit on a single
+- [03:14] logical line, like the assignment
+- [03:16] statement. Compound statements, on the
+- [03:18] other hand, take up multiple logical
+- [03:20] lines. Examples of this would be the
+- [03:23] conditional if, else, for loops, or even
+- [03:26] function definitions.
+- [03:28] And now we're ready to talk about
+- [03:29] expressions. Expressions are simple
+- [03:32] statements that produce and return
+- [03:33] values. This is often done through the
+- [03:35] use of operators. For example, 7 + 5 is
+- [03:39] an expression that returns the value 12.
+- [03:41] 42 / 2 is an expression that returns the
+- [03:44] value 21. But expressions don't have to
+- [03:47] use operators. For instance, function
+- [03:49] calls are also a kind of expression like
+- [03:52] calling the built-in absolute value
+- [03:53] function and passing in -10. That will
+- [03:56] return positive 10. And while all
+- [03:59] expressions are statements, the reverse
+- [04:00] is not true. Not all statements return a
+- [04:03] value like the aforementioned assignment
+- [04:05] statement. Now let's look closer at the
+- [04:08] difference between statements and
+- [04:09] expressions in the ripple.
+- [04:11] Open up the Python ripple. And actually
+- [04:14] why is it called ripple? Repluate
+- [04:19] print loop. When you input a line of
+- [04:21] code, it's read evaluated and its return
+- [04:24] value is printed. So when you type in an
+- [04:27] expression like 42 - 29, it's evaluated
+- [04:31] and its return value 13 is printed. Or
+- [04:35] use the built-in abs function abs
+- [04:38] passing in minus3 and its evaluation is
+- [04:41] the return value of the function call in
+- [04:43] this case 13 which again is printed. So
+- [04:47] a statement with no return value like
+- [04:49] assignment will print nothing.
+- [04:51] number equals abs minus3
+- [04:54] goes straight to the next line nothing
+- [04:56] printed day equals the string Friday
+- [05:01] again straight to the next line with
+- [05:03] nothing printed but there is actually a
+- [05:05] kind of assignment that does return a
+- [05:07] value and it's aptly named the
+- [05:10] assignment expression and it uses what
+- [05:12] we call the walrus operator it works
+- [05:15] like this open parenthesis value colon
+- [05:18] equals the string walrus close
+- [05:20] parenthesis
+- [05:22] Technically, the parenthesis aren't part
+- [05:23] of the expression, but in most cases,
+- [05:25] you'll get a syntax error if you don't
+- [05:26] use them. Hit enter, and the entire
+- [05:29] expression returns the value of the
+- [05:31] right hand side of the walrus operator.
+- [05:33] In this case, the string walrus. And the
+- [05:35] assignment worked as well. Examine
+- [05:38] value, and it holds the value walrus.
+- [05:41] This is a subtle difference and it may
+- [05:43] not seem useful on its face, but because
+- [05:46] the assignment expression returns a
+- [05:47] value, it can be used in more complex
+- [05:49] logical flows, which we won't go into in
+- [05:52] this course. But if you're really
+- [05:54] curious, check out the walrus operator,
+- [05:57] Python's assignment expressions.
+- [06:00] Okay, back to the course at hand. The
+- [06:02] next lesson is all about arithmetic
+- [06:04] operators, where the math is always
+- [06:06] mathing.
+- [06:08] There's a lot of math in programming, so
+- [06:11] it's no surprise that Python has a
+- [06:12] number of arithmetic operators. They
+- [06:14] perform mathematical calculations, use
+- [06:17] mainly standard math symbols, work with
+- [06:19] numeric values, and operate as unary or
+- [06:23] binary.
+- [06:25] Here's the full list. The plus sign can
+- [06:28] work as either the unary positive
+- [06:29] operator or the binary addition
+- [06:31] operator. The positive operation doesn't
+- [06:34] really have a use. uh it's mainly a
+- [06:36] complement to un negation. So plus a
+- [06:38] just returns a while a + b returns the
+- [06:42] sum of a and b. Ungation with the minus
+- [06:45] sign flips the sign of an existing
+- [06:47] number. Subtraction works as you'd
+- [06:50] expect. A minus b returns b subtracted
+- [06:52] from a. The rest of the operators are
+- [06:55] also binary involving two operands.
+- [06:57] Multiplication a* b equals the product
+- [07:00] of a and b. Division a/b returns the
+- [07:04] quotient of a / b. An interesting note
+- [07:07] about division is that even when it
+- [07:09] returns a whole number, its type will be
+- [07:11] a float, never an integer. Getting a
+- [07:14] little more interesting now. The percent
+- [07:16] sign becomes the modulo operator. A
+- [07:18] percent b or a mod b returns the
+- [07:21] remainder of a / b. And its complement
+- [07:25] floor division is denoted by two
+- [07:26] slashes. A/B returns the quotient of A B
+- [07:31] rounded down. And lastly, the
+- [07:33] exponentiation operator denoted by two
+- [07:35] asterisks or stars. A star star B
+- [07:39] returns A raised to the power of B. And
+- [07:42] as a general rule, when the operands are
+- [07:44] of differing types, the return type will
+- [07:45] be the one with the highest precision.
+- [07:47] For example, adding a float and an int
+- [07:49] will result in a float, but adding a
+- [07:51] float and a complex number will result
+- [07:53] in a complex number.
+- [07:55] and examples in the ripple.
+- [07:58] Start by creating a couple variables. A
+- [08:01] with the integer value 5 and B with the
+- [08:03] integer value 2. Now write some
+- [08:06] expressions.
+- [08:07] Plus A returns A which is 5. Minus B
+- [08:12] however does return -2.
+- [08:15] A + B returns 7. The sum of A and B. A
+- [08:19] minus B equivalent to 5 - 2 returns 3.
+- [08:24] and a * b returns 10 5 * 2 a / b 5 / 2
+- [08:30] returns 2.5
+- [08:33] a mod b returns one remember the module
+- [08:37] operation returns the remainder so when
+- [08:40] dividing 5x two the remainder will be 1
+- [08:43] floor division a/b
+- [08:46] returns two because the division result
+- [08:48] is 2.5 and that is rounded down to two
+- [08:51] finally exponentiation
+- [08:53] A star star B returns 25 which is in
+- [08:57] fact 5^ 2. A note about division.
+- [09:01] Whether you use the division operator
+- [09:03] with ins or floats for consistency it
+- [09:05] will always return a float. So even if
+- [09:08] you divide the integer 10 by the integer
+- [09:10] 5,
+- [09:12] despite having a whole number result you
+- [09:14] still get the float 2.0.
+- [09:16] And it's the same if one operand is a
+- [09:18] float while the other is an integer like
+- [09:20] 10.0 0 / 5 also returning 2.0. But on
+- [09:25] the off chance one of your operands is
+- [09:27] in fact a complex number like 10 over 5
+- [09:30] J now you get a complex number in result
+- [09:34] -2j which I'm just going to have to
+- [09:37] trust is the correct result. Conversely
+- [09:40] with floor division for example 10
+- [09:42] flooride 4 the result is the integer 2.
+- [09:46] 10 / 4 rounded down is 2. And it's the
+- [09:49] same if a negative divides a negative
+- [09:51] like - 10 floor divide - 4 also
+- [09:54] returning 2. But where it's a bit tricky
+- [09:57] is when the result is negative like 10
+- [09:59] floor divide -4 which returns - 3. And
+- [10:04] you might have expected minus2 but
+- [10:06] because it's always rounded down it
+- [10:08] actually rounds to the next largest
+- [10:09] negative number. So be careful. And
+- [10:12] there's no complex number example for
+- [10:14] this because floor division is
+- [10:16] incompatible with complex numbers.
+- [10:19] So that was the arithmetic operators. I
+- [10:21] hope everything added up for you. Coming
+- [10:23] up next, comparison.
+- [10:26] Whoever said comparison is the thief of
+- [10:28] joy probably wasn't a programmer.
+- [10:30] Comparing objects in Python is key for
+- [10:32] logic, control flow, and all sorts of
+- [10:34] design patterns. So what do comparison
+- [10:37] operators do? They compare Python
+- [10:39] objects, operate on variety of types,
+- [10:42] though the rules for this will differ
+- [10:44] with each operator, return boolean
+- [10:46] values, and work as binary operators.
+- [10:51] Here are the comparison operators you'll
+- [10:52] find in Python. The double equals
+- [10:54] operator performs the equal to
+- [10:56] operation. The expression a= b will
+- [10:59] return true if the value of a and b are
+- [11:02] equal and false otherwise. exclamation
+- [11:05] equal is the not equal operator, the
+- [11:07] opposite of the previous. A exclamation
+- [11:09] equals B returns true if A is not equal
+- [11:12] to B and false otherwise. These two
+- [11:15] operators are a bit special as you can
+- [11:17] use them on any two Python objects. But
+- [11:19] the next four can only be applied to
+- [11:21] objects that support comparison. Opening
+- [11:23] angle bracket, also called the less than
+- [11:25] symbol, functions as the less than
+- [11:27] operator. A less than B returns true if
+- [11:30] A's value is less than B's, false
+- [11:32] otherwise. less than or equal to is much
+- [11:35] the same. A less than equals B returns
+- [11:37] true if A is less than or equal to B and
+- [11:41] false otherwise. Closing angle bracket
+- [11:43] aka A the greater than symbol is the
+- [11:46] opposite of less than. A greater than B
+- [11:49] returns true if A's value is greater
+- [11:51] than B's. False otherwise. And by now
+- [11:54] you can probably guess what greater than
+- [11:55] or equal does. A greater than equals B
+- [11:58] returns true if A is greater than or
+- [12:00] equal to B. False otherwise.
+- [12:03] Okay, it's example time.
+- [12:05] Back in the ripple, let's start with
+- [12:07] comparing numeric. Define a as 10, b as
+- [12:10] 20.
+- [12:12] Consider that 10 is smaller than 20. And
+- [12:14] see what results from using the
+- [12:15] operators we just looked at. A= b
+- [12:18] returns false. A exclamation b returns
+- [12:23] true because a is not equal to b.
+- [12:26] a less than b returns true as does a
+- [12:30] less than or equal to b. Whereas a
+- [12:32] greater than b returns false
+- [12:35] as does a greater than or equal to b. So
+- [12:38] pretty straightforward. Now what if you
+- [12:40] have two identical values? Create the
+- [12:42] variables x and y and set both to 30.
+- [12:46] x= y returns true while x exclamation y
+- [12:50] returns false just as you'd expect given
+- [12:53] x is equal to y. while x less than y
+- [12:57] returns false as does x greater than y
+- [13:00] because the values are the same. They
+- [13:02] are neither less than nor greater than
+- [13:04] each other. It logically flows from here
+- [13:06] that the greater than or equal to
+- [13:08] operator x greater than or equal to y
+- [13:11] returns true which it does. And the same
+- [13:14] is the case for the less than or equal
+- [13:15] to operator. x less than or equal to y
+- [13:18] returns true. Again, this is probably
+- [13:20] what you'd expect since comparing
+- [13:22] numbers is pretty natural. So, how about
+- [13:24] comparing strings? Python does allow it.
+- [13:27] Characters in a string are considered by
+- [13:28] their unicode code points as that's the
+- [13:30] default encoding in Python. Since every
+- [13:33] character maps to a numeric code point,
+- [13:35] they can then be compared as any other
+- [13:37] integer. To view the code point of a
+- [13:39] character, you can pass it into the
+- [13:40] built-in or function. So, the code point
+- [13:43] of capital A or A is 65. The code point
+- [13:49] of lowerase A is or lowerase A 97.
+- [13:54] With those numbers in mind, you can now
+- [13:56] use the operators. Capital A equals
+- [13:58] lowerase A returns false and capital A
+- [14:03] greater than lowerase A also returns
+- [14:06] false because 65 is smaller than 97. So
+- [14:10] capital A less than lowerase A should
+- [14:12] return
+- [14:14] true.
+- [14:15] And when comparing longer strings,
+- [14:17] Python will compare values one by one in
+- [14:19] sequence. So is hello greater than hola?
+- [14:25] No. False. Capital H and capital H have
+- [14:28] the same code points, but the code point
+- [14:30] for O is actually higher than the one
+- [14:32] for E. And this element wise or
+- [14:35] lexographical ordering also applies to
+- [14:38] comparing other container types like
+- [14:40] lists.
+- [14:42] The list 5 6 less than the list 73
+- [14:46] returns true because 5 is less than 7.
+- [14:50] And it also works if the two containers
+- [14:51] have different lengths. For example, the
+- [14:54] tupil 4 3 less than the single element
+- [14:56] tupole 5.
+- [14:58] Also returns true because four is less
+- [15:00] than five regardless of how many other
+- [15:02] elements are in that tupole. What won't
+- [15:05] work is if you try to compare two
+- [15:07] different container types with each
+- [15:08] other like this. The tupil 2 three
+- [15:11] greater than the list 2 three raises a
+- [15:15] type error greater than not supported
+- [15:16] between instances of tupil and list. You
+- [15:20] can still use an equality check though.
+- [15:22] The tupil 2 3 equals equals the string 2
+- [15:26] 3 does not raise an error but typically
+- [15:29] when you compare with a type mismatch
+- [15:31] the result will be false anyway. So if
+- [15:33] you want to compare two containers make
+- [15:35] sure you convert them to the same type
+- [15:36] first.
+- [15:37] So I mentioned before that these
+- [15:39] comparisons always return boolean that
+- [15:41] is true false values. It turns out
+- [15:44] Python also provides operators designed
+- [15:46] specifically for handling boolean
+- [15:47] values. If that piques your interest,
+- [15:50] meet me in the next lesson to find out
+- [15:51] more.

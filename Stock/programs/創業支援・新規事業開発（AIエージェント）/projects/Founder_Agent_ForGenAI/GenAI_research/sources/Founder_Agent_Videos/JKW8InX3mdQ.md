@@ -1,0 +1,956 @@
+---
+title: "[music] Hey everyone, welcome back to the Asian Factory, the podcast where we go beyond the hype and dive into some of t"
+video_id: "JKW8InX3mdQ"
+video_url: "https://www.youtube.com/watch?v=JKW8InX3mdQ"
+speaker: "Paige"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  [music] Hey everyone, welcome back to the Asian Factory, the podcast where we go beyond the hype and dive into some of the more technical AI details in the world of AI right now
+  Today we have on the show Paige Bailey and I'm super excited because she's from the DeepMind team
+  Paige, do you want to give a quick intro
+key_points:
+  - "iteration of our NanoBanana series of models"
+  - "iteration in our Gemini series of models"
+  - "Covers startup concepts and applications"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:24:40+09:00"
+---
+
+# Transcript: JKW8InX3mdQ
+
+- URL: https://www.youtube.com/watch?v=JKW8InX3mdQ
+- Retrieved at: 2025-12-30T10:24:40+09:00
+
+## Text
+
+- [00:02] [music]
+- [00:05] Hey everyone, welcome back to the Asian
+- [00:07] Factory, the podcast where we go beyond
+- [00:09] the hype and dive into some of the more
+- [00:11] technical AI details in the world of AI
+- [00:13] right now. Today we have on the show
+- [00:16] Paige Bailey and I'm super excited
+- [00:18] because she's from the DeepMind team.
+- [00:20] Paige, do you want to give a quick
+- [00:21] intro?
+- [00:22] >> Yeah, so greetings everyone. My name is
+- [00:24] Paige. I'm the UTL for our developer
+- [00:26] relations team at DeepMind. uh which
+- [00:28] means that I get to work on the Gemini
+- [00:30] APIs as well as things like Bio, Nano
+- [00:32] Banana, Gemini, uh Gemma, uh all of the
+- [00:36] things that we've released for AI
+- [00:38] developers to use in their projects.
+- [00:40] >> So, I know Google's been up to a lot
+- [00:42] recently and last week Google just
+- [00:44] launched a bunch of new tech. Do you
+- [00:47] want to give us a quick rundown?
+- [00:48] >> Yeah, sure. So, so I think I have a
+- [00:52] slide actually to show kind of the uh
+- [00:54] how much we've been shipping over the
+- [00:56] course of the last while. Um the and
+- [00:58] this is just going up to May 2025. So
+- [01:01] obviously like shipping continues uh
+- [01:03] shipping continues until models reach
+- [01:06] AGI I suppose or ASI. Um but we've been
+- [01:09] releasing a new model or a new feature
+- [01:12] about every single day. Um sometimes
+- [01:14] even more than one a day over the course
+- [01:16] of the last year. Um the latest model
+- [01:19] releases are really Gemini uh 3. So we
+- [01:22] released our Gemini 3 Pro model which
+- [01:24] everybody was very excited about last
+- [01:26] Tuesday. Um and then also uh Nano Banana
+- [01:30] Pro which is kind of the next iteration
+- [01:33] of our NanoBanana series of models. Um
+- [01:36] really really excited about both of
+- [01:38] these. And then we also have a new IDE
+- [01:40] for developers called anti-gravity which
+- [01:42] is released by uh by some of the folks
+- [01:45] that we have in deep mind who had uh
+- [01:47] previously been working on the wind surf
+- [01:49] team. So lots of goodness coming out for
+- [01:51] every single part of the stack for
+- [01:52] developers and for people who care about
+- [01:54] gen media.
+- [01:55] >> Yeah, I can't imagine how busy the deep
+- [01:58] mind team has been up to trying to
+- [01:59] release models. It seems like what you
+- [02:01] like you said once a day. Um, and
+- [02:03] today's November 24th, so if you're
+- [02:05] listening to this after, of course,
+- [02:07] these models and releases have come out
+- [02:09] in the middle of November. Uh, and it's
+- [02:11] been kind of taking the AI world by
+- [02:13] storm a little bit. Uh, I remember last
+- [02:15] week when Gemini 3 was announced, I was
+- [02:17] really excited to try it out. And then
+- [02:19] they launched anti-gravity. I saw the
+- [02:21] blog post right after
+- [02:22] >> and then the day after that was Nano
+- [02:24] Banana Pro and it was a lot. It was it
+- [02:27] almost felt like Christmas Day. So,
+- [02:28] >> yep.
+- [02:29] >> Yeah,
+- [02:30] >> strong agree. And so, so I guess it
+- [02:32] might be good to talk a little bit about
+- [02:34] Gemini 3, what it is, was it, what it
+- [02:36] isn't, um, and some of the things that
+- [02:38] folks can can build with it. Uh, does
+- [02:40] that sound good?
+- [02:41] >> Yeah, I would love to hear.
+- [02:42] >> Heck yeah. So, so Gemini 3 is really
+- [02:45] intended to be the next iteration in our
+- [02:47] Gemini series of models. Um, I I think
+- [02:50] the I've certainly been excited about
+- [02:52] it, especially for doing things like app
+- [02:54] development, which we'll see in a
+- [02:56] second. Um, and it's available in all of
+- [02:59] the places. So, you can use it in the
+- [03:00] Gemini APIs and the Vert.Ex AI APIs. Um,
+- [03:04] places like Gemini CLI, Android Studio,
+- [03:06] the Gemini app, AI mode, jewels, they've
+- [03:09] all been kind of replatted to use this
+- [03:11] third series of models. Um, and I I
+- [03:14] think it's the natural evolution for for
+- [03:17] Gemini at large. like the first Gemini.
+- [03:20] Um, so I was I was on the original
+- [03:23] modeling team for both Palm 2 and for
+- [03:25] Gemini. And I think that model was
+- [03:28] really all about being able to
+- [03:29] understand a lot of different kinds of
+- [03:31] content. So being unable to understand
+- [03:33] video and images and audio and text and
+- [03:37] code and all of the above all at once.
+- [03:39] Um, Gemini 2 was really about thinking.
+- [03:42] So we introduced this concept of
+- [03:44] reasoning of being able to plan of being
+- [03:46] able to kind of think step by step
+- [03:48] through processes and have these
+- [03:50] detailed thought traces and thinking
+- [03:52] tokens. And then the third iteration of
+- [03:55] Gemini is all about like getting much
+- [03:57] much better at code and also being able
+- [03:59] to act on things. Um uh so we've made
+- [04:03] huge improvements to tools use function
+- [04:05] calling um which are great for agent
+- [04:08] style workloads but also being able to
+- [04:10] incorporate things like tools into the
+- [04:12] reasoning process. Um so you can have um
+- [04:15] these kind of more composite
+- [04:17] architectures of different models
+- [04:19] working together, different models
+- [04:21] interacting with systems to accomplish
+- [04:22] tasks um as opposed to just one model
+- [04:25] trying to do all of the work all by
+- [04:27] itself. If that makes sense.
+- [04:29] >> Yeah, this is really well explained. It
+- [04:30] almost like you said sounds like the
+- [04:32] natural evolution between 1, 2, and 3.
+- [04:34] And I would imagine the Gemini 3 so good
+- [04:36] at being able to do things like coding
+- [04:38] because of the data set maybe that
+- [04:40] you're training it on and its ability to
+- [04:42] action on whatever it's been reasoning
+- [04:43] on which a lot of coding is, you know,
+- [04:46] basically what it is, right? Action,
+- [04:49] taking actions, writing code, changing
+- [04:50] functions, so on so forth.
+- [04:52] >> Absolutely. And and to your point, like
+- [04:54] there there are really two parts of the
+- [04:56] model building process, right? there's
+- [04:58] pre-training and then there's
+- [05:00] post-training. Um, and pre-training is
+- [05:02] all about giving Gemini as many many
+- [05:04] tokens as it can possibly have access
+- [05:06] to. So, so getting it uh like the
+- [05:10] entirety of the internet, like we're
+- [05:11] creating a lot of synthetic data sets um
+- [05:14] that uh that the model can use to to
+- [05:17] help accomplish its work. So things like
+- [05:19] video game footage, um things like uh a
+- [05:23] lot of synthetically generated code that
+- [05:25] get then gets run and so you can kind of
+- [05:27] get an idea that it's it's actually
+- [05:29] doing something useful with descriptions
+- [05:31] of what it does. um all of that kind of
+- [05:34] getting put into post-training and then
+- [05:36] um or or pre-training and then
+- [05:38] post-training is really all about giving
+- [05:41] um much more uh kind of u sort of
+- [05:45] specific examples of kinds of use cases
+- [05:48] that the user would be expected to take.
+- [05:51] Um so having really really handcurated
+- [05:54] examples of people using a whole bunch
+- [05:57] of tools to accomplish a task. um lots
+- [06:00] of multi-turn conversations uh that
+- [06:02] include edits of websites um lots and
+- [06:05] lots of those kinds of things getting
+- [06:07] added into our into our post- training
+- [06:09] mixture in addition to techniques like
+- [06:11] reinforcement learning. Um so so I think
+- [06:14] that uh there's a lot of really really
+- [06:16] hard work that's been done across tens
+- [06:19] of thousands of people across Google um
+- [06:21] to get the models into a much better
+- [06:23] state and it's it's been really
+- [06:25] inspiring to see honestly.
+- [06:27] >> Yeah. Interesting. So this pre and post
+- [06:30] training process is almost like sending
+- [06:32] Gemini to school to learn the basics and
+- [06:34] then the post training is almost like on
+- [06:36] the job experience where they get to
+- [06:37] learn what the workflow looks like so
+- [06:39] they can then replicate that. Very cool.
+- [06:42] >> Yeah. And then the the other thing these
+- [06:44] are just kind of the benchmarks um for
+- [06:47] for the model itself. My favorite one
+- [06:49] though is uh my favorite one is
+- [06:52] something called vending bench um which
+- [06:55] is vending bench for folks who are
+- [06:58] uninitiated is gauging the model's
+- [07:01] ability to run a passive business. Uh so
+- [07:05] so uh h I I'll add a link to the vending
+- [07:09] bench 2 website um so everybody can see
+- [07:11] but but basically you're saying hey
+- [07:13] model your job is you run this vending
+- [07:16] machine you need to figure out what we
+- [07:18] should stock it with you need to uh
+- [07:20] whenever you realize that something's
+- [07:22] about to go out of stock like you should
+- [07:24] reorder it. Um you should deploy a
+- [07:27] person to restock the machine whenever
+- [07:28] the order comes in. And you should also
+- [07:30] do long range planning to make sure that
+- [07:32] as you're like handling all of these
+- [07:34] component parts of the business um that
+- [07:37] uh you know it's able to have as much
+- [07:39] uptime as possible. So like I don't come
+- [07:41] to the to the vending machine looking
+- [07:43] for pretzels and find pretzels are
+- [07:45] missing. Um but uh but I'm able to to
+- [07:49] kind of have those expectations when the
+- [07:51] when the vending machine is running. And
+- [07:52] then the way that the models are gauged
+- [07:55] in terms of performance is how much
+- [07:58] money they make over the course of a
+- [08:00] year. Um, and which which is awesome.
+- [08:03] It's like the models ability to run a
+- [08:05] passive business. Of course, you would
+- [08:06] you would gauge it by how much money it
+- [08:08] actually makes over time. Um, and right
+- [08:10] now Gemini 3 Pro is coming in at around
+- [08:14] $5462
+- [08:16] per vending machine, which, you know,
+- [08:19] like, um, given that we're operating on
+- [08:22] this exponential trajectory, maybe we
+- [08:24] can all retire and run passive
+- [08:26] businesses at some point in the future.
+- [08:28] But it's it's been really exciting to
+- [08:30] see how the models have improved on
+- [08:32] these on these things that require a lot
+- [08:34] more strategy and a lot more decision
+- [08:36] making, especially long-term decision
+- [08:38] making um for these kinds of use cases.
+- [08:42] >> Yeah, I just sent you an invite for a
+- [08:43] meeting after this uh for a vending
+- [08:45] machine entrepreneurial sync you and I
+- [08:47] can
+- [08:48] >> Excellent. I I really so so like like I
+- [08:50] really really want uh ju just kind of
+- [08:53] like as a segue I really really want
+- [08:55] somebody to create an eval for uh like a
+- [08:58] laundromat bench
+- [09:00] >> um because I I do feel like these these
+- [09:03] kinds of passive businesses
+- [09:05] um have immense potential and a lot of
+- [09:08] people who are who have built um AI
+- [09:11] startups AI companies just recently they
+- [09:14] have a few operating just kind of more
+- [09:16] or less autonomously they won't have to
+- [09:18] step in very often. Um, but there's
+- [09:20] still like pretty significant revenue
+- [09:22] streams every single month. It might not
+- [09:24] be a billion dollars, but it's certainly
+- [09:26] enough to uh to kind of meet the needs
+- [09:29] for users and to to kind of take care of
+- [09:32] take care of some of these tasks.
+- [09:34] >> Yeah, it really allows people to bridge
+- [09:35] the gap, I find, and unsolicited Google
+- [09:38] non-certified Google advice, but I think
+- [09:40] laundromats and vending machines tend to
+- [09:43] be some of the most secure and good
+- [09:44] entrepreneurial beginning ventures, I
+- [09:47] guess. So,
+- [09:48] >> absolutely. Maybe we should get a
+- [09:49] vending machine. That would be kind of
+- [09:50] fun.
+- [09:51] >> Wait, put it full of Google swag.
+- [09:54] >> Cool. And then the uh so additional
+- [09:58] additional kind of benchmark things.
+- [09:59] It's the first model to break 1500 on
+- [10:02] Elmarina. Right now we come in at around
+- [10:04] 151. It's also doing really really good
+- [10:07] at webdev arena. Um, so the new feature
+- [10:10] that you might have seen in Replet,
+- [10:12] that's their design feature uh to build
+- [10:16] beautiful UIs is powered by Gemini 3.
+- [10:19] Um, and you can really really see a
+- [10:21] difference in the quality of the apps
+- [10:23] that get generated with build and AI
+- [10:25] studio. Um, and then it's also kind of
+- [10:28] state-of-the-art at reasoning and
+- [10:29] multimodality at tools use and planning.
+- [10:32] Um, if you're a Minecraft enthusiast,
+- [10:35] it's much better at these kind of voxal
+- [10:37] art experiences. So you can see the
+- [10:40] difference between Gemini 2.5 Pro and
+- [10:42] Gemini 3 Pro um for for uh these these
+- [10:46] kinds of voxal art um demonstrations.
+- [10:49] Um really really good at making games
+- [10:52] including games with interesting game
+- [10:55] mechanics and kind of beautiful
+- [10:57] beautiful um beautiful UI.
+- [11:00] Um and it feels like so it feels like
+- [11:02] we've been talking about it for a while.
+- [11:04] Would you be down for me to show how to
+- [11:06] use it in in AI Studio as part of our
+- [11:09] build feature?
+- [11:10] >> Let's build.
+- [11:11] >> Excellent. Let's do it. And I I think
+- [11:14] both of us, we were having a
+- [11:15] conversation at the very beginning like
+- [11:16] both of us less of a fan of slides and
+- [11:19] more of a fan of like showing stuff in
+- [11:20] action. So like let's show some stuff in
+- [11:22] action. I also like one last thing
+- [11:25] though before I pop over. Um it's
+- [11:28] currently available in the API. So you
+- [11:30] just have to change out the model doc
+- [11:32] string. And then also if you've been
+- [11:34] using uh if you've been using OpenAI as
+- [11:37] part of your projects um we have
+- [11:40] something called the OpenAI
+- [11:42] compatibility layer um which allows you
+- [11:46] to swap out a few lines of code. So this
+- [11:48] API key and base URL um you would just
+- [11:51] modify it to be your Gemini API key and
+- [11:54] you would swap out the model name. Um
+- [11:56] but then you would be able to run it
+- [11:57] with your OpenAI uh your OpenAI code
+- [12:00] hopefully without any changes. Okay,
+- [12:02] cool. I've uh taken up enough of your
+- [12:04] time, but I want to take up even more
+- [12:07] now. Super excited for building.
+- [12:10] >> Cool, cool, cool. Let's let's do a
+- [12:11] thing. So, let me zoom over to AI
+- [12:15] Studio. Um this is the build feature in
+- [12:18] AI Studio. If you expand out this
+- [12:19] section on the left, you can see that
+- [12:21] there there's a lefth hand pane. Um you
+- [12:24] can select the build feature. Um, and
+- [12:26] then it immediately puts you into kind
+- [12:29] of this build uh this build environment.
+- [12:32] I'm going to collapse this so there's a
+- [12:34] little bit more real estate for us to
+- [12:35] see what's going on. Um, and then
+- [12:38] basically you can just describe anything
+- [12:40] you would like to create. Um, you can
+- [12:42] also see uh kind of an app gallery with
+- [12:45] remixable uh remixable apps, things that
+- [12:48] the team has created, including a comic
+- [12:50] book style experience, a product mockup
+- [12:53] visualization. Um, lots of games and
+- [12:56] immersive 3D worlds, including like
+- [12:58] simulation games, which are pretty cool.
+- [13:01] Um, and you can fork these, remix these,
+- [13:04] uh, share them with your friends. Um,
+- [13:06] we'll also show how to uh how to share
+- [13:08] them with Google Cloud um in just a
+- [13:10] second. Um, and then also if you can't
+- [13:13] think of something to build, if you
+- [13:15] click I'm feeling lucky, it gives you
+- [13:17] kind of a out ofthe-box ready-made app
+- [13:19] idea that you can incorporate into your
+- [13:21] projects. Um, but what I've been trying
+- [13:24] to do is I've been trying to like build
+- [13:27] um increasingly complex apps uh with the
+- [13:31] with the goal of trying to make it so
+- [13:32] that Gemini can't build it and it has to
+- [13:35] to kind of fix itself along the way. Um
+- [13:38] uh because we do have an autofix uh an
+- [13:41] autofix step within AI Studio. It's just
+- [13:43] that it's triggering much less
+- [13:44] frequently now because the models are
+- [13:46] getting so good. Um, so I'm going to I'm
+- [13:49] going to try to see if we can build
+- [13:51] something that um builds something that
+- [13:54] is sufficiently complex that Gemini will
+- [13:56] have to fix itself. So let's let's try
+- [13:59] this out. Um
+- [14:02] uh cool. Create an app that uses the
+- [14:07] webcam and the microphone
+- [14:11] um to have a conversation with a user.
+- [14:14] Um the app should uh the app is intended
+- [14:19] to be kind of a um what it should be is
+- [14:23] kind of like an insurance
+- [14:25] um an insurance app. So the user will
+- [14:28] show them uh the user will show a bunch
+- [14:31] of different objects. The app will uh
+- [14:34] sort of catalog all of the objects, like
+- [14:37] describe them, put down their name, um
+- [14:40] do an assessment of what kind of wear
+- [14:42] the object might have, and then also use
+- [14:44] Google search grounding to try to ground
+- [14:47] um with how much that uh that item might
+- [14:50] be worth. The app should put that in a
+- [14:52] table format um so the user can see all
+- [14:55] of the all of the objects that they've
+- [14:57] been cataloging um through the duration
+- [15:00] of the video conversation. Um, uh, the
+- [15:03] app should also be really well-designed,
+- [15:05] should show some stats about all of the
+- [15:07] objects,
+- [15:08] um, uh, that the user that the user has
+- [15:10] put down for insurance purposes. Um, and
+- [15:14] the app should also have,
+- [15:18] um, the app should also have like a
+- [15:21] Nordic theme, so it should feel like
+- [15:23] very IKEA vibes. Um,
+- [15:27] and uh, for the video conversation, the
+- [15:30] app should be using using Gemini Live
+- [15:33] along the way.
+- [15:35] So, so that was just like spitballing a
+- [15:37] whole bunch of information. Um, I'm I'm
+- [15:40] not sure uh I'm not sure how well it'll
+- [15:43] do, but let's try.
+- [15:45] >> Um, yeah. And then, uh, so what's
+- [15:47] happening here is you immediately get
+- [15:49] put into something that looks like an
+- [15:50] IDE. Um, if I expand out this thinking
+- [15:54] section, you can see that Gemini is
+- [15:56] figuring out what it should be doing.
+- [15:58] It's figuring out how it should be um,
+- [16:00] doing function calls. I said the Gemini
+- [16:02] live API and it's figuring out what
+- [16:04] model name that should be, figuring out
+- [16:06] what the structure of the data should
+- [16:08] be, if it's supposed to be cataloging
+- [16:10] all of these items. You also see uh,
+- [16:13] kind of some recommendations about what
+- [16:15] to do with the app. here in the center.
+- [16:18] Um there's a place up in the right where
+- [16:20] you can save to a public or a private
+- [16:22] repo on GitHub. Um and then there's also
+- [16:25] a place where you can add files if you
+- [16:27] would like. Um add files. So add things
+- [16:30] like images or text files or PDFs. Um
+- [16:33] and as Gemini is working, you can see
+- [16:36] all of the code getting getting created
+- [16:38] along the way as well as the prompts
+- [16:40] that are created to give to each one of
+- [16:42] the each one of the models. Um the I I
+- [16:46] love asking Gemini to write the prompts
+- [16:49] for Gemini just because usually it does
+- [16:51] a much much better job than I can do. Um
+- [16:54] all of the files are getting put into
+- [16:55] this really nice directory structure
+- [16:57] here in the center. Um and the nice
+- [16:59] thing too is that since this experience
+- [17:02] is baked into AI Studio, it has insight
+- [17:04] into the latest models, the latest
+- [17:06] features, um what's possible with the
+- [17:09] APIs. Um right now it's generating a
+- [17:12] React app. You could have also specified
+- [17:14] Angular. Um, it's using React Native, so
+- [17:18] you can access all of these apps via
+- [17:20] mobile phones as well. Um, uh, but this
+- [17:24] is, uh, this is really really cool to to
+- [17:27] kind of see and to just have an idea,
+- [17:30] um, and to figure out, uh, to figure out
+- [17:32] how to get it get it started without you
+- [17:35] necessarily having to wade through
+- [17:36] documentation or figuring out which
+- [17:38] models to use for which experiences. I
+- [17:41] also quite Yeah, go for it.
+- [17:43] >> No, I was just going to say so you threw
+- [17:46] your messy thoughts into this thing and
+- [17:48] obviously it's very impressive that it's
+- [17:50] able to not only format but format your
+- [17:52] thoughts into something that you know is
+- [17:54] a bit more coherent but also write the
+- [17:56] code. I think the most impressive part
+- [17:58] is the name that it came up with because
+- [17:59] I know that you didn't I know that you
+- [18:01] didn't specify that.
+- [18:03] >> Yeah. Nordic Nordic Shield. So So what
+- [18:06] we we see an app uh we see an app. So,
+- [18:09] I'm going to try to see um how well how
+- [18:12] well this does just out of the box. Um
+- [18:17] hey there.
+- [18:26] Let's see.
+- [18:27] >> So, yeah, that's that little autofix
+- [18:28] button, I guess, probably.
+- [18:30] >> Yeah. So, so it looks like uh just
+- [18:32] taking a look at the app itself.
+- [18:35] Um, it t taking a look at the app
+- [18:38] itself, it was able to hook in the
+- [18:39] webcam.
+- [18:40] >> Um, it even gave me the options of
+- [18:42] turning on or turning off my video and
+- [18:45] my camera or uh my camera and my audio
+- [18:48] rather. Um, it created the inventory
+- [18:50] list which is pretty cool. Um, it has
+- [18:53] some condition breakdowns, shows uh
+- [18:55] shows connections. Um, but then it
+- [18:58] didn't pick up on my audio which often
+- [19:00] happens whenever you have multiple audio
+- [19:03] sessions simultaneously. Um, so I think
+- [19:06] what it's doing is it's figuring out
+- [19:08] where um it would uh like which section
+- [19:12] it would need to uh need to figure out
+- [19:15] to attend to. Um, and then that would
+- [19:18] trigger the Gemini live call. And so
+- [19:20] there's a big reasoning trace on the
+- [19:22] left um which shows kind of like all
+- [19:25] right, is the mic on? Is it enabled? How
+- [19:28] do I toggle the mic? How do I understand
+- [19:30] the media stream? Um, and then it should
+- [19:33] be able to understand that as part of
+- [19:35] the website as well. Um, yeah, I also
+- [19:39] like I I feel like it's it's a much
+- [19:42] better design than I would have been
+- [19:43] able to come up with myself. I also
+- [19:45] really like that it automatically
+- [19:46] included instructions. Apparently, this
+- [19:49] person that I or the the entity that I'm
+- [19:52] talking to will be called Sven, which is
+- [19:54] also very Nordic. Um, and uh and we'll
+- [19:57] see we'll see how well it's able to make
+- [19:59] the changes. I mean you you did ask for
+- [20:03] IKEA. So
+- [20:04] >> this is this is true you know like it's
+- [20:07] the and and I think the one of the nice
+- [20:09] things too is um you know I started
+- [20:12] doing machine learning around 2009 so a
+- [20:15] really long time ago. Um but I've always
+- [20:17] been more of like a Python human than a
+- [20:20] JavaScript or TypeScript human. I I
+- [20:22] built um I worked on part of the VS Code
+- [20:26] team for a while. So I I've built like
+- [20:28] VS Code extensions in Typescript. Like
+- [20:30] I've built small websites. Um but I
+- [20:33] would not call myself a TypeScript like
+- [20:36] expert by any stretch of the
+- [20:37] imagination. So having this help um
+- [20:40] figure out where the problems might be,
+- [20:42] where to debug it, how to debug it, like
+- [20:44] what libraries to include to be part of
+- [20:46] a modern stack is really really helpful
+- [20:49] just for me personally. Yeah, I was
+- [20:52] about to say like it's it's quite
+- [20:54] impressive that it not only recognized
+- [20:56] that there was an error,
+- [20:58] >> it parsed that error, made a reasoning
+- [21:01] state for you and and allowed you to
+- [21:03] kind of have some level of
+- [21:05] interpretability into its thought
+- [21:06] process, which I think is like so
+- [21:08] important because obviously if it's
+- [21:10] doing something that's kind of not what
+- [21:12] you intended, you can easily like pull
+- [21:14] the plug if you will, which is doesn't
+- [21:15] seem like it's the case here, but you
+- [21:17] never know, right?
+- [21:18] >> 100%. I also really really like if you
+- [21:21] zoom in to the bottom um you can see
+- [21:24] like warnings uh insights into the build
+- [21:28] process. So rendering start rendering
+- [21:30] end um uh recommendations on what to do
+- [21:34] to change like the ergonomics and the
+- [21:36] accessibility of the of the website
+- [21:38] itself. So like hey this formatting
+- [21:40] might not show up as well on like a
+- [21:42] mobile device. Um and then our design
+- [21:45] team has also implemented a feature
+- [21:48] called annotate. So if you click
+- [21:51] annotate app, what you can do is you can
+- [21:53] circle features, you can add comments.
+- [21:57] So say things like um I don't uh um make
+- [22:02] this cataloged items
+- [22:05] uh section more
+- [22:09] attractive or similar. Um, and it's able
+- [22:13] to to kind of take the comments and make
+- [22:16] changes and modifications to the
+- [22:18] website. Um, the same way as you would
+- [22:20] work with a designer to kind of do red
+- [22:22] lining against the uh against the UI
+- [22:26] itself.
+- [22:27] >> Um,
+- [22:28] >> this is really nice too, I think,
+- [22:29] because like it looks like it's still
+- [22:31] working on trying to fix the bug while
+- [22:33] you're able to annotate. So, you can
+- [22:35] almost do two things at once. have it
+- [22:37] like work
+- [22:38] >> um and then also have it like um you
+- [22:41] know annotate your designs or review
+- [22:42] your designs.
+- [22:43] >> Yeah. And I love I love also like there
+- [22:46] there are a couple of different agents
+- [22:48] that we have or I suppose a few
+- [22:50] different agents that we have um as part
+- [22:52] of our our Google AI stacks right now.
+- [22:55] So we have Jules which is an
+- [22:56] asynchronous agent, Gemini CLI which is
+- [22:59] kind of a synchronous agent that you can
+- [23:01] operate with uh within a terminal. Um,
+- [23:04] but it's really really nice to have, you
+- [23:06] know, a team member go and attempt to
+- [23:08] accomplish a task and debug it along the
+- [23:10] way. Um, so let's see. It looks like
+- [23:14] it's made some changes. I'm going to go
+- [23:16] ahead and try again.
+- [23:19] Hey there.
+- [23:21] Hello there. I am Sven, your insurance
+- [23:24] cataloging assistant. Please show me the
+- [23:27] items one by one and I will help you
+- [23:29] catalog them.
+- [23:31] >> What about this?
+- [23:34] I see a dark colored smartphone in a
+- [23:37] case with a ring grip. It looks to be in
+- [23:40] good condition. Would you agree with
+- [23:42] this assessment? Sure. It's a Pixel 7,
+- [23:46] but you might also see that it has like
+- [23:48] some scuffing and like a cracked screen
+- [23:51] if I turn it around.
+- [23:54] >> Ah, thank you for clarifying. I see the
+- [23:58] scuffing and cracked screen now when you
+- [24:00] turn it. Based on this, I would say it
+- [24:03] has fair condition. Do you agree? Great.
+- [24:07] I have cataloged the Pixel 7 smartphone.
+- [24:10] Is there anything else?
+- [24:11] >> What about this?
+- [24:16] >> I see a Diet Dr. Pepper can. It looks
+- [24:19] like it is in new condition. Shall I add
+- [24:22] this to your catalog?
+- [24:24] >> Well, how much do you think it would be
+- [24:25] worth? [laughter]
+- [24:28] >> I can't estimate value myself. I can
+- [24:31] only catalog the item with its name,
+- [24:34] description, and condition. Would you
+- [24:36] like to add the new Diet Dr. Pepper Can?
+- [24:39] The Diet Dr.
+- [24:41] >> Let's do it. And then also, how about uh
+- [24:44] how about this computer screen that you
+- [24:47] see in the back?
+- [24:49] >> I see a large screen on the wall with
+- [24:52] some images and text. It looks to be in
+- [24:55] good condition. Would you agree?
+- [24:57] Understood. I have cataloged the
+- [25:00] computer screen. Is there anything else
+- [25:02] you would like to catalog today?
+- [25:04] >> Nope, that's it.
+- [25:08] >> Thank you for using Nordic Shields
+- [25:10] insurance cataloging service. Have a
+- [25:12] good day.
+- [25:13] >> Cool. And so you can see uh let me zoom
+- [25:16] out a little bit so folks on the call
+- [25:18] can see as well. Um it looks like there
+- [25:20] were two phases. So as we were talking
+- [25:23] about these different uh these different
+- [25:25] items um the uh live API feature showed
+- [25:30] them on the inventory list. So it gave
+- [25:32] the item name, the description, the
+- [25:34] condition, the estimated value. Um but
+- [25:37] uh as part of the estimated value step
+- [25:40] um there was a second kind of follow-up
+- [25:42] action uh that did a search around
+- [25:45] Google to pull in like what would the
+- [25:48] estimated value of this thing be? Um so
+- [25:51] so the live API uh the live API kind of
+- [25:54] assistant was just responsible for
+- [25:56] cataloging and then after she added uh
+- [26:00] an item to the table to the inventory
+- [26:02] list that kicked off a second step. So
+- [26:05] almost like an agent to go search um
+- [26:08] round up uh a bunch of different items
+- [26:11] and then give us an estimate for how
+- [26:13] much these things um how much these
+- [26:15] things might be worth which is pretty
+- [26:17] cool. Um yes. So it was uh and it also
+- [26:21] added links um like citations for those
+- [26:25] different uh for those different uh uh
+- [26:28] items as well, which is pretty cool.
+- [26:31] >> Yeah.
+- [26:31] >> Yeah. I uh I think like this is probably
+- [26:34] one of the the the nice new things about
+- [26:36] Gemini 3 or some of the APIs now that
+- [26:40] allow for these types of models to
+- [26:42] always be grounded in in search, right?
+- [26:45] Um, I think something like this would be
+- [26:46] helpful for like decluttering my space.
+- [26:48] I sell a lot of stuff on Facebook
+- [26:50] Marketplace. So,
+- [26:51] >> yeah. Excellent. So, so like and I I
+- [26:54] think it's it's also nice to help with
+- [26:57] um kind of detailed descriptions of all
+- [26:59] of the all of the different items. Um,
+- [27:02] and then if you wanted to deploy this
+- [27:04] app uh via Google Cloud, you could
+- [27:06] select a different cloud project, um,
+- [27:09] click deploy and it would give you a
+- [27:10] unique URL with logging um, and and kind
+- [27:14] of insights uh, into all of the the
+- [27:16] different features that you might be
+- [27:18] including um, as part of your project.
+- [27:21] So, if you uh, like as an example, I'm
+- [27:24] going to show my personal Google Cloud
+- [27:27] um, my personal Google Cloud account.
+- [27:29] There we go. Excellent. So, so this is
+- [27:32] uh this is the logging feature in Google
+- [27:34] AI Studio where you can see um uh if you
+- [27:38] turn on logging all of the different
+- [27:40] kind of JSON blobs that come in from
+- [27:42] your your app interactions. You can see
+- [27:45] things like usage and billing. So, the
+- [27:47] number of API errors and requests that
+- [27:49] you get per day. Um as well as kind of
+- [27:52] any rate limits that you might be about
+- [27:54] to hit. So, it looks like I've been
+- [27:56] using VO3
+- [27:58] um uh past my rate limit uh past my rate
+- [28:02] limit options for at least the tier that
+- [28:03] I'm on. Um and then you can also see the
+- [28:06] different projects. Um and right now I
+- [28:08] have around 85 keys created for
+- [28:10] generative language client. Um but it's
+- [28:13] it's cool to to be able to have a
+- [28:15] one-stop shop where you can see all of
+- [28:17] that usage, which is quite nice. And
+- [28:19] just to give Nano Banana its time in the
+- [28:21] spotlight and to show a couple of
+- [28:23] examples that people have built with it,
+- [28:25] um you can do everything from kind of
+- [28:27] use a Pinterest style collage of items,
+- [28:31] um compose them into a single image. Um
+- [28:34] you can do things like build uh
+- [28:36] orthographic blueprints for real life
+- [28:38] places. So in this case, a castle um
+- [28:41] being able to see No Feinstein castle
+- [28:43] from different uh from different views
+- [28:46] um with high reliability for all of the
+- [28:48] text. Um you can create detailed physics
+- [28:51] explainers and all of this is grounded
+- [28:54] using tools including things like
+- [28:56] grounding with Google search which is
+- [28:58] pretty amazing. You can also change the
+- [29:00] resolution, so 1K, 2K, or 4K. And then
+- [29:03] also the aspect ratios as you use uh
+- [29:06] these generative media models as part of
+- [29:08] your projects. So, it's been really
+- [29:09] exciting to see what people create.
+- [29:11] Everything from uh everything from kind
+- [29:14] of re-imagined game experiences to like
+- [29:18] detailed posters and slides for their
+- [29:22] papers and their projects at Nurips.
+- [29:24] >> Yeah. Yeah. And I think a lot of the
+- [29:25] creativity and power, I guess, gets
+- [29:28] unlocked when you even combine all of
+- [29:30] these things together. So, you can ask
+- [29:32] Gemini to go and do research for you on,
+- [29:35] I don't know, skiing areas in across
+- [29:38] North America, across a train line or
+- [29:40] something like that. Uh, pull all that
+- [29:42] information, create an image, and then,
+- [29:44] you know what I've seen people do? take
+- [29:46] that image, put it into VO3.1 and they
+- [29:48] get an animated explainer which then
+- [29:50] they can use as a part of this slide or
+- [29:52] presentation or something like that
+- [29:53] which is very cool.
+- [29:54] >> 100%. When you combine reasoning with
+- [29:57] multimodal outputs like the the
+- [29:59] possibilities are really endless and
+- [30:00] it's so much easier to understand things
+- [30:03] like images or video um I think than to
+- [30:06] to have people kind of comb through just
+- [30:08] raw text or raw code. Um so it's been
+- [30:11] really exciting to see.
+- [30:13] >> Wow. Thanks so much for showing all of
+- [30:14] this to us, Paige. It's been really
+- [30:16] insightful. I want to switch gears a
+- [30:18] little bit and I want to show you one of
+- [30:20] the projects that I've been working on
+- [30:22] with Gemini 3. Maybe you can critique me
+- [30:24] and let me know what I'm doing wrong or
+- [30:25] what I'm doing right and what you think
+- [30:26] about it. This is my website that I'm
+- [30:29] using to share resources and articles
+- [30:30] with people. As I've been making more
+- [30:32] short form video content online through
+- [30:34] Tik Tok, Instagram, YouTube Shorts, and
+- [30:36] such, it's been kind of challenging to
+- [30:38] find a way to share some of the
+- [30:39] resources that I talk about with people
+- [30:41] who are viewing my content. And so, you
+- [30:43] can see here that I have a lot of URLs
+- [30:45] that I often reference, including Nano
+- [30:47] Banana Pro, Gemini 3, and so on. Uh, but
+- [30:50] I don't know or have a good way of
+- [30:52] sharing it. So, I created this website.
+- [30:53] I threw these ideas that I had for a
+- [30:56] more like doodly vibrant pastile neo
+- [31:00] brutalistic, you know, notebookesque
+- [31:02] theme into AI Studio and it created this
+- [31:05] for me. It's a nice place I can use to
+- [31:06] like manage all of my content, create
+- [31:08] new assets for me, save it, and then
+- [31:10] import it into my videos. The problem is
+- [31:12] is that my previous website obviously
+- [31:14] doesn't look anything like this. So I
+- [31:16] thought maybe what I could do is combine
+- [31:18] Google's new IDE anti-gravity and Gemini
+- [31:22] 3 to um inherently take advantage of
+- [31:24] that multimodality that we spoke about
+- [31:26] earlier. Take a screenshot of this uh
+- [31:28] new website, feed it into the code for
+- [31:30] my old website and see what it comes up
+- [31:32] with. What do you think?
+- [31:33] >> Yep, let's do it.
+- [31:35] >> Okay, so Paige, here we are in
+- [31:37] anti-gravity, which is meant to be an AI
+- [31:39] native IDE from Google, and it has
+- [31:41] Gemini 3 Pro baked right into it. So,
+- [31:44] what I'll probably do is take those two
+- [31:45] screenshots that I was um that I was
+- [31:48] talking about before and feed them into
+- [31:50] here and then just ask if if
+- [31:52] Anti-gravity or Gemini 3 Pro can come up
+- [31:54] with a way of redesigning my site to
+- [31:56] adhere to this a little bit better. So,
+- [31:58] I'm going to grab those two screenshots.
+- [32:04] So, I'll ask it recreate this site to
+- [32:07] adhere to my new design philosophy,
+- [32:11] which you can see in the included
+- [32:14] images. So, go ahead and run that. And
+- [32:17] while that's running, I think it's worth
+- [32:19] noting that obviously Gemini 3 Pro's big
+- [32:23] job here is to not only interpret what's
+- [32:26] inside of the image, but kind of break
+- [32:28] it down into the most notable features
+- [32:30] that it needs to then go and apply to
+- [32:33] coding. within anti-gravity. So while
+- [32:36] it's doing that, it obviously has
+- [32:37] explored a little bit already and it's
+- [32:40] created this task list here. So explore
+- [32:42] the existing codebase and a little bit
+- [32:44] more. It'll follow that task list to
+- [32:46] continue ensuring that it stays grounded
+- [32:48] and true to that kind of process of
+- [32:51] development as time goes on. Uh so the
+- [32:54] next thing it'll do is obviously analyze
+- [32:56] the new design and then set up the the
+- [32:58] new design system. Yeah. And so the next
+- [33:00] thing I came up with here is this
+- [33:01] implementation plan which I also find to
+- [33:03] be really nice because through this
+- [33:05] process it's creating a bit of
+- [33:06] documentation which is nice because down
+- [33:09] the road when the codebase becomes
+- [33:11] larger and the AI has to continue
+- [33:13] sifting through more and more code uh it
+- [33:15] can continue to reference through things
+- [33:16] it's done in the past. So you can see
+- [33:18] this implementation plan it has these
+- [33:20] actions like new modify and so on. Uh
+- [33:22] and it keeps it from you know um not
+- [33:25] going off the rails as much.
+- [33:27] >> Awesome. Paige, have you created
+- [33:29] anything cool with Nano Banana Pro?
+- [33:31] >> Oh, yeah. The uh So, so with Nano Banana
+- [33:35] Pro, I've been experimenting quite a bit
+- [33:38] with different uh with different
+- [33:40] outputs. Let me show
+- [33:43] um let me show one from a little while
+- [33:46] ago. The quality is just absurd.
+- [33:49] >> [snorts]
+- [33:50] >> Um, as a as an example,
+- [33:54] I I created a bunch of uh let me share
+- [33:58] screen really quick.
+- [34:00] Um,
+- [34:01] >> oh, nice.
+- [34:02] >> I created a bunch of images with uh
+- [34:07] popular like physicists and computer
+- [34:09] science figures like Claude Shannon,
+- [34:12] >> Richard Fineman, and Carl Sean. And then
+- [34:15] also one of our winning hackathon
+- [34:17] projects this past weekend was using was
+- [34:21] using Nano Banana Pro for its game asset
+- [34:25] generation. So I'm not
+- [34:27] >> Yeah. So they used it for every single
+- [34:29] one of the game assets as well as the
+- [34:31] design patterns
+- [34:33] >> for the games themselves which was quite
+- [34:35] cool. This was at the AI engineering
+- [34:37] world's fair. And how is your how is
+- [34:40] your website coming along?
+- [34:41] >> So it looks like we're done here. What
+- [34:43] I'll probably do is pop open my terminal
+- [34:46] and then run the app and then we can
+- [34:48] take a look at what it looks like.
+- [34:50] >> Yep.
+- [34:52] >> Cool. Yeah. So, Paige, this is what it
+- [34:53] came up with. You can see here that it
+- [34:55] actually followed the brand guidelines
+- [34:56] pretty well. It has these pills that
+- [34:58] kind of jiggle when you hover over them
+- [35:00] and it has like some more information
+- [35:01] about my resources, prompt library,
+- [35:04] agent blueprints, and things like that.
+- [35:05] So, I found it did a pretty pretty good
+- [35:07] job just like with one prompt. What do
+- [35:09] you think?
+- [35:10] >> Oh, it looks awesome. Thank you, Gemini
+- [35:12] 3 and anti-gravity. I can't wait to
+- [35:14] continue playing around with this tool.
+- [35:16] >> Very, very cool. It's I I'm really I I
+- [35:19] love the the kind of attention to detail
+- [35:22] and the creativity that it puts into
+- [35:24] these UI designs. I feel like it's
+- [35:27] better than ever at at kind of creating
+- [35:29] these these kinds of experiences.
+- [35:32] >> Paige, it was a pleasure having you on
+- [35:34] the podcast today. Thanks so much for
+- [35:36] coming and explaining a little bit more
+- [35:38] about Gemini 3 and all of the great
+- [35:40] things that Google launched last week.
+- [35:42] >> Absolutely. Thank you so much for having
+- [35:43] us. And I loved that we were able to
+- [35:45] talk about not only just the models
+- [35:47] themselves, but also how Google's entire
+- [35:49] AI stack from the hardware to the
+- [35:52] compiler to the machine learning
+- [35:53] framework to our endto-end app
+- [35:55] deployments. Um, even things like
+- [35:57] anti-gravity and AI Studio and all of
+- [35:59] the other surfaces that we have around
+- [36:01] Google help make sure that we're
+- [36:03] building the best possible models for
+- [36:05] all of these different use cases. It was
+- [36:07] really fun
+- [36:07] >> and not to mention all the cool things
+- [36:09] you can do and deploy them to Google
+- [36:11] Cloud and have them ready in production.
+- [36:13] So, thanks so much again. I'm EMTT
+- [36:15] Mirage
+- [36:16] >> and I'm Paige Bailey.
+- [36:17] >> Powering down.
+- [36:20] [music]
+- [36:25] >> [music]

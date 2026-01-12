@@ -1,0 +1,670 @@
+---
+title: "YouTube Video: BFWviieMyGw"
+video_id: "BFWviieMyGw"
+video_url: "https://www.youtube.com/watch?v=BFWviieMyGw"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  2025 has definitely been the year of AI agents, but even more than that, it's been the year of agent protocols like Anthropic's MCP, making it so easy to connect tools to our agents, or Google's A2A, ...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: BFWviieMyGw
+
+- URL: https://www.youtube.com/watch?v=BFWviieMyGw
+- Retrieved at: 2025-12-30T10:01:57+09:00
+
+## Text
+
+- [00:00] 2025 has definitely been the year of AI
+- [00:03] agents, but even more than that, it's
+- [00:05] been the year of agent protocols like
+- [00:07] Anthropic's MCP, making it so easy to
+- [00:10] connect tools to our agents, or Google's
+- [00:12] A2A, making it very seamless to connect
+- [00:15] agents to other agents. But as powerful
+- [00:17] as these protocols are, there's still a
+- [00:19] very big missing piece. Because if we
+- [00:22] want our users to be able to interact
+- [00:24] with our agents, we need a front end,
+- [00:26] some way to turn our agent into a full
+- [00:28] application. But until now, there hasn't
+- [00:30] been a standard to very easily connect
+- [00:32] our agents to any front end like we can
+- [00:35] do with tools and other agents. But that
+- [00:37] has all changed now with the
+- [00:39] introduction of AGUI. This is a protocol
+- [00:42] for connecting your agents to your front
+- [00:44] end to your users in a very standard
+- [00:47] way. And just like MCP and A2A, I think
+- [00:50] this is really going to shape up to be
+- [00:51] an absolute gamecher. So right now, I'll
+- [00:54] introduce you to AGUI and show you how
+- [00:56] to use it. It is definitely worth
+- [00:58] investing your time learning this
+- [01:00] protocol right now because it really is
+- [01:02] the missing piece to take your agents to
+- [01:04] that next level, turning them into full
+- [01:06] applications. So, let's go ahead and
+- [01:07] dive right into it. So, here is the
+- [01:10] official announcement for AGUI that was
+- [01:12] developed by the CopilotKit team, which
+- [01:14] if you didn't know, Copilot Kit is an
+- [01:17] open-source front-end library for
+- [01:19] building agentic applications. So, it
+- [01:21] very much makes sense that they would be
+- [01:22] the team to build out this kind of
+- [01:24] standard to connect our frontends to
+- [01:26] agents. And this graphic shows really
+- [01:28] nicely what it looks like. We have AGUI
+- [01:30] which is a middleman just like MCP in
+- [01:33] between our application built with
+- [01:35] something like React and then our AI
+- [01:36] agents built with something like
+- [01:38] Langraph or Crew AI or Pyantic AI. And
+- [01:41] so it's a protocol just to make this
+- [01:43] connection very seamless just like we
+- [01:45] have with MCP and A2A. And this is so
+- [01:48] powerful because it's our way to connect
+- [01:50] our agents to users. And that is crucial
+- [01:53] because most agents in general and I I
+- [01:55] like this. They actually talk about this
+- [01:57] here. They talk about autonomous versus
+- [01:59] conversational agents. And so something
+- [02:01] like copilot kit and agui is not going
+- [02:04] to be useful if we just have an agent
+- [02:06] running entirely autonomously just doing
+- [02:08] things behind the scenes. But most
+- [02:10] agents you want to have some way for
+- [02:13] users to work alongside them. Especially
+- [02:15] for things like human in the loop just
+- [02:17] making sure that we are still a part of
+- [02:18] the process whatever our agent is doing.
+- [02:21] And so we almost always want a front end
+- [02:23] to work with our agents. But until we
+- [02:25] had AGUI, that wasn't very easy. There
+- [02:28] are a lot of challenges that come with
+- [02:30] building a front end connecting to our
+- [02:32] agent without some kind of standard. For
+- [02:34] example, it's definitely an expectation
+- [02:36] at this point that your AI agent will
+- [02:39] produce the output in real time. It'll
+- [02:41] actually look like the agent is typing
+- [02:43] out the answer to you, just like you've
+- [02:44] seen in things like Claude or GPT. But
+- [02:48] that isn't very trivial to set up. You
+- [02:50] need a way to have your API endpoint
+- [02:52] that's running your agent stream out
+- [02:54] those tokens in real time to your front
+- [02:56] end. And you have to handle that in your
+- [02:58] front end as well. And then another good
+- [03:00] example, tool orchestration. Working
+- [03:02] with different tools that your agent
+- [03:03] will use. The UI oftentimes need to show
+- [03:06] progress and the results of using these
+- [03:08] tools. There's a lot of components that
+- [03:10] go into even a single execution of an
+- [03:12] agent that you want to display out to
+- [03:14] your front end. A lot of other things
+- [03:16] here as well. I think the other thing
+- [03:17] that's really worth hitting on is what
+- [03:19] they call the framework sprawl. I think
+- [03:21] that's a really good way to put it.
+- [03:22] There's so many different ways we can
+- [03:24] build our agents in the back end with
+- [03:26] Langchain or Crew AI or Mao. There's so
+- [03:28] many different examples, but they all
+- [03:30] work in slightly different ways. We have
+- [03:32] to connect our UI into agents built with
+- [03:34] these frameworks in slightly different
+- [03:36] ways. We have to reinvent adapters like
+- [03:38] they said, handle different edge cases
+- [03:40] that just come up from using these
+- [03:42] different frameworks. But when we have
+- [03:43] something like AGUI where we can have
+- [03:45] just one set standard now that's a
+- [03:47] middleman between the front ends in
+- [03:49] these different frameworks now we have
+- [03:51] to worry about that a lot less in our
+- [03:53] frontends. Everything is just much
+- [03:55] simpler when we develop it. And the best
+- [03:57] part is AGUI is completely open- source
+- [03:59] and it's a standard where we're not
+- [04:01] relying on a specific framework. So just
+- [04:03] like with MCP anthropic built the model
+- [04:07] context protocol but it's not like we
+- [04:08] have to use cloud for our LLM. Same
+- [04:11] thing with AGUI. It was built by
+- [04:12] Cop-ilot Kit, but we can build any front
+- [04:15] end with any framework and connect that
+- [04:17] to any agent. And here's how it works.
+- [04:19] We have our user that interacts with our
+- [04:21] application built with something like
+- [04:23] React. And then we have that middleman
+- [04:24] that I was talking about. This is AGUI
+- [04:26] that will then connect us to our AI
+- [04:29] agents. And every time we have some kind
+- [04:31] of operation that our agent performs,
+- [04:33] like it streams out some text or it
+- [04:35] makes a tool call, we have these
+- [04:37] standard events that we emit out through
+- [04:39] AGUI back to our front end. And so our
+- [04:41] front end has this very standard way to
+- [04:43] display everything that the agent is
+- [04:45] doing. And that's what solves a lot of
+- [04:46] these problems that we have with
+- [04:48] real-time streaming and tool
+- [04:49] orchestration and framework spall. We
+- [04:51] just now have to rely on these events
+- [04:53] coming into our front end, displaying
+- [04:55] those out however we want using
+- [04:57] something like Copilot Kit if we want to
+- [04:59] make that easier for the actual
+- [05:00] front-end development. So that's how
+- [05:02] AGUI works as a whole. But now I want to
+- [05:05] get really practical with you, actually
+- [05:07] build out a full example so you can see
+- [05:08] this in action. So, in the official
+- [05:11] documentation for AGUI, which I'll link
+- [05:13] to in the description of this video,
+- [05:15] they cover both how to build an AI agent
+- [05:18] in the back end that works with this
+- [05:21] protocol, and then they also show you
+- [05:23] how to build front-end applications that
+- [05:25] work with AGUI so we can connect our
+- [05:27] agents to our users. And I'm going to
+- [05:30] walk you through both. I'm going to go
+- [05:31] through the quick start with you and
+- [05:32] show you at a very fundamental level how
+- [05:35] AGUI works. And then I'll even show you
+- [05:37] how to build agents in the back end with
+- [05:38] AGUI, how we can use any framework we
+- [05:41] want as well. And this connect to AGUI
+- [05:44] page is going to be the main one that
+- [05:45] I'll walk you through to get our demo up
+- [05:47] so you can see at a very foundational
+- [05:49] level how this protocol works. And so
+- [05:51] you can follow along with this as well
+- [05:52] if you want to play around with the demo
+- [05:54] yourself, dive into it, and just see how
+- [05:56] you can build out with AGY. So there are
+- [05:58] some prerequisites that you need with
+- [06:00] Node.js and npm. And then also we'll be
+- [06:02] using OpenAI for our LLM. And then you
+- [06:05] can go through these instructions here
+- [06:06] to clone this repo that has the example.
+- [06:09] We can install everything and run it.
+- [06:10] And then they walk through the core code
+- [06:12] components as well. So this is the demo
+- [06:14] that I have spun up right now. And you
+- [06:16] can do the same thing in just like a
+- [06:17] minute. Like it's super fast. And we can
+- [06:19] work with a couple of the examples that
+- [06:21] they have here for us to see AGUI in
+- [06:24] action. And this is all integrated with
+- [06:25] Copilot Kit. But again, we don't have to
+- [06:28] use Copilot Kit with AGUI. It just makes
+- [06:30] things very simple for us. And so for
+- [06:32] this first example here, I can just get
+- [06:34] a basic response from the LLM. So you
+- [06:36] can see it streamed out to us. But then
+- [06:38] this is also an example of using AGUI
+- [06:40] for front-end tools, as in we get the
+- [06:43] response from the agent and that will
+- [06:45] dictate something that we would change
+- [06:46] in our front end. Like in this case, I
+- [06:48] can say change the background to red.
+- [06:51] And so we'll get a response from our
+- [06:53] backend that tells it to update the
+- [06:55] background color. Take a look at that.
+- [06:56] We can say now change it to blue. And
+- [07:00] boom, there we go. nice and fast and
+- [07:02] this is not a very trivial
+- [07:03] implementation like this is a basic
+- [07:05] example but having this kind of
+- [07:07] interaction between our backend and
+- [07:09] tools in our front end is not super
+- [07:11] basic and let's just try another one as
+- [07:13] well let's do the toolbased generative
+- [07:14] UI so in this case we'll talk to our
+- [07:16] agent and the output is going to be
+- [07:18] interactable for us to then also change
+- [07:21] what we see right here so I'll say
+- [07:23] generate a haiku about AI and then boom
+- [07:25] we get our haiku and then I can interact
+- [07:27] with the tool call in the front end here
+- [07:29] to apply it and then it's now going to
+- [07:31] update another state that I have within
+- [07:33] the front end. So just a couple of
+- [07:35] examples here showing at a very high
+- [07:36] level how we can make our AI agent super
+- [07:39] interactable with tool calls and
+- [07:41] everything right within our front end.
+- [07:42] And this is the kind of thing that if
+- [07:44] you don't have something like AGUI, it's
+- [07:46] not going to be that easy. The sponsor
+- [07:48] of today's video is Lutra. It's a very
+- [07:51] userfriendly way to create automations
+- [07:53] with natural language. You interact with
+- [07:55] it just like chat GBT or Claude except
+- [07:58] there are hundreds of integrations to
+- [08:00] make it way more powerful. And it can in
+- [08:03] real time build customcoded integrations
+- [08:05] to work with these different services.
+- [08:07] And then all of these integrations that
+- [08:09] you combine together for these
+- [08:10] automations that you create can be saved
+- [08:12] to use in future conversations and set
+- [08:15] up as scheduled tasks. It's very
+- [08:17] powerful. And Lutra integrated with MCP
+- [08:21] recently. So, we can now bring MCP
+- [08:22] servers into our automations as well.
+- [08:25] Once you're assigned in Lutra, you can
+- [08:26] go to the custom integrations page and
+- [08:28] hook in MCP servers. You can hook into
+- [08:31] any MCP server that you built yourself
+- [08:33] running remotely or use any of these
+- [08:35] recommended ones. Like I can go into a
+- [08:37] sauna, use this server, then I just have
+- [08:39] to authorize my account to connect it
+- [08:41] and I can start using the MCP server in
+- [08:44] all of my Lutra automations. For
+- [08:46] example, I can ask Lutra to create a new
+- [08:48] project for me in ASA and put a task in
+- [08:51] it as well. And so I'll send this in and
+- [08:53] it's going to right away leverage the
+- [08:55] MCP server and it's going to write
+- [08:57] custom code to use the different tools
+- [08:59] in this server. That's how I can
+- [09:00] integrate with other things along with
+- [09:02] this MCP server at the exact same time.
+- [09:04] So it'll reason and then start taking
+- [09:06] these actions. And so I'll pause and
+- [09:08] come back once it has completed. And
+- [09:10] boom, Lutra has created our project and
+- [09:12] task. I can even see this in ASA. I got
+- [09:15] my task here to create spicy mango
+- [09:17] chicken and I can save this automation
+- [09:19] now. It generated the code for it. I can
+- [09:20] reuse this later in future
+- [09:22] conversations. Very, very powerful. So,
+- [09:25] I'll have a link in the description to
+- [09:26] Lutra. I would definitely recommend
+- [09:28] checking them out if you want to
+- [09:30] automate a bunch of tasks in a very
+- [09:32] conversational way just with natural
+- [09:34] language. Going back to their example in
+- [09:36] the documentation here on connecting to
+- [09:38] AGUI, let's cover the core components
+- [09:40] that make all of this possible. This is
+- [09:42] so important to understand. And then I
+- [09:44] have this demo up and running right now
+- [09:46] like I just showed you. So I'll go into
+- [09:48] my IDE and show you that code. Also some
+- [09:51] additions that I made to take this even
+- [09:53] further. And so like I said, the core of
+- [09:56] AGUI is all of these events that our
+- [09:58] backend emits to our front end. And they
+- [10:01] have an example of this right here. So
+- [10:02] in this case, we aren't actually using a
+- [10:05] large language model. They're just
+- [10:06] simulating what an Asian execution will
+- [10:08] look like. But we emit this event saying
+- [10:11] that the run has started. And then we
+- [10:13] have our thread ID so we can keep track
+- [10:15] of the specific conversation. We have an
+- [10:17] ID for this current execution itself. So
+- [10:19] we have a lot of that metadata that's
+- [10:21] passed to the agent as well which is
+- [10:22] super important. So we can do things
+- [10:24] like fetch the conversation history if
+- [10:26] we need. And then we move on to say that
+- [10:28] we are starting a message. So we're
+- [10:30] streaming out that response. Here's some
+- [10:32] of the content. And then here is the end
+- [10:34] of the message. And at the very end of
+- [10:35] the agent execution we'll emit this
+- [10:38] final event as well saying that the run
+- [10:40] is finished. And so that's what it looks
+- [10:42] like when we don't use an LLM. But when
+- [10:44] we do want to use an LLM, they have an
+- [10:46] example that I applied here that takes
+- [10:48] it further. So in this case, we are
+- [10:50] actually using GPT 4.1 Mini to drive our
+- [10:53] conversation. And this is exactly what
+- [10:55] we saw in the demo just a couple of
+- [10:57] minutes ago. And so we output this event
+- [11:00] first. And let me zoom in on this just
+- [11:01] so it's very easy for you to see. We
+- [11:03] output our event saying that the run has
+- [11:05] started. Then we use the OpenAI client
+- [11:08] to start a message response from GPT4.1
+- [11:12] Minion and we're giving it some tools as
+- [11:13] well to do things like change the
+- [11:15] background color. So if we want to
+- [11:17] change the background color, the LLM
+- [11:19] will output that tool and that'll be one
+- [11:20] of the things that we stream out to the
+- [11:22] front end. And I'll get into that in a
+- [11:24] second here. But yeah, going up back to
+- [11:26] the top here, we input all of our
+- [11:27] messages. So we get the conversation
+- [11:29] history passed in from the front end
+- [11:31] with AGUI as well. And then we start to
+- [11:34] get our response. And so we're going to
+- [11:36] loop over all the chunks that we're
+- [11:38] getting back as we're getting the output
+- [11:39] in real time from GBT4.1 Mini. And we're
+- [11:43] just going to output each of these
+- [11:44] chunks as they come in. So we're
+- [11:46] returning the delta here as in these are
+- [11:48] the most recent chunks that were
+- [11:50] produced. So our front end can build up
+- [11:52] that response over time, displaying it
+- [11:55] in real time to the user. And then for
+- [11:57] any tool calls that happen, we're doing
+- [11:59] the exact same thing, but instead of it
+- [12:00] being a text message chunk event, it is
+- [12:03] a tool call chunk event. So we're
+- [12:05] telling the front end that all the
+- [12:07] parameters here are related to a tool
+- [12:09] call, like changing the color of our
+- [12:11] background. And then once all this is
+- [12:13] complete, so we're just going through
+- [12:14] this loop of getting everything from the
+- [12:16] agent response, then we'll just send
+- [12:18] that last message just like we saw in
+- [12:20] the basic example without an LLM saying
+- [12:22] that the run is now finished. So that
+- [12:24] way the front end knows that it can move
+- [12:26] on to whatever it might need to do to
+- [12:28] process things after the agent execution
+- [12:30] is complete like telling the user they
+- [12:32] can send their next message or whatever
+- [12:34] that might be. So this is a really
+- [12:35] important event to send as well. And
+- [12:37] then we also have the whole idea of
+- [12:39] sending error events which is really
+- [12:41] good just to make sure that whenever we
+- [12:42] have an error in the back end it doesn't
+- [12:44] just crash the application and our front
+- [12:46] end doesn't know what happened. we can
+- [12:47] send an event that tells our front end
+- [12:50] specifically what issue the agent
+- [12:52] encountered so that we can handle that
+- [12:55] appropriately. So yeah, basically all of
+- [12:57] the different event types and there's 16
+- [13:00] in total that we can send here. This is
+- [13:02] everything that our front end might need
+- [13:04] to know for everything that's going on
+- [13:06] with our AI agent. This is just so
+- [13:08] powerful and I'll get into this more in
+- [13:10] a bit when I build out a backend with
+- [13:12] Python. But you should be able to kind
+- [13:14] of start to envision here how you're not
+- [13:17] just limited to using OpenAI. Like you
+- [13:18] could use any LLM, any framework that
+- [13:21] you want, as long as you are emitting
+- [13:23] these standard events that are showing
+- [13:25] the different tool calls and output
+- [13:27] messages and things like that. It
+- [13:29] doesn't matter what you're using, you're
+- [13:30] going to be able to do that with AGUI.
+- [13:32] And then the way that we leverage this
+- [13:34] agent as an API endpoint is going to
+- [13:36] depend on the framework that you're
+- [13:38] using. So obviously in this examples,
+- [13:40] they are using C-Pilot kit. And so
+- [13:42] within our primary React page here, we
+- [13:44] set up this instance of Copilot Kit
+- [13:46] where we're giving this runtime URL
+- [13:48] that's going to point to this API
+- [13:50] endpoint where that agent is running
+- [13:52] with all the code that I just showed
+- [13:54] you. And so I don't want to dive into
+- [13:56] Copilot Kit a ton right now. Honestly,
+- [13:58] it does deserve its own tutorial. So I
+- [14:00] might make a guide specifically on
+- [14:01] Copilot in the future. Definitely let me
+- [14:03] know in the comments if you'd be
+- [14:04] interested in that. But the copilot kit
+- [14:07] just gives us a way to set up these
+- [14:08] React components to interact with our
+- [14:10] agents through API endpoints that
+- [14:13] implement things like agui. And so this
+- [14:16] is our primary page. This is our tool
+- [14:18] that gives us the ability to change the
+- [14:20] background color like we saw in the
+- [14:21] demo. And then we just inject the
+- [14:23] co-pilot chat here within our JSX so
+- [14:26] that we have that place to talk to our
+- [14:29] agent. And then within the route here
+- [14:31] for slash API slash and then what was it
+- [14:34] here like
+- [14:35] slappi/copilot kit. This is our route
+- [14:37] for that where we're just using this
+- [14:39] instance of the copilot runtime that
+- [14:41] works for nex.js. So we have this nex.js
+- [14:44] endpoint here where we're going to be
+- [14:46] passing in this runtime that defines our
+- [14:49] custom agent. So this custom agent class
+- [14:52] right here that corresponds to exactly
+- [14:54] what we set up right here. So custom
+- [14:56] agent, we're just importing that into
+- [14:58] our API endpoint and then setting that
+- [14:59] up. That is what's going to be called
+- [15:01] when we make this post request to
+- [15:04] /appi/copilot kit. So copilot kit does a
+- [15:07] lot of the work here of making it very
+- [15:09] easy to integrate the agent within the
+- [15:11] front end. But you don't have to use
+- [15:12] copilot kit at all. You could build
+- [15:14] something entirely yourself that's just
+- [15:17] going to leverage these different events
+- [15:19] that we get back from our AGUI
+- [15:22] compatible endpoint here for our agent.
+- [15:24] So, we can watch for the text messages
+- [15:26] and stream those out. We can watch for
+- [15:28] the tool calls and we can display those
+- [15:29] however we want to. There's a lot of
+- [15:31] flexibility here. No matter how you want
+- [15:34] to build your front end or your agent,
+- [15:36] AGUI gives you that connection. So, you
+- [15:39] can use anything that you want. For
+- [15:40] example, I was easily able to adapt this
+- [15:43] example to use a Python backend for my
+- [15:46] agent instead of something that is built
+- [15:48] also in JavaScript like the front end.
+- [15:50] So, let me show you that. Here I have my
+- [15:51] other instance of windsurf open up here
+- [15:53] where I followed their example. So if I
+- [15:56] going back to the documentation here
+- [15:57] instead of the connect to AGI page, if
+- [15:59] you go to build with AGUI, then you'll
+- [16:02] be able to see the example using Python.
+- [16:04] So they walk you through what it looks
+- [16:05] like to set this up. This is very
+- [16:07] similar to what we saw where we're just
+- [16:08] going to be yielding these different
+- [16:10] events like the run started, the run
+- [16:12] finished, or here is the next test text
+- [16:14] message. Like it's going to look very
+- [16:16] similar, but this time we're in Python.
+- [16:18] We can use libraries like crew AI or
+- [16:20] pyantic AI. And I'm not using those in
+- [16:23] this case, but you very easily could.
+- [16:25] And so I have this fast API endpoint
+- [16:27] that's hosted just with slash AWP. I'm
+- [16:31] getting the message ID here. And then
+- [16:32] I'm sending in that event saying that
+- [16:34] all right, I'm starting the response
+- [16:35] from the agent and then I'm using GPT4.1
+- [16:38] mini just like I did with the
+- [16:40] JavaScript. And then I'm going to loop
+- [16:42] over all the chunks that I get back in
+- [16:44] the stream when I'm streaming the
+- [16:45] response from the LLM. And I'm going to
+- [16:47] send a bunch of these chunks just by
+- [16:49] yielding them. And the event type for
+- [16:51] each one of them is just text message
+- [16:53] content. And I'm sending that delta as
+- [16:55] well. So we can build up that response
+- [16:57] over time in the front end. And then
+- [16:58] just sending the text message end and
+- [17:00] run finished at the end. So this is a
+- [17:02] basic example that doesn't handle the
+- [17:04] tool calling. So I can't change the
+- [17:06] background with this agent like I can
+- [17:08] with the one in JavaScript. But I just
+- [17:10] wanted to show you at a very basic level
+- [17:12] how we can use Python instead. And then
+- [17:15] going back to my custom agent here, I'll
+- [17:17] actually replace the code entirely with
+- [17:19] what I've created with the help of an AI
+- [17:21] coding assistant of course to use our
+- [17:24] Python endpoint. So instead of having
+- [17:25] all the logic right within here to
+- [17:27] interact with GBT4.1 Mini, I'm now going
+- [17:30] to be calling this endpoint that I have
+- [17:32] running right now in my terminal. I
+- [17:34] could even show you that here. So if I
+- [17:36] open up my terminal and show you this
+- [17:38] right here, I got the API endpoint that
+- [17:39] is currently running. And so we're going
+- [17:41] to hit that and then we're going to
+- [17:43] create this reader where we're just
+- [17:44] going to process the stream. So we're
+- [17:46] going to be displaying things in exactly
+- [17:48] the same way when we had everything
+- [17:49] implemented just in JavaScript. So just
+- [17:52] a little bit of extra code to take care
+- [17:54] of that. Returning this process stream
+- [17:56] to our co-pilot kit runtime so it can
+- [17:58] handle that accordingly following the
+- [18:00] AGUI protocol. So back in our front end
+- [18:03] here and I've got the terminal open up
+- [18:04] as well cuz I'll show you that we're now
+- [18:06] using our Python API endpoint with AGUI.
+- [18:09] So, I'll go ahead and just send in a
+- [18:10] message like what are the best AI agent
+- [18:14] frameworks, which it's not going to give
+- [18:16] a good answer because it's training cut
+- [18:17] off. But yeah, we can see here that we
+- [18:19] now got a post request to our endpoint
+- [18:21] just now. We're getting our response
+- [18:22] streamed out looking very, very nice. It
+- [18:25] was that easy to adapt basically
+- [18:27] entirely switching our agent under the
+- [18:29] hood, but it's connected to our front
+- [18:30] end in the same way. So, that's the main
+- [18:32] thing I wanted to show you. I went from
+- [18:33] a JavaScript agent all the way to a
+- [18:36] Python agent. And so that could be going
+- [18:38] from MRA to crew AI, whatever you want
+- [18:40] to do, but I still don't have to change
+- [18:42] anything in the front end. I can still
+- [18:43] interact with the agent in the exact
+- [18:45] same way. And if any of this seems
+- [18:47] complicated to you, do not worry. You're
+- [18:50] not alone. And they provide a way for
+- [18:52] you to very easily use AI coding
+- [18:54] assistants like Windsurf and Cursor to
+- [18:56] help you build with AGUI. both building
+- [18:59] out your agents and your backends and
+- [19:01] making that compatible and building out
+- [19:03] your frontends with your own code or
+- [19:05] using a tool like copilot kit, whatever
+- [19:07] that might be. And so this page in the
+- [19:09] documentation, if you just scroll down,
+- [19:11] you'll see developing with cursor, they
+- [19:13] have this
+- [19:15] llm's-fold.ext. And so you can take this
+- [19:17] and you can give this as documentation
+- [19:19] to your AI coding assistant. So cursor
+- [19:22] has their built-in docs feature. You
+- [19:24] could just paste this into your prompt.
+- [19:26] There are also MCP servers like my crawl
+- [19:28] for AI one where you could crawl this
+- [19:30] and use this as a rag knowledge base for
+- [19:33] windsurf or ruode or whatever you want
+- [19:35] to do. So yeah, this just makes it very
+- [19:37] accessible for you to start building
+- [19:40] with AGUI connecting your agents to your
+- [19:43] users. Now the very last thing that I
+- [19:45] want to touch on is the current state of
+- [19:48] AGUI. Obviously this protocol is brand
+- [19:51] spanking new and so it's not super
+- [19:52] mature at this point. Like I said, it's
+- [19:55] definitely worth exploring this
+- [19:57] protocol, starting to learn how it
+- [19:59] works, maybe not using it for literally
+- [20:01] everything yet. I wouldn't go there
+- [20:03] because there's still a lot that has to
+- [20:05] be developed out. And we've seen this
+- [20:07] with other protocols like MCP and A2A. I
+- [20:10] mean, A2A still really hasn't been
+- [20:12] widely adopted yet either. And then MCP,
+- [20:14] it's starting to get there, but it took
+- [20:16] a long time. It was November of last
+- [20:18] year that MCP was first released by
+- [20:20] Anthropic. It wasn't widely adopted
+- [20:23] until maybe around March of this year.
+- [20:24] So like four or five months. And the
+- [20:27] main reason for that was just when they
+- [20:28] started their documentation wasn't the
+- [20:30] best. The protocol wasn't the most
+- [20:32] mature and was barely handling things
+- [20:33] like security. I think we're seeing a
+- [20:35] lot of that with AGUI, at least to
+- [20:38] start. And honestly, they're doing a lot
+- [20:40] better of a job than MCP did at first.
+- [20:42] So props to them. I'm very impressed.
+- [20:44] And yeah, it was really easy to work
+- [20:46] with. And it definitely just makes sense
+- [20:48] the way that they set up all these
+- [20:49] different events for our agents and how
+- [20:51] that communicates to the front end. So
+- [20:53] that is a wrap for our AGUI
+- [20:55] introduction. I'm definitely going to be
+- [20:57] keeping tabs on this protocol, maybe
+- [20:59] even starting to integrate it in my own
+- [21:01] applications. And if this was
+- [21:03] interesting to you and you want to dive
+- [21:04] deeper into building full agentic
+- [21:06] applications, definitely check out
+- [21:09] dynamis.ai. It's my community for other
+- [21:11] early AI adopters just like yourself.
+- [21:13] And as a part of it, I'm building out a
+- [21:15] full course right now where I'm going
+- [21:17] from start to finish my full process for
+- [21:19] building agents, including building out
+- [21:21] these kind of frontends to connect your
+- [21:23] users to your agents. And also, I do
+- [21:26] want to cover AGUI more on my channel in
+- [21:28] the future, building out some specific
+- [21:29] use cases as well. So, if you're looking
+- [21:31] forward to that and you appreciated this
+- [21:33] content, I would really appreciate a
+- [21:35] like and a subscribe. And with that, I
+- [21:37] will see you in the next

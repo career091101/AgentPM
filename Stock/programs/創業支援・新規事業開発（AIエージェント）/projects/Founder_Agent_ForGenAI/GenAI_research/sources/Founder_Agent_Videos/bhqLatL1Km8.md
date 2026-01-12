@@ -1,0 +1,354 @@
+---
+title: "Quite recently, we saw Cursor 2. finally rolling out with an agent UI and Warp shipping its biggest ..."
+video_id: "bhqLatL1Km8"
+video_url: "https://www.youtube.com/watch?v=bhqLatL1Km8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Startup"
+summary: |
+  Quite recently, we saw Cursor 2.
+  finally rolling out with an agent UI and
+  Warp shipping its biggest terminal
+key_points:
+  - "Both are solid steps forward in the AI"
+  - "Cursor is still fundamentally a single"
+  - "workflow is powerful but still trapped"
+  - "that isn't built for full life cycle"
+  - "software delivery. So what if I was to"
+  - "to be and what Warp is trying to become,"
+  - "production level reliability. This is"
+  - "Verdent isn't another AI coding"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: bhqLatL1Km8
+
+- URL: https://www.youtube.com/watch?v=bhqLatL1Km8
+- Retrieved at: 2025-12-30T11:35:19+09:00
+
+## Text
+
+- [00:00] Quite recently, we saw Cursor 2.0
+- [00:02] finally rolling out with an agent UI and
+- [00:05] Warp shipping its biggest terminal
+- [00:07] overhaul for supporting multiple agents.
+- [00:10] Both are solid steps forward in the AI
+- [00:12] engineer race. But here's the thing.
+- [00:15] Cursor is still fundamentally a single
+- [00:17] agent experience wrapped in a nicer
+- [00:19] interface. And Warp's multi- aent
+- [00:22] workflow is powerful but still trapped
+- [00:24] inside the terminal first environment
+- [00:27] that isn't built for full life cycle
+- [00:29] software delivery. So what if I was to
+- [00:31] tell you that there is a new
+- [00:32] state-of-the-art coding agent that
+- [00:34] basically delivers what Cursor 2.0 wants
+- [00:37] to be and what Warp is trying to become,
+- [00:40] but in one unified tool that handles
+- [00:42] planning, coding, verification, and
+- [00:45] multi- aent execution with actual
+- [00:48] production level reliability. This is
+- [00:50] where I would like to introduce Verdant.
+- [00:53] Verdent isn't another AI coding
+- [00:55] assistant. It's a full stack AI
+- [00:58] engineering system with tool modes. You
+- [01:00] have a VS Code extension which is
+- [01:02] focused on precision, transparency and
+- [01:05] verifiable code generation. And then you
+- [01:07] also have the desktop app that runs
+- [01:09] multiple agent sessions in parallel each
+- [01:12] inside isolated git work trees for clean
+- [01:15] reproducible environments. For other
+- [01:18] tools help you code faster. Berdent
+- [01:21] helps you ship code that's correct,
+- [01:23] testable, maintainable, and genuinely
+- [01:26] production ready. But what's wild is
+- [01:28] that Berdent is a state-of-the-art AI
+- [01:31] coding agent, a truly unified all-in-one
+- [01:34] engineering system built to fully
+- [01:36] leverage the best AI models through deep
+- [01:38] integration and advanced orchestration.
+- [01:41] On the Swaybench verified test, Verdant
+- [01:43] hit a 76.1%
+- [01:46] pass at one. That's insane cuz it beat
+- [01:48] Cloud Code, it beat Codeex, and it
+- [01:51] positions Verdant as the most promising
+- [01:53] AI agent for actually solving real
+- [01:56] software engineering problems. And the
+- [01:58] way they did this is through multimodel
+- [02:00] orchestration, long context plus
+- [02:02] persistent memory, and automated
+- [02:05] verification, and automated code review.
+- [02:07] And like I said, there's two ways to
+- [02:09] access Verdent. You can access it
+- [02:11] through the verdant deck which is a
+- [02:13] desktop app which is a multi- aent
+- [02:15] platform that runs parallel agents
+- [02:18] asynchronously and an isolated git
+- [02:20] workree. It's perfect for async multi-
+- [02:23] project workflows. It also has context
+- [02:26] awareness like no other AI agent with
+- [02:29] MCP integration. Then you have the VS
+- [02:32] code extension. This is an AI coding
+- [02:35] agent that plans, writes, tests, and
+- [02:38] verifies code right inside your editor
+- [02:40] with production level reliability. With
+- [02:43] this extension, you have full control
+- [02:46] over your sub aents, whether you want to
+- [02:48] create your own or use built-in sub
+- [02:51] agents for specialized tasks. Think of
+- [02:53] it like client but on another level,
+- [02:56] enhanced with more capabilities. To get
+- [02:59] started, use the link in the description
+- [03:00] below. And what we're going to do is
+- [03:02] first start off with Berdent Deck, which
+- [03:04] is where we're going to download it to
+- [03:06] our operating system. You have a limited
+- [03:08] time free trial. So, this is something
+- [03:10] that you should make the most out of
+- [03:11] right now. And thanks to Verdant for
+- [03:13] actually sponsoring today's video. After
+- [03:15] installing the app, you can simply go
+- [03:17] ahead and sign up with an account. And
+- [03:19] now you have the ability to access
+- [03:21] state-of-the-art models and run them
+- [03:23] asynchronously to accomplish any sort of
+- [03:26] task. You can select the type of agent.
+- [03:29] You can select the planner agent to
+- [03:31] basically generate a fullon detailed
+- [03:33] structured plan for your agent to
+- [03:36] actually follow and execute. You can
+- [03:38] attach files. You can then add context
+- [03:40] as well to the sub agent itself or
+- [03:43] individual files or folders. And at the
+- [03:46] bottom, you can manage all your projects
+- [03:47] and tasks a little bit easier. So I've
+- [03:50] gone ahead and I have uploaded a project
+- [03:53] which is a web scraping agent that has
+- [03:55] the ability to scrape different sorts of
+- [03:58] contents off of websites. Now what I
+- [04:00] want to do is I want to prototype on a
+- [04:03] new feature with my AI agent. I want to
+- [04:06] request the AI agent of Verdant to go
+- [04:08] ahead and tackle the task of creating a
+- [04:11] CLI integrated interface. This is where
+- [04:14] I'm going to request it to create a CLI
+- [04:17] interface for my AI web scraping agent
+- [04:19] to easily interact with the agent. I can
+- [04:21] simply go ahead and send in this
+- [04:23] request. And what you can also do is you
+- [04:25] can tag specific folders like individual
+- [04:28] files or any sort of component that you
+- [04:31] want the AI agent to have reference. And
+- [04:34] what's nice is that while it's working
+- [04:36] on this component of adding the CLI
+- [04:39] interface, you can actually add in
+- [04:41] another task. So we can say see if you
+- [04:44] can find any errors in the files and fix
+- [04:49] them for me. And now what we can do is
+- [04:51] tag the overall folder itself. We can
+- [04:54] add in a couple of files. So let's just
+- [04:57] add in the main.py file itself and we
+- [04:59] can request this AI agent to see if
+- [05:02] there's any errors and have it fix it.
+- [05:04] So we're running two agents
+- [05:06] simultaneously. We have one over here
+- [05:08] building the agent CLI and then one
+- [05:10] going ahead and debugging. This is
+- [05:12] something where that will enable you to
+- [05:15] perfectly run asynchronously in multi-
+- [05:18] aent workflows within an isolated git
+- [05:20] work tree. And there we go. We have our
+- [05:23] CLI interface for our AI agent. And it
+- [05:26] has also fixed all the different errors
+- [05:28] associated with the agent itself. And
+- [05:31] there's a lot of small things that I
+- [05:33] haven't really showcased like the
+- [05:34] terminal panel is directly accessible
+- [05:37] through this application. You can
+- [05:39] minimize left panel. You can also take a
+- [05:42] look at the editor itself where you can
+- [05:44] get a log of everything like the diff
+- [05:46] changes. You can even go ahead and take
+- [05:48] a look at the overview as in the fullon
+- [05:52] log list of everything it has changed.
+- [05:54] And if we minimize this, you also have
+- [05:56] it so that you can take a look at the
+- [05:58] step changes, the diff len where you can
+- [06:00] generate a diff for whatever had
+- [06:03] happened. You can even show the code
+- [06:05] review and even commit changes that were
+- [06:08] basically generated throughout the whole
+- [06:11] process of building this agency. But
+- [06:14] moving forward, let's take a look at the
+- [06:16] autonomous VS code extension. the
+- [06:18] verdant extension within VS Code which
+- [06:20] you can install for whatever code editor
+- [06:22] you may have whether that's cursor
+- [06:24] windsurf or VS code. You can simply go
+- [06:26] ahead over to the extension store and
+- [06:29] click on install. You can trust the
+- [06:31] publisher install at your own discretion
+- [06:33] and once you have it installed it should
+- [06:35] show up within the left panel. And there
+- [06:37] we go. We have Verdant installed. Now
+- [06:40] you can go ahead and sign in with the
+- [06:42] account that you had already created.
+- [06:44] After authenticating, you can then start
+- [06:46] using the Verdant agent. You can send in
+- [06:48] any natural language prompt like you
+- [06:50] would with Klein or Root Code. So, in
+- [06:52] this case, you can paste in your prompt.
+- [06:54] I'm going to be having it requested to
+- [06:56] create a professional crypto exchange
+- [06:58] inspired by Hyperlid, adding in a lot of
+- [07:00] features. And you can switch between
+- [07:02] different modes. The agent, which is
+- [07:04] going to autonomously build it out
+- [07:06] depending on which mode you have it set.
+- [07:08] You can skip permissions, which I don't
+- [07:10] really recommend. But you can also
+- [07:12] manually accept everything and review it
+- [07:13] yourself, or you can have it on auto,
+- [07:16] but what you can do is you can switch
+- [07:18] between these different modes like the
+- [07:19] planning agent, which will create a
+- [07:21] detailed plan for the agent to execute,
+- [07:23] or you can use the chat to basically
+- [07:25] chat with your codebase. You can also
+- [07:27] attach context. You can add files or
+- [07:30] images as well as sub aents. So if you
+- [07:32] want to add in a verifier, an explorer,
+- [07:35] these are built-in sub aents by Verdant,
+- [07:37] but you can even create your own. So if
+- [07:39] you want to create your own, you can
+- [07:41] specify the sub agents task, the
+- [07:43] description, and example prompt of what
+- [07:46] it should do. And remember how I stated
+- [07:48] that they achieved a state-of-the-art
+- [07:51] Sway verified bench test score? Well,
+- [07:53] that was through the ability to
+- [07:55] customize the AI model through this
+- [07:58] preset. So they essentially have three
+- [08:00] different presets and they did this by
+- [08:03] combining the capabilities of two
+- [08:05] powerful models like GBC 5 and cloud
+- [08:07] 4.5. So you can choose different presets
+- [08:10] to achieve the task that you have
+- [08:12] requested. If it's a performance model,
+- [08:15] you can have it with maximum context and
+- [08:18] use frontier models. You can also use
+- [08:20] the balance mode which is a blend of
+- [08:23] performance and cost and efficiency mode
+- [08:25] is for fast, responsive and
+- [08:27] costefficient tasks. You can choose
+- [08:28] individual models as well. But the great
+- [08:31] thing is is that you have the ability to
+- [08:33] access all of them completely for free
+- [08:34] right now cuz you're on the free tier.
+- [08:37] And now what we can do is send in our
+- [08:38] prompt to Verdant to execute this task.
+- [08:42] This is where it's going to be able to
+- [08:43] autonomously execute it and we'll be
+- [08:45] able to see a live preview of what it's
+- [08:47] focusing on. So right now it is creating
+- [08:50] the plan and it's going to set up the
+- [08:52] project structure and you'll get a live
+- [08:53] visualization of what it's accomplishing
+- [08:58] and quite rapidly it was able to create
+- [09:00] the crypto exchange that I had requested
+- [09:02] it to build. It is end to end fully
+- [09:04] developed with the backend server the
+- [09:06] front-end application and it gives you a
+- [09:08] good comprehensive understanding as to
+- [09:11] how it did this. It also gives you a
+- [09:13] visual dashboard layout as to what it
+- [09:16] created with the components as well as a
+- [09:19] fullon guide as to how you can get
+- [09:21] started. And what I really like about
+- [09:24] this agent is that it has done a great
+- [09:25] job in creating a condensed way to
+- [09:27] easily get started where has made sure
+- [09:29] that it has added the startup to the
+- [09:32] start bat file and it will basically
+- [09:34] launch all the different back-end
+- [09:36] components front end and start up the
+- [09:38] server where I can now access the crypto
+- [09:40] exchange.
+- [09:42] So let's go ahead and create an account.
+- [09:44] And there we go. We can actually access
+- [09:47] a live preview of our crypto exchange.
+- [09:49] This looks really really good because
+- [09:51] usually whenever I tell any sort of AI
+- [09:54] agent to create this, it usually fails.
+- [09:57] But you can see that it's trying to
+- [09:58] mimic live data being outputed. You have
+- [10:01] the E chart. You also have Salana as
+- [10:03] well as ARB. So overall, you can get a
+- [10:06] good understanding of how it works and
+- [10:08] it did a really good job in creating the
+- [10:10] base structure of this app and I'm
+- [10:13] really proud to see how it did this. And
+- [10:16] to showcase this, you can see that I can
+- [10:18] place a market order which will actually
+- [10:21] showcase it being processed. And you can
+- [10:23] even have it sold at this price. Uh
+- [10:26] since we don't have a max amount, we
+- [10:28] can't really do this, but we can sell
+- [10:30] it. And you can see that it will
+- [10:32] showcase the recent orders as well as
+- [10:34] the open order that was set. But the
+- [10:36] fact that Verdant was able to fully
+- [10:39] configure the back end as well as the
+- [10:41] front end for this project quite rapidly
+- [10:43] is insane because it did a great job in
+- [10:45] building this out end to end with no
+- [10:48] errors. This is now my favorite AI
+- [10:50] coding agent due to its state-of-the-art
+- [10:52] capabilities and it's generally a next
+- [10:55] generation engineering system that
+- [10:57] treats software development like a full
+- [10:59] stack end-to-end process rather than
+- [11:01] just a series of disconnected prompts. I
+- [11:04] really love the multi- aent
+- [11:05] orchestration, the agent capabilities,
+- [11:07] as well as its code generation. It's
+- [11:10] perfect in all these different domains,
+- [11:12] which is why I really recommend that you
+- [11:14] try it out, even with the limited free
+- [11:16] trial, cuz this is something that gets
+- [11:18] you access to state-of-the-art models
+- [11:20] completely for free. But with that
+- [11:21] thought, guys, thank you guys so much
+- [11:22] for watching. I hope you enjoyed today's
+- [11:24] video and got some sort of value. I'll
+- [11:25] leave all these links in the description
+- [11:27] below, but make sure you go ahead and
+- [11:28] join the newsletter, subscribe to the
+- [11:30] second channel if you haven't already,
+- [11:32] follow me on Discord as well as Twitter,
+- [11:34] and make sure you go ahead and
+- [11:36] subscribe, turn on notification bell,
+- [11:37] like this video, and please take a look
+- [11:39] at our previous videos so that you can
+- [11:40] stay up to date with whatever is
+- [11:42] happening in the world of AI. But with
+- [11:44] that thought, guys, have an amazing day,
+- [11:45] spread positivity, and I'll see you guys
+- [11:47] fairly shortly. He suffers.

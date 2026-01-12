@@ -1,0 +1,660 @@
+---
+title: "YouTube Video: 6MCxSJd1ZPY"
+video_id: "6MCxSJd1ZPY"
+video_url: "https://www.youtube.com/watch?v=6MCxSJd1ZPY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Can AI protect you from hackers? In this video, I'll show you free AI agents for cyber security that you must have. And that's because the amount of AI powered cyber attacks is on the rise. This year ...
+key_points:
+  - "important than our physical one. Now, we"
+  - "why I put together an AI first cyber"
+  - "first thing you have to understand about"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 6MCxSJd1ZPY
+
+- URL: https://www.youtube.com/watch?v=6MCxSJd1ZPY
+- Retrieved at: 2025-12-30T09:40:48+09:00
+
+## Text
+
+- [00:00] Can AI protect you from hackers? In this
+- [00:02] video, I'll show you free AI agents for
+- [00:05] cyber security that you must have. And
+- [00:07] that's because the amount of AI powered
+- [00:09] cyber attacks is on the rise. This year
+- [00:11] alone, over 166 million individuals were
+- [00:15] affected by cyber attacks. But it only
+- [00:17] gets worse because AI powered attacks
+- [00:20] have a four time higher success rate
+- [00:22] than traditional fishing. For example,
+- [00:24] new techniques like AI voice spoofing
+- [00:26] where people can clone your voice and
+- [00:28] call your bank, call your relatives and
+- [00:30] extract money are becoming everyday
+- [00:32] occurrence. And the truth is most people
+- [00:34] have no idea how to guard against these.
+- [00:36] Also, let's be honest, for a lot of us,
+- [00:38] our digital life is slowly becoming more
+- [00:40] important than our physical one. Now, we
+- [00:42] all understand the importance of cyber
+- [00:44] security, but the truth is most people
+- [00:46] don't do anything about it. And that's
+- [00:48] why I put together an AI first cyber
+- [00:51] security course for 2026. I'll show you
+- [00:53] the free AI agents that manage my own
+- [00:55] cyber security and how to set them up.
+- [00:57] And the best part is you only set them
+- [00:59] up once and they run forever acting as
+- [01:02] your digital bodyguards in a sense. Now,
+- [01:04] just by having these free AI agents,
+- [01:05] you'll already be ahead of 99% of people
+- [01:08] when it comes to the cyber security. And
+- [01:10] no, you don't have to be a professional
+- [01:12] programmer to set these up. Now, the
+- [01:14] first thing you have to understand about
+- [01:15] cyber security is that most hacks and
+- [01:18] breaches are not some crazy hacker
+- [01:20] targeting you or some new zero day
+- [01:22] attack. It's the stupidest things,
+- [01:24] right? Such as social engineering,
+- [01:26] someone pretending to be you and calling
+- [01:28] your bank or just simple fishing links
+- [01:30] that you accidentally click. Now, this
+- [01:32] is actually good news because in order
+- [01:34] to protect yourself against most hacks,
+- [01:36] like 95% of cyber attacks, you don't
+- [01:38] need to be a cyber security
+- [01:40] professional. You just need to follow a
+- [01:41] few basic things which we will cover in
+- [01:43] this video. So pay attention. Number
+- [01:45] one, setting up authenticator apps and
+- [01:47] not SMS. SMS is not safe. A lot of you
+- [01:50] are using SMS for two-factor
+- [01:52] authentication. But what you don't
+- [01:53] realize is that people can spoof your
+- [01:55] SIM card and steal your two F8 codes
+- [01:57] relatively easily. So instead of SMS,
+- [01:59] you should use a proper authenticator
+- [02:00] app like Google off one password off.
+- [02:04] Doesn't matter. Use a proper off app,
+- [02:06] not SMS. This already makes it much more
+- [02:08] difficult to break into any accounts
+- [02:10] rather than just having a single
+- [02:11] password or password and SMS. Lesson
+- [02:14] number two is to protect yourself
+- [02:16] against fishing. Now fishing is usually
+- [02:18] fake emails or messaging pretending to
+- [02:20] be from companies that you trust. Your
+- [02:22] bank, Amazon, Microsoft to steal
+- [02:24] passwords or install malware. Now
+- [02:26] actually the way to protect against
+- [02:27] fishing is super simple and it's a
+- [02:30] 3-second thing. So anytime you see a
+- [02:32] link that is suspicious or something
+- [02:33] that's hyperl, just hover over it. Do
+- [02:35] not click right away. Hover your mouse
+- [02:37] over it and look in the bottom left of
+- [02:38] your screen to see the actual redirect
+- [02:41] URL. This will allow you to see where
+- [02:42] the link actually wants to take you. And
+- [02:44] if you think fishing attacks are a thing
+- [02:46] of the past, think again because just
+- [02:48] last week there was a huge fishing wave
+- [02:51] hitting Pi Pi maintainers. And these are
+- [02:53] actually professional developers. So
+- [02:54] these are not dummies. These guys are
+- [02:56] serious programmers and they were still
+- [02:57] compromised. What happened is that the
+- [02:59] hackers were emailing the developers and
+- [03:01] maintainers of this Python package with
+- [03:04] fake verify your email or account
+- [03:06] suspended messages. So if anything has
+- [03:09] some kind of urgency like quickly change
+- [03:11] your password or your account is about
+- [03:12] to be disabled, pay attention because
+- [03:14] it's most likely a scam. If you see a
+- [03:16] link and you are not sure if it's good
+- [03:17] or not, just paste it into Vid Total
+- [03:19] before clicking it. So, if you don't
+- [03:21] know what V total is, it's a free
+- [03:22] website that allows you to analyze
+- [03:24] files, URLs, or just search to see if
+- [03:27] something is malicious or if it's legit.
+- [03:28] But let's be honest, pasting every
+- [03:30] single link that you see into V total is
+- [03:33] a lot of manual work. And you still
+- [03:34] might sometimes miss it and click it on
+- [03:36] accident. Which is why I built an AI
+- [03:38] agent for this to automate the fishing
+- [03:40] analysis of every single email that hits
+- [03:43] your inbox. And the real beauty of this
+- [03:45] AI agent is that you set it up once and
+- [03:47] it runs forever, which makes you much
+- [03:49] less likely to fall for any fishing
+- [03:51] scams compared to the average person.
+- [03:53] All right, so let's jump into NA10 and
+- [03:55] let's look at it. Now, if you don't know
+- [03:56] what NA10 is, it's basically the
+- [03:58] simplest way to build AI agents. In
+- [04:00] fact, it's so simple that you don't have
+- [04:02] to be a programmer at all to start
+- [04:03] building. It's literally drag and drop.
+- [04:05] So, let me explain this AI agent. On the
+- [04:08] first glance, it might look complicated,
+- [04:09] but it's much simpler than you think.
+- [04:10] And we're going to start by running the
+- [04:12] full workflow. So, let me click on
+- [04:13] execute workflow. It's going to fetch an
+- [04:15] email and then run it through the whole
+- [04:17] agent analyzing it through multiple
+- [04:19] different sites. So, let's break it
+- [04:20] down. Gmail trigger, pretty
+- [04:22] self-explanatory. It runs on your email
+- [04:24] and it checks your inbox every minute to
+- [04:26] see if there's any new emails that you
+- [04:28] received that haven't been checked yet.
+- [04:30] Then, it sends the email content into
+- [04:32] this node which splits it into batches
+- [04:34] in case there is multiple URLs. Now, it
+- [04:36] seems like the AI agent has finished
+- [04:37] running. So, in a second, I'll show you
+- [04:39] the results of it. But first, let me
+- [04:41] explain this code block because this is
+- [04:43] where a lot of people get intimidated.
+- [04:44] And it's actually very simple. We just
+- [04:46] use regular expressions with a short
+- [04:48] Python script, which by the way, I got
+- [04:50] Claude to write. So you don't have to do
+- [04:51] any programming yourself. All you need
+- [04:53] to do is ask like, write me a simple
+- [04:55] script that parses raw body of a Gmail
+- [04:57] and extracts URLs using regular
+- [04:59] expressions. And even if you don't know
+- [05:00] regular expressions or what they are,
+- [05:02] you can just say, write me a simple
+- [05:03] Python script to do X, right? Just
+- [05:05] describe what you want. Claude just
+- [05:08] released Sonet 4.5 and this model is
+- [05:09] really really good. It will figure it
+- [05:11] out. So as you can see Claude gave me a
+- [05:12] simple script. So what you would do is
+- [05:14] copy it. Boom. And just paste it inside
+- [05:16] of the code block node to kind of clean
+- [05:19] it up, right? That's because then we
+- [05:20] have a if else note. This figures out if
+- [05:23] there is a URL or not because not every
+- [05:24] email that you receive is going to have
+- [05:26] some link, right? Most emails probably
+- [05:28] don't have any links. But if there is a
+- [05:30] link, you want to make sure that we run
+- [05:32] it through VUS total. So then here we
+- [05:34] have a HTTP node which sends a simple
+- [05:36] post request to the API of V total but
+- [05:39] at the same time we also check URL scan.
+- [05:42] So URL scan is a similar service where
+- [05:44] it checks the contents of the URL for
+- [05:46] any malicious files or redirects or
+- [05:49] stuff like that. Right? So even if half
+- [05:51] of this automation fails, you still get
+- [05:53] protected. So we hit both of these at
+- [05:55] the same time. Now URL scan is a bit um
+- [05:57] flaky sometimes it fails. So that's why
+- [05:59] we have this error protection and it
+- [06:01] also needs a 60-second delay, right? So
+- [06:03] we have this weight node but then we get
+- [06:05] the reports from both of these and we
+- [06:06] merge them using this node combine and
+- [06:09] then we clean the data once again. This
+- [06:11] time we use JavaScript. It doesn't
+- [06:13] really matter to be honest like you can
+- [06:14] just py for JavaScript. Again I got chbd
+- [06:17] or claw to write this super simple. And
+- [06:19] the reason we need to clean that up is
+- [06:20] because here we have the AI agent. This
+- [06:22] is the brain of the whole automation. So
+- [06:24] let's look at how the AI agent works.
+- [06:26] Right? So first of all it has AI model.
+- [06:27] We're using GPD 4 mini. This is the
+- [06:30] go-to uh cheap model for AI agents.
+- [06:33] Honestly, if you want a really powerful
+- [06:35] model, right now the set just released,
+- [06:37] so enthropic, you can change that and
+- [06:39] you can instead use enthropic models
+- [06:40] with the new cloth 4.5 set, which by the
+- [06:42] way, if you want me to make a video on
+- [06:44] that, make sure to subscribe and comment
+- [06:46] below. Sonet 4.5 and I'll make a video
+- [06:48] because this model is insane. Anyways,
+- [06:50] for cost effective reasons, GBD4 mini is
+- [06:53] a great choice. So, let's look at the
+- [06:55] system prompt because this is what
+- [06:56] matters. To be honest, this system
+- [06:58] probably is a bit advanced, so feel free
+- [06:59] to pause and take it. But basically,
+- [07:01] what we do is we pass it all of the
+- [07:03] results from V total, from URL scan. We
+- [07:05] give it the raw URL, we give it the raw
+- [07:07] email data and anything else the AI
+- [07:09] agent might need to make a decision on
+- [07:11] whether this is a safe email, whether
+- [07:13] it's, you know, on the edge or whether
+- [07:15] it is malicious. And this really is the
+- [07:17] power of AI agents because normally you
+- [07:19] would have to do, you know, some
+- [07:20] parsing, some regular expressions to
+- [07:22] figure out if there's some like keywords
+- [07:23] or some blacklist. But the AI agent can
+- [07:26] make the decision for you, right? He can
+- [07:27] take the inputs and figure out is this a
+- [07:30] suspicious email? Is this catchy? And if
+- [07:32] so, it uses this tool that send you a
+- [07:34] Gmail message. Now, if you want
+- [07:36] something else, you can do Telegram. It
+- [07:38] can DM you on Telegram. You can do
+- [07:39] Discord. You can do WhatsApp. However
+- [07:42] you want AI agent to contact you. Now,
+- [07:43] this N10 automation is already very
+- [07:46] useful, but if you think this is
+- [07:48] impressive, just wait until you see the
+- [07:50] other two AI agents. Oh, and by the way,
+- [07:52] as I promised, here's what it looks like
+- [07:53] when the AI agent sends you the email.
+- [07:56] As you can see, this one was marked as
+- [07:57] safe. Now, the biggest problem with AI
+- [07:59] agents is that they are only useful if
+- [08:02] they actually run 24/7. Because if you
+- [08:04] build an AI agent and it never runs,
+- [08:06] it's pointless. Now, the easiest way to
+- [08:08] make your AI agents run 24/7 is by
+- [08:11] hosting your own virtual private server.
+- [08:14] And believe it or not, this is much
+- [08:15] simpler than you think. The easiest way
+- [08:17] to do this is with Hostinger, which is
+- [08:19] what I use for all of my AI agents. And
+- [08:21] the reason is they have optimized their
+- [08:23] VPS for NA10. Plus, the setup is super
+- [08:27] simple. Let me show you. So, first off,
+- [08:29] to visit the Hostinger site, click the
+- [08:31] link below the video and then click on
+- [08:32] choose your plan. Now, Hostinger offers
+- [08:34] many different VPS plans, but I think
+- [08:37] the KVN2 one is perfect for most of you,
+- [08:40] and it's also the one me and my team use
+- [08:42] internally. So, click on choose plan,
+- [08:44] and this will redirect you to the
+- [08:45] checkout. here. Select the period. I
+- [08:47] recommend going 24 months because when
+- [08:49] you build your agents, you want them to
+- [08:50] be running forever. Plus, you get a
+- [08:52] really, really solid deal when you go
+- [08:54] with the 24-month plan. You even get a
+- [08:56] free domain for a year as a bonus. And
+- [08:58] since Hostinger was kind enough to
+- [09:00] sponsor this video, if you click on have
+- [09:02] coupon code and type in David, you will
+- [09:04] get another 10% off of your plan. Next,
+- [09:07] we need to select the location of our
+- [09:09] server. So, just select whatever is the
+- [09:11] closest to you. I'm going to go with
+- [09:12] France. And then we need to select the
+- [09:14] operating system. Now, since we're
+- [09:16] building AI agents in NA10, obviously
+- [09:18] we're going to select NA10 right here.
+- [09:20] And then what remains is finishing the
+- [09:21] checkout. So, click on continue. Next,
+- [09:23] we need to create an account. And this
+- [09:24] takes 20 seconds. Super simple. Now,
+- [09:26] after you sign up, you get redirected to
+- [09:28] the billing page where you fill out your
+- [09:30] name and your billing details and
+- [09:32] complete the purchase of your VPS. And
+- [09:34] once you complete the purchase, you will
+- [09:35] find your VPS server right here in your
+- [09:37] hosting panel. And you can see it's
+- [09:39] already running. So, click on manage.
+- [09:41] And here you can see all the details
+- [09:42] about your virtual private server, CPU
+- [09:44] usage, memory, outgoing traffic. This is
+- [09:46] literally enough to run hundreds of AI
+- [09:48] agents. But what we need to do is we
+- [09:49] need to click on manage app. And this
+- [09:51] will bring you to your NA10 server when
+- [09:53] you can manage all of your AI agents. So
+- [09:55] if you're serious about building AI
+- [09:56] agents, make sure to check out
+- [09:57] Hostinger. Use the link below the video.
+- [09:59] It really is the simplest way to host
+- [10:01] your AI agents. Now, the third lesson in
+- [10:04] cyber security is using multiple emails.
+- [10:07] A lot of people have a single email for
+- [10:09] everything and this is terrible. What
+- [10:11] you need to do is you need to separate
+- [10:13] your sensitive accounts like your
+- [10:15] banking, your finance, your login from
+- [10:17] the email you use for public
+- [10:19] communication. For example, you could
+- [10:21] have email for applying for jobs,
+- [10:23] sending code emails, email for banking
+- [10:25] apps, sensitive work, and so on. Now,
+- [10:28] this is already a pretty advanced setup,
+- [10:30] but just having two different email
+- [10:32] addresses, right? one for all the public
+- [10:34] facing stuff that other people have and
+- [10:36] another that's like a series of random
+- [10:38] characters that only you know that
+- [10:40] already hits the 80 to 20. The next
+- [10:42] lesson is updating your software. Now
+- [10:45] most conspiracy theories turn out to be
+- [10:46] true. But one that is not true is that
+- [10:49] companies are scheming to slow your
+- [10:51] software down and that you shouldn't
+- [10:52] upgrade. This is very dumb because most
+- [10:55] software upgrades also include some
+- [10:57] security fixes. So when there is an
+- [10:59] actual breach or some hack, software
+- [11:01] companies work day and night to fix it
+- [11:03] as soon as possible. And by having the
+- [11:05] latest update, you protect yourself
+- [11:07] against most of the known exploits. But
+- [11:09] if all of your software is running old
+- [11:11] versions, you are exposing yourself to
+- [11:13] unnecessary risk. And the solution can
+- [11:15] be as simple as enabling auto update on
+- [11:18] most of your sensitive apps. The next
+- [11:20] essential cyber security tip you need to
+- [11:22] know is email breach alerts. Now, what
+- [11:24] even are email breach alerts? They're
+- [11:27] automatic warnings when something
+- [11:29] sketchy happens with your email. Now,
+- [11:31] basically, every month there is a
+- [11:32] massive email breach of millions of
+- [11:34] accounts and you won't be notified when
+- [11:37] your email is included in these
+- [11:39] breaches. Now, of course, there are many
+- [11:40] issues if someone gains access to your
+- [11:42] email as a result of your email being
+- [11:44] included in a breach, right? They can
+- [11:46] access your banking information. They
+- [11:47] can change your passwords. They can
+- [11:49] email people on your behalf. It is a
+- [11:51] mess. And this can be much harder to
+- [11:52] detect because what if the attackers set
+- [11:54] up auto forwarding rules that you don't
+- [11:57] notice on your email? It might take you
+- [11:59] weeks or months before you notice. Now,
+- [12:01] luckily, there's a way to prevent it and
+- [12:03] that's by building an AI agent that
+- [12:05] monitors your main emails to see if they
+- [12:08] have been included in one of the recent
+- [12:09] breaches. And to do that, we're going to
+- [12:11] use the famous website, have I been
+- [12:13] pawned? This is a popular breach
+- [12:15] notification service that will notify
+- [12:17] you if your email has been compromised.
+- [12:19] Now, if you think, David, you know, I
+- [12:21] keep my email safe. I I have multiple
+- [12:23] passwords. My password is strong, right?
+- [12:25] There's 15 billion accounts that have
+- [12:28] been compromised. So, check your emails.
+- [12:30] You'll be surprised. Now, what happens
+- [12:32] when you underestimate this threat is
+- [12:33] that you can lose a lot of money. And
+- [12:35] this happens even to big companies.
+- [12:37] There was a Canadian university that
+- [12:39] lost $10 million. The part supplier to
+- [12:41] Toyota lost 37 million through a simple
+- [12:44] email scam. Now, luckily, you can
+- [12:46] prevent this with this simple AI agent.
+- [12:48] So, as you can see, there's a lot less
+- [12:51] modules or nodes here than the first
+- [12:53] one, but it's even more powerful. So, we
+- [12:56] have a schedule trigger. This runs every
+- [12:58] single day at 9:00 a.m. You can change
+- [13:00] this to run once a week if you want, but
+- [13:02] I think daily is good. And then it gets
+- [13:04] a list of your emails for Google Sheets,
+- [13:06] right? So again I recommend you having
+- [13:08] multiple emails minimum two minimum one
+- [13:10] for secure stuff and one public facing
+- [13:13] email but ideally you have a lot more
+- [13:15] than two emails and you can keep them
+- [13:17] securely in a single Google sheet which
+- [13:19] then we check each of them through have
+- [13:21] I been pawned. So again HTTP request to
+- [13:24] the API of this website with your emails
+- [13:27] being appended in a variable at the end
+- [13:29] of the URL. This means that we are
+- [13:31] regularly running all of your emails
+- [13:33] through have I been pawned. Something
+- [13:35] that most people never do or they do it
+- [13:36] like once a year. If you set this up, it
+- [13:39] checks it daily. So this is what I mean
+- [13:41] that it's going to take your cyber
+- [13:42] security to the next level. And again,
+- [13:44] the report goes to an AI agent which can
+- [13:46] decide whether something has been
+- [13:48] compromised in which case it will decide
+- [13:50] to notify you and if not all is good.
+- [13:53] You can sleep well. But as you can see
+- [13:54] it doesn't take a lot. This is like what
+- [13:56] six nodes total and it's a very powerful
+- [13:59] NA10 automation that you have to build
+- [14:01] once and it works forever. This is the
+- [14:04] beauty of AI agents. The next lesson is
+- [14:07] kind of obvious but password sharing is
+- [14:09] bad almost in all cases. Now it's one
+- [14:12] thing sharing your Netflix with your
+- [14:14] friends. It's another thing giving your
+- [14:17] phone code to your wife to your
+- [14:19] girlfriend. Those are much worse
+- [14:21] practices, right? And it's not because
+- [14:22] your girlfriend works for MSAD. It's
+- [14:24] because the more people have access to
+- [14:26] your accounts, the higher the attack
+- [14:27] vector, right? All it takes is one
+- [14:29] person to click a fishing link. And if
+- [14:31] there's five people who can access your
+- [14:33] email, it doesn't make your email five
+- [14:35] times less secure. It's more like 25
+- [14:37] times less secure. So even though it's
+- [14:39] obvious, it doesn't hurt to remind
+- [14:41] ourselves that the less password sharing
+- [14:43] you do, the less likely it is that your
+- [14:45] password gets leaked. The next lesson is
+- [14:47] uninstalling apps. That's right. Even a
+- [14:50] simple thing like this can reduce your
+- [14:51] exposure to these exploits and breaches.
+- [14:54] I mean, if there's an app on your phone
+- [14:56] or your computer that you haven't used
+- [14:58] for three plus months, just uninstall
+- [15:00] it. Okay? There's no reason to have so
+- [15:02] many apps. You also save storage, but
+- [15:04] most importantly, you reduce the attack
+- [15:06] surface of something being compromised,
+- [15:08] right? If you have 100 pieces of
+- [15:10] software on your machine, it's much more
+- [15:13] likely that one of them has some exploit
+- [15:15] than if you only have the 20 apps that
+- [15:17] you actually use. So, just try to keep
+- [15:19] your devices as clean as possible and
+- [15:21] get into habit of uninstalling an app
+- [15:24] for each new app that you install. Real
+- [15:26] quick, if you're finding this video
+- [15:27] valuable, please make sure to subscribe.
+- [15:29] It takes 2 seconds, it's completely
+- [15:31] free, and it tells me that you want to
+- [15:33] see more videos like this one. Thank
+- [15:34] you. Now, the next lesson is a bit more
+- [15:36] advanced, and that is auditing your
+- [15:38] websites, especially if you're a VIP
+- [15:40] coder. Okay? So, if you used AI to build
+- [15:42] any software in the last two years, pay
+- [15:45] attention. Now again, I build an AI
+- [15:47] agent that will do this for us, but it
+- [15:50] is very likely that your website is
+- [15:51] either not secure, it's leaking more
+- [15:53] information, it has some authentication
+- [15:54] oversight or some other security issue.
+- [15:57] You don't want hackers or bad actors to
+- [15:59] find that out. You want yourself to find
+- [16:01] it out and to fix it. So I call this AI
+- [16:04] agent the website security auditor. And
+- [16:06] basically what it does is that it
+- [16:08] regularly tries to pentest. Pentesting
+- [16:10] means penetration testing, which means
+- [16:12] checking your website for any
+- [16:13] vulnerabilities. And this is especially
+- [16:15] important if you are building a startup,
+- [16:17] right? Because not only can they hack
+- [16:19] your own accounts, they can get customer
+- [16:22] data as well. And that really is the
+- [16:23] worst case scenario. You know, just last
+- [16:26] month there was the T app which got a
+- [16:28] massive breach because it was sloppy and
+- [16:30] it left an exposed Firebase bucket that
+- [16:33] was publicly accessible to anyone with
+- [16:36] that URL. Now, if that person had this
+- [16:39] AI agent that I'm about to show you,
+- [16:41] they probably wouldn't have ruined their
+- [16:43] whole startup. So here is what the agent
+- [16:45] looks like. The trigger is a landing
+- [16:47] page URL, right? So obviously you're
+- [16:48] going to put your own website or if
+- [16:50] you're doing this for a client, maybe
+- [16:51] you can put his website. So then we take
+- [16:53] the URL and we scrape the contents of
+- [16:55] the website which we route into two
+- [16:57] different paths with two different AI
+- [16:59] agents on each path. So on the top one
+- [17:01] we have a code node which extracts the
+- [17:03] headers and sends those into our
+- [17:06] security AI agent. And this one just
+- [17:07] does a very basic analysis of any
+- [17:10] leaking metadata or issues with your
+- [17:13] headers specifically. Now the agent at
+- [17:15] the bottom is running a more powerful
+- [17:17] model like GBD5. You can also change it
+- [17:19] for you know sonet 4.5 to have one open
+- [17:21] AI and one entropic to have even more
+- [17:23] exposure. But basically these two agents
+- [17:25] look at your website at the structure of
+- [17:27] your landing page and your login page
+- [17:29] and look for potential ways that a
+- [17:30] hacker might attack your website. Now to
+- [17:32] be perfectly clear, if someone is a
+- [17:35] professional hacker and wants to hack
+- [17:36] you, you probably stand no chance,
+- [17:38] right? Because those are genius
+- [17:40] programmers. So the best thing is do not
+- [17:42] piss off any hackers. But this is just
+- [17:44] another protection that if you build a
+- [17:46] VIP coded site, having this N10
+- [17:48] automation run through it is going to
+- [17:50] decrease the likelihood of you having
+- [17:52] any obvious exploits on your landing
+- [17:54] page. All right, so let's continue. We
+- [17:56] have the merge node. Again, we merge the
+- [17:58] outputs of these two agents into a
+- [18:00] single result. We then aggregate the
+- [18:02] results. We run them through two
+- [18:03] different code nodes. This one is
+- [18:05] processing and parsing and the second
+- [18:07] one converts it to HTML. That way we can
+- [18:09] then send it through an email. Again,
+- [18:12] feel free to use something else. Slack,
+- [18:14] Discord, Telegram, whatever you want to
+- [18:16] be notified on, right? It doesn't have
+- [18:18] to be Gmail. The reason I added Gmail is
+- [18:20] because everybody has a Gmail, let's be
+- [18:21] honest. So yeah, this AI agent pretty
+- [18:23] simple even though it might look
+- [18:25] intimidating, but if you've built a AI
+- [18:28] coded website over the last 2 years,
+- [18:29] please run it through an NAN automation
+- [18:31] like this one so you don't have any
+- [18:34] sloppy security issues. Next up, if you
+- [18:37] don't already use a VPN, you probably
+- [18:38] should, right? First of all, if you live
+- [18:40] in the UK, the government just wants to
+- [18:41] track you completely, so you need a VPN
+- [18:44] just for that. Second of all, if you're
+- [18:46] using, you know, like airport Wi-Fi or
+- [18:48] McDonald's Wi-Fi, having another layer
+- [18:50] of security never hurts. So, what a VPN
+- [18:53] does is that it hides your IP address
+- [18:55] from the sites and the apps that you
+- [18:56] use, which makes it harder for attackers
+- [18:58] or governments to track where you are,
+- [19:01] where you're coming from, stuff like
+- [19:03] that. Now, a pro tip when it comes to
+- [19:05] VPNs, just please check who owns the
+- [19:08] company of your VPN because let's just
+- [19:10] say a lot of these VPN companies are
+- [19:12] owned by people like the Versell CEO and
+- [19:14] his friends. If you know, you know.
+- [19:16] Anyways, the last bonus tip is something
+- [19:19] that even Zach himself, which is a, you
+- [19:22] know, professional programmer and a
+- [19:23] multi-billionaire uses, and that is
+- [19:26] taping your ports. Right? So if you work
+- [19:28] in an office especially, a lot of
+- [19:30] monitors, a lot of displays have like
+- [19:32] USB ports behind them. You can go to the
+- [19:34] next level and do that even for a
+- [19:35] laptop, right? And the reason why you
+- [19:37] should do this is that you never know if
+- [19:38] someone inserts like a USB stick into
+- [19:41] like a hidden port in your PC in the
+- [19:44] back. It can take you months if not
+- [19:46] years to notice. Another thing is having
+- [19:48] this camera cover, right? This is
+- [19:50] something you can buy on Amazon for like
+- [19:51] $2 or $3, and it's a great thing to have
+- [19:54] for extra peace of mind. It allows you
+- [19:56] to still have your camera on your
+- [19:58] laptop. So, it's much better than just
+- [19:59] taping it. But if you aren't on a video
+- [20:02] call, just slide it over and it's
+- [20:03] covered. And obviously, physical
+- [20:05] protection is better than just hoping
+- [20:07] the software is good. So, those were 10
+- [20:09] cyber security fundamentals. Again,
+- [20:11] thank you Hostinger for sponsoring this
+- [20:12] video. If you use NA10, which you
+- [20:14] absolutely should, make sure to switch
+- [20:16] over to Hostinger. It's the most
+- [20:17] affordable solution. It's super easy to
+- [20:20] set up and with a single VPS, especially
+- [20:23] if you go with the KVM2 plan, you can
+- [20:25] run like thousands of AI agents without
+- [20:27] hitting any limits. There's no limits on
+- [20:29] workflows, no limits on executions. You
+- [20:31] have your own VPS. You can see all the
+- [20:33] stats. This is why I use Hostinger for
+- [20:35] all of my AI agents, and this is why you
+- [20:37] should use Hostinger as well. So again,
+- [20:39] use my link below the video and use the
+- [20:41] code David for another 10% off. With
+- [20:43] that being said, thank you guys for
+- [20:44] watching and have a nice rest of your
+- [20:46] day. See you.

@@ -1,0 +1,483 @@
+---
+title: "YouTube Video: 7LlQZKPBKgs"
+video_id: "7LlQZKPBKgs"
+video_url: "https://www.youtube.com/watch?v=7LlQZKPBKgs"
+speaker: "David Andre"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  My name is David Andre and in this video I'll show you how to create any NA10 workflow using cloth code. If you aren't using these tools, you're actually falling behind because I'll show you how to li...
+key_points:
+  - "programmer. So the first step is to open"
+  - "the first thing you have to do is open"
+  - "started on the first prompt. So, I'm"
+  - "it into auto accept mode. Now, the first"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 7LlQZKPBKgs
+
+- URL: https://www.youtube.com/watch?v=7LlQZKPBKgs
+- Retrieved at: 2025-12-30T09:44:27+09:00
+
+## Text
+
+- [00:00] My name is David Andre and in this video
+- [00:01] I'll show you how to create any NA10
+- [00:03] workflow using cloth code. If you aren't
+- [00:06] using these tools, you're actually
+- [00:08] falling behind because I'll show you how
+- [00:09] to literally type in plain English and
+- [00:11] get full working automations as an
+- [00:13] output. And no, you don't have to be a
+- [00:15] programmer. So the first step is to open
+- [00:17] cursor or any code editor, VS Code,
+- [00:20] doesn't matter, and open a folder. So
+- [00:21] here I prepared a folder that's
+- [00:22] basically empty except I have two prompt
+- [00:24] files which I'll show you in a bit. But
+- [00:26] the first thing you have to do is open
+- [00:28] cloud code. If you don't have cloud code
+- [00:29] installed, just run this command in any
+- [00:31] terminal. This will install cloud code
+- [00:33] on your entire machine. Just make sure
+- [00:35] you have NodeJS 18 or plus installed.
+- [00:37] That's literally all you need. So, let's
+- [00:39] jump back into cloth code and let's get
+- [00:41] started on the first prompt. So, I'm
+- [00:42] going to say build prompt number one.
+- [00:44] Complete it fully and I'm going to turn
+- [00:46] it into auto accept mode. Now, the first
+- [00:48] prompt, this is like the beginner way of
+- [00:49] how to create JSON files that then you
+- [00:51] can import into NA10. Later though, I'll
+- [00:53] show you a much better way using MCPS
+- [00:56] that creates reliable proven automations
+- [00:58] that follow the latest documentation and
+- [01:00] that cloth code can test by itself to
+- [01:02] ensure everything is correct. By the
+- [01:03] way, if you want to pause and read
+- [01:05] through the prompt, feel free to do that
+- [01:06] right now. So, basically what we're
+- [01:07] building is going to be like advanced
+- [01:09] calendar optimizer agent. Cloud code has
+- [01:12] finished writing the JSON file. Boom.
+- [01:14] So, this is the whole JSON file that we
+- [01:16] can just import into NA10 with one
+- [01:18] click. So, let me show you how to do
+- [01:19] that. So inside of your NA10, click on
+- [01:21] create workflow in the top right and
+- [01:22] then click on the three dots and then
+- [01:25] import from file. Locate the file that
+- [01:27] Cloud Code just created and boom,
+- [01:29] there's the automation. Now you can see
+- [01:30] there's multiple issues, right? Number
+- [01:32] one, these two are like not configured
+- [01:34] at all. So that is a huge fail from
+- [01:37] cloud code. Number two, this is not a
+- [01:39] tool. This is just a HTTP node inside of
+- [01:41] NA10. Basically, this automation is
+- [01:43] quite incomplete and it would still
+- [01:45] require a bunch of your time to go
+- [01:47] through it, fix it up, and correct it.
+- [01:48] So that's why I'm going to show you a
+- [01:50] much better way that uses MCPS to build
+- [01:53] full NA10 agents. So what we need to do
+- [01:55] is jump back into cursor and create a
+- [01:57] new file called MCP.json. This is going
+- [02:00] to be the list of MCPS available to
+- [02:02] cloud code. Now I found this really
+- [02:04] solid MCP for NA10. It's not official,
+- [02:07] so use it at your own risk. It is by far
+- [02:09] the easiest way to build NA10
+- [02:11] automations. Luckily, the setup here is
+- [02:12] super simple. There's literally just two
+- [02:14] steps. What you need to do is copy this
+- [02:16] command right here. npxnat mcp. Then
+- [02:19] jump back into cursor or whatever code
+- [02:21] editor you're using and then just paste
+- [02:23] this into a terminal. That's it. npx n10
+- [02:26] mcp and it will activate this mcp
+- [02:28] server. So this is the first step
+- [02:29] already done. Yes, it's that easy. So
+- [02:31] let's jump back into this GitHub repo.
+- [02:32] And by the way, I'll link this below the
+- [02:34] video as well. And the next step is
+- [02:36] copying this basic configuration.
+- [02:37] Literally just copy it. No need to
+- [02:39] change anything. And then paste it into
+- [02:41] the mcp.json file we have created a few
+- [02:44] seconds ago. Save it. command S or
+- [02:46] control S. Next, we have to create a new
+- [02:48] cloth code because if we go into the old
+- [02:50] one and we type in /mcp, it doesn't have
+- [02:52] any MCPS configured. But if we create a
+- [02:54] new cloth code, we will see that it's
+- [02:56] asking us new MCP server found in
+- [02:58] MCP.json the NA10 MCP, right? And we
+- [03:01] have three options. Use this and all
+- [03:02] future MCPS use this MCP server. So, I'm
+- [03:04] going to enter to give it approval. And
+- [03:06] then if we type in /mcp, we can see this
+- [03:09] is configured correctly. So now clot
+- [03:11] code can actually use this MCP to build
+- [03:13] the full automation for us. So I'm going
+- [03:15] to switch cloth code to auto accept mode
+- [03:17] which you can do by pressing shift tab
+- [03:19] keyboard shortcut. And then I'm going to
+- [03:21] say follow prompt number two. Build it
+- [03:25] completely. Boom. Enter. And we're going
+- [03:27] to have it running. So now cloth code is
+- [03:29] running on the second prompt using the
+- [03:31] MCP tools. And it's going to build an
+- [03:33] automation that's 10 times better
+- [03:34] because this is honestly a mess. Like
+- [03:36] this is not bad, right? It's better than
+- [03:38] nothing. But I promise once you see the
+- [03:39] output of what cloud code can do with
+- [03:41] that MCB tool, you'll be amazed. Now,
+- [03:43] while it's running, you might be
+- [03:44] thinking, okay, but David, where do you
+- [03:46] host these? Right? Because any NA10
+- [03:48] automation or agent you build has to be
+- [03:50] hosted somewhere. And personally, all of
+- [03:51] my NA10 automations or agents are hosted
+- [03:54] on Hostinger. Why? Because you get
+- [03:56] unlimited amount of workflows. So unlike
+- [03:58] other providers, they limit the amount
+- [03:59] of agents you can build. Hostinger
+- [04:01] doesn't do that. Plus, you get unlimited
+- [04:03] executions. So, if your agent needs to
+- [04:05] be running 24/7 thousands of times,
+- [04:08] that's completely fine because with
+- [04:09] Hostinger, you get a VPS server. So,
+- [04:11] this is what me and my team use to host
+- [04:13] all of our NA10 agents we built, and
+- [04:15] it's what you should use as well. So,
+- [04:16] let me show you how to set it up. If you
+- [04:18] get the KVM2 plan, which I would
+- [04:20] recommend you to get, you can literally
+- [04:21] run hundreds of AI agents on this plan,
+- [04:23] and it will cost you way less than if
+- [04:25] you used the NA10 Cloud, especially if
+- [04:27] you go with the 24 month option, which I
+- [04:29] definitely recommend you do because you
+- [04:31] want your AI agents running forever. You
+- [04:33] build them once and they save you time
+- [04:34] in perpetuity. And since Hostinger was
+- [04:36] kind enough to sponsor this video, if
+- [04:38] you use the coupon code David, you will
+- [04:40] save additional 10% off on your annual
+- [04:43] or 2-year plan. Then what remains is
+- [04:45] selecting the server location. So just
+- [04:47] select whatever is closest to you. I'm
+- [04:48] in Czech Republic, so Germany is super
+- [04:50] close. And then for the operating
+- [04:52] system, click on NA10. They literally
+- [04:54] have a one-click install template for
+- [04:55] NA10. It couldn't be any easier. So
+- [04:57] click on confirm and then click on
+- [04:59] continue and log in with your hosting
+- [05:00] account or just create one. And the last
+- [05:02] thing that remains is filling out your
+- [05:04] billing details and your credit card.
+- [05:05] I've been using Hostinger for months to
+- [05:07] host my internet agents. And it really
+- [05:09] is the simplest and most affordable way
+- [05:11] to do so. So again, make sure to check
+- [05:13] out the link description and remember to
+- [05:14] use code David to get 10% off. All
+- [05:17] right. So once you have your Hostinger
+- [05:18] VPS, go to the panel, click on home, and
+- [05:21] select manage. Here we can see how our
+- [05:23] virtual private server is running and
+- [05:25] all the usage you see about it. So this
+- [05:27] is another advantage over the N10 cloud.
+- [05:30] You can actually see this data that NAN
+- [05:32] otherwise wouldn't give you. So all we
+- [05:34] need to click is manage app and this
+- [05:36] will launch the NA10 server where we can
+- [05:38] see all of our AI agents. All right,
+- [05:39] let's jump back into cloud code and let
+- [05:41] me show you what prompt number two is.
+- [05:42] Again, feel free to pause the video and
+- [05:44] copy it for yourself, but basically it's
+- [05:46] the description of the same build idea,
+- [05:48] right? The ultimate calendar manager
+- [05:50] agent that optimizes your time to work
+- [05:52] on the highest leverage tasks to fill in
+- [05:54] the gaps in your calendar. So it
+- [05:56] describes the trigger, it describes the
+- [05:57] necessary nodes, but this time it tells
+- [05:59] it to use the MCP. So this makes it way
+- [06:02] more reliable, not even close. So as you
+- [06:04] can see, cloud code starts by using the
+- [06:06] search nodes for these nodes to get the
+- [06:08] official documentation for all of them.
+- [06:11] So I need to do yes and don't ask again.
+- [06:13] By the way, this will cause it to create
+- [06:15] a new file settings.json.local
+- [06:17] inside of the cloth folder with a list
+- [06:20] of the permissions, right? So then these
+- [06:22] commands search nodes they can run
+- [06:24] automatically. They no longer need my
+- [06:26] approval every single time that cloud
+- [06:28] code wants to run this MCP tool. Why?
+- [06:30] Because it's a safe tool, right? So
+- [06:32] again this is a new command get node
+- [06:34] essentials another safe command. So I'm
+- [06:36] going to say yes and don't ask again.
+- [06:38] And if we check the settings JSON local
+- [06:40] we can see that right here it has been
+- [06:41] updated to include this tool as well. So
+- [06:43] now if we look at how cloud core is
+- [06:45] working instead of just basically zero
+- [06:47] shorting some JSON that might work or
+- [06:49] might not work but as we saw earlier
+- [06:51] it's still you know pretty unfinished
+- [06:52] disconnected tools not good not good
+- [06:55] this is better than nothing but we can
+- [06:56] do a lot better instead of doing all
+- [06:58] that cloth code uses this MCP server to
+- [07:01] get the latest documentation on these
+- [07:02] nodes right so first it actually finds
+- [07:04] the official names of these nodes in the
+- [07:07] NA10 docs then it uses get note
+- [07:10] essential MCB tool to get the basic
+- [07:13] input and structure of these nodes to
+- [07:14] fully understand them just like an
+- [07:16] expert N10 engineer would. So then it
+- [07:18] repeats these steps for every single
+- [07:20] node in the automation to fully
+- [07:22] understand the scope of the project and
+- [07:24] only then it tries to write and update
+- [07:26] the workflow. Right? So here it found
+- [07:28] out okay we already have the JSON file
+- [07:30] but it needs significant improvements to
+- [07:32] match the requirements and it's asking
+- [07:34] if we can run the validate workflow
+- [07:36] tool. Right? So what I did here is I
+- [07:38] press escape to interrupt cloth code and
+- [07:40] tell it ignore that JSON file, create a
+- [07:41] new one because I don't want it to use
+- [07:43] any of the bad practices from the
+- [07:45] previous cloth code which created this
+- [07:47] file because this one didn't have the
+- [07:48] MCP, right? And honestly, it's a night
+- [07:50] and day difference. Giving the MCP to
+- [07:52] the cloth code makes it 10 times more
+- [07:54] reliable. All right, so it seems like
+- [07:56] the cloth code has finished running with
+- [07:58] the MCP. Everything seems to be good.
+- [08:00] Let's look at the JSON file. So this one
+- [08:02] has 500 lines while the previous one
+- [08:06] only has 385 lines. So it's already more
+- [08:08] lines. But the real test is how it
+- [08:11] actually looks in NA10. So let me create
+- [08:12] a new one. New workflow. All right. So
+- [08:14] there's a brand new empty workflow. And
+- [08:17] again go to the top right, click on the
+- [08:19] three dots, import from file, and then
+- [08:21] let's find this new one. Telegram
+- [08:23] calendar AI agent. There we go. Boom. So
+- [08:26] you can immediately see a few
+- [08:27] differences, right? So first of all, we
+- [08:29] actually have the calendar events as
+- [08:31] calendars. It's not some empty ghost
+- [08:33] blocks. If we go to the previous one, we
+- [08:34] can see that these are not even
+- [08:35] configured, right? It's complete
+- [08:37] disaster. Then the issue is that we have
+- [08:39] the message model to transcribe the
+- [08:41] voice. Instead of using this dedicated
+- [08:43] node openi transcribe voice also in the
+- [08:46] original one, the telegram trigger is
+- [08:48] not even defined. This is just a chat.
+- [08:50] This is a chat node inside of NA10. This
+- [08:51] is not the telegram trigger node. While
+- [08:53] in the new one, we can see that this is
+- [08:55] correctly the telegram trigger. So what
+- [08:57] remains is just connecting the
+- [08:58] credentials so that it can work with my
+- [09:00] own accounts. All right. So I wired up
+- [09:01] my actual credentials so that we can use
+- [09:03] it with my own accounts. Basically if
+- [09:05] you already use NA10 this will take you
+- [09:07] like 30 seconds. If you don't you need
+- [09:09] to connect whatever nodes we have right.
+- [09:10] So in this case telling trigger is the
+- [09:12] first. Then we have the Google calendar
+- [09:14] right that's a Google cloud console. I
+- [09:16] already showed that in multiple videos
+- [09:18] such as this one or this one. And
+- [09:19] basically yeah maybe your openi API key
+- [09:22] if you haven't connected that but it's
+- [09:24] really straightforward. So let me just
+- [09:25] walk you through all of it starting with
+- [09:27] the trigger. So here you need to connect
+- [09:28] your telegram account. So actually this
+- [09:30] is very easy. All you need to do is
+- [09:31] install the telegram desktop app. Open
+- [09:33] the botfather and type in / newbot. It
+- [09:36] will walk you through the steps of
+- [09:38] creating a new telegram bot which you
+- [09:39] then connect to n10. Again I've showed
+- [09:41] that in many different videos. Or if you
+- [09:43] get stuck at any point just jump back
+- [09:44] into cloudcoin and say help me connect
+- [09:47] the telegram bot into n10. Give me
+- [09:51] step-by-step instructions. Since it has
+- [09:53] the NA10 MCP tool, it basically knows
+- [09:56] all of the documentation and it can tell
+- [09:58] you exactly what to do. All right, so
+- [10:00] cloud code is generating. This is going
+- [10:01] to be very thorough instructions, by the
+- [10:03] way. Boom. There we go. Over 1,000
+- [10:05] tokens of instructions. You can honestly
+- [10:07] say, "Give me a TLDDR cuz I didn't put
+- [10:09] my signature prompt answering short."
+- [10:11] But yeah, Cloth Code knows everything
+- [10:13] basically. And it's a very powerful
+- [10:15] agent that you should use. If you get
+- [10:16] stuck at any point in this video, don't
+- [10:18] get overwhelmed. Don't panic. Just ask
+- [10:20] CL code. So here's the TDR. Step one,
+- [10:23] create bot. Yeah, I showed you that. Add
+- [10:24] the credentials, import workflow, set
+- [10:26] web hook, test. Literally, it's that
+- [10:29] simple. And again, these AI tools can
+- [10:31] help you get unstuck. So maybe you
+- [10:32] struggle with, I don't know, the
+- [10:34] calendar tool or maybe the veil MCP,
+- [10:36] which again I showed in this video. All
+- [10:39] of this cloth code can help you and do
+- [10:41] for you. Obviously, it doesn't have
+- [10:42] login to your accounts. So that's why
+- [10:44] connecting the credentials is the only
+- [10:46] step you have to do manually. But as you
+- [10:48] can see, it can build basically any
+- [10:50] automation inside of NA10. It knows all
+- [10:52] of the nodes. It knows all the tools. It
+- [10:54] knows all the triggers. It knows all the
+- [10:55] outputs. Oh, and one more thing I want
+- [10:57] to show you is the prompt system prompt
+- [10:59] for the AI agent, right? So, here it is.
+- [11:01] And this was actually written by Cloore
+- [11:02] as well. So, feel free to just take it
+- [11:04] and steal it. And yeah, so let's test it
+- [11:06] out. I'm going to execute workflow. And
+- [11:09] it's waiting for me to create an event
+- [11:10] in Telegram. So, let's jump back in. And
+- [11:13] I have this guy right here. I'm going to
+- [11:14] say find a task I can do in the next 30
+- [11:18] minutes. So you can send this from your
+- [11:20] phone. You can send this as a voice
+- [11:21] note. Boom. There it is. So it instantly
+- [11:23] uh found the message. It went into this
+- [11:26] um true false check if it's a voice
+- [11:28] message, right? If else basically. So if
+- [11:30] it's not a voice message, so it went the
+- [11:32] down route. If it was a voice message,
+- [11:34] it would download the file, transcribe
+- [11:35] it with OpenAI, and then set it manually
+- [11:38] with the set note. Now it's going to
+- [11:39] agent. The agent is using all these
+- [11:41] tools and boom, there it is. Super fast.
+- [11:43] So let me walk you through the tools
+- [11:44] real quick. The calendar ones super
+- [11:46] simple, right? Create event at Google
+- [11:47] calendar or get many events to see where
+- [11:49] the gaps are in your calendar and then
+- [11:51] create the event where the gap is. The
+- [11:53] vectoral one, this is the interesting
+- [11:54] part, right? So hopefully you guys are
+- [11:56] using vectal which is my tool for
+- [11:58] managing your tasks. And this is the
+- [12:00] most advanced AI tool. It tells you what
+- [12:02] to actually work on, right? A lot of you
+- [12:04] guys are actually working on the wrong
+- [12:05] tasks. You might have a goal but you're
+- [12:07] working on lowle leverage things. Vectal
+- [12:09] since we use the cutting edge AI models,
+- [12:10] it tells you the highest leverage task
+- [12:12] possible that you should be doing to
+- [12:14] achieve your goals. So this is why
+- [12:15] Vectal is the best task manager on Earth
+- [12:17] bar none. And that's why it pays off to
+- [12:19] sit down for 10 to 15 minutes, move all
+- [12:21] of your tasks from notion, to-d doist,
+- [12:23] ClickUp into Vectal, and just forget
+- [12:26] about these outdated task management
+- [12:27] tools because this is what the future of
+- [12:29] productivity looks like. Anyways, let's
+- [12:30] jump back into NA10. So it used the
+- [12:32] vectal tool to get a list of all of your
+- [12:34] tasks and then figure out what can I do
+- [12:37] in the next 30 minutes. as I said in the
+- [12:38] message inside of Telegram. Okay, so I
+- [12:40] have my calendar on the second screen.
+- [12:42] There is some stuff I cannot show you,
+- [12:44] but I'm going to take a screenshot.
+- [12:45] Boom. So the red line represents the
+- [12:47] current time, right? Basically now and
+- [12:50] we have all of these different tasks
+- [12:52] inside of vectal and I did a bunch of
+- [12:54] testing so ignore these but let's focus
+- [12:55] on the one that is in the next 30
+- [12:57] minutes. Right? This is the new one it
+- [12:58] created matching the prompt I sent into
+- [13:00] the some task I can do in next 30
+- [13:02] minutes. We have a bunch of bigger tasks
+- [13:04] here, but the NA10 agent figured out
+- [13:07] that out of everything else we have
+- [13:09] inside of Ectel, this task, which is a
+- [13:11] 15-minute task, can easily fit into this
+- [13:14] 30-minute window that I described. And
+- [13:15] so, that's exactly what it did. It
+- [13:16] selected this task and it added it into
+- [13:18] my Google calendar by itself. And I feel
+- [13:20] like I need to stress this again. This
+- [13:22] was built by cloth code. Like, I wasn't
+- [13:24] adding any of these mods. It wasn't like
+- [13:26] creating from scratch, building
+- [13:28] manually, slowly, and any automation,
+- [13:31] right? like we used to do six months
+- [13:33] ago. No, Cloud Code now exists, guys.
+- [13:35] And this is by far the easiest way to
+- [13:37] build NA10 agents and NA10 automations.
+- [13:39] So, forget about what anyone else is
+- [13:41] telling you. Just use the NA10 MCP with
+- [13:43] Cloud Code and start automating all of
+- [13:46] the boring and repetitive tasks that you
+- [13:47] have to do. And if you want to make sure
+- [13:49] your AI agents are running 24/7 without
+- [13:51] interruptions, make sure to get the VPS
+- [13:53] from Hostinger. This is one of the most
+- [13:55] affordable ways to host your NA10
+- [13:57] automations. It's super simple to set
+- [13:59] up. You literally saw it earlier and
+- [14:00] it's what I use and my entire team uses
+- [14:03] for everything we built on NA10. So
+- [14:05] again, it's going to be the first link
+- [14:06] below the video. Thank you Hostinger for
+- [14:07] sponsoring this video and I hopefully
+- [14:09] you guys enjoyed this tutorial. If you
+- [14:11] did, make sure to subscribe and with
+- [14:12] that being said, I wish you a wonderful
+- [14:14] productive week. See you.

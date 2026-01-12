@@ -1,0 +1,526 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=w9-gfaV5vlM"
+video_id: "w9-gfaV5vlM"
+video_url: "https://www.youtube.com/watch?v=w9-gfaV5vlM"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=w9-gfaV5vlM
+  - Retrieved at: 2025-12-30T16:37:24+09:00
+  - [00:00] If you want to make money with AI, you
+key_points:
+  - "- [00:01] need to stop selling AI agents and"
+  - "- [01:41] need to get across town, you don't care"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: w9-gfaV5vlM
+
+- URL: https://www.youtube.com/watch?v=w9-gfaV5vlM
+- Retrieved at: 2025-12-30T16:37:24+09:00
+
+## Text
+
+- [00:00] If you want to make money with AI, you
+- [00:01] need to stop selling AI agents and
+- [00:03] workflows and start selling AI
+- [00:04] solutions. And I'm not talking about AI
+- [00:06] operating systems or regular
+- [00:08] automations. I'm talking about
+- [00:09] diagnosing problems that businesses face
+- [00:11] and then using AI to solve those
+- [00:13] problems. So, in this video, I'm going
+- [00:15] to break down why selling agents isn't
+- [00:16] enough, what to sell instead that will
+- [00:18] actually make you money, and how to do
+- [00:19] it yourself step by step. So, why are
+- [00:21] you guys all here watching this video?
+- [00:23] Because AI has exploded. And with that
+- [00:24] explosion comes hype. Tons of people
+- [00:26] throwing around buzzwords like agents
+- [00:28] and workflows. And what's funny is
+- [00:30] automation has been around forever. It's
+- [00:31] nothing new. When I was working
+- [00:32] full-time at Goldman Sachs in business
+- [00:34] intelligence, automation was my entire
+- [00:36] role. And that job had existed for
+- [00:37] years. But the majority of small and
+- [00:39] mid-size businesses, hardly any
+- [00:41] automation's in place. The difference
+- [00:42] now is that because you slap the word AI
+- [00:44] in front of it, suddenly business owners
+- [00:46] are paying attention. It's like putting
+- [00:47] a neon sign on an old restaurant. The
+- [00:49] food hasn't changed. It's nothing new,
+- [00:51] but suddenly people are noticing it. And
+- [00:52] here's the thing, most beginners get
+- [00:54] this part wrong. They get caught up in
+- [00:55] the tech, the nodes, the HTTP requests,
+- [00:57] the multi- aent architectures. They're
+- [00:59] so focused on the shiny parts that it
+- [01:01] causes them to forget what actually
+- [01:02] matters to businesses. And I've
+- [01:03] definitely got carried away with this,
+- [01:04] too. In fact, my best performing YouTube
+- [01:07] videos are the ones that are really
+- [01:08] flashy and have multiple agents because
+- [01:10] it was trendy and cooler. But if you
+- [01:11] were to ask me which YouTube builds have
+- [01:13] actually been the most practical and
+- [01:15] highest ROI, it would be some of my
+- [01:16] lowest performing videos. When I sold my
+- [01:18] very first $1,200 workflow, I didn't
+- [01:20] walk in saying, "Hey, I got this build
+- [01:22] with 15 nodes and an API call to blah
+- [01:24] blah blah." I said, "This will save you
+- [01:26] hours every single week on content
+- [01:28] creation." And that's what made it a
+- [01:29] no-brainer. And here's the truth.
+- [01:31] Businesses really only care about three
+- [01:33] things: time, money, focus. That's it.
+- [01:36] They don't care if you deliver it with
+- [01:37] AI or a VA or duct tape and chewing gum.
+- [01:40] Think of it like a taxi ride. If you
+- [01:41] need to get across town, you don't care
+- [01:43] if you ride in a Prius, a Tesla, or a
+- [01:45] horsedrawn carriage. Well, I suppose
+- [01:46] some of us may, but that's beside the
+- [01:48] point. You just care that it gets you to
+- [01:49] your destination fast, cheap, and
+- [01:51] without stress. Businesses feel the same
+- [01:53] way. They don't fanboy over AI itself.
+- [01:55] They fanboy over the outcomes. That's
+- [01:57] why AIcentric selling doesn't work.
+- [01:59] Selling agents or workflows as products
+- [02:01] is already a crowded commoditized
+- [02:03] market. You've probably seen people
+- [02:04] offering entire libraries of end
+- [02:06] templates, claiming that you can resell
+- [02:08] them all for $5,000 a month. Yet,
+- [02:09] they're only charging you $200 to access
+- [02:11] that bundle of templates. Why? Because
+- [02:13] it's a race to the bottom on price. Take
+- [02:16] LinkedIn outreach bots as an example.
+- [02:18] You could build the flashiest, most
+- [02:19] complex bot out there, but if you just
+- [02:21] pitch it as a LinkedIn outreach agent,
+- [02:22] nobody's going to care that much. But
+- [02:24] when it is framed as a system that helps
+- [02:26] you generate qualified leads without
+- [02:28] spending on ads, suddenly people see the
+- [02:29] value and they want it. The shift is
+- [02:31] simple. Stop selling AI tools and start
+- [02:33] selling the outcomes of those tools.
+- [02:35] Spotlight the pain. Frame the solution
+- [02:37] around time, money, and focus. And
+- [02:38] that's how you win. And that leads us
+- [02:40] right into the next section. What should
+- [02:42] you actually be selling? AI solutions.
+- [02:44] The difference is an AI workflow is just
+- [02:46] a tool. But an AI solution is a tool
+- [02:48] that's directly tied to solving an
+- [02:50] actual business painoint. When you pitch
+- [02:51] a solution, you're not saying, "I'll
+- [02:53] build you a chatbot." You're saying,
+- [02:54] "I'll cut down your customer support
+- [02:55] workload by 60%. I'll automate your
+- [02:57] client onboarding so you save 10 hours a
+- [02:59] week." Or, "I'll help you create AI
+- [03:01] assisted content so you can slash
+- [03:02] marketing spend by 30%." And just to get
+- [03:04] it to stick, I'll throw one more
+- [03:06] terrible analogy at you guys. Think of
+- [03:07] it like medicine. If you have a
+- [03:09] headache, most people don't care whether
+- [03:10] you prescribe Advil, Tylenol, or an
+- [03:12] herbal remedy. They just care that their
+- [03:14] headache goes away. The pill is the
+- [03:15] tool. The outcome is pain relief. That's
+- [03:17] exactly how businesses see AI. So the
+- [03:19] framework we're going to be talking
+- [03:20] about today is to diagnose, then solve,
+- [03:23] then value, then price. And it's a
+- [03:25] simple process that I use every time.
+- [03:27] Diagnose means find the pain point.
+- [03:28] Where is the business leaking time,
+- [03:30] money, or focus? Solve means build the
+- [03:33] system that fixes that exact pain.
+- [03:35] Value. Translate that fix into numbers.
+- [03:37] Hours saved, dollars saved, revenue
+- [03:39] gained. And finally, price. Anchor your
+- [03:41] offer around that value. And when you
+- [03:42] think about that framework and you think
+- [03:44] about the core problem that you're
+- [03:45] trying to solve, you can see how
+- [03:46] reselling a bundle of 20 edit templates
+- [03:48] doesn't really do that. So let's take a
+- [03:50] look at an example. Automating client
+- [03:52] onboarding. First, we diagnose. Right
+- [03:53] now, your team spends 5 hours a week
+- [03:55] onboarding new clients. Then we solve.
+- [03:57] I'll build a system that can automate
+- [03:58] 80% of that. Then we turn that into
+- [04:00] value, which is 200 plus hours saved a
+- [04:02] year at $50 an hour. That's $10,000 back
+- [04:05] in your pocket annually. And then you
+- [04:07] price, I'm saving you 10K a year. I'm
+- [04:09] only going to charge you 3K right now.
+- [04:11] Suddenly, the price isn't a cost. It's
+- [04:13] now just a fraction of the value that
+- [04:14] they're gaining. Here comes another
+- [04:16] analogy. Think of it like a home
+- [04:17] renovation. If you're a contractor and
+- [04:18] you walk into someone's house and you
+- [04:20] say, "I've got the best hammer. I've got
+- [04:21] the strongest nails, the fanciest saws,
+- [04:23] blah blah blah." Nobody cares. But if
+- [04:25] you say, "This remodel will increase
+- [04:27] your home's value by $50,000, and we can
+- [04:29] do it in half the time of other
+- [04:31] contractors." Now, you've got their
+- [04:32] attention. The hammer doesn't matter.
+- [04:34] The results do. This is why when I'm on
+- [04:36] calls, I don't lead with, "Let me show
+- [04:38] you my workflow." I lead with questions.
+- [04:40] Where are you losing the most time in
+- [04:41] your business? What processes do you
+- [04:43] wish could run themselves? Because the
+- [04:45] diagnosis always points me to the
+- [04:47] solution. And the solution always ties
+- [04:48] back to measurable business value. And
+- [04:50] when you get good at this, you stop
+- [04:52] being just another automation
+- [04:53] freelancer. You become the person who
+- [04:55] can look at a business, spot
+- [04:56] inefficiencies, and design solutions
+- [04:58] that save them time, money, and focus.
+- [05:00] That's the shift from becoming an agent
+- [05:02] seller to a solution seller and being
+- [05:04] seen as an AI expert or an AI partner.
+- [05:06] So, you know why selling AI doesn't work
+- [05:08] and that you need to sell AI solutions,
+- [05:09] but how do you actually do this for
+- [05:10] yourself step by step? That's what we're
+- [05:12] going to cover now in a few simple
+- [05:13] steps. And remember, we're going to tie
+- [05:15] everything back to that same framework
+- [05:16] that we just talked about, diagnose,
+- [05:18] solve, value, price. Okay, so step one,
+- [05:21] pick a niche and diagnose the landscape.
+- [05:23] The goal here is simple. Choose one
+- [05:25] group so that problems repeat and your
+- [05:26] wins compound. Spend 10 minutes deciding
+- [05:28] whether you'll serve agencies, real
+- [05:30] estate, e-commerce, coaches, local
+- [05:32] services like dental or HVAC, SAS
+- [05:35] startups, whatever you want it to be.
+- [05:36] Run your pick through these quick
+- [05:38] filters. Do they repeat processes
+- [05:39] weekly? Can they say yes and pay fast?
+- [05:41] And do you already speak their language
+- [05:43] through content you've made or past work
+- [05:45] or interests? When you think about
+- [05:46] repeatable pains, picture agencies
+- [05:48] struggling with lead qualification,
+- [05:49] client onboarding, reporting, and
+- [05:51] content ops. Real estate teams juggling
+- [05:53] inbound lead triage, showing
+- [05:55] coordination, and document collection.
+- [05:57] e-commerce brands needing CX ticket
+- [05:58] deflection, returns automation, product
+- [06:01] content, and ops reporting, or coaches
+- [06:02] begging for application filtering,
+- [06:04] calendar triage, and content
+- [06:05] repurposing. The outcome of this step is
+- [06:07] just to have a short list of niches that
+- [06:09] you're confident enough to carry into
+- [06:11] this next step. Step two, talk to five
+- [06:13] to 10 businesses and diagnose pain.
+- [06:15] Treat these as informational interviews
+- [06:16] that could often turn into discovery
+- [06:18] calls and paid work. I like opening with
+- [06:20] a simple message. Hey, name, I'm mapping
+- [06:22] the top drains in X niche. In 15
+- [06:24] minutes, I'll try to quantify your
+- [06:26] biggest bottleneck and share where AI
+- [06:28] actually helps and where it doesn't. No
+- [06:29] pitch unless you ask. I'm genuinely just
+- [06:31] trying to learn how I can provide value
+- [06:33] to businesses. On the call, I would then
+- [06:35] use the LRP framework, the listen,
+- [06:38] repeat, poke. This basically means that
+- [06:39] I listen while they describe their week
+- [06:41] or their processes. I repeat back the
+- [06:42] pattern to confirm alignment and then I
+- [06:44] poke to quantify it. So, let's say the
+- [06:46] business owner is talking to me about
+- [06:47] some onboarding and reporting flows and
+- [06:49] I find out that it eats about 6 to 8
+- [06:51] hours a week. I would then poke back
+- [06:52] with a question like whose hours are
+- [06:54] those? What's their hourly value? How
+- [06:55] often does this process result in an
+- [06:57] error? You could also talk about money.
+- [06:58] Where are you paying people to copy and
+- [07:00] paste or chase info? You could talk
+- [07:01] about focus. What interrupts you the
+- [07:03] most between 9 and noon? You can talk
+- [07:05] about errors. Where do mistakes cause
+- [07:06] rework, refunds, or churn? And finally,
+- [07:08] you could talk about a trigger. If I
+- [07:10] could remove one weekly fire, which one
+- [07:12] changes your week? The outcome of this
+- [07:14] step is to have a ranked list of actual
+- [07:15] business pain points with rough numbers
+- [07:17] associated with them. Those numbers
+- [07:18] being hours, cost, frequency, mistake
+- [07:21] rate, stuff like that. We can then take
+- [07:23] that list and move into step three,
+- [07:25] which is building one simple solution
+- [07:27] and solve. Once you've diagnosed a clear
+- [07:29] problem, prototype the fix. And notice
+- [07:30] how I just said prototype. This doesn't
+- [07:32] have to be a perfect production ready
+- [07:34] system. It's a P or a proof of concept
+- [07:36] that shows that you understand their
+- [07:38] world and it proves your technical
+- [07:39] expertise. This doesn't mean you have to
+- [07:41] dedicate an entire week to it. Here's
+- [07:42] how you could spend one up in an hour
+- [07:44] and a half. Spend about 15 minutes
+- [07:45] drawing the flow. Now that you
+- [07:46] understand the process, just map out the
+- [07:48] trigger, the steps, the data sources,
+- [07:50] the outputs, and a clear definition of
+- [07:52] done. Spend the next hour doing a rough
+- [07:54] build on one platform like Nitn so you
+- [07:56] have something real to click through and
+- [07:58] demo. And then finally, use the last 15
+- [07:59] minutes to record a quick 3minute loom
+- [08:02] that walks through the before, the
+- [08:04] actual solution itself, and then the
+- [08:06] result. And make sure you have your
+- [08:07] camera on because people want to hire
+- [08:08] people, not faceless screens. This is
+- [08:10] exactly why my not so fancy LinkedIn
+- [08:12] workflow felt like magic to that first
+- [08:14] client because it removed the pain of
+- [08:15] ideiation, research, and writing. And it
+- [08:17] didn't need to be super fancy to do
+- [08:19] that. So avoid the classic traps. Don't
+- [08:21] drift into multi- aent fantasies. Don't
+- [08:23] stitch together five vendors just to try
+- [08:25] them. And don't start building a
+- [08:26] platform when the job is just to fix
+- [08:28] Tuesday's bottleneck. Just try to take a
+- [08:30] step back and think about the actual
+- [08:31] problem you're trying to solve. Because
+- [08:32] a lot of times you may not even need
+- [08:34] like a very custom nen agent. Sometimes
+- [08:36] there's already a platform out there or
+- [08:38] sometimes you can do it already
+- [08:39] naturally in someone's CRM. Don't
+- [08:41] overengineer. Just be resourceful and
+- [08:43] solve problems. The outcome of this step
+- [08:45] is that you now have a demo video that
+- [08:46] you can send to some of your other
+- [08:48] nurtured leads to show them how you can
+- [08:50] solve their specific pain points. Next
+- [08:51] is step four, which can trip up a lot of
+- [08:53] beginners. This is turning your solution
+- [08:55] into a price. And the easiest way to do
+- [08:57] that is to translate what you built into
+- [08:59] plain math that a business owner can
+- [09:00] understand and relate to. Here's how I
+- [09:02] explain it on calls. First, you have to
+- [09:04] figure out how much time the process
+- [09:05] takes today. Hopefully, you already did
+- [09:07] that earlier in step two. Let's say a
+- [09:08] team spends 10 hours a week on client
+- [09:10] onboarding. Then ask what those hours
+- [09:12] are worth. If the average employee is
+- [09:13] paid $25 an hour, that's $250 a week.
+- [09:16] Multiply that by 4 weeks to get a month
+- [09:18] and suddenly the process is costing the
+- [09:20] business around $1,000 a month or
+- [09:22] $12,000 annually. Now, let's say you're
+- [09:24] only able to automate 60% of that
+- [09:26] workload. That's still $600 saved every
+- [09:28] single month. Over the course of a year,
+- [09:29] that's more than $7,000 back in that
+- [09:31] business owner's pocket. So, when you
+- [09:33] turn around and say, "Hey, I'm only
+- [09:34] going to charge you $3,000 for the
+- [09:35] solution." It's not an expense anymore.
+- [09:37] It's an investment that has a very
+- [09:39] clear, measurable return that already
+- [09:40] pays for itself in 5 months, and then
+- [09:42] keep saving more money every single
+- [09:44] month after that. And that's how you
+- [09:45] make it a no-brainer. And of course, you
+- [09:46] have to remember that value doesn't
+- [09:48] equal time. The client's not paying you
+- [09:50] for how long it took. When I built my
+- [09:51] very first workflow for $1,200, it only
+- [09:53] took me about 2 hours, which is $600 an
+- [09:55] hour, which is a crazy rate. But once
+- [09:57] again, the client wasn't paying me for
+- [09:58] the hours. they were paying for the
+- [10:00] outcome, which was saving them hours of
+- [10:02] content creation every week. Finally,
+- [10:04] make sure to keep your scope clear and
+- [10:06] simple. Write down the objective, what's
+- [10:08] included, what's not included, the
+- [10:10] timeline, what's expected from the
+- [10:12] client, the payment terms, stuff like
+- [10:14] that. This avoids confusion, ambiguity.
+- [10:16] It protects you from scope creep, and it
+- [10:17] makes you look professional. The number
+- [10:19] one biggest mistake that I made when I
+- [10:21] was starting off was underscoping and
+- [10:23] then having to deal with all of this
+- [10:24] ambiguity. So if you can make your
+- [10:25] proposals as specific as possible and
+- [10:27] saying these 10 things are the exact
+- [10:29] functionality of the system, this is
+- [10:31] exactly the definition of done. Then
+- [10:33] you're really going to be protecting
+- [10:34] yourself and thanking yourself later. So
+- [10:36] to recap, the formula is dead simple.
+- [10:38] Figure out how much time and money the
+- [10:39] process is costing. Now build a PC and
+- [10:41] show how your solution cuts down that
+- [10:43] time and money and then price your
+- [10:44] project at a fraction of those yearly
+- [10:46] savings. Businesses will pay happily
+- [10:48] when that math makes sense. All right,
+- [10:49] moving on to step five, which is to
+- [10:51] stack proof, build confidence, and then
+- [10:53] scale. I'm gonna be honest real quick.
+- [10:55] When you're starting, imposter syndrome
+- [10:56] is normal. You're going to wonder if you
+- [10:58] can deliver and whether the client will
+- [10:59] be happy. I felt the exact same way when
+- [11:01] I started working with clients. I wasn't
+- [11:02] even calling myself an expert. I was
+- [11:04] just curious, building for fun, sharing
+- [11:06] things online, and clients started
+- [11:07] reaching out. At this stage, I would
+- [11:09] have been happy to do work for free just
+- [11:11] to get experience. And the fact that I
+- [11:12] was getting paid was a big bonus. And if
+- [11:14] you're stuck with that worry, you have
+- [11:15] two great options. The first one is to
+- [11:17] do free or very cheap work in exchange
+- [11:19] for proof. Say, "Hey, I'll try this
+- [11:21] build out for you for free. Either way,
+- [11:23] the system will be yours. I just want to
+- [11:24] see if I can help create something
+- [11:26] valuable for you in your business. This
+- [11:27] removes pressure and lets you optimize
+- [11:29] for reps, not money, which is exactly
+- [11:31] what you should be doing when you're
+- [11:32] starting off because the testimonials
+- [11:33] and case studies and confidence that
+- [11:35] you're going to gain are worth far more
+- [11:36] downstream than a quick $1,200 today.
+- [11:38] And those first three to five projects
+- [11:40] really should be just thought of as paid
+- [11:42] practice. They exist to teach you the
+- [11:43] process, give you those case studies,
+- [11:45] and provide proof. Your other option is
+- [11:47] if you'd rather not do it for free, just
+- [11:48] offer a money back guarantee. say, "Hey,
+- [11:50] if you're not happy with it when I
+- [11:52] deliver it, or it doesn't deliver the
+- [11:53] value that we discussed, you'll get all
+- [11:55] your money back." That flips the risk,
+- [11:56] creates a stress-free environment for
+- [11:58] you to learn and experiment, and still
+- [11:59] gives the client a fair outcome. This
+- [12:01] matters because in the early days, once
+- [12:02] again, you're optimizing for experience,
+- [12:04] proof, reps, not money. And once you
+- [12:06] have all that confidence, you can
+- [12:08] actually move from being a freelancer to
+- [12:09] a consultant and eventually get larger
+- [12:11] and larger builds and larger and larger
+- [12:13] contracts. Over the past year, we've
+- [12:15] been working on projects that have
+- [12:16] ranged anywhere from $1 to $2,000 all
+- [12:18] the way up to $30,000 plus. And none of
+- [12:20] that would have happened without the low
+- [12:22] stakes project that built up my
+- [12:23] confidence and portfolio, which let me
+- [12:25] comfortably charge more and more every
+- [12:27] time we scoped out builds. And honestly,
+- [12:28] I still think a lot of our projects
+- [12:30] we've undercharged, but that's a
+- [12:31] conversation for another time. Anyways,
+- [12:33] once you have those first wins under
+- [12:34] your belt, make sure you're collecting
+- [12:36] that baseline and after data. So, your
+- [12:38] hours saved, your errors reduced, your
+- [12:40] money saved, and then turn them into
+- [12:41] simple case studies. Of course, you want
+- [12:43] to ask for testimonials and referrals
+- [12:45] and then rerun the framework with new
+- [12:46] prospects. But now that you have proof
+- [12:48] in hand, it's going to be a lot easier
+- [12:50] because at that point, you're no longer
+- [12:51] saying, "I think I can help you." You're
+- [12:53] saying, "I've already helped three
+- [12:54] businesses just like yours. Here's the
+- [12:56] proof. Here's the results. Do you want
+- [12:58] me to do the same for you?" And that's
+- [12:59] when the imposttor syndrome fades
+- [13:01] because the market is actually
+- [13:02] validating that what you're doing is
+- [13:03] working. And that's pretty much the full
+- [13:05] loop. Diagnose the problem, solve it
+- [13:06] with a simple system, tie it back to
+- [13:08] business value, and then price
+- [13:09] accordingly. From there, you stack up
+- [13:11] your proof until you can scale with
+- [13:12] confidence. If you want to succeed at
+- [13:14] selling AI, you've got to leave your
+- [13:16] obsession for technology behind and
+- [13:17] think purely about the customer, aka the
+- [13:20] business that you're selling to. So, I
+- [13:21] know that was a lot of information.
+- [13:22] Tried to make this one as valuable as
+- [13:24] possible. What I'm going to do is have
+- [13:25] all of this condensed into a resource
+- [13:27] that you guys can access and look at
+- [13:28] later. I will put that in my free school
+- [13:30] community. Once again, completely free.
+- [13:32] The link for that will be down in the
+- [13:33] description. And if you found this video
+- [13:34] helpful and you're looking for a full
+- [13:36] course pretty much just like this, then
+- [13:37] check out my plus community. The link
+- [13:39] for that's also down in the description.
+- [13:40] We just dropped a full course in there
+- [13:42] called One Person AI Agency. So, you'll
+- [13:43] be able to get a formal course material
+- [13:45] that goes over starting your oneperson
+- [13:46] AI agency from scratch. And the great
+- [13:49] thing about that community is we have
+- [13:50] over 2,000 other people who are also
+- [13:52] trying to do that exact same thing. So,
+- [13:53] it's a great space to meet people,
+- [13:54] potentially a business partner, and
+- [13:56] maybe even make a few hires in there or
+- [13:58] pick up your first couple gigs. So, if
+- [13:59] you enjoyed the video or you learned
+- [14:00] something new, please give it a like.
+- [14:02] Definitely helps me out a ton. And as
+- [14:03] always, I appreciate you guys making it
+- [14:04] to the end of the video. I'll see you
+- [14:06] all in the next one. Thanks guys.

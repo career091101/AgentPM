@@ -1,0 +1,1469 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=lqokpIme47A"
+video_id: "lqokpIme47A"
+video_url: "https://www.youtube.com/watch?v=lqokpIme47A"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=lqokpIme47A
+  - Retrieved at: 2025-12-30T16:08:50+09:00
+  - [00:00] In the last seven days, we've signed the
+key_points:
+  - "- [00:18] logically makes sense, you should"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: lqokpIme47A
+
+- URL: https://www.youtube.com/watch?v=lqokpIme47A
+- Retrieved at: 2025-12-30T16:08:50+09:00
+
+## Text
+
+- [00:00] In the last seven days, we've signed the
+- [00:02] same number of contracts as we signed in
+- [00:03] the whole of Q4. There is clear tangible
+- [00:06] value being driven by these products,
+- [00:07] and it's only going to get better and
+- [00:09] quickly.
+- [00:10] >> Ultimately, you've got to be very
+- [00:12] passionate about what you're building.
+- [00:14] You've got to have that perseverance.
+- [00:15] And if that sounds good to you, then
+- [00:16] then build a startup. If something
+- [00:18] logically makes sense, you should
+- [00:20] probably continue doing that thing,
+- [00:22] right? And not let anything stop you.
+- [00:25] And I think like the consistency that
+- [00:26] we've noticed of founders that we've
+- [00:28] some of that we've invested in or work
+- [00:30] with is like the ones that kind of do
+- [00:32] that and really persevere tend to win.
+- [00:35] [Music]
+- [00:39] Today we're here with Arie and Chaz
+- [00:41] Englander. Uh they are the founders of
+- [00:43] Model ML uh from Winter 24. Uh prior to
+- [00:46] Model ML they started two other YC
+- [00:48] companies that both were successful and
+- [00:50] sold, Fancy and Fat Llama. And this is
+- [00:53] probably the first time I've worked with
+- [00:54] a company where both of the founders had
+- [00:56] had a previous successful uh YC company
+- [00:58] before. So I'm super excited to welcome
+- [01:00] Chassen Arie here to YC. Uh welcome
+- [01:03] back.
+- [01:03] >> Thanks for having us.
+- [01:04] >> Thanks very much.
+- [01:04] >> Thanks for having us.
+- [01:05] >> Tell us what you guys are building.
+- [01:07] >> So Monal is an AI workspace for
+- [01:10] financial services. So that's our
+- [01:11] oneliner. What that actually means in
+- [01:13] practice is we've so we built a
+- [01:15] workspace that's akin to kind of the
+- [01:17] office suite. our own version of Word,
+- [01:20] PowerPoint, and Excel with the major
+- [01:22] difference that it's built on top of an
+- [01:24] agentic system that kind of mirrors what
+- [01:26] a human has access to at the firms we
+- [01:29] work with. So quite specifically, if
+- [01:31] you're a human at firm X, right, you
+- [01:34] will have access to your files and
+- [01:36] folder systems, your emails, your CRM,
+- [01:39] any data vendors that you might used and
+- [01:41] pay for, uh, real-time publicly
+- [01:43] available information, public filings,
+- [01:45] your internal custom data sets, etc.
+- [01:47] Right? So then we kind of build this, we
+- [01:49] call it a cognitive architecture. It's a
+- [01:50] fancy word of saying, you know, kind of
+- [01:52] like a brain that mimics what you have
+- [01:54] access to digitally digitally. um uh and
+- [01:58] we overlay that with our user interface.
+- [02:00] Um the general idea being well, if you
+- [02:02] had an Excel spreadsheet that was
+- [02:04] already connected into those data
+- [02:05] sources, you'd probably spend less time
+- [02:07] going and gathering information and
+- [02:09] analyzing it.
+- [02:10] >> I can tell that you guys are excited
+- [02:11] about how things are going right now.
+- [02:13] Would you put some words on how how
+- [02:14] things are going?
+- [02:15] >> Vertical.
+- [02:17] >> Uh look, I mean, in the last seven days,
+- [02:20] we've signed the same number of
+- [02:22] contracts as we signed in the whole of
+- [02:23] Q4.
+- [02:24] >> Wow. And
+- [02:25] >> congratulations. Thanks very much. And I
+- [02:26] think it's it's really just the turning
+- [02:29] point I think in the sector whereas as
+- [02:31] we keep saying it's like there is clear
+- [02:33] um tangible value being driven by these
+- [02:36] products and it's only going to get
+- [02:37] better and quickly.
+- [02:39] >> What were people using MML using before?
+- [02:41] What were their tools that they were
+- [02:43] using in the daily daily work?
+- [02:45] >> So they would have their um data sets uh
+- [02:48] and then they would they would spend a
+- [02:50] lot of time in the office suite or in
+- [02:51] Outlook, right? Um, and you know what
+- [02:54] that meant was, you know, a lot of that
+- [02:56] process is super manual and super
+- [02:58] repetitive. You know, I think, you know,
+- [03:00] the key here is we're definitely not
+- [03:02] saying that humans should like never do
+- [03:03] these tasks, but you know, if you're
+- [03:05] organizing logos in a PowerPoint
+- [03:07] presentation and you've done that
+- [03:09] hundreds of times before,
+- [03:11] >> uh, and you're a very well educated, you
+- [03:13] know, analyst or associate, it's
+- [03:15] probably not a great use of your time,
+- [03:17] >> right? And I remember from I think maybe
+- [03:18] from our interview or sometime on the
+- [03:20] first office hour you had a unique story
+- [03:21] on why you wanted to solve this problem.
+- [03:23] Remember what that was?
+- [03:24] >> Yeah. So we um so we sold our first two
+- [03:28] companies and um after we sold our
+- [03:31] second company we did a bunch of kind of
+- [03:33] investing ourselves which I think on the
+- [03:35] whole we were pretty bad at. But we
+- [03:37] became very interested in automating as
+- [03:40] much of those processes as you possibly
+- [03:42] could, right? And so it it started
+- [03:45] whereby we we literally were um when we
+- [03:48] would receive an opportunity via email
+- [03:50] and having sold a company you kind of
+- [03:51] tend to receive a bunch of opportunities
+- [03:53] every day. It would then enter into this
+- [03:55] like a genensic system that to be honest
+- [03:57] we were just building for fun um and
+- [04:00] kind of produce like a one pager for us.
+- [04:02] But the interesting thing about the one
+- [04:03] pager is whilst you know we received
+- [04:06] some information via email what was in
+- [04:07] the one page probably 90% of that
+- [04:09] information was unrelated to what we
+- [04:11] would have received via email. In other
+- [04:12] words, you know, let's say we got an
+- [04:14] opportunity to invest in a startup,
+- [04:15] right? This thing would go off and look
+- [04:17] at their LinkedIn and their background
+- [04:19] and then look at like comparable
+- [04:20] companies on Crunchb or S&P and so on
+- [04:23] and kind of produce this one pager that
+- [04:25] you would probably go and do as a human
+- [04:27] as your first port of call, you know,
+- [04:28] little things like if it was a consumer
+- [04:30] company, it would go and look at review
+- [04:32] websites just as an example. Um and
+- [04:35] yeah, we thought it was pretty cool and
+- [04:36] then people became interested in it and
+- [04:38] then we kind of agreed that we were
+- [04:40] quite bad investors and uh okay at
+- [04:43] building stuff. Um and that's how it
+- [04:45] started
+- [04:46] >> and that then turned into you selling
+- [04:48] this product or new version of that
+- [04:50] product to the top financial firms in
+- [04:52] the world basically.
+- [04:53] >> Yeah. So um you know we can say now that
+- [04:56] we're about 10% of the largest private
+- [04:59] equity firms and investment banks in the
+- [05:01] world use our product.
+- [05:02] um you know we have other customers
+- [05:04] asset managers sovereign wealth funds um
+- [05:07] you know a bunch of venture firms but
+- [05:09] yeah it's pretty it's been pretty
+- [05:10] exciting
+- [05:11] >> and how would they do how would they
+- [05:13] doing their work before before you start
+- [05:14] using model ML
+- [05:15] >> so as crazy as it sounds now right so
+- [05:18] let me use an example whereby
+- [05:20] um let's say you're you're tracking a
+- [05:23] public company right and every quarter
+- [05:26] or every time there's a release um maybe
+- [05:29] as part of your job as an analyst or
+- [05:30] associate you'll go to uh the release
+- [05:33] the filings and you'll put together
+- [05:35] what's called an earning summary. So
+- [05:36] think about it like a beautifully
+- [05:38] present like a slide effectively a
+- [05:39] single slide with a bunch of information
+- [05:41] but all that information is coming from
+- [05:43] the same piece of information. So for
+- [05:44] example you might always get certain
+- [05:47] numbers from the filing itself. You
+- [05:49] might get other numbers like consensus
+- [05:50] or similar from a fact set and so on and
+- [05:52] they're put into these slides
+- [05:54] >> and these things take ages. We're
+- [05:56] talking probably like days you company
+- [05:58] just to pull together these slides,
+- [06:00] right? because everything has to be
+- [06:01] linked back to source and checked and so
+- [06:03] on. And what you can do in model is so
+- [06:04] think of model as you know being used as
+- [06:07] the building blocks for this. So you
+- [06:08] have an Excel spreadsheet that's already
+- [06:10] connected into these data sources and
+- [06:12] you might want to export that into your
+- [06:14] designs, right? And so rather than
+- [06:17] having to go and gather that information
+- [06:19] once that release happens, this one
+- [06:22] pager effectively was actually three
+- [06:23] pages, a cover page, your main page, and
+- [06:24] a legal page just appears in your
+- [06:27] SharePoint or Google Drive, right? And
+- [06:30] it's kind of 90 95% of the way there.
+- [06:32] >> Wow. Um and we think in some cases more
+- [06:34] accurate because actually trolling
+- [06:36] through these filings as a human uh and
+- [06:39] as because you can also pull from
+- [06:40] multiple data sets for the same figure.
+- [06:42] Y
+- [06:42] >> yeah can be more accurate.
+- [06:44] >> I'm assuming that you were you built
+- [06:46] something in the beginning and there was
+- [06:47] a model that was could do some amount of
+- [06:49] this work because you did YC how long
+- [06:51] ago?
+- [06:51] >> A year ago.
+- [06:52] >> A year ago. So the models have probably
+- [06:54] progressed a lot in that year. What were
+- [06:55] things the models could do a year ago
+- [06:57] that were impressive and what can they
+- [06:59] do today and where are they going to be
+- [07:00] able to do in the future? the whole
+- [07:02] industry or the industry we're in right
+- [07:03] now.
+- [07:04] >> Yeah.
+- [07:04] >> Um really from January
+- [07:07] >> is going straight line up. And I think
+- [07:09] the main difference that we've seen this
+- [07:10] year versus last year is last year was a
+- [07:13] year of testing, right? So everyone
+- [07:15] wanted to make sure they had some sort
+- [07:17] of exposure like as in they were they
+- [07:19] were triing something or looking into
+- [07:20] something but it was still testing,
+- [07:22] right? And us having ran consumer
+- [07:24] companies, we don't really care about
+- [07:27] revenue figures. We've always been
+- [07:28] obsessed with like usage and retention.
+- [07:30] >> Right. Right. That's good. That's good.
+- [07:32] That's that the most valuable thing you
+- [07:34] want to bring into B2B. Like B2B people
+- [07:35] don't always know the most important
+- [07:37] stuff.
+- [07:37] >> We which we think is is madness. But
+- [07:40] this year everyone kind of the whole
+- [07:42] world went from testing to using. So
+- [07:44] there and there was a fundamental shift.
+- [07:46] I think these agentic systems there was
+- [07:48] small things like the improvement in
+- [07:49] things like function calling uh with
+- [07:51] some of the newer models but everything
+- [07:52] has become considerably better by
+- [07:55] itself. And that's the interesting
+- [07:56] thing, right? It's like I think
+- [07:58] >> even if we do nothing,
+- [08:00] >> theoretically our product will improve,
+- [08:02] which is a pretty interesting world to
+- [08:03] be in, right? Um and so when you're
+- [08:05] constantly working on something and
+- [08:07] you're you're pushing the boundaries,
+- [08:08] you know, month to month, what what's
+- [08:10] possible is like just wasn't possible
+- [08:11] the previous month.
+- [08:12] >> I also think the uh the vision models.
+- [08:15] >> Yeah. I mean, when they first started
+- [08:17] coming out and and improving and we were
+- [08:19] sitting next to each other, we were
+- [08:20] going crazy, weren't we? It was like the
+- [08:22] stuff that we could do with the vision
+- [08:24] models. If you think analyzing files as
+- [08:26] an example, you know, OCR, okay, was
+- [08:29] amazing. You combine that with vision
+- [08:31] and its ability to uh read information
+- [08:34] from tables and charts, it really just
+- [08:36] changed the game.
+- [08:37] >> Yeah. And also I think it's a
+- [08:39] misconception, right? So like I think
+- [08:40] the industry still thinks that AI um or
+- [08:44] a large proportion of it is is kind of
+- [08:45] where it was even 6 months or so ago,
+- [08:47] right? You know what we're seeing today
+- [08:50] is, you know, if you look at some of
+- [08:52] these data providers, they've got humans
+- [08:54] reading information from say public
+- [08:56] filings and putting that in structured
+- [08:57] format. Um, you know, the bulk of the
+- [09:00] work that we're doing, what we're seeing
+- [09:01] is models are already more accurate than
+- [09:03] humans in those sorts of tasks. And so
+- [09:06] uh I think that will take a little bit
+- [09:08] of time in terms of confidence but but I
+- [09:10] but I think some of the the more lower
+- [09:12] level more kind of data gathering and
+- [09:14] presenting type tasks are fully already
+- [09:16] being automated at the top firms.
+- [09:17] >> This is interesting. This I'll tell you
+- [09:19] like they at YC the evolution went
+- [09:21] through at the same time. So two years
+- [09:23] ago we would say oh you can't really
+- [09:25] sell software to investment banks or
+- [09:26] private equity funds. they don't really
+- [09:27] buy software or if they do they buy one
+- [09:30] piece of software every 10 years and the
+- [09:31] same was true for lawyers but something
+- [09:33] happened last year like they all got
+- [09:34] very AI curious they're curious about AI
+- [09:37] they were like let's
+- [09:38] >> let's do pilots to play with the
+- [09:39] software and try it out and you were
+- [09:41] saying that like this is the year when
+- [09:42] that turns into actual contracts
+- [09:44] >> exactly
+- [09:44] >> and you can't you can no longer say
+- [09:46] these companies don't buy software
+- [09:47] that's wrong they're all buying software
+- [09:48] now and that's because this this thing
+- [09:50] happened in the last 12 months
+- [09:51] >> exactly and last year was the year of
+- [09:52] kind of proof of concepts and now you
+- [09:54] know our average contracts are in the
+- [09:56] years first of
+- [09:57] Um and I I just think in general um
+- [10:01] people are seeing you know a lot more
+- [10:03] kind of shorterterm or instant value you
+- [10:06] know I also think just you know on the
+- [10:07] note of uh these firms historically
+- [10:10] inclusive of law firms and others not
+- [10:12] buying software that is I think true um
+- [10:15] I think the big difference here is um
+- [10:18] this is like number one thing at from
+- [10:20] the very top this is like the number one
+- [10:21] thing on everyone's agenda so we are not
+- [10:23] selling like the next CRM or like the
+- [10:25] next like data vendor tool or anything
+- [10:27] like that. We are selling what we're
+- [10:29] describing as the most advanced sort of
+- [10:31] AI solution for financial services in
+- [10:32] the world, right? And I think if you are
+- [10:34] a a CEO or or or an exec in general,
+- [10:38] you've kind of got to take that call,
+- [10:40] you know what I mean? And I think that's
+- [10:41] really played to the advantage for all
+- [10:42] startups for sure.
+- [10:43] >> Can you describe some of these sales
+- [10:44] meeting like who is the decider? Like
+- [10:46] who decides to buy the software and and
+- [10:48] what are they like? CEO level um or or
+- [10:52] or in general just the most senior
+- [10:53] people at the firm regardless of if
+- [10:55] you're a top five or top 10 investment
+- [10:57] bank priority firm as I said I'll sub
+- [10:58] them up and whatever it might be um
+- [11:01] which I think at the start we found like
+- [11:03] really strange because we we sort of
+- [11:05] thought that this would be looked at at
+- [11:07] a team or or group level it's really
+- [11:10] not. I think it's so important um
+- [11:14] firmwide that everyone has to be
+- [11:16] involved from from the very top. And
+- [11:18] actually what we found is you've really
+- [11:21] got to get that buy in um you know from
+- [11:23] the right person at the top but then
+- [11:24] you've also got to get buyin from the
+- [11:26] people that are ultimately get going to
+- [11:28] be implementing the tool.
+- [11:30] >> So are you guys are flying to meet all
+- [11:31] these firms where they wherever they are
+- [11:33] >> wherever they are. Wherever they are. Um
+- [11:35] so we have a bunch of people working out
+- [11:36] of Hong Kong and Singapore now. Um we've
+- [11:39] just opened a small office in India. Um
+- [11:42] uh about half of our overall team are
+- [11:44] based in London and we have an office in
+- [11:45] New York. Um again I think like it's
+- [11:48] clear the product is impactful, right?
+- [11:50] Because when we're demoing we're like
+- [11:51] laptop out we're showing real use cases
+- [11:53] with real data
+- [11:55] >> uh you know high use case frequency,
+- [11:57] right?
+- [11:58] >> So then if you think about like why they
+- [12:01] wouldn't sign with you, right? A big
+- [12:04] part of that I think is trust and and
+- [12:05] and building that relationship, you
+- [12:08] know, because it's also a different
+- [12:09] dynamic. You know, it's like a lot of
+- [12:11] time you're speaking to folks that, you
+- [12:13] know, if they make a wrong call here,
+- [12:14] they could get fired, right? And so you
+- [12:16] spend a lot of time building that trust.
+- [12:18] I think a big part of that trust is is
+- [12:19] FaceTime um and getting in front of
+- [12:22] people obviously, but then spending the
+- [12:24] time on on the demo and how how that's
+- [12:27] justified and and really investing in
+- [12:29] things that are specific to the
+- [12:31] customer. I want to go back a little bit
+- [12:32] to the two previous companies that you
+- [12:34] guys ran, Pat Llama and um Fancy. Before
+- [12:37] we get into the details of what they
+- [12:39] were doing, like what are some of the
+- [12:40] learnings you took from those companies
+- [12:42] uh into Mal ML?
+- [12:44] >> I would say you've definitely got to
+- [12:45] enjoy it. You've got to enjoy building
+- [12:47] companies. Uh is my overarching uh
+- [12:50] thought. What about you?
+- [12:52] >> I think you've just got to be prepared
+- [12:54] for
+- [12:56] the worst. Yeah, you got to be prepared
+- [12:57] for the worst and the most ridiculous
+- [13:00] roller coaster experience. Uh I think
+- [13:02] all startup founders will say the same.
+- [13:04] I think it's going to be a lot of ups
+- [13:05] and downs, a lot of the time downs and
+- [13:08] you've just got to be prepared for that
+- [13:10] and know it's coming. Um and as Chess
+- [13:12] says, just enjoy it because it's fun.
+- [13:13] >> And is there a sense that when you start
+- [13:15] the third company that you you've gone
+- [13:17] through that before, so you've gotten
+- [13:19] used to the ups and downs and you can
+- [13:22] just kind of like be calmer about it?
+- [13:24] >> You can definitely be calmer. definitely
+- [13:26] karma but I but but there is there is
+- [13:28] certain things that you just cannot
+- [13:29] prepare yourself for you know I think
+- [13:31] like you know like it just in general no
+- [13:34] matter how much you've kind of said to
+- [13:36] yourself this is normal you're going up
+- [13:37] and down there'll be the odd thing it
+- [13:39] will be employee related or product
+- [13:41] related whatever that will still
+- [13:43] surprise you the fundamental thing that
+- [13:45] I think we realize that we've at least
+- [13:47] brought into this company is this
+- [13:48] concept of of perseverance not blind
+- [13:51] perseverance but perseverance and I
+- [13:53] think there's a clear there's a clear
+- [13:55] difference where if something logically
+- [13:58] makes sense, right? Like if you just if
+- [13:59] in an unemotional way you're approaching
+- [14:01] a problem and it logically makes sense,
+- [14:03] right? Then you should probably continue
+- [14:07] doing that thing, right? And um not let
+- [14:10] anything stop you. And I think like the
+- [14:12] consistency that we've noticed that of
+- [14:14] of of founders that we've some of that
+- [14:16] we've invested in or worked with is like
+- [14:19] the ones that kind of do that and really
+- [14:21] persevere tend to win. So I think that's
+- [14:23] probably the biggest learning for us.
+- [14:24] Just persevere at all cost.
+- [14:26] >> Yeah, for sure. Uh I mean one of the big
+- [14:28] ones for me in particular is definitely
+- [14:30] hiring. I think when you know I was CEO
+- [14:33] of Fancy I was 22 23. Um so hiring was
+- [14:38] new to me and I think
+- [14:40] >> to be honest I didn't really have a clue
+- [14:41] what I was doing
+- [14:42] >> and I think we still
+- [14:43] >> Yeah. Okay. And hiring is always tricky.
+- [14:46] Um, I think one of the biggest things
+- [14:48] right now and we say it a lot and it's
+- [14:50] probably the biggest thing that comes up
+- [14:52] in an interview is is how much do you
+- [14:54] think you enjoy working with that
+- [14:56] person? I think you know at Fancy again
+- [14:58] being sort of inexperienced and maybe
+- [15:00] naive it was all about where have they
+- [15:02] worked before you know what's on their
+- [15:03] CV and you kind of ignored the the
+- [15:06] little things that you know that that
+- [15:08] maybe you shouldn't. And now it's kind
+- [15:10] of the the main thing that we look for.
+- [15:11] You know we're going to be spending a
+- [15:13] lot of time with these people. you know,
+- [15:14] we work a lot and everyone on the team
+- [15:16] does and you've got a lot of work with
+- [15:18] this person. Um, so we often meet in
+- [15:21] person multiple times and make sure
+- [15:22] they're the right cultural fit and it
+- [15:24] really makes a difference. I think right
+- [15:25] now, you know, we hire very slowly. Um,
+- [15:28] and we try and make sure we hire the
+- [15:29] right people. Um, and it feels like we
+- [15:32] we've got better at that as time's gone
+- [15:34] on. And humans are just so much more
+- [15:36] impactful now as well.
+- [15:38] >> So, I think it's it's just even more
+- [15:41] important than it has been before. Um,
+- [15:44] and yeah, the other aspect I said is
+- [15:47] work ethic. I think we, you know, I
+- [15:49] think we're known for it. I mean, right
+- [15:52] now we're still working seven days a
+- [15:53] week as we said and we have done for
+- [15:55] about 18 months. Um, and I think
+- [15:58] certainly in that initial period that
+- [16:00] you've got to do that and I think it,
+- [16:01] you know, our team work 6 days a week at
+- [16:03] the moment. Um, look, that may change
+- [16:05] I'm sure as time goes on, but I think
+- [16:08] part of that point about enjoying
+- [16:10] working with the person is they've also
+- [16:12] got to really enjoy what they do, right?
+- [16:14] So, we we've started to ask more
+- [16:15] questions around look all the other sort
+- [16:17] of standard stuff that has to be done. I
+- [16:19] think it's important to have the kind of
+- [16:20] standard interview type structure, but
+- [16:22] are they going to enjoy their dayto-day?
+- [16:24] You know, the question that we ask
+- [16:25] people is like, you know, what have they
+- [16:27] been building? You know, regardless of
+- [16:29] where they're in engineering, right? And
+- [16:30] soon as they start to me me me me me me
+- [16:32] me me me me me me me me me me me me me
+- [16:32] me me me me me me me me me me me me me
+- [16:32] me me me me me me me me mention things
+- [16:32] like oh they've been doing a bit of vibe
+- [16:34] coding or this that and the other we're
+- [16:35] like okay they're going to enjoy what
+- [16:36] they're doing right and I think that's
+- [16:37] really important
+- [16:38] >> it feels like there's a moment in a
+- [16:39] company's lifetime where
+- [16:41] >> it's suddenly it's working
+- [16:43] >> but you haven't won the market yet it
+- [16:45] sounds like
+- [16:47] >> that at that time it really matters to
+- [16:48] work hard
+- [16:49] >> because like they're you're not the only
+- [16:51] one trying to go after this market
+- [16:52] >> yeah we just don't like losing
+- [16:56] >> um maybe go back to like uh winter 17
+- [16:59] >> fat llama Um, tell us about Fatal Lama.
+- [17:01] >> Um, so Fatal Lama was a marketplace that
+- [17:04] allowed people to rent items from people
+- [17:05] nearby with the main differences, you
+- [17:08] know, uh, you were insured. So if I let
+- [17:09] if you're my neighbor and I lent you a
+- [17:11] camera, a $10,000 camera, I'm insured.
+- [17:13] If I lent you a drill, the same thing.
+- [17:15] Um, that was what we did differently
+- [17:16] with the model. That model had been
+- [17:18] tried a lot of times before, but it
+- [17:20] still took us 3 years to find product
+- [17:21] market fit. I sort of define product
+- [17:23] market fit loosely as um, you know, the
+- [17:26] unit economics add up. people want, you
+- [17:28] know, uh uh what you have in terms of
+- [17:30] product um in a sort of relatively large
+- [17:32] addressable market, right? But it took
+- [17:34] us 3 years to to get there and I think
+- [17:37] that was, you know, we learned so much
+- [17:39] during that period. Um and so yeah, that
+- [17:42] that was Fat Llama and I can talk more
+- [17:44] about that in a second, but what about
+- [17:45] Fancy?
+- [17:46] >> Yeah, so Fancy again consumer business.
+- [17:48] So we were a a last mile grocery
+- [17:50] delivery business uh which now
+- [17:52] everyone's probably bored of speaking
+- [17:54] about them but back then so this was end
+- [17:56] of 2019 uh start of 2020 uh so our model
+- [18:00] was a little bit different to a a Door
+- [18:02] Dash or an Instacart. So we were what's
+- [18:05] called a vertically integrated model
+- [18:06] which means uh we had our own
+- [18:08] warehouses. We held the stock ourselves
+- [18:10] and this was relatively new in Europe. I
+- [18:13] think there was one other player doing
+- [18:14] it um out of Turkey, but in the UK in
+- [18:17] particular, we were the first ones. And
+- [18:19] really, it started it, you know, as a as
+- [18:21] a delivery app for students. You know, I
+- [18:23] was a student at the time. And it really
+- [18:25] came about the need, you know, I was
+- [18:26] really sitting there one day thinking,
+- [18:28] God, I could do some, you know, Pringles
+- [18:30] or some a beer to be honest and I didn't
+- [18:32] want to walk to the corner shop that was
+- [18:33] like 5 minutes away.
+- [18:34] >> And this was during CO.
+- [18:35] >> So, this was just before CO. So, this
+- [18:37] was like, you know, 3 months before CO.
+- [18:39] We kind of built the app MVP in sort of
+- [18:41] four to 6 weeks. Um I studied computer
+- [18:44] science at uni and so it was just before
+- [18:46] co and really almost instantly as
+- [18:49] opposed to fat lama we kind of found
+- [18:51] product market fit almost overnight
+- [18:52] which is that sounds obvious right it's
+- [18:54] like you're delivering sort of beer ice
+- [18:56] cream to students in
+- [18:57] >> at the same cost as they would get it
+- [18:59] from the corner shop.
+- [19:01] >> Uh so so we took off and that was
+- [19:03] obviously really exciting. Um and then
+- [19:05] we got on to YC and then CO happened and
+- [19:07] co you know for our business was really
+- [19:10] that shot of adrenaline. I mean co
+- [19:11] happened everyone was staying at home
+- [19:13] you know the business really then
+- [19:14] started to take off. Um it was an
+- [19:17] amazing business. It's an extremely
+- [19:18] difficult business. Um I'm sure we'll
+- [19:20] come on to it in a bit but we got hit
+- [19:22] with we always like to say a lot of
+- [19:24] cricket bats to the face. You know a lot
+- [19:25] of stuff can go wrong. Um but it was
+- [19:27] awesome. So we continued to grow in the
+- [19:29] UK. Um we raised money out of YC. Uh and
+- [19:33] then we got an acquisition offer from
+- [19:35] Gouff I think it was about 18 months
+- [19:36] after we started. Um and Gopuff at the
+- [19:39] time a market leader um they were very
+- [19:42] very big in the US and they wanted a um
+- [19:45] an opportunity to come into Europe and
+- [19:47] we were best place for that. Um so it
+- [19:49] really was an incredible ride.
+- [19:51] >> Yeah. Yeah. It was like the at least for
+- [19:54] that amount of time felt like the
+- [19:55] perfect kind of startup ride I'd say. Uh
+- [19:58] but again I think Fat Lama was the polar
+- [20:00] opposite. The story I always talk about
+- [20:01] with that llama in terms of perseverance
+- [20:03] was you know I was you know maybe very
+- [20:07] early 20s obviously and
+- [20:10] you know at that time when you believe
+- [20:12] in something and you're raising a small
+- [20:13] angel around so this is preyc right is
+- [20:16] you know we were raising I think maybe
+- [20:18] $50,000 maybe $100,000 which um you know
+- [20:22] nowadays is like I suppose back then at
+- [20:23] least then it meant everything to us you
+- [20:25] know we were scraping around we we were
+- [20:26] doing half an hour pitches with an angel
+- [20:28] that might put in $2,000
+- [20:30] you know, we were just doing everything
+- [20:32] we could. We fundamentally believed in
+- [20:33] this idea and um anyway, so we built the
+- [20:36] MVP, we launched and I started
+- [20:39] accounting. So, so I was big on like you
+- [20:42] are the numbers going to make sense,
+- [20:43] right? So, I had my like forecasted
+- [20:45] average transaction value, my retention,
+- [20:46] everything else. So, we launched and
+- [20:49] pretty much straight away, like within
+- [20:50] the first day, we got a rental and um
+- [20:54] the rental was for $600. So, I'm like
+- [20:56] over the moon. I'm update. The one of
+- [20:58] the first things I did is I'm straight
+- [21:00] into the financial model and I'm
+- [21:01] updating the average order value and
+- [21:03] this thing is looking crazy. I'm like
+- [21:05] we're going
+- [21:06] >> we're going the moon,
+- [21:07] >> right? And um so that was on Friday. It
+- [21:09] was due to be returned on Sunday
+- [21:10] lunchtime. All right. And remember the
+- [21:12] criticism I got, you know, I probably
+- [21:13] did 100 pitches to raise money and maybe
+- [21:15] one out of 100, you know, I must have
+- [21:17] done close to a thousand the end would
+- [21:19] say yes. But all the other 99 was like
+- [21:21] no one's going to lend out an item
+- [21:22] because everyone's going to steal them
+- [21:23] and even if you have insurance, the
+- [21:24] insurance isn't going to work, right?
+- [21:25] Anyway, so we had and that's all I'm
+- [21:27] thinking, you know, it's all we're
+- [21:28] thinking about at the time. So, we had
+- [21:29] this first rental. Anyway, got to Sunday
+- [21:32] and the the lender of the item called us
+- [21:34] and said like, I can't get hold of of
+- [21:36] the borrower of this item. So, okay,
+- [21:38] it's fine. And then we realized after a
+- [21:40] couple of hours, like he wasn't
+- [21:41] responding and we started to get a bit
+- [21:42] nervous. One of the things we did, it
+- [21:44] was, you know, it was a native app and
+- [21:45] when people search because it helps with
+- [21:47] what you show in the search results is
+- [21:48] we save or we look at the the latitude
+- [21:51] and longitude. So, quite an accurate
+- [21:52] geoloc. So, we had that. So, I was like,
+- [21:56] "Okay, I'm I'm going straight out there.
+- [21:57] We got to go and find this item." And
+- [21:58] this was a this was like an £1,800
+- [22:00] drone, right? So, for us, this was like
+- [22:03] everything, right? So, we went up.
+- [22:05] Anyway, so I arrived on this random
+- [22:06] street in North London, and there was
+- [22:08] just a door open to this house. I don't
+- [22:09] think we've ever told this story cuz
+- [22:11] it's just like it's that awful. And and
+- [22:13] the door was there. Door was open. I
+- [22:15] couldn't believe it. As I opened the
+- [22:16] door, there it was. The drone was just
+- [22:19] there on the side. So, I picked up this
+- [22:20] drone. I got back in the car and I just
+- [22:22] went straight down to the to the
+- [22:23] lender's house. I arrived at the
+- [22:24] lender's house. But you got to picture
+- [22:26] this, right? Is what's going through my
+- [22:28] head is everything that we've pitched,
+- [22:31] every person that I pitched, family and
+- [22:32] friends, we had spent months, probably
+- [22:35] close to a year at this point,
+- [22:36] convincing people that this would work
+- [22:37] and they believed us and they believed
+- [22:39] and I and they bought into this. And so
+- [22:41] all I'm thinking is like I've lied to
+- [22:42] them. You know, this is like my whole
+- [22:45] world was falling apart at this point.
+- [22:46] And so anyway, I arrived at the
+- [22:48] borrower's house uh or the lender's
+- [22:49] house rather, opened the door and he was
+- [22:51] like, "Hey, you're not the lender." And
+- [22:53] I was like, "Oh, I know." I gave him the
+- [22:55] drone. He was like, "And you're wearing
+- [22:56] a fat alarm t-shirt." I was like, "Yeah,
+- [22:58] we we deliver the item back
+- [22:59] automatically." He was like, "This is
+- [23:00] awesome, man." Like, closed the door.
+- [23:03] And so we it did add up you know in
+- [23:06] terms of the insurance and we we focused
+- [23:07] on verification but it fundamentally
+- [23:08] came to that that perseverance piece is
+- [23:11] like we believe this is something that
+- [23:12] should exist and we believe from a tech
+- [23:14] from a tech perspective we could make it
+- [23:16] work. Uh and it ended up doing so. Um
+- [23:19] but yeah it was tough.
+- [23:20] >> Both outcomes seems like really really
+- [23:22] great though like it's like set you up
+- [23:23] well for this company.
+- [23:24] >> Absolutely. I mean an did what the first
+- [23:26] 1,200 deliveries I think. Yeah. I think
+- [23:30] I think with Fancier from the outside it
+- [23:32] looks like a very fairy tale story.
+- [23:35] >> Everything like after the fact.
+- [23:37] >> Exact. Exactly. Exactly. And they're
+- [23:39] like, "Wow, it's like I should start a
+- [23:40] startup." And almost like you should,
+- [23:43] but really it doesn't really it's not
+- [23:45] all what it seems. You know, with Fancy,
+- [23:47] we had so many disasters. Uh, you know,
+- [23:49] and and so many times where we were
+- [23:51] like, "God, is this really going to
+- [23:53] work?" Um you know even when COVID
+- [23:56] happened uh you know we had to stop
+- [23:58] delivering for for a couple of weeks you
+- [24:00] know there was a point I remember you
+- [24:02] remember this sort of maybe two three
+- [24:04] months into the company uh so we were
+- [24:06] working with Stripe as our payment
+- [24:07] provider and one day they just shut us
+- [24:09] off uh cuz apparently there was a breach
+- [24:12] in in their terms and service which
+- [24:14] later was a misunderstanding but anyway
+- [24:15] they shut us off for probably you know
+- [24:17] three or four days uh bear in mind we
+- [24:19] couldn't take any payments right and at
+- [24:21] this point I can't remember how many
+- [24:22] orders we were doing maybe not massive
+- [24:23] you know, maybe 500 orders a
+- [24:25] >> week in inventory. So, there wasn't a
+- [24:27] problem with that at least.
+- [24:28] >> Yeah. Exactly. So, at this point, what
+- [24:30] do we do? We've got orders coming in. We
+- [24:31] can't take payments. Um, so we ended up
+- [24:33] just taking payments over the phone,
+- [24:35] taking payments with cash, taking
+- [24:36] payments with PayPal. Uh, and there were
+- [24:38] so many of these stories. And if you
+- [24:39] think of our business, you know, the
+- [24:41] amount of issues we had with delivery
+- [24:43] drivers, with warehouses. Um, it really
+- [24:47] was, uh, an intense situation, but
+- [24:50] that's really what made it fun, right? I
+- [24:51] think um you know building a startup you
+- [24:53] just become so thick skinned and you
+- [24:56] know problems come about you know on a
+- [24:58] daily hourly basis and you know kind of
+- [25:00] your mood is like this all the time but
+- [25:03] you know it's epic right on the payments
+- [25:05] one we emailed Patrick directly and he
+- [25:06] responded like within he sorted us out
+- [25:09] >> yeah it was awesome
+- [25:09] >> so if Patrick listen says thank you
+- [25:10] Patrick he sort us out um but I think on
+- [25:13] both of those the the general story is
+- [25:16] and an you know the the team delivered
+- [25:18] the first 1500 orders right and So u you
+- [25:22] know ourselves so it was very much a
+- [25:24] case of you know you hear but we rather
+- [25:26] than coding at night we were coding
+- [25:27] during the day because really most of
+- [25:28] our orders were kind of in the evening
+- [25:29] right
+- [25:30] >> and but what that meant was we were
+- [25:33] speaking to a customer for every single
+- [25:35] order
+- [25:36] >> right and so that the customer feedback
+- [25:38] wasn't just like
+- [25:39] >> real time that you hear about it was
+- [25:41] like every order we knew what was
+- [25:42] working what wasn't working right which
+- [25:44] meant that you know when we started to
+- [25:47] implement drivers
+- [25:48] >> you know we always say that you you knew
+- [25:51] exactly how long it was going to take
+- [25:52] from the warehouse to that house because
+- [25:54] you've done the route about 50 times
+- [25:55] before and I think across all three
+- [25:58] businesses if you sort of set up and
+- [26:01] maintain the foundations of being
+- [26:03] incredibly customercentric things tend
+- [26:05] to go okay
+- [26:06] >> yeah there is a pattern though with
+- [26:08] startups like as they grow they move the
+- [26:10] builders further and further away from
+- [26:11] customers and there's a bunch of other
+- [26:13] roles in between and eventually you kind
+- [26:15] of have to interpret the information you
+- [26:16] learn from customers like how are you
+- [26:17] going to avoid that Well, it's on I mean
+- [26:22] um I mean you speak to everyone you can
+- [26:24] talk about on the product side I think
+- [26:26] on on the sales side particularly
+- [26:28] because also we have a proof of concept
+- [26:30] phase still right so we still have a
+- [26:32] trial phase
+- [26:33] >> which is this nice blend between kind of
+- [26:35] uh a sales stage but also a pure
+- [26:38] customer feedback stage
+- [26:40] >> so naturally uh and I and I'm 100%
+- [26:43] involved with that and and it's also
+- [26:45] what I enjoy as well right you know
+- [26:47] spending time you know I don't like
+- [26:48] demoing on a screen. I like sitting with
+- [26:50] a user with a laptop how they're going
+- [26:52] to work and working on the product
+- [26:53] together. And that also is the best way
+- [26:55] we found to sell. Um, but you're also
+- [26:58] doing customer feedback calls
+- [26:59] constantly, right?
+- [27:00] >> Yeah. I mean, you know, it's always a YC
+- [27:03] mantra. Why I think, you know, you got
+- [27:05] to speak and listen to customers and
+- [27:07] that's really what we try and do, you
+- [27:09] know, on a daily basis. You know, really
+- [27:10] figure out what are their pain points
+- [27:12] with using model ML, what does their day
+- [27:14] look like? and then think internally,
+- [27:16] you know, how can we then productize
+- [27:17] that and get that into their hands for
+- [27:18] them to try. Uh, and it's that constant
+- [27:21] iteration, right? We always say, you
+- [27:22] know, the quicker we can ship things,
+- [27:23] the quicker we can learn. Um, and really
+- [27:26] we want to try and stay as lean as
+- [27:27] possible. You know, we always have this
+- [27:29] theory. We want to be the maybe not the
+- [27:31] first, but, you know, one of the first,
+- [27:32] you know, 10 person billion dollar
+- [27:33] company. And it's just about staying so
+- [27:35] close to the customer uh, and in in the
+- [27:37] details.
+- [27:39] >> Y's next batch is now taking
+- [27:41] applications. Got a startup in you?
+- [27:43] Apply at y combinator.com/apply.
+- [27:46] It's never too early and filling out the
+- [27:48] app will level up your idea. Okay, back
+- [27:51] to the video. So, during YC, we have
+- [27:54] this um group office hour topic where we
+- [27:56] talk about the what motivates you to
+- [27:58] build a company. Um and it's mostly to
+- [28:01] surface sort of the motivations for
+- [28:03] founders and their co-founders.
+- [28:05] >> So, when things are really tough, you
+- [28:07] know why you're there. Do you guys
+- [28:09] remember what was your initial
+- [28:10] motivation when you started the the
+- [28:11] first two companies? than maybe what it
+- [28:13] is today.
+- [28:14] >> You know, when we have our oneto ones,
+- [28:15] we're not brainstorming how to raise
+- [28:17] money or we're brainstorming actually
+- [28:18] how we can do this for the rest of our
+- [28:20] lives because it is so rewarding. You
+- [28:22] know, building something for
+- [28:24] individuals. Making money, I think, you
+- [28:25] know, it just gets boring so quickly,
+- [28:27] right? You know, it's not it's not
+- [28:29] really that motivating, you know,
+- [28:31] whereas building something that makes
+- [28:32] people smile that's very impactful and a
+- [28:35] lot of people are using it, that's just
+- [28:37] so motivating to us. And I think like um
+- [28:40] that really has been the story across
+- [28:43] all the companies. Um you know and I
+- [28:46] think what's been nice about this and
+- [28:47] surprising about this is we were we
+- [28:49] questioned ourselves going from a two
+- [28:51] consumer brand heavy type businesses
+- [28:53] into a B2B but actually particularly in
+- [28:55] the world of AI the most important
+- [28:57] element is like the B2C element. Uh and
+- [29:00] and that is to us the most rewarding
+- [29:02] element like when you do a demo to
+- [29:04] someone or they click run and they do
+- [29:05] something
+- [29:06] >> and it is just there's no money that can
+- [29:09] buy those moments
+- [29:10] >> cuz they've never seen that before
+- [29:11] >> and they've never seen before. They've
+- [29:12] never seen it.
+- [29:12] >> It was like with our previous companies
+- [29:13] with Fancy when you would be at the door
+- [29:15] with their delivery sort of 10 12
+- [29:17] minutes after they ordered it and then
+- [29:19] you saw their face like what the hell's
+- [29:21] going on? You're already here. Uh like
+- [29:23] Chaz said you just you know it's
+- [29:25] priceless. I've noticed this with AI
+- [29:26] products that they often the customers
+- [29:29] cannot even imagine what the solution
+- [29:30] will look like
+- [29:31] >> um because the models are so good and
+- [29:33] they're so advanced right now
+- [29:35] >> and very often
+- [29:36] >> um you just have to build like you build
+- [29:39] it for them first like you can't really
+- [29:40] figure out try to figure out what the
+- [29:41] problems are because like it's not a
+- [29:43] specific problem you're solving it's
+- [29:44] just like it's like a whole other like a
+- [29:46] whole other league of solutions.
+- [29:48] >> Yeah. And and you know the difficult
+- [29:50] thing as well is you you do have to
+- [29:52] rethink things slightly from the ground
+- [29:54] up.
+- [29:54] >> Mhm. So I I do think that you know at
+- [29:57] least as of today if our product we made
+- [30:00] it we made a call that we would kind of
+- [30:02] rebuild our version of like PowerPoint,
+- [30:04] Word and Excel because we we do believe
+- [30:06] at least for the time being that the way
+- [30:08] in which people interact with technology
+- [30:10] regardless of of type of technology will
+- [30:13] remain quite consistent. In other words,
+- [30:14] like a long form document, a
+- [30:15] storytelling presentation and tabular
+- [30:18] across XL Word and PowerPoint. Um we
+- [30:20] think that will stay the same.
+- [30:22] >> So you're not trying to get people to
+- [30:23] change the current We're not trying to
+- [30:24] get because we just think that that's
+- [30:26] what people are very used to. However,
+- [30:29] we think what's if we look at what we're
+- [30:31] seeing this year, a lot of what's
+- [30:34] happened up until now is sort of humans
+- [30:36] are still coming into these systems and
+- [30:38] they are like clicking run on something
+- [30:40] basically, right? We think the biggest
+- [30:42] shift this year is going to be that even
+- [30:45] that element won't happen and therefore
+- [30:47] elements of the user interface we think
+- [30:49] will be less important. In other words,
+- [30:51] these these tasks will happen entirely
+- [30:54] autonomously. You know, as you arrive in
+- [30:56] the morning and the things that you
+- [30:58] would normally have had to go and
+- [30:59] trigger and click run, they will already
+- [31:02] be there. They will already be done.
+- [31:03] >> Right. Right. Right. You guys are
+- [31:04] siblings. Um, historically in YC, we've
+- [31:07] known that this is a pretty good recipe
+- [31:08] for a good co-founder relationship. Tell
+- [31:11] us, I mean, you've been co-founders of
+- [31:12] multiple companies. You've had other
+- [31:14] co-founders, too. like tell us what
+- [31:16] you've learned about the most important
+- [31:17] thing and and maybe like for the
+- [31:19] audience of founders who are thinking
+- [31:20] about finding a company like what should
+- [31:22] I be looking for in my co-founder and
+- [31:24] like what's important and what's not
+- [31:25] important. I think we mentioned it, you
+- [31:29] know, previously around hiring. I think
+- [31:32] this is sort of tenfold when it comes to
+- [31:34] your co-founder. You know, you're going
+- [31:36] to spend so much time with this person.
+- [31:39] You know, more time that you spend with
+- [31:41] your family, with your partners, with
+- [31:42] your friends. Um, so I think first and
+- [31:45] foremost, is that person someone that
+- [31:48] you want to spend a lot of time with?
+- [31:49] Uh, you know, obviously with us,
+- [31:50] >> we're still not sure.
+- [31:51] >> Yeah, we're still not sure.
+- [31:53] >> I think if you were not sure, you
+- [31:54] wouldn't say that.
+- [31:55] >> Yeah. Exactly. Exactly. Otherwise, it'
+- [31:57] be really awkward. It would be really
+- [31:58] awkward. Um, so look, you know, we've
+- [32:00] always had a really good relationship. I
+- [32:03] think not all brothers working together,
+- [32:05] I think, is a good idea. I think, you
+- [32:06] know, we've been fortunate enough we've
+- [32:07] always had a good, you know, personal
+- [32:09] and working relationship. One of the
+- [32:11] things that make things really easy, I
+- [32:14] think, is and again, not not all
+- [32:16] siblings are like this, but there's no
+- [32:17] filter between us. You know, we're very
+- [32:19] transparent. We're very honest. And I
+- [32:21] think you know with your founder you
+- [32:24] need to be exactly that you know there
+- [32:26] can't be any miscommunication lack of
+- [32:28] communication like we all know one of
+- [32:30] the biggest reasons if not the biggest
+- [32:31] reason why you know startups fail is is
+- [32:34] founder fallout and and I think with us
+- [32:36] we're always very good at you know
+- [32:38] communicating trusting each other.
+- [32:40] Another thing on the trust piece then is
+- [32:42] the way that we describe our ven
+- [32:44] diagram. You know I I think I'm an
+- [32:47] engineer but I'm not actually an
+- [32:49] engineer. I think I am. Anie studied
+- [32:50] computer science, I studied uh
+- [32:52] accounting. So our ven diagram and I
+- [32:55] think if you're thinking about another
+- [32:56] co-founder I'd really consider this is
+- [32:59] um Anie obviously handles sort of
+- [33:01] engineering product and I handle kind of
+- [33:03] finance commercials and products as well
+- [33:06] kind of in the middle right so the
+- [33:07] overlap in our vend diagram is basically
+- [33:10] um customers and product right which we
+- [33:13] think is just like the most important
+- [33:15] piece anyway right and that bit we both
+- [33:18] really enjoy and we and we love but we
+- [33:20] also love all the other stuff and I
+- [33:22] think like that clear uh segregation of
+- [33:25] duties and interests from day one I
+- [33:29] think is really important. So I think
+- [33:31] one of the things that we think that we
+- [33:33] look at is I really emphasize that point
+- [33:35] of interest because actually you may
+- [33:37] like for example Anie may have studied
+- [33:38] CS and I may say but if I if I really am
+- [33:41] interested in wanting to basically do
+- [33:42] Anie's job and write the bulk of the
+- [33:44] production code then we've probably got
+- [33:46] a problem. You know what I mean? And so
+- [33:47] I think it's like really think about
+- [33:49] that. Uh and and and that tends to last
+- [33:52] for a long time as well.
+- [33:53] >> I got this email uh I think it was
+- [33:55] yesterday from a person who was in their
+- [33:57] early 20s. They were basically asking me
+- [33:59] for not startup advice but life advice.
+- [34:02] So what do I do? I'm like 21 and I think
+- [34:05] he was writing something along the lines
+- [34:06] of like I know I can go and build
+- [34:09] something B2B that's quite narrow in AI
+- [34:11] but it doesn't seem to motivate me
+- [34:12] enough. I want to be something much
+- [34:14] bigger. Like I want to have a bigger
+- [34:15] impact on the world. like if you got
+- [34:16] that email, if you would give him
+- [34:17] advice, like what would you advise
+- [34:19] someone who's in their really early 20s
+- [34:20] or in school and they're thinking about
+- [34:23] their career right now or maybe in the
+- [34:24] world of AI um or thinking about
+- [34:27] starting a company but want to do
+- [34:28] something big like what would you tell
+- [34:30] them?
+- [34:30] >> I think we're probably biased because
+- [34:32] you know we'd probably favor starting a
+- [34:34] company um before going to work at a you
+- [34:37] know a big corp. Um, I think first and
+- [34:40] foremost we'd be very honest with them.
+- [34:41] You know, as we mentioned before with
+- [34:43] our fancy story, you know, you look from
+- [34:45] the outside and it might seem like uh,
+- [34:48] you know, sunshine and rainbows, but
+- [34:50] it's really hard. You know, building a
+- [34:52] business is is really, really, really
+- [34:54] hard. It's really fun if you enjoy that
+- [34:56] stuff, but it's really hard. Uh, so
+- [34:58] really, you've got to say to yourself,
+- [35:00] look, you might be building a business
+- [35:01] for the next 5, 10, 15 years,
+- [35:04] >> right?
+- [35:05] >> It might not going any go anywhere. And
+- [35:07] you've got to be okay with, you know,
+- [35:09] that reality. Uh, and ultimately, you've
+- [35:11] got to be very passionate about what
+- [35:14] you're building. You've got to have that
+- [35:15] perseverance that Chad spoke about
+- [35:17] earlier. Uh, and if that sounds good to
+- [35:20] you, then then build a startup. And if
+- [35:21] that doesn't sound good to you, then,
+- [35:23] you know, I probably recommend probably
+- [35:25] getting a, you know, a job somewhere
+- [35:26] else and then develop over time. Uh, and
+- [35:29] then if you feel like you're more ready
+- [35:31] to jump into the startup world, uh, then
+- [35:33] do that. So maybe if you're if you're a
+- [35:35] builder and you enjoy seeing your stuff
+- [35:36] in people's hands, the smaller the
+- [35:38] company you work for, maybe you're even
+- [35:40] your own company, the faster it gets in
+- [35:42] the customer's hands. 100% and and
+- [35:44] enjoying that. I then think another like
+- [35:45] different way to look at this is is um
+- [35:48] you know, think about I know it's maybe
+- [35:50] slightly more, but is that if that's the
+- [35:51] correct word, but you know, if you're
+- [35:52] lying on your deathbed, you know, and
+- [35:54] you look back at your life, like what do
+- [35:57] you what do you want from your life? And
+- [35:58] I think we we do that a lot. And
+- [36:00] basically, you know, what we conclude is
+- [36:02] we just we just want to have been
+- [36:04] impactful with our time. You know, we
+- [36:06] want to have, you know, you know, left
+- [36:08] the world a better place, but but but in
+- [36:10] a way that we've just built things that
+- [36:12] people enjoy using and and I think
+- [36:14] that's really what motivates us. But I
+- [36:16] think really that one point of um you
+- [36:19] know, you've really got to enjoy the
+- [36:20] journey and we just we just love
+- [36:22] building.
+- [36:23] >> Just sounds like if you were in his
+- [36:24] shoes, you would give yourself basically
+- [36:25] the advice to the path that we ended up
+- [36:27] on.
+- [36:28] >> Yeah. Go all in. It wouldn't change
+- [36:29] anything.
+- [36:30] >> Hell no. Goal in. Goal in like all in.
+- [36:33] And I think if anything uh more is more
+- [36:35] in general.
+- [36:36] >> I remember when I met with Paul Graham
+- [36:38] sometime in around the beginning of the
+- [36:40] batch and I was doubting whether if this
+- [36:42] doesn't work out like maybe my cur is
+- [36:44] And he was some he said
+- [36:45] something like well if you're 26 and
+- [36:47] you're poor uh that will be the worst
+- [36:49] outcome. And probably most 26 year olds
+- [36:51] don't have any money anyway. So doesn't
+- [36:52] make a big difference.
+- [36:53] >> Yeah. Yeah. It's also just like the way
+- [36:54] I describe it is like well the worst
+- [36:57] case like the very worst case is you're
+- [37:00] you're going to learn so much over such
+- [37:03] a short period of time and that is the
+- [37:05] worst case cuz often when you compare
+- [37:07] this to like you know we often now when
+- [37:09] we're we're hiring people we talk about
+- [37:11] their opportunity costs right
+- [37:13] >> I think a lot of the time if you take a
+- [37:14] step back those jobs or those roles
+- [37:17] they're still going to be there in a
+- [37:18] year's time right so like the actual
+- [37:20] worst case is you've just learned a lot
+- [37:22] over a here. And I think if you frame it
+- [37:24] like that, then a lot more people would
+- [37:27] just get out and build stuff.
+- [37:28] >> And a lot of people that end up on these
+- [37:30] tracks, um, they sort of like 5 years
+- [37:32] into investment banking. It's hard to
+- [37:35] step out of that.
+- [37:35] >> Super hard.
+- [37:36] >> But like it's just the risk that you
+- [37:37] want to take, you want to take early on
+- [37:39] because it's just like much harder to
+- [37:41] change when you're 30 and you have
+- [37:42] commitments and
+- [37:43] >> definitely way harder.
+- [37:45] >> Yeah. When you're hiring people, people
+- [37:47] that come from finance or quant
+- [37:48] backgrounds, are there things that they
+- [37:50] have to unlearn about their job? Either
+- [37:52] about the company they're working for,
+- [37:54] about the industry in order to work for
+- [37:55] a tech startup serving the same
+- [37:57] industry.
+- [37:58] >> Yeah. First principle thinking, eh,
+- [38:00] >> they just got to move faster. Okay. Um,
+- [38:03] and again, this is probably more your
+- [38:05] realm than mine, but what we notice is,
+- [38:07] you know, we'll ask someone to do
+- [38:08] something and well, they won't, but they
+- [38:11] will try and, you know, spend a day, two
+- [38:14] days putting together some sort of
+- [38:16] presentation, slide deck,
+- [38:18] >> and we're like, what the hell's going
+- [38:19] on? You know, uh, you know, we need this
+- [38:22] now. Um, so it's things like that where
+- [38:25] you get, you know, caught up in the, I
+- [38:28] guess, the big company thinking, which
+- [38:29] look makes sense in certain
+- [38:30] environments. Um but when you're working
+- [38:32] in a startup and you're wearing so many
+- [38:33] different hats, frankly there's no time
+- [38:35] for that. So we really try and from day
+- [38:37] one uh I think you in particular really
+- [38:40] try and just say look we need this now.
+- [38:42] Um instead of you know all these
+- [38:44] spreadsheets and and slides I think that
+- [38:45] is the first lesson. It's like
+- [38:47] everything that you have learned for 5
+- [38:48] years try and unlearn immediately. Um I
+- [38:51] think just in the sense it's different
+- [38:53] you know you just got to yeah you just
+- [38:55] got to move so much faster. I think
+- [38:57] building the plane going down the runway
+- [38:59] is the best way to describe things. You
+- [39:01] know, I think you know you know that is
+- [39:03] the the quickest way to learn. It's
+- [39:06] different when you're you know where are
+- [39:08] now it's different. You know the
+- [39:10] business you know we have large
+- [39:12] customers in production that that can't
+- [39:14] be the case but in terms of like the way
+- [39:16] that you think or the way that you go
+- [39:17] about your work the fundamentals you
+- [39:19] know still need to remain the same. Um
+- [39:22] you know we are big on this first
+- [39:23] principles thinking which I know is very
+- [39:25] much the terminology that is overused
+- [39:27] but I think in general that way of
+- [39:30] looking at the world is a is a better
+- [39:31] way to build a company
+- [39:33] >> and you guys chose to do YC three times.
+- [39:35] Um can you describe sort of like how
+- [39:37] you're thinking here
+- [39:38] >> the second and third time it wasn't a
+- [39:40] financial thing. We still get asked like
+- [39:43] still we've we've had loads of teams
+- [39:45] that you know people that have worked
+- [39:46] for us that have gone on to even start
+- [39:47] YC companies or gone on to build some
+- [39:49] great companies and we still get asked
+- [39:52] how we managed to maintain that and I
+- [39:54] quote YC culture throughout the life
+- [39:57] cycle of the company right and so the
+- [40:00] the the way I sort of answer this is you
+- [40:02] cannot replicate that you know I I
+- [40:05] remember very clearly Michael Cyborg on
+- [40:09] uh in 2017, you know, the first office
+- [40:12] hours we had, you know, a young English
+- [40:14] lad, you know, we report on our numbers
+- [40:17] and I reported monthly and I remember
+- [40:20] Michael being like, "What the hell are
+- [40:21] you doing?" Like, let's talk weekly if
+- [40:23] not daily, if not hourly. And I think
+- [40:25] that culture never leaves a company,
+- [40:29] right? That's the second aspect which
+- [40:31] definitely cannot be overlooked is the
+- [40:33] instant support network that you get.
+- [40:36] You know, I think us being from Europe,
+- [40:38] working seven days a week, it's very
+- [40:41] unusual to say the least. And there's
+- [40:43] not many people that we can call on. And
+- [40:45] in fact, a lot of the people that we
+- [40:46] surround ourselves with outside of work,
+- [40:48] they fundamentally disagree with the way
+- [40:50] that we work and how we're building and
+- [40:52] why we're building, particularly when we
+- [40:53] don't need to from a financial sense,
+- [40:55] right? I think that's difficult. Whereas
+- [40:56] in in the Bay Area, you know,
+- [40:58] particularly uh and and driven by YC and
+- [41:00] through YC, you get this like instant
+- [41:03] network that you just you you cannot get
+- [41:06] anywhere else.
+- [41:07] >> And you ended up being in in the batch
+- [41:09] winter 24, which was sort of like one of
+- [41:12] the first really big AI batches where
+- [41:14] most companies were building companies
+- [41:15] similar to you.
+- [41:16] >> Um how did that feel? Like was there
+- [41:18] something
+- [41:19] >> like just being in the Bay Area like 18
+- [41:21] months ago?
+- [41:22] >> I mean it was just crazy. I think I
+- [41:24] think again working side by side with
+- [41:26] people building really cool products
+- [41:29] working seven days a week and that buzz
+- [41:32] you know around the office around San
+- [41:34] Francisco it's really really hard to
+- [41:37] replicate um and we absolutely loved it
+- [41:39] didn't we
+- [41:40] >> yeah and it's like it felt it's
+- [41:42] interesting you mentioned that cuz that
+- [41:43] really was
+- [41:45] >> that was like the first batch where it
+- [41:46] was like through and through is just you
+- [41:48] know AI companies pretty much and like
+- [41:50] >> it felt like in that Slack group didn't
+- [41:52] it felt almost daily or hourly there was
+- [41:54] like a scientific breakthrough. It was
+- [41:56] like phenomenal to be a part of.
+- [41:58] >> One question I get I was in Munich and
+- [42:00] then I was in Zurich on a trip recently
+- [42:01] and I was in London. I saw you guys uh I
+- [42:03] was in London um a year year and a few
+- [42:06] months ago is from European founders is
+- [42:08] where they should be based and where
+- [42:09] they should be building their companies
+- [42:10] and I don't have the right answer. Um
+- [42:12] it's a controversial topic. You guys are
+- [42:14] based in London. So um but I'm curious
+- [42:16] what you think and like as you're
+- [42:18] thinking about this question.
+- [42:19] >> Go
+- [42:21] this is a tough one. Uh
+- [42:24] it's tricky. I think
+- [42:26] we absolutely love San Francisco. Uh
+- [42:30] we've said it many times. Every time we
+- [42:32] come here,
+- [42:32] >> it's the best place in the world.
+- [42:34] >> There's something different about it.
+- [42:35] And and we always thought, you know,
+- [42:38] being from the UK, this San Francisco
+- [42:41] buzz, Silicon Valley,
+- [42:43] >> it's a bit of a myth. At least that's
+- [42:45] what I thought growing up. And then I
+- [42:47] think what was interesting with uh with
+- [42:49] Fancy uh we were a remote batch, right?
+- [42:52] So we didn't come to San Francisco. Um
+- [42:54] and then when we came here again for for
+- [42:56] model ML's batch, just being in San
+- [42:58] Francisco and being a part of the
+- [43:00] community, it was crazy. You know, Chaz
+- [43:02] always tells a story when, you know,
+- [43:04] you're at the gym during the batch and
+- [43:07] you just had people on the treadmill on
+- [43:08] their laptops, you know, on Zoom calls,
+- [43:10] you know, talking about funding rounds
+- [43:11] and X, Y, and Zed. And in the UK that
+- [43:14] just doesn't happen. Um, and look,
+- [43:16] clearly
+- [43:17] >> clearly,
+- [43:18] >> um, so look, we love the UK. Um, if if
+- [43:21] we were to start a company again, I
+- [43:23] mean, we're trying to convince people to
+- [43:24] to move to SF for this company. Um, we
+- [43:27] think it's an incredible place to build
+- [43:29] a company. Um, and like we say about
+- [43:31] work ethic, it is really challenging, we
+- [43:34] think, in the UK in particular, um, to
+- [43:36] find people who frankly want to work
+- [43:39] this hard. Um, I think in San Francisco
+- [43:41] it's a lot more common. I think in
+- [43:43] Europe it's just not um one of the
+- [43:47] positive things about Europe and we
+- [43:49] always said this is is talent and
+- [43:51] particularly engineering talent which
+- [43:53] might sound counterintuitive I think you
+- [43:55] got amazing engineering talent you know
+- [43:57] in the Bay Area
+- [43:59] >> the problem is it's very very expensive
+- [44:02] >> and the competition is just so so high
+- [44:04] you know you're going up against
+- [44:06] >> you end up hiring from your own network
+- [44:07] anyway you're trying to bring people
+- [44:08] over from the UK exactly um whereas in
+- [44:11] the UK I think the level is still really
+- [44:15] really strong but the competition is
+- [44:17] less. So your ability to hire that top
+- [44:20] class talent
+- [44:21] >> I think is probably stronger in Europe.
+- [44:23] >> It's a trick question. If you're based
+- [44:25] in Europe you I've been given advice.
+- [44:26] Okay. If you decide to stay in Europe
+- [44:28] try to move to one of the few cities
+- [44:30] where there are other really ambitious
+- [44:32] people and there's just not that many of
+- [44:33] them. Uh London is one of them. But
+- [44:35] Europe is not one country. So, it's like
+- [44:37] a big culture shift to to or maybe not
+- [44:39] big, but it's a big change to move from
+- [44:41] um I don't know uh Spain to to London.
+- [44:44] It's not that big of a difference to
+- [44:46] move from Spain to San Francisco.
+- [44:47] >> Yeah. And I also think as we spoke about
+- [44:49] our hiring process earlier, you've just
+- [44:51] got to be really rigorous with your
+- [44:53] hiring process. You know, there are
+- [44:54] amazing people and amazing talent in
+- [44:57] these cities. You've just got to find
+- [44:58] them. Um so, I think don't settle for
+- [45:00] second best. You really got to find
+- [45:02] those people that are self motivated,
+- [45:04] hungry. Uh, chances are if they know
+- [45:06] about YC, they've got the right
+- [45:08] attitude.
+- [45:08] >> And I suspect a lot of your customers
+- [45:10] are in the US.
+- [45:11] >> Pretty much all of them. I'd say 80% of
+- [45:12] our customers are US.
+- [45:13] >> How do you handle that?
+- [45:14] >> Well, I spend the bulk of my time in New
+- [45:16] York. An spends the bulk of his time in
+- [45:18] London. Um, and then kind of split
+- [45:20] between Hong Kong and and San Francisco.
+- [45:23] Interestingly, actually, for finance, as
+- [45:25] I mentioned this when I came in earlier,
+- [45:27] there's a surprising number of decision
+- [45:29] makers for global firms around sort of
+- [45:31] technology implementation in San
+- [45:33] Francisco. It's not out of New York or
+- [45:35] out of London. It's out of San
+- [45:36] Francisco. So, I think if we'd known
+- [45:39] more about that um you know back when we
+- [45:42] made the decision to move the
+- [45:43] engineering team to London, that would
+- [45:44] have influenced things. But uh yeah, my
+- [45:46] view for what it's worth is I think
+- [45:48] people should do what what it takes to
+- [45:50] to move to San Francisco if that's not
+- [45:52] possible or that's not where your
+- [45:53] customers are based at the very least as
+- [45:54] you said, move to a tier one city and
+- [45:57] try and be as close to uh you know folks
+- [46:00] that are also building stuff.
+- [46:02] >> Awesome. Thank you so much for coming.
+- [46:03] It's great to see you guys.
+- [46:04] >> Yeah, great to see you again.
+- [46:05] >> Thanks for
+- [46:07] [Music]

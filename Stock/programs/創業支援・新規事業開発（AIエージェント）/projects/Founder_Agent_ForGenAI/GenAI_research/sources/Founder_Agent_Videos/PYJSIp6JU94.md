@@ -1,0 +1,1353 @@
+---
+title: "Transcript: PYJSIp6JU94"
+video_id: "PYJSIp6JU94"
+video_url: "https://www.youtube.com/watch?v=PYJSIp6JU94"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:43:50"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: PYJSIp6JU94
+
+- URL: https://www.youtube.com/watch?v=PYJSIp6JU94
+- Retrieved at: 2025-12-30T10:46:08+09:00
+
+## Text
+
+- [00:00] I do think a lot of the ways that we
+- [00:01] work together as a team is going to be
+- [00:03] really important in our agent world. We
+- [00:04] believe a lot in uh hybrid teams and I
+- [00:07] believe that's the way that things are
+- [00:08] going to grow and hybrid teams are both
+- [00:09] humans supercharged with AIS and agents
+- [00:12] that need to work together with humans
+- [00:14] and other agents. Data is probably the
+- [00:16] currency that AI is going to run on and
+- [00:18] why it's so important that people start
+- [00:19] thinking are are thinking about it. I
+- [00:21] always believe that there will be in a
+- [00:22] world where kind of humans lead and AI
+- [00:24] accelerates and kind of the magic of
+- [00:27] humans and how creative and
+- [00:28] breakthroughs like that is still going
+- [00:30] to be there.
+- [00:35] >> Welcome to dataf framed. This is Richie.
+- [00:37] For all the hype that AI agents get,
+- [00:39] every expert I've spoken to agrees that
+- [00:41] humans are still rather useful at work.
+- [00:44] That means the future is hybrid teams.
+- [00:46] Humans and agents working together. So,
+- [00:49] we have a human in the loop. But what
+- [00:50] does the loop look like? I want to know
+- [00:52] how to divide work between humans and
+- [00:54] agents, how to incorporate agents into
+- [00:57] my processes, and what success looks
+- [00:59] like. Our guest is Karen Ing, the
+- [01:02] executive VP of product at HubSpot.
+- [01:04] Karen's building a modern customer
+- [01:06] relationship management platform, and
+- [01:08] her big focus is HubSpot's Breeze AI
+- [01:11] agents that assist with sales,
+- [01:13] marketing, and customer support. So,
+- [01:15] naturally, she spent a lot of time
+- [01:16] thinking about how to make agents that
+- [01:18] people will actually use. Fun fact,
+- [01:20] Karen was an early project manager for
+- [01:22] Microsoft's C programming language,
+- [01:25] which means 20 years ago, younger me was
+- [01:27] using the tools she was building. Back
+- [01:28] to the present, let's find out how to
+- [01:31] welcome our new agent colleagues into
+- [01:33] the team.
+- [01:37] >> Hi Karen, welcome to the show.
+- [01:39] >> Richie, it's so great to be here. Thanks
+- [01:40] for having me.
+- [01:41] >> Yeah, I'm looking forward to this
+- [01:42] conversation. Uh, so I guess to begin
+- [01:44] with, I always want to hear about cool
+- [01:46] uses of agents. So, what's the coolest
+- [01:48] AI agent you've seen across sales,
+- [01:50] marketing, and uh support?
+- [01:52] >> Oh gosh, you know, it's interesting to
+- [01:55] see how agents have progressed and do
+- [01:57] more work for us across those. I feel
+- [01:59] like the most interesting one I've seen
+- [02:01] in all spaces have been kind of like a
+- [02:03] customer agent that resolves support
+- [02:05] tickets. It's the agents that give value
+- [02:07] immediately and fast. And things like
+- [02:09] customer agent being able to expand that
+- [02:11] across the whole customer journey from
+- [02:13] like catching leads to resolving support
+- [02:15] tickets to understanding renewals is a
+- [02:17] really interesting like way to think
+- [02:20] about how agents are doing work for us
+- [02:21] now.
+- [02:22] >> Okay. Yeah. I think uh like the customer
+- [02:23] support thing is is perhaps where
+- [02:25] everyone starts. It's such an obvious
+- [02:26] idea. It's like answering the same
+- [02:28] questions that your customers have over
+- [02:29] and over again. Kind of boring for
+- [02:30] humans. If agents can do it faster then
+- [02:33] uh that's going to be an easy win for
+- [02:34] everyone. We've got chat bots, we've got
+- [02:36] agents, we've got co-pilots. there's all
+- [02:38] these sort of different formats. Um, do
+- [02:40] you want to talk me through when you
+- [02:41] want each of them?
+- [02:42] >> Yeah. Well, chat bots are still kind of
+- [02:44] in the the world we are coming from. So,
+- [02:48] when you put chat bots on your site, a
+- [02:50] lot of it is still very deterministic.
+- [02:52] So, chat bots can answer questions that
+- [02:54] it knows about. It can address a whole
+- [02:56] bunch of different ones. I almost see
+- [02:57] the chat bots that are now AI powered as
+- [03:00] like being able to resolve those those
+- [03:02] questions. They're smarter. They're
+- [03:03] sometimes non-deterministic.
+- [03:06] For co-pilots, uh, I think of those as
+- [03:08] assistance to humans. So, you use a
+- [03:10] co-pilot when you're a human and you
+- [03:12] kind of want to augment or supercharge
+- [03:13] your work. Like, I'm going to be the one
+- [03:15] kicking off questions. I want to be the
+- [03:18] one that kind of asks for summaries and
+- [03:20] insights. And so, that co-pilot is
+- [03:23] really a human assistant. And then in
+- [03:25] agents, that's when you start getting to
+- [03:27] autonomous work. Today, you know, I
+- [03:29] believed deeply in like agents even
+- [03:31] still will have humans in the loop or
+- [03:32] you'll have these hybrid teams that are
+- [03:34] humans that are superpowered by
+- [03:36] co-pilots and then agents that help you
+- [03:38] do work, but the agents get into
+- [03:40] autonomous work. So, I mentioned
+- [03:42] customer agent as the first thing
+- [03:43] everyone started with. We're getting
+- [03:44] into a couple of those new agents that
+- [03:46] I'm sure we'll talk about, but one of
+- [03:47] those agents is a data agent, but now
+- [03:50] you start getting into things like an
+- [03:51] operations agent that works 247 and it's
+- [03:53] making your data clean. It's making sure
+- [03:55] you have the most accurate data and it
+- [03:57] goes out and finds external data that
+- [03:59] makes your, you know, CRM data even more
+- [04:01] powerful.
+- [04:02] >> Okay, so tons of different use cases.
+- [04:03] Uh, and like the idea that, um, and
+- [04:05] we've had chat bots like forever, well,
+- [04:07] at least a decade now. And so, yeah, uh,
+- [04:10] this are being fairly deterministic now.
+- [04:11] You've got a bit more flexibility and
+- [04:13] then there's kind of I guess uh, a
+- [04:15] progression right through co-pilots
+- [04:17] where you've got human and AI working
+- [04:18] together through to agents which are at
+- [04:20] least at least in theory mostly
+- [04:22] autonomous. You mentioned a couple of
+- [04:24] use cases and I know uh with your breeze
+- [04:26] platform you got tons of different
+- [04:27] breeze agents for different um
+- [04:29] commercial use cases. So you mentioned
+- [04:31] like data agents, you mentioned the
+- [04:32] customer support agents. Do you want to
+- [04:34] walk me through like how you think about
+- [04:36] uh categorizing these things? Like what
+- [04:37] are the different use cases there?
+- [04:39] >> We deeply think about you know if you
+- [04:41] have if you're forming your go to market
+- [04:42] team you know you're running your
+- [04:44] company what are the kinds of roles and
+- [04:46] jobs you'd want to do and what would you
+- [04:48] want to hire for? And so that kind of
+- [04:49] gives us the basis of the really key
+- [04:51] agents that will become essential in
+- [04:52] every go to market team. We think
+- [04:54] everyone will have a customer service,
+- [04:56] you know, kind of a customer agent
+- [04:58] because you'll have support tickets,
+- [04:59] you'll have resolutions, they'll very
+- [05:01] likely need a data agent. So data
+- [05:02] cleanliness, your AI is really only as
+- [05:04] good as the data that powers it. So um
+- [05:07] and then I'll say that data for instance
+- [05:09] since this is a data podcast, it matters
+- [05:11] so much around context. So and having
+- [05:14] complete context and sometimes that
+- [05:15] complete context comes from the external
+- [05:17] world. So, for instance, there's a set
+- [05:19] of companies that I or customers I care
+- [05:21] a lot about and they get a brand new
+- [05:23] funding round. Um, I want to know about
+- [05:25] that instantly. And so, what the data
+- [05:27] agent does is help you create those
+- [05:29] custom properties that you might be
+- [05:31] interested in like funding rounds or
+- [05:33] major executive team leadership changes
+- [05:36] and it helps you build that context
+- [05:38] layer. You know, another kind of agent
+- [05:39] that's coming still is a like a closing
+- [05:42] agent. So a lot of times when you look
+- [05:44] at what happens in a deal life cycle, it
+- [05:48] might be that deals get stalled. 86% of
+- [05:50] deals actually stall at a certain phase
+- [05:52] and the customer wants to buy. You want
+- [05:55] to sell and what's happening that makes
+- [05:57] it so slow. So the closing agent helps
+- [05:59] you get from kind of cash to close um
+- [06:02] all the way through by making sure it's
+- [06:04] really easy to create quotes, custom
+- [06:06] line items, etc. But like all the way we
+- [06:09] think about agents is these are the
+- [06:11] essential agents you'll need for your
+- [06:12] team. And then we think of it also as
+- [06:14] like we need to create a platform. We
+- [06:16] are launching a breeze marketplace and
+- [06:18] breeze studio that help you customize
+- [06:20] and train these agents and also craft
+- [06:22] your own if you wanted to.
+- [06:24] >> Okay, that's cool. I mean certainly like
+- [06:26] uh the data is very like important to
+- [06:28] remind people is everyone gets excited
+- [06:30] about AI but actually the AI is only any
+- [06:32] good if you got good data to go in
+- [06:34] there. So having a bit of um assistance
+- [06:37] to improve the data quality that's going
+- [06:38] to be incredibly important I think for
+- [06:40] the success of all your other agents as
+- [06:41] well and the closing agent I mean I feel
+- [06:44] like every quarter like the entire sales
+- [06:46] team in basically every company is like
+- [06:48] sweating because like okay we've got
+- [06:49] like a week to close all these deals
+- [06:51] we've got to hit our targets and having
+- [06:53] a bit of assistance there that will
+- [06:55] maybe smooth things out. I mean I I
+- [06:57] don't entirely believe it because like
+- [06:59] it happens at every company like they
+- [07:01] always like uh the sales team is like
+- [07:03] try to push to hit a deadline at the
+- [07:04] last minute. So may maybe technology
+- [07:07] will finally help.
+- [07:08] >> Yeah. Probably every at the end of every
+- [07:10] every quarter seems very stressful.
+- [07:12] >> Yeah. Yeah. I'm sure I know because you
+- [07:14] got all these different use cases. One
+- [07:16] thing that seems to be very difficult
+- [07:17] with um AI agents is determining like
+- [07:20] how hard it's going to be to make one of
+- [07:22] these things. And since you've built
+- [07:24] like a few of them, um, do you have a
+- [07:25] sense of like what what makes an easy AI
+- [07:28] agent? Like what the difficult use cases
+- [07:30] are like what sort of proving stubborn
+- [07:33] to build? Um, yeah. How do you judge
+- [07:35] difficulty?
+- [07:36] >> Yeah. I mean, part of the reason for
+- [07:38] creating almost an Asian platform is to
+- [07:40] make it a lot easier because the way us
+- [07:42] as humans would think about creating an
+- [07:43] agent is it's almost like like it
+- [07:46] shouldn't require a lot of code right
+- [07:48] nowadays. So the way we think about kind
+- [07:50] of building agents is give it a set of
+- [07:51] instructions, but the instructions are
+- [07:53] like the same way that you would train a
+- [07:55] team member, you can give that in
+- [07:56] natural language, which is I want you to
+- [07:58] be a customer health agent and I want
+- [08:00] you to flag when things are, you know,
+- [08:03] give it constraints. So I want to know
+- [08:05] whenever anything drops below like 50%
+- [08:08] um resolution rate or if you see some of
+- [08:11] these risks and I'll define the risks
+- [08:13] for you. So that's how easy it is now to
+- [08:16] kind of build an agent once you have the
+- [08:18] platform to do so. The things that
+- [08:20] become really hard with agents is multi-
+- [08:22] aent orchestration. So what happens when
+- [08:24] agents need to talk to other agents? So
+- [08:26] I mentioned customer uh service agent
+- [08:28] that one resolves support tickets. But
+- [08:30] as support tickets get resolved it's
+- [08:33] still escalating to humans for the most
+- [08:36] uh complex uh questions. We have another
+- [08:39] agent called knowledge agent that
+- [08:41] watches which escalations are happening
+- [08:43] and then helps recommend knowledge
+- [08:45] bases. So that interaction of two agents
+- [08:47] interacting together. We want them to be
+- [08:49] like human people and that multi-agent
+- [08:52] orchestration is very tricky. The other
+- [08:54] thing that's tricky is when you have
+- [08:55] multiple tools in place. So, you know,
+- [08:57] we have agents that work across the
+- [08:58] HubSpot CRM, but the CRM works across
+- [09:01] like the closing agent needs to generate
+- [09:03] a quote from my payments or billing
+- [09:05] system. It needs to send that quote back
+- [09:07] to my invoicing system. When you have
+- [09:09] multiple tools in play, you know, we're
+- [09:11] seeing agent platforms still develop,
+- [09:13] but the ability to choose and
+- [09:15] rationalize which tool to use and which
+- [09:18] one to pick right now still has like
+- [09:20] limitations for the number that you
+- [09:22] have. You know, with all AI, things are
+- [09:24] going to get better and better, but
+- [09:25] those are a couple things that become
+- [09:26] really tricky. Multi-agent
+- [09:27] orchestration, how to think about which
+- [09:29] tools to use, what is the reasoning as
+- [09:32] you start choosing between different
+- [09:33] things. Um, those get complicated, those
+- [09:35] are the hard problems, but you know,
+- [09:37] being able to create and express an
+- [09:38] agent, we want to make easier and
+- [09:40] easier.
+- [09:40] >> I like the idea that, um, customizing
+- [09:43] agents is relatively simple. So, if you
+- [09:44] start with a standard agent, tweaking is
+- [09:47] easier than building something from
+- [09:48] scratch. So that sounds very useful
+- [09:50] because I guess you just want something
+- [09:51] that's a little bit different. Maybe
+- [09:53] we'll come back to that in a moment. The
+- [09:55] uh the multi- aent orchestration. I mean
+- [09:58] I know when you have to work with
+- [10:00] colleagues, it's like you work with
+- [10:01] someone in your team, it's fine. You
+- [10:02] work with someone in a different team,
+- [10:03] it's like they have stupid ideas and
+- [10:05] they want to do different things. They
+- [10:06] have different goals to you. You end up
+- [10:08] these into office fight. Is that what
+- [10:10] happens with agents? Like we're going to
+- [10:13] see office politics for agents as well.
+- [10:15] >> You know, it's funny. we might see
+- [10:16] office politics, but you know what will
+- [10:18] be interesting is to see how polite
+- [10:20] people are to their agents. If uh
+- [10:23] they're using the same kind of
+- [10:24] politeness and nicities or if you're
+- [10:26] just going to tell your agent that was a
+- [10:27] bad idea, please try again. So, you
+- [10:30] know, I think we'll have some of that as
+- [10:31] they work together. The interesting part
+- [10:33] about like interoffice dynamics will be
+- [10:35] which agent takes weight. So, what
+- [10:37] happens when they do conflict or what
+- [10:38] happens like how would you resolve
+- [10:40] something if you have two pretty equally
+- [10:42] weighted priorities? how do you describe
+- [10:44] constraints for your prioritization
+- [10:46] structure and so I do think a lot of the
+- [10:47] ways that we work together as a team uh
+- [10:50] is going to be really important in our
+- [10:51] agent worlds. We believe a lot in uh
+- [10:53] hybrid teams and I believe that's the
+- [10:55] way that things are going to uh grow and
+- [10:57] hybrid teams are both humans
+- [10:58] supercharged with AIS and agents that
+- [11:01] need to work together with humans and
+- [11:02] other agents.
+- [11:03] >> Okay. Uh go on. Uh so tell me tell me
+- [11:05] what this looks like. What what does
+- [11:06] this uh hybrid team consist of? Is it
+- [11:09] like
+- [11:09] >> Yeah. Is it going to be like uh humans
+- [11:12] in charge and then agents supporting
+- [11:14] them? Is it like what what's the what do
+- [11:17] they consist of? What what's the
+- [11:19] structure?
+- [11:20] >> Yeah. Um well the blueprint for a hybrid
+- [11:22] team I think if you're if people are
+- [11:23] thinking about how to create them uh you
+- [11:25] know you mentioned this too like AI is
+- [11:27] only as good as the data that powers it.
+- [11:29] So I think the first part of the
+- [11:30] blueprint for any hybrid team is how do
+- [11:32] you create shared context. So you run
+- [11:34] into all kinds of shared context issues
+- [11:35] of context and data is spread between
+- [11:38] different tools. So you have this siloed
+- [11:40] data today. A lot of that data is also
+- [11:43] trapped in things like emails or calls
+- [11:45] or contract trips. We call that like
+- [11:46] unstructured data and trap data. And
+- [11:48] then it's also data that potentially is
+- [11:50] is really bad. Like there's a lot of bad
+- [11:52] data out of this world. So first part of
+- [11:54] the blueprint for hybrid teams is for
+- [11:56] sure, you know, create that unified
+- [11:58] context, connect your data. The second
+- [11:59] part is enable your human teams to do
+- [12:02] what they do best. So believe really
+- [12:04] deeply in we're gonna we're going to see
+- [12:07] taste and creativity still be a really
+- [12:10] key element in the AI world where that
+- [12:13] taste maker that create you know
+- [12:15] creative marketer they are the brilliant
+- [12:17] marketer that might be breaking through
+- [12:18] and so we want to enable these human
+- [12:21] teams to like focus on what they do best
+- [12:23] which might be building customer
+- [12:24] relationships understanding renewals
+- [12:27] reading the the room um so that's the
+- [12:29] second part of the blueprint and then
+- [12:30] the last part is now you have to build
+- [12:32] your actual which is probably going to
+- [12:34] be a bit of both which is the
+- [12:36] supercharged human with a breeze
+- [12:39] assistant or a co-pilot and then which
+- [12:41] agents do you bring into the framework
+- [12:43] and then how do you get them all context
+- [12:44] so you need shared context across humans
+- [12:46] and agents or humans and AI you need
+- [12:48] tools that kind of empower your people
+- [12:50] to do what they do best get rid of like
+- [12:52] the manual stuff and then the last one
+- [12:54] is combine the supercharged humans plus
+- [12:56] agents
+- [12:57] >> okay so uh I like there are different
+- [12:59] sort of steps there's almost a workflow
+- [13:01] for like how do you build these teams
+- [13:03] She said start with shared context. Now
+- [13:06] uh I was chatting to uh one of our
+- [13:08] account executives uh Joe. Uh so I was
+- [13:12] you know at data camp we're trying to
+- [13:13] build out all these uh agents ourselves.
+- [13:16] And so I was asking like what are the
+- [13:18] problems you have with like building
+- [13:19] agents for sales? He's like well you
+- [13:21] know some of our data is in Salesforce
+- [13:22] some is in like all these other tools
+- [13:24] some big query and just dealing with
+- [13:27] these data silos. So getting that shared
+- [13:29] context is really difficult. Uh so I
+- [13:32] mean data silos is a really old problem
+- [13:34] but uh still a challenge. Do you have
+- [13:36] any advice on how you deal with all
+- [13:38] these sort of different data sources and
+- [13:39] and pulling the shared context together?
+- [13:42] >> Yeah, I mean definitely understanding
+- [13:44] and using tools that help you bring
+- [13:45] together that context. So you know we're
+- [13:47] launching data hub which you know it's
+- [13:50] both two things. How do you connect data
+- [13:51] that is across these silo systems like
+- [13:53] uh BigQuery or Snowflake or your
+- [13:56] analytics database and warehouse, but
+- [13:58] also there's a ton of data that are in
+- [14:00] spreadsheets that are probably just
+- [14:02] collected across Google Sheets, CSVs,
+- [14:04] other kinds of things. And so, how can
+- [14:05] you easily bring those tools together?
+- [14:07] What data hub does is it gives you a
+- [14:09] home that I wish data bringing it
+- [14:11] together was as easy as adding a column
+- [14:13] like in a spreadsheet. And that's what
+- [14:15] data hub and uh data studio allows you
+- [14:17] to do. So today it's fairly complicated
+- [14:20] to still bring together multiple data
+- [14:21] sources, you almost need like a CRM or a
+- [14:24] data ops team, but equipping people with
+- [14:26] tools that like you know if I know I
+- [14:28] want product analytics and it comes from
+- [14:30] BigQuery and I know I want these fields,
+- [14:32] could I add a column that just lets me
+- [14:34] pull out almost fields like in a
+- [14:36] spreadsheet the same way um to create a
+- [14:39] pivot table. So um data studio is
+- [14:42] allowing us to do that. It's one way
+- [14:44] that we're helping to solve silo data.
+- [14:45] Okay. So the idea is really just is kind
+- [14:47] of almost well I guess spreadsheet so
+- [14:49] it's point and click sort of interface
+- [14:50] just to say these are the bits of data I
+- [14:52] want. Let's bring things together and
+- [14:55] hopefully you're solving these sort of
+- [14:57] connectivity issues
+- [14:58] >> right because like once you have silo
+- [15:00] data or once you're trying to bring
+- [15:01] together data you almost always have an
+- [15:03] outcome. So data itself you know while
+- [15:05] you have the shared context it's not
+- [15:07] that useful unless you use it for
+- [15:08] something. So I'll give you an example
+- [15:10] in the sales and marketing world where
+- [15:11] oftentimes if you find a set of
+- [15:14] customers that are high value customers
+- [15:17] they higher propensity to buy. They
+- [15:20] often have characteristics like maybe an
+- [15:22] executive would have entered the
+- [15:23] conversation at a certain period of
+- [15:25] time. I almost wish I could find lookike
+- [15:27] audiences. And so that's what we're kind
+- [15:29] of trying to enable with silo data. If
+- [15:31] you can bring the data together, you can
+- [15:33] start seeing patterns across it and then
+- [15:35] you can do things like create lookike
+- [15:37] audiences and then run a campaign if you
+- [15:39] want to. Makes it a lot easier to reach
+- [15:40] people that might value your product the
+- [15:42] most.
+- [15:43] >> Okay. So, it sounds like there might be
+- [15:44] some sort of data engineering involved
+- [15:46] just in the in the setup of this. Just
+- [15:48] making sure that um everything is ready
+- [15:51] uh so that other people can use it. Is
+- [15:53] that correct?
+- [15:54] >> There will be both. You know, our
+- [15:56] philosophy is we've always tried to
+- [15:58] build tools that are easy and intuitive
+- [16:00] to use and then have fast time to value.
+- [16:02] So like if you wanted to create this
+- [16:04] lookalike audience, it shouldn't be like
+- [16:06] a number of steps that you have to train
+- [16:08] up an entire team. Ideally, there's ways
+- [16:10] that we can help you do it. So I give
+- [16:11] you that because yes, we'll have data
+- [16:13] engineer. You'll see engine data
+- [16:14] engineering teams, but like all
+- [16:16] functions, AI will disrupt a lot of that
+- [16:18] manual work. And so what we're doing
+- [16:20] with data studio is even if you don't
+- [16:23] have a full data engineering team, you
+- [16:25] could start bringing this data together
+- [16:26] in a very intuitive way. As simple as
+- [16:28] adding a column that's, you know, it
+- [16:30] might look like advanced joins, but if
+- [16:33] you had four columns across your
+- [16:34] BigQuery, your HubSpot CRN, your
+- [16:38] QuickBooks invoices, you could start
+- [16:40] adding these as columns and then mixing
+- [16:42] them. Uh that is essentially an an
+- [16:45] advanced complex join. Okay. So, uh not
+- [16:47] having to learn some SQL for exact I
+- [16:50] mean joints in SQL it's like anyone
+- [16:52] could do them but in general like sales
+- [16:53] people marketing people don't want to
+- [16:55] have to do them on a regular basis
+- [16:57] >> right so giving them kind of intuitive
+- [16:59] tools that like match what you're trying
+- [17:01] to do.
+- [17:01] >> Yeah. Okay. Uh that makes a lot of sense
+- [17:03] is is uh have the right format for for
+- [17:06] for your audience. So actually I guess
+- [17:08] this is leads to a sort of more general
+- [17:10] point in that um often like your your
+- [17:12] sales marketing people don't necessarily
+- [17:15] um converse well with your engineers. Uh
+- [17:18] and a lot of the time when you like when
+- [17:20] you try to build out these agents it can
+- [17:22] feel like you do need technical people
+- [17:24] and you need people with domain
+- [17:25] knowledge and they have to work together
+- [17:26] they got to collaborate and it's hard
+- [17:28] work. Do you have any advice for making
+- [17:30] those collaborations easier?
+- [17:31] >> Um finding shared language to be honest.
+- [17:34] So a lot of times if it's uh really
+- [17:36] solving for the customer there might be
+- [17:38] different ways that we think about
+- [17:40] solving the customer but at the end of
+- [17:41] the day that is the joint that that's
+- [17:42] what both are trying to do sales
+- [17:44] marketing and um engineering. So finding
+- [17:47] some of those joint terms um we use them
+- [17:48] a lot to describe what we think customer
+- [17:50] value is and how we measure it that
+- [17:52] helps us build an example. So for
+- [17:54] instance I talked a little bit about
+- [17:56] these look like audiences. The goal of
+- [17:57] like look audiences or personalized
+- [18:00] email or campaigns is really to
+- [18:02] understand and reach customers. is
+- [18:03] generate more leads. And so more leads,
+- [18:06] more leads closed leads to higher
+- [18:08] revenue and growing your business. And
+- [18:10] so just kind of using shared language
+- [18:12] and in how you're trying to do this.
+- [18:14] >> That makes a lot of sense. It's like uh
+- [18:15] if you're both talking the same bit of
+- [18:17] jargon, then there's going to be a lot
+- [18:18] less confusion over that. And hopefully
+- [18:20] you're going to have some shared goals
+- [18:22] as well. So you were talking about the
+- [18:23] idea of a hybrid team. Uh so it's going
+- [18:26] to be humans and agents working
+- [18:27] together. So do you message um agents
+- [18:31] being ephemeral things because like if
+- [18:33] you think of them as as a colleague
+- [18:35] maybe they ought to have some kind of
+- [18:36] permanence whereas often it's like well
+- [18:38] this agent ran for like five minutes and
+- [18:40] then it no longer exists. So I'm kind of
+- [18:42] wondering does this change in the
+- [18:44] future? Are we going to have these sort
+- [18:45] of more permanent agents as part of our
+- [18:47] team?
+- [18:48] >> I believe that there will be hybrid
+- [18:49] teams where you you might have agents
+- [18:52] that kind of take over certain parts of
+- [18:53] jobs. What's what is interesting and I
+- [18:55] think is happening just across the the
+- [18:57] world now is um some a agents are
+- [19:00] agentic like there are people say
+- [19:02] they're ambient or agentic and they're
+- [19:03] triggered off of something. So like an
+- [19:05] ambient agent just kind of just means
+- [19:06] it's triggered by an event like it's not
+- [19:08] triggered by a human like a human might
+- [19:09] say please go research this company for
+- [19:12] me and I kicked off the job or it might
+- [19:15] be hey an email comes in and every time
+- [19:16] an email comes in I want this agent to
+- [19:18] do certain things. So I do think you're
+- [19:20] going to see a mix of both where
+- [19:22] sometimes there will be ephemeral tasks
+- [19:25] that will be done. But if you think
+- [19:27] about it as like which ones do you bring
+- [19:29] in into a recurring workflow, it will be
+- [19:32] a bit of both. Like humans will drive
+- [19:34] some of these workflows that will have
+- [19:35] these ephemeral tasks. And then I also
+- [19:38] think that actually the way I think
+- [19:39] about agents too is agents themselves
+- [19:41] can do had many different skills. And so
+- [19:44] some of those skills will get be kicked
+- [19:46] off as ephemeral skills and some will be
+- [19:48] more permanent like rather than hiring
+- [19:50] the five new customer support folks on
+- [19:53] my team if I have a customer agent that
+- [19:55] resolves this kind of these this amount
+- [19:57] of tickets I now know what I'll need is
+- [19:59] the more complex escalations and I might
+- [20:02] look for different skill sets there.
+- [20:04] >> Ah this is fascinating. So uh suppose
+- [20:06] you're a manager. How do you change what
+- [20:08] skill sets you're looking for when
+- [20:09] you're hiring? That one depends on what
+- [20:11] you think are you know I look at some of
+- [20:13] the companies today that have been
+- [20:14] really successful in you know AI native
+- [20:16] tools like you see Harvey and legal you
+- [20:18] see a couple of these that are very
+- [20:19] specific in verticals what they've done
+- [20:21] is they've taken jobs that are more
+- [20:23] mundane and repetitive and those will go
+- [20:26] first that's kind of why I had customer
+- [20:28] you know customer agent is probably it's
+- [20:31] it's not the most unique it's the most
+- [20:33] valuable right now and it's because you
+- [20:36] know you used to be able to calculate if
+- [20:38] I added x amount of
+- [20:40] I would likely get x amount of support
+- [20:42] tickets resolved. And what's possible
+- [20:44] now is when you look across that team, I
+- [20:47] can give almost like an equation of if I
+- [20:50] have customer support agent running, I
+- [20:52] reduce my ticket volume by this. But I
+- [20:54] would expect as humans, you just ask
+- [20:56] harder questions. So you know, then then
+- [20:58] it's like and maybe the skill sets in
+- [21:00] that will be can you the more complex
+- [21:02] questions may often rely on like we have
+- [21:05] a big product portfolio. It might go
+- [21:07] across the product portfolio. So kind of
+- [21:09] people who can navigate that ambiguity
+- [21:11] or uh navigate like a product portfolio.
+- [21:14] But those might be ways that you could
+- [21:16] change. Yeah, it'll be it'll be an
+- [21:17] interesting world for managers as we
+- [21:19] think about how to create a a hybrid
+- [21:21] team. And then the same way you would
+- [21:22] onboard a human or like a new person on
+- [21:24] your team, you'll have to onboard that
+- [21:26] agent. Like customer agents are only
+- [21:28] great if you train it on your company
+- [21:30] material. Otherwise, it's answering
+- [21:32] generic questions which is not as
+- [21:34] useful.
+- [21:34] >> Yeah. I mean this is interesting. Uh you
+- [21:36] hire a new human. Okay. They're going to
+- [21:38] have to read some documentation. They're
+- [21:40] going to have to watch some videos on
+- [21:42] what you're doing. Then maybe shadowing
+- [21:43] another human. So yeah. Uh go on, talk
+- [21:45] me through uh agent on boarding. Is this
+- [21:47] just a case of like fine-tuning an
+- [21:49] existing agent like using company data?
+- [21:52] What what does it look like?
+- [21:54] >> It would be less probably fine-tuning
+- [21:55] but giving it context. So I think that's
+- [21:57] why the context layer and why actually
+- [21:59] why data is so critical. Data is
+- [22:01] probably the currency that AI is going
+- [22:02] to run on and why it's so important that
+- [22:04] people start thinking are are thinking
+- [22:05] about it. training an agent today, you
+- [22:07] know, you might have a place to go. So
+- [22:09] like I'll take customer agent as an
+- [22:11] example, giving it PDFs or your
+- [22:15] knowledge base or uh your company
+- [22:17] website or you know the same way that
+- [22:20] you might have got a getting started
+- [22:21] guide for a human, you probably have a
+- [22:24] getting started guide with like a bunch
+- [22:25] of different links. Today it looks like
+- [22:27] just giving the agent those links. It's
+- [22:29] almost like creating a project, you
+- [22:31] know, in like one of the LLMs where as
+- [22:33] long as you can feed it different
+- [22:34] example types and like good content, it
+- [22:37] starts learning and that's probably what
+- [22:39] it's going to look like, you know, even
+- [22:41] as we go into more complex places.
+- [22:43] >> Okay, I feel like we got so we've got
+- [22:44] like bits of components of a plan here.
+- [22:47] So if you want to get your really good
+- [22:49] customer service agent, so you you start
+- [22:52] off with like generic agent and then you
+- [22:54] hook it up to all your data sources and
+- [22:57] then you discover that those are out of
+- [22:58] date and a mess and then you have to use
+- [23:00] the data agent to fix your data sources
+- [23:02] and then once you've done that then you
+- [23:05] can onboard the the customer service
+- [23:07] agent properly and and in theory things
+- [23:10] work.
+- [23:10] >> We should make it easier and easier for
+- [23:12] people to train their agents. So today
+- [23:14] we have a smart CRM that is key part in
+- [23:17] building context. CRM really used to be
+- [23:20] this manual system record that people
+- [23:22] had to keep up to date. But now with AI,
+- [23:25] you don't have to do that. So our smart
+- [23:28] CRM now selfgenerates data. So it
+- [23:32] monitors things like emails or call
+- [23:34] transcripts or the support tickets
+- [23:36] coming in. And I can tell, you know, Ray
+- [23:38] Richie got a new job. I'll update my
+- [23:40] content in my CRM of your new job and
+- [23:42] your new role. If you're at an office
+- [23:44] and you sent that to me in email, I can
+- [23:46] see that. So I would know, hey, I don't
+- [23:48] email, you know, if I'm going to email
+- [23:50] you, don't email me when I'm on
+- [23:52] vacation. Email me just kind of right
+- [23:53] after when I finally get through that
+- [23:55] like the the amount of email I have, for
+- [23:58] instance. But a smart CRM that helps you
+- [24:00] build self-generating context means I
+- [24:04] don't have to train you on everything
+- [24:05] because I already have unified context
+- [24:07] in my CRM. Okay. So, unified contact,
+- [24:10] unified context sounds very powerful,
+- [24:13] but I guess there are going to be some
+- [24:15] challenges around like uh data privacy
+- [24:17] about who's allowed to know what. You
+- [24:19] can have pretty strong data governance
+- [24:21] there. Can you talk me through how that
+- [24:23] works? Like what's some what you might
+- [24:24] need to worry about?
+- [24:25] >> Yeah. Um data governance is going to be
+- [24:27] incredibly important because you want AI
+- [24:29] that you can trust and if you can't
+- [24:31] trust AI and you can't trust your data,
+- [24:32] that's like a very bad thing. Governance
+- [24:34] will mean a couple things. So user
+- [24:36] permissions and even agent permissions
+- [24:39] is something that we're very thoughtful
+- [24:40] about today. There are roles that you
+- [24:43] might have in teams. So someone on a CS
+- [24:45] team may want default views that look
+- [24:48] like this. Someone on a sales team
+- [24:50] oftentimes deals are split across
+- [24:52] regions or across different owners. And
+- [24:55] so you don't really want everybody
+- [24:57] seeing everyone's deals unless you're
+- [24:59] like our sales leader across that team
+- [25:01] and I want to see what the forecast
+- [25:03] looks like across the board. And so user
+- [25:05] permissions are incredibly important.
+- [25:07] Same thing with like where does that
+- [25:09] data coming from? How is that data being
+- [25:11] used? How would this data be trained?
+- [25:13] But I think of uh how do you access data
+- [25:16] as like a core component of solving the
+- [25:18] data challenges here. Um agents will be
+- [25:21] the same where agents they act on behalf
+- [25:23] of a user. You you inherit those user
+- [25:25] permissions. If it acts on its own, you
+- [25:27] know, are we going to enter a world
+- [25:28] where agents need to have licenses and
+- [25:30] seats the same way that humans do, which
+- [25:32] will be really interesting.
+- [25:33] >> Yeah. I guess um and there's probably a
+- [25:35] whole separate discussion on like how
+- [25:36] you go about pricing your own software
+- [25:39] if it's going to be used by agents as
+- [25:40] well as by humans as well. It's maybe a
+- [25:43] whole separate episode. I don't know
+- [25:44] whether you've thought about this at
+- [25:45] all.
+- [25:46] >> Yeah, you know the concept of hybrid
+- [25:47] teams kind of gives you a mix of both
+- [25:49] which is you have people and agents that
+- [25:53] may have seats or may have core seats
+- [25:54] and so I think the modernization
+- [25:56] strategy will be hybrid. So it will both
+- [25:58] be potentially you know core seats but
+- [26:01] as AI does more work you will need less
+- [26:04] seats. So the other half of the hybrid
+- [26:06] monetization is seats plus credits and
+- [26:09] that shifts that shifts work more from
+- [26:12] like paying for software as paying for
+- [26:15] outcomes and work. So you've seen a lot
+- [26:17] of different pricing models happening in
+- [26:18] the market today, but um that concept of
+- [26:21] a hybrid monetization model where you
+- [26:23] still protect permissions, you have
+- [26:25] seats uh and then you monetize on
+- [26:27] outcomes and credits. I think that combo
+- [26:30] we'll see more of going forward.
+- [26:32] >> Okay. Yeah. I guess the dumb thing over
+- [26:33] the last decade or more has been like
+- [26:36] the SAS model where you pay your monthly
+- [26:38] subscription per person. I guess because
+- [26:40] generative AI stuff especially agents
+- [26:41] can be more expensive or more uh
+- [26:44] variable in terms of the costs. I think
+- [26:46] yeah the usage pricing seems to be a lot
+- [26:48] more popular there.
+- [26:49] >> Yeah, I think it'll be a bit of both
+- [26:50] like because permissions is going to be
+- [26:52] so important. You might have
+- [26:54] subscription pricing per month which is
+- [26:56] access to feature sets or capabilities
+- [27:00] and then it's ideally outcomes and value
+- [27:02] is tied to you know how much you want
+- [27:05] your pricing tied to value and outcomes.
+- [27:07] >> Okay. Okay. So, outcome pricing, would
+- [27:08] that be like if you got a customer
+- [27:10] service bot, then it's uh charged by the
+- [27:13] number of tickets it closes or something
+- [27:14] like that?
+- [27:15] >> Yeah, that might be it. But I think
+- [27:17] there's a lot of different pricing
+- [27:18] models and like thinking right now. And
+- [27:20] again, for for for me and for us, it
+- [27:23] really is like perceived customer value
+- [27:25] to uh what people are willing to pay.
+- [27:28] And so that is the easiest version of
+- [27:30] customer agent, which is support tickets
+- [27:32] resolved. But there could be many
+- [27:33] different reasons why you have support
+- [27:35] tickets like that high. for instance,
+- [27:36] maybe it's an instant or something else.
+- [27:38] So those are all factors I think that
+- [27:40] need to be considered when people start
+- [27:42] thinking about outcomes or value based
+- [27:43] pricing.
+- [27:44] >> Okay. All right. So uh since you
+- [27:45] mentioned uh outcomes that gives you an
+- [27:47] idea. So we were talking about agents as
+- [27:49] being team members would you have some
+- [27:51] kind of performance review for for your
+- [27:54] agents like uh I mean if if you're
+- [27:56] monitoring tracking outcomes then I
+- [27:58] guess there's some way of saying this is
+- [28:00] how well the agents performing. Talk me
+- [28:02] through how do you do that? How do you
+- [28:04] evaluate the performance of your agents?
+- [28:06] >> Yeah, I so I think so you know one of
+- [28:09] the important tools that are happening
+- [28:10] around AI right now are eval
+- [28:16] like how do you create an eval system
+- [28:18] for an agent and the answer especially
+- [28:20] in the non-deterministic world like
+- [28:22] you're not exactly sure what they're
+- [28:24] going to ask. there's going to be an
+- [28:25] answer that's roughly in the same shape.
+- [28:27] But how do you build an eval system that
+- [28:28] is like, "Okay, you've got it. You've
+- [28:30] nailed it." Like, you know, maybe the
+- [28:32] first bar is like there's pure accuracy
+- [28:34] that like gives you answers back that it
+- [28:37] knows is true and relevant, never makes
+- [28:39] anything up. So like easiest bar and
+- [28:42] then the harder bar is like if it's
+- [28:44] nondeterministic, how do you determine
+- [28:45] that the range of this answer was like
+- [28:48] roughly in the right spot? I think eval
+- [28:50] and AI systems are becoming increasingly
+- [28:52] important. And I think you'll see almost
+- [28:54] every product, you know, have some way
+- [28:55] of eval evaluating, hey agent, did you
+- [28:59] do your job the way you were meant to do
+- [29:00] it? And do I need to give you more
+- [29:02] context? Did you make stuff up? Um or
+- [29:04] did you actually help a customer like
+- [29:06] resolve what they were looking for?
+- [29:07] >> Yeah. Are you seeing humans having to do
+- [29:09] the evaluation of agents or is there way
+- [29:11] for other agents to evaluate agents or
+- [29:14] what's the current best practice?
+- [29:15] >> Yeah, I'm seeing both. Like I definitely
+- [29:16] see humans creating eval systems and
+- [29:19] then you can you can write in like even
+- [29:21] today internally for us like you can
+- [29:23] write an eval agent that looks across
+- [29:25] its other teammates and uh kind of holds
+- [29:28] them to a high bar of if they're doing
+- [29:30] their job. So you'll see a mix of both
+- [29:32] for sure like right now I see a lot of
+- [29:34] human in the loop to make sure um human
+- [29:37] in the loop both in terms of how we
+- [29:38] interact with AI. So iterating on
+- [29:40] something that you've asked about and
+- [29:42] then going deeper. I use AI myself like
+- [29:44] that way and then you'll see human in
+- [29:46] the loop with evals as we teach agents
+- [29:48] how to eval other agents.
+- [29:49] >> Okay, nice. So, uh I guess eventually
+- [29:52] you want it to be mostly automated with
+- [29:53] other agents doing it, but you probably
+- [29:55] need a human in the short term. I guess
+- [29:57] just thinking about it like human messes
+- [29:59] up their performance review. Worst
+- [30:01] that's going to happen, you get fired.
+- [30:02] Agent messes up a performance for you.
+- [30:04] That's getting turned off permanently.
+- [30:06] It's an existential risk for the agent.
+- [30:08] >> Which one's worse? It's better for an
+- [30:10] agent to have existential risk. Uh yeah,
+- [30:11] but I I think so.
+- [30:14] Uh yeah, I certainly don't want a
+- [30:15] situation where like humans are getting
+- [30:16] turned off for the performance review.
+- [30:19] Um okay. All right. So uh I'm curious as
+- [30:21] to how far you can push this like um so
+- [30:24] do you have a sense of like what
+- [30:25] fraction of work sort of longterm is
+- [30:27] going to be done by humans? What
+- [30:28] fraction gets done by agents? Like how
+- [30:30] much can you realistically outsource to
+- [30:33] AI? I I always believe that there will
+- [30:35] be in a world where kind of humans lead
+- [30:36] and AI accelerates and the kind of the
+- [30:40] magic of humans and how creative and
+- [30:42] breakthroughs like that is still going
+- [30:44] to be there. So I don't know what the
+- [30:46] exact percentage will end up being but I
+- [30:48] think higher order work will happen. So
+- [30:51] a lot of times today I think humans do
+- [30:54] repetitive and manual work and I think
+- [30:56] all of that will be gone. So almost as
+- [30:58] agents get better and better and more
+- [30:59] autonomous, they will drive humans to do
+- [31:02] even more and more. And like I'm I'm
+- [31:04] excited to see what kind of
+- [31:05] breakthroughs humans will do. So I
+- [31:07] definitely believe like there's going to
+- [31:08] be a a human accelerated AI world versus
+- [31:11] like purely autonomous.
+- [31:13] >> Yeah, I I guess it's good that there is
+- [31:14] going to be something left for for
+- [31:15] humans in the end. So
+- [31:16] >> there's room for us.
+- [31:19] >> Suppose uh you want to get started with
+- [31:21] this. want to like really uh push hard
+- [31:23] and create some agents, get them um
+- [31:26] doing new work. Where do you begin? Like
+- [31:28] what's step one?
+- [31:29] >> Step one is still the blueprint. Like
+- [31:30] you know, you're a data guy. It's uh
+- [31:32] unite your data. Unite your context. Um
+- [31:35] some of it will start with things like a
+- [31:36] source of truth like a CRM and CRM is
+- [31:39] they get smarter. They're going to do it
+- [31:40] for you, but you'll still always have
+- [31:42] siloed tools. And so connecting your
+- [31:44] data should get easier and easier. Um
+- [31:46] cleaning up your data if you're coming
+- [31:47] from legacy systems or like actually any
+- [31:49] system, right? Like we coined the term
+- [31:50] inbound marketing where it was you get
+- [31:52] form submissions once you put your value
+- [31:53] online. How many of those forms are
+- [31:55] half- filled? How many of those names
+- [31:57] are still messed up? You know, how many
+- [31:58] duplicates do you have? And so getting
+- [32:00] your data clean. That's step one. Step
+- [32:03] two is then okay uh deciding which
+- [32:06] agents you want in your team or what
+- [32:08] kind of jobs you know I've seen both
+- [32:10] sides which is are there jobs you want
+- [32:12] to get done or are there uh human roles
+- [32:18] that you want to hire for and that you
+- [32:20] are looking to have an agent for
+- [32:23] determine where you want that use case
+- [32:25] and then train your agent. So again,
+- [32:27] it's giving your agent context and then
+- [32:29] putting it in, you know, putting in kind
+- [32:31] of in production. But a lot of people
+- [32:33] will test out an agent first, see how it
+- [32:35] is or data agent that I mentioned to you
+- [32:37] is really good at making sure your
+- [32:40] custom data. So like if I care a lot
+- [32:42] about for every company in my CRM, if I
+- [32:45] care about their top product, who their
+- [32:47] top competitors are, and every funding
+- [32:49] round, I can just tell the agent, please
+- [32:52] watch for those three things. and then
+- [32:54] every time new information comes in from
+- [32:56] the web or from earnings it will
+- [32:58] populate your CR. So you know making
+- [33:01] sure that you have like a great system
+- [33:02] around you and then deploying those
+- [33:04] agents.
+- [33:05] >> Okay. So uh your point about um if you
+- [33:08] are hiring for something is uh you said
+- [33:12] that might be a thing where you want to
+- [33:14] incorporate an agent. So is that the
+- [33:16] idea like okay well we're a bit resource
+- [33:17] constrained we think we might need to
+- [33:19] hire for this particular role therefore
+- [33:22] we start trying to create an agent to
+- [33:23] outsource or some of the work to AI
+- [33:26] there before we start hiring is is that
+- [33:28] your suggested flow
+- [33:29] >> that is one suggested flow but I think
+- [33:32] what I'm seeing with people adopting
+- [33:33] agents today is usually there's a
+- [33:35] there's a thing eminent in front of you
+- [33:37] so you know it's it's just picking a
+- [33:39] single business process that you might
+- [33:41] want to augment or or change with AI so
+- [33:44] for instance And we've really been
+- [33:46] seeing the marketing funnel change.
+- [33:48] Essentially, the old playbook just
+- [33:50] doesn't work anymore. You know, search
+- [33:52] is coming from different mechanisms, not
+- [33:54] just kind of search engines. And so,
+- [33:56] that might be an eminent thing that
+- [33:58] people want. So, how do you one create
+- [34:00] more personalized or tailored outreach
+- [34:03] or how do you find search traffic? And
+- [34:06] so like I would say my my advice is
+- [34:09] probably pick one process that is not
+- [34:12] working the way that you want and think
+- [34:14] about how AI can augment it. That might
+- [34:17] be a place that you'll find an
+- [34:18] opportunity for an agent or a co-pilot.
+- [34:21] >> Okay. Uh so yeah, I'd love to talk about
+- [34:23] how you go about re-engineering these
+- [34:24] processes, but you just terrified me
+- [34:25] slightly with the marketing funnel is
+- [34:27] broken. So talk me through how how do
+- [34:30] you fix your marketing funnel then?
+- [34:31] Yeah, you know, we coined inbound
+- [34:33] marketing in the cloud disruption and it
+- [34:35] was really about bringing value out. I
+- [34:38] think we're seeing a new funnel or a new
+- [34:40] way to market. So, what we're
+- [34:42] introducing, you know, for an AI era is
+- [34:46] a different kind of of marketing
+- [34:48] playbook. And that playbook is called
+- [34:51] the loop where you have kind of four
+- [34:53] phases and it's very dynamic and it
+- [34:56] needs to think about like how you would
+- [34:58] use AI in each of those loops. But the
+- [35:00] first one is around can you express very
+- [35:02] clearly who you're trying to reach? You
+- [35:04] know, one of the reasons I mentioned
+- [35:05] lookalike audiences is it is possible
+- [35:08] now to find cohorts in similar areas. So
+- [35:11] can you express what you're looking for
+- [35:13] in your core ICP? Let's say I'm looking
+- [35:16] for, you know, leaders that are in the
+- [35:18] education segment, but I also sell to
+- [35:21] the healthcare segment. I want to be
+- [35:23] able to find those folks and then
+- [35:25] personalize to both segments. And so
+- [35:27] express is the first part of that loop.
+- [35:29] Then you might want to tailor it to say
+- [35:31] I want to reach specific people and what
+- [35:33] would that look like and then I want to
+- [35:34] amplify it which is um not only do I
+- [35:37] want to reach these people but I want to
+- [35:38] reach them in wherever they are. So a
+- [35:41] lot of search results in that funnel is
+- [35:42] coming from LLMs today. So how can I
+- [35:45] create content that can be discovered in
+- [35:47] LLM? LLMs like if you look across you
+- [35:50] know a lot of what we've learned um LLM
+- [35:53] prioritize things like community
+- [35:54] influence content like Reddit. it
+- [35:57] influences you know certain types of
+- [35:59] content and if I could craft my content
+- [36:01] the same way I did an inbound which was
+- [36:03] on a website I could do that for an LLM
+- [36:05] and that is that is something we're
+- [36:06] calling you know that you're seeing
+- [36:07] across the industry that's called AEO
+- [36:09] which is you know AI engine optimization
+- [36:12] a little bit different than SEO so while
+- [36:14] the old SEO funnel is broken I believe
+- [36:16] there's a new funnel and that new funnel
+- [36:18] probably looks more like AEO
+- [36:20] >> okay uh that's fascinating so yeah SEO
+- [36:23] is sort of fairly well understood at
+- [36:25] this point also again a little bit scary
+- [36:27] that all the dumb comments I've made on
+- [36:29] Reddit now being associated with my name
+- [36:32] going straight into chat TV and Claude
+- [36:34] and all the rest. Yeah. Uh that's
+- [36:36] terrifying, but uh good to know, good to
+- [36:37] be aware of, I think, for a lot of
+- [36:39] people. We were talking before about uh
+- [36:41] process re-engineering. So, how do you
+- [36:44] go about changing your processes to
+- [36:45] incorporate these AI agents? I'm sure
+- [36:47] it's not as simple as just like, oh,
+- [36:49] let's switch out a human for AI here.
+- [36:51] >> Yeah. No, it's not. I think uh I think
+- [36:53] you people have to try it. And so it's
+- [36:55] nice to pick targeted problems and then
+- [36:58] you know we do a lot of what we call
+- [36:59] proof of concepts and the proof of
+- [37:01] concepts might be okay we know the
+- [37:03] funnel's changed we know the source of
+- [37:04] that traffic is coming from LLMs like we
+- [37:07] know that content is changing and like
+- [37:08] there isn't an SEO playbook the same way
+- [37:10] there has been established writing cloud
+- [37:12] yet but I expect it to come um what are
+- [37:15] things that you would try and you know
+- [37:17] once you try a set of things and AI
+- [37:19] works then I would you know I would
+- [37:22] start replacing it so for instance or or
+- [37:24] I would Okay. The other thing I've seen
+- [37:25] people do is give people the impossible
+- [37:27] task, which is could you do this, you
+- [37:30] know, like if there's a new idea for a
+- [37:32] project, can can the project be done at
+- [37:35] a faster speed with less resources if
+- [37:38] you used AI? And simply kind of giving
+- [37:40] that as a constraint, which is almost
+- [37:41] like an impossible task. It's been
+- [37:44] amazing to see what teams can do um and
+- [37:46] in what time frame. That's the other
+- [37:47] route I would like suggest which is
+- [37:49] almost the inspire others with the
+- [37:51] impossible task and people break the box
+- [37:53] with it which is super fascinating.
+- [37:55] >> Yeah, I mean I do like the idea of just
+- [37:56] trying stuff and maybe uh it is a case
+- [37:59] of do something completely different and
+- [38:01] solve that impossible task and then
+- [38:04] share share what you've done with
+- [38:05] everyone else. I think everyone's kind
+- [38:07] of struggling with this problem at the
+- [38:09] moment. So I guess communication uh is
+- [38:12] an incredibly important aspect of this.
+- [38:14] So yeah, do you have any advice on like
+- [38:15] how you uh share your wins across your
+- [38:19] organization?
+- [38:20] >> Uh we do it in a structured way. So we
+- [38:22] might say, hey, there's like four
+- [38:23] hypotheses we're kicking off. All of
+- [38:25] them deserve a proof of concept. We're
+- [38:27] going to have that proof of concept
+- [38:28] team. It might be a virtual team across
+- [38:29] different disciplines and then they get
+- [38:31] six weeks and then in six weeks we look
+- [38:34] across all the proof of concepts and
+- [38:35] like what did you set out to do and did
+- [38:38] it work? So for instance, we use a
+- [38:40] version of like we use our customer
+- [38:42] agent to resolve support tickets and it
+- [38:44] is dramatic how many support tickets it
+- [38:47] was able to resolve but that uncovered
+- [38:49] the next level which is oh wow we're
+- [38:51] getting we're getting more complex
+- [38:53] requests now and so how do we think
+- [38:55] about the team that way? So I think of
+- [38:57] it as like have I set a hypothesis of
+- [38:59] what you want to achieve give them the
+- [39:00] impossible task do a proof of concept
+- [39:03] have a six week like give it a time
+- [39:04] frame because people can do amazing
+- [39:07] things in limited amount of times and
+- [39:10] then see which ones worked and which
+- [39:11] ones didn't once ones work scale it out
+- [39:14] and so that's how we're doing we're
+- [39:15] doing that on a repeat
+- [39:16] >> okay uh I like that um and yeah I think
+- [39:19] the time boxing is incredibly important
+- [39:21] otherwise you know this thing can go on
+- [39:22] forever
+- [39:23] >> it takes forever right and there's no
+- [39:24] way to like uh there's no way to check
+- [39:26] in on the learnings and that's what
+- [39:27] really you're looking for in the proof
+- [39:28] of concepts. You're looking for the
+- [39:29] learnings.
+- [39:30] >> Okay. Is Yeah. Have have your employees
+- [39:32] learned how to do something new and
+- [39:34] maybe that's even more important than
+- [39:36] just like the thing they built.
+- [39:38] >> Yeah. We also leave time. So sometimes
+- [39:40] it can feel super overwhelming with like
+- [39:42] the number of AI tools coming out and so
+- [39:44] we leave employees time. Like we have
+- [39:46] something called we call grow day where
+- [39:48] we might be like okay we're to train
+- [39:49] everybody and then like try it in your
+- [39:51] own craft. Um share different wins. We
+- [39:54] have Slack channels that are called AI
+- [39:56] Fluency or Grow Fridays. Those are fun
+- [39:58] ways to share things and then give
+- [40:00] people time to like um try and learn. Um
+- [40:03] once you get the aha moment in something
+- [40:04] that you're doing yourself, it it's it's
+- [40:07] dramatic, you know, how how powerful it
+- [40:10] could be.
+- [40:10] >> I I do love the idea of just like give
+- [40:12] people time to learn and experiment and
+- [40:14] and try new things. Suppose it all goes
+- [40:17] well. You push hard on AI agents, it
+- [40:19] works. What does success look like to
+- [40:21] you?
+- [40:21] >> Success looks like the outcome. So, it
+- [40:23] kind of depends. Like some of the agents
+- [40:25] are as easy to understand as like the
+- [40:28] support ticket one. You know, some of
+- [40:30] the agents like I even run in my
+- [40:31] day-to-day job is I run agents over my
+- [40:33] inbox. And so, you know, for me it's
+- [40:35] like SLA like how many how many emails
+- [40:39] from my executive team and am I taking a
+- [40:42] really long time to reply to? Um those
+- [40:44] are like small things across the board.
+- [40:46] You know, another agent would be like
+- [40:47] the prospecting agent for instance. uh
+- [40:49] we have about a 17,000 person wait list
+- [40:51] on the prospecting agent but the
+- [40:53] prospecting agent is trying to find
+- [40:56] cohorts of customers that are very
+- [40:58] interesting. So that might mean uh we
+- [41:01] have something we call research intent.
+- [41:03] So because we have had inbound marketing
+- [41:06] we have all these websites that people
+- [41:07] are all over the internet are like doing
+- [41:09] things and so when you shop for a
+- [41:11] product you're starting to shop for a
+- [41:13] problem before you decided which product
+- [41:15] to buy. And so that's a research intent
+- [41:18] that you are in the market for, you
+- [41:21] know, new plants, for instance. I see
+- [41:23] your plants behind you. You're in the
+- [41:24] market for like new plants that don't
+- [41:25] take a lot of water. And so as you start
+- [41:28] looking for that in search engines, the
+- [41:30] website, and LLMs, like to us, that's
+- [41:33] research intent. So that research intent
+- [41:35] is built into the prospecting agent.
+- [41:37] It's built into the CRM by default. And
+- [41:40] you can start finding these signals now.
+- [41:42] And so prospecting agents measure of
+- [41:43] success, number of media books, number
+- [41:46] of customers or reaches, highv value
+- [41:49] customers that are reaches. And so like
+- [41:51] what kind of outcome are you looking for
+- [41:53] when you start bringing an agent into
+- [41:55] play?
+- [41:55] >> No, that's very interesting. Uh the idea
+- [41:57] that like as soon as someone starts
+- [41:58] searching for something that's intentive
+- [42:00] research, like they might want to buy
+- [42:01] something in the future and therefore
+- [42:03] they're already feeding into uh all of
+- [42:06] your systems. Yeah. and prospecting
+- [42:08] agent can monitor monitor the internet
+- [42:10] better than you can. So, you know, it
+- [42:12] kind of gives you that like these set of
+- [42:15] people are starting to look for, you
+- [42:17] know, new parts.
+- [42:18] >> Wonderful. Uh, all right. So, uh, as we
+- [42:20] sort of close off, um, what are you most
+- [42:22] excited about in the world of data and
+- [42:23] AI at the moment?
+- [42:25] >> Oh, I'm I am really excited about hybrid
+- [42:27] teams because, you know, I don't believe
+- [42:29] in a world that humans are just
+- [42:30] obliterated. You know, it really will be
+- [42:33] the kinds of things that make us u more
+- [42:35] creative. Um, I love the craft of like
+- [42:39] creating things. You know, I'm a product
+- [42:41] person. So, I think uh I'm most excited
+- [42:43] about that, which is what AI enables us
+- [42:45] to do that wasn't possible today. Like
+- [42:47] even in that research intent example,
+- [42:50] that would be really really hard to
+- [42:52] build. But it makes me a better it would
+- [42:54] be make me a better salesperson. It
+- [42:55] would make me a better product person
+- [42:57] just to understand that, you know, the
+- [42:59] majority of people now are starting to
+- [43:00] look for this type of thing. So, I'm
+- [43:02] excited about what other opportunities
+- [43:04] AI unlocks. Absolutely. Yeah. Uh so
+- [43:07] hopefully we'll see a few more uh human
+- [43:09] agent hybrid teams in the future and
+- [43:12] yeah uh some great products to support
+- [43:14] that. Uh and finally um I always want uh
+- [43:16] new people to follow. So whose research
+- [43:19] are you most interested in at the
+- [43:20] moment?
+- [43:21] >> I love Lenny Richitzky's stuff. So, you
+- [43:24] know, there's a a series that he's just
+- [43:26] started called How I AI and uh I think
+- [43:29] that's a really interesting kind of
+- [43:30] podcast and others to learn about how
+- [43:32] you can practically apply AI in your
+- [43:34] daily life.
+- [43:35] >> Okay. Yeah, certainly uh practically
+- [43:36] applying stuff very very useful uh even
+- [43:38] more so than the theory often times.
+- [43:40] Wonderful. Thank you so much for your
+- [43:41] time, Karen.
+- [43:42] >> Awesome. Thank you so much. Great
+- [43:43] meeting you, Richie.
+- [43:48] Heat. Heat.
+- [43:50] [Music]

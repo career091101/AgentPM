@@ -1,0 +1,687 @@
+---
+title: "If you're still using chat GPT, then honestly you're falling behind. In the past few months, there h..."
+video_id: "ayUZdS3ikqQ"
+video_url: "https://www.youtube.com/watch?v=ayUZdS3ikqQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  If you're still using chat GPT, then
+  honestly you're falling behind. In the
+  past few months, there have been some
+key_points:
+  - "Chat GPT out of the water. Now, in this"
+  - "do exactly in this video is give you a"
+  - "can copy directly for yourself."
+  - "lot of other things that you can do with"
+  - "this tool, but these I think will"
+  - "capabilities and then you can see for"
+  - "you can get the most productivity out of"
+  - "this works. All right, so I'm inside of"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: ayUZdS3ikqQ
+
+- URL: https://www.youtube.com/watch?v=ayUZdS3ikqQ
+- Retrieved at: 2025-12-30T11:33:24+09:00
+
+## Text
+
+- [00:00] If you're still using chat GPT, then
+- [00:02] honestly you're falling behind. In the
+- [00:05] past few months, there have been some
+- [00:06] insane AI platforms that have been
+- [00:08] released that honestly completely blow
+- [00:10] Chat GPT out of the water. Now, in this
+- [00:13] video, I'm going to show you one of
+- [00:14] those called GenSpark. What I'm going to
+- [00:16] do exactly in this video is give you a
+- [00:18] tutorial, show you how it works, and
+- [00:20] walk you through some use cases that you
+- [00:22] can copy directly for yourself.
+- [00:25] Specifically, we're going to have a look
+- [00:26] at things like AI slides, AI developer,
+- [00:30] AI designer, AI sheets, or kind of like
+- [00:32] AI Google Sheets or Excel, and then even
+- [00:34] how to generate an AI podcast. There's a
+- [00:37] lot of other things that you can do with
+- [00:38] this tool, but these I think will
+- [00:40] highlight kind of the diverse
+- [00:41] capabilities and then you can see for
+- [00:43] yourself how you want to use it and how
+- [00:45] you can get the most productivity out of
+- [00:47] it. So, with that said, let's go over to
+- [00:49] the computer and let me show you how
+- [00:50] this works. All right, so I'm inside of
+- [00:52] the GenSpark workspace here, and I'm
+- [00:54] just going to go over kind of a
+- [00:55] high-level view of the UI and some of
+- [00:57] the features that it has, and then we'll
+- [00:59] get into those different use cases that
+- [01:01] I mentioned. Now, you can access this by
+- [01:03] simply going to genpark.ai
+- [01:05] or you can click the link in the
+- [01:07] description and get access to some free
+- [01:08] credits so you can evaluate the tool
+- [01:10] because I did partner with GenSpark for
+- [01:12] this video. Now, a few things that you
+- [01:14] should know about this platform is that
+- [01:16] this was built by 30 people, which is
+- [01:18] not a lot. And in just 6 months, this
+- [01:21] business hit a $1 billion valuation,
+- [01:24] which is honestly ridiculous, even in
+- [01:26] Silicon Valley. And you're going to see
+- [01:27] why in this video, because of all of the
+- [01:29] capabilities that this has. Now, in
+- [01:32] terms of pricing, cuz I know a lot of
+- [01:33] you will ask that. This is $20 per month
+- [01:35] if you pay annually or $25 per month if
+- [01:38] you pay on a monthly basis. And this
+- [01:41] replaces a significant amount of the AI
+- [01:43] tools that you probably already use. So
+- [01:45] you have access to GPT models, Gemini
+- [01:48] models, image and video generation
+- [01:50] models, etc., etc. Even as you can see
+- [01:52] on screen here, you have unlimited use
+- [01:54] of Nano Banana Pro, which a lot of
+- [01:56] people have been going on about
+- [01:57] recently. And you're going to see why
+- [01:59] this is probably worth using because it
+- [02:01] combines all of the tools you probably
+- [02:03] pay for separately and have in different
+- [02:05] windows in one. Okay, so let's quickly
+- [02:08] go through the UI. First thing you'll
+- [02:09] notice is that this is kind of like the
+- [02:11] general agent view here. So you can just
+- [02:13] ask this something like you would ask
+- [02:14] chatgpt and then it can connect to
+- [02:16] various integrations. So I have it
+- [02:18] connected to my Gmail, Google drive,
+- [02:20] Google calendar and notion. And if you
+- [02:22] go here you'll see there's a bunch of
+- [02:24] other ones you can connect to as well
+- [02:25] like Slack, One Drive, etc. You also can
+- [02:28] have all of these different MCP servers.
+- [02:30] You can see there is a ton or you can
+- [02:33] add your own. Now, the interesting thing
+- [02:35] about GenSpark, at least in my opinion,
+- [02:37] is the use of the AI drive and kind of
+- [02:40] the hub or like workspace. So, you'll
+- [02:42] see here that there's a huge list of
+- [02:44] files that I've been using within
+- [02:46] GenSpark that are automatically
+- [02:47] downloaded and saved for me. You can see
+- [02:50] it's actually organized them into
+- [02:51] folders. And what I like about this is
+- [02:53] that I don't need to just keep dragging
+- [02:54] and dropping different files and
+- [02:56] referencing stuff from my own Google
+- [02:58] Drive or my own file system. It all just
+- [03:00] gets stored directly inside of here. And
+- [03:02] I also can go to my hub and I can
+- [03:05] organize various different files into
+- [03:07] kind of separate hubs or workspaces. So
+- [03:09] if I'm working with coding or if I'm
+- [03:11] working with my YouTube channel or legal
+- [03:12] accounting, etc., I can keep that
+- [03:14] organized and then directly reference
+- [03:16] that inside of my chats. Lastly, we also
+- [03:19] have the AI inbox, which I think is a
+- [03:21] useful feature. I've just connected this
+- [03:22] to my Dev Launch email. So because of
+- [03:25] that, GenSpark will have direct access
+- [03:27] to the email. It will be able to see all
+- [03:29] of the different stuff that is coming
+- [03:30] in. It can reply to the emails directly.
+- [03:33] You guys get the idea. So I can even
+- [03:35] just reference new email here and I can
+- [03:36] use AI to generate that of course. Okay.
+- [03:39] So let's go back here to home. I just
+- [03:41] want to quickly show you kind of the
+- [03:43] basic agent usage and then we'll get
+- [03:45] into those different workflows that I
+- [03:46] mentioned. So first I'm just going to
+- [03:47] say can you read my recent emails and
+- [03:52] give me any action items? Okay. So let's
+- [03:56] go ahead and do that and see the
+- [03:58] response that we get. Okay. Okay, so you
+- [03:59] can see that after doing that, I was
+- [04:00] able to read through some of my emails
+- [04:02] and then came up with a task list. I
+- [04:04] don't want to show you the other ones
+- [04:05] because these are kind of personal and I
+- [04:07] can't really leak that information. But
+- [04:08] for example, you can see that I'm
+- [04:10] working on like two new YouTube videos
+- [04:11] and I had a call with someone from image
+- [04:13] kit because it's a really cool uh kind
+- [04:15] of module that we're going to be using
+- [04:16] and we're kind of talking about what we
+- [04:18] need to do in the timeline, action
+- [04:19] items, etc. So just quick kind of simple
+- [04:21] usage of Super Age and of course it can
+- [04:23] do a lot of other stuff. We wanted to
+- [04:25] show you that's like the most basic way
+- [04:27] you could use this platform. So now I
+- [04:29] want to start walking through that flow
+- [04:31] that I talked about before. What I'm
+- [04:33] going to do is go to plus and I'm going
+- [04:35] to go to AI slides. You'll see there's a
+- [04:37] bunch of other options here. Feel free
+- [04:39] to explore them on your own. But let's
+- [04:40] click on AI slides and see what we can
+- [04:42] generate here. Okay. So when we do that,
+- [04:44] it's going to bring up a bunch of
+- [04:45] different templates. If there's one that
+- [04:47] catches our eye, we can select that and
+- [04:49] then we can just give this kind of a
+- [04:50] prompt on what we want it to create. So
+- [04:52] let me do that and let me show you a
+- [04:53] finished kind of presentation. All
+- [04:55] right. So what I've done here is I've
+- [04:56] taken a document that I had that is just
+- [04:58] a bunch of information about my dev
+- [05:00] launch program and I've just told it hey
+- [05:02] you know create a PowerPoint slide for
+- [05:04] this. I dumped all of the data and then
+- [05:06] it started actually creating an outline
+- [05:08] for the document and then generating the
+- [05:10] slides using HTML and CSS. So it's
+- [05:13] pretty interesting the way that it does
+- [05:14] this. It actually writes code for every
+- [05:16] single slide with all of the custom
+- [05:19] styling which allows it to make
+- [05:20] something really unique and not just
+- [05:22] follow kind of like a preset template.
+- [05:24] So you can see we have you know dev
+- [05:25] launch the fourmonth career accelerator.
+- [05:28] All the slides are pretty unique and
+- [05:29] different and we can kind of scroll
+- [05:31] through it and see everything that it's
+- [05:33] generated. Now we also have all these
+- [05:35] different save points. So I can go back
+- [05:37] to previous stages. I can view the code.
+- [05:39] I can view the thinking and then if I
+- [05:41] want to make any adjustments to this I
+- [05:43] can by simply using some of the buttons
+- [05:45] that we have here just directly talking
+- [05:47] inside of the chat. I also can save it
+- [05:49] to notion export it etc. So, for
+- [05:52] example, let's go with kind of AIedit
+- [05:54] here. Let's just press on polish
+- [05:56] content. When we do that, it's just
+- [05:58] going to automatically make this look a
+- [06:00] little bit nicer. But if we wanted to,
+- [06:01] like you saw, we could tell it directly
+- [06:03] the changes we wanted it to make. Okay,
+- [06:05] so it's in the middle of doing this
+- [06:06] optimization. And you can see that it
+- [06:08] now obviously looks a lot better. It's
+- [06:09] created some icons here. And I just want
+- [06:11] to show you that what it actually ends
+- [06:13] up doing is it takes a screenshot of the
+- [06:15] slide to see what it looks like and then
+- [06:17] validates that this is what it was going
+- [06:19] for. And if it didn't get the correct
+- [06:21] result, then it regenerates it again. So
+- [06:23] you can see I'll take a screenshot of
+- [06:25] the enhanced visual presentation. It did
+- [06:27] that and then was okay. Yes, this looks
+- [06:28] good. You know, we don't need to go any
+- [06:30] further. We're good to go. Okay, so
+- [06:32] that's it from the slides. Now, if I
+- [06:34] wanted to actually use this, I can
+- [06:35] simply export it. So I'll just go to the
+- [06:37] export button. From here, it actually
+- [06:39] brings me into another view where I can,
+- [06:41] of course, download as PDF, you know,
+- [06:43] PowerPoint, Google Slides, but I also
+- [06:45] can just directly view the slides here
+- [06:47] and play them. So I can kind of have
+- [06:48] like this what do you call it? I don't
+- [06:50] know slideshow viewer directly in my
+- [06:52] browser which I think is pretty
+- [06:54] interesting and is still on the Gen
+- [06:55] Spark domain. Okay, so that's it for the
+- [06:58] AI slides. Let's go back here and now
+- [07:01] let's go and have a look at the AI
+- [07:03] developer which I think for a lot of you
+- [07:04] will be a bit more interesting. Okay, so
+- [07:06] when you click into the AI developer,
+- [07:08] the first thing it's going to show you
+- [07:09] is a few different options in terms of
+- [07:11] what app you want to create. You can
+- [07:13] make a simple landing page. You can make
+- [07:14] a full stack app. You can use an
+- [07:16] existing GitHub project. In our case,
+- [07:18] I'm going to go with a full stack
+- [07:19] application. And actually, what I want
+- [07:21] to create here is a language learning
+- [07:24] application that has accounts, progress
+- [07:26] tracking, list of words, flashcards, and
+- [07:29] I want this to help me learn Bahasa
+- [07:31] Indonesia. Now, the reason for that is
+- [07:33] I'm currently in Indonesia. I'm actually
+- [07:35] in Bali, if you can tell by my kind of
+- [07:36] new background here, and I've been
+- [07:38] slowly kind of learning the language.
+- [07:40] It's pretty easy one to learn. So, I
+- [07:41] think that's an interesting enough and
+- [07:43] kind of small enough demo that we could
+- [07:45] build here. So, I'll write it a quick
+- [07:47] prompt. I'll actually use Super Agent to
+- [07:49] help me come up with the outline and
+- [07:50] then we'll see what it can create for
+- [07:52] us. Okay, so let's go ahead and do that
+- [07:53] full stack app start building and go
+- [07:55] from there. All right, so it's been a
+- [07:56] few minutes here. You can see that this
+- [07:58] is the prompt that I ended up with.
+- [08:00] Again, what I did is I kind of just
+- [08:01] shared my thoughts on what I was looking
+- [08:03] for to Super Agent and then created a
+- [08:05] much more detailed outline for me. I
+- [08:07] just dumped that here into the AI
+- [08:09] developer and then a few prompts later
+- [08:11] as I did a few small tweaks it actually
+- [08:13] generated this entire website for us.
+- [08:16] Now from here we can view all of the
+- [08:17] code. So I can directly go into any of
+- [08:19] the files. In this case it's like with
+- [08:21] React and TypeScript and I could adjust
+- [08:23] any of the code myself. So like I could
+- [08:24] actually write directly inside of here.
+- [08:26] I can connect it to GitHub. I can deploy
+- [08:28] it. I can publish it right on the site.
+- [08:31] And the interesting thing about this is
+- [08:32] that it really does lower the barrier to
+- [08:35] entry to getting something out quickly.
+- [08:37] So while this isn't going to be used
+- [08:38] for, you know, super largecale
+- [08:40] enterprise software, if you're just
+- [08:41] trying to create an MVP, a proof of
+- [08:43] concept, get something out fast, and
+- [08:45] also have all of the deployment handled
+- [08:47] for you, I find that this works
+- [08:49] extremely well. And then if you want it
+- [08:50] to get a bit more complex, you can pull
+- [08:52] this down with GitHub, load it up in
+- [08:54] your own local IDE, and do more of the
+- [08:57] complex kind of work and integrations
+- [08:59] there. But in my case, I didn't really
+- [09:00] have to do any manual intervention. You
+- [09:03] can see that it's actually able to
+- [09:04] create the database. It's creating
+- [09:05] indexes for me. It can run npm commands.
+- [09:08] It can seed the database. I was pretty
+- [09:10] impressed with what it was able to
+- [09:12] generate again with like two single
+- [09:14] prompts in about 15 minutes. So, what
+- [09:16] we'll do is open up the finished
+- [09:17] website. Uh we can see that it ended up
+- [09:19] naming this Bahasa cards. What I can do
+- [09:22] is log in. So, let me log into my
+- [09:24] account. Okay. And we can see that I've
+- [09:25] logged in here. we have uh some
+- [09:28] information on like our progress. So,
+- [09:29] you know, words learned, due today,
+- [09:31] reviews today, etc. I can click into one
+- [09:34] of these different kind of decks and
+- [09:36] then it will start showing me different
+- [09:37] words. So, hello in Indonesian. That's
+- [09:39] hello. Okay, so I'm going to go good.
+- [09:41] Yes, I knew that one. Sat pagi I think
+- [09:43] is like good morning or something. Yes,
+- [09:45] good morning. Okay, perfect. Let's mark
+- [09:46] that as easy. Salamat sang. I'm not sure
+- [09:49] what that is. Maybe like good day or
+- [09:52] something. Good afternoon. Okay, I'm
+- [09:53] going to go. I didn't know that one. So,
+- [09:54] we'll do that one again later. And you
+- [09:56] get the idea, right? We kind of have
+- [09:57] flashcards popping up. We can see the
+- [09:59] progress. We can track all of the stuff
+- [10:01] that we've done. We can start our
+- [10:03] review. And we can also browse through
+- [10:04] various categories. So, for example, I
+- [10:06] can view words related to like family. I
+- [10:09] can view words like for the greetings.
+- [10:11] And I know it seems pretty basic, but
+- [10:12] for 15 minutes to create this full
+- [10:14] application, have authentication, have
+- [10:17] an API, have a seated database, have a
+- [10:19] full dashboard that works, and have
+- [10:21] practically no bugs, at least from what
+- [10:22] I can see right now, is pretty
+- [10:24] impressive. And if I wanted to spend
+- [10:25] some more time on this, I think I could
+- [10:27] create a pretty interesting application
+- [10:29] that actually has a lot of capabilities.
+- [10:31] So, let's go back here to the UI. You
+- [10:33] also see that we have various scripts
+- [10:35] that we can use, a full tutorial on how
+- [10:37] this actually works and how we could
+- [10:39] deploy it out using Cloudflare. And then
+- [10:41] we can even view the metrics or various
+- [10:43] AI integrations. So if we wanted to have
+- [10:45] for example like an AI learning
+- [10:47] assistant directly on this site rather
+- [10:49] than us having to handle all the API
+- [10:51] keys ourself, we can do that directly
+- [10:53] with GenSpark where we can access the
+- [10:55] GPT5 models and it can handle the keys
+- [10:57] for us. For example, I can generate the
+- [10:59] key here and then it can just be used
+- [11:00] directly in our application with all of
+- [11:02] the deployment and security handled
+- [11:04] which I think is quite interesting.
+- [11:06] Again, not designed to replace a
+- [11:07] developer, but really to get something
+- [11:09] out extremely quickly and more
+- [11:11] importantly, handle the deployment of
+- [11:13] the app, which is typically the tricky
+- [11:15] thing to do, especially with kind of
+- [11:16] vibecoded applications. So, that is the
+- [11:18] AI developer. Now, let's go over to our
+- [11:21] AI designer. So, the AI designer is
+- [11:23] pretty straightforward. You can create
+- [11:25] pretty much anything that you want. You
+- [11:27] can attach reference images. You can use
+- [11:29] an example. So, like see if we go to
+- [11:31] social media, maybe we like one of these
+- [11:33] templates. We can just click it and we
+- [11:35] can start working. based off that
+- [11:36] directly or we can just ask the AI to
+- [11:38] just generate pretty much whatever we
+- [11:40] want. So, what I'm going to do is just
+- [11:42] show you a few examples of some things
+- [11:43] that I've generated with this designer
+- [11:45] so you can see kind of what's possible.
+- [11:47] Okay. So, here's a quick example where I
+- [11:49] just uploaded a bunch of images of
+- [11:51] myself kind of in Dubai where I was like
+- [11:53] renting a car, going to the Palm, etc.
+- [11:55] And I told it, you know, create a
+- [11:56] montage of these images for social media
+- [11:58] with AI edits and artifacts that have
+- [12:00] the caption of like, you know, day in
+- [12:02] the UAE. And you can see that it's
+- [12:04] created one vertical for me. It's
+- [12:05] created kind of a square one. It's
+- [12:07] created like a thumbnail image, created
+- [12:08] another vertical one. All a little bit
+- [12:10] different. But it's even done things
+- [12:12] like Photoshop the Burj Khalifa in the
+- [12:14] background of this image where it's not
+- [12:15] originally in that image. And it's what
+- [12:17] I don't know what's in the background
+- [12:18] there, but it's not Burj Khalifa. You
+- [12:20] can see it's selected kind of unique
+- [12:21] images rather than the same one over and
+- [12:23] over again. It's given me these cool
+- [12:25] kind of AI artifacts like futuristic
+- [12:28] look. Giving me the caption. And then if
+- [12:30] we scroll down and see how this actually
+- [12:32] worked, it was understanding the images
+- [12:34] that we uploaded and then also looking
+- [12:36] for a bunch of reference images for kind
+- [12:38] of like the AI artifacts to be able to
+- [12:40] generate this. Now, if I didn't like
+- [12:42] this for some reason, I can just click
+- [12:44] on it. I can do an AI edit. I can
+- [12:46] directly highlight something I want to
+- [12:47] change. I can add elements. I can remove
+- [12:50] the background. I can erase something. I
+- [12:52] can redraw. So, for example, maybe we
+- [12:54] want to erase something. Let's try this.
+- [12:56] And maybe let's like erase me here in
+- [12:59] the corner and see if it's able to do
+- [13:01] that. So, let's go apply and see if it
+- [13:03] can just kind of pull me out of that
+- [13:04] image. And there we go. We can see that
+- [13:06] it just removed me and then it's filled
+- [13:07] in the background to make it look kind
+- [13:09] of natural. Let's like zoom this in a
+- [13:11] little bit maybe so we can see it a bit
+- [13:13] better. And you'll notice that it
+- [13:15] doesn't even look like anything was ever
+- [13:17] there. And it was able to really easily
+- [13:18] remove me, which I think is a pretty
+- [13:20] cool feature to be honest that I haven't
+- [13:22] seen work that well in a lot of the
+- [13:24] other AI. Let's just move this over a
+- [13:25] bit and kind of zoom in. And again, we
+- [13:27] could play with these images and do
+- [13:28] really anything that we want. Now, let
+- [13:31] me show you a quick other example of
+- [13:32] something I use the AI designer for.
+- [13:34] Okay, so here's a quick example just
+- [13:36] loading up where I asked it to actually
+- [13:38] generate a 50% off banner for my Dev
+- [13:40] Launch resource vault. I didn't give it
+- [13:42] any reference images and you can see
+- [13:44] that it was able to generate a bunch of
+- [13:45] kind of examples here with different
+- [13:47] themes. What I then did is I looked at
+- [13:49] this one, which I thought was kind of
+- [13:51] most on brand, and I told it, hey, I
+- [13:53] want to make it in kind of this new
+- [13:55] color theme that matches the actual Dev
+- [13:57] Launch color theme. So, you can see this
+- [13:59] is the new one it was able to create.
+- [14:01] And it did that by, if we can see the
+- [14:03] prompt here, you know, please redesign
+- [14:04] as requested. And I had simply pressed
+- [14:06] on this, gone with the AI edit, uploaded
+- [14:09] a new reference image, which you can see
+- [14:11] right here, and said, you know, use this
+- [14:12] as a color reference and kind of change
+- [14:14] it to be this like orangey kind of gray
+- [14:17] color theme, which it was able to
+- [14:18] achieve. And then for all the text
+- [14:20] elements, we could just directly
+- [14:21] reference them, which makes that pretty
+- [14:22] easy. Uh, so that it's not going to get
+- [14:24] those incorrect. Overall, quite
+- [14:26] valuable. I'm not someone who needs a
+- [14:28] lot of design stuff, so I'm not the best
+- [14:29] to demo this particular feature, but I
+- [14:31] wanted to show you that it has all kinds
+- [14:32] of capabilities when it comes to image
+- [14:34] generation and design cuz I know a lot
+- [14:36] of you find that interesting. Okay, so
+- [14:38] now we're moving on to the AI sheets,
+- [14:40] which is a super cool feature that they
+- [14:42] have. To access it, you just go new,
+- [14:44] press on AI sheets. You can see it's a
+- [14:45] new feature here. And what you're able
+- [14:47] to do is actually start using AI
+- [14:50] directly inside of kind of Google Sheets
+- [14:52] or Excel to create any kind of sheet
+- [14:54] that you want. So you can see that we
+- [14:56] just have a blank sheet here, but I also
+- [14:58] can just upload a sheet and have it
+- [14:59] loaded directly inside of this, or I can
+- [15:02] have it just generate something
+- [15:03] completely from scratch. So what I've
+- [15:05] had to do in the past is I've had to
+- [15:07] have a Google sheet for like attendance
+- [15:09] tracking for my students in group calls.
+- [15:12] It was very annoying and difficult to
+- [15:13] create that sheet. So what I'm going to
+- [15:15] do is I'm going to see if the AI can
+- [15:17] actually generate that automatically for
+- [15:19] me. I'll go through a few prompts and
+- [15:21] kind of bring you along and let's see
+- [15:22] what the finished product looks like.
+- [15:24] So, it's been a few minutes here. I
+- [15:26] started by just asking it to create a
+- [15:28] new sheet that can track the attendance
+- [15:29] of students during group calls. And then
+- [15:31] you'll see what it did is I had it
+- [15:33] actually just randomly generate some
+- [15:35] student data as well. We have all of the
+- [15:37] kind of information about the students
+- [15:38] attendance percentages, how many calls
+- [15:40] they were absent for, present for. We
+- [15:42] have a call history summary, which isn't
+- [15:44] quite finished yet that I need to get it
+- [15:45] to complete. We have an attendance form,
+- [15:48] which allows me to enter the data and
+- [15:49] have it automatically added to the
+- [15:51] correct sheet. We have, let's go back
+- [15:53] here, the student roster where we list
+- [15:55] out all of the different students. And
+- [15:57] then we have the call log where all of
+- [15:59] this information gets actually tallied
+- [16:01] up and logged in that dashboard that you
+- [16:03] saw before. So overall, pretty cool.
+- [16:06] Now, just to show you kind of how this
+- [16:08] works, I can do something like make this
+- [16:11] look a lot nicer and add some graphs or
+- [16:16] something. Okay. and let's see what it's
+- [16:18] able to do now inside of the sheet with
+- [16:21] all of the data that exists. Okay, so
+- [16:22] it's still in the process of doing this,
+- [16:24] but you can see that it started
+- [16:25] generating a few different charts for me
+- [16:27] inside of the dashboard. Uh if we look
+- [16:29] at the student roster and the call,
+- [16:32] okay, it doesn't look like anything's
+- [16:33] changed there, but at least in the
+- [16:35] dashboard, it's given us kind of this
+- [16:36] new information and you can see that we
+- [16:38] have like kind of the nice styling,
+- [16:40] changed some of the colors, etc., etc.
+- [16:42] So, I'm not going to wait for it to
+- [16:43] fully finish, but just trying to show
+- [16:44] you that it can do this. Obviously, the
+- [16:46] more specific you are, the better
+- [16:48] results you're going to get. But
+- [16:49] overall, I think this is pretty cool and
+- [16:51] it would have saved me a massive amount
+- [16:52] of time when I was trying to build a
+- [16:54] tool like this previously doing it by
+- [16:56] hand manually. So, with that said, now
+- [16:58] let's move on to look at the AI podcast
+- [17:01] feature, which is pretty unique. Okay,
+- [17:02] so to get here, you go new and then go
+- [17:05] to AI. Where is it? AI pods over here.
+- [17:08] This allows you to generate a podcast
+- [17:10] about anything. You can be as specific
+- [17:13] or as vague as you want. You can give it
+- [17:15] the entire script. You can tell it to do
+- [17:17] research. You can tell it the voice, the
+- [17:18] style, etc. So, I already generated one
+- [17:21] because it does take a few minutes to do
+- [17:23] this. So, what I'm going to do is show
+- [17:24] you that finished result that I've not
+- [17:26] yet listened to. And let's see what we
+- [17:28] actually get.
+- [17:30] Okay. So, here is kind of the podcast
+- [17:32] view. We can see the script that was
+- [17:34] generated. And let me show you the
+- [17:36] original prompt. So, what I said is
+- [17:38] create a super simple podcast in the
+- [17:39] style of Tech with Tim where he answers
+- [17:41] questions about AI from a female guest.
+- [17:44] have the guest ask questions related to
+- [17:45] the future of developers due to the
+- [17:47] increase in AI. And you can see that it
+- [17:49] did some research, looked up information
+- [17:51] about myself as well as AI, generated a
+- [17:54] GPT kind of thumbnail for us for the
+- [17:56] podcast, and then made the entire
+- [17:58] script, and then had the voice for that.
+- [18:00] So, let's see what this sounds like.
+- [18:02] Again, I've not yet listened to it. Just
+- [18:04] go back so that it's at the very
+- [18:05] beginning, and let's see what we get.
+- [18:09] What's up, everybody, and welcome back
+- [18:10] to Tech with Tim. Today I'm I'm really
+- [18:14] excited to be joined by a special guest,
+- [18:16] Maya.
+- [18:16] >> Hey.
+- [18:17] >> She's a fantastic developer who's, you
+- [18:19] know, deep in the trenches building cool
+- [18:20] stuff. Welcome, Maya.
+- [18:21] >> Hey, Tim. Happy to be here and and
+- [18:23] honestly a little nervous about what
+- [18:24] we're talking about today.
+- [18:25] >> Yeah, we're diving straight into the
+- [18:27] deep end. The big scary question. Is AI
+- [18:29] going to make developers obsolete?
+- [18:30] >> Right.
+- [18:31] >> Okay. So, I think that's enough. I'm not
+- [18:32] going to listen to the whole thing and
+- [18:33] bore you, but overall sounds pretty
+- [18:36] fluent and natural. I'm not sure if
+- [18:38] you'd really be able to even determine
+- [18:39] if that is AI or not, especially kind of
+- [18:42] based on what it's saying. It sounds
+- [18:44] like not really robotic. It has the ums,
+- [18:46] the a slowing kind of the cadence down.
+- [18:48] So, pretty cool. And then if I want, of
+- [18:50] course, I can export the audio by just
+- [18:52] pressing that button and I can save that
+- [18:54] directly in the AI drive, which I've
+- [18:56] done right here, and then reference it
+- [18:57] or use it later. Now, in terms of other
+- [19:00] features here in Gen Spark, you can do
+- [19:02] video generation, fact-checking, deep
+- [19:04] research, photo genius, clip genius.
+- [19:06] There's all kinds of stuff that it has,
+- [19:07] and even just the general super agent
+- [19:09] itself is extremely useful. And I think
+- [19:12] with that said, I'm going to wrap up the
+- [19:14] video here. Overall, this platform is
+- [19:16] very impressive. The number one thing
+- [19:18] for me is that everything is in one
+- [19:20] place. Having that AI drive component
+- [19:22] really does make it a lot easier and
+- [19:24] give you a lot of efficiency and
+- [19:26] productivity benefits, which is why I'm
+- [19:28] even showing you this tool. Sure, all of
+- [19:30] this other stuff is interesting. How
+- [19:32] much of it are you going to use? You
+- [19:33] know, that's up to you. But generally,
+- [19:35] just saving all of your files, having
+- [19:36] all of the context and having all of the
+- [19:38] tools you would ever need in a single
+- [19:40] place gives you a massive benefit
+- [19:42] because now you don't need to switch
+- [19:44] between these different tools. And the
+- [19:46] more you use one tool, the better it
+- [19:48] gets at understanding your life, your
+- [19:50] situation, your business, your code. So,
+- [19:52] you just naturally end up getting better
+- [19:54] responses over time. And that kind of
+- [19:56] compounds, which is why I like to stick
+- [19:58] with one specific platform. Even if you
+- [20:00] just quickly look here, you can see all
+- [20:02] of the different tasks that I was
+- [20:03] running, right, just in the past few
+- [20:04] days using GenSpark because it is
+- [20:07] genuinely very, very good. Anyways guys,
+- [20:09] that's it for this video. If you
+- [20:10] enjoyed, make sure you leave a like,
+- [20:11] subscribe, and I will see you in the
+- [20:13] next one.

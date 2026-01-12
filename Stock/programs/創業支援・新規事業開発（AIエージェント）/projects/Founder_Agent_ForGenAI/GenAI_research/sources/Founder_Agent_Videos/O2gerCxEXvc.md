@@ -1,0 +1,258 @@
+---
+title: "My goal today is to explain the difference between these three terms in a most simple language."
+video_id: "O2gerCxEXvc"
+video_url: "https://www.youtube.com/watch?v=O2gerCxEXvc"
+speaker: "a"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "LLM", "Tutorial", "Development"]
+topics: ["AI", "Agents", "LLM", "Tutorial", "Development"]
+summary: |
+  My goal today is to explain the difference between these three terms in a most simple language
+  When you ask a question to chat GPD as a result, it will generate new text
+  It can also generate uh images, videos and so on
+key_points:
+  - "search different flights then it will decide the cheapest one and then it will book uh that flight"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, LLM"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:38:19+09:00"
+---
+
+# Transcript: O2gerCxEXvc
+
+- URL: https://www.youtube.com/watch?v=O2gerCxEXvc
+- Retrieved at: 2025-12-30T10:38:19+09:00
+
+## Text
+
+- [00:00] My goal today is to explain the
+- [00:02] difference between these three terms in
+- [00:03] a most simple language. When you ask a
+- [00:06] question to chat GPD as a result, it
+- [00:09] will generate new text. It can also
+- [00:12] generate uh images, videos and so on. So
+- [00:17] generative AI is nothing but an AI that
+- [00:20] can create new content either text,
+- [00:22] image or video based on patterns learned
+- [00:25] from existing data. At the heart of it
+- [00:28] there is large language model and this
+- [00:31] model can be your GPT4 claude model Gina
+- [00:36] etc. It is trained on a huge volume of
+- [00:39] internet data okay it can be Wikipedia
+- [00:41] text Google books and so on and based on
+- [00:45] that it will be generating the answers.
+- [00:49] Now if you ask this question, what is
+- [00:50] the price of a flight ticket tomorrow?
+- [00:52] It won't be able to answer because it
+- [00:54] has a knowledge cutff date and this is a
+- [00:58] generative AI with only LLM. But you
+- [01:01] might have noticed if you ask some
+- [01:04] questions to chat GPT you will see this
+- [01:06] searching the web text and it will do
+- [01:09] the web search and it will return you
+- [01:11] the latest information from internet. So
+- [01:14] in this LLM if you give an access to
+- [01:18] Xedia API or let's say make my trip or
+- [01:20] any other travel API then LLM is smart
+- [01:24] enough to call this API and fetch the
+- [01:26] latest price of a flight. Okay. So this
+- [01:30] is getting little more intelligent than
+- [01:33] just simple LLM which is trained on some
+- [01:35] knowledge cutoff. Right. So LLM is like
+- [01:37] a brain and to that brain you are giving
+- [01:40] this access of a tool. Right? Let's say
+- [01:42] you are a human you have a brain but I
+- [01:44] give you a hammer and a screwdriver you
+- [01:47] will be able to do even more. So
+- [01:48] similarly for LLM these tools then there
+- [01:51] is another thing called knowledge. These
+- [01:53] are like its hammers and screwdriver
+- [01:56] which will help it do even more. You can
+- [01:59] also ask book me a cheapest flight
+- [02:02] tomorrow from place A to B and using
+- [02:06] Xedia API it will first search different
+- [02:09] flights then it will decide the cheapest
+- [02:12] one and then it will book uh that
+- [02:14] flight. So here you are now performing
+- [02:18] actions. Previously you are asking
+- [02:20] questions simple Q&A but now it is
+- [02:23] actually taking action for you. This is
+- [02:26] an AI agent. It is a program that takes
+- [02:30] input. It will think and it will act to
+- [02:34] complete a task. Okay. Agent will
+- [02:36] complete task. It's not just simple Q&A
+- [02:38] chatboard. It will complete a task using
+- [02:41] tools, memory and knowledge. And there
+- [02:44] is some kind of autonomy or independent
+- [02:48] decision making. So when we looked at
+- [02:50] previously see it decided which is the
+- [02:53] cheapest flight. So maybe it found let's
+- [02:55] say five flights and it figured out okay
+- [02:57] this is the cheapest flight and then it
+- [02:59] booked it. So it is taking independent
+- [03:02] decision. Okay. So it is autonomous but
+- [03:05] at the same time the example that we
+- [03:08] looked at is very narrow and specific.
+- [03:11] Okay. I'm asking okay from place A to B
+- [03:13] book a flight tomorrow cheapest flight.
+- [03:15] So it's a simple task. It's not that
+- [03:17] complex. It doesn't involve u you know
+- [03:21] multiple like step reasoning multi-step
+- [03:23] planning and so on. But now let's say
+- [03:26] you ask even a more complex question
+- [03:28] such as I want to travel to New Delhi in
+- [03:31] May. It is 7-day trip. Weather should be
+- [03:34] sunny on all the days. Flight budget is
+- [03:37] less than $1,600. No layover. Now this
+- [03:40] is the kind of question you will ask
+- [03:42] your travel agent right when you call
+- [03:43] it. Okay, these are my five criterias.
+- [03:46] Give me the best flight. Well,
+- [03:48] apparently AI agents can do this. So it
+- [03:52] has access to Xedia for your travel
+- [03:54] needs. Now it needs to check weather
+- [03:56] also because you like sunny weather. So
+- [03:58] what you can do is provide an access to
+- [04:01] some weather API you know acue weather
+- [04:03] API whatever API and then it will first
+- [04:07] check the weather. Okay. So it will look
+- [04:09] at the month of May and find seven
+- [04:11] consecutive days where the weather is
+- [04:13] sunny. For those days it will do a
+- [04:17] flight search, compare airlines, find
+- [04:19] the flight with a budget less than 1600.
+- [04:23] Okay. Not only that, it might go one
+- [04:26] step further and give you suggestions
+- [04:29] for hotel and airport taxi. Okay. So see
+- [04:33] I booked a flight and I also found you
+- [04:36] few good suggestions. So this is a
+- [04:38] flight booking AI agent. You see here
+- [04:41] it's a
+- [04:43] flight booking AI agent which is doing a
+- [04:46] complex task than the simple AI agent.
+- [04:50] You can expand it further because when
+- [04:52] you travel across countries you might
+- [04:54] need visa. So maybe it can do even more
+- [04:57] complex things such as it can call
+- [05:00] another AI agent which is immigration AI
+- [05:03] agent and this agent is also powered by
+- [05:06] LLM obviously but it has access to let's
+- [05:09] say some uh immigration APIs it has
+- [05:12] access to your one drive where you have
+- [05:13] kept your passport and your immigration
+- [05:15] records and now this immigration a agent
+- [05:19] right this green box will check your
+- [05:23] visa eligibility and and it will say hey
+- [05:26] you know what your visa has expired so
+- [05:28] even before you book a ticket you need
+- [05:31] to apply for a visa so this is even a
+- [05:34] complex system where there is not just
+- [05:35] one agent there are two agents right the
+- [05:37] first agent is flight booking second one
+- [05:40] is immigration AI agent so the system as
+- [05:44] a whole if you think about the entire
+- [05:46] system it is doing multi-step reasoning
+- [05:48] it is not like okay go and book the
+- [05:50] flight ticket it knows that you need to
+- [05:52] check visa so it will call visa agent
+- [05:54] and check if the visa is there and if
+- [05:57] visa is there then it will do further
+- [05:59] steps. So it is doing multi-step
+- [06:01] reasoning multi-step planning and
+- [06:03] working on a complex goal autonomously.
+- [06:07] Okay. Now there is some control you need
+- [06:08] to give uh uh you need to keep on this
+- [06:12] agents. You can't make them fully
+- [06:14] autonomous. You can't give them your
+- [06:16] bank password. So there is some level of
+- [06:18] control that needs to be given. So
+- [06:20] agentic AI is a system where one or more
+- [06:24] AI agents work autonomously
+- [06:27] often over long task complex task making
+- [06:31] decisions using tools and even other
+- [06:33] agents to reach a goal. Okay. So as you
+- [06:37] can see as you evolve from simple
+- [06:39] generative AI system with only LLM to AI
+- [06:42] agent to agentic AI you are capable of
+- [06:46] performing even more and more complex
+- [06:48] task. With only LLM you get just Q&A
+- [06:52] with the knowledge cutff with AI agent
+- [06:56] you can get access to tools and memory
+- [06:58] and you can perform narrow simple task.
+- [07:01] With agentic AI you can have multiple
+- [07:04] agents. It's not absolutely required
+- [07:06] that you need to have multiple agent. By
+- [07:07] the way, agentic AI can have single
+- [07:09] agent only. But other than agent, it has
+- [07:12] other components and it is able to
+- [07:14] handle multi-step goals with planning
+- [07:16] and coordination. Tool usage in genai is
+- [07:19] non. AI agent will use tools and agent
+- [07:22] also uses the tools and autonomous
+- [07:25] decision making is highest. When it
+- [07:27] comes to agentic AI, there are many
+- [07:30] tools available that you can use to
+- [07:32] build agentic AI system. One of the
+- [07:34] tools is N8N. So I am showing you the
+- [07:37] workflow diagram in N8N. And here
+- [07:41] uh LLM will be part of it. Okay. So if
+- [07:44] you look at any uh agentic AI system, it
+- [07:49] will have generative AI as a core
+- [07:51] component of it. Okay. So this entire
+- [07:53] system is AI agent and one of the
+- [07:55] component is your Gemini LLM model which
+- [07:57] is generative AI. So generative is part
+- [08:00] of or a component of agentic AI systems.
+- [08:04] There are many frameworks available to
+- [08:06] build agentic AI systems agnu and so on.
+- [08:10] And uh by the way whatever definitions
+- [08:13] we have discussed don't take them uh
+- [08:16] like too rigidly you know some people
+- [08:18] like no AI agent means this and agentic
+- [08:21] AI means this. My friend who is a
+- [08:24] creator of Agno framework defines these
+- [08:27] agentic system into five levels. Okay.
+- [08:29] So first level is agent with tools and
+- [08:32] instruction. Level two is agents with
+- [08:33] knowledge and so on. So different people
+- [08:36] define it differently. As long as you
+- [08:38] understand this core fundamental which
+- [08:41] is agents are able to do uh some kind of
+- [08:46] autonomous action for narrow task. And
+- [08:50] when you move to agentic AI, your
+- [08:53] complexity increases and usually there
+- [08:55] are more than one agent. So generative
+- [08:57] AI to AI agent to agentic AI, the
+- [09:01] complexity of the task that you can
+- [09:03] perform increases and it becomes more
+- [09:06] and more sophisticated.
+- [09:08] Now folks, I have this langraph tutorial
+- [09:11] where I have explained how to build AI
+- [09:13] agents using this popular framework. So
+- [09:16] just watch it out. I have given examples
+- [09:18] of how do you build a chatbot with tools
+- [09:21] and memory human in the loop etc. If you
+- [09:24] want to build build fully agentic AI
+- [09:26] system such as let's say you want to
+- [09:28] onboard an employee who is joining the
+- [09:30] organization then in our AI boot camp we
+- [09:33] have this complete project where you
+- [09:36] just say okay onboard this new employee
+- [09:38] and what it will do is it will add the
+- [09:39] employee to HRMS system it will send
+- [09:42] welcome email to employees it will
+- [09:44] notify the manager and so on. So here we
+- [09:47] used clot desktop as a front end and as
+- [09:50] a back end we have built an MCP server.
+- [09:53] Okay. So that's part of our boot camps
+- [09:56] project. I hope uh this particular video
+- [09:59] gave you some understanding on these
+- [10:01] three different concepts. If you have
+- [10:03] any questions post in the comment box
+- [10:05] below. If you like this video give it a
+- [10:07] thumbs up and share it with your
+- [10:08] friends.

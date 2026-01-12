@@ -1,0 +1,473 @@
+---
+title: "YouTube Video: -NrAX4OapkQ"
+video_id: "-NrAX4OapkQ"
+video_url: "https://www.youtube.com/watch?v=-NrAX4OapkQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+summary: |
+  Hello world. It's Suriraj and today I'm going to show you exactly how I built an AI agent that made $2,345 in just 24 hours, all while taking care of my newborn son. This isn't some theoretical concep...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Business"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: -NrAX4OapkQ
+
+- URL: https://www.youtube.com/watch?v=-NrAX4OapkQ
+- Retrieved at: 2025-12-30T09:14:47+09:00
+
+## Text
+
+- [00:00] Hello world. It's Suriraj and today I'm
+- [00:02] going to show you exactly how I built an
+- [00:05] AI agent that made
+- [00:09] $2,345 in just 24 hours, all while
+- [00:12] taking care of my newborn son. This
+- [00:15] isn't some theoretical concept or
+- [00:18] exaggerated claim. Let me show you the
+- [00:20] actual payment notifications coming in
+- [00:23] while I was busy changing diapers. What
+- [00:26] you're seeing right now is the Stripe
+- [00:28] dashboard from my AI legal document
+- [00:31] generator business. As you can see, we
+- [00:34] had 24 transactions totaling
+- [00:38] 2526 in revenue. After expenses, that's
+- [00:43] 1,843 in pure profit generated
+- [00:46] completely on autopilot. In the next 20
+- [00:49] minutes, I'm going to break down exactly
+- [00:52] how I did this step by step, and I'll be
+- [00:55] open sourcing the entire codebase so you
+- [00:58] can build something similar yourself.
+- [01:01] So, there is a huge market gap for legal
+- [01:04] documents. Everybody needs legal help,
+- [01:07] whether they're starting a business,
+- [01:09] whether they're getting a mortgage.
+- [01:10] There's so many things that require
+- [01:12] lawyers, but lawyers are super
+- [01:14] expensive. Not everybody can afford
+- [01:16] them. And if you're starting a business,
+- [01:18] there's a whole slew of legal docs that
+- [01:20] you need to create. Articles of
+- [01:21] incorporation, a privacy policy, terms
+- [01:24] of service, sometimes an NDA. This is
+- [01:27] all expensive. And even if you get a
+- [01:29] lawyer, there's a huge time delay to
+- [01:31] getting those traditional services. It
+- [01:33] takes a long time because the supply is
+- [01:36] so limited for this specialized
+- [01:38] knowledge. And that is exactly why AI is
+- [01:40] perfect for this use case. AI is perfect
+- [01:43] for commoditizing domain knowledge,
+- [01:45] turning it into a set of weights, a
+- [01:48] weight matrix, a file on your computer
+- [01:50] that you can download and use for
+- [01:52] yourself 24/7. And in this case, it
+- [01:55] learned through hundreds of thousands of
+- [01:57] legal documents. And then it was able to
+- [02:00] translate legal ease, the language of
+- [02:02] legal documents that lawyers are
+- [02:04] familiar with and go to school for 3
+- [02:05] years to understand into plain English
+- [02:08] for me to understand. and vice versa. I
+- [02:10] could use plain English to generate
+- [02:11] legal ease with the help of this tool. I
+- [02:14] have never made a legal AI app before.
+- [02:16] This was my first time. And the reason I
+- [02:18] did it is because of Claude 3.7 sonnet's
+- [02:21] suggestion. Claude was really the CEO of
+- [02:24] this AI startup. It developed a business
+- [02:26] strategy. It decided on this exact
+- [02:28] opportunity. The way I got it to tell me
+- [02:30] that is by prompting it. I asked it,
+- [02:32] "What is the best AI opportunity to make
+- [02:34] money in the next 24 hours? Give me the
+- [02:36] best idea." And this was the idea. So,
+- [02:39] it was really the driving force behind
+- [02:40] the idea and it outlined the entire
+- [02:43] strategy of how I should build it,
+- [02:45] including the landing page, which was
+- [02:46] probably the most important part. Claw
+- [02:49] generated the landing page for this, but
+- [02:52] I needed to then improve it, make it
+- [02:54] something that was animated, was really
+- [02:56] optimized for conversions, for getting
+- [02:59] people to buy on the page. And that's
+- [03:00] where V 0ero came in.
+- [03:06] Vzero is this great tool for design. It
+- [03:09] is perhaps the most popular AI for
+- [03:11] design out there right now. And the
+- [03:13] reason it's so good is because it's
+- [03:14] using all of these JavaScriptbased
+- [03:16] animations like Framer and it's
+- [03:18] programmatically allowing anybody to
+- [03:20] animate and design things in a way that
+- [03:23] was not possible before. So that's
+- [03:24] really cool. So once Clawude generated
+- [03:27] the initial rough landing page, I then
+- [03:30] screenshotted that and gave it to V 0ero
+- [03:32] to then create a really intense full-on
+- [03:35] front-end interface with all the bells
+- [03:37] and whistles, all the features needed to
+- [03:39] get people to convert. And it did that.
+- [03:41] It did that beautifully. It did that
+- [03:43] really fast. Here are the five elements
+- [03:45] that Vzero helped me incorporate into
+- [03:48] the design that ended up helping drive
+- [03:51] conversions. The first is a tiered
+- [03:53] pricing psychology. By offering three
+- [03:56] options, $29, $99, and
+- [04:00] $149, we created what psychologists call
+- [04:03] the compromise effect. And by that, I
+- [04:05] mean most people will pick the middle
+- [04:07] option, which is exactly what we want,
+- [04:09] the $99 purchase price. And there's also
+- [04:13] urgency and scarcity that need to be
+- [04:15] built into the app. We need to drive
+- [04:17] people to FOMO into clicking purchase.
+- [04:20] And the way we did that is by creating
+- [04:21] this scarcity. Only 14 documents
+- [04:24] remaining at this price. Fear of missing
+- [04:26] out is a very powerful driver in this
+- [04:28] case. And then also with any of these AI
+- [04:31] apps, we need to build trust. And the
+- [04:33] best way to do that is to let people try
+- [04:35] before they buy. A document preview
+- [04:37] feature was a gamecher for conversions.
+- [04:40] Here we let customers potentially see a
+- [04:42] watermarked version of the doc before
+- [04:45] they buy it. And that increased
+- [04:46] conversions by 76% right there by just
+- [04:50] putting that at the bottom of the page.
+- [04:51] And then all sorts of trust elements
+- [04:53] help as well. A money back guarantee
+- [04:55] badge, testimonials with real photos,
+- [04:58] comparison tables, all of this is just
+- [05:01] design and marketing. And Vzero and
+- [05:03] Claude did great with this together. And
+- [05:05] then of course expanded form fields.
+- [05:07] Adding form fields for your specific
+- [05:09] state. any special clauses you want to
+- [05:11] add to your document, you can just put
+- [05:13] that right into the document in the form
+- [05:15] and it'll generate that for you. So
+- [05:17] Claude helped me design this landing
+- [05:20] page and then BZero helped me create
+- [05:22] that full front end with all the bells
+- [05:24] and whistles. It took me like 2 or 3
+- [05:26] hours in total to do this. The full app
+- [05:29] requires a backend. It requires Stripe
+- [05:32] for payments integration and VZO is not
+- [05:35] the best for that. The best for that is
+- [05:37] Cursor. And Cursor is what I've been
+- [05:39] using as my back-end full stack app
+- [05:41] generator. Normally, it would take me
+- [05:43] weeks to build this app. I mean, it took
+- [05:45] me weeks to build my AI sports betting
+- [05:47] bot, Wager GPT, which people love. And
+- [05:49] if you want to check it out, make sure
+- [05:51] to check out Wager GPT. Now, I can build
+- [05:53] apps in days, if not hours, with Cursor.
+- [05:56] And that's incredible. Just through
+- [05:58] prompting alone, I don't even type. In
+- [06:00] fact, I whisper. I use a tool called
+- [06:02] Whisper Flow to convert my voice to
+- [06:04] text. I'm whispering all these giant
+- [06:06] prompts into Cursor and it's just
+- [06:08] building them on autopilot while I'm
+- [06:10] hands-free. It's incredible. And here's
+- [06:12] the exact prompt that I gave Cursor to
+- [06:14] fully build the AI. I said, "Build a
+- [06:16] fully functional AI legal document
+- [06:18] generator web app based on the provided
+- [06:21] HTML landing page. Include document
+- [06:24] generation with GPT4. I use chat GPT,
+- [06:27] payment processing with Stripe, email
+- [06:29] notifications, and all necessary
+- [06:31] back-end systems. And that's enough to
+- [06:33] have this agent build the full stack web
+- [06:36] app. Not only does it generate code, it
+- [06:39] runs commands. It creates files. Oh my
+- [06:41] god. Okay, it's happening. It creates
+- [06:43] directory structures. It checks its
+- [06:45] work. It sees what's wrong. This built
+- [06:48] the app in a single prompt. And then I
+- [06:50] just iterated a few times saying, "This
+- [06:53] is good, but can you please improve the
+- [06:55] landing page to make it more beautiful
+- [06:57] and make sure the Stripe page is a
+- [06:59] dedicated checkout? And here's my Stripe
+- [07:02] API keys as well as my OpenAI API keys.
+- [07:05] And that's where you give it your Stripe
+- [07:07] API keys right in the prompt interface.
+- [07:09] It will then put input that into the ENV
+- [07:12] file for safekeeping. And then you can
+- [07:14] deploy that app. I deployed it using
+- [07:16] Heroku, which is just one of many
+- [07:18] sources. You could use Verscell. There's
+- [07:20] so many out there. With a few clicks, it
+- [07:22] deployed it to Heroku for me. And you
+- [07:24] could see the full code for this app.
+- [07:26] I'm open sourcing all this code on
+- [07:28] GitHub so you can build your own version
+- [07:30] of this AI legal document generator.
+- [07:33] That's pretty good. It's pretty simple.
+- [07:35] We just go in, we say whatever our forms
+- [07:38] are, we input a simple name and idea and
+- [07:42] a corporation and we wait a bit and it's
+- [07:45] going to generate the legal document for
+- [07:47] us. And this was using
+- [07:49] GPT40. I had some generation issues with
+- [07:52] GPT 4.5 preview because it took too long
+- [07:55] to generate. Heroku's timeout was 30
+- [07:57] seconds. I just used a less intelligent
+- [08:00] but faster model. And now that we've
+- [08:02] built this app, I've showed you how I
+- [08:03] built it with Cursor, with BZero, and
+- [08:06] with Claude, let's talk about how to
+- [08:08] sell this thing. Because building an app
+- [08:10] now is super easy. Everything is
+- [08:12] distribution these days. And that's why
+- [08:14] we have influencers. That's why we have
+- [08:16] personal brands. The reason I didn't use
+- [08:18] my personal brand to sell this is
+- [08:20] because I wanted to see if I could sell
+- [08:22] this without that boost. I used Chat GPT
+- [08:25] to build my marketing strategy. Chad GPT
+- [08:28] was my chief marketing officer here. And
+- [08:30] I told it, I gave it the full context
+- [08:32] of, "Hey, Claude, help me build this.
+- [08:34] I've got 24 hours to make some profit.
+- [08:36] Please help me make $2,000 in the next
+- [08:39] 24 hours." And it decided that Google
+- [08:42] Ads was the best avenue to make that
+- [08:44] money for this specific app. And the
+- [08:47] reason is because there's so many people
+- [08:49] searching Google for legal documents.
+- [08:51] And so my Google ad strategy focused on
+- [08:54] five high converting keywords with
+- [08:56] proven buyer intent. First one is
+- [08:59] download NDA template with a $3.20 CPC
+- [09:02] with 2400 monthly searches. The second
+- [09:05] one is terms of service generator at
+- [09:08] $2.75 of cost per click and 3,100
+- [09:11] monthly searches. And the third is was
+- [09:13] privacy policy template at $2.90 cost
+- [09:17] per click with 4,200 monthly searches.
+- [09:21] So for the campaign structure, I created
+- [09:23] three separate ad groups and each was
+- [09:25] targeting a different document type. We
+- [09:28] had NDAs, terms of service, and then
+- [09:30] privacy policies. And this allowed me to
+- [09:33] AB test between different ad copies.
+- [09:35] Chad GPT decided all of this. It wrote
+- [09:38] all the ad copies. It told me what would
+- [09:41] likely convert best, what to put as a
+- [09:43] description for all these things, and it
+- [09:45] was just instrumental in creating all of
+- [09:47] these high converting ad variations that
+- [09:49] helped me identify the best keywords to
+- [09:51] target. I spent quite a bit here on
+- [09:54] Google Ads, but I learned a lot about
+- [09:56] the demographics. I learned a lot about
+- [09:59] who my customers are, where they live.
+- [10:01] California was a huge demographic, Texas
+- [10:03] and New York. Searches, you could see
+- [10:05] the top ones were AI for law firms right
+- [10:07] here. My click-through rate was three
+- [10:10] times the industry average. It was at
+- [10:12] 11% a few hours ago. Now it's at 9%. But
+- [10:16] still, that's a huge amount. And it
+- [10:18] shows that I had 158 clicks. It shows
+- [10:22] how much people want something like this
+- [10:24] and how much people are searching for.
+- [10:26] Chat GPT was right. Google ads was the
+- [10:29] best avenue for this. Mobile was the
+- [10:31] highest performing. 90% of searches came
+- [10:34] through mobile. So that gave me some
+- [10:35] signal. Okay, I need to optimize this
+- [10:37] thing for mobile. The next step is
+- [10:39] optimizing all of these conversions. How
+- [10:41] did I optimize the conversions here?
+- [10:43] Well, I ran several AB tests. And at
+- [10:45] first, I just had a $99 price tier
+- [10:48] because that I thought was like simple
+- [10:50] enough to just deploy. But nobody was
+- [10:52] buying that. I got 100 plus clicks and
+- [10:55] not a single conversion. So, that was
+- [10:57] bad. So, by adding pricing tiers, that
+- [10:59] definitely helped. It increased the
+- [11:00] result by 31.4% in revenue per visitor,
+- [11:03] which was great. And then the document
+- [11:05] preview had a huge impact as well. That
+- [11:07] was a
+- [11:09] 76.2% improvement in the conversion
+- [11:11] rate. And then adding a live chat
+- [11:13] performance helped by a lot as well
+- [11:15] where you just give people that trust,
+- [11:17] you know, like this isn't just some scam
+- [11:19] tool. It's actually generating your
+- [11:21] legal document. You can see it right
+- [11:23] here, the result. I found some really
+- [11:25] surprising findings like state specific
+- [11:27] targeting resulted in 42% higher
+- [11:30] conversion. That was pretty surprising
+- [11:32] to me. And then mobile users were the
+- [11:34] biggest ones. I thought desktop because
+- [11:36] legal docs and PDFs are very much a
+- [11:38] desktop thing. Evening hours had the
+- [11:40] highest conversion rates between 6:00
+- [11:41] and 10 p.m. The money back guarantee
+- [11:44] badge increased trust scores. That
+- [11:46] surprised me. And then the sample
+- [11:47] document section doubled time on page.
+- [11:50] So that was really helpful. And using
+- [11:52] Google Analytics on the page helped with
+- [11:54] that. Chad GBT suggested I add that and
+- [11:56] then I went back to cursor and just told
+- [11:58] it to add that snippet and it did it for
+- [12:00] me. So essentially I'm just going back
+- [12:02] and forth between my AI team here. I'm
+- [12:05] giving the full context to Claude and
+- [12:07] then to Vzero and then to Cursor and
+- [12:09] then back to Chat GPT and then back to
+- [12:12] Cursor and then back to Claude with the
+- [12:14] progress. And so you can see that I
+- [12:16] built this team of AIS for me. Now that
+- [12:19] these AIs are sufficiently intelligent,
+- [12:22] they are able to make money in these
+- [12:23] domains. They're able to develop
+- [12:25] successfully. They're able to market
+- [12:27] successfully. They're able to scale
+- [12:29] successfully. So, let's talk about that.
+- [12:31] Scaling is our next strategy based on
+- [12:33] the first 24 hours of data. Here's
+- [12:36] exactly how we're going to scale this
+- [12:38] business to $10,000 per month in revenue
+- [12:41] within the next month. So, there's four
+- [12:43] pillars here of scaling. The first is
+- [12:45] traffic expansion. We know what works
+- [12:47] and what doesn't work with Google ads
+- [12:49] already, but we need to increase the
+- [12:51] marketing streams that we're going to
+- [12:53] use. We need to increase the
+- [12:54] distribution channels. And I've already
+- [12:56] created a Tik Tok channel for this. and
+- [12:58] I just recorded four Tik Toks right off
+- [13:00] the bat. Chad GPT helped me design the
+- [13:03] full scripts for these. Unfortunately,
+- [13:05] they didn't get that many views. So,
+- [13:06] Chad GPT had a great idea to just start
+- [13:09] with Google ads. It just goes to show
+- [13:10] that you can do many different types of
+- [13:14] marketing strategies with these AIs. You
+- [13:16] just have to prompt them properly. And
+- [13:18] then document expansion helped. I also
+- [13:20] think that having a recurring revenue
+- [13:21] model is going to help us with expansion
+- [13:23] as well. Just having a free trial is
+- [13:25] huge to get people to dish out their
+- [13:27] debit or credit card. And then just
+- [13:29] complete AI automation. I want to have
+- [13:31] AI powered email support. I want to have
+- [13:33] automated document updates based on
+- [13:36] regulation changes, self-optimizing ad
+- [13:39] campaigns. Make this much more agentic.
+- [13:41] Don't have me prompting Claude and Chad
+- [13:43] GPT. They should be prompting each
+- [13:45] other. And that could be using their
+- [13:47] APIs to be sending responses back and
+- [13:49] forth. And then those should be
+- [13:50] connecting to these tools. And so having
+- [13:52] an affiliate program with automatic
+- [13:54] payouts, that would also help this scale
+- [13:57] by a lot. And I already use this for
+- [13:58] Wager GPT, my AI sports betting bot. I'm
+- [14:02] really excited about the potential here.
+- [14:04] Like it has never been easier to build
+- [14:06] and deploy and market an AI business.
+- [14:09] This should be inspiring to you. I am
+- [14:11] here to help you out. I think that
+- [14:13] everybody can and should be an AI
+- [14:16] entrepreneur. I want to see a billion
+- [14:18] billionaires. And I know that sounds
+- [14:20] wild at first, but AI truly will create
+- [14:23] a world of abundance. And it will create
+- [14:25] a world without scarcity, but it's not
+- [14:28] going to be through universal basic
+- [14:30] income. It's going to be through
+- [14:31] everyone making money online with AIs,
+- [14:34] their own AIs. Just take your idea, talk
+- [14:37] to Cursor, talk to Claude, talk to Chad
+- [14:39] GPT. Ask them, "Make me a plan to make
+- [14:42] money. Here's what I'm interested in.
+- [14:44] Here's what I could actually spend time
+- [14:46] on." Give yourself a deadline. That's
+- [14:48] always super important to get yourself
+- [14:50] to actually get done. That's how I
+- [14:53] got myself to build all this. I gave
+- [14:54] myself a 24-hour deadline. I'm really
+- [14:57] excited about the potential here. I'm a
+- [14:59] new parent as well. Huge shout out to my
+- [15:02] wife and kid for helping me out with
+- [15:03] this. Because of these tools, it's
+- [15:05] possible. I can compress all that time,
+- [15:07] hundreds of hours into hundreds of
+- [15:10] minutes with these AI tools. And there
+- [15:12] are four key lessons that I want to
+- [15:14] conclude this video with for you. The
+- [15:16] first is that AI plus no code tools
+- [15:19] equals speed. The combination of Chad
+- [15:21] GPT, Claw 3.7 Sonnet, Whisper Flow, and
+- [15:25] V0 dramatically increased how fast I
+- [15:28] could launch this. And the second is
+- [15:29] validation before building. Testing
+- [15:31] demand with minimal viable products
+- [15:33] saved me from wasting time on features
+- [15:35] nobody wants. And the third is that
+- [15:37] trust elements are critical. We got to
+- [15:39] add these extra reassurances like money
+- [15:42] back guarantees, refund policies to get
+- [15:44] customers to buy these products. And the
+- [15:46] last is that tiered pricing psychology
+- [15:49] works even though it requires more
+- [15:52] effort upfront. Adding a tiered pricing
+- [15:54] structure is going to increase
+- [15:56] conversions. So remember, I'm open-
+- [15:58] sourcing the entire codebase for this
+- [16:01] project. You'll find the link in the
+- [16:03] description below so you can build your
+- [16:05] own version of this AI business. And if
+- [16:08] you found this content valuable, make
+- [16:10] sure to subscribe for part two where I'm
+- [16:12] going to continually build more AI
+- [16:15] income streams from scratch, open
+- [16:17] sourcing them, showing you the blueprint
+- [16:18] so you can do the same. I'm super
+- [16:20] excited about AI having done all this.
+- [16:22] Make sure to hit that like button if
+- [16:24] this video helped you at all. That's
+- [16:26] what helps promote the video. And for
+- [16:28] now, I've got to go wipe some sweat off
+- [16:30] my face.
+- [16:31] [Music]

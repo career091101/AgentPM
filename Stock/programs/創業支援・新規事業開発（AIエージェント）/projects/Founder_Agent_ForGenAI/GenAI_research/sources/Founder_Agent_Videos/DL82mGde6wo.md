@@ -1,0 +1,884 @@
+---
+title: "Metarprompting is turning out to be a very very powerful tool that everyone's using now."
+video_id: "DL82mGde6wo"
+video_url: "https://www.youtube.com/watch?v=DL82mGde6wo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Metarprompting is turning out to be a very very powerful tool that everyone's using now
+  It kind of actually feels like coding in you know 1995 like the tools are not all the way there
+  We're you know in this new frontier
+key_points:
+  - "things to keep in mind that it should not kind of go weird into calling different kinds of tools"
+  - "to specify that it's going to give certain uh output of accepting or rejecting and in this format"
+  - "Covers startup concepts and applications"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:07:48+09:00"
+---
+
+# Transcript: DL82mGde6wo
+
+- URL: https://www.youtube.com/watch?v=DL82mGde6wo
+- Retrieved at: 2025-12-30T10:07:48+09:00
+
+## Text
+
+- [00:00] Metarprompting is turning out to be a
+- [00:02] very very powerful tool that everyone's
+- [00:03] using now. It kind of actually feels
+- [00:05] like coding in you know 1995 like the
+- [00:09] tools are not all the way there. We're
+- [00:11] you know in this new frontier. But
+- [00:13] personally it also kind of feels like
+- [00:15] learning how to manage a person where
+- [00:17] it's like how do I actually communicate
+- [00:20] uh you know the things that they need to
+- [00:22] know in order to make a good decision.
+- [00:26] [Music]
+- [00:32] Welcome back to another episode of the
+- [00:34] light cone. Today we're pulling back the
+- [00:36] curtain on what is actually happening
+- [00:39] inside the best AI startups when it
+- [00:42] comes to prompt engineering. We surveyed
+- [00:44] more than a dozen companies and got
+- [00:47] their take right from the frontier of
+- [00:50] building this stuff, the practical tips.
+- [00:53] Jared, why don't we start with an
+- [00:55] example from one of your best AI
+- [00:57] startups? I managed to get an example
+- [00:59] from a company called Parahelp. Parahelp
+- [01:02] does AI customer support. There are a
+- [01:04] bunch of companies who who are doing
+- [01:05] this, but Parhel is doing it really
+- [01:06] really well. They're actually powering
+- [01:08] the customer support for Perplexity and
+- [01:11] Replet and Bolt and a bunch of other
+- [01:13] like top AI companies now. So, if you if
+- [01:15] you go and you like email a customer
+- [01:16] support ticket into Perplexity, what's
+- [01:18] actually responding is like their AI
+- [01:20] agent. The cool thing is that the
+- [01:21] Powerhel guys very graciously agreed to
+- [01:23] show us the actual prompt that is
+- [01:26] powering this agent um and to put it on
+- [01:28] screen on YouTube for the entire world
+- [01:29] to see. Um it's like relatively hard to
+- [01:32] get these prompts for vertical AI agents
+- [01:33] because they're kind of like the crown
+- [01:35] jewels of the IP of these companies and
+- [01:37] so very grateful to the Powerhel guys
+- [01:38] for agreeing to basically like open
+- [01:40] source this prompt. Diana, can you walk
+- [01:42] us through this very detailed prompt?
+- [01:44] It's super interesting and it's very
+- [01:46] rare to get a chance to see this in
+- [01:48] action. So the interesting thing about
+- [01:49] this prompt is actually first it's
+- [01:51] really long. It's very detailed in this
+- [01:53] document you can see is like six pages
+- [01:55] long just scrolling through it. The big
+- [01:57] thing that a lot of the best prompts
+- [01:59] start with is this concept of uh setting
+- [02:02] up the role of the LLM. You're a manager
+- [02:05] of a customer service agent and it
+- [02:07] breaks down into bullet points what it
+- [02:09] needs to do. Then the big thing is
+- [02:11] telling the the task which is to approve
+- [02:14] or reject a tool call because it's
+- [02:16] orchestrating agent calls from all these
+- [02:18] other ones. And then it gives it a bit
+- [02:21] of the highle plan. It breaks it down
+- [02:23] step by step. You see steps one, two,
+- [02:25] three, four, five. And then it gives
+- [02:28] some of the important things to keep in
+- [02:30] mind that it should not kind of go weird
+- [02:34] into calling different kinds of tools.
+- [02:36] It tells them how to structure the
+- [02:38] output because a lot of things with
+- [02:40] agents is you need them to integrate
+- [02:42] with other agents. So almost like gluing
+- [02:44] the API call. So the is important to
+- [02:47] specify that it's going to give certain
+- [02:50] uh output of accepting or rejecting and
+- [02:52] in this format. Then this is sort of the
+- [02:53] highle section and one thing that the
+- [02:56] best prompts do they break it down sort
+- [02:58] of in this markdown type of style uh
+- [03:01] formatting. So you have sort of the
+- [03:02] heading here and then later on it goes
+- [03:05] into more details on how to do the
+- [03:07] planning and you see this is like a sub
+- [03:09] bullet part of it and as part of the
+- [03:11] plan there's actually three big sections
+- [03:14] is how to plan and then how to create
+- [03:16] each of the steps in the plan and then
+- [03:19] the highle example of the plan. One big
+- [03:21] thing about the best prompts is they
+- [03:24] outline how to reason about the task and
+- [03:27] then a big thing is giving it giving it
+- [03:29] an example and this is what it does. And
+- [03:31] one thing that's interesting about this
+- [03:34] it it looks more like programming than
+- [03:36] writing English because it has this uh
+- [03:38] XML tag kind of format to specify sort
+- [03:42] of the plan. We found that it makes it a
+- [03:44] lot easier for LMS to follow because a
+- [03:47] lot of LMS were post-trained in LHF with
+- [03:50] kind of XML type of input and it turns
+- [03:53] out to produce better results. Yeah. One
+- [03:55] thing I'm surprised that isn't in here
+- [03:57] or maybe this is just the version that
+- [03:59] they released. What I almost expect is
+- [04:01] there to be a section where it describes
+- [04:04] a particular scenario and uh actually
+- [04:07] gives example output for that scenario.
+- [04:10] That's in like the next stage of the
+- [04:12] pipeline. Yeah. Oh, really? Okay. Yeah.
+- [04:15] Because it's customer specific, right?
+- [04:17] Because like every customer has their
+- [04:18] own like flavor of how to respond to
+- [04:20] these support tickets. And so their
+- [04:22] challenge like a lot of these agent
+- [04:23] companies is like how do you build a
+- [04:25] general purpose product when every
+- [04:28] customer like wants you know has like
+- [04:30] slightly different workflows and like
+- [04:32] preferences. has a really interesting
+- [04:34] thing that I see the vertical AI agent
+- [04:36] companies talking about a lot which is
+- [04:38] like how do you have enough flexibility
+- [04:39] to make special purpose logic without
+- [04:41] turning into a consulting company where
+- [04:42] you're building like a new prompt for
+- [04:44] for for every customer. I actually think
+- [04:46] this like concept of like forking and
+- [04:48] merging prompts across customers and
+- [04:51] which part of the prompt is customer
+- [04:52] specific versus like companywide is like
+- [04:54] a like a really interesting thing that
+- [04:57] the world is only just beginning to
+- [04:58] explore. Yeah, that's a very good point
+- [04:59] Jared. So this is concept of uh defining
+- [05:02] the prompt in the system prompt. Then
+- [05:05] there's a de developer prompt and then
+- [05:07] there's a user prompt. So what this mean
+- [05:10] is uh the system prompt is basically
+- [05:12] almost like defining uh sort of the
+- [05:15] highle API of how your company operates.
+- [05:17] In this case the example of parhel is
+- [05:19] very much a system prompt. There's
+- [05:20] nothing specific about the customer. And
+- [05:22] then as they add specific instances of
+- [05:24] that API and calling it then they stuff
+- [05:26] all that in into more the developer
+- [05:29] prompt which is not shown here and
+- [05:31] that's adds all the context of let's say
+- [05:33] working with perplexity there's certain
+- [05:34] ways of how you handle rack questions as
+- [05:37] opposed to working with bold is very
+- [05:39] different right and then I don't think
+- [05:41] parhelp has a user prompt because their
+- [05:44] product is not consumed directly by an
+- [05:46] end user but a end user prompt could be
+- [05:48] more like replet or a zero right where
+- [05:52] users need to type is like generate me a
+- [05:54] site that that has these buttons this
+- [05:56] and that that goes all in the user
+- [05:58] prompt. So that's sort of the
+- [06:00] architecture that's sort of emerging.
+- [06:02] And to your point about avoiding
+- [06:03] becoming a consulting company, I think
+- [06:06] um there's so many startup opportunities
+- [06:08] and building the tooling around all of
+- [06:11] this stuff like for example like um
+- [06:13] anyone who's done prompt engineering
+- [06:14] knows that the examples and worked
+- [06:17] examples are really important to
+- [06:18] improving the quality of the output. And
+- [06:20] so then if you take like power as an
+- [06:22] example, they really want good worked
+- [06:25] examples that are specific to each
+- [06:27] company. And so you can imagine that as
+- [06:30] they scale, you almost want that done
+- [06:32] automatically. Like in your dream world,
+- [06:33] what you want is just like a an agent
+- [06:35] itself that can pluck out the best
+- [06:37] examples from like the customer data set
+- [06:39] and then software that just like ingests
+- [06:41] that straight into like wherever it
+- [06:44] should belong in the pipeline without
+- [06:45] you having to manually go out and plug
+- [06:47] that all and ingest it in all of
+- [06:49] yourself. That's probably a great segue
+- [06:50] into metaparrompting which is one of the
+- [06:52] things we want to talk about because
+- [06:53] that's that's a consistent theme that
+- [06:55] keeps coming up when we talk to our AI
+- [06:57] startups. Yeah, Tropier is uh one of the
+- [06:59] startups I'm working with in the current
+- [07:01] YC batch and they've really helped
+- [07:03] people like YC company Ducky do really
+- [07:07] in-depth understanding and debugging of
+- [07:09] the prompts and the return values from a
+- [07:13] multi-stage workflow. And one of the
+- [07:15] things they figured out is prompt
+- [07:16] folding. So you know basically one
+- [07:18] prompt can dynamically generate better
+- [07:21] versions of itself. So a good example of
+- [07:23] that is a classifier prompt that
+- [07:24] generates a specialized prompt based on
+- [07:27] the previous query. And so you can
+- [07:28] actually go in take uh the existing
+- [07:31] prompt that you have and actually feed
+- [07:34] it more examples where maybe the prompt
+- [07:37] failed or didn't quite do what you
+- [07:38] wanted and you can actually instead of
+- [07:40] you having to go and rewrite the prompt,
+- [07:43] you just put it into um you know the raw
+- [07:46] LLM and say help me make this prompt
+- [07:49] better. And because it knows itself so
+- [07:51] well, strangely um metaprompting is
+- [07:54] turning out to be a very very powerful
+- [07:56] tool that everyone's using now. And the
+- [07:58] next step after uh you do sort of prompt
+- [08:00] folding if the task is very complex
+- [08:03] there's this concept of uh using
+- [08:05] examples and this is what Jasberry does
+- [08:08] is one of the companies I'm working with
+- [08:10] this batch they basically build
+- [08:12] automatic bug finding in code which is a
+- [08:14] lot harder and the way they do it is
+- [08:17] they feed a bunch of really hard
+- [08:19] examples that only expert programmers
+- [08:21] could do let's say if you want to find
+- [08:22] an N plus1 query it's actually hard for
+- [08:25] today for even like the best LMS to find
+- [08:27] those and the way to do those is they
+- [08:29] find parts of the code then they add
+- [08:32] those into the prompt a meta prompt
+- [08:34] that's like hey this is an example of n
+- [08:36] plus1 type of error and then that works
+- [08:39] it out and I think this pattern of
+- [08:40] sometimes when it's too hard to even
+- [08:43] kind of write a pros around it let's
+- [08:46] just give you an example that turns out
+- [08:47] to work really well because it helps LM
+- [08:50] to reason around complicated tasks and
+- [08:53] steer it better because you can't quite
+- [08:55] kind of put exact act parameters and
+- [08:57] it's almost like um unit testing
+- [09:00] programming in a sense like test-driven
+- [09:01] development is sort of the LLM v version
+- [09:04] of that. Yeah. Another thing that trope
+- [09:06] uh sort of talks about is you know the
+- [09:08] the model really wants to actually help
+- [09:10] you so much that if you just tell it
+- [09:13] give me back output in this particular
+- [09:15] format even if it doesn't quite have the
+- [09:18] information it needs it'll actually just
+- [09:21] tell you what it thinks you want to hear
+- [09:23] and it's literally a hallucination. So,
+- [09:25] one thing they discovered is that you
+- [09:27] actually have to give the LLM's a real
+- [09:29] escape hatch. You need to tell it if you
+- [09:31] do not have enough information to say
+- [09:34] yes or no or make a determination, don't
+- [09:38] just make it up. Stop and ask me. And
+- [09:41] that's a very different way to think
+- [09:42] about it. That's actually something we
+- [09:44] learned at some of the internal work
+- [09:46] that we've done with agents at YC where
+- [09:48] Jared came up with a really inventive
+- [09:51] way to give the LLM escape patch. Did
+- [09:54] you want to talk about that? Yeah. So
+- [09:56] the trope approach is one way to give
+- [09:58] the LM an escape patch. We came up with
+- [10:00] a different way which is in the response
+- [10:02] format to give it the ability to have
+- [10:04] part of the response be essentially a
+- [10:07] complaint to you the developer that like
+- [10:10] you have given it confusing or
+- [10:12] underspecified information and it
+- [10:13] doesn't know what to do. And then the
+- [10:16] nice thing about that is that we just
+- [10:18] run your LLM like in production with
+- [10:20] real hoser data and then you can go back
+- [10:22] and you can look at the outputs that it
+- [10:25] has given you in that like output
+- [10:26] parameter. Um we we call it debug info
+- [10:29] internally. So like we have this like
+- [10:31] debug info parameter where it's
+- [10:32] basically reporting to us things that we
+- [10:35] need to fix about it and it literally
+- [10:37] ends up being like a to-do list that you
+- [10:39] the agent developer has to do. It's like
+- [10:41] really kind of mind-blowing stuff. Yeah.
+- [10:43] Yeah, I mean just even for hobbyists or
+- [10:44] people who are interested in playing
+- [10:46] around for this for personal projects.
+- [10:47] Like a very simple way to get started
+- [10:49] with meta prompting is to follow the
+- [10:51] same structure of the prompt is give it
+- [10:52] a role and make the role be like you
+- [10:54] know you're a expert prompt engineer who
+- [10:56] gives really like detailed um great
+- [10:58] critiques and advice on how to um
+- [11:00] improve prompts and give it the prompt
+- [11:03] that you had in mind and it will spit
+- [11:05] you back a much a more expanded better
+- [11:08] prompt and so you can just keep running
+- [11:09] that loop for a while. Works
+- [11:11] surprisingly well. I think it's a common
+- [11:13] pattern sometimes for companies when
+- [11:15] they need to get um responses from
+- [11:17] element elements in their product a lot
+- [11:19] quicker. They do the meta prompting with
+- [11:21] a bigger beefier model any of the I
+- [11:24] don't know hundreds of billions of
+- [11:25] parameter plus models like uh I guess
+- [11:27] cloud 4 3.7 or your uh GPD 03 and they
+- [11:34] do this meta prompting and then they
+- [11:36] have a very good working one that then
+- [11:38] they use into the distilled model. So
+- [11:40] they use it on uh for example an FRO and
+- [11:43] it ends up working pretty well
+- [11:46] specifically sometimes for uh voice AI
+- [11:48] agents companies because uh latency is
+- [11:51] very important to uh get this whole
+- [11:54] touring test to pass because if you have
+- [11:57] too much pause be before the agent
+- [11:59] responds I think humans can detect
+- [12:01] something is off. So they use a faster
+- [12:03] model but with a bigger better prompt
+- [12:05] that was refined from the bigger models.
+- [12:08] So that's like a common pattern as well.
+- [12:09] Another again less sophisticated maybe
+- [12:12] but um like as the prompt gets longer
+- [12:15] and longer like it becomes a a large
+- [12:17] working doc um one thing I found useful
+- [12:19] is as you're using it if you just note
+- [12:21] down in a Google doc things that you're
+- [12:24] seeing just um the outputs not being how
+- [12:28] you want or not ways that you can think
+- [12:30] of to improve it. you can just write
+- [12:31] those in note form and then give Gemini
+- [12:35] Pro like your notes plus the original
+- [12:37] prompt and ask it to suggest a bunch of
+- [12:39] edits to the prompt um to incorporate
+- [12:42] these in well and it does that quite
+- [12:43] well. The other trick is uh in uh Gemini
+- [12:46] 2.5 Pro if you look at the thinking
+- [12:49] traces as is uh parsing through uh
+- [12:53] evaluation you could actually learn a
+- [12:55] lot about all those misses as well.
+- [12:57] We've done that internal as well, right?
+- [12:59] As this is critical because if you're
+- [13:00] just using Gemini via the API until
+- [13:03] recently, you did not get the thinking
+- [13:04] traces and like the thinking traces are
+- [13:06] like the critical debug information to
+- [13:08] like understand like what's wrong with
+- [13:10] your prompt. They just added it to the
+- [13:12] API. So you can now actually like pipe
+- [13:15] that back into your developer tools and
+- [13:17] workflows. Yeah, I think it's an
+- [13:19] underrated um consequence of Gemini Pro
+- [13:22] having such long context windows is you
+- [13:24] can effectively use it like a a ripple.
+- [13:27] Go sort of like one by one like put your
+- [13:28] prompt on like one example then
+- [13:30] literally watch the reasoning trace in
+- [13:32] real time to figure out like how you can
+- [13:35] steer it in the direction you want.
+- [13:36] Jared and the software team at YC has
+- [13:38] actually built this um you know various
+- [13:41] forms of workbenches that allow us to
+- [13:43] like do debug and things like that. But
+- [13:45] to your point like sometimes it's better
+- [13:48] just to use
+- [13:49] gemini.google.com directly and then drag
+- [13:52] and drop you know literally JSON files
+- [13:55] and uh you know you don't have to do it
+- [13:57] in some sort of special container like
+- [14:00] it you know seems to be totally
+- [14:02] something that works even directly in
+- [14:05] you know chat GPT itself. Yeah, this is
+- [14:07] all stuff. Um, I would give a shout out
+- [14:09] to YC's head of data, Eric Bacon, who's
+- [14:12] um, helped us all a lot a lot of this
+- [14:14] metaparrotting and using Gemini Pro 2.5
+- [14:16] as a effectively a ripple. What about
+- [14:18] evals? I mean, we've uh, talked about
+- [14:21] evals for going on a year now. Um, what
+- [14:24] are some of the things that founders are
+- [14:26] discovering? Even though we've been
+- [14:27] saying this for a year or more now,
+- [14:29] Gary, I think it's still the case that
+- [14:31] like evals are the true crown jewel like
+- [14:35] data asset for all of these companies.
+- [14:37] Like one one reason that Powerhel was
+- [14:39] willing to open source the prompt is
+- [14:41] they told me that they actually don't
+- [14:43] consider the prompts to be the crown
+- [14:45] jewels like the evals are the crown
+- [14:47] jewels because without the evals you
+- [14:49] don't know why the prompt was written
+- [14:51] the way that it was. Um and it's very
+- [14:54] hard to improve it. Yeah. And I I think
+- [14:56] in abstraction you can think about you
+- [14:58] know YC funds a lot of companies
+- [15:00] especially in vertical AI and SAS and
+- [15:02] then you can't get the eval unless you
+- [15:05] sitting literally side by side with
+- [15:07] people who are doing X Y or Z knowledge
+- [15:10] work. you know, you need to sit next to
+- [15:12] the tractor sales regional manager and
+- [15:15] understand, well, you know, this person
+- [15:17] cares, you know, this is how they get
+- [15:19] promoted. This is what they care about.
+- [15:21] This is that person's reward function.
+- [15:23] And then you know what you're doing is
+- [15:25] taking these in-person interactions
+- [15:27] sitting next to someone in Nebraska and
+- [15:29] then going back to your computer and
+- [15:32] codifying it into uh very specific evals
+- [15:35] like this particular user wants this
+- [15:38] outcome after they you know after this
+- [15:40] invoice comes in we have to decide
+- [15:42] whether we're going to honor the you the
+- [15:44] warranty on this tractor. Like just to
+- [15:46] take one of one example that's the true
+- [15:49] value right like you everyone's really
+- [15:51] worried about um are we just rappers and
+- [15:56] you know what is going to happen to
+- [15:57] startups and I think this is literally
+- [15:59] where the rubber meets the road where um
+- [16:02] if you you know if you are out there in
+- [16:04] particular places understanding that
+- [16:07] user better than anyone else and having
+- [16:09] the software actually work for those
+- [16:12] people that's the moat is that is like
+- [16:14] such a perfect depiction of like what is
+- [16:16] the core competency required of founders
+- [16:19] today? Like literally like the thing
+- [16:20] that you just said like that's your job
+- [16:22] as a founder of a company like this is
+- [16:24] to be really good at that thing and like
+- [16:27] maniacally obsessed with like the
+- [16:29] details of the regional tractor sales
+- [16:30] manager workflow. Yeah. And then the
+- [16:32] wild thing is it's very hard to do like
+- [16:35] you know how you have you even been to
+- [16:36] Nebraska you know the classic view is
+- [16:39] that uh the best founders in the world
+- [16:40] they're you know sort of really great
+- [16:43] cracked engineers and technologists and
+- [16:46] uh just really brilliant and then at the
+- [16:48] same time they have to understand some
+- [16:50] part of the world that very few people
+- [16:52] understand and then there's this little
+- [16:54] sliver that is you know uh the founder
+- [16:57] of a multi-billion dollar startup you
+- [17:00] know I think of Ryan Peterson from
+- [17:01] Flexport, you know, really really great
+- [17:04] person who understands how software is
+- [17:06] built, but then also I think he was the
+- [17:08] third biggest uh importer of medical hot
+- [17:12] tubs for an entire year like you know a
+- [17:14] decade ago. So you know the weirder that
+- [17:17] is the more of the world that you've
+- [17:19] seen that nobody else who's a
+- [17:20] technologist has seen uh the greater the
+- [17:23] opportunity actually. I think you've put
+- [17:25] this in a really interesting way before
+- [17:27] Gary where you're sort of saying that
+- [17:28] every founder's become a forward
+- [17:29] deployed engineer. That's like a term
+- [17:31] that traces back to Palunteer and since
+- [17:33] you were early at Palanteer maybe tell
+- [17:35] us a little bit about how did forward
+- [17:37] deployed engineer become a thing at
+- [17:38] Palunteer and and what can founders
+- [17:40] learn from it now? I mean I think the
+- [17:41] whole thesis of Palunteer at some level
+- [17:43] was that um if you look at Meta back
+- [17:46] then it was called Facebook or Google or
+- [17:49] any of the top software startups that
+- [17:52] everyone sort of knew back then. One of
+- [17:54] the key recognitions that Peter Teal and
+- [17:57] Alex Karp and Stefan Cohen and Joe
+- [18:00] Lansdale, Nathan Gettings, like the
+- [18:01] original founders of Palunteer had was
+- [18:04] that uh go into anywhere in the Fortune
+- [18:07] 500, go into any government agency in
+- [18:11] the world, including the United States,
+- [18:13] and nobody who understands computer
+- [18:16] science and technology at the level that
+- [18:19] you at the highest possible level would
+- [18:21] ever even be in that room. And so
+- [18:23] Palenteer's sort of really really big
+- [18:26] idea that they discovered very early was
+- [18:28] that uh the problems that those places
+- [18:30] face they're actually multi-billion
+- [18:33] dollar sometimes trillion dollar
+- [18:35] problems and yet uh this was well before
+- [18:37] AI became a thing you know I mean people
+- [18:40] were sort of talking about machine
+- [18:41] learning but you know back then they
+- [18:43] called it data mining you know the world
+- [18:45] is a wash in data these you know giant
+- [18:47] databases of people and things and
+- [18:49] transactions and we have no idea what to
+- [18:52] do with it. That's what Palanteer was,
+- [18:54] is and still is. That um you can go and
+- [18:57] find the world's best technologists who
+- [19:00] know how to write software to actually
+- [19:03] make sense of the world. You know, you
+- [19:05] have these pabytes of data and you don't
+- [19:07] know how do you find the needle in the
+- [19:09] haststack. Um and you know the wild
+- [19:11] thing is going on uh something like 20
+- [19:14] 22 years later it's only become more
+- [19:17] true that we have more and more data and
+- [19:20] we have less and less of an
+- [19:21] understanding of what's going on and uh
+- [19:24] it's no mistake that actually now that
+- [19:26] we have LLMs like we actually it is
+- [19:29] becoming much more tractable and then
+- [19:31] the forward deployed engineer title was
+- [19:33] specifically how do you sit next to
+- [19:35] literally the FBI agent who's um
+- [19:39] investigating domestic terrorism. How do
+- [19:41] you sit right next to them in their
+- [19:43] actual office and see what does the case
+- [19:45] coming in look like? What are all the
+- [19:47] steps? Uh when you actually need to go
+- [19:50] to the federal prosecutor, what are the
+- [19:52] things that they're sending? Is it I
+- [19:54] mean what's funny is like literally it's
+- [19:56] like word documents and Excel
+- [19:58] spreadsheets, right? And um what you do
+- [20:00] as a forward deployed engineer is take
+- [20:02] these sort of you know file cabinet and
+- [20:05] fax machine things that people have to
+- [20:07] do and then convert it into really clean
+- [20:10] software. So you know the classic view
+- [20:13] is that it should be as easy to actually
+- [20:15] do uh an investigation at a threeletter
+- [20:18] agency as going and taking a photo of
+- [20:20] your lunch on Instagram and posting it
+- [20:22] to all your friends. Like that's you
+- [20:23] know kind of the funniest part of it.
+- [20:25] And so you I think it's no mistake today
+- [20:27] that four deployed engineers who came up
+- [20:30] through that system at Palanteer now
+- [20:31] they're turning out to be some of the
+- [20:33] best founders at YC actually. Yeah. I
+- [20:35] mean produced this incredible an
+- [20:37] incredible number of startup founders
+- [20:38] cuz yeah like the training to be a fore
+- [20:40] deployed engineer that's exactly the
+- [20:42] right training to be a founder of these
+- [20:43] companies. Now the the other interesting
+- [20:45] thing about Palunteer is like other
+- [20:46] companies would send like a salesperson
+- [20:48] to go and sit with the FBI agent and
+- [20:50] like Palunteer sent engineers to go and
+- [20:52] do that. I think Palenter was probably
+- [20:54] the first company to really like
+- [20:56] institutionalize that and scale that as
+- [20:58] a process, right? Yeah. I mean, I think
+- [21:00] what happened there, the reason why they
+- [21:02] were able to get these sort of seven and
+- [21:03] eight and now nine figure contracts very
+- [21:05] consistently is that uh instead of
+- [21:08] sending someone who's like hair and
+- [21:09] teeth and they're in there and you know,
+- [21:11] let's go to the let's go to the uh
+- [21:13] steakhouse. You know, it's all like
+- [21:15] relationship. and you'd have one meeting
+- [21:17] uh they would really like the
+- [21:19] salesperson and then through sheer force
+- [21:21] of personality you'd try to get them to
+- [21:23] give you a seven-figure contract and
+- [21:25] like the time scales on this would be
+- [21:27] you know 6 weeks 10 weeks 12 weeks like
+- [21:30] 5 years I don't know it's like and the
+- [21:32] software would never work uh whereas if
+- [21:34] you put an engineer in there and you
+- [21:36] give them uh you know Palunteer Foundry
+- [21:39] which is what they now call sort of
+- [21:40] their core uh data viz and data mining
+- [21:44] suites instead of the next meeting being
+- [21:46] reviewing 50 pages of you know sort of
+- [21:49] sales documentation or a contract or a
+- [21:52] spec or anything like that. It's
+- [21:53] literally like, "Okay, we built it." And
+- [21:56] then you're getting like real live
+- [21:58] feedback within days. And I mean, that's
+- [22:01] honestly the biggest opportunity for
+- [22:03] startup founders. If startup founders
+- [22:05] can do that and uh that's what forward
+- [22:07] deployed engineers are sort of used to
+- [22:09] doing that's how you could beat a
+- [22:11] Salesforce or an Oracle or you know a
+- [22:14] Booze Allen or literally any company out
+- [22:16] there that has a big office and a big
+- [22:19] fancy you know you have big fancy
+- [22:21] salespeople with big strong handshakes
+- [22:23] and it's like how does a really good
+- [22:25] engineer with a weak handshake go in
+- [22:27] there and beat them? It's actually you
+- [22:29] show them something that they've never
+- [22:30] seen before and like make them feel
+- [22:33] super heard. You have to be super
+- [22:35] empathetic about it. Like you actually
+- [22:36] have to be a great designer and product
+- [22:38] person and then you know come back and
+- [22:41] you can just blow them away. Like the
+- [22:43] software is so powerful that you know
+- [22:46] the second you see something that you
+- [22:47] know makes you feel seen you want to buy
+- [22:50] it on the spot. Is a good way of
+- [22:51] thinking about it that founders should
+- [22:52] think about themselves as being the four
+- [22:54] deployed engineers of their own company.
+- [22:56] Absolutely. Yeah. Like you definitely
+- [22:58] can't farm this out. Like literally the
+- [23:00] founders themselves, they're technical.
+- [23:02] They have to be the great product
+- [23:04] people. They have to be the
+- [23:05] ethnographer. They have to be the
+- [23:07] designer. You want the person on the
+- [23:10] second meeting to see the demo you put
+- [23:11] together based on the stuff you heard.
+- [23:13] And you want them to say, "Wow, I've
+- [23:15] never seen anything like that." And take
+- [23:17] my money. I think the incredible thing
+- [23:19] about this model is this is why we're
+- [23:21] seeing a lot of the vertical AI agents
+- [23:23] take off is precisely this because they
+- [23:27] can have these meetings with the end
+- [23:30] buyer and champion at these big
+- [23:32] enterprises. They take that context and
+- [23:35] then they stuff it basically in the
+- [23:37] prompt and then they can quickly come
+- [23:39] back in a meeting like just the next day
+- [23:41] maybe with Palunteer would have taken a
+- [23:42] bit longer and a team of engineers here.
+- [23:44] It could be just the two founders go in
+- [23:47] and then they would close this six,
+- [23:49] seven figure deals which we've seen and
+- [23:51] with large enterprises which has never
+- [23:54] been done before and it's just possible
+- [23:56] with this new model of forward deploy
+- [23:59] engineer plus AI is just on
+- [24:02] accelerating. It just reminds me of a
+- [24:04] company I mentioned before on the
+- [24:05] podcast like Giger ML who do customer
+- [24:07] another customer support and especially
+- [24:09] a lot of voice support and it's just
+- [24:12] classic case of two extremely um
+- [24:15] talented software engineers not natural
+- [24:17] sales people but they force themselves
+- [24:19] to be essentially forward deployed
+- [24:21] engineers and they closed a huge deal
+- [24:23] with Zeppto and then a couple of other
+- [24:25] companies they can't announce yet but do
+- [24:27] they physically go on site like the
+- [24:28] palentier model? Yes. So they did so
+- [24:30] they they did all of that where once
+- [24:32] they close the deal they go on site and
+- [24:34] they sit there with all the customer
+- [24:35] support people and figuring out how to
+- [24:37] keep tuning and getting the software or
+- [24:39] the LM to work even better. But before
+- [24:41] that even to win the deal what they
+- [24:44] found is that they can they can win by
+- [24:46] just having the most impressive demo.
+- [24:47] And in their case they've um innovated a
+- [24:50] bit on the rag pipeline so that they can
+- [24:53] um have their voice responses be both
+- [24:55] accurate and very low latency. sort of
+- [24:57] like a technically challenging thing to
+- [24:59] do, but I just feel like in the like pre
+- [25:02] sort of the current LLM rise, you
+- [25:03] couldn't necessarily differentiate
+- [25:05] enough in the demo phase of sales to
+- [25:07] beat out incumbent. So, you can really
+- [25:09] beat Salesforce by having a slightly
+- [25:11] better CRM with a better UI. But now
+- [25:14] because the technology evolves so fast
+- [25:15] and it's so hard to get this like last
+- [25:17] five 10 five to 10% correct, you can
+- [25:20] actually if you're a forward deployed
+- [25:22] engineer go in do the first meeting
+- [25:24] tweak it so that it works really well
+- [25:26] for that customer. Go back with the demo
+- [25:28] and just get that oh wow like we've not
+- [25:30] seen anyone else pull this off before
+- [25:31] experience and close huge deals. And
+- [25:34] that was the exact same case with Happy
+- [25:36] Robot who has sold seven figure
+- [25:39] contracts to the top three largest
+- [25:42] logistic brokers in the world. They
+- [25:44] build AI voice agents for that. They are
+- [25:47] the ones doing the forward deploy
+- [25:48] engineer model and talking to like the
+- [25:50] CIOS of these companies and quickly
+- [25:53] shipping a lot of product like very very
+- [25:56] quick turnaround. And it's been
+- [25:57] incredible to see that take off right
+- [25:59] now. And it started from six figure
+- [26:00] deals now doing closing and seven figure
+- [26:03] deals which is crazy. This is just a
+- [26:05] couple months after. So that's the kind
+- [26:06] of stuff that you can do with uh I mean
+- [26:09] unbelievably very very smart prompt
+- [26:11] engineering actually. Well, one of the
+- [26:13] things that's kind of interesting about
+- [26:16] uh each model is that they each seem to
+- [26:18] have their own personality. And one of
+- [26:21] the things the founders are really
+- [26:23] realizing is that you're going to go to
+- [26:25] different people for different things.
+- [26:26] Actually, one of the things that's known
+- [26:29] a lot is Claude is sort of the more
+- [26:31] happy and more human steerable model.
+- [26:35] And the uh other one is Lama 4 is one
+- [26:40] that needs a lot more steering. It's
+- [26:42] almost like talking to a developer and
+- [26:43] part of it could be an artifact of not
+- [26:45] having done as much RL RHF on top of it.
+- [26:49] So is a bit more rough to work with, but
+- [26:51] you could actually steer it very well if
+- [26:54] you
+- [26:55] actually are good at actually doing a
+- [26:58] lot of prompting and almost doing a bit
+- [27:00] more RLHF, but it's a bit harder to work
+- [27:02] with actually. Well, one of the things
+- [27:03] we've been using uh LLMs for internally
+- [27:06] is actually helping founders figure out
+- [27:08] who they should take money from. And so
+- [27:11] in that case, sometimes you need a very
+- [27:13] straightforward rubric, a zero to 100.
+- [27:16] zero being never ever take their money
+- [27:18] and 100 being take their money right
+- [27:21] away. Like they actually help you so
+- [27:22] much that you'd be crazy not to take
+- [27:24] their money. Harj, we've been working on
+- [27:27] uh some scoring rubrics around that
+- [27:29] using prompts. What What are some of the
+- [27:30] things we've learned? So, it's certainly
+- [27:32] best practice to give um LLM's rubrics,
+- [27:36] especially if you want to get a
+- [27:37] numerical score as the output. You want
+- [27:39] to give it a rubric to help it
+- [27:40] understand like how should I think
+- [27:41] through and what's like a 80 versus a
+- [27:43] 90. But these rubrics are never perfect.
+- [27:45] there's often always exceptions and you
+- [27:47] tried it with uh 03 versus Gemini 2.5
+- [27:51] and you found this this is what we found
+- [27:53] really interesting is that um you can
+- [27:54] give the same rubric to two different
+- [27:56] models and in our in our specific case
+- [27:58] what we found is that um 03 was very
+- [28:01] rigid actually like it really sticks to
+- [28:03] the rubric it's heavily penalizes for
+- [28:06] anything that doesn't fit like the
+- [28:07] rubric that you've given it whereas
+- [28:08] Gemini 2.5 Pro was actually quite good
+- [28:11] at being flexible in that it would apply
+- [28:14] the rubric but it could also sort of
+- [28:16] almost reason through why someone might
+- [28:18] be like an exception or why you might
+- [28:20] want to um push something up more
+- [28:22] positively or negatively than the rubric
+- [28:24] might suggest, which I just thought was
+- [28:26] really interesting cuz that it's just
+- [28:28] like when you're training a person,
+- [28:30] you're trying to you give them a rubric
+- [28:32] like you want them to use a rubric as a
+- [28:33] guide, but there are always these sort
+- [28:35] of edge cases where you need to sort of
+- [28:37] think a little bit more deeply. Um, and
+- [28:39] I just thought it was interesting that
+- [28:40] the models themselves will handle that
+- [28:43] differently, which means they sort of
+- [28:44] have different personalities, right?
+- [28:45] Like 03 felt a little bit more like the
+- [28:48] soldier sort of like, okay, I'm
+- [28:49] definitely like check, check, check,
+- [28:50] check, check. Um, and Gemini Pro 2.5
+- [28:53] felt a little bit more like a a high
+- [28:54] agency sort of employee was like, "Oh,
+- [28:56] okay. I think this makes sense, but this
+- [28:57] might be an exception in this case,"
+- [28:59] which was um just really interesting to
+- [29:01] see. Yeah, it's funny to see that for
+- [29:02] investors. You know, sometimes you have
+- [29:04] investors like a Benchmark or a Thrive,
+- [29:06] it's like, "Yeah, take their money right
+- [29:07] away. Their process is immaculate. They
+- [29:10] never ghost anyone. They answer their
+- [29:12] emails faster than most founders. It's,
+- [29:14] you know, very impressive. And then, uh,
+- [29:16] one example here might be, you know,
+- [29:18] there are plenty of investors who are
+- [29:19] just overwhelmed and maybe they're just
+- [29:21] not that good at managing their time.
+- [29:24] And so, they might be really great
+- [29:25] investors and their track record bears
+- [29:27] that out, but they're sort of slow to
+- [29:29] get back. They seem overwhelmed all the
+- [29:31] time. They accidentally, probably not
+- [29:33] intentionally ghost people. And so this
+- [29:36] is legitimately exactly what an LLM is
+- [29:38] for. Like the debug info on some of
+- [29:41] these are very interesting to see like
+- [29:43] you know maybe it's a 91 instead of like
+- [29:46] an 89. We'll see. I guess one of the
+- [29:48] things that's been really surprising to
+- [29:49] me as you know we ourselves are playing
+- [29:51] with it and we spend you know maybe 80
+- [29:53] to 90% of our time with founders who are
+- [29:56] all the way out on the edge is uh you
+- [29:58] know on the one hand the analogies I
+- [30:00] think even we use to discuss this is uh
+- [30:03] it's kind of like coding. It kind of
+- [30:04] actually feels like coding in, you know,
+- [30:07] 1995. Like the tools are not all the way
+- [30:10] there. There's a lot of stuff that's
+- [30:11] unspecified. We're, you know, in this
+- [30:14] new frontier. But personally, it also
+- [30:16] kind of feels like learning how to
+- [30:18] manage a person where it's like, how do
+- [30:21] I actually communicate uh, you know, the
+- [30:23] things that they need to know in order
+- [30:26] to make a good decision? And how do I
+- [30:28] make sure that they know um, you know,
+- [30:30] how I'm going to evaluate and score
+- [30:32] them? And uh not only that, like there's
+- [30:35] this aspect of Kaizen, you know, this um
+- [30:38] this manufacturing technique that
+- [30:40] created really really good cars for
+- [30:41] Japan in the '90s. Uh and that principle
+- [30:44] actually says that the people who are
+- [30:47] the absolute best at improving the
+- [30:48] process are the people actually doing
+- [30:50] it. That's literally why uh Japanese
+- [30:53] cars got so good in the '90s. And that's
+- [30:55] metaprompting to me. So, I don't know.
+- [30:57] It's a brave new world. We're sort of in
+- [30:59] this new moment. So, with that, we're
+- [31:02] out of time. But can't wait to see what
+- [31:04] kind of prompts you guys come up with.
+- [31:06] And we'll see you next time.
+- [31:08] [Music]

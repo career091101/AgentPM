@@ -1,0 +1,1139 @@
+---
+title: "So GPT5 Pro is insane. It's the most powerful AI model in the world and it can build essentially any..."
+video_id: "eRl6UWSjlxM"
+video_url: "https://www.youtube.com/watch?v=eRl6UWSjlxM"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  So GPT5 Pro is insane. It's the most
+  powerful AI model in the world and it
+  can build essentially anything. Now what
+key_points:
+  - "So GPT5 Pro is insane. It's the most"
+  - "can build essentially anything. Now what"
+  - "even is GPD5 Pro? It's the best version"
+  - "Norway quiz. In fact, this model is so"
+  - "powerful that it can help you launch a"
+  - "which is exactly what I'm going to show"
+  - "you in this video. Now, GPD5 does have a"
+  - "are not that good because OpenAI was"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: eRl6UWSjlxM
+
+- URL: https://www.youtube.com/watch?v=eRl6UWSjlxM
+- Retrieved at: 2025-12-30T11:45:16+09:00
+
+## Text
+
+- [00:00] So GPT5 Pro is insane. It's the most
+- [00:02] powerful AI model in the world and it
+- [00:04] can build essentially anything. Now what
+- [00:06] even is GPD5 Pro? It's the best version
+- [00:09] of the GPT5 series of models. Believe it
+- [00:11] or not, GPD5 Pro has genius level IQ. It
+- [00:14] literally scored 148 points on the Mensa
+- [00:17] Norway quiz. In fact, this model is so
+- [00:20] powerful that it can help you launch a
+- [00:21] profitable AI business from scratch,
+- [00:23] which is exactly what I'm going to show
+- [00:25] you in this video. Now, GPD5 does have a
+- [00:27] major problem. Most of the GPD5 models
+- [00:30] are not that good because OpenAI was
+- [00:32] trying to save some cost. GPD5 Pro is
+- [00:35] the only exception. This is the only
+- [00:37] model I personally use from the GPD5
+- [00:39] family and it's great at coding,
+- [00:40] decision-m, reasoning, business problem
+- [00:43] solving, anything that involves logic
+- [00:45] really. So, in this video, I'll show you
+- [00:47] whether GPD5 Pro is worth $200 a month,
+- [00:50] how it compares to tools like CL code or
+- [00:52] cursor, and how to compete a real $2,000
+- [00:55] Upwork listing from scratch using GPD5
+- [00:57] Pro to do all of the coding for you.
+- [00:59] Now, this model allows you to have
+- [01:01] genius level intelligence at your
+- [01:02] fingertips, which sounds good on the
+- [01:04] paper, but if you think about it, AI is
+- [01:06] quickly becoming payto- win, which means
+- [01:08] if you're not willing to pay $200 a
+- [01:11] month, you do not have access to the
+- [01:12] highest reasoning effort. and soon
+- [01:14] enough that might be $500 a month or
+- [01:16] $1,000 a month. This will inevitably
+- [01:18] create a massive divide between the
+- [01:20] people who can afford the cutting edge
+- [01:21] AI models and everyone else. So the
+- [01:23] brutal truth is that you have between 6
+- [01:25] to 18 months to get your money up so
+- [01:28] that you can comfortably afford these
+- [01:30] cuttingedge AI models no matter what the
+- [01:32] cost is which ironically will help you
+- [01:35] make even more money. Now when GPD5 Pro
+- [01:37] runs it was built to think of every
+- [01:39] possible solution and that's thanks to
+- [01:41] parallel test time compute. This means
+- [01:43] that GBD5 Pro runs multiple reasoning
+- [01:45] chains at once for each prompt or
+- [01:48] question you send it. So instead of
+- [01:49] thinking through one possible answer
+- [01:51] like most LLMs do, GBD5 Pro explores
+- [01:54] several possible ways to solve your
+- [01:56] problem all at once. So here's the plan.
+- [01:58] We will find an Upwork listing worth at
+- [02:00] least $2,000. Using GPD5 Pro, we will
+- [02:03] build a project from the listing from
+- [02:05] scratch. And at the end of the video,
+- [02:07] I'll show you how you can repeat this
+- [02:09] process many times to start your own AI
+- [02:11] business with just a few hours a week.
+- [02:13] And no, you don't have to be a
+- [02:15] programmer to do this. So, let's get to
+- [02:16] building. Now, if you actually want to
+- [02:18] build a profitable business with AI, you
+- [02:20] have to understand this one thing, and
+- [02:22] that there is no secret. I'm not going
+- [02:23] to give you any secret in this video.
+- [02:24] Instead, I'm going to teach you a skill
+- [02:26] set how to use tools like GPD5 Pro to
+- [02:29] solve any problem and turn that into a
+- [02:32] side income. So, here is a Upwork
+- [02:34] listing that I found. This is a $2,000
+- [02:36] listing. Senior AI voice agent, right?
+- [02:38] So, we need to figure out what to use
+- [02:40] for the AI agent. And then the biggest
+- [02:42] second part is the rack. So, basically,
+- [02:44] they want to talk with an AI agent via
+- [02:46] voice speech to speech. And they want to
+- [02:47] have use retrieval augmented generation,
+- [02:49] also known as rack with some custom
+- [02:51] documents, custom data. What I'm going
+- [02:52] to do, I'm going to copy the
+- [02:53] description. I'm going to switch to chat
+- [02:55] GBD Pro. In the model selector, I
+- [02:57] activated GBD5 Pro. I'm going to do
+- [02:59] scope. XML tags are great for targeting
+- [03:02] model, right? This is really good prompt
+- [03:03] engineering tip. I'm going to paste it
+- [03:04] in. I'm going to end it with / scope.
+- [03:06] That way it's not confused where it
+- [03:07] starts, where it ends. The XML tax
+- [03:09] clearly show that. So for the voice AI
+- [03:10] agent, the best solution right now at
+- [03:12] least I think it's the real-time API
+- [03:14] from OpenAI and we can implement either
+- [03:16] RTC or webockets, but I'm going to leave
+- [03:18] that decision to GB5 Pro. So I'm going
+- [03:20] to just copy this page. Your task is to
+- [03:22] help me figure out how to build this
+- [03:24] project as quickly and efficiently as
+- [03:26] possible. It is important to follow the
+- [03:28] scope, but it's also important that you
+- [03:29] do not overthink this project. Boom.
+- [03:31] There we go. Right now, if I just send
+- [03:32] this, that would be problematic. We
+- [03:34] still need to give it a bit more
+- [03:35] direction. Where's the next step? Right.
+- [03:37] And I would say is to lay out the
+- [03:39] structure of this project. So I would
+- [03:41] put a clean five-step plan for building
+- [03:44] this project. So as you can see the
+- [03:46] strategy for prompting GBD5 Pro very
+- [03:48] very different than from prompting any
+- [03:50] other model to be honest. Why? Because
+- [03:52] GBD5 Pro runs for a long time. It can
+- [03:54] reason for 10 plus minutes. So you want
+- [03:57] to put in the time in the prompt because
+- [03:59] if you mess up then you have to wait
+- [04:00] until it outputs to send another prompt.
+- [04:02] So I'm going to send it. And in the
+- [04:04] meantime, I'm not going to waste my time
+- [04:05] just chilling and scrolling Twitter.
+- [04:06] Instead, I'm going to open up cursor and
+- [04:08] we're going to create a project
+- [04:09] structure. So, let me open an empty
+- [04:11] folder. Boom. There we go. And for the
+- [04:13] model, for the spirit of the video, I'm
+- [04:15] going to use GBD5. But anyways, GBD5 Pro
+- [04:18] has finished reasoning and we have an
+- [04:20] answer. It took 3 minutes 16 seconds, so
+- [04:21] this one wasn't as bad, but uh let's see
+- [04:23] what it said. Use WebRTC. Okay, so it's
+- [04:25] going to be Web RTC. So, what I'm going
+- [04:27] to do, jump back into cursor and let's
+- [04:28] create a markdown file. Boom. New file.
+- [04:30] just maind this is like a cursor
+- [04:33] markdown style and actually I'm going to
+- [04:34] create a folder to do this cursor /
+- [04:37] rules and I'm going to move this into
+- [04:38] this folder and that's how you do
+- [04:40] context engineering within a cursor
+- [04:41] right so this is a main file so I want
+- [04:44] it to be applied always boom this we
+- [04:46] need to have in the main file there we
+- [04:48] go but let's look at the first step
+- [04:49] right scaffold intra so we're going to
+- [04:50] use nextjs with app router for the UI so
+- [04:53] this is our front end and for back end
+- [04:54] python fast API but maybe we can even
+- [04:56] simplify this so what I'm going to do is
+- [04:58] I'm going to say create first draft.
+- [05:00] Now, think hard whether we can somehow
+- [05:03] simplify this plan. This project is not
+- [05:06] simple, but it's not complicated. So,
+- [05:07] let's not overengineer this. I don't
+- [05:09] want to show you just a single
+- [05:10] implementation because let's be honest,
+- [05:12] whoever watches this video first is
+- [05:13] going to just take my implementation and
+- [05:15] snipe it. But that's not the point,
+- [05:16] right? There is thousands of listings
+- [05:19] that are worth thousands of dollars that
+- [05:21] you can build with GPD Pro. And if you
+- [05:23] watch until the end, the promise I can
+- [05:25] make is that you will have the skill set
+- [05:27] to do these four figure listings on the
+- [05:29] site and launch multiple sources of
+- [05:31] income, right? But in the meantime,
+- [05:32] let's do some progress, right? Actually,
+- [05:33] let's go into cursor. Let's see how it
+- [05:35] cleaned up. So, very nice. Look at this.
+- [05:36] Formatting is much nicer. So, I'm going
+- [05:38] to keep this. And something we should do
+- [05:40] with any project is create a new GitHub
+- [05:41] project. And we should connect this to
+- [05:43] actual repo. So, boom. If you don't have
+- [05:45] GitHub account, you must have it. So,
+- [05:46] I'm going to name this um AI voice rack.
+- [05:50] I know very descriptive name. So, let's
+- [05:52] create this repo and then all we need to
+- [05:53] do is copy this link, right? Boom. Let's
+- [05:56] switch back into cursor. Your task is to
+- [05:58] help me connect this project to a new
+- [06:01] GitHub repo. Give me the steps how to do
+- [06:04] this. Boom. Then I'm going do command J
+- [06:06] to open a terminal. So, let's see. So,
+- [06:08] we can skip the first command and then
+- [06:09] we do get in it to initialize the G
+- [06:11] repository. Boom. There we go. You can
+- [06:12] see on the right the files are now
+- [06:14] unstaged. Then we do get add dot. This
+- [06:16] stages all of the files. So if we switch
+- [06:18] into this icon, you can see that the
+- [06:20] changes have moved from changes to
+- [06:22] staged changes. So they're ready to be
+- [06:24] committed now. So then we need to do get
+- [06:25] commit and write a com message. I'm
+- [06:27] going to do the very first comet. So now
+- [06:29] we have created this comet. We need to
+- [06:30] push it to remote. But since this is the
+- [06:32] first time we need to set up the main
+- [06:34] branch because GitHub needs to know
+- [06:36] which branch is main, right? So that is
+- [06:37] get branch- capital M and main. Then
+- [06:40] this is the main command, the get remote
+- [06:42] add and the URL, right? So this is the
+- [06:44] URL to our specific repository. Gator
+- [06:46] mode at origin. Boom. There we go. And
+- [06:49] then get push and u. This sets upstream
+- [06:51] tracking so that in the future I can
+- [06:53] just do git push without typing this
+- [06:54] whole thing. And boom. There we go. Now
+- [06:56] if I refresh here, I should see our main
+- [06:59] mdc. There we go. Cursor rules folder.
+- [07:00] And we should see the only file we have.
+- [07:02] Beautiful. So now when we make progress,
+- [07:04] we don't have to worry about AI messing
+- [07:06] it up because we can do a commit after
+- [07:08] each change. Right? So that's that. This
+- [07:09] is very important. Especially if you
+- [07:11] want to sell it to the company, right?
+- [07:12] No business is going to accept your code
+- [07:14] as a Google Drive link. you need to
+- [07:16] share them a repository all the file
+- [07:17] structure all dependencies history of
+- [07:19] comets let's see if we have a response
+- [07:20] so it did a simplified the plan very
+- [07:22] nice so I'm going to copy the simplified
+- [07:24] plan and then I can go into cursor and
+- [07:26] again using GP5 fast I'm going to do
+- [07:28] remove the current five-step plan from
+- [07:32] maindc
+- [07:33] file and replace it with this simpler
+- [07:36] plan boom so while this is running let's
+- [07:38] begin on the first thing so what we need
+- [07:40] to do monolith scaffold so this is going
+- [07:42] to be our first implementation and I'm
+- [07:44] going to just ask ask you to focus on
+- [07:45] the first step, right? So, I'm going to
+- [07:46] copy it. I'm going say, "Great job. I
+- [07:48] like this simpler plan. Now, your task
+- [07:51] is to help me fully execute the first
+- [07:54] stage." Boom. I'm going to remind it of
+- [07:57] the first step. And I'm going to say,
+- [07:59] "Take a deep breath and proceed like a
+- [08:01] senior developer would. I want you to
+- [08:02] give me the full execution of the first
+- [08:04] step, which means the complete file
+- [08:06] structure. Show me the file tree and as
+- [08:08] well as the full code for each of the
+- [08:10] files for the first step."
+- [08:12] Overengineering is perhaps the biggest
+- [08:13] danger we can do. So let's keep it to a
+- [08:15] quick and dirty prototype. Okay. So
+- [08:17] again, I'm using my voice to prompt
+- [08:19] engineer faster. Boom. And notice the
+- [08:21] previous prompts were more like
+- [08:22] planning. Now it's execution. But now
+- [08:25] the real fun begins. Now we're actually
+- [08:26] building the project. So let me accept
+- [08:28] this simply plan. Looks great. And then
+- [08:30] what I'm going to do is say great job.
+- [08:32] Let's stage this file and push to
+- [08:34] GitHub. There we go. So it did
+- [08:36] everything here. We should see two
+- [08:37] comments right here. There we go. So now
+- [08:39] we can use cursor agent, the chat agent
+- [08:42] to do the comments for us. So I don't
+- [08:44] have to type the comm of what was
+- [08:45] changed. Since it will know that it will
+- [08:47] save us time, right? Okay. So GPD5 Pro
+- [08:49] has finished reasoning and we have the
+- [08:51] first stage entirely done. So what we're
+- [08:53] going to do is scroll to the bottom.
+- [08:55] Copy this whole thing. And I'm going to
+- [08:56] say your task is to implement the
+- [08:59] following stage one into our codebase.
+- [09:02] Okay. And then I'm going to stage one
+- [09:04] XML tags. Paste the whole thing in.
+- [09:06] Close the stage one. Boom. Most of these
+- [09:08] I think cursor agent can do for us. So
+- [09:10] let's see. We're going to use GPT5 fast
+- [09:12] for this. Let's launch it. And again,
+- [09:14] the beauty of this business model is
+- [09:16] that you only have to complete like four
+- [09:18] or five of these jobs a month to reach
+- [09:20] $10,000 a month, which is just
+- [09:22] incredible. I mean, it has never been
+- [09:24] easier to start making money with AI.
+- [09:26] And by the way, what I'm showing you in
+- [09:27] this video is just a taste. It's just a
+- [09:29] sneak peek of what we have in the New
+- [09:31] Society classroom. In this workshop
+- [09:32] right here, you'll learn step by step
+- [09:34] how to start your AI business, how to
+- [09:35] get the first paid client, how to start
+- [09:37] taking on bigger projects, getting more
+- [09:39] leads, building predictable revenue and
+- [09:40] scaling to $10,000 a month and beyond.
+- [09:43] There are hundreds of people in the new
+- [09:44] society who have made their first
+- [09:46] dollars with AI. In fact, I'm so
+- [09:48] confident in this business model that if
+- [09:50] you follow these steps and you don't
+- [09:52] make any money within 6 weeks, I will
+- [09:54] personally refund you your money back,
+- [09:56] no questions asked. So if you're serious
+- [09:58] about AI and want to start your own AI
+- [10:00] business, click the link below the video
+- [10:01] and join today. All right, let's jump
+- [10:03] back into cursor. Let's see what was
+- [10:04] done. So we have a new folder right here
+- [10:06] with the file structure. Pretty simple.
+- [10:08] Let's see. So we have five new files
+- [10:10] created. Okay. And then we need to
+- [10:12] install the requirements to run it
+- [10:14] locally. Let's see if there's any manual
+- [10:15] step in the first stage that we have to
+- [10:17] do ourselves that cursor cannot do for
+- [10:19] us. So after big changes, you always
+- [10:21] should push to GitHub. So I'm going say
+- [10:23] stage all files and push to GitHub. We
+- [10:25] can review the changes, but I don't
+- [10:28] think that's necessary. You can see that
+- [10:29] some of these dependencies are
+- [10:30] underlined. That's because we don't have
+- [10:32] them installed in our cond environment.
+- [10:34] So, I'm going to do env list. And
+- [10:36] actually, I'm going to create a new
+- [10:37] environment for this in and you know
+- [10:38] what? I'm going to show you again how to
+- [10:40] problem solve, right? So, I'm going to
+- [10:41] say list out all of my env.
+- [10:46] And then, assuming you've never created
+- [10:48] a new conv environment, you can just
+- [10:50] ask, how do I create a new condens?
+- [10:53] Let's name it Upwork and use Python
+- [10:56] 3.12. Actually, do we have a Let's match
+- [10:59] that with with Okay, 3.11. So, yeah, we
+- [11:01] need to match that with GP5 Pro. Tell me
+- [11:03] what to do step by step. Answer. Just
+- [11:06] answer. Okay, answer in short. Boom. And
+- [11:09] in the meantime, we can actually get GB5
+- [11:11] Pro started on the next stage, which is
+- [11:13] stage number two. Docs plus rag. And
+- [11:15] what should I do? U one thing I'll use
+- [11:18] repo prompt. This is a great tool for
+- [11:19] because you know the problem is that
+- [11:21] GBD5 Pro is available inside of SH GBD.
+- [11:22] So we have to copy paste it. That's
+- [11:24] inefficient. With repo prompt, we can
+- [11:26] load up this folder. Boom. Code. And
+- [11:28] here's our repo with everything. Right.
+- [11:30] So I can just select the whole thing and
+- [11:32] I can say I've completed stage one. Your
+- [11:35] next task is to help me fully execute
+- [11:38] stage two. I'm going to paste it in here
+- [11:40] as well. Boom. This is the step. Doc
+- [11:42] plus rag. Let's see if we need to do any
+- [11:44] web search for this. Store uploads under
+- [11:47] extract. No. This seems seems pretty
+- [11:50] simple. I mean, I don't know how to do
+- [11:51] it, but it's pretty simple for GBD5 Pro.
+- [11:53] You know, the smartest AI model in the
+- [11:55] world. I'll say take a deep breath and
+- [11:57] proceed like a senior developer would.
+- [12:00] Make sure to complete stage stage two
+- [12:03] fully and completely. Do not do anything
+- [12:06] else. Output all all of the code files
+- [12:10] in full and give me clear and concise
+- [12:13] instructions on what to do. Okay. So,
+- [12:16] now we can see at the bottom this is
+- [12:17] 3.6,000 tokens. That's nothing. So I'm
+- [12:19] going to copy our entire codebase and
+- [12:21] we're going to go back into JGBT5 Pro.
+- [12:24] Let's go to the bottom. I'm going to
+- [12:25] paste it in. And now it's going to work
+- [12:27] on stage two with the context of stage
+- [12:30] one being completed. So repo prompt
+- [12:32] allows us to load in the entire file
+- [12:34] structure. The entire code base into a
+- [12:36] single prompt and send that to GP5 Pro
+- [12:39] which again is necessary because OpenAI
+- [12:41] has only made it available inside of
+- [12:42] JBD. Oh, let's uh let's fix this issue
+- [12:45] of dependencies being underlined by
+- [12:47] creating a new cond environment. I'm
+- [12:49] going to name it Upwork because this is
+- [12:50] the this is the business model we're
+- [12:51] doing. You know, just claiming Upwork
+- [12:53] listings with the most powerful model in
+- [12:56] the world. And again, there's only so
+- [12:57] much time before this strategy gets
+- [12:59] saturated. Like same with drop shipping,
+- [13:02] same with Tik Tok shop. Every single
+- [13:04] business model gets saturated sooner or
+- [13:06] later. So realistically in about 6
+- [13:08] months everybody will know about this
+- [13:10] and amount of people doing this will be
+- [13:12] 100x more than it is now. So if you are
+- [13:14] looking for an opportunity do not wait.
+- [13:17] We are still very early to AI and not
+- [13:19] many people know that models like GBD5
+- [13:22] Pro even exist let alone how good they
+- [13:24] are. So if you want to start on this
+- [13:26] strat start today. Anyways so we've
+- [13:29] created the environment. Next up we need
+- [13:31] to do cond activate upwork to activate
+- [13:33] the environment. And then we just double
+- [13:34] check the version. Python- version
+- [13:36] should say 311. There we go. Beautiful.
+- [13:39] So, inside of cursor or VS code, doesn't
+- [13:41] matter what code editor you're using,
+- [13:42] below my webcam right here. Here you can
+- [13:45] see the version. That's because this is
+- [13:47] not activated. So, we need to activate
+- [13:48] the Upwork environment. Let's type in
+- [13:50] Upwork. Boom. And this is the Python
+- [13:52] interpreter. And once we run the pip
+- [13:56] install requirements, this should
+- [13:57] disappear. So, let's open the terminal.
+- [13:58] Command J again. And actually, you know
+- [14:00] what? Let's not do that. Let's do the
+- [14:01] easier way. I'm just going to tell the
+- [14:03] agent to do that. Okay, I've done this
+- [14:06] and I activated the cond environment.
+- [14:08] Open up a terminal. Make sure this
+- [14:10] Upwork environment is active and then
+- [14:12] install the requirements.txt. Everything
+- [14:15] that you need to do, you can get the AI
+- [14:17] to do. All you need is initiative. If
+- [14:19] you have initiative and if you have a
+- [14:20] bit of intelligence to problem solve,
+- [14:23] you can use AI to learn anything, to
+- [14:25] solve any error, to build, to scale your
+- [14:27] business, right? All you need to do is
+- [14:29] ask the right questions and keep
+- [14:32] working. Do not quit. As long as you
+- [14:33] don't give up at the first error, you're
+- [14:35] going to be fine. So, let's see. We
+- [14:38] install the requirements and there you
+- [14:39] go. The dependencies are no longer
+- [14:41] underlined, which means we've solved
+- [14:43] that issue. Let's see how GVD5. Okay,
+- [14:46] it's still reasoning. It's still
+- [14:47] thinking. That's fine. In the meantime,
+- [14:49] we can actually check if we've done
+- [14:51] everything from stage one.
+- [14:54] So, I'm going to scroll back up and
+- [14:57] actually for okay, this is this is an
+- [14:59] idea I just got right now for
+- [15:00] organization because scrolling is
+- [15:01] inefficient. I'm going to create a new
+- [15:03] folder and actually no, we can put it in
+- [15:06] the rules folder. I'm going to create a
+- [15:08] new file. I'm going to do answer-01
+- [15:11] MD, not MDC. And this is going to be
+- [15:14] just the answer from chat GBD so we can
+- [15:16] easily reference it. I'm going to target
+- [15:19] read answer01.
+- [15:21] Is there anything else we have to do
+- [15:24] manually
+- [15:26] or is it fully completed?
+- [15:29] Pink heart
+- [15:31] answer in short.
+- [15:33] Boom. There we go.
+- [15:36] Let's see at the bottom. Okay. GBD5 Pro
+- [15:39] is still reasoning. It's fully
+- [15:41] completed. Okay. What about the env
+- [15:45] file? Because we have a ENV example and
+- [15:47] we might need to add the opening API
+- [15:49] key. Surely
+- [15:51] I have to provide the OpenAI API key
+- [15:55] myself.
+- [15:57] Read the ENV file. I think cursor
+- [15:59] actually doesn't have access to this.
+- [16:01] You can see the Yeah, it's disabled in
+- [16:03] cursor ignore. Okay, I need to stop it.
+- [16:05] I need to provide it. Here's what it
+- [16:07] looks like. Yeah. So, this is one thing
+- [16:10] for security reasons. Cursor doesn't
+- [16:12] have access to ENV files, which is good.
+- [16:14] It's a good security practice, but you
+- [16:16] just have to know it as a beginner and
+- [16:18] you have to realize, okay, we'll have to
+- [16:20] provide it. And if you need to show it,
+- [16:21] you need to paste it in. Right now,
+- [16:24] since this is an example file, we need
+- [16:25] to create an actual env file. So, I'm
+- [16:27] just going to copy paste it and rename
+- [16:29] it to env.
+- [16:34] There is nothing after the main ENV file
+- [16:36] is env. And the only thing we need to
+- [16:38] get is the open API key, which is super
+- [16:39] simple. Just type in open AI API key
+- [16:41] into Google. Click the first link. This
+- [16:43] is going to take you to OpenAI platform.
+- [16:45] Here you need to log in with the same
+- [16:47] account you use for Chad GBT. There we
+- [16:49] go. I'm logged in. So on the left, click
+- [16:51] on API keys, then create new secret key.
+- [16:54] I'm going to name it Upwork business
+- [16:56] model. Boom. Create secret key. Copy. Do
+- [17:01] not share your API keys with anybody.
+- [17:03] Okay? Keep them private. Treat them as
+- [17:05] passwords. I'm going to delete my key
+- [17:07] before uploading this video. It's a very
+- [17:09] important security practice. And do not
+- [17:11] commit them. Right? This is very
+- [17:12] important. We could say I created this
+- [17:15] env file. Make sure our git ignore
+- [17:21] properly
+- [17:23] ignores it. Okay, you cannot commit them
+- [17:25] to GitHub. This is one of the biggest
+- [17:26] mistakes beginners make is they commit
+- [17:29] their env files into GitHub and if it's
+- [17:32] a public repo, anybody can access it and
+- [17:35] use your API key and steal your credits,
+- [17:37] right? And lose your money. So, let's
+- [17:40] see. I'm verifying whether ENV is both.
+- [17:42] So we can actually open git ignore and
+- [17:45] we have it in here. Beautiful. So on the
+- [17:50] staging on the right even though we
+- [17:51] created a new file it's not in the
+- [17:53] changes. So it is being ignored. So we
+- [17:55] can safely do a commit. Say good work.
+- [17:58] Let's do another GitHub push documenting
+- [18:01] this. So even though this will be not
+- [18:04] saved, I want to do a push because we
+- [18:05] have some changes. We created the
+- [18:06] markdown file that the answer is one
+- [18:08] complete. And actually I'm going to be
+- [18:10] more specific. I'll say that um the
+- [18:12] first stage of main
+- [18:16] has been completed. So we want to
+- [18:19] document that. And for as for these
+- [18:21] those should be fine. What we can
+- [18:23] actually do is double check what the
+- [18:24] model should be. Actually we're probably
+- [18:26] using it from the official docs. So that
+- [18:28] should be fine. Need a model 25. Yeah
+- [18:31] this is the official. Okay. Just quick
+- [18:32] double check. It never hurts to check
+- [18:33] the docs. That's fine. So there we go.
+- [18:37] It's push. So what's the issue? Push
+- [18:39] dog, you need to be in the root folder.
+- [18:43] So the the problem is that it was in the
+- [18:45] AI dental voice folder. So that's
+- [18:47] whatever small thing. There we go. So
+- [18:50] now we're squeezing GB5 Pro. You can see
+- [18:52] the reasoning time is going up, which
+- [18:53] means more and more compute is going
+- [18:56] towards our project, right? There we go.
+- [18:58] So what I'm going to do, scroll all the
+- [19:00] way to the bottom again. I'm going to
+- [19:02] copy it, jump back into cursor, and then
+- [19:04] create a new folder. I mean, new file in
+- [19:06] this folder, answer-02.md.
+- [19:09] Boom. Paste it in 750 lines. Okay.
+- [19:12] Anyways, I'm going to say next, I need
+- [19:16] you
+- [19:17] to fully implement the following changes
+- [19:21] for stage two. Do not rewrite any of the
+- [19:25] code. Just implement the following files
+- [19:29] exactly as they are. Boom. I'm going to
+- [19:32] do stage two. Paste it in very long
+- [19:35] prompt. Stage two, I say take a deep
+- [19:38] breath and proceed like a senior
+- [19:40] developer would implementing these steps
+- [19:42] properly and exactly as they are. Do not
+- [19:45] change anything. Do not do anything
+- [19:47] else. There we go. So now cursor is
+- [19:49] going to execute and implement whatever
+- [19:52] GBT 5 Pro suggested. We might need to
+- [19:54] add some stuff. Okay, embedding model.
+- [19:56] We need to add this to our ENV file. So
+- [20:00] I'm just going to copy this.
+- [20:02] Boom. add it below right here. Save
+- [20:06] that. Let's see. Let's scroll back up
+- [20:08] just quickly. Take a look at it. So here
+- [20:10] we have some new code files fully
+- [20:11] implemented. Cursor is just going to
+- [20:14] actually edit our codebase, right? So
+- [20:17] it's not going to change anything
+- [20:18] because this is the most powerful AI
+- [20:19] model. We don't want this to be
+- [20:20] regenerated. We have updated file tree.
+- [20:22] So we need some new files here. Okay,
+- [20:25] beautiful. Clearly documented. And yeah,
+- [20:28] that should be it. So copy your env to
+- [20:31] env set setup API key. We need to run
+- [20:33] this again. We need to start our back
+- [20:35] end. We need to open up the local host.
+- [20:38] That would be interesting. So let's do
+- [20:39] that. Okay. So I can do the terminal
+- [20:42] with command J. Let's reinstall the
+- [20:44] requirements txt again. Boom. We don't
+- [20:47] have Okay, we need to first cd into this
+- [20:49] folder. So the way to do that, you can
+- [20:51] do ls to see all your folders right in
+- [20:53] that directory and do cdai dental voice.
+- [20:56] Boom. that we can see now we are in this
+- [20:58] folder. Beautiful. So I'm going to clear
+- [21:00] the terminal again and I'm going to run
+- [21:01] it again because we don't we don't have
+- [21:03] the requirements txt in the root. We
+- [21:05] have it in this folder. Right. So that
+- [21:08] was the issue. What do we need to do
+- [21:10] next? We need to start u server which is
+- [21:12] just a way of start starting a fast API
+- [21:16] service. Let's start it. There we go. We
+- [21:19] have a bit of lag but there it is. And
+- [21:20] we it's running on this URL. And we have
+- [21:23] an error. No module name nonpie. So, I'm
+- [21:26] going to kill the server with Ctrl C.
+- [21:28] Let's we'll we'll figure out what
+- [21:30] happens once u once the cursor agent
+- [21:32] finishes implementing things.
+- [21:34] So, nump we need numpy
+- [21:37] where let's do numpy.
+- [21:40] Okay, there it is.
+- [21:43] Embedded text. Okay, so maybe for the
+- [21:45] rag. Interesting. We'll see. We'll fix
+- [21:47] that. No problem. In the meantime, let's
+- [21:49] see what we need to do. We need to run
+- [21:51] the docker for phase. This is the rag
+- [21:55] library we're using. Okay, so to be
+- [21:57] super efficient, we should honestly get
+- [21:59] started on stage three. Here we're going
+- [22:01] to solve a small box inside of cursor
+- [22:03] that's faster because uh it doesn't do
+- [22:06] as much reasoning as GP5 Pro. So cursor
+- [22:09] has implemented everything. Let's see
+- [22:12] what's happening. So it created new
+- [22:13] files, made some edits, some changes
+- [22:16] invamp.
+- [22:17] Okay, edit app rag. Okay, so we need to
+- [22:21] install dependencies again. So let's
+- [22:24] press up a few times. There we go. Oh,
+- [22:26] there it is. Numpai is being installed.
+- [22:28] Okay. So I just run that command a bit
+- [22:30] too early. So now if we start the
+- [22:31] uicorn, we should have the app working.
+- [22:35] So we can go to this URL. Let's see what
+- [22:36] happens. Okay. Here we have our app.
+- [22:40] The voice agent is here. Start. Okay. So
+- [22:43] open API key is not set even though it
+- [22:45] is.
+- [22:47] Let's check that.
+- [22:50] It is set.
+- [22:52] Maybe it's not being properly
+- [22:53] referencing. Whatever. We're going to
+- [22:55] debug this. I just want to get started
+- [22:58] on the stage three. So again, repo
+- [23:00] prompt. I'm going to refresh. So
+- [23:02] everything is loaded. I'm going to load
+- [23:04] the entire codebase. Now it's 15,000
+- [23:06] tokens. So it's growing. And I say I've
+- [23:08] completed stage two. Your next time is
+- [23:10] your next step is to complete stage
+- [23:12] three. Boom. Here's stage three. Voice
+- [23:15] agent wiring. And actually for this what
+- [23:18] would be good
+- [23:20] is to get the latest docs again from
+- [23:24] OpenAI docs. Let's copy that. I'm going
+- [23:27] to say OpenAI docs. Boom. Paste it in /
+- [23:32] OpenAI docs.
+- [23:34] We could actually even add it to our
+- [23:36] codebase. Maybe that's better.
+- [23:39] Boom. New file. I'm do real time
+- [23:44] API MD. Just paste the docs in here.
+- [23:48] And now we can easily tag it. We can
+- [23:51] delete it from our prompt here because
+- [23:52] we're going to tag it as a file. Okay.
+- [23:54] So, let's uh again refresh
+- [23:57] in the cursor rules folder. Let's select
+- [23:58] this as well. There we go.
+- [24:02] I'm going to say take a deep breath and
+- [24:04] proceed like a senior developer would.
+- [24:06] Output all of the files, all of the code
+- [24:09] files in full and give me step-by-steps
+- [24:12] instructions on what to do. Let's copy
+- [24:14] that as a full prompt. 20,000 tokens
+- [24:16] back into CHIGBT. Paste that in. In the
+- [24:20] meantime, let's begin debugging some of
+- [24:22] our issues. So, we can actually uh keep
+- [24:25] all. We don't have to click through it.
+- [24:27] But yeah, so we get we get an error
+- [24:29] here.
+- [24:30] We get an error internal server error.
+- [24:33] Now, we have the error message
+- [24:37] that is not looking at the open API key.
+- [24:39] So I'm going to say when I click start I
+- [24:43] get this error. Okay. I'm also copy the
+- [24:47] terminal also. Here's the terminal
+- [24:50] output. Explain to me why this error is
+- [24:52] happening and then analyze the three
+- [24:55] most closely related files and propose
+- [24:57] to me a simple and clear theory as to
+- [25:00] what is causing this error and how to
+- [25:02] fix it. Do not do anything else. Just
+- [25:04] answer in short. And actually in the
+- [25:06] meantime we should probably commit the
+- [25:08] stage two to GitHub. So I'm going to
+- [25:10] show how to do that. So first we do get
+- [25:12] add dot to stage all the files. Let's
+- [25:14] double check there is nothing sensitive.
+- [25:18] We should be file. Maybe the docker file
+- [25:19] is questionable. Whatever. Let's do git
+- [25:22] commit m stage to completed and get
+- [25:26] push. Very simple. We don't have to use
+- [25:28] AI for that. We can do it while the
+- [25:30] agent is responding. Okay. So our server
+- [25:32] was started before the ENV was loaded.
+- [25:34] Wow. Okay, let's kill the server and
+- [25:36] let's restart it. In the main, I'm going
+- [25:39] to do I'm going to do a server start
+- [25:43] command. Just document it in here. We
+- [25:45] have it. That's how you build your
+- [25:48] internal docs. Let's reload this.
+- [25:51] Connection is connected. Start
+- [25:52] connecting. Okay, there we have it.
+- [25:55] Allow microphone. So, allow while
+- [25:57] visiting this site. Test. 1 2 3 4. Do
+- [26:01] you hear me?
+- [26:05] Okay. So, it's responding.
+- [26:10] >> Can you speak in English?
+- [26:12] >> Of course, I can definitely speak to you
+- [26:14] in English. What would you like to talk
+- [26:16] about?
+- [26:17] >> Perfect. So, tell me who you are.
+- [26:21] >> Sure. I'm an AI assistant here to help
+- [26:24] you out with information, answer
+- [26:26] questions, or just have a friendly chat.
+- [26:29] Let me know what you need and I'll
+- [26:31] >> Amazing. So, the voicetovoice agent
+- [26:33] works right now. Of course, this UI
+- [26:36] could be better, but we're not focused
+- [26:37] on fancy UI. Anybody can do that. You
+- [26:39] can build a fancy UI with like two
+- [26:41] prompts in Lovable, right? It's not
+- [26:42] impressive anymore. What's impressive is
+- [26:44] building working full stack apps that
+- [26:47] actually solve a real problem such as
+- [26:49] this problem, which is or this company
+- [26:51] is worth $2,000, right? And again, we
+- [26:53] have a voicetovoice agent. This is
+- [26:55] already way better than you cannot build
+- [26:57] this in any vibe coding app, right? But
+- [26:59] you can easily build this with GBD5 Pro.
+- [27:02] So let's test the documents, right? Is
+- [27:04] document upload working? Uh or is that
+- [27:06] actually that's the next step, right?
+- [27:09] Voice agent wiring. I mean, this already
+- [27:10] works. This already works. So I'm going
+- [27:12] to say read main and tell me what's left
+- [27:18] because the speech
+- [27:20] to speech already works. Does the agent
+- [27:24] have access to the docs we upload or is
+- [27:30] is that just empty UI in the front end?
+- [27:35] Bing hard answer in short. Let's see. So
+- [27:38] in the meantime, we can actually test it
+- [27:39] to be honest. So what I'm going to do,
+- [27:43] okay, GBD5 pro reasoning. I'm going to
+- [27:45] get a PDF
+- [27:47] and upload it here. Right. So boom.
+- [27:52] Let me see if we can drag it over.
+- [27:54] We can. Beautiful. So, this is the GBD5
+- [27:56] system card. GBD5 system. Let's do
+- [27:59] upload and index.
+- [28:01] Will this work? Okay. The UI is a bit
+- [28:03] clanky. Let's see.
+- [28:06] Dun left. Wire the voice agent to rag.
+- [28:08] Okay. So, this is this is still hasn't
+- [28:11] been done. So, okay. Beautiful. So,
+- [28:13] voice to voice agent works. Obviously,
+- [28:15] again, the UI is UI is not clean, but it
+- [28:18] works guys. That's the main thing. We
+- [28:19] can clean up UI easy. That's the easiest
+- [28:21] part, right? AI models are amazing at
+- [28:23] front end. The real part is like
+- [28:25] building a full stack app that actually
+- [28:26] works. That's the hard part. And we have
+- [28:28] a voicetovoice agent using OpenAI
+- [28:31] real-time API. And we're about to add
+- [28:33] the rag now. GBD5 Pro is cooking.
+- [28:36] Amazing. So, what can we do here? Uh, in
+- [28:39] the meantime, maybe we can clean up the
+- [28:41] UI. I mean, to be honest, I like this
+- [28:43] minimalist UI. It almost like I think I
+- [28:45] I predict there's going to be a meta of
+- [28:46] reversing to the previous you know the
+- [28:51] previous simpler UIs like everybody's
+- [28:52] doing these gradients and all that
+- [28:54] stuff. I think people are tired of that.
+- [28:55] People can spot an AI generated user
+- [28:58] interface fast. So I predict more and
+- [29:00] more apps will have simpler UIs. Maybe
+- [29:02] I'm wrong but that's just my prediction.
+- [29:04] We have the document here. We see the
+- [29:07] file. So it is uploaded. It is indexed
+- [29:10] into 89 chunks using the phase library.
+- [29:13] We can actually we can actually do rack
+- [29:14] search as well. So let's do uh tell me
+- [29:18] about GBT 5 thinking pro. I think that's
+- [29:21] the name. RA model search. Let's see if
+- [29:24] the search works. That Oh, it works.
+- [29:27] Look at it. GB5 system card chunk 57.
+- [29:31] Okay, let's do thinking. There we have
+- [29:34] it. We have the thinking references.
+- [29:35] Okay, so this is this is what um vector
+- [29:40] databases are all about. You know, I
+- [29:42] asked about GB5 thinking pro and it's
+- [29:43] finding the chunks that are the closest
+- [29:46] semantically to this, right? So, here we
+- [29:48] have reference of GB5 thinking pro
+- [29:51] and yeah, we we have another one right
+- [29:53] here.
+- [29:55] Beautiful. Amazing. So, we have working
+- [29:57] rack in this app on top of the voice to
+- [30:00] voice. We just need to connect them
+- [30:01] together. That's the next stage. That's
+- [30:03] what GBD5 Pro is working on. You can see
+- [30:06] guys, this this didn't take a week. Like
+- [30:08] I I'm literally building this for like a
+- [30:10] bit over an hour and we have something
+- [30:13] that if you did this manually would take
+- [30:15] you many days assuming you know what to
+- [30:18] do, right? If you don't know what to do,
+- [30:19] it would take you multiple weeks. But
+- [30:20] thanks to using the most powerful AI
+- [30:22] model in the world, GBD5 Pro, you can
+- [30:24] actually build these full stack projects
+- [30:26] even if you've never used these before,
+- [30:28] right? I've never built this project
+- [30:29] before. I I have no clue how to build a
+- [30:32] senior AI voice agent with rag knowledge
+- [30:34] database for dental. I have no clue. But
+- [30:37] I can ask the smartest AI in the world
+- [30:39] and I can build it. And again, this is
+- [30:40] worth $2,000. And as I said, it has
+- [30:43] never been easier to get to $10,000 a
+- [30:45] month with AI. Forget about starting an
+- [30:47] agency and doing all these mainstream
+- [30:49] models. This is the real untapped
+- [30:51] opportunity using the most powerful
+- [30:53] coding agent in the world to deliver
+- [30:55] these medium level projects. I mean,
+- [30:57] these are not simple, but they're not
+- [30:59] complex either, right? medium difficulty
+- [31:01] projects and just build them as a side
+- [31:03] thing, as a side hustle and deliver them
+- [31:06] to the client, right? It's pretty
+- [31:07] incredible what time we live in. And
+- [31:08] there we go. So, GB5 Pro reasoned for 8
+- [31:10] minutes. Notice how the time is slowly
+- [31:12] increasing as the complexity is
+- [31:13] increasing. And there is stage three.
+- [31:16] So, in our classic fashion, let's go to
+- [31:18] the bottom. Can click this button. Copy
+- [31:20] it. Boom. cursor new file answer-d
+- [31:26] boom paste it in I'm going to say next
+- [31:31] your task is to fully implement the
+- [31:35] contents of answer 03
+- [31:40] into our actual codebase proceed like a
+- [31:43] senior developer would boom let's switch
+- [31:47] back to JGBT see what what we need to
+- [31:49] implement ourselves because there's
+- [31:50] always something that AI cannot do.
+- [31:54] Uh seems like we need to again reinstall
+- [31:56] the requires txt. That's fine. We are
+- [31:59] already used to that. And uh we should
+- [32:02] be good. We don't even need to start the
+- [32:05] docker. Real time with ephal tokens is
+- [32:08] recommend browser pattern. Okay. Okay.
+- [32:10] So let's see how cursor is proceeding.
+- [32:12] Okay. It's currently going to replace
+- [32:14] some of the files, make some of the code
+- [32:15] changes. Man, I'm telling you guys, this
+- [32:18] is a untapped opportunity. I'm not just
+- [32:21] speaking out of my ass.
+- [32:23] This is a reason why I chose this
+- [32:24] business model in the new society,
+- [32:26] right? I've seen people try hundreds of
+- [32:27] different things and some of them are
+- [32:30] way too difficult. Some of them it's
+- [32:31] hard to make money. This one is the
+- [32:33] perfect balance, right? Again, it won't
+- [32:36] take you one day, but in the matter of
+- [32:38] six weeks, you can go through this
+- [32:39] workshop. You can focus on setting up
+- [32:41] your tech stack in week one. In week
+- [32:43] two, getting your first paid client in
+- [32:44] week three learning how to do bigger
+- [32:46] projects. And again for all of these
+- [32:48] using GBD5 Pro to help you get unstuck.
+- [32:51] You don't have to be a programmer. You
+- [32:53] don't have to be an entrepreneur. You
+- [32:55] don't need any previous business
+- [32:56] experience. All you need to do is have a
+- [32:59] few hours a day to to follow these
+- [33:02] steps. If you follow these steps, you
+- [33:04] will see results. And again, if you
+- [33:05] don't, I'll personally give you the
+- [33:07] money back. No questions asked. That's
+- [33:09] how confident I am in this business
+- [33:11] model. It really is amazing what you can
+- [33:12] do in 2025 with AI. And it has never
+- [33:15] been easier to start a business with AI
+- [33:17] yet so few people are taking advantage
+- [33:19] of it. Perhaps that is the saddest part.
+- [33:21] Most people are not doing nothing. I
+- [33:22] mean we might we have literally genius
+- [33:24] IQ level AI models and most people are
+- [33:26] still not doing anything about it which
+- [33:28] I guess um that's just human nature. I
+- [33:30] don't know. Anyways, let's let's see if
+- [33:32] cursor is struggling or if it finished.
+- [33:34] It finished. Okay.
+- [33:36] So then let's reinstall requirements
+- [33:39] txt. Boom. Open up the terminal. Command
+- [33:42] J. I'm going to kill the server with
+- [33:45] Ctrl C. Clear. Reinstall this guy.
+- [33:48] Everything has been installed already.
+- [33:50] And then we run our command
+- [33:53] to load the ENV file as well. Unicorn
+- [33:56] Unicorn command. Boom. There we go. And
+- [33:59] what else? Nothing. We just need to
+- [34:01] refresh the server. So, let's do that.
+- [34:03] Reload the server. We need to Okay, we
+- [34:05] have the file already indexed. That's
+- [34:07] beautiful. So, we can start asking
+- [34:09] questions about it probably. Let's Let's
+- [34:10] see if this works. Okay. Yo, can you
+- [34:12] hear me?
+- [34:14] >> Yeah, I can hear you loud and clear.
+- [34:16] What's up?
+- [34:18] >> Do you see the PDF document I attached?
+- [34:21] >> I don't see any PDF document right now.
+- [34:25] Could you try re-uploading it or
+- [34:27] describing what's in it? I'd be happy to
+- [34:30] help either way.
+- [34:31] >> Okay, I'm uploading it right now. I just
+- [34:33] uploaded it. Check your tools. Do you
+- [34:35] have access to it?
+- [34:37] >> I still don't see anything on my end.
+- [34:40] Maybe the upload didn't go through.
+- [34:42] Could you double check and try sending
+- [34:44] it again? Or just give me a quick
+- [34:47] summary of what you need help with from
+- [34:49] the document. I'll do my best to assist.
+- [34:52] >> Listen, do you see the GPD5 system card?
+- [34:56] >> I don't have visual access to any system
+- [34:59] card or document right now.
+- [35:01] >> Yeah. So, that's the last missing piece
+- [35:03] connecting the voice agent to the rag
+- [35:05] because both of them work separately,
+- [35:07] right? We've seen the rag work
+- [35:08] perfectly. We've seen the voice agent u
+- [35:11] work. The way I would solve that is with
+- [35:13] perplexity, right? So what I would do is
+- [35:15] I would say
+- [35:18] uh I I would probably copy this. I'm
+- [35:20] going to say app boom
+- [35:25] app.
+- [35:26] I've toggled on the DB research and I
+- [35:28] say I have built this entire app. I have
+- [35:30] the open AI real-time API working. The
+- [35:33] AI voice agent can successfully do
+- [35:35] speech to speech and also the rag is
+- [35:37] working. The last remaining piece is
+- [35:40] figuring out how I can connect the PDF
+- [35:44] files and documents to the OpenAI
+- [35:47] real-time API. How I can feed in these
+- [35:50] documents to the AI agent that is
+- [35:54] running with the real-time API. Browse
+- [35:56] the web and give me a detailed
+- [35:58] step-by-step instructions how to do
+- [35:59] this. Now again, we can use GBD5 Pro and
+- [36:02] we will. The reason I'm doing a
+- [36:04] perplexity DB research is because I want
+- [36:06] to have the latest documentation for
+- [36:07] this. Then I'm what I'm going to do is
+- [36:09] I'm going to feed that into GPD5 Pro and
+- [36:12] fix this one last piece because that's
+- [36:15] all that remains. And again in the repo
+- [36:16] prompt we should refresh. Boom. Let's
+- [36:19] select the whole codebase. 27,000
+- [36:21] tokens. Now I'm going to say everything
+- [36:24] is working. The speechtoech
+- [36:26] functionality works and the rack qu I
+- [36:29] can also ask questions with the rack.
+- [36:32] The last missing piece is making sure
+- [36:33] that the AI voice agent has access to
+- [36:36] the documents that it can actually
+- [36:38] reference them when I'm talking with it.
+- [36:40] Below is the official documentation that
+- [36:42] you need to follow. Boom. I'm going to
+- [36:44] give it docs and that's going to be the
+- [36:46] output of the perplexity DB research.
+- [36:48] There we are. So, this is checking lots
+- [36:50] of different sites. Okay, it's going to
+- [36:52] be like this. Paste it in there. Your
+- [36:56] task is to analyze the entire codebase,
+- [36:58] find where the issue is, and fix it so
+- [37:01] that the voice agent during the
+- [37:03] speech-to-pech conversation can
+- [37:05] successfully reference any of the
+- [37:07] attached documents and talk about them.
+- [37:10] Make sure to output all of the updated
+- [37:12] code files in full and then tell me step
+- [37:14] by step what to do. All right, so the
+- [37:16] prompt is prepared. We just need to
+- [37:18] paste in the docs. So perplexity
+- [37:21] research is searching all the docs and
+- [37:22] you get you see this is exactly the
+- [37:24] process like if you get stuck at
+- [37:26] anything just do a perplexity search or
+- [37:28] even chd research doesn't matter and
+- [37:31] then use GBD5 pro to solve that problem.
+- [37:34] If it's a smaller problem it's faster to
+- [37:36] just solve it inside of cursor right but
+- [37:38] for anything like you're struggling with
+- [37:40] anything you get stuck throw it in GPD5
+- [37:42] pro and it solves it. It's that
+- [37:44] powerful. This is this is the most
+- [37:46] powerful reasoning model in the world
+- [37:48] that you know it runs 5 minutes, 10
+- [37:50] minutes, but it's worth it. It's worth
+- [37:52] it waiting that. So, I'm going to copy
+- [37:53] this. Boom. Repo run. Paste it inside.
+- [37:56] Copy the whole thing. 29,000 tokens.
+- [37:58] Switch back to GBD5 Pro. Send it in. And
+- [38:01] in about 5 to 10 minutes, I'll have a
+- [38:03] response and I'll have this MVP of this
+- [38:05] app fully completed. And again, we can
+- [38:09] clean up the front end. I have dozens of
+- [38:11] videos that show that. That's the easy
+- [38:12] part. What I wanted to show you is the
+- [38:14] problem solving part, the hard skills,
+- [38:16] right? Using real-time API, which
+- [38:17] personally I've never built with this
+- [38:19] before, right? I don't know. I've just
+- [38:21] feed it in to GB5 Pro. It built it for
+- [38:23] me. This listing was created a few hours
+- [38:25] ago. So again, I've had no way of
+- [38:28] preparing for this. But if, as you can
+- [38:30] see, I have the problem solving skill
+- [38:31] set. I can use the AI to solve anything.
+- [38:34] And I really believe that there's no
+- [38:36] problem I can cannot be solved.
+- [38:37] Sometimes it might take breaking it down
+- [38:39] to smaller steps and you know working in
+- [38:40] stages but it doesn't matter with AI you
+- [38:43] can solve anything and you can
+- [38:44] absolutely build a side hustle AI
+- [38:47] business that you know is like a
+- [38:48] multiple sources of income for you if
+- [38:50] you already have a job or it's just a
+- [38:52] side hustle that you can upkeep with a
+- [38:54] few hours per week. It's up to you but
+- [38:55] you can absolutely do it especially with
+- [38:58] the help of the best most powerful AI
+- [39:00] reasoning model in the world. And
+- [39:02] hopefully this video shows as a proof of
+- [39:04] that. All you need to do is solve
+- [39:05] skills, clearly describe the error
+- [39:07] you're facing, clearly describe the
+- [39:08] problem, and use the tools that are
+- [39:10] already available, guys. GBD5 Pro,
+- [39:13] cursor, perplexity, vectal, all of these
+- [39:16] tools already exist. You don't have to
+- [39:18] reinvent the wheel. You just need to
+- [39:20] apply them. And that's why I structured
+- [39:22] it into this workshop into the six week
+- [39:25] program so that you literally don't even
+- [39:27] have to think. You can just follow these
+- [39:28] steps. If you get stuck, ask GD5 Pro. Do
+- [39:31] a proxy research and proceed like that.
+- [39:34] So again, if you're serious about AI,
+- [39:36] make sure to join the new society. In
+- [39:38] here, you'll learn step by step how to
+- [39:40] build your first AI business and scale
+- [39:41] it to $10,000 a month, even if you are a
+- [39:44] complete beginner. It's going to be the
+- [39:46] link, first link in the video. With that
+- [39:47] being said, thank you guys for watching.
+- [39:49] Let me know if you want more videos on
+- [39:50] GBD5 Pro. It's a very powerful model.
+- [39:52] And I wish you a wonderful, productive
+- [39:54] week. See you.

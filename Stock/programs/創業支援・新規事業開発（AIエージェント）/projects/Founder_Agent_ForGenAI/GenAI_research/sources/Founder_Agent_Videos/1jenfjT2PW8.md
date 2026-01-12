@@ -1,0 +1,263 @@
+---
+title: "YouTube Video: 1jenfjT2PW8"
+video_id: "1jenfjT2PW8"
+video_url: "https://www.youtube.com/watch?v=1jenfjT2PW8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Business Strategy"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Business Strategy"
+summary: |
+  Today is going to be start off something I have been wanting to try out for a while and that is creating this trading AI agent. Uh I've seen a lot of like post and stuff about this. There is this uh p...
+key_points:
+  - "first trade. and I'm going to come back"
+category: "Business"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 1jenfjT2PW8
+
+- URL: https://www.youtube.com/watch?v=1jenfjT2PW8
+- Retrieved at: 2025-12-30T09:19:01+09:00
+
+## Text
+
+- [00:00] Today is going to be start off something
+- [00:01] I have been wanting to try out for a
+- [00:03] while and that is creating this trading
+- [00:06] AI agent. Uh I've seen a lot of like
+- [00:08] post and stuff about this. There is this
+- [00:10] uh paper or some some kind of research
+- [00:13] they are doing this now on um hyperlquid
+- [00:16] with um with cryptocurrency. So I kind
+- [00:19] of wanted to do my own version of this
+- [00:21] and I probably will do a hyperlquid
+- [00:24] version too. Uh but this is kind of the
+- [00:26] setup. It's not the most advanced setup,
+- [00:28] but I try to bring in context, find some
+- [00:31] tickers with high volatility because
+- [00:33] we're going to do CFD trading uh and
+- [00:36] intraday. So, you can see uh how I set
+- [00:40] this up is I'm going to run Cloud Code
+- [00:42] as the agent and I built some MCP
+- [00:45] servers. Uh one is kind of on Yahoo
+- [00:47] Finance just to get the closing price
+- [00:50] and um yeah, after market price for the
+- [00:53] stocks. Uh we have an X MCP. So we can
+- [00:57] look for sentiment on X also on Reddit.
+- [01:00] Uh especially like on Wall Street Bets
+- [01:03] and yeah other subreddits we can look at
+- [01:06] sentiments. So the agent is going to be
+- [01:09] kind of like a sentiment analysis and
+- [01:12] try to pick tickers and stocks for us.
+- [01:15] And it's also going to do kind of the
+- [01:16] setup for the trade. I think uh
+- [01:19] basically we use cloud code, we use the
+- [01:22] tools we have. Uh I'm going to show you.
+- [01:24] We have some more things we need in
+- [01:25] place. I'm going to show you. But
+- [01:27] basically, we use the MCP servers to
+- [01:29] find the stocks with high volatility and
+- [01:31] high sentiment. And based on this
+- [01:34] context, we're going to ask the agent to
+- [01:36] suggest some trades for us. So, we're
+- [01:38] going to start off with $1,000. And
+- [01:40] we're going to see uh at the end of the
+- [01:43] week how much we have. So, today is just
+- [01:45] going to be me explaining the agent,
+- [01:47] showing how it works, and placing the
+- [01:49] first trade. and I'm going to come back
+- [01:51] at the end of the week with the
+- [01:53] follow-up video. So, let's just head
+- [01:55] over there. I'm going to show you a few
+- [01:56] more things before we get this started.
+- [01:58] So, another tool we use is apewisdom.io.
+- [02:01] This is kind of tracking the trending
+- [02:03] stocks on Reddit for the past 24 hours.
+- [02:06] You can see we get ups, we get mentions,
+- [02:08] and we get the tickers. So, I'm going to
+- [02:11] do like top 15. This is going to be a
+- [02:13] part of the context. And we have Swaggy
+- [02:15] stocks. This is basically the same uh
+- [02:18] but there's some more positive or
+- [02:20] negative or neutral sentiment analysis
+- [02:22] here. So we have gold beyond
+- [02:26] uh meet I think AMD, Nvidia, Google,
+- [02:29] right? Uh okay. So you can see these are
+- [02:31] going to be in the context here. So I
+- [02:34] have these two freshly screenshotted
+- [02:37] from this page and we set up a workflow.
+- [02:40] Uh so I have like this command here
+- [02:42] structure. So this is the workflow we
+- [02:44] do. We go from kind of yeah, you can see
+- [02:47] we have a step one that's going to
+- [02:48] review our trending data sources. We
+- [02:50] have the two images I said, right? And
+- [02:52] we're going to use a bash command to get
+- [02:54] today's date. So, we kind of have that
+- [02:56] up to speed. Uh read my account balance
+- [02:58] that is going to be at $1,000 now,
+- [03:01] right? And we're going to extract all
+- [03:03] the tickers from the images we provided
+- [03:05] up here. And yeah, that's basically it.
+- [03:08] But we are going to avoid known mega
+- [03:11] caps. So like Google, Apple, yeah,
+- [03:14] Nvidia, like stuff like that because the
+- [03:17] volatility is pretty low. So there's not
+- [03:18] a lot of uh you can't make much money on
+- [03:22] those CFDs because there's there's not
+- [03:24] so much volatility. So we try to aim for
+- [03:27] like smaller stocks that have more
+- [03:29] volatility
+- [03:31] uh especially these uh meme stocks.
+- [03:34] Right. In our claw.md we also have like
+- [03:36] you're a professional trader with
+- [03:37] specialization in CFD trading. Your task
+- [03:39] is to find trades based on sentimental
+- [03:42] signals from Reddit, Twitter, other
+- [03:44] sources. Our strategy is to leverage
+- [03:46] volatility signals and blah blah blah.
+- [03:48] It's pretty straightforward. So, we have
+- [03:51] some strategies here we're going to
+- [03:52] follow. If people are interested in
+- [03:54] this, I can do another uh go through of
+- [03:57] this, right? But basically, uh this is
+- [03:59] kind of our simple setup. Uh we have our
+- [04:02] MCP servers. So, if we head over to
+- [04:04] cloned, right? And we do our MCP. Yeah,
+- [04:07] there are some there are a couple of
+- [04:09] servers here like the computer use we're
+- [04:11] not going to use. So we going to use our
+- [04:13] grock or X server. We're going to use
+- [04:15] our Reddit server. The tools here are uh
+- [04:18] search post, find trending post, search
+- [04:20] by handles. And for the Reddit server,
+- [04:23] we have the tools that is going to be
+- [04:24] find post, get comments and we can
+- [04:27] search for post and the finance
+- [04:31] Yahoo finance tools are get quotes and
+- [04:34] get the quote with a scraper just
+- [04:36] because we need a real time um or
+- [04:38] pre-market quote um ticker values too.
+- [04:42] Uh yeah, those are the MCP servers we're
+- [04:44] going to use. So basically I think we
+- [04:46] are ready to run this now. So I guess we
+- [04:49] can clear this and all we have to do is
+- [04:51] just do our slash cfd command. So this
+- [04:54] is going to start our workflow now. So
+- [04:56] the first thing that's going to happen
+- [04:57] now is just that uh we're going to do
+- [05:00] the workflow we had in our command. So
+- [05:03] we're going to read those images. We're
+- [05:04] going to read our account balance,
+- [05:06] right? And everything. We're going to
+- [05:07] check out the date. And yeah, uh the
+- [05:10] reason I picked clo for this is just
+- [05:12] it's so good at doing like parallel tool
+- [05:15] calls as you can see here. And just the
+- [05:18] tool calling is just world class. It's
+- [05:20] the best tool calling from all LLMs. And
+- [05:24] that's why I want to use this. So you
+- [05:26] can see what happened here. We had a
+- [05:27] look at the images and we filtered out
+- [05:30] some. So basically we filtered the small
+- [05:32] cap u uh small midcap tickers. So we
+- [05:36] have beyond me asset entities dragonfly
+- [05:39] energies
+- [05:42] am okay. uh Open Door, SoFi, Nebius.
+- [05:47] Okay. And then we use the Yahoo Finance.
+- [05:50] So, we're going to look at uh we use a
+- [05:52] headless puppeteer here to screenshot
+- [05:55] each ticker so we can get the pre-market
+- [05:57] and the closed market price for all the
+- [06:00] tickers we are interested in. And from
+- [06:03] there, we're just going to keep doing
+- [06:04] research. Okay. So, after some back and
+- [06:06] forward, we kind of ended up on two
+- [06:09] trades uh we are going to do or that I
+- [06:12] did. Uh we ended up with uh Beyond Meat
+- [06:15] and we're going to do a 5x leverage. Uh
+- [06:18] I'm not going to do $2,000 exposure on
+- [06:20] this because uh uh I I need to transfer
+- [06:23] some more money. But basically, we are
+- [06:25] starting with $800. And I'm going to do
+- [06:28] an entry here for 1.9. And on the
+- [06:31] Sophie, uh we're going to do the 2.5
+- [06:33] leverage. We're going to do the entry at
+- [06:35] 29.9,
+- [06:38] I think. Right. And we have some tables.
+- [06:41] We're going to follow the TR take profit
+- [06:43] tables. But more importantly, the
+- [06:45] stop-loss levels, right? So, we're going
+- [06:48] to do if we enter beyond meat, we're
+- [06:50] going to do 1.8 and 27.5.
+- [06:54] And then we're just going to have to
+- [06:55] wait and see what these trades give us.
+- [06:57] So, uh I'm going to screen record my
+- [06:59] phone. I'm going to show you the trades
+- [07:01] we have done so far. Okay. So, you can
+- [07:03] see this is the soi trade we did. You
+- [07:05] can see we did a 29.98
+- [07:08] opening price here. And if you look at
+- [07:10] the stop loss, we're going to do 27.5.
+- [07:13] And the takerit is just going to be as
+- [07:15] high as it gets. I guess for the Beyond
+- [07:18] Meat, this is at 2 uh if you go to
+- [07:21] Beyond Meat, 2.08. Now, we're going to
+- [07:23] do uh an entry price I think at 1.9 if
+- [07:27] we go down there. Uh so that is
+- [07:29] basically the strategy. I think it's a
+- [07:31] very simple setup and I think it's just
+- [07:32] a good start just trying to start to
+- [07:35] explore with this. We have like $1,000.
+- [07:37] It's not insane, but we're going to look
+- [07:39] at the percentages I guess and just to
+- [07:42] see what we can do with some small
+- [07:44] leverage. Uh I'm going to build a
+- [07:46] hyperlquid one too where we can do uh I
+- [07:50] think we can they have a documentation
+- [07:51] and an API I think so we can do a bit
+- [07:54] more and set up maybe some more
+- [07:56] autonomous trading because this is very
+- [07:57] manual. It's uh yeah, basically based on
+- [08:01] anal sentiment. So, I'm going to do a
+- [08:04] hyperlquid one and I'm going to try to
+- [08:06] make it into a series. So, I do like a
+- [08:08] Monday, maybe like an update uh before
+- [08:11] the week starts and then I'm going to do
+- [08:13] like on Friday now after five trading
+- [08:15] days. I'm going to do like a recap how
+- [08:18] we did during the full week because it
+- [08:20] doesn't take long to set up the trades
+- [08:22] and close them out when we want to. So,
+- [08:25] I'm probably going to do a hyperlquid
+- [08:26] one uh for cryptocurrency and I'm going
+- [08:28] to continue with this uh CFD uh trading
+- [08:32] agents here with the setup we have. So,
+- [08:36] this is an iteration process. So, I'm
+- [08:37] going to try to improve it over time,
+- [08:39] see what work, but doesn't maybe have
+- [08:41] some more specific strategies we need.
+- [08:44] So, yeah, hope you will enjoy this
+- [08:46] series and let's see if we can make any
+- [08:48] money. Um, I did make $50 last week when
+- [08:52] I tried it out, but that was I think was
+- [08:54] just bit basically luck. Uh, and I think
+- [08:57] this is probably going to be a bit of a
+- [08:59] luck, too. But, uh, maybe we find
+- [09:01] something. Let's see. So, yeah. Thank
+- [09:03] you for tuning in. Hope you come back on
+- [09:05] Friday and have a great week.

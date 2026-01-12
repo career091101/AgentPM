@@ -1,0 +1,317 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=xNplBYQSUAw"
+video_id: "xNplBYQSUAw"
+video_url: "https://www.youtube.com/watch?v=xNplBYQSUAw"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "AI", "team_building", "growth"]
+topics: ["成長戦略", "組織構築", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=xNplBYQSUAw
+  - Retrieved at: 2025-12-30T16:41:09+09:00
+  - [00:00] give me the next 10 minutes and I'm
+key_points:
+  - "- [00:19] keywords and then look through each job"
+  - "- [01:13] works first we need to do is we need to"
+  - "- [01:46] a specified keyword on a jobboard we"
+  - "- [02:23] the keyword you would like me to use so"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: xNplBYQSUAw
+
+- URL: https://www.youtube.com/watch?v=xNplBYQSUAw
+- Retrieved at: 2025-12-30T16:41:09+09:00
+
+## Text
+
+- [00:00] give me the next 10 minutes and I'm
+- [00:01] going to show you exactly how to compile
+- [00:03] a list of future Tech careers that you
+- [00:06] can apply for leveraging AI in the past
+- [00:09] I've taught people how to use my query
+- [00:11] method to find hidden jobs the problem
+- [00:14] though is that that's very manual you
+- [00:16] have to go through run the query run the
+- [00:19] keywords and then look through each job
+- [00:21] figure out if the job still even exists
+- [00:24] and then decide if you want to apply for
+- [00:26] it or not what we're going to do today
+- [00:27] is we're going to speed this up by
+- [00:29] leveraging Chachi PT's operator plan
+- [00:31] we're going to send an operator to go do
+- [00:33] that task and have it compile a list of
+- [00:36] open jobs for us according to our
+- [00:38] criteria and then we're going to use
+- [00:40] that spreadsheet to then speed up our
+- [00:42] job search process we're actually
+- [00:44] testing this right now at scale with our
+- [00:46] mentorship clients and we're teaching
+- [00:48] this to our boot camp Learners so if
+- [00:50] you're interested in learning more you
+- [00:52] can check out the description below I
+- [00:54] want to show you the spreadsheet I've
+- [00:56] got an operator running right now and if
+- [00:58] you've never used chat gbt's operator
+- [01:01] plan this is going to blow your mind
+- [01:03] it's probably the coolest technology
+- [01:05] that has come out in the last few weeks
+- [01:07] and we've been testing it out on a
+- [01:09] variety of different activities and so
+- [01:12] I'm going to show you exactly how it
+- [01:13] works first we need to do is we need to
+- [01:15] go into the operator and I'm going to
+- [01:17] explain the process that we used so the
+- [01:20] first thing that you're going to do is
+- [01:21] prompt it and so what I like to do is
+- [01:23] test out the steps of my process first
+- [01:27] before automating the process and so you
+- [01:29] want to make sure that the operator can
+- [01:31] actually access the data that you're
+- [01:33] looking for so the first thing you're
+- [01:35] going to tell it to do is that you're an
+- [01:37] expert job researcher and can find the
+- [01:39] best opportunities based on a given
+- [01:41] criteria we're giving it instructions to
+- [01:43] go to Google and use a query search for
+- [01:46] a specified keyword on a jobboard we
+- [01:49] give it the formula and then we give it
+- [01:51] an example and then try this now and see
+- [01:54] what you come up with so I'm going to go
+- [01:55] ahead and copy this we'll go ahead and
+- [01:57] we'll run a new operator right now so
+- [02:00] we'll go ahead and paste that
+- [02:02] in and it's going to open up a browser
+- [02:04] and like I said this is this is like
+- [02:06] wild to me that this technology exists
+- [02:08] and it's going to go and it's going to
+- [02:10] perform that function right now it's
+- [02:12] going to pull the query we're going to
+- [02:14] see a list of jobs like we would
+- [02:17] normally see if we were doing this
+- [02:18] manually and let's go ahead and it says
+- [02:21] could you provide the job board URL and
+- [02:23] the keyword you would like me to use so
+- [02:24] let's have it go ahead and run the
+- [02:27] standard the standard I like to start
+- [02:29] with lever and I like to start with uh
+- [02:32] job title so I'll go for this for this
+- [02:35] search we're actually compiling
+- [02:37] engineering internships and so we'll
+- [02:39] have it use that as its first
+- [02:42] query and let's go ahead and see what it
+- [02:45] comes up
+- [02:46] with and this can be done for anything
+- [02:48] so if you're a working professional and
+- [02:51] you're trying to find a senior
+- [02:52] engineering job or you're trying to get
+- [02:53] into SE Suite or trying to really get
+- [02:55] into any field you can leverage AI to
+- [02:57] build your job list the reason why I say
+- [02:59] say like if you want to get into
+- [03:00] technology this is probably the fastest
+- [03:03] way I've found to figure out who's
+- [03:05] hiring in the space without needing to
+- [03:08] know the company name so you don't need
+- [03:10] to think about the company you just need
+- [03:11] to think about okay what are the job
+- [03:13] boards and who's hiring and what are
+- [03:15] they hiring for and so you can see right
+- [03:17] here I found several engineering intern
+- [03:19] positions on the lever job board and you
+- [03:21] you've got the full query so now that it
+- [03:23] knows what it's doing the next step is
+- [03:26] we need to compile
+- [03:30] these open
+- [03:32] jobs into a
+- [03:39] spreadsheet let's
+- [03:44] see um I'm going to actually tell it the
+- [03:46] criteria um according to our
+- [03:50] criteria and so this is where I like to
+- [03:53] narrow things down so you've got your
+- [03:55] your firsthand query like we're going to
+- [03:57] look for all of the engineering intern
+- [03:59] ships on The Leverage J board who's
+- [04:02] hiring the next parameter is the
+- [04:06] criteria so the criteria is it needs to
+- [04:10] be summer
+- [04:15] 2025 it needs to be for undergrads in
+- [04:22] engineering it needs to be located in
+- [04:24] the United
+- [04:28] States and then the Focus
+- [04:32] area we're looking at
+- [04:34] firmware
+- [04:37] electrical Computer
+- [04:39] Engineering Hardware testing
+- [04:44] robotics or
+- [04:47] related and then I usually follow up
+- [04:49] with what questions do you
+- [04:53] have and it should ask us what's the
+- [04:56] spreadsheet how do I access that it's
+- [04:58] right here
+- [05:01] um the user needs question I'll need a
+- [05:03] check each listing to F to fit the user
+- [05:06] requirements I'm ready to compile the
+- [05:08] job listings but before I proceed you
+- [05:09] have any specific preferences for the
+- [05:11] spreadsheet format or additional details
+- [05:12] you like to include so here's the
+- [05:15] spreadsheet and if you've never linked a
+- [05:17] spreadsheet to an operator all you need
+- [05:19] to do is just go into sheets and you're
+- [05:21] going to create a new sheet and you're
+- [05:22] going to make sure that the sheet is
+- [05:23] public so that you can share it you can
+- [05:25] see I've got an operator in here already
+- [05:27] that's doing another project for me
+- [05:30] and we're going to go ahead and provide
+- [05:32] the spreadsheet and then I'm just going
+- [05:33] to say make
+- [05:35] sure make sure to include the
+- [05:38] information from the column
+- [05:42] headings and let's see what it comes up
+- [05:46] with so now it's going to go and find
+- [05:50] that
+- [05:53] spreadsheet sometimes what will happen
+- [05:55] when it opens these spreadsheets it'll
+- [05:56] it it'll tell you it doesn't have access
+- [05:58] you can just tell it actually you do try
+- [06:00] again and it'll actually prompt it to to
+- [06:03] actually start editing that spreadsheet
+- [06:05] so if you run into that you can just
+- [06:06] tell it no you can still access
+- [06:09] it so let's see what it comes up with
+- [06:12] now we've
+- [06:14] got it's going through so it's actually
+- [06:17] taking the exact same process that we
+- [06:19] would take if we were manually going
+- [06:20] through the query so first we would go
+- [06:22] to Google we would search the query we
+- [06:24] would look at all the listings we'd find
+- [06:26] a listing to click on we would click on
+- [06:28] the listing see if the job is open if
+- [06:30] the job is open then we would go back um
+- [06:32] and we would add it to our list very
+- [06:34] interesting so we've got some deep
+- [06:36] learning opportunities here and so this
+- [06:38] is where things get interesting because
+- [06:40] it's kind of a meta process you've got
+- [06:42] you're using AI to find a job in AI so
+- [06:45] that you can work in Ai and so um as
+- [06:48] soon as I came up with kind of this
+- [06:50] process and we've been testing it out
+- [06:51] with our clients I'm like I have to
+- [06:53] share this because if if you're trying
+- [06:54] to find a way to stand out or a way to
+- [06:57] you know get ahead or have the latest
+- [06:59] ingred greatest or be kind of on that
+- [07:01] Forefront of emerging Technologies this
+- [07:03] process can help you speed things up and
+- [07:06] what we're noticing is you're going to
+- [07:07] need to do a lot more volume to get into
+- [07:09] the marketplace because there's just so
+- [07:11] many people using AI in the in the
+- [07:13] cheating way in my honest opinion
+- [07:15] they're using AI to generate their
+- [07:17] resume but they're not using AI to do
+- [07:19] research they're not using AI to
+- [07:21] optimize their process to me this is a
+- [07:23] better use of your time have ai go out
+- [07:26] and do your research for you have it
+- [07:27] compile lists for you have it give you
+- [07:30] briefings so that you're aware of what's
+- [07:32] going on do not Outsource your resume to
+- [07:35] AI because what's happening is everyone
+- [07:36] is doing that and companies are getting
+- [07:38] inundated with the same resume because
+- [07:41] people are just ripping the job
+- [07:42] description throwing it into a GPT and
+- [07:45] then having it spit out a perfect resume
+- [07:47] and then the reality is is you may or
+- [07:49] may not have that actual experience and
+- [07:51] companies are starting to catch on to
+- [07:53] this so my thought was use AI to speed
+- [07:56] up your process don't use AI to you know
+- [08:00] become your expert you know and and and
+- [08:02] Outsource those those tests that you
+- [08:04] really should be doing yourself so I
+- [08:06] found a machine learning intern position
+- [08:09] would you like me to add this to the
+- [08:10] spreadsheet yes if it meets the
+- [08:15] criteria you don't need to ask just
+- [08:18] update the
+- [08:25] spreadsheet so now we're just giving the
+- [08:27] AI permission to go ahead and make those
+- [08:30] decisions and go ahead and start filling
+- [08:32] out the
+- [08:36] spreadsheet so you can see that isn't me
+- [08:38] that is the AI it's doing its thing
+- [08:41] right now it's going to fill out the
+- [08:43] date it's going to put in the company
+- [08:45] name it's going to grab that posting URL
+- [08:48] right here and give us some notes on
+- [08:51] what what this job is all about and what
+- [08:54] you could do is if you're trying to get
+- [08:56] as many applications out there and you
+- [08:58] want to take you want to spend your time
+- [08:59] tailoring your resumés and tailoring
+- [09:02] your cover letters and preparing for
+- [09:03] interviews so that you can win over the
+- [09:06] interviewer you could have ai an
+- [09:09] operator go out and do all your research
+- [09:11] for you do all the administrative work
+- [09:13] and and figure out okay what are the
+- [09:15] best companies for my next move and then
+- [09:19] spend your time doing the tailoring
+- [09:20] doing the
+- [09:21] personalization in the interviewing
+- [09:24] process so that you're prepared to get
+- [09:25] those jobs that to me would be a much
+- [09:28] better way of leveraging AI
+- [09:30] than to just run your resume through an
+- [09:33] AI tool and then just start dumping
+- [09:35] resumés into whatever openings you find
+- [09:37] on indeed um if you do that you're going
+- [09:40] to be put into a category with everybody
+- [09:41] else if you do something like this
+- [09:43] there's a little bit more strategy
+- [09:45] involved and you're going to be
+- [09:46] leveraging your time in a better way in
+- [09:48] just my honest opinion and so you can do
+- [09:51] this for any type of job like I
+- [09:53] mentioned you don't have to do this for
+- [09:54] internships I'm running it on
+- [09:56] internships because we have students in
+- [09:57] our program right now that are looking
+- [09:59] for summer internships and so we need to
+- [10:01] do this research anyways and so we're
+- [10:03] finding ways to tune the prompt and and
+- [10:05] give the operator better information so
+- [10:07] that we can get better results and so
+- [10:09] we're we're testing this right now and I
+- [10:12] I wanted to hop on here and show you the
+- [10:14] possibilities of collecting and
+- [10:16] compiling data leveraging Ai and if you
+- [10:19] don't know who I am my name is Liz
+- [10:20] Miller I'm the founder of learn
+- [10:22] robotics. org and I've helped thousands
+- [10:25] of people break into the future Tech
+- [10:27] space and Robotics AR artificial
+- [10:29] intelligence Automation and now I'm here
+- [10:32] to help you as well so if you follow the
+- [10:34] instructions in this video you're going
+- [10:36] to be getting some offers on the table
+- [10:37] and you'll be at the Forefront of
+- [10:39] emerging Technologies I hope you found
+- [10:41] value in this training if you have any
+- [10:44] questions at all leave them in the
+- [10:45] comments section below if you're
+- [10:47] interested in learning more about our
+- [10:48] upcoming sessions for the boot camp and
+- [10:50] for mentorship you can visit learn
+- [10:52] robotics. org and I hope to talk to you
+- [10:53] soon bye

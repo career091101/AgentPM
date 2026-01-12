@@ -1,0 +1,756 @@
+---
+title: "music Hi everyone and welcome to the agent factory the podcast that goes beyond the hype and dives i..."
+video_id: "hj0nTLbhIEY"
+video_url: "https://www.youtube.com/watch?v=hj0nTLbhIEY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Startup"
+summary: |
+  Hi everyone and welcome to the agent
+  factory the podcast that goes beyond the
+  hype and dives into building production
+key_points:
+  - "Hancock who is a full stack engineer and"
+  - "who is also known on YouTube as AI with"
+  - ">> Yes. Uh it is a very special day. We are"
+  - "surprise anti-gravity um our agentic"
+  - "it's very exciting and um we will show"
+  - "And I've got some surprises, too."
+  - "really well. Also, it is able to do"
+  - "really liked using it in is actually AI"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: hj0nTLbhIEY
+
+- URL: https://www.youtube.com/watch?v=hj0nTLbhIEY
+- Retrieved at: 2025-12-30T15:50:48+09:00
+
+## Text
+
+- [00:02] [music]
+- [00:05] Hi everyone and welcome to the agent
+- [00:07] factory the podcast that goes beyond the
+- [00:09] hype and dives into building production
+- [00:11] ready AI agents. I'm Smitha Cullen
+- [00:14] >> and I'm Vlad Kalisnikov
+- [00:16] >> and today we're joined by Brandon
+- [00:18] Hancock who is a full stack engineer and
+- [00:21] who is also known on YouTube as AI with
+- [00:24] Brandon where he teaches AI to over
+- [00:26] 80,000 developers. Welcome to the show
+- [00:28] Brandon. Hey Smith. Hey Vlad. So excited
+- [00:30] to be here today. Awesome world of
+- [00:33] everything that's going on right now
+- [00:34] with AI and I'm so excited to dive into
+- [00:36] it with you guys today.
+- [00:37] >> Yes. Uh it is a very special day. We are
+- [00:40] recording just a few hours uh after
+- [00:43] Google released two new products. birth
+- [00:45] our new flagship model Gemini 3 where we
+- [00:49] had a lot of anticipation for that and a
+- [00:52] surprise anti-gravity um our agentic
+- [00:56] coding environment with lots of features
+- [00:59] uh to explore and um in just in general
+- [01:03] it's very exciting and um we will show
+- [01:06] you a few demos um of Gemini 3 obviously
+- [01:10] uh Brandon has a very special demo
+- [01:12] himself uh with Gemini CLI
+- [01:15] And I've got some surprises, too.
+- [01:17] >> Awesome. So, let's kick it off with
+- [01:19] Gemini 3 Pro. Uh, I've gotten the chance
+- [01:23] to play with it already, and I've been
+- [01:24] super impressed. It's really great at
+- [01:27] advanced highle reasoning, and also,
+- [01:30] it's able to uh complete complex tasks
+- [01:33] really well. Also, it is able to do
+- [01:36] stuff like agentic operations really
+- [01:38] well. So, it makes it really the ideal
+- [01:40] model to build AI agents with. and I
+- [01:43] spent a ton of time already trying to
+- [01:45] build AI agents with Gemini 3 Pro and
+- [01:47] I've been blown away. Uh, one thing I've
+- [01:49] really liked using it in is actually AI
+- [01:52] Studio. So, let me actually hop into AI
+- [01:55] Studio and showcase what I've been
+- [01:56] doing. Okay, so I'm in Google AI Studio
+- [01:59] and what I've been thinking recently is
+- [02:02] about building a personal website. I
+- [02:04] know I'm I'm a dev at Google and I
+- [02:06] should probably have one, but I don't.
+- [02:08] Uh so what I've done is actually I took
+- [02:12] my LinkedIn page and I exported it as a
+- [02:14] PDF. I also used Nano Banana to create
+- [02:19] an inspiration picture of what I want my
+- [02:22] website to look like. And then I'm
+- [02:24] uploading all of that into build in uh
+- [02:28] Google AI Studio to help build out that
+- [02:30] website. So let me start off by
+- [02:32] uploading the PDF of my profile from
+- [02:34] LinkedIn.
+- [02:37] And then I'm also going to be uploading
+- [02:39] a profile image of me so it gets that
+- [02:42] right. And um I'm also going to be
+- [02:45] uploading that inspiration picture of
+- [02:47] how that website should be looking like.
+- [02:49] Okay. Uh help me create a personal
+- [02:51] portfolio website based on the profile.
+- [02:55] PDF file which contains my LinkedIn
+- [02:57] profile and then use the inspo.png as
+- [03:01] inspiration for how the website should
+- [03:02] look like. And then make sure that you
+- [03:04] include that profile picture of me as
+- [03:06] well.
+- [03:08] I'm pumped to see how this turns out. I
+- [03:10] would love to see some of the like
+- [03:11] initial pictures you did with uh Nano
+- [03:13] Banana because seriously one of the
+- [03:16] coolest AI image generators I've seen. I
+- [03:18] would love to see what you did for
+- [03:19] inspiration cuz um would love to see how
+- [03:22] AI takes that input and does something
+- [03:23] with it. First, I used uh Gemini to give
+- [03:26] me a prompt to give to Nano Banana based
+- [03:29] on, you know, what I would like. And
+- [03:31] using that prompt, Nanobanana came up
+- [03:33] with this really nice inspo pick which
+- [03:35] is pretty close to the website I'm
+- [03:37] looking for.
+- [03:38] >> That's awesome.
+- [03:39] >> Look at the speed that it's working at.
+- [03:41] Um I one thing I noticed with Gemini 3,
+- [03:44] it's how fast it is.
+- [03:47] Um, yeah, that that really makes a
+- [03:49] difference for me as someone who likes
+- [03:52] to iterate over and over on the same
+- [03:54] thing. Um, and yeah, I've noticed that
+- [03:57] it works really fast despite the fact
+- [03:59] that so many people are now on it and
+- [04:01] testing and trying and uh, you know,
+- [04:04] offloading like huge data pieces on it
+- [04:08] and just seeing how it performs. Our
+- [04:10] TPUs are must be on fire, right?
+- [04:13] [laughter]
+- [04:14] And speaking of being on fire, I really
+- [04:17] love all of these fire suggestions that
+- [04:19] AI Studio gives. So, kind of like, oh,
+- [04:22] if you want to add video understanding,
+- [04:23] I can easily try to click this and then
+- [04:26] add it here so that it becomes the next
+- [04:27] prompt that I want to add to my website
+- [04:29] if I if I wanted to.
+- [04:32] >> Less than 3 minutes in. Oh my god.
+- [04:35] >> Looks pretty cool.
+- [04:38] >> The image is no longer available.
+- [04:40] >> Okay.
+- [04:41] >> See, it's AI. You always need to uh look
+- [04:44] what it's done.
+- [04:47] >> I mean, it it got all the details,
+- [04:49] right?
+- [04:50] >> I love it. I love it. Look, it really
+- [04:53] got like I've been to your LinkedIn
+- [04:55] page, so I know what's there.
+- [04:57] >> Uh it really put your work experience
+- [05:01] and email and yeah, you were a great
+- [05:04] public speaker, de machine learning,
+- [05:06] everything.
+- [05:08] >> Yeah. Uh okay, let me actually try to
+- [05:10] fix that image. Right. What I really
+- [05:12] like is this annotation feature in uh
+- [05:15] Google AI Studio. So, I'm going to click
+- [05:17] this
+- [05:18] >> and it allows you to annotate stuff that
+- [05:20] like is missing. So, for example, just
+- [05:22] this section and I can say um add that
+- [05:28] section to chat and
+- [05:34] fix my image with the actual profile
+- [05:36] picture. So, while that's going real
+- [05:38] fast, Smith though, one of the coolest
+- [05:39] things that I've really liked about AI
+- [05:41] Studio recently is its ability to like
+- [05:43] single shot. I've tried to like test it
+- [05:46] as much as I can on like everything from
+- [05:48] like web applications all the way to
+- [05:50] like like senior year of college like
+- [05:53] level math and computer science and
+- [05:55] electrical engineering. So, I like
+- [05:56] tested it like on the full gambit and it
+- [05:59] has crushed it on all levels like all
+- [06:01] the way from regular software to like
+- [06:03] full-blown like calculus 3 level math.
+- [06:05] Like I know they say like smartest model
+- [06:07] ever. So I was like I'm going to try and
+- [06:09] test it out and it is. It really is. Um
+- [06:13] yeah absolutely been amazed. I love this
+- [06:16] image and and see how it also like
+- [06:18] originally it wanted to style it with
+- [06:20] the kind of black and white. Um yeah
+- [06:23] because that's what your initial style
+- [06:25] was and it it kept that that thing. I I
+- [06:29] love it.
+- [06:30] >> Yeah. And then also the fact that I
+- [06:32] could have I gave that prompt very
+- [06:35] specifically to just this section and it
+- [06:37] didn't change the entire website because
+- [06:39] that can happen too.
+- [06:42] And that's my demo and this is my
+- [06:44] website now.
+- [06:48] >> Have you got to try publishing it yet
+- [06:49] out of curiosity in the top right?
+- [06:51] >> Oh yeah. So the cool thing is that I can
+- [06:54] deploy this super easily to Cloud Run.
+- [06:57] It's it's super easy.
+- [07:00] >> Yeah. It just it just goes straight
+- [07:02] there. Uh takes a few minutes and you
+- [07:05] have your uh website up and running. You
+- [07:08] literally don't need any knowledge about
+- [07:11] Google Cloud or Cloud Run. Uh you click
+- [07:14] one button. Sorry, that's just one of
+- [07:16] the craziest parts that every time I
+- [07:17] keep working with more and more of like
+- [07:19] these uh tools from Google, it's like
+- [07:21] the barrier to entry to just build and
+- [07:23] ship stuff is insane. So, like in a lot
+- [07:25] of my communities, there's people that
+- [07:27] are like, "I've never coded an app
+- [07:29] before, but I have an idea." And then
+- [07:30] they'll just hop into, you know, any of
+- [07:32] these tools and actually create
+- [07:33] something. Like, it's crazy how many
+- [07:35] more people are now able to build real
+- [07:37] world apps uh thanks to these tools.
+- [07:39] Like, it's it's always so exciting to
+- [07:41] see people light it up for the first
+- [07:42] time making their own apps.
+- [07:43] >> And hey, Smith has got a website now.
+- [07:45] You can hit contact me and uh [laughter]
+- [07:48] and she'll fix it.
+- [07:49] >> Okay, Brandon, you have something really
+- [07:52] cool to showcase on Gemini CLI for us.
+- [07:54] All right. So, here's what I wanted to
+- [07:56] show you guys that I've been working on
+- [07:57] using a combination of Gemini, Gemini,
+- [08:00] uh, CLI, and I'm actually going to show
+- [08:02] it a little bit in anti-gravity because
+- [08:04] I'm pumped to show everything allin-one.
+- [08:06] So, quick background, guys. So, what I'm
+- [08:09] trying to do now in the age of AI is I
+- [08:11] want to be AI first for everything I do.
+- [08:14] I swear there's never enough hours in
+- [08:15] the day. So, what I'm always looking to
+- [08:17] do is to build out what I'm calling like
+- [08:19] AI employees to help out with task in
+- [08:23] every part of, you know, my YouTube
+- [08:24] business, other businesses. I want AI to
+- [08:27] do as much as it can so I have more time
+- [08:29] to focus on the big things. So, what I
+- [08:31] really want to show in this video with
+- [08:33] you guys today is how I go about
+- [08:36] building a market research AI employees.
+- [08:39] And uh just super quick background just
+- [08:41] so that we're on the same page. We have
+- [08:42] a um me and a co-founder have a startup
+- [08:44] where we're helping out emergency
+- [08:46] medical services like ambulance
+- [08:47] companies, fire departments. We're
+- [08:49] basically helping them out with their
+- [08:50] SOAP reports. So we have a phenomenal
+- [08:52] idea of exactly who our customer avatar
+- [08:55] is, but they're all across America. So
+- [08:57] it's very hard to like, you know, I
+- [08:59] could manually spend the rest of the
+- [09:01] week on Google finding everyone in my
+- [09:03] state. But we have amazing AI tools that
+- [09:06] are using Google search. So I could
+- [09:08] easily at scale kind of search the whole
+- [09:11] market. So um this is what I wanted to
+- [09:13] break down for you guys today. Basically
+- [09:15] I'm pumped to showcase how we can
+- [09:16] actually use Gemini CLI which is one of
+- [09:19] the best CLI tools with you know having
+- [09:21] the ability to do Google search and
+- [09:23] thanks to you know the wide array uh
+- [09:26] wide variety of models. We have
+- [09:27] everything from you know Gemini 3 Pro
+- [09:29] when we really want to think about it
+- [09:31] all the way to Gemini 2.5 flash when we
+- [09:33] want to kind of do things at scale. and
+- [09:35] Gemini CLI they have like a super
+- [09:37] generous free tier. I think it's like a
+- [09:38] thousand requests per day completely for
+- [09:40] free. So that's a like hey gotta love
+- [09:43] free. Um so yeah so uh long story short
+- [09:46] absolutely using Gemini CLI to build out
+- [09:49] all of my AI employees. And one of the
+- [09:52] things that I want to walk you guys
+- [09:53] through is how you actually can do this.
+- [09:55] Like how how on earth do you build an AI
+- [09:58] employee? And it's basically just done
+- [10:00] through markdown files. So, um, so
+- [10:02] that's what I want to walk you through.
+- [10:03] And just a quick challenge for the
+- [10:04] audience after you guys kind of get to
+- [10:06] see all this in action. I would love to
+- [10:07] challenge you guys, too, to try to build
+- [10:09] out each week like a new AI employee
+- [10:11] because as time goes on by the end of
+- [10:12] the year, like you're going to have a
+- [10:14] full-blown workforce of Gemini models
+- [10:17] running around doing all the work for
+- [10:18] you guys.
+- [10:19] >> That's awesome.
+- [10:20] >> All right, perfect. And real quick, high
+- [10:22] level, how do we think about building AI
+- [10:24] employees with Gemini CLI? The way I
+- [10:27] like to think about it is we have the
+- [10:30] ability to use multiple models. So
+- [10:32] here's what we want to do. Just like as
+- [10:34] Vlad pointed out, we want to kind of
+- [10:36] build out standard operating procedures,
+- [10:38] which are instructions, which is awesome
+- [10:40] because we get to use tools like Gemini
+- [10:42] 3 Pro, which are these, you know,
+- [10:44] insanely smart models to help write out
+- [10:47] well doumented instructions such as
+- [10:49] like, hey, please go search the
+- [10:51] internet. Here's the type of questions
+- [10:52] we want to look up. Here's the ultimate
+- [10:54] goal that we're trying to uh achieve.
+- [10:56] And these models are phenomenal at
+- [10:57] writing very um specific and clear
+- [11:00] instructions. Then when it comes time to
+- [11:02] do not, you know, not the highle
+- [11:04] thinking, but to actually go into like
+- [11:06] what I call like workerb mode, hey,
+- [11:08] fantastic. We can fall back on some of
+- [11:10] the more fast, efficient, and more
+- [11:12] affordable models like Gemini 2.5 flash
+- [11:15] to actually go off and follow these
+- [11:17] instructions. And the coolest part about
+- [11:19] Gemini CLI is you can actually spin up
+- [11:22] like you could really spin up a hundred
+- [11:24] different agents in parallel to search
+- [11:26] across all America. Like this is you
+- [11:28] really have agents at scale. So the core
+- [11:30] principle of building out AI employees
+- [11:32] comes down to what these documents
+- [11:34] include. These are standard operating
+- [11:36] procedures where basically we once go we
+- [11:40] once go through the process and clearly
+- [11:41] define what our inputs are, what task we
+- [11:44] want to accomplish and then at the very
+- [11:46] end we describe the actual output that
+- [11:48] we're trying to do. We can use Gemini to
+- [11:52] go forth and follow these instructions.
+- [11:54] So what I can say is um I can say please
+- [11:59] follow the research uh let's actually do
+- [12:03] this the research city instructions for
+- [12:07] and then you can actually like in my
+- [12:08] case I have multiple cities that I want
+- [12:10] to go look up. So I can go through this
+- [12:13] process and just like grab a few cities
+- [12:15] and I can say for these
+- [12:18] uh cities and then what's really nice is
+- [12:21] I can actually pass in the cities and
+- [12:23] then finally after that what we want to
+- [12:25] do to like maximize our agent
+- [12:27] capabilities is to actually run some
+- [12:30] Python scripts to actually kick off
+- [12:32] Gemini in parallel because that's one of
+- [12:33] the coolest parts that I don't know if a
+- [12:35] lot of people know about Gemini is you
+- [12:37] can actually kick off Gemini in the
+- [12:38] normal editor or you can do something
+- [12:40] like this where you can pass in a prompt
+- [12:43] which is a cheat code because you can
+- [12:45] basically kick off hundreds of agents in
+- [12:47] the background using this strategy. So
+- [12:49] in this case we have some nice little um
+- [12:52] some nice little Python scripts that
+- [12:54] will go through the process of kicking
+- [12:56] off Gemini in parallel to actually go
+- [12:59] off and research everything that I need.
+- [13:01] So we're just going to say use uh we'll
+- [13:03] sorry about this. We'll say use at
+- [13:05] process cities. And you know, at this
+- [13:08] point, what it's going to do is we're
+- [13:10] now kind of kicking things off to where
+- [13:12] it's going to go through the process of
+- [13:14] kicking off multiple parallel agents to
+- [13:16] go off and search in each one of these
+- [13:19] different cities in Miami to find
+- [13:21] potential customers that we could reach
+- [13:22] out and help with our company. Now, at
+- [13:25] this point, what's nice is we're
+- [13:27] actually having AI call a script. So the
+- [13:30] AI is going to understand the parameters
+- [13:32] of the script, pass in all the cities
+- [13:33] and kick off the workflow. So I know
+- [13:36] this kind of probably got a little deep
+- [13:37] in the weeds. Is there any questions? I
+- [13:39] want to take it high level too just
+- [13:40] because I want people to understand um
+- [13:43] you know that you could pretty much
+- [13:45] build have agents do anything. That's
+- [13:47] the cool part.
+- [13:48] >> The scripts that you're talking about,
+- [13:50] is that something you hardcoded or
+- [13:52] Gemini CLI did that for you?
+- [13:54] >> Great question. I don't code anymore,
+- [13:57] which is the funniest statement as a
+- [13:58] software engineer. I never code. I
+- [14:00] review I review a lot of code but um all
+- [14:03] I have to do is say hey Gemini CLI what
+- [14:06] I'm trying to do is I want the ability
+- [14:08] to give you and in this case I want to
+- [14:10] give you three or four cities to go off
+- [14:13] and research and what I want you to do
+- [14:15] is run you know Gemini-P as a prompt and
+- [14:19] basically just paste in this type of uh
+- [14:22] city right here or these type of
+- [14:23] instructions which is hey go research a
+- [14:26] city do it for this city uh and
+- [14:28] basically just kick this off 10 times or
+- [14:29] 10 20 times, however many cities I give
+- [14:31] you. So, no, that's all done based on uh
+- [14:34] Gemini of what I need that question,
+- [14:36] too.
+- [14:37] >> No, not a question, more like a comment.
+- [14:39] Uh last time I've been at the podcast,
+- [14:41] this very podcast, I also used this uh
+- [14:45] what I think is a cheat code of creating
+- [14:49] uh you know little Python tool and
+- [14:52] passing it to Gemini. And first like as
+- [14:55] a as a software engineer even though you
+- [14:57] don't write it uh you you have this
+- [14:59] ability to kind of prompt it properly
+- [15:02] and guide it to create uh those scripts
+- [15:05] and verify whether it's right or not. Uh
+- [15:08] but the thing I love the most is that
+- [15:09] you don't have to explain how to use it.
+- [15:12] >> You just give code and Gemini says like
+- [15:15] okay I look at it this I think how how
+- [15:17] to use it and 99.9% that's right about
+- [15:19] it. I love and even even if sometimes it
+- [15:22] uh runs it in the wrong way and the tool
+- [15:25] crashes, it looks at the error and then
+- [15:27] that next time it's right.
+- [15:29] >> No, totally cheat code. Use it all the
+- [15:32] time. Yeah.
+- [15:32] >> Yeah. I agree. The one other just quick
+- [15:34] side topic while this is a spinning off
+- [15:37] when it comes to the concept of building
+- [15:39] out AI employees, one thing I do want to
+- [15:41] mention is we basically get to use AI to
+- [15:44] do everything if it has context of the
+- [15:46] problem. So, for example, um I also just
+- [15:50] other other things, I use Gemini CLI as
+- [15:53] a ghostriter to help me respond to
+- [15:54] emails. So, you can easily hook up an
+- [15:56] MCP server to Gmail and fantastic. I can
+- [15:59] just pass in information such as like,
+- [16:01] hey, here's Brandon's ghostriter. He it
+- [16:04] knows how to write like me. Can you
+- [16:05] please go pull down my emails and
+- [16:07] respond to the latest three emails?
+- [16:09] Because it knows who I am. It knows how
+- [16:10] I like to write and it can just kick it
+- [16:12] off. Outside of that, I have to write
+- [16:14] monthly status reports. Well, my agents
+- [16:16] has to write monthly stat supports. So,
+- [16:17] um, key thing is just the more folders
+- [16:19] you can add into your AI employee
+- [16:21] directory, you just record the task and
+- [16:24] then have AI do it the next time. And I
+- [16:25] I do this for if I'm ever doing
+- [16:27] something more than once, uh, I can
+- [16:29] guarantee you AI is doing it for me. So,
+- [16:31] um,
+- [16:32] >> wait, so so was it your ghostriter
+- [16:33] responding to all of my emails?
+- [16:36] [laughter]
+- [16:36] >> I No, no,
+- [16:40] that's funny. There is human in the
+- [16:42] loop. I do I do review it before
+- [16:44] everything goes out. But um I mean this
+- [16:45] is the coolest part guys like um we can
+- [16:47] now use AI to move faster. Um eventually
+- [16:50] it's going to be my agent talking to
+- [16:52] your agent and it's just calendar events
+- [16:53] are going to appear up on on so hey we
+- [16:56] meet tomorrow kind of thing.
+- [16:57] >> This is unreal. Yeah.
+- [16:59] >> So while this is going I just want to
+- [17:00] show real fast kind of what's uh
+- [17:02] happening just so we can uh can move on.
+- [17:04] But at the end of the day what we're
+- [17:05] doing is just customer research. So for
+- [17:07] each one of these cities you can see
+- [17:09] it's starting to like save outputs. I
+- [17:11] won't click on it because it's actually
+- [17:12] going to show like customer data, but it
+- [17:14] does a super deep dive into
+- [17:16] understanding exactly what's happening
+- [17:18] in that local city and then kind of just
+- [17:21] taking the same principles. We uh what
+- [17:24] we get to do next is once again use
+- [17:25] standard operating procedures to take in
+- [17:28] all the information from these different
+- [17:29] cities. We aggregate it uh sorry I don't
+- [17:32] know why it's showing but we aggregate
+- [17:33] it into a database and then after that
+- [17:36] we have an outreach SOP that shows
+- [17:38] exactly how to write personal outreach
+- [17:40] to each one of our customers to see if
+- [17:41] they would be interested in working with
+- [17:43] us. So this is kind of the workflow to
+- [17:45] where you basically just have the AI
+- [17:47] document the process and then repeat it
+- [17:49] at scale going forward. So yeah um
+- [17:52] seriously thank you guys for uh for
+- [17:54] making uh making Jim and I work and all
+- [17:56] the new models. Absolutely having a
+- [17:58] field day with them. Automate everything
+- [18:00] with Gemini. Huh?
+- [18:01] >> That's the goal. [laughter]
+- [18:04] >> Okay. So, just to recap, we saw Gemini
+- [18:07] in AI Studio. We saw it in Gemini CLI,
+- [18:10] which is a great agent, by the way. But
+- [18:13] do you have another agent you want to
+- [18:14] showcase with us?
+- [18:16] >> Yes. Uh I will show you an ADK agent.
+- [18:20] So, an agent built with uh Google's uh
+- [18:23] agent development kit. And this agent is
+- [18:26] made with uh vio 3.1 obviously with
+- [18:30] Gemini and like I said uh with ADK. So
+- [18:33] what's special about this agent is it's
+- [18:35] specifically made to uh create
+- [18:38] educational videos and it it doesn't
+- [18:42] just uh take like a script and uh um
+- [18:46] creates a video with a talking head that
+- [18:49] tells you what's written in in in the
+- [18:52] docu documentation script. It takes uh a
+- [18:55] documentation page that uh you know if
+- [18:58] you think about uh documentation for
+- [19:01] developers it's full of code it's full
+- [19:04] of uh bullet points uh you know numbered
+- [19:06] list etc. And it creates um somewhat
+- [19:10] engaging uh video where in this case uh
+- [19:14] my favorite one of my favorite animals
+- [19:16] uh Capibara uh is telling you the story.
+- [19:20] So um the agent itself actually consists
+- [19:23] of multiple sub aents right uh like we
+- [19:26] love it about ADK it gets this uh this
+- [19:29] boss orchestrator of the wood agent that
+- [19:34] uh works with two sub agents one is the
+- [19:36] script sequencer the script sequencer
+- [19:39] does two important jobs first it adapts
+- [19:42] the script so um when you know when we
+- [19:45] start with the documentation page we
+- [19:47] want it we want the text and that that
+- [19:50] story to sound natural and engaging. So
+- [19:52] does the adaptation or uh the scabby bar
+- [19:56] of our character to sound natural and to
+- [19:59] not read you bullet points like you know
+- [20:01] like many speakers do of uh
+- [20:04] presentations. Um second thing it does
+- [20:07] it makes sure that uh those sentences
+- [20:10] they're split in 8 second pieces and
+- [20:13] it's very important because you know you
+- [20:15] know uh video models they don't produce
+- [20:17] very long videos uh they produce um
+- [20:20] short uh pieces and we want again those
+- [20:23] to sound natural and have nice
+- [20:25] transitions and that's uh that's the
+- [20:27] second job that script sequencer had.
+- [20:29] Once that is done um it passes those um
+- [20:34] sequences those chunks uh back to the
+- [20:36] orchestrator and the orchestrator calls
+- [20:38] video agent to generate videos. One
+- [20:40] important thing and you probably saw it
+- [20:43] when I was scrolling is that uh for for
+- [20:46] the video generation I use nanobanana to
+- [20:51] uh generate multiple views of my
+- [20:53] character. Right? I've got four views
+- [20:56] and I ask the orchestrator to uh
+- [21:00] randomly choose a view for every uh
+- [21:03] video that it creates. And when I pass a
+- [21:06] script, it along with the chunking uh it
+- [21:10] assigns um a view number to every chunk.
+- [21:13] So the video is not just like a
+- [21:15] monotonic talking head in the same kind
+- [21:17] of think about this number one uh
+- [21:20] position uh but it it goes randomly
+- [21:23] between views that the video stays
+- [21:25] engaging. Even if you use it like as a
+- [21:27] small window uh in a larger presentation
+- [21:30] uh you want some changes for that and
+- [21:32] that actually makes a big difference.
+- [21:36] Along with that um I uh provide um
+- [21:41] examples of prompts how they should um
+- [21:44] should be and should sound. And if you
+- [21:46] look at the this prompt, you will see
+- [21:49] how I provide very detailed character uh
+- [21:52] description and voice description and
+- [21:55] the visual appearance of the character.
+- [21:58] This is all very important for uh those
+- [22:01] videos to be consistent even though we
+- [22:04] have those uh initial you know pictures
+- [22:06] the start frame for the videos. Why?
+- [22:09] Because um take this um you know view
+- [22:12] number two. If the view number two zooms
+- [22:14] out a bit, uh we want the clothing and
+- [22:17] the you know the other other parts of
+- [22:20] the body of copy bar to look the same as
+- [22:22] as you know as a view that starts uh as
+- [22:25] a video that starts with number four. So
+- [22:28] those pieces are important and uh as you
+- [22:30] know the video models they sort of like
+- [22:32] work without context. They didn't know
+- [22:34] what the other videos it just made. uh
+- [22:36] uh all those instructions are extremely
+- [22:38] important for um character consistency
+- [22:43] and environment consistency for that
+- [22:45] matter. So basically what I do is I pass
+- [22:48] uh this whole prompt with the script. I
+- [22:51] pass the the
+- [22:54] four views that I generated using nano
+- [22:56] banana. Uh and then it goes through uh
+- [23:00] the sequencing and through calling uh
+- [23:03] video agent and uh sorry yeah the video
+- [23:05] generation agent and you can see that
+- [23:08] every time it generates a piece it says
+- [23:09] like oh video number one this is the
+- [23:12] link and this is the piece of the script
+- [23:14] that um it's it's going through and we
+- [23:18] can scroll down and see that it
+- [23:20] generated 92
+- [23:23] uh videos for me but it again automate
+- [23:26] everything Uh I got the list of all 92
+- [23:29] URLs. It still requires human in the
+- [23:32] loop. Let's be honest like the videos
+- [23:34] that sometimes not perfect. So I watched
+- [23:36] I personally watched every single
+- [23:37] 8-second video. Um and uh then I didn't
+- [23:41] like some videos. I didn't like uh video
+- [23:43] number uh 49 because there was some like
+- [23:47] weird glitch that view um made and I
+- [23:50] have to regenerate it. it regenerated it
+- [23:52] and I didn't like it again because it
+- [23:54] sounded weird and it asked to regenerate
+- [23:57] it again maybe just like a use different
+- [23:58] view number and it did it again and I
+- [24:01] got those um all those views and then uh
+- [24:05] what I did next uh is um I used Gemini
+- [24:09] CLI to join those videos together right
+- [24:12] again all I did I just like copied this
+- [24:15] list and I copied the two file I asked
+- [24:17] Gemini CLI use fmc to join videos
+- [24:20] together. And here u it did it. Let me
+- [24:24] switch to uh my IDE.
+- [24:28] >> That has to be some sort of like video
+- [24:30] editing hack to use Gemini CLI to splice
+- [24:34] together all of your videos.
+- [24:36] >> Yep. So this is my anti-gravity. Um and
+- [24:40] uh I'm actually working on another
+- [24:42] version of this agent. Uh you can notice
+- [24:44] that I I have script adaptation as
+- [24:46] script litter at different as different
+- [24:49] agents. Stay in tuned for for that
+- [24:51] release. Uh but I I just wanted to show
+- [24:54] you like
+- [24:56] the kind of the structure of the agent.
+- [24:58] I have this uh main agent with a huge
+- [25:00] prompt how like it should read the
+- [25:03] results of different uh sub agents and
+- [25:05] how it should actually instruct them and
+- [25:08] I was adding that uh human in the loop
+- [25:10] moment when I wanted to wait after the
+- [25:13] script adaptation and uh let me sort of
+- [25:16] like make edit edits in the script. Um
+- [25:21] what else? Yeah, and to make those
+- [25:22] changes actually that's why I wanted to
+- [25:24] show it. I use anti-gravity. So I just
+- [25:27] opened my the previous version of of um
+- [25:31] this engine that I built using uh just
+- [25:33] Gemini CLI and I asked anti-gravity this
+- [25:36] is what I want want to add and yeah it
+- [25:40] uh it did all the work for me. It
+- [25:42] adjusted the prompts. It removed all
+- [25:44] prompts. It uh made changes in the agent
+- [25:48] itself and sub aents. I'm I'm super
+- [25:52] pumped and I just see how it uh improves
+- [25:55] my uh productivity primarily because and
+- [25:58] I that's the first time I'm I'm seeing
+- [26:00] it. I prefer working in IDs over CLIs.
+- [26:05] You probably all like waiting for for
+- [26:07] that video and to see how how it goes
+- [26:11] and what it shows and how capy bar
+- [26:13] speaks. So let me just uh show the
+- [26:17] result to you. So let me roll the video.
+- [26:21] It's as you see it's 11 plus minutes. I
+- [26:25] will probably just give you like one
+- [26:26] minute to listen to uh and then yeah
+- [26:29] everyone can listen to the entire video
+- [26:32] which is a part of the repository that's
+- [26:34] on GitHub hub.
+- [26:37] >> Hi I'm Ana Cappy. Today we will talk
+- [26:41] about safety and security for AI agents.
+- [26:45] As AI agents grow in capability,
+- [26:48] ensuring they operate safely and
+- [26:50] securely is paramount.
+- [26:53] It's crucial they align with your brand
+- [26:55] values to avoid posing risks to your
+- [26:57] reputation.
+- [26:59] Uncontrolled agents can execute
+- [27:01] misaligned actions, leak data, or
+- [27:04] generate inappropriate content. Key
+- [27:07] sources of risk include vague
+- [27:10] instructions, model hallucination, and
+- [27:13] prompt injections.
+- [27:15] I would watch a coding tutorial from Ana
+- [27:18] the Capivara easily on YouTube.
+- [27:21] >> It's so funny. I couldn't stop watching
+- [27:24] like my brain's like I'm hearing
+- [27:26] security from an animal. Like you know
+- [27:29] it's a pattern interrupt like you can't
+- [27:30] help but watch it. But that was awesome.
+- [27:32] >> I'm glad you liked it.
+- [27:34] >> Okay, so we've covered so much. This was
+- [27:36] such an exciting episode. So, thank you
+- [27:38] Brandon for coming on and showcasing
+- [27:40] your demo and having this wonderful
+- [27:42] conversation with us on such an exciting
+- [27:44] day.
+- [27:45] >> Seriously, thank you Smith. Thank you
+- [27:46] Vlad. I've been a little kid in a candy
+- [27:48] shop playing with all these new models
+- [27:50] from Gemini anti-gravity. So, seriously,
+- [27:52] thank you guys for uh having me on
+- [27:54] today. And also, I'm going to be
+- [27:55] checking out that Cappy bar example
+- [27:58] right after this. So, thank you for
+- [27:59] sharing that as well, Vlad.
+- [28:01] >> Thank you for joining us for today's
+- [28:03] episode. I hope uh you enjoyed it. Uh,
+- [28:06] please join us for the next episode.
+- [28:08] Until then, keep your agent smart and
+- [28:12] are you ready?
+- [28:18] [music]
+- [28:24] >> [music]

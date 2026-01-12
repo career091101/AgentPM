@@ -1,0 +1,711 @@
+---
+title: "Hello everyone."
+video_id: "K_GD2Y0O4JM"
+video_url: "https://www.youtube.com/watch?v=K_GD2Y0O4JM"
+speaker: "David"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  I uh lead our applied AI engineering team here at Landing AI
+  And today's talk is titled impact of agentic AI in financial services on multimodal document extraction
+  Uh we're very excited to share our latest product called agentic document extraction which is a developer first uh enterprisegrade platform already trusted by some of the largest organizations in the world
+key_points:
+  - "uh enterprisegrade platform already trusted by some of the largest organizations in the world"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:30:13+09:00"
+---
+
+# Transcript: K_GD2Y0O4JM
+
+- URL: https://www.youtube.com/watch?v=K_GD2Y0O4JM
+- Retrieved at: 2025-12-30T10:30:13+09:00
+
+## Text
+
+- [00:07] Hello everyone. My name is David Park. I
+- [00:10] uh lead our applied AI engineering team
+- [00:11] here at Landing AI. And today's talk is
+- [00:14] titled impact of agentic AI in financial
+- [00:17] services on multimodal document
+- [00:20] extraction. Uh we're very excited to
+- [00:22] share our latest product called agentic
+- [00:24] document extraction which is a developer
+- [00:27] first uh enterprisegrade platform
+- [00:30] already trusted by some of the largest
+- [00:31] organizations in the world.
+- [00:36] After introducing the company I'll give
+- [00:38] you a walkthrough of our platform uh
+- [00:40] specifically the building blocks that
+- [00:42] power ADE and the core technical
+- [00:45] differentiators around it. And before
+- [00:47] jumping into the demo, I'll give you a
+- [00:50] I'll give ground the discussion with a
+- [00:52] real world case study that we've done
+- [00:54] with one of the major financial
+- [00:55] institutions that we're working with and
+- [00:57] that will help set the stage for what
+- [00:59] you're about to see across our platform
+- [01:01] demo and the notebook based uh end to
+- [01:04] end workflow. From there, I'll actually
+- [01:07] hand over to Emily who helps uh lead our
+- [01:10] builders program uh which she will get
+- [01:12] into a little bit uh further and our
+- [01:14] strategic partnerships and she'll share
+- [01:16] more about that uh after the uh demo. I
+- [01:19] think we also have a recent builder
+- [01:20] success story that we'd like to share
+- [01:22] with you as well. Quick introduction uh
+- [01:25] to Landing AI. We were actually founded
+- [01:27] by Dr. Andrew uh who needs no
+- [01:30] introduction. uh he currently serves as
+- [01:32] our executive chairman and uh he leads
+- [01:35] our R&D efforts uh and is you know
+- [01:38] always inspiring as an ML engineer to
+- [01:40] get his direct input on our product
+- [01:42] direction and of course he brings you
+- [01:45] know incredible wealth of knowledge uh
+- [01:48] experience and industry insights as a
+- [01:50] company we've now helped process over
+- [01:53] billion images and documents and that
+- [01:56] number is growing exponentially every
+- [01:58] day Um um we're very fortunate to work
+- [02:02] with exceptional developers like all of
+- [02:04] you here as well as some of the world's
+- [02:06] leading organizations that that we
+- [02:08] currently work with especially in
+- [02:10] financial services which is the uh focus
+- [02:12] of the of of the talk today
+- [02:16] with respect to the building blocks. Uh
+- [02:18] let's start with our foundation layer.
+- [02:20] Uh this is the bedrock of agentic
+- [02:22] document extraction or AD. Our
+- [02:24] state-of-the-art uh foundation models
+- [02:27] are document pre-trained transformers um
+- [02:30] are purpose-built for complex documents
+- [02:33] uh their layouts understanding the mix
+- [02:35] content like tables, figures, complex
+- [02:39] tables, charts
+- [02:41] um and true multimodality.
+- [02:43] And these aren't just generic vision
+- [02:45] models. They're trained uh specifically
+- [02:47] for the unique challenges of document
+- [02:50] processing today and unstructured data
+- [02:52] like Excel, PowerPoint which is some of
+- [02:54] the latest uh features that we've added
+- [02:56] onto the platform. This helps us give us
+- [02:59] um you know exceptional accuracy uh
+- [03:02] before any higher level reasoning or
+- [03:04] agentic uh logic is applied. And our
+- [03:07] models are again backed by ears of R&D
+- [03:10] in visual AI and computer vision. So
+- [03:12] it's we're not just talking about
+- [03:14] theory. uh is production proven with
+- [03:16] some of the largest organizations uh in
+- [03:18] the world. So we've combined our deep uh
+- [03:22] vision knowledge uh with uh datacentric
+- [03:25] approach which I'm sure you've heard
+- [03:26] from Andrew quite a few times. So the
+- [03:28] system continually um uh improves as it
+- [03:31] processes more and more data and we get
+- [03:34] exposed to uh various uh data sources.
+- [03:38] Then there is the parsing layer. So once
+- [03:42] we establish both the visual foundation
+- [03:44] and the semantic understanding, AD
+- [03:47] parses the document with high uh
+- [03:50] precision into machine readable format
+- [03:52] like JSON and markdown.
+- [03:55] And this isn't just text text
+- [03:57] recognition. It's layout aware parsing
+- [04:00] that preserves structure and
+- [04:01] relationships uh within the document
+- [04:04] across multiple documents as well.
+- [04:07] This is where AD really starts to um
+- [04:10] really think. We've uh pioneered uh the
+- [04:13] agentic reasoning in visual AI uh which
+- [04:16] means that the system applies logic uh
+- [04:19] context and even problem solving to uh
+- [04:22] parse content and this is how we process
+- [04:25] not just plain text uh but also uh
+- [04:28] complex tables and some of the other
+- [04:30] modalities that are visually rich.
+- [04:33] Last but not least uh we have the agents
+- [04:36] and apps layer. So at the top we focus
+- [04:38] on customerf facing capabilities and
+- [04:40] that's where my team comes in. Uh we
+- [04:43] combine our parsing and reasoning
+- [04:44] engines um with specialized agents tools
+- [04:49] and applications like field extraction,
+- [04:51] document classification and splitting
+- [04:54] which helps with downstream app tasks
+- [04:56] that are custom to each individual
+- [04:58] customer vertical and disciplines. So
+- [05:02] our customers are are building on top of
+- [05:04] AD. it's going into their core products,
+- [05:07] core processes so we can help automate
+- [05:10] uh certain workflows. And finally, we
+- [05:12] deliver speed and adoptability. Uh the
+- [05:15] strong foundation and asentic uh
+- [05:18] architecture mean we can uh iterate a
+- [05:21] lot faster, develop faster. So our
+- [05:23] customer uh could be agile and adapt to
+- [05:26] changing compliance requirements, market
+- [05:28] conditions and operational needs or
+- [05:31] overhead without you know three six
+- [05:32] month development cycle.
+- [05:38] In terms of our core differentiators, um
+- [05:40] first is the foundation that starts with
+- [05:43] deep computer vision expertise. So we
+- [05:45] don't just process plain text and
+- [05:48] hopefully the demo demo will uh
+- [05:50] illustrate that a little bit better. We
+- [05:52] understand the spatial layouts uh the uh
+- [05:55] of the documents uh which means that we
+- [05:57] know exactly where the content lives on
+- [06:00] the page and how different elements are
+- [06:02] related to each other. Our document
+- [06:04] native visual models are purpose-built
+- [06:07] for
+- [06:08] uh task not just generic vision systems.
+- [06:12] So they deliver again high high
+- [06:14] precision localization which um some of
+- [06:17] the LLM or some of the state-of-the-art
+- [06:19] models really struggle with.
+- [06:22] Um and that's why we're able to
+- [06:24] accurately identify fields, tables,
+- [06:26] figures and really high complex or noisy
+- [06:29] data.
+- [06:32] And we are not just again research
+- [06:34] prototype. We've already uh put our
+- [06:37] solution to the test in production
+- [06:39] environments. Uh our orchestrated
+- [06:41] multi-modal intelligence blends uh
+- [06:45] vision, text and structure data
+- [06:47] processing in a coordinated pipeline
+- [06:50] which enables the system to handle
+- [06:52] documents with mixed content type. And
+- [06:55] our semantic visual reasoning goes
+- [06:57] beyond extraction. Um, understanding uh
+- [07:01] meaning, relationships and context
+- [07:04] essential for regulatory and uh high
+- [07:06] stake use cases
+- [07:11] and of course data um accuracy starts
+- [07:15] with the right data. We use highfidelity
+- [07:17] domain specific data sets uh tuned for
+- [07:20] industries like financial services,
+- [07:22] healthcare, life sciences, legal and
+- [07:25] much more. And we put in place
+- [07:27] continuous uh feedback loop to be able
+- [07:30] to uh get smarter with every deployment
+- [07:33] incorporating customer feedback directly
+- [07:35] into our product and of course new
+- [07:37] document patterns that we haven't seen
+- [07:39] before.
+- [07:41] And our schema and format aware data
+- [07:43] pipelines maintain structure and
+- [07:45] consistency uh ensuring outputs are
+- [07:48] ready for downstream systems without any
+- [07:50] additional post-processing or cleanup.
+- [07:55] And because we are enterprise first um
+- [07:58] platform and developer first as well uh
+- [08:01] we built in uh enterprise IT standards
+- [08:05] as a core DNA of our platform. We offer
+- [08:08] flexible deployment options. We can be
+- [08:10] multi- single tenant SAS uh virtual
+- [08:12] private link if you're familiar with
+- [08:14] that. We could also deploy on premise
+- [08:16] either in virtual private cloud
+- [08:18] environment or on your bare metal if
+- [08:20] need be.
+- [08:22] In terms of compliance, we're HIPPA and
+- [08:24] GDPR compliant uh and we offer zero data
+- [08:27] retention. Uh and we have a stateless
+- [08:30] architecture. So there's no uh data
+- [08:32] persistence throughout the process and
+- [08:34] it's ephemeral as we are processing your
+- [08:36] document and giving you the necessary
+- [08:38] output that you need.
+- [08:41] So one example that really illustrates
+- [08:44] AD's impact is our work with uh KYC
+- [08:48] operations with one of the major
+- [08:50] financial institutions.
+- [08:52] They have more than thousands of
+- [08:53] analysts uh across the globe dedicated
+- [08:56] to uh KYC or know your customer reviews
+- [09:00] uh which is a a massively manual and
+- [09:03] document heavy process. Um, and by
+- [09:06] integrating AD directly into their
+- [09:08] workflow, uh, and piping the results
+- [09:11] into their existing RPA system, uh, we
+- [09:14] were able to automate the extraction and
+- [09:17] validation of key fields across bank
+- [09:20] statements, corporate government doc,
+- [09:22] governance documents, regulatory
+- [09:24] documents and other supporting materials
+- [09:27] uh, that go into this uh, arduous
+- [09:29] process. And the result was uh more than
+- [09:33] 70% in reduction of manual document
+- [09:36] review which was a significant uh value
+- [09:38] add to the company uh while also
+- [09:41] reducing operational risk and exposure
+- [09:43] to regulatory fines uh which as many of
+- [09:46] you know uh could be uh uh significant
+- [09:48] in this space. And based on the initial
+- [09:51] success of the rollout, the bank is now
+- [09:53] expanding across uh adjacent areas like
+- [09:56] customer identification program. So
+- [09:59] identifying potential wealth management
+- [10:00] clients or uh uh consumer uh clients
+- [10:04] that they may work with enhanced due
+- [10:06] diligence for trickier customers that
+- [10:08] are in um uh specific situations
+- [10:13] um and ongoing periodic refreshes. So
+- [10:15] maintaining the relationship amongst uh
+- [10:18] between the bank and their customers
+- [10:21] and this is where agentic AI becomes uh
+- [10:24] truly trans transformative uh once the
+- [10:26] parsing and the validation pipelines are
+- [10:29] in place uh scaling into adjacent
+- [10:32] compliance workflows become uh
+- [10:35] frictionless.
+- [10:38] So before we jump into the demo, let me
+- [10:40] state uh set the stage with a very very
+- [10:43] real scenario. A loan officer can
+- [10:46] receive a combined loan packet which can
+- [10:49] include things like payubs, W2s, bank
+- [10:52] statements, IDs and more in a single
+- [10:56] PDF. Uh so today an analyst might you
+- [11:00] know have an OCR or may leverage some uh
+- [11:03] open source tools to uh potentially
+- [11:05] automate this but it's not 100%
+- [11:07] traceable or accurate. Uh so it is still
+- [11:10] a quite manual process today. Um so they
+- [11:14] have to you know sift through all of the
+- [11:16] manual and find the right section
+- [11:18] extract dozens of fields and then uh key
+- [11:21] everything into downstream systems. It's
+- [11:24] very slow of course errorprone as as we
+- [11:27] are as humans and hard to audit which is
+- [11:30] uh one of the biggest problems. So with
+- [11:32] agentic document extraction uh the
+- [11:34] entire workflow can be automated. Uh AD
+- [11:37] takes the packet as is. So there's no
+- [11:40] pre-processing of any kind. So we'll
+- [11:42] first help you classify the documents
+- [11:44] and split them based on the content of
+- [11:47] the actual document with of course
+- [11:49] semantic uh understanding and context.
+- [11:51] And once we've done that um we can apply
+- [11:55] schema-driven extraction based on the
+- [11:57] document type. So pulling only the
+- [12:00] fields that matter for specific
+- [12:01] documents. So pasteups they can go
+- [12:04] through the income schema. Bank
+- [12:06] statements go through the deposit
+- [12:08] schema. ID ids can go through the
+- [12:11] identification schema. So we only pull
+- [12:13] out the information that you need.
+- [12:15] So what this means is that we're
+- [12:17] extracting the right information from
+- [12:19] the right document at the right time
+- [12:21] with uh layout grounding. So giving you
+- [12:24] the full traceability and auditability
+- [12:27] uh tying tying the source back to the
+- [12:29] original document which is essential for
+- [12:32] compliance and uh other uh regulatory
+- [12:36] requirements.
+- [12:38] So from there uh agentic workflows can
+- [12:40] automatically validate income uh check
+- [12:43] document completeness. So, was this
+- [12:45] still signed, not signed? Were there any
+- [12:47] amendments? We can pick out those
+- [12:49] nuanced handwritten notes or other
+- [12:51] complex u um you know items that you
+- [12:55] might see on these documents. Uh so we
+- [12:58] can you know pass it to loan origin loan
+- [13:00] origination system or other structured
+- [13:02] databases or even RPA that analysts that
+- [13:06] analysts interact with every day.
+- [13:09] Okay. So the end result hopefully is
+- [13:11] clear. uh a messy loan packet comes in
+- [13:14] fully struct and we fully structurize it
+- [13:17] validate it and auditable data comes out
+- [13:19] of agentic document extraction. So again
+- [13:22] enabling that true uh agentic loan
+- [13:25] approval automation process.
+- [13:28] So with that said I will jump into the
+- [13:31] demo.
+- [13:33] So sorry but this screen is not showing
+- [13:36] my uh desktop anymore.
+- [13:41] You know what? I think I can do it like
+- [13:42] this.
+- [13:45] So, if we're looking at a um um uh
+- [13:49] investment document or account statement
+- [13:51] from Fidelity, clearly this person is
+- [13:53] doing a lot better than I am. Uh but you
+- [13:55] can see your portfolio value. You have
+- [13:57] different modalities like complex
+- [13:59] tables, charts, we even have a chunk
+- [14:02] type for logos. And we can kind of
+- [14:04] customize how how you want to extract
+- [14:07] information. So if we're looking at this
+- [14:10] portfolio value, you can see that we
+- [14:12] were able to perfectly render the table.
+- [14:14] This is a relatively simple table, but I
+- [14:16] can show you a more complex information
+- [14:18] after. So things like indentation uh
+- [14:21] that means that there is a parent child
+- [14:23] relationship. A lot of times that a lot
+- [14:26] of times LLMs and OCR based tools really
+- [14:28] struggle with this because they're not
+- [14:30] good at localization whereas we
+- [14:32] understand the out of the box
+- [14:34] inherently. Perfect.
+- [14:37] And let's say you're looking at a ad
+- [14:39] payub again uh in a very very good
+- [14:42] financial situation for this particular
+- [14:44] person. Uh even if your table it doesn't
+- [14:47] have clear line lines or boundaries
+- [14:49] that's okay. We will be able to
+- [14:52] understand it structurize it and render
+- [14:54] it perfectly either again as a markdown
+- [14:57] or JSON. So if you're processing
+- [14:59] billions of documents, what a lot of our
+- [15:01] customers are doing is they vectorize
+- [15:03] it, store in a vector database like
+- [15:05] Chromodb and you you can build a rag
+- [15:08] pipeline on top of it for any kind of
+- [15:10] complex uh retrieval type of
+- [15:12] applications. So your analysts can
+- [15:15] interact with these documents uh in a in
+- [15:17] a natural language fashion.
+- [15:22] Let me just quickly show you what the
+- [15:23] JSON looks like.
+- [15:25] So for each chunk we'll give you the
+- [15:27] chunk ID, the type, other metadata like
+- [15:30] uh uh page number and what we call
+- [15:33] visual grounding. So where is physically
+- [15:35] located within that document and for
+- [15:38] tables we'll show this in the notebook
+- [15:40] later. We can give you a cell level
+- [15:42] reference to say hey this is where we
+- [15:44] got the information from. So you have
+- [15:46] the confidence that the LLM is not
+- [15:47] hallucinating or we're not uh uh uh
+- [15:50] incorrect with our uh extraction
+- [15:53] process.
+- [15:57] Okay,
+- [15:59] before I move on, there are uh two
+- [16:02] fundamental APIs I I did not review.
+- [16:05] First is the parse. So, we're parsing
+- [16:07] everything we see on the document and we
+- [16:09] render it into a markdown or JSON.
+- [16:11] Second is the field extraction API. So,
+- [16:14] this is the schema driven extraction.
+- [16:16] You can add a little bit of description
+- [16:18] and it generalizes quite well. So, even
+- [16:21] if you say first name or name last name
+- [16:24] will be able to um understand uh that
+- [16:27] those are either same or different and
+- [16:29] extract the information correctly and
+- [16:31] you can also build parent child
+- [16:33] relationships if you need to preserve
+- [16:34] that uh from uh during the extraction
+- [16:37] process
+- [16:40] and there are a couple different ways
+- [16:41] you can create the schema. First is a
+- [16:44] smart suggestion. We will provide a
+- [16:46] suggestion based on the actual content
+- [16:48] of the document. uh and you can use that
+- [16:50] as a starting point in which case it
+- [16:52] will create a a tidic um base model with
+- [16:55] description field name and field type.
+- [16:59] So you can uh adjust that as needed or
+- [17:02] you can prompt a schema which means you
+- [17:04] can add use natural language to generate
+- [17:06] the schema and say hey I need first name
+- [17:08] account balance etc and we'll
+- [17:10] automatically generate that for you.
+- [17:12] Once you have that schema, you can pass
+- [17:14] it into our extraction API and we will
+- [17:18] extract information. And let me quickly
+- [17:20] show you an example of that.
+- [17:32] So this is the field name, field type,
+- [17:35] and the description. You can kind of
+- [17:36] think of this as prom engineering for
+- [17:38] each field. Provide a a very short
+- [17:41] description. uh or long description if
+- [17:43] you want. Uh we have you know a lot of
+- [17:46] banks saying hey we use specific
+- [17:48] acronyms that mean certain things you
+- [17:50] can actually pass that in directly or we
+- [17:53] even have customers that are training
+- [17:54] their own name entity recognition model
+- [17:56] based on the extracted information. So
+- [17:59] any downstream application whether it's
+- [18:01] ML workloads or process automation we
+- [18:04] can help with that.
+- [18:07] We also have a chatbot on the platform.
+- [18:09] This is what we call a playground
+- [18:11] environment. It's not um you can use it
+- [18:14] as a production system, but it's just to
+- [18:16] give you a visual experience of what
+- [18:17] we're doing. Uh once we um have the pars
+- [18:21] information and extract that
+- [18:23] information, you can actually uh chat
+- [18:25] with the document in a seamless manner.
+- [18:27] This just to kind of show you the art of
+- [18:29] the possible and and what some of the
+- [18:30] other customers are doing um with uh
+- [18:33] LLMs they have available today. So if I
+- [18:37] look at hey where is this period coming
+- [18:39] from as you can see we're giving you uh
+- [18:41] very uh granular localization and cell
+- [18:45] level reference saying hey this is where
+- [18:46] we got the information from which is
+- [18:48] again is is highly crucial for uh
+- [18:51] financial services.
+- [18:54] Okay with that said can jump into our
+- [18:58] notebook demo.
+- [19:01] So this is the hypothetical scenario
+- [19:02] that that I just outlined on loan
+- [19:04] processing. So you get a very uh messy
+- [19:07] loan packet with all the various
+- [19:09] supporting documents that you might need
+- [19:10] to approve approve a loan. So the end
+- [19:13] end to end process will will look
+- [19:15] something like uh first we'll parse the
+- [19:17] document and and based on the parsed
+- [19:19] information we can classify each and
+- [19:22] every page and using that information
+- [19:24] you can split them automatically
+- [19:26] and using a um um extraction schema
+- [19:30] specific to the documents that we're
+- [19:32] expecting. We can extract the
+- [19:34] information that you need. So you don't
+- [19:35] have to read through the entire markdown
+- [19:37] or the document. And once you have that
+- [19:40] um we can visualize the result using
+- [19:42] some of the utility tools that we
+- [19:44] provide as part of our Python library
+- [19:46] and TypeScript library.
+- [19:50] So after you go through some of the
+- [19:51] installs you can import our library and
+- [19:56] this is all publicly available on our
+- [19:58] GitHub repo. So if you have any
+- [19:59] questions, please come talk to us at our
+- [20:01] booth. And once you've done that, you
+- [20:04] can instantiate our uh client
+- [20:08] client object. And once that is done,
+- [20:11] you can
+- [20:13] actually just visualize the document
+- [20:15] using um some of the open source
+- [20:18] libraries that you have access to. So
+- [20:20] you can see the payub, the same
+- [20:22] documents that we looked over, bank
+- [20:23] statements, and of course the investment
+- [20:26] portfolio. And it's a 30-page document
+- [20:29] here as you can see here.
+- [20:31] And once that is done, I can tell, hey,
+- [20:34] I'm expecting three three specific
+- [20:36] documents and they are payub, bank
+- [20:39] statement, and investment statement. So,
+- [20:41] uh you can tell the model exactly what
+- [20:43] you're looking for. So, that could be
+- [20:44] another layer of of validation. So, if
+- [20:47] you don't have that particular document,
+- [20:49] you can give real-time feedback to your
+- [20:50] customer. And if you do, uh you can do
+- [20:53] uh other type of automation on top of
+- [20:55] that.
+- [20:57] Now I'm I'm um defining specific schema.
+- [20:59] So for the pay stop I want the employee
+- [21:01] name, the pay period, gross pay and net
+- [21:03] pay. And for bank statement and
+- [21:05] investment statements, these are the
+- [21:07] fields that I need for automating the
+- [21:09] loan uh loan approval. So I can uh
+- [21:12] define my schema. And once I do that,
+- [21:16] I can map the schema to the appropriate
+- [21:19] uh document types that I'm expecting
+- [21:22] that I've I've just uh created earlier.
+- [21:24] And once that is done, I can actually go
+- [21:27] through the parsing process. I'm using
+- [21:29] cache information because I wasn't sure
+- [21:30] how reliable the internet would be. But
+- [21:32] as you can see, we're classifying each
+- [21:34] and every page. We're saying the first
+- [21:35] page is the pay stop, second page is
+- [21:38] bank statement and rest is investment uh
+- [21:40] statement. So using that information,
+- [21:43] now I can split the document
+- [21:44] automatically using our APIs. And once
+- [21:48] that is done, we'll give you a summary.
+- [21:50] We can give you a summary and say, hey,
+- [21:52] here's a payub, here's a bank statement.
+- [21:53] And you can even create your own
+- [21:55] documents off of that.
+- [21:58] And once you have the schemas applied
+- [22:01] directly uh once you have the uh
+- [22:03] documents separated now you can apply
+- [22:06] those correct schemas. So for payub I
+- [22:09] need employee name, pay period, gross
+- [22:11] pay and net pay. And as you can see on
+- [22:13] the data section at the bottom we were
+- [22:16] able to extract those information from
+- [22:17] those uh corresponding documents.
+- [22:20] And once that is done, I can also
+- [22:22] visualize it using uh some of our
+- [22:25] utility functions that I shared with
+- [22:27] you.
+- [22:29] And they will look something like this.
+- [22:31] So this is how the document is being
+- [22:33] understood by our foundation model or
+- [22:36] document pre-trained transfer model. Uh
+- [22:38] and you can see how granular we get
+- [22:40] especially for some of the more complex
+- [22:41] tables which is why we're able to give
+- [22:43] you that full uh traceability.
+- [22:49] Okay.
+- [22:50] And once it's done, it's a little noisy,
+- [22:52] right? Uh so what a lot of our customers
+- [22:54] are doing, hey, I just want the field uh
+- [22:56] that I need the visual grounding
+- [22:58] information and just highlight the cell
+- [23:00] that I care about or the chunk that I
+- [23:02] care about. And if that's the case, um
+- [23:06] you can create something like this, uh a
+- [23:09] visualization extraction where you can
+- [23:11] get the uh the extracted field, the crop
+- [23:14] chunk, which is the image, uh uh version
+- [23:18] of what we've extracted or where we
+- [23:20] extracted it that information from. And
+- [23:23] on the right side, we visualize just the
+- [23:25] chunk that the customer cares about. uh
+- [23:27] which is really critical for you know
+- [23:30] analysts that are looking at these pages
+- [23:32] and pages every single day uh and going
+- [23:35] through the manual process.
+- [23:38] So uh that's it in terms of the demo. So
+- [23:41] I'll actually hand it over to Emily. But
+- [23:43] before I do that, we do have a deep
+- [23:44] learning course coming out early next
+- [23:46] year. So please um uh please take the
+- [23:49] course if you have some time. Give us
+- [23:50] feedback. We would love to hear from
+- [23:53] everyone here. And yeah, thank you for
+- [23:55] your time. So,
+- [23:59] I'll just go ahead and mention it. Um,
+- [24:00] but we have uh built something for our
+- [24:03] developer community at Landing AI called
+- [24:05] our builder program. Uh, so when we
+- [24:07] first put AD out there, uh, we expected
+- [24:10] people to use it for pretty standard
+- [24:12] document workflows. Uh, but when people
+- [24:14] started showing us the things that they
+- [24:16] were doing, automating some of the
+- [24:17] messiest, uh, processes in a handful of
+- [24:21] hours, we decided we really needed to
+- [24:23] lean into the community. Um, so we built
+- [24:25] this builder program to help our
+- [24:27] builders uh move fast. Um, so we're here
+- [24:30] to help you. If you want uh early
+- [24:32] access, if you want real support, uh
+- [24:35] we're we're ready to support you. So um
+- [24:37] as a builder, we'll support you with
+- [24:38] onboarding. Uh we have an open line for
+- [24:41] some communication and support. Uh and
+- [24:43] then as you get going and your ramping,
+- [24:45] we'll support you through your launch
+- [24:46] prep and uh happy to spotlight uh you as
+- [24:50] you are launching your product. Um, so I
+- [24:53] will wrap up um and be quick and yeah,
+- [24:56] I'll turn it back over to David to
+- [24:57] answer questions.
+- [24:58] >> Thank you. That was a real great
+- [25:00] presentation. Uh, my question is, uh,
+- [25:02] when you have a new customer, let's say
+- [25:04] with a new document type, uh, [snorts]
+- [25:07] what does your process look like and
+- [25:09] especially I'm interested in the
+- [25:10] evaluation framework, make sure that the
+- [25:13] classification and extraction for the
+- [25:15] new document type is done, right?
+- [25:18] >> Yeah, great question. So u that's where
+- [25:21] our our um foundation model document
+- [25:24] pre-train and transfer model does all
+- [25:25] the heavy lifting. We are zeroot tool
+- [25:28] which means there's no uh templatizing
+- [25:30] or fine-tuning needed of any kind. Um
+- [25:33] and uh we no matter how the document is
+- [25:36] structured even if we've never seen it
+- [25:38] before most likely we'll be able to
+- [25:40] extract information accurately. But if
+- [25:42] not uh there are some you know pre- or
+- [25:44] postprocessing steps that we can help
+- [25:46] you with uh to get to that accuracy. And
+- [25:48] if this is something really important to
+- [25:50] you, we'll get you connected with our
+- [25:51] product team to make sure that we cover
+- [25:53] uh all the bases there.
+- [25:55] >> Thank you.
+- [25:56] >> Thank you.
+- [26:10] >> A little technical. What is your
+- [26:12] validation approach uh on the accuracy
+- [26:15] for your document extraction? Yeah,
+- [26:17] great question. So, we've done a lot of
+- [26:19] benchmark tests. We actually released
+- [26:21] one uh I think uh this week. If you're
+- [26:23] familiar with DOCVQA, it's a open source
+- [26:26] data set with very complex documents
+- [26:28] that are industry standards, but they're
+- [26:30] not quite enterprise uh adjacent. Uh but
+- [26:33] we've still wanted to do that test. I
+- [26:36] think the uh the latest state-of-the-art
+- [26:38] models, VLMs, OCRs, and deep learning
+- [26:41] based OCR models are hovering around uh
+- [26:44] anywhere between low to mid 90s. And our
+- [26:47] solution was at uh I believe over 99%
+- [26:50] accurate. Uh so there is a bit of a gap
+- [26:53] there compared to even the latest uh
+- [26:55] language models and uh in terms of uh
+- [26:59] validation we have a highly curated data
+- [27:02] set that we use to train the model and
+- [27:04] then validate uh using a regression data
+- [27:07] set. So we're constantly testing
+- [27:09] different architectures and comparing
+- [27:11] our solutions to make sure that we're
+- [27:12] we're more accurate. Thank you.
+- [27:16] We can do one more question.
+- [27:23] >> Thank you. Does the lending AI have the
+- [27:26] builtin uh capability to trigger the
+- [27:29] follow-up actions or it would be through
+- [27:32] some kind of external connectors? For
+- [27:34] example, in the loan example, if we
+- [27:37] wanted to say issue the loan or do some
+- [27:40] filing or noticing the customer, what
+- [27:43] would be the next steps to build there?
+- [27:46] >> Yeah, great question. Um, all great
+- [27:47] questions. Um, so we're our current
+- [27:50] focus is extraction today because that
+- [27:52] is the hardest part about document
+- [27:54] processing uh today. Uh so for
+- [27:58] automating downstream application we
+- [28:00] typically rely on our customers to do
+- [28:02] that because we don't have the industry
+- [28:03] expertise but we do partner with you
+- [28:06] know RPA providers uh hyperscalers like
+- [28:09] AWS, Snowflake, Azure uh and and other
+- [28:12] applications that are you know
+- [28:14] enterprisegrade
+- [28:15] uh to be able to support those work
+- [28:17] workloads and we integrate with you know
+- [28:20] Lambda functions event driven
+- [28:21] architectures so we can help automate uh
+- [28:23] certain processes

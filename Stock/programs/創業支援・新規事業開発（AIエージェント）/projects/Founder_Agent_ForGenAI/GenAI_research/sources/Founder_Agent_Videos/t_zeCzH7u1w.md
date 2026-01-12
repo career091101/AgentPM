@@ -1,0 +1,1009 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=t_zeCzH7u1w"
+video_id: "t_zeCzH7u1w"
+video_url: "https://www.youtube.com/watch?v=t_zeCzH7u1w"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=t_zeCzH7u1w
+  - Retrieved at: 2025-12-30T16:33:31+09:00
+  - [00:00] Hello and welcome back to Equity
+key_points:
+  - "- [00:45] I should be promoting the podcast on"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: t_zeCzH7u1w
+
+- URL: https://www.youtube.com/watch?v=t_zeCzH7u1w
+- Retrieved at: 2025-12-30T16:33:31+09:00
+
+## Text
+
+- [00:00] Hello and welcome back to Equity
+- [00:02] Techrunch's flagship podcast about the
+- [00:04] business of startups. I'm Kirsten
+- [00:06] Corsac, transportation editor at
+- [00:08] Techrunch. And today is Friday, December
+- [00:10] 26th. I am joined by a larger group of
+- [00:13] people today. So that's very exciting.
+- [00:15] As always, weekend editor Anthony Haw
+- [00:18] with us as well as senior AI reporter
+- [00:20] Rebecca Balon and Isabelle Johansson,
+- [00:23] who has this very lengthy title, head of
+- [00:26] startup Battlefield Program, and also
+- [00:28] the host of our newest podcast, Build
+- [00:31] Mode. Woo! I like that little woohoo.
+- [00:33] Anthony, were you kind of working a
+- [00:35] little bit with Isabelle on the podcast?
+- [00:38] Did you know it was coming back a couple
+- [00:40] months ago? I knew it in the sense that
+- [00:42] I just received uh a lot of nudges that
+- [00:45] I should be promoting the podcast on
+- [00:47] stage at Battlefield, which is the
+- [00:50] correct thing to do and and I certainly
+- [00:52] did my best. Then I actually, you know,
+- [00:53] hearing talking to Isabelle and and
+- [00:55] talking to Maggie, one of the other
+- [00:56] producers about the podcast, I was just
+- [00:58] really excited to hear that it was
+- [00:59] coming and what they were up to.
+- [01:00] >> Yeah, no pressure, Anthony, but thanks
+- [01:02] for the promo. [laughter] Now, I can
+- [01:04] also tell you a little bit about Build
+- [01:05] Mode, but basically we wanted to launch
+- [01:07] a podcast that's sort of the survival
+- [01:09] guide for early stage founders because
+- [01:12] every year we see about 5,000 people
+- [01:14] throw their hat in the ring for Startup
+- [01:16] Battlefield, but we only choose 200,
+- [01:18] which might sound like a lot, but really
+- [01:20] it's pretty competitive. And so this
+- [01:22] podcast was born out of the idea that we
+- [01:24] wanted to sort of democratize and spread
+- [01:26] the knowledge that a lot of founders
+- [01:28] here in Silicon Valley have access to,
+- [01:30] but to founders around the world,
+- [01:31] especially because this year we're
+- [01:33] rolling out Startup Battlefield globally
+- [01:34] in 2026. So that's what build mode is.
+- [01:37] Check it out if you're a builder. But
+- [01:38] you know, Kristen, this year actually a
+- [01:40] mobility company won Battlefield. How
+- [01:42] did you feel about that? I was kind of
+- [01:44] surprised that a transportation or
+- [01:46] mobility company won just because
+- [01:48] everything's so AI focused or I thought
+- [01:51] maybe something like in biotech or you
+- [01:53] know more deep tech. So it was kind of
+- [01:56] cool. I mean I can't remember the last
+- [01:57] time. Do you like look in our archives
+- [02:00] and see when the last time a
+- [02:01] transportation company won? I mean, I
+- [02:02] remember many, many years ago, Get
+- [02:05] Around being not a winner, but being
+- [02:09] Actually, I don't know if they won, but
+- [02:10] they were a peer-to-peer car rental
+- [02:13] company. I don't think that they won,
+- [02:14] though. What was the company called that
+- [02:15] won this year? Glide.
+- [02:17] >> Glide. Yeah.
+- [02:18] >> Yeah. Glide. I'm not surprised because
+- [02:19] you we usually we often pick something
+- [02:21] that's not just like the hypest, but
+- [02:23] something that has real impact. And I
+- [02:24] think that in this world of AI this and
+- [02:26] AI that, it's all very software, right?
+- [02:29] It's all very it's something you can
+- [02:30] tangibly hold and people don't
+- [02:32] necessarily feel like it's creating this
+- [02:35] huge impact on what people, you know,
+- [02:38] touch every day of their lives. So, I
+- [02:40] mean, that's a really controversial
+- [02:41] statement. I might walk that back, but
+- [02:42] basically, real world stuff still
+- [02:45] matters in the world of AI.
+- [02:47] >> Hey, this is the predictions episode, so
+- [02:49] you can totally walk things back
+- [02:50] because, as our listeners are about to
+- [02:53] hear, there were some terrible
+- [02:54] predictions last year.
+- [03:01] We're closing out 2025 being another,
+- [03:04] and I feel like I can say this every
+- [03:05] year over the last few years, massive
+- [03:07] year in tech. A lot of changes, a lot of
+- [03:09] funding rounds, a lot about AI. And
+- [03:13] before we get into though, what we think
+- [03:15] is going to happen in 2026, I do want to
+- [03:19] give a little bit of a nod, a little
+- [03:20] critique to what we predicted last year.
+- [03:24] And Devin Coldaway is not here. He's our
+- [03:27] former coworker now. But h I wish he was
+- [03:31] because one of his predictions last year
+- [03:33] was that he didn't think the mega
+- [03:35] funding rounds would continue at the
+- [03:38] same pace in AI. And he thought last
+- [03:42] year's giant rounds were quote probably
+- [03:45] the last of that scale. And Devon, if
+- [03:48] you're listening, boy, were you wrong.
+- [03:50] Very briefly, OpenAI raised 40 billion.
+- [03:54] Anthropic, I think it was 13 billion,
+- [03:56] XAI 20 billion, massive valuations. And
+- [04:00] Rebecca, you write a lot about AI, a ton
+- [04:02] of seed rounds that were like insane,
+- [04:05] >> huge. Like what was it? Thinking Machine
+- [04:07] Labs is $2 billion seed round. We will
+- [04:10] we will never forget that one.
+- [04:11] >> And then Anthony, I don't know if you
+- [04:13] want to, you know, roast Devon since
+- [04:15] he's not here to defend himself, but I
+- [04:16] think he also said we might be headed
+- [04:18] towards another bubble.
+- [04:20] >> Well, that's not roasting, is it? I yeah
+- [04:22] I I was going to say actually even
+- [04:23] before that I was going to defend Devon
+- [04:25] a little bit because I do think a
+- [04:27] prediction is both sort of a factual
+- [04:30] statement about the future but it's also
+- [04:32] a statement of hope and and maybe if
+- [04:34] Devon were here he would say that well
+- [04:36] you know in a rational economy we would
+- [04:39] not have seen maybe the same number of
+- [04:42] insane mega rounds as we did and the
+- [04:45] fact that that happened maybe is
+- [04:47] indicative of the fact that we are in a
+- [04:49] bubble right now which hasn't sort have
+- [04:51] been proven true in the sense that there
+- [04:53] hasn't been a bubble that's popped but I
+- [04:55] think that it has become increasingly
+- [04:58] accepted wisdom commonplace wisdom that
+- [05:00] I mean we had a whole episode about this
+- [05:02] at uh at disrupt actually where I think
+- [05:04] the question is more like how bad is it
+- [05:07] how irrational is it what will it look
+- [05:09] like will it pop will it deflate but
+- [05:11] obviously there are at least bubble-l
+- [05:13] like tendencies in AI right now
+- [05:15] >> Isabelle what's your perspective though
+- [05:17] because you see so many very early stage
+- [05:19] startups you know some of the
+- [05:20] predictions about like a bubble and it's
+- [05:23] a dangerous time for a new AI startup.
+- [05:25] >> Yeah, I mean these startups still need
+- [05:26] cash, right? So I think that's the
+- [05:28] challenge right now is we see all these
+- [05:30] companies that you know could have
+- [05:31] raised a few years ago but now are
+- [05:33] really really struggling because if they
+- [05:34] don't have skyhigh metrics and traction
+- [05:37] from day one they're not even being
+- [05:39] considered by VCs, right? So these
+- [05:40] companies are needing to look for
+- [05:41] alternative sources of capital to be
+- [05:43] able to even kind of get off the ground.
+- [05:45] So I think what we're seeing these days
+- [05:47] is is companies getting first of all
+- [05:49] really scrappy and building with almost
+- [05:51] nothing in their bank, right? But then
+- [05:53] finding ways to to get cash. So of
+- [05:55] course seeing more bootstrapped
+- [05:57] companies looking into things like
+- [05:58] equity crowdfunding. A lot of companies
+- [06:00] we see sort of have a mass following on
+- [06:03] LinkedIn or or fandom, right? Especially
+- [06:05] with the rise of consumer AI, there's
+- [06:07] people out there who want to support
+- [06:09] these companies and tools that they use
+- [06:10] every day. And so now they're able to
+- [06:12] sort of um get their hands dirty in in
+- [06:14] the early stages of investing which also
+- [06:16] then you know gives gives the founders a
+- [06:18] leg up. So I think we'll start seeing
+- [06:20] some creative funding structures
+- [06:22] hopefully more founder friendly
+- [06:23] structures as well in 2026.
+- [06:25] >> Well that starts to creep into our
+- [06:26] predictions. So I thought we would kick
+- [06:30] it off with you know a topic that we
+- [06:32] never talk about which is AI.
+- [06:35] >> I can weigh in on this one. So, there's
+- [06:37] a few I mean, God, I could do a whole
+- [06:39] episode single-handedly on what my
+- [06:41] predictions for 2026 AI will be, but one
+- [06:45] thing that I feel is really interesting,
+- [06:47] especially given some news that recently
+- [06:49] dropped was that Runway, if you guys are
+- [06:52] not familiar with Runway, they are a AI
+- [06:56] image and video generator, and they just
+- [06:58] dropped a world model. And so I
+- [07:01] predicted this a little bit earlier this
+- [07:03] year when um or earlier in the last
+- [07:05] couple of months when World Labs came
+- [07:07] out with their really impressive new
+- [07:09] model called Marble that we're coming
+- [07:12] into an era of world models. And what
+- [07:14] are world models? So world models are AI
+- [07:17] systems that can create a world an
+- [07:20] environment and understand in like a
+- [07:22] physics aware kind of way so they can
+- [07:24] predict what's going to happen. And so
+- [07:26] with Gemini's Genie, World Labs Marble,
+- [07:30] Runways, whatever it's called, I forget
+- [07:32] right now, but I feel like we're moving
+- [07:34] into this space. And I'm hearing a lot
+- [07:36] of founders talk about world models in
+- [07:38] terms of this is the next stepping stone
+- [07:40] to AGI because intelligence doesn't
+- [07:43] really just happen from large language
+- [07:46] models. You need to understand your
+- [07:47] place in the world and how you interact
+- [07:49] with it. And when you say we're going to
+- [07:51] see more world models, do you expect
+- [07:52] that that's something that even, you
+- [07:54] know, smaller startups are going to be
+- [07:56] able to do or is this something we're
+- [07:57] going to be seeing more from, you know,
+- [07:58] a handful of the bigger players?
+- [08:00] >> It depends on the startup, right? I
+- [08:01] mean, we heard that Yan Lun is leaving
+- [08:03] Meta. He's doing his own startup.
+- [08:05] There's been, you know, rumors that it's
+- [08:06] going to be a World Lab startup. So, I
+- [08:08] think that some with some great minds
+- [08:09] backing it, sure, they might move into a
+- [08:13] space where they're doing that. But I
+- [08:15] think like small startups without huge
+- [08:17] names behind them, definitely not. But
+- [08:18] we will see the labs start to compete
+- [08:20] and I think we might start to see them
+- [08:22] releasing new models in the same way
+- [08:24] that we're seeing the large labs
+- [08:26] releasing new LLMs in this kind of a
+- [08:29] fast-paced cadence.
+- [08:30] >> No, I'm sure we'll see some startups
+- [08:32] try. I think that's always the fun thing
+- [08:34] of of looking through startup
+- [08:35] battlefield applications, right? Is
+- [08:36] people taking really big swings and
+- [08:39] whether they are able to pull it off or
+- [08:41] not, I'm sure we'll see plenty that try
+- [08:42] to throw their hat in the ring for that.
+- [08:44] So, yeah, TBD. Rebecca, I'm wondering I
+- [08:46] think 2025 was like the year of the AI
+- [08:49] agent. You know, you didn't really you
+- [08:51] kind of heard it a little bit in 2024,
+- [08:53] but like 2025 everyone that and maybe
+- [08:56] like AI for enterprise. And I'm
+- [08:59] wondering if you think in 2026 if that's
+- [09:02] going to continue or have we hit peak AI
+- [09:04] agent?
+- [09:05] >> No. No. I think that this is a false
+- [09:07] that was like a false prediction from
+- [09:08] last year. Like last year was not the
+- [09:10] year of the AI agent. It was the year of
+- [09:11] like people attempting to do AI agents
+- [09:14] and it failing miserably because like
+- [09:17] the tech just wasn't ready.
+- [09:18] >> Gotcha.
+- [09:18] >> I think this year is going to be the
+- [09:20] year of the AI agents because we have
+- [09:23] this thing called MCP. So Anthropic like
+- [09:25] about a year ago came out with model
+- [09:27] context protocol and it's basically
+- [09:29] everyone's talking about it like it's
+- [09:30] USBC for AI, right? So it's the
+- [09:33] connector that connects the AI models
+- [09:35] and agents, the systems to the data and
+- [09:38] tools that are needed. And so this is
+- [09:40] just like a plug-and-play. Like before
+- [09:42] that developers would have to build
+- [09:44] their own connectors, stand them up,
+- [09:46] monitor them, but this allows for like
+- [09:49] it's like an open- source really easy to
+- [09:51] plug in and make those connections. And
+- [09:54] then you have like Google recently, they
+- [09:56] are now managing their own MCP
+- [09:58] connectors for their tools. So it's like
+- [10:01] it's all set up and ready to go. And
+- [10:03] you're just going to see more of this in
+- [10:05] terms of enterprise and in terms of
+- [10:08] developers, even just people, random
+- [10:10] people who want to I'm currently
+- [10:12] experimenting with attempting to use an
+- [10:14] open-source agent to connect to certain
+- [10:18] tools just to see if I can do it using
+- [10:20] MCP and it seems like it's going to be
+- [10:22] easier than I thought.
+- [10:23] >> I'm very curious to see, you know, what
+- [10:25] people are able to build with this. But
+- [10:27] I think it has reached the point where
+- [10:30] anytime especially like a sort of big
+- [10:32] company CEO starts talking about AI
+- [10:35] agents, I just immediately get
+- [10:37] incredibly skeptical because it feels
+- [10:39] like you know where a year before was
+- [10:41] just saying AI or Gen AI, now they say
+- [10:44] AI agent and it's the same thing of just
+- [10:45] sort of like empty hype of get excited
+- [10:48] for this. this is the thing that's going
+- [10:50] to be so transformative and and you know
+- [10:52] it's not me I'm not saying that you know
+- [10:54] that they won't be useful in some ways
+- [10:56] but that it's become the next thing that
+- [10:58] is supposed to kind of live up to this
+- [11:02] full promise of AI and I don't know that
+- [11:04] anything can live up to that promise at
+- [11:06] this point.
+- [11:07] >> Yeah. I want to know Rebecca what you're
+- [11:09] trying to get this AI agent to do for
+- [11:11] you. I mean a couple of different things
+- [11:12] like you know for example I want to be
+- [11:14] able to connect the data from my Aura
+- [11:16] ring to my agent and from my other
+- [11:18] fitness trackers because that none of
+- [11:20] them all connect together like my Aura
+- [11:22] ring doesn't connect to my fitness pal
+- [11:24] and it doesn't connect to heavy and
+- [11:25] these are apps that I use to track like
+- [11:26] my macros and my weightlifting. So, I
+- [11:29] want to see if I'm able to create an
+- [11:31] agent that I can connect the data from
+- [11:34] those two to like personally be able to,
+- [11:38] you know, ask it questions and for
+- [11:40] advice or what have you and just and
+- [11:41] just see what happen. Just
+- [11:42] >> if you can hack that, I want to test.
+- [11:44] >> I'm going to try this segue. You're
+- [11:45] talking about the physical body and one
+- [11:46] of my predictions is physical AI in
+- [11:49] 2026.
+- [11:50] >> Nailed it.
+- [11:50] >> Uh, yeah, I came up with that just now.
+- [11:53] So, that's my prediction. physical AI
+- [11:56] 2026, we're just going to see it even
+- [11:58] more.
+- [11:58] >> My response is, please say more. What do
+- [12:00] you mean by physical AI?
+- [12:02] >> Well, okay. So, I mean, first of all, I
+- [12:04] feel like it's a little bit of a a term
+- [12:07] that has been popularized maybe by
+- [12:10] Nvidia's CEO, Jensen Wong, because in a
+- [12:14] way, this is kind of the same thing
+- [12:15] we've been talking about before, which
+- [12:17] is autonomous vehicles is a
+- [12:18] representation of physical AI. Rebecca,
+- [12:20] you can nod your head or disagree if
+- [12:22] you, but that is combining really like
+- [12:25] physical things like robotics or cars
+- [12:28] and AI together, but what I'm seeing is
+- [12:31] it expanding to apply to everything. And
+- [12:36] I'm saying this prediction because I've
+- [12:38] already been getting pitches for CES and
+- [12:41] it is like
+- [12:43] by far and the way the one term that I
+- [12:47] see. I absolutely think we'll be seeing
+- [12:48] more of this on the early stage startup
+- [12:50] side as well. I mean even this year for
+- [12:52] Battlefield we saw a lot of applications
+- [12:54] in physical AI and you know it takes a
+- [12:56] lot to get those companies off the
+- [12:58] ground from scratch. So I think we tend
+- [12:59] to see them come to us at a slightly
+- [13:01] later stage. I mean even like glide that
+- [13:03] won this year right with autonomous road
+- [13:04] to rail transportation. We saw it a lot
+- [13:06] with manufacturing robotics. We saw it
+- [13:08] in healthcare clean techch even prop
+- [13:10] tech we're seeing you know AI for for
+- [13:13] monitoring the health and of of
+- [13:14] buildings. Um, so I think there's many
+- [13:16] ways that we'll see it come into our
+- [13:18] daily lives. We saw it in um, you know,
+- [13:20] security cameras that are able to detect
+- [13:22] threats throughout different locations.
+- [13:23] So I'm also really excited about the
+- [13:25] rise of physical AI and hope to see more
+- [13:27] startups building in that space, but
+- [13:29] there are, you know, a lot of big
+- [13:30] players who who are, you know, heavy
+- [13:33] competitors. So we'll see. We'll see.
+- [13:35] Speaking of AI everywhere, Anthony, I'm
+- [13:37] going to put you in the hot seat now.
+- [13:39] You've been tracking sort of media and
+- [13:41] content. What are your predictions for
+- [13:43] maybe how AI is going to creep into that
+- [13:45] more? What you're seeing is both a lot
+- [13:48] of companies like you know Disney
+- [13:50] recently announced that they're making
+- [13:51] having a partnership with Open AAI and
+- [13:53] and so you're going to see a lot of like
+- [13:54] on a corporate level a lot of
+- [13:56] experimentation a lot of pilots a lot of
+- [13:59] deals and then I think you're going to
+- [14:00] see a lot of push back from you know the
+- [14:04] creative community from you know various
+- [14:06] kinds of workers and talent and and so I
+- [14:10] think one way that's going to shake out
+- [14:11] is uh what we're already starting to see
+- [14:13] in terms of basically statements ments
+- [14:15] or certifications that something is made
+- [14:18] without any gen AI. So, you know, we
+- [14:21] talked a couple months ago, I think,
+- [14:22] about this Apple TV show Plurabus and
+- [14:25] the fact that they have, you know, a
+- [14:26] little statement at the end of the
+- [14:27] credits that just says this show is made
+- [14:29] by humans. And I think you're going to
+- [14:31] see more statements like that. And
+- [14:32] you're possibly going to see more
+- [14:33] standardization around that as well that
+- [14:35] maybe like the Writer Guild of America
+- [14:37] or Screen Actors Guild might actually
+- [14:39] start putting a process in place or, you
+- [14:41] know, boilerplate language about what
+- [14:43] that might look like. So certified by
+- [14:44] humans,
+- [14:45] >> certified by hum, made by humans,
+- [14:47] certified by humans, it is ultimately a
+- [14:50] fairly difficult thing to police. Like
+- [14:52] even when we talk about written
+- [14:53] language, right? Like there's all this
+- [14:55] software that's supposed to detect
+- [14:56] whether or not something was generated
+- [14:58] by chat GPT or some other large language
+- [15:00] model. I think all of them are sort of
+- [15:02] notoriously
+- [15:03] not fully accurate. And so I I don't
+- [15:06] think it's that they're successfully
+- [15:08] going to police Gen AI out of all this
+- [15:10] like Hollywood content, but that you're
+- [15:12] going to see a sort of more organized
+- [15:14] push back and a more clear articulation
+- [15:17] of the idea that at least some people
+- [15:19] don't want this.
+- [15:19] >> We actually saw some interesting
+- [15:21] Battlefield companies that, you know,
+- [15:22] are not generating content that will be
+- [15:25] distributed for for the Hollywood scene,
+- [15:27] but but more tools for, you know,
+- [15:29] storyboarding movies and things like
+- [15:31] that. That was really interesting to
+- [15:32] help them organize their thoughts. And I
+- [15:34] think there are some some useful
+- [15:35] applications in this space. Not all of
+- [15:37] it kind of has to be the enemy, but of
+- [15:38] course I'm curious to see see how they
+- [15:41] end up policing that like you said
+- [15:42] because it's it's tricky. I struggle to
+- [15:44] tell the difference between AI generated
+- [15:46] content and not on a daily basis. I I
+- [15:48] hope they find a solution for that.
+- [15:50] >> I'm wondering if any of you have any
+- [15:52] predictions around how AI meets media
+- [15:56] might play out on sort of the regulatory
+- [15:58] front. for instance, like is FTC going
+- [16:02] to do anything about the Netflix deal,
+- [16:05] for instance, and will that have any
+- [16:09] effect on other deals in media? Rebecca,
+- [16:12] you recently wrote about how there are
+- [16:14] efforts to prevent states from policing
+- [16:17] AI regulations and it becoming more of a
+- [16:20] federal framework. So, I'm wondering if
+- [16:22] either of those two things on the media
+- [16:24] front or on the AI policy front. Well,
+- [16:25] the the Netflix thing, I think if that's
+- [16:27] what you're referring to, I think the
+- [16:28] FTC will do absolutely nothing about
+- [16:29] that. And in terms of AI policy, I mean,
+- [16:32] glad you asked, Kristen, because Trump
+- [16:34] just, you know, recently dropped his
+- [16:36] executive order about trying to curb
+- [16:38] state AI laws or preempt state AI laws,
+- [16:41] you know, on the grounds that AI is
+- [16:43] interstate commerce and that's federal,
+- [16:45] you know, that's federal ground. And I
+- [16:48] think that, you know, I've I just kind
+- [16:49] of wrote a story about this that this
+- [16:52] will create a bit of regulatory
+- [16:53] uncertainty for startups in the short
+- [16:56] term at least because
+- [16:59] it just means that specifically for
+- [17:01] smaller startups like bigger firms, they
+- [17:02] can wait it out. They can handle
+- [17:04] everything. But as states are, you know,
+- [17:08] the the EO directs federal agencies to
+- [17:12] essentially sue states that have enacted
+- [17:14] AI laws that are a little too ownorous
+- [17:16] or or what have you. So whatever that
+- [17:17] definition ends up being, who knows? But
+- [17:20] all of this is going to be playing out
+- [17:21] in the courts, right? And so in the
+- [17:22] meantime, startups will be like, uh,
+- [17:24] well, I mean, I started doing compliance
+- [17:26] for this. Do I stop? Do I wait? Do I
+- [17:29] continue? I guess my prediction is that
+- [17:31] there will be more confusion in the
+- [17:33] short term. I'm hesitant to say that
+- [17:36] there will be no federal policy that
+- [17:37] gets enacted. Certainly, Congress moves
+- [17:41] so slow. Uh, but there's a lot of push
+- [17:44] to do it. So, I mean, I don't know. What
+- [17:47] do you guys think? Do you think anyone
+- [17:48] think there's going to be some federal
+- [17:49] AI policy next year?
+- [17:51] >> No.
+- [17:52] >> Yeah. Short and sweet prediction. No.
+- [17:54] >> Moving on.
+- [17:55] >> I do I do actually want to go back to
+- [17:56] something else that you touched on. You
+- [17:58] you mentioned that you don't think the
+- [17:59] FDC is going to do anything about the
+- [18:00] Netflix Warner Brothers acquisition. Uh,
+- [18:03] which I found interesting because uh I
+- [18:04] don't agree. I I don't know that they're
+- [18:06] going to block it. I have no idea about
+- [18:08] whether it's that's going to happen, but
+- [18:09] I think Trump has made it clear that he
+- [18:12] wants to kind of give Netflix a bit of a
+- [18:15] hard time on this. Kind of see if he can
+- [18:17] maybe extract other concessions from
+- [18:19] them. So, I think I think like Trump is
+- [18:21] going to make the executives at Netflix
+- [18:23] sweat a little to make this happen. I
+- [18:24] don't know if I think the deal probably
+- [18:26] will go through, but it's not going to
+- [18:28] be clear sailing.
+- [18:30] >> Well, speaking of deals, what about VC
+- [18:32] deals in 2026? What do you guys think's
+- [18:34] going to happen? I think we're going to
+- [18:35] unfortunately continue to see this
+- [18:37] liquidity crisis that VCs are facing and
+- [18:40] I think the LPs are starting to get
+- [18:41] frustrated, right? I've seen a lot of
+- [18:44] family offices and and institutional LPs
+- [18:46] who are just starting to kind of go
+- [18:48] directly to invest in startups
+- [18:49] themselves, cutting out the middleman
+- [18:50] entirely. I don't know what this means
+- [18:53] for the future of VC as an industry, but
+- [18:55] we're seeing this more and more of like,
+- [18:57] you know, hire one person to a family
+- [18:59] office who can direct invest in startups
+- [19:01] and has that network and that
+- [19:02] credibility and, you know, you don't
+- [19:03] need to have a VC firm as that
+- [19:05] middleman. So, you know, and this can
+- [19:07] often be more favorable for the startups
+- [19:08] too because they don't have that
+- [19:10] timeline to exit, you know, within seven
+- [19:11] years or whatever it may be, but they
+- [19:13] oftentimes are more aligned with their
+- [19:15] industry if the, you know, LPS have a
+- [19:18] specific uh network or industry of
+- [19:20] focus. I'm seeing a lot more founders
+- [19:22] look for that. Although family offices
+- [19:23] and LPs are still sort of like, you
+- [19:25] know, a unicorn. It's very difficult to
+- [19:27] to find and understand that space. But
+- [19:29] I'm I'm curious to see how that plays
+- [19:31] out and if, you know, if VCs are going
+- [19:33] to continue to take these bets on these,
+- [19:35] you know, sort of AI enterprise SAS
+- [19:38] companies and the safe bets and the, you
+- [19:40] know, third-time founders and sort of
+- [19:42] the typical profile we're seeing, then
+- [19:44] what are the what are the rest of the
+- [19:45] founders to do, right? all of these
+- [19:47] companies that are able to spring up
+- [19:49] with the rise of AI. Anybody can build a
+- [19:51] company today, but not everybody has
+- [19:52] access to capital. And so I think again
+- [19:54] there's going to be more alternative
+- [19:56] sources. And I think that LP's direct
+- [19:58] investing is is my hot take, my
+- [20:00] prediction for 2026.
+- [20:02] >> Can you elaborate a little bit as to
+- [20:03] what you think is driving that LP direct
+- [20:05] investment? Is it because VCs are
+- [20:09] continuing to go to like the repeat
+- [20:11] founders and you know the structure that
+- [20:14] you just sort of played out or is there
+- [20:15] another economic reason why this is
+- [20:17] happening?
+- [20:17] >> More than anything it's the control
+- [20:19] right I think instead of having that
+- [20:21] that middle man to to do the investing
+- [20:23] for them they can be take their own
+- [20:25] bets. I think LPs might be getting
+- [20:26] frustrated with the lack of liquidity
+- [20:28] and are seeing that, you know, with all
+- [20:30] these companies popping up and the sort
+- [20:32] of average consumer having a better
+- [20:34] understanding of of what AI is today
+- [20:36] that people have have more of their own
+- [20:38] bets. And I think that why have that
+- [20:41] middleman when when more and more people
+- [20:43] are getting involved in investing
+- [20:44] themselves, right? Angel investors,
+- [20:46] equity crowdfunding. I think, you know,
+- [20:48] people want to take matters into their
+- [20:49] own hands. So, we'll see if that holds.
+- [20:51] But I I do think that the venture
+- [20:53] landscape is is really tough right now
+- [20:55] and I hope that it gets better in 2026,
+- [20:57] but I haven't heard much to to indicate
+- [20:59] that yet. Yeah. I wonder how that's
+- [21:01] going to affect startups, right? Like
+- [21:03] cuz it feels like it's a new, you know,
+- [21:06] for example, I lived in New Zealand for
+- [21:07] a little bit and it was a way less
+- [21:08] mature startup ecosystem and that often
+- [21:10] meant that startups got really bad
+- [21:12] deals. Like deals that were so bad that
+- [21:15] it actually killed them too early
+- [21:17] because they gave away too much equity
+- [21:18] too soon. Like I wonder if like
+- [21:19] inexperienced startups going through
+- [21:21] family offices that are also maybe a
+- [21:23] little more inexperienced in terms of
+- [21:25] you know investing in startups if that
+- [21:27] kind of creates a yeah like if that
+- [21:29] backfires at all for them. I'm not sure.
+- [21:31] >> Yeah. And I think it's also you know we
+- [21:33] see that in Europe quite a bit as well
+- [21:34] is also just slower moving deals um
+- [21:37] where in you know Silicon Valley and the
+- [21:38] VC space it it happens quickly when they
+- [21:40] have conviction but I think maybe with
+- [21:42] uh working directly with LPs it's going
+- [21:44] to take a lot longer for them to get
+- [21:46] that conviction. might be more
+- [21:47] relationship focused. So, I think yeah,
+- [21:50] you're right. For for first-time
+- [21:51] founders, they're going to need to have
+- [21:53] have all their tools in their belt
+- [21:54] before they approach these companies.
+- [21:56] Also, it's obviously less support and
+- [21:58] resources, less portfolio operation. So,
+- [22:00] I'm not necessarily arguing that it's
+- [22:02] better for the startups on, you know, a
+- [22:04] broad front, but I do think we'll see
+- [22:06] more activity from LPS. Is it like a
+- [22:08] money drying up thing in Silicon Valley?
+- [22:09] Because that's kind of what I think is
+- [22:11] is happening with this IPO push that
+- [22:13] we're seeing for next year. I think
+- [22:14] everyone's expecting it to be like a
+- [22:16] blockbuster IPO year with Open AI and
+- [22:18] Anthropic. So,
+- [22:19] >> every year is a blockbuster year for
+- [22:20] IPOs. Don't you know [laughter] that's
+- [22:22] every year?
+- [22:23] >> I feel like I don't know. 2024 was kind
+- [22:26] of low on the
+- [22:27] >> No, it's I'm not saying that actually
+- [22:29] plays out. I'm saying every year people
+- [22:31] predict that the following year is going
+- [22:32] to be the big year for IPOs.
+- [22:34] >> People always want it to be a
+- [22:35] blockbuster year.
+- [22:36] >> Yeah, that's the optimism. Let's say to
+- [22:38] next year is a big year for IPOs. let's
+- [22:41] say open anthropic actually make it to
+- [22:44] the public markets. honestly unclear the
+- [22:46] reason I mean my like cynical take is
+- [22:48] like they they're exhausting private
+- [22:50] money and like gulf money and need to
+- [22:52] hit the public markets because AI costs
+- [22:55] money but I don't know maybe that's just
+- [22:57] >> well I would say this a lot of companies
+- [22:59] are not profitable when they go public
+- [23:00] but what what's been interesting to me
+- [23:02] is the trend of pre-revenue companies
+- [23:05] yes going public and that we saw happen
+- [23:07] a lot with like the whole spa era that's
+- [23:10] settled down a little bit I think
+- [23:11] because there's been a lot of a drop in
+- [23:13] the market with some of those companies
+- [23:14] just haven't done as well. But if you're
+- [23:16] a deep tech company, to Isabelle's point
+- [23:18] before, and you're having a hard time
+- [23:19] accessing capital, and you are a deep
+- [23:22] tech company, meaning you don't have
+- [23:24] like you're not a software as a service
+- [23:26] company that has a product that can be
+- [23:27] put out, you know, very quickly, you're
+- [23:29] looking at a 5 to 10 year development.
+- [23:33] Where do you find that capital? And
+- [23:35] maybe you turn to the public markets
+- [23:36] because of it or family office to your
+- [23:38] point as well. But I actually had a
+- [23:40] question Isabelle for you about, you
+- [23:42] know, you've seen so many of the
+- [23:44] Battlefield applications and you get a
+- [23:46] lot of inbound. What trends do you see
+- [23:49] like happening that happened this year
+- [23:52] in terms of the types of industries that
+- [23:53] they're going after? And do you have a
+- [23:55] prediction of where that's going in
+- [23:56] 2026?
+- [23:57] >> Yeah. Yeah. I mean this year I think we
+- [23:59] saw all of the verticalized AI right
+- [24:02] across pretty much every industry but a
+- [24:04] lot in health tech and biotech of course
+- [24:07] which again also have really long R&D
+- [24:09] cycles. So another industry that is very
+- [24:12] capital intensive so hard at the early
+- [24:14] stage but I'm I'm glad to see a lot of
+- [24:16] people are building and taking those
+- [24:17] risks and those bets because we need it.
+- [24:20] Similarly in climate tech, right, food
+- [24:22] and ag tech. So these industries that I
+- [24:24] think people want to see change and
+- [24:26] founders are taking matters into their
+- [24:27] own hands in many of these spaces, which
+- [24:29] I think is really great to see. In terms
+- [24:31] of AI, we've seen a lot of sort of the
+- [24:33] compliance layer, right? Cyber security,
+- [24:35] these companies that want to be the
+- [24:37] backbone of the infrastructure that
+- [24:38] other companies build on as we get
+- [24:40] deeper and deeper into this AI uh world.
+- [24:43] I think that's interesting and cool to
+- [24:44] see the startups building that instead
+- [24:46] of, you know, maybe waiting for some of
+- [24:47] the incumbents. I guess we've also seen
+- [24:49] quite a bit of consumer and edtech AI
+- [24:53] much more than last year. I think this
+- [24:55] is a really tricky space even if you
+- [24:57] have the traction. It is still often an
+- [25:00] ads an ads play that VCs are are
+- [25:03] skeptical of. Um but nonetheless I think
+- [25:05] there's ways to you know democratize
+- [25:08] access to education. There's also you
+- [25:10] know of course a lot of really fun like
+- [25:12] Rebecca was saying like these health
+- [25:13] tools and health apps. And I think the
+- [25:15] last part here is really these sort of
+- [25:17] pick and shovel tools if you will. So
+- [25:19] all of these other companies that are
+- [25:22] supporting right B2B um B2B SAS
+- [25:25] companies a lot of DevOps a lot of cloud
+- [25:27] infrastructure. It's always interesting
+- [25:30] to sort of weed through the applications
+- [25:31] in those spaces because um it gets it
+- [25:34] gets heavy it gets technical and it's
+- [25:36] hard to sort of differentiate sometimes
+- [25:39] because we see a lot of them. But I'm
+- [25:41] hoping that, you know, it's uh a few of
+- [25:43] them will kind of emerge as as clear
+- [25:45] winners in the space.
+- [25:46] >> Super quick question. Do you base who
+- [25:48] you choose for Battlefield at all on
+- [25:50] whether or not that company is going to
+- [25:52] be acquired in the next like year or
+- [25:54] two? I'm just curious because when you
+- [25:55] say the picks and shovels, I'm like,
+- [25:56] "Oh, so they're just like they're
+- [25:58] holding out for an acquisition from
+- [25:59] Google or something, right?" Like,
+- [26:00] >> so no, we don't pick companies based on
+- [26:02] that. I mean, I think that's that's the
+- [26:04] interesting part about Battlefield,
+- [26:05] right? Is that we we do not invest in
+- [26:07] these companies. So there's, you know,
+- [26:09] for us, there's no pressure for an
+- [26:11] acquisition. We're not necessarily
+- [26:12] betting on the companies that, you know,
+- [26:14] are going to give us the quickest and
+- [26:15] dirtiest exit, but rather um companies
+- [26:18] that have obviously potential to be
+- [26:20] massive and be successful, but that are
+- [26:22] building companies and and technologies
+- [26:24] that that we need, right? That have
+- [26:26] stories worth telling that when I read
+- [26:27] Techrunch and I see that Glide One, I'm
+- [26:30] very comforted by the fact that people
+- [26:32] are out there building these kind of
+- [26:33] technologies, right? So, I think that's
+- [26:34] really sort of the the fluffy answer to
+- [26:37] how we choose it without going into all
+- [26:38] of our secret sauce, but obviously
+- [26:40] companies that have legs to stand on,
+- [26:41] but that are building meaningful and
+- [26:43] impactful tech rather than the quickest
+- [26:46] exit. [laughter]
+- [26:46] >> So, you've been talking about a lot of
+- [26:48] like kind of what you think you're going
+- [26:49] to see, what's like you're you're hoping
+- [26:51] to see. Uh to make it slightly more
+- [26:52] negative, because I think that's more
+- [26:53] fun. Um just at the end of the
+- [26:55] application process, is there a
+- [26:57] buzzword, a phrase that you just think
+- [26:59] you're going to be completely sick of?
+- [27:00] It's not necessarily going to disqualify
+- [27:02] a startup, but you just be like, I never
+- [27:04] want to hear these words ever again.
+- [27:05] >> Okay, I'm trying to think of the exact
+- [27:07] phrase, but I think even this year, if
+- [27:09] it was not like another type of sales
+- [27:12] team tools, sales enablement tool, or
+- [27:14] like a lot of these internal tools that
+- [27:16] are just like I don't know, we saw
+- [27:18] probably a million times, but of course
+- [27:20] it's agent, right? So, it's some type of
+- [27:22] internal enterprise agent, right? To
+- [27:24] make people's jobs easier, fine. But
+- [27:27] like for every single job out there, no.
+- [27:30] Please God, no. We don't need an AI
+- [27:32] agent specifically for every job on the
+- [27:34] planet. Like I think um you know I'm I'm
+- [27:37] hoping that we'll see bigger buckets,
+- [27:39] right, of like you know maybe an
+- [27:40] industry focus rather than targeted for
+- [27:43] a specific job. And I'm sure these
+- [27:45] startups have plans to expand to to
+- [27:46] other teams in the company. But for now,
+- [27:49] I'm seeing [clears throat] many many
+- [27:51] variations of that same topic. AI will
+- [27:53] save the world. They said
+- [27:55] >> any day now. Yeah, any day. We're gonna
+- [27:57] move to the final rapid fire. I hope
+- [28:00] that you all have fun ones prepared. I
+- [28:03] know I do. So, I'll kick things off. I
+- [28:05] predict that Johnny IV and Sam Alman
+- [28:09] will release a behind the music style
+- [28:12] documentary of their collaboration and
+- [28:15] then we'll have a giant public breakup.
+- [28:16] >> Uh, I I endorse that.
+- [28:18] >> I love these. Mine are silly, too. My
+- [28:20] last one is I believe that Whimo will be
+- [28:23] raising even more money, more billions
+- [28:26] in order to scale at an even faster
+- [28:29] pace. I don't think that they're going
+- [28:31] to IPO in 2026, but I do think that
+- [28:33] they're going to have another massive
+- [28:34] round. Oh, ticking on to that, I feel
+- [28:36] that that public acception adoption of
+- [28:39] of self-driving cars is really going to
+- [28:41] shift to, you know what, yeah, drivers,
+- [28:44] human drivers do suck. Like, let's get
+- [28:46] the robots on this one. My not silly one
+- [28:48] is that I think latestage VC is going to
+- [28:50] die or get hurt significantly because so
+- [28:54] much hype money is tied up in these AI
+- [28:55] companies that have fallen or gotten
+- [28:57] eaten by the giants and like that return
+- [28:59] on investment is just not going to show
+- [29:00] up.
+- [29:00] >> I I feel like that's an aspirational
+- [29:02] one. I feel like it should happen. I
+- [29:04] don't but it feels I don't know if it
+- [29:06] will happen.
+- [29:06] >> I mean I don't want this to happen but
+- [29:07] anyway, other rapid fire Elon Musk will
+- [29:10] weigh in on something that he has no
+- [29:12] expertise in like cooking or home decor
+- [29:15] or something. And I'm saying this based
+- [29:16] on the fact that he started weighing it
+- [29:18] on fashion this week. I was like, come
+- [29:19] on, guy. Like, come on. Like, Cybertruck
+- [29:22] is not it. It's not the aesthetic flex
+- [29:25] that you think it is.
+- [29:26] >> Well, for some people, they love the
+- [29:27] Cybert truck, right?
+- [29:28] >> Some people, Kirsten, but most people
+- [29:30] don't.
+- [29:30] >> Some people,
+- [29:31] >> speaking of fashion, I think that Jensen
+- [29:33] Wang's leather jacket is going to show
+- [29:34] up on prediction markets somehow. Like,
+- [29:37] if he's wearing it, it means that, you
+- [29:39] know, something is going to happen. I do
+- [29:41] know really quickly. I know I said I
+- [29:43] wasn't going to uh jump in on rapid
+- [29:44] fire, but I will say that he once told
+- [29:46] me, this is many years ago before he was
+- [29:49] uh more difficult to get interviews
+- [29:50] with, but I was at Jensen.
+- [29:53] >> Okay.
+- [29:53] >> It was a small group of reporters, and
+- [29:54] he said that his wife gets him a new
+- [29:57] >> jacket every year.
+- [29:59] >> So,
+- [30:01] while they're black, they're always the
+- [30:04] same color, there are slight
+- [30:05] differences.
+- [30:07] >> So, so look for those deep cuts. Maybe,
+- [30:10] you know, if he pulls one out of the
+- [30:11] archives.
+- [30:12] >> Amazing. Um, my last rapid fire was that
+- [30:14] we will have a return of the dumb phone
+- [30:16] so founders can stay quote founder
+- [30:18] focused.
+- [30:19] >> Mhm. Oh, nice. I like that one.
+- [30:22] >> I would buy that probably. I mean, I
+- [30:24] know there are other dumb phones already
+- [30:26] like kind of taking off. Actually, I
+- [30:28] would I would tie in one of my rapid
+- [30:29] fires uh to that, which is that, you
+- [30:32] know, I think there's been a lot of
+- [30:32] reporting that there's going to be a
+- [30:34] foldable iPhone. And I think that I
+- [30:36] don't think it's going to be a complete
+- [30:37] flop, but I I don't think there's a mass
+- [30:39] market for this. I think it's going to
+- [30:40] be a niche product. Um, a lot of weirdos
+- [30:43] are going to try it out. I'm also going
+- [30:44] to predict that Tim Cook is not going to
+- [30:47] retire next year. I don't have any
+- [30:49] inside information. I just figure it's
+- [30:50] sort of a coin toss and why not say he's
+- [30:52] not going to retire? And then my last
+- [30:54] rapid fire is imagine whatever you think
+- [30:57] is the worst tweet of all time. I think
+- [30:59] something worse will be posted in 2026.
+- [31:02] >> I agree with that, Isabelle. My hot
+- [31:04] takes or rapid fire takes. I think I
+- [31:06] think stealth mode is dead.
+- [31:09] >> I think that, you know, we're going to
+- [31:10] have to see some forced stealth modes
+- [31:12] when they have, you know, compliance and
+- [31:13] FDA and stuff like that to go through.
+- [31:15] But in terms of the AI wave, people are
+- [31:17] just launching left and right. So
+- [31:19] stealth mode is dead in 2026. Along
+- [31:22] those lines, I think we're going to see
+- [31:23] I mean more like overuse of these
+- [31:27] buzzwords like AI native, right?
+- [31:28] Everything is going to be AI native
+- [31:29] because if it's not, nobody's going to
+- [31:31] talk to you, right? And so even if it's
+- [31:33] not quite, I think we're going to be
+- [31:35] seeing some stretches in that in that
+- [31:37] aspect. And I think my last hot take is
+- [31:40] that we'll probably see some ridiculous
+- [31:42] terms like, you know, like these uh full
+- [31:44] stack AI founder, right? And these
+- [31:47] things catch on and if you're not that,
+- [31:49] you're not getting funded. So full
+- [31:51] stack, what does that mean? I'm really
+- [31:52] good at a chat, GPT, Claude, and Gemini.
+- [31:55] >> Doesn't matter what it means, it's a
+- [31:56] buzz word. To add to that, I think
+- [31:59] you're kind of getting there, which is
+- [32:01] the oneperson company startup that does
+- [32:04] everything. I think that will happen in
+- [32:06] 2026 if it hasn't happened already.
+- [32:08] >> Absolutely.
+- [32:09] >> Isabelle, give me a prediction. Probably
+- [32:12] a really solid one because you're
+- [32:14] planning it on what's coming in 2026
+- [32:16] with build mode.
+- [32:18] >> Yeah, absolutely. So, I mean, this
+- [32:19] season for season one, we focused on
+- [32:21] everything go to market for founders,
+- [32:23] right? All aspects of going to market.
+- [32:25] And season two will be focusing on
+- [32:28] people from all aspects, team, hiring,
+- [32:31] firing, finding co-founders. Um really
+- [32:33] diving into how you build that team and
+- [32:35] how you keep it strong. So um I think
+- [32:37] it'll be a really refreshing topic to
+- [32:39] start 2026 with. Hopefully, you know, a
+- [32:41] little bit more um you know, positive
+- [32:44] than some of the last years of layoffs
+- [32:46] that we've seen a lot of. Um and now
+- [32:48] we're going to talk about building a
+- [32:49] strong team. So looking forward to that.
+- [32:50] >> All right. What do you think of our
+- [32:52] predictions? Please let us know. You can
+- [32:54] find us at EquityPod. Thanks as always
+- [32:57] for listening and enjoy your holiday.

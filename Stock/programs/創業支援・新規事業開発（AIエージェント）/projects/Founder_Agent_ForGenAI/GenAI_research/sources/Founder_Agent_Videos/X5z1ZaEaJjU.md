@@ -1,0 +1,596 @@
+---
+title: "Transcript: X5z1ZaEaJjU"
+video_id: "X5z1ZaEaJjU"
+video_url: "https://www.youtube.com/watch?v=X5z1ZaEaJjU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:20:22"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: X5z1ZaEaJjU
+
+- URL: https://www.youtube.com/watch?v=X5z1ZaEaJjU
+- Retrieved at: 2025-12-30T11:15:31+09:00
+
+## Text
+
+- [00:00] I'm really excited about this next
+- [00:02] fireside chat. It's guaranteed to be an
+- [00:04] A+ conversation about the anatomy of an
+- [00:06] agent in enterprisegrade autonomy. I'm
+- [00:09] so happy to introduce Scott with
+- [00:11] Anthropic and Venturebeat's own Michael
+- [00:14] who is also the author of the AGI weekly
+- [00:17] newsletter. Make sure you subscribe to
+- [00:18] that. Thank you. Uh good afternoon
+- [00:21] everyone. Uh my name is Michael Nunees.
+- [00:23] I'm the editorial director of
+- [00:25] Venturebeat and I'm thrilled to welcome
+- [00:27] Scott White, product lead for Claude AI
+- [00:29] at Anthropic. Um Scott is at the
+- [00:31] forefront of transforming how we think
+- [00:33] about AI, not just as a tool that
+- [00:35] answers questions, but as a true virtual
+- [00:37] collaborator that can work alongside
+- [00:39] teams for hours at a time. Um he's been
+- [00:41] instrumental in developing Cloud 4,
+- [00:43] which was recently released. And uh it,
+- [00:45] you know, that model also achieved a
+- [00:47] remarkable 72.5% on the SWE coding
+- [00:51] benchmark. Everyone, please welcome
+- [00:53] Scott to the stage.
+- [00:56] Hi everyone. Thanks for having me. Um,
+- [00:58] so Scott, you know, I'd love to start
+- [00:59] this conversation with just sort of the
+- [01:01] evolution of these models and sort of
+- [01:03] where we are now. I know it's been a big
+- [01:05] couple of weeks. We were just talking
+- [01:06] about that backstage. Um, you know, a
+- [01:08] year ago we were all really excited
+- [01:10] about how chat bots could write emails.
+- [01:12] Now we're talking about how AI can code
+- [01:14] for seven hours straight. help us
+- [01:16] understand this journey and sort of
+- [01:18] what's fundamentally changed in how we
+- [01:19] think about AI assistants becoming
+- [01:21] actual collaborators. Yeah, absolutely.
+- [01:24] So, uh it's fun. My experience at
+- [01:27] Anthropic is kind of uh tracking the
+- [01:30] evolution of these models over the last
+- [01:32] couple years and how inexurably
+- [01:35] intertwined the product experience and
+- [01:37] what is unlocked in terms of
+- [01:39] applications are with the models and
+- [01:41] their capabilities. So, if I reflect
+- [01:43] back to when I started, it was uh the
+- [01:47] Cloud 2 family of models. And what we
+- [01:49] really built was a a box that allowed
+- [01:52] you to have access to a model. Um, and I
+- [01:55] think coding is actually the best sort
+- [01:58] of uh use case to think about and track
+- [02:01] what this evolution looked like. You
+- [02:02] know, a year ago, um, or maybe over a
+- [02:04] year ago, a little over, the main way
+- [02:07] that uh, coding was adopted was through
+- [02:09] autocomplete in an IDE. So very much
+- [02:12] like where people were already working
+- [02:14] very local to what they were doing in a
+- [02:16] small context and it would complete the
+- [02:18] line that you're at. That's what the
+- [02:19] model was capable of. Uh and so that's
+- [02:21] how it was integrated into the tools
+- [02:23] that people were using. And then if you
+- [02:25] fast forward like 6 months after I
+- [02:27] started or something, the models 35
+- [02:30] sonnet released and it was now capable
+- [02:31] of writing entire functions or mini
+- [02:34] applications. And the exciting thing was
+- [02:36] that that unlocked new product surface
+- [02:38] areas that we could take advantage of
+- [02:40] that intelligence. And so we launched
+- [02:42] artifacts basically a year and a little
+- [02:44] bit ago in June last year. Uh and that
+- [02:46] took advantage of the fact that claude
+- [02:48] could write an entire you know
+- [02:50] application I mean the application
+- [02:52] bespoke user interface for users to do
+- [02:54] things with claude and we could only
+- [02:56] launch that because the model was now
+- [02:57] good enough at writing code to unlock
+- [02:59] that new product feature. Now you fast
+- [03:02] forward you know to uh a couple months
+- [03:04] ago we launched cloud 4. We launch it
+- [03:06] alongside cloud code which is now a
+- [03:09] fully sort of remote agentic software
+- [03:12] engineer right uh and it is the kind of
+- [03:15] thing that the things that mattered a
+- [03:18] year ago when you have autocomplete in
+- [03:20] an IDE latency that doesn't matter as
+- [03:22] much because you're now delegating tasks
+- [03:25] to a virtual software engineering agent
+- [03:28] that is asynchronously going off and
+- [03:30] doing a bunch of work writing a bunch of
+- [03:32] code analyzing an entire codebase maybe
+- [03:35] searching the internet to find API
+- [03:37] documentation for you to then use to
+- [03:39] make those changes. You know, issuing a
+- [03:41] pull request and then you know actually
+- [03:43] getting comments from people on the pull
+- [03:46] request, taking those comments and then
+- [03:48] iterating on the code based on those
+- [03:49] comments. That is like an entire agentic
+- [03:51] process in the background that was not
+- [03:54] possible 6 months ago. Uh and that
+- [03:57] product now is only possible because of
+- [04:00] the intelligence of the model. And so
+- [04:02] that's the dynamic that's been like
+- [04:04] interesting for me to adjust to and see
+- [04:06] is when you are developing the model
+- [04:08] entire new products become possible and
+- [04:11] you only see that early when you're
+- [04:13] building that model and then you can
+- [04:14] build those products that take full
+- [04:16] advantage of the intelligence and if I
+- [04:18] think about like what the key things
+- [04:20] that unlocked that evolution over the
+- [04:21] last year one is model intelligence two
+- [04:24] is tools and the model accessing those
+- [04:28] tools and being able to use those tools
+- [04:30] with that intellig igence tools like web
+- [04:33] search, tools like editing code bases,
+- [04:35] tools like uh the model context protocol
+- [04:37] and integrating with various systems and
+- [04:39] then lastly is like the product surfaces
+- [04:42] that take advantage of tools and the
+- [04:44] model intelligence and the sort of like
+- [04:47] collection of those three things working
+- [04:49] together I feel like is the you can see
+- [04:52] the shape of like chatbot to agents by
+- [04:55] virtue of those things being deployed
+- [04:57] and delivered together. Um awesome. you
+- [04:58] know, I'd love to um just kind of double
+- [05:00] click on that for a second. You know, um
+- [05:02] you know, you mentioned model
+- [05:03] intelligence and specifically um
+- [05:05] function calling being kind of a big uh
+- [05:08] element, I guess, of of what's possible
+- [05:09] with Claude with code. Can we um maybe,
+- [05:12] you know, help people understand or even
+- [05:15] just get started? You know, we were
+- [05:16] talking about this backstage as well.
+- [05:18] You know, agents are super exciting, but
+- [05:20] they can be a little bit overwhelming
+- [05:21] for uh people that want to just get
+- [05:24] involved. um you know tell us a little
+- [05:26] bit about sort of you know what these
+- [05:28] terms are are first of all agent
+- [05:30] workflow LLM with tools and just how
+- [05:32] people can get started with um with
+- [05:35] cloud code you know cloud code yeah
+- [05:37] absolutely so uh if I think about
+- [05:40] breaking down a few of these components
+- [05:42] the first one is just the large language
+- [05:45] model right claude you go to cloud.ai AI
+- [05:47] and you can speak to claude. You can ask
+- [05:49] it a question, issue it a query. It will
+- [05:51] take that it will use its reasoning
+- [05:53] model and then it will provide a
+- [05:54] response to you. Then on top of that you
+- [05:57] add tools. So a model with tools might
+- [06:00] be uh a you know clawed with web search
+- [06:03] and I might ask it what's the weather in
+- [06:04] San Francisco today. The model itself
+- [06:07] doesn't know the weather in San
+- [06:08] Francisco. It's a pre-trained and
+- [06:09] fine-tuned model that doesn't have the
+- [06:11] weather today in its you know knowledge
+- [06:13] base but it can use the tool. And so I
+- [06:15] ask it that question. It uses the tool.
+- [06:18] It reasons about the response and then
+- [06:19] it gives me the weather. The next thing
+- [06:21] is a workflow which I think of as a
+- [06:24] deterministic process that probably an
+- [06:27] engineer will be building or someone
+- [06:29] might be building within a product at
+- [06:30] their company. But the idea is you want
+- [06:32] like a very deterministic outcome. Like
+- [06:34] if you're running payroll at a company,
+- [06:36] you don't want that to be
+- [06:37] non-deterministic. You want that to be
+- [06:39] on on rails. But you still might have
+- [06:41] Claude in the loop to do something like
+- [06:44] take a physical piece of paper, extract
+- [06:46] key values and then like plug them into
+- [06:49] that deterministic process. So it's like
+- [06:51] logic gates and a very defined outcome.
+- [06:54] The last thing though is agents are not
+- [06:57] necessarily workflows. They might have a
+- [06:58] workflow within it, but I think about an
+- [07:00] agent as something that has a goal and
+- [07:03] then it can just do many things to
+- [07:06] accomplish that goal. And it can iterate
+- [07:08] over tools over an environment, getting
+- [07:11] customer feedback or user feedback. But
+- [07:13] really it's a a sort of
+- [07:15] non-deterministic or quasi deterministic
+- [07:17] process where it's getting information
+- [07:20] reasoning over the information it has
+- [07:22] deciding to do more things uh and then
+- [07:25] ultimately iterating until it feels like
+- [07:26] it's accomplished that goal. So that's
+- [07:28] how I sort of break down the components
+- [07:30] and I think again it tracks model
+- [07:32] intelligence where like a year ago the
+- [07:34] model was only intelligent enough to
+- [07:36] answer a question and maybe use one or
+- [07:38] two tools to answer that question. Then
+- [07:40] the model became intelligent and people
+- [07:41] had enough tools to implement the model
+- [07:44] into structured workflows within their
+- [07:45] business. And then only once the model
+- [07:47] became intelligent enough can it
+- [07:49] actually reason over a large number of
+- [07:51] tools that it needs to use to iterate
+- [07:54] over and over and over to then get to an
+- [07:55] outcome. So I think we're now in a place
+- [07:58] where agents are not only like
+- [08:01] components of the applications that
+- [08:02] people are building but also entire
+- [08:04] applications themselves uh and agents
+- [08:06] working with other agents. And so again,
+- [08:08] model intelligence and the tools that it
+- [08:10] has unlocks these new sort of uh
+- [08:13] paradigms. Um, you know, I've seen a
+- [08:15] really great uh sort of representation
+- [08:17] of this called Way of the Code by Rick
+- [08:20] Rubin, who's this um worldclass music
+- [08:22] producer. He's worked with Johnny Cash
+- [08:24] and the Beasty Boys and Outcast and a
+- [08:26] million other artists, I think Bruce
+- [08:28] Springsteen among um among others. um
+- [08:31] you know that is a really cool example I
+- [08:34] think of what is possible with cloud
+- [08:35] code but I know you're working with a
+- [08:36] lot of big companies as well can you
+- [08:38] tell us maybe about some projects or
+- [08:40] real world examples of people actually
+- [08:42] putting this stuff to use or um you know
+- [08:45] deploying this in at the enterprise
+- [08:46] level yeah absolutely um so I think like
+- [08:50] there are examples of customers that are
+- [08:52] taking cloud and implementing it into
+- [08:54] workflows that are either ad hoc or very
+- [08:56] structured I think of like a company
+- [08:58] like Novo Nordisk is creating these
+- [09:00] these sort of clinical reports that used
+- [09:02] to take I think like 10 weeks or on the
+- [09:04] order of weeks and are now doing it in
+- [09:06] like 10 minutes by integrating with a
+- [09:08] lot of research and tools internally and
+- [09:10] the ROI on something like that is you
+- [09:13] know it's orders of magnitude um and but
+- [09:16] that it's also companies like GitLab
+- [09:18] doing a lot of productivity within their
+- [09:21] organization so everything from using
+- [09:24] cloud for enterprise to do RFPs for
+- [09:26] their sales team or write technical
+- [09:28] documentation
+- [09:30] or actually you know write the code uh
+- [09:33] you know underneath the systems that are
+- [09:35] powering GitLab. So these are a variety
+- [09:38] of different use cases and and the fun
+- [09:40] thing is that we have different
+- [09:41] solutions our API and cloud for
+- [09:43] enterprise. So you get to see all these
+- [09:46] non-technical people building these
+- [09:48] early agents for themselves to to solve
+- [09:50] problems that are close to their hearts
+- [09:52] at work. But you also have engineers
+- [09:54] taking these and implementing them into
+- [09:56] core business processes at the
+- [09:58] organization or building products that
+- [10:01] they then give to their end users like
+- [10:03] in it uh you know using claude to
+- [10:06] provide end users tax advice right
+- [10:08] that's something I've actually used as
+- [10:09] an end user uh and so it's fun to see
+- [10:12] all three of those and I think also
+- [10:14] anthropic is customer zero for a lot of
+- [10:17] what we're building and it's notable
+- [10:18] that I think like 90% of cloud code was
+- [10:21] written by cloud mode uh nowadays and I
+- [10:25] am a product manager. I am not a
+- [10:27] professional software engineer but this
+- [10:29] week is our hack week and I am building
+- [10:31] like full production features now. Uh
+- [10:35] and I no longer think about my job as
+- [10:38] writing up PRD and trying to convince
+- [10:40] like someone to to do something or
+- [10:42] design something. The first thing I do
+- [10:44] is can I build a workable prototype of
+- [10:47] this on our staging server and then like
+- [10:50] share a demo of it actually working get
+- [10:52] intuition internally about the feature
+- [10:55] whether it feels good whether we have
+- [10:57] conviction that we want to ship it and
+- [10:59] then ultimately we'll decide from there
+- [11:00] whether we want to ship it that's me
+- [11:02] changing the way that I think about my
+- [11:04] job now because I have access to this
+- [11:06] tool and it is now going to land in
+- [11:09] production and so that's like we are an
+- [11:11] enterprise using our own tool to change
+- [11:13] the way that we think about the products
+- [11:14] that we're shipping because we have
+- [11:16] access to the built that's been super
+- [11:18] exciting and fun. Wow. Um you know I
+- [11:21] just one more question on um sort of how
+- [11:23] you think about building these agents.
+- [11:25] Um just any advice for prompt
+- [11:27] engineering or how you think about kind
+- [11:30] of getting started those initial like
+- [11:32] like telling the computer what to do,
+- [11:33] telling the the agent what to do. Um any
+- [11:36] advice for the audience on just sort of
+- [11:38] how to approach that task? keep it
+- [11:39] simple, get get detailed, you know,
+- [11:41] which do you prefer and and how do you
+- [11:43] think about that? Yeah, I think starting
+- [11:45] small and incrementally
+- [11:48] building up from there. As I think about
+- [11:50] even my experience this week building
+- [11:52] features with cloud code. It's always
+- [11:54] easier to start start with the smallest
+- [11:57] thing that you know might work that you
+- [12:00] can build upon over time. And so don't
+- [12:02] try to build an entire agentic system or
+- [12:04] entire agent from from scratch. Build
+- [12:07] the component of it. make sure that that
+- [12:09] component works then build a next
+- [12:11] component that might work with the first
+- [12:12] component. So do it sort of iteratively
+- [12:14] but ultimately like you know the magic
+- [12:17] of these models are that they reason and
+- [12:19] can use tools and you can describe to it
+- [12:22] the thing that you are trying to do and
+- [12:24] it will ultimately do that. So much like
+- [12:27] you might go into a meeting with a
+- [12:29] collaborator and brainstorm you know the
+- [12:32] problem that you're trying to solve you
+- [12:33] should treat the model like that thought
+- [12:35] partner work on the requirements first
+- [12:38] break the requirements down into the
+- [12:40] subcomponent pieces and then start
+- [12:43] tackling one of those components like
+- [12:45] the global context is equally important
+- [12:47] for it to understand ultimately what am
+- [12:49] I trying to get to but then like
+- [12:51] starting local in a small part of it um
+- [12:54] that is one component of it the Next
+- [12:56] component of it is once you've built it
+- [12:58] actually evaluating whether it's worked
+- [13:00] and I I like to say sort of internally
+- [13:01] sometimes like eval are the new PRD. And
+- [13:05] so eval evaluations are just a way of
+- [13:08] determining whether the model is doing
+- [13:10] what you want it to do. And that's like
+- [13:12] a new way of thinking as you're building
+- [13:14] agents or as you're building products
+- [13:16] that use large language models. You have
+- [13:18] to make sure that it's ultimately doing
+- [13:19] what you want. If you're not using a
+- [13:21] large language model, you can encode
+- [13:23] exactly what you want to have happen,
+- [13:25] right? It's very deterministic. But once
+- [13:27] you introduce that large language model,
+- [13:29] it introduces a bit of that
+- [13:30] non-determinism. You need a language to
+- [13:33] determine whether it is doing well.
+- [13:34] Whether that's feedback that you're
+- [13:36] collecting from your customers or your
+- [13:38] other users internally or whether it's
+- [13:40] evaluations, which are just the way of
+- [13:42] encoding um what the task is that the
+- [13:46] model is trying to do and then grading
+- [13:48] it on its ability to do that task. You
+- [13:50] mentioned SWEBench that is a well-known
+- [13:52] eval for software engineering. But as
+- [13:55] things become more sophisticated and as
+- [13:57] people build their own agents
+- [13:59] internally, they can't just rely on the
+- [14:02] benchmarks or evals that exist in the
+- [14:04] market, they end up getting more complex
+- [14:06] than that and they end up getting more
+- [14:08] bespoke to your company. And just like
+- [14:10] you have a product that you're trying to
+- [14:12] build that is, you know, trying to
+- [14:15] deliver a very specific outcome to your
+- [14:17] customer, you want your evals to be as
+- [14:19] close to that as possible. So if I'm
+- [14:21] trying to build a sales transcription
+- [14:24] engine or something, I want my evals to
+- [14:26] be about sales transcription, not just
+- [14:29] you know general intelligence. Sure.
+- [14:31] Yeah. And you know we're hearing that
+- [14:32] more and more I think about uh a lot of
+- [14:34] these evals and sort of the benchmarks
+- [14:36] in which we sort of uh I guess uh
+- [14:39] evaluate these uh models. You know I
+- [14:40] want to make sure we um spend some time
+- [14:42] on MCP. you know, so I would say vast
+- [14:45] majority of the phone calls I have
+- [14:46] during the week, MCP is brought up. Uh,
+- [14:49] you know, so a lot of enterprises
+- [14:51] interacting with claude seem to lean on
+- [14:53] this. Can you kind of explain sort of
+- [14:54] what that advantage is for you guys and
+- [14:56] and um and maybe for those that are
+- [14:58] unfamiliar sort of what MCP is and why
+- [15:00] it's so important? Yeah, absolutely. So
+- [15:02] MCP stands for the model context
+- [15:04] protocol. And I've been talking a bit
+- [15:06] about tools and you think about tools as
+- [15:09] things that can both do things for you.
+- [15:11] So uh if I have a tool that allows the
+- [15:14] model to go look at Salesforce and
+- [15:16] update a record in Salesforce that is
+- [15:19] like a tool that I gave it. Uh but it
+- [15:21] also can be used just to retrieve
+- [15:22] information. I talked about uh you know
+- [15:24] web search as being a tool to retrieve
+- [15:26] that information. You might have like a
+- [15:29] uh internal knowledge repository of your
+- [15:31] documents and you want to build a tool
+- [15:32] that allows claude to go and search
+- [15:34] those documents. The model context
+- [15:36] protocol I think of as like the USBC for
+- [15:40] integrations to get more context to
+- [15:43] applications that you're building or or
+- [15:45] claude um they need all of this context
+- [15:47] and they need all of these tools to
+- [15:50] build these agents and to build these
+- [15:51] workflows and before the model context
+- [15:54] protocol uh which is an open protocol
+- [15:56] that anthropic pioneered that is that
+- [15:58] sort of translation layer between what
+- [16:00] the tools are and what the application
+- [16:02] that you're trying to build uh to use
+- [16:04] those tools is um you would have to
+- [16:07] build point-to-point integrations. So if
+- [16:09] I wanted to sync in my documents, I
+- [16:12] wanted to sync in Salesforce data, I
+- [16:13] wanted to sync in uh you know
+- [16:16] information from my customer support
+- [16:17] repository, I as a company would need to
+- [16:20] build an integration between that
+- [16:22] knowledge repository and my application
+- [16:24] and I would need to build three
+- [16:25] different versions of them and then a
+- [16:27] different company wanting to do the same
+- [16:29] thing would need to go and build three
+- [16:30] different versions of those same
+- [16:32] integrations for themselves. But now
+- [16:34] with remote MCP what you can do is build
+- [16:38] uh the connectivity between those three
+- [16:41] applications and because it is an open
+- [16:43] source protocol now those applications
+- [16:46] those tools the prompts underlying how
+- [16:49] the integrations should work are now
+- [16:51] available for any other company to go
+- [16:53] and take and then implement into their
+- [16:55] system. So as long as there's an
+- [16:57] integration uh you know a remote MCP
+- [17:00] integration on the marketplace for you
+- [17:03] know Salesforce in your app now someone
+- [17:05] else can go and see that find it and say
+- [17:06] well I want to use that now and so it's
+- [17:08] really democratizing access to data and
+- [17:12] that's really really important as these
+- [17:14] agents and these systems workflows need
+- [17:17] access to valuable context and valuable
+- [17:19] tools to do things. it is providing a
+- [17:22] sort of sea of information, a sea of
+- [17:24] context available to any enterprise to
+- [17:26] now build those applications. So, it's
+- [17:28] been an incredibly important inflection
+- [17:30] point as I talked about earlier like
+- [17:32] what are the things that move us from
+- [17:35] just a simple chatbot to full agentic
+- [17:37] systems. It's model intelligence, tools,
+- [17:40] and access to products that wrap all of
+- [17:43] those things together. MCP has been an
+- [17:45] incredibly important inflection point in
+- [17:47] access to tools. Um, awesome, Scott. you
+- [17:49] know, just being conscious of time, um,
+- [17:51] I'd love to sort of end this
+- [17:53] conversation on sort of a
+- [17:54] forward-looking um, statement. Can you
+- [17:56] tell us a little bit about maybe what
+- [17:58] you're most excited about? We've kind of
+- [17:59] entered this new era of AI with agents
+- [18:02] and, um, autonomous systems that can,
+- [18:05] you know, operate for seven hours at a
+- [18:06] time. Uh, you know, what's next? And and
+- [18:09] I guess, you know, what keeps you up at
+- [18:10] night or or sort of, you know, what gets
+- [18:12] you excited to wake up and start working
+- [18:13] every day? You know, what are those
+- [18:14] things that you're really looking
+- [18:16] forward to over the next 6 to 12 months?
+- [18:18] Yeah, I think if you look at coding as
+- [18:21] the early example of early adopters who
+- [18:25] have a lot of agency to build the things
+- [18:27] that they want to build, I think you can
+- [18:29] start to see what the future looks like
+- [18:32] by seeing that coding is a little bit
+- [18:34] ahead of what the rest of the market
+- [18:37] might be ahead on. So you see things
+- [18:38] like clawed code get developed and and
+- [18:41] sort of shipped that is a full again a
+- [18:43] gentic system where you have like a
+- [18:46] software engineer running around writing
+- [18:48] a bunch of code analyzing the codebase.
+- [18:50] The same concepts I don't think have
+- [18:53] been deployed to the broader set of
+- [18:55] people outside of professional software
+- [18:56] engineers yet. And so I'm very excited
+- [18:59] for uh both building systems and
+- [19:03] building um software to become easier
+- [19:06] and more democratized for more people
+- [19:07] like me uh who I'm now building those
+- [19:10] production features making that more
+- [19:12] accessible to people who are not
+- [19:14] professional developers. But I think
+- [19:15] also taking the same concepts of these
+- [19:18] bologentic systems and helping
+- [19:21] non-technical people change the way that
+- [19:23] they think about their role by being
+- [19:25] able to make longer running uh agents
+- [19:29] that take the key parts of their process
+- [19:31] and allow them to act more as sort of
+- [19:33] collaborators or managers of a bunch of
+- [19:36] agents helping them do their work and
+- [19:39] expanding their professional skill set
+- [19:41] beyond where they currently are. I think
+- [19:44] that's one thing. I think once you go a
+- [19:46] little bit crazier and a little bit
+- [19:47] farther out, I think you just start to
+- [19:49] see like, well, you're now working with
+- [19:51] an agent who's kind of like one, you
+- [19:53] know, really capable person that you're
+- [19:55] kind of managing. What happens when
+- [19:57] you're managing an organization, right?
+- [19:59] What happens when you're managing an
+- [20:00] organization of agents? Uh, and and how
+- [20:03] can everyone be their own mini CPO or
+- [20:05] CEO? Uh, and I don't think that's too
+- [20:08] far away. Um, and so I I don't exactly
+- [20:10] know what that looks like, but that's
+- [20:12] the kind of thing that I wake up and I'm
+- [20:13] I want to get there. You know, you've
+- [20:15] just made me really excited to go start
+- [20:17] using this stuff. Um, thank you so much
+- [20:19] everyone. Please round of applause for
+- [20:20] Scott from Anthropics. Scott White.
+- [20:22] Thank you. Thank you.

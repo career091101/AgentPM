@@ -1,0 +1,1570 @@
+---
+title: "Transcript: WQLzDDNEBGY"
+video_id: "WQLzDDNEBGY"
+video_url: "https://www.youtube.com/watch?v=WQLzDDNEBGY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:70:15"
+tags:
+  - "AI"
+  - "Agents"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: WQLzDDNEBGY
+
+- URL: https://www.youtube.com/watch?v=WQLzDDNEBGY
+- Retrieved at: 2025-12-30T11:11:38+09:00
+
+## Text
+
+- [00:01] [music]
+- [00:05] You have used chat GPT a 100 times. But
+- [00:08] have you ever wondered what actually is
+- [00:11] happening behind that one message you
+- [00:12] type? How it understands your intent,
+- [00:15] retrieves context and produced
+- [00:17] intelligent response in seconds. And
+- [00:20] that's the power of building an AI
+- [00:22] agent. A system that does not just reply
+- [00:25] but thinks, remembers and acts. In this
+- [00:28] course, we will be learning how to build
+- [00:30] that kind of intelligence step by step.
+- [00:32] We'll understand exactly how modern AI
+- [00:35] assistants work behind the scenes and
+- [00:37] more importantly how to create your own.
+- [00:41] We'll start with the fundamentals of
+- [00:42] what an AI agent really is. Then move on
+- [00:45] to setting up your environment, building
+- [00:48] your first agent, adding memory,
+- [00:50] connecting real world APIs, routing
+- [00:53] task, running parallel operations, and
+- [00:56] chaining prompts for complex reasoning.
+- [00:58] And by the end of this course, you won't
+- [01:00] just have a theoretical knowledge.
+- [01:02] You'll build a complete fully functional
+- [01:05] AI interview coach powered by Gemini
+- [01:08] capable of asking questions, analyzing
+- [01:10] answers, storing strengths and
+- [01:12] weaknesses which will be generating
+- [01:15] professional reports. This course is
+- [01:17] practical, hands-on and designed so that
+- [01:20] everyone with basic Python skills can
+- [01:22] follow along and create real AI systems.
+- [01:25] Now before that if you're interested in
+- [01:28] knowing about how generative AI works
+- [01:30] and want to take this knowledge to
+- [01:32] professional level there is a fantastic
+- [01:35] opportunity waiting for you. The applied
+- [01:37] generative AI specialization by Purdue
+- [01:40] University and simply learn is a live
+- [01:42] hands-on program where you can actually
+- [01:45] build real gen AI and agentic AI
+- [01:48] applications using tools like lang chain
+- [01:50] Azure AI studio and hugging face. It's a
+- [01:54] 16-week live online certification taught
+- [01:57] by industry experts and Perurdue faculty
+- [02:00] and you will get Purdue alumni
+- [02:01] association access for global
+- [02:03] networking. By the end, you'll have
+- [02:06] seven plus project under your belt from
+- [02:08] AI powered HR assistance to rag based on
+- [02:11] BI dashboards. So, if you're ready to
+- [02:13] turn your learning into real career
+- [02:16] edge, check out the link given in the
+- [02:17] description box below and in the pin
+- [02:19] comments and explore the program. Here's
+- [02:22] a quick quiz for you to answer before we
+- [02:24] start this course. What do you think an
+- [02:26] AI agent is? Is it a chatboard that
+- [02:29] talks? A program that can think, act,
+- [02:32] and use tools, a robot used in movies?
+- [02:36] Let us know your answers in the comment
+- [02:37] section below. Now, before we start
+- [02:39] coding, let's understand the most
+- [02:41] important question. What exactly is AI
+- [02:44] agent? An AI agent is a system that can
+- [02:48] understand input, think or reason, take
+- [02:51] actions, learn from interactions, and
+- [02:54] optionally remember things. Think of AI
+- [02:57] agent like a smart assistant that does
+- [02:59] not just chat. It does tasks. It can
+- [03:02] call an API, fetch weather, understand
+- [03:05] context, plan steps, analyze response,
+- [03:08] and make decisions. Examples of some of
+- [03:11] the AI agents you're already using is
+- [03:14] Siri or Google Assistants, Chat GBT with
+- [03:16] tools, recommendation systems, customer
+- [03:20] supports,
+- [03:21] and also automated interview trainers.
+- [03:24] In this course, we are going to build
+- [03:26] agents like these but customized for
+- [03:29] your cases. AI agents are the next big
+- [03:32] wave in automation and productivity.
+- [03:35] They matter because they can automate
+- [03:37] repetitive task, make intelligent
+- [03:39] decisions, work across applications,
+- [03:42] perform multi-step reasoning, and also
+- [03:45] personalize your responses. They also
+- [03:48] can handle real world workflows.
+- [03:50] Companies now rely on agents for
+- [03:53] customer service, interview screening,
+- [03:55] scheduling, task, finance automation,
+- [03:57] and more. Learning this skills gives you
+- [04:00] a huge edge in 2025 and beyond. Now
+- [04:04] don't worry, you don't need to be an AI
+- [04:06] expert. All you need is a basic Python
+- [04:09] knowledge, basic understanding of
+- [04:11] installing libraries, an interest in
+- [04:13] building AI tools, a free Google Gemini
+- [04:16] API key, which I'll tell you how to get
+- [04:18] it. And that's all. If you know how to
+- [04:21] write simple Python functions, you are
+- [04:23] ready. Now, before starting, make sure
+- [04:25] that you have Python installed, which is
+- [04:28] at least 3.7 plus version. So for that,
+- [04:30] just visit python.org. og.d downloads
+- [04:33] and you can download the latest version
+- [04:35] from here. Now how to check Python is
+- [04:38] installed. It's Windows R cmd and you
+- [04:42] can just give Python and a version
+- [04:44] should be printed. Here mine is 3.13.7.
+- [04:48] Anything which is 3.7 plus version works
+- [04:50] good for this. So after this you have to
+- [04:53] install few of the Python libraries. So
+- [04:55] first let's just install open AI itself.
+- [04:58] So it is pip install open AI. So it
+- [05:03] installs all the packages. Next we have
+- [05:06] to install some generalpurpose libraries
+- [05:08] which make HTTP request. PIP install
+- [05:11] request. So let's move ahead with that.
+- [05:13] PIP install request and next we are
+- [05:17] using and fast API. So for that we need
+- [05:20] to install flask. So again pip install
+- [05:25] flask and also fast API. So pip install
+- [05:30] fast API. Next we also need env
+- [05:35] storing your key in which we have to
+- [05:38] read it in the program side. So for that
+- [05:40] we have to install python.env.
+- [05:44] So for that pip install dot python.env.
+- [05:50] Okay there was an error. So it's env. So
+- [05:54] since I have already installed this,
+- [05:56] it's already showing requirements
+- [05:58] already satisfied. Git is also necessary
+- [06:00] for version control and cloning
+- [06:02] repositories. Now you can download git
+- [06:05] from gcm.com.
+- [06:08] So this is the interface and here you
+- [06:10] can see installed for Windows. You can
+- [06:12] just go ahead and download it. Make sure
+- [06:14] which windows is portable with yours.
+- [06:16] Just click on it and download. Now how
+- [06:19] to check if the git is installed? The
+- [06:21] same way as we checked for Python, we
+- [06:24] just need get version. So here you can
+- [06:27] see it is 2.52.0
+- [06:29] Windows.1.
+- [06:31] So this means that your git is also
+- [06:33] ready to go. Now to use open AI models,
+- [06:36] you also need an API key. So for that
+- [06:39] you can use open AI or even Google. Now
+- [06:42] to get the API key, you can just visit
+- [06:45] platform.openai.com.
+- [06:47] Create your account here. Enter your
+- [06:50] email ID. give a good password and
+- [06:52] you'll get this interface. Now here on
+- [06:55] the left side you can see API key. So
+- [06:57] you can just click on that and there is
+- [06:59] a plus button which you can click on and
+- [07:01] you can create your key. So you can give
+- [07:04] a name and a project as required and
+- [07:07] create a secret key. So let's create a
+- [07:10] key for now. Let's say I'm using a test
+- [07:13] and the project saying default and
+- [07:15] create a secret key. Here you get an
+- [07:17] option of copy. So just copy it. Now
+- [07:20] whatever project I will be doing I'll be
+- [07:23] storing into a folder. So let's create a
+- [07:26] folder. So you can go to the core and
+- [07:29] create a new folder. Let's say default
+- [07:33] or test. And the first thing that you
+- [07:36] have to create is a env folder to store
+- [07:40] your API key. So envir
+- [07:46] open it. Now e folders are used to store
+- [07:49] specifically your API keys. So you can
+- [07:52] give API encaps is equal to and paste
+- [07:56] the key that you have copied from open
+- [07:59] AAI. So let's just save this and then
+- [08:01] next again I have to create a py folder.
+- [08:05] So let's just say it is app py which is
+- [08:08] a python. So and yes and let's give a
+- [08:13] simple program. So firstly the first
+- [08:15] step is you have to import function
+- [08:17] load. So from env import load env. So
+- [08:25] this will be common for all kinds of
+- [08:27] programs since you have to load it from
+- [08:29] av function. Next let's import openai
+- [08:32] since that is the one which you are
+- [08:34] going for. For Google also we'll use a
+- [08:37] different programming style. We'll come
+- [08:39] back to that open. This imports all the
+- [08:42] OpenAI Python SDK. So we can make API
+- [08:45] calls and then we have import OS which
+- [08:49] imports OS modules to access environment
+- [08:52] variables from the system. And now to
+- [08:54] load environmental variables from ENV
+- [08:57] file. We have another code. Let's say we
+- [09:00] have load env. And this reads the env
+- [09:05] file and loads all the variables. Next
+- [09:07] we have to get the open AI key from the
+- [09:09] environment. So let's just say open AI
+- [09:13] API key which is equal to OS get env.
+- [09:19] Now here you have to input the folder
+- [09:21] name that you have given. Not exactly
+- [09:23] the folder name but we have given API
+- [09:26] key is equal to so and so key. So input
+- [09:29] that this fetches the value of the open
+- [09:31] API key from the environment. Next we
+- [09:34] have to use this key on our open AI API
+- [09:38] call. So for that it is open AI do API
+- [09:42] key is equal to open AI API key. Now
+- [09:48] this sets the open API key so that the
+- [09:51] SDK can automate requests. Now let's
+- [09:53] just see an example of API call to open
+- [09:56] AI. So for that we need response is
+- [10:00] equal to openi dot completion dot create
+- [10:05] and let's just give engine is equal to
+- [10:10] text three and then let's give prompt
+- [10:13] also prompt is equal to say this is a
+- [10:19] test let's give the maximum number of
+- [10:22] tokens also
+- [10:23] >> just
+- [10:25] >> now here response is equal to openi dot
+- [10:27] completion dotcreate. This calls the
+- [10:30] open API to generate a text compilation.
+- [10:32] Now which text compilation it is
+- [10:35] specified in the engine which is
+- [10:36] text003.
+- [10:38] You can use anything as you wish. And
+- [10:40] then I'm giving a prompt which is say
+- [10:42] this is a test and the tokens also have
+- [10:45] been mentioned which is five. So this
+- [10:47] limits the output to maximum five tokens
+- [10:50] or words. Let's just at last print the
+- [10:54] responses. So it'll be print response
+- [10:57] dot choice. Now this prints the
+- [10:59] resulting text response from the AI
+- [11:02] removing extra spaces. Now after getting
+- [11:04] your API code or a key, optionally you
+- [11:07] can download any cloud or local
+- [11:10] developmental tools. For instance, we
+- [11:12] have Docker. If you are deploying your
+- [11:14] AI agent in a containerized environment,
+- [11:17] you will need Docker installed. Apart
+- [11:19] from Docker, you can use even Hiokco,
+- [11:22] AWS, Google Cloud. Now let's move on to
+- [11:25] setting up the project directory. If you
+- [11:28] have already not created a project
+- [11:30] directory, the structure the files are
+- [11:32] discussed. Firstly, we'll need av folder
+- [11:35] which contains the open API key. And
+- [11:38] then we have to have a Python folder
+- [11:40] which runs the main Python script. So
+- [11:43] here it is app. py. And next, optionally
+- [11:47] we can create a text folder which stores
+- [11:50] all the requirements. So you can just
+- [11:52] run the requirements and you will have
+- [11:54] all the Python libraries or other
+- [11:56] libraries which are required. And next
+- [11:59] again optionally you will be needing a
+- [12:01] readme.md which is a project
+- [12:04] documentation. So on the go you can
+- [12:06] store what are the changes done in the
+- [12:08] program or any information about the
+- [12:11] project can be stored in that too. Since
+- [12:13] the API key from OpenAI requires money.
+- [12:16] Here's another way out which Google API
+- [12:19] key which is free. So let's see how to
+- [12:21] get the key. So first you have to visit
+- [12:24] ai.google devmini API and create your
+- [12:28] folder with just an email and a
+- [12:30] password. So here you can see the option
+- [12:33] of get API key. So you can just click on
+- [12:35] it and here you can see my previous
+- [12:38] keys. If you want to create a new one
+- [12:40] again here's an option of create API
+- [12:42] key. So you can just click on that name
+- [12:44] your project and chat vote create a key
+- [12:49] and you'll be creating a key. Now how do
+- [12:51] you copy that? Just copy API key option
+- [12:54] is there. Now make sure for your
+- [12:56] security purposes do not share your API
+- [12:59] key with others since they can misuse
+- [13:01] it. Now the next step is to copy this
+- [13:03] API key. Go back to the ENV folder and
+- [13:07] you can see open API key. Just change
+- [13:09] that. Now from here you can just copy
+- [13:11] your API key. Go back to the folder
+- [13:14] where av was created and you can just
+- [13:17] give Gemini API
+- [13:21] key is equal to and paste the key over
+- [13:24] there and you can just paste the key
+- [13:27] over there and save it. So this key will
+- [13:30] be used throughout your coding program
+- [13:32] since we can call small small functions
+- [13:34] to access this particular key. Now after
+- [13:37] getting the key the next important part
+- [13:39] is to install Google generative AI. So
+- [13:42] for that just go open command prompt and
+- [13:46] open your folder over there. So it's cd
+- [13:49] the location and enter. So it'll
+- [13:52] navigate to the folder and then here the
+- [13:55] code to install Google generative AI
+- [13:57] will be pip install Google generate AI
+- [14:02] and I'm giving a particular version with
+- [14:04] this. You can go with the latest version
+- [14:08] and just run the code. And as you can
+- [14:10] see, it'll get installed. Now to check
+- [14:13] really if this is installed, just run
+- [14:16] pip show Google generative AI. And here
+- [14:21] you can see the version, name, summary,
+- [14:24] homepage, author, etc. All the details
+- [14:27] should be displayed. Now let's just
+- [14:28] start with coding a simple program. So
+- [14:32] where will the main program go? It's
+- [14:34] app. py. So let's start with importing
+- [14:37] Google generative AI. So for that we
+- [14:40] have import Google dot generative AI as
+- [14:46] gen AI. Next we have to import env. So
+- [14:51] we have from env import load env. And
+- [14:57] next obviously we have to import the OS.
+- [15:00] So import OS. Next we have to load the
+- [15:04] key. So for that we have load env. Now
+- [15:08] we have to get the value of the API. So
+- [15:11] for that we have API is equal to OS get
+- [15:15] envy.
+- [15:17] What is the name that we have given API
+- [15:19] key. So this retrieves the value of
+- [15:21] Gemini API key from the environment
+- [15:24] variables. And let's give let's say
+- [15:26] suppose there is no key available we'll
+- [15:28] have a backup repeat. So let's say if we
+- [15:31] don't find any key we should have a
+- [15:32] backup of printing an error message. So
+- [15:35] for that if not API key if there is no
+- [15:40] value in the API key let's say print an
+- [15:43] error message. So what should be the
+- [15:45] error message? Let's print error no API
+- [15:49] key found and let's exist
+- [15:53] and let exist from this group exit loop.
+- [15:56] So this loop prints an error message if
+- [15:58] there is no API key and exit the loop.
+- [16:01] So after this loop, let's configure
+- [16:04] Gemini API client service. So for that
+- [16:07] we have Genai dot configure API key
+- [16:13] which will be equal to API. Now the next
+- [16:16] step is to create a generative model. So
+- [16:19] for that we can use model is equal to
+- [16:22] gen AI dot generative model and let's
+- [16:28] give a name of the model. So we'll use
+- [16:31] models from Germany the 2.5 flash which
+- [16:36] is the latest one. So this is specifying
+- [16:39] which model to call. Next we have to
+- [16:42] define a function which is chat with
+- [16:46] agent and the values which is going in
+- [16:50] is the prompt that we given. So we'll
+- [16:53] use a try loop for this. So response
+- [16:58] is equal to model dot generate content
+- [17:04] and the prompt. Now this generates
+- [17:08] a content from the given prompt itself
+- [17:10] and then let's just print the given
+- [17:13] information AI response and let's see
+- [17:17] what the output will be which is
+- [17:20] response dot text. Now for the except
+- [17:23] loop we have except exception as e here
+- [17:29] if there is no such kind of information
+- [17:32] let's just print error and at last let's
+- [17:35] call the main function which is if name
+- [17:40] is equal to is equal to main slash then
+- [17:44] we say we have to call the function what
+- [17:47] was the function name chat with agent
+- [17:50] and let's give a prompt
+- [17:52] Let's say tell me a funny joke AI joke
+- [17:57] in one sentence. So this will be the
+- [18:00] prompt that we are giving in and the AI
+- [18:04] will go through the sentence and give
+- [18:05] the information as provided. This is the
+- [18:07] main block where we are calling the
+- [18:10] function. So let's just run this code.
+- [18:13] How do you run this code? Again, Python
+- [18:16] the folder name py. So there is an
+- [18:18] invalid syntax of the main block. So
+- [18:22] let's just rectify that. So I had missed
+- [18:25] out on the double dash. So I have fixed
+- [18:28] it. So let's go back and say it's
+- [18:31] showing an error. So we'll check that
+- [18:33] out. So let's just run the program
+- [18:36] again. Now what was a prompt that was
+- [18:39] given? It was to ask or tell a funny
+- [18:42] joke about AI. So the reply was why did
+- [18:45] the AI break up with the calculator? it
+- [18:47] felt like it was just adding to its
+- [18:49] problems. That's is the prompt given by
+- [18:52] the generative AI Google model. So make
+- [18:55] sure to check with the code if there is
+- [18:57] any error coming just copy and paste the
+- [18:59] error in chat GBT or Gemini. So it'll
+- [19:02] give you what are the corrections to do
+- [19:04] and why the error occurred. So this way
+- [19:06] you will have an understanding of what
+- [19:08] the problem actually is and how to sort
+- [19:10] it out. Now that our first agent is
+- [19:12] working, let's go one step deeper. An AI
+- [19:15] agent becomes powerful when it can fetch
+- [19:18] real world data like weather, time,
+- [19:20] calendar, events, emails or even stock
+- [19:23] prices. Here you will learn how to make
+- [19:25] an external API call from our agent. Now
+- [19:28] the first step is to install requests
+- [19:32] which we have already done. So let's
+- [19:34] just install it again. pip install
+- [19:38] requests. The request library allows
+- [19:40] Python programs to communicate with any
+- [19:43] external API whether it's Google
+- [19:45] calendar weather or even custom back
+- [19:47] end. Now to run this program let's
+- [19:50] create another folder of Python in the
+- [19:53] same folder itself and let's say API
+- [19:57] tools and yes you have to change this
+- [20:01] and open it. Now let's start with the
+- [20:03] coding part. Let's say we have to
+- [20:05] develop a program which prints the date
+- [20:07] and time. So for that the first part
+- [20:10] would be to import requests and next
+- [20:13] let's define a function get current
+- [20:16] time. So for getting the time we are
+- [20:18] defining this. Let's not pass any
+- [20:21] parameters now. And then we'll give a
+- [20:24] URL where the actual time has been
+- [20:27] present. So here's the link where the
+- [20:31] actual time will be running which is a
+- [20:34] API. this API endpoint that returns the
+- [20:38] current time for the Asia or Kolkata
+- [20:41] time zone. Next we have to send a HTTP
+- [20:44] request. So for that we have response is
+- [20:47] equal to request to get URL. So from the
+- [20:51] URL we are getting the time which is the
+- [20:54] response basically. And then another
+- [20:57] response that we want is the response
+- [20:59] dot raise for status. Now this raises an
+- [21:05] error if an API calling fails. Suppose
+- [21:08] if they're not able to get the time, it
+- [21:10] shows an error message. Next we have
+- [21:13] data which is equal to response file.
+- [21:17] Now this converts the JSON file into a
+- [21:20] Python program or even a dictionary and
+- [21:23] then we are returning return data
+- [21:27] date time. So this is the coding for
+- [21:31] retrieving the date and time. Now here's
+- [21:33] an important thing. Never run this file
+- [21:35] directly. This function sends an HTTP
+- [21:38] get request to public time API, receives
+- [21:41] a JSON response and extract the current
+- [21:44] time. This is how your agent will
+- [21:47] interact with any real world data
+- [21:49] sources. So next let's just create
+- [21:51] another file to integrate the API to
+- [21:54] call the agent. So again let's just
+- [21:57] create a folder which says agent API
+- [22:01] call again it should be a python so py
+- [22:06] and yes now after creating the agent API
+- [22:10] call here's a small program that I've
+- [22:12] integrated with it the first sentence
+- [22:14] again it's importing Google Gemini AI
+- [22:17] then I've imported env
+- [22:20] imported OS this and all is a normal
+- [22:23] thing that you have to do in every
+- [22:24] Python folders and then we have from API
+- [22:28] tools import get current time. This
+- [22:30] imports our custom function that fetches
+- [22:32] the realtime data. Next we have loadenv
+- [22:37] which again loads all variables stored
+- [22:40] inside the env file into the
+- [22:42] environment. And then we have generative
+- [22:45] AI configuration which configures Gemini
+- [22:48] API using the key stored in the
+- [22:50] environment. Next we have model. Again
+- [22:53] I'm mentioning the same model which is
+- [22:55] Gemini 2.5 flash and then we are
+- [22:58] defining an agent with API with the
+- [23:01] prompt in it. So this is a function that
+- [23:04] processes user input. For example, if
+- [23:06] the user asks call API tool. Next we
+- [23:10] have if time in prompt do. [snorts] So
+- [23:14] here what happens? This checks if the
+- [23:16] word time appears in the user's question
+- [23:18] which is a very case-sensitive process.
+- [23:21] And then we have given real time is
+- [23:23] equal to get current time which is calls
+- [23:26] our external API function to get
+- [23:28] realtime data and the prompt also we are
+- [23:31] breaking that down which is equal to
+- [23:33] prompt plus is equal to realtime data
+- [23:37] current time is equal to real time etc.
+- [23:39] So this adds the fetch time into the
+- [23:42] prompt sends extra context to the AI
+- [23:44] model. And then we have response is
+- [23:47] equal to model dot generate content
+- [23:50] within the prompt. So this calls Gemini
+- [23:52] to generate a response based on the
+- [23:55] updated prompt. And then we have return
+- [23:57] response.ext which returns the text
+- [24:00] response back to the user. And lastly we
+- [24:03] have the main module which ensures this
+- [24:06] code runs only if the prompt is
+- [24:08] provided. I have given a prerequisite
+- [24:11] code or a prompt which is what is the
+- [24:13] current time right now. So this will be
+- [24:15] a prompt. You can change the prompt to
+- [24:17] whatever you want. Now in this entire
+- [24:20] date and time here's what we did. If the
+- [24:23] user message contains the word time, we
+- [24:26] call an external API which is get
+- [24:28] current time and we insert the real
+- [24:31] world data into the AI model prompt.
+- [24:34] Then we have the agent now which
+- [24:36] responds using both reasoning and
+- [24:38] external information. So let's just if
+- [24:41] you run this part of the program which
+- [24:43] is API call which is agent API call you
+- [24:47] will be able to see the current date and
+- [24:49] time as per your prompt. Up until now,
+- [24:53] our agent has been completely stateless.
+- [24:56] It responds to each prompt independently
+- [24:58] and forgets everything after it replies.
+- [25:01] Real intelligent agents need memory.
+- [25:04] Memory allows an agent to remember user
+- [25:07] preferences, recall the past tasks,
+- [25:10] track multiple step activities,
+- [25:12] understand long-term context. Next,
+- [25:15] we'll build a long-term memory for our
+- [25:18] agent. Short-term memory exists only
+- [25:21] during a single run and resets when the
+- [25:24] program stops. Whereas long-term memory
+- [25:26] persists permanently, meaning the agent
+- [25:29] can read about you and remember it
+- [25:32] across multiple sessions. We will
+- [25:34] implement long-term persistent memory
+- [25:37] that saves information even after you
+- [25:40] choose the app. Our memory system will
+- [25:43] use a very simple and reliable
+- [25:45] structure. The first one is a JSON file.
+- [25:49] So as you can see we have agent memory
+- [25:51] JSON which stores all the past
+- [25:54] conversation. Next we have a memory
+- [25:56] manager that reads and writes to this
+- [25:59] file. The agent retrieves the last three
+- [26:01] to five interaction for context. Memory
+- [26:04] grows over time just like a human brain.
+- [26:07] Now firstly we need to create three
+- [26:09] Python files which is memory manager
+- [26:13] which stores and retrieves memory. Then
+- [26:16] we have agent with memory where AI agent
+- [26:20] logic which is uses memory. And next we
+- [26:23] have test memory agent py. This runs the
+- [26:27] entire conversation. Now we'll see
+- [26:29] what's there in memory manager. py. Now
+- [26:33] you can consider this as a brain
+- [26:35] storage. The first purpose is this file
+- [26:38] stores and retrieves long-term memory.
+- [26:41] It has code to create a memory file
+- [26:44] which is agent memory.json.
+- [26:46] And it also has a function to save the
+- [26:49] interactions. It also has the functions
+- [26:52] to load the past memory. Now this file
+- [26:55] exists because the memory should be
+- [26:57] independent from the agent logic. This
+- [26:59] file is like the database of your agent.
+- [27:03] So firstly we have import JSON here. So
+- [27:06] imports all the JSON module to read and
+- [27:08] write.
+- [27:09] Next again basic is import OS imports
+- [27:12] the OS module to interact with files.
+- [27:15] And then we have the memory file. This
+- [27:18] is the name of the JSON file where the
+- [27:20] agent memory will be stored in it. And
+- [27:22] next to create memory file if not exists
+- [27:25] we have another code. So if not OS.ath
+- [27:29] exist memory file with open memory file,
+- [27:33] W as FJSON dump history. So here what
+- [27:37] happens is it checks if the memory file
+- [27:40] already exists. If not creates a file in
+- [27:44] write mode and then writes an empty JSON
+- [27:48] structure. So here in JSON dump it
+- [27:51] initializes a list where memory records
+- [27:53] will be stored. So if you don't have any
+- [27:55] JSON files existing in the folder where
+- [27:58] your program is, it creates an empty
+- [28:00] JSON folder. So in future you can store
+- [28:03] all the interactions in it. Next, we
+- [28:06] have a function which is save to memory
+- [28:08] which takes the input as user text and
+- [28:11] agent response. And we have save users
+- [28:13] plus agent message into a long-term
+- [28:15] memory. Now this memory is getting saved
+- [28:18] into the JSON program. Now this function
+- [28:21] is getting stored into the JSON file
+- [28:23] which we have created or it creates by
+- [28:26] default. Next we have with open memory
+- [28:28] file, R as F. This opens memory file in
+- [28:32] read mode. And then we have data is
+- [28:34] equal to JSON do.load. This loads the
+- [28:38] JSON content into the Python dictionary.
+- [28:41] Next we have data history.append which
+- [28:43] is adds a new memory entry which is a
+- [28:46] dictionary or a history list. Similarly
+- [28:49] we have users with user text which
+- [28:52] stores the user's input and agent which
+- [28:54] stores the agent response. Now if you
+- [28:57] come down here again we have with open
+- [28:59] memory file again w as f JSON dump data
+- [29:03] f indent 4. So this opens the memory
+- [29:06] file again writes the updated memory
+- [29:09] back file and printed. Next here again
+- [29:13] we have another function which is get
+- [29:15] recent memory. This retrieves the last
+- [29:18] memory. Again this with open memory
+- [29:21] file. This opens a memory file. Read
+- [29:23] existing data. loads the JSON file into
+- [29:27] a Python dictionary and then returns the
+- [29:29] last n conversations which has happened
+- [29:32] recently. Now let's just save this and
+- [29:35] move on to the second file which is
+- [29:38] agent with memory. Again here we have
+- [29:41] all the basic libraries which is Google
+- [29:44] generative AI as geni dnvos and then we
+- [29:48] have memory manager also we have
+- [29:51] imported save to memory and get recent
+- [29:53] memory which we have mentioned in the
+- [29:55] previous one. Now this file is the
+- [29:58] thinking unit. This file defines how
+- [30:01] agent uses memory to answer the users.
+- [30:04] This fetches the code the last n
+- [30:07] memories from the memory manager py and
+- [30:10] also the code that combines memory plus
+- [30:13] users question. It also has a code that
+- [30:16] sends the enhanced prompt to Gemini.
+- [30:18] Then it also stores new memory again
+- [30:21] through memory manager py. The
+- [30:24] information that it processes will be
+- [30:26] past memory, current user questions, the
+- [30:29] AI responses and even the updated
+- [30:32] memory. And talking about why this file,
+- [30:35] it's because the agent needs a clear
+- [30:37] place that handles reasoning, context
+- [30:40] building, prompt creation. This file is
+- [30:44] like the AI brain. So as I mentioned all
+- [30:47] the basic libraries are imported. So
+- [30:50] here we have load.env and API key and
+- [30:54] also genici configure API key. This is
+- [30:57] also very normal as you have already
+- [31:00] executed this. And then model also 2.5
+- [31:03] flash it's the same. Now coming here we
+- [31:06] have a function which is EI agent with
+- [31:08] memory with user input and the past
+- [31:11] memory is equal to get recent memory. So
+- [31:14] here it defines a function that takes
+- [31:16] the user's new message load the last
+- [31:18] three interactions which is past memory
+- [31:21] and then it retrieves the last stored
+- [31:24] conversation entries from the memory and
+- [31:27] then we have memory text is equal to
+- [31:29] with double quotes. This creates an
+- [31:31] empty string to store formatted memory
+- [31:34] text. And then we have from item in past
+- [31:37] memory. Memory text is equal to plus f
+- [31:40] user item user agent item agent. So this
+- [31:44] loops through each memory entry adds
+- [31:47] both user message and agent reply into
+- [31:50] the memory text. Now again continuing we
+- [31:54] have final prompt is equal to f. You are
+- [31:57] an AI agent with memory. Here is your
+- [32:00] past memory. So this insert a
+- [32:02] conversation history to the prompt. This
+- [32:04] will be the starting of your
+- [32:06] conversation. And then we are moving on
+- [32:08] to now answer a new user message. So
+- [32:11] this inserts a new user question into
+- [32:14] the prompt. Now here we have response
+- [32:16] model.generate content which is combined
+- [32:19] prompt to Gemini to generate a response
+- [32:22] and then we have answer is equal to
+- [32:24] response.ext. This extracts the text
+- [32:26] output from the model. And then to save
+- [32:30] both user query and AI answer, we have
+- [32:33] save to memory user input, answer which
+- [32:36] is stores the latest user messages and
+- [32:39] AI response. This updates the JSON
+- [32:42] memory file. So the agent remembers it
+- [32:44] later and then we have to return the
+- [32:46] answer. Now talking about the third file
+- [32:49] which is text memory agent. So let's
+- [32:52] open that also. So this I would call it
+- [32:54] a chat interface. This is a file you
+- [32:57] actually run. So what and all it
+- [33:00] contains? It contains a loop asking the
+- [33:02] user for the input. It passes the input
+- [33:05] through the agent with memory dot which
+- [33:07] will be called in the program and then
+- [33:09] it displays the agent response. It also
+- [33:12] keeps the chat going. And what
+- [33:15] information does this handle? It handles
+- [33:18] user messages, AI responses. Now here no
+- [33:22] memory is stored. It delegates storage
+- [33:25] to other files such as the JSON file
+- [33:28] which will be created. Now this file
+- [33:31] exists because students needs clean
+- [33:33] simple entry point to test the agent.
+- [33:36] From agent with memory import AI agent
+- [33:39] with memory. Now let's start with the
+- [33:41] programming part. So here you can see
+- [33:44] from agent with memory import AI agent
+- [33:46] memory. This imports the main functions
+- [33:48] that handles memory, builds the prompt
+- [33:51] and generates a response and saves the
+- [33:54] conversation. Next, we have print AI
+- [33:57] agent with memory text exit to quit.
+- [34:00] Here it displays a welcome message and
+- [34:03] instruct the user how to quit the
+- [34:05] program. Then we are entering into a
+- [34:07] while loop. This starts an infinite loop
+- [34:10] to keep the chat running. And then we
+- [34:12] have user message which takes a input
+- [34:15] from the user every time they are typing
+- [34:17] something. Now there is a if loop. If
+- [34:20] there is a message called exit, it
+- [34:22] breaks the loop directly. Or else it
+- [34:25] will be reply is equal to AI agent with
+- [34:27] memory user message. So this sentence
+- [34:30] basically sends a user message to the AI
+- [34:33] agent with memory and the agent responds
+- [34:36] and updates the memory. And lastly we
+- [34:39] have to print. So we have print the AI
+- [34:42] response on the screen. Now let's see
+- [34:44] the back how did we do this entire three
+- [34:47] files. So we have user then we did test
+- [34:50] memory agent. py which will send a
+- [34:53] message to agent with memory. py
+- [34:56] combines the memory plus the question
+- [34:58] and requests the pass memory which is
+- [35:01] the memory manager. py provides the
+- [35:04] memory returns the pass memory to agent
+- [35:07] with memory. py which will be generating
+- [35:10] reply plus saves new memory. Again this
+- [35:13] memory will be sent back to the user
+- [35:16] which is called in the test memory agent
+- [35:19] py where the answer will be displayed.
+- [35:22] So let's just run this folder which is
+- [35:25] test memory agent and see what the
+- [35:27] output looks like. So here firstly I'm
+- [35:30] navigating to the folder and then we
+- [35:33] have python what was the name agent test
+- [35:37] memory agent. So we have test memory
+- [35:42] agent. So let's just run this. So you
+- [35:45] can see AI agent with memory type exist
+- [35:49] quit. So let's just say hi my name is
+- [35:54] Susan. So here the agent replies saying
+- [35:57] okay Susan I'll remember that your name
+- [36:00] is Susan. Let's say my age is 32. So it
+- [36:05] is remembering the age as well. And
+- [36:07] let's say I work in the domain let's say
+- [36:12] data science. Now it is remembering
+- [36:14] three information. Let's ask if the AI
+- [36:18] actually remembers. So let's just ask
+- [36:21] what my name, age and domain that I work
+- [36:26] in. So as you can see your name is
+- [36:29] Susan. You are 32 years old. You work in
+- [36:32] a domain of data science. So it actually
+- [36:34] remembers our past three conversation.
+- [36:37] You can increase the number of
+- [36:38] conversation as per your wish. Up until
+- [36:41] now our agent can remember information,
+- [36:44] call external APIs and generate the
+- [36:46] responses. Now we are adding three
+- [36:48] powerful capabilities. The first one
+- [36:51] being prompt chaining. Second one being
+- [36:54] routing and third we have parallel task
+- [36:57] execution. These techniques are what
+- [36:59] real world AI assistants use to break
+- [37:02] down task. pick the right tools and work
+- [37:05] more efficiently. These techniques are
+- [37:07] what real world AI assistants use to
+- [37:10] break down task, pick the right tools
+- [37:13] and work more efficiently. In prompt
+- [37:15] chaining, the agent doesn't try to do
+- [37:18] everything in one go. Instead, it
+- [37:20] performs multiple steps and uses of the
+- [37:22] output of one step as input the next
+- [37:25] one. Now, let's take an example. Now if
+- [37:29] you input explain Python decorators and
+- [37:33] give an example without prompt chaining
+- [37:36] agent tries to answer everything at once
+- [37:39] often which is messy. With prompt
+- [37:41] chaining agent breaks into clear steps
+- [37:43] which is understanding the concept
+- [37:46] explaining it generate an example code
+- [37:48] and even summarizing it. So let's write
+- [37:51] a code for this. So again starting with
+- [37:53] the basic import variables which is
+- [37:56] Google generative AI as genai we have
+- [38:00] env to read the API key and also import
+- [38:03] OS and again we are loading the envi
+- [38:08] key specifying the model. This is basic
+- [38:11] again repetitive in all other programs
+- [38:14] as well. Now here we have a function
+- [38:17] which is dfch chain prompt which defines
+- [38:20] the function named change that performs
+- [38:22] prompt chaining and then for step one we
+- [38:25] have step one is equal to model dot
+- [38:28] generate contact f break this task into
+- [38:30] clear steps. So here it calls the gemini
+- [38:33] to perform the step one of chaining and
+- [38:36] here f break this task into clear steps.
+- [38:39] This is AI returns a stepby-step
+- [38:41] breakdown of the user's task. So we are
+- [38:44] asking the Gemini directly what parts
+- [38:46] can this question be divided into. So
+- [38:48] it'll give us an answer and next we have
+- [38:51] print ln step breakdown one. So this
+- [38:54] prints the breakdown so that user can
+- [38:56] see how Gemini structures the task and
+- [39:00] then we moving on we have step two which
+- [39:03] is step two is equal to model.generate
+- [39:06] content. Now here this will call Gemini
+- [39:09] again for step two and AI produces a
+- [39:12] detailed explanation using the step
+- [39:14] breakdown and we are also printing the
+- [39:17] detailed explanation of the step two.
+- [39:20] Again coming to step three we are asking
+- [39:23] the agent for final summary. So here
+- [39:26] again we are calling the Gemini AI
+- [39:29] returns beginner friendly summary and
+- [39:32] also we are printing that final summary.
+- [39:35] This is return step three. The final
+- [39:38] results will be returned in this step.
+- [39:41] Now again main part of the program which
+- [39:43] calls and runs the entire program which
+- [39:45] checks if the file being executed
+- [39:47] directly or imported. And then we have
+- [39:49] chain explain Python decorators with an
+- [39:52] example which runs the chaining function
+- [39:55] on an example prompt. So here we have
+- [39:57] already given the prompt of explain
+- [40:00] Python decorators with an example. So
+- [40:03] you can change this as per your wish and
+- [40:05] check if it follows all the steps. So
+- [40:08] let's just run this folder and see what
+- [40:10] will be the results. So again how do you
+- [40:12] run the program? Same way Python the
+- [40:16] folder name is prompt chain agent py. So
+- [40:21] we had asked a question of what is a
+- [40:23] decorators. So we need three-step
+- [40:25] explanation with the summary. So let's
+- [40:28] see if that is given here or not. So
+- [40:30] here you can see step breakdown. Let's
+- [40:33] break down the explanation of Python
+- [40:34] decorators into clear easy to follow
+- [40:37] steps. We have step one introduction of
+- [40:39] what decorators are. Then we have
+- [40:41] prerequests which is understanding the
+- [40:43] building blocks which is the second
+- [40:45] step. And we have the third one which is
+- [40:47] building a simple decorator. And then
+- [40:50] followed [snorts] by fourth step which
+- [40:52] is applying a synthetic sugar. 5 6 7 it
+- [40:57] is divided into multiple steps which is
+- [40:59] handling argument and return values and
+- [41:02] then sixth one should be real world
+- [41:05] examples real world use cases and as I
+- [41:10] remember the last part should be summary
+- [41:12] so let's just check with that so here
+- [41:16] you go there is a summary provided on
+- [41:18] entire Python decorators
+- [41:20] so much of information we have acquired
+- [41:23] due to chaining process Now coming to
+- [41:25] the next powerful capabilities which is
+- [41:28] routing. Routing means that the agent
+- [41:31] decide which tool or method to be used
+- [41:33] based on the user query. This is how
+- [41:36] chat GPT decides whether to use the
+- [41:38] browser, use Python, use memory or even
+- [41:42] use image features and it also
+- [41:45] specializes in using specific tools. We
+- [41:48] built a simple router using Python
+- [41:50] keyword detections. So let's go through
+- [41:53] the code. The first one again basic
+- [41:56] things which are imported which is
+- [41:58] Google generative AI envoss.
+- [42:01] The extra thing which is imported is API
+- [42:04] tools which we are getting get current
+- [42:06] time. So as as you remember we had done
+- [42:09] a program which gets the date and time
+- [42:11] we are using that here. And then
+- [42:13] continuing with load envi configure the
+- [42:18] model that Gemini should use. Coming
+- [42:21] down here we have a function which is
+- [42:24] router agent which passes through query.
+- [42:27] So here this function that routters the
+- [42:31] query to a current logic and then we
+- [42:34] have if time in query dot lower which is
+- [42:37] if the user's message contains the word
+- [42:40] time. This will call a function to fetch
+- [42:44] realtime data and returns it. Then we
+- [42:47] have another if statement if explain in
+- [42:50] the query which is if the message
+- [42:52] contains the explain then it asks Gemini
+- [42:54] to generate a simple explanation of it
+- [42:57] and then it returns the explanation
+- [42:59] back. Then we have default fallback
+- [43:02] which is response is equal to
+- [43:04] model.generate content query.ext. If no
+- [43:07] condition is matched then just ask
+- [43:10] Gemini normally. Then we have returned
+- [43:12] the responses and again we are calling
+- [43:14] the function and the input that we are
+- [43:17] giving is what is the time now which is
+- [43:20] a question and then we have also given
+- [43:23] another input which is explain
+- [43:25] recursion. So let's just test both the
+- [43:28] outputs. So here again python what is
+- [43:32] the folder name by router agent py let's
+- [43:36] just run it. The two question are what
+- [43:38] is the time now and what is recursion.
+- [43:42] So let's see if it answers. So here you
+- [43:44] go. The current time is so and so it is
+- [43:47] already displayed and then you have
+- [43:49] recursion. So imagine you have a task
+- [43:52] instead of doing the whole thing
+- [43:53] yourself you figure out how a tiny part
+- [43:56] etc. This is all regarding recursion. In
+- [44:00] short, recursion is a function of
+- [44:03] instructions that solves a problem by
+- [44:05] calling itself with a simpler version
+- [44:07] etc etc. So we've got an answer for both
+- [44:10] the question. So according to the
+- [44:12] keywords that you are using in your
+- [44:14] prompts, it generates the kind of
+- [44:17] answers which is suitable as per your
+- [44:19] prompt. Now the next thing we are going
+- [44:21] to see is a parallel task execution.
+- [44:24] Gemini supports running multiple prompts
+- [44:26] at once which is parallelization speeds
+- [44:30] up the agent. If the agent needs to do
+- [44:32] four tasks do them at the same time
+- [44:34] instead of one by one. Now let's put
+- [44:37] this on code. Firstly starting with the
+- [44:41] normal importing Google generative AI as
+- [44:44] genai from env import the envos.
+- [44:49] The only thing which is imported
+- [44:50] separately which is import concurrent
+- [44:54] futures which allows running the prompts
+- [44:57] parallelly and then normally we have
+- [44:59] load.env and this is regarding the
+- [45:02] Gemini API key geni.configure API key OS
+- [45:06] etc. We have also mentioned the model
+- [45:09] name. Now here we have a function which
+- [45:12] defines the sends or returns only text
+- [45:16] output and then we have generates
+- [45:18] content and returns only text output.
+- [45:21] It's basically uh one text at a time but
+- [45:25] with four routers. So yeah we are
+- [45:27] entering one prompt which asks the
+- [45:30] Gemini to generate the answer for it.
+- [45:32] And then we have the prompts. Prompts
+- [45:34] such as summarize Python into 200 words.
+- [45:37] This is for execution part. Explain AI
+- [45:40] agents in simple terms. Give a
+- [45:42] motivational quote. Write one in line
+- [45:46] definition of API. So these are list of
+- [45:49] tasks that will be executed parallelly.
+- [45:51] Again if you come down here we have with
+- [45:54] concurrent dot futures thread pool
+- [45:56] executor as executor. Here it creates a
+- [45:59] thread pool to run multiple operations
+- [46:02] simultaneously. And then we have results
+- [46:05] is equal to list executor dom map ask
+- [46:08] gemini prompts. So here maps each prompt
+- [46:11] to ask gemini function and execute them
+- [46:14] in parallel. All the results are
+- [46:16] collected into a list format. And here
+- [46:20] for the result we have for rn results
+- [46:22] loops through each a generated response
+- [46:25] and then we are printing the same
+- [46:27] response in a loop. So let's again run
+- [46:30] this and see if all the four prompts
+- [46:33] will be able to get it at one go. Now
+- [46:36] let's just run this program. Now here
+- [46:39] you go. All the four prompts which is
+- [46:41] answered within a few seconds. Instead
+- [46:43] of writing one prompt and waiting for
+- [46:46] the answer, writing another prompt,
+- [46:47] waiting for the answer, you can get all
+- [46:49] the four prompts answer at one go. With
+- [46:52] these additions, your agent can break
+- [46:55] down the task, choose the correct tool
+- [46:57] and even execute multiple task at the
+- [47:00] same time. Also, it will respond
+- [47:02] professionally and intelligently. These
+- [47:05] advanced capabilities bring your agent
+- [47:07] much closer to real production level AI
+- [47:10] assistance. Now, with all the knowledge
+- [47:13] that you have gained, let's build a
+- [47:14] end-to-end project. Let's say that you
+- [47:17] have to build a complete AI interview
+- [47:19] coach using Gemini and Python.
+- [47:22] This assistance will act like a real
+- [47:24] interviewer. Ask question, analyze your
+- [47:26] response, store your weaknesses and
+- [47:29] generate a professionalized feedback.
+- [47:31] Let's name the project as EI interview
+- [47:34] preparation coach. Mainly let's have a
+- [47:36] project structure for this. So again as
+- [47:40] we did in the start create a folder with
+- [47:43] all the necessity files required.
+- [47:46] Starting with I already have here envi
+- [47:50] API key. We have roles py which has list
+- [47:54] of different roles and store the
+- [47:56] keyword. And then we have interview
+- [47:59] agent py which is a main agentic logic.
+- [48:03] And then we have memory manager. py
+- [48:06] again it's a long-term strength or even
+- [48:08] a weakness memory. Followed by we have
+- [48:11] tools. py which is tools like time
+- [48:14] scoring keyboard check etc. Then we have
+- [48:18] router. py which routes task analyzes
+- [48:21] questions and feedbacks and finally we
+- [48:24] have mock interview py which runs a full
+- [48:27] interview session and then by default
+- [48:31] interview memory.json which stores the
+- [48:34] interview history. So let's get started
+- [48:36] with the final project. First let's
+- [48:38] start with creating folders and files.
+- [48:40] So you can just create such files and
+- [48:43] then as usual env file load your Gemini
+- [48:47] API key. The second file should be
+- [48:50] roles. py. Here in this Python code, you
+- [48:53] can enter the domain and couple of
+- [48:55] domains for initially providing the
+- [48:57] chatboard with options of which
+- [49:00] interview you want to practice for. So
+- [49:02] here you can see interview roles. I've
+- [49:04] given it software engineer, Python
+- [49:06] developer, data analyst, machine
+- [49:08] learning, cyber security, cloud
+- [49:10] engineer, project manager, digital
+- [49:12] marketer, and HR manager. And I've also
+- [49:15] included some of the key words related
+- [49:17] to these roles which is OP, DSA,
+- [49:20] algorithms so that the AI would be able
+- [49:22] to fetch questions based on these topics
+- [49:25] or even keywords. Now coming here you
+- [49:27] see a function to let the user pick a
+- [49:29] role and then we have a greeting message
+- [49:32] saying welcome AI interactive coach and
+- [49:34] it also say print the role to begin your
+- [49:37] mock interview with. Now we have all the
+- [49:40] roles in the list here interview roles.
+- [49:44] So here dot key. So we are going to list
+- [49:46] all the interview roles that we have
+- [49:48] created. And then for looping we have
+- [49:50] for i, r in enumerate roles. Start is
+- [49:54] equal to one. This here loops over all
+- [49:57] roles with numbering starting from 1 to
+- [49:59] 9 since I've given nine different
+- [50:02] positions or interviews. And then we
+- [50:04] have print f. So it prints each role
+- [50:07] number and a title case. So this will
+- [50:10] print nine HR manager eight digital
+- [50:14] marketer such like that. And then we
+- [50:16] have choice int input enter a number of
+- [50:19] roles. So if you enter 1 to 9 any number
+- [50:21] it fetches question based on the
+- [50:23] specific domain that you have been
+- [50:26] choosing. And then we have ro is equal
+- [50:28] to roles choice minus one. This maps the
+- [50:31] number to a correct role in the list.
+- [50:34] And then we have print and then we have
+- [50:37] print you select. So displays the
+- [50:39] selected role to the user. So whichever
+- [50:41] role that you have selected it will
+- [50:42] print back again. And then we have
+- [50:45] return role interview roles which is
+- [50:47] returns both the role name and its meta
+- [50:49] data. So here is about the roles which
+- [50:52] is the basic starting. Now since the
+- [50:55] initial part moving on to the next one
+- [50:57] will be tools. py. So here you have df
+- [51:01] keyword math score and comma keywords.
+- [51:03] This is a function to count how many
+- [51:06] expected keywords appear in the user's
+- [51:08] answer. And then we have scores the
+- [51:12] user's answers based on the keyword
+- [51:14] presence. More keywords is equal to
+- [51:15] higher score. And then we have answer is
+- [51:18] equal to answer dot lower which converts
+- [51:21] the user's answers to lower case for
+- [51:23] case sensitive matching. And then we
+- [51:26] have match is equal to sum one for k in
+- [51:29] keywords. If k dot lower in answers then
+- [51:32] return match. So here it returns the
+- [51:35] number of matched keywords. So if you
+- [51:38] give an answer to a particular question
+- [51:40] it has a pre-built keyword. So it
+- [51:42] matches the entire keywords and gives
+- [51:44] you a score. Next here we have function
+- [51:47] to generate score. Keyword score,
+- [51:49] difficult which is equal to medium. Here
+- [51:52] converts the keyword count into final
+- [51:54] score out of 10. Now difficult slightly
+- [51:57] adjusts the scoring curve. And then we
+- [51:59] have base is equal to keyword score into
+- [52:02] two. Each keywords adds two points to
+- [52:05] the base score. And if difficult is
+- [52:08] equal to is equal to hard base minus is
+- [52:10] equal to 1. And else if difficult is
+- [52:13] equal to is equal to easy base plus is
+- [52:16] equal to 1. So if the interview
+- [52:18] difficult is hard, we reduce the score
+- [52:21] slightly. If the difficult is easy, give
+- [52:24] a small bonus. Now to keep the score
+- [52:27] between 1 and zero we have return max
+- [52:29] one and minimum 10 comma base and moving
+- [52:33] on we have another function which
+- [52:36] suggests which important points the
+- [52:38] users have missed. So for that we have
+- [52:41] answer is equal to answer dot lower
+- [52:43] which is lower case the answer for
+- [52:45] uniform matching and then we have
+- [52:47] missing is equal to k for k in keywords
+- [52:50] if k dot lower not in answer. So this
+- [52:53] creates a list of keywords that did not
+- [52:55] appear in the answer. And then we have
+- [52:59] missing list is equal to an empty array
+- [53:01] dot join missing return f you have
+- [53:04] missed these important concepts which is
+- [53:07] the missing list. Try including them
+- [53:09] next time. So here it gives a feedback
+- [53:12] saying these are the concepts that you
+- [53:13] have missed and try to include them in
+- [53:16] your next answers. The next function
+- [53:18] will be def classify strength or
+- [53:21] weakness score. So this classifies
+- [53:24] performance strategy category based on
+- [53:26] the score. We have basic rule to
+- [53:29] classify users performance. If the score
+- [53:31] is greater than or equal to 7, we are
+- [53:34] returning strength or we are returning
+- [53:36] weakness. So basically we are judging
+- [53:38] based on the answer if your score is a
+- [53:41] strong one or a weak one. Next coming to
+- [53:44] here the last function we have the fsh
+- [53:47] short feedback. This gives a short
+- [53:50] qualitative comment which is simple
+- [53:53] quantitative feedback based on the
+- [53:54] score. So here we if it is greater than
+- [53:57] or equal to 8 we are providing a
+- [53:59] feedback excellent answer with strong
+- [54:01] and clarity and then if it is between 6
+- [54:04] to 8 we are good answer but can be more
+- [54:07] detailed. And then we have decent
+- [54:09] attempt but lacking key concepts. And if
+- [54:12] it is less than four, we have weak
+- [54:14] answer need major improvement. So this
+- [54:17] is the feedback. Next we have memory
+- [54:20] manager. py. So let's open that. Here
+- [54:25] long-term strength or even weakness
+- [54:27] memory is adapted. So starting with
+- [54:30] again basics of the basics are important
+- [54:34] which is JSON. Since it is a memory py
+- [54:37] you need a JSON format. So we are
+- [54:39] importing JSON's well and good in the
+- [54:41] first place itself and then as usual we
+- [54:43] have operating system which is import OS
+- [54:46] and then we are loading in a memory file
+- [54:48] which is interview memory.json
+- [54:51] which is a repeat which is a file name
+- [54:54] where all interview memories will be
+- [54:56] stored. Now to create the memory file if
+- [55:00] not exist this checks if the memory
+- [55:02] already exists or not. If not it creates
+- [55:05] an empty
+- [55:08] file which is interviewed memory dojson
+- [55:11] and the history is empty strength is
+- [55:13] empty and weakness is also empty as per
+- [55:17] now. So as we have the conversations or
+- [55:19] as the interview takes place the memory
+- [55:22] will be stored in the JSON format. Now
+- [55:24] coming on to the next function which is
+- [55:26] df save interview record role comma
+- [55:29] question user answer feedback. This is
+- [55:32] save one Q&A record to long-term memory
+- [55:35] with open memory file R as F data is
+- [55:38] equal to JSON.load F. This entire loop
+- [55:42] loads the existing memory file contains
+- [55:44] into the Python dictionary. And then we
+- [55:47] have data which is history, role,
+- [55:49] question, answer and feedback. These are
+- [55:51] the things that can be stored in the
+- [55:53] JSON format. So this adds a new
+- [55:56] interview entry into the type of the
+- [55:58] interview conducted, the questions asked
+- [56:00] by the AI, the user's response, the full
+- [56:03] feedback which is score, strength or
+- [56:06] even weaknesses. Then coming down we
+- [56:08] have with open memory file WSF JSON dot
+- [56:13] dump data f indent is equal to 4. Here
+- [56:17] this saves the updated memory back to
+- [56:19] the disk with formatting. Next we have
+- [56:22] another function which is save strength
+- [56:25] and we have with open memory file R data
+- [56:28] is equal to JSON.load F data strength
+- [56:31] dot append strength with open memory
+- [56:33] file W as F and we have JSON dod dump
+- [56:36] data F indent is equal to four. So again
+- [56:39] here it loads the current memory into
+- [56:41] the dictionary adds new strength data
+- [56:44] into the strength list and also writes
+- [56:46] updated strength back to the file.
+- [56:48] Similarly we have save weaknesses. It's
+- [56:50] the same code just it is replaced with
+- [56:53] the weakness function or weakness
+- [56:56] information. And lastly we have function
+- [56:59] which is get memory summary which is
+- [57:01] retrieves memory for personalized
+- [57:04] reports with open memory file R as f
+- [57:07] return JSON.load. This returns an entire
+- [57:10] memory including history strength and
+- [57:13] weaknesses. Now let's code interview dot
+- [57:17] interview agent. py again here also
+- [57:20] basic imported functions which is google
+- [57:23] generative AI environment system and
+- [57:27] then we have from memory manager import
+- [57:29] save interview record save strength save
+- [57:31] weaknesses from tools import so many
+- [57:34] tools so here all the memory manager all
+- [57:38] the classes that we have defined or even
+- [57:40] functions we which we have to use it in
+- [57:42] the entire program we can call it here
+- [57:45] and then we have load env V which is
+- [57:48] basically about the API key. These three
+- [57:51] are again a constant in every program.
+- [57:54] So here we have function which is
+- [57:56] generate questions role prompt is equal
+- [57:58] to f. So here Gemini generates one
+- [58:02] interview question removes extra spaces
+- [58:05] and returns. Next we are moving into
+- [58:07] function two which is analyze users
+- [58:09] answer to the interview question. Here
+- [58:11] again we have role specific important
+- [58:14] function and then we have data which is
+- [58:17] difficult, easy, medium or hard and we
+- [58:20] have different scores. So first score
+- [58:23] user answer based on the keyword matches
+- [58:25] convert keyword. These are all we have
+- [58:27] already performed. We are just calling
+- [58:29] it. So again as you can see provide a
+- [58:32] short analysis until here it is called
+- [58:34] then you are an HR expert. This is a
+- [58:37] prompt given for the Gemini and senior
+- [58:39] interviewer. Evaluate this answer for
+- [58:42] the role of whichever the person has
+- [58:44] selected. The candidate answer the final
+- [58:47] score is also been printed. Strength,
+- [58:49] weaknesses based on the keywords and
+- [58:51] also provide a short analysis which is
+- [58:53] two to three lines which will be printed
+- [58:56] after the interview is done. One
+- [58:58] sentence on how to recruit will be
+- [59:00] received this answer. One actionable
+- [59:02] improvement trip. Make feedback helpful
+- [59:05] but not harsh. So these are the
+- [59:07] instructions or the prompt that we are
+- [59:09] giving to Gemini. Then we have AI
+- [59:12] feedback is equal to model generate
+- [59:14] content analysis prompt dot text.
+- [59:18] Then we have to store the strengths and
+- [59:20] weaknesses in long-term memory which has
+- [59:22] already been created in a previous
+- [59:24] program. So here we have store strong
+- [59:27] answers, store weak answers etc. So you
+- [59:31] can go through this code and we have
+- [59:33] what are the return values? We have
+- [59:35] score improvements, brief feedback and
+- [59:37] AI feedback all via Gemini. So these
+- [59:41] things will be returned back to us. Next
+- [59:44] we have router. py. So let's just check
+- [59:47] what and all goes into router. py. Here
+- [59:50] we have from interview agent import
+- [59:52] generative question analysis answer. So
+- [59:55] this import question generation plus
+- [59:57] answer analysis. Then we have to import
+- [60:00] functions to save interview results plus
+- [60:03] load the summary. So we have a function
+- [60:05] for that and we have a class which is
+- [60:08] interview router. This is a main class
+- [60:10] that controls the interview flow of it.
+- [60:13] And then we have a class under class we
+- [60:15] have the first function which is in
+- [60:17] itself ro and ro data. So here the
+- [60:20] selected interview role example if you
+- [60:23] select software engineer etc. it will be
+- [60:25] stored here or asked here or even looped
+- [60:28] here. We have role as metadata and
+- [60:31] keywords will be selected counter for
+- [60:33] how many questions totally. So as you
+- [60:35] can see here we have from interview
+- [60:37] agent import generate question and
+- [60:39] analyze answer and then we have from
+- [60:42] memory manager import save interview
+- [60:45] record get memory summary. So here this
+- [60:48] imports question generator plus answer
+- [60:50] analysis and also here it import
+- [60:53] functions to save interview results plus
+- [60:55] load memory summary. Then we have
+- [60:58] initialized an entire class which is the
+- [61:00] main class and under which we have first
+- [61:03] function which is init. Here the
+- [61:06] selected interview role for example if
+- [61:08] you select a software engineer or data
+- [61:10] science or something like that will be
+- [61:12] iterated. Next we have role which is
+- [61:15] metadata keywords etc. Next we have
+- [61:19] counter for how many questions total
+- [61:21] interview questions truly only when
+- [61:23] waiting for stores and active interview
+- [61:26] questions. So here this is basically the
+- [61:29] limits that we are setting suppose the
+- [61:31] amount of question maximum answers
+- [61:33] waiting for the answer current question
+- [61:35] etc. So for this we have initialized in
+- [61:38] init ro and we have passed the
+- [61:40] parameters of self ro and role data.
+- [61:43] Next here we have the next function
+- [61:45] which is df next step which passes the
+- [61:48] parameters of self user input is equal
+- [61:50] to none. And here we start the interview
+- [61:53] question which is ask first question. So
+- [61:55] here we have given if self dot question
+- [61:57] count is equal to is equal to zero
+- [61:59] return self dot ask new question. So if
+- [62:02] the waiting for an answer it analyzes it
+- [62:06] basically and then for the second
+- [62:08] question again we have if self dot
+- [62:10] waiting for an answer and user input
+- [62:12] return self dot process answer user
+- [62:15] input it repeats until the maximum
+- [62:17] number of questions. So we have three
+- [62:20] questions so I have iterated it thrice
+- [62:22] and then lastly we have return self dot
+- [62:24] final report. So which returns the final
+- [62:27] summary. Next we have one more function
+- [62:29] which is def ask new question where we
+- [62:33] have self.t dot current question is
+- [62:35] equal to generate question self ro here
+- [62:37] it generates interview questions from
+- [62:39] gemini and it increases the question
+- [62:42] count and this is the waiting for a
+- [62:45] user's response this returns the
+- [62:47] structured data so front end or displays
+- [62:49] knows what's happening so now here you
+- [62:51] can see we have return type question
+- [62:53] text self current question so this tells
+- [62:56] UI this this is the question and this
+- [62:59] question text itself now next we have
+- [63:02] our other functions under the class
+- [63:04] which is process answer which the
+- [63:06] parameters are self and user answers. So
+- [63:10] under this we have self dot waiting for
+- [63:12] answer is equal to false. So if we
+- [63:14] receive the answer no longer waiting and
+- [63:16] for analyzing answers return scores
+- [63:19] missing keywords AI feedback etc. We
+- [63:21] have feedback is equal to analyze answer
+- [63:23] we are calling self roll user answer and
+- [63:26] self roll data. Now to save this record
+- [63:28] in long-term memory again we have save
+- [63:31] interview record which are the records
+- [63:33] that should be saved. It is ro current
+- [63:35] question user answer and the feedback.
+- [63:39] Now coming here we have return. We are
+- [63:41] returning type analysis score feedback
+- [63:44] and a brief feedback also improvements
+- [63:47] and AI feedback. Now this indicates
+- [63:50] analysis feedback, numerical score which
+- [63:52] is 1 to 10 and we have short hint like
+- [63:55] feedback missing keyword suggestion and
+- [63:58] also detail critique generated by
+- [64:00] Gemini. All these will be returned back.
+- [64:03] Now here's the last function which is DF
+- [64:05] final report memory is equal to get
+- [64:07] memory summary here long allterm memory
+- [64:10] return structure summary and then again
+- [64:14] return type will be final project total
+- [64:17] questions strengths weaknesses and a
+- [64:19] message interview completed review your
+- [64:21] performance summary below this will be
+- [64:24] signaling the end of the interview how
+- [64:26] many questions were asked showing the
+- [64:28] last five strength and showing the last
+- [64:30] five weaknesses also so this is what how
+- [64:33] router py will be there and the last one
+- [64:37] we have mock interview py so here
+- [64:40] starting with from roles import choose
+- [64:43] role this is import the role sector
+- [64:45] which shows the available roles plus
+- [64:47] returns the user's choice and then we
+- [64:49] have from router import interview router
+- [64:52] this imports the interview controller
+- [64:54] that manages the entire Q&A flow coming
+- [64:58] we have the first function which is df
+- [65:00] run interview and it brings AI interview
+- [65:03] coach with some is equal to sign. Now
+- [65:06] here it asks the user to choose the
+- [65:08] interviewer role. So we have role comma
+- [65:10] ro data is equal to choose role. So
+- [65:12] whatever role we are choosing it will be
+- [65:14] stored here. So next we have to
+- [65:17] initialize the interview flow manager.
+- [65:20] So here we have router is equal to
+- [65:22] interview router ro, role data and after
+- [65:25] that we have print starting the
+- [65:27] interview. So this loops continues
+- [65:29] asking questions until the interview
+- [65:31] ends. Now coming on to the while true
+- [65:34] loop. We have while true step is equal
+- [65:36] to router dot next step. This is the
+- [65:39] case one where the system is asking a
+- [65:42] question and in that question if step
+- [65:44] type is equal to is equal to question
+- [65:46] print question router question dot count
+- [65:50] is to step text and answer is the input
+- [65:54] your answer. So here it displays the
+- [65:56] question gets the candidate answer and
+- [65:58] process the answers through the router
+- [66:00] and next we have analysis is equal to
+- [66:02] router dot next step answer. Here it
+- [66:05] gets the candidates answer and process
+- [66:07] the answer through the router. Now to
+- [66:10] display scoring plus feedback we have
+- [66:12] print feedback analysis quick feedback
+- [66:15] missing points AI feedback and analysis
+- [66:18] on the AI feedback. Now next we have
+- [66:21] interview is completed which is case two
+- [66:24] which is in else if. So here you can see
+- [66:27] step type final report print final
+- [66:29] interview report and then we have print
+- [66:32] f total questions answered step total
+- [66:35] questions and print your strength if
+- [66:37] strength and then print else it is print
+- [66:41] no strength recorded yet. So basically
+- [66:43] here we are printing the strength
+- [66:45] summary and when we move down here we
+- [66:47] are printing the weakness summary and
+- [66:49] this is the final closing message which
+- [66:51] is print n step message print just is
+- [66:55] equal to symbol and break from the loop.
+- [66:57] Now again this is run the interview if
+- [67:00] executed directly itself. So and then we
+- [67:03] run the interview. So this loop will be
+- [67:06] executed when we call this function. Now
+- [67:09] let's just run this code and see the
+- [67:12] output. So again copy and paste the
+- [67:16] location. So then copy and paste the
+- [67:18] location in cmd so that it navigates to
+- [67:21] the folder and then here run the python
+- [67:25] code which is python mock interview
+- [67:30] py.
+- [67:32] So here you can see it is printed the
+- [67:34] message of AI interview coach which is
+- [67:36] welcome to the AI interview coach.
+- [67:38] Choose a role begin your mock
+- [67:40] interviews. So we have software
+- [67:42] engineer, Python developer, data
+- [67:44] analyst, machine learning engineer. You
+- [67:47] can add as per your knowledge. So let me
+- [67:50] go with three which is data analyst. So
+- [67:54] you have selected data analyst starting
+- [67:55] the interview. What is my first
+- [67:57] question? Imagine you are tasked with
+- [67:59] investigation a sudden unexplained drop
+- [68:02] in a key business metric. Walk me
+- [68:04] through the process for identifying the
+- [68:07] root cause and preparing your findings.
+- [68:09] So this is a practical question. So you
+- [68:12] can answer as a interviewer ask you what
+- [68:15] are the procedures that you might
+- [68:16] follow. So here I have given an answer
+- [68:19] of I would start by verifying the data
+- [68:22] accuracy then quickly narrowing down
+- [68:24] whether the drop is due to internal
+- [68:26] changes or external factors focusing
+- [68:28] only on the area showing unusual
+- [68:30] patterns. after isolation the most
+- [68:33] likely cause I would prepare a concise
+- [68:35] summary of insights and recommendations
+- [68:38] for the team. So this will be my answer.
+- [68:40] Let's just enter it. So here's my
+- [68:43] feedback. The score is 1 out of 10. And
+- [68:46] the quick feedback will be a weak
+- [68:48] answer. Needs major improvement. What
+- [68:50] are the missing points? You missed these
+- [68:52] important concepts such as SQL, Excel,
+- [68:55] PowerBI, Pandas, visualization. Try
+- [68:58] including them next time. And here's an
+- [69:01] AI feedback. Here are evaluations of
+- [69:04] candidate answer. So this is an AI
+- [69:07] feedback. And you can continue with the
+- [69:10] second questions which will be walk me
+- [69:12] through your typical process when you
+- [69:14] receive a new analytical request from a
+- [69:16] business stakeholder from initializing,
+- [69:19] understanding, presenting your findings.
+- [69:21] So this entire program will be helpful
+- [69:23] for your interview process. It's a chat
+- [69:26] board that you have built in with the
+- [69:28] help of Gemini. Congratulations on
+- [69:30] completing this AI agent course. You
+- [69:33] have learned how to build an intelligent
+- [69:35] system that can think, remember, call
+- [69:38] APIs, analyze response, and even conduct
+- [69:40] mock interviews. With the foundation you
+- [69:43] have built here, you can now start
+- [69:45] creating a personal AI assistants,
+- [69:47] automation workflows, interview boards,
+- [69:51] customer service agents, educational
+- [69:53] tutors, productive boosters, and even
+- [69:56] multi- aent systems and ton of other
+- [69:59] projects. If you want to go deeper, try
+- [70:01] extending the project with features like
+- [70:03] voice input, UI dashboards, and
+- [70:06] connecting it to cloud services. For
+- [70:08] more such videos, do subscribe to
+- [70:10] SimplyLearn and make sure to like this
+- [70:12] video. Until next time, keep learning
+- [70:15] with Simply Learn.

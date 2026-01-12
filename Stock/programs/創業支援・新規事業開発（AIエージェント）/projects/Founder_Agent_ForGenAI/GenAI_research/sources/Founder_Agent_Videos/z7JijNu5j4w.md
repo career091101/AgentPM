@@ -1,0 +1,894 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=z7JijNu5j4w"
+video_id: "z7JijNu5j4w"
+video_url: "https://www.youtube.com/watch?v=z7JijNu5j4w"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=z7JijNu5j4w
+  - Retrieved at: 2025-12-30T16:45:13+09:00
+  - [00:06] Nice moves.
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=z7JijNu5j4w"
+  - "- Retrieved at: 2025-12-30T16:45:13+09:00"
+  - "- [00:11] yeah. So, this was I think when we"
+  - "- [00:16] started talking about this panel, I"
+  - "- [00:18] didn't even realize how much work you've"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: z7JijNu5j4w
+
+- URL: https://www.youtube.com/watch?v=z7JijNu5j4w
+- Retrieved at: 2025-12-30T16:45:13+09:00
+
+## Text
+
+- [00:06] Nice moves.
+- [00:07] >> Oh, thank you. Um,
+- [00:11] yeah. So, this was I think when we
+- [00:16] started talking about this panel, I
+- [00:18] didn't even realize how much work you've
+- [00:21] been doing on the Agentic Cloud. I think
+- [00:23] it's sort of if it works, nothing
+- [00:25] breaks. You don't hear about it. Um, but
+- [00:28] so I guess let's start with that. You
+- [00:32] were talking about the building blocks.
+- [00:34] I think if people aren't building
+- [00:37] >> cloud-based agents, they may not know
+- [00:39] about everything that's out there to
+- [00:41] build on. So, so what are the building
+- [00:43] blocks that people in the audience could
+- [00:45] use right now?
+- [00:46] >> Sure. Sure. So, there's two paths. If
+- [00:48] you want to go code first and uh you
+- [00:51] know you want to really get into the
+- [00:53] nuts and bolts of building um agents uh
+- [00:56] you can take a path through like agent
+- [00:57] development kit and more fine grain
+- [01:00] control. This will give you like the
+- [01:02] observability, the debugging, the u you
+- [01:04] know tool management, tool creation, you
+- [01:07] know, kind of all of those things uh
+- [01:09] bound together in a nice little package
+- [01:11] to help you get started if you're you're
+- [01:12] really after like refining and building
+- [01:16] agents themselves for the sake of
+- [01:18] getting value from those uh first coded
+- [01:20] agents. If you're more of like I want to
+- [01:21] build an app and the agent flow is like
+- [01:23] how I want to build an app, then we have
+- [01:25] a completely you know separate track
+- [01:28] which is Gemini Enterprise. And with
+- [01:30] Gemini Enterprise, you can basically
+- [01:31] just go into UI and you're like, "Hey, I
+- [01:34] want to uh look ahead my calendar this
+- [01:36] week and I want to prep for any
+- [01:38] meeting." This is obviously one that I
+- [01:40] use all the time [laughter] and I want
+- [01:41] to prep for any meetings that I have.
+- [01:43] And because it has connectors to your
+- [01:45] calendar, you know, built in because it
+- [01:47] has connectors to thirdparty data
+- [01:48] sources already built in like your CRM,
+- [01:50] you don't have to fuss with all like the
+- [01:52] data engineering and the data
+- [01:53] management. You can just define an
+- [01:55] objective for your agent. You have got
+- [01:56] the connectors built in. the agent now
+- [01:58] has context. It'll run ahead. It'll look
+- [02:01] at your calendar and it will uh and it
+- [02:03] it will actually propose like, hey,
+- [02:05] based on who you're meeting with and the
+- [02:06] nature of those meetings. Here's some
+- [02:08] ideas also for research. Uh here's some
+- [02:11] ideas for background that uh may be
+- [02:13] helpful to you in those meetings. So, uh
+- [02:16] really depends, you know, what you're
+- [02:17] building. You know, code first and agent
+- [02:20] kind of optimization ADK uh and you and
+- [02:23] that takes you down a path of also
+- [02:25] orchestrating multiple agents. And we'll
+- [02:26] get into I think probably agent, you
+- [02:28] know, commerce as well. If you're trying
+- [02:30] to build apps, you know, go to Gemini
+- [02:32] Enterprise and take the easy button.
+- [02:34] >> Yeah. Well, so this is commerce. I'm
+- [02:36] going to I'm going to pick that right
+- [02:38] up.
+- [02:39] I got really interested in this because
+- [02:42] in the last few months you've rolled out
+- [02:45] this new payments protocol that
+- [02:47] basically is allowing agents to maybe
+- [02:51] just put things in your cart for you to
+- [02:53] buy or maybe actually buy things for
+- [02:56] you. Really handing over the credit card
+- [02:58] to the to the intern so to speak. I
+- [03:01] guess h how do you build up to that?
+- [03:03] >> Yeah. So it really uh depends on your
+- [03:05] use case but there are there are kind of
+- [03:07] two main um paths for using this agent
+- [03:10] payments protocol and again you know
+- [03:11] we'll we'll think about this in like
+- [03:12] terms of a stack. So first we had to you
+- [03:14] know get agents up and running and give
+- [03:16] you the tools get agents up and running
+- [03:17] quickly. So that's the ADK. Then on top
+- [03:20] of that you know a lot of these
+- [03:22] workflows are going to be multiple
+- [03:23] agents. So we have the agentto agent
+- [03:24] protocol. And then like once you're
+- [03:26] transacting and you're interacting
+- [03:28] across multiple agents you want to
+- [03:29] exchange value. And so that's the agent
+- [03:31] payment protocol. And there are kind of
+- [03:32] two main use cases. One is I'm going to
+- [03:35] give you some parameters and I want you
+- [03:38] to go and like if if you're a sneaker
+- [03:40] head, you know, and you always miss out
+- [03:42] because the bots are getting you, you
+- [03:43] know, because they're getting to the
+- [03:44] sneaker sales before you're able to get
+- [03:46] to the sneaker sales, you can define an
+- [03:48] agent that says, you know, I I want this
+- [03:50] type of sneaker and kind of these cost
+- [03:52] parameters, these features, and when
+- [03:54] it's available, I want you to let me
+- [03:56] know. And that's what we call a mandate.
+- [03:57] you give this agent a mandate and it'll
+- [03:59] go out and it'll be uh monitoring the
+- [04:01] web and once that condition those
+- [04:03] guardrails are met it'll come and prompt
+- [04:05] you and then you have the choice to go
+- [04:07] and put something in the card and to
+- [04:08] finish the transaction. There's another
+- [04:10] one which is you know what uh I trust
+- [04:14] the agent to go and kind of curate all
+- [04:16] these things to put it in the cart and
+- [04:18] all I really want to do is finish the
+- [04:19] transaction and so this has kind of two
+- [04:22] levels of mandate there's like this
+- [04:23] initial you know set of guardrails and
+- [04:25] then there's a trust mandate and uh
+- [04:27] think of like travel you know going you
+- [04:30] want to go somewhere you want to have uh
+- [04:31] you know a bunch of options put together
+- [04:33] for uh airfare hotel experiences you're
+- [04:37] going to need multiple agents going out
+- [04:38] bringing those things back putting them
+- [04:40] into the cart and saying like, "Okay,
+- [04:41] it's time to check out." And then the
+- [04:43] human can just check out. One really
+- [04:45] important thing about this um as a
+- [04:47] technologist is that because we're in
+- [04:49] the early days of agents, um agent
+- [04:53] payment protocol is is like a whisper of
+- [04:55] the future, which is how do you automate
+- [04:57] the exchange of value? And this is
+- [04:59] relevant to, you know, if you're uh a
+- [05:02] startup and you're trying to advertise
+- [05:03] your inventory, you know, the future is
+- [05:06] you're going to be advertising inventory
+- [05:07] to a bunch of agents and you want to get
+- [05:09] those transactions done in as much an
+- [05:11] automated fashion as quickly as
+- [05:13] possible. And actually like human
+- [05:14] slowness and human weirdness about, you
+- [05:16] know, like they'll go and scan your
+- [05:18] website, they'll look at your inventory,
+- [05:19] they'll leave it, they'll abandon the
+- [05:20] cart, they'll do all this stuff. You
+- [05:22] know, in a way, we're also building, you
+- [05:24] know, one this kind of new commerce of
+- [05:25] the future and more of a consumer
+- [05:27] version, but also in a B2B scenario, you
+- [05:30] can imagine if you're like a large
+- [05:31] shipping company and you get millions of
+- [05:33] invoices every day, you want to be able
+- [05:35] to complete those transactions in the
+- [05:36] background, you know, receive invoices,
+- [05:38] pay valid invoices, flag ones that might
+- [05:40] be, you know, a little bit out of band,
+- [05:43] um, and do that in a highly scaled and
+- [05:44] automated fashion. So, you know, expect
+- [05:46] to see more of these multi-agent
+- [05:48] automated, you know, real-time
+- [05:50] fulfillment, but we had, you know, you
+- [05:52] had to start somewhere. So, you have to
+- [05:53] start with the foundations just like the
+- [05:54] web, you have to start with the
+- [05:55] protocols and the rules of engagement
+- [05:57] for how you uh transact.
+- [05:59] >> Yeah. So, I'm glad you, you know, I
+- [06:02] think this idea of the transition to a
+- [06:05] commerce is so interesting and so kind
+- [06:09] of fraught. I want to pick on one thing
+- [06:10] you said. You were sort of saying, "Oh,
+- [06:12] okay. If you're a sneaker head and those
+- [06:14] terrible bots keep snapping up the early
+- [06:17] sneakers,
+- [06:18] but like what you've built here is a bot
+- [06:21] for buying sneakers. [laughter]
+- [06:22] >> Yes. Yes. But it is a precision bot that
+- [06:24] you control and now you are on a level
+- [06:27] playing field with these aggregators
+- [06:30] that would go and take all this
+- [06:31] inventory and then they'd resell it and
+- [06:33] they jack the prices up. So in a way
+- [06:36] we're also you know fine-tuning these
+- [06:38] agent flows so that you can get more
+- [06:40] value out of you know a workflow and as
+- [06:43] an individual consumer or as a business
+- [06:45] maybe you don't have to pay those
+- [06:46] intermediaries anymore. Maybe now you
+- [06:48] can operate with like the power that
+- [06:50] only you know these kind of these
+- [06:52] aggregators had in the past.
+- [06:53] >> Yeah. I just I I think it kind of gets
+- [06:55] to the social complexity of it where as
+- [06:58] as we're in this world where maybe some
+- [07:00] people are using agents to buy things
+- [07:02] and other people are buying things on
+- [07:03] the internet. Maybe some people are
+- [07:05] still buying things in stores. Like how
+- [07:08] do you think about the perspective of
+- [07:12] the store where they say, you know, are
+- [07:14] they going to be glad when the agentic
+- [07:16] buyers show up
+- [07:17] >> eventually? Uh
+- [07:18] >> eventually. Yeah.
+- [07:19] >> And the reason I say that is because uh
+- [07:21] if how you know how many of us have been
+- [07:24] designing against like robots.ext text
+- [07:26] and like these you know automated bots
+- [07:28] that come into your uh website or into
+- [07:31] your business. Uh and in the past we
+- [07:33] might call these malware or we might
+- [07:35] call these you know cyber security
+- [07:37] incidents. So if you're the CISO or if
+- [07:39] you're the head of security for any
+- [07:40] organization of a reasonable size right
+- [07:42] now you have really had to flip your
+- [07:43] thinking from you know the the bots are
+- [07:46] bad to the bots are your customer. So
+- [07:49] that's why I say eventually because you
+- [07:51] know there right now and it's kind of
+- [07:52] like this AI play counterplay. So now
+- [07:55] the CISOs and there's a huge opportunity
+- [07:58] in cyber security where if you can build
+- [08:00] tools that can reason and and
+- [08:02] rationalize this kind of inbound swarm
+- [08:05] or flood of agents into your
+- [08:06] organization into your website into your
+- [08:08] uh commerce platforms then you're going
+- [08:11] to be able to take advantage of this
+- [08:12] kind of early mover. And if you aren't
+- [08:14] designing AI systems to kind of reason
+- [08:17] about these new behaviors, uh, then
+- [08:19] you're going to get left behind. And as
+- [08:20] a again, you know, as a technologist,
+- [08:22] one of the things I always think about
+- [08:23] is how do I get learning loops as
+- [08:25] quickly as possible. And so a lot of the
+- [08:27] leading edge companies right now,
+- [08:28] they're, you know, they're creating
+- [08:30] perimeters or they're creating kind of
+- [08:31] sandboxes. They're creating ways that
+- [08:33] they can characterize the flood of these
+- [08:35] agents coming in and they can learn how
+- [08:37] to instrument against it faster. So it's
+- [08:39] kind of like you have to let them in a
+- [08:40] little bit so you can get the learning
+- [08:41] curve. Um but a lot of that's being
+- [08:44] designed right now.
+- [08:45] >> Yeah. Yeah. So one of the alternate
+- [08:47] visions of this the other you know major
+- [08:50] uh agentic commerce idea is of course
+- [08:53] OpenAI's instant checkout where we're
+- [08:55] seeing these
+- [08:57] sort of company by company launching
+- [08:59] with Stripe. Okay. Now we're partnering
+- [09:01] with PayPal so PayPal can do it too.
+- [09:03] It's not the open protocol approach, but
+- [09:07] we're kind of back in the classic
+- [09:09] technologist struggle of okay, do we
+- [09:12] want the walled garden? Do we want the
+- [09:13] open protocol? I guess h how do you
+- [09:15] think about the consequences of that?
+- [09:17] >> Uh I bet on open. I mean, if you look at
+- [09:21] uh the foundations of the web, if you
+- [09:23] look at the foundations of commerce
+- [09:24] today, underneath all of them are
+- [09:26] standards and protocols that were built
+- [09:28] in communities. And that goes from you
+- [09:30] know how packets transit a network to
+- [09:32] how you trust that a site is exactly the
+- [09:34] site that it should be um to authorities
+- [09:37] around security uh starting with open is
+- [09:40] absolutely critical and that's act and
+- [09:42] that's why like in ADK that I mentioned
+- [09:44] earlier you can bring models other than
+- [09:46] Gemini you know into ADK and build
+- [09:48] agents using other people's models. uh
+- [09:51] this has been an approach that we have
+- [09:52] taken and you know I've been at Google
+- [09:53] cloud now for 11 or 12 years and you
+- [09:57] know since the very beginning it was
+- [09:59] kubernetes it was tensorflow it was open
+- [10:01] standards it's how do we give you as
+- [10:04] builders an option where if you want to
+- [10:06] compose and manage yourself you know you
+- [10:08] have these open versions and you have
+- [10:09] lots of choice if you want to take
+- [10:11] advantage of some of the managed bits
+- [10:13] you know we can do that for you as well
+- [10:15] and so uh right now like scaled use of
+- [10:18] AI infrastructure it turns out that uh
+- [10:21] customers and businesses and builders
+- [10:23] don't want to pay reseller fees to get
+- [10:26] AI models and AI uh infrastructure these
+- [10:29] days. So they like coming to a place
+- [10:30] like Google Cloud where we have our own
+- [10:32] firstparty models, we have our own
+- [10:34] firstparty AI infrastructure and we're
+- [10:35] not just reselling somebody else's
+- [10:37] stuff. And we also learn how to optimize
+- [10:40] because that's true because we have
+- [10:41] these things. Uh we learn to optimize.
+- [10:43] So if you want scaled AI infrastructure,
+- [10:44] we can give you managed scaled tensor
+- [10:47] processing units through Google
+- [10:48] Kubernetes Engine GKE in a managed way.
+- [10:51] Or if you want to roll your own like
+- [10:53] abstractions and you want to manage them
+- [10:54] yourself, you know, like uh Anthropic
+- [10:57] and others, customers have been learning
+- [10:58] how to build and go from GPUs to TPUs
+- [11:02] along the way, too.
+- [11:03] >> Yeah. Please be careful rolling your own
+- [11:05] abstractions, though. That's
+- [11:08] >> Yeah, I would agree with that. You're in
+- [11:09] for a p in for a pound, [laughter] I
+- [11:11] guess, is uh is way to think about it.
+- [11:13] >> So, I mean, we're describing a kind of
+- [11:16] world of agent commerce that is not
+- [11:18] really here yet, but I guess how do you
+- [11:21] how fast do you see this coming down the
+- [11:23] road?
+- [11:26] Well, I mean, I work with a lot of uh
+- [11:28] startups, a lot of uh enterprises, and I
+- [11:31] can tell you that the first iterations
+- [11:33] of these agentic workflows, generally
+- [11:35] speaking, it's kind of small uhish like
+- [11:38] numbers of agents. So, I would say like,
+- [11:40] you know, the swarms of hundreds or
+- [11:42] thousands aren't here yet, but in the
+- [11:43] tens to, you know, getting to hundreds,
+- [11:45] the orchestration of them is a really uh
+- [11:47] important thing to think about. Um
+- [11:50] but there are quite a few deployments of
+- [11:54] um AI agents right now. One for example
+- [11:56] uh Sully AI which is a startup that
+- [11:59] provides um in healthcare basically like
+- [12:02] healthcare task automation agents as
+- [12:04] like a service to healthcare workers. So
+- [12:06] like there are a lot of administrative
+- [12:07] tasks you take care of every single day
+- [12:09] in healthcare and Sully AI has basically
+- [12:11] created agents that allow them you know
+- [12:13] using Google cloud that allow healthcare
+- [12:15] workers to take a lot of that
+- [12:16] administrative burden and minimize it so
+- [12:18] they can focus on patient care. Um so
+- [12:21] they are out in the real world and they
+- [12:22] are you know creating value today. I
+- [12:24] think it's more of the multi- aent
+- [12:26] interactions, you know, complex
+- [12:28] multi-agent orchestration that is the
+- [12:29] frontier.
+- [12:30] >> And so, do we think when are we going to
+- [12:33] start to see that? I mean, is that like
+- [12:35] >> five years out? Is it five months out?
+- [12:38] >> You're ask you're asking a technologist
+- [12:40] and a CTO to give a roadmap timeline
+- [12:43] with assurityity in front of a large
+- [12:44] crowd. So,
+- [12:45] >> yeah, [laughter]
+- [12:46] >> it's not my first rodeo, Russell. Um,
+- [12:50] >> fair. But what I will say is I think you
+- [12:51] can bet on like waves of innovation. So
+- [12:54] the the first wave which is just b um
+- [12:57] building singular task agents to
+- [12:59] accomplish singular function is here now
+- [13:00] and it's growing rapidly. So you could
+- [13:03] also kind of this is semi close to RPA
+- [13:05] and kind of the first you know
+- [13:06] iterations of uh you know automation but
+- [13:09] we're rapidly getting to uh multi- aent
+- [13:13] uh orchestrated workflows within I'd say
+- [13:15] like one use case. So for example,
+- [13:17] marketing uh generating uh creative
+- [13:20] right now you can uh use you know Gemini
+- [13:24] as a front end and you can say hey I I
+- [13:26] really have an idea for this interesting
+- [13:28] creative thing and using you know
+- [13:30] imagine under the hood or nano banana
+- [13:31] under the hood it'll give you a first
+- [13:34] order like this is what it could look
+- [13:35] like and then you can send it to VO and
+- [13:38] it can uh turn it into a short form
+- [13:40] video but then you have other things
+- [13:41] that you need like brand guidelines and
+- [13:43] you need you know AI as a judge to say
+- [13:45] like Is this content even something I
+- [13:47] would put out to my users? And so in
+- [13:50] those workflows, a lot of the
+- [13:51] innovations happening right now is like
+- [13:52] the AI being capable of evaluating the
+- [13:55] outputs. So that um uh in my team we
+- [13:58] talk about like if you're a manager now,
+- [14:00] if if you're in the in the flow of of
+- [14:03] any work, basically AI has made your
+- [14:06] life a nightmare because uh it's
+- [14:08] stacking up all of these things that
+- [14:10] need validation or evaluation. And as a
+- [14:13] human, you know, I think of it like
+- [14:14] folders on a desk. That's how old I am.
+- [14:16] So, you know, when you were a manager
+- [14:17] back in the day, it's like you have a
+- [14:18] desk and people bring you their stuff
+- [14:19] and it's in a folder and you have to
+- [14:21] like approve it. And in and in, you
+- [14:23] know, the old days, you know, it was
+- [14:24] gated by what humans could put on your
+- [14:26] desk, how fast they could get the work
+- [14:28] done. So, it's like, okay, cool. Like
+- [14:29] every single day, I get like 20 to 100
+- [14:30] folders. I burn down through as many as
+- [14:32] I can. By the end of the week, as long
+- [14:33] as it's down to zero folders or a low
+- [14:34] number, it's great. Problem is now is
+- [14:36] that AI can create like infinite folders
+- [14:39] almost instantly. So one of the big
+- [14:42] unlocks for the you know in the shorter
+- [14:44] run is going to be AI as a judge AI
+- [14:46] evals grounding in like brand guidelines
+- [14:49] or grounding in enterprise data that
+- [14:52] allows the outputs of these things to be
+- [14:55] contextual to be useful and to be things
+- [14:57] that companies are proud of and can
+- [14:58] actually use. Um whereas like I think
+- [15:00] these big agent swarms I think there's a
+- [15:02] lot of fragility right now in for
+- [15:03] example um like in financial services
+- [15:06] say you want to build uh I want to build
+- [15:09] the the um like financial adviser bot
+- [15:12] well there's no financial adviser bot
+- [15:14] because financial advising is a series
+- [15:15] of tasks there's like 10 to 14 tasks are
+- [15:18] involved in that and trying to get 10 or
+- [15:20] 14 agents to reconcile their
+- [15:23] perspectives and synthesize that into
+- [15:25] like one output that can be delivered to
+- [15:26] a human today is a very complex process.
+- [15:29] and is very much on the frontier and I
+- [15:31] would say there's still room to go.
+- [15:33] >> Okay. Yeah. This idea of like stacking
+- [15:37] [laughter] folders is so visceral but
+- [15:39] it's also I mean right now we're still
+- [15:41] trying to evaluate I mean AI evals I
+- [15:46] when I hear it I think oh you're talking
+- [15:47] about benchmarking and humans evaluating
+- [15:49] AI and it's like no we need AI systems
+- [15:52] that can evaluate AI outputs absolutely
+- [15:55] and start clearing the folders out. we
+- [15:57] need to move at the same p. The thing is
+- [15:59] that like human cognition and human, you
+- [16:02] know, like uh evaluation runs at human
+- [16:05] speed, but like AI can generate content
+- [16:08] way faster than humans are able to go
+- [16:10] like that's good, that's bad. And so you
+- [16:12] have to that is like one of the key
+- [16:14] problems to solve in almost any workflow
+- [16:16] is how fast the decisions how fast the
+- [16:18] content how fast the analysis the
+- [16:21] synthesis the reports depending on which
+- [16:23] use case you're in how fast you can get
+- [16:25] AI to kind of sort through take out the
+- [16:28] stuff that's obviously bad uh and really
+- [16:31] queue up the human for the highest value
+- [16:33] like Eval's most complex edge cases uh
+- [16:36] you know that's super critical.
+- [16:38] >> Yeah. So that gets to this question that
+- [16:41] I think keeps coming up when we talk
+- [16:43] about these obviously AI agents are
+- [16:46] making huge technical progress.
+- [16:49] I wonder if sort of are they there yet?
+- [16:52] Is is the missing piece really kind of
+- [16:55] more capabilities from the underlying
+- [16:57] agentic tech itself?
+- [16:58] >> I think it's um it's multiple things. So
+- [17:00] for example uh you know Gemini today you
+- [17:04] know leading frontier model it's been
+- [17:06] that way for you know kind of six months
+- [17:08] plus which in this world feels like an
+- [17:10] eternity and that has to continue. So we
+- [17:14] definitely need innovation we need more
+- [17:16] like reasoning capabilities we need more
+- [17:20] um kind of navigating and and kind of
+- [17:22] like ambient capabilities inside the
+- [17:24] front end or like a frontier model like
+- [17:26] Gemini. So you need that but you also
+- [17:28] need grounding tools. uh you need the
+- [17:30] ability to bring in enterprise data more
+- [17:32] easily. You know, some of this is going
+- [17:33] to be through connectors and you know
+- [17:35] creating tools and kind of like the old
+- [17:37] school publish and subscribe. If
+- [17:38] anybody's been around for a while like I
+- [17:40] have, you know, this is concept of like
+- [17:41] publish and subscribe where you have
+- [17:43] data sources and they publish their
+- [17:44] availability and then you have consumers
+- [17:46] that subscribe to topics. We're back
+- [17:48] again. You know, we just use different
+- [17:50] words. And so now, you know, there's
+- [17:52] also a need for companies and
+- [17:54] organizations if they haven't
+- [17:55] externalized their data through an API
+- [17:58] or through a tool, you know, they're at
+- [18:00] risk of like getting left behind or
+- [18:03] becoming irrelevant in a world like
+- [18:04] this. So, you need the, you know, you
+- [18:06] need the connectors, you need the tools
+- [18:08] created, you need this kind of rich
+- [18:10] ecosystem of data sources available and
+- [18:12] APIs, you need API management, you know,
+- [18:14] you need a way to sort through and
+- [18:16] navigate against all of these different
+- [18:18] um options. So, and that's just like
+- [18:20] three layers of the stack. If we had,
+- [18:22] you know, another like three days, we
+- [18:24] could go through kind of all the layers
+- [18:26] of it because there's also a lot of
+- [18:27] bindings in between that make these
+- [18:30] workflows useful like in the real world.
+- [18:32] But you have to you can't just choose
+- [18:33] one area like as as Google Cloud like we
+- [18:35] can't just choose one area to innovate.
+- [18:37] We have to provide and that's why we do
+- [18:40] a complete end-to-end AI stack that is
+- [18:43] both first party but also has uh you
+- [18:46] know is built kind of with open in mind.
+- [18:48] So, you know, we have model garden, we
+- [18:50] have, you know, agent gardens, we have
+- [18:52] these places where if what we have isn't
+- [18:54] at that point in time exactly what you
+- [18:55] need, you can go get it from somebody
+- [18:56] else. Those are the table stakes to be,
+- [18:59] you know, on the frontier of technology
+- [19:01] today.
+- [19:02] >> Yeah. Well, so I want to ask about one
+- [19:04] specific layer that I think gets
+- [19:06] overlooked a lot, but these are
+- [19:09] incredibly powerful tools. Not everyone
+- [19:11] on the internet is as nice and friendly
+- [19:13] as we are. I guess I hear about, you
+- [19:17] know, generating these endless folders,
+- [19:19] doing all of this work at scale,
+- [19:21] particularly once payments are in the
+- [19:22] mix. Yeah. And I worry about the
+- [19:25] security aspect of do do we need better
+- [19:29] tools for identifying bad actors, for
+- [19:32] validating agents so that we can sort of
+- [19:36] smoke out bad activity?
+- [19:38] >> Yeah. Well, the answer to that is is
+- [19:40] absolutely yes. Um and we're just at the
+- [19:44] beginning of this. So you know within um
+- [19:46] like Google cloud one of the things that
+- [19:48] we focus a lot on is uh governance
+- [19:51] security um trust and quite often trust
+- [19:55] you know it's interesting because in the
+- [19:56] generative AI world you know trust has
+- [19:59] this kind of new layer of do I it's not
+- [20:00] deterministic you know and so it's like
+- [20:02] do I really trust the outputs and how do
+- [20:04] I create systems of trust and I find
+- [20:06] that's as much a barrier or something to
+- [20:08] solve as you know like classic
+- [20:11] identifying potential you know malware
+- [20:14] um you injection threats. Um, so there's
+- [20:17] like a there's a track where the
+- [20:18] fundamental technology will continue to
+- [20:20] become, you know, more secure, but then
+- [20:22] there's like this trust tier where, you
+- [20:25] know, it's really about making sure that
+- [20:27] the AI is doing what it's supposed to be
+- [20:28] doing. So, you know, observability,
+- [20:30] telemetry, eval
+- [20:33] um, and you know, believe it or not, not
+- [20:35] every company has exactly the same
+- [20:36] sensibilities about how much risk
+- [20:38] they're willing to take. [laughter]
+- [20:39] >> I've heard that. Yeah. So, you know,
+- [20:42] there's also like configurations of this
+- [20:44] and one of the things we learned very
+- [20:46] early on, you know, uh you could say
+- [20:48] we've been very deliberate about um you
+- [20:51] know, safety and responsibility. One of
+- [20:53] the things that we discovered very early
+- [20:54] on is uh some companies would take our
+- [20:56] filtering and our settings uh you know
+- [20:58] of kind of like do you want it to be
+- [21:00] creative or do you want it to be you
+- [21:02] know definitive or or you know
+- [21:04] authoritative and so many people would
+- [21:06] actually set it to creative
+- [21:08] um way more than we thought. And so, you
+- [21:10] know, for us, it's about surfacing a
+- [21:12] platform that you can configure your own
+- [21:14] filters and add your own governance to
+- [21:16] whatever like your brand, you know, how
+- [21:18] you want to take on risk. And that's way
+- [21:20] more important than us coming up with
+- [21:21] some singular vision of like how do you
+- [21:23] do risk management and we operate in so
+- [21:25] many constituencies in in in Europe,
+- [21:28] AMIA, JPAC in um the Americas and there
+- [21:31] are subtle differences in all of those.
+- [21:33] So we also have we're building you know
+- [21:35] aenta capabilities being able to deploy
+- [21:38] in um you know infrastructure that's
+- [21:41] connected or sometimes disconnected. You
+- [21:43] know one of the projects that my team is
+- [21:45] working on right now in the CTO group is
+- [21:47] how do you give signals of intent of
+- [21:49] what of what's happening but it can
+- [21:51] cross trust boundaries that are actually
+- [21:53] airgapped physically separated because
+- [21:55] you can't share the data itself and
+- [21:57] obviously like AI hasn't figured out a
+- [21:58] way to like come out of the machine walk
+- [22:00] over and like walk into the other
+- [22:01] machine and figure you know
+- [22:02] >> not yet. Yeah.
+- [22:02] >> Yeah. not yet. [laughter] Um, but there
+- [22:05] are ways there are emerging techniques
+- [22:07] to understand the intent of a workflow
+- [22:09] or kind of early telemetry and then ways
+- [22:12] to like bridge the gap. Uh, and so
+- [22:14] that's also really really exciting in
+- [22:16] terms of security is being able to bring
+- [22:18] more AI and more capabilities of agents
+- [22:21] to scenarios that typically would have
+- [22:22] been closed off to AI, which is smaller
+- [22:24] compute shapes, uh, you know, uh,
+- [22:26] disconnected infrastructure. Uh, that's
+- [22:29] really a frontier that I'm excited
+- [22:30] about.
+- [22:31] >> Yeah. So we're sort of talking about
+- [22:34] this complex agentic world. Obviously
+- [22:38] that's going to involve consuming a lot
+- [22:39] of cloud services I think is a safe
+- [22:42] assumption.
+- [22:42] >> That'd be great. [laughter]
+- [22:44] >> But we also don't know how fast it's
+- [22:46] coming, how soon it's getting here, how
+- [22:48] quickly we're going to solve all of
+- [22:50] these problems that that you know you
+- [22:52] identify that we're actively working on.
+- [22:54] At the same time, we're in the middle of
+- [22:57] this unprecedented infrastructure
+- [22:59] buildout. You know, I have Meta has said
+- [23:02] they're going to spend 600 billion
+- [23:03] dollars, you know, in the next few
+- [23:05] years. We're getting 500 billion from
+- [23:06] Stargate.
+- [23:08] There are all of these sort of
+- [23:10] uncertainties about how fast all of the
+- [23:14] stuff we're describing will get built. I
+- [23:16] guess do you worry that we're
+- [23:18] overbuilding as a kind of society and
+- [23:22] that there's going to be some harsh
+- [23:24] correction that that gets in the middle
+- [23:26] of this? I mean to be able to answer
+- [23:28] that as you know as like society build I
+- [23:30] would have to have a lot more data on
+- [23:32] the de on the demand side from other
+- [23:35] firms. I'd have to I'd have to see
+- [23:36] demand signals from other firms to know
+- [23:38] um I can at least tell you from the
+- [23:40] Google perspective uh one I think AI has
+- [23:44] definitely redefined uh and kind of
+- [23:47] restarted the cloud market itself and
+- [23:48] and infrastructure being a large part of
+- [23:50] that. So we're in an entirely new game
+- [23:52] today when it comes to cloud and
+- [23:53] infrastructure. Um you know second thing
+- [23:57] that is important about the scaled
+- [23:59] infrastructure moment is that uh
+- [24:02] there is so much demand. There is so
+- [24:04] much demand Russell um and I think part
+- [24:08] of that is that uh we're in a place now
+- [24:11] where the um the kind of the frontiers
+- [24:14] are being built and so you have multiple
+- [24:16] frontier model providers. Um and as we
+- [24:19] transition into inference, there's also
+- [24:22] a recognition, you know, that we need to
+- [24:24] make sure that compute is uh readily
+- [24:26] available for inference. And so we're
+- [24:28] kind of building we're kind of building
+- [24:29] across segments right now. So like
+- [24:31] there's a segment of like the large AI
+- [24:32] labs and they need uh you know
+- [24:34] availability to massive amounts of
+- [24:35] infrastructure uh for training and to
+- [24:38] and this continuous innovation
+- [24:39] development. But there's also another
+- [24:41] track which is as more of these become
+- [24:43] real um inference becomes more and more
+- [24:46] important and that's that's been a big
+- [24:47] driver at least for us on you know our
+- [24:50] tensor processing units and going from
+- [24:52] really a training mindset in the past in
+- [24:55] the architecture to now uh with Ironwood
+- [24:57] which I'm happy to report is in the
+- [24:59] hands of our first set of trusted
+- [25:01] testers through GKE um you know Ironwood
+- [25:05] is was built for a world where yes
+- [25:07] training is going to be there but
+- [25:08] inference is going to start to take, you
+- [25:10] know, the preponderance of of workloads
+- [25:12] over time and uh so, you know, 10x
+- [25:15] performance improvement year-over-year,
+- [25:17] TW uh 2x improvement in um efficiency,
+- [25:20] power efficiency year-over-year. So,
+- [25:22] those are the things that we're
+- [25:23] interested in is, you know, we've done
+- [25:25] infrastructure at scale a bit at Google.
+- [25:28] And one of the things that we know is
+- [25:30] that to, you know, build correctly and
+- [25:32] build the right way is um constantly
+- [25:36] looking for optimizations. So it may
+- [25:38] gather a lot of headlines about, you
+- [25:40] know, all the all the, you know, money
+- [25:41] that's being spent and all the
+- [25:42] infrastructure that's being proposed by
+- [25:44] a bunch of these players, but underneath
+- [25:45] the hood, we're busy making sure that
+- [25:47] our TPUs, you know, we we have over
+- [25:50] a,000x performance improvement since the
+- [25:53] first generation of TPUs. We're now on
+- [25:55] our seventh generation of TPUs, you
+- [25:57] know, and efficiency. When you get a
+- [25:59] year-over-year efficiency of 2x, I mean,
+- [26:00] this is these are significant
+- [26:02] engineering accomplishments. But we're
+- [26:04] also down in the networking layer. You
+- [26:06] know, we're also down in, you know, how
+- [26:07] our subc cables route traffic and do
+- [26:10] that in a highly performant way. And so
+- [26:13] by, you know, our focus is optimizations
+- [26:15] at every layer of the stack and those
+- [26:18] benefits accreing to our customers. Uh,
+- [26:20] and I'm not worried about demand um from
+- [26:23] my chair right now.
+- [26:24] >> Yeah. Although I want to unpack some of
+- [26:27] what you said because you it does sound
+- [26:30] like you see us turning a corner from
+- [26:33] you know how do we get enough compute to
+- [26:35] train these models
+- [26:37] to how do we get enough compute to run
+- [26:39] these models right that that that is a
+- [26:42] fundamental turn and also that that
+- [26:45] comes with if you're going to again try
+- [26:48] to optimize at every level
+- [26:50] >> you want different hardware
+- [26:52] >> that is you you know if you're
+- [26:54] optimizing for inference that goes down
+- [26:57] to the chip level and and
+- [26:59] >> these are choices that we're sort of
+- [27:01] having to make
+- [27:03] >> as we build out two years from now. You
+- [27:05] know, looking at the world two years
+- [27:06] from now, what are the compute needs
+- [27:08] going to be? You do have to choose
+- [27:11] between are we going to build out for
+- [27:13] training or are we going to build out
+- [27:14] for infrastructure?
+- [27:15] >> Yeah. Well, and this is something again,
+- [27:16] you know, uh you know, Google cloud part
+- [27:18] of Google, part of Alphabet. you know,
+- [27:20] one of the things that we've learned
+- [27:21] over time in uh serving ML at uh web
+- [27:25] scale is how to serve ML at webcale. Uh
+- [27:29] [laughter]
+- [27:29] you know, so this is not a new concept
+- [27:31] for us and uh you know, probably the
+- [27:34] thing that is most interesting for all
+- [27:37] of you is that you know, we have as much
+- [27:39] demand for ourselves and for the web.
+- [27:43] And so from a like stability of demand
+- [27:46] and stability of supply chain and
+- [27:48] stability of research and development,
+- [27:50] you know, Google cloud was built on
+- [27:52] startups. 15 years ago or you know, 12
+- [27:54] years ago roughly when I started at
+- [27:55] Google cloud, you know, our largest
+- [27:57] customers were startups and it was their
+- [28:00] ability to scale rapidly kind of the
+- [28:03] success disaster, you know, like when
+- [28:05] Nano Banana hit, you know, our QPS
+- [28:07] estimate was about two orders of
+- [28:08] magnitude lower than what it ended up
+- [28:10] being. And did it fall over? It
+- [28:12] absolutely did not. Why? Because at
+- [28:16] Google, we have been building, you know,
+- [28:18] scaled infrastructure systems that are
+- [28:20] highly reliable, you know, for decades.
+- [28:22] And so when you hit the success disaster
+- [28:25] with us, we understand like how to
+- [28:27] dynamically, you know, drain shard jobs
+- [28:30] across, you know, pools. We understand
+- [28:33] how to do this inherently in our DNA.
+- [28:35] whereas I think a lot of our competitors
+- [28:36] are learning on the fly and have some
+- [28:39] aspirations and infrastructure that uh
+- [28:41] you know maybe exceed their track
+- [28:44] record. Um so I'm feeling pretty bullish
+- [28:46] about us.
+- [28:47] >> Yeah. Yeah. Well, we're almost out of
+- [28:48] time, but I did want to backstage when
+- [28:50] we were talking, you had, you know,
+- [28:52] there is so much uncertainty around just
+- [28:55] the pace of progress has been so fast,
+- [28:57] but you had this interesting analogy
+- [28:59] between the moment we're at with AI and
+- [29:01] the growth of cloud services themselves
+- [29:03] where, you know, well, yeah, how did you
+- [29:06] put it?
+- [29:07] >> Yeah. was uh we tend to evaluate whether
+- [29:10] something is good or not based on like
+- [29:12] it's far in the future you know best
+- [29:14] case scenario which in AI may be like
+- [29:18] you know fully autonomous ambient AI
+- [29:20] assistant that understands you from a
+- [29:22] personal level also understands you at
+- [29:24] work and can provide like very proactive
+- [29:26] recommendations can run like in parallel
+- [29:28] across a whole bunch of work tasks that
+- [29:30] you've given it's super complex stuff
+- [29:31] and then we go like what's available
+- [29:33] today and we get really sad about the
+- [29:35] state of things but if you go back to
+- [29:37] like cloud. You know, at one point it
+- [29:39] was just like I need an API. I need to
+- [29:40] like store something outside of my data
+- [29:42] center or I need a little bursty compute
+- [29:44] for these jobs that have exceeded my
+- [29:46] own, you know, envelope. And then over
+- [29:48] time it rapidly became, you know, the
+- [29:50] foundation for scaled data, scaled
+- [29:53] analytics, you know, sovereign uh
+- [29:56] compute, all these shapes, all of these
+- [29:58] features, all these things emerged. And
+- [30:00] we're going to see the exact same thing
+- [30:02] in AI. We're in such early days uh in
+- [30:05] how AI is going to like evolve and
+- [30:07] manifest itself and uh so is a I I like
+- [30:11] see the thing repeating and that's why
+- [30:13] I'm so excited as you can probably tell
+- [30:15] uh about the future and where we're
+- [30:16] headed.
+- [30:17] >> Well, great note to end on. Thank you so
+- [30:19] much for coming down. This was such a
+- [30:20] fascinating talk.
+- [30:21] >> Thanks Russell.
+- [30:22] >> All right. Cheers.
+- [30:23] >> Thanks.

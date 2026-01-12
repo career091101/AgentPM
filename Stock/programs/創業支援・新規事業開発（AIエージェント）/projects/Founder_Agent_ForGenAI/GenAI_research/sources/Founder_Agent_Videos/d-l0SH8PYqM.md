@@ -1,0 +1,523 @@
+---
+title: "Next up, a conversation about AI agent ecosystems in the posts economy with Ashan at New Relic and S..."
+video_id: "d-l0SH8PYqM"
+video_url: "https://www.youtube.com/watch?v=d-l0SH8PYqM"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Startup"
+summary: |
+  Next up, a conversation about AI agent
+  ecosystems in the posts economy with
+  Ashan at New Relic and Sam at Red Dragon
+key_points:
+  - "I'm really curious to hear like how are"
+  - "uh essentially is the ability for you to"
+  - "software or your environment uh in real"
+  - "time, right? And the idea is that you"
+  - "can you can find problems before"
+  - "spot problems. It can spot other"
+  - "how how revenue goes flows through if is"
+  - "fine Canadian gentleman and uh he uh"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: d-l0SH8PYqM
+
+- URL: https://www.youtube.com/watch?v=d-l0SH8PYqM
+- Retrieved at: 2025-12-30T11:41:07+09:00
+
+## Text
+
+- [00:00] Next up, a conversation about AI agent
+- [00:02] ecosystems in the posts economy with
+- [00:05] Ashan at New Relic and Sam at Red Dragon
+- [00:09] AI. Okay, so uh so Ashan, I thought we'd
+- [00:12] get started. Uh you're from one of these
+- [00:16] mythical successful SAS businesses that
+- [00:19] hasn't been killed by AI. That's a great
+- [00:21] introduction, Sam. I appreciate it.
+- [00:24] So perhaps how about you tell everyone a
+- [00:26] little bit about New Relic and then also
+- [00:28] I'm really curious to hear like how are
+- [00:30] you guys adapting to AI? Yeah. Yeah,
+- [00:32] sure. I'm happy to do that. Um first of
+- [00:34] all, everyone out there who knows what
+- [00:36] observability is.
+- [00:39] All right. About about half. So maybe
+- [00:42] I'll start with that and then that that
+- [00:43] might be uh good to say. So
+- [00:45] observability
+- [00:46] uh essentially is the ability for you to
+- [00:50] tell you what's going on with your
+- [00:51] software or your environment uh in real
+- [00:54] time, right? And the idea is that you
+- [00:56] can you can find problems before
+- [00:59] problems actually occur before your
+- [01:01] customer sees them. That has because you
+- [01:03] have real-time information that has
+- [01:05] evolved over time to be more than just
+- [01:09] spot problems. It can spot other
+- [01:10] applicationoriented
+- [01:12] uh pieces. It could spot anything from
+- [01:14] your customer performance uh you know
+- [01:17] how how revenue goes flows through if is
+- [01:19] it being affected by systems etc. So
+- [01:21] that's that's that's a background
+- [01:22] observability. New Relic Observer was
+- [01:24] actually formed um or formulated or
+- [01:27] introduced by our founder Lou Cerny uh a
+- [01:31] fine Canadian gentleman and uh he uh
+- [01:34] built the company in 2008 and it started
+- [01:37] with application performance management
+- [01:40] and the and the reason it started around
+- [01:42] the 2008 was SAS became SAS and mobile
+- [01:45] were really popular and you had to see
+- [01:47] things uh and you had to find out things
+- [01:50] that you that simple monitoring couldn't
+- [01:52] Right? And it fundamentally what
+- [01:53] observably is is that you put agents in
+- [01:56] code. It reads the code. It finds out
+- [01:57] what the code is doing. Gets a bunch of
+- [01:59] telemetry and then leads you to some
+- [02:01] answers.
+- [02:03] Since then what's happened is as
+- [02:05] payloads have moved to the cloud more
+- [02:07] cloud observability became really
+- [02:09] important and you started to get more
+- [02:11] than just application. You started to
+- [02:12] put all of that together application
+- [02:14] infrastructure how your users performing
+- [02:17] etc. And that was sort of the second
+- [02:18] phase of observation. It was like the
+- [02:19] microservices phase and stuff.
+- [02:21] microservices phase is a big piece and
+- [02:23] so we went to uh application this
+- [02:25] there's a third phase that's happening
+- [02:27] now that's all led by AI and agentic
+- [02:30] which we'll talk about in a bit but so
+- [02:31] New Relic was sort of the forefront of
+- [02:33] that um so we're a company that has
+- [02:35] about 85,000 customers around the world
+- [02:37] in many different verticals all small uh
+- [02:40] small to big uh and we're roughly around
+- [02:43] that billion-ish revenue SAS company
+- [02:46] range uh and SAS is a big word Sam right
+- [02:50] SAS the word. So we think we still think
+- [02:53] we've got some life in us. So I I'm
+- [02:55] really curious to sort of hear from you
+- [02:57] because clearly you guys are doing well,
+- [02:59] right? I was making fun with the start,
+- [03:00] but you're doing well, but not only
+- [03:03] you're doing well just as a SAS, you are
+- [03:05] you are adopting to AI. You you're
+- [03:08] incorporating a lot of things and also
+- [03:10] you personally are seeing what's going
+- [03:12] on out there with other SAS companies.
+- [03:15] You know, obviously some of them perhaps
+- [03:16] are doing AI washing. uh some of them
+- [03:19] are doing real kinds of things. I'm
+- [03:21] interested to get your take on that.
+- [03:22] Yeah. All right. Maybe I'll start with
+- [03:25] AI adoption, right? First, what we see
+- [03:27] because remember we see real time
+- [03:30] telemetry of actual AI usage, right? So,
+- [03:33] we actually see model usage. Uh we came
+- [03:36] out with AI monitoring a couple years
+- [03:37] ago, right? And and we do all of that.
+- [03:39] We do the the Nvidia NIMS, we do the the
+- [03:41] Deep Seeks, the Chat GPD, etc. Uh, I
+- [03:44] will say that we've really seen an
+- [03:46] uptick in the last two quarters. Uh, we
+- [03:48] roughly see AI monitoring up 30% 30%
+- [03:52] year-over-year. Oh, actually quarter
+- [03:54] over quarter. That that's improving.
+- [03:55] Now, you may say, well, look, we've been
+- [03:57] talking about AI forever. Remember, we
+- [04:00] exist in production code, right? So,
+- [04:03] it's not just it's not just
+- [04:04] experimental. It's not in the labs. I'm
+- [04:06] talking about production, right? So, we
+- [04:08] actually see production AI now. In the
+- [04:11] last two quarters there was a lot of
+- [04:12] experiments going on right but in the
+- [04:15] enterprise we're actually starting to
+- [04:16] see that adopt what type of AI you know
+- [04:19] all types I mean the it's mainly uh it's
+- [04:23] predominantly
+- [04:25] um you know chat GPT the 40 model the 40
+- [04:28] minis is second but there's the other
+- [04:31] thing we've seen is a huge diversity in
+- [04:33] models it feels like enterprises started
+- [04:36] with sort of GPT but are starting to use
+- [04:38] a whole bunch of models we've seen about
+- [04:40] a 92% increase in variance of models,
+- [04:44] right, that are being used. So, we're
+- [04:46] certainly starting to see enterprises uh
+- [04:48] adopt models. So, that's really
+- [04:49] interesting. Earlier this morning, we
+- [04:51] had uh Matthew from BCG talk about that
+- [04:54] people weren't seeing the, you know, the
+- [04:56] the P&L statements actually showing uh
+- [04:59] you know, AI sort of stuff, but clearly
+- [05:01] you guys are seeing that and that does
+- [05:04] seem like a leading indicator for a lot
+- [05:06] of different things. Yeah. You know the
+- [05:08] the question is how do you measure the
+- [05:10] effectiveness of this thing right
+- [05:12] because it's it's the the use cases are
+- [05:14] different if you're in a retail industry
+- [05:16] versus finance versus high-tech the the
+- [05:19] cases are different uh also the
+- [05:21] functionality is different right I mean
+- [05:23] you know it used to be uh we used to for
+- [05:26] example engineering right I mean I
+- [05:28] talked to a lot of lot of uh folks and
+- [05:30] and we'll say look about you when you
+- [05:33] have some smaller startups and there's
+- [05:35] some out here I've heard them say
+- [05:37] something like 80% of my code is
+- [05:39] software written. Um if I go to the
+- [05:41] larger companies that's really if you
+- [05:44] really it's really between about 10 to
+- [05:46] 20%. Right? Right? I mean that's a
+- [05:47] really the the number that uh that we've
+- [05:49] heard and the question is how do you
+- [05:52] measure effectiveness right and there's
+- [05:54] different do you measure effectiveness
+- [05:56] in you know if you're a finance person
+- [05:58] you want to build a company that has 60%
+- [06:02] ebida really what you're saying there is
+- [06:04] that I can replace use agents etc to
+- [06:06] replace common work um if you're in if
+- [06:09] you're a CTO you're you're saying my
+- [06:12] measurement is really how quickly can I
+- [06:14] get product out and with quality right
+- [06:16] so The measurement is we're still trying
+- [06:18] to figure out that measurement uh right
+- [06:20] now but it's clearly being adopted uh
+- [06:23] albeit you know it it is not certainly
+- [06:27] not the hype but it's it's past the
+- [06:28] trough of disillusionment for sure.
+- [06:30] Yeah. Do do you see uh that there are
+- [06:32] new customers that there are new people
+- [06:34] that want observability? You know,
+- [06:36] everyone's talking about sort of vibe
+- [06:37] coding and I I don't see anyone going to
+- [06:40] vibe code an APM platform, but certainly
+- [06:42] in every organization we're working
+- [06:44] with, we're seeing sort of the marketing
+- [06:47] department, the you know, the other
+- [06:49] departments that are not coders all
+- [06:51] suddenly making tools and my guess is
+- [06:53] they're going to also want
+- [06:54] observability. Yeah. Um and and maybe
+- [06:57] it's a good point, Sam, to talk a little
+- [07:00] bit about uh where I think observability
+- [07:03] is going here, right? uh so if you look
+- [07:06] the as I mentioned the center of gravity
+- [07:08] for observability was application
+- [07:10] monitoring this was fundamentally
+- [07:12] because of you know as I mentioned right
+- [07:13] we moved to SAS mobile etc move much
+- [07:16] more towards infrastructure orientation
+- [07:18] as folks moved into the cloud that's
+- [07:21] going back right and that's going back
+- [07:23] to application why is that the case it's
+- [07:25] if you think about what what
+- [07:27] observability did is it helped tell you
+- [07:31] information about what you're building
+- [07:33] from an application standpoint as you be
+- [07:36] and as you became more abstracted from
+- [07:38] the code that became more important.
+- [07:40] Okay, so let let me let me give you and
+- [07:43] and uh I'm a little older than most of
+- [07:46] you in the audience I think. So um you
+- [07:49] know when I came out way back in the day
+- [07:51] um uh I used to code in uh C and then we
+- [07:54] used to drop into assembler right for
+- [07:56] the to for the DSP. You probably don't
+- [07:58] even know what a DSP is, I suppose,
+- [07:59] right? This this young audience here,
+- [08:01] right? But uh but uh back in the day,
+- [08:03] but I knew exactly with move, push, pop,
+- [08:06] etc. what my code was doing. As you
+- [08:08] started to get more abstracted with the
+- [08:10] code, you know, and you went to Python,
+- [08:11] you then went to frameworks like Visual
+- [08:13] Studio, etc., the coder knew less about
+- [08:15] the code. So observability, what the
+- [08:17] code was doing was became more and more
+- [08:19] important. Now where the where the
+- [08:21] lingua frana of new code is moving to
+- [08:24] plain English essentially you're going
+- [08:26] to need more and more people and less
+- [08:28] and less technical people are going to
+- [08:29] start to put more snippets of code and
+- [08:31] it's not just that code itself you're
+- [08:33] going to get much more snippets of micro
+- [08:37] code all over the place how do you
+- [08:38] observe that right and so that's why we
+- [08:40] think the center of gravity comes back
+- [08:42] to how do you monitor all those agents
+- [08:45] those nanoagents those microaggents AI
+- [08:48] written code and observability has been
+- [08:49] a big big piece of that and that that's
+- [08:52] where we think it's the market's going
+- [08:54] that's very interesting. I so one of the
+- [08:57] so this we've kind of covered I guess
+- [08:59] sort of you know uh observability of AI
+- [09:03] or observability of agents. Another
+- [09:06] thing that we talked about the other day
+- [09:07] which I found fascinating was the whole
+- [09:09] idea of agents for observability. Uh can
+- [09:13] you perhaps tell everyone a little bit
+- [09:14] about that? Yeah. And I'll I'll maybe
+- [09:17] start with AI for observability and then
+- [09:18] hit agents in particular, right? Um so
+- [09:21] so first what's happened with
+- [09:23] observability is you're fundamentally
+- [09:26] curating a bunch of information and
+- [09:28] giving it to somebody to take uh to take
+- [09:31] action on, right? Uh what's happened is
+- [09:33] as we've become more and more
+- [09:35] complicated, I have customers as an
+- [09:37] example, not huge customers. Um these
+- [09:39] aren't big c these are regular digital
+- [09:42] native type customers who run a single
+- [09:44] service through 1200 microservices today
+- [09:47] right I mean I I have some customers who
+- [09:49] do that or or a sing a single service
+- [09:51] that gets through a thousand
+- [09:52] microservices right so how do you make
+- [09:54] sense of all of that um so what's what's
+- [09:58] happened is you have more and more
+- [10:00] information and as a result there's
+- [10:02] cognitive overload for the for the uh
+- [10:04] for the regular person for the whether
+- [10:06] it's engineer whether you're devops etc
+- [10:08] etc. So that that's one one problem that
+- [10:11] we have from a cognitive overload
+- [10:12] perspective and AI can help that right
+- [10:14] AI for sure can help that and and and
+- [10:16] you know you can train it to drag and
+- [10:17] you can you can do a whole bunch of
+- [10:18] things so AI will definitely help that
+- [10:21] the the real step though is when issues
+- [10:23] are happening I want to get to some
+- [10:25] level of automation right which is what
+- [10:27] agents are going to the promise yes the
+- [10:29] promise and uh and look prior to this I
+- [10:32] was in the cyber industry where we tried
+- [10:34] to do automation like because if you get
+- [10:37] real-time attacks you want to have
+- [10:38] real-time defense. Uh that was hard,
+- [10:41] right? And I I did that for uh
+- [10:44] unfortunately a a couple of decades,
+- [10:46] right? I would I would say uh and that
+- [10:48] was hard. And what we found is narrowly
+- [10:51] narrow use cases fully solved, you could
+- [10:54] automate. Um and and I think what's
+- [10:57] happening here is we are going to get to
+- [10:59] a level of automation. We think the way
+- [11:01] it's going to work is you're going to
+- [11:02] have enough information where you'll
+- [11:04] work in cooperative mode with a human.
+- [11:07] uh and then eventually you'll be able to
+- [11:08] automate certain stuff. So I think the
+- [11:11] promise of agents in observability is to
+- [11:14] take some of those automatic workloads
+- [11:16] and make them happen, right? And that
+- [11:18] that'll that'll democratize it to more
+- [11:19] people too. So I know you've got a
+- [11:21] couple of slides uh that really sort of
+- [11:24] show this in action with a new
+- [11:26] partnership that you've done. Do you
+- [11:27] want to uh perhaps show those and we can
+- [11:30] walk through those? Okay, great. So uh
+- [11:32] one of the things we did um certainly in
+- [11:35] New Relic and and I think all the
+- [11:37] observably players are going here is
+- [11:39] when we created a single platform there
+- [11:41] the reason we created a single platform
+- [11:43] with a single sort of consumption model
+- [11:45] uh so to speak is to take advantage of
+- [11:48] the agentic world right and there's
+- [11:49] there's a couple of things that agents
+- [11:51] are going to allow us to do in
+- [11:52] observability uh the first is it's going
+- [11:55] to what I said it's going to automate
+- [11:56] workflows for sure but the second piece
+- [11:59] we think is to form deep integrations
+- [12:01] into the eco ecosystem, right? When you
+- [12:03] walk into most of your environments,
+- [12:05] most of your environments probably have
+- [12:06] a ton of tools, right? You're using a
+- [12:07] you're using a harness, you're using a a
+- [12:09] GitHub, you're using Service Now, you're
+- [12:11] using a ton of tools, right? And how do
+- [12:13] you adjudicate with them today? You're
+- [12:15] adjudicating with pretty static APIs.
+- [12:18] That's what you're doing, right? Finding
+- [12:19] single use cases, adjudicating with
+- [12:21] APIs. Agentic will change that. You guys
+- [12:24] know that. So, we did some deep work
+- [12:26] with um with a couple of different
+- [12:28] players. This one is specifically
+- [12:29] Microsoft, right? at GitHub, GitHub and
+- [12:31] Microsoft. So the idea is that if you're
+- [12:34] a developer developing, uh I want to
+- [12:37] know immediately what's going on with my
+- [12:39] code and fix that immediately and and
+- [12:42] eventually get to automatically without
+- [12:44] me as a developer leaving my platform,
+- [12:47] right? Leaving my VS code platform, etc.
+- [12:49] So the idea here is that we will have
+- [12:51] code deployed in GitHub. Then GitHub if
+- [12:54] there's an issue detected, we're able to
+- [12:56] tell GitHub what the issue is, where it
+- [12:59] is exactly how to go solve it and then
+- [13:02] you as an engineer can solve it or you
+- [13:04] can automate that whole process. So
+- [13:06] let's let's show you a little bit,
+- [13:07] right? So you see this? Yeah. Great. Uh
+- [13:11] you guys see this? See pretty easy to
+- [13:12] see. Okay. So um so first when and this
+- [13:16] is a very specific use case here. Uh so
+- [13:19] when uh you deploy code in GitHub
+- [13:21] there's you obviously have g it works
+- [13:23] with GitHub copilot. GitHub copilot uh
+- [13:26] coding agent will then pull the code
+- [13:28] right and the reason uh it pulls a code
+- [13:30] is then what it can do is through their
+- [13:34] agent they inform our agent that this
+- [13:37] code is being pulled and then it's going
+- [13:39] to be merged into production. Right? So,
+- [13:41] so GitHub pulls a code, it merges it
+- [13:43] into production, and as it merges into
+- [13:45] production, that's when we go into
+- [13:47] action. We we're So, you're monitoring
+- [13:49] that specific sort of uh that particular
+- [13:52] pull request or that particular That's
+- [13:54] right. And and we have something called
+- [13:56] uh version control. So, we can actually
+- [13:57] see with software markers to see where
+- [13:59] deployments are done with with different
+- [14:01] versions. Uh and so they've you've done
+- [14:03] this particular version and that's
+- [14:04] important. So, it fires off that change
+- [14:07] uh event to New Relic. So what we do is
+- [14:10] then that triggers a cross-platform
+- [14:13] agentic thing. So what's our agent
+- [14:14] doing? So our our agent is fundamentally
+- [14:17] looking at every piece of information we
+- [14:20] have on our platform. That could be
+- [14:22] anything from how the application is
+- [14:23] performing, how the underlying Azure or
+- [14:26] the underlying AWS uh structure is
+- [14:28] performing, anything that we think is
+- [14:30] relevant to that core deployment. Now
+- [14:32] the advantage here and and so it's a set
+- [14:34] of skills we call it agentic skills uh
+- [14:37] that we have in our platform that goes
+- [14:39] does it now the advantage here uh is
+- [14:42] that whenever we add new capabilities
+- [14:45] uh and Microsoft that is all up to us
+- [14:48] right that is all up to us to give you
+- [14:50] the best results we don't rely on a
+- [14:52] third party to know our APIs etc so
+- [14:54] we're able to then find out exactly
+- [14:57] what's going on and there's really three
+- [14:58] things you know code's running fine hey
+- [15:00] there's some errors you don't have to
+- [15:01] worry about it but or number three you
+- [15:03] got some errors you probably have to do
+- [15:05] a software roll back right so we send
+- [15:08] that back into the uh GitHub issue page
+- [15:12] and the GitHub issues that's where all
+- [15:14] the developers pick up uh their issues
+- [15:16] they're able to take action now
+- [15:18] typically what's so that's sort of stage
+- [15:21] one for us that's already available and
+- [15:24] and you know that's uh today what we
+- [15:26] just announced in GitHub build uh was
+- [15:30] that when now going to be able to
+- [15:32] automate uh not just uh software
+- [15:35] basically uh a software roll back right
+- [15:38] so you can automatically do a software
+- [15:40] roll back that is probably a step that
+- [15:43] you want somebody in between doing so
+- [15:46] what uh what's happening now is the uh
+- [15:49] the next step that we announced also in
+- [15:51] GitHub universe is we're actually able
+- [15:52] to work with co-pilot tell you exactly
+- [15:56] which lines of code we're seeing the
+- [15:58] issue with co-pilot then goes back
+- [16:00] correct corrects that issue and then
+- [16:02] gets a version for you ready to deploy
+- [16:04] again. Pretty pretty amazing, right? So
+- [16:07] So basically everyone on pager duty now
+- [16:09] is going to have a lot more info of
+- [16:11] actually what went wrong uh in the
+- [16:12] thing. That is pretty amazing. Yeah, I
+- [16:14] you know I actually think that's almost
+- [16:16] worth an applause. I applause that I
+- [16:22] for me this is a really good example of
+- [16:25] an agent actually doing something. It's
+- [16:28] what it's kind of agent I would call a
+- [16:29] triggered agent that's actually doing
+- [16:31] something uh that before would have
+- [16:34] required lots of people in the middle.
+- [16:35] That's right. That's right. It's and and
+- [16:37] it also the other thing it does a few
+- [16:39] things, right? It it does that it
+- [16:41] automates that it gets a speed up. The
+- [16:44] other big thing is that it brings
+- [16:46] observability to places where you work,
+- [16:49] right? And and so we're doing the same
+- [16:50] with service now. There's about and by
+- [16:53] the way in GitHub universe we're going
+- [16:54] to announce a whole bunch of other
+- [16:56] stuff. I wanted to talk about it here,
+- [16:58] but Microsoft's not letting me to do
+- [16:59] letting me do that. They want to keep it
+- [17:01] uh their thing. Uh but there's a lot
+- [17:04] more coming soon. So, just quickly,
+- [17:05] we've only got about 40 seconds left. Um
+- [17:07] where do you see the future of all this?
+- [17:08] You clearly are adapting to using agents
+- [17:11] and incorporating them. What What do you
+- [17:13] see going forward? I mean, this is a
+- [17:15] really exciting future. I've never been,
+- [17:18] you know, part of I've just never been
+- [17:19] with and it's just moving so fast,
+- [17:21] right? Um, and I fundamentally believe
+- [17:24] that as you start to build all these
+- [17:26] agentic integrations uh, and pieces,
+- [17:29] you're going to want to know just like
+- [17:30] reasoning, like you reasoning, you want
+- [17:32] to know what the agent is. This is sort
+- [17:34] of reasoning for the infrastructure,
+- [17:35] right? Reasoning to find out what's
+- [17:37] going on in your production and that's
+- [17:38] what observability will bring and I feel
+- [17:40] that's um, you know, we're on the
+- [17:42] forefront of that. Yeah. Thank you very
+- [17:43] much, Ashan. Everyone, Ashan from New
+- [17:45] Rag. All right. Thank you. Yeah. All
+- [17:47] right. Thanks.

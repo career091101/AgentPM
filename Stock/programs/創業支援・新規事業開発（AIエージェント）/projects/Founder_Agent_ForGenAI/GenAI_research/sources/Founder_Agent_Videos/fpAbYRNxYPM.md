@@ -1,0 +1,1345 @@
+---
+title: "AI never sleeps and this week has been absolutely insane. Open AAI drops their latest model GPT 5.2...."
+video_id: "fpAbYRNxYPM"
+video_url: "https://www.youtube.com/watch?v=fpAbYRNxYPM"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  AI never sleeps and this week has been
+  insane. Open AAI drops their latest
+  model GPT 5.2. Alibaba releases a very
+key_points:
+  - "AI never sleeps and this week has been"
+  - "an AI that can edit videos in real time."
+  - "You can insert or replace anything with"
+  - "just a prompt. This AI can create 3D"
+  - "AI agent that can autonomously operate"
+  - "your phone. This AI can easily remove"
+  - "can generate an image in like a second."
+  - "this is also super lightweight. This is"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: fpAbYRNxYPM
+
+- URL: https://www.youtube.com/watch?v=fpAbYRNxYPM
+- Retrieved at: 2025-12-30T14:35:51+09:00
+
+## Text
+
+- [00:00] AI never sleeps and this week has been
+- [00:03] absolutely
+- [00:05] insane. Open AAI drops their latest
+- [00:08] model GPT 5.2. Alibaba releases a very
+- [00:12] useful video tool that allows you to
+- [00:14] control the motion of objects in the
+- [00:16] video by drawing trajectories. We have
+- [00:18] an AI that can edit videos in real time.
+- [00:21] You can insert or replace anything with
+- [00:23] just a prompt. This AI can create 3D
+- [00:26] stereo videos. We have an open- source
+- [00:28] AI agent that can autonomously operate
+- [00:30] your phone. This AI can easily remove
+- [00:33] window reflections from a photo. We have
+- [00:35] a new image model that's crazy fast. It
+- [00:38] can generate an image in like a second.
+- [00:40] We have another image model that's
+- [00:42] really good at generating anime, and
+- [00:44] this is also super lightweight. This is
+- [00:46] now the best open- source AI you can use
+- [00:49] for animating any character. We also
+- [00:51] have a top 3D model generator that can
+- [00:53] make objects in separate parts and a lot
+- [00:55] more. So, let's jump right in. First up,
+- [00:58] this AI is actually super useful. Have
+- [01:01] you ever taken a photo through a window
+- [01:03] and there were some really annoying
+- [01:05] reflections in the photo? Well, these
+- [01:07] are really hard to remove traditionally
+- [01:09] with Photoshop. But now, we have this
+- [01:11] new AI that can just magically remove
+- [01:13] all these reflections. So, here are some
+- [01:15] examples. Here's the before, and then
+- [01:17] after plugging it through this AI,
+- [01:19] here's the after. Or here's another
+- [01:20] example. Here's the before. Here's the
+- [01:22] after. This one is super messy with
+- [01:24] raindrops, but after plugging it through
+- [01:26] this AI, look how clean this is. Or
+- [01:29] here's another example. Here's the
+- [01:31] before and here's the after. It even
+- [01:33] corrects the brightness and contrast and
+- [01:34] the colors, this is so good. Or if
+- [01:37] you're at a zoo and you're trying to
+- [01:38] photograph this animal through a window,
+- [01:40] it can be super annoying. But you can
+- [01:42] just plug it through this AI and here's
+- [01:44] what you get. Here's another awesome use
+- [01:46] case where if you're on a plane and you
+- [01:48] want to photograph something outside,
+- [01:50] usually you're going to get a ton of
+- [01:52] really ugly reflections, but you can
+- [01:54] just plug it through this AI to clean
+- [01:56] everything up. Here's another super
+- [01:58] messy example, but it's able to clean
+- [02:00] everything really well. Anyways, there
+- [02:02] are a ton of examples on this page, but
+- [02:04] just note that this is really good at
+- [02:06] cleaning up window reflections in your
+- [02:08] image. In fact, this is the best one you
+- [02:10] can use right now. So if you compare
+- [02:12] this with other tools like DSIT or RDNet
+- [02:15] or DAI, notice that this new one, window
+- [02:18] seat, just outperforms the rest in terms
+- [02:20] of removing reflections in photos,
+- [02:22] whether it's different lighting
+- [02:23] conditions. Here are some quantitative
+- [02:25] results for your reference where the
+- [02:27] bold values are the best scores. And as
+- [02:29] you can see, window seat consistently
+- [02:32] scores the highest compared with these
+- [02:34] other alternatives. Here's another table
+- [02:36] with some other metrics. The awesome
+- [02:37] thing is if you scroll up to the top of
+- [02:39] the page, they've already released a
+- [02:41] GitHub repo. And if you click into it,
+- [02:43] this contains all the instructions on
+- [02:45] how to download and run this locally on
+- [02:47] your computer. Notice that this is a
+- [02:49] Laura for Quinn imageedit. So even
+- [02:52] though here it says you need a CUDA GPU
+- [02:54] with 24 GB of VRAM, because this is
+- [02:56] using Quinn imageedit and there are
+- [02:58] already more quantized compressed
+- [03:00] versions of this, you can comfortably
+- [03:02] run this with low VRAM. In fact, if you
+- [03:04] want to learn more about Quinn
+- [03:05] ImageEdit, definitely see this video
+- [03:07] where I go over how to install and use
+- [03:09] it. Anyways, back to here. All the links
+- [03:11] are on the top of this page. So, if
+- [03:13] you're interested in reading further,
+- [03:14] I'll link to this main page in the
+- [03:16] description below. Next up, we have
+- [03:18] another AI image generator. This one is
+- [03:21] called RealGen. And as the name implies,
+- [03:24] this is a model that can generate super
+- [03:26] realistic images. So, here are just a
+- [03:28] few examples for your reference. Look at
+- [03:30] how realistic these images are. Now, how
+- [03:33] they designed this is actually quite
+- [03:35] intuitive. So, they basically added this
+- [03:37] detector reward mechanism which helps
+- [03:40] the model figure out how realistic the
+- [03:42] generated image is and it makes
+- [03:44] adjustments to improve it. So, this
+- [03:46] mechanism uses these detectors that
+- [03:48] basically look at the image and check
+- [03:50] for things like artifacts or unrealistic
+- [03:52] features. So, if it looks too plasticky
+- [03:54] or the person has overly smooth skin,
+- [03:57] then that's a bad sign. In the simplest
+- [03:59] sense, this detector reward mechanism
+- [04:02] basically rewards the model if it
+- [04:05] doesn't contain these flaws. If it can
+- [04:07] generate a realistic looking image. So
+- [04:09] after going through this training, after
+- [04:11] it gets rewarded for generating more
+- [04:13] realistic images, the model now
+- [04:15] outperforms other STV VR models at least
+- [04:18] in terms of realism. So here's the same
+- [04:20] prompt. This new real gen is on the far
+- [04:22] right. If you compare this with the
+- [04:24] other models like Flux or Flux Context,
+- [04:27] Quinn image, GPTC or even Flux Korea,
+- [04:30] which is already a realistic fine-tune
+- [04:33] of Flux, you can see that this real gen
+- [04:35] is even more realistic. Here are some
+- [04:37] other examples for your reference.
+- [04:39] Notice it even has some like
+- [04:41] photographic grainy effect plus some
+- [04:43] motion blur here. This looks super
+- [04:45] realistic. Here's another example. It's
+- [04:47] really hard to tell that this was AI
+- [04:49] generated. Here's yet another example.
+- [04:51] Anyways, the nice thing is if you scroll
+- [04:52] up to the top of the page, they've
+- [04:54] already released a GitHub repo. And if
+- [04:56] you scroll down a bit on it, it contains
+- [04:58] all the instructions on how to download
+- [05:00] and actually train the model yourself
+- [05:02] using this detector reward mechanism.
+- [05:04] The link is up here. So, if you're
+- [05:06] interested in reading further, I'll link
+- [05:08] to this main page in the description
+- [05:10] below. Also, this week, Alibaba
+- [05:12] continues to cook. So they just released
+- [05:15] a new AI tool called one move and this
+- [05:17] allows you to control the motion of
+- [05:19] objects in the video simply by drawing
+- [05:21] trajectories on the start frame. So here
+- [05:24] are some examples. On the top row is the
+- [05:27] start frame and you can basically draw
+- [05:29] how you want things to move in the video
+- [05:31] and then on the bottom row is the
+- [05:32] resulting video. With this feature, it
+- [05:34] gives you precise control over how
+- [05:37] anything moves in the video. Here are
+- [05:39] some other examples for your reference.
+- [05:40] you can get the dude to do sit-ups. And
+- [05:42] then notice in the middle column, it
+- [05:45] even follows the laws of physics. So if
+- [05:47] you try to tilt this kettle, plus if you
+- [05:49] prompt it to pour out yellow liquid into
+- [05:52] the cup, that's indeed what it does.
+- [05:54] Now, you don't have to just draw one
+- [05:56] trajectory. You can draw multiple
+- [05:58] trajectories on the start frame. For
+- [06:00] example, if you look at the
+- [06:01] [clears throat] center column, you can
+- [06:03] move all four of these characters at
+- [06:04] once. And here's what you get. And if
+- [06:06] you compare this to the best proprietary
+- [06:09] option out there, Cling 1.5 Pro, this
+- [06:12] new one move actually performs even
+- [06:14] better. So here's one example for your
+- [06:16] reference. Notice that for cling, the
+- [06:18] feet of the kid are all messed up, but
+- [06:20] for one move, it's a lot more consistent
+- [06:22] and less errorprone. Here are some other
+- [06:24] examples for your reference. Notice that
+- [06:26] here for one move, it's a lot more
+- [06:28] physically correct. Here's another
+- [06:29] example where it understands what the
+- [06:31] spray bottle is. Now, this can do more
+- [06:34] than just moving objects within the
+- [06:36] video. You can even control for the
+- [06:38] entire camera movement. For example, you
+- [06:40] can get it to pan up, down, left, right,
+- [06:42] or you can get it to dolly in or out, or
+- [06:45] zoom in and out like this. Anyways, the
+- [06:47] awesome thing is they've released
+- [06:49] everything already. So, at the top here,
+- [06:51] if you click on this GitHub repo and you
+- [06:53] scroll down a bit here, it contains all
+- [06:55] the instructions on how to download and
+- [06:57] run this locally on your computer.
+- [06:59] However, if I click on this official
+- [07:01] one, the total size of this WMO file is
+- [07:04] around like almost 70 GB in size, which
+- [07:08] is hard to fit with most consumer GPUs.
+- [07:10] Fortunately, if you scroll up a bit,
+- [07:12] there's already an integration for Comfy
+- [07:14] UI. And this code called Kiy released an
+- [07:17] FP8 version which is more compressed.
+- [07:19] And if I click on this one, it's only 16
+- [07:21] GB. So, this can likely fit within 16 GB
+- [07:24] with some offloading. Anyways, all the
+- [07:26] links are up here. So, if you're
+- [07:28] interested in reading further, I'll link
+- [07:30] to this main page in the description
+- [07:31] below. Next up, this AI is incredible.
+- [07:35] So, ZAI, which is the company behind one
+- [07:38] of the best open-source models out there
+- [07:40] called GLM, they've released Open AutoGM
+- [07:43] this week. This is an AI agent that can
+- [07:46] autonomously operate your phone. It can
+- [07:48] do various things on your phone like
+- [07:50] navigating through apps, sending
+- [07:52] messages, and even making payments. So,
+- [07:54] here are some examples. You can simply
+- [07:56] prompt it to find the top rated cinemas
+- [07:59] nearby and navigate there by foot on
+- [08:02] Google Maps. And it's actually searching
+- [08:05] for cinema and then going to Google Maps
+- [08:08] and then figuring out how to get there
+- [08:10] by foot. Notice that it did all of this
+- [08:12] autonomously without any human
+- [08:14] intervention. Or here's another example
+- [08:16] where we can get it to like the top
+- [08:19] three posts from Andre Carpathy on X and
+- [08:22] then summarize them. So it proceeds to
+- [08:25] search on X for this user and then it
+- [08:28] clicks on the user and then it knows how
+- [08:30] to scroll down and then find the first
+- [08:32] three posts. It's also tapping like on
+- [08:35] the first three posts and then providing
+- [08:37] a summary on the three posts. Here are
+- [08:40] some other examples for your reference.
+- [08:42] So you can easily get it to write an
+- [08:44] email for you on anything you want and
+- [08:46] send it to anyone or reply to anyone.
+- [08:49] You can easily get it to navigate Google
+- [08:51] Maps and find anything you want or you
+- [08:54] can get it to do shopping for you. You
+- [08:55] can go on Teu and find these running
+- [08:58] shoes. And it even knows how to add it
+- [09:00] to cart and then go to checkout. The
+- [09:02] awesome thing is they've made this open
+- [09:04] source as with their other models. And
+- [09:06] this is only 9 billion parameters. So
+- [09:08] this is fairly small to download. If you
+- [09:10] click on this hugging face link and you
+- [09:12] click on files and versions, the model
+- [09:15] is roughly like 18 GB in size. It might
+- [09:18] not fit on most smartphones yet, but
+- [09:21] this can definitely fit comfortably in a
+- [09:22] consumer grade GPU on your computer
+- [09:25] where you can run an Android simulator
+- [09:26] to test this out. Anyways, all the
+- [09:28] download links are up here, plus there's
+- [09:30] more technical details on this page. So,
+- [09:33] if you're interested in reading further,
+- [09:34] I'll link to this main page in the
+- [09:36] description below. Next up, we have a
+- [09:39] new 3D model generator. It's called
+- [09:41] Mocha, and this is really good for
+- [09:43] generating complex 3D objects and scenes
+- [09:46] from a reference image. Not only that,
+- [09:48] but it also separates the 3D models into
+- [09:51] meaningful parts. So, you can edit these
+- [09:54] afterwards if you want. Here are some
+- [09:56] example. If you input this image of a
+- [09:58] dinosaur, well, here's the 3D model you
+- [10:00] get from that. And if I zoom in, notice
+- [10:02] that it's able to capture all the
+- [10:03] details and markings of this dinosaur.
+- [10:06] Plus, it's able to break this down into
+- [10:08] meaningful parts. So, we can explode
+- [10:10] this. And here's what you get. This is
+- [10:12] super useful because you can edit each
+- [10:14] part further or you can animate this by
+- [10:16] like choosing the joints where it should
+- [10:18] move. Or here's another example. Let's
+- [10:20] say we input this image. Here is what we
+- [10:24] get. Again, notice how detailed
+- [10:26] everything is. It was actually able to
+- [10:28] capture most of the details of the
+- [10:30] original reference image. And then you
+- [10:32] can choose to explode this further. And
+- [10:34] here's what you get. Or here's a super
+- [10:36] tricky Mecca robot. After plugging it
+- [10:38] through here, this is our resulting 3D
+- [10:41] model. It's able to capture all the
+- [10:43] details. Plus, it's even able to kind of
+- [10:45] guess what the back of this robot would
+- [10:47] look like, even though it doesn't have
+- [10:49] this data from the original image. And
+- [10:50] then afterwards, you can also choose to
+- [10:53] explode it like this. Anyways, if you
+- [10:55] scroll up to the top of the page, they
+- [10:57] have released a GitHub repo, and it's
+- [10:59] quite empty for now, but they do plan to
+- [11:01] release the code and the model for this,
+- [11:04] which is fantastic. Anyways, if you're
+- [11:06] interested in reading further or
+- [11:07] checking out more demos, I'll link to
+- [11:09] this main page in the description below.
+- [11:11] Also, this week, Google released an
+- [11:14] update to their texttospech model, which
+- [11:16] is based off of Gemini 2.5 Pro. So, it's
+- [11:19] just a minor update. This is not Gemini
+- [11:21] 3 texttospech, but it's still really
+- [11:23] good. So, here they say this new text to
+- [11:26] speech has enhanced expressivity, so it
+- [11:29] has richer tone and stricter adherence
+- [11:31] to style prompts. It's able to
+- [11:33] understand the context in your sentence
+- [11:35] and generate much better pacing and it's
+- [11:38] also more consistent. The awesome thing
+- [11:39] about Google text to speech is it can
+- [11:42] handle multiple speakers and languages
+- [11:44] and accents and emotions. So, here are
+- [11:46] some examples.
+- [11:47] >> Okay, prepare to be absolutely blown
+- [11:50] away. This app, it highlights the
+- [11:52] incredible style control you get with
+- [11:55] Gemini's new TTS models. Seriously, try
+- [11:58] it. Start one of your meetings with an
+- [12:00] introduction from our samples.
+- [12:03] Then the best bit, make your own.
+- [12:08] Hey, I literally just got out of the
+- [12:11] ocean, so if I sound a bit salty, that's
+- [12:14] why.
+- [12:16] Can you hear the waves behind me?
+- [12:19] The energy out here today is just
+- [12:23] no. It's actually insane. It's so light.
+- [12:28] Wait, stay still. You have a little bit
+- [12:31] of technical debt right there.
+- [12:34] >> Now, you can give this a try right now
+- [12:36] in Google's AI Studio, which is free to
+- [12:38] use. So, on Google AI Studio down here,
+- [12:41] you should see this texttospech button.
+- [12:43] And if you click on this, here is where
+- [12:45] you can generate some text to speech.
+- [12:47] Now, you can choose from single speaker
+- [12:48] or multisspeaker. Let's just do a quick
+- [12:50] single speaker example. Here is where
+- [12:53] you can choose different voices. Let me
+- [12:55] just play you some of the default
+- [12:56] voices.
+- [12:57] >> Ready to build something awesome today?
+- [12:58] >> Got a project in mind? What do you want
+- [13:00] to explore?
+- [13:01] >> All right. So, let's choose this first
+- [13:02] one. And then here is where you can
+- [13:04] specify the style or the tone of the
+- [13:07] voice. So, let me paste in this sentence
+- [13:10] and then write a very angry and
+- [13:12] expressive voice.
+- [13:14] >> I can't believe you do this to me, you
+- [13:17] absolute traitor.
+- [13:19] >> All right, that's not too bad. Here's
+- [13:21] another example. This time, let's make
+- [13:23] it a sad voice. And up here, let's
+- [13:25] change this to sad.
+- [13:27] >> I never thought I would have to say
+- [13:29] goodbye so soon. And now that you're
+- [13:33] gone, every moment feels like an endless
+- [13:37] ache in my heart.
+- [13:39] >> So, you can see it does noticeably sound
+- [13:41] sadder. Next, let's just try a neutral
+- [13:44] tone and let's get her to speak the
+- [13:46] sentence with a ton of different
+- [13:48] languages.
+- [14:10] Now, I could spot some errors with this
+- [14:13] for some languages. They don't sound
+- [14:14] entirely correct. So, at least from this
+- [14:17] example, it doesn't seem to be that good
+- [14:19] at handling multiple languages. Anyways,
+- [14:21] that is the latest Gemini text to
+- [14:23] speech, and you can try this out for
+- [14:25] free in Google's AI Studio. If you're
+- [14:27] interested, I'll link to this main page
+- [14:29] in the description below. Next up, if
+- [14:31] you're into open- source generation,
+- [14:33] then this tool is an absolute gamecher.
+- [14:36] So, this company called Dith Synth
+- [14:38] Studio just released Quen Image Image to
+- [14:41] Laura or I2L for short. This is a really
+- [14:44] quick way for you to create loras for
+- [14:46] Quinn image. If you're not familiar with
+- [14:48] the term Laura, this is basically a
+- [14:50] fine-tuned image model which can capture
+- [14:53] a specific character or pose or art
+- [14:55] style or whatever. For example, if you
+- [14:58] use this Laura, it can generate this
+- [14:59] flat color style. If you use this Laura,
+- [15:02] it can create some really realistic
+- [15:04] amateur looking photos. And then we also
+- [15:06] have Loras for pretty much any character
+- [15:08] out there. We also have this Laura for
+- [15:10] like extracting the outfits of someone
+- [15:12] or another Laura for turning an anime
+- [15:14] image into a real-looking photo.
+- [15:16] Basically, Loras enable you to insert
+- [15:19] any predetermined thing into an image
+- [15:22] such as a character or an art style or
+- [15:24] an effect. Now, traditionally, in order
+- [15:26] to train a Laura, you need to feed it a
+- [15:28] ton of images of a certain character or
+- [15:31] effect or object. Plus, it takes a lot
+- [15:33] of compute and time to train the damn
+- [15:35] thing. But this new tool, Quinn image
+- [15:37] I2L, is just way faster. First of all,
+- [15:40] this can work with just one image.
+- [15:42] That's right, you can create a Lura with
+- [15:44] just one reference image. But of course,
+- [15:46] the more images you have, the better
+- [15:47] quality and more consistent the Laura
+- [15:50] will be. Plus, this also removes the
+- [15:51] need for some GPU inensive compute. So,
+- [15:54] you can train a Laura super quickly in
+- [15:56] just like a few seconds. So, here are
+- [15:58] some examples. Let's say you upload
+- [15:59] these five images to train a Laura with.
+- [16:02] And then afterwards, you can use this
+- [16:03] Laura to generate a cat, a dog, and a
+- [16:06] girl. And notice that it's able to keep
+- [16:08] the same style as your reference images.
+- [16:10] Or here's another example. You can plug
+- [16:12] in these four images to train a Laura.
+- [16:14] And this Laura is of course going to
+- [16:16] generate pencil sketch images. And then
+- [16:18] afterwards, you can get it to generate a
+- [16:20] cat, a dog, or a girl like this. Or
+- [16:23] here's another example where these are
+- [16:24] the training images. And then here are
+- [16:26] the generations from the trained Laura.
+- [16:29] The awesome thing is they've released
+- [16:30] everything on hugging face already. Note
+- [16:33] that they released four models here,
+- [16:35] each with different use cases. So for
+- [16:37] example, the first one is used to
+- [16:39] generate a certain art style. They also
+- [16:40] have some other models which you can
+- [16:42] read the description of on this page.
+- [16:44] And in addition to this, there's
+- [16:46] actually a ton of free hugging face
+- [16:47] spaces which you can use online to just
+- [16:50] train a model online in a few seconds.
+- [16:52] So for example, let's just click on this
+- [16:54] one. And here's where you can train a
+- [16:55] Laura. So, let's input like these six
+- [16:58] images and click generate Laura. And
+- [17:00] note how fast this is. It's like
+- [17:02] generating this in only 20 seconds,
+- [17:04] which is way faster than what was
+- [17:06] required previously. Plus, this only
+- [17:08] takes like a handful of images. So,
+- [17:10] afterwards, after this is generated, we
+- [17:12] can choose to download the Laura. And
+- [17:14] then we can also try using this Laura to
+- [17:16] generate an image. So, let's click
+- [17:18] generate image. You know, the funny
+- [17:20] thing is generating the image takes even
+- [17:22] longer than just training the Laura. So,
+- [17:24] as you can see here, it takes like 48
+- [17:26] seconds. And here's what we get. Indeed,
+- [17:28] this follows the art style of our input
+- [17:30] images. Anyways, that's Quinn image I2L.
+- [17:33] This is a super useful tool, especially
+- [17:35] if you're into open- source image
+- [17:36] generation. You can now train Lauras in
+- [17:38] like seconds. If you're interested, I'll
+- [17:40] link to this main page in the
+- [17:42] description below. Speaking of AI tools,
+- [17:44] you've got to check out Love Art, the
+- [17:46] sponsor of this video. Love Art is the
+- [17:48] ultimate creative tool powered by AI.
+- [17:51] You can get it to create posters, media
+- [17:54] kits, app designs, and even entire video
+- [17:56] commercials with sound. They've just
+- [17:58] added Nano Banana Pro, which makes it
+- [18:01] extremely easy to create and edit assets
+- [18:03] with the best image generator out there.
+- [18:06] I can drag and drop these images of a
+- [18:08] model plus these items. And let's get
+- [18:11] her to wear this blue dress and pink
+- [18:14] handbag walking down a fashion show
+- [18:16] runway. And here's what we get. Or I can
+- [18:19] upload a ton of product images and get
+- [18:22] it to autonomously make some Black
+- [18:24] Friday sale posters. And here's the
+- [18:26] result. It made all of this in just
+- [18:28] seconds without me having to manually
+- [18:30] design anything. Or here's another
+- [18:32] example. I can upload this floor plan
+- [18:34] and get it to create realistic images of
+- [18:37] this room. And it was able to create
+- [18:39] these fully furnished photos of this
+- [18:41] room in seconds. They also have this
+- [18:44] really useful touchedit feature which
+- [18:46] allows you to click on and select any
+- [18:48] assets and then modify them or merge
+- [18:51] them together using natural language. It
+- [18:53] understands the full context including
+- [18:55] the content within your images. So you
+- [18:57] can precisely combine and edit images
+- [19:00] however you want. They also have this
+- [19:02] really handy edit elements feature which
+- [19:04] allows you to instantly separate any
+- [19:06] image into layers including the
+- [19:08] foreground, the background and the
+- [19:09] objects. You can edit each layer without
+- [19:12] affecting anything else in the image.
+- [19:14] This makes it super useful for
+- [19:16] microediting certain elements in your
+- [19:18] image. Love art is the ultimate AI
+- [19:20] platform for design. Try it for free via
+- [19:23] the link in the description below. Next
+- [19:25] up, this AI tool is super useful for
+- [19:27] animating characters. It's called One to
+- [19:30] All Animation. And this basically takes
+- [19:32] a reference photo of any character plus
+- [19:34] a pose animation, and it would apply the
+- [19:37] movement onto this new character. Note
+- [19:40] how consistent everything is and the
+- [19:42] movements are super realistic and it
+- [19:44] doesn't just have to work with anime
+- [19:46] characters. So, here's another example
+- [19:48] of this 3D animation. Also note that the
+- [19:50] body proportions are not really normal.
+- [19:52] The head is much bigger than the body,
+- [19:54] but it's still able to animate
+- [19:56] everything correctly. Here's another
+- [19:58] really strange character with abnormal
+- [20:00] proportions, but it's still able to
+- [20:01] animate this very well. Now, while this
+- [20:04] does look good from far away, there are
+- [20:06] some noticeable flaws. If you look at
+- [20:08] the hands and fingers and then also for
+- [20:10] some characters, especially if you get
+- [20:12] them to dance from far away, then there
+- [20:15] is some noise and artifacts with the
+- [20:16] face at times. Here's another example
+- [20:18] for your reference. So, it's not
+- [20:20] perfect, especially the hands and
+- [20:22] fingers, but for everything else, it's
+- [20:24] not bad. Now, a few weeks ago, I
+- [20:26] featured another tool called one
+- [20:28] animates by Alibaba. This can also take
+- [20:30] a reference image of a character and
+- [20:32] then a reference video and basically
+- [20:34] apply the movements of the video onto
+- [20:36] the new character. It's essentially the
+- [20:38] same thing, but one animate can also do
+- [20:40] expressions and lip-s sync. For this
+- [20:42] one, one to all, it doesn't really do
+- [20:45] expressions and lip-s sync that well,
+- [20:46] but at least in terms of dancing videos
+- [20:49] and just overall body movements, it is
+- [20:51] more consistent with one animate. So,
+- [20:53] here's one example. As you can see here,
+- [20:55] there's a lot of noise with one animate,
+- [20:58] especially in the background, whereas
+- [21:00] this new one, one to all, remains very
+- [21:02] consistent even though this video is
+- [21:04] like over 20 seconds long. Here's
+- [21:06] another example for your reference. And
+- [21:08] as you can see for one, the arms and the
+- [21:10] hands just warp considerably in the
+- [21:13] video. There are a ton of errors with
+- [21:15] one animate. But for this new one, one
+- [21:17] to all, she just remains a lot more
+- [21:19] coherent throughout the entire
+- [21:20] animation. And also, her face remains
+- [21:23] the same. Here's another example for
+- [21:25] reference. And again, for one animate,
+- [21:27] there's just a ton of noise and
+- [21:29] distortions with the generation. Like
+- [21:31] I've been using one animate, and it's
+- [21:33] not this bad. So, they might be
+- [21:35] cherry-picking here. I'm not sure why
+- [21:36] there's this many errors. Maybe they're
+- [21:38] not using a high enough step count. But
+- [21:40] anyways, as you can see for this
+- [21:42] example, again, one to all just animates
+- [21:44] this character a lot better. The awesome
+- [21:46] thing is if you scroll up to the top of
+- [21:48] the page, they've already released the
+- [21:50] model. So, if you click on this GitHub
+- [21:51] repo and you scroll down a bit, this
+- [21:53] contains all the instructions on how to
+- [21:55] download and run this locally on your
+- [21:57] computer. They even released the code on
+- [22:00] how you can train this from scratch,
+- [22:02] which is super useful. And the awesome
+- [22:04] thing is this is already integrated into
+- [22:06] Kiji's one video wrapper. So if you
+- [22:08] check out Kiji's hugging face repo and
+- [22:11] you click into this one to all animation
+- [22:13] folder, he has released two different
+- [22:15] models. This one is for 114b and this
+- [22:18] one is 37 GB in size. So you'll need a
+- [22:22] really high-end GPU to run this.
+- [22:24] However, he also released this one, this
+- [22:26] 1.3 billion parameter version which is
+- [22:28] only 4.4 GB in size. So, this should fit
+- [22:31] comfortably in most consumer GPUs.
+- [22:33] Anyways, all the links are up here. So,
+- [22:35] if you're interested in reading further,
+- [22:37] I'll link to this main page in the
+- [22:39] description below. Also, this week, ZAI
+- [22:42] releases another banger. If you're not
+- [22:44] familiar with ZAI, this is the company
+- [22:46] behind GLM, which is one of the most
+- [22:49] performant open-source models you can
+- [22:51] use right now. And this week, they
+- [22:52] released GLM 4.6 Vision. This is
+- [22:55] basically a multimodal model with native
+- [22:58] tool use. So, think of this as like an
+- [23:00] AI agent that can autonomously just go
+- [23:02] out and do things. Plus, it has vision
+- [23:04] capabilities. So, you can also feed it
+- [23:07] images or documents for it to parse and
+- [23:09] analyze. Here are some examples for your
+- [23:12] reference. You can feed it this PDF and
+- [23:14] it's able to, you know, read through the
+- [23:17] document and parse everything out,
+- [23:18] including the figures and all the
+- [23:20] images, as you can see here. Plus, it's
+- [23:23] doing this like an agent. It's planning
+- [23:25] how to analyze this step by step kind of
+- [23:27] like Manis or Genspark and then it's
+- [23:29] giving you the result. Or here's another
+- [23:31] example. Because this is a vision model,
+- [23:33] you can also upload this image of a shoe
+- [23:35] and ask it to identify this shoe via web
+- [23:39] search. And again, because this is an
+- [23:40] agent, it's able to go online and
+- [23:43] actually, you know, search for this
+- [23:45] image and also find other images for
+- [23:47] you. Here's another really awesome use
+- [23:49] case for this. If you want to just copy
+- [23:52] the design of another website, you can
+- [23:54] just take a screenshot of that website
+- [23:56] and then paste it into here and get it
+- [23:58] to generate the HTML code for this
+- [24:00] website. And here's what you get. And
+- [24:02] then you can prompt it further to change
+- [24:04] the background or change the layout to
+- [24:06] whatever you want. You can also copy and
+- [24:08] paste some other reference images for it
+- [24:10] to generate some additional pages. Note
+- [24:12] that GLM has always been my go-to coding
+- [24:15] model, and this is still one of my
+- [24:16] favorite models for coding. Everything
+- [24:18] just works and it has very few errors.
+- [24:21] Here they say that JLM 4.6V also has
+- [24:24] very good long context understanding. So
+- [24:26] it has a visual encoder with this
+- [24:28] context window. And this equates to
+- [24:31] around 150 pages of complex documents or
+- [24:34] 200 slides or an hourong video. So
+- [24:37] here's an example where we can feed it
+- [24:39] these financial reports which have a
+- [24:41] total of 64 pages and get it to analyze
+- [24:44] everything and it's able to do so very
+- [24:46] well. Or here's an example where we can
+- [24:48] feed it this video and get it to
+- [24:50] summarize the match scores and provide
+- [24:52] timestamps for each goal. And it's
+- [24:54] actually able to quote unquote watch the
+- [24:56] video and analyze it frame by frame and
+- [24:59] give you the timestamps of all your
+- [25:01] specified events. The awesome thing is
+- [25:03] as with their previous models, they've
+- [25:05] open sourced this. So the model is
+- [25:07] already on hugging face or model scope.
+- [25:09] Notice that in addition to this full
+- [25:11] version, they've also released a
+- [25:12] compressed FP8 version and this smaller
+- [25:15] flash version. It seems like this flash
+- [25:17] version has gotten the most downloads.
+- [25:19] So, let's click on this and see how
+- [25:20] large this is. All right, so the flash
+- [25:22] version is actually very small. It's
+- [25:24] only 20 GB in size. So, this can fit
+- [25:27] comfortably with like mid to high-end
+- [25:29] consumer grade GPUs. So, if you're
+- [25:30] looking for a very capable and
+- [25:32] performant vision agent, which you can
+- [25:34] run locally on your computer, GLM 4.6V
+- [25:37] is currently your best option. If you're
+- [25:39] interested in reading further, I'll link
+- [25:41] to this main page in the description
+- [25:43] below. Next up, Snapchat releases
+- [25:45] Egoedit. This is pretty wild. This
+- [25:48] allows you to edit videos in real time
+- [25:50] with just a prompt. So, it's kind of
+- [25:52] like Nano Banana. You can just use a
+- [25:54] prompt to change the video however you
+- [25:56] want, and it applies this in real time.
+- [25:58] Here are some examples. At the top is
+- [26:00] your original video, but you can prompt
+- [26:02] it to add a corgi into the scene like
+- [26:04] this. Or we can replace this bag with a
+- [26:06] violin, or we can prompt it to change
+- [26:09] this water into lava. Notice that here
+- [26:11] it says it can edit all these videos
+- [26:14] pretty much in real time on a single
+- [26:15] H100 with just 855 milliseconds of
+- [26:19] latency. So, here are some other
+- [26:21] examples for your reference. You can
+- [26:23] change this mouse into a banana or this
+- [26:25] apple into a rabbit or this pillow into
+- [26:27] a basketball. There's a ton of examples
+- [26:29] on this page, but I hope you can see how
+- [26:31] this can potentially be super useful,
+- [26:33] especially for virtual or augmented
+- [26:35] reality. In the future, I think smart
+- [26:37] glasses are definitely going to be a
+- [26:39] thing. And we might have this AI living
+- [26:42] locally in our AR glasses where we can
+- [26:44] just prompt it to change or replace
+- [26:46] anything we see. So, if you're like me
+- [26:48] and you can't get a girlfriend in real
+- [26:50] life, well, you can just prompt this AI
+- [26:52] to make a girlfriend for you. But all
+- [26:53] jokes aside, I mean, there are a ton of
+- [26:55] potential applications for this. Now,
+- [26:57] there are a ton of examples on this
+- [26:59] page. In the interest of time, I'm not
+- [27:01] going to go over everything, but if you
+- [27:03] scroll up, they have released a GitHub
+- [27:04] repo. And here it seems like they are
+- [27:07] planning to release at least the data
+- [27:09] set and the benchmark for evaluating the
+- [27:13] quality of such videos. However, there's
+- [27:15] no mention here whether they will
+- [27:17] actually release the model called
+- [27:18] Egoedit. A pretty cool and potentially
+- [27:21] useful tool nonetheless. So, if you're
+- [27:23] interested in reading further, I'll link
+- [27:25] to this main page in the description
+- [27:26] below. Next up, this AI image generator
+- [27:29] is really good. It's called Twinflow.
+- [27:32] And the advantage of this is it's crazy
+- [27:35] fast. Now, before we go into Twinflow,
+- [27:37] here's some context. You see, the
+- [27:39] foundation behind all image generators
+- [27:41] we know of today is the diffusion model.
+- [27:44] This is basically an AI that is trained
+- [27:46] to take an image of noise like this, and
+- [27:49] then at every step, take away some of
+- [27:51] that noise, step after step, until
+- [27:53] eventually it generates your prompted
+- [27:55] image. Now, in the past for models like
+- [27:57] stable diffusion, it required like 20 to
+- [28:00] 30 steps to actually get rid of enough
+- [28:02] noise and generate a decent looking
+- [28:04] image. And then for the most recent Z
+- [28:06] image, this is the best open- source
+- [28:08] image model we have so far. This one
+- [28:10] still requires like 7 to 10 steps. All
+- [28:12] right, so each step is basically taking
+- [28:14] away some of this noise to generate your
+- [28:16] final image. Now, the crazy thing about
+- [28:18] Twinflow is you can generate an image in
+- [28:21] as little as just one step. So it's kind
+- [28:24] of like just skipping all these middle
+- [28:25] steps. It's taking this random noise and
+- [28:27] it's able to generate a fully defined
+- [28:30] image. So obviously with such a
+- [28:32] reduction in the step count, this can
+- [28:34] generate images way faster. So here's an
+- [28:36] example of how fast Twinflow is compared
+- [28:39] to the regular Quinn image. So you can
+- [28:41] see in just 5.2 seconds, it's able to
+- [28:44] generate four images. Whereas for Quinn
+- [28:47] image using the same hardware, it takes
+- [28:49] like 126 seconds to generate this. And
+- [28:52] note that the quality of Twinflow is
+- [28:54] pretty much the same or even better. The
+- [28:57] speed of this is just absolutely insane.
+- [28:59] Here are some other generations for your
+- [29:01] reference. You can see everything is
+- [29:03] super detailed and realistic. Now, right
+- [29:05] now they just applied Twinflow to Quinn
+- [29:08] image edit. But what's really exciting
+- [29:10] is over here they say they're also
+- [29:12] working on Zimage Turbo, which is
+- [29:14] currently the number one open- source
+- [29:16] image model. I'm really excited for them
+- [29:18] to release this. I mean, this is already
+- [29:20] super fast. I can generate an image in
+- [29:22] like 6 seconds with 16 GB of VRAM. Once
+- [29:25] they implement Twinflow 4Z image, I can
+- [29:27] probably generate an image in less than
+- [29:29] a second, which is crazy to think about.
+- [29:31] The awesome thing is they've released
+- [29:32] everything already. So, if you click on
+- [29:34] this GitHub repo here, it contains all
+- [29:36] the instructions on how to download and
+- [29:38] run this locally on your computer. If
+- [29:40] you click on their hugging face repo in
+- [29:43] files and versions, notice that they
+- [29:44] released basically this fine-tune of
+- [29:47] Quinn image with twinflow builtin. And
+- [29:49] the total size of the transformer is
+- [29:51] like 40 GB in size. But I'm sure because
+- [29:53] this is open source, the community is
+- [29:55] really quickly going to release a
+- [29:57] quantized version of this that can run
+- [29:59] on lower VRAM. Anyways, all the links
+- [30:01] are up here. So if you're interested in
+- [30:03] reading further, I'll link to this main
+- [30:04] page in the description below. Now,
+- [30:06] around 2 weeks ago, the best open-
+- [30:09] source image generator out there called
+- [30:11] Zimage was released. This is super good
+- [30:13] at creating realistic images and other
+- [30:16] art styles. Plus, it's good at prompt
+- [30:18] understanding and also creating
+- [30:19] uncensored stuff. And it's also blazing
+- [30:22] fast. However, if you just want to
+- [30:24] generate anime images, then this new
+- [30:26] model might be even better for you. So,
+- [30:29] it's called Newbie Image Experimental
+- [30:31] 01. What a mouthful of a name just for
+- [30:33] their first image generator. But
+- [30:35] anyways, this is an image model that is
+- [30:37] specifically trained to do well with
+- [30:39] anime images. Here are some examples for
+- [30:42] your reference. And the really awesome
+- [30:43] thing is this is only 3.5 billion
+- [30:47] parameters in size, which is like almost
+- [30:49] half the size of Z image Turbo. So the
+- [30:52] quantized versions of this can
+- [30:54] definitely fit comfortably on most
+- [30:56] consumer grade GPUs, or you might not
+- [30:58] even need a GPU at all. This might even
+- [31:00] work with just like a regular Intel CPU.
+- [31:02] And the awesome thing is they've
+- [31:04] released everything already. So on this
+- [31:06] page, which I'll link to in the
+- [31:07] description below here, it contains all
+- [31:09] the models you need to download, plus
+- [31:11] all the instructions on how to download
+- [31:13] and run this locally. They've even
+- [31:14] released instructions on how you can
+- [31:16] train Loras for this model, which is
+- [31:18] fantastic. Anyways, if you're interested
+- [31:20] in reading further, I'll link to this
+- [31:22] main page in the description below. Next
+- [31:24] up, this AI is pretty neat. It's called
+- [31:27] stereo world and this can convert a
+- [31:29] regular video into 3D videos with depth
+- [31:33] perception. These are called stereo
+- [31:35] videos and you'll need to watch it with
+- [31:37] 3D glasses with the left lens showing
+- [31:39] the left video and the right lens
+- [31:41] showing the right video to actually see
+- [31:43] this in 3D. And if you view it that way
+- [31:45] then the video actually looks like 3D.
+- [31:48] You'll perceive some depth in these
+- [31:50] videos. So, what this AI does is it
+- [31:52] basically takes the original video and
+- [31:53] it alters it slightly for the right and
+- [31:55] the left lenses so that there's a sense
+- [31:57] of depth involved if you view this with
+- [31:59] like stereo glasses. So, here's another
+- [32:01] example. If you're just looking at this
+- [32:03] from like your phone or computer screen,
+- [32:06] then it's really hard to tell that this
+- [32:07] is 3D. But apparently, this is the best
+- [32:10] stereo video generator right now. It
+- [32:12] even outperforms other state-of-the-art
+- [32:14] methods. So if you look at this table
+- [32:17] here, note that this new one, Stereo
+- [32:19] World, which is on the bottom row, on
+- [32:21] average gets the best benchmark score in
+- [32:24] terms of visual quality, geometric
+- [32:26] consistency, and temporal stability
+- [32:28] compared with other competitors like
+- [32:30] Stereo Crafter, which I've gone over on
+- [32:32] my channel before. Now, how they trained
+- [32:34] it is really interesting. So they fed it
+- [32:36] over 11 million video frames. And the
+- [32:39] data set includes the video for the
+- [32:42] right lens and the left lens, but also a
+- [32:45] depth map of the scene. And all these
+- [32:47] inputs are then plugged through this
+- [32:49] diffusion transformer model so that it
+- [32:51] can learn how to parse and create depth
+- [32:53] in a video. And then after training this
+- [32:55] model, then if you just plug in a
+- [32:57] regular video, this model can then
+- [32:59] convert this into, you know, two videos,
+- [33:02] one for the left and right lens with
+- [33:04] depth. Anyways, for now they've only
+- [33:05] released a technical paper on it.
+- [33:07] There's no indication whether they will
+- [33:09] open source this or not, but if you're
+- [33:11] interested in reading further, I'll link
+- [33:13] to this page in the description below.
+- [33:15] Next up, this AI is also really useful.
+- [33:18] It's called Moap Anything, and this can
+- [33:20] basically capture the movement of any
+- [33:22] object or character from a video. So, it
+- [33:24] doesn't just have to be a hot girl
+- [33:26] dancing. You can also capture the
+- [33:27] movement of a fish or a giraffe or
+- [33:29] whatever. So, here's an example. If you
+- [33:31] have video of, you know, like a bird or
+- [33:33] this wolf or this sheep, here's the
+- [33:35] ground truth or basically what the pose
+- [33:38] should look like. And then here is the
+- [33:40] prediction from this new AI model. And
+- [33:42] as you can see, it's actually able to
+- [33:44] get it pretty close to the ground truth.
+- [33:46] If you compare this to another
+- [33:47] competitor called Gen Zoo skeleton, it's
+- [33:49] not even close. Here are some other
+- [33:51] examples for your reference of different
+- [33:53] animals. It doesn't matter if it's a
+- [33:55] flamingo with a super long neck or if
+- [33:57] it's this lizard thing here. It's able
+- [33:59] to capture the movements very well,
+- [34:01] especially if you compare this to the
+- [34:02] ground truth. Now, of course, it doesn't
+- [34:04] have to just do animals. You can also
+- [34:06] apply this to characters like this. It
+- [34:09] doesn't matter if their dimensions are
+- [34:10] kind of weird. It's still able to
+- [34:12] capture the pose and even the fingers of
+- [34:15] the characters very accurately, as you
+- [34:17] can see here. Now, it doesn't have to be
+- [34:19] just a character isolated on a white
+- [34:21] background. It can also just capture the
+- [34:23] movement of anything in a regular video.
+- [34:25] Pretty impressive how it's even able to,
+- [34:27] you know, infer the movement of this
+- [34:29] crab. And also this fish. I mean, I
+- [34:31] didn't even know a pose skeleton of a
+- [34:33] fish would look like this. But here you
+- [34:35] go. Now, here's an even cooler thing.
+- [34:37] You can take the movement of an animal
+- [34:40] and apply that to the pose of another
+- [34:42] animal. So, let's say we have this
+- [34:44] crocodile. You can actually apply its
+- [34:46] movements to this eagle pose. And here's
+- [34:48] what you get. And then here are some
+- [34:49] other examples for your reference. Or we
+- [34:51] can also apply the poses of some human
+- [34:54] characters to some animal poses. And of
+- [34:56] course, we can also do the reverse. We
+- [34:58] can apply the movements from animals to
+- [35:00] human poses. So, this tool is super
+- [35:03] flexible. Here's a pretty funny one. You
+- [35:05] can apply the snake movement to this
+- [35:06] human. And here's what you get. Now, if
+- [35:09] you scroll up to the top of the page,
+- [35:10] for now, they've only released a
+- [35:12] technical paper on this. There's no
+- [35:13] indication whether they will release
+- [35:15] this yet, but if you're interested in
+- [35:17] reading further, there are a ton of
+- [35:18] examples on this page. So, I'll link to
+- [35:20] this in the description below. Also,
+- [35:22] this week, OpenAI drops their latest
+- [35:25] model, GBT 5.2. Now, here they were
+- [35:28] quite specific with what this model is
+- [35:30] good at. Their first sentence says this
+- [35:31] is the most capable model for
+- [35:33] professional knowledge work. So, there
+- [35:35] seems to be more emphasis on this point
+- [35:37] specifically. And if you look at this
+- [35:39] benchmark called GDP valve, which tests
+- [35:42] an AI model's performance on realworld
+- [35:45] work tasks across 44 jobs from the top
+- [35:48] nine industries, you can see that in the
+- [35:50] previous version, GPT5 thinking was not
+- [35:53] able to beat an expert level human most
+- [35:56] of the time. However, for both GPT 5.2
+- [35:59] pro and thinking, they were able to beat
+- [36:02] an expert level human more than half the
+- [36:04] time. So, I mean, this model is already
+- [36:06] as good as expert level human workers
+- [36:08] out there in a ton of jobs. Here are
+- [36:10] some other benchmarks for your reference
+- [36:12] comparing GPT 5.2 with Opus 4.5 and
+- [36:16] Gemini 3 Pro across these different
+- [36:18] benchmarks. Overall, GPT 5.2, at least
+- [36:21] according to these benchmarks, are
+- [36:22] better at like multi-step logical
+- [36:24] reasoning and agentic coding. Here's
+- [36:26] another key point. They also claim that
+- [36:29] this is much better at understanding
+- [36:30] things across huge context windows. So
+- [36:32] you can feed it a ton of info like an
+- [36:34] entire codebase or like a ton of long
+- [36:37] documents and it's able to find
+- [36:39] information much better than the
+- [36:41] previous versions of GPT. Here it says
+- [36:43] it's the first model that achieves near
+- [36:45] 100% accuracy on this benchmark. You can
+- [36:48] see that it's able to achieve close to
+- [36:50] 100% accuracy even if you give it a
+- [36:53] really long prompt which spans like
+- [36:55] 256,000 tokens. Whereas for GBC 5.1, the
+- [36:59] accuracy kind of tapers off as soon as
+- [37:01] you fit more information into your
+- [37:03] prompt. Apparently, it's also really
+- [37:05] good at analyzing and understanding
+- [37:07] scientific figures. So, this benchmark
+- [37:09] is called charive reasoning, and 5.2
+- [37:12] performs very well at 88.7%.
+- [37:15] It's also very good at understanding
+- [37:17] screens. Next, if you're wondering where
+- [37:19] you can use this, note that 5.2 is
+- [37:22] currently available for all paid plans.
+- [37:25] If you're on the free plan, then you
+- [37:26] can't access this yet. Now, this is just
+- [37:28] a really high-level overview of GPT 5.2.
+- [37:31] I'm actually planning to do a full
+- [37:33] review video on it. I'll probably
+- [37:35] release it Monday or Tuesday, so stay
+- [37:37] tuned for that. It's going to go way
+- [37:38] more in-depth over what it can and
+- [37:40] cannot do. For now, if you're interested
+- [37:42] in reading more, I'll link to this
+- [37:44] announcement page in the description
+- [37:45] below. Also, this week, French startup
+- [37:48] Mistrol releases another model. This
+- [37:50] time it's called Devstrol 2 and this is
+- [37:53] their latest coding model family. It's
+- [37:55] available in two sizes. One is 123
+- [37:58] billion parameters and then there's also
+- [38:00] this Devstrol Small 2 which is 24
+- [38:03] billion parameters. Now, as the name
+- [38:05] implies, this is designed to do very
+- [38:07] well at coding. And if you look at this
+- [38:09] SWEver verified benchmark, which tests
+- [38:12] an AI's performance on agentic coding,
+- [38:14] you can see that both the Devstrol 2
+- [38:16] models are actually very close to the
+- [38:19] state-of-the-art closed models out
+- [38:21] there, including Gemini 3 Pro or GPT 5.1
+- [38:25] Codeex Max. This is super impressive
+- [38:27] considering that this is open- source
+- [38:29] and it's only 123 billion parameters
+- [38:32] whereas I assume some of these closed
+- [38:34] models are like hundreds of billions or
+- [38:36] even over a trillion parameters in size.
+- [38:38] So I think this chart emphasizes this
+- [38:40] point better. So the x-axis is the model
+- [38:42] size and then the y-axis is the sui
+- [38:45] bench verified performance. Ideally you
+- [38:48] want to be in this upper left corner
+- [38:50] which means you are performant and
+- [38:51] efficient. And as you can see both
+- [38:53] Devstral models are up here. Now, it's
+- [38:55] important to say that they might be
+- [38:57] benchmaxing this a bit. In other words,
+- [38:59] they might have designed this model to
+- [39:01] do really well at this benchmark, but
+- [39:03] not the other benchmarks. Anyways, if
+- [39:04] you're interested in trying this out, as
+- [39:06] with the previous models from Mistl,
+- [39:08] they've already open sourced this. So,
+- [39:10] here you can see they've released both
+- [39:12] Devstro models on HuggingFace. If I
+- [39:14] click on this small one here, and if I
+- [39:17] sum up the size of these models, it's
+- [39:19] roughly like 26 GB in size, which is
+- [39:22] actually not bad. you can fit this on
+- [39:24] like a high-end consumer grade GPU. So,
+- [39:26] if you need a lightweight open-source
+- [39:28] model for agentic coding with Python,
+- [39:30] then Devstrol Small might be a good fit
+- [39:32] for you. Anyways, if you're interested
+- [39:34] in reading further, I'll link to this
+- [39:36] main announcement page in the
+- [39:37] description below. Next up, this AI is
+- [39:40] pretty cool. It's called Light X and
+- [39:42] this allows you to take an existing
+- [39:44] video, but you can change the camera
+- [39:46] movement of the video, plus you can also
+- [39:49] change the lighting of the video. So
+- [39:51] here are some examples of first
+- [39:53] relighting the video. On the left is the
+- [39:55] original video and on the right is the
+- [39:58] reit video. So you can change this so
+- [40:00] that it has some like purple blue
+- [40:02] sidelights like this or you can change
+- [40:04] this into this yellow sunset tone like
+- [40:07] this and it's able to apply the lighting
+- [40:09] very accurately to the video. It's
+- [40:11] actually able to, you know, detect the
+- [40:13] objects and the depth of everything in
+- [40:15] the video and apply the lighting very
+- [40:17] accurately. Now, in addition to just
+- [40:19] changing the lighting, we can also
+- [40:22] change the camera movement of an
+- [40:24] existing video. So, again, on the left
+- [40:26] is the original video and on the right
+- [40:28] is the resulting video with not only
+- [40:30] some new lighting, but also with a
+- [40:33] different camera perspective or
+- [40:34] movement. So, it can change the video to
+- [40:36] widescreen or it can zoom in a bit more.
+- [40:39] It can change the perspective of the
+- [40:41] video. It can change the camera
+- [40:42] movement. I mean, you can basically move
+- [40:44] the camera wherever you want in this
+- [40:46] scene. Here's another really cool
+- [40:48] application. You can cut out a character
+- [40:50] and put them in a new background and
+- [40:52] then plug it through this AI and it's
+- [40:54] able to relight the characters so that
+- [40:56] they blend in seamlessly with this new
+- [40:58] background. Traditionally, it would take
+- [41:00] a lot of time to do this in a video
+- [41:02] editor. But this AI can just do it
+- [41:04] instantly for you. Or instead of just
+- [41:06] taking a character and putting them in a
+- [41:08] background, you can also use a reference
+- [41:10] image which has the lighting you want
+- [41:12] and apply that to the video. In addition
+- [41:15] to just the image lighting, you can also
+- [41:17] apply an HDR map to the video like this.
+- [41:21] So, this is a super versatile tool. So,
+- [41:24] really quickly, here's how it works. It
+- [41:25] would first take in your input video and
+- [41:28] the AI would basically reconstruct a 3D
+- [41:30] point cloud from the video. So, this is
+- [41:33] basically like a 3D generation of the
+- [41:35] scene. From this, if you choose to
+- [41:37] relight the video, it can also relight
+- [41:39] this point cloud. And then it would plug
+- [41:41] this data all the way back through here.
+- [41:43] And then afterwards, it goes through
+- [41:45] multiple diffusion transformer blocks to
+- [41:47] generate and relight the video and
+- [41:49] change the camera's perspective if you
+- [41:51] choose to. And then afterwards, it
+- [41:52] outputs your final video over here. The
+- [41:55] awesome thing is if you scroll up to the
+- [41:57] top of the page, they've already
+- [41:58] released this for you to download. So if
+- [42:01] you click on this GitHub repo and you
+- [42:03] scroll down a bit here, it contains all
+- [42:04] the instructions on how to download and
+- [42:07] run this locally on your computer. They
+- [42:09] haven't specified the VRAM requirements
+- [42:11] for this, but if I click on their
+- [42:14] hugging face repo, the total size of
+- [42:16] their diffusion model is only 23 GB in
+- [42:19] size, so you can likely fit this
+- [42:20] comfortably within a high-end consumer
+- [42:22] grade GPU. Anyways, if you're interested
+- [42:25] in reading further, I'll link to this
+- [42:26] main page in the description below. Next
+- [42:29] up, we have this AI by Meta called One
+- [42:32] Story, and this can generate multiple
+- [42:34] consistent clips of a scene from a text
+- [42:36] prompt or a reference image. So, here's
+- [42:38] an example of 10 videos generated at
+- [42:41] once. Notice how consistent everything
+- [42:43] is. For example, the papaya tree remains
+- [42:46] consistent across the videos. And then
+- [42:48] the appearance of the husband and wife
+- [42:50] also remain consistent across all these
+- [42:52] videos. So, you can then stitch them
+- [42:54] together to create a very coherent long
+- [42:57] story. Here's another example. This
+- [42:59] time, it's of a different art style. And
+- [43:01] again, it's able to generate the scene,
+- [43:03] the characters, and the objects
+- [43:05] consistently across all 10 clips. Now,
+- [43:08] instead of just a text prompt, you can
+- [43:09] also just upload a reference image to
+- [43:11] use for your generation. So, let's say
+- [43:13] you upload a photo of Yong Lakun. Well,
+- [43:16] you can then generate 10 videos of this
+- [43:18] person doing various things. And as you
+- [43:20] can see, he remains consistent across
+- [43:22] all the clips. Or we can do the same
+- [43:25] thing with this cat. And again,
+- [43:26] everything including the scene and the
+- [43:28] objects remain consistent throughout
+- [43:30] these generations. Really quickly,
+- [43:32] here's the magic behind it. The model
+- [43:34] treats each generation as like the next
+- [43:36] shot prediction. In other words, it
+- [43:38] focuses on generating the next scene
+- [43:40] based on what came before. So during
+- [43:42] inference, it actually keeps a memory
+- [43:44] bank of all the past shots and uses them
+- [43:47] one by one to generate longer multi-shot
+- [43:50] videos sequentially. And this system
+- [43:51] actually has two different modules. We
+- [43:53] have this frame selection which
+- [43:55] basically chooses the most relevant
+- [43:56] frames from the previous shots to
+- [43:58] capture the overall context. And then we
+- [44:00] also have this adaptive conditioner
+- [44:02] which compresses that context and feeds
+- [44:04] it efficiently into the generator to
+- [44:07] generate the next clip. So together
+- [44:08] these parts basically help the model
+- [44:10] remember the story globally so that it
+- [44:13] can generate the next scene
+- [44:14] consistently. Now because this is from
+- [44:16] meta like before they haven't actually
+- [44:18] released anything yet. They've showcased
+- [44:20] a ton of image and video generators
+- [44:22] before but they just haven't released
+- [44:23] anything. So I don't think they're going
+- [44:25] to release this either. But this is a
+- [44:27] very useful tool because current video
+- [44:29] generators can only make clips of like
+- [44:31] up to 10 seconds long. So there is a
+- [44:33] need for a tool that can create multiple
+- [44:36] consistent clips. Anyways, if you're
+- [44:38] interested in reading further, I'll link
+- [44:40] to this main page in the description
+- [44:41] below. Next up, this AI is also very
+- [44:44] useful. It's called Saber, and this is
+- [44:47] basically reference to video where you
+- [44:49] can upload a reference image of a person
+- [44:51] or object, and it will insert them into
+- [44:53] the video. And the consistency is
+- [44:55] state-of-the-art. For example, if we
+- [44:57] input a photo of Einstein, notice that
+- [44:59] for other tools like Phantom and Vase.
+- [45:02] I'm not sure why, but somehow, at least
+- [45:04] according to their generations, it
+- [45:06] wasn't able to insert Einstein, but
+- [45:08] Saber was able to do this very well. I
+- [45:10] think they might be cherry-picking
+- [45:12] though, because I mean, Phantom and Vase
+- [45:14] are already pretty good. But anyways,
+- [45:15] here are some other examples. This time,
+- [45:18] we input these three ladies. And as you
+- [45:20] can see, it seems like Saber is the most
+- [45:22] consistent. For Phantom and Vase, their
+- [45:25] faces are kind of all messed up. They
+- [45:27] definitely don't look like the
+- [45:28] characters in the reference photos. And
+- [45:30] then same with this bull here. For both
+- [45:32] Phantom and Vase, they failed to
+- [45:34] actually get the bull correct, but Saber
+- [45:37] was able to do this very well. Here's
+- [45:39] another example where we can add
+- [45:40] multiple objects into the video. And as
+- [45:43] you can see, Saber was able to do this
+- [45:45] very well. Here's another example for
+- [45:47] your reference. Notice that the
+- [45:49] character consistency of Saber is really
+- [45:51] good. Here's an even trickier example
+- [45:53] where we have two screens. And notice
+- [45:56] that Saber was the only one that was
+- [45:58] actually able to capture all the details
+- [46:00] of the screens. So, it's really good at
+- [46:02] consistency. There are a ton of examples
+- [46:05] on this page. So, in the interest of
+- [46:06] time, I'm not going to go over
+- [46:08] everything, but if you scroll up to the
+- [46:09] top of the page, they have released a
+- [46:11] GitHub repo. And over here, it says the
+- [46:14] training and inference code will be
+- [46:15] released once it has been organized. So
+- [46:18] stay tuned for that. Meanwhile, if
+- [46:20] you're interested in reading further or
+- [46:21] checking out more demos, I'll link to
+- [46:23] this main page in the description below.
+- [46:25] And that sums up all the highlights in
+- [46:27] AI this week. Let me know in the
+- [46:30] comments what you think of all of this.
+- [46:32] Which piece of news was your favorite?
+- [46:34] And which tool are you most looking
+- [46:35] forward to trying out? As always, I will
+- [46:38] be on the lookout for the top AI news
+- [46:41] and tools to share with you. So, if you
+- [46:43] enjoyed this video, remember to like,
+- [46:45] share, subscribe, and stay tuned for
+- [46:47] more content. Also, there's just so much
+- [46:50] happening in the world of AI every week,
+- [46:52] I can't possibly cover everything on my
+- [46:54] YouTube channel. So, to really stay
+- [46:56] uptodate with all that's going on in AI,
+- [46:59] be sure to subscribe to my free weekly
+- [47:02] newsletter. The link to that will be in
+- [47:04] the description below. Thanks for
+- [47:06] watching, and I'll see you in the next
+- [47:07] one.

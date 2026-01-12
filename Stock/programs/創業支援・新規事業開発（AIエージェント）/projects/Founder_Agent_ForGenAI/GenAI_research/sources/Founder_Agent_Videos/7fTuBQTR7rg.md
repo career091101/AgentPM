@@ -1,0 +1,4281 @@
+---
+title: "YouTube Video: 7fTuBQTR7rg"
+video_id: "7fTuBQTR7rg"
+video_url: "https://www.youtube.com/watch?v=7fTuBQTR7rg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Tutorial"
+summary: |
+  Sorry. Okay. So, I can see that we have people joining in. Thanks everyone for joining us today. Welcome to the workshop with Luis Terrano. Uh we'll be starting shortly but before that I would just li...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 7fTuBQTR7rg
+
+- URL: https://www.youtube.com/watch?v=7fTuBQTR7rg
+- Retrieved at: 2025-12-30T09:45:20+09:00
+
+## Text
+
+- [00:04] Sorry.
+- [00:20] Okay. So, I can see that we have people
+- [00:23] joining in. Thanks everyone for joining
+- [00:25] us today. Welcome to the workshop with
+- [00:27] Luis Terrano. Uh we'll be starting
+- [00:30] shortly but before that I would just
+- [00:31] like to give everyone some guidelines
+- [00:33] for the workshop to make sure that it's
+- [00:35] also smooth and engaging. Um couple of
+- [00:38] guidelines just please make sure that
+- [00:39] you are on mute unless you're asking a
+- [00:41] question to avoid any kind of background
+- [00:43] background noise when Luis is speaking
+- [00:45] and teaching. If you would like to speak
+- [00:48] you can just uh use the raise on raise
+- [00:50] hand option and wait for Louise to call
+- [00:52] on you before unmuting. You can also
+- [00:54] drop your questions in chat anytime. And
+- [00:57] since this is an interactive discussion,
+- [00:59] we just want to make sure we encourage
+- [01:00] everyone to participate. Uh so please be
+- [01:03] respectful, give others a chance as
+- [01:04] well. And if possible, keep your cameras
+- [01:06] on to make sure the workshop is more
+- [01:08] engaging. Uh moreover, don't worry about
+- [01:10] the recording and the resources. We'll
+- [01:12] be sharing them with you afterwards,
+- [01:14] most likely early next week. Um finally,
+- [01:17] that's all. We're very excited uh for
+- [01:19] the session. And Luis, you can take
+- [01:20] over. Thank you.
+- [01:23] >> Thank you, Navia. Thank you. Uh thank
+- [01:25] you everybody. I'm so happy to to be
+- [01:27] here. Uh welcome. I hope you've been
+- [01:30] enjoying the uh the the conference and
+- [01:34] uh yeah, so today we're going to talk
+- [01:35] about a visual journey through transform
+- [01:37] models. So as Nia said, yeah, I like I
+- [01:39] like this more I I like to have a more
+- [01:41] of a a chat than a than um a monologue.
+- [01:47] So uh definitely I'd love to hear your
+- [01:50] opinion. Sometimes I will ask questions
+- [01:52] in which case you can answer either by
+- [01:55] typing or by
+- [01:58] or or by just talking. Uh and if you
+- [02:01] want to turn on your camera, you don't
+- [02:02] have to, but that's a bonus then. Uh
+- [02:05] that'll actually fun for me. Uh so hi.
+- [02:10] Cool. All right. So let me tell you what
+- [02:11] we're going to do today. We're going to
+- [02:12] do it's going to be three hours uh with
+- [02:14] a break uh around around half of the
+- [02:17] time. uh
+- [02:20] and uh we're going to do four things. So
+- [02:23] we're going to talk about transformers
+- [02:25] like their strengths and weaknesses. Uh
+- [02:27] we're going to talk about their
+- [02:29] architecture actually in in in great
+- [02:31] detail but uh I don't like formula so
+- [02:33] you'll get uh a very very visual ve very
+- [02:37] visual approach to to how transformers
+- [02:40] operate and then after we learn how they
+- [02:42] work we really learn how to get the best
+- [02:44] of them. So things like retrieval
+- [02:45] augmented generation, things like
+- [02:47] agents, things like all those things uh
+- [02:49] more focused on, you know, what why we
+- [02:51] need them, what exactly is it that that
+- [02:53] agents are are going for? Um and what
+- [02:58] are the strengths and weaknesses that
+- [03:00] we're trying to either mitigate or get
+- [03:02] or or or use to our to our favor. Uh and
+- [03:06] then we have a couple of labs uh on on
+- [03:08] agents that we'll get to at the at at
+- [03:12] the end. Okay. So as I said any any
+- [03:15] questions any comments everything uh by
+- [03:17] all means I I'm I'm all ears. So let's
+- [03:21] start with strengths or weaknesses of
+- [03:23] LLM. So you may have uh seen some some
+- [03:27] you may have I'm pretty sure you've used
+- [03:29] them extensively. So anyone want to
+- [03:32] share any strengths or weaknesses you've
+- [03:33] seen? Uh could be in the chat or talking
+- [03:35] could be something like uh it does this
+- [03:37] well it doesn't do this very well and I
+- [03:39] will I will write a couple myself. So
+- [03:41] any any thoughts?
+- [03:48] What are they hallucinating? Yes. Yeah.
+- [03:50] Very good. They they they certainly
+- [03:52] hallucinate. Um things that they do
+- [03:55] well, you know. I feel like it. Yeah.
+- [03:57] Bias. I mean, very good. Uh they speak
+- [03:59] well, right? Like uh by the way, uh
+- [04:02] Navina, are we recording this?
+- [04:06] >> Uh recording. Okay.
+- [04:08] >> It's getting recorded.
+- [04:09] >> It's being record. Okay. Sounds good.
+- [04:11] Uh, Robert says, "Too eager to answer.
+- [04:13] Not good at saying I don't know." Yes,
+- [04:15] exactly. That's That's very bad. I I
+- [04:17] really think it needs it needs to start
+- [04:19] saying I don't know. Um, so let's start
+- [04:22] with the strengths. It It speaks well.
+- [04:24] You can't never really It It knows the
+- [04:27] lingo of every subject, right? Like it
+- [04:28] it's someone who's seen a lot of stuff
+- [04:30] and knows how to sound like an expert
+- [04:31] even if it is not an expert. Uh, it can
+- [04:34] talk about many topics. Uh, it follows
+- [04:36] orders. Well, I I trust it with orders.
+- [04:38] If I say summarize this, get me the
+- [04:40] three best uh top points on this, I I
+- [04:43] trust it. I'm not going to trust it 100%
+- [04:44] for anything, but I trust it for that
+- [04:46] more than for like medical advice,
+- [04:48] right? Um Hallucinates like Se said. Uh
+- [04:51] yes, Alex just said exactly. Yeah,
+- [04:53] exactly. Excellent summarization of
+- [04:55] documents. That's that's where you trust
+- [04:56] it and we'll see why. We'll see why the
+- [04:58] strengths and the weaknesses. Uh
+- [05:01] it doesn't always tell the truth as we
+- [05:03] know and as many cases we've seen. uh
+- [05:06] case some lawyers who took it to to
+- [05:08] court with some stuff Fatty PT told them
+- [05:10] and and cases and dates and stuff. They
+- [05:12] were all completely wrong because it
+- [05:13] knows how to sound correct but it it has
+- [05:16] no it has no notion of of correctness.
+- [05:21] Uh says generates SQL code well given
+- [05:24] the context and the prompts very
+- [05:25] important. Yeah, given that you prompted
+- [05:27] well it's good at code. I I write a lot
+- [05:29] of code with it. Um, I don't let it by
+- [05:32] itself, but if you guide it correctly,
+- [05:34] uh, weaknesses, it it doesn't know. It
+- [05:36] has no concept of the truth. No concept
+- [05:38] of the truth. It's not a database. Okay?
+- [05:40] It may get used to the truth. So, people
+- [05:42] say it hallucinates a few times. I think
+- [05:44] it always hallucinates. Sometimes it
+- [05:46] happens to hallucinate the truth, but
+- [05:49] that's uh that's it. Um, here's here's
+- [05:52] one. Oh, no. And and it and it
+- [05:53] compensates with an excess of
+- [05:54] confidence, right? Like what Robert
+- [05:56] says, it doesn't know how to say I don't
+- [05:58] know. Big problem. Uh here's here's a a
+- [06:01] weakness and a strength that I see. Um
+- [06:05] says uh yeah, proof of concept goes
+- [06:07] well. Production seems hard. Yeah,
+- [06:09] absolutely. It it has its limits, right?
+- [06:12] Uh here's my favorite weakness and
+- [06:14] strength which kind of puzzled me for a
+- [06:16] while. Have you ever asked it to tell
+- [06:18] you a joke?
+- [06:21] Uh not not a joke it knows. A joke that
+- [06:24] it comes up with by itself. I did. And
+- [06:27] it says, "Why did the cloud start a
+- [06:28] podcast?" Because it had so many high
+- [06:30] thoughts to share.
+- [06:34] No, that's very bad. Uh, it's not good
+- [06:38] at telling jokes. So, but on the other
+- [06:40] hand, have you ever asked for a poem?
+- [06:42] Said, "Write a poem about machine
+- [06:43] learning in the style of Shakespeare."
+- [06:44] Oh, runs hard by mortal minds designed
+- [06:47] to teach cold steel to think, to learn,
+- [06:49] to can. That's pretty good, Robert.
+- [06:52] Yeah, this is this is definitely that
+- [06:54] that joke. Um, yeah, the the poem is
+- [06:57] really good. Now, I'm not saying it's
+- [07:00] good for a poet. Like a poet may look at
+- [07:02] this and be like, it's not that good.
+- [07:03] But for me, who knows little about jokes
+- [07:05] and little about poets poems, this is a
+- [07:08] good poem and a bad joke. That drives me
+- [07:10] crazy. That drives me crazy because if
+- [07:13] the mo if you if you show me the poem,
+- [07:15] then I say the mo the model can look at
+- [07:17] all the poems and generate a good one.
+- [07:18] It can it can mimic the data it's given.
+- [07:21] Then I look at the joke and it says no.
+- [07:23] It looked at all the jokes and it can't
+- [07:25] generate it. It could not
+- [07:29] replicate the data it's given. So is it
+- [07:30] smart or is it dumb? Is it a good model
+- [07:32] or not? Can it replicate the data given
+- [07:34] or can it not? The answer is there's uh
+- [07:37] we'll we'll we'll put this in pause and
+- [07:39] I'll come back to this but there is a
+- [07:43] particular strength and weaknesses that
+- [07:45] of of of of language models that makes
+- [07:48] the joke the the exact uh achilis heel
+- [07:54] and the poem a strength of it and we'll
+- [07:57] see and once you know this this sort of
+- [07:59] like uh this strength and this weakness
+- [08:03] it just pretty much unravels how they
+- [08:04] work and how what justifies agents, what
+- [08:07] justifies rag and stuff like so we'll
+- [08:10] get to that uh through the scenic route.
+- [08:12] Uh so I'll get to that by the maybe the
+- [08:14] second part of but think about it while
+- [08:16] I talk about language models or we talk
+- [08:18] think about what could be that strength
+- [08:20] that makes it write good poems and that
+- [08:22] weakness that tells it makes it tell
+- [08:24] horrendous jokes. Um so we'll we'll
+- [08:27] we'll get to that but let's go to the
+- [08:29] basics. Let's go to uh what's
+- [08:31] discriminative and what's generative AI.
+- [08:34] Um, so let me ask you a question now.
+- [08:36] Feel free to put a thumbs up, thumbs
+- [08:37] down, put in the chat or even just just
+- [08:39] talk. Uh, what do you prefer, a
+- [08:42] multiplechoice question or an essay type
+- [08:45] question? And by that I mean what's
+- [08:46] easier, right?
+- [08:51] Exactly. Everybody says multiple choice
+- [08:53] question. It's definitely easier to do
+- [08:55] multiple choice question than to write
+- [08:56] an essay, right? Um, give me and and and
+- [09:00] the multiple choice question is
+- [09:02] basically predictive ML. Essay type
+- [09:03] question is basically generative ML. Um,
+- [09:06] why is it easier? Give me a couple of
+- [09:08] reasons why multiplechoice question is
+- [09:10] easier than essay type question.
+- [09:17] Choice versus generation. Exactly. Good
+- [09:20] job. Robert says, "Limit of choices."
+- [09:21] Yes, you know the answers. The answer is
+- [09:23] there. I I cannot look too dumb in a in
+- [09:26] a multiple choice question because I can
+- [09:27] just say I missed the question. But in
+- [09:29] an essay, they give me all the potential
+- [09:30] to look to show how much I don't know.
+- [09:32] It's it's an open it's a blank sheet of
+- [09:34] paper to to show my non-nowledge. Right.
+- [09:38] Uh determined definite pointed and
+- [09:40] specific. Yeah. Na says not a variable
+- [09:42] answer. Uh no room to be absolutely
+- [09:45] right. Uh good job everybody. Uh so one
+- [09:49] one one thing is yeah you can guess. You
+- [09:51] cannot guess an SE type question. uh for
+- [09:53] example requires understanding the
+- [09:55] language. If if you barely speak a
+- [09:56] language, if you understand a language
+- [09:58] but not speak it, like if you're at the
+- [09:59] dualingual level of like I can answer
+- [10:01] questions but I can't really talk. You
+- [10:04] could do a multiple choice test. Not
+- [10:07] with an essay. Essay you can't fake it,
+- [10:10] right? So the main thing is this
+- [10:12] multiple choice requires understanding
+- [10:15] whereas essay type requires creating and
+- [10:18] understanding is easy. Creating is hard.
+- [10:22] I can understand how a Picasso looks
+- [10:23] like. I can be an expert and tell you
+- [10:25] what is a Picasso. Only Picasso can draw
+- [10:26] a Picasso, right? I can return a dish to
+- [10:29] the kitchen and be like I have 10 I have
+- [10:32] a lot of feedback on this dish but I
+- [10:33] can't go and cook it. Right? So for
+- [10:35] computers and for humans understanding
+- [10:37] is easy, creating is hard. Uh and and as
+- [10:42] I said understanding is predictive
+- [10:43] machine learning is answering multiple
+- [10:45] choice questions and the essay type
+- [10:46] question of generating is generative
+- [10:48] machine learning. So 10 years ago when
+- [10:50] like machine learning started becoming a
+- [10:52] household name uh that was because of
+- [10:54] predictive emails. Who remembers when
+- [10:56] when it started genered
+- [10:59] being able to determine if an email was
+- [11:02] spam or not? That was a multiple choice
+- [11:04] question, right? It's got to kind of
+- [11:06] understand the email. Uh or or he
+- [11:08] remembers when like it started saying,
+- [11:10] "Oh, a cat is in this image." Uh
+- [11:13] identifying classifying images. That was
+- [11:15] that was huge at the time. Now it's like
+- [11:17] prehistoric. But at the time I remember
+- [11:19] like everybody was shocked when you just
+- [11:21] be like look at a cat and be like yes
+- [11:23] there's a cat. Like that's amazing. Uh
+- [11:26] generally took 10 more years because
+- [11:28] it's much harder. Now you have to write
+- [11:30] the email or now you have to um draw the
+- [11:34] cat. That's much harder than saying if
+- [11:35] something's a cat or not, right? I
+- [11:37] cannot draw a cat but I can tell you if
+- [11:38] something's a cat. So basically we have
+- [11:41] this premise and and and and I remember
+- [11:44] 10 years ago being in in in in in in
+- [11:46] Silicon Valley in in talk there was
+- [11:48] always a talk about a chatbot. Everybody
+- [11:51] wanted to build a chatbot. That was the
+- [11:54] holy grail of AI. Uh because there's no
+- [11:57] there's no old movie uh futuristic movie
+- [11:59] without a a robot that talks or a car
+- [12:01] that talks or a a fridge that talks
+- [12:05] anything talks, right? needed a chatbot.
+- [12:08] And the question that that basically the
+- [12:11] scientists were scratching their heads
+- [12:12] is we have an understander machine. We
+- [12:16] don't have a creating machine. We have a
+- [12:17] machine that understands text. It can
+- [12:19] tell you what you're talking about. How
+- [12:21] do you make it talk? That's not easy.
+- [12:25] How do you make it talk? Right? Uh so
+- [12:28] help me out. I mean, let's remove the
+- [12:30] computers out of this question and let's
+- [12:32] say that we have a a magic a crystal
+- [12:35] ball that will answer any multiple
+- [12:36] choice question and we take it to an
+- [12:39] exam and oh surprise the exam is about
+- [12:42] uh it's an essay type question. So what
+- [12:44] do we do? Help help me out. Give me some
+- [12:46] ideas. How would you get how do you
+- [12:48] write an essay with a crystal ball that
+- [12:52] only answers multiple choice questions?
+- [12:59] Felic says you can't. That's pretty much
+- [13:01] the answer. Oh, see I got it. Yeah.
+- [13:03] Yeah. Yeah. One one word at a time. The
+- [13:05] answer says create sentence out of the
+- [13:07] options. Uh yeah, we could start asking
+- [13:09] it stuff, right? Like how should I start
+- [13:12] from these four starters? Which one is
+- [13:14] better? Uh but yes, Cen and Alex
+- [13:18] actually the the the way to do it. Um
+- [13:22] yeah, Robert says make DSA into small uh
+- [13:25] pieces, decompose. So a lot of ways, a
+- [13:27] lot of ways to go and as a human, we
+- [13:29] could use it in in smart ways, right?
+- [13:31] Like we could say, hey, uh you know, out
+- [13:34] of these three openings, which one
+- [13:35] should I use? But the computer knows
+- [13:38] much less. So the computer has to do
+- [13:40] what was suggested here, one word at a
+- [13:42] time. So the first question, it sounds
+- [13:44] like a stupid question, but the first
+- [13:45] question is, I'd like to write an essay
+- [13:47] about the Renaissance. What would the
+- [13:49] first word be? and we give it all the
+- [13:50] options. This is a multiple choice
+- [13:52] question. It's a lot of options, by the
+- [13:54] way. Do you see my mouse?
+- [13:57] Give me a thumbs up. Yeah. Okay,
+- [13:58] perfect. Um, it's a multiple choice
+- [14:01] question. It's a perfectly fine multiple
+- [14:02] choice. Yeah, there's a lot of options.
+- [14:04] But, you know, the crystal ball answers
+- [14:07] the and I just write the. Okay, nice.
+- [14:11] Now, I go to the next word and I said,
+- [14:13] next question. I said, I'd like to write
+- [14:14] an essay about the Renaissance. The
+- [14:15] first word is the. What would the second
+- [14:18] word be? and the ball says, "Well,
+- [14:21] probably Renaissance." And you just
+- [14:23] write it one word at a time. So that's
+- [14:28] exactly how LLM's work. They talk one
+- [14:33] word at a time. So when I think of a
+- [14:34] transformer, uh, it generate text, but
+- [14:37] one word at a time. Honestly, that
+- [14:40] drives me crazy. I have to confess. I I
+- [14:43] I find that ridiculous. it works. But I
+- [14:46] do think uh I do think that there's a
+- [14:50] better something in the future. Maybe
+- [14:52] the next iteration of of chatbots is
+- [14:54] going to think a little bit ahead and
+- [14:56] revise uh how we generate images. We
+- [14:59] first generate noise and then clean it
+- [15:00] up. Clean it up clean. I feel that just
+- [15:02] just from this is just my my thoughts
+- [15:05] that I think that's going to be but
+- [15:06] right now we have a machine that talks
+- [15:08] one word at a time. Muskumar has a great
+- [15:11] question. How do you know when to stop?
+- [15:13] Well, you give it, you see this little
+- [15:15] final thing says final period. It's
+- [15:17] another character. So, you put all the
+- [15:18] words, all the question marks, periods,
+- [15:20] and you put a hard stop. And when it
+- [15:22] reach that hard stop, it's like typing
+- [15:24] an extra word. And this is the last one.
+- [15:25] Okay. Uh, so if you want the transformer
+- [15:30] to say, you say, "Hello, how are you?"
+- [15:32] it just completes the next word. And if
+- [15:34] you wanted to write a story, it's not
+- [15:35] going to write a story. It's just going
+- [15:36] to give you the first word. It's going
+- [15:37] to say like once. That's all it says. Do
+- [15:40] you want to continue? You have to ask
+- [15:42] for the next word. So you take the once
+- [15:44] and put it back in the input and it goes
+- [15:46] write a story once and it goes
+- [15:49] upon
+- [15:50] and then you want okay you want it's
+- [15:52] like you go to a restaurant and you
+- [15:54] order a meal and they give you the first
+- [15:55] grain of rice and then you have to order
+- [15:56] the second grain of rice and it's very
+- [15:58] frustrating but luckily it's fast. So
+- [16:00] you just keep putting stuff in the input
+- [16:03] uh and it generates the story. So it
+- [16:06] generates one word at a time and this
+- [16:08] drives me crazy for two reasons. first
+- [16:10] because it's it's just I don't think
+- [16:11] it's a good way to talk. I mean, I love
+- [16:13] the fact that it works and we have a lot
+- [16:15] of tools that we use to make it work
+- [16:18] better, but this explains why it
+- [16:19] hallucinates, right? Oh,
+- [16:22] sorry.
+- [16:27] Sorry. When my phone rings, my computer
+- [16:29] also does something. Uh, is everybody
+- [16:31] hearing me? Okay,
+- [16:34] thank you.
+- [16:36] >> Yes, Luis.
+- [16:38] >> Sorry about that. Uh
+- [16:42] one moment.
+- [16:46] Okay, thank you. Um so, so this is the
+- [16:50] reason why the thing hallucinates,
+- [16:52] right? As a matter of fact, now that we
+- [16:55] know this, it should hallucinate more.
+- [16:57] Like, um but there's another reason why
+- [17:00] that drives me crazy, and it's that that
+- [17:03] existed already. I introduce you to the
+- [17:05] autocomplete button in the text or
+- [17:07] WhatsApp or anything like that. You say
+- [17:11] a sentence and then it gives you the
+- [17:12] next word. It gives you three. It's like
+- [17:15] three chat GPTs. Uh and and it does it
+- [17:18] well. I mean the autocomplete is a
+- [17:21] predictive model that gives you the next
+- [17:24] word in a sentence and it does it quite
+- [17:26] well. Uh you know it uses a neural
+- [17:30] network. Uh thumbs up, thumbs down. Do
+- [17:33] you know neural networks? Have you seen
+- [17:34] them? We're going to we're going to see
+- [17:35] them later today uh in in in a visual
+- [17:39] way, but would love to know how you uh
+- [17:42] familiarize with neural networks. It's
+- [17:44] basically a neural network that you
+- [17:45] input the sentence and it tells you what
+- [17:48] they think it's the next word. Now, we
+- [17:50] had a chatbot. We had a chatbot all this
+- [17:52] time, right? Uh why didn't we use it as
+- [17:54] a chatbot? Have you ever tried to use
+- [17:57] the autocomplete button as a chatbot and
+- [17:59] keep pressing the middle button to make
+- [18:01] a talk? Uh, it goes, I tried this and
+- [18:03] go, "Hello, how are you feeling this
+- [18:04] week and your kind wishes for a
+- [18:05] wonderful weekend with your kindness and
+- [18:06] happiness for your family? Love you and
+- [18:08] your kindness." It's not very eloquent.
+- [18:10] It talks like Dory, right? Like Dory the
+- [18:13] fish, it just forgets it. It doesn't
+- [18:15] have a great attention span. So, it
+- [18:16] keeps changing topic, but it's not so
+- [18:19] bad because I mean, even Dory has has
+- [18:21] decent grammar, right? Because like look
+- [18:24] at every four words. Hello, how are you
+- [18:26] feeling? and happiness for your liberty
+- [18:28] blah blah like it it remembers a few
+- [18:31] words behind it doesn't have a huge
+- [18:33] context window but it it's not so bad
+- [18:36] right uh but the question is how did we
+- [18:39] get from the autocomplete to language
+- [18:42] models okay so a lot of things happened
+- [18:45] but from 10 years from ago from now to
+- [18:47] now uh 10 three three things happened uh
+- [18:50] one is that we just we just have more
+- [18:52] more computers we can fit a trillion
+- [18:54] chad GPD has a trillion parameters uh we
+- [18:57] can we can handle and and compute much
+- [19:00] much faster. Um but that's not the main
+- [19:03] reason. Uh we also have more data,
+- [19:05] right? Like everything we say,
+- [19:06] everything we do, everything just
+- [19:08] generates data. We have a ton of data.
+- [19:10] Uh but that's also not what did it. What
+- [19:12] did it is the attention mechanism. Okay,
+- [19:15] the attention mechanism is what made
+- [19:18] these things talk well. Uh so um
+- [19:24] basically it went from like this thing
+- [19:26] that sounds like Dory to like this thing
+- [19:28] where you can ask him about Niche's
+- [19:30] philosophy applied to AI and it just
+- [19:32] tells you a wonderful thing. Uh so what
+- [19:35] what what is special about it? When you
+- [19:37] create the word they both talk one word
+- [19:39] at a time but when you create the word
+- [19:42] kindness here it pretty much uses the
+- [19:46] last three to four five words. it just
+- [19:49] doesn't have the capacity to to see
+- [19:51] back. If you try to get it to work to
+- [19:53] see the word hello, it start smoke
+- [19:54] starts coming out of the computer
+- [19:56] because it doesn't uh have that power.
+- [19:58] It doesn't have that context window or
+- [20:00] the capacity to manage it. On the other
+- [20:03] hand, we're going to come up with the
+- [20:04] word algorithms here. It can see
+- [20:06] everything back. It can say kilometers
+- [20:08] back. Uh, and not only that, here's
+- [20:11] here's a we're going to talk a lot about
+- [20:13] the attention mechanism today, but here
+- [20:15] is um something special. With a context
+- [20:20] window so large, how does it know where
+- [20:21] to look? Well, it looks at what's
+- [20:23] similar to the stuff it's saying right
+- [20:25] now. So, algorithms, AI, AI systems,
+- [20:27] decision-m, artificial intelligence, it
+- [20:29] looks more at the stuff that is more
+- [20:32] similar to what it's saying right now.
+- [20:34] So, the Wasab autocomplete has a bias on
+- [20:37] recency. It pays more attention to the
+- [20:39] stuff you just said. On the other hand,
+- [20:41] this one has a bias on similarity. It
+- [20:44] pays more attention to oh to the stuff
+- [20:47] that is similar to what it's saying
+- [20:49] right now. That's the change. That's why
+- [20:51] it can talk. Okay, that's the main
+- [20:53] change that made the talk. So in other
+- [20:55] words, if I say for example uh football
+- [20:57] and I've been talking for a while and I
+- [21:00] talk about the economy recently and and
+- [21:02] pizza but an hour ago I said uh talked
+- [21:04] about football then it just pays more
+- [21:06] attention to that because it has a
+- [21:08] concept of similarity. This is very
+- [21:10] important. One of the fundamental
+- [21:11] concepts in in language models is when
+- [21:14] are two words similar and when are two
+- [21:17] words different. And so it can tell that
+- [21:20] football and ball are similar but
+- [21:21] football and pizza or football and
+- [21:23] economy are not similar. So that's the
+- [21:25] attention mechanism. That's the thing
+- [21:27] that made a talk. Uh it was introduced
+- [21:29] in this paper by a bunch of people from
+- [21:31] Google. Attention is all you need 2017
+- [21:34] and it took until 2022 I think uh to
+- [21:37] make Chad GPT talk. Well, um but this is
+- [21:41] this is when attention uh was introduced
+- [21:45] um for l for large language models. And
+- [21:49] when you look at the the uh diagram for
+- [21:52] transformers, uh this is ugly. I have a
+- [21:55] I have a cleaner one, but uh this is the
+- [21:58] feed forward. This is the neural network
+- [22:00] that talks the the WhatsApp
+- [22:02] autocomplete. And this one over here is
+- [22:04] masked attention. Uh we're going to go
+- [22:07] through pretty much every moving piece
+- [22:09] here today. Um but let me tell you
+- [22:12] basically how I look at it. I like to
+- [22:14] look at transformers in the following
+- [22:15] way. Let's say my prompt is write a
+- [22:17] story and the output's going to go here.
+- [22:19] First you go through something called
+- [22:20] tokenization. We'll talk about it. Then
+- [22:23] embedding very important. Then
+- [22:26] positional encoding
+- [22:28] uh which gives the words order. And then
+- [22:30] you get to the meat of the transformer
+- [22:32] which is a series of transformer blocks
+- [22:35] where you have feet forward and
+- [22:37] attention. We'll talk about those. And
+- [22:39] then finally you get the soft max and
+- [22:42] that uh gets to the next word once. So
+- [22:47] quick this fit forward is the neural
+- [22:50] network that talks from the wasap
+- [22:51] autocomplete and uh this attention is uh
+- [22:56] what we're going to talk about that that
+- [22:57] that made it have bigger context windows
+- [23:01] uh and um so basically we're going to
+- [23:04] get to part two of today which is we're
+- [23:07] going to talk a lot about the
+- [23:08] architecture of transformers.
+- [23:12] Uh quick break. Any any quick questions?
+- [23:14] Uh anything that comes up before we dive
+- [23:17] into into all this? Basically, we're
+- [23:20] going to see all these moving pieces.
+- [23:23] All good. Okay. Uh so let's get to the
+- [23:26] architecture of transformers. I know I I
+- [23:28] I sold attention a lot, but embeddings
+- [23:30] are are fundamental. Absolutely
+- [23:33] fundamental in all of uh AI, I would
+- [23:35] say, in all of AI. uh
+- [23:39] because embeddings are where the rubber
+- [23:40] meets the road. Embeddings are what
+- [23:43] makes uh what turns computers, humans
+- [23:46] speak uh to computers speak because we
+- [23:49] speak in uh words and uh computers speak
+- [23:53] in numbers. They have no idea what a
+- [23:54] word is. The most advanced computer has
+- [23:55] no idea what a word is. Uh they only do
+- [23:58] numbers and they do wonders with numbers
+- [23:59] and we want to benefit from what the
+- [24:01] wonders they do with numbers and use it
+- [24:03] to language. So we need a good bridge
+- [24:05] and the bridge is the embedding. It's
+- [24:07] really the translation and uh it's it's
+- [24:10] really not nothing more than taking
+- [24:12] words and sending them to numbers in a
+- [24:15] smart way. What do I mean by that? Well,
+- [24:18] I don't like numbers. I like positions.
+- [24:20] So here we have streets and avenues. And
+- [24:23] we have a bunch of words. Here we have a
+- [24:24] basketball, a castle, a bike, cherries.
+- [24:28] Um and each one has two coordinates.
+- [24:30] carry six and four because I go six to
+- [24:33] the right and four up, right? So, I'm
+- [24:36] attaching two numbers to each word.
+- [24:38] That's an embedding. Uh, now help me
+- [24:40] out. We're going to have the first quiz
+- [24:42] of the day. Uh, where would you put an
+- [24:44] apple? At A, at B, or at C? Feel free to
+- [24:48] answer. Either talk or put it in the
+- [24:50] type in the chat or do a hand signal.
+- [24:54] Uh, Felix says C. N says C. C.
+- [24:58] Uh, very good. C. That's in Spanish. C.
+- [25:03] Uh, very good. Uh, you all pass the quiz
+- [25:06] very well with flying colors because I
+- [25:08] would put the apple in C. Why would I
+- [25:10] put the apple? Good job. Why would I put
+- [25:12] the apple in C? Because the least I can
+- [25:16] ask of an embedding, as Ana says,
+- [25:18] they're similar, right? This the least I
+- [25:20] can ask of an embedding is that it puts
+- [25:22] the apple with the fruits. It puts the
+- [25:24] fruits together. It's the least I can
+- [25:25] ask. If it's going to put it somewhere
+- [25:27] else, that's not a good embedding. It's
+- [25:28] the least I can ask. And it's almost all
+- [25:30] there is to an embedding. There's more,
+- [25:32] but basically it better put fruits
+- [25:35] together. So, I'm going to put it in 55.
+- [25:37] I could put it anywhere around here. One
+- [25:39] day, somebody told me you should put it
+- [25:40] here because it's a circle. And then I
+- [25:41] realized, oh, yeah, that's that's true.
+- [25:43] Shows the the ambiguities of of of
+- [25:46] language, which we'll get to. But for
+- [25:48] now, yeah, like like apple goes around
+- [25:50] the fruits because it's the least I can
+- [25:53] ask of a good embedding, right? Um, now
+- [25:55] I said two columns because I said that
+- [25:57] word goes to two numbers. Uh, because I
+- [26:00] can fit two numbers in my head as a
+- [26:03] coordinates, but the computer can handle
+- [26:04] way more numbers. So why are we going to
+- [26:06] use two when you can use thousands? I've
+- [26:08] seen them all the way to 4,96. I would
+- [26:11] say 1024 thousand is around what what
+- [26:14] you can imagine of of embeddings
+- [26:17] in a in a in a
+- [26:22] in a good language model around a
+- [26:23] thousand. Uh but basically one one thing
+- [26:26] I like to imagine further is I mean the
+- [26:29] the numbers for similar words are going
+- [26:31] to be similar. These are the coordinates
+- [26:33] in a huge space in a 10 thou a thousand
+- [26:35] dimensional space. uh I can't picture it
+- [26:38] but I can think of it right uh but I
+- [26:41] like to think of it is that every single
+- [26:43] number is some property of the word
+- [26:46] maybe the color maybe the size maybe
+- [26:48] anything else now when you look at an
+- [26:50] embedding you can't really be like oh
+- [26:52] yeah the fifth number is definitely the
+- [26:53] size no you can't the computer just
+- [26:55] knows right uh but if you think of it as
+- [26:57] some abstract properties of the word or
+- [26:59] combinations of properties uh then it's
+- [27:01] clear that if I have the numbers for
+- [27:04] apple because apple is similar to pear
+- [27:06] then the um the uh numbers for pairs
+- [27:10] should should be similar at the very
+- [27:12] least in in the majority, right? So
+- [27:14] they're they're located close to each
+- [27:16] other. Um I I see a couple of really
+- [27:19] good questions uh which I can address.
+- [27:23] Uh it says different embedding models
+- [27:25] would generate different embeddings. How
+- [27:27] does a generator know interpret those
+- [27:29] embeddings? Wouldn't attention
+- [27:30] embeddings would be different if
+- [27:31] generates train using embeddings for a
+- [27:33] different model? Yes, absolutely. the
+- [27:34] embedding is very very important. Uh and
+- [27:38] and and and the what I would do is I I
+- [27:41] would train the embedding first and then
+- [27:43] the transformer with that embedding. But
+- [27:45] if I change the embedding it everything
+- [27:47] changes. So if I take the chat GPT model
+- [27:50] and I put the anthropic embedding,
+- [27:52] nothing works, right? Um and then I
+- [27:55] getting to something which is semantical
+- [27:57] structure similarity. Yes, that's we're
+- [27:59] going to get to that. Uh we're going to
+- [28:01] get to all of that by the way. So, uh,
+- [28:04] you did so well in quiz one that we're
+- [28:06] going to go to quiz two, right? And quiz
+- [28:08] two is basically a rapid fire. So, here
+- [28:12] I have a strawberry and an orange. And
+- [28:14] here I have a a cell phone and uh the
+- [28:18] Windows logo. Okay? And you're going to
+- [28:20] tell me if the words are top left, go on
+- [28:22] the top left or bottom right. You can
+- [28:23] say top or bottom. So, each word I tell
+- [28:25] you, you say top or bottom. Again, you
+- [28:27] can say it, you can type it, or you can
+- [28:29] go like this in the screen. Um, so
+- [28:32] cherry, where does a cherry go?
+- [28:35] Good job. Top. Wow, amazing. A cherry
+- [28:38] goes on top. Where does Android
+- [28:41] goes at the bottom? Good job. Uh, where
+- [28:44] does laptop go?
+- [28:47] Bottom, right? Yeah. Nice. Where does
+- [28:50] banana go?
+- [28:52] Banana goes on top, right? Where does uh
+- [28:55] where does apple go?
+- [29:04] Top, bottom, middle, context. I don't
+- [29:07] know. Missing. I have no idea.
+- [29:11] It could be a fruit or it could be the
+- [29:13] computer company. And we don't know. The
+- [29:17] embedding doesn't know. The scientist
+- [29:19] could come up with the best embedding in
+- [29:21] the world. They're still not going to
+- [29:23] know because a human wouldn't know. If I
+- [29:25] stand in front of you and I say apple,
+- [29:27] you have no idea what I'm talking about.
+- [29:28] I could be talking about anything. What
+- [29:31] do you need then from me? We have we
+- [29:32] have a problem. We can pretty much put
+- [29:34] it in the middle. That's the best we can
+- [29:36] sort of do. Uh we got a problem
+- [29:39] and we need a solution. What would you
+- [29:41] ask me if I say apple to you? Exactly.
+- [29:43] Robert just said it. You need context,
+- [29:45] right? We need context. Context is what
+- [29:48] we need to add. And the embeddings are
+- [29:51] not going to to to to be able to solve
+- [29:54] this problem because it's a problem of
+- [29:56] the language, right? Like the bottleneck
+- [29:58] is it's our fault. It's the lang the
+- [30:00] numbers are fine. We are the ones who
+- [30:02] created a language with words that mean
+- [30:04] two different things and
+- [30:07] you know nothing we can do. There are
+- [30:09] embeddings that are now a little more
+- [30:10] dynamic. Uh but I'm going to tell you
+- [30:12] sort of the original solution to this
+- [30:14] problem which is the attention
+- [30:16] mechanism. As I said, uh if I haven't
+- [30:18] emphasized it enough, the attention is
+- [30:20] what made these things talk. Um if if
+- [30:23] Chad GPT was uh the the Delorean in in
+- [30:27] uh Back to the Future, the time machine,
+- [30:29] I would say that the attention mechanism
+- [30:30] is the flux capacitors, the one that
+- [30:32] made it travel in time. Uh in case this
+- [30:35] um reference uh reveals my age, I have a
+- [30:39] slightly newer one. If if Chad GPT was
+- [30:41] the Iron Man suit, then the arc reactor
+- [30:45] is the attention mechanism, the one that
+- [30:46] makes the suit work. It's the one that
+- [30:48] does the magic. Uh, and it's here in
+- [30:50] this in this diagram. Blippity blopy
+- [30:52] formula formula. Don't like, don't like.
+- [30:54] Uh, but this is the this is the
+- [30:56] basically the attention mechanism, how
+- [30:58] it works. Um, but I like to see it more
+- [31:02] as like kind of words flying around. So,
+- [31:04] help me out. If I give you some context,
+- [31:07] do you now know what I'm talking about?
+- [31:08] If I say, "Please buy an apple and an
+- [31:10] orange." Now, what am I talking about?
+- [31:15] The Yes. The the fruit or the Yeah,
+- [31:17] exactly. the fruit. Uh or the top,
+- [31:20] right? Uh if I say Apple unveiled a new
+- [31:23] phone, then what am I talking about?
+- [31:26] Vine cook. That's a good one. Um
+- [31:29] then I'm talking about tech, right? What
+- [31:31] word gave it away? What word g made you
+- [31:34] think that I'm talking about an apple in
+- [31:36] the left? fruit and and a computer in
+- [31:39] the right. Uh, it's probably not and
+- [31:41] right. Orange does it. Good job, Robert.
+- [31:44] Good job. Yes. Um, everybody's
+- [31:46] answering. Uh, phone and orange.
+- [31:49] Correct. Orange did it and phone did it.
+- [31:51] Right. They helped me, right? They I'm
+- [31:54] going to basically use those words to
+- [31:56] help
+- [31:57] to help us. Um, so how are we going to
+- [32:00] use it? Well, what they're going to do
+- [32:01] and check out. This is what happens.
+- [32:03] What happens is that if I have my orange
+- [32:06] here and my phone here and my ambiguous
+- [32:10] apple here, then the words basically
+- [32:13] pull each other. Okay? So, orange pulls
+- [32:16] Apple in in the only way it can. It just
+- [32:18] kind of draws a line and pulls it a
+- [32:20] little more. Okay? Like a magnet or like
+- [32:24] a gravity, right?
+- [32:26] Uh and if I'm talking about a phone,
+- [32:29] then the word phone pulls the apple
+- [32:32] down.
+- [32:33] uh a very little amount but this gets
+- [32:35] done many many many times okay I call it
+- [32:38] word gravity basically uh now the
+- [32:40] embedding for apple is not going to be
+- [32:42] what 66 it's going to be like 880 or
+- [32:46] something like that because the orange
+- [32:47] pulled it okay so when I talk about
+- [32:49] different words they pull each other
+- [32:51] like magnets or like or like gravity now
+- [32:53] here's a small problem uh if I say
+- [32:56] please buy an apple and an orange uh we
+- [32:58] know as humans that orange pulls apple
+- [33:01] but Um, the computer doesn't really
+- [33:04] know. For the computer, buy is just as
+- [33:06] important. Aaron is just as important.
+- [33:08] Please is just as important. So, Apple
+- [33:11] gets pulled in all directions, right?
+- [33:13] You can't just be like, "Oh, I only want
+- [33:14] this one to pull." Everything pulls. And
+- [33:16] then Apple gets pulled in all kind of
+- [33:18] directions and then you have no idea
+- [33:19] where you're going and that's a mess.
+- [33:22] Luckily,
+- [33:24] when we plot them in an embedding, what
+- [33:26] was the only thing that we expect from
+- [33:28] embedding? Only thing the first thing we
+- [33:30] ask on embedding is to put apple and
+- [33:31] orange close to each other, right? Put
+- [33:33] fruits close to and buy is really far.
+- [33:36] So this works like magnets. If I have a
+- [33:37] magnet that's close, they pull hard. And
+- [33:39] if a magnet is really far away, they
+- [33:40] don't. Or like plants, right? Like so it
+- [33:43] just makes sure that orange and apple
+- [33:45] pull each other strong and that when
+- [33:47] they're far away, they don't pull each
+- [33:50] other very much, right?
+- [33:52] Uh so you just apply attention to all
+- [33:55] the words. Uh, and basically these ones
+- [33:58] don't pull each other very much, but
+- [33:59] these ones pull strongly. So, they just
+- [34:01] gravitate. Remember this a lot because
+- [34:03] this will come up in the future. Words
+- [34:04] just kind of gravitate to each other.
+- [34:06] And then context starts appearing the
+- [34:08] way planets gravitate to each other,
+- [34:10] right? The Earth and the Moon pull each
+- [34:11] other a lot. Uh, but the Earth and
+- [34:13] Jupiter not not so much. Uh, and so if
+- [34:16] I've been talking about fruits for a
+- [34:17] while, there's a galaxy here made of of
+- [34:19] fruits activated. And if I say apple,
+- [34:22] when you're very likely that I say a
+- [34:24] fruit because it got pulled by the by
+- [34:28] the galaxy. Okay. So if you imagine
+- [34:31] embeddings as the universe, words all
+- [34:33] over the place uh and context as gravity
+- [34:37] that that puts this universe together,
+- [34:39] that's kind of what happens inside the
+- [34:40] brain of of Chad GPT. Okay. Uh there's a
+- [34:44] small technicality which is mass
+- [34:45] attention. uh which is that uh you
+- [34:48] really don't look you don't let the
+- [34:50] model look ahead of it only only behind
+- [34:53] and that's so it doesn't cheat. So when
+- [34:55] when these things are happening you only
+- [34:57] look at the gravity before you. Uh but
+- [34:59] that's just a small technicality. Um,
+- [35:02] however,
+- [35:04] uh, I think I I I I
+- [35:07] didn't talk much about certain things,
+- [35:10] uh, which is similarity because I've
+- [35:12] been talking about, uh, words being
+- [35:15] similar as they're close by or far away
+- [35:17] from each other. But actually, uh,
+- [35:19] similarity is more is more complicated
+- [35:21] than that. So, let me tell you about
+- [35:24] similarity. Uh, as I said, if I say
+- [35:27] apple, you don't know what I'm talking
+- [35:28] about. But if I've been talking about
+- [35:30] fruits, then you know it's this. And if
+- [35:31] I've been talking about computer terms,
+- [35:33] then it's then it's this one. And uh
+- [35:36] here's the thing. Let's say I I'm
+- [35:38] talking about this is my context. The
+- [35:40] other day I was walking and I thought
+- [35:41] about pears. Then I realized I want some
+- [35:42] fruit. So I thought about getting an
+- [35:43] orange and an And what you want to pay
+- [35:46] attention is to words that are similar
+- [35:48] to apple. So I have a strong attention
+- [35:51] here to these ones and a weak one to
+- [35:53] others, right? So you pay more attention
+- [35:56] to more similar words. Uh so the more
+- [35:59] similar words are, the more they're
+- [36:02] going to pull each other. Uh and so I
+- [36:05] need a strong context concept of of
+- [36:08] similarity when two things are similar
+- [36:09] like fair and apple and when two things
+- [36:11] are different like truck and apple. And
+- [36:14] distance actually won't won't cut it so
+- [36:16] well. Uh so here's here's the thing.
+- [36:19] Let's say that I have orange and pear.
+- [36:21] have a high similarity and a low
+- [36:23] similarity which is Android and orange.
+- [36:26] I'm going to give you three ways to
+- [36:27] measure similarity. Okay, the first one
+- [36:30] is distance which I already mentioned.
+- [36:32] Uh far away means not similar. Close
+- [36:34] means yes similar. That's that's the
+- [36:35] worst one. Uh the method two is the
+- [36:38] angle. So instead of looking at things
+- [36:40] that are far away or close by, I'm going
+- [36:42] to look at the angle they make with the
+- [36:44] point at the origin, the 0 0. Big angle
+- [36:47] means you're far away, not similar.
+- [36:50] small angle means you're close by. Makes
+- [36:53] sense, right? Um and the other one is
+- [36:55] dotproduct. Give me a thumbs up, thumbs
+- [36:57] down if you've seen dotproduct in the
+- [36:58] past. Even even if you haven't or not, I
+- [37:01] will I will still talk about it. Um dot
+- [37:04] product is take the first coordinate and
+- [37:05] add it and multiply then the second
+- [37:07] coordinate and and multiply it and add
+- [37:09] it. So I get I get a big number if the
+- [37:12] things are similar and a small number if
+- [37:15] things are are different. Um however so
+- [37:19] let's talk about those two um angle and
+- [37:21] and dot product and I want to start with
+- [37:23] dotproduct
+- [37:24] um because even though we've seen dot
+- [37:27] product
+- [37:29] uh I see some questions about angle I
+- [37:31] I'll address them in a minute even
+- [37:32] though we've seen dot product it was
+- [37:35] never too clear to me why you take the
+- [37:36] first and multiply it and the second and
+- [37:38] multiply it and add it and
+- [37:41] I don't know it just doesn't seem that
+- [37:42] clear to me as saying distance right so
+- [37:45] I call it the Tinder similarity. Uh,
+- [37:48] feel free to use it in conversations.
+- [37:49] I'm trying to coin the term Tinder
+- [37:51] similarity. Uh, let's say that I have
+- [37:54] two people and I want to see how similar
+- [37:56] they are in order to recommend it in an
+- [37:58] app. So, I ask them questions. Long
+- [38:00] walks on the beach. Do you like them or
+- [38:02] not? Do you like pineapple and pizza or
+- [38:03] not? Do you think dogs are better than
+- [38:05] cats? And people answer yes or no. So,
+- [38:08] they both like long walks on the beach.
+- [38:10] They both don't like pineapple and
+- [38:11] pizza. Seems like these people are
+- [38:12] similar. uh and they one thinks dogs are
+- [38:15] better than cats and the other one the
+- [38:16] opposite. So how similar are these
+- [38:18] people? Well, I would add one every time
+- [38:21] they match and subtract one every time
+- [38:24] they don't match and I add the three and
+- [38:26] I get let's say one, right? Um I can
+- [38:30] also get the same thing by putting a
+- [38:32] minus one on the no and a one on the yes
+- [38:34] and multiplying them.
+- [38:37] Okay,
+- [38:39] because 1 * 1 is 1 minus 1 * - 1 is one.
+- [38:42] So the the product see the product is
+- [38:45] not really a product. It's like are two
+- [38:46] things equal or not? If if I have ones
+- [38:48] and minus ones, right? Uh so that's why
+- [38:51] I think dot product works, right?
+- [38:53] Because if you start matching the the
+- [38:54] the answers to something and and
+- [38:56] multiplying them, it's it's it's big if
+- [38:58] they're similar and and and could be
+- [39:00] negative if they're different. So that
+- [39:01] that's why in my head that's when I wrap
+- [39:03] around my head around around dotproduct
+- [39:06] and then and then I add them, right? Uh
+- [39:08] I know this you've seen dot product. So
+- [39:10] this is simple but I just I just want to
+- [39:11] emphasize some stuff that like sometimes
+- [39:13] it's not super clear to me and I just
+- [39:14] want to make it super clear. Um so that
+- [39:17] product here is basically another way to
+- [39:19] look at it is if I have in in my
+- [39:21] embedding my all embeddings I'm going to
+- [39:23] use today are very friendly and have
+- [39:26] like one property here in the horizontal
+- [39:28] and one property in the vertical. So I
+- [39:30] have fruitness on the horizontal and
+- [39:32] technology in the vertical. And uh my my
+- [39:36] embeddings for orange are uh six for
+- [39:39] fruitness and one for technology and uh
+- [39:42] for Android for example is one for
+- [39:44] fruitness and eight oh sorry I made the
+- [39:46] wrong number here. Uh oh no no no it's
+- [39:48] true one for uh horizontal uh fruitness
+- [39:51] and eight for technology the the
+- [39:54] vertical and when I do the dot product
+- [39:56] uh I just basically multiply the first
+- [39:58] number
+- [40:00] uh then the second number and I add them
+- [40:03] and then I do the same thing here and I
+- [40:06] add them and so I get big number when
+- [40:10] the when the big numbers are in the same
+- [40:11] positions and small number when the
+- [40:13] numbers when the big numbers are not in
+- [40:15] the same position. Uh so large dot
+- [40:17] productduct large similarity small
+- [40:19] dotproduct small similarity. Okay so
+- [40:21] that's dot product. Now let's talk about
+- [40:24] the angle. Uh is asking a question. What
+- [40:26] about a small angle but it is far away?
+- [40:28] We'll we'll get there. Great question.
+- [40:32] Um when we say the angle
+- [40:35] then we say that a large angle means
+- [40:37] small cosine similarity and that a small
+- [40:39] angle means large cosine similarity.
+- [40:42] I'm sorry this one also bothers me. Why?
+- [40:46] If I have a perfectly good defined
+- [40:49] notion of distance, why would I want to
+- [40:52] use an angle?
+- [40:54] Like,
+- [40:56] can anyone help me? Like, why would you
+- [40:58] use an angle if you have distance?
+- [41:01] Kind of nerdy. Be like, oh, we're at
+- [41:03] this angle. Be like, no, we're you and I
+- [41:05] are 5 meters away. That's better than
+- [41:06] saying we make an angle of 2° with that
+- [41:10] with that post over there. Makes no
+- [41:12] sense, right? Um, help me out. Is there
+- [41:15] another place in the world where angle
+- [41:17] is used instead of distance? Like is
+- [41:19] there any other place where naturally
+- [41:20] you would use angle and not distance?
+- [41:26] Yep. I see some great says curse of
+- [41:29] dimensionality. Yes, it's easier to
+- [41:30] calculate an angle in in many dimensions
+- [41:33] than to calculate a ukian pythagorian
+- [41:36] distance. So that's one reason. Um help
+- [41:38] me out. Is there any place in the world
+- [41:40] where you wouldn't think of distance?
+- [41:42] Would be crazy to think of distance and
+- [41:44] makes a lot of sense to think of angle.
+- [41:48] How about
+- [41:51] in the world? Yes, a compass, right? A
+- [41:53] compass would work um in the world,
+- [41:55] right? Like if I want to fly from uh in
+- [41:58] the globe, right? Hiking as well. Yeah.
+- [42:00] If you're going long distances, senses
+- [42:01] in the globe. uh if I if I want to go
+- [42:04] from point A to point B in the world, I
+- [42:06] don't open a hole and go the direct
+- [42:09] route. I I take the curve. The earth is
+- [42:11] a circle. Circles have angles. In the
+- [42:14] world, everything is angle. Okay? That
+- [42:18] if we're close by, I don't use the angle
+- [42:21] because I can approximate it with
+- [42:22] flatness, pretending the world is flat,
+- [42:24] but the world ain't flat, right? So for
+- [42:28] distances between places, distance means
+- [42:30] nothing. Angle means everything. Angle
+- [42:33] times the radius of the earth. And why
+- [42:35] do we care about angles? Because
+- [42:36] embeddings are more like the earth than
+- [42:38] they are like the universe. So if I
+- [42:39] look, this is an exaggeration, right?
+- [42:42] They're not a sphere, but they are
+- [42:43] spherical in nature. They have mountains
+- [42:45] and hills and spikes and valleys, but
+- [42:49] they are more more circular objects in
+- [42:52] the sense that it's better for me to
+- [42:54] look at it from the middle and see
+- [42:56] things far away where they point than to
+- [42:58] look at it from the outside and measure
+- [43:00] distances. Um, so um and the dot product
+- [43:04] and cosine distance uh as as Robert
+- [43:07] points out, they capture magnitude and
+- [43:09] direction. They're they're actually very
+- [43:10] similar. If if if I have a unit circle,
+- [43:12] a circle of radius one, they're the
+- [43:14] exact same thing. And if not, then you
+- [43:16] just m to get to get this from this, you
+- [43:18] just multiply by the lengths and get
+- [43:20] something similar. So I I'm going to see
+- [43:21] them as very similar. There's this
+- [43:23] identity here that is that the cosine of
+- [43:25] an angle is is a dot product that joins
+- [43:28] them, right? Um and so I can see things
+- [43:31] like um like like uh if if they're
+- [43:35] completely opposite, they're at a
+- [43:37] 180°ree with cosine negative one. And if
+- [43:40] they are at 90 degrees, they're like
+- [43:42] irrelevant to each other. So, uh, this
+- [43:45] kind of helps. And, and I think I don't
+- [43:47] have this. I think I'm missing a little
+- [43:50] slide here. Uh, but for example, picture
+- [43:53] this. Sometimes you're going to have to
+- [43:56] answer to answer uh, Siang's question.
+- [43:59] Sometimes you're going to have two words
+- [44:00] pointing in the same direction
+- [44:04] that are very similar. If I have, for
+- [44:06] example, the word bad and the word
+- [44:08] atrocious, they point in the same
+- [44:10] direction, but they're far away from
+- [44:12] each other. Like two stars that are
+- [44:14] millions of light years apart, but when
+- [44:16] I see them from the earth, they look
+- [44:17] very similar. They are similar. Okay? In
+- [44:20] an embedding, it happens that words can
+- [44:22] be far away, but if they form the same
+- [44:24] angle, they're more similar. So that's
+- [44:27] why it's better to look at it uh from
+- [44:29] the from the circle perspective. Is
+- [44:31] there any question about about sort of
+- [44:33] this? So we have the dot product and
+- [44:35] cosine distance. And the question is
+- [44:37] which one does Chad GPD use? Does dot
+- [44:39] does dot product or cosine? Uh it
+- [44:42] actually doesn't use any of the two. It
+- [44:44] uses something called scale dotproduct.
+- [44:46] So it takes the dot product and divides
+- [44:48] it by the square root of the number of
+- [44:53] elements in the of the number of
+- [44:55] dimensions. So if I have let's say two
+- [44:57] entries for my embedding, it divides it
+- [44:59] by square root of two. If I have a
+- [45:00] thousand, it divides by the square root
+- [45:02] of a,000. Uh why? Because
+- [45:06] I don't think there's a reason. I think
+- [45:08] they just um they just try to keep the
+- [45:11] numbers not too big and not too small.
+- [45:13] So they divide that by that so that the
+- [45:15] training is easier. Uh it's more of a
+- [45:17] heristic. But just to let you know, Chad
+- [45:19] GPT uses this. And when you see the
+- [45:21] formula for attention, there's this
+- [45:23] divide by square root of decay. And that
+- [45:26] is why you um
+- [45:30] the similarity metric that you use. And
+- [45:32] this Q KQ here is exactly a dot product.
+- [45:35] This is this is dot product divided by
+- [45:37] square of decay. And the soft max is the
+- [45:39] one that makes you move in a line
+- [45:40] because soft max the two numbers add to
+- [45:43] one. So you're moving in a line. I'm
+- [45:44] happy to elaborate on this anytime you
+- [45:46] want if you want to ask me like at the
+- [45:48] end. Um but basically this formula over
+- [45:51] here is the is the gravity formula that
+- [45:53] that moves. Um so just to give you an
+- [45:57] idea, right? Like if you have a high
+- [45:58] similarity between apple and orange,
+- [46:00] then it pulls it a lot. And if you have
+- [46:02] a low similarity like apple and truck,
+- [46:04] it it doesn't pull it very much. What
+- [46:06] it's really doing is it's saying my new
+- [46:09] apple is going to become some percentage
+- [46:11] of my old apple plus the remaining
+- [46:14] percentage of orange. And if you uh have
+- [46:18] an apple moving towards a truck, then
+- [46:20] it's most of the apple percentage plus
+- [46:22] the remaining percentage of a truck. the
+- [46:24] higher the similarity, the higher uh the
+- [46:27] higher this number is that you're adding
+- [46:29] of the other word. And that's encoded in
+- [46:31] this formula over here. As I said, this
+- [46:33] is as far as I'm going to get with this
+- [46:35] formula, but I'm happy to elaborate if
+- [46:37] anything. We're going to talk a lot
+- [46:38] about this K and this and this Q. Um,
+- [46:42] let me see if I have some questions that
+- [46:43] I didn't address because we're going to
+- [46:46] switch topics a little bit.
+- [46:48] Body maintains learn for individual
+- [46:50] words. Yeah, Nurmine has a great
+- [46:53] question. During the training of
+- [46:54] embedding models, are embeddings learned
+- [46:56] for individual words, for sentences, or
+- [46:58] does it depend on the context? Great
+- [47:01] question. Sometimes they're learned for
+- [47:03] sentences. You can have like sentence
+- [47:04] embeddings where like sentences like
+- [47:06] hello, how are you? And hey, how's it
+- [47:08] going? Or close by. Um,
+- [47:11] but actually, uh, the transformer models
+- [47:14] do it for individual words and then they
+- [47:16] join them using attention. We'll get to
+- [47:18] that. Um,
+- [47:22] Vikramid says, "Calculating attention
+- [47:23] for all the words in a context seems
+- [47:25] expensive. Is that why context windows
+- [47:26] are a limiting factor for generators
+- [47:28] today?" Uh, it's expensive, but at the
+- [47:31] end of the day is linear algebra. So,
+- [47:33] it's it's multiplying matrices. Uh, so
+- [47:36] it's expensive, but manageable. Uh, and
+- [47:39] it and it really helps. We'll see when
+- [47:42] we get to the architecture of the
+- [47:43] transformer, we'll see that that it it
+- [47:45] that this attention thing really helps.
+- [47:48] Um,
+- [47:49] says, "What about small angle but two
+- [47:51] items far away?" I think you we talked
+- [47:53] about it. Yeah, dot product captures
+- [47:54] match direction says Robert. Yes,
+- [47:56] absolutely.
+- [47:58] Was there research that showed the
+- [48:00] method is better than just simple dot
+- [48:02] product? Uh, great question, Robert. I
+- [48:04] don't I don't know. I think what happens
+- [48:06] is when they were writing that paper of
+- [48:08] attention, the numbers were probably
+- [48:10] getting out of hand, like too big or too
+- [48:12] small. uh training a neural network with
+- [48:14] a number that's too big is like throwing
+- [48:16] a wrench in a machine or with a number
+- [48:17] that's too small is like doing nothing.
+- [48:19] So they I think that DK just keeps them
+- [48:22] in in check. At least that's what I've
+- [48:25] sort of asked everybody and researchers
+- [48:28] and they seem to to agree on that. A lot
+- [48:31] a lot of machine learning is that like
+- [48:33] we tried this and it worked and we just
+- [48:35] let it we didn't touch it. Um so I've
+- [48:38] been talking about similarity but
+- [48:40] actually similarity is way more
+- [48:42] complicated than it seems. Uh because
+- [48:45] gravity is complicated right like uh you
+- [48:47] don't just pull the same big planets
+- [48:50] pull more small planets pull less and
+- [48:51] and the same thing happens with
+- [48:52] similarity. Uh so there's this thing
+- [48:55] called the keys and query matrices which
+- [48:56] appeared here. I'm going to tell you for
+- [48:58] for the next uh sometime what uh what K
+- [49:02] and Q are. They are matrices. Uh I'm
+- [49:05] sure everybody here knows uh what has
+- [49:08] seen matrices. Uh and and maybe you've
+- [49:11] seen it the way the way I learned them,
+- [49:12] which is an array of numbers.
+- [49:16] And uh I I don't like matrices as array
+- [49:20] of of numbers. I think it's uh sort of
+- [49:23] the least pretty way to look at them. Uh
+- [49:25] I see it as looking at a book as an
+- [49:28] array of letters. You don't look at a
+- [49:29] book as a bunch of letters together. You
+- [49:31] know that these letters form words and
+- [49:32] the words form sentences and the
+- [49:34] sentences form stories. And when you
+- [49:37] tell me about a book, you don't tell me
+- [49:38] about the letters, you tell me about the
+- [49:39] story. Same thing when I tell about a
+- [49:41] matrix, I tell you about the story that
+- [49:43] it tells. And matrices tell a bunch of
+- [49:46] beautiful stories. And my favorite was
+- [49:48] is a linear transformation. So what's
+- [49:50] what's a linear transformation? Let's
+- [49:52] say I have an image. Okay, I can
+- [49:55] transform it in several ways. For
+- [49:57] example, I can rotate it. uh I can
+- [50:00] stretch it in any direction. These are
+- [50:02] all matrices. 2x2 matrix, 2x2 matrix,
+- [50:05] 2x2 matrix for a different stretching.
+- [50:07] And there's another one slightly weird,
+- [50:09] which is the shear, which is if I take
+- [50:11] the book, fix the fix the bottom and
+- [50:14] push the top, it becomes a
+- [50:15] parallelogram. Anything that takes a
+- [50:17] square and turns it into a parallelogram
+- [50:20] is a linear transformation. Okay?
+- [50:23] Anything that's if you take parallel
+- [50:25] lines to parallel lines, that's a linear
+- [50:27] transformation. And that transforms the
+- [50:29] whole plane because you can imagine
+- [50:30] using this dock to tessillate the plane
+- [50:33] and then using this parallelogram dock
+- [50:35] to tessillate the whole plane. So it
+- [50:37] just goes from the plane to the plane.
+- [50:38] This is a 2x2 matrix. Which one? I don't
+- [50:40] know. But every matrix is a linear
+- [50:42] transformation. And for 3x3 the same
+- [50:44] thing. It just be like taking a cube to
+- [50:46] like a parallel pipet or whatever it is,
+- [50:48] right? Uh and you can think of linear
+- [50:50] transformations as as a matrix like a
+- [50:53] thousand by a thousand matrix something
+- [50:55] that takes a thousand dimensional space
+- [50:57] and like parallelograms it all the way
+- [51:00] into another one. But parallel lines
+- [51:02] need to go to parallel lines. Some
+- [51:04] transformations are linear, some are
+- [51:05] not. So this is my picture uh and I use
+- [51:09] some software to turn it into linear
+- [51:10] transformation. This is linear
+- [51:11] transformation. Squares go to
+- [51:12] parallelograms. And these are not
+- [51:14] linear. Right? This this keeps lines but
+- [51:16] they don't make them parallel. And this
+- [51:18] one turns it into like, you know, it
+- [51:20] makes an eye bigger. If you make a
+- [51:21] square into a circle, that's not a
+- [51:23] linear transformation, right? So, we're
+- [51:24] going to talk about a lot of this today.
+- [51:26] So, remember this. Linear transformation
+- [51:28] turns squares into parallelograms
+- [51:31] and nonlinear can do a lot of other
+- [51:34] weird stuff. Okay? These are always
+- [51:37] matrices. Linear transformations are
+- [51:38] matrices and the others are just messed
+- [51:41] up functions. Okay. Um so the question
+- [51:46] that what we're going to do is we're
+- [51:48] going to take an embedding for example
+- [51:50] this embedding
+- [51:51] and do a linear transformation to turn
+- [51:55] it into another embedding linearly so
+- [51:59] it's parallelograms right uh question if
+- [52:02] we have a perfectly well-defined
+- [52:06] embedding here that some scientists
+- [52:08] created with a lot of computers and a
+- [52:09] lot of data very carefully why would I
+- [52:12] want to mess with it. Why would I want
+- [52:14] to stretch it around?
+- [52:16] Right? I'm going to give you three
+- [52:18] reasons why you would want to do that.
+- [52:20] The first one uh is that not all
+- [52:23] features imply similarity. Believe it or
+- [52:26] not, what do I mean by that? Well, I'm
+- [52:28] going to ask you a small quiz. This is
+- [52:30] not a quiz as in like right answer,
+- [52:32] wrong answer. This is a conceptual quiz.
+- [52:34] Okay? So, I have an embedding where to
+- [52:37] the right I have the size. Okay? Okay,
+- [52:40] so as you can see the little bunny is
+- [52:42] smaller than the the elephant. As as
+- [52:44] things get bigger, they move towards the
+- [52:46] right and in the top in the vertical is
+- [52:48] animal nest. So non-anim animals are
+- [52:50] here and animals are here. Okay, so
+- [52:53] embedding with two features. Which one
+- [52:55] do you like more? And obviously there's
+- [52:58] no right answer here. There's one that I
+- [52:59] have on my own opinion, but I'd love to
+- [53:03] hear which one do you think is better of
+- [53:04] these three
+- [53:06] and whatever logic you want to use. This
+- [53:08] is a very open question. So if if if it
+- [53:11] looks like I'm giving you not enough
+- [53:12] information, it's because I'm not
+- [53:15] something like like three, like two,
+- [53:17] like two, one.
+- [53:21] There's arguments for everything, right?
+- [53:22] If you want to write an argument, um
+- [53:25] see it says something very important,
+- [53:27] which is depends on how much you weigh
+- [53:28] each feature, right? So in the first
+- [53:30] one, I put size and animal as the same.
+- [53:32] In the second one, it seems like I'm I'm
+- [53:34] downgrading size. I'm saying size is
+- [53:36] less important. And in the third one,
+- [53:38] I'm upgrading size. I'm saying size is
+- [53:40] all that matters, right? Um, I see a lot
+- [53:44] of great answers. Uh, Nurmine says, "Two
+- [53:47] because we can see how elephant is
+- [53:48] bigger than the rabbit." Yes. Uh, you
+- [53:51] can apply the weight more fairly after
+- [53:53] the fact. One is more tunable. Wow. A
+- [53:55] lot of a lot of great answers. Yeah.
+- [53:56] Yeah. Yeah. Um, as I said, all work, but
+- [54:00] I'm going to tell you why I think number
+- [54:02] two is my favorite here. Uh, and the
+- [54:06] reason and and actually the third one I
+- [54:08] I like less, but but as I said, this is
+- [54:11] just because I have one reason, but
+- [54:12] there's a million reasons why why
+- [54:14] they're different. Um, and the first one
+- [54:17] is so so why? Because of similarity,
+- [54:20] right? What is more similar? An elephant
+- [54:23] and a rabbit or an elephant and a truck?
+- [54:27] Right.
+- [54:28] Exactly. And then he says animals. In my
+- [54:31] head, at least semantically, if I'm
+- [54:34] talking about an elephant, I may talk
+- [54:37] about a rabbit, but I'm not going to
+- [54:39] bring up a truck. You see what I mean?
+- [54:43] Maybe if I'm if I'm filling a ship with
+- [54:45] things, I need the elephant and the
+- [54:46] truck to be similar because they're
+- [54:47] weight the same. But if not, jumbo
+- [54:49] truck. I love that. Um, but in my head,
+- [54:53] a conversation of elephants is likely to
+- [54:55] have is more likely to have a bunny than
+- [54:57] to have a a truck. So in my head, I want
+- [54:59] these two to be more similar. So
+- [55:00] embedding two is better, right? Does
+- [55:02] that does that make sense? Uh um but but
+- [55:06] I like that we had a disagreement. This
+- [55:07] will come up later. The fact that we
+- [55:09] have a disagreement and how we fix it
+- [55:10] because things are very conceptual. So
+- [55:12] but let's say for now that I want to
+- [55:14] turn uh my embedding into this and this
+- [55:16] is a linear transformation because the
+- [55:18] square went into a parallelogram, right?
+- [55:19] That's a linear transformation. And I
+- [55:21] made a better embedding. I made a better
+- [55:23] embedding, right? by by stretching,
+- [55:25] compressing. Um, a way to look at it is
+- [55:29] again with Tinder, I you can explain
+- [55:31] everything with Tinder. Uh, if I want to
+- [55:34] have a questionnaire and I have
+- [55:36] questions like long walks on the beach
+- [55:37] and they have the same answer. Pineapple
+- [55:39] and pizza and they have the same answer,
+- [55:41] but they disagree on thoughts on
+- [55:42] marriage and kids. Are these a good uh
+- [55:44] match? Thumbs up, thumbs down. Give me a
+- [55:49] uh they're not a very good match, right?
+- [55:51] uh but they answer two questions out of
+- [55:54] three but it's that this question that
+- [55:56] matters this question uh is louder than
+- [55:59] the other two right and I can just weigh
+- [56:02] each one of them right I can say this
+- [56:04] one I multiply by 10 this one by let's
+- [56:06] say one because pineapple and pizza may
+- [56:08] still be a deal breaker and let's say
+- [56:10] that this one is okay they disagree on
+- [56:13] so I'm basically waiting some features
+- [56:16] more than others which is what I did
+- [56:18] with size and with elephant right like I
+- [56:20] I multiplied size by smaller and
+- [56:22] multiply animal by bigger because I want
+- [56:24] some questions to wait. So I I don't
+- [56:27] have a questionnaire. I have a weighted
+- [56:29] questionnaire and that's a linear
+- [56:30] transformation and that's a diagonal
+- [56:32] matrix. If you think about if you like
+- [56:33] matrix, if you if you don't like math,
+- [56:35] don't don't worry about anything I say
+- [56:36] about matrices but if you do it's
+- [56:37] exactly a diagonal matrix. Um so that's
+- [56:40] reason one. Sometimes features speak
+- [56:42] louder than others. Reason two is that
+- [56:46] sometimes you have to combine features.
+- [56:48] Okay, how you combine features? Well,
+- [56:51] let me give you another another example.
+- [56:53] Here we have an embedding where we have
+- [56:55] two students. They're very good
+- [56:56] students, Aisha and Beto. And uh you can
+- [57:00] like uh the embedding tells you what's
+- [57:02] your favorite subject. It could be math
+- [57:04] or it could be physics. Uh turns out
+- [57:06] that Aisha's favorite subject is math.
+- [57:08] So, she gets a one in math and a zero
+- [57:11] for physics. And Beetto's favorite
+- [57:13] subject is physics. So, he gets a one in
+- [57:16] physics and a zero in in math.
+- [57:18] And uh here's where we where they are in
+- [57:20] the embedding. One for maths, your
+- [57:22] favorite, one for physics, your
+- [57:24] favorite. Uh and now you're going to
+- [57:26] help me out. Which of these three
+- [57:28] embeddings do you prefer?
+- [57:31] Which one looks more useful?
+- [57:36] One, two, or three. And don't again,
+- [57:37] don't be afraid of of saying the wrong
+- [57:39] one because there's no right or wrong.
+- [57:41] Uh there's there's the one, I think, but
+- [57:43] any argument works.
+- [57:47] So don't don't try to guess what I have
+- [57:49] in my mind. Try to tell me what's your
+- [57:51] thinking because that's cool.
+- [57:55] I see a two. I see a one. One has same
+- [57:58] weight on both features. I see a two. I
+- [58:00] see a three. I see a one. I love this. I
+- [58:03] love this because it shows that language
+- [58:04] models will put different u measures on
+- [58:09] different embeddings. We have to we have
+- [58:11] to one day or one day means in like 10
+- [58:13] minutes actually uh deal with the
+- [58:16] disagreement right but for the moment I
+- [58:19] will tell you that I do
+- [58:23] uh system similarity and go between yeah
+- [58:27] um to me the best one is this one okay
+- [58:30] uh and the worst one is the third one
+- [58:32] but only because of the reason I'll tell
+- [58:34] you there's reasons for three to be good
+- [58:36] um I think that embedding is very
+- [58:38] unforgiving because if I like math more
+- [58:40] than physics. I probably like physics
+- [58:42] too. And one day I saw something and I
+- [58:44] started liking physics too and I moved
+- [58:46] from here all the way to here with a
+- [58:48] small change. This is unforgiving. I
+- [58:50] don't like unforgiving embeddings,
+- [58:51] right? It's too it's too drastic. You
+- [58:53] made a small change and boom, you went
+- [58:54] from here to there. Things have to be
+- [58:56] nice and continuous and smooth. So I
+- [58:59] like this one better because these two
+- [59:01] kits are more similar. Right? If one
+- [59:03] likes physics favorite subject and the
+- [59:05] other one likes math as the favorite
+- [59:06] subject, I think in my head they're more
+- [59:07] similar than different. So I like
+- [59:09] embedding two. Uh how do we turn this
+- [59:12] embedding into embedding too? Well, but
+- [59:15] as I said, this is an argument if you're
+- [59:17] talking about research in math or
+- [59:19] physics which are different and this is
+- [59:20] another argument. So always everything's
+- [59:22] an argument. But I want these to be too
+- [59:24] far. I want them to be closer. This is
+- [59:26] what I'm going to do. Okay? I'm not
+- [59:27] going to scale each feature like we did
+- [59:29] with the previous example. I'm going to
+- [59:31] combine them. So I'm going to say, you
+- [59:32] know what, if you like math, you get
+- [59:35] your your one for math. But I'm going to
+- [59:38] say if you like math, I'm going to say
+- [59:39] that at least you like physics 50%. So
+- [59:42] I'm going to add 0.5 for your physics
+- [59:44] score.
+- [59:45] And the same thing for and that moves
+- [59:47] her up here because her coordinates are
+- [59:49] no longer one zero. Now they're one one
+- [59:53] 0.5. Right? And the same thing for
+- [59:56] physics. If you like physics, you get
+- [59:57] your physics score. But I'm going to
+- [59:58] give you 50% of math. Moving him from
+- [60:01] the coordinates 01 to the coordinate
+- [60:04] 0.51,
+- [60:06] right?
+- [60:08] And so now they're closer. So what does
+- [60:10] that do for the linear transformation?
+- [60:12] Well, it takes the math and keeps it as
+- [60:15] math and adds 50% of physics. Physics is
+- [60:18] vertical getting this edge over here.
+- [60:20] And then it takes the physics and adds
+- [60:22] 50% of math and it pushes it here and
+- [60:26] gets this edge. So this square goes to
+- [60:29] this parallelogram and boom, we have a
+- [60:32] linear transformation where now these
+- [60:34] two are much closer.
+- [60:36] Okay, so memory check. The first was
+- [60:40] that some features need to be scaled or
+- [60:44] multiply by a big number or small number
+- [60:46] to it. Similarly, the second one says
+- [60:48] sometimes I need to add two features or
+- [60:50] three features or four features because
+- [60:51] that speaks louder. You know, math plus
+- [60:54] 0.5 physics speaks louder than just math
+- [60:56] or just physics, right? So, I need to
+- [60:58] combine them. Those are this the the
+- [61:00] normal ones. The the third one is the
+- [61:02] weird one. Okay, the pool doesn't have
+- [61:04] to be symmetric. So far, I've been
+- [61:06] saying that word one pulls word two and
+- [61:10] word two pulls word one based on how
+- [61:12] similar they are. I lied. I lied to you.
+- [61:17] Um
+- [61:19] because uh in reality some words pull
+- [61:22] stronger than other words in the same
+- [61:24] way. Like sometimes word one pulls more
+- [61:27] word two more than pull word two pulls
+- [61:29] word one. Um kind of like planets,
+- [61:31] right? like uh it's the same force but
+- [61:33] Jupiter kind of pulls the moon more than
+- [61:36] the moon pulls Jupiter because of the
+- [61:37] mass, right? Uh so words have the same
+- [61:40] problem or the same feature. Give me
+- [61:42] help me out. I have the word fisherman
+- [61:45] and the word net. Which one do you think
+- [61:47] pulls the other one more? Does fisherman
+- [61:49] pull net or does net pull fishermen more
+- [61:53] into a conversation?
+- [61:59] Good job. Everybody says fisherman pulls
+- [62:01] net. Good job. Amazing. Uh yes,
+- [62:04] fisherman pulls net more than net pulls
+- [62:06] fisherman. Why? Because I think you have
+- [62:09] the logic very very well there. If I'm
+- [62:11] talking about that yes uh fixes other
+- [62:15] objects are used uh uh by the fisherman.
+- [62:18] The fish if I'm talking about a
+- [62:20] fisherman then the net is likely to come
+- [62:23] up in the conversation.
+- [62:25] But if I'm talking about a net, I could
+- [62:27] be talking about all kinds of nets. the
+- [62:28] internet, a badon net, a tennis net, a
+- [62:30] network of people. So, if I say net, I'm
+- [62:34] not so likely to say fisherman. Maybe I
+- [62:36] will, but maybe I won't. Okay. Uh, think
+- [62:38] about this. There's a um there's a movie
+- [62:41] called The Fisherman. Uh, that movie
+- [62:43] contains a net. Uh, there's a movie
+- [62:46] called The Net. Believe me, there's no
+- [62:48] fisherman in that movie. Um,
+- [62:52] does that make sense? There are other
+- [62:54] examples, right? Like if I say football
+- [62:56] uh football and match, right? Which one
+- [63:00] pulls more?
+- [63:02] Oh, and I I typed it in Portuguese
+- [63:04] because last time I gave this talk, it
+- [63:06] was to uh to Brazil. Uh football pulls
+- [63:08] more, right? Because if I say football,
+- [63:10] I say match, but if I say match, I could
+- [63:12] be saying about other things. What about
+- [63:14] drink and coke?
+- [63:19] Coke pulls more, right? Because if I say
+- [63:20] Coke, I say drink. But if I say drink, I
+- [63:23] could be talking about a lot of other
+- [63:24] stuff that are not Coke. Um, so it's
+- [63:27] like gravity but backwards because see,
+- [63:29] check this out. It's the small world,
+- [63:32] the one that pulls the big one. If I
+- [63:34] have a very popular word,
+- [63:37] that word gets pulled in all directions,
+- [63:39] right? Whereas if I have a very obscured
+- [63:42] word, it gets pulled into conversations.
+- [63:43] If I have a very obscure word, it
+- [63:45] doesn't get pulled anywhere. It just
+- [63:46] stays there and pulls other words to it,
+- [63:49] right? Um, so attraction is not
+- [63:52] symmetrical. Yeah. Um, so for example, I
+- [63:56] have I have two people. Let's say let's
+- [63:58] say let's go back to Tinder. Okay. And
+- [64:00] let me show you why dot product normal
+- [64:02] doesn't work. If you have two people on
+- [64:05] Tinder and they both answered a bunch of
+- [64:07] questions, uh, and they answered the
+- [64:09] same on all the questions, you could be
+- [64:10] like, well, you know, these two should
+- [64:13] get married. But that's not that's not
+- [64:15] how it works, right? The way it works is
+- [64:19] you have some features of a person that
+- [64:21] are what they want in a partner and
+- [64:25] others of what they offer. And you can't
+- [64:28] just match one by one here. You have to
+- [64:30] match what they want, what this want
+- [64:31] with what this one offers. And that
+- [64:33] tells you how attracted this person is
+- [64:34] to this one. And then backwards what
+- [64:36] this one wants with what this one
+- [64:38] offers. And that tells you the
+- [64:39] attraction in the other direction. And
+- [64:40] there's no reason these two arrows have
+- [64:43] this to be of the same thickness. Right?
+- [64:46] Um
+- [64:48] so uh so the same thing happens with
+- [64:52] words okay in my embedding for fisherman
+- [64:55] I have a lot of properties of the word
+- [64:57] fisherman and the word net and I don't
+- [64:59] want to match them one by one I want to
+- [65:01] match the features that pull other words
+- [65:04] which are going to call the keys with
+- [65:07] the features that get pulled by other
+- [65:08] words which I'm going to call the
+- [65:10] queries and that tells you how much
+- [65:11] fisherman pulls net
+- [65:14] and vice versa.
+- [65:15] when I want to see how much net position
+- [65:17] and I match these with this. Okay, so we
+- [65:21] have a small problem because we have one
+- [65:25] similarity. If I if I mess with this
+- [65:27] embedding into a linear transformation,
+- [65:29] I end up with one similarity and only
+- [65:31] one similarity, right? And I want that
+- [65:35] because I actually want two of them. I
+- [65:37] want to have a pull in one direction, a
+- [65:39] pull in the other direction. But then
+- [65:40] I'm in a bit of a pickle here because
+- [65:42] similarity is based on how distance the
+- [65:44] distance or the dot product or whatever.
+- [65:47] But it's symmetric, right? Like if I'm 5
+- [65:49] m away from you, you're 5 meters away
+- [65:51] from me. I can't just say I'm 5 meters
+- [65:54] away from you, but you're seven meters
+- [65:55] away from me. That's impossible, right?
+- [65:58] So one embedding is not going to cut it.
+- [66:01] Uh if I need two similarities, then I'm
+- [66:02] going to use two embeddings. So one
+- [66:04] embedding, one similarity, two
+- [66:06] embeddings, two similarities. Okay. Uh,
+- [66:08] and how is that going to work? Well, I
+- [66:10] have one embedding for the keys and one
+- [66:12] embedding for the queries. And I'm gonna
+- [66:15] mess around with each one of them
+- [66:16] separately independently. These two
+- [66:19] don't have to be the same for the same
+- [66:21] reason that the similarities don't have
+- [66:23] to be the same in both directions. And
+- [66:25] then this is going to look a little
+- [66:26] magical, but I will promise I will I
+- [66:28] will elaborate. Uh, I overimpose them.
+- [66:32] And when I want to know how much
+- [66:34] fisherman pulls net, I don't look at
+- [66:36] fisherman and net. I look at key
+- [66:38] fisherman and green key fisherman and
+- [66:42] orange query net and that's how much it
+- [66:45] pulls. They're very close strong pull
+- [66:48] and I want to see how much fisherman
+- [66:49] pulls how much net pulls fisherman. Then
+- [66:51] I look at the key green net and the
+- [66:55] orange query fisherman and those are far
+- [66:58] so it's a weak pool. So, this looks
+- [66:59] magical, but you can see how two
+- [67:01] embeddings is able to break that
+- [67:03] symmetry and you have one pool that's
+- [67:05] stronger than the other one, right? Um,
+- [67:08] again, if anything um
+- [67:11] doesn't uh make sense, then then
+- [67:13] definitely let me know. And Fabiano
+- [67:17] likes Portuguese. I like fable. Are you
+- [67:19] Brazilian, Portuguese? Um,
+- [67:23] so, uh, let's see. Um, so, so I'm going
+- [67:27] to do a numerical example of this. And I
+- [67:31] like this example, uh, not because I'm
+- [67:33] there, but because, uh, Taylor Swift is
+- [67:35] there. And I, I'm a huge Swifty. Okay. I
+- [67:38] I I'm a huge fan. I know all the songs.
+- [67:40] I go to all the concerts. Help me out.
+- [67:43] Who do you think pulls the other one
+- [67:45] more into a conversation? Do I pull
+- [67:47] Taylor Swift or does Taylor Swift pull
+- [67:49] me into conversations?
+- [67:51] Be honest. I can take it.
+- [67:55] I think uh let's see. Does Taylor pull
+- [67:58] me or do I pull Taylor?
+- [68:01] There's uh there's both.
+- [68:04] Yeah, I think I think it's uh I'm going
+- [68:07] to go for I pull her more uh for one
+- [68:10] particular reason that it's that if she
+- [68:13] pulls me much less, even though she's
+- [68:15] the more popular word, should be Jupiter
+- [68:17] and I'm the moon, but but I pull her,
+- [68:20] right? Because think about this. If
+- [68:22] there's a conversation about me, two
+- [68:24] people are talking about me. What do
+- [68:25] they say? They're gonna be like, "Oh,
+- [68:26] where's Louise today?" "Oh, he's
+- [68:28] probably at the Taylor Swift concert
+- [68:30] again. Uh, so she comes up in my
+- [68:32] conversation, right?" And Felix says,
+- [68:34] "Yeah, it's because I know her and she
+- [68:36] doesn't know you." So, I pull her into
+- [68:38] conversations.
+- [68:39] Uh, on the other hand, if two people are
+- [68:41] talking about Taylor Swift uh randomly
+- [68:44] in the world, they're probably not
+- [68:45] talking about me. Let's face it, right?
+- [68:48] So, I pull her. I'm the fisherman and
+- [68:53] she doesn't pull me. She's the net.
+- [68:55] She's the more popular word. Popular
+- [68:57] words don't pull so much. They get
+- [68:58] pulled into conversations, right? So,
+- [69:02] let's let's let's throw in some numbers
+- [69:04] and see what it means to be pulled in
+- [69:06] the in terms of the dot product, right?
+- [69:08] In my embedding. Uh let's say that and
+- [69:11] my embeddings are always very nice and
+- [69:12] optimistic. This one has two features.
+- [69:14] Do you like pop music and do you make
+- [69:16] pop music? So, where am I in this? Well,
+- [69:19] I like pop music, but I don't make it.
+- [69:21] So, I'm at one zero, right? One for
+- [69:24] like, zero for make. And she likes pop
+- [69:27] music and makes pop music, so she's at
+- [69:29] one one. Now, if I were to say, how
+- [69:31] similar are Taylor Swift and I, I would
+- [69:34] just take the dot productduct 1* 1 0* 1.
+- [69:38] And then I'll be like, well, we are
+- [69:40] similar uh unit of one. Our dot product
+- [69:43] is one. But that means nothing because
+- [69:45] the fact that we both like pop music
+- [69:47] doesn't mean anything, right? It doesn't
+- [69:50] mean I would pull her or she would pull
+- [69:51] me into conversations. We need to modify
+- [69:53] this dot product. And how do we do it?
+- [69:55] Well, we have that one of these features
+- [69:59] is the key, the one that pulls into
+- [70:01] conversations and the other one is the
+- [70:03] puller, the one that gets pulled. Which
+- [70:05] one do you think is the key uh likes pop
+- [70:08] music or makes pop music? And which one
+- [70:11] is the query? Help me out.
+- [70:15] If I like pop music, do I get pulled
+- [70:17] into conversations or do I pull other
+- [70:19] people into conversations?
+- [70:23] So, makes makes pop is the is the key or
+- [70:26] the query.
+- [70:31] Makes equals key. Uh I always get
+- [70:33] confused with this. Yeah, if I So, uh
+- [70:38] yeah, I I need to reveal the answer
+- [70:40] because I always get confused. Key is
+- [70:42] likes pop music and queries makes pop
+- [70:44] music. Why? Because if I like pop music,
+- [70:46] then I talk about artists and I bring
+- [70:48] them into conversations. So I'll talk
+- [70:50] about The Weekend or Beyonce, right?
+- [70:53] That's the key. I bring them into
+- [70:54] conversations. Whereas if you make pop
+- [70:56] music, you appear in other people's
+- [70:57] conversations, right? Because a lot of
+- [70:59] people like these Swifties are going to
+- [71:00] talk about Taylor Swift, right? Um so so
+- [71:04] the key is the puller and the query is
+- [71:07] the pulled. And in here likes pop music
+- [71:09] is the key and makes pop music is the
+- [71:11] query. So we're going to we're going to
+- [71:13] bring that into the math. What we need
+- [71:16] to see how much I pull her is not the
+- [71:18] dot product is not 1* 1 and 0 * 1. We
+- [71:21] need to match my key which is this one
+- [71:24] to her query which is this one. And
+- [71:26] that's the dot product. We want one
+- [71:28] times one. Right?
+- [71:31] And then you get one which is a strong
+- [71:33] pull. Right? Now this dot product I I I
+- [71:36] had two features and I brought it down
+- [71:38] to one. But if you had a thousand, let's
+- [71:39] say you bring it down to a 100, you're
+- [71:41] like these 100 are the keys and these
+- [71:43] 100 are the queries and I need to do a
+- [71:45] dot product here instead of here. Right?
+- [71:48] So if you want to know how much she
+- [71:50] pulls me, then we look at her key and my
+- [71:53] query. And because she likes pop music,
+- [71:55] but I don't make a pop music, then this
+- [71:58] gets one time zero, which is zero, which
+- [72:00] is how much she pulls me. Right? So we
+- [72:04] got basically we we we got the two uh
+- [72:07] and if you want to look at it
+- [72:08] geometrically here's the key embedding
+- [72:10] and here's the query embedding. The key
+- [72:11] embedding is just everything goes to
+- [72:13] green and the quer is everything go to
+- [72:15] orange. Uh so I just project that down
+- [72:19] in here. We both like pop music. That's
+- [72:21] why we're in the same place. And in here
+- [72:24] I'm going to put it here and rotate it.
+- [72:27] She makes pop music and I don't make pop
+- [72:29] music. So now if I want to know distance
+- [72:31] or angle or dotproduct how much um I
+- [72:35] pull her then keys pull queries right so
+- [72:40] how much I pull her well my key and her
+- [72:42] query are pretty close so there's a
+- [72:44] strong pull how much does she pull me
+- [72:46] well her key and my query are not very
+- [72:48] close okay so that's how you break the
+- [72:51] similarity how are we doing there is uh
+- [72:54] is is similarities are more clear why
+- [72:56] key query matrices appear and what are
+- [72:59] they trying to break. Give me a thumbs
+- [73:01] up. Yeah, perfect.
+- [73:04] So, let's get to a couple more things
+- [73:05] because do you remember we had a
+- [73:07] disagreement here? Uh
+- [73:10] actually, uh let's say that so let's say
+- [73:13] that we had a disagreement here, right?
+- [73:14] Like I had uh we had this one and I said
+- [73:18] I kind of like this one more, right? But
+- [73:21] maybe Raja says, "You know what, Luis?
+- [73:24] uh math and physics are very different
+- [73:25] from the research perspective. So I kind
+- [73:27] of want them to be farther away. And
+- [73:29] what can we do? Well, we can say, hey,
+- [73:31] two heads think more than one, right?
+- [73:32] Like we we agree to disagree. And
+- [73:34] actually a bunch of us disagreed and
+- [73:36] said, hey, I like this one more. I like
+- [73:37] this one more. That's perfect. That's
+- [73:38] perfect because we're going to have
+- [73:40] three different heads of attention.
+- [73:42] Okay?
+- [73:43] Head one, head two, and head three. And
+- [73:47] that's going to give us multi head
+- [73:48] attention. So basically
+- [73:51] uh what we have is a lot of key query
+- [73:54] matrices. Okay. And one big head that's
+- [73:58] going to decide when to use ones more
+- [74:01] than the other one based on context. You
+- [74:02] know, so sometimes let's say you are in
+- [74:04] a universityistic career affair, you
+- [74:06] need math and physics to be more
+- [74:07] similar. So it puts more attention to
+- [74:09] this. It puts a bigger vote. Uh
+- [74:12] sometimes you're going to have this in a
+- [74:14] scientific conversation. You need math
+- [74:15] and physics to be more different. or in
+- [74:17] other conversations you need to to to
+- [74:19] combine them. So they have this sort of
+- [74:21] head thing going on. Uh sorry, skip a
+- [74:25] couple things.
+- [74:30] So that's basically
+- [74:32] uh
+- [74:34] so that's basically what happens in the
+- [74:38] sorry got a little messed up here.
+- [74:54] So basically what happens is that right
+- [74:56] like here's here's when you have the
+- [74:58] head of attention that decides uh for
+- [75:01] what context which key and query to pick
+- [75:04] more than others which embeddings. So
+- [75:05] you have always have a lot of these
+- [75:06] embeddings. You don't have just one
+- [75:08] transformation. You have a lot of these.
+- [75:10] And why does this work? Because in
+- [75:11] machine learning teamwork normally
+- [75:13] works, right? Like if you have if you
+- [75:15] make an algorithm do take several copies
+- [75:18] and do a bunch of of things, you'll find
+- [75:20] that it works like a team. It starts
+- [75:22] mixture of experts in neural networks,
+- [75:24] it starts some some embeddings start
+- [75:26] picking up the slack of others in some
+- [75:27] topics and and and in others other
+- [75:30] embeddings start being stronger, etc. So
+- [75:32] this this tends to work very well. So
+- [75:34] having I think the original paper has
+- [75:36] like 12 heads of attention that's 12 key
+- [75:39] query matrices uh that work in well in
+- [75:43] different context maybe in science this
+- [75:44] one works well in sports this one works
+- [75:46] well etc etc uh so that's where we're
+- [75:49] going to talk about the key inquiry
+- [75:50] matrices but now we're going to talk
+- [75:52] about the value matrix which is also
+- [75:53] important the value matrix basically is
+- [75:56] a little bit more abstract but in this
+- [75:58] one let's say I have my embedding and
+- [76:01] the key and query matrix are the ones
+- [76:02] that tell me how words pull each other
+- [76:04] with gravity, right? But I still need
+- [76:08] another embedding that's optimal for
+- [76:11] generating the next word. And that's
+- [76:14] where I do the movement. So for that I
+- [76:16] have the value matrix. I know this is a
+- [76:18] little abstract and it's not it's not
+- [76:20] super clear. Uh but if you imagine the
+- [76:23] numerical, let's say these are all the
+- [76:26] the features of an embedding for Taylor
+- [76:28] Swift. Some of them are keys because
+- [76:30] they pull other other words. Some of
+- [76:32] them are queries because they get
+- [76:33] pulled. But there are others that are
+- [76:36] the more important to talk. Okay, when
+- [76:39] you're coming up with the next word in a
+- [76:40] conversation, maybe some of them don't
+- [76:43] matter. And let's say that they are pop
+- [76:45] music. Let's say that they are Grammy
+- [76:48] winner and let's say that they are
+- [76:50] musician and artist combined. So the
+- [76:54] value matrix that does it the key and
+- [76:56] the query matrix take care of when words
+- [76:58] are similar or not. the value matrix
+- [77:00] takes care of extracting the features
+- [77:03] that are more important for talking.
+- [77:06] Okay, that's pretty much it. Um, and so
+- [77:10] now we've done now we've seen the whole
+- [77:11] attention, right? The key matrix picks
+- [77:13] features that pull other words, the
+- [77:15] query matrix features that get the word
+- [77:17] pulled and the value matrix feature that
+- [77:19] are useful for talking. Um, so the
+- [77:22] attention mechanism is basically that,
+- [77:24] right? Like you have your this part
+- [77:26] calculates the similarity and this part
+- [77:27] moves the words around and when you have
+- [77:30] more heads you basically have a bunch of
+- [77:32] different embeddings that are combined
+- [77:34] using this sort of smart head over here.
+- [77:37] And that is what happens when you look
+- [77:40] at uh the actual transformer
+- [77:44] architecture. It has this this sort of
+- [77:46] strong strong heads of attention here.
+- [77:48] Um so we've managed to do this one. This
+- [77:52] is the most extensive one by the way.
+- [77:54] Um, how are we doing with time? We want
+- [77:56] to break at the middle, right? At like
+- [77:58] uh I'm at 1:30. What is that? Like 10
+- [78:03] 10. Should we break it around the half
+- [78:05] hour?
+- [78:06] We do a little bit of a feed forward
+- [78:08] network and break at the half hour.
+- [78:10] Sounds good. Okay. So, the next thing
+- [78:12] I'm going to tell you is the feed
+- [78:15] forward. And uh by the way, uh thumbs
+- [78:18] up, thumbs down. You've seen neural
+- [78:19] networks. uh and G I will I will I will
+- [78:23] sort of give them to you from scratch
+- [78:25] because I want to give you the the way I
+- [78:27] look at them. Okay? Uh but you know feel
+- [78:30] free if you have a knowledge of neural
+- [78:31] networks to sort of interpolate this
+- [78:33] with the knowledge you have. I'm just
+- [78:34] going to give you my own view. This is
+- [78:36] how neural networks appear. I don't
+- [78:38] really like them and and if this is the
+- [78:40] first time you see them that's fantastic
+- [78:42] as well. So either way it's it's a
+- [78:44] win-win. I'm gonna tell you more about
+- [78:46] the neural network part of of the of the
+- [78:50] of the um of the thing. Uh so let's say
+- [78:55] that uh let me re review some things. I
+- [78:58] think I think most of you know this, but
+- [79:00] if I have a one-dimensional space,
+- [79:01] that's basically one number in a number
+- [79:03] line, right? A two-dimensional space is
+- [79:06] points in the plane with two
+- [79:07] coordinates. For example, three
+- [79:08] horizontal, two vertical. A
+- [79:11] threedimensional space is just points
+- [79:12] with three coordinates. the the street,
+- [79:14] the avenue, and the floor. Uh, and a
+- [79:17] 10,00 dimensional space, a 100
+- [79:18] dimensional space, it's hard to picture,
+- [79:20] but you just have like, let's say, every
+- [79:22] number, every point has a 100
+- [79:24] coordinates. Okay. So, where do images
+- [79:27] live? We're going to talk a little bit
+- [79:28] about images. Where do images live? Like
+- [79:31] this pixelated image here with zeros and
+- [79:33] ones uh is 7 by six. So it lives in
+- [79:36] 42dimensional space because what I do is
+- [79:40] I stack all these all these columns
+- [79:42] together and I live in a 42dimensional
+- [79:46] space. Somewhere over here is this
+- [79:48] image, right? Uh Mnest lives in 28x 28
+- [79:52] dimensional space because it's 28 pixels
+- [79:54] by 28. Uh the cfar data set which is
+- [79:57] colored images of 32x 32 lives in this
+- [80:00] dimensional space because it's 32 * 32 *
+- [80:02] 3 for blue green yellow. Uh where the
+- [80:06] words live? Well the the simplest
+- [80:08] embedding the one that the original one
+- [80:10] before embedding smart was basically
+- [80:13] saying if you have a thousand words we
+- [80:15] have more than a thousand words. I'm
+- [80:17] just going to call it one for the word
+- [80:19] that I'm looking at and zero for
+- [80:21] everything else. So I live in a thousand
+- [80:23] dimensional space. Of course we have
+- [80:25] better. We have um embeddings which
+- [80:29] let's say bring every word to a,024
+- [80:32] uh dimensions that means that words live
+- [80:34] in a,024 dimensional space. So let's
+- [80:37] just remember that even though all my
+- [80:39] spaces are two dimensional every time I
+- [80:41] do something is is two dimensions or
+- [80:43] three because I can only imagine those
+- [80:44] but picture things happening in a
+- [80:46] thousand dimensional space. Um so so
+- [80:49] let's talk about neural networks, right?
+- [80:51] Like how do you uh let's say classify
+- [80:54] images of cats? Okay, this is like 10
+- [80:56] years old stuff when like when like we
+- [80:58] started recognizing images. Well, if
+- [81:00] data was nice and I put them in an
+- [81:03] embedding an image and everything here
+- [81:06] is cats and everything here is not cats.
+- [81:08] Then I just come up with something
+- [81:09] called a linear model. A linear model is
+- [81:11] a line. I cut it with a with a knife.
+- [81:14] All the cats are here and all the
+- [81:15] non-ats are here. However, life is not
+- [81:19] that nice. data sets are not that nice
+- [81:22] and if I want to separate the cats and
+- [81:24] the not cats I kind of need a really
+- [81:27] twisted line which is a nonlinear model.
+- [81:31] Okay, that's what neural networks are
+- [81:33] going to help us with. Uh now drawing a
+- [81:36] bent line or or a bent boundary is is is
+- [81:40] really hard and so we take advice from
+- [81:42] this kid who knows where this where this
+- [81:44] is from. What's this reference? Help me
+- [81:47] out.
+- [81:51] the Matrix, right? You can see Neo here,
+- [81:53] there is no spoon. Exactly. Good. So,
+- [81:56] Neo is trying to to look how the kid
+- [81:59] bends the spoon and the kid said uh in
+- [82:01] in very British accent, he says
+- [82:03] something like uh don't try to bend the
+- [82:06] spoon, just try to bend yourself
+- [82:08] instead. And then he starts bending the
+- [82:10] spoon. We're going to take the advice
+- [82:12] from the kid. Let's not try to bend the
+- [82:14] line. Let's try to bend the space
+- [82:15] instead using nonlinear transformations.
+- [82:18] So remember that a linear transformation
+- [82:20] takes squares into parallelograms and a
+- [82:22] nonlinear one takes squares into
+- [82:24] anything, right? Just bends it like for
+- [82:26] this I just took a a software that that
+- [82:28] that bends that that modifies images and
+- [82:31] I started pulling points apart. That's a
+- [82:33] nonlinear transformation. They're more
+- [82:35] complicated. And now we are going to
+- [82:36] need nonlinear transformations because
+- [82:38] what we're going to do is take this
+- [82:41] space and bend it in a way that now all
+- [82:45] the cats are on one side and the
+- [82:47] non-cats are on the other side. That's a
+- [82:49] neural network. Okay?
+- [82:51] And this line if I remember how I bent
+- [82:54] the space and I unbend it becomes this
+- [82:56] twisted thing over here. So it's better
+- [82:58] to have a line in a bent space than a
+- [83:01] bent curve in a in a in a nice space,
+- [83:05] right? And that's what neural networks
+- [83:06] do. They basically find the perfect
+- [83:08] weight to bend the space and maybe put
+- [83:10] it in higher dimensions. Who cares? So
+- [83:13] that we can cut and this cut was there.
+- [83:17] Uh excellent. I'm glad I'm glad you're
+- [83:18] liking the the analogy. Uh and then at
+- [83:21] the end there's crunching it down which
+- [83:23] is the soft mice. I will talk about the
+- [83:24] soft math later mathematically, but
+- [83:26] basically once I organize the space like
+- [83:28] this and the cats are on one side, I can
+- [83:30] bring it down to a line and put all the
+- [83:33] cats here and the non-cats here and then
+- [83:35] this cut becomes this cut, right? Like I
+- [83:38] just once I organize them, I can just I
+- [83:40] can just put them in a line with one
+- [83:41] little mathematical operation that will
+- [83:44] get to it. Uh and so in other words, the
+- [83:47] neural network just finds the best way
+- [83:49] to bend space and then bring it down to
+- [83:52] a little segment in such a way that when
+- [83:54] I cut this segment becomes this cut that
+- [83:57] could be a it could be a plane and just
+- [84:00] cut it with a knife and that becomes my
+- [84:01] complicated cut. That's the essence of
+- [84:03] neural networks. Okay. And that's what
+- [84:05] this is is is is saying here's my input.
+- [84:09] My input is here. My bending space part
+- [84:11] is the part in the middle and this last
+- [84:14] part is the soft max that turns it into
+- [84:15] a line. Okay. Now, what if I have more
+- [84:17] inputs? If I have more inputs, cats and
+- [84:19] dogs and other stuff. Well, I could just
+- [84:21] find the neural network for the cats and
+- [84:24] a neural network for the dogs. Uh, bend
+- [84:27] them in different ways uh so that one
+- [84:30] captures one cut and the other one
+- [84:31] captures the cut that that splits the
+- [84:33] dogs. But that's actually not what we
+- [84:36] do. The magic of neural networks is that
+- [84:39] the same neural network can be found. It
+- [84:42] can be trained for both. So one that
+- [84:45] puts the cats in one corner, the dogs in
+- [84:47] another corner, and this becomes the cat
+- [84:51] and a cut, and this becomes the dog cut.
+- [84:53] Okay? And you can do this with as many
+- [84:55] inputs as you want. Obviously, I'm too
+- [84:57] optimistic here. I could get a dog in
+- [84:58] the wrong side. Who cares, right? But
+- [85:00] for the most part, for the most part.
+- [85:02] Uh, and so what I end up is with
+- [85:04] different soft maxes. Check out.
+- [85:06] Remember this this picture is a little
+- [85:07] messy, but basically there's a cut for
+- [85:10] dog, cut for cats, and a cut for other
+- [85:12] stuff. And I can bring it down to using
+- [85:16] the softmax to a segment where my
+- [85:20] uh where my stuff I sorry this should
+- [85:23] have been flipped. I'm sorry about that.
+- [85:24] But this one separates the stuff from
+- [85:27] the animals. This one separates the cats
+- [85:28] and this one separates the dog. So
+- [85:30] imagine this, right? I have my data. I
+- [85:33] bring it into a big messy nonlinear
+- [85:35] thing. And then for each one of the
+- [85:38] classes that I want to cut, I bring it
+- [85:41] into one different segment by looking at
+- [85:44] it from a different angle. Okay? If
+- [85:46] anything's not clear, do do let me know,
+- [85:48] please. Uh but I want to have this image
+- [85:50] because that's the image that that I
+- [85:53] want to have for the transformer for
+- [85:55] Chad GPT. Uh Siang says, "Is each cut
+- [85:57] way a model?" So think of this. To get
+- [86:00] the first cut, I look at it from this
+- [86:02] perspective where like the stuff here is
+- [86:05] zero and the stuff here is is one. To
+- [86:08] get this cut, I get I look at it from
+- [86:10] the perspective where the cats are on
+- [86:11] the right. You know what I mean? Like I
+- [86:12] just have to look at it and and and
+- [86:14] bring it down to a line. I will explain
+- [86:16] the math in a bit. uh not to not too
+- [86:19] deeply but I will I will talk about but
+- [86:21] if you imagine that basically if I have
+- [86:24] I start with messy data in a nice space
+- [86:27] I turn it into a huge messy space but
+- [86:30] with organized data where things are on
+- [86:32] each corner and then for the classes
+- [86:35] that I want to do for example the cats
+- [86:37] the dogs and the else I can bring it
+- [86:40] down to a little segment where the stuff
+- [86:43] I need is on one side and everything
+- [86:45] else is on the other side. Um, all
+- [86:48] right. Uh, so it's more of a mental
+- [86:51] picture. How do we do this, right? How
+- [86:53] do we how do we how do we do this bandit
+- [86:55] like beckham thing like crazy, right?
+- [86:58] Um, well, we do it step by step. We're
+- [87:01] going to basically build these these uh
+- [87:04] things with little building blocks,
+- [87:07] okay? And we're not going to get to the
+- [87:09] it's like building things with Legos.
+- [87:10] You may build, you know, the Statue of
+- [87:12] Liberty with Legos. You don't get to
+- [87:13] exactly the Statue of Liberty, but you
+- [87:14] get really close using enough Legos,
+- [87:17] right? So, we're going to use uh linear
+- [87:20] and nonlinear transformations, and we're
+- [87:22] going to alternate from linear to
+- [87:23] nonlinear. But the idea is that you
+- [87:25] slowly start bending the space. The
+- [87:27] first layer of the neural network bends
+- [87:28] it a little bit. The next one bends it
+- [87:30] even more. The next one more and more
+- [87:32] and more, and the last one brings it
+- [87:34] down to a segment where all the stuff is
+- [87:36] here in one class and here in the other
+- [87:37] class. Okay? And the number of nodes is
+- [87:40] the dimensions. So here I started with
+- [87:41] two dimensions, two nodes. I went to
+- [87:44] three dimensions. Three nodes. If I had
+- [87:46] a 100 nodes here, it means I'm putting
+- [87:47] in a high 100 dimensional space. Um, and
+- [87:52] basically this is how the this is how I
+- [87:54] create this this monster of an of a of a
+- [87:58] space. I go one linear, one nonlinear,
+- [88:01] one linear, one nonlinear, one linear,
+- [88:03] one nonlinear. Each one of them is a
+- [88:04] layer of the neural network. Layers are
+- [88:07] composed of a linear map and a nonlinear
+- [88:11] map. Linears are nice. It turns a square
+- [88:13] into a parallelogram, right? They're
+- [88:15] nice and nonlinear ones are ugly. They
+- [88:19] do crazy stuff, but I'm going to pick
+- [88:21] the nicest nonlinear map that I can
+- [88:24] think of. I'm going to pick a really
+- [88:26] simple one. And I'm going to pick the
+- [88:27] ReLU. Give me thumbs up or down if
+- [88:29] you've seen a ReLU before. Um
+- [88:33] that basically the ReLU does the
+- [88:34] following. It's the is is the the the
+- [88:37] most non the simplest nonlinear thing I
+- [88:41] can do. So what's a what's a linear
+- [88:43] thing? The function y equals x. That's a
+- [88:45] line. How do I get to a nonlinear?
+- [88:48] I'm just going to break the line and cut
+- [88:50] it like okay. And I have the relu
+- [88:54] function. It says the following. If
+- [88:56] you're a positive number, you're going
+- [88:58] to stay the same. If you're a five, you
+- [88:59] stay five. If you're a seven, you stay
+- [89:01] seven. And if you're a negative, you
+- [89:03] become zero. So a minus4 becomes a zero.
+- [89:07] That's very simple, but it's nonlinear.
+- [89:11] And that's the little building block
+- [89:13] that we're going to need to turn this
+- [89:14] into a big nonlinear thing. So for
+- [89:16] example, this image is important to
+- [89:18] understand. This is for example a space
+- [89:20] that I bent, right? In a in a in a
+- [89:23] linear way. If I apply the relu, notice
+- [89:26] that anything that's positive becomes
+- [89:28] positive and any coordinate that's
+- [89:31] negative becomes zero. So for example,
+- [89:33] this dog over here goes to zero, right?
+- [89:36] This one over here goes to 0 0 because
+- [89:38] it's two negative coordinates. Okay, so
+- [89:40] the relu basically takes this
+- [89:42] parallelogram and sends it to this
+- [89:44] little thing. That's nonlinear. It's
+- [89:46] simple but nonlinear, right? This is
+- [89:47] what nonlinear does to me, right? Just
+- [89:50] only keeps the positive part and makes
+- [89:51] everything else zero. So my every layer
+- [89:55] of my neural network is a combination of
+- [89:58] a linear map that takes squares to
+- [90:01] parallelograms and the relative
+- [90:05] and with that I can build anything here
+- [90:08] that's an amazing theorem in machine
+- [90:10] learning right with this called the
+- [90:11] universe approximation theorem with a
+- [90:14] bunch of linear maps and a bunch of
+- [90:15] relus
+- [90:18] obviously because relus has corners it's
+- [90:20] just going to look like corners but I
+- [90:21] can get as post as I want. Um, is that
+- [90:26] clear or do you want me to elaborate? By
+- [90:27] all mean, by all means, if anything's
+- [90:29] not clear, I I'm happy to elaborate. And
+- [90:30] I have about five more minutes of this
+- [90:32] and then we go to a break. Okay. So,
+- [90:36] here's the neural network for
+- [90:37] classifying images, right? I have my
+- [90:39] original embedding and here's my cat and
+- [90:42] then it goes to a cat somewhere here and
+- [90:44] then it goes to a cat somewhere here and
+- [90:46] then in the softmax part uh I have a
+- [90:49] high score for cat and low for for dog
+- [90:52] and other right I'll get
+- [90:56] I'll get to real in a minute then uh so
+- [91:00] um and if I have a dog then that's going
+- [91:02] to give me a high score in the in the in
+- [91:04] the dog uh segment and low on the other
+- [91:08] one something else. It's just going to
+- [91:10] have a high here and a low for for this.
+- [91:13] Right? So, I have as many as many here
+- [91:17] as I have um as I have classes. Um I I
+- [91:22] want to know if this image is clear or
+- [91:25] if there's any doubts because if there's
+- [91:28] doubts, I can I can address them. If we
+- [91:30] understand this image, then we're going
+- [91:32] to understand the transformer.
+- [91:35] Yeah. In the meantime, I'm going to go
+- [91:37] back and and and uh because Sen asked
+- [91:39] the question about what is ReLU, right?
+- [91:41] ReLU takes positive numbers and keeps
+- [91:44] them the same and negative numbers turn
+- [91:46] them into zero. So here uh look at how
+- [91:49] it kind of turned every every everything
+- [91:51] that has a two negative coordinates
+- [91:53] turns into 0 0. Anything with one
+- [91:56] negative coordinate like this cat keeps
+- [91:58] the positive coordinate and makes the
+- [92:01] negative one zero. Okay, so that's the
+- [92:04] red. It's it's it's obviously nonlinear,
+- [92:07] but it's as simple as you can get for a
+- [92:09] nonlinear function, right? It's it's
+- [92:10] just the little building block we need
+- [92:12] to to nonlinearize this thing. Okay.
+- [92:17] Muhammad says it's always true that each
+- [92:19] layer has one nonlinear and one linear
+- [92:20] transformation. Yes, it is. And
+- [92:22] sometimes the nonlinear one is sigmoid
+- [92:23] or or tanh or something. I'm just going
+- [92:26] to talk about ReLU, but if you know
+- [92:27] other linear functions, they work. Um
+- [92:32] yes. Uh there there's lots of them.
+- [92:35] Yeah, I think I think Jel might be
+- [92:36] another one. Okay, so super important.
+- [92:39] If this image is clear, this is a neural
+- [92:42] network. Okay, because this is how we're
+- [92:44] going to understand transforms. Now,
+- [92:46] I've talked about images a lot. Why did
+- [92:48] I talk about images? Uh because you can
+- [92:50] train the the the neural network to to
+- [92:52] classify the images and I can give it as
+- [92:55] many outputs as I want. Now, this talk
+- [92:58] is about language models, not image
+- [93:00] models. So we have to get the language
+- [93:02] models. So how do we get the language
+- [93:04] models? I need to find a data set to
+- [93:06] train this so that I can make the model
+- [93:09] talk. Well, let's let's make it talk.
+- [93:12] Okay, I'm going to create a data set
+- [93:14] like this one but for talking. So here's
+- [93:17] the thing. Let's say that I'm going to
+- [93:20] do something very simple. I open the
+- [93:22] page of philosophy uh in Wikipedia and
+- [93:26] I'm going to create a data set. I'm
+- [93:28] going to teach the model to give me the
+- [93:31] next word after a word. Okay? So for
+- [93:33] example, the next word after philosophy
+- [93:35] is love. I add that to my data set. The
+- [93:38] next word after love is of. I add that
+- [93:39] to my data set of wisdom. Wisdom in in
+- [93:43] ancient ancient Greek. Greek is is a a
+- [93:46] systematic. Okay. So I'm going to teach
+- [93:48] my neural network not to recognize a
+- [93:50] cat, but to recognize the next word in a
+- [93:54] sentence. And I fill this data set. So
+- [93:56] just like I had images and dogs, cats
+- [94:00] and others, then I here I have words and
+- [94:04] the next word. So I'm going to train a
+- [94:06] data set to mimic this instead of this.
+- [94:08] Uh how well let's do ancient Greek.
+- [94:11] Right now pay attention to this. Uh this
+- [94:15] is my word embedding. My word embedding
+- [94:17] puts the word ancient let's say here.
+- [94:19] And in my neural network, this word gets
+- [94:21] modified. And then I have uh the
+- [94:24] softmax. I have a lot of classes. Before
+- [94:27] I had cat, dog, uh other. Now I have
+- [94:31] lots of them because there's as many as
+- [94:33] words. Okay, this is a key step. I have
+- [94:35] as many as words in the language. And
+- [94:38] basically,
+- [94:39] uh if Greek is the word after ancient,
+- [94:42] then when I look at the the word Greek,
+- [94:45] it's going to have a high score and low
+- [94:47] scores for everything else. Okay? So,
+- [94:49] just like I had the cat, you know, cat
+- [94:52] goes to cat goes to cat goes to a high
+- [94:54] number for cat and a low number for dog.
+- [94:57] Then ancient goes to ancient goes to
+- [94:59] ancient. It has a high number for Greek
+- [95:01] and a low number for everything else.
+- [95:03] That's a neural network that comes up
+- [95:05] with the next word in a sentence. Okay.
+- [95:08] Uh now obviously the next word could be
+- [95:10] many things, right? I could have ancient
+- [95:11] Greek or ancient pyramids. What does
+- [95:13] that mean? Well, that in in when I look
+- [95:17] at Greek and pyramids, they have high
+- [95:18] scores and everything else has a low
+- [95:20] score. Okay. Uh the problem is that this
+- [95:24] doesn't talk very well because if you
+- [95:25] come up with the next word after a word,
+- [95:28] then you say hello, the next word is how
+- [95:30] and how the next word is much because
+- [95:33] how much and you end up talking like hey
+- [95:35] hello how much obliged because you now
+- [95:37] talk like Dory again because you're
+- [95:39] coming up with the next word and you
+- [95:41] don't remember anything before. So you
+- [95:44] could do something called recurrent
+- [95:45] neural networks. We're not going to talk
+- [95:46] about them, but I encourage you to to to
+- [95:48] to uh look them up. I can give you some
+- [95:50] resources uh where you have a bit of a
+- [95:53] higher context window. You're able to
+- [95:55] remember three or four words using a
+- [95:56] neural network that has some of some
+- [95:59] kind of like circular connections. Uh
+- [96:02] and then you can talk a little more,
+- [96:03] right? Hello, how are you going to the
+- [96:06] uh that still talks like Dory because it
+- [96:08] only has a really small memory. The good
+- [96:10] thing about transformers is that they
+- [96:12] have lots and lots and lots of memory.
+- [96:16] So here's how transformers operate.
+- [96:17] Okay, take a look at this. This is the
+- [96:19] key part. I'm going to use one neural
+- [96:22] network that talks. So in hello, it
+- [96:24] gives me the next word, how? And I'm
+- [96:27] going to replicate it for hello, how are
+- [96:30] the next sentence, the next word after
+- [96:32] hello, how are
+- [96:34] the neural networks three times. What
+- [96:37] what is that word that comes after
+- [96:39] hello? the word after how and the word
+- [96:41] after R. Okay. Uh if if the image is not
+- [96:45] clear, please let me know. Uh and what
+- [96:47] I'm going to do is this is not very good
+- [96:50] because I have the neural network that
+- [96:52] comes up with the next word three times.
+- [96:56] That's not good. Uh I can also join them
+- [96:58] and I get the same thing, right? like
+- [97:00] hello how are uh get mapped into
+- [97:03] something here and get mapped into
+- [97:05] something here and then then the new
+- [97:07] tells me what's what's next after after
+- [97:09] hello it's how but I'm not I haven't
+- [97:12] done anything right because these are
+- [97:14] still separated words I haven't been
+- [97:16] able to join them into a sentence the
+- [97:17] neural network knows that there's a
+- [97:19] hello that there's a how and that
+- [97:21] there's an r and that's it we need to
+- [97:24] get better so what do we do to to join
+- [97:28] these things in a sentence Here's where
+- [97:30] the magic happens. We use the gravity
+- [97:32] analogy. Do you remember the gravity,
+- [97:34] the word gravity? So in each one of the
+- [97:37] layers of the neural network, we're
+- [97:38] going to use gravity. So here's what we
+- [97:40] do. We say hello, how are we put them in
+- [97:42] our embedding
+- [97:44] just randomly and we apply word gravity.
+- [97:47] So we make them gravitate towards each
+- [97:49] other the way we learned before. Then
+- [97:52] they pass to the next layer. And then
+- [97:55] again we use word gravity.
+- [97:58] and then they pass to the next layer and
+- [98:00] again we use word gravity. So by the
+- [98:03] time we get through a 100 layers we've
+- [98:05] done word gravity a 100 times. Now these
+- [98:07] words are really entangled. Now it's not
+- [98:09] just R. R has a lot of knowledge of
+- [98:12] hello and how, right? And so when I do
+- [98:15] the final step, then in reality, the
+- [98:18] word R has a lot carries a lot of
+- [98:21] knowledge of the other two. And so the
+- [98:24] neural network is able to find the next
+- [98:26] word in a sentence because that that
+- [98:29] last word now really knows about the
+- [98:31] other two because of this word gravity I
+- [98:33] applied. So in other words, a
+- [98:36] transformer
+- [98:38] is like a big neural network except at
+- [98:41] every step I apply word gravity to the
+- [98:44] words. Okay, I hope this was not I may
+- [98:48] have gone a little abstract but I as
+- [98:50] long as the main idea makes sense. It's
+- [98:52] like it's like a neural network but I
+- [98:55] apply gravity at every at every step and
+- [98:57] so the words really get soaked on each
+- [98:59] other's meanings, right? Like I used to
+- [99:01] have hello by itself. Now it's like
+- [99:03] hello how are hello they get really
+- [99:05] really entangled and that's how I add
+- [99:09] context. So at every at every stage of
+- [99:11] the neon network I add context at
+- [99:13] context at context context and by the
+- [99:15] time I get to the end these words are so
+- [99:17] are good friends you know they're like
+- [99:19] buddies. Um
+- [99:21] I think we can break here uh say say 10
+- [99:24] minutes uh we got to the meat part of
+- [99:27] this uh and then we'll get to a few
+- [99:29] other things like soft mask etc. We need
+- [99:31] we need a few of these but these are
+- [99:32] much easier. Uh but let's do what do you
+- [99:35] say 10 minutes
+- [99:40] and if you have any questions uh feel
+- [99:42] free to put them in the chat and I'll
+- [99:44] just start the next part by addressing
+- [99:45] them. What do you think? Yep. Cool. All
+- [99:48] right. See you in See you in 10 minutes.
+- [99:50] So that would be at uh PST 1050,
+- [99:54] right?
+- [110:41] Hello again.
+- [110:44] Can you hear me?
+- [110:48] Perfect. We'll give people a minute to
+- [110:51] come back. Actually, while they come
+- [110:53] back, I noticed that a few things I
+- [110:55] answered, but there was one.
+- [111:00] See,
+- [111:08] if we have ReLU to approximate a curve,
+- [111:10] do we really need linear transformation?
+- [111:11] That's a great question.
+- [111:14] Uh, yes, we do. Yes, we do. We need
+- [111:16] because otherwise ReLU just does ReLU
+- [111:18] and that's it, right? We need to modify
+- [111:20] things then apply ReLU. Modify things
+- [111:22] like you modify things then break it
+- [111:24] linearity modify again break linearity
+- [111:27] modify again break linearity and you can
+- [111:29] end up with any any space you want or
+- [111:33] approximate any space you want. So this
+- [111:35] is a this is huge mathematical theorem
+- [111:37] right the fact that with just a relu and
+- [111:40] matrices
+- [111:42] you can create you can approximate any
+- [111:45] messed up function no matter no matter
+- [111:47] what messed up function you can
+- [111:48] approximate it with those it's it's not
+- [111:51] obvious right it's the fact that neural
+- [111:52] networks work so well it's why they work
+- [111:55] because you can there's no data set
+- [111:56] complex enough that you can't
+- [112:00] uh get to really closely using just relu
+- [112:04] and linear transformations and as a
+- [112:06] matter of fact a lot of functions work
+- [112:08] for that rel right like if you know the
+- [112:09] sigmo if you know tan h just any most
+- [112:13] functions that break linearity actually
+- [112:15] the theorem says anything that's not a
+- [112:16] polomial so any most functions that that
+- [112:19] are not linear work for that activation
+- [112:22] function uh anyway another one that
+- [112:25] we're going to see is the sigmoid let me
+- [112:27] share my screen again
+- [112:30] Uh
+- [112:34] also there's a recurring question and I
+- [112:36] don't know if uh
+- [112:40] is are you here? Um
+- [112:43] the question is if the recording will be
+- [112:45] shared.
+- [112:48] >> Yes, the recording will be shared with
+- [112:50] all the attendees on next week.
+- [112:53] >> Perfect. Okay. Excellent. So that no
+- [112:56] pressure. I I can't make mistakes now.
+- [112:59] He'll be he'll get down in history be
+- [113:02] like that guy
+- [113:05] uh
+- [113:06] okay
+- [113:08] so B for me say so bending only happens
+- [113:11] you have to definitely we'll we'll edit
+- [113:13] it in post if I if I make some mistakes
+- [113:15] so bending only happens with a
+- [113:16] combination linear transformation right
+- [113:18] saying bending and a straight line
+- [113:21] exactly yeah ReLU just provides that
+- [113:23] little break that you need to use as
+- [113:27] many times as you want and and and get
+- [113:29] to everything. Um, that's that's the
+- [113:31] idea. Yeah. All right. Um, are you
+- [113:34] seeing my screen? No, I'm not sharing
+- [113:35] screen.
+- [113:37] I'm all over the place here. One second.
+- [113:44] Ah, shoot. I'm not I'm not even there.
+- [113:48] Sorry.
+- [113:50] Uh,
+- [113:54] okay.
+- [113:56] Sharing screen.
+- [114:02] Okay, we did the hard part. Everything
+- [114:04] left is easy. Uh we went through the
+- [114:06] complex mathematically. Uh now
+- [114:08] everything else is it's kind of like
+- [114:10] just bookkeeping. So let me tell you
+- [114:12] about we have softmax, we have
+- [114:13] positional encoding and tokenization and
+- [114:15] then we talk about other things in
+- [114:17] neural networks. Uh but basically yeah
+- [114:18] the hard part already happened. What is
+- [114:21] this softmax thing that I talked about
+- [114:23] at the end right? is basically uh neural
+- [114:26] networks return scores but scores can be
+- [114:28] positive, negative, can be anything. And
+- [114:30] the idea is to turn them into into
+- [114:32] something between zero and one. Um why
+- [114:35] would I want that? Why why would I why
+- [114:37] would I not just simply choose uh the
+- [114:41] biggest thing here, the most likely
+- [114:42] word? Because let's say that I have the
+- [114:45] sentence in the store, I bought an and
+- [114:47] let's say I have three options, apple,
+- [114:49] orange, and elephant. Think of this as
+- [114:51] like thousands, but I'm only going to
+- [114:52] show you three. Um, the transformer will
+- [114:56] give scores, right? Will give scores of
+- [114:58] four, three, and one. Why? Because high
+- [115:01] scores for words that are likely
+- [115:03] probably I didn't go to the store and
+- [115:04] buy an elephant, so there's a small
+- [115:05] score here. Now, you don't want GPT to
+- [115:09] answer the same thing all the time. You
+- [115:11] want it to be a little unpredictable,
+- [115:13] but not too much, right? So, if you ask
+- [115:16] the same question again, you get
+- [115:17] different answers. Why? if it just
+- [115:19] answers the word with the with the
+- [115:21] highest score because it turns scores
+- [115:23] into probabilities in order for you to
+- [115:24] sample. So, how do you turn this 431
+- [115:27] into probabilities to sample? I'm going
+- [115:30] to do the obvious. I'm going to divide
+- [115:32] by their sum. So, I'm going to divide I
+- [115:35] needed to add to one. So, I divide by
+- [115:37] eight and I get 48, 38, and 1/8. Um, and
+- [115:42] I just sample 50% of the time this one,
+- [115:45] 37.5% of the time this one, and 12.5% of
+- [115:48] the time this one. Makes sense, right?
+- [115:50] I'm not going to get I'm not going to
+- [115:51] hallucinate too often and I'm often and
+- [115:53] I'm get answers with some probability.
+- [115:56] Uh, however, there's a problem here
+- [115:58] because scores can be negative, right?
+- [116:00] So, if I have a negative here, uh, I
+- [116:02] can't play this trick. So, I get a
+- [116:05] negative probability. So, what do we do?
+- [116:08] This is something you do in machine
+- [116:09] learning pretty much every time that you
+- [116:12] need uh positive numbers and it's you
+- [116:17] take e to the score. Okay, why e? It
+- [116:21] could be two to the score 10 to the
+- [116:23] score. Exponentials are always positive.
+- [116:25] So we use exponentials. Okay, so e to
+- [116:27] the 4, e to the 3 and e to the minus
+- [116:31] one. Exponentials are always positive
+- [116:33] and also they're bigger if the if the
+- [116:35] number is bigger. So it's exactly what
+- [116:37] we need. And now I have big numbers 54
+- [116:40] 20 and 37. Look how small this is. And
+- [116:43] then to make it probabilities I just
+- [116:44] divide by the sum, right? I divide by by
+- [116:47] the three of I normalize this and I get
+- [116:50] 72% 27% and tiny percent here. So then I
+- [116:54] sample out of here and I'm going to get
+- [116:55] apple most of the time, orange a big
+- [116:57] amount of the time and never elephant
+- [117:00] almost. So that's what we do. And if I
+- [117:01] have a thousand words, I just take the
+- [117:03] scores of the neural network e to the
+- [117:05] that and then divide by the whole sum
+- [117:07] and I get a bunch of probabilities. And
+- [117:09] if I sample out of those probabilities,
+- [117:11] I'm very likely to get a word with high
+- [117:13] score, which means I'm my answer is
+- [117:15] likely to be accurate. Uh but not always
+- [117:18] the same. So I get to sound more like a
+- [117:20] person because if it answers the same
+- [117:22] thing all the time, then you know sounds
+- [117:24] like a robot. On the other hand, you can
+- [117:25] mess with that with using temperature.
+- [117:27] You can change this this base eat to to
+- [117:30] a higher number or a lower number in
+- [117:32] such a way that it becomes more
+- [117:33] predictable or less predictable. If you
+- [117:35] want something medical for example, you
+- [117:36] want it to always answer the same thing.
+- [117:38] You don't want an exciting doctor. You
+- [117:40] want an accurate doctor, right? So you
+- [117:43] you raise the temperature, you lower the
+- [117:45] temperature. If you want a poet, you
+- [117:47] don't want you want something
+- [117:48] unpredictable and and creative and it
+- [117:51] doesn't matter if it hallucinates a
+- [117:53] little bit. And so you would raise the
+- [117:54] temperature high. So temperature is
+- [117:56] always on.
+- [117:57] um a knob that you can turn in a model
+- [118:00] and it's basically changing this E so
+- [118:02] that it either either gets the highest
+- [118:05] stuff with high probability or or evens
+- [118:07] them out a little bit. So that's
+- [118:09] softmax. Now let's go to tokenization.
+- [118:12] Um basically I may have slightly uh
+- [118:15] bended the truth. Uh not lying but bent
+- [118:17] the truth. Not not the only thing we
+- [118:20] bent today. Uh like those faces. Um, so
+- [118:24] to token I I really said words all the
+- [118:27] time. I always said words. Uh, but the
+- [118:29] the the model doesn't know what a word
+- [118:31] is. It uses tokens. And most words are a
+- [118:35] token. Uh, for example, write a story.
+- [118:37] Write a story. Period. Every punctuation
+- [118:40] sign is a token. Everything's a token.
+- [118:42] Uh, but sometimes you have two tokens
+- [118:44] for a word. For example, doesn't would
+- [118:46] be like does. And like suffixes are
+- [118:48] tokens. Prefixes are tokens. It's
+- [118:50] basically the best way the best
+- [118:53] quotations way to break something down.
+- [118:55] If you want to try OpenAI has a open
+- [118:58] tokenizer you can just put the stuff and
+- [119:00] notice that I said I'm learning a lot in
+- [119:02] the data science dojo a identici
+- [119:04] conference and agent is a token
+- [119:07] dojo breaks it into two but for example
+- [119:09] science uh anti-establishmentarianism
+- [119:12] gets broken into a bunch of tokens with
+- [119:14] suffixes and prefixes. Uh, but for the
+- [119:17] most part, if you think that every
+- [119:19] word's a token,
+- [119:22] you can go about your day and do machine
+- [119:24] learning without a word. Unless you work
+- [119:26] at a tokenizer, unless you're the
+- [119:27] tokenizer person at at a an LLM company,
+- [119:30] then you need to care about tokens. Uh,
+- [119:33] and different languages have different
+- [119:34] tokens. And it's very important to
+- [119:35] tokenize well a language. Uh, let me
+- [119:38] give you a a a sample of how to
+- [119:40] tokenize. This is a very old method of
+- [119:42] tokenizing called by parent coding. Uh,
+- [119:45] and it's basically joining letters when
+- [119:47] they appear too often. That's pretty
+- [119:48] much it. For example, hug, hugs, bug,
+- [119:51] and bugs. This is my entire dictionary
+- [119:54] of words. Uh, and I have five letters,
+- [119:57] H, U, G, S, and B. Question for you. Um,
+- [120:01] if you had to join two of these letters
+- [120:03] into one unit to make things more
+- [120:06] efficient, which ones would you join?
+- [120:11] Uh, you are correct. Yes, Sad and Robert
+- [120:14] are correct. UG. Why UG? Because it's
+- [120:16] the pair that appears the most, right?
+- [120:18] HU appears two times. UG appears four
+- [120:21] times. So, it makes sense to join U and
+- [120:22] G into one letter and then I just have
+- [120:24] to type that letter and I'm saving time.
+- [120:27] So, I'm going to join UG and I'm going
+- [120:29] to add it to my tokens. And I continue
+- [120:31] doing like that. So, now from the tokens
+- [120:33] that I have, uh, which one should I join
+- [120:36] the most? Well, uh, it seems like every
+- [120:39] pair appears twice. So, I'm just going
+- [120:40] to pick a random one and join hug. Hug
+- [120:43] is a token. Uh, and I keep going, right?
+- [120:46] So, now I have and hog and hug and the
+- [120:49] next one is bug because it appears
+- [120:51] twice. So, basically, if I just take the
+- [120:54] most common appearing pair of of letters
+- [120:57] or existing tokens and join them, I get
+- [121:00] a pretty decent tokenization, right?
+- [121:02] There's there's better, but that's it.
+- [121:05] And why is BP important? Because it it
+- [121:07] retains the information, right? Let's
+- [121:08] say I have the word left and the word
+- [121:11] walked and I misspelled something and I
+- [121:13] get the word bis. I don't know what that
+- [121:15] is. But if I break them into tokens,
+- [121:18] this one got messed up. But I do know
+- [121:20] that at the very least I'm thinking of
+- [121:21] the past tense of some word, right? I
+- [121:24] don't know what bisque is, but I know
+- [121:26] that bis is the past tense of bisque,
+- [121:28] right? So tokens do give information,
+- [121:30] right? Uh so so yeah, something like
+- [121:34] that. And when I played with them, it it
+- [121:35] it didn't exactly do it. But you know,
+- [121:38] you you you get some information from
+- [121:41] tokens uh that that kind of helps you
+- [121:44] out. Um as you can see, this these are
+- [121:48] fast, right? Tokenization's fast, tok
+- [121:50] positional encoding is really
+- [121:51] interesting. Uh and actually it feels
+- [121:54] like cheating a little bit to be honest
+- [121:55] with you. Do you remember when we did
+- [121:57] this that nowhere in the phrase uh
+- [122:02] anything I did with hello how are was
+- [122:04] done exactly with how are hello because
+- [122:08] nowhere nowhere in this business was the
+- [122:11] order of words even brought up.
+- [122:14] That's weird right? Like I could come up
+- [122:17] with that I could reorganize a sentence
+- [122:19] and the neural network is like yep like
+- [122:21] you did nothing. Uh so we need to
+- [122:24] somehow take that into account. We need
+- [122:26] to add something called position
+- [122:28] encoding. And as I said, it feels like
+- [122:30] cheating because it's not doing anything
+- [122:32] intelligent with the position coding. It
+- [122:34] it just does one thing and then it trust
+- [122:36] the neural network to learn what you
+- [122:38] did. Whatever it worked, I don't
+- [122:41] question it. But I'm sure there there
+- [122:42] may be better ways to do it. Let me give
+- [122:44] you an example. Let's say I say the
+- [122:45] sentence know it is good and the
+- [122:48] sentence it is no good.
+- [122:50] those uh two sentences are are are the
+- [122:53] same words but they're very different
+- [122:55] sentences uh which is no good. Uh but in
+- [122:59] the embedding the model fits them in the
+- [123:02] exact same way in the exact same way.
+- [123:04] Right? The model has no clue these two
+- [123:06] are different. It needs to know. So
+- [123:08] we're going to do the following. And as
+- [123:11] I said, forgive me because this is kind
+- [123:13] of sloppy. But I'm just going to take
+- [123:15] every word and move it around in some
+- [123:19] direction. But as you can see, the first
+- [123:22] word always moves to the right, the next
+- [123:24] one up, the next one left, and the next
+- [123:26] one down. And here, the same thing. So
+- [123:28] here I'm modifying the word no to the
+- [123:30] right. And here I'm modifying the word
+- [123:32] it to the right. So I'm doing something
+- [123:33] different.
+- [123:35] Uh you see, I'm going to move them like
+- [123:37] this. And I'm going to move them like
+- [123:38] this. So here no goes to the right but
+- [123:40] here it goes to the right because it's
+- [123:42] based on position. That's why it's
+- [123:43] called positional encoding. Right? So
+- [123:46] when I move them I get different stuff
+- [123:49] right
+- [123:51] and it turns out that that's all that
+- [123:53] really mattered that it's different. We
+- [123:55] need two things different and
+- [123:57] predictable. See this sequence is
+- [123:59] predictable. Right up left down right up
+- [124:02] left down. We can trust that a model
+- [124:05] that's smart enough will learn that
+- [124:07] sequence and reverse engineer it back to
+- [124:10] figure out the order. We have to trust
+- [124:12] the neural network. A lot of it is
+- [124:13] trusting the neural network. Um, and
+- [124:16] that's pretty much all there is. Now,
+- [124:17] here's a problem. This sequence is
+- [124:19] periodic and that's not good. So, for
+- [124:21] example, this is what we would do. We
+- [124:23] would move the first word to the right.
+- [124:24] We pick some angle and move the second
+- [124:26] word in that angle. the third word in
+- [124:29] that angle twice and three times and so
+- [124:31] on and so on and so on. But if the
+- [124:33] sentence is too long, eventually I get
+- [124:35] back to where I started and the 11th
+- [124:37] word gets sent to the similar place on
+- [124:39] the first word. That's not good. So I
+- [124:41] don't want a periodic sequence, but I do
+- [124:44] want it to be predictable. And for
+- [124:46] predictable, I mean for a computer
+- [124:48] predictable kind of kind of means
+- [124:50] periodic. If it gets too complicated,
+- [124:52] the model's already doing a thousand
+- [124:54] other stuff. It needs an easy periodic
+- [124:56] like thing. So what do we do that's
+- [124:58] periodic like but unpredictable, right?
+- [125:02] Well, let's do the following. Okay,
+- [125:05] let's imagine that the embedding has six
+- [125:08] entries for the sake of of uh of
+- [125:12] argument and we're going to take them in
+- [125:14] pairs. The first pair,
+- [125:17] we're going to modify them like this.
+- [125:19] We're going to move the first word here,
+- [125:20] some angle for the second word, third
+- [125:22] word, fourth word. We're adding these
+- [125:24] are two numbers, right? These vectors
+- [125:26] are two numbers. I'm adding it to these
+- [125:27] two numbers. Okay, for the second one,
+- [125:30] I'm just going to take a smaller angle
+- [125:34] for the third and fourth. For the fifth
+- [125:36] and sixth, I'm going to take a much
+- [125:37] smaller angle. By the time I get to the
+- [125:39] 99 999 and a th00and, it's a tiny angle.
+- [125:43] So, it's like wheels that are spinning,
+- [125:45] but the first one's spinning super fast.
+- [125:46] The second one's lower, the third one
+- [125:48] much much slower, and the the 10th the
+- [125:50] thousand one is barely moving. Right? So
+- [125:54] this is periodic in nature.
+- [125:58] It's predictable
+- [126:01] but oh I did this again when I do
+- [126:02] anything I start getting balloons and
+- [126:04] stuff. Um periodic in nature but it's
+- [126:08] not periodic right you broke the
+- [126:10] periodicity but it's predictable enough.
+- [126:12] This is the formula blippity blippity
+- [126:14] sign divided by 10,000 to the something
+- [126:18] whatever it does this. Okay. So this is
+- [126:21] how we modify them in order to uh be
+- [126:24] predictable enough for the model to
+- [126:26] learn it but at the same time uh not
+- [126:29] periodic and if you've seen this this is
+- [126:31] positional encoding and this is the
+- [126:33] wheel spinning right this one spins fast
+- [126:34] so it changes color fast and this one
+- [126:37] spin really slow so they they barely
+- [126:39] change color so if if you ever see this
+- [126:40] image it's exactly what what it means
+- [126:42] that the wheels spin for for different
+- [126:45] elements in the in the embedding. Okay,
+- [126:47] so now we've done the whole transformer
+- [126:49] architecture. Uh congratulations. Uh
+- [126:52] let's let's actually go through the
+- [126:54] whole thing basically. So we have uh
+- [126:57] write a story. Then it goes through
+- [126:59] tokenization.
+- [127:00] Then this goes through the embedding.
+- [127:03] Uh then it goes through positional
+- [127:05] encoding which modifies each word
+- [127:07] differently.
+- [127:08] Then this goes through a neural network
+- [127:11] that has some feed forwards and some
+- [127:15] attention steps of gravity in between.
+- [127:17] And then this gives you a bunch of
+- [127:19] scores for every word there is. And the
+- [127:23] softmax turns those scores into
+- [127:24] probabilities. And then you sample a
+- [127:27] word that always ends up being something
+- [127:29] almost always have a high probability.
+- [127:31] And then the word once gets added. So
+- [127:32] all of this stuff to add one word to
+- [127:35] your sentence. And then you repeat it
+- [127:37] and repeat it and repeat it and repeat
+- [127:38] it. Um, so that we end section two which
+- [127:42] is basically all the architectural
+- [127:44] stuff.
+- [127:46] Yet you still talk, you still make them
+- [127:49] talk and they still hallucinate and they
+- [127:51] still lie and they still don't know how
+- [127:53] to say I don't know and they still full
+- [127:55] of faults and weaknesses even after you
+- [127:57] do all this genius engineering with huge
+- [127:59] computers.
+- [128:01] What do we do to mitigate these
+- [128:03] weaknesses? In particular, we left this
+- [128:06] thing unanswered, right? Like, why are
+- [128:07] the jokes so bad, but the poem so good?
+- [128:09] After all that genius architecture with
+- [128:11] attention mechanisms and blippity
+- [128:13] blippity, it still can't tell a joke. I
+- [128:17] don't like that. So, the question now,
+- [128:19] and I wonder if anybody thought about
+- [128:21] this when the beginning, did anything of
+- [128:24] what we said about Transformers makes a
+- [128:25] hint of why is are the jokes so bad yet
+- [128:30] the poems good? Who can who can help me
+- [128:32] out?
+- [128:38] Poems rhyme. Yeah, that's a good one.
+- [128:40] See, poems rhyme. I can make I can rhyme
+- [128:42] with chat GBT, but I can't make laugh. I
+- [128:45] can't make someone laugh. Why?
+- [128:51] Actually, it's a funny story. Well, you
+- [128:52] think I'll tell you the story. I had to.
+- [128:54] This This really bothered me, the jokes
+- [128:56] thing. Uh, and I asked a bunch of people
+- [128:59] I knew and and you know, there wasn't
+- [129:01] really a consensus on why it's so bad at
+- [129:03] telling jokes. Uh, I had to ask Jeff
+- [129:05] Hinton. Uh, do you know Jeff Hinton?
+- [129:07] He's basically the godfather of AI. Won
+- [129:09] the Nobel Prize in physics. Uh, and he
+- [129:12] lives in Toronto where I live. So, at an
+- [129:13] event, please get me out of my misery.
+- [129:16] Why are the jokes so bad? And, uh, oh,
+- [129:20] Robert, I think I think got the the
+- [129:22] idea. Yes, it's pretty much exactly
+- [129:24] that. Uh, and he said, and Jeff Hinton
+- [129:27] said, "The reason they're so bad is
+- [129:29] because they're thinking one word at a
+- [129:31] time." Yeah, Kit has a good point, too.
+- [129:33] There's a pattern in poems, but not in
+- [129:34] jokes. So, patterns are definitely
+- [129:35] something. So, here's the thing. The
+- [129:39] problem is the fact that it speaks one
+- [129:40] word at a time. Okay? You cannot tell a
+- [129:44] joke one word at a time, but you can
+- [129:47] tell a poem one word at a time. If you
+- [129:49] if you tell me do a poem about data
+- [129:51] science dojo then I'll just be like data
+- [129:53] science dojo great institution that
+- [129:56] teaches me AI something comes up but if
+- [129:58] it's a joke I can't right like what did
+- [130:00] the computer say to the table I have no
+- [130:03] idea I have to think because you cannot
+- [130:06] tell poems you cannot tell jokes one
+- [130:09] work at a time you have to think ahead
+- [130:11] like Robert says right you have to think
+- [130:13] of a punch line and then work your way
+- [130:15] to it you cannot do that if you speak
+- [130:17] one word at a Whereas in a poem, you can
+- [130:20] add the next word in the best possible
+- [130:22] way and somehow create a poem. So here's
+- [130:25] how I think of um
+- [130:28] here's how I think and and yeah, see it
+- [130:30] mentions that it's similar to a
+- [130:31] limitation of of of predicting one word
+- [130:33] at a time. I think of chat GPT as a car.
+- [130:36] What does a car have? A car have
+- [130:38] headlights and a rearview mirror. The
+- [130:41] headlights are for looking ahead and the
+- [130:43] rearview mirror for looking behind. And
+- [130:45] you can drive like that.
+- [130:47] Language models are like a car except
+- [130:49] they have really low headlights. Really
+- [130:51] low. They can only see like one meter
+- [130:53] ahead uh because you're generating one
+- [130:56] word at a time. On the other hand, the
+- [130:59] rear view mirror is huge. You can see
+- [131:01] kilometers to the back. You can see
+- [131:03] everything far away and the fact that
+- [131:05] you have the attention mechanism means
+- [131:07] you can you can focus. You can do
+- [131:09] anything. So this is very strong but
+- [131:11] this forward is very weak. And that's
+- [131:14] why understanding is easier than
+- [131:15] creating. We talked at the beginning,
+- [131:17] right? Because you look at the back and
+- [131:18] you understand philosophy, art, music,
+- [131:21] science, everything. But when you start
+- [131:23] talking, generating, you only have one
+- [131:24] word at a time. And jokes have to be
+- [131:26] created this way because you have to
+- [131:27] plan your punchline, right? You have to
+- [131:30] plan your punchline ahead and get there.
+- [131:33] Whereas you can create a poem sort of
+- [131:35] looking back and be like, okay, I need
+- [131:37] to write, okay, I need to add a word for
+- [131:39] this. And and you don't need to plan
+- [131:41] ahead. A good poem needs to be planned
+- [131:43] ahead, but a decent poem doesn't. And um
+- [131:46] so for example, if I'm in my joke and my
+- [131:48] poem and I want to create the word here
+- [131:51] uninspide, then I think well these words
+- [131:54] would help me and that's it. And maybe I
+- [131:56] want to rhyme or something, but I can
+- [131:58] always look back. On the other hand, if
+- [132:01] I want to create a if I want to put this
+- [132:03] word here, I had to start with something
+- [132:07] and if I didn't set up the joke well,
+- [132:09] there's nothing I can do to fix it. This
+- [132:11] thing kind of fixed it but as best as it
+- [132:14] could but when it was creating the word
+- [132:16] Y it had to look here you can't do that
+- [132:19] you can only do the opposite when I look
+- [132:21] create this word I can look back okay so
+- [132:25] basically think of this when you tell
+- [132:27] chat GPT to write a poem it turns on the
+- [132:30] poetic news to to high and it starts
+- [132:32] saying poetic stuff and some point comes
+- [132:35] out not excellent but decent on the
+- [132:37] other hand if you tell Chad GPT to write
+- [132:39] a joke you're turning up the jokester
+- [132:41] too high and it starts trying to sound
+- [132:44] funny at every word. You can't tell a
+- [132:46] joke by trying to sound funny at every
+- [132:47] word. You have to hold back. You have to
+- [132:49] plan ahead. You have to invest in the
+- [132:50] future. Can't do that. Right? So, I
+- [132:53] think of this a poem is like if you're
+- [132:55] walking in a garden and picking the most
+- [132:57] beautiful flower you can at every
+- [132:58] moment. You can do that with a low
+- [133:00] light. Pick the most beautiful word
+- [133:02] here. On the other hand, a joke. You
+- [133:04] have to find the tree far away and work
+- [133:07] your way through it. And that's not
+- [133:09] easy. So if you make a misstep
+- [133:10] somewhere, which you will likely do,
+- [133:12] you'll end up a really bad joke. So I
+- [133:14] like to think of a progression where
+- [133:15] joke is the hardest and poem is the
+- [133:17] easiest and somewhere in the middle
+- [133:19] there's a story. So for example, a
+- [133:21] serious a series is not as hard. Like I
+- [133:23] don't know who who watched Lost or Game
+- [133:26] of Thrones. Uh they have something in
+- [133:28] common which the series was very good
+- [133:30] but the ending was terrible because they
+- [133:32] were writing it as they go. lost, for
+- [133:34] example. I don't know who who who who
+- [133:35] who shares that they they lost six years
+- [133:37] of their life like me watching that
+- [133:39] stupid series because they were um
+- [133:42] basically creating every chapter as they
+- [133:44] went, right? Like what Chad GPT would
+- [133:47] do. They never thought of the ending
+- [133:48] clearly and then they have something and
+- [133:51] they couldn't even finish. Uh on the
+- [133:53] other hand, a movie is harder, right?
+- [133:56] Because you can't have a good movie with
+- [133:59] a bad ending. You have to work with your
+- [134:01] way to the ending. So I would trust Chad
+- [134:03] GPT to write a series before it can
+- [134:05] write a good movie. Okay. So think of it
+- [134:08] the more you have to plan the harder it
+- [134:10] is for Chad GPT and that's why we have
+- [134:12] things like rag and agents and
+- [134:14] everything to mitigate these problems
+- [134:17] and emphasize these strengths. Uh so now
+- [134:21] that we look at it every strength and
+- [134:22] weakness makes sense, right? because you
+- [134:24] can talk about many top you can follow
+- [134:26] orders really well because you can
+- [134:27] summarize an entire chapter because it's
+- [134:30] it's put on your on your rearview mirror
+- [134:31] and you can look at it on the other hand
+- [134:34] uh there's enough facts oh I was
+- [134:35] translating from Spanish and I forgot to
+- [134:37] translate the sentence but you know what
+- [134:38] I mean um so I'm going to give you now a
+- [134:41] bunch of strategies the last one of
+- [134:43] which is agents to strengthen to use the
+- [134:48] rearview mirror in your own good and to
+- [134:51] mitigate that weakness of the of the
+- [134:55] uh the light ahead. Okay. Um but the
+- [134:58] first one's actually not not that the
+- [135:00] first one I put fine tuning first
+- [135:01] because it's slightly different. Uh
+- [135:03] fine-tuning is something you should do
+- [135:05] with every with every language model. Uh
+- [135:07] and it's done by by uh OpenAI and
+- [135:11] Enthropic and and Deepseek and they
+- [135:13] always fine-tune their models. Why do
+- [135:15] you need fine-tuning? So let me ask you
+- [135:18] a question. Let's say you train a model,
+- [135:19] the way you train a neural network on
+- [135:22] the internet, okay? You train it on the
+- [135:24] internet and it learns to talk like the
+- [135:27] internet. That's like in the streets
+- [135:29] basically. Like it it it's rough. The
+- [135:31] internet is a rough place. It's uh it's
+- [135:34] basically no man's land. And let's say I
+- [135:37] ask it, what's the capital of Brazil? So
+- [135:40] the answer would be Brazilia. But let's
+- [135:44] think what could go wrong there. Help me
+- [135:46] think of ways where this could go wrong.
+- [135:48] If I say, "What's the capital of
+- [135:50] Brazil?" What are
+- [135:52] creative ways in which the model, if it
+- [135:55] just learns on the internet, would
+- [135:57] answer? And remember, it doesn't know
+- [135:59] it's ask answering a question. It just
+- [136:01] knows the next word. So, if I just go on
+- [136:03] next word prediction, any ideas? It
+- [136:06] could say Brazil, for example. Let's
+- [136:07] see. Yeah, it could say Brazil. It could
+- [136:09] say the wrong capital, right? It could
+- [136:11] say Lima or it could say Buenosirus or
+- [136:13] something like that. Paris. Um here's
+- [136:16] here's something interesting.
+- [136:18] It could say yeah be it could say right.
+- [136:20] It could just go for the next token. Um
+- [136:26] let's see what Oh, I love it. Yeah.
+- [136:29] Kumar actually guessed what I was going
+- [136:30] to go for. What is the capital of Peru?
+- [136:34] If I ask it what's the capital of
+- [136:35] Brazil, it could answer what's the
+- [136:37] capital of Peru? Why would it answer in
+- [136:40] such a stupid way if I asked the
+- [136:41] question? Well, because a lot there's a
+- [136:45] lot of quizzes on the internet and a
+- [136:47] quiz has a question followed by another
+- [136:49] question and the computer has no clue
+- [136:51] it's answering a question. It only knows
+- [136:53] the next word and if the next word after
+- [136:55] a question mark is the beginning of the
+- [136:57] next question, the thing is going to
+- [136:58] throw in a question for you. It doesn't
+- [137:00] know it's it doesn't know what it's
+- [137:01] doing. It's just a word. It's just a
+- [137:03] glorified WhatsApp autocomplete. What
+- [137:05] can you expect from it? Right? So a lot
+- [137:09] of things can follow a lot of things can
+- [137:11] follow a question that are not the
+- [137:14] answer and that's a problem and that's
+- [137:16] not something you fix with a linear
+- [137:17] transformation or a rel that's something
+- [137:19] you fix outside of the model with data.
+- [137:23] Okay. So you need to give it lots and
+- [137:26] lots and lots and lots of data sets with
+- [137:30] questions and answers so that it gets
+- [137:32] used that after a question it answers
+- [137:34] its answer and not another question. is
+- [137:37] basically just throw data at it. The
+- [137:39] same thing happens with commands. For
+- [137:40] example, if I get if I say summarize
+- [137:42] this,
+- [137:44] it's not going to summarize it. How many
+- [137:46] times in the internet does does the does
+- [137:48] the command follow is followed by the
+- [137:50] command being done? It's not necessarily
+- [137:52] right. So, you need it you need to give
+- [137:54] it a lot of data sets of like a thing
+- [137:56] and then the thing done a thing and then
+- [137:59] the thing done. Same thing with chats.
+- [138:00] You need to give it data set. So, you
+- [138:01] need to give it data sets of how you
+- [138:03] want it to behave. And that's like half
+- [138:05] of the work. Um, give an example. I used
+- [138:08] to work at Coher which is a like a
+- [138:11] language model company like like like it
+- [138:13] has a a chat button everything. Uh, and
+- [138:16] uh the first floor was employees and the
+- [138:19] second floor was just annotators writing
+- [138:21] stuff like that, right? Like writing
+- [138:23] questions and answers. You get experts
+- [138:24] for everything. Uh, you need to do this
+- [138:26] otherwise the model behaves the way the
+- [138:28] internet behaves and nobody wants a
+- [138:29] model that behaves the way the internet
+- [138:31] behaves, right? You want it to behave
+- [138:32] like a person who's been educated. So I
+- [138:34] like to imagine as like you learn on the
+- [138:36] internet means you learn to speak on the
+- [138:37] street and then you curate you you train
+- [138:41] it with a lot of curated data sets uh
+- [138:43] question answer commands chats
+- [138:46] everything uh math basic everything and
+- [138:49] then uh if you have your own company and
+- [138:52] you can always fine-tune it with your
+- [138:54] own data set. So if you have for example
+- [138:56] a bank or something you just put all the
+- [138:58] PDFs put all the files put all the and
+- [139:00] over train your own network though so it
+- [139:02] gets used to it. So fine-tuning is very
+- [139:04] important. Strategy one, fine-tuning.
+- [139:06] Always fine-tune your models. Um,
+- [139:09] strategy two is very easy. It's a
+- [139:11] preamble. So let's say you ask the
+- [139:13] model, "Hi, I have a question." And it
+- [139:15] goes, "What do you want?" Uh, you don't
+- [139:17] want this for a uh customer service
+- [139:19] chatbot, right? What do you do? Well,
+- [139:21] here's something easy. You just put a
+- [139:22] preamble. You say, "You're a respectful
+- [139:24] chatbot. You answer blah blah blah blah.
+- [139:26] Check. Make sure you ask another
+- [139:28] question before you hang up." And then
+- [139:30] it just reads every time. uh every time
+- [139:33] it reads your question, it um it uh just
+- [139:39] reads the preamble and then the
+- [139:40] question. So preamles are always
+- [139:42] important. If you have a if you're
+- [139:43] building a chatbot, always put a huge
+- [139:44] preamble uh with all the stuff. The next
+- [139:48] one is rag retrieval augmented
+- [139:50] generation. Thumbs up or down. Have you
+- [139:51] heard of rag? It's a popular thing.
+- [139:53] Maybe maybe you have, maybe you haven't.
+- [139:54] Okay, so rag basically here's the thing.
+- [139:57] I asked the model uh I did this like the
+- [140:00] day after the US Open tennis final. I
+- [140:03] said uh who won the 2025 US Open and it
+- [140:07] said I have no idea. It has not happened
+- [140:09] yet. Huh? How dare you? It just
+- [140:11] happened. Um so I didn't know. And then
+- [140:15] I clicked this button search. This is
+- [140:17] deepseek by the way. Uh but you can do
+- [140:18] this in Chad GPT. clicked the button
+- [140:20] search and then it answered correctly uh
+- [140:24] with it said read two web pages and it
+- [140:26] even gave me click links to click that's
+- [140:28] rag rag rag is basically saying before
+- [140:32] you answer
+- [140:34] uh look it up why is rag so effective
+- [140:38] because if I ask a question what's the
+- [140:40] capital of India for example and I
+- [140:42] expect the the model to answer with this
+- [140:44] little headlight it's going to get it
+- [140:45] wrong maybe it'll be like kolkat
+- [140:47] something uh instead Instead, if I put a
+- [140:50] really solid preamble and I say, "Hey,
+- [140:53] don't don't start yap yap yapping.
+- [140:55] Before you open your mouth, look up the
+- [140:59] answer on Google." And if you don't find
+- [141:01] it, say, "I don't know." I tell it, "Say
+- [141:03] I don't know." Magical words that Chad
+- [141:05] GPT cannot say. Uh, and then what it
+- [141:08] does is it looks it up and it puts all
+- [141:11] the results in the rearview mirror. So
+- [141:12] with the rearview mirror seeing the
+- [141:14] results, the question and the preamble
+- [141:16] then it's able to answer it because it's
+- [141:19] just answer it by looking at the
+- [141:20] rearview mirror instead of looking
+- [141:21] ahead. Right? So you're strengthening
+- [141:24] you're using this strength to mitigate
+- [141:26] this Achilles heel uh and then it
+- [141:28] answers correctly. So rag is very very
+- [141:30] useful. What are the steps of rag? Let
+- [141:32] me do a little a little flow workflow uh
+- [141:35] which is what happens if like let's say
+- [141:37] uh I don't know somebody calls you or
+- [141:38] your parents calls you and say hey I
+- [141:39] have a question but the question is is
+- [141:42] is worded long I'm trying to remember
+- [141:44] was the capital of India I thought I
+- [141:45] knew it but I know I'm not sure we don't
+- [141:47] type that into Google right we have a
+- [141:49] skill that we've developed in the last
+- [141:51] 20 years which is how to turn things
+- [141:53] into a Google search query right we turn
+- [141:56] it into a Google search query and then
+- [141:59] uh we search it and then we take all
+- [142:01] these and maybe more maybe some some
+- [142:04] more stuff came out and with the with
+- [142:06] the question the original question the
+- [142:08] rewarded question and this all in the
+- [142:10] rearview mirror we answer um why is it
+- [142:13] so easy to reward a question because
+- [142:14] it's all in the rearview mirror it's an
+- [142:16] instruction right like reward this into
+- [142:18] a Google query is very easy for a
+- [142:20] language model on the other hand
+- [142:23] answer the question is hard so rewarding
+- [142:25] into a Google query easy answering hard
+- [142:28] that's why we use the search results Uh,
+- [142:31] normally preamble, fine-tuning, and rag
+- [142:33] make a good model. I would trust this
+- [142:35] because this one tells it what to do.
+- [142:38] This one fine-tunes it to really gets it
+- [142:40] used to your data. And this one search
+- [142:42] in a database before answering. So
+- [142:44] that's that's pretty good stuff. Let me
+- [142:47] tell you a bit more about uh reasoning
+- [142:49] models. Okay, so reasoning models uh
+- [142:52] when Deep Seek came out, it it made a
+- [142:54] huge storm because it uh it just
+- [142:56] reasoned really well. I started doing
+- [142:58] math with it and it started being really
+- [142:59] accurate. uh what happened with deepseek
+- [143:02] okay what was the thing is very simple
+- [143:05] very simple you uh let's say I have two
+- [143:08] students and I give them a math problem
+- [143:11] one of the two students uh starts
+- [143:14] writing frantically the solution the
+- [143:16] other one wrote a page of drafts and
+- [143:19] then started writing the solution
+- [143:21] without knowing anymore who would you
+- [143:24] put your money on student one or student
+- [143:25] two
+- [143:28] probably two right probably
+- [143:30] uh because at least planned what it was
+- [143:32] going to say. This is basically uh using
+- [143:35] this this strength, right? If I say
+- [143:37] solve for X in this equation, the thing
+- [143:40] starts talking and it may get it right,
+- [143:42] but if it just starts talking, it may
+- [143:43] also get it wrong. It's using this
+- [143:45] weakness, right? If I give it a preamble
+- [143:47] that says, hey, before you open your
+- [143:49] mouth, write at least 10 pages of drafts
+- [143:54] and then read them to yourself.
+- [143:58] Okay? put them in your rearview mirror.
+- [144:00] So, see, it's writing this draft is not
+- [144:02] easy. It may say 10 wrong things and one
+- [144:06] correct, but reading its own drafts is
+- [144:09] really good because the model is a much
+- [144:11] better critic than it is a creator. So,
+- [144:14] reading your own drafts, you can tell
+- [144:17] that maybe the answer was here. Okay?
+- [144:19] So, you're using the strength of the
+- [144:21] rearview mirror to check your own work.
+- [144:24] You're being your own the model's being
+- [144:25] it its own critic. That is a reasoning
+- [144:29] model. Now you can get further. You can
+- [144:31] get one more step. What DeepSync did is
+- [144:33] it used reinforcement learning to
+- [144:35] actually grade the draft. So it it gave
+- [144:39] it an instruction to write uh the
+- [144:42] solutions using a bunch of steps and
+- [144:44] then it checked every step and it
+- [144:47] trained the neural network by telling it
+- [144:50] to write good steps at every moment and
+- [144:52] the steps were checked with either the
+- [144:54] same language model or a huristics like
+- [144:57] compiling code math engine. Anyway, the
+- [145:00] fact is you train a model to write
+- [145:02] drafts and you check the drafts and tell
+- [145:06] it to write good drafts and then you get
+- [145:09] a really good reasoning model and that's
+- [145:10] why deep did so well. Um,
+- [145:14] and the last strategy is uh agents. So
+- [145:16] agents is basically I I've talked about
+- [145:19] agents already because rag is an agent,
+- [145:20] right? Um why why are agents why do I
+- [145:23] think agents are are actually uh a good
+- [145:25] a good progression? Because uh
+- [145:27] technology always rhymes. Okay, if you
+- [145:30] remember the internet uh those who were
+- [145:32] here when when the internet started, it
+- [145:33] started as a text thing. It was a it was
+- [145:35] just text. The pages were just text uh
+- [145:38] information basically textual
+- [145:40] information. Then it became multimodal.
+- [145:42] Images started appearing, videos, audio,
+- [145:45] all kind of stuff. Not just for input
+- [145:47] output but also for input. And then it
+- [145:50] became a tool. See, if 20 years ago they
+- [145:51] tell me I was going to make a bank
+- [145:53] transaction on the internet, I would
+- [145:54] have thought it's crazy.
+- [145:56] Now all my bank transactions are on the
+- [145:58] internet and I don't even question it.
+- [146:00] Same thing happens with uh large
+- [146:02] language models. They follow the same
+- [146:03] progression. So uh chat GPT first it
+- [146:06] started as text. You would just write
+- [146:08] text and it just replies text. Then it
+- [146:10] became multimodal. You can generate
+- [146:12] images. You can you can ingest an im you
+- [146:14] can put in an image. It understands it.
+- [146:17] It creates videos, music, uh audio,
+- [146:20] everything. And then it becomes it's in
+- [146:23] the process of becoming a tool. Right
+- [146:25] now, it may be crazy to think that we're
+- [146:27] all going to do going to do everything
+- [146:28] using language models, but in the
+- [146:30] future, I I see it like the internet,
+- [146:33] right? Like we're going to tell it to
+- [146:34] write a bunch of emails, tell it to do a
+- [146:36] few things, it'll do them uh very
+- [146:39] naturally, like we do a transaction on
+- [146:41] the internet. We don't even wonder about
+- [146:42] it, right? Um so, language model. So, so
+- [146:46] let's talk about agents a little bit.
+- [146:47] And the lab is on agents. Um agent has
+- [146:50] three things, brain, tools, and memory.
+- [146:54] Uh, and uh, rag is an agent, right?
+- [146:57] Because what does rag do? It first
+- [146:58] rewrites the question. Uh, then it
+- [147:00] searches in Wikipedia and then it
+- [147:02] answers the question. Uh, oh, I'm sorry.
+- [147:04] I think I'm Oh, yeah. Um, that's that's
+- [147:08] already an agent that's doing stuff,
+- [147:09] right? It's got the brain, it's got the
+- [147:11] functions that rewrite the question. Uh,
+- [147:13] it's got the memory, which is uh what it
+- [147:16] said, and all this stuff. So, it's it's
+- [147:18] it's basically the the original agent is
+- [147:21] rag. Um, and so another thing, another
+- [147:25] thing that agents do is for example
+- [147:27] this. Let's say I ask uh how to do 3 +
+- [147:31] 7. Well, a model, think about this. A
+- [147:34] model doesn't really know math, right?
+- [147:38] Uh, sorry, give me one second. I think I
+- [147:39] may have Oh, sorry. I have this in
+- [147:41] order. Uh,
+- [147:44] no. Sorry. Sorry about that. Um, Amal
+- [147:47] doesn't already know math. So from
+- [147:49] reading the internet and guessing the
+- [147:51] next word,
+- [147:53] coming up with the fact that 3 + 7 is 10
+- [147:55] is not easy. Maybe 3 + 7= 10 appears
+- [147:58] many times in the internet and you got
+- [148:00] used to it. But if it's a bigger sum,
+- [148:01] maybe it never appeared on the internet.
+- [148:03] And maybe the rules of summation are
+- [148:05] somewhere hidden in the internet and you
+- [148:08] could learn them from reading. But the
+- [148:11] fact is it's not easy, right? It knows
+- [148:13] it's a number because it's used to after
+- [148:15] a question with a number a number
+- [148:17] appears. But it's no, it's not easy to
+- [148:19] say can. Um, on the other hand, you can
+- [148:22] put a preamble that says before
+- [148:23] answering, open the calculator and use
+- [148:25] it. So, it just puts this into the
+- [148:27] calculator
+- [148:28] and then puts it in the revenue mirror
+- [148:30] and with this and the question, it will
+- [148:33] answer correctly. Right? So, in other
+- [148:36] words, what do you think is easier for a
+- [148:38] computer to look at this problem and
+- [148:40] say, I have 10 apples and I ate four.
+- [148:42] How many do I have left? What do you
+- [148:44] think is easier to say 10 - 4 or to say
+- [148:47] six
+- [148:53] for the computer?
+- [148:55] Right? See, I've got 10 minus 4. Um 10 -
+- [148:58] 4 is easy because if you think about it,
+- [149:00] 10 - 4 is language. If I don't know how
+- [149:02] to subtract, I can look at this and I be
+- [149:04] like, I have 10, I
+- [149:08] means I remove four. 10 minus four. This
+- [149:12] is language.
+- [149:14] On the other hand, six requires math.
+- [149:16] For us, it's the same difficulty, but at
+- [149:18] this but this is much much easier for a
+- [149:20] computer than this. Much much easier.
+- [149:23] And we have the calculator. So, because
+- [149:26] 10 - 4 is basically something I can do
+- [149:29] by looking in the rearview mirror, but
+- [149:31] the six requires some thinking out of
+- [149:33] the box, right? Out of this box.
+- [149:36] Um so we have the calculator agent which
+- [149:38] is uh I can I can look at the problem
+- [149:42] and extract the equation
+- [149:45] and then use the calculator for the
+- [149:47] equation and then answer the question
+- [149:49] that's another agent right um so as I
+- [149:52] said agents are already embedded right
+- [149:54] because if I say uh deep think before
+- [149:56] responding write graphs that's kind of
+- [149:57] an agent before responding look up the
+- [149:59] agent look up the answer that's kind of
+- [150:00] an agent that's that's rag I could have
+- [150:03] a calculator button before responding
+- [150:05] and use the calculator or a bank button
+- [150:07] or a code button or just a button for
+- [150:09] everything I want to do. Right? Those
+- [150:11] would be like if I had agents in my
+- [150:13] chatbot or even better, I could have a
+- [150:16] router that checks out what kind of
+- [150:19] question you asked and looks does the
+- [150:22] right thing. If you ask a numerical
+- [150:23] question, opens a calculator. If you ask
+- [150:25] a fact, it opens Wikipedia. Why is this
+- [150:28] router easy?
+- [150:30] Well, this router is a multiplechoice
+- [150:32] question. What's the first thing we
+- [150:33] learned today? Multiple choice questions
+- [150:35] are very easy for the computer. So, this
+- [150:38] router answers a multiple choice
+- [150:39] question. What app should I open? And
+- [150:42] then it opens it. Okay. So, I like to
+- [150:44] think of language models as a as a as a
+- [150:46] Swiss Army knife with all these apps
+- [150:49] that you can use. Um, and sometimes you
+- [150:52] need more than one agent. So, let me
+- [150:54] give you an example. Uh, you should try
+- [150:56] this by yourself, right? Just to see how
+- [150:58] weak these agents are. This these
+- [151:00] language smalls. Try to get it to tell a
+- [151:02] story and it tells you a beautiful short
+- [151:05] story, but then you say continue and
+- [151:07] then you say continue and then you say
+- [151:09] continue and make it write something
+- [151:11] long. You're going to realize that the
+- [151:13] name of the protagonist changes in
+- [151:15] chapter 3 from chapter 1. This thing is
+- [151:17] like Dory with a little more memory,
+- [151:19] right? Like it doesn't it still makes a
+- [151:22] lot of mistakes. It can be pretty cons
+- [151:24] consistent, but when things get long,
+- [151:26] it's pretty bad. So, what do we do?
+- [151:29] Well, uh, let's say I fail to write a
+- [151:31] book. So, believe me, by chapter 10, the
+- [151:35] thing goes nuts, uh, and the and the the
+- [151:38] characters change and everything. How do
+- [151:40] we make it write a good book? Well,
+- [151:41] let's say we have four copies of Chad
+- [151:43] GPT. The creative, the planner, the
+- [151:46] critic, and the writer and each one has
+- [151:48] its own roles. So, for example, the
+- [151:50] creative one writes the story in a in a
+- [151:52] in a small uh context window in in a in
+- [151:55] a concise and then it gives it to the
+- [151:58] planner. Notice that everything is put
+- [151:59] into the back into the rear view mirror.
+- [152:02] The planner using the rearview mirror,
+- [152:05] it creates the chapters. Okay? Gives it
+- [152:09] to the critic. Models are much better
+- [152:11] critics than they are creators. So, this
+- [152:14] one is very easy for it to tell, hey,
+- [152:16] there's a discrepancy between chapters
+- [152:18] one and three. Sends it back to the
+- [152:20] planner. With all this information in
+- [152:22] the review mirror, this one creates the
+- [152:23] chapters again. Sends it to the writer.
+- [152:26] The writer writes chapter one, okay?
+- [152:29] Sends it to the critic. And this one
+- [152:31] says, "Hey, you messed up here, etc.,
+- [152:34] etc." That's a multi- aent system. Okay.
+- [152:37] Um, and that's what works uh really
+- [152:41] well. Oh, that's a really good question.
+- [152:43] Is this what DeepMind did for the IMO
+- [152:45] for the math olympia? Is that what we
+- [152:47] said? For the international math
+- [152:48] Olympia? Um, I I don't know. I That's a
+- [152:52] good question. I don't at some point it
+- [152:54] must use agents and at least a very
+- [152:56] strong reasoning model. I know they did
+- [152:57] a lot of work uh for AMO problems. Uh
+- [153:01] now I think they get a gold medal in the
+- [153:02] AMO. Um but yeah, let me get back to you
+- [153:05] because I I I I don't know exactly what
+- [153:07] they did with IMO but check out the
+- [153:09] talks by Terry Towel. Terry Tau is the
+- [153:11] one that really uh has has been pushing
+- [153:13] AI for doing math. Um
+- [153:17] yeah. Um okay. So where where is where
+- [153:21] are the tools here? Right. Like the
+- [153:22] brain is on every agent, right? It's the
+- [153:25] one that does the stuff and plans. The
+- [153:28] tools, what are the tools? Well, for the
+- [153:29] creative one is plan the story. For the
+- [153:31] planner is plan each chapter. For the uh
+- [153:34] critic is check consistency, spelling,
+- [153:37] critique narrative. And for the uh
+- [153:40] writer is just write the chapter. So any
+- [153:41] function, any function is a tool. And
+- [153:45] the memory well the stuff that you're
+- [153:46] supposed to remember, right? the story,
+- [153:48] the chapters, the previous errors, uh
+- [153:52] the story, everything like that. And
+- [153:54] there's memory for agent and there's
+- [153:56] general memory as well. So there you
+- [153:59] have your agent. Now, just a couple of
+- [154:01] more things before we get to the lab. Uh
+- [154:03] sometimes you have an agent and you have
+- [154:05] to throw in a new function and you don't
+- [154:08] know if you should create another agent
+- [154:10] or another function in the existing
+- [154:12] agent. How do you make this decision?
+- [154:16] Well, it's actually not that different
+- [154:18] from being a manager. Let's say you have
+- [154:19] in your team and you have a doctor and
+- [154:22] your new function is perform surgery.
+- [154:24] Well, you ask the doctor, but if the new
+- [154:26] function is uh check a lawsuit, you kind
+- [154:28] of have to hire a lawyer now, right? So,
+- [154:31] the logic that you use for teams of
+- [154:33] people is the same logic you should use
+- [154:35] for agents. if you need a new function
+- [154:37] of an agent or a new agent. Um,
+- [154:41] and now uh there's another uh agent that
+- [154:44] I'm going to show you on the labs which
+- [154:45] is math or fact. This one does uh give
+- [154:48] it a question. It tells you if it's math
+- [154:50] or fact. If it's fact, it sends it to
+- [154:53] rag and if it's math, it sends it to the
+- [154:55] calculator agent. Uh and then it answers
+- [154:58] the question. Uh why is this so useful?
+- [155:01] Like why don't I just ask the question
+- [155:03] to the LLM? Well, check this out. Matter
+- [155:05] of fact is a multiple choice question
+- [155:08] that's easy. Uh rag is easy when you put
+- [155:11] the results. Uh doing a calculation is
+- [155:13] easy when you do the calculator app. And
+- [155:15] answering a question is easy when you
+- [155:17] got all the information from these ones.
+- [155:19] So every step here uses the rear view
+- [155:22] mirror. Nothing uses very much the the
+- [155:25] headlights. And that's what you should
+- [155:28] do when you when you make agents. I'm
+- [155:30] going to answer with finish with a last
+- [155:33] a last question. When I started seeing
+- [155:35] agents, I noticed something which is
+- [155:38] which I didn't like. Uh when I took my
+- [155:40] first programming course, it was
+- [155:42] object-oriented programming. Uh which
+- [155:44] felt very much like agents because it
+- [155:47] was like you have an object that does
+- [155:48] this functions, passes it here, passes
+- [155:50] it here, passes it here, the number
+- [155:52] passes here, and then you get an answer.
+- [155:54] And I thought and I thought, okay, is is
+- [155:56] this really a way to charge more by
+- [155:58] calling it a fancier term? Because a lot
+- [156:00] of times AI does that. uh is it just
+- [156:03] really object-oriented programming? And
+- [156:06] I thought that for a while until finally
+- [156:09] I asked enough people and I worked on
+- [156:11] these things enough until I finally came
+- [156:13] to the realization that it is it is more
+- [156:16] because some things could go wrong.
+- [156:17] Let's say I have this question. I have
+- [156:19] 10 apples and I ate two. How many do I
+- [156:21] have left? And I get the equation and
+- [156:23] instead of 10 - 4 in numbers, it replies
+- [156:26] 10 -4 in letters. Language models could
+- [156:28] do that and that gives me an error with
+- [156:30] the calculator API. So the agent should
+- [156:33] be able to go back and talk to this one
+- [156:36] and say hey rewrite only using numbers
+- [156:39] and then fix it. So this is called the
+- [156:41] agentic loop. Um and uh that kind of
+- [156:45] stuff is what agents do that
+- [156:47] object-oriented programming could do if
+- [156:50] I if I tell it to. But the idea is that
+- [156:54] it can get away out with results with
+- [156:57] problems that may have not that I may
+- [156:59] have not have coded it to solve. So I
+- [157:01] like to look at this progression. This
+- [157:03] is the last thing we'll see. Um and and
+- [157:06] I have uh this should be static. I don't
+- [157:09] know why it's in Spanish. Sorry. Uh
+- [157:12] static and dynamic. Okay. Uh
+- [157:15] automatization and autonomy. Here I have
+- [157:18] object object-oriented programming where
+- [157:20] I just give it the whole instructions
+- [157:22] and the program just follows my
+- [157:24] instructions and if it runs into an
+- [157:26] error that I told it, it knows what to
+- [157:28] do. But if it runs into an error that I
+- [157:30] didn't plan and and has no instructions,
+- [157:32] it crashes completely. On the other end
+- [157:35] of the spectrum, I have humans in a
+- [157:37] team. Humans in a team will follow
+- [157:39] instructions, but if there's a fire,
+- [157:42] somebody will bring out the bucket of
+- [157:44] water or something, right? They will
+- [157:45] know how to fix themselves. They would
+- [157:48] know how to hire a new person if they
+- [157:50] need something or or rearrange things in
+- [157:52] the team if somebody's getting too much
+- [157:54] work. Uh they will be able to do a lot
+- [157:57] of things that are outside of the rules
+- [157:58] that I that I gave them because they
+- [158:00] have self uh they they have um they they
+- [158:05] just have logic, right? They have
+- [158:06] they've been in the world. The idea of
+- [158:08] agents, they're around here, right?
+- [158:10] They're more autonomous than
+- [158:12] object-oriented programming and still
+- [158:14] not as autonomous as as people in a
+- [158:16] team. And the goal is to move them as
+- [158:18] much as possible. The more they look
+- [158:19] like a team, uh, the better and they'll
+- [158:23] be able to sort of like uh fix problems
+- [158:26] that were not in the script. So that's
+- [158:28] how it differs from auditori
+- [158:29] programming. That's all the theory we'll
+- [158:31] learn today. Uh, let's let's move to the
+- [158:34] labs. We have some time. They're not
+- [158:35] very long. So, I have three labs and I
+- [158:38] think help me out. Is um is is is Naviha
+- [158:42] here or maybe you can help me with did
+- [158:45] did the did the labs get added to the um
+- [158:47] to the resources for people to be able
+- [158:49] to open them?
+- [158:54] Or maybe Sanjay is here.
+- [158:57] >> Um yeah, just give us like one minute.
+- [158:59] I'm checking with Nia.
+- [159:01] >> Thank you.
+- [159:01] >> Okay, sounds good. Thank you. In the
+- [159:03] meantime, you can open them. They're
+- [159:05] Google Collabs. They appear. Uh you can
+- [159:08] use this to open them. Uh I'll I'll come
+- [159:11] back to this. And you need to get a
+- [159:13] Google AI studio at an API key from
+- [159:16] Gemini. So I'll I'll have these
+- [159:18] instructions here. Uh
+- [159:21] and uh well, we we need a minute before
+- [159:24] we can able to open them. In the
+- [159:25] meantime, before I leave, uh you should
+- [159:27] check out my YouTube channel, Sarrano
+- [159:29] Academy. Let me put the link here. Uh I
+- [159:32] have all these explanations.
+- [159:34] Uh
+- [159:38] uh one second. In particular, I have
+- [159:41] some videos on this uh celestial
+- [159:43] mechanics, gravity stuff, and
+- [159:45] transformer mechanisms. Um I also have a
+- [159:47] book called rocking machine learning if
+- [159:48] you want to check it out. Uh so yeah,
+- [159:51] definitely check out Srano Academy and
+- [159:52] and and follow me for for more material.
+- [159:56] Uh okay, so for the labs, yes.
+- [160:00] Um, Louis, you were Louis, you were
+- [160:02] saying something. I totally missed it.
+- [160:03] Can you repeat?
+- [160:05] >> Yeah. Um, so if people want to open
+- [160:08] this, let me let me put the um the tiny
+- [160:11] URLs link.
+- [160:13] >> Yeah.
+- [160:16] >> Lab one rag. Bam.
+- [160:21] Uh, try to open these three labs. They
+- [160:23] are the rag, the calculator,
+- [160:27] and the and the matter of fact.
+- [160:46] Ah, great question. Yes, I I I made them
+- [160:48] originally with with that quest. So, we
+- [160:50] put the word bump. Two reasons. uh lab
+- [160:53] one rag is already taking in tiny URL
+- [160:55] and so I threw in the word bama but it
+- [160:57] it definitely comes from stat quest.
+- [160:59] Yes, I I I work with him for uh for
+- [161:04] workshops and stuff like that.
+- [161:17] Okay. So, how are people doing with are
+- [161:19] you able to open any of the three
+- [161:21] collabs? I can also open it myself here
+- [161:23] and just uh guide you.
+- [161:32] They're they're kind of simple. Um
+- [161:36] basically the rag the rag agent uh has
+- [161:38] three functions. So first uh I install
+- [161:41] is it's using lang chain. Uh so I I
+- [161:45] import Wikipedia lang chain yaba yaba
+- [161:47] yap. Uh then I do the Google environment
+- [161:50] key which you can use it in the keys
+- [161:53] here. I have a Google key kind of in the
+- [161:56] secrets.
+- [161:58] Then I have one function that optimizes
+- [162:00] the prompt. So this one has a prompt
+- [162:02] that says you're a query optimizer. Your
+- [162:04] goal is to rephrase user queries. Yep.
+- [162:06] Yep. It gives it some instructions and
+- [162:09] some examples with a a a question and a
+- [162:13] rewarded question, right?
+- [162:18] And then
+- [162:20] uh it basically and and this is for lang
+- [162:23] chain. It creates the the the sort of
+- [162:25] the pipes. It uh it it creates sort of
+- [162:28] the the sequence of of of agents. And
+- [162:32] then I have optimized query. So when I
+- [162:34] say for example, gee, I'm wondering
+- [162:35] whether they make those pyramids that
+- [162:36] are in like Egypt or something and it
+- [162:38] goes Egyptian pyramids, right? Then I
+- [162:41] have a function for searching in
+- [162:42] Wikipedia,
+- [162:44] uh, which is basically called the API,
+- [162:47] um, and it returns a bunch of text,
+- [162:50] maybe more than what I need,
+- [162:53] and then formulating an answer simply
+- [162:56] puts them together, right? So I just say
+- [162:58] use the original query, the optimized
+- [163:01] query and the Wikipedia text to answer
+- [163:04] the question on a bunch of test cases.
+- [163:07] So this is just basically classic rag.
+- [163:10] How how how are you doing with the
+- [163:12] opening the lab? Is anybody having a
+- [163:13] hard time opening the labs the the cols?
+- [163:19] All good. Fantastic. Uh then the
+- [163:22] calculator API is very similar except it
+- [163:26] has a function that
+- [163:30] um
+- [163:32] a function that takes the text
+- [163:36] and turns it into the number, right? The
+- [163:40] equation
+- [163:42] in a pure equation mode because I'm
+- [163:45] going to plug that string into the
+- [163:46] calculator. It can't have a word on it,
+- [163:48] right? So this part you have to be
+- [163:49] really really strict that you have to
+- [163:52] provide only the equation itself.
+- [163:55] Um and I give it an example. What is 5
+- [163:57] plus 3? It just goes 5 + 3 in numbers.
+- [164:02] The next one performs the mathematical
+- [164:04] operation. So it just goes uh calculate
+- [164:06] equation.
+- [164:08] Um that's just API calling. There's no
+- [164:11] AI there. I'm calling the API of the
+- [164:14] calculator
+- [164:16] somewhere here.
+- [164:19] and then finally generate answer in a
+- [164:22] sentence. So I need the answer to be a
+- [164:24] sentence. So I use everything I got so
+- [164:27] far, the question, the rewarded uh
+- [164:29] formula and the answer for it to answer
+- [164:32] correctly.
+- [164:36] And then finally, the matter of fact.
+- [164:39] Oh, perfect. Thank you for the links.
+- [164:43] Put your hand up immediately or talk on
+- [164:44] the microphone if you Yeah.
+- [164:46] >> Yeah. Yeah. I I I got kicked out and
+- [164:48] somehow Zoom never let me in. So I think
+- [164:51] we have this in the learning portal too.
+- [164:53] Uh maybe last notebook we can show in
+- [164:55] our learning portal.
+- [164:56] >> Thank you so much. Yeah
+- [165:00] in the learn Oh no please. Uh oh yikes.
+- [165:03] I don't know
+- [165:06] this. Oh I have to log in. One second.
+- [165:09] No way to any accounts.
+- [165:15] Oh this is nice. Thank you for loading
+- [165:16] them.
+- [165:20] By the way, this is lab and also
+- [165:21] questions. By the way, there's any
+- [165:23] questions about the lecture, uh you can
+- [165:25] also either say that the say them or put
+- [165:28] up your hand or or tell them in the in
+- [165:31] in the chat. Uh I'm opening math or
+- [165:36] fact.
+- [165:45] You can also share feedback for Louis
+- [165:46] workshop. It's like a it's like an Uber
+- [165:49] feedback.
+- [165:51] Um,
+- [165:54] okay. So, here's math or fact, right? I
+- [165:55] have the classifier agent, I have the
+- [165:57] math agent, and I have the fact agent.
+- [166:00] By the way, there's a small thing and
+- [166:02] it's like I I don't know how many
+- [166:03] credits uh Google gives. Normally, by
+- [166:06] the time I get to the last question
+- [166:08] here, I start running out of credits.
+- [166:10] So, don't run them too many times. try
+- [166:13] and un until you go through the third
+- [166:14] lab.
+- [166:16] Um yeah, so this one um I pretty much
+- [166:20] copy pasted the the functions for the
+- [166:22] others for calculator agent. And here I
+- [166:24] have a classified query. So I say
+- [166:26] classify query into math fact or none.
+- [166:29] Um
+- [166:31] and then so for example, if I say a math
+- [166:33] question, it just replies math. If I say
+- [166:36] a fact question, it replies fact. And if
+- [166:38] I ask something else, it replies none.
+- [166:42] Um and then uh return response basically
+- [166:46] uh this uses the the the classification
+- [166:49] from the previous one and it it helps
+- [166:50] it. It says answer this question it's
+- [166:52] math. So it pipes it to the calculator
+- [166:56] agent and if it's fact it pipes it to
+- [166:59] the
+- [167:01] uh to the fact agent and if it's
+- [167:04] something else it just says uh I don't
+- [167:08] know. I I'm only trained to do math or
+- [167:10] fact.
+- [167:11] So yeah, I mean the labs is pretty much,
+- [167:14] you know, take your time looking at it.
+- [167:16] Feel free to ask any questions. Uh but
+- [167:18] it's basically the first the first
+- [167:21] agent. The first agent's always right.
+- [167:23] Uh and I'm here. We have 15 minutes. So
+- [167:26] I'm basically here for questions or
+- [167:28] anything. And I see the first question.
+- [167:32] See, it says, "Could you talk about the
+- [167:33] math behind viewing the space as
+- [167:35] undergoing an unlinear transformation
+- [167:38] versus the function undergoing nonlinear
+- [167:40] transformation?" You're like, "Oh,
+- [167:42] that's a good question. Wait, let me
+- [167:43] wrap my head around it.
+- [168:01] Could
+- [168:06] you open your mic and and maybe tell me
+- [168:08] a little more?
+- [168:12] Oh, I see like the Reu.
+- [168:20] Yeah.
+- [168:23] Oh, the decision boundary. Yes. Uh oh,
+- [168:28] let me go back here.
+- [168:36] Where were we
+- [168:40] forward?
+- [168:45] This right? So, here's how I imagine it.
+- [168:49] Obviously, this is not two-dimensional,
+- [168:51] right? Uh this is um actually here's
+- [168:56] here's an example. Here's how to turn
+- [168:58] something linear into something
+- [169:01] nonlinear. Let's say that I have a
+- [169:03] sheet, maybe not of paper, but like a
+- [169:06] sheet of um like a like a
+- [169:10] like a sheet, right? And I want to draw
+- [169:13] a circle, but I only have linear cuts.
+- [169:18] Okay. So, how can I draw a circle using
+- [169:22] linear cuts? I can't really go.
+- [169:24] Everything I I have to do is either a
+- [169:26] line or a plane. So, picture this. I
+- [169:29] take the sheet and I lift and now I have
+- [169:33] a bump. And now I cut with a plane.
+- [169:39] What I did was a circle,
+- [169:42] right? But I never drew a circle. I just
+- [169:45] used a linear cut. So that's what
+- [169:47] happens here. If this space has, let's
+- [169:49] say, a thousand dimensions, maybe this
+- [169:50] one has a million dimensions. All right?
+- [169:52] This is huge, right? But the fact is if
+- [169:55] I bend it and bend it and bend it and
+- [169:57] bend it and I draw a linear cut in the
+- [170:01] original when I embend it, it it could
+- [170:03] be a really complicated cut, right?
+- [170:06] That's kind of how I picture
+- [170:08] neural networks. uh this is not
+- [170:10] necessarily a function but it's just a
+- [170:14] it's just a plane in a much higher
+- [170:17] dimensional space that when you undo it
+- [170:20] it it wasn't a plane in the same way
+- [170:22] that I had a two-dimensional sheet I
+- [170:24] made it three-dimensional by cutting a
+- [170:26] bump by by raising a bump I cut with a
+- [170:30] plane and when I go back I have
+- [170:32] something that's nonlinear it's a it's a
+- [170:34] circle so I can create nonlinear stuff
+- [170:37] by adding dimensions and doing linear
+- [170:40] cuts. You see what I mean? So, I don't
+- [170:43] think of a function yet. The function is
+- [170:45] the one that sends this to this. That's
+- [170:48] the function, right? Takes every point
+- [170:50] here goes to some point here. This dog
+- [170:53] goes to this thing. This apple goes
+- [170:56] here. So, every every point in this
+- [170:57] space goes to a point in the space.
+- [171:00] That's the function. And if that
+- [171:01] function was only linear, then this
+- [171:03] would be a parallelogram. But the fact
+- [171:06] that I'm breaking it with my relu and
+- [171:08] then applying another parallelogram and
+- [171:09] breaking breaking breaking breaking
+- [171:10] means I can get as crazy as I want here
+- [171:16] right I don't know if I answer your
+- [171:17] question did I
+- [171:20] is that more clear
+- [171:23] yes normally neural networks add
+- [171:25] dimensionality that's why here for
+- [171:26] example you start with four dimensions
+- [171:28] then you went to six
+- [171:31] you you live in a in a bigger world
+- [171:32] right like everything's so And then uh
+- [171:36] you're you're again in six and then you
+- [171:38] go down crush to two. Right? So this is
+- [171:41] what we did, right? We we took the we
+- [171:44] took the thing some dimensions brought
+- [171:47] it down to brought it up to to lots and
+- [171:49] lots and you're a little ant and then
+- [171:52] boom crunch it down to to two and
+- [171:54] somewhere in the process you managed to
+- [171:57] put all the cats on one side.
+- [172:00] Right.
+- [172:03] That's sort of
+- [172:05] is that uh yeah okay thank you great
+- [172:07] great question
+- [172:10] uh we have 10 minutes left um yeah I
+- [172:13] mean I'm happy to answer any questions
+- [172:15] or uh if anybody with the labs are more
+- [172:18] play on your own right but if you want
+- [172:20] to go through them right now or or on
+- [172:22] your own time uh let me just fix this
+- [172:25] thing here if you want to go over them
+- [172:29] uh right now on your own time basically
+- [172:31] just an implementation of rag implement
+- [172:32] mentation of of the calculator agent.
+- [172:36] Thank you so much. Um Kumar, thanks for
+- [172:39] your your feedback. Uh
+- [172:42] Kieran says positional encoding. Uh
+- [172:44] sure. I I can reexlain positional
+- [172:45] encoding. Yeah, by the way, I have a
+- [172:47] video on position coding and uh you can
+- [172:50] take a look. Uh thank you. Thank you for
+- [172:51] everybody saying thank you Ricardi.
+- [172:53] Thanks for saying you you enjoyed the
+- [172:55] session. I I really enjoyed it too. You
+- [172:56] all answered all answered my questions
+- [172:59] very well. Well, let's let's take five
+- [173:02] minutes and reexlain positional encoding
+- [173:03] if it was not uh clear. And by the way,
+- [173:05] any other questions, feel free to add
+- [173:07] them in the chat and I think we'll have
+- [173:09] time to to go through everything. So,
+- [173:11] here's positional encoding. Okay. Uh uh
+- [173:14] Kieran, um
+- [173:18] when I have uh sentences that are in the
+- [173:21] wrong order, uh like these two, the
+- [173:24] embedding doesn't know because it puts
+- [173:26] them in the same place, right? this the
+- [173:28] embedding sees four things and this
+- [173:29] embeddings sees the same four things but
+- [173:31] the order is not there. So I'm going to
+- [173:33] encode the order by moving every word in
+- [173:36] a different position. So the first word
+- [173:38] gets moved to the right the next one up
+- [173:41] and so on. And if I do this
+- [173:45] then now things go to different places
+- [173:46] and I have two different things. So I
+- [173:49] want to break these things into two
+- [173:51] different things, right? And oh, thank
+- [173:54] you for adding the Sanjay. Thanks for
+- [173:56] adding the position and coding uh thing.
+- [173:59] >> Um so um so I need a a a sequence,
+- [174:05] right? So here's what I do. I move the
+- [174:07] first word in some angle, the next one
+- [174:09] in an angle, and so on. But eventually
+- [174:13] that's not good because I get back to
+- [174:15] where I started.
+- [174:17] uh and I don't want to have the 11th
+- [174:19] word similar to the first word. So I
+- [174:21] can't really do something periodic like
+- [174:22] this. But periodic is nice because the
+- [174:24] model has to learn it, right? The model
+- [174:26] has to be able to reverse engineering.
+- [174:30] Um and so what I do is uh I take the
+- [174:34] first two entries in the in the in the
+- [174:36] embedding and I do that rotation, right?
+- [174:39] for the first word, for the second, for
+- [174:40] the third, and for the next two, I do a
+- [174:42] smaller angle. Like I I spin the wheel
+- [174:45] slower, and for the next one, I spin the
+- [174:47] wheel much slower. Um,
+- [174:51] and so on. And basically, that's
+- [174:52] positional encoding, right? Let me know
+- [174:55] if it's not clear. Oh, Robert has a
+- [174:57] question. Uh, you no long have longer
+- [175:00] sentences, the impact of position coding
+- [175:02] decreases.
+- [175:04] Yeah, that's a great question, Robert.
+- [175:05] Um, if you have more than longer
+- [175:09] sentences, I would stay.
+- [175:13] Yeah. So, if I have a really long like
+- [175:15] for example here, if my sentence is 11
+- [175:17] words long, the 11th word gets moved
+- [175:20] just like the first word. So, that's not
+- [175:21] good. Now, here's the question. So
+- [175:25] if my embedding has a thousand words,
+- [175:28] sorry, if my if my embedding has let's
+- [175:30] say a thousand entries, the 999 and the
+- [175:34] and the thousand the last two entries
+- [175:37] get moved very pretty much to the right
+- [175:40] because this dial is really slow. So for
+- [175:44] me to be able to go back and and go the
+- [175:48] full circle on the last two, my sentence
+- [175:51] has to be stupidly long. and context
+- [175:54] windows are smaller than that. So you
+- [175:57] see positional encoding is periodic.
+- [176:00] At some point the sentence is long
+- [176:02] enough that the one trillionth uh word
+- [176:06] gets moved in the same way as the first
+- [176:08] word. But that one trillion is bigger
+- [176:12] than the actual context window of chpt.
+- [176:14] So it's not going to be a problem. like
+- [176:16] it's it's periodic but it's so slow
+- [176:18] periodic that it's not we're not going
+- [176:21] to be able to see it because it just
+- [176:23] leaves the memory of of chat GPT right
+- [176:26] yes absolutely uh as context windows
+- [176:28] increase definitely something to watch
+- [176:30] but I think this 10,000 is really big
+- [176:32] the 10,000 power is see when this number
+- [176:35] is big 10,000 to this number is huge and
+- [176:38] this basically becomes zero right so
+- [176:41] this is cosine of zero and s of zero
+- [176:43] which is pretty much this vector here
+- [176:45] one zero right so absolutely if context
+- [176:49] window of tragic gets huge then we
+- [176:51] should rethink positional encoding uh
+- [176:54] but it could just be rethinking by
+- [176:56] making this number bigger right I don't
+- [176:58] know if we have to have a bigger a
+- [176:59] different algorithm other than just
+- [177:01] changing this number uh I'm just
+- [177:03] guessing
+- [177:05] uh
+- [177:07] since a gem has a million token context
+- [177:09] window okay I I feel like a million is
+- [177:12] still not enough to actually turn this
+- [177:15] thing. Maybe maybe I have to do the
+- [177:17] math, but uh yeah, definitely.
+- [177:21] Uh
+- [177:23] yeah. Yeah, definitely. You don't want
+- [177:25] to you don't want the thing to be
+- [177:26] periodic. So, it's it's something to
+- [177:28] like balance out. Um and then Sanjay
+- [177:31] says, "Geometric one feels more embodied
+- [177:33] than algebraic." Oh, you mean the the
+- [177:36] the wheel spinning versus this cosine of
+- [177:38] position divided by 10,000 over to the
+- [177:41] two
+- [177:42] >> visually like you know like usually when
+- [177:44] you position encoding the we only see
+- [177:46] the equations, right? But
+- [177:48] >> yeah, for showing the gem
+- [177:51] >> getting punched in the face. Thank you.
+- [177:53] Yeah, I feel like when I see formulas I
+- [177:56] I I get lost so I have to have to have
+- [177:58] some wheels spinning somewhere.
+- [178:03] >> Thanks. All right. How do we feel? Any
+- [178:05] any We have three minutes. Any other any
+- [178:07] other questions? These are great
+- [178:09] questions, by the way.
+- [178:19] Well, thank you so much. I really
+- [178:20] enjoyed
+- [178:22] I really enjoyed our our chat.
+- [178:26] Any last thoughts?
+- [178:29] Don't forget to check out the YouTube
+- [178:31] channel. And yes, this recording will
+- [178:34] this recording will be shared. Right.
+- [178:41] Well, thank you. Thank you so much for
+- [178:43] the great questions and for answering my
+- [178:45] questions.
+- [178:48] Uh stick around for in case more
+- [178:50] questions come up. But
+- [178:53] pretty much wrapped up. Thank you. Thank
+- [178:55] you. Thank you.
+- [178:58] Thank you.
+- [179:08] Well,
+- [179:13] thank you. Thank you very much. That was
+- [179:16] such nice comments. Thanks.
+- [179:27] All right.
+- [179:29] Bye everybody. Have a great rest of the
+- [179:31] day. Enjoy the rest of the conference.
+- [179:33] I'll leave it in Navia's hands.
+- [179:35] >> Perfect. Thank you so much Louise for
+- [179:37] such a wonderful session and thank you
+- [179:39] everyone for joining. I I saw that there
+- [179:41] were questions about the work recording.
+- [179:44] So we will be sending that to you early
+- [179:46] next week with the resources as well.
+- [179:48] And yeah, that's it. Thanks everybody
+- [179:50] for joining and thank you so much Lu for
+- [179:53] such a composed workshop. It was really
+- [179:55] good.
+- [179:56] >> Thank you. Thank you so much. Thanks for
+- [179:57] hosting and thanks everybody for being
+- [179:59] here. I appreciate your time. Thank you.
+- [180:03] >> Thank you. Bye bye.
+- [180:04] >> Take care everyone. Bye bye.

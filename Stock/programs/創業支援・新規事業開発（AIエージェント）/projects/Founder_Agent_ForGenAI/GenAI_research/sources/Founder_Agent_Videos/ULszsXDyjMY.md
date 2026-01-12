@@ -1,0 +1,408 @@
+---
+title: "Transcript: ULszsXDyjMY"
+video_id: "ULszsXDyjMY"
+video_url: "https://www.youtube.com/watch?v=ULszsXDyjMY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:13:23"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: ULszsXDyjMY
+
+- URL: https://www.youtube.com/watch?v=ULszsXDyjMY
+- Retrieved at: 2025-12-30T11:01:02+09:00
+
+## Text
+
+- [00:00] Welcome to Big Ideas for 2026. We'll
+- [00:02] hear from Mark Andrew on the evolution
+- [00:04] of AI user interfaces and how the way we
+- [00:06] interact with intelligent systems is
+- [00:08] fundamentally changing. Stephanie Zayn
+- [00:10] discusses what it means to design for
+- [00:12] agents rather than humans, a shift
+- [00:14] that's reshaping product development.
+- [00:16] And Olivia Moore will share her thoughts
+- [00:17] on the rise of AI voice agents and their
+- [00:19] growing role in our daily lives. These
+- [00:21] aren't just predictions. They're
+- [00:23] insights from the people working
+- [00:24] directly with the founders and companies
+- [00:26] building tomorrow's future.
+- [00:30] I'm Mark Andrew, a partner on our AI
+- [00:33] apps investing team. My big idea for
+- [00:35] 2026 is the death of the prompt box as
+- [00:38] the primary user interface for AI
+- [00:40] applications. The next wave of apps will
+- [00:43] require way less prompting. They'll
+- [00:45] observe what you're doing and intervene
+- [00:46] proactively with actions for you to
+- [00:48] review. The opportunity we're attacking
+- [00:50] used to be the 300 to400 billion of
+- [00:54] software spend annually in the world.
+- [00:57] Now what we're excited about is the $13
+- [00:59] trillion of labor spend that exists in
+- [01:01] the US alone. It's made the market
+- [01:03] opportunity or the TAM for software
+- [01:05] about 30 times bigger. If you start from
+- [01:07] there and then you think about okay if
+- [01:09] all of us want this software to be doing
+- [01:11] work for us ideally it's doing work with
+- [01:15] at least if not more competency than a
+- [01:17] human could right and so um I like to
+- [01:20] think about like well what do the best
+- [01:22] employees do? What do the best human
+- [01:23] employees do? and and I've recently been
+- [01:25] talking about this graphic that was
+- [01:27] floating around on Twitter. It's a
+- [01:28] pyramid of like the five types of
+- [01:30] employees and and the ones with the most
+- [01:32] agency and why they're the best. So, if
+- [01:33] you start at the bottom rung of the
+- [01:34] pyramid, it's like people who identify a
+- [01:37] problem and then come to you and ask for
+- [01:38] help and ask what to do. And that's like
+- [01:40] the lowest agency employee. But, uh if
+- [01:42] you go to the S tier, like the the most
+- [01:44] high agency employee you could possibly
+- [01:46] have, they identify a problem. They do
+- [01:49] research necessary to diagnose where the
+- [01:51] problem came from. They look into a
+- [01:53] number of possible solutions. They
+- [01:55] implement one of those solutions and
+- [01:56] then they keep you in the loop or they
+- [01:58] come to you at the very last minute and
+- [01:59] say like, do you approve of this
+- [02:00] solution I found? And that's what I
+- [02:01] think the future of AI apps will be. And
+- [02:03] I think that's what everyone wants and
+- [02:04] that's what we're all working toward. So
+- [02:06] I feel pretty confident that we're
+- [02:06] almost there. I think LLMs have
+- [02:08] continued to get better and faster and
+- [02:10] cheaper. And I think there's a world in
+- [02:12] which the user behavior will still
+- [02:14] necessitate a human in the loop at the
+- [02:17] very end to sort of approve things
+- [02:18] certainly in high stakes contexts. But I
+- [02:20] think the models are more than capable
+- [02:23] of getting to a point where it's
+- [02:24] suggesting something really smart on
+- [02:25] your behalf and you basically just have
+- [02:27] to click accept. As you guys know, I'm
+- [02:28] pretty obsessed with the notion of an AI
+- [02:31] native CRM. And I think this is like a
+- [02:33] perfect example of what these proactive
+- [02:35] applications could look like. So in
+- [02:37] today's universe, a salesperson might go
+- [02:39] open their CRM, explore all the open
+- [02:42] opportunities they have, look at their
+- [02:44] calendar for that day, and try to think
+- [02:45] about, okay, what are the actions I can
+- [02:47] take right now to have the greatest
+- [02:48] impact on my funnel and my ability to
+- [02:50] close deals with the CRM of tomorrow.
+- [02:52] Your AI agent or your AI CRM should be
+- [02:55] doing all these things on your behalf in
+- [02:57] perpetuity, identifying not only like
+- [03:00] the most obvious opportunities that are
+- [03:01] in your pipeline, but going through your
+- [03:03] emails from the last 2 years and
+- [03:05] harvesting, you know, this was once a
+- [03:06] warm lead and you kind of let it die,
+- [03:08] like maybe we should send them this
+- [03:09] email to to drum them back up into your
+- [03:11] process, right? So, I think there are so
+- [03:13] many ways in which drafting an email,
+- [03:15] harvesting your calendar, going through
+- [03:17] your old your old call notes, like the
+- [03:20] the opportunities are just endless. The
+- [03:22] ordinary user will still want that last
+- [03:25] mile approval almost 100% of the time.
+- [03:28] They will want the human part of the
+- [03:30] human in the loop to be the final
+- [03:32] decision maker. And that's great. I
+- [03:33] think that's like the natural way in
+- [03:34] which this will evolve. I can imagine a
+- [03:36] world in which the power user is
+- [03:38] basically taking a lot of extra effort
+- [03:41] to train whichever AI app it's using to
+- [03:43] have as much context about their
+- [03:44] behavior and how they perform their work
+- [03:46] as humanly possible. These will utilize
+- [03:48] larger context windows. These will
+- [03:50] utilize memory that's been baked into a
+- [03:52] lot of these LLMs and make it such that
+- [03:53] the power user can really trust the
+- [03:55] application to do 99.9% of the work or
+- [03:59] maybe even 100 and they'll pride
+- [04:00] themselves on the number of tasks that
+- [04:03] get done without a human needing to
+- [04:04] approve them.
+- [04:09] Hi, my name is Stephan Deng and I'm an
+- [04:11] investing partner on the A16 ZR team. My
+- [04:15] big idea for 2026 is creating for
+- [04:17] agents, not for humans. Something I'm
+- [04:19] super excited about for 2026 is that
+- [04:22] people have to start changing the way
+- [04:23] they create. And this ranges from
+- [04:26] creating content to designing
+- [04:28] applications. People are starting to
+- [04:30] interface with systems like the web or
+- [04:32] their applications with agents as an
+- [04:35] intermediary. And what mattered for
+- [04:37] human consumption won't matter the same
+- [04:39] way for agent consumption. When I was in
+- [04:42] high school, I took journalism. And in
+- [04:45] journalism, we learn the importance of
+- [04:47] starting with the five W's and H in the
+- [04:49] lead paragraph for news articles and to
+- [04:51] start with a hook for features. Why? For
+- [04:54] human attention. Maybe a human would
+- [04:56] miss the deeply relevant, insightful
+- [04:58] statement buried on page 5, but an agent
+- [05:01] won't. For years, we've optimized for
+- [05:04] predictable human behavior. You want to
+- [05:06] be one of the first search results back
+- [05:07] from Google. You want to be one of the
+- [05:09] first items listed on Amazon. And this
+- [05:11] optimization is not just for the web but
+- [05:14] as we design software too. Apps were
+- [05:16] designed for human eyes and clicks.
+- [05:19] Designers optimized for good UI and
+- [05:21] intuitive flows. But as agent usage
+- [05:24] grows visual design becomes less central
+- [05:26] to overall comprehension. Before during
+- [05:29] incidents engineers would go into their
+- [05:31] graphana dashboards and try to piece
+- [05:33] together what was going on. Now AISR
+- [05:35] take in telemetry data. They'll analyze
+- [05:37] that data and they'll report back with
+- [05:40] hypotheses and insights directly into
+- [05:42] Slack for humans to read. Before sales
+- [05:45] teams would have to click through and
+- [05:46] navigate Salesforce or other CRM to
+- [05:49] gather information. Now agents will take
+- [05:52] that data and summarize insights for
+- [05:55] them. We're no longer designing for
+- [05:56] humans, but for agents. The new
+- [05:59] optimization isn't visual hierarchy, but
+- [06:01] machine legibility. and that will change
+- [06:04] the way we create and the tools that we
+- [06:05] use to do it. It is a question we don't
+- [06:08] know the answer to what agents are
+- [06:10] looking for, but all we know is that
+- [06:12] agents do a much better job at, you
+- [06:14] know, reading all of the text in an
+- [06:16] article versus maybe a human would just
+- [06:18] read, you know, the first couple
+- [06:19] paragraphs. There are a bunch of tools
+- [06:21] out there that different organizations
+- [06:23] use to just make sure that they show up
+- [06:26] when consumers are prompting chat GBT
+- [06:29] asking for the best corporate card or
+- [06:31] the best shoes to buy. And so there's
+- [06:33] like a bunch of what we call GEO tools
+- [06:36] out there in the market that people are
+- [06:38] using, but um everybody is asking the
+- [06:41] question what AI agents want to see. I
+- [06:43] love this question. um when humans may
+- [06:46] choose to exit the loop entirely. We're
+- [06:48] already seeing that happen in some
+- [06:50] cases. Our portfolio company Decagon is
+- [06:52] answering questions for a lot of their
+- [06:54] customers already autonomously. But for
+- [06:58] other cases, security operations or
+- [07:01] incident resolution, we typically see a
+- [07:05] little bit more human in the loop where
+- [07:06] the AI agent takes first stab at trying
+- [07:09] to figure out what the issue is, running
+- [07:11] the analysis and serving to the humans
+- [07:14] different potential situations. Those
+- [07:17] tend to be cases of higher liability,
+- [07:20] more complex analyses, uh, that we see
+- [07:23] humans staying in the loop and will
+- [07:25] probably stay in the loop for much
+- [07:27] longer until the models and the
+- [07:30] technology get to incredibly high
+- [07:32] accuracy. I don't know if agents will be
+- [07:35] watching Instagram reels. Um, it's
+- [07:37] really interesting, at least on the tech
+- [07:39] side. It is really important to optimize
+- [07:43] for that machine legibility piece.
+- [07:45] optimized for insight, optimized for
+- [07:49] relevance especially versus in you know
+- [07:53] in the past it was more about hooking
+- [07:56] people in capturing attention in flashy
+- [07:59] ways. What we're seeing already is case
+- [08:02] of high volume hyperpersonalized
+- [08:05] content. And maybe you don't create one
+- [08:10] extremely relevant article, extremely
+- [08:13] relevant and insightful article, but
+- [08:16] maybe you're creating extremely high
+- [08:19] volumes of lowquality content, but
+- [08:22] addressing different things that you may
+- [08:26] think an agent wants to see. almost like
+- [08:28] the equivalent of keywords in the era of
+- [08:30] agents where cost of creation of content
+- [08:33] kind of goes to zero and it's really
+- [08:35] easy to create high volumes of content.
+- [08:37] That's a potential risk around just high
+- [08:40] volumes of things to be able to try to
+- [08:42] capture Asian attention.
+- [08:48] I'm Olivia Moore and I'm a partner on
+- [08:50] our AI applications investing team. My
+- [08:53] big idea for 2026 is that AI voice
+- [08:56] agents will start to take up space. In
+- [08:58] 2025, we saw voice agents break out from
+- [09:01] something that seemed more like science
+- [09:02] fiction into something that real
+- [09:04] enterprises are buying and deploying at
+- [09:07] scale. I'm excited to see voice agent
+- [09:09] platforms expand working across
+- [09:11] platforms and modalities to handle full
+- [09:14] tasks and bring us closer to the true AI
+- [09:17] employee vision. So, we've seen nearly
+- [09:19] every vertical have enterprise customers
+- [09:21] that are testing voice agents. if not
+- [09:23] deploying them at pretty significant
+- [09:24] scale. Healthcare is probably the
+- [09:26] biggest one here. We're seeing voice
+- [09:28] agents in nearly every part of the
+- [09:30] health care stack. Calls to insurers,
+- [09:33] pharmacies, suppliers, but also in
+- [09:35] perhaps more surprisingly patientf
+- [09:37] facing calls. It could be things like
+- [09:39] scheduling and reminders that are kind
+- [09:41] of table stakes, but also even more
+- [09:43] sensitive calls like postsurgery
+- [09:46] follow-up calls or even intake calls for
+- [09:48] psychiatry are being handled by voice
+- [09:50] AI. I think honestly a big driver here
+- [09:52] is just the high turnover and the
+- [09:54] difficulty in staffing in healthcare
+- [09:56] right now which makes voice agents that
+- [09:58] can perform with some reliability a
+- [10:00] pretty good solution. Another category
+- [10:02] that's like that is banking and
+- [10:04] financial services. You would think
+- [10:06] there's so much compliance and
+- [10:07] regulation that voice AI can't operate
+- [10:10] there yet. But it turns out this is an
+- [10:12] area where voice AI actually outperforms
+- [10:14] because humans are actually very good at
+- [10:16] violating compliance and regulations and
+- [10:20] voice AI can get it every time and
+- [10:22] importantly you can track how voice AI
+- [10:24] is performing over time. Lastly, I would
+- [10:26] say another area where voice has taken
+- [10:28] off is recruiting. This is everything
+- [10:31] from retail frontline jobs to
+- [10:34] entry-level engineering roles to even
+- [10:36] mid-level consulting roles. With Voice
+- [10:38] AI, you can create an experience for
+- [10:40] candidates where they can interview
+- [10:42] instantly at whatever time works for
+- [10:44] them and then they're sent through the
+- [10:45] rest of the human recruiting process.
+- [10:46] We've seen big improvements on accuracy
+- [10:48] and latency this year as the underlying
+- [10:50] models get better and better. Actually,
+- [10:52] in some cases, I've heard of voice agent
+- [10:54] companies slowing down their agent or
+- [10:57] introducing background noise to make it
+- [10:59] sound more like a human. When it comes
+- [11:00] to BPOS's and call centers, I think some
+- [11:03] of them are going to see a softer
+- [11:04] transition and others are going to maybe
+- [11:06] see a a harder cliff when it comes to
+- [11:08] the threat from from AI and specifically
+- [11:10] voice AI. It's kind of like how people
+- [11:12] say AI isn't going to take your job. A
+- [11:14] human using AI will. What we're seeing
+- [11:16] is a lot of end customers may still want
+- [11:19] to just buy the solution, not buy
+- [11:21] technology that they have to implement.
+- [11:22] So, they might still use a call center
+- [11:24] or BO in the kind of near to medium
+- [11:26] term, but they're probably going to use
+- [11:28] one that's going to offer a cheaper
+- [11:30] price or be able to do more volume
+- [11:32] because they're utilizing AI.
+- [11:33] Interestingly, there's a couple
+- [11:35] geographies where humans are still
+- [11:37] actually cheaper on a permanent basis
+- [11:40] than kind of best-in-class voice AI. And
+- [11:42] so, it'll be interesting to see as the
+- [11:43] models get better if costs come down
+- [11:45] there. And then call centers in those
+- [11:47] markets might face a little bit more of
+- [11:48] a threat than they do now. AI is
+- [11:50] actually remarkably good at multilingual
+- [11:53] conversations and heavy accents. Oftent
+- [11:55] times I'll be on a meeting and there'll
+- [11:57] be maybe a word or a phrase I don't
+- [11:58] catch. Um, and I'll check like my
+- [12:00] granola transcripts and it has it down
+- [12:02] perfectly. So I think that's a good
+- [12:04] example of what most ASR or speechtoext
+- [12:07] providers can do. Now there's a couple
+- [12:09] use cases that I'm hoping we see a lot
+- [12:11] more of next year. Anything government.
+- [12:13] So we were investors in prepared 911. If
+- [12:16] you can run 911 calls and and they were
+- [12:19] the non-emergency calls, but if you can
+- [12:20] run that with voice AI, you should be
+- [12:22] able to run DMV calls and anything else
+- [12:25] government related that right now is so
+- [12:27] frustrating as a consumer and so
+- [12:29] frustrating if you're the worker on the
+- [12:31] other end of the phone. I'm also really
+- [12:33] intrigued to see more in consumer voice
+- [12:35] AI. It's mostly been B2B so far just
+- [12:38] because it's so obvious to replace or
+- [12:40] supplement a human on the phone with
+- [12:42] much lower cost AI. One category in
+- [12:44] consumer voice that I'm excited about is
+- [12:46] around kind of health and wellness more
+- [12:49] broadly. We're already seeing voice
+- [12:51] companions take off in assisted living
+- [12:53] facilities and nursing homes, both as a
+- [12:55] companion for again the residents, but
+- [12:58] also they can kind of track different
+- [12:59] measures of wellness over time. We see
+- [13:01] voice AI as more of an industry than a
+- [13:03] market, which in our opinion means
+- [13:05] there's going to be winners across and
+- [13:08] at every layer of the stack. If you're
+- [13:09] interested in voice AI or or if you want
+- [13:11] to build in voice AI, I would recommend
+- [13:13] you check out the models. There's lots
+- [13:15] of amazing platforms like 11 Labs where
+- [13:17] you can test both creating your own
+- [13:19] voice and creating your own voice agent
+- [13:21] and you get a really good sense of
+- [13:23] what's possible and what's to come.

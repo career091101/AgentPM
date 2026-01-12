@@ -1,0 +1,877 @@
+---
+title: "Transcript: XrYwFUdu2lk"
+video_id: "XrYwFUdu2lk"
+video_url: "https://www.youtube.com/watch?v=XrYwFUdu2lk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:35:50"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: XrYwFUdu2lk
+
+- URL: https://www.youtube.com/watch?v=XrYwFUdu2lk
+- Retrieved at: 2025-12-30T11:17:30+09:00
+
+## Text
+
+- [00:00] [Music]
+- [00:07] All right. Uh, thanks everyone for
+- [00:09] joining today. Uh, we want to talk about
+- [00:11] improving AI agent discovery and
+- [00:14] execution with a knowledge graph.
+- [00:16] And maybe a quick question in the
+- [00:18] beginning, who's used a knowledge graph
+- [00:20] or heard the term knowledge graph in the
+- [00:22] audience? Okay, so that's uh quite a few
+- [00:25] people. Then let's start with a very
+- [00:27] simple knowledge graph first.
+- [00:29] Oh, what
+- [00:32] is happening?
+- [00:35] Okay, let's go back
+- [00:38] and let's go here. All right, let's
+- [00:41] start with a very simple knowledge graph
+- [00:43] first. My name is Lars. This is Kristoff
+- [00:46] and we both work for SAP business AI and
+- [00:50] today I will start with um the
+- [00:53] presentation part of this session and
+- [00:55] then afterwards uh Kristoff will do a
+- [00:58] short demo on how to actually use what
+- [01:00] we present here today.
+- [01:03] All right. So as I mentioned we are from
+- [01:06] SAP and at best SAP we sell business
+- [01:09] processes and the goal is to embed AI in
+- [01:12] all of those processes. So essentially
+- [01:14] SAP business AI works on embedding AI
+- [01:18] everywhere in all of the SAP solutions
+- [01:20] that you can find ranging from ERP to
+- [01:23] supply chain and other solutions and the
+- [01:27] interface that the user will interact
+- [01:29] with is called Juul which is the
+- [01:32] business co-pilot essentially which can
+- [01:34] automate processes across different
+- [01:37] solutions ranging from human resources
+- [01:39] to procurement and sourcing.
+- [01:43] And in addition,
+- [01:45] Juul is powered by AI agents that are
+- [01:48] able to capture context and information
+- [01:51] across multiple SAP solutions and then
+- [01:53] automate complex business complex
+- [01:55] business processes using this
+- [01:57] information and context.
+- [02:00] And to give you a bit of an idea of this
+- [02:02] whole architecture uh what this looked
+- [02:05] like you can see at the bottom all the
+- [02:06] SAP applications that you might know
+- [02:09] financial management supply chain
+- [02:11] management and so on so forth that all
+- [02:13] produce some transactional data which
+- [02:16] you can then bring into business data
+- [02:18] cloud um our data solution to then make
+- [02:21] the data available to Juul that can then
+- [02:24] use it for AI capabilities.
+- [02:27] And what I want to highlight here is
+- [02:29] that at the center between the data and
+- [02:32] the AI is the SAP knowledge graph
+- [02:35] positioned. And the SAP knowledge
+- [02:37] graph's goal is to translate information
+- [02:40] from for the AI essentially to make it
+- [02:43] more usable and actionable.
+- [02:47] But let's take a look at the problem
+- [02:50] that AI agents might face. So suppose
+- [02:53] you have a jewel user who wants to
+- [02:55] create a new purchase order for five
+- [02:57] pencils in a certain purchasing group
+- [03:00] and a certain purchasing organization as
+- [03:02] shown here. Now if you give this task to
+- [03:05] an AI agent, a procurement agent and you
+- [03:09] give the agent access to all of the APIs
+- [03:11] and services you have in in your uh ERP
+- [03:14] system, then the agent will struggle to
+- [03:17] actually fulfill this task.
+- [03:20] Instead, what we do is we bring in a
+- [03:22] knowledge graph that provides rich and
+- [03:24] semantic context about the APIs, the
+- [03:27] services as well as the business
+- [03:29] processes such that the agent can then
+- [03:32] execute the task and do it as expected.
+- [03:36] So what are the two main challenges for
+- [03:38] the agent? Well, the first one is API
+- [03:41] discovery because choosing the correct
+- [03:43] API, it's not a trivial task, especially
+- [03:46] in large and diverse system landscapes
+- [03:48] that we face at SAP, for example.
+- [03:51] >> Often the meta data about these APIs
+- [03:54] that the agent might want to call is
+- [03:56] partially available only or fragments
+- [03:58] across multiple data sources, which
+- [04:01] requires the agent to then actually go
+- [04:03] to all of these data sources to find the
+- [04:05] relevant information. And in addition,
+- [04:08] these API specifications often include a
+- [04:11] lot of domain specific terminology like
+- [04:14] acronyms or abbreviations. So for
+- [04:16] example, in one context, PO is a product
+- [04:19] owner, but in another context, PO is a
+- [04:21] purchase order.
+- [04:23] And to give you an example about the
+- [04:25] size of the tools that the or services
+- [04:28] that the agent can use in SAP, we
+- [04:30] recently internal internally released a
+- [04:33] S4 HANA public cloud knowledge graph
+- [04:36] which has 3,500 API services and more
+- [04:40] than 110,000 endpoints. So essentially
+- [04:43] tools or services that the that the
+- [04:46] agent can call. And the second important
+- [04:49] part is the business
+- [04:52] process context because these APIs they
+- [04:54] do not exist in a vacuum right but the
+- [04:57] cannot they cannot be called in a random
+- [04:59] order just as the agent likes. Instead
+- [05:01] the business processes they determine
+- [05:03] the sequence in which these APIs need to
+- [05:06] be called to follow the business process
+- [05:08] correctly. And these processes can be
+- [05:11] complex. Business processes also vary
+- [05:13] for all of our customers. there's no
+- [05:16] customer that is alike in the in how
+- [05:18] they implement business processes and
+- [05:20] also the usage of an API may depend on
+- [05:23] the actual process it is used in. So to
+- [05:27] give you an example to create this
+- [05:29] purchase order that we saw in the
+- [05:30] beginning, it might be necessary
+- [05:33] depending on your business process to
+- [05:34] first create a purchase requisition
+- [05:36] because before you can actually call
+- [05:38] create the purchase order or in the
+- [05:40] financial application it might be
+- [05:42] required to do some anti-moneyaundering
+- [05:44] checks before you can open a new
+- [05:46] account.
+- [05:48] So how do we address these challenges?
+- [05:51] Well, we provide um our agent with a set
+- [05:55] of what we call broad tools and these
+- [05:58] tools are to discover APIs. So based on
+- [06:02] a vector database and the user
+- [06:04] utterance, we try to identify a set of
+- [06:07] candidate APIs that might be relevant
+- [06:09] for fulfilling the the given task.
+- [06:12] For these candidate APIs, the agent is
+- [06:15] then also able to call a retrieve API
+- [06:18] tool that retrieves the API
+- [06:20] specification, this meta data including
+- [06:23] business process context. And what you
+- [06:26] can see here is that this is based on
+- [06:28] the knowledge graph and we use also the
+- [06:30] knowledge graph to generate the
+- [06:32] embeddings that we use for the for the
+- [06:35] discovery in the first place as well.
+- [06:38] And now that the agent knows which
+- [06:40] services to call and in which order
+- [06:42] based on the process context, it can
+- [06:44] then call the execute API tool that then
+- [06:47] actually executes the get and post
+- [06:49] requests over the APIs that you might
+- [06:51] have.
+- [06:53] And as you see at the core of this is
+- [06:55] the knowledge graph. So what is a
+- [06:57] knowledge graph? And for all of you who
+- [07:00] do not know a knowledge graph represents
+- [07:02] structured information in the form of a
+- [07:05] graph. Here you can see that SAP is
+- [07:07] located in Valdorf which is located in
+- [07:09] Germany. Christian Klein is the CEO of
+- [07:12] SAP who was born in Mulhausen which is
+- [07:14] also located in Germany. So here you can
+- [07:17] see that the knowledge graph is
+- [07:19] represented by what we call triples here
+- [07:22] consisting of subject predicate and
+- [07:24] object SAP located in Waldorf which uh
+- [07:26] are directed labeled edges in the graph.
+- [07:29] Essentially
+- [07:31] the nodes they represent the entities,
+- [07:33] people, places or things but also could
+- [07:36] be any abstract concept like an API or
+- [07:38] an IT system. And the edges they then
+- [07:41] represent the relationships between
+- [07:44] those entities. So these are the raw
+- [07:47] facts that we have in the knowledge
+- [07:48] graph. But what makes a knowledge graph
+- [07:50] really powerful is the ontology.
+- [07:54] So given the fact that SAP is located in
+- [07:56] Valdorf, we can also introduce an
+- [07:58] ontology that provides the semantics of
+- [08:01] the objects and the relationships that
+- [08:02] we're talking about. So you could say
+- [08:04] something that SAP is a company, Baldorf
+- [08:08] is a city and then you can also
+- [08:10] introduce hierarchies of these classes.
+- [08:12] So you could say company is a subclass
+- [08:15] of an organization and there could be
+- [08:17] other organizations like university is
+- [08:19] also some kind of organization or city
+- [08:22] is a subclass of location and there
+- [08:24] could be other types of location like
+- [08:26] countries.
+- [08:28] In addition to talking about the
+- [08:29] entities we can also talk about the
+- [08:31] relationships and provide semantics
+- [08:33] about these relationshipships. So we can
+- [08:36] represent the relationship located in in
+- [08:39] our ontology and for example specify its
+- [08:43] range as being location. And that means
+- [08:45] whenever we encounter a located in
+- [08:48] relationship in the knowledge graph we
+- [08:50] know that it points to something that is
+- [08:52] a location.
+- [08:54] And in addition we could say for example
+- [08:56] that located in is a transitive
+- [08:58] property. And then by knowing that SAP
+- [09:01] is located in Valdorf and Valdorf is
+- [09:03] located in Germany, we can infer that
+- [09:06] SAP is located in Germany without this
+- [09:08] fact being explicitly stated in the
+- [09:10] knowledge graph.
+- [09:14] So with these two main key components,
+- [09:16] these facts and the ontology, we then
+- [09:19] build our knowledge graph. So what are
+- [09:21] the layers or the components of the
+- [09:23] knowledge graph that we built for our
+- [09:26] business process automation agent?
+- [09:29] And this knowledge graph is a meta data
+- [09:31] knowledge graph that has several layers
+- [09:33] of meta data content.
+- [09:36] At the bottom we have the resource
+- [09:38] discovery layer where you can bring in
+- [09:40] information from for example open
+- [09:42] resource discovery or RD that provides
+- [09:45] an envelope about the meta data. So it
+- [09:48] includes which APIs are there to which
+- [09:50] systems do they belong to how are they
+- [09:52] related to other APIs and for example
+- [09:54] data products
+- [09:56] and then of course we bring in the API
+- [09:59] services or tools. So we can bring in
+- [10:01] information from open API specifications
+- [10:03] or data specifications but also MCP
+- [10:06] tools could be also integrated into this
+- [10:08] APIs uh services and tools layer. And
+- [10:12] I'm as I mentioned before the glue that
+- [10:14] connects all these APIs together is the
+- [10:17] business process. So we also bring in
+- [10:20] process information into the knowledge
+- [10:22] graph to connect these APIs and the
+- [10:24] tools together. for example using BPMN
+- [10:27] for business processes or Arato uh for
+- [10:30] workflows.
+- [10:34] A second important part that I mentioned
+- [10:36] in the beginning is that we use the
+- [10:38] knowledge graph as a data source for
+- [10:41] creating the embeddings that we use for
+- [10:43] retrieval.
+- [10:45] And that's also a key advantage of the
+- [10:47] knowledge graph. We because we can use
+- [10:49] the structure of the knowledge graph to
+- [10:51] generate these embeddings. And there are
+- [10:53] various approaches to do knowledge graph
+- [10:55] embeddings. Often they focus on uh node
+- [10:57] classification, link prediction or
+- [10:59] knowledge graph completion. But in our
+- [11:01] case, we want to find the proper service
+- [11:03] based on a user atrins based on the it
+- [11:06] the user's intent. And so therefore we
+- [11:08] use a textual description based model
+- [11:10] which essentially represents a node in
+- [11:13] the graph by its textual description but
+- [11:15] also by the textual description of the
+- [11:18] connected nodes in the graph. So you can
+- [11:20] bring in more information from how a
+- [11:22] node is connected in the graph.
+- [11:25] And how this works um is what Kristoff
+- [11:28] is going to show you now in the demo.
+- [11:30] And he will also show you how we bring
+- [11:32] everything together to then build this
+- [11:34] agent. Thanks, L.
+- [11:38] Okay, so now let me show you a simple
+- [11:40] example of how you could build an agent
+- [11:43] that interacts with business APIs uh
+- [11:45] using a knowledge graph. Um so
+- [11:49] this is large enough here. Um okay, so
+- [11:53] first I'm going to load a knowledge
+- [11:54] graph that we've prepared. This contains
+- [11:56] like 100 toy APIs. Um and here's a small
+- [12:03] small visualization of it. I mean what
+- [12:05] you can see here is basically just three
+- [12:07] of those 100 APIs. Um
+- [12:11] like these three clusters correspond to
+- [12:12] APIs and then the nodes around them they
+- [12:15] they describe properties of them but you
+- [12:17] also see that there's connections
+- [12:18] between them which could be process
+- [12:20] information certain links between these
+- [12:23] APIs um that are encoded in the
+- [12:25] knowledge graph.
+- [12:27] Okay. And now just as last described the
+- [12:30] first step in building an agent is we
+- [12:31] need to take care of the API discovery.
+- [12:34] And for that we are going to embed sort
+- [12:36] of just to have a first stage of
+- [12:38] subsetting this large number of APIs
+- [12:40] that last mentioned we have um with a
+- [12:43] retrieval step. Um and so like last
+- [12:47] explained we have sort of use a textual
+- [12:49] description of sort of the the API and
+- [12:52] its its properties. And um before we
+- [12:55] construct that, let's have a look for to
+- [12:57] uh at an example here. So what we have
+- [12:59] in the in this particular knowledge
+- [13:01] graph for APIs. We have a name here. In
+- [13:04] this case, this is a purchase order API.
+- [13:06] Um we have certain links of the purchase
+- [13:08] order header information to the item
+- [13:10] level information API. And then these um
+- [13:14] API has this properties here like
+- [13:16] currency, payment terms, and so on. And
+- [13:18] each of those again has some attributes.
+- [13:21] That's sort of the data we're working
+- [13:22] with in the knowledge graph in this
+- [13:24] example here that we can now use to to
+- [13:26] construct a um a string that we're going
+- [13:30] to embed. Okay. And that again is sort
+- [13:34] of a strength of knowledge graph. We can
+- [13:36] just issue a query. We can construct it
+- [13:39] um to construct these embedding texts
+- [13:41] and it's quite flexible sort of we can
+- [13:44] like just by changing sort of to a
+- [13:47] different query. I mean here I've just
+- [13:49] concatenated all those properties and
+- [13:51] have have the have the um API name. You
+- [13:54] can think of course of of sort of better
+- [13:56] ways to to represent this if you want um
+- [13:59] or of other ways. Here I'm I've just
+- [14:02] changed the the query against the
+- [14:04] knowledge graph but sort of the basis of
+- [14:05] my knowledge is in the graph. It stays
+- [14:07] the same. I'm just extracting different
+- [14:09] different pieces of it for my embedding
+- [14:12] for each for an API. Okay. And so once I
+- [14:15] have decided on a query, I'm going to
+- [14:17] use the first one I showed, then I can
+- [14:19] run this through um through an embedding
+- [14:22] model to compute the embeddings.
+- [14:25] Okay, fine.
+- [14:27] And what I'm doing here, I'm using FIS.
+- [14:30] I'm just in using in-memory vector
+- [14:32] database so I can do my retrieval later.
+- [14:36] Um and here I have a function that just
+- [14:39] queries this does nearest neighbor
+- [14:41] search. Um and with with an example
+- [14:45] utterance here where the user may ask
+- [14:47] like create me a purchase order for five
+- [14:49] pencils in a certain purchasing
+- [14:51] organization and so on. Okay. And then
+- [14:54] I'm getting back here the top five APIs.
+- [14:57] Um you see as you would expect they they
+- [15:00] have sort of uh they look like they have
+- [15:02] something to do with purchase orders
+- [15:03] like this purchase order API here. Um
+- [15:06] the purchase order item API. I also see
+- [15:09] something here about purchase
+- [15:10] requisition item. And now let's have a
+- [15:13] glimpse at sort of how this business
+- [15:15] process may look like. Um so here create
+- [15:18] purchase order um has actually a
+- [15:21] prerequisite step of first first
+- [15:23] creating a purchase requisition. Um and
+- [15:26] that is sort of the the downside of this
+- [15:29] vector retriever here. it yeah like it
+- [15:33] may require sort of previous steps that
+- [15:35] are not semantically similar to what we
+- [15:38] I mean in this case it is but it may not
+- [15:40] be um to to what is asked about directly
+- [15:43] here so that's why I mean we're missing
+- [15:45] here for instance a purchase requisition
+- [15:48] API we only got the item level and so if
+- [15:50] you would present this to an agent it
+- [15:52] would actually not even get all the
+- [15:54] relevant APIs to execute the process and
+- [15:56] so now question is I mean yeah this Here
+- [16:01] an illustration of how I mean again what
+- [16:03] I just told you like these dots
+- [16:04] represent APIs in our cloud here is what
+- [16:07] we what we found with our vector
+- [16:09] retrieval and if you we may just hit
+- [16:13] sort of parts of a business process
+- [16:16] mainly the parts that the user kind of
+- [16:17] asks directly about but there may be
+- [16:20] other steps that are required and that's
+- [16:22] also um what we model in the knowledge
+- [16:25] graph so we have this proc process
+- [16:27] information these edges that represent
+- [16:29] the process
+- [16:30] um that we can now now just use to
+- [16:33] enhance our our plain vector retrieval
+- [16:36] by sort of completing the processes that
+- [16:39] we hit by our with our retriever so that
+- [16:41] we can then present the agent with um
+- [16:44] the relevant processes but also with
+- [16:46] sort of the complete set of of APIs um
+- [16:49] in the tool loadout to um to be able to
+- [16:54] execute the process correctly. Okay, so
+- [16:57] I'm now doing just that. Here I'm I'm
+- [16:59] putting in like the APIs that we got the
+- [17:02] list of APIs that we got from uh from
+- [17:05] the vector retrieval and I'm running a I
+- [17:08] mean this function basically wraps a a
+- [17:10] query against a knowledge graph that
+- [17:12] gets out all the incoming and outgoing
+- [17:14] edges um that represent processes. Okay.
+- [17:17] So in our for our example APIs we see we
+- [17:20] get here just one one one example edge
+- [17:23] that points from purchase requisition to
+- [17:25] purchase order. Okay. And now we can use
+- [17:29] this to construct kind of an enhanced um
+- [17:32] discovery. Uh so what it looks like is
+- [17:36] we first do the the the flat retrieval
+- [17:38] on the on the um on the user query. Then
+- [17:43] for those that we retrieve, we feed them
+- [17:46] into this query that gets the process
+- [17:48] information on top. And then in the end
+- [17:51] we yeah we merge the nodes that we find
+- [17:55] um the APIs that we find and then we
+- [17:57] also explicitly keep the process
+- [18:00] information because we in the end we're
+- [18:01] going to show the agent okay this is a
+- [18:03] set of relevant APIs and this is these
+- [18:06] are the processes that are that that
+- [18:09] these APIs are related by and then the
+- [18:12] agent can make has sort of yeah the
+- [18:15] right uh subset at hand. Um, okay. So
+- [18:19] now here I can let me just run this.
+- [18:21] Okay, maybe I need to h sorry forgot to
+- [18:25] execute this cell.
+- [18:27] Okay, no maybe I need to Okay, hope it's
+- [18:31] still legible. But um sort of the output
+- [18:34] of all this is enhanced retrieval. Now
+- [18:36] it gets you all the APIs we found by the
+- [18:38] flat retrieval. on top in our example,
+- [18:40] we now also get the purchase requisition
+- [18:42] API and we get a representation of that
+- [18:45] process uh process edge that we that we
+- [18:48] also retrieved from the graph.
+- [18:51] Okay.
+- [18:52] And so with that we can now actually go
+- [18:55] ahead and construct an agent. Um
+- [19:00] so
+- [19:02] one thing that I just showed you were
+- [19:03] like for these APIs we we've extracted
+- [19:05] for for the discovery purpose we just
+- [19:07] extracted identifiers for those APIs but
+- [19:09] of course the APIs themselves each of
+- [19:11] them has sort of specifications that we
+- [19:14] also need to present to the agent and
+- [19:16] that's why we then first run our
+- [19:19] enhanced discovery maybe I can make it
+- [19:21] larger again um run our discovery here
+- [19:24] for the uh for the user query
+- [19:27] get here the the the set of APIs which
+- [19:30] are identified by some UI in the
+- [19:32] knowledge graph and then we basically
+- [19:35] loop over them and call yet another set
+- [19:38] of queries against the knowledge graph
+- [19:40] to fetch the actual um specification for
+- [19:42] each of those APIs. So then in total the
+- [19:45] agent will have the right set of APIs
+- [19:48] with completed processes and for each it
+- [19:50] will get their specification and all of
+- [19:52] that came out of the knowledge graph. Um
+- [19:56] right so
+- [19:59] that's defined and then I I wrapped this
+- [20:02] as a tool here I'm using lench chain um
+- [20:04] to build the agent so then this will be
+- [20:07] the actual tool that the agent can then
+- [20:09] call where it just puts in the user
+- [20:10] query and then it gets out um all this
+- [20:13] information
+- [20:15] okay so to build an agent here I mean I
+- [20:18] don't have an SAP system running on my
+- [20:20] laptop here so that's why I'm I have
+- [20:22] sort of mocked functions here So, a mock
+- [20:25] database for purchase orders. Um, let's
+- [20:28] look at the content. So, for now,
+- [20:29] there's just three purchase orders in
+- [20:31] there. Um, then I have a function here
+- [20:34] that that calls that mocks calling this
+- [20:37] API. Um, here with a payload where I'm
+- [20:40] I'm I'm creating a purchase order uh for
+- [20:45] five mice and three keyboard keyboards.
+- [20:49] Okay. And then if I call it, you see,
+- [20:51] okay, these these get added here. So
+- [20:52] this this mimics yeah creating entries
+- [20:55] in that database. Um and similarly I
+- [20:58] have a get function here that where I
+- [21:01] can put in a filter string like this
+- [21:03] purchasing group equals 005 and
+- [21:05] purchasing or equals 3000. Um if I call
+- [21:09] that then I would get back just the one
+- [21:12] record that that that for the for which
+- [21:14] this filter condition is holds true.
+- [21:17] Okay. So I I have these
+- [21:21] um these APIs here and now I I basically
+- [21:25] simply just just wrap them or decorate
+- [21:28] them here as tools. So the agent will
+- [21:30] get one tool to to fetch APIs where it
+- [21:33] where the in the input is identifier for
+- [21:36] the API service and sort of the the
+- [21:39] endpoint below it. um and the filter
+- [21:42] string for the get API and for the post
+- [21:45] API again an identifier of the API um
+- [21:49] and the payload which is sort of
+- [21:50] describing the object that it should
+- [21:52] should um should in create in the
+- [21:55] database. Okay.
+- [21:58] Now for the agent prompt nothing fancy
+- [22:01] here. So I I just describe okay first do
+- [22:05] discovery then pay attention if there's
+- [22:08] process information and then there's
+- [22:10] some yeah some description of how to
+- [22:12] deal with these header item level
+- [22:14] relations um that we typically see in
+- [22:16] these kinds of APIs like some document
+- [22:19] has header information and then it can
+- [22:21] have multiple items um couple dos and
+- [22:24] don'ts um okay and now I can here define
+- [22:29] my agent again I'm using lench chain
+- [22:31] just just as an example here. Okay, with
+- [22:35] that already defined, we can look at an
+- [22:37] example. Um, so now we can run our agent
+- [22:41] here on a query where the user asks,
+- [22:43] "Show me active purchase orders in a
+- [22:45] certain purchasing group and purchasing
+- [22:47] organization."
+- [22:49] Okay, let's run this. Um, okay. So, what
+- [22:53] the agent does, it first calls the
+- [22:55] discover API tool. That's good. And the
+- [22:58] a this tool gets back sort of here with
+- [23:00] a list of API specs. Sort of this is now
+- [23:03] a list of APIs and for each of them the
+- [23:06] the specs that we retrieved and then at
+- [23:09] the at the end it also gets back here
+- [23:12] process information like this a process
+- [23:15] edge that is that could be involved
+- [23:16] here. For this query we don't need a
+- [23:18] process because a simple get fetch data
+- [23:21] query. Um the agent basically ignores
+- [23:24] the process information which is
+- [23:25] correct. then it it calls the get API
+- [23:27] here. However, it just calls it for with
+- [23:31] this filter here, purchasing or uh on
+- [23:33] the purchasing or uh sorry, group and
+- [23:36] orc. But I also asked for active. So
+- [23:39] there seemed something seemed to be
+- [23:40] missing. Um and it actually got back um
+- [23:43] two purchase orders from from our
+- [23:45] database, which is not what I wanted. I
+- [23:47] wanted only the active purchase orders.
+- [23:50] So what I can do now I can basically
+- [23:53] enhance I mean this is just to
+- [23:54] illustrate that the knowledge graph is a
+- [23:56] good place to aggregate your metadata.
+- [23:58] You can what you have already then we
+- [24:00] can just sort of add on top more context
+- [24:02] and in this case the context that's
+- [24:04] missing is to is the mapping here from
+- [24:08] from these textual descriptions of of
+- [24:11] purchase order status um to to this
+- [24:14] technical ID here 02 um for instance
+- [24:17] here corresponds to active. So now and
+- [24:20] this is a query to update the graph. Let
+- [24:22] me run it. Okay. Now the graph should be
+- [24:25] updated with additional nodes that that
+- [24:27] that now describe this. Um okay. And now
+- [24:31] I can run the exact same query again.
+- [24:35] And now I mean basically the same
+- [24:38] happens um in the discovery but except
+- [24:41] the there is now here it also gets in
+- [24:45] the in the specifications this mapping
+- [24:48] from from the description to the
+- [24:50] technical ID of the of the of the in
+- [24:54] this case a process uh purchase order
+- [24:56] status sorry um and the agent directly
+- [25:00] makes use of it because you can see here
+- [25:03] um the filter string now also contains a
+- [25:05] filter on the process uh on the purchase
+- [25:08] processing status 02 instead of maybe it
+- [25:12] could have just yeah a lesser agent
+- [25:14] would have just put active or something
+- [25:16] but here it uses a correct technical ID
+- [25:18] and we also get the correct result which
+- [25:20] is just the one purchase order that we
+- [25:22] had in our database that satisfies all
+- [25:24] these conditions okay so that is to
+- [25:27] illustrate okay we can we have if we
+- [25:29] have our knowledge graph ready we can
+- [25:31] add attach new nodes to to to add
+- [25:34] additional context text that we can use.
+- [25:37] Okay, so one more example. Um now this
+- [25:40] example that we used already before
+- [25:42] create a purchase order um for five
+- [25:44] pencils in a certain purchasing group
+- [25:47] and purchasing organization. Let's run
+- [25:49] this.
+- [25:51] Oops. Okay. Um damn it. Okay. So it runs
+- [25:56] again first the discovery basically gets
+- [25:59] the same or similar set of APIs that we
+- [26:02] saw before with the process information
+- [26:04] here in the end and it um yeah it
+- [26:08] correctly realizes it first calls the
+- [26:10] post uh post data API but instead of
+- [26:15] calling like directly the proc the
+- [26:17] purchase order API it first calls the
+- [26:19] purchase requisition API because it
+- [26:21] because it follows the process first
+- [26:24] create the purchase requisition
+- [26:25] Um then yeah this call is issued here
+- [26:29] the the system reflects back okay here
+- [26:32] we have a purchase requisition that got
+- [26:34] this this ID here and for the line item
+- [26:37] it got this ID um and then only as a
+- [26:41] second step the agent calls the post
+- [26:43] data API on the purchase order where it
+- [26:45] then also references here the p purchase
+- [26:48] requisition that it just created um by
+- [26:51] an ID um calls that and Then um yeah the
+- [26:56] system reflects back okay this has been
+- [26:58] created. So now let's have a look at our
+- [27:01] at the state of our database.
+- [27:04] Um so maybe I can make this larger. Um
+- [27:08] so yeah we see here last the last
+- [27:11] created is as a purchase requisition for
+- [27:13] five pencils and in the purchase orders
+- [27:16] we have also a purchase a new purchase
+- [27:18] order here for five pencils and it uh it
+- [27:22] links here to the purchasing requisition
+- [27:24] that that was created. So the agent
+- [27:26] followed the process as we wanted. Yeah.
+- [27:29] And that's the yeah that's it for the
+- [27:33] demo. Let me now get to to a summary of
+- [27:37] what we've shown you today. So I hope
+- [27:40] we've shown you that a knowledge graph
+- [27:42] is is a good place to to aggregate your
+- [27:45] your metadata. So typically you would
+- [27:47] have metadata in different places and
+- [27:50] yeah we use a knowledge graph to to link
+- [27:52] it all together to make it usable sort
+- [27:55] of in in a in a harmonized way and also
+- [27:57] to to benefit from the links that that
+- [27:59] we that we maintain in there. Um yeah,
+- [28:03] the knowledge graph provides context for
+- [28:07] for agents like this this mapping of
+- [28:09] technical ids that I've shown you. Um
+- [28:12] and also if you want to keep track of
+- [28:14] where your context for the agents came
+- [28:17] from then you can do so by techniques
+- [28:19] with the knowledge graph where you can
+- [28:21] trace back where did this metadata come
+- [28:24] from how did it make it way into the
+- [28:26] knowledge graph and then uh to the to
+- [28:29] the LLM.
+- [28:31] So the approach that we've shown you
+- [28:33] today is like this. I would call it a
+- [28:35] broad broad tool approach kind of. We
+- [28:37] just have sort of these
+- [28:40] three um broad tools that that enable
+- [28:43] the agent to interact with like
+- [28:45] thousands of APIs. So it's in it's
+- [28:47] scalable in that sense. Um we don't have
+- [28:50] one tool per API. Um it relies on the on
+- [28:54] the meta meta data for the knowledge
+- [28:56] graph as you've seen. Um, it also kind
+- [28:59] of solves a problem of tool
+- [29:01] orchestration because I mean you're just
+- [29:03] a small number of tools. We don't need
+- [29:05] to sort of overload the agent with like
+- [29:08] hundreds of thousands of of tools which
+- [29:10] of course wouldn't be feasible. Um,
+- [29:12] however, there's also some challenges.
+- [29:14] Not all metadata is readily API sort of
+- [29:19] AI ready, sorry. Um so you may lack
+- [29:22] descriptions and um it's it's maybe too
+- [29:25] too much of technical ideas that don't
+- [29:26] make sense without additional context
+- [29:28] sometimes. So you need to yeah that's
+- [29:31] that needs to be worked on and and and
+- [29:33] enriched. um this broad-based tool
+- [29:36] approach it can have sort of an
+- [29:37] extensibility problem in the sense that
+- [29:39] if you combine it with also more I mean
+- [29:42] you you cover basically a broad API
+- [29:44] surface with these with these tools but
+- [29:46] if you then also have sort of very
+- [29:48] specialized tool bespoke tools on top of
+- [29:52] that then you kind of have an overlap of
+- [29:54] scope with these tools and yeah that's
+- [29:56] that's something you need to think about
+- [29:59] um yeah one word on MCP so of course
+- [30:02] this these tools you can also wrap in
+- [30:04] MCP. Um, yeah. However,
+- [30:08] like if you wanted to go for a different
+- [30:10] approach where you have one tool per
+- [30:12] API, then you have thousands of API of
+- [30:15] tools and you would need to sort of have
+- [30:17] an a dynamic mechanism to to to scope
+- [30:20] those tools down to have a dynamic tool
+- [30:23] load out uh yeah conditioned on the user
+- [30:26] atterance and yeah MCP in its current
+- [30:28] form doesn't provide a mechanism like
+- [30:30] that. So that's one challenge you might
+- [30:32] have with such an approach. Yeah. And
+- [30:35] with that, thanks for your attention.
+- [30:37] Um, if you want to learn more about AI
+- [30:39] at SAP or the SAP knowledge graph,
+- [30:42] follow those links or visit us at our
+- [30:44] booth. Um, yeah, and looking forward to
+- [30:47] your questions.
+- [30:49] [Applause]
+- [30:52] >> Thank you Kristoff and Lars. a great
+- [30:55] look into how providing
+- [30:58] um process information through a
+- [31:01] knowledge graph makes the context richer
+- [31:03] and
+- [31:04] we have time for one or at two
+- [31:07] questions. Right.
+- [31:14] Okay. Thank you very much for the talk.
+- [31:17] And so I think what I learned from your
+- [31:20] presentation is that the beast of your
+- [31:22] work there is actually the knowledge
+- [31:24] graph and also how you would make use of
+- [31:29] the knowledge graph that you built. And
+- [31:32] from my experience with uh using
+- [31:34] knowledge graph and um my experience is
+- [31:38] when you have something small and quite
+- [31:40] fixed as a problem um it's relatively
+- [31:43] straightforward but uh when you have uh
+- [31:46] say new features you need to add or new
+- [31:49] nodes you need to edit into the
+- [31:52] knowledge graph it becomes more and more
+- [31:53] hard to maintain in the long term. Um so
+- [31:57] I also see you have a embedding model
+- [32:00] that is basically seems like uh you you
+- [32:04] retrieve the knowledge graph and convert
+- [32:05] it in a simple way not too much semantic
+- [32:08] to the text itself but you convert to
+- [32:10] the embedding model to like use
+- [32:12] embedding model to convert to the vector
+- [32:14] embedding for the retrieval a rag
+- [32:17] approach. So like how many dependencies
+- [32:21] you think there are like within this
+- [32:23] approach and uh and what what would be
+- [32:27] the limitations on of such applications?
+- [32:32] >> Uh you want to take the part on managing
+- [32:34] those graph?
+- [32:35] >> Yeah, I would start with the managing of
+- [32:37] the data and the knowledge graph. So as
+- [32:39] you mentioned right it can be it's quite
+- [32:41] flexible and extensible but of course
+- [32:43] that brings a challenge that you can add
+- [32:45] more and more data to the knowledge
+- [32:47] graph and that can then also kind of be
+- [32:49] limiting for the discovery because then
+- [32:51] there's so much context. Um so what we
+- [32:54] do is we always start with like a core
+- [32:56] set of information like especially the
+- [32:58] APIs uh and and and their relationships
+- [33:01] and the processes and then as we go we
+- [33:02] can extend it more if we understand if
+- [33:05] we find what Kristoff showed like
+- [33:06] there's missing information in the meta
+- [33:08] data that we need to bring in for the
+- [33:10] agent to understand the tools or the
+- [33:12] APIs correctly then we bring this in of
+- [33:15] course but we try to keep it at a
+- [33:17] minimum and also we can like as the
+- [33:20] knowledge graphs grows the way we manage
+- [33:22] the data and the knowledge graph. We use
+- [33:24] kind of like subg graphs and you can
+- [33:27] essentially for a specific application
+- [33:28] or an agent you can make a certain set
+- [33:31] of subg graphs available to the agent
+- [33:33] only even though the whole graph might
+- [33:35] be bigger. So for discovery you could
+- [33:37] for example take a larger graph uh to do
+- [33:40] the embeddings but then during um the
+- [33:43] the retrieval of the API you only use a
+- [33:46] smaller part of the graph.
+- [33:50] We have time for one very quick question
+- [33:52] if there's one over here.
+- [33:54] >> Right here.
+- [33:55] >> Hi. Why couldn't you do this in SQL
+- [33:59] using your standard lots of tables,
+- [34:01] joins
+- [34:03] the classic approach? How does this
+- [34:05] improve?
+- [34:07] >> Sorry, the question is how why are we
+- [34:08] not doing this in SQL? I mean typ
+- [34:10] typically you have lots of in SQL lots
+- [34:13] of tables and you use SQL to effectively
+- [34:16] create the graph and to do the
+- [34:18] retrieval. What advantage does this have
+- [34:20] over SQL?
+- [34:25] I mean one of the key advantages if you
+- [34:27] look at it from the consumption
+- [34:29] perspective you tra traditionally have
+- [34:31] at SAP these uh these tools or fury apps
+- [34:34] that uh use these APIs to do a certain
+- [34:37] business process and then the developer
+- [34:38] would create this app in a way that it
+- [34:41] kind of follows this business processes
+- [34:42] steps. So these tools are or these apps
+- [34:45] already encode kind of the business
+- [34:47] processes and already know which APIs
+- [34:50] should be used and so on. And if you
+- [34:52] just run raw SQL so to speak over the
+- [34:55] the database that is underlying all of
+- [34:57] this, it's just also becoming way more
+- [34:59] complex and it it's difficult for the
+- [35:01] agent to understand how to like what it
+- [35:04] can touch, what it cannot touch. And
+- [35:05] these APIs already kind of narrow down
+- [35:07] the scope of of what the agent could
+- [35:09] potentially do with the data and how
+- [35:11] also it's intended to be to be added or
+- [35:15] change the data with these APIs.
+- [35:17] >> Thank you. One one big aspect is also
+- [35:19] like in large enterprises you can have
+- [35:21] incredibly complex roles and permissions
+- [35:24] things and sort of that's baked into
+- [35:25] layer typically into layers above the
+- [35:27] the SQL layer. So that's why you want to
+- [35:30] sort of not not skip that.
+- [35:36] [Music]
+- [35:37] All right. Thank you. Uh we will go for
+- [35:39] a launch break and we will be back at 1
+- [35:42] p.m. to continue with eight more talks
+- [35:45] on building agents and context
+- [35:48] engineering.
+- [35:50] >> Thank you.
+- [35:50] >> Thank you.

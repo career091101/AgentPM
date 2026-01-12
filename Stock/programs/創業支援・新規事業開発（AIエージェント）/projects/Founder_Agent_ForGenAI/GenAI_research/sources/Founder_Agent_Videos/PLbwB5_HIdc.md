@@ -1,0 +1,280 @@
+---
+title: "there's some new workflow that is enabled by Cloud 3."
+video_id: "PLbwB5_HIdc"
+video_url: "https://www.youtube.com/watch?v=PLbwB5_HIdc"
+speaker: "a"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  there's some new workflow that is enabled by Cloud 3.7 that many people didn't know yet with just one single prompt you can get Cloud to design the whole application's UI which you can turn into a fully functional beautiful application with nice UI and this is a workflow I want to share with you today so Cloud 3.7 has been released for a few weeks and one of the key Improvement is cloud 3.7 it's just insane about UI implementations you can just give it a random Mo complex and you'll be able to turn into beautiful high quality UI like that and this enables some of a new AI coding workflow that is extremely helpful and one my favorite is this two-step process that can making sure the UI output from cloud 3.7 is much better than normal ones you would have out of box and this is really huge be
+key_points:
+  - "Improvement is cloud 3"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, Startup"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:45:53+09:00"
+---
+
+# Transcript: PLbwB5_HIdc
+
+- URL: https://www.youtube.com/watch?v=PLbwB5_HIdc
+- Retrieved at: 2025-12-30T10:45:53+09:00
+
+## Text
+
+- [00:02] there's some new workflow that is
+- [00:04] enabled by Cloud 3.7 that many people
+- [00:07] didn't know yet with just one single
+- [00:09] prompt you can get Cloud to design the
+- [00:10] whole application's UI which you can
+- [00:13] turn into a fully functional beautiful
+- [00:15] application with nice UI and this is a
+- [00:18] workflow I want to share with you today
+- [00:20] so Cloud 3.7 has been released for a few
+- [00:22] weeks and one of the key Improvement is
+- [00:25] cloud 3.7 it's just insane about UI
+- [00:28] implementations you can just give it a
+- [00:30] random Mo complex and you'll be able to
+- [00:32] turn into beautiful high quality UI like
+- [00:34] that and this enables some of a new AI
+- [00:36] coding workflow that is extremely
+- [00:38] helpful and one my favorite is this
+- [00:40] two-step process that can making sure
+- [00:42] the UI output from cloud 3.7 is much
+- [00:45] better than normal ones you would have
+- [00:46] out of box and this is really huge
+- [00:48] because AI coding agents like cursor and
+- [00:50] Winger hasn't been really great at
+- [00:53] creating UI if you want application to
+- [00:55] looks really good the state of art
+- [00:57] method is using existing UI component Li
+- [01:00] like sh CN DC UI and a few others but if
+- [01:03] you wanted to build something really
+- [01:05] customized it normally will struggle but
+- [01:07] as a model capabili became stronger now
+- [01:09] it's the first time I feel like it can
+- [01:11] produce high quality customer UI so I
+- [01:13] will take you through step by step what
+- [01:15] my process look like and how can you
+- [01:17] replicate something similar for your own
+- [01:20] dream apps but before we dive into that
+- [01:22] cloud has been a real killer not only
+- [01:24] for UI generation but also many other
+- [01:27] day-to-day automations they release ton
+- [01:29] of interesting features from projects
+- [01:31] Integrations artifacts as well as the
+- [01:33] latest analysis tool and sometimes even
+- [01:36] I feel like I'm not catching up with all
+- [01:37] the features that they have been
+- [01:39] released so I'm always curious how does
+- [01:41] other top AI experts fully unleash the
+- [01:43] potential of those Cloud capabilities
+- [01:46] that's why I want to introduce you to
+- [01:47] this free ebook complete guide to Cloud
+- [01:50] AI made by hopspot CMO Kip and VP
+- [01:52] marketing Kieran if you don't know who
+- [01:54] Kieran is he has been in AI for a long
+- [01:56] time and Shar lots of good insights and
+- [01:59] practical workflow for utilizing AI to
+- [02:01] automate work and they talks through how
+- [02:03] hops spall content team is utilizing
+- [02:05] Cloud features like pures artifacts
+- [02:08] analysis tool into their workflow as
+- [02:10] well as specific prompts that got them
+- [02:12] high quality results versus bad ones and
+- [02:14] they showcase some of really interesting
+- [02:16] use case for example they talk us
+- [02:18] through how did they upload the whole
+- [02:19] quarters marketing result CSV to cloud
+- [02:22] and ask it to generate interactive
+- [02:24] dashboard so that senior leaderships can
+- [02:26] just come and dig into Data themselves
+- [02:28] in my favorite section is where they
+- [02:30] demonstrate a Content optimization
+- [02:33] system that they build upon cloud from
+- [02:35] how they go from SEO enhancement to
+- [02:37] cross Channel adoption performance
+- [02:39] tracking and content repurposing so I
+- [02:41] highly recommend you take a look at this
+- [02:43] to either discover all the tricks and
+- [02:45] tips or a sneak peck of how top AI
+- [02:48] experts are Implement those AI workflow
+- [02:50] in Cloud so that it might Inspire some
+- [02:52] new business ideas for you I have put a
+- [02:54] link in the description below for you to
+- [02:56] download this ebook for free and now
+- [02:58] let's get back to how can we get get
+- [03:00] Cloud 3.7 to build application that has
+- [03:02] beautiful UI so I'm going to open cursor
+- [03:04] and give it prompt UI senior front end
+- [03:06] developers and specify very specific
+- [03:09] design style that I want and this prompt
+- [03:11] I have tested and works pretty well as
+- [03:13] well as some technical specifications
+- [03:15] like each page should be in this
+- [03:16] specific size and icons which should use
+- [03:18] online Vector icon Library the image
+- [03:20] must be sourced from open source image
+- [03:23] websites the sty should be telling and
+- [03:24] never give it task this AI caty
+- [03:27] calculator app where users can take a
+- [03:28] picture of food and Auto extract
+- [03:30] nutrition and similat the prodct
+- [03:32] manager's detail functional and
+- [03:34] information architecture design follow
+- [03:36] the design style and technical
+- [03:38] specifications to generate a a complete
+- [03:40] UI design plan and create ui. HTML file
+- [03:44] that contain all the pages that display
+- [03:45] in a horizontal layout and generate the
+- [03:48] first two pages first so with just
+- [03:51] prompt itself it can already generate
+- [03:53] really gorgeous UI outbox with
+- [03:55] interaction animation as well but what
+- [03:57] you can also do is give it some image
+- [04:00] reference example in our case I can just
+- [04:02] take a screenshot of the Cal AI app and
+- [04:05] come back to cursor paste this image and
+- [04:07] click Send great so if we open this you
+- [04:10] can see that this UI looks pretty
+- [04:12] awesome very likely you might need to
+- [04:14] try a few different times uh like for me
+- [04:16] I tried actually a few different times
+- [04:18] each time some I didn't look right and I
+- [04:21] would either just ask it to run again or
+- [04:23] give some promp to adjust a style but if
+- [04:25] you want to make some a specific
+- [04:26] adjustment I can also take screenshot of
+- [04:28] this part
+- [04:30] and come back saying the 1250 calories
+- [04:33] left Tex is not vertically Center align
+- [04:35] help me fix it and make it look more
+- [04:39] balanced cool and you can see it made
+- [04:41] some updates and now it looks more
+- [04:44] balanced for the tax above same thing
+- [04:46] we're also going to update the next page
+- [04:48] as well so I'll just come back and take
+- [04:50] a screenshot of the original mup and the
+- [04:53] past in help me update the second screen
+- [04:57] based on the mo up so
+- [05:02] great now you can see that this two page
+- [05:04] all looks pretty decent and awesome so I
+- [05:06] can just tell it great UI looks awesome
+- [05:08] don't change UI just add some
+- [05:10] interaction
+- [05:12] animations and now it will have some
+- [05:14] kind of hover interactions when you
+- [05:16] hover those buttons which looks pretty
+- [05:18] nice once it's done I can also ask you
+- [05:20] to continue with more pages great those
+- [05:23] two pages looks awesome keep the same
+- [05:24] quality and continue creating more pages
+- [05:26] of the
+- [05:28] app and I just do the same thing updated
+- [05:31] page or page uh like this one the
+- [05:33] spacing looks a bit off and I will take
+- [05:35] a screenshot and tell it the spacing
+- [05:37] looks a bit off Place update cool so
+- [05:40] after a few prompts I got this UI that
+- [05:42] looks pretty awesome and you can obvious
+- [05:44] continue going to create more page and
+- [05:46] Flash out the whole application but now
+- [05:48] it is still just a static page how can
+- [05:50] we turn this into a proper web app so
+- [05:53] what I'll do here is that I will give a
+- [05:54] prompt if I want to turn this into a
+- [05:56] proper nextjs web app what UI components
+- [05:59] should I create don't generate files yet
+- [06:02] just think and plan for now and just
+- [06:04] focus on minimum amount of UI
+- [06:06] components and here you go it start
+- [06:08] defining the list of components and this
+- [06:11] step is actually pretty critical I found
+- [06:12] when I ask it to just go create app it
+- [06:15] often failed to replicate a similar UI
+- [06:18] but once you ask it to break down
+- [06:19] specific components then it becomes a
+- [06:22] bit easier for them and next what I do
+- [06:24] is I will try to set up a project and
+- [06:26] I'm just going to use chass and command
+- [06:28] line which comes with is Tailwind on the
+- [06:30] nextjs and meanwhile I'm going to copy
+- [06:33] this text and save it into plan. MD so
+- [06:37] that we can have a reference about the
+- [06:39] component that it's supposed to create
+- [06:41] so I give prom great I move the plan to
+- [06:43] plan. MD I've set up in next ja project
+- [06:46] in my app folder now let's build the
+- [06:48] first components of app layout and
+- [06:50] Screen layout which is first few
+- [06:52] components but making sure read the
+- [06:54] nextjs project structure to make sure
+- [06:56] things are in the right place and after
+- [06:58] Implement each component add a check
+- [07:00] mark in plan uh so we can keep track
+- [07:03] about what's
+- [07:04] left and this process will take a while
+- [07:07] you kind of just need to wait and
+- [07:09] see cool and now if I open it you can
+- [07:13] see that it had turned this into a web
+- [07:15] application and everything looks exactly
+- [07:18] like what we have before and all we need
+- [07:19] to do just ask you to do step by step so
+- [07:22] I just continue prompt it great now
+- [07:24] let's do the bot navigation bar and
+- [07:26] header in navigation folder
+- [07:33] and again I will just continue ask it to
+- [07:35] do more
+- [07:36] components cool so now you can see a
+- [07:38] check out all the pages that is supposed
+- [07:40] to create and if I switch to the nextjs
+- [07:43] app you can see that this app looks
+- [07:45] exactly like the UI we have before you
+- [07:47] can change number here you also have
+- [07:49] analytics page as well as setting page
+- [07:52] and each component is fully functional
+- [07:54] all you need to do just start building
+- [07:56] backend function so this example of how
+- [07:58] can you create v0 level UI without v0
+- [08:02] which means you don't have to be limited
+- [08:04] by chass CN components you can literally
+- [08:06] ask Cloud 3.7 to create any sort of
+- [08:09] styles you like and building your own
+- [08:12] component Library if you want to learn
+- [08:13] more in depth about that specific Cloud
+- [08:15] 3.7 design process as well as a prompt
+- [08:17] that I've been using you can join the AI
+- [08:19] Builder Cloud community and building
+- [08:21] where I have list out all the detailed
+- [08:22] prompt and process plus I'm releasing
+- [08:24] this AI coding tool called 10x coder
+- [08:27] death for the AI Builder club members to
+- [08:29] try free which is basic platform where
+- [08:30] you can go and describe the project you
+- [08:32] want to build like a not taking app you
+- [08:34] can upload some screenshot as well and
+- [08:36] based on that it will start generating
+- [08:37] some cursor rules around the UI help you
+- [08:40] break it down into specific feature that
+- [08:42] might require to build this app as well
+- [08:43] as design the project structure and
+- [08:45] database schema but most importantly in
+- [08:47] the end you will be able to export a
+- [08:49] nextjs project that you can open in
+- [08:51] cursor or wi surf they already have the
+- [08:53] user authentication strip payment and
+- [08:56] super based backand setup I will
+- [08:58] continuously sharing more content as
+- [09:00] well as building exclusive tools for
+- [09:02] community members if you're interested
+- [09:03] you can click on the link in the
+- [09:04] description below to join the community
+- [09:06] I hope you enjoy this video and very
+- [09:07] keen to see what type of UI you start
+- [09:09] building with Cloud 3.7 designers thank
+- [09:12] you and I see you next time

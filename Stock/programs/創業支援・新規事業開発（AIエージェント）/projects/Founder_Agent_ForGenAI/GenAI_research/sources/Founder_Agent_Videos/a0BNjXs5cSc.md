@@ -1,0 +1,291 @@
+---
+title: "Building Long-Running AI Agents"
+video_id: "a0BNjXs5cSc"
+video_url: "https://www.youtube.com/watch?v=a0BNjXs5cSc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Programming"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Okay, Sam, what is a longunning AI
+  >> A longrunning AI agent is an autonomous
+  stateful software process that can
+key_points:
+  - "Okay, Sam, what is a longunning AI"
+  - ">> A longrunning AI agent is an autonomous"
+  - "stateful software process that can"
+  - "persist for hours or days, maintaining"
+  - ">> It can plan and execute multi-step"
+  - "goals, call external tools and APIs,"
+  - "want to define this is uh a longunning"
+  - "AI agent is an autonomous stateful"
+category: "AI & Technology"
+confidence_level: "high"
+---
+
+# Transcript: a0BNjXs5cSc
+
+- URL: https://www.youtube.com/watch?v=a0BNjXs5cSc
+- Retrieved at: 2025-12-30T11:32:00+09:00
+
+## Text
+
+- [00:00] Okay, Sam, what is a longunning AI
+- [00:03] agent?
+- [00:07] >> A longrunning AI agent is an autonomous
+- [00:09] stateful software process that can
+- [00:10] persist for hours or days, maintaining
+- [00:12] memory and checkpoints.
+- [00:13] >> It can plan and execute multi-step
+- [00:15] goals, call external tools and APIs,
+- [00:17] monitor progress, recover from failures,
+- [00:19] and keep working without constant user
+- [00:20] prompts.
+- [00:22] >> At least that's what chat GPT told me.
+- [00:30] Okay, so what you heard in that intro
+- [00:32] that was made with Sora 2 by the way.
+- [00:34] Pretty fun tool if you ask me. Uh today
+- [00:36] I want to take a quick look at what they
+- [00:38] call longunning AI agents. So the way I
+- [00:42] want to define this is uh a longunning
+- [00:44] AI agent is an autonomous stateful
+- [00:47] software process that can persist for
+- [00:49] hours or days. Okay, we're not going to
+- [00:51] do days. Maintaining memory checkpoints
+- [00:54] so it can plan execute multi-step goals.
+- [00:56] Call external tools. That could be MCP
+- [00:59] servers that we're going to use today.
+- [01:00] APIs, monitor progress, recover from
+- [01:03] failures, keep working with constant
+- [01:05] user prompts or without constant user
+- [01:08] prompts. So we should kind of give like
+- [01:10] a goal and it should work towards that
+- [01:12] goal. We're going to introduce something
+- [01:13] else that I call time tasks. I will show
+- [01:16] you that. Uh but we are going to use
+- [01:18] cloud code today. uh and I built some
+- [01:21] MCP servers to help us do research and
+- [01:24] help us execute uh the task we want to
+- [01:27] do while staying inside this uh time
+- [01:30] task window that is going to keep the
+- [01:32] agent running over a longer time
+- [01:34] actually to do a yeah to try to do a
+- [01:37] task and execute some goals we have set.
+- [01:40] So let's start over here in the
+- [01:42] terminal. Let's go to claude right. Uh
+- [01:44] you can see we are in the long agent
+- [01:47] directory here as you can see on top
+- [01:49] here. And for this directory I have
+- [01:51] built some MCP tools. So the tools we
+- [01:55] have these are my global tools Gemini
+- [01:57] and Jitub. You can just ignore those.
+- [01:59] But we have a gro server. Uh the tools
+- [02:02] here is that we can search x.com. We can
+- [02:04] look for handles. We can look for
+- [02:07] popular post. That is some tools we
+- [02:09] have. Or um we have the Reddit server
+- [02:12] that can kind of do the same on Reddit.
+- [02:14] do research, find posts, search for
+- [02:16] post, right, that is on Reddit. And I
+- [02:19] have a tool here called uh Reddit um no
+- [02:22] research display. This is going to
+- [02:24] create like a live up uh real time web
+- [02:27] page that we can compile all the
+- [02:30] research and we can update this in real
+- [02:31] time. You'll kind of see how it works
+- [02:33] when we start this now. So uh we also
+- [02:36] have some other tools. These are kind of
+- [02:38] the builtin tools. If we go to where can
+- [02:41] we see those
+- [02:45] n tora so these are the tools like web
+- [02:48] search fetch and everything so I don't
+- [02:50] need an MCP server to do a web search uh
+- [02:54] so what we want to do now uh you can see
+- [02:56] here is that uh in my claw MD file uh I
+- [03:01] have something called important if you
+- [03:03] are on a timebased task always adhere to
+- [03:06] the time spent on a task also don't ever
+- [03:08] stop working before the time is up.
+- [03:10] Okay, this is a bit important. This is
+- [03:12] the way I like to do uh long running
+- [03:15] tasks. You can there's there's a bunch
+- [03:17] of way to do it, but this is a very
+- [03:18] simple way if you just want to get
+- [03:20] started. So, let's look at my starting
+- [03:23] prompt now. So, here it is. So, you can
+- [03:25] see your next task is timebased. The
+- [03:28] agent should do 5 minutes of research
+- [03:30] using MCP servers and tools and make
+- [03:33] live updates and improvements on the web
+- [03:35] page on the topic Sora 2. Is it's over
+- [03:39] now? I was supposed to do is it over
+- [03:41] now. Okay, so like this uh write an
+- [03:43] in-depth article marks three paragraphs,
+- [03:45] bullet points. Goal is to find a sor 2
+- [03:47] video to embed. Keep updating and
+- [03:50] refining. Don't just add content. Use uh
+- [03:52] update and refine the existing. We have
+- [03:55] adding relevant images and video that
+- [03:57] involves the topic if applicable. The
+- [03:59] time frame for a job like I said 5
+- [04:01] minutes. keep count of this time in a
+- [04:04] background task and hard stop for
+- [04:06] research after 5 minutes. So here we
+- [04:08] kind of have the timebased task. I only
+- [04:10] want agents this time to work for 5
+- [04:12] minutes. We're going to run do a second
+- [04:14] run where I do 10 minutes and we're
+- [04:16] going to check out the differences. So
+- [04:19] I'm just going to start this now and you
+- [04:20] can see what's going to happen now is I
+- [04:22] think the first thing is to start the
+- [04:24] timer. It should be we can just look at
+- [04:27] use like a background batch task here.
+- [04:30] Yeah, we have yeah we have a sleep 300.
+- [04:32] So I'm just going to accept that. And
+- [04:34] you can see down here one background
+- [04:36] task running. So this is counting now to
+- [04:39] 5 minutes. 300 seconds is 5 minutes. And
+- [04:42] here you can see we are already starting
+- [04:44] the tool call. So we are doing web
+- [04:45] search. We are searching for OpenAI
+- [04:48] video generation. So what I can do now
+- [04:50] is I can open up my local host 3000 to
+- [04:54] check out the live server.
+- [04:56] So you can see there's no content here.
+- [04:58] Okay. So here we got the content right.
+- [05:00] So it did a quick update here on the web
+- [05:02] page. Let me just adjust this a bit. So
+- [05:05] you can see Sora 2 is it over now? And
+- [05:09] this made some updates. I guess it's
+- [05:11] kind of behind my head now. You but you
+- [05:13] can see we have done some updates here
+- [05:15] now. Uh yeah in the real time. So you
+- [05:18] can see we are still using Grock here.
+- [05:20] We are going to X looking for
+- [05:22] information. We are doing some Reddit
+- [05:23] searches. So I'm just going to let this
+- [05:26] run now. I'm going to record this so you
+- [05:28] can see the changes in real time and
+- [05:30] I'll come back when the five minutes uh
+- [05:32] has uh completed here.
+- [05:35] [Music]
+- [05:37] Okay. So you can see uh the bash output
+- [05:40] now time is up. So 5 minutes have
+- [05:42] passed. Yes, this worked perfectly. So
+- [05:44] now we kind of adhere to that 5 minute
+- [05:46] research complete and we stopped.
+- [05:48] Perfect. That's what I wanted to see.
+- [05:50] And we have some key findings here. Uh
+- [05:52] unfortunately we couldn't embed an
+- [05:54] actual Sora 2 video. Okay. Uh, that's
+- [05:57] fine, I guess. Uh, let's take a look at
+- [05:59] the results here. So, you can see we
+- [06:02] have the title. Not even close. Sora 2
+- [06:05] just launched and it's already defining
+- [06:06] AI video released 30th of Dece
+- [06:09] September. Calling it the chat Gypty 3
+- [06:11] opponent for video. Okay. So, yeah. Uh,
+- [06:13] this looks to be uh
+- [06:16] legit information. Uh, but it's not very
+- [06:19] good. We didn't get any images and
+- [06:21] stuff, but that was not the point. The
+- [06:23] point was just to test this out and see
+- [06:26] how it works. Uh, now we can use our
+- [06:28] tool to just clear this because we're
+- [06:30] going to do a 10-minute run. Clear
+- [06:32] content. This should trigger the MCP
+- [06:34] tool to actually remove this content,
+- [06:36] right? Because we are running this in
+- [06:38] real time. Yep, there we go. So, now
+- [06:41] we're just going to do I think we're
+- [06:43] just going to clear this, right? And
+- [06:45] we're going to send off the same prompt.
+- [06:48] Uh, but this time it's going to be 10
+- [06:51] minutes.
+- [06:54] So, we just do the same prompt, but we
+- [06:56] changed the timing here. So, I'm going
+- [06:58] to do Yeah, I updated everything to 10
+- [07:01] minutes. And yeah, let's just run it
+- [07:03] again and see if there's any difference
+- [07:06] running this task for 5 minutes uh or 10
+- [07:09] minutes. Okay. Yeah, sleep 600. Perfect.
+- [07:14] Background task is running. Yeah. So,
+- [07:16] again, I'm just going to let this run
+- [07:18] and I'll be right back.
+- [07:20] [Music]
+- [07:26] Okay, so you can see the 10 minutes
+- [07:28] research task was completed. If you
+- [07:30] scroll up here, you can see the bash
+- [07:31] output was uh 10 minutes has elapsed,
+- [07:34] time is up. And again, it adhere to that
+- [07:37] instruction and it just stopped the
+- [07:38] research. So that is perfect. That means
+- [07:40] that we can try to scale this even more.
+- [07:42] We could set 30 minute research task,
+- [07:45] right? And just keep blowing on here.
+- [07:48] And we can just change this setup to
+- [07:50] other stuff. We can do coding, maybe
+- [07:53] some time task on working on a code,
+- [07:55] writing tests, and expanding uh on
+- [07:58] features. Uh yeah, you can see basically
+- [08:02] uh we did pretty much the same, but we
+- [08:03] just spent longer time. So if you look
+- [08:06] at the output, uh I guess it was pretty
+- [08:08] good for me. This was a bit too
+- [08:10] expensive. We added an image, so that
+- [08:12] was a nice touch, but uh this was too
+- [08:15] much information if you ask me. We
+- [08:17] didn't really ask for that. Uh but this
+- [08:19] is just adjustments we can do in the
+- [08:21] prompting, right? Uh the main core idea
+- [08:24] today was to see if we could keep the
+- [08:27] task running for the set time we set,
+- [08:29] right? And maybe for a future video, we
+- [08:32] can do like a coding task that is going
+- [08:35] to be like 30 minutes long just to see
+- [08:37] how that works. uh because if we take a
+- [08:40] look at kind of the statement from open
+- [08:43] from anthropic they said that uh cloud
+- [08:46] 4.5 is a state of the art on the swbench
+- [08:49] verified uh practically speaking they
+- [08:51] observed it maintaining focus for more
+- [08:53] than 30 hours on complex multi-step task
+- [08:57] uh I think you will need a good
+- [08:59] framework for that but maybe it's
+- [09:01] possible I'm not sure how exactly they
+- [09:03] did this uh but we did 10 minutes this
+- [09:06] is 30 hours that's a whole different
+- [09:08] ball game of uh running this long
+- [09:11] running agent task. But um yeah, like I
+- [09:14] said, I hope this was interesting and I
+- [09:16] hope this gave you some ideas on how you
+- [09:18] can start learning playing around with
+- [09:21] uh setting this longunning agent task
+- [09:23] and maybe you can do it time based as I
+- [09:26] did or you can do it goal based. There's
+- [09:28] a lot of ways to choose here. Uh but all
+- [09:30] in all, a very interesting thing and
+- [09:32] it's just going to get more and more of
+- [09:34] this uh implemented into your workflow.
+- [09:37] Uh, at least that's what I think and you
+- [09:39] might as well just start playing around
+- [09:41] with it now so you have some idea uh
+- [09:43] what people talk about when they say
+- [09:45] longunning AI agents. So yeah, thank you
+- [09:48] for tuning in. Have a great weekend and
+- [09:49] we speak

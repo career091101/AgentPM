@@ -1,0 +1,953 @@
+---
+title: "Transcript: TpAMd9Csir8"
+video_id: "TpAMd9Csir8"
+video_url: "https://www.youtube.com/watch?v=TpAMd9Csir8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:31:35"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: TpAMd9Csir8
+
+- URL: https://www.youtube.com/watch?v=TpAMd9Csir8
+- Retrieved at: 2025-12-30T10:59:44+09:00
+
+## Text
+
+- [00:03] [music]
+- [00:07] Hello. [music]
+- [00:08] >> Hello.
+- [00:08] >> Thank you for joining me today.
+- [00:10] >> Thanks, Carrie.
+- [00:10] >> Um, I am Carrie Brriski, vice president
+- [00:13] of generative AI software at NVIDIA and
+- [00:15] I am joined with a man who needs no
+- [00:18] introduction, but we will. Um, a man who
+- [00:21] has the coolest name and an even cooler
+- [00:24] job. So, Constantine Buer, thank you for
+- [00:26] joining me today. You are an AI engineer
+- [00:30] turned venture capitalist and a partner
+- [00:32] at Sequoia. Tell me a little bit about
+- [00:34] what you do.
+- [00:34] >> Well, thank you Carrie for that very
+- [00:36] kind introduction and I did bring my
+- [00:38] mandatory leather jacket uh we get to
+- [00:40] wear here. Yeah, so I'm an engineer by
+- [00:42] training. I learned about it when I went
+- [00:44] to school. I went here out west and
+- [00:47] studied at Stanford. Uh got pretty deep
+- [00:49] into the deep learning revolution in the
+- [00:51] early 2010s. fell in love with this
+- [00:54] concept of massively parallelized and
+- [00:57] sequential compute being able to predict
+- [01:00] almost anything and worked at a couple
+- [01:02] companies in that area. Uh past six
+- [01:04] years I've been at Sequoa.
+- [01:06] >> So you were working with founders who
+- [01:08] are building the future of AI. Um you
+- [01:11] were sort of known for being able to
+- [01:13] predict big technologies over the next
+- [01:15] decade. I think that's kind of
+- [01:17] interesting because uh when you're in
+- [01:19] the AI space it tends to move so fast
+- [01:21] and sometimes even having a road map
+- [01:23] that is one year out let alone a decade
+- [01:26] out. What is your protocol or way of
+- [01:29] thinking to come up with like these big
+- [01:30] visions?
+- [01:31] >> So for me it was it was very simple. I
+- [01:33] knew AI would be a really big important
+- [01:35] trend just from the technology when I
+- [01:37] was in undergrad and grad school. It
+- [01:39] felt like this is something that's going
+- [01:41] to change the world. I wasn't sure exa
+- [01:42] exactly how, you know, a lot of the
+- [01:45] smartest um academics at the time
+- [01:48] thought that it might be more elegant
+- [01:50] models they'd talk about than a raw uh
+- [01:53] unbridled neural network.
+- [01:55] >> And it turns out that wasn't exactly
+- [01:57] true. But I I did know that this idea of
+- [02:00] prediction was incredibly powerful
+- [02:02] because at its core I felt like
+- [02:04] intelligence itself is prediction. There
+- [02:07] was a previous AI hype cycle. this was
+- [02:09] 2017 18 where every company um or many
+- [02:14] many companies claimed to be doing some
+- [02:16] AI and it wasn't really core to what
+- [02:18] they were doing. So I felt like my role
+- [02:20] for my friends would be for the
+- [02:22] technical friends, hey is this a real
+- [02:25] business? And for the non-technical
+- [02:27] friends, for my friends from business,
+- [02:29] hey is this real technology? And that's
+- [02:31] kind of how I
+- [02:33] >> created my little niche in uh the AI
+- [02:36] venture world was companies that are
+- [02:38] real technology and real businesses.
+- [02:41] >> Wow.
+- [02:41] >> So today we're here to talk about open
+- [02:43] source. Uh we're here to talk about
+- [02:45] specialization. We're here to talk about
+- [02:47] the challenges for both of those with
+- [02:49] adopting um Agentic AI and then we're
+- [02:52] also here to talk about innovation and
+- [02:53] investments. And so if I had a timeline
+- [02:55] of this is years and this is adoption of
+- [02:57] of AI or let's talk about just open
+- [02:59] models, right? People really weren't
+- [03:01] adopting them. And then I go to the era
+- [03:03] of 2024 was about rag like retrieval
+- [03:06] augmented generative systems. You start
+- [03:08] to see the pickup of open models and
+- [03:10] frameworks. And then you go into 2025
+- [03:13] with reasoning and just agents. And so
+- [03:15] you see the adoption of of open
+- [03:18] technologies go. Do you think that open
+- [03:20] technology is driving a lot of the
+- [03:23] transparency and adoption of of agents
+- [03:26] today?
+- [03:27] >> Yeah. So I I do generally agree with
+- [03:29] that timeline. You know, I think that
+- [03:31] there's always the future is already
+- [03:34] here. It's not evenly distributed. It's
+- [03:36] old, you know, old ph. I feel like there
+- [03:40] are companies that are now getting there
+- [03:42] and then there are companies that are
+- [03:43] ready on the next thing. Mhm.
+- [03:44] >> So I do think that the timeline you
+- [03:46] outlay is what core enterprises are now
+- [03:49] thinking about. I think that the
+- [03:51] startups are already thinking about
+- [03:52] what's next next. So most of the
+- [03:54] startups that I work with are thinking
+- [03:56] about swarms of agents. So agents
+- [03:58] working together, agents actually making
+- [04:01] decisions with each other or running
+- [04:03] background agents or having that kind of
+- [04:05] communication. Um, yes, definitely open
+- [04:08] source played a key role in that because
+- [04:10] it's a lot easier to be able to take an
+- [04:13] AI into your enterprise when you
+- [04:15] actually control the weights.
+- [04:17] >> And we're really excited about the
+- [04:19] prospect of open source because it gives
+- [04:21] more power to the enterprise and
+- [04:23] ultimately to the consumer. Uh we
+- [04:25] actually have a shared investment
+- [04:26] reflection where we just raised $2
+- [04:29] billion and Nvidia was a participant and
+- [04:32] a wonderful partner in this and uh
+- [04:35] they're building trying to really carry
+- [04:37] the banner of you know the US
+- [04:39] open-source uh development ecosystem
+- [04:42] like that's a really good thing for
+- [04:43] everyone because enterprises can then
+- [04:45] build it into their solution and
+- [04:47] enterprises can now compete and win uh
+- [04:50] with their own workflows not just the
+- [04:52] startups that use closed those source
+- [04:54] APIs.
+- [04:55] >> Two things that you mentioned. One was
+- [04:56] about the communication of agents to
+- [04:58] agents. And I think that um you know you
+- [05:00] and I actually have used this analogy. I
+- [05:02] don't even know we've known that we've
+- [05:03] done this to independently but let's
+- [05:05] talk about it together is that the stage
+- [05:07] of agentic adoption and I always explain
+- [05:10] it as um comparing it to the internet uh
+- [05:12] because you had arponet and then
+- [05:14] internet and then internet and so sort
+- [05:16] of the stages of adoption uh standards
+- [05:18] that needed to be put in place. Do you
+- [05:21] do you kind of see that evolution like
+- [05:23] 2025 isn't the year of agents? We're
+- [05:24] going to have agents to come because
+- [05:26] there still need to be standards. There
+- [05:27] still need Yeah. Could you talk a little
+- [05:29] bit about that?
+- [05:30] >> Totally. So I I I I think there's at
+- [05:32] least three things that are in the way
+- [05:34] of us having really great agents. You
+- [05:36] know, the first is agent memory.
+- [05:39] >> So that is an unsolved problem. Some of
+- [05:40] the great researchers right now are
+- [05:42] trying to figure out agent memory. If
+- [05:44] you think about inter interacting with a
+- [05:46] person like Carrie, you and I have had
+- [05:48] great interactions. If every time you
+- [05:49] met me, I was a different personality,
+- [05:52] >> it would be pretty weird.
+- [05:53] >> Yeah.
+- [05:53] >> Right. With agents, how do you actually
+- [05:55] carry that memory along? Because if
+- [05:58] you're going to be working with an
+- [05:59] entity, an agent, you want it to have a
+- [06:02] persistent memory of you and of itself.
+- [06:05] >> See, I think most people are talking
+- [06:06] about agents having memory of me, not of
+- [06:09] itself. Ah,
+- [06:10] >> because I think people are working a lot
+- [06:12] about um memory in the moment or memory
+- [06:14] per session or you know or or working
+- [06:16] across um key value pairs of KV cache
+- [06:20] across similar
+- [06:21] >> um queries across different people but
+- [06:24] not necessarily that the agent is aware
+- [06:26] of itself and keeping that memory and so
+- [06:29] I think that's really important
+- [06:31] >> totally totally because it's like of
+- [06:33] course you want someone to understand
+- [06:34] you like when you when you interface
+- [06:37] with someone remember their name and
+- [06:38] their family and all those good things
+- [06:39] that feels is really good. But
+- [06:41] consistency of the individual themselves
+- [06:43] is also really important,
+- [06:44] >> right?
+- [06:44] >> You know, think about someone you work
+- [06:46] with uh and they're a really good
+- [06:48] partner and if all of a sudden they were
+- [06:49] dramatically different every day, you
+- [06:50] probably wouldn't want to work with them
+- [06:52] very long. It would be pretty weird.
+- [06:54] Same thing with AI agents. So, this is
+- [06:56] this memory problem is open, but the
+- [06:59] good news is some of the greatest
+- [07:00] researchers are now focused on that.
+- [07:02] >> Do you think that enterprises are going
+- [07:03] to have to fine-tune or or build their
+- [07:06] own AI to stay competitive? Because I I
+- [07:09] think of agents having memory about
+- [07:10] themselves as being fine-tuned or um
+- [07:14] gone through reinforcement learning
+- [07:16] about themselves. So then they become
+- [07:17] who they are rather than having
+- [07:20] >> maybe you're saying memory isn't it's
+- [07:21] been trained in. Is that what you're
+- [07:22] talking about or a different type of
+- [07:23] memory?
+- [07:24] >> I think it's both. You know, we both are
+- [07:27] computer enthusiasts. So I think like
+- [07:29] some of it's going to be like having uh
+- [07:31] the the code that's been loaded into the
+- [07:35] processor itself. Some of it's going to
+- [07:36] be like RAM. Some of it's going to be
+- [07:38] like large storage and you access that
+- [07:39] in different ways, right?
+- [07:41] >> So in this case, yes, some of the models
+- [07:44] will be changed over time. That's one of
+- [07:46] the values of open source where you can
+- [07:48] take those models and basically decide
+- [07:50] which neural pathways to change in which
+- [07:53] direction based on what type of new
+- [07:55] information. That's a technique some
+- [07:56] people are using and it's it's really
+- [07:58] smart. At the same time, rag and vector
+- [08:01] databases and all these other
+- [08:03] techniques, they're not going to be
+- [08:05] forgotten. they're just going to be used
+- [08:07] in different ways,
+- [08:07] >> right?
+- [08:08] >> And there will be other ways of us
+- [08:10] thinking about memory that haven't even
+- [08:12] been brought mainstream yet. That's
+- [08:14] going to be one of the three most
+- [08:16] important things at least in the next
+- [08:18] year for getting AI agents to work. The
+- [08:21] second is communication protocols. You
+- [08:23] know, we've talked a lot about MCP and
+- [08:25] this idea that in order to have agents
+- [08:27] work together, they have to be able to
+- [08:29] talk together. you know, we both speak
+- [08:30] the same language, not only the same
+- [08:33] technical language of English, but a
+- [08:34] similar business language and a similar,
+- [08:36] you know, technical jargon that helps us
+- [08:39] communicate really fluently. AI agents
+- [08:41] are going to have to have something
+- [08:42] similar. And that actually reminds me a
+- [08:44] lot like the internet where in the early
+- [08:47] days you had TCP IP. That wasn't the
+- [08:49] finish line. That was the starting gun.
+- [08:52] >> And then the third is AI security. So
+- [08:54] now that you have agents that have
+- [08:56] memories and are communicating with each
+- [08:58] other, we're going to have to figure out
+- [08:59] ways that they communicate very
+- [09:01] securely. And it's actually Jensen who
+- [09:04] said this in a previous conversation. I
+- [09:07] thought it was pretty awesome. He said,
+- [09:08] "Think about agents as not needing to
+- [09:10] have the same requirements of the
+- [09:13] physical world." So in the physical
+- [09:15] world, you might have one person uh as a
+- [09:18] security guard and a thousand people
+- [09:20] that they're protecting. And that's
+- [09:22] because of physical space and also
+- [09:23] because of cost. But in the future, he
+- [09:26] pointed out maybe you're gonna have a
+- [09:27] thousand security agents around one
+- [09:30] cognitive uh intelligence agent.
+- [09:33] >> And so we have so much to solve in the
+- [09:36] security side of things. Those three
+- [09:38] areas, memory, communication, security
+- [09:41] are all being solved real time and are
+- [09:43] going to yield the agent economy.
+- [09:46] >> You said the agent economy, I love that
+- [09:48] term. we call it digital workers, but
+- [09:50] there's going to be some sort of niche
+- [09:52] market that's built up around new
+- [09:54] frameworks, new uh training types just
+- [09:56] to support this economy, right? Like
+- [09:58] just like we have an economy for humans,
+- [10:00] we're going to have an economy for
+- [10:02] agents. You also, so you talked about
+- [10:04] those three problems. Another problem
+- [10:05] that I see not necessarily for agents,
+- [10:07] but maybe in the people adopting agents
+- [10:09] is evaluation.
+- [10:11] >> So you and I were talking about
+- [10:12] stochastic mindset and determinism. Um,
+- [10:15] talk to me a little bit about because I
+- [10:17] see when when you know we've all heard
+- [10:19] the study about um, you know, 95% of
+- [10:22] pilots don't make it to production. I I
+- [10:24] actually kind of disagree with that
+- [10:25] because I see where where the pilots are
+- [10:27] focusing on uh, targeted use cases or
+- [10:30] specialization, they're actually
+- [10:31] succeeding and getting into production
+- [10:33] and and you know this definition of AI
+- [10:35] of what's done or what we're used to and
+- [10:37] what goes into production people tend to
+- [10:39] forget about. Uh so we can we can talk a
+- [10:41] little bit about that but talk about
+- [10:43] this stochastic mindset and evaluations.
+- [10:45] >> Sure. So I'll I'll answer a little on
+- [10:47] the stocastic mindset and then I'll
+- [10:48] share how I'm seeing evals evolve over
+- [10:51] time.
+- [10:52] >> Um so in stocastic mindset the idea is
+- [10:54] that we're changing how compute's
+- [10:57] happening and and frankly you guys have
+- [10:58] been at the forefront of changing how
+- [10:59] compute's happening for decades now and
+- [11:02] this type of compute is no longer fully
+- [11:04] deterministic. It is stochcastic. So
+- [11:07] there's some randomness in the system.
+- [11:09] And for those EES out there, I know
+- [11:11] nothing is fully deterministic, right?
+- [11:13] Even even uh historical types of
+- [11:15] compute, but pretty close to
+- [11:16] deterministic. If you and I put the
+- [11:18] number 37 in a spreadsheet and we check
+- [11:21] that spreadsheet tomorrow, it would
+- [11:23] almost certainly be the number 37. But
+- [11:25] the way AI works is a lot more like
+- [11:27] humans. So if I said, "Hey Carrie, you
+- [11:29] know, can you remember the number 37 for
+- [11:31] me?" and I check back in in 6 months or
+- [11:35] a week. Um, you're really really smart.
+- [11:37] So, you remember 37, but maybe the
+- [11:39] average person might also remember 73 or
+- [11:42] 38 or 36. The point is there's a
+- [11:45] distribution of how that memory is
+- [11:46] stored.
+- [11:47] >> Okay? Right?
+- [11:48] >> And over time, it probably gets worse
+- [11:49] and worse.
+- [11:50] >> And that kind of change is a difference
+- [11:53] in how you interface with a computer.
+- [11:55] >> So, it's going to be a lot more like
+- [11:56] interfacing with people, which is mostly
+- [11:59] a good thing. I love people. I think you
+- [12:01] do too. Like we're we're people people,
+- [12:03] but there's challenges where people, you
+- [12:06] know, forget things in certain ways or
+- [12:08] there's randomness in certain ways that
+- [12:10] aren't true of computers.
+- [12:12] >> And so therefore, when we expect or
+- [12:14] evaluate or retrain to keep agents up to
+- [12:17] date, we have to think about this.
+- [12:18] >> Definitely. Absolutely. And and I'll
+- [12:21] I'll share one way we're seeing this
+- [12:23] happen in the industry, but I want I'd
+- [12:24] love to hear how you are seeing it
+- [12:26] because you talked to the biggest
+- [12:27] enterprises that are doing this. You
+- [12:29] know, one thing I've noticed in the
+- [12:31] startups is we've moved from academic
+- [12:33] evals to real world evals. So, we work
+- [12:36] with a company called Expo. They set out
+- [12:39] to build the most the most effective AI
+- [12:43] hacker in the world, basically
+- [12:44] penetration testing. Uh, can you find
+- [12:47] vulnerabilities in in a software
+- [12:49] platform?
+- [12:50] >> And they said, "Hey, how do we show that
+- [12:52] AI can be so good at finding
+- [12:55] vulnerabilities?" So they said instead
+- [12:57] of academic benchmarks, which they did
+- [12:58] and they succeeded in, we're going to go
+- [13:00] out into the real world. And they
+- [13:01] registered on Hacker 1, which is the
+- [13:04] leaderboard for all things hacking
+- [13:06] globally, and they started competing to
+- [13:08] find vulnerabilities. And within a few
+- [13:11] months, they ranked number one in the
+- [13:12] world.
+- [13:13] >> So the number one hacker on hacker one
+- [13:14] in the world is an AI, which is
+- [13:17] simultaneously scary and exciting.
+- [13:19] >> I mean, all technology for the for all
+- [13:21] of history is people have used
+- [13:22] technology for good and bad. And so if
+- [13:24] you're using AI to do bad things, you
+- [13:26] need to combat bad things with
+- [13:28] >> AI. It's the only way. Yeah.
+- [13:30] >> Exactly. Which is why with this company,
+- [13:32] I get to work with them. It feels
+- [13:35] national security level important
+- [13:38] >> because without question, you're right.
+- [13:40] The bad guys have also seen this and
+- [13:42] they're taking action on it for sure.
+- [13:45] And so the response isn't to put our
+- [13:47] head in the sand. It's to say, hey, we
+- [13:50] have to be even better. We have to find
+- [13:52] these vulnerabilities before the bad
+- [13:54] guys do. We have to patch them. Our job
+- [13:57] is even harder. So for a company like
+- [13:59] that, I think it's amazing what they've
+- [14:01] done, not just because of the impact,
+- [14:03] but because they said, "We're going to
+- [14:04] evaluate this not just on an academic
+- [14:06] benchmark, but in the real world
+- [14:09] >> for specialized AI, I foresee,
+- [14:12] especially for agents, is this
+- [14:13] reinforcement learning and the amount of
+- [14:15] gyms." And so when you talk about this
+- [14:16] evaluation benchmark, you're going off
+- [14:18] and letting the AI train in an
+- [14:21] environment or learn through an
+- [14:22] environment or learn through doing and
+- [14:24] then taking all that and reinforcing it
+- [14:25] back in. And so the more gyms just like
+- [14:28] the more we work out, the more we
+- [14:30] exercise or the more um variations on
+- [14:32] scenarios that we're put into, the
+- [14:34] better we are at engaging in new new uh
+- [14:37] new scenarios, new systems, new input.
+- [14:40] >> Totally. Um and so I foresee like new
+- [14:43] new studios, new gyms, new RL
+- [14:45] environments um specifically for
+- [14:49] specialized
+- [14:50] um niche domains. And why do I say that?
+- [14:53] So I think um when we look at what has
+- [14:56] been successful has been coding agents
+- [14:58] right now, right?
+- [14:59] >> Um I think that's because the verifiers
+- [15:03] are very simple
+- [15:04] >> because the code compiles or not. You're
+- [15:06] able to reinforce that learn, right? You
+- [15:07] have a lot of people who code and they
+- [15:08] can say yes, that was right. That's good
+- [15:10] code, that's not. Now, when you get into
+- [15:12] >> I'm calling it like sort of this last
+- [15:14] mile of expertise. When you get into an
+- [15:17] enterprise or or a specific domain like
+- [15:19] you were just talking about of where you
+- [15:21] have experts and expert knowledge, the
+- [15:24] verifiers become very hard because
+- [15:26] they're either expensive or there's
+- [15:27] people that can verify need to be doing
+- [15:29] their job rather than verifying an AI.
+- [15:32] Um and so I think that uh synthetic data
+- [15:35] generation is going to become really
+- [15:36] important there because you have
+- [15:38] >> high quality seed data to create
+- [15:40] specialized AI. Um you also need again
+- [15:43] to be able to create the the verifier
+- [15:45] and and again code is yes or no or math
+- [15:47] the answer is right or wrong.
+- [15:49] >> That doesn't it's not so easy when the
+- [15:50] verifier is like it depends or it's
+- [15:53] close but not that right. So you
+- [15:55] obviously work with all these startups.
+- [15:57] Um, is there a field where you see that
+- [15:59] people are getting more into kind of
+- [16:00] moving up the stack, moving away from
+- [16:02] models, building models more around the
+- [16:04] agents and these verifiers or gyms or
+- [16:07] environments for which models can train
+- [16:09] better for specialized AI?
+- [16:12] >> I think what you said was really really
+- [16:14] a great point. Um, and and I've actually
+- [16:16] been wrestling with this concept for a
+- [16:18] while. You know, how what what is the
+- [16:21] gatekeeper for progress in AI? And I
+- [16:24] think what you said which is being able
+- [16:25] to verify it quickly is is a brilliant
+- [16:27] point.
+- [16:28] >> Um and it's so true of code. It it's
+- [16:30] it's so true of code because you can see
+- [16:33] it compiles but then you can just build
+- [16:35] it and look at it and then run unit
+- [16:37] tests and you can iterate fast enough
+- [16:40] that the stochcastic nature of AI
+- [16:44] doesn't prevent you from making
+- [16:46] progress. In fact, it's fine. You know,
+- [16:48] you can just go quickly enough. It's
+- [16:49] harder in other areas. So I'll give an
+- [16:53] example. Um you know my my wife is a
+- [16:56] surgeon. Um so she does you know it it's
+- [16:59] a high consequence field. Um and you
+- [17:03] know she she does a specific kind of
+- [17:06] surgery that like you got to get right.
+- [17:08] Um so the importance of verification is
+- [17:10] extremely high there. Um there are other
+- [17:13] parts in the process that the
+- [17:15] verification is much quicker. So she
+- [17:18] might use AI for scribing. uh when she's
+- [17:21] talking to a patient, uh taking all the
+- [17:24] notes, allowing her to speak to the
+- [17:25] patient, allowing her to focus on that.
+- [17:27] She might use, you know, a company like
+- [17:29] a bridge for that. She might use a
+- [17:31] company like Open Evidence for doing
+- [17:33] research and answering questions that um
+- [17:36] that a patient has. That's an area of
+- [17:39] where it's going into um an application
+- [17:42] that is actually really hard to verify,
+- [17:45] but she has so much expertise she can
+- [17:48] then read it, accept the notes, accept
+- [17:50] the conclusion, and then move on. And by
+- [17:53] the way, that makes the models better,
+- [17:54] too.
+- [17:55] >> That's right. And so we might think of
+- [17:57] scribing as not as um as needing
+- [18:00] expertise, but you actually do because
+- [18:02] it's the language, it's the jargon, it's
+- [18:04] the technical expertise of the words
+- [18:05] that you're saying or accurate about a
+- [18:08] patient or what might be happening,
+- [18:10] right? And so
+- [18:10] >> definitely
+- [18:11] >> what do you see enterprises mostly
+- [18:13] wanting like when they when they come to
+- [18:15] you and they say we need generative AI,
+- [18:17] which they definitely do,
+- [18:18] >> you know, to not fall behind. How do
+- [18:21] they think about the use cases that are
+- [18:24] reasonable and verifiable and how how do
+- [18:27] you guide them through that?
+- [18:28] >> I think for whatever use case they're
+- [18:30] coming to, they want the most accurate
+- [18:32] model on the tiniest cost of ownership
+- [18:37] and it's a really tough trade-off,
+- [18:38] right? They want high accuracy u but
+- [18:41] they want it uh on a small footprint,
+- [18:44] but they want it on their own data. They
+- [18:46] want it private. um and they don't want
+- [18:49] to send their IP or intellectual
+- [18:50] property and private information out of
+- [18:53] their their data.
+- [18:54] >> I sent this input to my partnership a
+- [18:56] couple years ago when we had these big
+- [18:58] big models. I said at some point, you
+- [19:00] know, it's going to become about
+- [19:01] distillation, which is this concept of
+- [19:03] taking those big models and then making
+- [19:04] them much more efficient. So, usually
+- [19:08] much smaller and then focused on a
+- [19:09] domain.
+- [19:10] >> And I feel like we're still in the
+- [19:12] bigger bigger bigger model, you know,
+- [19:14] part of the cycle. But I do think the
+- [19:18] smart enterprises say well I need this
+- [19:20] to be cost effective. I need this to be
+- [19:22] efficient. I need it to be fast. And the
+- [19:25] best way to do that is that kind of
+- [19:26] distillation.
+- [19:27] >> There's distillation. There's looking at
+- [19:29] model architecture. There's all kinds of
+- [19:31] ways of of making models more efficient.
+- [19:33] I think honestly if you if you look at
+- [19:35] model development just like u any
+- [19:37] regular software development platform
+- [19:39] like you kind of demystify it for a
+- [19:41] second. You're always you're writing
+- [19:43] code, you're compiling it, you're
+- [19:44] putting it out to run. Totally. And so
+- [19:46] when you're building models, you're
+- [19:47] getting the data, you're retraining,
+- [19:49] you're putting it out there. So no
+- [19:50] software application is just ever out
+- [19:52] there and done. You have bugs, you have
+- [19:54] feature requests, you have to, you know,
+- [19:56] you have to improve it and then write
+- [19:58] the code, recompile, re-release. And so
+- [20:00] I think that that and with every
+- [20:01] release, it's not just about the
+- [20:03] features, it's also about optimization,
+- [20:05] you know, the most performance that
+- [20:06] you're getting out of uh the the
+- [20:08] software at runtime. And so if you think
+- [20:10] about model development just as a new
+- [20:12] software development platform, it kind
+- [20:14] of takes the scariness out of it and
+- [20:16] understands that hey, you want to get
+- [20:18] your MVP. You want to get your MVP right
+- [20:20] and then you can optimize over time. And
+- [20:22] that's
+- [20:23] >> well said. I couldn't agree more. That
+- [20:25] makes a lot of sense.
+- [20:26] >> Okay. So we talked about challenges. You
+- [20:28] talked about persistent identity,
+- [20:30] seamless communication security. Um how
+- [20:33] can open source contribute or accelerate
+- [20:36] solving those challenges?
+- [20:38] So I think something like communication
+- [20:41] protocols have to be open source
+- [20:43] >> because definitionally you know many
+- [20:46] applications have to participate. I
+- [20:48] could see a world where memory and
+- [20:51] security are closed source.
+- [20:53] >> Um
+- [20:54] memory there are benefits to open source
+- [20:58] but you we store memory differently in
+- [21:01] different context software memory and
+- [21:04] security is also pretty proprietary. But
+- [21:06] I think the area that open source will
+- [21:08] be most critical to is having these base
+- [21:11] models to go build on of course which we
+- [21:13] get to work on together which is amazing
+- [21:15] and then separately communication
+- [21:17] protocols. How are models going to talk
+- [21:19] to each other?
+- [21:20] >> Okay. So I want you talked about working
+- [21:22] together. So I'm going to talk about
+- [21:23] investment innovation and we we talked a
+- [21:26] lot about agents. we talk about model
+- [21:27] training and so I think a lot of the
+- [21:30] capital investments are moving from this
+- [21:31] model space to like up the stack to more
+- [21:34] of the agentic space so the agent layer
+- [21:38] >> what is driving that shift what do you
+- [21:39] see why do you think that's happening
+- [21:41] >> I think it's because at the end of the
+- [21:43] day it's all about people
+- [21:45] >> no matter what it's always all about
+- [21:48] people and you as enterprise leader here
+- [21:51] probably know that better than anyone
+- [21:52] it's it's a always a people problem it's
+- [21:54] always a people opportunity And that's
+- [21:57] why we're shifting from the model layer
+- [21:58] more and more to the application layer.
+- [22:00] So I'll give a concrete example and this
+- [22:02] is an example of going from you know
+- [22:04] model layer to automated model to human
+- [22:07] in the loop model. I work with a company
+- [22:09] or portfolio called rocks rox and they
+- [22:12] are building an agent operating system.
+- [22:14] I think Nvidia uses them. Um, and they
+- [22:18] have basically built a technology that
+- [22:19] helps instead of a base layer, you know,
+- [22:23] right out of undergrad automation of
+- [22:26] some salesperson, they want to have the
+- [22:27] best sellers sell even more effectively.
+- [22:30] >> And so they connect with models and they
+- [22:33] might do a lot of research ahead of a
+- [22:35] meeting or draft some material for
+- [22:38] follow-up to a meeting. They introduce a
+- [22:41] feature that allows for emailing. So, if
+- [22:43] you're an executive, you had a meeting,
+- [22:44] you're sending a follow-up email. And
+- [22:46] like a lot of teams, they started by
+- [22:48] offering that as an auto send.
+- [22:51] >> So, we've created the model and were
+- [22:52] able to to send it. Um, but they
+- [22:55] realized that they actually could get
+- [22:58] much higher conversion if they brought
+- [23:00] the seller back in the loop.
+- [23:01] >> So, the seller now is able to edit every
+- [23:04] email before it gets sent. Kind of like
+- [23:06] that idea of, you know, the human
+- [23:08] supervising or or verifying. and return
+- [23:11] emails went up 3x.
+- [23:13] >> So materially higher here.
+- [23:16] >> And that story gives the essence of
+- [23:17] what's going on.
+- [23:18] >> You know, the essence of going what's
+- [23:20] going on is at the end of the day, this
+- [23:22] is all about people. And especially in
+- [23:25] something like selling, it's about
+- [23:27] people. And so the idea of cutting
+- [23:30] humans out of the loop is just naive.
+- [23:32] And the idea of if you really want to
+- [23:33] help the best people do better,
+- [23:35] integrate them in quickly, have AI help
+- [23:38] them, build into their workflow, and
+- [23:40] you'll have the best possible product.
+- [23:42] >> And I think that that's building in
+- [23:44] trust,
+- [23:44] >> right? It's it's a trust layer. And I've
+- [23:47] heard you talk about before like the
+- [23:48] definition of of AI because it, you
+- [23:50] know, at one point, you know, computer
+- [23:52] vision, oh, that's not AI anymore
+- [23:53] because it's already happened. I trust
+- [23:55] it. You know, I get that you're pointing
+- [23:56] out whether it's a chi chihuahua or a
+- [23:58] blueberry muffin. Like I
+- [24:00] >> I love that era. I love when you were
+- [24:01] talking about computer vision. I was
+- [24:03] like people still underestimate how
+- [24:04] awesome computer vision is.
+- [24:06] >> It is. It is. But putting it all
+- [24:08] together, it's still really hard, right?
+- [24:09] So the visual understanding and the and
+- [24:12] the language and speech and audio and
+- [24:13] using it all together. And so maybe that
+- [24:15] we always keep moving the bar for what
+- [24:18] is AI and Right. And so
+- [24:20] >> totally
+- [24:21] >> but it's always about people.
+- [24:23] >> Always.
+- [24:24] >> Yeah.
+- [24:24] >> Always. I I feel like you and I were
+- [24:26] talking about this beforehand where AI
+- [24:28] is such a tortured name for the industry
+- [24:31] where it's it's you're naming it
+- [24:33] intelligence and by definition people
+- [24:36] will consider intelligence whatever the
+- [24:39] machine can't do. [snorts]
+- [24:40] >> So as soon as the machine does it
+- [24:42] they'll start to forget it as being
+- [24:44] intelligence.
+- [24:46] >> And I I already see this in tasks. I
+- [24:48] mean, when you and I were getting into
+- [24:50] AI, you know, 10 plus years ago, the
+- [24:54] idea that a computer could understand
+- [24:56] the difference between a Chihuahua and a
+- [24:57] blueberry muffin was awesome. It was
+- [25:00] awesome. [laughter]
+- [25:01] It was a huge deal.
+- [25:03] >> And now that artificial intelligence is
+- [25:05] relegated to the field of computer
+- [25:07] vision.
+- [25:07] >> Yeah.
+- [25:08] >> You know, even self-driving cars, I'm
+- [25:09] now seeing you self-driving cars are on
+- [25:11] the streets of San Francisco.
+- [25:13] >> And I don't really hear a lot of people
+- [25:14] talking about it as mind-blowing AI.
+- [25:16] Yeah,
+- [25:16] >> they're just calling it autonomy or
+- [25:18] autonomous vehicles.
+- [25:19] >> So, with every era of AI, it eventually
+- [25:22] gets pushed back. Uh, and that's my job,
+- [25:25] too, to be, hey, what can be that next
+- [25:27] form of AI that's going to make the
+- [25:30] world feel like it's magic?
+- [25:31] >> You just had the best lead into my next
+- [25:33] question was where where will we see the
+- [25:36] next big wave of innovation? Ah um I
+- [25:39] feel like you guys are all over this
+- [25:41] which is um I think world models are
+- [25:44] going to be extremely exciting and you
+- [25:46] know I'll go a very base layer kind of
+- [25:48] like you were talking about of the
+- [25:49] progression over time. AI generally
+- [25:52] moves from less data intensive to more
+- [25:54] data intensive over time. And you know,
+- [25:56] we had eras of AI that were numbers in
+- [25:58] and numbers out and the generative AI
+- [26:00] text in text out era. And then we've
+- [26:03] gotten pretty good at images and we're
+- [26:05] getting pretty darn good at videos. And
+- [26:07] in between those two, we got really good
+- [26:08] at voice. So basically richer and more
+- [26:10] intensive data types. Um, logically,
+- [26:13] what comes next? Well, of course, we're
+- [26:15] gonna have voice get really good in the
+- [26:17] next year or two and video and all of
+- [26:19] that, but then what starts to ramp is
+- [26:22] world models. These are extremely data
+- [26:24] intensive.
+- [26:25] >> You know, it's the whole space around us
+- [26:28] >> and streaming in like all the data
+- [26:30] streaming into us at all times whether
+- [26:33] >> totally we accept it or not.
+- [26:35] >> 100%. Absolutely. And and then it gets
+- [26:38] really philosophical like how do you
+- [26:40] perceive the world and do you perceive
+- [26:42] it as we all have mental models that
+- [26:44] we're testing against or do you perceive
+- [26:45] it as you know our eyes and senses are
+- [26:47] constantly streaming in new data. I'm
+- [26:50] probably the former actually of how I I
+- [26:53] think we perceive the world.
+- [26:55] >> In any case it becomes about that and
+- [26:58] then from there once we have those good
+- [27:00] world models we can do amazing things. I
+- [27:02] think that's actually going to be the
+- [27:04] base layer for all this robotic
+- [27:05] opportunity. Uh that will be tr truly
+- [27:07] massive.
+- [27:08] >> That's amazing. We always try and work
+- [27:09] on the hardest problem, the biggest
+- [27:12] workload, right? We always say that if
+- [27:14] you want to go to the moon, Nvidia will
+- [27:15] take you there. If you want to walk
+- [27:16] across the street, you're on your own.
+- [27:18] >> That's awesome. That's funny. Okay. So,
+- [27:21] companies who um are moving fast and
+- [27:23] you're working with th those companies,
+- [27:25] they seem to iterate often and it sort
+- [27:27] of um reminds me of the design thinking
+- [27:29] approach where you want to fail fast or
+- [27:31] iterate often, pivot if you need to.
+- [27:33] >> And if you were to talk to um a leader
+- [27:36] today or a new founder that that you're
+- [27:38] just talking to and you're going to give
+- [27:39] them advice,
+- [27:40] >> how would you tell them to adopt that
+- [27:42] mindset or would you tell them to adopt
+- [27:43] that mindset at all?
+- [27:44] >> Okay. So, I feel like this is a very
+- [27:45] safe place for a very nerdy technical
+- [27:48] analogy here.
+- [27:49] >> Absolutely.
+- [27:49] >> Okay. Excellent. Which is I do believe
+- [27:52] that you should iterate incredibly
+- [27:53] quickly. And I get inspiration from
+- [27:56] gradient descent algorithms or just
+- [27:58] invert it and call it gradient ascent
+- [28:00] algorithms. And you know whether it's a
+- [28:03] truly stocastic gradient descent
+- [28:04] algorithm or batches where you get a
+- [28:06] bunch of information and then update it.
+- [28:08] I think that's the best way to build a
+- [28:10] company.
+- [28:10] >> Yeah.
+- [28:11] >> So you know you you don't know all the
+- [28:13] information. Nobody knows all the
+- [28:14] information in the market because the
+- [28:16] beauty is the vast majority of that
+- [28:18] information lives in other people's
+- [28:19] brains.
+- [28:21] >> You know, they they know what their
+- [28:23] preferences are and the whole point of
+- [28:25] the market is to serve other people.
+- [28:27] >> So, we'll never know all the information
+- [28:29] even if we have a perfect world model.
+- [28:31] We'll still only have some estimates.
+- [28:34] So, it's the job of the founder to
+- [28:36] gather as much information as possible,
+- [28:37] a batch of new information, and then run
+- [28:39] a stocastic gradient ascent
+- [28:41] >> and try to find something new. So then
+- [28:43] that begs the question in this super
+- [28:46] hyperdimensional universe with all of
+- [28:47] these you know hills and convex uh hills
+- [28:52] in this dimension in the space how do
+- [28:54] you find the highest one to climb and
+- [28:56] Nvidia did like that I think that
+- [28:58] ultimately happened you guys said we're
+- [29:00] going to think about all of compute and
+- [29:01] a new way of computing and acceleration
+- [29:04] at light speed that is a huge mountain
+- [29:06] to climb so you picked a a great
+- [29:08] starting place and it took many many
+- [29:10] many years to climb that I'd encourage
+- [29:12] founders to pick a starting place that's
+- [29:14] worthy of them.
+- [29:16] >> Like pick something that is sufficiently
+- [29:20] exciting, big, challenging that if you
+- [29:24] do succeed, it was worth it.
+- [29:25] >> Big, big reward. Yeah.
+- [29:27] >> What do you see from startup founders
+- [29:29] selling in enterprises? Do you feel like
+- [29:31] they're iterating too fast, breaking
+- [29:33] things, or going the right speed?
+- [29:36] >> I think enterprises are a completely
+- [29:38] different world. um not that they're
+- [29:40] second movers per se, but I definitely
+- [29:42] think that they have more risk. They
+- [29:45] have legacy systems. They have data
+- [29:46] [clears throat] locked in legacy
+- [29:47] systems. So that curve of adoption is
+- [29:50] taken slower for enterprises because
+- [29:52] they were figuring out how to integrate
+- [29:54] something as fastm moving as AI, right?
+- [29:58] I think that enterprises
+- [30:00] aren't moving as fast as say the startup
+- [30:03] world but they definitely get their
+- [30:05] influence from the community from open
+- [30:08] source from the startup world they look
+- [30:10] to that to see where again what is
+- [30:12] everybody working on and what do I need
+- [30:14] to adopt that's why I think enterprise
+- [30:17] >> uh hasn't adopted generative AI like the
+- [30:20] way that we wanted them to within the
+- [30:22] last year but I think now that it's
+- [30:24] become easier to to fine-tune and
+- [30:26] specialize easier to um generate data
+- [30:29] through synthetic data generation and
+- [30:31] easier to evaluate or put through these
+- [30:33] reinforcement learning environments that
+- [30:35] they're going to be able to start to
+- [30:36] really specialized per domain. I think
+- [30:38] some enterprises started thinking like
+- [30:40] this one model is going to solve the
+- [30:41] world and there's not one model to rule
+- [30:43] them all. There's many smaller models or
+- [30:46] different sizes of models. It's systems
+- [30:49] of models to actually achieve a use
+- [30:50] case.
+- [30:51] >> I feel like we speak the same language
+- [30:52] here. I think a lot of it comes just
+- [30:54] from being from having been in other are
+- [30:56] eras of AI
+- [30:58] >> where you've noticed yes it seems at
+- [31:00] some point that one model will be able
+- [31:02] to do everything and always
+- [31:05] it turns out that a specialized model
+- [31:08] ends up doing the thing better. Mhm.
+- [31:10] >> Um there might be one like you said to
+- [31:13] start you to get things going to start
+- [31:15] training to kick things off,
+- [31:17] >> but turns out specialization
+- [31:20] >> is a superpower
+- [31:21] >> and I feel like that's going to continue
+- [31:23] to happen in the Gen AI realm.
+- [31:25] >> Me too. [music] Well, that's all the
+- [31:27] questions I had today. Thank you for
+- [31:29] coming to our headquarters and having
+- [31:32] [music] this glass of water with me.
+- [31:34] >> Amazing. Yes, it was strong glass of
+- [31:35] water. Cheers.

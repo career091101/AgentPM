@@ -1,0 +1,395 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=mcxeEUC5B4M"
+video_id: "mcxeEUC5B4M"
+video_url: "https://www.youtube.com/watch?v=mcxeEUC5B4M"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "marketing", "PMF", "AI", "investment", "funding", "product_development", "growth"]
+topics: ["成長戦略", "プロダクト開発", "資金調達", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=mcxeEUC5B4M
+  - Retrieved at: 2025-12-30T16:10:09+09:00
+  - [00:00] But I do think that uh overall the
+key_points:
+  - "- [01:00] ways away from that and that we should"
+  - "- [01:12] existing pre-existing quote I should say"
+  - "- [02:05] well is it's uh you should think of it"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: mcxeEUC5B4M
+
+- URL: https://www.youtube.com/watch?v=mcxeEUC5B4M
+- Retrieved at: 2025-12-30T16:10:09+09:00
+
+## Text
+
+- [00:00] But I do think that uh overall the
+- [00:01] models are are um they're not there. And
+- [00:04] I kind of feel like the industry it's
+- [00:05] it's um it's over it's it's making too
+- [00:10] big of a jump and it's trying to pretend
+- [00:12] like this is amazing and it's not. It's
+- [00:14] slop and I think they're not coming to
+- [00:16] terms with it and maybe they're trying
+- [00:17] to fund raise or something like that.
+- [00:19] I'm not sure what's going on, but so
+- [00:20] yeah, that's Andre Karpathy, former
+- [00:23] Tesla AI chief and one of the founding
+- [00:26] engineers at OpenAI. And in this new
+- [00:29] interview, he basically tears down the
+- [00:31] current state of AI, calling it
+- [00:33] overhyped slop, but then goes on to
+- [00:36] explain what real intelligence will
+- [00:39] actually look like and why we might
+- [00:41] actually be losing control of it slowly.
+- [00:44] Let's get into it. All right. So, one of
+- [00:46] the first things they talk about is the
+- [00:48] hype around AI agents. 2025 was supposed
+- [00:52] to be the year of agents, the year
+- [00:55] agents begun doing actual work, but
+- [00:58] Karpathy believes we are still a long
+- [01:00] ways away from that and that we should
+- [01:03] actually be framing it as the decade of
+- [01:05] agents instead. Check this out.
+- [01:07] >> So, the quote that you've just
+- [01:09] mentioned, it's the decade of agents.
+- [01:10] That's actually a reaction to an
+- [01:12] existing pre-existing quote I should say
+- [01:13] where I think a lot of some of the labs
+- [01:15] I'm not actually sure who said this but
+- [01:17] they were alluding to this being the
+- [01:18] year of agents
+- [01:19] >> u with respect to LLMs and uh how they
+- [01:21] were going to evolve and I think um
+- [01:24] >> I was triggered by that because I feel
+- [01:25] like there's some overpredictions going
+- [01:27] on in the industry and uh in my mind
+- [01:29] this is really a lot more accurately
+- [01:31] described as the decade of agents and we
+- [01:33] have some very early agents that are
+- [01:34] actually like extremely impressive and
+- [01:36] that I use daily uh you know cloud and
+- [01:38] codeex and so on but I still feel like
+- [01:40] there's uh so much work to be done and
+- [01:42] so I think my like my reaction is like
+- [01:44] we'll be working with these things for a
+- [01:45] decade they're going to get better uh
+- [01:47] and uh it's going to be wonderful but I
+- [01:49] think I was just reacting to the
+- [01:51] timelines I suppose of the of the uh
+- [01:53] implication
+- [01:54] >> and what do you think will take a decade
+- [01:56] to accomplish what are the bottlenecks
+- [01:58] >> well um actually make it work so in my
+- [02:01] mind I mean when you're talking about an
+- [02:02] agent I guess or what the labs have in
+- [02:04] mind and what maybe I have in mind as
+- [02:05] well is it's uh you should think of it
+- [02:06] almost like an employee or like an
+- [02:08] intern that you would hire to work with
+- [02:09] you uh so for example, you work with
+- [02:10] some employees here. Um, when would you
+- [02:13] prefer to have an agent like Cloud or
+- [02:14] Codeex uh do that work? Like currently,
+- [02:16] of course, they can't. Uh, what would it
+- [02:18] take for them to be able to do that? Why
+- [02:19] don't you do it today?
+- [02:20] >> And the reason you don't do it today is
+- [02:22] because they just don't work. So, uh,
+- [02:23] like they don't have enough
+- [02:24] intelligence. They're not multimodal
+- [02:26] enough. They can't do computer use and
+- [02:27] all this kind of stuff. And they don't
+- [02:29] do a lot of the things that you've
+- [02:30] alluded to earlier. You know, they don't
+- [02:31] have continual learning. You can't just
+- [02:33] tell them something and they'll remember
+- [02:34] it. And they're just cognitively
+- [02:36] lacking. And it's just not working. And
+- [02:38] I just think that it will take about a
+- [02:39] decade to work through all of those
+- [02:40] issues.
+- [02:40] >> Interesting.
+- [02:41] >> So, a decade definitely sounds like a
+- [02:43] long time, especially with how fast AI
+- [02:46] has been progressing in other areas,
+- [02:48] like say video generation. But like he
+- [02:51] said, agents aren't just tools. They're
+- [02:54] supposed to be more like good
+- [02:56] co-workers, ones that actually
+- [02:58] understand what to do, are reliable, and
+- [03:01] just work. And right now, they just
+- [03:04] don't. Carpathy says coding models have
+- [03:07] some of these same issues, too, even
+- [03:09] though he uses them regularly. One of
+- [03:11] the biggest problems is that they're not
+- [03:13] good at writing or debugging code
+- [03:15] they've never seen before. In other
+- [03:17] words, they still can't really
+- [03:18] generalize. And this is when he calls it
+- [03:21] overhyped slop. Take a look.
+- [03:24] >> It's It's tough. I think they kind of
+- [03:26] know. They kind of know, but they don't
+- [03:27] fully know. and they don't know how to
+- [03:28] fully integrate it into the repo and
+- [03:30] your style and your code and your place
+- [03:31] and some of the custom things that
+- [03:32] you're doing and
+- [03:33] >> and uh how it fits with all the
+- [03:35] assumptions of the repository and all
+- [03:36] this kind of stuff. So I think they do
+- [03:38] have some knowledge but
+- [03:40] >> um they haven't gotten to the place
+- [03:41] where they can actually integrate it,
+- [03:43] make sense of it uh and so on. I do
+- [03:45] think that a lot of the stuff by the way
+- [03:47] continues to improve. So um I think
+- [03:49] currently probably state-of-the-art
+- [03:50] model that I go to is the GPT5 Pro um
+- [03:52] and uh that's a very very powerful
+- [03:54] model. So if I actually have 20 minutes,
+- [03:56] I will copy paste my entire repo and I
+- [03:57] go to GPT5 Pro, the Oracle for like some
+- [04:00] questions and often it's not too bad and
+- [04:02] surprisingly good compared to what
+- [04:03] existed a year ago.
+- [04:04] >> Yeah.
+- [04:05] >> Um but I do think that uh overall the
+- [04:07] models are are um they're not there and
+- [04:10] I kind of feel like the industry it's
+- [04:11] it's um
+- [04:13] >> it's over it's it it's making too big of
+- [04:16] a jump and it's trying to pretend like
+- [04:18] this is amazing and it's not. it slop
+- [04:21] and I think they're not coming to terms
+- [04:22] with it and maybe they're trying to fund
+- [04:24] raise or something like that. I'm not
+- [04:25] sure what's going on but it's we're at
+- [04:27] this intermediate stage. The models are
+- [04:28] amazing. They still need a lot of work.
+- [04:30] For now autocomplete is my sweet spot,
+- [04:33] >> but sometimes for some types of code I
+- [04:35] will go to an agent.
+- [04:36] >> So he's being brutally honest here.
+- [04:38] Something we don't often see in the AI
+- [04:40] space. But he doesn't just stop at
+- [04:43] calling it slop. He actually explains
+- [04:45] why current models are stuck like this
+- [04:48] and what needs to change. According to
+- [04:50] Cararpathy, the problem isn't that
+- [04:52] models aren't big enough. It's that
+- [04:54] they're too focused on memorizing
+- [04:56] everything instead of actually just
+- [04:58] thinking. He calls the solution a
+- [05:00] cognitive core. Basically, a smaller,
+- [05:03] smarter model that learns to think, not
+- [05:06] just recall. Here's how he explains it.
+- [05:08] really interesting in the history of the
+- [05:10] field because at one point everything
+- [05:11] was very um scaling pill in terms of
+- [05:13] like oh we're going to make much bigger
+- [05:14] models trillions of parameter models and
+- [05:16] actually what the models have done in
+- [05:18] size is they've gone up and now they've
+- [05:20] actually kind of like
+- [05:22] >> actually even come down their models are
+- [05:24] smaller
+- [05:25] >> and even then I actually think they
+- [05:26] memorized way too much um so I think I
+- [05:29] had a prediction a while back that I I
+- [05:31] almost feel like we can get cognitive
+- [05:32] cores that are very good at even like a
+- [05:33] billion billion parameters it should be
+- [05:36] already like like if you talk to a
+- [05:38] billion parameter model. I think in 20
+- [05:39] years you can actually have a very
+- [05:41] productive conversation. It thinks um
+- [05:44] and it's a lot more like a human. But if
+- [05:46] you ask it some factual question might
+- [05:47] have to look it up, but it knows that it
+- [05:48] doesn't know and it might have to look
+- [05:49] it up and it will just do all the
+- [05:51] reasonable things.
+- [05:51] >> That that's actually surprising that you
+- [05:52] think it will take a billion because
+- [05:54] already we have a billion parameter
+- [05:56] models or a couple billion parameter
+- [05:57] models that are like very intelligent.
+- [05:59] >> Some of our models are like a trillion
+- [06:01] parameters, right? But they remember so
+- [06:02] much stuff like it's just
+- [06:04] >> Yeah. But I'm surprised that in 10 years
+- [06:07] given the pace okay we have GPT OSS 20B
+- [06:12] that's way better than GPT4 original
+- [06:15] which was a trillion plus uh parameters.
+- [06:18] So given that trend I'm actually
+- [06:19] surprised you think in 10 years the
+- [06:21] cognitive core is still a billion
+- [06:22] parameters. I would yeah I'm surprised
+- [06:24] you're not going to be like
+- [06:26] >> uh tens of millions or millions.
+- [06:28] >> No because I basically think that the
+- [06:29] training data is so here's the issue.
+- [06:30] the training data as the internet which
+- [06:32] is really terrible
+- [06:34] >> because there's a huge amount of gains
+- [06:35] to be made because the internet is
+- [06:36] terrible. Like if you actually and even
+- [06:37] the internet when you and I think of the
+- [06:39] internet you're thinking of like a Wall
+- [06:40] Street Journal or
+- [06:41] >> that's not what this is. When you're
+- [06:43] actually looking at a preaching data set
+- [06:44] in the Frontier Lab and you look at a
+- [06:46] random internet document it's total
+- [06:48] garbage. Like I don't even know how this
+- [06:49] works at all. It's some like stock
+- [06:52] ticker symbols. Uh
+- [06:54] >> it's a huge amount of slop and garbage
+- [06:56] from like all the corners of the
+- [06:58] internet. It's not like your Wall Street
+- [06:59] Journal article that's extremely rare.
+- [07:01] Um, so I almost feel like because the
+- [07:03] internet is so terrible, we actually
+- [07:04] have to sort of like build really big
+- [07:06] models to compress all that. Uh, most of
+- [07:08] that compression is memory work instead
+- [07:11] of like cognitive work.
+- [07:12] >> But what we really want is the cognitive
+- [07:13] part actually delete the memory, right?
+- [07:15] And then so I guess what I'm saying is
+- [07:17] like we need intelligent models to help
+- [07:19] us refine even the pre-training set to
+- [07:22] just narrow it down to the cognitive
+- [07:23] components and then I think get away
+- [07:24] with a much smaller model because it's a
+- [07:26] much better data set and you could train
+- [07:28] it on it but probably it's not trained
+- [07:29] directly on it. It's probably distilled
+- [07:31] for a much better model still. But
+- [07:32] >> so I really like this vision. What he's
+- [07:34] describing truly sounds like an AGI to
+- [07:37] me. A model that doesn't just know
+- [07:39] everything but that is smart enough to
+- [07:41] figure anything out in any given
+- [07:43] situation. that seems way more powerful
+- [07:45] and far away from what we have now and
+- [07:48] even the direction we're potentially
+- [07:50] heading in. I mean, like he said, the
+- [07:52] industry is still completely scale.
+- [07:54] Everyone's chasing bigger models, bigger
+- [07:57] data, bigger compute, and that's why
+- [07:59] we're seeing trillions of dollars being
+- [08:01] poured into AI infrastructure right now.
+- [08:04] Obviously, a lot of that comes from the
+- [08:05] insane demand, but it also shows just
+- [08:08] how deep that mindset still runs. I
+- [08:11] mean, it's the whole bitter lesson. just
+- [08:13] scale up. But at the end of the day,
+- [08:15] Carpathy still thinks this is only maybe
+- [08:18] 10 to 20 years away compared to the wild
+- [08:20] predictions we're used to hearing that
+- [08:22] might sound far, but 10 to 20 years for
+- [08:24] AGI is really nothing. And this is where
+- [08:28] the interview takes a bit of a dark
+- [08:30] turn. The host Doresh brings up super
+- [08:33] intelligence and asks Cararpathy how he
+- [08:36] thinks about it. Here's what he had to
+- [08:38] say.
+- [08:39] >> How do you think about super
+- [08:40] intelligence? Do you expect it to feel
+- [08:42] qualitatively different from normal
+- [08:46] humans or human companies?
+- [08:48] >> I guess I think I see it as like a
+- [08:50] progression of automation in society,
+- [08:52] right? And again like extrapolating the
+- [08:54] trend of computing. I just I feel like
+- [08:55] there will be a gradual automation of a
+- [08:57] lot of things and super intelligence
+- [08:58] will be sort of like the extrapolation
+- [08:59] of that. Uh so I do think we expect more
+- [09:02] and more autonomous entities over time
+- [09:03] that are doing a lot of the digital work
+- [09:05] and then eventually even the physical
+- [09:06] work u probably some amount of time
+- [09:08] later. But that basically I see it as
+- [09:10] just uh automation.
+- [09:12] >> Um roughly speaking
+- [09:14] >> I guess automation includes the things
+- [09:15] humans can already do and super
+- [09:16] intelligence things humans
+- [09:18] >> well but some of the things that people
+- [09:19] do is invent new things which I would
+- [09:21] just put into the automation if that
+- [09:23] makes sense.
+- [09:23] >> Yeah. But you I I guess maybe um less
+- [09:28] abstractly and more sort of like
+- [09:29] qualitatively. Mhm.
+- [09:31] >> Do you expect something to feel like
+- [09:33] okay this because this thing can either
+- [09:36] think so fast or has so many copies or
+- [09:39] the copies can merge back in themselves
+- [09:42] >> or is quote unquote much smarter.
+- [09:45] >> Any number of advantages an AI might
+- [09:47] have. It will qualitative the
+- [09:50] civilization in which these AIS will
+- [09:52] just feel qualitatively different from
+- [09:53] humanization.
+- [09:53] >> I think it will I mean it is
+- [09:54] fundamentally automation but I mean it
+- [09:56] will be like extremely foreign. I do I
+- [09:57] do think it will look really strange
+- [09:59] >> because um like you mentioned we can run
+- [10:02] all of this on a computer cluster etc
+- [10:04] and much faster and all this thing I
+- [10:06] mean maybe some of the scenarios for
+- [10:07] example that uh I start to get like
+- [10:09] nervous about with respect with respect
+- [10:11] to when the world looks like that is
+- [10:12] this kind of like gradual loss of
+- [10:13] control and understanding of what's
+- [10:14] happening and I think that's actually
+- [10:16] the most likely outcome probably is that
+- [10:18] there will be a gradual loss of
+- [10:19] understanding of
+- [10:20] >> and we we'll gradually layer all this
+- [10:22] stuff everywhere and there will be fewer
+- [10:24] and fewer people who understand it and
+- [10:25] that there will be a sort of this like
+- [10:27] scenario of a gradual loss of control
+- [10:28] and understanding of what's happening.
+- [10:30] That to me seems most likely outcome of
+- [10:32] how all the stuff will go down.
+- [10:34] >> So yeah, he thinks gradual loss of
+- [10:37] control and understanding is the most
+- [10:39] likely scenario. That sounds terrifying.
+- [10:42] I mean, it's one thing to have some
+- [10:44] massive event, but to slowly lose
+- [10:47] control without even realizing it,
+- [10:49] that's way worse in my opinion because
+- [10:52] typically those massive events like a
+- [10:54] 9/11 for example, create urgency. They
+- [10:57] force a response. But if we never have
+- [11:00] that kind of moment with AI and it just
+- [11:02] quietly spreads into every corner of the
+- [11:04] earth, getting more powerful year after
+- [11:06] year, then who actually notices when we
+- [11:10] cross the line? It's possible we already
+- [11:12] have. That's what makes Carpathy's view
+- [11:14] so unsettling. It's not about
+- [11:17] apocalypse. It's about drift, about
+- [11:20] slowly giving up control while thinking
+- [11:22] we're the ones in charge. I think that's
+- [11:24] really what scares me the most about
+- [11:26] this whole AI thing. But anyway, that's
+- [11:29] all for today's video. I hope you guys
+- [11:31] enjoyed the breakdown. If you did, feel
+- [11:33] free to drop a like, hit that subscribe
+- [11:35] button, and let me know what you thought
+- [11:37] down below. And as always, I'll be
+- [11:39] catching you guys in the next

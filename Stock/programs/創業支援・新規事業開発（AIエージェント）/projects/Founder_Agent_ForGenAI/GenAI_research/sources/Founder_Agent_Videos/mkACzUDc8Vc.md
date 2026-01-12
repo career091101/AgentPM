@@ -1,0 +1,495 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=mkACzUDc8Vc"
+video_id: "mkACzUDc8Vc"
+video_url: "https://www.youtube.com/watch?v=mkACzUDc8Vc"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "PMF", "AI", "investment", "funding", "product_development"]
+topics: ["プロダクト開発", "資金調達", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=mkACzUDc8Vc
+  - Retrieved at: 2025-12-30T16:10:25+09:00
+  - [00:00] Let's learn how we can upgrade our AI
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=mkACzUDc8Vc"
+  - "- Retrieved at: 2025-12-30T16:10:25+09:00"
+  - "- [00:00] Let's learn how we can upgrade our AI"
+  - "- [00:01] agents by creating MCPs that can connect"
+  - "- [00:03] to any API found on the internet. And"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: mkACzUDc8Vc
+
+- URL: https://www.youtube.com/watch?v=mkACzUDc8Vc
+- Retrieved at: 2025-12-30T16:10:25+09:00
+
+## Text
+
+- [00:00] Let's learn how we can upgrade our AI
+- [00:01] agents by creating MCPs that can connect
+- [00:03] to any API found on the internet. And
+- [00:06] the way we're going to do that is we're
+- [00:07] going to use Speak Easy's new platform
+- [00:08] here called Graham. Welcome back y'all.
+- [00:10] Today's video is sponsored by Speak
+- [00:12] Easy. They reached out to me and they're
+- [00:13] like, Corbin, we got a pretty big
+- [00:14] update. I said, "What's the update?" And
+- [00:16] they said they released Graham here,
+- [00:17] which allows us to build out fully
+- [00:19] customizable MCPS. And after using it, I
+- [00:22] have to admit, this cloud MCP platform
+- [00:25] is probably one of the best I've seen.
+- [00:26] It really allows you to create a nice
+- [00:28] little mosaic masterpiece of different
+- [00:30] blocks of APIs you can find on the
+- [00:32] internet and connect them all together
+- [00:33] to create an awesome toolkit which then
+- [00:34] your AI agent can use whether it's in
+- [00:36] cursor AI claw chat GBT. Therefore,
+- [00:38] let's check this out step by step how we
+- [00:40] do this. Let's hit start building. I'll
+- [00:42] make sure I leave a link to the platform
+- [00:44] in the description down below. What
+- [00:45] we're going to do first here is set up
+- [00:47] our MCP server. We're going to say get
+- [00:48] started. Now step one here is what API
+- [00:51] do you want to connect to? I'll also
+- [00:52] leave Ampify in the description down
+- [00:54] below. This is a store that essentially
+- [00:56] we can connect to a bunch of different
+- [00:57] APIs whether that is a Google map
+- [00:59] scraper, a website content crawler,
+- [01:02] Facebook ad library scraper, whatever it
+- [01:04] is, you simply come to this site, type
+- [01:06] it in. So in today's video, we're going
+- [01:07] to be leveraging the YouTube one, the
+- [01:09] YouTube scraper. Therefore, in this
+- [01:10] video, you're going to learn how to
+- [01:11] integrate any API found on Ampify and in
+- [01:13] addition any API documentation that
+- [01:15] exists on the internet as we'll be
+- [01:16] integrating Bumbo's API as well. So
+- [01:18] first things first, we got to get the
+- [01:20] spec here. To do that, go ahead and sign
+- [01:21] up for a free account on Ampify. I'm
+- [01:23] just going to choose YouTube scraper
+- [01:24] here. What I'm looking for here is the
+- [01:26] top right. Hit the open API definition.
+- [01:28] This is going to give us the relevant
+- [01:30] specifications needed in order to attach
+- [01:32] that to our MCP. Don't make this
+- [01:34] difficult, y'all. Essentially, what this
+- [01:36] file is that we're about to download and
+- [01:38] give to Graham here is all the different
+- [01:40] actions that are specific to the API.
+- [01:42] So, for this YouTube one, it's
+- [01:43] essentially like, can we grab the title
+- [01:45] of the video? Can we grab the duration
+- [01:47] of the video? Can we grab the thumbnail
+- [01:49] data for the video? Just simple stuff
+- [01:51] like that. Little actions you'll see
+- [01:52] here. This will be a little bit more
+- [01:53] crystal clear once we do the bump ups as
+- [01:55] well as I'll show you a one by one
+- [01:56] comparison. But for now, I'm going to
+- [01:58] copy to make our lives easy. Instead of
+- [01:59] us needing to create a new file in the
+- [02:01] IDE, I'm just going to ask cursor to do
+- [02:02] it for us. So, I'm going to take that.
+- [02:03] I'm going to paste that and simply say
+- [02:05] this. I'm going to say, okay, see these
+- [02:07] open API specs, make it so I could
+- [02:09] download as a JSON. I pasted it above
+- [02:12] here and hit enter. Now, you might be
+- [02:14] asking, Corbin, how do you know it's
+- [02:15] ajson? If you come back over to Graham,
+- [02:17] right above my head, you'll see it
+- [02:19] accepts.yml, yaml.yiml andjson. In
+- [02:22] theory, we could also just go into our
+- [02:24] IDE here, create a new file.yamel and
+- [02:27] paste it that way or JSON and paste it
+- [02:29] that way. In addition, if you don't have
+- [02:31] access to cursor AI, just use any AI
+- [02:34] model and essentially ask for the exact
+- [02:36] same thing. And there we go. It saved it
+- [02:37] to my desktop. So, let's go ahead and
+- [02:39] start here. I'm going to go ahead and
+- [02:40] drag it into here. Boom. We're going to
+- [02:42] give it a very specific name here. So,
+- [02:43] honestly, the name it gave it was pretty
+- [02:45] good, but we'll just say YouTube scraper
+- [02:47] is fine. Continue. Next, it's going to
+- [02:49] have all the relevant actions. So, I
+- [02:51] know these look a little confusing.
+- [02:52] Don't worry. We're just going to hit
+- [02:53] continue here. And essentially, what we
+- [02:55] can do is we're going to be able to
+- [02:57] rename those to specifically what we
+- [02:58] care about. This is going to be our slug
+- [03:01] for our MCP. This is how we're going to
+- [03:02] reference it. This is fundamentally
+- [03:03] pretty important here. And because I'm
+- [03:05] going to create a pretty cool one here
+- [03:06] that is a multi-layer MCP that accesses
+- [03:09] different APIs for a very specific
+- [03:11] action, we're going to name it this
+- [03:13] YouTube grab. as we're not only going to
+- [03:15] be leveraging a YouTube scraper, we're
+- [03:17] also going to be leveraging bumps API
+- [03:19] here, which allows us to chat with
+- [03:21] YouTube videos, ask for timestamps for
+- [03:22] YouTube videos, takeaways, everything
+- [03:24] like this. So, hit continue. Perfect.
+- [03:26] Now that we've created our MCP server, I
+- [03:27] can click into it. There's going to be a
+- [03:29] bunch of settings. We're going to jump
+- [03:30] around here, but first, let's just
+- [03:31] configure our actions. And these tools
+- [03:34] are the different things that the actor
+- [03:36] can do. So, we got YouTube scraper, run
+- [03:38] sync, streamers, YouTube scraper. So if
+- [03:39] you want more information about your
+- [03:41] underlying API and what it can do, you
+- [03:43] just jump over to essentially where you
+- [03:45] got it from. So for here, this is appy
+- [03:47] and then YouTube scraper. For me, I know
+- [03:49] what this means. So I'm just going to do
+- [03:50] edit here. And instead of YouTube
+- [03:52] scraper da da da da, we're just going to
+- [03:53] say YouTube scraper get data. This is
+- [03:55] how I'm going to get the relevant title,
+- [03:57] thumbnail data, and everything we would
+- [03:59] want. So now that we have a nice little
+- [04:00] YouTube scraper bot, let's add an
+- [04:01] additional API here, which we bump up.
+- [04:03] So add API. Same process, y'all. So,
+- [04:06] simply coming to the documentation here,
+- [04:07] we can click here, download JSON or
+- [04:09] YAML. We'll do JSON. I'm then going to
+- [04:11] drag it into here. We can name it. So,
+- [04:13] we can do bumpups. We just do bump ups
+- [04:14] here. This is good. And make continue.
+- [04:16] And here we go. We got six new tools.
+- [04:18] Continue. So, now that we've added bump
+- [04:20] ups here, we can add this as additional
+- [04:22] actions. So, if you recall, we created
+- [04:24] our MCP server of YouTube Scraper. That
+- [04:26] is going to be where we host all the
+- [04:27] different tools. If I come back over
+- [04:29] here to our tool set, we got bumpups and
+- [04:31] the original tool set of YouTube
+- [04:33] scraper. If I want to add tools to my
+- [04:35] MCP server, I simply go to the YouTube
+- [04:37] scraper MCP tool set and I say add
+- [04:40] tools. With that done, what you'll
+- [04:42] notice is that bumpups has all these
+- [04:44] tools we can select. I don't have to
+- [04:45] select all of them, but for the purpose
+- [04:47] of this video, we'll go ahead and do
+- [04:48] that. Now, here is one thing that you
+- [04:50] can identify right off the bat, and this
+- [04:51] will make more sense to you. Now, notice
+- [04:54] bumpups create chat. What is this tool,
+- [04:56] Corbin? Where is this coming from? This
+- [04:58] is coming from our bumpups API and
+- [05:00] specifically the chat endpoint. Create
+- [05:03] chat response. What we're functionally
+- [05:05] doing here is now giving this MCP server
+- [05:07] the ability to call this and get data
+- [05:11] like this. So nice. Let's go ahead and
+- [05:13] add all these add six tools. So what you
+- [05:14] notice is that once we add bumpups here,
+- [05:16] it does require us to add an environment
+- [05:18] variable. You might be asking yourself,
+- [05:19] Corbin, how do you know that? Is because
+- [05:21] if we go back to bumpus API here, you
+- [05:23] can notice in the top right, it requires
+- [05:25] an API key to even do the call. This is
+- [05:28] like an open AI API key. This is like a
+- [05:30] clawed API key. It just tells the
+- [05:32] service provider in this context bumpups
+- [05:34] that yes, they have the rights to get
+- [05:36] the data relevant to what they're
+- [05:38] requesting. So to do this, we're going
+- [05:39] to come to environments here. We'll
+- [05:41] select new environment. Give it a name.
+- [05:42] So this is going to be for that YouTube
+- [05:44] scraper. So YouTube data, we'll just
+- [05:46] call it submit. Fill for tool set as we
+- [05:49] just created that tool set together.
+- [05:50] YouTube scraper fill variables. When it
+- [05:53] comes to the YouTube scraper server URL
+- [05:55] and the bumpup server URL, usually we
+- [05:56] can leave these blank. Not that big of a
+- [05:58] deal, but we need to fill in for this
+- [06:00] bumpups API key off. I'm going to go and
+- [06:02] just paste it there. I know you can see
+- [06:03] it, but don't worry, I'm going delete
+- [06:04] it. I made save. There we go. One big
+- [06:06] thing for you to know is that when you
+- [06:08] create more and more connections to
+- [06:10] other API servers, this is where you're
+- [06:12] going to be putting those environment
+- [06:14] variables that are relevant if it's
+- [06:16] needed. Now, a lot of the times because
+- [06:17] of the fact that if you're using this
+- [06:19] within claude or cursor, you kind of
+- [06:21] already have access to the AI model that
+- [06:22] way. So, maybe you're not worrying too
+- [06:24] much about like can I use my OpenAI API
+- [06:27] key here because it's already inherently
+- [06:29] part of the logic, right? The idea
+- [06:31] behind Graham and this MCP server is to
+- [06:33] really simplify your ability to
+- [06:35] integrate this into different workflows,
+- [06:37] specifically AI workflows, as you'll see
+- [06:39] here with a custom tool ability. It's
+- [06:41] pretty cool. So, stay tuned. So what
+- [06:43] you'll notice is if we come to
+- [06:44] playground here, we can check our tool
+- [06:46] set of YouTube scraper. Nice. With the
+- [06:48] tool set selected here, you'll see all
+- [06:50] the relevant stuff. So this is the
+- [06:51] YouTube scraper which we grabbed here
+- [06:54] from amplify. And then this is the
+- [06:55] bumpups which we grabbed from the
+- [06:57] bumpups documentation. So now we've
+- [06:59] successfully created a self-hosted MCP
+- [07:01] server that's going to be able to do any
+- [07:03] of these actions we request. So let's
+- [07:05] just do one real quick. I'm going to
+- [07:06] make sure I select the environment of
+- [07:07] YouTube data that we set. I'm going to
+- [07:09] say use bump up create chat and ask what
+- [07:12] is the best part of this video and the
+- [07:14] video we'll use is from speak easy
+- [07:16] introducing Graham. So what you'll
+- [07:18] notice here is going to do the relevant
+- [07:19] call. Nice. We're going to hit accept.
+- [07:20] I'm posting the data. I'm sending the
+- [07:22] data and there we go based on the video
+- [07:25] which was introducing the Graham
+- [07:26] platform. As you can see here with the
+- [07:28] video and this title introducing Graham
+- [07:30] build agent tools that perform we get
+- [07:31] the highlights of upload a spec create a
+- [07:34] curated MCP tools and host in one click.
+- [07:36] So kind and a deja vu as you're seeing
+- [07:38] it live right now as well. Point being
+- [07:40] though, now you can see functionally how
+- [07:41] we test the different API actions that
+- [07:43] we built in our MCP server. So in theory
+- [07:45] here, I could test ones from YouTube
+- [07:46] scraper as well, but I'm going to create
+- [07:47] a custom tool later on in this video to
+- [07:49] show you how we can kind of match and
+- [07:51] pair these, which will lead back nicely
+- [07:53] to what you saw in the beginning of the
+- [07:55] video where we can actually connect all
+- [07:56] these different APIs and do really cool
+- [07:58] actions with them all automatically and
+- [08:00] let AI do the heavy lifting. But let's
+- [08:02] first off jump over to the MCP server,
+- [08:04] right? So we go to MCP here. Click it.
+- [08:06] What does all of this mean? Well, first
+- [08:08] off, this is your link here, right? So,
+- [08:10] you got Web Cafe AI, YouTube grab. We're
+- [08:12] going to reference this when we do our
+- [08:14] cursor integration together. Coming down
+- [08:16] here, we got visibility. Do you want it
+- [08:18] to be a publicly available URL? Eg,
+- [08:20] anyone can access this MCP or
+- [08:22] alternatively, do you want this as an
+- [08:23] internal facing tool, so keep it a
+- [08:25] private? Now, let's get to the fun stuff
+- [08:26] here with the MCP installation and
+- [08:27] actually start using this outside of
+- [08:29] this environment. Let's go over here to
+- [08:32] view. We're going to go ahead and click
+- [08:33] view. What Graham does out of the box,
+- [08:35] which is super cool, is that it shows
+- [08:37] you all these like easy plug-and-play
+- [08:39] ways to install across all these
+- [08:40] different platforms. Alternatively, if
+- [08:42] you want to install this MCP maybe into
+- [08:44] something that isn't shown above there,
+- [08:45] we can do it with this raw
+- [08:47] configuration. But I'm going to show you
+- [08:48] today how to do it within cursor. And
+- [08:50] then once I show you it working in
+- [08:51] cursor, we're going to create a custom
+- [08:52] tool together for a very specific action
+- [08:54] we can actually leverage in cursor AI
+- [08:56] that will help us out when we're coding.
+- [08:58] So to add a cursor, we're going to
+- [08:59] simply go to add client. We can click
+- [09:01] cursor here or alternatively click it
+- [09:03] here. Once we add it, what's nice is it
+- [09:04] will automatically go here. We can name
+- [09:06] it. So we'll just call it YouTube
+- [09:07] scraper. That's fine. It has all the
+- [09:09] information already put here. But the
+- [09:11] only thing that's needed from us as of
+- [09:12] now is going to be this last part here
+- [09:14] of MCP bumpups API. So we're going to
+- [09:16] put this value here. Remember this is
+- [09:18] the key Z key install. Now let me go
+- [09:21] ahead and help you out real quick just
+- [09:22] in case you run into some errors on this
+- [09:23] part. First off, if you run into an
+- [09:25] error right away, it's like it's not
+- [09:26] working. Hit this pencil icon. You want
+- [09:28] to ensure a couple things. First off,
+- [09:29] these are environment variables. Nice.
+- [09:31] We put that in together. Second off,
+- [09:33] this line right here, line seven.
+- [09:35] Fundamentally extremely important that
+- [09:38] this URL is the URL you see here of
+- [09:41] hosted URL. It's this one right here. So
+- [09:43] you copy this and paste it here. Then it
+- [09:46] should work. Next, what you'll notice is
+- [09:48] that we have all nine tools enabled. I
+- [09:50] can click this and maybe we only want
+- [09:52] the chat feature. So we do this, this,
+- [09:54] this, this. You know, we want the get
+- [09:56] data. That's nice. And then after that,
+- [09:59] we only have two tools enabled. Eg the
+- [10:01] create chat and the scraping of the
+- [10:04] YouTube data. Creating a chat allows us
+- [10:06] to ask any type of prompt to get
+- [10:07] information on that YouTube video. And
+- [10:08] the scraping of the data allows us to
+- [10:10] get metadata like the title, duration,
+- [10:12] everything of this nature. Now, before
+- [10:14] we see it in action, I want to show you
+- [10:15] one really cool thing that is an extra
+- [10:17] layer of specialization you can do with
+- [10:20] your MCP servers. If I come up here to
+- [10:22] tool set again, I go to the tool set of
+- [10:24] YouTube scraper which you remember we
+- [10:26] set up earlier. I can go to any of these
+- [10:28] actions and give the context more AI of
+- [10:30] how to handle the relevant data. So for
+- [10:32] example, create chat. If I hit edit here
+- [10:35] and I go to edit description. This is
+- [10:36] the description. But this isn't just a
+- [10:39] you know front-facing description. This
+- [10:41] description it can actually be read by
+- [10:42] the AI model. Provide the video URL and
+- [10:44] an optimal prompt. If no prompt is
+- [10:46] provided, the API returns a summary of
+- [10:49] the video content. In theory here, you
+- [10:51] can add more brand guidelines or just
+- [10:55] more rules. So, like for example, if I
+- [10:57] wanted the responses to be more brief
+- [10:59] when it comes to using this specific
+- [11:00] tool, I would put all responses should
+- [11:02] be under four sentences and hit save.
+- [11:05] There's a lot more nuance here. So, I'm
+- [11:06] going to go ahead and also leave the
+- [11:07] docs to Graham in the description down
+- [11:09] below. So, you can kind of search
+- [11:10] through here. Also, what's really nice
+- [11:11] about these docs, I love it. You go to
+- [11:13] search here, you can use the AI and
+- [11:16] essentially just find the exact
+- [11:17] information you're looking for. Gone are
+- [11:18] the days of command F or control F on
+- [11:20] your browser. Ask AI. Let's go to see it
+- [11:23] in action, though. So, here is our
+- [11:25] prompt. I need to learn more about this
+- [11:26] video. Provide the video link. This is
+- [11:27] about GitHub in 10 minutes. Use the MCP
+- [11:30] server YouTube scraper that we've
+- [11:31] identified here. Tool bumpups chat and
+- [11:33] ask what is the most important idea to
+- [11:34] remember from this tutorial. And use the
+- [11:36] YouTube scraper get data for the
+- [11:37] metadata on the video. Now, what I'm
+- [11:38] going to show you pretty soon here is
+- [11:39] how we can actually cause a chain
+- [11:40] reaction and really leverage this MCP to
+- [11:43] its maxability with custom tools using
+- [11:46] Graham. But for now, let's see it
+- [11:48] functionally work. Enter. One thing
+- [11:49] that's important is make sure you enable
+- [11:51] agent mode. How to reset this chat. But
+- [11:53] agent mode is gonna allow us to actually
+- [11:55] leverage these MCP server. There we go.
+- [11:56] We're running the bumpups create chat.
+- [11:58] Nice. It was able to run the YouTube
+- [12:00] scrape data MCP protocol as well. And
+- [12:02] here we go. So we got the metadata how
+- [12:04] to use GitHub for beginners. Nice. And
+- [12:06] then we got the most important idea.
+- [12:08] Treat the main branch as a stable source
+- [12:09] of truth and use branches and pull
+- [12:11] requests to make test and merge changes
+- [12:13] safely. This is true. Don't ever mess
+- [12:15] with the main branch that's in
+- [12:16] production. No good. That's just one
+- [12:18] small example of what we could do in
+- [12:20] cursor AI. In theory, I could load a
+- [12:22] bunch of coding tutorials using YouTube
+- [12:24] links. Now, provide all that context
+- [12:26] using Graham MCP and grabbing the data
+- [12:28] that way, putting it into my chat, and
+- [12:29] then whenever I'm coding out, the code
+- [12:31] would be better because cursor has more
+- [12:33] context. But let me show you something
+- [12:34] that I think a lot of y'all are going to
+- [12:36] like. And this is called custom tools.
+- [12:38] So, we're say create new custom tool.
+- [12:40] We're going to use the tool set that we
+- [12:42] created, YouTube scraper. And all we do
+- [12:44] here is just use regular dictation just
+- [12:45] like we're talking to an AI model. I
+- [12:47] want you to scrape the YouTube link I
+- [12:49] provide and output the metadata of the
+- [12:50] video. What specific action do you want
+- [12:52] it to do first? Then use pop-up chat to
+- [12:56] ask for a summary of the video. We just
+- [12:57] paired two different APIs from two
+- [12:59] different providers and we can make them
+- [13:01] work hand in hand. Toolify. So now
+- [13:04] within the MCP, we don't have to call
+- [13:06] each one separately. Rather we have a
+- [13:08] new tool. I can rename this YouTube.
+- [13:12] Yes. And what YouTube yes does and when
+- [13:14] I call it functionally in any
+- [13:16] application I use is going to do both
+- [13:18] those APIs in tangent. And to test this,
+- [13:21] we simply hit try now. It's going to
+- [13:23] want the YouTube link. So I'm going to
+- [13:24] paste it and boom. We were able to get
+- [13:27] the relevant YouTube video metadata and
+- [13:29] on top of that the relevant summary from
+- [13:31] Bumpup's chat. Now fundamentally you
+- [13:33] just learned that you can actually do a
+- [13:35] chain effect by using custom tools here
+- [13:38] where you can pair all these different
+- [13:39] APIs together. Therefore, an action you
+- [13:42] do with Instagram scraper could pair
+- [13:43] with Tik Tok scraper. All done in one
+- [13:46] command you make in your custom MCP. So,
+- [13:48] that just about does today's video. Let
+- [13:50] me know what kind of MCP you plan on
+- [13:51] creating. Graham is pretty intuitive,
+- [13:53] y'all. It has support for a bunch of
+- [13:54] different languages such as Python,
+- [13:56] TypeScript, Java, whatever you like to
+- [13:58] program in, it can handle. So, go ahead
+- [14:00] and check out Graham. It's in the
+- [14:01] description down below. And as you
+- [14:02] already know with these style of videos,
+- [14:04] I'll see you in the next. Can we now
+- [14:06] just create a custom MCP server that can
+- [14:08] do whatever we want? Change actions and
+- [14:09] do anything that you could ever think
+- [14:10] of. Video Graham speak easy.

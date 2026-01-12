@@ -1,0 +1,729 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=x2n_kbeUODI"
+video_id: "x2n_kbeUODI"
+video_url: "https://www.youtube.com/watch?v=x2n_kbeUODI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "startup", "PMF", "AI", "investment", "funding", "team_building", "product_development"]
+topics: ["資金調達", "組織構築", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=x2n_kbeUODI
+  - Retrieved at: 2025-12-30T16:41:02+09:00
+  - [00:00] The Elon Musk vers Sam Alman saga
+key_points:
+  - "- [01:07] built one of the most important"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: x2n_kbeUODI
+
+- URL: https://www.youtube.com/watch?v=x2n_kbeUODI
+- Retrieved at: 2025-12-30T16:41:02+09:00
+
+## Text
+
+- [00:00] The Elon Musk vers Sam Alman saga
+- [00:03] continues and now we have a brand new
+- [00:06] deposition that just dropped featuring
+- [00:09] Ilia Sudskver, former founder of OpenAI,
+- [00:13] one of the leading minds in artificial
+- [00:16] intelligence. And there are so many
+- [00:19] interesting bits from this 62page
+- [00:22] document which I read in full. I
+- [00:24] highlighted the most interesting bits
+- [00:25] and I'm going to break it all down for
+- [00:27] you. The cast of characters include, of
+- [00:29] course, Sam Alman, Ilia Sudskver, Mera
+- [00:32] Morati, former CTO. We have Greg
+- [00:34] Brockman, the former Open AI board,
+- [00:37] plotting against Sam Alman, and Daario
+- [00:40] Amade, current founder of Anthropic,
+- [00:43] former employee of Open AAI. There's so
+- [00:47] much going on. I'm going to read through
+- [00:48] it. Let's get into it. And this video is
+- [00:50] brought to you by Recraft. More on them
+- [00:52] later. Now remember the context for this
+- [00:55] deposition is Elon Musk suing Sam Alman
+- [01:00] and that's because Elon Musk thinks it
+- [01:02] is illegal the way that Sam Alman took a
+- [01:05] nonprofit took all of these donations
+- [01:07] built one of the most important
+- [01:09] companies of all time and has
+- [01:11] effectively converted it into a
+- [01:14] for-profit company. As of last week, we
+- [01:16] now know note that the nonprofit
+- [01:18] controls the public benefit corporation,
+- [01:20] which still is a for-profit company, but
+- [01:23] it is more missiondriven than just
+- [01:25] shareholder value. So, let me paint the
+- [01:27] picture. This is a deposition between
+- [01:29] one set of lawyers and Ilia Suskver and
+- [01:32] his [snorts] lawyers. This deposition
+- [01:34] occurred on October 1st, 2025, just
+- [01:37] about a month ago. And oh boy, it is
+- [01:40] wild. So, a few things to note. First,
+- [01:43] this was recorded at the Kulie LLP
+- [01:46] offices. Kulie is one of the most
+- [01:48] prominent law firms in Silicon Valley
+- [01:50] and the plaintiff Elon Musk versus the
+- [01:53] defendant Samuel Alman at all. And there
+- [01:56] are also appearances from Microsoft
+- [01:58] which is fascinating although it's
+- [02:00] barely mentioned. So again, this is Elon
+- [02:02] Musk for Sam Alman, but it's almost
+- [02:04] entirely about Ilia Suskver, Sam Alman's
+- [02:07] firing, the board dynamics prior to that
+- [02:09] firing, and the subsequent fallout. So,
+- [02:12] the first thing we learned is that Ilia
+- [02:14] Suskver put together a 52page memo in
+- [02:18] preparation of attempting to get Sam
+- [02:21] Alman fired from Open AI. There was a
+- [02:24] long history of dissatisfaction from
+- [02:26] Ilia towards Sam Alman about how Sam
+- [02:28] Alman was running the company
+- [02:30] specifically and this became public
+- [02:32] information at the time of the firing
+- [02:34] just about 2 years ago that Sam Alman
+- [02:36] exhibits a consistent pattern of lying
+- [02:39] undermining his execs and pitting his
+- [02:41] execs against one another. And now back
+- [02:43] to the 52-page memo. I'm going to tell
+- [02:46] you what was actually in the memo and
+- [02:48] how it came to be, but more on that in a
+- [02:50] minute. And the first line of
+- [02:51] questioning between lawyers and Ilia
+- [02:53] Suskvert, that is not Ily's lawyers,
+- [02:55] those were the opposing lawyers, was
+- [02:57] about the 52-page document and who he
+- [03:00] sent it to and why he didn't send it to
+- [03:02] Sam Alman. I think it's obvious why, but
+- [03:04] listen to his words. Why didn't you send
+- [03:06] it to the entire board? It being the
+- [03:09] document, the board being the entire
+- [03:10] board of directors for OpenAI. Because
+- [03:12] we were having the discussions with the
+- [03:14] independent directors only. Independent
+- [03:17] meaning not aligned with Sam Alman, I
+- [03:19] believe. and why didn't you send it to
+- [03:21] Sam Alman? Because I felt that had he
+- [03:23] become aware of these discussions, he
+- [03:26] would just find a way to make them
+- [03:28] disappear. So, at this point, right
+- [03:31] around the time of the firing, I susver
+- [03:34] already had a pretty bad relationship
+- [03:37] with Sam Alman. He was already kind of
+- [03:39] secretly putting together this document
+- [03:42] in hopes that he would be able to
+- [03:44] convince the board to fire Sam Alman,
+- [03:46] which he actually was able to do. Now
+- [03:48] obviously you remember about a week
+- [03:50] later Sam Alman came back but the
+- [03:52] initial firing did happen and he also
+- [03:54] thought that if Sam Alman found out
+- [03:56] about the discussions he would actually
+- [03:59] just make them disappear and more on
+- [04:01] that later because Ilia Suskover really
+- [04:04] believes that Sam Alman and other CEOs
+- [04:07] are killers. They are very political.
+- [04:10] They are cutthroat and they're willing
+- [04:12] to do whatever it takes to seek and
+- [04:14] control power. Now, interestingly, the
+- [04:17] board actually asked Ilia to prepare the
+- [04:20] document. So, it's kind of weird. It's a
+- [04:23] little confusing how that went down, but
+- [04:24] listen to this. The context for this
+- [04:26] document is that the independent board
+- [04:28] members asked me to prepare it and I
+- [04:30] did. And I was pretty careful. Most of
+- [04:32] the screenshots that I have that I most
+- [04:35] or all I don't remember, I get them from
+- [04:38] Mera Morati. And so it seems Mera
+- [04:41] Marotti was also very much aligned with
+- [04:44] Ilia in that Sam Alman had to go. She
+- [04:46] was capturing screenshots of chat
+- [04:49] interactions, text, Slack, whatever it
+- [04:51] is, as evidence, as a breadcrumb trail
+- [04:54] to showing that Sam Alman is a poor
+- [04:56] leader. Now, I'm not giving my opinion
+- [04:59] on any of this. I'm just trying to
+- [05:01] convey what was actually going on and
+- [05:04] provide a little bit of context. it made
+- [05:06] sense to include them, them being the
+- [05:08] screenshots, in order to paint a picture
+- [05:10] from a large number of small pieces of
+- [05:13] evidence or items. And so, they're
+- [05:15] putting together evidence that he's a
+- [05:16] bad leader. But what does that actually
+- [05:18] mean? Are you still wasting time jumping
+- [05:20] between your AI chats and design canvas?
+- [05:23] Recraft's new chat mode ends that for
+- [05:26] good. So, imagine this. You generate a
+- [05:28] logo, drag it into the chat, and say,
+- [05:30] "Create a full brand kit from this.
+- [05:32] social posts, posters, mockups, all in
+- [05:36] minutes. And at the end, you have a
+- [05:37] consistent set of full brand assets that
+- [05:40] you can use immediately. This is the
+- [05:41] magic of Recraft's new chat mode. It's a
+- [05:44] powerful AI chat assistant within
+- [05:46] infinite canvas. Start in chat for
+- [05:49] lightning fast exploration and then
+- [05:51] switch to canvas for pixel perfect
+- [05:53] control. No more switching between apps.
+- [05:55] The entire creative process from first
+- [05:58] prompt to final assets happens now in
+- [06:00] one place. So, stop just generating
+- [06:03] images. Start creating with precision.
+- [06:06] Join the beta chat mode weight list
+- [06:07] today. Link in the description. Let them
+- [06:10] know I sent you. ReCraft has been a
+- [06:12] phenomenal partner. Now, back to the
+- [06:13] video. Now, which independent directors
+- [06:16] asked you to prepare your memo? Exhibit
+- [06:18] 19? It was most likely Adam D'Angelo.
+- [06:22] Who is Adam D'Angelo? So, first a little
+- [06:25] bit of background. He was educated at
+- [06:27] Philip's Extor Academy, the same academy
+- [06:29] that Mark Zuckerberg went to. He joined
+- [06:31] Facebook shortly after its launch,
+- [06:33] served as its chief technology officer
+- [06:35] from 2006 to 2008 and as vice president
+- [06:39] of engineering until 2008. Then in 2009,
+- [06:42] he co-founded Kora, which is a Q&A
+- [06:45] website very popular in Silicon Valley
+- [06:47] and he has been serving as CEO ever
+- [06:50] since. And he has served on the board of
+- [06:52] OpenAI since 2018. And kind of
+- [06:57] surprisingly, Adam D'Angelo is still on
+- [07:00] the board of OpenAI. Even after most of
+- [07:03] the board that went against Sam Alman
+- [07:05] was fired, he's still there. And so Ilia
+- [07:08] continues and says, "I had discussions
+- [07:11] with the independent board members
+- [07:12] discussing Sam Alman." And after having
+- [07:15] these discussions, either Adam or the
+- [07:17] three of them together, I don't
+- [07:18] remember, have asked me to collect
+- [07:19] supporting screenshots. And the three of
+- [07:21] them together, Adam D'Angelo, Helen
+- [07:23] Toner, and Tasha Macaulay. And I already
+- [07:26] explained who Adam D'Angelo is, but
+- [07:27] let's go over the other two. Now, this
+- [07:30] is Helen Toner. She is an Australianborn
+- [07:33] AI researcher. And she, especially at
+- [07:36] the time of the Sam Alman firing, was
+- [07:39] quite vocal about it. She was a main
+- [07:41] player in his firing. She actually ended
+- [07:44] up writing kind of a negative piece
+- [07:46] about OpenAI while still being on the
+- [07:48] board at OpenAI. Then we have Tasha
+- [07:51] Macaulay, another OpenAI board member at
+- [07:53] the time, a tech entrepreneur and
+- [07:56] robot/AI
+- [07:58] specialist. And kind of interesting
+- [08:00] tidbit, she's married to Joseph Gordon
+- [08:02] Levit. Now, back to the point, why are
+- [08:06] people aligning against Sam Alman? Why
+- [08:08] did they think he was a bad leader?
+- [08:09] Well, according to this document,
+- [08:11] according to other documents that have
+- [08:14] come out since the firing, here is the
+- [08:16] crux of the issue. Sam exhibits a
+- [08:18] consistent pattern of lying, undermining
+- [08:20] his execs and pitting his execs against
+- [08:22] one another. And the lawyer says, "That
+- [08:25] was clearly your view at the time." And
+- [08:28] Ilia says, "Correct." So he continues to
+- [08:30] ask, "And did you want them to take
+- [08:32] action over what you wrote?" What you
+- [08:34] wrote being that memo? And I wanted them
+- [08:37] to become aware of it, but my opinion
+- [08:39] was that action was appropriate. And
+- [08:42] what action did you think was
+- [08:43] appropriate? Termination. Ilia thought
+- [08:46] Sam needed to be out. And Ilia was very
+- [08:49] worried about that memo getting out and
+- [08:52] leaking. And the lawyer continues, "And
+- [08:54] you sent it using a form of disappearing
+- [08:56] email. Is that right?" Yes. Why? Because
+- [08:58] I was worried that those memos will
+- [09:00] somehow leak. But it wasn't all against
+- [09:03] Sam Alman. He also had similar thoughts
+- [09:05] of Greg Brockman. So lawyer, you drafted
+- [09:08] a similar memo that was aritical of Greg
+- [09:11] Brockman. Correct? Yes. Then they
+- [09:14] transition to talking about Ilia's
+- [09:16] equity in OpenAI. So, were you concerned
+- [09:19] about losing your equity in OpenAI at
+- [09:21] the time? Ilia says, "I was not
+- [09:23] concerned as he probably shouldn't have
+- [09:25] been because that is pretty ironclad
+- [09:26] equity that he has." Then he asks, "How
+- [09:29] much was your equity worth?" So, what
+- [09:31] what was your equity at OpenAI worth at
+- [09:33] the time? What did you think it was
+- [09:35] worth? Then the lawyers go back and
+- [09:37] forth as to why that's relevant for this
+- [09:40] deposition. Ultimately, he doesn't end
+- [09:42] up answering the question directly. Then
+- [09:44] the questioning goes towards why the
+- [09:46] board eventually after the firing
+- [09:48] decided to resign and reinstate Sam
+- [09:51] Alman. And just the quick history
+- [09:53] lesson, they fired him and just about a
+- [09:55] week later he was back and the board had
+- [09:57] resigned and he was basically in
+- [09:59] control. He being Sam Alman. So right
+- [10:01] now my view is that with very few
+- [10:03] exceptions most likely a person who is
+- [10:06] going to be in charge is going to be
+- [10:08] very good with the way of power and it
+- [10:11] will be a lot like choosing between
+- [10:13] different politicians. What does Ilia
+- [10:15] actually mean? Well, he means Sam Alman
+- [10:18] has sharp elbows and is willing to use
+- [10:21] them. He is saying Sam Alman is
+- [10:24] extremely good at the political nature
+- [10:26] of power seeking. And he continues, "The
+- [10:30] person in charge of what?" A gi Ilia
+- [10:35] continues, "That's how the world seems
+- [10:36] to work. I think it's not impossible,
+- [10:38] but I think it's very hard for someone
+- [10:40] who would be described as a saint to
+- [10:43] make it." Basically, if you're a good
+- [10:45] guy, you're not really going to be in
+- [10:48] these powerful positions at these
+- [10:50] companies. I think it's worth trying. I
+- [10:52] just think it's it's like choosing
+- [10:54] between different politicians. who is
+- [10:56] going to be the head of the state. Then
+- [10:58] they continue and talk about the removal
+- [11:00] of Sam Alman and the process therein. So
+- [11:02] from the lawyer and in reviewing the
+- [11:04] steps that preceded the removal, do you
+- [11:06] think that process was correct? Ilia
+- [11:09] says, "One thing I could say is that the
+- [11:11] process was rushed. Obviously, they
+- [11:14] fumbled firing Sam Olman. He came back
+- [11:16] and was more powerful than ever. But
+- [11:18] why?" Well, the process was rushed. Why
+- [11:21] was it rushed? Well, I think it was rush
+- [11:23] because the board was inexperienced.
+- [11:26] Andy continues and the lawyer says,
+- [11:28] "Inexperienced in what?" In board
+- [11:30] matters. Then they get into this line of
+- [11:32] questioning around how familiar Tasha
+- [11:34] and Helen, the two board members who
+- [11:36] wanted to fire Sam Alman, were with
+- [11:39] OpenAI's day-to-day operations. And it's
+- [11:42] wild because if you remember, Helen said
+- [11:44] she found out about Chacht initially
+- [11:47] from Twitter. She didn't even know about
+- [11:49] it. Watch this clip. When chatbt came
+- [11:52] out, November 2022, the board was not
+- [11:54] informed in advance about that. We
+- [11:56] learned about chatbt on Twitter.
+- [11:58] >> And here's a clip of Helen Toner
+- [12:00] explaining why she wanted Sam Alman out
+- [12:03] of OpenAI.
+- [12:04] >> Sam didn't inform the board that he
+- [12:06] owned the OpenAI Startup Fund, even
+- [12:09] though he, you know, constantly was
+- [12:11] claiming to be an independent board
+- [12:13] member with no financial interest in the
+- [12:14] company. Um on multiple occasions he
+- [12:18] gave us inaccurate information about the
+- [12:21] small number of formal safety processes
+- [12:23] that the company did have in place
+- [12:25] meaning that it was you know basically
+- [12:26] impossible for the board to know how
+- [12:28] well those safety processes were working
+- [12:30] or what might need to change. And then
+- [12:32] you know a last example that I can share
+- [12:34] because it's been very widely reported
+- [12:36] relates to this paper that I wrote um
+- [12:38] which has been you know I think way
+- [12:39] overplayed in the press. The problem was
+- [12:41] that after the paper came out, Sam
+- [12:43] started lying to other board members in
+- [12:45] order to try and push me off the board.
+- [12:47] Um, so it was another example that just
+- [12:49] like really damaged our ability to trust
+- [12:51] him. And
+- [12:51] >> so, back to the deposition. How familiar
+- [12:53] did Tasha and Helen appear to you to be
+- [12:56] with OpenAI's operations? Ilia, they
+- [12:59] seem to have some familiarity, but it's
+- [13:01] hard for me to assess. Did you view them
+- [13:03] as experts in AI safety? Then his
+- [13:06] council objects. They go back and forth
+- [13:09] as to why this is all relevant to the
+- [13:12] Musk vers Sam Alman lawsuit. Remember
+- [13:14] this is what it's all about. Then do you
+- [13:16] recall in October 2023 Helen Toner
+- [13:18] publishing an article criticizing open
+- [13:20] AI? He says I do recall. What do you
+- [13:23] recall about that? I don't recall the
+- [13:25] nature of the criticism but I recall it
+- [13:27] was praising anthropic. I found it a
+- [13:30] strange thing for her to do. Did you
+- [13:32] think it was appropriate for her to do
+- [13:34] as a board member of Open AI? I thought
+- [13:37] it was not far from obviously
+- [13:40] inappropriate. So he's saying yes, it
+- [13:42] was inappropriate. Then after the
+- [13:44] firing, after Helen Toner was removed
+- [13:46] from the board, here is the line of
+- [13:49] questioning. Did you support removing
+- [13:51] Helen Toner from the board or asking her
+- [13:53] to leave? Ilia, at least at one point, I
+- [13:56] expressed support. Remember, Ilia stayed
+- [13:59] on after this whole fiasco happened for
+- [14:02] a while actually and he supported at
+- [14:05] least for a time being getting rid of
+- [14:07] Helen Toner. Now, here is something
+- [14:10] crazy. Helen Toner believed that if Sam
+- [14:14] Alman leaving OpenAI caused Open AI to
+- [14:17] get destroyed, that would still be in
+- [14:20] line with Open AI's mission. So she was
+- [14:23] willing to kill the company and still
+- [14:25] believed it was the right thing to do.
+- [14:28] So after Sam was removed, do you recall
+- [14:30] Hail and Toner telling employees that
+- [14:32] allowing the company to be destroyed
+- [14:33] would be consistent with the mission?
+- [14:35] Aaliyah, I do recall. What was the
+- [14:38] context of that comment? The executives,
+- [14:40] it was a meeting with the board members
+- [14:41] and the executive team. The executives
+- [14:44] told the board that if Sam does not
+- [14:46] return, then Open AI will be destroyed
+- [14:49] and that's inconsistent with Open AI's
+- [14:51] mission. And Helen Toner said something
+- [14:54] to the effect of that it is consistent,
+- [14:57] but I think she said it even more
+- [14:59] directly than that. She was willing to
+- [15:01] let Open AAI be destroyed. Now the
+- [15:04] lawyer asked Ilia, "What do you think?
+- [15:06] Do you think that was consistent?" He
+- [15:08] says, "I could imagine hypothetical
+- [15:10] extreme circumstances that answer would
+- [15:13] be yes." But at that point in time, the
+- [15:16] answer was definitely no from me. Now
+- [15:18] they start asking about Sam's time at Y
+- [15:21] Combinator. If you're not familiar, Y
+- [15:23] Cominator is the premier accelerator in
+- [15:26] Silicon Valley. They invest in thousands
+- [15:29] of startups, many of which you have
+- [15:31] heard of, Airbnb, Stripe, Coinbase, and
+- [15:35] many more. And Sam Alman went through
+- [15:36] the accelerator with his own company and
+- [15:38] then eventually became president of YC.
+- [15:41] So the lawyer asks and you say here
+- [15:44] there's reason to believe that Sam was
+- [15:46] removed from YC in the past for a reason
+- [15:48] similar to the one that you identify in
+- [15:51] this document. And here the lawyer's
+- [15:52] reading a document to Ilia Sam was
+- [15:55] pushed out from YC for similar
+- [15:56] behaviors. He was creating chaos,
+- [15:58] starting lots of new projects, pitting
+- [16:00] people against each other and thus was
+- [16:02] not managing YC well. And Paul Graham
+- [16:05] did actually refute this claim. So May
+- [16:08] 30th, 2024, I got tired of hearing that
+- [16:11] YC fired Sam. So here's what actually
+- [16:14] happened. People have been claiming YC
+- [16:16] fired Sam Alman. That's not true. Here's
+- [16:18] what actually happened. For several
+- [16:20] years, he was running both YC and Open
+- [16:22] AI. But when OpenAI announced that it
+- [16:24] was going to have a for-profit
+- [16:26] subsidiary and that Sam was going to be
+- [16:28] the CEO, we specifically Jessica, one of
+- [16:31] the founders of YC, Paul Graham's wife,
+- [16:33] told him that if he was going to work
+- [16:36] full-time on OpenAI, we should find
+- [16:37] someone else to run YC. And he agreed.
+- [16:40] If he'd said that he was going to find
+- [16:42] someone else to be CEO of OpenAI so that
+- [16:44] he could focus 100% on YC, we'd been
+- [16:47] fine with that, too. We didn't want him
+- [16:50] to leave. Just choose one or the other.
+- [16:52] And that's understandable and seemingly
+- [16:54] continues to be the dynamic between Paul
+- [16:55] Graham, YC and Sam Alman. They all seem
+- [16:58] to have a very good relationship. They
+- [17:00] all seem to praise Sam Alman's executive
+- [17:04] ability. And Mera Marotti was the person
+- [17:08] who told Ily this. So this information
+- [17:10] came only from Meera. Ilia, yes. Did you
+- [17:13] did you seek to verify the information
+- [17:15] with Brad? that is Brad Litecap,
+- [17:17] currently chief operating officer of
+- [17:20] OpenAI. And Ilia says, "No, he did not
+- [17:23] verify that information." And it
+- [17:25] continues, "The lawyer is reading a
+- [17:27] document again. Interestingly, it is my
+- [17:29] understanding that Greg has was
+- [17:31] essentially fired from Stripe as well."
+- [17:33] Ilia says, "Yes. What was the basis for
+- [17:36] that allegation?" Again, Meera told me.
+- [17:39] Did you seek to verify it with Greg? No.
+- [17:41] Why not? It didn't occur to me. I
+- [17:43] thought that I fully believed the
+- [17:45] information that Meera was giving me.
+- [17:47] Then here is a section entitled pitting
+- [17:50] people against each other. So the lawyer
+- [17:52] says, turning to the next page, you see
+- [17:54] an example that's offered is Daniela,
+- [17:56] which is Daniela Amade, Daario Amade's
+- [18:00] sister, also both founders and leaders
+- [18:03] of Anthropic. Dianiela versus Meera. Who
+- [18:07] told you that Sam pitted Dianiela
+- [18:09] against Meera? Answer again. Meera.
+- [18:12] Meera really was telling Ilia all of
+- [18:15] these things. Now, keep in mind this may
+- [18:18] have been what Meera was perceiving
+- [18:20] happening. Whether it is true or not,
+- [18:23] that is up for discussion. Now at a
+- [18:25] certain point it becomes clear that
+- [18:27] Daario wanted to be the head of research
+- [18:30] at OpenAI and that is a replacement for
+- [18:33] Greg Brockman and Sam Olman was not
+- [18:36] making a firm decision either saying yes
+- [18:38] Daario you can lead or no Greg Brockman
+- [18:41] is the leader you report to him. So as
+- [18:44] read Sam was not taking a firm position
+- [18:46] in respect of Daario wanting to run all
+- [18:48] of research at OpenAI and to have Greg
+- [18:52] fired. And so, not only did Dario want
+- [18:54] to run all of research, but he also
+- [18:56] wanted Greg Brockman out. And Ilia says,
+- [18:58] "The real problem was that, well, let me
+- [19:01] just read it." My recollection of what I
+- [19:03] wrote here is that I was faulting Sam
+- [19:06] for not accepting or rejecting Daario's
+- [19:08] conditions. Daario said, "I want to take
+- [19:10] over, and here's what I need to make
+- [19:12] that happen." And Sam didn't just say,
+- [19:14] "Okay," or "No." He simply just let it
+- [19:17] sit there. And of course, lack of
+- [19:19] decision-making is oftent times worse
+- [19:22] than the actual decision being made. So
+- [19:24] they go on to ask, "Was Daario's
+- [19:27] conditions fair to take over?" And Ilia
+- [19:30] says, "I don't have precise enough
+- [19:31] knowledge of Daario's conditions, but my
+- [19:32] overall sense is that they were not fair
+- [19:34] and that Sam should have rejected them
+- [19:36] outright." And then they start to talk
+- [19:38] about Yakob Pachaki as read. So this is
+- [19:41] the lawyer reading a document involves
+- [19:43] Sam lying, undermining Meera,
+- [19:45] undermining Ilia, and pitting Yakob
+- [19:48] against Ilia. Joint work with Greg and
+- [19:50] YaKob. What was the lying in the episode
+- [19:54] by Sam in the episode involving YaKob?
+- [19:56] Ilia replies, "Sam was telling me and
+- [19:58] YaKob conflicting things about the way
+- [20:00] the company would be run. And just keep
+- [20:03] in mind, Yaka Pachaki is currently chief
+- [20:06] scientist at Open AI alongside Mark
+- [20:09] Chen, who is the chief research officer.
+- [20:12] And the lawyer continues to ask
+- [20:14] questions to Ilia, asking him follow-up
+- [20:17] questions. And I think this is really
+- [20:18] funny. Ilia's lawyer says, "We're now
+- [20:20] bordering on harassing the witness, and
+- [20:23] I am going to shut it down." All right.
+- [20:25] Then we get to a really interesting bit.
+- [20:28] It turns out, and I didn't know about
+- [20:30] this, I don't think this was public
+- [20:32] until now, Anthropic during all of this
+- [20:35] conflict, actually tried to either
+- [20:39] acquire or merge with Open AI. Remember,
+- [20:42] Daario had already left. He started
+- [20:44] Anthropic with his sister. And now
+- [20:47] during the time Sam Alman was fired, he
+- [20:50] tried to merge with OpenAI. So lawyer,
+- [20:54] do you know whether a proposal was made
+- [20:55] around the time for OpenAI to merge with
+- [20:57] Anthropic? He answers, I do know about
+- [21:00] that. The lawyer says, tell me. I don't
+- [21:02] I don't know whether it was Helen who
+- [21:04] reached out to Anthropic or whether
+- [21:06] Anthropic reached out to Helen, Helen
+- [21:08] Toner from OpenAI's board, but they
+- [21:10] reached out with a proposal to be merged
+- [21:12] with OpenAI and take over its
+- [21:14] leadership. And what ended up happening
+- [21:16] with that proposal? I recall Anthropic
+- [21:18] expressing their excitement about it and
+- [21:20] expressing the issue, the practical
+- [21:22] challenges that they would have with it.
+- [21:24] And what was your response asking Ilia?
+- [21:27] I was very unhappy about it. Why?
+- [21:30] Because I really did not want OpenAI to
+- [21:32] merge with Anthropic. Why not? I just
+- [21:35] didn't want to. And then what about the
+- [21:37] other board members? Were they
+- [21:38] supportive? They were a lot more
+- [21:40] supportive. Yes. Were all of them
+- [21:42] supportive? I think at the very least
+- [21:44] none were unsupportive. And then he asks
+- [21:47] who was the most supportive and he says
+- [21:49] Helen Toner. Then he starts asking about
+- [21:52] an article that came out and who was
+- [21:54] actually talking to the reporter. So as
+- [21:57] read from the article, Sudskver had been
+- [22:00] waiting for a moment when the board
+- [22:01] dynamics would allow for Almond to be
+- [22:03] replaced as the CEO. And so he asks what
+- [22:06] were the dynamics you were waiting for?
+- [22:08] And Ilia says that the majority of the
+- [22:10] board is not obviously friendly with
+- [22:12] Sam. Then he says when did that happen?
+- [22:14] when someone there was a sequence of
+- [22:15] rapid departures from the board for
+- [22:17] different reasons. I don't remember what
+- [22:18] they were. I don't remember who exactly
+- [22:20] left, but that's what it's referring to.
+- [22:22] Question. So, for how long have you been
+- [22:24] planning to propose removal of Sam? This
+- [22:27] is where it gets wild. For some time, I
+- [22:31] mean, planning is the wrong word because
+- [22:32] it didn't seem feasible. He didn't even
+- [22:34] think it was possible. He wanted to for
+- [22:36] a long time, and I'm going to tell you
+- [22:37] how long, but he didn't even think it
+- [22:39] was possible. He says it didn't seem
+- [22:41] feasible. It was not feasible prior. So,
+- [22:43] I was not planning. How long had you
+- [22:45] been considering it? At least a year.
+- [22:49] So, he was unhappy for a long time. And
+- [22:53] after the firing, Ilia was surprised by
+- [22:57] the reaction of OpenAI's employees. I
+- [22:59] don't think he really understood the
+- [23:01] cultural significance that Sam Alman had
+- [23:05] and the morale influence Sam Alman had
+- [23:08] on OpenAI's team members. So, as read
+- [23:11] from an article, Suskgiver was
+- [23:13] astounded. He had expected the employees
+- [23:15] of OpenAI to cheer. That's cheer at Sam
+- [23:17] Alman's firing. Is that true? He asks
+- [23:20] Ilia. I had not expected them to cheer,
+- [23:22] but I have not expected them to feel
+- [23:24] strongly either way. But they did.
+- [23:27] Remember, there was a whole campaign
+- [23:28] where so many of OpenAI's employees were
+- [23:31] posting on Twitter, OpenAI is nothing
+- [23:33] without its team or something along
+- [23:35] those lines. All right. Next, the
+- [23:37] witness Ilia gets passed to Microsoft's
+- [23:40] lawyers. Now, is it your belief that Sam
+- [23:42] Alman will have a financial interest in
+- [23:44] open AI someday? And remember, we just
+- [23:47] found out Sam Alman continues to have
+- [23:49] zero shares in Open AI. So, when he was
+- [23:53] in front of Senate and said, I have no
+- [23:55] financial interest in making OpenAI
+- [23:58] successful. I'm already a billionaire. I
+- [23:59] don't need more money. He said, hey,
+- [24:01] that was a little tonedeaf, but yeah, it
+- [24:03] was true and continues to be true. I
+- [24:06] have no stake in these companies. Ilia
+- [24:08] says, I recall reading about it in the
+- [24:10] news, but I don't know how accurate it
+- [24:12] is. Meaning Sam Alman having eventually
+- [24:15] a stake in open AI. And then Ilia
+- [24:17] Suskver ended up leaving OpenAI and
+- [24:19] starting his own company, his own
+- [24:21] frontier lab, Safe Super Intelligence.
+- [24:24] So the lawyer asked, why did you leave?
+- [24:27] Ultimately, I had a big new vision and I
+- [24:29] felt it more suitable for a new company.
+- [24:32] At the time, immediately prior to your
+- [24:35] departure of OpenAI, did you have an
+- [24:36] equity stake in the company? Yes,
+- [24:39] obviously. What do you believe the value
+- [24:41] of that equity stake was at the time you
+- [24:43] left? And then they go back and forth
+- [24:45] again saying, "Ilia should not have to
+- [24:48] say what the value of that stake is
+- [24:49] worth, and it's irrelevant to everything
+- [24:52] else we're talking about." And of
+- [24:53] course, a little bit more bickering.
+- [24:55] We've heard a lot of you today, so let
+- [24:56] me finish. I love that. Then they go
+- [24:59] back, do you still have a financial
+- [25:00] interest in OpenAI? Yes. Has the amount
+- [25:03] of the interest increased or decreased
+- [25:05] since you've left OpenAI? Increased. Of
+- [25:08] course, it's gone up in value. So
+- [25:10] apparently since he left OpenAI, he's
+- [25:12] actually gotten more shares and then
+- [25:13] they continue. And the shares that he
+- [25:16] did get and the increasing amount of
+- [25:18] shares have also increased in value. Has
+- [25:20] the value of your interest in OpenAI
+- [25:22] increased or decreased since you left
+- [25:23] OpenAI increased? Okay, now this next
+- [25:26] section is just kind of hilarious. It's
+- [25:29] bickering between the two sets of
+- [25:31] lawyers. And rather than me just reading
+- [25:33] it, I'm going to roleplay it with Alex.
+- [25:36] Be courteous and respectful.
+- [25:38] >> You be courteous and respectful.
+- [25:40] >> The court reporter says the court
+- [25:42] reporter is noting for the record that
+- [25:44] it cannot be taken due to simultaneous
+- [25:46] cross talk. Once council can continue
+- [25:48] with the quorum in a professional
+- [25:49] manner, the record will resume. Let's
+- [25:52] take five.
+- [25:52] >> Yeah, don't raise your voice.
+- [25:54] >> I'm tired of being told that I'm talking
+- [25:56] too much.
+- [25:57] >> Well, you are.
+- [25:58] >> Check yourself. All right. Now, back to
+- [26:01] the line of questioning. The lawyers
+- [26:02] ask, Ilia, what is saved super
+- [26:04] intelligence? What is the purpose of
+- [26:06] that company? To do a new and different
+- [26:09] kind of research. And what does that
+- [26:11] mean exactly? I have a new idea of how
+- [26:13] to do things and I want to try to do
+- [26:15] them. Then they go on to discussing
+- [26:17] who's paying Ilia's legal fees for this
+- [26:20] court case. And it's interesting who is
+- [26:22] paying your legal fees for this
+- [26:24] objection. Then they ask again, who is
+- [26:26] paying your legal fees? I I'm not sure.
+- [26:29] Ilia says he's not even sure who's
+- [26:31] paying for them. And have a guess, but
+- [26:33] I'm not 100% sure. How did you come to
+- [26:35] retain counsel? And then the lawyer says
+- [26:37] I'm not going to allow him to answer
+- [26:39] that question. Once again, is OpenAI
+- [26:41] paying your legal fees? I think that's
+- [26:44] probably the case. So, that's it. I
+- [26:46] found this absolutely fascinating. I
+- [26:49] loved the back and forth between the
+- [26:50] lawyers. I love the new information we
+- [26:52] found about this. It is seemingly
+- [26:54] inevitable that we're going to have a
+- [26:56] movie about what went down with OpenAI.
+- [26:58] And once again, thank you to Recraft.
+- [27:00] They've been a phenomenal partner. Check
+- [27:03] them out. I'll drop the links down
+- [27:04] below. Click through. Let them know I
+- [27:06] sent you because they have a fantastic
+- [27:08] product. And if you enjoyed this video,
+- [27:11] please consider giving a like and
+- [27:12] subscribe. band. I'll see you in the
+- [27:13] next

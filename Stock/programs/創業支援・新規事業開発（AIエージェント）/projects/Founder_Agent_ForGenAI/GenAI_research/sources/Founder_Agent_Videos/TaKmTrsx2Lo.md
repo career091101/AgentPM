@@ -1,0 +1,961 @@
+---
+title: "Transcript: TaKmTrsx2Lo"
+video_id: "TaKmTrsx2Lo"
+video_url: "https://www.youtube.com/watch?v=TaKmTrsx2Lo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:30:54"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TaKmTrsx2Lo
+
+- URL: https://www.youtube.com/watch?v=TaKmTrsx2Lo
+- Retrieved at: 2025-12-30T10:57:44+09:00
+
+## Text
+
+- [00:00] I figured out a workflow for claude code
+- [00:02] that will absolutely blow your mind. It
+- [00:04] will have you building apps faster than
+- [00:06] you ever have before. Even if you've
+- [00:08] never in a line of code in your life,
+- [00:09] doesn't matter if this is your first
+- [00:10] time using Claude Code or you're a
+- [00:12] Claude Code master. The skills you're
+- [00:14] about to learn in this video will change
+- [00:16] how you use AI forever. If you stick
+- [00:18] with me, 20 minutes from right now,
+- [00:21] you'll be coming up with endless ideas
+- [00:23] for apps you can build. You'll be
+- [00:24] spinning up armies of AI agents to build
+- [00:26] it. and you'll be able to ship an app
+- [00:28] that you can start making money on
+- [00:30] today. Let's get into it. Let's go
+- [00:32] through the setup first. What you see
+- [00:34] here is on the right, Visual Studio Code
+- [00:37] with the Claude Code extension. I'll
+- [00:39] have the link to Visual Studio Code down
+- [00:41] below. It is completely free. No monthly
+- [00:44] subscription, nothing like that. I use
+- [00:46] the Claude Code extension. To download
+- [00:48] that, all you have to do is go into the
+- [00:51] extension section of Visual Studio Code.
+- [00:54] You type in claude code, you hit
+- [00:55] install, and boom, you have the claude
+- [00:58] code extension installed. There's many
+- [01:00] ways you can use cloud code. The CLI,
+- [01:02] the extension inside cursor inside
+- [01:04] Visual Studio. For me, my preferred
+- [01:07] workflow is the extension inside Visual
+- [01:09] Studio because Visual Studio Code is
+- [01:11] free and very, very dependable. I've
+- [01:13] never had an issue with extensions.
+- [01:14] Sometimes I have issues installing
+- [01:16] extensions inside Cursor. And I like the
+- [01:19] extension for claude code rather than
+- [01:21] through the CLI because I like the UI
+- [01:23] just so much more. It's so much easier
+- [01:25] to use, cleaner, and you have some extra
+- [01:26] features that are very nice for quality
+- [01:28] of life. Over on the left hand side,
+- [01:31] what you see here is Claude Code for
+- [01:33] web. The newest feature for Claude Code,
+- [01:36] which will be going through here, you're
+- [01:37] not going to see this feature in any
+- [01:38] other video on YouTube. This is their
+- [01:41] basically cloud platform where you can
+- [01:44] spin up as many agents as you want that
+- [01:46] will work on your app for you that will
+- [01:48] develop ideas that will do anything you
+- [01:50] want. It's really really amazing and
+- [01:52] I'll be going through that as well and
+- [01:53] show you how these two things work
+- [01:55] together to superpower your workflow.
+- [01:58] When I get these two working together in
+- [02:00] this video, it's it's going to be
+- [02:01] harmony. It's going to be beautiful.
+- [02:02] It's like directing an orchestra of AI
+- [02:04] agents. You got to stick with me here. I
+- [02:06] highly recommend working with me as we
+- [02:08] do the video. So, feel free to pause
+- [02:09] right now, download Visual Studio Code.
+- [02:12] You only really need the $20 version of
+- [02:14] Claude to use Claude Code. So, feel free
+- [02:17] to sign up for that. If you like it, if
+- [02:19] you build this app out with me, then you
+- [02:21] can sign up for one of the more
+- [02:22] expensive versions so you get a lot more
+- [02:23] usage. But for the sake of this video,
+- [02:24] feel free to do the $20 version. We can
+- [02:26] get this app running. But let's do this.
+- [02:29] Let's start building our app. Today, we
+- [02:31] are going to be building a project
+- [02:33] management tool. I like to build apps
+- [02:36] that I can use every single day that
+- [02:38] make my life easier. That's the best
+- [02:40] type of app to build, ones that you use
+- [02:42] yourself because even if no one buys and
+- [02:43] you make zero dollars, your life's
+- [02:44] getting easier. So, we're going to build
+- [02:46] a project management tool today that
+- [02:48] allows us to organize our ideas,
+- [02:50] organize our tasks, and be way more
+- [02:52] productive. I want to basically build a
+- [02:53] canban board similar to this that we can
+- [02:55] use on our own every single day to
+- [02:57] manage our projects. So, let's do this.
+- [03:00] Let's start with the design of our app.
+- [03:02] What our app is going to look like. I
+- [03:04] promise this is something you haven't
+- [03:05] seen in any other video. We're going to
+- [03:07] make sure this app looks good rather
+- [03:09] than like AI slop which you'll typically
+- [03:10] get if you start building an app with no
+- [03:12] design inspiration. And where we're
+- [03:14] going to start for this, this is one of
+- [03:15] the new parts of my workflow I just
+- [03:17] figured out is actually with Vzero. So
+- [03:19] if you log into Vzero, which has a free
+- [03:21] tier, you can go to this section right
+- [03:24] here on the left, which is design
+- [03:25] systems. You don't have to pay for this.
+- [03:27] This is not me trying to get you sign up
+- [03:28] for another service. They just have a
+- [03:30] free section in here that I really,
+- [03:31] really like, which is this design
+- [03:33] systems. And what we're going to do is
+- [03:35] choose a design for our app and
+- [03:38] basically export it from V 0 to claude
+- [03:41] code really, really easily. So, I like
+- [03:43] this soft pop here. This soft pop looks
+- [03:45] nice. Let's open this up in the editor.
+- [03:46] I like the way these colors look, the
+- [03:48] way they pop. So, we're going to do this
+- [03:50] to get the design in the clawed code.
+- [03:53] Literally, all we're going to do is I'm
+- [03:54] just going to screenshot this. So, I
+- [03:56] chose the design I like. I'm going to on
+- [03:59] Mac screenshot it like this. If you're
+- [04:02] on Mac you can do shift controlcommand
+- [04:04] 4. That actually just copies the screen
+- [04:06] and then you can paste it in. I'm going
+- [04:08] to take this design and then I'm going
+- [04:10] to go in here and I'm going to go back
+- [04:11] into claw code. I'm going to paste in
+- [04:13] that screenshot and we're going to do
+- [04:15] this. This is going to be the prompt for
+- [04:17] our app. I'm going to put this down
+- [04:18] below too if you just want to copy and
+- [04:20] paste it and put it in. Right before we
+- [04:22] do that though, real quick and this is a
+- [04:23] very important step. We're going to do
+- [04:25] slashmodel and we're going to say select
+- [04:28] model and we're going to choose haiku
+- [04:30] 4.5. The reason we're doing this is very
+- [04:32] very simple. What's going to happen is
+- [04:35] haiku 4.5 is the cheapest quickest model
+- [04:38] from anthropic. And the way it's going
+- [04:40] to work is it's going to use sonnet 45
+- [04:42] which is their best model for planning.
+- [04:45] So it's going to use their best model
+- [04:46] build out the really nice in-depth
+- [04:48] plans. Then it's going to use haiku for
+- [04:50] the execution. And as long as you got a
+- [04:53] really good plan, which is what Sonnet
+- [04:54] is going to do, Haiku is going to be
+- [04:56] able to build that out really, really
+- [04:58] well and you're going to save a ton of
+- [04:59] money. So, you'll be able to get way
+- [05:01] more usage out of a $20 tier if that's
+- [05:02] what you're doing. I highly recommend
+- [05:04] everyone use this. You select Haiku and
+- [05:06] it'll use Sonnet for planning and the
+- [05:08] cheap model Haiku for the execution,
+- [05:10] which you'll get just as good results
+- [05:12] with. Now that we did that, let's paste
+- [05:14] in the prompt. You can copy and paste it
+- [05:16] from down below in the description and
+- [05:18] build this alongside with me. I want to
+- [05:20] build a project management app for vibe
+- [05:21] coding apps. Basically, the way I want
+- [05:23] it to work is it's a cananband board
+- [05:24] with todo, in progress, and completed
+- [05:27] sections. Plus, I can add more if I
+- [05:29] want. I can add cards to the canban
+- [05:31] board for tasks and add notes to the
+- [05:33] cards. The app should look like the
+- [05:35] design in the screenshot I attached and
+- [05:37] be beautiful and nice to use animations,
+- [05:39] especially when I drag the cards. Use
+- [05:41] Nex.js and Tailwind V3 for this. Just
+- [05:44] use local storage for now. No off. Next.
+- [05:46] JS and Tailwind 1V3 are the web
+- [05:48] technologies we're going to use to build
+- [05:49] the app. It's like the most popular
+- [05:50] technologies out there right now. So,
+- [05:52] it'll be very easy to build your apps
+- [05:54] out. Before we send this prompt, we're
+- [05:56] just going to hit shift tab twice, which
+- [05:59] will put us in plan mode, which you see
+- [06:00] right there. And if you're brand new to
+- [06:02] Claude Code, this is just the mode where
+- [06:03] it's not going to write any code. It's
+- [06:05] just going to build us out a very
+- [06:06] detailed plan with Sonnet 45, which is
+- [06:08] going to make the code generation so
+- [06:10] much more powerful. You want to use plan
+- [06:13] mode before you do any major step. The
+- [06:16] only times I'm not using plan mode is if
+- [06:17] I'm doing really really simple tasks
+- [06:19] like changing just a UI element. But
+- [06:22] anything more than just changing a UI
+- [06:23] element. You want to use plan. It might
+- [06:25] add just an extra step here and there.
+- [06:28] But I promise adding this extra step
+- [06:30] will have you moving so much faster
+- [06:31] because the AI is going to write only
+- [06:33] reliable code. So we're in plan mode.
+- [06:35] Let's hit send. The AI is going to start
+- [06:37] working. It's going to use signet 45 to
+- [06:39] build out this plan for us. Then we're
+- [06:41] going to approve it right after. I can't
+- [06:43] wait to get into the next steps of this
+- [06:45] workflow with you, especially when we
+- [06:47] start looping in claw code for web and I
+- [06:49] show you how you can spin up an army of
+- [06:51] AI agents that's going to do work for
+- [06:53] you while we work on the app, even while
+- [06:56] we're sleeping. So, here we go. It set
+- [06:58] up the plan for us. This is awesome. So,
+- [07:00] it's going to initialize the project.
+- [07:02] It's going to configure the CSS. It's
+- [07:04] going to install a bunch of libraries
+- [07:06] that will make the animations nice for
+- [07:07] us. And listen, if you're brand new to
+- [07:09] coding or you're not very technical,
+- [07:11] that's fine. You don't have to worry
+- [07:12] about the technical part. Just make sure
+- [07:14] you go through the plan to make sure it
+- [07:16] sounds generally right. So, it's going
+- [07:18] to create the cananband board and data
+- [07:19] structure. It's going to build the board
+- [07:21] out. It's going to implement the
+- [07:22] columns. It's going to create the card
+- [07:24] components and it's going to add all the
+- [07:25] nice polish and animations, which is
+- [07:27] great. Again, I like Nex.js because
+- [07:29] there's tons of documentation for it
+- [07:31] online. These AIs heavily rely on
+- [07:34] documentation, so it's very easy to find
+- [07:36] that and build out your app for you. So,
+- [07:38] I like this plan, right? If you didn't
+- [07:39] like the plan, you can say no, keep
+- [07:41] planning and ask it to do other things
+- [07:42] or change the plan. Let's hit yes on
+- [07:44] this. It is going to start building out
+- [07:47] that app. By the way, I say yes and
+- [07:49] don't ask again. I fully trust Claude
+- [07:51] Code. I've used this a 100,000 times. It
+- [07:54] very rarely messes up. So, I just say
+- [07:56] yes and don't ask again. And it builds
+- [07:57] it out. While that works and builds out
+- [08:00] the app, I'm going to go into one of the
+- [08:02] most important stages of our workflow,
+- [08:05] which is kind of the brainstorming,
+- [08:07] coming up with idea stage. And for the
+- [08:10] ideation stage, I really like this tool,
+- [08:12] tick tick. It is completely free. You
+- [08:14] can download that, but you can also do
+- [08:15] this in Apple notes or Google notes or
+- [08:17] whatever you use. You don't need
+- [08:19] anything fancy for this, but I think
+- [08:20] it's really important you do this stage
+- [08:22] of the workflow. Not many people are
+- [08:24] doing this, and I think it's critical.
+- [08:25] This is your project management stage.
+- [08:28] This is how you're going to manage your
+- [08:29] ideas, organi organize your ideas, and
+- [08:31] come up with new things to build out and
+- [08:34] it's going to make communicating with
+- [08:35] Claude Code so much easier. So, as
+- [08:38] Claude Code builds out, I like to go
+- [08:39] into my project management tool. So,
+- [08:42] whether it's Apple Notes, I use Tick
+- [08:43] Tick. And what you do is just brain dump
+- [08:46] ideas for your app, for features, for
+- [08:48] whatever you're building in here, right?
+- [08:50] So, we're building our own project
+- [08:51] management tool, which is kind of meta.
+- [08:53] and we're going to go let's go into in
+- [08:54] progress and this is what we're building
+- [08:55] now and say build the base application.
+- [09:00] So that's what we're working on now in
+- [09:02] progress. But let's come up with some
+- [09:03] more ideas for to-do here and I'm going
+- [09:05] to show you some ways to use AI to
+- [09:07] actually come up with way more ideas in
+- [09:08] a second once we go into cloud code for
+- [09:10] web. So we can come up with some new
+- [09:11] ideas for tasks here. Let's do generate
+- [09:15] AI prompts in each card. So I want to be
+- [09:18] able to when I'm inside our project
+- [09:20] management tool in each card say
+- [09:21] generate prompt so that we can take the
+- [09:24] prompts and put in the cloud code if
+- [09:26] we're like managing our vibe coding apps
+- [09:27] in our new project management tool. So
+- [09:29] I'm going to hit enter on that. We can
+- [09:31] say login/off
+- [09:34] database customize the look and feel AI
+- [09:39] functionality. Right? We're just coming
+- [09:41] up and brainstorming and and dumping our
+- [09:43] ideas for our app into here. And then as
+- [09:46] we build this out, as I go later into
+- [09:48] this workflow and we're using clawed web
+- [09:50] and we're spinning up AI agents, we can
+- [09:52] just start taking all these ideas we're
+- [09:54] brain dumping and give them to the AI
+- [09:56] agents to build on their own. A lot of
+- [09:59] people, they just go in here and they
+- [10:00] just go in cloud code and they just kind
+- [10:02] of type their ideas as they come. You
+- [10:03] want to stay organized and this is the
+- [10:06] best way to stay organized. Again, this
+- [10:08] is adding an extra step, but with this
+- [10:10] extra step, it will speed up your
+- [10:12] workflow so much more at the end of the
+- [10:14] day. So, as we do this, pull open an
+- [10:15] Apple notes if you want. Download Tick
+- [10:17] Tick if you want. Whatever you want. A
+- [10:18] lot of people use Linear. That's kind of
+- [10:20] the hot trending new project management
+- [10:21] tool. Whatever you want to use. It
+- [10:24] doesn't have to get complicated. I'm not
+- [10:25] trying to sell you on these tools here.
+- [10:27] Just pull one open. Brain dump your
+- [10:29] idea. So, when we get later into this
+- [10:31] workflow, when we start doing a lot
+- [10:32] cooler things with Claude for Web, you
+- [10:34] can just start pulling these out and
+- [10:35] build them out with me. As this is
+- [10:37] going, just as a side note, I get this
+- [10:39] question a thousand times a day. Why
+- [10:40] Claude Code? Why not Codeex? Why not
+- [10:42] Cursor 2.0? Noise Encursor 2.0,
+- [10:44] Incredible, all that. I'm just going to
+- [10:46] be honest with you as this builds out.
+- [10:48] I'm not getting paid by any of these
+- [10:50] companies. I'm not sponsored. I have no
+- [10:52] loyalty here. Enthropic isn't paying me
+- [10:54] here. Although, Enthropic, listen, if
+- [10:56] you want a sponsor video, more than
+- [10:57] happy to do it. Uh, but the reason why I
+- [11:00] talk about Claude Code so much and this
+- [11:02] video is all about Claude Code workflows
+- [11:04] and I developed this workflow so much is
+- [11:05] just in my opinion, at the end of the
+- [11:07] day, Cloud Code is the best AI coding
+- [11:08] tool out there right now. Just period,
+- [11:10] end of story. I've used them all. For
+- [11:12] me, Claude Code is just the most
+- [11:13] reliable and writes the best code and
+- [11:15] and doesn't put me in error loops and is
+- [11:17] just the most beginner friendly. It just
+- [11:20] gives me the best results and that's why
+- [11:21] all my videos are about them. All right.
+- [11:23] Boom. It's all done working here.
+- [11:24] Perfect. Your Vive Canban project
+- [11:26] management app is now complete and ready
+- [11:28] to use. It shows me all the features it
+- [11:30] built out. And this is another thing I
+- [11:31] love about Claude Code 2 is just its
+- [11:34] descriptions of what it builds and how
+- [11:36] it talks to you. Like I know this is
+- [11:38] kind of a crazy thing to say. It might
+- [11:40] be all hippie- dippy, but at the end of
+- [11:41] the day, like vibes are a thing. I think
+- [11:44] when it comes to talking to AI, like
+- [11:45] that's a critical thing for me is the
+- [11:47] vibes. And I'm going to be honest with
+- [11:48] you, out of all the AI tools out there,
+- [11:50] Claude Code, just the way it
+- [11:52] communicates to me is so warm. It's so
+- [11:54] friendly. It feels like a partner
+- [11:56] developer. It doesn't feel like it's
+- [11:58] talking down to me. It's not super
+- [12:00] technical. It feels like it talks at my
+- [12:02] level. And it's just super pleasant and
+- [12:04] easy to read all the descriptions. And
+- [12:07] that's another reason why I just really
+- [12:08] enjoy using this tool. But like this is
+- [12:10] just great. Like I can see the core
+- [12:11] features really easily, the design and
+- [12:14] UX. I'm not a fan of overuse of emojis,
+- [12:16] but I think it's tasteful the way they
+- [12:18] use emojis in this the structuring where
+- [12:20] I can see the project structure really
+- [12:22] well. It's just super easy to read all
+- [12:23] this and understand what they did. I
+- [12:25] think for you, even if you're not very
+- [12:26] technical, make sure you take the time
+- [12:28] and just read the summary of what it
+- [12:30] built so you can just be super intimate
+- [12:31] with your app. Again, I don't need I
+- [12:33] don't think you need to know how to read
+- [12:34] code to do any of this, but just be in
+- [12:36] just be familiar with how your app works
+- [12:38] and go through this and see what it
+- [12:39] built out. So, let's do this. I hit
+- [12:41] control till day on Mac to bring up the
+- [12:44] terminal right here. And then we do npm
+- [12:46] rundev and we hit enter. And that is
+- [12:48] going to run our app. And as you can see
+- [12:50] here, localhost 3000. I'm going to hold
+- [12:53] command and then click there. All right,
+- [12:55] here we go. Let me make this bigger
+- [12:56] here. Wow, that's nice. That looks good.
+- [12:58] So, this is the V1 of our cananband
+- [13:00] board. I'm going to show you how to do a
+- [13:01] lot more things right now after this,
+- [13:03] including adding features, using clawed
+- [13:05] web, and a whole bunch of other little
+- [13:06] tips and tricks. But that is really
+- [13:08] sick. That's a good V1. It is better
+- [13:10] than your standard uh UI I think you get
+- [13:13] with AI because we included that
+- [13:15] screenshot. Usually get the purple and
+- [13:17] the blue gradients. There's not a single
+- [13:19] purple or blue gradient to be seen here.
+- [13:21] And when I click and drag, oh, that's
+- [13:23] nice. You get that nice animation for
+- [13:25] clicking and dragging. That's really
+- [13:26] good. So, congrats if this is your first
+- [13:28] time ever building with AI. You just
+- [13:30] built your first app. But we're not even
+- [13:32] 10% done here. Let's start adding a lot
+- [13:34] more cool things to this and I'll show
+- [13:35] you the rest of my workflow. So to get
+- [13:37] Claude for web working, which is a
+- [13:39] critical part of this workflow, we need
+- [13:42] to put this app on GitHub. GitHub is an
+- [13:44] online repository for code that Claude
+- [13:47] code will hook into so that their AI
+- [13:49] agents can do work for us while we sleep
+- [13:51] if we want. So do this. Go to
+- [13:52] github.com.
+- [13:54] Make an account here if you haven't
+- [13:55] already. Completely free. We're going to
+- [13:58] create a new repository for this. We're
+- [14:00] going to call it project management app.
+- [14:03] Going to go down here. You can make it
+- [14:05] private if you want. And then we're
+- [14:06] going to click create repository. Once
+- [14:09] that is set up, we are going to copy
+- [14:12] this address for the repository and
+- [14:14] we're going to go back into cloud code.
+- [14:16] Now we're going to say please commit
+- [14:19] this code to and then we're going to put
+- [14:22] the address right there and we're going
+- [14:24] to hit enter. And now what Claude Code
+- [14:26] will do is take all our code and put it
+- [14:29] into that GitHub repository. Now, if
+- [14:31] this is your first time ever using
+- [14:33] GitHub, ever using it in Claude Code,
+- [14:35] there's going to be a couple extra login
+- [14:37] steps where it'll say, "Hey, please log
+- [14:38] into your GitHub and do a couple things
+- [14:40] there." If you get confused as it goes
+- [14:42] to say, "Hey, I don't know why this
+- [14:44] isn't working." You screenshot it, give
+- [14:45] it to Claude Code. Cloud Code will fix
+- [14:47] it for you. It'll understand what you
+- [14:48] need to do. That should just take a
+- [14:50] couple minutes. But if you used GitHub
+- [14:51] before, you can just say yes and don't
+- [14:53] ask again and it will initiate all this
+- [14:55] for us. That will commit our code. I hit
+- [14:58] yes here. And again, don't worry, you
+- [14:59] don't need to be a GitHub master for
+- [15:00] this. Claude will handle it all for you.
+- [15:02] Perfect. It has been committed and
+- [15:03] pushed. Let's refresh and see if we have
+- [15:05] our code here. Boom. Our code's on
+- [15:07] GitHub. That is awesome. You're now
+- [15:09] basically a full-time software
+- [15:11] developer. Congratulations. This also
+- [15:13] backs up your code. So if you ever mess
+- [15:15] up and you write code or something you
+- [15:16] don't like, you can just pull it back
+- [15:18] down from GitHub and you are good to go.
+- [15:20] This keeps your code safe. If your
+- [15:23] computer ever blows up or burns out, you
+- [15:25] have your code on the web now as a
+- [15:26] backup, which is awesome. Now we can do
+- [15:28] this. If we switch over to Claude for
+- [15:31] web and basically all you need to do is
+- [15:32] go to claude.ai, then hit code in the
+- [15:35] lefth hand bar. This will open up claude
+- [15:37] code for web which you see here. We can
+- [15:39] select our repositories by typing
+- [15:41] project management app. There it is.
+- [15:44] Boom. We are connected. We are now
+- [15:47] connected to our app from the cloud. And
+- [15:50] now we can spin up agents from cloud
+- [15:52] code web to start working on our app for
+- [15:55] us. But here's where the workflow gets
+- [15:57] interesting. I'm not only going to spin
+- [15:59] up coding agents. You think cloud code,
+- [16:01] you think, oh, you're going to use the
+- [16:02] agents for coding. No, no, no, no, no.
+- [16:04] This is a this is just a general web
+- [16:07] agent. So we can have this AI agent do
+- [16:09] anything we want on the web. So let's do
+- [16:11] this. We're not even going to have it
+- [16:12] start coding yet. We're going to go in
+- [16:13] here and we're going to do this. So I'm
+- [16:14] going to say this. Please build me out a
+- [16:16] road map for this app. Look at all the
+- [16:18] code in our project management app. Then
+- [16:20] build us a road map of features that
+- [16:22] will make our app better, make customers
+- [16:24] stickier, and overall improve the value
+- [16:27] of the app. I'm going to hit enter on
+- [16:29] that. And what that is going to do is
+- [16:32] now spin us up an AI agent in the cloud.
+- [16:34] I can hit enable. So, it's going to
+- [16:36] alert us when it is done working. And
+- [16:39] now Claude on the web. This is an AI
+- [16:41] agent on the web. This isn't even on my
+- [16:42] computer. Is now building out a
+- [16:44] comprehensive roadmap. But let's go
+- [16:46] back. It's going to go to work. Let's
+- [16:47] spin up some more AI. We're going to
+- [16:48] have a work. We're going to have an army
+- [16:50] of AI agents working for us here. I also
+- [16:52] want a marketing AI agent. So, I'm going
+- [16:54] to say this. You are a marketing agent.
+- [16:57] Please look at our app and come up with
+- [16:59] a marketing plan, including tweets and
+- [17:00] emails. Also, build us out a landing
+- [17:02] page copy and design. I'm going to hit
+- [17:04] enter on that. Now we have two AI agents
+- [17:07] on the web workers. While we have one AI
+- [17:08] agent inside claude code here to the
+- [17:10] right building our app, we now have two
+- [17:12] agents on the web building for us. But
+- [17:14] that we're not done here. Let's keep
+- [17:15] going. So I'm looking at our project
+- [17:17] management here. We have build the base
+- [17:19] application. That's done. We'll move
+- [17:20] that to finish. Let's have an AI agent
+- [17:23] customize the look and feel. So we'll
+- [17:25] put that in progress. Let's go back here
+- [17:27] and let's say build a light mode and
+- [17:29] dark mode for our app. And we're going
+- [17:32] to hit enter on that. And so now we have
+- [17:34] an actual AI agent coding for us. And
+- [17:36] now it's building out the light mode and
+- [17:38] the dark mode for us on the web. And
+- [17:40] I'll show you in a little bit how to
+- [17:41] pull down this code and put it in our
+- [17:43] app. So we have three AI agents chugging
+- [17:45] along for us on the web. If we were
+- [17:47] about to go to bed, you can go on your
+- [17:50] app on your phone and actually have your
+- [17:52] agents build. I don't think you can see
+- [17:54] it here, but I actually have the agents
+- [17:56] on my phone right here in the Claw Code
+- [17:58] app. There you can see it. You just go
+- [18:00] into the claude app and then you click
+- [18:01] code on the lefth hand side and you can
+- [18:03] see your agents. So this is
+- [18:04] crossplatform. This is on my phone, on
+- [18:05] my computer, everything. So this is
+- [18:07] really sick. But let's do this while
+- [18:08] this is in progress with our AI agents.
+- [18:11] Let's add some AI function. So let's
+- [18:13] generate AI prompts in each card. So I
+- [18:15] want to make it so that each card in our
+- [18:17] app, you can look at a task and when you
+- [18:19] click it, you can actually have it
+- [18:21] generate an AI prompt for you that you
+- [18:23] can put into Claude Code and have it
+- [18:25] build out. I think that would be really
+- [18:27] sick. So let's build that out inside
+- [18:28] cloud code. So this is part of the
+- [18:31] general workflow which superpowers you,
+- [18:33] right? You're spinning up agents to work
+- [18:35] on the cloud for you that are building
+- [18:36] out a whole bunch of functionality, your
+- [18:38] marketing, your road map, your product
+- [18:41] manager. You're basically have a
+- [18:42] oneperson company going on here, right?
+- [18:45] And then at the same time, we're going
+- [18:46] to go in and we're going to start
+- [18:48] building out features ourself. This is
+- [18:51] how a oneperson business turns into a
+- [18:54] billiondoll business. This was not
+- [18:56] possible before AI. Right? Before AI, if
+- [18:58] I wanted to build this app, I'd have to
+- [19:00] hire a product person, a marketing
+- [19:01] person. I'd have to hire developers. I'd
+- [19:04] be spending millions of dollars a year
+- [19:06] to build this out. Now, because of AI, I
+- [19:09] have my three employees working for me
+- [19:11] in the cloud. My product manager, my
+- [19:12] marketer, my junior developer, and then
+- [19:15] I have my senior developer over here
+- [19:17] inside Cloud Code building out the other
+- [19:19] features for me. This is why I said this
+- [19:21] workflow is so powerful is because this
+- [19:23] is how you build leverage. This is how
+- [19:25] you build an entire company that works
+- [19:28] for you even though you're just one
+- [19:30] person. Many people would spend millions
+- [19:32] of dollars a year to have all these
+- [19:34] people working for them in a company.
+- [19:35] For me, I'm spending $20 a month for
+- [19:38] claw code. Pretty incredible. So, let's
+- [19:40] go in and start building out the AI
+- [19:42] functionality here. I'm going to show
+- [19:43] you how to implement an AI API into your
+- [19:46] app as well. So, you can have AI
+- [19:47] functionality in your app. This is your
+- [19:49] first time doing this, you're going to
+- [19:50] be so ahead of your competitors. It's
+- [19:52] crazy. So, I'm going to hit shift tab to
+- [19:54] go into plan mode. And this is the
+- [19:55] prompt. I'll put this down below as
+- [19:56] well. I want to make it so there is AI
+- [19:58] functionality in this app. I'd like to
+- [20:00] make it so that in each card on the
+- [20:02] Cananband board, there is an AI button.
+- [20:05] Then, when I hit that button, it uses
+- [20:07] the Open AI API to generate a prompt for
+- [20:10] that card. It will take the title of the
+- [20:12] card and turn it into a prompt I can
+- [20:14] give to Claude Code to build out that
+- [20:15] feature. So, basically, you have your
+- [20:17] board. There's now going to be an AI
+- [20:19] button. I click it and it will take
+- [20:21] whatever the task is in that card and
+- [20:23] turn it into an AI prompt that I then
+- [20:26] can give to Claude code to build out
+- [20:27] whatever that feature is. That's really
+- [20:29] awesome AI functionality that we're
+- [20:31] about to build out here. So, I'm going
+- [20:32] to do this in plan mode. I'm going to
+- [20:34] hit send. And this is going to plan out
+- [20:36] again using Sonnet how to build out this
+- [20:38] feature. So, we're saving money because
+- [20:40] Haiku is doing all the building. Sonnet
+- [20:42] is doing all the planning. A really cool
+- [20:44] workflow tip that's going to save you a
+- [20:46] ton of money as this is building. By the
+- [20:47] way, if you learned anything at all, all
+- [20:49] my videos are jam-packed with as just
+- [20:51] much value as this. So, make sure you
+- [20:53] leave a like if you learned anything.
+- [20:55] Subscribe for way more content like
+- [20:57] this. Turn on notifications so you get
+- [20:59] alert the moment I live stream or build
+- [21:01] things out. I promise it will be worth
+- [21:03] it. So, this is the plan. It's built
+- [21:05] out. I'll help you build out the AI
+- [21:07] functionality. This is awesome. I love
+- [21:08] when Claude does this. It is asking me
+- [21:10] for my preferences. So, instead of just
+- [21:12] building out the plan, it's like, "Okay,
+- [21:13] so what do you want to use? Which models
+- [21:15] do you want to use? What do you want it
+- [21:16] to look like? I like the does. So, we'll
+- [21:18] go in. We're going to answer these
+- [21:19] questions. I'm going to say use GBT5.
+- [21:22] It's asking how in-depth I want the
+- [21:25] prompts to be. Keep the prompting
+- [21:27] simple, not super technical. Then, it's
+- [21:31] asking me where should the prompt be
+- [21:33] displayed. I'm going to say append the
+- [21:35] description field. Card context. Uh, do
+- [21:38] we want to include everything in the
+- [21:39] card for context? Include everything in
+- [21:42] the card for context. an API
+- [21:45] implementation. This is a client side
+- [21:46] app with no backend. Are you okay with
+- [21:48] creating a Nex.js API route? Yes,
+- [21:50] whatever you think is appropriate and
+- [21:54] simple. If you notice, there is a ton of
+- [21:57] spelling mistakes in everything I'm
+- [21:58] typing, but that's okay. Claude
+- [22:00] understands what I'm saying. So, it is
+- [22:01] what it is. That's show business, baby.
+- [22:03] All right. We're going to hit enter
+- [22:04] there, and it is going to start getting
+- [22:06] to work. At the same time, we're going
+- [22:08] to check in on our AI agents over here.
+- [22:11] It looks like one of them is done.
+- [22:12] Create app road map from existing code.
+- [22:14] Let's let's see the road map it came up
+- [22:16] for us. All right. So, we're going to go
+- [22:17] up here. Let's see here. Oh, it did a
+- [22:19] lot of work for us. Excellent. We now
+- [22:21] have a complete understanding. And here
+- [22:22] is the road map. I've analyzed your
+- [22:24] entire codebase and created a detailed
+- [22:26] road map for you. So, it tells us the
+- [22:28] current state and now it gives us phases
+- [22:30] for all of 2025. So, the backend
+- [22:33] structure, it's going to give us
+- [22:34] database road map. That's pretty sick.
+- [22:36] It's going to tell us off and user
+- [22:37] management. It has a roadmap for us for
+- [22:39] team management and workspaces, being
+- [22:41] able to add comments, a notification
+- [22:42] system, being able to attach files.
+- [22:44] These are really good ideas. What I like
+- [22:46] to do as we do this here, and I'm going
+- [22:48] to accept the plan over on the right.
+- [22:50] See, I'm multitasking out the wazoo
+- [22:52] here. I'm going to pull open tick tick
+- [22:54] again over here. Again, just use Apple
+- [22:56] Notes if you want. And I'm just going to
+- [22:58] add some of the ideas I see from the AI
+- [23:00] over here. Um, so I like the ability to
+- [23:02] add notes.
+- [23:05] Team management. Let's add team
+- [23:06] management here. Uh notification system.
+- [23:09] I like that. Sync to your calendar. So,
+- [23:12] let's sync with calendar. And basically
+- [23:14] what we're doing is we're generating
+- [23:16] ideas with the AI. We're putting it in
+- [23:18] our project management tool. And we're
+- [23:20] just humming here. The app's improving.
+- [23:22] Your competition, I promise you, is not
+- [23:25] using this workflow. Your competition
+- [23:27] isn't generating ideas. I mean, what are
+- [23:29] we what like 10 minutes in here? We're
+- [23:30] generating ideas. We already have the
+- [23:32] app done. We're moving on to the road
+- [23:34] map. We have a hundred different ideas
+- [23:36] good to go and we're all just one
+- [23:38] person. That's why this workflow is so
+- [23:41] powerful because you have the leverage
+- [23:43] of 20 different people at once even
+- [23:45] though you're just one person and you're
+- [23:47] organized. So if we come back to this
+- [23:48] later, we have our system good to go.
+- [23:51] What your competition is doing is
+- [23:53] they're using cloud code. They're giving
+- [23:55] it prompts of things to build out and
+- [23:56] then as it's building they're going on
+- [23:58] their phone and they're doom scrolling
+- [23:59] Tik Tok and their brain is melting out
+- [24:01] of their ears. You you're different.
+- [24:03] Instead of your brain melting out of
+- [24:05] your ears on Tik Tok, you're coming in
+- [24:07] here and you're hiring hundreds of AI
+- [24:09] employees to work for you to come up
+- [24:12] with road maps, marketing, building your
+- [24:14] landing page, build out your app, all
+- [24:16] the above. While your competition
+- [24:19] snoozes and rots away, you are using
+- [24:22] leverage and building faster than you
+- [24:24] ever have in your entire life. So,
+- [24:26] that's still building. I'll layer on one
+- [24:28] more feature for you here while this
+- [24:29] goes. So this is only if you want to
+- [24:32] take this workflow to the next level.
+- [24:34] This is only if you want to be maximum
+- [24:38] efficient. I also have the clawed
+- [24:41] desktop app open at all times. If you
+- [24:44] want to use the chat GBT desktop app,
+- [24:46] you can do that. If you want to use the
+- [24:47] Google Gemini desktop app, if you even
+- [24:49] have one, you can do that. This is for
+- [24:51] general back and forth brainstorming and
+- [24:54] talking to the AI. And so what I'll do
+- [24:56] here is I will describe to Claude what
+- [24:58] I'm building. I like to use this prompt
+- [25:00] whenever I'm starting to build out a new
+- [25:01] project. I'm building out a project
+- [25:03] management canband board app right now.
+- [25:05] I want to use this chat to be generally
+- [25:07] productive and talk about what I'm
+- [25:09] building. Come up with new ideas and
+- [25:10] just get general advice for my business
+- [25:12] and life. Let's chat. And I'm going to
+- [25:14] hit enter on that. And now while we have
+- [25:17] agents working for us on Claude for
+- [25:19] Webb, while we have our agent building
+- [25:21] out functionality inside Claude Code, I
+- [25:24] now have like a general business and
+- [25:27] life consultant. I'll be talking to in
+- [25:30] the claw desktop app. And so you don't
+- [25:32] even need to just talk about the app
+- [25:34] you're working on, the cananban board. A
+- [25:36] lot of the times I'll use this to talk
+- [25:38] about things in my life. Hey, I want to
+- [25:39] be more productive. I want to read more
+- [25:41] books. How do I do that? How do I find
+- [25:43] more time to read more books? And this
+- [25:45] will go through that with me. And this
+- [25:47] is how you stay maximally productive.
+- [25:50] Right? Most people when using AI,
+- [25:52] there's tons of downtime. They're doom
+- [25:54] scrolling. They're getting distracted by
+- [25:55] Twitter, by YouTube, by Tik Tok,
+- [25:57] whatever. while it's working. The key to
+- [25:59] getting maximum productivity in your
+- [26:02] workflow is maximizing your leverage
+- [26:05] with AI and avoiding downtime. As long
+- [26:08] as you use AI whenever you have
+- [26:10] downtime, you will constantly constantly
+- [26:13] be productive and be getting better. And
+- [26:16] so I have my AI and Claude code building
+- [26:18] out the big tasks. I have my AI agents
+- [26:22] inside Claude for web doing the little
+- [26:24] tasks and the little planning. And then
+- [26:27] I have the clawed desktop app I use for
+- [26:29] business consulting, general back and
+- [26:31] forth, and making sure I get the most
+- [26:33] out of every second I'm working with the
+- [26:36] AI. Your competition at best is just
+- [26:39] building with Claude and then getting
+- [26:41] distracted and running off whenever it's
+- [26:42] building. You on the other hand, an
+- [26:44] absolute savage, an absolute master who
+- [26:47] is maximizing every second to squeeze
+- [26:50] the juice out of AI, is again using
+- [26:53] Claude to build out the main features.
+- [26:55] Yes. Yes and don't ask again using
+- [26:57] Claude for web their brand new feature
+- [27:00] to have agents go build their road map
+- [27:02] build out little tasks like for instance
+- [27:05] the light and dark mode which is already
+- [27:07] done and then they have their business
+- [27:09] consultant to do higher level planning
+- [27:12] on the app higher level administration
+- [27:14] higher level life management to get the
+- [27:17] most out of AI and now your workflow is
+- [27:20] humming there's two things we're doing
+- [27:22] here we're eliminating distractions
+- [27:24] which is critical we live live in an add
+- [27:26] society where everyone is constantly
+- [27:28] distracted. We are eliminating
+- [27:30] distractions and we are maximizing the
+- [27:32] output from the AI agents. So let's do
+- [27:35] this. Let's see how this workflow went.
+- [27:37] Let's add our AI key, test out this new
+- [27:40] functionality we just built out and see
+- [27:42] how it did. So it looks like it used the
+- [27:43] anthropic API for this. I guess it sees
+- [27:45] we're in an anthropic mood. So we use
+- [27:47] the anthropic API key. I'll show you how
+- [27:49] to grab that right now. If you sign in
+- [27:50] at console.anthropic.com,
+- [27:52] you can get your API key from here. I'm
+- [27:54] going to click get get API key. I'm
+- [27:56] going to click create a key. I'm going
+- [27:58] to say project management and I'm going
+- [28:01] to hit add. Copy your API key
+- [28:03] into.env.local.
+- [28:05] Right there you hit save and your AI
+- [28:08] functionality should be good to go. All
+- [28:09] right. So, let's test this out. It looks
+- [28:11] like we have this nice new AI button on
+- [28:14] every single card here. If we click it,
+- [28:17] I imagine it's going to generate an AI
+- [28:18] prompt for us. Let's we click. I like
+- [28:20] that little nice animation there. That
+- [28:21] was smarter claw dad. Boom. AI generated
+- [28:24] prompts add local storage function to
+- [28:26] automatically save and persist. So now
+- [28:27] we don't need to think of AI prompts
+- [28:29] anymore for each one of the features. We
+- [28:31] can just copy and paste the prompt that
+- [28:34] the AI gives us and give it to Cloud
+- [28:35] Code and it will build the functionality
+- [28:37] out for us. We built that out. The app
+- [28:40] is looking pretty good. I mean you have
+- [28:42] all the functionality we need to manage
+- [28:44] your apps. Now instead of using tick
+- [28:45] tick to plan out our apps that we vibe
+- [28:47] code, we can use our own app that we
+- [28:50] built ourselves. And there's nothing
+- [28:51] cooler than that. There's nothing cooler
+- [28:53] than than using the apps you built
+- [28:56] yourself. It is the best feeling in the
+- [28:58] world. So, let's recap what we did so
+- [29:00] far. For this workflow, we used the
+- [29:02] Claude Code extension inside of VS Code,
+- [29:06] which I think is the best way to
+- [29:08] interface with Claude Code in the world.
+- [29:10] Clean, simple, easy to use. We use
+- [29:12] Claude for Web, their brand new
+- [29:14] functionality at claude.ai AI that
+- [29:17] allowed us to spin up as many AI agents
+- [29:19] in the cloud that we want in order to
+- [29:21] get things done like building little
+- [29:23] tiny features like doing research for
+- [29:26] our app like doing marketing basically
+- [29:28] we keep spinning up employees for
+- [29:30] ourselves to do work for us. Then we use
+- [29:33] the clawed desktop app to be like our
+- [29:36] business consultant. So as things are
+- [29:38] working, as code is generating for us,
+- [29:40] we talk to the clawed desktop app to
+- [29:43] bounce ideas, talk about our life, talk
+- [29:45] about the business, just get advice so
+- [29:47] that we don't waste time. While everyone
+- [29:49] else, while our competition goes and
+- [29:51] doom scrolls Tik Tok while the AI is
+- [29:54] building and it takes them 12 hours to
+- [29:55] get anything done, we are chugging
+- [29:57] along. We are spinning up AI agents. We
+- [30:00] are talking to business consultants.
+- [30:02] We're having 20 AIs work for us at the
+- [30:04] same time. This is the best workflow you
+- [30:07] possibly can have for vibe coding right
+- [30:10] now. This will get apps out faster than
+- [30:12] you possibly can imagine. Everything
+- [30:13] else is just noises. People, oh, you
+- [30:15] have to do MCPS and NAN and this and
+- [30:17] that. And no, no, no, no. You keep it
+- [30:19] simple like we did today and you will
+- [30:21] get way more work done than you possibly
+- [30:24] can imagine. If you learned anything at
+- [30:26] all, leave a like. Let me know in the
+- [30:27] replies if you started using this
+- [30:29] functionality yet. What part of this is
+- [30:31] new to you? Subscribe if you haven't
+- [30:33] yet. Turn on notifications because all I
+- [30:34] do is create amazing videos about AI. I
+- [30:37] also live stream Monday, Wednesday,
+- [30:38] Friday, 11:00 a.m. Pacific time. Stop by
+- [30:41] for that. Ask me questions, hang out, do
+- [30:43] whatever you want. Newsletter, free
+- [30:44] newsletter down below. Number one AI
+- [30:46] newsletter in the world. Link down in
+- [30:48] the description. Make sure to sign up
+- [30:49] for that. I have a lot of asks, but it's
+- [30:51] for all for you. It's all for you guys.
+- [30:53] I love you all. Thank you all. See you
+- [30:54] in the next video.

@@ -1,0 +1,613 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=yAslhELtKEg"
+video_id: "yAslhELtKEg"
+video_url: "https://www.youtube.com/watch?v=yAslhELtKEg"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=yAslhELtKEg
+  - Retrieved at: 2025-12-30T16:43:23+09:00
+  - [00:00] Here are five simple Cloud Code
+key_points:
+  - "- [00:02] workflows you must have. My name is"
+  - "- [00:37] switch the cursor and we need to create"
+  - "- [00:49] explains how the agents should work"
+  - "- [01:15] what they are doing and what should be"
+  - "- [01:48] what we need to do is we need to set the"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: yAslhELtKEg
+
+- URL: https://www.youtube.com/watch?v=yAslhELtKEg
+- Retrieved at: 2025-12-30T16:43:23+09:00
+
+## Text
+
+- [00:00] Here are five simple Cloud Code
+- [00:02] workflows you must have. My name is
+- [00:04] David Andre and I have hundreds of hours
+- [00:06] inside of Cloud Code. In this video,
+- [00:08] I'll show you how to use Cloud Code to
+- [00:10] build literally anything, even if you
+- [00:12] are a complete beginner. So, the first
+- [00:14] workflow I'm going to show you is a
+- [00:15] multi- aent setup. How you can use three
+- [00:18] different cloud codes working together
+- [00:20] on a single project. So, let's jump into
+- [00:22] cursor. I'm going to open an empty
+- [00:23] project. So while the team of cloth
+- [00:25] codes will be running, there will be a
+- [00:26] cursor agent just overseeing the
+- [00:28] operation and also helping us set this
+- [00:30] up correctly because multi- aent teams
+- [00:32] can be tricky. I even made a whole video
+- [00:34] on this, so make sure to watch that
+- [00:35] after this one. But anyways, let's
+- [00:37] switch the cursor and we need to create
+- [00:39] a first file. So I'm going to say create
+- [00:42] a new coms.md file in the root of our
+- [00:46] project. Then I'm going to paste in the
+- [00:47] purpose of this file which basically
+- [00:49] explains how the agents should work
+- [00:51] together. And let's use grog 4 to make
+- [00:53] this happen. Now while this is running,
+- [00:55] we can actually manually create a new
+- [00:56] file called cloth.md.
+- [00:58] This is obviously the main file, the
+- [01:00] main system prompt file for all of our
+- [01:02] cloth code agents. Now since cursor
+- [01:04] added the cued messages, we can already
+- [01:06] start typing our next prompt. Boom. And
+- [01:07] we have this message in Q. While cursor
+- [01:10] is still doing the com MD file, this
+- [01:12] message was ready. Now this action log
+- [01:13] is where the AI agents will write down
+- [01:15] what they are doing and what should be
+- [01:16] done next based on the goal. So I'm
+- [01:19] going to give cursor an X prompt
+- [01:20] basically explaining the workflow.
+- [01:22] Update both MD files clearly and
+- [01:25] explicitly explaining this. So basically
+- [01:28] we're using Grock 4 as our chief prompt
+- [01:30] engineer constructing the rules for this
+- [01:32] multi- aent system. I'm going to reject
+- [01:34] it here and I'm going to only accept it
+- [01:36] here. Okay. So I'm using super whisper
+- [01:38] to transcribe my voice faster. Okay.
+- [01:40] Let's see. Action log login protocol.
+- [01:42] Agents are designated agent one two.
+- [01:44] Yes. Correct. Okay. This looks good.
+- [01:46] Let's accept. And now we're ready. So
+- [01:48] what we need to do is we need to set the
+- [01:49] goal. So I'm going to put it right here.
+- [01:51] Create interactive 3D mountain terrain
+- [01:53] game. It should be pretty simple. All
+- [01:54] right. So what I did is I opened three
+- [01:57] different terminals inside of cursor
+- [01:59] right here. And what we need to do is
+- [02:01] launch cloth code in each terminal. So
+- [02:03] let's do that. Just type in clot. That's
+- [02:06] it. But pro tip. Every morning what I do
+- [02:08] is I open my main terminal inside of my
+- [02:11] MacBook and I just type in cloth update.
+- [02:14] This will check if there are any new
+- [02:16] updates of cloth code globally on your
+- [02:18] entire machine, not just within a
+- [02:20] specific project. Anyways, I can
+- [02:21] probably close the cursor agent so that
+- [02:23] we have some more space on the screen.
+- [02:25] So top left we have the cloud MD file
+- [02:27] and coms.m MD. This is where we're
+- [02:30] basically going to be managing the
+- [02:31] project. And if the agents are
+- [02:33] misbehaving or something, we can just
+- [02:34] add more instructions into cloud. MD,
+- [02:36] which impacts the behavior of every
+- [02:38] single cloth code instance running in
+- [02:41] this project. All right, the next thing
+- [02:42] we need to do is switch each cloth code
+- [02:44] to the auto accept mode. So you can do
+- [02:47] that by pressing shift tab. So now all
+- [02:49] of them are in auto accept. Next, I'm
+- [02:51] going to do slashmodel and I'm going to
+- [02:53] switch each cloth code to opus because u
+- [02:56] I guess I don't like money. By the way,
+- [02:58] for context, I do have the $200 a month
+- [03:01] subscription which basically gives you
+- [03:02] unlimited cloth code. I'm also paying it
+- [03:04] for a bunch of my other developers. So
+- [03:06] that's how I'm spending over $800 a
+- [03:08] month just on cloud code between me and
+- [03:10] my team. Anyways, it's time for the
+- [03:12] first prompt. So, the prompt is pretty
+- [03:13] simple. Read both MD files in our
+- [03:15] project to develop a full understanding
+- [03:17] of what our goal is as well as how you
+- [03:20] need to work with other AI agents in
+- [03:22] this project. And I'm going to send this
+- [03:24] to every single instance of cloud code.
+- [03:26] Boom. And there it is. Watch the cloth
+- [03:28] codes run. All right. So, it's creating
+- [03:30] a list of to-dos. And I'm going to
+- [03:31] actually stop them because I forgot to
+- [03:33] assign which AI agents they are. So, I'm
+- [03:35] going say you are AI agent01. I
+- [03:38] understand I'm agent two. Do I
+- [03:40] understand? I'm agent one. I will wait
+- [03:41] for further instructions. Okay. So,
+- [03:43] notice how each cloth code behaves
+- [03:44] differently. The real challenge with
+- [03:46] multi- aent systems is to tame them so
+- [03:48] that they work together and not against
+- [03:50] each other. So, now that each agent
+- [03:52] understands their role and what needs to
+- [03:54] happen, we're going to launch them one
+- [03:56] by one. To launch the agents, I prepared
+- [03:58] this prompt. Start by writing down the
+- [03:59] first task you're about to execute,
+- [04:01] properly identifying yourself and
+- [04:03] clearly and concisely explaining what
+- [04:05] the next task is. Once you finish your
+- [04:07] task, read coms.mmd again and keep
+- [04:10] going. Do not stop working. The user
+- [04:12] will tell you when the project is
+- [04:13] complete. Send. Let's launch agent one.
+- [04:16] Let's open coms.mmd to see the action
+- [04:18] log. We expect to see some stuff appear.
+- [04:20] There it is. Agent one. So now we can
+- [04:21] launch agent two with the same prompt.
+- [04:24] So the next thing agent set up freejs
+- [04:26] library. Initiate a 3D scene. Okay,
+- [04:27] we're waiting for agent two. Well, agent
+- [04:30] 2 is working. Beautiful. Let's do agent
+- [04:31] three. Man, this is amazing. This is so
+- [04:33] amazing to watch. We really are living
+- [04:35] in the future. I cannot imagine where
+- [04:36] this would be in three to six months.
+- [04:37] Let's see. Agent three, come on, join
+- [04:39] the workflow. And there he is. All free
+- [04:41] agents are active and they're working
+- [04:42] together communicating through the coms.
+- [04:46] MD file. Let's see if agent one will
+- [04:48] continue working. It implemented the
+- [04:49] structure. Yes, agent one implemented
+- [04:51] step and it's it works again on the next
+- [04:54] step that agent 3 assigned. This is so
+- [04:56] amazing, guys. And we're just getting
+- [04:57] started. This is only the first of five
+- [04:59] different cloud code workflows I'll show
+- [05:01] you in this video. So, if you think this
+- [05:02] is amazing, you have no idea what's
+- [05:04] coming. Real quick, if you want to win
+- [05:06] free access to my Claus Code Mastery
+- [05:09] Workshop, then make sure to follow me on
+- [05:11] Instagram. All you need to do is like
+- [05:13] and comment on the latest post, and one
+- [05:15] person will win lifetime access to new
+- [05:18] society, which includes access to all
+- [05:19] the exclusive content we have inside,
+- [05:21] including the Claw Code Mastery
+- [05:23] Workshop. It's completely free to enter
+- [05:25] this giveaway. All you need to do is go
+- [05:27] to my Instagram, like and comment the
+- [05:29] latest post, and within 48 hours, I'll
+- [05:31] choose the winner. The link to my
+- [05:32] Instagram is below the video. The second
+- [05:34] workflow I'm going to show you is how to
+- [05:36] use Cloud Code to review pull requests.
+- [05:38] So, if you work in teams with other
+- [05:40] developers or you're just about to hire
+- [05:42] your first dev for your AI startup, you
+- [05:44] absolutely need to know how pull
+- [05:45] requests work and how to review them.
+- [05:47] Luckily, we can use clot code to help us
+- [05:50] in this process. So I've reviewed dozens
+- [05:53] of different pull requests from many
+- [05:54] different developers and I've optimized
+- [05:57] this prompt which is like over 90 lines
+- [06:00] of context engineering and yeah by the
+- [06:02] way you can find this in the new society
+- [06:04] is inside of this mod right here.
+- [06:06] Anyways this prompt approaches pull
+- [06:08] request review in stages. So let me just
+- [06:10] show you how this work on an actual real
+- [06:12] PR for my own AI startup. So for example
+- [06:15] this 1926 let's copy that. So I just
+- [06:19] switched into my project directory for
+- [06:21] my startup and what we need to do is
+- [06:23] paste in this prompt into cloud code and
+- [06:25] say help me review PR and then the
+- [06:29] number of the pull request 1926 and it
+- [06:32] already has all the instructions right
+- [06:33] how to review the principal engineer
+- [06:35] what not to do what to do uh looking for
+- [06:37] solid principles and performing it in
+- [06:39] stages so stage one is running these two
+- [06:41] terminal commands to understand what the
+- [06:43] PR is about start with stage one so
+- [06:46] there it is it ran the first GitHub CLI
+- [06:48] command to view the PR, read what it's
+- [06:50] about, and really understand it because
+- [06:53] that's the first step of reviewing a
+- [06:54] pull request. You need to know what
+- [06:56] changes it's making. Now, the reason why
+- [06:58] you have to understand how git branches
+- [07:00] and pull requests work is because clot
+- [07:02] code can do a lot of code changes very
+- [07:04] very quickly. And if you do that on the
+- [07:06] master branch or on your main branch,
+- [07:08] that can be very risky in case you want
+- [07:10] to revert it or there needs to be more
+- [07:12] testing, right? So, when you create like
+- [07:14] a feature branch from the master branch,
+- [07:16] you can safely do comets there. You can
+- [07:18] absolutely yolo it with cloud code. You
+- [07:20] can run four different instances just
+- [07:21] like I did earlier and do that very
+- [07:25] safely knowing that at the end you will
+- [07:26] do a pull request into the master branch
+- [07:28] and you can actually review it and if
+- [07:30] you use this protocol you can ship way
+- [07:33] faster. You can be even more aggressive
+- [07:35] and also be more proper during the
+- [07:37] reviews. So you win on both sides. So
+- [07:39] first it ran these two terminal commands
+- [07:41] and then it understands that okay this
+- [07:43] PR adds a five 1500 character limit for
+- [07:45] ideas in the app. Actually what we can
+- [07:47] do very easily is just tell cursor to
+- [07:50] start both servers. Start both servers
+- [07:52] in commands. Right? Boom. And we can
+- [07:55] close this actually. And it should start
+- [07:57] both our front end and our back end by
+- [07:59] itself. There it is. I'm just going to
+- [08:01] do move terminal into panel. That way
+- [08:03] it's not annoying us. And close the
+- [08:05] terminal. If we go to back to the
+- [08:07] browser, we should be able to reload.
+- [08:09] All right. There it is. There's our app.
+- [08:11] Let me hide this. We're focused on the
+- [08:13] ideas. So again understanding this PR,
+- [08:15] right? what it did, it implemented a
+- [08:17] limit, 1500 character limit for ideas.
+- [08:20] So here I already was testing it. So
+- [08:22] before I was able to surpass it. So
+- [08:23] let's see if this PR did fix it, right?
+- [08:26] Boom. Paste in. No, it cuts it off at
+- [08:28] 1500. Okay, that's good. So I'm going to
+- [08:31] do test two so we know we're here.
+- [08:34] Create this new idea. And then let me
+- [08:36] try editing it past. No. Okay, so my
+- [08:39] previous way to surpass it doesn't work
+- [08:41] anymore. I cannot edit it past and
+- [08:42] surpass the limit. That's good. So, this
+- [08:45] PR is actually very simple. Uh, let me
+- [08:48] go back. But, uh, so there's only five
+- [08:50] files changed, but that doesn't matter.
+- [08:52] We will still follow the step-by-step PR
+- [08:54] review because what's better than one
+- [08:55] pair of eyes? Two pair of eyes, right?
+- [08:57] And especially if one of them is human
+- [08:58] and one is LLM. The beauty of using LLMs
+- [09:01] is that they're very different than
+- [09:02] humans, right? If you completely
+- [09:05] delegate all of your reviews and code to
+- [09:07] LLM, you will have a very bad time. But
+- [09:09] if you supplement your own skill set
+- [09:11] with an LLM, you'll be able to find bugs
+- [09:14] way faster. Clothe code can spot bugs
+- [09:16] that me and you can't because it's a
+- [09:18] large language model. It works very
+- [09:19] differently than a human brain. However,
+- [09:22] me and you can spot logic bugs that clo
+- [09:24] might think it's actually a perfectly
+- [09:26] fine feature. So that's where using clo
+- [09:29] code to aid you in a pull request review
+- [09:31] is absolutely essential. So it performed
+- [09:33] stage one, it performed stage two, which
+- [09:35] is just switching to the branch of uh
+- [09:37] that pull request. And then stage three,
+- [09:39] it also gave us the instructions how to
+- [09:40] do it. So we already did that by testing
+- [09:42] out that this limit is enforced
+- [09:44] correctly. So we can go to stage four,
+- [09:46] which is the most advanced by far in
+- [09:49] this prompt. So I'm going to copy it
+- [09:51] again, paste it into cloud code, and say
+- [09:54] start with stage 4. Then inside of
+- [09:58] GitHub, you just copy the file names of
+- [10:00] the files changed with this pull request
+- [10:02] and just paste it in. Boom. And close
+- [10:04] code will follow our stage 4 prompt for
+- [10:07] pull request review explaining the
+- [10:08] changes in each file. Right? So this
+- [10:10] file has + 18 minus 2. So pretty simple.
+- [10:13] You can read it through. But when it's
+- [10:15] like plus 150 minus 70, this really
+- [10:18] really saves time. So let's see what was
+- [10:20] changed in idea service. Okay. added
+- [10:24] truncation,
+- [10:26] remove note update, simple fix. Okay,
+- [10:28] looks good. Boom. And this is what I
+- [10:30] mean. You can review pull requests so
+- [10:32] much faster than people who don't use
+- [10:34] AI. So, next file. Boom. I'm going to
+- [10:36] copy it. Next. Paste in the file
+- [10:38] location and clo will begin working on
+- [10:40] the next file trying to understand these
+- [10:42] changes. So, obviously again this is
+- [10:43] pretty small change. 17 minus 4. So, we
+- [10:46] have a new import and we have some small
+- [10:48] changes. We added from the validation
+- [10:50] clean implementation. Okay, looks good.
+- [10:53] I can mark it as viewed and you get the
+- [10:55] point. This becomes especially OP on
+- [10:58] complicated long pull requests that
+- [11:00] would take you multiple hours to
+- [11:01] understand their view. With AI, you can
+- [11:03] massively speed this up. You can also
+- [11:05] improve your own understanding because
+- [11:06] you can ask cloth code questions about
+- [11:08] the pull request, about the changes it's
+- [11:10] trying to do, why it's doing those
+- [11:12] changes, and stuff like that. So,
+- [11:13] personally, as someone who runs a team
+- [11:15] of four different developers, this
+- [11:17] single cloth code workflow saves me
+- [11:19] hours every single week. All right, so I
+- [11:22] have 9% battery left. Actually 8%.
+- [11:24] That's crazy. So I need to go faster
+- [11:26] through the remaining three workflows.
+- [11:28] So the next one is Claudia. This is an
+- [11:30] open source project. I'm going to link
+- [11:31] it below the video. And this is a way to
+- [11:33] use cloud code with a very nice UI. So
+- [11:35] let me show you what that looks like. In
+- [11:37] case you don't like the terminal, this
+- [11:38] is the perfect solution, right? So you
+- [11:39] can manage multiple cloud code agents
+- [11:41] running in parallel just like we did
+- [11:44] earlier, but you don't have to use the
+- [11:45] terminal. You don't have to use an IDE.
+- [11:47] With Claudia, this is a much simpler UI.
+- [11:49] Honestly, I might make a whole video on
+- [11:50] it because a lot of people are
+- [11:52] interested in a UI solution. The issue
+- [11:55] is that Enthropic might soon release
+- [11:57] their own UI because Cloud Cur is
+- [11:58] becoming insanely popular, right? In the
+- [12:00] meantime, this is a great solution. The
+- [12:02] GitHub repo includes all of the setup
+- [12:04] instructions for this UI, how to set it
+- [12:06] up, how to use it, and everything else
+- [12:08] you need to know. You do need to install
+- [12:10] Rust, so that is a bit of friction if
+- [12:12] you've never used it. But overall, it's
+- [12:14] pretty simple, and again, I'm going to
+- [12:15] link it below the video. So, if you
+- [12:17] don't like using the terminal and you
+- [12:18] want to use cloud code in a nice UI,
+- [12:20] this is a very interesting project. And
+- [12:21] it managed to reach over 8,000 stars on
+- [12:23] GitHub in just three weeks, which is
+- [12:25] pretty damn impressive. Workflow number
+- [12:27] four involves using MCPS. So, inside of
+- [12:30] Cloud Code, you can do /mcp to manage
+- [12:32] your MCP servers. Right now, I don't
+- [12:34] have any configured right here. However,
+- [12:36] any app that uses MCPs, uh, such as
+- [12:39] NA10, such as, uh, Cursor, Vectal, um,
+- [12:42] Linear, there's like countless app,
+- [12:44] GitHub, so many apps have MCPS, right?
+- [12:46] Official ones, and there's like
+- [12:48] thousands of third party ones, but I
+- [12:50] would only recommend you use official
+- [12:51] ones. For example, inside of Veectal,
+- [12:53] you can go to your settings on the
+- [12:54] bottom left, advanced settings, and then
+- [12:56] if you're a Vectal Pro user or above,
+- [12:58] Vector Teams, Vector Ultra, you can get
+- [13:00] access to API keys right here. So all
+- [13:02] you need to do is click on create key
+- [13:04] and then you set up your MCP config file
+- [13:06] anywhere you want. Like obviously you
+- [13:08] can use it inside of cursor as well but
+- [13:09] this is a video about cloth code. So
+- [13:11] with cloth code you can use vectal to
+- [13:13] manage your task. So let's say right
+- [13:15] here boom I have a bunch of tasks inside
+- [13:17] my vectal like weekly team review
+- [13:19] develop MVP technical architecture a
+- [13:21] bunch of other stuff I need to do. You
+- [13:23] can just have cloth code run on all of
+- [13:24] these. So instead of using like to-d
+- [13:26] doist, ClickUp, all of these outdated
+- [13:28] task management tools, just switch your
+- [13:30] task over to vector, go to the bottom
+- [13:31] left, click on advanced settings, click
+- [13:33] on API keys, generate your API key for
+- [13:36] MCP, scroll down, and just follow this
+- [13:38] two-step process. MPM install-g
+- [13:42] remote, and then copy over this JSON
+- [13:43] schema either to cursor or any other MCP
+- [13:46] client, obviously clo included. And
+- [13:48] that's how you can use vectal with clo
+- [13:50] code. Again, if you want to see a full
+- [13:51] video on this, let me know in the
+- [13:53] comments below and I'll happily make
+- [13:54] one. Now, cloth code workflow number
+- [13:56] five is refactoring large files. So,
+- [13:59] this is something that no one wants to
+- [14:01] talk about, but if you're vi coding,
+- [14:03] you're going to end up with some large
+- [14:04] messy code, right? Files that are 500,
+- [14:07] 700, 900 lines. We even had a few files
+- [14:10] that were like 1.5K, which is uh just
+- [14:13] disgusting, right? And nobody
+- [14:14] understands what the file does. So I
+- [14:16] have this prompt that is very optimized
+- [14:18] for large file refactors and actually it
+- [14:21] might be a bit too long. So what I'm
+- [14:23] going to do I'm going to use cloth code
+- [14:25] to explain this cloth code workflow
+- [14:27] prompt. So I'm going to paste in this
+- [14:28] prompt. I'm going to say give me a tlddr
+- [14:32] explanation how this file refactor
+- [14:35] workflow works. Be concise. So when
+- [14:38] refactoring large files, this is where
+- [14:40] most developers where especially most
+- [14:43] junior developers and especially most
+- [14:45] vibe coders go wrong, right? It's easy
+- [14:48] to keep adding lines of code, keep
+- [14:50] adding complexity to files, but it's
+- [14:52] very hard taking a super long file,
+- [14:54] understanding what it does and breaking
+- [14:56] it down into two, three, four more
+- [14:59] modular, smaller, better structured
+- [15:01] files. That is very hard and it's it's
+- [15:04] like not fancy, right? Everybody likes
+- [15:06] to vibe code these MVPs, whether it's
+- [15:08] like a web app or a landing page or like
+- [15:10] a 3D game. Nobody likes to talk about
+- [15:13] refactoring and making your codebase
+- [15:15] more modular. But as you actually start
+- [15:16] building your AI startup, you'll quickly
+- [15:18] run into issues if you completely rely
+- [15:20] on vibe coding. That's why this
+- [15:23] workflow, even though it's the last one
+- [15:24] in this video, it might be the most
+- [15:26] important because if you really want to
+- [15:27] build an AI startup and scale it to 10K
+- [15:30] a month, 100K a month, and beyond, you
+- [15:32] will need to learn how to refactor. You
+- [15:34] will need to learn how to make your
+- [15:36] codebase readable, modular, scalable,
+- [15:38] and maintainable. And this cloth code
+- [15:40] workflow is exactly for that. So, let me
+- [15:43] explain to you. The core philosophy is
+- [15:44] treating large file refactoring like a
+- [15:46] surgery on a live patient. One wrong cut
+- [15:48] can kill the whole system. And this is
+- [15:51] true. What's the point of a refactor if
+- [15:53] you introduce a severe bug or if a
+- [15:55] feature stops working or if you add five
+- [15:57] more edge cases, right? We want to do
+- [15:59] refactors in a way that keeps all core
+- [16:02] functionality and doesn't introduce any
+- [16:04] new bugs. So we do this in a three-phase
+- [16:06] approach. Number one, safety net. Before
+- [16:08] touching anything, you need to write
+- [16:10] tests for 100% or close to 100% of
+- [16:13] behavior coverage. Usually 100% isn't
+- [16:16] really like this is like what product
+- [16:17] managers like to do, right? They they
+- [16:19] like to aim for 100% but it's usually
+- [16:21] not efficient. So if you're like 80 90%
+- [16:23] that's already great. The core idea with
+- [16:25] the safety net is to establish
+- [16:26] everything how it works beforehand,
+- [16:28] right? You can check out the code to
+- [16:30] alternate branch. Well, hopefully you're
+- [16:31] making a refactor on a separate branch,
+- [16:34] not on the branch that's in production
+- [16:35] or in staging or development, nothing
+- [16:38] like that. Large refactors have to be on
+- [16:40] a separate branch or even they have to
+- [16:42] be even staged on multiple branches,
+- [16:44] right? Depending how big the refactor
+- [16:45] is. But the point of the first phase is
+- [16:48] to really realize, okay, what's the
+- [16:50] stage of this? How fast are features?
+- [16:52] Not only do you want to perform tests,
+- [16:54] you want to also track the features, the
+- [16:56] functions, whatever you're refactoring.
+- [16:58] How fast is it? How reliable is it
+- [17:00] before the refactor so that you have
+- [17:02] some baseline. The second stage is
+- [17:04] surgical planning. Finding complexity
+- [17:06] hotspots. What is the most convoluted,
+- [17:08] most complex piece of the code that
+- [17:10] makes sense refactoring first? This is
+- [17:12] super essential with these large risk
+- [17:14] refactors. Actually, properly planning
+- [17:17] is almost as important as executing the
+- [17:19] refactor. If you choose the wrong part
+- [17:21] of the code to extract, you're just
+- [17:23] wasting your time and you might make
+- [17:24] your codebase even worse than it was
+- [17:26] before and you should definitely order
+- [17:28] by risk. What is the lowest risk first?
+- [17:30] Right? Something I like to ask myself
+- [17:32] and this is a prompt I tell cloth code
+- [17:35] all the time. Identify like 50 to 150
+- [17:38] blocks of code that make the most sense
+- [17:40] extracting first that are the safest to
+- [17:42] refactor, the safest to extract with the
+- [17:45] lowest amount of risk. So maybe there's
+- [17:46] just a bunch of styling or animation or
+- [17:50] some you know UI code that is very
+- [17:53] isolated from the rest of the file from
+- [17:55] imported business logic then you should
+- [17:57] definitely extract that first. And by
+- [17:58] the way an added benefit of making
+- [18:01] shorter files is that LLMs and AI agents
+- [18:04] like clot code can work with them a lot
+- [18:06] easier. So this is not just you know to
+- [18:09] make your codebase more modular so that
+- [18:10] human developers can work on it. No,
+- [18:12] it's also for the AI. If you have well
+- [18:14] structured codebase, cloth code will be
+- [18:17] able to develop much faster with less
+- [18:19] bugs and will be able to understand
+- [18:21] files way deeper than if your codebase
+- [18:23] is a mess. And then the third phase is
+- [18:25] incremental execution rather than trying
+- [18:27] to oneshot everything in a single prompt
+- [18:29] and you know just trying to do one big
+- [18:31] change. You do it one step at a time,
+- [18:33] right? You stage these changes. You do
+- [18:36] it in steps. You extract 50 lines, 40
+- [18:39] lines, 60 lines of code. And you do
+- [18:42] tests after each extraction, right? Is
+- [18:44] everything working? Did something break?
+- [18:47] Like this is how you need to do it. You
+- [18:48] need to approach it really surgically.
+- [18:50] And seriously, you cannot just do clo
+- [18:53] refactor this whole file. It's getting
+- [18:55] too long. If you do that, you will run
+- [18:56] into so many issues that you'll probably
+- [18:58] quit development forever. And again,
+- [19:00] this prompt just like all of my other
+- [19:02] prompts, workflows, AI agents will be
+- [19:05] available is available in the new
+- [19:07] society. So if you're serious about AI
+- [19:09] and you want to build your own AI
+- [19:10] startup, you want to get to the cutting
+- [19:12] edge of using cloth codeex and you want
+- [19:15] to maximize your conic productivity,
+- [19:17] make sure to join new society. It
+- [19:18] includes tons of exclusive content that
+- [19:20] takes the concepts I teach in my YouTube
+- [19:22] videos to the next level. Plus, if you
+- [19:24] join during the month of July, you will
+- [19:27] get a month of Veal Ultra completely for
+- [19:29] free. That's right. Everyone who joins
+- [19:31] the new society during July gets Vectal
+- [19:34] Ultra for free, which is valued at $100.
+- [19:37] So don't miss this opportunity and join
+- [19:38] today. The link to New Society is going
+- [19:40] to be below the video. With that being
+- [19:42] said, thank you guys for watching. These
+- [19:44] were five cloth code workflows that you
+- [19:46] have to start using. And if you want me
+- [19:47] to make more videos on cloth code, just
+- [19:49] comment below. That being said, I wish
+- [19:51] you a wonderful, productive week. See
+- [19:53] you.

@@ -1,0 +1,441 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=yD-hKFj78g0"
+video_id: "yD-hKFj78g0"
+video_url: "https://www.youtube.com/watch?v=yD-hKFj78g0"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=yD-hKFj78g0
+  - Retrieved at: 2025-12-30T16:43:34+09:00
+  - [00:00] Okay, so yesterday was Open AI's dev day
+key_points:
+  - "- [00:08] the key things that looked really"
+  - "- [02:37] question should use Q&A or factf"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: yD-hKFj78g0
+
+- URL: https://www.youtube.com/watch?v=yD-hKFj78g0
+- Retrieved at: 2025-12-30T16:43:34+09:00
+
+## Text
+
+- [00:00] Okay, so yesterday was Open AI's dev day
+- [00:03] and I did a whole video covering what
+- [00:06] they basically announced etc. But one of
+- [00:08] the key things that looked really
+- [00:10] interesting was this whole idea of agent
+- [00:12] builder and really that's part of agent
+- [00:15] kit. So, what I want to do in this video
+- [00:18] is go and actually look at building some
+- [00:20] agents with agent builder, looking at
+- [00:23] how it works for some of the examples
+- [00:25] that they made, but then also putting
+- [00:27] together something ourselves that we can
+- [00:29] actually try this out and see the
+- [00:30] strengths and the weaknesses of this.
+- [00:33] Okay. So, when you come into agent
+- [00:35] builder, you're presented with a number
+- [00:37] of different things. So, probably one of
+- [00:39] the most interesting parts is the
+- [00:41] templates. So you can see sort of some
+- [00:43] examples of different templates that
+- [00:46] they've got here and see how that
+- [00:48] they're structured. So let's actually
+- [00:50] look at the structured data Q&A. Now
+- [00:53] you've got a layout here that is in many
+- [00:56] ways similar to things like make.com
+- [00:59] like n like a lot of these sort of drag
+- [01:02] and drop builders. And on the side here
+- [01:05] we've got a bunch of nodes that we can
+- [01:06] either drag across or set up. And then
+- [01:10] we can click into the each of these
+- [01:11] things. And on the right side we will
+- [01:14] have a bunch of settings that we can
+- [01:16] change. So you can see here with this
+- [01:18] workflow it's going to basically start
+- [01:20] out it's going to go through some guard
+- [01:22] rails then goes into sort of a
+- [01:24] classification part where it then works
+- [01:27] out okay what's going to be guiding it
+- [01:29] then goes into an if else node where it
+- [01:33] will basically then direct it based on
+- [01:35] the classification that came out of the
+- [01:38] agent here. So if we're looking at this
+- [01:40] as something like lang graph or
+- [01:42] something like that, you've got your
+- [01:44] nodes and then these sort of bits over
+- [01:47] here are going to be like edges where
+- [01:49] they decide these are actually
+- [01:51] conditional edges that kind of decide
+- [01:53] which node do you go to next. And then
+- [01:55] when you get to that node, you'll see
+- [01:57] that they've got different things going
+- [02:00] on, including the ability to use tools
+- [02:03] to basically have a little bit of
+- [02:05] control over the output that you've got
+- [02:08] going on in here as well. So, this is
+- [02:10] another example of sort of a personal
+- [02:12] assistant here. And you can see it
+- [02:14] basically goes in and we've got a prompt
+- [02:18] rewriter. So we've got where okay
+- [02:21] rewrite the user's question to be more
+- [02:23] specific and relevant to the knowledge
+- [02:25] base that's in here and then we pass in
+- [02:28] the original question and this is going
+- [02:30] to be rewritten by the GPT5 model in
+- [02:34] here. It's then going to go on to
+- [02:36] basically determine whether this
+- [02:37] question should use Q&A or factf
+- [02:40] finding. So this is a classification
+- [02:42] agent and we can see down here that okay
+- [02:45] the way it does the classification is it
+- [02:47] basically predicts out operating
+- [02:50] procedure of an enum and that can either
+- [02:52] be Q&A factf finding or other in here
+- [02:56] and then from that we come to an if else
+- [03:00] node and we can see the if else nodes
+- [03:02] are kind of really self-explanatory as
+- [03:05] conditional edges that we can see if the
+- [03:07] output of that was Q and A and we can
+- [03:10] input output passed operating procedure.
+- [03:13] So this shows us that we're getting the
+- [03:15] JSON back. We're getting the operating
+- [03:17] procedure variable on the JSON. And if
+- [03:21] that's Q&A, then we're going to take
+- [03:23] this route of going to internal Q&A. If
+- [03:26] it's factfighting, we're going to take
+- [03:28] this route. And if it's something else,
+- [03:30] we're going to go to this agent here. So
+- [03:32] looking at those agents, let's have a
+- [03:34] look at what they are. So the first one
+- [03:37] is going to be doing web search. So this
+- [03:39] is a nice simple one where okay, we've
+- [03:42] got a prompt in there. It's then going
+- [03:44] to use GPD5 to actually do a web search.
+- [03:47] We can see the output that we're going
+- [03:49] to get is going to be text. The
+- [03:51] verbosity is medium and this is going to
+- [03:54] be passed back to the chat. If it's an
+- [03:56] external factf finding thing, we've got
+- [03:59] both web search and the code interpreter
+- [04:01] tool in here. And if it's neither of
+- [04:04] those, this is where it basically asks
+- [04:07] the user for more details so that their
+- [04:10] query can be classified as one of these
+- [04:13] outputs. So what I think is let's jump
+- [04:16] in have a look at how this would
+- [04:17] actually work for building our own agent
+- [04:19] in here. Okay. So I've come in here to
+- [04:23] create a new workflow and you can see
+- [04:25] that any of these agents I can just drag
+- [04:27] across, right? and then basically fill
+- [04:30] out the details of of what they are. If
+- [04:32] I want to, I can just delete the step,
+- [04:34] etc. I can also put in notes. If I want
+- [04:37] to basically write some notes to myself,
+- [04:39] it's actually I kind of feel a really
+- [04:41] useful touch and certainly something
+- [04:43] that allows you to sort of perhaps
+- [04:45] brainstorm out your plan. I actually
+- [04:47] think that you could actually be able to
+- [04:49] put a prompt in the note and have it
+- [04:50] fill out more details for you. Then
+- [04:53] we've got things like tools. So the
+- [04:55] tools here, we've got things like file
+- [04:57] search. So if we want to load something
+- [04:59] up, this is going to basically create
+- [05:01] like a little mini rag for us that we
+- [05:03] can set the number of results that we're
+- [05:05] going to back. We can create a vector
+- [05:08] store and we'll look at that in a
+- [05:09] second. We've got things like guard
+- [05:11] rails, which I'll look at. And then even
+- [05:13] things like MCPs. So if we wanted to
+- [05:16] actually set up an MCP, we can actually
+- [05:18] come in here, pick the server, etc. that
+- [05:21] we want to put in here, fill out the
+- [05:23] details for that and create something
+- [05:26] that will basically call an external MCP
+- [05:29] or we can go for ones by OpenAI, ones by
+- [05:33] other developers in here. Okay. Now,
+- [05:36] what I'm going to do is I'm going to
+- [05:37] start off with something a little bit
+- [05:39] simple. We've got our start node, right?
+- [05:41] So, that's going to basically just bring
+- [05:43] things in. I'm going to basically have a
+- [05:46] guard rails at starting out. And one of
+- [05:49] the guardrails that's quite nice is this
+- [05:51] jailbreak one. So this basically stops
+- [05:54] people from putting prompts in to try
+- [05:56] and jailbreak your agent. And I don't
+- [06:00] know how successful it is. My guess is
+- [06:02] that probably some people can get around
+- [06:03] it. But you can sort of see that, okay,
+- [06:05] this is definitely easier than a lot of
+- [06:09] the how the agent systems have you sort
+- [06:11] of code up things like this. And then I
+- [06:14] can just have like if it fails that
+- [06:16] agent, then it's just going to end,
+- [06:18] right? And if it's going to pass, we can
+- [06:20] come over here and we're going to have
+- [06:22] it go to a classifier agent in a sec.
+- [06:26] Let's just have a look at the other
+- [06:27] things in guardrails. So we could do
+- [06:29] moderation sort of stuff. So we could
+- [06:31] basically block harmful content, etc.
+- [06:34] And we've got settings that we could set
+- [06:35] for that, right? If we basically want it
+- [06:39] to have a whole bunch of what do we want
+- [06:40] to actually kind of block for this in
+- [06:44] our jailbreak one we can see that okay
+- [06:46] what's the model what's the confidence
+- [06:49] threshold that they're actually using
+- [06:50] for the guardrail in there and then
+- [06:52] we've got things like hallucination
+- [06:55] where if we wanted to basically ground
+- [06:57] our responses on some vector store we
+- [07:00] can also sort of put that in there now
+- [07:02] in this case I'm just going to go for
+- [07:03] the simple sort of jailbreak one we're
+- [07:05] going to basically have that come out.
+- [07:07] And then following up from this, we're
+- [07:10] going to have our sort of classifier.
+- [07:14] Now, what I'm going to do is build a
+- [07:17] travel agent for the theme park
+- [07:19] Westworld, right? So, what we want is
+- [07:21] something that can answer questions
+- [07:23] about that, be able to handle things
+- [07:25] where the queries are not Westworld. And
+- [07:28] for the time being, I'm going to
+- [07:29] basically put this as a query
+- [07:32] classifier. Now when you want to
+- [07:33] basically do some sort of classifier,
+- [07:35] you want the output to be structured. So
+- [07:38] if we come down here and we just select
+- [07:40] JSON, we can now go in and add in a
+- [07:42] schema. And what I found so far testing
+- [07:46] is often I would like to maybe use a
+- [07:49] boolean or something like that. That
+- [07:51] seems to be so so. So what seems to be
+- [07:53] working better is to have an enum. So
+- [07:55] we'll call this user topic. We'll put in
+- [07:58] a description. the topic that the user's
+- [08:02] conversation is talking about. And you
+- [08:05] can see in here we're going to put the
+- [08:06] enum. So it can be Westworld, it can be
+- [08:10] other, it could be non-travel.
+- [08:15] Let's put those in as our enums for the
+- [08:18] start. All right. So we've got that. I'm
+- [08:21] going to put in a system prompt in here.
+- [08:24] Please classify the users's input based
+- [08:27] on the topic that they are querying
+- [08:30] about as either being Westworld,
+- [08:34] other or non-travel.
+- [08:37] Make sure to output structured data.
+- [08:40] Okay. So, you can see that I've got that
+- [08:42] done now. All right. Next up, what I
+- [08:45] want is basically like an if else after
+- [08:48] this. So, our output from this is going
+- [08:51] to come in here. We're then going to say
+- [08:53] okay so if it's Westworld stuff we want
+- [08:57] to take the output past
+- [09:01] user topic right and that's going to be
+- [09:05] equal to okay now I've set up these I
+- [09:08] just need to go back and check my
+- [09:10] response schema so I've got non-hy
+- [09:12] travel other westworld okay so coming in
+- [09:15] here westworld other non-hyen travel all
+- [09:19] right so now what I want to do is set up
+- [09:22] some different agents for this. So, if I
+- [09:25] basically come to other travel, I'll
+- [09:27] make that an agent. And I'm not going to
+- [09:30] give this any details or anything like
+- [09:32] that. I'm just going to basically give
+- [09:33] it a simple system prompt. Handle the
+- [09:36] user's query by politely declining and
+- [09:39] explain that you only handle travel for
+- [09:43] the Westworld theme park. If they are
+- [09:45] interested in Shogun World or any of the
+- [09:50] other Delos theme parks, they should
+- [09:52] contact other representatives. Okay,
+- [09:56] we've got another one here of where we
+- [10:00] will basically put up a thing saying
+- [10:03] explain to the user that you only do
+- [10:06] queries that are related to the
+- [10:09] Westworld theme park and you can't
+- [10:12] handle anything that is non-travel
+- [10:14] related and all other queries should be
+- [10:17] directed to Delos customer support.
+- [10:20] Okay. So, I've got the two for that. And
+- [10:23] then now I need to set up my Westworld
+- [10:26] one. And if you look here, what I've
+- [10:29] done is I've made a Westworld travel
+- [10:33] agent master guide markdown document.
+- [10:36] So, this has a whole bunch of
+- [10:37] information about the park. It should
+- [10:40] have some things around pricing. You can
+- [10:43] see the pricing thumbs there. But we've
+- [10:46] got a whole bunch of different things
+- [10:47] that people can sort of ask and
+- [10:49] information in there. And we're going to
+- [10:51] use that for our vector store in here.
+- [10:53] So what do I want to do? I want to say
+- [10:57] first off, let's add this as a file
+- [10:59] search in here. So we need to upload.
+- [11:03] Okay, now I've uploaded that. I'm going
+- [11:05] to call it Westworld as the name of the
+- [11:08] vector store in there. Now it's going to
+- [11:11] go through and actually process that
+- [11:13] from what we can see there. And so I'm
+- [11:15] going to need a system prompt in here
+- [11:18] using the information in the Westworld
+- [11:20] travel database. Answer customers
+- [11:24] questions with that information and
+- [11:27] without generating any false information
+- [11:31] or details. Make sure that you sell to
+- [11:34] them in a convincing and friendly
+- [11:37] manner. Okay. So you can see that now
+- [11:40] we're using this to basically get the
+- [11:42] results out. We can see that we want to
+- [11:44] include the chat history going into this
+- [11:47] as we're sort of going through
+- [11:48] everything. All right. So, we've got
+- [11:50] this here and what I want to know is I
+- [11:53] want to ask it some questions about
+- [11:55] Westworld. So, I'm going to ask it, can
+- [11:57] you create me a sample itinerary and
+- [12:01] include pricing for a trip for me and my
+- [12:05] wife to go to Westworld? Okay, we can
+- [12:07] see it's triggering the guardrails. It's
+- [12:09] classified this. We should see the query
+- [12:11] classifier come back as Westworld in
+- [12:14] here. And sure enough, user topic is
+- [12:16] Westworld. So, it's gone to this top
+- [12:18] agent. And now we're seeing that it's
+- [12:21] going to basically use the Westworld
+- [12:24] travel database from the file
+- [12:26] information to pull out various
+- [12:29] information going through this. We can
+- [12:31] see that what it's sort of searched for
+- [12:33] going through this. And then we get our
+- [12:35] final answer back. You know, fantastic.
+- [12:38] I love to cross a Westworld escape for
+- [12:40] you, too. Here's a 3-day Sweetwater for
+- [12:42] two sample itinerary. We've got about
+- [12:45] who it is, some information about that.
+- [12:48] We can see where it's actually getting
+- [12:50] this from our document, which is nice to
+- [12:54] see in there. Okay. Pricing. Has it
+- [12:56] given us the pricing? Yes. Okay. So,
+- [12:58] this basically costs 40 to $55,000 a day
+- [13:02] per guest. So, we're looking at sort of
+- [13:05] quarter of a million dollars plus for
+- [13:07] going on this holiday. Definitely
+- [13:08] pricey. And we can see that, okay, some
+- [13:11] difficulty add-ons. It's got some stuff
+- [13:14] about that, like if you want to
+- [13:15] confront, I guess, the rattlesnake ridge
+- [13:17] trail, a whole bunch of different things
+- [13:20] that relate to the actual TV show and
+- [13:23] also relate to what what's in our
+- [13:26] document in there. Let's say, can we
+- [13:30] meet Mave?
+- [13:33] Not sure about the spelling there, but
+- [13:35] let's see. So, it's going to come
+- [13:36] through. Now, you can see here that I
+- [13:39] probably would want to think about like,
+- [13:41] okay, how would I handle these things?
+- [13:43] So, it did work out that that was
+- [13:45] Westworld, but I might want to have
+- [13:46] something that's like Westworld
+- [13:47] characters and then have another section
+- [13:50] about this. Yes, Mave is generally
+- [13:52] available to schedule within Westworld
+- [13:54] arcs. She's featured in the mer process
+- [13:56] saloon. Okay, it's all on track for what
+- [13:58] we want. What about if I say can you
+- [14:02] tell me details about going to
+- [14:04] Disneyland?
+- [14:05] So this now is basically we want a kind
+- [14:08] of rejection from this. So we're going
+- [14:11] to come through here. It's going through
+- [14:13] our guardrails. All that that should
+- [14:15] pass but we should get something that
+- [14:17] it's other right. So notice it's now
+- [14:19] gone to this different agent here. And
+- [14:22] now we should get some kind of
+- [14:23] rejection. I'm sorry I can't help with
+- [14:25] Disneyland. I only handle travel
+- [14:27] planning for Westworld theme park. Okay.
+- [14:29] So this has worked pretty well. So it's
+- [14:30] a simple sort of agent. You can sort of
+- [14:32] see here, but we do have this all uh
+- [14:35] ready. Now we can publish this. I'm
+- [14:39] going to call this the Westworld travel
+- [14:40] agent. And now we've got this where we
+- [14:44] can actually sort of deploy it. We can
+- [14:46] either use the chat kit, which I think
+- [14:48] I'll make a separate video about that,
+- [14:50] or we can actually just come in here,
+- [14:52] get the agents SDK, and get the full
+- [14:56] code for this. So I can take this code
+- [14:59] then actually put it into wherever I
+- [15:02] want to run it. And the cool thing with
+- [15:04] this is from this I could actually take
+- [15:06] it and change the models. So I'm pretty
+- [15:09] sure agents SDK lets us use other models
+- [15:11] but we are kind of limited to their file
+- [15:14] search and their guard rails etc. going
+- [15:17] through this. So overall you can see
+- [15:19] this is very easy to get started. You've
+- [15:22] got a whole bunch of different things
+- [15:24] that you can do with this. And I've got
+- [15:27] to say that this is going to become a
+- [15:29] go-to tool for a lot of people who are
+- [15:33] looking for easy way to build agents.
+- [15:36] So, I wonder what the effect of this is
+- [15:38] going to be on NAN. Maybe it's not an N
+- [15:41] killer, but it certainly is something
+- [15:44] that's going to be a nice easy way for
+- [15:47] people to design agents, get things
+- [15:49] going, and then maybe export it out of
+- [15:53] this system. So, obviously, for me, the
+- [15:55] downside of it is you don't want to get
+- [15:57] stuck in this. What we really would like
+- [16:00] is to have sort of like an open-source
+- [16:02] version uh of something like this that
+- [16:05] could build for multiple agent
+- [16:08] frameworks, not just the OpenAI agent
+- [16:10] SDK, but maybe for things like Langraph,
+- [16:13] ADK, Pyantic AI, etc. Anyway, let me
+- [16:18] know in the comments what you think of
+- [16:20] this. Have you had a play with it
+- [16:21] yourself? Do you see this as like an N
+- [16:24] killer? What do you think is missing out
+- [16:26] of this? That's the other thing I'm sort
+- [16:28] of thinking. Now, I didn't show MCPS,
+- [16:30] but we could certainly set up an MCP
+- [16:32] with this. So, that's kind of cool that
+- [16:34] we can really sort of wire anything that
+- [16:36] we want into this and then be able to
+- [16:39] use it. And like I said before, I think
+- [16:41] I'll do another video where we look at
+- [16:43] the actual chat kit part of this cuz I
+- [16:46] think that is really interesting in
+- [16:48] itself. And I'm not 100% sure how I feel
+- [16:51] about that. whether that's locking you
+- [16:53] into OpenAI too much or whether that has
+- [16:56] the potential to become a really good
+- [16:58] way to make nice and easy chat UI
+- [17:02] frontends etc. Anyway, as always, if you
+- [17:05] found the video useful, please click
+- [17:07] like and subscribe and I will talk to
+- [17:08] you in the next video. Bye for now.

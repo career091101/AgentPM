@@ -1,0 +1,563 @@
+---
+title: "Transcript: QojPKL96Dx4"
+video_id: "QojPKL96Dx4"
+video_url: "https://www.youtube.com/watch?v=QojPKL96Dx4"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:16:08"
+tags:
+  - "AI"
+  - "Agents"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: QojPKL96Dx4
+
+- URL: https://www.youtube.com/watch?v=QojPKL96Dx4
+- Retrieved at: 2025-12-30T10:48:13+09:00
+
+## Text
+
+- [00:00] So, this rag agent took me less than 5
+- [00:02] minutes to set up. This is the easiest
+- [00:03] method I've ever tried. I'm going to
+- [00:05] open up this chat and paste in this
+- [00:06] message, which has three different
+- [00:07] queries. The first one is, "What was
+- [00:09] Tesla's total revenue Q2 2025?" The
+- [00:12] second one is, "What was Nvidia's total
+- [00:13] revenue Q1 fiscal year 25?" And the
+- [00:16] third one is, "What were Nike's revenues
+- [00:17] for Q4 fiscal year 2025?" You can see
+- [00:20] the agent hit its pine cone tool three
+- [00:22] times. And if we look at its answers,
+- [00:24] not only is it giving us the correct
+- [00:25] answers, but it's giving us the exact
+- [00:27] document, the page numbers, and the
+- [00:29] exact quote that it found in the PDF.
+- [00:31] And that's how we can trust the answers
+- [00:32] are correct. So, starting off with
+- [00:34] Tesla, if I take the exact quote that it
+- [00:36] found in the PDF, and I go into the
+- [00:37] Tesla document, and we do a quick
+- [00:39] search, we can see that it pulled it
+- [00:41] from page 4. And back in Naden, our
+- [00:43] assistant said that it found it from
+- [00:44] page 3 to 7 on this exact document.
+- [00:47] Next, if we go to the Nvidia answer and
+- [00:49] we pull the exact quote and then I
+- [00:51] control F that in this document, you can
+- [00:53] see that it finds it right here. And
+- [00:55] this is page one of the PDF and we go
+- [00:56] back into Nit and it says that it found
+- [00:58] it on page one of the NVIDIA annual
+- [01:00] report document. And then finally, if we
+- [01:02] go to the Nike answer and we grab this
+- [01:04] quote that it found, switch into the
+- [01:06] Nike document and do another control F,
+- [01:07] we can see the exact quote was found
+- [01:09] right here on page one. And in edit, the
+- [01:11] assistant said that it found it on page
+- [01:12] one. So, those of you that have built
+- [01:14] rag agents before, you know that it's
+- [01:16] not super easy to be able to get your
+- [01:17] agent to actually site exactly where
+- [01:19] it's pulling everything from. It's
+- [01:21] doable, but you have to set up a
+- [01:22] pipeline to do things like metadata
+- [01:24] tagging. And like I said, all I did here
+- [01:26] was drop in a file and then chat with
+- [01:28] it. So, that's exactly what I'm going to
+- [01:29] be showing you guys how we do that
+- [01:31] today. Okay. So, now that you've seen
+- [01:32] that quick demo, I'm just going to
+- [01:34] basically build that exact system in
+- [01:35] front of you guys step by step. So, feel
+- [01:37] free to open up your computer and follow
+- [01:38] along with what I'm doing. but also the
+- [01:41] entire template that you'll see today
+- [01:42] will be available for download for free.
+- [01:44] All you have to do is join my free
+- [01:45] school community. That way you can just
+- [01:46] plug and play and test it out for
+- [01:48] yourself. So what we're doing today is
+- [01:50] we are using a Pine Cone assistant as
+- [01:52] our rag search. So if you've never used
+- [01:54] Pine Cone before, it is a vector store,
+- [01:56] but in here you can see that we have a
+- [01:58] section right over here called
+- [02:00] assistant. So if I click on that, you
+- [02:02] can see that I have a test assistant,
+- [02:03] which is the one we were just using. But
+- [02:05] what I'm going to do today real quick is
+- [02:06] create a new one in front of you guys.
+- [02:08] I'm just going to call this one demo.
+- [02:09] and I'm going to create the assistant.
+- [02:12] Now, real quick, what you want to pay
+- [02:13] attention to is down here at the bottom.
+- [02:14] It says active assistants have a fee of
+- [02:16] 5 cents per hour. So, it's not too bad.
+- [02:19] And you can also click right here for
+- [02:20] more details about the pricing. So, now
+- [02:22] that we got that out of the way, I'm
+- [02:23] going to go ahead and create this
+- [02:24] assistant. And what you can see is this
+- [02:26] kind of looks like a custom GPT
+- [02:28] interface where you've got a chat right
+- [02:30] here and then you have the ability to
+- [02:31] drag in files. So, what I'm going to do
+- [02:33] is drag in those three files that we
+- [02:34] were looking at earlier, the Tesla,
+- [02:36] Nike, and Nvidia earnings reports. And
+- [02:38] I'm just going to import those right
+- [02:40] away into our Pine Cone Assistant. And
+- [02:42] now that those are uploaded in Pine Cone
+- [02:43] Assistant, I can paste in that exact
+- [02:45] same question that I asked our NADN
+- [02:46] agent in that demo. So you can see it
+- [02:48] comes back with the correct answers. And
+- [02:50] we could hover over each of these links
+- [02:51] because we're in the playground mode to
+- [02:53] see what PDF it pulled from and then the
+- [02:55] page numbers that it got that
+- [02:56] information from. So the power of this
+- [02:58] comes through the actual API that we can
+- [03:00] use to talk to this Pine Cone Assistant.
+- [03:03] And like I said, don't worry if this
+- [03:05] seems confusing. I'm going to show you
+- [03:06] guys exactly what we have to do. And
+- [03:07] it's actually super easy. So you can see
+- [03:09] over API, there's two things we can do.
+- [03:11] We can upload files or we can chat with
+- [03:13] our assistant. And in today's video,
+- [03:14] we're just going to be focusing on
+- [03:15] chatting with our assistant because we
+- [03:17] already uploaded our files in this
+- [03:18] interface right here. So I'm going to go
+- [03:20] back into NADN and we're just going to
+- [03:22] real quick grab an AI agent. And now
+- [03:24] we're going to be able to hook it up to
+- [03:26] this Pine Cone Assistant tool. So when
+- [03:28] we give our agent a tool, you can see
+- [03:30] that there's no native tool here for a
+- [03:32] Pine Cone Assistant, but there is for
+- [03:34] Pine Cone Vector Store. So, what we need
+- [03:35] to do is grab an HTTP request so we can
+- [03:38] talk to our assistant. So, all you're
+- [03:40] going to do is go back into Pine Cone
+- [03:42] over here. You're going to open up this
+- [03:44] little connect thing to get to the API.
+- [03:46] And then down here where you see chat
+- [03:47] with your assistant, I'm basically going
+- [03:48] to copy everything except for the top
+- [03:51] two rows of Pine Cone API key and this
+- [03:54] blank row. So, I'm going to copy this,
+- [03:56] go back into edit, hit import curl, and
+- [03:58] then paste that in there. And when I hit
+- [04:00] import, it basically fills in the entire
+- [04:02] HTTP request that we need except for a
+- [04:05] few things that we'll have to tweak. So
+- [04:06] the first thing is a Pine Cone API key.
+- [04:09] The way you get that is you go back into
+- [04:10] Pine Cone. You'll click over here on API
+- [04:12] keys and then you'll just create a new
+- [04:14] key. So here's what that looks like.
+- [04:15] You'd click create API key. I'm just
+- [04:17] going to call this one demo 4. We're
+- [04:20] going to create that key. And now it's
+- [04:21] going to give us this secret value. And
+- [04:23] I have to copy this. And after you save
+- [04:25] it and you click close, it's going to be
+- [04:27] gone. So you can always create a new
+- [04:28] one, but just keep in mind that that key
+- [04:30] will be gone. So then you'd come back
+- [04:32] into Pine Cone and just paste that key
+- [04:34] right in there and you'll be all set. So
+- [04:36] it's super simple. And one pro tip that
+- [04:38] I want to show you guys is if you
+- [04:39] already have connected to Pine Cone
+- [04:41] through a native node, you could come to
+- [04:42] authentication, you can go to predefined
+- [04:44] and then you could come in here and just
+- [04:46] type in Pine Cone. And that would pull
+- [04:48] in your credential of your native Pine
+- [04:50] Cone integration. So you can either do
+- [04:52] that or you can do this. They're both
+- [04:54] the same. So because I'm doing this, I'm
+- [04:55] just going to turn off my headers. But
+- [04:57] don't let that confuse you. All that is
+- [04:58] is basically just putting in our
+- [04:59] password so we can access that Pine Cone
+- [05:01] Assistant. So now what I'm going to do
+- [05:03] is change the description and I'm just
+- [05:04] going to say use this tool to talk to
+- [05:08] your knowledge base. So we're going to
+- [05:10] paste in that as a description. I'm
+- [05:11] going to name this tool Pine Cone just
+- [05:13] to keep everything simple. And then the
+- [05:15] last thing we have to set up is the
+- [05:17] actual request that we're making to our
+- [05:18] Pine Cone assistant. So right now if we
+- [05:20] triggered this tool, no matter what we
+- [05:22] asked our assistant for help with, it
+- [05:24] would be sending off this query to the
+- [05:26] assistant. What is the inciting incident
+- [05:28] of Pride and Prejudice? And so we don't
+- [05:29] want to have that be the query every
+- [05:31] single time. So what we have to do is
+- [05:33] change this to an expression, meaning
+- [05:34] that these values can be dynamic. I'm
+- [05:37] going to get rid of this content right
+- [05:38] here. And I'm going to type in two curly
+- [05:41] braces that face each way. We're going
+- [05:43] to do a dollar sign, and we're going to
+- [05:44] grab this from AI function. And this is
+- [05:47] just going to let our AI agent determine
+- [05:49] what query do I send to the Pine Cone
+- [05:51] Assistant. And so all I'm going to do is
+- [05:53] type in search query within that little
+- [05:57] quotation mark right there. And now this
+- [05:59] is basically set up to be dynamic. And
+- [06:01] I'll show you guys exactly what I mean
+- [06:02] by that if that isn't yet making sense.
+- [06:04] Cool. So now all that's left to do is
+- [06:06] test out the agent. Of course, we first
+- [06:08] have to give it a brain. So I'm just
+- [06:09] going to go grab my open router API key
+- [06:11] and we're just going to stick with
+- [06:12] GBT4.1 Mini for now. All right. So now
+- [06:16] the agent's basically set up. All that
+- [06:17] will be left to do is test it, tweak the
+- [06:19] system prompt, and keep playing around a
+- [06:20] little bit. So that's exactly what we're
+- [06:22] going to do. First, I'm going to drop in
+- [06:23] this query asking about the Tesla
+- [06:25] document. How many vehicles did Tesla
+- [06:26] deliver in Q2 2025? And how did that
+- [06:29] compare to the same quarter in 2024? So
+- [06:32] once again, what's happening is it's
+- [06:33] hitting our Pine Cone Assistant and then
+- [06:35] it's going to come back with some
+- [06:36] answers for us. So, you can see it said
+- [06:38] that Tesla delivered a total of 384,000
+- [06:41] vehicles. And then it gives us a
+- [06:42] breakdown of the different models that
+- [06:44] it actually delivered. And it also said
+- [06:46] that it saw a 13% decrease in total
+- [06:48] deliveries year-over-year. I just went
+- [06:50] ahead and fact checked all this. That is
+- [06:52] correct. Now, keep in mind there's no
+- [06:54] system prompt in this AI agent, which is
+- [06:56] why we're not getting any source
+- [06:57] information like what PDF it pulled from
+- [06:59] and what page numbers it found it from.
+- [07:02] So, what I'm going to do real quick is
+- [07:03] give it a quick system prompt right
+- [07:05] here, which is what defines the behavior
+- [07:07] of our AI agent. So, I'm going to open
+- [07:09] this up full screen, and I'm just going
+- [07:10] to paste in this prompt that I was using
+- [07:12] earlier. It's really, really simple. I
+- [07:14] said, "You are an AI agent specialized
+- [07:15] in analyzing earnings reports data. Use
+- [07:18] your Pine Cone tool to search through
+- [07:19] earnings reports from Tesla, Nike, and
+- [07:21] Nvidia." When answering the user's
+- [07:23] question, always site your sources as
+- [07:24] far as what document you got it from,
+- [07:26] what page it was from, what section, and
+- [07:28] an exact textbased quote from the
+- [07:30] original source. because when we're
+- [07:32] doing rag and vector search, it's really
+- [07:34] important that we're seeing where our
+- [07:35] agent got the information from so that
+- [07:37] we can trust it. So, this is just a
+- [07:39] great example of defining the agents
+- [07:40] behavior. Because what's interesting is
+- [07:42] you'll notice when it searched the Pine
+- [07:44] Cone tool, we actually were getting that
+- [07:46] information. If I was to scroll down
+- [07:48] over here, you could see that what we
+- [07:49] were getting back from Pine Cone is the
+- [07:52] exact pages that it pulled this
+- [07:54] information from, as well as the name of
+- [07:55] the PDF it found it from. the AI agent
+- [07:58] just didn't know to actually tell us
+- [07:59] that information. Real quick, guys,
+- [08:01] excuse the lighting. I'm sitting here at
+- [08:03] nighttime editing this video and I
+- [08:05] realized that I didn't show what I meant
+- [08:07] by the agent filling in the query down
+- [08:09] here by itself. So, if you remember this
+- [08:11] question we asked was how many vehicles
+- [08:14] did Tesla deliver in Q2 2025 and how did
+- [08:17] that compare to the same quarter in
+- [08:18] 2024. So, what happened here is we can
+- [08:20] see the agent called the Pine Cone tool
+- [08:22] twice. We can see there were two items.
+- [08:24] And if we click in, we can see the two
+- [08:26] different searches that it made to our
+- [08:27] Pine Cone Assistant. Up in the top left,
+- [08:30] if we go to run one out of two, it
+- [08:31] searched Pine Cone Assistant for Tesla
+- [08:33] vehicle delivers Q2 2025. And then it
+- [08:36] knew it had to compare that to 2024. So
+- [08:38] then it searched it again and it said
+- [08:39] Tesla vehicle deliveries Q2 2024. And so
+- [08:43] this search query is the variable that
+- [08:44] we have down here because the agent
+- [08:46] basically decides what do I want this
+- [08:48] search query to be and how many times do
+- [08:50] I need to make a search query. And
+- [08:51] that's why on this right hand side, we
+- [08:53] also have two separate runs and two
+- [08:55] separate results. So for all the future
+- [08:56] examples, just keep that in mind. The
+- [08:58] agent decides the search query and
+- [09:00] that's how it's able to get the right
+- [09:01] information every time. Again, excuse
+- [09:03] the lighting. I'm working on getting a
+- [09:04] professional light back here. So if I do
+- [09:06] record in the dark, I'm not terrifying
+- [09:08] looking like this. Let's get back to the
+- [09:10] video. So just to show you guys that
+- [09:11] that prompt worked, I'm just going to
+- [09:13] repost this exact same message. And what
+- [09:15] we're going to see is it gives us the
+- [09:17] correct answer once again, but this time
+- [09:19] it's going to have a PDF name and pages.
+- [09:22] So there you go. We got the same answer
+- [09:24] and this time we got our source of Tesla
+- [09:26] Q2 and we have our page numbers down
+- [09:29] here. But what you may notice now is
+- [09:31] that we're not getting the textbased
+- [09:32] quote from the PDF. And the reason why
+- [09:35] we're not is because what happens in
+- [09:37] this Pine Cone node, and I'm not going
+- [09:38] to try to get too technical here, but
+- [09:40] the Pine Cone assistant on that server
+- [09:43] searches through the knowledge base and
+- [09:44] then it gives us basically like a short
+- [09:46] summary with the correct answer. This
+- [09:48] right here is not an exact textbased
+- [09:50] quote, but this is what our NAN AI agent
+- [09:52] uses to give us an answer. And just to
+- [09:54] highlight that point, I'm going to show
+- [09:55] you guys a better example of that. I'm
+- [09:57] asking, what were Nike's revenues for Q4
+- [09:59] fiscal year 2025? And how did they
+- [10:01] compare to last year? And what you're
+- [10:02] going to see happen is it gives us the
+- [10:04] correct answer, but now it gives us the
+- [10:06] exact quote, which is wrong. So if I was
+- [10:08] to copy this quote and go into the Nike
+- [10:11] doc, which was this one, and if I paste
+- [10:14] this in, we don't get any hits. We get
+- [10:17] zero matches. And that's because once
+- [10:19] again, what happens is the Pine Cone
+- [10:21] content that comes back is a summary.
+- [10:23] This is the Pine Cone Assistant answer
+- [10:26] that it made based on the exact text. So
+- [10:28] the way that we fix this is we have to
+- [10:30] understand the type of request we're
+- [10:32] making to the Pine Cone Assistant. And
+- [10:34] in order to do that, we have to look at
+- [10:35] the API documentation, which I will drag
+- [10:37] over right here. So this is basically
+- [10:39] the documentation that tells us how to
+- [10:41] use the assistant over API. We can see
+- [10:43] things like streaming response,
+- [10:44] extracting the response content,
+- [10:46] choosing a model, all this kind of
+- [10:48] stuff. But what I'm interested in is
+- [10:49] this bottom section that says include
+- [10:51] citation highlights in the response. So,
+- [10:54] all we have to do to get an exact site
+- [10:56] is add this thing down here that says
+- [10:59] include highlights. This is basically
+- [11:01] just a little lever that we can pull to
+- [11:03] change how the assistant works. So, keep
+- [11:06] in mind how this quote didn't work. I'm
+- [11:07] going to go into the HTTP request and
+- [11:09] all I'm going to do is add this little
+- [11:12] section include highlights equals true.
+- [11:14] And now I'm going to save this and run
+- [11:16] the exact same question. So, we're
+- [11:18] running the exact same question. the
+- [11:19] answer is going to come back correct
+- [11:21] again because the Pine cone assistant is
+- [11:23] going to be pretty good at getting it
+- [11:24] correct. But now we're going to see an
+- [11:25] exact quote come back as well. So right
+- [11:28] here we get this exact quote. I'm going
+- [11:29] to copy this, go back into the Nike doc,
+- [11:32] and now if I paste this in, we can see
+- [11:34] it's pulling the exact quote now. And
+- [11:36] the reason it was able to do that is
+- [11:38] because in Pine Cone, once again, this
+- [11:40] section called content is not the exact
+- [11:42] quote. But if I scroll all the way down,
+- [11:44] you can see we have a new section that
+- [11:46] got added called content. And this is
+- [11:48] basically what's going to pull exactly
+- [11:49] what was found in the document. So this
+- [11:52] is just a really great example of not
+- [11:54] only being able to understand what's
+- [11:55] happening, but being able to understand
+- [11:57] that if I want to change the behavior, I
+- [11:59] can go read through API documentation.
+- [12:01] And this is how I can also change things
+- [12:03] like the sampling temperature or I can
+- [12:05] change the model because one thing that
+- [12:07] you will notice is that if you're in
+- [12:08] your assistant playground right here and
+- [12:10] you change the chat model to interact
+- [12:12] with, you can see I switched the model.
+- [12:14] If I hover over this, it says select the
+- [12:16] model for the assistant to use in this
+- [12:18] conversation to persist this choice in
+- [12:20] your application. Remember, you have to
+- [12:22] set your model in your API calls. So,
+- [12:24] going back to NADN in the HTTP request
+- [12:27] down here, we have a model. And so, if I
+- [12:29] wanted to change what model we're using
+- [12:30] to interact on the Pine Cone Assistant
+- [12:32] side, we would have to change that right
+- [12:34] here. All right. So, sorry if I was
+- [12:36] getting a little technical there. I just
+- [12:37] think it's really important that you
+- [12:38] guys understand how this is actually
+- [12:40] working. If you're looking to understand
+- [12:41] this stuff a little bit better, I have
+- [12:42] an API video that you can watch. I'll
+- [12:44] tag it right up here. Or you can also
+- [12:46] check out my plus community. The link
+- [12:47] for that's down in the description.
+- [12:48] That's where you'll receive more
+- [12:49] structured guidance and a community of
+- [12:51] people that are building every day.
+- [12:52] Anyways, real quick now, I want to show
+- [12:54] you guys the difference because I'm sure
+- [12:55] you're wondering, why would I not just
+- [12:57] use a Pine Cone vector store or a
+- [12:58] Superbase vector store? Why is this
+- [13:00] quicker and easier and maybe even
+- [13:02] better? So, the reason why I'm a big fan
+- [13:04] of this right now is because what's
+- [13:06] going on here is Pine Cone on the back
+- [13:08] end is handling all of the indexing,
+- [13:10] embedding, chunking, it's handling all
+- [13:12] of that in order to make your job easier
+- [13:14] so that you don't have to manage all of
+- [13:15] that to get your accurate sources back.
+- [13:17] Cuz like I said, if you're taking the
+- [13:18] typical vector approach, there's a lot
+- [13:20] more work that goes in up front. You
+- [13:22] can't just drop in a file and be good to
+- [13:24] go. You have to set up a pipeline to
+- [13:26] have like metadata filtering and maybe
+- [13:28] even different types of splitting and
+- [13:29] chunking. I'm not going to dive super
+- [13:31] deep into this right now because I don't
+- [13:32] want the video to go too long, but I
+- [13:34] want to show you guys a real quick
+- [13:35] comparison. So, all three of these
+- [13:37] agents have the exact same prompt and
+- [13:38] the exact same documents except for
+- [13:40] they're just being stored somewhere
+- [13:42] differently. So, I'm going to drop in
+- [13:44] this question right now to our Pine Cone
+- [13:45] assistant that asks, "What was Tesla's
+- [13:47] operating margin in Q2 2025?" So, you'll
+- [13:50] see it comes back with the operating
+- [13:52] margin was 4.1%, which is correct. You
+- [13:55] can see it gives us the document. It
+- [13:56] gives us the page numbers as well as an
+- [13:58] exact quote. And also keep in mind that
+- [14:00] we got this answer back right here. It
+- [14:02] says 1,277
+- [14:04] tokens. So keep that number in mind. Now
+- [14:06] if we move over to this middle agent
+- [14:07] that's using a Pine Cone Vector store
+- [14:09] rather than the assistant, we're going
+- [14:10] to ask the exact same question. And
+- [14:12] remember, we're looking for the answer
+- [14:14] 4.1%.
+- [14:15] So what we get back is I don't really
+- [14:18] know what the answer is. And you can see
+- [14:20] that it took almost 30,000 tokens. So we
+- [14:23] got an incorrect answer. And it cost us
+- [14:26] like 15 times more. More than 15 times
+- [14:28] more. Yeah, that was horrible math, but
+- [14:30] you get the point. And because we took a
+- [14:32] typical vector chunk approach where we
+- [14:34] were in charge of all of the
+- [14:35] pre-processing of those chunks, I'm
+- [14:37] assuming it's going to do the exact same
+- [14:39] thing when we try this with our
+- [14:40] Superbase vector store. So, you can see
+- [14:42] here pretty much the same answer. It
+- [14:44] wasn't able to find the exact figure. We
+- [14:46] were looking for 4.1%. And this one only
+- [14:48] took 5,000 tokens, which is still like
+- [14:51] three times more expensive than the Pine
+- [14:52] Cone Assistant. So, that's all I'm going
+- [14:54] to talk about today. I'm not saying that
+- [14:56] the Pine Cone Assistant is always the
+- [14:58] best option because you also have that
+- [14:59] running cost of 5 cents every hour. But
+- [15:02] the point I'm trying to make is if you
+- [15:03] want to spin something up quickly and
+- [15:05] play around with how it's working, this
+- [15:06] Pine Cone Assistant is a game changer,
+- [15:09] especially if you're a beginner and you
+- [15:10] want to experiment with stuff like rag
+- [15:12] agents. And also wanted to give a quick
+- [15:14] shout out to the legend Mark Cashef.
+- [15:15] He's the one that showed me these Pine
+- [15:17] Cone Assistants and like I said, I think
+- [15:18] they're super cool. So hopefully now you
+- [15:20] understand how you can test out the Pine
+- [15:22] Cone Assistant for yourself. And if you
+- [15:23] want to download this template so you
+- [15:25] can just kind of play around with the
+- [15:26] differences, then you can get it for
+- [15:27] free by joining my free school
+- [15:28] community. And if you like seeing stuff
+- [15:30] like this and you want some more
+- [15:31] structured learning, then definitely
+- [15:33] check out my plus community. The link
+- [15:34] for that is also down in the
+- [15:35] description. We've got a great community
+- [15:37] of over 200 members. Everyone every day
+- [15:39] is building and earning with NADN. And
+- [15:41] we have a full classroom section with
+- [15:43] three full courses. Agent Zero is the
+- [15:45] foundations for beginners. 10 hours to
+- [15:47] 10 seconds dives into NAND. And then our
+- [15:49] new oneperson AI agency course is
+- [15:50] available for our annual members and it
+- [15:52] goes over how to lay the foundation to
+- [15:54] build an AI automation business. So I'd
+- [15:56] love to see you guys in these
+- [15:57] communities. But that's going to do it
+- [15:58] for the video. Hope you guys enjoyed. If
+- [16:00] you learned something new, please give
+- [16:01] it a like. It definitely helps me out a
+- [16:02] ton. And as always, I appreciate you
+- [16:04] guys making it to the end of the video.
+- [16:06] I'll see you all in the next one. Thanks
+- [16:08] guys.

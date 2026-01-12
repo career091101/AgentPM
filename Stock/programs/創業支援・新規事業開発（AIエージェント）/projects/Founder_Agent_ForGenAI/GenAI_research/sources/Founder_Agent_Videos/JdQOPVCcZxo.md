@@ -1,0 +1,1197 @@
+---
+title: "uh our next topic and uh yeah without further ado Timur over to you."
+video_id: "JdQOPVCcZxo"
+video_url: "https://www.youtube.com/watch?v=JdQOPVCcZxo"
+speaker: "Timur"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  uh our next topic and uh yeah without further ado Timur over to you
+  All right, thank you so much Raja
+key_points:
+  - "topic and uh yeah without further ado Timur over to you"
+  - "of all, thank you so much for having me"
+  - "Covers startup concepts and applications"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:27:55+09:00"
+---
+
+# Transcript: JdQOPVCcZxo
+
+- URL: https://www.youtube.com/watch?v=JdQOPVCcZxo
+- Retrieved at: 2025-12-30T10:27:55+09:00
+
+## Text
+
+- [00:00] uh our next topic and uh yeah without
+- [00:03] further ado Timur over to you. All
+- [00:06] right, thank you so much Raja. Um, good
+- [00:08] morning everyone. Uh, my name is Timur
+- [00:11] Rashid. Um, I'm part of the AWS team.
+- [00:14] Um, I lead the generative AI innovation
+- [00:17] center. Uh we started the innovation
+- [00:19] center about two and a half years ago
+- [00:21] and we are a multid-disciplinary team
+- [00:23] that uh does does for deployed
+- [00:26] engineering for customers and we help
+- [00:28] them accelerate their journey uh with
+- [00:31] genai and agentic AI and making sure
+- [00:34] that they can maximize the value from
+- [00:36] that investment in the shortest amount
+- [00:38] of time. Uh I want to thank the data
+- [00:40] science dojo team for inviting us. I'm
+- [00:42] really excited to be leading this panel
+- [00:44] right now architecting scalable multi-
+- [00:46] aent workflows and what excites me the
+- [00:49] most is the group of folks that I have
+- [00:51] here that are part of the panel and we
+- [00:53] have a great representation and I do
+- [00:55] want to welcome them all uh over here as
+- [00:58] well. Um uh we have Jiao from Curi,
+- [01:03] Gabriella and Ali and I will ask them
+- [01:07] all to maybe take one minute and
+- [01:09] introduce themselves
+- [01:11] um in that order and then we'll uh get
+- [01:14] into the discussion.
+- [01:17] >> So let's start with uh our our gentleman
+- [01:21] from Crew AI. Yep.
+- [01:24] >> Hey there everyone. First of all, thank
+- [01:26] you so much for having me. Long time no
+- [01:28] see. I remember like we we met in
+- [01:29] Seattle not too long ago. Very excited
+- [01:31] to be seeing you again even though it's
+- [01:32] online.
+- [01:33] >> It's good to see you too.
+- [01:36] >> Well, uh one again thank you so much.
+- [01:38] I'm very excited to be here. Thank you
+- [01:40] so much for the folks from data science
+- [01:42] dojo. Very excited about it. So one my
+- [01:45] name is kind of hard to pronounce. I do
+- [01:47] go by Joe and that makes everyone's
+- [01:48] lives easier. So that uh that is one and
+- [01:51] I'm very excited for a conversation
+- [01:53] today. If people don't know crew AI, um
+- [01:56] we basically started an open source tool
+- [01:58] to help engineers to create AI agents.
+- [02:00] We still have a project that goes by the
+- [02:02] same name and we keep working on that.
+- [02:05] Very excited to be closing and launching
+- [02:06] a version 1.0 at some point next month.
+- [02:09] So let's see how that would go. And then
+- [02:11] we turned into a company uh that now is
+- [02:13] happening uh many customers across the
+- [02:15] globe including the United States
+- [02:17] Department of Defense, uh Papico, Royal
+- [02:20] Bank of Canada and many others. So, uh,
+- [02:22] very excited to be here.
+- [02:26] >> Well, it's great to have you, Gabriella.
+- [02:28] Did you want to go next?
+- [02:29] >> Yeah, of course. Uh, glad to be here.
+- [02:32] Great panel. Uh, Joan or Joe and I, we
+- [02:35] are originally from Brazil, so it's
+- [02:37] great to see like another Brazilian uh,
+- [02:39] in the panel and all doing agents. Uh,
+- [02:42] it's amazing. Uh, so my name is
+- [02:44] Gabrielle Deer. I now have my own
+- [02:47] company at 02 Labs where I help startups
+- [02:50] stand out and scale through AI strategy
+- [02:53] and developer advocacy. I have worked
+- [02:55] with over 100 AI startups helping them
+- [02:59] go from like this invisible product into
+- [03:02] recognized leaders within this developer
+- [03:04] communities because we know that it's
+- [03:06] very hard for you to stand out from the
+- [03:08] crowd especially now with so many
+- [03:10] startups. Uh previously I was working at
+- [03:13] Microsoft. I was a director of AI over
+- [03:16] there and then at IBM uh doing AI
+- [03:20] strategy and innovation but I also
+- [03:21] worked in at different startups. Three
+- [03:24] startups that actually got acquired and
+- [03:27] my focus is always helping founders to
+- [03:29] drive adoption, build visibility and
+- [03:32] grow sustainable communities around the
+- [03:34] product. On the side I founded two
+- [03:38] global organizations. One is called our
+- [03:40] ladies and the other one is called AI
+- [03:42] inclusive and together they reach over
+- [03:45] 200,000 members globally and the idea is
+- [03:49] to make technology more inclusive. Very
+- [03:52] excited to be here and can't wait for
+- [03:55] our panel and the conversations.
+- [03:58] >> Thank you so much Gabriella. Really
+- [04:00] excited to have you. And finally Ali,
+- [04:03] did you want to introduce yourself?
+- [04:04] >> Absolutely. Greetings everyone. Ali
+- [04:06] Arsenjani. Um I'm the director for
+- [04:09] applied AI engineering in the Google
+- [04:11] cloud AI team. Um my team leads um
+- [04:16] engagements uh on the cutting edge of
+- [04:18] where uh we're aspiring as an uh as a
+- [04:22] community of uh of people accelerating
+- [04:25] in agentic AI um and trying to make sure
+- [04:29] that uh these systems are actually ready
+- [04:31] for production uh and to kind of um go
+- [04:36] over the hurdles and uh speed bumps that
+- [04:39] we see along the way uh as we all
+- [04:41] collectively
+- [04:43] um as an industry strive in that
+- [04:44] direction. The acceleration is uh is
+- [04:47] very mind-boggling uh exciting and scary
+- [04:51] at the same time. So I'm very glad we're
+- [04:53] having these types of panels so that we
+- [04:54] can share experiences.
+- [04:57] >> Yeah. Know that's great. Thank you so
+- [04:58] much Ali and welcome. you know um what
+- [05:01] I'm excited about is just getting this
+- [05:03] uh really broad and diverse perspective
+- [05:05] from you all as we look at a few set of
+- [05:07] topics right and so as multi- aent
+- [05:10] systems gain traction in the AI
+- [05:12] landscape you know many organizations
+- [05:15] are experimenting with pilot projects
+- [05:17] and proof of concepts very similar to
+- [05:20] what companies were doing about two and
+- [05:22] a half years ago with Genai and clearly
+- [05:26] with Genai we've made this great
+- [05:28] progress in the maturity of the tools,
+- [05:31] the frameworks, the models, right? We're
+- [05:34] at a very similar point here uh with
+- [05:37] multi- aent systems, right? And so as
+- [05:40] you draw from your diverse experience uh
+- [05:42] working with multiple customers and
+- [05:44] organizations across different sectors,
+- [05:46] I'd really like to explore initially
+- [05:48] what are some of those obstacles and
+- [05:51] also those success stories in scaling
+- [05:54] multi- aent workflows. So I think a
+- [05:56] question that I'd like to start off for
+- [05:58] all the panelists is what are the
+- [06:00] biggest barriers uh that you're seeing
+- [06:02] with scaling these multi- aent workflows
+- [06:05] and and for that matter even you know
+- [06:07] building them from the ground up and are
+- [06:10] you seeing organizations that are sort
+- [06:12] of quicker at adopting that and quicker
+- [06:15] at moving from pilot to production and
+- [06:18] so Joe maybe we'll start with you first.
+- [06:21] Yeah, sure. I mean that's such a good
+- [06:23] topic and I agree with you. It looks
+- [06:25] like a again it follows a similar
+- [06:27] pattern that Ginai and I would say
+- [06:29] similar pattern that even other industry
+- [06:31] in the past. I can find a lot of
+- [06:33] correlations between this and for
+- [06:34] example data lakes back in the day were
+- [06:37] like was a brand new technology but
+- [06:39] people don't really understand how to
+- [06:41] even buy it. So they're trying to
+- [06:43] understand and navigate these a little
+- [06:45] bit but once that they get to value
+- [06:47] expansion starts very h rapidly. So it's
+- [06:51] kind of like a similar pattern that
+- [06:52] we're seeing now. It's very much
+- [06:55] crossvertical and cross horizontal. So
+- [06:57] we see everything for financial,
+- [06:59] insurance, CPG, there's like there's is
+- [07:01] across many different industries. I
+- [07:04] think a few things that I expected to be
+- [07:05] a little different is I expect to see u
+- [07:08] kind of like SAS companies moving faster
+- [07:12] but a lot of them are going the route of
+- [07:14] kind of like oh let me try boot it first
+- [07:15] and if I can't boot it then I might look
+- [07:17] into buy it. uh now more bigger
+- [07:20] enterprise companies are going more into
+- [07:22] like no like I know that I won't be able
+- [07:24] to build this and keep up with the
+- [07:25] market base so I be better off kind of
+- [07:28] like buy something or parking with
+- [07:29] someone that has done this um I'm seeing
+- [07:32] a lot of interest from highly regulated
+- [07:34] industry I think because they are very
+- [07:35] high regulated there's like a lot they
+- [07:37] can automate on their process there said
+- [07:40] migrating to production is usually a
+- [07:41] little trickier because of like again
+- [07:43] all the regulations and the environments
+- [07:45] and all that uh but definitely seeing
+- [07:47] that companies that are come in prepared
+- [07:49] with knowing what they want to build a
+- [07:51] very clear understanding of what a
+- [07:53] success looks like for them and knowing
+- [07:55] how to measure it usually correlates to
+- [07:57] success very like very highly. Uh when
+- [08:00] companies show up like not being clear
+- [08:02] on kind like what they want to do or
+- [08:04] maybe they have like a small list of
+- [08:06] things but they didn't taught it through
+- [08:08] that usually means they have a lot of
+- [08:09] like homework to do before they actually
+- [08:11] jumping into the technical side of
+- [08:13] things. Uh, I would say that my quote
+- [08:15] unquote hot take is the tech is there.
+- [08:18] Uh, I think companies needs to kind of
+- [08:19] like match a little bit some of the prep
+- [08:21] work before jumping into them.
+- [08:24] >> Yeah. Yeah. No, that's a fair point. You
+- [08:25] know, I mean, I uh, you know, I echo a
+- [08:28] lot of that, right? Which is when
+- [08:29] companies sort of have very intentional
+- [08:32] things that they want to accomplish,
+- [08:33] right? You know, the success rate in
+- [08:35] actually productionizing a system gets
+- [08:37] higher, but naturally many people are
+- [08:39] still trying to understand this whole
+- [08:41] space, right? So um Gabriella what about
+- [08:44] from your perspective what are you
+- [08:45] seeing?
+- [08:47] >> Yeah you know I kind of like see and
+- [08:49] similar to Joan uh threefold. So the
+- [08:52] first one is about the operational
+- [08:54] complexity.
+- [08:55] So how do we orchestrate multiple agents
+- [08:58] across tools APIs and different data
+- [09:01] sources in a way that is reliable. It's
+- [09:04] still immature in several companies and
+- [09:07] startups. Uh the second piece is around
+- [09:10] um the evaluation trust. So some
+- [09:13] organizations they don't have robust
+- [09:15] ways to measure agent behavior. Uh so
+- [09:19] correctness and and failure modes at
+- [09:22] scale. Uh that's the something that I
+- [09:24] see very very often. And then the third
+- [09:26] one which is something that we have seen
+- [09:28] in the industry for like so many years
+- [09:30] in is the integration that so most
+- [09:33] pilots they they leave in the sandbox
+- [09:36] demos but when you plug in these agents
+- [09:39] into the production systems with
+- [09:40] security compliance and mon monitoring
+- [09:43] then it's a different game. Then if we
+- [09:47] move to the part where I've seen them
+- [09:49] succeed, it's been when companies treat
+- [09:52] this multi- aent workflows like software
+- [09:55] systems. No, not research prototypes.
+- [09:58] >> So think about starting small with a
+- [10:01] high value use case and add
+- [10:05] observability from day one and then you
+- [10:08] create this feedback loop with the
+- [10:10] users. uh and the ones that I see that
+- [10:13] scale also like they build this
+- [10:16] evaluation so they can integrate safely
+- [10:19] and then the the other piece that we
+- [10:21] kind of like forgets is the aligning
+- [10:24] with business. It's so important to
+- [10:26] align with business very early on. So
+- [10:28] trying to trying to tie this agent
+- [10:31] workflow with a clear ROI. This is what
+- [10:35] like business people and stakeholders
+- [10:37] they usually uh value. It's like what is
+- [10:40] the ROI? So this helps with like all the
+- [10:43] support from executive stakeholders and
+- [10:45] also to get budgets so you can move from
+- [10:47] pilot to production.
+- [10:50] Yeah, know that's a great point,
+- [10:51] Gabriella. And it's funny, you know,
+- [10:53] just the other like I've been talking to
+- [10:54] customers over this past week and more
+- [10:57] and more they're talking about the eval
+- [10:59] part, the observability pan uh end of
+- [11:02] the spectrum and what some people are
+- [11:04] calling AI uh agent tracing, right? It's
+- [11:07] just really getting that intelligence
+- [11:09] about how do agents perform so
+- [11:11] ultimately they can drive, you know, a
+- [11:13] much better outcome through that closed
+- [11:15] loop, right?
+- [11:17] >> Yeah. And one one particular interesting
+- [11:19] thing is like in the industry we see
+- [11:21] this this loop this cycle happening over
+- [11:25] and over and over again like when we had
+- [11:26] like machine learning models we did all
+- [11:28] of this already. So now with AI agent
+- [11:31] the same thing don't forget that we need
+- [11:33] to evaluate we needed to observe we need
+- [11:35] to have like systems in place to make
+- [11:37] sure that it's doing the thing that it's
+- [11:38] supposed to do.
+- [11:40] >> Very true. Very true. Yeah.
+- [11:42] >> No thank you so much for that. Um Alien
+- [11:44] and finally from your perspective I'd
+- [11:46] love to hear what you're seeing and
+- [11:49] please share that with the group.
+- [11:51] >> Yeah absolutely of course uh my
+- [11:53] colleagues here have shared some keen
+- [11:55] insights in this area. I think
+- [11:57] potentially some slightly non-over
+- [12:00] overlapping areas would be that in
+- [12:03] general uh current operational
+- [12:05] frameworks don't quite have standardized
+- [12:08] tooling for the entire life cycle of
+- [12:11] managing interdependent agents. Agents
+- [12:14] that are not just operating individually
+- [12:16] but have interdependent actions and
+- [12:19] dependencies.
+- [12:20] What this uh deficit essentially acrrues
+- [12:24] is or manifests itself in is the ability
+- [12:29] to uh or rather the inability to
+- [12:31] effectively monitor agent drift u to
+- [12:36] ensure what we might call
+- [12:38] non-repudiation
+- [12:40] uh with comprehensive audit trails uh of
+- [12:43] how an agentto agent uh for example
+- [12:46] there's a protocol that is now uh given
+- [12:49] to the Linux foundation called the
+- [12:51] agent-to- agent interoperability
+- [12:52] protocol. Implementing those types of
+- [12:55] protocols becomes really important
+- [12:56] because you can have audit trails across
+- [12:59] companies. Maybe uh a platform specific
+- [13:04] agentic platform has their own
+- [13:05] observability and tools and all that.
+- [13:07] That's great. But when you have
+- [13:10] crosscutting uh workflows across
+- [13:12] organizations, it's important to be able
+- [13:14] to have audit trails. The agentic trails
+- [13:18] or or rather tracing that you mentioned
+- [13:20] Tamour um is basically looking at the
+- [13:24] agentto agent communication
+- [13:27] um and how you transfer information from
+- [13:30] one agent to another across the
+- [13:32] organizations and in that vein
+- [13:36] implementing some reliable auditable not
+- [13:40] just agentic interactions but human in
+- [13:43] the loop intervention protocols as well
+- [13:45] because the trend towards okay we'll
+- [13:48] we'll have agents do everything that's
+- [13:50] that's kind of a nice uh objective
+- [13:52] moonshot example but we're going to get
+- [13:55] there in stages we have to be able to
+- [13:57] rely on the agents maybe send an email
+- [14:00] reliably maybe don't mess up the email
+- [14:02] so I don't get into trouble right and
+- [14:05] once we're okay with that then okay but
+- [14:08] if they want to charge my credit card
+- [14:09] they need to come to me so there's a
+- [14:11] human in the loop escalation or approval
+- [14:13] that sort of a thing so the agent
+- [14:15] agentic operations gap. If I if I can
+- [14:18] summarize that in a in one clump in a
+- [14:21] category, I would call it the agentic
+- [14:22] operations gap where the tooling for
+- [14:25] life cycle management of interdependent
+- [14:27] agents is necessarily not there. The
+- [14:29] second thing is architectural
+- [14:31] fragmentation. So pilot deployments
+- [14:34] generally requ you you know kind of rely
+- [14:37] on sequential prompt chaining.
+- [14:40] Sequential prompt chaining doesn't have
+- [14:43] the robustness that you would expect for
+- [14:45] production. So if you want to have scale
+- [14:48] you have to you have to adhere to uh
+- [14:52] some of the wellknown ways of solving
+- [14:54] these problems. agentic design patterns
+- [14:56] like a role-based agent routing where
+- [14:59] agents have modularity, they have very
+- [15:01] specific tasks, they have version tool
+- [15:04] sets and their interactions are governed
+- [15:06] by some formal communication protocol
+- [15:09] like the ATA agent to agent. Um, and
+- [15:12] Gabriella mentioned another one I was
+- [15:14] going to mention which is agentic
+- [15:16] behavior evaluation. So, uh, that that
+- [15:18] that's kind of like third on my top
+- [15:20] priority list.
+- [15:22] >> Yeah. No, that's great. And you know,
+- [15:24] Ali, I really like the way you
+- [15:25] positioned it because I'd like to build
+- [15:28] on that conversation, which nicely segus
+- [15:30] into the next topic, which is when you
+- [15:32] look at these multi- aent systems,
+- [15:35] um the big thing here is is how do they
+- [15:38] collaborate and how do you coordinate
+- [15:40] them, right? And so if you had to look
+- [15:42] at the analogy of just how human capital
+- [15:45] is deployed within organizations,
+- [15:48] uh we think of so many different ways
+- [15:50] that we can organize teams around
+- [15:53] certain outcomes, right? And so we've
+- [15:55] looked at centralized models, we looked
+- [15:56] at decentralized models, we've actually
+- [15:59] looked at, you know, how do you mix them
+- [16:01] both within an organization, right? When
+- [16:03] you look at multi- aent systems now,
+- [16:05] you're really not only talking about
+- [16:07] sort of the technical architecture and
+- [16:10] all those foundational things that kind
+- [16:12] of support this multi- aent system, but
+- [16:14] you also have to think about the
+- [16:16] operational part that you mentioned as
+- [16:18] well too. So could you share from your
+- [16:20] perspective what are some trade-offs
+- [16:22] that builders and companies should think
+- [16:25] about between you know decentralization
+- [16:27] and centralization in a multi- aent
+- [16:30] system?
+- [16:32] Um yeah. Um so you have you have on the
+- [16:35] one hand you have kind of what you would
+- [16:38] consider a centralized orchestration.
+- [16:42] Um some people like to call it a
+- [16:44] centralized orchestration control plane.
+- [16:46] So an OCP a control plane that
+- [16:48] orchestration is happening. And then you
+- [16:51] also have a distributed agent execution
+- [16:55] environment. agents are interacting
+- [16:57] between companies via ATA or just
+- [16:59] randomly maybe unfortunately maybe well
+- [17:03] standardized. So you have the
+- [17:05] centralized orchestration control plane
+- [17:07] and you have a distributed agent
+- [17:09] execution environment. These are these
+- [17:11] are kind of two different elements. Um
+- [17:14] the functionality of the centralized one
+- [17:16] you have the benefits of it is you have
+- [17:18] global state management you can control
+- [17:20] everything from one place. policy and
+- [17:23] compliance can be enforced you know in
+- [17:25] one location you can have workflow
+- [17:27] auditing you have dynamic resource
+- [17:30] routing to the best possible tool um and
+- [17:34] there in the centralized version you
+- [17:37] your primary architectural objective is
+- [17:39] centralized governance accountability
+- [17:42] and observability the tradeoff
+- [17:44] consideration there is or the potential
+- [17:47] point of contention maybe that you have
+- [17:49] to trade off on uh if it's not optimized
+- [17:52] it requires very complex state
+- [17:54] serialization uh in order to make this
+- [17:57] happen. Uh on the other hand you have
+- [18:00] this notion of a uh distributed agentic
+- [18:04] execution environment and in that task
+- [18:07] execution local you tool utilization
+- [18:11] asynchronous ATA communication and local
+- [18:14] decision processing are paramount. So
+- [18:17] the primary architectural objectives you
+- [18:20] try to get to there are reducing latency
+- [18:23] because you want things done fast. Uh
+- [18:26] you can't have people wait for the
+- [18:27] orchestration to happen. You got to have
+- [18:29] it local fast uh taking actions being
+- [18:31] taken and decisions being taken. You
+- [18:34] want resiliency. So if something has to
+- [18:36] robustly recover, it can. And you to
+- [18:38] some degree you want autonomy. So
+- [18:41] reduction of latency, resiliency and
+- [18:42] autonomy are the O's architectural uh
+- [18:45] objectives for the decentralized
+- [18:46] version. Now there the tradeoff is uh
+- [18:51] you risk emergent unconstrained
+- [18:53] behavior. Emergent systems have behavior
+- [18:56] that emerges without the coordination
+- [18:58] between the agents because they're not
+- [19:00] necessarily coordinated without OCP, you
+- [19:02] know, the centralized supervision. So
+- [19:05] the way to balance them is to make sure
+- [19:07] you understand the architectural
+- [19:09] objectives. Do you want the centralized,
+- [19:11] the decentralized? And then try to
+- [19:13] balance them by ingesting a little bit
+- [19:16] of the centralized governance over that
+- [19:19] decentralized area. So at least you have
+- [19:20] auditability there. And vice versa. Um
+- [19:24] the complex state management that's
+- [19:26] required in the uh centralized version,
+- [19:29] you would want to delegate to external
+- [19:31] uh agents and tools so that you have a
+- [19:34] balance.
+- [19:35] >> Yeah. No, that that's a fair point and I
+- [19:38] do think the way you're characterizing
+- [19:39] it's very telling right because um there
+- [19:42] are those trade-offs you have to
+- [19:43] consider right there protocols and
+- [19:45] standards um which you know Gabriella I
+- [19:48] wanted to learn from you you know you
+- [19:50] advise so many startups right uh with
+- [19:53] strategy with technical guidance and all
+- [19:55] of that are you seeing certain standards
+- [19:57] or frameworks emerge uh from your
+- [20:00] conversations
+- [20:03] >> yeah definitely so like I've seen all
+- [20:05] these early building blocks of like the
+- [20:07] standard for agent orchestration. So
+- [20:09] frameworks like lingraph, crewi,
+- [20:13] uh dspi, I think that's how you
+- [20:15] pronounce uh are moving us from this ad
+- [20:18] hoc chaining toward a more like
+- [20:20] graphbased declarative workflow that are
+- [20:22] easy to scale and debug. uh at the same
+- [20:25] time I'm seeing protocols such as MCP
+- [20:29] uh H2A function calling interfacings
+- [20:32] that are shaping this common language
+- [20:33] for tool use and interoperability.
+- [20:38] uh but I in the longer term when I think
+- [20:40] about like several years maybe even
+- [20:42] months I believe that this real
+- [20:44] foundation will combine
+- [20:46] >> composability
+- [20:48] observability
+- [20:50] >> and governance
+- [20:52] giving enterprise the confidence to run
+- [20:54] this multi- aentic or multi- aent
+- [20:57] systems in productions much like uh what
+- [21:00] kubernetes did for containers uh and I
+- [21:04] like this thinking about this cloud
+- [21:06] infrastructure in a way so Like the
+- [21:08] composability would be like this
+- [21:09] microservices where we mix and match
+- [21:12] some modules instead of like rewriting
+- [21:14] everything. And then the observability
+- [21:17] as we mentioned a a lot of times here
+- [21:19] monitoring and logging uh because we
+- [21:21] need to keep this system um reliable and
+- [21:25] then the governance which is like
+- [21:27] compliance and access control that
+- [21:29] ensures that you build whatever you
+- [21:32] build is not just powerful but safe and
+- [21:34] aligned uh with the business rules.
+- [21:37] >> Yeah. No, that's great. I like you
+- [21:40] mentioned uh you know composability,
+- [21:41] observability and governance, right? And
+- [21:43] I do think those are very foundational
+- [21:45] aspects to it. Um and and I think it's I
+- [21:49] like the analogy that you looked at
+- [21:51] Kubernetes and containers because in
+- [21:54] many ways we have heruristics across
+- [21:57] that world and the world that we're in
+- [21:58] right now uh that are very similar right
+- [22:02] and I I I I want to segue to the next
+- [22:04] question which is for Joe which is you
+- [22:06] know in the work that you do with
+- [22:08] customers and obviously you have this
+- [22:09] great platform which gets these you know
+- [22:11] digital workers which you guys are
+- [22:13] calling crew uh or crews um are there
+- [22:16] effective strategies that you are seeing
+- [22:20] as you help customers through that
+- [22:21] journey.
+- [22:23] >> Yeah. You mean more on the technical
+- [22:25] side or or overall
+- [22:27] >> you know more so technical but feel free
+- [22:29] to go beyond the tech.
+- [22:31] >> Yeah. I mean there's definitely a new
+- [22:33] idea of a stack that has been coming up
+- [22:35] right and if you look into this it goes
+- [22:37] all the way back to the data management
+- [22:38] layer like these agents will need to tap
+- [22:40] into data at some point. So whether that
+- [22:42] is data bricks, snowflake, bigquery, red
+- [22:44] shift, whatever you name it, right?
+- [22:46] There's it starts all the way back there
+- [22:48] and then you have the LLMs, then you
+- [22:50] have kind like the orchestration layer.
+- [22:52] Then you have like memory, observability
+- [22:54] and a few things spread on top. Um there
+- [22:56] is authentication
+- [22:58] connectors and I would say on the
+- [23:00] outmost layer would be this idea of an
+- [23:02] agenda app something that you can
+- [23:04] actually interact with, right? Either
+- [23:06] conversational or buttons or whatever it
+- [23:08] might be. But there's definitely idea of
+- [23:10] a like this entire stack coming up and I
+- [23:13] think people are trying to understand
+- [23:14] like how much of that stack is grouped
+- [23:16] together. How much of the stack leaves
+- [23:18] apart from each other and need to figure
+- [23:19] it out. Uh so there's definitely a few
+- [23:21] patterns that we are seeing in there
+- [23:23] that seems to be working pretty well. Uh
+- [23:25] I would say that every customer goes to
+- [23:27] kind of like a three phases. There's
+- [23:30] kind of like an initial phase of
+- [23:32] building an integration. Uh that is
+- [23:34] again you want to make sure that you get
+- [23:35] that right. So you want to make sure
+- [23:37] that you're trying everything. You're
+- [23:39] setting up things in a way that you can
+- [23:40] actually monitor them. You're making
+- [23:42] sure that you have the definition of
+- [23:43] success that what we call before. And
+- [23:45] then they go to a second stage where
+- [23:47] like all right this is running now I
+- [23:48] need to make sure that I'm able to
+- [23:50] observe this and optimize it. Right? So,
+- [23:52] it's not only that I want to see traces
+- [23:54] and what's going on and or even like
+- [23:57] having this ability to use LLM as judges
+- [23:59] to highlight or call hallucinations and
+- [24:02] things like that, but I want to be able
+- [24:03] to use that to proactively optimize what
+- [24:06] I'm building and I want to be able to
+- [24:08] that's getting better. And then the
+- [24:09] final stage would be like the management
+- [24:12] and kind like scaling, right? Where like
+- [24:14] all right, I care about who gets access
+- [24:15] to this. I care about what is the cope
+- [24:17] of permissions. I care that I'm not
+- [24:19] rebooting the same agents twice
+- [24:21] throughout my organization and that I
+- [24:24] can run like either 100,000 or a million
+- [24:26] of those and it's all fine. Um, so I
+- [24:29] would say those are kind of like the way
+- [24:30] that most of customers are kind of like
+- [24:32] thinking about it and it seems they're
+- [24:33] having a lot of success with that. Um,
+- [24:35] it's the way that we have building our
+- [24:37] entire agent management platform on that
+- [24:39] as well. this idea of like hey needs to
+- [24:42] be extremely easy to build and integrate
+- [24:44] needs to be extremely powerful to
+- [24:46] observe and optimize and and managing a
+- [24:48] scale should like give trust right
+- [24:50] people should be that they trust this
+- [24:52] things can run like u and they can just
+- [24:55] turn it on to 11 because what I think
+- [24:57] like most people don't understand is
+- [24:59] traces are very uh interesting and
+- [25:01] useful especially when you're developing
+- [25:03] right and allows you to get those things
+- [25:05] like going and improving very quickly
+- [25:07] but once you turn it on to 11 these
+- [25:09] things are run at machine speed. So it's
+- [25:12] it's hard for you to kind like put your
+- [25:13] finger on them and and monitor them
+- [25:15] unless you can like set up as um someone
+- [25:18] else brought up brought up this idea of
+- [25:21] like automatically runtime interjecting
+- [25:24] rerouting and all that right uh I do am
+- [25:27] seeing a a new trend of what I'm calling
+- [25:32] optin agency so I feel like uh up to
+- [25:36] this point or up to like a few months
+- [25:38] ago was either people would choose a
+- [25:40] pattern that is or like oh I like people
+- [25:43] would push you to graphs or people would
+- [25:46] push you to like agents like completely
+- [25:48] like using agency but now what I'm
+- [25:50] seeing is more like those two getting
+- [25:52] intertwined where people might want to
+- [25:55] have a structure or a backbone where
+- [25:57] they might do if this then that and they
+- [25:59] have all control that they need and then
+- [26:02] in certain steps they might choose how
+- [26:04] much agency they want from a single LM
+- [26:08] call to have one single agent to have an
+- [26:10] entire a group of agents working
+- [26:12] together and that is a pattern that we
+- [26:14] are definitely seeing. Uh we we call CI
+- [26:16] flows and I think we're now running 12
+- [26:19] million a day of dope. So it's insane to
+- [26:21] see like how this is growing as a
+- [26:23] pattern for us in like the last like
+- [26:25] quarter. Um so those are some of the
+- [26:28] things that come to mind.
+- [26:29] >> Yeah, that's really interesting Joe. uh
+- [26:31] like in a is is a way to look at that
+- [26:34] there's a balance of how do you ensure
+- [26:37] that the overall system has the right
+- [26:40] balance of determinism and
+- [26:42] non-determinism right
+- [26:44] >> yeah I think it's interesting because
+- [26:46] the reason why these agents are powerful
+- [26:48] was because they are um probabilistic
+- [26:51] right what means that they selfheal you
+- [26:53] can throw any data at them if something
+- [26:55] fails they're able to like figure it out
+- [26:58] so that is that is interesting but then
+- [27:00] people do and make sure that they get
+- [27:02] not the same output but reliable outputs
+- [27:06] repeatably right so that they can trust
+- [27:08] that so it's always like you you need to
+- [27:10] strike the right balance of like how
+- [27:12] much deterministic controls can I add to
+- [27:15] this probabilistic system and I think
+- [27:17] this is the kind of skill that people
+- [27:19] that have done it like agents and crews
+- [27:22] before they developed but a lot of
+- [27:24] champions that have never done this they
+- [27:26] need some coaching and training to get
+- [27:27] there.
+- [27:28] >> Yeah. And you mentioned a few things
+- [27:31] like you talked about trust, you talked
+- [27:32] about permissions and I think one of the
+- [27:36] one of the complex things with these
+- [27:37] multi- aent systems is ensuring that you
+- [27:40] have the right level of security,
+- [27:42] privacy and compliance right and you
+- [27:45] know while some folks are not
+- [27:47] necessarily dealing with this right now
+- [27:49] over time as you look at the bigger
+- [27:51] opportunity
+- [27:52] uh systems have to be very sophisticated
+- [27:54] in how they manage complex regulatory
+- [27:57] data data protection challenges crossber
+- [28:00] considerations and those kinds of things
+- [28:01] and so there is an architectural
+- [28:04] approach to that and so Ali maybe I'll
+- [28:06] I'll turn this question over to you is
+- [28:07] that when when you're managing sensitive
+- [28:10] data in a very distributed agentbased
+- [28:13] architecture and environment right um
+- [28:16] how should builders think about um about
+- [28:20] what are the first principles there with
+- [28:22] multi-agent architectures that have the
+- [28:25] right security governance and compliance
+- [28:27] built into
+- [28:29] Yeah, actually you left the toughest
+- [28:31] question for me, huh? Just kidding. Just
+- [28:34] kidding.
+- [28:34] >> Well, I know you have a good answer for
+- [28:36] it.
+- [28:37] >> I sure hope so. Um, well, well, I what I
+- [28:40] can do is I can hint on mitigating
+- [28:42] factors and, you know, principles
+- [28:44] essentially to take into consideration.
+- [28:47] So, I would say that we're talking about
+- [28:49] I would consider this advanced data
+- [28:51] security. So what this means when I say
+- [28:54] advanced data security is kind of like a
+- [28:56] policybased
+- [28:58] agentic data governance. So it's agentic
+- [29:02] data governance which is an offshoot a
+- [29:04] derivative of general data governance
+- [29:07] because agents these little creatures
+- [29:09] can get away and may not be trackable.
+- [29:12] So you have to govern them through
+- [29:14] policy. So policy based data agentic
+- [29:17] governance of data. So you need a
+- [29:20] framework for managing the sensitive
+- [29:22] data in a distributed agent environment.
+- [29:24] I would say that there are three
+- [29:26] principles to take into consideration.
+- [29:29] One is the principle of lease privilege.
+- [29:32] So in the principle of lease privilege
+- [29:34] as it sounds each agent has a unique
+- [29:36] identity with role-based access control.
+- [29:40] And then second, access is going to be
+- [29:43] strictly limited to the data that's
+- [29:46] essential for the specific role and
+- [29:49] tools. So when you say this, everybody's
+- [29:51] like, "Yeah, that's obvious." No, it
+- [29:53] isn't. Why isn't it obvious? Because
+- [29:55] agents tend to have these general LLMs
+- [30:00] as their brains. So a very generalized
+- [30:03] you want to you want to go to a
+- [30:04] physician who's a very specialized you
+- [30:07] know specialist in I don't know skin
+- [30:11] when you go to a general practitioner
+- [30:12] they know generally what to do about
+- [30:14] skin but you need a very or an
+- [30:17] opthalmologist an eye doctor you need
+- [30:19] very specific expertise in that area so
+- [30:22] the agents you build have to have brains
+- [30:25] that are tuned fine-tuned Laura fine
+- [30:28] tuned however adjusted for that specific
+- [30:31] specific task and domain. If they're
+- [30:33] generalist agents, it's going to be
+- [30:35] difficult for them to receive the
+- [30:38] information that's very specific to
+- [30:40] their role and task and yet deliver
+- [30:42] non-h hallucinatory
+- [30:45] acceptable outputs. So essentially um
+- [30:48] when you're limiting data to what's
+- [30:50] essential for that role and tool, you're
+- [30:53] preventing unnecessary exposure to
+- [30:56] sensitive information like PII. So
+- [30:58] that's principle number one, principle
+- [31:00] of lease privilege. The second one is
+- [31:03] the abstraction of what we call a
+- [31:05] context graph. Uh tokenize and abstract
+- [31:08] the context graph. So agents don't just
+- [31:10] pass raw data one to the other. They
+- [31:14] query a knowledge graph that is very
+- [31:17] specific for context. So that's a
+- [31:19] context graph that's tokenized,
+- [31:22] abstracted, uh and they share only
+- [31:26] derived insights. They're not going to
+- [31:27] send PII back and forth so that they can
+- [31:31] keep the original data secure. So
+- [31:35] context gra the principle of principle
+- [31:38] number two context graph abstraction and
+- [31:41] tokenization.
+- [31:43] So you're not act you know just passing
+- [31:44] around raw data. The third one is
+- [31:48] basically a kind of compliance. So if an
+- [31:51] agent has or data residency controls
+- [31:53] let's say in Europe and APAC let's just
+- [31:56] say uh you have data residency controls
+- [31:58] like GDPR CCPA etc in specific areas
+- [32:02] agents need to be configured to operate
+- [32:05] only within their own legal jurisdiction
+- [32:09] of the data they're processing. So this
+- [32:12] can be thought of as a principle of
+- [32:14] cross jurisdictional
+- [32:18] compliance. So you're complying you're
+- [32:20] compliant because yeah, you have 10
+- [32:23] agents. Each of the agents are operating
+- [32:25] in the jurisdiction
+- [32:27] that they actually are supposed to
+- [32:29] operate. And just because you have
+- [32:31] agents, you're not sending data back and
+- [32:34] forth across these jurisdictions that
+- [32:38] deny your compliance. So
+- [32:40] crossjurisdictional compliance becomes
+- [32:41] very important. So agents know and
+- [32:43] operate in their own jurisdiction. So
+- [32:46] those three principle of lease privilege
+- [32:48] context graph abstraction and
+- [32:50] tokenization and then this
+- [32:52] crossjurisdictional compliance of
+- [32:54] agents.
+- [32:56] >> Yeah. No, that's great Ali. I really
+- [32:57] like those three aspects because they're
+- [33:00] very foundational. They're first
+- [33:01] principles, right? Because like you
+- [33:03] said, like this is a very complex thing
+- [33:06] with all sorts of systems engineering
+- [33:10] and security engineering that needs to
+- [33:12] play out here. you know, we've been
+- [33:14] getting some interesting questions from
+- [33:16] the group here in the chat and what what
+- [33:19] I'd like to do is, you know, we have
+- [33:21] about 13 minutes or so. Uh, some of
+- [33:23] these questions are very relevant to the
+- [33:25] conversations that we're having. And so,
+- [33:27] I'd like to bring these questions up and
+- [33:28] see, you know, Gabriella, Joe, Alli, if
+- [33:31] any of you feel like you want to answer
+- [33:33] it, uh, feel free to. One common set of
+- [33:36] questions that I'm seeing from the group
+- [33:38] here is how should guard rails be
+- [33:41] planned for multi- aent systems and I
+- [33:45] think to a large extent it relates to
+- [33:47] the fact that we've been talking about
+- [33:49] security
+- [33:50] um you know governance compliance but
+- [33:53] then Joe you also mentioned some things
+- [33:55] around permissions right and so maybe
+- [33:57] I'll throw that out there for the aud
+- [34:02] >> yeah that's interesting I think like
+- [34:04] there's two sorts of guard rails. I
+- [34:07] would I would put connectors, tools,
+- [34:09] apps as a separate topic, but I would
+- [34:12] say that in terms of like um uh guard
+- [34:15] rails, there's two kinds of guard rails
+- [34:17] that I have been seeing. One that are
+- [34:20] less deterministic that is basically I
+- [34:22] want to use another LLM to fact check
+- [34:25] once my agent's done with a specific
+- [34:27] task before it keeps going. uh what is
+- [34:30] definitely one pattern and the other is
+- [34:32] people resorting straight to code like
+- [34:34] hey I want to get the output of this
+- [34:36] task and I want to validate something
+- [34:38] with actual code either it's a JSON
+- [34:41] output or even if it's a string I might
+- [34:43] want to do something with that to
+- [34:44] validate something and then depending on
+- [34:48] the output of that I want one of two
+- [34:50] things I want this to keep going and
+- [34:53] next agent can take on and can keep
+- [34:54] going from there or I'm going to send
+- [34:56] this back the same agent and say like no
+- [34:59] you did this wrong and this is what you
+- [35:01] got wrong. So again can keep working and
+- [35:04] intererating on that. So those are like
+- [35:06] two patterns that I have seen that
+- [35:07] people using a lot. Now there's also
+- [35:10] again to Ali's point people that are
+- [35:12] building some of those around PII
+- [35:14] detection or personal information
+- [35:16] depending on kind like what leg
+- [35:17] isolation you're trying to comply with.
+- [35:19] Um and then also people doing that to
+- [35:22] check things prior to the execution like
+- [35:25] make sure that you're checking for
+- [35:26] prompt injection a bunch of different
+- [35:28] other things in there as well. And uh
+- [35:30] the prompt injection techniques have
+- [35:32] been getting very u very sophisticated I
+- [35:34] would say. So there's a lot of checks
+- [35:36] that you can run prior the agent
+- [35:38] actually take on a request to make sure
+- [35:39] that you're rolling some of those out.
+- [35:41] Uh and then the other thing that I also
+- [35:43] say that we see is like a code
+- [35:44] generation validation. I think that's
+- [35:46] another big concern as well. whenever
+- [35:48] you have agents that are generating code
+- [35:50] like how you make sure that you're
+- [35:51] sending checking that code for like any
+- [35:53] kind like security concerns and then
+- [35:55] we're executing that in a way that also
+- [35:57] is super secure. So in terms of
+- [35:59] guardrails those are the kind of guard
+- [36:01] rails that I'm seeing out there. I don't
+- [36:02] know if like anyone else would add
+- [36:04] another kind though.
+- [36:07] >> Yeah sure Gabriel and
+- [36:10] >> yeah Gabriela do you want to go or
+- [36:12] should I
+- [36:13] >> you can go first.
+- [36:15] >> Okay cool. So um I I can think of you
+- [36:18] know like two levels at least um I know
+- [36:20] J you mentioned them really nicely but
+- [36:23] you know if you think of them in two
+- [36:24] levels you have policy adherence at the
+- [36:27] high level business level that's you
+- [36:29] know the business policies and then
+- [36:31] agent guard rails at the lower level
+- [36:33] authentication authorization you know
+- [36:35] filtering PII etc. So you have these two
+- [36:39] levels to deal with in terms of um
+- [36:43] essentially auditing compliance and
+- [36:45] agent policy management. Um so I think
+- [36:49] thinking about in the at those two
+- [36:50] levels is helpful because you can
+- [36:52] enforce them in different ways. For
+- [36:53] example, if you're using um callbacks uh
+- [36:58] for example, in order to monitor and uh
+- [37:01] deal with human in the loop or filtering
+- [37:03] responses back from a model or back from
+- [37:06] an agent or back from a tool, you can
+- [37:08] then in that call back you can trap the
+- [37:11] information and see if it's even uh if I
+- [37:15] should even be able to access that
+- [37:17] information if I'm calling it. So you
+- [37:19] have a mechanism uh to see if the
+- [37:22] response is adhering to organizational
+- [37:26] policies. So the very tangible thing I
+- [37:30] would say is for example if you're using
+- [37:32] something like you you can use crew AI
+- [37:34] of course uh or let's say you're using
+- [37:37] uh the agent development kit there are
+- [37:39] callbacks you can do before and after
+- [37:41] agent tool and model model callbacks
+- [37:44] where you when you're retrieving the
+- [37:45] information or when you're even sending
+- [37:47] the information you can check for policy
+- [37:49] adherence.
+- [37:52] >> Yeah that's fair. No thank you so much
+- [37:54] for that Ali. You know, one other
+- [37:56] question that I'm sort of seeing in the
+- [37:58] chat um in it sort of combines a few
+- [38:01] topics, right? Gabriela, you talked
+- [38:03] about ROI and clearly, you know, when
+- [38:06] you look at multi- aent systems and the
+- [38:10] investment that's going into deploying
+- [38:11] these systems and then eventually over
+- [38:14] time them doing a lot of the tasks that
+- [38:17] typically human beings would do. Um
+- [38:20] there's a huge emphasis and a promise
+- [38:22] around ROI from from aentic
+- [38:25] architectures and one of the other
+- [38:27] thoughts that I'm seeing here is is that
+- [38:30] accuracy is going to be so important
+- [38:32] right and so you have generalized agents
+- [38:34] which are leveraging you know
+- [38:36] generalized models and then is there
+- [38:39] this opportunity where in order to drive
+- [38:42] higher levels of accuracy and therefore
+- [38:44] ROI there's a need to create specialized
+- [38:48] domain specific speific agents which are
+- [38:51] then leveraging domain specific models.
+- [38:53] And so I I think it's a three-prong
+- [38:56] question where in order to really get
+- [38:59] the ROI, there's got to be an investment
+- [39:02] in higher levels of accuracy with the
+- [39:04] tasks being done
+- [39:06] >> and and sort of how should people think
+- [39:08] about that and customizing models and
+- [39:11] you know building specialized agents and
+- [39:13] so I I will leave it open for anyone to
+- [39:16] sort of take that question or just share
+- [39:18] some thoughts on that.
+- [39:19] >> Yeah. Yeah. I can I can talk a little
+- [39:21] bit about the ROI. Um because one of the
+- [39:24] things that I see it's like how do I
+- [39:26] start and which one should I start with
+- [39:28] like when building uh is I would say
+- [39:32] like think about what is the one that
+- [39:35] you have a high volume and a very
+- [39:38] welldefined pain point. So for example
+- [39:40] if you have an e-commerce company
+- [39:43] probably it's going to be support
+- [39:44] tickets and then a way that you can
+- [39:46] measure uh clearly. So you have like
+- [39:49] some metrics in place. Um there is one
+- [39:52] example that I want to show about this
+- [39:54] company e-commerce company um where they
+- [39:58] were able to use like a minim minimal
+- [40:02] like infrastructure. They were able to
+- [40:04] scalate um uh only like 10% but then
+- [40:10] they were able to get our ROI very high.
+- [40:13] I don't remember like what is the the
+- [40:15] the the number but it was like very
+- [40:17] little but do getting a very good ROI.
+- [40:19] So what I'm saying here is like start
+- [40:22] small and then build on top once when
+- [40:25] it's working well.
+- [40:27] >> Yeah. No, that's a fair point.
+- [40:30] Uh Joe or Ali, any additional thoughts
+- [40:33] here or we can uh go to the next uh
+- [40:36] question.
+- [40:39] >> Yeah, I think I would second that but
+- [40:41] yeah, let's go to the next one. and I
+- [40:42] want to cover as much ground as we can.
+- [40:44] >> Yeah. Okay. No, that sounds good. Um,
+- [40:47] so, you know, as we're as we're getting
+- [40:49] closer and closer to the end of our, uh,
+- [40:51] panel discussion here, um, I'd really
+- [40:54] like to get each of your thoughts on how
+- [40:58] should we look at the horizon ahead,
+- [41:00] right? And so, we're at a fascinating
+- [41:02] inflection point with the evolution of,
+- [41:05] you know, Gen AI and now we're at the
+- [41:07] start of aic AI and we're talking multi-
+- [41:09] aent systems. uh there's a lot of rapid
+- [41:12] advancement in foundation models and you
+- [41:15] know various breakthroughs along the way
+- [41:17] right so the pace of innovation is just
+- [41:19] moving very very fast
+- [41:21] um I'd like to get from each of you as
+- [41:24] we look ahead what are the techn
+- [41:26] technological or research breakthroughs
+- [41:29] do you sort of anticipate that can
+- [41:31] unlock where we are today and these
+- [41:35] inflection points that we can have as we
+- [41:37] go forward and so you know maybe Joe
+- [41:39] will we'll start with you first.
+- [41:42] >> Yeah, I think like that that's a good
+- [41:43] question and um it's interesting. I
+- [41:46] think the most interesting thing that I
+- [41:47] have I keep thinking about within the
+- [41:50] industry there and I go back to my first
+- [41:52] answer uh on the panel. I think the tech
+- [41:55] has come such a long way and there's a
+- [41:57] bunch of things that are already kind of
+- [41:58] like kind of working if you string them
+- [42:00] along correctly. where I want to see us
+- [42:03] going on moving next and I think like
+- [42:05] that's where the industry is going to go
+- [42:06] as well is how much work these agents
+- [42:09] can do by themselves. How long these
+- [42:12] agents can work no stop. I think that's
+- [42:15] probably where things are going to start
+- [42:16] to trend a little bit because that's a
+- [42:18] very high correlation with how valuable
+- [42:20] they can be, right? And and how much ROI
+- [42:23] to Gabriella's point they can actually
+- [42:24] bring back. So if you can get this
+- [42:26] agents doing work for like one hour and
+- [42:28] interruptly that means that you can
+- [42:30] throw a lot of like harder uh and more
+- [42:32] complex problems right if I say to this
+- [42:34] agents like I don't know a silly example
+- [42:37] but just to highlight um like say go
+- [42:40] over my entire emails that I ever got
+- [42:42] and classify everything right and you
+- [42:44] don't have to worry about context
+- [42:46] engineering you don't have to worry
+- [42:47] about any of that and these agents are
+- [42:48] just able to get it done I think like
+- [42:50] that you start to get in the realm of
+- [42:52] the possibilities of what you can throw
+- [42:54] into um that uh makes them extremely
+- [42:56] more interesting and more valuable for
+- [42:58] many of these companies and use cases.
+- [43:00] So in terms of the horizon, I think
+- [43:02] there's going to be if I had to pick one
+- [43:04] thing, I think there's many things, but
+- [43:06] this going to be probably ones that um
+- [43:08] I'm very curious to see is how they come
+- [43:10] is how the industry starts to kind like
+- [43:13] converge and optimize a little more to
+- [43:15] how long this agents can run
+- [43:16] autonomously and how that translate into
+- [43:18] active ROI.
+- [43:20] >> Yeah, that's fascinating. Yeah, like the
+- [43:22] ability for agents to do long long range
+- [43:25] tasks, right? And for what duration? No,
+- [43:28] that's great. Thank you for that.
+- [43:29] >> Um Ali, what about from you?
+- [43:32] >> Um I mean there's a lot of areas
+- [43:34] honestly. Um one area if I would pick
+- [43:37] one is um how to balance global
+- [43:42] optimality with so when you have an
+- [43:45] emergence you have a multi- aent system
+- [43:47] that's decentralized you have uh
+- [43:50] emergent behavior but you need to
+- [43:52] globally optimize that emergent
+- [43:54] behavior. So there's a lot of research
+- [43:57] going into how to do that. How to
+- [43:59] balance local um and global optimization
+- [44:03] uh and deal with the emergent behavior
+- [44:05] in a multi- aent system. So that's
+- [44:08] number one. Number two correlary to that
+- [44:10] would be as agents become more
+- [44:11] autonomous, how does that affect that
+- [44:14] global optimality?
+- [44:16] Um and then one double clicking even
+- [44:19] further third level would be multi-agent
+- [44:22] reinforcement learning moral as as you
+- [44:25] know people call it um is a way in which
+- [44:28] you can create uh reinforcement learning
+- [44:31] but with not just one LLM or one u agent
+- [44:35] but multiple agents. That's a challenge
+- [44:38] that I think is going to be extremely
+- [44:40] important. It goes back to the ROI
+- [44:42] question. It goes back to the OKR
+- [44:44] question, the metrics question. It kind
+- [44:46] of engulfves a lot of these things. Um,
+- [44:50] and I think one uh one person in the
+- [44:53] audience actually asked a very similar
+- [44:55] question and uh I actually have a blog
+- [44:58] that kind of talks about the mitigating
+- [45:01] factors there. Uh and I can point people
+- [45:04] to that.
+- [45:06] >> That sounds great. No, thank you so
+- [45:07] much. Hi. And Gabriella, finally from
+- [45:10] your perspective. Yeah, I think there
+- [45:12] are two things for me. One is uh when I
+- [45:14] think about scalability will come from
+- [45:17] less from bigger models and more around
+- [45:20] the infrastructure that we have around
+- [45:22] them. And then the other piece that I
+- [45:24] mentioned a lot about was the the
+- [45:27] standardized protocols which will make
+- [45:30] easier for agents uh from different
+- [45:32] frameworks and vendors to talk each
+- [45:34] other uh seamlessly.
+- [45:37] Um, I don't know what else, but those
+- [45:40] are the two things that I see coming
+- [45:42] like and and being uh there for a while.
+- [45:47] >> Okay. No, that's great. No, thank you
+- [45:48] for sharing that. Um, well, um, Joe,
+- [45:52] Ali, and Gabriella, I really want to
+- [45:54] thank you for your time, your insights,
+- [45:56] and all that you shared. I really
+- [45:58] enjoyed the conversation, and we're so
+- [46:00] early in this journey as an industry,
+- [46:03] uh, that I'm sure we will learn a lot
+- [46:05] more as we go. Uh so thank you so much
+- [46:07] for that. I want to thank all the
+- [46:09] viewers for attending this panel and the
+- [46:11] data science dojo team for making this
+- [46:14] possible. So I hope you all have a great
+- [46:16] day. Thank you so much.
+- [46:19] >> Okay, thank you all. Um so before we
+- [46:22] move on to the next panel, uh we are
+- [46:25] going to have about uh a 15minut break.
+- [46:28] Um so we will come

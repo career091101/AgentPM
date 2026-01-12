@@ -1,0 +1,581 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=y__qEgqXcF4"
+video_id: "y__qEgqXcF4"
+video_url: "https://www.youtube.com/watch?v=y__qEgqXcF4"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "entrepreneurship", "startup", "PMF", "AI", "product_development"]
+topics: ["プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=y__qEgqXcF4
+  - Retrieved at: 2025-12-30T16:44:38+09:00
+  - [00:00] to end the year. Uh I wanted to do this
+key_points:
+  - "- [02:50] all year and I haven't felt any need to"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: y__qEgqXcF4
+
+- URL: https://www.youtube.com/watch?v=y__qEgqXcF4
+- Retrieved at: 2025-12-30T16:44:38+09:00
+
+## Text
+
+- [00:00] to end the year. Uh I wanted to do this
+- [00:02] year an AI awards 2025. So basically
+- [00:06] this is just going to be everything I
+- [00:08] thought about different things that
+- [00:10] happened in 2025. So I put up all of
+- [00:12] these categories. You can see I'm going
+- [00:14] to go through like best vibe coding
+- [00:15] platform, best AI IDE, best Aentic
+- [00:18] coder, best open source company, best
+- [00:21] open-source LLM, best image models, best
+- [00:24] video model, biggest disappointment,
+- [00:26] biggest surprise and the best AI startup
+- [00:30] of the year, best LLM, large language
+- [00:32] model, and the biggest moments I think
+- [00:35] in AI in biggest moment in AI in 25 and
+- [00:39] the AI person of the year. So these are
+- [00:41] kind of my categories and I thought we
+- [00:44] could just go through this and of course
+- [00:46] this is my award, right? So this is what
+- [00:49] I think. It's just my opinion. You might
+- [00:51] have a different opinion, but I think
+- [00:53] you will agree on some of them. So we're
+- [00:55] just going to go through this in almost
+- [00:57] this order. I think I put best LLM at
+- [00:59] the end of the video because I think
+- [01:01] that's the biggest thing, at least for
+- [01:03] me. So yeah, let's just get started and
+- [01:05] take a look at our first category and
+- [01:08] that is going to be the best vibe code
+- [01:09] platform for 2025. So uh I put up like
+- [01:13] the ones I have tried, right? And there
+- [01:16] are others too, but Rift, that's a
+- [01:18] Norwegian startup. Uh I think they do a
+- [01:20] pretty good job, so I had to have them
+- [01:22] in there. I played with them in 2025.
+- [01:25] Bot new, Replabable,
+- [01:27] we all know those pretty well. So yeah,
+- [01:30] I think they have a good year and the
+- [01:32] numbers they put up. Uh all of these are
+- [01:34] very good. So there's definitely have
+- [01:36] been a blow up of this market in 2025.
+- [01:40] And yeah, I just had to pick the one I
+- [01:43] think kind of has the most impact in
+- [01:45] 2025. And the winner is
+- [01:48] [cheering]
+- [01:49] Lovable. I think they did a pretty good
+- [01:51] job this year. They got a lot of users.
+- [01:53] They got a big like revenue spike. And
+- [01:55] basically W coding this year has had a
+- [01:58] large impact and Lobo Ball is one of
+- [02:01] them. I think they have a pretty easy
+- [02:03] software to use and yeah I don't know
+- [02:06] you can see here a lot of users pretty
+- [02:09] good product easy to use for people that
+- [02:11] are not no technical skills and I think
+- [02:14] it's a good entry point if you want to
+- [02:15] get into some more advanced stuff like
+- [02:17] cloud code and things. Uh yeah so not so
+- [02:21] hard to pick that one. Next category is
+- [02:23] the best AI IDE and I think we have a
+- [02:27] pretty good uh selection here. Cursor of
+- [02:30] course is the major player. Uh I have
+- [02:32] tried Klein. I had tried Ader this year.
+- [02:35] Uh anti-gravity I tried at the end of
+- [02:37] the year. I kind of like that but I
+- [02:39] haven't used it much. So this one is
+- [02:42] also pretty easy for me. This is like my
+- [02:44] personal choice and that is going to be
+- [02:48] yeah cursor. That's the one I have used
+- [02:50] all year and I haven't felt any need to
+- [02:53] switch right you all know cursor pretty
+- [02:57] simple to use if you are kind of used to
+- [03:00] like VS code and stuff uh they
+- [03:02] introduced new features this year they
+- [03:04] have the agent and yeah updated with
+- [03:07] their own model I think is it called is
+- [03:10] it composer I think cursor composer one
+- [03:15] right I think they brought in their own
+- [03:17] Frontier model that's pretty I think
+- [03:19] this does pretty good job at least uh
+- [03:23] what I have tried and kind of the tab
+- [03:25] are kind of the best on the market. So
+- [03:27] yeah, not a hard pick for me to pick
+- [03:29] cursor for the best AI IDE of 2025. Next
+- [03:33] up we have the category for best aentic
+- [03:35] coder and here it's a bit more difficult
+- [03:39] I think because here I have two
+- [03:41] favorites this year I used a lot. Uh of
+- [03:44] course we have closed code. If you watch
+- [03:45] any of my videos you know I yeah love
+- [03:47] that one. Open Code. I really enjoyed
+- [03:50] Open Code this year. They are great,
+- [03:51] right? Uh I did try CodeCli. I think
+- [03:54] they are pretty good. They're getting
+- [03:55] better. Gemini CLI. This is the one I
+- [03:57] done the least. I gave it a shot like uh
+- [04:01] yeah in when it came out. I haven't
+- [04:03] really used it since. Uh so for me here,
+- [04:05] this pretty much between two. I would
+- [04:08] say it's between Claw Code and Open
+- [04:10] Code. And I think Codeex, yeah, like I
+- [04:13] said, they have done a pretty good job.
+- [04:15] Uh actually uh more than I thought but
+- [04:18] um yeah for me uh as you will probably
+- [04:22] guess the winner is going to be
+- [04:24] [cheering and applause]
+- [04:26] yeah cloud code but open code I really
+- [04:28] recommend it because I have been using
+- [04:30] open code with open router that is also
+- [04:33] pretty good and I had a lot of fun with
+- [04:35] that. Uh but for me this is quite easy
+- [04:37] but that's kind of more like a personal
+- [04:39] choice. I think claude code is just
+- [04:41] amazing I I just love it. Everything I
+- [04:44] do is almost through CL code. I will say
+- [04:46] I use it almost every day, right? And
+- [04:50] yeah, I just and with the new skills
+- [04:53] that we're going to look more on in
+- [04:54] 2026, I think, and MCP, they brought in
+- [04:58] that and everything and all the tools
+- [05:00] they have and now with Opus 4.5, I'm on
+- [05:03] the Max 200 plan. So, yeah, nothing else
+- [05:05] to say. H I'm a big fan of Cloud Code
+- [05:07] and I'm going to keep using it next
+- [05:09] year. And that's my winner for 2025 when
+- [05:12] it comes to agentic coders. Next
+- [05:15] category is best opensource company. And
+- [05:19] this one I think is a bit interesting.
+- [05:20] Uh we have DeepSeek, Quen, Moonshot AI,
+- [05:24] and Flux. That's the one I picked out.
+- [05:27] And we all know kind of DeepSick very
+- [05:29] well. Uh Quen uh had a great year. I
+- [05:31] think Moonshot AI came kind of in with
+- [05:34] Kim K2 and Flux. I really enjoy the Flux
+- [05:38] models. they are kind of doing some open
+- [05:40] source too. So I think they have a good
+- [05:42] job uh done a good job on kind of the
+- [05:44] media side of things. I wanted to
+- [05:45] include one media category here. Um,
+- [05:49] yeah, for me, uh, I guess this was
+- [05:52] pretty easy for me to be honest. And
+- [05:55] that's going to be, [cheering]
+- [05:59] yeah, I had to pick Quen just because
+- [06:02] uh, Quen AI. If we go to them, you can
+- [06:04] see they do a bunch of stuff stuff,
+- [06:06] right? Open source. And we can see some
+- [06:08] of their future products here. They have
+- [06:10] a great image generation models that is
+- [06:11] open source. I think it's the Quen 3VL
+- [06:13] model. They have some deep research
+- [06:15] tools. The thinking models are great. I
+- [06:18] like the Quen 3 coder. Yeah, as I said,
+- [06:20] and they did also a video model that is
+- [06:23] sup super popular, the van 2.2 model.
+- [06:26] So, for me, this again was pretty easy
+- [06:28] to pick Quen as the best open source
+- [06:30] company of 2025.
+- [06:32] So, there were some other good
+- [06:34] candidates, but for me, yeah, this is uh
+- [06:36] going to be Quen. I think they're owned
+- [06:38] by Alibaba now, but I'm just going to
+- [06:39] call them Quen anyway. So, next up, we
+- [06:42] have the best open-source large language
+- [06:45] model. And here you can see I've set the
+- [06:47] Kim K2 thinking deep 3.2 or I guess it
+- [06:51] would vi 3.2 too. Quentry, this could be
+- [06:54] coder. This could be just their main
+- [06:55] model. And I wanted to include the open
+- [06:57] source model from OpenAI. I I think it's
+- [06:59] a pretty good model. Actually, the 120B
+- [07:02] is great. I also like the 20B model.
+- [07:04] Very good. So, this was more like all
+- [07:05] open source models, not the one only one
+- [07:08] you can run on your computer. And uh
+- [07:10] yeah, for me uh I had to think about
+- [07:13] this a bit because I played a lot of
+- [07:15] around with the Quen 3 uh coder model. I
+- [07:18] think that's a very good one. Deep 3.2
+- [07:20] too. I haven't used a lot to be honest.
+- [07:22] I spent a lot of time on their earliest
+- [07:25] models. I think that was very good. Uh I
+- [07:27] have used the GPT OSS 20B quite a while
+- [07:31] and I think that's a good one. And yeah,
+- [07:35] Kim K2. Uh let's take a look at the
+- [07:37] winner. [cheering]
+- [07:40] Yeah, for me this is Kim K2 thinking. I
+- [07:42] think this is a superb model. I have
+- [07:44] used it in um clo in open code, right?
+- [07:49] And it's so good. I really like it and I
+- [07:53] would definitely go try this out on open
+- [07:55] router if you haven't and it's a really
+- [07:57] popular model. Kim K2 thinking you won't
+- [08:00] be disappointed. So this is from the
+- [08:02] company Moonshot AI as we saw just uh
+- [08:05] earlier and I think they did a very good
+- [08:08] job on this. Um, so if you haven't tried
+- [08:11] it out, maybe go to open router, link it
+- [08:13] up with your open code and give this
+- [08:16] model a test because uh I have been
+- [08:19] super impressed by this model. Okay, so
+- [08:22] our next category is going to be best
+- [08:24] image model or AI model of course of the
+- [08:26] year. Nano Banana Pro GPT image 1.5 that
+- [08:30] basically we just got I think it was
+- [08:32] last week, but it's a really good model
+- [08:34] though. I've tested it a bit and I think
+- [08:36] it's really good. Flux one uh context uh
+- [08:39] I really enjoyed earlier parts of the
+- [08:41] year so I wanted to include that. I used
+- [08:43] it a lot for like editing and stuff like
+- [08:44] that. This was kind of before Nano
+- [08:47] Bananaish around that time and I think
+- [08:49] it's a really good model to be honest
+- [08:51] and kind of my favorite model of the
+- [08:54] last part of the year at least from open
+- [08:56] source models is the said image turbo
+- [08:59] model. Uh, it's really good and it's
+- [09:02] superb fast, superb, super fast and it's
+- [09:05] really fun to use in applications on
+- [09:07] stuff just because of the speed and I've
+- [09:09] been so impressed kind of by the quality
+- [09:11] of this and they are releasing a bigger
+- [09:14] model soon that I think it's going to be
+- [09:15] very good. Uh, but again this was pretty
+- [09:18] easy, right? If you watch any of my
+- [09:20] videos this year, you know who is this
+- [09:22] uh who this awards goes to.
+- [09:27] Yeah, of course it's going to be Nano
+- [09:28] Banana Pro. I think this is one of my
+- [09:30] highlights of the year to be honest.
+- [09:32] It's such a fun model to play around
+- [09:35] with if you like to do images and stuff.
+- [09:37] And I've been using a lot on the API
+- [09:39] side, maybe from FAL or Google itself.
+- [09:42] And yeah, basically I did this
+- [09:44] presentation with Nano Balan Pro. That
+- [09:47] kind of says it all, right? And it's
+- [09:49] such a fun model. And what you can do
+- [09:52] with this is kind of mindblowing if you
+- [09:55] ask me. the infographics that you can
+- [09:58] put in like all of these im input images
+- [10:01] and put them all together while keeping
+- [10:03] their consistency and it's so much fun
+- [10:06] to play around with. So if you haven't
+- [10:09] tried it yet, I'm quite surprised. But
+- [10:11] uh yeah, definitely go check that out if
+- [10:14] you haven't tried it yet. So a clear
+- [10:16] winner for me. There was really no
+- [10:18] competition to be honest. So next up is
+- [10:20] the best AI video model and a big year
+- [10:23] for AI video to be honest. Uh, a lot has
+- [10:26] happened. So, uh, yeah, V3 was kind of
+- [10:29] the big thing I would say. Uh, so I
+- [10:31] added in 3.1. They're kind of the small
+- [10:33] upgrade. We had Sora 2 that had like a
+- [10:36] big up spike in users and there was a
+- [10:39] lot of headlines and stuff uh, for a few
+- [10:41] weeks, but then it kind of died down
+- [10:43] again. Uh, I really enjoyed clinging
+- [10:46] models, the 2.6 Pro, the 2.5, and the
+- [10:50] van 2.2 in the open source community is
+- [10:52] really popular. I think that's a very
+- [10:54] good one.
+- [10:55] And yeah, I had to think a bit here, but
+- [10:57] uh just thinking back on 2025,
+- [11:00] uh yeah, I had to go for this one.
+- [11:04] [cheering]
+- [11:06] Yeah, I just think VO had kind of the
+- [11:08] most impact. Maybe it's not the best
+- [11:10] model to date. Uh but it had the most
+- [11:13] impact I would say in 2025 when it comes
+- [11:16] to video models. Therefore, I'm just
+- [11:18] going to give this award and I think
+- [11:20] it's kind of deserved. Uh it brought
+- [11:22] kind of native audio first in and we all
+- [11:25] kind of remember all the videos, right?
+- [11:28] Uh that was produced by VO. I don't
+- [11:33] really have to show you this if you are
+- [11:35] following the AI space. You kind of know
+- [11:37] VO, right? And I was thinking should I
+- [11:40] do like a thank you speech with VO, but
+- [11:43] I thought I just drop it because yeah,
+- [11:45] you know how it would sound anyway. So
+- [11:48] yeah, I think it's a welld deserved for
+- [11:49] VO3. Is it going to win next year? We'll
+- [11:51] see. Maybe we get a VO4. That's going to
+- [11:53] be interesting. So, the next category
+- [11:55] now doesn't have any nominees. So, yeah,
+- [11:58] we're just going to go straight into it.
+- [12:01] And yeah, you will see what I mean. And
+- [12:04] I'm just going to talk a bit about it.
+- [12:06] Right. So, the next uh winner, if you
+- [12:09] want to call it like that, is
+- [12:12] biggest disappointment. I've been a bit
+- [12:15] disappointed with OpenAI this year
+- [12:17] because they had such a big lead like
+- [12:20] and I thought they had like a great
+- [12:22] trajectory. I don't say they don't have
+- [12:24] that yet, but uh yeah, we saw that
+- [12:28] OpenAI red code or code red or whatever
+- [12:31] they call it, right? Uh yeah, declares
+- [12:34] code red and last part of the year they
+- [12:37] have been really I wouldn't say they
+- [12:39] have struggled but uh they have been
+- [12:42] yeah at least equalized or maybe
+- [12:45] slightly overtaken by like Google and I
+- [12:49] would even say anthropic. Uh so the
+- [12:51] biggest disappointment for me is OpenAI
+- [12:55] not focusing mostly on their core values
+- [12:58] like their their language models and
+- [13:02] maybe chat GPT they keep branching out
+- [13:05] to these things that never happen right
+- [13:07] open air what do they call it uh
+- [13:09] whatever they call it was it GPT
+- [13:12] store or something introducing the GPT
+- [13:16] store I know this was in 202
+- [13:19] 4 but still
+- [13:21] and they keep all they keep trying to
+- [13:23] play all fields like I don't think they
+- [13:25] are big enough company to do that they
+- [13:27] do some good products I'm not saying
+- [13:29] that but uh maybe that all that
+- [13:31] computers kind of going over taking
+- [13:34] stuff away from their research and if
+- [13:37] they fall behind on kind of the core
+- [13:39] models yeah they could be in big trouble
+- [13:42] so yeah a bit of a disappointment I
+- [13:44] guess for me personally from OpenAI
+- [13:47] because I've been trying testing their
+- [13:49] models from 20 since 2020, right, with
+- [13:52] GT3 beta. So, a bit of a disappointment,
+- [13:55] but that's just my personal opinion. And
+- [13:57] for the next one, that's going to be uh
+- [13:59] the biggest surprise of the year.
+- [14:04] And I would have to say Google's strong
+- [14:07] comeback because they had a really rough
+- [14:10] start to kind of the AI uh boom, right?
+- [14:14] And they were really struggling. Does
+- [14:16] anyone remember kind of Google Bard?
+- [14:19] Google Bard? I don't even think we can
+- [14:21] find it anymore. Yeah, that's a while
+- [14:23] ago now. And all the controversies they
+- [14:26] had in with their models, they weren't
+- [14:30] barely used like Gemini 2 and stuff and
+- [14:34] Bard and their models. Uh but uh I think
+- [14:36] when they released Gemini 2.5 Pro,
+- [14:39] something kind of changed. Uh they had a
+- [14:41] million context window. The model was
+- [14:43] really good and a lot of people starting
+- [14:46] to going over there. Then they followed
+- [14:48] up with like u VO3 that was like big in
+- [14:52] 2025 and then they came with Nanu
+- [14:54] Banana. So I feel they had a great year
+- [14:57] right and the comeback they I would say
+- [15:00] they are on top now. They are kind of
+- [15:01] the best on almost the best on video. I
+- [15:04] think they are best on images and I
+- [15:06] think they are yeah almost likely like
+- [15:09] in the best of the language models too
+- [15:11] especially with the Gemini 3.3 Flash I
+- [15:14] think is a really good model. So yeah
+- [15:16] big s not maybe not a surprise but like
+- [15:20] yeah I would I I'm just going to call it
+- [15:22] a surprise uh because they had a really
+- [15:24] good comeback right so I think it's well
+- [15:27] deserved to Google for their comeback in
+- [15:30] 2025. Next up, we have the best AI
+- [15:34] startup of the year. Uh, not everyone
+- [15:36] was started in maybe in 2025. Uh, but
+- [15:40] uh, yeah, these are kind of the startups
+- [15:43] I thought about that I've been thinking
+- [15:45] mostly about in 2025 and I think these
+- [15:48] are the best nominations. These are
+- [15:50] mine, right? You could say OpenAI is a
+- [15:52] startup, but yeah. Uh, so basically uh,
+- [15:56] Open Code. I love Open Code. I think
+- [15:58] it's super great. I don't know if they
+- [16:00] have like a big revenue model uh but uh
+- [16:05] yeah they have a really good product at
+- [16:06] least and it's open source and that's
+- [16:08] really cool. Artificial analysis is
+- [16:10] something I've been looking more into.
+- [16:12] If you don't know what it is I can
+- [16:14] quickly show you is this I'm sure you've
+- [16:16] seen this. This is the index they run
+- [16:18] right. So they do a lot of benchmarking
+- [16:20] and I think it's pretty valuable. They
+- [16:22] have their intelligence index. You can
+- [16:24] see Gemini 3 Pro is on top here with uh
+- [16:27] GP2.5.2
+- [16:29] high extra high and then you see Gemini
+- [16:31] 3 flash all the up here uh Opus 4.5 and
+- [16:35] they do a lot of really good stuff in
+- [16:37] like um benchmarking testing and it's a
+- [16:41] really good place to just uh they also
+- [16:44] do images just um image editing image
+- [16:48] over okay so yeah definitely they're a
+- [16:51] really cool company and I hope they will
+- [16:53] continue to do this uh personally for me
+- [16:55] I like foul AI they kind of compile all
+- [16:58] the media model so I can do an API call
+- [17:00] to all of them. Really helpful for me
+- [17:02] that is building pipelines and stuff and
+- [17:05] we talked about lovable they have just
+- [17:06] had a great year so I thought I can
+- [17:08] include them. Uh but for me personally
+- [17:11] the winner is going to be
+- [17:15] that was a bit laggy but open code.
+- [17:17] Yeah. Uh I think they are a superb
+- [17:19] product. Uh I almost wanted to include
+- [17:21] open router too but I couldn't find a
+- [17:24] place for them. So, I really like the
+- [17:27] combination of open code and the open
+- [17:29] router, right? If you haven't tried
+- [17:31] that. So, you can do open router uh to
+- [17:34] kind of include um bunch of different
+- [17:37] models and it's super easy to include
+- [17:39] with open code. So, yeah, go try it out.
+- [17:42] Superb product if you haven't. So, yeah,
+- [17:45] that is kind of my startup of the year.
+- [17:48] So, next up is also going to be like uh
+- [17:50] no nominations. It's just going to be
+- [17:52] the AI person of the year. And for me,
+- [17:55] this was super easy. H I had don't even
+- [17:58] have to think about this one. And for
+- [17:59] me, that's clearly gonna be [cheering]
+- [18:04] Deis Habis from Gemini and at least the
+- [18:08] co-founder of Deep Mind and he's at
+- [18:11] Google now. And yeah, I just think he
+- [18:13] had a great year, right? Taking Google
+- [18:15] kind of back on top. And I love all his
+- [18:18] interviews, right? He seems so
+- [18:21] intelligent and I really like his takes
+- [18:24] on science and everything. He has like a
+- [18:26] coder gaming background. He did game
+- [18:29] design. He was a chess player. He did
+- [18:31] open um not open but alpha fold and all
+- [18:34] that work on deep mind kind of before
+- [18:37] the generative AI stuff and I really
+- [18:39] like him. He seems like a very smart
+- [18:41] person and uh the what he's done with
+- [18:44] Google and Deep Mind and stuff has just
+- [18:46] been really impressive to be honest. So
+- [18:49] yeah, kind of easy for me and I I I
+- [18:51] would say a lot of other people would uh
+- [18:54] agree on this. I think also the next
+- [18:56] category is just going to be without any
+- [18:58] nominations and I think pretty much
+- [19:00] everyone will agree with me. So that is
+- [19:03] kind of the biggest moment of AI in
+- [19:06] 2025. And again, I think this was pretty
+- [19:09] easy and I think you all will agree with
+- [19:11] this one to be honest.
+- [19:14] [cheering and applause]
+- [19:15] Yeah, that was quite early this year.
+- [19:16] That was the Deep Seek R1, right? And
+- [19:19] I'm sure you remember this one. This was
+- [19:21] kind of all over the news. Everyone was
+- [19:23] talking about this and it had a big
+- [19:26] impact on kind of the the stock market.
+- [19:29] I think Nvidia dropped like was it like
+- [19:32] 20% or something? It was just insane.
+- [19:35] And the tech uh stock market in US
+- [19:39] dropped like yeah 10 12%. Uh, I think
+- [19:43] they had a big bounce back, but this was
+- [19:45] an impressive moment uh to follow and I
+- [19:49] think DeepSick R1 really put kind of
+- [19:51] China back on the map in AI and it kind
+- [19:54] of opened some doors for like Quen and
+- [19:56] Kimmy Moonshot and the other models too
+- [19:58] and I think they are doing still a good
+- [20:00] job DeepSick and it's going to be
+- [20:02] interesting to see what they do in 2026.
+- [20:04] So for me, yeah, pretty easy one uh to
+- [20:07] pick for the biggest moment in AI in
+- [20:10] 2025. Okay, so last but not least, the
+- [20:14] best large language model of 2025. So
+- [20:19] this is pretty interesting, right?
+- [20:20] Because we have some really good
+- [20:21] candidates here and we have like a a
+- [20:24] model that just came out, right? So for
+- [20:26] me, it's going to be between Opus 4.5
+- [20:29] from Antropic, Google's Gemini 3 Flash.
+- [20:32] I pick flash over pro because I've been
+- [20:34] playing around with both and just the
+- [20:37] speed of flash just makes me want to put
+- [20:39] this up on top here. Uh is it the best
+- [20:42] one? I'm not sure, but for me I I really
+- [20:44] like it. Uh GPD 5.1 I think is good,
+- [20:48] right? Uh I wouldn't say maybe it's up
+- [20:51] with those two on top there, but it's a
+- [20:54] good model. I think they did a pretty
+- [20:55] good job on that. At least the pro
+- [20:57] version, I would say. And I had to
+- [21:00] include like an open source model. And
+- [21:01] that's for me is pretty easy. It's the
+- [21:03] Kimik K2 thinking model that I really
+- [21:06] enjoy this year using here on open
+- [21:08] router with open code. And yeah, it's
+- [21:11] just such a fun model to play around
+- [21:13] with the Kim K2 thinking. So yeah, I had
+- [21:17] to think a bit here, but for me again,
+- [21:19] it was pretty obvious. I might have some
+- [21:20] biases and stuff like that, but uh yeah,
+- [21:23] this was yeah, not that hard to be
+- [21:26] honest. And for me, the winner is going
+- [21:27] to be
+- [21:30] OPUS 4.5. I think this is such a good
+- [21:33] model, right? So, the Opus 4.5, uh,
+- [21:37] maybe it's not the highest rated model
+- [21:40] now, if you kind of look at benchmarks,
+- [21:42] uh, but it just performs so good, at
+- [21:44] least in combination kind of with Cloud
+- [21:46] Code. And yeah, I really don't want to
+- [21:50] kind of switch out this model at the
+- [21:52] moment. And yeah, they they benchmark
+- [21:54] pretty good here. But uh like I said, if
+- [21:56] you try it out, at least in combination
+- [21:58] with cloud code, you won't be
+- [22:00] disappointed. At least if you do some
+- [22:02] kind of coding and stuff like that. Uh I
+- [22:04] also use it for other stuff. I think
+- [22:06] it's pretty good. Even though it's kind
+- [22:08] of mostly optimized for uh coding and
+- [22:11] for me, yeah, this is the best large
+- [22:13] language model for 2025.
+- [22:16] uh with good good competition from
+- [22:18] Gemini 3. I would say at least the flash
+- [22:20] model and the agentic tool calling and
+- [22:22] the speed and stuff. Uh but I think Opus
+- [22:24] did some good um they lowered the price
+- [22:28] and they have some good optimization for
+- [22:30] token use and that also makes it a bit
+- [22:33] faster. Uh but yeah, for me this was the
+- [22:36] best large language models of 2025 and
+- [22:40] Tropics Opus 4.5. [music]
+- [22:42] And yeah, that is basically what I had.
+- [22:45] So yeah, basically thanks for all the
+- [22:47] support this year. It's been really fun
+- [22:49] and I kind of completed my shipmas
+- [22:52] series that I also enjoyed uh doing like
+- [22:55] a video a day and it was really fun
+- [22:56] being creative, thinking about new ideas
+- [22:58] and stuff. So yeah, all I have to do now
+- [23:01] is just wish you a merry Christmas and
+- [23:04] I'm going to do like an update video
+- [23:06] what I'm going to do with this channel
+- [23:07] next year. I haven't decided yet.
+- [23:09] Probably do it in a week or so around
+- [23:11] the New Year's. So yeah, enjoy your
+- [23:13] holidays and have a happy new year. And
+- [23:17] yeah, I'll see you again probably in a
+- [23:20] week or so. So yeah, take care.

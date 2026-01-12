@@ -1,0 +1,276 @@
+---
+title: "Transcript: UACj1WqXU2Q"
+video_id: "UACj1WqXU2Q"
+video_url: "https://www.youtube.com/watch?v=UACj1WqXU2Q"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:08:54"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: UACj1WqXU2Q
+
+- URL: https://www.youtube.com/watch?v=UACj1WqXU2Q
+- Retrieved at: 2025-12-30T11:00:52+09:00
+
+## Text
+
+- [00:00] Did you know that Google has a brand new
+- [00:02] no code AI automation platform that's
+- [00:05] powered by Gemini state-of-the-art
+- [00:06] model? One that lets you automate entire
+- [00:09] workflows just by describing them in
+- [00:11] natural language. It's called Google
+- [00:13] Flows, and it lets you connect to Gmail,
+- [00:16] Drive, Chat, Calendar, Forms, and even
+- [00:19] customize AI agents into one intelligent
+- [00:22] end-to-end automation system. With
+- [00:25] Flows, you're essentially automating
+- [00:26] your work with AI agents. It was built
+- [00:29] to eliminate repetitive tasks between
+- [00:31] workspace apps using plain English
+- [00:34] instructions. You can combine starters,
+- [00:36] conditions, actions, and functions.
+- [00:39] Plus, Gemini's reasoning to research,
+- [00:41] summarize, analyze, and even generate
+- [00:43] content, or trigger multi-step processes
+- [00:46] across your entire organization. Think
+- [00:49] of it like a make alternative, but
+- [00:51] powered by Google's own AI with deep
+- [00:53] contextual understanding baked in. It
+- [00:56] doesn't just run steps, it understands
+- [00:58] them. And two weeks ago, Google had just
+- [01:01] introduced the front end for flows where
+- [01:03] you can easily automate your work by
+- [01:05] simply describing a prompt to the Gemini
+- [01:08] model for it to create the automation
+- [01:10] for you. And this is where you can
+- [01:12] automate various sorts of things with
+- [01:14] Google's suite of tools. And these
+- [01:16] agents can automate the ability to send
+- [01:19] out emails, set up events, meetings, and
+- [01:22] a lot more. To access, you'll need a
+- [01:25] Google Workspace account. And once you
+- [01:27] have it activated, you can either get it
+- [01:29] from your own workspace, from your work,
+- [01:32] or if you have an education plan. And
+- [01:34] once you are within your Gmail, you can
+- [01:37] then access flows directly from here
+- [01:39] where you can discover different flows
+- [01:41] like automating your Gmail or you can
+- [01:44] use agents that have been already
+- [01:46] created by you and you can track the
+- [01:47] activity directly within your Gmail app.
+- [01:50] But another way is obviously accessing
+- [01:52] it through the workspace flows UI and
+- [01:54] this is a front end for you to create
+- [01:56] the custom agents so that you can manage
+- [01:58] various sorts of tasks. For example, I
+- [02:01] can automate the process of notifying me
+- [02:03] about emails from key people. So if I
+- [02:05] wanted so that whenever someone like
+- [02:08] world of AI emails me, I can have it so
+- [02:10] that if it contains a specific word AI
+- [02:13] models, then it will summarize the
+- [02:16] contents of that email talking about
+- [02:18] that AI model and then it will notify me
+- [02:20] in the chat. This is a more streamlined
+- [02:22] and faster way to get responses
+- [02:24] summarized. So, I just got the world of
+- [02:26] AI email address sending me an email
+- [02:29] about an AI model and within the Google
+- [02:31] chat app, I've been able to get a
+- [02:34] summary of that email content that was
+- [02:36] sent from the world of AI email address
+- [02:38] talking about the new AI model. This was
+- [02:40] an automation that was fully configured
+- [02:42] in less than 30 seconds. And this is how
+- [02:45] flows can easily automate various sorts
+- [02:47] of things for you based off the agents
+- [02:49] that you can develop over here. If you
+- [02:52] ever spent hours going back and forth on
+- [02:54] a UI, this right here is going to save
+- [02:57] you a lot of time. Normally, building a
+- [03:00] mockup takes days, especially if you're
+- [03:03] not a designer. You're stuck emailing
+- [03:05] screenshots, waiting for feedback, and
+- [03:07] tweaking endlessly. UX Pilot is an AI
+- [03:11] powered tool that lets you turn ideas
+- [03:14] into ready to use UI screens in minutes.
+- [03:17] You don't need to be a designer. It
+- [03:20] works with your existing design system
+- [03:22] and you can export straight to Figma.
+- [03:24] All you got to do is simply prompt in
+- [03:26] natural language and it's going to fully
+- [03:28] build out a beautiful UI for you. It
+- [03:31] essentially cuts out weeks of back and
+- [03:33] forth whether you're a founder, PM, or
+- [03:36] engineer. You can get polished mockups
+- [03:38] ready for your team or even investor
+- [03:41] super fast. check it out yourself with
+- [03:43] the link in the description below and
+- [03:45] get 15% off your first plan with the
+- [03:48] code in the description below. But with
+- [03:50] that thought, let's dive right back into
+- [03:51] today's video. But to get started, I'll
+- [03:53] leave a link to the Flow's website in
+- [03:55] the description below. This is
+- [03:56] essentially where you can describe a
+- [03:58] task to Gemini and it'll work on
+- [04:00] creating that AI automation for you. And
+- [04:03] this is where if you scroll down, you're
+- [04:04] going to be able to access these
+- [04:06] ready-made templates that you can work
+- [04:07] with where you can automate better
+- [04:09] meetings. You can connect with your
+- [04:11] team, email boosters, and you can even
+- [04:14] have it so that the agents can help you
+- [04:16] with tasks like autocreating tasks when
+- [04:18] I'm sent an action item. And it works
+- [04:21] with all of these different tools. So,
+- [04:22] if I click on this one, for example,
+- [04:24] this is where it can help me uh decide
+- [04:27] on something. It can help me extract
+- [04:29] contents, create a task, and you can
+- [04:31] even add a subtask. If I go back, you
+- [04:34] can then have it so that you can manage
+- [04:36] all of your agents and activity within
+- [04:38] this tab over here. And also works with
+- [04:40] other apps like the ability to work with
+- [04:43] Salesforce or other integrations like
+- [04:46] Mailchimp. Now, there's two ways to also
+- [04:48] create agents by simply describing. But
+- [04:50] if you click on a new agent, this is
+- [04:53] where it will take you to the drag and
+- [04:54] drop builder like you would see with
+- [04:56] other noode AI automation platforms
+- [04:59] where you can use this canvas to build
+- [05:01] with different nodes. So if you want to
+- [05:03] automate a task like whenever I get an
+- [05:06] email or when someone joins a space or
+- [05:09] based off of a meeting, you can paste in
+- [05:11] that node into that starter node. From
+- [05:14] here, you can provide the meeting
+- [05:16] details, the time, and then you can move
+- [05:19] on to the next step, which is an action
+- [05:20] that will automate based off of the
+- [05:22] starter node. But another way to use the
+- [05:25] flows agent builder to create agents is
+- [05:28] by simply typing in a natural language
+- [05:29] prompt, like creating a lead enrichment
+- [05:31] agent. I can simply go ahead and click
+- [05:33] on create. This is essentially where
+- [05:36] whenever a new lead is submitted within
+- [05:38] any of the Google suite of tools like
+- [05:41] Gmail or if it's a form, it is where
+- [05:44] it's going to then follow up by pulling
+- [05:46] the lead details as well as having
+- [05:48] Gemini enrich the lead where it can
+- [05:50] research on the company, determine if
+- [05:53] it's worthy or not based off the
+- [05:55] specifications I list and and it can
+- [05:57] even score it based off of the
+- [05:58] contextual and research capabilities of
+- [06:01] the Gemini model. And then we can even
+- [06:03] have it create an update to our sales
+- [06:05] CRM sheet. In this case, it looks like
+- [06:07] it has done it for Google notes. But
+- [06:10] I've gone ahead and made this workflow a
+- [06:12] lot better. It is where it starts off
+- [06:15] with whenever I get an email, it will
+- [06:17] either decide if it is going to see if
+- [06:20] this is actually a lead that it can
+- [06:23] process and if it is, it will then work
+- [06:25] on extracting with this conditional
+- [06:26] node. And this is where it will work on
+- [06:29] extracting the contents like the company
+- [06:31] name, the lead details, the contact
+- [06:33] information, the contact person. From
+- [06:36] there, it will send me an email as well
+- [06:38] as a Google chat notification on the
+- [06:41] lead that it was able to extract. This
+- [06:44] is a fullon functional workflow. And now
+- [06:47] we just got to add in who we're going to
+- [06:49] send this email to after extracting the
+- [06:51] lead. So the workflow is now working.
+- [06:53] So, I sent in a demo email so that it
+- [06:56] can extract these contents like my name,
+- [06:58] my company, my email, as well as my
+- [07:01] phone number. This is just made up
+- [07:03] content. And now I'm going to go over
+- [07:05] back into the automation to see if it
+- [07:08] was able to send me a summary of this
+- [07:10] lead collection. And there we go. It
+- [07:12] looks like it was able to give us a
+- [07:14] summary of our lead as well as
+- [07:16] extracting and summarizing the contents
+- [07:18] of that lead, what the actual client is
+- [07:20] looking for, in this case, AI automation
+- [07:22] solutions, the priority, as well as the
+- [07:23] original email that has been linked.
+- [07:25] This was all fully completed in less
+- [07:27] than 30 seconds by simply just chatting
+- [07:30] with the agent to create that agent
+- [07:31] workflow. And something I was just
+- [07:33] thinking, I removed the other two steps
+- [07:35] and I can actually add in another step
+- [07:37] where I can have it extract the contents
+- [07:39] and then I can even have it added within
+- [07:42] sheets. So this way you can add the
+- [07:44] whole process of data collection a lot
+- [07:46] easier. So whenever you have leads
+- [07:48] coming into your email, you can easily
+- [07:50] have that process automated, which is
+- [07:52] something that I will be teaching in
+- [07:54] other videos later on. I have something
+- [07:56] cool coming up which I'll be introducing
+- [07:58] really soon, showcasing about AI
+- [08:01] automation. If you like this video and
+- [08:03] would love to support the channel, you
+- [08:05] can consider donating to my channel
+- [08:07] through the super thanks option below.
+- [08:09] Or you can consider joining our private
+- [08:11] Discord where you can access multiple
+- [08:13] subscriptions to different AI tools for
+- [08:15] free on a monthly basis, plus daily AI
+- [08:18] news and exclusive content, plus a lot
+- [08:21] more. But that's basically it, guys, for
+- [08:22] today's video on Flows. This is a really
+- [08:25] great automation platform that Google
+- [08:27] has developed and it's something that
+- [08:28] works quite well with the suite of tools
+- [08:30] that Google has. I'll leave all these
+- [08:32] links in the description below so that
+- [08:33] you can easily get started. But with
+- [08:35] that thought guys, thank you guys so
+- [08:36] much for watching. Make sure you go
+- [08:37] ahead and subscribe to the second
+- [08:38] channel. Join the newsletter, join us on
+- [08:41] the private Discord, follow me on
+- [08:43] Twitter, and lastly, make sure you guys
+- [08:44] subscribe, turn on notification bell,
+- [08:45] like this video, and please take a look
+- [08:47] at our previous videos cuz there is a
+- [08:48] lot of content that you'll truly benefit
+- [08:50] from. But with that thought guys, have
+- [08:51] an amazing day. Spread positivity and
+- [08:53] I'll see you guys fairly shortly. Peace
+- [08:54] out.

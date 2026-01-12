@@ -1,0 +1,46 @@
+agent: A2_Markdown_Validation
+timestamp: '2025-12-31T07:10:54.413444Z'
+total_files: 1620
+validated_files: 1619
+error_count: 1
+warning_count: 1619
+errors:
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2025-09-22__ull²〈ヌルヌル〉の作り方１｜落合陽一.md
+  error: File too large (586588 bytes, maximum 524288)
+  size: 586588
+warnings:
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-06_センサーで見る夜の街はなぜこんなに妖艶なんだろう（随時更新）｜落合陽一.md
+  warning: 'Uses relative path format: 4 of 8 image links'
+  image_count: 8
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-07_#
+    メディア装置と質量｜落合陽一.md
+  warning: 'Uses relative path format: 4 of 9 image links'
+  image_count: 9
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-07_透明なものになぜ惹かれるのか（随時更新）｜落合陽一.md
+  warning: 'Uses relative path format: 3 of 6 image links'
+  image_count: 6
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-08_センサーに感じるノスタルジックな感覚は何なんだろう｜落合陽一.md
+  warning: 'Uses relative path format: 14 of 17 image links'
+  image_count: 17
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-09_【＃】デジタル時代のビジョンから振り返ったときに感じる憧憬は質量への憧憬だろうか？（書き途中）｜落合陽一.md
+  warning: 'Uses relative path format: 3 of 5 image links'
+  image_count: 5
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-09_寂びた機械から感じられる時間経過の凝縮と美しさはなんだろう（随時更新）｜落合陽一.md
+  warning: 'Uses relative path format: 10 of 13 image links'
+  image_count: 13
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-10_反復構造への胸の高鳴りと人間的でないものに感じる人間性(随時更新)｜落合陽一.md
+  warning: 'Uses relative path format: 6 of 9 image links'
+  image_count: 9
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-11_植物に感じる宇宙感やシステム感を写真に切り取ってしまう(随時更新)｜落合陽一.md
+  warning: 'Uses relative path format: 8 of 11 image links'
+  image_count: 11
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-12_モノクロで見る秋葉原からはサブカルチャーとネオンカラーの手触りがしない．｜落合陽一.md
+  warning: 'Uses relative path format: 8 of 11 image links'
+  image_count: 11
+- path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForGenAI/GenAI_research/Ochyai_Note/full_run/articles/2019-01-13_錆びは時間が作る長い時間芸術作品だと思う｜落合陽一.md
+  warning: 'Uses relative path format: 7 of 11 image links'
+  image_count: 11
+- note: '... showing 10 of 1619 warnings'
+validation_summary:
+  success_rate: 99.9%
+  status: FAIL

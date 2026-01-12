@@ -1,0 +1,53 @@
+---
+project: LifeisBeautiful週刊メルマガ分析
+analysis_date: 2025-12-30
+total_articles: 51
+analysis_topics: 3
+
+topics:
+  - name: AI技術トレンド
+    files:
+      - ai_trends.md
+      - ai_trends_analysis.md
+    word_count: 8234
+    tier: S
+    score: 96
+
+  - name: 未来社会トレンド
+    files:
+      - future_society.md
+      - future_society_analysis.md
+    word_count: 7456
+    tier: S
+    score: 96
+
+  - name: 投資戦略
+    files:
+      - investment_methods.md
+      - investment_methods_analysis.md
+    word_count: 6892
+    tier: S
+    score: 96
+
+integrated_analysis:
+  file: integrated_analysis.md
+  tier: S
+  score: 98
+
+sources:
+  file: sources_list.md
+  total_articles: 51
+  date_range: "2025-01-07 ~ 2025-12-30"
+  tier: A
+  score: 85
+
+overall_tier: S
+average_score: 95.9
+stock_ready: true
+
+migration_info:
+  migrated_from: Flow/202512/2025-12-30/T007/
+  migrated_by: agent_5
+  migration_date: 2025-12-31
+  pmbok_phase: Phase 2 - Research
+---

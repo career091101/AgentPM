@@ -1,0 +1,1450 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=m8ohXrzqoO0"
+video_id: "m8ohXrzqoO0"
+video_url: "https://www.youtube.com/watch?v=m8ohXrzqoO0"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=m8ohXrzqoO0
+  - Retrieved at: 2025-12-30T16:09:19+09:00
+  - [00:00] I'm excited to be here. Thanks everyone
+key_points:
+  - "- [00:40] these agents need to go through? How do"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: m8ohXrzqoO0
+
+- URL: https://www.youtube.com/watch?v=m8ohXrzqoO0
+- Retrieved at: 2025-12-30T16:09:19+09:00
+
+## Text
+
+- [00:00] I'm excited to be here. Thanks everyone
+- [00:01] for having me today and uh hope
+- [00:04] everybody's having a great day so far.
+- [00:06] So with that, I will pull up my screen
+- [00:09] here
+- [00:11] and
+- [00:12] move a couple of Zoom windows around and
+- [00:14] whatnot. All right, so yeah, we're going
+- [00:16] to be talking about really going beyond
+- [00:18] the chatbot with event- driven agents.
+- [00:20] And I want to start off actually with a
+- [00:22] little disclaimer, okay? And that's uh
+- [00:25] first off, this talk isn't going to be
+- [00:26] able to cover every aspect of creating
+- [00:29] production ready agents. Okay. Um at the
+- [00:31] end of the day, we're all still learning
+- [00:32] together. We're all still figuring out
+- [00:34] what does it actually mean to have a
+- [00:35] production ready agent? Uh what sort of
+- [00:37] testing and QA and validation uh do
+- [00:40] these agents need to go through? How do
+- [00:42] we test these things especially when
+- [00:43] they're non-deterministic, etc. Um, so
+- [00:45] in many ways I I want to kind of frame
+- [00:49] this talk as a hey I'm I'm actively
+- [00:52] learning and building stuff and trying
+- [00:53] out new things and uh so this talk is
+- [00:57] basically hey here's things that I've
+- [00:58] learned recently and things that uh that
+- [01:01] I've been thinking a lot about but also
+- [01:02] things that that Docker is thinking a
+- [01:04] lot about as well too. Um, we'll see a
+- [01:06] lot of the the Docker AI uh tools and
+- [01:09] capabilities as we go throughout this as
+- [01:11] well too. But, um,
+- [01:13] and again, feedback welcome and
+- [01:16] anticipated. I'll be watching the, um,
+- [01:19] the the Zoom chat and the Q&A and all
+- [01:21] that kind of stuff as well too. So, um,
+- [01:23] if you have questions along the way,
+- [01:24] feel free to to ask. So, what are the
+- [01:26] things that we're going to talk about
+- [01:27] today? Okay. U, first off, I'm going to
+- [01:30] help set some framing of what and why of
+- [01:33] event driven agents. what am I thinking
+- [01:35] about? What do I mean when I when I say
+- [01:37] event driven agents? And then we're just
+- [01:40] going to go through a an example of one.
+- [01:42] Okay. And and so yes, this particular
+- [01:44] talk is talking about using GitHub and
+- [01:47] web hooks and analyzing PRs and whatnot.
+- [01:49] And I'll talk about why I'm thinking
+- [01:51] about that particular space uh when we
+- [01:53] get there. Um but we're actually going
+- [01:55] to build the agent together here. Um so
+- [01:57] you you'll see me write some code. I'll
+- [01:58] I'll set up the models, set up the
+- [02:00] tools, uh the MCP servers, etc. Um and
+- [02:04] again we'll we'll iterate on that. We'll
+- [02:06] build this together and then uh I'm
+- [02:08] going to wrap it up with some lessons
+- [02:09] learned. So as as I went through this
+- [02:11] journey and this experience, what are
+- [02:13] some of the lessons that I learned and
+- [02:15] what would I do differently if I were to
+- [02:17] start this this particular application
+- [02:19] again? Okay. So with that, what and why
+- [02:23] of event driven agents? Okay. Now when
+- [02:26] we when we typically talk about Gen AI,
+- [02:29] we can basically break it down and and
+- [02:32] define it like this. Okay. So Gen AI
+- [02:35] provides the ability for us to leverage
+- [02:37] models to create new content based on a
+- [02:40] set of input or prompts. Okay. And and
+- [02:42] what this means is yeah, I can use these
+- [02:44] models and I can give them new prompts
+- [02:47] and new inputs and and new things that
+- [02:49] the model hasn't seen before. And based
+- [02:52] on the algorithms and the training of
+- [02:54] the model, it can take that new set of
+- [02:56] input and figure out, okay, based on the
+- [02:58] set of input, what do I generate? Okay,
+- [03:01] and that may be a a chatbot response. It
+- [03:03] may be images, it may be code, it may be
+- [03:05] music, it could be a lot of different
+- [03:06] things, but basically the models are
+- [03:09] basically doing predictive analysis. And
+- [03:11] I mean, it's a black box to to most of
+- [03:13] those, but it's feeding off the prompts
+- [03:16] or inputs. Okay. Now when we talk about
+- [03:19] agentic applications, the agentic
+- [03:21] applications
+- [03:22] take this a little bit step further.
+- [03:25] Okay. And agentic applications need
+- [03:28] three things. They use these models to
+- [03:31] both generate content and also figure
+- [03:33] out what steps are needed. But then they
+- [03:35] also have access to tools. And tools can
+- [03:38] provide a lot of different uh
+- [03:39] capabilities. Uh go look up information,
+- [03:42] go perform a function, um a lot of
+- [03:44] different things. And we'll see some
+- [03:46] examples of that here in just a little
+- [03:47] bit. And then finally, there's the code
+- [03:48] that glues it all together. So, how do
+- [03:50] we connect the models and the tools and
+- [03:51] the with and the code helps us do that?
+- [03:54] The code can help us have memory or do
+- [03:56] evaluations to determine, okay, are the
+- [03:58] flows working the way we expect it to,
+- [04:00] etc. Okay. But one of the things that's
+- [04:03] that's really interesting to me is when
+- [04:05] I talk to, you know, colleagues or
+- [04:07] friends or folks out in the industry or
+- [04:09] whatnot, they they're like, "Hey, I made
+- [04:11] this agent. Go run this command and then
+- [04:14] open up your browser to local host,
+- [04:16] whatever." And there's a chat interface
+- [04:19] and you kick off the the agent with that
+- [04:21] chat interface. And I'm like, "Okay,
+- [04:24] that's cool, but why do I have to kick
+- [04:26] it off with a chat interface? I don't
+- [04:29] have to have a chatbot to kick off some
+- [04:31] of these workflows. So, for example, if
+- [04:33] I had one that said, "Hey, um, you know,
+- [04:36] summarize my Jira issues and create a
+- [04:39] notion page for me with my my task for
+- [04:41] the day. I know it's just an arbitrary
+- [04:43] one. Why do I need a chatbot to do that?
+- [04:45] Why why can't it just be an automated
+- [04:46] task that runs?" Okay. And so, again,
+- [04:49] when we start thinking about these
+- [04:50] agentic applications,
+- [04:53] what are different ways to kick them off
+- [04:55] or to trigger them or to launch them?
+- [04:57] Whether that that's time, whether that's
+- [04:58] events in our systems,
+- [05:00] what are what are other things that can
+- [05:02] be used to kick this off? Now,
+- [05:06] I've basically kind of coined that of
+- [05:08] going beyond the chatbot. Okay, again,
+- [05:10] what are ways that we can think beyond
+- [05:12] the chatbot? As I started looking around
+- [05:15] at at various applications, I' I've
+- [05:17] actually noticed that there's been times
+- [05:19] in which I've seen Genai being used and
+- [05:22] didn't even realize that it was actually
+- [05:23] being used. And actually one good
+- [05:25] example of this was actually fairly
+- [05:27] recently and this came from Apple
+- [05:28] intelligence. I open up my phone and I
+- [05:32] saw that I had several group chat
+- [05:34] messages that I had missed. Okay. And I
+- [05:36] had missed a message or two and um and
+- [05:39] this is just an example here but you
+- [05:41] know I miss a couple messages and I see
+- [05:43] okay baseball game tomorrow from 6:45 to
+- [05:46] 8:15. Okay. And then there's several
+- [05:48] confirmations. Okay little Johnny's
+- [05:50] excited and can't wait and you know all
+- [05:51] that kind of stuff. and you know several
+- [05:53] confirmations. Well,
+- [05:55] what happened here was the app itself
+- [05:58] went and summarized all those messages
+- [06:00] that I had missed and then gave me a a a
+- [06:03] summarization of that. And so I can
+- [06:04] basically quickly catch up with the
+- [06:07] messages just by scanning through this
+- [06:10] list and I can know immediately do I
+- [06:12] actually need to go and do something
+- [06:13] here? Okay. And again, this is an
+- [06:16] example of an AI and agentic
+- [06:19] application. Sure, it's probably not
+- [06:20] doing full tool evaluation, etc., but
+- [06:22] it's using models to do something for
+- [06:24] me, and it's giving me immediate
+- [06:26] feedback and value out of this this
+- [06:28] flow. As I was looking at this
+- [06:30] particular example, I was thinking,
+- [06:31] well, how how easy is it to recreate
+- [06:33] something like that? And one of the
+- [06:36] things that I I discovered as I was
+- [06:37] doing that is, well, models are fairly
+- [06:39] flexible. Okay, I know a lot of times
+- [06:42] we're chatting or we're actually putting
+- [06:44] in again chatbot messages and into our
+- [06:47] interfaces and sending those, but models
+- [06:50] are again pretty flexible. I can
+- [06:51] actually give it JSON data and have it
+- [06:53] do something. In fact, I'm going to do
+- [06:55] just a little example of that here. Um,
+- [06:58] I'm going to pull up a
+- [07:01] little app that I've built that helps
+- [07:02] just kind of visualize the messages in a
+- [07:04] stack going to an LLM. And I can give it
+- [07:06] this system prompt that basically just
+- [07:08] says, "Hey, you're a tool that's going
+- [07:09] to generate summaries for a collection
+- [07:10] of messages in a group chat." Okay, the
+- [07:12] goal is to help the reader of the
+- [07:13] summary know if they need to take
+- [07:15] immediate action or not. The details of
+- [07:16] each message and will be conveyed in
+- [07:19] JSON structure. It's going to provide
+- [07:20] the name, date, and you know, contents.
+- [07:22] And here's some rules about what the
+- [07:25] summarization should should look like.
+- [07:27] Okay? No more than 200 characters. Don't
+- [07:29] summarize each message individually, but
+- [07:31] the entire flow of the conversation. So
+- [07:33] on so forth. Okay? Now, so what I can do
+- [07:35] then is I can say, well, hey, let me
+- [07:37] submit a put a basically another user
+- [07:39] message on the stack. That's the JSON
+- [07:42] data here. Okay. And looking at this,
+- [07:45] um, okay, I see one message. I need the
+- [07:48] FAQ for the website. Um, can you make it
+- [07:50] work? Um, and then, okay, about two
+- [07:53] hours later, are you there? Any updates?
+- [07:54] And then finally, never mind. We got it.
+- [07:56] We used the Reddit post. Okay, so I'm
+- [07:58] going to send these messages to the
+- [07:59] model. In this case, it's a Gemma 3
+- [08:00] model that's just running locally on my
+- [08:02] machine. And and what's going to happen
+- [08:04] is again Gemma is going to process this
+- [08:07] system prompt the JSON messages and I
+- [08:09] get this response back this summary.
+- [08:12] Okay. FAQ needed by end of day write a
+- [08:14] post used for FAQ creation issue
+- [08:16] resolved. Okay. And so my application
+- [08:20] can do all this behind the scenes. No
+- [08:21] chatbot is needed to make this flow
+- [08:24] work. Okay. And and again thinking about
+- [08:30] this we can do a lot more with agentic
+- [08:32] applications once we start thinking
+- [08:34] about what are other ways that we can
+- [08:36] trigger these these types of uh these
+- [08:38] these flows. So for event driven agents
+- [08:42] basically defined as agentic
+- [08:43] applications that are triggered based on
+- [08:45] external events not a chat message.
+- [08:47] Okay. And those external events can be
+- [08:49] web hooks they can be system events um
+- [08:51] you know a file was created or edited.
+- [08:54] It could be based on time. So every
+- [08:56] morning at 9:00 I want to go and run
+- [08:59] these various tasks are going to set me
+- [09:01] up for success for the rest of the day.
+- [09:03] Okay. Um and those events then flow into
+- [09:05] an application to create prompts and
+- [09:08] then generate a some sort of result.
+- [09:10] Okay. So that that's that's the space
+- [09:13] we're working in here. Okay. Now let's
+- [09:15] look at an example of one.
+- [09:18] The GitHub PR analyzer. Now why am I
+- [09:20] thinking about this? Well,
+- [09:23] about I guess it's been about two months
+- [09:26] ago now, um, at Docker, we had an
+- [09:28] internal hackathon in which the theme of
+- [09:30] the hackathon was simply
+- [09:32] create an agent that helps increase your
+- [09:34] productivity in a day. Like, okay,
+- [09:36] that's a pretty broad topic, but you
+- [09:38] know, I can take that anywhere. And as I
+- [09:41] started looking around, one of the
+- [09:42] things that again thinking event- driven
+- [09:45] agents, one of the things that I really
+- [09:47] wanted to to
+- [09:49] help make better was we have a lot of
+- [09:53] sample application repositories. Okay.
+- [09:56] Um various sample apps to help
+- [09:58] containerize or to teach various things,
+- [10:00] workshops, etc. We we have lots of
+- [10:02] these. And there's an interesting thing
+- [10:05] that occurs
+- [10:07] every so often. It's maybe every two or
+- [10:10] three weeks or um we have a student that
+- [10:13] goes through one of these workshops, one
+- [10:15] of these uh training materials and as
+- [10:17] they complete the work, they submit a PR
+- [10:20] afterwards basically saying, "Hey, can
+- [10:25] here here's the work that I did. Okay,
+- [10:27] so here's the Docker file I made. Here's
+- [10:29] the website change that I made, etc."
+- [10:31] Um, and and while we're really excited
+- [10:34] that they submitted that that PR to us,
+- [10:37] we can't really accept that PR because
+- [10:39] it's going to inhibit the ability for
+- [10:41] the next student to actually complete
+- [10:43] the workshop. And and you can see
+- [10:45] actually even with this this screenshot
+- [10:48] here, okay, there was a PR that was
+- [10:49] submitted October 24th and okay, we
+- [10:52] we're not always super responsive with
+- [10:54] with all these uh repositories, which is
+- [10:56] something I can do better on. It's about
+- [10:58] November 6, we actually responded to it.
+- [10:59] Okay, so a couple weeks later, hey,
+- [11:02] thanks for submitting this PR. We're
+- [11:03] glad you're excited to be learning about
+- [11:05] Docker. Now, keep it up. Unfortunately,
+- [11:07] we're not going to accept this. Okay, so
+- [11:10] I've been thinking about this space of
+- [11:11] is there a way that I can automate this?
+- [11:14] Can I use models to basically say, "Hey,
+- [11:16] a PR was created and now analyze a PR,
+- [11:19] determine if it's the basically the work
+- [11:22] that that this particular workshop is
+- [11:24] asking the the user to complete. And if
+- [11:27] so, can we automate creating a a comment
+- [11:30] and closing the PR?" Okay, so let's look
+- [11:33] at what this flow might look like. When
+- [11:35] a PR is open on GitHub, there's a web
+- [11:38] hook that gets triggered. Okay, I can
+- [11:41] register on the other end of that web
+- [11:43] hook, a receiver for my application.
+- [11:47] Okay, and then that application can use
+- [11:49] a collection of of different tools and
+- [11:51] agents. And and I guess I should back up
+- [11:54] and say one of my goals with this
+- [11:55] hackathon uh when I was building this
+- [11:57] was I want to do everything using
+- [11:59] agents. Okay? And I'll talk about some
+- [12:02] of the lessons I I learned with that and
+- [12:04] uh at the end. But again, the way that
+- [12:07] this is going to work is the web hook is
+- [12:09] going to get received and then I'm going
+- [12:11] to delegate first off to a sub agent
+- [12:13] that's going to analyze a PR. Okay,
+- [12:16] maybe this uh this agent needs to go get
+- [12:19] additional details. Okay, what files
+- [12:20] were changed? What were the details of
+- [12:22] those files? Um, does this look like
+- [12:24] it's actually enhancing the tutorial or
+- [12:26] is this looking like it's the the output
+- [12:28] of completing the tutorial? Okay. Um, I
+- [12:33] want to be able to generate a comment.
+- [12:35] Okay. So, let's personalize it a little
+- [12:36] bit or maybe even respond to, hey, we're
+- [12:38] glad that you submitted a Docker file.
+- [12:40] Um, and you know, great job learning uh
+- [12:43] about how to create container images,
+- [12:45] you know, but again, we don't want to
+- [12:47] accept this PR. Okay. So, let's let's
+- [12:49] generate a comment that reflects a
+- [12:50] little bit of the the types of things
+- [12:52] that they're they're working on. And
+- [12:54] then finally, another agent that
+- [12:55] actually goes and executes things that
+- [12:56] posts the comment and then close the PR.
+- [12:59] Now, a couple of these tools are or a
+- [13:01] couple of these agents are going to need
+- [13:02] tools to be able to actually go and get
+- [13:04] additional details from GitHub. Um, post
+- [13:08] the comment, close the PR, etc. Okay.
+- [13:11] Now, so these this is kind of the the
+- [13:13] architecture of this aentic application
+- [13:16] that we're going to build here. the the
+- [13:18] the flow what it's going to end up
+- [13:20] looking like there just slightly
+- [13:22] different representation of what we just
+- [13:23] saw and the PR will be received we're
+- [13:26] going to extract the details from the
+- [13:27] web hook we'll analyze the PR and then
+- [13:29] there's a a decision that needs to be
+- [13:31] made do we actually close it or not um
+- [13:34] if the agent decides we're not going to
+- [13:35] close it then we're just going to stop
+- [13:36] our flow here otherwise we're going to
+- [13:37] generate a comment and actually post and
+- [13:39] close the PR okay all right so let's get
+- [13:43] to building here let's first we're going
+- [13:47] Start off with the comment generator
+- [13:48] because this is the the fairly simple
+- [13:50] one. We're just going to generate a
+- [13:51] comment and the goal for this agent
+- [13:54] again generate a comment to post on the
+- [13:56] PR while closing. The model that we need
+- [13:58] for this can be a pretty simple one.
+- [13:59] It's just going to generate some text.
+- [14:01] Um
+- [14:02] nothing too complicated. Most models can
+- [14:04] do that these days. The inputs I need to
+- [14:07] give it the the details of the PR. You
+- [14:09] know who is the author? Who are we
+- [14:10] actually addressing in this comment? And
+- [14:12] then the output's going to be the
+- [14:13] generated comment. Okay, we don't need
+- [14:15] any tools. So the flow is fairly simple
+- [14:17] here. I just need again a model that I
+- [14:20] can use to actually create this comment
+- [14:21] and and go from there. Now one of the
+- [14:24] things that Docker has released in the
+- [14:26] last couple months is a tool called the
+- [14:28] Docker model runner which makes it very
+- [14:30] easy to run models um either locally on
+- [14:33] my machine or out in the cloud etc. But
+- [14:35] one of the really cool things that the
+- [14:37] Docker model runner provides is the
+- [14:39] ability to basically treat these models
+- [14:40] very similar to my container images. So
+- [14:43] I have a CLI tool that's um a CLI
+- [14:46] commands that lets me pull and and run
+- [14:48] commands etc. And then there's also
+- [14:52] compose integration where now I can
+- [14:54] actually define my models directly in my
+- [14:56] compose file and then inject those into
+- [14:58] my services. Okay. And so this allows me
+- [15:00] to now I can do a docker compose up and
+- [15:03] it spins not just my containers but also
+- [15:05] the models that that are needed there.
+- [15:07] Okay. So let's uh let's get to writing.
+- [15:10] Okay. Uh what we're going to do is I'm
+- [15:12] going to specify the model again using
+- [15:14] Docker Compose. We're going to write the
+- [15:16] agent code and we're going to uh get
+- [15:18] this all spun up here. All right. So
+- [15:20] with that, I'm going to switch over to
+- [15:22] VS Code. And I'm again, you can use any
+- [15:26] framework that you want to use. In this
+- [15:28] case, I'm going to be using the Maestro
+- [15:29] framework. It's a a TypeScript or
+- [15:31] JavaScript framework. Um but there's no
+- [15:34] requirement that this has to to work
+- [15:35] that way. Now, the first thing I'm going
+- [15:37] to do is I'm going to actually open up
+- [15:38] my compose file and I'm going to define
+- [15:41] the models that my
+- [15:44] we're first going to start off with
+- [15:46] defining the model. Okay, so we're going
+- [15:47] to use a Gemma 3 model to to to generate
+- [15:51] the comments. Okay. Um again, it's a
+- [15:53] fairly small model. It works very
+- [15:55] quickly and uh I can plug that in pretty
+- [15:58] easily. And then what I'm going to do is
+- [16:00] I'm going to update my code here um to
+- [16:03] specify that I want the Gemma 3 model.
+- [16:05] Okay. Um the endpoint
+- [16:09] um endpoint var field here. Okay. Is
+- [16:15] um let me just write this out and then
+- [16:17] I'll explain it.
+- [16:20] Okay. What this is going to do is when
+- [16:21] compose starts, it's going to define an
+- [16:23] environment variable named this that's
+- [16:25] going to be injected into the container
+- [16:28] so that when I connect to the value of
+- [16:31] this environment variable, it's going to
+- [16:32] connect to the basically the open AI um
+- [16:34] endpoint
+- [16:36] that's going to serve this model. Okay.
+- [16:39] Now, from here I can run docker compose
+- [16:41] up um and then I will have
+- [16:45] my model. Okay. Um and then the
+- [16:48] application running. All right. So, what
+- [16:50] I'm going to do, and actually I'm going
+- [16:52] to stop that for a second, and I'm going
+- [16:54] to run this locally. Um, let's define
+- [16:58] the
+- [17:01] comment creator agent. Okay. Um, so I'll
+- [17:05] make a file comment creator.
+- [17:08] And I know I'm I'm copy and pasting, but
+- [17:11] I'll I'll explain what's going on here.
+- [17:12] So, with the Monster framework, what
+- [17:14] allows me to do is I can say I want to
+- [17:15] create a new agent, and what's the name
+- [17:17] of the agent? And then the instructions
+- [17:19] are basically what's the system prompt
+- [17:21] for this particular agent. And let me
+- [17:23] turn on word rap. So it shows the whole
+- [17:25] prompt here. Okay. So for this
+- [17:27] particular agent, I'm saying you're a
+- [17:29] bot that's being used to create a
+- [17:30] comment for pull request in a repository
+- [17:32] informing the user the PR is going to be
+- [17:34] closed. Here's some background. Here's
+- [17:36] some instructions. Here's some some
+- [17:38] specific details. And uh at the end of
+- [17:40] the presentation, I'll I'll share a QR
+- [17:41] code um that links to this repo so you
+- [17:44] can read through it all and everything
+- [17:45] too. But again, I'm telling this agent,
+- [17:49] how should you run? Okay. Um, so I'm
+- [17:52] going to save this and
+- [17:55] I'm going to register it with the
+- [17:56] Maestra framework.
+- [17:58] Okay. And one of the really cool things
+- [18:01] that Maestra does
+- [18:04] is
+- [18:06] switch over to my browser on localhost
+- [18:10] 411.
+- [18:11] when I'm basically running this in
+- [18:13] development mode, it gives me a a a
+- [18:16] toolbox, a playground that I can
+- [18:19] interact with the agents uh directly. So
+- [18:21] again, I can still see that system
+- [18:22] prompt that I just defined and now I can
+- [18:25] start to actually write messages. Okay,
+- [18:27] so let's actually test this out. Um let
+- [18:30] me give it a message. I'm just going to
+- [18:32] copy in a message. Okay, so PR to
+- [18:34] generate a comment for that will be
+- [18:36] autoclosed. Okay. So, I'm going to give
+- [18:37] it say, you know, hey, here's the the
+- [18:40] the author of the PR, the or and the PR
+- [18:43] number. And again, what's going to
+- [18:46] happen here is this is going to generate
+- [18:48] a comment using the GEMA 3 model that's
+- [18:50] running locally on my machine. And I
+- [18:52] I'll jump back to the code to show you
+- [18:54] how it's connecting to the OpenAI
+- [18:55] endpoint. But again, here's the the
+- [18:58] comment that it generated for us. Okay.
+- [19:01] So going back to the code,
+- [19:05] we we talked about the system prompt,
+- [19:07] but one of the things I didn't talk
+- [19:08] about was how we're actually connecting
+- [19:10] to the model. Okay, so one of the cool
+- [19:13] things about the Docker model runner is
+- [19:14] it exposes an open AI compatible API,
+- [19:18] which means any tool in this case
+- [19:20] Monster Hood, but it will also work
+- [19:22] with, you know, langraph or any other
+- [19:24] tools that you might be using, I can
+- [19:26] basically just swap out the base URL to
+- [19:29] now point to the base URL of Docker
+- [19:32] Model Runner. And then as the the
+- [19:34] tooling creates its request and sends it
+- [19:36] to the Open AI model, in this case it's
+- [19:38] actually not sending it to OpenAI, you
+- [19:40] know, out on the cloud, but it's staying
+- [19:43] on my local machine. Okay. Um, in this
+- [19:46] case, it's actually going to local host
+- [19:48] um to to run. Okay.
+- [19:53] All right. Making sure I got everything.
+- [19:54] Okay. Yep. So, we've got our app. We've
+- [19:57] we've got our agent. It's using local
+- [19:59] models. Great. Okay. Now, let's talk
+- [20:01] about our next agent, the PR analyzer.
+- [20:04] Now, the PR analyzer needs to do a
+- [20:07] little bit more work. Okay, we want it
+- [20:09] to be able to look at the PR and detect,
+- [20:11] hey, is is everything working right? Um,
+- [20:15] and and is this the type of PR that we
+- [20:18] want to auto close? Okay. And so, this
+- [20:21] case, the model needs to be a little bit
+- [20:23] of a smarter model. It needs to be one
+- [20:24] that can do some reasoning, that can
+- [20:26] maybe do some tool executions and say,
+- [20:28] "Hey, actually, I need some more more
+- [20:29] details. can you go fetch details about
+- [20:31] this PR and then based on the response
+- [20:34] um
+- [20:35] determine whether the the uh PR should
+- [20:38] be closed. So we're going to give it
+- [20:40] some inputs. The output is really going
+- [20:42] to be do I recommend this thing being
+- [20:45] closed. Okay. And I'm going to give it a
+- [20:48] collection of tools to be able to go get
+- [20:49] more PR details um even get the files
+- [20:52] and the diffs for the the files um
+- [20:56] that are part of the PR. Now the
+- [20:58] question is where are these tools coming
+- [20:59] from? And with this being an AI
+- [21:02] conference, I think most people have
+- [21:03] probably heard of MCP by this point, but
+- [21:05] um in case you haven't, MCP is a great
+- [21:07] way to package up the tools and connect
+- [21:10] them to my application. Okay. And Docker
+- [21:12] has created a an MCP catalog in which
+- [21:16] this MCP catalog is a a collection of
+- [21:19] containerized MCP servers so that I
+- [21:22] could basically just run an MCP server.
+- [21:24] I don't have to figure out, okay, this
+- [21:26] is a UVX uh MCP server, so I need
+- [21:29] Python. I need UVX installed. I, you
+- [21:31] know, what versions of those things do I
+- [21:32] need? Are there other system
+- [21:34] dependencies I might need, etc. With
+- [21:37] them being containerized, you just say
+- [21:38] just run it. Okay? And it doesn't matter
+- [21:40] if it's UVX or MPX or um Golang or Java,
+- [21:44] whatever. Um that's the beauty of it
+- [21:47] being containerized. Okay? And then the
+- [21:49] MCP gateway
+- [21:51] provides the ability to easily run these
+- [21:54] containerized MCP servers. What it
+- [21:56] provides is the ability to say, "Hey,
+- [21:58] I'm going to run this um use the API
+- [22:01] socket. So, it's going to use um the
+- [22:03] Docker socket and and credentials and
+- [22:05] things that are needed there. Um and
+- [22:07] here's the servers to expose." And uh I
+- [22:09] only want to expose certain tools and
+- [22:10] and we'll see that here in just a
+- [22:12] second. Okay. So actually if I switch
+- [22:14] over to the MCP catalog,
+- [22:17] if I just search for GitHub because
+- [22:18] that's what we need here. Okay, I can
+- [22:20] see that there's an official GitHub MCP
+- [22:22] server that has in this case 93 tools
+- [22:25] available for me to use. Okay, and I can
+- [22:28] see that there's tools related to pull
+- [22:30] requests down here. So you know, get
+- [22:31] pull request get pull request diffs
+- [22:35] etc. So there's a lot of tools that are
+- [22:37] available here. I probably don't want to
+- [22:39] use all of them because 93 tools will
+- [22:41] really slow down my work and uh take up
+- [22:43] a lot of context. Okay. Um but this
+- [22:46] looks like a good MCP server for me to
+- [22:48] use. Okay. So,
+- [22:52] let's get back to our code. We're going
+- [22:54] to now specify the model. In this case,
+- [22:55] we're going to use Quinn, a Quinn 3
+- [22:58] model for this PR analyzer. We're going
+- [23:00] to set up the MCP gateway and then we're
+- [23:02] going to actually write our our code
+- [23:04] here. Okay. So, let's go back to um VS
+- [23:09] Code. I've I'm going to go to the
+- [23:11] compose file. And in the compose file,
+- [23:13] first I'm going to define the the Quinn
+- [23:15] model. And so, we'll put that down here.
+- [23:18] And one of the things I can do with with
+- [23:20] the the models, I can specify not just
+- [23:22] the model, but hey, this particular
+- [23:24] model is going to need a little bit
+- [23:25] additional context size because again,
+- [23:27] it's going to be having to get
+- [23:28] additional details, and that's going to
+- [23:29] start to fill up our our context um
+- [23:32] window fairly quickly. Um, I'm going to
+- [23:35] connect the model to my Oops, that was
+- [23:37] the wrong
+- [23:39] one.
+- [23:42] Okay, I'm going to connect the Quinn3
+- [23:43] model to my application. All right,
+- [23:46] great. I've got the model. Now, let's
+- [23:48] connect the MCP server. Right now, the
+- [23:52] MCP server,
+- [23:56] as I mentioned just a second ago, I can
+- [23:58] use an MCP gateway.
+- [24:00] The Docker MCP gateway again allows me
+- [24:02] to just kind of spin up these
+- [24:03] containerized MCP servers.
+- [24:06] I'm going to specify I want to use the
+- [24:07] GitHub official and then I've specified
+- [24:10] only the tools that I my application
+- [24:12] needs to actually use. This case I'm
+- [24:14] going to give it access to get commit,
+- [24:15] get pull request, the diff files, um get
+- [24:18] the file contents and then I'm going
+- [24:20] I've gone ahead and added the tools that
+- [24:22] we'll also need for the the last agent
+- [24:24] as well to to actually post the issue um
+- [24:27] and update the pull request to close it.
+- [24:30] Um, so from here, let's go ahead and
+- [24:36] I'm going to go ahead and do that.
+- [24:40] Yep.
+- [24:42] Okay.
+- [24:45] Okay.
+- [24:47] All right. So, we've got our
+- [24:51] M. Oops.
+- [24:54] Oh, um, I forgot one thing I needed to
+- [24:56] do. This GitHub official MCP server
+- [24:59] needs a credential. Okay. And
+- [25:04] I'm going to inject that credential. I
+- [25:06] have an environment variable file that
+- [25:08] has a GitHub personal access token. And
+- [25:10] so what that's going to do is it's going
+- [25:12] to read this secrets file, inject it
+- [25:14] into the um
+- [25:17] u into the MCP gateway, and then it will
+- [25:20] use that credential to actually uh
+- [25:22] communicate with
+- [25:25] uh
+- [25:28] to communicate with GitHub. Okay. All
+- [25:30] right. So we've got that started.
+- [25:32] Hooray.
+- [25:34] And we should see now
+- [25:36] if I do DRPS, I see the MCP gateway.
+- [25:39] Hooray. All right. Now, I just need to
+- [25:42] actually write my analyzer. Okay. PR
+- [25:45] analyzer.
+- [25:49] Okay.
+- [25:51] And again, I'm just going to paste this
+- [25:53] in here. So, the the um system prompt
+- [25:57] here is saying again you're a bop that's
+- [26:00] going to analyze a pull request for a
+- [26:02] repository and determine if it can be
+- [26:04] autoc closed or not. And then again
+- [26:05] provides descriptions. Now, here's your
+- [26:07] the instructions and then here's good
+- [26:10] indicators on when you should reject
+- [26:12] this thing or when you shouldn't. Okay,
+- [26:14] so we notice that a lot of times our
+- [26:16] students that submit PRs, they
+- [26:18] completely miss the PR description.
+- [26:20] Okay, so if there's no description of
+- [26:21] saying what enhancement is this
+- [26:23] providing, that's a pretty good sign
+- [26:25] that this should be something that's
+- [26:26] autoc closed. Um, if the updated files
+- [26:29] include changes that don't suggest
+- [26:30] improvement to the tutorial, for
+- [26:32] example. So again, lots of little things
+- [26:34] here that that help guide the model to
+- [26:37] know is this something that should be
+- [26:39] closed or not. Um the output that we
+- [26:43] want is a a JSON object that contains um
+- [26:46] in this case two fields. Okay. Um
+- [26:49] recommended to close, true or false, and
+- [26:51] then a description on why why did the
+- [26:54] model decide this thing should be
+- [26:56] closed. Okay. Um,
+- [26:59] so again, we're we're telling the model
+- [27:01] this is what we want to have happen. We
+- [27:03] connect the model to our OpenAI
+- [27:05] endpoint. Um, and then the last thing I
+- [27:08] need to do is actually give access to
+- [27:09] the tools. Okay. And so we'll go ahead
+- [27:12] and do that. MCP gateway.
+- [27:18] And with the Monster framework, I can
+- [27:19] just create an MCP client that will
+- [27:21] connect to um a URL. In this case, it's
+- [27:25] going to connect to the URL exposed by
+- [27:26] the MCP gateway. So, in this case, it's
+- [27:28] actually local as 8811 SSSE is where
+- [27:31] it's uh running from. Now, actually, one
+- [27:33] of the things uh I'll show real quick,
+- [27:41] meant to do this a moment ago,
+- [27:44] is
+- [27:49] for those of you that haven't played
+- [27:50] with the the MCP inspector, I can
+- [27:53] actually use the inspector to inspect
+- [27:56] again the MCP uh gateway and I can list
+- [28:00] out the tools and again I see just the
+- [28:01] list of tools that are there. Um, and so
+- [28:05] actually, let's go ahead and ask it.
+- [28:06] Say, all right, let's look at Docker 11
+- [28:09] getting
+- [28:11] uh, welcome to
+- [28:13] Docker. I think that's a valid PR
+- [28:16] number. Okay, there we go. Um, and so
+- [28:19] again, this is validating that the MCP
+- [28:21] server, everything is working correctly.
+- [28:23] Um, again, the gateway is using my
+- [28:25] credentials.
+- [28:27] If if you haven't used the inspector,
+- [28:30] it's a fantastic tool again to help
+- [28:31] visualize and see what's going on um
+- [28:34] with your MCP servers, how they're
+- [28:36] configured, what tools are exposed, etc.
+- [28:38] Um but also MCP servers can do a lot of
+- [28:40] other things as well too. So um I'm just
+- [28:43] focusing on the tools uh capabilities
+- [28:46] right now. Um so last thing I was just
+- [28:48] going to do was h register this
+- [28:53] with the moisture framework. And now I
+- [28:55] can go back and let's go to our agents,
+- [28:57] our pull request analyzer. And uh you
+- [29:00] know, let's go ahead and make a pull
+- [29:02] request. Um let's I've got a a little
+- [29:04] training
+- [29:06] um repo here that I can just use. And
+- [29:09] let's just say I'm going to make a
+- [29:10] Docker file uh from EngineX
+- [29:14] run
+- [29:16] echo hello
+- [29:18] world. and we'll just send this to
+- [29:24] HTML page. Okay. Um,
+- [29:29] sure. That looks like a good commit
+- [29:30] message. And we're going to create a
+- [29:31] branch. So then we can actually submit a
+- [29:33] PR for this. Okay. So let's submit a PR.
+- [29:38] And I'm going to have my agent now
+- [29:40] analyze this PR. Okay. So let's go in
+- [29:43] here and say PR to analyze.
+- [29:48] um to determine if it can be autoc
+- [29:52] closed. Um author
+- [29:55] 37 owner
+- [29:59] repo temp training demo and then PR
+- [30:03] number which I already forgot the number
+- [30:05] 14. Okay.
+- [30:08] And so what's going to happen now is
+- [30:09] again it's we're going to use the local
+- [30:11] docker model runner to to run quinn 3
+- [30:14] and it has access to all these tools
+- [30:16] that we see down here. And what we
+- [30:18] should see is here in just a second once
+- [30:20] the model's loaded and it starts
+- [30:22] processing. Okay. Yep. I see the the
+- [30:24] request to say, "Hey, the the model
+- [30:26] needs additional details. Okay, it needs
+- [30:29] to know about the pull request." So, we
+- [30:31] see the the request to run this tool. We
+- [30:33] see the response that that came back
+- [30:34] from it. Um the GitHub MCP servers are
+- [30:37] very very chatty. Um and so, um it takes
+- [30:41] up a lot of context and sometimes takes
+- [30:43] a little while for the models to
+- [30:44] process. But in this case, I get a
+- [30:46] response that says, "Yep, we recommended
+- [30:48] close. The PR title suggests adding a
+- [30:49] Docker file for an EngineX container
+- [30:51] with a hello world page, which aligns
+- [30:52] with typical student workshop
+- [30:54] exercises." So again, we're able to
+- [30:58] test. We're able to validate. Cool. This
+- [31:00] thing actually uh works. All right,
+- [31:03] let's continue on. Finally, the last
+- [31:05] agent, the last step here is let's post
+- [31:07] the comment. Let's close the PR. Okay.
+- [31:10] Um this last one again is fairly simple.
+- [31:13] we just wanted to be able to actually
+- [31:14] execute tools. But again, since we want
+- [31:16] to execute tools, we need at least a
+- [31:17] model that's smart enough to execute
+- [31:19] tools. Um, and so we'll we'll continue
+- [31:22] to use our Quinn 3 model. The inputs
+- [31:24] we're going to give it the PR to close
+- [31:26] and the comment details, the output, was
+- [31:29] it successful or not? Um, and then
+- [31:31] finally, um, that the tools will need to
+- [31:34] be able to post comment update the PR
+- [31:36] status, okay, which we already added
+- [31:38] with the the MCP gateway. So, in this
+- [31:40] case, we're basically just going to um
+- [31:43] write the code really quickly because
+- [31:45] it's much of the same process that that
+- [31:47] we did just a moment ago. Um,
+- [31:51] so I'll call this the PR exeutor
+- [31:55] and
+- [31:58] paste that in here. The instructions
+- [32:00] again, the system prompt, you're a bot
+- [32:02] that's going to post a comment on pull
+- [32:03] request. Uh, the comment PR details will
+- [32:05] be provided to you. You know, here's the
+- [32:08] steps to complete.
+- [32:10] And then one of the things that I
+- [32:11] noticed as I was testing this is
+- [32:13] sometimes they would um you know post
+- [32:16] the comment multiple times. Okay. So I I
+- [32:19] tell the model specifically you only
+- [32:21] need to post the comment once um and
+- [32:23] then don't change any other details of
+- [32:25] the pull request. I saw a couple times
+- [32:26] it would uh um do some various things
+- [32:29] like uh you know update the title or
+- [32:31] description and that kind of stuff. And
+- [32:33] so, um, again, things that as you test
+- [32:37] the the agents, you'll start to notice
+- [32:39] the types of behavior that it might, um,
+- [32:41] might do. And so, then you can specify
+- [32:43] those in in the prompts. Um,
+- [32:47] all right. So, from there, um, I'll save
+- [32:50] this. Um, I don't care about the memory.
+- [32:52] Thank you, Copilot. And then let's go
+- [32:55] ahead and
+- [32:57] plug this in.
+- [32:59] Okay. And again, now I'll have the
+- [33:03] um the agent over here and I can just
+- [33:08] say um
+- [33:10] PR to close. Well, we we'll we'll skip
+- [33:13] this. We'll just do a full demo here in
+- [33:14] just a second. But again, it'll follow
+- [33:16] these instructions. It'll post the
+- [33:18] comment uh close the issue, etc. Okay.
+- [33:22] Now,
+- [33:24] now that we have all the agent code, now
+- [33:27] how do we actually connect it to the web
+- [33:29] hook? Now,
+- [33:31] normally I would deploy this application
+- [33:34] to a, you know, a production environment
+- [33:36] or something like that. But during
+- [33:38] development and during testing,
+- [33:39] especially since this was just a
+- [33:40] hackathon, I wanted to do something that
+- [33:42] was fairly easy to do um and didn't
+- [33:45] require me to actually deploy anything.
+- [33:47] And there's a great service called
+- [33:48] SMEI.io, IO which is a web hook payload
+- [33:51] delivery service and basically you can
+- [33:53] just create a new channel and then in
+- [33:55] the the settings for the the web hook
+- [33:58] you basically just connect that channel
+- [34:00] here and so what ends up happening is
+- [34:02] the web hook will go to that that SME
+- [34:05] endpoint and then in your codebase you
+- [34:08] can create a client that then basically
+- [34:09] just gets those messages and then can
+- [34:11] replay it within your own application.
+- [34:13] So you don't actually have to have a
+- [34:14] deployed environment somewhere just to
+- [34:16] be able to do um you know testing and
+- [34:18] development. Um so again really real
+- [34:21] useful service here. So I use SMEI to
+- [34:26] you know that the PR would go to SMEI
+- [34:27] and then my application would then um
+- [34:29] have a SMEI client and and forward it on
+- [34:32] uh to the app itself. And so let's go
+- [34:35] ahead and plug that in.
+- [34:38] All right.
+- [34:40] Fortunately I've got all the code here.
+- [34:41] So I'll just uh uncomment this. But what
+- [34:43] again what ends up happening is that the
+- [34:46] SMEI client will connect to this
+- [34:47] endpoint
+- [34:49] and as the web hooks are received are
+- [34:53] sent from GitHub they go to this
+- [34:54] endpoint. The the client will also
+- [34:56] receive it um and then we'll replay it
+- [34:59] locally to a a local web hook endpoint.
+- [35:02] So I just have a small little Express
+- [35:03] server here that's going to take the the
+- [35:05] web hook um parse the details out of it.
+- [35:08] So get the the PR number, the or the
+- [35:10] repo, author, you know, just other
+- [35:11] details. And then what it's going to do
+- [35:13] is say, "Hey, Mora, I want to get a
+- [35:15] workflow." And I'll show you where this
+- [35:16] connects here in just a second. Run this
+- [35:19] workflow. Okay. Um and and give it or
+- [35:22] first get the workflow and then run the
+- [35:25] workflow with this input data. Okay. So
+- [35:28] process this PR. Um and then we'll see
+- [35:31] what happens. Okay. So, let's go ahead
+- [35:33] and I'll save that
+- [35:37] and then let me show the workflow real
+- [35:40] quick. Okay,
+- [35:52] Boink.
+- [35:54] And I just need to plug in.
+- [36:02] Yes. Okay. All right. So, the way that
+- [36:05] the workflow kind of going back to this
+- [36:08] slide here, you know, we we need the the
+- [36:11] agents and the conditional branching and
+- [36:13] everything. That's where the workflow
+- [36:15] comes in. Okay. So, what we'll see here
+- [36:18] is I've got a workflow. Here's all the
+- [36:20] starting schema. Okay. First off, we're
+- [36:22] going to use a basically a step that's
+- [36:24] going to use the agent that PR analyzer
+- [36:27] to determine can we close. And then
+- [36:29] based on that, we're going to branch off
+- [36:31] and say, hey, depending on the output,
+- [36:34] if if it recommended we close, okay, if
+- [36:39] we if if the recommendation to close is
+- [36:41] true, then run this next step and then
+- [36:44] run the the PR execute step. So it'll
+- [36:46] again the workflow allows us to do all
+- [36:48] this branching and conditional logic um
+- [36:51] connecting all these different agents
+- [36:52] together. All right. Um
+- [36:56] let's go ahead and kick this off then.
+- [36:58] And so what we should see now is let me
+- [37:01] clear the logs here. I've got the web
+- [37:04] hook set to anytime that a PR is created
+- [37:08] or reopened. So, what I'm going to do is
+- [37:10] I'm going to close this and then reopen
+- [37:12] it and we should see the web hook um get
+- [37:15] triggered. Um so, I'm going to click
+- [37:17] reopen, but before I do that, I'm going
+- [37:18] to switch to VS Code so we can see the
+- [37:19] log output here. Um so, reopen
+- [37:26] I thought I should have seen the uh
+- [37:32] shoulding.
+- [37:35] Okay, maybe it just didn't pick up that
+- [37:36] code change. Okay, let me bounce. close
+- [37:39] the PR. Reopen the PR. Okay, there we
+- [37:42] go. So, PR web hook received. Okay, for
+- [37:45] the close and so it's ignoring it
+- [37:47] because it's a close, but then when I
+- [37:48] reopen it, I see another PR um web hook
+- [37:51] show up. We can see it's kicking things
+- [37:53] off. Okay, we see that the first agent
+- [37:56] that it's uh
+- [37:58] going to analyze it. Um that here's the
+- [38:01] details to analyze and then we get the
+- [38:04] recommended close is true. Um, and so we
+- [38:07] see that we then should see the next one
+- [38:11] um where it's going to
+- [38:14] um then use our comment creator. So we
+- [38:17] see the the comment creator go um it's
+- [38:20] going to generate a comment. We see the
+- [38:21] response from the the comments going
+- [38:23] now. Um and then from there what we
+- [38:26] should see is the the final one where
+- [38:30] it's actually going to um post a comment
+- [38:32] and and close a pull request. Um and
+- [38:34] again it's going to be delegating to the
+- [38:36] the various tools. Um we see it actually
+- [38:39] went and fetched GitHub details about
+- [38:42] the PR um
+- [38:45] or sorry and so now we see portal
+- [38:46] request is successfully closed and so
+- [38:48] actually let's go back to our browser.
+- [38:49] Oh there it is. So we see that the
+- [38:51] comment was just posted and the PR was
+- [38:54] automatically closed for us. Okay. Um,
+- [38:57] and I see a couple of comments here as
+- [39:00] well too. Um, you know, what's the best
+- [39:02] way to secure the web hook endpoints?
+- [39:04] Now, since this is just a a demo here,
+- [39:07] um, I don't have the, um,
+- [39:11] the safety um, in here, but web hooks
+- [39:15] coming from GitHub can be signed with a
+- [39:17] secret or there there's a whole
+- [39:18] credential mechanism. But a lot of times
+- [39:20] also what you'll do is you can say hey I
+- [39:23] get this PR um coming through a web
+- [39:26] hook. A lot of times applications won't
+- [39:30] use the data directly from the web hook
+- [39:33] um and say okay cool let me go kick off
+- [39:34] this workflow but say hey I got a a PR
+- [39:37] open for PR14 in this case let me go get
+- [39:40] the details of PR14 and and then I'm
+- [39:42] going to use the results of that API
+- [39:45] call for the the downstream things. Um
+- [39:47] and so that further helps protect you
+- [39:49] from uh various attacks and whatnot. Um
+- [39:54] as far as uh there's another question
+- [39:56] here, safeguards should we put in place
+- [39:57] so that an event- driven agent doesn't
+- [39:58] become a rogue actor making repo changes
+- [40:01] and and that's a great call out. Um now
+- [40:05] that's why you know you you really want
+- [40:07] to craft your system prompts to
+- [40:09] basically say you know here are the the
+- [40:11] the things that you can analyze. Here
+- [40:13] are the things to look for. Here are the
+- [40:14] things that you can and can't do. um you
+- [40:17] know the executive these are the the
+- [40:18] specific things that you're going to
+- [40:20] going to going to do. So I'm giving it
+- [40:23] the specific instructions on what it
+- [40:25] should and shouldn't do. But even then
+- [40:27] I'm also limiting what tools it has
+- [40:30] access to. So you know this particular
+- [40:33] agent isn't going to have the ability to
+- [40:35] delete repositories or to create
+- [40:36] repositories or close issues or anything
+- [40:39] else. It can only do the things that I'm
+- [40:42] specifically giving it access to do. Um
+- [40:44] and so that kind of multi-tered approach
+- [40:47] helps me have a much better and and
+- [40:49] secured um agentic environment here.
+- [40:53] Okay. Now a couple of things that I I
+- [40:56] want to share some lessons learned.
+- [40:58] Okay. Um because there's there's quite a
+- [41:01] few. All right. Now obviously there's
+- [41:04] still gaps in this application and and
+- [41:06] I've see a couple questions of uh you
+- [41:08] know how do you test how do you you know
+- [41:11] deal with false positives etc. Now, of
+- [41:14] since this was a 24-hour hackathon
+- [41:16] project, um I could only do so much in
+- [41:19] it. Um I didn't talk anything about
+- [41:20] testing. And there there's some things
+- [41:22] that we can do with testing. Okay, I can
+- [41:25] use uh frameworks like test containers
+- [41:27] actually spin up the models and
+- [41:28] basically do full integration tests and
+- [41:30] and validate the things are working.
+- [41:32] Okay, when it's going to um call out to
+- [41:34] GitHub, maybe instead of talking to the
+- [41:36] real one, I'm going to mock those
+- [41:38] responses and and kind of control um the
+- [41:41] a test environment. Okay. Um there's
+- [41:44] also other things that um let's see
+- [41:48] I'll show let me pull up here. Um
+- [41:50] testing your agents with evals. Again
+- [41:52] this is just a capability of the moshar
+- [41:53] framework but a lot of other agentic
+- [41:55] frameworks have similar types of things
+- [41:56] where you can put basically evaluators
+- [42:00] um into the the codebase to say hey I
+- [42:04] when this is running I expect it to have
+- [42:07] this kind of tone or it should be
+- [42:09] similar to this other content. um you
+- [42:11] can do AB testing with it and there
+- [42:13] there's a lot of different uh evaluators
+- [42:15] and ways to score things. Um so again
+- [42:18] there's there's a lot of mechanisms that
+- [42:20] are available to help you test and
+- [42:23] validate your agentic applications. Um
+- [42:26] obviously just didn't I have the time to
+- [42:28] to go through all that here.
+- [42:31] The second thing local models can do
+- [42:32] great things but they still have
+- [42:34] limitations. Um so you know again I'm
+- [42:36] I'm using Gemma 3 I'm using Quinn
+- [42:38] models. Um, and I have a fairly, you
+- [42:42] know, good laptop that I'm working with
+- [42:43] here, but am I going to be able to do
+- [42:46] full general purpose types of
+- [42:48] applications and, you know, a chatbot
+- [42:50] that can look up everything and give it
+- [42:52] 90 tools? No. Um, so again, you you
+- [42:56] really want to think about what are the
+- [42:58] specific use cases, narrowing down the
+- [43:00] tools that are available and then, you
+- [43:01] know, playing with the different models.
+- [43:03] And that's one of the nice things with
+- [43:04] it being a compos. I can just swap out
+- [43:06] the the um the compose
+- [43:09] Um, let me actually just pull it up
+- [43:11] here. Okay, I can swap out what model
+- [43:13] I'm using. Okay, maybe I want to try
+- [43:15] with a, you know, a a different variant
+- [43:18] of the Gemma 3 model. Maybe that's got
+- [43:20] fewer parameters or a different
+- [43:22] quantitization and see, you know, maybe
+- [43:24] if I use a smaller model, does it go
+- [43:26] faster and do I still get good results?
+- [43:28] Okay, so I can experiment fairly
+- [43:30] quickly. Um, but again, local models you
+- [43:35] they're not the same as the the large
+- [43:37] GPT models, the sonnet models, etc. And
+- [43:40] so that that's something to recognize. I
+- [43:42] think we're going to start seeing more
+- [43:43] fine-tuning of models and more kind of
+- [43:45] again application use case specific
+- [43:47] models um starting to be more commonly
+- [43:50] used. Um, I think right now they're
+- [43:52] still very niche. Um, as I was talking
+- [43:55] about earlier, you know, MCP tool
+- [43:57] granularity. Um, what what I mean here
+- [44:01] is that sometimes the tools can be too
+- [44:05] granular. Um, one of the problems that I
+- [44:07] I ran into as I was uh building this and
+- [44:11] and had to
+- [44:14] um figure out the the prompts is this
+- [44:17] executive quite often it would post a
+- [44:19] comment, it would close and then it
+- [44:21] would post the comment again. And and
+- [44:24] what I found was man
+- [44:27] the again the combination of local model
+- [44:29] and it being separate tool calls that
+- [44:31] okay one tool call to post the comment
+- [44:33] another one to close and then sometimes
+- [44:36] it would get kind of mixed up of have I
+- [44:38] already done this or not well wouldn't
+- [44:39] it be nice if I just had a single tool
+- [44:41] that was just add comma and close and it
+- [44:45] was all just one trip okay so that's
+- [44:47] something to think about as you're
+- [44:49] building your own agentic applications
+- [44:50] of hey are there opportunities to kind
+- [44:53] of
+- [44:55] um aggregate some tools so that instead
+- [44:58] of them being too granular that you can
+- [45:01] have you know one tool that performs
+- [45:03] multiple functions. Okay, because what
+- [45:05] that ends up doing is now instead of
+- [45:07] multiple trips and you know more token
+- [45:09] usage and and more cost if you're using
+- [45:11] remote models um you know more time and
+- [45:13] resource usage etc. Now it becomes one
+- [45:16] round trip to just add comment and close
+- [45:18] PR. Um and so it's it's faster, it's
+- [45:21] less usage or less tokens, um less cost,
+- [45:24] etc. The other thought that I I kept
+- [45:27] having in here was that there are times
+- [45:30] in which I know that this step is going
+- [45:32] to be pretty deterministic. Okay, so
+- [45:34] this executive for example, when I get
+- [45:36] here, I know that I'm going to post a
+- [45:37] comment. I'm going to close the PR. Do I
+- [45:39] really need an agent and a model to do
+- [45:43] that workflow? Okay. Um, or could I just
+- [45:46] say, "Hey, GitHub API, here's the here's
+- [45:49] the the the two API calls that I need to
+- [45:52] make." And that's just programmatic.
+- [45:54] Okay. And so, as you're building your
+- [45:56] own agentic applications, there is value
+- [45:59] in choosing a framework that allows you
+- [46:02] to connect. Okay? Maybe there's some
+- [46:03] agentic steps here, okay? But then
+- [46:06] there's some other steps that are just
+- [46:07] flatout programmatic. Okay? Post a
+- [46:09] comment, close a PR. um it would be much
+- [46:12] faster than having to use a Quinn model
+- [46:14] and and again do something that is very
+- [46:16] deterministic and you know exactly how
+- [46:19] it's going to work and it should work
+- [46:20] the same way every time. Okay. Um so to
+- [46:24] recap here,
+- [46:25] event driven agents, they're definitely
+- [46:27] doable. Um and they're they're a great
+- [46:30] way to automate specific tasks. Again,
+- [46:32] you want to think about what are the
+- [46:33] very specific tasks. This case was a PR
+- [46:36] analyzer. Maybe there's others of, hey,
+- [46:38] I'm starting my day and at nine o'clock
+- [46:40] every morning, I want it to open up my
+- [46:42] my jer board and pull out my issues that
+- [46:44] are assigned to me and help me
+- [46:46] prioritize them and then just give me a
+- [46:48] a message. Um, and again, now that's a a
+- [46:51] cronbased timed driven um agentic flow.
+- [46:55] You know, I don't want to have to open
+- [46:56] up a chatbot to to kick that off. Okay.
+- [46:59] Um,
+- [47:00] and so again, the the challenge that I
+- [47:03] extend to to you all is think beyond the
+- [47:05] chatbot. What are the other types of
+- [47:07] ways that you could build agentic
+- [47:08] applications to to automate some little
+- [47:11] aspect of either your daily life or
+- [47:13] something that you're doing for a
+- [47:15] customer or for a user that that's
+- [47:18] consuming and using part of your
+- [47:19] applications. Um, models and and agentic
+- [47:22] applications have a lot of capability,
+- [47:25] but sometimes we have to think and break
+- [47:27] that mold in our head of of using the
+- [47:30] chatbot. So, with that, um, I've got a
+- [47:34] couple QR codes up here. There's the
+- [47:35] source code repo to this uh the
+- [47:38] application. There's a blog post that
+- [47:40] also walks through uh this as well too.
+- [47:42] And then there's the QR codes for the
+- [47:45] MCP gateway and uh Docker model runner
+- [47:47] as well too. So um and I say thank you.
+- [47:51] Thanks for tuning in. Thanks for
+- [47:53] watching. It's uh it's great to have
+- [47:55] I've seen a couple questions and I'll
+- [47:56] get to maybe one or two of these before
+- [47:58] we've got a break. and uh and otherwise
+- [48:01] I'll I'll answer the rest of them um
+- [48:03] just through the the Q&A.
+- [48:06] >> Hey Michael, you do have a few minutes.
+- [48:08] Uh I see some interest there. So let's
+- [48:11] actually answer. Uh we do have some time
+- [48:14] actually.
+- [48:15] >> Yeah. Um let's see. So let me see where
+- [48:18] I want to start here. Okay. Um so
+- [48:21] there's a question here. If the PR
+- [48:23] analyzer tool is a black box, how do you
+- [48:24] detect and deal with false positives? um
+- [48:26] tool may may assume a PR can be closed
+- [48:28] when it's actually not. Um and that's
+- [48:31] something that I've thought about as
+- [48:32] well too. Um you know, the last thing I
+- [48:35] want to have is somebody that's
+- [48:36] contributing to my application and and
+- [48:38] or you know, our repo and hey, I'm
+- [48:40] trying to make this this better, but ah
+- [48:42] you just think I'm a student and like we
+- [48:44] don't want to give that that that
+- [48:45] experience. So there's a couple things
+- [48:48] um that we can do there. First off, um
+- [48:50] in our system prompt,
+- [48:53] wrong button there. um we want to make
+- [48:56] sure that we're very explicit in you
+- [48:58] know what it's going to take to actually
+- [49:00] kind of cross the threshold to be autoc
+- [49:02] closed. Um and and so again it takes a
+- [49:05] lot of crafting the prompt engineering
+- [49:07] here. Um really getting into again
+- [49:09] what's it take to actually to close it
+- [49:11] as far as you know sometimes it may
+- [49:14] still get it wrong. Okay. So what can we
+- [49:16] do there? Well,
+- [49:19] for all of these repos, we're also um
+- [49:22] getting email notifications um or or
+- [49:25] even Slack notifications in some cases
+- [49:27] for these issues. And so when new
+- [49:29] comments are posted, so for example,
+- [49:31] these are are closed and and comments
+- [49:33] are are there, we can uh you know,
+- [49:36] follow up on it and okay, let's double
+- [49:38] check make sure that it wasn't a false
+- [49:40] positive there. So there's kind of
+- [49:42] secondary notifications to allow a human
+- [49:44] to be in a loop. Um and so that would be
+- [49:47] something else that you want to think
+- [49:48] about. Um another aspect um you know you
+- [49:51] start to use some of the evals that I
+- [49:53] was talking about earlier to help
+- [49:54] evaluate um maybe not necessarily the
+- [49:57] analyzer but okay the comet that we
+- [49:58] generated does have the right tone and
+- [50:00] and things that we want there. Um so
+- [50:02] there's again ways to
+- [50:05] put a little bit of uh safety nets
+- [50:07] throughout the the application there.
+- [50:09] Um,
+- [50:11] all right. There was a a question of uh
+- [50:14] how do you recommend handling secrets
+- [50:16] for agents running inside Docker when
+- [50:18] they need GitHub tokens or API keys?
+- [50:20] Yeah, and that's a a great question. So,
+- [50:22] going back here um we're using that the
+- [50:24] secrets mechanism within um uh Docker
+- [50:28] Compose. And so, what this is going to
+- [50:30] do is basically load that as a secret.
+- [50:32] um it's and a a secret gets loaded into
+- [50:35] a container as a temp fs file system. So
+- [50:39] it's basically a file that's only stored
+- [50:42] in memory. It's never actually on the
+- [50:44] disk. Um and then the the gateway can
+- [50:49] read that file and then it's going to
+- [50:50] inject it into the the downstream
+- [50:52] containers. So that that credential is
+- [50:54] never actually sitting in a file
+- [50:55] somewhere. Um and and we're looking at
+- [50:59] other mechanisms. In fact, we're
+- [51:00] actually looking at the entire secrets
+- [51:02] engine of of Docker and containers and
+- [51:05] what's the next iteration of that look
+- [51:07] like. So, um stay tuned on that. Um
+- [51:12] all right, let's see if we've got time
+- [51:15] for
+- [51:18] one more.
+- [51:20] >> Michael, you have a few more minutes.
+- [51:22] So, I see a lot of questions here. So, I
+- [51:24] mean, as long as you have time, I think
+- [51:27] it' be okay. What what time do you want
+- [51:29] me to be absolutely done by?
+- [51:32] >> Maybe 2005. I mean, maybe four or five
+- [51:36] more minutes.
+- [51:37] >> Yep. Sounds good. Um, so there was a
+- [51:39] question. What's the name of the web
+- [51:40] hook service? Uh, so it was SMEI.io or
+- [51:43] SME. Um, so I thought it was the name of
+- [51:47] the the service here. Again, I wouldn't
+- [51:48] use this for like a production
+- [51:50] environment for but for testing
+- [51:52] development. Um, it's a great resource.
+- [51:54] Um,
+- [51:56] blah blah blah. What are some real word
+- [51:59] real world examples where Dockerize MCP
+- [52:01] agents provide clear benefits over
+- [52:03] running lightweight scripts or GitHub
+- [52:04] action workflows? Um, well, so you're
+- [52:06] kind of talking about a couple different
+- [52:08] things there. Um, so a GitHub action
+- [52:10] workflow.
+- [52:14] So I guess the the question here is
+- [52:16] could I basically do this analysis in a
+- [52:19] workflow? Um,
+- [52:21] maybe, maybe not. The the challenging
+- [52:23] part though is I need a I need the model
+- [52:26] running somewhere. Um and I can't do all
+- [52:28] this in a workflow. Um and so I actually
+- [52:31] need a a deployed application that can
+- [52:33] respond to these events and do something
+- [52:35] from there. So um typically my GitHub
+- [52:37] action workflows are going to be around
+- [52:40] building, testing, validating, you know,
+- [52:41] the app itself. Um where then external
+- [52:46] systems can then respond to these types
+- [52:48] of things here. Um
+- [52:51] all right. Great. And there's a couple
+- [52:52] questions for links. Um, yeah, I'll drop
+- [52:54] the links in the the chat um right
+- [52:57] afterwards as well too. So that that's a
+- [52:58] great idea. Um, how can we handle
+- [53:01] continuing from errors from agentic
+- [53:03] workflows that were partially successful
+- [53:04] with with one error for example? Yeah,
+- [53:06] good question. Um, so there there's a
+- [53:09] couple different mechanisms that you can
+- [53:10] do here. So um, a lot of aentic
+- [53:12] applications will have uh retries built
+- [53:16] in. Um, so maybe in a a multi-step
+- [53:18] workflow if step one passed but step two
+- [53:22] had an error um having it um trigger or
+- [53:28] you know okay let's go ahead and retry
+- [53:30] that again. Um, that's kind of one of
+- [53:32] the advantages of some of these workflow
+- [53:34] systems where I know the input going
+- [53:36] into a particular step. And so if that
+- [53:38] step fails, if there's an error for some
+- [53:41] reason, okay, let's let's try that step
+- [53:43] again with the same input and see if we
+- [53:45] get the the same error. Um, if the error
+- [53:47] is persistent, then okay, yeah, then the
+- [53:49] application can um, you know, send
+- [53:53] notifications or or whatever it is that
+- [53:54] that it might need to do u from there.
+- [53:56] Um but again having uh workflow systems
+- [54:00] that can
+- [54:01] that can retry um in a lot of cases do
+- [54:05] you resolve that the situations are um
+- [54:09] and I think that most of the questions
+- [54:16] I'm scrolling back.
+- [54:24] Yep. I I think that's
+- [54:27] most of the questions that I see here.
+- [54:28] So, um again, if if you've got other
+- [54:30] questions, feel free to reach out to me.
+- [54:31] I've I've been getting lots of LinkedIn
+- [54:33] requests and everything as we've been
+- [54:34] going throughout it as well, too. So,
+- [54:36] feel free to reach out to me on LinkedIn
+- [54:38] if you've got more questions or think of
+- [54:39] something else and uh I'll be happy to
+- [54:41] to help you out. So, thanks all and uh
+- [54:44] hope you have a great rest of your
+- [54:46] conference.
+- [54:47] >> Thank you so much, Michael. So, are we
+- [54:49] getting closer to
+- [54:51] um cursor writing all the code and
+- [54:53] >> Oh, man.
+- [54:55] all the pull requests being reviewed by
+- [54:57] tools like this and then you know cursor
+- [54:59] making adjustments and then we just eat
+- [55:02] popcorn just
+- [55:03] >> so my my take is I I think we're getting
+- [55:05] closer but I think there's still a lot
+- [55:07] of steps to make. Um so I I think for
+- [55:09] some very specific use cases yes but for
+- [55:12] uh for general use case I think we're
+- [55:14] still still a little ways off.
+- [55:17] >> Yeah it is fascinating how how far we
+- [55:20] have come.
+- [55:22] >> Okay. Thank you so much Michael. This
+- [55:24] was uh very cool. Um and uh we are going
+- [55:29] to take a 5m minute break. We'll come
+- [55:32] back in five minutes and
+- [55:33] >> All righty. Thanks all. Thanks.

@@ -1,0 +1,438 @@
+---
+title: "Transcript: T4XDMeoyvU0"
+video_id: "T4XDMeoyvU0"
+video_url: "https://www.youtube.com/watch?v=T4XDMeoyvU0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:15:39"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: T4XDMeoyvU0
+
+- URL: https://www.youtube.com/watch?v=T4XDMeoyvU0
+- Retrieved at: 2025-12-30T10:54:14+09:00
+
+## Text
+
+- [00:00] Okay, so in this video I want to cover
+- [00:03] small LM3.
+- [00:05] This is a new model that came out today
+- [00:07] from Hugging Face, actually trained by
+- [00:09] Hugging Face, created by Hugging Face.
+- [00:12] It builds on the previous small LMS that
+- [00:14] they've had in the past, slightly bigger
+- [00:16] than the other ones at 3B. But in this
+- [00:18] video, I want to cover not just the
+- [00:20] model itself. I think it's really
+- [00:22] interesting around what they've released
+- [00:25] about how they created this model and
+- [00:27] the different kinds of training
+- [00:29] techniques that they've used and also at
+- [00:31] the end I want to basically test it not
+- [00:33] just with reasoning and non-reasoning
+- [00:35] but also with agentic uses. So let's see
+- [00:38] how it does at things like function
+- [00:40] calling and stuff like that. Could this
+- [00:41] be the model that you run locally to run
+- [00:43] all your agents without having to use
+- [00:45] any sort of proprietary model etc. All
+- [00:48] right let's jump in. So, HuggingFace has
+- [00:50] released this new 3B model and they've
+- [00:54] released both the base model, an
+- [00:56] instruct model, and an onyx version of
+- [00:58] the model. And already people are making
+- [01:01] GGUF versions which you can use on Alama
+- [01:04] and LM Studio. The model itself is
+- [01:07] certainly impressive. We can see that it
+- [01:09] lies in this area between the Quen 3
+- [01:12] 1.7B and the Quen 3 4B. And 3B is an
+- [01:16] interesting size in that it's like a
+- [01:18] nice size that you could actually run on
+- [01:21] many mobile devices that are out there
+- [01:23] now. And sure enough, for that size, it
+- [01:25] seems to be beating out the old Quen
+- [01:27] 2.53B and the Llama 3.2B.
+- [01:31] So, if we look at some of the core stats
+- [01:33] for it, we can see that it's a model
+- [01:36] that's been trained on 11 trillion
+- [01:38] tokens, which is a very impressive feat,
+- [01:41] right? To actually train something for
+- [01:43] that long. We can see that they're
+- [01:45] claiming that it's state-of-the-art for
+- [01:47] all the 3B models and also strongly
+- [01:50] competing with 4B models. And it's one
+- [01:52] of these new models that allows you to
+- [01:55] basically turn on and turn off
+- [01:57] reasoning. So, we've looked at some of
+- [01:59] these before where you've got some kind
+- [02:01] of flag that you can turn on thinking or
+- [02:04] non-thinking. They claiming that it's
+- [02:06] multilingual. For me, there's only six
+- [02:08] languages there. They're all European
+- [02:10] languages. For me personally, that's not
+- [02:13] very multilingual. But also,
+- [02:14] interestingly, this can actually use a
+- [02:17] long context of up to 128K in here. Now,
+- [02:21] the thing that I find that actually is
+- [02:24] perhaps more interesting than the model
+- [02:26] itself is that they've released this
+- [02:28] blueprint. And this blueprint is exactly
+- [02:32] how they've done each step of the
+- [02:34] training. So even with the open weights
+- [02:37] models from Deepseek from Quen, usually
+- [02:41] they're quite good in telling us at
+- [02:43] least roughly what they did, unlike the
+- [02:45] papers coming out of the proprietary
+- [02:47] labs which really aren't giving you any
+- [02:50] sort of real facts and basically just
+- [02:52] maybe have some vague clues every now
+- [02:54] and then. This is actually a full
+- [02:57] blueprint of exactly what they did for
+- [03:00] each of the steps from the pre-training
+- [03:02] recipe, how they set up the distributed
+- [03:04] training, how they did the model
+- [03:06] architecture, right through to things
+- [03:09] like the long context training and all
+- [03:11] the post-training recipes for actually
+- [03:14] putting this together. So, if we just go
+- [03:16] through those quickly, they've got some
+- [03:18] of these are already up on the blog
+- [03:20] post, but like I said, you've also got
+- [03:22] the blueprint where you can just come in
+- [03:24] and actually analyze these things
+- [03:26] yourself. We can see the long context
+- [03:28] can go up to 256. I'm not sure how great
+- [03:31] it's going to be past 128. It can use
+- [03:33] tools, which I definitely want to look
+- [03:35] at the end, and we'll test that when we
+- [03:36] do the code test for this. And we can
+- [03:39] see that it's got this dual think
+- [03:40] reasoning system where you can turn the
+- [03:42] thinking on and off. And if we jump into
+- [03:45] the blog post, we can just look at some
+- [03:46] of the key facts in here. So the
+- [03:48] architecture that they've gone for is
+- [03:50] actually similar to some of the Llama 3
+- [03:53] architectures. If we think way back now,
+- [03:56] it's been quite a long time since Llama
+- [03:58] 3 was released. Clearly, the Llama 3
+- [04:00] release was a lot more successful than
+- [04:02] the Llama 4 release. It didn't require
+- [04:05] Zuckerberg going out and trying to hire
+- [04:07] as many LLM researchers as possible for
+- [04:10] doing that. But we can see that in there
+- [04:12] they've got the group query attention.
+- [04:14] Now the interesting thing is they've got
+- [04:15] this new thing called nope and they're
+- [04:18] fully citing in here. So my brief
+- [04:20] understanding of this is using like a
+- [04:22] cause of mus rather than the rotary
+- [04:24] embeddings etc. And you can see that
+- [04:26] even though they've taken certain things
+- [04:28] from the llama series they've also
+- [04:30] basically looked around and taken ideas
+- [04:33] from things like mo 2 where they talk
+- [04:35] about removing this weight decay from
+- [04:37] embedding layers to improve training
+- [04:39] stability. Now, that's interesting and
+- [04:40] going to be very useful for anyone that
+- [04:42] does want to try and train one of these
+- [04:44] small models. And I got to say that
+- [04:47] looking at their GPU budget for this,
+- [04:49] they had 384 H100s for 24 days. That's
+- [04:53] not a crazy amount of GPUs time. So,
+- [04:57] actually, I think that works out to
+- [04:59] roughly 220,000 plus GPU hours there.
+- [05:03] And the interesting thing is you can get
+- [05:05] H100s now. The price of being able to
+- [05:08] rent them out is going down. So we're
+- [05:10] looking at something that probably cost
+- [05:11] a few hundred,000 to train. It's
+- [05:14] certainly not in the large millions of
+- [05:16] dollars that we've seen people do in the
+- [05:18] past. All right. So one of the things
+- [05:20] that is always the mystery of the
+- [05:23] proprietary models is how do they do
+- [05:26] their data mixes and how do they do
+- [05:28] their pre-training. So, it's really nice
+- [05:30] to see here that they're talking about
+- [05:31] doing a three-phase pre-training with an
+- [05:34] kneeling sort of at the end of that, but
+- [05:36] more interestingly looking at the splits
+- [05:38] of data as they go through this. So, you
+- [05:41] can see at the start it's very webheavy
+- [05:43] for that sort of long phase, but then in
+- [05:46] phase two and phase three, they actually
+- [05:49] increase the code. They increase the
+- [05:50] math quite a lot in there just for this
+- [05:54] pre-training phrase. Now after that they
+- [05:57] talk about how they did the long context
+- [05:59] stuff and also how they did the actual
+- [06:01] reasoning stuff. Now for me looking at
+- [06:04] this sort of briefly it does look that
+- [06:06] like they've heavily relied on both the
+- [06:09] DeepSync R1 reasoning traces as well as
+- [06:12] Quen 3 for creating synthetic data to be
+- [06:16] able to make some of these reasoning
+- [06:19] traces out. So it doesn't look like
+- [06:21] they've done a large amount of sort of
+- [06:24] RLVR or anything like that in here at
+- [06:28] least in comparison to perhaps some of
+- [06:29] the Chinese labs that these people are
+- [06:32] trying to spend longer doing the
+- [06:34] reinforcement learning with verifiable
+- [06:35] rewards etc. Interestingly, they use a
+- [06:38] new form of alignment in here, which is
+- [06:41] a variant on DPO. And finally, they also
+- [06:44] do things like model merging to
+- [06:46] basically take various checkpoints and
+- [06:48] try and create a super checkpoint in
+- [06:50] here. Now, as I mentioned, they've put
+- [06:53] the base model and the instruction
+- [06:55] fine-tune model up on hugging phase.
+- [06:58] Actually, perhaps would have been nice
+- [07:00] for them to put up the different
+- [07:01] checkpoints at the end of each phase of
+- [07:04] training as well. I'm not sure if they
+- [07:06] perhaps they will release that in the
+- [07:08] future. That would be really good to
+- [07:09] see. We can also see that they've also
+- [07:11] gathered all the data sets here both for
+- [07:14] things like SFT for reasoning data sets
+- [07:17] that they were using in there. And
+- [07:19] generally, it seems to me that we've got
+- [07:20] to think of this as being one of the
+- [07:21] most open releases that we've seen in
+- [07:24] quite a while. Okay, so let's jump in
+- [07:26] the code and see how the model actually
+- [07:28] performs. Okay, so jumping into the
+- [07:31] code, we can see that it's really easy
+- [07:32] to actually set this model up. No
+- [07:35] surprise. It's been created by Hugging
+- [07:37] Face. It's going to work with
+- [07:38] Transformers out of the box. It also
+- [07:41] works with SG Lang and with VLM. But
+- [07:44] anyway, in here you can see I've just
+- [07:45] loaded up the model. If we want to do
+- [07:48] reasoning outputs, we can just basically
+- [07:50] pass in a prompt and you'll see we get
+- [07:53] the standard sort of deepseek think tags
+- [07:58] where in this case we've got quite a
+- [07:59] long think tag going on there and then
+- [08:02] we've got the answer coming out. If we
+- [08:04] want to get it with no reasoning in the
+- [08:07] system prompt, we just need to pass in
+- [08:08] this slashn nothink in there. And then
+- [08:12] you'll see that we just get an answer
+- [08:14] out with no thinking tags, just the
+- [08:16] final answer out there. All right. So,
+- [08:19] you can manipulate the thinking with the
+- [08:21] system prompt a bit by referring to it.
+- [08:24] And the thinking will often be very
+- [08:27] long. Now, unfortunately, I wasn't able
+- [08:29] to get it to number the thinking and
+- [08:32] break it down into sections, which is
+- [08:34] the same for the Deep Seek ones. With
+- [08:36] the way that they train that model and
+- [08:39] the Quen 3 model, they're really using
+- [08:41] this RL VR by Verifiable Rewards, which
+- [08:46] doesn't give you a lot of control over
+- [08:48] that long chain of thought to get to the
+- [08:50] right answer. You see this being
+- [08:53] actually different in the Gemini models
+- [08:55] and some of the other proprietary
+- [08:57] reasoning models out there which kind of
+- [08:59] sectionize their thinking tokens as they
+- [09:02] go through. Anyway, here we can see that
+- [09:04] okay it did a nice long think and then
+- [09:07] it gave us quite a detailed response out
+- [09:10] here. Now if we look at sometimes like
+- [09:14] this so this is a code generation one it
+- [09:17] will just generate empty thinking. So I
+- [09:20] found this on a few sort of examples.
+- [09:22] I'm not sure, you know, what they
+- [09:25] expected behavior is for this. Maybe if
+- [09:28] we had asked some things before we
+- [09:30] actually sent in the Python function
+- [09:33] definition, we would have got a better
+- [09:35] response out. So I do notice this for a
+- [09:38] number of responses where you will get
+- [09:40] empty thinking out there. I got to say
+- [09:43] though, for such a small model, the
+- [09:45] thinking turns out to be quite good. I
+- [09:48] can't help but feel that perhaps it's
+- [09:50] just fine-tuned in from deepseek and
+- [09:53] quen 3 as opposed to actually getting
+- [09:56] the model to do thinking itself. It's
+- [09:58] just extended chain of thought. But that
+- [10:01] said, we can look at, you know, so a
+- [10:03] question like this, write a detailed
+- [10:04] breakdown of building a successful
+- [10:05] lemonade stand. The thinking actually is
+- [10:07] quite good, right? It goes through the
+- [10:09] different elements before giving a
+- [10:11] detailed plan out for this. Now when we
+- [10:15] compare this to a version with no
+- [10:18] thinking you can see in this case the
+- [10:20] plan is much simpler definitely not as
+- [10:23] wellought out and stuff like that. So it
+- [10:26] does show that the thinking will help
+- [10:28] for certain kind of responses. Often you
+- [10:31] will also get the model wanting to give
+- [10:33] some justification at the end or to give
+- [10:36] so in this case additional tips at the
+- [10:38] end. Okay another one old question.
+- [10:41] What's the difference between llama
+- [10:42] vuna? Again, here it just dropped out
+- [10:45] the thinking. I'm not sure why, but it
+- [10:48] gave us detailed a very detailed sort of
+- [10:50] response, probably on par with some of
+- [10:52] the models that we've seen before. Now,
+- [10:55] one area where I thought it was a bit
+- [10:56] not so great here where I've asked it,
+- [10:58] what is the capital of England? I've
+- [11:00] left the thinking on. We get a huge
+- [11:02] amount of thinking and then we get a
+- [11:04] step-by-step breakdown of the answer
+- [11:07] like the justification that I was
+- [11:09] talking about before. Another example
+- [11:11] here of the thinking for the Jeffrey
+- [11:13] Hinton question. Gives some nice
+- [11:15] rationale at the end for this. Does
+- [11:18] really well on the GSM AK stuff. Not
+- [11:20] surprisingly now. It is kind of amazing
+- [11:23] to think that a 3B model is doing so
+- [11:27] much better on this kind of stuff
+- [11:29] compared to going back a year 18 months
+- [11:32] ago where we were looking at 14B models
+- [11:34] that couldn't do a lot of these things.
+- [11:37] All right. Finally, just to finish up
+- [11:38] the tool use. So, one of the things that
+- [11:41] I find most interesting about this model
+- [11:43] is that it can do function calling and
+- [11:46] that it's supposedly been primed a bit
+- [11:48] for agentic use. So, when we come in and
+- [11:52] look at the tool use, we can basically
+- [11:53] just define a tool. You can see here
+- [11:56] that we've just defined this the schema
+- [11:58] for the tool in here. We can then pass
+- [12:00] in a message and sure enough, what it
+- [12:03] will do is that the message this is
+- [12:06] showing all the data that's coming out.
+- [12:08] Sure enough, the message will actually
+- [12:10] then include a tool call in it. So in
+- [12:13] this case, the tool call is the get
+- [12:14] weather and it worked out that it was
+- [12:16] Copenhagen, which is what it should have
+- [12:18] been for this. So I tried this out for a
+- [12:20] number of different functions. So doing
+- [12:23] like a search thing where we can say,
+- [12:25] okay, when will open release the open
+- [12:27] weights model? What are the rumors? And
+- [12:29] we can see, sure enough, we're taking in
+- [12:31] that one tool there and it's got some
+- [12:34] instructions of how to do it. And sure
+- [12:36] enough, it returns back a tool call. So
+- [12:38] the tool call in this case is the search
+- [12:40] web and the arguments it's come up with
+- [12:42] is open AI open weights model release
+- [12:45] date rumors. So it actually is working
+- [12:48] out what the keywords. So I tried this
+- [12:50] for a few different things for things
+- [12:52] like okay who won the Nobel Prize in
+- [12:54] chemistry. Now technically if it's
+- [12:56] cutoff date is June 2025 it should
+- [12:59] actually know that. But in this case, it
+- [13:01] decided, okay, let's do a search. 24
+- [13:04] Nobel Prize chemistry winner. I actually
+- [13:06] think that's good, right? That I don't
+- [13:09] expect a 3B model to be really good with
+- [13:11] facts. I feel it's like better for it to
+- [13:13] actually try things out there. All
+- [13:15] right. And then finally, if we're
+- [13:17] passing in multiple tools here, I've got
+- [13:19] the search web and the weather, and we
+- [13:21] ask it something that really shouldn't
+- [13:23] use either tool, we want it to not use a
+- [13:25] tool, right? We want it to know that,
+- [13:27] okay, it should just respond to this.
+- [13:30] Now, I had mixed responses with this.
+- [13:32] Sometimes it works really well as you
+- [13:34] see here where, okay, we've passed in
+- [13:36] the tools. We've passed in something. We
+- [13:39] didn't get a cool call back. We didn't
+- [13:40] get any thinking. We just got I'm an AI.
+- [13:43] I don't have feelings, but I'm here to
+- [13:45] help. We got a response back. Often, it
+- [13:47] would be like this. Every now and then,
+- [13:48] I found that, okay, it will try to use
+- [13:51] the search tool for things that perhaps
+- [13:54] maybe you don't want it to use the
+- [13:55] search tool. Now, that could also be
+- [13:57] down to my description. In here, I've
+- [13:59] got allows you to use the search the
+- [14:01] internet, find useful and up-to-date
+- [14:02] information. You could play around with
+- [14:04] that and I think you certainly want to
+- [14:06] do that if you're planning on using this
+- [14:09] thing. So, the model is out also on. I
+- [14:13] think this is a custom version someone's
+- [14:15] uploaded, but my guess is we'll see
+- [14:16] probably an official version up there as
+- [14:18] well. And I'm sure it's just a matter of
+- [14:20] time before you see it on LM Studio as
+- [14:22] well. Overall, this is a really
+- [14:24] interesting release from Hugging Face,
+- [14:27] and I really think they should be
+- [14:29] commended for this. They've not only
+- [14:31] released an interesting model, but
+- [14:33] they've also released this really nice
+- [14:35] blueprint of how they created it, what
+- [14:38] they did at each steps. My guess is that
+- [14:40] there's probably a full paper coming
+- [14:42] with maybe even more details, which will
+- [14:44] be great. Hopefully they will release
+- [14:46] the checkpoints for like each of the
+- [14:48] phases and stuff like that. So people
+- [14:50] could look at testing different ideas.
+- [14:53] For example, if you wanted to change
+- [14:54] something in the phase 2, you don't want
+- [14:56] to have to do the whole phase one by
+- [14:58] yourself. If you could just take their
+- [14:59] checkpoint for that and then try out new
+- [15:02] ideas for the phase 2, phase 3, or for
+- [15:05] the different sections of the post
+- [15:06] training stuff as well. There's quite a
+- [15:08] lot of tokens that they trained on in
+- [15:10] there. Anyway, check it out. Let me know
+- [15:12] in the comments. Are you actually still
+- [15:14] looking to use small local models on
+- [15:18] your own machine or are you more moving
+- [15:20] to the really cheap proprietary models
+- [15:23] that can do all of these things? This is
+- [15:25] certainly one of the things I'm looking
+- [15:27] at more and more and talking to other
+- [15:29] people, I see use cases for sort of both
+- [15:31] systems and stuff. So, I'd love to hear
+- [15:33] your thoughts about that in the
+- [15:34] comments. Anyway, as always, if you
+- [15:36] found the video useful, please click
+- [15:37] like and subscribe and I will talk to
+- [15:39] you in the next video. Bye for now.

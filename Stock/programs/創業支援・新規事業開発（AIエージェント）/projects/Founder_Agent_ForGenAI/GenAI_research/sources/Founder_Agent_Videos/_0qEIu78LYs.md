@@ -1,0 +1,1291 @@
+---
+title: "It's the first day with the new laptop. So, my deepest apologies to everyone. Um, to let you know a ..."
+video_id: "_0qEIu78LYs"
+video_url: "https://www.youtube.com/watch?v=_0qEIu78LYs"
+speaker: "Allison"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Product Development"
+summary: |
+  It's the first day with the new laptop.
+  So, my deepest apologies to everyone.
+  Um, to let you know a little bit about
+key_points:
+  - "who I am. My name is Allison Cosette. I"
+  - "hopefully everybody can see everything"
+  - "can um run your agents. So what I have"
+  - "available for everyone, the good news is"
+  - "Graph Academy is at Neoforj that we have"
+  - "a ton of free courses that are available"
+  - "and free workshops. This workshop that"
+  - "I'm walking you through today is usually"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: _0qEIu78LYs
+
+- URL: https://www.youtube.com/watch?v=_0qEIu78LYs
+- Retrieved at: 2025-12-30T11:27:41+09:00
+
+## Text
+
+- [00:00] It's the first day with the new laptop.
+- [00:01] So, my deepest apologies to everyone.
+- [00:04] Um, to let you know a little bit about
+- [00:06] who I am. My name is Allison Cosette. I
+- [00:10] am here with Neo4j representing our
+- [00:14] workshop today. So, let me see. Here we
+- [00:17] go. Ah, here we go. All right. So,
+- [00:19] hopefully everybody can see everything
+- [00:20] now. Um I am here with uh Neo4j and I am
+- [00:26] going to be walking you through how we
+- [00:29] get uh structured data and unstructured
+- [00:32] data into a graph rag system so that you
+- [00:36] can um run your agents. So what I have
+- [00:40] available for everyone, the good news is
+- [00:42] and what what's pretty exciting about
+- [00:44] Graph Academy is at Neoforj that we have
+- [00:47] a ton of free courses that are available
+- [00:50] and free workshops. This workshop that
+- [00:53] I'm walking you through today is usually
+- [00:55] two hours. So I'm going to give you the
+- [00:57] compressed version, but the the good
+- [00:59] news is that this workshop will be
+- [01:02] available to you at any time. So, um, if
+- [01:05] you want to go to the URL and run this
+- [01:08] yourself, it's going to be
+- [01:10] graphacademy.neforj.comcourses
+- [01:14] and the name of the course is
+- [01:16] workshop-genai.
+- [01:19] Um, can everybody see my screen? Okay,
+- [01:21] Raja, hopefully you can. Um, and what
+- [01:24] we're going to be
+- [01:25] >> on this thing.
+- [01:26] >> Excellent. All right. So, um, again, so
+- [01:28] all of this is available and it's free
+- [01:30] to you. We're kind of giving you a
+- [01:32] little bit of the compressed version
+- [01:33] today, but what I'm going to do is I'm
+- [01:35] going to walk you through all of these
+- [01:36] pieces. So, um, to tell you a little bit
+- [01:40] about what we're talking about, many
+- [01:42] people have, and I'm actually just going
+- [01:45] to, you know, you certainly don't need
+- [01:48] me to go over the the basics of what is
+- [01:51] Genai. Obviously, everybody here is
+- [01:53] perfectly familiar with that. But what I
+- [01:56] do want to talk through is I want to
+- [01:57] talk through a little bit around um the
+- [02:01] uh the the model. So we clearly know
+- [02:05] that when we're working on rag
+- [02:07] applications and we're working on agent
+- [02:08] applications, we're really trying to in
+- [02:11] our case use how we can use data to
+- [02:14] improve what's coming out of the
+- [02:16] language model. The way that we do this
+- [02:19] in our instance is what I'm introducing
+- [02:21] you to today is a knowledge graph. So
+- [02:23] the knowledge graph is actually built
+- [02:25] based on nodes and relationships. So
+- [02:28] when we think of how rag works and what
+- [02:30] we're grounding in, what we're going to
+- [02:31] be grounding in today is not just
+- [02:35] everybody's pretty used to a vector
+- [02:36] database, what we're going to do is
+- [02:38] we're going to expand that concept of
+- [02:40] the unstructured and vector database and
+- [02:42] expand it to include your structured
+- [02:44] data. So some of the basics about graph
+- [02:47] are we have nodes and relationships. So
+- [02:50] you can think of it like um if you've
+- [02:52] got a table of people and a table of
+- [02:55] comp in our case we're working with SEC
+- [02:57] data today. So we have a table of asset
+- [03:00] managers and we have a table of
+- [03:01] companies right so these asset managers
+- [03:03] own shares in these companies. In a
+- [03:06] traditional relational database you
+- [03:09] would have probably a lookup table that
+- [03:12] would have the name of the asset manager
+- [03:13] the name of the company and then some
+- [03:15] parameters. So they own a certain amount
+- [03:18] of stock at a certain point in time. And
+- [03:21] so in general, the way that you can
+- [03:23] think of the relationship, the not to
+- [03:25] use a relationship, but the connection
+- [03:27] between relational and graph is if
+- [03:29] you've got a lookup table in your erd in
+- [03:32] a graph, that would roughly be what we
+- [03:34] call a relationship. So those elements
+- [03:37] that are on um that table would then be
+- [03:40] properties on the relationship, which is
+- [03:42] what we have here. So just to give you a
+- [03:44] little bit about that, I know
+- [03:46] everybody's looking forward to learning
+- [03:48] another language, but the language that
+- [03:50] we use to query the database in graph is
+- [03:54] called cipher. The good news is uh we
+- [03:58] have a very clear consistent um uh
+- [04:03] format around that language. Much of it
+- [04:05] is very similar to what you'll see in
+- [04:07] SQL, right? So you you have a return
+- [04:11] statement select from where but rather
+- [04:13] than that what we have is we have match
+- [04:15] and return. So what we're looking for is
+- [04:17] we're looking for patterns in the
+- [04:20] relationship. So if historically in SQL
+- [04:23] you would say from asset manager join
+- [04:28] lookup table join company and you would
+- [04:31] have this very complex piece. In our
+- [04:32] case we're saying just match me the
+- [04:34] asset manager who owns companies. In
+- [04:37] this case, we're saying the asset
+- [04:38] manager is Andre, the asset manager that
+- [04:41] owns the company, and then return
+- [04:43] whatever those properties are. So, just
+- [04:46] a little bit of a heads up that we're
+- [04:47] we're going to be using cipher.
+- [04:51] When we do retrieval augmented
+- [04:53] generation in our case, what we're
+- [04:56] looking at is using the knowledge graph
+- [04:58] as that external grounding piece, which
+- [05:01] is what we're looking at here. So how do
+- [05:04] we actually go about building the graph?
+- [05:06] So there's a number of different ways
+- [05:08] that we go through it. Um and we we'll
+- [05:11] walk you through a little bit of it here
+- [05:12] and then I'm going to show you some
+- [05:14] things in the the notebook itself. So
+- [05:17] obviously we know the the challenge with
+- [05:19] traditional rag is that we're you when
+- [05:22] we're using a vector store we're really
+- [05:25] returning based just on similarity but
+- [05:27] not necessarily on understanding or
+- [05:30] business logic. I always like to use the
+- [05:32] analogy of a vector database is kind of
+- [05:35] as if you took, let's just say I'm
+- [05:38] onboarding a new employee and I have an
+- [05:40] employee manual.
+- [05:42] If I took that manual and chunked it up
+- [05:45] and tore it into little pieces and put
+- [05:46] them on index cards, each of those
+- [05:48] little pieces has information. But if I
+- [05:51] say, "Show me the index cards that are
+- [05:53] similar to, I don't know, a time off
+- [05:56] policy. Maybe there's an additional
+- [05:58] piece of metadata that's represent
+- [05:59] that's connected to it that it may not
+- [06:01] be. But what we really need to be able
+- [06:04] to do is we need to be able to take the
+- [06:08] information but connect it to other
+- [06:10] things, which is what we're really doing
+- [06:12] in this particular instance, right? And
+- [06:14] so that's what we're going to be working
+- [06:16] on today is how can we expand that
+- [06:19] vector database to add in additional
+- [06:23] structured data to that unstructured
+- [06:25] data. So in our example that we use in
+- [06:28] this workshop is we have um PDF
+- [06:30] documents and these are about companies
+- [06:33] and finances and different risks
+- [06:35] associated in that unstructured data.
+- [06:38] And what we're going to be doing is
+- [06:39] we're going to be using AI to extract
+- [06:42] those entities and relationships
+- [06:45] ultimately setting up for how we put it
+- [06:47] into an agentic solution. Now, the idea
+- [06:51] is, and at the end, we're going to show
+- [06:52] you just a simple agent, but what we
+- [06:55] really want to focus on today, and I
+- [06:57] want everybody to get out of this, is
+- [06:59] you've got lots and lots of
+- [07:01] conversations in this um yesterday and
+- [07:04] today around how we're building agents.
+- [07:06] And what I want you to have from this is
+- [07:09] how do we put together the optimal data
+- [07:11] to get the best possible output from our
+- [07:14] agents, which is mostly what we're going
+- [07:16] to be focusing on today.
+- [07:18] So in this case, what we're looking to
+- [07:21] do is we're looking to connect our
+- [07:23] unstructured and our structured data. So
+- [07:26] for example, we're familiar with this
+- [07:28] process here on the left. We have the
+- [07:30] document and we create we create a chunk
+- [07:32] from it. This is your traditional vector
+- [07:34] moment. But what we also want to do is
+- [07:36] we want to be able to have access to the
+- [07:38] structured data. In our case, we have
+- [07:41] some structured data around which
+- [07:43] company is connected with that document.
+- [07:46] And the first thing that we're going to
+- [07:47] do is everything you see in red is going
+- [07:50] to be structure that's extracted from
+- [07:52] the unstructured data. So within these
+- [07:55] SEC filings, they talk about products.
+- [07:58] They talk about stock types or
+- [07:59] transactions or risk factors. This light
+- [08:03] blue element you see is actually coming
+- [08:05] from in our case, you know, it's a it's
+- [08:07] a workshop. It's a toy example, a CSV
+- [08:09] that outlines which asset managers own
+- [08:12] these individual companies. And so what
+- [08:14] you have in the end is what we build out
+- [08:17] is we build out this combination of your
+- [08:20] unstructured data in this vector moment.
+- [08:23] We have structure extracted from the
+- [08:25] unstructure and we have whatever your
+- [08:28] traditional data would be as far as that
+- [08:30] structure is concerned. So this is what
+- [08:32] we're working up to today.
+- [08:35] What is the data that we're going to be
+- [08:37] working with and what's used here? What
+- [08:39] we have is we're using Edgar SEC
+- [08:41] filings. As we can see here, the
+- [08:44] original challenge might be how do we
+- [08:46] extract this structured insight from
+- [08:47] thousands of pages of text. In our case,
+- [08:50] you know, we're talking about these
+- [08:52] quarterly filings that get filed with
+- [08:54] the SEC and that's what we're going to
+- [08:56] be working with. And what we do is we
+- [08:58] take those documents and they're chunked
+- [09:00] and the the vectors are created. So just
+- [09:02] as we can see here what we're going to
+- [09:05] do is we're going to match the document
+- [09:07] um in this system when you look if when
+- [09:10] you run the um when you run this in
+- [09:13] graph academy this data is already
+- [09:16] loaded for you so that you can play with
+- [09:18] it and clearly what we're seeing here is
+- [09:20] we've got this particular PDF was
+- [09:22] chunked into 99 chunks 72 chunks
+- [09:26] everybody knows there's an art to the
+- [09:28] chunk but really what we want to show
+- [09:30] you is right Now, when we looked at that
+- [09:34] that diagram of the document and the
+- [09:36] chunk, what we're looking at is give me
+- [09:38] back this path. So, show me the document
+- [09:41] where those chunks are coming from. What
+- [09:43] that looks like is I can actually let's
+- [09:46] say match. I'm going to d document. Um,
+- [09:49] I'm going to create this. I'm going to
+- [09:53] look at the again this new laptop. Um,
+- [09:57] I'm going to look at the uh from
+- [10:01] document, right? And then I'm going to
+- [10:05] connect that document to a chunk. Okay.
+- [10:09] All right. And then what I'm going to do
+- [10:11] is I'm going to return let's just return
+- [10:14] star and we're going to limit to let's
+- [10:17] say 10 just so we can get a look at what
+- [10:19] this looks like. And the reason I'm
+- [10:21] running it this way is what I want you
+- [10:23] to see is I want you to see the actual
+- [10:25] graph. So in this case we've got this
+- [10:27] one particular document. We see that
+- [10:30] this document these chunks this
+- [10:32] particular chunk is from this document.
+- [10:35] And the other thing that we see is we
+- [10:37] see next chunk. So again this is another
+- [10:40] way that we can maybe you're building an
+- [10:43] agent where you want to bring back that
+- [10:45] vector chunk but you want some context.
+- [10:48] So you want maybe the chunk before and
+- [10:49] after.
+- [10:51] In these cases, by having them set this
+- [10:53] way, it allows you to bring in that
+- [10:56] immediate bit, but also see how
+- [10:58] everything is set up within the graph
+- [11:01] itself.
+- [11:02] Um, what we've done, and I and I'll show
+- [11:06] you the uh I'll walk you through what's
+- [11:08] in the in in the code as far as how
+- [11:10] we're extracting this in just a minute,
+- [11:12] but what we've done is we've then done
+- [11:14] the schemadriven extraction. So what
+- [11:16] we've done is in the the graph rag
+- [11:19] notebook we've said okay I want to look
+- [11:21] at the companies I want to extract
+- [11:24] entities such as executive product
+- [11:27] financial metric like we had seen on
+- [11:29] that earlier layout then I want to also
+- [11:33] create these metrics here and what this
+- [11:35] ends up looking like uh we've got our
+- [11:38] code spaces up here um when we are in
+- [11:41] the document you're going to see the um
+- [11:45] our financial documents. What you'll see
+- [11:47] is the PDF build. So in the PDF build,
+- [11:50] this is actually going to show you
+- [11:53] um you're gonna we're this is actually
+- [11:55] the notebook that walks you through how
+- [11:57] we actually did that. So clearly we set
+- [12:00] up yourv file. One thing to note when
+- [12:04] you're um using Graph Academy in this
+- [12:07] particular workshop, one of the things
+- [12:10] that you're going to see, hold on one
+- [12:12] second.
+- [12:14] Close this. Um when you go to set up
+- [12:17] your Oh, why is this not working? What
+- [12:20] is my retriever? Uh oh.
+- [12:23] What is happening?
+- [12:25] Uh oh. Why is this not
+- [12:29] Uh oh.
+- [12:31] All right. Well, I'm not sure exactly
+- [12:33] why this isn't loading for me right now.
+- [12:36] Hopefully, you guys can still um Raja,
+- [12:38] can you still see the what we're showing
+- [12:41] right now?
+- [12:48] Hopefully.
+- [12:52] All right. I'm not really hearing
+- [12:54] anything, so I'm assuming that
+- [12:55] everything is okay. Um, as I mentioned,
+- [12:57] one of the challenges that we're having
+- [12:59] right now, I don't know why this is not
+- [13:03] running to my next piece.
+- [13:08] All right. We've got our vectors. What
+- [13:09] is a retriever?
+- [13:12] Set up your development environment.
+- [13:16] All right. Well, it looks like now this
+- [13:17] is actually running, which is good. Um
+- [13:20] uh in this particular course when you go
+- [13:21] to setting up your development
+- [13:23] environment one of the things that
+- [13:24] you're going to see is you can open in
+- [13:26] GitHub code spaces. So all of the
+- [13:28] documents associated with this will
+- [13:30] load. But the other thing that you'll
+- [13:32] see is you'll see the connection
+- [13:34] information. So you will have to bring
+- [13:36] your own open API key to run this. But
+- [13:39] what we see clearly is that we've got
+- [13:41] the information. So this database, this
+- [13:44] instance is going to get set up for you
+- [13:46] right away and then it will be connected
+- [13:49] um it'll be connected separately. So let
+- [13:51] me move this out of the way. All righty.
+- [13:54] All right. Hopefully we can still see
+- [13:57] everything. So just to understand what's
+- [13:59] happening inside the instance itself.
+- [14:02] So, how we actually did this PDF loader
+- [14:06] is we went through and we want you
+- [14:08] you're going to set up your ENV. This
+- [14:11] information here is coming directly from
+- [14:13] Graph Academy. We're going to give this
+- [14:15] to you here. You can drop those in. Um,
+- [14:18] you can also set it up with av file as
+- [14:21] you see fit. And what we've done is
+- [14:23] we've gone through and the first thing
+- [14:24] we did is we created these documents in
+- [14:26] chunks, right? We create these documents
+- [14:28] in chunks. And how do we actually do
+- [14:30] that? which is what we're looking at
+- [14:32] here. Um, in my case, as we know, when
+- [14:36] we're trying to set up data that's
+- [14:38] helpful to our application, we always
+- [14:41] want to be mindful of the messiness of
+- [14:43] the data. I come from a longtime data
+- [14:46] science background. I think I spent the
+- [14:47] first five to seven years of my data
+- [14:50] science career mostly cleaning up data.
+- [14:53] Um, and that's one of the interesting
+- [14:54] things to know about the new AI engineer
+- [14:57] moment is you really are you're not just
+- [15:01] an SWE anymore. You're not just an
+- [15:03] engineer anymore. You really do have
+- [15:06] those data science and those data
+- [15:08] management skills. So what you'll see in
+- [15:10] this particular instance is we actually
+- [15:13] provide some additional information
+- [15:15] about how we want the names of the um
+- [15:18] companies to be extracted. So the first
+- [15:20] thing that we do is we initialize the
+- [15:22] LLM. Um this is still set up with GPT40
+- [15:26] rather than five. You can certainly
+- [15:28] adjust it to the model of your choice.
+- [15:31] But what we've asked it to do is we've
+- [15:33] asked it to go into the unstructured
+- [15:34] data and say find the we have the
+- [15:37] company that's associated with that
+- [15:39] document and go in and extract all of
+- [15:41] these different elements.
+- [15:43] Now I'm showing you one very particular
+- [15:46] structured way to go about it. We do
+- [15:48] have MCP servers available to help you
+- [15:51] do this. There's lots of ways to to
+- [15:54] approach this, but in this case, what
+- [15:56] we're showing is we're showing you a
+- [15:58] very structured format. The reason I
+- [16:00] like the structured format is when we
+- [16:03] are in a non-deterministic space, any
+- [16:05] opportunity we have to get really clear
+- [16:09] and to bring some structure, I'm always
+- [16:11] going to opt for that. So, one of the
+- [16:14] things that we set up, the way we set it
+- [16:16] up is we set up this Python dictionary
+- [16:18] where we say, okay, I'm looking for the
+- [16:20] label, the node label. That's the type
+- [16:22] of the node I'm looking for, which is an
+- [16:24] executive or a product or a financial
+- [16:26] metric. In this case, when I'm looking
+- [16:29] at the actual properties, I'm just
+- [16:31] looking at um sorry, I'm just looking at
+- [16:34] the the name and inputting that as a
+- [16:37] string. You can if you're looking for
+- [16:40] dates, you can set those in to return as
+- [16:42] date times. This is where you really
+- [16:44] want to get very clear about what is it
+- [16:47] in this unstructured data that's going
+- [16:49] to be useful to me and how do I want
+- [16:52] that information to be put into Neo4j so
+- [16:55] I can access it. The next thing that we
+- [16:58] see is we see the relationships. So in
+- [17:00] this case we're saying I want to look at
+- [17:04] the relationships has metric faces risk
+- [17:07] etc. And this is what we have here. Say
+- [17:10] risk factor company. The relationship
+- [17:12] between them is called faces risk.
+- [17:16] As I mentioned, I put in an additional
+- [17:18] prompt template because I wanted to be
+- [17:19] very clear that I need the company names
+- [17:22] that are extracted to match what's in my
+- [17:25] structured data. And this is something
+- [17:28] where you always want to be thinking
+- [17:31] when you're looking to take that
+- [17:33] unstructured data and make it available
+- [17:35] in a graph rag application. You always
+- [17:38] want to be thinking of what do I have in
+- [17:40] my structured data stores that can be
+- [17:44] found in this unstructured data and how
+- [17:46] do I make sure that that jump match is
+- [17:49] going to tie. Uh in Neoforj we have
+- [17:53] plenty of algorithms around entity
+- [17:55] resolution and different pieces like
+- [17:57] that but in this case I just wanted to
+- [17:59] show you a way that we bring in this
+- [18:01] prompt to run that.
+- [18:04] So the next thing that we do and this is
+- [18:06] really the key here that I want to
+- [18:09] really highlight is we're using the
+- [18:11] Neo4j graph package and we're using
+- [18:14] something called simple KG pipeline and
+- [18:17] in this instance what we've done is we
+- [18:19] take the driver which is connecting to
+- [18:21] our instance we have the LLM that we set
+- [18:24] as always you want to make sure that
+- [18:26] what your embedding model is is how is
+- [18:29] going to tie to how you're querying
+- [18:32] but what we see here is then we passing
+- [18:34] that those dictionaries of the entities
+- [18:36] and the relationships. I also passed in
+- [18:38] the prompt template and then there's
+- [18:40] something called enforce schema equals
+- [18:42] strict and that means if you don't sort
+- [18:46] of rein in the LLM it's going to find
+- [18:48] all different kinds of entities all
+- [18:50] different kinds of relationships and in
+- [18:52] this case you want to really tie in and
+- [18:54] get really clear and clean on what that
+- [18:57] is. So when you run this, we ran this
+- [18:59] over the over the data set and what
+- [19:03] we've do is we run this pipeline. We ran
+- [19:05] it on all these PDFs. Um and then at the
+- [19:09] end we create this vector index. And
+- [19:12] where you see this is you see this as I
+- [19:14] mentioned in our in our building of the
+- [19:19] graph. Let me take you back to here.
+- [19:23] This is everything that was done in this
+- [19:25] element. And this is what got us to this
+- [19:27] moment here. This is what got us to the
+- [19:30] ability to say we have all of these
+- [19:32] chunks. So what we then want to do is we
+- [19:35] want to say okay well you ran all of
+- [19:37] this data here when you've extracted
+- [19:39] these elements. How can I take a look at
+- [19:41] those? So here's one way that we can
+- [19:43] look at it. So once we ran this we came
+- [19:46] out with 820 risk factors, 470 financial
+- [19:50] metrics and this is showing us all of
+- [19:52] those entities that were extracted. the
+- [19:55] a little piece about how we dropped in
+- [19:59] our um structured data. So in addition
+- [20:03] what you'll see in our second notebook
+- [20:06] and I can share this with you one moment
+- [20:10] in the second notebook nope this yeah
+- [20:13] the second notebook here the loading the
+- [20:16] structured data we show you a visual
+- [20:19] there isn't actually any code in this
+- [20:21] particular notebook it's really just the
+- [20:23] walkthrough of when you have your own
+- [20:26] data and you want to load it in how
+- [20:28] could you go about that so it takes to
+- [20:31] it encourages you to go to
+- [20:33] console.neforj.io.
+- [20:36] One thing to know about Neo4j is we do
+- [20:39] have a free tier instance. We also have
+- [20:43] a community edition where if you want to
+- [20:45] lo something locally, we have a strong
+- [20:48] open-source soul at Neo4j and our
+- [20:50] origin. So, we really want to make it
+- [20:52] accessible to you. So when you go to
+- [20:54] console the or the Neo4j aura console
+- [20:57] which is our instances we have a really
+- [20:59] clear walkthrough of how you actually
+- [21:01] will load in that data. One of the
+- [21:04] things to note is um we've got these
+- [21:07] different asset managers and the
+- [21:08] companies and we show you how to
+- [21:11] actually map out um you know and it's
+- [21:15] very very detailed in case you want to
+- [21:17] see what these look like. We have all
+- [21:19] the walkthroughs of how do you add in a
+- [21:21] node? How do you add in a label? We do
+- [21:24] have a lot of um uh sorry, we do have
+- [21:29] many connectors as you see here. We've
+- [21:32] got lots of ways that you can connect to
+- [21:34] your data. Um and the key is
+- [21:37] you ultimately want to be able to tie
+- [21:39] your unstructured and your structured
+- [21:40] data together. So there is a walkthrough
+- [21:43] in here in the financial documents PDF
+- [21:45] build about how you actually get to that
+- [21:48] moment.
+- [21:50] So the data that's in there and what we
+- [21:53] walk through in that notebook is what we
+- [21:56] see here. We have the name of the
+- [21:57] manager, the company name, the ticker of
+- [21:59] what they own and what those values and
+- [22:01] those shares are. So as we mentioned,
+- [22:04] we've got this walkthrough of how you
+- [22:06] can do say a guey load. We have many
+- [22:09] other ways that you can do it as well
+- [22:10] and we talk you through that there. Um,
+- [22:14] the interesting thing for me is once we
+- [22:17] actually get all of that loaded in, we
+- [22:20] now see that we've got what was
+- [22:21] extracted from the unstructured data,
+- [22:24] right? Those risk factors, financial
+- [22:26] metrics, we have the chunks where those
+- [22:28] PDFs were were um added in. And then the
+- [22:32] other thing now is we've got this asset
+- [22:34] manager. Now in our case we only have 15
+- [22:37] asset managers. We only have a few a
+- [22:39] handful of companies. I think we have
+- [22:41] eight or 10 companies um range of
+- [22:44] documents. But one of the things that we
+- [22:46] note is that now you can actually take a
+- [22:50] look at a whole company. So what does
+- [22:52] that look like? So to to dive in a
+- [22:55] little bit to this the cipher query. So
+- [22:58] here we're saying we've loaded these
+- [22:59] documents from Apple. Um, and what we
+- [23:02] want to say is we want to show we add
+- [23:06] what we call optional match. And
+- [23:07] optional match just means if it's there,
+- [23:09] show it to me. But if it's not there,
+- [23:11] don't break the query. So bring me back
+- [23:14] Apple.
+- [23:15] Show me if there are asset managers that
+- [23:18] own them. Show me if there are chunks.
+- [23:20] And then here, what we're doing is we're
+- [23:22] just doing the aggregation, right? So
+- [23:25] give me the counts on these. And what we
+- [23:26] see is for Apple, we have 175 extracted
+- [23:30] entities. So those are the products
+- [23:32] executives um risk factors that we had
+- [23:34] discussed. We see that of our asset
+- [23:37] managers 15 different asset managers own
+- [23:41] a portion of Apple and we have
+- [23:43] approximately 44 text chunks that are
+- [23:45] associated with Apple as well. And you
+- [23:48] may be saying you know how how might
+- [23:51] this be of interest to me? And what I
+- [23:53] can show you is let's actually also look
+- [23:56] at let's just do instead of doing this
+- [24:00] I'm actually just going to do a return
+- [24:02] star. I'm going to limit it to 25.
+- [24:07] And I want to show you a little bit
+- [24:08] about what this ends up looking like in
+- [24:11] the graph. So in this graph what we're
+- [24:14] seeing here is we've got Apple, we've
+- [24:17] got all of these different entities that
+- [24:20] were extracted or a risk factor. So in
+- [24:22] this case it faces a risk of um this is
+- [24:26] probably uh adverse macroeconomic
+- [24:29] conditions. We can see that um it faces
+- [24:33] a risk of political uncertainty
+- [24:36] you know so we have all these different
+- [24:37] types of risk that it might be facing.
+- [24:39] The other thing is we're also seeing an
+- [24:41] example of an asset manager that owns
+- [24:44] Apple, right? And then this we're seeing
+- [24:47] like an example of one particular chunk
+- [24:50] and we also note that this particular
+- [24:53] risk that it's faced which is geographic
+- [24:56] some piece is was found in that chunk.
+- [24:59] So under the hood each of these entities
+- [25:02] that we've extracted is tied to that
+- [25:04] chunk. That chunk is tied to the
+- [25:05] company. The company is tied to the
+- [25:07] asset manager. And you may be asking
+- [25:10] yourself, why do we need all of these
+- [25:12] connections? How does this actually help
+- [25:14] my agent?
+- [25:16] It's going to help your agent in a
+- [25:18] variety of ways. One of the things I'll
+- [25:20] I'll I'll talk you through is let's
+- [25:22] actually go to the retrievers. So, when
+- [25:26] we talk about retrievers, we're talking
+- [25:28] about h the ways that we can query the
+- [25:31] database and use that information as
+- [25:34] context. So whether you're using it as
+- [25:37] context for your agent for a memory
+- [25:39] moment, whether you're using it as
+- [25:41] context for a like an actual, you know,
+- [25:44] NLP verbal response or written um, you
+- [25:49] know, return, there's lots of different
+- [25:51] ways that you're going to be using this
+- [25:52] data in your agents. But what I'm going
+- [25:54] to walk you through is I'm going to walk
+- [25:56] you through a couple of ways that we do
+- [25:57] this. So everybody's familiar, I
+- [26:00] imagine, with your vector retrievers and
+- [26:02] your vector search in Neo4j. The way
+- [26:05] that this is stored is in the um so let
+- [26:09] me actually do this. Let me do I'm going
+- [26:12] to show you the chunk. We're going to
+- [26:14] match the chunk and we're going to
+- [26:17] return C limit one because I want to
+- [26:20] show you what it actually looks like in
+- [26:22] the um
+- [26:25] here we go. So then we have a node here
+- [26:27] that's the chunk. But what's actually in
+- [26:29] that element? So one of the things we
+- [26:31] see is we've got this chunk. The chunk
+- [26:33] has an ID. We've got our our embedding
+- [26:36] which we're used to that vector. We have
+- [26:38] the text associated with it. And these
+- [26:41] are these are the important pieces. So
+- [26:43] when we think about doing a vector
+- [26:45] search, what we're doing here is you
+- [26:48] still have that vector search and vector
+- [26:50] index like you do in a vector DB, but
+- [26:52] now it's a part of the actual node. and
+- [26:55] this element that we saw before where we
+- [26:58] have this chunk. Now we can say from
+- [27:01] this particular chunk let me say let's
+- [27:04] say I do um a search on and I do some
+- [27:07] sort of a vector search on on a query.
+- [27:10] Now what I'm able to do is I'm able to
+- [27:12] from that particular chunk go to the
+- [27:15] company or go to the asset manager that
+- [27:18] owns the company or go to an extraction.
+- [27:22] So when we do this initial vector
+- [27:24] retriever, all that we're doing is a
+- [27:26] basic vector search. So if I say what
+- [27:29] are the risks that Apple faces, I create
+- [27:31] this vector retriever. Um here what I'm
+- [27:34] doing is I'm passing it the driver. So
+- [27:36] clearly we want to connect to the
+- [27:38] database. Um the vector index that we
+- [27:40] created was called chunk embeddings
+- [27:43] using the same embedder that we used to
+- [27:45] embed within the model and I want to
+- [27:47] actually return just the text from that.
+- [27:50] So this is what that retriever is built
+- [27:52] to bring back. So then when you run this
+- [27:55] um oh I don't have them run here but
+- [27:58] you'll be able to run these uh directly
+- [28:00] yourselves because everything's loaded
+- [28:01] in already. What you're going to get is
+- [28:03] you're going to get those results and in
+- [28:05] that case you're going to have um like a
+- [28:07] a very clear table of what's returned
+- [28:10] within the graph rag package. You can
+- [28:12] actually turn it back into natural
+- [28:14] language. And we can do that by doing
+- [28:16] graph rag which says okay give me the
+- [28:18] LLM run those vector retrievers and then
+- [28:21] give me those answers. Right?
+- [28:24] Where things get more interesting is
+- [28:26] when we're talking about the contextual
+- [28:28] cipher retriever. And this is where
+- [28:31] graph rag is really going to sing
+- [28:33] because what we want to be able to do is
+- [28:36] we want oh sorry we want to be able to
+- [28:39] go and traverse the graph itself. So,
+- [28:42] what does that actually end up looking
+- [28:44] like? So, we can take you to our
+- [28:47] retrievers. Let's go to working with
+- [28:49] retrievers.
+- [28:51] And um this is where you can you can
+- [28:53] actually run the retrievers yourself and
+- [28:55] you can run them in here. So, for
+- [28:57] example, um I'm creating a vector
+- [29:00] retriever. I am going to embed that and
+- [29:03] then I want to get a response back. Um
+- [29:07] the the interesting thing like I said
+- [29:10] about the graph rag is that you're not
+- [29:14] just looking at the um you're not just
+- [29:18] looking at the vector. You're looking at
+- [29:19] the vector as it ties to the other
+- [29:23] elements of the graph itself. Right? So
+- [29:26] if we look at how we actually built the
+- [29:28] graph,
+- [29:30] let's just say I want to um let me do it
+- [29:34] this way.
+- [29:38] So let's just say in our case we are
+- [29:42] looking at this contextual piece right
+- [29:45] so I want to sorry go to our advanced
+- [29:49] drag I want to be able to traverse the
+- [29:52] graph so let's just say I know that my
+- [29:56] agent is often going to be used to is
+- [30:00] has a tool and I want that tool to be
+- [30:02] able to give me back risk factors for a
+- [30:05] particular particular company. There are
+- [30:06] a number of ways you can do that. You
+- [30:08] can certainly do it by a vector search
+- [30:12] on the risk factors. But the challenge
+- [30:14] with that is if I do a vector search,
+- [30:17] one of the experiments we did with this
+- [30:18] data is we said give me all of the risk
+- [30:22] factors faced by Apple.
+- [30:25] Now the vector for Apple risk,
+- [30:29] remember it's semantic. It's not
+- [30:31] structured. So it could go into those
+- [30:33] chunks and oftentimes it would probably
+- [30:35] give you apple. But what we noticed is
+- [30:38] when we increased the K because usually
+- [30:40] in your retrievers you're you're
+- [30:42] returning a certain number of chunks or
+- [30:43] a certain number of vectors. As we
+- [30:45] increased the K, one of the things we
+- [30:47] found is it started returning vectors
+- [30:50] from Microsoft documents because maybe
+- [30:53] Apple was mentioned or something similar
+- [30:56] to Apple or similar to iPhone or
+- [30:59] something that was semantically similar
+- [31:00] was coming in. And so what we know to be
+- [31:04] true is that sometimes
+- [31:07] the vector itself isn't going to give us
+- [31:11] what the structured element that we're
+- [31:14] looking for because in this case I want
+- [31:17] to know what are the risk factors that
+- [31:20] Apple faces is my query right what are
+- [31:23] the top risk factors that Apple faces um
+- [31:25] you can see in my comments here it's
+- [31:27] like detailed search with context or why
+- [31:29] this is a bad query the reason this is a
+- [31:32] bad query is because as as I said as we
+- [31:35] increase the K as we increase the number
+- [31:38] of elements we're returning we end up
+- [31:40] not getting apple at all and so what we
+- [31:43] need to do is we need to refine how
+- [31:46] we're looking at it now in our case we
+- [31:49] happen to have extracted all those risk
+- [31:51] factors when we ran it initially we
+- [31:53] didn't we tried running it and we said
+- [31:55] oh let's go in and extract the risk
+- [31:57] factors when we build the graph so now
+- [32:00] if I want the risk factor from Apple, it
+- [32:03] becomes a straight match query. So match
+- [32:06] company where name is Apple and return
+- [32:10] all of the has risk. So it's really just
+- [32:14] this element here company has risk risk
+- [32:17] factor that then gets returned and it's
+- [32:19] really straightforward and it's lovely.
+- [32:22] But there are times when we want to have
+- [32:26] a different element, a different type of
+- [32:28] traversal.
+- [32:29] So
+- [32:31] this is one of my favorite examples
+- [32:33] especially in this data set where we
+- [32:37] look at what is actually being returned
+- [32:40] and why do we need graph. You know
+- [32:42] sometimes people will say to me well
+- [32:44] Allison if you're just running vector
+- [32:45] search I can use a vector store. And I'm
+- [32:47] like yeah if all you want is just the
+- [32:49] vectors you can absolutely use a vector
+- [32:51] store. And then somebody else
+- [32:53] says,"Well, if I'm really just looking
+- [32:55] for something really structured, say
+- [32:56] those Apple has risk or asset manager
+- [33:00] owns, um, I can just use SQL for that."
+- [33:02] I'm like, you're absolutely right. You
+- [33:04] can create a SQL tool, you can create a
+- [33:06] vector tool, but the question becomes,
+- [33:10] what happens when we need to traverse
+- [33:12] across the two, right? What do we what
+- [33:16] happens when we get to that moment? So
+- [33:18] in this particular case, a prime example
+- [33:21] of this is this query here. Which asset
+- [33:24] managers are most affected by
+- [33:26] cryptocurrency policies?
+- [33:29] I can definitely look up cryptocurrency
+- [33:32] risk as a vector search, right? I could
+- [33:36] absolutely go into those chunks and do a
+- [33:39] vector search and bring back
+- [33:40] cryptocurrency, right? No problem. I can
+- [33:44] absolutely find out which companies own
+- [33:48] or owned by particular asset managers,
+- [33:50] right? Like anything on this side, we
+- [33:53] could do a SQL query. Anything on this
+- [33:55] bit here, we could definitely do a
+- [33:57] vector. But the question was which asset
+- [34:01] managers are most affected by a
+- [34:04] cryptocurrency issue? And in this case,
+- [34:07] what we're the way that it works is we
+- [34:09] say, okay, I have a query that's based
+- [34:12] in unstructured data and is based in the
+- [34:15] vector. Right? So what I want to do is I
+- [34:18] want to go through the vector search and
+- [34:20] give me all the chunks or the K chunks
+- [34:23] that are related to this topic
+- [34:24] semantically similar. Then what I want
+- [34:27] to do is I want to find out which
+- [34:29] document it's from, which company
+- [34:32] published that document and then which
+- [34:34] asset managers own that company. And
+- [34:37] this is where building out specific
+- [34:40] tools can be really helpful. Could you
+- [34:43] have something that's really dynamic
+- [34:45] where you say, "Okay, here's the schema.
+- [34:48] Be super dynamic. Create the query based
+- [34:50] on what someone's asking." Absolutely.
+- [34:53] You could do it completely dynamically,
+- [34:56] but if you know that this is a a a
+- [35:00] structure that's going to come up a lot
+- [35:03] or something that's going to be pretty
+- [35:05] impactful if I'm building this agent to
+- [35:09] give me information about investing in
+- [35:12] asset managers based on what we've seen
+- [35:15] in these unstructured pieces, then this
+- [35:18] is a moment where I might want to create
+- [35:20] a tool.
+- [35:22] The way that we do that is with this
+- [35:24] retriever right here. And this is the
+- [35:26] piece. So if we look right here in chunk
+- [35:28] to asset manager query. One of the
+- [35:31] things you notice in the cipher
+- [35:33] statement is it starts with node and
+- [35:37] that means
+- [35:39] first it's running the vector search and
+- [35:42] then it's finding those chunks and then
+- [35:43] it says okay based on those chunks with
+- [35:46] node now
+- [35:49] make this traversal. And in this case,
+- [35:52] we're saying go from the chunk to the
+- [35:55] document to the company to the asset
+- [35:58] manager. Return to me the name of the
+- [36:01] company, the asset manager name, um you
+- [36:05] know, so asset manager in shares. And
+- [36:08] you could you could also if you wanted
+- [36:10] to also return say uh the like what is
+- [36:14] the value of what's owned, you could
+- [36:15] create you could pull that property out
+- [36:17] as well if you wanted to do a certain
+- [36:18] kind of ranking.
+- [36:20] But the key here is how can we leverage
+- [36:24] these type of retrievers to build out a
+- [36:27] set of tools that's going to be helpful
+- [36:30] for our agent.
+- [36:32] the likelihood
+- [36:34] that you have an answer or a moment or a
+- [36:39] context that is a combination of some
+- [36:42] sort of structured data and unstructured
+- [36:45] data is I've had a really hard time
+- [36:48] coming up with scenarios where that's
+- [36:50] not the case. Um, I jokingly said to
+- [36:53] someone the other day, if you're working
+- [36:55] on these systems and you're not using
+- [36:58] graph, you're probably building in some
+- [37:02] sort of technical debt. And this is why
+- [37:06] there's a lot of talking. You'll see,
+- [37:08] you know, other people from the company
+- [37:10] talking about these elements. We start
+- [37:12] talking about how do we manage memory?
+- [37:14] How do we manage context? Um there's a
+- [37:16] really great course that Andreas Koliger
+- [37:19] ABK from Neoforj just released uh with
+- [37:22] Andrew Ang on deep learning.ai and it's
+- [37:25] all about the the agent. Um we have some
+- [37:27] other folks that are working on some
+- [37:29] really interesting memory pieces. So you
+- [37:30] can definitely check out that content.
+- [37:32] But the reality is that the in order for
+- [37:37] the agent to act effectively
+- [37:41] and to create the appropriate pathways
+- [37:44] and outcomes, the context or memory is
+- [37:50] key.
+- [37:51] The context is not flat. The context has
+- [37:55] some sort of relation in it. you you
+- [37:58] know some of my areas of interest really
+- [38:00] become about tracking the agent pathways
+- [38:04] right you see different types of
+- [38:05] observability tools you see we look out
+- [38:08] for tool looping and things like that
+- [38:11] the graph is really important clearly
+- [38:15] we're showing how it's important as a
+- [38:17] tool and as a retriever but it's really
+- [38:19] important as a structure around what
+- [38:21] you're building as well so to get back
+- [38:24] to what we're talking about structured
+- [38:25] and unstructured in graph graph rag.
+- [38:28] This really is the moment where I
+- [38:31] believe that the graph sings the most as
+- [38:34] a retriever and as a tool. Um we
+- [38:37] definitely have one other thing to note
+- [38:39] is we do have the vector cipher
+- [38:41] retriever example and in this case all
+- [38:44] that we do is we say we can actually uh
+- [38:48] pass different well this is the same
+- [38:49] piece here um vector cipher retriever
+- [38:52] examples. Um yeah, this is another
+- [38:55] another example of a of something where
+- [39:00] it was what might another tool be. In
+- [39:03] this particular tool, what we're looking
+- [39:04] for is we're looking for based on that
+- [39:07] node. So based on um like in this query,
+- [39:10] I think we're looking at what are some
+- [39:12] shared risk factors. So if I wanted to
+- [39:16] know what are the risk factors shared by
+- [39:20] people who by companies who uh are
+- [39:23] impacted by a lithium shortage. So it
+- [39:25] would go to the lithium shortage or
+- [39:26] whatever my query might be and then it
+- [39:29] would go to that company and then it
+- [39:31] does another interesting traversal. It
+- [39:33] says go to that company find all the
+- [39:36] risks that it faces and then show me all
+- [39:39] the other companies that face that same
+- [39:41] risk. Right? So this might be a tool
+- [39:44] where you're trying to look for, you
+- [39:46] know, clusters of companies or maybe a
+- [39:50] cascading impact or understanding if one
+- [39:54] thing happens and this company is
+- [39:57] affected, what are some of those other
+- [39:58] pieces. So we've got an example of what
+- [40:00] that return looks like as far as the
+- [40:03] actual graphic. And in this cases what
+- [40:05] we're seeing is we've we see these are
+- [40:06] the different companies and this is
+- [40:09] where these are the risks that they
+- [40:11] co-share right it's always really
+- [40:15] interesting to consider
+- [40:18] what is the optimal answer and what
+- [40:22] information do we need for that agent to
+- [40:25] make a decision for that final output
+- [40:28] after that agentic traversal really in
+- [40:32] any given moment
+- [40:34] If you have had a moment where you said,
+- [40:36] "Oh, I wish my agent knew X or I wish I
+- [40:41] could pass this along." Imagine if you
+- [40:45] were able to pass not just the context
+- [40:48] in a you know you know maybe a like a a
+- [40:53] written context but imagine what's
+- [40:56] possible if you were able to pass this
+- [41:00] graph of interconnections as context to
+- [41:04] your agent.
+- [41:06] Maybe it's this information and you know
+- [41:10] the previous few tools. There's any
+- [41:12] number of ways that you can evolve
+- [41:16] what's in this graphic form and you pass
+- [41:19] it through as a JSON, right? You can
+- [41:21] pass you can pass this like very clearly
+- [41:23] through as a JSON. As we noticed when we
+- [41:26] were looking um Oh, wait. No, it's not
+- [41:28] there. When we look at what those
+- [41:30] outputs are when we run the queries, you
+- [41:32] know, you can you can have them come
+- [41:34] through in in really consumable ways.
+- [41:37] But this is what I really want you to be
+- [41:38] thinking about. what is it that we can
+- [41:41] pass through that then becomes helpful.
+- [41:44] So in this particular workshop what we
+- [41:47] what we do is we then go through so we
+- [41:49] showed you a few of these different
+- [41:50] retrievers. Um this is a great retriever
+- [41:53] too where we take the schema. So you
+- [41:58] actually get the schema from what you've
+- [41:59] built in the database. We pass that
+- [42:02] schema into text to cipher and then from
+- [42:05] here we can say okay what are the
+- [42:07] company names of companies owned by
+- [42:09] black rockck and then we'll actually
+- [42:10] create the cipher query for you. So then
+- [42:13] you can go ahead and actually execute
+- [42:15] it. Sometimes folks will use this inside
+- [42:18] of um building out a node or any number
+- [42:21] of different ways that you can you can
+- [42:23] create the text to cipher. But in the
+- [42:26] workshop and what we show you is we show
+- [42:28] you a few different notebooks. The first
+- [42:29] one starts with a basic lang chain agent
+- [42:33] and um you know it it creates this
+- [42:36] reasoning and acting agent right and the
+- [42:39] first thing that we do is again you
+- [42:41] connect it to your instance but really
+- [42:43] what we're looking to do is we create
+- [42:44] this first tool which is get the graph
+- [42:46] database schema right so in our case
+- [42:49] we're saying the context is equal graphs
+- [42:51] schema and the graph really is in our
+- [42:54] case you you'll notice that we're using
+- [42:56] um pieces that are already built into
+- [42:57] lang chain and langraph
+- [42:59] in this particular element. So we've got
+- [43:02] the create react agent and what we're
+- [43:05] doing is we're we're saying okay get get
+- [43:08] me the schema of the graph and that
+- [43:10] becomes the first tool and then you can
+- [43:12] say say summarize the schema of the
+- [43:14] graph and then it's going to give that
+- [43:17] back to you. Then what we do in notebook
+- [43:20] number two is we take that first tool
+- [43:21] that we built but now we're going to
+- [43:23] expand it and add in a new tool. So in
+- [43:25] this case, we're saying let's add in
+- [43:27] this retrieval query tool where we want
+- [43:29] to get the name of the company from that
+- [43:33] from that vector. I mean it could be any
+- [43:35] of the retrievalss that we shared
+- [43:37] earlier where there's a traversal of
+- [43:39] some kind. But really what we want to
+- [43:41] show is we want to show you how do you
+- [43:44] start to build out these tools in this
+- [43:46] lang chain langraph um scenario. So in
+- [43:50] this case we've got it really
+- [43:51] straightforward. We've got this match
+- [43:53] element match the node and we're showing
+- [43:55] the traversal. This can get more complex
+- [43:58] like we saw in those other retrievers.
+- [44:00] And now what we're going to do is we're
+- [44:01] going to say okay return thi return this
+- [44:04] way order by descending. And so this is
+- [44:06] what's going to be coming back from the
+- [44:08] retrieval query. Um you know we've got
+- [44:11] the vectors. So now what we're going to
+- [44:13] do is we're going to create a new tool
+- [44:15] called retrieve financial documents. And
+- [44:17] in this tool what we're saying is we're
+- [44:19] going to chunk the vector. We're going
+- [44:20] to do the similarity search, right? The
+- [44:22] K is three. And now we're adding we're
+- [44:25] adding this piece. So give me back those
+- [44:27] those vectors. Give me back those
+- [44:29] chunks. So this is going to be pretty
+- [44:31] straightforward here. And we're
+- [44:33] returning the context. So now we've
+- [44:35] started out with getting the model. And
+- [44:37] now we can also get add in this these
+- [44:39] new tools to our tool list. Right? So we
+- [44:42] had get schema and now we can actually
+- [44:44] retrieve the documents from the chunk.
+- [44:46] And then in the final one, we're looking
+- [44:48] at the text to cipher, which we talked a
+- [44:51] little bit about already. And the new
+- [44:53] tool that we're adding here is we're
+- [44:55] saying, okay, generate a cipher template
+- [44:58] to query the graph database only use the
+- [45:00] provided relationship types. We're
+- [45:02] giving it like some pretty clear
+- [45:04] direction because one of the things that
+- [45:06] we know is that we've we are we've
+- [45:09] already built out how we pull in that
+- [45:10] schema and now we're adding in the
+- [45:12] schema into whatever this cipher
+- [45:15] template is. So now we've got the cipher
+- [45:17] prompt. We're passing it the schema and
+- [45:20] the question and then we're setting
+- [45:22] we're setting the template and now we've
+- [45:24] actually created this new graph cipher
+- [45:28] QA chain and we're adding in these
+- [45:30] elements. Um a thing to note here uh
+- [45:33] Martin who I adore who's one of my
+- [45:35] co-workers put this piece in and he's
+- [45:37] like yes just be aware you are trusting
+- [45:39] the generation of cipher to an LLM. It
+- [45:42] may generate invalid cipher queries. So
+- [45:44] please be mindful as we have all learned
+- [45:46] from public discourse, you know, you do
+- [45:49] not want to give your LLM generated
+- [45:52] queries free reign over your production
+- [45:54] code. So just a friendly reminder as
+- [45:56] always. But ultimately what we get to is
+- [45:59] we now have this agent built out where
+- [46:01] it has the get schema tool, the retrieve
+- [46:04] documents tool, and the querying of the
+- [46:06] database tool. So when you run this
+- [46:09] application, you'll be able to leverage
+- [46:11] all of these tools. The really the key
+- [46:14] to all of this for us is that what we
+- [46:17] want you to understand is the likely as
+- [46:21] I mentioned the likelihood that what is
+- [46:23] best for your agent is some sort of
+- [46:27] connection and relation is very very
+- [46:30] high.
+- [46:32] Our goal and my goal in this talk today
+- [46:35] is to get you to see what's possible,
+- [46:38] how we produce and connect structured
+- [46:40] and unstructured data and then how we
+- [46:43] then make that available as an example
+- [46:45] tool within the set itself.
+- [46:49] As I mentioned this particular workshop
+- [46:51] and the details where you can reproduce
+- [46:54] it on your own is available at graph
+- [46:56] academy. A thing to know when you go to
+- [46:59] graph academy is that this particular
+- [47:01] workshop is not it's publicly available
+- [47:04] if you have the URL but you will not see
+- [47:08] it listed. So if you want to go through
+- [47:10] this what I would say is if you have
+- [47:12] questions feel free to reach out to me
+- [47:14] on LinkedIn. I am highly available and
+- [47:17] try to be as responsive within a day or
+- [47:19] two as I can be. But
+- [47:21] graphacademy.comcoursesworkshop-genai.
+- [47:25] I don't know if somebody can drop that
+- [47:27] in the chat, but just know this is here
+- [47:29] and it's available to you. I am
+- [47:32] available um like I said via LinkedIn.
+- [47:35] If you need anything, feel free to join
+- [47:37] the community.j.com.
+- [47:40] Uh we have a discord channel that is
+- [47:42] also very active and I really encourage
+- [47:46] you take a look at Andreas's course with
+- [47:48] Andrew Ang at deep learning and dive
+- [47:51] into how you can improve your agents not
+- [47:55] just with structured and unstructured
+- [47:57] data but what is possible when we add
+- [48:00] this connected context to the variety of
+- [48:02] elements along your tool set. Again
+- [48:06] thank you all so much. I really
+- [48:08] appreciate you. I appreciate your
+- [48:09] understanding of my lack of a of a of a
+- [48:13] face for you today, but please reach out
+- [48:15] with any questions you have any time.
+- [48:18] Raja, thank you so much for having me
+- [48:20] and I wish everybody good luck on the
+- [48:22] rest of your journeys throughout the
+- [48:24] course today and the talks today and
+- [48:26] your agentic moments moving forward.
+- [48:29] >> Okay. Uh thank you so much Allison. Um
+- [48:33] it was great having you. Um, do you want
+- [48:35] to So, we have a few some questions in
+- [48:38] the chat. Uh, do you want to handle that
+- [48:40] or uh
+- [48:41] >> Yeah, sure. Let me take a quick peek.
+- [48:43] Um, okay. There's the forum.
+- [48:46] Okay.
+- [48:47] >> And also, I mean, so someone pointed out
+- [48:50] maybe since it's a new laptop sometimes
+- [48:52] they have those sliders on your uh your
+- [48:55] camera maybe.
+- [48:55] >> You know, I tried the slider and then it
+- [48:58] ended up looking like where is it? Uh,
+- [49:00] let me turn my video back on. when the
+- [49:02] slide I tried the slider and this is
+- [49:05] what happens when the slider is open.
+- [49:07] So, for some reason I'm still not here
+- [49:10] then.
+- [49:10] >> Yeah. Um Oh, thank you so much for
+- [49:13] putting in the the source to the
+- [49:15] workshop. I really appreciate that. Um
+- [49:18] where are my Q&A? Oh, so many Q&A. Let's
+- [49:21] see.
+- [49:23] >> And I can help you filter them as well.
+- [49:25] I mean, maybe you can take a look and
+- [49:26] maybe I can also uh
+- [49:28] >> Okay, so I'm going to start at the
+- [49:29] bottom and move my way back up. So, how
+- [49:31] is the risk factor determined by domain
+- [49:33] knowledge expert or is this automated?
+- [49:35] The way that it works with when you use
+- [49:37] the graph rag package is that you when I
+- [49:40] set up that Python dictionary of the
+- [49:42] entities I'm looking for, that's the
+- [49:44] information I'm giving the LLM to go in
+- [49:47] and find those entities in the
+- [49:48] extraction. So the risk factors are
+- [49:51] determined by the LLM who's gone in
+- [49:54] which has gone into the documents to
+- [49:56] find what it deems risk factors and
+- [49:59] create those entities from there. Um do
+- [50:02] you get a certificate for the graph
+- [50:03] academy courses? You do get completion
+- [50:05] certificates for graph academy. We also
+- [50:08] have you can get uh certifications. We
+- [50:11] have two certifications. one as a graph
+- [50:14] uh you have a Neo4j certification then
+- [50:17] there's also a Neo4j data science and
+- [50:19] analytics certification so know about
+- [50:21] that so if you don't have enough
+- [50:23] confidence in the LLM generated queries
+- [50:25] to run in a production environment
+- [50:27] doesn't that nullify the whole point of
+- [50:28] LLM as a tool I'm not saying that
+- [50:30] they're not that we don't have
+- [50:32] confidence but just as a general caveat
+- [50:34] we just always like to say you know I I
+- [50:38] don't want to be liable for you know uh
+- [50:41] an LLM query But honestly most of the
+- [50:44] time they are they are very good. Um but
+- [50:47] you know it's more about don't have the
+- [50:49] LLM you know delete tables things that
+- [50:52] we know already. Um from YouTube graph
+- [50:55] vector one use cases to make our search
+- [50:58] efficient. Yes. So the vector is very
+- [51:00] helpful in making it efficient. You are
+- [51:03] using cosine similarity to get as close
+- [51:05] to that semantic origin as possible. So
+- [51:08] it definitely will increase the
+- [51:10] efficiency in getting to that moment for
+- [51:12] sure.
+- [51:14] Um
+- [51:16] yeah let's see using graph rag I use
+- [51:19] only neo forj during retrieval or do I
+- [51:21] need a vector data store? No you do not
+- [51:23] need a vector data store. The vector is
+- [51:26] that embedding and that vector is one of
+- [51:28] the properties on the chunk node. So you
+- [51:30] do not need a separate uh vector data
+- [51:33] store. And uh let's see the same could
+- [51:37] be direct. Yep. talked a little bit
+- [51:38] about how some of it is in you could go
+- [51:41] traditional or live. Um yes, there real
+- [51:45] yes there are real life implementations
+- [51:47] of MCP. I would say go to Neo4j look up
+- [51:50] our MCP protocols. Michael Hunger um
+- [51:54] who's our head of innovation is our VP
+- [51:56] of innovation has done some really
+- [51:58] incredible work with our team there. Um
+- [52:00] study materials for agentic AI with
+- [52:02] examples there. I don't know if the
+- [52:05] Graph Academy Agentic courses are out. I
+- [52:08] would say if you're looking for agents
+- [52:10] right now, I would go to that deep
+- [52:12] learning course. Um, I would I would do
+- [52:15] that. That's the most recent release
+- [52:17] that we have is with deep learning AI.
+- [52:22] Yes, not all companies share the same
+- [52:23] risk. Some are common. There is a slight
+- [52:25] distinction.
+- [52:27] Does a full course renei explain basics
+- [52:29] like what is rag? Yes, Mustafa.
+- [52:32] Excellent question.

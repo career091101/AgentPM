@@ -1,0 +1,868 @@
+---
+title: "Did chat GPT just kill Google Chrome?"
+video_id: "FXgOgAJrhis"
+video_url: "https://www.youtube.com/watch?v=FXgOgAJrhis"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Did chat GPT just kill Google Chrome
+  OpenAI just dropped something huge, a brand new AI powered web browser called ChatGpt Atlas
+  And if what they showed today actually works, it could completely change how we use the internet
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, LLM"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:13:39+09:00"
+---
+
+# Transcript: FXgOgAJrhis
+
+- URL: https://www.youtube.com/watch?v=FXgOgAJrhis
+- Retrieved at: 2025-12-30T10:13:39+09:00
+
+## Text
+
+- [00:00] Did chat GPT just kill Google Chrome?
+- [00:02] OpenAI just dropped something huge, a
+- [00:05] brand new AI powered web browser called
+- [00:07] ChatGpt Atlas. And if what they showed
+- [00:10] today actually works, it could
+- [00:12] completely change how we use the
+- [00:14] internet. In their live stream this
+- [00:15] morning, Sam Alman and the OpenAI team
+- [00:17] basically said
+- [00:18] >> tabs were great, but we haven't seen a
+- [00:19] lot of browser innovation since then.
+- [00:21] And now they're claiming Atlas is that
+- [00:23] next big leap. A browser built entirely
+- [00:25] around chat GPT that can literally
+- [00:27] browse, click, type, and do tasks for
+- [00:30] you autonomously. It can summarize web
+- [00:32] pages, edit your emails right in Gmail,
+- [00:34] remember what you've looked at across
+- [00:36] the web, and even take action for you
+- [00:38] using their agent mode. Meaning, ChatGpt
+- [00:40] can literally move your mouse, type on
+- [00:42] your keyboard, and perform online tasks
+- [00:45] for you. And this isn't just Chat GPT in
+- [00:47] the sidebar, either. It's actually chat
+- [00:49] GPT running the browser itself. Now,
+- [00:52] this all sounds amazing on paper, but
+- [00:54] things like this never quite live up to
+- [00:56] the hype on day one. So, in this video,
+- [00:58] I'm going to break down everything that
+- [00:59] OpenAI announced. We're going to test
+- [01:01] Atlas ourself, see how it actually
+- [01:03] performs, and then I'll share my honest
+- [01:05] first impressions. So, by the end of
+- [01:06] this video, you'll know if Atlas really
+- [01:08] is the future of browsing or if it's
+- [01:10] just another flashy AI demo that wasn't
+- [01:12] quite ready for prime time. All right,
+- [01:14] so let's dive into what makes ChatGptd
+- [01:16] Atlas so different and whether Chrome
+- [01:19] should actually be worried.
+- [01:22] So this is actually Atlas on the screen
+- [01:24] right now. And well, it looks like most
+- [01:27] other browsers. You've got tabs across
+- [01:29] the top just like you normally would.
+- [01:31] You've got all of your bookmarks. There
+- [01:33] was a one-click option to import my
+- [01:35] bookmarks and my history from Chrome.
+- [01:38] So, it pulled in all of my existing
+- [01:40] bookmarks and it pulled in all of my
+- [01:42] browsing history from Chrome as well
+- [01:45] because it has a really cool memory
+- [01:47] feature, which we'll talk about in a
+- [01:48] minute. But on the surface, pretty much
+- [01:50] everything you'd expect in a browser. If
+- [01:52] I come up to my settings up here, you
+- [01:54] can see I've got my bookmarks tab. I've
+- [01:56] got a downloads tab. We can install
+- [01:59] extensions. I'm assuming these are
+- [02:02] Chromium extensions. So, the same
+- [02:04] extensions that would work on Chrome, I
+- [02:06] imagine, will also work on here. I'm not
+- [02:09] 100% positive on that yet. It imported
+- [02:11] all of my passwords from my Google
+- [02:13] keychain. So, it should automatically
+- [02:16] fill passwords for me, just like Chrome
+- [02:17] would. And it has an incognito window.
+- [02:20] So, if you want to do something in your
+- [02:23] browser that you don't want to be saved
+- [02:25] in the history, well, that's what
+- [02:26] incognito is for. At the time of this
+- [02:28] recording, ChatGpt Atlas is available
+- [02:31] for everybody worldwide. However, it's
+- [02:35] only available on Mac on launch day with
+- [02:37] Windows and a mobile version coming
+- [02:39] soon. It's also got an agent mode, which
+- [02:42] we will talk about and test in a few
+- [02:44] minutes here, but that agent mode is
+- [02:45] currently only available for plus and
+- [02:47] pro users. So, you have to be on the $20
+- [02:49] a month or $200 a month plan to be able
+- [02:51] to use the agent feature. I'm not going
+- [02:53] to bury the lead here. If you want to
+- [02:55] download ChatgPT Atlas and use it
+- [02:57] yourself, assuming you're on a Mac, you
+- [02:59] can find it over at
+- [03:01] chatgpt.com/atlas/getstarted.
+- [03:05] So unlike normal chatgpt launches, we
+- [03:08] don't have to wait for some roll out
+- [03:09] period to get access. You can grab it
+- [03:12] right now today. Now that we've talked
+- [03:13] about what's the same and how to access
+- [03:15] it, here's what's new about ChatGpt
+- [03:18] Atlas. Again, the whole thing is powered
+- [03:20] by ChatGpt. So if I open up a new tab
+- [03:23] here, you can see it directly opens me
+- [03:26] up into a chat GPT window where I can
+- [03:28] chat. Similar to being logged into chat
+- [03:30] GPT itself, we can select our models up
+- [03:33] here in the top left. You'll have access
+- [03:35] to whatever models your plan gives you
+- [03:37] access to. And our URL bar here is
+- [03:41] actually also doubling as a chatgpt bar.
+- [03:45] So I can give it a URL like if I say go
+- [03:47] to futuretools.io,
+- [03:49] io, it will go to the website just like
+- [03:51] you would expect it to. However, if I
+- [03:52] was to ask it a question like, "How many
+- [03:55] Rs are in the word strawberry?" Well, it
+- [03:58] will open up the response inside of a
+- [04:00] chat GPT window. And luckily, it got it
+- [04:03] right. This box also replaces search for
+- [04:06] you. So, let's say I want to search uh
+- [04:09] best taco shops in San Diego. You can
+- [04:13] see it doesn't use Google. It's got its
+- [04:16] own search and it's using AI to
+- [04:18] recommend great taco shops in San Diego.
+- [04:21] But it also added these tabs across the
+- [04:23] top similar to if you were using a
+- [04:26] Google search. So we have our home which
+- [04:28] is the AI response that it gave us with
+- [04:31] its answers. But then we also have more
+- [04:34] typical web search results like you'd
+- [04:36] see in Google if I click on the little
+- [04:38] search tab up here. We've also got image
+- [04:40] results very similar to if you were to
+- [04:43] search Google and click on the images
+- [04:44] tab. We've got video results, also very
+- [04:47] similar to if you were to click on the
+- [04:48] video results in Google. And we have
+- [04:50] news results. Again, kind of the same
+- [04:53] types of tabs you would have if you had
+- [04:54] just done a Google search. And this
+- [04:56] search can be kicked off by typing it
+- [04:58] right up here in your URL bar or by
+- [05:00] opening a new tab and typing it into the
+- [05:03] chat GPT bar. You can also use tools
+- [05:06] with chat GPT just like you can in the
+- [05:08] normal chat GPT platform. If I click on
+- [05:10] the plus, you can see down here we've
+- [05:12] got the option to turn on any of these
+- [05:15] tools, plus all of the various
+- [05:17] connectors that you've integrated. So,
+- [05:19] I've set up Canva, Figma, and Spotify so
+- [05:21] far. And if I want to add more tools or
+- [05:24] connectors, I seemingly need to do it
+- [05:27] from the ChatgPT website. So, if I go to
+- [05:29] chatgpt.com
+- [05:31] and then use our settings as normal
+- [05:33] here, I can add more apps and connectors
+- [05:36] that I assume would pop up now in our
+- [05:39] chatgpt atlas browser. I didn't see the
+- [05:41] option to add these connectors in the
+- [05:43] browser settings, so it seems like you
+- [05:45] have to do it in chat GPT, but feel free
+- [05:48] to correct me if I'm wrong in the
+- [05:49] comments. They also added this ask chat
+- [05:51] GPT button to the top right of the
+- [05:53] browser. And if I click it, it will open
+- [05:55] a new right-hand sidebar that allows me
+- [05:58] to use chat GPT. But this version of
+- [06:00] chat GPT here has the context of what's
+- [06:03] going on in the browser. It's got that
+- [06:05] article pulled in. So it can read this
+- [06:08] article and respond based on what it
+- [06:11] sees here. So if I was to say something
+- [06:13] like summarize this article into bullet
+- [06:16] points, it will read the article and
+- [06:18] then give me a concise bullet point
+- [06:21] summary of Chad GPT atlas here. For
+- [06:23] whatever reason, it feels a little bit
+- [06:25] slower than if I was using it inside of
+- [06:27] chat GPT directly. However, that could
+- [06:30] just be a case of, well, they launched
+- [06:32] it today and a lot of people are using
+- [06:34] this, so their GPUs are currently on
+- [06:37] fire. Maybe that could be why it's going
+- [06:39] slow and it could speed up over time as
+- [06:42] some of the hype dies down and as they
+- [06:44] ramp up some of the GPUs over at OpenAI.
+- [06:47] Some of you may know that I'm a bit of a
+- [06:48] car enthusiast. So, I decided to see if
+- [06:50] I could make a fulllength high-quality
+- [06:52] car commercial completely with AI. Meet
+- [06:55] Dreo.
+- [06:56] >> At Drio, we take testing seriously.
+- [06:58] >> This car company doesn't actually exist.
+- [07:00] Neither does any of this footage, but
+- [07:02] this ad looks real. And here's the
+- [07:04] twist. I made the entire thing using
+- [07:06] Invido powered by OpenAI's Sora 2. This
+- [07:09] is huge because normally Sora 2 only
+- [07:11] creates 10 to 15 second watermarked
+- [07:13] clips and it's currently only available
+- [07:15] in the US and Canada, but Nvidia is one
+- [07:17] of the only official partners to
+- [07:19] integrate Sora 2 directly. So now anyone
+- [07:21] anywhere in the world can make a
+- [07:23] fulllength cinematic AI video with no
+- [07:26] watermark. It's as easy as prompt to
+- [07:28] video. And if I want to change
+- [07:30] something, I can just type add in a few
+- [07:32] close-up shots of the car and there you
+- [07:33] have it, a cinematic car ad that looks
+- [07:35] like something I'd see on my TV. Nvidia
+- [07:37] is building a full-fledged production
+- [07:39] team all in one platform. They're not
+- [07:41] just ending with Sora 2 either. They're
+- [07:43] also utilizing Google's Nano Banana and
+- [07:45] V3 models to handle everything from
+- [07:47] scripting and voiceover to cuts, sound,
+- [07:50] and pacing.
+- [07:51] >> Sometimes too seriously.
+- [07:53] >> So whether you're making ads, short
+- [07:55] films, or social content, you can now
+- [07:57] create milliondoll looking videos from a
+- [07:59] single prompt. Try it free at invido.io.
+- [08:02] or if you're serious about video
+- [08:04] creation, upgrade to the generative plan
+- [08:06] for full Sora 2 access. Thank you so
+- [08:09] much to Nvidia for sponsoring this
+- [08:10] portion of today's video. Now, let's get
+- [08:12] back to it. Now, one of the things that
+- [08:13] I believe is one of the most unique
+- [08:15] features about this new browser is the
+- [08:17] fact that it remembers everything. It
+- [08:19] remembers your past chats. It remembers
+- [08:21] where you browsed on the web and what
+- [08:23] you were doing. If you don't want it to
+- [08:25] do that, use incognito mode. Otherwise,
+- [08:27] it remembers everything. So, it can help
+- [08:29] you find stuff that you were doing
+- [08:31] previously. So, for example, let me go
+- [08:33] ahead and start a new chat here. And I'm
+- [08:36] going to say something like, "Yesterday,
+- [08:38] I was looking at some knowledge
+- [08:40] management tools, but I can't remember
+- [08:42] what they were. Please help." Now,
+- [08:44] because it imported all of my history
+- [08:46] over from Chrome, it should actually
+- [08:49] know the history of pages I was looking
+- [08:51] at. So, let's see what it does when I
+- [08:53] give it that prompt. You can see it says
+- [08:55] searching browser memories. I actually
+- [08:57] forgot to remove the introducing chat
+- [08:59] GPT article. So, I think it started by
+- [09:02] using that as context. Realized that uh
+- [09:04] that wasn't what I was looking for and
+- [09:06] then ignored the fact that this was
+- [09:07] added. And look, I checked your browsing
+- [09:09] history for pages related to knowledge
+- [09:10] management tools from yesterday. And
+- [09:12] here's what you looked at. Lazy, a
+- [09:14] capture tool for knowledge, Omnibox, an
+- [09:16] AI knowledge companion, and N8N, an
+- [09:19] automation platform that can also be
+- [09:20] used for knowledge workflows. The one I
+- [09:23] was thinking of was Lazy, and that's
+- [09:25] what it brought up as the first option.
+- [09:27] It says you also viewed future tools and
+- [09:29] a notion ad schedule doc which not
+- [09:32] relevant but it did find the exact
+- [09:35] answer I was looking for by looking in
+- [09:37] my history for me. That to me is really
+- [09:39] powerful. How often have you read an
+- [09:41] article and been like that's really
+- [09:42] interesting. And then you go back and
+- [09:44] search through your browser history and
+- [09:46] can't find that article again for some
+- [09:48] reason. Now this little browser chat
+- [09:49] will help you with that kind of thing.
+- [09:51] As a quick side note, if you don't want
+- [09:52] that feature turned on at all, you can
+- [09:55] actually turn it off. If you come up to
+- [09:56] your profile, go to settings, click on
+- [09:58] personalization, and you can see it's
+- [10:01] got referenced saved memories. You can
+- [10:03] turn that off. It's also got reference
+- [10:05] chat history, you can also turn that
+- [10:07] off. Reference browser memories, you can
+- [10:09] turn that off. So, if you don't want any
+- [10:12] of this information to be saved in your
+- [10:14] browser, you can turn all of that off.
+- [10:16] As another side note, since we're
+- [10:18] talking about sort of security and
+- [10:19] privacy, if you click on data controls
+- [10:21] and you don't want any of your
+- [10:23] information being sent back to OpenAI,
+- [10:25] turn off the improve the model for
+- [10:27] everyone. If this is turned on, you can
+- [10:30] see it says allow your content to be
+- [10:31] used to train our models, which makes
+- [10:33] chat GPT better for you and everyone who
+- [10:35] uses it. Personally, I leave it on. It
+- [10:37] doesn't bother me, but I do understand a
+- [10:39] lot of people want nothing being sent
+- [10:41] back to chat GPT. So, if that's you,
+- [10:44] make sure you have that turned off. We
+- [10:45] can also use this chat tool to compare
+- [10:47] this to other products. So for example,
+- [10:50] how does chatgpt atlas compare to
+- [10:54] Perplexity
+- [10:56] Comet, which is Perplexity's version of
+- [10:58] an AI browser? We can see that it's
+- [11:00] actually searching the web and it's
+- [11:02] going to read the article that's on this
+- [11:03] website here and give us a good
+- [11:05] comparison because well, it searched the
+- [11:07] web about Perplexian Atlas and it had
+- [11:10] access to this article we were looking
+- [11:11] at. And here we go. We've got an
+- [11:12] overview of each. Here's an overview of
+- [11:14] chatgpt atlas. Here's an overview of
+- [11:16] Comet. And then it gave us a sideby-side
+- [11:18] comparison, which is kind of hard to
+- [11:20] read, but we can expand this out if we
+- [11:22] want and have a sort of sidebyside split
+- [11:25] screen with chatgpt in our browser.
+- [11:27] Seemingly the agent mode inside of chat
+- [11:30] GPT is a little bit more robust than
+- [11:32] perplexities, but I imagine that's
+- [11:34] temporary. There's also a bigger focus
+- [11:36] on memory with chatgpt over comet. And
+- [11:39] here's how it summarized it. Atlas is
+- [11:40] chat first, JGBT native, broad user
+- [11:42] base, tighter alignment if you're
+- [11:43] already in OpenAI's ecosystem. Comet is
+- [11:45] more research first, tab/contextrich,
+- [11:48] earlier to market, but slightly riskier
+- [11:49] in terms of early stage issues. So
+- [11:51] that's kind of its tlddr summary that it
+- [11:53] gave me. Let's go ahead and shrink our
+- [11:56] sidebar up again. And as OpenAI
+- [11:58] explained it, this sidebar is mentioned
+- [12:00] to just be like a companion. As you're
+- [12:02] browsing the web, you can ask questions
+- [12:03] about what you're looking at, do
+- [12:05] additional searches in your sidebar to
+- [12:06] make comparisons, things like that. It's
+- [12:08] just supposed to be a helpful assistant
+- [12:11] that's always available. If you don't
+- [12:13] like it open, you just close it by
+- [12:14] clicking this button and it closes for
+- [12:16] you. One interesting thing I noticed is
+- [12:18] that some pages don't actually have this
+- [12:21] ask chat GPT button on it. For example,
+- [12:23] this getting started page where you can
+- [12:25] download Atlas, it disappeared from the
+- [12:28] browser. So, I'm not quite sure what
+- [12:30] determines whether or not that button
+- [12:32] shows, but I have noticed that on some
+- [12:34] pages it doesn't appear, like this one
+- [12:37] specifically. So memory in my opinion is
+- [12:39] one of the big game changers where you
+- [12:41] can just chat with your browser's
+- [12:43] history to find something. But the other
+- [12:45] big gamecher, the big sort of reveal
+- [12:47] that will probably have most people
+- [12:49] excited is the agent mode. The ability
+- [12:51] to let your browser just do things on
+- [12:54] your behalf. Click around, type things
+- [12:55] in, do searches for you. You tell it
+- [12:58] what you want it to do and it will just
+- [12:59] go off and do that stuff. That's the
+- [13:02] promise at least. Again, as I mentioned
+- [13:04] earlier, this portion, the agent mode,
+- [13:07] is only available on one of the paid
+- [13:08] plans, plus or pro. But it's also the
+- [13:12] feature that I think is the coolest, but
+- [13:14] also has the most sort of red flags,
+- [13:17] potential security issues, potential to
+- [13:20] cause problems. We'll see. But let's go
+- [13:22] ahead and test it, and then maybe we'll
+- [13:23] talk about some of the issues that this
+- [13:26] might present after we test it. So, I'm
+- [13:28] going to open up Ask ChatgPT again on
+- [13:30] the left sidebar. I'm going to create a
+- [13:32] new chat. And then you can see that it
+- [13:34] gives us some suggestions here. So we
+- [13:37] can summarize this article by just
+- [13:39] clicking one button. We don't even need
+- [13:40] to type a prompt or we can tell it to
+- [13:42] help me learn, you know, through step by
+- [13:44] step what's going on on this page. But
+- [13:46] then you can see we've got our agent
+- [13:48] mode. We can click this or if I click
+- [13:50] this plus, you can see agent mode is
+- [13:52] available under this drop down, drop.
+- [13:56] Yeah, it's there. So let's go ahead and
+- [13:58] click agent mode. And we can see down
+- [14:00] here we've got some options. So we're
+- [14:02] giving it the ability to click around on
+- [14:04] our behalf. So we can click this button
+- [14:06] here and we can see that it does have
+- [14:08] access to web search. If I turn on cloud
+- [14:11] browser, it's going to create a new
+- [14:13] browser and browse for us. Like that's
+- [14:15] the old agent mode. Basically, if we
+- [14:18] wanted to actually use this browser that
+- [14:19] we're in, we turn off cloud browser.
+- [14:22] Just keep in mind if you wanted to use
+- [14:24] Gmail, Google calendar, Google Drive,
+- [14:26] stuff like that, you need to have the
+- [14:27] cloud browser on. However, it should
+- [14:30] still actually be able to access that
+- [14:32] stuff, the Google calendars and whatnot
+- [14:34] because you can see here we've got this
+- [14:35] little key icon. If I click on this, we
+- [14:38] can tell it to either be logged in or
+- [14:40] logged out to our various accounts. So,
+- [14:41] if I'm logged in to Google on this
+- [14:44] browser, well, chat GPT is going to see
+- [14:47] the loggedin version. So theoretically,
+- [14:48] it should be able to go to Google
+- [14:50] Calendar for me since it's logged into
+- [14:52] Google Calendar. If I have this as
+- [14:54] logged out, it won't be able to do
+- [14:56] anything on my behalf on any sites that
+- [14:58] I need to be logged in for. So let's
+- [15:00] just give it a test. Let's see. Because
+- [15:01] I have it as logged in, let's try asking
+- [15:04] it what's on my Google calendar for next
+- [15:07] week. And we can see when I give it a
+- [15:09] prompt, it actually gives us a quick
+- [15:11] disclaimer. It may introduce risk. If
+- [15:14] you're logged in, chat GPT can access
+- [15:15] your logged in sites, making it faster
+- [15:17] to complete tasks. But there is
+- [15:20] potential that people can do things with
+- [15:22] their website that could screw up your
+- [15:24] chat GPT. You know, prompt injection
+- [15:26] attacks and things like that. An example
+- [15:28] of that might be like if a website has
+- [15:31] prompt instructions on it like ignore
+- [15:33] all previous instructions and do XYZ
+- [15:36] instead. There's a chance that the agent
+- [15:38] mode might go and read that website and
+- [15:41] follow the instructions that are in the
+- [15:43] prompt that were written on that
+- [15:44] website. That would be an example of
+- [15:46] like a prompt injection attack. So, you
+- [15:48] do need to be careful about that kind of
+- [15:50] thing. But I'm going to go ahead and do
+- [15:51] start logged in cuz I don't think Google
+- [15:54] Calendar is going to attempt a prompt
+- [15:56] injection on me. We can see now we have
+- [15:59] a mouse on our computer. My mouse is
+- [16:02] this right mouse. You see it moving off
+- [16:03] to the right here. But there's also a
+- [16:05] cursor in the center of the screen.
+- [16:06] That's the browser's mouse doing its
+- [16:09] thing. It's opening Google Calendar. Now
+- [16:11] we can see down at the bottom it's
+- [16:13] thinking. We also have the option to
+- [16:14] take control at any time. It's now
+- [16:17] looking at my calendar and it is logged
+- [16:19] in. I didn't need to actually use a
+- [16:21] Google calendar connector. Now I am
+- [16:22] blurring out some of the details on my
+- [16:24] calendar, but you can see that it's
+- [16:26] looking at my calendar for what I've got
+- [16:28] next week. It's a busy week. I'm at
+- [16:30] TechCrunch Disrupt and I've confirmed in
+- [16:32] the calendar view. Okay, so it's just
+- [16:34] thinking through over here. Now it's
+- [16:35] done thinking and it tells me what's
+- [16:37] going on on my calendar for each day
+- [16:38] next week. Unfortunately, it did work
+- [16:41] and I can see everything that's on my
+- [16:43] calendar for next week, but for privacy
+- [16:45] reasons, uh, I'm having my editor blur
+- [16:47] this section out. And once it's done, it
+- [16:50] just handed control back to me. You can
+- [16:52] see that the browser's mouse disappeared
+- [16:54] and now it's my mouse again. I can do
+- [16:56] whatever I want over here. They also
+- [16:57] claim that this agent mode can go and do
+- [17:00] some shopping on your behalf. I need
+- [17:02] some toilet paper. Go buy me some on
+- [17:06] Amazon. And it's logged in. And I did
+- [17:08] previously log into Amazon. So, it
+- [17:11] should be able to go do stuff on Amazon
+- [17:12] on my behalf. Let's go ahead and submit
+- [17:14] this and see if it'll go place an order
+- [17:16] for toilet paper for me. So, it's
+- [17:17] starting a search for toilet paper on
+- [17:19] Amazon. Thinking how to best fulfill the
+- [17:21] request. My browser just did that. I'm
+- [17:24] hands off. It's doing all this on its
+- [17:26] own here. It's searching Amazon for
+- [17:28] toilet paper. Found some Charming Ultra
+- [17:30] soft cushiony touch. Sounds good to me.
+- [17:33] I like soft and cushiony. It says it's
+- [17:35] trying to find the add to cart button
+- [17:37] and is struggling. I think it's because
+- [17:39] it's on a page that's got subscribe and
+- [17:41] save. It seems to be struggling a little
+- [17:43] bit with Amazon. It's looking for like
+- [17:44] an add to cart button, but not finding
+- [17:46] it. Now, I'm going to be honest, while
+- [17:48] it's doing this, I just need to make a
+- [17:50] comment. I feel like it would be 10
+- [17:51] times faster for me to just go to Amazon
+- [17:53] and press the button to order toilet
+- [17:55] paper myself. But the idea behind these
+- [17:57] agents is that you can go and open a
+- [17:59] whole bunch of tabs and have each tab
+- [18:02] going and doing different things for
+- [18:03] you. So if you have a whole bunch of
+- [18:05] things on your to-do list that are
+- [18:06] browser based, you could instruct agent
+- [18:09] mode to go do this thing, then open
+- [18:11] another tab, go do this thing, open
+- [18:13] another tab, go do this thing, and have
+- [18:15] it going off and doing like 10 things
+- [18:17] for you at once. And I could go walk
+- [18:18] away and eat a sandwich or something,
+- [18:20] right? That's kind of the idea. But if
+- [18:22] you're just trying to accomplish one
+- [18:23] task, like order a toilet paper on
+- [18:25] Amazon, this seems excessive. But that's
+- [18:28] not to say it's not cool that we can. It
+- [18:30] just doesn't seem more efficient yet.
+- [18:33] It's only efficient if you're like doing
+- [18:35] a ton of things at once. Okay, so it
+- [18:37] finally found the add to cart button. It
+- [18:39] had to use a different option. Like it
+- [18:41] found a different uh toilet paper brand
+- [18:45] and ordered that one because it wasn't a
+- [18:47] subscribe and save. And then it left me
+- [18:50] here. So, it didn't just order it for
+- [18:52] me, which is one of their safety
+- [18:53] features. You don't want it to like just
+- [18:55] go and actually click the checkout
+- [18:57] button for you and place that order. And
+- [18:59] a good reason for that is I made a video
+- [19:02] about a year ago where I was testing
+- [19:03] different AI agents and I told one of
+- [19:05] them to go to Amazon and order me toilet
+- [19:07] paper and it went through and it ordered
+- [19:10] me all of the toilet papers. It got up
+- [19:12] to about $700 worth of toilet paper that
+- [19:14] it was going to order and then I stopped
+- [19:17] the agent before it could actually check
+- [19:19] out. This one luckily found one bundle
+- [19:22] of toilet paper and added it to my cart
+- [19:23] and then said, "We added it to your
+- [19:25] cart. Go ahead and finish the process
+- [19:27] yourself." Now, there's one last feature
+- [19:29] I want to show you that they showed off
+- [19:31] during their live demo. I'm actually
+- [19:32] going to close our Ask Chatgpt sidebar
+- [19:36] and I'm going to go to Gmail here real
+- [19:38] quick. I'm going to click on compose to
+- [19:40] make a new email. Let me just go full
+- [19:41] screen here. And I'm going to send this
+- [19:43] to Dave, my producer here. And I'm just
+- [19:46] going to call it testing the new chat
+- [19:49] GPT Atlas browser. And I'm going to say,
+- [19:52] "Yo, dude. I'm testing out the new
+- [19:55] browser from Open AI." I'm purposely
+- [19:59] putting some typos in there, by the way.
+- [20:00] It's looking pretty sweet. Not sure if
+- [20:03] it justifies 20 bones per month yet, but
+- [20:05] we'll find out. Hope you're doing well,
+- [20:08] bro. All right. But here's the feature
+- [20:11] they showed off. I can select all of
+- [20:13] this text here inside of Gmail. And
+- [20:14] notice it puts this little purple open
+- [20:17] AI button above my highlight. If I click
+- [20:20] this, I can describe the change. This is
+- [20:24] too informal.
+- [20:27] Please make it more formal. And add more
+- [20:31] details about the Atlas browser. All
+- [20:34] right. So, it's going to go ahead and do
+- [20:36] this for me. You can see it's actually
+- [20:38] rewriting my email for me and adding
+- [20:41] more details about the browser and
+- [20:43] making it more formal. And if I click
+- [20:44] update, you can see here's the new
+- [20:47] updated version. It for whatever reason
+- [20:49] put my signature twice, but that's no
+- [20:50] big deal. I'll just delete that. And you
+- [20:52] can see it actually added details about
+- [20:54] what this browser does. And I didn't
+- [20:57] even type them. It just found that stuff
+- [20:59] for me and added it to my email. And now
+- [21:02] I can send this to Dave. So, a quick
+- [21:04] recap of the features of ChatGpt Atlas
+- [21:06] here. It's got this new ask chatgpt
+- [21:09] button that opens up a sidebar for you
+- [21:11] and lets you chat using the context of
+- [21:13] the web page, but it also can search for
+- [21:15] you. It's got a really cool memory
+- [21:17] feature that remembers all of your
+- [21:19] conversations in chat, but it also
+- [21:20] remembers everything you did in your
+- [21:22] browser, so it can help you jump back
+- [21:24] into things you were doing in the past.
+- [21:26] It's got their new agent mode which can
+- [21:28] take actions for you like do shopping on
+- [21:30] your behalf, do research for you, things
+- [21:33] like that. It's also got the chat GPT
+- [21:35] sort of writing assistant where you can
+- [21:37] select text when you're writing an email
+- [21:39] or something like that and have it
+- [21:41] improve that text for you and you can
+- [21:43] choose whether you want to stay logged
+- [21:45] into services or not when you give
+- [21:47] access to the browser so that it can do
+- [21:49] things that would require you to be
+- [21:50] logged in. It's also got the search
+- [21:52] features that I mentioned at the
+- [21:54] beginning that uh kind of give it like
+- [21:56] Google search type functionality. So,
+- [21:58] the things that I like about this
+- [22:00] browser, I do like having a little
+- [22:02] sidebar in the right hand side for me
+- [22:04] that can help me interact with websites
+- [22:06] on a new level that I've never done
+- [22:08] before. Things like summarization and
+- [22:10] comparisons and that sort of thing. The
+- [22:12] agent mode seems really promising, if
+- [22:15] not a little slow right now. But again,
+- [22:18] the big idea is you open a whole bunch
+- [22:20] of agents and have it doing a bunch of
+- [22:22] tasks for you at once. So if it's doing
+- [22:24] 10 things simultaneous, even though
+- [22:26] they're all kind of slow, there's
+- [22:27] probably some productivity gains there.
+- [22:29] If you're just trying to get the agent
+- [22:30] to do one thing at a time, probably more
+- [22:32] productive and faster to just do it
+- [22:34] yourself real quick. I personally like
+- [22:36] the memory feature, but I also know
+- [22:38] that's going to be a red flag for a lot
+- [22:39] of people. A lot of people don't want
+- [22:40] what they're doing on the browser to be
+- [22:43] used for AI or to be sent to chat GPT
+- [22:46] for training. Luckily, you can turn all
+- [22:48] that off if that's something you're not
+- [22:50] a fan of. I think it's really cool. I
+- [22:52] find myself doing that all the time
+- [22:53] where I'm reading an article a couple
+- [22:54] days ago and then I can't find it again.
+- [22:56] That is going to be super helpful for
+- [22:58] me. I also love the interface. It's just
+- [23:00] really clean. There's not a lot going on
+- [23:02] up here. It just feels a lot more simple
+- [23:05] than Chrome. pretty much everything you
+- [23:08] need to do is just up under this one
+- [23:10] little menu here and it just feels very
+- [23:12] clean and not bloated to me. If I am
+- [23:14] nitpicking a little bit, the things that
+- [23:17] I'm not a huge fan of, this is again
+- [23:19] very nitpicky. This URL bar where you
+- [23:22] type, you can see it's sort of centered
+- [23:24] in the browser here where on Chrome this
+- [23:26] URL bar goes all the way to the left of
+- [23:28] the refresh. So when I'm in Chrome, for
+- [23:30] example, you can see how this search bar
+- [23:32] goes all the way to the left. I find
+- [23:34] myself clicking on the left side to type
+- [23:36] something. When I'm in the open AI
+- [23:38] browser, I find myself clicking over on
+- [23:40] the left to type something, but then the
+- [23:41] bar is way over here on the right. I
+- [23:43] just kind of wish they would expand it
+- [23:45] the whole way. Really dumb UI feature
+- [23:48] that is probably not bugging anybody but
+- [23:50] me, but I thought I'd point it out. I
+- [23:52] also do have some concerns about the
+- [23:54] browser mode. Uh, prompt injection
+- [23:56] attacks being one of the main ones. If
+- [23:58] somebody designs a website in a way
+- [24:00] that's made to kind of screw with the
+- [24:03] chat GPT agent, they can inject things
+- [24:06] into your prompts and make your browser
+- [24:08] do things that you don't want it to do.
+- [24:10] That could be concerning. I know Open
+- [24:12] AAI is aware of that and they're putting
+- [24:14] measures in place to prevent that. I
+- [24:16] haven't seen that happen in my own
+- [24:19] testing so far. I might have to make my
+- [24:22] own sort of prompt injection website and
+- [24:24] then have the agent mode go to it and
+- [24:26] see if it actually works, but I'll save
+- [24:28] that for a different video. I do think
+- [24:31] that a browser like this, like ChatGpt,
+- [24:33] Atlas, and like what we got out of
+- [24:34] Perplexity's comment and what the
+- [24:36] browser company made with DIA, these
+- [24:38] browsers that are designed to be like a
+- [24:40] AI native browsers that do things with
+- [24:43] AI for you, I think is a sort of pivotal
+- [24:45] point, a turning point in the way we use
+- [24:48] the internet. It's like adding another
+- [24:50] layer of abstraction on top of our
+- [24:53] existing browser functionality where we
+- [24:56] no longer really need to be clicking
+- [24:58] around and typing URLs to go to
+- [25:00] different websites anymore. We just have
+- [25:02] chats with AI and AI will send us to the
+- [25:05] websites we need to go to to get what
+- [25:08] we're looking for. So, if we want to do
+- [25:09] research, instead of opening 20 tabs on
+- [25:12] a topic, we ask chat GPT. It goes and
+- [25:15] finds those 20 tabs, reads them all,
+- [25:18] gives us what we need to know, then
+- [25:20] gives us the source so that we can then
+- [25:21] click and open those tabs if we want.
+- [25:23] We're also getting to a point where our
+- [25:25] browser is just going to go and do
+- [25:27] things for us like order food from
+- [25:29] GrubHub, uh, order our Uber for us,
+- [25:32] write and send emails on our behalf, and
+- [25:35] various things like that. So, we no
+- [25:36] longer have to again go to all these
+- [25:38] URLs and click around and have all these
+- [25:40] tabs open. we just interact with the
+- [25:42] chat and then the chat does all that
+- [25:44] other stuff on our behalf. And once this
+- [25:46] stuff gets baked into like a mobile
+- [25:48] version with an audio mode, well, now
+- [25:51] we're to a point where we just talk to
+- [25:53] our phone and it goes and does stuff on
+- [25:56] the internet for us. Hey, I'm with a
+- [25:58] friend. He's got some really cool shoes.
+- [25:59] I'm going to send you a picture. Order
+- [26:01] me a pair. You take a picture of your
+- [26:03] friend's shoes. Send it to your browser.
+- [26:05] Your browser goes and does the search on
+- [26:07] the internet to find those shoes. Find
+- [26:08] the place where you can order them and
+- [26:10] then sends you a message back saying,
+- [26:11] "Hey, I found the shoes. They're 100
+- [26:13] bucks. Do you want me to place the
+- [26:14] order?" You say, "Yes, the shoes are
+- [26:16] ordered for you." That's the world these
+- [26:18] companies are trying to build right now.
+- [26:20] Google, Perplexity, Chat, GPT, or
+- [26:22] OpenAI. That's what they're trying to
+- [26:24] build. A world where we can just
+- [26:26] interact with the chat and all the
+- [26:28] things we want done on the internet are
+- [26:29] just done for us. Where does this leave
+- [26:32] people like content creators and those
+- [26:34] of us building websites? That's a little
+- [26:35] gray still. That's one of the areas
+- [26:37] there's concerns, right? If nobody
+- [26:39] really needs to go to websites anymore
+- [26:41] to find what they're looking for, they
+- [26:43] just type it into a chat. Well, doesn't
+- [26:45] that kind of screw up everybody's
+- [26:46] advertising model, everybody's affiliate
+- [26:48] marketing model? The way that people
+- [26:50] make money around content on the
+- [26:52] internet is going to fundamentally
+- [26:54] change and us as content creators are
+- [26:57] going to have to change and evolve with
+- [26:59] it. So that maybe our content is what
+- [27:01] gets surfaced with AI. But even if that
+- [27:04] happens, then what's the benefit for us
+- [27:06] if there's no more ad revenue that comes
+- [27:08] as a result of that content? So, there's
+- [27:11] this weird world where we're entering
+- [27:12] that monetization of content online
+- [27:15] might need to be rethought if we're
+- [27:17] moving to this new agent mode. But, I
+- [27:18] really, really feel like this is a step
+- [27:21] forward to that agentic future where we
+- [27:23] just communicate with chat bots and we
+- [27:25] don't really browse the web that much
+- [27:27] anymore, if that's what you want. All
+- [27:29] right, so we're editing the video and I
+- [27:31] noticed one thing that I wanted to add
+- [27:32] into this video really quickly and
+- [27:35] that's that when the announcement
+- [27:37] happened about this new browser,
+- [27:39] Google's stock dropped by 3%. You can
+- [27:41] see this giant dip right here that
+- [27:43] basically started during the OpenAI live
+- [27:46] stream and it just went. So this really
+- [27:48] kind of lends credibility to the idea
+- [27:50] that people are worried about OpenAI
+- [27:53] taking more of Google's market share.
+- [27:55] Now, it has rebounded a bit in after
+- [27:58] hours trading here, but it's pretty
+- [28:00] evident what investors of Google thought
+- [28:04] about the OpenAI announcement today. All
+- [28:06] right, that's it. Just wanted to add
+- [28:08] that little extra tidbit in there. So, I
+- [28:10] know this isn't the most exhaustive test
+- [28:11] you've ever seen of a new tool. I just
+- [28:14] wanted to get in and test it on the day
+- [28:15] it came out, give my first impressions
+- [28:17] on it. I will be doing a deeper dive and
+- [28:20] really, really figuring out what it's
+- [28:22] capable of. From all of my tests, it
+- [28:24] seems to do what it promises and it
+- [28:26] seems pretty good. But again, take it
+- [28:28] with a grain of salt. I haven't dove
+- [28:30] that deep yet. Again, it's free. You've
+- [28:32] got nothing to lose to go try it. And
+- [28:34] you know, whether or not this becomes my
+- [28:36] new default browser, I haven't really
+- [28:38] decided yet. I need to play with it
+- [28:39] more. But I do find it very clean and
+- [28:41] simple to use. I haven't installed my
+- [28:43] various Chrome extensions yet. So, once
+- [28:45] I see how Chrome extensions do inside of
+- [28:48] this browser, that could be more of a
+- [28:50] deciding factor. But again, I'll let you
+- [28:53] know in a future video. We will do a
+- [28:54] deeper dive. Promise. All right. Thank
+- [28:56] you so much for tuning in. Really,
+- [28:58] really appreciate you. If you like
+- [28:59] videos like this, you want to stay
+- [29:00] looped in with the latest AI news, as
+- [29:02] well as tutorials on how to use and
+- [29:04] integrate all the coolest AI tools, make
+- [29:06] sure you like this video and subscribe
+- [29:08] to this channel, and I promise to keep
+- [29:10] you as looped in as humanly possible.
+- [29:13] Thank you again for tuning in. Really,
+- [29:14] really appreciate you. Hopefully, I'll
+- [29:16] see you in the next one. Thank you so
+- [29:17] much for nerding out with me today. If
+- [29:18] you like videos like this, make sure to
+- [29:20] give it a thumbs up and subscribe to
+- [29:22] this channel. I'll make sure more videos
+- [29:23] like this show up in your YouTube feed.
+- [29:25] And if you haven't already, check out
+- [29:27] futurtools.io where I share all the
+- [29:29] coolest AI tools and all the latest AI
+- [29:31] news. And there's an awesome free
+- [29:33] newsletter. Thanks again. Really
+- [29:35] appreciate you. See you in the next one.

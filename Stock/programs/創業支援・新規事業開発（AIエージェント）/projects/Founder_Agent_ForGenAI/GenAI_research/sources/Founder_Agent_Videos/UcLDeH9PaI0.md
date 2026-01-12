@@ -1,0 +1,327 @@
+---
+title: "Transcript: UcLDeH9PaI0"
+video_id: "UcLDeH9PaI0"
+video_url: "https://www.youtube.com/watch?v=UcLDeH9PaI0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:10:59"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Team Building"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: UcLDeH9PaI0
+
+- URL: https://www.youtube.com/watch?v=UcLDeH9PaI0
+- Retrieved at: 2025-12-30T11:03:14+09:00
+
+## Text
+
+- [00:00] Just when everyone was writing off
+- [00:02] Mistral AI after a rough Mistral 3
+- [00:05] launch, which let's be honest, was not
+- [00:07] the best.
+- [00:11] But they made a serious comeback with
+- [00:12] this new release. They just dropped a
+- [00:14] new open- source coding model that is
+- [00:17] actually pretty powerful, and it's
+- [00:19] called Devstrol 2. It comes in two
+- [00:21] open-source versions. Devstrol 2 which
+- [00:24] is a 123 billion parameter model
+- [00:27] released under a modified MIT license.
+- [00:30] Then you also have Devstrol Small which
+- [00:33] is a 24 billion parameter model that's
+- [00:35] released under the Apache 2.0 license.
+- [00:38] Both models are free to use
+- [00:39] state-of-the-art and available through
+- [00:41] Mistrol's API. But the crazy part is is
+- [00:43] that Devstrol 2 is a top tier open model
+- [00:46] that's built specifically for code
+- [00:48] agents. Even with far fewer parameters
+- [00:51] than its biggest competitors, it is
+- [00:53] something that scores a 72.2 percentage
+- [00:55] on the Swaybench verified test, which
+- [00:58] puts it among the best open weights
+- [01:00] coding models that are available right
+- [01:02] now. It's reported to have up to 7 times
+- [01:05] more cost efficiency than the Claude
+- [01:07] Sonnet model on real world tasks and it
+- [01:10] outperforms models like GLM 4.6. 6
+- [01:12] Miniax Quen 3 and Kimmy K2 and is only
+- [01:16] about 1% behind the Deep Seek version
+- [01:19] 3.2. But what's more impressive is that
+- [01:22] it's now getting dangerously close to
+- [01:24] proprietary giants like Google and
+- [01:26] Enthropic while being an open- source
+- [01:28] model. All this makes Devstrol 2 one of
+- [01:31] the best open and local friendly coding
+- [01:33] models available today with full support
+- [01:36] onrem development and deployment with
+- [01:38] custom fine-tuning. And something
+- [01:40] interesting to note is that the model
+- [01:42] that we saw previously within kilo code
+- [01:44] called spectray the stealth model was
+- [01:47] actually devastrol 2 the whole time.
+- [01:49] This is where they have now made it more
+- [01:52] refined and the results are truly
+- [01:54] insane. I just let web flow's AI build a
+- [01:58] website for me and the results are
+- [01:59] honestly surprising. Here's the web flow
+- [02:02] editor. I simply just clicked new site,
+- [02:05] typed what I wanted and web flow AI took
+- [02:08] over from there. You can just simply
+- [02:09] describe the kind of site you need, the
+- [02:11] layout, the style, everything, and Web
+- [02:13] Flow instantly will generate it for you.
+- [02:16] The structure, the content, the spacing
+- [02:19] with no coding required and no designing
+- [02:21] from scratch. And it didn't stop there.
+- [02:24] The AI made the entire site responsive
+- [02:26] automatically with desktops, tablets,
+- [02:29] and mobiles. Then I ran the Web Flow AI
+- [02:32] audit. It scanned my site and
+- [02:34] highlighted things to improve like the
+- [02:36] accessibility, the readability, the
+- [02:39] performance, and the layout issues. And
+- [02:41] with one click, it fixed it all.
+- [02:43] Normally, this takes a designer, a
+- [02:45] developer, and an SEO expert. But with
+- [02:48] Web Flow AI, it just took a few minutes.
+- [02:51] Web Flow AI helped me build a site that
+- [02:54] looks better, works better, and
+- [02:56] optimized for today's internet. [music]
+- [02:58] You can try it out with the link in the
+- [03:00] description below and see what you can
+- [03:02] build with web flow AI. Thanks to them
+- [03:05] for sponsoring today's video. But with
+- [03:06] that thought, let's dive right back into
+- [03:07] today's upload. Both Devstrol 2 and
+- [03:10] Destro small 2 are respectively 5x and
+- [03:14] 28x smaller than Deepseek version 3.2
+- [03:17] and 8x and 41x smaller than Kim K2. So
+- [03:21] overall, it's just great to see that
+- [03:23] this is a compactsiz model that's
+- [03:25] putting up the same numbers as these
+- [03:27] giants. And it demonstrates that the
+- [03:29] compact models can also match or even
+- [03:31] surpass certain benchmarks with these
+- [03:34] different competitors. Their smaller
+- [03:36] footprints are going to be able to
+- [03:38] enable practical deployment on limited
+- [03:40] hardware which is something that will
+- [03:42] let you run it on smaller computers as
+- [03:45] well as lowering barriers for different
+- [03:47] sorts of developers, businesses or
+- [03:49] hobbyists to get started with this
+- [03:51] model. This devial tool model is
+- [03:53] specifically built for production grade
+- [03:55] code workflows that's capable of
+- [03:57] understanding large code bases,
+- [03:59] coordinating multifile changes. It works
+- [04:01] best at tracking dependencies and
+- [04:04] automatically detecting and correcting
+- [04:06] failures. So overall, it makes it a
+- [04:08] highly effective model that's pretty
+- [04:10] small and efficient for bug fixes and
+- [04:13] legacy modernization. It can be also
+- [04:16] fine-tuned for specific languages and
+- [04:18] enterprise skill systems, which is
+- [04:20] something that most people will be using
+- [04:21] this model for. It's not a front-end
+- [04:23] development tool. So don't be thinking
+- [04:25] that this model can help you generate
+- [04:27] various sorts of apps. It's more of a
+- [04:29] back-end tool that you can use to help
+- [04:31] you with bug fixes, can help you detect
+- [04:34] failures, and help you fix various sorts
+- [04:36] of changes across the codebase. It is
+- [04:39] something that also works quite well
+- [04:40] within different coding agents like Hilo
+- [04:43] Code as well as Klein. It even
+- [04:45] outperformed Deepseek version 3.2 with a
+- [04:47] 42.8%age win rate versus a 28.6%
+- [04:52] loss rate. And what's great is that both
+- [04:54] of these two emiss models are completely
+- [04:56] free to access within kilo code as well
+- [04:58] as open router where you can generate
+- [05:01] pretty decent looking apps as well as
+- [05:03] help you in back-end systems like bug
+- [05:05] fixes. Like I had mentioned, this is
+- [05:07] something that you can easily access
+- [05:09] with kilo code. This is the ideal AI
+- [05:12] code agent that I use versus any other
+- [05:14] AI coding agent that's out there. You
+- [05:16] can simply go ahead and install this
+- [05:18] completely for free. It's an open-
+- [05:19] source AI coding agent that provides you
+- [05:22] $25 worth of free credits. You can head
+- [05:24] over to the Kilo Code extension. You can
+- [05:27] also install it from the extension store
+- [05:29] by simply searching up Kilo Code and you
+- [05:31] can install it and have it accessible
+- [05:33] within the lefth hand panel. Now, what
+- [05:35] you got to do next is just simply go
+- [05:36] ahead and use the free credit API to
+- [05:39] then select the new Mistral model, which
+- [05:41] is the Devstrol 2512, which you can
+- [05:43] access completely for free, and you can
+- [05:46] generate some pretty cool looking apps,
+- [05:48] as well as helping you with large code
+- [05:49] bases. And the great thing is is that
+- [05:51] this model is mostly applicable to be
+- [05:53] installed on most devices that have an
+- [05:56] RTX 4090 or on a Mac with 32GB of RAM. I
+- [06:01] know that's still a high bar, but you're
+- [06:02] going to be able to do a lot with this
+- [06:04] model locally. You also have the option
+- [06:06] to access it obviously through open
+- [06:08] router for free as well. This is
+- [06:10] something that works really well with
+- [06:12] deep code understanding at scale with
+- [06:14] full agentic automation across large
+- [06:16] code bases. It's efficient at problem
+- [06:18] solving at with obviously with its cost
+- [06:21] efficiency and it is something that has
+- [06:23] a 256k context window which is kind of
+- [06:27] unfortunate. would be looking to see a
+- [06:29] larger context size, but still great for
+- [06:31] an open source model of this size. The
+- [06:34] Devstrol 2 model costs about 40 cents
+- [06:36] per 1 million input tokens and $2 for 1
+- [06:39] million output tokens. And the Dev
+- [06:40] Stroll small cost 10 cents per 1 million
+- [06:43] input tokens and 30 cents per 1 million
+- [06:45] output tokens. I forgot to mention this,
+- [06:47] but you can also access it through the
+- [06:48] console, which is Mistrol's AI uh
+- [06:52] playground, and you can also access it
+- [06:54] through Mistl's chatbot. Alongside the
+- [06:56] release of these two models, the Mistral
+- [06:58] team also introduced their own CLI tool
+- [07:00] called Mistro Vibe CLI, which is an
+- [07:03] open- source command line coding
+- [07:04] assistant, and it's powered by the
+- [07:06] Devstro model. It's free to access, and
+- [07:08] you can basically explore, modify, and
+- [07:11] execute changes across your codebase
+- [07:13] using various sorts of prompts. It is
+- [07:16] released under the Apache 2.0 license,
+- [07:17] and it could be installed with a single
+- [07:19] command. So to start off, I simply just
+- [07:22] requested it to create a browserbased OS
+- [07:25] and this is the result that I got and
+- [07:28] like I mentioned its front-end
+- [07:29] capabilities are not the best. So keep
+- [07:31] that in mind. But its back-end
+- [07:33] functionality is something that matters
+- [07:35] the most. And this is where I was able
+- [07:37] to create a browserbased OS which had
+- [07:40] created a calculator, a text editor and
+- [07:43] it had also created a file explorer. So
+- [07:46] overall, it did get the base structure,
+- [07:48] I guess, of a browserbased operating
+- [07:49] system created, but it's not the best.
+- [07:52] And this is what I mean by the front-end
+- [07:54] capabilities of this model. It's not the
+- [07:56] best. That's not the purpose of this
+- [07:58] model. It's more of focused to be a
+- [08:01] back-end model that you would use to
+- [08:02] assist you with back-end code. This is
+- [08:05] the quality of its front-end generation
+- [08:08] where I told it to generate a SAS
+- [08:09] landing page. So in certain cases like
+- [08:11] that web browser or the browserbased OS,
+- [08:14] it does better at certain generations,
+- [08:16] but when I prompted it to generate the
+- [08:19] SAS landing page, it was not the best.
+- [08:21] Here is me requesting it to generate a
+- [08:23] butterfly and SVG code. I guess it kind
+- [08:26] of did a decent job with the animation,
+- [08:28] but this does not look like a butterfly.
+- [08:31] So in this case, it failed at this test.
+- [08:33] But an area where this model does
+- [08:35] exceptionally well is where it can
+- [08:38] process different sorts of code bases
+- [08:40] really well with code analysis skills
+- [08:43] with debugging refactoring security
+- [08:45] fixes as well as with workflow
+- [08:48] automation. This is a codebase that is
+- [08:50] pretty faulty. It's not functional and
+- [08:53] essentially I am requesting the dust
+- [08:55] model to analyze the faulty calculator
+- [08:57] API flask codebase and fix all the
+- [09:00] issues plus the security
+- [09:01] vulnerabilities. So I can simply go
+- [09:03] ahead and send in this prompt. And the
+- [09:05] best thing about this model is that it
+- [09:07] is costefficient and super fast. This is
+- [09:09] where it's going to be able to analyze
+- [09:11] the context of our codebase. Going to
+- [09:14] read through all of the files and it's
+- [09:16] going to be able to make the correct
+- [09:18] changes. And thankfully looks like the
+- [09:20] codebase that was containing the
+- [09:22] critical security flaws such as the XSS,
+- [09:25] the IDOR, as well as the weak
+- [09:27] authentication was fully fixed cuz I
+- [09:29] simply just tested it out. It is now
+- [09:32] running on my local host and it was able
+- [09:34] to pass through the security checks
+- [09:36] where it was able to make sure that the
+- [09:38] insecure cookie handling was also fixed.
+- [09:41] It also tested the password hashing and
+- [09:44] it made sure that everything was fully
+- [09:46] uh properly fixed in terms of the
+- [09:48] security vulnerabilities. Now, this is
+- [09:51] where this model dominates cuz it was
+- [09:53] able to do a really great job in fixing
+- [09:55] all the configurations that were needed
+- [09:57] and it fixed everything to make sure
+- [10:00] that it was fully operational. If you
+- [10:02] like this video and would love to
+- [10:04] support the channel, you can consider
+- [10:06] donating to my channel through the super
+- [10:08] thanks option below. Or you can consider
+- [10:10] joining our private Discord where you
+- [10:12] can access multiple subscriptions to
+- [10:14] different AI tools for free on a monthly
+- [10:17] basis plus daily AI news and exclusive
+- [10:20] content plus a lot more. That's
+- [10:22] basically guys for today's video on
+- [10:23] Devstrol tool. Let me know what you guys
+- [10:25] think about this. I have yet to try the
+- [10:27] Mstrol Vibe CLI tool. This is something
+- [10:29] that I plan on testing out really soon.
+- [10:32] So let me know what you guys think. I'll
+- [10:33] leave all these things uh in the
+- [10:35] description below so that you can easily
+- [10:36] access it. But with that thought guys,
+- [10:38] thank you guys so much for watching.
+- [10:39] Make sure you subscribe to the second
+- [10:41] channel if you haven't already. Join the
+- [10:42] Patreon, join our Discord, follow me on
+- [10:45] the newsletter as well as our Twitter
+- [10:46] page. And lastly, make sure you guys
+- [10:48] subscribe, turn on notification bell,
+- [10:49] like this video, and please take a look
+- [10:51] at our previous videos because there's a
+- [10:52] lot of content that you'll truly benefit
+- [10:54] from. But with that thought, guys, have
+- [10:56] an amazing day, spread positivity, and
+- [10:57] I'll see you guys fairly shortly. Peace
+- [10:59] out. Fuzz.

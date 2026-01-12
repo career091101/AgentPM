@@ -1,0 +1,503 @@
+---
+title: "YouTube Video: 5p5cV0yVDvQ"
+video_id: "5p5cV0yVDvQ"
+video_url: "https://www.youtube.com/watch?v=5p5cV0yVDvQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Tutorial"
+summary: |
+  NN&N's new instance level MCP is truly a gamecher and in today's video I'm going to talk about why that is how easy it is to use and how to connect it to things like chatbt claude or lovable and hones...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 5p5cV0yVDvQ
+
+- URL: https://www.youtube.com/watch?v=5p5cV0yVDvQ
+- Retrieved at: 2025-12-30T09:39:41+09:00
+
+## Text
+
+- [00:00] NN&N's new instance level MCP is truly a
+- [00:02] gamecher and in today's video I'm going
+- [00:03] to talk about why that is how easy it is
+- [00:05] to use and how to connect it to things
+- [00:06] like chatbt claude or lovable and
+- [00:09] honestly since MCP or model context
+- [00:11] protocol started popping up everywhere
+- [00:13] it's been a little bit confusing but
+- [00:15] also a buzzword so I wanted to start off
+- [00:17] by just making sure we're all on the
+- [00:18] same page about what it is and then I'll
+- [00:19] show you how to use it [music] so this
+- [00:20] is where MCP really started with Neden
+- [00:23] where we had an update where you could
+- [00:24] make these native MCP server triggers
+- [00:27] meaning we could create our own MCP
+- [00:29] servers in NN that hooked up to
+- [00:31] different tools or different workflows
+- [00:32] that we've built. And then we could have
+- [00:33] an MCP client like Claude or Cursor
+- [00:36] actually talk to these servers and
+- [00:38] trigger these workflows or tools. But
+- [00:40] with NADN instance level MCP, it's not
+- [00:42] just limited to these workflows or tools
+- [00:44] that we assign. It's actually letting
+- [00:45] our MCP clients search through our
+- [00:48] entire NADN instance and look at the
+- [00:50] workflows, understand the schemas, what
+- [00:52] they do, and actually execute any of
+- [00:54] them. Which means right now in your
+- [00:56] enident instance, you probably have tons
+- [00:57] of workflows that you're like, "Huh, I
+- [00:59] would love to just throw this into
+- [01:00] lovable or clawed and just have them be
+- [01:02] able to use them for me whenever they
+- [01:03] want." And now you can. But what does
+- [01:06] that really mean? And the easiest way
+- [01:07] that I like to think about it is it's
+- [01:08] just an AI agent. That's not like the
+- [01:10] technical definition, but it's the way I
+- [01:12] like to think about it. So right here we
+- [01:13] have an an AI agent. And I'm assuming we
+- [01:15] all know what we're looking at here,
+- [01:16] where the agent has all of these
+- [01:18] different tools, and it basically
+- [01:20] understands based on the request coming
+- [01:21] in, which tool do I need to use? And
+- [01:24] when I call that tool, what do I have to
+- [01:25] send it? So, picture it as if Chat GBT
+- [01:28] is the agent and it can see all of the
+- [01:30] different workflows in your instance. It
+- [01:31] knows what they do. It knows what to
+- [01:32] send it and it knows when to call each
+- [01:34] one. So, let's just start plugging in
+- [01:36] our NIN to different clients. And before
+- [01:38] we do that, I'm going to be doing this
+- [01:40] on cloud. You're not limited to doing
+- [01:41] this on cloud. You can go ahead to the
+- [01:43] NAND MCP docs if you want to be able to
+- [01:45] read through a little bit more
+- [01:47] information, but you do need to be on
+- [01:48] version 1.21.2
+- [01:51] or higher. You can see I've got some
+- [01:52] workflows right here that have this icon
+- [01:54] which basically shows that they're
+- [01:55] available for MCP. And if you're on
+- [01:57] cloud and you need to update your
+- [01:58] instance, you would just do so by going
+- [02:00] to your admin panel. So anyways, you're
+- [02:02] going to go to your settings in your NIN
+- [02:04] and right here you should see MCP
+- [02:06] access. And right here what we have is
+- [02:08] the ability to connect via OOTH or
+- [02:11] access token. Just make sure you
+- [02:12] actually enable this and you toggle that
+- [02:14] on. So right here you can see that we
+- [02:15] are given a server URL and we have zero
+- [02:18] connected OOTH clients. So let's go hook
+- [02:20] it up. All right, I'm going to start off
+- [02:21] with Claude. And I'm not on my Claude
+- [02:23] desktop. I'm actually in the cloud
+- [02:24] version of Claude right here, which is
+- [02:26] super cool that we can just plug it in
+- [02:27] right away, super easily. So, what I'm
+- [02:28] going to do is I'm going to click on
+- [02:30] this little icon right here. And I'm
+- [02:32] going to go to add connectors. Now, in
+- [02:33] here, you can see that NIDN is already a
+- [02:36] native connector right now. So, all I
+- [02:38] have to do is click connect, and it's
+- [02:40] going to basically open up this OOTH for
+- [02:42] us. I'm going to give it access. And
+- [02:44] now, we have connected to NADN. Now, if
+- [02:45] it's your first time doing this, you
+- [02:47] will have to basically just copy in your
+- [02:48] server URL and give it to Claude. But
+- [02:50] then it's as easy as that. And so now,
+- [02:52] if I go to the tools right here, you can
+- [02:53] see we're connected to NN and we have
+- [02:55] three different options, which are
+- [02:56] execute workflow, get workflow details,
+- [02:59] or search workflows. So, how many times
+- [03:01] have you had an AI help you write an
+- [03:03] email? Well, now instead of just writing
+- [03:04] it and then copy and pasting it, you can
+- [03:06] go ahead and just say, we'll send that
+- [03:08] off now. Assuming that you have an edit
+- [03:09] in workflow that's available in MCP that
+- [03:12] actually sends emails. And you can see
+- [03:14] this one is super simple. So now that
+- [03:15] that email is written and I like it, I
+- [03:17] can basically say use nodn to send that
+- [03:19] email to michael@dundermifflin.com.
+- [03:21] So what it does is it says let me search
+- [03:23] through your available workflows. It
+- [03:25] asks you to allow, but I'm just going to
+- [03:26] go ahead and do always allow. So after
+- [03:28] it searched workflows, it found one and
+- [03:30] now it's asking to get workflow details.
+- [03:31] So I'm going to always allow this tool
+- [03:33] as well. So it grabbed the details. It
+- [03:35] knows the three body fields that it
+- [03:36] needs and it knows the web hook address
+- [03:38] and everything like that. So I'm going
+- [03:39] to go ahead and always allow. And we
+- [03:40] didn't have to actually go in here and
+- [03:42] configure everything with this post
+- [03:44] request. Claude was able to just find it
+- [03:46] and do it. You can see that we got
+- [03:48] confirmation that the email has been
+- [03:49] sent. And if I head over to my email,
+- [03:51] you can see that it is right here. Okay.
+- [03:53] So, let's say I just finished that up
+- [03:54] and I have a really busy day. So, I have
+- [03:56] my to-do list right here in ClickUp
+- [03:58] where I have email Michael about PTO and
+- [04:00] that was due today and it's urgent. And
+- [04:02] so I could context switch all the way
+- [04:03] back into ClickUp or I could just use my
+- [04:06] ClickUp task manager AI agent through
+- [04:08] MCP and I can talk to this thing in
+- [04:10] Claude and I can just ask Claude to do
+- [04:11] it because I'm right here and I can say
+- [04:13] use N to move my task called email
+- [04:15] Michael about PTO to complete. So now
+- [04:18] it's going to go ahead and search
+- [04:18] through workflows. It found my ClickUp
+- [04:20] task manager. It got the details and now
+- [04:22] it's going to shoot that off. There you
+- [04:24] go. So it says that it finished
+- [04:25] everything up and now if I open back up
+- [04:26] my ClickUp, we can see that this task
+- [04:28] was moved to complete. And now that
+- [04:30] that's done, we probably want to see
+- [04:31] what else we have to do today. So I'm
+- [04:33] going to ask it to use nitn to figure
+- [04:34] out what other tasks I have to do today.
+- [04:35] So it comes back and says based on what
+- [04:37] niten found, you have one task due
+- [04:39] today. Record nit mcp video which is
+- [04:41] high priority which I'm doing right now.
+- [04:43] And as you can see in clickup, that is
+- [04:45] the only thing that is due today. Now if
+- [04:47] we go into nitn to see what actually
+- [04:48] happened here and I'm going to go to my
+- [04:50] executions, you can see that on the most
+- [04:51] recent execution, the web hook was sent
+- [04:54] a body that says what tasks do I have
+- [04:56] due today? The agent then go aheads and
+- [04:58] process that and it calls its git tasks
+- [05:00] tool and then it returns an answer to us
+- [05:02] in claude. Now I won't dive into this
+- [05:04] actual workflow but it's pretty simple.
+- [05:05] We've got three tools update create and
+- [05:07] get and then also the system prompt
+- [05:09] looks like this in case you guys are
+- [05:10] interested in reading through it a
+- [05:12] little bit. I'm basically just telling
+- [05:13] it what its job is and what tools it has
+- [05:15] and when to use each tool. Now there is
+- [05:16] something interesting here because in
+- [05:18] order to actually update a task it first
+- [05:19] has to get them so it knows its ID. So
+- [05:21] if you remember the first ClickUp
+- [05:23] example from Claude, we basically said
+- [05:25] move my task to complete and then you
+- [05:27] can see what it did is it got the task
+- [05:28] ID and then it went ahead and updated
+- [05:30] it. But anyways, there are two important
+- [05:32] things that you need to know about
+- [05:33] making workflows actually from MCP
+- [05:36] clients. The first one is it has to be
+- [05:38] an active workflow or a published
+- [05:39] workflow. And then second is you have to
+- [05:41] go to the settings and then when you get
+- [05:43] in there you can see a little toggle
+- [05:44] down here that says available in MCP.
+- [05:46] Now, this is actually a really good
+- [05:48] thing that you have to manually enable
+- [05:49] these because otherwise if you had
+- [05:51] everything actually give access to your
+- [05:53] entire entit instance. There could be
+- [05:55] like, you know, some sensitive API keys
+- [05:57] or access to certain data in there that
+- [05:59] you probably don't want random clients
+- [06:00] to have. So, you are in full control
+- [06:02] still. And once again, when they're
+- [06:04] available in MCP, you can see that right
+- [06:05] here. As well as if you go into your
+- [06:07] settings and you go to MCP access, you
+- [06:09] can see down here what workflows you
+- [06:11] actually have available. Now, you will
+- [06:13] notice that there's a description. And
+- [06:14] for MCP, that's super important that it
+- [06:17] can actually look at the description so
+- [06:18] it understands the fields to send over
+- [06:20] and it can understand what the workflow
+- [06:22] does. And the way that you can actually
+- [06:23] add the description is, of course, in
+- [06:25] the workflow itself. So for this AI
+- [06:27] opportunity map generator, I would go
+- [06:28] ahead and edit workflow description. And
+- [06:30] that's where I put in a few sentences
+- [06:32] about what this workflow does. And I
+- [06:33] know that I'm using web hooks here, but
+- [06:35] what you can do is have any workflow
+- [06:37] that has a web hook trigger, a schedule
+- [06:39] trigger, a chat trigger, or a form
+- [06:41] trigger. These can all work as MCP
+- [06:44] workflows. Okay, so before we plug in
+- [06:46] this one to lovable and we basically
+- [06:48] have it build a full app for us with
+- [06:50] just looking at this workflow, I'm going
+- [06:52] to show you guys how we can connect to
+- [06:53] ChatGBT. So ChatGBT works very similar
+- [06:55] to Claude except for there's no native
+- [06:57] integration. So what you're going to do
+- [06:58] is come down here to your settings.
+- [07:00] You're going to go to apps and
+- [07:01] connectors and you're going to look
+- [07:02] through and you can see that there are
+- [07:04] some native integrations. So I imagine
+- [07:05] that Enitin will be coming soon. And so
+- [07:07] the reason why I wanted to do that Gmail
+- [07:09] example was because I think that's a
+- [07:10] really common use case. And also the
+- [07:12] native connectors for chat and claude,
+- [07:14] they don't actually let you send emails.
+- [07:15] They just let you find and reference
+- [07:17] emails from your inbox. As you can see
+- [07:18] in Claude, we only have a Gmail search.
+- [07:21] But anyways, what you're going to do is
+- [07:22] in order to actually create your own
+- [07:24] connection, you just have to come down
+- [07:26] to the bottom and turn on developer
+- [07:27] mode. Now, this says allows you to add
+- [07:29] unverified connectors that could modify
+- [07:31] or erase data permanently. Memory is
+- [07:33] disabled. and it basically highlights
+- [07:35] your chat in orange to let you know that
+- [07:37] you are in developer mode. Of course,
+- [07:38] there are security concerns. It's just a
+- [07:40] very new technology. But once again,
+- [07:42] just be careful about which workflows
+- [07:43] you're giving access to these different
+- [07:45] clients. But now you have the create
+- [07:47] button up here in the top right and
+- [07:48] you'll go ahead and click on create. And
+- [07:50] this is where you would go back into
+- [07:51] editn. You would grab the server URL
+- [07:53] right here and you would just paste that
+- [07:55] right there. So if you remember in
+- [07:57] claude when I connected to this MCP
+- [07:59] server, it basically did the ooth single
+- [08:01] sign on. And so that's exactly what's
+- [08:03] going to happen here. And that's why you
+- [08:04] will use OOTH authentication. You'll
+- [08:06] click on the check mark and then you
+- [08:07] will go ahead and click create. But I
+- [08:10] want to point out something which is a
+- [08:11] little bit unfortunate. This is not
+- [08:12] working for me right now. And I don't
+- [08:14] think it's working for anyone right now.
+- [08:16] I had it going using this exact method.
+- [08:18] And I've seen some other tutorials on
+- [08:19] YouTube where they are doing it like
+- [08:20] this. But I think that chatbt is doing
+- [08:22] something right now on their back end.
+- [08:24] And I deleted all the connections just
+- [08:25] for this video so I could do them live
+- [08:27] in front of you guys. So that was kind
+- [08:28] of unfortunate. But anyways, I imagine
+- [08:30] it will be up and running soon and I
+- [08:31] imagine it will be coming natively soon.
+- [08:33] But of course, a little workaround is
+- [08:35] you could take the oldfashioned way of
+- [08:36] using an MCP server trigger in Naden and
+- [08:39] then just hooking up the workflows that
+- [08:40] you actually want to use in chatbt and
+- [08:42] just pasting that in there doing no
+- [08:44] authentication and then connecting that
+- [08:46] way. As you can see, that gave us a
+- [08:48] connector through NIN and I now have
+- [08:49] these different actions for different
+- [08:51] custom workflows in NIDN. But anyways,
+- [08:53] now that we got that out of the way,
+- [08:54] let's talk about how we can do this in
+- [08:56] lovable. So right here I have an AI
+- [08:58] opportunity map generator workflow. And
+- [09:00] what I want to do is easily create a
+- [09:01] custom frontend that I could send people
+- [09:03] to. They could put in a little blurb
+- [09:05] about their business and their process
+- [09:06] problems and then it would send them an
+- [09:08] automated AI road map. So all I would do
+- [09:11] is come into NN. I would grab the server
+- [09:14] URL right here. Go into lovable and I'll
+- [09:16] click on this plus right here. Go to
+- [09:17] integrations. Click on manage. Scroll
+- [09:19] down a little bit and you can see that
+- [09:20] we have N. So I would just have to set
+- [09:22] that up and when I hit connect and paste
+- [09:24] in my server URL it'll do another single
+- [09:27] sign on for us real quick. Just
+- [09:28] basically saying that lovable has access
+- [09:30] to our end instance and once we click
+- [09:32] allow it will basically say that we have
+- [09:34] enabled the niten instance MCP in
+- [09:37] lovable. So now I can say build me a
+- [09:39] minimalistic form submission with a
+- [09:40] gamified interface for my nitin workflow
+- [09:43] that does AI opportunity mapping. Make
+- [09:45] sure to let the user know that their
+- [09:46] report is loading after they've sent it
+- [09:47] and then give them confirmation when
+- [09:48] it's done. So, if you guys have seen a
+- [09:50] different lovable video I've done or a
+- [09:51] base 44 video I've done, one of the
+- [09:53] challenges is actually giving this
+- [09:54] interface, the web hook configuration,
+- [09:56] the URL, the method, the body to send
+- [09:59] over, the body to send back, all of this
+- [10:01] kind of stuff. And so, right now, you
+- [10:02] can see it's basically just going to
+- [10:03] search through my workflows. It's going
+- [10:05] to understand what the workflow does,
+- [10:06] and it's just going to oneshot a landing
+- [10:09] page for us. All right, so that just
+- [10:10] finished up. It says, "Discover your AI
+- [10:12] automation opportunities. describe any
+- [10:14] manual process and receive a
+- [10:15] personalized AI automation roadmap with
+- [10:17] ROI estimates delivered to your inbox.
+- [10:19] So, what's interesting about this is if
+- [10:21] you actually came into the workflow and
+- [10:22] you looked at like what this is and you
+- [10:24] understood like what's going on in the
+- [10:26] consultant agent and everything, this is
+- [10:28] exactly like pretty spot-on. You
+- [10:30] describe, you submit, and you receive.
+- [10:31] So, let's go ahead and submit a process
+- [10:33] and see what we get. All right, so I put
+- [10:35] in a process, I put in my email. I'm
+- [10:36] going to click generate my AI
+- [10:37] opportunity map. And right now, it is
+- [10:40] analyzing all of this. And if I go over
+- [10:41] to the workflow and we click on
+- [10:43] executions, we should see that it is
+- [10:45] currently running. And then we will be
+- [10:47] notified over here when that's finished
+- [10:48] up. But keep in mind for a oneshot
+- [10:50] prompt that was this long. This is
+- [10:52] pretty solid. Okay, looks like that just
+- [10:54] finished up. It says the report has been
+- [10:56] sent to this email. So let's go ahead
+- [10:58] and take a look. All right, so here it
+- [11:00] is. The landscaping business automation
+- [11:01] and efficiency report. We've got an
+- [11:03] executive summary. We're diagnosing the
+- [11:05] problems in sales operations and field
+- [11:07] reporting. We have a root cause analysis
+- [11:10] right here. Here's our automation road
+- [11:12] map with some quick wins, MVP, two to
+- [11:14] four weeks, scalable solution, 1 to 3
+- [11:16] months, long-term, and then we've got
+- [11:18] some estimated ROI analysis, which right
+- [11:21] here you can see total monthly benefit
+- [11:22] 20K, 250K almost annual, and just kind
+- [11:26] of all of this type of breakdown. So,
+- [11:28] the point of this video is not the
+- [11:30] actual quality of this road map. It's
+- [11:32] more so the fact that we could just tell
+- [11:33] Lovable, hey, make me a landing page for
+- [11:35] this random workflow in my Naden
+- [11:36] instance. and it comes up with something
+- [11:38] that I think is pretty solid. Anyways,
+- [11:40] just wanted to quickly wrap up here with
+- [11:42] how to think about maybe like when you
+- [11:43] should use the MCP server. I think a lot
+- [11:46] of people might just kind of want to use
+- [11:47] some of this technology for certain
+- [11:49] things where it doesn't actually really
+- [11:50] save time. So, think about interfaces
+- [11:52] that you are in a lot. If you're in
+- [11:53] cloud a lot, then probably does make
+- [11:55] sense to integrate some of your edit
+- [11:57] workflows in there that could do things
+- [11:58] like, you know, moving files around in
+- [12:00] Google Drive or creating tasks or
+- [12:02] messaging your team, whatever it is.
+- [12:03] Now, something that I think is going to
+- [12:04] be really cool is when we're able to
+- [12:06] connect our instance level MCP to
+- [12:09] something like Vappy or voice providers.
+- [12:11] And maybe we already can, but when I was
+- [12:12] playing around with it, I actually ended
+- [12:14] up doing a different solution where I
+- [12:15] just did the regular server trigger,
+- [12:17] which is kind of the workflow you guys
+- [12:18] saw earlier. And something that I would
+- [12:20] challenge you to think about is just to
+- [12:21] keep it really, really simple. Like the
+- [12:23] example where Claude sent over an email
+- [12:25] for us to send in N. It was literally
+- [12:27] just the web hook to receive the data
+- [12:29] and then the Gmail node to send it off.
+- [12:31] And in this specific example, a lot of
+- [12:33] the workflows are just simple two or
+- [12:35] three or even one node steps. So the
+- [12:37] point I'm trying to make here is you
+- [12:38] probably already have lots of workflows
+- [12:39] you could go ahead and plug into
+- [12:40] something like claude or chatbt right
+- [12:42] away and add value. But you could also
+- [12:44] build some really simple like one node
+- [12:46] tools and just connect them to anything
+- [12:48] that you're typically spending more time
+- [12:49] in. And even if they look like this,
+- [12:51] it's just simple conditional logic and
+- [12:53] it gets the job done really fast. So
+- [12:55] anyways, if you want to explore
+- [12:56] different use cases and talk more about
+- [12:57] some of the stuff, then you should
+- [12:58] definitely check out my plus community.
+- [13:00] The link for that is down in the
+- [13:01] description. We've got over 200 members
+- [13:02] who are building with NAND and building
+- [13:04] businesses with Naden every single day.
+- [13:06] We've got a classroom section full of
+- [13:08] courses. We've got agent zero, which is
+- [13:09] the foundations for beginners, 10 hours
+- [13:11] to 10 seconds, where you learn how to
+- [13:12] identify, design, and build time-saving
+- [13:14] automations. And then for our premium
+- [13:16] members, we have one person AI agency
+- [13:18] and subs to sales. And then we've got
+- [13:19] tons of step-by-step live build projects
+- [13:22] in here. We also run a live Q&A every
+- [13:24] single week. So, I'd love to see you
+- [13:25] guys in those calls in the community.
+- [13:27] But that's going to do it for the video.
+- [13:28] So, if you enjoyed, please give it a
+- [13:30] like. It definitely helps me out a ton.
+- [13:31] And as always, I appreciate you guys
+- [13:32] making it to the end of the video. I'll
+- [13:34] see you on the next one.

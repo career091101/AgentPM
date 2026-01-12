@@ -1,0 +1,856 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=tFFKuq2t0rI"
+video_id: "tFFKuq2t0rI"
+video_url: "https://www.youtube.com/watch?v=tFFKuq2t0rI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "PMF", "AI", "investment", "funding", "product_development"]
+topics: ["プロダクト開発", "資金調達", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=tFFKuq2t0rI
+  - Retrieved at: 2025-12-30T16:32:18+09:00
+  - [00:00] Today we're going to be talking about
+key_points:
+  - "- [00:45] resources that you'll need to follow"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: tFFKuq2t0rI
+
+- URL: https://www.youtube.com/watch?v=tFFKuq2t0rI
+- Retrieved at: 2025-12-30T16:32:18+09:00
+
+## Text
+
+- [00:00] Today we're going to be talking about
+- [00:01] how you can build anything with B 44 and
+- [00:03] NAN AI agents. If you've never heard of
+- [00:06] B 44, it allows you to spin up really
+- [00:08] beautiful looking web apps with just
+- [00:10] your words. So it's almost like you're
+- [00:11] just having a conversation with a
+- [00:13] software engineer. They've also got some
+- [00:14] native integrations in there like
+- [00:16] OpenAI, text to image, monday.com,
+- [00:18] Slack, Google Places, and a few others.
+- [00:20] But it lacks some of those really custom
+- [00:22] integrations and workflows that you can
+- [00:23] build with NAND. So when we combine base
+- [00:25] 44 with nitn we're then able to have our
+- [00:28] AI agents power the back end of our
+- [00:30] entire web app. It gets really really
+- [00:32] powerful and the possibilities are truly
+- [00:33] endless. So what we're going to be doing
+- [00:35] today is a live build of an AI powered
+- [00:37] lead magnet system. If you want to
+- [00:39] actually go ahead and follow along with
+- [00:40] this video, I'm going to do everything
+- [00:41] like I said live in front of you guys
+- [00:43] and I'll have all the prompts and
+- [00:45] resources that you'll need to follow
+- [00:46] along in my free school community. The
+- [00:48] link for that is down in the
+- [00:49] description. But anyways, what we're
+- [00:50] building today is a lead magnet system.
+- [00:52] And so let's say you are an AI
+- [00:54] consultant and you're trying to get some
+- [00:55] clients. We're going to create a front
+- [00:57] end with base 44. And this front end is
+- [00:59] going to allow the client to put in
+- [01:01] their name, their email, and describe a
+- [01:03] problem they're having. The idea here is
+- [01:04] that you're going to be able to capture
+- [01:05] them in and provide some free value. So
+- [01:07] say, "Hey, go to this website, put in
+- [01:08] your information, and then I'll give you
+- [01:10] a free report, a free AI implementation
+- [01:12] audit." And so the data that the client
+- [01:14] enters into our base 44 app is going to
+- [01:16] be sent to an NIDAN AI agent that's
+- [01:18] going to be trained on how to conduct an
+- [01:20] AI implementation roadmap. And then from
+- [01:23] NAND, it'll get sent straight to that
+- [01:24] client's inbox and it's going to be
+- [01:26] really professional looking. And then at
+- [01:27] the bottom of that email, it's going to
+- [01:28] say, "Hey, if you want more, book in a
+- [01:30] call and let's talk." So this is
+- [01:32] actually a system that I would spin up
+- [01:33] for myself if I didn't have a lot of
+- [01:34] inbound coming from YouTube. But this
+- [01:36] would be a great way to add some
+- [01:38] credibility to yourself and give out
+- [01:39] some free value. So then even if a
+- [01:41] client doesn't initially decide to work
+- [01:42] with you, they still have you in your
+- [01:44] mind as like a good person. Anyways,
+- [01:46] don't want to waste any time. So let's
+- [01:47] hop right into B 44 and start building
+- [01:50] our front end. All right, so here we are
+- [01:51] in Base 44. If you guys want to check it
+- [01:53] out, there'll be a link down in the
+- [01:54] description you can use to sign up.
+- [01:55] We've got the interface right here where
+- [01:57] it says, "What would you like to build
+- [01:58] today?" And all we have to do is
+- [01:59] describe the app that we want to create.
+- [02:01] You can see up top we have app templates
+- [02:03] that you can choose from if you want to
+- [02:04] start with one, just get some
+- [02:05] inspiration and then customize it
+- [02:07] further. And Base 44 was actually
+- [02:09] recently acquired by Wix. And Wix has
+- [02:11] been around for a long time and it's
+- [02:12] been known for being able to spin up
+- [02:15] landing pages and websites really
+- [02:16] easily. And if you've ever vibecoded
+- [02:18] with some of the other apps out there
+- [02:19] that do something like this, you may
+- [02:21] notice that sometimes they look very
+- [02:23] vibecoded or you can tell they were
+- [02:24] built with AI. So what I'm going to do
+- [02:26] today is make sure that our app does not
+- [02:27] look like it was vibecoded. You can also
+- [02:29] see we have some integrations here. So
+- [02:31] we have native integrations with openAI
+- [02:32] text to image e Toro, Gemini, Reend, 11
+- [02:36] Labs, Claude, Twilio. So like I said,
+- [02:38] there are some native integrations
+- [02:39] within Bass itself. But where the power
+- [02:42] really comes in is when we connect it to
+- [02:44] any and we can do actually anything. You
+- [02:46] also see that you have styling
+- [02:47] instructions right here. So, if you
+- [02:48] wanted to choose like a neo brutalism
+- [02:50] type of style or neomorphism or glass
+- [02:52] morphism, you could just click add style
+- [02:54] instructions and now you already have
+- [02:56] these specs in here so that the web app
+- [02:58] is spun up with that type of style. But
+- [03:01] we're going to start and just do this
+- [03:02] pretty raw. I'm not going to use a style
+- [03:03] guide. We're just going to describe what
+- [03:05] we want and then I'm going to show you
+- [03:06] guys how we can customize it to make it
+- [03:08] look really cool. So, I'm just going to
+- [03:09] go ahead and say I need a
+- [03:11] professionallook landing page for my AI
+- [03:13] consulting company, AI Automation
+- [03:15] Society. I want it to say up top AI
+- [03:18] automation society AI consulting get
+- [03:21] your free AI implementation roadmap and
+- [03:25] then the main section of this landing
+- [03:27] page will be where they fill in some
+- [03:29] information. So we'll want to collect
+- [03:31] their first and last name, their email
+- [03:33] address, and then a larger text box for
+- [03:36] entering in a business process or a
+- [03:38] problem they're having and they would
+- [03:39] like to figure out how to automate it or
+- [03:41] how to implement AI into it. And then
+- [03:43] there'll be a button at the bottom that
+- [03:44] says get your free AI implementation
+- [03:46] guide. And they'll click on that to
+- [03:48] submit their information. After they
+- [03:50] submit, it should just basically take
+- [03:51] them to a different page that says your
+- [03:53] information has been received. Expect
+- [03:55] your guide in your inbox in 3 to 5
+- [03:57] minutes. The main color for our brand is
+- [03:59] light blue. Okay. So that is my very
+- [04:01] very brief prompt that we put in here.
+- [04:03] One tip that you could do is you could
+- [04:05] first put this into something like
+- [04:06] Claude and say, "Hey, can you help me
+- [04:08] create a project requirement document
+- [04:10] for a website build?" and then it would
+- [04:11] give you a more detailed one. But I'm
+- [04:13] just going to start with this for now.
+- [04:14] We're going to send this off. And what's
+- [04:16] happening now is on the right hand side,
+- [04:17] you can see it's creating our app. And
+- [04:19] so this is where we're going to see a
+- [04:20] preview of our web app. And on the lefth
+- [04:22] hand side, we have just like a
+- [04:23] conversation thread. So it'll you can
+- [04:25] see here it's telling us what it's
+- [04:26] doing. And this is where we can talk
+- [04:28] back and forth and make sure that our
+- [04:29] website is turning out how we want it.
+- [04:31] So I'll check back in with you guys in
+- [04:32] just a sec here when we get our first
+- [04:34] iteration of our site. All right. So we
+- [04:36] just got back our first iteration. We
+- [04:38] have AI consulting excellence, AI
+- [04:40] automation society, AI consulting.
+- [04:41] That's a lot of AI. Get your free AI
+- [04:44] implementation road map. Okay, nice. You
+- [04:46] can see the background is kind of like a
+- [04:48] light blue and white gradient almost.
+- [04:50] We've got custom strategy, fast
+- [04:52] delivery, expert guidance. And then down
+- [04:54] here, you can see we have start your AI
+- [04:56] journey today, first name, last name,
+- [04:58] email address, and then describe
+- [05:00] business process. We've also got get
+- [05:02] your free AI implementation guide. Cool.
+- [05:04] So, this is a great place to start. It's
+- [05:06] it's really nice. It's very clean, but
+- [05:08] you can definitely tell that this was
+- [05:10] vibecoded with AI. So, we want to change
+- [05:12] up a few of these things and make it
+- [05:13] look more professional. So, what I'm
+- [05:14] going to show you guys is this cool site
+- [05:16] called 21st.dev, and it has a ton of
+- [05:18] cool website elements that we can
+- [05:20] basically just copy the code to and put
+- [05:23] it into our app in B4 and it will just
+- [05:26] make the changes. Okay, so here's a cool
+- [05:28] one I found. We've got these display
+- [05:29] cards where when you hover over them,
+- [05:31] they sort of pop up. And I was thinking
+- [05:33] that this could look really cool as
+- [05:34] these three cards instead of them being
+- [05:36] spread out like that. So all I'm going
+- [05:38] to do is go into here and I'm going to
+- [05:40] click on copy prompt in the top right.
+- [05:42] You can see that it lets you choose your
+- [05:43] prompt for bolt claw code cursor lovable
+- [05:46] replet and vo. So we're just going to go
+- [05:48] with lovable for now. And we're just
+- [05:49] going to copy this prompt. Now back in
+- [05:51] base 44 I'm going to click on this
+- [05:52] button down here that says visual edit.
+- [05:54] And I'm basically going to select all
+- [05:56] three of these div containers. So these
+- [05:57] three cards. And I'm just going to say
+- [05:59] apply this effect to the selected div of
+- [06:02] the three cards. Okay. So you can see I
+- [06:04] pasted in that code from 21st.dev. And
+- [06:07] now base 44 is just going to think about
+- [06:09] how to do it. It's going to execute that
+- [06:11] code. And then we should see in this
+- [06:13] preview section that we have that
+- [06:15] integrated. So I'll check back in when
+- [06:17] we get that. Okay. So we just got that
+- [06:19] changed. But you can see there's like a
+- [06:20] duplicate card in front of each of
+- [06:22] these. So I'm just going to ask it to
+- [06:24] get rid of that. And there you go. I
+- [06:26] literally just said there's a weird
+- [06:27] blank card in front of the benefit
+- [06:28] cards. Please remove that. And now we
+- [06:30] have these three that pop up. It looks
+- [06:32] really nice. We might just want to add a
+- [06:34] little bit of spacing right here after
+- [06:35] these cards and before the text box
+- [06:37] starts. All right, cool. So, I just
+- [06:38] said, "Please add some space between the
+- [06:40] benefit cards and the text boxes." And
+- [06:41] you can see it added space and it still
+- [06:43] kept this effect. So, that's looking
+- [06:44] really nice. So, what you guys will
+- [06:46] notice is it's never going to be
+- [06:47] perfect. No matter which of these AI
+- [06:49] coding assistants you use, it's never
+- [06:50] going to be perfect. You just have to
+- [06:52] figure out how to work with it to go
+- [06:53] back and forth a little bit. And now you
+- [06:55] can see in a matter of two minutes I
+- [06:57] have this cool effect on my website. All
+- [06:59] right. So now I found this little
+- [07:01] animation that can come behind our main
+- [07:04] text. So I'm just going to copy this
+- [07:06] prompt once again. And I'm going to come
+- [07:08] into base 44. And I probably want this
+- [07:10] animation to be up near the top. And
+- [07:13] usually they call this hero text. So
+- [07:14] what I'm going to do is just say to add
+- [07:16] this effect behind the hero text. Okay.
+- [07:19] So it's applying those actions right
+- [07:20] now. Let's see how it turned out. Okay,
+- [07:22] cool. So, it came through and you can
+- [07:24] see now we have that little thing up
+- [07:25] top. Although, I don't like how it just
+- [07:27] cuts off here so abruptly. So, I'm going
+- [07:29] to have it blend it all back in
+- [07:30] together. And it's probably because I
+- [07:32] specified the hero text. But one thing
+- [07:34] you will notice is the colors are still
+- [07:35] consistent with the rest of our page.
+- [07:38] All right. So, there we go. It just
+- [07:40] basically blended that into the whole
+- [07:41] background. And I think that looks a lot
+- [07:43] better than what it previously was. We
+- [07:45] have our effect here. We've got our
+- [07:46] background that when you basically load
+- [07:48] in the page, that's when it sort of like
+- [07:50] has that animation where it falls down
+- [07:52] and and and floats down. So, I think you
+- [07:54] could argue that maybe I'm going a
+- [07:56] little too overboard with 21st.dev. The
+- [07:58] point being, I want to show you guys how
+- [08:00] quickly you can spin up these landing
+- [08:01] pages and add some really custom effects
+- [08:04] so it doesn't look like it was just an
+- [08:05] AI built website. And of course, you can
+- [08:08] also make changes without even using the
+- [08:10] AI chat. So, like let's say you wanted
+- [08:12] to change the font of this text right
+- [08:14] here. I could select it and I could just
+- [08:16] basically come here and choose to change
+- [08:18] the font right here. We have all these
+- [08:19] different options. I could underline it
+- [08:21] if I wanted. I could cross it through. I
+- [08:23] could also change the color. So instead
+- [08:24] of this gray, I could make it white. But
+- [08:26] that looks horrible because then you
+- [08:27] can't see it. But anyways, the point
+- [08:28] being you can use this visual edit and
+- [08:30] you can select exactly what you want to
+- [08:32] change. All right. So the last thing I'm
+- [08:33] going to add is this little border thing
+- [08:35] where you can see when my mouse is near
+- [08:37] the border, it's going to sort of have
+- [08:39] this little light. What you can see here
+- [08:41] is in the example, this is rainbow. And
+- [08:42] I'm curious to see if we put a border
+- [08:44] around this div container here if it's
+- [08:46] going to make it rainbow or if it'll
+- [08:47] make it blue to match the theme of our
+- [08:49] site already. So I clicked on visual
+- [08:51] edit. I'm going to select this container
+- [08:53] and just say to add this effect to the
+- [08:56] selected div. Okay. So it just made
+- [08:58] those changes. Let's see. So we do have
+- [09:00] this glowing effect, but it's like
+- [09:01] really sharp. So I think it took it a
+- [09:03] little bit too literally when I selected
+- [09:05] that container. All right. Perfect. So
+- [09:07] now you can see it's a much softer blue
+- [09:09] glow, which it did do the blue color,
+- [09:11] but now it's actually applied to the
+- [09:13] card. And what happened was I basically
+- [09:15] said to apply the effect. I then said it
+- [09:16] was too sharp and then it came back and
+- [09:18] then it was too light. So I said now I
+- [09:20] can hardly see it. Also, don't highlight
+- [09:22] the fact that I used the wrong effect
+- [09:23] here. Super embarrassing. But anyways,
+- [09:25] this was all spun up in about 10 minutes
+- [09:27] of work. And we've added some pretty
+- [09:28] cool custom animations and effects. I'm
+- [09:30] not saying I'm a master of design.
+- [09:31] There's a lot here that I would want to
+- [09:33] change, but once again, the point is
+- [09:34] this has been 10 minutes of work. Now,
+- [09:36] let's say we are a lead and we fill out
+- [09:38] this information, right? We have name,
+- [09:40] we have email address, and then the
+- [09:41] problem. And what they'll do is they'll
+- [09:42] click get your free AI implementation
+- [09:44] guide. It now opens up this screen that
+- [09:46] says, "Your information has been
+- [09:47] received. Expect your guide in your
+- [09:49] inbox in 3 to 5 minutes." It says, "Our
+- [09:51] AI specialists are going to review.
+- [09:53] We're going to create a custom road map
+- [09:54] and you'll receive that via email." And
+- [09:56] then you can also click to go back to
+- [09:58] the homepage. But the issue is when we
+- [10:00] just submitted that information, it
+- [10:01] actually didn't go anywhere. So we need
+- [10:04] to give base 44 our end web hook and
+- [10:07] then our end workflow can actually
+- [10:09] receive that information. So let's real
+- [10:11] quick hop into a new workflow in edit.
+- [10:13] You can see we have nothing here. What
+- [10:14] I'm going to do is we're going to add a
+- [10:16] web hook which is going to start the
+- [10:17] workflow. A web hook is basically just
+- [10:19] an ear that's always actively listening.
+- [10:22] And so whenever sound comes in, it
+- [10:24] basically just grabs it and then it can
+- [10:25] do something with it. So what we have in
+- [10:27] our web hook is a test URL. We're going
+- [10:29] to grab this test URL. And actually
+- [10:31] before we grab it, I'm just going to
+- [10:32] change the method to post. I'm not going
+- [10:34] to dive into why we're doing that right
+- [10:35] now. Essentially, it's so that B 44 can
+- [10:38] post or send data to this web hook. So
+- [10:40] it's a post method. I'm going to click
+- [10:42] on this to copy it. And now back in base
+- [10:45] 44, I just need to say when a user
+- [10:48] clicks on the get your free AI
+- [10:49] implementation guide button, send the
+- [10:52] data to this web hook as a post request.
+- [10:55] And so then now I will paste in my web
+- [10:57] hook. And then I'm going to add one more
+- [10:58] thing. send over the following four
+- [11:00] fields in the body of the post request.
+- [11:02] First name, last name, email address,
+- [11:06] and prompt. Okay, so we're going to
+- [11:08] shoot that off. And basically what it's
+- [11:10] going to do is it's going to change the
+- [11:12] code so that when someone clicks on this
+- [11:14] button, we're going to get all of this
+- [11:15] data that the user input into our end
+- [11:18] workflow. And then that's where we can
+- [11:19] set up an agent on the back end to
+- [11:21] create that AI implementation guide.
+- [11:24] Okay, so it claims that it has done
+- [11:25] that. I'm going to go into end and we're
+- [11:27] just going to real quick hit execute
+- [11:29] workflow which means that this web hook
+- [11:31] is now listening. When you make it an
+- [11:33] active workflow it will always be
+- [11:34] listening but right now we're just in
+- [11:35] test mode so I have to make it listen
+- [11:37] manually but you can see it says waiting
+- [11:39] for you to call the test URL. So if I go
+- [11:41] back in here and I click this button
+- [11:43] this should send the data to end because
+- [11:45] we configured it to. And if we go back
+- [11:47] into Nitn, we can now see that we did
+- [11:49] capture this data. So that's perfect. We
+- [11:50] know it's working. And now we can see we
+- [11:52] got first name, last name, email, and we
+- [11:55] got the prompt, which is what I entered.
+- [11:57] So this is the problem that the user is
+- [11:58] having. And this is what we need to use
+- [12:00] to give them their road map. So what's
+- [12:02] next is real quick, I'm going to pin
+- [12:04] this data so we don't have to keep
+- [12:05] sending data from base 44 to end. We can
+- [12:07] just play with it here. And I'm going to
+- [12:09] create two separate AI agents. The first
+- [12:11] one is going to take that incoming
+- [12:12] prompt, which is very minimal, and going
+- [12:14] to create a full AI implementation road
+- [12:16] map. And then the second one is going to
+- [12:19] style it up in HTML and send it to them
+- [12:21] via email. So the first one we're going
+- [12:23] to do is an AI agent. This is going to
+- [12:25] be our AI consultant. We have to give it
+- [12:27] access to a brain, so a chat model. So
+- [12:29] I'm going to click on the chat model
+- [12:31] button and I'm going to go ahead and
+- [12:32] grab an open router chat model. Now if
+- [12:34] you've never used open router before,
+- [12:35] you just need to go to open router.ai,
+- [12:37] make an account. In the top right,
+- [12:39] you'll go to keys and then just create
+- [12:40] an API key. It will give you this long
+- [12:43] string of numbers and letters and all
+- [12:44] you need to do is create a new
+- [12:46] credential and put that in right there.
+- [12:47] And now you'll have access to tons and
+- [12:49] tons of different AI chat models. Just
+- [12:51] make sure you have billing information
+- [12:52] in your open router account. And what
+- [12:54] I'm going to do for our AI consultant is
+- [12:56] I'm going to use OpenAI 03 because it's
+- [12:58] a reasoning model and it's going to be
+- [12:59] good for us to have lots of reasoning
+- [13:01] going through this AI consultant. I'm
+- [13:03] also going to open this up and we're
+- [13:05] going to configure a few things. The
+- [13:06] first one is what do we want the agent
+- [13:08] to read? And what we wanted to read is
+- [13:10] in the body request, we wanted to read
+- [13:12] the prompt. So this is whatever the user
+- [13:13] typed in in this big text box right
+- [13:17] here. So we were able to drag in from
+- [13:19] the left to the right the prompt. And
+- [13:21] now the AI agent's looking at that. The
+- [13:23] next thing we need to do is give it a
+- [13:24] system prompt, which is basically
+- [13:25] telling it its instructions. And I'm
+- [13:27] just going to paste in this system
+- [13:28] prompt, which is basically telling it
+- [13:29] that it's an expert consultant, how to
+- [13:31] think about what to do, what it should
+- [13:33] break down, inefficiencies, design the
+- [13:35] road map, frame ROI clearly, all this
+- [13:37] kind of stuff. And then at the end it
+- [13:39] needs to say close by saying if you'd
+- [13:41] like to take the next step book a
+- [13:42] discovery call with me here. And then it
+- [13:44] will actually attach that discovery call
+- [13:46] link in the full email. And if you want
+- [13:47] to be able to copy this prompt it will
+- [13:49] be in my free school community like I
+- [13:50] said with all the other resources that
+- [13:52] you need to follow along with this
+- [13:53] build. So now what I'm going to do is
+- [13:55] I'm going to go ahead and click execute
+- [13:56] step which is running the agent. So the
+- [13:58] agent has now read the web hook request.
+- [14:01] It's now using 03 and it's going to
+- [14:03] output some information back to us and
+- [14:05] it's going to be a full implementation
+- [14:08] guide. All right, so that just finished
+- [14:09] up. Let me click into it and make sure
+- [14:11] we do have our guide. So we've got
+- [14:12] diagnosis of the problem and you can see
+- [14:15] this is pretty lengthy and it ends with
+- [14:16] our discovery call. So that's perfect.
+- [14:18] I'm going to go ahead and pin this data
+- [14:19] so we don't have to run that agent
+- [14:20] again. And we're going to make the next
+- [14:22] one which is going to style it up in
+- [14:24] HTML. So once again, we're going to add
+- [14:26] an AI agent. We're going to have it read
+- [14:29] the diagnosis. So, I'm going to change
+- [14:30] this to define below, and we're going to
+- [14:32] drag in the output of the first agent
+- [14:34] right here. That's what the stylist
+- [14:36] agent is going to read. I have to go
+- [14:37] ahead and give the style agent a style
+- [14:39] guide of how to write HTML. So, I'm
+- [14:41] going to go ahead and paste that in
+- [14:42] here. As you can see, if you guys want
+- [14:44] to access this, it'll be in my free
+- [14:46] school community with all the other
+- [14:47] resources. And then what I want to do is
+- [14:49] actually give this agent a different
+- [14:50] chat model. So, I'm going to once again
+- [14:52] use open router, but instead of using
+- [14:53] 03, I'm going to grab a sonnet model.
+- [14:56] We're going to go with the new Sonnet
+- [14:58] 4.5 model because I really like the way
+- [15:00] that it writes and it's going to be good
+- [15:02] at generating HTML. So, I'm going to go
+- [15:04] ahead and click the play above the
+- [15:05] agent. So, it's going to start to run.
+- [15:07] It's right now looking at the output of
+- [15:09] the consultant agent and it's going to
+- [15:10] turn that into HTML style for us. And
+- [15:13] so, one other thing that I wanted to
+- [15:14] call out, this flow doesn't make us send
+- [15:17] any data back to B 44. If you wanted to
+- [15:20] do that, it would be super simple. You'd
+- [15:22] come into your web hook. You would
+- [15:23] basically right here it's kind of grayed
+- [15:24] out but it says respond immediately.
+- [15:26] Instead of immediately you would change
+- [15:28] it to say respond using web hook node or
+- [15:31] using respond to web hook node. And that
+- [15:33] means that we could have base 44 send
+- [15:35] data to end it in. We could have base 44
+- [15:37] wait until we send something back. So if
+- [15:39] we wanted to actually have the the
+- [15:41] person get their report right here in
+- [15:42] this interface, we could have it send
+- [15:44] back and then the the person could just
+- [15:45] view it right here. That's not what
+- [15:47] we're doing in today's example, but if
+- [15:49] you wanted to, it'd be super easy. you
+- [15:50] would just have to tell B 44 to wait for
+- [15:52] Naden's response and then display it
+- [15:54] when it gets it back. But anyways, the
+- [15:56] style agent is now done. So, I'm going
+- [15:58] to go ahead and real quick pin this data
+- [16:00] so we don't lose it. And you can see we
+- [16:01] have, you know, doc type HTML. We have
+- [16:03] all of this with different colors and
+- [16:05] padding and margin and texts. So, what
+- [16:07] we need to do is real quick add a Gmail
+- [16:09] node so we can actually send it over as
+- [16:12] an email and see what it looks like in
+- [16:13] HTML. So, we're always going to be
+- [16:15] sending the data to whoever entered in
+- [16:17] their information. So, we can grab the
+- [16:19] email from the web hook and put that
+- [16:21] right there. For the subject, I just
+- [16:23] went ahead and put your free AI
+- [16:24] implementation guide by AI Automation
+- [16:26] Society. We're leaving the email type as
+- [16:28] HTML, not text because we formatted it
+- [16:30] as HTML. And then the body of the email,
+- [16:33] I'm just going to drag in that output of
+- [16:34] the style agent. And then finally, I
+- [16:36] just want to change the append
+- [16:38] attribution, toggle that off. So then
+- [16:40] the bottom of the email doesn't say that
+- [16:42] this was sent by NadN. So now that
+- [16:43] that's filled out, I can go ahead and
+- [16:45] execute step and it's going to send that
+- [16:46] email as HTML. And let's go take a look
+- [16:49] and see how it turned out. Okay, there
+- [16:50] we go. So we have your free AI
+- [16:52] invitation guide, email automation
+- [16:53] strategy report, intelligent email
+- [16:55] processing and response system. We start
+- [16:57] off with the problem diagnosis. It's a
+- [16:59] very manual workflow with five
+- [17:00] repetitive steps. Reading each email,
+- [17:03] determining the intent, locating
+- [17:04] relevant background documents, composing
+- [17:07] or copy paste response, and then file
+- [17:09] email for future reference. It analyzes
+- [17:11] the inefficiency. So, it's calling out a
+- [17:13] painoint, which is 3 to 10 minutes per
+- [17:14] message, which could equal 2 to 8 hours
+- [17:16] per week if there's 50 emails, lots of
+- [17:18] context switching, 100% true,
+- [17:20] inconsistent quality, and knowledge
+- [17:22] fragmentation. We then move into the
+- [17:24] road map. So, we start with phase A,
+- [17:25] which is a quick win or MVP in 1 to two
+- [17:27] days. We highlight how we'd actually do
+- [17:29] that. So, we'd start with a trigger.
+- [17:31] We'd have LLM intent classification.
+- [17:33] We'd have auto labeling, and then
+- [17:34] template-based drafting. And an expected
+- [17:36] result would be 60 to 70% of emails
+- [17:38] handled instantly without document
+- [17:40] search required. Then phase B, we kind
+- [17:43] of move up to a 2 to four-week solution.
+- [17:45] Now we have a central knowledge base
+- [17:47] with all of the documents and stuff that
+- [17:48] we need. We have a unified email
+- [17:50] processor. We have a feedback loop and a
+- [17:53] dashboard. And then we move on to phase
+- [17:55] C, which is long-term improvement. We've
+- [17:57] got private LLM hosting, continuous
+- [17:59] learning, multi- channelannel expansion,
+- [18:00] CRM integration, and compliance layer.
+- [18:03] And this is really cool. It then goes on
+- [18:04] to talk about the return on investment.
+- [18:06] So, we have a daily time spend. We have
+- [18:08] monthly cost as you can see. And then we
+- [18:10] have monthly savings, which can get up
+- [18:12] to $3,000. We have infrastructure cost.
+- [18:15] And we have net monthly benefit. Now,
+- [18:17] one thing here is take this with a grain
+- [18:18] of salt because our consultant agent
+- [18:20] made this data. And the consultant agent
+- [18:22] doesn't yet know how we would charge or,
+- [18:24] you know, what we would price the
+- [18:25] solution at. So, this kind of stuff,
+- [18:27] these figures are a little bit made up.
+- [18:28] In order to really do an ROI analysis,
+- [18:30] you'd need to prompt for more
+- [18:32] information about how much manual time
+- [18:33] it's really taking. But with the very
+- [18:35] very limited and minimal prompt that
+- [18:38] kicked off this whole flow, this isn't
+- [18:39] too bad. And it shows how our agents
+- [18:41] could lay this in a table format to make
+- [18:42] this really digestible for the potential
+- [18:45] client. It ends the bottom off with
+- [18:46] implementation steps. We've got five
+- [18:48] steps right here. And then we have the
+- [18:50] call to action to book our discovery
+- [18:52] call, which takes us to the Calendarly
+- [18:54] link to book in a call if this ever
+- [18:56] loads up. There it is, as you can see.
+- [18:58] So, we were given a really, really tiny
+- [19:00] bit of information about a person and we
+- [19:02] were able to directly to their inbox
+- [19:03] give them a lot of free value and
+- [19:06] hopefully convince them to book in a
+- [19:08] full call. So, now that we have this
+- [19:10] workflow set up, what I'm going to do is
+- [19:11] unpin all of this data and hit save. And
+- [19:14] now I'm going to activate this workflow.
+- [19:16] So, now it is turned on and it says you
+- [19:19] now make calls to your production URL.
+- [19:21] So, what we have to do is go back into
+- [19:23] our web hook and we have to switch this
+- [19:25] to production and grab this production
+- [19:27] URL. Now, keep in mind it's always going
+- [19:30] to by default when you open up this web
+- [19:31] hook node, it's always going to look
+- [19:33] like it's on the test. But don't worry
+- [19:34] about that. As long as you give your
+- [19:37] front end base 44, as long as we give it
+- [19:39] this production URL, it will call it.
+- [19:42] And I'll show you guys what I mean by
+- [19:43] that right now. This is all saved. I'm
+- [19:45] going to go back into our website and
+- [19:47] I'm going to say please update the web
+- [19:48] hook to this following web hook.
+- [19:51] Everything else can be the same. So
+- [19:52] hopefully it understands what I mean by
+- [19:54] that. I'm going to shoot that off and it
+- [19:55] should be basically updating this button
+- [19:57] to go to this new web hook address
+- [19:59] rather than the old one that we gave it.
+- [20:01] So it says that it updated the web hook
+- [20:03] to the new endpoint. We see that our
+- [20:05] workflow is active. And what I'm going
+- [20:06] to do now is just make another request
+- [20:08] and we'll see if it's actually capturing
+- [20:09] it or not. Okay, so I filled in some
+- [20:11] information. We're going to go ahead and
+- [20:12] submit that. We can see your information
+- [20:14] has been received. I'm going to go to
+- [20:16] our edit in workflow and I'm going to
+- [20:18] click on executions and we should see
+- [20:20] nice it is running. So this is going to
+- [20:23] run for I don't know maybe a minute or
+- [20:24] so and once that's finished up we'll see
+- [20:26] that it's done and then we'll go take a
+- [20:28] look at our email that we should have
+- [20:30] gotten from this landing page. Also, one
+- [20:33] quick thing that I felt obligated to
+- [20:34] make sure you were all aware of. If you
+- [20:36] are doing this and you're giving out
+- [20:37] your link to random people, when they
+- [20:40] submit a request on your site and your
+- [20:42] web hook captures it, this is going to
+- [20:43] be using your API credits. So if someone
+- [20:46] decides that they want to submit a,000
+- [20:47] requests on your website, you would be
+- [20:49] the one paying for those thousand
+- [20:50] requests when it comes to running those
+- [20:52] AI models in NIDN. So just wanted to
+- [20:54] make sure you guys were all aware of
+- [20:55] that and just something to keep in mind.
+- [20:57] All right, so you can see that this just
+- [20:58] finished up. I just wanted to real quick
+- [21:00] prove to you guys that this is the one
+- [21:01] that we just submitted. As you can see,
+- [21:03] this came from Nate. Nate
+- [21:05] Nateherk@gmail.com. And this was exactly
+- [21:07] what I typed in there. And the email has
+- [21:09] been sent. So let's hop over and see
+- [21:11] what it looks like. Okay, so we got your
+- [21:13] free AI implantation guide once again.
+- [21:15] Meeting prep, automation, proposal, and
+- [21:17] road map. Notice that the HTML style is
+- [21:19] consistent with the last one. So we
+- [21:21] always have this basically being the
+- [21:23] format that matches our brand. We have
+- [21:25] transform 20 minutes of manual research
+- [21:27] into automated intelligence. We start
+- [21:28] off again by diagnosing the problem. So
+- [21:30] 20 minutes per meeting manually. We're
+- [21:32] pulling the information from LinkedIn
+- [21:34] and Google. We're hunting through the
+- [21:35] CRM system for deal history and
+- [21:37] transactions and we're creating talking
+- [21:39] points and formulating relevant
+- [21:41] questions. The time impact is at five
+- [21:43] meetings a day. This represents almost 2
+- [21:45] hours lost daily which could be 8 hours
+- [21:47] a week. We then once again highlight
+- [21:49] more pain. Why is this current process
+- [21:51] inefficient? And then we move into our
+- [21:53] three-phased automation road map. We
+- [21:55] start with a quick win MVP which is 1
+- [21:57] hour before every meeting we should
+- [21:59] receive a single DM which is a prep
+- [22:01] sheet for that meeting. This is a really
+- [22:03] cool table. We've have the component, we
+- [22:04] have the tech, and then we have the
+- [22:06] function. So it breaks down the trigger,
+- [22:08] the data enrichment with Apollo or
+- [22:10] people data labs, the CRM integration,
+- [22:12] the AI summary, the news content, and
+- [22:14] then the delivery. We also move into our
+- [22:16] scalable solution once again, which is
+- [22:18] one to two weeks. We have things like a
+- [22:20] cron job, result caching, cost
+- [22:21] optimization, and a dashboard. And then
+- [22:24] when we move into our long-term
+- [22:25] enhancements, we have things like our
+- [22:27] real-time meeting assistant, automating
+- [22:28] follow-ups, knowledgebased gra, and
+- [22:30] analytics layer. And keep in mind what
+- [22:32] you guys would do here is you would
+- [22:34] prompt your AI consultant to maybe even
+- [22:36] dig into your database so that it knows
+- [22:38] a lot about you and your business and
+- [22:39] how you like to do business so that your
+- [22:42] actual implementation guides are more
+- [22:44] accurate and specific to you. Down here
+- [22:46] once again we have estimated ROI. We can
+- [22:48] see that you would get you know payback
+- [22:49] within 3 days. You would make around
+- [22:51] 2500 a month off of this system in ROI
+- [22:54] that is and you would save about 36
+- [22:57] hours a month. Of course, it's going to
+- [22:58] list out some next steps and then the
+- [23:01] nice call to action here. Ready to
+- [23:02] reclaim eight plus hours per week and
+- [23:04] never walk into an unprepared meeting
+- [23:06] again? Well, book in a discovery call
+- [23:08] right here. So, that is the example of
+- [23:10] what we have. And you can see in total
+- [23:13] that took me like maybe 30 minutes if
+- [23:15] that to build a front-end landing page
+- [23:17] like this that's very professional
+- [23:19] looking. This took less than 10 minutes.
+- [23:21] And just imagine where I could get if I
+- [23:22] spent another hour on it. And then we
+- [23:24] built a back-end automation that only
+- [23:26] utilizes two agents, one to do the
+- [23:28] consulting and one to do the style. And
+- [23:30] once again, this took me less than 10
+- [23:31] minutes. So all you would need to do is
+- [23:33] create your own landing page and then
+- [23:35] create your own AI consultant. And then
+- [23:37] you can start throwing this out there as
+- [23:39] a value ad lead magnet. And back in base
+- [23:42] 44, what you see in the bottom left is
+- [23:45] ready for a custom domain, just go ahead
+- [23:46] and connect one. So if I wanted to
+- [23:48] connect one, all I'd have to do is buy a
+- [23:50] new domain or connect it here. So any
+- [23:53] single domain you have, you can make it
+- [23:55] host your base 44 web app. You also can
+- [23:58] see analytics, you can have users, you
+- [24:00] can add security, you've got logs, all
+- [24:02] this kind of stuff that you can add. So
+- [24:04] you can manage your full website and of
+- [24:06] course send all of your data to a
+- [24:07] backend automation like Naden. So the
+- [24:09] way that this works is through credits.
+- [24:11] And you can see you can start for 20
+- [24:12] bucks a month and you can get 100
+- [24:14] monthly credits. And just for reference,
+- [24:15] you're getting charged a credit every
+- [24:17] time you basically send it a message. So
+- [24:19] the more detailed you are, the better.
+- [24:21] But you can see in just this web app, I
+- [24:23] probably only used 10 credits. There's a
+- [24:25] link down in the description if you want
+- [24:26] to check out B4 for yourself. So go
+- [24:28] ahead and get over there. So if you guys
+- [24:30] want to spin up a lead magnet like this
+- [24:32] and you're looking for some support or
+- [24:33] you're looking to connect with some
+- [24:34] other people that are already doing
+- [24:35] something like this, then definitely
+- [24:37] check out my plus community, the link
+- [24:38] for that is down in the description.
+- [24:39] We've got a great community of over 200
+- [24:41] members who are building with naden
+- [24:42] every day. A lot of these people are
+- [24:44] also running businesses with NAND every
+- [24:46] day. We've got a classroom section with
+- [24:47] three full courses. Agent Zero is the
+- [24:49] foundations of AI automation for
+- [24:51] beginners. We've got 10 hours and 10
+- [24:53] seconds where we dive into NN. And then
+- [24:54] we have a new course for annual members
+- [24:56] called One Person AI Agency where you
+- [24:59] learn how to lay the foundation for a
+- [25:00] scalable AI automation business. So, I'd
+- [25:02] love to see you guys in these live calls
+- [25:04] in the community. But that's going to do
+- [25:05] it for today's video. If you enjoyed or
+- [25:07] you learned something new, please give
+- [25:08] it a like. It definitely helps me out a
+- [25:09] ton. And as always, I appreciate you
+- [25:11] guys making it to the end of the video.
+- [25:13] I'll see you on the next one. Thanks so
+- [25:15] much everyone.

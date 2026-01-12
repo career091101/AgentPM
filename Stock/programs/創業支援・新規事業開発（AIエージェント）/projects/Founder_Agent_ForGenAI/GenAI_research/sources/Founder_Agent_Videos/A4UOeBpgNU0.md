@@ -1,0 +1,582 @@
+---
+title: "YouTube Video: A4UOeBpgNU0"
+video_id: "A4UOeBpgNU0"
+video_url: "https://www.youtube.com/watch?v=A4UOeBpgNU0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  So this next fireside chat will have you thinking about Agentic AI and how it can reshape enterprise architecture. Please welcome Arman with IBM and Sam with Red Dragon AI. Good morning everyone. It's...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: A4UOeBpgNU0
+
+- URL: https://www.youtube.com/watch?v=A4UOeBpgNU0
+- Retrieved at: 2025-12-30T09:55:30+09:00
+
+## Text
+
+- [00:00] So this next fireside chat will have you
+- [00:02] thinking about Agentic AI and how it can
+- [00:04] reshape enterprise architecture. Please
+- [00:07] welcome Arman with IBM and Sam with Red
+- [00:11] Dragon AI. Good morning everyone. It's
+- [00:13] nice to see everyone so early. Um Aman,
+- [00:17] what I thought we'd start off with is so
+- [00:19] we were having a really interesting
+- [00:20] conversation backstage that both of us
+- [00:22] have sort of worked in AI when it really
+- [00:24] wasn't cool at all and we've sort of
+- [00:27] seen changes over the years. I thought
+- [00:29] let's start off. What are you seeing uh
+- [00:31] at IBM? Some of the changes since sort
+- [00:34] of the generative AI revolution sort of
+- [00:36] took off. What are you saying customers
+- [00:38] want? What are you seeing sort of
+- [00:40] products that kind of thing? Yeah. Well,
+- [00:43] thank you and uh glad to be here. I've
+- [00:46] been working in AI for 14 years and we
+- [00:49] were talking backstage. I was working AI
+- [00:51] when AI was not cool. At some point, not
+- [00:53] that long ago, I was on the on the side.
+- [00:55] you just go do your AI thing here on the
+- [00:57] corner. We're here in the company to go
+- [00:59] make money on other things, right? Uh
+- [01:02] predictive analytics, statistics,
+- [01:04] machine learning, deep learning, and
+- [01:06] then uh I I always say Chad GPT did the
+- [01:10] marketing that we've been trying to do
+- [01:12] with Watson for the last 10 years. Uh we
+- [01:15] put billions of dollars to try to
+- [01:16] promote AI and didn't do the click. The
+- [01:19] technology was not there. Uh but uh with
+- [01:22] LLMs, everything changed. So um as you
+- [01:25] know um we acquired Red Hat a few years
+- [01:28] ago and that was for us like the
+- [01:30] beginning of um going after customers
+- [01:33] that were we we saw a trend that they
+- [01:35] were not committing to one single cloud
+- [01:37] provider. They had this ask to go
+- [01:39] multicloud and with AI we've seen
+- [01:43] exactly the same pattern happening all
+- [01:44] over again. Customers are not going all
+- [01:46] in in one single LLM or one single
+- [01:49] provider. They want a lot of
+- [01:50] flexibility. So yeah, big of the focus
+- [01:53] has been to provide a platform that
+- [01:56] provides all that flexibility for
+- [01:57] customers to go build different use
+- [01:59] cases. So so that's something really
+- [02:01] interesting that IBM didn't really get
+- [02:03] in the whole sort of fight to be the
+- [02:05] foundation model and is that because
+- [02:08] that you guys saw that people just
+- [02:09] wanted so many different solutions? We
+- [02:11] we tried in fact we have our family of
+- [02:14] LLMs uh you can go check it out is
+- [02:16] Granite which we later open source I can
+- [02:19] tell you about the whole story there. Uh
+- [02:21] so we do have very good small uh
+- [02:23] language models that are very easy to
+- [02:25] customize. Our big obsession is cost per
+- [02:28] token and how for task specific uh use
+- [02:32] cases you can get even better
+- [02:35] performance that uh with LLMs that are
+- [02:37] like 100 times larger size and they are
+- [02:40] very easy to customize. So we are
+- [02:41] obsessed with all our customers they
+- [02:43] have a lot of data and how they can
+- [02:45] leverage that data for genai. We believe
+- [02:48] that's the the secret sauce, the secret
+- [02:50] IP. Uh but uh we didn't go into a big
+- [02:53] fight to go compete with uh OpenAI,
+- [02:57] Gemini and all these very very large
+- [02:59] models and we just partnered with them
+- [03:01] and we I'm bringing my Mistral hat.
+- [03:05] They are a big partner of ours as well.
+- [03:06] So yeah, we provide a lot of choice for
+- [03:08] our customers. So I I know that sort of
+- [03:11] based on that you're sort of launching a
+- [03:13] new product this week, right? That Yeah.
+- [03:15] Yeah. Um so we following that pattern we
+- [03:19] started with thinking okay the market is
+- [03:22] going to choose one LLM and you remember
+- [03:24] maybe two years ago the big conversation
+- [03:26] was like one LLM that will rule them all
+- [03:29] and so on. Then we very quickly went
+- [03:31] into uh distributed AI systems and a lot
+- [03:34] of choice and I think the the biggest
+- [03:37] ones that made a big statement in the
+- [03:38] market with open source were Mistral and
+- [03:40] Lama from Meta. Um and then we came with
+- [03:44] our granite series as well open source
+- [03:46] but at the end of the day customers they
+- [03:47] just don't want one model or the other
+- [03:49] they also want sometimes closed source.
+- [03:51] I have a talk actually this afternoon to
+- [03:53] cover on that topic. So we are releasing
+- [03:55] a a model gateway. So we have customers
+- [03:57] that maybe they want open source on on
+- [04:00] one use case running on one inference
+- [04:02] stack and for some other use case they
+- [04:04] want to go tap directly into um bedrock
+- [04:06] on AWS and for another use case they
+- [04:08] want to use Google cloud with Gemini on
+- [04:11] GCP. So uh that gateway is providing our
+- [04:15] customers a single layer of uh with a
+- [04:17] single API to go switch from one API to
+- [04:20] one LM to another LM and add
+- [04:22] observability and governance all
+- [04:23] throughout. So and that sort of helps
+- [04:25] protect them with
+- [04:26] and provides ultimal flexibility really.
+- [04:28] they can have their own inference stack
+- [04:30] on prem for one use case maybe someone
+- [04:32] some use case that is very sensitive on
+- [04:34] on data security and and compliance and
+- [04:36] then for something less risky they can
+- [04:39] go tap into some public API so for for a
+- [04:41] typical org that you're working with how
+- [04:43] many LLMs are they actually using I mean
+- [04:45] I when I sit in front of a customer they
+- [04:48] are using everything they they have
+- [04:49] access to everything like for coding uh
+- [04:52] they love entropic and and for some
+- [04:55] other use case for reasoning they like
+- [04:56] 03 and Then for uh LLM customization
+- [05:00] with their own data and do tuning they
+- [05:02] like e either our granite series or
+- [05:05] mistral with their small models or even
+- [05:06] llama. So they they have the full stack
+- [05:10] it it's just matching uh the the LLM to
+- [05:13] the right use case and and then they we
+- [05:16] help them as well to make
+- [05:17] recommendations. So that really sort of
+- [05:18] blows out the water of this idea that
+- [05:20] people are just going to pick one model
+- [05:22] and they they have them all. So I I like
+- [05:25] to say we like to be kind of like the
+- [05:26] control tower of all those AI workloads.
+- [05:29] No matter where where they are happening
+- [05:31] and and yeah and and they can build
+- [05:34] agents with our full stack and if you
+- [05:35] are fully uh vertical we provide some
+- [05:38] very nice optimizations but at the end
+- [05:40] of the day they will use Salesforce
+- [05:43] agent for service now their own thing
+- [05:45] for for uh some custom use cases. So we
+- [05:48] want to be at the center uh handling all
+- [05:50] that all those workloads. So, so I think
+- [05:52] that's really interesting because you're
+- [05:53] getting a snapshot of sort of what are
+- [05:55] you know IBM's obviously got a lot of
+- [05:57] big customers and stuff. I What are the
+- [05:59] other things that people are starting to
+- [06:01] delve into? Like we're we're now seeing
+- [06:02] you had a really interesting post
+- [06:03] recently on LinkedIn about agents and
+- [06:05] the different waves of agents. Uh what
+- [06:08] are you seeing your customers do with
+- [06:09] agents now? Yeah, big part of my focus
+- [06:13] and I also encourage you to to check
+- [06:15] some of my content on LinkedIn because I
+- [06:16] try to be quite provocative there. uh
+- [06:19] but uh at the beginning was chat bots
+- [06:21] for everything and I don't want to say
+- [06:25] like chat we should all have our
+- [06:27] personal chatbot customized with access
+- [06:29] to our tools like everyone in in in our
+- [06:32] company should have that for sure but if
+- [06:35] you are just doing chat bots or you're
+- [06:36] only trying to do cost savings with AI
+- [06:39] you are not doing AI I think AI is
+- [06:41] really about completely transforming the
+- [06:44] workflow and the way work is done and
+- [06:46] and yeah we I'm very passionate about
+- [06:49] that topic to completely reshuffle the
+- [06:51] the the use cases completely and and I
+- [06:55] can give you some examples of things
+- [06:56] that we do internally at IBM or things
+- [06:58] that we do with customers. Do you want
+- [07:00] to give us give us a Yeah. Like I know
+- [07:02] sort of at Red Dragon AI one of the
+- [07:03] things that we're seeing taking off a
+- [07:04] lot is triggered agents. So agents that
+- [07:07] are not necessarily activated by a chat
+- [07:10] sort of in thing but some kind of you
+- [07:11] know could be IoT, it could be something
+- [07:13] else that triggers the agent to take
+- [07:15] off. Yeah. So um a term that is um being
+- [07:20] used a lot this year is orchestration
+- [07:22] right um and in fact we have a a product
+- [07:25] called uh Watson orchestrate what's on X
+- [07:28] orchestrate which has been around for
+- [07:30] for for a while now and it's this
+- [07:33] concept of and and Jensen put that very
+- [07:35] well on on his GTC keynote you have this
+- [07:38] super agent at the beginning that is
+- [07:39] kind of like a router that will uh
+- [07:41] invoke other agents right and then we
+- [07:44] can go into protocols for that agent to
+- [07:46] agent communication but for example in
+- [07:48] HR we have our HR agent I mean I used to
+- [07:53] talk to HR I I I'm leading an
+- [07:54] organization with over 600 people right
+- [07:56] now so um I used to spend a lot of time
+- [08:00] talking to my HR partners for a lot of
+- [08:02] things I handle most of it now with a
+- [08:05] with an HR agent and depending on on the
+- [08:08] question if it's something about
+- [08:09] compensation or it's something about uh
+- [08:12] just handling a separation or hiring
+- [08:14] someone or doing a promotion And all
+- [08:16] these things will connect with different
+- [08:18] HR or internal systems and they those
+- [08:20] will be like separate agents. So you
+- [08:22] have the core agent that is kind of uh
+- [08:24] routing to different agents and and what
+- [08:27] is also very interesting is how we are
+- [08:29] reinventing the interfaces right. This
+- [08:31] is not taking giving you like the text
+- [08:33] with the instructions and you need to go
+- [08:34] follow step by step. It's allowing you
+- [08:36] to do things in context and complete
+- [08:39] full actions directly uh within the
+- [08:42] interface of the of the agent which I
+- [08:44] think is also another part that is very
+- [08:46] critical is reinventing like user
+- [08:48] interfaces. We are used to micromanage
+- [08:51] computers. everything we want the
+- [08:53] computer to do, we need to click and
+- [08:54] tell the computer what to do and agents
+- [08:56] is going to help us just go from A to B
+- [08:59] to C much faster. So you you kind of
+- [09:02] brought up this whole idea of multi-
+- [09:04] aents and you also mentioned protocols.
+- [09:06] I know one of the things that has been
+- [09:08] interesting that IBM has been working on
+- [09:10] is developing some of these protocols
+- [09:12] themselves. Uh you've got a new protocol
+- [09:15] or it's been out for a little while now
+- [09:16] called ACP which you've donated to Linux
+- [09:19] Foundation. Is that right? Yeah. Yeah.
+- [09:21] Yeah. So I mean I I'm a I'm very
+- [09:23] passionate about protocols because we
+- [09:25] tackle some of these implementations
+- [09:26] very early on and what happens is that
+- [09:28] we start doing a lot of custom
+- [09:30] development to connect to every single
+- [09:32] API to every single tool to do like a
+- [09:35] specific agent to agent communication.
+- [09:37] So I think protocols like in the
+- [09:39] internet are helping. It's like it's
+- [09:41] like manners when we are speaking uh
+- [09:43] between us right it's like saying please
+- [09:45] and thank you you that helps have a
+- [09:48] smooth communication so you see these
+- [09:50] protocols now raising um so MCP we all
+- [09:54] love it so I think we have a slide about
+- [09:57] yeah yeah we we comparing some of these
+- [09:59] so we have MCP which is really like the
+- [10:01] protocol that is allowing us to do like
+- [10:04] this connection to to all the
+- [10:06] application SAS APIs and and make that
+- [10:08] very simple Um we announced ACP in here
+- [10:12] in actually here in in formation um in
+- [10:16] in March and then two weeks later Google
+- [10:18] announced A2A and those two are really
+- [10:21] doing the same the thing that I was
+- [10:22] talking about like we we we see this
+- [10:26] market of having a lot of different
+- [10:28] agents and they need to communicate
+- [10:30] between them and and we were doing all
+- [10:32] these build uh custom builds and
+- [10:34] development for that communication and
+- [10:36] we are we've been developing protocols
+- [10:38] in order to do that. um ACP and now
+- [10:42] since yesterday A2A they are both part
+- [10:43] of the Linux Foundation. I think that's
+- [10:45] very good news because we have open
+- [10:46] governance and a lot of companies
+- [10:48] contributing. The difference between
+- [10:51] them is mostly on the technical side.
+- [10:54] Yeah. You you've been checking ACP
+- [10:55] lately. Yes. Yes. Is it know it's
+- [10:57] interesting um you've definitely got
+- [10:59] some nice things that with ACP where you
+- [11:01] don't need an SDK. I I find it really
+- [11:04] kind of interesting with both of these
+- [11:06] at the moment. Everyone's sort of
+- [11:07] talking about multi-agent strategy and
+- [11:09] they're really talking about agents in
+- [11:10] their own org. But it does seem sort of
+- [11:13] going forward that you will have like
+- [11:15] one provider of a specific agent that
+- [11:17] your your agent will reach out to them
+- [11:19] to maybe process PDFs. They'll reach out
+- [11:22] to some other you know things and maybe
+- [11:24] even sort of negotiate with two or three
+- [11:26] to work out the best price and then you
+- [11:28] know do all this on the fly. Tell us a
+- [11:30] little bit about that future. I think
+- [11:32] you you've sort of looked at the similar
+- [11:33] kind of thing. Yeah. Yeah. So just to be
+- [11:36] clear, I think the difference between
+- [11:38] ACP and A2A is rather technical and uh
+- [11:42] if you're doing an implementation, I
+- [11:43] think you need to pay attention on on so
+- [11:45] uh how the communication between the the
+- [11:49] um the agents work and how like the
+- [11:52] simplicity to integrate that is is
+- [11:55] mostly at that I think eventually all
+- [11:57] these things will converge and become
+- [11:58] even simpler. Um, one part I'm very
+- [12:01] focused on is I and I have
+- [12:04] responsibilities everything what we call
+- [12:05] agent ops and monitoring uh evaluation.
+- [12:10] We released a tracing service last
+- [12:11] Friday. It's on closed beta as well and
+- [12:14] then um governance. So um yeah we we see
+- [12:19] our some of our customers that are doing
+- [12:21] pilots they have already over 100 agents
+- [12:23] and and we see this agentic storm coming
+- [12:26] in. So we are building kind of like
+- [12:28] those interfaces. So you can monitor all
+- [12:30] those agents and then you have a tracing
+- [12:33] service that is basically capturing
+- [12:34] every single trace everything that is
+- [12:36] happening in the AI system and you are
+- [12:39] very quickly overwhelmed. So we're
+- [12:40] adding an agent on top that will help
+- [12:43] you navigate all that information. So I
+- [12:45] think in this crazy world where you have
+- [12:48] all this agent to agent communication um
+- [12:50] is important to have that uh monitoring
+- [12:52] under control. And I really like the
+- [12:54] that I'm sure many of you watched the um
+- [12:57] Andre presentation last week. He could
+- [13:01] talk about an AI slider um like full
+- [13:04] automation. I think we're really far
+- [13:05] especially in the enterprise, but like
+- [13:08] there there are a lot of use cases where
+- [13:09] you you can have a lot of human in the
+- [13:11] loop checkpoints and you can get a lot
+- [13:13] of value. Yeah. So I I think that's a
+- [13:16] really interesting point. A lot of us
+- [13:17] are sort of seeing that people who are
+- [13:19] actually building agents realize you
+- [13:22] don't want to give these things high
+- [13:23] agency. You don't want to give them too
+- [13:25] much sort of free will. Uh you actually
+- [13:28] want to sort of have them on rails. You
+- [13:30] want to have them in a way that they can
+- [13:32] be checked by humans. That kind of
+- [13:33] thing. I how are you can you give us an
+- [13:36] example with customers or something with
+- [13:38] that? That was really Yeah. And and
+- [13:39] there was also some someone that posted
+- [13:41] something similar and we experienced
+- [13:43] that like you can have like coding
+- [13:44] coding has been one of the top use cases
+- [13:46] and I think you you saw here yesterday
+- [13:48] some demos as well about that. So coding
+- [13:51] is I mean developers are creating tools
+- [13:53] for developers. So it's obvious that is
+- [13:55] the first use case. Uh but if you see an
+- [13:58] a coding agent you are not going to put
+- [14:00] the coding agent to do like a two-hour
+- [14:01] task. We ask the agents to do a specific
+- [14:03] task that usually take a few minutes you
+- [14:06] know. So yeah like that full agency uh
+- [14:09] that of like go create an app and do
+- [14:12] everything to put it all the way into
+- [14:13] production is not happening. You ask you
+- [14:16] have those agents to do like micro task
+- [14:18] and they are getting better at do them
+- [14:19] end to end but they are not able to do
+- [14:22] like the full job entirely. So um we
+- [14:25] will get there eventually but still even
+- [14:27] if we get there we need to have all that
+- [14:30] monitoring tracing that I mentioned and
+- [14:33] and that should be what what I what I
+- [14:35] experienced over the last decade working
+- [14:37] in ML. This is always an afterthought
+- [14:40] and it has to be built in from the very
+- [14:42] beginning because otherwise then it's
+- [14:43] after to to set it up. So I'm really
+- [14:46] curious to find from you you obviously
+- [14:48] you're working with a lot of sort of top
+- [14:49] companies etc. a Fortune 100 company,
+- [14:52] how many agents do you think they're
+- [14:53] going to end up having sort of a year
+- [14:55] from now, two years from now, three
+- [14:57] years from now? Yeah, I I think every
+- [14:59] employee will have like between five and
+- [15:02] 10 mini agents. And I'm I'm something
+- [15:04] I'm very passionate about as well is B
+- [15:06] coding uh for the enterprise. Um because
+- [15:10] I think I mean we I I can tell you a use
+- [15:13] case that I'm facing right now. We we
+- [15:15] send uh spreadsheets um for some some
+- [15:19] specific ask that we do to all my
+- [15:21] managers in my orc and they send me
+- [15:22] spreadsheets and then I have to I have
+- [15:25] someone consolidating the input from all
+- [15:27] those spreadsheets. We can create agents
+- [15:28] for that to do that consolidation. But
+- [15:31] we are thinking okay we can do by coding
+- [15:33] and just create a quick application for
+- [15:37] something very specific that will
+- [15:39] automatically h get all the data
+- [15:41] consolidated into into one single
+- [15:43] dashboard. So we don't have like uh 50
+- [15:45] spreadsheets floating around every every
+- [15:48] two weeks. Uh we could have an agent to
+- [15:50] do the consolidation or we can even
+- [15:52] build an an app and with VIP coding you
+- [15:54] can have someone that is not an expert
+- [15:57] on on on the development side to create
+- [15:59] some of that. So I think yeah between
+- [16:01] five and 10 agents for different task
+- [16:03] will be like regular. So we okay that's
+- [16:06] really interesting. So when you talk
+- [16:07] about vibe coding, I'm guessing you're
+- [16:08] not just talking about sort of
+- [16:10] traditional coders or programmers.
+- [16:12] You're talking about other marketers,
+- [16:14] other people. Right. Right. Right. Yeah.
+- [16:15] Yeah. And then and um I'm a big fan of
+- [16:17] Lovable. I don't know if you if you used
+- [16:20] it. Uh but I I actually recommend
+- [16:22] everyone in in my teams to and to my
+- [16:25] customers to go try it out. Don't get
+- [16:27] scared thinking, hey, this is for
+- [16:28] developers. just spend like two or three
+- [16:30] hours and you will be blown away because
+- [16:32] I'm sure like everyone has like a
+- [16:35] million ideas on how to improve this or
+- [16:37] that or things maybe for their personal
+- [16:39] consumption and in two or three hours
+- [16:41] you will get those ideas done that
+- [16:43] doesn't mean that they are ready for
+- [16:44] production that doesn't mean that they
+- [16:46] are secure or ready for enterprise but
+- [16:48] you will see the art of the possible of
+- [16:49] what's coming and two weeks ago it was
+- [16:52] completely free for the entire weekend
+- [16:54] and my wife and the kids were out for
+- [16:55] the weekend so I literally spent 20
+- [16:57] hours that weekend just doing a lot of
+- [17:00] things and that I didn't code for the
+- [17:02] for the last five or six years and it's
+- [17:04] amazing how much I got done. So uh
+- [17:07] yesterday in the workshop that I did
+- [17:09] there was it was really interesting that
+- [17:10] there were a lot of people there who
+- [17:12] weren't you know uh technical at all yet
+- [17:14] sure enough they had tried some of these
+- [17:16] tools they were now looking into sort of
+- [17:18] building their own agents that kind of
+- [17:20] thing I as we sort of go forward into
+- [17:23] this new world what what do you think
+- [17:25] those kind of people are going to want
+- [17:27] in in sort of products so you mentioned
+- [17:29] a really interesting one that perhaps
+- [17:30] those people are not going to be able to
+- [17:31] build software that's totally secure so
+- [17:34] you will have maybe other agents that
+- [17:36] make it secure or things like that. Do
+- [17:38] you put see foresee that? Yeah. Yeah.
+- [17:39] Absolutely. I think that's why I'm
+- [17:41] saying like there is a something about
+- [17:43] coding for the enterprise and uh
+- [17:46] something that we are working as well is
+- [17:48] there are cataloges of agents that are
+- [17:50] off the shelf that should be like
+- [17:52] approved by your uh company and
+- [17:54] procurement and and so on. We're working
+- [17:56] as well on on tool cataloges that are
+- [17:58] fully compliant. And I I mean one of the
+- [18:01] big gaps of NCP is security and access
+- [18:04] control and it's been improving and uh
+- [18:06] the community has been asking for it and
+- [18:09] and contributing. I think we're going to
+- [18:11] get we're going to get there like the
+- [18:13] holes are much larger because when you
+- [18:15] have when you lose control with
+- [18:17] automation uh you need to have very
+- [18:19] strong protocols and very strong
+- [18:20] guardrails on all those solutions but uh
+- [18:23] yeah I think we're we are we're we're
+- [18:24] getting there. It's like the next 18
+- [18:26] months will be super powerful. So
+- [18:27] another application uh something that we
+- [18:29] acquired u recently is called data
+- [18:32] stacks uh it's a big um database company
+- [18:35] but they they acquire a company in
+- [18:37] Brazil called Langflow which allows
+- [18:40] users to do like aentic solutions end to
+- [18:43] end with a visual interface. So again
+- [18:46] like giving we I'm I've been obsessed
+- [18:48] over my career of giving power to to
+- [18:50] knowledge workers andmemes to take
+- [18:53] benefits of machine learning and AI and
+- [18:55] I think there will be like a combination
+- [18:57] of solutions no code low code agent
+- [19:00] builders VI coding it's all going into
+- [19:02] that direction. Okay so I'm conscious
+- [19:04] that we've only got a bit over a minute
+- [19:05] left. Let me put you on the hot seat. Um
+- [19:08] time frames right because everyone knows
+- [19:11] that everyone can predict time frames
+- [19:12] right. What do we see a year from now?
+- [19:14] what do we see like you know going out
+- [19:16] or or even sort of six months from now
+- [19:18] like I've been amazed just how much the
+- [19:20] sort of coding thing has changed in the
+- [19:22] last six months tell us what what do you
+- [19:24] think is going to happen in the
+- [19:26] workplace in the workplace yeah yeah
+- [19:27] yeah I think I mean if you use chajp um
+- [19:30] I mean for me the biggest feature of
+- [19:31] chajp is a connection to tools and
+- [19:33] memory I think we will see exactly this
+- [19:35] like you need to be in six months from
+- [19:37] now at that same level with your
+- [19:39] company's information if you are not
+- [19:40] doing that you are lag behind uh and
+- [19:43] then and Then from there I think that's
+- [19:45] the that's the base to start thinking on
+- [19:48] um on agentic workflows and reinvention
+- [19:51] of of the way you do use cases and I
+- [19:54] think just remember everyone we are in
+- [19:56] in day zero still in AI. So uh yeah
+- [19:59] there is there is so much to build and I
+- [20:02] I keep saying everyone needs to learn AI
+- [20:04] and especially business leaders need to
+- [20:07] be AI first leaders and and understand
+- [20:10] the concepts. I think that's a great
+- [20:11] point to wrap it up on. Thank you Aman.
+- [20:13] Thank you very much. Thank you so much.
+- [20:14] Thanks everyone.

@@ -1,0 +1,803 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=qsO5jVrzoas"
+video_id: "qsO5jVrzoas"
+video_url: "https://www.youtube.com/watch?v=qsO5jVrzoas"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "PMF", "AI", "team_building", "product_development"]
+topics: ["プロダクト開発", "組織構築", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=qsO5jVrzoas
+  - Retrieved at: 2025-12-30T16:25:29+09:00
+  - [00:01] One thing that I absolutely don't
+key_points:
+  - "- [00:27] agent should do. how the agent will do"
+  - "- [00:32] for you but what it should do how the"
+  - "- [00:35] flow should be there that's the process"
+  - "- [00:45] it's nothing magical you just need to"
+  - "- [01:40] thing you need to understand is the"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: qsO5jVrzoas
+
+- URL: https://www.youtube.com/watch?v=qsO5jVrzoas
+- Retrieved at: 2025-12-30T16:25:29+09:00
+
+## Text
+
+- [00:01] One thing that I absolutely don't
+- [00:03] understand is why you have to wrap up
+- [00:06] everything with so much of complication
+- [00:09] that it is painfully hard to see that
+- [00:12] people are struggling so much to
+- [00:13] understand a concept. Agentic AI is not
+- [00:17] that of a complex subject. You can
+- [00:19] easily understand it even you can easily
+- [00:22] build also what's complicated and what's
+- [00:25] tough is the thought process of what my
+- [00:27] agent should do. how the agent will do
+- [00:30] that's the easy process you can just
+- [00:31] write code and it will do some things
+- [00:32] for you but what it should do how the
+- [00:35] flow should be there that's the process
+- [00:37] that's the thought process and that's
+- [00:38] the difficult thing so in this video I
+- [00:40] will walk you through what is agentic AI
+- [00:43] how is it different from generative AI
+- [00:45] it's nothing magical you just need to
+- [00:47] understand it and once we understand it
+- [00:50] we go through with all the theoretical
+- [00:51] process and again I'll not give you all
+- [00:53] those classic definition no we'll we are
+- [00:56] here to understand the topic and exactly
+- [00:58] That's what I'm going to introduce you
+- [00:59] to that once we are done with this I
+- [01:02] will help you to code out an agent. Yes,
+- [01:05] we are going to do that and after coding
+- [01:07] that agent we're going to debate that
+- [01:09] how this can be considered as an agentic
+- [01:11] AI or not that will help us to clear all
+- [01:14] the doubts that we have. So buckle up
+- [01:16] and subscribe if you haven't because we
+- [01:18] are going into the world of uh data
+- [01:21] science and especially the AI world my
+- [01:24] favorite part of it. So get ready to
+- [01:26] write some Python code along with me.
+- [01:28] But first before doing that let me take
+- [01:30] you onto the board and let's discuss
+- [01:32] that what is agent and how the agentic
+- [01:34] AI and everything is uh different. So
+- [01:37] generative AI and agentic AI. So one
+- [01:40] thing you need to understand is the
+- [01:42] whole thing is actually centered around
+- [01:44] LLM the large language model. These are
+- [01:47] the brain and it would not be wrong if I
+- [01:49] just go ahead and write them as hey
+- [01:51] these are all the brain. It gives you
+- [01:52] the all capabilities and the capacity to
+- [01:55] think to reason to all these things. So
+- [01:57] LLM are just brain and let's go ahead
+- [01:59] and connect this just like that. This is
+- [02:02] your brain and what we have seen so far
+- [02:04] is generative AI. So how is this
+- [02:06] generative AI different from agentic AI?
+- [02:09] Just very simple thing your generative
+- [02:11] AI is dependent on your input and once
+- [02:14] you give this input it goes ahead and
+- [02:17] gives you an output and that is all it
+- [02:19] does. It has no other capabilities. You
+- [02:23] ask it a question, it's going to give
+- [02:24] you a result and that is your generative
+- [02:26] AI. If you want to get more output, you
+- [02:30] have to give it more of input. That is
+- [02:33] it. So this generative AI can be
+- [02:35] considered as one single brain that has
+- [02:38] a lot of capability to think but it
+- [02:40] doesn't have the capability of acting
+- [02:42] it. So if I just go ahead and look for
+- [02:44] it, uh can you go ahead and act for me
+- [02:46] or can take some action for me? uh that
+- [02:49] is the part where it absolutely lags. So
+- [02:51] this has no connection with the action.
+- [02:54] It has just one connection of you give
+- [02:55] it an input and it generates an outword.
+- [02:58] It would not be wrong to say that
+- [03:00] generative AI is a fancy next word
+- [03:03] prediction but instead of predicting a
+- [03:05] word it just predicts a lot more. It has
+- [03:07] a lot more context of it during its
+- [03:09] training process. So when you ask it a
+- [03:11] question it just predicts the whole
+- [03:12] answer for you instead of predicting a
+- [03:14] word. When you ask it to write a code
+- [03:16] for you, it just predicts the code and
+- [03:18] probably sometimes predict more than one
+- [03:20] code and you just have to find out which
+- [03:22] one suits best for you. Nothing more
+- [03:23] than that. We need to stop putting this
+- [03:26] as some kind of a magic. It is not. All
+- [03:29] right. So if that's the case, what's the
+- [03:32] difference between the agentic AI? Now
+- [03:34] agentic AI as we mention them always,
+- [03:38] it's like you have a brain but now your
+- [03:40] brain has more body parts. you have
+- [03:41] given it hands and legs and probably
+- [03:44] more capability to do the action. So the
+- [03:47] first and the most important part of
+- [03:50] agentic AI is it can take action. How
+- [03:53] you might be thinking don't worry I'll
+- [03:54] walk you through with that. In fact I
+- [03:56] have uh created a course around it. It's
+- [03:58] available on YouTube by the way. It's
+- [04:00] totally free. So the whole goal is the
+- [04:04] ability to take action but agentic AI is
+- [04:07] not just going to take the action
+- [04:08] because that doesn't really make it true
+- [04:10] agentic. We need to give it more
+- [04:12] options. So you're going to see
+- [04:13] something like this. First of all
+- [04:15] agentic AI do have a goal or probably
+- [04:19] goals depends what you want to do. So
+- [04:21] they can actually plan the whole things
+- [04:24] and goal is something that you have to
+- [04:25] give. It's not going to find out the
+- [04:27] goal on its own. You have to give that
+- [04:29] whether I want to sort my tickets based
+- [04:31] on priorities or maybe I want to have a
+- [04:34] react application with the to-dos. So
+- [04:36] this is the part where you come in. You
+- [04:38] have to give it once after that. This is
+- [04:40] really good in planning. So an AI agent
+- [04:44] can actually help you in planning the
+- [04:46] whole thing which is required for it.
+- [04:48] And sometimes the user actually does the
+- [04:50] planning with a different LLM model.
+- [04:52] Remember LLMs are just brain. They help
+- [04:54] you to think. So this whole process is
+- [04:56] planning. After that sometime it also
+- [04:59] includes the memory. The memory is it
+- [05:02] just want to store what it want to do or
+- [05:05] probably what it wants to learn. So both
+- [05:07] of the things are available there. Once
+- [05:10] we go through with the memory phase now
+- [05:11] this is totally an optional phase. After
+- [05:13] that we have a reasoning capability. Now
+- [05:16] this is something which is new and again
+- [05:18] the whole reasoning engine that comes
+- [05:20] from the LLM. Yeah that's the part and
+- [05:22] then it also has something known as
+- [05:24] autonomy.
+- [05:26] What is this autonomy? This autonomy
+- [05:29] comes to this entire LLM agent through
+- [05:31] the tools that you design. What are
+- [05:33] these tools? Most of the time they are
+- [05:36] just functions. Uh go ahead and create a
+- [05:38] file. So you have the OS module
+- [05:40] capability to create a file or a folder
+- [05:42] or maybe an autonomy to send an email or
+- [05:45] maybe to check into your email or
+- [05:47] schedule an a calendar event. So these
+- [05:49] are autonomy and that actually comes
+- [05:51] through the tool itself. So nothing is
+- [05:53] done magically. this whole thing if
+- [05:56] anything has something like this as a
+- [05:58] structure or have some parts of it. Yes,
+- [06:01] we can go ahead and call this as an
+- [06:02] agent. So yeah, that's it. So this
+- [06:05] autonomy this comes from the tool itself
+- [06:08] and rest of the things this whole thing
+- [06:10] like reasoning this comes from the whole
+- [06:12] reasoning engine this one comes from an
+- [06:14] LLM any LLM or you can use multiple LLM
+- [06:18] to if you have a reasoning answer is
+- [06:21] there from the chat GPT or the open AI
+- [06:23] you can reason it further with uh Gemini
+- [06:25] or anything so this whole reasoning
+- [06:27] engine yes I call this as a reasoning
+- [06:29] engine this comes from an LLM rest
+- [06:32] memory uh yes we do have some special
+- [06:34] memory memory tools for the AI but
+- [06:35] mostly it's just a database yes with
+- [06:38] different capacity and capability but
+- [06:41] it's just end of the day a meme in
+- [06:42] memory it could be an in-memory uh or it
+- [06:45] could be a dedicated memory designed for
+- [06:47] AI agents like a special database pine
+- [06:50] cone or whatever you are using uh
+- [06:52] planning phase and goal phase this is
+- [06:54] what you have to come into the picture
+- [06:56] and tell uh how this task is going to be
+- [06:58] break down into individual things or
+- [07:00] individual steps or maybe individual
+- [07:03] tools So I hope this gives you an idea
+- [07:05] of how it goes. So again just to
+- [07:07] summarize this goal is something it's a
+- [07:09] highle functionality like I want to
+- [07:11] create a PDF I want to create a to-do
+- [07:14] app with in the react or in the angular
+- [07:16] planning is the phase which determines
+- [07:18] the steps that you want to take to
+- [07:20] achieve a specific goal. This could be a
+- [07:23] steps in five steps and this is where
+- [07:25] all the agents like cursor and windser
+- [07:27] they are all kind of improving that how
+- [07:29] we can actually break it down because
+- [07:31] once it's break down there is no limit
+- [07:33] on the tokens and everything and
+- [07:35] everything can be done easily. The next
+- [07:37] one is a memory. It keeps the track of
+- [07:40] what's already being done or what I need
+- [07:42] to learn from previously tasks that I've
+- [07:44] done so that I can improve and I can
+- [07:46] send this context to the brain again the
+- [07:48] LLM. And then we have this uh reasoning
+- [07:51] capabilities. Uh we call this reasoning
+- [07:53] and autonomy as kind of a reflection as
+- [07:55] well sometime that hey I can take the
+- [07:57] actions and based on that action I can
+- [07:59] see whether this is all good and this
+- [08:01] whole thing is coming up from the brain
+- [08:03] superpower. So what could be the real
+- [08:05] world use cases for it? We will
+- [08:07] definitely go with that but I want to
+- [08:09] just throw some random ideas so that
+- [08:11] maybe you can work with that. So the
+- [08:13] first one could be an AI recruiter.
+- [08:17] how an AI recruiter it can probably go
+- [08:19] with all the resume it can email to the
+- [08:22] candidate and can schedule an interview
+- [08:24] so three steps scan the scan the resume
+- [08:27] email the candidate and schedule the
+- [08:29] interview that's it that is your AI
+- [08:31] agent yes uh what else it could be uh it
+- [08:34] could be a very popular one customer
+- [08:38] support agent it can learn from the
+- [08:40] previous interaction of what already has
+- [08:43] been done it can handle the tickets like
+- [08:46] which ticket should go in the high
+- [08:47] priority, which ticket should be taken
+- [08:50] up by a human itself or how should I
+- [08:52] categorize this or how should I reply it
+- [08:54] directly? That is one thing. And another
+- [08:58] thing which is really popular these
+- [09:00] days, it can be your uh podcast planner.
+- [09:03] Yeah, it can be. So if you give enough
+- [09:06] information to it like who is my guest,
+- [09:08] what he has done in the past and create
+- [09:11] episode notes and all these things, give
+- [09:13] me interesting questions. I want to
+- [09:15] counter the all of this can be planned
+- [09:17] up. So all these planning process can be
+- [09:20] there. And a lot of people might be
+- [09:22] asking all right so it can be used just
+- [09:24] for planning purpose. So where is the
+- [09:26] memory or reasoning or autonomy in that?
+- [09:28] No every agent doesn't need to fulfill
+- [09:30] all of this. It just needs to attain or
+- [09:33] fulfill a certain task. LM is just
+- [09:35] brain. You just chat with it. But agent
+- [09:37] actually does a task. And that task
+- [09:40] might not include memory or might not
+- [09:42] include autonomy. there could be a case
+- [09:45] for that. So that's what we have. All
+- [09:46] right. And apart from this, I also want
+- [09:49] to give you some of the frameworks which
+- [09:51] helps you to do uh these AI agent things
+- [09:53] very easily. Of course, we'll start with
+- [09:56] the very famous one which is langraph.
+- [09:58] Langraph gives you all of this. Uh you
+- [10:00] might have al heard about the auto GBT.
+- [10:03] Pretty popular one. And after that we
+- [10:06] have a new one which is crew AI. It's a
+- [10:08] pretty fantastic one. And we have all
+- [10:10] others as well like there is uh recently
+- [10:13] getting popular which is autogen. Uh but
+- [10:15] again there are many others as well. The
+- [10:17] easiest one to get started in case you
+- [10:19] are looking up for is langraph. It has
+- [10:21] its own overheads and stuff but it's
+- [10:23] very good to start the process and then
+- [10:25] you can migrate to any one of them. So
+- [10:28] now would you like to go ahead and build
+- [10:30] an AI agent? Yeah we can actually go
+- [10:32] ahead and build that. So what's our
+- [10:34] goal? First of all, what we're going to
+- [10:36] do is we're going to build this in
+- [10:37] OpenAI.
+- [10:39] So, basically what I'm saying is the
+- [10:41] brain that I'm going to use is going to
+- [10:43] come from the OpenAI. That's the whole
+- [10:45] idea for it. This will give me the
+- [10:47] brain.
+- [10:49] All right, fair enough. Now, can I use
+- [10:52] some other brains for it? Yeah, you can
+- [10:54] go ahead and use Gemini. You can use
+- [10:55] Enthropic or any other company which is
+- [10:57] providing you something like that. Now,
+- [10:59] what do we want to do now with this
+- [11:01] brain? I will have a list of task in my
+- [11:04] text file. So I'll just add some of the
+- [11:06] task and what I want to do is I want to
+- [11:09] build a classifier.
+- [11:12] I want to do is classification. I want
+- [11:15] that these text should be divided into
+- [11:18] different classification based on low
+- [11:20] priority, medium priority or high
+- [11:21] priority. That is it. I don't want to
+- [11:23] take further actions on it but surely
+- [11:25] the actions can be taken up for that. I
+- [11:27] do have a video on this channel as well
+- [11:29] which actually helps you to divide the
+- [11:31] support tickets into different one but
+- [11:33] we're going to write a shorter version
+- [11:34] of it so that you can see all right it
+- [11:36] can be done in Python it's not that
+- [11:37] really of a big deal so all you have to
+- [11:40] do is go ahead and grab your API keys
+- [11:42] from Gemini or openAI only slight piece
+- [11:45] of code is going to change all right so
+- [11:48] I have this folder let's go ahead and
+- [11:50] yes you can go ahead and follow along
+- [11:51] with me no problem at all the only thing
+- [11:53] that will change is the API key go ahead
+- [11:55] and grab it I'll not show you mine
+- [11:57] So first of all, let's go ahead and say
+- [11:59] Python 3 because I'm on a Mac. If you're
+- [12:01] in Windows, just write Python. We're
+- [12:03] going to use a module of venv because we
+- [12:06] want to have virtual environment. And I
+- [12:07] will create a folder of venv as virtual
+- [12:10] folder. Let's hit enter. Once I hit
+- [12:13] enter, it creates a virtual environment
+- [12:15] so that I can go ahead and install the
+- [12:16] stuff. And first of all, we need to
+- [12:18] activate it. I'm on a Mac, so I'll just
+- [12:20] go ahead and say
+- [12:23] source. And the source is in the venv
+- [12:28] /ashbin. And I have this activate
+- [12:30] script. I'll activate this. All right,
+- [12:32] good enough. And now, first of all, I do
+- [12:34] have a pip utility inside this. I do
+- [12:37] have Python inside it as well. But I
+- [12:39] want to go ahead and install pip, but
+- [12:41] this is already installed. I just want
+- [12:43] to upgrade it
+- [12:46] because it will give me an error. So,
+- [12:48] all right. So, pip is installed. Now,
+- [12:50] let's go ahead and install a couple of
+- [12:52] utilities. The first one being open AI
+- [12:54] which will give us the reasoning engine
+- [12:56] or the brain and we also want to hide
+- [12:58] our environment variables. So I'll just
+- [13:00] go ahead and say python env. This is
+- [13:03] just used so that I can load my
+- [13:05] environment variables from a file known
+- [13:07] as env. That is it. That's all it takes.
+- [13:11] And there we go. We are all set and all
+- [13:14] ready. Now what do we want to do now?
+- [13:16] All I want to do is write a very simple
+- [13:18] script that divides my task into
+- [13:20] multiple of the things. And for this we
+- [13:23] are going to need a couple of
+- [13:24] strategies. Let me walk you through with
+- [13:26] that within the code. Let's call this
+- [13:28] one as uh task agent
+- [13:32] py. All right. First of all, what do we
+- [13:35] want to do? Let's write the strategy for
+- [13:37] this. First of all, load env. So I will
+- [13:40] load the environment variable. After
+- [13:42] that, we want to read all the task. So
+- [13:44] let's go ahead and read the task. And
+- [13:47] we'll read the task from a file. So
+- [13:49] let's also create a file in here. And
+- [13:51] we'll call this one as tasks dot txt. We
+- [13:55] can read from other places as well. It's
+- [13:57] super easy. No big deal there. All
+- [13:59] right. Read the task. And then we will
+- [14:02] go ahead and make
+- [14:06] a call to open AI
+- [14:10] with prompt
+- [14:13] to
+- [14:15] sort or not sort categorize
+- [14:19] our tasks. So this is the whole thing
+- [14:22] that we want to do. All right. First of
+- [14:24] all, we have to read from a file. So if
+- [14:26] we have to read from a file, the first
+- [14:28] thing that I have to do is import OS so
+- [14:31] that I can verify whether this task
+- [14:33] exists or not. So let's go ahead and
+- [14:34] define a method for this. Let's call
+- [14:37] this one as read task or tasks. Good
+- [14:40] enough. You'll give me a file path.
+- [14:44] There we go. Now if you don't give me a
+- [14:46] file path uh can actually read from the
+- [14:49] current directory as well. Uh I will
+- [14:51] show you that actually that's an easy
+- [14:53] process. We can just give it a file
+- [14:54] directory that hey just read this task.
+- [14:56] We'll just give the file name. Anyways
+- [14:58] if you're using the old versions of
+- [15:00] reading the file please don't do this
+- [15:02] right now. It's very easy in the Python.
+- [15:04] I'll show you. We can just go ahead and
+- [15:06] say with open the file path whatever is
+- [15:10] the file in what mode you want to open.
+- [15:12] I want to open it in read mode. We will
+- [15:14] store the reference as just an f and
+- [15:16] then we will just go ahead and take this
+- [15:19] uh reference of uh f and we have the so
+- [15:24] many methods to work on with that. We
+- [15:25] have just one method read and we'll
+- [15:28] return super easy. Now if you don't give
+- [15:31] it any file path just give it a file
+- [15:33] name also it will look in the current
+- [15:35] directory and will automatically read
+- [15:36] that. All right now let's go ahead and
+- [15:39] work on loading the environment
+- [15:40] variable. Okay. So loading the
+- [15:42] environment we will say from env we are
+- [15:46] going to import load env. And all we got
+- [15:50] to do is say load env. And that's it. It
+- [15:54] automatically goes into your current
+- [15:56] directory and say that I want to have av
+- [15:58] file. And in here we'll say open AI API
+- [16:03] key. And this is where I have to go onto
+- [16:05] the platform. Openai and I have to grab
+- [16:08] my key. So I will grab
+- [16:13] key in a minute. All right, I'll not
+- [16:16] show you this but I will grab it. So how
+- [16:19] we can make a call to the open AI?
+- [16:21] That's also simple. From open AAI, let's
+- [16:26] go ahead and import
+- [16:28] open AI. Once we are done with this, we
+- [16:31] need to create an instance of it. So
+- [16:33] let's go ahead and comment this as well.
+- [16:35] Or probably we can directly go ahead and
+- [16:36] say the open AI. We can create an object
+- [16:40] out of it sort of. Let's call this one
+- [16:42] as client. Feel free to name it whatever
+- [16:44] you like. This is just a variable name.
+- [16:46] And now let's go ahead and make an API
+- [16:48] call. And you might be thinking making
+- [16:50] an API call is really really a big deal.
+- [16:52] It is not. You just have to send a
+- [16:54] prompt. So what do we can do? Let's
+- [16:56] create a method for this. We will call
+- [16:59] this as summarize
+- [17:01] task or tasks. Tasks. you will give me
+- [17:04] all the tasks tasks just like that. The
+- [17:08] step one is to create a prompt. So let's
+- [17:10] just say we have a prompt and this is a
+- [17:13] formatted string just like this or it
+- [17:14] can be a triple strings as well. Let's
+- [17:17] use actually triple strings
+- [17:21] and I will just go ahead and say like
+- [17:23] this
+- [17:25] or just for a minute let's actually keep
+- [17:28] this on same line
+- [17:30] my prompt I will show you how to write
+- [17:33] really a nice prompt as well don't you
+- [17:34] worry on that part but first I want to
+- [17:36] show you that how it looks like uh to
+- [17:38] make an API call cuz people make so much
+- [17:41] noise on it all you have to take is this
+- [17:43] client and chat GPD documentation make
+- [17:46] it super easy. Even Gemini documentation
+- [17:49] make it super easy to work on with this.
+- [17:51] Now this client has so many
+- [17:52] capabilities. One of the capability is
+- [17:54] to just chat with this. Now let me
+- [17:56] remind you if you're watching older
+- [17:59] tutorials the syntax has changed. So go
+- [18:01] ahead and consult the documentation for
+- [18:03] this. This one is actually the latest
+- [18:04] one. So in the chat we have the
+- [18:07] completions and then we can just go
+- [18:08] ahead and create a new chat. Once I go
+- [18:11] ahead and create a chat I have to
+- [18:13] provide that hey what model do I want to
+- [18:15] use? depends on how much money you have.
+- [18:18] Feel free to use whatever you like. It's
+- [18:19] totally up to you. I'll just use the
+- [18:21] basic one GPT4, but feel free to use
+- [18:24] turbo. And as we can see, we have so
+- [18:26] many options. We don't have to just
+- [18:28] guess them. It's there in the
+- [18:29] suggestion. We can use codeex mini
+- [18:31] latest as well, by the way. All right.
+- [18:33] Once I'm done with this, the next step
+- [18:35] is to send the message. And there is a
+- [18:37] way how you send the message. It's an
+- [18:39] array always an array of the message not
+- [18:43] like that. And inside this we have to
+- [18:45] provide a dictionary. The dictionary
+- [18:48] first of all the key is role. So whose
+- [18:51] role? The chat GPT and in fact the whole
+- [18:54] open AI works on who is asking the
+- [18:56] message. They have variety of role who
+- [18:58] is talking right now. So first of all we
+- [19:00] are going to go ahead and say this role
+- [19:02] is of user that is means we are asking
+- [19:05] and what is the content that user is
+- [19:07] trying to give because there are other
+- [19:08] roles like system system prompts all
+- [19:11] other things. I will say the content
+- [19:15] content that user is giving is this
+- [19:18] prompt
+- [19:20] and we will fill up the messages and all
+- [19:22] these things. Once this whole thing is
+- [19:24] done that means we have made the request
+- [19:26] to this and are we having an issue? Why
+- [19:29] is it having the issue? Why this one is
+- [19:33] okay was not closed. Which one I forgot
+- [19:36] to close?
+- [19:41] Oh, I forgot a comma. My bad. Okay, once
+- [19:44] we have made this call, let's go ahead
+- [19:46] and handle the response just like this.
+- [19:49] And once we have the response, you can
+- [19:51] just go ahead and print the response. It
+- [19:52] will give you whole thing. But you also
+- [19:55] know from the documentation that this
+- [19:57] response actually gives you a lot of
+- [19:58] choices and in fact an array of choices
+- [20:01] and you can choose any of the response.
+- [20:03] Now in the early days it used to give
+- [20:05] you multiple of the responses and that's
+- [20:07] why you see in the tabs of cursor you
+- [20:10] see multiple of the responses you can
+- [20:11] choose any one of them now it's much
+- [20:13] easier in the choices let's get the
+- [20:15] first array it's in the array format so
+- [20:17] first element of it and inside that you
+- [20:19] can just try to print this up no problem
+- [20:22] we can extract the message out of it and
+- [20:24] from the message we can just go ahead
+- [20:25] and set the content out of it pretty
+- [20:28] easy
+- [20:29] we will work on that now in order to run
+- [20:31] this we will just use main method to
+- [20:34] just execute this script. So let's just
+- [20:36] say if the dunder is name and that
+- [20:40] equals to the dunder main. A really
+- [20:43] weird script. I still find it strange.
+- [20:45] Then all we got to do is first of all
+- [20:47] let's read the task and for this we'll
+- [20:50] provide you the where my task file
+- [20:52] exist. It exists in the same directory.
+- [20:54] So tasks txt. We don't have any task. We
+- [20:57] will just add the task in in a minute.
+- [21:00] And then let's hold the response in task
+- [21:03] list or task text whatever you want to
+- [21:06] call this. No problem at all. And once
+- [21:08] we have oh rasque
+- [21:12] brisk.
+- [21:13] No this is not what I want to say. I
+- [21:16] have the task text. What am I writing?
+- [21:19] Task test text. Mouthful. All right.
+- [21:23] Once we have done this all we have to do
+- [21:25] is call this summarize task. There we
+- [21:27] go. And we can just provide all the task
+- [21:30] text to it and hold uh the summary of
+- [21:34] the response just like this. And all we
+- [21:36] got to do is print it up. So let's print
+- [21:38] it up nice and beautifully. We'll use a
+- [21:41] formatted string. No, we can actually
+- [21:43] directly use just like this slash and
+- [21:45] say task
+- [21:47] summary and then a slash and apart from
+- [21:51] this what also I would like to do is uh
+- [21:54] just use a dash and let's go ahead and
+- [21:56] multiply it by 30. So that we have a
+- [21:58] nice borderish kind of a thing. And last
+- [22:00] but not the least, the most important
+- [22:02] part task. Don't forget to print uh
+- [22:04] summary. There we go. All right. Now
+- [22:07] comes up the most interesting thing that
+- [22:09] how we go ahead and do send the prompt
+- [22:11] because this is where the magic happens.
+- [22:13] Let's go ahead and write a really nice
+- [22:15] prompt together and we will inject some
+- [22:17] of the variables as well. We'll go ahead
+- [22:19] and say that you are a smart
+- [22:25] task
+- [22:27] planning agent.
+- [22:30] You have to actually give it and call it
+- [22:32] that what you are. First of all, give it
+- [22:33] a role that what you have to do. And I
+- [22:36] will say given a list of tasks,
+- [22:41] categorize
+- [22:44] them into into
+- [22:48] three categories
+- [22:50] or three priorities is also good. Three
+- [22:53] priority buckets. Let's keep it very
+- [22:56] sophisticated. And the buckets that I
+- [22:58] want you to do is first of all going to
+- [23:00] be high
+- [23:02] priority.
+- [23:04] Then the second one is going to be
+- [23:07] medium
+- [23:09] priority.
+- [23:10] And the third one is going to be low
+- [23:13] priority.
+- [23:15] All right. But this is not going to cut
+- [23:19] through. We have to actually provide it
+- [23:21] like this. uh that hey these are the
+- [23:23] tasks
+- [23:26] and we can actually go ahead we are
+- [23:28] assuming that somebody will give us this
+- [23:29] task so we can actually give it a sample
+- [23:31] task as well and there we go
+- [23:35] tasks just like that and we will also go
+- [23:38] ahead and say return the response in
+- [23:42] this format yes there are a lot of types
+- [23:45] of prompting but we'll use this one so
+- [23:47] what we can do is we can just go ahead
+- [23:49] and say hi I
+- [23:52] priority
+- [23:54] and it will go ahead and have task one.
+- [23:58] Then we will have task task two and yes
+- [24:02] you have to spend time in that.
+- [24:03] Similarly, we have medium
+- [24:06] priority
+- [24:08] that will also have a task one. And then
+- [24:12] we have the task task two,
+- [24:17] task two just like that.
+- [24:20] And we can have low priority.
+- [24:25] You can go ahead and write it. I'll just
+- [24:27] go ahead and add it like this.
+- [24:29] Hopefully, it will understand.
+- [24:30] Otherwise, I have to go ahead and
+- [24:31] improve my prompt again. All right. So,
+- [24:34] that is it. That's all what we need.
+- [24:36] Now, the only thing that we need is some
+- [24:38] task and my environment variable key,
+- [24:40] which I will not show you. Let me pause
+- [24:42] the video and grab my key.
+- [24:45] All right, I'm back. I'll not show you
+- [24:47] my key. Go ahead and grab your own key.
+- [24:49] Or if you're using Gemini, just use the
+- [24:50] same models just like that. So I have a
+- [24:52] list of tasks which is update the
+- [24:54] homepage UI, reply to the customer
+- [24:56] support ticket, write the monthly
+- [24:57] newsletter, fix login bug and we'll see
+- [25:00] that how AI behaves and give us the
+- [25:02] response for this one should be fairly
+- [25:05] easy but I want to see that what happens
+- [25:07] with this one. So let's go ahead and say
+- [25:08] hey Python I want to run a task script
+- [25:12] just like that. It obviously will take
+- [25:14] some time because we are sending a web
+- [25:16] request and hopefully so this is the
+- [25:19] response we got. Notice here how
+- [25:21] beautifully the task summary is high
+- [25:23] priority. So reply to the customer.
+- [25:25] Customer always a priority. Fix the
+- [25:26] login bug and back up the database. So
+- [25:28] these are high priority task. And medium
+- [25:31] priority is update the homepage, post
+- [25:33] the Instagram update for product launch
+- [25:35] and schedule uh team standup. And the
+- [25:37] low priority are uh write the monthly
+- [25:39] newsletter, clean up the unused ASWS
+- [25:41] bucket and research competitor pricing.
+- [25:43] Fairly fairly good job. But now here's
+- [25:46] the interesting point that we want to
+- [25:48] debate about that is it really an AI
+- [25:51] agent or should we really call this as
+- [25:53] an AI agent or coming back onto this uh
+- [25:57] don't want to show you actually
+- [26:00] have this and we're going to delete this
+- [26:02] revoke the key don't want to show it to
+- [26:04] anyone all right now coming back on to
+- [26:07] this guy that all right so we have built
+- [26:09] the code we have written the code how is
+- [26:12] this an AI agent
+- [26:15] How is this an AI agent? We want to
+- [26:18] debate on this otherwise this video is
+- [26:20] empty.
+- [26:22] If we cannot back this up that is this
+- [26:24] an AI agent, we cannot call this. So
+- [26:27] first of all, does it meet some of the
+- [26:29] categories? Do we have a very precise
+- [26:31] goal? Yes, we have a goal that is
+- [26:33] categorize the task by priority. That
+- [26:36] was probably my goal. I have a very
+- [26:37] smart agent and we have let's just say
+- [26:40] thousand people in the support and it
+- [26:42] automatically categorize my tickets
+- [26:45] based on the priority as well as the
+- [26:47] skills of the people that I have in my
+- [26:49] organization. So definitely this can be
+- [26:51] improved in that. So goal I do have this
+- [26:54] do we have some kind of a tool with us?
+- [26:56] Uh yes I call this one as tool or also
+- [27:00] as a reasoning engine. And yes we are
+- [27:03] using a reasoning engine. We used open
+- [27:06] AI for that. Open AAI. So it has a tool.
+- [27:10] Does it have a memory? Now you might be
+- [27:12] wondering no it doesn't have a memory
+- [27:15] but it has a memory. The input file that
+- [27:17] we gave is also kind of memory. Now
+- [27:20] loosely can be considered but it's a
+- [27:22] memory. It's a permanent memory can be
+- [27:25] considered but what the output we get we
+- [27:28] don't have a memory and based on that
+- [27:30] output we cannot actually improve the
+- [27:33] future input so I'll call this as in the
+- [27:36] medium category we kind of have it kind
+- [27:38] of don't have it so it's very loosely
+- [27:40] one but another thing do we have a
+- [27:43] proper planning
+- [27:45] this is where our prompt actually comes
+- [27:47] in this example yes we have a very
+- [27:49] precise planning if I go back onto this
+- [27:52] and the code part of it. Yes, we have a
+- [27:55] very precise and meticulous planning
+- [27:56] that I have only three categories to
+- [27:58] divide my task into that. So yeah, the
+- [28:01] planning is there. Now execution, what
+- [28:04] kind of execution we have?
+- [28:08] Uh as of now, I would say it has an
+- [28:10] execution of just categorizing my
+- [28:13] tickets into different part. It doesn't
+- [28:15] have much of the capabilities. But if I
+- [28:18] write a little bit more code that once I
+- [28:19] have the categories, read that
+- [28:21] categories or save this file into CSV or
+- [28:24] JSON super easily can be done. Then
+- [28:26] let's go ahead and uh probably read the
+- [28:31] tickets from email. Yeah, that's
+- [28:34] probably a great execution. If I can
+- [28:36] read the tickets from the email and then
+- [28:38] automatically categorize that, that
+- [28:39] would be fantastic. And can I go ahead
+- [28:41] and update
+- [28:44] in notion or slack? Oh, you have created
+- [28:48] a slack bot which if there is new file
+- [28:51] added in the CSV which is high priority
+- [28:53] CSV automatically notifies you in the
+- [28:55] slack. Yeah, that's nice. And end of it
+- [28:58] if we have a platform just like that we
+- [29:00] have built if the task can be assigned
+- [29:03] to a person whichever are only required.
+- [29:06] Yeah, that's it. So if we add a little
+- [29:08] bit more functionality, it would be a
+- [29:10] true and perfect AI agent. But is it an
+- [29:13] AI agent in this condition? Yeah, it has
+- [29:15] it has a lot of things as I mentioned.
+- [29:17] It doesn't need to have all of the
+- [29:19] things. It has a goal. It has a planning
+- [29:21] memory. We are debating on that. But it
+- [29:23] has also reasoning. It also has some
+- [29:26] level of autonomy. We are not
+- [29:28] interrupting that hey this task should
+- [29:29] go into high priority or this one should
+- [29:31] go in low priority. It's doing all it
+- [29:33] all its own. And once we assign that
+- [29:35] okay if we have high priority task also
+- [29:37] notify the user on the slack and we
+- [29:39] probably have an MCP of the slack or
+- [29:41] maybe we have written just the API
+- [29:43] calls. Yeah that's it you have the AI
+- [29:45] agent. So hope this video with a really
+- [29:48] long one I don't know how long that this
+- [29:50] video is. Oh almost in half an hour but
+- [29:52] this has given you true practicality of
+- [29:55] what AI agent is and I hope I was able
+- [29:58] to get rid of all the fear that you
+- [30:00] might have that AI agents are really
+- [30:02] difficult. They are not. And if you want
+- [30:04] me to show you how the AI agents can be
+- [30:06] built using lang chain, drop me a
+- [30:08] comment and I would love to build that.
+- [30:10] And feel free to pick your language. We
+- [30:11] can build that in JavaScript. We can
+- [30:12] build that in Python. No problem at all.
+- [30:15] That is it. Uh hit that subscribe button
+- [30:17] and I'll catch you up in the next video.

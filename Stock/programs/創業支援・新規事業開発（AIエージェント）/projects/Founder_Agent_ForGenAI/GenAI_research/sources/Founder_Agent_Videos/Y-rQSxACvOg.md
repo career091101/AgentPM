@@ -1,0 +1,788 @@
+---
+title: "Transcript: Y-rQSxACvOg"
+video_id: "Y-rQSxACvOg"
+video_url: "https://www.youtube.com/watch?v=Y-rQSxACvOg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:29:06"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: Y-rQSxACvOg
+
+- URL: https://www.youtube.com/watch?v=Y-rQSxACvOg
+- Retrieved at: 2025-12-30T11:17:50+09:00
+
+## Text
+
+- [00:07] I want us to do an agreement today.
+- [00:10] When I say something that you like, I
+- [00:13] wanted you to answer, "Hell yeah."
+- [00:17] >> Hell yeah.
+- [00:18] >> All right, let's do a test. One, two,
+- [00:21] three.
+- [00:22] >> Hell yeah.
+- [00:23] You're the best audience. I love
+- [00:25] this. I was thinking about what I what I
+- [00:28] would say to this audience and I thought
+- [00:30] about and even this morning I just
+- [00:32] landed like 7 a.m. today in JFK and I
+- [00:36] was putting my slides on my way here and
+- [00:39] thinking should I go very technical and
+- [00:42] like build something and all that should
+- [00:44] I go a little more strategic and uh to
+- [00:47] Namita's point we actually just pushed
+- [00:49] an entire course on like hands-on
+- [00:51] building this agent I was like all right
+- [00:54] I think the thing that I can share that
+- [00:56] they won't find anywhere else is some
+- [00:59] insights given the very unique
+- [01:02] positioning that we have the crew AI. I
+- [01:05] mean, we're sitting on the on the
+- [01:07] cutting edge of what is happening right
+- [01:08] now and being able to observe what
+- [01:10] everyone's doing. So, there's a lot of
+- [01:12] interesting insights and tricks and
+- [01:15] things that I think could be interesting
+- [01:16] for me to share kind of like give you an
+- [01:18] insight on what is actually working,
+- [01:20] what is noise and things like that. So,
+- [01:22] I think that would be fun. Hopefully,
+- [01:24] you enjoy it. I want to start with one
+- [01:28] number.
+- [01:30] That number is 450
+- [01:33] million.
+- [01:34] It's insane. That's the number of AI
+- [01:37] agents we're running a month.
+- [01:41] >> All right. There we go. I like it. Thank
+- [01:43] you. [laughter]
+- [01:45] Uh but I got to say more than the number
+- [01:47] on itself, what I'm impressed is the
+- [01:49] scale. This is what quarterly executions
+- [01:54] of agents and flows are now plotting
+- [01:58] using curi attack. Last quarter alone we
+- [02:02] executed 1.1 billion agentic executions.
+- [02:06] Those are not individual agents. Those
+- [02:08] are crews that can have three, four,
+- [02:10] five agents. So if you go into the agent
+- [02:12] level, it's going to be even more than
+- [02:13] that. It's a little bit insane what is
+- [02:16] happening. And this number is big, but
+- [02:18] at the same point is so small because I
+- [02:20] keep thinking about the potential that
+- [02:22] this can have. And and we're starting to
+- [02:24] see some of the value that actually can
+- [02:27] come from this. Now, I assume that
+- [02:30] everyone in here knows what is an AI
+- [02:32] agent, but I will spend two minutes just
+- [02:35] to level set just in case you don't, but
+- [02:38] it's going to be two minutes. So, you
+- [02:40] all know LLM, right?
+- [02:44] >> All right. They're great at creating
+- [02:46] content. If you ask them to write an
+- [02:48] email for you, they will do so. And if
+- [02:51] you ask them to make it funny, they'll
+- [02:53] give it a try, right? [laughter] THEY'RE
+- [02:55] GIVE IT A TRY. Might not work. But more
+- [02:58] interesting is if you ask it to make a
+- [03:01] decision. Let's say that you give two
+- [03:04] options of emails and you say, "Here's
+- [03:06] email A and here is email B. What email
+- [03:10] is better?" And these models can
+- [03:12] actually pick one say like oh email A is
+- [03:14] better because of X Y and Z. And it's
+- [03:17] that ability for making reasonable
+- [03:20] decisions decisions that fall within
+- [03:23] reason that you can explore when you
+- [03:26] start to turn these models into agents.
+- [03:29] But now instead of choosing emails but
+- [03:31] it's just a silly example. They can
+- [03:33] actually choose between taking actions
+- [03:36] using tools making decisions. So you're
+- [03:39] giving it a goal, you're giving it a a
+- [03:42] task, and now these agents will decide
+- [03:46] how I achieve that. Will I call a tool?
+- [03:48] Will I pull a data from a CRM? Will I
+- [03:51] push something into my ERP? It's going
+- [03:53] to decide how it gets there. So the AI
+- [03:56] is what is controlling the application
+- [03:58] flow. And that's roughly what an AI
+- [04:01] agent is. To put in simple words, it has
+- [04:05] agency. and it gets to decide what it's
+- [04:08] going to happens next. Now, the thing
+- [04:11] that is most interesting about this
+- [04:13] because all right, this is very
+- [04:14] interesting, but like what is the big
+- [04:16] deal about this? Well, it allows you to
+- [04:18] do things that you couldn't do before.
+- [04:20] One, allows you to create things. You
+- [04:23] can create reports, images, videos,
+- [04:26] whatever it might be, something that was
+- [04:28] not as easy before. Two, it gives you
+- [04:31] the ability to react to things in real
+- [04:34] time. So you can send for example one
+- [04:37] task today and a completely different
+- [04:39] task tomorrow and this agent's going to
+- [04:41] be able to adapt. It's going to be able
+- [04:43] to understand given the data that you're
+- [04:45] sending how it's supposed to behave. So
+- [04:48] this idea of handling and expecting
+- [04:50] behaviors self-healing it's something
+- [04:52] very interesting and also this ability
+- [04:55] of take actions actually going out there
+- [04:57] and make a decision and actually take an
+- [05:00] action based on that. So the combination
+- [05:02] of these three things actually create a
+- [05:05] lot of opportunity for automation and
+- [05:09] again automations that you just couldn't
+- [05:10] do before.
+- [05:12] Now, so what right why should I care
+- [05:16] about it? And and this is where I I
+- [05:19] things I think are going to get a little
+- [05:20] more interesting [clears throat]
+- [05:22] on every major technology shift
+- [05:26] I have seen on this companies
+- [05:29] the the business logic finds a new house
+- [05:33] right it goes and moves somewhere. So
+- [05:35] when you think back on the 90s, the
+- [05:37] desktop apps and there was like those
+- [05:39] big players that grabbed that market, a
+- [05:41] bunch of the business logic now moved
+- [05:43] into that. They're like into those
+- [05:45] business apps. Then you go into the
+- [05:47] 2000s with the web and now Google,
+- [05:50] Salesforce, Service Now, they they
+- [05:52] grabbed a chunk of the business logic
+- [05:54] and a bunch of that moved into that
+- [05:56] next. And then you look at the cloud
+- [05:58] with all the APIs and that's when we saw
+- [06:00] like Snowflake growing like crazy and
+- [06:02] data bricks. So all this business logic
+- [06:05] now it's moving there as well. So it's
+- [06:07] with all this shifts there's always this
+- [06:09] ability for this creating not only new
+- [06:12] opportunity for new things but also the
+- [06:16] part of this logic and this value gets
+- [06:18] redistributed and when I look about AI
+- [06:20] agents and maybe I'm I'm claiming too
+- [06:23] much put our name in there but that's
+- [06:25] hey that's what we're going for. uh it's
+- [06:28] that I I I see AI agents being more than
+- [06:31] an engineering project. It's a
+- [06:33] fundamental shift. It is a new layer and
+- [06:37] if you want to build a bullish case for
+- [06:39] AI agents, it could eat a lot of the
+- [06:43] software away. A lot of these systems
+- [06:46] goes from having logic in them to
+- [06:48] becoming systems of records and this
+- [06:51] logic gets moved into this ab
+- [06:53] distraction kind of like that we are
+- [06:55] calling AI agents now and if you don't
+- [06:58] believe me it's okay it's fair you don't
+- [07:00] have to but you also see the pattern on
+- [07:03] the market I mean come on let's be real
+- [07:06] Sergey from Google the guy never even do
+- [07:09] interviews and now he's showing up for
+- [07:11] podcasts
+- [07:13] is taking Bill Gates out of retire
+- [07:14] retirement to do live coding with
+- [07:16] co-pilot like there there's something
+- [07:19] here that the biggest leaders in the
+- [07:21] industry are seeing is that it's like
+- [07:23] all right this can actually eat software
+- [07:26] away this is shaking the industry in a
+- [07:28] way that our place is not necessarily
+- [07:31] guaranteed we need to get our hands
+- [07:33] dirty dirt dirty and actually like jump
+- [07:37] into this and figure out what is going
+- [07:38] to be our spot so it's very interesting
+- [07:41] to see this movement and a little bit on
+- [07:42] kind of like how the market's going So
+- [07:44] when I think about agents again I I
+- [07:47] think in such a broader aspect than as a
+- [07:51] as a technology project as something
+- [07:54] that will be only living in the realm of
+- [07:56] the engineering I think it's going to be
+- [07:58] spearheaded by engineers but it's going
+- [08:00] to impact entire businesses and we're
+- [08:02] seeing some of that if I look at the
+- [08:05] biggest companies in the globe this is
+- [08:08] how many engineers they have been there
+- [08:10] using crew AI what for me is insane to
+- [08:13] see like these number of engineers just
+- [08:15] kind of like using ki to build those
+- [08:17] automations and this again these are not
+- [08:18] a small companies these are crazy
+- [08:20] companies like this so huge they are so
+- [08:22] it's very exciting to see that not only
+- [08:25] the main ones that I mentioned but a lot
+- [08:27] of the solid business also jumping into
+- [08:29] that now
+- [08:31] use case time I will stop every now and
+- [08:34] then to talk about a use case and I did
+- [08:36] heard that hell yeah thank you that one
+- [08:38] person in the audience uh I'm going to
+- [08:41] sprinkle use cases throughout the thing
+- [08:42] right this This one, it's interesting.
+- [08:45] It is a CPG. CPG is a company that do
+- [08:48] something that you can buy in the
+- [08:49] supermarket, right? Something that you
+- [08:51] can buy in the supermarket if you want
+- [08:52] to think about it that way. They had a
+- [08:55] specific process because as every CPG,
+- [08:57] if you're selling something to
+- [08:58] consumers, you're going to have people
+- [09:00] asking for reimbursement requests. And
+- [09:03] if you're opening yourself for
+- [09:04] reimbursement requests, you're going to
+- [09:06] have people trying to fraud you, what is
+- [09:08] not fun. So they end up having a very
+- [09:11] manual process to verify is this a
+- [09:14] fraudulent request or not? And this
+- [09:16] involve humans, this involves looking
+- [09:18] like is this a new account? Is this
+- [09:20] account that has done this before? A lot
+- [09:21] of going on in there. But you can
+- [09:23] actually automate this with agents. And
+- [09:25] so they did the entire process went from
+- [09:28] three days to validate this
+- [09:30] reimbursement to 10 minutes. What is
+- [09:32] insane because now if you're a scammer,
+- [09:35] well, I guess like you're unlucky. But
+- [09:39] for the people that actually wants the
+- [09:40] hand reimbursement, this is such a
+- [09:42] better experience. They don't need to be
+- [09:43] sitting around waiting three days to get
+- [09:44] a money back. Right? So this is just one
+- [09:47] use case. We're going to sprinkle more
+- [09:48] throughout the presentation and you're
+- [09:50] going to see these use case times every
+- [09:51] time that we do. But this is a little
+- [09:52] bit on kind of what's going on an
+- [09:54] example of real use case driving real
+- [09:57] value.
+- [09:59] Now I want to start digging a little
+- [10:00] deeper, right? I want to start talking
+- [10:02] about we already got what get what AI
+- [10:04] agents are. you already understand kind
+- [10:07] of like the bullish vision for AI agents
+- [10:09] and what they can be and what a role
+- [10:10] they can take into the business in the
+- [10:12] future. I want to talk about building
+- [10:14] and deploying because I think that's
+- [10:16] where a lot of people are spending time
+- [10:17] now is on that building phase and
+- [10:20] talking a little bit about the ROI of
+- [10:22] actually having this things running.
+- [10:26] Right now in my perspective there is a
+- [10:29] race to the bottom to making building
+- [10:33] agents extremely simple
+- [10:36] and you're going to have you can see
+- [10:38] that because there's many open source
+- [10:40] tools there's many paid tools there is
+- [10:44] pro code there is low code and
+- [10:46] everything in between and everyone's
+- [10:48] trying to make this agents easier and
+- [10:51] easier but if I plot a line how much
+- [10:56] effort it takes.
+- [10:59] It's it is funny to me that everyone's
+- [11:01] focusing on this [laughter]
+- [11:03] because in the end of the day when I go
+- [11:06] talk with some of these companies, when
+- [11:08] some of these companies reach out to CI
+- [11:10] and they're already like trying and
+- [11:12] experimenting with agents, they usually
+- [11:15] tell me things that hint that they're
+- [11:18] stuck in there and they cannot get into
+- [11:20] the point phase. basically as they try
+- [11:23] to get deploying phase the value the
+- [11:25] value of whatever they're using like
+- [11:26] diminishes very rapidly and they say we
+- [11:29] have all these blockers and we're stuck
+- [11:31] here we have hundreds of use cases we
+- [11:34] have PC's that are working but I want to
+- [11:36] get there and I can't and the reason why
+- [11:39] they can't is a mixed bag there's a few
+- [11:42] things that are AI related they say like
+- [11:45] oh I need I need better evaluations I
+- [11:47] need proper guard rails I need all this
+- [11:49] and there are many things that are not
+- [11:51] even AI related they're like well we
+- [11:53] need single sign on we need our back we
+- [11:55] need to deploy this on our own
+- [11:56] infrastructure more traditional
+- [11:58] engineering problems especially when
+- [12:00] you're thinking about bigger companies
+- [12:02] they're like we cannot get to the other
+- [12:04] side of this with any of that and I
+- [12:06] think what people don't get is there is
+- [12:10] and this is going to sound like a hot
+- [12:11] take but you're going to get it there is
+- [12:13] no value on building agents
+- [12:17] because building is the tax that you're
+- [12:19] paying the value is on running them.
+- [12:22] Like when you start building a agent,
+- [12:24] your ROI is negative. You're spending
+- [12:26] time on it. So if I had to plot this
+- [12:28] out, so this is the ROI and on the other
+- [12:32] side's production.
+- [12:34] This is what your ROI looks like. You're
+- [12:37] losing money out the way. And then when
+- [12:39] you turn it on in production and then
+- [12:40] really starts to run many times, then
+- [12:42] boom, now it's worth it. But on the
+- [12:46] building side, it can be fun, you can
+- [12:48] learn a lot, it can be easy, it can be
+- [12:50] fast, but you're only cashing out on the
+- [12:53] opportunity once they are actually using
+- [12:55] it. So I think like there's there's a
+- [12:57] gap in there and that's I mean I'm
+- [13:00] pitching you career AI. That's basically
+- [13:01] what we focus, right? That's the thing.
+- [13:03] But you got to see that is a little bit
+- [13:05] weird that there's so much demand for
+- [13:07] the building and prototyping. Meanwhile,
+- [13:10] a lot of the value is actually sitting
+- [13:11] on the other side.
+- [13:13] So when I look into this, I think about
+- [13:16] building and managing and that's kind of
+- [13:18] like how we see it. So I think like open
+- [13:20] source make extremely easy for people to
+- [13:22] build and prototype and then as people
+- [13:24] mature and once you get into the value
+- [13:26] all those other features it's because
+- [13:28] they're actually getting value from it.
+- [13:30] So I think it's fair that we can offer a
+- [13:32] paid product on that and that's kind of
+- [13:33] like how we thought about the company
+- [13:34] internally. Now how many of you know
+- [13:38] curi?
+- [13:41] All right. How many of you don't know
+- [13:42] Koreai?
+- [13:45] There's a few people that have no clue
+- [13:46] what they're doing here. All right,
+- [13:47] that's okay. No problem. [laughter] Just
+- [13:50] kidding. Uh, in the end of the day, this
+- [13:52] is what happens. Like, we we started as
+- [13:54] an open source tool, so helping
+- [13:56] engineers to build this like
+- [13:57] automations. We did a few courses with
+- [14:00] Andrew, including the new one that we
+- [14:01] just mentioned. And I got to say, it's
+- [14:03] amazing like this curses. I I really
+- [14:05] appreciate everyone that reached out and
+- [14:07] that love it is a lot of effort. If
+- [14:10] anything, I don't know if the deep learn
+- [14:11] AI team is in there. Thank you for
+- [14:13] bearing with me. I'm such a terrible
+- [14:15] person to work with. I really appreciate
+- [14:16] you bearing with my scheduling and
+- [14:19] everything, but we have been putting
+- [14:20] these courses together. That has been
+- [14:21] exceptionally nice. And then because of
+- [14:24] these courses, we realized that people
+- [14:25] really want to learn. So, we start doing
+- [14:27] certifications. We end up getting a
+- [14:29] bunch of people certified for example in
+- [14:31] IBM. And IBM became a major partner. Um,
+- [14:34] we actually two months ago we closed the
+- [14:37] US Department with defense with IBM and
+- [14:40] I'm still taking my victory lap because
+- [14:42] it was a head-to-head against Palanteer
+- [14:44] and we came out on top and hey, there
+- [14:47] you go. Thank you. I appreciate it.
+- [14:48] [applause] I appreciate it. So, that has
+- [14:51] been exciting. But then we start to see
+- [14:53] something interesting. jobs being
+- [14:55] created like AWS opening a position
+- [14:59] specifically hiring for crew AI for
+- [15:01] their strategic accounts and uh well we
+- [15:04] are working with many strategic accounts
+- [15:06] is kind of like the top 25% right the
+- [15:08] 25% that pays the most we're working
+- [15:10] with a lot of those companies so that
+- [15:12] makes sense but that was kind of like
+- [15:14] building that bullish case for us that w
+- [15:16] there's a business in here and that's
+- [15:17] kind of like how we start to do a lot of
+- [15:19] that and we just kept inviting people to
+- [15:21] talk about this what is this idea of AI
+- [15:24] agents
+- [15:25] Use case time.
+- [15:27] >> There you go. I hope it's not the same
+- [15:28] person, but I appreciate it. Uh,
+- [15:31] financial institution global for global
+- [15:34] 500.
+- [15:36] Main problem. Who here knows what KYC
+- [15:40] is? Raise your hands.
+- [15:42] [laughter]
+- [15:43] I see the pain on you all that know what
+- [15:46] it is. Is know your customer is a
+- [15:48] process through all companies. For
+- [15:49] example, like banks or insuranceances.
+- [15:51] Whenever they have a new customer, they
+- [15:52] got to do a a big dig on all the data on
+- [15:56] that person. They need to understand who
+- [15:58] that person is, what they come from,
+- [15:59] their taxes, everything in between. Very
+- [16:02] manual process. Basically, many
+- [16:04] different services that you need to pull
+- [16:05] this data from. Then they decide to
+- [16:07] automate that KYC process. One, the
+- [16:10] first report was more accurate than what
+- [16:13] the humans were producing. What was a
+- [16:14] little bit low-key scary at first place.
+- [16:17] part of the processes went down from one
+- [16:19] week to 15 to 30 minutes and the entire
+- [16:22] know your customer process actually went
+- [16:24] 4x faster now using AI agents again
+- [16:28] insane to see like the use cases we're
+- [16:30] talking about this in such an abstract
+- [16:32] level I just want to make sure that I
+- [16:34] bring like what are these customers
+- [16:36] actually doing and what they're building
+- [16:38] so this is another one now the second
+- [16:40] thing I want to talk about we talked
+- [16:41] about this idea of building and
+- [16:43] deploying and where the value is I want
+- [16:45] to talk about plan and designing
+- [16:47] So when you think about planning and
+- [16:49] designing, this is usually a matrix that
+- [16:51] I use to think about use cases. They
+- [16:54] usually live somewhere in this complex
+- [16:56] and precision matrix where you can have
+- [16:59] anything in any of these quadrants. An
+- [17:02] example of a high complexity, high
+- [17:03] precision is filling out IRS forms. It's
+- [17:08] complex and you cannot get it wrong. And
+- [17:11] an example of like a high complexity but
+- [17:13] low precision might be creating
+- [17:15] educational material. Like you want this
+- [17:17] to be high quality, but there's less
+- [17:19] about right and wrong. There's many
+- [17:20] different kinds of materials. So it's a
+- [17:22] little more easy for you to kind like
+- [17:24] get around with that. And a low
+- [17:25] complexity, low precision could be help
+- [17:27] me prepare a report for a sales call.
+- [17:30] What would it be? Probably very simple
+- [17:31] to do for an agent. Now we realize
+- [17:35] there's people that want to there's two
+- [17:38] ends of a spectrum. It's what we're
+- [17:40] noticing one use cases that people want
+- [17:43] to optimize for agency where they want
+- [17:45] to say, "Hey, I really wanted these
+- [17:47] agents to figure everything out. What
+- [17:50] are the tools they're going to use? What
+- [17:52] are like how they're going to work
+- [17:54] together? How they're going to delegate
+- [17:55] work and all that. In the other side of
+- [17:58] the spectrum, we have this idea of a
+- [18:01] flow. Like I have a if this then that. I
+- [18:04] wanted this to happen first and those
+- [18:06] things to happen next." and maybe I had
+- [18:08] an LLM in there, but that's all that I
+- [18:11] need. So, there's two end of the
+- [18:13] spectrums and I think both of those are
+- [18:15] fair. I think like a lot of the
+- [18:17] engineering principles that brought us
+- [18:19] this far still apply and one of them is
+- [18:23] KISS, keep it simple, stupid, right?
+- [18:25] It's just like, hey, if you don't need
+- [18:27] an agent, don't do an agent. So, there's
+- [18:29] different side of the spectrum. I think
+- [18:31] they complement each other. But there is
+- [18:33] a pattern that I'm seeing that is
+- [18:34] interesting and I didn't see before. And
+- [18:38] I'm calling this pattern agentic systems
+- [18:41] because they're not cruise, they're not
+- [18:44] agents, but they're also not flows.
+- [18:47] They're both intertwined. So you have a
+- [18:51] backbone that is deterministic where
+- [18:54] you're saying this will happen first,
+- [18:56] then this will happen next. But you can
+- [18:58] then opt in how much agency you want on
+- [19:02] different steps. So maybe I just want
+- [19:04] one LM call. Maybe I want to just one
+- [19:07] agent. Maybe I want an entire group of
+- [19:09] agents that we call a crew. So a good
+- [19:11] example would be something like this. I
+- [19:14] start the conversation, right? I send a
+- [19:16] message. So it's a conversational
+- [19:17] experience. That message needs to be
+- [19:20] processed like what what I want to do
+- [19:22] with that. To do that, I just need an
+- [19:24] LLM. I need nothing else other than
+- [19:26] that. Then let's say that I just said,
+- [19:29] "Hi, like there's nothing to do there."
+- [19:32] Well, that should trigger an answer,
+- [19:34] goes back, ready for the next message.
+- [19:37] But let's say that I have something
+- [19:38] super complex that needs to do some sort
+- [19:41] of deep research. Well, that could kick
+- [19:44] off an entire crew. And now that's when
+- [19:47] you want more agents because you want
+- [19:48] these agents to research, to query, to
+- [19:50] analyze, to create a report, and
+- [19:53] eventually bring it back for you to an
+- [19:54] answer. So this is a pattern that I'm
+- [19:57] finding that is being way more common
+- [19:58] nowadays for most of the use cases where
+- [20:01] you might want to like some of that
+- [20:03] deterministic backbone but you want to
+- [20:05] opt in on when you want to bring like
+- [20:07] these different levels of agents. So
+- [20:09] it's an interesting pattern unclear yet
+- [20:12] like is this the future? Is this the
+- [20:14] next year? Is this the current state of
+- [20:16] things? But it's what we're seeing out
+- [20:18] there just getting a lot of traction.
+- [20:20] Use case time.
+- [20:23] >> There you go. I like it.
+- [20:25] Global telecon.
+- [20:27] This is a little bit of weird one, so
+- [20:29] bear with me. Every use case that we
+- [20:31] talked about so far has been efficient
+- [20:33] gains, saving money. This is generating
+- [20:37] revenue in a way.
+- [20:40] And is there anyone that works in a
+- [20:42] telecon here?
+- [20:44] There's one guy
+- [20:46] >> there. What I don't get about telecons
+- [20:48] is they never want to do just telecon.
+- [20:51] They always want to do other things as
+- [20:53] well. Go figure, right? So that's the
+- [20:55] thing. This company, they wanted to try
+- [20:57] a new line of business. They say, "We
+- [21:00] have all this data. We know who these
+- [21:02] people are, where they live, what phone
+- [21:05] they have, what are their patterns, if
+- [21:07] they're prepaid or postpaid. So we have
+- [21:10] all this. Can we use this data to define
+- [21:13] a credit score and lend them money if
+- [21:17] they want to?" And they're like, "Right,
+- [21:20] we can. But if they want to do this as a
+- [21:22] regular business that means that now you
+- [21:24] have to hire entire huge team right to
+- [21:27] understand like how you establish all
+- [21:29] those things together. And what they
+- [21:31] decide to do is build the entire thing
+- [21:32] with crews. So they use agents to
+- [21:34] basically analyze the customer behavior
+- [21:36] analyze the patterns and created this
+- [21:39] new line of business. And because
+- [21:41] they're automating the whole thing with
+- [21:42] agents they can actually get the money
+- [21:45] access to money in two days which is
+- [21:47] insane. Let me just double check if I'm
+- [21:49] being about to be true off stage. I'm
+- [21:51] good on time.
+- [21:53] >> We have about five if you want then.
+- [21:57] >> All right. So, I'm going to fast track
+- [21:59] things folks real quick. Bear with me.
+- [22:01] Where to end? Needs of the stack. What
+- [22:03] is getting in the way? We're talking
+- [22:05] about this so we don't need to revisit
+- [22:06] it. LMS were adopted to cutting the edge
+- [22:09] of these applications. Random people
+- [22:11] finding out and doing use cases created
+- [22:13] many problems. information leaking use
+- [22:17] cases that are not shared. What we're
+- [22:19] seeing with agents is more of a central
+- [22:20] adoption under a CIO, a CDIO, a CTO, a
+- [22:25] COO where they're controlling all the
+- [22:27] guard rails, all the different settings,
+- [22:30] the LLMs, the PII futuring and then
+- [22:33] enabling different teams. So, it's a
+- [22:34] different implementation pattern that
+- [22:36] we're seeing out there. We have
+- [22:38] basically observing this idea of
+- [22:40] building, integration, observing,
+- [22:42] optimizing, managing and scaling. Those
+- [22:44] seems to be the main things that people
+- [22:46] care about. What I would translate into
+- [22:48] simpler terms, get started building
+- [22:51] trust and delivering value. That's it in
+- [22:53] the end of the day. So this kind of like
+- [22:55] the pattern that we're seeing, you can
+- [22:57] explode each of those six things into
+- [23:00] many individual features. And that's
+- [23:01] where start to get into memory, tools,
+- [23:04] knowledge, and all those things. But we
+- [23:05] don't need to get there given the time.
+- [23:07] But it's where you can kind like explode
+- [23:09] those things. And there is the idea of a
+- [23:11] stack that is coming together from the
+- [23:13] cloud providers to the data providers to
+- [23:15] the LLMs and then an entire new layer of
+- [23:17] agentic things where basically we are
+- [23:20] like we're grabbing that piece and
+- [23:22] calling the agents operation side of the
+- [23:25] thing. And then there's a little more
+- [23:27] that we could talk about the agents
+- [23:28] operations platforms. But in the sake of
+- [23:31] time I want to tell you about the course
+- [23:33] that we just did. If you want to see
+- [23:35] more of that, there's a QR code there
+- [23:37] that you can sign up for the course. And
+- [23:39] I want to go into Q&A. So, thank you so
+- [23:42] much. Appreciate it.
+- [23:44] [applause]
+- [23:46] [cheering]
+- [23:47] >> Um, so we have time for a couple of
+- [23:50] questions.
+- [23:58] >> Give it once.
+- [24:00] >> There's one there.
+- [24:00] >> Back there. [snorts]
+- [24:09] >> [clears throat]
+- [24:09] >> Hey, thanks. Uh, great presentation. I'm
+- [24:13] curious what you've seen or what you'd
+- [24:15] recommend um for like shared context,
+- [24:19] persistent context between uh different
+- [24:22] agents if is there best practice there
+- [24:24] that you that you've seen or um
+- [24:28] or
+- [24:29] >> when you mean share. So your question is
+- [24:31] if there's best practice around sharing
+- [24:33] context, you mean sharing context with
+- [24:35] these agents.
+- [24:36] >> Yeah. So let's say there's like multiple
+- [24:38] users using different systems
+- [24:41] um and different agents for different
+- [24:43] workflows
+- [24:44] um for them to have uh some shared
+- [24:48] >> yeah context window. It's a it's
+- [24:50] actually a problem that we are hearing
+- [24:52] from some companies and that is like
+- [24:53] well we're using agents but there's many
+- [24:55] people building agents in this
+- [24:57] organization and we're building the same
+- [24:58] things twice. We are building the same
+- [25:01] tools twice and there's no like central
+- [25:04] thing. What we have been doing is we
+- [25:06] specifically have a feature that they
+- [25:08] like it's called agent repository. So
+- [25:10] all your agents are within that. So you
+- [25:12] can reuse them many times over right. So
+- [25:14] if you let's say someone in one part of
+- [25:16] the team builds something that it's a
+- [25:19] very incredible sales agents they can
+- [25:21] now reuse that across the entire
+- [25:24] company. Same thing for specific tools
+- [25:26] is what we have been seeing companies
+- [25:27] trying to create this idea of an
+- [25:29] internal repository to be reusable
+- [25:31] across the entire stack.
+- [25:35] >> Okay.
+- [25:36] >> Does that answer your question?
+- [25:37] >> That was like um that was part of it.
+- [25:39] Right. I think I think what we were
+- [25:41] talking about is um how to make
+- [25:44] different agents and tools and and and
+- [25:46] things like that like a the toolkit I
+- [25:48] guess agent toolkit [laughter]
+- [25:51] >> uh that you share but I I guess just
+- [25:52] like the context uh is there like a
+- [25:56] constantly evolving
+- [25:58] >> oh like long-term memory and that kind
+- [26:00] of thing.
+- [26:00] >> Well, that's cool. Yeah, we see there's
+- [26:02] definitely the idea of different kinds
+- [26:04] of memory. There's like short-term
+- [26:06] memory, there's long-term memory, and
+- [26:09] there's also this idea of entities
+- [26:11] remembering things, right? So, as these
+- [26:13] agents remember things, how they store
+- [26:14] that so as they run over and over, they
+- [26:17] don't need to research or do the same
+- [26:19] work. So, we're seeing a lot of people
+- [26:21] using either rag or graph rag as
+- [26:24] backbones to implement memories for
+- [26:26] agents. Some frameworks come with them
+- [26:28] embedded. we come with something
+- [26:30] embedded but also other frameworks also
+- [26:32] come with their own implementations but
+- [26:35] this idea of memory I think there was a
+- [26:37] bunch of implementations early on in the
+- [26:39] last two years that have been somewhat
+- [26:41] naive I think now there's a lot more
+- [26:43] people thinking about like all right
+- [26:45] what would be like a very robust
+- [26:47] implementation of what this look like
+- [26:49] yeah
+- [26:50] >> thank you Joe okay one more question
+- [26:52] from this side okay and then one last
+- [26:55] question after that
+- [26:57] >> yeah I I have a use case which we're
+- [26:59] trying to address and this is uh to have
+- [27:02] multiple agents
+- [27:05] uh just carry out a conversation to
+- [27:07] simulate a conversation on an ethical
+- [27:10] issue
+- [27:12] and how would you that work? So just
+- [27:14] need some ideas on uh you know building
+- [27:17] that kind of an application
+- [27:20] if uh crew true AI uh can assist. Yeah,
+- [27:26] >> we have one use case that is kind of
+- [27:28] like that. It would be kind of like a QA
+- [27:31] like I want I want these agents to
+- [27:33] simulate something. So it's kind of like
+- [27:35] QAing something. Is that is that what
+- [27:36] you mean?
+- [27:38] >> Yeah, but it's more like you know
+- [27:48] it's like a group discussion.
+- [27:52] >> Yeah.
+- [27:53] >> With multiple
+- [27:55] Yeah, we see we see some implementations
+- [27:57] of that. Usually what people want is I
+- [28:00] want to have one single entry point. So
+- [28:02] it feels that I'm talking with one thing
+- [28:04] but behind the scenes you might have
+- [28:06] many agents that are actually doing the
+- [28:07] work. So it feels like it's just a
+- [28:10] regular chat GPT but then you ask it to
+- [28:13] do some crazy things and it goes and do
+- [28:16] what is honestly probably very similar
+- [28:17] on the chat GP implementation itself and
+- [28:20] you ask it to like do a deep research it
+- [28:22] triggers probably a multitude of things
+- [28:24] that happens in the background but yeah
+- [28:26] that's a very usual implementation we
+- [28:28] see that for exploring financial data
+- [28:30] for example is a very common use case
+- [28:32] >> just one representative to that
+- [28:35] >> so with the Jack Gh GPT
+- [28:39] they've come up with some kind of an SDK
+- [28:42] would be able to develop an extension on
+- [28:45] chat GPT to do something like that
+- [28:48] >> I haven't seen that on chat GPT no but
+- [28:50] you can do something with CI that would
+- [28:52] be custom but I don't think chat GPT
+- [28:54] allows you to extend that they have the
+- [28:56] assistance API that is so much similar
+- [28:59] but it's detached from the regular
+- [29:00] experience
+- [29:01] >> so you need to create your own interface
+- [29:05] >> yeah there's a few things that come a
+- [29:06] little more package. But yes,

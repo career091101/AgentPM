@@ -1,0 +1,329 @@
+---
+title: "Last week, uh, I did a video on how I was planning to do like a trading AI agent that was using Claude code as the agent"
+video_id: "E5y8BlRo6r4"
+video_url: "https://www.youtube.com/watch?v=E5y8BlRo6r4"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial"]
+summary: |
+  Last week, uh, I did a video on how I was planning to do like a trading AI agent that was using Claude code as the agent and just trying to come up with different trades we can do on like stocks with CFDs
+  So, uh, in this video, I just want to show you the results of my full week of uh, doing a few trades uh, using my AI agents
+  And I wouldn't say this strategy is nothing like genius or special or anything like that
+key_points:
+  - "few weeks to iterate [music] and I kind of want to share my results"
+  - "trade and just go through the week"
+  - "let's check out how we did yesterday"
+  - "one is going to be to go long ups and I have, uh, done the trades"
+  - "episode how that went"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:10:51+09:00"
+---
+
+# Transcript: E5y8BlRo6r4
+
+- URL: https://www.youtube.com/watch?v=E5y8BlRo6r4
+- Retrieved at: 2025-12-30T10:10:51+09:00
+
+## Text
+
+- [00:00] Last week, uh, I did a video on how I
+- [00:02] was planning to do like a trading AI
+- [00:04] agent that was using Claude code as the
+- [00:07] agent and just trying to come up with
+- [00:09] different trades we can do on like
+- [00:11] stocks with CFDs. So, uh, in this video,
+- [00:15] I just want to show you the results of
+- [00:17] my full week of uh, doing a few trades
+- [00:21] uh, using my AI agents. And I wouldn't
+- [00:25] say this strategy is nothing like genius
+- [00:29] or special or anything like that. It's
+- [00:31] just an experiment I wanted to do and
+- [00:34] I'm going to try over the next few weeks
+- [00:35] to iterate [music]
+- [00:37] and I kind of want to share my results.
+- [00:39] So if you're interested, uh this video
+- [00:41] is just going to be how we did the first
+- [00:44] week. Uh but there there's a lot of
+- [00:46] flaws here, some things I need to learn.
+- [00:48] But uh yeah, just wanted to share the
+- [00:50] results and maybe you can take something
+- [00:53] away from this. So now the video is just
+- [00:55] going to take off where the last one
+- [00:57] ended with my first trade and just go
+- [00:59] through the week. So yeah, enjoy. Okay,
+- [01:01] so after some back and forward, we kind
+- [01:03] of ended up on two trades. Uh we are
+- [01:07] going to do or that I did. Uh we ended
+- [01:09] up with uh Beyond Meat and we're going
+- [01:12] to do a 5x leverage and on the Sophie uh
+- [01:15] we're going to do the 2.5 leverage. I'm
+- [01:18] going to screen record my phone. I'm
+- [01:20] going to show you the trades we have
+- [01:22] done so far. Okay. So, you can see this
+- [01:24] is the sofa trade we did. You can see we
+- [01:26] did a 29.98
+- [01:28] opening price here. And if you look at
+- [01:31] the stop loss, we're going to do 27.5.
+- [01:33] And the takerit is just going to be as
+- [01:35] high as it gets, I guess. For the beyond
+- [01:38] meat, this is at 2 uh if you go to
+- [01:41] Beyond Meat, 2.08. Now, we're going to
+- [01:44] do uh an entry price, I think, at 1.9.
+- [01:47] if we go down there. Uh so that is
+- [01:49] basically the strategy. Okay. So there's
+- [01:51] like 5 minutes now until the market
+- [01:54] open. We have our trades for today. Uh
+- [01:57] but first let's check out how we did
+- [01:59] yesterday.
+- [02:00] So uh I made a simple tracker here so we
+- [02:03] can zoom in a bit. We made $2 on our
+- [02:06] trade. So we had like this so far long
+- [02:09] here. Uh the entry was 29.98. We exited
+- [02:14] at 30.06.
+- [02:16] So, a very low volatility trade even
+- [02:19] though we have 2.5 leverage. Yeah, we
+- [02:21] made $2. Uh, to be honest, I forgot to
+- [02:25] close out the beyond me trade. So, I'm
+- [02:28] going to do that now when the market
+- [02:29] opens and I'm going to add that into the
+- [02:33] day two overview. Uh, but so far I guess
+- [02:36] we are in profits. So, let's take a look
+- [02:39] at today
+- [02:40] uh the today's trades. So, uh, the first
+- [02:43] one is going to be to go long ups
+- [02:47] and I have, uh, done the trades. I'm
+- [02:50] going to pull up on the screen here
+- [02:52] afterwards, like a screenshot. And you
+- [02:55] can see, uh, yeah, we're going to go in
+- [02:57] with 5S leverage. We're going to do
+- [02:59] $1,200 exposure. Uh, and again, it wants
+- [03:02] to short beyond the meat. So, I guess
+- [03:05] we're just going to try that again.
+- [03:07] Yesterday, we went long. We'll see soon.
+- [03:10] uh I guess next episode how that went.
+- [03:12] But uh this time we're going to try to
+- [03:14] go short. So yeah, I guess that's the
+- [03:16] update for day two. So I'm going to keep
+- [03:19] updating day three, four, and five, and
+- [03:21] then we're going to do like a final
+- [03:22] thing. Okay, so uh yeah, we are on day
+- [03:26] three. So I was just looking at Nvidia
+- [03:28] here. This is uh looking very good
+- [03:30] pre-market. Uh but I want to take up one
+- [03:33] thing because um yeah, uh I made some
+- [03:36] changes. So today we're going to try to
+- [03:38] do a long short hedge pair workflow. So
+- [03:42] we're going to find one stock to go
+- [03:43] short and one to go long over the
+- [03:46] intraday. So we can do this kind of
+- [03:48] inside the same sector. Let's see. So I
+- [03:51] have started this workflow here now to
+- [03:53] look for uh pairs we can do a long short
+- [03:56] trade on. Uh but we have to look how it
+- [03:59] went yesterday and not good news because
+- [04:03] yeah we lost $45. So that means uh our
+- [04:09] yeah overall now is at minus 43.
+- [04:12] [snorts] Uh one thing that happened is I
+- [04:15] was going to place the beyond meat trade
+- [04:17] but I don't know what happened. It
+- [04:19] wasn't registered. So we only up ended
+- [04:21] up with the USPS trade that lost us $45.
+- [04:25] This actually went to stop-loss. So we
+- [04:29] kind of automatically was uh sold out of
+- [04:31] this trade. Uh but I had a quick look.
+- [04:33] If we had stayed in, we wouldn't have
+- [04:36] survived anyway. Uh, but now I'm going
+- [04:39] to I'm going to just let this run and
+- [04:41] we're going to find the pair we're going
+- [04:42] to hedge today and I'm going to place
+- [04:44] the bets. So, let's just wait and see
+- [04:46] what that's going to be. Okay, so these
+- [04:48] are the trades we're going to do. We're
+- [04:49] going to do long SoFi and short PayPal.
+- [04:52] Uh, we have already entered. So, I'm
+- [04:54] going to bring that up on the screen
+- [04:56] here. You can see we started pretty good
+- [04:58] from the start here on PayPal and we're
+- [05:00] a bit down on SoFi, but uh doesn't
+- [05:03] really matter. I'm going to let it run
+- [05:05] and have the stop losses target kind of
+- [05:07] where we if we uh strike out that's
+- [05:10] fine. It doesn't really matter too much.
+- [05:12] So that is going to be the trade. So
+- [05:14] yeah, I guess you will see how this went
+- [05:17] in just a second. I have to wait 8
+- [05:19] hours. Okay, so the market has closed
+- [05:22] and as you can see, I think we did
+- [05:24] pretty good here to be honest. Uh we
+- [05:26] ended up with uh we going so far long,
+- [05:30] right? We lost $15 on that trade, but
+- [05:33] since we have kind of did that hedged
+- [05:35] thing, uh we also had uh PayPal uh
+- [05:39] short. So what we ended up with with the
+- [05:42] PayPal short uh trade uh was $31 plus,
+- [05:46] right? So we ended up with like $15 in
+- [05:49] profit. And yeah, I think this shows
+- [05:52] that this strategy can work. And I think
+- [05:55] we got to continue with this the rest of
+- [05:57] the week. And if we move this over here
+- [05:59] to our yeah total now, you can see we
+- [06:02] are still in the red. And that was
+- [06:04] mostly because of the long UPS trade we
+- [06:06] did that went minus 45. Uh but we are up
+- [06:10] to two winning trades, two losing
+- [06:12] trades. And we did uh reduce the loss a
+- [06:15] bit. And yeah, hopefully at the end of
+- [06:17] the week we can be in the green. So
+- [06:19] let's just wait and see. Uh but now I
+- [06:21] want to show you the trade we're going
+- [06:23] to do today. uh because I have
+- [06:25] calculated that and again it's going to
+- [06:27] be like a long short trade or like a
+- [06:30] short long trade. Uh we're going to do
+- [06:32] short CQQ. This is like the Chinese
+- [06:36] uh what do you call it like tech um yeah
+- [06:40] some kind of ETF and we're going to do
+- [06:43] long gold. Right. So, I'm just going to
+- [06:46] bring up the uh the trades here on the
+- [06:49] screen. And as you can see, uh this is
+- [06:52] what I'm going to place. So, hopefully
+- [06:54] this uh is going to be good. And let's
+- [06:58] just let this run for a while. Let's see
+- [07:00] how it goes. And I'm going to take you
+- [07:02] back uh when this is completed. So, for
+- [07:06] you again, that's going to be a second.
+- [07:08] For me, it's going to be some hours.
+- [07:11] So uh we are now on the last uh trading
+- [07:14] day. Uh so this is Friday 31st of
+- [07:17] October I guess. So yeah, as you can see
+- [07:20] on the screen, these are yesterday's
+- [07:22] trade. And yeah, we did pretty good. You
+- [07:24] can't really see it here, but uh the
+- [07:26] gold long uh was pretty good. At least
+- [07:29] $12 up. And you can see the differences
+- [07:32] between the other two trades. Uh it was
+- [07:34] about $20. So yeah, that was a green and
+- [07:38] green trade. So, we went gold long and
+- [07:40] we shorted the tech Chinese ETF.
+- [07:45] So, if you go out to a tracker now, you
+- [07:47] can see if we add all this up, we are
+- [07:49] 676
+- [07:51] yay dollars in profit for the week with
+- [07:54] four winning trades and two losing
+- [07:56] trades. So, yeah, we added those here.
+- [07:59] QCQ short and gold long. Perfect. So,
+- [08:02] that is pretty interesting. And today is
+- [08:05] the final day. If we can just keep in
+- [08:07] the green today, that means that we have
+- [08:09] a profitable week, uh, we're not going
+- [08:12] to we can't really quit our daytime job
+- [08:14] here and live off this. But, uh, it's
+- [08:18] pretty fun anyway. And I think I'm going
+- [08:20] to continue doing this because I had a
+- [08:22] lot of fun with it. So, let's bring up
+- [08:25] today's trades. Uh, I just had a look
+- [08:28] and we're going to do these trades
+- [08:31] today. So, we're going to continue with
+- [08:33] this kind of same sector hedge bet where
+- [08:36] we do a long short trade or a short
+- [08:38] long, call it what you want. So, today's
+- [08:41] selection was uh VDC and STX. I have
+- [08:46] learned something this week. I'm going
+- [08:47] to share that uh on tomorrow's
+- [08:49] breakdown, and I think I have a new
+- [08:52] strategy for next week that's going to
+- [08:54] maybe be a bit better. I'm at least
+- [08:57] eager to try it out. But now, uh for
+- [08:59] you, it's just going to be a few
+- [09:01] seconds. we can see how this trade went
+- [09:04] and we got to kind of conclude the first
+- [09:05] week. Uh it's been a real blast so far.
+- [09:08] So I'm going to do a conclusion and see
+- [09:10] how we did and talk a bit about what's
+- [09:12] going to happen next. But yeah, see you
+- [09:14] in a sec. And that was the end of the
+- [09:16] week. So as you can see on the last day,
+- [09:18] we were pretty I'm just going to call it
+- [09:21] lucky because I don't really know what
+- [09:22] I'm doing here. But we did well. Uh we
+- [09:24] ended up in uh what I would say is a
+- [09:27] nice profit here from this trade. So,
+- [09:30] uh, if you go check out the CFD trade
+- [09:32] tracker now, yeah, we are almost $47 up,
+- [09:36] right? Uh, there are some small decimal
+- [09:40] errors here like, but the main thing is
+- [09:42] we ended up with five winning trades and
+- [09:44] three losing trades. So, uh, and a few
+- [09:48] missed trades. I'm not so uh have so
+- [09:51] much experience on this platform, but
+- [09:53] it's getting better. So I would say
+- [09:56] after this first week uh I really enjoy
+- [09:58] this. I had a lot of fun with it.
+- [10:00] Basically that was the point and I think
+- [10:02] there are ways to iterate. So I made
+- [10:05] some plans for next week. I'm going to
+- [10:07] try to iterate. So let me just show you
+- [10:09] kind of my initial plan I want to try
+- [10:11] out. So this just comes from my first
+- [10:14] week of observations. And of course this
+- [10:16] has nothing to do with strategy, the way
+- [10:19] you should do things. This is just my
+- [10:21] experience. And that is kind of exactly
+- [10:23] what you see here. We're just going to
+- [10:24] find us trading pair. We go short long.
+- [10:27] We're going to find the direction. If
+- [10:29] it's short, we're going to cut the long.
+- [10:31] If it's long, we're going to cut a
+- [10:32] short. Just going to try it out. Just
+- [10:35] see how it goes for like five trading
+- [10:37] days. So, that is just going to be my
+- [10:39] strategy. Super simple, nothing fancy,
+- [10:42] and it's just going to be interesting to
+- [10:43] see where this goes. Uh I also have some
+- [10:46] small adjustments to the context. So,
+- [10:49] one thing I started with was uh let I
+- [10:51] can just close this. So one thing I
+- [10:54] start is I'll give give this right
+- [10:56] before we run the agent. I'm going to
+- [10:58] give it like a few front pages of like
+- [11:01] say CNBC. We can do Bloomberg I think
+- [11:05] Yahoo Finance and Bloomberg. So just on
+- [11:08] front pages with some futures and some
+- [11:12] headlines just before the market opens.
+- [11:14] That is one other thing I added and
+- [11:16] that's pretty much it. Nothing fancy or
+- [11:19] anything like that. just some yeah
+- [11:21] experiments and I've been playing around
+- [11:23] with my custom instructions if you saw
+- [11:26] the previous video. So now now this is
+- [11:28] more of like a yeah we're going to do a
+- [11:31] trading pair on like a long short hedge
+- [11:33] strategy every week. So nothing about
+- [11:37] this is uh there's no beta, there's no
+- [11:40] alpha, there's no edge or there's
+- [11:43] nothing like this. It's just me having
+- [11:45] fun with using uh cloud code and agents
+- [11:49] to make trades with. There is no edge
+- [11:51] here. I think at least not yet. Can't
+- [11:54] see any edge, but I'm having fun with
+- [11:56] it. That is uh the most important part.
+- [11:58] And it's pretty low risk. I'm not
+- [12:00] risking like huge money. But if you want
+- [12:03] to follow along, check it out next week.
+- [12:04] I'm probably going to do a video from
+- [12:06] day one to five again. Uh I'm not going
+- [12:08] to do it in like two steps as I did now.
+- [12:11] I'm just going to record every day and
+- [12:13] we're going to do the conclusion at the
+- [12:14] end of the week. That is my plan. So
+- [12:17] yeah, if you enjoyed this short uh
+- [12:20] experiment, give this video a like and
+- [12:22] yeah, hopefully I see you again next
+- [12:24] week where we can continue updating our
+- [12:26] trade tracker here. So yeah, enjoy your
+- [12:29] day and we speak

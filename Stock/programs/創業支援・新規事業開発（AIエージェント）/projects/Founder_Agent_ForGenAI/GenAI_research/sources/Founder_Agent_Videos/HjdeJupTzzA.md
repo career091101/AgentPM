@@ -1,0 +1,1256 @@
+---
+title: "Hey guys, yesterday OpenAI just completely blew all of our minds with all of the new features and tools that they have a"
+video_id: "HjdeJupTzzA"
+video_url: "https://www.youtube.com/watch?v=HjdeJupTzzA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Hey guys, yesterday OpenAI just completely blew all of our minds with all of the new features and tools that they have announced to make it easier to build real world AI applications
+  But the most important announcement they made was the release of Agent Kit, which is a brand new tool that makes it easier to build, deploy, and optimize real world agents
+  So, in today's video, I'm going to be breaking down everything you guys need to know about Agent Kit, including what the heck is it, what can it do, and I'm going to be walking through a few real world examples of us making some agents using this new tool
+key_points:
+  - "things first, agent builder"
+  - "announcement they made was the release of Agent Kit, which is a brand new tool that makes it easier to build, deploy, and optimize real world agents"
+  - "one in my opinion was their announcement of agent kit, which is a super easy way for you to build production grade agents"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:21:46+09:00"
+---
+
+# Transcript: HjdeJupTzzA
+
+- URL: https://www.youtube.com/watch?v=HjdeJupTzzA
+- Retrieved at: 2025-12-30T10:21:46+09:00
+
+## Text
+
+- [00:00] Hey guys, yesterday OpenAI just
+- [00:02] completely blew all of our minds with
+- [00:05] all of the new features and tools that
+- [00:07] they have announced to make it easier to
+- [00:09] build real world AI applications. But
+- [00:11] the most important announcement they
+- [00:13] made was the release of Agent Kit, which
+- [00:16] is a brand new tool that makes it easier
+- [00:18] to build, deploy, and optimize real
+- [00:21] world agents. So, in today's video, I'm
+- [00:23] going to be breaking down everything you
+- [00:25] guys need to know about Agent Kit,
+- [00:27] including what the heck is it, what can
+- [00:29] it do, and I'm going to be walking
+- [00:30] through a few real world examples of us
+- [00:33] making some agents using this new tool.
+- [00:35] All right, so here's what you need to
+- [00:36] know. OpenAI had their dev day yesterday
+- [00:39] where they released all sorts of brand
+- [00:41] new features. Cannot recommend watching
+- [00:43] this video of Sam where he covers all of
+- [00:45] it. Definitely recommend checking that
+- [00:47] out. But inside his announcement, you're
+- [00:49] going to see all sorts of a new cool
+- [00:51] products that he's releasing. Everything
+- [00:53] from the ability to add in apps to
+- [00:55] chatbt, some cool new updates to Sora so
+- [00:57] that you can use the API. But the most
+- [00:59] important one in my opinion was their
+- [01:02] announcement of agent kit, which is a
+- [01:04] super easy way for you to build
+- [01:06] production grade agents. So, let's
+- [01:08] actually hop in so you can see exactly
+- [01:10] what's going on inside of Agent Kit. So
+- [01:11] the whole promise of this new tool is to
+- [01:14] allow you guys to build, deploy, and
+- [01:16] optimize realworld agents. And they have
+- [01:19] made it so easy it feels like cheating
+- [01:21] when it comes to building out these
+- [01:22] agents. Now, it's actually a combination
+- [01:25] of multiple tools. So agent kit really
+- [01:27] is a combination of their agent builder
+- [01:30] tool plus chatkit. And we're going to be
+- [01:32] walking through these and actually
+- [01:33] building out examples throughout the
+- [01:35] rest of this video, but let's cover
+- [01:36] quickly what each tool is. So first
+- [01:38] things first, agent builder. If you ever
+- [01:40] used inadin where you go off and
+- [01:42] actually build out agents to where you,
+- [01:44] you know, you drag in an agent and then
+- [01:46] you do a workflow and then different
+- [01:48] agents go to different place. This is
+- [01:50] agent builder. It is incredibly easy to
+- [01:52] use and, you know, it feels like
+- [01:54] cheating when building agents. Now,
+- [01:55] what's really cool is this UI that you
+- [01:58] guys are going to be seeing me build
+- [01:59] some agents here and showing off all of
+- [02:01] the cool new features in just a second.
+- [02:03] What's really happening under the hood
+- [02:04] is we're building on top of agent SDK.
+- [02:08] So, this is already a tool that they
+- [02:09] build, but they just made a really nice
+- [02:11] UI for us to create our own AI agents.
+- [02:14] Super excited to dive in. Now, that's
+- [02:16] building out the agents, but what about
+- [02:17] actually adding these agents to your
+- [02:20] applications? Well, that's usually one
+- [02:22] of the hardest parts about building AI
+- [02:23] tools. So, they released Chatkit, which
+- [02:26] is a really cool toolkit that allows you
+- [02:28] to actually add these different agent
+- [02:30] workflows that you're building into your
+- [02:32] application. And it's crazy. We'll dive
+- [02:34] into this later on, but you can actually
+- [02:35] build out cool UIs just like this to
+- [02:38] where you can talk to AI. It'll actually
+- [02:39] pop up cool widgets. Like it does so
+- [02:42] many cool things and we're going to be
+- [02:42] going through all of this together
+- [02:44] today. So, what do we need to do? Well,
+- [02:45] first things first, we need to hop over
+- [02:47] to agent builder. And don't worry, I
+- [02:49] will have links to everything that you
+- [02:51] guys are going to be seeing today so you
+- [02:52] can easily hop around. But like I said,
+- [02:54] second you click the link, it's going to
+- [02:56] take you into the docs where you're
+- [02:58] going to see, yep, we promise we'll help
+- [03:00] you build, deploy, and optimize your
+- [03:02] agents. But what we want is agent
+- [03:04] builder. And most importantly, we want
+- [03:05] to open agent builder to where we get to
+- [03:07] start on creating our own new canvas. So
+- [03:10] you can see whenever you go to access
+- [03:12] agent builder, once again, I'll have a
+- [03:14] link to it so you can easily hop to it.
+- [03:15] But what you're going to see is you can
+- [03:17] create your own custom workflows or what
+- [03:20] you can do is access a bunch of their
+- [03:21] pre-built templates that they've already
+- [03:23] created for us. So you can see they have
+- [03:24] everything from customer service where
+- [03:27] you're going to be able to add in agents
+- [03:29] plus workflows and conditions where each
+- [03:31] condition triggers its own agent. So
+- [03:32] they have an insane amount of cool new
+- [03:34] features for us. But what I want to do
+- [03:36] today is actually walk you through two
+- [03:37] different examples where we're going to
+- [03:39] create agents from scratch, explore all
+- [03:41] of the different ways we can actually
+- [03:43] customize these agents and have them
+- [03:45] work in real time. And then at the very
+- [03:46] end, you're going to see how we can
+- [03:48] actually embed one of these agents
+- [03:49] inside of an X.js application. Super
+- [03:51] excited. So without further ado, let's
+- [03:53] go ahead and start working on creating
+- [03:54] our first workflow. All right, so for
+- [03:55] the first example, we're going to build
+- [03:57] out a basic Q&A workflow. And we're
+- [04:00] going to start really simple so you can
+- [04:01] understand the core fundamentals. And
+- [04:03] then we're going to add in more and more
+- [04:04] functionality just so you can see how
+- [04:06] easy it is to build really powerful AI
+- [04:08] agents using agent builder. So what
+- [04:10] we're going to do, first things first,
+- [04:12] we want to create a workflow. So when we
+- [04:14] click create, what we're going to do is
+- [04:16] be brought into a very basic workflow
+- [04:18] like this. And here are the core
+- [04:20] controls that you guys need to know. So,
+- [04:22] first things first, you're going to be
+- [04:23] able to add all the core elements like
+- [04:25] agents where in whenever you click an
+- [04:27] agent, you're going to have the ability
+- [04:29] to start to add instructions. You're
+- [04:32] going to have the ability to tweak
+- [04:34] everything about this agent. Don't
+- [04:35] worry, we're going to cover that more.
+- [04:36] But what's really cool is they've also
+- [04:38] given us the ability to add in tools.
+- [04:41] So, we can add in the ability for us to
+- [04:43] do file search, which is where we can
+- [04:45] start to do rag against the vector
+- [04:47] store. They have the ability for us to
+- [04:48] do guard rails where guardrails allow us
+- [04:50] to basically say, "Hey, I want to
+- [04:53] protect what we're building against
+- [04:55] multiple things such as like, hey, I
+- [04:57] don't want people to include PII. I
+- [04:59] don't want people to jailbreak it. I
+- [05:01] don't want to include hallucinations."
+- [05:02] Like, there's so many cool tools that
+- [05:04] they've added to help us build really
+- [05:07] safe and effective AI agents. And that's
+- [05:09] the whole promise. Build, deploy, and
+- [05:11] actually optimize enterprisegrade AI
+- [05:14] agents. Then outside of that, you have
+- [05:15] the ability to add MCP tools where you
+- [05:18] can actually come in here and connect up
+- [05:20] to all sorts of different servers. Don't
+- [05:21] worry, you're going to see us work on
+- [05:22] this in a second. Finally, you have the
+- [05:24] ability to add in workflows. So, you can
+- [05:27] add in if else statements to where if
+- [05:30] we're trying to do customer service,
+- [05:31] what we can do is say, "Hey, if my
+- [05:33] agents trying to answer a question about
+- [05:36] the tech support, we'll direct them to
+- [05:38] the tech support agent. If they're just
+- [05:40] trying to get a refund, we'll direct
+- [05:41] them to the refund agent." you get to
+- [05:42] work on all of this, you know,
+- [05:44] conditionalbased workflows inside of
+- [05:47] agent builder right here. Now, enough
+- [05:49] talk. Let's actually go ahead and build
+- [05:50] out our very first agent. And like I
+- [05:52] said, we're going to do a very basic
+- [05:53] query agent and then we're going to add
+- [05:55] more complexity. And don't worry, in
+- [05:57] example two, we're going to do rag.
+- [05:58] Super excited for you guys to see this.
+- [06:00] So, for this first one, what we're going
+- [06:01] to do is we're actually just going to
+- [06:02] call this our code Q&A agent. Now, what
+- [06:05] is this going to do? Well, this agent is
+- [06:07] we're actually going to use MCP to
+- [06:09] answer code questions. Super excited for
+- [06:11] you guys to see this in action. So, one
+- [06:13] of the coolest things that we can do is
+- [06:14] say, "Hey, it is your job to answer
+- [06:18] questions provided by the user." And
+- [06:20] every time you answer a code question
+- [06:22] about the user, you need to use the
+- [06:24] context 7 tool to make sure that you get
+- [06:28] all the necessary information to provide
+- [06:30] a informed answer. Now, what this is
+- [06:32] going to do is we're going to now start
+- [06:35] working on adding in tools. And this is
+- [06:37] where I'm just like blown away with how
+- [06:39] easy it is to actually use agent
+- [06:40] builder. So to add a tool, what you can
+- [06:42] do is click add tool right here. Once we
+- [06:45] add a tool, you have the option to add
+- [06:47] in, you know, multiple different
+- [06:49] versions. So you can do an MCP tool, you
+- [06:51] can use file search, if you want to do
+- [06:52] rag, you can add in web search, code
+- [06:54] interpreter, like there's so many
+- [06:55] built-in tools that you guys get to add
+- [06:57] automatically. In our case, what we want
+- [06:58] to do is add in an MCP server where
+- [07:01] we're going to use Context 7. Now, if
+- [07:03] you haven't used Context 7 before, it is
+- [07:05] a really cool tool that allows us to
+- [07:07] access up-to-date documents that we can
+- [07:10] easily provide to access questions about
+- [07:12] anything related to code. So, we can
+- [07:14] access any question about Nex.js,
+- [07:16] Verscell, like we can do
+- [07:18] anything. It's crazy. This is one of my
+- [07:19] favorite MCP tools. So, what we're going
+- [07:21] to do is we want to actually add MCP as
+- [07:24] a server. So, what we can do is in our
+- [07:27] case, we'll just open one of these cuz
+- [07:28] all we really need is this URL. Then we
+- [07:31] can come back over to agent builder and
+- [07:33] say, "Hey, I would actually like to add
+- [07:35] in a custom server." So we can click
+- [07:37] server and we're going to say, "Hey, I
+- [07:39] would like to add in this custom MCP
+- [07:41] server. I want to call this context 7."
+- [07:43] So this is the name of the tool. And
+- [07:45] what we're going to do next is say,
+- [07:46] "Hey, I there's no need to add any
+- [07:49] authentication. We're just going to
+- [07:50] connect to this tool." Now, it's going
+- [07:52] to say, "All right, I want to connect to
+- [07:53] this tool and here are the underlying
+- [07:55] tool calls I can make when using context
+- [07:58] 7." What's really nice about the way
+- [08:00] that agent builder allows us to add in
+- [08:02] tools is you guys can pick, hey,
+- [08:04] whenever we're calling a tool, what do
+- [08:06] you want to do? Do you want to always
+- [08:08] require approval, never, or, you know,
+- [08:10] be configured? In our case, we're just
+- [08:11] going to say never. It's okay to always
+- [08:13] do a search. We're not doing anything
+- [08:14] crazy. So, let's actually dive into a
+- [08:16] little bit more available options that
+- [08:18] we have when it comes to controlling
+- [08:19] agents so that we can be on the same
+- [08:20] page. So you always have the ability to
+- [08:23] pick which different model that you guys
+- [08:24] want to use when it comes to reasoning
+- [08:27] cuz you know GPT5 is a thinking model.
+- [08:29] We can pick do you want me to think a
+- [08:31] long time a little time? What do you
+- [08:32] want to do? In our case we'll just stick
+- [08:34] to low so we can focus on quickly
+- [08:36] returning an answer. Now one of my
+- [08:37] favorite parts and you're going to see
+- [08:38] us use this later but you can actually
+- [08:40] pick how do you want the output to be.
+- [08:42] Do you want us just to return text? Do
+- [08:44] you want us to return JSON? Do you want
+- [08:46] us to also work on a widget using
+- [08:48] chatkit? Don't worry, you're gonna see
+- [08:50] all these later, but for right now,
+- [08:51] we're just going to stick to text. So,
+- [08:53] at this point, we're going to go ahead
+- [08:54] and try it out. And actually, this
+- [08:56] point, you're going to see just how easy
+- [08:57] it is to actually use one of these
+- [08:58] agents. The only final thing I do want
+- [09:00] to call out up here is how you can
+- [09:03] actually add questions to basically add
+- [09:05] context to your questions. So, what you
+- [09:07] can always do is say, hey, you know, it
+- [09:10] is your job to answer questions that
+- [09:12] were given to the user. So, you know,
+- [09:13] answer the following user question. Now,
+- [09:17] all we have to do is click add context
+- [09:19] and then you guys can click input as
+- [09:21] text. Where the heck is this coming
+- [09:23] from, you might ask? Well, it's coming
+- [09:25] from start. So, start is going to be the
+- [09:27] first message that gets passed into our
+- [09:29] agent. And you can see this is what's
+- [09:30] getting passed in. So, enough talk.
+- [09:32] Let's actually try this out. So, inside
+- [09:34] of agent builder, you can click preview.
+- [09:36] And this is going to give you a quick
+- [09:37] preview to try out your agent before you
+- [09:39] deploy it. Super cool that they allow
+- [09:41] you to do this and actually try it out.
+- [09:43] So what I can say is what is the latest
+- [09:47] version of and sometimes this gets
+- [09:49] spelled wrong. So AI SDK. So at this
+- [09:51] point I'm saying hey what's the latest
+- [09:53] version of Verscell AI SDK which is a
+- [09:56] really cool tool that you can use inside
+- [09:58] of Nex.js to actually chat with AI
+- [10:00] models. Now at this point what it's
+- [10:02] doing is it's like cool I need to fetch
+- [10:04] SDK version. I'm going to use the
+- [10:06] context 7 tool like we told it to to
+- [10:08] actually call and figure out the latest
+- [10:10] version. And you can see what's really
+- [10:12] nice is it in the reasoning steps it
+- [10:14] actually made a bunch of calls to versel
+- [10:17] AI SDK. So it's saying all right I'm
+- [10:19] going to call this tool with inside of
+- [10:22] context 7 to try and figure out what is
+- [10:24] the latest version and it's basically
+- [10:26] going to provide back an answer. And yes
+- [10:28] this is you know versel AI SDK is at
+- [10:30] version 5. So it did an awesome job. And
+- [10:33] you know it's asking for a few follow-up
+- [10:34] questions but hey it's working. This is
+- [10:36] this is the part that's crazy. We just
+- [10:37] built an agent, hooked up an MCP server,
+- [10:39] and chatted with it in seconds. Like,
+- [10:41] this is blowing my mind how easy it is.
+- [10:44] So, at this point, we can close out.
+- [10:45] Now, let's actually start diving into
+- [10:47] some of the more advanced features or
+- [10:49] some of the more, you know, capabilities
+- [10:51] that we have when it comes to actually
+- [10:53] answering questions. So, let's actually
+- [10:55] clear out the workflow lines and let's
+- [10:57] actually start building out another
+- [10:58] agent to where we're like, hey, you know
+- [11:00] what? Every time I build out an agent,
+- [11:02] I'm not always trying to ask questions
+- [11:04] about code. Sometimes I have general
+- [11:06] questions. So what we can do is say
+- [11:08] general Q&A agent and the whole point of
+- [11:11] this agent is going to be hey it is your
+- [11:14] job to answer general questions provided
+- [11:17] by the users and make sure to use the
+- [11:19] web search tool to provide a informed
+- [11:22] answer to the user's question. Now at
+- [11:24] this point it is super simple once again
+- [11:27] what do we have to do we can actually
+- [11:29] provide in the user question. Now, what
+- [11:31] we're going to do though is we're going
+- [11:32] to start actually using some of the
+- [11:34] advanced tools here, like if else, and
+- [11:37] we're going to start to use some routing
+- [11:38] and categorization. This is normally
+- [11:41] this takes forever to set up, but it
+- [11:42] takes seconds. So, you're about to see
+- [11:43] it. So, we're going to go ahead and pass
+- [11:44] in the user question once again. So, we
+- [11:46] can click add context, and we're going
+- [11:48] to once again, we are adding in the
+- [11:50] initial question provided by the user.
+- [11:52] What's also really cool is you can
+- [11:54] actually add in the entire chat history.
+- [11:57] What this is going to allow you guys to
+- [11:58] do, I just want to bring this up as
+- [11:59] well, is as you have a longer
+- [12:01] conversation to where, you know, maybe
+- [12:03] to start we had a question to the code
+- [12:05] agent, then later on we had a follow-up
+- [12:06] question to our general Q&A agent. Hey,
+- [12:09] we're going to allow our agent to access
+- [12:10] our entire chat history. So, really cool
+- [12:13] that you can just with a flick of a
+- [12:14] switch change what information is being
+- [12:16] provided to your agents. All right. Now,
+- [12:18] what do we want to do this time? Well,
+- [12:19] now what we're trying to do is we want
+- [12:21] to use the web search because we want
+- [12:23] the agent to go search the web to answer
+- [12:25] our questions. So, we're just going to
+- [12:27] leave it all completely blank for right
+- [12:29] now to where it just has total control
+- [12:30] and can go search whatever it needs to.
+- [12:32] Now, what we're going to do is you're
+- [12:34] going to see how we can start to build
+- [12:35] in actual workflows to make our lives
+- [12:38] easier. So, as you can see right now, we
+- [12:40] are at a spot where we have to route
+- [12:42] questions to the code agent or route
+- [12:44] questions to the general Q&A agent. I
+- [12:47] probably should spell that correctly,
+- [12:48] too. So, how the heck do we do this
+- [12:50] inside of agent builder? Well, they've
+- [12:52] made it so easy. What you can do is you
+- [12:54] guys can add another agent that's going
+- [12:56] to be a classifier. So what this agent
+- [12:58] is going to do is we're just going to
+- [13:00] say, "Hey, it's your job to classify
+- [13:03] queries as either code or general." It
+- [13:06] is your job to classify queries as a
+- [13:09] code of code or general. And I meant to
+- [13:12] say category. It's your job to classify
+- [13:14] queries as code or general. Yeah, it's
+- [13:15] perfect. Now, here's where we get to
+- [13:17] start to be fancy. Up until this point,
+- [13:19] our output format has always been text
+- [13:22] where we're saying, "Hey, please just
+- [13:23] respond to the person." But now what
+- [13:25] we're doing is we're actually trying to
+- [13:27] classify our queries as code or as
+- [13:30] general. So what we can do is first off
+- [13:33] we can say I want to use JSON. Now what
+- [13:36] we get to do is add a JSON schema to
+- [13:38] where we're going to say hey the output
+- [13:39] is either code or general. Normally this
+- [13:41] is a pain in the butt. You have to you
+- [13:42] know be pretty techsavvy or talk to AI
+- [13:44] to figure out how to actually make this
+- [13:46] happen. They've made it super cool. You
+- [13:48] down here you have a button to where you
+- [13:50] can actually just generate the output
+- [13:51] schema for one of your AI agents. So
+- [13:53] we're going to click generate and then
+- [13:54] once again we want to create a schema
+- [13:57] where the categorization is either code
+- [14:00] or general. That's it. That's literally
+- [14:02] all we have to do to actually have it
+- [14:05] transcribe what needs to be done. So now
+- [14:07] it's going to take in our raw
+- [14:08] instructions and say cool the category
+- [14:11] of this output is an enum where the
+- [14:13] response can either be code or general.
+- [14:15] That's exactly what we wanted and it
+- [14:17] took like two seconds to set up. That's
+- [14:18] crazy. So, we're going to say update.
+- [14:21] Fantastic. So, now the output format is
+- [14:23] going to be passed out as
+- [14:25] categorization. Then what we can do, I
+- [14:28] did make a quick mistake. Once again, we
+- [14:29] want to add in the input context just so
+- [14:31] we can say once again user query just to
+- [14:34] be super specific. Fantastic. So, now we
+- [14:37] have our classifier agent. So, now we
+- [14:39] get to start working on ifels. So if
+- [14:41] else is where we're going to start to
+- [14:42] bridge and make magic happen where we're
+- [14:44] going to start to route things. So at
+- [14:46] this point we're trying to classify
+- [14:48] everything. So we're going to say all
+- [14:50] right what can actually happen? Well at
+- [14:52] this point what we can do is we'll say
+- [14:54] if if it's a code so this is the name.
+- [14:57] This is just the name that appears right
+- [14:58] here. What we can do is start to put in
+- [15:00] conditions. Now what conditions can we
+- [15:03] actually like map on? Well you can see
+- [15:06] we can actually access the category. The
+- [15:08] category was defined right here by this
+- [15:10] agent. So we actually specified it. So
+- [15:13] category you can see right here
+- [15:15] category. This is exactly what we
+- [15:16] wanted. We can access it over here
+- [15:18] inside if else statement. So right here
+- [15:20] code I can once again click and let's
+- [15:23] see there we go. So now I can click
+- [15:25] category and it's like all right so
+- [15:26] you've provided a category. What do you
+- [15:28] want to do? Well we want to say if the
+- [15:30] category equals in our case we can now
+- [15:32] put some quotes and we can say code. So
+- [15:35] if the category provided to us is code,
+- [15:38] what we want to do is map over to our
+- [15:41] next agent. So we're going to say if
+- [15:43] it's code, map to the code agent.
+- [15:45] Otherwise, map to our general Q&A. So
+- [15:47] this is literally us building a real
+- [15:49] world workflow to where we have a
+- [15:51] classifier agent, we have if else, and
+- [15:53] we have, you know, routing. So let's
+- [15:55] actually try this out. So let's click
+- [15:57] preview. And at this point, what we can
+- [15:59] do is say, can you please tell me what
+- [16:01] is the latest version of NextJS? Now, at
+- [16:04] this point, it's going to classify. So,
+- [16:07] the classifier is running. It's
+- [16:08] reasoning. It's figuring out, okay, I
+- [16:12] can detect that in the if else statement
+- [16:14] that the category result was code. So,
+- [16:17] I'm moving people over to the code agent
+- [16:19] and then it's going to do its thing.
+- [16:20] Now, what's also really cool, well, as
+- [16:22] soon as it's done answering, we can ask
+- [16:23] our next question to where we can see it
+- [16:24] gets routed over to, you know, the other
+- [16:27] Q&A agent. So, obviously reasoning is
+- [16:30] low right now. We could probably pick a
+- [16:31] faster model for simple questions, but
+- [16:33] hey, it did a great job. It actually
+- [16:34] answered our question and it routed
+- [16:36] properly, which is crazy how easy it was
+- [16:37] to get to the far. We can also ask
+- [16:39] another question so you can just see in
+- [16:40] action. What is the weather today in
+- [16:42] Atlanta, Georgia? Now, at this point,
+- [16:44] what it's going to do is it's going to
+- [16:46] classify the question. And at this
+- [16:48] point, we should see the classification
+- [16:49] as general, not code. And we can now
+- [16:52] see, yep, category general. So, now what
+- [16:54] it's going to do is route us over to the
+- [16:55] general agent. And the general agent has
+- [16:57] access to the web. So, it's going to go
+- [16:59] do a query to the internet to figure out
+- [17:01] what today's date is. It's going to then
+- [17:03] look up the weather and then come back
+- [17:04] and say, "Hey, the weather is this today
+- [17:06] in Atlanta, Georgia." Which is really
+- [17:08] cool that it can do this. Yeah. So, you
+- [17:09] can see, boom, it crushed it. Now, that
+- [17:11] was a really quick overview of just
+- [17:12] building out a super simple workflow
+- [17:14] inside of Agent Kit. Now, what I want to
+- [17:16] do next, now that you've seen Agent
+- [17:18] Builder in action, let's go ahead and
+- [17:19] hop over to part two where you guys are
+- [17:21] going to start to see how we can build
+- [17:23] out a more complex workflow where we're
+- [17:25] going to use Rag. Super excited for you
+- [17:27] guys to see see this in action. Plus,
+- [17:28] you're going to see how we can actually
+- [17:30] incorporate our rag solution over to a
+- [17:33] Nex.js application. Like, it's crazy how
+- [17:35] easy it is to hook all this up. So,
+- [17:36] let's go ahead and hop over to working
+- [17:38] on a brand new workflow. So, first
+- [17:41] things first, we need to go back to
+- [17:42] agent builder and we are going to click
+- [17:44] create a workflow. Now, what we need to
+- [17:47] do is basically make a new agent and
+- [17:50] we're going to start simple and add in
+- [17:52] complexity. So, this is just going to be
+- [17:53] our rag query agent. And the whole point
+- [17:57] of this agent in our case is it's going
+- [17:59] to help answer questions that people
+- [18:02] might have had about some of my coaching
+- [18:03] calls. So, we're just going to give it a
+- [18:05] quick instructions and then we're going
+- [18:06] to add in a vector store. So, let's go
+- [18:08] ahead and do it. Your job is to be a
+- [18:10] query agent where you are going to
+- [18:13] answer questions that students might
+- [18:16] have had about the coaching calls during
+- [18:19] the weekly shipkit coaching calls. and
+- [18:21] it is your job to search up the
+- [18:23] information for their question and
+- [18:25] provide a well-informed answer. So,
+- [18:27] what's it actually doing? Well, it's
+- [18:29] actually doing just so you guys can see
+- [18:30] what's going on. So, it's going to be
+- [18:32] answering coaching call recordings. So,
+- [18:34] I'm going to be building out a vector
+- [18:36] store where it's going to be answering
+- [18:39] questions that people might have had
+- [18:41] during one of the coaching calls that I
+- [18:42] have inside of Shipkit. So people are
+- [18:44] going to be asking questions about like,
+- [18:46] hey, what did Brandon tell me to do when
+- [18:48] it comes to building a chat application
+- [18:50] or a rag application? So it's going to
+- [18:51] be helping answering these kind of
+- [18:53] questions. So how the heck do we
+- [18:54] actually make that happen? Well, now
+- [18:56] that we have a rag agent, what we want
+- [18:58] to do is go to tools and we're going to
+- [19:01] add in the ability to do file search.
+- [19:03] Now, whenever we do file search, what
+- [19:05] we're going to do is we can actually
+- [19:07] select a vector store. So you can see
+- [19:08] right down here. So we're going to click
+- [19:10] select vector store. And if you've never
+- [19:12] made one before, it's so easy to do. Let
+- [19:14] me show you. You're going to click
+- [19:14] vector stores right here. And this is
+- [19:16] going to take you over to OpenAI. And
+- [19:18] you can see down here we have storage or
+- [19:21] storage. We can add files or vector
+- [19:23] stores. In our case, I all I did to get
+- [19:25] this working is I clicked create. And
+- [19:28] that created a brand new vector store
+- [19:29] that I called Brandon Hancock. From
+- [19:31] there, what I did is I added in files.
+- [19:34] Which files did I add in? I basically
+- [19:36] just added in the transcript of each one
+- [19:38] of those. So I just create, let me
+- [19:39] actually just show you guys real fast. I
+- [19:41] added in markdown files just like this.
+- [19:44] So call 1 2 3 4 where it's just the
+- [19:46] transcript from these calls. Super super
+- [19:48] straightforward. And now I attach these
+- [19:50] files. So all we have to do on our side
+- [19:53] to create a rag agent using OpenAI is
+- [19:56] just copy this ID right here. So now
+- [19:59] whenever we come back to our agent,
+- [20:01] we're just going to paste in the vector
+- [20:02] store and it's going to go, oh, you want
+- [20:04] me to ask questions about this YouTube
+- [20:06] vector store? Sure. So that's all we
+- [20:08] have to do is select it. And at this
+- [20:10] point, boom, this agent is now basically
+- [20:12] has the ability to do rag queries
+- [20:14] against this vector store. And the final
+- [20:16] thing that we're going to do is just
+- [20:17] pass in the user query. So we're going
+- [20:19] to say user query. And let's make sure
+- [20:22] everything else looks good. I just want
+- [20:24] to make sure we spelled everything
+- [20:25] right. Fantastic. This is all we need to
+- [20:27] do to start actually testing out our
+- [20:28] vector store, which is crazy. So here's
+- [20:31] what we can do. Can you please tell me
+- [20:33] when the last coaching call was for
+- [20:35] shipkit.ai? And at this point, what it's
+- [20:38] going to do is our agent is going to go,
+- [20:40] "All right, I'm the rag agent. I'm now
+- [20:42] going to search files." And at this
+- [20:43] point, it's actually performing rag
+- [20:45] queries. So, it's doing multiple calls
+- [20:47] in parallel where it's trying to figure
+- [20:48] out like, "All right, when was the last
+- [20:50] session?" Once it gets back the results,
+- [20:52] it's going to craft a response. And
+- [20:54] what's cool is it's like, "All right,
+- [20:55] the most recent Shipkit coaching call
+- [20:57] was on October 7th. It was an hour and a
+- [21:00] half call." And you can actually watch
+- [21:02] the recording here. So you can actually
+- [21:04] like you can click it like it's it's
+- [21:06] doing full-blown rag where it's pulling
+- [21:08] out stuff. So yeah, that's insane that
+- [21:10] it was that easy to get a rag agent up
+- [21:12] and working with OpenAI. Now what else
+- [21:15] can we do? Well, there's a ton of other
+- [21:18] features. Oop, sorry, that was a draft.
+- [21:20] Uh, let me actually make sure I'm
+- [21:21] clicking on the right one. Fantastic. So
+- [21:24] let's make sure we don't make that
+- [21:25] mistake again. So what we can do is call
+- [21:27] this rag coaching. Boom. So now we have
+- [21:30] our rag agent up and working. But that's
+- [21:32] just level one. We can get much fancier
+- [21:34] with this going forward. So what we can
+- [21:37] do is we could add in guardrails. So
+- [21:40] what we can do for guard rails is we
+- [21:42] could actually, if we wanted to, I'm not
+- [21:44] going to do it, but I just want to show
+- [21:45] you guys. What you could do is make sure
+- [21:47] people don't ask PII questions when
+- [21:50] trying to do a rag query. So what they
+- [21:52] couldn't do is, or heck, we could
+- [21:54] actually do it on the end if you wanted
+- [21:56] to. What we could do is say like, hey,
+- [21:58] don't return anything with PII. So this
+- [22:01] could be something like, you know, if we
+- [22:03] don't want to show the person's name,
+- [22:04] phone number, or something like that, we
+- [22:06] could easily block it before it was sent
+- [22:08] to the model. So there's all sorts of
+- [22:10] cool things that we could we could do
+- [22:12] here, but we're going to skip that one
+- [22:14] for now. But I just want like these are
+- [22:15] all the options that you guys can have
+- [22:16] to where you can spin up in a few
+- [22:17] seconds. In our case, what we want to do
+- [22:19] is we actually want to include a
+- [22:20] guardrail to prevent hallucinations. So
+- [22:22] let me show you how easy this is to make
+- [22:24] sure that the agent doesn't hallucinate
+- [22:26] something that it's not supposed to. So
+- [22:27] we can on in guardrail I can click it
+- [22:30] and then I can say hallucinations
+- [22:32] basically don't hallucinate and what
+- [22:34] it's going to do is it is going to
+- [22:36] verify claims against trusted documents
+- [22:38] in your vector store. So I think the
+- [22:40] easiest way to see this in action is
+- [22:41] actually just go ahead and look at it.
+- [22:42] So what we can do is browse the vector
+- [22:44] store and actually I think I might have
+- [22:46] it pasted still. Yeah. So you can see
+- [22:48] this is the vector store and we're going
+- [22:50] to just say add and you can if you
+- [22:52] wanted to you can pick the model you
+- [22:53] could pick the confidence but basically
+- [22:55] for doing hallucination guardrails we
+- [22:57] just want a quick model to say does this
+- [23:00] look valid is this not valid if so
+- [23:02] proceed. So we're going to say okay now
+- [23:04] what do we need to do? Well, in our
+- [23:05] case, this is my one complaint is they
+- [23:08] don't make it easy to uh I wish the
+- [23:10] editor was a little bit bigger, but in
+- [23:11] our case, what we can do is pass our
+- [23:14] results from our agent to guardrail.
+- [23:17] Now, what guardrails are going to do is
+- [23:20] two options. So, first, if we fail, what
+- [23:22] we want to do is pass this information
+- [23:24] over to one agent, and if it passes, we
+- [23:27] want to pass it over to another agent.
+- [23:29] So, what should be the result of the
+- [23:32] agent if it works? So, we're just going
+- [23:34] to say, please return the query answer
+- [23:37] to the user. Now, what this is going to
+- [23:39] do is we can actually add context. Which
+- [23:41] context do we want to add? Well, in our
+- [23:43] case, we want to add safe text. You'll
+- [23:46] see what safe text is in just a second.
+- [23:48] Here is the answer.
+- [23:51] Here's here's the answer. And then we're
+- [23:53] going to say here was the initial
+- [23:56] question. So, at this point, we can
+- [23:57] actually pass in both. So, input is
+- [24:00] coming from here. the safe result is
+- [24:02] coming from guardrails where guardrails
+- [24:04] is basically saying like yeah this
+- [24:05] information is safe. This was valid
+- [24:07] information from the user. So that's
+- [24:09] what we can have. So we can say you know
+- [24:11] result agent. Then what we can do is on
+- [24:15] the second agent we can have it say hey
+- [24:17] something went wrong. So we'll call this
+- [24:19] the unsafe answer agent. Now what is
+- [24:23] this going to have access to? Well, you
+- [24:25] can always click add context to see what
+- [24:27] information you have access to when
+- [24:29] working with all these different nodes.
+- [24:31] So in our case down here in
+- [24:32] hallucination, you can see we have
+- [24:34] multiple different reasons or multiple
+- [24:37] different fields we can access for
+- [24:38] hallucination. So in our case, we can
+- [24:40] access reasoning. So we can say in our
+- [24:43] case, we can say the user's initial
+- [24:45] query produced hallucinations.
+- [24:48] Here is the initial query. And what we
+- [24:50] can do is just once again always pass in
+- [24:52] the initial query provided by the user.
+- [24:55] And I know this might be a little tiny.
+- [24:56] I apologize. The uh I guess we can zoom
+- [24:58] back in again. So here's the initial
+- [25:00] query. Then what we can do is say here
+- [25:02] is the reason why the answer is not
+- [25:07] valid.
+- [25:09] Then what we can do is pass in
+- [25:11] reasoning. And then what we can also do
+- [25:13] is I think we can also access yeah we
+- [25:15] actually can't access anything else but
+- [25:17] we can also give it more information to
+- [25:18] provide the hallucination type. Here is
+- [25:21] the hallucination type as well. And what
+- [25:25] we can do once again add context and we
+- [25:27] can provide it right here. Hallucination
+- [25:29] type. Okay. I think we're all good. So
+- [25:32] let's actually try this out again. So
+- [25:33] let's preview our agents. And at this
+- [25:35] point we're just going to try and go
+- [25:36] down the unsafe path. So we can say what
+- [25:38] time did Brandon walk his dog yesterday?
+- [25:41] And at this point, what's going to
+- [25:42] happen is the rag agent is going to try
+- [25:44] and search through all the vector stores
+- [25:46] to see through all my coaching calls,
+- [25:48] what time did I walk my dog. The short
+- [25:50] answer is I never talked about that.
+- [25:51] That's not the whole point of this
+- [25:52] vector store. So, this should trigger as
+- [25:55] a failure where the guardrail goes, hey,
+- [25:57] you know, there's not anything
+- [25:59] mentioning it. So, the guardrail should
+- [26:02] basically say, hey, no, you don't have
+- [26:04] this information. This is not valid. So,
+- [26:07] you can see the guardrail failed. So,
+- [26:09] failed. That's perfect. That's what we
+- [26:10] wanted it to do. And it's saying here
+- [26:12] was the input which is what time of
+- [26:14] brain walk his dog. Then it's going to
+- [26:16] say exactly what went wrong. So the
+- [26:19] hallucination reasoning is like hey the
+- [26:21] user is asking about walking the dog but
+- [26:23] the documents never mention in any
+- [26:25] information about his dogs. Therefore
+- [26:27] the factual claim or any questions is
+- [26:29] going to be unsupported. So it's an
+- [26:30] unsupported claim for whatever answer.
+- [26:32] You know we can't actually answer a
+- [26:34] question about this because we don't
+- [26:35] have information about it. So, the
+- [26:37] unsafe agent answers and it's saying,
+- [26:38] "Hey, I don't see any information in the
+- [26:40] uploaded coaching call transcripts. I
+- [26:42] only talk about a dog one time as a
+- [26:45] general example, but I never talk about
+- [26:46] walking my dogs." So, that's pretty
+- [26:48] cool. Like, that's like adding in
+- [26:49] guardrails like that is normally such a
+- [26:51] pain, but with working with basically
+- [26:54] agent kit, it took 2 seconds and we set
+- [26:56] that up. All right. So, here's what we
+- [26:58] can do now. I want us to start working
+- [27:00] on showcasing some of the cooler
+- [27:02] features of working with agent kit and
+- [27:06] chatkit. So this is where we're going to
+- [27:08] start working with actually
+- [27:09] incorporating and publishing this agent
+- [27:11] right here and actually having it so
+- [27:13] that we can actually add it to an
+- [27:15] next.js application. So that's part one.
+- [27:16] And then part two, I'm going to show you
+- [27:18] how you can start adding in custom forms
+- [27:19] and outputs and UIs. It's crazy how easy
+- [27:22] it is for all this to work. So let's hop
+- [27:24] over to a Nex.js XJS application and
+- [27:27] actually start hooking everything up cuz
+- [27:28] it's stupid easy to do. So, I'll see you
+- [27:30] in just a second. All right, so welcome
+- [27:31] to the chat kit starter template. This
+- [27:34] was generated and built by OpenAI and
+- [27:37] it's something that you guys can access.
+- [27:39] I'll have a link to all the resources
+- [27:40] and a link down description below so you
+- [27:42] can get links to this template so you
+- [27:44] can download it yourself. But what the
+- [27:45] heck is this template actually doing?
+- [27:47] Well, at the end of the day, it's
+- [27:49] installing all the necessary packages
+- [27:50] for us to start working with chatkit,
+- [27:54] which is, you know, the basically the
+- [27:56] file and the library that allows us to
+- [27:59] bring in all the cool agent workflows.
+- [28:00] And actually, Adam has a really nice UI
+- [28:02] in our next JS application. So, let's
+- [28:04] just run this bad boy so you can see how
+- [28:06] easy it is to actually talk with your
+- [28:08] agent workflows. Now, here's exactly
+- [28:10] what you need to do to get it working.
+- [28:12] Whenever you download the OpenAI Chatkit
+- [28:14] starter app, there's two things you have
+- [28:16] to change. That's literally it. You have
+- [28:17] to add in your public workflow ID. I'll
+- [28:20] show you how to get that. And you need
+- [28:21] to go get an OpenAI key. You guys are
+- [28:23] smart. You know how to do that. So, how
+- [28:24] do we get this workflow ID? Well, all
+- [28:27] you have to do is publish your
+- [28:28] application. It's as simple as that. So,
+- [28:30] in the top right, you're going to click
+- [28:31] publish. As soon as you click publish,
+- [28:34] you are going to name your workflow. In
+- [28:36] our case, it's Rag Coaching. And we're
+- [28:38] going to click publish. Once this is
+- [28:39] published, it's going to go ta. And you
+- [28:41] can see in the top left that we can
+- [28:43] actually version it and everything,
+- [28:44] which is crazy. But what should happen
+- [28:46] to actually work with your agent is at
+- [28:49] the very end to get your workflow ID,
+- [28:51] you have to click code. Once you click
+- [28:53] code, all you have to do is grab this
+- [28:56] workflow ID right here inside of
+- [28:58] chatkit. And what is pretty cool, you
+- [29:01] can see under the hood that like I
+- [29:03] mentioned at the very beginning of this
+- [29:05] video, you know, agent builder, the tool
+- [29:07] that we're using is nothing more than a
+- [29:09] nice UI to have us build on top of agent
+- [29:12] SDK. So you can see in here at the end
+- [29:14] of the day, this is all just Python code
+- [29:16] where we have guardrails, we have our
+- [29:18] specific, you know, fire search tool
+- [29:19] where we're looking up our vector store.
+- [29:21] So at the end of the day, this is all
+- [29:22] code. It's just we have a really nice UI
+- [29:24] that's sitting on top of it. So we can
+- [29:26] go to chatkit. Now once we're inside
+- [29:28] chatkit, we want to copy this workflow
+- [29:29] ID. So just click copy. Now when we hop
+- [29:32] back over to our code, so let's go find
+- [29:35] our code really quick. All we have to do
+- [29:38] is update this workflow ID right here.
+- [29:41] Save it. and you guys will go and
+- [29:43] generate your OpenAI key. But the second
+- [29:45] that's done, all you have to do is run
+- [29:48] MPMI to install all the necessary
+- [29:50] packages. And then as soon as you're
+- [29:52] done with that, run dev. Now, this is
+- [29:54] going to go spin up our application on
+- [29:55] port 3000. So, let's go take this bad
+- [29:58] boy for a run. So, localhost 3000. And
+- [30:01] you can see, tada, loading our agent.
+- [30:03] Now, this agent is hooked up to our rag
+- [30:06] agent. So we can once again say, you
+- [30:08] know, what time was Brandon's latest
+- [30:11] coaching call? What date? At this point,
+- [30:13] it's going to then go perform the normal
+- [30:16] rag query that was always happening
+- [30:18] inside of like you just saw in the
+- [30:20] preview, except now it's happening in
+- [30:22] production. Like it's crazy how easy it
+- [30:23] is from preview to production and it all
+- [30:26] works. So at this point, it's generating
+- [30:27] response. It's thinking and in just a
+- [30:30] second it should generate the result to
+- [30:31] say, "Oh, I can see that Brandon's
+- [30:33] coaching call happened on October 7th,
+- [30:36] today." and it took place at this time
+- [30:38] and you know here's what was happening
+- [30:40] and you can ask follow-up questions.
+- [30:41] What were some of the main topics talked
+- [30:43] about during this coaching call and you
+- [30:46] can see what is always super nice is you
+- [30:48] can kind of see which files that it
+- [30:50] referenced when building out this
+- [30:51] answer. So it it had to look at a few
+- [30:53] different sources to actually you know
+- [30:55] basically call this out. So we're now
+- [30:57] going to have it send that second
+- [30:58] request and like this is rag. This is
+- [31:01] real world rag happening in just in
+- [31:03] seconds. This is crazy. Now, the second
+- [31:06] this is done, so you can see it's doing
+- [31:07] its normal thinking and everything. As
+- [31:08] soon as this just generates a result,
+- [31:10] well, while it's generating a result, I
+- [31:12] actually show you guys some some cooler
+- [31:13] things. So, not only are you guys
+- [31:15] getting access to agent builder, but you
+- [31:17] also have logs. Now, in logs, what you
+- [31:20] can do is actually view what the heck
+- [31:22] happened inside of these calls. So, you
+- [31:24] can go to chatkit threads, and inside
+- [31:28] here, you can actually see everything
+- [31:30] that we are talking about. So, you can
+- [31:31] click here and quickly see what was
+- [31:34] going on. So you can see Brandon asked
+- [31:36] or I asked what time was Brandon's
+- [31:38] coaching call. Now what's happening
+- [31:40] under the hood is it generated all sorts
+- [31:43] of agent calls to do different assistant
+- [31:46] messages where this assistant message
+- [31:48] called these different files and it
+- [31:50] generated you know a response which was
+- [31:52] like hey Brandon's latest coaching call
+- [31:54] was here. What you could also do if you
+- [31:56] wanted to go deeper is you could go into
+- [31:58] a trace. And a trace, what you could do
+- [32:00] is look at, all right, what workflow are
+- [32:03] we working with? In this case, we're
+- [32:05] working with, you know, this chat
+- [32:07] conversation right here. This is what
+- [32:09] we're working with. And you can actually
+- [32:10] go look at a trace to where you can see
+- [32:12] what exactly happened. So you can see we
+- [32:15] kicked off the agent where Brandon, we
+- [32:18] asked what time was Bran's latest
+- [32:19] coaching call. So you can see exactly
+- [32:21] what happened. Next is our rag query
+- [32:23] agent then kicked off an entire result
+- [32:26] to where it was generating a response.
+- [32:29] Inside this response, you can see
+- [32:30] exactly what was happening. The
+- [32:32] configurations, you can see the system
+- [32:34] instructions, which is exactly what we
+- [32:36] set up initially when we were creating
+- [32:37] the agent. You can see the input, you
+- [32:39] can see everything. It is crazy that all
+- [32:41] this is already built out for us. And
+- [32:43] then now you can see I asked a second
+- [32:45] question and that this is in progress.
+- [32:46] Like the fact that we can do all of this
+- [32:49] right out the box in seconds is is
+- [32:51] crazy. only this on a ton of other
+- [32:52] frameworks. This takes forever to get to
+- [32:54] this point and you have to pay a ton of
+- [32:56] money between either bringing in your
+- [32:58] own thirdparty tracing capabilities or
+- [33:01] setting it up yourself. Like, and this
+- [33:03] just works right out the gate, which is
+- [33:04] crazy. So, hopping back over here, you
+- [33:06] can see, oh, well, if you're referring
+- [33:08] to October 7th, we were in the
+- [33:10] conversation in the coaching call
+- [33:12] talking about working with different
+- [33:13] agent platforms, rag platforms, working
+- [33:16] with chat SAS applications, like we were
+- [33:18] talking about all the different, you
+- [33:19] know, products and everything inside of
+- [33:21] Shipkit, one of the projects that I
+- [33:23] built for you guys. So, what else you
+- [33:25] can kind of see hopping over here. So,
+- [33:26] we'll just refresh this. So, it's done.
+- [33:28] Yeah, it should be done with in
+- [33:30] progress. Not sure why it's still saying
+- [33:32] it's going, but what's really cool now
+- [33:34] is I just want to hop to one of the very
+- [33:36] final features that you guys need to see
+- [33:38] about agent builder, which is you can
+- [33:40] start to actually generate some really
+- [33:42] cool forms. So, up to this point, every
+- [33:45] time we've generated a response, it's
+- [33:47] just been plain text. Hey, that's cool.
+- [33:49] But like, man, we can do so much more.
+- [33:51] So, let me actually show you what else
+- [33:52] you can do. So, at this point,
+- [33:54] everything we've done is a output format
+- [33:56] of text. Well, what we could also do is
+- [33:58] use chat kit. what you can see right
+- [34:00] here, which is to build a widget. Now,
+- [34:03] inside of this widget, what we can do is
+- [34:06] click add widget, and it's going to ask
+- [34:08] us to create a brand new widget. And
+- [34:10] what a widget's going to do is it's
+- [34:12] going to be a really nice UI element
+- [34:14] that's custom, and the agent is going to
+- [34:16] know exactly how to fill out this nice
+- [34:18] UI to actually make it look really cool.
+- [34:20] So, let's let's just go do it so you can
+- [34:21] see it in action. So, at this point,
+- [34:23] we're going to say, can you please
+- [34:25] create a really clean, simplistic UI
+- [34:28] element that will contain the search
+- [34:32] results from a rag agent. So, all we
+- [34:35] need to have is a nice header and a
+- [34:38] body. That is all we need. Make it
+- [34:39] clean, minimal for our users. Now,
+- [34:42] what's really cool is this create widget
+- [34:45] application is going to go, "All right,
+- [34:47] cool. I'm going to now make you a
+- [34:49] widget." And it'll make the most sense
+- [34:51] as soon as you see it here in a second.
+- [34:53] But what it's planning on doing is like,
+- [34:54] oh, you said you wanted a header and you
+- [34:57] wanted so header up top. So header and
+- [35:00] then over here you wanted body. Well,
+- [35:01] the agent's going to start working on
+- [35:03] creating that nice UI element. And
+- [35:05] what's really cool is at the bottom once
+- [35:07] it generates this new widget is it's
+- [35:09] going to say, "Hey, in order for me to
+- [35:12] showcase this agent, here's exactly what
+- [35:14] I need. I need a header input and I need
+- [35:17] a body." So, what we can do, this is
+- [35:20] super minimalistic. We could actually
+- [35:21] make this fancier if we wanted to, but I
+- [35:23] just want to we'll we'll download it. As
+- [35:26] soon as we download it, we can click
+- [35:27] upload. We'll go to downloads and we'll
+- [35:30] do rag search widget. So, you can see,
+- [35:32] tada, we now have a widget. So, this is
+- [35:35] what's going to be used to generate our
+- [35:37] final result. So, let's actually just
+- [35:39] see this in action because it's really,
+- [35:41] really cool. So, we'll actually publish
+- [35:43] this at the same time, too. So, let's
+- [35:46] see this in action. So, we're going to
+- [35:47] say, can you please tell me what is the
+- [35:50] chat SAS application? So, at this point,
+- [35:53] I'm going to pass in a query to our
+- [35:56] vector store once again, and hopefully
+- [35:58] Whisper can generate the result. One
+- [36:00] second. Perfect. So, now we're going to
+- [36:01] send this off. Now, what this is going
+- [36:03] to do is perform the typical rag search,
+- [36:06] then do guardrails, then it's going to
+- [36:08] trigger our result agent, and our result
+- [36:10] agent is going to then put the final
+- [36:12] result in that really cool chat widget.
+- [36:15] Obviously, we went super simple for this
+- [36:16] demo, but we could have made it look
+- [36:19] really, really pretty and clean. And I'm
+- [36:21] going to show you here in the preview
+- [36:22] land. And then we're going to hop over
+- [36:23] actually to our Next.js application. So,
+- [36:25] you can see just how easy it is to build
+- [36:27] nice UI elements here and then actually
+- [36:29] have them appear inside of our real
+- [36:31] world next.js application. So, you can
+- [36:33] see our guardrails are running really
+- [36:35] quickly. And, you know, guardrails are
+- [36:37] going to say yes hopefully here in a
+- [36:39] second of like yes, this is a pass. So,
+- [36:41] we're going to give this a second. And
+- [36:43] real quick, if you guys ever get that
+- [36:45] error up top, that's one of the worst
+- [36:47] parts about working with new
+- [36:48] technologies is sometimes they fail. So
+- [36:50] in our case, we're just going to have to
+- [36:51] run it again. But yeah, this is the
+- [36:54] current agent kit and agent builder. I'm
+- [36:56] going to give it like an 80% reliability
+- [36:58] right now. I think as time goes on,
+- [37:00] it'll become obviously more reliable,
+- [37:01] but you're just going to see sometimes
+- [37:03] the agent will kind of basically crap
+- [37:05] out for and it doesn't really tell you
+- [37:07] why. It just says we've lost hold of the
+- [37:09] thread. So, we're going to let this go
+- [37:11] for a second while it's trying to think
+- [37:13] of an answer. It's looking through all
+- [37:15] of the different coaching calls to
+- [37:16] figure out like, oh, what is Shipkit?
+- [37:18] And quick call to plug Shipkit. So, this
+- [37:21] is the tool that I built for you guys.
+- [37:23] It's a combination of course pre-built
+- [37:24] real world AI applications and
+- [37:26] everything that you guys need to do to
+- [37:28] build realworld AI applications. And
+- [37:31] definitely recommend checking out this
+- [37:32] video so you can see all the cool things
+- [37:33] that you guys get inside of Shipkit. But
+- [37:35] basically, you can really build a new AI
+- [37:38] application in days using Shipkit. So,
+- [37:41] we have courses to walk you through
+- [37:43] everything, pre-built projects to walk
+- [37:44] you through everything. And one of the
+- [37:46] coolest things is we have different
+- [37:48] prompt templates inside the course that
+- [37:49] they do all the work for you. Oh, you
+- [37:51] want to come up with a new landing page?
+- [37:52] Boom, we did that. Oh, you want to build
+- [37:53] new functionality? Cool. We'll literally
+- [37:55] help you do all of that. It's the first
+- [37:56] true AI course, and you'll see all of it
+- [37:58] in action inside of that video. But
+- [38:00] enough of that. Let's actually hop back
+- [38:02] to working with this to where we're
+- [38:04] having our guard rails wrap up and we're
+- [38:07] having it finish. One second.
+- [38:10] Yeah. And for some reason it keeps it
+- [38:12] keeps dying. So I'm just going to run
+- [38:13] this a bunch of times in the background
+- [38:14] until it works for you guys so I can
+- [38:15] show the final result. So one second and
+- [38:17] I will show you the final result and
+- [38:18] then we'll hop over to Next.js. All
+- [38:20] right. So I ran it again and it worked
+- [38:22] perfectly. So as you can see now instead
+- [38:24] of just returning text like everything
+- [38:26] above where we used to return text, now
+- [38:28] what we're doing is returning our cool
+- [38:30] widget. And obviously this is insanely
+- [38:31] plain. We could all we're doing is a
+- [38:33] header and a body, but we could add so
+- [38:35] much more to this. We could make it do a
+- [38:36] cool table. We could make it add a ton
+- [38:38] of colors. Like there's a thousand cool
+- [38:40] things that you can do when it comes to
+- [38:42] adding widgets. And as you can see, it
+- [38:44] basically just followed the, you know,
+- [38:45] the basic format that we were asking
+- [38:46] for. Now, what's also really cool is at
+- [38:48] the exact same time, I asked the same
+- [38:50] question over to our Next.js
+- [38:51] application. And you can see it returned
+- [38:54] with, you know, all of its thoughts. you
+- [38:56] can see right here and a cool little
+- [38:57] answer, but at the very end, it returned
+- [38:59] the widget. And the widget is the exact
+- [39:01] same thing that you saw earlier where
+- [39:03] it's returning an answer and so forth.
+- [39:06] But what's also really cool is if you
+- [39:07] wanted to, you could add actions at the
+- [39:09] end like a copy button. You could add a
+- [39:11] send button. You could do all of that.
+- [39:12] And how would you do it? Well, just
+- [39:14] going back over here, you would hop back
+- [39:16] over to agent builder. Inside of our
+- [39:19] agent, we would just make a brand new
+- [39:20] widget. So, we would actually get rid of
+- [39:22] this widget. We would detach. We would
+- [39:24] create a new one. And then what we could
+- [39:26] do just once again go through the
+- [39:28] process of making a more colorful one.
+- [39:29] Maybe add tables. We could do everything
+- [39:31] inside of here. Heck, you could even,
+- [39:33] you know, put this in back in, upload
+- [39:35] the widget, and basically start to to
+- [39:37] work on it yourself. Obviously, the
+- [39:39] coolest part is to use AI out the out
+- [39:41] the gate. But these are just examples of
+- [39:44] what really cool widgets could look
+- [39:45] like. So, you could add a weather
+- [39:47] widget. You could add a to-do calendar
+- [39:49] widget where actions are at the bottom.
+- [39:51] So you could add any of this and it
+- [39:52] takes literally seconds to build out
+- [39:54] these custom ones. Heck, you could even
+- [39:56] click on one and you can see the exact
+- [39:58] source code and you can make this be
+- [40:00] your widget. So there's a thousand
+- [40:02] things that you could do inside of here.
+- [40:03] But I just wanted to show you guys today
+- [40:05] a little bit of what is possible with
+- [40:07] using Agent Kit. But yeah guys, that's a
+- [40:09] wrap for this video today. I hope you
+- [40:11] guys love seeing the biggest update of
+- [40:14] the OpenAI dev day where you guys got to
+- [40:16] learn everything about agent kit and all
+- [40:19] of the cool new components inside of it
+- [40:21] such as agent builder chatkit. There's
+- [40:23] so many cool new features that have made
+- [40:25] it so much easier to deploy real world
+- [40:28] AI agents. If you have questions on
+- [40:29] anything, feel free to drop a comment
+- [40:31] down below. Always super happy to help.
+- [40:33] And also just a quick reminder, you can
+- [40:35] download the link down description below
+- [40:37] and it'll have resources to all of the
+- [40:39] different transcripts. It'll have links
+- [40:40] to some of the different resources I use
+- [40:42] and everything else you need to
+- [40:43] replicate this on your own. But yeah,
+- [40:44] thanks guys. Can't wait to see you in
+- [40:46] the next video. Hope you have a great
+- [40:46] day. Talk to you soon. See you.

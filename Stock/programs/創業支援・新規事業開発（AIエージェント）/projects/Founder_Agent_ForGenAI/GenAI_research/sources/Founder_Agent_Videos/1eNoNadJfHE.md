@@ -1,0 +1,1156 @@
+---
+title: "YouTube Video: 1eNoNadJfHE"
+video_id: "1eNoNadJfHE"
+video_url: "https://www.youtube.com/watch?v=1eNoNadJfHE"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  uction and thank you to data science dojo for having us here today. Um let me go ahead and share screens. I have a lot of content prepared for you. So we're going to get right into it. So I'm pleased ...
+key_points:
+  - "first approach to everything that we do."
+  - "them as images first."
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 1eNoNadJfHE
+
+- URL: https://www.youtube.com/watch?v=1eNoNadJfHE
+- Retrieved at: 2025-12-30T09:18:53+09:00
+
+## Text
+
+- [00:00] uction and thank you to data science
+- [00:02] dojo for having us here today. Um let me
+- [00:05] go ahead and share screens. I have a lot
+- [00:07] of content prepared for you. So we're
+- [00:09] going to get right into it.
+- [00:14] So I'm pleased to be here today to um
+- [00:17] talk to you about document understanding
+- [00:19] and how to extract accurate insights
+- [00:22] from documents um using some of the
+- [00:24] tools that landing AI has built but also
+- [00:26] some of the fundamental agentic concepts
+- [00:29] behind what makes this possible.
+- [00:31] So um if you're not familiar with
+- [00:34] landing AI u we are a pioneer in
+- [00:36] enterprise AI that really takes a vision
+- [00:39] first approach to everything that we do.
+- [00:41] Um, so we do work with um JPEGs and PGs
+- [00:45] like our foundations are really in the
+- [00:47] vision space and so we're treating
+- [00:50] documents as if they were pictures and
+- [00:53] this is really allowing us to bring kind
+- [00:55] of breakthrough performance to the area
+- [00:57] of document understanding by treating
+- [00:59] them as images first.
+- [01:02] Um, you may know our um founder and
+- [01:04] executive chairman um Dr. Andrew Ing. Um
+- [01:06] he is highly involved in um everything
+- [01:09] that we do. um brings all of his deep
+- [01:11] expertise and connections to the
+- [01:13] technologies that we're able to develop.
+- [01:15] So, we're very fortunate to have him. Um
+- [01:18] and we have a very strong user base with
+- [01:20] about 1 billion images and documents
+- [01:22] processed so far.
+- [01:25] Um a little bit about me. Um I've worn a
+- [01:28] lot of different hats in my career from
+- [01:29] consulting to leading technical teams
+- [01:32] and technology sales. Um I'm entirely
+- [01:35] self-taught as a data scientist and MLE.
+- [01:38] I originally studied chemistry. Um, and
+- [01:40] if you ever run into me on the street, I
+- [01:43] would gladly play some tennis or some
+- [01:44] board games with you. Um, I should
+- [01:48] mention that I'm joined today by my
+- [01:49] colleague, um, Ankit Car. Um, he is
+- [01:52] going to be manning the chat and is able
+- [01:54] to answer questions, um, during the
+- [01:56] session. So, feel free to, um, post your
+- [01:59] questions.
+- [02:01] Um, all right. Um, brief agenda today.
+- [02:04] So, we've got about 50 minutes already
+- [02:06] down to about 48. Um, so we're going to
+- [02:09] talk about what's hard about document
+- [02:10] understanding and then get immediately
+- [02:13] into our agentic approach to that
+- [02:15] problem. Um, we will spend some time
+- [02:18] actually looking at some of the um
+- [02:19] landing AI tools um in the visual
+- [02:22] playground. Um, I'll show you some
+- [02:24] extractions on some very difficult
+- [02:26] documents, um, including multilingual,
+- [02:28] handwritten, archival documents, and
+- [02:31] then we'll start to apply some standard
+- [02:33] schemas to those documents. Um, in
+- [02:35] addition to doing some visual examples,
+- [02:38] I'll introduce you to the REST API and
+- [02:40] the Python library where you can get
+- [02:42] started. Um, and we'll do some two fun
+- [02:44] demos, one dealing with um, utility
+- [02:46] bills and one dealing with some product
+- [02:49] images. And um Ankit should be pasting
+- [02:52] in the chat a place where you can um
+- [02:55] kind of follow along with what I'm
+- [02:57] doing. Um drag and drop some of your own
+- [02:58] difficult documents into the visual
+- [03:00] playground. Um we do ask that you use
+- [03:03] that tracking link that we're providing
+- [03:05] um so that we understand um kind of who
+- [03:08] who found us through data science dojo.
+- [03:10] So would appreciate your cooperation
+- [03:12] with that. Um oh yes should have
+- [03:16] advanced to the next slide. So we do
+- [03:18] have um this tracking link to get access
+- [03:20] to our visual playground. Um this is
+- [03:22] entirely free to create an account um
+- [03:25] and also our Python library and
+- [03:27] documentation will take you through um
+- [03:29] how to make best use of those resources.
+- [03:33] So um if you have ever tried to parse a
+- [03:37] document um to extract specific
+- [03:40] information from it especially if it's
+- [03:43] rotated, handwritten, has coffee stains
+- [03:45] on top of it, was for photographed
+- [03:47] poorly, was scanned poorly, um you know
+- [03:50] that there are many different challenges
+- [03:52] in document processing. So typically,
+- [03:55] you know, at a hobbyist level, maybe you
+- [03:57] can work through some of those
+- [03:59] challenges. um and you don't have that
+- [04:01] many variations to deal with. Um but at
+- [04:03] an enterprise level, you have to really
+- [04:06] build a robust pipeline to deal with all
+- [04:08] of these edge cases. Um and that just
+- [04:11] leads to really slow processes. You
+- [04:14] know, we talked to teams that are taking
+- [04:16] months and months just to build up a
+- [04:18] pipeline, do some layout specific um
+- [04:21] training on their complex documents,
+- [04:23] deal with all of these edge cases. And
+- [04:25] so it just tends to be really slow. Um
+- [04:28] even when working it often delivers very
+- [04:31] inconsistent results, right? I've
+- [04:33] already mentioned um you know documents
+- [04:35] that are damaged, but what about you
+- [04:37] know information that's spread across
+- [04:39] two pages. So you might have the you
+- [04:41] know name of the person on page one and
+- [04:43] the account number on page two. Um lack
+- [04:47] of traceability of course is becoming um
+- [04:49] an issue with the advent of um large
+- [04:52] language models, large vision models. um
+- [04:54] are they hallucinating? Is this
+- [04:56] grounded? In fact, how would an enduser
+- [04:59] know uh which of those is the truth? And
+- [05:02] of course, all of this leads to still a
+- [05:04] lot of human in the loop and a lot of
+- [05:06] human review. And if you were going to
+- [05:08] have a human review every document
+- [05:10] anyway, then like why did you build this
+- [05:12] whole pipeline? So, um those being some
+- [05:16] of the challenges, um the demos we're
+- [05:18] going to look at today um start to get
+- [05:20] around some of those issues. So, uh, one
+- [05:23] example we'll do is we'll look at some
+- [05:25] utility bills. So, over here on the left
+- [05:28] hand side, I have some nice, clean,
+- [05:30] digital utility bills. Um, but they are
+- [05:33] from two different agencies and so they
+- [05:35] have vastly different layouts in terms
+- [05:37] of where is the date, um, where is the
+- [05:39] total amount, right? Like there's some
+- [05:41] interesting circles and things going on.
+- [05:44] Um, and then to the right hand side
+- [05:46] here, we have some photographs of
+- [05:48] utility bills. Um, so you know, one is
+- [05:50] filling the frame, the other isn't. It's
+- [05:53] maybe rotated five degrees. Of course,
+- [05:55] they're from two additional utilities
+- [05:57] besides the first two. Um, so how would
+- [06:01] you at scale actually extract
+- [06:03] standardized information from this? So
+- [06:05] your basic, you know, name, account
+- [06:08] number, location, like number of um
+- [06:10] kilowatt hours used and um how would you
+- [06:14] actually assign a confidence score um
+- [06:16] associated with each one of those
+- [06:18] extractions. So this is kind of what
+- [06:20] we're um building up toward um and then
+- [06:23] we'll do another example with um product
+- [06:25] labels. So as I mentioned before, we are
+- [06:28] a vision first company. We come from the
+- [06:31] vision space and so u we're treating
+- [06:34] documents as pictures and for that
+- [06:36] reason um we also work very well with
+- [06:38] like text that happens to be on
+- [06:40] pictures. So this is a fun
+- [06:43] demonstration. You know every product in
+- [06:45] the grocery store has completely
+- [06:46] different labels, different fonts,
+- [06:48] different layouts. Um and what we're
+- [06:50] trying to extract here is kind of a
+- [06:52] standardized table to say, you know,
+- [06:55] does this product claim to be dairy
+- [06:57] free? Does it claim to be lactose free?
+- [06:59] Does it claim to have no added sugar?
+- [07:02] And you could go through a long schema
+- [07:04] of specific product claims um applied to
+- [07:06] a set of images.
+- [07:11] Okay. Um so how how does this all work?
+- [07:14] What's the agentic component of this? So
+- [07:17] um I can't give away the secret sauce.
+- [07:19] Um but I can give you some orientation
+- [07:22] to um the platform and the
+- [07:24] orchestration. Um now today we're going
+- [07:26] to take mostly an applied perspective.
+- [07:29] um and actually see how to apply um the
+- [07:32] agents that are available to you. Um but
+- [07:34] these are some of the things that are
+- [07:36] happening under the hood. So at the UI
+- [07:39] level um we'll be working a fair amount
+- [07:41] in our visual playground uh which is
+- [07:43] available here. That's that tracking
+- [07:45] link that we posted previously. Um and
+- [07:48] you can also interact with all of our
+- [07:50] tools um through our Python library or
+- [07:52] our REST API. So a couple different uh
+- [07:55] user layers. Um then the reason that uh
+- [07:59] the domain here starts with VA.Landing
+- [08:01] AAI is this is our vision agent. So VA
+- [08:04] stands for vision agent. This is the
+- [08:06] orchestration layer that actually brings
+- [08:09] together all of the tools that the agent
+- [08:12] um has access to.
+- [08:14] So within that there are multiple
+- [08:16] specialized agents um right for planning
+- [08:19] for um judging u for doing the code um
+- [08:23] and then those agents have access to a
+- [08:25] variety of third-party as well as
+- [08:27] proprietary tools. So um you know
+- [08:31] there's lots of other um great tools
+- [08:33] being discussed today. So, I'll kind of
+- [08:35] skip ahead to some of the proprietary
+- [08:37] pieces that we bring.
+- [08:40] Um, without sharing um too much about
+- [08:43] all of our proprietary models, um, we do
+- [08:46] have two that are really foundational to
+- [08:48] making something like that utility bill
+- [08:50] example or those product labels work.
+- [08:54] So, one is what we call our layout
+- [08:55] model. Um, so the purpose here is to
+- [08:58] detect, classify, and number the chunks
+- [09:02] in a document the same way that a human
+- [09:04] would. So we'll see shortly. Um, purple
+- [09:07] for us is anything that's a margin. Um,
+- [09:10] green is anything that's a text block.
+- [09:12] Blue is anything that's a table. Um, and
+- [09:15] these will also be numbered like 1 2 3 4
+- [09:18] in kind of the human reading order. So
+- [09:21] there's a layout foundation model um
+- [09:23] that actually detects detects these
+- [09:26] chunks and um the numbered layout. Um
+- [09:29] and then we have a table model. So um
+- [09:33] tables that are already in pretty rows
+- [09:35] and columns not a problem. Um where we
+- [09:38] start to get problem is when nobody
+- [09:40] bothered to draw any lines on the table.
+- [09:44] So um this image right here actually a
+- [09:46] human would recognize this as a one row
+- [09:49] table. So there's something like part
+- [09:51] number and description right here. It's
+- [09:53] like the rear shock absorbers. So this
+- [09:55] is actually a table header row and then
+- [09:59] one line item entry in the table. And
+- [10:02] then there's some other key value pairs
+- [10:04] down here below like country of origin,
+- [10:06] Thailand. Um and traditional OCR systems
+- [10:10] really struggle with something like this
+- [10:12] because there are no visual guidelines
+- [10:14] to understand that this is a one row
+- [10:16] table as well as about three key value
+- [10:19] pairs.
+- [10:21] So this is some of the proprietary
+- [10:22] technology that we make available um to
+- [10:25] the agents um and then with the
+- [10:28] orchestration layer um bring kind of
+- [10:30] that power to you here in the visual
+- [10:32] user interface.
+- [10:35] Um I'm just going to go through a couple
+- [10:38] more slides. I know we all want to see
+- [10:40] some code. Um the code that we're
+- [10:42] sharing today is also available on our
+- [10:44] GitHub. There's a couple um YouTube
+- [10:47] videos of me doing very similar
+- [10:49] demonstrations. So we'll get into the
+- [10:51] code here very quickly. Um so the couple
+- [10:56] highlights here. We want to be able to
+- [10:58] process complex documents um without any
+- [11:01] sort of layout specific training. Um,
+- [11:04] this is an accident statement. It's got
+- [11:06] vehicle A on the left and vehicle B on
+- [11:08] the right, and it's got some checkboxes
+- [11:10] down the middle, and it's got a place
+- [11:12] where you can draw exactly how the
+- [11:14] accident happened. Um, this type of
+- [11:17] document would be just a disaster to do
+- [11:20] any sort of layout training on. So, we
+- [11:23] want to be able to use an agentic
+- [11:25] approach to detect this layout
+- [11:28] automatically. um the fact that it
+- [11:30] appears in three columns. Um what is the
+- [11:32] human reading order? What is the data
+- [11:35] associated with vehicle A associated
+- [11:37] with vehicle B through kind of chunk
+- [11:39] references um and then be able to turn
+- [11:42] that into um you know something that an
+- [11:44] insurance agency or a police um agent
+- [11:47] police report could extract directly.
+- [11:51] Um we're going to get developer friendly
+- [11:53] JSON out of everything we do. So we
+- [11:56] don't want to be um exporting some sort
+- [11:58] of strange proprietary format. So you're
+- [12:00] going to get everything in nice
+- [12:02] hierarchical JSON.
+- [12:04] Um and then we get to the visual
+- [12:06] groundings.
+- [12:08] So going back to the um chunk reference
+- [12:10] model it was or sorry the um table
+- [12:15] the layout foundation model. I'm going
+- [12:17] too fast this morning. Um so the layout
+- [12:20] foundation model is going to return um
+- [12:23] these identified chunks, right?
+- [12:25] something like this logo is going to be
+- [12:26] detected as a figure. And for each of
+- [12:29] those, you're going to say, okay, this
+- [12:30] appeared on page zero, which of course
+- [12:33] in Python world is page one. Um, and
+- [12:36] then the bounding box coordinates
+- [12:38] relative to the entire document. So when
+- [12:42] we're able when we pull information out
+- [12:44] of that document later, we can always
+- [12:46] refer back to exactly which chunk it
+- [12:49] appeared and we could show a human in
+- [12:51] the loop exactly where on the page that
+- [12:53] appeared.
+- [12:55] Um, and then some schema extraction. I
+- [12:58] think this will make more sense um once
+- [13:00] we do it, but being able to extract
+- [13:02] things like date of accident, witness
+- [13:04] name, vehicle A, insurance company, um,
+- [13:07] be able to define that schema once and
+- [13:10] be able to extract it repeatedly from
+- [13:12] multiple documents.
+- [13:15] Okay. Um, let's let's switch over to the
+- [13:19] visual playground. Um
+- [13:22] so here I am at um va.landing.ai.
+- [13:27] Um this is that exact um document that
+- [13:30] we saw in the slides. It is one of the
+- [13:33] um example files that'll be preloaded if
+- [13:36] you choose to create an account. It's
+- [13:37] this one called accident statement.
+- [13:41] So this experience we call this our
+- [13:43] visual playground. Um to actually
+- [13:46] interact with our agentic document
+- [13:48] extraction. you're are going to call
+- [13:50] that um through the rest API or with the
+- [13:52] Python library. Um but the visual
+- [13:56] playground is a really great place to
+- [13:58] actually check like are the extractions
+- [14:00] correct. So for example um we talked a
+- [14:04] little bit about the reading order. So
+- [14:06] here's chunk one, there's another chunk,
+- [14:08] another chunk, and so on and so forth.
+- [14:12] And it's a great way to drop in your
+- [14:14] difficult document and actually kind of
+- [14:16] quickly check like is the extraction
+- [14:18] coming through correctly.
+- [14:20] This is a great one um just to emphasize
+- [14:23] things like checkboxes or um circled
+- [14:26] fields on forms, things that traditional
+- [14:28] optical character recognition is really
+- [14:31] going to struggle with. Um but how do
+- [14:34] you use this with your own documents?
+- [14:36] How do you get started? So, let's do
+- [14:38] those utility bills that I promised. So,
+- [14:42] you're going to see me kind of dragging
+- [14:44] and dropping things from offscreen.
+- [14:47] Here's one of those utility bills. It's
+- [14:50] the orange PSNG.
+- [14:53] Um, so this is now being sent to our
+- [14:56] API. Again, that agent behind the scenes
+- [14:58] has access to the foundation model, the
+- [15:02] table model, um other proprietary tools
+- [15:04] and other third-party tools um to return
+- [15:07] this extracted result.
+- [15:10] So this is four pages. Um so in the
+- [15:14] visual playground, we can tab through
+- [15:16] all the pages. It looks like our final
+- [15:18] chunk was number 54. Might be a little
+- [15:21] bit past there. Number 56. Um so we have
+- [15:25] this document now has been parsed into
+- [15:28] 56 chunks and each of those have been
+- [15:30] identified as something like text or
+- [15:33] figure or table.
+- [15:37] All right let's do one more. Let's drop
+- [15:40] in the photographed version. So
+- [15:47] So this has a few more difficulties
+- [15:50] associated with it right there. It's a
+- [15:52] photograph. There's some wrinkles.
+- [15:53] There's some rotation. Um, but we do
+- [15:56] actually have all of the fields that we
+- [15:58] want are visible. So, again, we've got
+- [16:02] um, let me overlay. So, we've got a
+- [16:05] variety different chunks. Um, anything
+- [16:07] that's pink is a figure. Anything that's
+- [16:11] blue is a table. Um, and this visual
+- [16:14] interface gives you a nice chance to
+- [16:16] actually verify the accuracy of the
+- [16:18] values in this table by kind of zooming
+- [16:20] in and out.
+- [16:23] Okay. So, I promised that this would be
+- [16:26] um mostly in applied um sessions. So,
+- [16:29] this is ready for you to use. Um this
+- [16:32] kind of agentic workflow um is going to
+- [16:35] work really well on a wide variety of
+- [16:37] documents. So, I'm just going to take
+- [16:39] you through a couple examples just to
+- [16:42] kind of get your kind of creative juices
+- [16:44] flowing.
+- [16:46] So, um this is a fairly simple example
+- [16:49] on prescription for glasses. I wear
+- [16:51] glasses. Lots of people I zoom with wear
+- [16:53] glasses. Um, and another great example
+- [16:57] of kind of checkbox extraction.
+- [17:00] And of course, you know, if you imagine
+- [17:02] you're a business like a Costco, right?
+- [17:04] Like you're fulfilling subscri um
+- [17:06] prescriptions all day, but they look
+- [17:08] very different, right? So this
+- [17:10] prescription looks very different from
+- [17:12] this prescription, but they
+- [17:14] fundamentally have the same information
+- [17:16] on them. So, we're going to be getting
+- [17:18] to how do you actually standardize that
+- [17:20] into some standard extractions. And
+- [17:22] here's a nice example of the the
+- [17:24] circling.
+- [17:26] Um, this is one of my favorite documents
+- [17:29] um because it just has so many different
+- [17:31] things going on. Um, 18page um equity
+- [17:36] research report. And I'm just going to
+- [17:38] scroll ahead to a couple of the chart
+- [17:40] types. So, you know, got some basic pie
+- [17:43] charts,
+- [17:44] bar charts,
+- [17:47] horizontal bar charts. It gets more
+- [17:50] interesting as we go on. Some tables,
+- [17:54] some spider charts.
+- [17:57] Um, so this document, you know, on
+- [18:00] average the, um, parsing takes about 8
+- [18:03] seconds per page. Um, I should say is
+- [18:05] the median, not the average. Um, so an
+- [18:08] 18page document like this might take
+- [18:10] about a minute to get back this type of
+- [18:13] results. Um, but it's absolutely amazing
+- [18:16] to be able to get um, results from all
+- [18:19] of these complex figures and layouts um,
+- [18:22] in one shot without having to do any
+- [18:24] sort of layout specific training. So
+- [18:27] this is a great example for a a well
+- [18:30] formatted digital document that just has
+- [18:32] a lot of different um, types within it.
+- [18:37] Um here's another um kind of scanned
+- [18:40] document. So something like certificate
+- [18:42] of origin doesn't really have um clear
+- [18:46] obvious sections. Um mostly we're
+- [18:48] probably interested in um the table
+- [18:51] being extracted here. So what are the
+- [18:53] products being shipped? We've got some,
+- [18:55] you know, cartons of footwear. Um and
+- [18:59] something like this being extracted as a
+- [19:01] figure. Um, we're actually going to be
+- [19:03] introducing some additional figure types
+- [19:05] soon to detect um, signatures and stamps
+- [19:08] and QR codes um, as their own separate
+- [19:11] types. So, that's going to be coming
+- [19:12] soon.
+- [19:15] Um, as we're starting to get
+- [19:17] international here and because I
+- [19:19] previewed some of those food labels, um,
+- [19:22] the Aentic system works really well um,
+- [19:26] multilingually in multiple languages.
+- [19:29] So, in the slide I showed in terms of um
+- [19:32] kind of the tools that the agent has
+- [19:34] access to, we didn't really talk about
+- [19:36] um which languages or any sort of
+- [19:38] translation. Um but this is kind of a
+- [19:41] fun macaroni package that has multiple
+- [19:45] um languages all on one package. And
+- [19:48] again, would invite you to drag and drop
+- [19:51] some of your multilingual documents and
+- [19:53] then actually check the extractions on
+- [19:55] those.
+- [19:57] Uh we got a little bit of uh German
+- [20:00] handwriting.
+- [20:01] Um got some more archival documents. Um
+- [20:05] some of these getting you know really
+- [20:06] really difficult to read but something
+- [20:08] like you know occupation farmer
+- [20:11] birthplace Pennsylvania. So this
+- [20:13] document is both handwritten and poorly
+- [20:16] scanned.
+- [20:18] Um and then this is last example before
+- [20:21] we go do some code. Um, this one I
+- [20:24] thought was kind of fun because like
+- [20:26] somebody just wrote this like text New
+- [20:28] York City on top of this document. Um,
+- [20:31] this one also has some kind of water or
+- [20:34] other damage, right? So if you look over
+- [20:36] here at, you know, this is like Reginald
+- [20:39] Bolton and I think the name below, you
+- [20:42] know, to a human would probably come out
+- [20:43] as Nicholas. Um, right? And that is
+- [20:46] being extracted properly here as well.
+- [20:48] So, a lot of um archivists and
+- [20:50] historians have gotten really excited
+- [20:52] about this or even if you're just doing
+- [20:54] it as a family project to um to turn
+- [20:59] kind of family records into digital
+- [21:01] assets that can be preserved and passed
+- [21:04] down. Um this kind of um damage on the
+- [21:07] side where things are not quite clear
+- [21:09] actually comes through quite clearly.
+- [21:12] Okay, I got to be aware of time. We got
+- [21:14] to go do some code.
+- [21:17] So let's um let's start with the
+- [21:21] electric bills.
+- [21:23] Okay. So um everything you're going to
+- [21:25] see here is some really basic um data
+- [21:28] science libraries. So you can pip
+- [21:31] install um our agentic doc library. Um
+- [21:34] you will need an API key which you can
+- [21:36] get from the visual playground. Um and
+- [21:39] our docs are all entirely public at
+- [21:42] docs.landingai.
+- [21:44] So here we're going to import um parse
+- [21:48] And I wound up actually not using viz
+- [21:51] document. So I'll let you refer back to
+- [21:53] that um in the documentation.
+- [21:56] So in my case um I've set my API key as
+- [22:00] an environment variable. Um and there's
+- [22:02] some other things you can set in your
+- [22:04] environment uh variable over here. So
+- [22:07] the API is able to handle um 100
+- [22:10] documents in parallel. Um, my batch size
+- [22:13] of 25 means I'm going to be working on
+- [22:16] um, up to 25 documents at once. And max
+- [22:19] workers 4 means there can be up to four
+- [22:22] pages within each one of those documents
+- [22:24] that can be worked on simultaneously.
+- [22:27] So, there's a lot of built-in
+- [22:29] parallelism here.
+- [22:31] Um, for something like electric bills,
+- [22:33] um, these settings work pretty well, um,
+- [22:36] because most of the bills are not more
+- [22:38] than four pages. So I can work on 25 of
+- [22:40] them simultaneously assuming very few
+- [22:43] are more than four pages.
+- [22:46] Okay. Um these are the input documents
+- [22:49] we're going to use. So um the same two
+- [22:52] that we saw in the visual playground.
+- [22:53] We're going to start with the um digital
+- [22:56] electric bill and um the image of the
+- [22:58] electric bill.
+- [23:00] And this is about as simple as it gets.
+- [23:03] So, we're going to say we want to parse
+- [23:05] um right now we only have two documents
+- [23:07] in our file path and we want to save
+- [23:10] some of those results locally. So, I'm
+- [23:13] going to go ahead and bring that on
+- [23:14] screen
+- [23:16] and you should see some things
+- [23:19] populating in our groundings and our
+- [23:21] results folder. And I'm going to as soon
+- [23:24] as I execute this, it's going to be in
+- [23:26] the foreground.
+- [23:28] Oops.
+- [23:31] What did I click?
+- [23:34] There we go. Okay.
+- [23:36] Um
+- [23:38] All right. So, my API key is valid.
+- [23:40] We're working on both documents
+- [23:42] simultaneously.
+- [23:44] Um here's the results folder. So, we
+- [23:46] probably got back the result from the
+- [23:48] onepage picture slightly before the
+- [23:50] four-page PDF. Um but at this point, we
+- [23:53] have back um that same JSON response um
+- [23:57] that we saw in the visual playground.
+- [24:00] And I'm actually actually just realizing
+- [24:03] I never showed you the JSON results in
+- [24:06] the visual playground. So, um here we
+- [24:10] have all of the different chunks um the
+- [24:12] text associated with that chunk um the
+- [24:14] bounding box and also the image
+- [24:17] reference um for that chunk here on my
+- [24:20] local system.
+- [24:22] So if I come back here um in our
+- [24:25] groundings folder
+- [24:31] um we now have all of these individual
+- [24:35] pieces as individual chunks um each with
+- [24:38] their own um chunk reference and ID. So
+- [24:42] um in about you know 11 seconds median
+- [24:45] per page we're applying um the chunking
+- [24:47] strategy um extracting all of the
+- [24:50] information from each chunk whether it's
+- [24:52] figure text table and then returning
+- [24:55] those all as visual groundings.
+- [25:01] Um, of course, we can print a few things
+- [25:03] to screen
+- [25:06] and um, here are all those different
+- [25:09] chunks that we saw in the visual
+- [25:11] playground.
+- [25:13] Okay. Um, let's
+- [25:18] let's go back to the playground for the
+- [25:20] field extraction.
+- [25:24] Okay.
+- [25:27] Here
+- [25:31] was my Okay. So, let's
+- [25:35] let's work with the digital one because
+- [25:37] it's just a little bit easier to see on
+- [25:39] screen.
+- [25:42] Okay. So, we've um we've done the
+- [25:45] parsing. Um I did entirely neglect to
+- [25:47] show you the the JSON in the UI. So the
+- [25:51] JSON in the UI also has the nice feature
+- [25:54] of like if you click around in the UI,
+- [25:56] it'll show you um the JSON that
+- [25:58] corresponds to that. But at this point,
+- [26:00] we're done with parse and we're going to
+- [26:02] move on to extract.
+- [26:05] So in this utility example, right, if if
+- [26:09] I'm kind of doing identity verification
+- [26:12] or address verification, like most of
+- [26:14] you have probably been asked to submit a
+- [26:16] utility bill as like proof of address.
+- [26:19] Um, so the organizations that are
+- [26:22] receiving all of those, like they're
+- [26:23] interested in actually pulling out your
+- [26:25] address and matching that to whatever
+- [26:27] you stated on your application, right?
+- [26:29] If you've supplied this as a proof of
+- [26:31] address. So, um, let's start with like
+- [26:34] how do we pull all the addresses out of
+- [26:36] these types of documents.
+- [26:39] So, um, again, this visual interface is
+- [26:41] for your convenience. Um, you can build
+- [26:43] this schema any way that you want. Um
+- [26:46] but if you start from scratch you can
+- [26:48] simply like add a field that says you
+- [26:50] know service address
+- [26:54] and the more description you provide um
+- [26:57] the better the results will be. Um
+- [27:00] providing the description is very much
+- [27:02] like prompt engineering. So you may say
+- [27:04] you know I want the address formatted in
+- [27:07] a certain way. I want it with or without
+- [27:09] PO boxes. Um but as a very simple
+- [27:12] demonstration with just service address
+- [27:14] and no description um the agent does
+- [27:17] understand what I want out of this
+- [27:20] document and in addition to returning um
+- [27:22] the answer is also returning the chunk
+- [27:25] references. So this address must appear
+- [27:27] in at least two places in the original
+- [27:30] document. And again this is going to
+- [27:32] line up to those chunk values that we
+- [27:35] saw in that folder when we broke the
+- [27:37] document into the individual images.
+- [27:41] Okay, let's go ahead and start over. So,
+- [27:43] if you know exactly what you want, by
+- [27:45] all means, build it up um one at a time.
+- [27:49] You can also start with suggestions.
+- [27:52] So, um this schema was automatically
+- [27:55] generated based on this single document
+- [27:58] and then I can run this schema. So with
+- [28:02] something like this or with like the
+- [28:04] eyeglasses prescriptions, it can be
+- [28:06] really helpful just to run the automatic
+- [28:08] schema generation um on the document,
+- [28:11] see what it suggests, what it comes up
+- [28:13] with, and then kind of modify it from
+- [28:15] there. So um we do support two levels of
+- [28:19] nested schemas here. So you can see
+- [28:21] within gas charges there are some you
+- [28:23] know breakdowns such as the meter number
+- [28:25] or the usage you know and within like
+- [28:28] important dates there are these dates
+- [28:30] and you know important dates might not
+- [28:33] be the way that you actually want your
+- [28:34] final schema um but it certainly allows
+- [28:37] for quick testing um to understand is
+- [28:40] the model getting these things right and
+- [28:42] you've got all the chunk references that
+- [28:44] go along with it.
+- [28:46] Um, the last option is going to be to um
+- [28:49] upload a schema. So, I actually had one
+- [28:54] um I spell utilities correctly.
+- [28:58] There it is. Utilities.
+- [29:00] So, you may have seen this open um in VS
+- [29:03] Code. This was on one of the tabs. So,
+- [29:06] this is a schema that I prepared outside
+- [29:09] and I can now um import it on this
+- [29:11] document and see kind of how that's
+- [29:13] performing.
+- [29:15] So this is that um JSON schema. Um it
+- [29:19] only has a couple required objects. So
+- [29:21] like customer name, account number, got
+- [29:24] the address. Um and then also just
+- [29:27] noting that you can do things like
+- [29:28] booleans to say like um what has it got
+- [29:32] down here? The description is like uh
+- [29:34] does the utility bill include a chart
+- [29:37] depicting usage trends over time? And
+- [29:40] it's set as a boolean. And so that comes
+- [29:42] back as true.
+- [29:45] So once you've got a schema that you
+- [29:47] like um you can request the code for
+- [29:52] that directly to use with the API. So
+- [29:55] again whatever schema you have in the
+- [29:57] foreground here um we offer it either as
+- [30:00] a paidantic um or as JSON.
+- [30:04] So, I'm going to go ahead and just copy
+- [30:06] all of this
+- [30:09] and I'll come back over here.
+- [30:12] And my next cell says paste pyantic
+- [30:15] schema from visual playground. So, we
+- [30:18] just generated this. I'm going to go
+- [30:20] ahead and paste it in. I do know that
+- [30:23] down at the bottom I need to change this
+- [30:26] to one of the actual documents we have.
+- [30:29] So, we'll just send the first one.
+- [30:33] And then let's go ahead and do that.
+- [30:39] So one thing to note um right now we are
+- [30:42] actually parsing the document a second
+- [30:44] time. So um we did previously parse them
+- [30:47] in the cells up above. Um we are now
+- [30:49] parsing it again. So we're going to get
+- [30:51] different chunk references and we're
+- [30:54] applying our extraction model. So um a
+- [30:59] lot of people have asked us can I parse
+- [31:01] once and extract many? Um the answer to
+- [31:03] that is yes. Um Dr. Ing is actually
+- [31:06] going to be making an announcement about
+- [31:08] that next week. So um not including it
+- [31:11] in today's demo, but we will be able to
+- [31:13] parse once and extract many times
+- [31:16] against um that markdown file.
+- [31:19] So this is looking pretty good. So we've
+- [31:21] got um a name, an account number, um
+- [31:24] some of the fields that we asked for.
+- [31:28] So this was using um Pyantic. Um so you
+- [31:31] can learn more about Pyantic um from
+- [31:34] their documentation. Um right now we're
+- [31:36] supporting one level of nested schemas.
+- [31:39] So this is um using Pyantic which you
+- [31:41] can learn more about and then you can
+- [31:44] also um paste the schema as JSON. So
+- [31:47] these are two different options. I'll go
+- [31:50] ahead and run this one as well.
+- [31:53] And again, now we're um Oh, yeah. So,
+- [31:58] that was just apply the schema. And here
+- [32:01] again, we're we're parsing the document
+- [32:03] now a third time, which of course is
+- [32:05] kind of unnecessary, but this is just to
+- [32:08] demonstrate the JSON schema. So, you
+- [32:11] would send that this way. Um, so all in
+- [32:14] all, actually really very easy to use.
+- [32:17] And then the next part of the demo here
+- [32:19] is we want to apply this to a larger set
+- [32:22] of documents.
+- [32:24] So
+- [32:27] let's go back to my folder. Um so in
+- [32:32] input folder two um I've got a couple
+- [32:35] more of these. So a total of nine. So
+- [32:40] this is really where we can start to
+- [32:42] take advantage of some of the
+- [32:43] parallelism. So, um, nine different
+- [32:46] documents. Um, here we're going to send
+- [32:49] them with that extraction schema. And
+- [32:52] then the goal here, of course, is to put
+- [32:54] them into a nice tidy pandas um table
+- [32:57] and then be able to insert that into a
+- [32:59] database, save it locally, um, whatever
+- [33:02] you want to do with that structured
+- [33:03] data.
+- [33:09] Okay. Um, time check. Okay, I think
+- [33:12] we're doing well.
+- [33:14] Um, let's let this run. I'm going to
+- [33:16] show you a few more examples in the
+- [33:19] playground. Um, also exactly where to
+- [33:23] get um some of the reference
+- [33:25] information. Um, hopefully many of you
+- [33:27] have already used um the tracking link
+- [33:29] to create an account and are starting to
+- [33:32] drag and drop some of your own difficult
+- [33:34] documents. Um, but let's talk a little
+- [33:37] bit about figures. So, u we've spoken a
+- [33:41] lot about um field extraction and the
+- [33:45] desire to pull out structured fields
+- [33:47] like um addresses, account numbers. Um
+- [33:51] but the other key workflow um for
+- [33:53] something like this is a rag pipeline um
+- [33:56] where you're actually able to like refer
+- [33:59] back to say scientific documents or um
+- [34:02] product manuals or like engineering
+- [34:05] failure reports. And what's unique about
+- [34:08] those types of documents is they often
+- [34:10] have figures included in them. Um, and
+- [34:12] the figures are often a very rich source
+- [34:14] of the information.
+- [34:16] So, just a couple things to demonstrate
+- [34:20] um performance on figures. So, I did
+- [34:23] some searching for some um really kind
+- [34:25] of unique one-of-a-kind figures. Say
+- [34:28] like there's no possible way that a
+- [34:30] model has been pre-trained on a figure
+- [34:32] like this. Um, so I found this one quite
+- [34:36] interesting, right? So the main message
+- [34:39] here really is embedded in the figure.
+- [34:41] Like you have to look at the figure. You
+- [34:43] have to look at the icons. You have to
+- [34:45] look at the direction of the arrows. You
+- [34:47] have to understand the map in the
+- [34:49] background. Um, and there's a lot of
+- [34:51] richness in this figure um, relative to
+- [34:55] like all of the text that surrounds it.
+- [34:57] So, we've really put a lot of work into
+- [35:00] the figure extraction for your
+- [35:02] downstream rag pipelines to be able to
+- [35:05] surface information that came from the
+- [35:07] figures within a document, not just the
+- [35:10] text, right? So, um obviously not going
+- [35:13] to read all of this to you, but you
+- [35:15] know, understanding that like this is
+- [35:16] the meaning of the blue circle, this is
+- [35:18] the meaning of the pink arrows, um and
+- [35:21] even kind of a highle analysis of like
+- [35:24] what what does this figure show? So it's
+- [35:26] the two main domestication centers for
+- [35:29] torine cattle in the near east and
+- [35:32] indices cattle in South Asia. So when
+- [35:36] you take a chunk like this and put it in
+- [35:38] your downstream rag pipeline and you
+- [35:41] have this particular figure has been
+- [35:43] exerted as its own chunk um you can now
+- [35:46] return information from the figure um as
+- [35:50] part of your rag response.
+- [35:54] Um, here's another example with figures.
+- [35:57] Um, I I guess I was on a cow kick one
+- [35:59] day. Um, but what I like about this one
+- [36:02] is, um, it emphasizes the relationship,
+- [36:07] um, between individual chunks and the
+- [36:10] whole page. And I'm not explaining that
+- [36:13] really well, but take a look at here
+- [36:15] just this brown Swiss. So, um this gray
+- [36:19] number 4.1%
+- [36:21] um within this chunk is actually
+- [36:23] completely isolated information. Like
+- [36:25] it's not clear what this 4.1% is. Um the
+- [36:29] only place that this is actually
+- [36:31] clarified is in this other chunk which
+- [36:34] says that gray is average milk fat,
+- [36:37] right? And so, you know, a middle school
+- [36:40] student, high school student could
+- [36:41] probably figure this out. Say like what
+- [36:43] is this 4.1? like, oh, the gray means
+- [36:46] average milk fat. Um, but this is
+- [36:49] actually very difficult for um an LLM or
+- [36:52] a rag system to understand without
+- [36:55] actually providing the direct text. So,
+- [36:58] notice in this chunk number six, now I
+- [37:00] have 4.1% milk fat percentage, right?
+- [37:04] Which is bringing in the information
+- [37:06] contextually from this other chunk um to
+- [37:09] understand what does this 4.1% actually
+- [37:12] mean? or same with this 3.5 down below.
+- [37:16] So, um this is kind of the agentic
+- [37:19] nature of this system to be able to
+- [37:21] provide understanding u within these
+- [37:24] figures drawing from other things on the
+- [37:27] same page but also other pages. So, in
+- [37:29] this case, you know, the key was on the
+- [37:31] same page, but it could have also been
+- [37:33] on a different page and you would still
+- [37:35] associate that correctly.
+- [37:38] Um this is one of my favorite examples.
+- [37:41] Um so IKEA um IKEA does a lot um to
+- [37:46] provide visual instructions um with very
+- [37:49] little writing right it allows them to
+- [37:52] be highly international um but if you
+- [37:54] take an example such as this you know it
+- [37:57] says um the illustration visually
+- [37:59] instructs users to always assemble
+- [38:01] objects on a protective surface to
+- [38:03] prevent damage and not directly on
+- [38:05] hardwood floors. Um, and that is exactly
+- [38:08] the meaning of this, right? It's not
+- [38:10] just a description saying there's an
+- [38:12] icon on the left with an X on it and an
+- [38:14] unhappy face and an icon on the right
+- [38:17] with a happy face. Um, like it actually
+- [38:19] understands the ultimate meaning of
+- [38:21] this. So, um, put something under your
+- [38:24] assembly.
+- [38:27] And ending on a more serious note, um,
+- [38:30] this again is a, um, scientific paper.
+- [38:34] We do a lot of examples just with the
+- [38:36] common cold because it's helpful. Um
+- [38:39] this is a nice example where a table
+- [38:41] actually breaks the main two column
+- [38:44] layout of the document. Um but you can
+- [38:46] see that the bounding here is correct
+- [38:48] for those. But I actually wanted to draw
+- [38:51] attention to some of the figures.
+- [38:55] So,
+- [38:56] um if you look very very carefully at
+- [38:59] these figures, there are actually arrows
+- [39:01] that are pointing um at the different um
+- [39:05] pieces that they're kind of trying to
+- [39:06] draw attention to. Right? I'm not a
+- [39:08] radiologist. I don't really know how to
+- [39:11] interpret these. Um but in this whole
+- [39:13] section of um figure analysis and being
+- [39:16] able to put figures into a downstream
+- [39:18] rag pipeline um again in the analysis
+- [39:22] here you know the figure is designed to
+- [39:24] highlight differences or similarities in
+- [39:26] the ethmoid sinus region between two
+- [39:29] conditions in the same subject. Um and
+- [39:32] then it specifically highlights the
+- [39:34] arrows. So the arrows direct attention
+- [39:36] to possible changes in tissue density,
+- [39:38] structure or pathology. Um, so the
+- [39:42] ability to um pull these images along
+- [39:45] with this rich explanation into a rag
+- [39:49] system um super super powerful. Um, and
+- [39:52] also not having to send your text one
+- [39:54] place and your images another place.
+- [39:58] Okay, let's um let's finish up with
+- [40:02] this. Should be all done by now.
+- [40:08] So we had um nine different documents to
+- [40:11] parse again
+- [40:15] here. We're just printing a couple
+- [40:16] things to field um printing a couple
+- [40:20] things to screen. Right? So um in this
+- [40:23] case the uh field extraction was new. So
+- [40:25] we have um the fields and we also have
+- [40:28] the metadata associated with those
+- [40:30] fields.
+- [40:32] And we can end with importing pandas.
+- [40:37] um listing exactly the pieces that we
+- [40:39] want and pulling that into a nice
+- [40:42] structured table.
+- [40:44] Obviously, not a big deal to save it. Um
+- [40:48] so this is kind of demonstrating sending
+- [40:50] nine documents that all fundamentally
+- [40:52] have the same information and then
+- [40:54] applying this extraction schema.
+- [40:57] Um this last cell um pulls out the chunk
+- [41:00] references and the confidence scores. So
+- [41:03] the chunk references again are going to
+- [41:05] allow you to surface um for a human
+- [41:08] those particular segments of the
+- [41:10] document and you might choose to do that
+- [41:12] in response to the confidence score. Um
+- [41:15] the confidence score is still somewhat
+- [41:17] experimental. So you'll see it marked as
+- [41:19] beta in the documentation but you can
+- [41:22] imagine something like this which is you
+- [41:24] know starts with a 08. You could create
+- [41:27] some sort of a slider that says, you
+- [41:29] know, if the confidence score is below
+- [41:31] 0.9, like let's show this chunk to a
+- [41:34] human and have them verify that this is
+- [41:36] the correct extraction for the account
+- [41:38] number. And then anything that passes
+- [41:40] that confidence is above that confidence
+- [41:42] threshold can just flow automatically
+- [41:44] through the system.
+- [41:50] All right. Um, I think
+- [41:53] I think just for fun, we'll do the uh
+- [41:56] the food labels and then we'll call it a
+- [41:58] day. So, um, you saw these at the very
+- [42:02] beginning in the slides. These are the
+- [42:04] specific images that we're going to be
+- [42:06] sending. So, um, food labels with a
+- [42:09] variety of health claims. So, whether
+- [42:12] it's grass-fed or organic or non-GMO or,
+- [42:16] you know, whatever else is on here, um,
+- [42:19] healthy
+- [42:21] I'll just go ahead and just run this
+- [42:23] whole notebook all at once.
+- [42:26] Um it fundamentally follows the same um
+- [42:29] process as the previous one. So we
+- [42:32] define where our files are coming from.
+- [42:34] We do offer several upstream connectors
+- [42:37] like for S3 or Azure blob storage. So
+- [42:40] I've been doing things locally, but
+- [42:42] there's lots of connectors available.
+- [42:45] Um here are my JPEGs.
+- [42:48] Um here's a look at the extraction
+- [42:50] schema in Pyantic. So this is really the
+- [42:54] place where you want to invest some
+- [42:56] time. Um so something like you know is
+- [42:59] grass-fed it's a boolean like true if
+- [43:02] the label mentions grass-fed. Um you
+- [43:05] know is regenerative. I don't even know
+- [43:07] what that means but it's true if the
+- [43:09] label includes terms like regeneratively
+- [43:12] sourced or certified regenerative. So,
+- [43:15] um, the more effort you put into the
+- [43:17] descriptions, um, the higher quality
+- [43:19] results you're going to get.
+- [43:22] And it looks like it looks like all of
+- [43:26] this is done.
+- [43:28] We can convert this all to a table. Um,
+- [43:32] and here we have the, you know,
+- [43:34] extractions, um,
+- [43:36] all of our health claims. So, is it
+- [43:39] lactosefree? Does it have antibiotics?
+- [43:41] Is it USDA inspected? Um, I only
+- [43:44] included a couple of the chunk
+- [43:45] references because that gets um kind of
+- [43:48] clutters up the table. Um, but I think
+- [43:50] you get get the idea with that.
+- [43:54] Um, oh my gosh, that's my crazy desktop.
+- [43:56] We don't want to see that. Quick, hide
+- [43:59] that. Quick, hide that.
+- [44:02] Um, let's go back to Where are my
+- [44:05] slides?
+- [44:12] There we go. That's better. Um, so let's
+- [44:16] end with taking a look at um the API and
+- [44:18] the library. So um if you've been
+- [44:21] following along um hopefully you've
+- [44:23] tried some documents in the UI um over
+- [44:26] here in the um key in the lower left you
+- [44:29] can access your API key and you can also
+- [44:33] access the documentation.
+- [44:35] So landing AI we offer um a couple
+- [44:38] different products. Um, if you're not in
+- [44:40] the right one, look here in the drop-own
+- [44:42] menu. You want to be in agentic document
+- [44:45] extraction. And then note that this is
+- [44:49] um information for the visual
+- [44:51] playground, for the rest API, and for
+- [44:53] the Python library. So I find that
+- [44:56] people don't always realize that these
+- [44:58] are three different sets of
+- [45:00] documentation. So um the playground
+- [45:03] super intuitive, but if you need
+- [45:05] instructions, those are here. um you can
+- [45:08] call the REST API directly. So with um
+- [45:11] Python curled JavaScript and just pay
+- [45:14] attention to some of the notes here for
+- [45:17] what you need to do differently if
+- [45:18] you're sending a PDF versus sending some
+- [45:21] um image format
+- [45:24] and then I guess going back to the
+- [45:26] Python library. Um unless you have a
+- [45:29] reason to be using the REST API, we
+- [45:32] would strongly encourage you to use um
+- [45:34] the Python library. It has those
+- [45:36] parallelization and auto retry features
+- [45:39] which the REST API does not have. Um
+- [45:42] there's some more information here about
+- [45:44] how to kind of maximize parallelism for
+- [45:47] large workloads. So you saw me refer to
+- [45:49] that a little bit with the um
+- [45:51] environment variables. Um and then this
+- [45:54] is going to take you through um all of
+- [45:56] the details in ter in including um a few
+- [45:59] different options for how to set your
+- [46:01] API key. Um there are no maximums on um
+- [46:06] using the Python library. Um but you
+- [46:08] will find that the visual um playground
+- [46:11] has a 50page maximum. So um no maximums
+- [46:16] here in the visual UI. You'll run into
+- [46:18] that 50page limit.
+- [46:22] And
+- [46:24] I guess I'll just um close out with a
+- [46:27] couple kind of great use cases. Um and
+- [46:31] then I know that Antit's been answering
+- [46:33] questions along the way. Um you can ask
+- [46:36] me one or two questions. Um and then
+- [46:38] I'll give you five minutes back before
+- [46:40] the next excellent presentation. So
+- [46:43] we're working with a lot of financial
+- [46:45] services companies. Um so because we are
+- [46:47] really emphasizing accuracy and visual
+- [46:50] grounding um this has been kind of
+- [46:52] fruitful territory. So if you need to
+- [46:55] analyze identity documents you know pay
+- [46:58] stubs um invoices anything along that
+- [47:01] lines um healthcare um has been an
+- [47:05] excellent um application of agentic
+- [47:08] document extraction. So if you think
+- [47:10] about um there've been the move toward
+- [47:13] electronic health records, right? So you
+- [47:15] can bring your health records from one
+- [47:17] provider to the next provider and then
+- [47:19] you move out of state or out of the
+- [47:21] country and you can bring those things
+- [47:22] with you. Um but often like often like
+- [47:26] the information in the figures is lost,
+- [47:29] right? Or like some of the checkboxes or
+- [47:31] the forms are lost. So the ability to
+- [47:34] actually have these rich extractions
+- [47:36] from medical histories super valuable
+- [47:38] for patients and providers.
+- [47:41] Um we saw this example from shipping and
+- [47:44] logistics. Um this segment generates a
+- [47:46] lot of paper. So bills of lighting,
+- [47:49] certificates of origin, customs
+- [47:51] declarations, lots of paper involved in
+- [47:54] shipping and logistics. Um, and then you
+- [47:56] also saw me mention kind of um archival
+- [47:59] and library science applications where
+- [48:02] every document is one of a kind. So
+- [48:04] there's really no such thing as layout
+- [48:06] training because they're all one of a
+- [48:08] kind.
+- [48:10] So hopefully that gives you a couple
+- [48:12] other ideas for what you could do with
+- [48:14] something like um agentic document
+- [48:16] extraction. And hopefully I have um
+- [48:20] convinced you that you're not going to
+- [48:22] run into as many of these challenges as
+- [48:25] in the past. So we're trying to provide
+- [48:27] something that's fast, accurate,
+- [48:29] traceable, and efficient. So basically
+- [48:32] the opposite of all four of these.
+- [48:36] So um let me stop sharing there. um see
+- [48:39] if there's any questions that Anit would
+- [48:41] like me to address and otherwise I'll
+- [48:44] give you five minutes back or give you
+- [48:46] five minutes to actually go try it.

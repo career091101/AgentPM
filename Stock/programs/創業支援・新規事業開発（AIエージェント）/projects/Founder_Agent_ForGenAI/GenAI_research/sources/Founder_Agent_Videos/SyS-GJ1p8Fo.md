@@ -1,0 +1,1236 @@
+---
+title: "Transcript: SyS-GJ1p8Fo"
+video_id: "SyS-GJ1p8Fo"
+video_url: "https://www.youtube.com/watch?v=SyS-GJ1p8Fo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:48:32"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: SyS-GJ1p8Fo
+
+- URL: https://www.youtube.com/watch?v=SyS-GJ1p8Fo
+- Retrieved at: 2025-12-30T10:53:51+09:00
+
+## Text
+
+- [00:00] I kind of have an underlying philosophy
+- [00:02] that you can't truly establish readiness
+- [00:05] until you start building. And that is
+- [00:07] the best way to be ready. Actually, from
+- [00:10] working with teams who are building AI,
+- [00:12] the ones that are actually going through
+- [00:14] the prototype to production to scale up
+- [00:17] phase are the ones that are finding out
+- [00:19] what readiness really means for their
+- [00:21] organization. Human in the loop, I
+- [00:23] think, is essential. I actually probably
+- [00:26] wouldn't be building a solution without
+- [00:29] having factored in some human in the
+- [00:31] loop to it. And I think both for as like
+- [00:34] a quality gate, but also to build that
+- [00:37] trust with users, the ultimate consumers
+- [00:40] of it who have a say in it being
+- [00:42] reliable.
+- [00:46] Welcome to data framed. This is Richie.
+- [00:48] For all the promise of AI agents, a
+- [00:50] major barrier to them being useful is
+- [00:52] that they don't always work. that is
+- [00:54] they are untrustworthy. Today we're
+- [00:56] going to look at ways to improve trust
+- [00:58] in your AI agents with a big focus on
+- [01:01] data quality. I also want to discuss AI
+- [01:03] readiness. Every CEO claims they want
+- [01:06] their company to be AI ready, but I'm
+- [01:08] not really sure what that means. In this
+- [01:09] episode, we have a repeat guest, Shane
+- [01:11] Murray. At the time of recording, he was
+- [01:13] field chief technology officer at the
+- [01:16] data and AI observability platform,
+- [01:18] Monte Carlo. He's just switched jobs to
+- [01:20] be senior vice president of digital
+- [01:21] platform analytics at Versant Media. In
+- [01:24] fact, he's returning to his media roots
+- [01:25] since he was previously senior vice
+- [01:27] president of digital analytics at the
+- [01:29] New York Times. So, let's find out how
+- [01:32] to build trust in AI agents.
+- [01:38] Hi Shane, welcome to the show.
+- [01:39] >> Hi Richie, nice to see you.
+- [01:41] >> Wonderful. Yeah, great to have you here.
+- [01:43] Now, I love a good disaster story. So
+- [01:46] just to begin with, can you tell me
+- [01:47] what's the biggest AI disaster you've
+- [01:49] seen?
+- [01:49] >> From my previous days as a data leader
+- [01:52] at the New York Times, we talked about
+- [01:54] disasters as those that might appear on
+- [01:56] the front page of the the New York
+- [01:58] Times, as many teams, I think, do. I you
+- [02:01] know I would say from the people I work
+- [02:02] with uh you know people are generally
+- [02:05] fairly conservative so I I haven't been
+- [02:08] firsthand to disasters but the ones that
+- [02:11] kind of come to mind are uh I don't know
+- [02:14] if you saw there was a a McDonald's
+- [02:17] chatbot that leaked I think it was like
+- [02:20] 64 million job applicant records and the
+- [02:25] security researchers found that the
+- [02:26] default password was 1 2 3 4 5 six
+- [02:31] comically. So, uh I mean I I think these
+- [02:35] reputational ones are the ones you you
+- [02:37] really worry about. And similarly, uh
+- [02:39] the one that comes to mind just from
+- [02:41] having been in the field of media, but I
+- [02:44] think it was the Chicago Sun Times who
+- [02:46] had a summer reading list that was
+- [02:48] essentially all fictional books, right?
+- [02:52] You know, not fiction books, but
+- [02:53] actually fictional books. And so, so
+- [02:56] these ones that kind of get to the heart
+- [02:57] of reputation and trust, I think, are
+- [02:59] the are the ones you you watch out for.
+- [03:02] >> Yeah, absolutely. It's all very well
+- [03:04] having um like a forecast is a little
+- [03:06] bit off, but when you're causing like uh
+- [03:09] problems for 64 million customers of
+- [03:12] yours, that's a really kind of it's a
+- [03:13] bad situation, something you you
+- [03:15] definitely want to avoid. Maybe that's
+- [03:16] too negative. So, we need the flip side
+- [03:18] to this. Uh talk me through some success
+- [03:20] stories you've seen. Yeah, I I'll maybe
+- [03:22] reference uh one I've I've read about
+- [03:25] and then one I and one I've seen
+- [03:27] firsthand just working with customers
+- [03:29] here at Monte Carlo, but um the one that
+- [03:32] struck me just like reading what data
+- [03:34] teams are doing is the strike team. And
+- [03:37] I haven't actually seen like a a deeply
+- [03:39] published post on this, but one of their
+- [03:42] team members was talking about how
+- [03:44] they've essentially built a foundational
+- [03:46] model for payments using billions of
+- [03:49] transactions,
+- [03:51] which is essentially replacing, you
+- [03:54] know, feature engineering, you know,
+- [03:56] what we call now traditional ML models
+- [03:59] with embeddings capturing the
+- [04:02] relationship between payments. And I
+- [04:04] just thought that was super impressive.
+- [04:06] And you know, most people tend to talk
+- [04:09] about traditional ML and then generative
+- [04:12] AI and the fact that that they're using
+- [04:15] these LLM approaches to rethink these
+- [04:19] these sort of foundational business
+- [04:21] problems around, you know, fraud
+- [04:23] detection and things like that. I I just
+- [04:25] found super interesting. Yeah. Have you
+- [04:27] seen that one?
+- [04:28] >> Uh no, I hadn't heard about this. That's
+- [04:30] actually kind of wild because yeah uh
+- [04:33] you think about machine learning and
+- [04:34] generative as being very separate things
+- [04:36] but actually uh yeah an embedding model
+- [04:38] to it's normally used for like detecting
+- [04:41] how close different words are in meaning
+- [04:43] to each other. So I guess detecting how
+- [04:44] close payments are that seems like a
+- [04:46] good way to detect fraud. So yeah very
+- [04:48] innovative there.
+- [04:49] >> Yeah. Yeah. Definitely that one. And
+- [04:51] then I just say like from from customers
+- [04:53] I work with where I've seen the most
+- [04:56] value even though it's not maybe the
+- [04:58] like the autonomous agent use case is
+- [05:02] these teams that are basically taking
+- [05:05] what you know what were kind of robotic
+- [05:08] process automation steps and and you
+- [05:11] know unstructured to structured data.
+- [05:14] And so an example, a a customer I work
+- [05:16] with, Pilot Travel Centers, who have,
+- [05:19] you know, 750 travel centers in the US.
+- [05:22] They're the biggest diesel fuel
+- [05:23] provider. They're the biggest subway
+- [05:25] franchisee in the US. And they actually
+- [05:29] took these bills of lighting that that
+- [05:32] truck drivers essentially take
+- [05:33] photographs of uh and send in and then
+- [05:36] it goes into this what was a previously
+- [05:39] human-driven processing loop and used
+- [05:42] LLM to extract the data from those
+- [05:44] images and then uh dramatically speed up
+- [05:48] their kind of financial data pipelines
+- [05:50] which I thought I I think that's become
+- [05:53] like a prototypical use case but you
+- [05:55] know super interesting one and and
+- [05:57] really valuable to organizations. Yeah,
+- [06:00] certainly it hits on like a lot of the
+- [06:02] kind of current themes like the idea
+- [06:03] that well okay images are now data you
+- [06:06] can extract very useful uh structured
+- [06:08] information from them and then also like
+- [06:11] one of the big dolls is like okay let's
+- [06:12] speed up some processes automate stuff
+- [06:14] and and then we can go faster quite nice
+- [06:17] hitting all the key themes in one story
+- [06:18] I like that
+- [06:21] I want to talk about how we get to these
+- [06:23] uh success stories so I think a lot of
+- [06:25] organizations uh one of the big sort of
+- [06:27] management buzzwords has been about
+- [06:29] becoming AI ready. I'm still not quite
+- [06:32] sure what that means. So, talk me
+- [06:33] through what does being AI ready mean to
+- [06:35] you?
+- [06:35] >> Yeah, I think it can be a very ambiguous
+- [06:38] term that that goes without definition
+- [06:41] often um and and probably similar to
+- [06:44] terms of the past, these kind of terms
+- [06:46] of art in in data and business. But, you
+- [06:49] know, I think I kind of have an
+- [06:52] underlying philosophy that you can't
+- [06:54] truly establish readiness until you
+- [06:57] start building. And that is the best way
+- [07:00] to be ready. I know that's kind of a
+- [07:01] cheat answer, but like actually from
+- [07:04] working with teams who are building AI,
+- [07:07] the ones that are actually going through
+- [07:09] the prototype to production to scale up
+- [07:12] phase are the ones that are finding out,
+- [07:14] you know, what readiness really means
+- [07:16] for their organization. And that can be
+- [07:19] organizational, that can be from a
+- [07:22] systems perspective, you know, are they
+- [07:24] cloud first, do they have the right, you
+- [07:27] know, management around unstructured
+- [07:29] data, that sort of thing. And then I'd
+- [07:31] say just like more more practically
+- [07:34] where I see teams focused on in this
+- [07:36] space. One is do they have reliable AI
+- [07:39] ready data? I think everyone's kind of
+- [07:41] accepted this idea that for your AI to
+- [07:44] be good and ready, your data has to be
+- [07:46] ready. So that's kind of one dimension.
+- [07:49] The other is this thing we talk about
+- [07:52] with customers which is once you you
+- [07:54] know are building AI do you have the
+- [07:57] means to evaluate and monitor the
+- [08:00] quality of that as you're scaling it up
+- [08:03] you know the quality of the outputs the
+- [08:04] quality of the the process to build it.
+- [08:07] And then thirdly is kind of you know
+- [08:10] when the agent maybe goes a skew do you
+- [08:13] have the ability to to understand it and
+- [08:15] to intervene right and to prevent bad
+- [08:18] outcomes.
+- [08:19] >> That's interesting because uh those
+- [08:20] ideas are are kind of at the different
+- [08:22] ends of the development cycle. Like I
+- [08:24] love the idea that in order to figure
+- [08:25] out like what you don't know you just
+- [08:27] try building stuff and wherever you fail
+- [08:29] that's going to be useful information or
+- [08:31] like this is what we need to learn about
+- [08:33] this is what we need to do better. Uh
+- [08:35] but then also yeah uh like the big
+- [08:37] problems are like well okay how do we
+- [08:39] actually scale stuff? How do we
+- [08:41] understand like what's going on with
+- [08:42] these agents we're putting out into the
+- [08:44] world because if you can't track it then
+- [08:46] yeah disasters are going to happen.
+- [08:47] Let's talk about uh what skills you need
+- [08:50] uh to have in order to like start
+- [08:53] building with this stuff. You talk me
+- [08:54] through like basically like what roles
+- [08:56] are going to be involved and what skills
+- [08:58] do they need in order to build stuff?
+- [09:00] Yeah, th this is something I've been
+- [09:02] thinking about quite a bit and talking
+- [09:03] to to data leaders about in the space
+- [09:06] because it's I I think there are a lot
+- [09:09] of data roles in teams these days. You
+- [09:12] know, I can can probably list off at
+- [09:15] least six or seven different roles that
+- [09:17] you might have in a large data
+- [09:18] organization. But I think I think AI
+- [09:22] obviously is kind of changing how we
+- [09:24] need to think about this and and the
+- [09:26] role of um the role of machine learning
+- [09:29] teams, the role of data engineering
+- [09:31] teams. I think when I if I break it down
+- [09:35] into what I see as necessary,
+- [09:38] one is this idea of of context
+- [09:40] engineering.
+- [09:42] And I think at the moment I'm seeing the
+- [09:44] people that do that often have the title
+- [09:46] of AI engineer, but in many cases it
+- [09:49] could be a a data engineer or a software
+- [09:52] engineer. But it's really the idea that
+- [09:54] you have to engineer good context that's
+- [09:58] could be a rag pipeline, could be a set
+- [10:00] of prompts, could be hitting different
+- [10:02] APIs that that are bringing in the right
+- [10:05] information. How do you make sure that
+- [10:07] you have trusted and reliable context
+- [10:10] serving this agent? The second, I've
+- [10:13] heard some debate around whether this is
+- [10:16] kind of a product role or more of a data
+- [10:19] science role, but how do you define and
+- [10:21] evaluate quality, right? And and often
+- [10:25] this is a mix of human feedback, right?
+- [10:29] How do you take in human signals about
+- [10:31] you know what's relevant what's
+- [10:32] irrelevant and then how do you use LLM
+- [10:35] as a judge techniques to also measure
+- [10:38] and monitor quality a and I think I kind
+- [10:42] of think at the moment this is a data
+- [10:44] science job and where I see it being
+- [10:46] done best it's being done by data
+- [10:48] scientists because it it is a lot of
+- [10:51] thought about how you measure the
+- [10:54] quality of of an experiment or how you
+- [10:56] measure these non-deterministic outputs
+- [10:59] in a way that's that is scientific,
+- [11:02] right? And then the the third kind of
+- [11:05] role I see often is more as you start to
+- [11:08] scale up, which is kind of the the
+- [11:11] platform engineer, right? How do you
+- [11:13] instrument your stack to to be able to
+- [11:16] support many agents to build upon? And
+- [11:19] we're we're a bit early for that, but
+- [11:21] I'm certainly seeing teams think about,
+- [11:23] you know, how do you have extensibility
+- [11:26] and scale? or how do you have standard
+- [11:28] frameworks for experimentation and for
+- [11:31] observability?
+- [11:32] >> It's interesting stuff. Um and so on on
+- [11:34] that second point about um how it's data
+- [11:37] science teams that need to be like
+- [11:38] monitoring the quality of the the AI
+- [11:41] work. I think uh that's fascinating
+- [11:43] because I get the sense over the last
+- [11:45] few years there's been a a drift from
+- [11:48] data teams being the people responsible
+- [11:49] for doing AI to engineering teams being
+- [11:52] the ones responsible for doing AI. So,
+- [11:53] it's nice to know the data teams still
+- [11:56] have a a purpose here.
+- [11:57] >> Yeah, I'm I'm often seeing that it's
+- [11:59] it's the data teams that are potentially
+- [12:02] staffing that talent within the the
+- [12:05] product or software engineering team.
+- [12:07] And so, it's a data scientist that that
+- [12:09] might be doing some of the context
+- [12:11] engineering, but might also be
+- [12:13] responsible for reporting back like how
+- [12:16] well is this thing doing, right? And I I
+- [12:19] I still think there's like a a huge role
+- [12:22] for for data people to play in this.
+- [12:24] >> Oh. Uh since you mentioned uh context
+- [12:26] engineering, this is like this is Andre
+- [12:28] Karpathy making up phrases again. Do you
+- [12:30] just want to explain like what is
+- [12:31] context engineering? Yeah, I I think uh
+- [12:34] this term I I um I'm not not as sure of
+- [12:39] the derivation of it, but I feel like it
+- [12:41] is the right term after people have
+- [12:43] started with prompt engineering and then
+- [12:46] realized it's more than prompts, right?
+- [12:49] In some cases, you're you're building a
+- [12:51] rag pipeline, but basically all the ways
+- [12:54] that you're bringing in unstructured and
+- [12:57] structured data as well as prompting the
+- [13:00] AI to to actually make it work. So that
+- [13:03] I I mean it's not a very scientific
+- [13:05] definition, but that that's kind of how
+- [13:07] I think of this like larger space of of
+- [13:10] context engineering.
+- [13:12] >> Yeah, I have to say the term's been
+- [13:14] quite divisive at data gam. all the
+- [13:16] people who are involved in engineering
+- [13:17] like building AI features like yeah uh
+- [13:20] trying to figure out how much context
+- [13:22] you give to an AI it's an incredibly
+- [13:23] important task context engineering is a
+- [13:25] real thing incredibly important but then
+- [13:27] all like uh the curriculum team so
+- [13:29] people are building courses anyone in
+- [13:30] marketing like well giving context to
+- [13:32] people when you're explaining stuff
+- [13:33] that's just what we do all day we don't
+- [13:35] need a new term for it so yeah uh
+- [13:38] definitely divisive depends on on your
+- [13:39] point of view as to whether it's a
+- [13:41] useful thing or not um oh so you also
+- [13:44] mentioned the idea of platform form
+- [13:45] engineering. Just talk me through what
+- [13:47] what's that
+- [13:47] >> like my experience with with data teams
+- [13:50] over the past decade is like we really
+- [13:53] gravitated to this world where we need
+- [13:55] people focused on building the platform
+- [13:58] that that other data engineering or
+- [14:00] other data analysts or data science
+- [14:02] teams can make use of, right? And so so
+- [14:06] building up both the infrastructure and
+- [14:09] the sort of golden pathways or the
+- [14:11] tooling that you expect people to use.
+- [14:13] And so, you know, as I've I've been
+- [14:16] talking to probably 150 data teams over
+- [14:19] the past 6 months about how they're
+- [14:21] approaching this and very often they're
+- [14:23] seeing fragmented, you know, agents or
+- [14:27] AI being built out on the edge in
+- [14:29] software engineering teams who are close
+- [14:31] to the the problem statement of the
+- [14:34] customer, but they're all going and
+- [14:36] building with different tools and
+- [14:38] different frameworks. And so the idea of
+- [14:40] the platform engineering team is really
+- [14:42] about standardization.
+- [14:45] And often I think when it's when it's
+- [14:46] done best, you're you're waiting till
+- [14:49] there's enough use cases to require a
+- [14:51] platform. You shouldn't build ahead of
+- [14:54] of the need too much. And then you're
+- [14:56] also like providing the things that are
+- [14:59] naturally adopted. You're not you a good
+- [15:02] platform. you don't have to force
+- [15:04] adoption because people see the benefits
+- [15:06] of not having to own that that
+- [15:08] foundational layer.
+- [15:10] >> Okay, this seems incredibly important.
+- [15:11] It's like having some sort of
+- [15:12] standardized um infrastructure and I
+- [15:15] guess a lot of companies particularly
+- [15:17] the larger the company you end up with
+- [15:19] silos with different teams using
+- [15:21] different uh pieces of tech that do the
+- [15:24] same thing. Um so I guess maybe talk me
+- [15:27] through um I mean the start of this
+- [15:29] conversation was about becoming AI
+- [15:31] ready. So what's the infrastructure you
+- [15:32] need to be AI ready? Like what does a
+- [15:34] sensible text stack look like?
+- [15:36] >> I mean at the moment it it feels fairly
+- [15:38] minimal, right? I think people are
+- [15:40] looking at at orchestration. So
+- [15:44] something like a langraph is is very
+- [15:46] common, right? And establishing like a
+- [15:49] standard for a gateway to whatever set
+- [15:52] of of foundational models you want to
+- [15:55] make available to people within the
+- [15:57] organization to build upon. I I do think
+- [16:00] like platforms then extend into how do I
+- [16:04] reliably run experiments, right? How do
+- [16:07] I evaluate that this thing is better
+- [16:10] than the last version and how do I how
+- [16:14] do I have observability?
+- [16:16] And that observability can be the
+- [16:18] latency or the cost, right? How many
+- [16:21] tokens you you're using. I think some
+- [16:24] people have certainly run into cases
+- [16:26] with with all this AI being built that
+- [16:28] somehow they'll have a cost spike where
+- [16:30] a team hasn't realized like what they've
+- [16:33] done. But it can also be like the the
+- [16:36] traceability of these agents and
+- [16:38] ensuring you're knowing how they're
+- [16:39] behaving. So I think we're at the early
+- [16:42] stages of the platform discussion. You
+- [16:44] can also I I would say like you know
+- [16:46] there's discussion about whether you
+- [16:48] have a dedicated vector database or like
+- [16:52] what is the underlying you know uh
+- [16:55] management of unstructured and
+- [16:56] unstructured data that supports the
+- [16:58] agents. So all these things can be
+- [17:00] components but yeah I would say it it
+- [17:03] feels we're we're pretty early in the
+- [17:06] platform discussion of of AI.
+- [17:09] >> Okay. Yeah. So I guess uh you probably
+- [17:11] want to plan for swapping out some tools
+- [17:13] uh at regular intervals in the near
+- [17:15] future. Then you um is there a way to
+- [17:18] make your infrastructure a bit more
+- [17:19] fluid then? Like how do you plan for
+- [17:21] that?
+- [17:21] >> How do you mean
+- [17:22] >> if you got some sort of fixed tech stack
+- [17:24] then uh you probably that's not going to
+- [17:27] work? You're going to want to change
+- [17:28] stuff at some point.
+- [17:29] >> I don't think I have a great answer for
+- [17:31] that. But I feel like uh you know
+- [17:33] investing minimally at the moment and
+- [17:36] supporting the top use cases and then
+- [17:39] also most teams are still just allowing
+- [17:42] you know teams out on the edge to go and
+- [17:44] use what they want. But it's like how do
+- [17:46] you make sure you've supported the top
+- [17:47] three use cases. This is how I've
+- [17:50] approached platforms in the past. You
+- [17:52] don't try to solve for 100%. you don't
+- [17:54] try to enforce too much, but you have,
+- [17:57] you know, you're 80% of of value covered
+- [18:01] by by the platform. I think modularity
+- [18:04] is is probably a a key word for this now
+- [18:07] and and just making sure what you build
+- [18:10] is extensible to different use cases.
+- [18:12] >> Okay. Yeah, I like the idea of
+- [18:13] modularity. Like maybe you don't want
+- [18:15] some monolithic stack that uh you got to
+- [18:17] swap everything out all at once. Okay.
+- [18:19] So, uh, you were talking before about,
+- [18:20] um, observability and like the how you
+- [18:23] test for quality in in your AI. I guess
+- [18:26] this all starts with the with the data,
+- [18:27] right? So, I guess what sort of data
+- [18:30] quality controls are you going to want
+- [18:32] before you start saying, okay, we're
+- [18:33] going to use this data with our AI
+- [18:35] products or features?
+- [18:36] >> I think AI readiness also has this
+- [18:39] category of kind of AI ready data. And I
+- [18:43] think for for some teams as I've
+- [18:46] mentioned like it's about actually
+- [18:48] building the application and and seeing
+- [18:51] what needs to be ready in that process.
+- [18:53] I think also we have this huge branch of
+- [18:56] work many teams now approaching
+- [18:58] conversational BI or whatever name you
+- [19:01] want to want to give to it but basically
+- [19:03] replacing dashboards with natural
+- [19:05] language and and allowing that to access
+- [19:08] your data. I think for that teams really
+- [19:12] need to and have been thinking about
+- [19:15] kind of data certification, right? Which
+- [19:17] which data sets have the right coverage
+- [19:22] in terms of monitoring, have the right
+- [19:24] incident response processes,
+- [19:26] have the right metadata around them to
+- [19:30] be ready. And that that with AI tends to
+- [19:33] include synonyms like you know revenue
+- [19:36] equals sales and all the ways that uh uh
+- [19:40] someone using the agent is going to to
+- [19:42] talk about your data and uh and then you
+- [19:47] know essentially um
+- [19:50] I'd say that's kind of one side is is
+- [19:52] have you prepared your data estate to
+- [19:54] have agents put on top of it and then
+- [19:57] I've also seen data teams who are kind
+- [19:59] of tackling this idea where they have
+- [20:01] downstream teams that are building
+- [20:03] agents and they need to think about how
+- [20:06] they approach kind of readiness of
+- [20:09] structured and unstructured data and the
+- [20:11] unstructured data is kind of a a new
+- [20:13] component where you know you previously
+- [20:16] had very little visibility on that data.
+- [20:19] So I think teams are now grappling with
+- [20:20] the idea of of how do I monitor the
+- [20:23] unstructured data that that may be used
+- [20:26] by you know tens of teams downstream.
+- [20:29] >> Actually that's a really interesting
+- [20:30] point. So how do you even measure like
+- [20:32] the quality of like is this image any
+- [20:34] good or not?
+- [20:35] >> So I feel like it's early on but there's
+- [20:38] some things that are parallel from
+- [20:39] structured data obviously. So is it
+- [20:41] fresh? You know is it in a valid file
+- [20:44] format? There's some of the things that
+- [20:46] are kind of fairly standard with that.
+- [20:48] But then I think you've got um and
+- [20:52] images are maybe a harder one, but I
+- [20:55] think of text like semantic consistency.
+- [20:58] And I've seen a lot of teams try to
+- [21:00] protect for this by having like one
+- [21:02] person contribute to the to the
+- [21:04] governance of of the documents to ensure
+- [21:07] this semantic consistency. But if you've
+- [21:10] got really high volume
+- [21:12] variable and high velocity data then you
+- [21:16] need to be able to check that you know
+- [21:19] someone's definition of risk is the same
+- [21:22] definition of risk that's understood
+- [21:24] across the corpus right and so I think
+- [21:27] there's a need to sort of understand the
+- [21:29] semantic consistency of the corpus and
+- [21:32] then there's also a need to understand
+- [21:34] the the relevance of it and I've talked
+- [21:37] to a lot of teams that are dealing with
+- [21:39] kind of rag based pipelines where they
+- [21:42] need to be able to know when there's a
+- [21:44] drift in the relevance of the underlying
+- [21:47] corpus from the from the model and the
+- [21:49] output that they've built.
+- [21:51] >> Okay. All right. So, um just to make
+- [21:53] sure everyone said this idea correctly.
+- [21:54] So, semantic consistency is this just
+- [21:56] like business definitions are
+- [21:57] consistent. So, it's like okay this is
+- [21:59] how we define a sales qualified lead or
+- [22:01] this is how we define customer life
+- [22:02] cycle value and it's the same everywhere
+- [22:05] and you want that across all your
+- [22:06] documents. Is that is that correct?
+- [22:08] Exactly. Yeah.
+- [22:09] >> Okay. Uh so is there like a
+- [22:11] technological solution to ensuring
+- [22:13] semantic consistency or is it like a
+- [22:14] case of just read everything and and
+- [22:18] hope that it's right? Yeah, I mean at
+- [22:20] Monte Carlo we've done some work into
+- [22:23] into building these unstructured data
+- [22:25] monitors and so so you know I I think
+- [22:29] we're we're sort of starting to work
+- [22:31] with teams to see like what they need to
+- [22:33] monitor and and what they need to
+- [22:35] extract but it's a different problem and
+- [22:38] you basically need to structure some
+- [22:39] information from that unstructured data
+- [22:42] in order to monitor for that
+- [22:44] consistency.
+- [22:45] Um, so a and and much of this relies on
+- [22:49] the fact that now we have like
+- [22:52] underlying LLM functions in our in our
+- [22:55] warehouse that we can tap into.
+- [22:57] >> Okay. Yeah. So it seems like maybe it's
+- [22:58] a sort of ongoing research problem is
+- [23:00] like how do you actually ensure like
+- [23:02] that document quality control like
+- [23:04] everywhere? I'd like to have you find
+- [23:07] maybe like a concrete example of how the
+- [23:09] the data quality then feeds into AI
+- [23:12] quality like how does that relationship
+- [23:14] work?
+- [23:15] >> You know, I tend to think of of this
+- [23:18] kind of engineering maxim like as much
+- [23:21] reliability as you need and no more,
+- [23:24] right? Maybe this stems back to the idea
+- [23:26] of like you kind of have to build the
+- [23:28] thing and put it in production and start
+- [23:30] learning and and so these the the idea
+- [23:34] of monitoring these things is often
+- [23:36] learned through monitoring and
+- [23:38] iteration. How does it affect
+- [23:40] performance? I think often times people
+- [23:43] are really attaching to this idea of
+- [23:46] hallucination,
+- [23:48] right? And it's it's kind of the most
+- [23:50] commonly talked about problem with
+- [23:52] generative AI. What I've found from
+- [23:55] talking to to many data teams is that
+- [23:58] very often like the underlying problem
+- [24:01] that's causing hallucination is not the
+- [24:03] model itself.
+- [24:05] It's actually the context or the data
+- [24:07] inputs, right? And so if you have
+- [24:11] outdated data,
+- [24:13] right, then you're going to have a model
+- [24:15] that's giving potentially like old
+- [24:17] information or if you if you've just
+- [24:20] tapped into your underlying like
+- [24:22] confluence data that's that's had maybe
+- [24:25] hundreds of contributors over the last
+- [24:27] 10 years, you're going to have a mix of
+- [24:30] high and low quality information. And so
+- [24:33] I think the the practical well the
+- [24:35] models can hallucinate and it's
+- [24:37] certainly something you need to to you
+- [24:40] know build monitors and guard rails on
+- [24:43] the practical problem that many teams
+- [24:45] are finding is actually like all right
+- [24:48] how do I ensure the the data is reliable
+- [24:52] and how do I ensure the the model
+- [24:54] outputs are reliable. all rights were
+- [24:56] back to document quality control where
+- [24:58] like you've got five-year-old well I
+- [25:00] mean maybe customerf facing support
+- [25:02] pages that pro they ought to be kept up
+- [25:04] to date but certainly like internet
+- [25:06] pages where it's like okay yeah I wrote
+- [25:08] this process seven years ago that page
+- [25:10] still exists somewhere and suddenly it's
+- [25:13] being pulled in uh into your AI um
+- [25:17] helped system
+- [25:18] >> well I yeah I mean I think some of the
+- [25:20] early use cases have been can we put a
+- [25:23] can we put a conversational agent on top
+- [25:25] of our internal documentation. I think
+- [25:28] people are very quickly find finding
+- [25:30] that that isn't a very upto-date
+- [25:33] document source. I mean obviously
+- [25:35] there's there's cases outside of that
+- [25:38] where you can tap into much more fresh
+- [25:40] and timely documents
+- [25:42] >> and are there any other sort of data
+- [25:43] quality issues that you see then or is
+- [25:45] is that is that the main one?
+- [25:46] >> Yeah. No, I I think I mean the data
+- [25:50] qualities that data quality issues that
+- [25:53] contribute many of them are things that
+- [25:55] we've seen, you know, across traditional
+- [25:58] ML and across analytical use cases.
+- [26:01] Still, I find like silent schema changes
+- [26:05] from from an upstream say software
+- [26:08] engineering team are one of the most
+- [26:10] common causes of pain or even externally
+- [26:13] managed data that that you're ingesting
+- [26:16] that actually changes. And so schema
+- [26:19] changes are still this sort of uh event
+- [26:22] that if not controlled can be like
+- [26:24] disastrous for for downstream systems. I
+- [26:28] think then you have the idea of pipeline
+- [26:31] delays causing stale or incomplete data.
+- [26:34] So I was talking to a customer who said
+- [26:37] like we need to know the delay between
+- [26:40] when the underlying document set is
+- [26:42] updated and when our model actually
+- [26:45] starts to use that because this time in
+- [26:48] between this latency can can cause it to
+- [26:51] be delivering the wrong answers to
+- [26:53] consumers, right? And so there's a
+- [26:55] there's still a a freshness problem that
+- [26:58] exists in AI as with any data product
+- [27:01] that you're building. I think thirdly
+- [27:03] you have this idea of of data drift
+- [27:06] which can occur from code changes or
+- [27:09] instrumentation changes but the idea
+- [27:12] that your your underlying data that
+- [27:15] you're using in a rag pipeline or in a
+- [27:18] in context can actually uh drift into
+- [27:21] into a place where the model no longer
+- [27:24] is giving relevant responses. And then I
+- [27:26] think the new one is actually like
+- [27:29] measuring the the actual output of the
+- [27:32] AI, right? And it could be measuring
+- [27:35] that for for clarity or for a lot of
+- [27:38] teams I talked to measure it for like
+- [27:41] does it carry the kind of brand image
+- [27:43] that we represent? Like is it speaking
+- [27:46] as we would speak to customers? Is it
+- [27:49] grounded in the the context that we've
+- [27:51] provided it or is it accurate if you
+- [27:53] have some ground truth? And so all of
+- [27:56] these things I think from the underlying
+- [27:59] data inputs through to you know which
+- [28:01] can be schema changes and freshness
+- [28:04] through to the the actual model output.
+- [28:06] So the quality issues that are affecting
+- [28:08] AI in production.
+- [28:10] >> So many different things that can go
+- [28:11] wrong there. So yeah, certainly with
+- [28:13] with freshness I can see like if you're
+- [28:15] pulling in like weather data or news
+- [28:16] data like even a small delay is like
+- [28:19] that's going to render the data
+- [28:20] completely useless. Um and certainly
+- [28:24] like changing formats like that you
+- [28:25] mentioned the schema changes. Yeah. If
+- [28:27] your data is suddenly in a different
+- [28:28] form then that's going to break a lot of
+- [28:30] things downstream. Okay. So I guess a
+- [28:33] lot of things that can go wrong. Um
+- [28:35] suppose like your chief data officer is
+- [28:37] like okay we need to improve uh data
+- [28:39] quality. Do you have like a single
+- [28:40] recommendation for like where do you
+- [28:42] start improving data quality? This is
+- [28:44] something we we tackle at Monte Carlo a
+- [28:46] lot and I'd say like the most logical
+- [28:50] place to start and the place of highest
+- [28:52] impact typically at least in large
+- [28:55] organizations and and many small
+- [28:58] organizations you'll have the the kind
+- [29:00] of foundational data products right the
+- [29:03] core data layer that should be easily
+- [29:05] joinable that everyone's tapping into
+- [29:07] and they're building derived products on
+- [29:10] top of that. Um, so you might have
+- [29:13] domain teams that are actually tapping
+- [29:15] into that data. So, you know, I tend to
+- [29:18] recommend starting with that those
+- [29:20] foundational data cuz it's it's where
+- [29:22] you might have hundreds of users that
+- [29:23] you can affect downstream. And if you if
+- [29:26] you improve the quality there, you
+- [29:28] improve it downstream. And so typically
+- [29:32] there I'd start with, you know, the base
+- [29:36] kind of schema, freshness, volume checks
+- [29:40] that you can scale up very easily,
+- [29:43] right? And you don't need to be writing
+- [29:45] manual assertions. You can really just
+- [29:47] turn these type of checks on uh with any
+- [29:50] observability tool. and then going going
+- [29:54] deeper on your critical data elements
+- [29:57] and ensuring you have kind of
+- [29:59] distribution monitoring around those so
+- [30:02] that that you know that by the time that
+- [30:04] it gets to a metric that the CEO is
+- [30:07] reading or a piece of data that's that's
+- [30:09] really required in an end user system
+- [30:12] that it's actually been measured along
+- [30:14] the way and hasn't had any
+- [30:16] transformation problems or any
+- [30:17] underlying data problems. So I think
+- [30:20] that's the the detection side and then
+- [30:24] we typically encourage teams to really
+- [30:26] start with you know basic operational
+- [30:29] practices if they don't have those which
+- [30:31] might include on call rotations
+- [30:35] having a clear and understood severity
+- [30:38] process for incidents so that you can
+- [30:40] kind of separate the signal from the
+- [30:42] noise and really amplify the the signal
+- [30:45] of a sev one or a sev 2. and then doing
+- [30:48] retros when you have these incidents and
+- [30:50] and kind of reporting on things like
+- [30:52] time to detect and time to respond. Um
+- [30:56] so the these are kind of the the basic
+- [30:59] practices that I think every you know
+- [31:02] software engineering team is implemented
+- [31:04] and every data team needs to have
+- [31:06] implemented these days. That's a silt
+- [31:09] dig at data teams I think there. Yeah.
+- [31:10] Uh so the idea of having people on call
+- [31:12] for when things go wrong uh and doing
+- [31:15] retrospective like a postmortem when
+- [31:17] there's a disaster so you can fix it.
+- [31:19] Very common in software engineering much
+- [31:20] less so in data teams. So uh yeah uh
+- [31:23] that definitely seems like a good
+- [31:25] process to implement. So yeah I guess if
+- [31:27] you're a data team leader you're like
+- [31:29] how do I do things better? Just
+- [31:30] basically copy whatever the software
+- [31:32] engineering team is doing. I think that
+- [31:34] I I mean that we don't need to reinvent
+- [31:36] the wheel here. Like I think data teams
+- [31:39] have been behind software engineering
+- [31:41] teams in most organizations just in
+- [31:43] terms of adopting these strong like
+- [31:46] reliability engineering practices. But
+- [31:48] like data just keeps becoming a more
+- [31:51] central part of the products we build
+- [31:53] and it it's so these are the steps to
+- [31:56] take.
+- [31:57] >> Absolutely. Um okay. And so you
+- [31:59] mentioned uh earlier on about um you go
+- [32:02] beyond just observing problems to try
+- [32:04] and find out like what the root cause of
+- [32:06] those problems was. Uh just talk me
+- [32:09] through how do you go about that? I I
+- [32:10] think certainly like once you got like
+- [32:12] um an AI agent and then there's like
+- [32:14] lots of layers of tech in between that
+- [32:16] and oh there's a data problem. It can go
+- [32:19] quite deep I guess. So yeah talk me
+- [32:20] through what's the process for finding a
+- [32:22] root cause of a problem. So maybe I'll
+- [32:24] I'll separate it into two pieces which
+- [32:27] is kind of how we observe and how we
+- [32:30] observe agents. And so we've been doing
+- [32:33] work at Monte Carlo to basically extend
+- [32:37] our agent observability so that we're
+- [32:40] capturing the traces of agent behavior,
+- [32:44] you know, through all the building
+- [32:45] blocks which you can think of as
+- [32:49] let's take a rag pipeline. It would be,
+- [32:51] you know, chunking and embedding and
+- [32:53] retrieving and then you've got the
+- [32:55] decisions that an agent might be making.
+- [32:58] And so, you know, as these agent
+- [33:01] architectures get more complexity built
+- [33:03] into them, we've just seen the need to
+- [33:06] extend that kind of um telemetry
+- [33:10] instrumentation
+- [33:12] to be able to to go and, you know, dig
+- [33:14] into individual responses, right?
+- [33:17] Because you've got non-determinism built
+- [33:19] into these. You need to actually be able
+- [33:21] to break it down and look at individual
+- [33:23] cases and understand essentially the
+- [33:26] lineage of those. And so part of it is
+- [33:29] that instrumentation and then the other
+- [33:32] part is actually we've you know over the
+- [33:35] years we've we've really invested in in
+- [33:38] troubleshooting and root cause analysis
+- [33:41] and what we've built up in Monte Carlo
+- [33:43] now is a is an agent for
+- [33:45] troubleshooting.
+- [33:47] And so what that agent does is it takes
+- [33:50] all of the context of an incident
+- [33:53] and which you know includes the the
+- [33:56] anomaly itself but also an understanding
+- [33:59] of the data lineage and an understanding
+- [34:01] of the the different logs that are
+- [34:03] coming from contributing tools and then
+- [34:06] it spawns a series of sub aents which
+- [34:09] might explore you know GitHub changes or
+- [34:13] airflow issues or go upstream and look
+- [34:16] at all the potential data failures that
+- [34:19] could be happening. So each of these
+- [34:21] specialist agents then go and explore
+- [34:24] hypotheses and you might have 10 or 100
+- [34:27] LLMs running in parallel
+- [34:31] uh to explore a hypothesis come back
+- [34:34] with a finding share that with the main
+- [34:37] agent who then summarizes it within the
+- [34:40] span of about 2 minutes and suggests
+- [34:43] next steps. And so that's really the
+- [34:46] latest and greatest that we're doing on
+- [34:48] troubleshooting, which is like how do
+- [34:50] you take what we've found with data
+- [34:53] teams can take kind of 18 or 20 hours of
+- [34:57] for an incident to actually go and
+- [34:59] troubleshoot and with any alert give in
+- [35:02] 2 minutes a review of what might have
+- [35:05] caused it. of the idea that you're using
+- [35:07] like hundreds of agents to then find out
+- [35:10] what the problem was with the original
+- [35:12] agent.
+- [35:14] Now you've got like a hundred more
+- [35:16] problems. How do you debug debug those
+- [35:18] agents? It's I I will say like we've
+- [35:21] found it to be such a good use case
+- [35:24] because there's there's such a clear
+- [35:26] process that engineers take to this
+- [35:29] hypothesis testing and we've also over
+- [35:31] the six years of Monte Carlo built up an
+- [35:34] understanding of you know all the root
+- [35:36] causes that we can kind of give hints to
+- [35:38] this agent about potentials but yeah
+- [35:41] it's uh agents upon agents as you say.
+- [35:44] >> Uh no it does seem incredibly useful. I
+- [35:46] mean, I imagine like spending 20 hours
+- [35:49] going through like digging through your
+- [35:52] entire stack to figure out where the
+- [35:54] problem is. That's got to be an
+- [35:55] incredibly tedious and frustrating job
+- [35:56] for for any sort of data scientist or or
+- [35:59] um engineer. So, yeah, I like I like the
+- [36:02] idea of automating that.
+- [36:03] >> So, you mentioned you you've got sort of
+- [36:04] six six years worth of data on like
+- [36:07] things that can go wrong. Uh talk me
+- [36:09] yeah, what are the most common sort of
+- [36:11] root causes of problems that you found?
+- [36:13] Maybe I'll focus on like as we've as
+- [36:16] we've talked to teams building AI what
+- [36:19] some of the new problems there are.
+- [36:21] Obviously I kind of talk through like
+- [36:23] schema and freshness and distribution
+- [36:26] problems in data that can occur but um
+- [36:30] one of the interesting ones I've found
+- [36:32] is talking to teams building AI is the
+- [36:35] actual you know underlying model
+- [36:37] upgrades behind the scenes right or
+- [36:40] prompt changes and and typically you'd
+- [36:44] think like these are occurring within
+- [36:46] teams that should know that changes that
+- [36:48] are happening but a lot of these changes
+- [36:51] currently invisible. And I think part of
+- [36:53] it's because we're early, but a change
+- [36:56] from GPT to 4.0 to 4.1,
+- [37:01] right, can really have dramatic impacts
+- [37:03] on an agent that you have in production,
+- [37:06] right? And so I I've heard teams say
+- [37:09] like they'll start getting feedback from
+- [37:11] their user base that somehow like the
+- [37:14] thing feels less useful. And we see this
+- [37:16] using some of the the the UIs provided
+- [37:20] by by the agents as well. But you know
+- [37:23] data teams need to be aware of those
+- [37:25] model changes or prompt changes in the
+- [37:28] same way that they are a schema change.
+- [37:30] >> Yeah. All these uh foundation model
+- [37:32] companies they keep coming out with new
+- [37:34] models and they're always like oh this
+- [37:35] is the latest greatest thing. You need
+- [37:36] to adopt this. But actually you need to
+- [37:38] be very very careful in an enterprise
+- [37:40] setting when you're switching over your
+- [37:41] models. It seems
+- [37:42] >> yeah I I even if it's better I think
+- [37:45] we've seen as data teams like you care
+- [37:47] about consistency
+- [37:49] in a way above like accuracy sometimes
+- [37:53] consistency is such a critical factor
+- [37:56] for data teams and so a model changing
+- [37:59] versions behind the scenes or someone
+- [38:01] switching out a prompt has huge impacts
+- [38:04] on the consistency of behavior for
+- [38:06] these. So that's that's been one. I
+- [38:09] think another thing that has come up
+- [38:11] with a lot of data teams is is this idea
+- [38:13] of embedding drift, right? Which you
+- [38:17] could frame as kind of knowledge drift,
+- [38:19] but you know, are my embedding still
+- [38:21] relevant to the to the use case that I'm
+- [38:24] supporting? And then I I just say going
+- [38:27] back like the thing that's been
+- [38:28] reinforced through my conversations is
+- [38:31] if that underlying knowledge base or
+- [38:34] document set that you're feeding in is
+- [38:37] low quality or is delayed, you know,
+- [38:39] that that's going to to make or break
+- [38:42] your AI application.
+- [38:44] >> So embedding drift, this is a whole new
+- [38:46] problem to me. Uh talk me through uh
+- [38:49] what this is about like the the meanings
+- [38:51] of words changing. Uh when does this
+- [38:54] happen? Yeah, potentially I'll maybe
+- [38:56] I'll give a a sort of um example that
+- [39:00] that a customer shared, but ba basically
+- [39:03] they were doing some work in the US and
+- [39:05] had some embeddings that were specific
+- [39:08] to the US and then starting to expl
+- [39:11] expand the business into Canada, right?
+- [39:14] And and the standards of of the language
+- [39:18] or the images in this case in Canada
+- [39:20] were very different from the US, right?
+- [39:23] And so their techniques which might have
+- [39:26] been like fuchot prompting or other
+- [39:28] techniques to actually make this work
+- [39:30] suddenly become less reliable for the
+- [39:33] for the scope of the problem they're
+- [39:35] solving. And so I think historically
+- [39:39] like these sorts of solutions have been
+- [39:41] built by sometimes one data scientist,
+- [39:45] right? But as you start to fragment
+- [39:48] ownership of that solution, I think you
+- [39:51] you have more requirements to have
+- [39:53] observability or have monitoring on each
+- [39:55] piece of it.
+- [39:56] >> Uh yeah, that's uh absolutely certainly
+- [39:58] something I fell over in my own life
+- [39:59] moving from from England to the US. It's
+- [40:02] like, oh yeah, a lot of these words are
+- [40:04] wrong. Me too. Uh moving from from
+- [40:07] Sydney to New York, I experienced
+- [40:09] exactly the same thing.
+- [40:11] >> Absolutely. Yeah. So it seems like as
+- [40:13] you are sort of moving into new markets,
+- [40:15] you really really need to be uh careful
+- [40:17] about like AI performance and and is
+- [40:19] that going to change? Okay. Um so I
+- [40:22] guess in general um all this speaks to
+- [40:24] the problems of just um how you go about
+- [40:26] changing your your processes and like
+- [40:28] once you start adopting agents, do you
+- [40:30] have any um advice on on process
+- [40:33] management? like how do you go about uh
+- [40:35] changing things?
+- [40:37] >> I I think maybe the the first one I just
+- [40:40] call out, maybe it's obvious, but like
+- [40:42] human in the loop I think is essential.
+- [40:46] Like I I actually probably wouldn't be
+- [40:48] building a solution without having
+- [40:52] factored in some human in the loop to
+- [40:54] it. And I think both for as like a
+- [40:57] quality gate, but also to build that
+- [41:00] trust with users, you know, the ultimate
+- [41:02] consumers of it who who have a say in it
+- [41:06] being reliable. And I think when teams
+- [41:08] set the expectations
+- [41:10] with their end users, they're in a much
+- [41:12] better place and and also bring in
+- [41:15] experts to ensure the quality of the
+- [41:17] application. then they're then they're
+- [41:20] you know actually u more successful in
+- [41:22] deploying these applications and and
+- [41:24] driving that change management with
+- [41:26] their user base. I even saw you know the
+- [41:29] same thing with machine learning is that
+- [41:31] like the closer you get to that end user
+- [41:34] and build for them and don't build to
+- [41:37] replace them then then you're going to
+- [41:40] get a lot more buy in. I think the
+- [41:42] second one is like the the thing I've
+- [41:45] seen teams do is kind of start very
+- [41:47] narrowly. Um, you know, prototype
+- [41:50] narrowly, get the buy in, get the wins,
+- [41:54] then figure out the next scale. So
+- [41:56] they're going from 10 to 100 to a
+- [41:58] thousand users in a way that I don't
+- [42:01] think we considered as much with. You
+- [42:03] know, we certainly did sort of smaller
+- [42:06] AB tests, but most products, you know,
+- [42:08] get launched to production without going
+- [42:12] through such rigorous kind of step ups
+- [42:14] in in the user base. And I think
+- [42:17] sometimes that'll mean you you go up and
+- [42:19] then you come back to your 10 users and
+- [42:22] test some new changes. But it really
+- [42:24] feels like that sort of phased roll out
+- [42:28] is part of the the AI adoption process.
+- [42:32] Culturally what what we've found at
+- [42:34] Monte Carlo because of course like any
+- [42:37] other company we're adopting AI is you
+- [42:41] need to give people kind of space and
+- [42:43] time to experiment. You're not going to
+- [42:46] be productive on day one of using AI and
+- [42:49] you're going to do a lot wrong. And so
+- [42:52] I've found it really useful at Monte
+- [42:54] Carlo. We have a culture of like sharing
+- [42:56] the successes and failures we've had
+- [42:58] with using AI and and that's actually
+- [43:01] converted a lot of people in into users
+- [43:05] um who were were previously maybe a bit
+- [43:08] shy to use uh the the technologies.
+- [43:10] >> The idea of the phase roll out that's
+- [43:12] actually surprisingly revolutionary or
+- [43:15] or or radical I suppose compared to like
+- [43:17] SAS software. It's like okay we do an AB
+- [43:19] test we give it we give the new feature
+- [43:21] to 10% of our users if it seems to work
+- [43:24] okay we roll it out to everyone but yeah
+- [43:27] doing it like 10 users then 100 then a
+- [43:29] thousand and gradually building up that
+- [43:31] that does seem uh it's a very different
+- [43:33] process and a lot more rigorous
+- [43:35] >> and I think in part it ties to maybe
+- [43:39] maybe the weakness of human in the loop
+- [43:41] is that right now and and I've seen some
+- [43:44] surveys that have shown this to back up
+- [43:46] the anecdotes I have
+- [43:48] human in the loop is the primary way
+- [43:50] people are ensuring quality and that's
+- [43:53] very hard to scale up. So you have to
+- [43:56] start thinking about how to you know
+- [43:59] keep that keep that at at uh levels that
+- [44:03] are manageable as you scale from 10 to
+- [44:06] 100 to a thousand. You can't keep
+- [44:09] scaling up your humans in the loop. So
+- [44:11] you have to scale up more automated
+- [44:14] um evaluation and monitoring approaches.
+- [44:17] Okay. Yeah, certainly. Uh, yeah, humans
+- [44:19] seem to be a bottleneck in everything
+- [44:20] everyone like
+- [44:23] um All right. So, I guess all this has
+- [44:25] been building towards how do we get uh
+- [44:28] users of uh of AI, users of AI agents to
+- [44:31] trust the product? So, uh do you have
+- [44:33] any final advice on like how do you get
+- [44:36] that trust?
+- [44:37] >> Yeah, I I had an a data scientist say to
+- [44:40] me the other day that um trust is gained
+- [44:43] in droplets and lost in buckets. I'm not
+- [44:46] sure who get who gets credit for that,
+- [44:48] but I thought it was a really good
+- [44:50] phrase. I think what we've found over
+- [44:53] over the span of Monte Carlo is that
+- [44:55] there's both what we can do to to you
+- [44:58] know use observability to to make more
+- [45:01] reliable data products but then there's
+- [45:04] a whole human element to this and to
+- [45:07] rolling out any software that ensures
+- [45:09] the trust and and so I've seen three
+- [45:12] things really drive trust in data and I
+- [45:15] think it extends to AI but one is like
+- [45:18] you have clear accountability
+- [45:21] Right? You have clear accountability
+- [45:22] over the data. You probably want to
+- [45:25] avoid too much fragmentation across the
+- [45:28] value chain of the product. So you know,
+- [45:31] you know, who's responsible for the
+- [45:32] lifespan of this. Then you have an
+- [45:35] expectation of what quality and
+- [45:37] reliability means. So you know, actually
+- [45:40] sharing that expectation, whether it's
+- [45:42] four 9s of reliability or whether it's
+- [45:45] something else. And and as I've spoken
+- [45:48] to people that are launching AI
+- [45:50] products, they've found if they don't
+- [45:52] set that expectation up front, there's
+- [45:54] missteps with their users who maybe
+- [45:57] expect something else. So like you need
+- [45:59] to know, you know, how how trustworthy
+- [46:02] and high quality this product is that
+- [46:04] you're adopting. And then the third one
+- [46:07] actually is like you know we see when
+- [46:09] when customers do go through data
+- [46:12] incidents their ability to transparently
+- [46:16] communicate that to their end users
+- [46:19] right and communicate uptime and
+- [46:21] downtime is something that also builds
+- [46:23] trust right so you know people
+- [46:26] understand downtime of products but if
+- [46:29] you don't communicate it well it can it
+- [46:31] can be a failure in in that trust
+- [46:33] building. So th those are probably the
+- [46:35] three things and you know I think it's
+- [46:38] it just reinforces that that trust is
+- [46:40] kind of built in in production.
+- [46:43] >> I really like the idea that um as in
+- [46:45] real life a lot of trust is just about
+- [46:47] communicating uh realistic uh
+- [46:50] performance I guess. Uh so yeah, if you
+- [46:52] don't have 100% reliability, then you
+- [46:54] know, make it clear to users that maybe
+- [46:56] some things are going to go wrong some
+- [46:58] of the time. They shouldn't be looking
+- [46:59] to trust it uh uh to be right on every
+- [47:02] single occasion. All right, super. Uh
+- [47:04] and just uh finally, I always want uh
+- [47:07] more people to follow. So uh whose
+- [47:09] research are you most interested in uh
+- [47:11] at the moment? Yeah, I've I've been um
+- [47:14] reading a lot of uh and I'm just I'm
+- [47:17] just thinking I'm not sure I know his
+- [47:19] full name, but Hamill Hel
+- [47:22] and his website is hamill.dev dev. And
+- [47:26] he's an engineer who talks and writes a
+- [47:29] lot about building reliable AI. And so
+- [47:32] I' I've been following along with him. I
+- [47:34] think he he's writing some really
+- [47:36] interesting stuff around, you know,
+- [47:39] tackling error analysis of of agents and
+- [47:42] and building evaluations.
+- [47:45] So, I've I've been enjoying him. And
+- [47:46] then I'd say the other uh the book I'm
+- [47:49] reading at the moment uh is Empire of
+- [47:52] AI. Have you heard of that?
+- [47:54] >> I have read the book. It's a very very
+- [47:55] good book. Uh lots of gossip about
+- [47:57] what's been going on at OpenAI this last
+- [47:59] decade. Uh yeah. Uh it's a good read.
+- [48:02] >> Yeah. So that's Karen How uh HAO uh
+- [48:06] who's a freelance journalist, but um uh
+- [48:09] yeah, I think she started by being
+- [48:11] behind the scenes in 2019 with with Open
+- [48:14] AI and it it kind of builds from there.
+- [48:16] The good and the bad, I'd say.
+- [48:18] >> Yeah. Yeah. Lots of very very juicy
+- [48:20] gossip in that book. Uh
+- [48:23] all right, super. Uh thank you so much
+- [48:24] for your time, Shane. It's been a
+- [48:26] pleasure chatting.
+- [48:26] >> Thanks so much, Richie.
+- [48:32] [Music]

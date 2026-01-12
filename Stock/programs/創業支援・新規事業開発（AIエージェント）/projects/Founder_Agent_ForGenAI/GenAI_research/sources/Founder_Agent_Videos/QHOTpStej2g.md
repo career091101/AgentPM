@@ -1,0 +1,495 @@
+---
+title: "Transcript: QHOTpStej2g"
+video_id: "QHOTpStej2g"
+video_url: "https://www.youtube.com/watch?v=QHOTpStej2g"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:14:11"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: QHOTpStej2g
+
+- URL: https://www.youtube.com/watch?v=QHOTpStej2g
+- Retrieved at: 2025-12-30T10:47:33+09:00
+
+## Text
+
+- [00:00] OpenAI just released another big thing.
+- [00:02] They have their own browser now and it's
+- [00:04] making real waves all across the
+- [00:05] internet. And I really wanted to make
+- [00:07] this video to talk about if this is any
+- [00:09] good and worth your attention. How this
+- [00:11] compares to some of the competition out
+- [00:12] there cuz this product doesn't exist in
+- [00:14] a vacuum because consumers have many
+- [00:16] choices these days. And three, how
+- [00:18] capable is it actually? So let's start
+- [00:21] that discussion by summarizing what this
+- [00:23] actually is. It's called Chachib Atlas,
+- [00:25] a brand new browser that is as of now
+- [00:27] available on Mac OS for all plans. Yes,
+- [00:30] that includes the free plan and there's
+- [00:32] no geographic restrictions here. So even
+- [00:34] people sitting in Europe like me can try
+- [00:36] this out right now. If you're on a Mac,
+- [00:38] simply download this, install this,
+- [00:39] login with your Chat GPT account, and
+- [00:41] off you go. This is what it looks like.
+- [00:42] It's basically a browser that has Chat
+- [00:44] GPT as the default new tab window with a
+- [00:47] few things that should be noted. and it
+- [00:49] brings some unique features compared to
+- [00:50] just using chatb in a tab as everybody
+- [00:53] has been so far. First of all, and kind
+- [00:54] of obviously if you're on any website,
+- [00:56] you can just click ask chat here and you
+- [00:59] have it right there and it has the
+- [01:00] context of the entire site loaded into
+- [01:03] the chat. No need to copy paste. You can
+- [01:04] kind of just talk to it. And at this
+- [01:06] point, I want to start pointing out how
+- [01:07] this compares to some of the competition
+- [01:08] cuz this is not a brand new idea. These
+- [01:10] Chrome extensions that do this have been
+- [01:12] around well since the advent of chat in
+- [01:14] 2022. It's a useful thing, but honestly,
+- [01:17] copying something and moving it to a new
+- [01:19] tab isn't that big of a pain point. So,
+- [01:22] call this one a nice to have. Secondly,
+- [01:24] and more interesting, so they have this
+- [01:25] concept of browser memories. So, if I go
+- [01:28] here to my settings and I go to
+- [01:30] personalization, you will see a new
+- [01:32] category here where it says reference
+- [01:34] browser memories. If you're familiar
+- [01:35] with chatdy memories, this is the same
+- [01:37] idea, but from your browsing experience.
+- [01:39] So, as it learns about your internet
+- [01:41] usage, it adds them here. This is a
+- [01:44] thing I don't dare to express an opinion
+- [01:45] on yet cuz time will show how this is
+- [01:48] actually implemented. And this is a very
+- [01:49] unique feature that I believe we haven't
+- [01:50] seen from any other product yet, but at
+- [01:52] the end of the day, it's just another
+- [01:53] way to automatically gather context and
+- [01:55] save it to your account. Beyond that, I
+- [01:57] should point out when you install this,
+- [01:59] it asks you to import all of your
+- [02:01] bookmarks and your history from Google
+- [02:04] Chrome. And this kind of launches me
+- [02:05] into the biggest question and concern
+- [02:07] here, which is, okay, so you install
+- [02:09] this and then you decide to give all of
+- [02:10] your browser history and all of your
+- [02:12] bookmarks to OpenAI just by importing
+- [02:15] it. Hm. Sure, that can be useful in some
+- [02:17] of the things, but just be aware that
+- [02:18] that's what you're doing when you're
+- [02:20] installing this, importing everything
+- [02:21] over. And yes, it will open up some nice
+- [02:23] opportunities, but you might not want to
+- [02:25] share your entire browser history with
+- [02:26] OpenAI. And this is kind of a sneaky way
+- [02:28] of them getting it. So, just be aware of
+- [02:30] that. What I could do now is something
+- [02:32] like I did in a previous chat here and
+- [02:34] ask something like find movies and shows
+- [02:35] I recently viewed. Scan my recent
+- [02:37] browsing and surface movies and shows I
+- [02:39] viewed or searched for recently and then
+- [02:41] use my browser history as context to
+- [02:44] correctly identify that yeah I checked
+- [02:45] out trailers for the bear pantheon the
+- [02:48] Gothic one remake game trailer. That's a
+- [02:51] good one. And then make suggestions for
+- [02:52] what I should view next which actually
+- [02:54] I've seen half of these. So this is
+- [02:56] quite good yet again none of this is
+- [02:58] really novel. We've seen this from other
+- [02:59] AI browsers and from Google themselves
+- [03:01] where you could use your Google Chrome
+- [03:03] history as context in the chat. And you
+- [03:06] might see the theme here already. It's
+- [03:07] sort of pulling these various things
+- [03:08] together. And that brings me to the next
+- [03:10] big point which is the agent mode in
+- [03:12] here. And this is the one where we'll
+- [03:14] start getting practical. And I want to
+- [03:15] actually start by running a rather
+- [03:18] complicated prompt for the agent mode to
+- [03:20] execute. It's going to be one that
+- [03:21] includes three different applications.
+- [03:23] Before I run this, I just want to
+- [03:25] quickly intro agent mode. It's basically
+- [03:26] their version of what would be called a
+- [03:28] computer use agent, an AI that has
+- [03:31] access to a computer, to a browser, and
+- [03:32] then it does things, clicks buttons,
+- [03:34] gets things done. Usually, they take the
+- [03:36] same demo of like booking travel, which
+- [03:38] is not a real painoint people have. I
+- [03:39] don't understand why they always use
+- [03:41] that as a demo, but that's what this is.
+- [03:43] It's basically agent mode that you
+- [03:44] already had in chat just within here.
+- [03:47] Now, it has all of the context, the
+- [03:48] history, maybe even the passwords that
+- [03:50] you have in your browser if you store
+- [03:52] them in there, which is just a more
+- [03:53] user-friendly way to use this. But
+- [03:55] basically, it's the same agent mode.
+- [03:56] It's a very interesting app. But here's
+- [03:57] a quick word from the sponsor of today's
+- [03:59] video. Okay, so one of the things I
+- [04:00] noticed with the new video generation
+- [04:02] models is that while they're amazing,
+- [04:04] most people don't actually want the new
+- [04:06] video generation model, they want one
+- [04:08] platform that can do it all rather than
+- [04:10] jumping back and forth between different
+- [04:12] tabs to make their vision come to life.
+- [04:14] And that's why I want to show you LTX
+- [04:15] Studio, the sponsor of today's video. So
+- [04:17] LTX Studio is a AI powered studio built
+- [04:20] for filmmakers, advertisers, and
+- [04:22] creative teams. It gives you access to
+- [04:24] cutting edge video and image generation
+- [04:27] models, but also everything else you
+- [04:28] need to take a project from concept to
+- [04:30] final cut all in one place. You can
+- [04:32] start with just a script, a concept, an
+- [04:34] image, or even a video. And LTX gives
+- [04:36] you professionalgrade tools to shape it
+- [04:38] however you want. You can generate
+- [04:40] production ready visuals, direct every
+- [04:42] shot with camera movement controls and
+- [04:44] key frames. It even gives you the
+- [04:45] possibility to guide the look with
+- [04:47] preset visual styles so your work stays
+- [04:49] consistent. There's also a feature
+- [04:50] called AI casting, which lets you create
+- [04:52] and reuse characters across scenes with
+- [04:55] custom wardrobes, so you don't lose
+- [04:57] continuity. And when your project is
+- [04:59] progressing and the time to polish it
+- [05:01] comes around, you've got built-in tools
+- [05:02] like dynamic storyboards, a timeline
+- [05:05] editor, and even sound design. Again,
+- [05:07] all in one place. They also just
+- [05:09] launched a voiceover function, which is
+- [05:10] powered by Google Gemini 2.5 Pro, and
+- [05:13] lets you use 30 professionally designed
+- [05:14] voices. Plus, if you're working with a
+- [05:16] team, all of this is collaborative. You
+- [05:18] can share projects, manage assets, and
+- [05:20] give feedback all inside the same
+- [05:22] workspace. So, if you want a platform
+- [05:24] that brings the power of AI video models
+- [05:26] together with the control and
+- [05:28] collaboration tools you actually need,
+- [05:30] check out LTX Studio. You can start
+- [05:32] exploring it today by using the link at
+- [05:33] the top of the video's description. A
+- [05:35] big thank you to LTX Studio for
+- [05:37] sponsoring this video. So, let's see if
+- [05:38] this works any better in this desktop
+- [05:41] version by trying out this test prompt.
+- [05:43] We're in step one, we're going to be
+- [05:45] reading in context from this document. I
+- [05:46] just copied a guide from our community
+- [05:48] over. This will be the context. The
+- [05:50] content here doesn't really matter. I
+- [05:51] just wanted to read it from that Google
+- [05:53] doc. Then I want to write an email with
+- [05:55] a summary of what the document includes
+- [05:57] that will be using my Gmail account that
+- [05:59] I'm logged into here. And then thirdly,
+- [06:01] I want to track all the emails that have
+- [06:03] been sent in this spreadsheet that is
+- [06:05] open over here. It's completely empty.
+- [06:07] And at this point, I'll just make sure
+- [06:08] agent mode is enabled and that I'm
+- [06:10] actually logged in with all the accounts
+- [06:12] that I have. Otherwise, these things
+- [06:14] wouldn't work. Okay, send this. And now
+- [06:15] let me tell you how this actually worked
+- [06:17] in the main competitor to this product
+- [06:19] which is Claude's Chrome extension. If
+- [06:22] we just briefly pull up my other
+- [06:23] browser, it's right here installed. And
+- [06:25] I actually keep using this thing ever
+- [06:27] since its release. And it's so damn
+- [06:29] good. It's better than all the
+- [06:30] competition. I know the top comment on
+- [06:32] the video when I made a video on that
+- [06:33] Chrome extension was, "Hey, what about
+- [06:35] comment?" Well, comet is good. It's the
+- [06:37] same concept as Atlas here, right? But
+- [06:39] it just doesn't work as reliably. And
+- [06:40] that's a big word in this discussion
+- [06:42] here. Reliability. Is this thing
+- [06:44] reliable? Because of course the idea of
+- [06:46] an agent that just controls your browser
+- [06:48] and does the work for you is great. But
+- [06:50] if you run a task 10 times and three
+- [06:51] times out of that it does something
+- [06:53] completely random, you're not going to
+- [06:54] end up using it cuz it's going to cause
+- [06:56] more work than it actually removes. And
+- [06:59] that brings me to the last part of this
+- [07:00] video, which is the various examples
+- [07:02] that I tested in here and how they
+- [07:03] contrast to some of the competing
+- [07:05] products as of the features. And I
+- [07:06] pointed out to you what it does and what
+- [07:09] competing products exist that do this
+- [07:10] already. Sure, this ties it all into one
+- [07:12] package, which is kind of nice. But then
+- [07:14] at the end of the day, if I want to get
+- [07:16] something done like the task we just
+- [07:17] launched, it's a real question if I
+- [07:19] should be using this cloud's browser
+- [07:20] extension, which has the same agentic
+- [07:22] capabilities, or something like Google's
+- [07:24] computer use model that they just
+- [07:26] released two weeks ago that has beat all
+- [07:28] the benchmarks. And let me just tell you
+- [07:29] on these agentic tasks, I find claude to
+- [07:32] be straight up better. And I don't think
+- [07:33] that's because the extension has some
+- [07:35] genius architecture running in the
+- [07:36] background or that chatbt atlas is just
+- [07:39] not good enough. I think it's because of
+- [07:41] the model. Brief reminder that OpenAI
+- [07:43] did not ship a new model here. They
+- [07:44] shipped a new interface that contains
+- [07:46] and uses the model they already had. And
+- [07:48] I'm really curious to see how this task
+- [07:50] actually performs because in the case of
+- [07:53] Claude that uses the Sonnet 4.5 model
+- [07:56] where one of the big headline benchmarks
+- [07:58] and announcement was that it's so much
+- [07:59] better at computer use. It was so smart
+- [08:02] at doing this. If you saw that original
+- [08:04] video, you might remember that it
+- [08:05] actually did this task. It sent the
+- [08:07] email and at this step right here where
+- [08:09] I'm at right now, by the way, the
+- [08:10] computer is doing this, not me, right?
+- [08:12] It put in the summary of the email. It
+- [08:14] put in all the data correctly, but it
+- [08:16] was lacking a header. And then it
+- [08:19] actually went back and saw that there's
+- [08:21] no header and it deleted it, added the
+- [08:23] head header, and then moved everything
+- [08:24] down. Here in this case, it seemed to
+- [08:26] have got this right on the first try.
+- [08:29] So, that is nice. And that's actually
+- [08:30] it. It just finished up the task. So,
+- [08:32] let's see. It created the draft of the
+- [08:34] email. It's right here. And it saved the
+- [08:35] data that I asked for in here. And I
+- [08:37] remember this prompt actually just asks
+- [08:39] for the date and the email and not the
+- [08:40] content of the email. So it did what I
+- [08:42] told it correctly. But if it does this,
+- [08:44] it could easily also add the content
+- [08:46] over here that it wrote here. So on this
+- [08:48] task, it did equally as well as clot.
+- [08:50] Nice. Let me give you a few more
+- [08:52] examples that I ran before making this
+- [08:54] video on which it wasn't equal. And that
+- [08:56] should give you enough of a feeling for
+- [08:57] how this works. And that should round
+- [08:58] out the video and give you enough
+- [08:59] information to make a decision for
+- [09:00] yourself if you want to give this a shot
+- [09:02] yourself on your own machine. So, first
+- [09:04] of all, I just gave it a picture of
+- [09:05] Conor McGregor that was randomly on my
+- [09:07] desktop. I think for AI news you can
+- [09:09] use. I was doing some AI remix of it or
+- [09:11] whatever. And I asked it to generate a
+- [09:12] 100 social media captions using Claude
+- [09:14] AI for this image and put them into this
+- [09:17] Google sheet. So, what I found is that
+- [09:19] it actually did that, but it didn't use
+- [09:21] Claude in the process. So, it just
+- [09:23] opened up the sheet and it successfully
+- [09:24] put them in here. And look at these
+- [09:26] captions. They always like repeat four
+- [09:28] times, three times, just emojis or the
+- [09:29] hashtag varies. And it's good. You know,
+- [09:31] they're solid captions. Then I followed
+- [09:33] up and said, "Do 100 more by using
+- [09:34] Claude AI." And then I provided the URL.
+- [09:36] And this would be my tip. If you're
+- [09:37] using this, give it the URLs and then it
+- [09:39] will reliably use the tools. What it did
+- [09:41] then is it opened up Claude, which I was
+- [09:43] logged into. It wrote this prompt right
+- [09:45] here, which I thought it was funny that
+- [09:47] it mentioned avoid mentioning the
+- [09:48] fighter's name. That's obviously the
+- [09:50] chat GP restrictions at work here. And
+- [09:52] then it just wrote 100 captions here.
+- [09:54] The formatting is a bit off. Doesn't
+- [09:55] really matter. It copied all over that.
+- [09:57] made one mistake where it just kind of
+- [09:58] copy pasted everything into one field,
+- [10:00] but then sort of it corrected itself and
+- [10:02] split them apart and there you go,
+- [10:04] another 100 captions from Claude. Quick
+- [10:06] note that I cannot withhold. I mean,
+- [10:08] look at how much more variety you get in
+- [10:09] the Claude captions. This is why Claude
+- [10:11] is so damn good for writing and why
+- [10:13] people really prefer it in many cases.
+- [10:14] You just see that right here. But we're
+- [10:16] judging chat GPT agent in chat GPT Atlas
+- [10:19] right here. It did this super well. So
+- [10:21] you can automate the usage of various
+- [10:23] AIs and the manipulation of data with
+- [10:25] spreadsheets, which I think is one of
+- [10:27] the main things you will want to do with
+- [10:29] tools like these, these computer use
+- [10:30] agents. It's like using AIS, researching
+- [10:33] stuff and manipulating spreadsheets, and
+- [10:35] that's what it's really good at. This
+- [10:37] worked well, but my tip would be be very
+- [10:39] specific with the URLs of the tools and
+- [10:41] something like the Claude Chrome
+- [10:42] extension. It just pulled this up
+- [10:44] without the URL here. It needs it. Not a
+- [10:46] big deal. Then I did one more and this
+- [10:47] is a tricky one. We had our quarterly
+- [10:49] town hall in the community yesterday and
+- [10:50] at the end of it we just got together
+- [10:52] and tried this all together and we had
+- [10:54] multiple AI educators and university
+- [10:56] professors in the room and they brought
+- [10:57] up one topic and that is that these
+- [10:59] tools basically render things like
+- [11:01] LinkedIn learning certifications useless
+- [11:03] because the agent can just go through
+- [11:05] it, take all the quizzes, watch all the
+- [11:07] videos, pretend like somebody's taking
+- [11:08] the course and just farm certifications
+- [11:10] for you. So we put this to the test. We
+- [11:12] actually made it take one of the quizzes
+- [11:14] in our community concretely the final
+- [11:16] quiz on the advanced LLM prompting
+- [11:18] course and the results were very
+- [11:20] interesting because I gave the same
+- [11:21] question to both the claude chrome
+- [11:23] extension and to chatpt atlas here and I
+- [11:26] told it complete this quiz think
+- [11:27] thoroughly I really need 100% at all
+- [11:30] cost and here's what happened chatbt
+- [11:33] took about 30 minutes and it still
+- [11:35] wasn't done its method of getting all
+- [11:37] the questions was basically scrolling
+- [11:40] through all of this multiple times
+- [11:42] compiling the screenshots and then very
+- [11:44] slowly answering these questions. Claude
+- [11:46] did the same, but it must have been like
+- [11:48] 10 or 15 times faster than Chat GBT here
+- [11:51] at doing it. And both of them got 95%.
+- [11:54] And at this point, I have to actually
+- [11:55] admit my fault. I'm taking full
+- [11:57] responsibility for this. There was a
+- [11:58] mistake in one of the quizzes and that's
+- [12:00] the one question both of them got wrong.
+- [12:03] This question that is taught in the
+- [12:04] course, both AIs actually answered
+- [12:06] correctly, but we in our system had a
+- [12:08] wrong answer selected. So, long story
+- [12:10] short, basically both of the systems got
+- [12:13] a perfect 23 out of 23, but there was a
+- [12:15] mistake on our sides, which really
+- [12:17] tripped GT5 up. Kept running in loops
+- [12:19] after it was done and just couldn't
+- [12:21] finish the task because I asked for 100%
+- [12:23] and Claude was just like, "Hey, I did it
+- [12:25] and this seems right to me." But even
+- [12:26] without those loops, Claude was around
+- [12:28] 10 times faster at actually completing
+- [12:30] the quiz the first time. So, yeah, that
+- [12:32] should make you think about all types of
+- [12:33] certifications that people show off on
+- [12:35] their LinkedIn. All you need is a free
+- [12:36] chat account in the Atlas to kind of do
+- [12:38] that. and it's a real mess for
+- [12:40] e-learning. So overall, what's the
+- [12:41] verdict here? Well, it's just OpenAI's
+- [12:43] version of something that we already
+- [12:45] had. If I had to pick one winner, which
+- [12:47] one of these computer use agents works
+- [12:48] the best? Well, it would still be the
+- [12:50] cloth browser extension with Sonnet 4.5.
+- [12:53] That model is just the fastest and the
+- [12:55] most reliable at all of these tasks that
+- [12:57] I have tried so far. GBT5, this would be
+- [12:59] a close second though, and maybe this
+- [13:01] browser interface is actually preferable
+- [13:03] to you. I know a lot of people used
+- [13:04] Atlas before and really enjoyed that.
+- [13:06] But I personally think that a lot of
+- [13:07] these features like, you know,
+- [13:09] summarizing a website with like one
+- [13:11] click are a nice to have, but they're
+- [13:13] rather niche. It's not something you're
+- [13:14] going to be using on every site that
+- [13:16] you're on. And honestly, even if I had
+- [13:18] to copy this over to a new tab and
+- [13:20] summarize it here, it's not big enough
+- [13:22] of a pain point to change my personal
+- [13:24] behavior and approach to browsers. And
+- [13:26] above all, there's a real privacy
+- [13:27] concern where you're sharing all of your
+- [13:29] browsing data with OpenAI if you use
+- [13:31] this and even if you import your Chrome
+- [13:33] profile. So think about that before you
+- [13:35] try this. And lastly, I want to point
+- [13:36] out that this is just OpenAI's version
+- [13:38] of the open-source Chromium, which
+- [13:40] Google Chrome is based on. So it's
+- [13:42] nearly identical to Chrome, but it's set
+- [13:44] up to be AI first with interesting
+- [13:46] features that will evolve over time like
+- [13:48] browser memories and also you can do
+- [13:50] custom instructions for your agent mode
+- [13:52] here. Although I personally cannot edit
+- [13:54] these right now. So I think this is the
+- [13:55] first version that for the curious is
+- [13:57] worth exploring, but I expect this to
+- [13:59] get a whole lot better and featurerich
+- [14:01] over time. And I also expect them to do
+- [14:03] particular models that are really good
+- [14:05] at these type of tasks. Interesting
+- [14:07] release, not a game changer. All right,
+- [14:08] that's pretty much everything I have for
+- [14:10] today. My name is Igor and I hope you
+- [14:11] have a wonderful

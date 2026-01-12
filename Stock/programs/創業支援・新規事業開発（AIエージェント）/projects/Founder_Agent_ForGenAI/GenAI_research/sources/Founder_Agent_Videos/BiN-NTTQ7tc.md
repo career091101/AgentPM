@@ -1,0 +1,439 @@
+---
+title: "today we're diving into the fascinating world of AI agents which is a technology that's not only reshaping Industries bu"
+video_id: "BiN-NTTQ7tc"
+video_url: "https://www.youtube.com/watch?v=BiN-NTTQ7tc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  today we're diving into the fascinating world of AI agents which is a technology that's not only reshaping Industries but also impacting our daily lives and jobs in the next few minutes I'm going to explain to you what AI agents are their impact compare modern agents with earlier AI systems and outline a research back approach to building your own questions that I had and I really wanted to fully understand I mean even as someone who is very technical and has been in AI for a while now consults companies on AI builds videos on AI goes to school getting my postgrad in AI I still couldn't I had some issues challenges let's say wrapping my head around what are AI agents and why are they such a big deal and that's what we're going to cover today so when you leave this video you can easily expl
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:04:08+09:00"
+---
+
+# Transcript: BiN-NTTQ7tc
+
+- URL: https://www.youtube.com/watch?v=BiN-NTTQ7tc
+- Retrieved at: 2025-12-30T10:04:08+09:00
+
+## Text
+
+- [00:00] today we're diving into the fascinating
+- [00:02] world of AI agents which is a technology
+- [00:04] that's not only reshaping Industries but
+- [00:06] also impacting our daily lives and jobs
+- [00:09] in the next few minutes I'm going to
+- [00:10] explain to you what AI agents are their
+- [00:13] impact compare modern agents with
+- [00:15] earlier AI systems and outline a
+- [00:17] research back approach to building your
+- [00:19] own questions that I had and I really
+- [00:21] wanted to fully understand I mean even
+- [00:24] as someone who is very technical and has
+- [00:27] been in AI for a while now consults
+- [00:29] companies on AI builds videos on AI goes
+- [00:32] to school getting my postgrad in AI I
+- [00:35] still couldn't I had some issues
+- [00:37] challenges let's say wrapping my head
+- [00:39] around what are AI agents and why are
+- [00:42] they such a big deal and that's what
+- [00:43] we're going to cover today so when you
+- [00:44] leave this video you can easily explain
+- [00:47] what they are and how to build your
+- [00:49] [Music]
+- [00:51] own so what exactly is an AI agent at
+- [00:55] its core an AI agent is a software
+- [00:57] system designed to perceive its
+- [00:59] environment process information and take
+- [01:02] actions to achieve specific goals
+- [01:04] imagine it as an intelligent assistant
+- [01:06] that works independently handling tasks
+- [01:09] without needing constant human oversight
+- [01:11] okay but it brings up the question then
+- [01:13] why what makes AI agents so exciting
+- [01:15] today well it's their ability to learn
+- [01:18] adapt and integrate seamlessly with
+- [01:20] other Technologies which is really
+- [01:22] transforming the way we work live and
+- [01:24] interact with the world now there are
+- [01:26] two broad categories that you really
+- [01:28] need to know about one is rule-based
+- [01:29] based agents these follow predetermined
+- [01:32] rules and are excellent for simple
+- [01:34] repetitive tasks for instance many
+- [01:36] customer support chatbots operate on
+- [01:38] predefined scripts to handle FAQs their
+- [01:40] responses are fixed making them reliable
+- [01:42] for routine queries but they can only
+- [01:45] handle what's being explicitly
+- [01:46] programmed to them and this is where
+- [01:48] learning based AI Agents come in these
+- [01:51] leverage machine learning to adapt over
+- [01:53] time they improve by analyzing data from
+- [01:56] past interactions this is similar to the
+- [01:58] recommendation engine on services such
+- [02:00] as Netflix and Spotify instead of
+- [02:02] sticking to a fixed script they learn to
+- [02:04] recognize patterns and nuances allowing
+- [02:07] them to deliver more personalized and
+- [02:08] context aware responses now let's
+- [02:10] combine though the best of both world
+- [02:12] and this is exactly what many modern AI
+- [02:14] agents do today that I found really
+- [02:16] interesting they use a hybrid approach
+- [02:18] so they use rule-based for
+- [02:20] predictability for tasks that require
+- [02:22] consistency where rules are well defined
+- [02:25] the rule-based component can ensure
+- [02:27] reliable operation and then there's
+- [02:29] machine learning for adaptability the
+- [02:31] learning based component can handle
+- [02:32] things such as variability adapts to new
+- [02:35] information and personalized
+- [02:36] interactions but it brings up the
+- [02:38] question why are they such a big deal in
+- [02:40] 2025 everywhere you look you see them AI
+- [02:43] agents have reached a new level of
+- [02:45] sophistication and integration this year
+- [02:47] Well it feels like this year anyways
+- [02:49] because it's everywhere you look in the
+- [02:50] news one is unprecedented efficiency
+- [02:53] thanks to advancements in machine
+- [02:55] learning and increased computational
+- [02:57] power I mean especially through cloud
+- [02:59] computing
+- [03:00] AI agents can now handle complex
+- [03:02] datadriven tasks Around the Clock
+- [03:04] boosting productivity and reducing human
+- [03:07] error another reason they're so popular
+- [03:09] right now is enhanced personalization I
+- [03:12] mean we have vast amounts of data
+- [03:13] available and improved algorithms so AI
+- [03:16] agents can offer personalized
+- [03:18] experiences whether it's tailoring
+- [03:20] recommendations optimizing business
+- [03:22] processes or enhancing customer service
+- [03:25] the ability to learn from Individual
+- [03:27] interactions is revolutionizing how
+- [03:29] business business and services operate
+- [03:31] and this brings us to our third one
+- [03:33] which is transformative Innovation
+- [03:34] Industries like healthc care Finance
+- [03:36] retail and even Transportation are
+- [03:38] leveraging AI agents to solve problems
+- [03:41] that were once honestly considered
+- [03:43] intractable couldn't be solved from
+- [03:45] early disease detection to real-time
+- [03:48] fraud prevention these agents are
+- [03:50] driving Innovation delivering Real
+- [03:52] Results and the fourth one is
+- [03:54] adaptability in what feels like a really
+- [03:56] quickly changing World in a rapidly
+- [03:58] evolving Global land apape the ability
+- [04:00] of AI agents to adapt to new data and
+- [04:03] continuously improve makes them
+- [04:04] invaluable they're not just tools for
+- [04:06] today they are platforms that grow
+- [04:08] smarter over time which is something
+- [04:10] really important to know and this really
+- [04:12] helps us meet challenges we might not
+- [04:13] even realize exist yet so when you think
+- [04:15] of AI agents think about they for
+- [04:17] automating routine tasks but also which
+- [04:20] is very important they are Central to
+- [04:21] transforming and enhancing our daily
+- [04:23] lives they embody the convergence of
+- [04:26] robust rule-based systems we spoke about
+- [04:28] to more Dynamic and and machine learning
+- [04:31] way Progress Way progress that didn't
+- [04:33] really make sense but today's AI agents
+- [04:35] can often combine both approaches and
+- [04:37] that is key rule-based for Logic for
+- [04:39] predictable tasks and machine learning
+- [04:41] for adapting to new complex scenarios
+- [04:44] but okay great now you understand what
+- [04:46] these agents are but why do they matter
+- [04:48] so much why is everywhere you look
+- [04:50] people speaking about it that's what I
+- [04:52] really wanted to understand well a
+- [04:54] McKenzie Global Institute report
+- [04:56] highlighted that AI driven automation
+- [04:57] could boost productivity from 20 % to
+- [05:00] 40% in many Industries AI agents work
+- [05:03] 24/7 they handle tasks such as
+- [05:05] scheduling data analysis and customer
+- [05:08] inquiries freeing up human resources for
+- [05:10] more strategic roles another reason is
+- [05:13] enhanced personalization kind of spoke
+- [05:14] about this earlier and Harvard Business
+- [05:17] Review really really did a good study on
+- [05:19] this they showed that personalized
+- [05:21] experiences powered by AI can
+- [05:23] dramatically improve customer engagement
+- [05:25] this is a really good example AI systems
+- [05:28] that product that recommend products
+- [05:30] based on your previous Behavior can
+- [05:31] significantly increase customer
+- [05:34] satisfaction and drive sales and I'm
+- [05:36] sure you've been there before another
+- [05:37] way is innovative problem solving let's
+- [05:39] talk about Healthcare AI agents are now
+- [05:42] analyzing medical images and assisting
+- [05:44] with early diagnoses MIT tech review
+- [05:47] recently showcased AI tools that can
+- [05:49] help detect conditions like cancer at
+- [05:51] early stages supporting Physicians with
+- [05:53] more accurate data I hope when you're
+- [05:55] listening to some of these findings
+- [05:56] anyways they confirm that these AI
+- [05:58] agents aren't just these futuristic
+- [06:00] Concepts they're here and they're
+- [06:01] transforming tools driving efficiency
+- [06:03] personalization and Innovation so okay
+- [06:07] here is another thing I wanted to
+- [06:08] understand is how AI agents work from
+- [06:10] basic to Advanced so let's walk through
+- [06:12] this is what really got nailed at home
+- [06:15] for me let's walk through a typical flow
+- [06:17] of an AI agent in action let's go
+- [06:19] through a basic flow so kind of old
+- [06:21] school rule-based approach if you will
+- [06:23] and then let's go through an AI agent
+- [06:26] approach today so the basic flow starts
+- [06:28] with a trigger or initiation a customer
+- [06:30] visits a website and clicks on the chat
+- [06:32] icon then we have input processing the
+- [06:34] chat bot receives a greeting and looks
+- [06:36] for keywords like support or billing
+- [06:38] next up is decision-making based on the
+- [06:41] predefined rules the chatbot identifies
+- [06:43] the issue for example selects a scripted
+- [06:46] response and then we have response
+- [06:48] generation the chatbot then replies and
+- [06:51] says something like I see you're having
+- [06:53] billing issues can you provide your
+- [06:54] account the conversation follows a fixed
+- [06:57] path if the customer deviates the system
+- [06:59] might struggle or escalate to a human
+- [07:01] agent and that is where Advanced AI
+- [07:03] Agents come in where I think they're so
+- [07:05] fascinating anyways and this is a small
+- [07:07] example remember we're just talking
+- [07:08] about customer support but when you
+- [07:10] think of this on a larger scale helping
+- [07:12] you code helping make decisions it's
+- [07:13] pretty wild so first we start with
+- [07:15] trigger initiation again a customer
+- [07:16] starts the conversation via the chat
+- [07:18] interface then we have input and
+- [07:20] processing so the AI agent then uses
+- [07:23] Advanced natural language processing to
+- [07:25] understand not just key words but also
+- [07:28] context sentiment and intent it can
+- [07:31] detect if the customer is frustrated or
+- [07:33] confused which is pretty cool then we
+- [07:35] have Dynamic decision- making rather
+- [07:37] than following a fixed script which we
+- [07:39] just spoke about the rule-based uh agent
+- [07:41] would follow this agent dynamically
+- [07:43] decides the next steps it may greet the
+- [07:45] customer ask clarifying questions and
+- [07:48] then analyze historical interaction data
+- [07:50] to predict the issue accurately lastly
+- [07:53] we have response generation the AI agent
+- [07:56] then generates a personalized response
+- [07:57] that is unique or personalized
+- [08:00] such as I noticed you have a billing
+- [08:02] issue it appears you might have been
+- [08:04] charged twice is this correct so this
+- [08:06] response is based on learned patterns
+- [08:08] and user history then we have learning
+- [08:10] and adaptation after each interaction
+- [08:12] the system isn't done there it collects
+- [08:14] feedback either via direct ratings or by
+- [08:17] measuring resolution success and uses
+- [08:20] this data to redefine or refine its
+- [08:22] future responses and then we have one
+- [08:23] more we're almost there system
+- [08:25] integration the advanced agent might
+- [08:27] also integrate with CRM systems or
+- [08:29] databases to retrieve detailed customer
+- [08:32] histories enabling even more tailored
+- [08:34] interactions so you can see there's a
+- [08:35] lot more steps in this one to make it
+- [08:37] really personalized modern AI agents
+- [08:39] enhance the rule-based Flow by
+- [08:41] incorporating context continuous
+- [08:44] learning and realtime integration which
+- [08:46] no surprise results in a more effective
+- [08:48] and personalized user experience okay
+- [08:50] but then brings up one more question
+- [08:52] which is how does this differ from past
+- [08:54] AI systems like what makes it so special
+- [08:56] I need to I need to really understand
+- [08:58] that now let's see what exactly makes
+- [09:00] today's AI agent so revolutionary one is
+- [09:02] static versus dynamic system so in the
+- [09:05] past static rulebase systems as we spoke
+- [09:07] about early AI was predominantly
+- [09:08] rule-based with fixed scripts covered
+- [09:10] this throughout the video so it should
+- [09:12] be hammered in pretty good now these
+- [09:14] systems could only handle inputs that
+- [09:16] match predefined patterns and couldn't
+- [09:18] adapt without manual updates today we
+- [09:21] have Dynamic adaptive systems so modern
+- [09:23] agents combine rule-based logic with
+- [09:26] machine learning as I mentioned earlier
+- [09:28] they use NLP natural language processing
+- [09:30] for contextual understanding and adapt
+- [09:33] their responses over time by learning
+- [09:35] new from new data and this approach
+- [09:37] allows them to handle a broader range of
+- [09:39] scenarios and continue to improve number
+- [09:41] two is limited versus personalized
+- [09:43] interactions so in the past obviously it
+- [09:45] was very limited traditional systems
+- [09:47] offered more of a one-size fits-all
+- [09:50] response with no regard for individuals
+- [09:52] and their data they couldn't store user
+- [09:55] history or provide personalized
+- [09:57] experiences today obviously are very
+- [09:59] personalized current AI agents tailor
+- [10:01] interactions based on user data and past
+- [10:04] behavior and this personalization means
+- [10:06] that every user can receive a more
+- [10:08] relevant and engaging experience which
+- [10:10] is similar to the personalization
+- [10:13] recommendations that we kind of spoke
+- [10:14] about earlier on whether it's through
+- [10:16] chatbots or systems like Netflix or even
+- [10:19] Spotify all right let's talk about
+- [10:21] building your own AI agent this is
+- [10:22] something that whether you're technical
+- [10:24] or not you should do and just as a side
+- [10:26] note I'm going to share with you kind of
+- [10:27] a step-by-step approach but after after
+- [10:29] this I will share with you some courses
+- [10:30] that can help guide you so if you're not
+- [10:32] super technical you can still follow
+- [10:34] along first is you need to Define your
+- [10:35] objective figure out the problem decide
+- [10:37] what problem you want your AI agent to
+- [10:39] solve for example do you want it to
+- [10:41] answer customer questions or recommended
+- [10:43] products or maybe you want it to code
+- [10:46] certain parts of your code for you next
+- [10:48] you need to choose the right tools so
+- [10:50] programming Basics 101 let's get into it
+- [10:52] many developers use obviously python it
+- [10:55] has so many tools modules libraries that
+- [10:57] can be associated with it that's my
+- [10:59] faite language there are special
+- [11:01] libraries too such as hugging faces
+- [11:02] Transformers that help the AI understand
+- [11:05] and work with the human language there's
+- [11:07] also some no code options so if you're
+- [11:09] not comfortable with coding you can use
+- [11:11] user-friendly platforms like Google's
+- [11:13] dialogue flow IBM's Watson assistant to
+- [11:16] build your agent which is pretty fun too
+- [11:17] leave in the comments if you want us to
+- [11:19] build an AI agent number three is
+- [11:21] designing your own system so you have to
+- [11:22] break it down think of it as your
+- [11:24] project and it has different parts to it
+- [11:26] so input how the AI receives information
+- [11:29] like text or speech processing how the
+- [11:32] AI makes sense of that information and
+- [11:35] then decision- making how it decides
+- [11:37] what to do then the last step of course
+- [11:39] is output how does it respond you also
+- [11:42] need to plan your data flow plan how you
+- [11:44] will collect and prepare the information
+- [11:46] the AI needs clean and organized data
+- [11:49] works better obviously with the AI which
+- [11:51] brings us to step four collect and
+- [11:53] prepare data and one just a little tip
+- [11:55] if you're not super technical or nearer
+- [11:57] to the space look for data sets in
+- [11:58] places like k
+- [12:00] uh that's where I always find my data
+- [12:01] stats and there's so many options there
+- [12:03] that can help match your objective then
+- [12:05] step five is build and train your model
+- [12:07] so you have to pick the right method
+- [12:08] choose an approach or algorithm that
+- [12:10] fits to what you're trying to do and
+- [12:12] there are simple methods for basic tasks
+- [12:14] and more complex ones for more advanced
+- [12:16] tasks okay there are a ton more steps in
+- [12:19] the nitty-gritty of it if you will I'm
+- [12:21] going to share with you some courses up
+- [12:22] here that I really love uh for building
+- [12:25] your AI agent but also understanding how
+- [12:27] this works I mean I hope when you leave
+- [12:28] this video you feel like you really are
+- [12:31] prepared to explain what ai ai agents
+- [12:33] are and even how to build your own even
+- [12:36] if you're a non-technical person I think
+- [12:38] it's important to understand the steps
+- [12:40] taken to building one but these courses
+- [12:42] I mentioned are really great especially
+- [12:44] for learning more and building your own
+- [12:46] and once again I think even if you're
+- [12:48] not looking to become an AI engineer
+- [12:50] just learning how to build some of these
+- [12:51] things really offers a great way to feel
+- [12:54] comfortable with talking about these
+- [12:55] topics and and understand what they're
+- [12:57] capable of so let me know in the
+- [12:59] comments if for the first AI agent we
+- [13:01] build together should it be one that has
+- [13:03] coding involved with python should it be
+- [13:05] a no code AI agent we build leave in the
+- [13:07] comments and I'll I'll I'll do whatever
+- [13:10] video uh people vote on the most I just
+- [13:13] want to leave you with some closing
+- [13:14] thoughts so AI as we know is
+- [13:16] transforming our daily lives and AI
+- [13:19] agents are a really big part of that
+- [13:21] next step and what it means to have
+- [13:23] these as we mentioned at the beginning
+- [13:25] of this video These assistance that can
+- [13:27] really help us with our daily lives
+- [13:29] lives with our coding our emails our
+- [13:31] workflows and while they're still
+- [13:33] relatively new as far as what's
+- [13:36] available for us to and users to use
+- [13:38] we're going to see that explode this
+- [13:39] year so having an understanding of them
+- [13:41] are super important I hope this video
+- [13:43] has provided you both with inspiration
+- [13:45] maybe to build your own and maybe if
+- [13:47] you're interested in growing growing
+- [13:49] your career in AI you can do so or if
+- [13:51] you're on the business side just
+- [13:53] understanding what it is make sure to
+- [13:54] subscribe for more videos that are
+- [13:55] backed by research real world
+- [13:57] applications covering topics such as AI
+- [13:59] coding and future Tech in general I
+- [14:01] think it's the only way to stay up toate
+- [14:03] and prepared is by taking a few minutes
+- [14:06] listening to some of these videos and
+- [14:09] understanding it more and just staying
+- [14:10] curious make sure to hit that Subs I
+- [14:12] just said that okay no more coffee for
+- [14:14] me today thank you all for watching I'll
+- [14:15] see you soon
+- [14:19] [Music]

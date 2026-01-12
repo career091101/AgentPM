@@ -1,0 +1,1633 @@
+---
+title: "Transcript: QhDLHWR04Rk"
+video_id: "QhDLHWR04Rk"
+video_url: "https://www.youtube.com/watch?v=QhDLHWR04Rk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:65:54"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: QhDLHWR04Rk
+
+- URL: https://www.youtube.com/watch?v=QhDLHWR04Rk
+- Retrieved at: 2025-12-30T10:48:06+09:00
+
+## Text
+
+- [00:00] [Music]
+- [00:06] [Music]
+- [00:11] Our Guest today is Rocky dwan Rocky that
+- [00:15] is undergrad and PhD at Berkeley where
+- [00:18] he pioneered some of the earliest deep
+- [00:20] reinforced learning work including
+- [00:23] building what became the origins of the
+- [00:26] open AI gym
+- [00:27] next Rocky by then still only 21 years
+- [00:32] old was one of the very first hires at
+- [00:35] open AI where he pioneered some of the
+- [00:38] earliest meta learning work including
+- [00:40] first modern era papers on learning to
+- [00:43] reinforcement learn and learning to
+- [00:45] imitate
+- [00:47] for the learning to imitate work Rocky
+- [00:50] invented an architecture actually quite
+- [00:52] similar to today's attention mechanisms
+- [00:55] that became popularized through the
+- [00:57] Transformer
+- [00:58] in 2017 at age 23 Rocky left open Ai and
+- [01:03] co-founded covariant
+- [01:05] where he still today is the CTO and
+- [01:09] develops artificial intelligence for the
+- [01:11] next generation of robotic automation
+- [01:15] aside from being well known to be
+- [01:18] incredibly productive
+- [01:19] most often quoted as at least 10 times
+- [01:22] more productive
+- [01:24] than any of the other exceptionally
+- [01:26] productive people you might know
+- [01:28] Rocky is also widely known as one of the
+- [01:31] nicest people ever Rocky so great to
+- [01:34] have you here with us welcome to the
+- [01:36] show
+- [01:37] thanks Peter it's my awkward pleasure to
+- [01:39] be on this podcast so good to have you
+- [01:41] Rocky but before diving into today's
+- [01:43] conversation I'd like to thank our
+- [01:45] podcast sponsors index Ventures and
+- [01:48] weights and biases
+- [01:49] index Ventures is a venture capital firm
+- [01:52] that invests in exceptional
+- [01:54] entrepreneurs across all stages from
+- [01:57] seed to IPO
+- [01:58] with offices in San Francisco New York
+- [02:01] and London The Firm backs Founders
+- [02:04] across a variety of verticals including
+- [02:07] artificial intelligence SAS fintech
+- [02:10] security gaming and consumer
+- [02:13] on a personal note index is an investor
+- [02:16] in covariant and I couldn't recommend
+- [02:18] them any higher
+- [02:21] weights and biases is an ml Ops platform
+- [02:24] that helps you train better models
+- [02:25] faster with experiment tracking modeling
+- [02:29] data set versioning and Model Management
+- [02:31] they're used by openai Nvidia and almost
+- [02:35] every lab releasing a large model
+- [02:37] in fact many if not all of my students
+- [02:40] have Berkeley and colleagues at covering
+- [02:41] are big users of weights and biases
+- [02:47] Rocky let's start with what you're doing
+- [02:49] today your co-founder and CTO of coverin
+- [02:52] which of course we found it together
+- [02:54] what does covarian do a collurent our
+- [02:57] mission is to build Universal AI that
+- [03:01] enable robots to learn and operate in
+- [03:04] the real world
+- [03:05] um to assist humans with parity and
+- [03:08] laborious tasks
+- [03:11] um and today we are starting with the
+- [03:13] warehousing and Logistics industry
+- [03:15] and this is an industry where labor
+- [03:18] shortage and high turnover rate is a
+- [03:21] very real and growing problem
+- [03:23] and if we look at what the human
+- [03:25] operators are doing today they need to
+- [03:27] perform highly repetitive tasks that
+- [03:30] involve transporting goods from one
+- [03:32] place to another
+- [03:34] and this sounds simple but principle to
+- [03:36] be very challenging or a traditional
+- [03:38] automation to tackle entirely
+- [03:41] an equivalent we are building ai-powered
+- [03:44] robotic systems that automates various
+- [03:47] processes involving currently humans
+- [03:50] using their hands to manipulate objects
+- [03:52] like picking things up scanning them and
+- [03:55] placing them to various destinations
+- [03:57] interesting what you said there Rocky it
+- [04:00] seems simple to do pick and place in
+- [04:02] fact I think
+- [04:03] most people listening to the podcast are
+- [04:06] probably like okay I can definitely pick
+- [04:08] and play some objects in a warehouse
+- [04:10] that that seems very feasible and it
+- [04:13] doesn't require extensive training like
+- [04:15] becoming a medical doctor or something
+- [04:17] like that
+- [04:18] um
+- [04:19] but it's it's hard for robots as you
+- [04:22] said and in fact some people have called
+- [04:24] it the Holy Grail of Robotics if you can
+- [04:26] solve Warehouse pick in place can you
+- [04:29] dive a bit deeper why is it so hard to
+- [04:31] make a robot do that yeah it's a it's a
+- [04:33] really good question
+- [04:35] um and just want to add code that
+- [04:36] um it's something that us humans can do
+- [04:39] like so um like so easily uh without
+- [04:43] without thinking about it and in fact we
+- [04:45] can even do it right folding
+- [04:47] um and on the other hand like it's it is
+- [04:49] indeed really challenging for Robotics
+- [04:53] and it's not solvable by just
+- [04:56] programming robust to follow
+- [04:58] instructions
+- [04:59] um and uh which is why it's in
+- [05:02] challenging for a traditional automation
+- [05:05] and if you think about it more carefully
+- [05:07] it's actually a pretty non-trivial
+- [05:10] um
+- [05:11] um first of all the incoming objects
+- [05:13] that uh you expect the robust handle are
+- [05:17] typically presented in a very
+- [05:19] unstructured layout
+- [05:21] every action that is to be done by the
+- [05:23] robot is different and you can't just
+- [05:26] program the robot to repeat the same
+- [05:28] instructions okay and again
+- [05:31] and second there's a wide variety of
+- [05:34] different objects that the robot will
+- [05:36] need to be able to take and it's
+- [05:38] impossible to pre-configure the system
+- [05:40] to memorize this large number of
+- [05:43] different objects
+- [05:44] what this means is that the AI system
+- [05:47] needs to surely generalize Its Behavior
+- [05:51] and its understanding new situations
+- [05:55] um and this further distinguish this
+- [05:57] task from more traditional bodies it's
+- [06:00] hard because of all the variations you
+- [06:02] described in the all this channel while
+- [06:04] we can't directly program so
+- [06:07] what's the alternative how how to
+- [06:09] actually solve it have you solved it so
+- [06:12] what do you distinguish uh coherence Ai
+- [06:15] and traditional techniques um is that we
+- [06:18] are using machine learning
+- [06:20] um and more particularly differently
+- [06:22] which has been uh a very uh promising
+- [06:26] technique uh the popularized in recent
+- [06:29] years thanks to the advances in this
+- [06:32] data and
+- [06:34] um more powerful Computing
+- [06:36] um and what's different about this
+- [06:38] approach is that rather than directly
+- [06:40] programming the robots uh in terms of
+- [06:43] code we actually program the robots on
+- [06:46] in terms of data and we we use those
+- [06:50] material knee antiprony algorithms to
+- [06:53] distill knowledge out of those data on
+- [06:56] me and so those data can be in various
+- [06:59] forms
+- [07:00] um they can be in terms of human
+- [07:02] provided annotations or it can be in
+- [07:06] terms of robots own experience in
+- [07:08] connecting with the world at surulo
+- [07:11] stata the robot learns um what Behavior
+- [07:14] he said
+- [07:16] um what's the favorite leads to actual
+- [07:18] productive outcomes and which behaviors
+- [07:21] need to not collect the outcomes for um
+- [07:24] even errors that we want to avoid
+- [07:27] um and uh through this learning process
+- [07:30] the API system generalizes in this
+- [07:34] situations and learn from its own
+- [07:35] mistakes
+- [07:37] um and I will actually say that uh very
+- [07:41] confidently that with those techniques
+- [07:43] uh he can place it no longer
+- [07:46] um something that
+- [07:48] um something um something that's kind of
+- [07:50] scary for Automation and we are seeing
+- [07:53] very uh promising results uh with the
+- [07:55] systems that we are effectively
+- [07:57] deploying um to our customers you talk
+- [08:00] about systems that are being deployed to
+- [08:03] customers
+- [08:04] um
+- [08:05] what should I Envision there what is an
+- [08:07] example of what this could look like in
+- [08:10] a warehouse there's actually many
+- [08:12] different forms
+- [08:13] um and
+- [08:15] so
+- [08:17] in some cases uh we are actually just
+- [08:21] providing um The Break
+- [08:23] um to an overall automation system
+- [08:26] um where basically we provide our own
+- [08:29] camera system and our own software
+- [08:32] um that understands the environment
+- [08:35] um and this is about what action tends
+- [08:37] to be taken and then we work with um
+- [08:40] other partners
+- [08:42] um to provide the entire automation
+- [08:45] system so those Partners might be uh
+- [08:48] very well established
+- [08:50] um a warehouse automation providers
+- [08:54] um so in those warehouses uh if you go
+- [08:57] there uh you might see um a model like
+- [09:00] Shadows on
+- [09:03] automated vehicles moving around but
+- [09:06] before covariance you will see uh human
+- [09:08] workers still stationed next to next to
+- [09:13] those automation systems where they need
+- [09:16] to still manually picking and placing
+- [09:19] things
+- [09:20] and with coherence uh you'll see uh our
+- [09:24] camera systems are intelligently
+- [09:26] listening about the environment
+- [09:28] instructing
+- [09:30] um robotic arms
+- [09:32] um in this case it will be provided by
+- [09:34] our partners
+- [09:36] which then perform the task of peaking
+- [09:39] and placing objects automatics
+- [09:42] um and E capital we also are deploying
+- [09:46] host systems ourselves
+- [09:48] um and we have various products which
+- [09:50] I'm happy to dive into more detail uh
+- [09:53] and in those warehouses you'll actually
+- [09:54] see probably rates are designed in hard
+- [09:57] systems operating or in various segments
+- [10:00] in warehouses got it so I am curious
+- [10:03] what are some examples of these
+- [10:06] full solutions that are being delivered
+- [10:09] Yeah so basically
+- [10:12] um our systems are alternating various
+- [10:15] steps um in the order fulfillment
+- [10:18] process typically in the e-commerce
+- [10:22] Logistics and some Rising new Industries
+- [10:26] um and there's different products
+- [10:28] because
+- [10:29] um each Warehouse is kind of built
+- [10:30] differently although there are Bill
+- [10:32] categories depending on how automated
+- [10:35] they are already on one example is what
+- [10:39] we call a robotic football system
+- [10:42] uh so this is a system that can be
+- [10:44] deployed to warehouses with a relatively
+- [10:48] low degree of alternation
+- [10:51] um so this system will process an
+- [10:54] incoming dash of mixed product objects
+- [10:59] um which have been um
+- [11:01] checked out by human figures not sweet
+- [11:05] um they come to the system
+- [11:06] um and the task of the station is to
+- [11:09] sort those objects uh into different
+- [11:12] orders typically in the range of between
+- [11:14] 20 to 80 orders and it's called Cold War
+- [11:18] because
+- [11:19] um there's typically a few walls around
+- [11:22] the robot or human operators before
+- [11:25] before conference where on robot will
+- [11:28] need to pick up debts one by one Scandal
+- [11:31] and according to the order information
+- [11:33] I'll put them onto the Right Slots on
+- [11:36] onto the wall
+- [11:38] this is one example uh and as I
+- [11:41] mentioned on so um there there's also um
+- [11:45] cases where the warehouse is more
+- [11:47] automated uh like the ethernet shuttle
+- [11:50] systems
+- [11:52] um in those warehouses uh human workers
+- [11:54] no longer need to move around in a
+- [11:57] warehouse which can be
+- [11:59] um uh which can be uh quite uh quite uh
+- [12:04] exhausting
+- [12:05] um so in those cases um the the tones
+- [12:08] where they need to check the objects
+- [12:10] form uh will be presented to humans
+- [12:13] um by some shuttle system
+- [12:16] and
+- [12:17] those stations where the human workers
+- [12:20] are are standing still uh become a
+- [12:23] potential integration point for
+- [12:25] automation
+- [12:26] um and previously we will call those was
+- [12:28] to personification and now I think the
+- [12:31] new popular Chinese goes to robot Kiki
+- [12:34] uh where we basically will have a robot
+- [12:37] arm working for a toast for arrive one
+- [12:40] by one and according to assistant
+- [12:42] instruction uh picking either one or
+- [12:45] several objects from each tote and those
+- [12:48] thoughts will typically uh only contain
+- [12:50] say one type of products or a steel num
+- [12:53] field type of products
+- [12:55] um placed into different components
+- [12:57] inside the tools and then placing them
+- [12:59] either to another course or some
+- [13:02] Downstream destination going back to the
+- [13:05] technical side of things
+- [13:07] um
+- [13:08] when when you said
+- [13:11] now with deep learning methods we are
+- [13:14] able to teach the robots pick in place
+- [13:18] right so we can go beyond traditional
+- [13:21] programming of robots
+- [13:23] that's a pretty big umbrella term deep
+- [13:25] learning data um
+- [13:27] can I say a bit more what is under the
+- [13:30] hood
+- [13:31] um what are the key ideas that allow the
+- [13:34] covarian system
+- [13:36] to actually understand how to do pick
+- [13:38] and place one level deeper or two levels
+- [13:41] deeper than lots of data and deep
+- [13:44] learning
+- [13:45] one of the key idea on is um deep
+- [13:49] reinforcement learning which I've
+- [13:51] personally had a fortune to
+- [13:53] work on during my PhD study and doing my
+- [13:57] finite conference I'm sorry I'm not
+- [14:00] timeline
+- [14:02] um and of course Noah equilibrium so
+- [14:06] the there's actually I guess two key
+- [14:09] idea is that that when combined uh
+- [14:12] becomes the term uh secret versus
+- [14:14] Burning um so I guess one is deeper neon
+- [14:17] the other is uh enforcement learning and
+- [14:21] the idea deep learning on
+- [14:24] is that um
+- [14:28] basically uh we have all those data
+- [14:31] um and we want a learning system to be
+- [14:33] able to
+- [14:35] um first of all
+- [14:36] be able to um
+- [14:38] interpret or understand all those data
+- [14:40] or explain
+- [14:42] um the the correspondence between
+- [14:44] certain inputs and outputs
+- [14:46] um so we need the system to
+- [14:49] um be very expressing
+- [14:52] um and for more traditional machine
+- [14:55] learning approaches uh we typically do
+- [14:57] this by hand engineering certain
+- [15:00] features
+- [15:01] um it's writing them out of the data we
+- [15:03] have and then use Simple models
+- [15:06] um to try to hit those data
+- [15:10] um and this the performance of such
+- [15:12] systems highly announced the quality of
+- [15:14] features that can become Commerce and
+- [15:18] require a specialized uh knowledge that
+- [15:21] the domains that we are we're trying to
+- [15:22] tackle and for example for images uh you
+- [15:26] need to have
+- [15:28] um domain understanding of image
+- [15:30] processing computer vision in order to
+- [15:32] come up with like high quality issues
+- [15:36] um and what sets differently apart is
+- [15:38] that
+- [15:40] um
+- [15:40] rather than hand engineering those
+- [15:43] speeches
+- [15:44] we try to
+- [15:45] come up with
+- [15:48] um
+- [15:50] those architectures
+- [15:52] um of neural networks which are very
+- [15:55] expressive parameterized models
+- [15:58] um and they can have a vast capacity
+- [16:02] um
+- [16:03] and uh and we'll just suffer from the
+- [16:06] problem of under 50
+- [16:09] um which uh which is a common problem
+- [16:10] that will occur that will encounter if
+- [16:13] we try to use more simplified models
+- [16:16] and
+- [16:18] on the other hand
+- [16:20] um not only does it not under this
+- [16:23] um
+- [16:23] we can impose certain
+- [16:26] prior uh knowledge into how we design
+- [16:29] those architectures so that you can
+- [16:31] achieve good generalization performance
+- [16:34] some of those core knowledge involved on
+- [16:37] using a convolution architecture which
+- [16:41] basically leverages the translational
+- [16:43] invariance
+- [16:45] um in when we when we think about the
+- [16:48] computational process that should be
+- [16:49] involved with for example images tags or
+- [16:52] other day hours or all those kind of
+- [16:54] locality structure and attention will be
+- [16:58] another uh recently popularized
+- [17:03] um uh building blocks in those
+- [17:04] architectures uh where um we want to
+- [17:08] allow the architecture to focus on one
+- [17:11] portion of data at a time and also uh
+- [17:15] query other maybe not very tokenized
+- [17:18] feature information by a kind of a local
+- [17:20] operation and aggregate obsolution
+- [17:24] um so it's very powerful because we
+- [17:27] don't really need to prescribe how
+- [17:29] exactly the computation happened in
+- [17:31] terms of code we just need to have some
+- [17:34] intuition about uh the
+- [17:37] um the kind of the kind of computation
+- [17:39] that we want the algorithm should
+- [17:41] perform
+- [17:42] um design the architecture that enables
+- [17:45] on those requires
+- [17:46] um and then the whistles we can yield
+- [17:49] powerful systems that actually turns out
+- [17:53] to work quite well against across very
+- [17:55] uh very different disciplines
+- [17:59] um another uh key idea that um it's a
+- [18:03] reinforcement learning
+- [18:05] um
+- [18:06] so
+- [18:08] hey guys um to explain reinforcement
+- [18:10] learning we need to look cash on maybe
+- [18:11] other paradigms that are popular in
+- [18:14] machine learning I think the most
+- [18:16] popular Paradigm used in in the industry
+- [18:19] is still provides learning where
+- [18:21] we will provide
+- [18:24] um label examples
+- [18:25] um where um say the the input can be
+- [18:29] some images and the labels on them could
+- [18:32] be
+- [18:33] um different classes of objects that we
+- [18:36] um runs the system to detect
+- [18:39] um for example this is a battle and that
+- [18:42] is a that is plastic bag and um
+- [18:46] and we need uh to we need to collect all
+- [18:49] those data using choir knowledge of our
+- [18:52] team
+- [18:53] um so this can work well in some domains
+- [18:57] where collecting those super efficient
+- [18:59] is cheap
+- [19:00] um that
+- [19:02] um there's a in some cases collecting
+- [19:05] those can be very expensive
+- [19:07] um for example if you want to acquire
+- [19:10] like a really understanding of the world
+- [19:12] uh it's actually kind of non-trivial to
+- [19:14] like the provision
+- [19:16] um about how how uh how distance
+- [19:19] everything is awaiting you
+- [19:21] um and sometimes it's just that we are
+- [19:24] actually not variable teachers to the
+- [19:25] robots for example if we want a robotic
+- [19:28] systems to
+- [19:30] reason about different strategies to
+- [19:33] cross objects and moving them
+- [19:36] um those are actually pretty challenging
+- [19:38] saves problem
+- [19:40] um that we need to solve
+- [19:42] um of course we can say that we can do
+- [19:43] that easily with our hands
+- [19:46] um but if we look at today's Hardware
+- [19:49] actually we cannot just use a human
+- [19:51] hands equivalent we need to actually
+- [19:53] design some different hours
+- [19:55] um to to serve the needs of different
+- [19:58] products that we need to tackle and even
+- [20:01] with um human contents the control of
+- [20:03] them is actually highly non-trivial and
+- [20:06] now something that we can can just kind
+- [20:09] of easily provide labels to the robots
+- [20:11] so in those situations it's actually
+- [20:14] more important for uh The Learning
+- [20:17] System to learn from its own trial and
+- [20:19] error all this means is that
+- [20:22] we want to we want the system to kind of
+- [20:26] explore the environment
+- [20:29] um using different strategies that you
+- [20:30] can come up
+- [20:32] um and it'll get some feedback from the
+- [20:34] environments by being some like if it
+- [20:37] successfully could have something
+- [20:39] um it will know that it's a good thing
+- [20:41] um and it should reinforce such Behavior
+- [20:43] more often and it did a fasting like I
+- [20:46] missed it uh or it picked something out
+- [20:49] but dropped it or or even worse like you
+- [20:52] pick up something and maybe squeeze too
+- [20:54] hard and damage something so those will
+- [20:56] be negative signals to the system
+- [20:59] um that we want to uh that we want to
+- [21:02] avoid in the future
+- [21:04] so
+- [21:05] I think it's the
+- [21:07] idea of reinforcement learning is that
+- [21:10] we want to design algorithms so that
+- [21:12] those Learning Systems can
+- [21:14] improve itself from just those signals
+- [21:17] we are really not Chris Webby all the
+- [21:20] robot you should
+- [21:21] um first depart objects in the scene do
+- [21:24] some
+- [21:25] calculation of the physics properties
+- [21:29] um and then based on that to some maybe
+- [21:31] low carb from your database of
+- [21:34] pre-configured
+- [21:36] strategies upon through the model
+- [21:39] um we're really just saying
+- [21:41] um this is the stage uh this is the
+- [21:44] range of actions you can explore
+- [21:47] um this is cool this is stack go figure
+- [21:49] out the rest
+- [21:50] um it sounds almost too good to be true
+- [21:52] um but it actually turns out to to work
+- [21:55] um it's really magically well sometimes
+- [21:58] um if we negatively design with
+- [22:00] algorithms have good setup
+- [22:03] um and have enough data to speak to this
+- [22:06] system and learn process now the general
+- [22:09] Trend in
+- [22:11] artificial intelligence right now is a
+- [22:13] trend towards Foundation models
+- [22:17] what role do you expect them to play or
+- [22:20] are they already playing maybe at
+- [22:22] covariant the rise of foundation models
+- [22:24] these uh
+- [22:26] it's a really exciting developments are
+- [22:28] in recent years
+- [22:30] um maybe I can first explain a little
+- [22:33] bit what Foundation models are
+- [22:36] um so those are models that are trained
+- [22:39] on a vast amount of diverse data
+- [22:43] and as a result they they are so
+- [22:46] powerful and they can be adapted to many
+- [22:49] different Downstream applications
+- [22:52] and I guess the most knowful example um
+- [22:56] in recent years is probably uh gtt
+- [23:00] um so this is a family of large language
+- [23:03] models developed by one AI
+- [23:06] so these models are trained on a
+- [23:09] tremendous amount of natural language
+- [23:11] data from the internet
+- [23:13] and they have been used to power
+- [23:16] many exciting applications like um one
+- [23:20] example is a GitHub for pilot
+- [23:22] um so this is a service that provides on
+- [23:25] intelligence called completion
+- [23:27] suggestions
+- [23:29] um actually I use it on a daily basis
+- [23:31] and finds it to be um really amazing
+- [23:34] um and a very good productivity boost
+- [23:37] and another example uh it's uh of course
+- [23:41] a chat GPT so it has just released uh
+- [23:45] last November but it actually absolutely
+- [23:48] mind-blowing uh it's the most powerful
+- [23:51] AI chatbot that I've ever seen um and
+- [23:54] playlist
+- [23:56] um
+- [23:56] so the connection
+- [23:58] between Foundation models and programs
+- [24:01] um so it's actually quite connected um
+- [24:04] uh if we think about resignation of
+- [24:06] building Universal AI
+- [24:09] um
+- [24:09] and
+- [24:11] I think the so this idea basically
+- [24:14] contrasts on the kind of Steel the
+- [24:18] mainstream approach right now of
+- [24:20] applying machine learning industry
+- [24:23] um where we kind of train different
+- [24:25] models we saw relatively narrowly
+- [24:28] defined tasks even some data sets that
+- [24:32] we collect
+- [24:33] um in in some specific domain
+- [24:36] and you said all philosophy clearance
+- [24:40] has been to try to develop
+- [24:43] um a common AI system uh so we actually
+- [24:46] call this congrat rate it's kind of our
+- [24:48] brand name for our AI system
+- [24:51] um and we call that this single brain
+- [24:53] and power all of our use cases
+- [24:57] on and the rise of foundation models are
+- [25:00] very similar in philosophy they kind of
+- [25:02] give us some very exciting future
+- [25:04] directions where
+- [25:07] um where I think we can click our
+- [25:08] technology to to the next level
+- [25:11] so one example is that
+- [25:14] um we can leverage our internet skill
+- [25:16] data by images videos and texts that are
+- [25:21] being trans that are being used to train
+- [25:23] those Foundation models and we can use
+- [25:26] them to improve the generalization of a
+- [25:29] collaborative brain
+- [25:31] um so maybe one example from utos that
+- [25:33] did one uh further challenge of like the
+- [25:37] templates
+- [25:39] um is that there's a lot of non-filled
+- [25:41] scenarios that we need the system to
+- [25:43] understand and and react to
+- [25:47] um one one such example um is that let's
+- [25:50] think of all the robot teaching up
+- [25:52] copper boxes uh these are probably the
+- [25:54] simplest possible objects that you you
+- [25:56] can expect a robotic system to be
+- [26:01] um but it's actually not that easy
+- [26:03] sometimes for example if the box is not
+- [26:07] um
+- [26:08] a box is not sealed height and when you
+- [26:11] pick it up the the lid can actually open
+- [26:15] um then what what do you uh what can I
+- [26:17] do in that case
+- [26:18] um so I guess this will be kind of an
+- [26:20] exception scenario um and you might need
+- [26:22] to do different things depending on
+- [26:24] which direction is made open uh if you
+- [26:27] are picking up the need
+- [26:29] um and uh it's just open it's not maybe
+- [26:32] in fact still safely place it to the
+- [26:35] destination but you will need to move
+- [26:37] very slowly or only in certain certain
+- [26:40] uh motions all right if it's all kind of
+- [26:43] bottom maybe you you actually won't need
+- [26:45] to uh
+- [26:47] more particularly do different actions
+- [26:49] or you might even need arguments help in
+- [26:51] that case
+- [26:52] um and it's very important in those uh
+- [26:55] for the system to be able to understand
+- [26:57] those different situations
+- [27:00] and if we think about uh traditional
+- [27:03] machine learning approaches or even if
+- [27:06] we say well let's use a different person
+- [27:09] learning
+- [27:10] um
+- [27:11] if we want to use a supervised learning
+- [27:13] what we will need to do is um collect
+- [27:15] enough data
+- [27:17] um where there's some diversity of
+- [27:19] different objects with the lead open
+- [27:22] um and then provide human annotations
+- [27:24] like this in this example the lady is
+- [27:27] open on the top in another example of
+- [27:29] the latest open on the bottom and so
+- [27:31] forth
+- [27:31] and it can be actually quite costly and
+- [27:34] will take a lot of time to collect those
+- [27:36] examples even that it's kind of a rare
+- [27:38] event
+- [27:39] and even with Rick wasn't running on
+- [27:42] there's actually some challenges here
+- [27:44] because um how would you be the
+- [27:46] supervision to the robot in this case
+- [27:48] um of what it should do you need to come
+- [27:51] up with some rewards signal to the
+- [27:53] robots
+- [27:55] um
+- [27:55] and
+- [27:57] in contrast I think was on the internet
+- [28:00] still data and the
+- [28:03] um and and with the foundation models uh
+- [28:06] and it's ourselves
+- [28:09] um is that we can actually leverage all
+- [28:12] those um
+- [28:13] kind of free label data out there
+- [28:16] um to give our system some common sense
+- [28:18] understanding like for us humans uh we
+- [28:21] you probably don't need to see like a
+- [28:23] hundred or a thousand examples I'll be
+- [28:25] open to to know this concept and we
+- [28:29] probably can't even recall what was the
+- [28:30] first open date that we that we've seen
+- [28:32] before that politics understanding it's
+- [28:35] kind of just influence his homelessness
+- [28:36] knowledge that we acquired
+- [28:38] um and from our um
+- [28:41] uh analysis of the foundation models is
+- [28:44] also um uh something that these models
+- [28:48] seem to start to possess basically
+- [28:50] acquiring a common sense understanding
+- [28:52] from those international data
+- [28:54] um I think it's very obviously that we
+- [28:57] can try to leverage other those models
+- [29:00] uh the data or the training techniques
+- [29:03] to equip uh our Collision brace system
+- [29:07] with such Common Sense understanding so
+- [29:10] that for those long fails scenarios you
+- [29:12] can program
+- [29:14] um or um or have the systems um
+- [29:18] understand and adapt quickly in those
+- [29:21] situations that's really exciting of
+- [29:23] course because opening the long tail
+- [29:25] if if you don't address it correctly
+- [29:28] you're just not producing any value
+- [29:30] because there's too many exceptions
+- [29:32] called and this idea that Foundation
+- [29:34] models trained on internet data can
+- [29:36] bring in common sense to help understand
+- [29:39] robotic picking
+- [29:41] that's I mean I'm super excited about
+- [29:43] this because it's it's in sometimes a
+- [29:45] very interesting form of generalization
+- [29:47] because not much internet data involves
+- [29:50] bin picking scenarios usually internet
+- [29:53] data is a most people would say it looks
+- [29:56] more interesting than I've been picking
+- [29:58] um scenarios but somehow there can be a
+- [30:01] transfer of Concepts like a lid that's
+- [30:04] slightly open that's fully open a box
+- [30:06] that's damaged something packaging that
+- [30:08] has come loose all those things can
+- [30:10] somehow transfer over which is really
+- [30:12] exciting that those things are becoming
+- [30:14] coming possible
+- [30:16] when you think more widely about the AI
+- [30:20] robotics Frontier Rocky
+- [30:22] um let's say not specifically to
+- [30:24] covarent of course covarent is at the
+- [30:26] frontier but if you think more broadly
+- [30:28] what are some other things that you see
+- [30:29] at the frontier that get you very
+- [30:31] excited of course I guess I'll wear a
+- [30:33] biased lens of uh this is my experience
+- [30:36] and covariance
+- [30:38] um but I think some of the Frontiers say
+- [30:40] they're definitely what we have an eye
+- [30:43] on but are definitely not specific to
+- [30:45] the to the kind of applications that
+- [30:48] coherence uh the covariance working on
+- [30:52] um
+- [30:53] and
+- [30:54] I guess I'll mention two things one
+- [30:57] thing is um how we think about
+- [31:01] having extremely reliable
+- [31:03] um systems
+- [31:05] um and how AI can
+- [31:07] um enable that
+- [31:10] um I think um so this
+- [31:13] maybe one example other than copyright
+- [31:16] algae Visa autonomous driving
+- [31:18] um so hugely challenging problem uh has
+- [31:22] huge Market size
+- [31:23] um the challenge
+- [31:25] um one of the challenges that you really
+- [31:27] need those system to be highly reliable
+- [31:29] because the cause of battery is so high
+- [31:31] and in some sense if we think about the
+- [31:34] technology stack needed to power
+- [31:37] autonomous driving
+- [31:39] um there's actually many common
+- [31:40] components to always build here at
+- [31:43] covariance like perception understanding
+- [31:46] of the world
+- [31:48] um and uh planning uh or or of control
+- [31:51] to try to figure out what the robot like
+- [31:54] either arms or outcomes needed us into
+- [31:57] doing the world
+- [31:59] um and why is um uh getting high
+- [32:02] reliability is so challenging
+- [32:04] um one of the reasons that those
+- [32:06] building blocks of the systems are so we
+- [32:09] we are uh both uh people's cases we
+- [32:12] should employ a lot of uh AI Power
+- [32:14] Systems and they they're Suddenly by
+- [32:17] themselves 100 correct
+- [32:20] um and each component can can make their
+- [32:23] own mistakes
+- [32:25] um so in those cases against like um how
+- [32:28] how would you then build an overall very
+- [32:30] robust systems
+- [32:32] um and of course One Direction will be
+- [32:35] to try to push individual components to
+- [32:38] higher and higher high accuracy by
+- [32:40] inventing uh new ways to leverage uh
+- [32:44] uh broader amount of data uh traded on
+- [32:48] supervised learning uh try to use the
+- [32:50] new architectures and so forth
+- [32:53] um a different angle is um how Changi
+- [32:56] how can we kind of compose those
+- [32:58] components
+- [33:00] um so that maybe some components can
+- [33:02] help correct other components errors
+- [33:05] um or um can you have each component
+- [33:09] like a ah image detection module some
+- [33:13] visual semantic prediction module and
+- [33:15] they better understand when they are
+- [33:17] uncertain about the situation
+- [33:20] um when it hits more likely to make an
+- [33:22] area
+- [33:23] um so that we can uh so that the system
+- [33:26] overall should be in a more alerted
+- [33:27] state if it's in actually in a new
+- [33:29] situation and maybe you can um all that
+- [33:32] control to Siemens uh or uh or uh stand
+- [33:37] more computers maybe at expensive
+- [33:39] reaction time or depending on what
+- [33:40] trade-off is reasonable or it should
+- [33:42] make
+- [33:43] um I think those kind of like system
+- [33:44] level questions are
+- [33:51] um so uh so that's something very
+- [33:54] interesting to me
+- [33:56] um another thing
+- [33:58] um related to a reliability is like how
+- [34:01] fast we can
+- [34:02] improve the system's performance
+- [34:06] um and there's there's several access to
+- [34:09] to measure like uh to measure this one
+- [34:12] is like how much data is needed and
+- [34:14] another I guess it's like how much time
+- [34:16] is needed to for example collect those
+- [34:19] data or retrain the model
+- [34:22] and
+- [34:24] so the experience that if ovarian child
+- [34:26] I would say that if we have a problem
+- [34:29] find problem that we want to solve with
+- [34:33] enough data and not trying to train the
+- [34:36] model
+- [34:37] um
+- [34:38] we can usually get to very good
+- [34:40] components
+- [34:41] um but time is money
+- [34:43] um and it's also not enough to uh to say
+- [34:48] uh yeah let's just collect data and wait
+- [34:51] for a while to get a good performance
+- [34:54] um and there are cases where we actually
+- [34:57] need the system to be able to very
+- [35:00] rapidly react some changes to the
+- [35:02] environments a very very real example to
+- [35:05] us is that let's say if a product goes
+- [35:08] on sale
+- [35:09] um and this might only lasts for a few
+- [35:12] days or even a few hours
+- [35:14] um and maybe suddenly
+- [35:16] um your system
+- [35:18] um cannot cannot handle the situation
+- [35:20] anymore you need to give a more concrete
+- [35:22] example
+- [35:23] um let's say you are you're picking up
+- [35:25] like
+- [35:27] um
+- [35:27] battles are that are like most on the
+- [35:30] surface uh so every every uh place on it
+- [35:34] uh it's a physical
+- [35:36] um this robot is a very high performance
+- [35:39] um that suddenly uh maybe a new product
+- [35:41] uh comes out where uh half of the half
+- [35:45] of the corner service actually is a
+- [35:47] funky
+- [35:49] um and cannot be handled by uh the the
+- [35:52] same uh equipper that we use
+- [35:56] um software systems can't adapt to such
+- [35:59] change quickly enough
+- [36:01] um then you will you will um you'll
+- [36:04] suffer from a massive productivity for
+- [36:08] for the period words you are still
+- [36:09] improving your performance
+- [36:12] um so I think there are different
+- [36:14] techniques that
+- [36:16] um that we uh that are being stored uh
+- [36:19] for example in Academia or a covariance
+- [36:22] about like culture make the system uh
+- [36:27] or quickly
+- [36:29] um using different approaches
+- [36:31] um and of course you can uh clockwise it
+- [36:34] click some common common knowledge uh
+- [36:37] common sense um but there are other
+- [36:39] unexciting uh well there are other
+- [36:41] exciting process in education have
+- [36:43] changed more but overall like I think
+- [36:45] those two are like getting highly
+- [36:48] reliable systems and fasting probability
+- [36:51] will be in my mind they are Frontier or
+- [36:55] bodies yeah very interesting Rocky and I
+- [36:57] really like um one of the things you
+- [36:59] mentioned in the first part which is the
+- [37:02] notion of a system that
+- [37:04] can take a step back understand when
+- [37:07] there is uncertainty Maybe
+- [37:09] use more compute Cycles
+- [37:11] to make a decision as needed rather than
+- [37:14] always going through the same amount of
+- [37:17] compute even though sometimes things are
+- [37:18] easy sometimes things are hard I think
+- [37:21] you know that kind of innovation it's
+- [37:24] very different from pretty much anything
+- [37:26] out there today in practice or in
+- [37:29] research it seems the default is a
+- [37:32] neural net with a fixed depth things get
+- [37:34] processed by the neural net and
+- [37:35] something comes out and that's it
+- [37:37] there's no no room for deciding to spend
+- [37:40] more time it's just everything's gone to
+- [37:42] the neural net and done and so that
+- [37:44] option even though clearly for humans it
+- [37:46] exists right this notion of taking a
+- [37:49] step back the current standard Paradigm
+- [37:51] doesn't have it inside of it you need to
+- [37:54] step out of it invent something
+- [37:56] different and I really like the second
+- [37:59] example you gave because I mean by
+- [38:01] default even for myself when I think of
+- [38:03] the long tail of things uh robots run
+- [38:06] into I think of oh long tail a lot of
+- [38:10] things but it's in the in the tail it
+- [38:12] doesn't happen too often and maybe it
+- [38:15] happens once now and then maybe an hour
+- [38:16] later something happens but I love your
+- [38:19] example because essentially highlighting
+- [38:21] that you could have a a window of
+- [38:24] several hours within which the only
+- [38:27] thing you get to see is the long tail
+- [38:30] over and over and over and you need to
+- [38:32] learn on the spot or it's too late
+- [38:35] um and it's it's very interesting
+- [38:37] because that's not how I I think about
+- [38:39] it by default then I think most people
+- [38:42] but the reality is that it happens a lot
+- [38:44] with these sales that all of a sudden
+- [38:46] something completely new packages in a
+- [38:48] completely new way complicated packaging
+- [38:50] fancy packaging and so forth to help
+- [38:53] them with the sale and all of a sudden
+- [38:55] much harder to pick you need instant
+- [38:57] adaptation or it's it's too late right
+- [39:00] now that's on the technical side how
+- [39:03] about on the um
+- [39:05] on the commercial the application side
+- [39:08] you've talked about Warehouse picking
+- [39:10] obviously you've mentioned self-driving
+- [39:12] cars are there any other uh AI robotics
+- [39:16] applications that you see on the horizon
+- [39:19] and that are exciting too
+- [39:21] I can probably answer this in uh kind of
+- [39:24] like
+- [39:24] the two percentage one is like um
+- [39:28] things that I think coherence um Can
+- [39:31] potentially expand during future and
+- [39:33] also more uh widely like maybe it's not
+- [39:37] within conversation it comes soon but
+- [39:39] I'm personally very excited about
+- [39:42] um so in the the first category on
+- [39:46] there's of course a wide range of
+- [39:48] different use cases that we get exposure
+- [39:50] to from talking to our customers
+- [39:53] um and one angle is uh that if we start
+- [39:57] from the current systems that we are
+- [39:59] selling
+- [40:01] um you can look at the upstream and
+- [40:04] downstream processes some of those are
+- [40:06] automated but some are still manually
+- [40:09] done by human workers
+- [40:12] um and those are potential future
+- [40:15] directions for us to automate so that we
+- [40:17] have a more integrated automation system
+- [40:21] and one such more concrete example is
+- [40:23] that going back to the earlier robotic
+- [40:26] football
+- [40:27] where the robot is sorting items
+- [40:30] different orders
+- [40:32] um So currently after this is done let's
+- [40:34] say all the items of a given order have
+- [40:37] arrivaling once not on the wall
+- [40:41] um to the other side of the robots
+- [40:43] currently uh we actually still need
+- [40:45] human workers uh take all those items
+- [40:48] and then put them in a shipping box to
+- [40:51] be shipped out and this could sometimes
+- [40:54] actually become a point of bottleneck to
+- [40:56] the overall system's throughput if the
+- [40:59] the human hacker in this case cannot
+- [41:02] keep up with uh how fast the robot is a
+- [41:04] performance and we've actually seen this
+- [41:07] happen
+- [41:08] um and if we have further automates the
+- [41:10] the packing process this can uh on one
+- [41:14] hand potentially improve this throughput
+- [41:16] of the overall system
+- [41:18] um and another benefit is that we can
+- [41:21] potentially further include robustness
+- [41:23] since that we basically introduced more
+- [41:27] AI touch points in this overall systems
+- [41:31] um and when the when the system
+- [41:33] Downstream is um for example like
+- [41:36] rearranging those objects in the
+- [41:38] shipping box some it can more
+- [41:41] intelligently more intelligently chat
+- [41:43] for any errors that may have been made
+- [41:46] by the early intercepts in the process
+- [41:49] um and
+- [41:50] so there's some potentially um further
+- [41:53] um reduce thyroid of the system or um as
+- [41:57] we've observed actually our system is
+- [41:59] already performing pretty well you can
+- [42:01] potentially uh offer some trade-off
+- [42:03] maybe like the Upstream process can be
+- [42:05] slightly less careful uh maybe uh to
+- [42:09] trade with higher efficiency and rely on
+- [42:12] the downscreen system to provide this
+- [42:13] check so that as a whole we obtain a
+- [42:16] system that is both a sufficiently
+- [42:18] reliable and as and must be productive
+- [42:21] than the system state
+- [42:24] so these are the so onset of covariance
+- [42:28] I guess um I'm also quite excited about
+- [42:30] some
+- [42:31] opportunities that I already see like
+- [42:34] the other stock startups attacking or
+- [42:36] maybe quickly Tycoon resolution
+- [42:39] um and maybe one thing that's
+- [42:42] um relevant to
+- [42:44] um you know relevant but are just
+- [42:46] interesting to me and may not have like
+- [42:49] huge the right commercial value by the
+- [42:52] computer in powerful is um the potential
+- [42:55] application in basic science
+- [42:58] um where we can use robots to basically
+- [43:02] automate
+- [43:03] um scientific experiments and it's um
+- [43:07] it's relevant to me I guess because um
+- [43:09] so my wife uh Xiao Yi um so she she has
+- [43:13] a PHD in organic chemistry she did her
+- [43:16] teaching in Hong Kong so um through that
+- [43:20] I kind of got a glimpse of like um
+- [43:23] basically some quite laborious tasks
+- [43:25] that um those scientific researchers
+- [43:28] into performing their Labs on a daily
+- [43:30] basis
+- [43:32] um and I guess for chemistry it's maybe
+- [43:35] an analogy is like cooking a meal um
+- [43:37] that's maybe not very tasty um and it's
+- [43:40] like actually can take a very long time
+- [43:42] with many different stats starting to
+- [43:44] perform with query Precision
+- [43:46] um and sometimes you can even involve
+- [43:48] actually like hazardous materials
+- [43:51] um and so you'd be very very careful
+- [43:53] with those
+- [43:54] um and same for a lot of like biology
+- [43:56] experiments
+- [43:58] um that require a lot of manual laser
+- [44:00] and
+- [44:02] I'm really excited about the potential
+- [44:06] of robotic of the nation
+- [44:08] um I think the Direct Value that it
+- [44:10] provides is that those researchers can
+- [44:12] then focus more of their time
+- [44:16] um designing experiments do you think
+- [44:18] about future research directions and
+- [44:20] analyzing the results of those
+- [44:22] experiments
+- [44:24] um but also I think there's value mean
+- [44:27] um more standardized on procedure of
+- [44:30] Performing all those experiments making
+- [44:32] the results more reproducible we can
+- [44:34] collect more data on have the process
+- [44:38] being more observable without the spaces
+- [44:40] we have deployed
+- [44:42] um and also there's chance for great for
+- [44:44] economy of scale
+- [44:47] so um I guess analogy uh for for
+- [44:51] computer science would be the kind of
+- [44:52] cloud computing platforms that are um
+- [44:56] being provided by uh say Amazon Google
+- [45:00] Microsoft and I can imagine similar like
+- [45:03] crawl cross Labs uh that can
+- [45:06] um provides the experiment needs of
+- [45:08] Manatee for researchers in those basic
+- [45:10] science domains so I think all of those
+- [45:13] are I've seen a few startups in those
+- [45:15] domains and there's also academic papers
+- [45:17] Apollo like you see robots to speed up
+- [45:21] experiments so very promising
+- [45:23] development I guess it's a bit further
+- [45:25] away from cold earrings but there's
+- [45:26] actually some shared challenges and
+- [45:28] overall quite excited too
+- [45:31] I think it's a really exciting thing to
+- [45:33] be thinking about Rocky
+- [45:35] um how
+- [45:37] AI robotics could actually power a
+- [45:39] scientific revolution in in any kind of
+- [45:42] Sciences where
+- [45:44] physical
+- [45:45] experimentation largely manual
+- [45:47] experimentation right now is the
+- [45:49] bottleneck and it's something that I
+- [45:52] don't think too many people are thinking
+- [45:54] about yet
+- [45:55] um of course
+- [45:57] you're not going to be the first one to
+- [45:58] mention here ever in the world but I
+- [46:00] think the opportunity is ahead of us and
+- [46:04] you know it'd be very exciting to see
+- [46:06] something play out there that really
+- [46:08] revolutionizes
+- [46:09] potentially medicine or at least the
+- [46:11] invention of new medications invention
+- [46:13] of new supplements invention of all
+- [46:15] kinds of new compounds materials and so
+- [46:18] forth that are currently volunteered by
+- [46:21] experimental Cycles
+- [46:23] um
+- [46:24] sometimes Hazard as you mentioned now
+- [46:28] when I when I think about when we
+- [46:31] started covarian
+- [46:32] um
+- [46:33] at the time we including you and of
+- [46:37] course we left open AI which was a
+- [46:39] pretty great place to be I'm kind of
+- [46:42] curious what made you at the time so
+- [46:44] convinced that despite the fact you're
+- [46:46] at such a great place already
+- [46:49] um that founding covariant was the right
+- [46:51] thing to pursue for you yeah
+- [46:54] um
+- [46:56] has been a really awkward place for me
+- [46:59] to
+- [47:00] um should be uh there's so many talented
+- [47:03] people working towards a very inflation
+- [47:05] school and I really learned a lot of
+- [47:07] during my time there on so at the time I
+- [47:12] was closer to the robotics team
+- [47:15] um the focus has been more on kind of
+- [47:19] pushing the frontier or basic learning
+- [47:21] algorithms and demonstrating them um
+- [47:24] very very challenging tasks like we what
+- [47:28] uh what we live later uh learn about
+- [47:31] like say using your body cash to
+- [47:33] esophobic cubes
+- [47:35] um so these tasks were a little bit
+- [47:38] further away from
+- [47:40] things that uh potentially can be
+- [47:43] actually viable in the near-term like
+- [47:45] Newton commercial value
+- [47:47] um so how all of this connected to to me
+- [47:49] is that
+- [47:51] um so first of all I guess like um
+- [47:53] actually there there was an earlier
+- [47:55] podcast uh where uh where Peter Chen our
+- [47:58] CEO of covarence and also a long-term
+- [48:01] friend of mine
+- [48:02] um explained his side of the story
+- [48:05] um remember him mentioning there's like
+- [48:07] a sketchy but delicious Chinese
+- [48:10] restaurant where we were like discussing
+- [48:12] how we can push our research to the next
+- [48:14] level so guys this is in High version
+- [48:17] um actually
+- [48:18] also I didn't remember which restaurant
+- [48:20] we were in uh where whether it was at a
+- [48:22] restaurant um real estate
+- [48:25] what I do remember is that um we kind of
+- [48:28] had this realization that to solve
+- [48:31] robotics
+- [48:33] um it's not enough to
+- [48:34] just develop and improve algorithms but
+- [48:38] it might be more important to get access
+- [48:42] to to the right data
+- [48:44] and I kind of have a
+- [48:47] more Channel emotional data here where
+- [48:49] it doesn't just include like uh say
+- [48:52] images text videos human annotations or
+- [48:56] what not but it actually also includes
+- [48:59] um the range of different tasks that we
+- [49:01] uh that we want the the robot to to
+- [49:04] learn to perform and this is important
+- [49:07] um also to in terms of how we evaluate
+- [49:10] our advances in algorithms like ideally
+- [49:12] evaluate on the things that actually
+- [49:14] rather that's actually relevant to to
+- [49:16] what we want to solve and it also maybe
+- [49:19] Matters To Life what kind of algorithms
+- [49:21] you can come up with uh or can be made
+- [49:24] powerful it can be understood what data
+- [49:26] you has
+- [49:27] and on the other hand it's kind of
+- [49:30] limited in terms of what tasks you can
+- [49:33] have access to you know in academic
+- [49:36] setting um and my PDF was that to to
+- [49:39] really make AI robotics work really to
+- [49:43] scale all this up we have to do this in
+- [49:46] a commercial setting where uh we and
+- [49:49] deploy robots and large scale automated
+- [49:52] tasks that people actually care about
+- [49:54] and have this all running in a
+- [49:56] self-sustainable manner
+- [49:58] um where the systems that we're already
+- [50:00] deploying is generating real value and
+- [50:03] through all those experience we improve
+- [50:05] the Learning System
+- [50:06] I think that was the key realization for
+- [50:09] the um to uh he decided to start
+- [50:12] Covenant now at the time
+- [50:15] um you're actually working on meta
+- [50:18] learning right learning to learn both
+- [50:21] for reinforcement learning and imitation
+- [50:24] learning it's kind of interesting that
+- [50:26] in what you said earlier kind of coming
+- [50:27] full circle in that you want our
+- [50:30] covenant robots to instantly learn about
+- [50:33] this long tail scenario on the Fly
+- [50:35] because when it's part of a sale it'll
+- [50:37] be there for the next few hours
+- [50:39] continually you need to adapt right away
+- [50:41] so maybe take us back first
+- [50:44] um you wrote some of the earliest modern
+- [50:45] era papers on learning to learn for
+- [50:49] reinforcement learning for imitation
+- [50:51] learning
+- [50:52] how how do you decide to work in that
+- [50:55] direction which was not a common
+- [50:57] Direction there was not a lot of work
+- [50:58] happening there I even decide that was
+- [51:00] interesting
+- [51:02] and from there maybe how do you see that
+- [51:05] field has evolved from where it was back
+- [51:07] then to how do you look at it today yeah
+- [51:09] that's a
+- [51:11] it's a really good question
+- [51:13] um
+- [51:14] I remember that
+- [51:17] I didn't start out like say hey this is
+- [51:20] the direction I want you I want to go
+- [51:22] eat
+- [51:23] um I think the story was like
+- [51:26] um I was really Amazed by some of the
+- [51:29] advances in deep reinforcement learning
+- [51:31] at a time when I started my PhD
+- [51:34] um I think was when we were firstly
+- [51:37] robots learning from just its own
+- [51:39] experience like learning to walk
+- [51:41] learning to uh play video games
+- [51:45] um but the the catch is that it uh it
+- [51:48] requires a vast amount of data for you
+- [51:50] to acquire such behaviors and there's
+- [51:53] not a lot of black guys were from
+- [51:55] further tasks and how they for his
+- [51:58] tunnel to humans uh to be honest it's
+- [52:02] kind of just like doing very nice random
+- [52:04] exploration and if you actually see
+- [52:07] the robot in in action in real world
+- [52:10] luckily we did a lot of determinants in
+- [52:12] simulation but in real world there will
+- [52:13] be quite painful to watch you'll have
+- [52:16] like say robo dogs or Global humanoids
+- [52:19] just legally
+- [52:20] um everywhere um and hoping to learn
+- [52:23] like how to understand how to work and
+- [52:25] so forth
+- [52:26] um and if we compare that with the human
+- [52:29] learning process we we can explore uh
+- [52:33] the world in in much more
+- [52:36] uh in a much more sophisticated manner
+- [52:38] where we have like uh low-level skills
+- [52:42] that we reuse we reason about how we for
+- [52:45] different options and we can learn
+- [52:47] rapidly um based on our our interaction
+- [52:51] um
+- [52:52] big one example Peter you get back then
+- [52:54] was like um you're like moving to a new
+- [52:57] house and like you were trying to find
+- [52:58] where the where the shower head was
+- [53:01] um and there's probably like some
+- [53:02] typical locations where people assume
+- [53:05] where that is and then if it's not there
+- [53:08] then like maybe you'll look somewhere
+- [53:09] else
+- [53:10] um but you'll do so like in very rapid
+- [53:12] manner on and leveraging a lot of
+- [53:14] fighter maybe within a fraction of a
+- [53:16] second
+- [53:17] um and those type of like I guess still
+- [53:21] um bernian reuse and like high level
+- [53:24] like reasoning about uh what what it can
+- [53:27] leverage in your past experience those
+- [53:28] are the things that are kind of lacking
+- [53:30] in the reinforcement learning algorithms
+- [53:32] that we had
+- [53:34] so there's a there's a field for uh or
+- [53:37] like a subject under equals money called
+- [53:40] hierarchical in person running and
+- [53:42] that's kind of focused on like even the
+- [53:46] learning algorithm or the agent more
+- [53:48] structure like maybe explicitly think
+- [53:51] about what skills he should first learn
+- [53:53] which then uh you can leverage to learn
+- [53:57] more love horizon or more challenging
+- [53:59] classes so at the time I was on
+- [54:02] bang my head against this uh this
+- [54:04] problem I really wanted to to solve it
+- [54:07] um but it didn't go very far
+- [54:10] um and I think the realization I I can't
+- [54:13] believe that maybe those things
+- [54:14] shouldn't be
+- [54:16] based into the algorithm or the
+- [54:18] structure of um of the agents maybe
+- [54:21] those things
+- [54:23] um show themselves be learned from data
+- [54:25] like what skills should exist uh what
+- [54:29] should be the learning evidence Behavior
+- [54:31] um and at the time our meta learning has
+- [54:35] already
+- [54:36] started become uh having some signs of
+- [54:39] life in in other domains not in robotics
+- [54:42] but in a computer vision I think many
+- [54:45] composition at the time and the
+- [54:47] philosophy of that is um rather than
+- [54:49] using data to improve the systems
+- [54:53] performance under a specific tasks you
+- [54:56] try to use data to include the learning
+- [54:59] process itself
+- [55:01] and the economy for computer vision
+- [55:05] would be like rather than needing like a
+- [55:08] collecting
+- [55:09] uh labeled say pairs of image passes and
+- [55:14] then use like
+- [55:15] um say some optimization algorithms to
+- [55:18] to learn the parameters of your network
+- [55:21] um you actually come up with some
+- [55:23] structure that's uh taking the even a
+- [55:26] series samples
+- [55:28] um that will give to the system and give
+- [55:30] it the the capacity of computation to
+- [55:34] learn whatever it needs on based on
+- [55:35] those examples so that you can make more
+- [55:39] correct predictions when presented with
+- [55:41] new examples
+- [55:43] um and technology for
+- [55:47] um robotics for reinforcing running is
+- [55:49] that
+- [55:50] um maybe we can
+- [55:52] um seek inspiration from this and
+- [55:54] actually
+- [55:55] um use the previous uh data or any sort
+- [55:59] of update how we can default to
+- [56:00] influence how the how the agent explores
+- [56:03] uh the world or to learn from this past
+- [56:06] experience
+- [56:08] um and I guess an analogy for for human
+- [56:10] is that when we learn like new related
+- [56:13] Steels the the incremental efforts
+- [56:16] um becomes lower and lower like if we um
+- [56:18] uh learn to play the piano
+- [56:20] um as you become more proficient the the
+- [56:24] effort of like learning your milkshakes
+- [56:26] um and the similar difficulty becomes
+- [56:28] like easier and easier
+- [56:31] um
+- [56:32] and so and that was that was kind of
+- [56:35] like
+- [56:36] um all of the considerations that that
+- [56:39] kind of I was uh I was going through
+- [56:41] when when thinking about like starting
+- [56:43] uh when starting uh to Chase format and
+- [56:47] learning
+- [56:48] um and that's basically if we want the
+- [56:51] machine learning algorithms to be
+- [56:54] um to be more successful uh and to have
+- [56:57] shooting titles and AI they must be
+- [57:00] libraries what they've learned in the
+- [57:01] past to help them learn better in the
+- [57:05] future so I guess that yeah I could
+- [57:07] think you could think about like where
+- [57:08] metal learning is um is today um has
+- [57:12] been a few years I guess since I since I
+- [57:14] was doing sure academic research but I
+- [57:17] think it's actually been
+- [57:20] um being really exciting
+- [57:22] um and
+- [57:24] I think one of the most exciting about
+- [57:26] maybe maybe this maybe is actually
+- [57:29] through other related videos uh and I
+- [57:31] was thinking more in particular the
+- [57:33] large language models
+- [57:35] um and there's actually some very
+- [57:36] converging themes because in those
+- [57:39] models you can
+- [57:40] prompt the models um to then perform a
+- [57:44] very diverse set of Downstream tasks
+- [57:47] um and those problems can be include
+- [57:49] like a few examples that you're giving
+- [57:51] to those models
+- [57:53] um and the tasks that they can then
+- [57:54] perform of include such as like writing
+- [57:57] poems answering like Customs or
+- [57:59] questions current database and and so
+- [58:02] forth
+- [58:04] um and I guess if we view this uh
+- [58:07] capabilities through the lens of meta
+- [58:09] learning
+- [58:11] um I think the process that that was
+- [58:13] used to train those large language
+- [58:15] models um which is basically extremely
+- [58:18] simple we're really just
+- [58:20] uh trying to get a model to predict the
+- [58:23] next possible word uh it's such a simple
+- [58:25] algorithm and through that and through
+- [58:27] the vast amount of data it has seen it
+- [58:30] has acquired this Behavior to quickly
+- [58:32] learn and adjust uh what it should do
+- [58:34] based on like the past token it has seen
+- [58:38] um I think it's been really exciting and
+- [58:41] I'm very excited about such advances on
+- [58:44] starting to get applied and actually
+- [58:46] getting deployed um to uh to uh to
+- [58:50] things other than the language domain
+- [58:52] and um for example like getting new
+- [58:56] visual semantics understanding uh or a
+- [58:59] new robotic manipulation skills from uh
+- [59:02] its own Tron error the staff is still
+- [59:05] active area of research
+- [59:07] um I think we we are actually going to
+- [59:09] start seeing this happening on a
+- [59:10] covarence um in our in our systems
+- [59:16] very exciting Rocky
+- [59:18] um no
+- [59:19] switching from the technical to maybe
+- [59:21] more your your personal
+- [59:23] path in some sense you are likely the
+- [59:26] single most productive person in the
+- [59:28] world as far as I can tell
+- [59:30] um and as far as many people tell me who
+- [59:32] I you know I work with you
+- [59:35] um any productivity tricks you can share
+- [59:38] yeah thanks Eva um
+- [59:40] because I can for the uh
+- [59:43] can't really
+- [59:45] say that or
+- [59:47] um I guess I know so many uh talented
+- [59:49] and very productive people I guess um
+- [59:52] around my life and of course when I
+- [59:54] cover your envious so I feel very likely
+- [59:57] to work with so many quick people here
+- [60:00] um but since you asked I guess like if I
+- [60:03] have to
+- [60:04] share something I think one
+- [60:07] if you want uh
+- [60:10] tip and
+- [60:12] I guess this is also making more for me
+- [60:14] observing other people since I'm I'm bad
+- [60:16] at observing myself is that um it pays
+- [60:20] off to um
+- [60:22] invest some efforts uh consciously to um
+- [60:25] to make you more productive uh some
+- [60:28] examples could include like learning to
+- [60:30] use you know productivity tools um
+- [60:34] um like uh trying out like a new uh
+- [60:38] development environment I guess this is
+- [60:40] more specific to computer science I
+- [60:41] guess like new ideas uh new shortcuts
+- [60:45] were like GitHub compilers which I
+- [60:47] recently found to be uh
+- [60:49] a great productivity helper highly
+- [60:51] recommend people to try it out I'm not
+- [60:53] taking commissions just to get to
+- [60:55] clarify
+- [60:57] um and or I mean in more specialized
+- [61:00] domains on build tools to make myself
+- [61:02] more effective
+- [61:04] um and I guess that that could be um I
+- [61:08] think the the part of software makes
+- [61:09] like automation uh kind of like a
+- [61:12] central nausea VR what we're doing on a
+- [61:15] day-to-day basis only and of course uh
+- [61:18] learn from others uh if you if you find
+- [61:21] some other people always highly
+- [61:22] productive then try to finally learn
+- [61:25] from them
+- [61:27] um and one more thing I'll say is that
+- [61:31] and I like to realize there's more and
+- [61:33] more uh from my time my recovery
+- [61:36] covariance which is that rather than
+- [61:38] just focusing on the day-to-day
+- [61:40] productivity
+- [61:41] um
+- [61:42] it's could be more important to um keep
+- [61:46] an eye on the high level Direction
+- [61:47] whether like you are you're working on
+- [61:49] the most important things towards
+- [61:51] whatever goals that you are you're
+- [61:52] setting out for yourself and sometimes
+- [61:54] it seems helpful to maybe take some time
+- [61:57] to zoom out and revisit what you're
+- [61:59] doing
+- [62:00] um the worst case you want to avoid is
+- [62:02] like you are being productive day by day
+- [62:05] um you know imagine like maybe like an
+- [62:06] instantaneous velocity but if you if
+- [62:09] there's actually more important and more
+- [62:10] more impactful things that could be
+- [62:12] working on rather than what you're doing
+- [62:14] at the moment
+- [62:15] um those could be
+- [62:16] much more important productivity
+- [62:18] improvements than just overseeing our
+- [62:20] movement these are some great advice
+- [62:22] Rocky thank you for for sharing and one
+- [62:26] of the things you said reminded me of
+- [62:28] the beginning of your PhD actually many
+- [62:30] years ago you said sometimes you want to
+- [62:32] explore tools you might want to build
+- [62:34] some tools that make you more productive
+- [62:35] I remember that you
+- [62:37] build a little tool that allowed to
+- [62:40] easily launch experiments on AWS that
+- [62:43] made you a lot more productive but of
+- [62:45] course you shared it with the entire lab
+- [62:47] with other people and so forth and made
+- [62:49] everybody more productive around you
+- [62:51] because they could launch their
+- [62:52] experiments so much more easily at scale
+- [62:54] than they could before you had built
+- [62:56] that tool and being able to I guess
+- [62:58] build those tools that don't exist yet
+- [63:01] that make you more productive is quite a
+- [63:03] superpower too
+- [63:05] um
+- [63:06] now
+- [63:08] I know you work really really hard but I
+- [63:09] gotta imagine that sometimes you you try
+- [63:12] to relax and get away from things what
+- [63:14] are some things you like to do to truly
+- [63:16] relax and I I do think it's quite
+- [63:19] important to uh to have a balance and to
+- [63:22] take time off from work and to kind of
+- [63:25] recharge yourself
+- [63:27] um the few things I I enjoy um one is
+- [63:32] hiking
+- [63:33] um so um right now I'm kind of traveling
+- [63:36] back and forth between Hong Kong Bay
+- [63:38] Area and luckily like in both areas
+- [63:42] there's a lot of like wood trails um and
+- [63:44] I enjoy hiking with friends and and so
+- [63:46] forth and in Hong Kong I'm actually
+- [63:51] raising a rabbit together with my with
+- [63:54] my wife Jolly so its name is Puffin I'm
+- [63:58] very adorable I guess a great uh
+- [64:01] temporary distraction from work when I
+- [64:04] was there I was like now just playing
+- [64:06] with it
+- [64:07] um and actually recently I've started to
+- [64:10] learn to play piano again kind of
+- [64:13] inspired by my wife Jolly
+- [64:16] um Shia rented a piano about a year ago
+- [64:19] when we moved into the to the current
+- [64:21] apartment in Hong Kong and um so I think
+- [64:25] my initial motivation was to you and
+- [64:27] increase its utilization rate if you
+- [64:30] actually give it a try and it turns out
+- [64:31] to be um very rewarding um it's
+- [64:34] definitely kind of hard to learn which
+- [64:36] is also interesting I guess to someone
+- [64:38] who's thinking about learning algorithms
+- [64:40] um and I I quite enjoy it uh as a kind
+- [64:43] of context switching for work
+- [64:47] now this is really thanks for sharing
+- [64:49] Rocky and this reminds me actually of
+- [64:51] something
+- [64:52] um I maybe should have made part of your
+- [64:54] your intro but I'll share it now here at
+- [64:57] the end is that at Berkeley when you
+- [64:59] were undergrad student you founded the
+- [65:01] Chinese acapella group and so music is
+- [65:05] is kind of part of your life for for a
+- [65:07] long time and it sounds like you
+- [65:08] switched from singing to to piano
+- [65:10] playing now yeah I guess I wouldn't
+- [65:13] really call it switching though maybe
+- [65:15] like um
+- [65:17] I see piano as nearly slightly less
+- [65:19] disturbing to neighbors
+- [65:21] um although maybe our neighbors might
+- [65:23] not completely agree
+- [65:25] um and
+- [65:27] yeah I guess those are also quite
+- [65:29] enjoyable so you're still singing today
+- [65:31] on time to time yeah well anybody
+- [65:34] listening if you search for the Berkeley
+- [65:37] Chinese acapella group somewhere out
+- [65:40] there on the internet you'll find some
+- [65:41] beautiful recordings I've actually heard
+- [65:43] Rocky singing it's it's really
+- [65:45] impressive
+- [65:46] um so yeah go find it when you have a
+- [65:48] chance
+- [65:50] um well thank you Rocky for making it
+- [65:52] time such a great conversation thank you
+- [65:54] Peter Well I really enjoy this

@@ -1,0 +1,322 @@
+---
+title: "Hello everybody."
+video_id: "O5nQKzBb0oc"
+video_url: "https://www.youtube.com/watch?v=O5nQKzBb0oc"
+speaker: "an"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  In this lesson, we're going to be taking a look at operators
+  Now, operators in R are just symbols or keywords that perform operations on variables or values if you haven't already put those values into a variable
+  Now, we're going to take a look at several different types of operators
+key_points:
+  - "one that we're going to take a look at is an arithmetic and I spell this right operator"
+  - "one that we're going to look at is a little bit more challenging"
+  - "Covers tutorial concepts and applications"
+category: "Tutorial"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:38:39+09:00"
+---
+
+# Transcript: O5nQKzBb0oc
+
+- URL: https://www.youtube.com/watch?v=O5nQKzBb0oc
+- Retrieved at: 2025-12-30T10:38:39+09:00
+
+## Text
+
+- [00:00] Hello everybody. In this lesson, we're
+- [00:01] going to be taking a look at operators.
+- [00:03] Now, operators in R are just symbols or
+- [00:06] keywords that perform operations on
+- [00:08] variables or values if you haven't
+- [00:10] already put those values into a
+- [00:12] variable. Now, we're going to take a
+- [00:13] look at several different types of
+- [00:15] operators. But if you've been following
+- [00:17] along in this series, we've already used
+- [00:19] an operator before. It was something
+- [00:21] called an assignment operator. So, if we
+- [00:23] have our variable and we go like this,
+- [00:27] this is an assignment operator. These
+- [00:29] are characters that say when we put a 42
+- [00:33] over here, this 42 is going to stay
+- [00:36] within this variable. So this already is
+- [00:38] something that we know. So that is an
+- [00:41] assignment operator. Now the next one
+- [00:44] that we're going to take a look at is an
+- [00:46] arithmetic and I spell this right
+- [00:49] operator. There are other ones as well
+- [00:51] like comparison operators and logical
+- [00:54] operators and we'll get to those in just
+- [00:55] a little bit. But let's start out with
+- [00:57] looking at arithmetic operators. These
+- [01:00] are operators that are specifically
+- [01:01] built and designed for math. And so
+- [01:03] let's declare two different variables
+- [01:06] just to start. And then we'll take a
+- [01:07] look at these arithmetic operators. So
+- [01:09] let's just do the classic x and y. We'll
+- [01:12] say x is 10 and we'll say y is 3. Now
+- [01:19] let's go ahead and declare those. We're
+- [01:20] going to see in our environment right
+- [01:21] over here. We have our x and our y.
+- [01:24] Within these variables, we have the very
+- [01:27] basic ones. We're going to take our
+- [01:29] variables. We're going to say x + y. And
+- [01:32] this is going to be, of course, 13. Now,
+- [01:35] what we can do, by the way, is we can
+- [01:38] assign this to another variable. So, if
+- [01:40] we wanted to, we can say a is going to
+- [01:43] be assigned x + y. And if we run that, x
+- [01:46] + y is 13. So, a becomes 13. Now, we
+- [01:51] don't have to do that every time we do
+- [01:53] any type of operator or mathematical
+- [01:56] equation, but if we want to store that
+- [01:58] value, we can. And this may not look
+- [02:00] like it makes sense, but it does make
+- [02:02] sense because we've stored these values.
+- [02:04] We're adding them together, and then we
+- [02:07] are assigning them. So, that is just
+- [02:09] simple uh x + y, but we can also do x
+- [02:13] minus y. This is just subtraction, and
+- [02:16] we're going to get seven. So, that's 10
+- [02:17] - 3 is equal to 7. We also have
+- [02:20] multiplication which if we do x * 10 and
+- [02:24] that's the little star right here. So
+- [02:26] that is on my keyboard the shift 8. If
+- [02:30] we do x and sorry it's supposed to be uh
+- [02:33] x * y we're going to get 30. And so
+- [02:36] we're just multiplying them together. We
+- [02:38] have one more of the basic ones and then
+- [02:40] we'll start going to the kind of the
+- [02:41] more complicated ones. But that's
+- [02:43] division. So, we're going to say x and
+- [02:45] then we're going to do a forward slash
+- [02:48] y. And this is going to be x / y. And
+- [02:51] that's
+- [02:52] 3.3333 because it's 3 into 10. Now, the
+- [02:56] next one that we're going to look at is
+- [02:57] a little bit more challenging. This is
+- [02:59] an exponent or to the power of. So, it
+- [03:01] would be x and we're going to do this
+- [03:03] little carrot here. That's what it's
+- [03:05] called. It's called a carrot. X to the
+- [03:07] power of y. So, we're going to do 10 to
+- [03:09] the power of three. So, be 10 x * 10 *
+- [03:11] 10. And so when we do that, we're going
+- [03:13] to get 1,00. So that one's really good.
+- [03:16] I'm sure you've seen that if you've
+- [03:17] taken algebra or, you know, other types
+- [03:20] of maths, you're going to recognize that
+- [03:22] pretty quickly. But this next one is
+- [03:23] most likely one that you haven't seen.
+- [03:25] This is called a modulo. And what it
+- [03:27] does is it takes the remainder of a
+- [03:29] division. So if we do x and we're going
+- [03:32] to do two percent signs of y. If we run
+- [03:37] this, we're going to do 10 / 3, which
+- [03:40] means three can go into 10, but we have
+- [03:42] a remainder of one. And so that's what a
+- [03:45] modulo is used for. Now, I will say
+- [03:48] you're going to use these a lot. They're
+- [03:50] fairly straightforward. They're not
+- [03:52] crazy confusing. This is kind of
+- [03:54] foundational math that most people
+- [03:55] should know. If you haven't, just mess
+- [03:57] around with those. Uh those are really
+- [03:59] good to know. Now, I'm not going to dive
+- [04:00] into it a lot, but have you ever heard
+- [04:03] of PEMDOS? This is the order of
+- [04:05] operations within math. This is
+- [04:08] something you need to be aware of
+- [04:09] because if you do something like, and
+- [04:12] I'm just going to use numbers. I'm going
+- [04:13] to do five * 10. If we do it just like
+- [04:16] this and we run it, of course, that's
+- [04:19] going to be 50. But then, let's do
+- [04:22] divided by 2 and let's run this. Now, of
+- [04:26] course, that's going to be 25. But if I
+- [04:29] add plus six here and we run this, this
+- [04:33] is where it starts getting a little
+- [04:34] complicated, right? What's happening
+- [04:36] where and what's going to happen if I
+- [04:39] add a parentheses around all of this? So
+- [04:42] this is where PEMDOSS comes into play.
+- [04:44] PEMDOS stands for parenthesis, exponent,
+- [04:46] multiplication, division, addition,
+- [04:48] subtraction. So if we are looking at
+- [04:51] this, we have to start with the P, the
+- [04:53] parenthesis. So, we're going to do
+- [04:54] everything in this parenthesis first
+- [04:57] before we do anything outside of the
+- [04:59] parentheses, which is multiplying times
+- [05:01] 5. We would also do the exponent, which
+- [05:03] we don't have, multiplication, which is
+- [05:05] not in the parenthesis. And then
+- [05:07] division. So, we would divide 10 by 2,
+- [05:09] which is 5. Then, we would add six,
+- [05:11] which is 11 * 5 is 55. Let's make sure
+- [05:14] that's correct. And there we go. If we
+- [05:17] did it in a different way, if we uh put
+- [05:20] the parentheses over here, and let's get
+- [05:22] rid of this real quick. If we put the
+- [05:24] parentheses over here, now we're going
+- [05:26] to multiply in times 50, then divide by
+- [05:29] two and add six, and that's going to be
+- [05:32] 31 because we're going to get 25 right
+- [05:34] here, and then add six to it. And so
+- [05:37] these parentheses are very important.
+- [05:39] You will see these in different types of
+- [05:41] equations and different types of math
+- [05:42] that you'll work with within R as it is
+- [05:44] very statistics heavy. So, you know,
+- [05:46] this is just kind of foundational
+- [05:47] arithmetic and math that you need to
+- [05:49] know in order to work with these types
+- [05:51] of programming languages. The next one
+- [05:52] that we're going to take a look at, and
+- [05:54] let's give us some more room right here,
+- [05:56] and these are going to be comparison
+- [05:59] operators. Comparison operators allow
+- [06:01] you to evaluate different conditions.
+- [06:04] So, let's take a look at one. So, we
+- [06:06] have x and y here. We created those
+- [06:09] earlier. So, we're going to say x is
+- [06:11] greater than y. Now, when we run this,
+- [06:14] we're going to get a different output.
+- [06:16] We're no longer going to get a string or
+- [06:18] a number. Now, we're getting what's
+- [06:20] called a boolean
+- [06:22] value. Now, this boolean is either true
+- [06:25] or it is false. So, now if we say x is
+- [06:29] less than y and we run this, and I did
+- [06:32] an uppercase, whoops, let's go ahead and
+- [06:35] run this. Now, we're going to get a
+- [06:37] false. So depending on whether it is a
+- [06:41] true condition, it evaluates to true or
+- [06:43] it evaluates to false, that's what our
+- [06:45] output is going to be. Now we can also
+- [06:48] add in to these ones an equal than or an
+- [06:50] equal uh as well. So it would say x is
+- [06:53] less than or equal to y. And if we run
+- [06:55] it, it's still going to be false, but we
+- [06:57] can add that in if you want that these
+- [07:00] uh to potentially be equal or you want
+- [07:02] to check for that. The other ones that
+- [07:04] you really need to know are x is equal
+- [07:07] to y. Now this is wrong uh because this
+- [07:12] is actually an assignment operator just
+- [07:14] like let's go back up. This is in
+- [07:16] certain conditions within R. We need to
+- [07:19] say equal equal. This is actually what
+- [07:22] you need to write. And so it may seem a
+- [07:24] little counterintuitive but that is the
+- [07:26] syntax that you need to use. Now x is
+- [07:30] not equal to y. One is 10, one is three.
+- [07:32] So of course that's going to be false.
+- [07:34] But if we said x is equal to x then this
+- [07:37] will evaluate to true. The last one that
+- [07:40] you need to know and this is the
+- [07:42] opposite of equal to is not equal to. So
+- [07:45] if we say x is not equal to y, that's an
+- [07:49] exclamation point with an equal sign. If
+- [07:51] we say x is not equal to y, we're
+- [07:53] checking are they not equal? And that is
+- [07:56] true. They're not equal. And so these
+- [07:58] are comparison operators that are very
+- [08:00] commonly used. You'll use these so often
+- [08:03] they'll just become second nature. And
+- [08:04] the last one that we're going to take a
+- [08:05] look at is logical
+- [08:08] operators. Now logical operators uh you
+- [08:11] know aside from you know the basics.
+- [08:14] Logical operators are used all the time
+- [08:16] for everything. They are here to help
+- [08:19] determine and evaluate expressions to
+- [08:21] determine if they are true or if they
+- [08:23] are false or if multiple conditions are
+- [08:25] true or false. So right up here let's
+- [08:28] get this uh x is greater than y. We
+- [08:31] know that that is true, right? We know
+- [08:35] this is true. But what if I add I want
+- [08:38] that to be true. And this is where the
+- [08:40] logical operator comes in. So we want x
+- [08:43] and y that way evaluates to true. But we
+- [08:45] also want x to be equal to x. So we're
+- [08:49] going to put this right here. So now
+- [08:52] we're evaluating two separate
+- [08:54] conditions. And this one right here,
+- [08:57] this amperand I believe is what it's
+- [08:58] called, which is a shift uh let's see,
+- [09:01] seven on my keyboard. This amperand
+- [09:04] means that both this and this condition
+- [09:07] need to be met in order for it to
+- [09:09] evaluate to true. Let's go ahead and run
+- [09:11] this. So since both of these conditions
+- [09:14] is true, this is great. X is greater
+- [09:16] than Y and X is equal to X, this
+- [09:18] evaluates to true. But let's change
+- [09:21] this. We're going to change it to Y. We
+- [09:24] know this is false. So this is true but
+- [09:27] this is false. So are they both true? So
+- [09:29] it needs this and this need to be true.
+- [09:33] Since one of them is false, we will get
+- [09:35] an output of false. And so this is what
+- [09:37] a logical operator is. Now we're going
+- [09:40] to take take this exact same thing and
+- [09:43] we're going to bring it down here and
+- [09:44] we're going to change this into a bar.
+- [09:47] and I call it a bar, but it's a shift
+- [09:49] and it's right above my enter key on my
+- [09:51] keyboard, right next to the backslash.
+- [09:53] Um, but this right here means or. So,
+- [09:55] this is and and this is or. These are
+- [09:58] the ones you're going to use 99% of the
+- [10:01] time. So, you're going to say is this
+- [10:03] condition true or is this condition
+- [10:06] true? If either one of these conditions
+- [10:09] are true, it will be true down here.
+- [10:11] They don't both have to be true. So now
+- [10:14] if we run this, we're going to get true.
+- [10:17] X is greater than Y. This evaluates to
+- [10:20] true or this which evaluates to false.
+- [10:24] Since just one of them is true, then the
+- [10:26] entire expression evaluates to true.
+- [10:29] There is technically one more logical
+- [10:30] operator and I'm going to be honest I I
+- [10:33] don't think I ever use this one. Um or
+- [10:35] if I do, it's a very specific use cases.
+- [10:38] This is the not operator. This is going
+- [10:41] to say this. So let's run this. This is
+- [10:44] false, but we're going to run this with
+- [10:47] the not operator and it's going to
+- [10:49] change it to true. So it basically
+- [10:50] reverses the boolean value that is in
+- [10:53] the output. If it's true, it changes it
+- [10:54] to false. If it's false, it changes it
+- [10:56] to true. It just flips the value. That's
+- [10:58] all this operator does. I think I've
+- [11:00] used this a few times in very specific
+- [11:02] use cases, but 99.9% of the time, I'm
+- [11:06] using the and and the or logical
+- [11:08] operators. Those are the ones that are
+- [11:09] the most common to use. So, this is the
+- [11:11] basics of using operators. Now, in the
+- [11:13] next lesson, we're going to start
+- [11:15] working with our data set, how we can
+- [11:17] pull it in, how we can put it into a
+- [11:18] data frame, how we can write files and
+- [11:21] create files as well. If you haven't
+- [11:23] already, be sure to check out my full R
+- [11:24] for data analytics course on Analyst
+- [11:26] Builder. I'll leave a link in the
+- [11:28] description and a coupon code if you
+- [11:30] would like to take that course. Thank
+- [11:32] you guys so much for watching and I will
+- [11:33] see you in the next video.
+- [11:36] [Music]

@@ -1,0 +1,358 @@
+---
+title: "Today I'm going to show you how to build an AI agent in Python in less than minutes. So let's get st..."
+video_id: "gaGaPpnexxA"
+video_url: "https://www.youtube.com/watch?v=gaGaPpnexxA"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Today I'm going to show you how to build
+  an AI agent in Python in less than
+  minutes. So let's get started. To begin
+key_points:
+  - "can use anything that you want. I do"
+  - "Python projects because it is well"
+  - "you want to try it out for free, you can"
+  - "Do this in the directory where you want"
+  - "to create this project. So we're going"
+  - "open aai. Now, these are all the"
+  - "agent. There's multiple ways to do this."
+  - "langraph, which is a really modern"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: gaGaPpnexxA
+
+- URL: https://www.youtube.com/watch?v=gaGaPpnexxA
+- Retrieved at: 2025-12-30T14:40:17+09:00
+
+## Text
+
+- [00:00] Today I'm going to show you how to build
+- [00:01] an AI agent in Python in less than 10
+- [00:05] minutes. So let's get started. To begin
+- [00:07] our project, we need to open up a folder
+- [00:09] in some type of code editor. In my case,
+- [00:11] I'm going to be using PyCharm, but you
+- [00:12] can use anything that you want. I do
+- [00:14] typically recommend PyCharm for large
+- [00:16] Python projects because it is well
+- [00:18] designed for Python and I have a
+- [00:20] long-term partnership with them. So if
+- [00:21] you want to try it out for free, you can
+- [00:23] do that by clicking the link in the
+- [00:24] description. Now I've made a project
+- [00:26] here or made a folder called 10minute
+- [00:28] agent. So open up some kind of folder.
+- [00:30] We're then going to go to our terminal
+- [00:31] and we're going to install the
+- [00:32] dependencies that we need. Now to
+- [00:34] install these, I recommend using uv and
+- [00:36] by starting to do uv init and then dot.
+- [00:39] Do this in the directory where you want
+- [00:41] to create this project. So we're going
+- [00:43] to initialize our project. If you don't
+- [00:45] already have uv installed, I'll leave a
+- [00:46] video on screen that shows you how it
+- [00:48] works. From here, we're going to open up
+- [00:50] main.py, delete everything inside of
+- [00:52] there, and then start installing our
+- [00:54] dependencies. So from our terminal,
+- [00:55] we're going to type uvad. We're going to
+- [00:57] add lang chain. We're going to add lang
+- [01:00] graph. We're going to add python-
+- [01:03] env. And we're going to add langchain-
+- [01:07] open aai. Now, these are all the
+- [01:09] dependencies that we need for making an
+- [01:10] agent. There's multiple ways to do this.
+- [01:12] We're going to use lang chain and
+- [01:14] langraph, which is a really modern
+- [01:15] approach that makes it very easy for us
+- [01:17] to design agents in Python. So, go ahead
+- [01:19] and press enter. Add all of those
+- [01:21] packages and then we're good to start
+- [01:22] writing some code. So, for this project,
+- [01:24] I'm going to use GPT4 as my LLM, but you
+- [01:27] can use any LLM that you want. Since I'm
+- [01:29] using an LLM from OpenAI, I need to get
+- [01:31] an OpenAI API key. So, I'm going to make
+- [01:34] a new file here. I'm going to call this
+- [01:36] env. And then inside of this file, I'm
+- [01:39] going to make a variable that says
+- [01:40] OpenAI_API_key.
+- [01:42] And I'm going to fill this in with my
+- [01:44] OpenAI key, which I'll get right now.
+- [01:46] So, in order to get a key, you will need
+- [01:47] an account with OpenAI. You can go to
+- [01:49] this website right here,
+- [01:50] platform.opai.com/api. openai.com/api
+- [01:53] keys. You will need a credit card on
+- [01:55] file, but this will cost you a fraction
+- [01:56] of a few cents if you're just using it
+- [01:58] for a demo example. So, here we're going
+- [02:00] to go here, go ahead and press on create
+- [02:02] secret key. We're then going to copy the
+- [02:04] key, which we're not going to share with
+- [02:05] anybody else, and we're going to paste
+- [02:06] this inside of our environment variable
+- [02:08] file. From here, we'll save, close, and
+- [02:10] then we're ready to start building our
+- [02:12] agent. Now, speaking of agents, today's
+- [02:15] sponsor, Notion, just released theirs,
+- [02:18] which is a complete gamecher. Now,
+- [02:20] Notion's new AI agent doesn't just help.
+- [02:22] It finishes the job for you. And as a
+- [02:25] Notion power user, myself, this has been
+- [02:27] absolutely amazing. Now, this thing
+- [02:29] isn't a chatbot. It's an actual AI
+- [02:31] teammate that lives inside of your
+- [02:33] Notion workspace and can complete tasks
+- [02:35] end to end. You give it a goal like
+- [02:37] summarize last week's meeting notes into
+- [02:40] a project update, and it figures out the
+- [02:42] plan, pulls the info, and updates your
+- [02:44] pages. It even notifies your teammates
+- [02:46] as well. Now, it's mastered every Notion
+- [02:49] building block. So, it can edit
+- [02:50] databases, rewrite documents, audit
+- [02:52] knowledge bases, or even draft an entire
+- [02:55] launch plan, all exactly the way that
+- [02:57] you would. And here's what makes it
+- [02:59] pretty cool. Your agent actually learns
+- [03:01] your style. You can tell it where to
+- [03:03] file things, how to write, even what
+- [03:05] tone to use. And over time, it builds
+- [03:07] memories so it starts anticipating what
+- [03:09] you need next. So, instead of you
+- [03:11] spending your day buried in admin work,
+- [03:13] your agent just handles it all for you.
+- [03:16] Now, if you want to try it out, Notion
+- [03:17] agents are available right now. Click
+- [03:19] the link in the description and let
+- [03:21] notion agent do your work for you.
+- [03:23] Thanks to Notion. Now, let's get back
+- [03:25] into it. So, because I'm trying to do
+- [03:27] this in 10 minutes, I'm not going to
+- [03:28] write every line of code out
+- [03:30] individually. I'm going to copy in some
+- [03:31] different chunks. And if you want all of
+- [03:33] the code, I'll leave a link to it in the
+- [03:35] description where you can download it
+- [03:36] and mess with it from there. So, first
+- [03:37] things first, we're going to bring in
+- [03:39] our imports. Now, we're going to need to
+- [03:41] import a few things from the standard
+- [03:42] library for doing our typing. We're then
+- [03:44] going to bring chat openai. We're going
+- [03:46] to bring in a bunch of different
+- [03:47] messages that we need. We're going to
+- [03:49] import the tool and then we're going to
+- [03:50] import the create react agent which
+- [03:52] comes from langraph. Now we're also
+- [03:54] going to do another import where we say
+- [03:56] from.env
+- [03:57] import and this is going to be load.env.
+- [04:00] We're then going to call the load.env
+- [04:02] function. And what this is going to do
+- [04:03] is load our environment variables from
+- [04:05] our environment variable file. We're
+- [04:07] using a combination of langraph and lang
+- [04:09] chain here in order to initialize our
+- [04:12] agent and to get it to be able to call
+- [04:14] tools. The thing that makes an agent an
+- [04:16] agent is that it has access to something
+- [04:19] outside of just a chat interface. So in
+- [04:21] our case, we're going to provide to this
+- [04:23] agent a series of tools that allows it
+- [04:25] to generate kind of mock user data and
+- [04:28] then save that data into JSON files.
+- [04:30] Once you understand how to add one tool,
+- [04:32] you can add as many of them as you want.
+- [04:34] So let me copy in a few tools that our
+- [04:36] agent is going to have access to. Then
+- [04:38] we'll start initializing the agent and
+- [04:40] start writing everything so we can
+- [04:41] interact with it. So I've just added
+- [04:43] three tools which really are just Python
+- [04:45] functions to my file. Let's go through
+- [04:47] them one by one so you can understand
+- [04:49] the kind of composition of a tool. Now a
+- [04:52] tool can simply be a Python function. So
+- [04:54] in this case we have a tool called write
+- [04:56] JSON. We take in some file path which is
+- [04:58] the file that we want to write to and
+- [05:00] then some data that we want to write and
+- [05:02] this returns a string. Now we denote
+- [05:04] that this is a tool by decorating it
+- [05:06] with the at@ tool decorator which we
+- [05:08] imported right here from langchain. Now
+- [05:10] inside of this tool we can do anything
+- [05:12] that we want. But we should make sure
+- [05:14] that we return some kind of AI readable
+- [05:17] information so that the AI understands
+- [05:19] what this tool call actually achieved.
+- [05:21] Now the thing that makes this a tool is
+- [05:23] this tool decorator. But for any tool,
+- [05:25] you need to make sure that you denote
+- [05:27] the types of your parameters. So in this
+- [05:29] case, we've denoted this is a string and
+- [05:31] this is a dictionary and then the return
+- [05:33] type of the function. This is
+- [05:34] information that will be passed to our
+- [05:36] LLM or our agent. So it knows which tool
+- [05:39] to call and how to call that tool. It's
+- [05:42] also important that you write a dock
+- [05:43] string. That's something inside of these
+- [05:45] three uh quotes right here that
+- [05:47] describes what the function does or what
+- [05:50] the tool does so the agent understands
+- [05:52] which tools to call. So in this case we
+- [05:54] have write a Python dictionary as JSON
+- [05:56] to a file with pretty formatting. So now
+- [05:58] the agent knows this is the tool that I
+- [06:00] can use when I need to do that. Moving
+- [06:02] on, we have our next tool which can read
+- [06:03] a JSON file. Same thing we denote the
+- [06:06] parameters and their types as well as
+- [06:07] the return type of the function. And
+- [06:09] then we have a dock string that
+- [06:10] describes when to use this tool or this
+- [06:12] function. Okay. And we return good error
+- [06:14] messages explaining what's going on.
+- [06:17] Lastly, we have another tool. This can
+- [06:18] generate sample users. We take in a list
+- [06:20] of first names, a list of last names, a
+- [06:22] list of domains, and a minimum and
+- [06:24] maximum age. And then we generate some
+- [06:26] sample user data with all of this error
+- [06:28] and validation checking and pass that
+- [06:30] back to the LLM. You can have any tools
+- [06:33] that you want. I'm just giving you three
+- [06:34] here so you can see a bit of diversity
+- [06:36] in terms of how they work. Okay, so now
+- [06:38] that we have our tools, we need to
+- [06:39] create an LLM and an agent and
+- [06:41] essentially give these tools to our LLM.
+- [06:44] So let's start by defining a list of
+- [06:45] tools, which we can do with this
+- [06:47] variable right here. Then let's define
+- [06:49] our model. So the model that we're going
+- [06:51] to use or the LLM is going to be GPT4
+- [06:54] mini. You can use any LLM that you want
+- [06:56] here, but this is the one that I'll use
+- [06:57] for this video. Then we're going to
+- [06:59] define what I call our system message or
+- [07:02] our system prompt. Now that's not just
+- [07:04] what I call it, that's what it's called.
+- [07:06] But essentially, this tells the system
+- [07:08] what it's supposed to be doing so that
+- [07:10] it has some more context in terms of how
+- [07:12] it should behave. You can read through
+- [07:13] this if you want, but essentially I'm
+- [07:15] telling it that this is a data generator
+- [07:17] agent that's able to generate sample
+- [07:19] data for an application and then save
+- [07:21] that in a JSON file. Now, once we have a
+- [07:24] list of tools, an LLM or a model, and
+- [07:26] some system message, we can create our
+- [07:29] agent. And that's because an agent is
+- [07:30] made up of those three components. It
+- [07:32] can also be made up of more, but in this
+- [07:34] case, that's what we'll use. So, we can
+- [07:35] say agent is equal to create react
+- [07:37] agent. We pass the LLM, we pass the list
+- [07:40] of tools, and then we pass the system
+- [07:42] message. Now, in order to use our agent,
+- [07:44] we need some kind of driver code. So,
+- [07:46] we're going to bring in a function that
+- [07:48] looks like this, where in order to run
+- [07:50] the agent, we take in some user input,
+- [07:52] we can take in a history, which is all
+- [07:54] of the previous messages. So, we can
+- [07:55] store that and have some previous
+- [07:57] context, and then we return an AI
+- [08:00] message. What we're able to do is invoke
+- [08:02] the agent. So, we say agent.invoke.
+- [08:04] We can pass all of the previous messages
+- [08:06] plus the new message. And then what we
+- [08:09] can say is that we have some limit in
+- [08:10] terms of how many tool calls this can do
+- [08:12] which is 50. And then we can return
+- [08:14] whatever the last response is from this
+- [08:17] agent. If there's an error then we can
+- [08:19] return something like this. Now what
+- [08:21] this is going to do is automatically
+- [08:23] respond to the most recent message for
+- [08:25] us. So we'll get the most recent
+- [08:27] response and it will do any tool calls
+- [08:29] as it needs to in this step. So when we
+- [08:32] agent on.invoke invoke and we have
+- [08:33] access to various tools. If the agent
+- [08:35] needs to call a tool, it will go ahead
+- [08:36] and just call it, use the tool and then
+- [08:39] return to us whatever the response is
+- [08:41] that it thinks that we want. That's how
+- [08:43] we run the agent. Now, let's bring in a
+- [08:45] little bit more driver code just to make
+- [08:46] this application look a bit prettier and
+- [08:48] we can test it out. So, what I'm doing
+- [08:50] is I'm just putting some formatting. I'm
+- [08:52] saying, okay, let's create a list of all
+- [08:54] of the messages we've sent so far. Let's
+- [08:56] ask the user for some user input. If
+- [08:57] they want to quit, we can quit.
+- [08:59] Otherwise, we can just run the agent and
+- [09:01] then we can print out whatever the
+- [09:03] response was, update the history and
+- [09:05] keep going. Now, in order to run our
+- [09:07] agent, what we can do is open up our
+- [09:09] terminal. So, let's go here, type uv
+- [09:11] run, and then the name of our file,
+- [09:13] which is main. py. This will take a
+- [09:15] second, and then what we're able to do
+- [09:17] is start asking the agent questions. So,
+- [09:18] we can say something like generate five
+- [09:21] random users. And let's see what the
+- [09:23] result is that we get. Okay. Okay. And
+- [09:25] if we just bring this up a little bit
+- [09:26] larger, you can see that we have five
+- [09:28] random users generated. Now, let's take
+- [09:30] one of the examples here. So, maybe make
+- [09:32] users like this. Okay. So, make users
+- [09:35] age 25 to 35 with company.com emails and
+- [09:38] save three of them to users.json.
+- [09:43] And let's see what we get. Okay. And if
+- [09:45] we have a look here, we can see a
+- [09:46] users.json file was just created. We
+- [09:49] have three users inside of here. And
+- [09:51] then lastly to test this we can say what
+- [09:54] is the oldest user in users.json
+- [09:59] and let's see if it's able to read that
+- [10:00] and give us the result. Okay we found
+- [10:02] the oldest user which is Bob Johnson
+- [10:04] here at age 25. So that is the AI agent
+- [10:08] in Python in approximately 10 minutes.
+- [10:11] You can add any tools that you want. You
+- [10:13] can change the LLM. You can change the
+- [10:14] system prompt and quite quickly you can
+- [10:16] make something very interesting. Again,
+- [10:18] if you want the code, it will be
+- [10:19] available from the link in the
+- [10:20] description. And I look forward to
+- [10:21] seeing you in another video.
+- [10:24] [Music]

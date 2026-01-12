@@ -1,0 +1,778 @@
+---
+title: "Transcript: VkqYmwIIeOg"
+video_id: "VkqYmwIIeOg"
+video_url: "https://www.youtube.com/watch?v=VkqYmwIIeOg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:33:09"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: VkqYmwIIeOg
+
+- URL: https://www.youtube.com/watch?v=VkqYmwIIeOg
+- Retrieved at: 2025-12-30T11:10:01+09:00
+
+## Text
+
+- [00:00] Hi data scamps and data champs. This is
+- [00:02] Richie. Let's get hands-on with Mistl's
+- [00:05] AI agents API. You'll learn how to build
+- [00:08] powerful autonomous tool using AI
+- [00:11] agents. Our instructor Beex will cover
+- [00:13] getting started with the agents API
+- [00:15] through to helping you build your first
+- [00:17] AI agent. To jump straight to coding,
+- [00:19] skip ahead to this timestamp. To follow
+- [00:21] along in data lab, check out the link in
+- [00:24] the description. Happy learning. If you
+- [00:26] follow AI, you've probably noticed a
+- [00:28] major trend happening in the AI sphere.
+- [00:30] All big tech companies are open-sourcing
+- [00:33] frameworks to build AI agents. For
+- [00:36] example, OpenAI has its agents SDK.
+- [00:39] Google has a waste agent development kit
+- [00:42] and Microsoft has had AutoAN for a while
+- [00:44] now. Recently, a very promising player
+- [00:47] joined this pack and it is Mistral AI.
+- [00:50] Mistral's recently dropped agents API
+- [00:53] allows you to build powerful autonomous
+- [00:55] agents with access to tools like web
+- [00:58] search, code execution, and image
+- [01:00] generation. In this tutorial, we're
+- [01:02] going to explore many of the features of
+- [01:04] this agents API. And we're going to
+- [01:06] start simple by creating your first
+- [01:08] agent with built-in memory. And then
+- [01:11] we're going to move all the way up to
+- [01:13] using the built-in code execution tool
+- [01:16] to generate interact to generate
+- [01:18] beautiful plots like the mandal broad
+- [01:20] set that you see below. This tutorial is
+- [01:23] designed for Python developers in mind
+- [01:26] who have basic Python knowledge and and
+- [01:30] have and are interested in building
+- [01:32] aentic applications. So without further
+- [01:35] ado, let's get started by setting up
+- [01:38] your environment. As you can see, I have
+- [01:40] this pip install command here, which is
+- [01:42] going to install the Mistral AI package
+- [01:45] and the Python.v package. Mistral AI is
+- [01:49] for communicating with the agents with
+- [01:51] Mistrol's API server and Python. Env is
+- [01:55] a popular framework or package for
+- [01:58] managing environment variables variables
+- [02:00] through the help of files. After running
+- [02:04] this code snippet, uh after running this
+- [02:06] cell, you're going to create your
+- [02:09] account and sign in at
+- [02:10] console.mstrolai.home
+- [02:13] and get your API key and save it as a an
+- [02:16] environment variable called mistrol API
+- [02:19] key in av file. If you don't know how to
+- [02:21] create the env file, I've pasted the
+- [02:24] command here for you uh which is
+- [02:26] touch.env.
+- [02:28] Thisv file is the industry standard for
+- [02:32] uh hiding or storing sensitive
+- [02:35] information like API keys or uh
+- [02:37] sensitive information. And what you're
+- [02:40] going to do is uh add this file to your
+- [02:44] ignore file so that you won't
+- [02:46] accidentally commit your secrets to
+- [02:49] GitHub. Once you go through these steps,
+- [02:51] you're ready to create your first agent
+- [02:53] which is which you can do using the
+- [02:55] first cell that you see here. First,
+- [02:58] you're going to import the OS library
+- [03:00] and the TNV function from the Python.nv
+- [03:04] package that we've just installed. This
+- [03:05] function is going to read your TNV file
+- [03:08] here and load all the environment
+- [03:11] variables variables stored there and
+- [03:13] expose it to the OS package. Then you
+- [03:16] are going to import the Mistral class
+- [03:19] here from Mistral AI which is used to
+- [03:22] create a client that will communicate
+- [03:25] with the Mistral's API using your
+- [03:28] credentials which you can extract using
+- [03:30] the os.get env function. Here's the line
+- [03:34] that does this operation. And then we're
+- [03:37] going to create our very first agent
+- [03:39] using the client.ba.agents.create
+- [03:42] function. This function is going to
+- [03:44] accept four parameters. Uh the first one
+- [03:46] is the model name which is going to be
+- [03:49] MR medium. This model is going to bring
+- [03:52] a balance between performance and cost.
+- [03:54] And then we're going to give a unique
+- [03:56] name to the agent. This name doesn't
+- [03:59] necessarily have to be unique. But for
+- [04:02] organization purposes and clarity, I
+- [04:05] recommend that you stick to unique names
+- [04:07] for your agents uh so that uh you can
+- [04:10] differentiate them later on. And then
+- [04:12] you can give a custom description for
+- [04:14] your agent. Uh this is for readability
+- [04:17] purposes and going to be is is going to
+- [04:20] be important uh when creating multi-
+- [04:22] aent systems which we won't cover here
+- [04:24] as it is beyond the scope of the
+- [04:26] tutorial. And then you're going to have
+- [04:28] your instructions which is basically a
+- [04:30] system prompt that tells the agent how
+- [04:32] to behave. Here we're keeping it simple
+- [04:34] by telling the agent that it is an ML
+- [04:37] expert and it should give practical and
+- [04:40] actionable advice. Let's run this cell
+- [04:42] and wait for it to finish. And as you
+- [04:44] can see, we have a green check mark
+- [04:46] here. Uh, and let's print the agent ID.
+- [04:51] In Miles's API, all agents have unique
+- [04:54] IDs. Uh, so so that you can keep track
+- [04:57] of how many agents or what kind of
+- [04:59] agents you have available under a single
+- [05:01] API key. If you notice here, I'm using a
+- [05:04] data lab environment, which is an
+- [05:05] environment provided by Data Camp. uh
+- [05:08] but you can uh run all of these code
+- [05:10] examples in your own Jupyter notebook uh
+- [05:13] environment or in VS code which is going
+- [05:16] to which is going to offer the same
+- [05:18] coding experience and then we're going
+- [05:20] to move on to starting an conversation
+- [05:23] with the agent that we've just created.
+- [05:26] Uh and this is going to be very easy by
+- [05:28] using the client.ba conversations
+- [05:32] start function.
+- [05:35] This function is going to require the
+- [05:37] agent ID that you are going to talk with
+- [05:40] and then also a prompt uh that describes
+- [05:44] what you what you are asking from the
+- [05:45] agent. Here we're asking the agent uh
+- [05:48] should I use random forest or xg boost
+- [05:51] for a 5,000 sample data set and to limit
+- [05:53] its answer we're asking it to generate a
+- [05:56] three sentence response only. Let's run
+- [05:59] this cell. Uh let's print the response
+- [06:02] type. And we have a successful response
+- [06:05] which is called a conversation response
+- [06:07] object. This response object is going to
+- [06:10] have an outputs array. Let's print it
+- [06:13] and see how many elements it has.
+- [06:16] Uh right now it only has one element
+- [06:19] because we've only asked it. We only
+- [06:21] asked for one question. Let's print its
+- [06:24] content using the response.puts.content
+- [06:26] content syntax and this is going to
+- [06:30] extract the raw text here and print it.
+- [06:34] As you can see, we have one, two, three
+- [06:37] sentences which uh aligns with the
+- [06:40] question that we've asked. You can pause
+- [06:41] here to read the accuracy of the
+- [06:44] response generated by the agent. This is
+- [06:46] a basic workflow for creating agents and
+- [06:49] starting conversations with them. In the
+- [06:51] next sections, we're going to dive deep
+- [06:53] into the into the agents API and talk
+- [06:56] about more intermediate and advanced
+- [06:58] concepts. The first deep dive concept
+- [07:01] that we're going to talk about is
+- [07:03] creating effective agents. Agent
+- [07:05] performance in production scenarios is
+- [07:07] mostly determined by model choice,
+- [07:10] system prompt, and completion
+- [07:12] parameters. First, let's talk about
+- [07:14] model choice. Here we have Mistral
+- [07:17] medium model which is uh a premier uh
+- [07:20] and paid model offered by Mistral and it
+- [07:24] brings a balance between performance and
+- [07:26] cost. But depending on your use cases,
+- [07:29] you're going to want a larger model with
+- [07:33] strong reasoning or code execution
+- [07:35] capabilities. Right now, Mrol medium is
+- [07:38] not a reasoning model, but it has a
+- [07:40] large context window of 128,000 tokens,
+- [07:43] but other good options exist like uh
+- [07:46] code stroll 2 for coding and megistral
+- [07:49] medium for reasoning. The second uh most
+- [07:52] influential factor in aging performance
+- [07:54] is the system prompt. Uh we've already
+- [07:57] talked about this uh but uh we need to
+- [08:00] discuss it more because system prompt is
+- [08:03] very important in production scenarios.
+- [08:05] If you explore other platforms uh or
+- [08:08] other agents uh for for their system
+- [08:10] prompts, you're going to see that they
+- [08:12] contain thousands and thousands of words
+- [08:14] that control the agent's behavior
+- [08:16] precisely. It tells the agent what to
+- [08:18] do, what kind of questions it can
+- [08:20] answer, what kind of questions it should
+- [08:22] avoid answering, and uh the tone of the
+- [08:24] language uh and everything that's
+- [08:26] related to the agents behavior. Uh so in
+- [08:29] practice when you're creating agents uh
+- [08:31] you most of your time won't be spent on
+- [08:34] writing the code but it's going to be
+- [08:37] spent on prompt engineering and writing
+- [08:39] good system prompts. And then moving on
+- [08:41] to the third most important parameter in
+- [08:44] in performance is completion parameters.
+- [08:47] Right now we only have one uh completion
+- [08:50] parameter defined here which is the most
+- [08:53] important and it is called temperature.
+- [08:55] As you know, language models are word
+- [08:58] generating models. Uh what this means is
+- [09:00] that if they have a text input, they're
+- [09:02] going to continue it by using the next
+- [09:05] word which with with the highest
+- [09:07] probability. For example, if the text is
+- [09:10] I am the model is going to choose uh the
+- [09:14] next word based on this temperature
+- [09:16] parameter. If the temperature value is
+- [09:19] between 0.1 and 0.5, it makes the agent
+- [09:23] very factual and very technical. If the
+- [09:27] the temperature is between 0.5 and one,
+- [09:30] it's going to be very creative. So, it's
+- [09:32] going to work for tasks that require
+- [09:34] creativity, brainstorming, and novelty.
+- [09:38] Okay, let's start the deep dive section
+- [09:40] by talking about how to create effective
+- [09:43] agents in production scenarios. Agent
+- [09:46] performance is mostly determined by
+- [09:48] first model choice and second the system
+- [09:51] prompt and third completion parameters.
+- [09:54] So let's talk about this model choice
+- [09:57] first. Before doing anything you should
+- [09:59] decide what kind of model that you want
+- [10:01] to use for your for the unique problem
+- [10:04] that you are going to solve. Right here
+- [10:06] we have the MR medium model for the data
+- [10:09] agent. But depending on your use case,
+- [10:12] you can choose other higherend models
+- [10:15] like code straw 2 for coding or
+- [10:18] magistral medium for reasoning. And I've
+- [10:21] I've left a link here for the models
+- [10:24] overview page of the mistral API
+- [10:26] documentation and you can check that out
+- [10:29] uh to choose what kind of models mist
+- [10:32] offers. Uh right now it it offers two
+- [10:35] different types of models. One is paid
+- [10:38] and of course the other one is open
+- [10:40] weight. For high impact scenarios, you
+- [10:42] always want to choose paid models
+- [10:43] because they offer a very high
+- [10:45] performance. Uh but for lower impact
+- [10:48] scenarios, you can go with uh models
+- [10:51] with less context length and less
+- [10:53] parameters like mistrol small or
+- [10:55] maggistral small. And then you should
+- [10:57] spend a lot of time uh on writing a very
+- [11:01] detailed and high quality system prompt.
+- [11:04] System prompt is very important for
+- [11:05] agents because they control precisely
+- [11:08] how the agent behaves in production. If
+- [11:11] you dis if you explore other agents uh
+- [11:14] used by top companies like OpenAI or
+- [11:16] Anthropic, you will see that their
+- [11:19] system prompts are going to contain
+- [11:21] thousands and thousands of words because
+- [11:24] uh you they want to control uh every
+- [11:27] single behavior of the agent uh from how
+- [11:30] it responds to what kind of tools it can
+- [11:32] use and how it can use them. So system
+- [11:35] prompt is going to take most of your
+- [11:37] time to write in production uh instead
+- [11:40] of actually writing code and then you
+- [11:42] need to choose uh a good value for the
+- [11:45] temperature parameter uh values between
+- [11:49] 0.1 and 0.5 for temperature makes the
+- [11:53] model very factual and technical and it
+- [11:55] is it's going to be ideal for writing
+- [11:58] code or uh or for scenarios where
+- [12:01] factual accuracy is desired for values
+- [12:03] between 0.5 5 and one the model is going
+- [12:06] to become very creative. So it's going
+- [12:08] to be very useful for uh tasks like
+- [12:11] brainstorming or writing poems or
+- [12:14] stories because the model is going to be
+- [12:16] very creative. Why this changes based on
+- [12:19] temperature is uh due to how LMS are
+- [12:22] built. As you know, LLMs generate uh
+- [12:26] text token by token. And the way they do
+- [12:28] that is that they are going to be
+- [12:31] provided with an initial text, which is
+- [12:34] the system prompt and the user's
+- [12:35] question. And then they're going to
+- [12:38] predict the next word by their
+- [12:41] probability.
+- [12:43] Using lower end temperatures makes the
+- [12:46] makes the model to choose words with the
+- [12:49] highest probability which means they are
+- [12:51] always going to be chosen based on how
+- [12:53] frequently those words show up in the a
+- [12:56] in the model's training process and
+- [13:00] models towards the higher end like
+- [13:03] values closer to one makes the model
+- [13:05] choose words with lower probabilities.
+- [13:08] So uh it makes the model more creative.
+- [13:12] And now moving on to the second uh deep
+- [13:15] dive section which is managing
+- [13:17] conversations with an agent. As you know
+- [13:19] most agent building frameworks don't
+- [13:21] have built-in memory capabilities but uh
+- [13:24] Msaw agents API has that distinct
+- [13:27] advantage. It comes with built-in memory
+- [13:29] and conversation management. We've
+- [13:31] already seen how to use the
+- [13:33] client.ba.con conversations.st start
+- [13:36] command which starts a completely new
+- [13:38] conversation thread with an agent. It
+- [13:41] requires agents ID and a prompt to start
+- [13:45] the conversation. So let's run this code
+- [13:48] snippet once again. This time we're
+- [13:50] asking the ML agent for best practices
+- [13:53] for encoding categorical variables.
+- [13:55] Let's wait a few seconds for it to
+- [13:57] finish and then we're going to do
+- [14:00] something new here which is printing the
+- [14:02] conversation ID.
+- [14:05] All response objects generated by uh by
+- [14:09] agents are going to have the
+- [14:10] conversation ID. This is done so uh so
+- [14:13] that we can differentiate one thread of
+- [14:15] conversation from another. And this is
+- [14:17] going to be important in production
+- [14:19] scenarios because you're going to have
+- [14:21] thousands of users for your agent. You
+- [14:23] don't want their conversations
+- [14:26] overlapping with each other. We have
+- [14:27] seen the start command and now we're
+- [14:29] going to explore the append command
+- [14:31] which is used to continue a
+- [14:33] conversation. So if you want to ask a
+- [14:36] follow-up question to the first question
+- [14:38] that you ask, you are going to use the
+- [14:39] append method. As you can see here,
+- [14:42] we're going to we're creating a
+- [14:44] follow-up uh variable and we are and it
+- [14:47] is equal to client.bata
+- [14:49] conversations.append append and this
+- [14:52] this function is going to require the
+- [14:54] conversation ID that we're going to
+- [14:56] continue and our question is uh asking
+- [14:59] the agent what was my first question and
+- [15:01] the followup should correctly print our
+- [15:04] first question which was asking the best
+- [15:07] practices for categorical encoding.
+- [15:09] Let's run this cell and let's see what
+- [15:11] what the output is. And as you can see
+- [15:14] the the response is almost instantaneous
+- [15:16] and it is printing our first question
+- [15:19] word by word. Let's confirm going back
+- [15:22] here.
+- [15:24] As you can see our first question was
+- [15:27] exactly like it says right here.
+- [15:31] We can ask even more questions to
+- [15:34] continue the conversation like summarize
+- [15:36] the entire conversation in three
+- [15:38] sentences.
+- [15:40] Let's see it. And as you can see the
+- [15:43] agent says you asked for best practices
+- [15:45] for encoding categorical variables in ML
+- [15:47] and I provided three methods and then
+- [15:50] you asked for what your first question
+- [15:52] was and I repeated it for you. So this
+- [15:54] was how to uh so this process is for
+- [15:58] continuing conversations. Now uh we have
+- [16:01] another method for uh managing
+- [16:03] conversations which is going to be
+- [16:06] client.ba.con conversations.list.
+- [16:08] Uh this list function is going to return
+- [16:11] an array containing all conversation
+- [16:14] objects that you have under a single API
+- [16:17] key. Let's run this sub and print the
+- [16:20] length of the conversations list which
+- [16:22] is going to be a lot for my API key
+- [16:25] because I've been using the API for a
+- [16:27] while now and uh I have a lot of
+- [16:29] conversations. As you can see it's it
+- [16:31] shows 85. And let's print the the very
+- [16:35] first item in this conversations list
+- [16:37] which is going to be the very last
+- [16:40] conversation that we've started. As you
+- [16:42] can see the conversation ID is 9374E
+- [16:47] and it's going to match the conversation
+- [16:49] that we started right above here.
+- [16:53] Here it is. The last five digits of the
+- [16:55] conversation ID is the same as the one
+- [16:57] that we printed right here.
+- [17:01] Now another very important method for
+- [17:03] conversation management is get messages
+- [17:06] uh which requires the conversation ID
+- [17:09] and as you can guess from the name it's
+- [17:11] going to return all the uh message
+- [17:14] history of a single conversation in an
+- [17:16] array and we can access that array using
+- [17:19] the do messages attribute. Let's run it
+- [17:23] and
+- [17:24] let's run it. As you can see, it's a
+- [17:26] huge array containing uh many output
+- [17:29] entries. And let's see its length.
+- [17:33] As you can see, it shows six because
+- [17:36] we've asked the agent three questions
+- [17:38] and it came back with three responses,
+- [17:40] which makes the conversation history six
+- [17:43] item uh array.
+- [17:46] These all of these conversation
+- [17:48] management methods are important for
+- [17:51] building chat applications with message
+- [17:53] history and for user friendliness. There
+- [17:55] are other conversation management
+- [17:57] methods on the documentation and I have
+- [17:59] I've left a link here uh for you to
+- [18:02] check it out. Now next topic we're going
+- [18:04] to discuss is streaming responses for
+- [18:08] user friendliness which is a requirement
+- [18:11] for all modern agents and chat
+- [18:13] platforms. For example, a chat GPT and
+- [18:16] clot uh provide immediate usual visual
+- [18:20] feedback for the user by printing every
+- [18:22] word as it is generated by the model.
+- [18:25] And we want to achieve the same
+- [18:27] functionality with our MSOL agents here.
+- [18:30] And this process starts using the start
+- [18:33] stream command. Instead of the start
+- [18:36] command for conversations, we're going
+- [18:38] to use the start stream command. And
+- [18:40] this again starts a new conversation
+- [18:43] with the agent but with streaming mode
+- [18:45] enabled. I'm going to right now I'm
+- [18:48] going to run these three cells one by
+- [18:52] one and then explain what's happening
+- [18:53] under the hood. Let's run this uh and
+- [18:57] immediately as you can see the agent
+- [19:00] starts generating the output one by one.
+- [19:04] Uh let's run let's run the rest one.
+- [19:06] Yeah, here we go. It is printing the
+- [19:08] text that explains gradient descent in
+- [19:11] five sentences. As you can see, it
+- [19:14] generated it finished execution very
+- [19:17] quickly and we didn't have to wait for
+- [19:19] the entire response to finish. Uh and
+- [19:22] we've seen we saw each token being
+- [19:25] generated by one by one. So let's see
+- [19:27] what is happening.
+- [19:30] First we're starting a new conversation
+- [19:32] with streaming mode enabled which
+- [19:34] requires our agent ID once again. And
+- [19:36] then we're input we're giving our prompt
+- [19:39] as input to the inputs parameter. And
+- [19:42] then for reference we're printing the
+- [19:45] type of the response which is an event
+- [19:47] stream object. You're going to realize
+- [19:49] what that is in a moment. And then we're
+- [19:52] going to write write this event stream
+- [19:54] object. When LLMs generate text one by
+- [19:57] one, they do so using events. And these
+- [20:01] events can be anything. First they can
+- [20:03] be uh the start of the response or the
+- [20:06] generation that that is one event.
+- [20:09] Another event may be a text event which
+- [20:12] is generating one uh one word at a time.
+- [20:15] The all those all those generated words
+- [20:19] will be considered one event. Tool
+- [20:21] execution or tool calls are also
+- [20:23] considered a single event. Also the end
+- [20:26] of the response is also considered an
+- [20:29] event. So what we're going to do is
+- [20:31] write these stream of events and filter
+- [20:35] the events for token generation ones.
+- [20:39] Right here we are doing exactly that.
+- [20:41] We're starting the right using the
+- [20:44] context manager with response as event
+- [20:46] stream. And then for each event we're
+- [20:49] checking its type. If its type is
+- [20:51] message.output.delta delta which is the
+- [20:55] official type in the MSL API for token
+- [20:58] generation. We're going to print that
+- [21:01] tokens value using the event dot data
+- [21:05] content syntax. And here we're using
+- [21:07] special parameters of the print
+- [21:09] function. First of all, we're setting
+- [21:11] the end of the printed text to an empty
+- [21:15] stream because by default each printed
+- [21:18] text in Python gets printed on a new
+- [21:21] line. We don't want that because we're
+- [21:22] printing words. They should appear next
+- [21:25] to each other. And we also we're going
+- [21:27] to set flush equals to true. When we do
+- [21:30] that and a typewriter effect uh is
+- [21:33] created and each word is printed as it
+- [21:36] is generated by the model. Next uh
+- [21:39] method that we're going to learn is the
+- [21:41] append stream. Uh just like the
+- [21:44] conversation start had a function for
+- [21:47] continuing conversations in the form of
+- [21:49] append. We have the append stream
+- [21:52] function for continuing conversations in
+- [21:54] streaming mode. To use the append stream
+- [21:57] function correctly, first we're going to
+- [21:59] get the conversation ID of the last
+- [22:02] response. And we can do so using the
+- [22:05] client.ba.con conversations.list command
+- [22:08] and getting the ID of the last
+- [22:10] conversation. And then we're going to
+- [22:12] provide that to the appendad stream
+- [22:14] function and a new input which asks the
+- [22:18] agent to translate its last response to
+- [22:20] French. Uh and we're going to write the
+- [22:23] event stream once again and print only
+- [22:26] the token generation events. So let's
+- [22:28] run this and see a French text being
+- [22:31] generated.
+- [22:34] Here we go. As you can see uh I have
+- [22:37] zero French knowledge. Uh so if you know
+- [22:39] French you can gen you you can test the
+- [22:42] accuracy of this translation. Now let's
+- [22:45] move on to using uh the built-in web
+- [22:48] search tool of the ML agents API. As you
+- [22:52] know uh most large language models live
+- [22:55] in 2024 which means their training
+- [22:58] knowledge stops in 2024. when you ask
+- [23:01] them about events in 2025, they're going
+- [23:04] to hallucinate, which means they are
+- [23:07] going to uh provide information as
+- [23:09] though they know the answer when in
+- [23:11] actuality it's complete rubbish. So uh
+- [23:14] we're going to fix this by giving the
+- [23:17] agents access to real time web search.
+- [23:20] And this is very easy using the
+- [23:22] following syntax here. We're creating a
+- [23:25] new agent called ML research agent and
+- [23:28] we're giving it a brief description. And
+- [23:30] what's different here is that it also
+- [23:33] the agent has access to the tools array
+- [23:36] which contains a single web search tool
+- [23:39] which is defined in a dictionary format
+- [23:42] like this. Let's ask a question from the
+- [23:45] agent that forces it to use this new web
+- [23:47] search tool. And our question is what
+- [23:50] are the latest transformer improvements
+- [23:52] in 2024f?
+- [23:54] And we want it summarized right here.
+- [23:58] Let's run this cell and print the
+- [24:01] outputs array.
+- [24:04] It's going to take a few seconds more
+- [24:06] because apart on top of regular
+- [24:09] response, it's also going to search the
+- [24:11] internet for the correct answers. As you
+- [24:14] can see uh we have a huge array uh of uh
+- [24:18] of response but it's the array only
+- [24:21] contains two elements. One is tool
+- [24:24] execution entry. The other is message
+- [24:26] output entry. Let's first uh see the
+- [24:29] tool execution which has the name web
+- [24:32] search which means our agent correctly
+- [24:35] used the web search tool. And then we
+- [24:37] have message output entry and
+- [24:39] interestingly its content doesn't
+- [24:41] involve a single code. a a a single text
+- [24:44] but a chunks of text like text in in the
+- [24:47] form of text chunk classes and also tool
+- [24:51] reference chunk. Let's take a closer
+- [24:54] look at this object uh by printing by
+- [24:57] printing it here.
+- [25:00] As you can see, it's an array of text
+- [25:02] chunk and tool reference chunk objects.
+- [25:05] Let's take a closer look. When the
+- [25:08] object is a text chunk, it is a re it's
+- [25:10] a regular text. It starts like in 2025.
+- [25:13] The transformer actor architecture
+- [25:16] continues to evolve. But as you can see,
+- [25:18] the text is cut off short by the next
+- [25:23] tool reference track which contains a
+- [25:25] citation object. A citation means the
+- [25:28] agent is uh trying to give us
+- [25:31] information of on where it got the
+- [25:34] following text from. As you can see,
+- [25:37] this tool reference chunk has the title
+- [25:40] of the web page that it scraped and also
+- [25:43] the URL of the web page. Our job here is
+- [25:46] to concatenate to combine all of this
+- [25:49] information into a single response.
+- [25:51] Unfortunately, this is not provided by
+- [25:54] the agents API uh by default. So, we
+- [25:56] have to do the formatting ourselves and
+- [25:59] we're doing that right here. First of
+- [26:02] all, we are iterating through that tool
+- [26:04] reference chunks and text chunks for
+- [26:06] result in search response.putscontent.
+- [26:11] We're checking if the item has the text
+- [26:13] attribute. If it has the text attribute,
+- [26:16] it means the item is just text. So, we
+- [26:19] can add it to the markdown text right
+- [26:21] here. If it has the tool attribute, it
+- [26:24] means the agent is giving a citation.
+- [26:27] So, we're going to append it to the
+- [26:29] markdown text in a citation format using
+- [26:32] the markdown link syntax, which means
+- [26:35] links are given using square and round
+- [26:40] brackets.
+- [26:41] In the first square bracket, we're
+- [26:44] extracting the uh citations title. In
+- [26:48] the second rounded bracket, we're
+- [26:50] extracting the citations URL and
+- [26:53] appending it to the full markdown text
+- [26:56] right here. After the iteration is over,
+- [27:00] we are going to have a single agent
+- [27:03] response which we can print using the
+- [27:06] markdown display function of the Jupyter
+- [27:08] notebook. Let's run this cell. And as
+- [27:11] you can see, we have a complete and
+- [27:14] beautifully formatted markdown text with
+- [27:18] built-in citations which is provided by
+- [27:20] the tool execution or by the web search
+- [27:23] tool. As you can see, every chunk of
+- [27:26] text is followed by a citation that
+- [27:29] gives us information of where the agent
+- [27:32] is taking its information from. Again,
+- [27:34] uh we can continue the conversation
+- [27:37] using the append append method. And here
+- [27:40] we're asking the agent to summarize the
+- [27:43] results in five sentences. Let's run it
+- [27:46] and see the output.
+- [27:50] There you go. Uh we have five sentences
+- [27:53] that summarizes the news in the
+- [27:56] transformer architecture landscape. Uh
+- [27:59] you can pause the video here to read the
+- [28:02] response on your own and get up to speed
+- [28:04] on transformer news. All right, let's
+- [28:07] now talk about code execution for
+- [28:09] solving complex tasks that requires
+- [28:13] using Python code. Using the code
+- [28:15] interpreter tool follows the same syntax
+- [28:18] as a web search. Here we're creating
+- [28:20] coding assistant with access to the code
+- [28:23] interpreter tool which is defined in in
+- [28:27] a dictionary format once again. And this
+- [28:30] time we're giving it a more complex
+- [28:33] problem to visualize the mandel broad
+- [28:36] set using the equation z= z ^2 + c and
+- [28:41] it should calculate the convergence for
+- [28:43] a complex plane grid and create a
+- [28:46] beautiful fractal visualization wall
+- [28:48] art. If you don't know what mandelet is,
+- [28:50] it doesn't matter. Uh what matters is
+- [28:52] that we're now asking something that the
+- [28:55] LLMs can't do which is calculating
+- [28:58] complex math equations by default. It's
+- [29:00] going to be forced to use the the new
+- [29:04] code interpreter tool that we have
+- [29:05] defined right here. So let's run this
+- [29:09] and you'll notice that the uh request is
+- [29:13] going to take much longer than simple
+- [29:15] web search or simple questions that we
+- [29:18] have been asking from the agent so far.
+- [29:20] Let's wait for it to finish. And it's
+- [29:23] probably going to take more than uh 60
+- [29:25] seconds.
+- [29:28] As you can see, the cell finished
+- [29:30] execution. Let's print its outputs. And
+- [29:33] we're going to see that uh the outputs
+- [29:36] array this time is even larger than the
+- [29:38] web search version. So let's take a look
+- [29:41] at the second element of this outputs
+- [29:44] array, which is another tool execution,
+- [29:46] but this time it's a code interpreter
+- [29:48] one. Uh let's take a closer look by
+- [29:51] printing its contents.
+- [29:53] And as you can see uh we have the name
+- [29:56] as code interpreter. And interestingly
+- [29:59] we also have another dictionary called
+- [30:02] info which contains a key called code
+- [30:05] which contains the code for generating
+- [30:08] the visualization that we asked in the
+- [30:11] prompt.
+- [30:13] We can extract the code into a single
+- [30:15] string by using this syntax which uh
+- [30:18] again extracts the tool execution class
+- [30:22] and extracts its info attribute and then
+- [30:25] extracts the code and then we print it.
+- [30:28] As you can see the code uses only numpy
+- [30:31] and mattplot li to create and to create
+- [30:34] and plot the mandelroad fractal set.
+- [30:37] This is only the coding part of the
+- [30:39] equation. uh we also want to extract the
+- [30:42] plot that was generated after the
+- [30:45] mistral servers ran this code on their
+- [30:48] own and this can be done by using
+- [30:51] another outputs array content and let's
+- [30:54] uh let's see it which is going to be a
+- [30:56] file chunk object uh as you can see this
+- [31:00] tool file chunk class is was generated
+- [31:03] by the code interpreter and it has a
+- [31:05] file ID and also file name and the file
+- [31:10] format which is a PNG file.
+- [31:13] We're interested in this file ID. So
+- [31:15] let's extract it. And now using this ID,
+- [31:19] we can download the file that was
+- [31:21] generated by using the client.files
+- [31:24] download method which downloads the file
+- [31:28] in B 64 format. And when we use the read
+- [31:32] function on top of it, we're going to
+- [31:34] get the raw bytes information of the
+- [31:37] file, which means we can use that raw
+- [31:41] file and save it as a PNG file right
+- [31:44] here. Let's run this cell. And then I
+- [31:47] already have the markdown cell uh for
+- [31:51] displaying that image. Let's run it once
+- [31:53] again to see the updated image. And as
+- [31:55] you can see the image is the same as
+- [31:58] before uh and it contains the
+- [32:00] visualization of the beautiful Mandelro
+- [32:03] fractal art. So that right there was uh
+- [32:07] the end of our brief tutorial. We've
+- [32:10] covered the basics and some intermediate
+- [32:12] concepts of the MR agents API. I have
+- [32:15] left some links here. So, be sure to
+- [32:17] check out the entire documentation of
+- [32:19] the agents API and then explore other
+- [32:22] tools like document search and image
+- [32:24] generation which are also very cool use
+- [32:26] cases for the agents API. And then I
+- [32:29] definitely learned how to use function
+- [32:30] calling that allows your agents to use
+- [32:33] plain Python functions for connecting to
+- [32:36] external services or APIs like databases
+- [32:40] or custom APIs for even more
+- [32:42] functionality beyond just code
+- [32:45] interpretation or web search. And then
+- [32:48] also the agents API supports building
+- [32:51] multi- aent systems where you can
+- [32:53] combine multiple agents and make them
+- [32:56] coordinate to solve complex tasks using
+- [32:59] different coordination patterns. So
+- [33:02] thank you for watching this tutorial and
+- [33:04] I'll see you in the next one.
+- [33:09] [Music]

@@ -1,0 +1,298 @@
+---
+title: "We've all been impressed by the launch of Gemini 3, which is now a state-of-the-art model across a wide range of benchma"
+video_id: "PA6tjgpDvHU"
+video_url: "https://www.youtube.com/watch?v=PA6tjgpDvHU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Development"]
+summary: |
+  We've all been impressed by the launch of Gemini 3, which is now a state-of-the-art model across a wide range of benchmarks from coding to reasoning to complex problem solving and much more
+  It's honestly incredible that you can now prompt a model to complete almost any task
+  But to truly expand its capabilities, you need to enable Deep Think
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:45:25+09:00"
+---
+
+# Transcript: PA6tjgpDvHU
+
+- URL: https://www.youtube.com/watch?v=PA6tjgpDvHU
+- Retrieved at: 2025-12-30T10:45:25+09:00
+
+## Text
+
+- [00:00] We've all been impressed by the launch
+- [00:02] of Gemini 3, which is now a
+- [00:04] state-of-the-art model across a wide
+- [00:06] range of benchmarks from coding to
+- [00:08] reasoning to complex problem solving and
+- [00:10] much more. It's honestly incredible that
+- [00:13] you can now prompt a model to complete
+- [00:16] almost any task. But to truly expand its
+- [00:19] capabilities, you need to enable Deep
+- [00:21] Think. Deep Think uses advanced
+- [00:23] reasoning to deliver more qualitative
+- [00:25] and sophisticated outputs. It leads
+- [00:27] industry standards on rigorous
+- [00:29] benchmarks like humanities last exam
+- [00:31] scoring a 41 percentage and on ARC AGI
+- [00:35] 2. But there's a slight issue. You need
+- [00:38] to be subscribed to the Google ultra
+- [00:39] plan to access it. And that can be
+- [00:42] pretty expensive which you see over
+- [00:43] here. Now here's the interesting part.
+- [00:46] There's a deep reasoning agent that can
+- [00:48] extend models like Gemini 3.0 Pro and
+- [00:50] unlock deep think level capabilities.
+- [00:53] and it's called Deep Agent by Abacus AI,
+- [00:56] which is today's video sponsor. Deep
+- [00:58] Agent is a perfect alternative that's
+- [01:00] dramatically more affordable and it's a
+- [01:03] powerful all-in-one AI agent with a ton
+- [01:06] of additional benefits built in. It's
+- [01:08] capable of handling high-level complex
+- [01:11] tasks and everything from building full
+- [01:13] applications to writing depth reports,
+- [01:15] creating presentations, and even
+- [01:17] connecting to your existing systems to
+- [01:19] perform fully agentic workflows. For
+- [01:22] example, just take a look at the CRM
+- [01:24] dashboard that it was capable of
+- [01:26] generating. You may think that this is a
+- [01:28] basic CRM, but if you are to go into
+- [01:32] each component, you'll realize that this
+- [01:34] is a fullon CRM dashboard that is
+- [01:37] functional. For example, within the
+- [01:38] context, you can go over to a certain
+- [01:41] contact like the CTO. You can get a good
+- [01:44] overview. You can then go over to the AI
+- [01:47] strategy and have it analyze a lead
+- [01:49] score which generates analysis to see
+- [01:52] the insights for this particular contact
+- [01:54] which talks about the signal the score
+- [01:57] and you can even generate a meeting
+- [01:59] brief get talking points so that
+- [02:01] whenever you are to encounter this
+- [02:04] particular contact you can talk about
+- [02:06] these certain points. This is something
+- [02:08] that was fully generated end to end and
+- [02:11] it just showcases how if you are to use
+- [02:14] the deep thinking mode with the deep
+- [02:16] agent, you're going to be able to get
+- [02:17] perfect generations that extend the
+- [02:20] quality of the model. I'm not just
+- [02:22] saying this cuz it's a sponsored video.
+- [02:24] This is something that I tend to use on
+- [02:26] a day-to-day basis. And with the ability
+- [02:29] to access deep agent, which is $10 per
+- [02:32] user built monthly, you also get access
+- [02:34] to many other things like chat LM, which
+- [02:37] is another tool a part of Abacus AI
+- [02:39] suite of tools, which is where you can
+- [02:41] chat with state-of-the-art models
+- [02:43] directly in one unified chatbot. You
+- [02:45] also have Abacus AI desktop, which is
+- [02:48] their god tier coding agent. This is a
+- [02:50] CLI and a code editor that you can
+- [02:53] access locally and it is a perfect
+- [02:55] alternative to something like cursor.
+- [02:57] But to get started now, you can head
+- [02:59] over to the Abacus AI deep agent website
+- [03:02] which I'll leave a link to in the
+- [03:03] description below and you can click on
+- [03:05] get started. Before we get started, I
+- [03:07] just want to mention that you should
+- [03:08] definitely go ahead and subscribe to the
+- [03:10] world of AI newsletter. I'm constantly
+- [03:12] posting different newsletters on a
+- [03:14] weekly basis. So this is where you can
+- [03:17] easily get up-to-date knowledge about
+- [03:19] what is happening in the AI space. So
+- [03:21] definitely go ahead and subscribe as
+- [03:23] this is completely for free. After
+- [03:25] signing up or signing in, you're going
+- [03:27] to be then sent over to the main
+- [03:28] dashboard of Abacus AI. What you want to
+- [03:31] do next is navigate over to Deep Agent.
+- [03:34] And that is simply by heading over to
+- [03:36] the Deep Agent chat. And this is where
+- [03:38] you can use this agent to practically do
+- [03:40] anything. In this case, enable a deep
+- [03:43] think mode that can practically tackle a
+- [03:45] task further in detail using more
+- [03:49] reasoning or more reasoning tokens to
+- [03:51] get the task done. Now, like I said,
+- [03:54] this is something that enhances any
+- [03:56] model's capabilities to use deeper
+- [03:58] thinking and further reasoning to get
+- [04:00] the best output. And you can see that
+- [04:02] with this example where I simply
+- [04:04] requested deep agent to build a stock
+- [04:06] insights dashboard and it was able to
+- [04:09] build out this app end to end providing
+- [04:12] us AI insights built inside this app is
+- [04:16] also providing us market news. So for
+- [04:18] example uh Nvidia's market news you can
+- [04:21] see that it is fetching the latest date
+- [04:23] which is December 27th and it is also
+- [04:27] showcasing live price charts for
+- [04:29] different sorts of stocks. So in this
+- [04:31] case, Nvidia is listed at 190, which is
+- [04:34] the correct price as of today. So you
+- [04:37] can see that it is able to handle
+- [04:39] everything from fetching live APIs to
+- [04:42] integrating various sorts of features
+- [04:44] like AI insights, getting you
+- [04:46] performance metrics as well as different
+- [04:49] sorts of trends. These are some examples
+- [04:52] of what you can do with deep agent and
+- [04:54] it is something that will work with you
+- [04:56] end to end to build out various sorts of
+- [04:58] apps with high quality not just basic
+- [05:01] models outputting code. It is going to
+- [05:04] reason it's going to debug it and it's
+- [05:06] going to output the best generation for
+- [05:08] you. And something cool that I stumbled
+- [05:10] across is that Abacus AI's deep agent
+- [05:12] can also build mobile apps by prompting
+- [05:15] it to generate various sorts of
+- [05:17] backends, reactbased UIs, and it is
+- [05:20] something that can be deployed as a
+- [05:22] mobile ready app all from a single
+- [05:24] prompt. And you can see with this demo
+- [05:26] over here where it was able to create
+- [05:28] this game within a couple of minutes
+- [05:31] from a single prompt. And this is just
+- [05:33] another example of what you can actually
+- [05:35] do with Deep Asian. So to see it in
+- [05:38] action, what I'm going to do is have
+- [05:40] Deep Agent use a list of couple of
+- [05:42] models to help me tackle this task of
+- [05:45] building a sleek mobile first AI
+- [05:47] workspace app. It is essentially going
+- [05:49] to be a mix of notion, linear as well as
+- [05:52] chat GBT. And it's going to have a lot
+- [05:54] of other features a part of all three of
+- [05:57] these different apps together in this
+- [05:59] new app. So you're going to be able to
+- [06:01] see that deep agent will first process
+- [06:03] our initial prompt. It is going to then
+- [06:06] ask us clarification questions and once
+- [06:09] we provide those clarification
+- [06:11] questions, we're going to then approve
+- [06:13] that and then have it work on tackling
+- [06:15] this task. So in this case, you can see
+- [06:17] that it's going to ask us a couple of
+- [06:19] questions. I'm going to simply just go
+- [06:20] ahead and click continue as I trust deep
+- [06:23] agent and it is going to then
+- [06:24] autonomously deploy multiple agents to
+- [06:27] help us tackle this task. And that's the
+- [06:29] beauty of deep agent because it works
+- [06:31] end to end and it enhances any model's
+- [06:33] capability to work on enhancing its
+- [06:36] reasoning budget to generate the best
+- [06:38] qualitative answer or response. What's
+- [06:41] great with deep agent is that it is
+- [06:43] capable of doing a lot of things where
+- [06:46] it can use multiple tools, run terminal
+- [06:48] based commands, execute various sorts of
+- [06:50] commands like developing the backend too
+- [06:53] and you can see that it does this all in
+- [06:55] a single shot which is just incredible
+- [06:58] cuz it is able to use multiple tools and
+- [07:01] get the best output by using them. Now
+- [07:03] you can see that it is rapidly using its
+- [07:06] coding capabilities to help us generate
+- [07:08] all the code that we need to have this
+- [07:10] app functional. So it looks like it has
+- [07:13] finished coding out our app and it is
+- [07:15] truly remarkable guys. Now this is where
+- [07:18] it has built out the fullon application
+- [07:21] and to end it even debugged it with the
+- [07:23] service log. You can also see that it
+- [07:26] created a fullon database with a storage
+- [07:29] link to it. This is the capability of
+- [07:32] the deep think mode enabled with the
+- [07:34] deep agent and this is the app that it
+- [07:37] generated. Our linear chat GPT and
+- [07:40] notion baby has been generated and this
+- [07:43] app is remarkable cuz you have the
+- [07:45] ability to manage a knowledge base
+- [07:48] deploy all of your different tasks as
+- [07:50] well as an assistant. So let's get
+- [07:53] started with the documents. You can add
+- [07:55] in different templates like meeting
+- [07:56] notes, product specs, or an empty page
+- [07:59] to get started. This is something that
+- [08:01] mimics exactly something that you would
+- [08:03] see with notion. You have the ability to
+- [08:05] add pictures. You can use it directly
+- [08:08] within a chatbot. This is where you can
+- [08:10] chat with your documents and you can
+- [08:12] even edit it and add implementations to
+- [08:15] it. But if we go over to the tasks,
+- [08:17] you're going to be able to see that
+- [08:18] these are a list of different tasks that
+- [08:20] have been added. You can add in
+- [08:22] different tasks with your voice. You can
+- [08:24] use the AI panel to generate new issues
+- [08:27] or add in new tasks and you can get
+- [08:29] insights on all of this live in action.
+- [08:32] So this is where with the sprint
+- [08:35] analysis it gives us a good condensed
+- [08:37] summary on all of our different tasks,
+- [08:40] all of the backlogs that we have, the
+- [08:42] high priority tasks based off the tags
+- [08:45] that we had. And you can add these
+- [08:46] different tags as well. But within the
+- [08:48] AI assistance, you can basically ask
+- [08:51] different follow-up questions and get
+- [08:53] answers based off the context that we
+- [08:55] have from our knowledge base as well as
+- [08:57] our task. This is an incredible
+- [09:00] end-to-end app that I personally could
+- [09:02] sell and charge $20 a month and make
+- [09:05] some money off of this deep agent app
+- [09:07] that I built in nearly just 20 minutes.
+- [09:10] This is something that I didn't even
+- [09:11] code and it was able to expand the
+- [09:14] reasoning budget of our model to build
+- [09:17] out this full-on application for us. If
+- [09:19] you like this video and would love to
+- [09:21] support the channel, you can consider
+- [09:23] donating to my channel through the super
+- [09:25] thanks option below. Or you can consider
+- [09:28] joining our private Discord where you
+- [09:30] can access multiple subscriptions to
+- [09:32] different AI tools for free on a monthly
+- [09:34] basis plus daily AI news and exclusive
+- [09:37] content plus a lot more. This is the
+- [09:40] capability of Abacus AISD agent and it
+- [09:43] is a great and remarkable all-in-one AI
+- [09:46] agent that I really recommend that you
+- [09:47] take a look at with the links in the
+- [09:49] description below. But with that thought
+- [09:51] guys, thank you guys so much for
+- [09:52] watching. I hope you enjoyed today's
+- [09:53] video. Make sure you go ahead and
+- [09:54] subscribe to the second channel if you
+- [09:56] haven't already. Join the newsletter,
+- [09:58] join our Discord, follow me on Twitter,
+- [10:00] and lastly, make sure you guys
+- [10:01] subscribe, turn on notification bell,
+- [10:03] like this video, and please take a look
+- [10:04] at our previous videos because there is
+- [10:06] a lot of content that you will truly
+- [10:08] benefit from. But with that thought,
+- [10:09] guys, have an amazing day, spread
+- [10:11] positivity, and I'll see you guys really
+- [10:12] shortly. Peace out, fellas.

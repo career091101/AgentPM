@@ -1,0 +1,1301 @@
+---
+title: "Hey guys, MCP has quickly become the standard for connecting tools to your AI agents."
+video_id: "HkzOrj2qeXI"
+video_url: "https://www.youtube.com/watch?v=HkzOrj2qeXI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "Technology", "Tutorial", "Development"]
+summary: |
+  Hey guys, MCP has quickly become the standard for connecting tools to your AI agents
+  Which is why in today's video, I'm going to be giving you a crash course on connecting MCP to agent development kit so that you can supercharge your ADK agents with real world tools that actually work
+  And I know MCP can feel complex and overwhelming at first, which is why in today's video, we're going to break everything down step by step in three different phases
+key_points:
+  - "which is why in today's video, we're going to break everything down step by step in three different phases"
+  - "link in the description below so you can download all the source code"
+  - "few times I heard about it, I didn't understand why we would need it"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:21:58+09:00"
+---
+
+# Transcript: HkzOrj2qeXI
+
+- URL: https://www.youtube.com/watch?v=HkzOrj2qeXI
+- Retrieved at: 2025-12-30T10:21:58+09:00
+
+## Text
+
+- [00:00] Hey guys, MCP has quickly become the
+- [00:02] standard for connecting tools to your AI
+- [00:05] agents. Which is why in today's video,
+- [00:06] I'm going to be giving you a crash
+- [00:08] course on connecting MCP to agent
+- [00:11] development kit so that you can
+- [00:13] supercharge your ADK agents with real
+- [00:15] world tools that actually work. And I
+- [00:17] know MCP can feel complex and
+- [00:19] overwhelming at first, which is why in
+- [00:21] today's video, we're going to break
+- [00:22] everything down step by step in three
+- [00:24] different phases. In phase one, we're
+- [00:26] going to hop over to the whiteboard and
+- [00:28] break everything down so you can
+- [00:29] understand what is MCP, how it works,
+- [00:31] and so you can see why MCP is so
+- [00:34] powerful with Agent Development Kit. In
+- [00:36] phase two, we're going to actually dive
+- [00:38] into some code where you're going to see
+- [00:40] how we can connect an ADK agent up to a
+- [00:43] remote tool that's all done with MCP.
+- [00:45] And then in phase three, you're going to
+- [00:47] see everything end to end where we're
+- [00:49] going to actually create a local MCP
+- [00:51] server on our own computer and connect
+- [00:53] it to an ADK agent so you can understand
+- [00:56] how they work together and create your
+- [00:58] own custom MCP servers. And to make
+- [01:00] things even easier for you guys, I'm
+- [01:01] going to be giving away all the source
+- [01:03] code for all the different examples
+- [01:04] you're going to see in today's video
+- [01:05] completely for free. Just click that
+- [01:07] first link in the description below so
+- [01:08] you can download all the source code.
+- [01:10] So, if you're serious about becoming an
+- [01:11] AI developer, you're going to want to
+- [01:12] stick through this whole video because
+- [01:14] MCP has become a core foundational
+- [01:17] technology in building real world AI
+- [01:19] agents. And this is the video that's
+- [01:21] going to catch you up to speed super
+- [01:22] fast. So, with all that out of the way,
+- [01:24] let's go ahead and hop over to the
+- [01:25] whiteboard so you guys can understand
+- [01:27] what is MCP, how it works, and why it's
+- [01:30] such an amazing tool to use with Agent
+- [01:31] Development Kit. Oh, and real quick. If
+- [01:33] you're looking to get help on your AI
+- [01:35] projects or if you'd like to meet
+- [01:36] like-minded AI developers, I definitely
+- [01:38] recommend checking out the free school
+- [01:40] community I've created for you guys. We
+- [01:41] have over 7,000 members and free weekly
+- [01:43] coaching calls and a bunch of extra
+- [01:44] bonus materials. So, definitely
+- [01:46] recommend you joining and I cannot wait
+- [01:47] to see you guys on our weekly Tuesday
+- [01:49] coaching calls. But enough of that.
+- [01:50] Let's get back to the video. Okay guys,
+- [01:52] so welcome to phase one where we're
+- [01:54] going to do a quick crash course on all
+- [01:56] things MCP. Now, before we dive in, I
+- [01:58] just want to mention that MCP confused
+- [02:00] the heck out of me. The first few times
+- [02:02] I heard about it, I didn't understand
+- [02:04] why we would need it. I actually just
+- [02:06] was like, "Oh, that seems pointless.
+- [02:07] It's so much extra work just to use
+- [02:09] tools. I'm not even going to work with
+- [02:10] it." That was my thought process for the
+- [02:12] longest time. But after continually
+- [02:14] working with it over and over again, I
+- [02:16] now am a firm believer in MCP and I
+- [02:19] understand why it's such a powerful
+- [02:21] tool. So that's why in this section, I'm
+- [02:24] going to cover some of the major
+- [02:25] problems with traditional tool calling
+- [02:27] so that you can understand why MCP is so
+- [02:29] powerful and you need to use it as well.
+- [02:31] And to make things as easy to understand
+- [02:32] as possible, I've done my best to
+- [02:34] include a few different examples so you
+- [02:36] can see what tool calling looks like
+- [02:38] without MCP and all the benefits, but
+- [02:41] most importantly the cons of not using
+- [02:43] MCP so that when we hop over to looking
+- [02:45] at MCP, you go, "Oh, I now understand
+- [02:48] why MCP is so powerful and why I should
+- [02:50] use it as well." So, we're going to be
+- [02:52] covering all that in this crash course
+- [02:53] so we have a good foundation before we
+- [02:55] dive into actually start using it inside
+- [02:57] of Agent Development Kit. So, let's
+- [02:59] start at the top. And don't worry if it
+- [03:00] doesn't click instantly. It took me
+- [03:02] forever to learn it. So, I'm going to be
+- [03:04] breaking things down part by part. So,
+- [03:06] don't worry if it doesn't make sense
+- [03:07] till the end of phase one because
+- [03:09] there's a lot of moving parts. So, long
+- [03:11] story short, what the heck is model
+- [03:13] context protocol or MCP? In a nutshell,
+- [03:15] it's just a standardized way for AI
+- [03:17] agents to connect to external tools.
+- [03:20] More simply, what it's really doing
+- [03:22] under the hood is MCP is just a server
+- [03:25] that is a standardized way for you to
+- [03:28] access common real world AI tools that
+- [03:31] you want to pass to your agents. This
+- [03:33] MCP server, what it does in a
+- [03:35] standardized way is it allows you to
+- [03:37] connect up tools to your agent. So, it's
+- [03:39] one server that connects to your agent
+- [03:41] and this one server goes, "Hey, I'm
+- [03:43] connected to all sorts of tools." And
+- [03:44] for each tool, I could allow you to call
+- [03:47] this tool. I could list out all the
+- [03:48] tools you have access to or if you want
+- [03:51] more information on a tool, I can
+- [03:52] describe it for you so you can see what
+- [03:54] arguments you need to pass to this tool
+- [03:56] and what this tool is going to return
+- [03:57] to. So, it's just a standardized way.
+- [03:59] Now, that's the key thing. Standardized
+- [04:01] way to connect with tools. And this will
+- [04:03] make more sense as we dive deeper and
+- [04:05] after we compare traditional tool
+- [04:07] calling to MCP tool calling. It will
+- [04:09] click. It's just going to take a second
+- [04:10] to get there. So let's imagine for this
+- [04:12] example to help us better understand
+- [04:14] traditional tool calling. Let's imagine
+- [04:15] we were building an ADK agent that was
+- [04:18] going to connect to notion. Notion, if
+- [04:19] you've never used it before, it's just a
+- [04:21] productivity tool where you can write
+- [04:22] documents and create databases. Super
+- [04:25] powerful tool. But let's just imagine
+- [04:26] for this example, we were creating an
+- [04:28] ADK agent that worked with this notion
+- [04:31] tool. Now, under the hood, if you wanted
+- [04:33] to traditionally allow this agent to
+- [04:35] work with notion, it would be up to you
+- [04:37] to for every single API call you could
+- [04:41] use with notion, such as like, oh, I
+- [04:43] want to query a database. I want to
+- [04:45] create a page. I want to add a comment.
+- [04:46] For each one of these API endpoints that
+- [04:48] you would normally have to create a tool
+- [04:50] around, it would be up to you to write
+- [04:51] the tool. Now, what this would look like
+- [04:53] in traditional tool calling is you would
+- [04:56] have your agent. You would give it
+- [04:57] instructions and for every tool you
+- [05:00] wanted to use, you would make the tool
+- [05:02] just like this. And then you would just
+- [05:04] continually add all your tools right
+- [05:06] here inside the agent. So, this list
+- [05:08] would just keep growing on and on with
+- [05:10] more and more tools. And every time you
+- [05:12] wanted to do add a new tool, you would
+- [05:13] just do something like this. Super
+- [05:15] straightforward to use, makes a ton of
+- [05:17] sense, and it's a really easy way to get
+- [05:19] started adding tools to your agents. But
+- [05:21] the problem is going back to our notion
+- [05:22] example is there's a ton of different
+- [05:24] API calls that you would have to write
+- [05:27] in order to work with notion. So if we
+- [05:29] just head over to the notion documents,
+- [05:31] you can see there's a ton of different
+- [05:33] endpoints. So for creating a page or
+- [05:35] just working with pages, you have to
+- [05:37] work on creating pages, retrieving
+- [05:38] pages, getting page information,
+- [05:40] updating page properties. There's a ton
+- [05:42] of different API endpoints. And for each
+- [05:45] one of these API endpoints, it's up to
+- [05:47] you to basically write all the code
+- [05:50] around this command right here. So it
+- [05:52] would, you know, we would be using
+- [05:53] Python obviously, but for each different
+- [05:55] endpoint, it would be up to you to make
+- [05:57] a wrapper around this client and say,
+- [06:00] okay, hey, I want to make a tool for
+- [06:02] creating pages in notion. And it would
+- [06:04] be up to you to basically wrap this
+- [06:06] around in a tool that you could then
+- [06:08] pass over to your agents. So this is
+- [06:10] just a ton of redundant work. But the
+- [06:12] good news is once you've created that
+- [06:13] tool, it's super easy to use and pass
+- [06:16] into your agent. So super simple to
+- [06:18] create, but it's really redundant
+- [06:20] because let's imagine in project one you
+- [06:23] had this agent right here that worked
+- [06:25] with notion. And it's super easy if you
+- [06:27] have another agent in that same project
+- [06:30] that also you want to use notion with.
+- [06:32] Cuz what you would do is just go, okay,
+- [06:33] all right, agent one and agent two or
+- [06:36] agent A and agent B, I have a shared
+- [06:38] tool library where you can access all
+- [06:40] those notion tools. I just created for
+- [06:42] all 30 different commands you can work
+- [06:44] with different commands with notion. I
+- [06:46] put them all here in this one notion.py
+- [06:48] file and you can call all the 30
+- [06:50] different tools. Super easy to share the
+- [06:51] tools. But here's where things begin to
+- [06:53] break. Let's imagine you are working on
+- [06:56] a second project where you also want to
+- [06:58] start to interface and use notion. Well,
+- [07:00] how the heck do you allow this agent to
+- [07:03] use all the different Notion tools you
+- [07:05] just created in your other project? The
+- [07:07] short answer is you have to copy this
+- [07:09] notion.py PI file and paste it over
+- [07:12] here. And once you do that, you can now
+- [07:14] allow this agent to start using the tool
+- [07:16] as well. So you're pretty much, you
+- [07:18] know, not being a good programmer
+- [07:19] because you're not following the dry
+- [07:20] principle, which was don't repeat
+- [07:21] yourself cuz you're 100% repeating all
+- [07:23] the code right here that was over here.
+- [07:25] So super easy to create the tool, but
+- [07:28] super redundant. And you know, at a
+- [07:30] macro level, what I mean by it's
+- [07:32] redundant is if I'm wanting to use the
+- [07:34] notion API tool, I'm creating the same
+- [07:37] tools. if you're going to use the notion
+- [07:39] API, you're also stuck creating, you
+- [07:41] know, hundreds of lines of code just to
+- [07:43] use the notion API. So, it's redundant
+- [07:45] at a macro level because every single
+- [07:46] developer who wants to use Notion is
+- [07:48] stuck recreating all the tools, which at
+- [07:51] the end of the day, they're just
+- [07:52] wrapping all of the different commands
+- [07:54] that you get when using the Notion
+- [07:56] client. So, it's super redundant. So,
+- [07:59] what I want to do next is start to go
+- [08:00] over to MCP land and start to explain
+- [08:03] what is actually happening when we start
+- [08:05] to use MCP instead. So with MCP what you
+- [08:09] get to do is you go all right agent same
+- [08:12] agent you go I want to start to work
+- [08:15] with notion. Notion has those 30
+- [08:17] different endpoints that we can do to
+- [08:19] start to work with our documents where
+- [08:21] we can query the database add comments.
+- [08:23] And what I want to do is I want you to
+- [08:26] have access to the notion MCP server.
+- [08:29] And what this MCP server does is it
+- [08:31] wraps all of the different API endpoints
+- [08:34] that you would normally have to create
+- [08:36] tools for and they just automatically do
+- [08:38] it for you. So notion has one server
+- [08:40] that every single AI developer anywhere
+- [08:43] can use to start to interface with
+- [08:44] notion. So this comes back to the
+- [08:46] standardized way of allowing AI agents
+- [08:48] to use tools. It's just a standard
+- [08:50] interface for accessing tools. So here's
+- [08:53] what this would look like. So if you hop
+- [08:55] over to their MCP server that they have
+- [08:57] set up. So you can see notion has an MCP
+- [09:00] server inside this server. What they do
+- [09:02] is they allow you to easily interface
+- [09:05] with all things when it comes to notion.
+- [09:07] And more specifically what they have
+- [09:09] done under the hood because this is the
+- [09:11] important part is for every single
+- [09:13] possible command you can send over to
+- [09:15] notion such as creating a page or
+- [09:17] creating a database or updating a
+- [09:20] database. Every single command they have
+- [09:22] actually wrapped it inside of an MCP
+- [09:24] server. Now here's the beauty of this.
+- [09:26] What's going to happen now is our agent
+- [09:28] is going to say, "Okay, MCP server, I
+- [09:31] can see I've added a subserver that you
+- [09:34] need to interface with." And you can
+- [09:35] say, "All right, agent, can you please
+- [09:36] tell me what tools I have access to?"
+- [09:38] And this MCP server is going to go,
+- [09:40] "Okay, well, right now I'm only
+- [09:42] connected to one server." So, I'm just
+- [09:44] going to call this server and say, "Hey,
+- [09:45] please tell me what tools you have
+- [09:46] access to." And this notion MCP server
+- [09:48] is going to respond saying, "Hey, I have
+- [09:50] the ability to query databases, write
+- [09:52] comments, and create pages." And all
+- [09:54] this information is going to get passed
+- [09:55] back to your AI agent. And whenever you
+- [09:57] tell your agent, say, "Hey, I would like
+- [09:59] to create a new page." What's going to
+- [10:01] happen is this MCP server is going to
+- [10:03] go, "Oh, it looks like you're trying to
+- [10:04] do a tool call and this tool call
+- [10:06] belongs to the MCP server for notion.
+- [10:08] I'm now going to allow you to create a
+- [10:10] page." So, it's just one standardized
+- [10:12] way of interfacing with tools. Now, what
+- [10:14] does this actually look like in
+- [10:15] Codeland? Because I thought this was one
+- [10:17] of the biggest things I didn't
+- [10:18] understand at first. So here's just a
+- [10:20] dummy file for what it looks like to
+- [10:22] make agents inside of ADK that connect
+- [10:25] to MCP tools. So in our case, we are
+- [10:28] trying to work with notion. So we're
+- [10:30] saying, all right, agent, I would like
+- [10:32] to add a model context protocol tool
+- [10:35] set. This tool set is going to connect
+- [10:37] to a server. This server in this case is
+- [10:40] going to be the notion MCP server. And
+- [10:43] in order to run this server, I'm going
+- [10:45] to run the command npx, which is like
+- [10:47] the node package manager for running an
+- [10:49] executable. And what it's doing in a
+- [10:51] nutshell, don't worry, we're going to
+- [10:52] dive into it deeper later on, is we're
+- [10:53] saying, "Hey, I would like to run this
+- [10:56] server right here, and I would just like
+- [10:58] to run it on my local computer." And
+- [11:00] what this is doing is it's just on your
+- [11:02] local computer. It's spinning up a
+- [11:04] server, and this server is going to have
+- [11:06] access to all of the different API
+- [11:09] commands that Notion gives us. So, don't
+- [11:11] worry if this didn't make a ton of sense
+- [11:12] at first. We're going to dive much
+- [11:14] deeper into it throughout the rest of
+- [11:15] the video. But the key takeaway here is
+- [11:17] MCP servers, they're nothing more than
+- [11:19] just a wrapper around common tools. So,
+- [11:21] let's dive into some of the benefits of
+- [11:23] this. So, the major benefit when it
+- [11:25] comes to using MCP is that all of the
+- [11:28] tools that we're going to use such as
+- [11:30] Slack, notion, working with common
+- [11:32] databases, all of these tools are have
+- [11:34] MCP servers now. So just by simply
+- [11:37] creating a new tool, you can just say,
+- [11:39] "All right, I now want to work with the
+- [11:40] Slack tool." And then you can connect it
+- [11:42] to your MCP server and then boom, you
+- [11:45] instantly have access to Slack or you
+- [11:47] can say, "I want to start working with
+- [11:49] this browser tool." Okay, cool. You just
+- [11:52] instantly hook it up to your MCP server
+- [11:54] and now you can start to work with a
+- [11:56] browser tool. And what's amazing is
+- [11:58] instead of you having to recreate all
+- [12:00] those API commands you normally have to
+- [12:02] do and create tools, this just instantly
+- [12:04] goes and gives you access to all those
+- [12:06] different tools and really just
+- [12:07] supercharges your agent to allow it to
+- [12:09] do a ton of work. So there are a few
+- [12:11] cons of creating MCP servers that you're
+- [12:13] going to see later on such as like you
+- [12:16] need to actually just instead of you
+- [12:18] saying hey here's a tool and I'm just
+- [12:20] going to add it. There's some additional
+- [12:22] setup that you have to do. So, that's
+- [12:24] the biggest con of working with MCP,
+- [12:26] especially if you're going to create
+- [12:27] custom tools. You have to do, you know,
+- [12:29] basically set up a custom server on your
+- [12:31] local computer. I'm going to walk you
+- [12:32] through that in phase three, but just
+- [12:34] know that it's, you know, there's a
+- [12:36] little bit more setup, but if you're
+- [12:37] using industrial tools that are just
+- [12:39] your enterprise tools that are super
+- [12:40] common, MCP is a godsend because you
+- [12:42] just say, I'm using Notion and boom, in
+- [12:44] two clicks, you're automatically
+- [12:46] connected to Notion and just got instant
+- [12:47] access to 30 different tools that you
+- [12:49] can now supercharge your agent with. So
+- [12:51] main thing, don't worry. We're going to
+- [12:52] dive deeper into actually working with
+- [12:54] Notion in a second. So you're going to
+- [12:55] see all of this. Don't worry. But the
+- [12:57] main thing that I just want to say, if
+- [12:59] you're going to use a super common API,
+- [13:02] the answer is use MCP. MCP is going to
+- [13:04] make your life so much easier when it
+- [13:06] comes to working with agents. If you're
+- [13:07] rapidly experimenting with some custom
+- [13:09] tools locally that you're trying to just
+- [13:11] create for a proof of concept, I would
+- [13:13] stay away from MCP because it's going to
+- [13:15] make setting up your server a lot more
+- [13:16] work and it's going to be a little bit
+- [13:18] more work for not much value. But if
+- [13:20] you're creating something that you're
+- [13:21] going to use across a ton of your
+- [13:22] different projects or you want to allow
+- [13:24] others to use, the answer is use MCP. So
+- [13:27] don't worry if you have any questions on
+- [13:28] any of that, drop a comment down below.
+- [13:30] And as we actually hump over in phase
+- [13:32] two to where we start to use a real
+- [13:34] world MCP server, I think this is going
+- [13:36] to make a lot more sense. And when we
+- [13:37] really in phase three create an end
+- [13:39] to-end server, a lot of this will click.
+- [13:41] So don't worry if a lot of this isn't
+- [13:42] making sense right now. I promise you it
+- [13:44] will, especially the second you start to
+- [13:46] see this run in action. So, let's go
+- [13:47] ahead hop over to phase two and connect
+- [13:49] your first agent up to an MCP server so
+- [13:51] you can see everything working end to
+- [13:52] end. All right, guys. Welcome to part
+- [13:54] two where you're going to learn how to
+- [13:56] connect your first MCP tool up to an ADK
+- [14:00] agent. And in this part, we're going to
+- [14:02] first break down some of the most common
+- [14:05] places you can go to find MCP servers
+- [14:08] that have access to all the different
+- [14:09] tools you want to use. Then we're going
+- [14:11] to do a little bit of a deeper dive to
+- [14:13] look at notion because once you
+- [14:14] understand one MCP tool, you really
+- [14:16] understand them all. And then finally,
+- [14:17] we're going to run this agent so you can
+- [14:20] see how it actually interacts with MCP
+- [14:23] servers. Okay, so let's first dive over
+- [14:25] to working and looking at all the
+- [14:28] different servers that you can access.
+- [14:29] So the first one, which is the most
+- [14:31] common one, is to look at the model
+- [14:33] context protocol. There's a GitHub
+- [14:35] repository that has links to all the
+- [14:37] common servers that you can use. So you
+- [14:39] can see this is a huge page. So you can
+- [14:41] see, hey, here's a bunch of different
+- [14:43] reference servers that you can look at.
+- [14:44] Everything from connecting to GitHub,
+- [14:46] everything to Google Drive, Google Maps,
+- [14:49] databases, web browsers, all sorts of
+- [14:52] different tools. And you know, the list
+- [14:53] keeps going on and on and on with all
+- [14:56] sorts of common tools that you can
+- [14:58] access. I do want to just quickly peek
+- [14:59] at one so you can see what it looks
+- [15:01] like. So let's imagine we wanted to
+- [15:03] connect up to, in our case, let's just
+- [15:05] say Google Maps. Well, when you want to
+- [15:09] use an MCP server, here's pretty much
+- [15:11] what it looks like. An MCP server has a
+- [15:14] set of tools because that's what you
+- [15:16] remember. It's a unified MCP is just a
+- [15:18] unified way for agents to access tools.
+- [15:21] So, it's obviously going to list out all
+- [15:23] the different tools that we can use once
+- [15:24] we connect up to this server, the
+- [15:26] expected purpose of the tool, the
+- [15:28] inputs, and what it returns. So, it's
+- [15:30] just listing it all out at a high level.
+- [15:32] And then for each MCP server, you will
+- [15:35] notice that it gives you instructions on
+- [15:38] how to actually use the tool. Now,
+- [15:40] whenever I first saw these different
+- [15:42] types of setup instructions like this,
+- [15:45] at first I was like, this is so
+- [15:46] confusing, like what what am I actually
+- [15:48] doing? And it took a second. But the key
+- [15:50] lesson here is there are multiple ways
+- [15:53] to run a server. For example, you can
+- [15:55] run a server by running docker. This
+- [15:58] will spin up a Docker container and then
+- [16:00] you're just passing in a bunch of
+- [16:02] instructions to run a Docker container
+- [16:05] that runs the MCP Google Map server.
+- [16:08] That's all this is doing is it's just on
+- [16:10] your local computer. It's spinning up a
+- [16:12] local server that just waits for your
+- [16:14] agents to send requests to it. That's
+- [16:16] all this is doing. So this is a Docker
+- [16:18] example of doing it. Or you can do like
+- [16:21] the other approach which is using npx.
+- [16:23] So node package executables where all
+- [16:25] this is doing is the exact same thing.
+- [16:27] It's just creating and running a server
+- [16:29] that's running locally on your computer
+- [16:31] that's running this package right here.
+- [16:33] So, all it's doing is just a local
+- [16:34] server that's just sitting there waiting
+- [16:37] for your agents to ask what tools it has
+- [16:39] to describe a tool or to call a tool.
+- [16:41] That's all that's going on. So, don't
+- [16:43] let this confuse you. All the complexity
+- [16:45] of all the arguments. All it's doing is
+- [16:47] it's running a Google Maps server on
+- [16:50] your local computer so that your agents
+- [16:51] can make requests to it. And the other
+- [16:53] thing that you'll notice is there's
+- [16:54] really three parts to these different
+- [16:56] types of commands to run an MCP server.
+- [16:59] The first thing is the command. So how
+- [17:01] do you want to run this? You know, what
+- [17:02] command are you trying to use to run the
+- [17:04] server? And the most common commands
+- [17:06] you'll see are docker to create a Docker
+- [17:08] container. You'll see npx to run a node
+- [17:11] package executable or you can see it
+- [17:13] actually run Python. In part three of
+- [17:15] this tutorial, you're going to see how
+- [17:16] we create a Python server. But just to
+- [17:18] know, you know, these are the three most
+- [17:20] common commands you'll see. Then after
+- [17:22] you type in a command, what you'll
+- [17:24] notice is it passes in arguments. These
+- [17:26] arguments are nothing more than the
+- [17:28] commands needed to properly spin up the
+- [17:30] server. So in this case, it's running an
+- [17:32] interactive container that's using
+- [17:35] Google Maps and it's expecting to see an
+- [17:38] environment variable for the Google Maps
+- [17:40] API key. That's all this is saying for
+- [17:42] Docker. And then when it comes to node
+- [17:43] package manager, what it's saying is
+- [17:45] like hey please use node package
+- [17:47] executables and I would like to run this
+- [17:51] library package right here and I want to
+- [17:53] say dashy which mean accept all
+- [17:56] different props that get passed up. So
+- [17:58] like usually what will happen when you
+- [17:59] run npx is it'll install stuff and it's
+- [18:02] going to say yes I automatically want to
+- [18:03] install whatever you need to run this
+- [18:05] server. And then finally, in order to
+- [18:07] properly run this server, I'm going to
+- [18:09] pass in the same Google Maps environment
+- [18:11] variables into this server so that I
+- [18:13] can, you know, properly make the
+- [18:14] necessary commands. So this is you'll
+- [18:17] see this. It doesn't matter what server
+- [18:18] you're looking at. That one was Google
+- [18:20] Maps. If you're using Slack, you're
+- [18:22] going to notice the exact same thing.
+- [18:24] You're going to see tools. And then
+- [18:26] after you get done with all the tools,
+- [18:28] you're going to see once again the same
+- [18:30] ways to spin up a server. Node package
+- [18:32] manager or Docker. And then all it's
+- [18:34] going to do is say, "Yep, I want to run
+- [18:36] this node package, and here's a link to
+- [18:39] the library." And you can actually go to
+- [18:41] GitHub and actually dig deeper into this
+- [18:43] if you'd wanted to. Same for Docker. Run
+- [18:45] a Docker container, make it interactive.
+- [18:48] Here's some environment variables, and
+- [18:49] here's the actual container that you
+- [18:51] need to download and run. So, long story
+- [18:53] short, we're just running servers on our
+- [18:54] local computer that our agents are going
+- [18:56] to talk to. Hopefully, that makes sense.
+- [18:58] So, this is one area where you can see a
+- [19:00] bunch of different MCP servers. The
+- [19:02] other one is called Smithery. Either one
+- [19:05] of these just gives you access to a ton
+- [19:07] of different, you know, MCP servers that
+- [19:09] you can look up to. So, these are all
+- [19:11] amazing ones I definitely recommend
+- [19:13] checking out. Okay. In our case though,
+- [19:15] what we're trying to do is work with
+- [19:17] Notion. So, in our case, I have provided
+- [19:19] some links right here in this file that
+- [19:21] you can download completely for free to
+- [19:23] where you can see all the different
+- [19:24] information for all the servers we just
+- [19:26] looked at and specifically Notion cuz
+- [19:28] this is the one that we're going to be
+- [19:29] using. So, if you hop over to Notion,
+- [19:32] what you'll see is here's the official
+- [19:34] Notion document GitHub repository, and
+- [19:36] we're looking at their MCP server. And
+- [19:38] their MCP server has some setup
+- [19:40] instructions for us to walk us through
+- [19:42] exactly how to run our MCP server. So,
+- [19:46] in our case, what you would have noticed
+- [19:47] in every time we run an MCP server. So,
+- [19:49] let me actually hop back to our code. In
+- [19:51] our case, and what we're trying to do is
+- [19:53] run a node package manage executable to
+- [19:56] run our notion MCP server. And in our
+- [19:58] case, we need to pass in environment
+- [20:00] variables. And in our case, we mostly
+- [20:02] are just trying to pass in our notion
+- [20:04] API key. So in our case, to get our
+- [20:06] notion API key, you can just follow
+- [20:08] these readme instructions, and it'll
+- [20:10] show you how to actually set up
+- [20:12] everything that you need to create
+- [20:14] credentials. You pretty much want to
+- [20:16] check all these boxes so that you can
+- [20:18] actually write data to your notion or
+- [20:20] read data from notion. And then once
+- [20:22] you've created the application and you
+- [20:24] got the API key, you just invite
+- [20:27] whatever you know whatever different
+- [20:29] pages and databases you want to have
+- [20:31] access to. You just say yes, I would
+- [20:34] like to make a connection to this page
+- [20:36] and here's my MCP server. So just follow
+- [20:39] these. It's super super straightforward.
+- [20:40] Trust me. And once this is all done,
+- [20:43] we're going to end up with a page just
+- [20:44] like this. So we're about to run this
+- [20:46] code, but I just want to show you how
+- [20:47] straightforward it is. So in our case,
+- [20:49] we're saying, all right, I would like to
+- [20:51] create an agent. I'm calling this my
+- [20:53] notion MCP agent. When it comes to the
+- [20:56] actual commands, just say you're an
+- [20:58] helpful assistant. Take initiative.
+- [21:00] Basically, help me run all sorts of
+- [21:03] different queries against my notion
+- [21:05] database, you know, and you'll see it in
+- [21:07] just a second. And then finally, the
+- [21:09] most important part is actually using
+- [21:11] MCP. So every time you want to hook up
+- [21:14] your agent to a different set of MCPS
+- [21:16] servers, all you just type in is MCP
+- [21:19] tool set. Then you pass in the
+- [21:21] connection parameters and then you can
+- [21:22] run whatever you want right here. So if
+- [21:24] you wanted to use use Docker, you could
+- [21:26] put Docker here. If you wanted to use
+- [21:28] Node Package Manager, you could use that
+- [21:30] one. So it's just you can add as many as
+- [21:33] you want right here, which is nice cuz
+- [21:34] it's so easy to just with this one
+- [21:36] single command instantly add 30
+- [21:38] different tools to our agent. Super
+- [21:40] straightforward. And then finally, we're
+- [21:42] passing environment variables in. So
+- [21:44] what we're going to do now is we're
+- [21:45] going to run this agent so you can see
+- [21:47] it in action and actually start to see
+- [21:49] the power of MCP with your ADK agents.
+- [21:51] So what you'll notice is right now we
+- [21:54] have three different packages in here.
+- [21:56] We have a demo comparison. We have a
+- [21:58] local MCP and a remote MCP. Right now
+- [22:01] we're inside the remote MCP package
+- [22:03] where we're just trying to use our
+- [22:04] notion agents. So what we can do is go
+- [22:06] ahead and once you've followed the
+- [22:08] readme and installed all the necessary
+- [22:10] requirements, you can run the command ad
+- [22:13] web. And this will spin up a local
+- [22:15] server on our computer to where we can
+- [22:17] start to run our agents. So we're going
+- [22:20] to open it up. And now I'm going to walk
+- [22:22] you through actually starting to use our
+- [22:24] first agent that connects up to MCP. So
+- [22:27] let's go ahead and start taking this bad
+- [22:28] boy for a run. And to make things easier
+- [22:30] to view, I just went and put everything
+- [22:31] full screen. So what can we do? Well, if
+- [22:33] you remember back to our initial
+- [22:35] whiteboard drawing, our MCP server
+- [22:37] should allow us to list tools, call
+- [22:39] tools, and describe tools. So, let's try
+- [22:41] these out to see if it's properly
+- [22:43] showing all the notion tools that we
+- [22:45] have connected from our notion MCP
+- [22:48] server. So, let's go ahead and say what
+- [22:50] tools do you have access to. Now, what
+- [22:54] you'll might notice is it's going to in
+- [22:56] just a second it's going to show hey the
+- [22:58] default API. So this is the single
+- [23:00] endpoint that is the entry for our agent
+- [23:03] to have access to all of the underlying
+- [23:05] tools. So you can see when it comes to
+- [23:07] underlying tools, we have the ability to
+- [23:09] access a and retrieve all the different
+- [23:13] pages and databases. We can search
+- [23:15] databases. We can manage users. We can
+- [23:18] create comments. We can do anything
+- [23:19] inside of here. So I could also ask it
+- [23:21] describe the search page tool. And what
+- [23:26] this should do is you know call the
+- [23:29] describe tool underlying call and
+- [23:32] actually show us well hey for this tool
+- [23:34] the API post search that's the tool we
+- [23:37] would use I can see it lists out the
+- [23:39] basically the purpose and the key
+- [23:41] features and it also just it lists out
+- [23:43] everything in regards to this tool so
+- [23:46] that our agent would understand how to
+- [23:47] properly call it. So hey the purpose of
+- [23:49] this tool is to find notion pages or
+- [23:51] databases. Here's basically the key
+- [23:53] inputs, query, filter, sorting,
+- [23:55] pagionation. These are all the
+- [23:56] underlying things that you would
+- [23:57] normally have to add if you were
+- [23:59] creating the tool yourself. And then you
+- [24:01] know it lists some limitations. All this
+- [24:03] would have normally been added to the
+- [24:04] doc string of this tool. But hey, the
+- [24:06] MCP server whenever notion created this
+- [24:08] MCP server, they added all this
+- [24:10] information to our tool so we don't have
+- [24:11] to do it. So let's actually go ahead and
+- [24:13] start trying this out. I can say what
+- [24:15] databases have I used recently. And what
+- [24:18] this is going to do is look at my notion
+- [24:20] and it's going to analyze which
+- [24:22] different databases have I used. So in
+- [24:24] my case, I've been using two. One is my
+- [24:27] personal brand content engine. This is
+- [24:28] where I store all of my ideas for
+- [24:30] YouTube. And then the next one's
+- [24:31] journal, which is where I just put all
+- [24:32] of my thoughts. So I can say, what are
+- [24:35] the most recent pages I've worked on in
+- [24:39] the content engine? Give me the five
+- [24:43] most recent. And then what this will do
+- [24:44] is it should call our notion page. It
+- [24:47] should make a custom query because if I
+- [24:49] dive deeper into this query, you can see
+- [24:51] it's actually like, hey, I want to make
+- [24:53] sure we only get five pages. I want to
+- [24:55] get the most recent ones and I only want
+- [24:57] to do it for this database. So, you can
+- [25:00] see it mapped agent development kit
+- [25:02] mapped my English language to the proper
+- [25:05] tool call that is hosted inside MCP. So,
+- [25:08] you can see all right, you can see it
+- [25:10] got back the results. So, here's the
+- [25:11] five most recent ideas I've thought
+- [25:13] about doing. So, yeah, how to make real
+- [25:15] world AI apps. Five tips to code 10
+- [25:18] times faster, how to create the perfect
+- [25:19] prompts, MCP, that's the one you're
+- [25:21] watching right now, and A28. So, you can
+- [25:23] see it's actually showcasing the
+- [25:25] different projects that I have inside of
+- [25:27] my notion. So, let's do add a comment to
+- [25:31] the MCP ADK crash course that says,
+- [25:36] let's in our case, let's just say please
+- [25:38] like and subscribe. And what this should
+- [25:41] do is make an actual tool call in just a
+- [25:43] second. So I will pull this down so you
+- [25:46] guys can see it. So it should be this
+- [25:47] appears to be two pages of this title.
+- [25:49] Let's say just do use this one. Use this
+- [25:51] one. And what this should do is now
+- [25:54] officially make a call. So it should
+- [25:56] create a comment. And let's move this
+- [25:57] page down so you guys can see it in
+- [25:59] action. So you can now see my MCP crash
+- [26:01] course. This is the video I'm recording
+- [26:02] right now. It actually officially added
+- [26:04] a comment. So our agent called our MCP
+- [26:07] server which then called notion and it
+- [26:09] put like, "Hey, please like and
+- [26:10] subscribe." So this bad boy is working
+- [26:13] amazing. So yeah, this is just a quick
+- [26:15] sneak peek of the power of using MCP to
+- [26:18] connect your agents to, you know,
+- [26:20] commonly used tools that can supercharge
+- [26:23] your agents. And one of the main things
+- [26:25] I just want to mention is if you ever
+- [26:26] have questions on what's going on inside
+- [26:28] of your agent, you can easily always
+- [26:30] click these buttons right here to see,
+- [26:32] hey, here's your agent. Here's all the
+- [26:35] tools we're getting access to from using
+- [26:36] this MCP server. And then whenever it
+- [26:38] does call a tool, you can see it's the
+- [26:40] selected one. And then you can dive
+- [26:42] deeper into seeing the parameters passed
+- [26:44] in for the function call. So this is all
+- [26:46] the awesome parts that you know MCP
+- [26:48] service for notion have done and you
+- [26:50] know made our life so much easier for
+- [26:52] actually interfacing with public and
+- [26:53] enterprise different types of tools that
+- [26:55] our agents can interface with. So yeah,
+- [26:56] this is working with remote tools in a
+- [26:59] nutshell. And what we're going to do in
+- [27:01] part three is you're going to learn how
+- [27:02] to actually create an MCP server
+- [27:04] yourself so you can start to add your
+- [27:06] own custom tools and provide those
+- [27:09] custom tools to your agents all in a
+- [27:11] standardized way using MCP. So let's hop
+- [27:13] over to part number three. All right
+- [27:14] guys, welcome to part three where you're
+- [27:16] going to see how we can create a local
+- [27:18] MCP server specifically where we're
+- [27:21] going to have a ADK agent hooked up to a
+- [27:24] local MCP server that we have running on
+- [27:27] our computer. Now, this one's going to
+- [27:29] be a little bit more involved on the
+- [27:31] code side, but don't worry, I'm going to
+- [27:32] walk you through everything at a high
+- [27:33] level. And before we dive into the code,
+- [27:35] I just want to mention the order that
+- [27:36] we're going to do things so you can, you
+- [27:39] know, follow along easy. So, first
+- [27:40] things first, you're going to see how we
+- [27:42] can create a local MCP server that will
+- [27:45] run on our computer. Once we have that
+- [27:47] MCP server up and running, you're going
+- [27:49] to see how we can add in a bunch of
+- [27:52] different tools to our MCP server.
+- [27:54] Specifically, you're going to see how
+- [27:55] we're trying to create a bunch of tools
+- [27:58] that allow us to interact with a SQL
+- [28:00] database on our local computer. So, we
+- [28:02] just have a bunch of users and a bunch
+- [28:03] of to-dos in this database. So, we
+- [28:05] should be able to ask questions against
+- [28:07] this database, such as like, hey, what
+- [28:08] tables do you have? What's in a specific
+- [28:11] table? Add data, delete data, all these
+- [28:13] different tools that you can see right
+- [28:14] here, we're going to add as tools to our
+- [28:16] MCP server. Once we have our MCP server
+- [28:20] up with all these different tools, we're
+- [28:22] then going to create our agent and I'm
+- [28:24] going to show you how you can connect
+- [28:25] that agent to our MCP server. So, let's
+- [28:27] hop over to the code and start seeing
+- [28:30] how you can create your first local MCP
+- [28:32] server. All right, so now it's time to
+- [28:34] get our hands dirty as we dive into
+- [28:36] setting up our local MCP server. And as
+- [28:38] a quick reminder, you can download all
+- [28:40] the source code you see right now
+- [28:41] completely for free. Just click that
+- [28:42] link down description below. But we're
+- [28:44] mostly going to be working inside the
+- [28:45] local MCP folder because this is the
+- [28:47] folder that has access to our MCP server
+- [28:50] which we're creating in the server.py.
+- [28:52] It has access to our agent.py who's
+- [28:54] going to making calls to our MCP server.
+- [28:56] And then finally, this is where we have
+- [28:58] our database. And just a quick reminder,
+- [29:00] this database has access to our users
+- [29:03] and it has access to our to-dos. So
+- [29:06] ultimately, we just want our agent to be
+- [29:07] able to make queries against this
+- [29:09] database, add data, delete data,
+- [29:11] everything about this database we're
+- [29:12] trying to interface with for this simple
+- [29:14] example. So what we're going to do is
+- [29:15] start off in the server.py and we're
+- [29:17] going to work our way from top to bottom
+- [29:19] so you understand exactly what's going
+- [29:20] on so that you can understand what we're
+- [29:23] doing as we create this local MCP
+- [29:24] server. So first things first, what
+- [29:26] you'll notice inside this MCP server is
+- [29:28] we're really just making two major types
+- [29:29] of imports. First, we're importing
+- [29:32] everything from agent development kit
+- [29:33] needed to convert our tools over to
+- [29:36] tools that can be used by our MCP
+- [29:38] server. And then when it comes to MCP,
+- [29:41] we're really just trying to, you know,
+- [29:43] get everything ready to run an MCP
+- [29:44] server. That's the main types of imports
+- [29:46] that we have set up. Next, what I think
+- [29:48] makes sense is we're going to dive in
+- [29:50] and look at all the different tools that
+- [29:52] we have access to and we're trying to
+- [29:54] put in our MCP server. So, let's go from
+- [29:57] top to bottom so you can understand
+- [29:58] exactly what's going on. So first things
+- [30:00] first, we have a utility function which
+- [30:02] is called get database connection. This
+- [30:04] is a utility function that's going to be
+- [30:06] used by every single one of our tools.
+- [30:08] So every single one of our list database
+- [30:10] tables, git table, everything is going
+- [30:13] to call this utility tool right here
+- [30:14] that's actually going to connect to our
+- [30:16] database. Once we've connected to a
+- [30:17] database, we can start to have our tools
+- [30:20] make changes and you know interact with
+- [30:23] this database. So let's look at our list
+- [30:25] database table. You can see what we're
+- [30:27] trying to do is just hey what are all
+- [30:28] the tables inside of the SQLite database
+- [30:30] per usual following best practices
+- [30:32] inside ADK you need to make sure that
+- [30:35] you return a dictionary and then also
+- [30:37] you need to make sure that you pass in
+- [30:39] parameters quick note because this is a
+- [30:41] bug that I've reported right now you
+- [30:43] cannot make an MCP tool that has an
+- [30:46] empty parameter so we just have to pass
+- [30:48] in a dummy parameter to get this one to
+- [30:50] work hopefully by the time you're
+- [30:51] looking at this they make a quick fix
+- [30:53] but just know if you try and create a
+- [30:55] tool that doesn't have a parameter, it's
+- [30:57] going to break. Or if you had done
+- [30:59] something like this to where you passed
+- [31:00] in a default value or you do something
+- [31:03] that's like optional, it will break. So
+- [31:06] you need to be very specific and make
+- [31:07] sure that you follow best practices for
+- [31:10] creating tools inside of ADK. And you
+- [31:12] can check out their docs for more
+- [31:13] information or the master class I've
+- [31:15] created. So list the database tables.
+- [31:17] All we're doing, we're connecting, we're
+- [31:18] just running straight up SQL commands,
+- [31:20] and then we're returning back everything
+- [31:22] that we found with all the tables right
+- [31:24] here for our agents. Next, what we're
+- [31:26] trying to do is we should be able to for
+- [31:28] any particular table, we want to be able
+- [31:31] to get the schema. So, we want to be
+- [31:33] able to see like, oh, this to-do table
+- [31:35] has user ID, ID, task completed. That's
+- [31:39] what type of schema we want to get. Then
+- [31:40] when it comes to quering a database
+- [31:42] table, we basically just want to for any
+- [31:45] specific query, what we want to do is be
+- [31:47] able to pass in, hey, I want to look at
+- [31:49] this table. I want to look at this
+- [31:51] column and under these conditions. So
+- [31:53] yeah, basic SQL command stuff. So I'm
+- [31:55] going to skip going through the rest of
+- [31:56] those tools. And now we're going to dive
+- [31:58] into the MCP server part. So what you
+- [32:00] need to do first is you need to start to
+- [32:02] create an instance of your MCP server.
+- [32:04] So you just need to give your server a
+- [32:06] name. So there's name, version, and
+- [32:08] instructions. In our case, the only
+- [32:09] thing you really need is a name. Now,
+- [32:11] once we have our server set up, we need
+- [32:13] to start saying, "Okay, server, you need
+- [32:15] tools." That's the whole point of
+- [32:16] setting up an MCP server is to
+- [32:18] standardize giving tools to our agents.
+- [32:20] So, what we have done is we've made a
+- [32:22] nice dictionary of all the ADK database
+- [32:25] tools we want to create. And what's nice
+- [32:27] is ADK has created a function for us
+- [32:30] that converts raw tools like our list
+- [32:32] database table. It converts this
+- [32:35] function with its parameters, its return
+- [32:37] type, its dock strings. It converts it
+- [32:39] into a tool that can be used by MCP
+- [32:42] because by default ADK tools are of type
+- [32:45] base tool, but MCP needs it in a
+- [32:47] completely different format. So they've
+- [32:48] made it a converter for us that you're
+- [32:50] going to see in a section. But right
+- [32:52] now, we're just saying, hey, I'm
+- [32:53] creating a ADK tool called list database
+- [32:57] table. And just in a second, you're
+- [32:58] going to see how we can convert it over
+- [32:59] to an MCP tool, which is where we're
+- [33:01] starting to do right now, which is the
+- [33:03] next part, which is like, okay, our
+- [33:05] server, our MCP server, it needs to have
+- [33:07] two different functions. So, if you
+- [33:09] remember, every MCP server needs to be
+- [33:10] able to list tools and call tools. So,
+- [33:12] when it comes to listing tools, all
+- [33:14] we're doing is we're going, hey, for
+- [33:16] this list that you have right here of
+- [33:18] all the database tools, what I want to
+- [33:20] do is iterate through each one of them.
+- [33:22] So for each tool that we have, I want to
+- [33:25] iterate through them. And I want to call
+- [33:27] the function that ADK has made for us
+- [33:29] that converts from ADK tools to MCP
+- [33:32] tools. And if you actually just dive in,
+- [33:34] like I said earlier, ADK tools are of
+- [33:37] this type, but MCP needs tools of this
+- [33:39] type. So there's a nice little helper
+- [33:41] function to make our life easier. And
+- [33:42] this is just going to give us back our
+- [33:44] schema. And all we're going to do is
+- [33:45] just for every tool, we're just going to
+- [33:46] keep adding to this list right here. And
+- [33:48] once we're done iterating through all
+- [33:50] the different tools and we have them in
+- [33:51] the right format, we're just going to
+- [33:52] return, hey, I have access to all of
+- [33:55] these tools. And this is whenever you
+- [33:57] call say, hey agent, you want to see
+- [34:00] what all the different tools are on the
+- [34:01] MCP server. It's actually just returning
+- [34:03] this list right here. Then finally, the
+- [34:05] next command that we're working with
+- [34:07] that we want to add to our server is
+- [34:08] call tool. So call tool, what it does is
+- [34:11] it takes in a name of of a function that
+- [34:13] we're trying to call and then specific
+- [34:14] arguments. So like imagine we were
+- [34:16] trying to call the get table schema.
+- [34:19] Well for this tool what we need to do is
+- [34:21] we just need to pass in a table name and
+- [34:23] it we would expect to get back the table
+- [34:26] name and all the columns for that table.
+- [34:28] So that's all we're trying to do with
+- [34:29] call tool. So you know we would just
+- [34:31] pass in get table schema and then we
+- [34:33] would just pass in the name of that
+- [34:35] specific table. Then what we want to do
+- [34:37] is we want to check to say okay well it
+- [34:39] looks like you're trying to call this
+- [34:40] tool. Do we actually have access to this
+- [34:42] tool? Like does this tool exist? Oh
+- [34:44] yeah, get table schema does exist. So we
+- [34:46] can start to call it and then all we
+- [34:48] have to do is just on that specific tool
+- [34:51] just call run async and it's going to
+- [34:52] generate a tool response. And then that
+- [34:54] tool response all we're doing is
+- [34:56] returning it back to our agent. So we're
+- [34:59] just saying all right here's the return
+- [35:01] type. It's text content and I'm just
+- [35:03] returning the response back to the agent
+- [35:06] to, you know, take action on it. And if
+- [35:08] anything goes wrong, just go ahead and
+- [35:09] log it as an exception. Finally, what we
+- [35:11] want to do now that we've created our
+- [35:13] server that has access to listing tool
+- [35:16] calls and calling tools, now we just
+- [35:18] need to actually like run the server
+- [35:20] itself. Cuz if you remember at the end
+- [35:21] of the day, an MCP server, it's nothing
+- [35:23] more than a server that's running and
+- [35:24] it's waiting for the agent to talk to it
+- [35:26] so that it can call a tool and then send
+- [35:28] back the response. So here's what we're
+- [35:30] trying to do. So we have a run MCP.
+- [35:32] STDIO stands for standard input output
+- [35:35] server. And all it is is basically just
+- [35:37] think of it as if you hover over here,
+- [35:39] it's basically just the way our client
+- [35:42] or our our agent is going to communicate
+- [35:44] with the server is through standard
+- [35:45] input output. So all it's doing is just
+- [35:47] like sending actual text as outputs and
+- [35:50] it's receiving raw text as well. So I
+- [35:52] won't go too deep into it, but just at
+- [35:53] the high level to understand is like
+- [35:55] this server is running locally on our
+- [35:57] computer. It has a readstream where it's
+- [35:59] reading in information from our agent.
+- [36:02] So our agent's passing in information
+- [36:04] and readstream and then as we send data
+- [36:06] out we're going out on the right stream.
+- [36:08] So that's how we you know send
+- [36:09] information back to our agent and then
+- [36:11] all we're doing is saying okay I have my
+- [36:13] MCP server studio. Now what I can do is
+- [36:15] actually run this application and all I
+- [36:18] want to do is just say all right I want
+- [36:20] to run with this readstream write stream
+- [36:22] and just to help the agent understand a
+- [36:26] little bit more about this server. You
+- [36:28] can actually say and initialize it to
+- [36:29] say like oh I am this server I'm this
+- [36:32] version and here's some of the extra
+- [36:33] capabilities that I have. Once that's up
+- [36:35] and running you are good to go. So
+- [36:37] what's interesting about this is you can
+- [36:39] actually just run the server even
+- [36:40] without your agent. So let me just show
+- [36:41] you what I mean. So if you change
+- [36:43] directory to local MCP, you can go ahead
+- [36:46] and run this server just by running
+- [36:48] server.py and this will kick off the
+- [36:50] local server right here. Now what's
+- [36:52] going to happen though is you're not
+- [36:53] going to really see anything happen
+- [36:55] under the hood. But you will if you go
+- [36:57] over to the logs because you can see at
+- [36:59] the very top of the file, let me just go
+- [37:01] back so you can see it. You can see at
+- [37:02] the very top of the file, we are logging
+- [37:03] everything at MCP server activity. So
+- [37:05] when we kick off our server, you can
+- [37:07] see, hey, it is running. I've created
+- [37:09] the MCP server. It's initialized. I've
+- [37:11] registered the two different types of
+- [37:13] requests and now I'm just waiting. I'm
+- [37:15] waiting for the agent to start sending
+- [37:16] me requests. So, pretty cool. You have
+- [37:18] your first MCP server up and running.
+- [37:20] So, what we're going to do next is we're
+- [37:21] going to hop over to the agent and start
+- [37:22] running through how we can connect our
+- [37:24] agent to this local MCP server. So,
+- [37:26] let's hop over to the next part. So,
+- [37:27] let's quickly cover how we can set up
+- [37:29] our ADK agent on our computer to connect
+- [37:32] to our local MCP server. It's actually
+- [37:34] pretty straightforward, but there's a
+- [37:36] few gotchas you got to be careful for.
+- [37:37] So the most important thing that is
+- [37:39] probably pretty common by this point is
+- [37:41] you've seen how to create an agent.
+- [37:43] You've seen all this before and you've
+- [37:46] also seen in order to in the previous
+- [37:48] section when we were connecting to
+- [37:49] remote MCP servers. It's basically the
+- [37:52] exact same thing except now we're just
+- [37:54] changing up the command and arguments
+- [37:56] that we're trying to run in order to
+- [37:58] kick off the server. In this case the
+- [38:00] server because it's running on our local
+- [38:02] computer. What we have to do is say,
+- [38:04] "All right, what I want to do is I want
+- [38:06] to kick off the Python server I've
+- [38:08] created." So, I'm going to I need to run
+- [38:10] Python just like you would run any
+- [38:11] normal piece of code. You would do like
+- [38:13] Python main.py, Python server.py,
+- [38:15] whatever you would normally do. We're
+- [38:16] going to call Python 3. And then we need
+- [38:18] to point to the pace on our computer
+- [38:21] where our MCP is at. In our case, it's
+- [38:23] in the exact same folder. So, we're in
+- [38:25] agent.py and we're trying to call this
+- [38:27] server.py. Well, in order to get your
+- [38:29] local MCP servers to work, you have to
+- [38:32] point at the absolute path to your
+- [38:35] server.py. So, that's what we're doing
+- [38:37] right here. We're trying to say, "Hey,
+- [38:39] Python, I would like you to get my
+- [38:41] current file path. I would like you to
+- [38:43] get the parent, which is going to point
+- [38:44] to local MCP, and then I want you to add
+- [38:47] forward/server.py, which is then going
+- [38:49] to point here. And this is what's going
+- [38:50] to give us the total absolute path for
+- [38:53] our server. And this is what's going to
+- [38:55] allow us to actually run and connect to
+- [38:57] our MCP server right here. And then
+- [38:59] finally, just in case you want to see
+- [39:00] the instructions, we're basically just
+- [39:01] saying like, hey, you're an efficient
+- [39:03] database agent. You can talk to
+- [39:05] databases. Be smart about it is all
+- [39:07] we're trying to say. And let me go ahead
+- [39:08] and run it to you. And then I want to
+- [39:09] show a few quick pieces of information
+- [39:11] that you can do. So let's go ahead and
+- [39:13] kick things off. And the first thing we
+- [39:15] need to do is change directories to go
+- [39:17] back to our root ADK MCP directory. And
+- [39:19] then now we can start to run our agent.
+- [39:21] So we can do ADK web. And this will spin
+- [39:23] everything up. It might just take a
+- [39:25] second. Yep, everything is running. So
+- [39:27] now I can come back over here, refresh,
+- [39:29] and you want to make sure you have local
+- [39:30] MCP clicked. So now what I can do is
+- [39:33] start to take this agent for a run with
+- [39:35] all the new MCP tools that we have set
+- [39:37] up. So we can say, what tools do you
+- [39:40] have access to? And then what this
+- [39:43] should do is it should make a request to
+- [39:46] our MCP server and say, hey, get all the
+- [39:49] different tools that I have access to.
+- [39:50] And you can see it actually did it.
+- [39:52] These are all the tools that we set up
+- [39:54] back inside of our server.py. So you can
+- [39:57] see all these different tools right
+- [39:58] here. Insert data, delete data, they're
+- [40:00] all right here. Pretty darn cool. So now
+- [40:02] we can actually see if these tools are
+- [40:04] working and we can actually call them.
+- [40:05] So we can say what tables do I have
+- [40:09] access to? And this should trigger the
+- [40:11] list all tables and it should return
+- [40:14] back the hey you have access to the
+- [40:16] users and to-do list which if you dig
+- [40:18] into our database you can see yeah
+- [40:20] they're just to-dos and users. So it's
+- [40:22] working pretty darn cool. But now let's
+- [40:24] actually go deeper cuz I want to show
+- [40:25] you that it can actually change the way
+- [40:27] we're communicating in English to actual
+- [40:29] tool calls. So let's say what users do I
+- [40:34] have in the users table. And what this
+- [40:36] should do is change up the command into
+- [40:39] a query command instead. So you can see,
+- [40:41] oh, I have Bob. And now what I want to
+- [40:43] show you is like this can actually come
+- [40:44] up with condition logic. So you can see
+- [40:46] the query database table, it just like,
+- [40:48] hey, for the users table, just give me
+- [40:50] all the information. That's what it did.
+- [40:52] But now we can be fancy with it and say,
+- [40:54] what to-dos does Bob have? And then this
+- [40:57] should create a new custom query where
+- [40:59] it's like, hey, I want to look at the
+- [41:01] to-do table where the user ID is equal
+- [41:04] to the user ID from Bob. And that's
+- [41:06] pretty darn cool because you can see Bob
+- [41:08] has two projects or two tasks. He needs
+- [41:10] to finish a project and he needs to go
+- [41:11] for a run. And then we can add logic two
+- [41:13] where we can say add a to-do for Bob. So
+- [41:17] add a to-do for Bob to let's say go
+- [41:20] grocery shopping. And what this should
+- [41:22] do is call insert and insert data should
+- [41:24] now do it again. And then we can
+- [41:27] basically call it again. And we should
+- [41:28] be able to see Bob now has three
+- [41:30] different to-dos. And if we hop over to
+- [41:33] our database and to-dos, you can see
+- [41:35] there's a new one for buy groceries. So
+- [41:37] yeah, all around it did pretty darn
+- [41:39] cool. So this is, you know, this is
+- [41:40] basically ADK plus MCP in a nutshell.
+- [41:44] You also learned exactly how to create
+- [41:46] your MCP server on your local computer.
+- [41:48] You learned how to create tools that you
+- [41:50] pass into your MCP server. I mean, you
+- [41:53] guys are pros at this point. So let me
+- [41:55] know if you have questions on anything
+- [41:56] that we just covered, cuz like I said, I
+- [41:57] know MCP's a little bit more advanced,
+- [41:59] but I'm always happy to help. comment
+- [42:01] down below or I have that free weekly
+- [42:03] coaching calls inside of my free school
+- [42:05] community and I'd love to help you out
+- [42:06] over there as well. So, congrats guys.
+- [42:08] You're officially now experts at using
+- [42:09] MCP with agent development kit. And a
+- [42:12] few quick reminders, if you need help,
+- [42:13] either drop a comment down below or head
+- [42:15] over to that free school community I've
+- [42:17] created for you guys. Also, you can get
+- [42:18] all the examples you saw in today's
+- [42:20] video completely for free. Just click
+- [42:22] that first link down in the description
+- [42:23] below. But I also want to mention on
+- [42:24] this channel, I have a bunch of other AI
+- [42:27] content for you guys. Everything from
+- [42:28] agent development kit, crash course,
+- [42:30] crew AI, lang chain. If you want it, I
+- [42:32] got it. So definitely check them out.
+- [42:33] Everything else I have on this channel
+- [42:35] and I also recommend checking out
+- [42:36] whatever video is popping up right now
+- [42:38] from YouTube. So I cannot wait to see
+- [42:40] you guys in the next video. Have a great
+- [42:41] day. See you. Bye.

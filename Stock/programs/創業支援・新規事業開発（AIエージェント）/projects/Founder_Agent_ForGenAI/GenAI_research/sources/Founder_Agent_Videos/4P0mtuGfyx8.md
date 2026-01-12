@@ -1,0 +1,307 @@
+---
+title: "YouTube Video: 4P0mtuGfyx8"
+video_id: "4P0mtuGfyx8"
+video_url: "https://www.youtube.com/watch?v=4P0mtuGfyx8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Hello all, my name is Krishna and welcome to my YouTube channel. So guys, I am super excited to announce our new Udemy course on the complete agenti boot camp with Langraph and Langchain. So this was ...
+key_points:
+  - "about. So first of all um as you all"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 4P0mtuGfyx8
+
+- URL: https://www.youtube.com/watch?v=4P0mtuGfyx8
+- Retrieved at: 2025-12-30T09:34:35+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] I am super excited to announce our new
+- [00:07] Udemy course on the complete agenti boot
+- [00:10] camp with Langraph and Langchain. So
+- [00:13] this was one of the most requested batch
+- [00:15] from past couple of months and finally
+- [00:18] yesterday we have launched this
+- [00:19] particular batch and uh the kind of
+- [00:22] feedbacks that we are getting is quite
+- [00:24] amazing. Yes, you cannot see the
+- [00:26] feedbacks over here but personally I
+- [00:28] have got a lot of messages from people
+- [00:30] from LinkedIn and all and they are
+- [00:32] saying this batch is quite amazing. This
+- [00:34] entire Udemy course is amazing itself.
+- [00:36] So in this particular video I will be
+- [00:38] talking about more about this specific
+- [00:39] course uh what exactly it is what all
+- [00:41] topics we are specifically going to
+- [00:43] cover and as we go ahead you know why
+- [00:46] this will be an amazing course
+- [00:47] altogether that also I'll be talking
+- [00:49] about. So first of all um as you all
+- [00:52] know that Udemy provides limited
+- [00:53] coupons. Okay. So right now there will
+- [00:56] be one coupon that I'm actually going to
+- [00:58] provide you Agentic 2025 and with the
+- [01:01] help of this particular coupons you'll
+- [01:02] be able to get discount specifically
+- [01:04] from people who are in India they'll be
+- [01:06] able to get this course in 399 rupees.
+- [01:08] So go ahead and utilize this
+- [01:10] opportunity. uh the main aim of this
+- [01:13] particular course is to completely learn
+- [01:15] agentic AI with one of the most popular
+- [01:18] framework and library that is called as
+- [01:19] langraph and langchain. Okay. So what we
+- [01:22] are specifically going to do and how we
+- [01:24] are going to cover the syllabus each and
+- [01:26] everything I'll be talking about. So
+- [01:27] here you'll be able to see that u here
+- [01:30] the python prerequisite we have already
+- [01:33] uploaded it as a dedicated course. Okay
+- [01:36] over here it is a complete module that
+- [01:38] you'll be able to see. We will be
+- [01:40] learning about lang chain. We will be
+- [01:42] learning about different different
+- [01:43] open-source uh LLM models. We will be
+- [01:46] also checking out OpenAI, Grock and many
+- [01:49] more things. Along with that, we will
+- [01:50] first of all start learning from
+- [01:52] building traditional uh generative AI
+- [01:55] applications. Okay. So that will be the
+- [01:57] first phase of completion. And as we go
+- [02:00] ahead and complete the generative AI
+- [02:02] application building part, then we move
+- [02:04] towards AI agents and agentic AI. Right?
+- [02:07] So this AI agents and agentic AI what we
+- [02:10] are basically going to do over here is
+- [02:11] that build uh a very good agentic AI
+- [02:15] application where we are solving some
+- [02:17] amazing use cases. Okay. So here you'll
+- [02:19] be able to see that when we are starting
+- [02:20] with lang graph there are so many
+- [02:22] different topics how to probably go
+- [02:24] ahead and start creating a simple graph
+- [02:26] or workflow using lang graph building
+- [02:28] nodes and edges building simple graph
+- [02:30] state graph compiling how to develop llm
+- [02:33] powered simple chatbot using graph lang
+- [02:35] graph. Okay. So this will be the module
+- [02:37] where you learn more about langraph and
+- [02:39] all. Right. Then we go ahead with
+- [02:41] langraph components where we are going
+- [02:43] to discuss about each and every
+- [02:44] components and this components here is
+- [02:47] not just theoretical explanation but
+- [02:49] practical implementation cons
+- [02:51] considering specific use cases. Okay. So
+- [02:54] if you probably go ahead and see every
+- [02:56] video out here you'll be able to see
+- [02:58] different different use cases which will
+- [02:59] actually help you to build a good strong
+- [03:02] foundation related to langraph. Then we
+- [03:04] go towards advanced langraph. Then I
+- [03:07] will also show you how to debug uh the
+- [03:09] langraph applications that you are
+- [03:11] specifically creating. And these
+- [03:12] applications are nothing but agentic AI
+- [03:14] applications. You'll be able to track
+- [03:16] each and every communication, how much
+- [03:19] uh what kind of agentic flow you are
+- [03:21] actually following, how each and every
+- [03:22] node is giving you the output, how you
+- [03:24] can improve them, each and everything in
+- [03:26] this particular langraph studio. Okay.
+- [03:28] And this we will directly do it in the
+- [03:30] cloud. So Lang graph provides you cloud
+- [03:32] platform for actually verifying each and
+- [03:34] everything. Then uh this section that
+- [03:37] you'll be able to see different
+- [03:38] workflows in Langraph. This is one of
+- [03:40] the most important section. Here you'll
+- [03:43] be able to understand what all amazing
+- [03:46] workflows you can probably create in
+- [03:48] order to solve different different kind
+- [03:49] of use cases. So that part we will be
+- [03:52] covering over here. So there are some
+- [03:54] workflows like prompt chaining, prompt
+- [03:55] chaining, implementation,
+- [03:56] parallelization, routing, orchestrator,
+- [03:59] worker, evaluator, optimizer and many
+- [04:01] more things right. So we will be
+- [04:02] covering this step by step and each
+- [04:05] video, each implementation is at least
+- [04:07] 15 to 20 minutes where I will be writing
+- [04:09] each lines of code and explaining you.
+- [04:11] Okay? Then the other module that you
+- [04:14] have is something called as human in the
+- [04:16] loop. Now there is a pattern. Yes, when
+- [04:19] you create complex workflows, you can
+- [04:21] actually uh make the AI LLM model
+- [04:23] execute almost each and everything. But
+- [04:26] human feedback is also important, right?
+- [04:28] And this particular module will show you
+- [04:30] that how you can add human feedback and
+- [04:33] how you can probably help them to
+- [04:34] probably provide good feedbacks itself
+- [04:36] and continue the execution with respect
+- [04:38] to the workflow. Then you have rag. Rag
+- [04:41] I have covered almost eight to nine
+- [04:44] different types of rag implementation
+- [04:45] which are very good rag. We will be
+- [04:47] covering agentic rag, corrective rag,
+- [04:49] adaptive rag. In adaptive rag you also
+- [04:51] have something called a self rag. So all
+- [04:53] those kind of rags will also be
+- [04:55] completed and we have explained both
+- [04:57] theoretical intuition and practical
+- [04:59] implementation. Now till here we have
+- [05:02] done it and here you can see that it is
+- [05:04] 29 hours of course right but there are
+- [05:07] more four to five modules that will be
+- [05:09] pending over here and that I will try to
+- [05:12] upload it every 2 weeks because
+- [05:14] recording takes usually time right see
+- [05:17] 29 hours is there but we are planning to
+- [05:18] take this to more than 55 plus hours so
+- [05:21] there will be four amazing end to-end
+- [05:23] projects that are coming up already the
+- [05:25] development part I have actually
+- [05:26] completed it then we will go ahead and
+- [05:28] do the implementation along with that
+- [05:30] one of the most requested thing MCP MCP
+- [05:33] with langraph so that part is also going
+- [05:35] to get uploaded and that is also in the
+- [05:38] recording phase right now at the end of
+- [05:40] the day these all things you'll be able
+- [05:42] to cover get it in just 399 unless and
+- [05:45] until I have a coupon but I think this
+- [05:47] money that value that you are actually
+- [05:49] getting with respect to this particular
+- [05:50] money is quite huge I have always made
+- [05:54] sure that whatever courses I launch
+- [05:56] let's say if I just go ahead and search
+- [05:58] for Krishna right you See just just see
+- [06:00] this okay every courses that I have
+- [06:03] actually created is at least 60 plus
+- [06:06] hours right if you probably go ahead and
+- [06:08] see my u complete data science course
+- [06:11] see it is a bestseller if you probably
+- [06:13] go ahead and see generative AI it is a
+- [06:15] bestseller all right if you see computer
+- [06:17] vision it is a bestseller if you see
+- [06:19] with respect to MLOps it is a bestseller
+- [06:22] and this this entire course recording is
+- [06:24] mine right I have probably set up and
+- [06:27] done the entire recording that is the
+- [06:28] most important thing then mathematics
+- [06:30] you will be able to see there are more
+- [06:32] than so many different different courses
+- [06:33] which are on bestseller mode right so
+- [06:35] that is the best part about this you
+- [06:38] know and uh people are loving it and I'm
+- [06:40] making sure that I provide you the most
+- [06:42] meaningful and detailed content like how
+- [06:44] I have actually done it for generative
+- [06:46] AI data science right here also in
+- [06:48] generative we have uploaded some modules
+- [06:50] with respect to langra but my suggestion
+- [06:51] would be that I had to actually create
+- [06:53] this as a separate course because there
+- [06:55] are so many different things to probably
+- [06:57] learn now let me talk about one more
+- [06:59] very important thing recently we have
+- [07:01] also launched this live bash live 2.0
+- [07:03] into agentic AI and generative AI with
+- [07:05] cloud boot camp and this is also having
+- [07:06] MCP and if you probably see the course
+- [07:09] detail syllabus this is a combination of
+- [07:12] around 8 to 10 different different
+- [07:13] frameworks okay so for people who have
+- [07:16] already joined this batch we have
+- [07:18] provided this Udemy course completely
+- [07:20] for free okay and in the upcoming things
+- [07:23] right in upcoming courses we are also
+- [07:25] coming up with CU AI autogener different
+- [07:27] different Udemy courses the main reason
+- [07:30] to cover this is that we have to cover
+- [07:32] this detail so that you don't have to
+- [07:34] worry about any documentation. The
+- [07:35] documentation with respect to lang chain
+- [07:37] is very very bad. I'll say you that
+- [07:39] people will face nightmares to pro
+- [07:41] follow the documentation. But here
+- [07:43] documentation wise, use cases wise, we
+- [07:46] are covering each and everything. I'm
+- [07:48] not creating a new documentation but at
+- [07:50] least we are covering all the topics
+- [07:51] that is basically required right and if
+- [07:54] you now go ahead and see almost every
+- [07:56] jobs is basically covered only sorry
+- [07:58] every module is basically covered only
+- [08:00] two to three modules are left one is
+- [08:01] four to five projects and how do you do
+- [08:03] the deployment in langraph cloud I'm
+- [08:06] about to get that particular access and
+- [08:07] I'm working on that as soon as I get it
+- [08:09] that videos will also start getting
+- [08:10] uploaded okay so if for all the people
+- [08:14] who are there yesterday when this batch
+- [08:16] launched we have already given this
+- [08:18] particular course and not only that like
+- [08:21] um in in the future if I coming up with
+- [08:23] Creoi and all whoever are in this
+- [08:25] specific batch will also get that
+- [08:26] particular course completely for free.
+- [08:28] The reason why I'm giving all the people
+- [08:30] who are there in my live sessions all
+- [08:32] the specific batch is very simple
+- [08:34] because this is for lifetime. Our portal
+- [08:37] our website we cannot give it for
+- [08:39] lifetime but Udemy courses we can give
+- [08:41] it for lifetime and the best part will
+- [08:43] be that all this kind of agentic AI boot
+- [08:46] camps I will be specifically recording.
+- [08:48] Now you may be thinking Kish why don't
+- [08:50] you add everything over here? Why don't
+- [08:51] you add crewi autogen? Trust me guys,
+- [08:54] just with langraph no it will be
+- [08:56] continuous because lang graph will keep
+- [08:57] on getting updated right and I have to
+- [08:59] probably upload the videos right over
+- [09:01] here. So that will also be a separate
+- [09:03] content crew will be something separate
+- [09:05] because that kind of pattern we really
+- [09:07] need to follow and upload each and
+- [09:09] everything right. So I hope you like
+- [09:11] this particular video. Yes, for all
+- [09:12] those people who wants this particular
+- [09:14] course you can use agentic
+- [09:17] 2025 this specific coupon and just go
+- [09:20] ahead and apply this. Okay. So yes, this
+- [09:23] was it from my side. I hope you like
+- [09:24] this particular video. I will see you in
+- [09:26] the next video. That's it. Uh and yes,
+- [09:29] keep on rocking, keep on learning.

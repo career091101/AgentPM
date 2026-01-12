@@ -1,0 +1,391 @@
+---
+title: "[music] How can we get cloud code works well as your codebase became more and more complicated without getting to circle"
+video_id: "MW3t6jP9AOs"
+video_url: "https://www.youtube.com/watch?v=MW3t6jP9AOs"
+speaker: "a"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  [music] How can we get cloud code works well as your codebase became more and more complicated without getting to circles and make you feel frustrated
+  Once I learned that there are many things you can do to improve performance dramatically through good context engineering and context engineering basically means how you can optimize what goes into conversation history thread for the cloud code or codeex so that only relevant and necessary information are included here to guide agents next actions
+  As we know coding agent like cloud code at default has 200,000 token context limit and if you run / contacts in your cloud code you will see breakdown token consumptions across different categories and this is a very basic example of what you can do with context engineering optimization because i
+key_points:
+  - "so that it can trigger this specific behavior and this is why I often use a compact command much more proactively so tha"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:33:30+09:00"
+---
+
+# Transcript: MW3t6jP9AOs
+
+- URL: https://www.youtube.com/watch?v=MW3t6jP9AOs
+- Retrieved at: 2025-12-30T10:33:30+09:00
+
+## Text
+
+- [00:00] [music]
+- [00:03] How can we get cloud code works well as
+- [00:05] your codebase became more and more
+- [00:06] complicated without getting to circles
+- [00:09] and make you feel frustrated? Once I
+- [00:11] learned that there are many things you
+- [00:12] can do to improve performance
+- [00:13] dramatically through good context
+- [00:15] engineering and context engineering
+- [00:17] basically means how you can optimize
+- [00:19] what goes into conversation history
+- [00:20] thread for the cloud code or codeex so
+- [00:23] that only relevant and necessary
+- [00:24] information are included here to guide
+- [00:26] agents next actions. As we know coding
+- [00:28] agent like cloud code at default has
+- [00:30] 200,000 token context limit and if you
+- [00:33] run / contacts in your cloud code you
+- [00:35] will see breakdown token consumptions
+- [00:37] across different categories and this is
+- [00:38] a very basic example of what you can do
+- [00:40] with context engineering optimization
+- [00:42] because in general the whole context
+- [00:43] consist of few different things the
+- [00:45] system promise assistant tools is
+- [00:47] something you can't really change it
+- [00:48] always comes with agent so the part you
+- [00:50] can optimize is the agent has any MCP
+- [00:53] tools or custom agents that you don't
+- [00:54] really use but consume a lot of tokens
+- [00:56] and the memory file here are basically
+- [00:58] your cloud.md file and I know as your
+- [01:00] project became bigger and bigger
+- [01:01] sometimes the cloud MD file just became
+- [01:03] so big that leaves very little room for
+- [01:05] the actual message. So in this very
+- [01:07] specific example I can already see that
+- [01:09] if I remove all those MCPS from this
+- [01:11] agent it will immediately give me 2%
+- [01:13] additional context token window. So this
+- [01:15] is one very basic example of what you
+- [01:17] can do to optimize context window
+- [01:19] better. The key part you want to
+- [01:20] optimize is the actual message which
+- [01:22] including the user message you send as
+- [01:24] well as list of two call actions that
+- [01:26] the agent take and the key thing here is
+- [01:28] that how can you making sure all the
+- [01:29] information in the history here is
+- [01:31] relevant and reduce noise as much as
+- [01:33] possible and there are many things you
+- [01:35] can do here for example sub agent is a
+- [01:36] great tool that you can use to reduce
+- [01:38] context so when I look at what happened
+- [01:40] here if you prompt agent help me add a
+- [01:42] Google O the majority of the actions
+- [01:45] agent take here is actually not about
+- [01:46] making trends but doing the research to
+- [01:48] figure out the I plan for the
+- [01:50] implementation and those research steps
+- [01:52] generally took whole bunch of context in
+- [01:54] the conversation thread and with feature
+- [01:56] like sub agents instead of including all
+- [01:58] those research related token consumption
+- [02:00] in the main conversation thread you just
+- [02:01] delegate and offload the whole token
+- [02:03] consumption related to research to the
+- [02:05] sub agent where it has isolated
+- [02:07] conversation thread to do just this and
+- [02:09] return back a summary of the research
+- [02:11] which means only absolute necessary
+- [02:13] information and tokens are included in
+- [02:15] the main conversation thread. So one
+- [02:17] very basic thing you can do is that
+- [02:18] before you implement big feature you can
+- [02:20] just add a small text that let's use
+- [02:22] task or sub agent to do the research
+- [02:24] first so that it can trigger this
+- [02:25] specific behavior and this is why I
+- [02:27] often use a compact command much more
+- [02:29] proactively so that after agent complete
+- [02:31] certain set of fairly isolated task
+- [02:33] often just run the compact so that we
+- [02:35] can proactively clean up the
+- [02:37] conversation threadive
+- [02:39] methods that I often use is set up your
+- [02:42] own documentation system for your
+- [02:44] codebase there are many different ways
+- [02:45] you can do Yeah. And this is the part I
+- [02:47] want to dive a bit deeper today. But
+- [02:48] before we dive into that, one trend has
+- [02:50] been happening is that more and more
+- [02:51] people use cloud code to not only doing
+- [02:53] coding task but day-to-day operation
+- [02:55] task from handling your emails, using
+- [02:57] different system, automate tasking,
+- [02:58] different productivity apps, journaling
+- [03:00] and this tell us there's massive layer
+- [03:02] to build. Look at what type of use case
+- [03:04] people are trying to hack into cloud
+- [03:06] code then productionize it into aic
+- [03:08] products. That's why I want to introduce
+- [03:09] you to this research called AI agents
+- [03:11] unleashed a pragmatic report about what
+- [03:13] kind of things and use case people are
+- [03:15] hacking agents into who those people are
+- [03:17] what they doing and dive deeply into
+- [03:19] real world examples where they interview
+- [03:21] hundreds of people from top stars and
+- [03:23] enterprise in the world across marketing
+- [03:24] sales operation as well as real world
+- [03:26] learnings of what actually worked and
+- [03:27] what didn't the common pitfalls and
+- [03:29] challenge that people are facing today.
+- [03:30] So you can use those information to
+- [03:32] direct your agenda product road map much
+- [03:33] better. One of the favorite part is that
+- [03:35] they propose a really useful framework
+- [03:37] to think through if a task and use case
+- [03:39] that can drive huge business value that
+- [03:40] people are currently paying for. So if
+- [03:42] you're trying to build a genus, I highly
+- [03:44] recommend you go check out this
+- [03:45] research. You can access this report for
+- [03:47] free in description below. And thanks
+- [03:49] HubSpot for sponsoring this video. Now
+- [03:51] let's talk about my documentation system
+- [03:53] for cloud code. So the purpose of
+- [03:55] documentation system is to create a
+- [03:56] summarized snapshot of your current
+- [03:58] codebase. So instead of agent every time
+- [04:00] doing deep research across the whole
+- [04:02] codebase to find information that it
+- [04:04] need, it can just read a summarized
+- [04:06] documentation that clearly pull all the
+- [04:08] relevant information together. So it has
+- [04:10] less noise in the context window and
+- [04:12] also making sure all the relevant
+- [04:13] information are feeding into context
+- [04:15] instead of hoping agent pull all the
+- [04:17] relevant information together by itself.
+- [04:18] And the question is what type of
+- [04:19] documentation is useful and how can you
+- [04:22] make it scalable as your codebase became
+- [04:23] larger and larger. So the common
+- [04:25] structure I have is something like this.
+- [04:27] I typically just have this dot agent
+- [04:28] folder that contain all the relevant and
+- [04:30] useful information that I need. So one
+- [04:32] is a task folder. This is where I store
+- [04:34] all the PRDs and if you don't know what
+- [04:35] PRD is basically before I implement any
+- [04:38] feature I always turn on plan mode and
+- [04:39] ask to generate implementation plan and
+- [04:41] after finish I will always store the
+- [04:43] implementation plan in the task folder.
+- [04:45] So next time if we are implementing
+- [04:47] something similar we can link to those
+- [04:48] implementation doc as a reference and
+- [04:51] second part is system folder. So system
+- [04:53] folder contains things like project
+- [04:55] structure, the database schema, your
+- [04:56] APIs or some critical and complex part
+- [04:59] of your codebase and those things can go
+- [05:01] across different individual PRDs and
+- [05:04] really useful for agent to get a overall
+- [05:05] understanding and this is also the part
+- [05:07] that it can grow bigger and bigger and
+- [05:09] third is SOPs. This is where we will log
+- [05:11] the standard process for doing certain
+- [05:13] things or mistakes you saw agent make.
+- [05:15] So after I get agent do something, I
+- [05:17] will ask it to generate a SOP for this
+- [05:19] specific process. It can be as generic
+- [05:21] as like adding a new database table,
+- [05:23] what are the list of action you should
+- [05:24] take to something more granular like how
+- [05:26] to integrate a new replicate model. And
+- [05:29] last but not least also a readme file.
+- [05:31] So as your codebase became more and more
+- [05:33] complicated, there'll be just so many
+- [05:35] docs and the readme here is almost like
+- [05:37] index of all documentation files you
+- [05:39] have and when to read which
+- [05:40] documentation file. So the agent can
+- [05:42] quickly get an overview of all the
+- [05:44] relevant documentations and read
+- [05:45] injection history. So this is a common
+- [05:48] documentation system I often use.
+- [05:50] Meanwhile, I also uses update doc
+- [05:52] command quite frequently. What it does
+- [05:54] is that it basically includes certain
+- [05:56] instructions to agent about what to do
+- [05:58] when initialize documentation structure
+- [06:00] as well as when I need to update
+- [06:01] documentation. So I will run this
+- [06:03] command after I implement certain
+- [06:04] features or I can use this update doc
+- [06:06] command after we help agent correct
+- [06:08] certain mistakes so we don't make same
+- [06:10] mistakes again. Then it will create this
+- [06:12] SOP that clearly list out all the
+- [06:14] step-by-step process and also the
+- [06:15] related documentations so the agent can
+- [06:18] consume more relevant information and
+- [06:20] this SOP doc will also be included in
+- [06:22] the readme.md. So this is pretty common
+- [06:24] structure I use for my projects and
+- [06:26] continuously maintain and updating them.
+- [06:28] Obviously the best version of
+- [06:29] documentation system is always something
+- [06:31] tailored to your codebase. For example,
+- [06:33] I talked to Simon from AI builder club
+- [06:35] where he showcased how he builds a whole
+- [06:37] documentation system with his team for
+- [06:39] their Lexi codebase. This is the pointer
+- [06:41] dock as it were that points to
+- [06:42] everything um how we do all sorts of
+- [06:45] things and you know best practices
+- [06:48] um etc. [laughter] And so this is very
+- [06:50] human readable obviously as well but it
+- [06:53] is it was designed more for our LLM
+- [06:57] friends. We document all the ways we do
+- [07:00] our like migrations how we store the
+- [07:03] data. We got a whole class of things
+- [07:05] with methods for helpers, updators,
+- [07:09] utilities, all sorts of stuff like that.
+- [07:11] We've sort of split out all that all
+- [07:13] this stuff into well doumented sections.
+- [07:17] >> The very first versions of these we did
+- [07:19] inside Claude. We got Claude to generate
+- [07:22] the MD files and then we started using
+- [07:24] cursor and we've got our own little uh
+- [07:27] this thing here. All right.
+- [07:28] >> What what are they these things are
+- [07:30] called? Now cursor now has got the slash
+- [07:33] commands. I haven't yet experimented
+- [07:35] with turning this into a slash command
+- [07:37] because I've always found this rather
+- [07:38] frustrating that we've only got so
+- [07:40] [laughter] much room to see what's going
+- [07:42] on in there.
+- [07:43] >> But it's not complicated. We go through
+- [07:45] and then we say review this class
+- [07:48] >> and
+- [07:50] upgrade the inline documentation. So we
+- [07:53] do that first so that then the class has
+- [07:57] got the best possible inline
+- [07:58] documentation and then we'll use a a
+- [08:01] prompt in the prompt interface to
+- [08:04] generate the class documentation in more
+- [08:08] detail. So there's this workflow that
+- [08:10] goes generate or update the inline
+- [08:12] documentation and then output that into
+- [08:14] the bigger documentation. So I've just
+- [08:17] thrown all the LLMs at this to sort of
+- [08:19] get as best as we can. It makes the
+- [08:22] whole process easier to manage by
+- [08:24] exposing all of that.
+- [08:25] >> And let me give you a quick example of
+- [08:27] how do I do it. If I start a new
+- [08:28] project, let's firstly create cloud.md
+- [08:30] file. I just added one section for docs
+- [08:33] specifically explain the doc structure
+- [08:35] we want agent to follow and then give a
+- [08:37] rules that we always update agent folder
+- [08:39] docs after we implement certain features
+- [08:41] and before we plan any implementation
+- [08:42] always raise the ray me first to get the
+- [08:45] full context and meanwhile I will also
+- [08:47] create a doc cloud folder commands
+- [08:49] update doc. MD. This is a simple prompt
+- [08:52] that specifically telling agent about
+- [08:54] the dock structure and what to do when
+- [08:56] we start initialize the doc and what to
+- [08:58] do when we ask to update doc as well as
+- [09:00] some very specific rules when it create
+- [09:02] new doc files. I'm going to show you how
+- [09:03] we use this setup to continuously update
+- [09:06] docs. So I firstly do /update doc
+- [09:08] initialize. This will race through my
+- [09:10] current project and try to set up a do
+- [09:12] agent folder structure. And once it
+- [09:14] finish you will see that it creates this
+- [09:16] agent folder and set up a project
+- [09:18] architecture as a first doc. And there's
+- [09:20] also a readme file under the dot agent
+- [09:22] folder which listing out all the docs
+- [09:24] that we have. Now let's just take you
+- [09:26] through example of how do we use this.
+- [09:28] Let's say we want to build a basic app
+- [09:29] that can do text to image generation
+- [09:31] using a model host on replicate. So I'm
+- [09:33] going to copy over a doc and give
+- [09:35] prompt. How we build a text to image app
+- [09:38] using model above and I'm going to use a
+- [09:40] plan mode. And after I finish the plan
+- [09:42] I'm going to prompt a save
+- [09:43] implementation plan in a do agent/task
+- [09:45] folder and start implementation.
+- [09:49] Great. Okay, now we have this text to
+- [09:50] image model working. Quite often in my
+- [09:52] experience, model will fail to integrate
+- [09:54] replicated model out of box and that's
+- [09:56] where R can use this update doc command
+- [09:59] saying generate SOP integrating
+- [10:01] replicate model. Then what it will do is
+- [10:03] that it will create this replicated
+- [10:05] model integration SOP. In this doc, it
+- [10:07] will explain specifically step-by-step
+- [10:09] integration process, the directory
+- [10:11] structure should follow and also there's
+- [10:13] a section called related documentations.
+- [10:15] So for this one probably didn't make
+- [10:16] perfect sense but you can imagine if
+- [10:18] your documentation became more and more
+- [10:20] complicated. This can be used as a
+- [10:22] directory to lead to all related
+- [10:24] documents and in the end it will also go
+- [10:26] update the readme as well to include
+- [10:28] more stuff. So now I can even clear the
+- [10:30] conversation without giving too much
+- [10:32] context and give different model which
+- [10:33] is text to video and give a prompt help
+- [10:35] me add text to video capability using
+- [10:37] model above plan implementation and read
+- [10:39] do agent doc first for context and again
+- [10:42] I'm using the plan mode. This time you
+- [10:44] can see it reading through different
+- [10:45] files to get the full picture. And we're
+- [10:48] going to do the same thing. Save the
+- [10:49] implementation plan to /task folder and
+- [10:52] start implementing. With this one is
+- [10:53] able to oneshot this video generation
+- [10:55] model and it is fully functional without
+- [10:58] any errors. So this how you can imagine
+- [11:00] this whole documentation system works.
+- [11:03] You can have higher confidence that I
+- [11:04] can just come in any time and start
+- [11:06] implementing something with pretty
+- [11:08] consistent performance. You can do same
+- [11:10] thing for your existing codebase as well
+- [11:12] to ask cloud code start generating the
+- [11:13] system architecture documentations which
+- [11:16] can including text project architecture
+- [11:18] as well as database schema API endpoint
+- [11:20] and many more. If you're interested we
+- [11:21] have a specific session in AI builder
+- [11:23] club where we include detailed
+- [11:24] instructions of the cloudd and update do
+- [11:27] commands that you can copy paste as well
+- [11:29] as a 1h hour workshop where Simon dive
+- [11:31] deeper into his specific setup. So you
+- [11:34] can learn how others are generating
+- [11:35] documentation system for big and complex
+- [11:37] codebase. I have put the link in the
+- [11:39] description below for you to join AI
+- [11:40] builder club. So feel free to click and
+- [11:42] join if you're interested. I hope you
+- [11:44] enjoy this video.

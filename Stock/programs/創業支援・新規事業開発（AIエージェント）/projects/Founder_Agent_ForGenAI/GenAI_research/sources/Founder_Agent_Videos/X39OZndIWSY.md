@@ -1,0 +1,1671 @@
+---
+title: "Transcript: X39OZndIWSY"
+video_id: "X39OZndIWSY"
+video_url: "https://www.youtube.com/watch?v=X39OZndIWSY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:56:02"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: X39OZndIWSY
+
+- URL: https://www.youtube.com/watch?v=X39OZndIWSY
+- Retrieved at: 2025-12-30T11:15:13+09:00
+
+## Text
+
+- [00:02] You're listening to Gradient Descent, a
+- [00:04] show about making machine learning work
+- [00:06] in the real world. And I'm your host,
+- [00:08] Lucas Bewald.
+- [00:10] Today I'm talking with Edwin Chen, who's
+- [00:12] the CEO of Surge. I was really looking
+- [00:15] forward to talking to Edwin for for a
+- [00:17] long time for a number of reasons. I
+- [00:18] mean, one thing is that Edwin has built
+- [00:21] an incredibly valuable business with no
+- [00:24] venture backing in a really short amount
+- [00:25] of time. So I think he started this uh
+- [00:27] data collection business in 2020. In
+- [00:30] 2024 he crossed a billion dollars in
+- [00:32] revenue which is just um spectacular
+- [00:34] success. But that's probably not even
+- [00:36] the top reason I wanted to talk to him.
+- [00:38] Um the human data collection business is
+- [00:41] this really important part of building
+- [00:44] AI systems that's not talked about
+- [00:45] enough. I I got actually into that
+- [00:47] business in 2026 2027. I started a
+- [00:50] company called Crowdflower um that that
+- [00:53] did this data collection in the early
+- [00:54] days and around the time I sold
+- [00:55] CrowdFlower is around when Edwin um
+- [00:58] started Surge and the data collection
+- [01:00] business has changed a lot over the
+- [01:02] years but one constant has been that
+- [01:04] it's a huge spend that people building
+- [01:06] highquality models do. So Edund has this
+- [01:09] these front row seats into what most of
+- [01:12] the foundation labs most of the
+- [01:14] foundation model builders what they're
+- [01:15] doing and how they're thinking and how
+- [01:17] they're building their models. So he has
+- [01:19] a lot of insights. He doesn't do a lot
+- [01:20] of podcasts. So we were really lucky to
+- [01:22] get him. I hope you enjoyed this
+- [01:23] conversation.
+- [01:25] [Music]
+- [01:27] So you know, you're the first um guest
+- [01:29] we've had in the human data generation
+- [01:32] space and it's you know, it's a space
+- [01:34] obviously, you know, I was in for a long
+- [01:36] time. Um so I'm I'm really I'm really
+- [01:39] curious about this. Could you can you
+- [01:40] first of all start by telling the story
+- [01:43] of uh of Surge, what you were thinking
+- [01:45] when you started it and and how it's
+- [01:47] gone? Uh yeah, I can give the the
+- [01:49] founding story. So basically I used to
+- [01:52] be an MO engineer a bunch of these big
+- [01:54] companies and the problem I kept running
+- [01:55] into was that we just we just kept
+- [01:58] facing all of these issues getting the
+- [01:59] data that we needed to train our models.
+- [02:01] So for example when I I used to work on
+- [02:03] our search and ad systems at Twitter and
+- [02:05] one of the first things I wanted to do
+- [02:06] was build a sentiment classifier. So,
+- [02:08] you know, sentiment analysis is super
+- [02:09] simple problem and all all we needed was
+- [02:11] 10,000 tweets to train our models. But
+- [02:14] our human data system at the time was
+- [02:16] literally two people we'd hired off of
+- [02:17] Craigslist working 9 to5. So, we had to
+- [02:19] wait a month to get started. And then we
+- [02:21] had to wait another month for them to
+- [02:22] label the tweets in a spreadsheet
+- [02:23] because our tools are just terrible. And
+- [02:25] when we finally got the data back, we
+- [02:27] were just seeing that it was complete
+- [02:28] junk. They didn't understand slaying
+- [02:30] like, you know, she she's such a bad
+- [02:31] so they were labeling just
+- [02:32] negative. And they didn't understand
+- [02:34] hashtags and all these other aspects of
+- [02:35] tweets. And so what ended up happening
+- [02:37] was I just spended a week myself
+- [02:39] labeling all these tweets because that
+- [02:41] was actually so much faster and better
+- [02:43] and and like I think one of the things
+- [02:45] that we often said was that this was
+- [02:47] really simple things like yeah at the
+- [02:50] end of the day sent analysis isn't all
+- [02:51] that complicated and at the same time we
+- [02:53] just had this bigger problem going to
+- [02:54] solve around how we wanted to optimize
+- [02:56] our ML systems for the right objectives
+- [02:58] like when I first started working on
+- [02:59] Twitter this was the old days when it
+- [03:00] was purely chronological timeline and so
+- [03:02] one of the things we wanted to do was
+- [03:03] make it easier for users discovered and
+- [03:05] tweet safely cared about. And so the
+- [03:06] question was, how do we how do we train
+- [03:08] our recommendation algorithms? And the
+- [03:10] obvious choice was clicks and retweets
+- [03:11] at the time. Like you just train your
+- [03:12] algorithms to produce as many clicks and
+- [03:13] retweets as possible. But the problem is
+- [03:15] we tried doing these things and it
+- [03:16] turned out to be this incredibly
+- [03:17] negative feedback loop. Like once you
+- [03:19] optimize for clicks, you get the most
+- [03:21] clickbaity content in the world rising
+- [03:22] to the top. You get lots of racy
+- [03:24] content. You get lots of bikinis. You
+- [03:25] get lots of listicles about 10
+- [03:27] horrifying sin diseases and so on. And
+- [03:29] so we wanted to train our models on all
+- [03:31] these deeper principles instead where
+- [03:33] we'd ask a human human raiders to label
+- [03:35] tweets and recommendations according to
+- [03:37] our product principles. But if we just
+- [03:39] couldn't even get simple sentiment
+- [03:40] analysis right, we definitely couldn't
+- [03:41] get this more complex data at the
+- [03:43] quality and scale we needed. So um yeah,
+- [03:45] so I guess eventually there's a problem
+- [03:47] that happened over and over again at
+- [03:48] Google and Facebook too. And so
+- [03:49] eventually I just realized it's just
+- [03:50] something that I need to go out and
+- [03:51] build build myself.
+- [03:53] >> All right. So what what year did you
+- [03:54] start uh Surge? So we started surge in
+- [03:58] 2020 uh right right in the middle of the
+- [04:00] pandemic.
+- [04:01] >> Oh nice. And so um I feel like 2020 I
+- [04:06] guess you know there were some you know
+- [04:07] established data labeling um data
+- [04:10] generation companies at that time. Did
+- [04:12] you have a particular um you know take
+- [04:15] on the space?
+- [04:18] >> Yeah. So our take on the space was that
+- [04:20] all of these solutions out there they
+- [04:22] were basically focused on this idea of
+- [04:24] very commodity labeling. a very low
+- [04:26] skill. Um, like the example I often give
+- [04:29] is take the problem of drawing a bounty
+- [04:31] box around a car. Like yeah, you and I,
+- [04:34] we can all draw bounding box around
+- [04:35] cars. Uh, like almost like a
+- [04:38] three-year-old can draw a bounding box
+- [04:39] around a car. The bounding box that I
+- [04:41] draw isn't going to be any different
+- [04:43] from the bounding box that Terrence Ta
+- [04:45] draws or Einstein would draw. It's like
+- [04:48] a very very low ceiling on the
+- [04:49] complexity of data that's required. In
+- [04:51] contrast, if you think about all the
+- [04:53] things that we want to do today, like
+- [04:54] yeah, we want models that can write
+- [04:55] poems. We want models that can solve
+- [04:57] relativist relativistic equations,
+- [04:59] there's almost like an unlimited amount
+- [05:01] of intelligence that we want to feed our
+- [05:03] models. And so all the other solutions
+- [05:04] at the time, yeah, they were they were
+- [05:06] designed for like a very low scale
+- [05:07] commodity style of labor. And so it
+- [05:11] would just it was not focused on quality
+- [05:13] at all. Instead, it was focused on
+- [05:15] scale.
+- [05:16] >> I see. And so how did you source the
+- [05:18] people in the beginning?
+- [05:21] So literally the first few people that
+- [05:23] were on our platform were like they'd
+- [05:25] actually just been it's kind of funny
+- [05:27] but I've kind of been working on this
+- [05:30] problem for a for a long time and so I
+- [05:32] already had a network of like people who
+- [05:35] are very interested in doing this kind
+- [05:36] of work and so when they heard that I
+- [05:38] started Surge um I mean a lot of it was
+- [05:41] was also me in the beginning but it was
+- [05:43] also you know all all these like
+- [05:44] laborers that every and sometimes
+- [05:45] accumulated throughout the years.
+- [05:47] >> That's cool. And then um uh who were the
+- [05:50] early customers?
+- [05:52] >> So the early customers were a lot of
+- [05:53] like tech companies. So there were a lot
+- [05:55] of so we had this idea that we wanted to
+- [05:57] really really focus on engineers and
+- [06:00] research scientists who really really
+- [06:01] understood the quality of data. And so
+- [06:04] these were a lot just again like I kind
+- [06:05] of been working in the space for for for
+- [06:07] a while. And so there were just like a
+- [06:09] lot of friends or just contacts I had
+- [06:11] all these companies who yeah had been
+- [06:13] dying for this kind of higher quality
+- [06:15] kind of like next generation solution
+- [06:17] where could do far more advanced tasks
+- [06:19] than what were possible at the time. And
+- [06:21] so um yeah like there were a lot of
+- [06:23] companies like um I think like Airbnb,
+- [06:26] Twitter uh like a lot of just like
+- [06:28] startups in in the search and algorithm
+- [06:30] space. Um companies like that
+- [06:32] >> and at that time I mean 2020 I mean that
+- [06:35] was actually when I right around when I
+- [06:36] was leaving the space. Um I remember
+- [06:40] like it seemed like what was really
+- [06:41] taking off then was sort of like
+- [06:42] autonomy and um you know robotics a lot
+- [06:45] of vision applications but it sounds
+- [06:47] like you were more focused on text. Is
+- [06:48] that fair or?
+- [06:50] >> Yeah. So we were always focused on
+- [06:52] language and what I call behavior from
+- [06:54] the beginning. I wouldn't say it was
+- [06:56] necessarily text per se like there are a
+- [06:58] lot of complex problems in the image
+- [07:00] space too especially nowadays but we
+- [07:02] what we didn't want to focus on like so
+- [07:04] we've what we've never done is like very
+- [07:06] very simple image labeling tasks or very
+- [07:08] simple like uh you know bounding box
+- [07:10] style tasks where I just don't really
+- [07:13] think that there's any
+- [07:15] intelligence really needed to build such
+- [07:17] such solutions and so we always focus on
+- [07:20] this like higher complexity higher um
+- [07:23] kind of higher scale higher
+- [07:24] sophistication space.
+- [07:27] >> Well, I would say I think the I think
+- [07:28] the image labeling when you actually
+- [07:30] like dig into it is is more more
+- [07:32] complicated, you know, for the record.
+- [07:34] But I I I take your point. Um I guess uh
+- [07:37] do you um it seemed like you really
+- [07:40] built Surge um under the radar? Like was
+- [07:44] that an intentional
+- [07:46] um decision? I mean, I think you might
+- [07:47] have said recently that you're over a
+- [07:49] billion dollars in yearly revenue. Is
+- [07:51] that is that right? Can can we say that?
+- [07:54] >> Yeah. Yeah. Yeah, we uh we're over a
+- [07:56] billion last year and we kind of like
+- [07:57] hit or billion number ARR a while ago.
+- [08:01] >> I mean that's like incredible
+- [08:02] achievement, you know, in just uh like
+- [08:05] five years and and you did it with no
+- [08:07] outside funding. Is is that right?
+- [08:09] >> Yeah.
+- [08:10] >> Um I mean that that must be like that's
+- [08:12] a historic level of um growth of that
+- [08:14] funding I think. I mean did did you um
+- [08:17] sort of intentionally avoid the the VC
+- [08:20] path?
+- [08:22] So I think one of the things that was
+- [08:23] really important for us was we wanted
+- [08:25] customers to be buying us because they
+- [08:26] really really believed in having high
+- [08:28] quality data and not because they saw us
+- [08:31] mentioned in some techn article. Like we
+- [08:32] really wanted partners who had the same
+- [08:33] vision we did and who could go out and
+- [08:36] show the world how important data
+- [08:37] actually was. Like again if you contrast
+- [08:39] with kind of the kinds of data people
+- [08:41] were looking for 5 10 years ago, people
+- [08:44] again really weren't focused on quality.
+- [08:46] they treated data as this kind of
+- [08:48] commodity where they would like the
+- [08:50] researchers themselves, they would
+- [08:51] barely look at the data. They would just
+- [08:52] let their vendor management teams um
+- [08:54] kind of handle the entire process
+- [08:56] because they just wanted to outsource
+- [08:58] it. And so yeah, we we we we just had
+- [09:01] this idea where we really really want to
+- [09:02] focus on people who believed in believed
+- [09:04] in quality or buying us for for that
+- [09:06] reason.
+- [09:07] >> But so I mean I mean to get to a billion
+- [09:09] dollars plus in revenue, you know,
+- [09:11] you've obviously had to, you know, kind
+- [09:13] of scale your system. So that that goes
+- [09:15] beyond, you know, like hiring a few
+- [09:18] people that you've known for for a long
+- [09:20] time. So can you talk about like how
+- [09:24] you've like scaled your processes as as
+- [09:26] your scope has expanded? Like do you do
+- [09:28] you focus do you think it's more
+- [09:30] important to like you know kind of scale
+- [09:32] the technology that's enabling this or
+- [09:34] is it like you know internal human
+- [09:36] processes or is it all in like the
+- [09:38] hiring or is it in the kind of like
+- [09:40] management of what's going on? like can
+- [09:41] you as much as you could say about how
+- [09:43] this works I' I'd love to hear it.
+- [09:44] >> Yep.
+- [09:45] >> Yeah. So I think the thing that people
+- [09:48] underestimate in this space is how much
+- [09:50] technology you actually want to build.
+- [09:53] Like people tend to think that humans
+- [09:56] are smart and so if you just throw
+- [09:57] 10,000 100,000 humans at problem that
+- [10:00] that will solve it. Like it's a little
+- [10:01] bit crazy to me. Like sometimes we'll I
+- [10:03] will interview um candidates from some
+- [10:06] of the competitors in our space and when
+- [10:08] they describe to me what they're
+- [10:11] building and how they operate, it's just
+- [10:14] incredibly incredibly manual. Like they
+- [10:16] are kind of just body shops at the end
+- [10:18] of the day and they they literally have
+- [10:19] no technology. Like if you ask them,
+- [10:22] could you tell me the quality of this
+- [10:24] worker? Could you tell me how good this
+- [10:25] worker is at this particular task? Could
+- [10:28] you show me a dashboard with how your
+- [10:31] quality is improving over time and
+- [10:35] what AB tests you run and what like
+- [10:37] algorithms you're you're building to
+- [10:38] improve it? And they literally can
+- [10:39] because all they're doing a lot of times
+- [10:41] is like even some of these uh so-called
+- [10:43] technology companies, they're literally
+- [10:45] just dumping data into spreadsheets and
+- [10:48] their their employees, their engineers
+- [10:49] are literally either creating the data
+- [10:51] themselves or reviewing it themselves.
+- [10:53] And so there there almost is like no no
+- [10:55] technology that that's going on. And so
+- [10:58] I think what what you have to realize of
+- [11:00] this space is that quality control
+- [11:02] actually is incredibly difficult. And so
+- [11:05] if you want to get the highest quality
+- [11:06] out there, you need to find or you need
+- [11:08] to create a lot of these kind of really
+- [11:10] sophisticated algorithms to detect the
+- [11:12] highest quality highest data that you
+- [11:14] can. And it's incredibly complicated
+- [11:16] because in this space that we have with
+- [11:18] LMS today, you really want LMs to be
+- [11:20] good at every task in the world. So it's
+- [11:22] not just a single domain. it's making
+- [11:24] sure that they're really good at poetry
+- [11:26] and at the Android extreme you really
+- [11:27] want to make sure that they're really
+- [11:28] good at physics and so how do you find
+- [11:30] the highest quality um uh highest
+- [11:34] quality data in order to train the
+- [11:36] models and then how you also remove the
+- [11:37] worsted worst and so yeah you kind of
+- [11:40] get can't just throw warm bodies at you
+- [11:42] really need to be able to build a lot of
+- [11:43] technology to to manage it
+- [11:46] >> well I mean you know I'm kind of coming
+- [11:48] from a different era I think of this you
+- [11:50] know labeling where like a blotted
+- [11:52] labels were simple you know, kind of
+- [11:53] like, you know, yes, no, or or um, you
+- [11:56] know, kind of simple tasks where it's
+- [11:58] really clear, you know, what's right and
+- [12:00] what's wrong. But I think, you know,
+- [12:02] you're doing much more complicated tasks
+- [12:04] and like you're saying, I think, you
+- [12:07] know, even getting two people to agree
+- [12:10] on high quality, low quality, as the
+- [12:12] task gets more complicated, I think it's
+- [12:13] like, you know, more and more difficult.
+- [12:16] And so c can you talk a little bit about
+- [12:17] like what technology you actually have
+- [12:20] to build to to manage quality for like a
+- [12:24] generic you know complicated expert task
+- [12:27] involving language.
+- [12:29] So let me start actually by contrasting
+- [12:32] with a very old school take on data and
+- [12:37] data quality and how we just think about
+- [12:39] the problem differently. And so so yeah
+- [12:41] so let let me give you an example. So
+- [12:44] let's say you wanted to train a model to
+- [12:45] write an eight line poem about the moon.
+- [12:47] And the way most companies think about
+- [12:49] it is okay well let's just hire a bunch
+- [12:51] of people from Craigslist or through
+- [12:52] some recruiting agency. Let's ask them
+- [12:54] to write poems. And the way to think
+- [12:56] about quality again going back to kind
+- [12:57] of the image annotation days it's like
+- [12:59] okay is this a poem? Is it eight lines?
+- [13:01] Does it contain a word moon? They just
+- [13:04] check all these boxes in the same way
+- [13:06] you might check okay um this is a cat.
+- [13:08] This is a dog. They're just like
+- [13:09] checking boxes and then you're saying,
+- [13:10] "Sure, this is a great poem because it
+- [13:12] follows all the instructions. It follows
+- [13:14] all these check boxes." Then what
+- [13:15] happens is, okay, you get these terrible
+- [13:17] poems that feel like they're written by
+- [13:18] kids in high school, right? Like a kid
+- [13:19] in high school, sure they can write an
+- [13:21] A-line poem about the moon, but is it a
+- [13:23] great poem? Is it like an evocative
+- [13:24] poem? Is it a type of poem that a Nobel
+- [13:26] Prize lawyer would write? No. And so
+- [13:29] checking boxes doesn't work. And so some
+- [13:31] other companies might be like, "Okay,
+- [13:32] sure. These people on Craigslist don't
+- [13:33] have any poetry experience." And so what
+- [13:35] I'm going to do instead is I'm going to
+- [13:36] hire a bunch of people with PhDs in
+- [13:38] English literature. But what they don't
+- [13:40] realize is this is actually also
+- [13:42] terrible. Like a lot of PhDs, again
+- [13:44] going back to what I was saying about
+- [13:45] even people with MIT CS degrees, a lot
+- [13:47] of PhDs, they're not good writers or
+- [13:49] poets. Like you think of people like
+- [13:50] Hemingway or Emily Dickinson, they
+- [13:52] definitely didn't have a PhD. I don't
+- [13:53] think they even completed college. And
+- [13:57] so I I think we think about quality
+- [14:00] completely differently. Like what we
+- [14:01] want isn't poetry that checks some boxes
+- [14:03] and uses complicated language. Again, we
+- [14:05] want the type of poetry that Nobel Prize
+- [14:07] wers would write. And so what I think
+- [14:09] you need to do is like you need a
+- [14:10] mindset shift. Like one of the things we
+- [14:12] all think about is like there are
+- [14:13] certain people who are trained up in
+- [14:14] this very objective, very um
+- [14:18] uh like like this domain of uh computer
+- [14:22] vision in a sense that lacks all of
+- [14:25] these nuances and lacks all this
+- [14:27] inherent subjectivity. And so what we
+- [14:29] want to do instead is we want to
+- [14:30] recognize that poetry is actually really
+- [14:31] subjective and rich. Like maybe one poem
+- [14:34] is a haiku about moonlight on water and
+- [14:36] another poem is something with internal
+- [14:38] rhyme and meter and another one is
+- [14:40] somehow focusing on emotions behind the
+- [14:42] moon rising at night. And so you
+- [14:44] actually want to capture that there's a
+- [14:45] thousand ways to write a poem about the
+- [14:46] moon in a way that you there there
+- [14:48] aren't a thousand ways to draw a batting
+- [14:49] bike on a car. Like there aren't a
+- [14:51] thousand ways to label something as a
+- [14:52] cat or a dog. Like there isn't a single
+- [14:54] correct way to to write this poem. And
+- [14:58] each
+- [14:59] different way that you write it or each
+- [15:01] different preference that you have for
+- [15:03] different types of poetry, they actually
+- [15:04] give you different insights into
+- [15:05] language and the mind and imagery and
+- [15:08] human expression.
+- [15:09] And I I talk about poetry a lot, but
+- [15:11] it's not just poetry. Like if you think
+- [15:12] about math as well, there are a thousand
+- [15:14] ways to prove the Pythagorean theorem.
+- [15:16] And again, each way of proving the
+- [15:19] Pythagorean theorem, it's kind of based
+- [15:21] off of different kind insights into the,
+- [15:23] you know, the mathematical reality of
+- [15:24] the universe. And so
+- [15:28] like one thing that happens is that when
+- [15:29] you think about quality the wrong way,
+- [15:31] you get kind of like commodity data that
+- [15:33] optimizes for things like interator
+- [15:35] agreement. So again going back to the
+- [15:37] computer vision world like sure if all
+- [15:39] you're doing is labeling images of cats
+- [15:41] and dogs. You you want high interrator
+- [15:42] agreement like you want people to agree
+- [15:44] that this is a cat and you want people
+- [15:46] to agree that this is a dog. Like one of
+- [15:48] the very very easy ways that you quite
+- [15:50] control world in this old school world
+- [15:52] is just by by seeing whether there's
+- [15:54] agreement with a majority.
+- [15:57] But in this new gen AI world again
+- [16:01] there's there's no way that you can ask
+- [16:02] people to write a thousand poems and
+- [16:03] then take a majority vote and get the
+- [16:04] best poem. Like what actually happens
+- [16:07] when you optimize for higher rate
+- [16:08] agreement is like you get the lowest
+- [16:12] common denominator of things that people
+- [16:14] want which actually turns out to be kind
+- [16:17] of trashy and uh low low quality and
+- [16:19] unengaging a lot of time. And so you
+- [16:23] just need to think about quality in a
+- [16:25] different way in order for your data to
+- [16:27] kind of like really really embrace human
+- [16:29] intelligence and creativity. I mean one
+- [16:30] of the things that that we found at at
+- [16:33] you know I was like working in this
+- [16:34] space is that um maybe the biggest issue
+- [16:38] was actually eliciting you know from a
+- [16:41] customer what they really wanted like I
+- [16:43] think you know and and obviously we're
+- [16:45] doing simpler examples but you know you
+- [16:47] think about putting a bounding box you
+- [16:49] know around a car it seems so simple you
+- [16:51] know to like a ML researcher especially
+- [16:53] one who hasn't looked at a lot of you
+- [16:55] know specific data examples it is really
+- [16:57] hard I mean I think you're one of the
+- [16:58] rare ML research researchers that really
+- [17:00] wanted to look at data. You know, I was
+- [17:02] too and that's why I got into the space,
+- [17:03] right? But like you think like, okay,
+- [17:05] putting a body box around the car is
+- [17:06] really simple, but okay, like what if
+- [17:07] the car is oluded, right? Then, you
+- [17:09] know, do you put it around where you
+- [17:10] think the car is? Like what if the car
+- [17:12] is in like, you know, a reflection of a
+- [17:15] car in a mirror? Do you still want the
+- [17:16] bounding box, you know, around that car?
+- [17:18] What if it's a billboard with a picture
+- [17:19] of a car and it's not a real car? You
+- [17:21] know, do you want that? So, like even
+- [17:22] even in the simplest cases, as soon as
+- [17:24] you start to look at real world data,
+- [17:26] you know, it gets way more complicated.
+- [17:28] And I remember working with customers,
+- [17:30] there would actually be like a long
+- [17:31] process of eliciting, you know, from the
+- [17:34] customer what they wanted. Some
+- [17:35] customers would write these giant, you
+- [17:37] know, documents trying to like enumerate
+- [17:40] every case and exactly what they want.
+- [17:41] But I think those two kind of would end
+- [17:43] up, you know, be hard to kind of reason
+- [17:45] about exactly, you know, what you want.
+- [17:47] if you if you followed that um you know
+- [17:50] those instructions to the letter, you'd
+- [17:52] end up in some ridiculous cases which
+- [17:54] isn't actually really what you know the
+- [17:55] person wanted in in you know the first
+- [17:57] place. I'm kind of curious like um how
+- [18:00] how you think about that problem.
+- [18:02] >> What we always try to do instead is try
+- [18:04] to understand the goal or the principle
+- [18:06] that the researcher has. And so when we
+- [18:08] understand the goal or principle or how
+- [18:09] they're going to use the data then we
+- [18:12] can almost yeah put ourselves in their
+- [18:14] shoes and instead of asking them okay
+- [18:17] what happens when this car is oluded
+- [18:19] what happens when this car is in a
+- [18:20] reflection and we just think about okay
+- [18:22] uh kind of like deriving from first
+- [18:24] principles given given what they told us
+- [18:26] what do we think that the user what do
+- [18:28] we think that the researcher wanted like
+- [18:30] so this is where I don't know if I could
+- [18:31] envision but okay maybe if you know that
+- [18:33] the data is going to be used for some
+- [18:36] LAR model then you would just know uh
+- [18:39] that this makes sense and this doesn't.
+- [18:41] And so we can have that higher level
+- [18:43] goal instead of like a mechanical list
+- [18:46] of instructions that that is kind of
+- [18:47] always what we what we aim for. And it
+- [18:50] is hard because you know at the day
+- [18:52] sometimes researchers don't know either.
+- [18:54] Um, but this is where I think we as a
+- [18:57] company, we often also try to have a
+- [18:59] strong opinion on what the best type of
+- [19:00] data is as opposed to um as opposed to
+- [19:06] almost like blindly accepting whatever
+- [19:08] people tell us. Like often times we
+- [19:09] actually do like to get into like a a
+- [19:11] feisty debate about um uh about like
+- [19:14] what what type of data would be most
+- [19:16] useful to bird m.
+- [19:17] >> So then do you hire a lot of ML
+- [19:19] researchers? Like is that are those the
+- [19:20] people that you want working directly
+- [19:22] with the customer in in order to
+- [19:23] >> Yeah. Yep. Yeah. We have a lot of
+- [19:25] researchers. Like I think one of the
+- [19:26] things that we often think about is we
+- [19:28] almost consider ourselves a kind like a
+- [19:30] research company just that instead of
+- [19:31] researching like algorithms and
+- [19:35] uh in know in a way that you know other
+- [19:37] French labs might where we're we're more
+- [19:38] about researching the data.
+- [19:40] >> Totally. And has it been I mean I I
+- [19:43] really admire you know how you've kind
+- [19:45] of avoided you know status games and and
+- [19:47] float under the radar but I would think
+- [19:49] that in doing that it might make it
+- [19:51] harder to to hire like do you have a
+- [19:53] different strategy for hiring or do you
+- [19:55] think that maybe it doesn't matter you
+- [19:57] find the people that really connect with
+- [19:59] your mission.
+- [20:01] >> Yeah. So I think one of the things that
+- [20:02] we often think about is we don't want
+- [20:04] people who are just joining us in order
+- [20:07] to put in order to like notch another
+- [20:09] brand out their resume. Um like sure
+- [20:12] there are other people out there who do
+- [20:13] that and we're missing out on those
+- [20:15] candidates and I think they also tend to
+- [20:18] want to build like they tend to be
+- [20:20] people who want to build large teams.
+- [20:21] They tend to want to be people who want
+- [20:23] to build empires and
+- [20:27] it almost turns into a
+- [20:30] hiring for the sake of hiring when you
+- [20:32] Okay. So like yeah like why do you want
+- [20:34] to why do you why do you want to hire
+- [20:35] this person? Oh, I needed to hire this
+- [20:37] person because the other person doing
+- [20:40] this job is spending all their time
+- [20:41] interviewing. And so why why is that
+- [20:43] person spending all their time
+- [20:44] interviewing? Well, it's because
+- [20:46] somebody told them that they needed to
+- [20:48] hire a internal tooling team. And so why
+- [20:51] why do why why that person need to hire
+- [20:52] an internal tooling team? Well, this in
+- [20:54] order to make the engineers more
+- [20:56] productive. Well, why are not productive
+- [20:57] enough? Because they're spending all
+- [20:58] their time in meetings. Why are they
+- [20:59] spending all their time in meetings?
+- [21:00] It's because we hired all these people
+- [21:01] and you need to communicate with them.
+- [21:03] And so it uh I think there's like a lot
+- [21:06] of benefits if you start from having
+- [21:08] people who really really believe in your
+- [21:10] mission. Then at least for us, we've
+- [21:12] been able to stay smaller with like a
+- [21:14] with a much smaller team.
+- [21:15] >> How big is your team?
+- [21:17] >> So we're a little over 100 people.
+- [21:19] >> Wow, that's an incredible um revenue per
+- [21:22] employee. Congratulations.
+- [21:25] Um, have you um I'm curious like you
+- [21:28] know you've gone through this really
+- [21:29] fast change I think from being like an
+- [21:32] ML
+- [21:33] um you know researcher essentially to um
+- [21:37] running a a very significant large
+- [21:40] company where where have you felt
+- [21:44] stretched the most like what what's um
+- [21:47] what's been challenging
+- [21:49] >> certainly the thing that I found most
+- [21:51] challenging is sales I mean probably any
+- [21:53] any research will tell you that just the
+- [21:55] concept of having to go out and hawk
+- [21:59] your product is a little foreign to me.
+- [22:01] Um, so I think it is I think we're we're
+- [22:04] lucky in a sense that our product
+- [22:06] actually end at the end of the day is it
+- [22:07] is for researchers and so kind of having
+- [22:11] that research mindset like at the end of
+- [22:13] the day like we um like what we're
+- [22:15] trying to build is not it's almost like
+- [22:18] that Disney quote um you know we don't
+- [22:20] we don't make movies to make money we
+- [22:22] make money in order to make movies. So
+- [22:24] in a similar what we're doing is we're
+- [22:26] not trying to generate revenue. We're
+- [22:28] trying to generate data that will help
+- [22:30] AGI like one of the things that we'll
+- [22:32] often do is sometimes when customers or
+- [22:34] like when new when when new companies
+- [22:35] come to us and they ask us if they can
+- [22:38] work with us and
+- [22:42] if their goal is kind of like unaligned
+- [22:45] with AGI then we actually just say no to
+- [22:48] them because we don't want the revenue
+- [22:49] and we want to focus on the the AGI
+- [22:51] companies in a sense. Um so I think like
+- [22:55] again going back to not raising um the
+- [22:58] fact that we don't have a board that or
+- [23:00] like that we don't have an external
+- [23:01] board the fact that we don't have VCs
+- [23:03] who are uh just dying to uh you know
+- [23:06] make as much money as possible I think
+- [23:07] that gives us sort of freedom that
+- [23:08] allows us to focus on the most important
+- [23:10] problems which has allowed us to kind of
+- [23:13] maintain our research focus.
+- [23:15] >> Totally. So you only work with companies
+- [23:17] focused on building a jet.
+- [23:19] >> Yeah. So like for example, if a company
+- [23:21] came to us and you were saying like um
+- [23:25] uh like yeah we just want to train a
+- [23:28] what that was. Let's say I just want to
+- [23:30] train a like I'm a newspaper and I just
+- [23:34] want to train a I don't know like a like
+- [23:35] a category algorithm category
+- [23:37] classifier. Yeah, we just say no.
+- [23:40] >> What if I like what if I want to make
+- [23:42] like a video like autom video generator?
+- [23:45] Would that be um in your real or is that
+- [23:49] to
+- [23:50] >> Oh, uh yeah, I mean we we do it in that
+- [23:52] sense just because
+- [23:54] um like building such video generators
+- [23:57] is like a like a part of building AGI.
+- [24:00] Um so yeah that sense look I mean I
+- [24:03] imagine you know 5 years ago the data
+- [24:06] being collected was pretty different
+- [24:08] than you know the data collected now.
+- [24:10] Like I I would think probably some of
+- [24:11] the tasks Well, tell me if it's true,
+- [24:13] but I would think some of the tasks that
+- [24:14] you'd be doing 5 years ago would be like
+- [24:17] easily automated by LMS today. It's just
+- [24:19] been such an astonishing um you know
+- [24:22] pace of improvement. Can can you talk
+- [24:23] about how the the types of tasks have
+- [24:25] changed over the last few years?
+- [24:28] >> Uh yeah, so some of the types of work
+- [24:30] that we do are very very different. So
+- [24:32] when we first started a lot of our work
+- [24:34] was in tasks like search evaluation or
+- [24:39] content moderation and uh like you know
+- [24:43] whereas today it's almost purely LLM
+- [24:46] work uh so that's one big difference and
+- [24:49] then even within even within LMS there's
+- [24:52] been this obvious trend towards higher
+- [24:55] complexity higher sophistication higher
+- [24:56] expertise um so so I can give a couple
+- [24:59] examples so like for example there's
+- [25:00] been a big increase in multimodal
+- [25:01] complex lexity. So a few years ago it
+- [25:03] was all text data just conversational
+- [25:05] text assistance but now we do a lot of
+- [25:07] work with images and audio and video and
+- [25:10] I think the interest is like you
+- [25:12] actually want the models to understand
+- [25:13] all of these modalities simultaneously.
+- [25:15] Like one of the things you might want to
+- [25:16] do is like okay I'm taking a video of
+- [25:17] something on my phone and now I'm asking
+- [25:19] the model to create a program based off
+- [25:21] of the video on my phone that simulates
+- [25:23] this in real life. So um yeah there's
+- [25:25] been a lot of multimodal um uh increase
+- [25:28] in complexity. site has also been a big
+- [25:30] expansion in languages like you know
+- [25:32] first people were naturally focused on
+- [25:33] English only work but we actually work
+- [25:35] in over 50 languages now and I think
+- [25:38] what's also interesting is it's like
+- [25:39] very hyper specialized like we we
+- [25:41] support coding in Argentinian Spanish
+- [25:43] and we support legal and financial
+- [25:45] expertise in Bolivia and it's because
+- [25:48] each like even today I think a lot of
+- [25:50] the malls they're actually just not that
+- [25:51] good uh surprisingly so like they're not
+- [25:53] that good at kind the the different
+- [25:55] nuances of different languages or
+- [25:58] different dialects or different cultures
+- [26:00] and so I think there actually still was
+- [26:01] a lot more progress to be made there and
+- [26:03] then probably the biggest shift is just
+- [26:04] like the depth of expertise that a lot
+- [26:06] of the work requires like yeah you see
+- [26:08] the models winning IMO gold medals now
+- [26:09] and you see them doing all these
+- [26:10] incredibly advanced tasks and so you
+- [26:12] actually really really need serious
+- [26:14] thinking power behind us and so even
+- [26:15] today some of the tasks that we do they
+- [26:17] involve spending days or even weeks
+- [26:20] solving these really really interesting
+- [26:21] problems and so it's a a very very far
+- [26:23] cry from you know tasks 5 10 years ago
+- [26:26] where you might spend 5 seconds uh
+- [26:28] labeling task.
+- [26:29] >> So, do you actually have people that
+- [26:30] like can solve like Olympiad level math
+- [26:33] problems? Like creating those problems
+- [26:35] and then solving them?
+- [26:36] >> Yeah. Yeah.
+- [26:38] >> You know, it's funny. This is kind of an
+- [26:40] aside, but I I've been sort of surprised
+- [26:43] how at the at the scores the latest
+- [26:46] models are getting on these Olympia
+- [26:47] problems when when I put in kind of more
+- [26:50] fun, you know, brain teaser problems
+- [26:52] that my friends pass around, they often
+- [26:54] can't do them. Do do you have a sense
+- [26:56] for why there's that disconnect?
+- [26:59] >> Yeah, so I think a big problem with a
+- [27:02] lot of the Frontier models today is that
+- [27:05] they've
+- [27:07] basically been benchmark hacked. So you
+- [27:10] have all these
+- [27:12] benchmarks out there and
+- [27:16] of them are a lot of them are just
+- [27:17] aren't real good. they're like overly
+- [27:18] academic or they're overly synthetic
+- [27:21] and like yeah like a lot of these
+- [27:23] benchmarks they have a single going back
+- [27:25] to my point earlier they have a single
+- [27:26] objective answer and so the models have
+- [27:29] been narrowly constrained to be good at
+- [27:33] these very narrow objective problems
+- [27:35] when yeah like a you know a math problem
+- [27:37] in the real world or like the problem
+- [27:38] that you would ask as a French
+- [27:40] mathematician they're not going to be
+- [27:42] closedended problems they're going to be
+- [27:43] like open-ended explorations so I think
+- [27:46] a lot of it stems from from this kind of
+- [27:48] benchmark hacking that's that's going
+- [27:49] on.
+- [27:50] >> So if you're going to build a benchmark
+- [27:51] today to compare Frontier models, what
+- [27:54] what kinds of things would it include?
+- [27:57] >> So
+- [27:59] what we always say is that the gold
+- [28:02] standard for evaluating models really is
+- [28:04] human evaluations
+- [28:06] where you just can't fully automate it.
+- [28:09] Like people try to build these
+- [28:10] leaderboards where
+- [28:13] um they take
+- [28:15] kind of automatic verifiers but
+- [28:18] automatic verifiers they still kind of
+- [28:19] only work well in these very objective
+- [28:21] domains or they've tried building
+- [28:23] benchmarks like Olympus which I think is
+- [28:27] an absolutely terrible uh absolutely
+- [28:29] terrible leaderboard that has basically
+- [28:32] I think set the industry back by at
+- [28:35] least a year. Uh, so I can go into that
+- [28:37] more detail, but I I think a lot of the
+- [28:40] a lot of the kind of benchmarks out
+- [28:41] there, they are flawed either because
+- [28:45] they're built using lowquality data or
+- [28:47] they are just like overly synthetic,
+- [28:49] overly academic, overly objective in a
+- [28:51] way that the real world isn't.
+- [28:54] >> Okay. Well, I mean, now I want to hear
+- [28:56] this. So, why do you think the LMS um
+- [29:00] you saying that bench is not just bad,
+- [29:02] but it set the industry back? Can you
+- [29:04] tell me more about that?
+- [29:06] Yeah. So,
+- [29:08] so basically LMS is this uh if you don't
+- [29:10] know what it is, it's like this popular
+- [29:11] leaderboard of LM models. And what
+- [29:13] happens is that the way it works is
+- [29:15] people go on to it like literally
+- [29:16] anybody around the world like you could
+- [29:17] be uh and what we often hear is that
+- [29:19] it's literally high schoolers, middle
+- [29:21] schoolers who can't access any other way
+- [29:23] and they're going on to arena as their
+- [29:24] only mechanism. And so what happens is
+- [29:26] they go onto this uh chatard arena,
+- [29:28] they'll enter a prompt and then they see
+- [29:30] two model responses and then they vote
+- [29:32] on which one's better. But you think
+- [29:33] about it, they're not taking the time to
+- [29:35] read or evaluate these model responses
+- [29:37] at all. They're literally just like
+- [29:38] looking at the responses for like two
+- [29:39] seconds and just picking whichever one
+- [29:42] uh just matches their fancy. And so the
+- [29:44] models could have made everything up.
+- [29:45] They could have uh completely
+- [29:47] hallucinated everything. Uh they could
+- [29:49] have not followed the instructions at
+- [29:50] all and they'll just vote on it because
+- [29:52] okay, in order to progress they need to
+- [29:53] vote on something and oh yeah, this this
+- [29:55] model has emojis and has a lot of bold
+- [29:57] formatting so it just looks really
+- [29:59] impressive. Like like one of the things
+- [30:00] that we've learned is that the easiest
+- [30:01] way to improve in this arena is simply
+- [30:03] to make your model responses a lot
+- [30:04] longer and like doubled the number of
+- [30:06] emojis that you have. And if you
+- [30:10] actually think about some of the models
+- [30:11] that have been released in the past
+- [30:12] year, like think about llama like yeah
+- [30:14] they or at least the the version of
+- [30:15] llama 4 that was optimized for lumpsis.
+- [30:18] Like if you actually looked at it, it
+- [30:20] exactly matched all of these patterns.
+- [30:22] And so one of the like one of the
+- [30:25] phenomenon that we often hear from
+- [30:28] researchers is they will tell us they'll
+- [30:31] tell us I'm only going to get promoted
+- [30:33] if like my VB has told me I'm only going
+- [30:35] to get promoted if we advance our model
+- [30:37] by 10 points on the leaderboard
+- [30:40] and they will look at the leaderboard
+- [30:42] data themselves and they'll see that
+- [30:44] yeah a lot of responses that are
+- [30:46] preferred by the Elms um like in Elms
+- [30:50] data sets like literally the the model
+- [30:52] that has followed instructions worse,
+- [30:54] literally the model that has
+- [30:55] hallucinated everything. These are the
+- [30:58] responses that are getting preferred
+- [31:00] just because they have a lot of
+- [31:01] formatting and emojis. And so what like
+- [31:03] these researchers tell us is like yeah
+- [31:04] like I want to work on um improving
+- [31:07] fundamental capabilities of my model
+- [31:08] like I want to I want to work on
+- [31:09] improving them in coding. I want to work
+- [31:11] on them uh at fixing their hallucination
+- [31:13] abilities. But instead, if the only way
+- [31:16] I'm going to corrode it is by optimizing
+- [31:18] for this leaderboard, and the easiest
+- [31:20] way to optimize for this leaderboard is
+- [31:22] to make my model hallucinate so that it
+- [31:24] just generates these crazy answers that
+- [31:26] are like even though they're completely
+- [31:27] wrong, there's like very very compelling
+- [31:29] to um like amateur uh amateur raiders
+- [31:32] who are only spending two seconds, then
+- [31:34] yeah, that's that's what they're going
+- [31:35] to do. And so we've often actually seen
+- [31:38] uh models they've um like uh like if you
+- [31:42] look at actually some of the models that
+- [31:43] are that are top spots on leaderboard
+- [31:45] today and compare them to how they were
+- [31:47] performing 6 months ago, you actually
+- [31:49] see that they're they're they're
+- [31:50] actually worse in in in many ways. Do
+- [31:52] you think so? Like another thing that
+- [31:54] kind of strikes me is like, you know, we
+- [31:56] have these different models made by
+- [31:57] totally different organizations like,
+- [31:59] you know, you have like X, you know,
+- [32:00] like run by Elon and and making Grock
+- [32:03] and, you know, you look at Enthropic and
+- [32:05] OpenAI, these clearly have different
+- [32:07] cultures and we've had different folks
+- [32:08] from these organizations on on the
+- [32:10] podcast and and yet the models seem to
+- [32:13] have this kind of surprisingly
+- [32:16] consistent tone to me. they sort of
+- [32:18] like, you know, they feel like a little
+- [32:20] bit like annoyingly positive, like a
+- [32:22] little bit like, you know, boy scouty,
+- [32:24] like yes, like thank you, I will answer
+- [32:26] your question. And I I sort of imagine
+- [32:28] that that must somehow be trained in at
+- [32:30] some point in the process. And I wonder
+- [32:33] if it's in like the just the
+- [32:34] pre-processing like, you know, is that
+- [32:36] just sort of like what high quality data
+- [32:37] on the web, you know, looks like, or is
+- [32:39] it sort of intentionally inserted later
+- [32:41] in the process? is somehow the
+- [32:43] annotation that you're doing like
+- [32:44] contributing to that sort of consistent
+- [32:47] um I feel like we'll look back on it is
+- [32:49] almost like this like LM tone of of
+- [32:52] 2025.
+- [32:53] >> Yep. I mean I think it's kind of combin
+- [32:57] combination of everything in that like
+- [33:00] for example we actually don't teach the
+- [33:01] models explicitly to or we generally
+- [33:04] don't teach the models to follow proper
+- [33:06] grammar like we generally don't teach
+- [33:07] the models to use m dashes but it's kind
+- [33:09] of just there in maybe in pre-training
+- [33:13] um where where where these kind of
+- [33:17] behaviors are baked in. I think in the
+- [33:20] future the models will become more and
+- [33:24] more differentiated where you will be
+- [33:25] able to tell that they have a noticeable
+- [33:26] difference in style. Like actually even
+- [33:28] today I I personally maybe because I've
+- [33:30] looked at this data enough I can
+- [33:31] actually just tell from reading the
+- [33:34] model responses themselves which model
+- [33:35] is which like some of them will just
+- [33:37] have certain prefaces. Some of them will
+- [33:38] just use certain uh certain words or
+- [33:41] certain uh stylistic patterns that I I
+- [33:44] can actually generally tell. But
+- [33:46] >> interesting what's can you can you think
+- [33:47] of any tells? Is it more subconscious or
+- [33:50] could you cite some specific things that
+- [33:52] lets you know it's particular model?
+- [33:55] >> Some of them would just use certain
+- [33:56] phrases like absolutely more often than
+- [33:59] others. Some of them would use emojis in
+- [34:01] a way that others wouldn't.
+- [34:03] >> Llama llama uses so many emojis. I
+- [34:06] totally agree with that.
+- [34:07] >> Some of them would like do a thing where
+- [34:09] they just like repeat three adjectives
+- [34:10] in a row. Um, you know, some of them use
+- [34:13] a lot more markdown than others. when
+- [34:15] you look at um the way that these
+- [34:17] different organizations collect data,
+- [34:19] are there like striking differences or
+- [34:21] does it feel like everyone's sort of
+- [34:23] chasing the same types of data?
+- [34:26] I think there actually are very very
+- [34:28] striking differences between the
+- [34:29] different companies. Um like every
+- [34:32] company almost has their own
+- [34:34] philosophy on
+- [34:37] the right way to both train and evaluate
+- [34:39] their models. So yeah, I think it's
+- [34:42] actually been surprising how how
+- [34:43] different they are.
+- [34:45] >> Do you have like a point of view on like
+- [34:46] how you think it should be done? Like if
+- [34:48] if you're
+- [34:50] like if you were running an AJI company,
+- [34:52] do I guess what what would you do? Is
+- [34:54] there something you do differently than
+- [34:56] than what you are asked to do?
+- [34:59] >> We had this very strong view that
+- [35:03] our HF data was a lot more effective
+- [35:06] than SFT data.
+- [35:09] Maybe you should just uh explain the
+- [35:11] difference here for Yep.
+- [35:12] >> the general too.
+- [35:13] >> So the way SFT data works just to give
+- [35:16] example would be
+- [35:16] >> and this is fine tune fine-tuned data
+- [35:18] supervised fine tuning.
+- [35:19] >> Yes. So SFD stands for supervised fine
+- [35:21] tuning. And so the way it work is okay.
+- [35:22] So so let's suppose that I wanted to
+- [35:24] train my model to become better at
+- [35:25] poetry. The way it would work would be
+- [35:27] okay I would uh you like you as an hater
+- [35:29] you as a reader would write a prompt. So
+- [35:31] the prompt might be yeah write a
+- [35:33] experience on it about cheese and then
+- [35:36] you would literally write a experience
+- [35:37] on it about cheese and that would be a
+- [35:39] demonstration to the model. Um so that's
+- [35:42] essentially supervised fine tuning in
+- [35:45] contrast in ROHF. So RHF stands for
+- [35:47] reinforcement learning with community
+- [35:48] feedback. The way it works is you write
+- [35:50] a prompt. So again you might take the
+- [35:51] same prompt write experience on about
+- [35:52] cheese and then you ask the model to
+- [35:54] generate two responses. So um these
+- [35:57] might be two different models like two
+- [35:58] different model checkpoints but model A
+- [36:00] would spit on an answer and model B
+- [36:01] would spit on an answer and then what
+- [36:03] you would do is you would just rate in
+- [36:05] some sense which one is better like okay
+- [36:07] model A is better because
+- [36:09] uh I don't know it had emotion behind it
+- [36:11] because it was better written because it
+- [36:12] actually followed the format of an
+- [36:14] experience on it and so then you
+- [36:15] basically teach the model like okay A is
+- [36:17] better than B and so what the benefit of
+- [36:20] this is it's that you're
+- [36:25] um I there there are many benefits but
+- [36:27] um just to to enumerate some of them
+- [36:29] like one it's a lot more efficient yeah
+- [36:31] like like even if you are a Nobel Prize
+- [36:33] laurate it takes you a lot of time to
+- [36:34] write a to write a poem about cheese um
+- [36:37] second it helps teach the model all
+- [36:40] these latent preferences and it helps
+- [36:42] teach the model what's good but also
+- [36:44] what's bad and
+- [36:48] yeah so basically we had this like very
+- [36:50] very strong view that um I mean SF is
+- [36:53] important sometimes like one of the
+- [36:54] things you often all our customers is
+- [36:55] that you often want to use a little bit
+- [36:57] of SFT data in order to more like
+- [36:59] efficiently bootstrap your models into a
+- [37:01] phase where RHF is is useful. But we
+- [37:04] just had this review that RHF was a lot
+- [37:05] more effective. And so we actually uh
+- [37:07] kind of steered our customers into that
+- [37:09] direction. Like if you actually read the
+- [37:11] Llama 2 paper, you'll see that one of
+- [37:13] the one of the discoveries um that they
+- [37:14] that they describe is like yeah like
+- [37:16] actually at the beginning all the
+- [37:18] researchers thought that SAT data would
+- [37:20] be more effective as well, but then they
+- [37:21] ran a bunch of experiments. they
+- [37:23] actually find that RHF was was just so
+- [37:25] much more effective. Um, so yeah, so
+- [37:27] that was one of our beliefs in the past.
+- [37:30] >> You know, when you look into the future,
+- [37:34] like you roll things forward a few
+- [37:35] years,
+- [37:37] what kinds of data do you think you're
+- [37:40] collecting now that you won't be
+- [37:41] collecting? And and what new kinds of
+- [37:43] data do you think you'll be collecting?
+- [37:48] >> Yes. So, well, I actually don't think
+- [37:50] that we're going to stop cuffing any of
+- [37:52] the data that we're still collecting
+- [37:53] right now. Like one of the things that
+- [37:54] we've often found is that I mean the
+- [37:57] proportions may change. Um like just in
+- [38:00] the same way that sure as you as you
+- [38:01] become a more sophisticated adult, you
+- [38:03] don't need to be trained as much on
+- [38:06] arithmetic that you you know you did
+- [38:08] when you were a little kid. But what we
+- [38:10] often found is that if you don't persist
+- [38:14] with at least some amount of this data,
+- [38:16] models often just regress in very
+- [38:18] surprising ways. Like I won't name names
+- [38:20] here, but some of the frontier models,
+- [38:22] they just make the most bizarre mistakes
+- [38:24] these days. And I think it's just kind
+- [38:27] of a little bit wild. And that's be just
+- [38:30] because the they make sure in tuned in
+- [38:32] in very certain ways. But I'll say some
+- [38:34] of the things that we expect more and
+- [38:37] more um uh or some of the ways we expect
+- [38:40] the data trend the data trends to
+- [38:42] continue are
+- [38:45] uh in ways that they haven't before.
+- [38:46] It's so I I'll just list them out. So
+- [38:50] one is
+- [38:53] even higher expertise problems than we
+- [38:56] have today. So
+- [38:59] like right now there's a lot of work
+- [39:00] being done in kind of like I would call
+- [39:02] like graduate level STEM work but if you
+- [39:05] actually want the models to make new
+- [39:08] scientific discoveries you're going to
+- [39:09] need to progress beyond you know like
+- [39:11] what even like the average PhD can do.
+- [39:13] So I think there'll be kind
+- [39:15] STEM work that that will happen in the
+- [39:17] future. So that's one of them. Another
+- [39:19] will be but wait can I ask so like super
+- [39:21] stemwork would that be like literally
+- [39:23] like I'm gonna go out and discover some
+- [39:27] new like principle of chemistry just to
+- [39:30] train a model like how how would that
+- [39:31] even manifest? Oh yeah. I mean I think
+- [39:34] it actually is exactly that. Like
+- [39:36] imagine that you are a Stanford
+- [39:38] professor and you're literally working
+- [39:40] on I don't know like your your latest
+- [39:42] frontier research. What you want to be
+- [39:44] doing is yeah you want to be
+- [39:45] collaborating with an AI to kind of
+- [39:47] generate new hypotheses to help you test
+- [39:49] your experiments. And so um like it's
+- [39:52] this idea of a scientific collaborator
+- [39:54] and it's in the same way that we have
+- [39:56] like a you know like a coding
+- [39:57] collaborator right now in the form of
+- [39:58] cloud code and whatnot. So I think um
+- [40:01] like there there will be things like
+- [40:02] that that are they're going to be
+- [40:04] increasing point.
+- [40:04] >> But how would you collect the data?
+- [40:05] Would you like get a Stanford professor
+- [40:07] and have it like just score responses? I
+- [40:10] guess I guess a scoring response would
+- [40:11] be easier than just generating
+- [40:13] responses.
+- [40:14] >> Uh yeah, I mean it wouldn't necessarily
+- [40:16] be I mean so there's a lot of varieties
+- [40:17] different types of data that we collect
+- [40:18] nowadays. So it's not just scoring but
+- [40:20] yeah in a sense of yeah it's like
+- [40:21] literally a standard professor or some
+- [40:24] other person who's capable for
+- [40:26] understanding French physics um who's
+- [40:28] collaborating with the models and then
+- [40:29] basically teaching them the the the
+- [40:31] right signals. Um yeah so so that's one
+- [40:34] domain. Another domain is just like
+- [40:36] longer and longer horizon tasks like
+- [40:39] today the models can like sure they
+- [40:41] might be able to definitely perform
+- [40:43] tasks that a human could have done in
+- [40:45] you know 5 10 15 30 minutes an hour. um
+- [40:48] some time horizons I think will just get
+- [40:50] very very long and so yeah like what are
+- [40:51] the types of things that you want the
+- [40:53] models to do that would take a couple
+- [40:54] days or even weeks so that's another
+- [40:57] domain a third domain almost going back
+- [40:59] to your point about the language that
+- [41:01] these models uh exhibit today is like
+- [41:03] how do we actually make the models
+- [41:05] really really good at um like long form
+- [41:08] creative writing like even today it's
+- [41:10] kind of kind of interesting like even
+- [41:11] today I would say that I I don't like
+- [41:13] any of the poetry or I don't like any of
+- [41:14] the short stories that the models can
+- [41:16] write even though they have perfect
+- [41:18] pros. They're just not creative enough.
+- [41:21] Like they've almost collapsed to this
+- [41:22] like very very vanilla generic
+- [41:24] dimension. And so I think there will be
+- [41:25] more work there. Um it's just that yeah
+- [41:28] like up until now there have been maybe
+- [41:30] higher higher economic value tasks that
+- [41:33] people want the models to do instead. I
+- [41:35] think it actually is an important thing
+- [41:36] for for models to do to like exhibit
+- [41:38] this kind of creativity in a kind like a
+- [41:40] non-generic way. Um
+- [41:43] and I guess a fourth one would just be
+- [41:45] more and more auctions in the real
+- [41:46] world. like agents have kind of uh
+- [41:49] percolated or maybe per wrong word but
+- [41:51] agents have uh obviously exploded in in
+- [41:53] popularity over the last few months but
+- [41:55] just through at a very very nent level
+- [41:57] and so just the concept of AI models
+- [42:00] that can plan and reflect on their
+- [42:03] actions and try new ideas and so on and
+- [42:08] u actually like again like actually um
+- [42:10] affect things in the world I think that
+- [42:12] will be an increasingly increasingly
+- [42:13] important concept
+- [42:16] >> I guess one of things that we might not
+- [42:17] have expected models to do our priority
+- [42:20] is put a lot of their reasoning into
+- [42:23] code. Like I think, you know, we've kind
+- [42:25] of seen a trend where, you know, models
+- [42:27] use code to do the reasoning more and
+- [42:30] more. You can kind of see it like in the
+- [42:33] um you know, in the in the chat window.
+- [42:35] Do you think that's kind of an artifact
+- [42:37] of the limitations of of models today or
+- [42:39] do you kind of expect that that trend to
+- [42:41] continue?
+- [42:43] uh I actually decided to continue like I
+- [42:45] do think that the code that they're
+- [42:47] writing is like very important for
+- [42:48] certain times certain types of
+- [42:52] verifiability that you just might want
+- [42:54] the model to to exhibit. So yeah just in
+- [42:57] a way that if I could write a lot of
+- [42:59] code for you know my day-to-day life I I
+- [43:01] would um so yeah I actually think it's a
+- [43:04] very uh very very important capability
+- [43:06] for Moft.
+- [43:08] Do you have a sense I guess I have this
+- [43:10] intuition that the amount of code used
+- [43:12] to train these models is kind of
+- [43:14] increasing as a fraction of the overall
+- [43:16] data. Do do you think that's accurate?
+- [43:18] Like do do you are you generating more
+- [43:20] and more code for your customers than
+- [43:22] other stuff?
+- [43:23] >> Uh yeah. Yeah, we are.
+- [43:27] Um I guess that's a lead into another
+- [43:29] question I have which is you know do you
+- [43:31] think that the the trend toward is the
+- [43:34] trend towards reasoning models changing
+- [43:36] the types of data that you're
+- [43:37] collecting?
+- [43:40] >> Yeah. So definitely the reasoning models
+- [43:42] have led to a bunch of new types of
+- [43:44] collection methods. And so I think
+- [43:46] probably the biggest one is just this
+- [43:48] concept of creating R RL environments
+- [43:50] from scratch where essentially a lot of
+- [43:52] what we're doing is we're basically
+- [43:53] building these video game- like
+- [43:54] universes with interesting tools and
+- [43:56] data sets that the models need to solve.
+- [43:59] So like just to give an example like you
+- [44:00] can imagine a universe consisting of a
+- [44:02] simulated AI startup and so in this
+- [44:06] environment or in this universe you
+- [44:07] basically have a bunch of like let's
+- [44:09] like Gmail messages and slack messages
+- [44:11] and juro tickets and GitHub PRs and code
+- [44:13] bases and so on and so uh then what you
+- [44:17] need to do is like you need to like you
+- [44:20] basically want this universe to be as
+- [44:22] rich and complex and like high fidelity
+- [44:26] to challenging task in the real world as
+- [44:28] possible. Like for example, you actually
+- [44:30] imagine in this universe, suddenly AWS
+- [44:32] goes down and suddenly Slack goes down
+- [44:33] and so what what do you do? What does
+- [44:35] the agent do? Like I can't use Slack, so
+- [44:37] I need to make sure that it knows how to
+- [44:38] do that. Um and he's like figure out how
+- [44:40] to solve this problem. And um yeah, I
+- [44:42] think there's like a lot of like
+- [44:43] interesting things that that we're
+- [44:44] basically building into these into these
+- [44:46] R environments.
+- [44:48] >> How do you handle like the subjectivity
+- [44:52] of these models? Like I I think one of
+- [44:54] the reasons that I spend a lot of time I
+- [44:57] have a a 5-year-old and you know she
+- [45:00] really likes to generate stories. So we
+- [45:02] spend a lot of time I've gone like
+- [45:03] really deep trying to get these models
+- [45:04] to write you know interesting stories.
+- [45:06] And I like agree with you. I don't think
+- [45:07] they really write interesting stories.
+- [45:10] And I think a big part of it is I think
+- [45:11] they're trying to maybe like average the
+- [45:13] preference of a lot of different people.
+- [45:14] But you know my 5-year-old's taste is is
+- [45:17] really different than you know my taste
+- [45:18] in stories. And you know we're actually
+- [45:21] like asking the model together. So maybe
+- [45:22] it can't it's not even possible for it
+- [45:24] to make you know both of us kind of
+- [45:25] happy with the story let alone you know
+- [45:27] the average person. So it seems like
+- [45:29] that might require like a different type
+- [45:31] of like labeling if you actually want to
+- [45:33] get like interesting art out of it
+- [45:35] because like good art probably shouldn't
+- [45:36] be um you know like get thumbs up from
+- [45:40] like every single person that that looks
+- [45:41] at it.
+- [45:42] >> Yep. Yeah. I mean, I think there's this
+- [45:44] concept of personalization that is
+- [45:46] actually very very very much unexplored
+- [45:48] with the models still. There's like kind
+- [45:50] of like service level personalization
+- [45:51] where yeah, the model knows that you
+- [45:53] live in Ohio versus you live in New York
+- [45:55] City. But there's this concept of like
+- [45:57] there's just like a lot of unexplained
+- [45:59] latent preferences that you have that
+- [46:01] are kind of hard to articulate. Um, and
+- [46:04] how do you get the model to
+- [46:06] somehow learn those from the data and
+- [46:09] for every single person and then apply
+- [46:11] those to
+- [46:13] uh two different responses that they
+- [46:14] generate. I think that actually is like
+- [46:16] a really really interesting concept that
+- [46:18] still hasn't been fully explored yet
+- [46:20] like like just to give an example where
+- [46:23] you are a mathematician um like here are
+- [46:25] the restaurants that you should try in
+- [46:26] Paris like sometimes just make these
+- [46:28] like weird little personalization
+- [46:30] generalizations and so there I think I
+- [46:32] think there's still a lot of work that
+- [46:33] that are made to be done with
+- [46:34] personalization
+- [46:35] >> and is that do you think that's because
+- [46:36] it's hard to collect good
+- [46:37] personalization data like I'd imagine
+- [46:40] like to put yourself in the shoes of
+- [46:41] someone that you're not the data is
+- [46:43] never going to be as accurate it.
+- [46:46] >> Um, I think that's part of it, but I
+- [46:48] mean I think a part big part of it is
+- [46:50] that all the frontier labs only so so
+- [46:52] many things that they can focus on and
+- [46:53] so they just haven't quite doubled down
+- [46:55] on personalization yet.
+- [46:56] >> Okay. So let's I mean let's talk about
+- [46:58] synthetic data. I think everybody's
+- [47:00] dream is always to be able to you know
+- [47:02] automatically
+- [47:04] um you know generate useful data. We've
+- [47:06] seen you know a lot of people using LM
+- [47:08] as a judge for many applications which
+- [47:10] is a kind of synthetic data like how do
+- [47:13] you do synthetic data generation and and
+- [47:16] how do you think about that?
+- [47:18] >> Yeah. So I actually do think synthetic
+- [47:20] data is really useful in some places but
+- [47:22] I think a lot of people actually
+- [47:23] overestimate what synthetic data can do.
+- [47:25] So I can I can give a couple examples.
+- [47:28] So like right now there are a bunch of
+- [47:30] models that have been trained really
+- [47:31] heavily on synthetic data. But similar
+- [47:33] to what you and I were saying before,
+- [47:35] it's like that's partly why they're very
+- [47:38] good at these very academic homework
+- [47:40] style benchmark style problems and
+- [47:42] they're actually really really terrible
+- [47:44] at real world use cases. So synthetic
+- [47:46] but synthetic data has made models good
+- [47:48] at synthetic problems but but not real
+- [47:50] ones like that that kind of phenomena.
+- [47:52] Actually I can think of an example now.
+- [47:54] So I remember um like maybe a year or so
+- [47:57] ago we were running human evals for
+- [48:03] um one of the researchers that we work
+- [48:05] with and or human evals showed that
+- [48:10] their models suddenly tanked.
+- [48:14] And when we dug into it like when we
+- [48:15] talked to researcher it turned out that
+- [48:16] they had just trained their model on
+- [48:18] like 10 million or 20 million synthetic
+- [48:20] math problems.
+- [48:22] And so what they hadn't realized was
+- [48:24] that by training the model on these 10
+- [48:26] to 20 million synthetic math problems,
+- [48:29] they
+- [48:31] and like math problem is like a very
+- [48:33] very narrow domain of math. And what
+- [48:35] they hadn't realized was that how much
+- [48:37] that was making the model worse at
+- [48:40] basically every other type of task. like
+- [48:42] you know there are only so many like you
+- [48:45] know very close-ended SAT style math
+- [48:47] problems that you want the model like
+- [48:49] there's only so much you care about that
+- [48:50] and so the model actually just became
+- [48:52] worse in in basically every other domain
+- [48:54] so yeah that's an example there and then
+- [48:58] I think like another thing we actually
+- [48:59] often hear from companies is that they
+- [49:01] they often tell us yeah I spent the past
+- [49:03] year training my models on synthet data
+- [49:05] but they've only now just realized all
+- [49:06] the problems that that's caused and so
+- [49:08] they actually then spend like multiple
+- [49:10] months throwing a lot of it out like a
+- [49:12] lot of them will actually tell us. Um
+- [49:14] they've thrown out 10 20 million pieces
+- [49:16] of synthetic data because they found
+- [49:18] that even just a thousand pieces of
+- [49:19] really high quality human data is uh is
+- [49:22] more useful. Like the human data is both
+- [49:25] uh I think more diverse, more creative
+- [49:29] um as opposed to you know kind of just
+- [49:31] getting 10 million pieces of the same
+- [49:32] thing over and over again. And so
+- [49:34] actually what ends up happening in
+- [49:35] practice is that yeah companies will try
+- [49:37] using synthetic data for certain
+- [49:38] problems for like six months and then a
+- [49:41] lot of the work that we do is ends up
+- [49:43] being cleaning up a synthetic data.
+- [49:46] >> You know you kind of have front row
+- [49:48] seats to you know like what most of the
+- [49:52] labs are doing. I mean, do you have a um
+- [49:55] do you have a point of view on if we're
+- [49:56] kind of at a moment where um performance
+- [49:59] is sort of, you know, stuck with like
+- [50:01] kind of needing, you know, new methods
+- [50:03] to get to the next level or if um you
+- [50:06] know, the the current strategies of, you
+- [50:09] know, kind of um you know, pre-training
+- [50:11] and then, you know, like reinforcement
+- [50:13] learning to learn reasoning will kind of
+- [50:15] get us to um a much better set of
+- [50:17] models.
+- [50:19] >> Yeah. So, I I definitely don't think
+- [50:20] we're stuck at all. like I think there
+- [50:23] are a lot of um new methods that are
+- [50:25] just appearing and a lot of new data
+- [50:28] that hasn't been collected yet and from
+- [50:31] some of the I mean even just like some
+- [50:32] of the early experiments that that we've
+- [50:34] run ourselves I think that we are going
+- [50:36] to actually see some massive progress
+- [50:38] and uh some some new domains very very
+- [50:40] soon.
+- [50:40] >> Can you describe what some of the new
+- [50:41] methods are at at a high level? Yeah.
+- [50:44] So, I mean, even just some of the
+- [50:46] methods that I was just describing in
+- [50:47] terms of RO environments and some of
+- [50:48] these new RO methods, um, I think people
+- [50:52] uh, they're still kind of new to a lot
+- [50:54] of researchers in industry. And, um,
+- [50:59] it's basically this concept of exposing
+- [51:00] the models to all these new environments
+- [51:02] they haven't seen before. And
+- [51:05] >> will it be an example of a new
+- [51:06] environment that they haven't seen
+- [51:07] before?
+- [51:09] So,
+- [51:11] so even even just the example I
+- [51:12] mentioned earlier where you have like a
+- [51:14] simulated AI startup and then suddenly
+- [51:17] the the model uh like the the
+- [51:20] environment it uh loses access to Slack
+- [51:23] and it loses access to AWS and so how
+- [51:26] does the agent continue operating in
+- [51:28] this environment and how does like solve
+- [51:29] the problem? I think it's something that
+- [51:30] just doesn't appear in some sense um in
+- [51:34] any pre-existing data or any data that
+- [51:37] we've generated before. So, it's just
+- [51:39] like this entirely new concept where the
+- [51:41] model needs to go through all these
+- [51:43] different actions. It needs to kind of
+- [51:45] reflect on what it's done. It needs to
+- [51:47] just kind of like find new ways of
+- [51:49] solving a problem. And especially when
+- [51:51] you expose it to very very messy types
+- [51:53] of data that it may try to retrieve like
+- [51:55] very messy types of data that again like
+- [51:56] it may not have um
+- [52:00] encountered before. Um
+- [52:04] it's
+- [52:07] uh like just the models can can kind of
+- [52:09] fail in these like very unique ways but
+- [52:11] I think uh in ways that it can be taught
+- [52:14] to to like progress through.
+- [52:16] >> What do you think about the ARC
+- [52:18] benchmark? And that's kind of an
+- [52:19] interesting one where it's it see it's
+- [52:21] like deceptively simple problems that I
+- [52:23] think you or I would have no no trouble
+- [52:25] with. Certainly easier than you know
+- [52:27] math Olympiad um problems that are sort
+- [52:29] of more visual pattern recognition like
+- [52:32] do you think those are likely to get
+- [52:33] solved in in the next year or two? Yeah.
+- [52:36] So I will admit even the AR benchmark is
+- [52:39] very surprising to me as well. Like I if
+- [52:42] you asked me without ever having uh seen
+- [52:45] the ARC benchmark if models could solve
+- [52:46] this I'll be like yeah absolutely and so
+- [52:49] it actually is very very like there's
+- [52:51] something about them that I still don't
+- [52:53] quite understand in why models can't
+- [52:55] solve them. Um yeah it's actually very
+- [52:57] very interesting because like right now
+- [52:58] we are actually doing a lot of work to
+- [53:00] generate um arc style problems. Um so
+- [53:05] it'll be interesting to see how much
+- [53:07] that helps the models improve. But yeah,
+- [53:10] like I would say right now I actually I
+- [53:11] don't have a good understanding of why
+- [53:12] models can't can't solve them.
+- [53:14] >> Um, do you have an opinion on whether
+- [53:18] open source or closed source models are
+- [53:19] going to win in the long term?
+- [53:23] >> So my guess is that at least with the
+- [53:25] current state of things, closed source
+- [53:28] models will continue winning. And
+- [53:32] part of that is because I mean elements
+- [53:34] are just so valuable that
+- [53:38] if you ever try to
+- [53:42] build open source models, the way
+- [53:44] incentives currently work is that
+- [53:46] eventually you're going to be forced to
+- [53:48] close source them. And so if you want to
+- [53:51] build truly open source models that are
+- [53:53] really really good, we almost need a
+- [53:55] different kind of incentive structure to
+- [53:57] make sure that that happens or remains
+- [53:59] in place. Otherwise, like if you just
+- [54:00] look at the history of like other types
+- [54:02] of open source models, um they have kind
+- [54:03] of gotten more closed over time.
+- [54:05] >> What do you mean like what are what are
+- [54:06] you referring to?
+- [54:08] So I mean if you even think about like
+- [54:10] Meta that is thinking about making their
+- [54:13] uh making VA close source and just
+- [54:16] models are just so expensive to train
+- [54:18] and people want to fully capture the
+- [54:20] value if you ever build a a truly truly
+- [54:22] good open source model that I think
+- [54:25] won't remain open open source for very
+- [54:27] long again unless you can change
+- [54:30] incentive structure in some way that I
+- [54:31] haven't figured out yet. What do you
+- [54:33] think is like the ratio of spend on data
+- [54:37] to spend on compute in the in the
+- [54:39] training of like a large model and how
+- [54:41] do you expect that to change over time?
+- [54:44] >> So I mean I definitely think it should
+- [54:46] be a lot higher. Um like sometimes
+- [54:48] people will I would say they almost
+- [54:50] skimp on gathering data when so
+- [54:53] >> what do what do you think it is today
+- [54:54] like roughly?
+- [54:57] >> So I actually don't have a good sense
+- [54:58] myself. I think it actually varies
+- [54:59] highly depending on the labs, but it can
+- [55:01] be anywhere from like a couple
+- [55:03] percentage points or 1% to like 10%.
+- [55:06] Um, but I think like one thing that
+- [55:08] we've often heard from some researchers
+- [55:10] is that there are some researchers who
+- [55:11] are really really good at using human
+- [55:15] data like they know how to come to us to
+- [55:17] gather it. They know how to like apply
+- [55:20] it in their own work. And what they
+- [55:21] often tell us is that like some of their
+- [55:23] counterparts like they don't know how to
+- [55:25] use human data and so they just move a
+- [55:27] lot slower. Um like they may try these
+- [55:30] like uh kind of like somewhat wild ways
+- [55:33] to get around the fact that they don't
+- [55:34] have any human data and it just ends up
+- [55:36] being this like kind of complex uh
+- [55:38] slowdown for them. So I I hope it'll
+- [55:41] it'll get higher in the future. But um
+- [55:44] yeah I I I think there are a lot of ways
+- [55:47] in which people still underestimate use
+- [55:48] data. Awesome. Well, I appreciate your
+- [55:51] time and congrats on building a
+- [55:52] fantastic business.
+- [55:54] >> Yeah, it was a great great chat.
+- [55:55] >> Great chat. Thanks. Oh, thanks much.
+- [55:57] Bye.
+- [55:59] >> Thanks so much for listening to this
+- [56:00] episode of Gradient Descent. Please stay
+- [56:02] tuned for future episodes.

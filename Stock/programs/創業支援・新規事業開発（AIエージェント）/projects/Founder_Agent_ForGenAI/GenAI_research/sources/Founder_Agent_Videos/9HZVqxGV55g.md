@@ -1,0 +1,602 @@
+---
+title: "YouTube Video: 9HZVqxGV55g"
+video_id: "9HZVqxGV55g"
+video_url: "https://www.youtube.com/watch?v=9HZVqxGV55g"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Uh coming up right now we have a fireside chat with Olivier from OpenAI and our own Carl from Venturebe. They're going to take us inside OpenAI's agent stack. All right. Thanks everybody for sticking ...
+key_points:
+  - "is uh our second time doing this I"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 9HZVqxGV55g
+
+- URL: https://www.youtube.com/watch?v=9HZVqxGV55g
+- Retrieved at: 2025-12-30T09:54:20+09:00
+
+## Text
+
+- [00:00] Uh coming up right now we have a
+- [00:02] fireside chat with Olivier from OpenAI
+- [00:04] and our own Carl from Venturebe. They're
+- [00:07] going to take us inside OpenAI's agent
+- [00:09] stack. All right. Thanks everybody for
+- [00:12] sticking with us to the end of the
+- [00:14] conference. Um and everybody who's
+- [00:16] watching now live or uh later. Uh so I'm
+- [00:20] very pleased to have Olivia here. This
+- [00:22] is uh our second time doing this I
+- [00:25] believe. And also um feels like more of
+- [00:27] a maybe third honest I definitely my
+- [00:30] third transform and so we're happy to
+- [00:32] have you again and um you know a lot has
+- [00:35] a lot has changed every year with with
+- [00:36] open AI over the years and so uh let's
+- [00:39] let's start with uh some of the uh
+- [00:41] exciting milestones you guys today just
+- [00:43] were announcing that it's been five year
+- [00:46] API launched and um you know I I think
+- [00:50] there were some statistics that you guys
+- [00:51] put out but I'd love to hear in your
+- [00:52] words you know what what uh milestones
+- [00:55] stand out to you from you know 5 years
+- [00:57] to now. Yeah, it's been it's been five
+- [00:59] years um five years since we launched
+- [01:03] essentially DT3
+- [01:05] easily accessible through the API and
+- [01:07] man like you know the past five years
+- [01:09] has been uh pretty wild. Um the growth
+- [01:12] like in the past year has been pretty
+- [01:14] insane like we track like uh usage
+- [01:17] through um you know a few different
+- [01:18] metrics. Um, we do get like developers
+- [01:21] like you know how many like businesses,
+- [01:22] startup developers like use our models
+- [01:25] and APIs. I think we just reached like a
+- [01:28] million monthly active developers like
+- [01:30] building like applications like on
+- [01:32] OpenAI. Wow, that's great. Yeah, that's
+- [01:35] been pretty insane. We track like as
+- [01:37] well like you know tokens like volume
+- [01:39] like you know how many um tokens like
+- [01:41] words are being generated through the
+- [01:43] API. I think oh man that number is so
+- [01:46] big like we I lost track. I think it's
+- [01:47] something like $600 trillion tokens like
+- [01:50] this year like you know numbers like too
+- [01:53] many zeros essentially for me to even
+- [01:54] like internalize what does that mean?
+- [01:56] Yeah. But yeah, it's been super
+- [01:57] exciting. Uh and you know I think
+- [02:00] another really big story this year has
+- [02:03] been
+- [02:05] losing. Okay, there we go. The another
+- [02:07] big story this year has been the launch
+- [02:09] of the responses API and agents SDK. I
+- [02:11] think we we covered this when it first
+- [02:13] came out. Was that April I believe or uh
+- [02:15] and so you know what what what what was
+- [02:17] the thinking behind launching this? you
+- [02:19] know this is the newest kind of
+- [02:20] development plat you're head of platform
+- [02:23] you know this is the newest and greatest
+- [02:25] latest and greatest that people can use
+- [02:27] to build stuff on your platform why
+- [02:29] launch these things what can they do
+- [02:31] differently and why why launch them now
+- [02:34] yeah that's a that's a good question um
+- [02:37] I think if you zoom out AI use cases are
+- [02:41] moving from simple Q&A chatbot to
+- [02:45] actually use cases where the application
+- [02:48] the agent can do stuff for you. It can
+- [02:50] perform actions. Um, and so we thought
+- [02:53] it was the right time to essentially
+- [02:55] refresh our product offering on the API
+- [02:58] in order to enable that uh transition.
+- [03:00] And so we shipped um back in May, I
+- [03:03] think uh the responses API in the agent
+- [03:05] SDK which are basically meant uh for
+- [03:07] businesses to make it much easier to
+- [03:10] build applications that can call other
+- [03:12] tools that can um reason before they
+- [03:16] respond. And so yeah, we thought it was
+- [03:18] a good like you know milestone with the
+- [03:19] reasoning models to take like a new like
+- [03:22] bolder actionoriented uh approach. Yeah.
+- [03:25] And so those obviously those reasoning
+- [03:27] models set the stage you know now we
+- [03:29] have a number of them 03 04 mini 04 high
+- [03:33] um tell me tell me about you know
+- [03:35] obviously we've seen this whole
+- [03:36] conference we've been talking to people
+- [03:38] with uh interest in using agents in
+- [03:41] interest in having agents uh go off and
+- [03:44] do tasks for them uh in the enterprise.
+- [03:46] So you know from your perspective you
+- [03:48] guys are seeing a lot of developers
+- [03:50] using your platform to do this very
+- [03:52] thing. So when when should an enterprise
+- [03:54] be looking to do like just one agent
+- [03:56] versus like you know maybe trying to do
+- [03:58] multiple a fleet of agents like a sing
+- [04:00] we're talking about like a single agent
+- [04:02] loop. Can you even define that and and
+- [04:04] how that differs from uh you know multi-
+- [04:06] aent system or a sub agent even like
+- [04:08] just give us the lay of the land I guess
+- [04:10] in your opinion. Yeah. Um
+- [04:13] I think like in the limit I expect that
+- [04:17] every consumer, every individual, every
+- [04:20] business will have like its own agent.
+- [04:22] So a single agent which basically has
+- [04:24] you know as much context as it needs as
+- [04:26] access to like many different tools. Um
+- [04:30] so you know a single agent the the
+- [04:33] concrete like challenges that we have at
+- [04:34] the moment the practical challenges is
+- [04:36] that building accurate and reliable
+- [04:39] single agent is hard. like it's really
+- [04:41] hard. Uh and it gets like more and more
+- [04:44] challenging like when you add like a lot
+- [04:45] of context, a lot of tools essentially
+- [04:47] to the agent. And so a practice which
+- [04:49] has emerged in the past couple of years
+- [04:51] is to essentially break down the agents
+- [04:53] into multiple sub agents, right? and um
+- [04:57] allow essentially one agent to have like
+- [05:00] as you know you would do essentially
+- [05:02] separation of concerns like you know in
+- [05:03] software in general uh and to have like
+- [05:05] you know sub agent communicate to each
+- [05:07] other by handing off um like uh tasks
+- [05:10] and so um I think the reality of like
+- [05:13] the the landscape that we see at the
+- [05:15] moment is that we see more and more use
+- [05:16] cases like working with single agent but
+- [05:18] as soon as you want to have like a
+- [05:20] relatively complex workflows with like
+- [05:22] many different scenarios like a lot of
+- [05:24] instructions a lot potential tools um
+- [05:27] that needs to be actioned. it's often uh
+- [05:30] recommended to break it down with like
+- [05:32] multiple sub aent for questions of
+- [05:34] reliability and accuracy and and and in
+- [05:36] those cases uh the sub agents are they
+- [05:40] are they basically responding to and
+- [05:41] taking instructions from
+- [05:44] an orchestrator agent or or who how are
+- [05:46] they all staying organized I guess in in
+- [05:48] in the ideal use cases that you're
+- [05:50] seeing it's like a small team it's like
+- [05:52] a small team like it's it's cute like
+- [05:53] you know they have multiple roles
+- [05:54] essentially like usually you have like a
+- [05:56] triage agent whose only job essentially
+- [05:59] is to sort of classify the intent of the
+- [06:00] query. Give you an example. Um let's say
+- [06:04] we're doing like you know customer
+- [06:05] support automation. You know you're like
+- [06:07] a big like e-commerce brand. You want to
+- [06:09] automate like customer support tickets
+- [06:11] like like the sort of the the spectrum
+- [06:13] like of questions that a customer may
+- [06:15] ask is extremely broad. So first you
+- [06:17] have a triage agent job only like to
+- [06:20] specify like classify the intent and
+- [06:22] then that agent is going to essentially
+- [06:24] hand over to like a tier one agent for
+- [06:26] like simple questions you know. um where
+- [06:29] is my order like you know it's been two
+- [06:30] days it's been delayed sometime you know
+- [06:32] question is simple and so that agent can
+- [06:33] just that tier one agent can take it
+- [06:35] over um if that answer is the question
+- [06:38] is actually complex like you know hey um
+- [06:41] I was expecting a refund it's still not
+- [06:43] here that agent is going to escalate to
+- [06:45] another agent and so
+- [06:48] that's like what we call like a more of
+- [06:50] a sequential essentially um architecture
+- [06:52] for agents and in some cases you have
+- [06:55] indeed like a master agent that
+- [06:56] basically hands over like um request to
+- [06:59] sub agents who then essentially um
+- [07:02] return like the result back to it and
+- [07:04] then answers like the customer. And this
+- [07:06] is all you guys have already published a
+- [07:08] number of documents and um examples even
+- [07:11] and and open sourced frameworks of how
+- [07:14] to use some of these agents even prior
+- [07:16] to this conference this I remember
+- [07:18] writing last week or the week before you
+- [07:20] guys open sourced a customer service
+- [07:22] agent framework and so that's available
+- [07:24] on hugging face but but again you can
+- [07:25] you can go and build these types of
+- [07:27] agents directly in the agents SDK and
+- [07:30] you can use different models right this
+- [07:32] to again this was something that we
+- [07:34] reported on when it first came out But
+- [07:36] you're not restricting people to only
+- [07:37] the open AI model. So they can actually
+- [07:39] build a uh use your frameworks and go
+- [07:41] and build it with a different model and
+- [07:43] use your platform. Yeah, exactly. you
+- [07:44] know in some cases like it will make
+- [07:46] sense like to use other models if you
+- [07:47] have like very specific needs or you
+- [07:49] know you want to have I don't know on
+- [07:51] premise ondevice like model like we
+- [07:54] don't want to constrain you and so we
+- [07:56] open source that agent SDK to as you
+- [07:58] know an orchestration framework to make
+- [07:59] it easy to combine um essentially the
+- [08:02] the best of breed uh models um and we've
+- [08:05] seen like pretty cool adoption uh in the
+- [08:08] past few months um you know companies
+- [08:10] like box um the the cloud uh document uh
+- [08:14] platform
+- [08:15] have been like you know uh pushing quite
+- [08:17] a bit uh knowledge assistance because
+- [08:19] you know we're all like pretty
+- [08:21] overwhelmed by documents and files like
+- [08:23] on daily basis you know uh it's even
+- [08:26] larger you know when you're like in a
+- [08:27] relatively large company and so it's
+- [08:29] clear that you know those agents are
+- [08:30] much I mean excel at um parsing like a
+- [08:34] lot of information and understanding
+- [08:35] exactly what is the most relevant to you
+- [08:38] so box has been really cool another
+- [08:40] example which I like quite a bit is uh
+- [08:41] stripe uh the fintech you used to work
+- [08:44] there. Yes, I used to work there. Uh I
+- [08:46] used to work there, but they have a
+- [08:47] pretty cool um use case here as well. um
+- [08:51] businesses who need to manage like their
+- [08:54] finances, their payments, their incoming
+- [08:56] orders. Like similarly like you know
+- [08:58] there is quite a bit of like noise
+- [08:59] information and models are pretty good
+- [09:01] at um summarizing distilling that
+- [09:04] information and offering you like you
+- [09:06] know one or two like very relevant
+- [09:08] specific actions and and are they those
+- [09:10] those examples are all agent based as
+- [09:12] well using the agents SDK. Yeah,
+- [09:14] exactly. Yeah. Awesome. Okay. And so let
+- [09:16] me talk about a little bit about the
+- [09:18] responses API. Let's transition to that.
+- [09:20] So that's you know the agents SDK allows
+- [09:22] you to build agents on OpenAI's platform
+- [09:25] but you can include any you can build an
+- [09:27] agent powered by totally open source
+- [09:30] models nonopen AI models awesome uh
+- [09:32] capability. Responses API is a little
+- [09:34] bit different. Can you tell us a little
+- [09:36] bit about what the responses API offers
+- [09:38] and specifically with regards to uh
+- [09:40] tracing and evaluation frameworks, you
+- [09:42] know, that that make these agents that
+- [09:44] people are building kind of more
+- [09:46] observable or um uh uh you know, op that
+- [09:49] you can optimize their performance.
+- [09:53] Yeah. So, um it's still very very early
+- [09:58] days like in AI software development.
+- [10:00] Um, and if you step back like the the
+- [10:03] usual like history of software is a a
+- [10:06] history of like layers of abstraction
+- [10:09] like you first have access to like a
+- [10:10] very low level, very technical, very
+- [10:13] abstract um um primitives you know uh
+- [10:17] you started with like
+- [10:20] machine language or I don't know C
+- [10:22] essentially and over time like you know
+- [10:23] the industry has been like building like
+- [10:25] more and more like layers abraction on
+- [10:27] top and so the way I think about the
+- [10:29] response API is like you know It's
+- [10:30] probably the biggest like new layer of
+- [10:32] section that we introduced since pretty
+- [10:35] much like GPT3 API like 5 years ago. So
+- [10:38] until the responsive API the businesses
+- [10:41] developers had essentially to um
+- [10:44] orchestrate like to interact themsel
+- [10:47] with every single model for pass. So
+- [10:50] they had essentially to say hey you know
+- [10:51] I want to build an agent like that agent
+- [10:53] has like five different like you know
+- [10:55] normal interactions. I'm going to
+- [10:56] configure every single one of them. um
+- [10:59] you know in details. Um the responses
+- [11:02] API essentially abstracts that and you
+- [11:05] know it essentially allows like the
+- [11:07] developer to focus more like on the
+- [11:08] intent of the query like hey you know if
+- [11:11] my intent is to um um do a web search
+- [11:14] for instance like you know with an LLM
+- [11:17] like that web search like may use one or
+- [11:20] many like model passes essentially but
+- [11:23] you know as a developer like I don't
+- [11:25] really care about that you know I care
+- [11:27] about essentially like returning like a
+- [11:28] really good response to the customer and
+- [11:30] so the responses API essentially handles
+- [11:33] that um that loop. Um the second thing
+- [11:35] which is really good with resp
+- [11:42] tools um pretty common tools like you
+- [11:44] know the ability to like do web search
+- [11:47] like for fresh data the ability to do
+- [11:49] like knowledge retrieval like on some
+- [11:51] custom files that you would have and a
+- [11:53] few others like you know the ability to
+- [11:54] connect to like MCP servers. So
+- [11:57] essentially what we're doing here is
+- [11:58] that we are making it easier to um build
+- [12:01] um applications that combine models with
+- [12:05] tools. Got it. And so so ideally and and
+- [12:09] I think a number of uh places reported
+- [12:11] on this but ideally somebody would come
+- [12:13] use the agents SDK to build an agent but
+- [12:16] then also use the responses API to to as
+- [12:19] the way that by which that agent can
+- [12:22] call a search call um uh you know like
+- [12:25] you said the document grounding let's
+- [12:27] say from a from a proprietary uh
+- [12:30] enterprises data or documents something
+- [12:32] like this. That's right. That could be
+- [12:33] that could be a a very valid
+- [12:35] architecture. Yeah. and and and and and
+- [12:37] when we talk about like this kind of
+- [12:39] quest that uh enterprises often come to
+- [12:41] us with with observability, of course,
+- [12:43] there's a number of solutions out there,
+- [12:45] there's a number of um third-party
+- [12:47] add-ons that people are are are looking
+- [12:49] to, but you know, do you guys have any
+- [12:52] like tools that are doing, you know,
+- [12:54] either this like policy based refusal,
+- [12:57] SOC2 logging, like this kind of idea of
+- [13:00] like yes, it's awesome to let our agents
+- [13:02] go tackle these tasks, but we also want
+- [13:04] to see some sort of record of how they
+- [13:06] went about this or something like this.
+- [13:08] Yeah, my my uh hot take is that um model
+- [13:12] evaluation is probably the biggest
+- [13:14] bottleneck uh to have like massive AI
+- [13:17] adoption.
+- [13:18] You know I would better models help of
+- [13:21] course like you know they will unlock
+- [13:22] more use cases but when I talk to
+- [13:24] businesses to enterprises like the
+- [13:26] biggest issue they have is not so much
+- [13:27] that the model is too dump or not
+- [13:29] capable enough is that they cannot get
+- [13:31] quite the model to behave like exactly
+- [13:33] like they want like 99.9% of the time
+- [13:36] and so easy to do a demo that behaves
+- [13:38] well like 90% of the time but then like
+- [13:40] you know getting to like two nines three
+- [13:42] nines like much harder and the reality
+- [13:44] is that unless you invest in evaluation
+- [13:47] what we Evals, it's really hard
+- [13:50] essentially to build that trust, that
+- [13:51] confidence that the model is being
+- [13:52] accurate, reliable. And so we've
+- [13:54] invested quite a bit um over the past
+- [13:56] year in what we call like evaluation and
+- [13:58] tracing, which are essentially tools
+- [14:00] like to define like what good looks like
+- [14:03] and then to hill climb essentially to
+- [14:05] tune the model in order to get from you
+- [14:07] know 90 95 99 39s um of reliability. And
+- [14:12] and and are those are those um kind of
+- [14:14] examples or the uh you know guiding the
+- [14:17] model with these like the behaviors that
+- [14:19] you want to see those come from you or
+- [14:22] from the businesses that you're working
+- [14:23] with or a combination of both or who
+- [14:25] who's who's creating those um that
+- [14:28] guidance for the models to follow so
+- [14:30] they can get to that level of of
+- [14:32] accuracy. It usually comes from the
+- [14:34] business but we provide support on how
+- [14:36] do you express essentially well uh what
+- [14:39] good looks like and something which is
+- [14:41] really interesting as well is you know
+- [14:43] we we're talking about customer support
+- [14:45] um the knowledge in an enterprise and
+- [14:48] customer support like hey you know if
+- [14:50] that scenario happens like what exactly
+- [14:51] should I do does not lie with engineers
+- [14:55] right like software engineers like don't
+- [14:57] really know very good point you know
+- [14:59] they lie with like the actual the agents
+- [15:01] like the the operation team like the ops
+- [15:03] essentially teams. Uh and so there's an
+- [15:05] interesting challenge here of you know
+- [15:07] making tools which are going to be
+- [15:09] mostly used by like subject matter
+- [15:10] expert who may not be technical from a
+- [15:13] software engineering point of view. Um
+- [15:15] and so I think whoever like cracks I
+- [15:18] would say that um that challenge will
+- [15:20] probably unlock a lot of enterprise
+- [15:22] adoption. Yeah. Yeah. That's a huge gap
+- [15:24] that uh you know can be crossed and
+- [15:26] obviously these tools help to to start
+- [15:28] to do that. But let let me you know we
+- [15:30] talked a little bit about Stripe and and
+- [15:31] and Box. I mean we talked about customer
+- [15:33] service agents. Are are customer service
+- [15:35] agents the ones that that tend to people
+- [15:37] tend to see the most value from
+- [15:39] initially or or what are some of the
+- [15:40] authentic excuse me a agentic
+- [15:43] automations that tend to you know yield
+- [15:46] value and and that customers uh you know
+- [15:49] enterprises see as uh being worthwhile.
+- [15:52] Yeah it's a good question. Um there are
+- [15:55] quite a few uh customer support comes up
+- [15:57] quite a bit like automating like you
+- [15:59] know customer support request with text
+- [16:01] of course like email and more and more
+- [16:03] by voice. Um voice is being so expensive
+- [16:06] but like for many consumer businesses
+- [16:08] like that's the primary way for people
+- [16:10] to get help essentially. So that's been
+- [16:12] a big one. A second big one has been um
+- [16:16] providing like knowledge assistance for
+- [16:17] like technical knowledge like you're a
+- [16:20] car manufacturer, you are I don't know
+- [16:22] any sort of technical device and you
+- [16:24] have like you know thousands of like
+- [16:25] pages of like technical specs and so you
+- [16:28] know having an agent like allows you to
+- [16:30] digest that information. Um a last use
+- [16:34] case which has been huge and growing
+- [16:35] pretty fast is the whole topic of like
+- [16:37] um automating software engineering. Oh
+- [16:41] yeah, of course. And we've had a number
+- [16:42] of conversations with different people
+- [16:44] who are uh seeking to do that.
+- [16:45] Obviously, you guys just launched Codeex
+- [16:47] and that's a huge uh uh you know tool
+- [16:50] and and um uh ability that that you've
+- [16:53] given to people to do this. So um uh let
+- [16:55] me ask as well um uh you know speaking
+- [16:58] of this like idea between the gap
+- [17:01] between the subject matter experts who
+- [17:03] want an agent to go out take care of
+- [17:04] some work for them and then the
+- [17:05] engineers who have to build this. What
+- [17:07] kind of team do you think the
+- [17:10] enterprises that you've seen be
+- [17:11] successful, what kind of team do they
+- [17:13] have in place to launch agents that uh
+- [17:15] do make it into production and do make a
+- [17:17] change? Is it is it is there a standard
+- [17:20] like setup that people are following
+- [17:23] that that leads to success or is it does
+- [17:25] it vary wide wild wildly depending on
+- [17:27] the you know the sector or the industry?
+- [17:32] If I pattern match
+- [17:34] usually like in enterprises
+- [17:37] there is a small fraction of very high
+- [17:40] agency people who whenever they see a
+- [17:42] problem and when they see a technology
+- [17:44] they run at it like whatever their roles
+- [17:47] or you know their their function like
+- [17:48] they could be engineers they could be
+- [17:50] like you know ops or something else but
+- [17:52] they see like an opportunity and their
+- [17:54] first reaction is like okay how can I
+- [17:55] make it work those are usually the
+- [17:57] people like who push like you know first
+- [17:59] for like chatbt adoption the enterprise
+- [18:01] we start to understand like okay that
+- [18:03] thing can like understand that your
+- [18:04] language can understand English like you
+- [18:06] know where else like could we use
+- [18:07] English um as a programming language um
+- [18:10] and so I haven't found like a good word
+- [18:13] like you know for that sort of that that
+- [18:15] persona it's not like um a specific job
+- [18:17] or like you know function but yeah
+- [18:20] people who connect the dots essentially
+- [18:22] and are relentless like you know like
+- [18:25] first try the thing is not working
+- [18:26] exactly as they expected that's fine
+- [18:28] they'll try over and over again yeah
+- [18:30] yeah that's a great point and That's
+- [18:31] something that we've has come up a lot
+- [18:32] in this conference and even in our
+- [18:34] roundts is like those who tend to see
+- [18:36] success with AI are the ones that spend
+- [18:38] time with it and are willing to let it
+- [18:40] fail and and learn from the failures.
+- [18:42] Exactly. Exactly. I've seen many use
+- [18:44] cases of you know where people like you
+- [18:46] know love JBT then try to automate like
+- [18:48] some stuff with you know like um our
+- [18:50] APIs it's not working. they get stuck
+- [18:52] and their first reaction is like, "Oh my
+- [18:54] gosh, like the technology is not ready
+- [18:55] yet essentially, which is sometime the
+- [18:58] case, you know, but most of the time not
+- [18:59] the case." Like the MOS are pretty
+- [19:01] smart. Like I mean, I don't know,
+- [19:02] they're much smarter than me. Uh any any
+- [19:05] one of us, right? And I think to your
+- [19:07] point, it's like maybe the, you know,
+- [19:09] the approach that people need to take is
+- [19:10] that like AI curious, AI flexible, like
+- [19:13] I need to be able to like try to ask my
+- [19:15] questions in a different way or solve
+- [19:17] this problem still using an AI, but go
+- [19:19] about it a little bit differently, you
+- [19:21] And so I think that's absolutely a
+- [19:22] lesson that uh everyone here can can
+- [19:24] take away. Um so I I do want to I know
+- [19:27] we're right at time here. Um I do want
+- [19:29] to just finish off with any last
+- [19:31] thoughts, anything that to guide people
+- [19:33] in the future. Obviously exciting stuff
+- [19:35] planned. I'm sure we've all heard about
+- [19:37] the open source uh open AI model that's
+- [19:40] in the work. Anything else you want to
+- [19:41] tease up or say for the audience?
+- [19:44] Um,
+- [19:48] I think
+- [19:50] the most underhyped
+- [19:53] thing at the moment is probably still
+- [19:55] reasoning models. I think we are still
+- [19:58] scratching the surface on what reasoning
+- [20:00] models can do. So reasoning models are
+- [20:01] 0103 models that can think before they
+- [20:04] respond. You know, just like a human
+- [20:06] being, type two thinking, if you will.
+- [20:08] Um I still have conviction that we are
+- [20:11] pretty much at the DT2 or DPT3 level of
+- [20:14] maturity of those models and once we
+- [20:16] have models you can think like you know
+- [20:18] not only for a few seconds but for
+- [20:19] minutes for hours you give it like you
+- [20:22] know a task like you know late at night
+- [20:24] you come back in the morning the thing
+- [20:26] is like solve like you know incredibly
+- [20:27] hard problem like you know um explore
+- [20:30] like the web like twice like three times
+- [20:33] like I think that's going to enable some
+- [20:34] pretty mind-blowing use cases and and
+- [20:36] already you can try a preview of this
+- [20:38] with 03 Pro, right? I mean, that one
+- [20:40] thinks for a while, so already there's
+- [20:43] Yeah, there's some uh opportunity to get
+- [20:45] a taste of that. Well, thank you again
+- [20:46] for this. I know we're uh we're already
+- [20:48] past time. It's It's yelling at me to
+- [20:50] please wrap up. So, thank you so much.
+- [20:51] We could keep doing this forever, but uh
+- [20:53] thank you. All right. Thank you.

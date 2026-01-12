@@ -1,0 +1,750 @@
+---
+title: "YouTube Video: 47G1aEaNOKU"
+video_id: "47G1aEaNOKU"
+video_url: "https://www.youtube.com/watch?v=47G1aEaNOKU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Let's learn as simple as possible how we take our workflows from OpenAI agent builder and actually leverage the chat kit feature which allows us to take these workflows and put it to a live website. S...
+key_points:
+  - "this. So, the first one is the value,"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 47G1aEaNOKU
+
+- URL: https://www.youtube.com/watch?v=47G1aEaNOKU
+- Retrieved at: 2025-12-30T09:33:32+09:00
+
+## Text
+
+- [00:00] Let's learn as simple as possible how we
+- [00:01] take our workflows from OpenAI agent
+- [00:03] builder and actually leverage the chat
+- [00:05] kit feature which allows us to take
+- [00:07] these workflows and put it to a live
+- [00:09] website. So that workflow you just saw
+- [00:11] works perfectly now. And I'm going to
+- [00:12] show you step by step how to do this as
+- [00:14] simple as possible as if you've never
+- [00:16] developed in your entire life. And look
+- [00:18] at that. It's already going. Welcome
+- [00:19] back y'all. This is another video in our
+- [00:21] longgoing series here where I'm showing
+- [00:22] you how to actually use this agent
+- [00:24] builder here. Make sure to check out the
+- [00:25] playlist below if you want more context
+- [00:27] how we even got to this point. But this
+- [00:29] lesson specifically, we're checking out
+- [00:31] everything we love about Chatkit. And
+- [00:32] I'm going to break it down fundamentally
+- [00:34] what ChatKit even is and the different
+- [00:36] little puzzle pieces we need to
+- [00:38] interconnect to actually leverage this.
+- [00:41] Whether this is going to be in a
+- [00:42] website, web app, or alternatively your
+- [00:44] software. And if you're brand new to
+- [00:46] this series on this playlist, we built
+- [00:47] out a YouTube bot where essentially we
+- [00:49] can put in any YouTube link and get
+- [00:51] information out of it. Now, this
+- [00:52] specific video was me developing on the
+- [00:54] back of a motorcycle in Changangu, Bali.
+- [00:56] This is no joke, y'all. We got our nice
+- [00:58] little widget here. Nice little
+- [00:59] thumbnail, nice little title. To see
+- [01:00] that video, just check out my channel
+- [01:01] here and watch me quite literally code
+- [01:03] an app on the back of a motorcycle. I
+- [01:04] went ahead and put on this nice little
+- [01:06] whiteboard here the relevant puzzle
+- [01:07] pieces that we need to care about to do
+- [01:09] this. So, the first one is the value,
+- [01:10] right? So, the OpenAI agent workflow.
+- [01:12] Chances are, if you're clicking on this
+- [01:14] video, you've already set this up. Now,
+- [01:15] you're like, Corbin, how the heck do I
+- [01:17] actually use this? So, we're good here.
+- [01:18] We've done videos on this. MCP, Zapier,
+- [01:20] everything we love. This gets to the
+- [01:22] next one. So, I have a React app here,
+- [01:24] but in reality, we're just going to use
+- [01:26] any type of app. The steps and workflows
+- [01:28] you're going to see here can work with
+- [01:30] any type of app. So, whatever your tech
+- [01:31] stack is, your next question might be,
+- [01:32] Corbin, what is React? What is a tech
+- [01:34] stack? Well, one just asked Chad GBT
+- [01:36] what it is. Essentially, it's the
+- [01:37] different frameworks we use when
+- [01:38] building out our application or
+- [01:40] software. It's like the puzzle pieces.
+- [01:42] So, for example, if you like making a
+- [01:43] chocolate cake, that's your chocolate
+- [01:45] cake. If you like making a vanilla cake,
+- [01:46] that's your vanilla cake. The
+- [01:47] ingredients are different, but in the
+- [01:49] end, it's both cake. If that didn't make
+- [01:51] that much sense, don't worry. it'll make
+- [01:52] more sense later on this tutorial. So,
+- [01:54] in addition to the app, we're going to
+- [01:55] connect it to GitHub here. The reason we
+- [01:57] use GitHub is a ton of different
+- [01:58] reasons, but this is what's going to
+- [01:59] integrate really nicely with other
+- [02:01] softwares that are going to be needed
+- [02:03] for this to work effectively. Nice
+- [02:04] little bonus point about GitHub here is
+- [02:06] that in this tutorial, I'm going to open
+- [02:08] source the repository you see me use so
+- [02:10] you can use it for free and you're going
+- [02:12] to know how to basically you can take my
+- [02:14] code. You can download my code for free.
+- [02:15] So, make sure to leave a like right off
+- [02:16] the bat. After we do that, once we set
+- [02:18] this up together, the last thing is
+- [02:19] going to be the product or deployment.
+- [02:21] So, I'm going to use Verscell in today's
+- [02:23] video just so it could be fast. But in
+- [02:25] reality, this doesn't have to be
+- [02:26] Verscell, this could be Firebase, this
+- [02:28] could be AWS, this could be whatever
+- [02:30] your cloud provider is because
+- [02:32] essentially what we need to do for these
+- [02:33] open AI agents to even work is we need
+- [02:36] to provide a valid.com or a valid
+- [02:38] website link. So, it doesn't necessarily
+- [02:40] have to be.com, but just a valid website
+- [02:42] link for this to work. And this will
+- [02:43] make more sense. And to be honest with
+- [02:44] you all, some of you might have gotten
+- [02:46] to the point where you have created the
+- [02:47] app or software in local host and it's
+- [02:49] like not working and you're confused.
+- [02:51] Well, don't worry. This is going to be
+- [02:52] the major unlock you're looking for. So,
+- [02:54] let's go and do this. We have our
+- [02:55] workflow. What is the next step? The
+- [02:57] next step here is going to be the
+- [02:59] chatkit openai documentation. I'm going
+- [03:01] to leave this in the description down
+- [03:02] below so you can follow step by step if
+- [03:05] needed cuz some of you all like Corbin,
+- [03:06] I just want to read it. I'm going leave
+- [03:07] it in the description down below. You
+- [03:08] can check it out. What this
+- [03:09] documentation provides is a starter app.
+- [03:11] So, I'm going to click this. You in
+- [03:13] theory could either use the starter app
+- [03:14] from OpenAI or you could use my
+- [03:16] specialized version of this starter app,
+- [03:18] which both will be in the description
+- [03:20] down below. Regardless, don't make it
+- [03:21] difficult. This is the repository. What
+- [03:23] a repository is is just basically where
+- [03:25] we store all of our code. And when you
+- [03:26] say store all of your code, it's quite
+- [03:27] literally just in folders. Think of it
+- [03:29] like dragging a PDF into a folder. Well,
+- [03:31] guess what? This is just a code file.
+- [03:32] Next, go to whatever IDE you like,
+- [03:35] integrated development environment. For
+- [03:37] me, I'm going to be using Cursor today.
+- [03:38] What we'll do from here is we're going
+- [03:40] to simply clone this repo. What you can
+- [03:42] do is that when I provide the repository
+- [03:44] we're creating together in today's video
+- [03:46] is you can simply clone my repo. So
+- [03:48] don't worry about it. That'll be a very
+- [03:50] obvious link like hey clone my app or
+- [03:52] something like that for your chat UI.
+- [03:54] What I'm going to do here is simply
+- [03:55] click this. I'm going do SSH and I'm
+- [03:57] going to copy. You may need to do HTTPS
+- [03:59] if you haven't set up SSH. And then your
+- [04:02] next question might be well Corbin what
+- [04:03] the heck is SSH? What the heck are you
+- [04:05] doing right now? You should check out my
+- [04:06] other series on this channel. That
+- [04:08] specific series shows you how to build
+- [04:09] out a software from complete scratch.
+- [04:11] I'll literally just title it like how to
+- [04:13] build a software playlist. Yash 3 hours
+- [04:15] long, but the episode you're looking for
+- [04:17] is episode two here of how to get your
+- [04:18] app ready for development, which goes
+- [04:20] over the implications of what GitHub is
+- [04:22] and how to connect GitHub. This is just
+- [04:23] fundamental stuff you need to learn and
+- [04:25] know for now. Assuming that you already
+- [04:27] have a connection to your local
+- [04:28] computer, I'm going to copy this and I'm
+- [04:30] going to simply clone repo and paste
+- [04:32] this URL. Once you do that, it wants to
+- [04:34] put the code somewhere. So, I'm going to
+- [04:35] hit new folder here. I'm going call it
+- [04:36] agent kit. Create. And I'm going to say
+- [04:38] select repository destination. It's
+- [04:40] going to quite literally download the
+- [04:42] code. Open a new window. Once we do
+- [04:43] that, we now have our nice little
+- [04:45] starter app. Now, the reason I'm doing
+- [04:46] this, and you're going to be downloading
+- [04:48] my code here from my starter app, is
+- [04:50] because get this to work in a nice
+- [04:52] little vanilla environment like this, so
+- [04:54] that when you take the steps and logic
+- [04:56] you're about to see right now to your
+- [04:57] real software or web app, or whatever
+- [04:58] you're creating, you at least have a
+- [05:00] working product that you can reference.
+- [05:02] I would not suggest you take the working
+- [05:04] software or web app that you currently
+- [05:06] have and trying to integrate checkit
+- [05:08] right away. Just get it working on a
+- [05:10] separate project. Once you get it
+- [05:11] working on a separate project, apply it.
+- [05:13] Okay, cool. So, what we're going to do
+- [05:14] here is very, very simple. Essentially,
+- [05:16] we have a couple files that we need to
+- [05:17] care about. The example, this is where
+- [05:20] we're going to put our OpenAI API key
+- [05:22] and then the chat kit workflow ID.
+- [05:24] OpenAI API key is pretty
+- [05:25] self-explanatory. To get your API key,
+- [05:27] simply come into the dev portal, go to
+- [05:28] API keys. Then you're going to go to the
+- [05:30] top right and hit create new secret key.
+- [05:32] Once you do that, simply name the key.
+- [05:33] I'm going to call mine burner because
+- [05:35] I'm deleting it. I'm going to say all
+- [05:37] create secret key. Once you create your
+- [05:38] secret key, it should start with sk.
+- [05:40] Copy it. Go ahead. Try to steal this
+- [05:42] key. I'm deleting it. Then we're simply
+- [05:43] going to come over here and paste. First
+- [05:45] step is done. Nice. Next, we need our
+- [05:47] workflow ID. How do we find that? Go to
+- [05:50] the relevant workflow that you want to
+- [05:52] integrate. So for me, it's going to be
+- [05:53] YouTube chatbot video. I'm going to come
+- [05:54] up here to code. Very important step
+- [05:57] before I dive to this is make sure to
+- [05:58] deploy it and have a published version.
+- [06:00] If you try to do this and it's not
+- [06:01] deployed, you won't have the ability to
+- [06:03] hit code. So there's going to be two
+- [06:04] things you notice here. One is going to
+- [06:05] be the workflow ID. So this is going to
+- [06:07] be the actual specific actions that you
+- [06:09] set up. So for us, it was getting that
+- [06:10] YouTube video, asking a question, and
+- [06:12] then having the widget show up in the UI
+- [06:14] UI user interface, essentially the front
+- [06:16] end. The next very important thing that
+- [06:18] is probably causing a lot of your errors
+- [06:20] and why you clicked on this video is
+- [06:21] allowing domains. And how do we do this?
+- [06:23] There's two things that is fundamentally
+- [06:25] frustrating about this part. The first
+- [06:26] thing that's frustrating about this
+- [06:27] part, if you're familiar with
+- [06:28] development workflow, you're familiar
+- [06:30] with local host. And if you're not,
+- [06:31] don't worry. We're going to get into
+- [06:32] that pretty soon here. You can't add a
+- [06:34] local host URL here. It just won't work.
+- [06:36] You're still going to get errors. So,
+- [06:37] I'm going to show you how to get around
+- [06:38] that. Second thing, when you add the URL
+- [06:41] here, this option is going to disappear
+- [06:43] for all workflows. This is annoying
+- [06:45] because if you want to provide a
+- [06:46] different link, how do we do it, Corbin?
+- [06:48] Well, I went ahead and took the extra 10
+- [06:49] minutes just to find exactly where it's
+- [06:51] found in the settings. So, I'll show you
+- [06:52] how to add additional URLs once you add
+- [06:54] your initial URL. Lastly, what does this
+- [06:57] even mean? Why are we even adding a URL?
+- [06:59] Like, is Chad GBT like I just want to
+- [07:00] check out your website? No, no, no, no.
+- [07:02] This is for security reasons. This is so
+- [07:04] that when we provide this code, OpenAI
+- [07:06] servers is identifying, hey,
+- [07:08] w.corbin.com.
+- [07:10] This is a viable area where we can allow
+- [07:12] them to use this underlying users API
+- [07:15] key and workflow. If they didn't put
+- [07:17] this kind of security feature here, this
+- [07:18] would mean that anyone could use your
+- [07:20] workflow without the allowed domain. So,
+- [07:22] it's annoying, but it's a necessary step
+- [07:24] in software development. This nuance
+- [07:26] understanding this at a deeper level,
+- [07:28] which is fundamentally important. Check
+- [07:29] out that how to build software playlist
+- [07:31] description down below. First, let's
+- [07:32] just get our workflow ID here. So, we're
+- [07:34] going to copy this. We're going to paste
+- [07:36] it here. Nice. Next, we need the allowed
+- [07:38] domain. But first off, we need a domain.
+- [07:40] So, we're going to do that. In order to
+- [07:42] do the domain here, I'm just going to do
+- [07:43] a cursor chat to make this simple for
+- [07:45] everyone so you don't just see me doing
+- [07:46] a bunch of commands. You get lost and no
+- [07:48] one has fun. We're going to make it so
+- [07:49] we can just completely have AI set this
+- [07:51] up for us. In today's video, we're going
+- [07:52] to set it up with Versell. And
+- [07:54] essentially what Verscell allows us to
+- [07:55] do is get a really fast and easy domain
+- [07:57] link that anyone can access and
+- [07:59] therefore Chad GBT and OpenAI can
+- [08:01] access. In theory, if you were going to
+- [08:04] actually deploy to a real web app or
+- [08:06] software or whatever your backend
+- [08:07] infrastructure is, maybe you already
+- [08:08] have a domain that's available, so
+- [08:10] you're all good. But alternatively, if
+- [08:12] you haven't set that up yet, I would
+- [08:13] encourage Firebase, which parlays to
+- [08:16] that series again, which I show you how
+- [08:17] to set up Firebase. Regardless, here we
+- [08:20] go. So, I'm going to go ahead and turn
+- [08:21] on browser mode here, and I'm going to
+- [08:22] say, okay, here is the chatkit UI
+- [08:24] documentation semicolon. Go to the
+- [08:27] description down below. Grab the
+- [08:28] relevant link here, and I'm going paste
+- [08:30] it. Once you do that, we're going to
+- [08:31] say, set it up so we can deploy to
+- [08:34] Versell. And that's all I need to do. If
+- [08:36] you're following step by step along with
+- [08:38] me right now, some tests might feel a
+- [08:39] little skipped over because you may not
+- [08:42] have a Verscell account yet. So
+- [08:43] therefore, just create a Verscell
+- [08:45] account. Not that big of a deal. It's
+- [08:46] free. Free to deploy. If you already
+- [08:48] have a live website link and you're like
+- [08:50] Corbin, I don't need this part. Just
+- [08:51] skip back here and just add your domain.
+- [08:53] This is for everyone that just really
+- [08:54] wants to test this out and have a fast
+- [08:55] deployment method that is free. Set it
+- [08:57] up so we can deploy to Verscell. Call
+- [08:58] the app agent kit. Amazing. Enter. And
+- [09:01] we're going to let this proceed here.
+- [09:02] What it's going to do is simply go to
+- [09:04] that relevant API documentation to get
+- [09:06] context on chatkit and how to integrate
+- [09:08] it into the front end. In addition,
+- [09:09] what's incurring here is that it's going
+- [09:11] to create a connection between our local
+- [09:12] computer and versel. And in addition
+- [09:15] here, we'll create a connection to
+- [09:16] GitHub, which is another fancy way of me
+- [09:19] essentially saying that this local code
+- [09:20] found on our computer is going to be now
+- [09:22] in the cloud. What I mean by that is
+- [09:24] when I say local code, if your computer
+- [09:27] was going to burn in a fire, all your
+- [09:29] code's lost. then give it like a
+- [09:31] Microsoft Word doc. If you didn't have
+- [09:33] that in the cloud, that would mean that
+- [09:35] that computer that has that Microsoft
+- [09:36] Word doc, if your computer was
+- [09:38] destroyed, it would be deleted as well.
+- [09:40] I'm going to hit accept here for the get
+- [09:42] ignore confirm edits here. I'm assuming
+- [09:44] that it's going to be heading the env
+- [09:46] file here, which it should be pretty
+- [09:48] soon here. It might be renaming this
+- [09:49] too. Okay, so I'm going have to rename
+- [09:51] this as well. If you don't know what a
+- [09:52] get ignore is, this is going to be the
+- [09:54] files that are ignored when we push to
+- [09:55] GitHub here pretty soon. So, first off,
+- [09:57] I'm going to say keep all here. The next
+- [09:58] thing I'm going to do is I'm going to
+- [10:00] add, you know what? We need to add this
+- [10:03] as well. Although it might already do
+- [10:04] that with the asterisk, but just to be
+- [10:06] safe. You don't understand what I'm
+- [10:07] doing. Don't worry. It'll make sense
+- [10:09] pretty soon. Here, the app is fully
+- [10:10] configured and ready to deploy to
+- [10:12] Verscell. The check integration is
+- [10:13] already set up and will work once you
+- [10:15] provide the required environment
+- [10:17] variables. Now, you might be asking
+- [10:18] yourself, what is an environment
+- [10:19] variable? That is what we set up here.
+- [10:21] This is an environment variable. This is
+- [10:23] an environment variable. Why is it that
+- [10:25] for some reason, Corbin, when I try to
+- [10:27] deploy stuff, it always freaks out when
+- [10:29] I have these kind of high-risk
+- [10:30] variables? And why does it want it to
+- [10:32] set it up as an environment variable?
+- [10:34] Well, that's due to the fact that the
+- [10:35] way this actually reads it in the code
+- [10:37] is env.openAI API key. If I come up here
+- [10:40] to find it, go like this right here. You
+- [10:43] will notice it will render with this
+- [10:45] right here. That is why anytime you use
+- [10:47] AI in coding, it is always encouraged
+- [10:49] never to put the hard fixed text of your
+- [10:52] keys so that it isn't public facing when
+- [10:54] you deploy to the cloud. This is a long
+- [10:55] way of me saying that once this is a
+- [10:57] live website link, if you were to put
+- [10:58] this hard text into your code file,
+- [11:01] someone could essentially grab your key
+- [11:03] from the source code. Don't like that.
+- [11:05] Now, before we do this, we're going to
+- [11:06] actually connect this to GitHub. So,
+- [11:08] what I'm going to do here so you can
+- [11:09] watch and follow along. So, maybe you
+- [11:10] want to create your own little starter
+- [11:11] app repository once you download my
+- [11:13] code. Just come up here to repo and come
+- [11:15] over here to new and we're going to call
+- [11:16] it a repository name easy OpenAI check
+- [11:18] it app and then essentially I'll just
+- [11:20] grab the same description here.
+- [11:22] Description is not necessary just for
+- [11:23] how we identify it. And we're going to
+- [11:24] hit create repository. From here I'm
+- [11:26] simply going to do it the SSH method as
+- [11:28] I notated. Check out the playlist if you
+- [11:29] want to set up that way. But the SSH
+- [11:31] method even means is that I don't have
+- [11:33] to go through those annoying errors when
+- [11:35] you're dealing with code in AI where it
+- [11:36] says, "Hey, you don't have access to
+- [11:37] GitHub. Hey, you don't have access to
+- [11:39] this." No, no, no. the SSH key is on
+- [11:41] your computer, which means I can speak
+- [11:42] to the cloud in GitHub and never have an
+- [11:44] error. Basically, just download the code
+- [11:45] and connect your account. From here, I'm
+- [11:46] going to say, okay, connect this
+- [11:48] repository. Repository is another way of
+- [11:50] me saying all this code to this GitHub
+- [11:52] repo. Repo is a shorthand of how to say
+- [11:54] repository. If you've never coded before
+- [11:56] and you're watching this tutorial and
+- [11:58] it's either confusing or extremely
+- [11:59] frustrating, please take a note that
+- [12:02] what you're seeing right now is complex
+- [12:04] work. This isn't supposed to be like me
+- [12:07] just creating pottery and I just want to
+- [12:09] create a ball. This is software
+- [12:10] development. So a lot of this stuff is
+- [12:12] built off layers and layers of
+- [12:15] foundational knowledge. If you want
+- [12:17] encouragement of how do you approach
+- [12:19] this and not get frustrated, I would
+- [12:21] highly encourage you watch my videos on
+- [12:23] GitHub. GitHub is the missing puzzle
+- [12:25] piece that you probably need to learn
+- [12:26] more about so all this becomes extremely
+- [12:29] easy. I preface my videos a lot like
+- [12:30] that because trust me y'all in the
+- [12:32] comments a lot of people get frustrated.
+- [12:33] So, I'm really trying to help y'all, you
+- [12:35] know, start at the bare bones here, you
+- [12:36] know. So, once I do that, if I come over
+- [12:38] here and reload, we should see a
+- [12:39] repository connected. And there we go.
+- [12:41] With that push, you can see it right
+- [12:43] here. Now, one thing I want to note and
+- [12:44] why you probably want to download my
+- [12:46] repository comparative to OpenAI's is
+- [12:48] there's little things that their
+- [12:50] repository doesn't take into account.
+- [12:52] For example, the example, we want to
+- [12:54] call that.local.
+- [12:56] And that's because of the fact that
+- [12:57] you're going to get a bunch of errors
+- [12:58] that are extremely frustrating.
+- [13:00] essentially saying that we can't push
+- [13:01] this because secrets are exposed. You
+- [13:03] just got to name it correctly. So, I
+- [13:04] named it correctly for y'all. But to be
+- [13:06] clear, when you actually download my
+- [13:08] repository, this file won't show up. And
+- [13:09] the reason it won't show up is because
+- [13:11] of the fact that we're ignoring it in
+- [13:12] the git ignore. Therefore, in order to
+- [13:14] create it, rightclick new file. Simply
+- [13:16] do.local
+- [13:18] and you'll be good to go. So, now that
+- [13:20] we've created a repository and we've
+- [13:22] connected into the cloud, everything
+- [13:23] from here and out, I don't have to worry
+- [13:25] cuz I can always roll back to the safe
+- [13:27] checkpoint. So, what I'm going to do is
+- [13:28] this. We're going to say okay deploy app
+- [13:30] to versel. And what we're doing here is
+- [13:32] we're grabbing that relevant link that
+- [13:34] we need for the workflow. So once it
+- [13:36] pushes to versel prerequisite, you need
+- [13:38] a versell account free. You're going to
+- [13:40] simply go to where it creates. So I'm
+- [13:41] going click this. In addition, what's
+- [13:43] nice about using cursor AI here is that
+- [13:45] it will install the relevant
+- [13:46] dependencies for even to do Versell
+- [13:48] commands. On top of that, if you don't
+- [13:49] use cursor AI, you can use any chatbot
+- [13:52] for this. So that's just a caveat for
+- [13:53] this entire tutorial. You don't even
+- [13:54] need to use a chatbot within the IDE.
+- [13:56] You can use chat gbt cursor. You could
+- [13:58] use Claude, you could use Gemini,
+- [14:00] whatever it may be. Follow the same
+- [14:01] steps, follow the same lines. Over here,
+- [14:03] what you'll notice is that we have a
+- [14:04] successful deployment. What we need to
+- [14:06] add is our environment variables here.
+- [14:08] So, I'm going to go to settings. In
+- [14:09] settings, go to the tab that says
+- [14:10] environment variables. So, what you'll
+- [14:12] notice is that sometimes it'll say no
+- [14:13] environment variables added.
+- [14:15] Alternatively, sometimes the IDE is
+- [14:17] smart enough to push them for you, but
+- [14:18] in today's example, it wasn't. So, we're
+- [14:20] going to add them. In order to add them,
+- [14:21] I'm going to use OpenAI API key how it's
+- [14:23] named here. So, I'm going to copy that.
+- [14:24] You also notice is that essentially
+- [14:26] we're just grabbing them how they're
+- [14:27] named here as well in your env.local.
+- [14:30] I'm going to paste it here and then the
+- [14:31] value will be our API key which we've
+- [14:33] already identified here. So I'm going to
+- [14:34] copy this. I will paste add another and
+- [14:37] this will be the workflow ID. Copy this.
+- [14:39] Paste. The naming is fundamentally
+- [14:41] extremely important. If you do not name
+- [14:44] open AI API key exactly how it's named
+- [14:46] here here it's all going to break. So
+- [14:48] keep that in mind. So I'm going to go
+- [14:49] and copy this workflow ID here. Paste.
+- [14:51] Save. One thing I want to make sure is
+- [14:53] that I'm going to hit edit here and I'm
+- [14:55] going to do all environments. I could go
+- [14:56] on an absolute tangent right now about
+- [14:58] what is preview, what is production,
+- [15:00] what is development. We'll save that for
+- [15:01] another video or I encourage you again
+- [15:03] to check out that three-hour playlist
+- [15:04] showing you how to build a software from
+- [15:06] scratch to have the implications of what
+- [15:08] that even means. For now, let's just get
+- [15:10] this working. So, we're going to say all
+- [15:11] environments for this and all
+- [15:12] environments for this. What you'll
+- [15:14] notice is that when you update an
+- [15:16] environment variable, we're going to
+- [15:17] have to redeploy. So, I'm going redeploy
+- [15:19] here. Redeploy. The next thing we're
+- [15:21] going to do while it's deploying, and
+- [15:22] what deploying means essentially is that
+- [15:24] when all the code's good to go, it looks
+- [15:26] amazing. Deploying it is taking it to
+- [15:28] the actual live website link that anyone
+- [15:30] can access that fresh new code. So, for
+- [15:32] example, you have a landing page that
+- [15:34] just says apples on your local computer.
+- [15:36] You haven't deployed it yet. Therefore,
+- [15:37] if you go to that same landing page on
+- [15:38] the internet, it doesn't say apples yet.
+- [15:40] When you hit deploy, then apples will
+- [15:42] reflect in the live website link. So,
+- [15:44] while this is doing this, our live
+- [15:46] website link is this. OpenAI check it
+- [15:48] starter kit app for sale.app. Nice. I'm
+- [15:50] going to copy the link up here. So, go
+- [15:52] ahead and copy the link. I know this
+- [15:53] says an error. We're going to fix it.
+- [15:54] We're going to go to agent builder.
+- [15:56] We're going to say add domain. We're
+- [15:57] going to paste this domain. Generate
+- [15:59] key. Copy this key. Next, in your chat,
+- [16:02] this is what we're going to say. We're
+- [16:03] going to put the prompt. This is the
+- [16:04] domain key. Then, we're going to give
+- [16:05] the link. The link is up here again. So,
+- [16:07] same exact link. Paste. Deploy relevant
+- [16:09] information to Versell. Hit enter. So,
+- [16:12] while we let that generate, one thing
+- [16:13] that is extremely frustrating about the
+- [16:15] workflow is that if you hit code again
+- [16:17] and you're like, Corbin, I want to add
+- [16:18] another domain, this option disappears.
+- [16:20] So, let me show you how you find it. In
+- [16:22] order to find it, come up here to
+- [16:23] settings. You are then going to come
+- [16:24] down to security and then right here and
+- [16:26] then hit add domain. Follow the same
+- [16:28] steps. I don't know why this is hidden.
+- [16:29] I don't know why they don't give the
+- [16:30] option in the workflow again, but now
+- [16:32] you know how to add extra domains if
+- [16:34] necessary for whatever your workflow is.
+- [16:36] So, add domain and boom. So, with that
+- [16:38] done, I can keep reloading here. It's
+- [16:40] going to load the assistant. It should
+- [16:41] be working, but we'll find out pretty
+- [16:43] soon here. Let me show you some real
+- [16:44] quick debugging tips. First thing,
+- [16:46] notice because we're working in the
+- [16:48] front end. If you get errors or like you
+- [16:50] try to load this and you're like Corbin,
+- [16:51] like this is just cooked. Rightclick,
+- [16:54] inspect, come over here, hit console,
+- [16:56] and this is where relevant logs could
+- [16:58] show of like air blah blah blah blah
+- [17:00] blah. This is where you would copy those
+- [17:02] errors and paste it in your AI chat
+- [17:04] essentially to get the information that
+- [17:05] you would need. Now, to be clear, that
+- [17:07] is how you get access to console logs in
+- [17:10] Google Chrome. To get accessing console
+- [17:12] logs in all your other browsers, I would
+- [17:14] encourage you just to ask a chatbot,
+- [17:15] hey, how do I get console logs in
+- [17:17] Safari? Because Safari is definitely
+- [17:18] different comparative to Google Chrome
+- [17:20] when it comes to getting console logs.
+- [17:22] What a console log is, if you're
+- [17:23] wondering, console logs are ways for us
+- [17:25] to have the code communicate to us in
+- [17:28] just regular English. So essentially, if
+- [17:30] an error occurs, it'll be able to print
+- [17:32] it out and give us the ability to see
+- [17:33] that, hey, this isn't loading because of
+- [17:35] XYZ reason. To be honest with you, we've
+- [17:37] gotten to the point now with AI where
+- [17:38] you don't even need even know the reason
+- [17:39] or need even care. Simply just copy it,
+- [17:42] put it in AI chat, and it will know
+- [17:43] instantly what to do to fix your issue.
+- [17:45] But y'all, I think we've successfully
+- [17:47] created an embedded chat kit UI. Let's
+- [17:49] find out. So, I'm going to go ahead and
+- [17:51] say, give me the best part from this
+- [17:52] video, YouTube link. As you remember
+- [17:54] earlier in this series, you can check
+- [17:55] out that playlist. We created a YouTube
+- [17:57] bot. Therefore, we can ask anything we
+- [17:59] would ever want from a YouTube video.
+- [18:01] Provide the link and our entire workflow
+- [18:03] gets going. We get a custom response
+- [18:06] based off the data found in that video
+- [18:07] of what's the best part of that video.
+- [18:09] And then on top of that, we've created a
+- [18:10] custom widget together in an earlier
+- [18:12] video. I'm saying video a lot. Video
+- [18:14] video. But we created a custom widget
+- [18:15] that makes the underlying thumbnail, the
+- [18:18] title, and the duration reflect in a
+- [18:20] user interface that looks very pretty.
+- [18:22] So, let's see if this works. The end
+- [18:24] product here should be that same Changu
+- [18:26] Bali video where I develop an app on the
+- [18:27] back of a motorcycle. And when you look
+- [18:29] at that, the bot actually went the extra
+- [18:31] 10 yards here and gave us the exact
+- [18:33] moment on time stamp. And essentially
+- [18:34] the moment is the app finally renders at
+- [18:36] Fins and he celebrates. We've
+- [18:38] successfully created a 3D motorcycle
+- [18:39] game in Bali on a motorcycle. Okay,
+- [18:42] funny enough, I spoiled it for y'all,
+- [18:43] but that is really cool. And boom, it
+- [18:45] even popped up with the thumbnail, the
+- [18:48] title, and duration. I like it. Now,
+- [18:50] before you click off, let me show you
+- [18:51] the last couple things here that could
+- [18:52] be very useful in your journey and
+- [18:54] trying to build this. First one being
+- [18:55] check out the school community here.
+- [18:57] Completely free to join description down
+- [18:58] below. It's literally the one titled
+- [19:00] join free community. If you run into
+- [19:01] errors here, you need questions, throw
+- [19:03] it up here. This is essentially just a
+- [19:05] Reddit forum where I centralize a lot of
+- [19:07] my teachings over the past two and a
+- [19:09] half years. People ask questions, I
+- [19:10] answer, other people in the community
+- [19:12] answer. Super cool. Another series I
+- [19:14] wanted to shout out as well is my series
+- [19:16] on not necessarily building out a
+- [19:18] software, but building out a website and
+- [19:20] the implications of how to build out a
+- [19:22] website when it comes to security, good
+- [19:24] user interface, and best practices. So,
+- [19:26] I'll leave this in the description down
+- [19:27] below. Something along the lines of
+- [19:29] let's just build a website and the
+- [19:31] playlist. For anyone curious on the
+- [19:33] website we built in that series, it's
+- [19:34] this one right here. And you can find it
+- [19:35] at buildersconlock.com.
+- [19:37] And then for anyone curious on the
+- [19:38] software playlist, the software we
+- [19:40] created, it is tubestamp.com.
+- [19:42] Essentially, you provide a YouTube link
+- [19:43] here. You can choose the language and
+- [19:45] generate timestamps for any video found.
+- [19:47] That just about does it. We've
+- [19:49] successfully integrated Chatkit UI into
+- [19:51] your web app or software. Make sure to
+- [19:52] stay tuned and make sure you subscribe
+- [19:54] on this channel as I'm going to do more
+- [19:56] videos on Agent Builder. Specifically,
+- [19:57] I'm going to look at making a video that
+- [19:58] is going to be file search, PDFs, image
+- [20:01] analysis, automations. In addition,
+- [20:03] there's a bunch of other cool stuff I do
+- [20:05] on this channel here. One really [music]
+- [20:06] cool thing that maybe only some of you
+- [20:08] will care about is I am creating
+- [20:09] Minecraft from complete scratch. zero
+- [20:11] lines of code to straight up Minecraft.
+- [20:13] And I'm live streaming the entire thing.
+- [20:15] Right now, it's day three, so I don't
+- [20:17] know by the time you watch this video
+- [20:18] what day we're going to be on, but every
+- [20:19] single day, YouTube, Twitch, X, check me
+- [20:22] out. But as you already know with these
+- [20:23] style videos, I'll see you in the next
+- [20:25] Wow, you actually found an OpenAI agent
+- [20:27] builder video that actually shows you
+- [20:28] how to use it outside of the builder
+- [20:30] video. Nice.

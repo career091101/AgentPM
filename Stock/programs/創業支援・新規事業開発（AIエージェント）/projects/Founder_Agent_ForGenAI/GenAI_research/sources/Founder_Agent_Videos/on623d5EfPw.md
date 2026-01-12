@@ -1,0 +1,661 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=on623d5EfPw"
+video_id: "on623d5EfPw"
+video_url: "https://www.youtube.com/watch?v=on623d5EfPw"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "entrepreneurship", "marketing", "startup", "AI", "growth"]
+topics: ["成長戦略", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=on623d5EfPw
+  - Retrieved at: 2025-12-30T16:18:29+09:00
+  - [00:00] hello world it's siraj and I built an
+key_points:
+  - "- [01:42] can be switched using the real API keys"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: on623d5EfPw
+
+- URL: https://www.youtube.com/watch?v=on623d5EfPw
+- Retrieved at: 2025-12-30T16:18:29+09:00
+
+## Text
+
+- [00:00] hello world it's siraj and I built an
+- [00:02] app called tax saver that uses gpt3 to
+- [00:05] save you money on taxes let me show you
+- [00:07] a demo right now the first step is for
+- [00:10] us to log into this app and once we log
+- [00:12] into this app you can build this app too
+- [00:14] by the way that's the point of this
+- [00:15] video do it once we log into this app
+- [00:18] it's going to sign us in using Firebase
+- [00:21] which is a database in the web I'll tell
+- [00:23] you all about it and then it's going to
+- [00:24] tell us how many tax breaks that it's
+- [00:26] going to find in our transaction history
+- [00:28] how is it going to know what tax breaks
+- [00:31] it can find in our transaction history
+- [00:32] well we use a service called plaid that
+- [00:35] connects to almost any bank account in
+- [00:37] the world and crypto coming up later in
+- [00:39] a different video and we're going to
+- [00:41] connect to a specific bank account and
+- [00:43] I'm going to use dummy credentials to
+- [00:45] log into this Chase bank account which
+- [00:48] plaid allows us to do and it's going to
+- [00:51] log in there's my balance and it's going
+- [00:53] to connect to that bank account and once
+- [00:56] it's connected it's going to be
+- [00:57] successful and then I can see a report
+- [00:59] using using chat GPT or sorry gpt3 of
+- [01:03] all of the categories of tax deductible
+- [01:06] savings that I could have and the way it
+- [01:09] does this is it uses the document
+- [01:10] classification API to read in all the
+- [01:13] Json of all the transaction history that
+- [01:15] we're pulling from your bank account and
+- [01:17] then it uses GPT to summarize that and
+- [01:20] then complete the text saying here are
+- [01:22] the categories of transactions and then
+- [01:24] needs to match that up with known tax
+- [01:27] deductible categories for whatever type
+- [01:29] of business you have now that's a lot
+- [01:31] but in this video I want to show you how
+- [01:33] I made this app and I want to have you
+- [01:35] do it too okay so this app is a test app
+- [01:39] so it uses test data dummy data but it
+- [01:42] can be switched using the real API keys
+- [01:44] for real data and that's up to you but I
+- [01:46] want to get you started and that's the
+- [01:48] point of this video I built this in like
+- [01:50] three days and you can too I'm not a
+- [01:52] flutter expert but that's the first part
+- [01:54] of this so what are the steps in this
+- [01:56] tutorial first we're going to design the
+- [01:57] app with chat GPT our co-founder then
+- [02:00] we're going to set up our landing page
+- [02:01] and then we're gonna build this MVP
+- [02:03] together first step let's go to chat GPT
+- [02:06] I've already asked it how do I build
+- [02:08] this app chatgpt is really good at
+- [02:11] telling us how to build an app so we say
+- [02:13] we want a flutter app and we want to
+- [02:15] pull transaction data from played and we
+- [02:17] want to use open ai's gpt3 somehow and
+- [02:21] give us five steps on how to do this and
+- [02:23] it does that it's like set up your
+- [02:25] flutter project integrate plaid
+- [02:26] integrate Firebase use gpd3 and then
+- [02:29] determine tax deductibility by training
+- [02:32] a model on a data set of tax deductible
+- [02:34] transactions and that's a you know a
+- [02:37] fine tuning layer that we can do later
+- [02:39] on as a user we're just going to
+- [02:41] interface with one single mobile
+- [02:43] application and that's flutter and
+- [02:45] flutter is an a way to build both IOS
+- [02:48] and Android apps with one code base very
+- [02:51] cool stuff made by Google and it uses a
+- [02:54] programming language called Dart that I
+- [02:55] am not an expert in but I love
+- [02:57] programming in and you can too okay so a
+- [02:59] user or go to their flutter app and they
+- [03:02] that's called tax saver and what the
+- [03:04] flutter app is going to do is it's going
+- [03:06] to say login user and it's or sign up
+- [03:08] user and it's going to use Firebase to
+- [03:10] do that Firebase is a Google cloud
+- [03:12] service that runs on top of Google gcp
+- [03:14] and it allows you to have a database
+- [03:17] user login user sign up all in one and
+- [03:19] analytics we're going to use Firebase
+- [03:20] for our database and once a user logs in
+- [03:23] with Firebase then it's going to ask
+- [03:25] them for their transaction history and
+- [03:27] plaid is the way to do that plaid is a
+- [03:29] service that connects to many bank
+- [03:31] accounts across the world and then
+- [03:33] securely pulls any type of data that you
+- [03:35] need and they're that third-party
+- [03:37] authorization escrow-like service that
+- [03:40] trusted third party for us once we have
+- [03:42] that transaction history then we're
+- [03:43] going to use that as a parameter as we
+- [03:45] post that request to the openai API and
+- [03:48] it's going to return back to us all the
+- [03:50] strings of what the categories of those
+- [03:53] transactions are and then we can cross
+- [03:54] check those against a tax deductible
+- [03:56] database and then from those generate a
+- [03:59] report for the user that says hey here
+- [04:02] are your transactions here are the ones
+- [04:03] that are likely tax deductible and you
+- [04:05] could save up to you know two thousand
+- [04:07] dollars if you were to deduct these on
+- [04:09] your next 1099 or whatever form you have
+- [04:12] in whatever country okay so that's the
+- [04:14] idea of the app and how do I know that
+- [04:16] this thing even works well there's
+- [04:18] already an app that does this it's
+- [04:20] called keeper they use gpt3 to do this
+- [04:22] very similar app this is probably
+- [04:25] dedicated towards a B2B company but we
+- [04:27] can do this for you know students or we
+- [04:29] can do this for you know different types
+- [04:31] of people so that's that and so once we
+- [04:34] know what we want to build a tax saving
+- [04:36] app using gpt3 we're going to generate
+- [04:39] our Landing pledge in one click using
+- [04:41] durable durable lets us do this in one
+- [04:43] click we're going to do that together
+- [04:44] it's going to ask us what our location
+- [04:46] is and then some initial data and it's
+- [04:48] going to generate a type of business for
+- [04:51] us in one single click what's the name
+- [04:53] of our business tax saver and once we're
+- [04:56] done with that it's going to pick a
+- [04:57] color palette and a bunch of text is
+- [04:59] going to be generate it from that and we
+- [05:01] have our one-click landing page from our
+- [05:04] one-click landing page we can collect
+- [05:05] signups and then we can share that with
+- [05:07] our friends on social media or our
+- [05:09] WhatsApp Group whatever we have people
+- [05:10] who like us and want to try out our app
+- [05:12] and that's a way to get initial users so
+- [05:15] there's our One Click app very cool and
+- [05:17] by the way if you want a big directory
+- [05:20] of every single AI tool ever here it is
+- [05:23] link is going to be in the video
+- [05:24] description for you it's called
+- [05:25] futurepedia I love it for marketing for
+- [05:28] copy everything in fact I found durable
+- [05:30] on this website so imagine what else you
+- [05:32] could find if you go to this website I'm
+- [05:34] always hitting you with the good links
+- [05:35] that's what I'm here for and since you
+- [05:37] made it to the end no wrap yet alright
+- [05:39] so let's get to step one of our app
+- [05:41] building a flutter application I'm going
+- [05:44] to do this with you together
+- [05:48] so flutter has a really great
+- [05:50] installation page and we just need to go
+- [05:52] through steps one through three
+- [05:54] and depending on your operating system
+- [05:56] there's going to be a different type of
+- [05:57] installation I'm going to go with Mac
+- [05:59] because I'm MAC but it's very similar
+- [06:00] depending on what operating system you
+- [06:02] have the first step for us is to
+- [06:04] download the SDK I'm going to download
+- [06:06] an SDK it's going to be a pre-built
+- [06:08] binary likely whatever uh version of
+- [06:10] software you're on once it's downloaded
+- [06:12] we can unzip it to the same directory
+- [06:14] and then we're going to add that flutter
+- [06:16] tool to our path variable
+- [06:22] okay so now we've exported now we're
+- [06:25] ready to use the flutter commands let's
+- [06:26] see if we have that flutter
+- [06:28] okay so now we're able to use the
+- [06:30] flutter commands great first step so now
+- [06:32] we're here and now we're going to run
+- [06:33] flutter doctor what flutterdoctor does
+- [06:35] is it allows us to check our system if
+- [06:37] we have all the dependencies necessary
+- [06:39] to run flutter the dependencies
+- [06:41] necessary to run flutter are two
+- [06:43] different operating system environments
+- [06:44] or sorry Ides the first one is IOS and
+- [06:48] the second one is Android Studio so you
+- [06:50] need xcode that's to build on iOS and
+- [06:53] the next one is Android Studio to build
+- [06:54] for Android apps go to both of these
+- [06:56] Android Studio go to xcode and download
+- [06:59] those and you need those in order to
+- [07:01] develop with flutter and then Chrome you
+- [07:03] don't necessarily need Chrome we just
+- [07:05] want to develop for IOS and Android
+- [07:07] that's it so that's all you need and
+- [07:09] right now I have both of those apps on
+- [07:11] my system so flutter doctors like you're
+- [07:13] good to go you can move on to the next
+- [07:15] step the next step is to set up an
+- [07:17] editor
+- [07:18] and my editor of choice now is vs code
+- [07:20] and I choose vs code because vs code is
+- [07:24] amazing it has GitHub copilot integrated
+- [07:26] in it so I have a lot of you know
+- [07:29] different
+- [07:30] uh suggestions that are given to me from
+- [07:32] it I love it so here's vs code
+- [07:36] and we need to install flutter and the
+- [07:37] dart plugins so I'm going to go to view
+- [07:39] command palette and then once there I
+- [07:42] can go to
+- [07:45] install
+- [07:48] extensions
+- [07:50] and then Dart Dart is a plug-in so I've
+- [07:53] already downloaded it here but we just
+- [07:55] click on that and that downloads it
+- [07:57] okay so then we go for a test drive
+- [07:59] let's let's create a brand new flutter
+- [08:01] application together just to see if it
+- [08:03] all works so we're going to go to view
+- [08:06] command palette
+- [08:08] flutter new project
+- [08:11] select application hit enter and then a
+- [08:14] main.dark file is going to appear
+- [08:16] and then we can run the app by locating
+- [08:18] in the status bar what's the simulator
+- [08:20] version
+- [08:22] and then it's going to run there so
+- [08:24] we're going to go to view
+- [08:27] command palette
+- [08:29] flutter new project application
+- [08:34] I'm going to put this in a new directory
+- [08:39] um new folder demo okay I'm going to put
+- [08:42] it in there flutter application one
+- [08:45] okay it's going to create that
+- [08:47] application boom here's our main.dart
+- [08:49] file empty empty template right here for
+- [08:51] us to use so now if we want to run it we
+- [08:55] can hit F5 to start running it
+- [08:59] or
+- [09:00] we can
+- [09:03] open up the terminal from here
+- [09:10] um make sure flutter's in our path
+- [09:18] so we're going to hit flutter run and
+- [09:20] flutter run is going to run this
+- [09:22] application on the simulator that we
+- [09:24] specified I chose an iOS simulator but
+- [09:27] we could choose an Android simulator if
+- [09:29] we wanted to and underneath the hood
+- [09:31] this dark programming language is being
+- [09:33] compiled down to Native Swift code on
+- [09:36] iOS and Native Java code for Android
+- [09:39] very cool stuff flutter has come a long
+- [09:41] way and we can see we got our first
+- [09:43] flutter app running it's responsive we
+- [09:45] can hit the button and there's an event
+- [09:46] listener that says every time you hit
+- [09:48] the button this text field is going to
+- [09:50] update and the way it updates is by this
+- [09:53] dollar sign
+- [09:55] flag in this counter variable and it's
+- [09:58] activated whenever a widget is gestured
+- [10:01] it's very cool stuff we can learn all
+- [10:04] about flutter here write your first app
+- [10:05] but we don't have time for that we want
+- [10:07] to get right to building tax saver so we
+- [10:09] know how flutter Works kinda now and now
+- [10:11] let's go to the next step and the next
+- [10:13] step for this is going to be to download
+- [10:15] a login template for flutter
+- [10:20] flutter login right here flutter login
+- [10:22] and here's what it does
+- [10:25] it's got this nice animation it's got a
+- [10:27] sign up for an email and believe me this
+- [10:30] stuff takes time to build I tried I
+- [10:32] didn't have time so we're just going to
+- [10:33] start off with this and then we're going
+- [10:34] to integrate everything else
+- [10:36] so let's go here and we're going to
+- [10:37] download this as a starting point now
+- [10:39] remember we have all the flutter Tools
+- [10:41] in our operating system now so we don't
+- [10:43] have to do anything much I'm going to
+- [10:45] show you how to run any flutter app you
+- [10:46] find very easily so we've downloaded it
+- [10:49] right here
+- [10:50] and it's going to be a zip file from
+- [10:52] GitHub GitHub is where we download code
+- [10:54] from all code almost everything
+- [10:58] okay we've opened it in vs code
+- [11:01] we're in the example directory
+- [11:10] we're going to run flutter Pub get to
+- [11:12] download all of our dependencies for
+- [11:14] this application and then we're going to
+- [11:16] run flutter run that's it
+- [11:18] download our app
+- [11:20] get our dependencies and then flutter
+- [11:22] run to run the app flutter Pub get to
+- [11:24] download dependencies flutter run to run
+- [11:27] the application it's running it right
+- [11:28] now let's see what it looks like okay so
+- [11:31] we have our demo app here we can you
+- [11:33] know look at it and see
+- [11:35] what we want to do here what's it called
+- [11:37] it's called you are trying to explain on
+- [11:40] example.com
+- [11:44] on the dashboard screen so now we're on
+- [11:46] the dashboard screen let's look at the
+- [11:48] dashboard screen right here so uh uh
+- [11:52] it's got this e-corp image
+- [11:54] which we don't really need that so we're
+- [11:57] just gonna remove that
+- [12:00] let's first add ourselves as a user to
+- [12:03] this app so we're going to say here's
+- [12:04] our username hello at sirajavall.com
+- [12:09] and then I'll just name some random
+- [12:11] password one two three four five
+- [12:14] and that's going to go in users.dart
+- [12:17] then we'll go back to this screen we'll
+- [12:19] reload it with the R button that's all
+- [12:21] we have to do hot reload very fast go
+- [12:23] back to the simulator and then we'll
+- [12:24] type in that credential
+- [12:34] and it worked
+- [12:36] okay so now we have this default screen
+- [12:38] and what we want to do is we want to see
+- [12:40] where some of these buttons are so
+- [12:43] there's a fun transfer button so just
+- [12:44] real quick so in flutter there are
+- [12:46] widgets and widgets are defined as uh
+- [12:50] screen elements on-screen UI elements
+- [12:52] and there's so many different types of
+- [12:53] widgets in flutter right we have these
+- [12:55] are the two basic class files from which
+- [12:58] almost everything in flutter is built
+- [13:00] off of foundation and materials there's
+- [13:02] also widgets and there's different types
+- [13:04] of widgets there are table widgets
+- [13:05] there's this widgets there's too much to
+- [13:06] explain so let's just get right to
+- [13:08] building the type of widget that we need
+- [13:10] which is a plaid integration whenever we
+- [13:13] go to Plaid integration what we want to
+- [13:15] do is we want to create an event
+- [13:16] listener that whenever this button is
+- [13:19] clicked we integrate plaid there are
+- [13:21] bank accounts all across the world that
+- [13:22] we might want to connect to to get users
+- [13:24] transaction history or to charge them as
+- [13:26] well we don't necessarily need to use
+- [13:28] stripe we can just use plaid um get you
+- [13:31] know a little fee whenever we pull from
+- [13:33] their transaction history and then
+- [13:34] generate an AI tax deductible report for
+- [13:36] them right even if we charge them like a
+- [13:39] hundred dollars a month but we save them
+- [13:40] a thousand a month that would make it
+- [13:42] worth it right so we can decide how to
+- [13:44] do that later but right now let's go to
+- [13:46] the quick start and we can see that
+- [13:48] there's some key Concepts that we need
+- [13:49] here just like every other service we
+- [13:51] have an API key and a secret that and
+- [13:53] that's our access to this app and so
+- [13:55] what you have to do is you have to sign
+- [13:57] up for plaid and once you sign up for
+- [13:59] plaid
+- [14:00] it's going to give you API keys and we
+- [14:02] can use these API keys to integrate into
+- [14:04] flutter but the best thing about flutter
+- [14:06] is we don't have to integrate plaid in
+- [14:08] some you know weird way we can integrate
+- [14:10] it using a tool called a flutter package
+- [14:13] node has npm okay that's a package
+- [14:16] manager node package manager flutter has
+- [14:18] Pub and this is the directory of all
+- [14:21] flutter packages so let's just see if
+- [14:22] there's a plaid package here so let's
+- [14:24] just plaid
+- [14:25] and you know there is a plaid package
+- [14:29] right there plaid flutter native perfect
+- [14:31] so what we're going to do is we're going
+- [14:33] to install this plaque and the way to do
+- [14:35] that is to just add this to our
+- [14:37] pubspec.yaml file plaid flutter and then
+- [14:40] we'll run flutter Pub get and it'll
+- [14:42] download that and integrate it so let's
+- [14:44] do that let's go to our Visual Studio
+- [14:46] code
+- [14:47] we'll go to our pubspec.eml under
+- [14:50] dependencies we're going to type plaid
+- [14:52] flutter in and then we're going to
+- [14:57] hit reload
+- [15:01] flutter Pub get
+- [15:05] okay so now we have plaid flutter
+- [15:07] integrated into our repository and to
+- [15:10] use it
+- [15:12] we're going to go to an example uh
+- [15:15] here's a beautiful example for us so
+- [15:17] it's saying that it's going to create a
+- [15:19] bunch of event listeners and it's going
+- [15:21] to say like create this plaid link
+- [15:23] object and once you have link which is a
+- [15:26] pre-built interface to access all you
+- [15:28] know at the beginning you saw that plaid
+- [15:30] that's link link is a pre-built
+- [15:32] interface to access plaid it's kind of
+- [15:34] like it looks like it's inside of your
+- [15:35] app but it's actually off your app it's
+- [15:37] on their server but it looks really nice
+- [15:39] and you don't have to do anything to
+- [15:42] integrate that so other than just enter
+- [15:44] the code to integrated you don't have to
+- [15:45] design it or customize it or have to
+- [15:47] deal with all the Privacy security
+- [15:48] issues that they do that's what they do
+- [15:50] that's how they make money so we want to
+- [15:53] create a token that's going to allow us
+- [15:55] to access the plot API so here's how we
+- [15:58] do that we're just going to copy this
+- [15:59] and paste it into our app
+- [16:07] thank you
+- [16:17] we're also going to add the single line
+- [16:19] to the top plaid flutter just to make
+- [16:21] sure that it's receiving this so once we
+- [16:23] go to that button that we talked about
+- [16:24] earlier the plaid button we can insert a
+- [16:27] gesture detector into there that's going
+- [16:29] to detect whenever it's tapped so that's
+- [16:31] how we get that event listener and once
+- [16:33] it's tapped that button right there once
+- [16:35] it's tapped it's going to launch a plaid
+- [16:38] link and plaid link is that interface I
+- [16:40] talked to you about it's going to launch
+- [16:42] it using a token that we generate a
+- [16:44] Sandbox token I actually generated it
+- [16:46] from a command line right here
+- [16:50] but you can generate it different ways
+- [16:52] I'm going to get that token
+- [16:54] and then I'm going to paste it in here
+- [16:55] and then it's going to connect to Plaid
+- [16:58] perfect and it's going to connect to
+- [17:00] Plaid via this test account because it's
+- [17:03] on a sandbox mode but later on we can
+- [17:05] change it so it's going to connect to
+- [17:07] real Bank data and it's going to return
+- [17:09] that as a Json file that we then have to
+- [17:12] use gpt3 to parse so now that we have
+- [17:14] plaid integrated in this test framework
+- [17:16] let's integrate gpt3
+- [17:19] so if we go to pub.dev we can see and
+- [17:21] search GPT we can see that there's so
+- [17:23] many gpt3 apis there's even this one
+- [17:27] that was just made three days ago by
+- [17:29] this crazy mofo
+- [17:31] um for chat GPT which I'm pretty sure
+- [17:32] there's still not a public API so that's
+- [17:34] it might be illegal but you know kudos
+- [17:36] to you for being a very very ballsy good
+- [17:39] job let's go to the legal ones which are
+- [17:42] here
+- [17:43] sounds like exactly what we need so
+- [17:46] there are three steps here we just have
+- [17:48] to add this to our dependencies import
+- [17:49] the dark code and boom create that gpt3
+- [17:52] object from there we can pull all those
+- [17:55] requests as a synchronous await
+- [17:57] functions in Dart very similar to
+- [17:59] promises in JavaScript and once uh it's
+- [18:02] got our API key it's going to pull back
+- [18:04] um the response that GPT gives us so
+- [18:07] which of the GPT apis do we want to use
+- [18:10] what we want to do is we want to use the
+- [18:13] text completion API to start and what
+- [18:15] our prompt is going to be is the
+- [18:17] document of all of that Json uh
+- [18:20] transaction history with the you know
+- [18:23] Uber ride and then the amount and then
+- [18:24] you know Airbnb and then the amount and
+- [18:26] whatever expenses in the amount and we
+- [18:28] want to categorize all those expenses
+- [18:30] into Transportation into travel into
+- [18:34] utilities home office expenses things
+- [18:36] that are tax deductible but it's not
+- [18:39] going to know that they're tax
+- [18:40] deductible it's just going to know how
+- [18:41] to categorize them and there's a lot of
+- [18:43] trans actions right so that's the point
+- [18:45] of gpt3 then later on we can cross
+- [18:47] reference against a tax database so
+- [18:49] we're going to use the completion API to
+- [18:51] do this we can see the post requests
+- [18:52] here it's going to need
+- [18:54] the key and then the prompt the tokens
+- [18:57] the temperature we're going to set the
+- [18:58] tokens to you know 20 so we get back a
+- [19:01] lot
+- [19:02] so let's go back to flutter and
+- [19:04] integrate that
+- [19:05] make sure that we have an API key you
+- [19:07] know by signing up then we're going to
+- [19:09] go to the gpt3 API for flutter we're
+- [19:11] going to install those dependencies by
+- [19:13] adding them to the pub spec dot
+- [19:15] pubspec.yaml file is right going to be
+- [19:18] here and that's going to be there we
+- [19:20] have our dependencies there
+- [19:24] okay and then we're going to add that to
+- [19:26] the top of our dark code
+- [19:34] okay it's there and then we're going to
+- [19:36] use the API by getting our key
+- [19:43] and this is what I got so far so the
+- [19:45] first thing I'm going to do is I'm just
+- [19:46] going to connect the API ask it what are
+- [19:48] the top spending categories that usually
+- [19:49] get tax refunds then I'm going to modify
+- [19:52] this so instead of giving me just a
+- [19:56] single response back it's going to give
+- [19:58] me those categories and then I have to
+- [20:01] add them to user interface which I
+- [20:04] showed you earlier which looks like that
+- [20:06] so it's gonna it's gonna take those
+- [20:08] categories it's going to put those on
+- [20:09] the screen as many as there are and it's
+- [20:11] going to show all of my savings like
+- [20:13] uber Airbnb uh you know supplies as a
+- [20:17] freelancer or home office worker all
+- [20:19] those things are tax deductible in the
+- [20:21] United States and this is dependent on
+- [20:23] whichever country you are in India
+- [20:24] Brazil Germany um you know all these
+- [20:26] countries I know you're out there too I
+- [20:28] know that not everybody has access to
+- [20:30] Plaid or to stripe and I know that
+- [20:32] crypto is the way to get everybody on
+- [20:34] board and I will continue to do more
+- [20:35] tutorials like this that gets everybody
+- [20:37] paid all right so
+- [20:39] thank you
+- [20:42] that's the gpt3 and there's one more
+- [20:44] thing I want to show you which is
+- [20:46] Firebase right so we logged in with our
+- [20:47] user but it was on a text file we want
+- [20:49] to put on an actual database right so
+- [20:51] let's go to Firebase and Firebase is how
+- [20:53] we do that Firebase was essentially made
+- [20:55] for flutter both of them are by Google
+- [20:57] so they really work together very well
+- [21:00] and what we can do on Firebase is we can
+- [21:02] create a database for our users let's
+- [21:03] create a new project this project is
+- [21:05] going to be called tax saver and once I
+- [21:08] have my project it's going to create
+- [21:10] that with an analytics account for us
+- [21:12] and it's going to create that once we
+- [21:14] have our account it's going to give us
+- [21:15] an API where whenever we are a new user
+- [21:19] and we have a username password whatever
+- [21:20] we send that as a request to Firebase or
+- [21:23] as a post request to Firebase Firebase
+- [21:25] will create that user in their mySQL
+- [21:27] database for us and then return a
+- [21:29] response saying hey this is
+- [21:30] authenticated so we don't have to do
+- [21:32] that locally and most importantly
+- [21:33] there's no text file that we're using
+- [21:35] for this stuff users can have their
+- [21:37] project be secure
+- [21:39] so we created our app on Firebase and
+- [21:42] it's like well what platform do you want
+- [21:43] to use well we want to use flutter so
+- [21:45] it's like install the SDK we've done all
+- [21:47] that installed and run flutter fire
+- [21:49] let's do that in our terminal so we're
+- [21:51] going to flutter fire so we're going to
+- [21:53] run flutter fire and then we've done
+- [21:55] that and now we're going to run that
+- [21:58] command and that's going to
+- [22:00] automatically integrate our app
+- [22:05] with all of Firebase uh projects that we
+- [22:08] have any Firebase code that we need it's
+- [22:10] just gonna automatically it's gonna say
+- [22:12] what platform should we go for I'm like
+- [22:14] just do them all Android iOS web
+- [22:16] everything
+- [22:17] and once it has registered as a Firebase
+- [22:20] application we have successfully
+- [22:22] integrated Firebase into our application
+- [22:24] there's still more to do
+- [22:26] um this is going to take a while
+- [22:31] and after all of that we import two of
+- [22:34] these files fireworks core and Firebase
+- [22:36] options and then we can initialize our
+- [22:38] app and then from there we can use uh
+- [22:40] the SDK to sign up users Etc
+- [22:43] so let's go back to visual studio
+- [22:49] boom now we have our Firebase app IDs
+- [22:51] for all platforms that we want to deploy
+- [22:53] to it's connected our app is right here
+- [22:55] and the code is going to be in the video
+- [22:58] description go check it out what are the
+- [23:00] next steps here well we want data
+- [23:02] persistence do we want to store this
+- [23:03] transaction on the device on the cloud
+- [23:05] with Firebase or not at all right now
+- [23:07] they're on the device but we integrated
+- [23:09] Firebase so they could be integrated in
+- [23:10] the cloud we might want to generate a
+- [23:12] 1099 or some other fully baked tax
+- [23:15] report or something for the user instead
+- [23:18] of just giving them a table View and all
+- [23:19] that comes down to a better user
+- [23:21] interface now there are other things I
+- [23:23] didn't talk about that much in this
+- [23:24] video like marketing strategies Etc and
+- [23:26] how to grow I will do that next week I
+- [23:28] am doing this every week I'm just
+- [23:29] building apps putting them out there for
+- [23:31] you guys to use and build and make money
+- [23:33] wherever you are in the world I think
+- [23:34] that's the most impactful thing I can do
+- [23:36] for you guys and I'm having the time of
+- [23:38] my life doing it thanks for being here
+- [23:40] and since you made it to the end I'm
+- [23:41] gonna wrap I'm trying to code and
+- [23:43] flutter baby it's so much like butter
+- [23:45] I'm not trying to stutter I'm kind of
+- [23:47] trying to try to mutter with my GP three
+- [23:50] three prompt edit tour yeah anyway
+- [23:53] thanks for coming and happy learning
+- [23:55] [Music]

@@ -1,0 +1,750 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=ni8Xl0ANx0E"
+video_id: "ni8Xl0ANx0E"
+video_url: "https://www.youtube.com/watch?v=ni8Xl0ANx0E"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=ni8Xl0ANx0E
+  - Retrieved at: 2025-12-30T16:16:14+09:00
+  - [00:00] Recently, I have been obsessed with
+key_points:
+  - "- [00:10] more importantly, repeatable ways to"
+  - "- [00:35] assistants to build AI agents should be"
+  - "- [02:14] us generate the context. That's the key."
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: ni8Xl0ANx0E
+
+- URL: https://www.youtube.com/watch?v=ni8Xl0ANx0E
+- Retrieved at: 2025-12-30T16:16:14+09:00
+
+## Text
+
+- [00:00] Recently, I have been obsessed with
+- [00:02] context engineering. I'll be the first
+- [00:04] one to admit it. But it's for a good
+- [00:06] reason. I've been pouring my heart and
+- [00:07] soul into developing reliable and even
+- [00:10] more importantly, repeatable ways to
+- [00:12] give super robust context to LLM so we
+- [00:16] can build anything. And what I want to
+- [00:18] show you right now is what I've been
+- [00:20] cooking up in the lab recently, working
+- [00:22] on context engineering, but for building
+- [00:25] AI agents in just minutes using
+- [00:27] paidantic AI. And as a part of this
+- [00:30] video, we'll even go through and use
+- [00:31] this template to build an AI agent
+- [00:33] together. Now, using AI coding
+- [00:35] assistants to build AI agents should be
+- [00:38] pretty straightforward. I mean, there's
+- [00:39] a very standard way to define our
+- [00:41] prompts and our tools and our
+- [00:42] dependencies. But if you've ever tried
+- [00:44] it yourself, you know, it is not that
+- [00:46] simple. We can't just go into our
+- [00:48] windsurf or our cursor or our kirao or
+- [00:53] our cloud code or the millions of other
+- [00:55] tools that we have right now for coding
+- [00:56] and just say something like build me an
+- [00:58] AI agent for customer support. I mean
+- [01:01] you just know that this is not going to
+- [01:03] cut it. I mean, you might get something
+- [01:05] with this, but it's going to be more of
+- [01:06] a demo that definitely breaks with real
+- [01:08] users and real data, and you're probably
+- [01:10] going to get stuck in the hell that
+- [01:12] we've all had with AI coding assistants
+- [01:14] at some point where we have just this
+- [01:15] infinite loop of iterating on a few
+- [01:18] problems. But the problem here is not
+- [01:19] your AI coding assistant or LLM. It's
+- [01:22] the context that you are providing. We
+- [01:24] can't just vibe code and skip right to
+- [01:26] implementation. We need an entire
+- [01:29] planning phase up front to sharpen our
+- [01:31] axe and give the context necessary for
+- [01:34] the AI coding assistant to have what it
+- [01:36] takes to plausibly oneshot the solution
+- [01:39] effectively. And that is what context
+- [01:41] engineering aims to solve and the
+- [01:43] strategy that I've been focusing on a
+- [01:45] lot recently is using Arasmus' PRP
+- [01:47] framework that I've been talking about a
+- [01:49] lot on my channel recently. And so I
+- [01:50] have this template available for you
+- [01:52] that I've covered on my channel and now
+- [01:54] I have a specific version of it that is
+- [01:57] hypertuned for building AI agents with
+- [01:59] podantic AI. This is the focus of this
+- [02:02] video here and it's going to be fun. Now
+- [02:04] the PRP framework is just one way to
+- [02:06] context engineer, but it is my favorite
+- [02:08] by far and it's so straightforward
+- [02:10] because we are using the AI coding
+- [02:12] assistant in very strategic ways to help
+- [02:14] us generate the context. That's the key.
+- [02:17] And so going back to the root of the
+- [02:18] repo here. It's just a three-step
+- [02:20] process that we have to follow with the
+- [02:22] PRP framework at a high level. So first
+- [02:24] you have to edit a file to describe in
+- [02:26] detail the application or in our case
+- [02:28] the agent that we want to create and
+- [02:30] then we take this initial MD and we use
+- [02:33] the AI coding assistant to help us
+- [02:35] expand that into a full what is called
+- [02:38] product requirements prompt. It's like a
+- [02:40] PRD if you're familiar with that, but
+- [02:43] more specifically crafted to be a prompt
+- [02:45] with extensive context to help the AI
+- [02:48] coding assistant then build out our
+- [02:50] feature when we execute the PRP. So very
+- [02:53] simple three-step process. And the main
+- [02:56] thing that we do here, if I go into the
+- [02:57] PRP folder, we have this template for a
+- [03:00] base PRP. So we essentially take this
+- [03:03] combine it with our own feature
+- [03:05] requirements in our initial MD and this
+- [03:08] creates the full set of context that we
+- [03:10] need that includes things like
+- [03:11] documentation to reference the code
+- [03:13] structure that we want at the end any
+- [03:15] gotchas that we have best practices and
+- [03:18] patterns for developing whatever we're
+- [03:20] trying to develop. It's a very complete
+- [03:22] set of context. And so the best part
+- [03:26] with this is I can take this base PRP. I
+- [03:30] can take the other parts that we have
+- [03:31] here like our commands to generate and
+- [03:35] execute PRPS and I can hyper tune these
+- [03:38] to specific use cases. And that is
+- [03:41] exactly what I've done here for Pantic
+- [03:43] AI for you to be able to create AI
+- [03:45] agents super easily. So, I'm just trying
+- [03:46] to set the stage here and show you what
+- [03:48] went into creating this because I spent
+- [03:50] hours and hours pulling in my old Pantic
+- [03:53] AI projects, doing research and finding
+- [03:55] best practices, and then essentially
+- [03:57] creating a PRP to create this template
+- [04:00] for you. So, I used AI coding assistants
+- [04:02] to help me build this as well. And so,
+- [04:04] like for example, we have a base PRP,
+- [04:07] but now hyper tuned to Pyantic AI. So, I
+- [04:09] have like best practices and examples
+- [04:11] and patterns built in for Pyantic AI
+- [04:13] specifically. So now when you go through
+- [04:15] that three-step process of describing
+- [04:17] your agent and then generating the PRP
+- [04:19] and executing it, it has all this
+- [04:21] information for Padantic AI already
+- [04:23] built into it. And this reduces
+- [04:24] hallucination so so much. And I'm going
+- [04:28] to keep doing this for other use cases
+- [04:30] as well. Like I have this folder here. I
+- [04:32] showed MCP servers in my last video. I'm
+- [04:34] going to keep building more and more
+- [04:36] just creating these super beautiful
+- [04:38] starting points for you. So, you have to
+- [04:40] spend hours and hours less context
+- [04:42] engineering because I've already done it
+- [04:44] for you. Like, I can take these
+- [04:46] templates, give them to you, and you can
+- [04:48] basically just like dive right into
+- [04:50] creating your agent in just a couple of
+- [04:52] minutes. It's that easy. And that's what
+- [04:53] we're going to be doing in this video.
+- [04:55] I'll show you how it works. And we'll
+- [04:56] build an AI agent together that's not
+- [04:58] actually that trivial. It's an agent
+- [05:00] that can do web research and manage our
+- [05:02] inbox, doing things like drafting emails
+- [05:04] as well. So, this is what we're going to
+- [05:06] create together. And I've actually
+- [05:08] already built this with both Claude Code
+- [05:10] and Curo before recording just to
+- [05:12] validate this. And I also literally used
+- [05:15] the template to build an agent to then
+- [05:18] refine the template more like just
+- [05:19] fixing up things that I didn't quite get
+- [05:21] right. So yeah, trust me, I put a lot of
+- [05:23] time into building this template for
+- [05:24] you. And so that's enough of me talking
+- [05:26] about it. I just want to like actually
+- [05:28] dive in and build the agent out with you
+- [05:30] now. All right. So I've got my repo
+- [05:32] cloned locally. Now, we can dive into
+- [05:34] building our AI agent with the PRP
+- [05:36] framework and this template that I have
+- [05:38] for you, which I'll have a link in the
+- [05:40] description to this template and the
+- [05:42] entire context engineering repo. This is
+- [05:44] all open source and available for you.
+- [05:46] And like I said, I'm going to keep
+- [05:47] building out more use cases as well. In
+- [05:50] fact, I'm going to be making this a
+- [05:52] project in the Dynamis community. And
+- [05:54] so, if you want to get way more involved
+- [05:56] with AI coding and context engineering
+- [05:58] and you want to be a part of an awesome
+- [05:59] project, definitely check out
+- [06:01] Dynamus.ai. We got a lot of awesome
+- [06:03] stuff going on there for AI coding and
+- [06:05] context engineering. But anyway, back to
+- [06:07] our readme here. Let's go ahead and get
+- [06:09] started getting ready to build our
+- [06:11] agent. So, the first thing after you
+- [06:13] clone this repository, we want to take
+- [06:15] our Pantic AI template and we want to
+- [06:18] copy it to a working directory
+- [06:20] essentially where we're going to take
+- [06:21] the template and build it into a
+- [06:23] complete agent. And I've set it up this
+- [06:25] way in case you want to reuse this
+- [06:26] template many times. So, we have this
+- [06:28] target directory where it's just going
+- [06:30] to copy everything that we need for our
+- [06:32] slash commands and our global rules and
+- [06:34] our base PRP to wherever we want. And
+- [06:36] so, within my terminal here, I'm just
+- [06:39] running the copy template.pycript like
+- [06:41] the readme says. And I'm going to have
+- [06:43] everything copied over to this folder.
+- [06:45] So, it's going to happen just like
+- [06:46] pretty much instantaneously there. There
+- [06:48] we go. We copied over all of our
+- [06:50] examples. We have that initial MD that
+- [06:52] we have to fill out. We have our base
+- [06:53] PRP and then our slash commands. Which
+- [06:56] by the way, if you're not using cloud
+- [06:58] code, you can still use these slash
+- [07:01] commands. You just basically in your
+- [07:02] prompt to your AI coding assistant, tell
+- [07:04] it to use the command as the prompt. And
+- [07:07] I actually did that with Kira. I'll just
+- [07:09] show you an example of this really
+- [07:10] quick. I'm not building with Kira in
+- [07:12] this video. I'm going to be building
+- [07:13] with cloud code. But just to show you
+- [07:14] that I've done this with other AI coding
+- [07:17] assistants as well. And so you can see
+- [07:18] my prompt. I literally told it
+- [07:20] use.cloud/comand/ cloud/comand/execute
+- [07:23] podantic AI PRP as your prompt and then
+- [07:26] the argument because we have to pass in
+- [07:27] the PRP that we want to execute. I just
+- [07:30] give it the the name of that file as
+- [07:32] well. And there we go. Kira goes ahead
+- [07:33] and does all the implementation just
+- [07:35] like we would see in cloud code. And it
+- [07:38] did a phenomenal job by the way. Like
+- [07:40] I'm very impressed with Kira as one of
+- [07:42] the new up andcoming AI coding
+- [07:44] assistants. Definitely let me know in
+- [07:45] the comments if you want me to dive more
+- [07:47] into Kira or other AI coding assistants.
+- [07:50] But right now, Cloud Code is still my
+- [07:52] primary driver. So, I'm going to be
+- [07:53] focusing on that in this video. But
+- [07:55] yeah, so we've got our new repository
+- [07:56] set up. And so, I'm going to copy this
+- [07:58] directory. I'm going to change into it.
+- [08:01] And then I'll just open in my ID, which
+- [08:03] I'm just using WinSurf here, but I open
+- [08:04] up the terminal to use Cloud Code. So,
+- [08:07] I'll I'll go ahead and do that right
+- [08:08] now. So, I'll close Cascade. We're in a
+- [08:10] terminal. I'm using Windows, so I'll go
+- [08:12] to Ubuntu, so I can access Claude here.
+- [08:15] All right. So, there we go. And then
+- [08:16] what I want to show you really quickly
+- [08:18] is what is copied over for this
+- [08:19] template. So we have our claw.md. These
+- [08:22] are our global rules that I've also
+- [08:24] hyper tuned to building pideantic AI
+- [08:26] agents. And you can read through all
+- [08:28] this if you are curious the way that
+- [08:30] I've specified you know like the general
+- [08:32] file structure for agents best practices
+- [08:34] for configuring environment variables
+- [08:36] and how we set up the specific provider
+- [08:38] and LLM that we want to use. There's a
+- [08:40] lot of work that I put into this. And
+- [08:42] then we have that podantic AI specific
+- [08:44] base PRP. And then the main thing that I
+- [08:47] want to start with here is our initial
+- [08:49] MD because this is our first step. And
+- [08:52] we're going to dive into this now. We're
+- [08:53] going to set up all the requirements
+- [08:54] around our agent and then generate the
+- [08:57] PRP based on that. The sponsor of
+- [08:59] today's video is Scribba, a platform
+- [09:02] that turns coding tutorials into pair
+- [09:04] programming sessions where you can
+- [09:06] literally edit the instructor's code in
+- [09:08] real time. And there are exercises that
+- [09:10] are built right into the tutorials. It
+- [09:12] really does revolutionize the way that
+- [09:14] you learn how to code. And while AI can
+- [09:17] help us code faster, like we're covering
+- [09:18] in this video, it is still crucial for
+- [09:21] you to understand the fundamentals, both
+- [09:23] backend and front-end development. I
+- [09:25] mean, there's a reason why I talk so
+- [09:27] much about validation when I'm covering
+- [09:28] the PRP framework. And Scribba recently
+- [09:31] released their full stack developer
+- [09:33] path. Over 100 hours of incredible
+- [09:36] content taking you from beginner to pro
+- [09:38] for both backend and front-end
+- [09:40] development, so you can develop some of
+- [09:42] the most in- demand tech skills in the
+- [09:44] industry. So, just to show you really
+- [09:46] quick how powerful and unique Scribba
+- [09:48] is, take a look at this. So, I'm going
+- [09:50] to play one of the videos here. And I
+- [09:51] have the instructor muted, but he is
+- [09:53] talking right now. He's moving his mouse
+- [09:55] around on the screen. So, he's in the
+- [09:57] middle of showing me something, but at
+- [09:59] any point in the lesson, I can pause the
+- [10:01] video. I can go to any of the files just
+- [10:04] like I'm in a text editor on my local
+- [10:05] computer and I can change anything like
+- [10:07] I could say instead of add ingredients,
+- [10:09] add food. I can do control S or run in
+- [10:12] the top right. And there we go. Our
+- [10:14] preview is updated live. So, we can
+- [10:16] update to just tweak things and try
+- [10:18] things out at any point during any
+- [10:20] video. And then also there are these
+- [10:21] challenges that we have throughout the
+- [10:23] content where they explicitly will ask
+- [10:25] us to implement something. So we really
+- [10:27] are pair programming as a part of our
+- [10:29] lessons. It's so powerful. It helps you
+- [10:31] learn so fast. Also, Scribba has a lot
+- [10:34] of other courses as well like these ones
+- [10:36] that they offer for AI. They even
+- [10:38] partnered with Mistl Hugging Face and
+- [10:41] Cloudflare recently to bring these to
+- [10:43] you guys. It's so cool. You also get AI
+- [10:46] feedback on your code in all of your
+- [10:47] courses. and they have a super
+- [10:49] supportive community through Discord. So
+- [10:51] really, Scribba is the place to go if
+- [10:53] you want to level up your tech skills,
+- [10:55] master what is in demand right now. So
+- [10:57] I'll have a link in the description to
+- [10:59] Scribba. I definitely recommend checking
+- [11:01] them out. So first of all, when we build
+- [11:03] an AI agent with Pideantic AI, and
+- [11:05] really this is going to apply no matter
+- [11:06] the framework you use. Agents generally
+- [11:09] consist of three parts. And I'm just
+- [11:11] showing the weather agent from their
+- [11:12] documentation just to give you a highle
+- [11:14] overview. This is why I crafted the
+- [11:17] initial MD template in the way that I
+- [11:19] did. So, first of all, our agents will
+- [11:21] always have dependencies. These are
+- [11:23] things that we need in our tools like
+- [11:25] API keys, database connections. In this
+- [11:28] case, we have an HTTP client that we
+- [11:30] need to browse the internet. And then we
+- [11:32] also have our agent definition itself.
+- [11:35] This is the second component where we
+- [11:36] have things like our system prompt. And
+- [11:39] then last but not least, our agents
+- [11:40] always have tools. These are functions
+- [11:42] or MCP servers that we attach to our
+- [11:45] agent so it can actually do things on
+- [11:46] our behalf and that's usually most of
+- [11:48] the implementation for our agents. So
+- [11:51] those are the three components and
+- [11:53] that's why I've crafted the initial MD
+- [11:55] in this way because it's very important
+- [11:56] to be specific to the AI coding
+- [11:58] assistant when building agents what
+- [12:00] you're looking for for those three
+- [12:02] components. And so first of all at a
+- [12:05] very high level we have our feature.
+- [12:07] What is the AI agent that we want to
+- [12:09] build? and you just want to replace
+- [12:11] everything in brackets here in the
+- [12:12] template. I have a really simple, like
+- [12:14] super super simple example here as well.
+- [12:16] You definitely want to be more detailed
+- [12:18] than this, but this is just a starting
+- [12:20] point for you. And then diving into the
+- [12:22] exact tools that you want. Like for our
+- [12:23] research agent, we want our agent to be
+- [12:25] able to use, let's say, the Brave API to
+- [12:27] browse the internet and summarize web
+- [12:29] research. We want another sub agent to
+- [12:32] manage our inbox and do things like
+- [12:34] draft emails. Like, get specific for the
+- [12:36] tools here. And after I walk through
+- [12:38] this, I'll show you what my final
+- [12:39] initial MD looks like as well. And then
+- [12:42] for dependencies, again, things like API
+- [12:44] keys and database connections for our
+- [12:47] system prompt. You don't have to write
+- [12:48] out the entire system prompt here, but
+- [12:50] you can if you want. Otherwise, you can
+- [12:52] just kind of generally describe what you
+- [12:54] want in your system prompt to make sure
+- [12:56] that you're steering your agents
+- [12:58] correctly. And then what I generally
+- [13:00] include for all of my PRP initial MD
+- [13:03] templates is a section for examples. So
+- [13:06] you could pull past projects that you've
+- [13:08] worked on. Like I have a lot of Pantic
+- [13:10] AI agents I've already built. So I have
+- [13:12] some of these put in the example folder
+- [13:14] already. So we kind of have a starting
+- [13:16] point for examples. So you can just go
+- [13:18] off of this if you want. And this could
+- [13:20] also be resources you found online.
+- [13:23] Maybe even just taking things directly
+- [13:24] from the Podantic AI documentation,
+- [13:27] putting those in the example folder as
+- [13:29] well. And I just find that examples are
+- [13:30] so so powerful for AI coding assistance.
+- [13:33] is even better than just looking at the
+- [13:35] documentation or doing web research. But
+- [13:37] documentation still is important. So
+- [13:39] speaking of that, we've got a section
+- [13:40] for that as well. Like here, just to
+- [13:42] show you kind of what this looks like, I
+- [13:44] call out some of the links that we have
+- [13:45] from the official Pantic AI docs for
+- [13:47] things like creating agents and
+- [13:49] integrating tools. And then the last
+- [13:51] section that we have here, which is
+- [13:53] actually pretty important, is just a
+- [13:54] place for you to put any other kinds of
+- [13:56] considerations that you have for your AI
+- [13:58] coding assistant, like the way that you
+- [13:59] wanted to manage environment variables,
+- [14:02] for example. And this is also the
+- [14:03] perfect place to put any gotchas, as I
+- [14:06] like to call them. Like when you've used
+- [14:07] AI coding assistance to build agents in
+- [14:10] the past, for example, what are those
+- [14:12] things that it always messes up on? And
+- [14:14] this is your place to correct that
+- [14:16] behavior because usually when it messes
+- [14:18] up on something in one project, it's
+- [14:20] probably going to do something like that
+- [14:22] in another project. And so just being
+- [14:24] able to adapt your prompting and your
+- [14:26] context as you learn the kinds of things
+- [14:29] that it likes to mess up on. So yeah,
+- [14:31] very important to include that in this
+- [14:33] section as well. And so with that, I'm
+- [14:35] going to go ahead and paste in my full
+- [14:37] initial MD that I have for my agent. And
+- [14:40] there we go. All right, paste it in. And
+- [14:42] I'll have this linked in the description
+- [14:43] as well if you want to see like the full
+- [14:45] agent that I build from this process,
+- [14:47] too. But yeah, I'm just building a
+- [14:48] padantic AI agent that has another agent
+- [14:50] as a tool because we're going to have
+- [14:52] our primary research agent and then an
+- [14:54] email draft agent as a sub aent. I'm
+- [14:57] going to keep it very simple here with
+- [14:58] the tools that I'm giving it as well.
+- [14:59] So, I'm going to give our research agent
+- [15:02] the ability to search the web with the
+- [15:04] Brave API. And then it has a tool to
+- [15:06] also delegate all the email related
+- [15:08] stuff like drafting emails to my email
+- [15:11] sub agent. And so, a rather simple
+- [15:14] example just to demonstrate things
+- [15:16] rather quickly for you here, but it's
+- [15:18] still like more than just a super super
+- [15:20] trivial agent. Like you could definitely
+- [15:21] take this further to make it like a real
+- [15:23] agent you would actually use. And then
+- [15:25] for dependencies, we just need the Brave
+- [15:27] API key and then everything for Google
+- [15:29] O. I have general instructions for the
+- [15:32] system prompt that I want for both
+- [15:33] agents. I'm keeping the examples the
+- [15:35] same because I already curated a really
+- [15:37] nice set of Pantic AI agent examples for
+- [15:39] us. And then documentation, keeping it
+- [15:41] very bare bones. And then my
+- [15:43] considerations is kind of everything
+- [15:45] that I already had in the base
+- [15:46] initial.mmd just because those are the
+- [15:48] things that I found it usually messes up
+- [15:50] on. Like it doesn't handle environment
+- [15:52] variables correctly, for example. So
+- [15:54] that is my initial MD. Now I'll just do
+- [15:56] CtrlJ to open my terminal back up. And
+- [15:58] I'll go into Claude. And now all I need
+- [16:01] to do is generate the PRP based on the
+- [16:04] initial MD that I created. So it's
+- [16:06] slashgenerate pyantic AI PRP. I'll hit
+- [16:09] tab to autocomplete. And then the one
+- [16:12] argument that we need here. And we can
+- [16:13] go into this and see what that looks
+- [16:14] like. If I do Ctrl J to close the
+- [16:16] terminal again, we have the one argument
+- [16:19] which is our feature file. That is our
+- [16:20] initial.md. So it takes that. we have
+- [16:22] the rest of the context for how it needs
+- [16:24] to generate a PRP and validate it. That
+- [16:27] is all within the prompt here. And so
+- [16:29] going back to my terminal here, I'll
+- [16:30] just pass in the relative path to my
+- [16:33] initial MD. If I can type right. There
+- [16:36] we go. All right. So we got our initial
+- [16:38] MD. We'll send this in. And like I said,
+- [16:40] if you don't have cloud code, you're not
+- [16:42] using slash commands, you can just use
+- [16:43] this as a regular prompt. Tell it to
+- [16:45] look at this file for its prompt. So
+- [16:47] I'll send this in. And now this process
+- [16:49] is going to take a good amount of time
+- [16:51] because it's going to do a lot of
+- [16:52] research and architecting on our behalf,
+- [16:55] thinking through step by step what needs
+- [16:58] to go into the PRP and then putting it
+- [17:00] in there. And then our end result is
+- [17:01] we'll have a new PRP in our PRPS folder.
+- [17:05] So I will pause and come back once that
+- [17:07] is generated. All right, our PRP is now
+- [17:10] generated. And the next thing I want to
+- [17:12] go through with you is at least at a
+- [17:13] high level how we can go in and validate
+- [17:15] our PRP. You don't want to trust the AI
+- [17:18] coding assistant blindly. Validation is
+- [17:20] so important. And so, at least at a high
+- [17:22] level, I want to show you what that
+- [17:24] looks like. And if you saw my last video
+- [17:26] doing the similar process, but for MCP
+- [17:29] servers, a lot of this is going to be
+- [17:30] pretty similar. But I still want to dive
+- [17:32] in and show you what this looks like
+- [17:34] specifically for building AI agents with
+- [17:36] Pantic AI. And so, we took our base PRP
+- [17:41] for Pantic AI. We took our initial MD.
+- [17:44] This is the baby of those two things.
+- [17:46] And this is what we're going to use to
+- [17:47] build our agent. So you got core
+- [17:50] principles, what to do and what not to
+- [17:51] do for highle instructions. We have
+- [17:54] exactly what we're building here with
+- [17:56] all the documentation that we need. And
+- [17:58] this is a beautiful blend of resources
+- [18:01] online, existing examples that we have
+- [18:04] in our examples folder. It's going to
+- [18:05] load all these things into context when
+- [18:07] it first builds our agent. That's
+- [18:09] exactly what we want it to do. even
+- [18:10] including documentation for things like
+- [18:12] Gmail and Brave so it knows how to build
+- [18:14] our tools properly as well. AI coding
+- [18:17] assistants love to hallucinate the way
+- [18:19] that we use these specific APIs when
+- [18:21] they don't have access to this
+- [18:23] documentation. Now, one thing that this
+- [18:25] PRP doesn't have that I wish it did is
+- [18:27] the final code structure. And we have
+- [18:29] that called out in the base PRP. So
+- [18:31] maybe I'd go through and like ask it to
+- [18:33] iterate and add that into the PRP. And
+- [18:35] so there's definitely going to be some
+- [18:37] things where you go through this, you're
+- [18:38] like, "Oh, that's not quite right." and
+- [18:39] you want to edit it yourself or ask it
+- [18:41] to change. Like I said, be a part of the
+- [18:43] process here. Validate and iterate on
+- [18:45] the PRP before you send it in to execute
+- [18:48] it. And so, yeah, it's covering Pantic
+- [18:51] AI gotas and general best practices for
+- [18:54] using Pantic AI, talking about our
+- [18:56] stack. I'm not going to go through
+- [18:57] everything in detail here, but like
+- [18:58] overall, this is looking pretty good.
+- [19:00] And the last thing that I want to cover
+- [19:02] here is what are called validation
+- [19:04] gates. This is one of my favorite parts
+- [19:06] of the PRP framework because you always
+- [19:08] want to describe to the AI coding
+- [19:11] assistant in the PRP. What do you need
+- [19:13] to do to actually validate that your
+- [19:15] code is good? And it doesn't mean that
+- [19:16] it's guaranteed to be perfect, but
+- [19:18] having it do things like write unit
+- [19:20] tests and iterate on them until they are
+- [19:22] all passing. That kind of thing is just
+- [19:25] so so powerful. And in this case here,
+- [19:27] let me scroll down to the validation
+- [19:29] gates. I don't necessarily need it to
+- [19:31] do, you know, like security production
+- [19:33] validation and integration testing. So
+- [19:35] like this is something I usually end up
+- [19:37] cleaning up where it like goes a bit
+- [19:38] overboard with validation gates. So just
+- [19:40] to show you one example of how I will go
+- [19:43] in and change things before I execute
+- [19:44] the PRP, but otherwise this is looking
+- [19:47] really good. And then it also gives a
+- [19:49] confidence score, which another pro tip
+- [19:51] on this. What I can do is literally say,
+- [19:53] what would it take to get to a 10 out of
+- [19:56] 10 confidence score? And so it'll ask me
+- [19:59] a couple of follow-up questions to then
+- [20:01] adjust the PRP further to add anything
+- [20:04] that it's not really confident in right
+- [20:05] now. So this is just yet another thing
+- [20:07] to do um just to get better results once
+- [20:09] you go and do the implementation. And so
+- [20:12] yeah, it just says that it doesn't quite
+- [20:13] understand how to do the Gmail ooth 2
+- [20:15] flow right now. And so what I'm going to
+- [20:17] do off camera here is go through this
+- [20:20] process. I'm going to refine the PRP
+- [20:22] completely. Then I'll come back and we
+- [20:24] can execute it. All right, our PRP is
+- [20:27] now refined. I don't need to show you
+- [20:28] everything again. So, we can go ahead
+- [20:30] and move on to executing our PRP. So,
+- [20:33] when you copy over the template into a
+- [20:36] new folder with the copy template Python
+- [20:38] script, we take the original readme and
+- [20:41] I just rename it here because you also
+- [20:42] want your AI coding assistant to produce
+- [20:44] a brand new readme for your agent once
+- [20:47] you build it. So, I just re renamed this
+- [20:48] to readme template. But yeah, this has
+- [20:51] all of our instructions that I was
+- [20:52] showing you in the GitHub earlier. So,
+- [20:54] we filled our initial MD. We generated
+- [20:56] our PRP. Now, we can execute it. And so,
+- [21:00] the command for that, and actually what
+- [21:02] I recommend doing no matter what is
+- [21:04] clearing your conversation before you
+- [21:05] execute the PRP because you don't want
+- [21:07] to have all of the old context left over
+- [21:10] from when you were generating it. And
+- [21:11] so, I'll just do exit here. Go back into
+- [21:13] Claude. You could also do the /clear
+- [21:15] command. And then, no matter your AI
+- [21:17] coding assistant, you can just start a
+- [21:18] new session here. And so then the
+- [21:20] command that I'll use now is
+- [21:21] slashexecute podantic AI PRP tab to
+- [21:24] autocomplete and then I'll pass in the
+- [21:26] path to my PRP. So it's PRPS
+- [21:30] research email agent CLIMD.
+- [21:33] That's just the name that the AI coding
+- [21:35] assistant came up with. There we go. All
+- [21:37] right. And then I'll do shift tab to
+- [21:39] enable autocomplete. And we are off to
+- [21:41] the races. All right. Our agent is being
+- [21:44] created now. And this process will go
+- [21:45] for a good amount of time because we
+- [21:48] have such an extensive set of
+- [21:50] instructions here and so much context
+- [21:52] for it to sift through as well. But man,
+- [21:55] the results that we get from this time
+- [21:57] and time again just blow me away. And so
+- [21:59] yet again, I will pause and come back
+- [22:02] once we have the initial version of our
+- [22:04] agent created. And there we go. Our
+- [22:06] agent is now complete. And I did iterate
+- [22:08] two times off camera just to fix a
+- [22:10] couple of small things. It wasn't
+- [22:12] handling the conversation history quite
+- [22:14] right in the CLI and then all of the
+- [22:15] tests weren't quite passing. So I wanted
+- [22:17] to make sure that was in tip-top shape,
+- [22:20] but otherwise this was amazing. It
+- [22:22] almost one-shotted the entire agents.
+- [22:24] And actually there's two agents here
+- [22:25] because we have the one for research and
+- [22:28] then the one for emails. And I went
+- [22:30] through the code and I validated
+- [22:31] everything after as well. And it's
+- [22:32] really important to do that to make sure
+- [22:34] that it isn't just vibe coding, right?
+- [22:37] Like you want to understand what it
+- [22:38] outputed here and validate it yourself.
+- [22:40] But this all looked really good to me.
+- [22:42] And you can view this repo if you want.
+- [22:44] I'll have this linked below as well if
+- [22:45] you want to see the final result for
+- [22:46] yourself. And then I literally just
+- [22:48] followed the readme to get everything
+- [22:49] set up myself. My environment variables,
+- [22:52] the credentials for Gmail, my virtual
+- [22:54] environment. I got all that set up. And
+- [22:56] so now I can run this in the command
+- [22:58] line. So python research email cli.py.
+- [23:01] We'll have a very similar demo here to
+- [23:03] what I showed at the start of the video.
+- [23:04] So, I can just say something simple like
+- [23:06] search for the latest on claude code and
+- [23:10] send a draft of the findings to and I'll
+- [23:13] just do my own email here. It doesn't
+- [23:15] really matter for a simple demo. So,
+- [23:17] it's going to use the Brave API first.
+- [23:19] There we go. Search in the web. And then
+- [23:21] at some point, Yep, there we go. It's
+- [23:23] going to hand off to my email sub agent
+- [23:25] now to create that draft for me. And it
+- [23:28] takes a little bit because it's going to
+- [23:29] craft the full email here. But in a
+- [23:31] second, it'll tell us that it has
+- [23:33] drafted the email. There we go. All
+- [23:35] right. Perfect. So, yeah. Now, I'm going
+- [23:37] to refresh my drafts on my other monitor
+- [23:40] here. All right. Nice. Yep. I'll bring
+- [23:41] it over. There we go. Take a look at
+- [23:43] this. Latest updates on cloud code to
+- [23:46] myself. And yeah, I mean, the email
+- [23:48] might be a little corny here. You can
+- [23:50] definitely work on the system prompt to
+- [23:52] like make it so that this actually
+- [23:53] sounds like what you want it to sound
+- [23:55] like. And really, there's probably a lot
+- [23:57] of room to continue to iterate on this
+- [23:59] agent here. This is just more of a
+- [24:01] demonstration I wanted to have for you
+- [24:02] for starting with the PRP framework to
+- [24:05] begin a new project. You can definitely
+- [24:07] take this a lot further as well. So, I
+- [24:10] will have links in the description to
+- [24:12] the Pantic AI template. You got the read
+- [24:14] me to go through the same process
+- [24:16] yourself. I'll even link to this agent
+- [24:18] that I created as well, so you can take
+- [24:20] a look at the final results if you want.
+- [24:22] That is everything that I've got now for
+- [24:25] context engineering the PRP framework
+- [24:28] for paidantic AI agents. I hope that you
+- [24:30] found this really valuable really taking
+- [24:32] this and building any AI agent that you
+- [24:34] want with it and certainly a lot more
+- [24:36] templates coming out for other use cases
+- [24:38] soon as well. So stay tuned for that. If
+- [24:41] you appreciated this content, you're
+- [24:42] looking forward to more things with AI
+- [24:44] coding and AI agents, I'd really
+- [24:46] appreciate a like and a subscribe. And
+- [24:48] with that, I will see you in the next

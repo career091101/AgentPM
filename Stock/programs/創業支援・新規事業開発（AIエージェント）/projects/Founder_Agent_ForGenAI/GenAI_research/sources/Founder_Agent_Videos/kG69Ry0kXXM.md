@@ -1,0 +1,633 @@
+---
+title: "you're using Claude Code for web wrong. If you use it the right way, your entire Claude Code workflo..."
+video_id: "kG69Ry0kXXM"
+video_url: "https://www.youtube.com/watch?v=kG69Ry0kXXM"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Anthropic"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  you're using Claude Code for web wrong.
+  If you use it the right way, your entire
+  Claude Code workflow will 10X. In this
+key_points:
+  - "Claude Code workflow will 10X. In this"
+  - "Code for web workflow that will have you"
+  - "expert, you are going to learn so much"
+  - "from this video. Everyone using Claude"
+  - "as well take advantage and watch this"
+  - "there's going to be two parts to this"
+  - "video. Part one will be me setting up"
+  - "that's done. Part two will be me getting"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: kG69Ry0kXXM
+
+- URL: https://www.youtube.com/watch?v=kG69Ry0kXXM
+- Retrieved at: 2025-12-30T16:02:32+09:00
+
+## Text
+
+- [00:00] you're using Claude Code for web wrong.
+- [00:02] If you use it the right way, your entire
+- [00:04] Claude Code workflow will 10X. In this
+- [00:07] video, I'm going to show you a Claude
+- [00:09] Code for web workflow that will have you
+- [00:12] building AI apps so much faster. Whether
+- [00:14] you're a Claude Code noob or stone cold
+- [00:17] expert, you are going to learn so much
+- [00:19] from this video. Everyone using Claude
+- [00:21] Code just got free credits, so you might
+- [00:23] as well take advantage and watch this
+- [00:24] entire video. Let's get into it. So,
+- [00:27] there's going to be two parts to this
+- [00:28] video. Part one will be me setting up
+- [00:30] Claude Code for web. So building a very
+- [00:32] quick app in Claude Code, connecting it
+- [00:34] to Claude Code for web and show you how
+- [00:36] that's done. Part two will be me getting
+- [00:37] way more advanced, showing you the
+- [00:39] master workflow of Claude Code for web,
+- [00:41] pulling down the code to your local
+- [00:43] environment so you can test it and ship
+- [00:45] it. So if you already have Claude Code
+- [00:48] for web set up, feel free to skip to the
+- [00:50] next chapter at the chapters below.
+- [00:53] Otherwise, feel free to stick around
+- [00:54] with me here as I build a new app and
+- [00:56] connect it to Claude Code for web. So,
+- [00:58] we're going to build a quick demo app
+- [01:00] here in Claude Code just in Visual
+- [01:02] Studio Code. Then, we're going to take
+- [01:04] that app and I'll show you how to
+- [01:05] connect it to Claude Code for web. So,
+- [01:07] my preferred way of using Claude Code is
+- [01:09] the extension inside Visual Studio Code.
+- [01:12] Super easy to use, great UI, and Visual
+- [01:15] Studio Code is really, really
+- [01:17] dependable. So, get that all set up if
+- [01:18] you haven't yet. Open up a new project
+- [01:21] and we'll get this started. So, the demo
+- [01:22] app we're going to set up for this is
+- [01:24] going to be a journaling app. I'm going
+- [01:25] to show you how to build this really
+- [01:26] basic journaling app. But then we're
+- [01:28] going to add a ton of features and
+- [01:29] functionality by using Claude Code for
+- [01:32] Web, which is going to be awesome. And
+- [01:33] real quick, if this is your first time
+- [01:35] hearing of Claude Code for web, this is
+- [01:37] their cloud-based version of Claude
+- [01:39] Code, where from any browser or device
+- [01:42] in the world, you can spin up tasks for
+- [01:45] Claude Code. Even if you're not your
+- [01:46] computer, whether it's the web, whether
+- [01:48] it's a browser, whether it's the iOS
+- [01:50] app, you can now spin up tasks from
+- [01:51] anywhere in the entire world, which is
+- [01:53] incredible. but it has some really
+- [01:55] advanced functionality. So, we're going
+- [01:56] to build out a basic journaling app.
+- [01:58] Then, I'm going to show you how to use
+- [02:00] Claude Code for web, the workflow for
+- [02:01] it, where I build out really advanced
+- [02:03] things for it. But, we're going to keep
+- [02:04] it simple at first here. Here's the
+- [02:06] prompt, and I'll put it down below. Feel
+- [02:07] free to take it and steal it. I want to
+- [02:09] build a journaling app. It should be a
+- [02:10] beautiful, clean, simple app where the
+- [02:12] centerpiece is a markdown editor. On the
+- [02:14] left hand side, it shows all your save
+- [02:16] journal entries. Use Nex.js, TypeScript,
+- [02:19] Tailwind, V3, and local storage for this
+- [02:21] app. If you're not as technical, these
+- [02:22] are very popular technologies that we're
+- [02:25] going to be using to build this app out.
+- [02:26] And I'm going to hit enter on that. And
+- [02:28] now Claude Code is going to start
+- [02:30] building out that basic demo app, which
+- [02:33] for the record, you can take this, build
+- [02:34] it out, use it for your own life after
+- [02:36] this. So you have a real working app for
+- [02:38] yourself. And I'm going to say yes and
+- [02:40] don't ask again. And this is going to
+- [02:41] build out the app that we're going to
+- [02:42] connect to Claude for web so I can show
+- [02:44] you all these advanced workflows and
+- [02:46] functionality in it. So, at this point,
+- [02:47] I always just say yes and continue
+- [02:49] without asking me because Claude Code's
+- [02:51] amazing. You don't need to approve every
+- [02:54] single step here. So, that's cooking now
+- [02:55] and that will be done in a second. We'll
+- [02:57] check out the app, then we'll get into
+- [02:58] Claude for web. Man, if you haven't
+- [03:00] started using Claude Code for web yet,
+- [03:02] you are missing out. My productivity has
+- [03:04] been insane since I started taking
+- [03:06] advantage of this. We're also going to
+- [03:07] go over the iOS app, which is really
+- [03:09] awesome, too. All right, looks like it's
+- [03:11] all done. Beautiful clean UI with
+- [03:12] sidebar and editor layout. I'm praying
+- [03:14] there is no blue and purple gradients.
+- [03:16] Markdown editor with live preview. All
+- [03:18] right, let's check it out. Let's just go
+- [03:19] straight into it. So, I'm going to hit
+- [03:20] control tillday to bring up my terminal.
+- [03:22] I am going to cd into the journal app
+- [03:25] folder which they just created. So, cdj
+- [03:28] and I'm going to tab which will
+- [03:29] autocomplete and then I'm going to do
+- [03:30] npm rundev which will run the
+- [03:33] development server. I hit enter. Boom.
+- [03:35] We're good to go. Localhost 3001. Let's
+- [03:39] click on that. All right, it looks like
+- [03:41] it is done. Let's pull it open. And
+- [03:44] boom. Look at that. It is all set. We
+- [03:46] have our basic journaling app here.
+- [03:48] Let's do a new entry. We get this nice
+- [03:50] editor. Hey, wait, shout out a second.
+- [03:52] No blue and purple gradients. I think
+- [03:55] this is the first time in history an AI
+- [03:57] tool has designed a UI with zero purple
+- [04:01] and blue gradients. Shout out AI. You
+- [04:04] did it. We've now this potentially could
+- [04:06] be an indicator of AGI. I wouldn't count
+- [04:08] that out. Let's just test this out.
+- [04:10] Let's see how this looks. Let's do a
+- [04:13] bold new journal entry. This is my new
+- [04:18] journal. Let's hit save. All right.
+- [04:20] Well, it didn't do the bold, but that's
+- [04:22] fine. It still has the editor here. And
+- [04:24] let's go to preview. Let's see that. Oh,
+- [04:25] boom. It has the bold. Okay. So, this is
+- [04:26] a nice markdown journal tool. But now,
+- [04:30] let's connect this to Claude Code for
+- [04:32] web. So, we can do a lot more of the
+- [04:34] advanced stuff. So in order to use
+- [04:36] claude code for web you need to have
+- [04:38] your code hosted on GitHub which is a
+- [04:40] code repository. So if you haven't yet
+- [04:42] sign up for GitHub go to github.com
+- [04:44] create a free account. Then we can do
+- [04:46] new repository. We're going to call this
+- [04:49] a journaling app. You can make it public
+- [04:52] or private. I'm going to make this one
+- [04:53] public. And then I'm going to create the
+- [04:56] repository. Once you click create, you
+- [04:58] just take the address right here. I'm
+- [05:00] going to hit copy on that. I'm going to
+- [05:01] go back into claw code. And then what
+- [05:04] I'm going to do is I'm going to say, can
+- [05:07] you upload this code to and then put in
+- [05:10] the address for our repo and hit enter.
+- [05:13] And now Claude Code, like the good
+- [05:14] employee it is, is going to take our
+- [05:16] code and put it on that new repository.
+- [05:18] I'm just going to yes. And don't ask me
+- [05:20] again. Just get to work Claude Code. And
+- [05:22] we are going to be one step away from
+- [05:24] using Claude for web. I know you're
+- [05:25] getting excited. I know you want to use
+- [05:27] up those free credits, baby. Let's get
+- [05:29] into this. Cook it up. Here we go. Done.
+- [05:31] Uploaded. Let's verify claude codes
+- [05:33] work. That was super simple and easy.
+- [05:36] Come over here. Refresh. Boom. There's
+- [05:38] our code. It is inside GitHub. I love
+- [05:42] that. Now we are ready. Now we are ready
+- [05:44] for claw code. You ready for the fun
+- [05:46] part? Let's start having some fun. Let's
+- [05:47] do Let's do some more advanced things
+- [05:49] here. I guarantee what I'm about to show
+- [05:51] you your competition isn't doing. So if
+- [05:53] you do these things, if you stick with
+- [05:55] me and do all these steps, you're going
+- [05:56] to be ahead of 99% of people. I
+- [05:58] guarantee it. Here we go. So to access
+- [06:01] Claude for web, super simple. Go to
+- [06:03] claude.ai. You'll see code right here.
+- [06:06] You click that puppy and here you go.
+- [06:08] You're in claw for web. The other way to
+- [06:11] access this is on iOS. So if you have
+- [06:13] the clawed iOS app, watch this. If you
+- [06:16] go into the app, you hit the three lines
+- [06:18] up there and then you click on code, you
+- [06:21] get into this really nice clawed code
+- [06:24] for web mobile app experience, which is
+- [06:27] excellent. So, anything you do on the
+- [06:29] web browser version, it's the same thing
+- [06:30] you're going to be doing on the mobile
+- [06:32] app. Completely crossplatform. It's all
+- [06:34] the same. I'll do some things in this
+- [06:36] workflow on both just so you can see how
+- [06:38] fun it is. Uh, but let's do this. The
+- [06:40] first thing we need to do is connect to
+- [06:42] our journaling environment we just
+- [06:44] created. To do that, we click right
+- [06:46] here. If this is your first time doing
+- [06:48] this, you'll probably just have to sign
+- [06:49] in with GitHub real quick in Cloud Code
+- [06:51] for web, which will be super simple.
+- [06:53] Once you do that, you just search for
+- [06:55] the new app you created in GitHub. You
+- [06:57] click it and you are connected and good
+- [07:00] to go. And we can start melting these
+- [07:02] free credits I just gave to everybody
+- [07:03] here. So starting from a high level, the
+- [07:06] way I like to think about Claude Code
+- [07:07] for web is this is my helper. This is
+- [07:10] like my junior developer. This is like
+- [07:13] the partner to the main claude code
+- [07:16] that's inside Visual Studio. I use the
+- [07:20] cloud code in Visual Studio to build out
+- [07:22] the big features, the big functionality,
+- [07:24] and at the same time, I'm multitasking
+- [07:26] by sending off my junior developers and
+- [07:29] some other roles I'll show you in a
+- [07:31] second inside Claude Code for Web. So,
+- [07:34] let's do some multitasking. Here are the
+- [07:37] tasks I like to have running in Claude
+- [07:39] Code for Web at all times. I like to
+- [07:42] have four features being built out, two
+- [07:45] research tasks, one code optimization
+- [07:47] task, and one security check at all
+- [07:50] times inside a cloud code for web. If I
+- [07:52] don't have these eight tasks going at
+- [07:55] all times, I feel like I'm not getting
+- [07:57] maximum productivity. So, write this
+- [07:59] down and I'm going to show you how to
+- [08:00] set this up. If you keep it in the back
+- [08:02] of your mind, oh, I need to have Claude
+- [08:04] for web working at all times on these
+- [08:05] tasks, your app's going to advance so
+- [08:08] much faster than you can imagine. Let's
+- [08:09] set up four small feature tasks for
+- [08:12] claude for web to work on here. The way
+- [08:14] I like to think about it is this. This
+- [08:16] is the key to building out small
+- [08:18] features in cloud code for web. One, you
+- [08:21] do so here are a few tips for building
+- [08:23] out features with cloud code for web.
+- [08:25] One is your features should not be
+- [08:27] overlapping, right? So these agents are
+- [08:29] going to be working separately from each
+- [08:31] other. So you don't want the features to
+- [08:33] be overlapping or you'll have
+- [08:35] conflicting code. Right? So the features
+- [08:37] I'm about to show you are going to be
+- [08:38] very disperate features. Desperate up
+- [08:41] your vocabulary. Keep the features
+- [08:43] small. So I like to keep these small
+- [08:45] because if they get too big again you
+- [08:47] can have conflicts. The scope can get
+- [08:50] out of control. So we keep the big
+- [08:51] features with clawed code in the Visual
+- [08:53] Studio and we keep the features on cloud
+- [08:56] code for web smaller. And then here are
+- [08:58] the tasks I always like having again. So
+- [09:00] you can write that down or screenshot
+- [09:02] this if you want. So, let's start
+- [09:04] building out those four features, shall
+- [09:06] we? Uh, so we're in the journaling app
+- [09:08] selected. Let's build out a folder
+- [09:10] system. I want to be able to put my
+- [09:14] journal entries into folders. Build a
+- [09:19] folder system. Here's another thing. You
+- [09:22] can choose your model, Sonnet 45 or
+- [09:24] Haiku. For these smaller features, a lot
+- [09:26] of the times you can just go with Haiku
+- [09:29] 4.5. So, for this just building a folder
+- [09:32] system, let's go with Haiku45 and save a
+- [09:35] couple of tokens and get the most out of
+- [09:37] these juicy thousand dollars worth of
+- [09:39] credits. Thank you very much, Anthropic,
+- [09:41] for that. So, that task is spinning up.
+- [09:43] That is going. Let's keep going here. I
+- [09:46] want to be able to color code my journal
+- [09:50] entries. Haiku 45 sounds appropriate for
+- [09:52] that. Let's keep going. I want to give
+- [09:56] titles to my journal entries. Haiku 45.
+- [10:00] That's a simple task. Let's keep it on
+- [10:01] 45. Save that moola, that money so we
+- [10:03] can use it for later. Let's add share on
+- [10:07] social media buttons. In today's day and
+- [10:10] age, everyone's sharing everything. So,
+- [10:12] why might as well share our journal
+- [10:14] entries on social media, too, right? So,
+- [10:16] let's send that one to Claude Haiku 4.5
+- [10:19] as well, shall we? And boom. There we
+- [10:21] go. We have our four sessions going,
+- [10:24] four features cooking. That takes care
+- [10:27] of the first group of tasks I like to do
+- [10:30] with Claude for web. Let's move on to
+- [10:32] the second one. Two research tasks. But
+- [10:34] what does that mean, research tasks?
+- [10:36] Well, here's the thing. It's called
+- [10:38] Claude code. But the reality is these
+- [10:41] are just AI agents that Anthropic built.
+- [10:44] So, you don't have to use these just for
+- [10:46] coding. You can use these for any tasks
+- [10:48] you want AI to do. So, I like to do
+- [10:51] research tasks. What are research tasks?
+- [10:54] Well, these are basically employees in
+- [10:57] other areas of our personal oneperson
+- [10:59] company, right? Other than coding. So
+- [11:02] maybe we want to build out a road map.
+- [11:04] So we may have a product manager build a
+- [11:07] road map for us. And then maybe we want
+- [11:09] to do another thing. Maybe we want to
+- [11:10] have a marketing manager. So we have a
+- [11:12] marketing manager build out a blog post
+- [11:16] for us. I think that's a pretty good
+- [11:18] idea, too. So, let's have our two
+- [11:20] researchers, our product manager and our
+- [11:22] marketing manager get to work and start
+- [11:23] building us out some cool functionality.
+- [11:26] So, I'm going to go in here as our
+- [11:28] agents are working. It looks like the
+- [11:30] agent already finished the titles for
+- [11:32] journal entries. That's awesome. But
+- [11:34] let's go do this. Let's start our
+- [11:36] product manager. You are a product
+- [11:39] manager. Please build out a road map for
+- [11:43] our app with a list of new features.
+- [11:48] Bada bing. Bada boom. For these research
+- [11:51] tasks, for these more in-depth build a
+- [11:53] road map, write some marketing for us. I
+- [11:55] actually like to use sonnet 45. I think
+- [11:57] haiku is really good for executing
+- [12:00] simple coding tasks for more in-depth
+- [12:03] writing research reports. I like to use
+- [12:05] sonnet 45. So I'm going to hit boom.
+- [12:07] Bang. Send on that. Now we have a
+- [12:11] product manager working for us building
+- [12:12] us out of robot. Look at all our
+- [12:13] employees. People have such a bad
+- [12:16] impression of AI. They think it's
+- [12:17] replacing humans. No, no, no, no, no.
+- [12:19] It's not replacing humans. It is
+- [12:21] superpowering humans. Look at me right
+- [12:23] now. I am a oneperson business with five
+- [12:26] employees working for me. Before AI, I
+- [12:28] would never be able to do this. Now I
+- [12:30] have the power of a sixperson company,
+- [12:32] including myself, which is amazing. But
+- [12:34] let's make this a sevenperson company,
+- [12:36] shall we? Let's add our seventh
+- [12:38] employee. you are a marketing manager
+- [12:41] who is in charge of building our
+- [12:45] marketing out for this app. Please write
+- [12:49] me a set of tweets for this app. Going
+- [12:53] to use sonnet 45 so we get a little bit
+- [12:55] better creativity, more in-depth tweets.
+- [12:57] I'm going to hit send. Boom. There's our
+- [12:59] seventh employee. I don't think I'm done
+- [13:01] yet. I think I want to hire two junior
+- [13:03] developers to work for us now too. Let's
+- [13:05] make this a 9erson company. Again, AI
+- [13:09] not replacing people. Instead, it's
+- [13:11] supercharging people. These are the
+- [13:13] types of things, by the way, that put
+- [13:15] you ahead of your competition. Right?
+- [13:18] Your competition right now is sitting
+- [13:20] there. They're putting a prompt in
+- [13:22] Claude Code. They're going they're
+- [13:23] scrolling Tik Tok. They're going and
+- [13:24] they're scrolling Instagram. They're
+- [13:26] looking at thirst traps for 10 hours a
+- [13:28] day. Not you. You are building in Claw
+- [13:31] Code. then you are spinning up seven to
+- [13:33] eight new employees in claude code for
+- [13:35] web. This is how you do it. This is how
+- [13:37] you win. Cuz don't get me wrong, this is
+- [13:39] a competition. And if you're watching
+- [13:40] these videos, if you're in the fin fam,
+- [13:43] if you hit like, subscribe, and turn on
+- [13:45] notifications right now, you are ahead
+- [13:47] of everyone else and you're winning this
+- [13:48] competition. So, let's spin up another
+- [13:51] junior developer. As we talked about
+- [13:53] before on our checklist here, we had the
+- [13:55] four features going with the two
+- [13:56] research tasks going. Now, let's
+- [13:58] optimize the code. So, I'm going to go
+- [14:00] in and I'm going to say, "Please take a
+- [14:03] look." And as you can see here over on
+- [14:05] the right, already got tweets cooking.
+- [14:07] I'm not even done spin up task. We got
+- [14:08] tweets cooking. Please take a look at
+- [14:12] our codebase and make recommendations
+- [14:16] for code optimizations. This is how you
+- [14:18] keep your code tight, speedy, and
+- [14:21] efficient is we want to constantly be
+- [14:23] optimizing. I spin up agents just to
+- [14:25] take, hey, take a look. Let me know
+- [14:27] where we can optimize the code. I'm
+- [14:28] going to use Sonnet 45 for this one.
+- [14:30] Let's hit send. We got another employee
+- [14:33] cooking. We already got multiple of our
+- [14:34] employees done here. So, our
+- [14:36] optimization employee got hired. You
+- [14:38] passed the interview. Congratulations.
+- [14:40] Now you're working for me. You're in the
+- [14:42] Alex Finn enterprise or if you're
+- [14:44] watching this video, your personal
+- [14:46] enterprise. And then last one here,
+- [14:48] let's take a look at the checklist
+- [14:49] security task. So, we are going to spin
+- [14:52] up another agent. You are a security
+- [14:55] professional. Please review the code and
+- [14:59] find any security vulnerabilities.
+- [15:03] Security is super important right now
+- [15:05] when it comes to vibe coding. A lot of
+- [15:06] people building apps, they don't know
+- [15:07] how to do anything with security. They
+- [15:09] put vulnerabilities, they get hacked.
+- [15:11] You want to make sure you constantly
+- [15:14] have an AI going reviewing your code. I
+- [15:17] am not a security expert, but I have an
+- [15:19] app out there, Creator Buddy, that's
+- [15:21] being used by thousands of people, and I
+- [15:22] have had zero security incidents. And
+- [15:25] the reason that is is because I have AI
+- [15:28] agents going reviewing security at all
+- [15:30] times in cloud code for web. So let's do
+- [15:32] that. I'm going to use sonnet 45 for
+- [15:34] that because security is really
+- [15:35] important. And I'm going to hit send.
+- [15:37] And boom, our security employees going.
+- [15:39] So looks like a lot of our feature tasks
+- [15:41] were done. Let me show you how to now
+- [15:42] pull down the code and integrate it into
+- [15:45] your codebase. So let's do this. Let's
+- [15:47] integrate the title functionality into
+- [15:50] our app so we can start adding titles to
+- [15:53] our journal entries. Here's what you
+- [15:54] want to do. The absolute easiest way to
+- [15:57] do this if you are not a GitHub master
+- [16:00] is you just click open in CLI. What that
+- [16:03] does when you click it is it copies a
+- [16:05] command to your clipboard. And what this
+- [16:07] command is going to do is pull down this
+- [16:10] code. Basically what's happening is each
+- [16:12] one of these agents spins up their own
+- [16:15] sandbox where they are writing this code
+- [16:18] inside of GitHub. So, what you're going
+- [16:20] to want to do is open up your terminal
+- [16:22] here, paste in that command, and then
+- [16:25] hit enter. And what's going to happen is
+- [16:27] it is going to pull in that code from
+- [16:30] that claw for web session. I'm going to
+- [16:32] hit yes, I trust that folder. And boom,
+- [16:35] there it is. It pulled down the new
+- [16:37] code. Just make sure you are inside in
+- [16:40] the terminal, the app folder that was
+- [16:42] created, and then it will pull it in.
+- [16:44] So, this works just if you do it the way
+- [16:46] I showed you, this works just for the
+- [16:48] CLI. So, it's going to open up a CLI
+- [16:49] section right here, but you're good to
+- [16:51] go to interact with Cloud Code this way
+- [16:53] as well. Let's test this out. Let's see
+- [16:55] if this worked here. So, I'm going to
+- [16:57] pull open the browser where we had the
+- [16:59] app running before. And boom, untitled.
+- [17:01] Let's see if we can title this my first
+- [17:04] journal entry. Boom. That works. This is
+- [17:08] an entry.
+- [17:10] And I hit save. And there it is. The
+- [17:13] title saved. So, the code worked. Boom.
+- [17:15] Brilliant. Now what we can do is now
+- [17:18] that we tested the code we can say code
+- [17:21] worked great can we commit to main and
+- [17:25] then I'm going to hit enter. So now that
+- [17:27] we tested the code and we made sure it
+- [17:29] worked that was pulled down from claude
+- [17:30] for web. We're going to say I pulled
+- [17:34] down new code from claude for web.
+- [17:38] Please commit it to main. And I'm going
+- [17:41] to hit enter. It's going to look for the
+- [17:43] new code which it found. it is going to
+- [17:45] go to main and it is going to commit
+- [17:47] that new code for us to the main branch.
+- [17:50] If you're newer to GitHub, basically the
+- [17:51] way it works is it's like a tree. You
+- [17:53] have different branches. Your main
+- [17:55] branch is obviously your main branch and
+- [17:57] you're taking this code from all the
+- [18:00] other sandboxes and environments that
+- [18:01] claude code for web and it is smooshing
+- [18:04] it into the main which is basically your
+- [18:06] main working branch. So that's how you
+- [18:09] pull down the code, review it and push
+- [18:11] it to your main branch. Now, all you'd
+- [18:14] want to do is go in here and do the
+- [18:16] exact same thing for the other feature.
+- [18:19] So, you'd go into whatever feature it
+- [18:20] is. Maybe we want to add the social
+- [18:22] media share buttons. You would click
+- [18:24] open in CLI. You would take that
+- [18:26] command, go into your terminal in Visual
+- [18:28] Studio Code, enter it. It pulls down the
+- [18:30] code. You review. You push. Wait, that
+- [18:32] is not all though. Let's show you how to
+- [18:35] take advantage of the product manager
+- [18:38] and the marketing manager feature. So,
+- [18:40] we have our product manager. We go into
+- [18:42] our build app feature road map. They
+- [18:45] built us out a road map here. Let's
+- [18:47] check it out. Let's see what it built
+- [18:48] for us. Search and discovery features. I
+- [18:50] like that. Tags and organization editor
+- [18:52] and enhancements. Dark mode. I like
+- [18:55] that. So, let's This is how you should
+- [18:56] think about it. This is the workflow. As
+- [18:58] your road map is built out, we read our
+- [19:01] road map. And as we do it, let's take
+- [19:03] some of this and give it to Claude for
+- [19:04] web to do. I'm going to even take this a
+- [19:06] step further and I'm going to do it on
+- [19:07] mobile just to show you what that looks
+- [19:08] like. So, we're on the mobile app. I'm
+- [19:10] just copying the iOS screen to my Mac.
+- [19:12] And we're going to say, let's take a
+- [19:14] look at our product manager
+- [19:16] recommendations here. Dark mode. We need
+- [19:17] a dark mode. People like writing in dark
+- [19:19] mode. Please add a dark mode to the app.
+- [19:24] And I'm going to hit send on the mobile
+- [19:26] app. And now it is going to start work
+- [19:27] for us building out that dark mode. As
+- [19:29] you can see here, it already added here.
+- [19:31] It is completely crossplatform. So, the
+- [19:33] way I like to think about the mobile app
+- [19:36] is this allows you to ideulate and write
+- [19:40] code anywhere you are on the go. For me,
+- [19:43] I don't know the way you guys work, but
+- [19:44] for me, the most ideas I come up with
+- [19:47] are at the gym. I guess just lifting
+- [19:48] weights, getting huge muscles, really
+- [19:50] gets the ideas and the juices flowing.
+- [19:53] So, I always have my phone ready where
+- [19:55] when the idea comes, I quickly go on the
+- [19:57] app, I spin up tasks, and by the time
+- [19:59] I'm done getting huge biceps and triceps
+- [20:02] and glutes, I'm back home and I have a
+- [20:04] bunch of code to review and my app
+- [20:06] improved while I was lifting weights.
+- [20:08] Your competition, they're looking at
+- [20:10] Instagram reels the entire time they're
+- [20:11] at the gym. Their biceps are this small.
+- [20:14] The amount of dopamine they're getting
+- [20:15] from Instagram reels is this big. You
+- [20:17] your muscles are getting huge. You're
+- [20:19] you're coming with way more features for
+- [20:20] your app. you're getting better in every
+- [20:22] single way. And lastly, the way I really
+- [20:24] like to use this mobile app is before I
+- [20:26] walk into my bedroom at night before I'm
+- [20:28] going to bed. I always pull open the
+- [20:30] mobile app on my phone. I make sure I
+- [20:32] have my six to seven tasks I showed you
+- [20:35] earlier running so that when I wake up
+- [20:37] in the morning, I have code to review, I
+- [20:39] have road maps to review, I have tweets
+- [20:40] to review, and my app literally got
+- [20:43] better while I was sleeping. That is how
+- [20:45] you take your productivity to the next
+- [20:47] level. That's why claude code for web is
+- [20:49] so unbelievably powerful. You now have
+- [20:52] the ability to spin up an army of AI
+- [20:54] agents. You now have the ability to be a
+- [20:55] oneperson business that conquers the day
+- [20:58] that gets so much work done. You need to
+- [21:01] be taking advantage of this free credit
+- [21:02] to drive. There's only $3 of credits and
+- [21:04] we improved our app right here. If you
+- [21:06] learned anything at all, leave a like,
+- [21:08] subscribe if you haven't yet. All I do
+- [21:10] is make incredible videos about AI. Turn
+- [21:12] on notifications. I go live live three
+- [21:15] times a week. And also sign up for the
+- [21:17] number one AI free newsletter in the
+- [21:19] world. Link down below. 40,000 people
+- [21:21] subbed. I know you'll love it.

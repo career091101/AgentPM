@@ -1,0 +1,349 @@
+---
+title: "Transcript: RDvKjiR9bBU"
+video_id: "RDvKjiR9bBU"
+video_url: "https://www.youtube.com/watch?v=RDvKjiR9bBU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:09:34"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: RDvKjiR9bBU
+
+- URL: https://www.youtube.com/watch?v=RDvKjiR9bBU
+- Retrieved at: 2025-12-30T10:51:22+09:00
+
+## Text
+
+- [00:00] Let's learn how we can start utilizing
+- [00:01] MCP within our agent workflow. And yes,
+- [00:04] OpenAI made it way more confusing than
+- [00:06] it needs to be. So, I'll explain
+- [00:07] everything as simple as possible.
+- [00:09] Welcome back. In today's video, we're
+- [00:11] going to build out a workflow leveraging
+- [00:12] the native integration of MCP within
+- [00:15] this OpenAI agent builder. I'm going to
+- [00:17] go over the nuances of integrating this
+- [00:19] way, why it could be a good thing, but
+- [00:21] also why this could be a bad thing if
+- [00:23] you use the native version of the OpenAI
+- [00:25] integration. Now, your first question
+- [00:27] might be, Corbin, what the heck do you
+- [00:28] mean native integration? Essentially,
+- [00:30] when you put an MCB block here, we hit
+- [00:32] add. You'll notice that it says Open AI
+- [00:35] connectors. These are connections that
+- [00:37] leverage OpenAI's back-end
+- [00:39] infrastructure or in other words,
+- [00:41] essentially it's supposed to be their
+- [00:43] version of an easy plug-and-play where
+- [00:45] essentially you just provide an API key
+- [00:47] and then you can do actions within these
+- [00:49] different softwares, whether it's Gmail,
+- [00:51] Google Calendar, SharePoint, Dropbox.
+- [00:53] But I'm going to go over a very specific
+- [00:54] caveat of why this integration might not
+- [00:57] be good for you. But we'll set one up
+- [00:58] today just so you understand how to use
+- [01:00] it and it's going to be with Google
+- [01:01] Calendar. Non-native integrations is
+- [01:03] when you come down here to thirdparty
+- [01:05] servers such as Zapier, Stripe, Shopify,
+- [01:09] everything like that. So in this video,
+- [01:10] let's set up Google Calendar. The steps
+- [01:12] and processes you'll learn in today's
+- [01:13] video, you can go ahead and apply to all
+- [01:15] the other integrations you'll see with
+- [01:17] OpenAI. So first things first, I'm just
+- [01:19] going to go ahead and delete this little
+- [01:20] block here. We're going to leverage the
+- [01:22] MCP directly in the agent itself. So
+- [01:24] what I'm going to do is simply hit my
+- [01:25] agent here. We created a new workflow.
+- [01:27] I'm going to come down here to tools and
+- [01:30] we're going to hit MCP server. We're
+- [01:31] going to hit Google calendar. It's going
+- [01:33] to request an access token. And the way
+- [01:34] I want you to think of an access token
+- [01:35] is this is our way of telling OpenAI
+- [01:38] that we have the rights to this
+- [01:40] individual's Google calendar. For
+- [01:41] example, the email and the calendar
+- [01:43] we're going to be using today is going
+- [01:44] to be my contact at webcafi.com. I'm
+- [01:47] telling OpenAI, hey, I own this. Here's
+- [01:50] my key. Therefore, you can do stuff to
+- [01:52] this calendar. This exists for obvious
+- [01:54] reasons. So, basically, you can't just
+- [01:55] affect everyone's calendar. To do this,
+- [01:57] we're going to hit get access token.
+- [01:58] It's going to bring you to a page like
+- [02:00] this. Don't worry, I know this looks
+- [02:02] extremely scary and extremely like
+- [02:04] OpenAI. Where the heck did you just take
+- [02:06] me? Before we dive into the implications
+- [02:08] of integrating this way, let's just find
+- [02:10] out how the heck do we find our API key.
+- [02:12] You will notice our first step here is
+- [02:14] authorized APIs. And then sadly, or
+- [02:17] maybe not sadly, but essentially Google
+- [02:19] gives you every single API that they
+- [02:20] provide. This is too many, right? If
+- [02:22] we're just trying to do Google Calendar,
+- [02:24] we need to find it. So on your computer,
+- [02:26] do command F or control F and type in
+- [02:28] calendar. Now, this is going to make it
+- [02:30] so it pops up pretty fast here, which is
+- [02:32] nice. If you're doing Gmail, type in
+- [02:33] Gmail. You know the situation. Once we
+- [02:35] do calendar here, I'm going to simply
+- [02:37] open it. And what you'll notice is that
+- [02:38] it is not as simple as, hey, Corbin, I
+- [02:41] want to integrate everything with Google
+- [02:43] calendar. Essentially what they do here
+- [02:44] is they'll granularize a lot of the
+- [02:47] different types of actions. But if you
+- [02:49] want like the end all end all the top
+- [02:51] level of integrating an API for that
+- [02:53] specific software or application we're
+- [02:56] going to go with the one that starts
+- [02:57] with /cal. And the reason because and
+- [02:59] you can learn something new right now is
+- [03:00] that everything after calendar eg
+- [03:03] calendar.acls
+- [03:04] calendar.calers
+- [03:06] calendar.events
+- [03:08] these are going to be subcategories
+- [03:10] within this endpoint found in this API.
+- [03:12] This is confusing, I know. For now, all
+- [03:14] you need to understand is go with the
+- [03:16] shorter URL. Let me show you another
+- [03:18] troubleshooting thing that could help
+- [03:19] you out. If you're trying to integrate
+- [03:20] something else, it's not Google
+- [03:21] Calendar, so you can't watch this video
+- [03:23] and you're like, Corbin, I need to
+- [03:24] integrate Gmail like right now. Take the
+- [03:26] Gmail part. Simply just copy all of
+- [03:28] these links. Copy. Go to the chatbot
+- [03:31] that you absolutely love and then simply
+- [03:33] just paste it in here and ask what you
+- [03:35] want. For example, if I'm like Corbin, I
+- [03:37] want to know how to create an event in
+- [03:38] Google Calendar. Which one's the one I
+- [03:39] should give access to? You can say I
+- [03:41] want the link for the ability to create
+- [03:42] an event in Google calendar. The AI will
+- [03:45] do its analyzing and then it'll provide
+- [03:47] the most relevant link such as the
+- [03:49] one.events or alternatively if you just
+- [03:51] want the master one like I told you
+- [03:53] earlier the one/calar. So now that you
+- [03:55] know that we're going to do here is
+- [03:57] we're going to click this one. But
+- [03:58] you'll notice is that we can actually
+- [03:59] click multiple if we choose to do so.
+- [04:02] Now in theory what I always suggest
+- [04:04] people to do especially if you have kind
+- [04:05] of no clue what's going on or very
+- [04:07] little clue just select them all. end of
+- [04:09] the day, select them all. See if it
+- [04:11] works or whatever you're trying to
+- [04:12] achieve can work with all them selected.
+- [04:15] You're giving all the scope, right? All
+- [04:16] the rights and the abilities to that
+- [04:18] key. For now, though, we're going to
+- [04:19] select the slashcal here, authorize
+- [04:21] APIs. Go ahead and select the relevant
+- [04:23] email you want to give access to. So,
+- [04:25] I'm going to do this one right here. But
+- [04:26] I want to point out something very
+- [04:27] important, and I'm going to show you a
+- [04:28] solution near the end of the video of
+- [04:29] how to solve for this. And that is when
+- [04:32] you give access to your calendar using
+- [04:34] this method, you will only give access
+- [04:36] for 7 days, and then it'll be revoked.
+- [04:38] But to be honest with you, I'm not sure
+- [04:41] if that's a new Google update to their
+- [04:42] policy, but from my experience, and if
+- [04:46] you're wondering what my experience is,
+- [04:47] I built out a software company called
+- [04:48] Bumpups. You can check it out, AI video
+- [04:50] model. But one of the integrations we
+- [04:51] did on this was integrating your YouTube
+- [04:54] channel to automate content workflow.
+- [04:56] Now, when I went through the development
+- [04:57] logic for this, when I created this
+- [04:59] software, at the time, Google's access
+- [05:01] token at a production level would expire
+- [05:04] every 24 hours. In other words, me
+- [05:07] accessing this access token, I would
+- [05:09] have to use a refresh token and then
+- [05:10] programmically keep refreshing it. But
+- [05:12] what Open AI does, which is kind of
+- [05:14] interesting here, is what you'll notice
+- [05:16] is that in OpenAI's agent builder, it
+- [05:19] doesn't give you the option for refresh
+- [05:20] token, but only access token, which
+- [05:22] tells me that either your workflow is
+- [05:25] going to break after 24 hours, or
+- [05:26] alternatively, maybe Google increased it
+- [05:29] to after a week. But keep that in mind.
+- [05:32] That means after seven days, your entire
+- [05:35] workflow is going to break and you're
+- [05:36] gonna have to redo the steps in order to
+- [05:38] give a new access token. But don't
+- [05:40] worry, I'm going to show you a solution
+- [05:42] to that. Right now though, let's just
+- [05:43] keep going here. I'm going to continue.
+- [05:44] Now, obviously, I'm going to have to
+- [05:45] white out that authorization code. This
+- [05:47] is all high-risk stuff. You don't even
+- [05:48] see my face right now because it's
+- [05:49] cropped in. But I'm essentially going to
+- [05:51] click this and then you're going to copy
+- [05:52] this token right here. For some reason
+- [05:54] on my page, it clicks away really fast.
+- [05:56] But just copy this token once you click
+- [05:58] this. Once you have that, it should
+- [05:59] start with like y a something something.
+- [06:01] It's just like a long string string just
+- [06:03] text. You're going to paste it here and
+- [06:05] then we'll hit connect. Next, it's going
+- [06:06] to ask like all the relevant actions you
+- [06:08] want to give consent to. We'll just say
+- [06:10] everything for now, but you can kind of
+- [06:12] get an idea like, oh, this is kind of
+- [06:13] cool. Add. So, let's see if this
+- [06:14] actually works. I'm going to simply use
+- [06:16] the prompt, you are my calendar
+- [06:18] assistant. Find all my events for
+- [06:19] October. I have the tool of Google
+- [06:21] calendar, the MCP. We just connected
+- [06:23] here. In theory, we could actually make
+- [06:24] a widget for this. Pretty cool stuff.
+- [06:26] stuff I'm going to do in another video.
+- [06:26] So, make sure to subscribe here and
+- [06:28] check out the description down below for
+- [06:29] the mega playlist that we are doing on
+- [06:30] this channel. For now, though, we're
+- [06:31] going to do text and then we shall
+- [06:33] preview this. Now, for reference, I went
+- [06:34] ahead and took my blank calendar here. I
+- [06:36] added one little event here of live
+- [06:38] stream tonight. So, when doing this and
+- [06:40] proving that this works, this is the
+- [06:42] event that should show up for October.
+- [06:44] And yes, you heard that right. I live
+- [06:45] stream every single day. I'm the only AI
+- [06:48] influencer in the industry live
+- [06:50] streaming every single day. Every single
+- [06:51] day, Corbin, every single day.
+- [06:52] Description down below. Check it out.
+- [06:53] What events are there in October? I'm
+- [06:55] going to hit enter here and we're going
+- [06:56] to go straight to our agent and then we
+- [06:58] should see what it does here. I'm going
+- [06:59] to hit approve and there we go. October
+- [07:01] 15th live streaming tonight. It shows
+- [07:03] up. This proves that the access token we
+- [07:05] worked was correct. It proves that we
+- [07:07] can actually grab data from that
+- [07:08] calendar using this method. So your next
+- [07:10] question might be, Corbin, this is super
+- [07:12] cool, but I don't want to keep having to
+- [07:15] reset my access token to give access to
+- [07:17] this. I just want this flow to keep
+- [07:19] going. I get it. Let me help you out. In
+- [07:22] the short term, OpenAI might provide
+- [07:24] this in their native MCP feature. In
+- [07:25] order to do that, at least in the
+- [07:26] context of Google and Google's
+- [07:28] ecosystem. I'll be completely
+- [07:30] transparent with y'all. I have not
+- [07:31] really messed around with Microsoft's
+- [07:33] ecosystem when it comes to access tokens
+- [07:34] and how long they expire and everything
+- [07:36] of this nature, but I assume most
+- [07:38] industry standard access tokens will
+- [07:40] expire within 24 hours, 48 hours, or
+- [07:43] supposedly, as we saw with Google, 7
+- [07:45] days. This is typically industry
+- [07:46] standard. Like one niche case that I
+- [07:48] know that doesn't expire or you can set
+- [07:50] an expiry date is Pinterest which is
+- [07:53] like you can set a non-expiry date for
+- [07:55] the access token. But for these big
+- [07:57] platforms they do this for security risk
+- [07:59] and the way they go about it though. So
+- [08:01] it's like Corbin when I create a
+- [08:02] software when I connect in this method
+- [08:04] how do I do it so that when I use
+- [08:06] something like Zapier I never have to
+- [08:08] reconnect again? Well that's when the
+- [08:09] logic of a refresh token comes into
+- [08:11] play. Essentially, what a refresh token
+- [08:12] is is that the software will hit the
+- [08:15] refresh token, then give you a new
+- [08:17] access token that will then expire in 24
+- [08:18] hours and then does this cycle
+- [08:20] automatically in the background and you
+- [08:22] never have to worry about it. But how do
+- [08:24] we do that without having to set up our
+- [08:26] own little custom, you know, source code
+- [08:28] and like I don't want to code Corbin,
+- [08:30] just give me an easy plug-and-play.
+- [08:31] Well, that comes into Zapier and I plan
+- [08:33] on doing an entire video on this. And
+- [08:35] the way Zapier works in this context is
+- [08:37] we can do that exact same integration of
+- [08:38] Google calendar, but then you would
+- [08:40] integrate and connect Google Calendar
+- [08:42] with Zapier's platform. Therefore, we
+- [08:44] circumn the pain point of having to
+- [08:47] reset our access token every time. So,
+- [08:48] make sure to stay tuned for this
+- [08:49] channel. Subscribe down below. I'm going
+- [08:51] to show you a really, really cool use
+- [08:53] case using Zapier here that's going to
+- [08:55] allow me to create a AI YouTube bot that
+- [08:58] I can put in any link, ask any question,
+- [09:00] and get information out of the video.
+- [09:02] One last major shout out here. Make sure
+- [09:04] to check out the school community
+- [09:05] description down below as well. It is
+- [09:06] free to join. Think of it like the
+- [09:07] Reddit of all Reddits when it comes to
+- [09:09] AI. I need help coding. I need help with
+- [09:11] my AI agent workflow. Sword are two free
+- [09:13] codes. Whatever it may be, description
+- [09:15] down below. Join for free. So, there we
+- [09:18] go. That is how you set up an MCP native
+- [09:20] integration with OpenAI. If you found
+- [09:22] value in today's video, make sure you
+- [09:23] leave a like. It is completely free just
+- [09:25] like the community description down
+- [09:26] below. Builders content log. I'll see
+- [09:28] you in the next. OpenAI has a native
+- [09:30] integration for MCPS, but they need to
+- [09:31] give us the ability to add a refresh
+- [09:32] token so we never have to keep resetting
+- [09:34] it every seven

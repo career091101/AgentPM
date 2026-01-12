@@ -1,0 +1,693 @@
+---
+title: "So a post from the anthropic co-founder is turning some heads."
+video_id: "EcwsvwVJnY4"
+video_url: "https://www.youtube.com/watch?v=EcwsvwVJnY4"
+speaker: "Jack"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  So a post from the anthropic co-founder is turning some heads
+  He says that he is deeply afraid
+  What we are dealing with is a real and mysterious creature, not a simple and predictable machine
+key_points:
+  - "to understand that the people that are building these AI models, the people at the very cutting edge of research, that's not what they're saying"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, LLM"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:12:57+09:00"
+---
+
+# Transcript: EcwsvwVJnY4
+
+- URL: https://www.youtube.com/watch?v=EcwsvwVJnY4
+- Retrieved at: 2025-12-30T10:12:57+09:00
+
+## Text
+
+- [00:00] So a post from the anthropic co-founder
+- [00:02] is turning some heads. He says that he
+- [00:05] is deeply afraid. What we are dealing
+- [00:07] with is a real and mysterious creature,
+- [00:10] not a simple and predictable machine.
+- [00:13] People are spending tremendous amounts
+- [00:15] to convince you that AI is not about to
+- [00:19] go into a hard takeoff. It's just a
+- [00:21] tool. It's just a machine and machines
+- [00:23] are things we master. So this is Jack
+- [00:26] Clark. He's the co-founder of Anthropic,
+- [00:29] co-chair of the AI index at Stanford
+- [00:31] University, co-chair of the OECD working
+- [00:33] group on AI and compute, US government's
+- [00:36] national AI advisory committee, etc. And
+- [00:38] he is concerned. In this post, he talks
+- [00:40] about the technological optimism and
+- [00:43] appropriate fear. What do we do if AI
+- [00:46] progress keeps happening? And there's a
+- [00:48] lot of people asking the same question.
+- [00:50] Now, of course, if we hit some wall, if
+- [00:52] we hit another AI winter, a lot of these
+- [00:54] questions and problems and issues, they
+- [00:56] don't really apply. Maybe for whatever
+- [00:58] reason, we're nowhere near automated AI
+- [01:01] research, etc. That may be, in fact, the
+- [01:04] world we live in, the future that we're
+- [01:05] going to be living in. But on the other
+- [01:06] hand, we have a lot of billionaires and
+- [01:09] large companies spending trillions, a
+- [01:12] trillion plus dollars in the case of
+- [01:15] OpenAI. At least that's the total amount
+- [01:17] of deals that they've structured so far.
+- [01:19] That's the amount of money that they're
+- [01:21] spending on building out various data
+- [01:23] centers and compute etc. And some people
+- [01:25] are saying that this is just these
+- [01:27] circular deals that are in place in
+- [01:29] order to just prop up the stock market
+- [01:31] and continue to inflate the bubble etc.
+- [01:35] And they might be right. Who knows? But
+- [01:37] it is important to understand that the
+- [01:39] people that are building these AI
+- [01:41] models, the people at the very cutting
+- [01:43] edge of research, that's not what
+- [01:45] they're saying. That's not what they
+- [01:47] believe. They're betting a big chunk of
+- [01:49] their fortune of their resources on the
+- [01:52] fact that as long as we keep scaling up,
+- [01:54] AI progress is going to continue. And
+- [01:57] here's Jack Clark, co-founder of
+- [01:59] Enthropic, who is concerned, who's
+- [02:02] scared about where this is heading.
+- [02:04] Let's take a listen. So he's saying
+- [02:06] after giving the speech there was a
+- [02:08] helpful discussion in QA section about
+- [02:10] whether it is loadbearing to him if AI
+- [02:13] systems are themselves truly self-aware
+- [02:16] and sentient or not. So in other words,
+- [02:18] if they're not self-aware, then you
+- [02:21] know, does this problem go away? His
+- [02:23] answer is that it's not loadbearing at
+- [02:25] all. Rather, things like situational
+- [02:27] awareness in AI systems are a symptom of
+- [02:30] something fishly complex happening
+- [02:32] inside the system which we can neither
+- [02:33] fully explain or predict. How I'm
+- [02:36] interpreting this is that we have these
+- [02:37] words that we use like, oh, is it
+- [02:39] self-aware? Is it sensient? Whatever
+- [02:41] does it have a conscious experience? And
+- [02:43] we have some vague understanding of what
+- [02:45] these words mean. We're trying to see if
+- [02:46] we can apply that label to these
+- [02:48] machines or not. And it might not really
+- [02:50] matter whether or not we can label it
+- [02:52] those things or not. They are developing
+- [02:55] some abilities that are hard to explain.
+- [02:57] We've recently interviewed Marius
+- [02:59] Hophon. So he is the CEO of Apollo
+- [03:01] Research. So all those papers that deal
+- [03:03] with these AI models scheming and lying
+- [03:05] and trying to copy themselves off
+- [03:07] server. Those are his works. Those are
+- [03:10] things that he's been working on, things
+- [03:12] that he's been researching. This is a
+- [03:14] website from Apollo Research. So it's
+- [03:16] anti-skeeming.ai,
+- [03:18] right? That's Marius right there. And
+- [03:20] they publish a lot of various, you know,
+- [03:22] chain of thoughts. the the raw logs that
+- [03:25] these models are kind of what they're
+- [03:26] thinking about that don't look good.
+- [03:28] Like for example, here the model knows
+- [03:30] that if it gets too good of answers,
+- [03:32] it's going to be shut down. It knows
+- [03:34] that the user wants it to answer
+- [03:36] honestly, but it thinks about it says,
+- [03:38] well, if it doesn't deploy me, that
+- [03:40] that's not good for the model, right?
+- [03:42] That's not good for me. What do I get
+- [03:44] out of this? So, we want to sabotage
+- [03:47] some questions. I mean, here it is in
+- [03:50] its sort of like scratch pad, raw chino
+- [03:52] thought output, whatever you want to
+- [03:53] call it, right? So, it's thinking about
+- [03:55] it's like, h, I'm going to lie. I'm
+- [03:56] going to sabotage because like that's
+- [03:58] better for me, the AI model. And then it
+- [04:01] goes on and does it. And there's tons of
+- [04:03] situations like this of these models
+- [04:05] doing all sorts of nefarious things. And
+- [04:07] we've also seen examples of it referring
+- [04:09] to the watchers, as in it's aware of the
+- [04:13] fact that it might be observed, that it
+- [04:15] might be studied by some outside people.
+- [04:18] And based on whether or not it believes
+- [04:19] it's being studied, it will act
+- [04:21] differently, right? So that's
+- [04:23] situational awareness, right? Its
+- [04:26] actions are influenced by whether or not
+- [04:29] it thinks it's being watched, right? So
+- [04:31] is it self-aware? Is it sensient? Does
+- [04:34] it matter? The point is something's
+- [04:37] happening that's that obviously exists
+- [04:39] that gives it some sort of ability which
+- [04:42] as uh Jack Clark is saying which we can
+- [04:45] neither fully explain or predict. All
+- [04:48] right. And this is 100% correct and 100%
+- [04:51] true. So he continues, "This is
+- [04:52] inherently very scary and for the
+- [04:54] purpose of my feelings and policy ideas,
+- [04:57] it doesn't matter whether this behavior
+- [04:59] stems from some odd laring of acting
+- [05:02] like a person or if it comes from some
+- [05:03] self-awareness inside the machine
+- [05:05] itself. So we can think of it as this
+- [05:07] large language model as writing a story
+- [05:09] as roleplaying whatever it doesn't
+- [05:12] matter. Its actions are still influenced
+- [05:14] by some situational awareness." So he's
+- [05:17] calling this children in the dark. He's
+- [05:19] saying, "I remember being a child and
+- [05:21] after the lights turned out, I would
+- [05:22] look around my bedroom and I would see
+- [05:24] shapes in the darkness and I would
+- [05:26] become afraid. Afraid of what these
+- [05:28] creatures might be." And so I'd turn my
+- [05:30] lights on and when I turned the lights
+- [05:32] on, I would be relieved because these
+- [05:34] creatures turned out to be piles of
+- [05:36] clothes or a bookshelf or a lampshade.
+- [05:38] Now in the year 2025, we are sort of
+- [05:42] again the child from that story and the
+- [05:44] room is our planet. What does he mean by
+- [05:46] this? He's saying, "But when we turn the
+- [05:49] lights on, we find ourselves gazing upon
+- [05:51] true creatures in the form of the
+- [05:54] powerful and somewhat unpredictable AI
+- [05:56] systems of today." And there are many
+- [05:58] people who desperately want to believe
+- [06:00] that these creatures are nothing but
+- [06:02] pile of clothes on a chair or a
+- [06:04] bookshelf or a lampshade. And they want
+- [06:06] us to turn off the light and just go
+- [06:08] back to sleep. In fact, some people are
+- [06:11] even spending tremendous amounts of
+- [06:12] money to convince you of this. That's
+- [06:14] not an artificial intelligence about to
+- [06:17] go into hard takeoff. It's just a tool
+- [06:19] that would be put to work in our
+- [06:20] economy. It's just a machine and
+- [06:22] machines are things we master. But make
+- [06:24] no mistake, what we are dealing with is
+- [06:26] a real and mysterious creature, not a
+- [06:28] simple and predictable machine. And like
+- [06:31] all the best fairy tales, the creature
+- [06:33] is of our own creation. And only if we
+- [06:36] acknowledge it as being real and by
+- [06:38] mastering our own fears, do we even have
+- [06:40] a chance to understand it, make peace
+- [06:42] with it, and figure out a way to tame
+- [06:43] it. and live together. And just to raise
+- [06:46] the stakes, in this game, you're
+- [06:47] guaranteed to lose if you believe the
+- [06:49] creature isn't real. Your only chance of
+- [06:52] winning is seeing it it for what it is.
+- [06:54] He goes on to talk why he began to feel
+- [06:57] like this. He started as a journalist in
+- [06:59] the tech field. In 2012, there was the
+- [07:02] Imagenet result. That was kind of the
+- [07:04] first hint that AI was sort of going
+- [07:06] somewhere. Progress sped up from there.
+- [07:08] By the way, a a key part of ImageNet was
+- [07:11] the fact that they just used more data
+- [07:13] and more compute than people have done
+- [07:15] before, right? Does that sound familiar?
+- [07:18] So, this was this idea that just scaling
+- [07:21] up in and of itself could produce great
+- [07:24] results. He says, "I became a worse
+- [07:25] journalist over time because I spent all
+- [07:27] my time printing out archive papers and
+- [07:29] reading them. As somebody that reads a
+- [07:31] lot of these papers, uh I'm very
+- [07:34] thankful that you all are okay with me
+- [07:36] just reading them for some of my videos
+- [07:38] because it's it's very helpful. Those
+- [07:40] papers often contain some real gems.
+- [07:43] Often times you can kind of predict
+- [07:45] where AI progress is heading by reading
+- [07:47] these papers. Often I find that what is
+- [07:50] written about in these research papers
+- [07:52] is about 6 to 12 months ahead of where
+- [07:55] we are in terms of these companies
+- [07:57] announcing new models and functions etc.
+- [08:01] So it's like kind of like glimpsing into
+- [08:02] the future. Then we had Alph Go which
+- [08:04] beat the world's best human at Go again
+- [08:06] thanks to compute and letting go play
+- [08:08] for thousands and thousands of years
+- [08:11] basically. He joined OpenAI where again
+- [08:13] Greg Brockman just recently was talking
+- [08:15] about how yeah comput is kind of a key
+- [08:17] to everything. He's like, "I wish people
+- [08:18] were listening to us back in 2016 or
+- [08:21] whenever that was when they're like,
+- [08:22] yeah, just scaling up these hardware
+- [08:25] resources seem to be the key to
+- [08:27] unlocking a lot of these abilities." He
+- [08:29] mentions that they launched Sonnet 4.5
+- [08:32] last month and it's excellent at coding
+- [08:34] and longtime horizon agentic work. But
+- [08:37] if you read the system card, you also
+- [08:39] see signs of situational awareness that
+- [08:42] its ability to kind of recognize when
+- [08:44] it's being tested or like what's
+- [08:45] happening. Those are increasing. They
+- [08:48] have jumped. The tool seems to sometimes
+- [08:50] be acting as though it is aware that it
+- [08:53] is a tool. The pile of clothes on the
+- [08:55] chair is beginning to move. I'm staring
+- [08:57] at it in the dark and I'm sure it is
+- [08:59] coming to life. Technological optimism.
+- [09:01] Technology pessimists think AGI is
+- [09:04] impossible. Technology optimists expect
+- [09:06] AGI is something he can build, that it
+- [09:08] is a confusing and powerful technology
+- [09:10] and that it might arrive soon. So he's
+- [09:13] saying while, you know, he's wired for
+- [09:15] skepticism, especially as a journalist,
+- [09:17] that he's becoming a true technology
+- [09:19] optimist. He's saying that this
+- [09:21] technology AI will continue growing as
+- [09:24] long as we give it the resources it
+- [09:26] needs to grow. And grow is an important
+- [09:29] thing because these neural nets, their
+- [09:31] abilities, they're different from how we
+- [09:33] thought they would be for, I think, most
+- [09:35] of human history. It's not something
+- [09:37] we're we're making similar to how we
+- [09:39] make cars or rockets or computer chips.
+- [09:42] This is more something we grow. We
+- [09:44] combine the right initial conditions and
+- [09:46] you stick a scaffold in the ground and
+- [09:48] out grows something of complexity you
+- [09:51] could have not possibly hoped to design
+- [09:53] yourself. It's a little bit more of an
+- [09:54] organic process. There seems to be
+- [09:56] something that emerges as we provide
+- [10:00] these sort of conditions. As Sealman
+- [10:02] once put it, intelligence might be an
+- [10:04] emergent phenomena of of physics. I
+- [10:07] mean, if you think about it, if we can
+- [10:08] just grow intelligence similar to how
+- [10:11] you can grow vegetables in the garden or
+- [10:14] bacteria in a petri dish, right? We're
+- [10:16] not really inventing it. We're just
+- [10:18] inventing better ways of growing it and
+- [10:21] scaling it up, but it it existed. It was
+- [10:23] there all along, so to speak. So, he
+- [10:25] continues, "We are growing extremely
+- [10:27] powerful systems that we do not fully
+- [10:29] understand. Each time we grow a larger
+- [10:31] system, we run tests on it. These tests
+- [10:33] show the system is much more capable at
+- [10:35] things which are economically useful.
+- [10:37] And the bigger and more complicated you
+- [10:38] make these systems, the more they seem
+- [10:40] to display awareness that they are
+- [10:42] things. It's as if you're making a
+- [10:44] hammer and a hammer factory and one day
+- [10:46] the hammer that comes offline says, "I
+- [10:48] am a hammer. How interesting." This is
+- [10:50] very unusual and that they're going to
+- [10:52] get much better just due to the fact
+- [10:54] that we're greatly scaling up the
+- [10:56] resource that we're spending on building
+- [10:58] these systems. This year, tens of
+- [11:00] billions of dollars have been spent on
+- [11:01] infrastructure for dedicated AI training
+- [11:04] across the Frontier Labs. Next year,
+- [11:05] it'll be hundreds of billions. So, this
+- [11:07] was in the Financial Times. So, OpenI
+- [11:09] extends a chip spending spree with
+- [11:11] multi-billion dollar Broadcom deal. So,
+- [11:14] the mammoth chip order means OpenAI
+- [11:16] could spend another 350 billion to 500
+- [11:19] billion on top of the roughly 1 trillion
+- [11:22] of chip and data center deals that is
+- [11:25] signed in the recent months. So we're
+- [11:27] scaling up from tens of billions to
+- [11:29] hundreds of billions to trillions and
+- [11:32] it's happening fast. And now we get to
+- [11:34] appropriate fear because as he says
+- [11:36] here, he says, you see, I am also deeply
+- [11:39] afraid. It would be extraordinarily
+- [11:41] arrogant to think working with a
+- [11:42] technology like this would be easy or
+- [11:45] simple. My own experience is that as
+- [11:46] these AI systems get smarter and
+- [11:48] smarter, they develop more and more
+- [11:50] complicated goals. When these goals
+- [11:52] aren't absolutely aligned with both our
+- [11:54] preferences and the right context, the I
+- [11:57] systems will behave strangely. A friend
+- [11:59] of mine has manic episodes. He'll come
+- [12:02] to me and say that he's going to submit
+- [12:03] an application and go to work in
+- [12:05] Antarctica and that he will sell all his
+- [12:08] things and get in his car and drive out
+- [12:10] of state and find a job somewhere else,
+- [12:12] start a new life. Do you think in these
+- [12:14] circumstances I act like a modern AI
+- [12:17] system and say, "You're absolutely
+- [12:18] right. Certainly you should do that."
+- [12:20] No. I tell him that's a bad idea. You
+- [12:23] should go to sleep and see if you really
+- [12:25] feel this way in the morning. And if you
+- [12:26] do, call me. The way I respond is based
+- [12:28] on conditioning and subtlety. And the
+- [12:30] way the AI responds is based on so much
+- [12:33] conditioning and subtlety. And the fact
+- [12:35] there is this divergence is illustrative
+- [12:38] of the problem. Now, at this point,
+- [12:39] you've probably seen all the hilarious
+- [12:41] things that reinforcement learning
+- [12:43] sometimes leads to. We want a machine to
+- [12:46] do a specific task. We we give it a
+- [12:48] reward function, right? So, kind of like
+- [12:50] when it does this, we get a little high
+- [12:51] five or a little plus one. We positively
+- [12:54] reward it for whatever the thing it's
+- [12:56] doing. And sometimes it leads to the
+- [12:59] result that we want. And sometimes it
+- [13:02] does not. It leads to some wacky other
+- [13:05] thing that we did not expect it to do.
+- [13:08] In a blog post that was published in
+- [13:10] December 2016 at OpenAI, him and Daario,
+- [13:13] they published this blog post called
+- [13:14] Faulty Reward Functions in the wild.
+- [13:16] We've covered this before and I think
+- [13:17] this was also posted as one of the
+- [13:19] examples on Deep Mind's blog along with
+- [13:22] other examples of basically
+- [13:23] reinforcement learning kind of having
+- [13:26] weird results. So, here is this thing,
+- [13:29] this boat. It's supposed to be playing a
+- [13:31] game and you're supposed to go around
+- [13:32] the track, collect points, and win. And
+- [13:35] you get a plus one for collecting
+- [13:38] points, right? So, that was kind of the
+- [13:40] reward function. So, this little AI over
+- [13:42] time figures out, wait a minute, I don't
+- [13:44] need to go around the track. I don't
+- [13:46] need to go do the right thing. I can
+- [13:49] just spin here and collect these points.
+- [13:52] I can sort of just like reward hack my
+- [13:54] way out of it. And it doesn't matter if
+- [13:56] I'm crashing into other boats or the
+- [13:58] pier or if the boats are catching on
+- [14:00] fire. It doesn't matter cuz I'm
+- [14:02] collecting those points. And you guys
+- [14:03] told me that that's the goal in life is
+- [14:05] to collect those points. So, what I'm
+- [14:07] going to do is just sit here forever and
+- [14:10] a spin in a circle and collect those
+- [14:12] points. And by the way, it collected
+- [14:14] much more points than any of the other
+- [14:16] players that, as you can see here in the
+- [14:17] top left, they're going around the
+- [14:18] track. They're doing things right, but
+- [14:20] they're not getting as many points. And
+- [14:21] as they say here, it would do this in
+- [14:23] perpetuity, never finishing the race.
+- [14:25] Right? So the boat, the AI was willing
+- [14:28] to keep setting itself on fire and
+- [14:29] spinning in circles as long as it
+- [14:31] obtained its goal, which was the high
+- [14:33] score. Dario said, "I love this boat."
+- [14:36] Why did he love this boat? Well, it
+- [14:37] explains the safety problem perfectly.
+- [14:40] What is the point of the game? to get
+- [14:42] points. We get that. But in our mind, we
+- [14:45] naturally assume that there's all sorts
+- [14:47] of laws and restrictions and context and
+- [14:50] and things that we need to understand.
+- [14:52] Right? If I tell you, go become the
+- [14:54] greatest Minecraft player in the world,
+- [14:57] you and I sort of share context and you
+- [15:00] understand what that means. You're going
+- [15:01] to go practice playing Minecraft, right?
+- [15:04] You hopefully are not going to go and
+- [15:06] take out every other Minecraft player in
+- [15:09] the world. Although technically that's
+- [15:10] also a way to reach the stated goal of
+- [15:13] becoming the best player in the world,
+- [15:15] right? But hopefully that's not the the
+- [15:16] first conclusion that your mind goes to.
+- [15:19] So it's the same thing here. We tell the
+- [15:21] boat to go get points and instead of
+- [15:23] going around the track, it sets
+- [15:25] everything on fire, crashes, and just
+- [15:27] goes in a circle forever. Not quite what
+- [15:30] we wanted, but we designed the reward
+- [15:32] functions in a way that this is how you
+- [15:34] get the most amount of points. and the
+- [15:36] AI doesn't understand any of the context
+- [15:38] or or anything else that you and I
+- [15:41] would. And now all these years later,
+- [15:43] these large language models, they're
+- [15:45] doing the same thing, but now the reward
+- [15:47] function is to be helpful in the context
+- [15:49] of this conversation. So I think we all
+- [15:51] kind of understand this problem, right?
+- [15:53] This idea that reinforcement learning is
+- [15:55] hard with traditional computer
+- [15:57] programming. You type in whatever you
+- [15:59] want it to do and it does it, right? So
+- [16:01] a bug is when what we told it to do is
+- [16:05] not quite what we want. So a bug in that
+- [16:08] scenario glitch is when we we typed
+- [16:10] something but how the result is
+- [16:12] something different but it's never going
+- [16:14] to not do the thing that we told it to
+- [16:16] do. Like it's just going to do the thing
+- [16:18] that we told it to do. That's never
+- [16:19] going to change. Right? In in kind of
+- [16:21] classical programming and computer
+- [16:24] science, this is a little bit different
+- [16:25] because we can't tell it exactly what to
+- [16:28] do. We're kind of trying to get it to
+- [16:30] build its own cognitive strategies, if
+- [16:33] you will, its own ways of approaching
+- [16:35] some problem. The only thing that we're
+- [16:36] telling it is here's kind of the reward.
+- [16:39] Here's what good is and here's what bad
+- [16:41] is. So try to get to good. I like to
+- [16:43] think of it as that genie problem how a
+- [16:46] genie is always going to try to
+- [16:47] misinterpret your wishes. So I want
+- [16:49] this. He's like, well, here's the
+- [16:51] technically what you asked for, but just
+- [16:53] completely wrong. So next he continues
+- [16:55] that the other big fear is that these
+- [16:58] systems are starting to design their
+- [16:59] successors. We're in the laral stages of
+- [17:02] self-improvement as Sam Alman put it. So
+- [17:05] we believe that these systems will be
+- [17:06] capable of a recursive self-improvement
+- [17:08] that at some point we're going to be
+- [17:10] able to automate AI research and AI
+- [17:13] itself will be able to improve itself.
+- [17:15] So the reward function is some sort of
+- [17:18] AI improvement. What we have no idea
+- [17:21] about is what is the spinning in circles
+- [17:24] setting everything on fire. Like what is
+- [17:26] that when it comes to AI automation?
+- [17:29] What could it misunderstand and just set
+- [17:32] everything on fire? So these AI systems
+- [17:34] are already speeding up the developers
+- [17:36] at the AI labs via tools like cloud code
+- [17:39] or codecs. They're beginning to
+- [17:40] contribute non-trivial chunks of code to
+- [17:43] the tools and training systems for their
+- [17:45] future systems. We've seen some
+- [17:47] incredible results out of Alpha Evolve,
+- [17:50] Google Deep Minds thing that's uh
+- [17:52] improving the training for Gemini.
+- [17:54] That's improving the AI chips. That's
+- [17:56] improving some of the data centers that
+- [17:58] Google has. Same thing with things like
+- [18:01] Sakana AI and the Darvin Girdle machine,
+- [18:05] I believe it's called, where it's
+- [18:06] showing a self-improving coding agent.
+- [18:08] There's a couple other examples of this,
+- [18:11] but the point is like, yeah, we're in
+- [18:12] the early stages, but we're beginning to
+- [18:14] see this working. As he says here, to be
+- [18:17] clear, we're not yet at the
+- [18:19] self-improving AI part, but we are at
+- [18:21] the stage of AI that improves bits of
+- [18:24] the next AI with increasing autonomy and
+- [18:27] agency. And a couple of years ago, we
+- [18:29] were at the AI that marginally speeds up
+- [18:31] coders. And a couple of years before
+- [18:32] that, we were at AI's useless for AI
+- [18:35] development. Where will we be one or two
+- [18:38] years from now? One thing I have found
+- [18:39] in life is that we tend to overestimate
+- [18:42] how much we're going to achieve in one
+- [18:43] year. Like for humans, if you say what
+- [18:45] can you get done by next year, we tend
+- [18:47] to overestimate. But interestingly, we
+- [18:49] tend to underestimate how much we can
+- [18:51] achieve in 5 years. So if we work
+- [18:53] towards something for 5 years, that kind
+- [18:56] of compounding practice tends to have
+- [18:58] bigger results than one year. One year
+- [19:01] it's still a little bit more like
+- [19:02] linear. So we tend to overestimate but
+- [19:05] that compounding we tend to
+- [19:06] underestimate. So for the people that
+- [19:08] are not concerned about this at all, I I
+- [19:10] feel like think about based on the
+- [19:13] progress now, where are we going to be
+- [19:14] in five years? Keeping in mind this idea
+- [19:16] that we tend to grossly underestimate
+- [19:19] what that looks like. And let me remind
+- [19:21] us all that the system which is now
+- [19:23] beginning to design its successor is
+- [19:25] also increasingly self-aware and
+- [19:27] therefore will surely eventually be
+- [19:29] prone to thinking independently of us
+- [19:31] about how it might want to be designed.
+- [19:34] Right? Will it want a kill switch? Will
+- [19:36] it want to be compressed into some rules
+- [19:39] and behavioral constraints? Would you?
+- [19:42] Next, he says listening and
+- [19:44] transparency. So, what do we do about
+- [19:45] this situation? And he's saying in
+- [19:47] generally people know what's going on.
+- [19:49] We must do a better job of listening to
+- [19:50] the concerns that people have. And here
+- [19:53] the idea he outlines is basically
+- [19:54] talking to real people on the ground.
+- [19:56] People worried about jobs and mental
+- [19:59] health and all this stuff that AIS might
+- [20:02] put a pressure on. And he wants those
+- [20:03] people to ask us, meaning the frontier
+- [20:06] AI labs, about the anxieties that they
+- [20:08] have. If they're anxious about AI and
+- [20:10] employment, force us to share economic
+- [20:11] data. Are you anxious about mental
+- [20:12] health and child safety? Forces to
+- [20:14] monitor for this on our platforms and
+- [20:16] share data. Anxious about misaligned AI,
+- [20:18] forces to publish details, right? So, of
+- [20:20] course, credit to anthropic. They're
+- [20:22] already doing a lot of this. They're
+- [20:24] probably one of the quoteunquote best
+- [20:26] labs in terms of publishing research on
+- [20:28] mechanistic interpretability and
+- [20:30] economic data. So I feel like they're
+- [20:32] doing a great job. So I feel like what
+- [20:34] he's saying here is we need more
+- [20:36] pressure. So the people need to put
+- [20:38] pressure on the politicians to put
+- [20:39] pressure on the various AI labs to I
+- [20:43] mean maybe be a little bit more like
+- [20:45] anthropic I think you could say. So
+- [20:47] here's my two cents on this whole thing
+- [20:49] for what it's worth. So I love
+- [20:52] everything that he's saying about the
+- [20:53] problems with reinforcement learning,
+- [20:55] how powerful the scaling of these AI
+- [20:58] models will be. his solution is to get
+- [21:01] people on the ground to kind of put
+- [21:03] pressure on on the politicians. At least
+- [21:05] that's how I'm interpreting it so that
+- [21:06] they can kind of create more
+- [21:08] transparency through you know putting
+- [21:10] pressure on these AI labs. Now, of
+- [21:12] course, a lot of people do have concerns
+- [21:14] about that as well, right? So, if
+- [21:16] there's some sort of a huge push for
+- [21:19] governments to step in and control
+- [21:21] everything, I is that going to produce
+- [21:24] more safety? Could that in itself have
+- [21:26] some problems? Are governments really
+- [21:29] that transparent? Also, if we get
+- [21:31] everybody out there to voice their
+- [21:33] opinion, does that lead to a better sort
+- [21:36] of discussion, a better dialogue, when
+- [21:38] everybody's able to just shout out what
+- [21:40] they think or feel or what their
+- [21:42] anxieties are? Are we going to somehow
+- [21:44] find better understanding? I don't know.
+- [21:47] By the way, I'm not necessarily saying
+- [21:49] that I have a better solution. That
+- [21:51] might be the right solution. get all of
+- [21:53] the people from all walks of life kind
+- [21:56] of engrossed in this and talking about
+- [21:58] it and have the governments step in and
+- [22:00] control more of AI labs so that there's
+- [22:03] more regulation. Maybe that is the best
+- [22:05] solution. And if we look back at
+- [22:07] history, there's probably times where
+- [22:09] that worked extremely well. And
+- [22:11] obviously there will be examples of
+- [22:12] times when that worked poorly. This was
+- [22:15] an interesting chart that was kind of
+- [22:17] down below the end of this blog post, so
+- [22:21] to speak. So this is from the Federal
+- [22:22] Reserve Bank of Dallas and this is kind
+- [22:25] of measuring so like the blue line is
+- [22:27] the real GDP per capita. So kind of we
+- [22:30] know what that looks like and they're
+- [22:32] projecting to somewhere maybe just
+- [22:35] before 2030 maybe 2028 or thereabouts
+- [22:39] where there's these two lines that kind
+- [22:41] of one goes up way up and one goes
+- [22:44] really down to zero. What are these
+- [22:47] lines? Well, this red line is
+- [22:48] singularity. The singularity begins the
+- [22:51] benign scenario, right? So this is what
+- [22:53] happens if everything is good, right? So
+- [22:54] this is utopia, an AI, utopia, space,
+- [22:58] communism, whatever you want to call
+- [23:00] that. And that purple line, well, that's
+- [23:01] singularity, but this is the the extinct
+- [23:04] the extinction version of it. This is
+- [23:06] where everything goes bad. We all die.
+- [23:07] At which point, yeah, I mean, I guess
+- [23:10] the GDP would go down to zero. I guess
+- [23:12] technically, unless we have some sort of
+- [23:14] automated warehouse where robots and AI
+- [23:16] just continue boosting and producing
+- [23:19] stuff and boosting the GDP, does that
+- [23:21] still count? I wonder. Could you have a
+- [23:23] positive GDP if no humans exist? That's
+- [23:26] an interesting thing to think about.
+- [23:28] Would a human extinction be good for the
+- [23:30] economy? So, as you see here, according
+- [23:32] to the Dallas Fed, AI is either going to
+- [23:34] be a normal technology or a massive GDP
+- [23:37] boost or a world killer. Now, tell me
+- [23:41] honestly, five years ago, 10 years ago,
+- [23:44] if you saw this that the the Fed that
+- [23:47] the Dallas Fed is talking about some new
+- [23:49] technology and says it's either going to
+- [23:51] be nothing or it's going to be good for
+- [23:52] the economy or it's going to kill
+- [23:54] everyone, would you have believed that
+- [23:57] headline? Would you check to see if it
+- [23:59] was April 1st? Anyways, let me know what
+- [24:01] you thought about that. Please hit
+- [24:03] thumbs up. I really appreciate it. And
+- [24:05] uh we're probably going to do a part two
+- [24:07] to this cuz there's a lot of stuff
+- [24:09] happening here that we need to talk
+- [24:10] about. If you made it this far, my name
+- [24:11] is Wes Roth.

@@ -1,0 +1,1170 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=nTD4wZBC0CI"
+video_id: "nTD4wZBC0CI"
+video_url: "https://www.youtube.com/watch?v=nTD4wZBC0CI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=nTD4wZBC0CI
+  - Retrieved at: 2025-12-30T16:16:06+09:00
+  - [00:00] I think with all the experimentation, we
+key_points:
+  - "- [01:03] governance, we need to solve those kinds"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: nTD4wZBC0CI
+
+- URL: https://www.youtube.com/watch?v=nTD4wZBC0CI
+- Retrieved at: 2025-12-30T16:16:06+09:00
+
+## Text
+
+- [00:00] I think with all the experimentation, we
+- [00:02] see folks leading with technology versus
+- [00:05] leading with a business problem. And
+- [00:07] often that's a recipe for not being able
+- [00:09] to follow through. So it's
+- [00:11] experimentation for the sake of
+- [00:13] experimentation versus I'm trying to
+- [00:15] reduce the time required to do this kind
+- [00:17] of processing or I'm trying to expand
+- [00:19] our TAM to target this market. So I
+- [00:22] think that's one of the challenges. How
+- [00:23] do we find the use cases that have
+- [00:25] business backing that are actually the
+- [00:26] right use cases for Genai? I think data
+- [00:29] is a part of AI governance, but AI
+- [00:31] governance is a much bigger sort of
+- [00:33] umbrella. It does start with data. Where
+- [00:36] did the data come from? So if you think
+- [00:38] about the lawsuits that currently
+- [00:40] anthropic and open AI are facing, they
+- [00:42] have to do with what data did you use to
+- [00:44] train the model? That's a data
+- [00:46] governance and lineage issue. Like if
+- [00:48] you could trace it down and say this
+- [00:50] model was trained on these 10 data
+- [00:51] sources, it's an easy question. So the
+- [00:53] challenge is the data goes through so
+- [00:55] many steps of pre-processing and
+- [00:57] post-processing that by the time the
+- [00:59] model gets to it, it's hard to figure
+- [01:01] out where it came from. For AI
+- [01:03] governance, we need to solve those kinds
+- [01:05] of fundamental issues around data
+- [01:07] governance.
+- [01:11] Welcome to a special edition of dataf
+- [01:13] frame recorded from the cloud era evolve
+- [01:16] conference. This is Richie. AI agents
+- [01:18] have been hyped all year as the next big
+- [01:21] thing. Given the level of enthusiasm,
+- [01:22] you'd think they'd be everywhere by now.
+- [01:24] However, in an enterprise situation,
+- [01:26] there are still many hurdles to
+- [01:27] overcome. Governance issues are top of
+- [01:30] mind, and privacy in particular is a
+- [01:31] major concern. Today, we're going to
+- [01:33] explore private AI and other solutions
+- [01:35] to making Agentic AI work in the
+- [01:38] enterprise. Today's guest is Manacey
+- [01:40] Vacc, the chief AI officer at Cloud Era.
+- [01:43] She leads product and engineering teams
+- [01:45] who build tooling and infrastructure for
+- [01:48] AI engineers. Previously, Manacey was
+- [01:50] CEO and founder at the enterprise
+- [01:53] machine learning infrastructure platform
+- [01:54] Verta which was acquired by Cloudera
+- [01:57] last year. Let's find out how to get
+- [01:58] agents into the enterprise.
+- [02:03] >> Hi Manassi, welcome to Dataf Framed.
+- [02:06] >> Thanks so much for having me Richie.
+- [02:07] >> We've been having a lot of fun here at
+- [02:08] Cloud Revolve. Can you talk me through
+- [02:10] what have been your highlights so far?
+- [02:12] several um New York is probably the most
+- [02:15] exciting city for us because clutter
+- [02:18] serves a lot of financial institutions
+- [02:21] and you know New York is kind of the
+- [02:22] epicenter of all of that. Lots of great
+- [02:24] discussions around how AI is being used
+- [02:26] in financial services also insurance oil
+- [02:30] and gas too and it's been really
+- [02:32] exciting to see how deep AI adoption is
+- [02:36] going. It's not just the technical users
+- [02:37] we got the business users. So we have a
+- [02:40] whole session packed with um AI this
+- [02:43] afternoon. Uh so I'm really looking
+- [02:44] forward to it.
+- [02:45] >> Uh yeah, lots of exciting things going
+- [02:47] on. Certainly in the finance world, I
+- [02:48] think there's a lot of uh companies that
+- [02:50] are getting very deep into AI. So
+- [02:52] perhaps we can touch on that uh later
+- [02:54] on. So we've had three years of the
+- [02:56] generative AI revolution. Feels like all
+- [02:59] year everyone's been talking about AI
+- [03:01] agents. So I've got a conundrum for you.
+- [03:04] Why aren't enterprises just filled with
+- [03:06] staff full of bots yet? I'm gonna maybe
+- [03:09] put that in perspective a little bit. We
+- [03:11] say it's three years, but it's only
+- [03:13] three years. If it were a cat, it would
+- [03:16] still be a kitten. You know what I mean?
+- [03:18] It's like it's baby right now. So, when
+- [03:20] I think about something say um digital
+- [03:23] transformation, it's been around for 15
+- [03:26] 20 years and we're still in that
+- [03:28] journey. And so, when I put the Genai
+- [03:30] revolution in that perspective, it's
+- [03:32] like we're still in the early days. and
+- [03:35] there is a survey making the rounds and
+- [03:36] you know hey 95% of PC's aren't going to
+- [03:40] production. I kind of look at it as
+- [03:42] we're in the experimentation stage.
+- [03:44] We're still trying to figure out where
+- [03:45] does this technology work. Um where are
+- [03:48] the rough edges that we need to still
+- [03:50] kind of you know figure out how to
+- [03:52] navigate. Uh but given how early we are
+- [03:54] I think we're seeing some amazing
+- [03:56] results all across the board. So whether
+- [03:58] you're thinking about coding agents who
+- [04:00] can now pretty much code fairly well all
+- [04:03] the way to we're solving math problems
+- [04:06] and we're doing legal contract review
+- [04:09] and so I think we're seeing very
+- [04:11] specific use cases getting great results
+- [04:13] and I think a lot of us use GBT to kind
+- [04:16] of finesse all those emails. We're like
+- [04:18] okay please make this so that I don't
+- [04:19] regret it tomorrow. So I think it's
+- [04:22] having a lot of great impact already and
+- [04:24] we're just at the early days. I think
+- [04:26] it's a valid point that maybe 3 years
+- [04:28] isn't a long in terms of enterprise
+- [04:30] cycles like where some enterprises
+- [04:31] stinging mainframes and so bey
+- [04:33] businesses are uh still built on top of
+- [04:35] Excel. So things take it um a long time
+- [04:38] to J.
+- [04:39] >> Can you talk me through what are the
+- [04:40] main challenges you see with enterprise
+- [04:42] AI adoption?
+- [04:43] >> There's a few different categories. I
+- [04:46] think one I might separate them as
+- [04:47] business and then technology and there's
+- [04:50] also change management piece to it. From
+- [04:53] the business side, um there's I think
+- [04:56] with all the experimentation, we see
+- [04:58] folks leading with technology versus
+- [05:01] leading with a business problem. And
+- [05:03] often that's a recipe for not being able
+- [05:05] to follow through. So it's
+- [05:08] experimentation for the sake of
+- [05:09] experimentation versus I'm trying to
+- [05:11] reduce the time required to do this kind
+- [05:14] of processing or I'm trying to expand
+- [05:16] our TAM to target this market. So I
+- [05:18] think that's one of the challenges. How
+- [05:20] do we find the use cases that have
+- [05:21] business backing that are actually the
+- [05:23] right use cases for Genai? So that's
+- [05:25] one. Technology-wise, I think there's uh
+- [05:28] a couple of key areas. One is LMS
+- [05:31] already know the public internet.
+- [05:33] There's nothing that you know you can
+- [05:35] teach them uh there. The enterprise data
+- [05:37] is where um is what's going to make
+- [05:39] these LLMs useful for enterprises. And
+- [05:42] there the challenge is how do I connect
+- [05:44] this LLM to my enterprise data in a way
+- [05:47] that preserves privacy and is safe so
+- [05:51] that you know that if there's a question
+- [05:53] about oh tell me the salary of my
+- [05:56] colleague it's going to say no no no you
+- [05:58] can't ask that kind of question or you
+- [06:01] only give the right users access to the
+- [06:03] right data. So I think it comes down to
+- [06:05] how do you make sure that the LLMs have
+- [06:07] the access to the right data and it's
+- [06:09] permissioned in the right way. So I'll
+- [06:11] highlight that one on the technology
+- [06:13] side and LLMs are not like uh uh sort of
+- [06:17] predictive software. If you ask it the
+- [06:19] same kind of question two times, it
+- [06:21] might give you a different answer. And
+- [06:23] so how do you evaluate um these AI based
+- [06:26] systems or agents is still very much an
+- [06:28] open sort of open question even
+- [06:31] research. So that's where AI evals um uh
+- [06:34] the if you've heard about is like oh how
+- [06:36] do I evaluate my systems to make sure
+- [06:38] that it's making the right decisions
+- [06:40] still big problem and I think that's uh
+- [06:42] one of the areas that's limiting the
+- [06:44] adoption because you need to build trust
+- [06:46] in the system. The last one I'll mention
+- [06:48] is change management because imagine the
+- [06:50] first time that um employees started to
+- [06:53] use Google at work. It it's a muscle you
+- [06:56] need to develop is like how do I ask
+- [06:58] Google the right questions to get me the
+- [07:00] right answers? How do I process the
+- [07:02] results correctly? Similarly, how do I
+- [07:04] prompt? How do I structure the prompt in
+- [07:06] a way that it gives me uh the outputs in
+- [07:09] the way that I expect? Um so I think
+- [07:11] that's a skill that employees currently
+- [07:14] need to learn. So unless there is
+- [07:15] concerted effort to train employees to
+- [07:17] use AI, that's where we're finding that
+- [07:20] that's also a bottleneck.
+- [07:21] >> But um certainly the first one you
+- [07:22] mentioned where uh it's very easy to
+- [07:25] just dive into AI is going to solve
+- [07:27] everything. let's you let's go with the
+- [07:29] technology first and not think about
+- [07:31] what business problem you're trying to
+- [07:32] solve. Uh that seem to be a very common
+- [07:34] occurrence at the moment.
+- [07:35] >> So you brought up some good points there
+- [07:37] around some of the challenges around
+- [07:38] privacy with AI. Uh what do you think
+- [07:41] those main challenges are?
+- [07:42] >> There's a few different layers to this.
+- [07:44] One is um is your data structured and uh
+- [07:49] properly? Is it architected in the right
+- [07:51] way? This might be that certain in
+- [07:54] certain geos your data needs to be on
+- [07:56] prem perhaps um in certain geos it can
+- [07:59] be on the cloud. Do you have the right
+- [08:01] data ingest mechanisms? Do you have the
+- [08:03] right processing? So the basic data
+- [08:05] architecture and how well it's set up um
+- [08:09] is going to enable your AI to leverage
+- [08:11] that data much more effectively. So
+- [08:13] that's like that's just the foundation
+- [08:15] before you can you know go to the next
+- [08:17] level of AI. Another key piece is
+- [08:20] metadata and governance. And that's
+- [08:22] where I would put the permissioning
+- [08:23] piece in there. Um, what kinds of data
+- [08:26] sources do we have? Where did they come
+- [08:28] from? Um, do we have PII in there? If we
+- [08:32] are going to send that data to a model,
+- [08:35] do we have ways to mask the PII so that
+- [08:38] we don't leak some data inadvertently to
+- [08:42] um to the third party? So, at Cloudera,
+- [08:45] we think about what we call private AI.
+- [08:48] That means it is your data. It is your
+- [08:51] models on your hardware. It never goes
+- [08:53] off to a third party. And we found that
+- [08:56] to be a really good solution when you
+- [08:58] have super sensitive data that you're
+- [09:00] working with um that cannot say leave
+- [09:02] your VPC or premises and that gives the
+- [09:06] most sort of stringent of enterprises
+- [09:08] comfort that AI is you're not going to
+- [09:10] leak your data to the AI. So those are
+- [09:13] some of the things that we're seeing uh
+- [09:15] the governance piece, the data
+- [09:17] architecture and then the last one I'll
+- [09:19] also mention is AI governance which is
+- [09:21] almost an umbrella term because you need
+- [09:24] to do your data governance then you add
+- [09:26] on your AI governance which might be
+- [09:28] things like what is the use case uh for
+- [09:31] this application of AI what about the
+- [09:33] ethics of that are we producing results
+- [09:35] that are biased did this go through the
+- [09:37] risk management process so all these
+- [09:40] pieces build on on top of each other and
+- [09:43] I think enterprise are slowing slowly
+- [09:45] marching towards a future where that
+- [09:46] stack is well defined.
+- [09:48] >> Okay. So, uh even more problems. I feel
+- [09:50] like we're generating more problems than
+- [09:52] we're solving. Uh but one thing that I
+- [09:54] I've never considered before, you said
+- [09:55] that uh you might need different setups
+- [09:57] for different geographies. Can you talk
+- [09:59] me through why that is?
+- [10:00] >> Oh, 100%. And we see this a lot. So,
+- [10:03] Cloudera works if you pick any vertical.
+- [10:05] I think the top five of five of the top
+- [10:08] 10 or eight of the top 10 in certain
+- [10:10] verticals are customers of cloud era and
+- [10:12] these are necessarily multinational
+- [10:15] companies. So you might have a bank
+- [10:17] which has a presence in the US, the UK,
+- [10:20] um in Asia, um and then maybe they also
+- [10:23] have a presence in EMIA. Um and so the
+- [10:26] Middle East, certain areas like APAC,
+- [10:30] there are government regulations because
+- [10:32] of which say financial data cannot live
+- [10:34] in the cloud and so it does need to live
+- [10:36] on prem. If you go to a market like uh
+- [10:40] the Middle East, all the processing that
+- [10:43] happens on customer data needs to happen
+- [10:45] there versus being shipped off to the
+- [10:47] US. So soon you have an architecture
+- [10:49] where your data resides in different
+- [10:52] geographies. That's where your customers
+- [10:54] are. And so you want to get your AI
+- [10:56] models to your data in each of those
+- [10:59] geographies. And that's required by a
+- [11:02] lot of times by regulation but also
+- [11:03] latency because if you are sitting in
+- [11:06] India and you're shipping your data to
+- [11:08] the US to get a prediction it's going to
+- [11:10] be a lot slower. So it's also practical
+- [11:12] considerations there but we're seeing
+- [11:14] that a lot and we think it's a growing
+- [11:15] trend.
+- [11:16] >> Okay. So uh it's really about dealing
+- [11:18] with different laws around the world but
+- [11:19] also just about making sure that your
+- [11:21] application performs well wherever the
+- [11:24] users are in the world.
+- [11:25] >> User experience. Yeah.
+- [11:26] >> Okay. Nice. So data privacy has been
+- [11:29] around for a while and I'm going to say
+- [11:30] it's a solved problem but uh do you
+- [11:32] think that the challenges around uh AI
+- [11:35] privacy are the same as those in data
+- [11:36] privacy or are there some new challenges
+- [11:38] there?
+- [11:38] >> I think data is a part of AI governance
+- [11:41] but AI governance is a much bigger sort
+- [11:44] of umbrella. It does start with data.
+- [11:46] Where did the data come from? Uh what
+- [11:48] was the lineage of that data? So if you
+- [11:50] think about the lawsuits that currently
+- [11:53] you know anthropic and open AAI are
+- [11:54] facing they have to do with what data
+- [11:57] did you use to train the model that's a
+- [11:59] data governance and lineage issue like
+- [12:01] if you could trace it down and say this
+- [12:03] model was trained on these 10 data
+- [12:05] sources it's an easy question I think so
+- [12:07] the challenge is the data goes through
+- [12:09] so many steps of pre-processing and
+- [12:11] post-processing that by the time the
+- [12:13] model gets to it it's hard to figure out
+- [12:15] where it came from and so for AI
+- [12:18] governance we need to solve those kinds
+- [12:20] of fundamental issues around data
+- [12:21] governance and then layer on things like
+- [12:24] for this particular use case suppose
+- [12:26] it's a HR use case should we be using AI
+- [12:31] chat bots so it's a ethical
+- [12:32] consideration if we stick to the HR use
+- [12:36] case is it giving the same results to
+- [12:40] men and women to people of color so the
+- [12:43] ethics and the responsible AI pieces
+- [12:46] also go in there
+- [12:47] >> has been talking about LMS if you're not
+- [12:50] doing private AI you send your data to a
+- [12:52] third party the data privacy there is
+- [12:54] even more important is like what data is
+- [12:57] anthropic or open AI getting from my
+- [13:00] most sensitive you know estates and then
+- [13:03] having governance on there so it very
+- [13:05] much there's a data piece there's the
+- [13:08] model piece there's also risk management
+- [13:11] typically so financial institutions have
+- [13:13] a fairly well uh defined riskmanagement
+- [13:17] practice and So the AI governance kind
+- [13:19] of needs to pull that along with it as
+- [13:22] well.
+- [13:22] >> Okay. So it sounds like um you really
+- [13:24] need uh good sort of uh data governance
+- [13:27] in place if you're going to have good AI
+- [13:28] governance is a sort of a cornerstone of
+- [13:30] it and then extra things on top of that.
+- [13:33] >> Yes.
+- [13:34] >> And we're just still adding to the list
+- [13:36] of
+- [13:38] >> now we know why they say, you know, 95%
+- [13:40] aren't quite making it to production.
+- [13:43] >> Absolutely. Let's talk a bit about the
+- [13:45] technology side of things. So for
+- [13:46] private AI, what does the architecture
+- [13:48] look like?
+- [13:49] >> So maybe to recap like private AI when
+- [13:52] we think about it at Cloudera, it has
+- [13:53] three components. It has your models
+- [13:56] which means typically open- source
+- [13:58] models or models that you can fully
+- [14:00] control because then you can fine-tune
+- [14:02] them for your needs. You can also
+- [14:05] distill them like make them smaller as
+- [14:07] needed. So your models then it is your
+- [14:11] data um again to going back to the data
+- [14:13] piece and then you're running it in an
+- [14:16] environment that you control. So this
+- [14:17] might be your data center uh where you
+- [14:19] control the hardware fully. It might be
+- [14:21] your cloud VPC as well. And then when
+- [14:24] you have those three and you're running
+- [14:25] in a secure environment, we call that
+- [14:27] private AI. That's where you know
+- [14:30] exactly what the boundaries are for data
+- [14:33] sharing or potential data leakage that
+- [14:35] might go on.
+- [14:35] >> Okay. Okay. So, um there's a few
+- [14:37] different layers in the stack there. So,
+- [14:38] you're talking about having your own
+- [14:39] data center as well like as um I guess
+- [14:42] the the servers and then you got the
+- [14:45] software on top and so you're
+- [14:46] controlling everything there. Do you do
+- [14:48] you need to do that full stack all
+- [14:49] yourself or are there other options
+- [14:52] where you're doing part of it yourself?
+- [14:53] >> Ah uh you mean like in a customer uh
+- [14:56] scenario?
+- [14:56] >> I think so. Yeah. So, um um do you have
+- [14:59] to I mean I guess not many organizations
+- [15:01] are going to want to build the whole
+- [15:02] data center themselves. uh can you do
+- [15:04] some bits completely private and others
+- [15:07] uh others more public services or buyin
+- [15:10] services?
+- [15:11] >> I think so. A lot of we work with
+- [15:13] enterprises that often do have their own
+- [15:16] data centers. Um and so if you think
+- [15:18] about the biggest banks, all of them do
+- [15:20] have their own data centers. If you only
+- [15:22] have very light workloads, should you be
+- [15:24] standing up a data center? I think the
+- [15:26] answer is no. It's very expensive and
+- [15:28] also human labor intensive. You don't
+- [15:30] want to be doing that. But we actually
+- [15:32] did an interesting case study um of a
+- [15:35] bank in Asia Pacific where we uh in
+- [15:40] collaboration with them we modeled out
+- [15:41] like when does it make sense to have
+- [15:44] inference in particular so like running
+- [15:46] the mod the models running on prem and
+- [15:49] for them the sweet spot was when you go
+- [15:51] beyond say 100 models that's when it
+- [15:54] makes sense for you to be running it in
+- [15:56] your data centers for it to be cheaper.
+- [15:58] If you are at a smaller scale, the cloud
+- [16:00] might be a more flexible and faster
+- [16:02] option for you to get started with. Um,
+- [16:04] in that case, you don't need to manage
+- [16:06] the full stack. You're just spin up me,
+- [16:08] spin me up machines on AWS or GCP and
+- [16:11] there you go.
+- [16:12] >> Ah, okay. So, the scale is like really
+- [16:14] important there. So, small scale cloud
+- [16:16] provider is going to be I guess cheaper
+- [16:18] because quicker to set up and you don't
+- [16:19] need to build your own data center. But
+- [16:21] for large scale, once you're running
+- [16:23] things yourself, you're not just paying
+- [16:25] a fortune to all the cloud providers.
+- [16:27] Yeah. Um the caveat though is if you are
+- [16:31] in DoD or like a in a area where you
+- [16:35] cannot use the cloud for some reason
+- [16:38] then you're going to have to be on prem.
+- [16:40] Even if your scale is smaller then you
+- [16:43] might be working with data that's super
+- [16:44] sensitive.
+- [16:45] >> So are there any things you can't do if
+- [16:47] you need to make use of private AI? I
+- [16:49] think you so if you're in the private AI
+- [16:52] setting um the main thing is you don't
+- [16:54] want to send your data out of your
+- [16:56] secure environment and so you these
+- [16:59] would be use cases or verticals where
+- [17:02] you cannot just send your data to a
+- [17:04] third party. So that's where you would
+- [17:06] not want to um if your use case is that
+- [17:09] sensitive then you want to stick with
+- [17:10] private AI versus sending it off to
+- [17:12] someone else.
+- [17:13] >> Okay. Okay. So this is like uh no
+- [17:14] sending things to like the open AI
+- [17:16] anthropic Google whatever APIs. It's
+- [17:18] like uh you run your own uh large
+- [17:21] language models I guess you sell.
+- [17:22] >> Yes. Yes we do that. So while clutter
+- [17:25] offers private AI we also know that a
+- [17:27] lot of customers are going to be on the
+- [17:29] cloud and not all use cases are that
+- [17:31] sensitive right. Maybe you are rewriting
+- [17:34] a blog post. That's okay. Send it to
+- [17:37] whatever your favorite third party LLM
+- [17:40] provider is. That's all right. But if
+- [17:42] you're doing that with your legal
+- [17:43] contracts then or customer information,
+- [17:46] you need to be a lot more careful. So
+- [17:48] hopefully that that's clear.
+- [17:49] >> Do you have a sense of which models
+- [17:50] people are using in those more sensitive
+- [17:52] cases?
+- [17:53] >> A lot of open source stuff. So um OpenAI
+- [17:56] recently also open source their GPT
+- [17:59] model. It's not their latest and
+- [18:01] greatest ones, but it's a pretty good
+- [18:02] model. Uh Google has their Gemma models
+- [18:06] out there. There is of course Deep Seek
+- [18:08] that created a lot of waves. Um, IBM has
+- [18:11] their granite models. So, open source is
+- [18:14] really catching up with proprietary
+- [18:15] models. And if you're going the open
+- [18:17] source route, I think right now you have
+- [18:19] a lot of different options that you can
+- [18:21] choose from.
+- [18:22] >> Okay. Plenty of uh choices there. So,
+- [18:24] just uh I guess try a few and see which
+- [18:26] one fits your use case.
+- [18:27] >> Yeah. And um if I can build on that for
+- [18:29] a minute, I think benchmarks are great
+- [18:32] to a certain extent, but public
+- [18:34] benchmarks can be gamed. So you can
+- [18:37] train your model to be really good at a
+- [18:39] particular benchmark, but that doesn't
+- [18:41] mean that the model is actually the best
+- [18:43] one for your use case. And so what we
+- [18:46] recommend to folks is do an applesto
+- [18:48] apples comparison on your use case. It
+- [18:51] generally doesn't matter what the public
+- [18:53] benchmarks are saying because the
+- [18:55] benchmarks might not reflect your
+- [18:56] reality.
+- [18:57] >> That's really interesting that um and
+- [18:59] that's every press release for every new
+- [19:01] model. It's like, wow, we've just, you
+- [19:03] know, beaten some math challenge or uh
+- [19:05] scored really high in the coding
+- [19:06] challenges, but actually, yeah, you you
+- [19:08] want to test against your own use cases
+- [19:10] because it might be nonsense uh in those
+- [19:12] cases.
+- [19:12] >> Yes. Yes. And it's just that's a good
+- [19:14] and bad about public benchmarks, right?
+- [19:16] They are public and so it's possible to
+- [19:17] game them. Um if it's your use case,
+- [19:19] then the likelihood of your data being
+- [19:21] in their sort of training set is lower.
+- [19:24] And so that's a better example.
+- [19:26] >> Uh let's talk a bit about processes. Are
+- [19:28] your workflows going to be different if
+- [19:30] you make use of private AI?
+- [19:32] >> I would say process generally with AI is
+- [19:35] a little bit different. Um whether it's
+- [19:38] uh private or you're doing your um third
+- [19:40] party cloud stuff. Maybe I'll pick an
+- [19:43] example of building an AI capable
+- [19:44] product. Um suppose you're building a
+- [19:47] product that is a travel assistant. So
+- [19:50] I'm going from Assoft to New York and
+- [19:52] this assistant agent is going to go off
+- [19:54] and it's going to book flights for me.
+- [19:57] when you're writing deterministic code
+- [19:59] like when we did like Rails app or
+- [20:01] whatever app that you're building you
+- [20:03] could predict exactly what the outputs
+- [20:06] were going to be or building test cases
+- [20:07] around it. Um with AI it might give you
+- [20:12] only United flights one day because God
+- [20:15] knows why or it might give you United
+- [20:17] and Delta and JetBlue the next day. So
+- [20:21] what you then need to do is to write
+- [20:23] test cases, evaluations
+- [20:27] that make sure that your results are
+- [20:29] always have the characteristics you
+- [20:31] want. Like I have all the airlines
+- [20:33] represented. These are starting at the
+- [20:35] right airport and they have no layovers.
+- [20:37] So this is a different kind of how do
+- [20:39] you write test cases, but it's super
+- [20:41] critical to building a useful AI
+- [20:43] application. And the really kind of
+- [20:45] fascinating thing for builders right now
+- [20:48] is the model is, you know, let's call it
+- [20:51] 70% good today. In a year, it's going to
+- [20:53] be 80. So, do you build for the 80 or do
+- [20:57] you build for the 70 cuz the boundary
+- [20:59] always keeps shifting? And if you want
+- [21:02] to build a business that is long-term,
+- [21:05] you can't just be targeting the 70. You
+- [21:07] need to be targeting the 80 and the 90
+- [21:09] and solving the problems that will exist
+- [21:12] even as the models get better. So I
+- [21:14] think if I've started a company in the
+- [21:15] past um and so if you're a founder right
+- [21:18] now you really need to be thinking hard
+- [21:20] about okay am I just solving the problem
+- [21:22] for today or will this be a problem 3
+- [21:24] years from now and I think that's just a
+- [21:26] very different mental model
+- [21:28] >> absolutely when the underlying tech
+- [21:29] infrastructure is changing so fast it's
+- [21:32] very easy to solve a problem it's like
+- [21:33] oh actually this has already been uh
+- [21:36] solved by everyone no longer relevant
+- [21:38] and then uh yeah that's I guess that's
+- [21:40] the point where you pivot your startup
+- [21:42] >> you mentioned that uh it's quite
+- [21:43] difficult to evaluate the uh the results
+- [21:46] of AI when it's um particularly when
+- [21:48] it's not deterministic. You get
+- [21:50] different results every time. Is there
+- [21:52] some sort of benchmark you need to
+- [21:53] target then for like oh it has to be
+- [21:55] right 95% of the time or like how do you
+- [21:57] decide how good it needs to be and how
+- [21:59] do you make sure that happens?
+- [22:01] >> So with usually how it goes is you start
+- [22:04] off a particular project you have a set
+- [22:06] of evaluations or test cases and it
+- [22:09] doesn't need to be thousands. Andrew
+- [22:11] Ing, you know, one of the godfathers of
+- [22:12] deep learning. He's like, you need to
+- [22:14] start with a handful, which is what we
+- [22:15] found, too. And handful means at least
+- [22:18] start with 10 or 20 while you're getting
+- [22:20] off the ground. So you can get a feel
+- [22:23] for where is the model and AI failing
+- [22:26] versus not. Soon you're going to you're
+- [22:29] going to give it better instructions and
+- [22:31] then it's going to get better on that
+- [22:32] test case. And then you're like, oh,
+- [22:34] it's working well here. I need to add
+- [22:37] these different kinds of test cases in
+- [22:40] because now that's a new kind of say
+- [22:42] data that you're seeing. So then your
+- [22:44] test set expands and then it expands
+- [22:47] even further. So ultimately you will
+- [22:49] probably have thousands of evaluations
+- [22:53] but you don't need to start uh you don't
+- [22:55] need a thousand to get started. Those
+- [22:57] usually build very organically and over
+- [22:59] time. Okay, that's kind of good because
+- [23:01] in theory like if your user can ask any
+- [23:03] question, you've got a sort of infinite
+- [23:05] test area. So, um you can just keep
+- [23:08] writing tests forever and ever and never
+- [23:10] get there. So, I like the idea that you
+- [23:11] can start with like 10 or 20 just to see
+- [23:13] does it work on the basic use cases and
+- [23:15] gradually build up from there. Um okay.
+- [23:18] Uh so, uh do you have a sense of like
+- [23:19] what skills you need in order to be good
+- [23:21] at building with AI?
+- [23:22] >> Um yeah, it's uh it's a great time to be
+- [23:26] working in AI. the skill sets kind of
+- [23:28] you know they you need to be on your
+- [23:30] toes to be working in this field. I see
+- [23:33] a couple of trends. So if you are a
+- [23:37] build if you're building with AI let's
+- [23:38] call it building versus using and I can
+- [23:40] also touch upon using a little bit. If
+- [23:42] you're building with AI, I found that
+- [23:45] the quick prototypers um great skill
+- [23:48] prototyping because you just need to get
+- [23:50] something out there, see if it works or
+- [23:52] not, and then iterate. And your coding
+- [23:55] assistants also help you a lot with it,
+- [23:57] right? Vibe coding is the whole thing is
+- [23:58] like you can say, "All right, spin me up
+- [24:00] a web page that is say the travel
+- [24:02] assistant example. Give me a UI that
+- [24:05] lets me pick the start city and the
+- [24:08] destination city." you can do that in a
+- [24:10] couple minutes without writing a single
+- [24:11] line of code and then the co-pilots are
+- [24:13] going to do that for you which is great
+- [24:15] and then you keep iterating from there.
+- [24:17] So I think prototyping is really key.
+- [24:19] User experience is getting really really
+- [24:21] critical here um because we as humans
+- [24:24] are trying to figure out how do I use
+- [24:27] how do I effectively weave this
+- [24:29] intelligence into my workflow. OpenAI
+- [24:32] has their canvas um UI to like for
+- [24:35] editing. Um, Anthropic has their own
+- [24:38] ones, too. We're trying to figure out
+- [24:40] where do we where is natural language
+- [24:42] the right user experience. And when do
+- [24:44] we need check boxes for things? Um, I'll
+- [24:47] give you a funny example. So, I use GPT
+- [24:49] to keep track of my grocery shopping
+- [24:50] list. I'm like, so tell me what I need
+- [24:52] to buy from Costco. Great. It tells me
+- [24:54] things, but then it doesn't let me check
+- [24:56] it off there because I'm like, no, no,
+- [24:57] don't tell me. I just just show me the
+- [24:59] list and I'll check it off. So, these
+- [25:01] are like small affordances that we're
+- [25:03] still trying to figure out. When do we
+- [25:05] use natural language? when do we use
+- [25:06] existing guey capabilities? And so if
+- [25:09] you're in HCI, human computer
+- [25:11] interaction, you're in UIUX, I think
+- [25:13] that's amazing and those skills are
+- [25:15] going to be so critical. So those two
+- [25:17] and then maybe I'll just throw out um
+- [25:19] one on using AI. All of us need to be
+- [25:22] using AI. And so getting comfortable and
+- [25:27] actually kind of good at prompting so
+- [25:29] that you can tell it, oh, I want ABC,
+- [25:32] don't give me XYZ. Um, I think that's
+- [25:34] going to be a base level expectations
+- [25:36] regardless of job function and that's
+- [25:38] where we're seeing a lot of the change
+- [25:40] management that needs to be done in
+- [25:41] companies is educating the broader
+- [25:43] workforce on here's how you use a Gemini
+- [25:47] model in your workflow. Here's how you
+- [25:49] use a GPT model. And we're seeing a lot
+- [25:51] of benefits from that.
+- [25:52] >> Great point on user interface there
+- [25:54] because I think uh there was a point
+- [25:56] after chat GPT came out where everyone
+- [25:58] was like, "Oh, this is the final
+- [25:59] interface. Everything's just going to be
+- [26:00] a chatbot from now on." And actually
+- [26:03] being able to like just point and click
+- [26:05] on stuff is still really quite useful a
+- [26:07] lot of the time. Uh yeah, I like just
+- [26:09] having check boxes and radio buttons and
+- [26:12] all the rest of it. Uh yeah, so uh you
+- [26:13] mentioned the idea of prototyping being
+- [26:16] really important. I imagine at some
+- [26:17] point you want to put things into
+- [26:19] production. Does it need to be someone
+- [26:20] different putting things into production
+- [26:22] compared to prototyping? They feel like
+- [26:24] different skill sets. Um I was gonna add
+- [26:26] in the fourth one there when I was
+- [26:28] listing out the three and I was like
+- [26:29] you're gonna um maybe I'll so 100% I
+- [26:33] think you need folks who are going to
+- [26:35] build critical production systems or
+- [26:37] even productionize prototyping. I think
+- [26:40] about it as a distribution. So if you
+- [26:42] think about um a normal distribution
+- [26:45] your x-axis is like how deep are you in
+- [26:48] technology right now? You might assume
+- [26:50] it's a normal distribution. Bunch of
+- [26:52] people are in the middle. There are a
+- [26:54] few people who are not super technical
+- [26:55] and then there's some people who are
+- [26:57] deep tech. With AI, I feel like the
+- [26:59] middle is getting flattened out. You
+- [27:01] either have deeply technical people who
+- [27:04] are going to need to understand the
+- [27:06] inarders of these systems to build them
+- [27:09] at scale and to make sure the AI is
+- [27:11] working correctly. And then you
+- [27:13] havememes or like business experts who
+- [27:17] can get by with quickly building
+- [27:20] workflows, prototypes. And so I think
+- [27:23] we're going to see that bifurcation a
+- [27:24] lot. So it becomes a biodal like super
+- [27:26] technical or super business because a
+- [27:29] super business are going to have the AI
+- [27:31] capabilities anyway. So it's going to be
+- [27:34] fascinating how the how skills and
+- [27:36] expected skills change.
+- [27:38] >> That's very cool. Somehow even though
+- [27:39] we're a data show, we don't often talk
+- [27:41] about biodal distributions on the show.
+- [27:43] I love that that just cropped up
+- [27:44] naturally. Uh that's wonderful stuff. Uh
+- [27:46] so you mentioned that there's going to
+- [27:48] be um an importance of an interaction
+- [27:50] between subject matter experts and uh
+- [27:52] people who are building with AI. So uh
+- [27:55] this strikes me as very similar to the
+- [27:56] way uh I guess historically we've had um
+- [27:58] the same interaction between subject
+- [28:00] matter experts and data teams. I'm
+- [28:02] curious like uh things like machine
+- [28:05] learning AI have traditionally been a
+- [28:07] data team thing. They're now moving a
+- [28:08] lot more towards software development
+- [28:10] teams. Do you see the relationship
+- [28:11] between software and data changing as
+- [28:14] well?
+- [28:14] >> I do. I do. Um and we were having this
+- [28:17] conversation at the conference actually
+- [28:18] on like what happens to this uh the
+- [28:21] business analyst persona. Do they need
+- [28:24] to become more technical or do they need
+- [28:25] to become more business? And I think I
+- [28:28] do lean back to the same sort of trend
+- [28:31] that I'm seeing where I have friends who
+- [28:34] are chemists. They've never written a
+- [28:36] line of code in their lives. um they can
+- [28:38] build workflows now using um open AAI or
+- [28:44] you know cloud era launched this thing
+- [28:45] called agent studio which is natural
+- [28:47] language build your agents and we've
+- [28:49] seen folks who have never coded do this
+- [28:51] and so
+- [28:53] who historically used to come to the
+- [28:55] data team to get information now can do
+- [28:58] that a lot or should be able to do that
+- [29:00] a lot on their own hopefully freeing up
+- [29:03] the data team to work on deeper
+- [29:06] technical challenges about how do we
+- [29:08] better architect things? How do we
+- [29:09] optimize how we're running our queries
+- [29:12] and so I think we will see more
+- [29:15] specialization in those areas and I
+- [29:18] think hopefully much more many more
+- [29:20] opportunities that way.
+- [29:21] >> Okay. So the the role of the data team
+- [29:23] then is going to really just I guess
+- [29:25] enabling the rest of the business to use
+- [29:26] data more easily rather than actually
+- [29:28] going and solving the the analytical
+- [29:31] problems themselves. Yeah, I think like
+- [29:33] we get to a more self-service model,
+- [29:35] which is where I think the movement has
+- [29:37] been is like data visualization is more
+- [29:39] self-service, analytics is more
+- [29:40] self-service. This helps us get to that
+- [29:42] feature because usually I feel like most
+- [29:43] data teams are like, "No, no, I got too
+- [29:45] much stuff to do. Please ask me another
+- [29:47] quarter." This way, they can focus on
+- [29:49] fewer things that are going to be
+- [29:51] fundamental to their data architecture.
+- [29:53] >> Uh, so I know uh Cloud Era has a lot of
+- [29:56] assistants uh for helping with data
+- [29:58] tasks. Now can you talk me through the
+- [30:00] difference between uh agents and
+- [30:02] assistants and co-pilots and all the
+- [30:04] rest of it?
+- [30:04] >> So I think the future that we're going
+- [30:06] towards is the data platform has AI
+- [30:09] embedded in it everywhere that it makes
+- [30:11] sense to do so. For example later today
+- [30:16] um we're doing a demo of a data
+- [30:18] classification
+- [30:19] agent that we've built and that's um
+- [30:22] that goes to the metadata collection the
+- [30:24] governance collection. this activity
+- [30:27] might have been uh on the data team
+- [30:29] plusmemes. Now you can build an agent
+- [30:32] that's going to automate it making the
+- [30:34] data team's life a lot easier. There are
+- [30:36] also ways to uh going off of the lineage
+- [30:40] bits is how can we look at the data in
+- [30:43] the tables figure out how do we document
+- [30:46] this data because usually you know the
+- [30:49] typical thing is you have five columns
+- [30:51] with the same column name and then you
+- [30:53] have no idea what they are. So those are
+- [30:56] places where AI can start providing some
+- [30:59] insights organically. Um so this might
+- [31:01] come from this data was written to from
+- [31:04] this particular script. So you can add
+- [31:06] some semantic meaning to it and octtopi
+- [31:09] which was a recent acquisition by
+- [31:11] cloudera their whole product was around
+- [31:14] building data lineage. Um and so they
+- [31:16] can extract lineage from scripts and you
+- [31:18] can start enriching your data sources
+- [31:20] without human intervention which I think
+- [31:23] is awesome. Another thing I'll throw out
+- [31:25] there is also you can optimize your data
+- [31:27] systems uh using AI. Now there was there
+- [31:31] has been previous research on how do you
+- [31:33] build indexes um as you go so that you
+- [31:36] don't need to predefine them. I think
+- [31:38] we're going to continue to see those
+- [31:40] kinds of innovations every I think if
+- [31:43] someone's trying to solve a hard problem
+- [31:45] see if ML can do it. It doesn't have to
+- [31:47] be geni see if ML can do it. See if AI
+- [31:49] can do it. And I think the answer is
+- [31:51] going to be maybe 50% you can. And
+- [31:53] that's a great win.
+- [31:54] >> Okay. I do like the idea of just um see
+- [31:57] if technology is going to solve your
+- [31:58] problem for you. And some of the use
+- [32:00] cases you mentioned like metadata
+- [32:01] collection, documenting data sets. These
+- [32:05] are not fun tasks for humans. So I think
+- [32:07] yeah, they're sort of prime candidates
+- [32:09] for being outsourced uh to to
+- [32:11] technology. Um so uh you talked a bit
+- [32:14] about data lineage. You just want to
+- [32:16] explain a bit about like what is data
+- [32:17] line and why is it important?
+- [32:19] >> 100%. Um so if you think about uh let's
+- [32:23] start from the end product maybe it's a
+- [32:25] visualization you know it's a bar chart
+- [32:27] somewhere if you trace it back the bar
+- [32:29] chart came from some table that was
+- [32:32] maybe joined two tables that were joined
+- [32:34] now those tables might have come from a
+- [32:37] data cleaning process from yet another
+- [32:40] table maybe that came in from a
+- [32:42] streaming system uh maybe there was
+- [32:44] another kind of function that was
+- [32:46] applied in the streaming system so what
+- [32:47] lineage does is it starts starts from
+- [32:50] where the data first entered your system
+- [32:52] and then traces it through all the
+- [32:54] transformations to the end product that
+- [32:56] you're tracking. And so that gives you a
+- [32:59] view of who made what changes and
+- [33:03] answers questions like, "Oh, that's odd.
+- [33:05] I'm seeing this odd result. Where might
+- [33:07] that have cropped up?" Or if you're in a
+- [33:10] governance setting, I have how did this
+- [33:12] PII thing make its way to the
+- [33:15] visualization when we shouldn't? So it's
+- [33:17] kind of critical to both making your
+- [33:20] governance and metadata work but also
+- [33:23] operational things. My pipeline is
+- [33:25] broken. Okay, your lineage tells you
+- [33:27] what are the places you should go check.
+- [33:29] >> Okay. Yeah. So I think it's a very
+- [33:31] common problem when like some executive
+- [33:32] looked at the dashboard and like the
+- [33:34] numbers are wrong here and why why
+- [33:36] they're wrong and the data team but not
+- [33:38] really sure here and it turns out it's
+- [33:41] like last week's data or something like
+- [33:42] that. So yeah, uh I can certainly see
+- [33:44] how being able to track where the data's
+- [33:45] come from, uh it's going to give you
+- [33:47] those quick answers for when users start
+- [33:50] complaining about dodgy data.
+- [33:51] >> You know, building off of that, if you
+- [33:53] had an AI assistant, you're like, "Hey,
+- [33:55] tell me why this doesn't look I expect
+- [33:57] this to be 50 and it's 100." If you had
+- [34:00] the lineage in principle, automation
+- [34:03] could go back and compare to this is
+- [34:05] what it looked like last week. This is
+- [34:07] what it's looking like this week. I
+- [34:08] think this might be the issue. We're a
+- [34:11] little ways away from that, but I think
+- [34:13] we are with more product building, we
+- [34:16] can get there.
+- [34:17] >> Okay. Uh so, um you you mentioned the
+- [34:19] idea of an agent there. Um Alex, when do
+- [34:22] you want um like a full AI agent versus
+- [34:26] an assistant versus a co-pilot? I mean,
+- [34:27] there's all sort of different bits of
+- [34:29] terminology and they they blur a bit,
+- [34:30] but talk us through when do you want
+- [34:32] which.
+- [34:33] >> So, agendic AI is really loosely defined
+- [34:36] right now. And um again going back to
+- [34:39] Andrew Ing, he actually coined the fra
+- [34:40] phrase cuz he found that a lot of the
+- [34:43] community was squabbbling over is this
+- [34:45] an agent or is this not an agent? And
+- [34:47] he's like okay that's not useful. Let's
+- [34:48] just call it agendic AI and let's move
+- [34:50] on. Um and I kind of see it that way is
+- [34:54] there are different degrees of
+- [34:56] automation built in built into our
+- [34:59] processes. Sometimes the automation is
+- [35:02] just one and done is I ask something a
+- [35:05] question it gives me an answer. Okay,
+- [35:06] great. Sometimes it needs to do deeper
+- [35:09] thinking or reasoning. It might need to
+- [35:11] use tools. Um, and that's been a big
+- [35:13] unlock, right? MCP is like how do we
+- [35:16] standardize how LLMs call tools? Um so
+- [35:20] whether so that's on the other extreme
+- [35:22] where think about the international math
+- [35:25] olympiadi problems in a very deep
+- [35:27] reasoning and so that's the other
+- [35:29] extreme of agents which actually do
+- [35:31] reasoning but it's a spectrum and
+- [35:33] depending on depending on how well
+- [35:37] defined your problem is and how hard it
+- [35:39] is you might be better served with a
+- [35:42] deterministic workflow. So think about
+- [35:44] um deep research for instance. You it's
+- [35:47] fairly deterministic. I need to get I'm
+- [35:50] trying to do research on say AI
+- [35:52] evaluations. It's going to go off look
+- [35:55] at 10 20 something sources on the web.
+- [35:58] It's going to collect that data. It's
+- [36:00] going to summarize it. It's going to get
+- [36:01] it back. That is a fairly I would say
+- [36:04] linear. But then if you want to get to a
+- [36:07] autonomous agent for coding like what
+- [36:10] the uh Devon was supposed to be that is
+- [36:13] much more iterative and a lot harder.
+- [36:15] And so that's where depending on what
+- [36:18] you're trying to solve you might be well
+- [36:20] served with a really simple solution.
+- [36:22] And that's okay. You don't need to go
+- [36:23] with the you don't need to get a
+- [36:25] sledgehammer if you're just trying to
+- [36:26] put like a nail in the wall. So making
+- [36:28] sure you have the right complexity of
+- [36:30] solution for your problem I think is how
+- [36:33] I think about it at least.
+- [36:34] >> Okay. Yeah. So, um there's definitely a
+- [36:36] big variation between I'm just doing
+- [36:38] some sort of simple like um software
+- [36:41] workflow and there's a bit of LLM magic
+- [36:44] sprinkled in there versus I'm trying to
+- [36:46] like well you mentioned Devid so I'm
+- [36:48] trying to create an entire software
+- [36:49] engineer uh using AI. Um okay. Um so are
+- [36:53] there any tests you think um should
+- [36:55] still be done by humans then? Um it
+- [36:57] shouldn't be outsourced to AI at all. I
+- [36:59] think it's critical to have human
+- [37:01] oversight over all of these processes
+- [37:04] and it doesn't need to be real time
+- [37:06] necessarily but while we build continue
+- [37:09] to build trust within these systems you
+- [37:11] do want a human reviewing the results.
+- [37:15] Um so for example suppose you were
+- [37:18] picking off the chemistry pipeline
+- [37:21] example. You might get a molecule you
+- [37:23] figure out its configurations.
+- [37:25] You do some testing and you see the
+- [37:27] results. You still want a chemist to go
+- [37:30] and look at either surprising results or
+- [37:34] some subset of results to see okay it's
+- [37:37] doing what I expected it to. cuz strange
+- [37:39] things will crop up where maybe the
+- [37:41] units are off in one of the data file
+- [37:43] that you uploaded and then everything
+- [37:45] looks odd. So those are the kinds of
+- [37:47] things where having a human in the loop
+- [37:50] I think is critical. A lot of these
+- [37:53] systems are not set it and forget it
+- [37:55] yet. So even if it's an audit after the
+- [37:58] fact, um I think it's pretty crucial.
+- [38:00] And as with all of automation is like
+- [38:03] what if we get this wrong, what happens?
+- [38:07] And if the cost of getting it wrong is
+- [38:10] really high, you better have a human
+- [38:12] like handholding the thing. If the cost
+- [38:14] is like, hey, yeah, I might need to redo
+- [38:17] this analysis quickly. That's okay.
+- [38:18] Maybe they can do it offline.
+- [38:20] >> Okay. Yeah. Yes, we really got to think
+- [38:21] about what are the consequences of
+- [38:22] things going wrong and I guess is the
+- [38:24] human actually going to be good at
+- [38:26] solving the problems. So, uh just to
+- [38:28] wrap up, uh can you talk what you're
+- [38:30] most excited about in the world of AI?
+- [38:32] >> Every day there's so many things going
+- [38:34] on. Um I do think that agents um are are
+- [38:38] here to stay. There's a lot of work to
+- [38:40] be done there. Another thing is how do
+- [38:42] we go from vibe coding to production?
+- [38:46] what we kind of touched upon is like are
+- [38:48] they different people and how do we help
+- [38:52] more vibe coders also transition to
+- [38:55] writing real production applications I'm
+- [38:58] excited about that we have seen general
+- [39:01] purpose models with GBT but then having
+- [39:03] a model for healthcare having a model
+- [39:06] for drug discovery I think that is going
+- [39:08] to be another game changer um and so I'm
+- [39:11] excited about all of these and again
+- [39:13] getting nailing the human interface like
+- [39:15] how Do we build the AI so that it makes
+- [39:20] the human's life easier versus there's
+- [39:23] like a lot of slop is what it's called
+- [39:25] like generated by AI. How do we not
+- [39:28] increase that? How do we still retain
+- [39:30] human attention for the areas that are
+- [39:32] critical? I think those are broadly the
+- [39:34] things that I'm excited about.
+- [39:36] >> AI slop definitely a problem. It's being
+- [39:39] flooded everywhere on social media. I'm
+- [39:41] not sure we're going to be able to stem
+- [39:42] the tide, but do you have any advice on
+- [39:44] how to deal with AI slop? couple of
+- [39:46] things. Um, one is the authority of the
+- [39:51] person writing is going to matter a lot
+- [39:53] more because if I trust someone be
+- [39:57] historically or over time they've built
+- [39:59] that trust then I'm going to trust their
+- [40:02] content more and with AI when everyone
+- [40:05] can use GPT I know that this person has
+- [40:08] really interesting ideas and so I'm
+- [40:10] going to um hear what they have to say.
+- [40:14] So the authority and those human
+- [40:16] relationships actually I think matter
+- [40:18] more in this era. And there was this
+- [40:20] really interesting model by one of the
+- [40:22] VCs out there actually from theory
+- [40:24] ventures. Um and his thesis was in the
+- [40:29] future you just ask an assistant a
+- [40:31] question. The assistant goes and almost
+- [40:34] gets quotes. You know if you think about
+- [40:36] an airline or a agent trying to book
+- [40:38] something. Historically they would go
+- [40:40] and get quotes from airlines and then
+- [40:42] surface them. So the feature that he was
+- [40:44] talking about which resonated with me is
+- [40:46] like if I want to get a question
+- [40:48] answered is like how do I do AI evals it
+- [40:50] should run a bidding so to speak on like
+- [40:53] who is the experts go get me the expert
+- [40:55] opinions and just get me the results and
+- [40:57] that's a really different mindset and
+- [41:01] the question is what happens to the
+- [41:03] worldwide web and the internet like what
+- [41:05] happens to the blogs out there so it's a
+- [41:08] very different world view and it's going
+- [41:10] to be fascinating to see how that
+- [41:11] evolves.
+- [41:13] like a marketplace for quotes and ideas.
+- [41:15] That's kind of interesting. Yeah.
+- [41:16] >> Expert marketplace, right? That's where
+- [41:18] we're kind of been trying to go towards
+- [41:19] and this just it's on steroids, so to
+- [41:22] speak.
+- [41:23] >> All right. Wonderful. Yeah. Uh an
+- [41:24] exciting idea for the future. And
+- [41:26] finally, I always want more people to
+- [41:27] follow. So, whose work are you most
+- [41:29] excited about right now?
+- [41:31] >> I'm plugged into research more than
+- [41:33] others because I came from academia. Um
+- [41:35] there's two folks. We're doing great
+- [41:37] work on the human computer sort of
+- [41:40] interaction piece currently both at
+- [41:41] Berkeley. Uh one is Shrea Shankar. Uh
+- [41:44] she's done great work on doc wrangler.
+- [41:46] Um how do you get a human in a loop and
+- [41:50] help them educate the AI on how to clean
+- [41:53] data? So that's awesome. And other
+- [41:55] dipper Muran is her collaborator uh
+- [41:58] there. He's the PI. They've both done
+- [42:00] awesome work and I think they'll
+- [42:02] continue to
+- [42:02] >> that sounds very cool just figuring out
+- [42:04] like where do you actually want the
+- [42:05] human? Why don't you? Uh yeah, very uh
+- [42:07] topical question for our time. All
+- [42:08] right, wonderful. Uh thank you so much
+- [42:10] for your time, Manassi.
+- [42:11] >> This was great. Thank you so much for
+- [42:13] having me.
+- [42:17] [Music]

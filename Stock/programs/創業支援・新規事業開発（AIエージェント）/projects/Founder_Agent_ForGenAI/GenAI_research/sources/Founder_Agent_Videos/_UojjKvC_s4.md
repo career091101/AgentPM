@@ -1,0 +1,4013 @@
+---
+title: "Okay, you can start. >> Great. Okay, let me start. Hey all, welcome. Nice to have so many amazing fo..."
+video_id: "_UojjKvC_s4"
+video_url: "https://www.youtube.com/watch?v=_UojjKvC_s4"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  >> Great. Okay, let me start.
+  Hey all, welcome. Nice to have so many
+  Uh, let me start by sharing my screen.
+key_points:
+  - ">> I'm going to share this in the chat."
+  - "Okay. So this has all the resources that"
+  - "we will be leveraging during the entire"
+  - "duration of this workshop. So the Google"
+  - "notebooks that we will be utilizing,"
+  - "they're all in this Google Drive."
+  - "copy of the same is here for you for"
+  - "Okay. So, this is the link for sign up."
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: _UojjKvC_s4
+
+- URL: https://www.youtube.com/watch?v=_UojjKvC_s4
+- Retrieved at: 2025-12-30T11:29:09+09:00
+
+## Text
+
+- [00:13] Okay, you can start.
+- [00:15] >> Great. Okay, let me start.
+- [00:18] Hey all, welcome. Nice to have so many
+- [00:21] amazing folks here.
+- [00:24] Uh, let me start by sharing my screen.
+- [00:31] Okay, here you go.
+- [00:35] So,
+- [00:40] so there's a link to the doc that I've
+- [00:42] prepared.
+- [00:45] >> I'm going to share this in the chat.
+- [01:08] Okay. So this has all the resources that
+- [01:10] we will be leveraging during the entire
+- [01:12] duration of this workshop. So the Google
+- [01:14] drive for the demo part of the session,
+- [01:17] all the notebooks, all the collab
+- [01:19] notebooks that we will be utilizing,
+- [01:21] they're all in this Google Drive.
+- [01:25] in the slides that I'll be using. A PDF
+- [01:27] copy of the same is here for you for
+- [01:29] your reference.
+- [01:32] Okay. So, this is the link for sign up.
+- [01:35] When I'll ask you to sign up, you'll use
+- [01:36] this link. And since I'm sharing my
+- [01:39] screen, I'll just systematically walk
+- [01:40] over each and every step. And you will
+- [01:43] use the appropriate link for you. So,
+- [01:45] there will not will not be any
+- [01:46] confusion.
+- [01:49] One thing I will do real quick, I'll
+- [01:51] just
+- [01:53] uh change the settings to viewer because
+- [01:56] yeah, I think by mistake I don't want
+- [02:00] anybody to have any editing rights and
+- [02:02] then change something that is useful for
+- [02:03] others.
+- [02:05] Okay, great.
+- [02:09] Okay. So keep
+- [02:11] uh in mind that this document is the
+- [02:14] central repository that has all the
+- [02:15] resources that you will be leveraging
+- [02:17] for this workshop. And if anybody has
+- [02:20] any doubt just feel free to ask in the
+- [02:22] chat and Bastion is also there to answer
+- [02:24] or provide you the links if you lost
+- [02:28] lose track of any link. Okay.
+- [02:32] Okay. With that let's start.
+- [02:41] So the first thing that I would like to
+- [02:42] do with all of you is to get is is to
+- [02:45] get to know all of you and ask you these
+- [02:49] two prominent questions that I have in
+- [02:50] my mind. What excites you about this
+- [02:53] workshop and what are you hoping to gain
+- [02:55] from this? And the second one is what is
+- [02:57] your current focus your work study
+- [02:59] research or just chilling in general? A
+- [03:01] lot of people for them work is worship.
+- [03:03] So I'll consider their work as chilling
+- [03:06] for them. So that's why I included the
+- [03:08] word chilling. So yeah, these two
+- [03:10] questions
+- [03:11] just quickly why don't you all just
+- [03:13] answer all the these two questions in
+- [03:16] the chat so that I can get to know you a
+- [03:19] little bit more.
+- [03:31] So I'll type in these two questions.
+- [03:33] And my expectation is answers from you
+- [03:36] guys for these questions.
+- [03:39] Okay, now even stop sharing.
+- [03:42] So as I can see there are 26 people
+- [03:44] right now. We'll just take a couple of
+- [03:46] minutes more before we kickstart the
+- [03:49] session and wait for the remaining
+- [03:51] folks. But in that meantime, I would
+- [03:54] definitely encourage you to answer this
+- [03:56] in the chat and let me know so that I
+- [03:59] get acquainted with you all. So the best
+- [04:02] part of this workshop is it's very very
+- [04:06] uh small tightly packed group of folks
+- [04:09] here and that will probably enable us to
+- [04:12] be more interactive and more engaging.
+- [04:15] So this is why I think it will be a nice
+- [04:19] thing to know what your interests are
+- [04:21] and what your hopes are to gain from
+- [04:23] this workshop.
+- [04:26] Okay. So I see the answers coming.
+- [04:27] Vashal is saying building document
+- [04:29] handling proficiency using AI
+- [04:31] independent of my tech team. Okay, nice
+- [04:35] study chilling.
+- [04:37] Fabiano is saying learning about the
+- [04:39] capabilities of the product and its
+- [04:41] applicability. Okay,
+- [04:43] Archa, I'm a product manager and a PM.
+- [04:45] I'm curious to know how it works and my
+- [04:47] expectations is to know using any code
+- [04:49] of knowledge, coding knowledge. Okay,
+- [04:51] nice.
+- [04:52] Exploring new technologies and staying
+- [04:54] up to date. Pushbuck getting hands dirty
+- [04:57] on aentic AI.
+- [05:00] Okay, I'm amazed all these are such
+- [05:03] diverse answers.
+- [05:06] Document extraction expertise. Jeff is
+- [05:08] saying he works in this sector and he
+- [05:13] wants to know handwritten claim
+- [05:14] documents and how AD performs on them.
+- [05:18] Okay.
+- [05:19] Hands-on tactics, Gary.
+- [05:23] Examples, quick theory. Okay, awesome
+- [05:25] man. It's like overwhelmingly amazing
+- [05:28] response.
+- [05:29] I feel super pumped to read all this.
+- [05:36] Piplab
+- [05:38] will be using Yeah, please don't mind if
+- [05:40] I'm messing up the pronunciation of your
+- [05:42] names. I hope you won't mind that. Yeah,
+- [05:45] sorry for that in advance.
+- [05:48] Uh we'll be using landing eye for the
+- [05:50] first time.
+- [05:52] Unil intelligent document processing
+- [05:54] with unstructured data solidifying use
+- [05:56] case to extract data from different
+- [05:57] sources and automating supply chain
+- [05:58] workflow. Okay.
+- [06:03] Kiri senior NoSQL DBA. Okay. Nice.
+- [06:08] Building faceless digital products and
+- [06:11] services.
+- [06:17] Oh man, it's awesome.
+- [06:19] Yeah, I'm just peeking at your faces and
+- [06:21] names so that I can associate all the
+- [06:24] responses with the faces of the people.
+- [06:26] So yeah, feel free to open your camera
+- [06:28] if you are in a pleasant environment
+- [06:32] conducive of opening the cam and keeping
+- [06:34] it open.
+- [06:36] But yeah, entirely your choice,
+- [06:39] but it helps me to look at your pretty
+- [06:41] faces and engage if you're actually
+- [06:45] understanding what I'm about to share
+- [06:47] with you all. all the concepts that I'm
+- [06:49] going to be highlighting and sharing.
+- [06:52] Uh it will definitely help me a lot if
+- [06:54] if I see on your faces if you're
+- [06:56] grasping them or not.
+- [07:02] Lee is saying, "Everything excites me
+- [07:04] about AI and all the different tools. I
+- [07:06] want to be a sponge and soak it all as
+- [07:09] much as possible. Currently in software
+- [07:11] quality assurance but looking to branch
+- [07:12] out on AI."
+- [07:15] Awesome, Giri. Awesome. Uh Lee
+- [07:19] Lionol Cave. So we have a Lionel here.
+- [07:23] Increasing my awareness and expanding my
+- [07:26] skills. I've worked for Oracle Cloud and
+- [07:28] help large enterprise customers develop
+- [07:30] and implement their technology strategy
+- [07:32] across several vertical industries.
+- [07:34] Amazing.
+- [07:37] Oh man, I'm so glad we have such huge
+- [07:41] diversity in here. DBAs,
+- [07:45] entrepreneurs,
+- [07:46] MLES,
+- [07:51] enthusiasts, PMs.
+- [07:54] Awesome. This is great.
+- [07:59] Nathan, very excited to see how we can
+- [08:01] use landing. I'm a developer.
+- [08:03] Yep.
+- [08:05] Yep. Gladly everybody is becoming a
+- [08:07] developer thanks to all the VIP coding
+- [08:09] capabilities that we have using all
+- [08:11] these large language models. So the bar
+- [08:14] is actually reducing which is awesome.
+- [08:18] What a time to be alive.
+- [08:21] Alberto build products to help small
+- [08:24] mediumsiz businesses process documents
+- [08:26] automatically. Data geek amazing
+- [08:29] Alberto.
+- [08:34] Okay, this is fantastic. I think that's
+- [08:36] a great start. Okay, let me share my
+- [08:39] screen again and quickly introduce
+- [08:42] myself, Bastion and Landing AI.
+- [08:51] Okay, so we have finished the steps. Now
+- [08:53] my introduction. So since the last 5
+- [08:56] years, I have been focused on developer
+- [08:57] relations building this function in
+- [08:59] different startups like Abacus 12 labs,
+- [09:01] rocks set which got acquired by OpenAI.
+- [09:03] then OpenAI itself and then stats which
+- [09:05] recently got again acquired by OpenAI.
+- [09:07] Somehow it seems like every company that
+- [09:09] I enter gets acquired at some point by
+- [09:11] OpenAI and hopefully that's not the case
+- [09:13] that happens with landing AI in the
+- [09:15] future. But even if it does happen,
+- [09:17] maybe it turns out to be something
+- [09:19] great. But yeah, that's uh my experience
+- [09:23] building developer relations functions
+- [09:24] in these startups since the last 5
+- [09:26] years.
+- [09:28] uh a bit about developer relations and a
+- [09:31] lot of you might not be familiar with
+- [09:32] what developer relations actually is.
+- [09:35] So I would never use the term marketing
+- [09:37] because there is some sort of attached
+- [09:38] connotation to it that says you know
+- [09:42] like that that implies things like uh uh
+- [09:46] buzzword fatigue something like uh
+- [09:49] marketing speak. So my aim is always to
+- [09:54] avoid unnecessary hype and to keep
+- [09:57] myself very grounded. So this is why I
+- [09:59] always categorize what I do as something
+- [10:01] like developer relations where my aim is
+- [10:04] to help product and engineering teams to
+- [10:06] create the best product by lining up all
+- [10:08] the feedback loop thanks to amazing
+- [10:10] folks like you who always are willing to
+- [10:12] give me all that awesome feedback which
+- [10:14] helps our internal PM and engineering
+- [10:16] teams to really create awesome products.
+- [10:19] And then the second role that I have is
+- [10:22] to find the high intent channels and
+- [10:24] platforms to find these devs and educate
+- [10:26] them on the AI technologies right
+- [10:29] without any fluff. So that's the
+- [10:31] intention behind all this the the whole
+- [10:33] workshop here as well to like have
+- [10:36] grounded no fluff content and to
+- [10:38] establish real world AI practices in the
+- [10:41] field of document understanding
+- [10:43] intelligent document processing or
+- [10:44] whatever you might want to call it.
+- [10:47] Okay. So, yeah. So, a little more about
+- [10:52] myself. So, I started as a full stack
+- [10:54] developer and then I quickly got
+- [10:58] somebody's trying to enter. I'm just
+- [10:59] admitting it. Admitting the person.
+- [11:02] Okay. So I was saying I started as a
+- [11:04] fullstack developer and then I got
+- [11:07] really excited about the prospects of
+- [11:09] deep learning and that's where I started
+- [11:12] explicitly involving myself devoting a
+- [11:15] lot of time at the intersection of
+- [11:17] computer vision and natural language
+- [11:18] processing. So my research was at the
+- [11:20] intersection of these two fields where
+- [11:22] precisely I was focused on the alignment
+- [11:25] of vision and language as modalities.
+- [11:29] Okay. And in my leisure time, I am a
+- [11:33] newbie crypto trader. So, anybody has
+- [11:34] expertise in crypto trading, definitely
+- [11:36] reach out to me and I'll be more than
+- [11:38] happy to learn from you. Besides that,
+- [11:40] philosophy,
+- [11:42] uh, AI, movies, and adventure sports
+- [11:45] excites me a lot. So, if you're in the
+- [11:46] Bay Area, just, you know, let me know.
+- [11:49] And if you're into any of these things,
+- [11:51] yeah, just feel free to let me know and
+- [11:52] we can hang out.
+- [11:55] Uh, okay. Let's proceed to the next
+- [11:57] slide.
+- [12:00] Okay, Bastion. So, for Bastion, why
+- [12:03] don't you why don't I let her introduce
+- [12:05] herself? Bastian, why don't you just
+- [12:06] unmute and share with folks some some a
+- [12:10] bit about yourself?
+- [12:12] >> Yeah, sure. Um, hi everyone. My name is
+- [12:15] Bastian. I'm the director of product at
+- [12:18] Landing AI. I have been working on AI
+- [12:20] product management for the past 10 years
+- [12:23] starting from uh AI enabled robotics for
+- [12:25] warehouses and manufacturing facilities
+- [12:29] all the way to um LM based document uh
+- [12:32] intelligence. So super excited to be
+- [12:34] here uh to chat more about AI uh LM
+- [12:38] agentic workflow etc.
+- [12:41] >> Awesome. Glad to have you Bastion.
+- [12:44] Uh okay.
+- [12:51] So I think I cannot start without
+- [12:54] mentioning Andrew Inc. who is the
+- [12:55] chairman of landing AI.
+- [12:57] So the idea behind
+- [13:01] this keeping this slide specifically at
+- [13:03] this position is to shine some light on
+- [13:07] what landing AI does and how does
+- [13:09] Andrew's leadership influence it and
+- [13:12] then what is the legacy that we have
+- [13:13] established so far. Okay. So
+- [13:19] you might have heard this thing landing
+- [13:21] uh sorry whenever I click the slide goes
+- [13:23] to the next one. So you might have heard
+- [13:25] this sentence unstructured documents
+- [13:28] into structured actionable information
+- [13:30] something on the same lines right but
+- [13:32] then the point is like how are we
+- [13:34] different how do we do something which
+- [13:37] is different from like just saying this
+- [13:40] out loud right
+- [13:42] uh so this is what the this is what why
+- [13:44] I'm trying to illustrate and establish
+- [13:46] here that what legacy we are bringing
+- [13:48] into the world of document understanding
+- [13:51] and where are we coming from so there
+- [13:53] are some important words to highlight
+- [13:55] here highstake industries. So our focus
+- [13:58] behind unlocking value from all the
+- [14:00] documents that exist in this world is
+- [14:04] targeted towards highstake industries
+- [14:06] primarily
+- [14:07] and real world documents that exists in
+- [14:10] these highstake industries like
+- [14:11] financial services, healthcare, legal,
+- [14:13] insurance. Okay.
+- [14:17] But although we are new in the world of
+- [14:19] IDP or document understanding, by the
+- [14:22] way, throughout the whole duration of
+- [14:23] this workshop, I'm going to be using
+- [14:25] keywords like IDP or uh intelligent
+- [14:29] document processing or document
+- [14:31] understanding or intelligent document
+- [14:33] understanding, right? Very
+- [14:34] interchangeably. Although there might be
+- [14:36] some nuances and some nuanced
+- [14:38] differences between these keywords, but
+- [14:40] I'll be just for the sake of simplicity
+- [14:41] using them interchangeably. So whenever
+- [14:43] I say IDP document understanding just
+- [14:45] you know you know you you got it I
+- [14:48] guess. So coming back to what I was
+- [14:50] saying in the world of IDP
+- [14:54] this is a very commonly seen line but
+- [14:58] what we do but although we are new in
+- [15:00] the world of IDP we existed since the
+- [15:03] last 8 years and we have helped quite a
+- [15:06] lot of industry quite a lot of uh
+- [15:09] enterprises in the manufacturing space
+- [15:11] with visual AI. I'm not sure you read
+- [15:14] the news but in the morning uh today
+- [15:17] only the news came where landing AI and
+- [15:19] ABB have signed a uh a partnership a
+- [15:23] strategic partnership and a deal uh
+- [15:25] around robotics and uh yeah around
+- [15:29] something uh specifically called
+- [15:31] autonomous versatile robotics. So super
+- [15:33] exciting. Definitely go and check that
+- [15:35] out after this workshop. But yeah, the
+- [15:38] bottom line is
+- [15:40] we come from a deep expertise in agentic
+- [15:43] framework implementation. We even
+- [15:45] contributed something called open source
+- [15:46] vision agent that produces vision code
+- [15:49] agentically and it's based on an agentic
+- [15:51] framework to produce that vision code.
+- [15:54] And then we also have developed
+- [15:55] something called landing lens. And in
+- [15:58] this entire duration of implementing
+- [16:00] agentic frameworks and dealing with
+- [16:02] supervised visual AI in the form of
+- [16:05] lending ends, we have processed more
+- [16:07] than 1 billion plus documents and images
+- [16:09] so far. And that is where our expertise
+- [16:13] in visual AI lies and comes from.
+- [16:17] And this is in the in the current
+- [16:19] manifestation in the form of agentic
+- [16:20] documentation which is our core offering
+- [16:22] at present is inspired by all this
+- [16:25] legacy and all this background that I
+- [16:27] just shared with you.
+- [16:30] Okay, let's move to the next slide
+- [16:34] and next slide.
+- [16:37] Okay, one more thing that comes to my
+- [16:39] mind before I jump to
+- [16:42] uh the beginning of our agenda today.
+- [16:45] Andrew in 2024 actually coined this term
+- [16:48] agentic or agents.
+- [16:51] I'm not sure how many of you know. Yeah,
+- [16:53] you can tell me in the chat like let me
+- [16:55] just open the chat so that I keep an eye
+- [16:57] on like folks. It's actually hard
+- [17:02] uh
+- [17:04] it's actually hard to like keep the
+- [17:06] slideshow view and then also keep an eye
+- [17:07] on the slide. But I'll be trying to like
+- [17:09] switch to and fro occasionally to just
+- [17:11] see if you guys have any question or
+- [17:12] Bastion can actually let me know if if
+- [17:15] there are some questions. But yeah,
+- [17:18] >> sounds good.
+- [17:19] >> Yeah, but I don't see anything
+- [17:20] significant as of now. So, I'll keep
+- [17:22] going.
+- [17:23] So, I'm not sure how many of you uh by
+- [17:27] the way, one more thing. Uh do you guys
+- [17:30] have the ability to unmute? Because
+- [17:31] let's say if I answer and ask a question
+- [17:35] uh should I expect just a chat response
+- [17:37] or would you be able to unmute and tell
+- [17:38] me
+- [17:40] >> can they can unmute themselves and tell
+- [17:41] you actually or they can also raise
+- [17:43] their hands and you can go one by one.
+- [17:46] >> Okay. Nice.
+- [17:47] Okay. So how many of you know uh how how
+- [17:53] many of you knew actually that Andrew
+- [17:55] coined the term agent or agents? just
+- [17:57] raise your hand like physically as well
+- [17:59] as if you're not physically your camera
+- [18:01] is not open then just you know emoji
+- [18:04] okay I see pier I see biplop
+- [18:08] okay I see some of them and some chats
+- [18:10] responses as well
+- [18:13] okay great great so it's to be honest
+- [18:17] two months ago I also didn't know that
+- [18:19] he coined that term even when I work
+- [18:21] with him and see him in office quite
+- [18:22] often so so no worries there
+- [18:26] totally understandable
+- [18:27] if you didn't know that. But yeah, this
+- [18:29] is something interesting. He actually
+- [18:31] came up with this word and a bunch of
+- [18:32] marketers picked it up picked it up and
+- [18:34] it became a huge hype.
+- [18:37] Okay, let's go back to the slides.
+- [18:44] Okay, so I will keep this view instead
+- [18:46] of like the whole slideshow because it
+- [18:48] will free up some of my screen space and
+- [18:50] I can also keep an eye on the chat. So
+- [18:51] I'll keep this view instead of like but
+- [18:53] yeah if you need me to like zoom in or
+- [18:55] something just let me know. So he coined
+- [18:58] the term Andrew in 2024 and what I'm
+- [19:01] implying is agentic document extraction
+- [19:05] the word agentic within agentic document
+- [19:07] extraction is not just a word the
+- [19:09] implementation actually is a real
+- [19:11] agentic implementation because of which
+- [19:13] we call it agentic document extraction.
+- [19:17] So now it's something to keep in mind
+- [19:19] but later as we progress towards the
+- [19:21] workshop it will become more and more
+- [19:22] concrete on what's agentic what is the
+- [19:24] specific meaning of agentic what is the
+- [19:26] spectrum of agentic in all this okay
+- [19:30] okay let's move to the next slide
+- [19:39] okay so I've already explained that
+- [19:41] agentic has a meaning in agentic
+- [19:43] document extraction it's not just a
+- [19:45] fancy way of calling a product But it
+- [19:47] actually has a very concrete opinionated
+- [19:50] and fixed meaning which will become
+- [19:53] clear as we progress.
+- [19:55] So we built this for developers keeping
+- [19:59] developers in mind and we built this for
+- [20:02] enterprise
+- [20:03] class workloads which means that it is
+- [20:06] something that runs in productions at
+- [20:08] different scales depending upon the size
+- [20:10] of your workload. Right? So this is
+- [20:12] something that you have to keep in mind.
+- [20:17] Okay. So today's agenda introduction
+- [20:19] phase. We have already gone through
+- [20:21] this. I've already shared a bit about
+- [20:23] agentic document extraction and it's
+- [20:26] agentic nature. But there's one thing.
+- [20:29] So right now let's assume that you have
+- [20:31] to drop. There's some emergency and you
+- [20:32] have to drop off. There's one thing that
+- [20:35] I would like you to take away from this
+- [20:37] session and I'm going to without any lag
+- [20:40] or delay just come at that one thing.
+- [20:45] That one thing is
+- [20:51] uh
+- [20:55] we in in the world of intelligent
+- [20:57] document processing just because humans
+- [21:00] have this innate intuitive capability of
+- [21:03] understanding the structure and the
+- [21:05] visual cues really well they feel that
+- [21:08] LLMs or VLMs or natively multimodal
+- [21:11] large language models are also capable
+- [21:13] apable of the same kind of ability. But
+- [21:15] that's not the case. And as you delve
+- [21:18] deeper and deeper into the world of IDP,
+- [21:20] you would notice this quite strongly.
+- [21:23] And this is what the key takeaway of
+- [21:25] this whole presentation is that despite
+- [21:28] all the AI frenzy, despite all the
+- [21:31] crazily significant advancements in the
+- [21:33] world of general purpose large language
+- [21:35] models,
+- [21:37] still we are really far away when it
+- [21:38] comes to solving any visual AI problem.
+- [21:42] uh that we humans innately and natively
+- [21:46] are good at. And this is what the core
+- [21:48] takeaway is that when you think about
+- [21:51] solving document extraction or document
+- [21:53] understanding problem, you have to
+- [21:55] always think about
+- [21:58] what are the most important pain points
+- [22:01] in this space that you can address or
+- [22:03] you should start thinking about in order
+- [22:04] to provide the most value. And that is
+- [22:07] what at at landing we are thinking we
+- [22:09] have been thinking.
+- [22:12] So that is the one important key
+- [22:13] takeaway that I want you to take that
+- [22:15] all these general purpose elements
+- [22:16] although they have come really far but
+- [22:18] they really struggle with spatial
+- [22:20] reasoning
+- [22:21] and this is where landing AI is building
+- [22:24] visual foundation models to overcome
+- [22:26] that spatial reasoning shortcoming or
+- [22:29] struggle that these models have.
+- [22:33] Okay. Okay. So to in so now that this is
+- [22:35] clear the next piece is where I will be
+- [22:39] focusing for the next 30 minutes is
+- [22:42] building the core fundamental blocks
+- [22:44] behind agentic document extraction. So
+- [22:47] you must understand the philosophy
+- [22:49] behind AD. The core fundamental building
+- [22:53] blocks of AD things like what is
+- [22:56] datacentric approach? What is agentic
+- [22:57] AI? What is vision first approach within
+- [23:00] AD. When I say visual foundation model,
+- [23:04] what what does that actually mean when
+- [23:07] we use the the word visual grounding?
+- [23:09] What is so hard about it? What is the
+- [23:11] difference between parsing and
+- [23:12] extraction?
+- [23:14] How does our agentic dog python library
+- [23:17] is different? And how does it actually
+- [23:19] work? And how can you leverage that for
+- [23:20] developing agentic applications
+- [23:22] downstream? Okay. So all these things
+- [23:24] are going to be clear in the next 30
+- [23:27] minutes and then after that we will be
+- [23:29] moving on to a one-hour session where we
+- [23:31] we'll build two applications two agentic
+- [23:35] applications centered around IDP and
+- [23:38] they will be from two different major
+- [23:40] industries. One is financial services
+- [23:42] and the other one is healthcare. And
+- [23:44] then at the end of all this I will stick
+- [23:47] around for as long as you would like and
+- [23:49] answer all the questions that you might
+- [23:50] have.
+- [23:52] Sounds good.
+- [23:54] Let me again look back into your
+- [23:57] >> the chat.
+- [23:57] >> Can I can I ask a question high level?
+- [24:00] >> Yeah, go ahead.
+- [24:01] >> Yeah. Landing AI is it um the agentic
+- [24:04] extraction, right? Um and is it is it
+- [24:07] comparable to uh what snowflakes or data
+- [24:10] bricks would do the end to end platform
+- [24:12] which they may I mean it may do other
+- [24:14] things but basically it sanitizes the
+- [24:17] data prepares the data for a rag
+- [24:20] application or agentic or anything to be
+- [24:22] used is that is that how I would compare
+- [24:25] landing AI to other other existing
+- [24:27] applications.
+- [24:29] >> Yeah. So this is so in like the next
+- [24:32] four or five slides this will become
+- [24:34] very clear on what are the
+- [24:35] differentiating factors that landing AI
+- [24:36] has over other names that you have taken
+- [24:40] it's not just in the product but also
+- [24:42] the approach that we have taken to
+- [24:43] architect that product so this is what
+- [24:46] you will understand like I'm almost
+- [24:47] coming to it yeah so your answer your
+- [24:50] question will already be will be
+- [24:51] answered in like a bit so don't worry
+- [24:53] yeah I'm just almost coming coming at it
+- [24:55] but yeah as Bastian said the short
+- [24:57] answer is yes Short answer is yes
+- [25:00] indeed.
+- [25:04] So we do convert unstructured data into
+- [25:07] LLM ready structure data that you can
+- [25:10] leverage downstream into your apps. So
+- [25:13] that is the bottom line of it. But how
+- [25:16] is it different than like the way of
+- [25:18] doing it is different where this let's
+- [25:20] say I say let's say I tell you that oh
+- [25:21] we are more accurate but then everybody
+- [25:24] can say that right
+- [25:26] the the the
+- [25:30] secret source of accuracy is proprietary
+- [25:32] we are like not open source we are not
+- [25:34] even open uh source available but we
+- [25:37] have like all these proprietary this
+- [25:40] proprietary agentic system that really
+- [25:42] gives you the accuracy that you need in
+- [25:44] these high stick industries like
+- [25:45] financial services and healthcare and
+- [25:47] legal or insurance or whatever and by
+- [25:51] the yeah in the by the end of these 30
+- [25:54] minutes as I said in the agenda it will
+- [25:56] become clear to you where that accuracy
+- [25:58] might be coming from or what are the
+- [26:00] factors that are responsible for that
+- [26:02] accuracy okay with that let's proceed
+- [26:07] >> yeah I have a question so I just want to
+- [26:10] I just want to understand when you talk
+- [26:11] about unstructured data
+- [26:14] What exactly do you mean by that?
+- [26:16] Because I mean that could that could
+- [26:19] represent a whole subset of
+- [26:22] multimodalities, right? So can you just
+- [26:24] help us understand when you say
+- [26:25] unstructured, what exactly are you
+- [26:27] referring to?
+- [26:29] >> Correct. So in the world of IDP or
+- [26:31] document understanding, unstructured
+- [26:33] data just means all that you see within
+- [26:35] a document, which could be images, which
+- [26:37] could be text, which could be really
+- [26:39] complex layouts and text baked into it,
+- [26:42] right? or images associated with the
+- [26:44] text such that there's a spatial
+- [26:46] arrangement association where the text
+- [26:49] and the image is related in some way and
+- [26:51] you have to infer in what way right so
+- [26:54] I'm talking and referring to all that so
+- [26:56] unstructured this is all unstructured
+- [26:58] modality which means like for humans it
+- [27:00] makes intuitively sense as I said but
+- [27:02] for these models when you show them it
+- [27:04] actually doesn't make sense right so
+- [27:06] this is why I said one thing if you want
+- [27:07] to take away from all this and that is
+- [27:10] these general purpose large language
+- [27:12] models or even natively multimodal
+- [27:15] models.
+- [27:17] They are
+- [27:19] pretty bad at spatial reasoning and that
+- [27:20] is why they struggle so bad when it
+- [27:22] comes to understanding the spatial
+- [27:24] arrangement in these documents, right?
+- [27:27] And especially when they have a lot of
+- [27:29] images and there's a real huge
+- [27:31] correlation between those images and the
+- [27:32] text, right? So in that and that is
+- [27:36] pretty commonly seen in the world of
+- [27:38] finance or healthcare, right? So this is
+- [27:41] where we are developing
+- [27:44] visual foundation models that can
+- [27:46] actually remediate all these struggles
+- [27:49] that these models have these large
+- [27:50] language models have right does it make
+- [27:52] sense
+- [27:55] so
+- [27:55] >> yes it does it does make sense so what
+- [27:57] I'm hearing is that you know there is
+- [27:59] the certain subcategory of information
+- [28:02] types for documents that can be
+- [28:04] processed but that that may not include
+- [28:06] things like speech video audio files
+- [28:10] types right so that is not inclusive of
+- [28:12] those types of documents
+- [28:14] >> exactly I was going to exactly come to
+- [28:15] that so we don't deal with a voice as a
+- [28:18] modality that unstructured modality is
+- [28:20] not what our focus is because that's not
+- [28:22] part of document understanding or IDP
+- [28:24] and uh yes handwriting text as a
+- [28:28] modality vision as a modality these are
+- [28:30] important components to us and then we
+- [28:32] deal with all the aspects of text and
+- [28:34] vision which may be like some sort of ID
+- [28:36] card right so that has image plus text
+- [28:39] right some sort of form, some sort of
+- [28:41] invoice with a definitive structure,
+- [28:42] some sort of like 1099, 1042 tax form,
+- [28:45] right? Some sort of like medical image
+- [28:47] with like different kind of cancerous
+- [28:48] leision images, right? That has specific
+- [28:51] meaning. So all of that.
+- [28:54] Cool. Okay, let's proceed.
+- [29:00] I'm going to share my screen again.
+- [29:06] Okay, let's this is a very interesting
+- [29:09] thing that I would like all of you to
+- [29:12] play with even before moving into like
+- [29:14] all the other building blocks
+- [29:17] here. Just go to the slide and click on
+- [29:20] it. I will actually pass this link so
+- [29:22] that it's easier for you.
+- [29:27] >> Can you please do a slideshow because I
+- [29:30] cannot it's very short on the screen.
+- [29:33] Sure.
+- [29:35] So in the chat I have put the link to
+- [29:36] the same this blog.
+- [29:43] Okay.
+- [29:47] So this is a new series that we just
+- [29:49] launched inspired by
+- [29:51] the famous I think 1980s blend tech
+- [29:55] series called will it blend from Tom
+- [29:57] Dixon.
+- [29:59] So he reinforced the idea that his
+- [30:02] machine, this blender is so durable that
+- [30:05] you can even blend iPads and TV screens
+- [30:08] and monitors or whatsoever your mouse,
+- [30:10] keyboard, you know, and it will actually
+- [30:12] blend. Your iPad would break, but this
+- [30:15] blender would not. So inspired by this
+- [30:19] idea, we released the series called Vid
+- [30:21] Extract to to really display the
+- [30:24] robustness of our product, which is AD,
+- [30:26] right? So I'm going to be using by the
+- [30:28] way ad the short form because agentic
+- [30:30] document extraction is such a mouthful.
+- [30:32] Okay. So here
+- [30:36] look at this example the first complex
+- [30:38] document that we take in this episode
+- [30:41] one. It's from it's an accident
+- [30:44] statement and pay attention to 12
+- [30:46] circumstance block. There's a specific
+- [30:49] visual arrangement here that is very
+- [30:51] intuitive to us as humans. Car A,
+- [30:53] vehicle A 1 2 3 4 and then all these
+- [30:55] check box vehicle B all these 17 check
+- [30:58] boxes in this one is checked and on the
+- [31:02] right for vehicle B two boxes are
+- [31:03] checked right and we this as you can see
+- [31:08] like this arrows also kind of give us
+- [31:10] visual cues right
+- [31:14] okay having said that let's move further
+- [31:17] so so as you can see like to answer your
+- [31:19] question the previous question
+- [31:21] this document kind answers that modality
+- [31:24] question quite well. It has handwriting,
+- [31:25] it has spatial structure, it has image,
+- [31:28] right? So, it's like quite a complicated
+- [31:31] document that has all those aspects and
+- [31:33] unstructured modalities, right? Even
+- [31:36] signature. Okay. Now, what I did was I
+- [31:39] used gro auto to see and it actually
+- [31:42] didn't pick up all the check boxes that
+- [31:44] were checkarked.
+- [31:46] Then I used groth for paid $30 for that.
+- [31:49] It also didn't kind of get it. By the
+- [31:52] way, all those chat links are here for
+- [31:53] your reference for later. It's
+- [31:55] interesting to see what I what prompts I
+- [31:57] gave and then what it shot back to me.
+- [32:00] And then I used Chad GPD, Chad GBD
+- [32:02] thinking. And then the best part was
+- [32:04] Chad GBD thinking, which actually got
+- [32:06] almost all of it at some point, but it
+- [32:10] literally took like two and a half
+- [32:13] minutes to be honest.
+- [32:16] And this is what you could you could
+- [32:18] call some sort of like agentic
+- [32:20] processing happening behind the scenes
+- [32:21] that is emitting the right input after 2
+- [32:24] minutes 35 seconds.
+- [32:27] So I'm not saying like large language
+- [32:29] models are not helpful. They are they
+- [32:31] could actually do some spatial reasoning
+- [32:33] here. But I'm saying look at the
+- [32:35] struggle that is happening behind the
+- [32:36] scenes and look at the time on an
+- [32:39] enterprise setting. Can you really
+- [32:40] afford to have this kind of time per
+- [32:42] document?
+- [32:45] Okay, so something later to explore, but
+- [32:47] I quickly wanted to highlight all this
+- [32:49] and then go back to
+- [32:52] something that is really super cool,
+- [32:56] our playground. So on the next slide
+- [32:59] there's a link to the visual playground.
+- [33:01] I'll again copy paste this on the chat
+- [33:04] so that you all can
+- [33:06] Okay, let's do one thing. I've shared
+- [33:08] the uh this document with you, right? So
+- [33:12] there's the sign up link. Quickly use
+- [33:14] this sign up link
+- [33:17] with me and then let's sign up for the
+- [33:20] playground using this link because this
+- [33:22] link will provide you $10 free API
+- [33:25] credit and unlimited playground usage
+- [33:27] for all your testing purposes and trial
+- [33:30] purposes. Okay. So just use this link in
+- [33:33] the chat that I have sent or in the
+- [33:35] document. They both are the same. And
+- [33:38] click on it. So I'll open a new window
+- [33:41] and sign up with you all using this
+- [33:43] specific link.
+- [33:46] So now let me create an accounting.ai
+- [34:05] and create account.
+- [34:08] It's going to my email.
+- [34:11] I'll just check the code and write it.
+- [34:14] 504
+- [34:17] 2 43.
+- [34:21] Just use some password.
+- [34:25] Save it.
+- [34:28] Yeah, you can join with Google account.
+- [34:30] No worries there. I'm just doing it
+- [34:31] because because I just want to do like
+- [34:34] that. No specific reason.
+- [34:37] Okay, skipping the pricing which you can
+- [34:39] later explore
+- [34:43] and going to this
+- [34:47] agentic document extraction section.
+- [34:51] So I'll click on it
+- [34:54] and I'll start exploring.
+- [34:58] Okay. So I see this new neat beautiful
+- [35:01] looking UX. Right on the left you have
+- [35:05] two products and we're going to explore
+- [35:07] agentic document extraction for today.
+- [35:10] This is showing your credits. This is
+- [35:11] where your API key resides. So later
+- [35:14] when we are building this is where you
+- [35:15] will fetch your API key from. So we'll
+- [35:17] just go and copy from here.
+- [35:20] And if you want to refer to the
+- [35:21] documentation this opens up the
+- [35:23] documentation.
+- [35:26] Cool. Okay. Going back to the product
+- [35:29] agentic document extraction. Here are
+- [35:31] some sample files. You can upload your
+- [35:33] file using this or you can just drop it
+- [35:36] here directly and it will start parsing.
+- [35:39] Okay. So what I would like you all to do
+- [35:41] is click on this accident statement
+- [35:44] we saw in that right
+- [35:48] and look at here if you click it will
+- [35:52] automatically go to this section. So
+- [35:54] within the markdown as you can see it's
+- [35:58] able to parse the checkboxes accurately
+- [36:00] for vehicle B also it is able to grab
+- [36:02] all this pretty fast pretty accurately
+- [36:05] right
+- [36:06] >> nice
+- [36:08] >> yeah similarly in the JSON
+- [36:12] same thing you click and it traces back
+- [36:15] this is what we call visual grounding by
+- [36:17] the way right so in the in the agenda
+- [36:19] slide you had something called visual
+- [36:20] grounding right so this is what exactly
+- [36:22] is visual grounding it's bounding box
+- [36:24] provenence that enhances the audibility
+- [36:27] and that is something that is hard to do
+- [36:28] and really appreciated by enterprises
+- [36:30] who are involved in document
+- [36:32] understanding.
+- [36:34] Gary, are you saying something?
+- [36:36] >> Are you using any Python u uh package to
+- [36:40] develop this or what kind of things?
+- [36:43] >> We will come to that.
+- [36:44] >> Yeah, during the development phase,
+- [36:46] >> you'll develop using Python library for
+- [36:48] like almost an hour.
+- [36:49] >> Okay.
+- [36:50] >> Yeah. But this is just a playground that
+- [36:52] is ready made for you. so that you can
+- [36:54] try and test your complicated documents.
+- [36:56] >> This is awesome, man. It's pretty
+- [36:57] awesome. It's nice.
+- [36:59] >> Yeah, thanks to our PMs who designed all
+- [37:02] this with the designers and thanks to
+- [37:04] our R&D team who actually
+- [37:06] >> did all the research and engineering
+- [37:08] work. So, yeah, uh appreciate it your
+- [37:11] liking for this. Okay, let's come back
+- [37:14] to all this. So as you can see like all
+- [37:16] the bounding box information is there.
+- [37:17] Page information is there. Chunk ID is
+- [37:19] there. Every chunk ID is unique and
+- [37:22] corresponds to one chunk here, right?
+- [37:26] Okay. Extract. Let's say you want to
+- [37:28] extract the name, full name, address,
+- [37:30] zip code, some specific field. So you
+- [37:33] can just add those specific fields here.
+- [37:35] So it's like providing a schema and then
+- [37:38] clicking and then when you run that it
+- [37:40] will quickly extract uh all that for you
+- [37:44] on the fly. Okay.
+- [37:47] So using the playground what you can do
+- [37:49] is you can build your schema using
+- [37:51] prompt engineering. So if I click here
+- [37:54] if I click on start over see here
+- [37:58] >> sorry um sorry to cut you off. Um let's
+- [38:00] say if that uh documents has encrypted
+- [38:03] things right will you be able to extract
+- [38:07] if encrypted like u SSN and other uh PA
+- [38:10] information?
+- [38:11] >> Yep. Yep. So there's a dedicated section
+- [38:14] section in the documentation zero data
+- [38:16] retention ZDR the PI information and all
+- [38:19] that is there in the pricing or building
+- [38:22] there's some exposure to all that we
+- [38:24] also provide VPC VPL
+- [38:27] and even onrem.
+- [38:29] So yeah all that is available but yeah
+- [38:31] we will go through
+- [38:32] >> can you there's a question around visual
+- [38:35] uh grounding maybe you can also
+- [38:37] highlight that
+- [38:39] >> yeah visual grounding here in the pars
+- [38:42] let's see so by default as you can see
+- [38:45] all the chunks were highlighted until I
+- [38:46] clicked on one right
+- [38:49] which means all these chunks let's say I
+- [38:53] clear selection you see everything is
+- [38:55] highlighted this is text green one
+- [38:58] figure. Pink one is uh figures, right?
+- [39:04] This is also figure, right? You have
+- [39:06] marginalia, which means in the header
+- [39:07] and footer section. So these are chunks
+- [39:10] and these are visually grounded, right?
+- [39:12] So as you can see, this is all this box.
+- [39:15] This is visually grounding these this
+- [39:17] information. So downstream, let's say
+- [39:20] your application needs to leverage all
+- [39:22] this information. That's what enables
+- [39:24] your application to leverage it. all
+- [39:26] this structural information that is
+- [39:28] baked it into the outcome right so if
+- [39:30] you see the JSON here all the structural
+- [39:34] information is baked in and that gets
+- [39:36] supplied to downstream models like LLMs
+- [39:39] let's say and then you feed this to an
+- [39:41] LLM and you will be able to chat with it
+- [39:44] right
+- [39:46] so it's think of it like using rag you
+- [39:48] can create you can treat it as like a
+- [39:50] you can create a knowledge base using
+- [39:52] all this structure JSON for different
+- [39:55] different documents that you have and
+- [39:57] then you can do a lot of cool things
+- [40:00] over and above the structure JSON,
+- [40:02] right?
+- [40:05] Okay, like for example in this you might
+- [40:06] want to calculate how many boxes were
+- [40:09] checked and have some statistical
+- [40:11] measure over 100 or so documents, right?
+- [40:14] So all that downstream processing you
+- [40:16] can do by feeding in all this
+- [40:18] information from all those different
+- [40:20] documents, right? With the same layout.
+- [40:22] So this is just one example that I made
+- [40:23] on the fly.
+- [40:26] Yeah, I will shoot the sign in again.
+- [40:29] Sign in link again. So this is the doc
+- [40:32] that has all the links including the
+- [40:34] signup,
+- [40:36] right? And within this doc you will find
+- [40:39] this signup link here.
+- [40:44] Okay.
+- [40:45] >> Can you please share the document again?
+- [40:47] Sorry, I I joined late so I don't have
+- [40:48] the document.
+- [40:49] >> Yeah, it's in the chat and the Zoom
+- [40:51] chat.
+- [40:53] >> Thank you.
+- [40:55] Okay.
+- [40:57] So,
+- [41:00] uh let's go back to the playground here.
+- [41:05] Okay. So, I've explained
+- [41:08] visual grounding. I've explained
+- [41:12] how this JSON works and how you can
+- [41:13] leverage it downstream.
+- [41:15] Extraction. I've already explained. But
+- [41:18] just to reiterate once more, our
+- [41:21] playground lets you create your schema
+- [41:23] on the fly. if you don't already have
+- [41:24] one, right? So you can prompt it to
+- [41:28] create your schema from scratch.
+- [41:32] Yeah. So you can plan your uh later for
+- [41:35] this. But yeah, since we have to cover a
+- [41:37] lot of things, I'll just move quickly
+- [41:38] and not show this right now.
+- [41:40] >> Yeah. Just a quick question. Um when I
+- [41:42] look at the other um objects like the
+- [41:46] figures for the drawings and the
+- [41:47] signatures, it appears as though during
+- [41:51] the passing process, it actually
+- [41:53] describes
+- [41:54] >> what those you know um objects are, but
+- [41:57] doesn't actually provide a replica of
+- [42:00] what the object is, right? So there's no
+- [42:02] no like height, weight, you know,
+- [42:04] distances in the measurements actually
+- [42:06] like um reproduce that. So how would you
+- [42:09] go about describing that function?
+- [42:13] Because it gives you a description of
+- [42:14] it, but it doesn't allow you to actually
+- [42:16] pull the object in itself.
+- [42:20] >> So what do you mean call the object?
+- [42:22] Like uh I'm not understanding the need
+- [42:25] >> like the signature for example, how
+- [42:26] would you be able to extract that
+- [42:28] signature and reproduce it?
+- [42:30] >> Oh, I see. I see what you mean. I see.
+- [42:34] Okay. So what you Okay. So what you do
+- [42:37] the library or the API it allows you to
+- [42:40] store these images and chunks
+- [42:43] >> right.
+- [42:43] >> Okay.
+- [42:44] >> So you can like uh fetch it as per your
+- [42:46] convenience and need downstream or you
+- [42:48] can create workflows that can inculcate
+- [42:50] fetching them depending upon some
+- [42:52] huristics or rules that you might have
+- [42:54] created.
+- [42:55] >> Yeah. Writing. Uh
+- [42:58] >> yeah because for something like that I
+- [42:59] would have expected it maybe to actually
+- [43:01] store the actual pixels
+- [43:04] that I know created you know the the
+- [43:07] signature or the drawing rather than a
+- [43:09] description of it. It could give me like
+- [43:12] the actual pixels and
+- [43:15] >> yeah no the pixel information is not
+- [43:17] stored because
+- [43:19] >> I mean I cannot imagine a use case where
+- [43:21] you will need a pixel information
+- [43:22] because you are not reconstructing the
+- [43:24] signature right what you're doing is
+- [43:26] >> just retrieving the signature right so
+- [43:28] same with other kind of things like ID
+- [43:30] cards you just retrieve them or some
+- [43:32] information that is baked into them for
+- [43:34] the downstream
+- [43:35] >> okay
+- [43:36] >> so like for example the rotation angle
+- [43:38] all this information is here summarize
+- [43:40] ized for you which you can leverage
+- [43:42] downstream.
+- [43:44] >> All right. Thank you.
+- [43:44] >> This will all become extremely clear
+- [43:46] once we go in the demo phase and then we
+- [43:48] use the Python library. It'll all become
+- [43:50] super crystal clear.
+- [43:53] But yeah, thanks for the questions.
+- [43:54] Yeah. Uh the last is this chat as I said
+- [43:59] like when you feed the structure JSON
+- [44:01] you can start chatting with it. So
+- [44:03] that's what this playground also is a is
+- [44:05] letting you do. Okay, let's go back now
+- [44:09] that you have got acquainted uh with the
+- [44:12] playground and how it looks like. Let's
+- [44:15] go back to the slides.
+- [44:17] >> Quick question. You use your own LLM
+- [44:20] model for this one or using leveraging
+- [44:22] any open LLM models for this one?
+- [44:25] >> Yeah, so everything is proprietary and
+- [44:27] everything is somehow our own. So we
+- [44:30] curate very high quality data sets to
+- [44:32] train our own visual foundation models.
+- [44:34] >> Yeah.
+- [44:35] >> Oh, nice.
+- [44:36] >> Correct. But the the 30 minutes next 30
+- [44:39] next 30 minutes everything is becoming
+- [44:41] everything is going to become like super
+- [44:43] intuitive and clear on like how we're
+- [44:45] approaching this problem and why is it
+- [44:48] agentic how is it agentic right what are
+- [44:50] the what could be the modules behind it
+- [44:53] so these things will become clear so
+- [44:56] yeah
+- [44:56] >> this will be perfect example for claim
+- [44:59] processing and very nice
+- [45:01] >> okay
+- [45:03] >> let's go back to the slides
+- [45:06] This is just a link to Python library
+- [45:09] later we will be using it and
+- [45:11] documentation.
+- [45:14] Okay, again building to the found
+- [45:15] building the foundations for AD. So you
+- [45:18] might all you might or might not know
+- [45:20] Yan Yan Lakun. He's a big LLM critique
+- [45:23] in the whole AI world. He's known for
+- [45:25] being an LLM critique. But why did I
+- [45:27] keep this slide here? I'll go to the
+- [45:30] slideshow.
+- [45:31] There's a very specific reason to that.
+- [45:34] So
+- [45:36] just give me one second.
+- [45:39] Okay. The reason is
+- [45:42] he says that LLMs are useful but they
+- [45:45] are an off offramp when it comes to
+- [45:48] human level AI or AGI right and he
+- [45:51] advises students to not pursue PhD in
+- [45:53] this direction because if you are trying
+- [45:55] to develop human level AI then this is
+- [45:57] not the direction to pursue.
+- [45:59] So this is quite interesting by the way.
+- [46:02] This is quite funny like the way he
+- [46:04] crisscrosses his hands and said do not
+- [46:06] work on
+- [46:08] but anyways the point here is within the
+- [46:11] realm of intelligent document processing
+- [46:13] or document understanding
+- [46:16] this is fairly reasonable to say that
+- [46:20] you cannot rely on the power of LLM
+- [46:23] exclusively and say that hey we have
+- [46:25] solved the document understanding
+- [46:27] problem right not even like a bit
+- [46:30] because inherently document
+- [46:32] understanding is a visual AI problem
+- [46:35] where documents are actually visual
+- [46:37] artifacts if you think very very
+- [46:38] carefully about it. So this is what I'm
+- [46:40] trying to imply here that if you think
+- [46:43] that LLMs have solved this problem
+- [46:45] that's then that's the not not the case
+- [46:47] but if you're already in the world of
+- [46:48] IDP then probably you don't have much
+- [46:51] question on that.
+- [46:56] Second thing what Andrew says about AGI
+- [46:59] and emergent properties that arises from
+- [47:02] the development in the area of large
+- [47:04] language models right so
+- [47:08] all these emergent abilities that arises
+- [47:11] from all these large language models a
+- [47:14] lot of it has something to do with the
+- [47:16] fact that they're very metric dri driven
+- [47:19] and all these changes appears to pop out
+- [47:22] of nowhere all of a sudden right because
+- [47:24] of the crazy speed at which these models
+- [47:25] are coming out sometimes when you see
+- [47:27] all these benchmarks that tell you that
+- [47:29] oh the SAT exam it overperformed human
+- [47:33] performance in that exam or some sort of
+- [47:35] math olympiad right so it gives a sense
+- [47:38] of like these systems really being very
+- [47:40] performant when it comes to uh things
+- [47:43] like maybe spatial reasoning or maybe
+- [47:45] like some sort of like hinting towards
+- [47:48] some sort of like general purpose AI but
+- [47:51] I'm trying to say that all these
+- [47:53] benchmarks are very very constrained and
+- [47:57] all these metric driven behaviors they
+- [48:00] are just emerging properties or
+- [48:02] abilities
+- [48:04] and just because they are amalgam or
+- [48:06] coagulation of a long history of AI they
+- [48:10] suddenly appear to be like I don't know
+- [48:13] magic or or some sort of dark art but in
+- [48:16] reality there's like this gradual
+- [48:19] sustainable growth that happens behind
+- [48:21] the scenes because of which we have
+- [48:22] achieved whatever we have achieved so so
+- [48:24] far. So that is the idea behind keeping
+- [48:27] this slide here and what Andrew was
+- [48:28] trying to say here. So he expects AGI to
+- [48:31] be like you know like a gradual process
+- [48:34] not an overnight achievement
+- [48:38] but yeah bottom line again
+- [48:41] read this very carefully nonlinear and
+- [48:44] discontinuous metrics produce apparent
+- [48:46] emergent abilities whereas linear or
+- [48:49] continuous metrics produce smooth
+- [48:51] continuous predictable change in model
+- [48:52] performance. So at landing AI when we
+- [48:54] are developing ADE
+- [48:57] we are developing systems which are
+- [49:01] smooth continuous and leads to
+- [49:02] predictable changes in model
+- [49:04] performance.
+- [49:08] So where would you see the uh the clear
+- [49:11] distinction between ADP and computer
+- [49:14] vision models for example because when I
+- [49:17] look at a model that you have here it
+- [49:19] appears that there is some application
+- [49:21] of you know object identification you
+- [49:24] know localization segmentation and even
+- [49:27] to a certain extent taking all of that
+- [49:29] to do some kind of you know um document
+- [49:31] classification.
+- [49:33] So what is the distinction between that
+- [49:35] and then the uh agentic framework that
+- [49:37] is being applied here?
+- [49:40] >> Yeah, in short
+- [49:42] what we are doing is solving the problem
+- [49:44] of document understanding and
+- [49:46] constraining ourself to this specific
+- [49:47] problem. But in order to solve this
+- [49:50] problem, you need to solve problems like
+- [49:52] spatial localization, taking care of
+- [49:53] visual cues and compositional geometry.
+- [49:56] So we develop foundational models that
+- [49:58] take care of these things, right? and
+- [50:01] then in an agentic system that is
+- [50:03] comprised of these kind of foundational
+- [50:05] models plus deterministic code plus
+- [50:07] domain specific models plus even LLMs
+- [50:10] and orchestrated very agentically to get
+- [50:13] the desired level of accuracy. So this
+- [50:16] is what the underlying approach is that
+- [50:18] we have taken and you must think of this
+- [50:21] as like uh targeted towards document
+- [50:25] understanding not AGI or not toward any
+- [50:27] other domain right
+- [50:30] and for computer vision that is broad
+- [50:31] like it's like the it has that vision
+- [50:35] word in that which means how do you make
+- [50:37] AI
+- [50:39] uh be as good as humans when it comes to
+- [50:42] vision right so
+- [50:45] think of it like as a subset of that
+- [50:47] problem that is constrained within the
+- [50:49] document AI space.
+- [50:53] Does that answer your question?
+- [50:54] >> Yeah, that's awesome. Thank you.
+- [50:56] >> Okay.
+- [50:57] >> And there's also one one more thing that
+- [51:00] um wanted to call out because really
+- [51:02] brings a lot of value to most of our
+- [51:04] customers. Um our solution is uh
+- [51:08] generalized which means you don't need
+- [51:10] to train any specific model for any type
+- [51:12] of documents and that has been a a huge
+- [51:15] pain point for a lot of customers in the
+- [51:18] intelligent document processing space
+- [51:20] because every time they added a new type
+- [51:22] of invoices or patient form they have to
+- [51:25] collect data return the model and then
+- [51:27] go through the process over again but
+- [51:29] our solution does one shot.
+- [51:32] >> Very important factor. Yes. So this is a
+- [51:34] oneshot layout agnostic solution
+- [51:38] that gives you the answer right out of
+- [51:40] the box within a few seconds.
+- [51:43] So that is the approach that we have
+- [51:44] taken to build this.
+- [51:48] Okay. So the core idea this is extremely
+- [51:51] important to understand.
+- [51:55] So take a moment to read all this.
+- [51:59] Transformers are regressive. Agent
+- [52:01] capabilities are scaffolding. language
+- [52:03] has strong prior
+- [52:06] right so I'll say something which
+- [52:11] uh might not entirely make sense to you
+- [52:13] but still very interesting to hear so we
+- [52:16] have a discord community of 2 plus folks
+- [52:20] and they're deeply involved in visual AI
+- [52:22] and document intelligence and I often
+- [52:24] notice there are people overestimating
+- [52:27] the capabilities of all these large
+- [52:29] language models and natively multimodal
+- [52:31] LLMs Right? Even in document
+- [52:33] understanding over and above the
+- [52:36] scaffolding of these tools like MCP
+- [52:39] makes these emergent effects even more
+- [52:41] misleading.
+- [52:42] So document AI it's a hard problem and I
+- [52:47] can almost imagine it as like a visual
+- [52:48] intelligence problem being forced
+- [52:50] through language pipe. If you think
+- [52:52] about the underlying architecture of
+- [52:54] these systems and the learning process
+- [52:56] that goes behind these systems which is
+- [52:58] nothing but the transformer uh
+- [53:00] architecture which is again auto
+- [53:02] reggressive in nature you would you
+- [53:05] would see very clearly that these models
+- [53:07] are just 1D these models are just produ
+- [53:11] uh operating on this 1D token stream and
+- [53:13] they're sequentially trained over
+- [53:15] internet scale language data right which
+- [53:18] has very very strong prior
+- [53:21] And then in case of documents, these are
+- [53:24] not just these 1D token streams. Uh
+- [53:27] sorry, these are not just something that
+- [53:28] can be represented by these 1D token
+- [53:30] streams, but these are some sort of like
+- [53:32] 2D scene artifacts where a lot of the
+- [53:35] meaning resides in the geometry things
+- [53:37] like alignment, indentation, headers,
+- [53:39] footers, multicolumn layouts. And when
+- [53:41] we talk about OCR, it flattens the
+- [53:43] topology. So what model must do is
+- [53:46] reconstruct the space from visual weak
+- [53:47] prior sorry weak visual priors.
+- [53:52] And this is why spatial reasoning is
+- [53:54] such a hard problem. Localizing bounding
+- [53:56] boxes things like preserving reading
+- [53:59] order, keeping headers, column
+- [54:01] relationships intact, dealing with
+- [54:03] tables that span across multiple pages
+- [54:05] within a PDF, composing meaning across
+- [54:08] uh different regions in a PDF. This is
+- [54:10] extremely hard and humans they do it
+- [54:13] quite effortlessly with gestalt cues and
+- [54:16] models don't and yeah and this is why a
+- [54:20] lot of LLMs they hallucinate because
+- [54:21] they have to repair these broken layouts
+- [54:24] with fluent text and context lacking
+- [54:27] reasoning right so even when they're
+- [54:29] capable of reasoning the context is
+- [54:31] missing to begin with and that's why
+- [54:32] they start hallucinating
+- [54:36] so if you understood this then you might
+- [54:39] also be able to infer to an extent that
+- [54:41] the answer might lie in some sort of
+- [54:44] agentic implementation which is vision
+- [54:46] first which is which is sort of like
+- [54:48] multi-stage loop that renders detects
+- [54:52] groups reads and validates
+- [54:56] uh and this kind of induces a layout
+- [54:59] graph at the back end right which sort
+- [55:02] of enforces constraints and and and
+- [55:05] grounded outputs with all these uh
+- [55:07] bounding box provenences that you notice
+- [55:09] on playground. So this is why this world
+- [55:12] of IDP hinges on visual grounding and
+- [55:14] and procedural control not just some
+- [55:17] sort of uh text modality alone.
+- [55:21] Okay. So now I'm not sure how much you
+- [55:25] grasped from whatever I said but the
+- [55:27] idea is if you read a lot of research
+- [55:30] papers then you start speaking like that
+- [55:32] but nobody actually appreciates this
+- [55:35] kind of language and tone and it reminds
+- [55:37] them of something very interesting which
+- [55:39] is this scene from the Matrix
+- [55:43] uh Matrix Reloaded I believe where Neo
+- [55:46] is talking to the architect who
+- [55:47] architected the Matrix and then he he He
+- [55:51] almost like talks the way I just talked
+- [55:54] where
+- [55:56] potentially Neo might have a hard time
+- [55:57] but he kind of did really well in
+- [55:59] understanding what the architect was
+- [56:01] saying about the matrix and and all the
+- [56:03] philosophical questions that he had. But
+- [56:06] in any case, what I'm trying to say is
+- [56:08] like
+- [56:10] uh I'm going to break this down very
+- [56:12] very systematically so that it really
+- [56:14] makes sense to you in the next 10 or so
+- [56:17] minutes.
+- [56:19] By the way, one more thing. It reminds
+- [56:20] me of this movie Three Idiots. Uh I'm
+- [56:23] not sure if you're from India, you
+- [56:24] definitely would have seen this movie.
+- [56:26] I've even like added a link here. So if
+- [56:30] you click on link, it will take you to
+- [56:31] the specific scene from this movie. So
+- [56:33] in this scene, what happens is professor
+- [56:35] asked what is a machine? And there's
+- [56:37] this um class of few people and then one
+- [56:41] guy answers it very very simply in very
+- [56:43] simple terms, but the professor really
+- [56:45] doesn't appreciate it. But then the
+- [56:47] other student answers it in very complex
+- [56:49] bookish jargon and the professor just
+- [56:51] loves it. And then finally he throws the
+- [56:54] student out of this the guy who actually
+- [56:56] described it simply. He throws the
+- [56:57] student out of the class and then very
+- [57:00] sarcastically the student kind of comes
+- [57:03] back and says something to the professor
+- [57:07] in a very complicated manner. And then
+- [57:09] the professor is like what are you
+- [57:11] trying to say? What are you trying to
+- [57:12] imply? and he's saying and then he
+- [57:14] answers I just came back to take my
+- [57:16] books. So this is a very very like uh
+- [57:20] amazing uh funny scene from this movie
+- [57:23] where where uh it's it's quite evident
+- [57:28] that uh we should sprite strive for
+- [57:31] simplicity and not complexity where we
+- [57:32] wherever we can and as much as we can.
+- [57:35] So in this for the entire remaining
+- [57:38] duration that's what I will target.
+- [57:42] Okay, so I was talking a lot about
+- [57:45] priors, weak priors in vision modality
+- [57:49] and strong priors in language modality
+- [57:52] and then associating the architecture of
+- [57:54] transformers to process these two
+- [57:56] modalities. Right? So think about it
+- [57:58] transformers the underlying architecture
+- [58:00] that hasn't changed much since 2017. At
+- [58:02] the heart what it does is next to local
+- [58:04] prediction. It's based on that fill in
+- [58:06] the blanks problem.
+- [58:08] I'm not undermining or underestimating
+- [58:10] the uh the the profound impact that
+- [58:13] these
+- [58:14] uh these ar these this architecture has
+- [58:17] created over time right like all these
+- [58:19] things that we see fancy fancy document
+- [58:22] understanding fancy like self-driving
+- [58:24] cars so all that originates from this
+- [58:27] architecture itself so I'm not
+- [58:28] undermining that but I'm just trying to
+- [58:30] say that if you see at the end of the
+- [58:32] day what is it what it is it's next to
+- [58:36] prediction right from language from
+- [58:39] internet scale language data.
+- [58:42] Okay. And what are what are these
+- [58:44] agentic systems? The underlying
+- [58:46] architecture is the same in all these
+- [58:47] agentic systems. It's just there's a
+- [58:49] scaffolding because now you have a lot
+- [58:51] of tools like OCR, right? And then you
+- [58:54] can use these tools to orchestrate
+- [58:56] cleverly and get some sort of reasonable
+- [58:59] response. And that is where the effect
+- [59:01] that comes out from a combination of
+- [59:03] these tools and LMS makes it sound quite
+- [59:05] intelligent. Right? So this is what I'm
+- [59:07] trying to say that it is indeed
+- [59:10] intelligent but we cannot ignore the
+- [59:13] limitations and the capabilities of
+- [59:14] these especially in the world of
+- [59:16] document understanding.
+- [59:20] So in the world of vision where are
+- [59:24] these shortcomings originating from? So
+- [59:27] if you think very carefully
+- [59:31] you you have grammar in and semantics in
+- [59:34] in text. So text is more discreet. It is
+- [59:37] symbolic and it is really heavily
+- [59:39] patterned because of which for these
+- [59:41] networks formulating semantics in the
+- [59:43] higher dimensional space is not that
+- [59:45] hard. Right? And that is why they
+- [59:47] perform so well within this modality.
+- [59:49] But when it comes to vision modality and
+- [59:52] and applying the same sort of algorithm
+- [59:55] to process vision modality kind of
+- [59:57] struggles because if you think about
+- [59:59] pixel space now you know text space
+- [60:01] right if you compare that with pixel
+- [60:03] space it's so it's so dense it's so
+- [60:08] heavily uh it computationally so heavy
+- [60:11] like one sentence if you compare it with
+- [60:12] one small let's say 500 cross 500 pixels
+- [60:16] image
+- [60:18] it's like almost
+- [60:19] at some level of resolution, it's like
+- [60:21] almost like 270,000 times more
+- [60:23] computationally expensive and that
+- [60:27] linearly scales as the size of the image
+- [60:29] scales and the number of images
+- [60:32] uh and the hash of the images scale uh
+- [60:35] change right so what I'm trying to say
+- [60:37] is like think of the heavy vision
+- [60:38] modality where these LLMs that are
+- [60:42] applying the same principle on this
+- [60:44] modality operate so this is what I meant
+- [60:47] by weak priors Like they have like
+- [60:50] this continuous space of pixel like even
+- [60:55] if you change slightly the intensity in
+- [60:57] some neighboring pixels the whole
+- [60:59] meaning of the image might change right.
+- [61:01] So this tiny change in this container
+- [61:03] space leads to such big impact and that
+- [61:04] is where that is why all this like
+- [61:07] spatial reasoning process becomes so
+- [61:09] hard for these networks because even in
+- [61:11] that high dimensional space they're not
+- [61:12] able to really represent structurally
+- [61:14] all these things.
+- [61:16] So they have to like you know conclude
+- [61:19] from this emergent semantics right but
+- [61:23] we humans like have a huge legacy of
+- [61:25] understanding the semantics
+- [61:27] by the way we get a lot of more input
+- [61:29] not these networks they are only
+- [61:30] constrained towards one kind of input
+- [61:33] which is digital right so that's another
+- [61:34] issue but anyways I hope that it becomes
+- [61:37] more clear on why this is a hard problem
+- [61:41] and why overall this makes spatial
+- [61:44] reasoning as a hard problem. So when you
+- [61:46] ask LLM like hey how do you where did
+- [61:49] you see this box or where do you see uh
+- [61:51] this text or how can you count how many
+- [61:54] such blobs of rectangle are there and
+- [61:57] can you give me like can you mark the
+- [62:00] the bonding box coordinates properly or
+- [62:02] sketch the outlines of these different
+- [62:05] figures like rectangles it's kind of
+- [62:06] struggles like try all these things with
+- [62:08] LLMs and you will know how it struggles
+- [62:09] even if it's a a VLM
+- [62:12] so these VLMs
+- [62:14] they really miss regularly these things
+- [62:17] like indentation, geometric arrangements
+- [62:19] and are miserable in like interpreting
+- [62:21] these kind of things like shades region
+- [62:23] uh re regions and then connections
+- [62:25] between these shades and regions.
+- [62:28] Okay.
+- [62:30] So I think I made it uh clear that how
+- [62:34] like where where this struggle comes
+- [62:35] from.
+- [62:37] So now moving to the agentic piece of
+- [62:39] this equation how we define agentic
+- [62:44] because agentic is as I said like in
+- [62:46] 2025 in 2023 when 2024 when Andrew
+- [62:50] coined this term he had some idea in his
+- [62:52] mind which gradually evolved but then a
+- [62:55] bunch of marketers really picked it up
+- [62:57] and took it to another level where the
+- [62:59] meaning of agentic kind of became very
+- [63:01] diluted and and miscommunicated in some
+- [63:04] sense. So read it very carefully. The
+- [63:06] agentic means an AI system that can
+- [63:08] plan, decide and act towards a goal by
+- [63:11] orchestrating deterministic code, domain
+- [63:14] specific ML models and an LLM that can
+- [63:16] reason, call agents and tools and
+- [63:18] verifies results until it reaches a high
+- [63:20] confidence answer. So within agentic
+- [63:23] document extraction,
+- [63:25] agentic means the system can plan,
+- [63:27] decide and extract and act on its own to
+- [63:32] extract high confidence document data in
+- [63:35] a in a consistent manner by
+- [63:37] orchestrating parsing logic, specialized
+- [63:39] vision or ML models and an LLM that
+- [63:42] sequences steps, calls agents and tools
+- [63:46] and verifies outputs until the
+- [63:47] extraction meets quality threshold.
+- [63:49] Right? Right. So this is all
+- [63:50] orchestrated internally systematically
+- [63:53] by AD. So now there might be some level
+- [63:56] of clarity that you all are getting I
+- [63:59] hope from like what might be happening
+- [64:01] inside and then what is the approach
+- [64:03] that we have taken as a whole while
+- [64:04] building agentic document extraction for
+- [64:06] doc solving the problems in the document
+- [64:09] processing world.
+- [64:13] uh whenever I click it doesn't
+- [64:15] one last thing about agentic
+- [64:19] there is no black and white here it's
+- [64:20] like the shades of gray there's an
+- [64:23] spectrum of agentic in systems and we
+- [64:26] are continuously developing ourselves
+- [64:27] within landing AI and our technology to
+- [64:30] make this spectrum more and more on the
+- [64:32] agentic side right more and more on the
+- [64:35] autonomous side so that's something you
+- [64:38] have to keep in mind with every
+- [64:39] iteration the level of agentic within
+- [64:41] the system increases
+- [64:48] Okay. So as I said earlier
+- [64:51] there are there are three fundamental
+- [64:54] pillars behind AD.
+- [64:58] uh one is visual AI where we know where
+- [65:04] LLM struggle and we also understand why
+- [65:07] vision modality is hard and we try to
+- [65:10] remediate it by creating something which
+- [65:11] which we are calling as visual
+- [65:13] foundation model.
+- [65:15] So by now I think it might be very clear
+- [65:17] to you. You have already seen the
+- [65:18] playground and that complicated accident
+- [65:20] format. You kind of understand that a
+- [65:23] document is not just a blob of text.
+- [65:27] It's a it's a visual representation of
+- [65:29] information that was originally meant
+- [65:31] for human readers to really to really
+- [65:34] understand and decipher. Right? So think
+- [65:36] of it these these large language models
+- [65:39] they just came in in the last two three
+- [65:41] years. But the legacy of all these
+- [65:43] documents is quite old. Right? So think
+- [65:46] of it like when you think about these
+- [65:49] documents, they were meant for human
+- [65:51] readers to comprehend, not these LLMs to
+- [65:53] downstream process them. Right? So that
+- [65:55] was the foundation.
+- [65:57] So now in order to change that and
+- [66:00] automate this, what we have resorted to
+- [66:02] is a systematic approach which we call
+- [66:04] as vision first or visual AI approach.
+- [66:07] Right? So inherently our systems are
+- [66:10] vision forced which means that they they
+- [66:12] really approach
+- [66:15] documents as visual artifacts or visual
+- [66:20] representations of information. Okay. So
+- [66:23] that is one pillar visual first
+- [66:26] systems. Then the second pillar is how
+- [66:29] do you train all the this vision and
+- [66:31] foundation model. So you have to have
+- [66:32] data right. So we curate highquality
+- [66:35] data sets by following systematic data
+- [66:38] centric practices. So this is another
+- [66:40] phenomenon. This is another concept that
+- [66:42] was introduced by Andrewing. It's called
+- [66:44] datacentric AI. So a lot of folks in the
+- [66:48] AI industry focus really hard on um on
+- [66:53] models and the parameters within these
+- [66:56] models and tweaking and and
+- [66:57] hyperoptimizing them for their specific
+- [67:00] use case or or or scenario. Right? But
+- [67:02] the idea is you must think about data
+- [67:05] also very systematically and over time
+- [67:07] create data engineering practices that
+- [67:10] lead you to have highquality data that
+- [67:13] you can later that you can over time
+- [67:16] leverage to create all these visual
+- [67:18] foundation models. So that's what we
+- [67:19] have done. So ARM datacentric mature
+- [67:22] practices in the last eight years enable
+- [67:24] us to train these visual foundation
+- [67:26] models that are very highly performant.
+- [67:31] Okay.
+- [67:33] parsing and routing. So the next layer
+- [67:35] is parsing and routing. As uh Bastian
+- [67:38] said, we have zero short parsing of
+- [67:39] documents with high accuracy across any
+- [67:41] layout type and then the output is in
+- [67:44] the form of markdown as well as JSON.
+- [67:49] And the third
+- [67:51] so there are different modules like
+- [67:53] there might be domain specific ML model
+- [67:55] there's visual foundation model that is
+- [67:57] taking care of the spatial understanding
+- [67:59] and spatial reasoning right there might
+- [68:01] be different kind of classifications in
+- [68:04] these documents that you might want to
+- [68:05] internally make. So we have like agents
+- [68:08] dealing with all these different
+- [68:09] problems and finding optimal solutions
+- [68:11] to them. And then these agents operate
+- [68:15] inside of this system that we called
+- [68:18] agentic document extraction to finally
+- [68:20] accomplish the goal of high accuracy
+- [68:22] extraction and producing this JSON.
+- [68:27] Okay.
+- [68:29] So now let me ask you again what are
+- [68:35] what are these what are these pillars
+- [68:38] that AD rely upon?
+- [68:42] Anybody who wants to answer?
+- [68:49] Okay go ahead Jeff.
+- [68:50] >> Vision.
+- [68:51] >> Vision first. Fantastic. First pillar.
+- [68:53] What is the second?
+- [68:56] Anybody? Jeff data center. Awesome.
+- [69:00] Datacentric practices that leads to
+- [69:02] curating high quality data sets that are
+- [69:04] leveraged by these vision foundation
+- [69:05] models. Right. So vision first.
+- [69:06] Datacentric AI. What is the final one?
+- [69:09] Very easy. Come on.
+- [69:12] Yes.
+- [69:13] >> Aenic.
+- [69:14] >> Awesome man.
+- [69:16] Agentic AI. Fantastic.
+- [69:19] So over and above agentic AI which means
+- [69:23] like all this is agentically orchestrate
+- [69:25] orchestrated orchestrated to finally
+- [69:28] give you that high quality extraction
+- [69:30] with the utmost accuracy that you
+- [69:31] deserve.
+- [69:33] Awesome. Okay, it's been almost 1 hour
+- [69:35] and 11 minutes. I think we need to
+- [69:36] really move ahead fast to the second
+- [69:38] phase of this all.
+- [69:43] Okay, cool. I will skip a few things in
+- [69:45] the interest of time.
+- [69:49] Okay. So here some features that are
+- [69:52] more relevant to any enterprise class
+- [69:55] user here. Things like flexible SAS VPC,
+- [69:58] VPL, VPL, native and all these
+- [70:01] compliance things like HIPPA, GDPR and
+- [70:03] zero data retention support. So you can
+- [70:06] yeah later ask um all these questions um
+- [70:10] after at the end of the workshop by
+- [70:12] reaching to the support or just chatting
+- [70:13] in our discord server if you have any
+- [70:16] such doubts on like what are the
+- [70:17] features we offer on the enterprise
+- [70:19] level or yeah or at the product level
+- [70:22] like what are the modules that we have
+- [70:24] with that we offer at what pricing right
+- [70:27] so all that you can ask us later
+- [70:32] yeah another diagram that is quite
+- [70:35] relevant for enterprise class uh folks
+- [70:38] here like what is what is the
+- [70:40] architecture of the whole system and
+- [70:42] yeah how it's engineered at the at at
+- [70:46] the implement uh not at the internals
+- [70:48] level but at the implementation level
+- [70:51] for app building or downstream building.
+- [70:54] So yeah something that you might want to
+- [70:56] take a look at later.
+- [70:58] One last piece before jumping into the
+- [71:00] demo
+- [71:02] error analysis. So now you know
+- [71:05] uh that AD is built upon three
+- [71:08] fundamental pillars.
+- [71:11] Uh
+- [71:13] there's a there's a very unique approach
+- [71:16] towards building products from first
+- [71:19] principles and that is error analysis.
+- [71:21] Andrew in his Stanford machine learning
+- [71:24] class talks about this quite often but
+- [71:27] mostly in the context of machine
+- [71:28] learning. But if you kind of get a
+- [71:31] chance to spend more time with him then
+- [71:33] you will notice that how this is
+- [71:34] something that he applies in different
+- [71:36] spheres of his life to solve yeah to
+- [71:40] solve problems. For example, in the
+- [71:42] field of document understanding, this
+- [71:44] pursuit of solving document
+- [71:46] understanding, we approach it from this
+- [71:48] angle from from the three angles that
+- [71:50] you already know, but with error
+- [71:53] analysis as a phenomena or as a practice
+- [71:55] that we have in our mind while
+- [71:57] developing this system which we call AD
+- [71:59] right so what I'm trying to imply here
+- [72:02] is
+- [72:03] instead of manually looking at like
+- [72:05] metrics sorry instead of looking at like
+- [72:08] benchmarks metric suites and trying to
+- [72:10] come up with like the pain points or
+- [72:12] understanding like where the system is
+- [72:14] struggling. How we approach it is like
+- [72:17] really look at one of the the the the
+- [72:19] building blocks at the foundational
+- [72:22] building blocks like the most important
+- [72:25] concrete complex examples where things
+- [72:28] where struggles originate from and
+- [72:30] that's how we start thinking about like
+- [72:33] where is this painoint coming from.
+- [72:35] Okay, spatial reasoning. Okay, what kind
+- [72:36] of spatial reasoning? Okay, geometric.
+- [72:38] Okay, then how can we like have
+- [72:40] instances more on those lines to really
+- [72:42] help model understand better on how to
+- [72:44] solve it, right? So, think of like the
+- [72:47] systematic approach called error
+- [72:48] analysis that helps you identify the
+- [72:52] most important pain points and area to
+- [72:54] focus on the most important aspects of
+- [72:56] the problem and save time.
+- [72:59] Right? So this is what I wanted to
+- [73:01] highlight before jumping into
+- [73:03] uh into the building part like start
+- [73:06] thinking about things from first
+- [73:08] principles especially when you are
+- [73:11] trying to develop something
+- [73:12] groundbreaking
+- [73:15] and even if it's not groundbreaking it
+- [73:17] always helps to save time to start
+- [73:19] thinking about things uh in in a
+- [73:22] systematic way where you where you
+- [73:24] always ask this question that how do we
+- [73:27] what are the most important things that
+- [73:29] the system is lacking or what are the
+- [73:30] most important focus points that we
+- [73:32] should have at this point which will
+- [73:34] make the most impact.
+- [73:37] Yeah. So before I jump into the demo, I
+- [73:40] just wanted to give you a quick peak
+- [73:43] into our team who has developed this
+- [73:45] awesome playground and this awesome
+- [73:47] technology that I have been highlighting
+- [73:49] and praising again and again. uh
+- [73:52] Shankar, Dylan, Mark, Kami. These are
+- [73:54] all our uh MLES and our VP of Daniel and
+- [73:59] our engineering manager. Uh this this
+- [74:02] guy is heavily involved in Mingray in
+- [74:04] like building the playground. So yeah,
+- [74:06] feel free to reach out to us and we will
+- [74:08] be more than happy to like answer your
+- [74:09] questions. And our team members, they're
+- [74:11] active quite a
+- [74:14] discord server. So join that discord
+- [74:16] server and feel free to hang out with
+- [74:17] us.
+- [74:19] Okay, with all that, I'll just take a
+- [74:22] sip of water and let you go to this link
+- [74:26] and set up everything for our um for our
+- [74:31] agent to app building. Okay.
+- [74:35] And let me know if you have any burning
+- [74:37] questions before we start. I'll just
+- [74:39] stop sharing for a moment.
+- [74:41] >> Did you put that link into the chat,
+- [74:44] please?
+- [74:54] Google Drive link
+- [74:57] and again the document
+- [75:01] that has all the relevant links
+- [75:02] including the Google Drive link.
+- [75:21] Okay.
+- [75:24] Okay. I'll share my screen again and
+- [75:26] let's start with the demo.
+- [75:29] So, this is going to be the hands-on
+- [75:31] session. So, prepare your lovely
+- [75:33] keyboards and mouses to start typing. I
+- [75:36] mean, there's not going to be a lot of
+- [75:37] typing, but there will be some for sure.
+- [75:43] Give me one sec.
+- [75:50] An
+- [75:51] >> Yeah,
+- [75:51] >> I'm I'm trying to find this uh
+- [75:54] presentation link. Where is Where can I
+- [75:57] find it?
+- [75:58] >> In the Google Drive. In the same Google
+- [76:01] Drive link. If you open it, there's a
+- [76:02] PDF. That PDF has all the slides that I
+- [76:05] have built.
+- [76:06] >> Okay.
+- [76:07] >> Yep.
+- [76:10] Okay. Okay, sharing my screen again.
+- [76:14] Okay, so let's go to the Google Drive.
+- [76:19] Where the heck is Google Drive? Here.
+- [76:24] So, if you click on this link, it'll
+- [76:27] take you to the same drive. Sorry.
+- [76:31] Oh, I made a mistake. This is not the
+- [76:33] drive link. This is the document link.
+- [76:36] And then within the document, the first
+- [76:38] link is Google Drive. So I'm going to
+- [76:40] share this again on the chat.
+- [76:44] Google Drive link. Okay. So if you go to
+- [76:47] the Google Drive link, there will be a
+- [76:49] folder called collab notebooks. Within
+- [76:51] that, you have two folders and my lovely
+- [76:53] presentation slides in the form of PDF.
+- [76:56] Within these folders, you have financial
+- [76:58] services. One notebook there called 10K
+- [77:00] auditor and then another folder called
+- [77:04] healthcare within which there are two
+- [77:06] files. one is the sample document that
+- [77:09] we will be using and then the second one
+- [77:10] is a notebook the Jupyter notebook so
+- [77:13] everything will be on collab so you
+- [77:14] won't need to set up anything locally
+- [77:18] and I think that's fantastic because we
+- [77:20] won't have any you know wastage of time
+- [77:23] in terms of like setting up dependencies
+- [77:27] >> can we run can we run it locally
+- [77:31] >> we can yeah later
+- [77:33] >> okay
+- [77:34] >> yeah for whatever reasons you might You
+- [77:36] can like set up Jupiter or if you
+- [77:38] already have it set up you can just you
+- [77:40] know in your terminal just shoot these
+- [77:42] keep all these files like just download
+- [77:43] this Google drive and keep all these
+- [77:45] files
+- [77:45] >> and then start.
+- [77:46] >> Yeah, I've got them got them downloaded
+- [77:49] um and running in cursor both the
+- [77:52] financial and the healthcare jupitter
+- [77:54] notebook.
+- [77:55] >> But yeah, I would still encourage you to
+- [77:57] like uh probably use collab if you can
+- [78:00] because it's going to be easy to follow
+- [78:03] along otherwise in that you might get
+- [78:04] lost.
+- [78:06] Okay.
+- [78:06] >> Okay. So
+- [78:10] here, let's open the first notebook. So
+- [78:14] what I'll do is go back to my Google
+- [78:16] Drive,
+- [78:17] open financial files folder, and then
+- [78:20] double click on this IPY NB smart 10K.
+- [78:24] It's 10K auditor Jupiter. And then once
+- [78:28] I double click on it, it gets opened.
+- [78:30] And here's the whole notebook.
+- [78:33] Okay. Now
+- [78:37] top to bottom I'm just
+- [78:39] glancing.
+- [78:43] Okay, let's try to understand what's
+- [78:45] happening in here at the high level
+- [78:46] first. So you have a web scraper called
+- [78:51] beautiful soup. It scrapes from a
+- [78:55] specific link and then it provides the
+- [78:59] link of a PDF after scraping from a
+- [79:01] specific web page.
+- [79:04] And that link is taken by AD.
+- [79:07] So, so think of it as like a web scraper
+- [79:10] scraping a specific web page and giving
+- [79:12] out a specific PDF link and then we are
+- [79:16] feeding in that specific PDF link into
+- [79:18] AD.
+- [79:20] And then from there AD starts this
+- [79:22] extraction its parsing process and it
+- [79:25] parses everything
+- [79:28] and here's and then we get the output
+- [79:31] and then we select some specific fields
+- [79:33] that we need and provided a schema for
+- [79:36] those fields for extracting those fields
+- [79:38] and then finally we get all the output
+- [79:41] for the for those specific fields. So
+- [79:43] that's the high level of what's
+- [79:45] happening. So let's dig in and make it
+- [79:47] concrete.
+- [79:50] So I will run this first cell here. PIP
+- [79:53] install all these dependencies.
+- [79:57] So you can just either click this play
+- [79:59] button or just press shift enter.
+- [80:07] So it's installing beautiful soup
+- [80:10] requests library and agentic doc
+- [80:11] library. So somebody asked me in the
+- [80:14] beginning about the Python library. So
+- [80:15] this is the Python library. Agentic doc.
+- [80:20] So this lets you use and build using AD.
+- [80:28] Okay, this is run. Second cell I'm
+- [80:30] running.
+- [80:32] So here just importing the dependencies.
+- [80:35] Successfully imported.
+- [80:39] So first installing them, downloading
+- [80:41] and installing them and then importing
+- [80:43] them. Yeah, don't don't worry about
+- [80:45] this. It doesn't affect what we're
+- [80:47] doing. You don't even have to restart
+- [80:49] the runtime.
+- [80:53] Okay. Now,
+- [80:55] this is like just a demo cell that shows
+- [80:59] you how beautiful at a high level how
+- [81:02] beautiful soup library works. So, this
+- [81:05] is like some sort of HTML
+- [81:07] DOM structure.
+- [81:10] It goes in and then the links come out.
+- [81:14] So if we run it, see from this
+- [81:16] structure, these three links came out,
+- [81:18] right? So we're going to replicate the
+- [81:20] same behavior for a 10K
+- [81:23] ledger form.
+- [81:25] Okay,
+- [81:28] so I have given it a URL and then now it
+- [81:31] will scrape the PDF from that URL.
+- [81:35] Okay, so let's run this.
+- [81:38] Here it scraped it.
+- [81:41] Sweet. Let's open it and have a look at
+- [81:43] it.
+- [81:46] So this is how it looks like. There are
+- [81:49] net sales data.
+- [81:52] There's operating expenses, income,
+- [81:54] current assets, and a bunch of other
+- [81:56] things. Okay, let's go back to the
+- [81:58] notebook.
+- [82:03] So I will answer their chat questions
+- [82:05] real quick. Then I click on the 10K. It
+- [82:08] shows code and it does not show the
+- [82:09] collab notes as you have.
+- [82:13] Oh, what do you mean notes? Just double
+- [82:15] click on it. Uh, Satya, just double
+- [82:18] click on it and it will open.
+- [82:22] >> Yeah, I think there is a step in setting
+- [82:24] like application. So when you click on
+- [82:26] it, it just brings you know uh an option
+- [82:28] and then ask you whether you want to
+- [82:30] open it with a specific application. I
+- [82:32] think you have to select
+- [82:33] >> collab. Google collab. Yes. So I already
+- [82:35] have it as a default. So this is why
+- [82:37] it's not asking me. But let's say
+- [82:40] >> So what do I open it as?
+- [82:43] Open
+- [82:44] >> Google app.
+- [82:45] >> So click here. It's asking.
+- [82:48] >> Yes, I have it like this.
+- [82:50] >> Oh, I see. Okay. So
+- [82:56] okay, give me one second.
+- [83:01] Uh it's not giving that readym made
+- [83:02] option to open in Google Collab. Damn
+- [83:05] it. Okay. So, let's do this.
+- [83:08] >> Download it.
+- [83:10] >> Yes. So, open Collab.
+- [83:14] You're already signed in hopefully. So,
+- [83:16] you will your collab will be ready and
+- [83:18] and associated with your account.
+- [83:21] So, I will link this in the chat here.
+- [83:25] What you will do is download it.
+- [83:27] >> Mhm.
+- [83:30] and then
+- [83:35] >> open it here.
+- [83:36] >> Yes.
+- [83:37] >> Okay.
+- [83:38] >> You open it.
+- [83:42] You
+- [83:44] uh
+- [83:47] wait.
+- [83:53] >> So once you are in that link
+- [83:55] >> Mhm. Here
+- [83:58] you click here
+- [83:59] >> file open notebook
+- [84:03] uh file I think
+- [84:05] >> I think it will go to your drive.
+- [84:07] >> Uhhuh.
+- [84:08] >> And it will go to some sort of like
+- [84:09] collab notebook.
+- [84:11] >> Okay.
+- [84:11] >> Just you just
+- [84:13] >> I'll search. Yeah.
+- [84:14] >> Put it here
+- [84:16] and then it will open.
+- [84:19] >> Yeah. I think it be file upload note.
+- [84:22] >> Yeah. You can do an upload
+- [84:23] >> or you can upload in the collab itself
+- [84:25] like you can
+- [84:26] >> Okay. Okay. Okay. I finally Yeah.
+- [84:27] >> And here upload it like from Google
+- [84:30] Drive or here browse.
+- [84:33] >> Okay. Got it. Got it.
+- [84:34] >> And then here
+- [84:36] and then it's going to start.
+- [84:40] >> Thank you so much.
+- [84:41] >> Okay. Hopefully everybody is on page
+- [84:44] with me on the same page.
+- [84:46] >> No, it's um what is this collab? I It's
+- [84:49] new for me. Collab. Google. I have to
+- [84:52] import there.
+- [84:53] >> Yes. Yes. Because it's Google's offering
+- [84:57] that lets you run these notebooks within
+- [84:59] their environment using their GPUs and
+- [85:02] CPUs.
+- [85:03] >> Okay.
+- [85:04] >> Which is their runtime on their
+- [85:05] infrastructure.
+- [85:14] >> Now I can see the notebook. Thank you.
+- [85:16] >> Awesome.
+- [85:20] Okay,
+- [85:22] great.
+- [85:25] Okay, now
+- [85:31] just run this first cell again
+- [85:34] and then second. So sequential you keep
+- [85:37] running this
+- [85:40] and
+- [85:43] then this one.
+- [85:46] So it's going to cue
+- [85:48] If something else is running, then it'll
+- [85:50] just be in the queue and it will
+- [85:51] sequentially run automatically.
+- [85:56] Okay, so this URL came out. I already
+- [86:00] showed you the UR what's in the PDF. And
+- [86:03] then now let's start let's feed this
+- [86:06] into the AD.
+- [86:09] But before that, notice how I have this
+- [86:11] schema here, right? So it's a pyantic
+- [86:14] class
+- [86:17] and I'm creating the schema total
+- [86:20] revenue
+- [86:22] giving description total net sales in
+- [86:24] USD
+- [86:25] net income
+- [86:28] again in USD diluted EPS
+- [86:32] diluted earnings per share
+- [86:35] and I'm asking it to take the schema and
+- [86:39] extract
+- [86:41] from the PDF URL this one these things
+- [86:45] specifically
+- [86:46] and store in results. Okay.
+- [86:50] So this is the schema you passed in you
+- [86:53] you pass it in this parameter. This is a
+- [86:55] PDF URL.
+- [86:57] You have it here initialized in the
+- [86:59] previous one. PDF URL
+- [87:03] and then you call the parse function
+- [87:07] from AD library agent doc here, right?
+- [87:12] And then you get the result. Awesome.
+- [87:15] Running it.
+- [87:19] It's asking for the API key. Now the
+- [87:25] now we go back to playground again to
+- [87:27] fetch this API key. So what you will do
+- [87:30] is
+- [87:32] if you don't have the playground open
+- [87:34] you go to the document that I have
+- [87:37] Google document
+- [87:39] in the chat again I've sent it in the
+- [87:41] chat and then
+- [87:45] you go to this playground link API key1
+- [87:50] I'll send it as well in the chat
+- [87:53] and then now I click here it takes me to
+- [87:57] the specific page that I Copy.
+- [88:01] Copy from here.
+- [88:04] Go back. Paste it here. Press enter.
+- [88:08] Your API key is
+- [88:10] validated.
+- [88:13] Parsing that one document. This one.
+- [88:18] Notice
+- [88:20] how it's taking it from the URL itself.
+- [88:23] So, we have not downloaded it. Right.
+- [88:25] Right. So library is built in such a way
+- [88:27] that you can actually do that.
+- [88:29] >> Quite handy actually.
+- [88:31] Now it's parsing.
+- [88:38] >> Okay. Sorry. Can you can you show where
+- [88:40] you uh paste the the API key?
+- [88:43] >> It was a little fast.
+- [88:45] >> Yeah. Here.
+- [88:48] So this cell where you have the schema,
+- [88:54] you also initialize the API key. I'm
+- [88:58] using a library called get pass. What it
+- [89:00] does is it takes your API key like a
+- [89:03] password. So when you run it, it asks
+- [89:07] you and then you paste.
+- [89:09] >> Oh, okay. Okay.
+- [89:10] >> Yeah.
+- [89:10] >> Thanks.
+- [89:12] >> I I think this is a cool way, right?
+- [89:14] like our customerf facing MLES they
+- [89:17] usually resort to this kind of a
+- [89:20] uh way and I kind of took it from there.
+- [89:26] >> Yeah. So the your class for the
+- [89:28] financial metric so so from the document
+- [89:31] >> you just extracting or asking API to
+- [89:33] just pull these three fields from the
+- [89:35] document. Is it is it right?
+- [89:36] >> Mhm.
+- [89:37] >> So if I have like more fields for
+- [89:39] example financial analysis they need
+- [89:41] probably 10 15 fields. So I would just
+- [89:42] create a class like this and add those
+- [89:45] fields in the class.
+- [89:47] >> And does the description should match
+- [89:49] what's in the document?
+- [89:51] >> Oh,
+- [89:53] good question. Yeah. Um, it helps.
+- [89:59] But let's say see this document like
+- [90:01] does it have any description? Nope. If I
+- [90:04] want to extract let's say total net
+- [90:06] sales, I can say
+- [90:09] uh total net sales in USD
+- [90:12] to help it right like that. Hey, it's
+- [90:16] dollar and this is a field. So I can
+- [90:18] like change this language depending upon
+- [90:20] my convenience. So think of it like the
+- [90:23] the more Yeah. So you have to like give
+- [90:26] it a proper context. So whatever context
+- [90:29] you can give, you should give. So that's
+- [90:31] I think the short answer to it.
+- [90:34] And we can we have lot of companies
+- [90:37] working with us and they have different
+- [90:39] the the format of the document is
+- [90:40] different right each company has their
+- [90:42] own format. So they should as soon as
+- [90:45] long as I pass the PDF to it it should
+- [90:48] get read the format and have the
+- [90:50] document extracted right
+- [90:52] >> yes
+- [90:54] you're right. Yeah. So
+- [90:56] >> okay
+- [90:57] >> you give it PDF or PNG or whatever
+- [90:59] formats we support and then it will be
+- [91:02] able to run the functions on them and
+- [91:05] then give you the
+- [91:07] >> based on the schema that you have
+- [91:08] provided it
+- [91:10] >> now I would assume that it can also
+- [91:13] infer the schema from the entire
+- [91:15] document and then you take what you
+- [91:17] want. No,
+- [91:18] >> if you don't define anything,
+- [91:19] >> I will uh I wish
+- [91:25] I mean as I said like the level of
+- [91:27] agentic increases every year. So at some
+- [91:31] point maybe who knows if it's something
+- [91:34] so generally what happens is enterpris a
+- [91:36] clear understanding of their schema they
+- [91:39] kind of know what they want extracted
+- [91:42] right so this is why like it's not
+- [91:43] something that is heavily demanded
+- [91:46] it's yeah but yeah a lot of like humans
+- [91:49] in general are lazy right they want
+- [91:50] everything ready made so
+- [91:53] at some point this this requirement
+- [91:56] might arise yeah okay so let's click
+- [91:59] here.
+- [92:01] So, total revenue, net income, and
+- [92:03] diluted EPS. Now, let's go back and
+- [92:05] check if it's correct or not. Total
+- [92:07] revenue,
+- [92:10] which is total net sales in US dollar.
+- [92:16] And then net income.
+- [92:20] Net income is what? 33916.
+- [92:25] It's uh net income here.
+- [92:29] Where the where did I operating net
+- [92:32] income here?
+- [92:34] Correct.
+- [92:36] And then the third one diluted EPS
+- [92:38] earnings per share
+- [92:43] here. Diluted EPS earnings per share.
+- [92:47] So I annoyingly give it like enough
+- [92:50] context but nothing like exactly same
+- [92:52] right but it was meaningful enough. So
+- [92:54] as you can see it's coming out. Wait,
+- [92:56] wait, wait.
+- [92:58] I'm I'm asking earnings per share
+- [93:00] diluted. So it's 2.18.
+- [93:03] So that is coming out
+- [93:05] 2.18.
+- [93:09] Okay. So now
+- [93:11] >> I hate to ask I hate to stop but I'm
+- [93:14] getting an error like uh I'm not sure
+- [93:18] why but I think I missed entering the
+- [93:20] API. If you don't mind, can you repeat
+- [93:22] how you enter the API key?
+- [93:26] >> Yeah. Yeah, sure.
+- [93:30] So, where is it?
+- [93:31] >> I I right here. I'm right here. But um
+- [93:34] >> here in this cell.
+- [93:36] >> Mhm. I'm here.
+- [93:38] >> Vision agent API key.
+- [93:39] >> Uhhuh.
+- [93:40] >> You just run it and it will ask
+- [93:41] >> I ran it. Oh,
+- [93:43] >> it ask me.
+- [93:44] >> Uhuh. It doesn't add. It says module not
+- [93:47] found error.
+- [93:48] >> Oh, which means the previous cells were
+- [93:50] not run.
+- [93:52] >> Go do this and click on run all.
+- [93:55] >> Okay. Okay. and it will like start
+- [93:57] running everything sequentially until
+- [94:00] the last cell
+- [94:02] >> and it should work.
+- [94:04] >> Okay.
+- [94:06] So this is the this container wherever
+- [94:09] you are doing all this is the playground
+- [94:14] what is this called collab what is this
+- [94:17] for? So it's a infrastructure
+- [94:21] it it is a interface that is provided by
+- [94:24] Google that is
+- [94:26] >> hosted on Google's infrastructure that
+- [94:28] provides you the RAM the disk space and
+- [94:31] even GPUs that are available.
+- [94:34] So what you can do is run on their
+- [94:35] infrastructure all your software and
+- [94:37] libraries and all this.
+- [94:40] >> Okay. Okay.
+- [94:40] >> Yeah. So basically not using your own
+- [94:42] infrastructure in your local laptop or
+- [94:44] system or desktop or whatever. Instead,
+- [94:47] you're using Google's infrastructure
+- [94:48] from their servers using this.
+- [94:51] >> Okay. Okay. Okay. Okay. I got it now.
+- [94:53] So, it's like a computer, but it's not
+- [94:55] it's like a system, but it's some it's
+- [94:58] Google's system. Okay. Got it. Totally
+- [95:01] misunderstood what this is.
+- [95:03] >> Yeah. Thank you. And now it's asking me
+- [95:06] to enter the API.
+- [95:07] >> Okay. Nice.
+- [95:09] >> I have a question on this. Okay. Uh
+- [95:10] sorry.
+- [95:11] >> Yeah. So, for this use case, I
+- [95:12] understand this is a basic use case.
+- [95:15] just you are like reading the PDF and
+- [95:18] generating the results.
+- [95:19] >> Mhm.
+- [95:19] >> But uh do we need to do all like it
+- [95:23] takes a lot of time but a similar use
+- [95:26] case we can also execute in basic
+- [95:28] copilot or any of the uh any of the GPT
+- [95:31] models right?
+- [95:32] >> Mhm.
+- [95:34] >> So what is difference like how does it
+- [95:35] differentiate in landing AI
+- [95:38] >> uh running uh sorry I I actually could
+- [95:41] not understand the first part of your
+- [95:42] question. You said what you want to run
+- [95:44] in OpenAI.
+- [95:46] >> No, what I'm saying is the this use case
+- [95:48] >> which is a basic PDF.
+- [95:50] >> Mhm.
+- [95:51] >> Uh this can be like processed and we can
+- [95:56] extract all the results
+- [95:58] >> using different what do you call
+- [96:01] different GPT models either with copilot
+- [96:04] or you can use uh say uh perplexity or
+- [96:08] lot of tools a lot of other tools also
+- [96:10] does it. So how does landing a
+- [96:12] differentiate? I mean what what is the
+- [96:14] for example it says in millions right?
+- [96:19] >> So it grasps all this like contextually
+- [96:22] that actually these are in million
+- [96:23] values. So it will give you that
+- [96:26] when you say shares the meaning is
+- [96:28] different. So grasps contextually. So
+- [96:32] that kind of spatial reasoning and
+- [96:33] associations
+- [96:35] right. So if you see the structured
+- [96:36] output, you will have like all this
+- [96:39] baked in in there so that it will help
+- [96:41] downstream. Let's say if you feed that
+- [96:43] structured JSON into a LLM, it will be
+- [96:46] able to understand all these missing
+- [96:47] cues. It might miss actually.
+- [96:50] So it might uh think it might not be
+- [96:54] able to make these spatial associations
+- [96:57] or contextual associations. And actually
+- [96:59] this is where something like this shine
+- [97:02] because you have all these spatial uh
+- [97:05] information baked in into the output. So
+- [97:09] that is why you call it like some sort
+- [97:10] of like LLM ready output or some sort of
+- [97:12] like structured output that helps these
+- [97:14] models to
+- [97:16] uh to to like go from there for any
+- [97:18] downstream task. Right?
+- [97:21] >> So that's one way to think about it. But
+- [97:23] if you see that accident statement like
+- [97:27] another level of complexity and
+- [97:28] different kind of complexity in there.
+- [97:31] We will go through another example. I
+- [97:32] think we have some time. We can run
+- [97:34] another notebook and go over another
+- [97:36] example.
+- [97:39] >> And how to ver verify the accuracy of
+- [97:41] this LLM? How do you evaluate this is
+- [97:43] true? Because for this document is fine.
+- [97:46] So you have,000 pages of PDF, right? And
+- [97:49] you have a lot of financial statements
+- [97:50] or something else.
+- [97:52] U is there a
+- [97:54] accuracy or do you have any verification
+- [97:58] process from the landing edge?
+- [98:02] >> So we haven't
+- [98:05] we haven't uh released any public
+- [98:07] benchmark yet although there are some
+- [98:09] external agencies that have kind of
+- [98:12] benchmarked under some specific metrics
+- [98:15] suite that they found reasonable. So
+- [98:18] they benchmarked us this ad on that and
+- [98:22] the results you can find online. Uh but
+- [98:24] we exclusively haven't released any
+- [98:26] benchmark. Internally we do have some
+- [98:28] evaluation benchmarks that we use
+- [98:30] depending upon the kind of data that the
+- [98:31] customer has to give them a sense of
+- [98:34] like uh what at what level the accuracy
+- [98:38] the overall accuracy of the system
+- [98:40] resides and then what are the missing
+- [98:42] points and then we kind of work with
+- [98:44] them on those missing points as well
+- [98:46] during the PC phase. And what else can I
+- [98:50] say on this? Uh so this is where I was
+- [98:54] um showing you this will it extract
+- [98:57] where the high level philosophy was
+- [99:00] the pursuit in the in your pursuit of
+- [99:02] making of finding the meaning within
+- [99:04] your documents.
+- [99:06] uh you can rely on things like
+- [99:11] docqbqa or si for receipts or this
+- [99:14] docsile uh these are like some specific
+- [99:18] data sets that have like some specific
+- [99:20] task specific uh metric suites uh to
+- [99:24] evaluate the data upon. But then it's
+- [99:28] like for a lot of use cases this might
+- [99:31] actually not be applicable or it might
+- [99:32] be very misleading or it might be if not
+- [99:35] interpreted correctly or it might be
+- [99:36] very it's definitely not holistic at all
+- [99:39] and can cover some array of tasks that
+- [99:43] can hint you towards like some specific
+- [99:45] level of performance indication
+- [99:49] for that specific uh subset of document
+- [99:53] formats. But then overall it's extremely
+- [99:55] hard to gauge from any metric suite or
+- [99:58] benchmark uh that the accuracy of uh of
+- [100:04] of of the system for whatever documents
+- [100:07] you are kind of expecting to extract or
+- [100:09] parse from it. Right? So the high level
+- [100:12] is you can have all these benchmarks and
+- [100:15] metric suites to be directional as a
+- [100:18] starting point and kind of gauge what
+- [100:21] might be the performance especially if
+- [100:22] you're comparing with some other models.
+- [100:24] But then the recipe in general is just
+- [100:28] put the hardest documents that you have,
+- [100:30] the most diverse set of hardest
+- [100:34] complicated layouts that you might find
+- [100:37] that are most important for you and then
+- [100:39] see for yourself by eyeballing the most
+- [100:42] important and compl complicated ones to
+- [100:44] see if like you can actually your the ad
+- [100:46] being is being actually performant on
+- [100:48] that or not and if not then can you
+- [100:50] remediate that or not. So that is like
+- [100:53] the overall recipe of really going about
+- [100:55] thinking about the level of performance
+- [100:57] of such a offering within the world of
+- [101:00] document understanding.
+- [101:04] >> Does it make sense?
+- [101:05] >> Yeah. Okay. Thank you.
+- [101:07] >> Yeah. But definitely there are some
+- [101:09] benchmarks available from third parties
+- [101:11] but not us. And internally when you come
+- [101:13] and do a PC with us, we do definitely
+- [101:15] guide you towards
+- [101:17] uh this process and how to go about it
+- [101:19] depending upon your use case. And we are
+- [101:22] in the process of releasing u doc vqna.
+- [101:26] So ad's performance or doc vqna. I think
+- [101:28] it will be available in like a couple of
+- [101:30] weeks.
+- [101:32] >> And also the APIs are available to
+- [101:34] developers. The public APIs.
+- [101:37] >> Yep. It's a public python library.
+- [101:39] >> Python. Okay.
+- [101:40] >> Yeah. Here not here. So if you go in the
+- [101:43] doc here, I have a link to AD Python
+- [101:46] library and then helper scripts with
+- [101:49] some ready to consume code for
+- [101:52] developers.
+- [101:56] Okay, let's go back to our thing here.
+- [102:00] >> So I had a question about the results.
+- [102:02] So when I look at the output there, how
+- [102:05] how did the uh agent know to display the
+- [102:09] first column in the table? because it it
+- [102:13] showed the results for December 2023
+- [102:17] and not December 2022. So, how did it
+- [102:19] know to select that column and not the
+- [102:22] other one?
+- [102:25] Uh 2023 December 3 months ended.
+- [102:30] Great question. So, this is where when
+- [102:32] you create the schema, you have to be
+- [102:33] careful of like specifically like so if
+- [102:37] I ask it to do this. So it randomly
+- [102:40] picked one because I was not specific.
+- [102:42] So it could have see this is where it
+- [102:45] could have.
+- [102:47] So these systems are deterministic
+- [102:48] because they should be right. If you
+- [102:51] every time you parse a PDF and you get a
+- [102:53] different output then that's not what
+- [102:54] you want. You always want the accurate
+- [102:55] output right. So in this deterministic
+- [102:59] way like the output that it produced was
+- [103:01] this value instead of like picking this.
+- [103:04] But if I would say this
+- [103:07] uh in the ROM structure or this
+- [103:10] description then it should be able to
+- [103:11] pick up that but if you don't then it
+- [103:13] just picks the first or something or
+- [103:15] something. Yeah. So it actually doesn't
+- [103:18] have that much intelligence that it
+- [103:20] actually knows like hey you kind of
+- [103:23] maybe intended to pick up both instead
+- [103:24] of one or if I should predict both
+- [103:26] because the user has not. It kind of
+- [103:29] goes about like predicting one whatever
+- [103:31] comes first to it. Does it make sense?
+- [103:37] >> Yes it does. Thank you.
+- [103:39] >> Yeah. So the definitely like as I said
+- [103:41] like it's an evolving system not
+- [103:42] perfect. So I'm not sure what even the
+- [103:45] perfect answer for this occasion is like
+- [103:46] should the system ask hey which one do I
+- [103:48] pick you didn't specify or should the
+- [103:50] system just pick one or both or what
+- [103:53] >> but yeah the more concrete you are in
+- [103:55] your schema the better the response will
+- [103:56] be
+- [103:58] >> yeah I just followed the question um I
+- [104:01] think that it's a really great process
+- [104:03] for the AI process automation but
+- [104:07] actually so you guys also have a QCQA
+- [104:11] purpose for the auto detection
+- [104:13] or auto correction like a sync
+- [104:17] >> or the audit
+- [104:19] trail like you can audit detection the
+- [104:22] arrow or give you warning or arrow or
+- [104:26] something kind of reminder or just you
+- [104:29] just whatever you have a row data in and
+- [104:32] whatever you
+- [104:34] show the PDF file or whatever the report
+- [104:37] file is any detection auto detection
+- [104:41] >> no I don't know no generally what it
+- [104:42] does is I mean there's localization
+- [104:44] which means like you will get all the
+- [104:46] coordinates of all these bounding boxes
+- [104:48] so you saw all the chunks right and you
+- [104:50] have like these chunks localized for
+- [104:52] everything that is in there in the PDF
+- [104:54] right but then more than that if you are
+- [104:56] thinking of so there are classifications
+- [104:59] as well right like text figure
+- [105:01] marginalia for header and footer so that
+- [105:03] gives you like the positional
+- [105:04] information in different categories as
+- [105:06] well that helps downstream for your use
+- [105:08] case so we are building more
+- [105:10] classifications like ID cards, right?
+- [105:13] >> Yeah. The question is Yeah. The question
+- [105:16] is you have a single few page of PDF you
+- [105:19] can detect error or the the aggregation
+- [105:22] of the total summation. It's okay. If is
+- [105:25] the professional you have a ton of hund
+- [105:28] of a PDF or monthly billing or monthly
+- [105:31] receiving or you know whatever invoice
+- [105:34] you need up to find out which one is
+- [105:38] >> uh error uh during the coderary audit or
+- [105:41] whatever you know what I mean yeah it's
+- [105:43] UAT or QA perfect lab it's perfect but
+- [105:47] where reality the practical if I use
+- [105:52] you know what I mean
+- [105:54] >> correct correct All right. So I showed
+- [105:56] you the page. So bounding rock box
+- [105:58] provenence is also done at the page
+- [106:01] level
+- [106:04] here. See page level information. So if
+- [106:07] you have like 100th page, it will show
+- [106:09] 100. And then if you have um let's say
+- [106:14] uh
+- [106:17] so this chunk ID helps, it's unique.
+- [106:21] This page number helps as well. So
+- [106:23] together like you have like exact
+- [106:25] positioning depending upon where this
+- [106:27] page where this chunk comes on which
+- [106:29] page this chunks is found. So in this
+- [106:32] way like there's no like uh I mean
+- [106:36] there's no like problem even if you have
+- [106:38] like hundreds of pages and you're
+- [106:39] looking to find chunks on different
+- [106:41] different pages for different things and
+- [106:43] let's say there's like something that
+- [106:45] spans across pages then there might be
+- [106:47] different chunks but there might be
+- [106:50] information in the captioning or within
+- [106:53] the chunk that shows that hey there this
+- [106:55] is what is related to the other thing.
+- [106:57] So in that sense even if it ac spans
+- [107:01] across different pages or multiple pages
+- [107:03] the information within the chunk tells
+- [107:05] the system that hey this is the case
+- [107:07] indeed and you should take care of it.
+- [107:09] Does it make sense?
+- [107:15] Yes. Yeah. Thank you. I appreciate it
+- [107:18] because I will consider if in case is
+- [107:20] 100% is scanned from zero to 100 fine.
+- [107:24] If a case is uh partially scanning or
+- [107:28] whatever in the middle of a process is
+- [107:30] failing is it lack or what you do rescan
+- [107:34] again or how do you do with this loop
+- [107:36] back face yeah you cannot guarantee 100%
+- [107:39] each time you scan document always
+- [107:42] successful or whatever you know for
+- [107:45] certain reason you know what I mean
+- [107:48] >> so so it's so as I said it's a zshot
+- [107:51] parsing
+- [107:53] so it in one go whatever your scan is if
+- [107:55] whatever it can find depending upon like
+- [107:57] let's say you have weak DPI in the scan
+- [107:59] and it's like actually why not we do it
+- [108:02] like let me show you
+- [108:07] hey an will while you do that um I just
+- [108:10] wanted to share that I added
+- [108:12] >> iPhone sales
+- [108:14] >> and uh I wanted to try to pick up both
+- [108:16] dates
+- [108:17] >> and by prompting it with the date value
+- [108:21] that you were looking for um that was
+- [108:23] able to return correctly
+- [108:27] >> for both years for both dates.
+- [108:30] >> Very nice.
+- [108:32] >> Well, I did I did just I added just
+- [108:35] 2023, it didn't respond me one
+- [108:38] attribute, but when I say previous year,
+- [108:40] >> it did respond back. So, I think it's
+- [108:42] more on context.
+- [108:43] >> Yes, correct. Yeah. So, we Yeah, we are
+- [108:46] constantly improving on that. But yeah,
+- [108:50] but then uh it definitely tries to do
+- [108:52] its best for whatever context from
+- [108:53] whatever context you do give it. So
+- [108:55] which is very nice like I think by not
+- [108:58] keeping that I I actually provoked you
+- [109:00] all to like try different things which
+- [109:03] is nice.
+- [109:03] >> Yeah.
+- [109:04] >> But this is pretty cool.
+- [109:06] >> Very very cool.
+- [109:08] >> Nice. So this is my scanned PDF uh that
+- [109:14] I just uploaded.
+- [109:16] And as you can see, it's also tilted and
+- [109:19] it's like a very lowquality DPI scan
+- [109:23] which has like different spatial
+- [109:25] arrangements with different uh uh
+- [109:29] artifacts like checkboxes, cross marks,
+- [109:32] numbers,
+- [109:34] right? And it's kind of doing really
+- [109:38] good on this. If you see the values are
+- [109:40] not hallucinated, everything is picked
+- [109:42] up. Nothing is missed.
+- [109:48] And I am pretty confident you feed it
+- [109:52] into an LLM and LLM will struggle like
+- [109:54] crazy. Ask it qualified dividends here
+- [109:59] and then see what happens.
+- [110:02] I think this was what I was trying to uh
+- [110:05] use for my will it extract episode two
+- [110:07] but I never got to it. I think I got so
+- [110:10] overwhelmed by work that I never got the
+- [110:12] chance to publish that but yeah soon
+- [110:14] enough I will do that but yeah this is
+- [110:17] another interesting thing like uh and as
+- [110:20] you can see like I could have clubed
+- [110:22] this into multiple pages and then it
+- [110:24] would say page one if I would have
+- [110:26] clicked on like let's say a second so
+- [110:28] here I don't think I have any example of
+- [110:31] multiple pages here otherwise I would
+- [110:32] have showed you
+- [110:35] uh one page two page page.
+- [110:39] Yeah. Here, here multi-page. See?
+- [110:43] So,
+- [110:45] see here, page one.
+- [110:50] So, if it's Yeah. So, this kind of like
+- [110:53] text helps it to like make correlations
+- [110:56] with the with the with the table. So, if
+- [110:59] you'll have something like here as a
+- [111:01] like a footnote for the table, it kind
+- [111:03] of makes these correlations.
+- [111:06] Okay, let's move on to the second thing.
+- [111:08] I think the second demo we can quickly
+- [111:11] go through that as well and run every
+- [111:13] cell really quick. So I'll do the same
+- [111:16] process again. For me it's double click
+- [111:18] for you. I think now if you set it by to
+- [111:21] default it should work otherwise you can
+- [111:22] again upload it and run it with me.
+- [111:27] So are you able to confirm if you have
+- [111:30] set up the second document in the second
+- [111:32] folder. So go to healthcare and set this
+- [111:34] up in your collab again and let me know
+- [111:38] once you're done and then we will
+- [111:40] proceed.
+- [112:03] Okay.
+- [112:03] >> Are we doing the health care?
+- [112:05] >> Yes, healthcare.
+- [112:06] >> Okay. Sorry.
+- [112:11] >> It's very interesting. When you first
+- [112:13] open and collab, the the next document
+- [112:16] will open this automatic. Very good.
+- [112:18] >> Yes. because the default is set. Now
+- [112:21] >> that you have opened it once you used
+- [112:23] it.
+- [112:24] >> Yeah.
+- [112:25] [Music]
+- [112:28] Let me explain in that time some of the
+- [112:30] stuff that is happening here. So we have
+- [112:34] a CBC test report or some random guy.
+- [112:39] Yeah, it's fake data. Don't worry about
+- [112:40] the personal detail or anything.
+- [112:43] and then hemoglobin RBC blood indices
+- [112:48] WBC whatever platelet count
+- [112:52] some footer for the pathologist
+- [112:54] information signature and stuff
+- [112:57] yeah so this is how the document looks
+- [113:00] like okay
+- [113:01] so let's go
+- [113:04] and see what's happening in this
+- [113:05] notebook so it's an end toend workflow
+- [113:09] where again we are doing the same thing
+- [113:11] we provide this document to ID and then
+- [113:14] we ask it to extract specific
+- [113:16] information based on the schema that we
+- [113:18] have provided it.
+- [113:21] But this is more systematic in the sense
+- [113:24] like um the code is written properly
+- [113:29] with like more checks in place like
+- [113:31] input folder, result folder, grounding
+- [113:34] folder. So now I will be able to show
+- [113:36] you the images stored in the grounding
+- [113:38] folder corresponding to these chunks. So
+- [113:40] that will be interesting.
+- [113:43] And then these are the formats PDF, PNG,
+- [113:45] JPEG, JPEG.
+- [113:47] So as as like it's able to like verify
+- [113:51] and make sure that it's asked for the
+- [113:54] valid format and then take it.
+- [113:58] And then here
+- [114:01] there are some parameters that I'm like
+- [114:03] initializing for our parse API like
+- [114:05] marginalia like do you want the header
+- [114:07] footer information included or not
+- [114:10] right? generate metadata and markdown.
+- [114:12] So in the markdown there's some in
+- [114:14] metadata information like maybe if it's
+- [114:16] rotated or not or yeah or the captioning
+- [114:20] for the figure. So those kind of things
+- [114:22] you can disable. So yeah, play with it
+- [114:25] uh whenever you get a chance later.
+- [114:28] But yeah, for now just keep in mind that
+- [114:30] there's some parameters that you can
+- [114:32] always go and look into the
+- [114:34] documentation for
+- [114:37] paid. So the schema in the Python
+- [114:40] library we
+- [114:42] so it's like strongly typed way of
+- [114:45] giving the schema right. So we are
+- [114:47] declaring this as this class with all
+- [114:49] these attributes and then telling the uh
+- [114:54] the model like the system what exactly
+- [114:57] to extract right so similarly similar to
+- [115:00] what we did for financial
+- [115:03] use case
+- [115:05] and then here
+- [115:07] I'm saving those uh uh those images in
+- [115:11] the those chunk information in this
+- [115:13] grounding folder.
+- [115:16] So here once you will run it you will
+- [115:18] you will see three folders coming in and
+- [115:20] then when one of the folders the
+- [115:22] grounding one the images will be saved.
+- [115:27] Okay.
+- [115:29] So
+- [115:33] are you all ready? Shall we run it?
+- [115:39] >> Yep.
+- [115:40] >> Yeah.
+- [115:43] Okay. Let's do it.
+- [115:51] So pip install again.
+- [115:56] Pillow is just image processing library.
+- [115:58] Aentic doc is our Python library for AD.
+- [116:08] running the second cell
+- [116:14] API key again. So we will have to go to
+- [116:17] the same.
+- [116:20] So if you don't have it handy, go to the
+- [116:23] playground,
+- [116:25] copy,
+- [116:28] come back,
+- [116:30] enter. After pasting it, enter
+- [116:36] it's done.
+- [116:39] Let's run the second cell.
+- [116:43] Okay, it's working. So this is bat size
+- [116:46] max workers. These are again some
+- [116:48] settings in the Python library that you
+- [116:49] can change and play with later like
+- [116:51] parallelization. How many parallel
+- [116:54] workers you want at max for the
+- [116:56] processing? If there's a request it
+- [116:59] fails due to timeout or something then
+- [117:01] how many retries do you want? So these
+- [117:02] kind of configuration options are there.
+- [117:05] Here
+- [117:08] I'm just making sure that we have the
+- [117:10] current the correct directory structure
+- [117:12] and then all the directories are
+- [117:13] properly created and they exist.
+- [117:16] So let's run this.
+- [117:24] Making sure that the file types are
+- [117:26] taken care of.
+- [117:34] Just running cell by cell everything API
+- [117:37] key is valid. No documents to parse. So
+- [117:40] as you can see on the left you have
+- [117:42] three folders created but in the input
+- [117:44] folder there's nothing. So that is why
+- [117:46] it's saying no document to parse. So now
+- [117:48] what you will do is download this
+- [117:50] document and then put it in your collab.
+- [117:54] So download
+- [117:58] and
+- [118:00] upload it
+- [118:02] here in the input folder.
+- [118:07] So it's just giving you a warning that
+- [118:09] if the runtime is lost, your files and
+- [118:10] all this folder structure will be lost.
+- [118:14] But for us, I think it's a short and
+- [118:18] sweet adventure and that is why we don't
+- [118:20] mind.
+- [118:24] So I don't see it coming.
+- [118:26] >> Show again what you did with the files.
+- [118:29] >> Yeah. So I refreshed it and now it's
+- [118:30] showing. So what I did was I just went
+- [118:33] to my Google Drive.
+- [118:35] Yeah. So next time I think I'll upload
+- [118:37] it in a Google cloud bucket and take it
+- [118:39] from there using our connector or
+- [118:41] something. But for this time Yeah. Sorry
+- [118:43] that you had to like do do all this. So
+- [118:45] you download it from the Google Drive,
+- [118:49] right?
+- [118:50] put it in chat
+- [118:56] and then you once it's downloaded you go
+- [119:00] back to wherever it's downloaded and you
+- [119:04] drag and drop it in the inputs folder
+- [119:08] and then you refresh it
+- [119:11] and then you'll see that coming here
+- [119:15] okay and then now I run this back again
+- [119:18] and it's saying no document to So you
+- [119:22] know why you might need to rerun it
+- [119:24] because uh it still doesn't know the
+- [119:26] file name. Couldn't find it
+- [119:27] >> exactly because I have downloaded it
+- [119:29] again and then the name has messed up.
+- [119:32] So
+- [119:34] what's happening is
+- [119:37] uh
+- [119:41] exactly what you Yes. Yes. So we have to
+- [119:44] run the previous cells in order for it
+- [119:46] to have the correct file path and
+- [119:48] everything.
+- [119:50] So let's do that. Where is that
+- [119:52] information?
+- [119:56] Uh
+- [120:00] it's here.
+- [120:02] So I will go run this.
+- [120:05] See, now it picked up CBC lab report
+- [120:07] too, right?
+- [120:09] And now otherwise it was coming empty
+- [120:11] when we didn't have a file in here. And
+- [120:13] then now here the file path is coming.
+- [120:17] And then now it's starting to parse.
+- [120:21] Good catch. Great.
+- [120:24] So I was hoping that somebody catches
+- [120:26] it.
+- [120:28] Mission accomplished.
+- [120:30] Okay. So
+- [120:32] now it's processing, parsing,
+- [120:36] and then here's what we have done for
+- [120:37] the schema.
+- [120:40] And then again,
+- [120:45] okay, it's done. schema initialized.
+- [120:49] Now it's parsing using that schema and
+- [120:53] extracting everything and then keeping
+- [120:54] the groundings in this specific folder.
+- [120:57] So you see a new folder came inside
+- [121:00] click on it page zero. So let's say if
+- [121:03] there was page 1 2 300 then it will have
+- [121:05] like different different folders for all
+- [121:06] the pages and every artifact of
+- [121:08] corresponding to that page will be saved
+- [121:10] within that folder. So double click on
+- [121:12] this.
+- [121:16] See the signature is here.
+- [121:20] QR code is here. WhatsApp number.
+- [121:24] All the chunk data is here.
+- [121:33] Okay.
+- [121:36] This is the chunk information. all the
+- [121:37] JSON
+- [121:41] it
+- [121:42] >> man.
+- [121:43] Yeah.
+- [121:44] >> Uh as I could see the chunk uh can be in
+- [121:47] a different order is correct.
+- [121:50] uh in a different order like as compared
+- [121:52] to what
+- [121:54] >> uh you showed us the the first chunk
+- [121:56] file was a senator but on my uh on my
+- [122:02] situ my example is a QR code is
+- [122:06] presented
+- [122:08] >> oh I see
+- [122:10] let's see
+- [122:14] >> yeah that one
+- [122:18] okay let's see what happens
+- [122:19] >> but I found the signature
+- [122:22] it's after I think it's the fourth one
+- [122:25] >> correct so if you rerun it the ids will
+- [122:27] be generated differently
+- [122:29] >> so then it gets reordered depending upon
+- [122:32] this the alphabetical order of the ids
+- [122:35] I think that's the what's happening
+- [122:37] that's why your order and my order
+- [122:39] coming out differently
+- [122:40] >> okay
+- [122:44] >> okay let's keep running
+- [122:48] uh Uh
+- [122:50] all this junk information is here
+- [122:56] extraction metadata
+- [123:00] corresponding to the extraction
+- [123:03] just patient name that we wanted to
+- [123:05] extract is here. So we did the field
+- [123:07] extraction right? So we had the schema.
+- [123:09] So it has extracted all those things.
+- [123:10] I'm just outputting one by one the
+- [123:12] fields.
+- [123:14] So this is the chunk reference
+- [123:18] chunk ID not found. Why? Because this is
+- [123:22] prefilled. So what you have to do is put
+- [123:25] in this ID here
+- [123:29] and run it. See it found the chunk.
+- [123:33] So you don't have to like loop in like
+- [123:36] you know like those double loops where
+- [123:37] you're matching one chunk ID with
+- [123:39] whatever you want to find. uh and go
+- [123:42] through all the different ids of all the
+- [123:44] chunks to match one ID. So it
+- [123:45] automatically the library facilitates
+- [123:47] it. So you just have to give the library
+- [123:51] the chunk ID and actually can find that
+- [123:53] from the ID.
+- [123:55] I think yeah
+- [123:58] but here since I had to like find other
+- [124:00] information I have like all this looping
+- [124:01] in the in place.
+- [124:09] Okay, here
+- [124:11] printing all the information
+- [124:14] saving it to a table.
+- [124:20] So as you can see it's a dictionary CBC
+- [124:23] dictionary that I've initialized with
+- [124:25] all these parameters
+- [124:27] right. So
+- [124:29] from our schema I got all this and then
+- [124:31] now we are just storing this.
+- [124:35] So we are specifically finding something
+- [124:38] and displaying it.
+- [124:42] So now this is what it displayed
+- [124:44] the specific one information for this
+- [124:47] patient. So you can have hundreds of
+- [124:49] such things in data frames stored and
+- [124:51] then you can do post-processing on them
+- [124:53] depending upon whatever you would like
+- [124:54] to calculate whatever statistics or
+- [124:57] measure or whatever.
+- [125:03] >> Yeah. I I couldn't my uh folder could
+- [125:06] not get past there was uh the CD CBC
+- [125:11] test thing it shows and then when I run
+- [125:14] the agentic document extraction
+- [125:18] I nothing comes in it says no documents
+- [125:21] to pass.
+- [125:24] >> Uh which cell is it again? Uh 21
+- [125:29] >> 21
+- [125:32] here. This one print the external
+- [125:33] patient name.
+- [125:34] >> Yeah.
+- [125:35] >> Uh no pass. Yes.
+- [125:38] >> Oh, I see. So it's way behind.
+- [125:40] >> Way behind. Yeah.
+- [125:42] >> Okay. Let's
+- [125:42] >> I just couldn't go beyond that.
+- [125:46] >> So it's not a I see. Okay. So do do
+- [125:49] this. Run this again. What does it does
+- [125:52] it show the path?
+- [125:54] >> It does.
+- [125:55] >> It does. And then
+- [125:56] >> it does. And then again when I click on
+- [125:58] the parsing thing,
+- [126:00] >> it it shows no documents found now. Now
+- [126:04] it's like doing something.
+- [126:07] >> Now it's working. I did click couple of
+- [126:09] times and it's just like
+- [126:11] >> Yeah, maybe it didn't recognize for some
+- [126:13] reason the previous cells. I don't know.
+- [126:15] Maybe the runtime failed.
+- [126:17] >> Yeah, maybe.
+- [126:18] But yeah, this should work like once you
+- [126:20] have the file and all the uh all the
+- [126:24] locations intact in place
+- [126:26] >> then should definitely parse.
+- [126:30] >> Okay.
+- [126:30] >> So because of the runtime it failed.
+- [126:33] >> Yeah.
+- [126:33] >> Okay.
+- [126:34] >> Most probably my best guess. Yes. I
+- [126:37] don't think it's AD library that uh
+- [126:40] timed out. I think it's probably the
+- [126:42] runtime. Yeah.
+- [126:45] because otherwise you will get some
+- [126:47] error like oh the library the API
+- [126:49] returned 404 whatever.
+- [126:57] Okay so in the output results folder you
+- [127:00] get all the data frame stored
+- [127:05] and this is the markdown store.
+- [127:08] Yep. So this is the end to end workflow
+- [127:11] for
+- [127:12] a typical healthcare document that you
+- [127:14] see and then downstream you can play
+- [127:16] with it like you can do I mean you can
+- [127:19] imagination you can imagine like it it's
+- [127:22] your use case could span from processing
+- [127:26] some sort of lab reports and then test
+- [127:28] results right so you might have
+- [127:31] all these hemoglobin level blood count
+- [127:32] level and then you want to have these
+- [127:35] health records stored automatically in
+- [127:37] your database so you might like just
+- [127:39] parse and keep storing field extracted
+- [127:41] fields depending upon like one field you
+- [127:43] want to store in this table another
+- [127:45] field in some other table right so
+- [127:47] different kind of database uh databases
+- [127:50] you can uh populate depending upon the
+- [127:52] extractions right at different locations
+- [127:55] in different buckets so a lot you can
+- [127:57] possibly and potentially imagine to do
+- [127:59] downstream from here you can automate
+- [128:02] some sort of like insurance claims right
+- [128:04] you can have like these forms filled
+- [128:06] automatically with the patient
+- [128:07] information extracted from this report
+- [128:10] right you can summarize for medical
+- [128:11] literature I don't know some report
+- [128:13] using the summary that this ad provides
+- [128:16] you right or you could have like some
+- [128:20] sort of clinical trial documentation
+- [128:24] um you can generate like vast amounts of
+- [128:26] documentation using all this
+- [128:28] >> that's very important because the lab
+- [128:31] the diagnostic sugar level is for
+- [128:34] diabetes
+- [128:35] if you have high level that warning
+- [128:38] The insulin will be immediately released
+- [128:42] and send the doctor to release it. So if
+- [128:45] you do this will be save the time
+- [128:48] automatically and immediat immediately
+- [128:50] approve. If you low level they don't
+- [128:53] prove it because the claim say I don't
+- [128:55] reimburse because I already have a level
+- [128:58] that's really good really good.
+- [129:00] >> Yeah. Yeah. Yep. I think you you might
+- [129:04] have faced uh something similar. So
+- [129:07] that's why you have such real-time
+- [129:08] experience of that's profound. Yeah, I
+- [129:11] totally agree with you. Yes.
+- [129:13] So we have a let me show you.
+- [129:19] We have a customer called Yolas Medical.
+- [129:23] So they have they are using AD. So their
+- [129:26] pipeline
+- [129:28] actually on the blog
+- [129:31] uh there's a blog. So if you go to the
+- [129:33] list the document that I have I've
+- [129:35] shared all the relevant blogs pertaining
+- [129:37] to our today's workshop. So one link is
+- [129:42] the whole blog.
+- [129:45] When you click on it, you you will land
+- [129:47] up on landing's blog and then there are
+- [129:50] some interesting stuff like how to build
+- [129:52] your document understanding MCP server
+- [129:55] or how do you yeah how do you go about
+- [130:00] um adding that vision component to these
+- [130:03] reasoning reasoning models through MCP.
+- [130:06] Right? So all these things you can go
+- [130:07] over these things. This is the one that
+- [130:09] we did. So the same notebook. It's just
+- [130:11] a blog post corresponding to the same
+- [130:13] notebook that we ran. Billet extract.
+- [130:16] You already saw smart 10k. You already
+- [130:18] saw the first notebook, right? Um this
+- [130:21] is the ulus medical one that I was
+- [130:23] trying to highlight. So if you click
+- [130:25] here, what they have done is they have
+- [130:29] created a chatbot on their medical
+- [130:32] knowledge base. So this is their report
+- [130:34] data or whatever knowledge base
+- [130:35] comprised of all the medical reports and
+- [130:37] different kinds of formats they might
+- [130:39] have and then AD parses and then stores
+- [130:44] in an index database all the information
+- [130:46] all that JSON that you saw and then
+- [130:48] there's rag retrieval augmented
+- [130:50] generation right from the data base and
+- [130:55] then that's where you feed that data
+- [130:57] into an LLM and prompt it to chat with
+- [131:00] it. So whatever information you need you
+- [131:03] can fetch it from that uh uh question
+- [131:07] answering a chatbot kind of experience
+- [131:10] right. So this is what they have done
+- [131:12] but yeah feel free to dig into like what
+- [131:15] exactly are they doing in and and what
+- [131:18] are the performance measures I think
+- [131:23] quickly here their key metrics are here
+- [131:25] 90% reduction in time spent searching
+- [131:27] for clinical information. So basically
+- [131:30] they're using it for like proper
+- [131:31] indexing and searching across the
+- [131:33] indexed medical reports and other
+- [131:34] documents source attribution for all
+- [131:37] answers. So that's the most important
+- [131:39] like how do you audit how do you make
+- [131:41] sure that these are visually grounded
+- [131:43] and you can confirm that the data indeed
+- [131:45] is true right? So that's where this
+- [131:48] really is like the the game changer 70%
+- [131:52] increase in clinician confidence.
+- [131:53] Obviously your confidence is going to
+- [131:55] increase by several manifolds if you
+- [131:56] have this kind of source attribution.
+- [131:59] Uh zero configuration required for
+- [132:01] across 400 sites. Yep. So it's like
+- [132:03] built for developers as I said and it's
+- [132:05] built to scale.
+- [132:08] So yeah.
+- [132:10] Okay. Coming back to the slides.
+- [132:15] This is Yolas Medical.
+- [132:17] And then I think this is my contact
+- [132:20] here, my LinkedIn, my email ID if you
+- [132:22] want to reach out and definitely join
+- [132:24] our Discord server. a lot of awesome
+- [132:28] folks there chitchatting about visual AI
+- [132:30] and document understanding.
+- [132:33] So you can join it if you are active on
+- [132:36] Discord. And if you're not then also you
+- [132:38] can create an account real quick and
+- [132:39] join it.
+- [132:41] Um yeah, I'm pretty active and I'm
+- [132:43] starting AMAs and office hours. So you
+- [132:46] can come directly and hang out with me
+- [132:48] in those sessions.
+- [132:51] Um,
+- [132:54] and let's
+- [132:56] get to your questions and answers,
+- [132:58] whatever you have for me. And Bastion,
+- [133:03] I'm not even sure like Bastian might
+- [133:04] have a meeting. She might have jumped
+- [133:06] on.
+- [133:06] >> Yeah, I think she may have had to drop.
+- [133:08] >> Yeah, no worries. I'll
+- [133:12] >> just put a few comments. I think the
+- [133:15] software you created is wonderful. You
+- [133:18] can adopt with any software together.
+- [133:21] You can up with SAP financial module, ML
+- [133:25] module, ERP and also you can combine
+- [133:29] with uh Salesforce content management
+- [133:32] based on the invoice or receipt uh
+- [133:35] especially uh the information struct and
+- [133:38] also you can integrate any EI um
+- [133:42] uh what they call the claim process like
+- [133:45] unit health group ECBS for EMI EHR
+- [133:49] information for the claim. and
+- [133:51] adjudication it's a wonderful so
+- [133:54] increase the only things I'm concerned
+- [133:56] just increase the successor rate or
+- [134:00] destruction if is the more successor you
+- [134:03] have it the reliable customer just
+- [134:06] flooding in that will be all the uh
+- [134:09] automation I mean agency whatever
+- [134:12] instead of like IPA kind of stuff lot of
+- [134:15] company use IPA you are pass or
+- [134:18] not high rate of success uccessful if
+- [134:22] you have really high success rate
+- [134:24] >> you can go everywhere that's what I
+- [134:27] really interesting your production stuff
+- [134:30] >> correct so it's built for high stick
+- [134:31] industries and production grade
+- [134:33] workloads
+- [134:34] >> everywhere almost every industry you
+- [134:37] because all the industry have AP and AI
+- [134:40] account uh purchasing a receivable
+- [134:44] >> and then you can generate based data
+- [134:45] aggregation for the report and also you
+- [134:48] can use a JSON file So uh between the
+- [134:52] provider receiver and also the the B2B
+- [134:56] B2C or C2C.
+- [134:58] >> Yep.
+- [134:58] >> Yes. That's that's
+- [135:01] >> the limit. Yep. And I think you can be
+- [135:03] our next evangelist propagating the
+- [135:06] utility of
+- [135:07] >> because you are not only provider you're
+- [135:09] partner you become partner of the
+- [135:12] ecosystem that will be successful. you
+- [135:15] can become part of uh um you know uh GPC
+- [135:19] AI or the Microsoft AI or whatever you
+- [135:22] become part of and you become new gate
+- [135:25] package. So everywhere we try.
+- [135:28] >> So the team is producing uh a lot of
+- [135:31] content uh for all this like
+- [135:34] highlighting all this that you said. One
+- [135:36] of which is the upcoming snowflake
+- [135:38] integration that we have for mass
+- [135:41] document uh for for like large scale
+- [135:44] document processing which means like if
+- [135:46] you have like billions millions of
+- [135:47] documents and you want to process those
+- [135:49] workloads loads then how you can
+- [135:51] leverage snowflakes containers and
+- [135:53] infrastructure as a whole along with AD.
+- [135:55] I mean ad running on that
+- [135:57] infrastructure. So as you said like we
+- [135:59] definitely have such strategic
+- [136:01] partnerships and we are trying to build
+- [136:02] this thing into the integrate this thing
+- [136:05] into the whole ecosystem.
+- [136:10] So I I don't know who raised hand first
+- [136:12] but who is the moderator and can see all
+- [136:14] this just can you please call out
+- [136:17] >> was next.
+- [136:18] >> Okay I'll go next. Um so my question is
+- [136:24] related to engineering drawings or um
+- [136:28] blueprints or construction drawings and
+- [136:30] so on and so forth. So there are in just
+- [136:33] in terms of construction industry or or
+- [136:35] utilities in general there are a lot of
+- [136:37] uh these type of documentation where
+- [136:39] there is text and then there is diagrams
+- [136:41] and and diagrams are annotated like many
+- [136:43] other industries. So um do you have use
+- [136:46] cases implemented especially like if a
+- [136:48] building blueprint and you extracting
+- [136:50] features out of it to see what are some
+- [136:52] of the requirements from the
+- [136:53] construction point of view and sort of a
+- [136:58] general question related to that is
+- [137:00] where exactly do you draw the line from
+- [137:02] the product point of view between
+- [137:05] um like a visual model and a text
+- [137:09] generation sort of feature generation
+- [137:11] model. Mhm.
+- [137:16] So
+- [137:17] see we are so we have some use cases on
+- [137:20] CAD designs and such
+- [137:23] uh but we haven't prioritized them yet.
+- [137:25] So we cannot I cannot say that AD does
+- [137:28] significantly well on those kind of uh
+- [137:32] designs and documents. Uh but yeah, you
+- [137:36] can try as I said like throw those
+- [137:37] documents on the playground and see if
+- [137:39] it can extract something meaningful for
+- [137:41] you and how far it can go. But if we so
+- [137:46] so the prioritization as you can see in
+- [137:48] a startup depends on like what kind of
+- [137:50] use cases they're going after at first
+- [137:53] right or who are the design partners
+- [137:55] along with which along whom uh they're
+- [137:58] actually building this product right uh
+- [138:00] so as of now like I think that is not
+- [138:03] something that we are prioritized
+- [138:04] because of circumstances but at some
+- [138:06] point that might become uh some uh our
+- [138:10] our focus so that's how I can answer but
+- [138:13] the second question. Can you repeat it
+- [138:14] the feature thing that you said about
+- [138:15] visual? I think it kind of answered the
+- [138:17] second question as well which was in
+- [138:19] terms of like what you said is
+- [138:20] prioritization which is uh I was the
+- [138:23] question was where do you draw the line
+- [138:25] saying because engineering drawing is is
+- [138:26] it more a visual uh or a visual model
+- [138:30] versus like a text and PDF extraction
+- [138:32] model right so sounds like you are still
+- [138:35] focusing on those use cases first and
+- [138:38] something which is heavy drawing kind of
+- [138:40] or diagram thing may come later that's
+- [138:43] how that's what I'm hearing in terms of
+- [138:44] your response
+- [138:46] Yes. Yep. Yeah. There's 3D design that
+- [138:48] is a very different kind of a document.
+- [138:51] There's in in the 2D space also. I mean
+- [138:54] in the 2D space you have representation
+- [138:55] of the 3D designs, right? I'm talking
+- [138:57] about that.
+- [138:57] >> Yeah. Uh and then there's this different
+- [139:00] compositionality uh in in in in the
+- [139:03] documents like for example in your CAD
+- [139:06] diagrams you have like these huge
+- [139:10] uh arrows depicting the the size of
+- [139:15] like your CAD design is like small and
+- [139:17] limited, right? But the the structures
+- [139:20] are usually large. for that you you have
+- [139:23] like a lot of data a lot of like arrows
+- [139:26] that represent that data in like inches
+- [139:28] or whatever feet or hector whatever so
+- [139:31] I'm saying like there are very different
+- [139:33] kind of documents that have like very
+- [139:35] different compositionality and requires
+- [139:37] very different kind of uh optimizations
+- [139:40] so we might not have done that yet but
+- [139:43] yeah we might come to that if if let's
+- [139:45] say a lot of demand comes in
+- [139:47] >> looks there's no harm in trying so I'll
+- [139:48] give it a shot we'll let you know how it
+- [139:50] goes
+- [139:50] >> yeah for Sure. But what I'm trying to
+- [139:52] say is like you're you're on point with
+- [139:54] one thing and that is visual AI is
+- [139:57] definitely far from like a solved
+- [139:59] problem and there's no such general
+- [140:00] purpose system that exists that can be
+- [140:02] very performant on all these things
+- [140:04] altogether as a whole. So the way to go
+- [140:07] is like you break down these problems
+- [140:09] into different solvable units and then
+- [140:11] you approach these units step by step.
+- [140:13] Right? So,
+- [140:14] >> so as we discussed in the foundations
+- [140:16] like how we are approaching this right
+- [140:18] like datacentric clubbing preparing data
+- [140:21] for different scenarios then agentic
+- [140:23] orchestration for these different
+- [140:24] scenarios in different ways and then
+- [140:26] vision first which means like we
+- [140:28] identify the compositionality
+- [140:30] from the vision angle and then see where
+- [140:32] these models um uh like LLMs and such
+- [140:37] struggle and then we try to curate
+- [140:40] uh sorry then we try to like train our
+- [140:42] own visual foundation models to to like
+- [140:45] uh remediate those problems
+- [140:47] systematically, right? So, this is like
+- [140:49] a an ongoing process, an ever evolving
+- [140:53] process that we have systematically been
+- [140:56] approaching and developing.
+- [140:59] >> Thank you.
+- [141:02] >> Yeah. Who uh who's the next one? Emily.
+- [141:04] >> Hey. Um so, so far everything is is it's
+- [141:08] awesome. I just want to want to know
+- [141:10] because we have this application and I
+- [141:12] really like the product that you're
+- [141:13] offering. So what are the next steps
+- [141:15] because next steps if you want to
+- [141:17] integrate this into into our system? So
+- [141:19] who whom should we reach and
+- [141:21] >> you know all this Emily? Okay. Um
+- [141:25] yeah um yeah if can how can we how can I
+- [141:29] get that information like yours or um
+- [141:32] who's the contact person? Okay Emily.
+- [141:35] All right cool. Yeah thank you. Yeah,
+- [141:38] able to let you know exactly depending
+- [141:40] upon your situation and scenario who you
+- [141:43] should talk to.
+- [141:45] >> She will orchestrate agentically for
+- [141:47] you.
+- [141:47] >> Okay. Yeah. Thank you. Yep. Awesome.
+- [141:56] >> Who Who is next? Emily
+- [141:58] >> Anil and then Jeff.
+- [142:01] >> Anel, go ahead.
+- [142:02] >> Yeah. Hi. Uh thanks again. It's very
+- [142:06] informative. the session is very
+- [142:07] informative and uh
+- [142:09] >> yeah so
+- [142:11] >> yeah man so the the thing that I wanted
+- [142:13] to do with this with this workshop is
+- [142:15] like not only just you know tell you
+- [142:17] what this product does or what are the
+- [142:19] features of of this product or what are
+- [142:21] the capabilities of API and how you can
+- [142:23] develop over it but also like really
+- [142:25] build that intuition on like how do you
+- [142:28] approach the document understanding
+- [142:30] problem and why are the existing systems
+- [142:32] not where are the existing systems
+- [142:34] struggling and not just where are they
+- [142:36] struggling But why are they struggling
+- [142:37] in those areas, right? So hopefully like
+- [142:39] it all connects and piece together in
+- [142:41] and and the more you think the more you
+- [142:43] delve I think the more it will start
+- [142:46] becoming clearer and clearer.
+- [142:47] >> Yeah. I have a couple of questions like
+- [142:50] right now the underlying architecture
+- [142:51] that it use MCP servers
+- [142:54] uh for agent take workflows and all
+- [142:56] those
+- [142:57] >> MCP is like across it's like I will not
+- [143:00] say agent to agent communication
+- [143:02] although it can facilitate that but it's
+- [143:04] more like
+- [143:06] uh let's say you have an ETL server from
+- [143:08] Confluent and our ADM MCP server and you
+- [143:11] want to do something where you feed the
+- [143:14] output of AD in an ETL pipeline So what
+- [143:18] you can do is like create through MCP a
+- [143:20] bridge to to accomplish this where you
+- [143:23] ask your agent that hey give me this
+- [143:25] parsed output and then you asked
+- [143:27] Confluent agent that hey can you feed
+- [143:29] this in your ETL pipeline and
+- [143:30] orchestrate in this this way right so
+- [143:32] MCP is like a bridge that helps you talk
+- [143:35] and or yeah between agents or helps you
+- [143:38] like kind of like leverage different
+- [143:40] capabilities that different agentic
+- [143:42] systems provide right so it's like a
+- [143:45] protocol that enables you to have some
+- [143:48] sort of conventions. So like you know
+- [143:50] cloud desktop and and other uh such uh
+- [143:54] pathways right where you can like use uh
+- [143:57] MCP. So what it does is like it provides
+- [144:00] that protocol to stay consistent
+- [144:03] >> in that way you don't have to like
+- [144:04] define the protocol again and again and
+- [144:06] defi and and like waste time and like
+- [144:09] making sure that these agents talk to
+- [144:11] each other properly. it's like done for
+- [144:13] you because you have a fixed
+- [144:15] conventional I mean fixed protocol and
+- [144:17] then you can just leverage it to to like
+- [144:20] uh uh to like
+- [144:23] utilize the capabilities that whatever
+- [144:25] server uh gives you like for example the
+- [144:29] let me show you
+- [144:32] for example this
+- [144:34] uh
+- [144:37] where's the block go
+- [144:40] sorry here If you go back
+- [144:44] on the blog,
+- [144:48] this is the MCP server. So this shows
+- [144:51] you how do you build a document
+- [144:54] understanding MCP server using AD,
+- [144:58] right? So you can like definitely give
+- [144:59] it a read and you can probably create a
+- [145:02] good MCP server using AD and host it
+- [145:05] locally and see how it and and yeah you
+- [145:07] can even like use it for downstream
+- [145:09] processing by like let's say I don't
+- [145:11] know like use uh use some sort of like
+- [145:14] uh I don't know you can develop a chat
+- [145:16] application over this or use some sort
+- [145:19] of rag and develop a rag ra application
+- [145:22] for some sort of like downstream
+- [145:24] dashboard that you want to build right
+- [145:27] uh Uh so definitely give it a read and
+- [145:31] for the high level of like how does MCP
+- [145:34] help you can read this blog. It tells
+- [145:36] you like how the reasoning capabilities
+- [145:38] within LLMs
+- [145:41] can be uh enhanced by having an MCP
+- [145:46] server for document understanding. So
+- [145:48] it's like if you have better data to
+- [145:50] begin with like all that structured data
+- [145:52] LLM ready data then your LLM will not
+- [145:55] have to guess it will have all the
+- [145:56] context to begin with to do its
+- [145:58] reasoning right so yeah give it a shot
+- [146:02] read it I think you will gain something
+- [146:03] useful from it
+- [146:04] >> yeah the question is that it has a
+- [146:07] snowflake integration right landing a
+- [146:11] >> mhm
+- [146:11] >> and say I extracted data from a document
+- [146:15] I would like to join this data uh with
+- [146:19] my snowflake uh with snowflake different
+- [146:23] tables the different domain table which
+- [146:25] I have and I would like to like you know
+- [146:29] uh achieve some kind of consistency
+- [146:31] between these two.
+- [146:33] >> Mhm.
+- [146:33] >> And and make a synchronize between
+- [146:35] across this data across the entire data
+- [146:38] lake. So is that possible with landing
+- [146:42] here?
+- [146:44] >> I'm not a snowflake expert. would have
+- [146:46] never done uh such pipeline construction
+- [146:48] but it's definitely possible because so
+- [146:51] think about it like it's all downstream
+- [146:53] right like landing AI as a system
+- [146:56] doesn't so in the library if you see the
+- [146:58] python library uh you don't need
+- [147:00] actually you don't need anything from
+- [147:02] the python library itself to feed it
+- [147:05] specifically in the views like you can
+- [147:06] always create different views that have
+- [147:08] different uh
+- [147:16] Did we lose Anit?
+- [147:19] All right, we'll give him a second to
+- [147:20] come back. Um, I'll I'll maybe answer
+- [147:23] the question around Snowflake a little
+- [147:25] bit differently. Um, he'll probably give
+- [147:27] you more Oh, there you are. Anit. I was
+- [147:29] just going to mention I think your
+- [147:30] internet went out for a second, but um
+- [147:32] we do have a native app inside of
+- [147:35] Snowflake um that runs on Cortex. Uh and
+- [147:39] then we have a connected app. Both of
+- [147:41] those are available through the
+- [147:43] snowflake marketplace. And then yes, you
+- [147:45] can like just send your data to
+- [147:48] snowflake. And anit I'll let you
+- [147:50] elaborate more um since I can't give
+- [147:52] like the real technical answer there,
+- [147:54] but um hopefully that was helpful.
+- [147:56] >> Yeah, that that is helpful. Yeah. So
+- [147:59] actually Andrea did a workshop on uh I
+- [148:03] think he did on snowflake. I'm not sure.
+- [148:05] >> Yeah, let me see if I can find it. I
+- [148:06] know we'll be coming out with more stuff
+- [148:09] um and there should be some snowflake
+- [148:11] specific things um coming out in the
+- [148:13] library as well.
+- [148:15] >> Yeah. So I was just reviewing this
+- [148:18] article that we are going to publish on
+- [148:20] high volume agentic document extraction
+- [148:22] with snowflake insertions.
+- [148:24] So in that
+- [148:26] uh there's this diagram that might
+- [148:30] show you something like important. Let's
+- [148:33] see this one. Oh this is like
+- [148:36] really bad. Yeah, sorry I cannot show
+- [148:39] you that article because we have not
+- [148:41] released it. But if I could, I would
+- [148:43] have maybe actually when I was reviewing
+- [148:45] I should have the doc. I can quickly
+- [148:48] show you something.
+- [148:50] Let me check. Just give me one sec.
+- [148:54] But yeah, the bottom line is you have
+- [148:57] your document, you have ADE and that
+- [148:59] runs in your Snowflake container and
+- [149:01] then in Snowflake you have uh markdown,
+- [149:05] parse chunks, custom table one, custom
+- [149:07] table two, different views and it all
+- [149:09] feeds very systematically and natively
+- [149:11] in all those views. So we have built
+- [149:13] some sort of like uh native integration
+- [149:16] to facilitate that but I'm not exactly
+- [149:19] sure
+- [149:20] yeah the underlying engineering on like
+- [149:22] why it's performant or how native it is
+- [149:25] but yeah we definitely have something
+- [149:27] like that
+- [149:28] >> okay yeah sounds good thanks very much
+- [149:30] also deals landing a also can be can
+- [149:34] process the engineering manuals with
+- [149:37] diagrams can can it do it like
+- [149:41] with the manuals which are automative
+- [149:43] manuals which shows a maintenance
+- [149:46] diagrams
+- [149:49] >> um not we we have customers exploring
+- [149:52] that use case with us now
+- [149:55] >> it yeah I'm not sure yeah I cannot
+- [149:58] answer that concretely but as Emily said
+- [150:01] if customers are exploring that means
+- [150:04] yeah definitely we can do something
+- [150:05] there
+- [150:07] >> okay great okay thanks very much thanks
+- [150:09] for your time and appreciate your
+- [150:15] I think Jeff was next.
+- [150:17] >> Sorry.
+- [150:19] >> But yeah, your turn finally.
+- [150:21] >> Hey. Yeah, no problem. Thank you. Uh,
+- [150:23] great presentation, by the way. I really
+- [150:26] like this product. I'm a I'm just going
+- [150:29] to give you a little background. I'm a
+- [150:31] senior software engineer with a private
+- [150:34] um privately held property and casualty
+- [150:38] company. I work on a claimsbased system.
+- [150:42] I've been in um a couple of boot camps.
+- [150:45] Just finished a data science dojo boot
+- [150:48] camp on aenic AI. So I'm jumping into it
+- [150:52] real deep. Um I wanted to in the first
+- [150:56] boot camp that I was in come up with a
+- [150:58] proof of concept for a claimsbased data
+- [151:01] ingestion
+- [151:03] and scoring system.
+- [151:06] Um, so I wasn't able to get sponsorship
+- [151:10] from my upper management to use data and
+- [151:14] whatnot. So I just created synthetic
+- [151:16] data.
+- [151:18] >> And I actually used accord forms, accord
+- [151:25] the standard forms used in the insurance
+- [151:28] marketplace. and I filled out
+- [151:32] really detailed claims
+- [151:35] on a accord and I did it in handwriting.
+- [151:40] Bottom line is I couldn't extract it. I
+- [151:43] I I I couldn't extract the text. I put
+- [151:46] it into your
+- [151:49] uh landing AI playground and it did a
+- [151:52] beautiful job. And then I started
+- [151:54] chatting with the extraction and the
+- [151:59] JSON and and all of that and uh it
+- [152:03] worked beautifully.
+- [152:05] So
+- [152:07] >> yeah, but go ahead. Yeah.
+- [152:08] >> Yeah. So So it first of all kudos on
+- [152:12] that. It's it's it's a it's a great
+- [152:15] tool. um what I was using before was
+- [152:18] like Microsoft OCR uh tools and and it
+- [152:22] was it just wasn't working. This worked.
+- [152:25] How can I
+- [152:27] can I without
+- [152:31] paying out a lot of money because I'm
+- [152:33] doing this on my own and I want to bring
+- [152:37] this proof of concept to my upper
+- [152:39] management to say, "Hey, we could save a
+- [152:42] lot of money doing this because we're
+- [152:44] doing it. it. We We have a person that's
+- [152:48] entering these claims
+- [152:51] manually
+- [152:53] and I know that my proof of concept will
+- [152:57] will save the company a lot of money. Um
+- [153:01] >> we have a number of companies exploring
+- [153:03] this use case right now. So you think
+- [153:05] you're definitely like barking up the
+- [153:07] right tree. Um so I think yeah very it
+- [153:11] sounds very valuable. Um,
+- [153:14] we have a pay as you go model on our
+- [153:17] website. So once you run out of like
+- [153:20] right now you have $10 in free credits,
+- [153:23] um, that should get you like to a decent
+- [153:26] place, you can swipe your credit card
+- [153:28] for another 20 and probably run, you
+- [153:30] know, a few hundred, maybe a few
+- [153:32] thousand more documents. Um,
+- [153:36] I like I I would say those are probably
+- [153:38] the best ways to do it. um at least to
+- [153:41] get started and we're happy to support
+- [153:43] you if you want to reach out to me. Um
+- [153:46] but the intent behind having that
+- [153:48] self-service is to facilitate like just
+- [153:50] get going just try it just you know show
+- [153:53] the value um and then like
+- [153:57] you know beyond that like we'll do
+- [153:59] whatever we can to help you but um it
+- [154:01] should be really easy at least to get
+- [154:02] started and very affordable. Um, one of
+- [154:05] the things that's coming with our new
+- [154:07] APIs,
+- [154:08] so we have a a beta um or two new APIs
+- [154:12] that are in beta right now. Um, we have
+- [154:15] split, parse and extract so that people
+- [154:19] can parse once, extract multiple times.
+- [154:22] So I share that just because by doing
+- [154:25] this we are trying to lower the cost
+- [154:27] even further for customers. um because
+- [154:30] you know this will allow them to you
+- [154:31] know
+- [154:32] >> use it for different things, maybe try
+- [154:34] new things like and and make it much
+- [154:36] more affordable. So um we definitely do
+- [154:39] all of those things with the customers
+- [154:40] in mind. Um but just know that is
+- [154:41] coming. So it like what it is today will
+- [154:44] get even better um going forward. And if
+- [154:46] you want to try those new APIs um you
+- [154:49] can find more information in the docs
+- [154:51] that Anit has shared.
+- [154:54] >> Okay. And so is that is that something
+- [154:57] because a company is really concerned
+- [154:59] about privacy.
+- [155:01] >> Um
+- [155:03] >> yeah zero data retention. I'll share in
+- [155:06] the chat and anit tell me to to be quiet
+- [155:08] if um you want me to but um we have a
+- [155:11] trust center that talks about the
+- [155:13] security um uh
+- [155:18] >> and compliance. Yes.
+- [155:19] >> Yeah. Security and compliance. Um, but
+- [155:21] we also have zero data retention, um,
+- [155:23] which you can turn on. Um, and so
+- [155:26] there's more details like on what that
+- [155:28] means out here, but essentially we don't
+- [155:30] keep any of your data. Um, and I think
+- [155:33] it just depends on the type of data that
+- [155:35] you would be sending. You just need to
+- [155:37] look into determining whether or not
+- [155:39] that that is sufficient. We are finding
+- [155:41] that for a lot of people zero data
+- [155:43] retention is. Um, then we have, you
+- [155:46] know, other people who have to deal with
+- [155:47] GDPR and other things. So um
+- [155:51] >> we we are trying to suit a variety of
+- [155:53] different requirements and then on top
+- [155:55] of that um so our solution is a SASbased
+- [155:59] but for larger enterprise customers we
+- [156:02] are offering um them to use their own uh
+- [156:07] virtual private cloud essentially. So
+- [156:09] it's not in the public cloud. Um so if
+- [156:11] that becomes something that they're
+- [156:13] interested in longer term um let us
+- [156:15] know.
+- [156:16] >> That was my next question. the data
+- [156:18] pipeline. If we wanted to keep that and
+- [156:21] just call your API
+- [156:24] and and have it do the extraction and
+- [156:27] and all of that, we can do that, right?
+- [156:33] >> Anit,
+- [156:36] >> I was just going to say
+- [156:38] tables is of our strong suite. Oh,
+- [156:41] sorry, strong suit. This is neat. So uh
+- [156:47] so
+- [156:47] >> yeah obviously
+- [156:48] >> we are extremely excited for any use
+- [156:50] cases that includes tables forms and we
+- [156:54] have worked hard on really uh improving
+- [156:56] the performance on such docs that
+- [156:59] contains a lot of complex tables. So I
+- [157:03] mean it's going to be soon when is it
+- [157:05] Emily the announcement
+- [157:08] >> 2.0
+- [157:09] >> uh on on the additional features that
+- [157:11] are coming out beyond the API split. um
+- [157:14] I think next week. So, uh breaking news,
+- [157:17] you guys will hear it before other
+- [157:18] people. There is going to be a press
+- [157:20] release coming from Andrew in the next
+- [157:22] week or two. Um with some additional
+- [157:25] features,
+- [157:26] >> uh that are coming out. Um but yeah, one
+- [157:29] of them will be around some table
+- [157:30] improvements. Um, I think there'll be
+- [157:33] some new file types, um,
+- [157:37] document splitting capabilities.
+- [157:40] Um,
+- [157:41] and I'll think of like the other things,
+- [157:43] but it there'll be some, uh, features
+- [157:46] that have been in demand from, uh, some
+- [157:48] of our current customers. Um, so I think
+- [157:50] we'll have a lot of people that are
+- [157:52] pretty excited about it.
+- [157:53] >> Fantastic. Thank you so much.
+- [157:55] >> Absolutely. That's another
+- [157:57] differentiation. uh Jeff like we tables
+- [158:00] are very uh prevalent and very like
+- [158:03] pervasive in the world of document
+- [158:05] understanding right and you cannot do
+- [158:07] good without them so this is why we
+- [158:09] prioritized it and made sure that we
+- [158:11] solve some of that problem uh that
+- [158:14] arises because of all these complicated
+- [158:16] tables and obviously as you said LLMs
+- [158:18] don't work well on these tables because
+- [158:20] think of it like from the angle of what
+- [158:23] I just said structure merged cells
+- [158:26] different kind of column layouts
+- [158:28] spanning across different kind of area
+- [158:31] width and then like even in research
+- [158:34] papers which is like quite commonly seen
+- [158:37] format in the world of uh document
+- [158:40] understanding because it's open source
+- [158:41] right like all these archive papers are
+- [158:43] there and you get all these similar kind
+- [158:44] of looking formats even there you would
+- [158:47] see like LLM struggling uh but yeah I
+- [158:51] mean I'm just saying that even if
+- [158:53] they're struggling there which is like a
+- [158:55] lot of open source data available in
+- [158:56] those formats
+- [158:57] Then can you imagine what will happen in
+- [158:59] closed source space where like all these
+- [159:01] financial services and healthcare
+- [159:03] sectors you don't have that much data
+- [159:06] outside uh actually well I take it back
+- [159:10] you have data but that's even more
+- [159:13] complicated I'm saying I mean these days
+- [159:15] people like scrape all sorts of data
+- [159:17] from all sorts of you know shady areas
+- [159:20] but what I'm trying to say is like uh
+- [159:23] these they are far more complicated than
+- [159:24] those research paper table formats.
+- [159:27] So, so I'm saying like if elements are
+- [159:30] struggling there then you can imagine
+- [159:31] what will they do here and the reason
+- [159:34] again like you can go back to the uh the
+- [159:37] same present the the same uh timestamp
+- [159:40] in this recording that we will provide
+- [159:42] you later and and start thinking about
+- [159:44] relating it to like how spatial
+- [159:46] arrangement in table can be complex for
+- [159:48] LLMs in the higher dimensional space to
+- [159:50] map and then yeah all those things but
+- [159:52] yeah I'm just trying to say like
+- [159:57] uh this is another visual AI spatial
+- [159:58] reasoning kind of a thing where we have
+- [160:02] uh deeply thought about this and started
+- [160:05] tackling this quite early.
+- [160:07] >> Yeah. Okay. Thank you.
+- [160:14] >> Yeah. Anyone else? Anybody else? Any
+- [160:16] last departing questions and notes?
+- [160:21] >> Um maybe last stupid question. If a
+- [160:23] landing AI can insert a vector DB will
+- [160:26] be for future it would be great.
+- [160:29] >> Uh what do you mean insert like you mean
+- [160:31] like creating some sort of uh
+- [160:33] >> yeah because uh currently Oracle is uh
+- [160:36] do the vector DB instead of a
+- [160:38] traditional vector you a toz one layer.
+- [160:42] Yeah. Do the stack of layer. So insert
+- [160:45] the data you can search quickly and then
+- [160:47] you can insert the data not XY
+- [160:50] coordinator like a relational database.
+- [160:52] If you can combine the two popular topic
+- [160:55] you save the data will be great because
+- [160:58] search you can search all the similarity
+- [161:01] search or whatever use of the data you
+- [161:04] save it and also you can retrieve the
+- [161:06] data or similarity or create some auto
+- [161:10] templates you you know what I mean or
+- [161:12] some genetic um pattern analysis also
+- [161:16] it's like a
+- [161:17] >> yeah downstream rag I mean rag is a
+- [161:21] natural extension to the output that we
+- [161:24] have. But as you can imagine, right,
+- [161:27] like the focus is in making the model
+- [161:29] more and more accurate and covering an
+- [161:32] array of things, an array of formats and
+- [161:34] documents, right? So I think that is
+- [161:37] where currently our focus has been not
+- [161:39] as much on like plugins and integrations
+- [161:41] and vector DB but in the future
+- [161:44] definitely when we feel like yeah this
+- [161:46] is this has reached a great level of
+- [161:49] accuracy for a wide array of diverse
+- [161:51] layouts and documents in different
+- [161:53] industries. I think we would definitely
+- [161:55] want to like start thinking about other
+- [161:57] integrations. uh is the is the speed
+- [162:00] timing and the and the accuracy because
+- [162:03] you already have data you know the
+- [162:06] verify and also the speed insertion
+- [162:09] especially instead of SQL server Oracle
+- [162:12] whatever MongoDB for the you know kind
+- [162:15] of JSON ste you already have layer and
+- [162:18] insertion retrieving or whatever stuff
+- [162:21] I'm just idea I just see a previous age
+- [162:26] >> yeah it completely makes sense Like if
+- [162:28] you can develop native like for example
+- [162:30] for snowflake the work that we have done
+- [162:33] that work only because we want that
+- [162:36] speed we want like that native support
+- [162:38] that only can come if you have sorry
+- [162:40] that speed that only can come if you
+- [162:42] have native support right so this is
+- [162:44] where you develop all these uh
+- [162:47] integrations that leads to that kind of
+- [162:49] a speed and scale
+- [162:52] >> thank you I appreciate it because uh
+- [162:54] that's what I mentioned it's the reality
+- [162:56] for the claim That's a lot within the
+- [162:59] batch file was a million or whatever is
+- [163:01] enrollments million speed very critical.
+- [163:05] >> Yeah, I will definitely let you know
+- [163:08] when we release that um high volume
+- [163:10] agent tech document extraction with
+- [163:11] snowflake blog. I think you would enjoy
+- [163:14] reading it and the other guy also what's
+- [163:16] his name? I forgot but yeah I'll let you
+- [163:19] guys know. Um, is Snowflake the only
+- [163:21] vendor or database at scale that you're
+- [163:24] integrated with at this mo at this
+- [163:26] moment?
+- [163:27] >> I think so, Emily, if I'm not missing
+- [163:29] anything.
+- [163:32] >> I mean, I I will say we're we're coming
+- [163:34] out with more and more connectors if
+- [163:36] that makes sense. Um, and we can connect
+- [163:39] to anything. Um,
+- [163:41] so I I think
+- [163:45] reach out, go on Discord, like you may
+- [163:48] find that, hey, somebody's already done
+- [163:50] this and may even be willing to share
+- [163:52] like any of the code or whatever to to
+- [163:54] help do that. Um,
+- [163:57] we are so our like our SAS solution,
+- [164:01] everything you see running on the
+- [164:02] playground, the API to date that that
+- [164:04] you guys have tested is all running on
+- [164:06] AWS behind the scenes. um we will be out
+- [164:10] on their marketplace. So if you're
+- [164:12] asking about like you know where we
+- [164:13] integrate we are like we work with all
+- [164:16] three clouds um and so I think it just
+- [164:19] matters on you know depends on what you
+- [164:20] want to do next but you're not limited
+- [164:24] um by what we've done to date if that
+- [164:26] makes sense.
+- [164:28] >> So there is an uh injection from S3
+- [164:32] bucket possible. So, so next time in my
+- [164:34] workshop, I'll just keep those kind of
+- [164:36] um these kind of documents in those
+- [164:38] buckets and then I'll use that uh kind
+- [164:41] of injection pipeline instead of like
+- [164:43] having to go through that manual upload
+- [164:45] process that we did today. So, we do
+- [164:47] have support. So, if you go into
+- [164:49] documentation, you will know how to pick
+- [164:52] files and documents from uh um S3
+- [164:54] connectors from S3 buckets using our
+- [164:57] connector. And then we have Google Drive
+- [165:00] integration as well. Uh then we have as
+- [165:04] I showed you like directly from the URL
+- [165:05] you picked up the PDF without having to
+- [165:07] download that right. So that that is
+- [165:09] something that the library supports
+- [165:11] and yeah so these kind of things we have
+- [165:14] built. Yeah.
+- [165:16] >> Yeah. Definitely the scalability is is
+- [165:18] is is needed you know when you're
+- [165:21] looking at many many documents to
+- [165:23] process and and go through with that. So
+- [165:25] it sounds like a natural fit for Cortex
+- [165:28] and Snowflake. I I wanted to ask also
+- [165:31] from a testing perspective and getting
+- [165:33] confidence. Do you guys have developed
+- [165:35] any type of testing patterns maybe
+- [165:37] running documents two different ways and
+- [165:40] then comparing the results at the other
+- [165:42] end? How how do you think about that to
+- [165:44] get confidence on uh the quality of the
+- [165:47] output?
+- [165:49] >> Yeah. Uh so both internally and
+- [165:50] externally we do uh we do
+- [165:56] motivate people on this philosophy of
+- [165:58] bringing in your most complex and
+- [166:00] diverse documents and then
+- [166:02] systematically
+- [166:04] uh so if you you might already have your
+- [166:06] own metric suite or benchmarks. So we
+- [166:09] encourage you to to apply them if you
+- [166:11] are very confident that okay this is a
+- [166:14] good measure of the kind of documents
+- [166:15] that you are bringing. But then as I
+- [166:18] said always the encouragement is instead
+- [166:22] of like looking so I said so I showed
+- [166:24] you the error analysis uh slide right.
+- [166:27] So metrics give you a direction and a
+- [166:30] hint and certain confidence on the level
+- [166:33] of performance especially accuracy or
+- [166:36] whatever you want to call it F1 score uh
+- [166:38] distance metric uh edit distance or
+- [166:41] whatever but beyond that like there are
+- [166:45] some critical
+- [166:46] uh not just edge cases but critical
+- [166:49] kinds of structures and documents and
+- [166:51] layouts where your thing is probably
+- [166:53] going to be failing and those might be
+- [166:55] extremely critical for you you You know
+- [166:57] every year trillions of dollars get
+- [167:00] wasted in downstream document processing
+- [167:03] where millions is just per organization
+- [167:05] wastage and if you club it it's like
+- [167:08] trillions of dollars annually in
+- [167:10] downstream document processing and that
+- [167:12] happens because the origination point is
+- [167:14] flawed itself which means
+- [167:17] that JSON that you saw the the
+- [167:20] structured output that you see from
+- [167:22] parsers is flawed and lacking and not
+- [167:25] accurate to begin with. So that is why
+- [167:27] when you feed this inaccurate uh data
+- [167:30] with missing context into these
+- [167:31] downstream processing engines or
+- [167:33] workflows then you struggle really bad
+- [167:35] and really hard and you lose a lot of
+- [167:37] money and that is like you can check the
+- [167:39] statistics on that like trillions of
+- [167:41] dollars per year and millions of dollars
+- [167:43] per organization per year. So that only
+- [167:46] happens because people sometimes over uh
+- [167:50] capitulate on metrics and benchmarks and
+- [167:52] they miss out all these important
+- [167:53] foundational pieces which are very
+- [167:55] critical to their business success. So
+- [167:57] this is why like I'm saying like stick
+- [167:59] like thinking from first principles and
+- [168:01] then like really like doing error
+- [168:03] analysis and then thinking about like
+- [168:06] what are the array of formats that you
+- [168:09] have you can curate and then test and
+- [168:12] even eyeball with and then apply the
+- [168:15] most suitable uh uh metrics for those
+- [168:17] formats and then systematically
+- [168:20] you know cover uh that spectrum and and
+- [168:24] see where things are getting missed and
+- [168:25] what is the business impact of whatever
+- [168:27] you have missed. Right? So this is like
+- [168:30] a recipe in general at a high level that
+- [168:32] I always encourage people to adopt. But
+- [168:34] to answer your question, we are coming
+- [168:36] with doc va soon like a couple of weeks
+- [168:39] at max and then we are coming we already
+- [168:42] have some internal benchmarks. There are
+- [168:44] some public benchmarks available for AD
+- [168:46] but I don't I I will take them with a
+- [168:48] grain of salt.
+- [168:50] But yeah um
+- [168:53] when customers ask us to compare us with
+- [168:56] some um frontier LLMs uh or or some open
+- [169:00] source models we do go and use their
+- [169:04] metrics and apply them all these on on
+- [169:07] these LLMs as well as AD and then
+- [169:08] compare and contrast right so this is
+- [169:11] what we internally do but yeah
+- [169:15] >> I'll I'll get um I'll also mention we do
+- [169:18] have confidence scores as an
+- [169:20] experimental feature.
+- [169:22] >> So I'll put the link to that in the chat
+- [169:25] as well. Um
+- [169:26] >> didn't highlight that in the session
+- [169:28] today but maybe for the next workshop.
+- [169:31] Confidence scores is experimental as of
+- [169:34] now but soon it will not be. It will be
+- [169:36] like a full-fledged feature where we
+- [169:38] will ourselves be super confident to say
+- [169:40] that these confidence scores are
+- [169:43] actually
+- [169:44] um valuable and accurate. Right? But for
+- [169:48] now, since our confidence is not
+- [169:50] supreme, we say that it's experimental.

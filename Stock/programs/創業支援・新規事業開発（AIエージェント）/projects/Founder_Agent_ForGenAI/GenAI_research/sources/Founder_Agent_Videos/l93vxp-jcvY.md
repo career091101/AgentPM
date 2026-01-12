@@ -1,0 +1,445 @@
+---
+title: "Music Welcome to venturebe in conversation. Joining me today is Mike Hanley, chief security officer ..."
+video_id: "l93vxp-jcvY"
+video_url: "https://www.youtube.com/watch?v=l93vxp-jcvY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "Programming"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  Welcome to venturebe in conversation.
+  Joining me today is Mike Hanley, chief
+  security officer and senior vice
+key_points:
+  - "Joining me today is Mike Hanley, chief"
+  - "joining us is Vijay Pandi. He's the"
+  - "relates to software development and"
+  - "that uh Louis and so one of the areas"
+  - "that generative AI is actually impacting"
+  - "quite a bit is the area of software"
+  - "entire life cycle of software devel"
+  - "development is actually something that"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: l93vxp-jcvY
+
+- URL: https://www.youtube.com/watch?v=l93vxp-jcvY
+- Retrieved at: 2025-12-30T16:06:48+09:00
+
+## Text
+
+- [00:00] [Music]
+- [00:02] Welcome to venturebe in conversation.
+- [00:04] Joining me today is Mike Hanley, chief
+- [00:06] security officer and senior vice
+- [00:08] president of engineering at GitHub. Also
+- [00:09] joining us is Vijay Pandi. He's the
+- [00:11] senior vice president of outshift.
+- [00:13] Gentlemen, welcome today. look forward
+- [00:15] to talking with you today about
+- [00:17] generative AI's impact on accelerating
+- [00:19] every facet of business operations with
+- [00:22] agents being at the forefront of that
+- [00:25] and driving significant new
+- [00:28] opportunities for faster velocity and
+- [00:30] everything from development into product
+- [00:32] strategies and and overall code
+- [00:34] development and code most importantly
+- [00:36] code quality reliability and resiliency.
+- [00:39] So to start that off uh let's talk about
+- [00:41] the current landscape of Agenic AI as it
+- [00:45] relates to software development and
+- [00:46] DevOps.
+- [00:49] >> Yeah. So so let me thank thank you for
+- [00:51] that uh Louis and so one of the areas
+- [00:53] that generative AI is actually impacting
+- [00:55] quite a bit is the area of software
+- [00:58] development. The entire process, the
+- [01:00] entire life cycle of software devel
+- [01:02] development is actually something that
+- [01:04] generative AI is impacting in a good way
+- [01:08] end to end. These are things like
+- [01:10] integration, testing and deployment.
+- [01:13] These are routine things that everybody
+- [01:15] does. It's monotonous. It's mundane. No
+- [01:18] developers that I've talked to and I've
+- [01:20] been a developer in the past. Uh nobody
+- [01:23] wants to do these things. These are
+- [01:25] necessary evils for your product to
+- [01:27] work. and be consumable by your
+- [01:29] customers. And then there's the fun part
+- [01:32] which is the problem solving part uh the
+- [01:36] abstract problems that you need to come
+- [01:37] in and solve. So that's where things
+- [01:39] are. And right now we're in the world of
+- [01:42] assistants that actually provide
+- [01:44] suggestions, provide code snippets,
+- [01:47] provide security uh suggestions,
+- [01:50] remediation code and so on and so forth
+- [01:52] that a developer might pick up and
+- [01:54] decide to use, modify or reject and and
+- [01:59] give that feedback that back to the
+- [02:00] assistant. Mike, anything to add to
+- [02:02] that?
+- [02:03] >> Yeah, I think it's an exciting time and
+- [02:05] certainly it's only going to accelerate
+- [02:07] in the pace of change. So, you know,
+- [02:09] agentic AI and some of the co-pilot sort
+- [02:11] of assistant models that we have today.
+- [02:13] Um, it's exciting because if you think
+- [02:14] about it, for any given skill or need or
+- [02:17] capability or task, the idea that you
+- [02:20] can give somebody a generalist or
+- [02:21] somebody who has u no expertise in a
+- [02:23] particular area perhaps and then give
+- [02:26] them an assistant that has that, it's
+- [02:28] really a great way to like scale up. I
+- [02:30] mean, if you consider an an area like
+- [02:31] security where there's not an abundance
+- [02:33] of security expertise. I mean really
+- [02:34] every year we see a new report that says
+- [02:36] how many unfilled cyber security jobs
+- [02:38] there is and what a shortage of talent
+- [02:40] we have. You know it's not a good thing
+- [02:41] if you're a development team and you're
+- [02:42] and you're you know just desperately
+- [02:44] looking for somebody who can help you
+- [02:45] write uh secure code. So the idea that
+- [02:47] your co-pilot can actually be that sort
+- [02:49] of staff or principal level security
+- [02:51] engineer who's right there with you
+- [02:53] throughout the whole SDL right and we're
+- [02:55] seeing that expansion of co-pilots in
+- [02:56] different parts of the SDL. Um, I just
+- [02:58] think that's a that's a big game changer
+- [03:00] and that we've already seen sort of
+- [03:01] meteoric adoption certainly inside
+- [03:03] GitHub with Copilot. I mean, we believe
+- [03:04] it's fundamentally transforming how
+- [03:06] developers are building software.
+- [03:08] >> Let's talk about the risks that
+- [03:09] enterprises are facing about integrating
+- [03:12] assistance into applications and
+- [03:14] workflows and how can they reduce that.
+- [03:15] >> The biggest risk is actually not doing
+- [03:17] anything at all or um buying into fear
+- [03:21] and not adopting AI. I'm I think when
+- [03:23] you look at what's happening with AI and
+- [03:24] Agentic AI right now, um we're having we
+- [03:28] have undergone what I would now describe
+- [03:29] as a permanent structural change in how
+- [03:31] we do software development. For some
+- [03:33] languages, it's actually helping
+- [03:34] developers write up to 60% of the code
+- [03:37] that they write in a given language. I I
+- [03:39] would assert that, you know, we've been
+- [03:40] adopting new technologies and new
+- [03:42] paradigms, if you will, for decades. And
+- [03:45] actually, in some ways, treating AI just
+- [03:47] like you would any other tool is a great
+- [03:50] way to start. Think about like if you're
+- [03:51] going to go buy a SAS service today to
+- [03:53] do a particular job for you. Set AI
+- [03:55] aside for a second. You know, you're
+- [03:56] going to ask for things like data
+- [03:57] diagrams. How is the development
+- [03:59] environment secured for that? Who has
+- [04:01] access to it? Where's my data stored?
+- [04:03] The same sort of standard battery of
+- [04:04] questions that you probably want to also
+- [04:06] answer for an AI tool. Who how are you
+- [04:09] training on my data or not? Um you know,
+- [04:11] what capabilities do I have? I encourage
+- [04:13] people to actually start there. We don't
+- [04:15] necessarily need to invent kind of new
+- [04:16] frameworks for that. Um I'd also say you
+- [04:19] know intellectual property is obviously
+- [04:20] sort of a hot topic in this space who
+- [04:22] actually owns intellectual property
+- [04:23] associated with generated code. I think
+- [04:25] there's also looking at uh the audits
+- [04:27] and certifications that come from the
+- [04:29] companies that are building these tools.
+- [04:30] I think you want to look for like a
+- [04:31] robust set of practices around safe and
+- [04:34] secure development of not just the
+- [04:36] models but also the experiences that are
+- [04:38] built on top of them and the
+- [04:39] infrastructure that's used to back
+- [04:41] those.
+- [04:42] >> Thank you VJ. Your thoughts? Yeah, I
+- [04:45] mean I think I would 100% agree with
+- [04:47] everything that Mike said. Think of it
+- [04:48] as a tool. Think of it as a tireless
+- [04:53] uh code developing developing colleague
+- [04:57] that is always there producing good
+- [04:59] quality code but have a buddy system
+- [05:03] that actually comes in and verifies that
+- [05:05] code. Make sure that it's scalable, it's
+- [05:07] secure, it's bias free, it's
+- [05:09] hallucination free. you need to build
+- [05:10] out those pipelines so that you can
+- [05:13] customize the output code based on what
+- [05:16] exists in your environment, your
+- [05:18] policies, your knowledge bases, uh your
+- [05:20] existing code, uh your security
+- [05:22] requirements, etc. and so on. So I think
+- [05:25] starting on that pipeline and then
+- [05:27] making sure that you treat these
+- [05:30] assistants as yet another colleague
+- [05:34] developing code and making sure that you
+- [05:37] have a buddy system in place that is
+- [05:38] doing the checks and balances
+- [05:42] of your aligned to your software
+- [05:45] development life cycle aligned to your
+- [05:46] security and trust organization
+- [05:48] practices is where you should be. Let's
+- [05:51] talk about the future and let's talk
+- [05:53] about where this is all headed with
+- [05:57] regard to aenic AI uh being able to
+- [06:01] further improve software development and
+- [06:03] what are the compounding effects of that
+- [06:05] going to be into the future.
+- [06:08] Think about defining what you need from
+- [06:10] the software. What are the market
+- [06:11] requirements? What are the product
+- [06:12] requirements? What are the business KPIs
+- [06:14] that you want to achieve from this piece
+- [06:16] of software that you're developing? So
+- [06:18] if you think about the entire process of
+- [06:21] what matters to our customers, what
+- [06:23] software needs to be built for our
+- [06:25] customers, how do you build that
+- [06:27] software, then scale it, secure it, make
+- [06:29] it responsible and then deploy it that
+- [06:31] entire life cycle. We believe that
+- [06:34] agents will be thin
+- [06:38] soft subject matter experts that will
+- [06:40] actually come together, collaborate,
+- [06:42] they'll always learn and they'll solve
+- [06:44] for these larger ambiguous problems
+- [06:47] which could be as simple as build a
+- [06:50] piece of build an application for me
+- [06:52] that looks at let's say the queue in a
+- [06:55] Starbucks environment and figure out
+- [06:58] whether I need to add a new cashier to
+- [07:01] that environment And Andrew Ing has a
+- [07:04] pretty impressive talk where he brings
+- [07:06] together agents that can develop
+- [07:08] software, agents that can scale
+- [07:10] software, check for scalability issues,
+- [07:13] check for correctness, check for
+- [07:15] security, and produce pretty high
+- [07:17] quality code. Excellent point. Uh and
+- [07:22] Mike um in your unique position of uh
+- [07:26] securing GitHub and uh owning the
+- [07:30] endtoend process with literally millions
+- [07:32] of developers relying on your platform
+- [07:34] to be able to do security by design uh
+- [07:37] and not have it as an afterthought. Uh
+- [07:40] how do you see the future progressing
+- [07:41] and how will you be able to continually
+- [07:44] improve GitHub to do security by design
+- [07:46] in an enigic future? If you compare to
+- [07:48] where we've been as an industry for
+- [07:50] let's just say the last 10 plus years, a
+- [07:53] lot of security value has been added
+- [07:55] relatively late in the software uh
+- [07:57] development life cycle. It's usually
+- [07:59] part of test feedback. You know, so
+- [08:01] after a developer has already written
+- [08:02] something, checked in their code, gone
+- [08:04] to get coffee, maybe even gone out of
+- [08:06] town for the weekend, then they get
+- [08:08] security feedback later and it's like,
+- [08:09] wait, what was I doing and what am I
+- [08:11] supposed to do about it? And the
+- [08:12] transformation that's underway now with
+- [08:14] a aentic AI is is actually like pretty
+- [08:17] radical if you think about it because
+- [08:18] basically what we're saying is not only
+- [08:20] are you going to have somebody right
+- [08:21] there with you as you're bringing your
+- [08:22] idea to code, right, which many
+- [08:24] developers have today in the form of
+- [08:26] GitHub copilot. They're they're
+- [08:27] literally getting secure suggestions
+- [08:30] from a model that has security expertise
+- [08:32] that they may lack right from the onset.
+- [08:34] So this is the cheapest place to have
+- [08:36] security experience embedded into what a
+- [08:38] developer is doing. But you're also
+- [08:39] getting way more effective outcomes from
+- [08:43] the more traditional place where
+- [08:44] security is injected at test time. So
+- [08:46] for example, we have something called
+- [08:47] copilot autofix that's currently in
+- [08:49] public beta where we instead of just
+- [08:51] telling you, hey, there's a problem, you
+- [08:53] should fix it, you get a natural
+- [08:54] language explanation of what that
+- [08:55] problem is and you can literally click a
+- [08:57] button and get a generated fix. So this
+- [08:59] is a great example of the agent model
+- [09:01] where you have particular skills and the
+- [09:03] agent has that like VJ you said sort of
+- [09:05] that narrow space that it works in to
+- [09:07] say like my job is to fix bugs and it
+- [09:09] turns out it fixes bugs many many times
+- [09:11] faster than what humans can do. So the
+- [09:15] time that it takes to resolve any given
+- [09:17] vulnerability um is dramatically reduced
+- [09:19] I mean in some cases by many times over
+- [09:21] what it would have taken that without
+- [09:22] the assistance of AI. Really what we're
+- [09:25] saying is we're going to make security
+- [09:26] many times better at every part of the
+- [09:28] software development life cycle. AI is
+- [09:30] going to just be the thing that
+- [09:32] completely transforms
+- [09:34] uh software development from the
+- [09:35] perspective that it's going to prevent
+- [09:37] vulnerabilities from appearing in code.
+- [09:39] Both by helping you write more securely
+- [09:41] at the onset, preventing things from
+- [09:42] escaping, but also helping us go back
+- [09:44] and sweep up, you know, decades of
+- [09:46] technical debt in open source, um, for
+- [09:48] example, or in legacy software that
+- [09:51] everything else is built upon. Like
+- [09:52] there's no amount of humans that we can
+- [09:54] hire to go task and work on some of
+- [09:56] those problems. And there's no amount of
+- [09:57] resources that we can put against some
+- [09:58] of those things. But AI, particularly
+- [10:00] with agents that are good at specific
+- [10:02] things, does actually put us in a
+- [10:04] position to succeed with security in a
+- [10:06] way that we've never seen before. Not
+- [10:08] just going forward, but also looking
+- [10:10] backward and cleaning up some of the
+- [10:11] decades of technical debt we have.
+- [10:15] >> Oh, I agree exactly. And you know from
+- [10:17] working with DevOps teams in the past
+- [10:19] there's always a challenge of for DevOps
+- [10:22] engineers to learn security concepts as
+- [10:24] well as apply them and get code out and
+- [10:26] again getting back to the speed and time
+- [10:28] to market which is absolutely essential
+- [10:30] right now to stay competitive. I would
+- [10:32] say the agentic workflows when it comes
+- [10:34] to security or scale or bias-free
+- [10:37] development is not just applicable for
+- [10:40] developer developers but it's also
+- [10:42] applicable for sec ops and for net ops
+- [10:45] and for these other IT ops personas in
+- [10:49] environments S surres that actually use
+- [10:52] software practices that actually use
+- [10:54] infrastructure as code practices to
+- [10:56] secure their environments and scale
+- [10:57] their environments because simple things
+- [11:00] like can you force check whether my
+- [11:03] cloud posture is secure and if not give
+- [11:05] me a snippet of code that actually makes
+- [11:07] it secure is a very sec opsoriented task
+- [11:11] that'll actually get ejectified as well
+- [11:14] and it'll actually drive productivity in
+- [11:16] those domains as well.
+- [11:18] >> Yeah, excellent point. So let's switch
+- [11:21] gears now and let's talk about what's
+- [11:23] your advice to organizations getting
+- [11:25] security right and getting started with
+- [11:26] agentic AI development and how do they
+- [11:28] get started and what are the some of the
+- [11:30] resources that you point them in the
+- [11:32] direction to from an agentic AI learning
+- [11:34] perspective.
+- [11:35] >> One of the things that we are realizing
+- [11:37] is that entire agentic framework world
+- [11:40] is relatively new. So we are we are
+- [11:43] learning as an industry and trying to
+- [11:44] figure out what works what doesn't.
+- [11:46] There's a lot that you need to prepare
+- [11:48] for starting on this journey. So you
+- [11:51] need to prepare around like we were
+- [11:53] discussing earlier what are your
+- [11:55] practices when it comes to security when
+- [11:56] it comes to responsible AI when it comes
+- [11:59] to your entire trust organization and
+- [12:02] how they approach approach this problem
+- [12:04] where are you with your code
+- [12:07] repositories and can they be used to
+- [12:10] train these assistants and agents in the
+- [12:12] future to develop code in the style that
+- [12:15] you want to develop code that solves for
+- [12:18] use cases that you you are going
+- [12:21] And can you start by building out
+- [12:23] learning by building out awareness
+- [12:26] within your organization the entire data
+- [12:28] pipelines the practices to actually be
+- [12:30] ready not just for the assistant use
+- [12:32] cases that exist today but for the
+- [12:34] agentic workflows that are coming in the
+- [12:36] future. So start building that road map
+- [12:39] and please keep humans in the loop
+- [12:41] today. We're not there yet. But sooner
+- [12:44] than later, you will see some of those
+- [12:46] functions, especially the mundane, the
+- [12:49] rote, time-consuming functions get
+- [12:52] consumed by agents and AI agents and
+- [12:55] humans will be left to solve for what we
+- [12:58] do best, which is solve for higher order
+- [13:02] problem solving where you where we all
+- [13:04] have fun. So that's where we are headed
+- [13:06] towards.
+- [13:07] >> You know, I'd add to that. We've talked
+- [13:09] a little bit about kind of the places to
+- [13:10] start. It's it's actually go, you know,
+- [13:12] going and talking to the developers,
+- [13:13] right, who are going to use these tools
+- [13:15] and asking them like where do you need
+- [13:17] the most help? And I actually suspect a
+- [13:19] lot of developers would say, hey, I like
+- [13:21] security is important to me, but I'm not
+- [13:22] a security expert. I would love the help
+- [13:24] there. And I think that's where um it's
+- [13:26] it's a neat opportunity if you if you
+- [13:28] believe as we do that security starts
+- [13:30] with the developer. The idea that you
+- [13:32] can give them security superpowers at
+- [13:34] various stages of the software
+- [13:36] development life cycle is is a is a
+- [13:38] really actually like a empowering thing,
+- [13:40] right? because you're going to have
+- [13:40] happier developers, you're going to have
+- [13:42] better security outcomes, and it's just
+- [13:44] going to work, right? So, the
+- [13:45] traditional model today is we just pile
+- [13:46] more stuff onto people's plates um that
+- [13:49] they need to do, right? So, it's like
+- [13:50] here, here's your backlog of security
+- [13:52] vulnerabilities that we need to fix. But
+- [13:54] now, now what we're saying is really
+- [13:55] with Agentic AI, it's actually if I find
+- [13:58] it, it's fixed. Found means fixed.
+- [14:01] >> Brilliant comments and insights. Mike at
+- [14:03] Vra, thank you very much.
+- [14:04] >> Thanks for having me.
+- [14:06] >> And thank you for watching. For more
+- [14:07] stories about the tech revolution,
+- [14:09] subscribe to our newsletters and check
+- [14:10] out other VB in conversation videos at
+- [14:12] venturebeat.com.
+- [14:15] [Music]

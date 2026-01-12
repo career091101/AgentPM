@@ -1,0 +1,1141 @@
+---
+title: "Transcript: SB7QtiDfKPQ"
+video_id: "SB7QtiDfKPQ"
+video_url: "https://www.youtube.com/watch?v=SB7QtiDfKPQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:51:48"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: SB7QtiDfKPQ
+
+- URL: https://www.youtube.com/watch?v=SB7QtiDfKPQ
+- Retrieved at: 2025-12-30T10:52:37+09:00
+
+## Text
+
+- [00:00] Thank you so much. Thank you for having
+- [00:02] me and it's it's great to be here uh and
+- [00:05] running this workshop. And let me
+- [00:08] quickly actually start sharing my
+- [00:11] screen.
+- [00:13] I believe you can all see that. So let's
+- [00:17] go.
+- [00:18] All right. So hello everyone. Uh welcome
+- [00:21] to this workshop. It's great to be here.
+- [00:24] I saw like people from different places
+- [00:26] like India, United States, Turkey. I'm
+- [00:28] also from Turkey. So it's nice to see
+- [00:31] like great people in the chat. Um
+- [00:34] uh so today we're going to talk about uh
+- [00:38] on how to give eyes to our AI. So
+- [00:42] basically like building vision enabled
+- [00:44] agents with hack.
+- [00:46] First a bit about me. Uh my name is Bil.
+- [00:50] I work as a developer relations engineer
+- [00:52] at Deepset for over three years. I have
+- [00:54] a bachelor's degree in computer science
+- [00:56] and master's degree in artificial
+- [00:58] intelligence. Uh and since then I have
+- [01:01] been learning and teaching how to build
+- [01:03] with AI. Uh I'm on Twitter and on
+- [01:06] LinkedIn. So if you like to connect
+- [01:08] there if you have questions to me around
+- [01:10] like building with like language models
+- [01:13] or with hstack free feel free to like
+- [01:16] connect. I'm happy to answer all of your
+- [01:19] questions
+- [01:21] and I would like to also take some time
+- [01:23] on deep set. So um deep set uh it was
+- [01:29] founded in 2018 and since then so for
+- [01:32] seven years we are solving custom AI
+- [01:34] challenges of big enterprises like
+- [01:36] Airbus, Semens, Bosch um Nvidia. Uh we
+- [01:40] have two main products. Uh one of them
+- [01:43] is Haststack. It's an open- source uh AI
+- [01:46] orchestration framework uh for Python
+- [01:48] developers. Uh and we also have our deep
+- [01:52] sets AI platform uh which uses hack as a
+- [01:55] backbone but it's for uh AI teams to
+- [01:58] build and deploy the applications quite
+- [02:01] fast.
+- [02:03] And here's today's agenda. First I would
+- [02:05] like to explain you a bit about like the
+- [02:07] agents workflows and vision language
+- [02:10] models. And then we're going to take a
+- [02:12] look at how we implement those concepts
+- [02:14] in haststack. Uh as the as the next step
+- [02:18] I will take you through a collab
+- [02:20] notebook. I like collab is I think a
+- [02:22] great way to share code uh in like
+- [02:25] workshops like this and I will also like
+- [02:27] make a demo of something but you will
+- [02:30] have every material that you need. So
+- [02:31] don't worry about that and in the end
+- [02:33] hopefully we'll have some questions for
+- [02:35] qu uh we'll have some time for
+- [02:37] questions.
+- [02:39] All right. So uh you can scan this code
+- [02:42] and fill in the form if you like to get
+- [02:44] access to the all the links and material
+- [02:45] that I will be sharing in this workshop.
+- [02:47] But don't worry about it now. I will
+- [02:49] also put it on the screen at the end of
+- [02:51] the presentation.
+- [02:53] So I would like to also know like where
+- [02:56] you are on your AI agent journey
+- [02:59] basically. So have you deployed an agent
+- [03:01] to into production? Are you working with
+- [03:03] agents? Maybe you don't need them. Uh
+- [03:06] maybe you just started to learn. So it's
+- [03:08] interesting to like learn about this
+- [03:10] because like every time I go to
+- [03:11] conferences and I do talks it's like we
+- [03:14] are still learning we are still
+- [03:16] exploring trying new methods trying to
+- [03:19] find the best methods actually and it's
+- [03:22] nice to be in this journey with
+- [03:23] everybody here. Uh I'm also curious
+- [03:26] about your like where you are at. If you
+- [03:28] like to share it in the chat I will also
+- [03:30] take my time to go through and read.
+- [03:34] All right, let's start with our first
+- [03:37] concept, agents, workflows, and vision
+- [03:41] language models.
+- [03:43] So, um, if you if you think about AI
+- [03:45] agents, probably you'll you'll find very
+- [03:48] like different explanations, very
+- [03:50] different definitions on different black
+- [03:52] blog posts, in different tutorials. And
+- [03:55] here's my definition. uh it's an AI
+- [03:59] agent is an LM LM based system that
+- [04:01] autonomously perceives a goal by
+- [04:03] interacting with its environment using
+- [04:05] tools. So you'll see the three items
+- [04:08] underlined here LLM based system
+- [04:11] interacting and tools. So basically
+- [04:14] agents has LLM as their brain and they
+- [04:18] can interact with the environment they
+- [04:20] can understand what's happening and they
+- [04:22] can make changes they can uh observe
+- [04:24] those changes through the tools. So like
+- [04:27] again like you'll see different
+- [04:29] definitions but I think in the end the
+- [04:31] definition all of them like boil down to
+- [04:34] this three um things
+- [04:38] and there's also like uh in this AI
+- [04:41] world there are different architectures
+- [04:42] and agent is one of them. uh as we said
+- [04:45] like agent is an autonomous system. If
+- [04:47] you have a complex multi-step problems
+- [04:49] requiring diverse actions or if you have
+- [04:52] a task invol multiple tool to tools and
+- [04:54] resources like deep research agents that
+- [04:57] is very popular recently um agents are
+- [05:00] great architectures for you. So
+- [05:03] basically if the goals are clear so if
+- [05:05] you know where to go but if you don't
+- [05:07] know exactly how to go there then agent
+- [05:11] is perfect like go go go for an agent
+- [05:13] and implement your system with this with
+- [05:16] that architecture
+- [05:18] but we also have AI workflows. So these
+- [05:21] are defined flows and these are
+- [05:23] specifically useful if you have
+- [05:25] interactions that can follow predictable
+- [05:27] patterns like question answering like
+- [05:29] rack and if your task can be decomposed
+- [05:33] into clear steps like document indexing
+- [05:35] for example. So if you have some sort of
+- [05:37] files you you want to like convert them
+- [05:39] into you if you have PDFs maybe you want
+- [05:42] to do OCR then you want to split that
+- [05:45] into smaller chunks you create
+- [05:47] embeddings for each of these chunks then
+- [05:50] you put that into your database. So you
+- [05:52] see like the steps are defined and I
+- [05:54] know which way to go. So instead of like
+- [05:57] having like using an agent for that, it
+- [06:00] makes sense for me to use a workflow or
+- [06:02] pipeline for this and especially if you
+- [06:05] value stability, robustness and
+- [06:07] efficiency over automation, then yes,
+- [06:11] the pipeline is the architecture for
+- [06:13] you, agents can be a bit uh risky for
+- [06:16] your application.
+- [06:20] And with that being said, let's also
+- [06:22] take a look at what a vision language
+- [06:24] model is and how it is different from an
+- [06:28] LLM. So when we say LLM, it's it's a
+- [06:32] short form for uh large language models.
+- [06:36] We basically refer to this texttoext
+- [06:38] model. So basically we use it for any
+- [06:41] type of generative models that we input
+- [06:44] the text and we get an output as a text.
+- [06:47] And vision language models actually work
+- [06:49] in a similar way but they can have text
+- [06:52] and image inputs in the same time and as
+- [06:56] an output it also produces a text and
+- [07:00] these type of models are especially
+- [07:02] useful for visual query. So if we have a
+- [07:05] visual information visual data like
+- [07:07] images or PDFs then we can use these
+- [07:10] models to do some sort of question
+- [07:12] answering over that data. And I'm not
+- [07:16] going to gay here. Hugging face has a
+- [07:18] great article explaining visual language
+- [07:20] models. And in that article, you can ch
+- [07:23] you can find ways to choose the right
+- [07:25] visual language model. Technical details
+- [07:28] of how these language models visual
+- [07:30] language models are trained and find
+- [07:32] ways of fine-tuning your own visual
+- [07:35] language models.
+- [07:38] All right. Now let's talk about agents
+- [07:41] in haststack and how we approach agentic
+- [07:45] flows in haststack.
+- [07:48] So as I said hastack is an open source
+- [07:50] AI orchestration framework by deepset
+- [07:53] and it's the backbone of the deep sets
+- [07:55] AI platform. Uh it's open source as I
+- [07:58] said you can find it on GitHub the whole
+- [08:00] codebase and it it actually has been
+- [08:03] trending on GitHub uh for the last
+- [08:05] couple of days. So if you haven't
+- [08:08] already, feel free to go ahead and give
+- [08:10] us give us a start to keep the momentum
+- [08:12] going. Um, it provides the tools that
+- [08:15] Python developers need to build real
+- [08:17] world agentic AI systems with
+- [08:19] visibility, control and modularity. And
+- [08:22] all of these characteristics come
+- [08:24] through our building blocks, components,
+- [08:26] and pipelines. Uh, components are the
+- [08:29] smaller unit. They are responsible of
+- [08:32] one thing such as like creating
+- [08:34] embeddings, generating text, document
+- [08:37] classification,
+- [08:39] evaluation. Basically, you name the
+- [08:41] task. And by connecting components to
+- [08:43] each other, you form pipelines. And
+- [08:46] pipelines in haststack are directed
+- [08:49] graphs, meaning that you can have
+- [08:52] branches and you can merge those
+- [08:54] branches and you can even have loops.
+- [08:56] This comes quite handy if you want to
+- [08:58] have some sort of retry mechanism.
+- [09:00] or some sort of verification of your
+- [09:03] answer. Um so you by connecting these
+- [09:06] components to each other you form this
+- [09:08] whole pipeline architecture.
+- [09:11] But this is not the only type of
+- [09:14] building block that we provide to you.
+- [09:16] Uh there are also agents in haststack.
+- [09:18] So agent is some uh is a component that
+- [09:21] accepts a language model from any
+- [09:24] provider. It can be openai, entropic,
+- [09:26] google or hugging face models. Maybe you
+- [09:30] run lama any type of uh genative model.
+- [09:34] And it also accepts a system prompt
+- [09:36] alongside with with some tools. And
+- [09:39] tools in haststack agents can be Python
+- [09:42] functions, external APIs, haststack,
+- [09:45] other haststack components and MCP
+- [09:47] servers. And basically user request
+- [09:50] comes to the agent and by using the the
+- [09:52] the the brain the generative model and
+- [09:55] the tools that it has it generates an
+- [09:58] answer. This agent generates an answer.
+- [10:02] All right. Now let's uh after like
+- [10:04] learning the the theory and having the
+- [10:07] basics around like hstack and the
+- [10:09] concepts uh let's now talk about how we
+- [10:13] can give eyes to our AI and we're going
+- [10:16] to specifically talk about like images
+- [10:19] and PDFs here.
+- [10:22] So I will take you through a multimodel
+- [10:24] agent through our through a collab. So
+- [10:28] this agent will be able to process
+- [10:30] images and PDFs and it will also have an
+- [10:32] access to a tool uh around weather
+- [10:35] information for orchestration. We'll use
+- [10:37] hstag and as our model provider we'll
+- [10:40] use open AAI but I'll also show you
+- [10:42] another way of uh using another
+- [10:45] provider. And with that let's go and
+- [10:50] see our collab. Can you still see my
+- [10:53] screen? You should be able to see a
+- [10:55] collab now, but hopefully you do.
+- [10:58] >> Yes, we do.
+- [10:59] >> Amazing. Um, so here, as I said, we're
+- [11:03] going to use Hey, and I have like every
+- [11:06] code here, every code piece that you
+- [11:08] need in this collab, but if you need
+- [11:10] more examples, you can check our
+- [11:11] cookbook around like introduction to
+- [11:13] multimodel text generation and our
+- [11:16] tutorial around creating vision and text
+- [11:18] rack pipelines. Let me maybe zoom in a
+- [11:22] bit so that it's better. All right. So,
+- [11:25] basically first what we do, we install
+- [11:27] the required packages. Hacki is one of
+- [11:29] them. And we also have other packages
+- [11:32] for us to be for us to uh process PDFs.
+- [11:37] All right. Then we're going to install
+- [11:40] the packages install some of the images
+- [11:43] and PDFs that we're going to need. Uh
+- [11:46] actually I don't need to run them all.
+- [11:48] So for the let's wait for this cell to
+- [11:52] finish but then like let's go through
+- [11:54] the outputs of these instead of running
+- [11:56] them because it's going to take uh a lot
+- [11:59] of bandwidth uh of the connection. All
+- [12:02] right. So now we have some information
+- [12:05] some data that we can use and if you are
+- [12:08] not familiar with collab all of these
+- [12:10] files are basically here downloaded for
+- [12:14] you. All right. Then as the next step,
+- [12:16] I'm going to put my OpenAI API key. And
+- [12:19] I've already put it as a secret here and
+- [12:21] then enabled uh this enabled that secret
+- [12:25] for this collab notebook. So if I just
+- [12:27] run this cell, it will pick it up from
+- [12:29] there. So I don't need to worry about
+- [12:31] like copy and pasting it every time. So
+- [12:34] the way of working with language models
+- [12:37] in haststack is through a chat generator
+- [12:40] components. And we have chat generator
+- [12:42] components for different providers like
+- [12:44] OpenAI, hugging face, Amazon by drug,
+- [12:46] entropic, Google, Mistral, O Lama, VLM.
+- [12:49] If you go to hack documentation, you'll
+- [12:51] get a full list of all model providers
+- [12:55] uh and inference engines. Uh so here
+- [12:58] what I do is like I import my OpenAI
+- [13:01] chat generator because this is the
+- [13:03] provider that I'm going to use. I'll
+- [13:05] define the model GPT for a mini and then
+- [13:08] I run this component with this run
+- [13:10] method and provide my message and first
+- [13:14] I want the my message to have this user
+- [13:16] role. So I use chat message from user
+- [13:19] and I pass a very basic uh message like
+- [13:22] what is the capital of Germany and I get
+- [13:25] an answer of that the capital of Germany
+- [13:28] is Berlin. So this is just to test that
+- [13:30] okay API key is correct. I can use a
+- [13:33] chat generator and it works. It gives me
+- [13:35] a correct answer. All right, let's move
+- [13:38] on. Um, so for us to be able to process
+- [13:43] data, so process visual data, we need to
+- [13:46] first convert them into a specific type
+- [13:49] in haststack and that type is image
+- [13:52] content. So for example, uh if I have an
+- [13:55] image like a capibara
+- [13:57] uh image and maybe I can show it to you.
+- [14:02] No, maybe not. Okay, you'll you'll see
+- [14:04] it eventually, so no worries. So, I have
+- [14:06] a specific component for that image file
+- [14:09] to image content component that helps me
+- [14:11] convert any image to the image content
+- [14:14] type that I need. So what I do is like I
+- [14:17] initialize that component and I provide
+- [14:20] some parameters. Then I give my image
+- [14:22] and it converts it into that specific
+- [14:24] type and then that type is like image
+- [14:26] content is basically has this base 64
+- [14:30] sitter ring for that image. It has some
+- [14:33] mime type detail and meta information
+- [14:36] for that. And if you take a look this is
+- [14:39] the image that I have that I converted
+- [14:41] into uh the image content type.
+- [14:45] So what I do next is like I want to pass
+- [14:48] this image to my language model that I
+- [14:52] initialize actually here and get some
+- [14:55] insights around this. So for example
+- [14:57] what I say is like what is the name of
+- [14:59] this animal and I just pass this image
+- [15:03] content uh alongside uh this query uh
+- [15:08] this question and I again pass that in
+- [15:12] the exact form to my generator. One
+- [15:15] thing to like uh keep that in mind here
+- [15:18] is that the model that I'm using with my
+- [15:20] generator component should be a vision
+- [15:23] enabled language model. So you need to
+- [15:26] check that with the provider. Not every
+- [15:28] large language model can work with
+- [15:30] images or PDF. So visual data. Uh but
+- [15:33] with the the new uh wave of language
+- [15:36] models, they almost all of them support
+- [15:38] this.
+- [15:40] So here then like after running this
+- [15:42] with my generator, I get that the animal
+- [15:45] in the image is a capibara. It's the
+- [15:48] largest rodent in the world, etc., etc.
+- [15:50] And it also says about like things about
+- [15:52] the birds. So it kind of also
+- [15:54] understands that it's a bird.
+- [15:58] Uh that was the image and let's now take
+- [16:01] a look at the PDFs. So I also need to
+- [16:04] like if I want to work with PDFs without
+- [16:06] doing OCR. So if I want to treat them as
+- [16:10] images as well, I can again uh use
+- [16:13] another component called PDF to image
+- [16:15] content and convert my PDF into image
+- [16:20] content structure so that I can also
+- [16:22] pass that information to my language
+- [16:25] model. So let's do that. So I initialize
+- [16:27] this PDF uh to image content.
+- [16:31] >> So sorry to interject. Um uh so there
+- [16:33] has been a question about the the link
+- [16:37] to the the notebook. Uh
+- [16:39] >> yeah, sure.
+- [16:41] >> And I see I did a web search. I did find
+- [16:44] a few but I'm not sure which exactly is
+- [16:46] this one.
+- [16:47] >> Uh this one is not published yet. So
+- [16:49] probably it's a similar one but not the
+- [16:51] exact one. So all right, let me put it
+- [16:55] in the chat. If I put it in the chat
+- [16:57] hopefully it will be
+- [17:01] all right. We have it. Yeah.
+- [17:03] >> All right. Amazing. So, all right. Let's
+- [17:05] move on. So, um I have a PDF. Uh it's
+- [17:10] about Let me maybe show it to you. Yeah,
+- [17:12] it's here. So, it's this one. Um so,
+- [17:16] it's a information sheet from a provider
+- [17:20] basically like putting out all the tiers
+- [17:23] that they have and uh what's included in
+- [17:26] that sheet. And what I do next is that I
+- [17:30] process that PDF. I convert it into an
+- [17:32] image content. Then I pass that
+- [17:35] information of here
+- [17:38] alongside again with this query. This
+- [17:40] time I want to know which subscription
+- [17:42] should I go for? If I have more than
+- [17:45] 2,000 keywords to be tracked and I pass
+- [17:48] that to my generator and in return I get
+- [17:50] that if you have more than 2,000
+- [17:52] keywords to be tracked, you should
+- [17:54] consider the advanced plan as it allows
+- [17:56] for tracking up to 5,000 keywords. So,
+- [17:59] if I go back to that, I can verify that
+- [18:03] because like track words like if I this
+- [18:06] one has a limit of 2,000, this one has
+- [18:09] like 5,000. So, I need to go for the
+- [18:11] advanced
+- [18:13] package.
+- [18:15] All right. So, basically now without
+- [18:17] doing OCR, I can read the PDF and I can
+- [18:20] ask my questions to those to that PDF
+- [18:22] and gets reliable answers uh for that.
+- [18:27] And I can also use the same thing for
+- [18:30] slide decks. So what I did I basically
+- [18:33] if I go back here where I downloaded all
+- [18:36] my things
+- [18:38] uh I basically use the the presentation
+- [18:41] that I have and yeah it's in a PDF form
+- [18:47] and it's it's a short one uh to make it
+- [18:50] easier but I also uploaded it here again
+- [18:54] converted it into an image content and I
+- [18:57] I asked like based on the slide deck
+- [19:00] what are the differences between agent
+- [19:02] and pipeline architectures and in return
+- [19:06] uh I get some great answers because it
+- [19:08] puts in an exact way of how I describe
+- [19:12] an agent and how I describe a pipeline
+- [19:15] architecture like that it emphasizes
+- [19:17] stability, robustness, efficiency so it
+- [19:20] can understand what I'm talking about
+- [19:22] like in the slide deck and answer again
+- [19:24] questions. So you can also go ahead and
+- [19:28] try different PDFs. There's another one
+- [19:31] uh survey. PDF and for example for this
+- [19:34] question do the plan actions seem
+- [19:36] targeted at the weakest areas the the
+- [19:39] LLM needs to go through couple of slides
+- [19:43] uh and like combine the information uh
+- [19:46] that it got from them and generate an
+- [19:48] answer. So you can go ahead and try your
+- [19:51] own slide decks. This is actually a very
+- [19:53] common use case of these vision enabled
+- [19:55] language models.
+- [19:58] All right. So now let's make our system
+- [20:01] a bit smarter because so far we haven't
+- [20:03] been using an agent at all. We were just
+- [20:06] like communicating with an LLM and
+- [20:09] sending an image, sending a query and
+- [20:11] getting an answer. But we can we can go
+- [20:15] much much more than that. Uh but to in
+- [20:18] order to create an agent remember I
+- [20:20] mentioned tool. So let's just first
+- [20:23] create a tool. Uh so there are different
+- [20:26] ways of creating a tool for our agent in
+- [20:28] haststack and one of the most common
+- [20:31] ones is like defining a python function
+- [20:34] uh with a name of course and with some
+- [20:37] more information around the accepted
+- [20:39] parameters and a description basically a
+- [20:42] doc of what this function does. And if I
+- [20:47] put this tool decorator on top then this
+- [20:51] this Python function will directly turn
+- [20:54] into a tool that my agent can use
+- [20:57] because now if I check the name this
+- [20:59] tool has like it has the exact name of
+- [21:02] the the Python function. If I check the
+- [21:05] description, it has this dog sit ring.
+- [21:09] And if I check the parameters, then I
+- [21:12] see like it has the location type sit
+- [21:14] ring and the location to get the weather
+- [21:17] for. And yeah, if we go through this uh
+- [21:19] Python function, what it does is it uses
+- [21:22] a client um to get the current weather
+- [21:26] information in that location. So it
+- [21:28] accepts a location
+- [21:31] and it queries a client and gets
+- [21:34] description temperature, humidity,
+- [21:36] precipitation, wind speed, wind
+- [21:38] direction as a result. Um, and if you
+- [21:41] are familiar with function calling, you
+- [21:43] need to pass a name, a description and
+- [21:46] parameter schema to your agent so that
+- [21:49] it knows when to call that tool and how
+- [21:52] to call that tool actually. But if you
+- [21:54] just have a um detailedly defined uh
+- [21:59] Python function, we don't need to worry
+- [22:01] about the haststack takes care of all
+- [22:03] the parameters, schema, name, and
+- [22:05] description generation.
+- [22:07] All right, now we have our get weather
+- [22:10] tool. Let's go ahead and create the
+- [22:12] agent. Uh the agent component in
+- [22:15] haststack, you can directly import it
+- [22:17] through uh uh through among our
+- [22:19] components. Uh it's a tool calling
+- [22:22] agent. So basically it's it's built in a
+- [22:25] react uh way. Uh it started as a react
+- [22:28] but under the hood it uses function
+- [22:31] calling. Right now um what I can pass to
+- [22:35] my agent is a chat generator component
+- [22:38] and if I want to go with the openi chat
+- [22:40] generator I can do so and pass that
+- [22:42] generator. Uh but I can also use other
+- [22:45] chat generators in haststack. And these
+- [22:48] chat generators are going to be the LLM.
+- [22:51] So the brain of the agent. Then I pass
+- [22:53] the list of tools that I want this agent
+- [22:56] have access to. Um right now I only have
+- [22:59] one tool. So I'll just pass that one.
+- [23:01] And I can also provide a very detailed
+- [23:03] system prompt. For this case I just said
+- [23:06] like you're a helpful agent. But if you
+- [23:09] are for example if you're working with
+- [23:11] uh especially multi- agentic systems
+- [23:14] then it makes sense to like give your
+- [23:16] agent a specific role of like saying
+- [23:19] like you are a I don't know like a
+- [23:21] customer success agent that has access
+- [23:23] to those tools etc. But this like very
+- [23:27] this is a very minimal example so we
+- [23:28] don't need to do that.
+- [23:31] Then as the next step to be able to use
+- [23:34] my agent, I will actually use a map of
+- [23:37] Valencia. So this is like a screenshot
+- [23:40] from Google Maps and it's again in the
+- [23:43] in my uh in my file. So I can just
+- [23:47] convert that image into an image content
+- [23:51] but this time using this from file path
+- [23:55] method of my image content. And if I say
+- [23:58] show, I can see the content of my image.
+- [24:04] So let's if if we go ahead and try to
+- [24:08] just send a text query to our agent, we
+- [24:11] can do so. Um here I try like how are
+- [24:15] you today? And as a response I got like
+- [24:17] I'm just a program so I don't have
+- [24:19] feelings but I'm here and ready to help
+- [24:21] you. How can I assist you today?
+- [24:24] Uh this is this was a text query. So if
+- [24:27] I use this agent in a way that I pass
+- [24:30] this query and this image and I ask for
+- [24:33] it to do something for example I ask for
+- [24:36] what is the weather in the area of the
+- [24:38] map uh and I pass this map uh image
+- [24:42] content that I have my agent this time
+- [24:45] it checks it says like the weather in
+- [24:48] Valencia Spain is currently sunny with a
+- [24:51] temperature of 30°.
+- [24:54] Um so I hope that it checks it goes
+- [24:58] through this like tool calling. So it
+- [25:00] basically goes to my Python tool. So
+- [25:02] through to Python client get some
+- [25:05] current value information returns that
+- [25:07] to the agent and my as the last part
+- [25:09] like the agent can generate the final
+- [25:11] response uh in this text format. This is
+- [25:14] my assumption but there's a way to be
+- [25:17] sure of that and it's called actually
+- [25:20] observability. So rather than like agent
+- [25:24] being a black box here, what I can do is
+- [25:27] like we have this print streaming chunk
+- [25:30] a a built-in uh function a utility
+- [25:33] function that we have. I can pass this
+- [25:35] function as my streaming callback to my
+- [25:39] agent
+- [25:41] um and see the details of all these tool
+- [25:44] calls all the like the process happening
+- [25:46] inside the agent. So if I run the same
+- [25:49] query but this time having the streaming
+- [25:51] call back function. Now what I see is
+- [25:54] like okay now there has been a tool call
+- [25:57] to my get weather tool and the arguments
+- [26:00] that I used were uh location
+- [26:05] uh location Valencia Spain and my tool
+- [26:10] returned this result basically like
+- [26:12] description is sunny temperature 30
+- [26:14] humidity 55 etc etc. So the everything
+- [26:17] that I defined in my function and this
+- [26:20] time a system so the agent as the final
+- [26:22] answer generated this one. So now I have
+- [26:25] more insights into my agent. So for this
+- [26:29] specific example it again creates a
+- [26:32] value but imagine having I don't know
+- [26:34] like five different tools I don't know
+- [26:38] 10 different tool calls and something
+- [26:40] went wrong. So you like to have an
+- [26:43] insight on what's happening inside the
+- [26:45] agent and what went wrong in which tool
+- [26:48] it went wrong and this very simple
+- [26:51] utility function can help you with that
+- [26:54] uh when you're when you are in the
+- [26:55] development phase of your application.
+- [26:57] Of course you can define your own
+- [26:59] streaming callback function and pass uh
+- [27:02] that instead of this print streaming
+- [27:03] chunk.
+- [27:06] Uh I have given all these examples in
+- [27:09] open AI format. uh but of course you can
+- [27:12] use different models as I said for
+- [27:14] example Gemini 2.5 Pro is also a
+- [27:18] visionable language model so it also
+- [27:20] supports images it means that we can
+- [27:22] also change the model of this agent and
+- [27:25] use uh Gemini 2.5 pro instead and for
+- [27:29] that I need to install Google genai
+- [27:31] hstack package
+- [27:33] uh enter my Google API key and
+- [27:37] initialize my Google geni chat generator
+- [27:40] with the model that I want to use. And
+- [27:43] this time uh instead of basically
+- [27:46] passing the open chat generator, I just
+- [27:49] need to pass this Google generator here
+- [27:52] to my agent. And if I again run the same
+- [27:55] uh query with the same image with the
+- [27:58] same settings, I get a response here.
+- [28:04] All right. So before I uh go to the demo
+- [28:08] where I will be showing you how to
+- [28:09] deploy this agent, are there any
+- [28:11] questions maybe I can answer like right
+- [28:13] now?
+- [28:17] Let me see.
+- [28:21] I actually don't see the questions.
+- [28:26] >> Are you looking under Q&A or I can help
+- [28:29] you uh screen.
+- [28:30] >> Yeah, now I found them.
+- [28:32] >> Okay.
+- [28:33] >> All right. Let's see. Um,
+- [28:37] okay. I see a question like, is it
+- [28:39] possible to have a single agent enabled
+- [28:40] with multiple tools? I think yeah, yes,
+- [28:43] you can actually use an agent as a tool
+- [28:46] to the other agent. Um, so that gives
+- [28:50] you a very easy way of um basically like
+- [28:56] creating this multi-agentic system.
+- [28:59] And another question, does Haststack
+- [29:02] have context and memory? Uh, it depends
+- [29:05] on what you mean with context and memory
+- [29:08] to be honest. Um,
+- [29:10] so like if you can send me a LinkedIn
+- [29:12] message, we can discuss because there
+- [29:14] are different definitions on context and
+- [29:16] memory. If you ask like you can build
+- [29:18] rag applications, you can save the the
+- [29:21] the chat history. But is there a way you
+- [29:24] ask?
+- [29:25] uh a question another one is why only
+- [29:27] Valencia had selected because that was
+- [29:29] the image that I put my agent but I I
+- [29:32] can also show other examples of that
+- [29:36] another one uh in your workbook which
+- [29:39] tool figured out the Valencia Spain part
+- [29:42] I don't see that in the streaming okay
+- [29:45] amazing so maybe let me go through that
+- [29:47] again um so you see in the in the image
+- [29:53] this is the image of Valencia So when I
+- [29:56] pass this image to my agent
+- [30:00] here uh by passing this map image and
+- [30:03] asking this what is the weather in the
+- [30:05] area of map. So what what happened here
+- [30:09] is like my agent first analyzed the
+- [30:12] image and understood the content of the
+- [30:16] image and it understood that okay it's a
+- [30:19] map of Valencia and the user is asking
+- [30:22] about the the weather in Valencia
+- [30:25] because that is the image that is
+- [30:27] provided to the to the agent. So that's
+- [30:30] why if we go to this observability part
+- [30:33] when I pass the image it understands
+- [30:36] that it's Valencia Spain. So it uses
+- [30:39] this get weather tool um to get the the
+- [30:43] weather information about Valencia and
+- [30:46] to to get that it passes this the
+- [30:49] location information to this get weather
+- [30:51] tool and get weather tool uses the
+- [30:54] Python client uh to get uh current
+- [30:59] weather information of Valencia returns
+- [31:02] that back to the agent and then agent
+- [31:04] compose that information uh as a natural
+- [31:09] uh natural language here. I hope that
+- [31:12] answers uh the question.
+- [31:16] Will this handle the images and graphs
+- [31:18] within the PDF or uh any other document?
+- [31:22] Yes, actually it's uh when you're doing
+- [31:25] OCR uh if you have a like an uh graphs
+- [31:29] in your PDF, it's you kind of lose the
+- [31:32] the the text. you you lose the context
+- [31:35] because OCR is uh extracting the text
+- [31:39] textual information in your PDF. But
+- [31:41] treating PDFs as images through the
+- [31:45] approach can help you um handle the
+- [31:49] graphs and graphs in PDFs and images.
+- [31:55] All right, I see lots of um questions
+- [31:58] coming up. Um quickly going through
+- [32:00] haststack is open source uh completely
+- [32:03] open source uh on GitHub. So you can
+- [32:06] basically do pip install haystack AI and
+- [32:10] start using everything and uh I will
+- [32:12] also sharing the links. So for example
+- [32:14] for this one all I needed to do is to do
+- [32:17] this pip install. All right without
+- [32:20] running a lot of time I see lots of
+- [32:22] questions coming but I also want to show
+- [32:24] more. Um so this was like the first part
+- [32:28] of this uh multimodel agent but there's
+- [32:34] also another like you can also take this
+- [32:37] to another level and deploy it actually
+- [32:42] um to to your server and this is through
+- [32:45] hooks. Hooks is an additional package to
+- [32:48] haststack. H it's a tool to deploy and
+- [32:50] serve haststack pipelines and agents as
+- [32:53] REST APIs and MCP servers. So you can
+- [32:56] basically deploy your deploy your agent
+- [33:00] deploy your pipeline and um use it as an
+- [33:03] MCP server and connect connect it to an
+- [33:05] MCP client like cursor or cloud for
+- [33:08] example. Um it comes with the you create
+- [33:12] the custom logic and expose your uh
+- [33:15] haststack agent and pipeline as an HTTP
+- [33:18] endpoint and it also creates openi
+- [33:21] compatible chat completion endpoints uh
+- [33:24] which gives you a very easy way of
+- [33:27] having open web UI as your UI.
+- [33:31] So I want to now show you how you can
+- [33:34] deploy the same agents with hey hooks.
+- [33:37] So for that I will go to my
+- [33:41] Visual Studio code. Sorry. All right.
+- [33:44] Um so we have let me maybe show you this
+- [33:48] one first. So we have Hack demos
+- [33:51] repository. We have lots of repositories
+- [33:53] with a lot of content. Um Hastack demos
+- [33:57] is where we keep like end to end demos.
+- [34:00] You can find like a browser agent here.
+- [34:02] You can find a demo on chat website
+- [34:05] through hey hooks and this today we're
+- [34:08] going to go over this multimodel agent
+- [34:11] um uh demo and I already cloned this
+- [34:16] repository to my VS code. So let's go
+- [34:19] ahead and like check it there. So this
+- [34:22] is the same haststack agent that we
+- [34:24] implemented in Google collab but now we
+- [34:27] take it to the python script environment
+- [34:29] and we're going to do more stuff on top
+- [34:32] of that. So uh I what I did is like I
+- [34:35] cloned this repository. It's it's a very
+- [34:37] simple step. Then I installed the
+- [34:39] dependencies. So uh you might you need
+- [34:42] like Python 3.10
+- [34:45] to run this demo.
+- [34:47] Then I configured some environment
+- [34:49] variables. OpenAI API key, but you can
+- [34:52] also use uh other model providers API
+- [34:56] key here based on your provider choose.
+- [34:59] And now I'm going to start my Hey Hooks
+- [35:02] server in just two commands. And let's
+- [35:05] let me clear this. All right. First I'm
+- [35:09] going to say hey hooks run
+- [35:13] and it will start the Hey Hooks server
+- [35:17] for me. And now if I open another
+- [35:21] terminal and if I say like hey hooks
+- [35:25] status
+- [35:27] here I see that no pipeline is in is
+- [35:30] currently deployed but I have a server
+- [35:34] running in this local host meaning that
+- [35:35] I can already send curl requests to this
+- [35:38] local host and uh get some answers. But
+- [35:42] let's make it easy. So we actually have
+- [35:46] like if you go to that localhost and
+- [35:49] slashdocs you'll also end up with this
+- [35:52] swagger documentation and you'll find
+- [35:56] the exact like the status uh endpoint
+- [35:58] here. You'll also see like all the
+- [36:01] endpoints that you already have here.
+- [36:04] All right let's go back. So now what I
+- [36:06] want to do is like I want to deploy this
+- [36:08] agent and for that let me show you the
+- [36:11] code. So if you go to this multimodel
+- [36:14] agent folder and this vision enabled
+- [36:18] agent, there's only one Python script
+- [36:22] here. So no other code, only this one.
+- [36:25] And here it's quite easy. What I have is
+- [36:28] like I have a pipeline wrapper class. Um
+- [36:31] you don't need to memorize here at all.
+- [36:34] It's just like a copy paste code. But
+- [36:36] what I did is like remember like this
+- [36:38] agent that I created with OpenAI chat
+- [36:40] generator. It has a system prompt. It
+- [36:43] has tools get weather. And I also
+- [36:44] initialize this get weather tool here in
+- [36:48] my setup
+- [36:50] method. Then the second thing that I
+- [36:53] need is this run API. And this run API
+- [36:57] is my basically
+- [37:00] um connector code piece to an HTTP
+- [37:04] endpoint. So what are the inputs of this
+- [37:06] HTTP endpoint that I want and what am I
+- [37:10] going to do with that? So since my agent
+- [37:13] can process query so textual query and
+- [37:16] images through image path this is what I
+- [37:18] do. So this function accepts a query
+- [37:21] image path optionally it doesn't I don't
+- [37:24] have to provide it all the time. If
+- [37:25] there's an image path I pass query and
+- [37:28] image together. If I only have the
+- [37:30] query, I just pass the query and what I
+- [37:33] do is like I run my agent with this
+- [37:37] uh content part. So with the information
+- [37:39] that is provided and I just return the
+- [37:42] last message of that agent.
+- [37:45] So if I now go and say like hey hooks
+- [37:50] pipelines this is deploy files and and I
+- [37:56] want to give a name to that. So I'm
+- [37:57] going to say like vision enabled
+- [38:00] agent and tell
+- [38:04] hey hooks where this code is. So it's in
+- [38:07] multimodel
+- [38:09] agent slash
+- [38:12] vision enabled.
+- [38:15] Oh this is uners not underscore. This is
+- [38:20] dash agent. Okay.
+- [38:25] Oh, it's supposed to be pipeline. Sorry.
+- [38:30] Yeah. So now I deploy this pipeline
+- [38:35] meaning that now I can go back to this
+- [38:38] swagger documentation refresh and here I
+- [38:41] have my endpoint and here basically I
+- [38:44] can do anything. I can do the same
+- [38:46] thing. And what's the
+- [38:51] weather?
+- [38:53] Did I type it correctly? Weather like in
+- [38:57] the image
+- [39:00] and here I pass
+- [39:03] multimodel agent/map.png
+- [39:06] png because that is already here given
+- [39:10] like I have this same image here and if
+- [39:13] I run this in this documentation so
+- [39:17] basically I'm sending a curl request to
+- [39:19] my endpoint
+- [39:21] it takes a bit of time
+- [39:25] but now I have the same information here
+- [39:28] it figured out that it's Valencia and it
+- [39:32] made a tool call it returned me the
+- [39:35] answer.
+- [39:37] So basically if I just have a UI on top
+- [39:40] of that I have an agent running. This is
+- [39:42] a multimodel agent. I can upload like
+- [39:44] any image any PDF that I want and I can
+- [39:47] get an response. But let me also show
+- [39:50] you how you can also connect this to
+- [39:52] open web UI. So let's go back to that
+- [39:55] code. And for that the only thing that
+- [39:58] you need to do is to have this extra run
+- [40:01] chat completion async method in the
+- [40:04] pipeline wrapper. Again, let me maybe
+- [40:07] zoom in here. Okay.
+- [40:10] And I just pass this my agent as my
+- [40:14] pipeline. I pass my messages that the
+- [40:17] messages that I want to pass and I
+- [40:19] handle those messages through chat
+- [40:21] message from open dict format. So it's
+- [40:24] quite easy. uh after having this uh
+- [40:28] method I can use open web UI for my uh
+- [40:32] agent but for that first I need to run
+- [40:35] my
+- [40:36] docker and um let me see that yeah I
+- [40:40] need to first like start open web UI
+- [40:42] locally through docker let's wait a sec
+- [40:47] and see if it's up
+- [40:52] yeah I'm waiting open web UI to be up.
+- [41:00] All right.
+- [41:02] So now when I go to Where is that?
+- [41:11] Let me go. Okay, let me maybe go there.
+- [41:14] Yeah, if I go to localhost
+- [41:17] 3000.
+- [41:20] Now I have my open web UI and I have my
+- [41:23] vision enabled agent here. So I can say
+- [41:27] like how are you today
+- [41:31] and it uses my agent. So it gives a
+- [41:34] similar answer that I use. But what I
+- [41:36] can do is like I can upload a file this
+- [41:40] map the same map and
+- [41:44] what's the weather
+- [41:48] there right now?
+- [41:55] And here I even see like there was like
+- [41:58] a tool called uh get weather with
+- [42:00] arguments location Valencia. And now I
+- [42:03] have a response. And here if I toggle I
+- [42:05] see like Valencia here as the the tool
+- [42:09] calling argument. And I also see the
+- [42:10] response. And I can maybe see like
+- [42:14] how is the weather in Berlin right now?
+- [42:20] These are just the queries for my agent
+- [42:23] like I enforced my agent to use the uh
+- [42:26] use the um tool that I provided. And
+- [42:30] here it says like location Berlin. It
+- [42:32] figured like it understood that I want
+- [42:35] information around Berlin obviously. And
+- [42:37] this time it used this get weather tool
+- [42:39] again with with Berlin. And another
+- [42:42] thing that I can do here is like I can
+- [42:44] capture by basically having this Google
+- [42:47] maps again and go back to my
+- [42:53] what's the weather there
+- [43:04] and like this time I provided like a map
+- [43:06] of Berlin. So I'm expecting hoping that
+- [43:09] it will understand that it's Berlin but
+- [43:11] it's not quite hard because Berlin it's
+- [43:14] it's Berlin written here. Okay. So this
+- [43:18] time it did something funny. Uh it
+- [43:21] noticed that it already has this
+- [43:23] information in the memory. So memory
+- [43:25] here it's it's basically the chat
+- [43:27] history and it already has this
+- [43:29] information in the in the chat. So it
+- [43:31] didn't go to the to the uh get weather
+- [43:34] tool again. it used the the same
+- [43:36] information that it had in memory and um
+- [43:39] returned that.
+- [43:42] All right, I don't have much time left.
+- [43:44] So I'm going back to my presentation for
+- [43:47] for others steps. So so now what you
+- [43:52] have seen is like you have learned how
+- [43:54] to create a multimodel agent with
+- [43:56] haststack through the collab notebook.
+- [43:59] Then you'll also learn how to deploy
+- [44:02] that agent with hey hooks and how to
+- [44:05] have a UI for that agent through open
+- [44:07] web UI and all that code was like a p
+- [44:10] like small piece of code uh that you
+- [44:13] have to write uh as like a pipeline
+- [44:15] wrapper um but you can go ahead and
+- [44:18] provide more tools um to your system now
+- [44:22] so you can connect the connect to MCP
+- [44:24] servers you can use maybe like a
+- [44:26] multimodel rack pipeline line create
+- [44:29] like a multimodel rag pipeline in
+- [44:30] haststack and use that as a tool and
+- [44:32] there are also like pre-built GitHub
+- [44:34] tools in haststack documentation you can
+- [44:36] find them so you can use those tools
+- [44:38] maybe like build some sort of GitHub
+- [44:41] agents
+- [44:42] you can try open models open weight
+- [44:44] models through lama llm hugging face
+- [44:48] there are like llama models out there
+- [44:51] you can uh try and try to find the model
+- [44:55] that works best for you But you should
+- [44:58] always think about like observability
+- [45:00] and if you want to take this agent into
+- [45:03] production, you need to also think about
+- [45:05] guardrails like what happens if the
+- [45:07] image is something irrelevant? What if
+- [45:09] my user asks something irrelevant? Uh
+- [45:13] what if I return some sensitive
+- [45:15] information to my users? So you need to
+- [45:17] always keep that in mind. And
+- [45:19] observability is like quite easy to
+- [45:21] implement with hstack. It already has
+- [45:23] this builtin uh feature
+- [45:26] that I showed you with open uh within
+- [45:29] Google Collab.
+- [45:31] And there are like different resources
+- [45:34] in haststack uh on how to build AI agent
+- [45:37] with haststack. We have like a tutorial
+- [45:39] explaining how to build a tool calling
+- [45:41] agent, a tutorial around AI guard rails,
+- [45:45] how to do content moderation and safety
+- [45:47] with open language models, how to create
+- [45:50] multi- aent system with haststack, about
+- [45:52] tracing, about human in the loop, and we
+- [45:55] have two agent examples that might be
+- [45:57] helpful for you in your GitHub tasks.
+- [46:00] They come quite handy when you're
+- [46:02] dealing with an open source project like
+- [46:03] Haststack. And just couple of uh just a
+- [46:07] month ago I launched this building AI
+- [46:09] agents with haststack course on data
+- [46:11] cam. So you can also go ahead and check
+- [46:13] that course to learn about AI agents.
+- [46:17] All right. Thank you so much for joining
+- [46:20] me for this workshop. Uh as I said like
+- [46:23] you can find me on social media on
+- [46:25] Twitter on LinkedIn and we can connect
+- [46:27] there and you can also have this QR code
+- [46:30] scan this QR code uh if you want to get
+- [46:33] access to to all the links the the demos
+- [46:37] that I made the presentation etc. Um
+- [46:41] yeah thank you so much.
+- [46:50] Um, thank you Vulg. Um, do you have a
+- [46:54] few moments to take any questions here?
+- [46:56] I see some questions.
+- [46:58] >> Yeah, sure. Yeah, I see lots of
+- [46:59] questions.
+- [47:01] >> Yeah, I think there is a a question
+- [47:04] around how do you rest how to restrict
+- [47:06] prompt injection? So, that may be an
+- [47:08] interesting question here. You have any
+- [47:10] guardrails?
+- [47:11] >> Yeah. So, we have some ways of um
+- [47:16] pre preventing that. uh as the first
+- [47:19] step they can check this um AI guard
+- [47:23] rails content moderation and safety
+- [47:25] cookbook uh and if they have like more
+- [47:28] specific use case like if they're
+- [47:30] looking for more specific solution uh
+- [47:33] you can also like they can also join
+- [47:35] like discord our discord server I'm
+- [47:37] quite active there or like engineers are
+- [47:39] quite active there and we either provide
+- [47:42] answers or like we take that into our
+- [47:44] road map uh for for other months for
+- [47:47] other weeks
+- [47:50] Okay. And uh there is one more question
+- [47:53] about the generic documentation, right?
+- [47:56] Any documents which guide to develop,
+- [47:59] test and deploy in production. So is
+- [48:02] there a unified place where we can they
+- [48:04] can look at their your documentation?
+- [48:06] >> Yeah. So basically in our documentation
+- [48:08] maybe I can take you also there. Let's
+- [48:13] talk.
+- [48:15] Yeah.
+- [48:18] Okay. So like you can you first you need
+- [48:21] to start with like get started
+- [48:22] introduction to haststack. Then you'll
+- [48:24] learn about like the haststack concepts.
+- [48:26] Here you'll have you'll see like all
+- [48:29] documents stores and here are the
+- [48:30] components that you can use. And if you
+- [48:33] scroll a bit down then you have here
+- [48:37] like tracing logging. So basically like
+- [48:40] production related documentations and
+- [48:42] how to deploy and information about hi
+- [48:45] hooks like all the details around hay
+- [48:47] hooks. Um, so every information that you
+- [48:50] need, you can definitely you can find it
+- [48:51] in our documentation. But again, as a
+- [48:54] reminder, you can go to our discord
+- [48:57] server, discord community and ask your
+- [48:59] question there if you're looking for
+- [49:01] very specific answers. And our I think
+- [49:04] uh our demos repository, we also have
+- [49:08] great examples, end to end examples
+- [49:10] here. So that uh like this demos can be
+- [49:14] a good start for them as well.
+- [49:17] Thank you. And perhaps we have maybe
+- [49:20] another minute or so. So one last
+- [49:22] question about what is the difference of
+- [49:25] hastack pipeline comparing to langraph
+- [49:27] DAG. Uh looks very similar.
+- [49:30] >> Yeah. Um it it is quite similar but I
+- [49:34] think uh one of the biggest differences
+- [49:36] is that we come with a long list of
+- [49:40] components. So you can you can choose
+- [49:43] from this building components that we
+- [49:45] have in haststack. For example, if you
+- [49:46] want to take a look at generators, like
+- [49:48] the everything is handled for you. You
+- [49:50] don't need to worry about how to like
+- [49:52] switch uh providers for that. Uh but if
+- [49:57] you have like a very custom logic that
+- [49:58] you want to incorporate into your
+- [50:00] pipeline or your graph, you can create
+- [50:03] your custom component. And here you can
+- [50:05] find in here. It's quite easy. It's
+- [50:07] basically you just need to write a new
+- [50:09] Python class for that. Um and one other
+- [50:14] thing that I want to mention is like we
+- [50:15] have a breaking change policy. Uh so
+- [50:20] basically we are quite um careful with
+- [50:24] what we push into into the stable
+- [50:26] version of hstack and we make sure that
+- [50:28] everything is working all the time. We
+- [50:30] run our test even on our tutorials. So
+- [50:32] that might be like also one of the
+- [50:34] biggest differences.
+- [50:38] >> Okay.
+- [50:40] Um I think uh we do have more questions
+- [50:44] and as you uh you know as you pointed
+- [50:46] out there is uh discord server
+- [50:50] um and other resources uh reach out.
+- [50:54] >> Yeah, please go ahead and ask like ask
+- [50:56] those questions there. I'm going to be
+- [50:58] like there for another uh hour. So yeah,
+- [51:01] I would like to have a have a chat with
+- [51:03] everybody here there. And do you have
+- [51:06] the I don't know if the link to the
+- [51:07] discord servers were was posted here but
+- [51:10] maybe you can go ahead and
+- [51:11] >> so if if you go to hstack.deet.ai
+- [51:15] here you'll find this join discord link.
+- [51:17] Um I think that's quite easy but I can
+- [51:20] also like copy the here and maybe paste
+- [51:25] it in the chat.
+- [51:27] >> Yeah that would be actually very
+- [51:28] helpful.
+- [51:30] Yeah, let me try to find it. And yeah.
+- [51:36] All right.
+- [51:37] >> Okay.
+- [51:39] So, I think this should be it. Thank you
+- [51:42] so much.
+- [51:44] >> Thank you. Thank you for having me. Uh,
+- [51:46] have a great rest of your day, night,
+- [51:48] evening.

@@ -1,0 +1,649 @@
+---
+title: "Hello all, my name is Krishna Nayak and welcome to my YouTube channel."
+video_id: "Chl-cRcwVpA"
+video_url: "https://www.youtube.com/watch?v=Chl-cRcwVpA"
+speaker: "Krishna"
+channel: "YouTube"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  Hello all, my name is Krishna Nayak and welcome to my YouTube channel
+  So guys, we're going to continue our advanced agentic rag series
+  In this specific video, we will go ahead and understand what exactly is agentic rag is all about, how it is different from traditional rag
+key_points:
+  - "component is rag which is nothing but retrieval augmented generation and the second component is nothing but autonomous agent"
+  - "in every companies when you really want to develop some amazing rag with specific autonomous agents"
+  - "based on different different use cases"
+  - "thing of an agentic rag"
+  - "where an autonomous agent makes intelligent intelligent dynamic decisions"
+  - "to understand this definition is the core behind agentic rag and and its types"
+  - "work that you will be able to see is of this autonomous agent"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:06:18+09:00"
+---
+
+# Transcript: Chl-cRcwVpA
+
+- URL: https://www.youtube.com/watch?v=Chl-cRcwVpA
+- Retrieved at: 2025-12-30T10:06:18+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna Nayak and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] we're going to continue our advanced
+- [00:06] agentic rag series. In this specific
+- [00:08] video, we will go ahead and understand
+- [00:10] what exactly is agentic rag is all
+- [00:12] about, how it is different from
+- [00:14] traditional rag. Along with that, we'll
+- [00:16] also go ahead and do the implementation
+- [00:18] with Python and langraph and lang. So
+- [00:21] we'll be going ahead and implementing
+- [00:23] all these things as we go ahead. Please
+- [00:25] make sure that whatever videos that I'm
+- [00:27] trying to upload right now, it is super
+- [00:30] important in every companies when you
+- [00:32] really want to develop some amazing rag
+- [00:35] with specific autonomous agents. This
+- [00:38] all series of videos will be important
+- [00:41] based on different different use cases.
+- [00:44] You may have to require different types
+- [00:46] of rack. So my suggestion would be that
+- [00:48] please go ahead and implement along with
+- [00:50] me. Right? So let's go ahead. But before
+- [00:53] I go ahead, I really want to quickly
+- [00:54] announce an important announcement.
+- [00:56] Since right now we have an amazing
+- [00:59] festive season of Diwali, all the live
+- [01:01] class, all the live courses in Krishnak
+- [01:04] Academy is available with 20% off. You
+- [01:07] just need to go ahead and use code AI20.
+- [01:09] So if you see we have lot of live
+- [01:11] classes which is currently going on from
+- [01:13] AI for leaders and professionals LLM ops
+- [01:15] ultimate data science and genai ultimate
+- [01:18] rag boot camp then we have building
+- [01:20] agentic AI engine course 2.0 0 this
+- [01:24] ultimate track boot camp is also
+- [01:25] starting like it is a new course and it
+- [01:27] is going to start on November 2nd. So if
+- [01:30] anybody is basically interested to
+- [01:31] probably go ahead and join where our
+- [01:33] team will be taking care of all the live
+- [01:35] sessions and giving you an amazing
+- [01:37] experience. You can go ahead and check
+- [01:38] it out. All the information will be
+- [01:39] given in the description of this
+- [01:40] particular video. Now quickly let us go
+- [01:43] ahead and understand about agentic rag
+- [01:46] and how it is completely different from
+- [01:48] a traditional rag. Already in our series
+- [01:51] of videos we have already learned about
+- [01:53] traditional rag. I've also uploaded an
+- [01:55] amazing crash course on traditional rag
+- [01:57] and I've shown to shown you all
+- [02:00] everything that you really need to uh
+- [02:02] understand it over there. Right now
+- [02:03] let's go ahead and understand with
+- [02:05] respect to agentic rag there are two
+- [02:08] main important components. Okay. The
+- [02:10] first component is rag which is nothing
+- [02:12] but retrieval augmented generation and
+- [02:15] the second component is nothing but
+- [02:16] autonomous agent. Right now this two
+- [02:20] components is the most core important
+- [02:22] thing of an agentic rag. So if you
+- [02:24] really want to go ahead and define
+- [02:26] agentic rag, it is an advanced AI system
+- [02:28] architecture where an autonomous agents
+- [02:31] now this is really important where an
+- [02:33] autonomous agent makes
+- [02:36] intelligent
+- [02:39] intelligent
+- [02:41] dynamic
+- [02:43] decisions.
+- [02:47] decisions
+- [02:49] about
+- [02:50] the
+- [02:52] retrieval
+- [02:55] and generation. Now this is really
+- [02:58] important to understand this definition
+- [03:01] is the core behind agentic rag and and
+- [03:04] its types. Right? So here I've written
+- [03:06] the main work that you will be able to
+- [03:09] see is of this autonomous agent. So one
+- [03:12] core component will be autonomous agent
+- [03:14] which we regularly create in agentic rag
+- [03:16] in the form of a workflow and the other
+- [03:18] component is simply rag right whenever
+- [03:20] we talk about rag this can be anything
+- [03:24] it can be an external API it can be an
+- [03:27] external tool it can be a tool it can be
+- [03:30] a vector DB right it can be any kind of
+- [03:33] databases right it can be anything as
+- [03:36] such
+- [03:37] so this is nothing but it is an external
+- [03:40] data source so Here whenever we talk
+- [03:42] about rag we basically talking about
+- [03:45] external data source right
+- [03:49] and here the autonomous agent will
+- [03:51] basically take all the decision right um
+- [03:54] about the retrieval so from where we
+- [03:56] should probably go ahead and take the
+- [03:58] context right and where how should we
+- [04:00] give the context to the LLMs right so in
+- [04:03] short if I probably consider with a
+- [04:05] traditional rag in a traditional rag
+- [04:06] what do you have let's say that there's
+- [04:08] a human over here the human will
+- [04:10] basically ally give the query right so
+- [04:12] let's say this is my query over here now
+- [04:16] this query will what it will happen
+- [04:18] it'll just go ahead and uh you know
+- [04:20] let's say that there is some kind of
+- [04:21] vector databases or any kind of tool
+- [04:24] let's say this is my vector DB it'll go
+- [04:25] ahead and probably give this particular
+- [04:27] query and based on this query and based
+- [04:29] on the embedding techniques that we have
+- [04:30] applied in in return we will be getting
+- [04:33] some kind of context and this context
+- [04:35] along with the prompt is basically given
+- [04:38] to
+- [04:40] to the LLM right and LLM will finally
+- [04:43] generate the output. So this is what a
+- [04:46] traditional rag looks like right now how
+- [04:49] you are basically considering or what
+- [04:51] difference do you find from a
+- [04:53] traditional rag and an agentic rag it is
+- [04:55] very simple right so here traditional
+- [04:57] rack system it only allows a fixed
+- [04:59] retrieve and then generate pipeline so
+- [05:01] it is following this specific fixed
+- [05:03] pipeline right it has to go in this way
+- [05:05] there's a query it'll go ahead and go go
+- [05:07] ahead and probably get the context from
+- [05:09] the vector DB it is going to probably
+- [05:11] combine it with the prompt and give it
+- [05:12] to the lmm finally generate the output
+- [05:15] So this is how the pipeline will be
+- [05:16] going ahead. But in case of agentic rag
+- [05:19] we are using autonomous agents and this
+- [05:21] autonomous agent is responsible for
+- [05:22] intelligent and dynamic decision and
+- [05:24] things right it probably ba uh based on
+- [05:28] its reasoning capabilities right it will
+- [05:30] probably make a decision like which
+- [05:31] tools to call how to call how to get the
+- [05:33] retrieval and all right so here there
+- [05:36] are five more important points which I
+- [05:38] really want to talk about right what
+- [05:39] does autonomous agent do it basically
+- [05:41] knows when to retrieve info okay I'll
+- [05:45] just go ahead and write when to retrieve
+- [05:47] referral uh retrieve info what to
+- [05:49] retrieve
+- [05:53] what to retrieve. Third important thing
+- [05:55] is that where to
+- [06:01] retrieve
+- [06:02] and fourth is
+- [06:05] how many
+- [06:07] times to
+- [06:10] retrieve. Okay. So these are some of the
+- [06:13] important points right and this all
+- [06:15] decision is basically taken by what
+- [06:17] autonomous agents right. So that is why
+- [06:20] we say that agentic rag is very
+- [06:22] important and the future right now is
+- [06:24] all about developing this kind of
+- [06:25] autonomous agents right for different
+- [06:27] purpose. So these are the main two
+- [06:30] important things. Uh now I hope you got
+- [06:32] an idea about agentic rag how it is
+- [06:34] different from a traditional rag. Now
+- [06:36] the next step is that we are going to go
+- [06:37] ahead and implement this workflow
+- [06:39] wherein this basically defines an
+- [06:41] agentic rag workflow. Okay, agentic rag
+- [06:46] workflow.
+- [06:48] Now you may be thinking why you're
+- [06:50] saying this as an agentic rag. Now see
+- [06:52] this workflow. Okay, and this we are
+- [06:54] going to implement it with the help of
+- [06:56] langraph.
+- [06:58] Okay, because lang graph actually helps
+- [07:00] you to create an amazing workflow
+- [07:01] itself. So here whenever a user gives a
+- [07:05] query we will probably go ahead and go
+- [07:07] to the first node. This node will be
+- [07:09] acting like an agent. Okay, this will be
+- [07:11] my agent one and this agent will be
+- [07:14] deciding whether we need to go ahead and
+- [07:16] request the context from the retriever
+- [07:18] or directly we should generate it. Here
+- [07:20] the generation is definitely taken from
+- [07:22] an LLM. Here the retriever will be an
+- [07:24] external vector DB. It can be a vector
+- [07:26] store. In our case we will try to uh
+- [07:29] create a vector store. So it will
+- [07:30] probably make this particular decision
+- [07:32] whether we need to go over here whether
+- [07:33] it need to needs to go over here. Okay.
+- [07:35] And this is what an autonomous agent is
+- [07:37] basically doing over here right and
+- [07:39] based on this it will go ahead and
+- [07:40] assign that specific task and finally
+- [07:42] we'll be able to generate it. Amazing
+- [07:44] example al together. So quickly let's go
+- [07:47] ahead and implement this. So um I will
+- [07:51] basically continue uh the same no uh
+- [07:54] projects that we have actually done for
+- [07:55] the traditional rag. We had all the
+- [07:57] notebooks. We have also implemented
+- [07:59] about modular coding. So you can just go
+- [08:01] ahead and explore all those things. Uh
+- [08:03] this is what my agentic rag basically
+- [08:05] looks like. Here I've created some
+- [08:06] sections. We will go ahead and start
+- [08:08] working on this. Now the first thing uh
+- [08:11] that you actually require is that since
+- [08:12] we are going to use langraph. So for
+- [08:15] langraph what we really need to do is
+- [08:16] that we need to go ahead and install
+- [08:18] some of the libraries right like
+- [08:19] langraph and all lang. So here what I'll
+- [08:22] do so in the my requirement.txt txt I've
+- [08:24] added couple of libraries called as
+- [08:26] langun openai and lang graph lang openai
+- [08:29] the reason is very simple I want to use
+- [08:31] openai API keys over here because
+- [08:33] whenever you try to create an agent the
+- [08:36] decision that the agent actually takes
+- [08:38] uh it is directly proportional to the
+- [08:41] better LLM models that we use and right
+- [08:43] now openai has a very good LLM models if
+- [08:46] we specifically want to create this kind
+- [08:47] of applications to be true right so all
+- [08:50] those things we will be discussing over
+- [08:52] here Um that's the best part you know.
+- [08:55] So here once you go ahead and update
+- [08:57] this requirement.txt all you have to do
+- [08:59] is that just go ahead and write uv add
+- [09:01] minus r requirement.txt.
+- [09:04] You can see that I have already
+- [09:05] installed all the packages. Okay. Now if
+- [09:08] I go to the agentic rag ipynb file. So
+- [09:11] first of all uh this is just a you know
+- [09:14] title over here. Now the first thing
+- [09:16] that I'm actually going to do I'll
+- [09:18] create a code cell here also I'll create
+- [09:20] some of the code cell. Now first thing
+- [09:22] that I require is some of the
+- [09:23] installation of important libraries. Uh
+- [09:25] so here I'm going to use see uh I've
+- [09:27] already created a dedicated playlist on
+- [09:29] lang graph. I think you should be having
+- [09:31] some prerequisite knowledge of lang
+- [09:32] graph so that we take up this series in
+- [09:35] a serious way. Um so first of all you
+- [09:37] can see that I have imported type list
+- [09:40] then I have state graph then I'm using
+- [09:42] chat openai openai embeddings. I'm using
+- [09:44] this vector store called as fires. Then
+- [09:46] I have recursive character text
+- [09:47] splitter. And finally I have a document.
+- [09:50] Right? So recursive character text
+- [09:52] splitter is specifically used for
+- [09:54] splitting text. Uh so if I don't know
+- [09:57] whether I want to use this or not but
+- [09:58] definitely let's see in the later stages
+- [10:00] whenever I see this I will try to use
+- [10:02] it. Right? Then here you have text
+- [10:04] splitter. Then you have lang
+- [10:06] community.vector stores chat openai open
+- [10:09] ai embeddings we are going to use.
+- [10:11] Right? So once this is done then the
+- [10:13] next step will be that we will be
+- [10:14] loading our environment variables. And
+- [10:16] as I said, I'm going to go ahead and use
+- [10:17] my open AI API key. My open AI API key
+- [10:20] is updated in the ENB file. You should
+- [10:22] also go ahead and update it, right? So
+- [10:24] here uh we can quickly go ahead and do
+- [10:27] this, right? Where we are importing all
+- [10:30] the libraries. Then finally, I will also
+- [10:33] go ahead and load my environment
+- [10:35] variables open AI API key. So I'll write
+- [10:37] os.environment. And uh here instead of
+- [10:40] writing os.environment, I'll say get env
+- [10:44] get env. And here I'm going to go ahead
+- [10:46] and give my open AI API key. Okay,
+- [10:51] perfect. So here uh you can see that I'm
+- [10:53] using uh GPD 3.5. Instead of using this,
+- [10:56] I can use 4.1. That is good. So here I
+- [10:59] have I have my LLM. So you can go ahead
+- [11:01] and check out what is my LLM. So here
+- [11:03] you can see that I'm used this
+- [11:04] particular LLM model, right? GPT 4.1
+- [11:07] that is the model name that I'm actually
+- [11:09] going to use. Now the next thing is that
+- [11:11] we will go ahead and define our state
+- [11:12] definition. Remember whenever we define
+- [11:14] any kind of workflows we need to define
+- [11:17] this particular state definition right
+- [11:19] now here uh the important state
+- [11:20] definition can be since we are giving a
+- [11:23] query so question can be one variable
+- [11:25] that we need to use then uh you'll be
+- [11:28] able to see that here we are deciding
+- [11:29] something right so deciding whether to
+- [11:31] go to the retriever or generate so here
+- [11:33] we can create a boolean variable so that
+- [11:35] we can say that hey if it is probably
+- [11:37] taking a retriever make that that true
+- [11:39] otherwise make it as false right so that
+- [11:41] is the second variable that I really
+- [11:43] want to use and if it goes to the
+- [11:45] retriever it is going to take out some
+- [11:47] of the context information so that I
+- [11:49] really want to keep in the form of
+- [11:50] documents okay and uh finally the
+- [11:52] whatever the output generation is
+- [11:54] basically happening we'll also store
+- [11:55] that in some variable so here uh inside
+- [11:58] my state definition I will define a
+- [12:00] class called as agent state it is
+- [12:03] inheriting type dictionary and here
+- [12:05] you'll be able to see that I'll be using
+- [12:07] question is equal to str
+- [12:10] okay okay and uh here you'll be able to
+- [12:12] See I'm using documents list of
+- [12:14] documents. Then answer is equal to str
+- [12:16] and needs retriever as boolean variable.
+- [12:18] So I have defined all the specific
+- [12:20] variables over here. Okay. Now uh once
+- [12:23] this is done let's also create a sample
+- [12:25] documents. Now I have to go ahead and
+- [12:28] create some kind of sample documents
+- [12:32] and vector store. Right? I'll also go
+- [12:35] ahead and create this. Okay. See
+- [12:38] creating a documents is very simple. uh
+- [12:40] you can read it from the PDF file and
+- [12:42] all. Uh but what I am actually going to
+- [12:44] do is that I I'll just take some sample
+- [12:46] text that is generated. So here you can
+- [12:48] see that I've taken four different text
+- [12:50] langraph rag vector database agentic AI
+- [12:54] system. So I've taken some four
+- [12:56] different sentence and then I will
+- [12:58] convert this into a documents. So
+- [13:00] document is really important. All right.
+- [13:03] Now with respect to document I will go
+- [13:05] ahead and use my document over here.
+- [13:08] Okay. And with respect to document I
+- [13:10] will say hey let's go ahead and use this
+- [13:12] page content and then this will be text
+- [13:15] okay and here I can go ahead and iterate
+- [13:18] it for text in sample
+- [13:24] text right and then finally let's go
+- [13:26] ahead and create a vector store right so
+- [13:32] for creating a vector store it is very
+- [13:33] simple we will go ahead and use this
+- [13:36] okay files from this documents and here
+- [13:38] you See I will just go ahead and name
+- [13:40] this as documents and here as retriever
+- [13:42] I'll make it as three. See this is what
+- [13:44] is my vector store by using fires which
+- [13:47] we have already discussed. Retriever
+- [13:49] we're converting this into a retriever
+- [13:51] and done that's a good one right now I
+- [13:55] will delete all the cells because it is
+- [13:56] not required. Okay now I have my
+- [13:59] retriever I have my state definition.
+- [14:02] Now it's time that we start defining
+- [14:03] agentic functions. Now what exactly is
+- [14:05] agentic function? Now see over here what
+- [14:08] is the main functionality of the agents
+- [14:10] right this node may have a different
+- [14:12] definition this node may have a
+- [14:13] different definition this node may have
+- [14:16] a different definition right so we need
+- [14:18] to go ahead and define all those
+- [14:19] definition so first of all the first is
+- [14:22] deciding right whether we need to go to
+- [14:24] the retrieval or generate right so for
+- [14:28] that I will create a function now here
+- [14:30] I'm not going to use any kind of llm
+- [14:32] we'll use simple plain python code so
+- [14:34] here you can see I have defined a
+- [14:35] function called as decide retrieval. The
+- [14:38] state is given as agent state and over
+- [14:39] here and we are deciding if we need to
+- [14:41] retrieve the documents based on the
+- [14:43] question. So first of all we need to get
+- [14:44] the question. So obviously we will put
+- [14:46] the question in the state variable which
+- [14:48] is coming from the agent state initially
+- [14:50] right and then I will get this
+- [14:52] particular question and now here I can
+- [14:54] replace this code with my LLM also I can
+- [14:56] give a prompt the LLM should decide
+- [14:58] whether we need to go to the retrieval
+- [15:00] or directly we should generate by the
+- [15:01] LLM. But here what I'm doing is that I
+- [15:03] I'll show you with very basic conditions
+- [15:06] how I'm writing this particular
+- [15:07] function. So here I use retrieval
+- [15:09] keywords and whenever my question
+- [15:12] contains this words right like what how
+- [15:14] explain describe tell me at that point
+- [15:16] of time I'll make this boolean variable
+- [15:19] as true needs retrieval that basically
+- [15:21] if this this exists in my question then
+- [15:24] definitely we need to go ahead with the
+- [15:25] retriever right so this needs retrieval
+- [15:28] will be basically set to true right so
+- [15:30] that is what we are basically checking
+- [15:31] over here and we are returning state
+- [15:33] with this needs retrieval whatever needs
+- [15:35] retrieval value is which is a boolean
+- [15:37] one Right. So this is my first function.
+- [15:39] So here I will just go ahead and execute
+- [15:41] it. The second function you know it is
+- [15:43] retrieve documents. Right? Now you know
+- [15:45] how to retrieve the documents. It is
+- [15:47] basically from files or retriever.
+- [15:49] Right? So here I have defined a retrieve
+- [15:51] documents. State is equal to agent
+- [15:52] state. Agent state over here. Then
+- [15:54] question is equal to state of question.
+- [15:56] Documents is equal to retriever.voke of
+- [15:58] question. So we are now invoking from
+- [16:00] this to get the context. So once we have
+- [16:02] whatever we get the context so it will
+- [16:04] be stored over here and we are returning
+- [16:06] this particular value wherein we are
+- [16:08] updating this documents variable which
+- [16:10] presents inside which is present inside
+- [16:12] my agent state right so here you'll be
+- [16:14] able to see that I will be saving this
+- [16:16] particular value also okay then let's
+- [16:19] finally go ahead and generate the answer
+- [16:22] that will be my third node definition
+- [16:24] now generating part is very simple here
+- [16:27] I'll take the question I'll take the
+- [16:29] documents if there is a document when we
+- [16:32] are taking the documents right if it
+- [16:34] nothing is present over here we'll keep
+- [16:35] it as empty so if documents are there
+- [16:38] what I will do I will I will create a
+- [16:40] prompt I'll say based on the following
+- [16:41] context answer the following question uh
+- [16:44] answer this each and every information
+- [16:47] uh over here so here you'll be able to
+- [16:49] uh uh see that I'm getting the questions
+- [16:52] I'm able to probably answer this and
+- [16:54] finally you can see that I'm invoking it
+- [16:56] with the help of prompt and response
+- [16:58] content if there is nothing in the
+- [17:00] documents directly it'll go ahead and
+- [17:02] set up this particular prompt and it
+- [17:03] will generate the answer and finally I
+- [17:05] will also be able to get the answer.
+- [17:06] There are two important condition guys.
+- [17:08] Very clear, very simple, very easy. If
+- [17:11] there is a document present, we will set
+- [17:13] up the context. We will set up the
+- [17:14] prompt and finally we will uh in the
+- [17:18] else condition you know if it does not
+- [17:20] present we'll set just set up a prompt
+- [17:22] and we'll say llm to invoke it and we'll
+- [17:24] get the content content and that content
+- [17:26] is nothing but your answer. So three
+- [17:28] important function I have actually
+- [17:29] defined it. Okay. Now comes like how
+- [17:32] should we generate the conditional
+- [17:33] logic. Now see why is conditional logic
+- [17:36] required. See after this particular node
+- [17:38] there are two arrows either this or this
+- [17:40] right I know decide function is what it
+- [17:43] is basically setting up that needs
+- [17:44] retriever is equal to true or false but
+- [17:46] it also needs to make sure to traverse
+- [17:49] either should go to the retrieve or
+- [17:50] generate. So now what we'll do we'll put
+- [17:53] this as conditional logic. Whenever we
+- [17:54] say conditional logic uh when does that
+- [17:57] basically happen? whenever there is a
+- [17:59] two path from a simple node. Okay, so
+- [18:02] here there is a two path. So I will go
+- [18:03] ahead and define my conditional u and
+- [18:06] this function I will define it as should
+- [18:08] retrieve. Now here I'm just saying if
+- [18:10] state of needs retrieval then go to
+- [18:13] retrieve node otherwise go to generate
+- [18:14] node. Okay, very simple and I'll go
+- [18:17] ahead and execute this. Now finally we
+- [18:19] will go ahead and build the graph. Now
+- [18:21] building the graph is very simple. Okay.
+- [18:23] And uh first of all I need to go ahead
+- [18:26] and write how many nodes we have. So I
+- [18:28] have decide node, retrieve node and
+- [18:30] generate node. Okay. For so for decide
+- [18:33] you will be able to see that I have
+- [18:35] something called as retrieve documents
+- [18:37] over here. Then I have generate answer.
+- [18:40] This all function has been defined. Now
+- [18:42] how the nodes are basically connected.
+- [18:44] So for this first of all I will go ahead
+- [18:46] and set an entry point. Okay. Now entry
+- [18:48] point basically means from start to
+- [18:50] decide. See over here the first path is
+- [18:52] start to decide. Then from decide you
+- [18:55] have either retrieve or generate. Okay.
+- [18:57] So here whenever we say retrieve or
+- [18:58] generate here we'll add a conditional
+- [19:00] logic. Okay. Now for adding a
+- [19:03] conditional logic it is very simple. We
+- [19:05] will set up the next thing conditional
+- [19:08] logic. Here I'm writing workflow. Add
+- [19:10] conditional ages decide. Okay. From
+- [19:12] decide node we will call this function
+- [19:14] should retrieve. Now what is shoot
+- [19:15] retrieve doing? It'll check whether the
+- [19:17] needs retrieval is there. It'll return
+- [19:19] retrieve. Otherwise it will generate.
+- [19:20] Okay. So here we are returning retrieve
+- [19:23] or generate for this retrieve which node
+- [19:26] to probably connect it. So from retrieve
+- [19:28] we have to connect to this particular
+- [19:29] node which will indirectly call this
+- [19:31] particular function. And from generate
+- [19:33] we are going to call this particular
+- [19:34] node and the mapping will be for
+- [19:35] generate answer. Right? So that is what
+- [19:38] is my conditional edges. Now after the
+- [19:40] conditional edges one more very
+- [19:41] important thing is that from retrieve I
+- [19:43] need to go to generate and then end.
+- [19:44] From decide it is going to generate only
+- [19:47] and then from generate to end. Okay. So
+- [19:49] that path also we need to go ahead and
+- [19:51] add it up. So here I'm going to go ahead
+- [19:53] and add the edges.
+- [19:56] Here you can see retrieve to generate,
+- [19:58] generate to end. And finally I'm
+- [20:00] compiling the graph. Okay. And now let's
+- [20:03] see the graph whether it is coming or
+- [20:05] not. See start decide conditional logic
+- [20:07] is there. Retrieve generate. And finally
+- [20:09] you'll be able to see that it is in the
+- [20:11] end. Now finally we should be able to go
+- [20:14] ahead and run this particular workflow
+- [20:16] and test it out. Okay. So let's test the
+- [20:19] agentic system. Now I hope you have
+- [20:21] understood it what exactly we are doing.
+- [20:23] So for testing it here I'm going to go
+- [20:25] ahead and define a definition. Ask
+- [20:28] question right. So here we'll give the
+- [20:29] question. This question will be set up
+- [20:31] in the initial state on this particular
+- [20:33] variable. Question is equal to question
+- [20:34] and documents answer need retrieval is
+- [20:36] false. Then we are going to invoke by
+- [20:39] this particular app which is my
+- [20:40] workflow. Right? And it's just going to
+- [20:43] go through this and generate me an
+- [20:45] output. Right? Return result. So now
+- [20:47] let's quickly go ahead and do this. And
+- [20:49] now let's test a question. What is
+- [20:52] langraph? I know it is basically
+- [20:54] available in the retriever. And I'll
+- [20:56] just go ahead and print this. So result
+- [20:58] one should be giving me question,
+- [21:00] answer, documents, all the things. So
+- [21:03] question is over here. What is langraph?
+- [21:05] Now documents is over here. You can see
+- [21:07] that I'm getting all this from the
+- [21:08] retriever. And this is my answer. Lang
+- [21:11] graph is a library and needs retriever
+- [21:13] is true. That basically means obviously
+- [21:15] it is hitting the retriever right now
+- [21:17] for this if I really want to display it
+- [21:19] in a much more better way I will try to
+- [21:21] show you to uh one with one more
+- [21:23] question. So let's test with another
+- [21:25] one. How does rag work? I'm using this
+- [21:27] answer question and then we are seeing
+- [21:29] question how many retrieved documents
+- [21:31] are there? What is the result? Each and
+- [21:32] every information
+- [21:34] and here you can clearly see it'll just
+- [21:38] take some time for displaying things.
+- [21:41] Okay. uh let's wait and should be able
+- [21:44] to display my the answer. I think uh my
+- [21:48] open AI API key is okay it works. So how
+- [21:51] does rag work? So here you can see that
+- [21:53] I'm getting all the four documents and
+- [21:55] finally I'm able to generate the output
+- [21:58] right see all these answers retrieve
+- [22:01] documents are four and all the values
+- [22:02] are there. So I hope uh we are really
+- [22:06] good to get started with agentic rag
+- [22:08] right now. You just go ahead and create
+- [22:10] your own workflow where you have some
+- [22:12] kind of deciding agent which will be
+- [22:14] acting as an autonomous agent out there
+- [22:16] and making the specific decisions.
+- [22:18] Right? So we will keep a like target of
+- [22:20] thousand guys. Uh it takes a lot of
+- [22:22] effort to make all these particular
+- [22:23] videos. I definitely want your support.
+- [22:25] Uh yeah this was it from my side. I'll
+- [22:27] see you in the next video. Thank you.
+- [22:28] Take care. Have a great day. Bye-bye.

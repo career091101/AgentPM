@@ -1,0 +1,791 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=u5Vcrwpzoz8"
+video_id: "u5Vcrwpzoz8"
+video_url: "https://www.youtube.com/watch?v=u5Vcrwpzoz8"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=u5Vcrwpzoz8
+  - Retrieved at: 2025-12-30T16:33:43+09:00
+  - [00:03] if you ask me what is one use case that
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=u5Vcrwpzoz8"
+  - "- Retrieved at: 2025-12-30T16:33:43+09:00"
+  - "- [00:03] if you ask me what is one use case that"
+  - "- [00:05] clearly AI can provide value it's going"
+  - "- [00:07] to be the Knowledge Management no matter"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: u5Vcrwpzoz8
+
+- URL: https://www.youtube.com/watch?v=u5Vcrwpzoz8
+- Retrieved at: 2025-12-30T16:33:43+09:00
+
+## Text
+
+- [00:03] if you ask me what is one use case that
+- [00:05] clearly AI can provide value it's going
+- [00:07] to be the Knowledge Management no matter
+- [00:09] which organization you work in there are
+- [00:11] huge amount of weeky documentation and
+- [00:13] meeting notes that is everywhere and
+- [00:15] organized no better than a library like
+- [00:17] this it will take forever for any human
+- [00:19] being to read and digest all those
+- [00:21] information and be on top of everything
+- [00:23] but with the power of large language
+- [00:24] model this problem finally is having a
+- [00:27] solution because we can just get
+- [00:28] language model to read all sorts of
+- [00:30] different data and retrieve answer for
+- [00:32] us this why end of last year there was
+- [00:34] big discussion about where search engine
+- [00:36] like Google going to be disrupted by lar
+- [00:38] langage model cuz when you have lar
+- [00:39] langage model that has a word knowledge
+- [00:41] and can provide hyper personalized
+- [00:42] answer to you why do you still want to
+- [00:44] do the Google search and we already
+- [00:45] start seeing that happen there huge
+- [00:47] amount of people now go to platform like
+- [00:48] chat gbt or plexity to answer some of
+- [00:51] their day-to-day questions and there
+- [00:53] also platform like link focusing on
+- [00:54] Knowledge Management for corporate data
+- [00:56] and as many of you already tried it is
+- [00:58] actually very easy to spin up a AI chat
+- [01:01] bot that can chat with your PDF
+- [01:02] PowerPoint or spreadsheets but if you
+- [01:04] ever try to build something like that
+- [01:06] yourself you will quickly realize even
+- [01:08] though a lot of people thinks the AI is
+- [01:09] going to take over the world the reality
+- [01:11] is somewhat different many of time the
+- [01:13] AI chat B build probably even strugg to
+- [01:15] answer most basic questions so here's a
+- [01:17] huge gap between what does the world
+- [01:19] think AI is capable of today versus what
+- [01:21] is actually capable and for the past few
+- [01:23] months I've been trying to build
+- [01:24] different sorts of AI bar for different
+- [01:25] business use cases to figure out what is
+- [01:27] working what is not so today I want to
+- [01:29] share some of learning with you how can
+- [01:30] you build a rock application that is
+- [01:32] actually reliable and accurate so for
+- [01:34] ones who don't know there are two common
+- [01:35] ways that you can give large language
+- [01:37] model your private knowledge one method
+- [01:39] is fine-tuning or training your own
+- [01:40] model it basically Bak knowledge into
+- [01:42] the model weights itself and so this
+- [01:44] method can give large Lage model precise
+- [01:46] knowledge with fast inference because
+- [01:48] all knowledge already baked into the
+- [01:50] weights but downside is that it is not a
+- [01:52] common knowledge about how to find tune
+- [01:54] in model effectively because there are
+- [01:55] so many different PRS and you also need
+- [01:57] to prepare the training data properly
+- [01:59] that's why the other method is a lot
+- [02:00] more common and widely used which is you
+- [02:03] don't really change the model but put
+- [02:04] knowledge into the part of prompt some
+- [02:06] people call it in context learning but
+- [02:08] you might also just refer it as rack
+- [02:10] which represent for retrieval augmented
+- [02:12] generation it basically means instead of
+- [02:14] getting the large Lage model answer
+- [02:16] users question directly we'll try to
+- [02:18] retrieve Reven knowledge and documents
+- [02:20] from our private database and insert
+- [02:22] those knowledge as part of prom so that
+- [02:24] large L model can have additional
+- [02:25] context and if we want to dive into a
+- [02:27] bit more details to set up a proper R
+- [02:30] pipeline it normally start from data
+- [02:31] preparation where you extract
+- [02:33] information from real data source
+- [02:35] convert them into a vector database
+- [02:37] which is special type of database that
+- [02:38] can understand the sematic relationship
+- [02:40] between different data points so that
+- [02:42] when a user have a new question it will
+- [02:44] retrieve relevant information and send
+- [02:46] to larg Range model and if you want to
+- [02:47] learn how does Vector database and
+- [02:49] embedding Works in depth I actually made
+- [02:51] another video a couple months ago that
+- [02:53] is specifically talking about that so
+- [02:54] you can check out if you want to learn
+- [02:55] more the challenge of rag is that even
+- [02:57] though it is really simple and easy to
+- [02:59] start and build a pro concept building a
+- [03:01] production ready rack application for
+- [03:03] business is actually really complex
+- [03:05] because there are many challenges and
+- [03:06] problems with just simple rag
+- [03:08] implementation firstly the real world
+- [03:10] data is really messy many of them are
+- [03:12] not just simple text paragraph it can be
+- [03:15] combination of different image diagram
+- [03:17] charts and table format so if you just
+- [03:19] use normal data passer or data loader of
+- [03:22] this PDF file quite often it will just
+- [03:24] extract incomplete or messy data that
+- [03:27] large Lage model cannot easily process
+- [03:29] so many of the rack use case failed at
+- [03:31] the very beginning since it couldn't
+- [03:32] extract knowledge properly on the other
+- [03:34] side even though you create database
+- [03:35] from the company knowledge to Accurate
+- [03:38] retrieve relevant information based on
+- [03:40] question is also really complicated
+- [03:41] because different type of data and
+- [03:43] documentation normally involve different
+- [03:45] retrieve methods for example if your
+- [03:46] data is actually spreadsheets or SQL
+- [03:48] database Vector search might not be the
+- [03:50] best answer while keyword search or SQL
+- [03:52] search will yield better and more
+- [03:54] accurate for you for some of the complex
+- [03:56] questions it might involve knowledge
+- [03:58] across unstructured data like par
+- [03:59] paragraph text as well as structured
+- [04:01] data like table content and on the other
+- [04:03] hand sometimes you might just return a
+- [04:05] sentence within a paragraph that is most
+- [04:07] relevant to the question people are
+- [04:09] asking but adjacent content could be
+- [04:11] critical for answering the question
+- [04:13] properly and also some of the question
+- [04:14] people ask might seem simple but
+- [04:16] actually quite complicated in the rack
+- [04:18] context so if someone ask how is the
+- [04:20] sales training from 2022 to 2024 to
+- [04:23] answer this question properly CH model
+- [04:25] need to have contest from multiple
+- [04:27] different data source it might even need
+- [04:28] to do some pre calculation to answer
+- [04:30] this question popular so in short a lot
+- [04:32] of Real World Knowledge Management use
+- [04:34] case cannot be easily achieved with a
+- [04:36] simple KN rack but good news is there
+- [04:38] are many different tactics that you can
+- [04:39] use to mitigate those risks Jerry from
+- [04:42] llama index actually made a really good
+- [04:44] chart and summary about all the
+- [04:45] different Advanced rack tactics from
+- [04:47] some of table State methodes like better
+- [04:49] procor chunk size to some of really
+- [04:52] Advanced a gentic behavior today I want
+- [04:54] to pick up a few that I found works
+- [04:55] really well but before I dive into it I
+- [04:57] know many of you are either Founders or
+- [04:59] part of AI startup teams I'm always
+- [05:01] curious how does AI native startups
+- [05:03] operate and how do they embed AI into
+- [05:05] every part of business and H spot did
+- [05:07] they research recently where survey more
+- [05:09] than 1,000 top startups with heavily
+- [05:12] adopting AI to scale their go-to Market
+- [05:14] process and figure out what worked what
+- [05:16] didn't and what's the best practice for
+- [05:18] example they dive into how does AI in
+- [05:20] starup sales actually works what type of
+- [05:22] use case deliver the most impact on goto
+- [05:25] Market strategy across thousands of
+- [05:27] startups from how companies use AI to
+- [05:29] customer targeting and segmentation to
+- [05:31] developing intelligent pricing model and
+- [05:34] even looks into how logistic and supply
+- [05:36] chain startups utilizing AI to predict
+- [05:38] problems before it actually happens to
+- [05:40] significantly improve productivity and
+- [05:42] as a AI Builder I also found really
+- [05:44] interesting in what kind of AI tools
+- [05:45] goto Market teams currently are using
+- [05:47] this give me pretty good insights of the
+- [05:49] current goto Market AI Tax St to if you
+- [05:51] want to learn how AI native stups should
+- [05:54] operate and scale goto Market I
+- [05:56] definitely recommend go check out this
+- [05:57] free research doc you can click the link
+- [05:59] below to download this report for free
+- [06:01] now back to how can we create a reliable
+- [06:03] and accurate rack firstly better data
+- [06:05] password this is probably one of the
+- [06:06] most important but also the easiest one
+- [06:09] to improve the quality immediately so
+- [06:11] challenge as we mentioned before that
+- [06:12] the real world data is really messy if
+- [06:14] you're just dealing with website data a
+- [06:16] little better but once you get into
+- [06:17] format like PDF or PowerPoint the data
+- [06:20] start became really really messy and
+- [06:22] difficult for lar model to interpret
+- [06:24] because there image charts diagrams and
+- [06:26] all sorts of different things and even
+- [06:27] though there's huge amount of different
+- [06:29] data pass on platform like llama Hub or
+- [06:31] lanching already many of them if you try
+- [06:34] is not that great for example if you're
+- [06:35] using pypdf which is one of the most
+- [06:38] popular and common PDF passer when you
+- [06:40] try to read Apple's financial report it
+- [06:42] can often extract numbers and data
+- [06:44] incorrectly and most of the time data
+- [06:45] extracted is in a quite a massive format
+- [06:47] that hard to understand the relationship
+- [06:49] between different numbers and with a
+- [06:51] round number to starways of course your
+- [06:52] AI app is going to fail to answer the
+- [06:54] question accurately but luckily for the
+- [06:56] past few weeks there are a few really
+- [06:58] awesome new poer that large langage
+- [07:00] model native can help you prepare data a
+- [07:02] lot more effective one is the Llama part
+- [07:04] so this a passor that implemented by
+- [07:06] llama index which is team that probably
+- [07:07] has the most knowledge in the world
+- [07:09] about RX so they introduced Lama Parts a
+- [07:12] few weeks ago which is parts that
+- [07:13] specific on converting PDF file into a
+- [07:16] large Lang model friendly markdown
+- [07:17] format it has a lot of higher accuracy
+- [07:19] in terms of extracting table data
+- [07:21] compared with other type of par we
+- [07:23] normally use and it is a really smart
+- [07:25] passor where you can actually pass on
+- [07:26] prompts to tell the passor what the
+- [07:28] document type is and how do you expand
+- [07:30] them to extract information so you can
+- [07:32] even pass on a comic book PDF and
+- [07:34] provide some information that this
+- [07:36] document is a comic book most page do
+- [07:37] not have title it try to reconstruct the
+- [07:39] dialogue happening in a cohesive way
+- [07:42] result you can see here it focus on
+- [07:43] extracting only the dialogue and Main
+- [07:46] content and on the other hand you can
+- [07:47] even use that to extract Mass formulas
+- [07:49] accurately by giving a special prompt
+- [07:51] like output any Mass equation in latex
+- [07:53] markdown format then it can extract
+- [07:55] formul in markdown format that can be
+- [07:57] rendered as formul Pop so this llama
+- [07:59] password extremely powerful and totally
+- [08:01] change the game for rack on your local
+- [08:03] files it is already live on llama Cloud
+- [08:05] so you can use it for free I definitely
+- [08:07] recommend check out llama Parts if you
+- [08:08] need to handle a big amount of complex
+- [08:10] local documents but part from those
+- [08:12] documents like PDF file we also need to
+- [08:14] deal with a huge amount of website data
+- [08:16] that's where I want to introduce the
+- [08:17] second parer called fire craw so fire
+- [08:20] craw is introduced by MBO where they
+- [08:22] provide scer that folks turning website
+- [08:24] data into clear markdown format that
+- [08:26] large langage model can very well for
+- [08:27] example if I have this URL from for news
+- [08:30] where they have an article about AI
+- [08:31] agents if I paste this into fire CW it
+- [08:34] turn this website into clean markdown
+- [08:36] format for me with title and image as
+- [08:38] well and everything is clean public
+- [08:40] structur so this will reduce the amount
+- [08:42] of noise that the large L model actually
+- [08:43] receive a lot and also get all the metad
+- [08:46] data ready as well so if you want to do
+- [08:47] some additional filtering you can also
+- [08:49] do that and they allow to script single
+- [08:51] URL cross the whole domain or even
+- [08:53] search across web and the best part is
+- [08:55] because now I'm using llama parts for
+- [08:57] the local file and the file C for the
+- [08:59] website that data most of the data I
+- [09:00] need to handle is UniFi into markdown
+- [09:02] format so I just need to optimize my
+- [09:04] rack pipeline for the markdown format so
+- [09:07] this is the first part of better script
+- [09:08] the next one is chunk size so assuming
+- [09:10] you extract all the information from the
+- [09:12] website of local file populate to create
+- [09:14] a vector database we actually need to
+- [09:16] break down the whole documents into
+- [09:18] small chunks and toize each Chunk we can
+- [09:20] map all the chunks into a vector space
+- [09:22] where we can understand which two senten
+- [09:24] are more semantically similar to each
+- [09:26] other so that next time when user have a
+- [09:28] question we basically just toonize this
+- [09:30] question they got into the same Vector
+- [09:32] space as well and retrieve the most
+- [09:34] relevant chunks adding them as part of
+- [09:36] prompt so that lar Range model has a
+- [09:38] contact to answer question and one of
+- [09:39] the key factors that going to impact the
+- [09:41] performance here is the chunk size which
+- [09:43] is how big each text Chunk should be so
+- [09:45] one question you might have is why do we
+- [09:46] even break down documents into small
+- [09:48] chunks why don't we just keep size as
+- [09:50] big as possible so the large L model has
+- [09:52] full contacts so there are a couple
+- [09:54] reasons one obvious reason is of course
+- [09:56] large L model has limited contact window
+- [09:58] so you can't just feed every possible
+- [10:00] things into the prompt and even though
+- [10:02] you can feed everything in the
+- [10:04] performance often not that great because
+- [10:06] of the loss in the middle prop that's
+- [10:07] basically a phenomenon that we observe
+- [10:09] when you feed a big prompt to motel the
+- [10:11] large damage Motel will pay a lot more
+- [10:13] attention to the beginning end of The
+- [10:14] Prompt but the things in the middle can
+- [10:16] often get lost and there are a lot of
+- [10:18] different type of tasks people did
+- [10:19] already that showcase even for big model
+- [10:21] like Turbo with 1208 model once the
+- [10:24] contact window passed around 70k lar
+- [10:27] Dage model will fail to extract some
+- [10:28] contact and content from a large PR but
+- [10:31] on the other hand if you keep the chunk
+- [10:32] size too small then it also has a lot of
+- [10:34] problem because the information it
+- [10:36] retrieve probably don't have full
+- [10:37] contest for large Lang model to
+- [10:40] understand so there's a lot of trade-off
+- [10:41] and balance you need to find between the
+- [10:43] chunk size different type of documents
+- [10:44] can have its own optimal chunk size and
+- [10:47] the most scientific way to find the
+- [10:48] optimal chunk size is experiments so you
+- [10:50] can play with different chunk size and
+- [10:52] maybe even predefine list of evaluation
+- [10:54] criterial like the response time the
+- [10:56] faceful and the relevance then do
+- [10:58] evaluation again your testing data sets
+- [11:00] with different chunk size to find what
+- [11:02] is the most optimal chunk size for your
+- [11:04] document type and one my colleague from
+- [11:05] R side called Satia actually did some
+- [11:07] quite an interesting implementation so
+- [11:09] because different type of documents can
+- [11:10] have different optimal chunk size what
+- [11:12] he did is he tried to figure out a
+- [11:14] optimal chunk size and whole rack
+- [11:15] pipeline for different type of documents
+- [11:18] and then when we receiveing new
+- [11:19] documents we'll just try to classify
+- [11:20] these documents and give the most
+- [11:22] optimal rack configuration if the file I
+- [11:24] upload is resume.pdf then it will router
+- [11:27] to the best practice of r
+- [11:29] documents where it will choose the right
+- [11:31] passer and pass prompt as well as the
+- [11:33] optimal chunk size and retrial methods
+- [11:35] so this is second technique try to play
+- [11:37] and find the optimal chunk size for
+- [11:39] specific documents the third one I talk
+- [11:41] about is reent so this is a common
+- [11:42] tactic that we use to improve the
+- [11:44] retrieval accuracy and part I try to
+- [11:47] optimize is the relevancy of document
+- [11:49] when we do Vector search against a user
+- [11:51] question if we Define topk to be 25
+- [11:53] which means we want the vector search to
+- [11:55] return the top 25 most rant chunks the
+- [11:58] chunks it return has a mixed level of
+- [12:00] relevance and they are not sorting a way
+- [12:02] that most relevant document is at top in
+- [12:04] reality the most relevant chunks are
+- [12:05] spread across return chunks so if you
+- [12:07] just simply passing all 25 chunks to the
+- [12:10] large model it will have a few problems
+- [12:12] one it will consume a lot more tokens
+- [12:14] and second it have a lot more noise so
+- [12:16] the answer quality going to be a bit
+- [12:17] lower common method here is called reim
+- [12:20] instead of sending those 25 chunks
+- [12:21] directly to the large energ model we can
+- [12:23] use another Transformer model
+- [12:25] specifically to find the relevance
+- [12:26] between documents so we can pass on this
+- [12:28] list of chunks use ranker to pick up the
+- [12:30] top most rant chunks out of initial
+- [12:32] search results so that the answer
+- [12:34] generation will be faster and more
+- [12:36] accurate another comment is called
+- [12:37] hybrid search as we mentioned before
+- [12:39] Vector search is not necessarily the
+- [12:40] best search methods for many use case
+- [12:42] for example think about e-commerce side
+- [12:45] where user search for a product you
+- [12:46] actually want to sure the product name
+- [12:48] is exactly matched from actual product
+- [12:50] name in your database and to making sure
+- [12:52] the result is super relevant we want to
+- [12:53] do a keyword search this where hybrid
+- [12:55] search can offer much better results and
+- [12:58] the way it works is in instead of just
+- [12:59] doing Vector search we can do both
+- [13:01] Vector search and keyword search and
+- [13:03] then mix both result together pick up
+- [13:04] top most randant ones so there's a few
+- [13:07] quite common and practical ways you can
+- [13:08] improve your rag pipeline but the part I
+- [13:10] want to really talk bit more is the
+- [13:12] agentic rag so till now you probably
+- [13:14] realize there a lot of different rack
+- [13:16] techniques you can use and the real
+- [13:17] challenge here is that there's no real
+- [13:19] best practice across all sorts of
+- [13:21] different documents and the beauty of
+- [13:22] agent rack is that we can utilize agents
+- [13:25] Dynamic and reasoning ability to decide
+- [13:27] what is optimal rack line even do things
+- [13:30] like selfcheck or chain of s to improve
+- [13:33] the answer and one very simple but
+- [13:34] powerful method is query translation of
+- [13:37] planning so the idea here is basically
+- [13:38] instead of doing the vector search with
+- [13:41] the question user ask brly which in many
+- [13:43] of time is not opal for Vector search we
+- [13:46] can get agent to modify the question a
+- [13:48] little bit so that it is more retrieval
+- [13:50] friendly for example if the user ask a
+- [13:52] question the went to which school
+- [13:54] between August 1954 and November 1954
+- [13:57] directly do Vector search against this
+- [13:59] query might not yeld the best result
+- [14:01] instead we can abstract this question to
+- [14:03] be something like what was L's education
+- [14:06] history then to aor search against this
+- [14:08] modified and more abstract question to
+- [14:10] return the four results and this is
+- [14:12] Method called step back which is
+- [14:13] introduced originally from Google Deep
+- [14:15] Mind and same thing you can even utilize
+- [14:17] similar concept to get agent or L model
+- [14:19] to modify the question a little bit
+- [14:21] before it doing the retrieval so if user
+- [14:23] had question like how's the sales
+- [14:25] trending from 2022 to 2024 the agent can
+- [14:27] actually break down this complex
+- [14:28] question into three sub queries and each
+- [14:31] query search the sales data for that
+- [14:33] specific year then we can merge things
+- [14:35] together so that the lar model has four
+- [14:37] context and on the other hand you can
+- [14:39] get lar lar model to do some metadata
+- [14:40] filtering and routing as well so each
+- [14:43] documents we got from customers you can
+- [14:44] give some metadata like title year
+- [14:46] Country summary and this will be
+- [14:48] extremely useful because we can combine
+- [14:50] with some agentic Behavior so instead of
+- [14:52] just do the vector search across all the
+- [14:54] possible database you have that probably
+- [14:56] returns some Reven data from some of
+- [14:58] database that that is not relevant at
+- [14:59] all you can get agent to generate
+- [15:01] metadata first so if the user ask best
+- [15:03] burger in Australia you can generate
+- [15:05] metadata to the country in Australia
+- [15:07] first then futter down the list of data
+- [15:09] that it will do Vector search against to
+- [15:11] only C and brisin so the result it
+- [15:13] return will be much more relevant and
+- [15:15] you can imagine all those techniques
+- [15:16] that we mentioned here can be a tool for
+- [15:18] the agent and when we receive a new
+- [15:20] question we just get agent to decide
+- [15:22] whether you should utilize certain
+- [15:23] tactics to improve the result on the
+- [15:25] other hand you can even introduce some
+- [15:27] kind of self-reflection process into the
+- [15:29] rack pipeline to improve accuracy one of
+- [15:31] the most popular concept is called
+- [15:32] corrective rack agent it is a pipeline
+- [15:35] that really aim to deliver high quality
+- [15:37] results so if the user have question and
+- [15:39] after we're doing some retrieval we will
+- [15:41] get L model to do some evaluation and
+- [15:44] decide if the retrieve documents are
+- [15:45] correct or relevant to the question that
+- [15:47] we were asking if the classification is
+- [15:49] correct then we'll go through some
+- [15:51] process to do knowledge refinement to
+- [15:52] clean up and knowledge but if it's
+- [15:54] ambiguous or incorrect then agent go on
+- [15:57] internet and search for some internet
+- [15:59] results instead and repeat this process
+- [16:00] few times until it feel like got a
+- [16:02] correct answer then it can generate the
+- [16:04] results from there so by adding those
+- [16:06] self-reflection you can see the quality
+- [16:08] of this Rec P will be much higher even
+- [16:10] though there are tradeoffs in terms of
+- [16:12] speed but the quality of the answer is
+- [16:13] going to be much more rant and accurate
+- [16:16] and today I want to show you a quick
+- [16:17] example of how can you build a corat
+- [16:19] rack agent with llama stre on local
+- [16:21] machine as well as file crawl for the
+- [16:23] website script going to use GL graph to
+- [16:24] build this creative rack agent lens from
+- [16:27] L chain actually give it very detailed a
+- [16:29] tutorial about how can you build such
+- [16:30] agent with land graph but today I just
+- [16:32] want to introduce a simplified version
+- [16:34] with some script that we just introduced
+- [16:35] before so the way to work is that when
+- [16:37] the user asks a question we will try to
+- [16:39] retrieve most relevant document but
+- [16:41] after that we will get lar model to
+- [16:43] grade whether the documents retrieve is
+- [16:45] relevant to the question you ask if yes
+- [16:47] then go generate answers but if not
+- [16:49] we'll do web search and we'll use TBL
+- [16:51] which is a web search engine designed
+- [16:53] specific for agents and after answer is
+- [16:55] generated we also do another round of
+- [16:58] check where the answer is actually
+- [16:59] hallucinating if yes generate again if
+- [17:01] no check whether the answers actually
+- [17:03] answer the original question if not then
+- [17:05] go web search find random information
+- [17:07] and repeat this per again until the
+- [17:09] question can be answered and as I
+- [17:10] mentioned before we're going to use land
+- [17:11] graph so it basically allow you to
+- [17:13] define the high level workflow and
+- [17:15] Logics but still getting agent or
+- [17:17] larange model to complete task at every
+- [17:19] single stage it still give control about
+- [17:21] what the flow look like but utilize Lear
+- [17:23] model capability at every single step to
+- [17:25] complete tasks and we're going to use
+- [17:27] llas three as decision-making model here
+- [17:29] so first you're going to download o Lama
+- [17:30] which allow you to run llama streight on
+- [17:32] your local machine D and once you
+- [17:34] download that you can open your terminal
+- [17:35] and do old Lama pull llama 3 this is
+- [17:37] where download the Llama stre model on
+- [17:39] your local machine and after that let's
+- [17:41] just do a quick test we can do all llama
+- [17:43] around llama stre so I can type hi who
+- [17:46] made Facebook so I'm running this model
+- [17:48] on my MacBook and you can see the speed
+- [17:50] is actually still pretty good so once we
+- [17:52] confirm that you can run this llama 3
+- [17:54] Model on your local machine we can close
+- [17:55] the terminal and open Visual Studio code
+- [17:57] we can create a dup notebook by called
+- [17:59] rack agent l street. iynb so this will
+- [18:03] create notebook and I will run you
+- [18:04] through this example so first let's
+- [18:06] install some libraries going to use
+- [18:08] including lanching langra T GPD for all
+- [18:11] which open source embedding model they
+- [18:13] can run on your local machine as well as
+- [18:14] file core and after that I will set my
+- [18:16] lens Miss API key which should
+- [18:18] automatically log all the interactions
+- [18:20] so that we can keep track and I'm going
+- [18:21] to set up a variable called local LM
+- [18:24] equal to Lama 3 and first thing is I
+- [18:25] want to use file code to create a vector
+- [18:28] database from a few blog post that I
+- [18:30] have on my website so I will import a
+- [18:32] few different libraries Define the list
+- [18:33] of URLs then I will run file CR loader
+- [18:36] so file CR does have a l chain
+- [18:39] integration already where I just need to
+- [18:40] pass API key and this a mode as well so
+- [18:43] script means your script just individ
+- [18:45] URL you can also change to craw which
+- [18:47] will C through the whole domain and then
+- [18:49] I'm going to split up the documents into
+- [18:51] small chunks each chunk 250 and also
+- [18:53] future out some metadata because at
+- [18:55] default file Crow return some metadata
+- [18:57] as array which is supported so we're
+- [18:59] going to clean up those ones and in the
+- [19:01] end create a vector database using gbd4
+- [19:03] all embedding as well as the future
+- [19:05] documents and in the end create
+- [19:07] retriever so that we can use this
+- [19:08] retriever to retrieve relevant documents
+- [19:10] in this Vector database anytime so now
+- [19:12] we get retriever ready next is we want
+- [19:14] to create where the document is relevant
+- [19:15] to the question so we create a retrieval
+- [19:17] Creator Define large L model with the
+- [19:19] chat of llama that point to the Llama
+- [19:21] stre we created before then we will
+- [19:23] create a prompt template so LL stre has
+- [19:25] very special prompt style that you need
+- [19:26] to follow to making sure the performance
+- [19:27] is good you can click click on the link
+- [19:29] below to get more details about their
+- [19:31] prompt style but it normally looks
+- [19:32] something like this you have beginning
+- [19:34] of Tex St header ID which is a rooll and
+- [19:37] then the message itself and here we can
+- [19:38] quickly test if I give a question how to
+- [19:41] save lar Modo cost it will give me a
+- [19:43] score of yes and yes basically means it
+- [19:45] is relevant no means it is not relevant
+- [19:48] but if I change the question to be
+- [19:49] something like where to buy iPhone 5 the
+- [19:51] score will be no so this will be the
+- [19:53] first checkpoint to decide if the
+- [19:55] documents is relevant if yes then refine
+- [19:57] documents but if the answer is actually
+- [19:59] relevant next is we want to generate the
+- [20:01] answer using L stream model and create
+- [20:03] large model chain called rack chain and
+- [20:05] for the same question how to save lar
+- [20:07] Modo cost you can see it actually
+- [20:09] retrieve information from my blog post
+- [20:11] pretty accurately but if the retrieve
+- [20:13] document is not relevant then we want to
+- [20:15] do a web search and as I mentioned
+- [20:17] before we're going to use Tav so tavet
+- [20:18] is like a web search service for large
+- [20:20] langage model where you can just give a
+- [20:22] natural language it will return search
+- [20:24] results very similar service to EXA so
+- [20:26] here we're just going to put in your TBL
+- [20:28] API key and then create a web search
+- [20:30] tool so now we have create document
+- [20:31] grader a l engine model step to generate
+- [20:34] answer as well as web search the last
+- [20:35] part is that we want to create some
+- [20:37] function to check if the answer is
+- [20:39] hallucinating and whether the answer
+- [20:41] actually answer the question so create a
+- [20:42] hallucination grader with the special
+- [20:44] prompt here and again the result will be
+- [20:46] yes or no if yes it is not hallucinating
+- [20:49] if it's no that means it didn't pass the
+- [20:51] criterial as well as a answer grader
+- [20:53] with the same yes and no message so that
+- [20:55] so that we can keep the result pretty
+- [20:57] consistent that's pretty much it now we
+- [20:58] have all the key components ready and
+- [21:00] next we just need to turn them into
+- [21:01] different function and set up a lang
+- [21:03] graph State and notes so we first say
+- [21:05] set up a langra state so state is like
+- [21:08] what kind of value that you want to
+- [21:09] share across all the different steps in
+- [21:12] our case it will be the question us ask
+- [21:14] the answer is that lar mode generated
+- [21:16] the research result from web search as
+- [21:18] well as a retrieved documents then will
+- [21:20] create different notes one is retrieve
+- [21:22] node which is responsible to retrieve
+- [21:24] documents it basically to just call the
+- [21:26] retriever that we created earlier and
+- [21:27] return documents and question this will
+- [21:29] basically override Global State then
+- [21:30] will create this function to create
+- [21:32] documents to see if it is relevant if
+- [21:34] it's not relevant it will stop the full
+- [21:35] loop and just to set web search to be
+- [21:37] yes if it's relevant it will keep
+- [21:39] checking every single documents and then
+- [21:41] generate note which will call the lar
+- [21:43] model to generate answer as well as a
+- [21:45] web search then we create a few
+- [21:46] conditional age so you can think about
+- [21:48] all lines between nodes to be age it can
+- [21:50] be simple age that connect two different
+- [21:52] nodes together or it can be conditional
+- [21:54] age that going to run some function and
+- [21:56] based on result can route to different
+- [21:57] notes so here we're going to create two
+- [21:59] conditional age function one is going to
+- [22:01] base on result whether document is
+- [22:02] relevant or not to decide whether to do
+- [22:04] web search or just generate answer and
+- [22:06] the other is going to check whether the
+- [22:07] answer is hallucinating if it's not
+- [22:09] hallucinating then it will check if the
+- [22:11] answer actually anwers the user's
+- [22:12] original question and that's pretty much
+- [22:14] all we need and then next thing is we're
+- [22:15] going to add all the four nodes that
+- [22:17] we're going to use in the end we're
+- [22:18] going to connect everything together so
+- [22:20] all Lang gra will start from entry point
+- [22:22] and here I will set entry point to be
+- [22:24] retrieve document first and then I will
+- [22:26] add age so AG as I mentioned before is a
+- [22:28] link between different notes and here
+- [22:30] I'm going to connect retrieve notes to
+- [22:32] grade documents and I can also add
+- [22:34] conditional EDS which means after grade
+- [22:36] document is notes I want to run this
+- [22:37] function to decide whether it should do
+- [22:39] web search or should just generate
+- [22:40] answer from retrieve document right away
+- [22:42] if it's web search then after web search
+- [22:44] results I wanted to connect generate
+- [22:46] notes to generate answer and after we
+- [22:47] generate answer I want to run this
+- [22:49] function to decide if there's any
+- [22:51] hallucination and if answer answer the
+- [22:53] question if it is hallucinating then go
+- [22:55] back generate again and if the answer
+- [22:56] didn't answer question I'll do web
+- [22:58] search if it's actually good and the
+- [23:00] workfl and in the end I can just do
+- [23:01] workflow. compile and test out this
+- [23:03] question how to save large L mod cost
+- [23:06] and in this log you can see that so it
+- [23:08] first say retrieve documents and then
+- [23:09] start check every single document to see
+- [23:12] if it is Rel to the question in end
+- [23:14] addition is that all the documents
+- [23:15] revant now go generate answer and after
+- [23:17] the answer is generated check
+- [23:19] hallucination and decide the answer is
+- [23:20] actually grounded with the information
+- [23:22] will retrieve from documents and then it
+- [23:24] check whether the generate the answer
+- [23:26] answer original question and it decide
+- [23:27] it does so you finish all the checks and
+- [23:29] then output the final answer so here's
+- [23:31] example of how can you create this
+- [23:33] fairly complex agentic rack and as you
+- [23:35] can see that those agentic rack
+- [23:37] obviously have very clear tradeoff that
+- [23:39] it is a lot slower to generate a quality
+- [23:41] answer but upside is that you can
+- [23:42] actually making sure the quality is
+- [23:44] really good and documents relevant I'm
+- [23:45] really ke to see what kind of
+- [23:47] interesting rack agent that you're going
+- [23:48] to create please comment below for any
+- [23:50] tactics that has been really effective
+- [23:52] to you that I didn't mention here uh I
+- [23:53] will continue to post interesting AI
+- [23:55] project that be building so if you enjoy
+- [23:57] this video please come consider give me
+- [23:59] a subscribe thank you and I'll see you
+- [24:00] next time

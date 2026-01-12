@@ -1,0 +1,1434 @@
+---
+title: "Michelle Pokris is one of the key people behind GBT 4."
+video_id: "NNGbaiN1L7Y"
+video_url: "https://www.youtube.com/watch?v=NNGbaiN1L7Y"
+speaker: "Jacob"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Michelle Pokris is one of the key people behind GBT 4.1 and OpenAI
+  As a post- training research lead, she played a crucial role in making these models so much better for developers
+  I'm Jacob Efron, and today on Unsupervised Learning, we dug into everything GPT 4.1 and more
+key_points:
+  - "hit on what's next for OpenAI's agent products"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:37:21+09:00"
+---
+
+# Transcript: NNGbaiN1L7Y
+
+- URL: https://www.youtube.com/watch?v=NNGbaiN1L7Y
+- Retrieved at: 2025-12-30T10:37:21+09:00
+
+## Text
+
+- [00:00] Michelle Pokris is one of the key people
+- [00:01] behind GBT 4.1 and OpenAI. As a post-
+- [00:04] training research lead, she played a
+- [00:06] crucial role in making these models so
+- [00:07] much better for developers. I'm Jacob
+- [00:09] Efron, and today on Unsupervised
+- [00:11] Learning, we dug into everything GPT 4.1
+- [00:13] and more. Some of my favorite parts from
+- [00:15] my conversation with Michelle include
+- [00:17] the current and future state of agents,
+- [00:18] whether future models will be
+- [00:19] purpose-built for different groups. We
+- [00:21] talked about RFT and what it will mean
+- [00:23] for builders, and tactics for figuring
+- [00:25] out what's just out of reach for the
+- [00:27] models versus way in the future. We also
+- [00:29] talked about how companies can set
+- [00:30] themselves up for success with Rapid AI
+- [00:32] progress and what kind of founders will
+- [00:34] win at the app layer. And we finally hit
+- [00:35] on what's next for OpenAI's agent
+- [00:37] products. It was an awesome episode with
+- [00:39] someone who's helping define the cutting
+- [00:40] edge. Now, here's Michelle
+- [00:43] Procris. Well, Michelle, thanks so much
+- [00:45] for uh for coming on the podcast. Really
+- [00:46] appreciate it. Yeah, thanks for having
+- [00:48] me. Very excited to be here. Yeah,
+- [00:50] there's a ton of different things I'm
+- [00:51] excited to explore with you today around
+- [00:53] GBT 4.1. You mentioned the model has
+- [00:55] like more of a focus on real world usage
+- [00:58] and utility and less on benchmarks and I
+- [01:00] feel like that's definitely resonated in
+- [01:01] the Twitter discourse and just people
+- [01:02] playing around with the model. How do
+- [01:04] you actually go about making that happen
+- [01:05] in practice? Yeah, it's a good question.
+- [01:09] I mean the real goal of this model was
+- [01:10] something that's a joy to use for
+- [01:12] developers. Um, often, you know, and
+- [01:15] we're not the only ones uh who do this,
+- [01:17] but sometimes you optimize a model for
+- [01:18] benchmarks and it looks really great and
+- [01:20] then you actually try to use it and you
+- [01:22] stumble over basic things like, oh, it's
+- [01:24] not following my instructions or the
+- [01:26] formatting is weird. Um, or you know, it
+- [01:28] it the context is too short to be
+- [01:30] useful. And so with this model, we
+- [01:32] really focused on what have developers
+- [01:34] been telling us for a while now that
+- [01:36] they want uh and how we can we reproduce
+- [01:38] this feedback. So a lot of the focus was
+- [01:41] on, you know, talking to users, getting
+- [01:43] their feedback, and then turning that
+- [01:44] into an eval that we can actually use
+- [01:46] during research. So I would say there
+- [01:48] was like a pretty long leadup before we
+- [01:50] even got to model training. We were just
+- [01:52] kind of getting our house in order on
+- [01:53] evals and understanding where actually
+- [01:55] are the biggest problems in our models.
+- [01:57] Um, and so we actually put this in the
+- [01:59] blog post, but we have an internal
+- [02:00] instruction following eval. It's based
+- [02:02] on real API usage. It's based on what
+- [02:05] people have told us. And this is kind of
+- [02:07] one of the north stars while developing
+- [02:09] this model. Yeah. I'm curious because
+- [02:10] I've heard you talk about this this idea
+- [02:12] of of picking evals and you know
+- [02:14] basically going to startups and people
+- [02:15] that are building on top of the API and
+- [02:16] saying what what are the things that the
+- [02:18] models can't do and um let's try and
+- [02:19] hill climb on those. How do you go about
+- [02:21] figuring out I'm sure like everybody has
+- [02:23] their their pick of like you know 15
+- [02:24] things they want you to optimize for.
+- [02:26] How do you like go about figuring out
+- [02:27] what are the eval matter and any
+- [02:29] learnings on that like over the course
+- [02:30] of building this? Yeah, I will say it's
+- [02:33] actually more of the opposite problem.
+- [02:36] They're not coming to us with like, oh,
+- [02:37] I have these 100 evals. Please fix all
+- [02:39] of these. It's more like they're saying,
+- [02:42] uh, it's kind of weird in this one use
+- [02:44] case, and then we have to be like, what
+- [02:45] do you mean by that? We like actually,
+- [02:48] you know, get some prompts going and
+- [02:50] figure it out. So, I'll say a lot of the
+- [02:52] leg work has been just like talking to
+- [02:54] users and and really pulling out the key
+- [02:57] insights. There's actually an
+- [02:58] interesting insight I got recently from
+- [03:00] talking to a user where it turns out our
+- [03:03] models could do better on kind of
+- [03:05] sometimes you want to tell them ignore
+- [03:08] everything you know about the world and
+- [03:10] only use the information in context. Um
+- [03:13] and this is something we would never see
+- [03:14] in an eval like Amy GBQ none of them
+- [03:16] look at this but for this specific user
+- [03:18] what's most important is the model will
+- [03:20] attend only to the system instructions
+- [03:22] and ignore everything it already knows.
+- [03:25] So, so yeah, back to like the question
+- [03:27] of how do we determine what's most
+- [03:28] important, we basically just see what
+- [03:30] comes up over and over again in themes
+- [03:32] with customers and then we also, you
+- [03:34] know, use our models internally. Um, and
+- [03:36] we have a sense for where they're not
+- [03:38] doing well and we also have internal
+- [03:39] customers building on top of our models.
+- [03:42] So, basically all of these things put
+- [03:43] together make it uh that that's how we
+- [03:46] determine which set of evals to really
+- [03:47] go after. Do you have a request for eval
+- [03:49] for our listener base? Are there some
+- [03:51] areas where you're like, "Oh, we really
+- [03:52] would love more, you know, uh uh
+- [03:54] examples or or things to test around
+- [03:56] certain areas?" Yes. Yes. Always
+- [03:58] requesting more. Um I'm always pitching
+- [04:01] like we have this eval product where you
+- [04:02] can opt in uh and you get free inference
+- [04:05] on the evals. In exchange, we get to use
+- [04:06] them. Um but in particular, the things
+- [04:08] I'm interested in are more long context
+- [04:10] like real world evals. Uh it's really
+- [04:13] hard to make a long context eval. like
+- [04:16] synthetic emails are are nice to like
+- [04:18] target really niche use cases but if you
+- [04:20] want to get like holistically does this
+- [04:22] work in long context we're kind of you
+- [04:24] know we could use more of those and then
+- [04:26] the other one is instruction following
+- [04:28] this is like the hardest thing to define
+- [04:30] in ML I feel everyone is like the model
+- [04:33] didn't follow this instruction it's not
+- [04:34] good at this but people actually means
+- [04:36] hund mean hundreds of different things
+- [04:38] uh and so anything more there I'm always
+- [04:41] interested did you have any favorite
+- [04:42] like uh random evals that emerged in
+- [04:45] this process I mean you mentioned
+- [04:45] mentioned obviously the uh you know some
+- [04:47] some examples already but like any any
+- [04:49] that you know uh were surprising I guess
+- [04:51] in things that weren't working or or you
+- [04:52] thought were like particularly fun fun
+- [04:53] ones to hill climb on. This is
+- [04:55] interesting. Like we we tested a few
+- [04:57] different versions of 4.1
+- [04:59] um and with with real alpha users and
+- [05:02] got their feedback and one customer just
+- [05:04] really preferred the first version over
+- [05:06] the fourth one uh which is the one we
+- [05:08] ended up shipping and they were the only
+- [05:10] user to feel this way and all of the
+- [05:13] evals were up and to the right between
+- [05:14] these and we just could not figure out
+- [05:16] what it was and you know it was just
+- [05:18] some really niche use case that wasn't
+- [05:20] covered anywhere. Hard to please
+- [05:22] everyone with uh with these models. It's
+- [05:24] nearly impossible, but if you make
+- [05:26] something that follows instructions
+- [05:27] pretty well, then you can try to please
+- [05:29] more people by teaching them to prompt
+- [05:31] better. Uh, and then, you know, the
+- [05:33] fine-tuning offering, I think, is a
+- [05:35] really great way of of pleasing more
+- [05:37] people. 100%. Well, we'll definitely dig
+- [05:39] into to to both of those aspects. Um,
+- [05:41] you know, here, I guess, like I'm I'm
+- [05:43] curious, you know, the model's been out
+- [05:44] for a few weeks now. Um, I'm sure you
+- [05:46] had all these, you know, and you were
+- [05:47] obviously testing this with plenty of
+- [05:48] people, so you had some sense of how
+- [05:49] people would use it. But then it's
+- [05:50] always fun to get it in the wild and
+- [05:51] see, you know, all sorts of unexpected
+- [05:53] ways. Any kind of like unexpected things
+- [05:55] that it's been able to like bridge or
+- [05:57] solve um that have been kind of fun to
+- [05:58] see these last few weeks? Yeah, I've
+- [06:00] really loved seeing a lot of the cool
+- [06:02] UIs people have been building. Um, so
+- [06:05] actually this is something we snuck in
+- [06:06] near the very end of the model is like
+- [06:08] much improved UI and coding
+- [06:11] capabilities. Um, so I've seen really
+- [06:12] cool cool apps there. I've also loved
+- [06:15] seeing people make use of nano. Uh it's
+- [06:18] you know small and cheap and fast and I
+- [06:22] saw I think box is has some uh product
+- [06:25] feature where like you can read 17 pages
+- [06:28] of docs and I know Aaron tweeted like
+- [06:30] some results using the using the models
+- [06:31] and it was pretty uh pretty impressive
+- [06:32] uplift in the in the core product. Yeah,
+- [06:34] it's very cool to see like the
+- [06:37] hypothesis behind nano was can we just
+- [06:39] spur on a ton more AI adoption with
+- [06:42] models that are cheap and fast and and
+- [06:43] it looks like the answer is yes like
+- [06:45] people just have demand at all points in
+- [06:47] the cost latency curve. I feel like that
+- [06:48] that answer seems to have generally been
+- [06:50] yes throughout this uh you know you guys
+- [06:52] are always cutting prices and it seems
+- [06:53] to always keep spurring uh spurring more
+- [06:55] demand. Um you know I feel like you've
+- [06:57] been acknowledged by by by Sam by know
+- [06:59] by all sorts of folks as like you know
+- [07:00] really one of the ring leaders of of
+- [07:01] making this whole thing happen. what is
+- [07:03] actually involved in like shipping a
+- [07:05] model like this end to end um and what
+- [07:08] work are you guys doing behind the
+- [07:09] scenes to kind of like make this happen?
+- [07:11] Yeah, it's a great question. So,
+- [07:14] obviously there's a large team behind
+- [07:16] the scenes. Um and so we have basically
+- [07:19] uh these three models are each kind of a
+- [07:22] semi- new pre-trained. Um so we have uh
+- [07:25] the the standard size, the mini and the
+- [07:27] nano. So, really great work from the
+- [07:30] pre-training teams and to to what what
+- [07:32] does a semi-new pre-train mean? Yeah,
+- [07:34] it's a good question. I mean, it's kind
+- [07:36] of like a we call it a mid-train. It's a
+- [07:38] freshness update. Um, and so the the
+- [07:41] larger one is is a mid-train. Uh, but
+- [07:43] the other two are new pre-trains. Uh,
+- [07:46] and then my team works a lot on post-
+- [07:47] training. Um, so we've been focusing a
+- [07:50] lot on, you know, how do we determine
+- [07:52] the best mix of data or how do we
+- [07:54] determine the best parameters for RL
+- [07:55] trading or how do we determine the
+- [07:57] waiting of different rewards. Um, and so
+- [08:00] back to like how this all came to be, I
+- [08:01] think we started realizing, you know, a
+- [08:03] lot of developers had a lot of pain
+- [08:05] points with 40 and we went, I would say
+- [08:08] like three months in on
+- [08:11] evalu. And then I would say the next
+- [08:13] three months was kind of a flurry of
+- [08:15] training. Um, and so we would just run
+- [08:17] tons of experiments like how does this
+- [08:19] data set work or like what if we tweak
+- [08:21] these parameters. Um, and then that all
+- [08:23] kind of linked up with these new
+- [08:24] pre-trains. Uh, and then we finally had
+- [08:27] like about one month alpha testing where
+- [08:29] we were training stuff really rapidly
+- [08:31] and getting feedback and trying to
+- [08:33] incorporate that as much as possible.
+- [08:35] You know, a part of this it was
+- [08:36] gathering these evals. Like does it feel
+- [08:38] like that set of evals is still relevant
+- [08:39] or is it now like you have to go gather
+- [08:40] a whole new set of stuff that like you
+- [08:42] know maybe is the right stuff to hill
+- [08:43] climb on for you know improving upon 41.
+- [08:46] Yeah I think the shelf life of an eval
+- [08:48] is like three months unfortunately like
+- [08:51] progress is so fast things are getting
+- [08:53] saturated so quickly um so we're still
+- [08:55] on the hunt as always and I think we
+- [08:57] always will be. I mean one of the things
+- [08:58] obviously that's so clear in the model
+- [08:59] is that you improved instruction
+- [09:00] following you you improved long context
+- [09:02] obviously both incredibly beneficial for
+- [09:04] agents. You know, I think our listeners
+- [09:06] are always trying to figure out like
+- [09:07] where are we with agents? Like how do
+- [09:08] you characterize today? Like what does
+- [09:10] work, what doesn't work, like what is
+- [09:12] kind of the state of the field post uh
+- [09:13] post 4.1. I think where we are is that
+- [09:16] agents work remarkably well in well
+- [09:19] scoped domains. So, you know, a case
+- [09:21] where you have all the right tools for
+- [09:23] the model. It's fairly clear what the
+- [09:24] user is asking for. We see that all of
+- [09:26] those use cases work really well, but
+- [09:28] now it's more about bridging the gap to
+- [09:30] like the fuzzy and messy real world.
+- [09:32] It's like the user typing something into
+- [09:35] the customer support box, you know,
+- [09:38] doesn't actually know what the agent can
+- [09:39] do and the agent maybe is missing an
+- [09:42] awareness of its own capabilities. Um,
+- [09:44] or maybe like the agent isn't connected
+- [09:47] enough to the real world to know, you
+- [09:49] know, a certain piece of information.
+- [09:51] Um, so I think honestly I think a lot of
+- [09:53] the capabilities are there, but it's
+- [09:56] just so hard to get the context into the
+- [09:57] model. And then one area I do think we
+- [10:00] can improve is like ambiguity. like we
+- [10:02] should make it easier to for developers
+- [10:04] to tune, you know, if it's ambiguous,
+- [10:06] should the model ask the user for more
+- [10:08] information or should it proceed with
+- [10:10] assumptions? It's obviously super
+- [10:12] annoying if the model is always coming
+- [10:13] back to you and be like, should I do
+- [10:14] this? Are you sure? Like, can I do this?
+- [10:16] Um, I think we need like more
+- [10:18] steerability there. But yeah, I was
+- [10:19] we've all we've all worked with interns
+- [10:21] like that before. So, I guess there's a
+- [10:23] a fine balance to strike. You want some
+- [10:25] delegation, but not too much. It sounds
+- [10:27] like, you know, uh the underlying
+- [10:29] capabilities of the models, you know, in
+- [10:30] many ways aren't being fully shown just
+- [10:32] because we haven't connected enough
+- [10:33] context in or tools into the uh to the
+- [10:35] models themselves and um seems like
+- [10:37] there's a lot of a lot of improvement on
+- [10:38] uh on just doing that. Yeah, exactly.
+- [10:40] Yeah, I will say when we look at like
+- [10:42] some of the external benchmarks for
+- [10:44] function calling or agentic tool use, I
+- [10:47] when we actually dig into the failure
+- [10:48] cases like where our models are graded
+- [10:50] incorrect, I see that they're mostly
+- [10:53] misgraded or maybe it's ambiguous or
+- [10:57] maybe they're using a user model and the
+- [10:59] user model isn't following instructions
+- [11:00] well enough. Yeah. Um and so we're
+- [11:02] actually struggling to find cases where
+- [11:04] the model actually just does the wrong
+- [11:06] thing. Um there there obviously are
+- [11:09] those but most of the benchmarks I would
+- [11:11] say there are saturated I imagine like
+- [11:13] over the next six 12 months a lot of
+- [11:14] that stuff gets added in you know more
+- [11:16] there's more tools more context you know
+- [11:18] I feel like one of the the gaps remains
+- [11:19] kind of like longer term you know task
+- [11:21] execution like how do you think about
+- [11:22] what needs to be done to kind of
+- [11:24] continue making progress toward uh some
+- [11:26] of these longer like more you know
+- [11:28] ambiguous you know many step tasks. Yeah
+- [11:30] I think we need changes like on the
+- [11:33] engineering side and the model side. So
+- [11:35] on the engineering side, we need APIs
+- [11:38] and and you know UIs where it's much
+- [11:40] easier to like follow along with what
+- [11:41] the agent's doing, a summary of what
+- [11:43] they're up to, a way to like jump in and
+- [11:45] and change the trajectory. We have that
+- [11:47] in operator. It's pretty cool. You can
+- [11:49] kind of jump in and like steer, but you
+- [11:51] don't have that as much for other things
+- [11:53] in our API. Um, and so I think I think
+- [11:55] that's a core capability on the
+- [11:57] engineering side. And then on the
+- [11:58] modeling side, I think we need more
+- [12:00] robustness like when things go wrong.
+- [12:02] Obviously, sometimes your API will have
+- [12:05] a 500 and the model will kind of get
+- [12:07] stuck. Um, and so I think we're hoping
+- [12:09] to train in more of more robustness and
+- [12:11] like grit uh is is another way we think
+- [12:14] about it sometimes. Another part of the
+- [12:15] of the models that I think everyone's
+- [12:17] noted on and obviously you have on the
+- [12:18] benchmarks is just how much better they
+- [12:19] are code. Um, and so I guess you know to
+- [12:22] start there like how do you kind of you
+- [12:24] know characterize where we are with like
+- [12:25] what you know where we are with AI code
+- [12:27] like what works, what doesn't. Yeah,
+- [12:28] totally. Um, so I think where we are for
+- [12:31] code is that 4.1 and uh some of our
+- [12:35] other models are remarkably good when
+- [12:38] the problem is like locally scoped. So
+- [12:41] maybe you're asking the model to like
+- [12:42] change some library and all of the files
+- [12:46] are, you know, near each other and it
+- [12:48] makes a lot of sense. But we see like
+- [12:50] the SWEBench tasks that we're missing
+- [12:52] for example are those where the model
+- [12:54] really needs global context and it needs
+- [12:56] to like reason about many various parts
+- [12:59] of the code. Uh or maybe there's like
+- [13:01] some extremely technical details in one
+- [13:04] file and you're trying to pass them into
+- [13:05] another. Um so I would say like we're
+- [13:08] still improving kind of that global
+- [13:10] understanding. I also think we've made a
+- [13:13] really big improvement on the front-end
+- [13:14] coding. Uh, but I still would love to
+- [13:17] continue improving like we should we
+- [13:20] should not only produce front end code
+- [13:21] that's beautiful but like a front
+- [13:22] engineer should be proud of it. Um, and
+- [13:24] so there's some linting stuff there and
+- [13:26] and code style is another top focus area
+- [13:30] for us. And finally, I think another
+- [13:32] thing we're always going to keep
+- [13:33] improving is uh like changing only what
+- [13:36] you asked for and not everything else.
+- [13:38] Like the model should adapt to the style
+- [13:41] of your code and not kind of inject its
+- [13:43] own style too much. Um and on our
+- [13:46] internal evals we see you know it went
+- [13:48] from I think 9% to 2% from 40 to 4.1
+- [13:52] these like irrelevant edits but
+- [13:54] obviously 2% is not zero and so it's
+- [13:56] something we're going to continue
+- [13:57] improving. Yeah. What does that mean for
+- [13:59] how then you end up using it in your
+- [14:01] kind of day-to-day coding? Yeah. Um I,
+- [14:04] you know, manage a team now. So there's
+- [14:06] not that the inevitable, uh the
+- [14:08] inevitable trajectory of of doing well
+- [14:10] at these companies, but I do use Codeex.
+- [14:13] Um and I I have honestly still been
+- [14:16] using GitHub Copilot. It's it's still a
+- [14:18] great product. And I I also dabble with
+- [14:20] Windsurf and Cursor, so I'm in and out.
+- [14:22] Um but Codeex is is really cool the way
+- [14:24] it does stuff independently. Um and I
+- [14:26] think the main model I use there is 04
+- [14:29] Mini just for speed. You know, obviously
+- [14:31] you've kind of alluded to this. like
+- [14:32] lots of benchmarks and you know it I
+- [14:34] feel like people are always debating
+- [14:35] like are benchmarks still relevant you
+- [14:36] know I think you guys even added uh some
+- [14:39] you know into you know 41 I think
+- [14:41] there's been this feeling in coding for
+- [14:42] a while for example like benchmarks
+- [14:44] don't tell the full story and you kind
+- [14:45] of like know it when you use it like to
+- [14:47] what extent is that true and what's like
+- [14:48] your overall view on like the the state
+- [14:50] of these benchmarks today and how useful
+- [14:51] they are yeah I do think uh SweetBench
+- [14:54] is still a useful benchmark like the
+- [14:57] actual differences from a model that can
+- [14:59] achieve like 55 versus 35 five are
+- [15:02] staggeringly different. Um I think the
+- [15:05] Ader evals are are still super useful,
+- [15:08] but then there's ones that are just like
+- [15:09] fully saturated and not useful.
+- [15:11] Basically, you got to like use the most
+- [15:14] out of an eval during its lifespan and
+- [15:16] then move on and create another one. And
+- [15:18] so I do the three month shelf life uh
+- [15:20] definitely is uh is tough. Yeah, there's
+- [15:23] going to be successors to Sweet Bench
+- [15:24] once that's saturated for sure. Yeah. I
+- [15:27] mean, one thing I think that's so
+- [15:28] interesting about 41 is that I think you
+- [15:29] guys have been very explicit like this
+- [15:30] was built for developers and like, you
+- [15:32] know, there's all these like eval to
+- [15:34] make it better for the things that
+- [15:35] developers were asking you for. And it
+- [15:37] kind of does beg the question like how
+- [15:38] does the OpenAI model family evolve from
+- [15:41] here because obviously you could imagine
+- [15:42] like a pre-trained model that's
+- [15:43] post-trained for different end users or
+- [15:45] I don't know domains or tasks like I'm
+- [15:47] sure you guys learned a ton, you know,
+- [15:49] kind of building this model for this
+- [15:50] explicit end group. How how do you think
+- [15:52] about that? In general, my philosophy is
+- [15:54] that we should really lean into the G in
+- [15:58] AGI and try to make one model that's
+- [16:01] general. Um, and so ideally, I think
+- [16:04] going forward, we're going to try to
+- [16:06] simplify the product offering, try to
+- [16:08] have one model for both use cases and,
+- [16:11] you know, simplify the model picker
+- [16:13] situation in Chad GBT as well. But for
+- [16:15] 4.1 we thought there was like a
+- [16:17] particularly acute need and uh we
+- [16:20] thought we could move a lot faster at
+- [16:22] this problem if we could decouple from
+- [16:23] chat GPT. Um so this let us you know
+- [16:27] train models get feedback much quicker
+- [16:29] ship on a different timeline. Uh and it
+- [16:31] also let us make some interesting
+- [16:33] choices with model training. So we were
+- [16:35] able to remove some of the data sets
+- [16:37] specific to chat GBT and we were able to
+- [16:39] like upweight the coding data
+- [16:41] significantly. Um, and so this is stuff
+- [16:44] you can do when you're kind of targeting
+- [16:46] a separate uh domain. But in general, I
+- [16:49] do expect us to simplify and I think the
+- [16:51] models get better when like the creative
+- [16:53] energies of all researchers at OpenAI
+- [16:55] are working on them um rather than you
+- [16:57] know the subgroup focused on on the API
+- [17:00] right now. Well, it also seems like
+- [17:01] there's been massive like cross domain
+- [17:02] generalization anyway where you know in
+- [17:04] general it feels like you know putting
+- [17:06] it all into one model has been
+- [17:07] beneficial. But it's interesting
+- [17:08] obviously that this this has been such a
+- [17:09] success uh with that more targeted
+- [17:11] approach. Yeah, there's room for both. I
+- [17:12] think like sometimes it makes sense to
+- [17:14] eject and ship the thing for a user, you
+- [17:17] know, really well. Do you think that you
+- [17:19] think that's something you guys might do
+- [17:20] again? Yeah, I think it's possible. I
+- [17:21] mean, we we don't like we make a lot of
+- [17:25] uh changes on the fly like as we see
+- [17:27] what demand is there and it's definitely
+- [17:29] possible. Well, one thing I obviously
+- [17:31] hear from folks all the time is you you
+- [17:32] guys ship models very rapidly. I know
+- [17:33] the the naming has always been debated
+- [17:35] at at Nauseium about uh how many
+- [17:37] different models there are. I feel like
+- [17:39] companies are trying to keep, you know,
+- [17:40] stay on top of like what the cutting
+- [17:41] edge of model capabilities are. You
+- [17:43] know, any best practices you've seen
+- [17:46] from like, you know, what what companies
+- [17:48] do to like just stay on top of, you
+- [17:49] know, it feels like a new model drops
+- [17:51] every like month in this space? Um, and
+- [17:53] you know, how would you be thinking
+- [17:53] about it if you were one of the users of
+- [17:56] these APIs? It's all back to evals.
+- [17:58] Unfortunately, like the most successful
+- [18:01] startups are the ones who know their use
+- [18:03] case really well, have really good evals
+- [18:04] and then they can just spend, you know,
+- [18:06] an hour running evals on the new models
+- [18:08] when they drop. Um, this also I think uh
+- [18:11] like the customers are really successful
+- [18:13] are the ones who can switch their
+- [18:15] prompts and their scaffoldings and tune
+- [18:18] them to the particular models. So that's
+- [18:20] what I would recommend. Um, and then the
+- [18:22] other thing is to build stuff which is
+- [18:25] maybe just out of reach of the current
+- [18:27] models. Um, or maybe it works one out of
+- [18:30] 10 times and you'd love it to be nine.
+- [18:33] Uh, if you have these kind of use cases
+- [18:34] in your back pocket, the new models drop
+- [18:37] and and things just work, then you're,
+- [18:38] you know, first to market. Do you have a
+- [18:40] heristic you use for what's just out of
+- [18:41] reach? Like obviously I feel like it's
+- [18:42] hard to tell sometimes like if it's uh,
+- [18:44] you know, how uh, how soon some of these
+- [18:46] things might work? Yeah, I think if you
+- [18:48] see uh like significant improvements in
+- [18:51] fine-tuning, like let's say you're
+- [18:53] getting a 10% pass rate, you can
+- [18:55] fine-tune it to 50%. It's probably not
+- [18:58] good enough for your product yet. That's
+- [19:00] something that's right on the cusp and a
+- [19:01] future model a few months from now will
+- [19:03] probably just crush it. No, that makes
+- [19:05] uh that makes a ton of sense. I mean,
+- [19:06] obviously you mentioned kind of like the
+- [19:08] you know, being able to switch the
+- [19:09] prompts and the scaffolding. I think one
+- [19:10] thing that like I think a lot about on
+- [19:12] the uh on the on the investment side is
+- [19:14] you know there's lots of companies that
+- [19:16] you know the models are able to do what
+- [19:17] they were able to do. There's all sorts
+- [19:19] of scaffolding they build you know based
+- [19:20] around those limitations to make the
+- [19:22] products work today and then it feels
+- [19:23] like you know you guys released a next
+- [19:25] great model and some of that scaffolding
+- [19:26] just gets obviated. It's like okay cool
+- [19:28] like the models are way better at like
+- [19:29] following instructions. I don't need to
+- [19:30] do all this hacky stuff because you have
+- [19:32] this long context window. Now, given
+- [19:34] that, how do you think about when it
+- [19:35] like does and doesn't make sense to to
+- [19:37] like build some of the scaffolding or
+- [19:39] like what set of scaffolding makes sense
+- [19:40] for these folks, you know, for people to
+- [19:42] focus on? I like to take this back, I
+- [19:44] guess, to like your reason for being as
+- [19:46] a startup. Like your reason for being is
+- [19:49] to to ship value to your users and and
+- [19:51] make something people want. Um, and so I
+- [19:54] think it is super worth it to to build
+- [19:56] the scaffolding and like make your thing
+- [19:58] work. you basically are doing like a few
+- [20:00] months of arbitrage um before this
+- [20:02] capability is available more easily. But
+- [20:05] I do think it's important to keep in
+- [20:06] mind future trends. So like maybe build
+- [20:08] the rag thing for now or or maybe like
+- [20:11] have your instructions five times in the
+- [20:12] prompt although not with 41. Um but just
+- [20:16] be prepare be prepared to change things
+- [20:17] just but know where things are going. So
+- [20:19] you know I think context windows are
+- [20:21] only going to keep improving. I think
+- [20:22] reasoning capabilities are only going to
+- [20:24] get better. Uh instruction following is
+- [20:26] only going to get better. And so just
+- [20:28] have an eye to where those trends are
+- [20:30] going. Yeah. Any any other like uh you
+- [20:32] know for for where things are going uh
+- [20:34] like tips for folks. Yeah. I think
+- [20:36] multimodal is another one like the
+- [20:39] models are getting so natively
+- [20:41] multimodal uh and and easy to use in
+- [20:43] those days. I feel like that's been a
+- [20:44] pretty underdised part of of 41. It's
+- [20:46] pretty impressive uh multimodal
+- [20:47] capabilities. Yeah, honestly, huge shout
+- [20:50] out to our pre-training teams because
+- [20:52] these new pre-trains have just
+- [20:55] significantly improved upon multimodal
+- [20:57] and I think we will we'll continue to
+- [21:00] see these improvements. Um, but so many
+- [21:02] things that didn't work in FOR just work
+- [21:04] now because you know the models have
+- [21:06] gotten better there and so it's worth it
+- [21:09] to connect the model to as much
+- [21:11] information about your task as possible
+- [21:13] even if you're getting me results today
+- [21:16] because tomorrow it'll get better. And
+- [21:17] you mentioned like fine-tuning. I mean,
+- [21:18] I think it's interesting, right? I feel
+- [21:19] we've gone through this journey with
+- [21:20] fine-tuning where, you know, early on I
+- [21:22] feel like folks a lot of folks were
+- [21:23] like, I don't know how helpful this
+- [21:24] actually is. And then it feels like
+- [21:26] there there's been a renaissance of
+- [21:27] fine-tuning with these newer models and
+- [21:28] and and how helpful it actually is? Like
+- [21:30] I guess I'm curious what you've observed
+- [21:32] like does that arc ring true to you and
+- [21:34] like how should people be thinking about
+- [21:36] this and and should more people be
+- [21:37] revisiting their uh their prior
+- [21:39] assumptions around fine-tuning? Yeah, I
+- [21:40] think I would bucket fine-tuning into
+- [21:42] two camps. Um the first is fine-tuning
+- [21:46] for speed uh and latency. Yeah. And so
+- [21:49] this is still I think the workhorse of
+- [21:51] our SFT offering. Yeah. So you 4.1 works
+- [21:54] well and but you can get it at you know
+- [21:56] a fraction of the latency. But then you
+- [21:59] know I think we haven't seen too much of
+- [22:01] fine-tuning for frontier capabilities.
+- [22:04] um like you can could maybe get them in
+- [22:06] a really niche domain for with SFT but
+- [22:08] with RFT uh you can actually push the
+- [22:11] frontier in your specific area and uh
+- [22:14] the fine-tuning process is so data
+- [22:16] efficient that you can just make do with
+- [22:19] like hundred samples or something on
+- [22:21] that order. Yeah. So our RFT offering is
+- [22:25] uh actually shipping to GA next week. I
+- [22:27] guess your your reader your listeners
+- [22:29] will probably hear about it when it's
+- [22:30] out. Um and we're really excited about
+- [22:33] that. There's some use cases where it
+- [22:35] works really well. For example, like
+- [22:37] teaching an agent about how to pick a
+- [22:40] workflow or uh how to kind of you know
+- [22:44] work through its decision process. But
+- [22:46] then there's also some interesting
+- [22:48] applications in deep tech um where you
+- [22:50] know maybe the startup or
+- [22:53] organization has data that other folks
+- [22:56] don't have and it's really verifiable
+- [22:58] and from that you can get the absolute
+- [22:59] best results with RF. I think one thing,
+- [23:01] you know, that I've been struck by at
+- [23:03] least is like it feels like across the
+- [23:04] board the number of examples you need is
+- [23:06] is not massive, right? I think in the
+- [23:07] early days people, you know, were like,
+- [23:08] "Oh, well, like some of these companies
+- [23:10] sit on tens of thousands of examples
+- [23:12] and, you know, they'll just be able to
+- [23:13] to, you know, out compete." And it's
+- [23:15] like, you know, it feels like I mean,
+- [23:16] the data really does matter, but it's
+- [23:18] maybe to the tune of a lot less examples
+- [23:19] than uh than folks might have previously
+- [23:21] thought. Yeah, I think these two trends
+- [23:24] are are making fine-tuning more uh more
+- [23:26] interesting where like it's extremely
+- [23:29] data efficient and also RFT is basically
+- [23:32] the same RL process we use internally
+- [23:34] for improving our models. Um so we just
+- [23:37] know that it works remarkably well uh
+- [23:38] and it's it's less fragile than than SFT
+- [23:41] and so yeah for those reasons I think
+- [23:44] it's it's going to be really useful for
+- [23:46] deep tech and and some of the hardest
+- [23:48] problems. Is this the kind of thing you
+- [23:49] think everyone should play around with
+- [23:50] or like you know is it is it like I mean
+- [23:52] obviously there's some cases the models
+- [23:53] can do but like let's take you know
+- [23:54] almost anything that that maybe uh they
+- [23:56] aren't as accurate as folks want. Is it
+- [23:58] like worth trying this for for you know
+- [24:00] for for any of those cases? I think my
+- [24:02] mental model is if it's a stylistic
+- [24:04] thing then you should probably use
+- [24:06] preference fine tuning which we
+- [24:07] launched. Yeah. Uh somewhat recently. if
+- [24:09] it's more simple like you know maybe you
+- [24:13] want nano to classify things and it gets
+- [24:16] you know 10% of cases wrong and you can
+- [24:18] close that gap with with SFT that's
+- [24:20] great but then for the things where just
+- [24:22] no model in the market does what you
+- [24:24] need um then you should turn to RFD I
+- [24:26] feel like you were kind of alluding to
+- [24:27] the fact that there's like some things
+- [24:29] especially when they're verifiable that
+- [24:30] that like make this easier to do like do
+- [24:32] you have like any rough like rules of
+- [24:34] thumb you use for like when RF you know
+- [24:36] the types of domains or the types of
+- [24:37] problems that RF will be like
+- [24:38] particularly effective for or like what
+- [24:40] these more easily verifiable domains
+- [24:42] are. Like everyone's asking this
+- [24:43] question now outside of uh outside of
+- [24:45] code and and math. Yeah, I think there's
+- [24:47] stuff in like chip design um or in
+- [24:52] biology uh just like stuff like drug
+- [24:56] discovery. I think those sorts of of
+- [24:59] things where maybe you need to explore
+- [25:01] but the things that work are easily
+- [25:03] verifiable. Um I think those will be
+- [25:05] good applications. Certainly chip design
+- [25:07] is that I feel like drug discovery
+- [25:09] perpetual awesome use case but sometimes
+- [25:11] it takes 10 years to figure out if it
+- [25:12] actually uh actually works in people. So
+- [25:14] the feedback loop is always uh obviously
+- [25:16] interim steps in between but it's
+- [25:17] interesting I mean it does beg kind of
+- [25:18] beg the question like you know you see
+- [25:20] in 401 obviously these multimodal
+- [25:22] capabilities you know you talk about
+- [25:23] kind of the ability to use RFT for um
+- [25:26] you know uh for for biology. I guess
+- [25:28] there's always been this question of
+- [25:29] like, you know, are there going to be
+- [25:30] like standalone types of foundation
+- [25:32] models like a robotics foundation model
+- [25:34] or a biology foundation model that has
+- [25:36] like nothing or has something to do but
+- [25:37] like it's kind of a separate class of
+- [25:38] models like what's your kind of view on
+- [25:40] that? Does it feel like it's you kind of
+- [25:42] mentioned the G and AGI uh before? Like
+- [25:45] does it feel like we're converging uh in
+- [25:46] that in that aspect? I kind of do. I
+- [25:49] think generalization uh you know
+- [25:52] improves capabilities a lot.
+- [25:54] Um, I think it remains to be seen with
+- [25:57] robotics, like you know, I guess we'll
+- [26:00] know empirically if if the best robotics
+- [26:02] products are are their own models, but I
+- [26:04] do kind of think and I think the trends
+- [26:05] I see here internally are like combining
+- [26:08] everything just produces a much better
+- [26:09] result. Everyone's teased that you'll
+- [26:10] have soon like, you know, one model that
+- [26:12] will like pick behind the scenes for
+- [26:14] people what to what to use, but
+- [26:15] obviously we don't have that yet today.
+- [26:16] And so, uh, you know, I'm curious if I'm
+- [26:18] a company and, you know, uh, figuring
+- [26:20] out like which, you know, obviously I'll
+- [26:22] probably test a bunch of them. Do you
+- [26:23] have any rough rules of thumb on like
+- [26:25] which models people should be choosing
+- [26:27] uh for the different things they're
+- [26:28] trying to do? Yeah, totally. Um it's a
+- [26:31] pretty tough decision tree, so I'm
+- [26:32] excited we're going to simplify it.
+- [26:34] Here's how I think about it. In chat
+- [26:36] GPT, uh I'm obviously a chat GPT DAO. Um
+- [26:41] and so my you you and me both. Yeah. My
+- [26:44] main model there is 40 and I use 4.5
+- [26:47] sometimes for writing or creative stuff.
+- [26:49] And then 03 is what I use for like the
+- [26:52] hardest math problems or like I don't
+- [26:54] know I was filing my taxes and I wanted
+- [26:55] them done right. So that's you know
+- [26:57] somewhere where I'd use 03. Um is that
+- [27:00] line up with you? Is are those the
+- [27:02] models you use in chat? I I wasn't sure
+- [27:03] the models were good enough yet to trust
+- [27:05] my taxes to them. So I haven't yet done
+- [27:06] that but maybe I should. If you're
+- [27:07] saying it's good enough that's great.
+- [27:08] Next year I will uh I will totally go
+- [27:10] ahead and do that. I'm more double
+- [27:11] checking my CPA. So verify with a
+- [27:14] trusted source. But yes, that definitely
+- [27:16] lines up on the uh on on the on the kind
+- [27:18] of consumer side. And then I'm curious
+- [27:19] like for the for the enterprise users
+- [27:21] like you know how they you know
+- [27:23] obviously I feel like you always want to
+- [27:24] go as as as as fast and cheap as you
+- [27:26] can. Um but I think folks are still
+- [27:28] trying to figure out exactly like when
+- [27:29] to when to reach for each different kind
+- [27:31] of model. Yeah, totally. So yeah, how I
+- [27:33] think about it there is developers
+- [27:35] should just start with 4.1. Um see if it
+- [27:37] works well for their use case. If it
+- [27:39] does and you're looking for faster, then
+- [27:41] I would look into mini and nano and
+- [27:42] fine-tuning those. Obviously mini next
+- [27:44] and then nano um as the smallest model.
+- [27:48] And then uh if some things are just out
+- [27:50] of reach for 4.1 then I would push for
+- [27:52] O4 mini uh and see if you can kind of
+- [27:56] you know get the sufficient like
+- [27:57] reasoning capabilities out of it and
+- [27:59] then you go to O3 and then if that's not
+- [28:02] working then you go to RFT with with O4
+- [28:04] mini. I guess on the other side of using
+- [28:06] these models, one thing I always enjoy
+- [28:07] is like the prompting guides you guys
+- [28:09] release behind alongside these models
+- [28:11] because it's always kind of like funny
+- [28:13] sometimes counterintuitive like the the
+- [28:14] different things that help on the on the
+- [28:16] prompt side. Like any particularly
+- [28:17] favorite things that have emerged is
+- [28:19] like oh that's actually a really helpful
+- [28:20] way to prompt you know 4.1. Yeah, I
+- [28:23] think we found XML or like structuring
+- [28:25] your prompts really well uh works super
+- [28:27] well. The other thing is is just telling
+- [28:30] the model to keep going.
+- [28:32] I like I like that one. It's something
+- [28:35] we're hoping to fix for the next one,
+- [28:36] but it is remarkable like how much
+- [28:38] better performance you can get by
+- [28:40] telling the model like, "Hey, please
+- [28:41] don't come back to me until you've
+- [28:42] solved the problem." So yeah, those
+- [28:44] those were interesting and and somewhat
+- [28:45] counterintuitive. How do you go about
+- [28:47] like so like yeah, you've seen that keep
+- [28:48] going thing and obviously in your in
+- [28:50] your cookbook shows like a big impact.
+- [28:52] How do you then go about like you know
+- [28:54] incorporating that into the next
+- [28:55] generation of models such that like that
+- [28:56] that isn't a thing anymore? Our post
+- [28:59] training process can be pretty sensitive
+- [29:00] to the exact mix of data used. So, you
+- [29:04] know, you can imagine a post-training
+- [29:05] process where you train the model on one
+- [29:07] diff format and then, you know, your
+- [29:09] users are using totally different diff
+- [29:11] formats and the model is a bit lost. Um,
+- [29:13] whereas for 4.1, we train the model on
+- [29:16] like 12 or so different diff formats,
+- [29:18] everything we can think of. And so, our
+- [29:20] goal is to really put out something that
+- [29:22] works really well. Um, and even document
+- [29:25] maybe the best one. So, our prompting
+- [29:27] guide has, you know, diff format. So, we
+- [29:29] found that work well, but we also want
+- [29:30] it to work well out of the box for
+- [29:32] developers who aren't going to read our
+- [29:33] docs, which I like, you know, recognizes
+- [29:35] most. Um, you you want it to work
+- [29:38] anyway, even even if you're not using
+- [29:40] the best. So, we focus a lot on on uh
+- [29:43] general prompting and general
+- [29:45] capabilities. Uh, and this way we don't,
+- [29:48] you know, kind of burn in the model a
+- [29:50] specific one. Yeah. The keep going is is
+- [29:52] a great thing to say to our team
+- [29:53] internally too. So, you know, it
+- [29:54] definitely uh it helps across across the
+- [29:56] board. You you've obviously mentioned
+- [29:58] evals as one thing that like the most
+- [29:59] sophisticated companies do well. I'm
+- [30:01] curious if like there's something that
+- [30:02] you've you know uh either maybe some of
+- [30:04] the OpenAI products or some techniques
+- [30:06] that like a select few companies are
+- [30:08] using really well and you're like, "God,
+- [30:09] I just wish that like thousands of
+- [30:11] companies were were were using this or
+- [30:13] or thinking about things this way."
+- [30:14] Yeah, I think some of my favorite
+- [30:16] developers to work with are those who
+- [30:19] know their problem really well and
+- [30:21] actually have evals for the whole
+- [30:23] problem, but can break them down into
+- [30:24] specific subcomponents. And so they can
+- [30:27] tell me things like the model got better
+- [30:30] at picking the right SQL table by this
+- [30:32] percentage, but it got worse at picking
+- [30:35] the right columns by this percentage.
+- [30:37] And it's like, wow, this level of
+- [30:38] granularity really helps you tease out
+- [30:41] like what actually is working and what
+- [30:43] isn't. and then you know they can tune
+- [30:45] specific parts for this. So I guess like
+- [30:47] making your system modular and easy to
+- [30:49] plug different solutions into. I think
+- [30:52] uh that takes a little time up front but
+- [30:55] makes you move faster in the long run. I
+- [30:57] guess a question people are always
+- [30:58] asking is like how much AI expertise
+- [31:01] will like the you know will like the
+- [31:03] leading AI app companies need versus
+- [31:04] just like being good engineers that take
+- [31:06] your models off the shelf and know their
+- [31:08] end customer. Like do you think long
+- [31:10] term you know being able to kind of like
+- [31:11] have a sense of what data to apply on
+- [31:13] the finetune or like you know tweak your
+- [31:15] evals does that end up being a really
+- [31:17] important skill set for the app cate you
+- [31:18] know players or is it really like no
+- [31:20] they can kind of take the models mostly
+- [31:21] off the shelf for you know a basic
+- [31:23] fine-tune and uh the kind of core AI
+- [31:25] research capability maybe less important
+- [31:27] yeah I'm I'm really long generalists uh
+- [31:31] so I think people who understand the
+- [31:33] product are really scrappy engineers who
+- [31:35] can do anything like I honestly don't
+- [31:38] think you will need that much expertise
+- [31:40] to to combine these models and these
+- [31:43] solutions in the future. So yeah, I I
+- [31:45] I'm definitely much more bullish when I
+- [31:47] hear about a team of like scrappy
+- [31:49] hackers than, you know, a bunch of uh
+- [31:52] PhDs with only like research
+- [31:54] publications under their belt. You
+- [31:55] there's so many exciting areas to
+- [31:57] continue pushing these models forward.
+- [31:58] Like what future areas of research are
+- [32:00] you most excited about to like make
+- [32:02] these models better? I'm really excited
+- [32:04] about um using our models to make models
+- [32:06] better. Um and so this is particularly
+- [32:10] useful in reinforcement learning um when
+- [32:12] we can use you know signals from from
+- [32:14] the models to figure out if if the
+- [32:16] model's on the right track. Um yeah I'm
+- [32:20] also
+- [32:22] excited this is like a more general
+- [32:24] research area but we're working on
+- [32:26] improving our uh our speed of iteration.
+- [32:30] So the the more experiments you can do
+- [32:32] just like the more research gets done.
+- [32:34] And so it's a real focus right now to
+- [32:36] make sure you know we can run our
+- [32:38] experiments with the fewest number of
+- [32:40] GPUs and get you know you want you
+- [32:42] basically want to kick off a job and
+- [32:44] know when you wake up in the morning
+- [32:45] that you know if this thing is working
+- [32:46] or not. Is that just like a pure
+- [32:48] infrastructure problem or like you know
+- [32:49] like the the the latter part? Not
+- [32:51] really. You also need to make sure that
+- [32:54] kind of the things you're training are
+- [32:57] uh at sufficient scale to to get signal
+- [33:00] on on what exactly it is you're you're
+- [33:01] experimenting with. So also some
+- [33:03] interesting ML problems there. Yeah. And
+- [33:06] then in terms of like using the models
+- [33:07] to make models better and kind of
+- [33:09] signals if you're on the right track,
+- [33:10] like where where are we in that? Like
+- [33:12] does that work or or or like you know
+- [33:14] are we still kind of early early innings
+- [33:16] of that? Yeah, it works remarkably well.
+- [33:18] Um I think synthetic data uh has just
+- [33:22] been like an incredibly powerful trend.
+- [33:25] Um so yeah, excited to to push this
+- [33:28] more, but every more powerful model
+- [33:30] makes it easier to improve our models in
+- [33:31] the future. You guys have also shipped
+- [33:33] some really interesting, you know,
+- [33:34] agents. I think deep research probably
+- [33:35] most famously uh as a product that I use
+- [33:37] all the time. Um you know and basically
+- [33:39] you know as I understand it like using
+- [33:40] reinforcement learning like on you know
+- [33:42] a tool or or set of tools right until
+- [33:44] the model gets really good at using it.
+- [33:45] Um how do you imagine that like type of
+- [33:47] approach scaling for agents at large? I
+- [33:49] guess it's kind of like a subvariant of
+- [33:50] the question we were talking about
+- [33:51] earlier of like building these like
+- [33:52] specific models for you know end users
+- [33:55] or specific you know specifically doing
+- [33:57] RL on tools versus like the G of uh of
+- [34:00] generalization here. Yeah. So I think uh
+- [34:04] deep research is like 0ero to one or
+- [34:06] deep research an operator or like 0ero
+- [34:08] to one or two where you want to train
+- [34:10] the model like really deeply on on this
+- [34:12] specific thing. Um but I think what
+- [34:14] we've seen with 03 is that we can just
+- [34:16] train the model to be great at all kinds
+- [34:19] of tools. Um and actually learning to
+- [34:21] use one set of tools makes it better at
+- [34:24] at other sets of tools. Um, so I don't
+- [34:27] expect too much of just like one tool
+- [34:31] specific training going forward. It's
+- [34:32] like we've kind of proven that out and
+- [34:34] now we can incorporate those
+- [34:35] capabilities broadly. And actually that
+- [34:38] that's one thing people really love
+- [34:39] about 03 is that it can do a lot of deep
+- [34:41] research like a lot of those
+- [34:43] capabilities but but quicker and and uh
+- [34:46] you know you get it you can really go
+- [34:49] for deep research when you want like the
+- [34:51] absolute best report but if you want
+- [34:53] something somewhere you know in between
+- [34:55] then 03 is a great fit for that. Yeah.
+- [34:57] And as as the kind of the general
+- [34:58] models, you know, get better at at at
+- [35:00] using tools and um you know, and doing
+- [35:02] some of these tasks, you know, are there
+- [35:04] areas that you think will like be easier
+- [35:06] or harder? I mean, obviously you guys
+- [35:07] have publicly said you'll have a coding
+- [35:08] agent. Um you know, I don't know if
+- [35:10] there's like as folks are thinking about
+- [35:11] again like what's on the you know, uh
+- [35:13] you know, what what capabilities are
+- [35:15] sooner rather than later. Any just like
+- [35:16] mental model you use of like yeah, I
+- [35:18] think these things would be would would
+- [35:20] come before the next set of things.
+- [35:22] Yeah, I think I mean yeah coding is
+- [35:24] obviously coming soon given like sweet
+- [35:27] bench numbers are already exceeding you
+- [35:30] know what a lot of humans would would
+- [35:31] get there. Um so I think the ability to
+- [35:35] supervise these long runs is is is
+- [35:38] there. Um in terms of other stuff I
+- [35:40] think like long workflows. So what's
+- [35:44] interesting about 03 already is that
+- [35:45] when it calls developer specified tools
+- [35:48] they're already part of the the chain of
+- [35:49] thought of the model. Um so the model
+- [35:52] can you know use the thoughts of the
+- [35:56] previous tool call and the output and
+- [35:58] think some more about what to do. And so
+- [36:00] I think because of that the agentic like
+- [36:04] maybe customer support or uh other sorts
+- [36:07] of capabilities I think are I think
+- [36:10] personally are there and and just need
+- [36:12] to be hooked up with everything to make
+- [36:14] a cohesive product. Yeah. Yeah, I mean
+- [36:15] it seems like in many ways like the
+- [36:16] capabilities of these models like
+- [36:18] exceeds like the actual like
+- [36:19] nitty-gritty just implementation of of
+- [36:21] like yeah hooking them up to things
+- [36:23] getting them getting enterprises ready
+- [36:24] to use them in some way. But it's like
+- [36:26] uh you know I I think there's always
+- [36:28] this big debate of like if you stopped
+- [36:30] if you completely stop model progress
+- [36:31] right now is there like just tens of
+- [36:33] trillions of dollars of value to be
+- [36:35] extracted from the from just like you
+- [36:36] know from from these models and it seems
+- [36:37] like you're very much in the uh in in
+- [36:39] the camp of Yes. Yeah. I mean I think if
+- [36:42] you think about like the capabilities
+- [36:43] overhang of the internet it it's we
+- [36:46] still haven't saturated like things
+- [36:48] coming online like internet is still
+- [36:51] eating the world um and I think for AI
+- [36:54] like we haven't even saturated the
+- [36:56] capabilities 3.5 turbo like I think
+- [36:58] still think they're billion dollar
+- [37:00] companies started that only need that
+- [37:01] level of capabilities and so now with 41
+- [37:04] and these reasoning models like I think
+- [37:05] we have you know if if we truly stopped
+- [37:08] right now I think we'd have 10 years of
+- [37:10] of building at least. Sam's obviously
+- [37:12] talked about combining the model
+- [37:13] families into into this GPT5 that will
+- [37:15] uh will probably end the really fun, you
+- [37:17] know, point this and and point that and
+- [37:19] all that, but like what what actually
+- [37:21] needs to be done to like combine this
+- [37:23] into into like a model, a single model.
+- [37:25] It goes back to like what are the models
+- [37:27] good for? So, right now the 40 series is
+- [37:30] really great for chat and most users in
+- [37:32] the world use 40. So they love the way
+- [37:36] it matches like tone and style
+- [37:38] preferences and it's a great
+- [37:40] conversationalist. It's good at like
+- [37:42] figuring out deep conversations with
+- [37:43] people or like it's it's kind of a good
+- [37:46] sounding board but you know 03 has a
+- [37:49] very different skill set. Um it can
+- [37:51] think through problems really hard. You
+- [37:52] don't really want the model to think for
+- [37:54] five minutes when you say hi. Um and so
+- [37:57] I think the real challenge facing us on
+- [38:00] post-t training and research more
+- [38:01] broadly is like combining these
+- [38:03] capabilities. So you know training the
+- [38:05] model to be like just a really
+- [38:07] delightful chitchat partner but also
+- [38:09] know when to you know reason. Uh and
+- [38:12] this kind of plays into 4.1 a bit like I
+- [38:15] mentioned that we downweed some of the
+- [38:16] chat data and upweighted coding to make
+- [38:19] coding better. Um, so there are some
+- [38:21] like zero sum decisions in that sense uh
+- [38:24] where you have to figure out what
+- [38:25] exactly you're tailoring the model for.
+- [38:27] So that's the real challenge in GBD5 is
+- [38:31] is like how do we strike this right
+- [38:33] balance. Yeah. I mean it's so
+- [38:34] interesting because I feel like some
+- [38:35] reason people have been drawn to you
+- [38:37] know different models in the past has
+- [38:38] been like intensely like personality
+- [38:39] based. I like the personality or vibes
+- [38:41] of this model and I'm struck by I mean
+- [38:43] in in some sense trying to combine it
+- [38:45] into one model you get like a median
+- [38:47] personality and I back to the earlier
+- [38:48] question of like I wonder whether you
+- [38:50] know longer term folks will want like
+- [38:52] you know maybe they accomplish this
+- [38:53] through prompting or like you know
+- [38:54] through kind of like learning about you
+- [38:56] um and then the models themselves have
+- [38:57] all these personalities within them and
+- [38:59] and can kind of emerge. Any thoughts on
+- [39:00] that? Yeah, I already think we're going
+- [39:03] in this way a bit with enhanced memory.
+- [39:05] So I think like my chat GBT is so
+- [39:07] different from like my mom's or my
+- [39:09] husband's. So I think we're going in
+- [39:11] this direction already. It's just
+- [39:13] becoming so much more useful to know
+- [39:14] more it knows about you. But also the
+- [39:16] more it knows about you, the more it can
+- [39:17] like adapt to the things you like. U so
+- [39:20] I think that's actually going to be a
+- [39:22] really powerful lever for for
+- [39:23] personality in the future. But we're
+- [39:25] also going to make it more steerable.
+- [39:27] Um, so we want, you know, you can
+- [39:29] already use custom instructions and tell
+- [39:31] the model like, "Hey, I don't like
+- [39:33] capital letters or or please, you know,
+- [39:35] never uh never ask follow-up questions.
+- [39:38] I don't like that." Um, so I think we're
+- [39:40] going to lean more into steerability
+- [39:42] there. I think everyone should be able
+- [39:43] to kind of tweak for the personality
+- [39:46] that that they want. But yeah, I'm
+- [39:48] curious like what's what kind of
+- [39:50] personality are are you looking for?
+- [39:51] It's kind of like I'm still I'm still
+- [39:53] discovering, right? But I I like kind of
+- [39:54] like the the banter is fun, right? and
+- [39:56] like a little like, you know, um kind of
+- [39:58] like hanging out with your your kind of
+- [40:00] like fun and and quirky and like, you
+- [40:02] know, kind of like almost takes risks
+- [40:04] sometimes and like the stuff they're
+- [40:06] saying type friend. Um I feel like I
+- [40:08] always uh always enjoy that. I guess I'm
+- [40:10] also curious just to kind of hit on your
+- [40:11] personal journey at OpenAI. Like
+- [40:13] obviously you've uh you've been, you
+- [40:15] know, you've done a ton of different
+- [40:16] roles within OpenAI. You've also like,
+- [40:18] you know, the company has had, I mean,
+- [40:20] probably a million different subchapters
+- [40:21] of of like growth and experience in your
+- [40:23] time there. like maybe just talk a
+- [40:25] little bit about your like personal
+- [40:26] journey there and like also you know how
+- [40:28] is it kind of what feels similar and
+- [40:30] different from like you know the the
+- [40:31] days early days you joined to like now
+- [40:33] like leading this large team here. Yeah.
+- [40:36] Um so yeah I've been here for two and a
+- [40:37] half years and I joined uh on the API
+- [40:40] team on the engineering side. Actually a
+- [40:42] lot a lot more of my background is is
+- [40:44] engineering. Um I I worked at other
+- [40:47] companies like Coinbase building their
+- [40:49] like high uh frequency low latency
+- [40:52] trading systems. So, a lot more of a
+- [40:54] focus on like back-end distributed
+- [40:55] systems. Um, but I did study AI in
+- [40:58] college and and I worked with um some
+- [41:00] professors there on research projects
+- [41:02] and actually remember using uh OpenAI
+- [41:04] Gym at the time uh which was super cool.
+- [41:07] Um but yeah, I I was here for like a
+- [41:09] year and a half working on engineering
+- [41:11] and then I I it kind of seemed like it
+- [41:14] made sense to focus more on the model
+- [41:16] side for for the API specifically. So,
+- [41:20] there wasn't really enough of a focus.
+- [41:22] um on improving the models for
+- [41:24] developers and I kept hearing like folks
+- [41:26] wanted something like structured outputs
+- [41:28] and so that was kind of the first foray
+- [41:29] into doing research here um like
+- [41:31] training the model to do that and
+- [41:32] building the engineering systems and
+- [41:34] then after that I kind of formed this
+- [41:37] team and then moved over to research um
+- [41:40] and actually recently re rebranded my
+- [41:42] team a bit and we we focus now on on
+- [41:44] power users um so it's the power users
+- [41:47] research team and it's the reason for
+- [41:51] this like rebrand is that we don't just
+- [41:53] focus on the API. Obviously, developers
+- [41:54] are some of our, you know, most
+- [41:56] discerning power users. They use
+- [41:58] features that, you know, other users
+- [41:59] don't know about. They know about
+- [42:01] prompting our models the best. They know
+- [42:02] the capabilities the best. But there's
+- [42:04] also power users across, you know, chat
+- [42:06] GBT. There's some in free. There's
+- [42:09] plenty plus and pro. And I'm kind of
+- [42:10] insulted I haven't been reached out to
+- [42:12] as a chat GPT power user. I thought I
+- [42:13] might have hit the threshold, but I
+- [42:14] guess I guess there's probably some
+- [42:15] people that use a lot more. I mean yeah
+- [42:17] we we get a lot of signals from people
+- [42:20] who are using our models in this way. Um
+- [42:23] but also this is like the reason it's
+- [42:25] interesting to focus on power users is
+- [42:27] because the things that the power users
+- [42:29] are doing today are going to be the
+- [42:30] things that the median users are doing a
+- [42:32] year from now. Um so we just learn a lot
+- [42:34] from being on the frontier and figuring
+- [42:36] out what we can do to make the models
+- [42:38] better for them. And I guess like what's
+- [42:39] it been like obviously you know over
+- [42:41] those two years uh I feel like the the
+- [42:42] organization has changed a lot uh both
+- [42:44] in size and the scope of things you uh
+- [42:46] you work on like uh what kind of feels
+- [42:48] still the same and and what's really
+- [42:50] different you know these days. Yeah, I
+- [42:51] think the pace of shipping is the same.
+- [42:54] It it's actually remarkable like how how
+- [42:56] an organization this large can can move
+- [42:59] so quickly. I think some things are
+- [43:02] different is you just definitely can't
+- [43:04] have uh context on everything going on
+- [43:06] at the company anymore. Um, it's like,
+- [43:10] you know, it used to be more possible to
+- [43:12] like have pretty good state on all the
+- [43:14] cool projects going on and read all of
+- [43:15] their research updates and and be
+- [43:17] intimately familiar, but now you you
+- [43:19] kind of just have to tolerate that you
+- [43:21] can't know everything cool going on
+- [43:22] anymore. Totally. Um, well, we always
+- [43:25] like to end our interviews with a quick
+- [43:26] fire round where we get your take on
+- [43:27] some overly broad uh closing questions.
+- [43:29] And so maybe to uh to start um would
+- [43:32] love your take on just one thing that's
+- [43:34] overhyped and one thing that's
+- [43:35] underhyped in like the general AI
+- [43:36] discourse today. So yeah, overhyped I
+- [43:38] think benchmarks like like I mentioned a
+- [43:41] lot of like the agentic ones are
+- [43:43] saturated um or people release like the
+- [43:47] absolute best numbers they get but you
+- [43:50] know realistic numbers are different and
+- [43:52] then underhyped um I mean the corollery
+- [43:55] of that is like your own evals uh and so
+- [43:59] using you know your real usage data to
+- [44:02] figure out what's working well
+- [44:04] underhyped. Awesome. What's one thing
+- [44:06] you've changed your mind on in the AI
+- [44:08] world in the last year? Yeah, this is
+- [44:10] back to fine-tuning, but I actually used
+- [44:12] to be more of a fine-tuning bear because
+- [44:14] it's kind of like, you know, it's a few
+- [44:16] months of arbitrage, but is it really
+- [44:18] worth the time? But I actually do think
+- [44:20] RFT is worth the time for for these like
+- [44:23] specific domains where you need to push
+- [44:24] the frontier. Yeah. Was there like one
+- [44:26] particular fine tune that convinced you
+- [44:28] or like you know was it over time having
+- [44:30] seen this? I think the cool thing now is
+- [44:32] that like you know our previous
+- [44:34] post-training stack or like the 4.1
+- [44:36] stack is a lot more than just SFT and so
+- [44:39] like we weren't shipping how we trained
+- [44:42] our models but with RFT we you know it's
+- [44:44] it's basically similar algorithm as our
+- [44:47] reinforcement learning and so that's why
+- [44:49] I think it's like it's a big shift where
+- [44:51] you can actually kind of get the
+- [44:53] capabilities that we can elicit
+- [44:54] ourselves. Uh do you think model
+- [44:56] progress will be more the same or less
+- [44:57] than last year this year? I think it'll
+- [45:01] be about the same. I don't think we're
+- [45:03] slowing down. I don't think we're in a
+- [45:05] fast takeoff at the moment, but it's
+- [45:08] going to continue to be fast and there
+- [45:10] will be a lot of models. I I realize I
+- [45:12] can't ask you to pick a favorite, but
+- [45:14] I'm curious if like, you know, you
+- [45:15] mentioned this like class of of of kind
+- [45:17] of harder to to solve problems. you
+- [45:20] know, maybe you know, uh, beyond
+- [45:22] enterprise apps, like any kind of like
+- [45:24] consumer products or things that you're
+- [45:25] like most excited about outside of of
+- [45:27] OpenAI or things that you use, uh, in
+- [45:29] your in your kind of like day-to-day
+- [45:30] life? Yeah, I use a lot of stuff that
+- [45:32] that is like AI based. Like recently,
+- [45:34] I've been using Levels um, and they are
+- [45:38] like have a pretty cool AI focus there.
+- [45:41] I think Whoop has some very cool like
+- [45:44] health insights as well. Yeah. Yeah. I
+- [45:46] think taking AI out of just the digital
+- [45:49] world is super cool. Well, this has been
+- [45:51] a fascinating conversation. I want to
+- [45:52] make sure to leave the last word to you.
+- [45:54] Um, where can folks go to learn more
+- [45:56] about uh you 41? Uh, anything you want
+- [45:59] to point uh our listeners to? Uh, the
+- [46:01] floor is uh the floor is yours. Yeah,
+- [46:03] totally. Thanks. Um, so yeah, we put out
+- [46:05] a blog post for 41 if you want to read
+- [46:07] more about it. Uh, I'm also on Twitter
+- [46:09] uh and I love hearing feedback from
+- [46:12] users like developers, power users. So
+- [46:14] if something isn't working well in our
+- [46:15] models and you have a prompt that can
+- [46:17] show it, please email me. I'm
+- [46:20] firstname.com and I just I love getting
+- [46:23] the feedback so we can make models
+- [46:24] better. We'll have to get you on again
+- [46:26] to talk about like the weirdest email
+- [46:27] you get from this of like, you know,
+- [46:29] obscure use case prompt. Yeah, I've
+- [46:31] already gotten some good ones. Yeah.
+- [46:34] Well, Michelle, thank you so much. This
+- [46:35] was uh this was a ton of fun. Yeah.
+- [46:37] Thank you so much for having me.
+- [46:40] [Music]

@@ -1,0 +1,337 @@
+---
+title: "So, OpenAI finally dropped their AI powered web browser and they're calling it ChatCBT Atlas."
+video_id: "NAFaWr4UPFI"
+video_url: "https://www.youtube.com/watch?v=NAFaWr4UPFI"
+speaker: "is"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "LLM", "Tutorial"]
+topics: ["AI", "Agents", "LLM", "Tutorial"]
+summary: |
+  So, OpenAI finally dropped their AI powered web browser and they're calling it ChatCBT Atlas
+  It's a full browser built around Chachib itself
+  Basically, your tabs, search engine, and AI assistant are all in one place
+key_points:
+  - "dropped their AI powered web browser and they're calling it ChatCBT Atlas"
+  - "things you'll notice is anytime you uh search within Atlas, you get these tabs across the top"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:36:36+09:00"
+---
+
+# Transcript: NAFaWr4UPFI
+
+- URL: https://www.youtube.com/watch?v=NAFaWr4UPFI
+- Retrieved at: 2025-12-30T10:36:36+09:00
+
+## Text
+
+- [00:00] So, OpenAI finally dropped their AI
+- [00:03] powered web browser and they're calling
+- [00:05] it ChatCBT Atlas. This isn't just a new
+- [00:09] app. It's a full browser built around
+- [00:11] Chachib itself. Basically, your tabs,
+- [00:15] search engine, and AI assistant are all
+- [00:18] in one place. They announced it today in
+- [00:20] a live stream and showed off some of its
+- [00:22] wild new capabilities, which we'll be
+- [00:24] breaking down. And then we'll actually
+- [00:26] be testing it out ourselves. So, make
+- [00:29] sure to stick around until the end. All
+- [00:31] right. So, the best way to explain what
+- [00:33] this is is honestly just to show you. We
+- [00:36] all know what a browser is. Safari,
+- [00:38] Chrome, whatever. And this is basically
+- [00:41] just that, but with chatbt built into
+- [00:44] it. Take a look. I'm going to search for
+- [00:46] this movie
+- [00:48] I want to see. Um, and we've made some
+- [00:51] major upgrades to search on chat GPT
+- [00:53] when accessed via Atlas. So, we know
+- [00:56] that um search is kind of one of the
+- [00:59] core flows in a browser for navigating
+- [01:01] the internet. And a lot of these
+- [01:02] searches can be very keyword-based or
+- [01:04] short. Um and LLM traditionally struggle
+- [01:07] with that where they don't have enough
+- [01:08] context to provide a great answer. So,
+- [01:11] one of the first things you'll notice is
+- [01:12] anytime you uh search within Atlas, you
+- [01:14] get these tabs across the top. You can
+- [01:16] quickly pivot your experience into
+- [01:18] something more like a traditional search
+- [01:19] engine with images,
+- [01:24] videos,
+- [01:25] or news stories, all without losing that
+- [01:28] core chat experience on the home tab.
+- [01:31] So, here, scroll down. Some nice images,
+- [01:33] a few uh updates on what this is. Let's
+- [01:35] see if we can find a link. I'll take
+- [01:37] this Roger Eert review.
+- [01:41] It's given it four stars. One really
+- [01:43] interesting thing here is that whenever
+- [01:45] you click a link from a search result in
+- [01:47] Atlas, by default, it's going to slide
+- [01:49] chat over and open the web in a split
+- [01:51] view. Now, if you don't want that, you
+- [01:53] can always commandclick the link or just
+- [01:55] click the ask chat GPT button and close
+- [01:57] it. But it has this kind of nice
+- [01:59] property of you have a companion with
+- [02:01] you as you search the internet. So,
+- [02:04] maybe I want to go to a different review
+- [02:05] here. I'll try this Yahoo one.
+- [02:07] >> Haven't you already seen this movie?
+- [02:08] What's What's your review?
+- [02:10] >> I've seen it twice, actually. Uh, I
+- [02:13] recommend it. Um, really really good
+- [02:15] actually. Um, let's just ask for a quick
+- [02:17] summary of this review. Can you
+- [02:20] summarize this review in five words or
+- [02:24] less?
+- [02:26] Maybe we can get to the meat of it.
+- [02:27] >> This is where I think this this new
+- [02:29] model of search is actually really
+- [02:30] powerful because it makes it it's like a
+- [02:32] multi-turn experience. Like you can just
+- [02:34] have this back and forth with your
+- [02:35] search results rather than just being
+- [02:36] sent off to a web page. You can use this
+- [02:38] to really understand.
+- [02:40] >> Totally. Yeah, that's a great review,
+- [02:41] huh?
+- [02:42] >> PTA's best.
+- [02:43] >> I have to check it out.
+- [02:43] >> That's a high bar. Uh, definitely go. It
+- [02:46] It honestly is great. Um, okay. So,
+- [02:49] yeah, again, it's basically just like
+- [02:51] browsing the web, except now you've got
+- [02:53] chatbt by your side. In this demo, they
+- [02:56] showed how it can summarize information
+- [02:58] on the fly and how it presents it in a
+- [03:00] more readable, easy to understand way
+- [03:02] while still giving you access to the
+- [03:04] full source. I think using it to look up
+- [03:06] movies like this is kind of perfect.
+- [03:09] Normally, I just Google the title, check
+- [03:11] the Rotten Tomato score, and maybe skim
+- [03:13] a few descriptions, but if I can get
+- [03:15] summarized insights from multiple
+- [03:17] sources in about the same amount of
+- [03:19] time, then that seems actually pretty
+- [03:22] useful. Then, in another demo, they show
+- [03:24] how Atlas can literally polish your
+- [03:26] writing in any text box. In this
+- [03:28] example, they're inside Gmail and Chagt
+- [03:31] rewrites an email directly inside the
+- [03:33] compose window. But what's cool is that
+- [03:36] it can do this in any text box across
+- [03:38] the web. And it actually learns your
+- [03:40] writing style over time just like
+- [03:42] regular chatbt. Again, this is basically
+- [03:44] ChadBt, but living inside your browser.
+- [03:47] It still has memory. It knows things
+- [03:50] about you. It can reference your past
+- [03:52] chats and it uses all that context to be
+- [03:55] way more helpful as you browse. Now,
+- [03:57] another great use case for this is
+- [03:59] shopping. I don't really shop online
+- [04:01] much, especially for groceries, but I
+- [04:04] can definitely see how this could be a
+- [04:05] gamecher for a lot of people. Like, say
+- [04:08] you come across a cool shirt on social
+- [04:10] media or a delicious looking recipe you
+- [04:12] want to try, you can just pop up Chachi
+- [04:15] BT Atlas and ask it to find it and buy
+- [04:17] it for you. Check this out.
+- [04:19] >> So, here we have a recipe. We're uh
+- [04:21] we're planning a potluck, right?
+- [04:23] >> Yeah. Really excited about this recipe.
+- [04:24] >> Yeah. Yeah. And so I'd like to show you
+- [04:26] how we can use agent for things in in in
+- [04:29] your personal life. So one thing that I
+- [04:31] always struggle with with recipes is
+- [04:33] figuring out what ingredients I need to
+- [04:34] buy, right? Uh it's somewhere in the
+- [04:36] recipe page. It's some serving size. I
+- [04:38] need to figure it all out. So I I like
+- [04:41] to use Atlas to ask Chat GPT, uh what
+- [04:44] ingredients
+- [04:46] do I need to buy to cook do I need to
+- [04:50] cook this for eight people?
+- [04:54] and Chachi PT is going to go ahead and
+- [04:57] read the web page, figure out the
+- [04:59] ingredients, kind of do some math for
+- [05:01] me, and tell me exactly what I need.
+- [05:03] >> So useful.
+- [05:04] >> Yeah. In the past, I've told it that I
+- [05:05] like my uh I like my shopping list
+- [05:07] organized by grocery aisle to make it a
+- [05:10] little easier to shop for.
+- [05:12] And looking at this, you know, I have
+- [05:14] most of this honestly. I just need the
+- [05:15] meat and the produce. So, I'm going to
+- [05:17] say, uh, can you order the meat and
+- [05:22] produce for me? and we'll shut off how
+- [05:25] you can start agent mode by clicking a
+- [05:27] button, right? Which is really useful if
+- [05:29] you know to reach for it. But in those
+- [05:31] moments that you don't, chatbt can
+- [05:33] figure out that the way to accomplish
+- [05:35] this is to take over your browser,
+- [05:37] right? Uh you're always in control. You
+- [05:38] always have the option to approve or
+- [05:40] reject it. So I'm just going to click
+- [05:42] continue uh to hand hand the task off to
+- [05:44] agent.
+- [05:45] >> Yeah. And I I love how collaborative
+- [05:48] agent is in Atlas. So you can just hand
+- [05:50] off your tabs, you can go back and
+- [05:52] forth. And we've really improved agent a
+- [05:54] bunch to make sure that it's a lot
+- [05:56] better and faster at these collaborative
+- [05:59] tasks. And as you can notice, like at
+- [06:01] any moment in time, you could take
+- [06:03] control. And so one thing that's really
+- [06:06] great about this is like agent already
+- [06:08] knows that Justin likes to shop at
+- [06:10] Safeway on Instacart. And so it knows
+- [06:13] exactly where to go when all he said
+- [06:15] was, "Can you order this for me?" And so
+- [06:17] it's found its way over to Instacart.
+- [06:19] and it's starting to search. You can see
+- [06:21] how it like types way faster than
+- [06:25] >> um and
+- [06:25] >> I pride myself in my typing speed and
+- [06:27] this is just blown me out of the water.
+- [06:30] >> Exactly. And it started adding items to
+- [06:32] the cart already.
+- [06:33] >> So this isn't exactly a brand new
+- [06:35] concept, but now it's finally accessible
+- [06:38] to everyone. Well, everyone who has a
+- [06:41] Mac and a Chachib account. And on that
+- [06:44] note, I am one of those people. So,
+- [06:46] let's fire it up and try it out. All
+- [06:49] right, so I just downloaded Chatbt
+- [06:51] Atlas. I've connected it with Safari
+- [06:53] because that's the browser I use the
+- [06:55] most. And I also had to give it full
+- [06:57] access to my disc. So, it has all my
+- [06:59] data now. And let's try it out. All
+- [07:01] right, so I just started getting back on
+- [07:03] the ice after a couple of years of not
+- [07:05] playing hockey, and I realized my gloves
+- [07:07] have a huge hole in them. So, I think
+- [07:09] it's time to get some new gloves. And
+- [07:12] what better gloves to get than the ones
+- [07:14] my favorite player has? Now, I can maybe
+- [07:16] just figure out on my own what gloves he
+- [07:18] wears by either searching up the brand
+- [07:20] or making a couple more Google searches,
+- [07:22] but instead what I'm going to do is ask
+- [07:25] Chachib Atlas. So, I'm going to go to
+- [07:27] this plus here and click the agent mode.
+- [07:30] I'm then going to ask Tachibbt Atlas,
+- [07:32] "What gloves does Conor McDavid wear and
+- [07:35] can you buy them for me?" Okay, so as I
+- [07:38] clicked enter, this thing actually
+- [07:39] popped up here. Agent mode may introduce
+- [07:42] risk. And then it shows me that there's
+- [07:44] a loggedin mode. In loggedin mode, Hajbt
+- [07:46] can access your loggedin sites, making
+- [07:48] it faster to complete tasks or in logged
+- [07:50] out mode to have agent mode use sites
+- [07:52] without being logged in as you. So, I'm
+- [07:55] going to go ahead and click start
+- [07:56] logging in. So, it's starting to find
+- [07:58] which gloves Conor David wears. It's
+- [08:01] applying the response.
+- [08:04] It's now searching the web completely
+- [08:06] autonomously, doing actually multiple
+- [08:09] searches simultaneously. I can still ask
+- [08:11] follow-up questions. I can take control
+- [08:13] at any time. It's even looking at
+- [08:15] websites based on my location, which is
+- [08:18] pretty interesting. And here we go. It
+- [08:20] found me some gloves. It actually found
+- [08:22] me gloves that are on sale. I believe
+- [08:25] these are the ones that he does wear.
+- [08:27] It's adding them to the bag. Let's see
+- [08:29] how far it takes this. So, it seems to
+- [08:32] be stuck in a loop right now. It just
+- [08:34] keeps clicking the size and then add to
+- [08:36] bag. But add to bag is not working
+- [08:38] because I guess I'm not logged into CCM.
+- [08:41] Let's see. Troubleshooting site. Oh,
+- [08:44] here we go.
+- [08:47] It's opening multiple web pages. So,
+- [08:50] there we go. It actually found me the
+- [08:51] gloves. It only took a few minutes. And
+- [08:54] now it asked me if I want to check out.
+- [08:56] So, I'm probably actually going to go
+- [08:57] ahead and do that. But, let's test
+- [08:59] something else out. All right. So, in
+- [09:01] this other test, I'm actually going to
+- [09:02] open up Twitter. So, I want to see if
+- [09:05] Chajibbt can actually write a tweet for
+- [09:08] me. Since we're currently testing out
+- [09:09] Chachib Atlas, I guess we can just let
+- [09:12] our followers know. Can you post a tweet
+- [09:15] letting my followers know that I'm
+- [09:18] testing out ChachiBT Atlas and how it's
+- [09:21] going? Let's see what it does. Okay, so
+- [09:24] it just gave me a draft. Um, but can it
+- [09:28] actually do it? Let's see. Let's go to
+- [09:30] agent mode.
+- [09:32] Can you actually
+- [09:35] post the tweet though? Okay, so it's
+- [09:38] getting started. I honestly like this
+- [09:40] this kind of animation here, I guess.
+- [09:44] Um, that shows you that the agent is in
+- [09:46] progress. That's super helpful. And
+- [09:50] there we go. Your tweet draft is ready
+- [09:52] and waiting on X. Would you like me to
+- [09:54] click post? So, I actually like that it
+- [09:56] finishes the tweet and then before it
+- [09:58] actually postes it, it asks you. So,
+- [10:00] let's see. Uh, I guess this tweet is
+- [10:02] fine. Feels like the internet just got
+- [10:03] an upgrade. Sure. Let's go ahead and
+- [10:06] instead of me posting it, let's tell it
+- [10:07] to post it.
+- [10:10] Yes, go ahead and post it, please.
+- [10:15] So, there you go. It actually went ahead
+- [10:17] and posted the tweet. If you want to
+- [10:19] check just to make sure, you can go
+- [10:20] check out my Twitter account, AIopium.
+- [10:22] Also, feel free to drop a follow while
+- [10:24] you're there. But seriously, this is
+- [10:26] actually pretty insane. I mean, I know
+- [10:28] we didn't do anything too crazy right
+- [10:29] now, but you can see how useful this
+- [10:32] could be. I mean, again, it's literally
+- [10:34] like having Chachib by your side while
+- [10:36] you browse the web or social media. So,
+- [10:39] yeah, let me know what you guys think of
+- [10:41] Atlas and of AI browsers in general. It
+- [10:44] really does feel like this could be the
+- [10:46] new way we interact with the web and
+- [10:48] maybe even social media. But, it's still
+- [10:51] early days. It's going to take time for
+- [10:53] this to catch on. Although honestly,
+- [10:56] traditional web browsing has already
+- [10:57] been slowly dying because of AI, so
+- [11:00] maybe not. But what do you guys think?
+- [11:02] Is this the future of the internet or
+- [11:04] just Google search on steroids? Either
+- [11:07] way, this is a big move from OpenAI and
+- [11:09] it'll be interesting to see how Google
+- [11:11] responds. Anyways, thanks for watching.
+- [11:14] I hope you guys enjoyed this breakdown.
+- [11:16] If you did, please feel free to drop a
+- [11:18] like, hit that subscribe button, and as
+- [11:20] always, I'll be catching you guys in the
+- [11:22] next

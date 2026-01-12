@@ -1,0 +1,885 @@
+---
+title: "Transcript: TV8SyEuSMIA"
+video_id: "TV8SyEuSMIA"
+video_url: "https://www.youtube.com/watch?v=TV8SyEuSMIA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:28:18"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TV8SyEuSMIA
+
+- URL: https://www.youtube.com/watch?v=TV8SyEuSMIA
+- Retrieved at: 2025-12-30T10:56:57+09:00
+
+## Text
+
+- [00:00] At its core, building AI agents is
+- [00:02] rather simple when you just have an LLM
+- [00:04] that you want to connect to a couple of
+- [00:06] tools, especially with the help of no
+- [00:08] code tools like N8N and AI coding
+- [00:11] assistants. But when you really want to
+- [00:12] start to tackle more complex problems
+- [00:14] and build truly robust AI agents, it
+- [00:17] becomes a lot less of a walk in the
+- [00:19] park. And something I get asked all of
+- [00:21] the time is how do you just look at a
+- [00:23] problem and know the AI agent to build
+- [00:25] for that and the different components to
+- [00:27] build into it? And that is what I want
+- [00:29] to share with you right now. I want to
+- [00:31] dive into my powerful mental model for
+- [00:33] building agents. Because essentially
+- [00:35] over the years, I've built a framework
+- [00:37] for myself for taking any complex
+- [00:39] problem revolving around AI agents and
+- [00:42] breaking it down into bite-sized chunks
+- [00:44] to make it easy to build. Let me show
+- [00:46] you what I mean. Clearly, you can see
+- [00:48] that I have a lot in store for you. I'm
+- [00:50] holding nothing back sharing my full
+- [00:51] mental model with you. and we're taking
+- [00:53] advantage of how visual N8N is to make
+- [00:56] this very easy to follow along and I've
+- [00:58] got a lot of very easy to grasp examples
+- [01:01] as well. So I want to make this as
+- [01:02] simple as possible covering the concepts
+- [01:05] that you can combine together to then
+- [01:07] make more advanced AI agents. So, the
+- [01:09] mental model that I'm going to be
+- [01:10] sharing with you now, I'm calling the
+- [01:12] seven node blueprint for AI agents.
+- [01:14] Because any AI agent that you could
+- [01:16] possibly dream of making can be broken
+- [01:18] down into components that are going to
+- [01:20] fall into one of seven categories. And
+- [01:22] those seven categories are what I want
+- [01:24] to focus on here. Because really, any
+- [01:27] problem in life can be made easier by
+- [01:29] breaking it down into smaller
+- [01:31] components. And that is what this
+- [01:32] blueprint gives us. It's a guide to do
+- [01:34] that for building AI agents. And so
+- [01:37] we'll dive into these seven different
+- [01:39] nodes. But the first thing that I want
+- [01:40] to cover with you is the core principle
+- [01:42] that guides this entire process. The
+- [01:45] reason I call it nodes, the seven node
+- [01:48] blueprint is because of this right here.
+- [01:51] This is just so important to understand
+- [01:53] that agents under the hood are really
+- [01:55] just graphs. Well, that's cool, Cole.
+- [01:57] But why is that important? What does
+- [01:59] that even really mean? Well, let me take
+- [02:01] a couple minutes and explain this to you
+- [02:02] because this really is the core of our
+- [02:04] mental model. And I'll start here with a
+- [02:06] diagram from the lang chain
+- [02:08] documentation covering what an AI agent
+- [02:10] is at a high level. So we have the input
+- [02:12] from a user. This goes into an LLM that
+- [02:15] can take actions on our behalf with
+- [02:16] tools. And then we produce the final
+- [02:18] output after the agent is done running.
+- [02:21] And if you take a look at this diagram
+- [02:23] closely, you'll see that this is really
+- [02:25] a graph. We have this cycle here. And
+- [02:27] this applies to any AI agent you could
+- [02:29] possibly make where you have this cycle
+- [02:31] of the LLM deciding to use a tool,
+- [02:34] getting feedback and reasoning about
+- [02:35] what happened when it used that tool,
+- [02:37] and then it can invoke more tools. Like
+- [02:39] this cycle can repeat any number of
+- [02:41] times just based on the reasoning from
+- [02:43] the LLM. And this is very different from
+- [02:45] traditional automations and workflows
+- [02:47] where we follow a much more linear and
+- [02:50] deterministic path. We always have some
+- [02:52] input that is processed in some way in
+- [02:55] the exact same way every time and then
+- [02:57] we have the output at the end. But with
+- [02:59] agents, we have these cycles of
+- [03:01] reasoning now with these tool usage and
+- [03:03] we can have agents that are working with
+- [03:04] each other and we don't necessarily know
+- [03:06] like for one execution. Is one agent
+- [03:08] going to use this tool or call upon this
+- [03:11] agent? We have that non-deterministic
+- [03:13] behavior that is facilitated by the
+- [03:15] cycles that we have in a graph. And so
+- [03:18] that is why agents can be thought of as
+- [03:20] graphs. And the reason that that is so
+- [03:21] powerful for us is because when we have
+- [03:24] these different cycles and these
+- [03:25] different nodes in a graph, that allows
+- [03:27] us to reason about how we break the
+- [03:29] agent into smaller components. And
+- [03:31] that's what we're going to dive into in
+- [03:32] this video is taking a look at more
+- [03:34] complex AI agents, the different parts
+- [03:36] that go into it, how we can focus on
+- [03:39] just subsections of the graph and build
+- [03:41] those out. And also, you can kind of
+- [03:43] think of these graphs as just being a
+- [03:45] bunch of Lego bricks that are put
+- [03:46] together. Like you have a guardrail for
+- [03:48] your agent. We'll get into that. We have
+- [03:50] your tools. We have your fallbacks. And
+- [03:52] you can build each of those
+- [03:53] individually, combine it all together to
+- [03:55] make a truly robust AI agent. And that
+- [03:57] is what we're going to be doing together
+- [03:59] with our framework. So here's an example
+- [04:01] of an AI agent that uses all seven nodes
+- [04:04] in its process. And this is supposed to
+- [04:06] look a little daunting for you. That's
+- [04:08] the point that I'm driving home is that
+- [04:10] we have these more robust agents that
+- [04:12] might seem hard to digest. We can break
+- [04:14] them into smaller components. And so I'm
+- [04:16] going to be walking you through each of
+- [04:18] the different components here like
+- [04:19] long-term memory and our fallbacks and
+- [04:22] our guardrails, focusing on those
+- [04:23] individually. Then we'll come back to
+- [04:25] this example. See how they all combine
+- [04:27] together to make this more robust AI
+- [04:30] agent. And for each of the examples,
+- [04:32] including this one right here, I even
+- [04:33] built out a diagram so you can really
+- [04:35] see what's going on under the hood and
+- [04:37] an even simpler level than the N8N
+- [04:39] workflow itself. And so what you see
+- [04:41] here is essentially what we have in this
+- [04:44] diagram. And there's a lot of components
+- [04:46] here, but that's why we're going to
+- [04:47] focus on each of them one at a time.
+- [04:50] Now, let's dive into each of the seven
+- [04:52] nodes. Then I'll show you an example for
+- [04:54] them all after as well. So the first
+- [04:56] node that we have is our LLM node. This
+- [04:59] is the brain of the agent that has all
+- [05:01] the reasoning and decision-making. And
+- [05:03] so when you're interacting with GBT 4.1
+- [05:06] or Gemini 2.5 Pro or Claude 3.7 sonnet,
+- [05:09] all these LLMs that you're familiar
+- [05:10] with, they are all operating within the
+- [05:12] LLM node of our agentic workflow. And
+- [05:15] then when they want to take action on
+- [05:17] our behalf, that is when they leverage
+- [05:19] the tool node. So this is our node that
+- [05:21] performs the web search or the code
+- [05:23] execution database queries and the
+- [05:25] decisions made by the LLMs are going to
+- [05:27] be invoking these tool nodes when they
+- [05:29] want to perform actions for us. And then
+- [05:31] the third type of node is a control
+- [05:34] node. And these are very powerful
+- [05:35] because AI agents are pretty
+- [05:37] unpredictable because we're giving them
+- [05:39] the reasoning ability to decide what
+- [05:41] they want to do. And so control nodes
+- [05:44] add a little bit of deterministic
+- [05:46] behavior to our Gentic workflows because
+- [05:48] instead of using an agent to run the
+- [05:50] logic here, we're just using regular
+- [05:52] workflows or code. So we have some more
+- [05:54] deterministic behavior built into our
+- [05:57] flow. And so this will handle things
+- [05:58] like filters, conditions, routing as
+- [06:01] well. So if we have output from an agent
+- [06:02] that is going to dictate what path we go
+- [06:04] down in a graph, the control node is
+- [06:07] going to handle that. It's going to
+- [06:09] route based on what the AI agent
+- [06:10] outputed, and it's going to do that in a
+- [06:12] deterministic way. And then we have our
+- [06:14] memory node. This is both for long-term
+- [06:16] memory and short-term memory. So we have
+- [06:18] vector databases for long-term memory,
+- [06:21] conversation history for short-term
+- [06:23] memory. Typically what you'll have in
+- [06:25] your agentic workflows where you want to
+- [06:27] implement this is you'll have some kind
+- [06:29] of node at the start and the end to
+- [06:31] manage the long-term memory for your
+- [06:33] agent as it is conversing with your
+- [06:35] users or yourself. And then we have
+- [06:37] guardrail nodes and these are crucial to
+- [06:40] make our AI agents much more reliable.
+- [06:42] You have both input guardrails and
+- [06:44] output guardrails. So before you are
+- [06:46] using an LLM that's connected to a bunch
+- [06:48] of tools, you might want to validate the
+- [06:50] user input or validate the output of the
+- [06:53] agent against some rules that you have
+- [06:55] defined. And you can use LLM as these
+- [06:57] guardrails. You can use deterministic
+- [06:59] code. We'll get into that more in a
+- [07:00] little bit, but guardrails are just so
+- [07:02] important to make sure that we're
+- [07:03] filtering bad outputs, that we're
+- [07:05] validating the format of inputs and
+- [07:07] outputs. super crucial just to make sure
+- [07:10] that our AI agents don't run a muck and
+- [07:12] totally hallucinate something that is
+- [07:14] going to make the whole agent fail
+- [07:16] entirely. And then we have fallback
+- [07:18] nodes. So when something goes wrong with
+- [07:20] our AI agent, instead of just ignoring
+- [07:22] the error or crashing the application,
+- [07:25] most of the time we want to do something
+- [07:26] specific like have our AI agent retry
+- [07:29] whatever it was doing or producing some
+- [07:32] default response for the user letting
+- [07:34] them know that there was an error and
+- [07:35] how they could try again. Whatever that
+- [07:37] might be, we just want to make sure that
+- [07:38] we handle errors in our agentic
+- [07:40] workflows gracefully. And then the last
+- [07:43] kind of node is the user input node. So
+- [07:45] a lot of times even in the middle of an
+- [07:47] agent operating, we want to get some
+- [07:49] kind of feedback from the user or
+- [07:52] confirmation that they want to move
+- [07:53] forward with whatever tool the agent
+- [07:55] decided to use. So like before we
+- [07:57] actually use the agent to book a hotel
+- [07:59] with Airbnb, maybe we want to send those
+- [08:02] details to the human and confirm like do
+- [08:04] you actually want to do this? Like does
+- [08:05] this look good to you? And so this kind
+- [08:07] of interrupt that we have, it's called
+- [08:09] human in the loop. if it's an interrupt
+- [08:10] that we have in our agentic workflow
+- [08:12] waiting for the input from the human
+- [08:14] before we continue and I'll show you
+- [08:15] what that looks like as well. So these
+- [08:17] are all of the seven nodes and we're
+- [08:19] going to dive into an example for each
+- [08:21] of them and then at the end I'll go back
+- [08:23] to that more complex example combine
+- [08:25] everything together so you can see very
+- [08:28] clearly how we can start simple build
+- [08:31] like with the Lego bricks like I was
+- [08:32] saying earlier into something that is
+- [08:34] more robust. So this first example
+- [08:36] should look very familiar to you because
+- [08:38] this graph that we have which represents
+- [08:40] this NAN workflow looks exactly the same
+- [08:43] as the diagram that we saw earlier. We
+- [08:45] have the input that goes into the LLM
+- [08:48] and tool loop and then we have the
+- [08:50] output at the end. And this is the core
+- [08:52] of building any AI agent. So if you've
+- [08:54] built any agent in N8N before, this
+- [08:56] should look very familiar and simple to
+- [08:58] you. And we're knocking the first three
+- [09:01] out of the seven nodes down with this
+- [09:03] single workflow because we have the LLM,
+- [09:05] we have memory, at least short-term
+- [09:07] memory in this case, and then we have a
+- [09:09] single tool that we're giving to our
+- [09:10] agent. Specifically, this tool allows it
+- [09:12] to create records in our Air Table table
+- [09:15] that we have right here where we're just
+- [09:17] going to list out a bunch of dishes that
+- [09:18] we have. And so I can go back to my
+- [09:20] agent. I can now ask it to make two new
+- [09:23] dishes. And because we're asking it to
+- [09:25] make two dishes, it's going to invoke
+- [09:27] this cycle two times. And so we can see
+- [09:29] that right here that we used our air
+- [09:32] table tool two different times. And now
+- [09:34] we have two new dishes. For some reason,
+- [09:37] GBT 4.1 Mini just loves spicy mango.
+- [09:40] Like it repeats this a lot even from my
+- [09:42] earlier testing too, which is kind of
+- [09:43] funny. But anyway, we built two new
+- [09:45] dishes, five and six, and we used that
+- [09:48] tool two times to accomplish that.
+- [09:49] Really, we used each of these nodes two
+- [09:51] times. So, we definitely had a lot of
+- [09:53] cycles going on here in this graph
+- [09:55] managing our tools and memory. So, in
+- [09:57] the last example, I showed you a memory
+- [09:59] node with short-term memory, but usually
+- [10:02] when I think of memory nodes, it's more
+- [10:03] for long-term memory. So, I wanted to
+- [10:05] give you this example here. So, in this
+- [10:08] graph, before the input goes directly
+- [10:10] into the LLM, we're actually adding in
+- [10:12] this memory retrieval step. And in a
+- [10:14] more robust memory implementation,
+- [10:16] you'll typically have this as a vector
+- [10:18] database. you'll pull relevant memories
+- [10:20] to then feed into the prompt for the
+- [10:21] LLM. And then we have a step at the end
+- [10:24] of the graph execution as well to
+- [10:26] extract relevant memories from our
+- [10:28] current conversation and store those at
+- [10:30] the end. And so usually you'll want to
+- [10:32] implement something like the mem zero
+- [10:34] library for long-term memory. And you
+- [10:36] can see with their add function when you
+- [10:37] add memories to the vector database, it
+- [10:40] itself is a graph, which just further
+- [10:42] proves my point that agents are just
+- [10:44] graphs under the hood. But anyway, so
+- [10:46] you'd usually want a more robust
+- [10:47] implementation like that. For a basic
+- [10:49] example here, I'm just using a Google
+- [10:51] doc to manage all of our long-term
+- [10:54] memories. And so I can say something
+- [10:55] like I hate spicy mango. And this is
+- [10:58] going to then be fed into the LLM. It's
+- [11:00] going to extract that memory. Like right
+- [11:02] here, it extracts the memory. User
+- [11:04] dislikes spicy mango. We're doing that
+- [11:06] with an LLM that runs after our primary
+- [11:09] agent. And then it's going to store that
+- [11:10] in our Google doc. And so sure enough,
+- [11:12] our Google doc now has the information
+- [11:14] that the user dislikes spicy mango. And
+- [11:16] so now I'll refresh the conversation. So
+- [11:18] we're not using short-term memory. This
+- [11:20] is using long-term memory. I'll say,
+- [11:22] "Make me a dish based on what I don't
+- [11:25] hate." Just some really silly example
+- [11:28] here. So it's going to pull the memories
+- [11:30] that we have from our Google doc. It's
+- [11:32] going to feed that in as a part of the
+- [11:34] prompt to the LLM. So right here, we're
+- [11:36] we're adding in the long-term memory,
+- [11:38] and then it's going to produce the dish
+- [11:40] for us. Since you don't like spicy
+- [11:42] mango, here's another dish and it gives
+- [11:44] us a sweet mango chicken salad. So, it
+- [11:47] stuck with the mango still, but at least
+- [11:49] it's not spicy. That's actually
+- [11:50] hilarious. But yeah, so you can see that
+- [11:52] it leveraged the long-term memory there.
+- [11:54] Typically, we would do something like
+- [11:55] storing the memories in a vector
+- [11:57] database instead of just a Google doc.
+- [11:59] But that just gives us a very visual
+- [12:01] example here. The sponsor of today's
+- [12:02] video is Bright Data and their very
+- [12:04] impressive MCP server. This is your
+- [12:07] universal solution to give your AI
+- [12:10] agents unblockable real-time access to
+- [12:13] the web. And this is much more than just
+- [12:15] web search. This is giving your agents
+- [12:17] the ability to use the internet any way
+- [12:19] a human could. They have a whole suite
+- [12:21] of services to make sure that you can
+- [12:23] handle any kind of web page, solve
+- [12:25] captures automatically, handle complex
+- [12:27] JavaScript, not get blocked from sites.
+- [12:30] They have it all. And they even have
+- [12:31] specific web scrapers that are built for
+- [12:33] you to use out of the box for pretty
+- [12:35] much any platform you could dream of.
+- [12:37] And the star of the show that I want to
+- [12:39] show you here is their MCP server. You
+- [12:41] can take all of their scrapers and
+- [12:43] proxies and other services and bring
+- [12:44] them right into your AI agents. So in my
+- [12:47] case, I'm using Pantic AI, my favorite
+- [12:49] agent framework to connect my agent in
+- [12:52] just a few lines of code to the Bright
+- [12:54] Data MCP server. So, with this script in
+- [12:56] total, less than 100 lines of code, I
+- [12:58] now have an AI agent that can use the
+- [13:00] internet in pretty much any way
+- [13:02] imaginable. And so, for example, I can
+- [13:04] have it get me the BIOS for Amazon and
+- [13:06] OpenAI from LinkedIn. And it'll
+- [13:08] intelligently use the LinkedIn specific
+- [13:10] scraper as one of the tools that the
+- [13:12] Bright Data MCP server gives me. And
+- [13:14] take a look at that. Here are the BIOS
+- [13:16] for Amazon OpenAI. I can confirm, I
+- [13:19] checked this off camera, this is indeed
+- [13:21] the correct BIOS. This is looking so
+- [13:23] good. It's lightning fast. And I can
+- [13:24] even ask it something else like, "Give
+- [13:26] me the flights from Minneapolis to San
+- [13:28] Francisco today." And it'll figure out
+- [13:29] the best flights for me and recommend
+- [13:31] them here. Take a look at that. All
+- [13:32] right. Gave me four options. This is
+- [13:34] looking so good. And it's just amazing
+- [13:36] how it can intelligently pick the right
+- [13:37] tool to use so that basically no matter
+- [13:39] what I want to get on the internet.
+- [13:40] Bright Data is able to do that for me. I
+- [13:43] just love it. And so I'll have a link
+- [13:44] below to Bright Data and their MCP
+- [13:47] server, they've got free credits to get
+- [13:48] you started. So definitely dive in, get
+- [13:50] this kind of capability into your own AI
+- [13:52] agents. It's just so powerful. So, next
+- [13:55] up, we have both the user input and
+- [13:57] control nodes. And these two different
+- [13:59] types of nodes often go in tandem
+- [14:01] together, which is why I wanted to give
+- [14:02] you this example. They definitely don't
+- [14:04] have to be used together all of the
+- [14:06] time, though. But what we're doing in
+- [14:07] this case is we are adding in human in
+- [14:09] the loop. And so, our agent has this
+- [14:11] tool to send a Slack message. But before
+- [14:13] we actually follow through and send that
+- [14:15] message, we're going to get the human
+- [14:16] approval. And so, we'll see this in a
+- [14:18] little bit. But when we get that
+- [14:20] approval request, that comes into our DM
+- [14:22] here in Slack. And then when we approve
+- [14:24] the message, it'll send it here in this
+- [14:26] research channel saying here is the
+- [14:28] approved message. And then just for
+- [14:30] demonstration purposes, if we deny the
+- [14:32] message, like we don't approve it, it'll
+- [14:34] still send it within Slack, but it'll
+- [14:36] just say that this was the uh
+- [14:38] disapproved message. So going back to
+- [14:40] the workflow here, the way that this
+- [14:42] goes is that we have the human in a loop
+- [14:44] that's then connected to our control
+- [14:46] node. So this is that deterministic
+- [14:48] routing logic. Like I mentioned earlier,
+- [14:50] control nodes are great for routing
+- [14:51] because we want the same thing to happen
+- [14:54] every single time we approve the message
+- [14:56] or deny the message. So that's what
+- [14:58] we're doing here. We don't have this
+- [14:59] agent reasoning about what to do based
+- [15:01] on the approval. This is the same
+- [15:02] deterministic code that'll run every
+- [15:04] single time. And so let's go ahead and
+- [15:06] do something. I'll say make a new dish
+- [15:09] and send it in Slack. And so it's going
+- [15:12] to now leverage this subworkflow tool.
+- [15:15] But we'll see in a second that this will
+- [15:16] turn purple because now it is waiting
+- [15:19] for our approval. This is our signal in
+- [15:20] N8N that it's waiting for us to do
+- [15:22] something before it continues with the
+- [15:24] rest of this workflow. So I'll go on
+- [15:26] Slack, go into my private DMs, and there
+- [15:28] we go. It is introducing a new dish,
+- [15:30] citrus infused grilled chicken with
+- [15:32] mango avocado. So it still has mango in
+- [15:35] the recipe. I love it. All right, so I'm
+- [15:37] going to go ahead and approve this here.
+- [15:38] We get this popup from N8N letting us
+- [15:40] know that the workflow completed. We can
+- [15:42] see this here. Everything is green now
+- [15:44] in N8N. And then if I go back into the
+- [15:46] research channel, here we go. Here is
+- [15:48] the approved message. And we got our new
+- [15:50] dish. Looking good. And so in this case,
+- [15:53] the control node went down this top path
+- [15:55] in our graph. Sending that message
+- [15:57] saying that it was approved. And then I
+- [15:59] can just restart the conversation. Send
+- [16:01] the same message here. We can see what
+- [16:02] happens when we go down the bottom path.
+- [16:04] And so it'll ask for our approval again.
+- [16:07] This time it made spicy mango again. I
+- [16:10] don't know why it keeps doing that.
+- [16:11] There's literally no conversation
+- [16:12] history. It doesn't know that it did
+- [16:14] that a bunch already. So I have no idea
+- [16:16] why it keeps coming up with this over
+- [16:17] and over again. But this time I'll say
+- [16:19] no. You already did that. I'm going to
+- [16:20] decline now. Okay. So action recorded
+- [16:23] and then into the research channel. Here
+- [16:25] is the declined message because I don't
+- [16:27] want spicy mango for the 100th time. I
+- [16:30] have no idea why 4.1 Mini keeps doing
+- [16:32] that. But yeah, there we go. We have
+- [16:33] human in the loop with control nodes
+- [16:35] together making this all possible for us
+- [16:37] to approve things that can oftenimes be
+- [16:39] high risk. Like if you have your agent
+- [16:41] book a hotel or send an email to your
+- [16:44] boss, a lot of times it could
+- [16:45] hallucinate in a way where you'd want to
+- [16:47] disapprove and have it retry, whatever
+- [16:49] that might be. We just want to add
+- [16:50] ourselves into the mix to make sure that
+- [16:52] we have some say in what the agent is
+- [16:54] doing. Now we have the allimportant
+- [16:56] guardrail nodes. And this is how you can
+- [16:58] make your agents more reliable by
+- [17:00] validating the inputs and outputs to
+- [17:02] your agentic workflow. So we have both
+- [17:04] input guard rails and output guardrails.
+- [17:07] And so this graph is a little bit
+- [17:08] different than what we actually
+- [17:09] implemented here because I just have an
+- [17:11] output guardrail to make this simple.
+- [17:13] But I wanted to show both and I'll give
+- [17:15] you an example of both really quickly
+- [17:16] and then we'll dive into this example.
+- [17:18] So for an input guardrail, let's say
+- [17:20] that you're building a travel planning
+- [17:22] assistant. You give the agent your
+- [17:24] budget, where you want to go, for how
+- [17:25] long, and it'll plan an itinerary for
+- [17:27] you. As a good input guardrail, you
+- [17:29] might want to have an LLM that will
+- [17:30] quickly evaluate if the budget is
+- [17:32] actually reasonable for the trip. And
+- [17:34] then if it's not, you would have some
+- [17:36] kind of fallback where you tell the user
+- [17:38] like, "Hey, your budget is not
+- [17:39] reasonable. You need to adjust that
+- [17:41] before you actually interact with the
+- [17:43] travel planning assistant." That'd be a
+- [17:45] really good input guard rail because if
+- [17:46] you have the agent try to create an
+- [17:48] itinerary and the budget is just
+- [17:50] ridiculously low, then it's going to
+- [17:52] hallucinate a lot. Like this kind of
+- [17:53] input guard rail just prevents that from
+- [17:55] ever even potentially happening with our
+- [17:58] travel planning assistant. And then as a
+- [18:00] good output guardrail, you want to maybe
+- [18:02] make sure that the itinerary that the
+- [18:04] agent produced actually is the amount of
+- [18:07] days that the user said they want to go
+- [18:08] on their trip for. So just be a really
+- [18:10] simple thing just analyzing the output
+- [18:12] making sure that the days match and then
+- [18:14] if it doesn't you would have some kind
+- [18:15] of fallback. Otherwise you would just
+- [18:16] then output the final itinerary to the
+- [18:18] user. So good examples there of input
+- [18:20] and output guardrails. What we're doing
+- [18:22] in our case is we're going back to the
+- [18:24] whole generating dishes here. We have
+- [18:25] this agent that will make a dish based
+- [18:27] on our request. And then we're going to
+- [18:30] feed that into this output guardrail.
+- [18:32] This is a critic node to make sure that
+- [18:34] we're actually giving the necessary
+- [18:36] information for our dish like including
+- [18:38] the name and the description. Also the
+- [18:40] origin of the dish. This agent, this
+- [18:43] critic is going to output true or false.
+- [18:46] Did this agent do a good job at giving
+- [18:49] us a dish? And if it did do a good job,
+- [18:51] then we're just going to output that to
+- [18:53] the user. But if it didn't, then we're
+- [18:55] going to retry. So we're going down this
+- [18:57] bottom path in the graph. We're going
+- [18:59] back to our original agent regenerating
+- [19:02] the dish, but also with the feedback
+- [19:04] from our critic node given so it knows
+- [19:06] how to make a better dish this time. And
+- [19:08] typically what you would do with these
+- [19:10] kind of guardrail flows where you want
+- [19:12] to retry the process is you would
+- [19:14] actually have this loop go all the way
+- [19:16] back around to the original agent. But
+- [19:19] then you have to handle things making
+- [19:20] sure you don't have infinite loops and
+- [19:21] stuff. And so I have it set up in this
+- [19:23] way just to keep it really simple here.
+- [19:24] But just know that this would be more of
+- [19:26] a cycle in the graph typically where
+- [19:28] you'd have the self-evaluation or
+- [19:30] critique whatever go back to the
+- [19:32] original agent when you wanted to retry.
+- [19:34] But anyway, that is our guardrail. And
+- [19:35] so now what I can say is let me start a
+- [19:38] new conversation. I'll just say make me
+- [19:40] a dish that isn't spicy mango. We'll
+- [19:43] cover this in the full example later
+- [19:44] making sure we don't repeat the same
+- [19:46] recipe. But in this case we created a
+- [19:49] dish. How about a classic chicken
+- [19:51] Alfredo? But we didn't give enough
+- [19:54] obviously because the critic note here
+- [19:55] said valid is false. And then it said
+- [19:58] the feedback is the response does not
+- [19:59] include the origin of the dish. And so
+- [20:01] that's one of the things that we had
+- [20:03] this output guardrail check making sure
+- [20:05] that we have an origin. And so now that
+- [20:07] goes back to our primary agent where
+- [20:09] this time it's going to give us a dish
+- [20:12] and then tell us the origin as well.
+- [20:14] Take a look at that. All right. So we
+- [20:16] got better output this time. Obviously,
+- [20:18] this is a very silly example, but you
+- [20:20] can think about how your output, you
+- [20:22] want specific things included like the
+- [20:24] origin of the dish, and this is your way
+- [20:26] just to make sure that you can evaluate
+- [20:28] the output to ensure that and then retry
+- [20:30] if that isn't the case. So, guardrails
+- [20:32] are super important, just reducing
+- [20:34] hallucinations, making sure the output
+- [20:36] matches what you actually need. So, the
+- [20:38] last kind of node that we have to cover
+- [20:39] here is our fallback nodes, and these
+- [20:41] are super important to make sure that
+- [20:43] we're handling errors in our agentic
+- [20:45] workflows gracefully. We don't want to
+- [20:47] just crash our application or ignore the
+- [20:49] errors entirely. And that's what
+- [20:50] fallback nodes are all about. And so
+- [20:52] this is going to look very similar to
+- [20:54] our control node example from earlier
+- [20:56] because usually you use control nodes
+- [20:58] with fallback nodes. And so we have our
+- [21:00] example where we wait for approval to
+- [21:02] send a Slack message. If we approve the
+- [21:05] message, then we will go ahead and send
+- [21:06] that. But now if we deny it, we're just
+- [21:08] going to throw an error in the workflow.
+- [21:10] And you can do something very similar in
+- [21:11] Python code or whatever as well. within
+- [21:13] N8N, we handle that with our error
+- [21:16] trigger. So this is the process that
+- [21:17] we're going to run anytime there's any
+- [21:19] kind of error in our AENTIC application.
+- [21:21] And so the powerful thing with fallbacks
+- [21:23] is we can throw this error in any part
+- [21:25] of our Aentic workflow, like not just
+- [21:27] here. And then we're going to handle
+- [21:29] those errors all in the same consistent
+- [21:31] way. In this case, just sending a
+- [21:33] message alerting that there's an error.
+- [21:35] This could be an email. It could be some
+- [21:36] default user response that you give back
+- [21:39] letting them know that they need to
+- [21:40] retry. whatever that might be, you can
+- [21:42] handle that in this part of our fallback
+- [21:44] workflow. And so in this graph, we can
+- [21:46] see what this looks like. We have our
+- [21:48] typical LLM into a loop. This goes to a
+- [21:50] control node where we're either going to
+- [21:52] take some action and then give the
+- [21:53] output or we're going to hit some kind
+- [21:55] of error and then go through this
+- [21:57] fallback process. And so in this case, I
+- [21:59] don't have an agent here because I just
+- [22:00] want to keep it really simple. But I'm
+- [22:02] going to test this workflow. It's going
+- [22:04] to then ask me for approval. Please
+- [22:06] approve or decline this message. I'm
+- [22:08] going to approve it this time. and we'll
+- [22:09] see it go down this path uh of not an
+- [22:12] error like we just sent the message
+- [22:14] here. But then if I test the workflow
+- [22:16] again and this time I decline it. Then
+- [22:19] we'll see it go down the path of the
+- [22:21] error. And if I go to my execution
+- [22:23] history, I can take a look at this. It
+- [22:25] executed the error workflow. So I got to
+- [22:27] zoom all the way in. Go back here. Now
+- [22:30] it executed the error trigger here. You
+- [22:32] can see that the error is an error has
+- [22:34] occurred because that's the message that
+- [22:36] I sent in here. And that is what I'm
+- [22:38] going to send in this slack message. So
+- [22:39] now in Slack, I'm just going to message
+- [22:42] myself. So I say right here, an error
+- [22:44] has occurred. So instead of sending it
+- [22:46] in the research channel, I'm just
+- [22:47] alerting myself internally that there is
+- [22:49] an issue with this agentic workflow.
+- [22:51] That is what we are able to do with
+- [22:53] fallback nodes. Super powerful. Now here
+- [22:56] is the big payoff. We can go back to our
+- [22:58] full example. Now that we covered each
+- [23:00] of the different nodes, we can see how
+- [23:02] they combine together to build something
+- [23:04] more complex like this agentic workflow.
+- [23:06] So even though there's a lot going on
+- [23:08] here, we can break it down step by step
+- [23:10] to make it very very simple. And so let
+- [23:12] me do that for you. I'll go through each
+- [23:13] part of this process and I'll even point
+- [23:16] out which node is being used in each
+- [23:18] part. And so right off the bat, we are
+- [23:20] fetching our long-term memory at the
+- [23:22] start just like we did in our other
+- [23:23] long-term memory example. Then that is
+- [23:25] fed into this primary agent. And this is
+- [23:28] going to again generate a dish for us.
+- [23:30] But this time it has a tool to look at
+- [23:32] what we already have in the menu to make
+- [23:34] sure it doesn't generate a dish that is
+- [23:36] already here, which is good because we
+- [23:38] don't want to generate that stupid spicy
+- [23:40] mango chicken thing for the 100th time.
+- [23:42] And so we have our LLM, our tool nodes,
+- [23:45] our memory nodes that we have for
+- [23:47] long-term and short-term memory. And
+- [23:48] then we also have this guardrail here.
+- [23:50] So we're using what's called an output
+- [23:52] parser to make sure that the format that
+- [23:54] this LLM outputs always has a dish name
+- [23:57] and a dish description. And the reason
+- [24:00] this is a guardrail is because we have
+- [24:01] this autofixing output parser. So if the
+- [24:04] agent doesn't produce the exact format
+- [24:06] that's needed, it's going to retry using
+- [24:08] the secondary LLM to aid in that. And by
+- [24:11] the way, if we were to give this
+- [24:13] guardrail LLM some tools, this would be
+- [24:16] another agent. And that's how you
+- [24:17] implement multi- aent workflows as well.
+- [24:19] You just have to have bunch of these
+- [24:20] agents strung together, or you can use
+- [24:22] agents as tools, like sub agents. And so
+- [24:25] I know I didn't talk too much about
+- [24:26] multi-agent workflows in general with
+- [24:28] this, but if you just have a lot of LLM
+- [24:30] nodes brought together, each with
+- [24:31] different tools, that's how you build
+- [24:33] multi- aent workflows. But anyway, just
+- [24:35] a quick tangent there. So that's our
+- [24:36] guardrail. Then after we create that
+- [24:38] dish and we have the name and the
+- [24:40] description that's guaranteed by our
+- [24:42] guardrail, then we can send the message
+- [24:44] in Slack getting that approval. And then
+- [24:46] we have this control node that's either
+- [24:48] going to hit that same error workflow
+- [24:51] that's going to tell us internally that
+- [24:52] there's an error with our agentic flow
+- [24:54] or we're going to send that dish in
+- [24:56] Slack and then we're going to add that
+- [24:58] dish to air table as well. So because
+- [25:01] this is not an agent performing this
+- [25:02] action, this is yet another control node
+- [25:05] just inserting that meal here in our air
+- [25:07] table base. And then we're going to go
+- [25:09] to the next long-term memory node. just
+- [25:11] using another LLM to extract these key
+- [25:13] memories. Like maybe we gave some
+- [25:14] preference along with our request to
+- [25:17] create a meal. Like we might have said
+- [25:18] something like we like dessert with our
+- [25:20] meal or we like dishes that combine
+- [25:23] sweet and savory. So that's what we have
+- [25:24] in our long-term memories. This will
+- [25:26] keep adding on to that and we'll call
+- [25:28] this node to save the memories as well.
+- [25:30] And then we just have an LLM chain at
+- [25:32] the end here that is going to summarize
+- [25:34] everything and give us back that final
+- [25:35] dish. And so going back to the start,
+- [25:38] we've got LLMs, we got our memory nodes,
+- [25:40] we've got our tools, we have our
+- [25:42] guardrail here, we have human in the
+- [25:44] loop. So we've got that user input, we
+- [25:46] have these control nodes here to manage
+- [25:48] the deterministic code, we have our
+- [25:50] fallback, and then we have long-term
+- [25:52] memory to wrap it up as well. So all of
+- [25:54] these seven types of nodes we have
+- [25:57] implemented in this flow. And so the
+- [25:59] reason that this is powerful for us to
+- [26:01] understand these different components is
+- [26:03] we can reason about what we want to add
+- [26:05] into this by just thinking like does
+- [26:06] this agent need long-term memory? What
+- [26:08] kind of guard rails do I want to
+- [26:09] implement here for input or output
+- [26:11] guardrails? What I want what do I want
+- [26:13] to do when there's an error in my flow?
+- [26:14] What kind of fallback do I want to have?
+- [26:16] We can ask ourselves these questions one
+- [26:18] at a time, breaking down this more
+- [26:21] complex process into something that
+- [26:23] starts to feel a lot simpler when we
+- [26:25] think about it this way. That's the
+- [26:26] power. like it wasn't that hard for me
+- [26:28] to build this full flow when I just
+- [26:30] thought about each of the seven nos and
+- [26:32] what I want to implement here. So now we
+- [26:34] can just test this out. I'll open up the
+- [26:35] chat again and I'll say make me a dish
+- [26:38] that isn't already on the menu. So just
+- [26:41] making sure that it uses this tool to
+- [26:43] check the menu so it can generate a
+- [26:45] brand new dish for me. So it's going to
+- [26:47] do that. It also pull my long-term
+- [26:48] memory so it knows that I like desserts
+- [26:50] with my meal. I like things that are
+- [26:52] sweet and savory. So I'll go over to
+- [26:53] Slack now. See what I need to approve.
+- [26:55] coconut lime shrimp with sweet chili
+- [26:57] couscous. That actually sounds really,
+- [26:59] really good. Like my stomach is gurgling
+- [27:01] right now. So, I'm going to go ahead and
+- [27:02] approve that because that definitely
+- [27:04] sounds good to me. And so, now going
+- [27:05] back to the flow, it's going to send
+- [27:07] that message in Slack. And so, I can see
+- [27:08] that in my research channel. Here we go.
+- [27:11] And then I also have it added to my menu
+- [27:13] here in Air Table. Take a look at that.
+- [27:16] And then let's see if there's any
+- [27:17] memories that were added. I'll go to my
+- [27:19] memory. Uh let's see. An important
+- [27:21] detail is that the user wants a dish
+- [27:23] that is not on the menu. Okay. So yeah,
+- [27:24] now it knows going forward that in
+- [27:26] general I don't want dishes that are
+- [27:29] currently on the menu. So that looks
+- [27:31] really, really good. Take a look at
+- [27:32] that. And I know I didn't show the error
+- [27:34] flow here, but that's just going to look
+- [27:35] very similar to what we saw before. Just
+- [27:37] a full example of this flow making a
+- [27:39] very tasty dish that um I wish I could
+- [27:42] go make right now. So there you have it.
+- [27:44] That is my seven node blueprint, my
+- [27:46] mental model for building any AI agents,
+- [27:48] breaking things down into bite-sized
+- [27:50] chunks to make it super easy to build
+- [27:52] more robust AI agents. And I want to
+- [27:54] create content on things specific to
+- [27:56] like guardrails and fallbacks later as
+- [27:58] well. So certainly stay tuned for that.
+- [28:00] And then I'll continue to focus on
+- [28:02] frameworks like Pantic AI and Langraph
+- [28:05] that literally focus on agents as
+- [28:08] graphs. Like that is the abstraction
+- [28:09] that they have. It's just what makes
+- [28:11] them so powerful. And so if you
+- [28:13] appreciate this video and you're looking
+- [28:14] forward to more things AI agents, I
+- [28:16] would really appreciate a like and a
+- [28:18] subscribe.

@@ -1,0 +1,411 @@
+---
+title: "okay I very excited for this video and I feel like a lot of you have been excited for this video too..."
+video_id: "ZqBnen0Om6g"
+video_url: "https://www.youtube.com/watch?v=ZqBnen0Om6g"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  okay I very excited for this video and I
+  feel like a lot of you have been excited
+  for this video too based on our previous
+key_points:
+  - "okay I very excited for this video and I"
+  - "for this video too based on our previous"
+  - "video where we covered what is an AI"
+  - "cover in this video at a very high level"
+  - "what is an AI agent but if you're at"
+  - "because in this video we are going to be"
+  - "playing around with this for a while"
+  - "this video in the comments from the"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: ZqBnen0Om6g
+
+- URL: https://www.youtube.com/watch?v=ZqBnen0Om6g
+- Retrieved at: 2025-12-30T11:26:43+09:00
+
+## Text
+
+- [00:00] okay I very excited for this video and I
+- [00:02] feel like a lot of you have been excited
+- [00:03] for this video too based on our previous
+- [00:05] video where we covered what is an AI
+- [00:08] agent and if you didn't watch that we'll
+- [00:09] cover in this video at a very high level
+- [00:11] what is an AI agent but if you're at
+- [00:13] that level you still need to know a bit
+- [00:14] more go check out that past video
+- [00:16] because in this video we are going to be
+- [00:18] building an AI agent and I've been
+- [00:19] playing around with this for a while
+- [00:21] testing it out and it's interesting
+- [00:22] though when I was think about making
+- [00:23] this video in the comments from the
+- [00:25] previous AI agent video there were a lot
+- [00:27] of people who wanted to build without
+- [00:30] code and then equally as many people who
+- [00:31] wanted to build with code so I thought
+- [00:33] how can I do this do I make two videos
+- [00:36] which I still can do let me know in the
+- [00:37] comments if you want another one let's
+- [00:39] use what we have available which is AI
+- [00:41] so in this video we are going to be
+- [00:43] using AI to build an AI agent which is
+- [00:46] pretty cool so it does require some code
+- [00:49] but even if you are a non programmer
+- [00:51] non- coder you can still do this because
+- [00:53] we're using AI to generate the code
+- [00:55] we're going to use cursor AI for this
+- [00:57] project you know I love cursor AI it's
+- [01:00] such a great way to to build anything
+- [01:03] really where it's like for people who
+- [01:05] are not familiar with cursor AI well you
+- [01:07] need to get familiar I think it went
+- [01:08] from 1 million to 100 million in um
+- [01:12] raising raising money or or where it's
+- [01:15] currently at in valuation anyways in one
+- [01:17] year it's wild it's this platform
+- [01:19] essentially it's an IDE where you can
+- [01:21] you know build regular coding things you
+- [01:24] can also use their AI to help build for
+- [01:26] you so anyways that's me trying to
+- [01:28] explain it to someone who doesn't maybe
+- [01:29] isn't familiar with an IDE but let's go
+- [01:31] back to what is an AI agent an AI agent
+- [01:34] is an autonomous intelligent system that
+- [01:36] can perform tasks on its own not only
+- [01:39] though can it perform tasks on its own
+- [01:41] but a huge part of it is it gets better
+- [01:43] over time so it's learning consistently
+- [01:45] as it's going so I thought it'd be fun
+- [01:47] in this video to make an AI agent that
+- [01:49] we play a game against because naturally
+- [01:51] it's going to learn what we are doing
+- [01:53] our moves and get better over time to be
+- [01:55] more competitive other AI agents though
+- [01:58] that are very popular would include
+- [02:00] things such as customer service agents
+- [02:03] or um even I think Netflix Netflix would
+- [02:07] be considered is Netflix considered an
+- [02:09] AI agent is Netflix because it gets
+- [02:12] smarter over time and it customizes to
+- [02:14] your results Netflix does yeah I think
+- [02:18] so okay I need look into that more but I
+- [02:20] believe it would be but I don't want to
+- [02:23] say something that's not true anyway in
+- [02:25] this video we are going to be building
+- [02:26] our own AI agent something that we know
+- [02:28] for sure is an AI agent so let's get
+- [02:30] started let me share my screen here okay
+- [02:32] you can see here all I have done thus
+- [02:34] far is create an empty folder which
+- [02:36] resides on my desktop called game AI
+- [02:38] agent and you can do this you can make a
+- [02:41] folder anywhere you want then ensure you
+- [02:43] have downloaded cursor AI pause this
+- [02:45] video here go download it if you haven't
+- [02:47] once you have it downloaded though open
+- [02:48] your empty project in cursor Ai and
+- [02:50] you'll see what I see to start with
+- [02:52] though before we get into using AI we
+- [02:54] are going to be using python to build
+- [02:55] this AI agent so let's just make a
+- [02:57] simple python file there we go now what
+- [02:59] you are going to do I'm on a Mac as you
+- [03:01] probably I think you can see I don't
+- [03:03] know um it's not sponsored by Apple or
+- [03:05] anything um what you are going to do if
+- [03:07] you're on a Mac you're going to go
+- [03:08] command out now if you're on Windows
+- [03:10] please search up what the shortcut is
+- [03:12] but what it will do is it will open up
+- [03:14] the composer which you can see on the
+- [03:15] right this is like your chat GPT in fact
+- [03:18] I believe it's actually powered by one I
+- [03:20] don't know which one but one of I think
+- [03:22] GPT 4 maybe uh of open a eyes models so
+- [03:25] it's like you're speaking to chat GPT in
+- [03:27] this composer let's start by prompting
+- [03:30] it to let it know what we want to build
+- [03:31] I want to build an AI agent using Python
+- [03:35] and any
+- [03:37] packages
+- [03:39] necessary I would like the AI agent
+- [03:45] to play a
+- [03:48] game of what game should we play Rock
+- [03:51] Paper
+- [03:53] Scissors with me and it gets smarter
+- [03:57] over time as it
+- [04:00] observes
+- [04:02] my
+- [04:04] choices yeah I like that I think that's
+- [04:06] a good
+- [04:08] prompt okay now here we go I'll help you
+- [04:11] create an AI agent that plays rock paper
+- [04:12] scissors and learns from the player
+- [04:14] patterns using a simple ml approach
+- [04:16] we'll use Python's built-in random
+- [04:18] module and numpy for handling
+- [04:20] probabilities and learning let's go use
+- [04:22] the Markov chain to learn from the pre
+- [04:25] the player's previous moves so take what
+- [04:27] you did and then continue learning let's
+- [04:29] go through the code quickly here you can
+- [04:30] see there's a lot of comments so if
+- [04:32] you're not a coder we have done no code
+- [04:33] thus far U and if you are a coder you'll
+- [04:36] understand this code probably so there's
+- [04:39] quite a bit there you see down here it
+- [04:41] says what it's doing this implementation
+- [04:43] includes using a trans transition Matrix
+- [04:47] to track the probabilities learns from
+- [04:49] player patterns makes counter intuitives
+- [04:51] okay I was just I know this because I
+- [04:53] was playing around with it before this
+- [04:54] video but I had trouble creating an
+- [04:56] actual like a true AI agent so let me
+- [04:59] see is this
+- [05:00] uh true AI
+- [05:05] agent no
+- [05:07] exactly limited
+- [05:09] learning no deep learning modern AI
+- [05:12] typically involves neural networks if
+- [05:14] you'd like to create a more true AI
+- [05:16] agent we could Implement a solution
+- [05:17] using deep reinforcement learning here's
+- [05:19] what it would look like using a simple
+- [05:21] neural network that's pretty cool so you
+- [05:23] can see now we're getting into using
+- [05:25] other packages up here and it's getting
+- [05:27] a bit more intense like this will give
+- [05:29] us an actual AI agent which is what we
+- [05:31] want I don't know why I guess cuz AI is
+- [05:33] like humans and it takes the easy way
+- [05:35] out um and then the initial one does not
+- [05:38] is not a true AI agent so this is
+- [05:40] because I've done this before and I was
+- [05:41] like this is not an AI agent that I'm
+- [05:43] building like what are you doing so I
+- [05:45] know to actually ask is this an agent so
+- [05:47] let's go ahead now that we have an
+- [05:49] actual agent here apply the code accept
+- [05:52] the file now at this point you can see
+- [05:54] we need to install some packages here so
+- [05:57] what I like to do is run a virtual
+- [05:59] environment and what I'm going to do
+- [06:00] here is open up my terminal and I don't
+- [06:03] think my screen's recording that portion
+- [06:05] but if you're not familiar with cursor
+- [06:06] AI in the left hand corner there'll be
+- [06:09] an option for terminal and now you can
+- [06:10] see it down below here then what I'm
+- [06:13] going to do is I need to run a virtual
+- [06:17] environment on Mac type in whatever
+- [06:20] computer you are on show me the steps
+- [06:23] now if you know how to do this it's
+- [06:24] super simple to do but I'm just doing
+- [06:26] this so if you're not a coder you can
+- [06:27] follow along as well and just show
+- [06:29] showing you how simple it is even if you
+- [06:31] are a coder but maybe you don't code in
+- [06:33] Python typically to build something like
+- [06:35] this all right we can't think coders
+- [06:37] know everything they don't AI it doesn't
+- [06:40] know everything either okay so let's go
+- [06:42] here I'm on Python
+- [06:45] 3 and it will prompt me new environment
+- [06:48] has been created yes okay so we've
+- [06:50] created the new environment now let's
+- [06:51] activate it
+- [06:53] copy paste there we go perfect now it
+- [06:56] already did this for us telling us what
+- [06:58] to do next which is install the required
+- [07:00] packages so let's go ahead and install
+- [07:06] these and then all our little squigglies
+- [07:09] should go away okay you can see here
+- [07:12] that we have everything
+- [07:15] installed yes okay I need to upgrade my
+- [07:18] pip version which we will not do today
+- [07:20] but we will do it all right so now you
+- [07:23] have two options as it says here you can
+- [07:24] just go where is it you can run your
+- [07:27] script by going python uh main.py which
+- [07:30] is our file here or I just go rightclick
+- [07:33] run python run Python and terminal now
+- [07:36] let's see this is once again literally
+- [07:38] just
+- [07:39] like seeing how it goes welcome to rock
+- [07:42] paper scissors okay so this is the
+- [07:43] second part I don't love and this is my
+- [07:45] fault I did not prompt it properly
+- [07:47] because right now we are playing in the
+- [07:49] terminal I don't want to play in the
+- [07:50] terminal I want a nice UI to play with
+- [07:52] so let's go ahead and just quit this you
+- [07:56] just kill it now let's go back to our
+- [07:59] right handed chat and go make so there
+- [08:02] is a UI on this game and also make it
+- [08:07] have uh
+- [08:09] bars that show How likely it is that the
+- [08:14] AI thinks I will
+- [08:17] pick that option so we can see how the
+- [08:21] AI agent is kind of working and thinking
+- [08:23] in real time which is kind of cool I
+- [08:25] don't know if I describe that properly
+- [08:27] prompting is an art I know people always
+- [08:29] like you know oh prompting it's so easy
+- [08:32] but the more you do it's like Googling
+- [08:34] especially when you're Googling
+- [08:35] technical things it takes time okay so
+- [08:37] let's see here it's still
+- [08:40] going okay okay so this should work now
+- [08:43] to have a
+- [08:44] UI apply accept
+- [08:48] file okay I need to install more things
+- [09:00] um oh
+- [09:02] yeah cannot find a
+- [09:06] version Oh I have to install it okay can
+- [09:10] we do something
+- [09:11] similar
+- [09:14] without um oopsies
+- [09:19] shoot I'm just going to
+- [09:25] Pivot we could you know um trouble
+- [09:30] using flask
+- [09:38] what no just uh
+- [09:44] okay I don't like the path that's going
+- [09:46] down disregard let's just do a python UI
+- [09:54] please for this game
+- [10:01] see what it
+- [10:06] says yeah let's just use python or py
+- [10:09] game let's not get let's not get complex
+- [10:11] here right now I don't feel like that
+- [10:14] today and I'm sure you don't either
+- [10:16] you're here to build an AI agent not
+- [10:17] figure out installing packages which are
+- [10:19] giving me grief okay so there we go
+- [10:22] let's do terminal again I exited out by
+- [10:26] accident
+- [10:27] okay this is better I love P game it's
+- [10:30] so fun it's so
+- [10:32] friendly okay pip install P
+- [10:36] game there we go all right let's see
+- [10:39] this in
+- [10:42] action probably won't be perfect but
+- [10:44] this is only our second time running the
+- [10:46] code and this would have taken me
+- [10:47] forever to
+- [10:51] produce okay so right now it's all equal
+- [10:55] 33% I going to write 34 I guess yeah
+- [10:59] that's kind of weird Okay so let's
+- [11:02] go scissors AI paper you in
+- [11:08] okay
+- [11:13] interesting ties we're doing a lot of
+- [11:16] ties so the AI agent I was going to call
+- [11:19] it a key the AI agent is less likely to
+- [11:21] do paper so let's try paper so could I
+- [11:25] win if I always choose what it thinks is
+- [11:27] going to be less
+- [11:31] but wouldn't it gets smarter I guess
+- [11:33] because I'm cheating so I can see what
+- [11:34] it's
+- [11:35] thinking okay let's give it a little bit
+- [11:37] of time okay this is pretty cool let's
+- [11:39] go back though this is pretty simple I'm
+- [11:40] going to exit out of this and I'm going
+- [11:43] to say what about this code makes it an
+- [11:46] AI agent like I want to understand it
+- [11:48] better because we haven't gone through
+- [11:51] the code really so let's see so first
+- [11:53] neural network
+- [11:55] architecture so this is the first uh
+- [11:57] class right here so what it is doing it
+- [12:00] is using a deep neural network with
+- [12:02] three fully connected layers so we can
+- [12:04] see here the input layer processes the
+- [12:07] last three moves hidden layers learn
+- [12:11] patterns and output layers predict
+- [12:13] probabilities for the next move that's
+- [12:15] really cool actually like we built this
+- [12:17] so quickly and I'm not saying we I know
+- [12:19] AI built it I get a lot of like if I
+- [12:21] post a short video on Instagram like we
+- [12:23] coded this they're like AI helped you
+- [12:25] code I'm like yeah like I'm I'm saying
+- [12:27] that in the video no one's denying that
+- [12:29] but why would you deny it AI isn't going
+- [12:31] anywhere you might as well use it all
+- [12:34] right number two is experience replay so
+- [12:36] this is deep RPS agent class so this
+- [12:39] stores past experiences in memory uses
+- [12:42] random sampling to avoid overfitting for
+- [12:44] recent moves and learns from batches of
+- [12:47] past experience that's really cool that
+- [12:49] we we were able to get this running and
+- [12:51] this game and I mean if you start
+- [12:53] thinking about how you can build AI
+- [12:55] agents for you know chat Bots or like I
+- [12:58] mean you could further these are this is
+- [13:00] through I think three prompts that we
+- [13:02] did imagine if we did you know 20
+- [13:05] prompts making the UI better making the
+- [13:07] game
+- [13:08] better it's incredible the things that
+- [13:11] you can do with this it's really
+- [13:13] incredible and then state representation
+- [13:16] converts game State into numerical
+- [13:18] format uses one hot encoding for move
+- [13:21] representation let's go down to
+- [13:23] decisionmaking it uses the neural
+- [13:25] network to predict player's next move
+- [13:27] and make strategic counter moves moves
+- [13:29] based on predictions and updates
+- [13:31] probabilities based on learning this is
+- [13:34] really cool it does a lot and we've done
+- [13:36] so in probably under 10 minutes so which
+- [13:39] was the goal of this video to build
+- [13:40] something together from scratch using AI
+- [13:44] making an AI agent I mean that's it's
+- [13:47] incredible I feel like our work here is
+- [13:50] done but I hope you don't stop at this
+- [13:51] point if you are following along and you
+- [13:54] you're right at this point continue
+- [13:55] prompting it see what else you can do
+- [13:58] get creative with what you can build I
+- [14:00] mean it's really exciting when you think
+- [14:02] about it and especially because we're
+- [14:03] living in this time where you don't have
+- [14:05] to be this super coder to build some
+- [14:07] really incredible intelligent systems
+- [14:11] that's enough of me rambling on for the
+- [14:12] day I hope you enjoyed this video let me
+- [14:14] know if you want to see more codal along
+- [14:15] videos with AI where it's yeah we're not
+- [14:18] writing the code from scratch and in
+- [14:21] some of these videos I know we go
+- [14:22] through the code even more so but the
+- [14:24] purpose of this one was to see if we
+- [14:26] could get there with AI building an AI
+- [14:28] agent and that's exactly what we did
+- [14:32] very cool okay have a wonderful day I'm
+- [14:35] going to go get some coffee and I'll see
+- [14:36] you all soon thanks everyone hit the
+- [14:39] Subscribe button leave in the comments
+- [14:40] what you want to see next you know the
+- [14:41] drill
+- [14:43] [Music]

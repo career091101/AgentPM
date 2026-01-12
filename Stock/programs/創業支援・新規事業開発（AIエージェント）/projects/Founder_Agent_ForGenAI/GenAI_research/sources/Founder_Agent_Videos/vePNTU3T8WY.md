@@ -1,0 +1,860 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=vePNTU3T8WY"
+video_id: "vePNTU3T8WY"
+video_url: "https://www.youtube.com/watch?v=vePNTU3T8WY"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=vePNTU3T8WY
+  - Retrieved at: 2025-12-30T16:36:38+09:00
+  - [00:00] My name is David Andre and here is how
+key_points:
+  - "- [00:40] importantly take agentic actions. So in"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: vePNTU3T8WY
+
+- URL: https://www.youtube.com/watch?v=vePNTU3T8WY
+- Retrieved at: 2025-12-30T16:36:38+09:00
+
+## Text
+
+- [00:00] My name is David Andre and here is how
+- [00:01] to build AI agents with Nano Banana.
+- [00:04] Now, what even is Nano Banana? It's a
+- [00:06] new AI model from Google that is by far
+- [00:09] the best image model in the world. It's
+- [00:11] the first AI model in history to be
+- [00:13] great at editing images with great
+- [00:15] consistency. I mean, look at these
+- [00:17] examples. The consistency and
+- [00:18] reliability is just incredible. Now,
+- [00:20] while most people focus on the model
+- [00:22] itself, which is fine, nobody really
+- [00:24] talks about what you can build with it.
+- [00:26] So the real opportunity with Nanobanana
+- [00:28] is actually building multi- aent systems
+- [00:31] where each of the AI agents is powered
+- [00:33] by Nano Banana and this is possible
+- [00:35] because it's actually a version of
+- [00:36] Gemini. So it can not only output text,
+- [00:38] it can also make decisions and most
+- [00:40] importantly take agentic actions. So in
+- [00:42] this video I'll show you step by step
+- [00:44] how to build a team of AI agents powered
+- [00:47] by Nano Banana. And you can do this even
+- [00:49] if you are a complete beginner. First
+- [00:50] off let me show you just a few of the
+- [00:52] use cases that this incredible model can
+- [00:54] do. new clothing design, thumbnail
+- [00:56] concepts for social media, product shots
+- [00:58] for e-commerce, drop shipping, logos,
+- [01:00] banners for any type of business,
+- [01:01] restoring photos such as old photos in
+- [01:03] low quality or black and white photos.
+- [01:05] So, not only can it create images, which
+- [01:07] is already pretty good, but it can edit
+- [01:08] them with insane consistency. I mean,
+- [01:10] look at this. I asked to make the cloud
+- [01:11] a bit bigger and everything else the
+- [01:14] same except for the cloud getting a bit
+- [01:16] bigger. This is the first AI model in
+- [01:18] history that can do this. So, if you
+- [01:19] want to use nano banana for free, just
+- [01:22] go to vectal.ai. So now that you
+- [01:24] understand just how powerful Nano Banana
+- [01:26] is, let's use it to build some AI
+- [01:28] agents. All right. So inside of cursor,
+- [01:30] let me open an empty folder right here.
+- [01:31] Boom. And actually I'm going to use clot
+- [01:33] code for this. So open a terminal and
+- [01:35] just type in cloth. If you don't have
+- [01:36] installed cloth code, what are you
+- [01:38] doing? It's one of the best tools for
+- [01:39] coding. And I have about a dozen videos
+- [01:42] on it. So just watch any of them after
+- [01:43] this video, of course. Now let me
+- [01:44] actually show you what we will be
+- [01:46] building because this is incredible. So
+- [01:48] we will create a system where you can
+- [01:50] generate multiple images and then create
+- [01:52] variations of them using multiplayer
+- [01:54] agents all powered with nano banana.
+- [01:56] That way you don't have to just do one
+- [01:58] image. You can do four variations, six
+- [02:00] variations and then branch out from them
+- [02:02] in this nice tree UI. And I'll even show
+- [02:04] you how you can use the nano banana API
+- [02:06] for free. So the first thing I'm going
+- [02:08] to do is create a new file. So let me
+- [02:09] just right click, click on new file. And
+- [02:11] this is going to be the project details.
+- [02:13] And here I'm going to describe what the
+- [02:14] project is about at a high level. Now
+- [02:16] feel free to pause and read this prompt,
+- [02:17] but it's basically what I described,
+- [02:19] just a way to interact with Nano Banana,
+- [02:22] but in a multi- aent system, and you can
+- [02:23] use this to build any application
+- [02:25] because this is the real opportunity.
+- [02:27] The image editing capabilities of this
+- [02:29] model just unlocked hundreds of new
+- [02:32] possible startup ideas. So if you are
+- [02:33] serious about AI and you want to start
+- [02:35] building AI agents, make sure to watch
+- [02:36] until the end. All right, let me jump
+- [02:38] into cloud code and I'm going to switch
+- [02:39] into auto accept mode. By the way, for
+- [02:41] the model, I'm using Opus because it's
+- [02:43] the best model. Now, the first thing I'm
+- [02:44] going to say is read project details.
+- [02:46] That way, it's up to date with what
+- [02:48] we're building. Your first task is to
+- [02:50] Boom. And this is my first prompt.
+- [02:52] Again, feel free to pause and read it.
+- [02:53] The full name of this model, the public
+- [02:55] name is Google Gemini 2.5 Flash image
+- [02:58] preview. Now, no wonder this name didn't
+- [03:00] stick. People remember it as Nano
+- [03:02] Banana, which is the internal name
+- [03:03] Google gave this model. So, this is
+- [03:05] actually the official name of this
+- [03:06] model, and you can use it either through
+- [03:07] the Google AI studio or just on open
+- [03:10] router. So this is basically what the
+- [03:11] first prompt is about connecting this
+- [03:13] exact string with the ability to save
+- [03:15] the resulting image locally. Now of
+- [03:17] course we're going to build on top of
+- [03:18] this so that at the end we have a nice
+- [03:19] UI with multiple AI agents running all
+- [03:22] powered by Nano Banana. Now a common
+- [03:24] mistake that a lot of people make when
+- [03:25] they get into coding with AI is not
+- [03:28] providing examples and they get shitty
+- [03:30] results because of the prompt being so
+- [03:32] bad. Instead you want to clearly
+- [03:34] describe what you're building and you
+- [03:35] want to give it examples. So what I'm
+- [03:36] going to do is I'm going to use XML tags
+- [03:37] to paste in the official docs. Right? So
+- [03:39] on open router you can click on API and
+- [03:41] they literally tell you what code you
+- [03:43] should have to run this model. All you
+- [03:45] need to do is click on copy and paste it
+- [03:47] into cloud code as an example. And the
+- [03:48] reason I wrap it in XML tags is just for
+- [03:51] the model to have better context
+- [03:53] engineering. So it's a nice little
+- [03:54] prompt engineering tick. And then when
+- [03:55] using cloud models always make sure to
+- [03:57] say think hard answer in short. This
+- [04:00] actually isn't only a prompt engineering
+- [04:02] tactic. This directly impacts the
+- [04:05] reasoning effort of the model. If you
+- [04:07] say think hard, clawed models such as
+- [04:09] Opus or Sonet will dedicate more
+- [04:11] reasoning effort and give you much
+- [04:12] better outputs than if you don't say it.
+- [04:14] Now, while this is running, we still
+- [04:16] have to create the ENV file ourselves.
+- [04:17] So, just right click in your project and
+- [04:19] type in ENV. And actually, um, Cloud
+- [04:22] Code gave us an example of what it
+- [04:23] should look like. So, we can just copy
+- [04:24] this. Let's go back into open router.
+- [04:26] Click on top right. Click on credits. If
+- [04:28] we look at the cost, it's very cheap. It
+- [04:30] costs like three cents for a single
+- [04:32] output. Right there it is. 0.03 03
+- [04:35] dollar for an output image which means
+- [04:37] you can create like 30 images per
+- [04:39] dollar. So for $3 you can create nearly
+- [04:42] 100 different images with NO Banana
+- [04:45] which is pretty incredible. Now as I
+- [04:46] promised let me show you how to use this
+- [04:47] model for free inside of open hour they
+- [04:49] have this free version and this one as
+- [04:51] you might expect costs zero. Now the
+- [04:54] caveat is that obviously it has some
+- [04:56] rate limits and the uptime is going to
+- [04:57] be worse than the paid ones. You can see
+- [05:00] there's some major drops where only 30%
+- [05:02] of the requests were getting through.
+- [05:03] Either way, we need an API key. So,
+- [05:04] click on the top right, click on keys,
+- [05:06] click on create API key. I'm going to
+- [05:08] name it subscribe. If you're watching
+- [05:10] this, make sure to subscribe. It takes
+- [05:12] two seconds. It's completely free, just
+- [05:13] like that, a banana, and it helps out a
+- [05:15] lot. So, go below the video and click
+- [05:17] subscribe. Okay? I'm going to create a
+- [05:18] key. Copy. Do not share API keys with
+- [05:20] anybody. Treat them as passwords. I'm
+- [05:22] going to delete my key before uploading
+- [05:23] this video, okay? So, don't try to steal
+- [05:25] it or you can try. It's up to you. But
+- [05:27] just paste it after this like so. And
+- [05:29] click save. We can close the environment
+- [05:31] file. Now, close code should be
+- [05:32] finished. And there we go. So it's
+- [05:34] finished with the first prompt.
+- [05:35] Beautiful. So to use this, all we need
+- [05:37] to do is add the API key, which we just
+- [05:39] did. And then run pip install require
+- [05:41] txt. So let's do that right now. Boom.
+- [05:44] Just paste it in. We don't have pip.
+- [05:46] Okay. So I'm going to show you how to
+- [05:48] solve with AI if you've never
+- [05:49] encountered this issue. But I can just
+- [05:51] uh copy this. Boom. Help me solve this
+- [05:54] error. Think harder in short. So
+- [05:57] obviously I've encountered this issue in
+- [05:58] the past but if you haven't you can use
+- [06:00] AI agents to solve any error you might
+- [06:03] encounter right so uh commandfound pip
+- [06:06] okay python 3 I'm install okay so I'm
+- [06:08] going to actually I'm going to ask it
+- [06:10] help me set up a new cond env for this
+- [06:14] and solve the issue there is great for
+- [06:18] managing Python environments create now
+- [06:20] a banana python 3 I'm going to allow
+- [06:21] that boom and then all we have to do is
+- [06:23] do activate and the project name boom
+- [06:25] and there we go So next, let's try
+- [06:27] installing the dependencies again. Okay,
+- [06:29] so now it's installing all the required
+- [06:31] packages for this project and I can type
+- [06:33] clear and let's see if we can just run
+- [06:35] this. So I'm going to click on the
+- [06:37] Python file here. So do we have these
+- [06:39] installed? Okay, actually one thing I
+- [06:41] need to do is below my webcam right
+- [06:42] here, you can see the Python version. I
+- [06:44] need to enable it inside of cursor. So
+- [06:46] let me do nano banana. Boom. This is the
+- [06:48] new condenv. And now these errors should
+- [06:51] disappear. There we go. Let's run this.
+- [06:53] Okay, so sending prompt generated
+- [06:54] description of beautiful sunset and
+- [06:56] here's the response and it created a new
+- [06:58] image. So let's click on folder outputs
+- [07:00] and why is it a text file? Okay, so this
+- [07:02] is obviously a mistake. So I'm going to
+- [07:05] describe it. The result should be a PNG
+- [07:08] file, not a text file. Let me paste in
+- [07:10] the model name again. Boom. Here's the
+- [07:12] model name. This is the exact model name
+- [07:16] on open router. It can output images.
+- [07:19] So, make sure we save the image, not the
+- [07:23] text response. Think hard answer in
+- [07:26] short. So, it's actually good that I
+- [07:28] didn't do it on the first try because I
+- [07:29] can show you the real authentic
+- [07:30] experience of what it's like to building
+- [07:32] stuff with AI because you will run into
+- [07:34] errors. The key is not taking those
+- [07:36] errors personally, clearly describing
+- [07:38] them, and using the AI agents to fix
+- [07:40] them. All right, so it made some changes
+- [07:42] to support B 64. Okay, looks good. It
+- [07:45] actually saved a bunch of lines as well.
+- [07:47] So, let's run again. should be
+- [07:49] completed. All right, let's run this
+- [07:50] script again. And it's running. Let's
+- [07:52] see if we save a PNG image as a result.
+- [07:55] Fail to generate image. Okay, now
+- [07:57] another way to fix errors faster is to
+- [07:59] do web search. So you can use Perplexity
+- [08:00] for this if you have Plexi Pro. In the
+- [08:02] meantime, let's see if Cloud Code
+- [08:03] managed to fix it. So let's rerun the
+- [08:05] script. Boom. Again, generated image of
+- [08:07] a beautiful sunset over mountains. And
+- [08:09] we expect the PNG to be saved. And there
+- [08:11] it is. We have the exact beautiful
+- [08:14] sunset over mountains image. And this is
+- [08:16] the first step in building our multi-
+- [08:17] aent system. Again, we're going to build
+- [08:19] on top of this. But now we know that our
+- [08:21] code works. Our code is solid. And we
+- [08:23] can generate an image based on a pro,
+- [08:25] which is the foundation. When building
+- [08:26] something with AI, you don't want to
+- [08:27] oneshot a big project. You want to split
+- [08:29] it into five, 7, 10 smaller stages, and
+- [08:32] then execute each stage individually,
+- [08:34] building on top of the last one. That
+- [08:36] way, if you encounter any errors, just
+- [08:37] like we did here, you can fix them
+- [08:39] before adding more complexity into your
+- [08:41] codebase. So, I'm going to say, great
+- [08:43] work. Now it's time to add multi-image
+- [08:47] support. Boom. Here's my prompt. TLDDR.
+- [08:49] Instead of one, open router API call, do
+- [08:53] four different calls, each one resulting
+- [08:56] in a separate PNG file. And I'm also
+- [08:59] going to say the fewer lines of code
+- [09:01] changed the better. This is another
+- [09:03] great way to reduce unnecessary feature
+- [09:06] bloat complexity in your codebase. A lot
+- [09:08] of the times the AI models have a
+- [09:09] tendency to write more lines of code
+- [09:11] than necessary, right? But if you say
+- [09:13] the fewer lines of code the better, you
+- [09:15] will get a simpler, cleaner version that
+- [09:18] a lot of times works just as well, if
+- [09:20] not better than the more bloated code.
+- [09:22] All right, so let's see what's
+- [09:23] happening. It's creating a simple Flask
+- [09:26] app which is a lightweight Python UI
+- [09:29] framework. So our codebase is super
+- [09:30] simple. Look at this. Like we literally
+- [09:33] have two code files and environment
+- [09:35] file. That's kind of incredible to be
+- [09:37] honest where you can build in a very
+- [09:39] simple codebase. You don't have to bloat
+- [09:41] your stuff with unnecessary packages and
+- [09:43] dependencies. You can just use raw
+- [09:44] Python which is one of the most popular
+- [09:46] languages in the world. And the beauty
+- [09:47] of that is the models are actually
+- [09:50] trained on it because there's a lot of
+- [09:51] training data in Python. So the app is
+- [09:53] ready to run. Let's see if Cloud Core
+- [09:55] gives us the instructions and it does.
+- [09:56] So we need to install Flask. So I'm
+- [09:58] going to open the terminal again. I'm
+- [10:00] going to do clear. I'm going to do pip
+- [10:02] install flask. All right, there we go.
+- [10:04] So since we have the cond environment
+- [10:06] enabled, it's nicely separated from my
+- [10:08] other projects that don't use Flask. And
+- [10:10] then we start the app with Python app.
+- [10:12] py. So it gives us the URL, which is
+- [10:13] just localhost 8000. And we can open
+- [10:16] that. It actually opened on my second
+- [10:17] screen. Let me drag that over. Boom. So
+- [10:19] here is the results. We can nicely see
+- [10:21] them. So you don't have to use them in a
+- [10:23] terminal, right? It's a nice simple web
+- [10:25] user interface, which is nice because
+- [10:28] it's easier to use. Then we can test
+- [10:30] whether it can generate a new image. So
+- [10:32] let's test that. Actually, I'm going to
+- [10:33] do a blue dog in a 1930s garden. Just
+- [10:38] random prompt. Generate. It says
+- [10:41] generating, but I don't know if that's
+- [10:42] already wired up. Let's see if stuff is
+- [10:46] happening in our back end. Four or four.
+- [10:48] That's favicon though. Generating from
+- [10:50] variations. Let's see if this works. The
+- [10:52] UI is very simple. I mean, we have some
+- [10:54] on hover, but it's nothing crazy. Just
+- [10:56] loading results. Okay. Generating four
+- [10:59] images in parallel. So, it's promising
+- [11:00] because it generated the prompt
+- [11:02] variations with GPT5 mini and it's
+- [11:05] saving the dog examples. We might need
+- [11:07] to reload. I don't think we have
+- [11:09] automatic refresh in the front end, so
+- [11:11] we might just need to reload it. Oh,
+- [11:12] there we go. It did reload. And there we
+- [11:15] have four very different. Yeah, these
+- [11:18] are very, very unique. Wow. Not bad at
+- [11:20] all. So, yeah, here we have it. So, we
+- [11:22] have the UI. So, we're actually
+- [11:23] progressing very, very fast. The next
+- [11:25] stage is to add image editing and
+- [11:27] uploads. So, I'm going to say great
+- [11:30] work. Just compliment AI, you know,
+- [11:31] doesn't hurt. The next stage is adding
+- [11:35] image editing and image uploads. So,
+- [11:39] boom. Here's the prompt. Execute this
+- [11:42] in the simplest way possible. Think hard
+- [11:46] answer in short. All right. So, while
+- [11:48] this is running, let's utilize our
+- [11:49] multi-cloud code setup. I'm going to say
+- [11:52] we have updated since you have to
+- [11:53] realize this cloud code didn't do the
+- [11:55] web stuff. So, we need to tell it about
+- [11:57] the new web changes. We've updated our
+- [11:59] app by adding app. I'm going to tag the
+- [12:02] file. Your task is to execute this. And
+- [12:06] I'm going to wrap this in XML tags
+- [12:08] again. Next step. Boom. Paste it in.
+- [12:10] Close that. Slashn next step. Implement
+- [12:13] this next step in a clean, simple, and
+- [12:18] minimal way. just like a 10x engineer
+- [12:23] would think hard answer in short. Okay,
+- [12:27] so let's check in. So we're going to
+- [12:29] launch this cloud code agent and let's
+- [12:30] check in on the first one which seems to
+- [12:32] be finished. So let's go back. Let's see
+- [12:34] if we can upload images. Let's reload
+- [12:36] our front end. And there we go. We can u
+- [12:39] we can choose a file. So maybe let's use
+- [12:40] something from the presentation such as
+- [12:42] this um Gemini logo. I'm going to save
+- [12:45] it to documents. So upload selected and
+- [12:49] I I can say uh make the selected
+- [12:53] image more vibrant and colorful. Okay.
+- [12:56] So let's see if it can use this image to
+- [12:59] generate a new variation. So far we've
+- [13:01] generated only stuff from scratch which
+- [13:03] previous models like midjourney or
+- [13:05] stable fusion were able to do. However,
+- [13:07] this model Nano Banana is excellent at
+- [13:10] image editing. So now we're passing it
+- [13:12] an image and let's see if it can
+- [13:13] generate variations from it. Now, while
+- [13:15] that's doing, we should check on our
+- [13:18] other cloud code. Now, this is probably
+- [13:20] not the not the most um like best
+- [13:24] practices stable way of development.
+- [13:26] This is definitely more yolo side. If
+- [13:27] you want to make progress faster, you're
+- [13:29] also going to run into errors and you're
+- [13:30] going to you're going to probably be
+- [13:33] more confused if you don't know what
+- [13:34] you're doing. If you're a beginner,
+- [13:36] probably stick to a single instance of
+- [13:38] cloud code or a single instance of
+- [13:39] codeex. Otherwise, you'll be confused,
+- [13:41] right? So, we're we're doing a lot here,
+- [13:43] but uh that also could save us some
+- [13:45] time. So, let's see what's happening
+- [13:46] here. Reloading. Okay, generating. Okay,
+- [13:50] we have the chat assistant now. So, that
+- [13:52] kind of that kind of messed up our test
+- [13:56] because Okay, I'm going to tell it no,
+- [13:58] don't start anything. Just execute what
+- [14:02] I asked. So, basically, the next stage
+- [14:04] was adding the conversational assistant,
+- [14:06] but I just wanted to test this image.
+- [14:08] make the attached image more colorful
+- [14:12] and vibrant.
+- [14:16] Right? Generate. There's something very
+- [14:18] curious on open router which I want to
+- [14:20] talk about. Why is GPT5 mini such a low
+- [14:24] throughput? Look at this. 40 tokens per
+- [14:26] second. If you look at GPT5, the main
+- [14:28] one, not mini, it's literally sometimes
+- [14:31] faster. I mean, look at this throughput,
+- [14:33] right? Sometimes it's like 50. like how
+- [14:36] is what what's going on OpenAI? I don't
+- [14:39] understand. GBD5 mini is sketch. But
+- [14:41] anyways, let's go back. Let's see if we
+- [14:44] have the variations of our image. We
+- [14:45] have some variations, but they are not
+- [14:47] of our image. That is an issue we have
+- [14:49] to address. But before we do that, let
+- [14:50] me test the conversational assistant.
+- [14:52] So, I'm going to say uh create an image
+- [14:54] of a tree growing in the void. Okay. So,
+- [14:58] not much seems to be happening here.
+- [15:00] Okay. So it did result with some images
+- [15:03] but it reset our chat which is not good.
+- [15:06] So first let's focus on this. Okay let's
+- [15:08] focus on getting the image editing to
+- [15:11] work. So let's see what's going on.
+- [15:13] Choose image file. So I'm going to say
+- [15:15] actually let me speak it into existence.
+- [15:17] So right now we actually have a bug
+- [15:18] where the attached image isn't being
+- [15:21] properly passed to the model. So
+- [15:24] whatever prompt I send it's kind of not
+- [15:26] relevant to the image I upload. So
+- [15:29] analyze that part of your codebase and
+- [15:31] think hard about why we're facing this
+- [15:34] issue and what is the proper way to fix
+- [15:35] it. And actually a lot of people don't
+- [15:37] even know that cloth code has built-in
+- [15:39] web search. So I could say browse the
+- [15:40] web to see the proper way to use open
+- [15:45] router API to pass images to multi-
+- [15:49] multimodal AI models. Follow the latest
+- [15:53] open router docs. Okay. So let's approve
+- [15:56] web search because um this is one of the
+- [15:59] tools you want cloth code to be running
+- [16:01] without asking for permission. Okay, I
+- [16:03] don't know why the web search failed.
+- [16:05] That's very interesting. Anyways, let's
+- [16:07] refresh this.
+- [16:09] Okay, so again I asked it to flip it
+- [16:10] upside down which it didn't do with the
+- [16:13] it creates some upside down images but
+- [16:14] like it's not doing it with these
+- [16:16] attached ones. So that's a problem. So
+- [16:19] what you should do if you're stuck on
+- [16:20] something is just do a deep research
+- [16:22] right whether it is perplexity whether
+- [16:24] it's Chad GBD Gemini doesn't matter just
+- [16:27] well it does matter but you know
+- [16:29] whatever I think perplexity is a nice
+- [16:31] balance of speed and um quality the best
+- [16:35] one probably is it's hard to say Gemini
+- [16:38] has improved theirs a lot so either
+- [16:39] Gemini or OpenAI check GBDB research but
+- [16:42] basically I asked it to check the open
+- [16:45] router docs to check like 50 plus
+- [16:46] sources on how to pass images as parts
+- [16:49] of the prompts, right? Because this is
+- [16:50] the issue here. Uh, cloud core is
+- [16:53] already doing stuff. So, let's see if
+- [16:55] those clo fixes work. What I'm going to
+- [16:58] do is I'm going to clean the folder
+- [16:59] here. Boom. Let's delete that. Let's
+- [17:02] refresh. I'm going to say flip the
+- [17:04] attached image upside down. Generate.
+- [17:07] All right. So, this deep research is
+- [17:08] finishing up. That's good. Maybe cloud
+- [17:11] code will manage to fix it by itself.
+- [17:13] You know, a lot of the times that is the
+- [17:14] case. Okay. So, we have some problem. We
+- [17:16] don't really want to. Do we want prompt
+- [17:18] variations on this? Maybe. We'll see, I
+- [17:21] guess. Okay, so let's see what happens.
+- [17:24] No, it's still not passing the image.
+- [17:26] So, I'm I'm going to describe that
+- [17:28] issue. The image that the user attaches
+- [17:30] needs to go to the nano banana Gemini
+- [17:33] model, which is the one that can
+- [17:34] generate new images. Below is the
+- [17:37] official documentation from open router
+- [17:39] on how to do this correctly. All right.
+- [17:40] So, I described the issue in a detailed
+- [17:43] way and then I'm going to pass the docs
+- [17:44] as well.
+- [17:46] Boom. And actually, I'm going to do
+- [17:48] something radical, which is resetting a
+- [17:51] cloth code, which sometimes you have to
+- [17:54] do like when there's too much stuff.
+- [17:55] This is called context, by the way. When
+- [17:57] there is too much stuff, uh, the
+- [17:58] performance can drop. So, what I'm going
+- [18:00] to do is create a fresh cloth code. Just
+- [18:02] paste in the new context. I'm going to
+- [18:04] end it with docs. I'll say implement a
+- [18:07] clean and minimal fix
+- [18:09] like a senior developer would.
+- [18:13] think harder answer in short. So
+- [18:15] sometimes literally just switching to a
+- [18:17] new cloth code does the trick. You kind
+- [18:18] of have to develop a feel for when that
+- [18:20] is the correct move. So sometimes you
+- [18:22] just have to be willing to get your
+- [18:24] hands dirty and do some good old
+- [18:27] debugging. So I asked it to add three
+- [18:29] debug log statements at the essential
+- [18:31] parts where it makes sense. And we're
+- [18:33] going to see what's happening to the
+- [18:35] image as I send it. And actually, you
+- [18:36] know what? Since cloud code isn't
+- [18:38] solving this, I'm going to turn on uh
+- [18:41] the codex extension and get some more
+- [18:43] power behind us. Flip the attached file
+- [18:47] upside down. I'm going to copy the logs.
+- [18:50] I'm going to say logs.
+- [18:54] Logs.
+- [18:55] Here is what our backend terminal looks
+- [18:58] like. What does this tell us? What and
+- [19:03] what is the next step we should take in
+- [19:06] debugging this
+- [19:08] think hard answer in short
+- [19:11] in the meantime what we can do is copy
+- [19:13] this deep research as well I'm going to
+- [19:15] say uh docs
+- [19:18] docs I'm going to say the same issue
+- [19:20] just describe it to codeex we are facing
+- [19:24] issue where the when the user attaches
+- [19:26] an image and he sends a prompt where he
+- [19:29] just wants the image to be edited it
+- [19:31] doesn't make it to the Gemini model.
+- [19:33] Somehow the image is lost along the way
+- [19:36] and the model just generates variations
+- [19:38] that are completely irrelevant to the
+- [19:40] attached image. Do not make any changes
+- [19:42] yet. Just answer. Be concise. Page was
+- [19:45] reloading after upload wiping selected
+- [19:47] image from memory. Oh my god. If that's
+- [19:50] the case, that's going to it's kind of
+- [19:52] disappointing. Take the attached image
+- [19:54] and flip it upside down. Okay, so we
+- [19:56] have some debug outputs. So this is
+- [19:58] giving me hope. Let's see. Does this
+- [20:00] reload? Let me refresh. Oh, there we go.
+- [20:03] Finally. And it's actually good. Gemini.
+- [20:08] Wow. 2.5 flash. This is very impressive,
+- [20:10] guys. Wow. That's crazy. That's actually
+- [20:14] kind of crazy to be honest. So, we've
+- [20:16] defeated this step. Beautiful.
+- [20:19] Uh, it was a dumb issue, but some debug
+- [20:22] logs expose the issue. So, that's that.
+- [20:25] What I'm going to do is I'm going to do
+- [20:26] compact so we can reset the context a
+- [20:29] bit. And we're going to focus on making
+- [20:31] the conversational
+- [20:34] chat work. And actually, I'm going to
+- [20:36] interrupt this prompt. I'm going to
+- [20:37] switch to low. And we're going to
+- [20:38] speedrun the conversational
+- [20:41] chat because uh I'm not sure this works.
+- [20:43] So, generate an image of a blue dog
+- [20:48] battle boarding. Okay, let's see. When
+- [20:51] we copy that prompt, let's see if this
+- [20:53] actually works or not. And we'll say um
+- [20:57] goal boom goal verify whether this has
+- [21:02] been implemented fully and properly
+- [21:06] answer in short. Okay. So does this work
+- [21:09] or not? Reload. What is happening? Right
+- [21:13] now this feature doesn't work at all. Uh
+- [21:16] the messages get lost. The chat history
+- [21:18] is not persisted. We should be saving it
+- [21:21] in some JSON or some SQLite database.
+- [21:23] But the main issue is that it doesn't
+- [21:26] work. So make sure to refactor the chat
+- [21:30] conversational functionality, the chat
+- [21:32] assistant, not only to have a nicer UI,
+- [21:35] but also to actually work. Okay, so I'm
+- [21:38] going to do something crazy. I'm going
+- [21:41] to start working on the tree
+- [21:42] functionality. I'm going to do feature.
+- [21:45] I'll say execute this feature like a a
+- [21:49] 10x engineer would. The UI should be
+- [21:53] clean, minimalist, impressive, and
+- [21:56] interactive. Built on top the existing
+- [22:01] codebase. Do not refactor what works.
+- [22:05] Think hard, answer short. So I'm going
+- [22:08] to start a codeex with highing effort on
+- [22:11] the tree UI which I showed you earlier.
+- [22:14] I mean honestly like the you know that's
+- [22:16] not needed for the main functionality
+- [22:18] but uh I want to show that. So my goal
+- [22:20] with this is to literally show you what
+- [22:22] I built earlier today in vectal. So I
+- [22:25] already solved these issues once. So
+- [22:26] it's kind of frustrating for me to do
+- [22:28] this again. Uh I guess it's my fault not
+- [22:30] remembering the solution. But anyways, I
+- [22:33] implemented the exact same thing in
+- [22:34] vector, right? So you can just select
+- [22:35] the nanobanana model and you can say
+- [22:38] generate
+- [22:39] an image of a blue dog paddle boarding
+- [22:43] on a huge Hudson River in NYC. So I was
+- [22:47] just in NYC. The vlog is coming soon.
+- [22:49] So, make sure to subscribe not to miss
+- [22:51] the David Andre New York City vlog. But
+- [22:54] let's see. So, sure. Here you go. And
+- [22:57] there we go. This is definitely New
+- [22:58] York. So, we have the blue dog. And look
+- [23:00] at this. Like Hudson River. Amazing.
+- [23:02] Brooklyn Bridge. Crazy. This is crazy
+- [23:05] good, actually. I'm going to say add a
+- [23:07] cat on the paddle board as well. Keep
+- [23:11] everything the same. So, again, the goal
+- [23:14] with what I'm showing you here is
+- [23:15] literally practicing what I preach,
+- [23:17] right? I built this in vector. I'm not
+- [23:19] gatekeeping anything. Okay, so this is
+- [23:21] annoying bug. I'm going have to fix
+- [23:23] that. But it should still generate the
+- [23:25] image. There we go. There we go. Look at
+- [23:29] this consistency, guys. This has never
+- [23:30] been possible until Nano Banana. We have
+- [23:33] a dog and we have like this is crazy.
+- [23:35] This is insane. This is incredible.
+- [23:38] Incredible. So yeah, all of you can use
+- [23:40] Nanobanana in vectal for free. But I'm
+- [23:42] also showing you how you can build your
+- [23:43] AI agents in case you want to build a
+- [23:45] SAS, in case you want to build a startup
+- [23:46] for a specific niche with this. Just
+- [23:48] follow what I'm doing in this video and
+- [23:49] I'm also showing you how to debug this.
+- [23:51] What is happening here? A Python app.
+- [23:54] No, while I did not give you permission
+- [23:58] to launch the app, it's already running.
+- [24:02] Okay. Okay. Let's test out the
+- [24:03] assistant. Let's see if it's fixed. But
+- [24:06] I'm not going to stress too much over
+- [24:07] that. So, I'm going to say generate an
+- [24:11] image of an abstract tree. Send. Let's
+- [24:15] check the back end terminal. So look how
+- [24:18] long codeex is thinking. It can it can
+- [24:20] think for like five seven minutes
+- [24:21] easily. Clo doesn't have that much
+- [24:23] reasoning. So this is already better. We
+- [24:25] haven't lost the message and we see some
+- [24:27] UI here.
+- [24:29] Let's see if this actually works.
+- [24:31] Sometimes it fails. You can see that
+- [24:33] nana banana is not that stable. Okay. So
+- [24:35] it generated the rows northern abstract
+- [24:39] tree. Let's see if that's finished or
+- [24:40] not. So the responses aren't being
+- [24:43] displayed properly. That's unfortunate.
+- [24:46] But we have the codeex making the tree
+- [24:50] interactive tree in the meantime. So
+- [24:53] that might be fighting with our changes
+- [24:56] again trying to do multiple things at
+- [24:57] once to save time. Let's start our app
+- [25:00] again. We have the start command here.
+- [25:03] Super simple. We go. Let's open the
+- [25:06] local host
+- [25:08] tree.
+- [25:09] Okay. So here we have the dashboard.
+- [25:12] Let's upload something. This doesn't
+- [25:14] really work though. The upload button in
+- [25:18] the tree canvas doesn't really work.
+- [25:21] Generant enter prompt. Press E to jump
+- [25:24] to the chat.
+- [25:26] I mean, we there's like a lot of
+- [25:28] potential here, but we just don't have
+- [25:29] it. Okay. Upload. Oh, there we go. Let's
+- [25:32] go. Okay. Oh, let's go. We're cooking
+- [25:36] here. Let's click on variant. Is
+- [25:38] something happening? So, we have, look
+- [25:40] at this. We have an image on the board.
+- [25:43] It's much more visual, much more
+- [25:44] interactive. can say great job the issue
+- [25:47] is fixed. However, when I click variant,
+- [25:49] nothing happens. Instead, what should
+- [25:52] happen is we should send a simple prompt
+- [25:54] to the GBD5 mini agent which is
+- [25:57] responsible for generating four
+- [26:00] variations and then it should generate
+- [26:02] the four variations using the existing
+- [26:04] code which works and then we should show
+- [26:06] these on the canvas in the tree search.
+- [26:09] Analyze the codebase, figure out where
+- [26:11] the issue is and make sure that the
+- [26:13] variant
+- [26:15] button actually works. So really the way
+- [26:18] you want to work is use cloth code for
+- [26:20] explanation. Cloth code should be
+- [26:21] upsklling yourself. It should be gaining
+- [26:24] understanding for yourself and
+- [26:25] generating new ideas. But most of the
+- [26:27] time Codex has better ideas and you can
+- [26:29] actually compare these you know give the
+- [26:31] output from cloud code into Codex. Give
+- [26:32] the output from COX into cloud code.
+- [26:34] This is literally how I work every
+- [26:35] single day. But uh you want to use both
+- [26:39] and CEX is more powerful right now. So
+- [26:41] again, if you want me to make a full
+- [26:42] video on that, comment below with the
+- [26:44] word codeex and also subscribe. If I see
+- [26:47] a lot of people subscribing, I'm going
+- [26:48] to make that video because it is the
+- [26:51] most OP AI agent as of right now. Yeah.
+- [26:53] So this is um this is a time to again
+- [26:56] debug this a bit. Even though this is
+- [26:58] already a huge step in the right
+- [27:00] direction, I do want to show you guys
+- [27:03] the branching out because that is the
+- [27:06] that is the most impressive part to be
+- [27:09] honest. So I just wanted to add some u
+- [27:12] debug log statement so we can actually
+- [27:14] be strategic and not just randomly
+- [27:17] not do anything. When I click the
+- [27:20] variant button in the tree view nothing
+- [27:22] happens. Investigate why that is and
+- [27:24] answer in short. Do not make any
+- [27:25] changes. Okay. Wait. So we have some
+- [27:28] front end. Is it going to be front end
+- [27:29] console or back end console? Okay. Yeah.
+- [27:32] This is going to be front. Let's see.
+- [27:34] Variant.
+- [27:36] Am I crazy? What's going on? Okay. This
+- [27:39] is very strange. This button doesn't
+- [27:41] even work in the console doesn't
+- [27:43] display. So might be issue with the
+- [27:46] fundamental UI
+- [27:49] like the click isn't even registered
+- [27:51] here. Okay, cloud code is suggesting
+- [27:53] that the click handler is the problem.
+- [27:56] So now both of these agents are fighting
+- [27:58] against each other because both are
+- [27:59] trying to change the same file. Oh,
+- [28:01] let's go. Let's go. So, this is very bad
+- [28:02] UI, but I'm going to say uh
+- [28:06] more
+- [28:07] colorful versions. Okay. Okay. Boom.
+- [28:10] There we go. All right. We are back on
+- [28:13] we're back on track. So, we have the
+- [28:14] four versions generating. Nice. This is
+- [28:16] nice.
+- [28:19] This blue box is kind of annoying.
+- [28:20] Remove the blue box um of the tree view.
+- [28:25] Network error we're creating. Wait.
+- [28:26] Okay. We got a network error. That's not
+- [28:29] the best. Okay. Oh, it worked. It
+- [28:32] actually worked. Never mind. So, after a
+- [28:36] bunch of errors, we got it to work. This
+- [28:38] is This is nice. This is nice. And then
+- [28:41] we can hover over any of these and make
+- [28:43] a variant. So, let's say I like this
+- [28:44] one. Boom. Variant. I say u
+- [28:48] rotate each version by 90°. I don't
+- [28:51] know. Okay. And there we go. Look at
+- [28:54] this. And this is the tree UI that is
+- [28:56] like much nicer to work with images than
+- [28:58] just chat, right? So this is an example
+- [29:01] of a single app you can build and even
+- [29:03] though I faced a bunch of errors, it
+- [29:05] took me like 90 minutes to build this
+- [29:06] right in grand total amount of time.
+- [29:09] And I'm definitely not a professional
+- [29:11] developer. So if you want to take Nano
+- [29:14] Banana and turn it into a startup, you
+- [29:16] know, maybe you're targeting clothing
+- [29:18] companies like some of our new society
+- [29:19] members do, maybe you're targeting um
+- [29:22] social media, right? like Facebook ads
+- [29:25] creatives for marketing campaigns, maybe
+- [29:26] you want to make thumbnails for
+- [29:27] YouTubers, whatever you want to do. The
+- [29:30] opportunities are endless with this
+- [29:31] model. Like stuff like this wasn't even
+- [29:33] possible a week ago. So, that's why I'm
+- [29:35] so hyped about it. That's why I
+- [29:37] literally couldn't sleep today. I woke
+- [29:39] up at like 3:00 a.m. and I added it into
+- [29:41] vectal because um yeah, this is a
+- [29:43] revolutionary model for different
+- [29:45] reasons, right? It's not like better
+- [29:47] than midjourney at generation. It's
+- [29:49] better at consistency. Like this is
+- [29:50] crazy. Everything else is the same here.
+- [29:52] It just added the cat and it looks super
+- [29:54] good. Like the cat isn't like glitched
+- [29:56] or anything. It's amazing. So, if you
+- [29:58] want to try Nano Banana yourself, go to
+- [30:00] vectal.ai. Just type it in, create an
+- [30:03] account. Super easy. Takes 30 seconds
+- [30:05] and you can use it for free. Even on the
+- [30:06] free plan, you can use it. If you want
+- [30:08] unlimited access, however, Veal Pro
+- [30:10] members get unlimited access to Nano
+- [30:12] Banana inside of the chat. And let me
+- [30:14] know what you think of this full screen
+- [30:15] functionality. A lot of you guys have
+- [30:17] requested it, so we added it. So now you
+- [30:19] can chat with actal just like you can
+- [30:20] with chat GBT. So with that being said,
+- [30:22] thank you guys for watching. Hopefully
+- [30:24] you enjoy this video. If you want me to
+- [30:26] make more videos on Nana Banana, comment
+- [30:27] below and I wish you a wonderful
+- [30:29] productive week. See you.

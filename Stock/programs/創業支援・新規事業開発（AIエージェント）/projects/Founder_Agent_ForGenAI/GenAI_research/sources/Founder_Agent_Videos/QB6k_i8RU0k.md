@@ -1,0 +1,449 @@
+---
+title: "Transcript: QB6k_i8RU0k"
+video_id: "QB6k_i8RU0k"
+video_url: "https://www.youtube.com/watch?v=QB6k_i8RU0k"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:15:17"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: QB6k_i8RU0k
+
+- URL: https://www.youtube.com/watch?v=QB6k_i8RU0k
+- Retrieved at: 2025-12-30T10:47:17+09:00
+
+## Text
+
+- [00:00] One of the most exciting things to me
+- [00:01] lately is looking at the trend of model
+- [00:04] autonomy. Now, what inspired this video
+- [00:06] is I saw a news clipping that showed
+- [00:08] that Replet, which is an Agentic coding
+- [00:10] company, is now valued at about $3
+- [00:12] billion. So, let's talk about where
+- [00:15] Agentic Autonomy is going and what it
+- [00:17] means. So, real quick overview, uh,
+- [00:20] Replet hits $3 billion valuation at $150
+- [00:23] million annualized revenue. One of the
+- [00:26] things I want to point out is that a lot
+- [00:27] of people kind of make fun of these
+- [00:28] companies because they're basically LLM
+- [00:30] rappers. However, these companies are
+- [00:35] adding more uh to the stack rather than
+- [00:38] just being a wrapper for the LLM because
+- [00:40] one, many of these companies are LLM
+- [00:42] agnostic, meaning they can pick whatever
+- [00:44] model uh you want at the at uh at the
+- [00:48] customer end, but then also they're
+- [00:50] adding more value to the stack, namely
+- [00:53] the agentic framework, which that's the
+- [00:55] real moat. So, one of the jokes has been
+- [00:58] over the last couple years, every AI
+- [01:00] startup is basically just a rapper and
+- [01:02] has no moat. But this is no longer the
+- [01:06] case because these agentic frameworks on
+- [01:08] top of it are increasingly
+- [01:09] sophisticated. This tweet is really kind
+- [01:11] of what set it off. So, Amjad uh is the
+- [01:15] um is the founder of Replet and he's,
+- [01:17] you know, in the news quite a bit. And
+- [01:20] one of the things that they said is that
+- [01:22] for agent v1, it was able to do
+- [01:24] two-minute tasks. Agent V2 20-minut
+- [01:26] tasks and Agent V3 it was able to do 200
+- [01:30] minute tasks. So that's going up 10x.
+- [01:33] Now obviously there's no um there
+- [01:35] there's not really uh an Xaxis here.
+- [01:38] It's just over time. Uh so this is this
+- [01:41] is more of a marketing graphic than real
+- [01:43] data. But one of the things that I'm
+- [01:46] hearing from a lot of people is that the
+- [01:48] meter paper, so that's MER, uh, which
+- [01:50] I'll talk about in just a second,
+- [01:52] actually dramatically underells what
+- [01:55] these what these tools can do. Um, uh,
+- [01:58] yeah, there there are some news from
+- [02:01] private news from industry that really
+- [02:03] knocks your socks off just what Claude
+- [02:05] can do on its own without these agentic
+- [02:08] frameworks on top of them. So you have
+- [02:10] this two-way interaction between the
+- [02:12] model itself which is getting better and
+- [02:14] better but then the agentic frameworks
+- [02:16] that are built on top of it that are
+- [02:18] also getting better at the same time. So
+- [02:20] that leads to data like this. So this is
+- [02:23] the famous meter graph that shows that
+- [02:26] over time uh you can see a very clear
+- [02:28] exponential curve as uh the baseline
+- [02:31] models become more autonomous and
+- [02:33] they're able to do longer and longer
+- [02:35] tasks. Fortunately, meter releases that
+- [02:38] data which I I take that data every time
+- [02:40] that it's updated and give it to like
+- [02:42] chat GBT Pro or Gemini and ask it to do
+- [02:45] some regressions on that data. So, here
+- [02:48] is the latest result of doing those
+- [02:50] regressions. Now I learned from all the
+- [02:52] modeling and forecasting work that I've
+- [02:54] done with the help of GPT 5 Pro and you
+- [02:57] know deep research and all those other
+- [02:59] tools that when you're trying to
+- [03:01] understand data one of the best things
+- [03:03] to do is test different models on it.
+- [03:06] And when I say model I mean mathematical
+- [03:08] models not you know AI models although
+- [03:09] trying different AI models is is
+- [03:11] important as well. So I handed the raw
+- [03:13] data to it and I said figure out which
+- [03:15] model best fits this data. Is it an
+- [03:17] exponential? Is it a super exponential?
+- [03:19] Is it logarithmic? What is the best
+- [03:21] data? And as it turns out, the steepest
+- [03:25] curve is the best fit of the data. So
+- [03:27] answer in one sentence on the raw meter
+- [03:29] data set 28 points. Uh the best fitting
+- [03:32] trend for model autonomy is a super
+- [03:33] exponential, specifically a stretched
+- [03:35] exponential of the form y to the t= a
+- [03:39] exponent bt to the c. Um and where t is
+- [03:43] years since 2019, February 14th when the
+- [03:46] data started. Uh so effectively we're on
+- [03:49] the steepest slope. So this is not just
+- [03:51] an exponential. It's not even just a
+- [03:53] quadratic exponential. It is a stretched
+- [03:55] exponential. I'm not strong enough in
+- [03:57] math to really understand the
+- [03:58] ramifications of this. I'm relying on
+- [04:00] the AI here. But curve gets steep.
+- [04:02] That's kind of the takeaway here. So
+- [04:05] once we derived this formula, I said,
+- [04:07] okay, forecast this out to 2030 and tell
+- [04:10] me what what we see. And so we see here
+- [04:13] where we, you know, right now we're in
+- [04:15] the 10 to the to the to the second. So
+- [04:17] that's 100 minutes give or take. Uh but
+- [04:20] then it's stretching up very quickly and
+- [04:22] we see that by uh 2028 we're looking at
+- [04:26] 10 to the 6th and then by 2030 we're
+- [04:29] looking at 10 to the 10th autonomy. So
+- [04:32] like okay that's what it looks like on a
+- [04:34] graph and you know this is this is you
+- [04:36] can see the fit is pretty close. That's
+- [04:39] a very good fit. Now, one thing I will
+- [04:41] say is one flaw with my methodology that
+- [04:43] people pointed out on Twitter is there's
+- [04:46] different things you can do where you
+- [04:47] can drop some of the samples. So, you
+- [04:48] can hold out, you know, a third of the
+- [04:50] samples or a quarter of the samples, uh,
+- [04:52] and then test accuracy. I did not do
+- [04:55] that. So, uh, you know, your mileage may
+- [04:58] vary, but also this is just done, you
+- [05:01] know, back of the napkin math with the
+- [05:02] help of AI. But with that being said,
+- [05:04] the curve that we derived shows these
+- [05:07] thresholds. So by July 1st of 2026, we
+- [05:11] should expect to see about 1547 minutes
+- [05:14] or 25 hours of autonomy. The following
+- [05:18] year, July 1st on 2027, 857 hours. Uh
+- [05:23] which for context, that's about a tenth
+- [05:24] of a year right there. Um so that's
+- [05:27] that's over a month of autonomy by 2027.
+- [05:30] By the middle of 2028, we're looking at
+- [05:33] 59,000 hours of autonomy on this curve.
+- [05:36] 2029, 8,600,000
+- [05:40] hours of autonomy. And then finally, uh
+- [05:44] by 2030, we're looking at
+- [05:48] 171 billion minutes, which is 2 billion
+- [05:51] hours or 323,000
+- [05:54] years. Uh yeah, those are big numbers.
+- [05:57] Big numbers get bigger. Now what I want
+- [05:58] to point out is these numbers are
+- [06:00] functionally meaningless because
+- [06:02] essentially this means that you know
+- [06:04] these these agentic models these agentic
+- [06:06] coding platforms will be able to succeed
+- [06:09] uh you know at a 50% accuracy at tasks
+- [06:12] that take longer than humanity has
+- [06:14] existed before too long. Um and that is
+- [06:18] that is not the time step that reality
+- [06:20] works at because you know is it going to
+- [06:22] sit there and code something for 323,000
+- [06:25] years? No, it's going to it's going to
+- [06:27] run into resource limitations before
+- [06:29] that. It's going to run into um
+- [06:31] permissions issues before that. It's
+- [06:33] going to need feedback before that. So
+- [06:36] essentially what this means though is
+- [06:37] that model autonomy is going to be for
+- [06:40] all intents and purposes functionally
+- [06:42] solved in the next few years. Meaning
+- [06:44] that the the level of success for a
+- [06:47] model working on those longer time
+- [06:49] horizons is not going to be a
+- [06:51] bottleneck. So that begs the question,
+- [06:53] what will be the bottlenecks? But first,
+- [06:54] I had this funny question. I said, "Can
+- [06:56] you calculate when would this model
+- [06:58] predict that AI autonomy exceeds the
+- [07:00] heat death of the universe to show how
+- [07:01] ridiculous the curve is? Give me the
+- [07:03] exact date." So, it used our winning
+- [07:06] formula and figured out that model
+- [07:08] autonomy would exceed the heat death of
+- [07:10] the universe um which is 10^ the 100
+- [07:14] years. Um and it it predicted that it'll
+- [07:17] it will hit that in 26.6 6 years or
+- [07:20] October 22nd, 2045, which is right in
+- [07:23] time for the singularity. So basically,
+- [07:25] model autonomy will exceed at this
+- [07:27] current rate, which of course there's
+- [07:29] reasons that it's not going to get
+- [07:30] there, but at the current rate, if it
+- [07:32] continues, it would exceed the heat
+- [07:34] death of the universe in terms of how
+- [07:35] long it could function autonomously
+- [07:37] right in time for the singularity. So
+- [07:39] that's how ridiculous this data is. But
+- [07:42] that's also why I say it is functionally
+- [07:43] meaningless. But what it does mean in
+- [07:45] practical terms is that the bottleneck
+- [07:47] is going to move. So uh before we get
+- [07:50] into the bottlenecks, I wanted to share
+- [07:52] this paper that popped up. It's a
+- [07:53] pre-print. So you know take it with a
+- [07:55] grain of salt. But uh the idea the the
+- [07:59] central idea for this paper is the
+- [08:00] illusion of diminishing returns
+- [08:02] measuring long horizon execution for
+- [08:04] LLMs. One of the core insights, and this
+- [08:07] is something that I independently came
+- [08:08] to, which is one of the reasons that I I
+- [08:10] latched on to this paper and said this
+- [08:11] is worth sharing, is because when you go
+- [08:14] from 90% success rate on one-shotting
+- [08:16] tasks to a 95% success rate in uh
+- [08:20] oneshotting tasks, you might say that's
+- [08:22] only a 5% increase in success rate. No,
+- [08:24] you're doubling the success rate because
+- [08:26] you're cutting the failure rate in half.
+- [08:28] Instead of failing on 10%, you're only
+- [08:30] failing on 5%. And that is the
+- [08:33] mathematical intuition that many people
+- [08:35] don't have. Um, if you just look at 90
+- [08:37] to 95%. And so what they find is that
+- [08:40] when you get those last few percentage
+- [08:42] points going from 90% success rate to
+- [08:45] 95% success rate, the long horizon
+- [08:48] execution goes up very very quickly. And
+- [08:52] so then I was very skeptical about this
+- [08:55] kind of reasoning in the past. Uh you
+- [08:57] might remember for people that have been
+- [08:59] with my channel for a long time that I
+- [09:01] was very I've been talking about sigmoid
+- [09:03] curves. Guys, watch out for the sigmoid
+- [09:04] curves. We're going to hit diminishing
+- [09:06] returns. But in the last year or two
+- [09:08] since I started saying that, that has
+- [09:10] not proven true. And one thing that
+- [09:12] people said is yeah, there's going to be
+- [09:13] another sigmoid curve. So you have one
+- [09:15] sigmoid curve after another like a
+- [09:16] stepping stone. And that is exactly what
+- [09:18] we have seen. So in this case, the first
+- [09:21] sigmoid curve was just model scaling,
+- [09:24] more parameters, more data. The second
+- [09:26] sigmoid curve that we found was test
+- [09:28] time compute. The third sigmoid curve
+- [09:30] we'd have is long execution or long
+- [09:32] horizon execution. And then the fourth
+- [09:34] sigmoid will probably be something else.
+- [09:37] Uh maybe more supervision or synthetic
+- [09:39] data or whatever else. So every time we
+- [09:42] feel like we're hitting a wall, we're
+- [09:44] not. We come up with another opportunity
+- [09:46] because the mathematical search space
+- [09:48] about how do we use these AIs more is
+- [09:52] functionally un inexhaustible. And when
+- [09:54] you look at the amount of data that
+- [09:55] human brains require and the amount of
+- [09:57] energy that human brains require, that
+- [09:59] is for all intents and purposes our
+- [10:02] current floor. We know that the human
+- [10:04] brain can generalize with a lot less
+- [10:06] data and a lot less energy than uh than
+- [10:09] our AIs are doing. So if our brains can
+- [10:11] do it, and our brains are not magic, I
+- [10:13] mean they're they're magic in so far as
+- [10:15] we don't know how they work yet, but
+- [10:16] they clearly do work. Therefore, we can
+- [10:20] as we're still many orders of magnitude
+- [10:22] above the efficiency both in data and
+- [10:24] energy of the human brain. So there's
+- [10:26] going to be probably I don't know 8 10
+- [10:28] 20 50 maybe 100 more sigmoid curves of
+- [10:31] efficiency gains and intelligence gains
+- [10:33] over the next decade or two. Uh so then
+- [10:36] that leads to okay if coding if agentic
+- [10:39] autonomous coding is not going to be the
+- [10:41] bottleneck what is going to be the
+- [10:43] bottleneck? So model autonomy will
+- [10:45] quickly outstrip other bottlenecks
+- [10:47] namely humans. we're going to be the
+- [10:49] bottleneck soon. And in many cases, we
+- [10:51] already are. So, first is task
+- [10:54] specification. Uh we'll need AIs to take
+- [10:56] over task definitions, which means, you
+- [10:59] know, rather than humans writing user
+- [11:00] stories and cases and all those kinds of
+- [11:02] things, just have the AI do it. So,
+- [11:04] that's something that they're already
+- [11:05] pretty good at anyways. You just need
+- [11:07] the right inputs. Next is access and
+- [11:09] permissions. So, that's, you know, do
+- [11:10] they have the right resources,
+- [11:11] role-based access control, do they have
+- [11:13] enough data, those kinds of things.
+- [11:15] keeping them in sandboxes will actually
+- [11:16] hamst hamstring them. And what I mean by
+- [11:18] that is if you keep it in its own little
+- [11:20] coding environment and doesn't you don't
+- [11:22] give an agent the ability to request
+- [11:24] access to resources and have another
+- [11:26] agent grant those resources or deny them
+- [11:29] uh according to what they need. Then you
+- [11:32] know it'll just get to a point it's like
+- [11:33] sorry I can't help you know I'm I'm
+- [11:35] waiting on other resources or I'm
+- [11:37] waiting on a human to approve it and
+- [11:38] that goes to verification. Who's going
+- [11:40] to validate and integrate the output?
+- [11:42] So, we need validation agents. We need
+- [11:44] agents that do that do unit tests, that
+- [11:46] do integration tests, and those kinds of
+- [11:48] things. Uh because without that, you're
+- [11:50] going to be waiting on humans to
+- [11:51] manually integrate things. And of
+- [11:53] course, manual integration hasn't
+- [11:55] necessarily been a thing for a while,
+- [11:56] particularly in big shops, because you
+- [11:58] have fully automated DevOps pipelines,
+- [12:00] which then allows you to automatically
+- [12:03] test and deploy and, you know, stage
+- [12:05] everything, yada yada yada. But anyways,
+- [12:07] not every shop does that. So there's a
+- [12:09] lot of alpha in building agents that can
+- [12:11] do verification and and DevOps agents.
+- [12:14] Next is remediation. If something goes
+- [12:17] sideways, then you need to have a
+- [12:19] backout strategy. You can have uh S sur
+- [12:22] agents, which is uh site reliability
+- [12:24] engineer agents uh and those kinds of
+- [12:26] things. Compliance, legal and regulatory
+- [12:28] frictions. Also change management uh
+- [12:31] making sure that the changes are
+- [12:32] properly documented and that kind of
+- [12:34] thing. Again, perfect for agents to do
+- [12:36] because everything is going to be
+- [12:37] APIdriven safety, which includes cyber
+- [12:40] cyber security and even X-risk agents.
+- [12:42] You can build agents that say, "Hey, if
+- [12:44] we deploy this, is it going to threaten
+- [12:46] humanity or is it going to, you know,
+- [12:48] present cyber security vulnerabilities
+- [12:49] or that kind of thing?" And then
+- [12:51] finally, coordination agents that are
+- [12:53] just little pigeons to carry messages
+- [12:55] from one silo to another. Those are all
+- [12:57] going to be bottlenecks by 2027 when
+- [12:59] agent autonomy is the biggest thing. So
+- [13:02] if as a business if you want to get
+- [13:05] ahead of the curve, start moving uh
+- [13:07] start thinking in these directions and
+- [13:09] figure out how can we alleviate those
+- [13:10] bottlenecks because you're going to be
+- [13:12] writing literally billions of lines of
+- [13:15] code per day for pennies on the dollar
+- [13:18] uh within just a few years. So if you
+- [13:20] have a hyperabundance of code, how do
+- [13:22] you test that code? How do you integrate
+- [13:24] that code? Um and this is this is kind
+- [13:27] of the the the primary thing is we're
+- [13:29] coding up the matrix. Unlimited software
+- [13:30] is coming soon. Businesses businesses
+- [13:33] should start preparing for this future
+- [13:35] now. The bottleneck will shift from
+- [13:36] writing code to coordinating work,
+- [13:38] managing risk, and coupling software to
+- [13:39] the messy outside world. The right CEO
+- [13:42] plan is to build an autonomy ready
+- [13:43] operating system for the company, a
+- [13:45] platform, process, and governance stack
+- [13:47] that can absorb near instant code and
+- [13:49] turn it into safe, observable, and
+- [13:51] reversible change in production. So
+- [13:52] number one, throughput. Treat code
+- [13:54] generation as abundant and plan for
+- [13:56] orchestration to be scarce. That's going
+- [13:58] to be the new scarce bottleneck is how
+- [14:00] do you organize all of that. Next is
+- [14:02] enablement. Move the move to
+- [14:04] softwaredefined everything so that
+- [14:06] agents can actuate change through APIs
+- [14:08] and policy not tickets and meetings.
+- [14:10] Have the agents meet on their own. You
+- [14:12] don't need humans in the loop. And then
+- [14:15] but then what you do need is you need a
+- [14:16] dashboard so that humans can watch all
+- [14:18] the agents because you're going to have
+- [14:19] literally tens of thousands of agents
+- [14:21] doing stuff. So you're going to be
+- [14:22] watching them like message cues. Um in
+- [14:25] fact putting them on AM AMQP would
+- [14:27] probably be the best way. Um so AMQP is
+- [14:31] automated message Q protocol uh which is
+- [14:33] a way that uh applications can talk to
+- [14:35] each other. In fact that's one of the
+- [14:37] first things that I tried to do with
+- [14:38] cognitive architectures. I said agents
+- [14:40] should use AMQP because it's routable
+- [14:42] messages. And what are these? They're
+- [14:43] talking with messages. Anyways, sorry
+- [14:45] getting into the weeds. Checkpoints make
+- [14:47] governance executable. policies,
+- [14:49] approvals, risk limits, and audits must
+- [14:51] run as code inside the delivery
+- [14:53] machinery, not as outofband committees.
+- [14:55] That is going to be one of the biggest
+- [14:56] things. Okay, so thanks for watching to
+- [14:59] the end. Uh, if you want more like this,
+- [15:01] I have my courses going up over on First
+- [15:03] Movers, plus a whole bunch of other
+- [15:05] courses. It's not just me. Um, so go to
+- [15:07] first movers.ai-shapiro.
+- [15:11] Um, and or use the sign up code Dave
+- [15:13] Shapiro to get a discount. And thanks
+- [15:15] for watching to the end. I will check
+- [15:17] youall later.

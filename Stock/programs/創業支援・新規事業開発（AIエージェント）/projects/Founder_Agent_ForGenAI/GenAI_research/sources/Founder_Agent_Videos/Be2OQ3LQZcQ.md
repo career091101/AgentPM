@@ -1,0 +1,518 @@
+---
+title: "YouTube Video: Be2OQ3LQZcQ"
+video_id: "Be2OQ3LQZcQ"
+video_url: "https://www.youtube.com/watch?v=Be2OQ3LQZcQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Tutorial"
+summary: |
+  One of the biggest problems with most rag systems is that we don't actually know the sources that our AI agent is using. Did it hallucinate? Did it pull from irrelevant documents? And no, citation is ...
+key_points:
+  - "the hood. But first, I want to give you"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: Be2OQ3LQZcQ
+
+- URL: https://www.youtube.com/watch?v=Be2OQ3LQZcQ
+- Retrieved at: 2025-12-30T10:03:59+09:00
+
+## Text
+
+- [00:00] One of the biggest problems with most
+- [00:02] rag systems is that we don't actually
+- [00:04] know the sources that our AI agent is
+- [00:07] using. Did it hallucinate? Did it pull
+- [00:09] from irrelevant documents? And no,
+- [00:11] citation is not enough because agents
+- [00:13] can make that up as well. And so today,
+- [00:16] I want to show you how to solve this
+- [00:18] problem with a rag agent that you're
+- [00:20] looking at right here that has human in
+- [00:22] the loop for source validation. Users
+- [00:25] can see the chunks that are returned
+- [00:26] from our knowledge base, approve some
+- [00:29] and reject others, and only then does
+- [00:32] the agent synthesize an answer. So, we
+- [00:34] have full control and visibility. And
+- [00:36] boy, is this powerful. So, I built this
+- [00:39] agent with Copilot Kit and Pideantic AI.
+- [00:41] I'll show you what that looks like under
+- [00:43] the hood. But first, I want to give you
+- [00:45] a quick demo of the agent. So, the
+- [00:46] knowledge base that this agent has
+- [00:48] access to just contains a bunch of
+- [00:50] information about different AI
+- [00:51] companies. And so I'm going to restart
+- [00:54] the conversation here and paste in a
+- [00:56] question. I know that my face is
+- [00:57] blocking this a little bit, but it's
+- [00:59] just asking what is OpenAI's latest
+- [01:01] funding. So I'll send this in. And
+- [01:03] before we get an answer, we're going to
+- [01:04] see the chunks appear on the lefth hand
+- [01:06] side. And the agent recognizes like
+- [01:08] okay, select the sources you want me to
+- [01:10] use for the summary and then ask me to
+- [01:12] proceed. And so I can check the box for
+- [01:15] all the chunks that I actually want it
+- [01:17] to include. And we can also click into
+- [01:19] this to see exactly what we did pull
+- [01:21] from the knowledge base. There's so much
+- [01:23] transparency that we have here. Even
+- [01:25] using this as an application just to
+- [01:27] debug our rag agents and evolve our rag
+- [01:30] agents is super powerful. So I select a
+- [01:33] couple of chunks and I can even say what
+- [01:35] are the sources that I have selected.
+- [01:38] And so I'll show you that we have this
+- [01:40] real time sync between the agent in the
+- [01:42] backend and our front end. It knows the
+- [01:44] three sources that we have selected. All
+- [01:46] the other ones right now we do not have
+- [01:48] as approved chunks. And so now I can say
+- [01:51] yes, give me the answer. And so we'll
+- [01:54] get the final answer, but it's based on
+- [01:56] everything that we have curated for the
+- [01:58] agent. This is not the kind of thing
+- [01:59] that I've shown on my channel before.
+- [02:01] And also, this is not the kind of thing
+- [02:03] that is easy to engineer. Having this
+- [02:05] real time sync with our actions in the
+- [02:08] front end and what the agent is working
+- [02:09] with in the back end is very powerful.
+- [02:12] Now, as far as use cases for this,
+- [02:14] something that I've been doing a lot now
+- [02:15] is treating this as a rag agent harness.
+- [02:18] And so essentially I'll take any rag
+- [02:20] agent that I'm currently working on and
+- [02:22] I'll plug it into this front end so I
+- [02:24] can test its responses with different
+- [02:26] sources selected and then also just make
+- [02:28] sure that it's pulling the right
+- [02:29] knowledge from the database. And you
+- [02:31] could definitely adapt this to be more
+- [02:32] of like an internal rag agent where
+- [02:35] users maybe like on your team can
+- [02:37] actually like pick and choose the
+- [02:38] sources that the agent is searching
+- [02:40] through. So treating the chunks return
+- [02:42] as a recommendation that you then get to
+- [02:44] sift through yourself if you want to
+- [02:46] make sure that you get the most accurate
+- [02:47] responses possible. Now for the two core
+- [02:50] components of our tech stack that makes
+- [02:51] this rag agent possible. We have copilot
+- [02:54] kit for the front end and pyantic AI for
+- [02:57] our backend agent. Copilot kit is what
+- [03:00] enables agentic experiences as I like to
+- [03:03] call it. So there's a video where I've
+- [03:04] covered this on my channel already that
+- [03:05] I'll link to right here with aentic
+- [03:08] experiences. They also call it
+- [03:10] generative UI. It allows our AI agent to
+- [03:13] manipulate the state in the entire user
+- [03:15] interface. And then also we can change
+- [03:18] the state of the agent from the UI. So
+- [03:20] we're just really deeply embedding the
+- [03:22] agent in our application. And I really
+- [03:24] do think that this is the future of SAS
+- [03:27] and really all web development. And the
+- [03:29] C-pilot kit team also built the AGUI
+- [03:32] protocol. This is the secret sauce that
+- [03:34] works under the hood to connect any
+- [03:37] application to any AI agent. And so in
+- [03:39] our case, we have a copilot kit app that
+- [03:41] is connected to a paidantic AI agent.
+- [03:44] And pretty much any agent framework you
+- [03:46] could ever hope to use supports agui
+- [03:49] like langraph, crewi, mra, agno. And
+- [03:52] each one of these in their docs, they'll
+- [03:54] tell you how to do that integration. And
+- [03:56] so, for example, with Pantai, they have
+- [03:58] the dedicated page here that I'll link
+- [03:59] to in the description, of course. And it
+- [04:02] shows you how easy it is to take any
+- [04:04] Pantai agent and instantly make it
+- [04:06] available as an API endpoint that is
+- [04:08] AGUI compatible. So, you can connect it
+- [04:11] to your C-pilot kit app. And now we get
+- [04:13] to the fun part. How we connect this all
+- [04:15] together because we talked about Copilot
+- [04:17] Kit and Pideantki and Age UI. How does
+- [04:21] this all come together? And that is with
+- [04:23] the use agent hook which really is the
+- [04:26] star of the show. This was released by
+- [04:27] the co-pilot kit team just this month.
+- [04:30] And what it does here is it gives us
+- [04:32] this agent object. And so we have direct
+- [04:34] access to the agent in our front end but
+- [04:37] the agent is still running securely in a
+- [04:39] backend API. And so now we can manage
+- [04:42] the state for the agent. We get
+- [04:43] real-time updates managing the
+- [04:45] conversation history all from the front
+- [04:47] end. And because it's using AGUI under
+- [04:49] the hood, we can connect with any agent,
+- [04:51] no matter how you built it or the
+- [04:53] framework that you use. And as they put
+- [04:55] it, we can access and interact with our
+- [04:57] direct to LLM agents directly from React
+- [05:00] components. And let me tell you, this is
+- [05:02] something I always wish that I had. I
+- [05:04] mean, yes, we can build this kind of
+- [05:06] real-time syncing solution with our
+- [05:08] agents manually, but it is a
+- [05:10] fundamentally difficult problem to
+- [05:11] engineer. And I think you'll see that as
+- [05:13] I get into the rag agent with you. The
+- [05:15] problem that we're solving is not easy,
+- [05:16] but our solution is pretty simple
+- [05:19] because we are using the use agent hook.
+- [05:21] And so it gives us direct access to all
+- [05:23] the information about our agent even
+- [05:25] like if it's running or not. So we can
+- [05:26] have real-time updates as we are waiting
+- [05:28] for a response from the agent. We can
+- [05:30] list out the conversation history and
+- [05:32] manage that in our front end. Working
+- [05:34] with the underlying state that it's
+- [05:35] using for things like its tool calls,
+- [05:37] even updating the state for the agent so
+- [05:39] the next time it uses a tool call, the
+- [05:41] state is changed. like this kind of
+- [05:43] thing you have to do through a lot of
+- [05:44] different API endpoints and calls if
+- [05:46] you're not using Copilot kit and AGUI
+- [05:50] even subscribing to agent events and so
+- [05:52] just making your application more
+- [05:54] ingrained with the agent and making it
+- [05:56] feel a lot snappier because you're
+- [05:58] constantly getting that responsiveness
+- [06:00] as you're interacting with the agent.
+- [06:02] All right, so now that we know all the
+- [06:04] components in play, I want to get into
+- [06:05] our rag agent specifically and how it
+- [06:08] works. And of course, this is a fully
+- [06:10] open- source GitHub repository. And so
+- [06:12] I'll have a link to it in the
+- [06:13] description if you want to try out this
+- [06:15] agent for yourself. Everything is
+- [06:16] completely free, obviously, except for
+- [06:18] the large language model that you have
+- [06:20] to hook into the agent in the back end.
+- [06:22] And so, let me actually restart the
+- [06:24] conversation here and ask a new
+- [06:25] question. Tell me about Amazon's
+- [06:27] investment in Enthropic. So, I want to
+- [06:29] showcase the features again really
+- [06:30] quickly and then get into how everything
+- [06:33] works with the use agent hook and our
+- [06:35] Pantic AI agent. And so first of all
+- [06:38] what we can do here is we can select
+- [06:40] different sources. We can deselect them
+- [06:42] or select all. And as I'm making these
+- [06:44] changes here it is being synced in real
+- [06:47] time to our agent in the back end. And
+- [06:49] so for example I'll select just one
+- [06:51] chunk here. I'll say you know what
+- [06:53] source do I have selected. And so it'll
+- [06:56] say you have chunk one cloud AI wars.
+- [06:58] There we go. All right. So it knows
+- [07:00] right away what I'm doing in the front
+- [07:02] end. And so now I can say okay great.
+- [07:05] now give me a summary based on that. So
+- [07:08] I'll send in this request and then what
+- [07:10] we can see if I go to the backend logs
+- [07:12] in the API we can see that for approved
+- [07:15] chunk ids we just have a single chunk.
+- [07:18] So it's chunk index number one for the
+- [07:20] document titled cloud AI wars and so
+- [07:24] right here AWS has made a significant $8
+- [07:26] billion investment in anthropic. I wish
+- [07:29] they would invest $8 billion in me but
+- [07:31] yeah there we go. That is our answer
+- [07:33] based off of just this piece of
+- [07:35] information. And we can even click into
+- [07:36] this to see exactly where we got that.
+- [07:38] There we go. $8 billion investment from
+- [07:41] Amazon Web Services in Anthropic. And if
+- [07:43] you were to select the chunk that
+- [07:45] doesn't have that information, it would
+- [07:46] just straight up tell us because it is
+- [07:48] only leveraging what we have approved
+- [07:50] here in order to synthesize its answer.
+- [07:53] And so think of it as like these are our
+- [07:55] recommendations and then we get to
+- [07:56] curate what it actually uses. And of
+- [07:59] course, I have a nifty Excal diagram to
+- [08:02] help you understand how this all works
+- [08:03] at a high level. And then I'll get into
+- [08:05] the weeds a little bit more in the code
+- [08:07] in just a little bit. But I do want to
+- [08:10] stay relatively high level just talking
+- [08:11] about how everything works together. And
+- [08:14] so first of all, we have our backend
+- [08:16] agent. And so this is a pideantic AI
+- [08:19] tool to search our knowledge base. If
+- [08:21] you've done anything with Pyantic AI
+- [08:23] before, you know how dependencies work.
+- [08:25] These are the runtime dependencies that
+- [08:27] we inject into our agent for all of the
+- [08:29] tool calls and the state. This is what
+- [08:31] we're real time syncing with our front
+- [08:33] end using agui. This is available as
+- [08:36] just another one of the dependencies for
+- [08:37] our agent. And so we send in the first
+- [08:40] query to ask the agent to search the
+- [08:42] knowledge base and it's going to run
+- [08:44] this tool and the tool returns a state
+- [08:46] snapshot event. This is the event that
+- [08:49] is streamed to the front end. So the
+- [08:51] front end knows what chunks to display
+- [08:53] to the user to get to that approval
+- [08:55] stage. And so now in our front end, of
+- [08:58] course, we have the use agent hook, the
+- [09:00] star of the show. So this is connected
+- [09:02] to our rag agent using copilot kit
+- [09:04] pointing to our API endpoint for the
+- [09:07] pyanti agent. And then whenever we call
+- [09:09] this rag tool, we return that state
+- [09:12] snapshot event. And so now we have the
+- [09:14] updated state for the retrieved chunks
+- [09:16] for us to display in a react component.
+- [09:19] And then when the user approves the
+- [09:21] sources in the UI, we're going to call
+- [09:23] the set state here on the agent and
+- [09:25] we're going to update the approved chunk
+- [09:27] ids. And this is instantly going to be
+- [09:29] available now in the state for the agent
+- [09:31] in the back end. And so at this point,
+- [09:33] the agent has just offered the sources
+- [09:35] to approve or reject. But we are
+- [09:37] blocking the agent from giving the final
+- [09:39] response until the user does the
+- [09:41] approval and then sends the next message
+- [09:43] to the agent like we saw. And once the
+- [09:45] user does that, then we go back to the
+- [09:48] back end. And there's another tool that
+- [09:49] the agent has to synthesize the
+- [09:51] response. And so we're going to look at
+- [09:54] the state. This is what is updated from
+- [09:56] our front end. We're going to fetch the
+- [09:57] approved chunk IDs. And then we're going
+- [09:59] to generate the answer based on only the
+- [10:02] chunks that we have approved. And so
+- [10:04] that way we have human in the loop rag.
+- [10:06] And that honestly just unlocks a whole
+- [10:09] new level of reliability for our agent.
+- [10:11] Now, I also want to spend at least a
+- [10:13] little bit of time diving into the code
+- [10:15] with you because I want you to
+- [10:16] understand how easy it is to take our
+- [10:19] use agent hook with copilot kit, our
+- [10:21] pyantic AI agent, and connect them
+- [10:23] together with AGUI. And of course, I
+- [10:26] encourage you to take your AI coding
+- [10:28] assistant and ask it questions over this
+- [10:30] codebase if you want to understand more
+- [10:32] how it works or especially adapt it to
+- [10:35] your own use cases. And I do have
+- [10:37] instructions in the readme here for how
+- [10:39] you can get it all up and running
+- [10:40] yourself if you want to try it out. So
+- [10:42] the first thing that is really important
+- [10:43] for you to understand here is how the
+- [10:45] state works. And so these are all of the
+- [10:48] pieces of information that we want to
+- [10:49] sync in real time with our front end and
+- [10:51] backend. And what you'll notice here is
+- [10:54] that all of the types defined in our
+- [10:56] backend. This Python script right here
+- [10:59] is exactly the same as the types that we
+- [11:01] have defined in the front end. And this
+- [11:03] is important because the state is really
+- [11:05] a contract that we have between the
+- [11:07] front end and back end with AGUI. So the
+- [11:10] only reason that this integration works
+- [11:12] so seamlessly is because the front end
+- [11:15] and the backend understand the state in
+- [11:17] exactly the same way. Same structure,
+- [11:20] same types, same everything. And so this
+- [11:23] state is the dependencies for our
+- [11:26] pyantic AI agent. And so we define our
+- [11:28] Panti agent just like I've done a
+- [11:30] million times on my channel already. We
+- [11:32] get the large language model and I
+- [11:34] support Gemini, OpenAI, Open Router,
+- [11:36] pretty much everything here. We get our
+- [11:37] system prompt that I have from a
+- [11:39] separate file. And then we define our
+- [11:41] dependencies. And this is exactly what
+- [11:43] we have through AGUI syncing with our
+- [11:46] front end. And then for the first tool
+- [11:47] in our workflow, we have the one to
+- [11:49] search the knowledge base. And so the
+- [11:51] tools are defined very similar to what
+- [11:52] you've done with Panti in the past if
+- [11:54] you've worked with it before. But when
+- [11:56] we access the state here from our
+- [11:58] dependencies, this is what we have from
+- [12:01] agui. This is the real time state sync
+- [12:03] with our front end. So it instantly has
+- [12:05] access to anything that we've been doing
+- [12:07] in the front end where we use the use
+- [12:09] agent hook to update the state for our
+- [12:12] agent. And so I don't need to get into
+- [12:13] the code for this tool too much, but we
+- [12:15] have both hybrid and regular semantic
+- [12:18] search. And the important thing here is
+- [12:20] this tool is not going to give the
+- [12:22] chunks for the agent to give its final
+- [12:23] answer. Remember, it's just going to
+- [12:25] list out the chunks and then send this
+- [12:28] state snapshot event so that the front
+- [12:30] end can take all this, display it for
+- [12:32] the user to then approve and reject the
+- [12:35] different chunks that we have here. And
+- [12:37] so the system prompt for the agent also
+- [12:39] describes this workflow as well. Like
+- [12:40] when you first get a request from the
+- [12:42] user, you call this tool and then you
+- [12:44] display the chunks. You don't give the
+- [12:46] final answer yet. We do display the
+- [12:48] final answer for this bottom function
+- [12:50] right here. So synthesize with sources.
+- [12:52] Once the user has approved the sources,
+- [12:55] then we're going to fetch that from the
+- [12:57] state. We're going to get the list of
+- [12:59] approved sources here. We're going to
+- [13:01] build up this context to then return it
+- [13:03] to the agent. So now the agent is going
+- [13:06] to take this information to give us the
+- [13:08] final answer. And for the icing on the
+- [13:10] cake here, take a look at how easy it is
+- [13:12] to take our Pantai agent and make it
+- [13:15] AGUI compatible. We just have to call
+- [13:18] this function and then it gives us this
+- [13:20] app instance that we can import within
+- [13:21] our main.py where we are setting up our
+- [13:24] fast API endpoint. And so I just have to
+- [13:27] mount the AGUI app and then boom, our
+- [13:29] Panti agent is immediately available on
+- [13:31] port 8000 thanks to AGUI and I'll show
+- [13:34] you how we set this up the connection
+- [13:36] here in our front end. And so first of
+- [13:38] all in our layout we are wrapping our
+- [13:40] entire React application with our
+- [13:42] co-pilot kit runtime. This is what makes
+- [13:44] it so that when we chat with our agent
+- [13:46] in the front end, it is automatically
+- [13:48] going to route the request to this API.
+- [13:51] And this is where we create our copilot
+- [13:53] kit runtime to make that connection to
+- [13:55] localhostport 8000. That is where we are
+- [13:58] running our paidantic AI agent. And so
+- [14:01] now within the page.tsx, this is the
+- [14:03] main part of our React app. There's
+- [14:05] actually not that much code here.
+- [14:07] Overall, think about how many API calls
+- [14:10] you'd have to make for every single
+- [14:11] little state sync and calls to the
+- [14:13] agent. We don't have to do any of that
+- [14:15] thanks to our use agent hook. Like
+- [14:17] literally all we have to do is call use
+- [14:19] agent. We give it the ID of the agent
+- [14:21] that we want to connect with. And then
+- [14:23] that gives us the instance of the agent
+- [14:25] that we can interact with in any React
+- [14:27] component however we want. We can read
+- [14:29] the state and work with that any
+- [14:30] component. We can set the state and that
+- [14:32] is automatically reflected immediately
+- [14:34] in our backend. Like this is our
+- [14:35] function here to handle when the user
+- [14:37] checks a box to approve a specific
+- [14:39] chunk. And then we also have some
+- [14:41] configuration which I haven't shown yet
+- [14:43] but we can change different attributes
+- [14:45] for how the agent performs rag under the
+- [14:47] hood like semantic versus hybrid search.
+- [14:49] We can reset the conversation. We can
+- [14:52] select or deselect all sources. And so
+- [14:55] all of these would have to be individual
+- [14:56] API calls that we make to sync the state
+- [14:59] or interact with the agent. But now we
+- [15:01] don't have to do any of that. It's all
+- [15:02] handled for us thanks to the use agent
+- [15:05] hook. That's the power that we have
+- [15:07] here. here. Like if I didn't have the
+- [15:08] use agent hook, this would be hundreds,
+- [15:10] maybe even thousands of lines of code
+- [15:12] interacting with the different endpoints
+- [15:14] to handle different parts of updating
+- [15:16] the state for the agent. Like I don't
+- [15:18] want to engineer for that. So I'm very
+- [15:20] thankful that we have copilot kit and
+- [15:22] agui making this possible. And also like
+- [15:25] I mentioned earlier, copilot kit
+- [15:27] recently had their big version 1 release
+- [15:30] that came with the use agent hook. Now,
+- [15:32] the use agent hook is probably the
+- [15:33] biggest thing in this update, but there
+- [15:35] are a lot of other really incredible
+- [15:37] things as well. So, definitely check
+- [15:39] this out if you're interested in
+- [15:40] building these agentic experiences,
+- [15:43] applications where the agent is deeply
+- [15:45] integrated with the front end. I do this
+- [15:47] kind of thing all the time myself. I
+- [15:48] love Copilot Kit. I've got a direct line
+- [15:51] of communication with the team because I
+- [15:53] appreciate the platform so much. And of
+- [15:55] course, I worked with them on this video
+- [15:56] as well, getting their feedback on
+- [15:58] things. So, thank you to them for that.
+- [16:00] Now, the other thing I want to call out
+- [16:01] really quickly for the 1.50 release is
+- [16:04] their support for A2 UI. So, this is
+- [16:07] Google's generative UI spec.
+- [16:09] Essentially, all a generative UI spec is
+- [16:11] is giving agents or LLMs the ability to
+- [16:13] generate front-end components
+- [16:15] dynamically. Hopefully, that's pretty
+- [16:17] clear why that's such a big deal for
+- [16:19] CopilotKit and AGUI. And so, you can
+- [16:22] literally make it so that your agents
+- [16:24] can generate dynamic user interfaces
+- [16:27] based on the conversation. And that is
+- [16:29] very exciting. And so I just want to end
+- [16:31] by saying, let me know in the comments
+- [16:33] what other kinds of use cases you'd want
+- [16:35] me to build out with C-Pilot kit and
+- [16:37] pineanti to create more agentic
+- [16:40] experiences or maybe even building out
+- [16:42] this rag agent more too. I really do
+- [16:44] want to turn this into sort of like a
+- [16:45] rag testing harness. I think that'd be
+- [16:47] really powerful as an open- source
+- [16:49] project. So curious what you think. So
+- [16:51] with that, if you appreciate this video
+- [16:53] and you're looking forward to more
+- [16:54] things on building AI agents, I would
+- [16:57] really appreciate a like and a subscribe
+- [16:59] and I will see you in the next video.

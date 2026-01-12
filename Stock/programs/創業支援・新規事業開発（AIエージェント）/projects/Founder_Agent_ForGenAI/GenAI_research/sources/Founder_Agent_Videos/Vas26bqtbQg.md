@@ -1,0 +1,379 @@
+---
+title: "Transcript: Vas26bqtbQg"
+video_id: "Vas26bqtbQg"
+video_url: "https://www.youtube.com/watch?v=Vas26bqtbQg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:10:08"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: Vas26bqtbQg
+
+- URL: https://www.youtube.com/watch?v=Vas26bqtbQg
+- Retrieved at: 2025-12-30T11:09:06+09:00
+
+## Text
+
+- [00:00] Let's build an AI agent that is
+- [00:01] optimized for handling PDF data. I'm
+- [00:03] going to be taking this dummy invoice
+- [00:05] data here, but the steps and logic
+- [00:07] you're about to see, you can apply to
+- [00:08] any type of PDF data that you want to
+- [00:10] input into this workflow. So therefore,
+- [00:12] by the end of this video, you're not
+- [00:14] only going to learn how to extract data
+- [00:15] effectively from PDFs, but you're also
+- [00:17] going to learn how we can take that data
+- [00:19] and leverage it in other applications.
+- [00:20] This specific video, I'm going to show
+- [00:22] you how to do with Google Sheets, but as
+- [00:23] you already know, you can apply that
+- [00:25] logic anywhere else. Let's jump in.
+- [00:27] Welcome, Becky. Today's video comes from
+- [00:29] a suggestion from our community here
+- [00:31] down in the description down below.
+- [00:32] Completely free to join. Sarica
+- [00:34] basically asks, "How do we take it so we
+- [00:35] can get a PDF here and automatically
+- [00:37] give it to an agent, get the data,
+- [00:39] extract it, and use it?" So, we're going
+- [00:41] to show that real quick. So, to do that,
+- [00:42] go ahead and start your new agent
+- [00:44] workflow. Start stays the same, but the
+- [00:47] first little agent that we're going to
+- [00:49] build together here is going to extract
+- [00:50] the underlying data. Now, I'll be honest
+- [00:51] with y'all. At first, I was like, "Oh,
+- [00:53] are we going to have to use assistance
+- [00:54] API here to get vision context? are we
+- [00:56] going to maybe add an extra layer here
+- [00:58] in order to see the data that's actually
+- [01:00] on the PDF? But in reality, we don't
+- [01:02] have to do any of that. What's cool
+- [01:04] about these agents is that builtin is
+- [01:06] vision context. And if you don't know
+- [01:07] what vision context is, essentially when
+- [01:09] dealing with a PDF, this is obviously a
+- [01:11] textheavy PDF, but some PDFs have maybe
+- [01:14] more images or diagrams, whether that's
+- [01:16] for real estate or engineering.
+- [01:18] Therefore, vision context is important
+- [01:20] to understand those diagrams and for the
+- [01:22] information we want to get out of it. In
+- [01:23] theory, when looking at an invoice PDF
+- [01:25] like this, which is very much textbased,
+- [01:27] we could programmatically create a
+- [01:28] Python script to extract all the
+- [01:30] relevant data. But let me just show you
+- [01:32] a one-size fit all to get this data. And
+- [01:34] the one size fit all is going to be
+- [01:36] using this vision context that's built
+- [01:38] into agents. So, first thing you want to
+- [01:39] do is provide context of what the PDF
+- [01:42] is. Mine's an invoice. Look at this
+- [01:44] invoice PDF. What the heck is yours? I
+- [01:46] don't know. Is it like the most amazing
+- [01:48] dog treats and a product description of
+- [01:50] dog treats? whatever it is. First line,
+- [01:53] context, PDF. Second line, we're going
+- [01:55] to identify what information we want to
+- [01:57] extract. So, for me, in today's video,
+- [01:59] we'll extract the company address, the
+- [02:01] total, and the invoice number. But don't
+- [02:04] worry, we're going to gut check this to
+- [02:06] make sure that the real data is getting
+- [02:07] pulled in. It's not hallucinating. So,
+- [02:08] this is the address, this is the invoice
+- [02:10] number, and then the total is $262.50
+- [02:13] USD. That's it. So, what is the relevant
+- [02:16] data that you care? This can be much
+- [02:17] longer. If anything, we could format
+- [02:19] this a little bit better so it's easier
+- [02:20] to read, more legible. Add the data
+- [02:22] points that you care about that's coming
+- [02:23] from that relevant PDF. In addition, you
+- [02:26] can also extract different things such
+- [02:28] as summary, more open-ended data points.
+- [02:31] When I say open-ended data points, I'm
+- [02:33] essentially saying maybe more
+- [02:35] analysisoriented data points. So, for
+- [02:37] example, in the invoice PDF, maybe just
+- [02:39] like a give me a two-sided summary of
+- [02:40] the client and the customer. It doesn't
+- [02:42] really apply too well to an invoice
+- [02:44] example, but maybe for that real estate
+- [02:46] example, you'd want to get information
+- [02:48] like, give me a summary of based on this
+- [02:50] location, is this a good purchase, based
+- [02:52] on square footage and location
+- [02:54] desiraability. Keep that in mind. So,
+- [02:56] for me, in theory, I could do summary of
+- [02:58] the invoice. Not really relevant. So,
+- [02:59] right now, we're just going to extract
+- [03:00] three data points that you can expand to
+- [03:02] however many data points you care about.
+- [03:04] It's safe. With this done, we can scroll
+- [03:06] down here. We got the model GBT5. That's
+- [03:08] fine. If you find yourself running into
+- [03:10] issues or errors or it's not working as
+- [03:12] effectively as it should, simply come
+- [03:13] over here to reasoning effort and then
+- [03:15] increase it to high since the purpose
+- [03:17] for me simply is invoice invoice data
+- [03:20] and three specific data points.
+- [03:22] Honestly, I can leave this as low. Fast
+- [03:23] in, fast out. High gives the model just
+- [03:26] more IQ. So for your task, does it
+- [03:28] require more IQ? Tools. We're going to
+- [03:30] go ahead and give no tools here. Don't
+- [03:32] worry, it's actually built into the
+- [03:33] agent. And then the response format will
+- [03:35] be JSON. This is fundamentally important
+- [03:37] for the next step here for it to be a
+- [03:38] JSON output. All right. So here we go.
+- [03:40] This is going to be the structure JSON
+- [03:42] output. I can rename this. So maybe we
+- [03:44] do like invoice schema voice data to
+- [03:47] make it more sense here. Add property.
+- [03:49] And the property name is going to be
+- [03:50] what we identified in the prompts. So
+- [03:52] for one was company. We'll just do
+- [03:54] company address. The other one was
+- [03:57] invoice
+- [03:59] number. And then this one was a number
+- [04:01] because it's a number. I'm going to hit
+- [04:02] update. And then finally total USD. But
+- [04:04] I'm going just do total USD and we can
+- [04:07] make this a number as well.
+- [04:07] Fundamentally, if you want to deep dive
+- [04:09] on what all these mean, I suggest you
+- [04:11] just do a screenshot, put it into an AI
+- [04:12] chat real quick. String just text number
+- [04:15] full, true or false. Enum categorization
+- [04:18] object a little bit more complex. Array
+- [04:20] is going to be like a list. All you need
+- [04:22] to care about for right now because most
+- [04:23] of the times you're extracting data is
+- [04:24] either going to be a string or a num.
+- [04:26] When I say num, I mean number update.
+- [04:28] With that done, then the next step here
+- [04:30] becomes fundamentally way easier. So, we
+- [04:32] got our data being formatted from the
+- [04:34] PDF. In the user data section here,
+- [04:36] we're going to leverage Zapier. And what
+- [04:38] Zapier is going to allow us to do is to
+- [04:39] then take it to our Google sheet here.
+- [04:41] And with our Google sheet, we should see
+- [04:42] the data come in as the second row here
+- [04:45] automatically. So, we're going to go
+- [04:46] ahead and first create a prompt. Place
+- [04:48] this data in the relevant Google sheet
+- [04:50] column. Identify where you're placing
+- [04:52] the data in the specific software this
+- [04:53] data is being placed into. In theory, if
+- [04:56] you're not really placing it anywhere,
+- [04:57] maybe you're just sending it to a Gmail,
+- [04:58] just say that as well. Whatever the use
+- [05:00] case for the data is, identify it here
+- [05:02] as the first line. Next, we're going to
+- [05:04] identify the data again. So, what I'm
+- [05:05] going to do to make my life easy is make
+- [05:07] sure you use the exact same dictation
+- [05:09] that you used in your actual wherever
+- [05:11] you're placing the data. So, invoice
+- [05:12] number, copy, invoice number, semicolon,
+- [05:15] company address, semicolon, total USD,
+- [05:17] semicolon. Now, here is where we add
+- [05:20] context. Context is going to be the
+- [05:21] invoice number found here, invoice
+- [05:23] number. So, it wants to place down
+- [05:24] there. I don't like that. Don't do that
+- [05:25] to me. Place it right here. And then,
+- [05:27] what you'll notice here is that we can
+- [05:28] add the other ones. Input output parsed
+- [05:30] invoice. No, no, not the invoice number.
+- [05:31] This will be the company address
+- [05:33] address. If you're wondering, Corbin,
+- [05:35] how'd you know it was that? Because if
+- [05:37] you go back here, go to the invoice
+- [05:39] data, we called it company address.
+- [05:41] Nice. Coming back over here though,
+- [05:43] assembly, open this little up total USD
+- [05:46] context here. Total USD. There we go.
+- [05:48] So, we got all three data points being
+- [05:50] placed. Place this data in the relevant
+- [05:52] Google sheet column. There we go. If you
+- [05:53] have more data points, add the more data
+- [05:55] points. Hit save. Now, this one because
+- [05:56] it's a little bit more complex. I'm
+- [05:58] going to do to high. In theory, I could
+- [06:00] go medium. Test it. See if it works. But
+- [06:01] especially in the beginning, y'all
+- [06:03] always opt for high. Just get it
+- [06:04] working. Once it's working, then you can
+- [06:06] kind of play around reasoning effort.
+- [06:07] Next, we're going to do a tool of
+- [06:08] Zapier. So, first we're going to do add
+- [06:10] MCP Zapier. Get your API key. For me,
+- [06:12] I've already created one. So, simply go
+- [06:14] to connect here. Copy secret. It's a
+- [06:16] secret. Zap year. Enter it here. If
+- [06:18] you're wondering what that is, why you
+- [06:20] even need to do that, essentially, this
+- [06:21] is tells OpenAI that you have access to
+- [06:23] an actual Zap year account and the
+- [06:24] functionalities you're about to see.
+- [06:25] We're going to add these tools together.
+- [06:26] Don't worry. For now, I'm going to
+- [06:27] uncheck these. And the tool tools we're
+- [06:29] going to add together is creating a
+- [06:30] spreadsheet row. The ability to actually
+- [06:31] functionally create a spreadsheet row
+- [06:33] within software. And then on top of
+- [06:34] that, get data from that spreadsheet at
+- [06:36] first. Add. So now coming over to Zapier
+- [06:39] MCP, let's make sure we add those tools.
+- [06:40] I have already added them. You know what
+- [06:42] I'll do? I'll remove them from the
+- [06:43] server and we'll add them together. So
+- [06:44] we're going to add tool Google sheet. In
+- [06:46] theory, we could add all the tools, but
+- [06:48] I honestly suggest you not to do that.
+- [06:49] First, let's just do lookup spreadsheet
+- [06:51] rows. This is going to give the ability
+- [06:52] for the artificial intelligence model to
+- [06:54] get all the relevant data found in the
+- [06:56] spreadsheet. We're going to do configure
+- [06:58] here and then within configure, we're
+- [06:59] going to make sure we choose the correct
+- [07:01] spreadsheet. So, I'm going say set
+- [07:02] specific value for this field. This is
+- [07:04] so that we make optimized decisions and
+- [07:06] it doesn't get confused. For me, I
+- [07:07] called it easy data. Why? Because it's
+- [07:10] easy. So, therefore, I'm going to go to
+- [07:12] here, easy data worksheet. If you have
+- [07:14] multiple worksheets, choose one. I only
+- [07:16] have one, so I'm going to hit save. Add
+- [07:17] another tool. Now, let's give the
+- [07:18] functionality for it to actually create
+- [07:20] a row. To do this, we can type in create
+- [07:22] up here. Find data, take action. What's
+- [07:24] nice is that you can see all the things
+- [07:26] it can actually do functionally to that
+- [07:27] spreadsheet. So, we're going to create a
+- [07:28] spreadsheet row. But I want you to
+- [07:30] notice a couple things. First thing,
+- [07:31] create multiple spreadsheet rows. What
+- [07:33] does this mean, Corin? This means in
+- [07:34] theory, we could build out an agent here
+- [07:35] that essentially if I provided like 10
+- [07:38] invoice PDFs, it would be able to loop
+- [07:40] through them and create multiple
+- [07:41] spreadsheet rows. The logic's a little
+- [07:43] bit more complex. So, obviously just do
+- [07:45] it with one at a time at first just to
+- [07:47] get it working. I'm going to come over
+- [07:48] here to configure. In configure, we're
+- [07:49] going to select that spreadsheet again,
+- [07:51] which is going to be easy data.
+- [07:52] Worksheets's going to be the same. It's
+- [07:54] fine. It's all good. We're going to hit
+- [07:55] save. Now, notice two things. First
+- [07:56] thing, notice that we've identified
+- [07:58] specifically the actions of create
+- [07:59] spreadsheet row, look up spreadsheet
+- [08:01] rows. We can give more actions here. And
+- [08:02] you know, MCPS can give actions across
+- [08:04] all these different apps over 8,000. And
+- [08:06] then on top of that, we've identified
+- [08:07] the specific area we want to place that
+- [08:08] data, which for me was easy data. And
+- [08:10] that's what we called our Google sheet
+- [08:12] here. Nice. And with this done, because
+- [08:14] I essentially readded those, let me see
+- [08:16] if the tools are selected here
+- [08:17] correctly. So yeah, let me do that
+- [08:18] again. Update. Nice. And here we go. We
+- [08:21] got our prompt. We got our MCP. We get
+- [08:22] the reasoning effort to high. Let's see
+- [08:24] if this works. Go to preview. I'm going
+- [08:25] to add my invoice data PDF that I showed
+- [08:27] earlier. This one right here. So we got
+- [08:29] our invoice data PDF. Enter. First thing
+- [08:31] it's going to do is extract the relevant
+- [08:32] data that we care about, which was the
+- [08:34] address, invoice number, and the total
+- [08:36] USD. We identified this. And once it
+- [08:37] extracts that, it's going to put it into
+- [08:39] a JSON output. Don't over complicate it
+- [08:41] at all. JSON output is just a way we can
+- [08:43] format data. So it effectively can be
+- [08:45] run thousands upon thousands of times in
+- [08:47] a structured manner. This is how the AI
+- [08:48] likes to talk to each other. Okay? Or
+- [08:50] software in general as well. Here we go.
+- [08:52] Company address invoice 7262.5.
+- [08:55] Now right now in the workflow, it
+- [08:57] requires me to approve the action using
+- [08:59] Zapier. I'll show you how to make it so
+- [09:00] that it always just does it
+- [09:01] automatically because that can get
+- [09:02] frustrating. But we should be
+- [09:04] essentially executing right now. And
+- [09:06] there we go. Invoice number, the company
+- [09:07] address, and then 262.5 coming over
+- [09:10] here. 262.5. Nice. Now, some of y'all
+- [09:12] might be like, Corbin, where's all the
+- [09:14] zeros? Like 0000. Okay, we could format
+- [09:16] it that way if we want to. Or
+- [09:17] alternatively, the total USD, why is it
+- [09:19] formatted that way? We'll just here to
+- [09:20] format as currency. Okay, but that
+- [09:22] worked perfectly and that executed how
+- [09:24] we like. So, in theory, I can close the
+- [09:26] preview, come over here, go to Zampier,
+- [09:28] simply click approval to never require
+- [09:30] approval. So, it just essentially just
+- [09:32] does it. You don't need a yes. There we
+- [09:34] go. Make sure to leave a like. It is
+- [09:35] completely free. Check out that school
+- [09:36] community in the description down below.
+- [09:37] Let me know what other use cases you
+- [09:39] want to see using agent builders. One
+- [09:41] big thing I already know half of y'all
+- [09:42] are going to be like, "Corbin, this is
+- [09:44] cool, but and that but is essentially
+- [09:47] you saying, "How do we actually put this
+- [09:48] into an internal app for my team, push
+- [09:50] this to an actual website?" Basically,
+- [09:52] how do we use that chatkit UI? Well,
+- [09:54] lucky for you, I've already created an
+- [09:55] entire video dedicated to how to take
+- [09:57] workflows like this and actually
+- [09:58] implement them to real websites or
+- [10:00] internal apps for your company. So,
+- [10:02] without further ado, I'll see you in the
+- [10:04] next Did we just learn how we could take
+- [10:05] basically any PDF, extract the data
+- [10:07] automatically, and put it anywhere
+- [10:08] video? Nice.

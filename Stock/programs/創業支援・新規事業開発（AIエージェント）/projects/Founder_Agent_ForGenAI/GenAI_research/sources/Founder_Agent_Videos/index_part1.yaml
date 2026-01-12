@@ -1,0 +1,2191 @@
+---
+collection: Founder Agent Videos - Part 1
+description: YouTube トランスクリプトコレクション（ファイル1-117）
+total_files: 117
+categories:
+  Tutorial: 58
+  General: 21
+  AI Agents: 12
+  AI Technical: 9
+  Technology: 7
+  Business: 6
+  Startup: 4
+tags:
+  YouTube: 94
+  Transcript: 94
+  Tutorial: 73
+  AI Agent: 69
+  LLM: 68
+  Technical: 51
+  Startup: 30
+  AI: 22
+  Business Strategy: 20
+  Agents: 17
+  Development: 17
+  Technology: 15
+  RAG: 13
+  Data Science: 2
+topics:
+  Tutorial: 73
+  AI Agent: 69
+  LLM: 68
+  Technical: 51
+  Startup: 30
+  AI: 22
+  Business Strategy: 20
+  Agents: 17
+  Development: 17
+  Technology: 15
+  RAG: 13
+  General: 5
+  Data Science: 2
+files:
+- file: -Csoj96rIrs.md
+  video_id: -Csoj96rIrs
+  title: 'YouTube Video: -Csoj96rIrs'
+  speaker: キノコ
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  topics:
+  - AI Agent
+  - LLM
+  category: General
+  summary: こんにちは。キノコです。この動画では AIXについて解説をします。最近企業の DX推進の現場でAIXという新しい概念 が注目されています。しかしAIXって何 ?DXとは何が違うのと疑問を持つ方も いらっしゃるのではないでしょうか。この
+    動画ではAIXとは何か?なぜ今注目され ているのか、どのように実現するのかを 分かりやすく解説をします。こんな悩み ありませんか?DXとAIの具体的な違い が分から...
+- file: -NrAX4OapkQ.md
+  video_id: -NrAX4OapkQ
+  title: 'YouTube Video: -NrAX4OapkQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Technical
+  - Business Strategy
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Technical
+  - Business Strategy
+  category: Business
+  summary: Hello world. It's Suriraj and today I'm going to show you exactly how I built an AI agent that made $2,345 in just
+    24 hours, all while taking care of my newborn son. This isn't some theoretical concep...
+- file: -WB0T0XmDrY.md
+  video_id: -WB0T0XmDrY
+  title: 'YouTube Video: -WB0T0XmDrY'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: This video is brought to you by Squarespace. What if you could integrate GPT4 right into your Python app and make
+    it aware of your business logic, your data, and your models? Today, I'll show you exac...
+- file: -mldKsBR0UM.md
+  video_id: -mldKsBR0UM
+  title: 'YouTube Video: -mldKsBR0UM'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: Agentic AI using large language models or generative AI is a powerful architecture, no question, uh, but large
+    language models have well- known issues and ... and constraints. And so if you want to so...
+- file: 04Gap8vWV28.md
+  video_id: 04Gap8vWV28
+  title: 'YouTube Video: 04Gap8vWV28'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: I keep hearing about MCP and how useful [music point, I'm almost afraid to ask, what is it and how does it work?
+    >> Well, Martin, let me show you. >> Welcome to the show, Jack. What do you do here at ...
+- file: 09tJS0ZEHms.md
+  video_id: 09tJS0ZEHms
+  title: 'YouTube Video: 09tJS0ZEHms'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: So let's check the position now. So if you open up this, you can see we are 12.7% up on the Solana short 20x leverage
+    uh position we we made here. So maybe 40x is a bit too much. Let's do a 20x uh ins...
+- file: 15_pppse4fY.md
+  video_id: 15_pppse4fY
+  title: 'YouTube Video: 15_pppse4fY'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: My goal for today's video is to provide you with no BS extremely simple agentic AI explanation. I'm going to show
+    you some real agentic AI systems along with the code. So please stay with me till the ...
+- file: 1AWFAWfHNcs.md
+  video_id: 1AWFAWfHNcs
+  title: 'YouTube Video: 1AWFAWfHNcs'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  - Tutorial
+  topics:
+  - LLM
+  - Tutorial
+  category: Tutorial
+  summary: 読み込めてますねこれいやすごくないです かただですよ本当にすごいのはここから ですこのカスタマイズ性の高さがAIと メイクを組み合わせることのすごいところ なんですよこういった 紙からまあ人間がカタカタ手打ちで入力 するというような業務はもはやこの動画を
+    ここからの続きを見ていただければ結構 自動化できるんじゃないかなとこんにちは ステージで帰るための個人DXチャンネル へようこそ平岡です今回はマ...
+- file: 1HHZdB2O2tI.md
+  video_id: 1HHZdB2O2tI
+  title: 'YouTube Video: 1HHZdB2O2tI'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  topics:
+  - AI Agent
+  - LLM
+  category: General
+  summary: So AI is truly changing everything. The way we create, the way we shop, even the way we think. This week, Google
+    dropped VO 3.1, an incremental but important step toward making AI video more controlla...
+- file: 1WImBwiA7RA.md
+  video_id: 1WImBwiA7RA
+  title: 'YouTube Video: 1WImBwiA7RA'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Cloud just introduced this concept called agent skills. It might look complicated but it's actually really simple
+    ideas but super powerful and many things that it might be even bigger than MCP. So a c...
+- file: 1choivCbZDg.md
+  video_id: 1choivCbZDg
+  title: 'YouTube Video: 1choivCbZDg'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Tutorial
+  topics:
+  - AI Agent
+  - Tutorial
+  category: Tutorial
+  summary: Looks like the Google team doesn't actually sleep because they just dropped a new AI super agent that you can access
+    completely for free. And this is something that lets you create AI workflows to aut...
+- file: 1eNoNadJfHE.md
+  video_id: 1eNoNadJfHE
+  title: 'YouTube Video: 1eNoNadJfHE'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: uction and thank you to data science dojo for having us here today. Um let me go ahead and share screens. I have
+    a lot of content prepared for you. So we're going to get right into it. So I'm pleased ...
+- file: 1jenfjT2PW8.md
+  video_id: 1jenfjT2PW8
+  title: 'YouTube Video: 1jenfjT2PW8'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Business Strategy
+  topics:
+  - AI Agent
+  - Technical
+  - Business Strategy
+  category: Business
+  summary: Today is going to be start off something I have been wanting to try out for a while and that is creating this trading
+    AI agent. Uh I've seen a lot of like post and stuff about this. There is this uh p...
+- file: 1v7HPnyaaPU.md
+  video_id: 1v7HPnyaaPU
+  title: 'YouTube Video: 1v7HPnyaaPU'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Business Strategy
+  - Tutorial
+  topics:
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: This is a practical session under the direct supervision of the Ministry of Marine and Blue Economy and the National
+    Inland Waterways Authority. Boats drivers and skippers are being put through their ...
+- file: 239JDMFuGcQ.md
+  video_id: 239JDMFuGcQ
+  title: 'YouTube Video: 239JDMFuGcQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Claude Code recently released this new feature called sub agents. And I have seen a few videos on sub agents. I
+    end up clicking off because they just go into too much jargon. So I'm going to break it ...
+- file: 2D72MYTqUbE.md
+  video_id: 2D72MYTqUbE
+  title: 'YouTube Video: 2D72MYTqUbE'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: Now, this is the type of week of AI releases that I personally enjoy the most. I'm going to be demoing and sharing
+    a bunch of different categories of generative AI that you might not have even conside...
+- file: 2HVFruvFf08.md
+  video_id: 2HVFruvFf08
+  title: 'YouTube Video: 2HVFruvFf08'
+  speaker: Matt Marshall
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Business Strategy
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Business Strategy
+  category: Business
+  summary: '[Music So I''m Matt Marshall and I''m here with Tim Tully, partner at Menllo Ventures and with Vjoy Pandy, senior
+    vice president of Outshift, Cisco''s innovation arm. And uh we''re talking about where the...'
+- file: 2VroIM26s84.md
+  video_id: 2VroIM26s84
+  title: 'YouTube Video: 2VroIM26s84'
+  speaker: Rebecca Balon
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - Startup
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: Hello and welcome back to Equity, Techrunch's flagship podcast about the business of startups. I'm Rebecca Balon
+    and this is the episode where we bring on industry experts to help us explore a trend i...
+- file: 2YLoX7FSwYQ.md
+  video_id: 2YLoX7FSwYQ
+  title: 'YouTube Video: 2YLoX7FSwYQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Technical
+  topics:
+  - Technical
+  category: AI Technical
+  summary: '[music in polymorphism. The next thing we''re going to talk about is operator overloading. And to understand that,
+    let me just go back here and create a new file. And I will say this is oper py. Just w...'
+- file: 2fpkT6i1YRc.md
+  video_id: 2fpkT6i1YRc
+  title: 'YouTube Video: 2fpkT6i1YRc'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  topics:
+  - General
+  category: General
+  summary: ただPCに話しかけただけです。関数は 一切使っていません。これまで数時間 かかっていた分析が声だけで終わる。 しかもこれで終わりじゃありません。この 後お見せするのはもっと衝撃的なことです 。数百件の顧客コメントを一瞬で分析し、
+    クレームの傾向を自動で貸視化する。関数 を1号も書かずに複雑な条件抽を日本語の 指示だけで実行する。会議中に思いついた 疑問をその場で口に出すだけでリアル タイムに答えが...
+- file: 2j26a5dmCnI.md
+  video_id: 2j26a5dmCnI
+  title: 'YouTube Video: 2j26a5dmCnI'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: The AI ecosystem continues its rapid evolution. Today's users are quickly learning that the strategic integration
+    of AI's various capabilities into holistic solutions is the key to unleashing the full...
+- file: 2jOnoTEk-xA.md
+  video_id: 2jOnoTEk-xA
+  title: 'YouTube Video: 2jOnoTEk-xA'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: YC's next batch is now taking applications. Got a startup in you? Apply at y combinator.com/apply. It's never too
+    early and filling out the app will level up your idea. Now, on to the video. >> You ha...
+- file: 2qU3SPPojDA.md
+  video_id: 2qU3SPPojDA
+  title: 'YouTube Video: 2qU3SPPojDA'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - Startup
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: hey guys in today's video I'm going to show you how you can use vzer cursor and Claw to crank out Nexus applications
+    just like this one in no time at all and to help you properly use these tools I'm g...
+- file: 2z0WM3CWgX4.md
+  video_id: 2z0WM3CWgX4
+  title: 'YouTube Video: 2z0WM3CWgX4'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Business Strategy
+  topics:
+  - AI Agent
+  - LLM
+  - Business Strategy
+  category: Business
+  summary: We have to talk about the ads. >> Oh, here we go. Okay, straight in. Let's go. >> So, yes. Okay, >> for those of
+    you who don't know, you all had to get up here by going up an escalator and there's the...
+- file: 3-K1paNSbm4.md
+  video_id: 3-K1paNSbm4
+  title: 'YouTube Video: 3-K1paNSbm4'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  topics:
+  - General
+  category: General
+  summary: おつばさおです。本日はですね、クロード コードバージョン2.0.72バージョン でですね、え、クロードインChrome という機能が登場しましたんで、これに ついてお話ししていきたいと思います。え 、現在βタ版のこの機能なんですけども、
+    え、クロードコードから直接ですね、ま、 ブラウザ操作をしていけるような、え、 競合他者になってくると、ま、 プレイライトMCPでやったりだとか、 あとはデブツール...
+- file: 38eCCc9ffIw.md
+  video_id: 38eCCc9ffIw
+  title: 'YouTube Video: 38eCCc9ffIw'
+  speaker: ひろ
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  topics:
+  - LLM
+  category: General
+  summary: はい、どうもこんにちは。ひろです。本日 はノーCODLLMアプリ開発のDEFI をMCPサーバーを通してクラウド デディスクトップと連携させるような方法 を解説していこうかなと思っています。 CLUもDFIも使ってるけどもっと連携
+    させて業務改善したいよ、活用したいよっ ていう方だとかLMアプリの開発を濃厚で 進めてみたい。そんな方におすすめの内容 になっているかなと思っています。で、 そもそもで...
+- file: 3RqfJoa_138.md
+  video_id: 3RqfJoa_138
+  title: 'YouTube Video: 3RqfJoa_138'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  topics:
+  - AI Agent
+  - LLM
+  category: General
+  summary: ※本動画はChatGPT agentの発表前に収録しました はい、こんにちは。 今はカナダのバンクーバーにいます。 えっと、日本時間の日曜の夜便で行った感じですね。 月曜ぐらいからいるのかな? あ、学会。あの、ICMLっていうです。
+    発表はまだもうちょい先で今はあれ普通に見てる感じです。 どんな感じですか? ああ、なるほど。気がして、やっぱり 安全性みたいなのがまだ全然できてないけど、 危ないよね...
+- file: 3xzRQN3LbBY.md
+  video_id: 3xzRQN3LbBY
+  title: 'YouTube Video: 3xzRQN3LbBY'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: で、ま、最初にですね、エージェントが今までどのように進化してきたかという話をさせていただきたいと思います。 onlyabout でおよそ2 年前ですが、え、ギブギッハブラトが登場しました。 これはですね、オート、いわゆるオートコンプリンでほの少しだけ入力するとそれで、え、自動的に、え、入力してもらえるというオートコンギッブコパイロットがオートコンプリートをしてくれるという機能でした。
+    thenon...
+- file: 47G1aEaNOKU.md
+  video_id: 47G1aEaNOKU
+  title: 'YouTube Video: 47G1aEaNOKU'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Let's learn as simple as possible how we take our workflows from OpenAI agent builder and actually leverage the
+    chat kit feature which allows us to take these workflows and put it to a live website. S...
+- file: 4JKT-ILXeU8.md
+  video_id: 4JKT-ILXeU8
+  title: 'YouTube Video: 4JKT-ILXeU8'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  topics:
+  - AI Agent
+  category: General
+  summary: こんにちは、皆さん。今日はAI の私たちの代わりにネットで買い物やしてくれる AI エージェントブラウザ。その裏に潜む新たなの脅威について解説します。こんにちは。クロスオーバーマインドのエピソードへようこそ。 こんにちは。AI
+    エージェントブラウザなんだか未来のツールって感じがしますね。でもそれが詐欺のターゲットになるんですか?そもそもレ愛エージェントブラウザって具体的にどういうものなんでしょう?...
+- file: 4LQYWziOg0Q.md
+  video_id: 4LQYWziOg0Q
+  title: 'YouTube Video: 4LQYWziOg0Q'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - Startup
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: So, you're building with AI, but now what? Well, according to the data, 41% of you guys want to monetize AI, 26%
+    are business owners leveraging it, 16% build purely out of passion, and the rest of you...
+- file: 4OOS96i2gfI.md
+  video_id: 4OOS96i2gfI
+  title: 'YouTube Video: 4OOS96i2gfI'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Tutorial
+  category: Tutorial
+  summary: So, I've built hundreds of AI agents and AI workflows, which means I've made hundreds of mistakes building my AI
+    agents and my AI workflows. So, in this video, I'm going to be talking about the four d...
+- file: 4P0mtuGfyx8.md
+  video_id: 4P0mtuGfyx8
+  title: 'YouTube Video: 4P0mtuGfyx8'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Hello all, my name is Krishna and welcome to my YouTube channel. So guys, I am super excited to announce our new
+    Udemy course on the complete agenti boot camp with Langraph and Langchain. So this was ...
+- file: 4eSfT8QuYFc.md
+  video_id: 4eSfT8QuYFc
+  title: 'YouTube Video: 4eSfT8QuYFc'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Tutorial
+  category: Tutorial
+  summary: CASE, a subsidiary of Credi Agricol, safeguards trillions of euros as a leading European asset servicing firm.
+    For them, client conversations are the business. Partnering with Vast Data and Nvidia, Ca...
+- file: 5AfJ0N3MvpA.md
+  video_id: 5AfJ0N3MvpA
+  title: 'YouTube Video: 5AfJ0N3MvpA'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Technical
+  topics:
+  - AI Agent
+  - Startup
+  - Technical
+  category: AI Technical
+  summary: Hello all, my name is Krishna and uh welcome to my YouTube channel. So guys um before I proceed, I really want
+    to wish you a very happy teachers day. I pray to God that you achieve all your goals in y...
+- file: 5KTHvKCrQ00.md
+  video_id: 5KTHvKCrQ00
+  title: 'YouTube Video: 5KTHvKCrQ00'
+  speaker: Anthropic
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  - Technical
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  - Technical
+  category: AI Technical
+  summary: Project Vend is an experiment where we let Claude run We wanted to try and understand what is going to happen when
+    artificial intelligence becomes more enmeshed with the economy. There are a lot of wa...
+- file: 5MwExvt7dfQ.md
+  video_id: 5MwExvt7dfQ
+  title: 'YouTube Video: 5MwExvt7dfQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  - Technical
+  topics:
+  - LLM
+  - Technical
+  category: AI Technical
+  summary: はい、どうもです。今回はですね、最も 賢いAIコーディングワークフローについ て紹介していきたいと思います。ま、爆速 でアプリ開発するためには皆さん今まで クロードコード使ってたと思うんですけど も、ま、最近はGPT5とかCDEXとか
+    新しいですね、CLIが登場しましたので 、え、ま、私も実際に使ってみて、あ、 この流れが1番賢いな、え、正確にね、 アプリガズ作れるなっていうところをです ね、え、...
+- file: 5N763y3HNRU.md
+  video_id: 5N763y3HNRU
+  title: 'YouTube Video: 5N763y3HNRU'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  topics:
+  - AI Agent
+  - LLM
+  category: General
+  summary: どうもハムです。ジェンスパークの資料 作成がやばい。ハーボルが不要な時代が 近づいてます。というわけで本日は ジェンスパーク完全攻略ということで ジェンスパークの使い方を基礎から応用 までこの1本で徹底解説していきます。皆
+    さんジェンスパーク活用できてますか? ジェンスパークは今SNSで最も話題とも 言えるAIツルなのですが、直近とんでも ないスピードで進化しています。以前まで は検索特化AIとし...
+- file: 5SbLJNVuqR0.md
+  video_id: 5SbLJNVuqR0
+  title: 'YouTube Video: 5SbLJNVuqR0'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Tutorial
+  topics:
+  - AI Agent
+  - Tutorial
+  category: Tutorial
+  summary: and deploy it end to end. So that is uh what we are going to talk about. Um so u I have not done my formal introduction
+    uh so far right. So I am um I've been doing AI for quite some time. Um I am also...
+- file: 5TBsXGdmkc0.md
+  video_id: 5TBsXGdmkc0
+  title: 'YouTube Video: 5TBsXGdmkc0'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Hello guys. So we are going to continue the discussion with respect to our langraph crash course. Already I have
+    said that we are going to cover this into multiple parts and specifically I had written...
+- file: 5iGSyS5M80A.md
+  video_id: 5iGSyS5M80A
+  title: 'YouTube Video: 5iGSyS5M80A'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  topics:
+  - AI Agent
+  category: General
+  summary: Open EI has launched tons of new stuff that I think shows that the internet as we knew is dying or at least it's
+    no longer what we sort of knew it as. So I'm going to show you a few things that OpenAI...
+- file: 5jwiwaPyZCE.md
+  video_id: 5jwiwaPyZCE
+  title: 'YouTube Video: 5jwiwaPyZCE'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  - LLM
+  topics:
+  - Startup
+  - LLM
+  category: General
+  summary: Thank you for the for the introduction. Um, ideally it was not gonna be me talking today. Um, so I'm here as a
+    replacement forana. I don't want to steal her thunderish. These are her slides. So she's ...
+- file: 5p5cV0yVDvQ.md
+  video_id: 5p5cV0yVDvQ
+  title: 'YouTube Video: 5p5cV0yVDvQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Tutorial
+  category: Tutorial
+  summary: NN&N's new instance level MCP is truly a gamecher and in today's video I'm going to talk about why that is how
+    easy it is to use and how to connect it to things like chatbt claude or lovable and hones...
+- file: 5uSboan45Zg.md
+  video_id: 5uSboan45Zg
+  title: 'YouTube Video: 5uSboan45Zg'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  category: AI Technical
+  summary: Yesterday, OpenAI stepped into the web browser Thunderdome with the release of Atlas, their new AI powered browser
+    built around chat GPT. And although I had anniversary plans, I imagine this is just h...
+- file: 62v5ZUail3c.md
+  video_id: 62v5ZUail3c
+  title: 'YouTube Video: 62v5ZUail3c'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  topics:
+  - AI Agent
+  - Technical
+  category: AI Technical
+  summary: Looks like things are finally settling in and we're getting a much clearer picture of the new models that was just
+    recently released like Google's Gemini 3.0 Pro and Enthropic Slade 4.5 Opus. Both are...
+- file: 6B0p9rCN_p0.md
+  video_id: 6B0p9rCN_p0
+  title: 'YouTube Video: 6B0p9rCN_p0'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Technical
+  topics:
+  - Technical
+  category: AI Technical
+  summary: Okay, so this week OpenAI released their GPA 5 codec and for the last few days I've been testing it out uh in of
+    course codeex CLI and I got to say I'm pretty impressed by this. So I just wanted to ma...
+- file: 6H5gQXzN6vQ.md
+  video_id: 6H5gQXzN6vQ
+  title: 'YouTube Video: 6H5gQXzN6vQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Hello all, my name is Prash Nayak and welcome to my YouTube channel. So guys uh recently Google has announced its
+    own ID which is called as Google anti-gravity and this specific ID is like a next gene...
+- file: 6MCxSJd1ZPY.md
+  video_id: 6MCxSJd1ZPY
+  title: 'YouTube Video: 6MCxSJd1ZPY'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Can AI protect you from hackers? In this video, I'll show you free AI agents for cyber security that you must have.
+    And that's because the amount of AI powered cyber attacks is on the rise. This year ...
+- file: 6TXXMTYQtHk.md
+  video_id: 6TXXMTYQtHk
+  title: 'YouTube Video: 6TXXMTYQtHk'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  - Technical
+  - Tutorial
+  topics:
+  - Startup
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: At Notion, our mission is to help people build beautiful tools for their life's work. What AI has done is almost
+    given us a different gear, new electricity to make it even simpler. It's a really fun s...
+- file: 6dDcV6FNMMM.md
+  video_id: 6dDcV6FNMMM
+  title: 'YouTube Video: 6dDcV6FNMMM'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  topics:
+  - AI Agent
+  category: General
+  summary: はい、改めまして、あの、紹介いただき ました、あの、株式会社アルゴマティック の、ま、AIトランスフォーメーション、 ま、AXカンパニーというところで、あの 、テックリードやらせていただいてます 渋谷と申します。で、本日ですね、あの、
+    今話題のというか使用駆動開発っていう ところが、ま、ある種結構キーワードに なってきてるかなと思うので、ま、それを こう実現するためにこう色々色々工夫が ある中でそ...
+- file: 6sSPFNrDFMI.md
+  video_id: 6sSPFNrDFMI
+  title: 'YouTube Video: 6sSPFNrDFMI'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  topics:
+  - AI Agent
+  category: General
+  summary: おすまさです。本日はですね、クロード コードワークフロースタジオ、こちらに ついてお話ししていきたいと思います。え 、このクロードコードワークフロー スタジオというね、え、ま、VSコード 拡張で、ま、例えばカーソルであったりだ
+    とか、ま、VSコードとかね、え、導入し て、ま、資格的に、え、このワークフロー を1個作っていけるみたいなね、クロド コードの、え、そんな、ま、貸化ツール じゃないですけど...
+- file: 6yEzQSEtO4Y.md
+  video_id: 6yEzQSEtO4Y
+  title: 'YouTube Video: 6yEzQSEtO4Y'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Let's move forward towards how we are going to build an agent workflow, how we are going to build a multi- aent
+    scenario and what are some components of building such agents. So in order to build an a...
+- file: 6z3d3dyMilg.md
+  video_id: 6z3d3dyMilg
+  title: 'YouTube Video: 6z3d3dyMilg'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Tutorial
+  topics:
+  - AI Agent
+  - Tutorial
+  category: Tutorial
+  summary: '[Music telecommunications companies can really Leverage The Power of generative AI our amdo Amaze platform in
+    collaboration with Nvidia really helps us to supercharge the agent the customer agent you ...'
+- file: 7EH0VjM3dTk.md
+  video_id: 7EH0VjM3dTk
+  title: 'YouTube Video: 7EH0VjM3dTk'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Technical
+  - Tutorial
+  topics:
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: well if you want to maintain hemony it turns out like what did we do during World War II will we like Henry Ford
+    here you go you're going to be absolutely freaking rich because you're going to make al...
+- file: 7LWTZqksmSg.md
+  video_id: 7LWTZqksmSg
+  title: 'YouTube Video: 7LWTZqksmSg'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: one question that I got asked a lot is can the AI agent gets better and better over time to learn from its past
+    mistake and interactions if the agent you are building is similar to the structure that ...
+- file: 7LlQZKPBKgs.md
+  video_id: 7LlQZKPBKgs
+  title: 'YouTube Video: 7LlQZKPBKgs'
+  speaker: David Andre
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: My name is David Andre and in this video I'll show you how to create any NA10 workflow using cloth code. If you
+    aren't using these tools, you're actually falling behind because I'll show you how to li...
+- file: 7SrkvlgIKFs.md
+  video_id: 7SrkvlgIKFs
+  title: 'YouTube Video: 7SrkvlgIKFs'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  category: AI Technical
+  summary: In July of 2013, a bizarre video game appeared online. It was called Kanye Quest 3030. And on the surface, it seemed
+    like nothing more than a weird indie project made by a fan of hiphop. The premise w...
+- file: 7T_TjH6P8CE.md
+  video_id: 7T_TjH6P8CE
+  title: 'YouTube Video: 7T_TjH6P8CE'
+  speaker: Tim Hwang
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - LLM
+  topics:
+  - AI Agent
+  - Startup
+  - LLM
+  category: General
+  summary: It was interesting to me that a couple of people reported that it's still hallucinating and it still really likes
+    to give answers rather than say that it doesn't know the answers, although it's not so...
+- file: 7UNsK9LoORo.md
+  video_id: 7UNsK9LoORo
+  title: 'YouTube Video: 7UNsK9LoORo'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Today I'm super excited to share with you guys this Photoshop AI agent that I built in Nen with no code. It uses
+    Google's new nano banana image generation model which is absolutely insane. It's really...
+- file: 7fTuBQTR7rg.md
+  video_id: 7fTuBQTR7rg
+  title: 'YouTube Video: 7fTuBQTR7rg'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Tutorial
+  category: Tutorial
+  summary: Sorry. Okay. So, I can see that we have people joining in. Thanks everyone for joining us today. Welcome to the
+    workshop with Luis Terrano. Uh we'll be starting shortly but before that I would just li...
+- file: 824Fyh146_w.md
+  video_id: 824Fyh146_w
+  title: 'YouTube Video: 824Fyh146_w'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: so I've been playing with this new AI ID called Wier for the past few days even though it's looks familiar like
+    any other e IDE it does feel very different when you actually use it one of the key thin...
+- file: 847eGg-X7Us.md
+  video_id: 847eGg-X7Us
+  title: 'YouTube Video: 847eGg-X7Us'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  topics:
+  - AI Agent
+  - LLM
+  category: General
+  summary: こんにちは。江です。今回はAI エージェント時代に活躍する7つの週慣と 題しまして、日々私がこの時代に楽しく 生き生きとしっかり活躍するために意識し ていること習慣を7つにまとめてご紹介し ます。この習慣を皆さんも意識的にやって
+    もらうことによってAIにもっと慣れしん で楽しくワクワクしながら、え、AIを 使って仕事を効率化したり、新しいことが できたり、稼ぐことができるという風に 思うので、是非...
+- file: 8C6iCpJ9HPo.md
+  video_id: 8C6iCpJ9HPo
+  title: 'YouTube Video: 8C6iCpJ9HPo'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Tutorial
+  topics:
+  - AI Agent
+  - Tutorial
+  category: Tutorial
+  summary: So, I built this agent in 2 hours, and someone actually paid me $1,200 for it. And it wasn't anything too complex
+    or advanced. In fact, I actually built this back when I had just first started messing...
+- file: 8DAQdtFufpU.md
+  video_id: 8DAQdtFufpU
+  title: 'YouTube Video: 8DAQdtFufpU'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Tutorial
+  topics:
+  - Tutorial
+  category: Tutorial
+  summary: この曲作るのにかかった時間はあったの5 分です。しかも使ったのはパソコンと インターネット環境だけ。もしあなたが このクオリティの楽曲を作って今週末 Spotifyアーティストになれるとし たらそのV5によってそれが可能になり
+    ました。音楽制作の常識が根底から ひっくり返ったんです。なぜ Spotifyでのアーティスト活動が今 注目されているのかその理由をお話しし ます。曲を作って配信するその曲が...
+- file: 8Zv17mLNcdk.md
+  video_id: 8Zv17mLNcdk
+  title: 'YouTube Video: 8Zv17mLNcdk'
+  speaker: みき
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  - Tutorial
+  topics:
+  - LLM
+  - Tutorial
+  category: Tutorial
+  summary: こんにちは。みきです。私については こちらをご覧ください。本日は Googleの最新AIオパールが登場し ました。アプリとワークフロー開発が自然 言語で超簡単にできるので今日はこちらに ついて徹底解説していきます。ミキミキ
+    ウブスクールチャンネル登録してね。 チャンネル登録通知を全てにすると新作 動画のお知らせが届きます。本日の目次 こちらになります。まずパールとは何かと いうところと何で重要なの...
+- file: 8_liatgLkLc.md
+  video_id: 8_liatgLkLc
+  title: 'YouTube Video: 8_liatgLkLc'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: This video is brought to you by Squarespace. If you're trying to build something with large language models, you
+    know things can get messy pretty quickly. You start with one prompt, then you add a few...
+- file: 8izATKqcF-8.md
+  video_id: 8izATKqcF-8
+  title: 'YouTube Video: 8izATKqcF-8'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Business Strategy
+  category: Business
+  summary: Before we dive in, I just want to wish everyone happy holidays and hope you're having a great time wherever you're
+    watching from. But today, we're uncovering some major new updates to Cloud Code. For ...
+- file: 8mvUXjpqzUU.md
+  video_id: 8mvUXjpqzUU
+  title: 'YouTube Video: 8mvUXjpqzUU'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  - Technical
+  - Business Strategy
+  topics:
+  - Startup
+  - Technical
+  - Business Strategy
+  category: Business
+  summary: Hey, so my name is Victor um Akiwandi. I'm from Nigeria. [music I currently work at senior strategy analyst for
+    First Alli Capital Limited in Nigeria. It's an investment bank in Nigeria. However, befo...
+- file: 8tg8z-Fi0MU.md
+  video_id: 8tg8z-Fi0MU
+  title: 'YouTube Video: 8tg8z-Fi0MU'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Thank you everyone for coming. Um, [music today in this in this event. Uh, I know deep learning AI has done so
+    much for educating the community at large. So awesome to see the energy here as people ar...
+- file: 9-6LtfjYmpg.md
+  video_id: 9-6LtfjYmpg
+  title: 'YouTube Video: 9-6LtfjYmpg'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: The entire planet earth is obsessed with one thing AI agents. Everyone wants to build AI agents but when you start
+    there is a confusion. Should you use this fast drag and drop approach of no code tool...
+- file: 94WKYiQLK6M.md
+  video_id: 94WKYiQLK6M
+  title: 'YouTube Video: 94WKYiQLK6M'
+  speaker: みき
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  topics:
+  - LLM
+  category: General
+  summary: こんにちは。みきです。私についても こちらをご覧ください。本日はコンサル データ分析がもうやばい。チャatGPT とJOMin2.5Proを使ってデータ 分析、インサイト資料化を超効率化する 方法を徹底解説していきます。ミキミキ
+    ウブスクールチャンネル登録してね。 チャンネル登録通知を全てにすると新作 動画のお知らせが届きます。コンサルが よく行うのはデータ分析をしてそれを資療 化するということで...
+- file: 9BuDHyopVGA.md
+  video_id: 9BuDHyopVGA
+  title: 'YouTube Video: 9BuDHyopVGA'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  topics:
+  - LLM
+  category: General
+  summary: 今回の動画ではGoogleのジェミニー が大量のウェブサイトを検索して調査結果 をレポートとしてまとめてくれる機能が リリースされましたのでそちらをご紹介し ていきます今回のご紹介する機能が使える のは有料版のGoogle1AI
+    プレミアムに加入してるユーザーになり ますこちら左上のモデルを選択するところ をクリックすると最近リリースされた ジェミニ2.0フラッシュ エクスペリメンタルやjemi2...
+- file: 9HZVqxGV55g.md
+  video_id: 9HZVqxGV55g
+  title: 'YouTube Video: 9HZVqxGV55g'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Uh coming up right now we have a fireside chat with Olivier from OpenAI and our own Carl from Venturebe. They're
+    going to take us inside OpenAI's agent stack. All right. Thanks everybody for sticking ...
+- file: 9i3ic1sVhlI.md
+  video_id: 9i3ic1sVhlI
+  title: 'YouTube Video: 9i3ic1sVhlI'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  category: AI Technical
+  summary: Cloud code is the most powerful coding agent and general agent in the entire world. In my opinion, it is the closest
+    thing that we have to AGI and Enthropic just released a new feature to claude code ...
+- file: A4UOeBpgNU0.md
+  video_id: A4UOeBpgNU0
+  title: 'YouTube Video: A4UOeBpgNU0'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: So this next fireside chat will have you thinking about Agentic AI and how it can reshape enterprise architecture.
+    Please welcome Arman with IBM and Sam with Red Dragon AI. Good morning everyone. It's...
+- file: A7yDvA8VQC8.md
+  video_id: A7yDvA8VQC8
+  title: 'YouTube Video: A7yDvA8VQC8'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Startup
+  topics:
+  - Startup
+  category: General
+  summary: Hi everyone! In the last episode, we derived the schrodinger energy operator, also called the Hamiltonian. So to
+    begin working with the schrodinger equation, operator, which can be written as the mome...
+- file: ALpxsPCE2Jw.md
+  video_id: ALpxsPCE2Jw
+  title: 'YouTube Video: ALpxsPCE2Jw'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  topics:
+  - General
+  category: General
+  summary: どうも島です。今日もですね、AI ニュースたくさんあるので、ま、早速1本 目紹介させていただきたいと思います。え 、1本目がですね、CLfor Chromeというのを紹介します。え、 こちらはですね、クロードコードとかを
+    開発しているアンソロピックが出したAI ブラウザーなんですけど、ま、これまでの ね、AIブラウザーと違ってブラウザーを 1から自作していないというのが個人的に はめちゃくちゃ面白...
+- file: AMRxbIO04kQ.md
+  video_id: AMRxbIO04kQ
+  title: 'YouTube Video: AMRxbIO04kQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  topics:
+  - AI Agent
+  category: General
+  summary: '[Music Hi, Aloha. Can you use my location and sort the objects into the correct compost, recycling, and trash
+    bins? To perform the sorting task based on San Francisco waste guidelines, I will use the ...'
+- file: ANLRQ7X6h5A.md
+  video_id: ANLRQ7X6h5A
+  title: 'YouTube Video: ANLRQ7X6h5A'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  topics:
+  - General
+  category: General
+  summary: Hey everyone. In the last few episodes, we have analyzed Hilbert space, and taken a look at some of kets. In this
+    episode, I want to move on to the physical quantities. In the very first episode, we p...
+- file: ASjITM7lVC8.md
+  video_id: ASjITM7lVC8
+  title: 'YouTube Video: ASjITM7lVC8'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Tutorial
+  category: Tutorial
+  summary: AI agent is the big buzzword in 2025 in the world of AI and it's getting more useful pretty much every single week.
+    And I've covered AI agents a ton of times on this channel this year alone. But in th...
+- file: AU9Fdgs0ZaI.md
+  video_id: AU9Fdgs0ZaI
+  title: 'YouTube Video: AU9Fdgs0ZaI'
+  speaker: Jacob Efron
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: what's one thing you changed your mind on like in the AI world in the last year this is such a good question and
+    uh are we going to get exceptionally good at coding and math but still not be able to l...
+- file: AUQJ9eeP-Ls.md
+  video_id: AUQJ9eeP-Ls
+  title: 'YouTube Video: AUQJ9eeP-Ls'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: In this video, I'll show you how to build an AI rag application in Python and how to get it ready to deploy to
+    production. Now, I say that because I myself have made many AI projects on this channel. ...
+- file: AXsrrF07u2k.md
+  video_id: AXsrrF07u2k
+  title: 'YouTube Video: AXsrrF07u2k'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: So, we've gotten pretty comfortable at delegating tasks to our AI coding agents like Cloud Code and our terminal
+    or an IDE like Cursor. But what about when you're away from your desk or if you want to...
+- file: AYsg5gAMWyo.md
+  video_id: AYsg5gAMWyo
+  title: 'YouTube Video: AYsg5gAMWyo'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - Tutorial
+  topics:
+  - Tutorial
+  category: Tutorial
+  summary: VO3.1 Nano Banana Sora 2. There are all of these amazing models dropping. So, I figured why not just build a system
+    where we can use all of them. So, what we're going to be looking at today is the ult...
+- file: Awvj4yLYafo.md
+  video_id: Awvj4yLYafo
+  title: 'YouTube Video: Awvj4yLYafo'
+  speaker: Jacob Efron
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: new tools for building agents. I'm Jacob Efron and today on Unsupervised Learning, we had a really wide-ranging
+    discussion. We talked about how developers should think about where these agents do and ...
+- file: B7TjQyBCGk4.md
+  video_id: B7TjQyBCGk4
+  title: 'YouTube Video: B7TjQyBCGk4'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: are you tired of manually coding every app yourself do you wish an AI could do all the work for you automatically
+    well now it can with the release of DEA a local open source e agine that can literally...
+- file: BCQ2omAzPko.md
+  video_id: BCQ2omAzPko
+  title: 'YouTube Video: BCQ2omAzPko'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  topics:
+  - General
+  category: General
+  summary: AIってことで営業の形ってやっぱかなり 変わってきてるんですかね。私が一方で 感じる変化っていうのもハードルが上がっ ているある種のこう生存競争みたいなもの が営業の方に突きつけられてるなっていう のはすごく感じますね。営業の重心という
+    ところが移動してくるかなと。商品を説明 する何かしらの情報を提供する。もうこれ が全てAIの世界で賄えるとどうお客様の 成功に導くかというこうやってデータ ドリブ...
+- file: BCW-wrDzWCs.md
+  video_id: BCW-wrDzWCs
+  title: 'YouTube Video: BCW-wrDzWCs'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: This week, we got a ton of cool new AI tools that you can play with right now. And on this channel, I love to actually
+    share the AI advancements and things that might actually change how you do things...
+- file: BER3EhUIyz0.md
+  video_id: BER3EhUIyz0
+  title: 'YouTube Video: BER3EhUIyz0'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: We're introducing new capabilities for managing your agents context Context editing automatically clears from within
+    the context window when and the memory tool enables Claude to store and consult Let...
+- file: BFWviieMyGw.md
+  video_id: BFWviieMyGw
+  title: 'YouTube Video: BFWviieMyGw'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: 2025 has definitely been the year of AI agents, but even more than that, it's been the year of agent protocols
+    like Anthropic's MCP, making it so easy to connect tools to our agents, or Google's A2A, ...
+- file: BMt-qvrEcFY.md
+  video_id: BMt-qvrEcFY
+  title: 'YouTube Video: BMt-qvrEcFY'
+  speaker: Mahham Codes
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - LLM
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: Learn to build AI agents with Langbase, one of the most powerful serverless AI clouds. This hands-on course will
+    teach you how to create context engineered agents that use memory and AI primitives to ...
+- file: BWLiso9RrRA.md
+  video_id: BWLiso9RrRA
+  title: 'YouTube Video: BWLiso9RrRA'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Startup
+  - Technical
+  - Business Strategy
+  - Tutorial
+  topics:
+  - AI Agent
+  - Startup
+  - Technical
+  - Business Strategy
+  - Tutorial
+  category: Tutorial
+  summary: Hi everyone, my name is Francis, co-founder of AHA. Over the past few months, we've been building something a little
+    bit crazy. An AI employee for Amazon marketing that works around the clock 247 from...
+- file: BcvjGTxzK40.md
+  video_id: BcvjGTxzK40
+  title: 'YouTube Video: BcvjGTxzK40'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Technical
+  - Tutorial
+  topics:
+  - AI Agent
+  - Technical
+  - Tutorial
+  category: Tutorial
+  summary: I've got something really exciting that I've been exploring recently that I want to share with you. It's all about
+    creating aic experiences with something called AGUI. Now, let me set the stage for yo...
+- file: Be2OQ3LQZcQ.md
+  video_id: Be2OQ3LQZcQ
+  title: 'YouTube Video: Be2OQ3LQZcQ'
+  speaker: Unknown
+  tags:
+  - YouTube
+  - Transcript
+  - AI Agent
+  - Tutorial
+  topics:
+  - AI Agent
+  - Tutorial
+  category: Tutorial
+  summary: One of the biggest problems with most rag systems is that we don't actually know the sources that our AI agent
+    is using. Did it hallucinate? Did it pull from irrelevant documents? And no, citation is ...
+- file: BiN-NTTQ7tc.md
+  video_id: BiN-NTTQ7tc
+  title: today we're diving into the fascinating world of AI agents which is a technology that's not only reshaping Industries
+    bu
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  - Data Science
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  - Data Science
+  category: AI Agents
+  summary: today we're diving into the fascinating world of AI agents which is a technology that's not only reshaping Industries
+    but also impacting our daily lives and jobs in the next few minutes I'm going to explain to you what AI agents are their
+    impact compare modern agents with earlier AI systems and outline a research back approach to building your own questions
+    that I had and I really wanted to fully understand I mean even as someone who is very technical and has been in AI for
+    a while now consults companies on AI builds videos on AI goes to school getting my postgrad in AI I still couldn't I had
+    some issues challenges let's say wrapping my head around what are AI agents and why are they such a big deal and that's
+    what we're going to cover today so when you leave this video you can easily expl
+- file: Bk9sYapiow8.md
+  video_id: Bk9sYapiow8
+  title: Hello all, my name is Krishna and welcome to my YouTube channel.
+  speaker: Krishna
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'Hello all, my name is Krishna and welcome to my YouTube channel
+
+    So guys, I am super excited to start a new series and this series will be specifically on agentic rag and its various
+    types
+
+    Now as you all know rag is one of the most important technology right now in every companies there is a huge amount of
+    demand because now companies are focusing more on automating their workflows and rag using rag is one of the most fundamental
+    use cases that many people are implementing'
+- file: C-5FJ6oin-g.md
+  video_id: C-5FJ6oin-g
+  title: 当ではIQツールキットPYON ライブラリーについてご説明いたします。 IQツールキットPython ライブラリーはエンタープライズ開発者が 様々な大規模言語モデルフレームワークの コンポーネントをまとめたり、自身で コンポーネントを構築し
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  - Development
+  topics:
+  - AI
+  - LLM
+  - Development
+  category: Technology
+  summary: 当ではIQツールキットPYON ライブラリーについてご説明いたします。 IQツールキットPython ライブラリーはエンタープライズ開発者が 様々な大規模言語モデルフレームワークの コンポーネントをまとめたり、自身で コンポーネントを構築したりすることで
+    エージェント型AIアプリケーションを 開発できるように設計されています。この ような大規模言語モデルフレームワークの 例としてはラングチェーンやラマ インデックスーAIセマンティック カーネルなどが上げられます。統一された プログラミングモデルのもこれらの
+    フレームワーク感を柔軟に移動できること でチーム間でも高い柔軟性と再利用性を 実現できます。こうしたアプリケーション を構築するチームは実際にはIQプラグ インを作成することになります。IQ プラグインはPipでインストール可能な Pythonパッケージとして作成され
+    ます。PIPでインストールされたプラグ インはチームのどのメンバーでも使用でき ます。IQではこうしたパッケージに含め られる様々な種類のコンポーネントが用意 されています。次はこれらの コンポーネントの種類について見ていき ましょう。1つ目は大規模言語モデルです
+    。ではホスティングされている大規模言語 モデルとの通信が可能なクライアントを 認識し構築することができます。これらの 大規模言語モデルはエージェント型AI アプリケーションを支える主要なリーズ エンジンです。エンベッダーについても 同様です。エンベッダーはレトリーバー
+    タイプのロジックでの作業時に適してい ます 。関数やツール。これらは通常特定の機能 を追加するためにLLMエージェントに 対して指定します。関数やツールは エージェントに対して指定するだけでなく 、通常のPython関数として直接 呼び出すこともできます
+    。レトリーバーはベクトル
+- file: C0PWJJLSjSo.md
+  video_id: C0PWJJLSjSo
+  title: かチです。今回は生産性10倍 なるジェミニの使い方についてご紹介し ます。Googleジェニが今最も企業で 使えるAIの1つになってます。ま、皆 さん企業に務めている方なら分かると思う んですが、Googleスレッドシートと
+    かGoogle
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  topics:
+  - AI
+  - LLM
+  category: Technology
+  summary: かチです。今回は生産性10倍 なるジェミニの使い方についてご紹介し ます。Googleジェニが今最も企業で 使えるAIの1つになってます。ま、皆 さん企業に務めている方なら分かると思う んですが、Googleスレッドシートと
+    かGoogleドキュメントとか企業って 意外とGoogle契約してる人多いです よね。なんで他の生成AIのチームプラン 導入するよりGoogleJeminiを パッと使っている企業の方が実は多かっ たりするんですよね。なんで今回は企業が
+    使える、え、GoogleJeminiの 使い方についてご紹介していきます。よく ある悩みとして日々の業務に追われて資料 作成とか情報収集にかかる時間をどうにか 時短したいという方、あとはもっと企画と かクリエイティブな業務に集中したいのに
+    雑むばかりで手が回らない方、そんなお 悩みを抱える方はこの動画ぴったりなので 是非見てみてください。動画で解説する 内容としてジェミニを使った生産性を10 倍にするための具体的な活用法、あとは 情報収集企画立案、ま、これらの業務別に 使える15の仕事術についてご紹介して
+    いきます。この動画見るとジェミニを実務 にどう生かせば良いかが分かり、日々の ルーティン業務の効率を劇的に高めて あなたが本当に注力すべき仕事に集中でき ます。改めまして私について書きをご覧 ください。現在成の研修顧問、生成の講演 の事業を行っております。概要欄のリンク
+    からご相談ください。そして私、AI コーチングという経営者個人事業向けの サービスも行っております。特自 コンテンツ、毎週ミーティング、目標 サポートとか専用チャットなど手厚い サポートが受けられます。具体的な サービス内容もこちらの記載の通りです。
+    AIコーチングの詳細については公式 LINEで料金開始時期募集人数の詳細 情報をご案内します。是非今
+- file: CAKGKkWf0tI.md
+  video_id: CAKGKkWf0tI
+  title: AI agents are popping up everywhere, from smart assistants to autonomous research tools to self-driving cars.
+  speaker: basically
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'AI agents are popping up everywhere, from smart assistants to autonomous research tools to self-driving cars
+
+    But what actually makes these things tick
+
+    In this video, we''re gonna break down the anatomy of an AI agent'
+- file: CZmx2iF8hoM.md
+  video_id: CZmx2iF8hoM
+  title: 今回はAIを使う時に気をつけるべき セキュリティについてお話ししていきます 。2025年はチャATGPTやジェミニ のようなチャットツールだけでなく様々な ツールが広まった1年でしたがそれに応じ て気をつけるべきことも増えています。
+    特にあ
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  topics:
+  - AI
+  - LLM
+  category: Technology
+  summary: 今回はAIを使う時に気をつけるべき セキュリティについてお話ししていきます 。2025年はチャATGPTやジェミニ のようなチャットツールだけでなく様々な ツールが広まった1年でしたがそれに応じ て気をつけるべきことも増えています。
+    特にあまり知られていないのがAI エージェントツールを使う時に起こりうる プロンプトインジェクションです。この 攻撃が成立すると皆さんのPCやログイン しているサイトから機密情報が抜かれる 可能性があります。そこで本動画ではAI サービスを使う時の機密情報や個人情報の
+    取り扱いといった基本的な話とAI エージェントやAIブラウザーを使う時の 注意点をまとめてお話ししていきます。 この動画を見てリスクを理解しながらAI を便利に活用していきましょう。 まず最初の基礎としてAIに何を入力して 良くて何がダメなのかについてお話しし
+    ます。これは皆さんの会社のポリシーに よっても変わりますし、サービスの規約に よっても変わります。普段何気なく使って いるAIツールたちは多くの場合外部の 企業が提供[音楽]しているサービスです 。例えばチャットGPTはOpenAIと
+    いうアメリカの企業のクラウドサーバー上 で動作しています。つまりAIチャットに 入力した情報は外部のサーバーに保存さ れるということです。ただこれに関しては 普段使っているスラックやチームズなどの チャットツトツールやGoogle ドライブなどのソフトウェアも自分たちの
+    サーバーを運用していない限りは同じ話な のでAIだけ特別に恐れる必要はないと 考えています。一方でAI特有のリスクと して入力されたデータをAIの学習に利用 される可能性があります。トップアウト。 つまりは学習利用の停止設定をしてい なければ入力した情報が学習データとして
+    利用され、それが思わぬ形で外部に表する 可能性は否定
+- file: Chl-cRcwVpA.md
+  video_id: Chl-cRcwVpA
+  title: Hello all, my name is Krishna Nayak and welcome to my YouTube channel.
+  speaker: Krishna
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  - Data Science
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  - Data Science
+  category: AI Agents
+  summary: 'Hello all, my name is Krishna Nayak and welcome to my YouTube channel
+
+    So guys, we''re going to continue our advanced agentic rag series
+
+    In this specific video, we will go ahead and understand what exactly is agentic rag is all about, how it is different
+    from traditional rag'
+- file: CnXdddeZ4tQ.md
+  video_id: CnXdddeZ4tQ
+  title: Companies like Uber, Rapolit, LinkedIn uses a framework called Langraph to build agents that are not just powerful
+    but r
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'Companies like Uber, Rapolit, LinkedIn uses a framework called Langraph to build agents that are not just powerful
+    but reliable
+
+    There are so many agent AI frameworks out there and Langraph is one of the popular framework
+
+    In this particular crash course, we will look at some theoretical fundamentals first and then we will dive deeper into
+    langraph covering a range of topics which I have displayed on the screen right now'
+- file: CwvzZgKG_JI.md
+  video_id: CwvzZgKG_JI
+  title: AI agents are easily one of the most exciting respond like typical AI chatbots like chat GPT.
+  speaker: confident
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'AI agents are easily one of the most exciting respond like typical AI chatbots like chat GPT
+
+    they are getting more powerful every single day
+
+    agents are in the most simple way, even if you''re Show you what they''re used for with practical build one from scratch,
+    very step by step'
+- file: DChzGCf1pOo.md
+  video_id: DChzGCf1pOo
+  title: So this final panel will review engineering around autonomous AI agents for next level customer experiences.
+  speaker: super
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'So this final panel will review engineering around autonomous AI agents for next level customer experiences
+
+    Please join me in welcoming Shawn from Rocket Companies, Shalish from Senbird, Thiece from Cognagi, and Joanne from Foundation
+    Capital
+
+    Um well, I''m super excited to be here um because we''re going to talk about the future, which is how are we engineering
+    autonomous AI agents'
+- file: DL82mGde6wo.md
+  video_id: DL82mGde6wo
+  title: Metarprompting is turning out to be a very very powerful tool that everyone's using now.
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  category: Startup
+  summary: 'Metarprompting is turning out to be a very very powerful tool that everyone''s using now
+
+    It kind of actually feels like coding in you know 1995 like the tools are not all the way there
+
+    We''re you know in this new frontier'
+- file: DNBaUCCST3I.md
+  video_id: DNBaUCCST3I
+  title: Agentic AI is very hot right now and in this video I'm going to share a practical stepbystep road map to learn Agentic
+    A
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'Agentic AI is very hot right now and in this video I''m going to share a practical stepbystep road map to learn
+    Agentic AI along with free learning resources
+
+    The first step in this road map is to gain understanding of AI basics
+
+    There are so many confusing terms like statistical ML, deep learning, ML versus AI, NLP'
+- file: DZGeiKiaoww.md
+  video_id: DZGeiKiaoww
+  title: こんにちは。いです。今回は最強の無料 AIツール9000と題しましてAI使い たいけどお金はかけたくない。こんな方の ためにこれらを知っておけば無料であって も相当なことができちゃうよと。仕事で あっても仕事以外の趣味であってもできる
+    こと
+  speaker: 。い
+  tags:
+  - AI
+  - LLM
+  topics:
+  - AI
+  - LLM
+  category: Technology
+  summary: こんにちは。いです。今回は最強の無料 AIツール9000と題しましてAI使い たいけどお金はかけたくない。こんな方の ためにこれらを知っておけば無料であって も相当なことができちゃうよと。仕事で あっても仕事以外の趣味であってもできる
+    ことの幅がぐんと広がりましてメジャーな ものもあればあんまりメジャーなものも ないんですがこれを知ってもらうことに よって皆さんの生活仕事変わること間違い なしですので是非最後までご覧いただけれ ば幸いです。このチャンネル、イトン チャンネルはAIエージェントに活躍する
+    スキルやノーハを学ぶというテーマで実践 に目指した様々な生活用ノーハブや毎週 日曜15時のAIニュースを配信してるの で是非チャンネル登録をよろしくお願いし ます。さあ、1つ目はジ備にGoogle が提供しているチャatトGPTの ライバルですね。で、チャATGPTと
+    近い部分もあるんですけれども、実はジ備 に無料でもできる幅がチャatトGPT よりも非常に多く、これチャATGPTに 比べて使っている人少ないんですが、是非 無料でAI使いたいという方は使っていく のをお勧めします。はい。Google
+    Jemyと検索すると上に出てきまして、 Googleアカウントをあれば無料でも 使うことができます。え、左上にモデルと いうものがありまして、どんなAI使える かというのがあるんですが、2.5 フラッシュはスピーディなもので使い放題 。2.5Proはもうちょっと難しい内容
+    を確認したいという時に使えるものでして 、え、無料の場合は2.5Proは1日5 回という制限があるんですが、フラッシュ でも多くの場合には十分賢いので、 フラッシュで使っていきましょう。例えば AIを使って業務効率化をしたいけれども 、どんなポイントに気をつけるべきか教え
+    て みたいなことを質問しますと、ま、
+- file: Dc1y_pulshw.md
+  video_id: Dc1y_pulshw
+  title: Hi. So, thanks everyone for joining me today. Uh, so as Hen said, uh, today I'll
+  speaker: the
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'So, thanks everyone for joining me today
+
+    Uh, so as Hen said, uh, today I''ll talk about so retrieval augmented generation
+
+    I think a lot of you have seen like claims on social media for a while that that rag is dead'
+- file: DfaRahn_dwo.md
+  video_id: DfaRahn_dwo
+  title: 'SPEAKER: Gemini 3 Flash can calls reliably at low latency.'
+  speaker: Unknown
+  tags:
+  - Agents
+  - Development
+  topics:
+  - Agents
+  - Development
+  category: Technology
+  summary: 'SPEAKER: Gemini 3 Flash can calls reliably at low latency
+
+    In this function it must successfully sequence Let''s cook some ramen
+
+    We start with a hundred which the model has to Each kitchen tool is a There are three agents The cooking agent triggers
+    It plans ahead by combining raw New combinations get added Each new combination by the alchemy agent You can imagine this
+    working in any environment and a large number of tools OK, looking at the can see the ramen is And it looks like the happy
+    with the final outcome'
+- file: E5y8BlRo6r4.md
+  video_id: E5y8BlRo6r4
+  title: Last week, uh, I did a video on how I was planning to do like a trading AI agent that was using Claude code as the
+    agent
+  speaker: Unknown
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  category: AI Agents
+  summary: 'Last week, uh, I did a video on how I was planning to do like a trading AI agent that was using Claude code as
+    the agent and just trying to come up with different trades we can do on like stocks with CFDs
+
+    So, uh, in this video, I just want to show you the results of my full week of uh, doing a few trades uh, using my AI agents
+
+    And I wouldn''t say this strategy is nothing like genius or special or anything like that'
+- file: EJB2Oj_VAk8.md
+  video_id: EJB2Oj_VAk8
+  title: Welcome Val, chief AI officer of Weta.
+  speaker: I
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  category: Startup
+  summary: 'Welcome Val, chief AI officer of Weta
+
+    >> Yes, you know, we''ve we''ve done one of these in San Francisco, so it''s great to actually see you here in New York
+    City
+
+    Uh, obviously, thanks for for making this this event possible'
+- file: ELBIb8z0jxc.md
+  video_id: ELBIb8z0jxc
+  title: Some of the very best AI tools are adding AI agents on top of their AI tools.
+  speaker: all
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Startup
+  - Technology
+  - Development
+  category: Startup
+  summary: 'Some of the very best AI tools are adding AI agents on top of their AI tools
+
+    So instead of just using the AI tool, you just talk to the agent inside of chat and the agent does all the work for you
+
+    Let me show you the top seven that recently got AI agents'
+- file: ESIL0Rzl5VQ.md
+  video_id: ESIL0Rzl5VQ
+  title: Our AI agent works perfectly when I'm the only one using it.
+  speaker: the
+  tags:
+  - AI
+  - Agents
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'Our AI agent works perfectly when I''m the only one using it
+
+    But what happens when the rest of the internet shows up
+
+    So today we simulate that nightmare scenario with a load test to see if our architecture scales gracefully or just starts
+    crying'
+- file: EWBsmEi4V9g.md
+  video_id: EWBsmEi4V9g
+  title: 本日は今話題のAIエージェントの基礎 知識についてご紹介できればなと思って おります最近よくAIエージェントという 言葉を耳にすることが増えてますがその 具体的な意味や仕組みについて曖昧なまま の人も多いのではないでしょうかAI
+    エージェン
+  speaker: Unknown
+  tags:
+  - AI
+  - LLM
+  topics:
+  - AI
+  - LLM
+  category: Technology
+  summary: 本日は今話題のAIエージェントの基礎 知識についてご紹介できればなと思って おります最近よくAIエージェントという 言葉を耳にすることが増えてますがその 具体的な意味や仕組みについて曖昧なまま の人も多いのではないでしょうかAI
+    エージェントは私たちの日常生活や ビジネスにおける可能性を大きく広げて くれますこの動画ではAエージェントとは 何かという疑問に答えるべくその基礎的な 概要や特徴応用例を分かりやすく解説し ますこの動画を見終わる頃にはA エージェントは何みたいなことを友達に
+    聞かれた時に自信を持って友達に説明 できるように頑張って一緒に勉強し ましょうではまずAIエージェントの特徴 についてご紹介しようかなと思いますAI の特徴は主に4つあります自立性目標思考 適用性学習能力AIエージェントはこの4 つの特徴を兼ね備えていますまずこの自立
+    性とは何かっていうところなんですけど 自立性とはAIエージェントが自ら行動を 計画し実行する能力を持つことです例えば カスタマーサポートのAエージェントが あるとするとそのAIエージェントは顧客 の購入履歴や過去のクレイム内容を自動的
+    に分析し自分で返品処理をするかもしくは 大替製品を提案するかみたいなところを 自分で考えてくれます自から行動を計画し 自分でアクションをするというのがまず1 つ目の特徴自立性になりますで2つ目目標 思考ですね目標思考というのはAI エージェントが自ら考えて自分で目標達成
+    のための最適な手段を模索しながら思考 するという特徴です例えば物流AI エージェントというものがあるとしますで この物流AIエージェントの目標としては 配送時間内の到着という目標を達成する ために既存の交通状況だとか天候条件あと はリアルタイムデータ配送ルートといった
+    条件を元に目標である配送時間内の到着を するためにはどうすれば
+- file: E_ToyA780YU.md
+  video_id: E_ToyA780YU
+  title: はい、え、皆様こんにちは。ご紹介 ありがとうございます。え、魚屋の秋場と 申します。え、今日はですね、あの、ま、 AIエージェントについてのお話なんです が、ま、特にですね、ま、そのAI エージェントをどうやって作るかっていう
+    話を超えてで
+  speaker: 。ご紹介 ありがとうございます。え、魚屋の秋場と 申します。え、今日は
+  tags:
+  - AI
+  - LLM
+  topics:
+  - AI
+  - LLM
+  category: Technology
+  summary: はい、え、皆様こんにちは。ご紹介 ありがとうございます。え、魚屋の秋場と 申します。え、今日はですね、あの、ま、 AIエージェントについてのお話なんです が、ま、特にですね、ま、そのAI エージェントをどうやって作るかっていう
+    話を超えてですね、ま、どうやったらその 使えるAIエージェント、ま、賢いAI エージェントが作れるかっていうところに ついてお話ししていきたいと思います。 AIエージェントって言葉が出てきて、 ちょっと時間が経ったと思うんですよ。で 、ま、結構使ったことあるよっていう方も
+    多いと思うし、ま、なんならちょっと作っ たこともあるよっていう方もいらっしゃる と思います。ただですね、あの、ま、皆 さんがその経験で、ま、ご満足されてるか どうかっていうのが、ま、私結構気になる ところですね。っていうのも、ま、その
+    LLMに、ま、そのツールをくっつけて、 ま、なんか行動可能にしてあげる。ま、 そうすると、ま、一応AIエージェントに なって一応何か自動化できますよね。ただ 、ま、そうやって自動化できたからと言っ て使えるとは限らないと。ま、なぜかって
+    言うとですね、ま、やっぱり当然その仕事 って新しくできた仕事ではなく、これまで 人間がやってきた仕事で、ま、しかもです ね、大抵の場合、ま、専門家がやってきた 仕事になってるわけです。で、ま、それを ですね、ま、自動でやるとなったら、ま、
+    当然要は人間の専門家に匹敵するほどの 実力を持ったAIエージェントにならない 限り、ま、なかなか仕事を任せようとは ならないわけですよね。なのでそのAI エージェントを作るっていうところから、 ま、実際に使えるものにする、専門家に匹 匹敵するものにするていうところには
+    ギャップがあります。で、今日はですね、 ま、そのギャップをどうやって超えるのか 、ま、協力で実用的なエージェントを
+- file: EcwsvwVJnY4.md
+  video_id: EcwsvwVJnY4
+  title: So a post from the anthropic co-founder is turning some heads.
+  speaker: Jack
+  tags:
+  - AI
+  - Agents
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - LLM
+  - Startup
+  - Technology
+  - Tutorial
+  - Development
+  category: Startup
+  summary: 'So a post from the anthropic co-founder is turning some heads
+
+    He says that he is deeply afraid
+
+    What we are dealing with is a real and mysterious creature, not a simple and predictable machine'
+- file: F1I9JN0z0w0.md
+  video_id: F1I9JN0z0w0
+  title: Most AI agents and MCP servers are built to only work with a single user, you.
+  speaker: using
+  tags:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  topics:
+  - AI
+  - Agents
+  - RAG
+  - LLM
+  - Technology
+  - Tutorial
+  - Development
+  category: AI Agents
+  summary: 'Most AI agents and MCP servers are built to only work with a single user, you
+
+    But in this video, I want to help you move beyond that
+
+    Because here''s the thing, a lot of times we build our AI agents and we want to scale them to thousands or millions of
+    users'

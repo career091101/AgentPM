@@ -1,0 +1,2149 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=w5xtbdoPfTg"
+video_id: "w5xtbdoPfTg"
+video_url: "https://www.youtube.com/watch?v=w5xtbdoPfTg"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=w5xtbdoPfTg
+  - Retrieved at: 2025-12-30T16:37:11+09:00
+  - [00:01] Hello, I'm Matt Marshall, founder and
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=w5xtbdoPfTg"
+  - "- Retrieved at: 2025-12-30T16:37:11+09:00"
+  - "- [00:01] Hello, I'm Matt Marshall, founder and"
+  - "- [00:03] editor-inchief of VentureBeat, and I'm"
+  - "- [00:05] excited to share a new podcast project"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: w5xtbdoPfTg
+
+- URL: https://www.youtube.com/watch?v=w5xtbdoPfTg
+- Retrieved at: 2025-12-30T16:37:11+09:00
+
+## Text
+
+- [00:01] Hello, I'm Matt Marshall, founder and
+- [00:03] editor-inchief of VentureBeat, and I'm
+- [00:05] excited to share a new podcast project
+- [00:07] we've been working on. We're calling it
+- [00:09] Beyond the Pilot: Enterprise AI in
+- [00:12] action. At Venturebe, we have
+- [00:13] conversations every day with leaders and
+- [00:15] teams across various industries to bring
+- [00:17] you coverage about the latest in
+- [00:19] enterprise AI. And from my vantage
+- [00:21] point, the conversation has really
+- [00:23] started to change from, can I dream as
+- [00:25] big as I can to a question of, hey, can
+- [00:28] I actually just build something that's
+- [00:30] sustainable and really works for me?
+- [00:32] That race to scale fueled by supposedly
+- [00:35] neverending cloud resources is colliding
+- [00:38] with brutal realities of physics and
+- [00:40] finance and ROI. Let's be honest, over
+- [00:42] the last 6 months, I bet your AI
+- [00:44] playbook has become outdated. I've
+- [00:46] teamed up with my friend Sam Whitphine,
+- [00:48] who's a developer and a leader in AI
+- [00:50] coverage to dive into what real
+- [00:52] companies, industry leaders, and
+- [00:54] decision makers are actually doing and
+- [00:56] to learn about their experiences putting
+- [00:57] AI into action. We're hoping to uncover
+- [00:59] what they've done wrong, what they've
+- [01:01] done right, and how they've overcome
+- [01:03] real problems as they've moved beyond
+- [01:04] the pilot. So, I think your task is
+- [01:06] really to listen for those trade-offs.
+- [01:08] There's not one single answer. You're
+- [01:10] going to have to gather intelligence for
+- [01:12] your playbook, and the space is moving
+- [01:14] really quickly. We're going to keep up
+- [01:16] with that conversation. So, thank you
+- [01:18] for listening. Here's the first episode.
+- [01:24] This is Venture Beats Beyond the Pilot,
+- [01:26] Enterprise AI in action. I'm Samine.
+- [01:29] >> I'm Matt Marshall. Today's episode is
+- [01:32] presented by Outshift by Cisco, Cisco's
+- [01:34] emerging tech incubation engine and
+- [01:37] driver of Aentic AI, Quantum, NextG,
+- [01:40] Infra, and beyond.
+- [01:42] Today we're talking with Ryan Nestrom,
+- [01:44] who's helped build some of the products
+- [01:46] that have defined the mobile era at
+- [01:48] places like Instagram. He's also created
+- [01:51] a bunch of popular iOS libraries. And
+- [01:54] Brian currently leads the AI team at
+- [01:56] Notion that has recently built Notion
+- [01:59] 3.0 for agents. So, this is creating
+- [02:03] agents right inside the second brain
+- [02:05] that's used by millions of users. For
+- [02:08] us, what makes Notion story so
+- [02:10] compelling is that they weren't an AI
+- [02:12] native company. They're injecting this
+- [02:14] new intelligence into a product that
+- [02:17] people have been relying on for a number
+- [02:19] of years already. Ryan's been on the
+- [02:22] front lines discovering the differences
+- [02:24] between trying to teach your AI a
+- [02:26] complex system versus getting your
+- [02:29] system to speak the AI's language.
+- [02:32] Welcome to the pod, Ryan. It's great to
+- [02:34] have you.
+- [02:35] >> Thank you so much. I'm excited to jump
+- [02:38] into some of the things we did uh on
+- [02:40] notion's AI and agent systems.
+- [02:44] >> So I I kind of think that you've got a
+- [02:46] really interesting sort of perspective
+- [02:48] in like I mentioned in the intro, you've
+- [02:51] got this history in the mobile era and
+- [02:54] you know you you worked at sort of one
+- [02:56] of the premier sort of uh companies that
+- [02:59] took mobile to to the next level kind of
+- [03:02] thing being Instagram. Um, not only
+- [03:05] that, along the way you you built a
+- [03:07] bunch of sort of, you know, uh,
+- [03:09] well-known iOS libraries, uh, wi with
+- [03:13] that you were very involved in that
+- [03:15] community. I'm kind of interested to
+- [03:17] sort of get your a little bit of your
+- [03:19] history of how you thought about that
+- [03:22] back then. Uh, and then how did that
+- [03:24] transition into where you are now at
+- [03:26] notion?
+- [03:28] Yeah, I I got my start basically in
+- [03:32] engineering and coding um because of of
+- [03:36] mobile because of the iPad and the
+- [03:39] iPhone. Um I was just kind of wowed by
+- [03:44] this technology that I could not only
+- [03:47] take with me but also like touch and
+- [03:49] interact with. And that's what really
+- [03:52] got me excited. Um, I also really felt
+- [03:55] like back when I when I was getting
+- [03:57] started in like 2010, 2011,
+- [04:00] um, we were in the middle of this like
+- [04:02] revolution where everything was
+- [04:04] switching to mobile and one of my one of
+- [04:08] my my first really big tech job was was
+- [04:10] working at Instagram and kind of riding
+- [04:13] that wave of everyone I mean, you know,
+- [04:17] Instagram being owned by Facebook where
+- [04:19] people were migrating from doing things
+- [04:21] on their computer on Facebook to sharing
+- [04:25] and socializing on their phone. Um, and
+- [04:28] I found that really exciting. Um, I
+- [04:30] wanted to build product. I wanted to
+- [04:32] build tools. I wanted to build things
+- [04:33] that people could touch and use. And
+- [04:38] what really gets me excited about this
+- [04:40] time in AI
+- [04:43] is I'm feeling the same sort of like wow
+- [04:47] and like magic with these tools.
+- [04:50] um you know comparing like LMS today
+- [04:52] which are already extremely advanced um
+- [04:55] with things like GPD5 and Sonnet 45
+- [04:58] which are kind of the latest latest and
+- [05:00] greatest frontier models. It's almost
+- [05:02] like you compare these to when I got
+- [05:03] started with iPhone. It was like the
+- [05:04] iPhone 4, you know, it wasn't the first
+- [05:06] gen. It wasn't the iPhone 1 which like
+- [05:09] was kind of magic but like was super
+- [05:11] limited. Didn't have an app store or
+- [05:13] anything. Um, and we went through these
+- [05:15] different phases of the iPhone where
+- [05:17] they got faster, sleeker, more powerful.
+- [05:20] Um, got the app store, you had more
+- [05:22] SDKs, more APIs, and more things that
+- [05:24] you could do. Then we had more hardware
+- [05:26] like the iPad, um, the watch. And I feel
+- [05:29] like this is kind of happening again um,
+- [05:31] in the industry with LMS and with AI.
+- [05:34] Um, we're getting tool calling. uh we're
+- [05:37] getting more and more features like the
+- [05:39] companies are building you their own
+- [05:41] versions of like app stores and computer
+- [05:43] use and browsers and all these things.
+- [05:46] Um and we don't know exactly like where
+- [05:49] this is going to go but we see the value
+- [05:52] in the technology and so we're all just
+- [05:54] trying to like build things and figure
+- [05:56] out how to like make this work for us.
+- [05:58] um you know a as somebody who writes
+- [06:01] code like it's become like immensely
+- [06:04] valuable to my workflow and now we're
+- [06:06] trying to like expand that value to like
+- [06:09] everyday tasks. Um and that's what I'm
+- [06:12] trying to do here at at notion as well
+- [06:13] like we have this platform we have this
+- [06:15] product how can we bring that sort of
+- [06:17] joy and magic that we're experiencing on
+- [06:19] the engineering side to uh this
+- [06:22] productivity software. So that's super
+- [06:24] interesting that you're starting to see
+- [06:26] this explosion like you mentioned, you
+- [06:28] know, originally from the mobile era,
+- [06:30] now this AI era. Um, can you tell us a
+- [06:33] little bit about how you got involved in
+- [06:34] notion, where, you know, sort of notion
+- [06:37] was perhaps with their AI journey when
+- [06:40] you first uh arrived?
+- [06:43] >> Yeah, it's it's a little funny. I was
+- [06:46] doing a startup um with one of my uh
+- [06:49] great friends and founder co-founder um
+- [06:53] and we were trying to build uh we have
+- [06:55] this sort of like vendetta against
+- [06:56] Slack. I I think that Slack can be like
+- [07:00] >> Yeah.
+- [07:03] This is a kind of a fault of my own.
+- [07:04] Like I the pings and the badges and the
+- [07:07] alerts happen and I'm like eager to go
+- [07:09] help people and unblock, but I'll like
+- [07:11] then I'll end my day having been like,
+- [07:13] "Oh my god, I've just been in Slack all
+- [07:15] day." Like I didn't write any code. Uh
+- [07:17] so we were building this startup to to
+- [07:19] try and solve some of that problem. Um
+- [07:21] it was more of like a writing focused uh
+- [07:24] product, but still was for like async
+- [07:27] remote work. Um and we did our startup
+- [07:30] for a few years. it never got like the
+- [07:32] traction that we wanted and um you know
+- [07:35] at the time the the the sort of irony is
+- [07:38] that like on our website at one time we
+- [07:40] had like you should not use notion you
+- [07:43] should use our software instead and that
+- [07:46] like I think put each other on each or
+- [07:48] put us on each other's radars and um
+- [07:51] when our startup wasn't working we uh we
+- [07:54] reached out to some folks at notion and
+- [07:55] found out that like us actually would be
+- [07:57] kind of share the same like design
+- [07:59] language and product philosophy fee um
+- [08:02] and found a found a great home and
+- [08:04] opportunity over here. And originally we
+- [08:07] were not even going to come to work on
+- [08:09] AI um because we had been working on
+- [08:11] like workplace comms and communication
+- [08:14] and stuff. But as soon as we joined um
+- [08:17] there was this sort of resurgence into
+- [08:22] notion's AI tools and systems and we
+- [08:24] were uh there was a lot of experimental
+- [08:26] stuff going on at the time. Um, and it
+- [08:29] was very uh experimental and innovative
+- [08:33] in terms of like the way we were using
+- [08:36] uh LMS and AI, but we needed to put some
+- [08:39] like product finesse on it. Um, and my
+- [08:42] co-founder uh Brian Leven uh is a
+- [08:45] designer. I'm an engineer. Both of us
+- [08:47] are like product people as well. And so
+- [08:49] we were able to join this like extremely
+- [08:51] technical project and put like a product
+- [08:53] lens on it. Um, and we went through a
+- [08:57] bunch of different iterations of what it
+- [09:00] should have been. Um, we were exploring
+- [09:03] crazy stuff like codegen within notion
+- [09:07] and all these really wild automations.
+- [09:11] Um, they were incredibly impressive. Uh,
+- [09:13] and from that we discovered um this sort
+- [09:17] of like agentic loop and tool calling
+- [09:19] loop um that worked really really well
+- [09:22] and we leaned really hard into that and
+- [09:25] that is eventually what became our
+- [09:28] notion 3.0 moment um that we announced
+- [09:30] at make with notion this year.
+- [09:33] >> Ryan and very interesting we want to get
+- [09:36] further into that product obviously. Um
+- [09:40] going back to
+- [09:42] briefly to um the experience you had
+- [09:45] during the mobile era, right? You
+- [09:47] mentioned that feeling of being on the
+- [09:49] bleeding edge again of you know chasing
+- [09:51] new APIs.
+- [09:53] >> Um one of the things about mobile though
+- [09:56] is you built software and you had the
+- [09:58] iOS system and platform. It worked right
+- [10:02] that was the beauty of iOS. You know
+- [10:04] obviously Android was a competitor. How
+- [10:06] is building that stochastic you know
+- [10:09] non-deterministic AI product different
+- [10:12] when you when you go back to that era of
+- [10:14] excitement um you know you know how is
+- [10:17] it different now from that deterministic
+- [10:19] world where things worked right the
+- [10:21] traditional software mobile engineering
+- [10:22] background that you have I yeah I still
+- [10:26] really struggle with this um because I
+- [10:28] I've got you know over a decade of like
+- [10:32] trai almost want to like traditional
+- [10:34] software engineering ing experience
+- [10:36] where I'm like it's extremely
+- [10:38] deterministic. Um when I write code that
+- [10:41] expects this output like it is so simple
+- [10:44] to understand debug. Um there were when
+- [10:50] I started working with AI at at our
+- [10:53] former startup, we were doing a little
+- [10:55] bit of a AI stuff and then coming here
+- [10:58] um I really had to like rewire myself to
+- [11:03] like understand how to work with these
+- [11:05] things. And one of my like key moments
+- [11:09] was when I was working with um one of
+- [11:12] our our co-founders at Notion, Simon, um
+- [11:16] said something about uh was giving me
+- [11:18] feedback on like a code change that I
+- [11:20] was making, a prompt change, and he was
+- [11:22] like, "Describe this as you would
+- [11:26] describe to an intern." And I was like,
+- [11:29] "Well, like I'm trying to like codify
+- [11:31] the rules of how this like LM should
+- [11:33] behave in this condition." And he's
+- [11:35] like, "Yeah, yeah, but like these are
+- [11:37] trained on like content generated by
+- [11:41] people and so they they are going to
+- [11:43] like understand or reason better like
+- [11:46] people will." And that was just like a
+- [11:48] light bulb moment to me that I was like,
+- [11:50] "Oh man, I'm really like
+- [11:53] it's almost like an organic thing like
+- [11:55] I'm like talking to it and explaining to
+- [11:57] it." And really now whenever I'm like
+- [12:01] working with AI, I'm starting to I will
+- [12:04] like reread the prompts and and tool
+- [12:07] descriptions and all these things and be
+- [12:08] like, is this something that I could
+- [12:10] give to a person with like no context
+- [12:12] and they could somewhat understand
+- [12:14] what's going on. If not, then it's going
+- [12:18] to do a bad job. Um, and that's like fun
+- [12:22] because there's like so much logic that
+- [12:25] can be baked into just like English
+- [12:27] instructions. It's also like as a
+- [12:29] traditional software person like kind of
+- [12:31] horrifying because sometimes things work
+- [12:34] in ways that are incredibly
+- [12:36] unpredictable.
+- [12:37] Um, they can go sideways. They can
+- [12:40] interpret things differently. And then
+- [12:42] you add into the mix um like different
+- [12:45] models uh that like have their own
+- [12:48] preferences and behaviors and like
+- [12:50] training data built in. So it's I find
+- [12:52] it like very like weird but in a fun
+- [12:56] way. Like it's really it's really fun
+- [12:58] weird um because you can end up doing a
+- [13:00] lot of like really interesting quirky
+- [13:02] things um with LMS.
+- [13:05] This series is presented by Outshift,
+- [13:07] Cisco's emerging tech incubation engine
+- [13:10] and driver of the internet of agents, an
+- [13:13] open interoperable internet for
+- [13:15] agent-to-agent collaboration. Learn more
+- [13:18] about the internet of agents and explore
+- [13:20] how Agentic systems are the future at
+- [13:23] outshift.isco.com.
+- [13:26] And Ryan, where do you feel like we are
+- [13:28] on that
+- [13:30] journey? Right. I think there's a
+- [13:32] there's a sense that we we were
+- [13:34] obviously scaling the models. Um
+- [13:38] there's improvement through
+- [13:39] reinforcement learning, right? There's
+- [13:41] the reasoning. There's there is this
+- [13:43] trajectory, but there there there's also
+- [13:45] kind of this brewing discontent with
+- [13:48] hallucinations and and the limits of of
+- [13:51] that reasoning, right? There was talk of
+- [13:52] AGI, right? AGI was around the corner.
+- [13:55] um that's all disappeared as you joined
+- [13:58] the company and and where and where you
+- [14:00] are where you feel things are now. Can
+- [14:02] you give us a sense of where we are on
+- [14:04] that that journey?
+- [14:06] >> I I really feel, you know, using uh this
+- [14:08] like mobile comparison. It's almost like
+- [14:12] we're in the like Palm OS era. We're
+- [14:16] like pre BlackBerry pre pre iPhone, you
+- [14:19] know? It's like it's so I think it is so
+- [14:23] early. Um, I I think that there's a lot
+- [14:27] of valid criticism of what LLMs and
+- [14:30] especially like agentic systems are
+- [14:33] capable of. And that's that's one thing
+- [14:36] that I think we've learned the hard way
+- [14:38] building um not even just the current
+- [14:42] version of Notion AI, but like the
+- [14:43] previous iterations of it. And
+- [14:47] the thing that gets me excited though is
+- [14:49] like the pace of change is like so fast
+- [14:52] that you know it'd be almost like if we
+- [14:55] there were plenty of people who like poo
+- [14:56] pooed the palm pilot and we're like ah
+- [14:59] this is like going nowhere. Like it can
+- [15:01] barely like detect my like handwriting
+- [15:03] when I'm like doing um the like notation
+- [15:06] on it. But like look where we are now. I
+- [15:09] mean look how much it's changed in what
+- [15:12] 30 years like less. Um, I I think that
+- [15:16] like there's a lot of of comparisons and
+- [15:20] I think that things are moving like even
+- [15:21] faster because like GPT 3 was like a
+- [15:25] couple years ago and that was like okay.
+- [15:29] I mean GPD4 I think a lot of us was like
+- [15:32] the breakthrough moment and and that
+- [15:34] even compared to what things can do now
+- [15:36] which is like a year and a half later or
+- [15:38] something. I mean it's crazy this stuff
+- [15:40] is changing so fast. Do you do you find
+- [15:42] it's different this time though in that
+- [15:45] like before you kind of had to pick your
+- [15:47] camp, right? You were either iOS or you
+- [15:49] were Android, right? And and and you
+- [15:52] would never go from one to the other
+- [15:54] kind of thing, right? We But now people,
+- [15:57] you know, it it's it's almost like
+- [15:59] people are, you know, happily changing
+- [16:03] models every, you know, every week kind
+- [16:05] of thing or if not even sooner. So do
+- [16:08] you I'm curious to sort of get your take
+- [16:10] on how do you see the differences
+- [16:12] between say an open AI with the GPT
+- [16:15] models the clawed models from anthropic
+- [16:18] perhaps Google or the the other Chinese
+- [16:20] companies etc.
+- [16:22] I I I love that. Um I I remember when I
+- [16:28] got like very into mobile I was just
+- [16:30] like diehard Apple like Android sucks.
+- [16:34] It's never going to be that good. it and
+- [16:37] you know working on Instagram we had
+- [16:38] like a handful of iOS engineers and we
+- [16:41] had a handful of like Android engineers
+- [16:43] and like we very like the cultures were
+- [16:46] so different the people were so
+- [16:48] different. Um though the fun fact is
+- [16:50] that like probably nine out of 10
+- [16:52] Android engineers used an iPhone. So
+- [16:54] like I think that iPhone was clear was
+- [16:57] clearly the choice. Anyways, uh but I
+- [17:00] what I love about the the current state
+- [17:03] of things is that um these like frontier
+- [17:07] models are competing with each other or
+- [17:09] not not the models but like these
+- [17:11] frontier research labs are competing
+- [17:13] with each other and they are learning
+- [17:15] from each other. Uh they are innovating
+- [17:17] they're they are sharing information.
+- [17:20] they're also like keeping um some of
+- [17:23] their their biggest innovations, you
+- [17:26] know, uh secret and stuff. And I I just
+- [17:29] think that this competition is really
+- [17:31] good um for the industry. Um for us at
+- [17:34] Notion, we benefit because these
+- [17:38] frontier labs are trying to like build
+- [17:40] the best model and they're trying to out
+- [17:42] compete each other and then we are just
+- [17:45] going to use the one that fits our needs
+- [17:47] the best. Um, and so we are constantly
+- [17:50] evaluating uh the new models. We pretty
+- [17:53] much are are staying in the like
+- [17:55] anthropic and open AI camps. Um, it
+- [17:58] that's that's what's just worked out
+- [17:59] best for us. We'll always play with new
+- [18:01] models as they come out. Um, but it is
+- [18:04] it is quite different. You you will get
+- [18:06] some people that are like, "Oh, GBD5
+- [18:08] like picks up on my writing style or
+- [18:11] it's got a um a way of doing tool
+- [18:14] calling that's preferable to me." And um
+- [18:17] I think that that's I think that that's
+- [18:19] great, but I also notice the way that
+- [18:22] these are changing so quickly. Um you
+- [18:25] know, Sonnet 45 came out like a a month
+- [18:28] month and a half ago or something. And
+- [18:30] it like one of our biggest issues with
+- [18:32] Sonnet 4 is it would only do tool calls
+- [18:34] kind of like one at a time and wouldn't
+- [18:36] do them in parallel very often. And four
+- [18:38] five is all of a sudden just like I'll
+- [18:39] do as many tools at once as I think is
+- [18:42] is um necessary. And that was like a
+- [18:44] huge leap forward. And now I'm like,
+- [18:46] "Oh, Sonic 45 is like pretty great now."
+- [18:48] Um, and so, and I even I even see that
+- [18:51] on like the tools that I use, like I
+- [18:53] will flip-flop between Cloud Code and
+- [18:56] Codeex pretty regularly based on uh
+- [18:59] either model innovations or even just
+- [19:01] like product innovations. Um, and so it
+- [19:04] it is cool that I don't think people are
+- [19:08] stuck in one camp um very much. You
+- [19:11] know, there was such a clear difference
+- [19:12] between like Apple
+- [19:15] um or like iOS and Android. Like there
+- [19:18] were just things that one prioritized
+- [19:22] over the other. Android being like very
+- [19:24] open, iOS being like closed but also
+- [19:26] like super polished, super performant.
+- [19:29] Um that's changed nowadays. Uh I think
+- [19:31] they're both pretty comparable or even,
+- [19:34] you know, inverted a little bit. Um but
+- [19:36] yeah, on the model side, um yeah, I I
+- [19:40] see less like the FFTs. It's not like
+- [19:41] here at Notion we have a a camp of
+- [19:44] anthropic engineers and open AAI
+- [19:46] engineers. We all we all just use LLMs.
+- [19:49] >> Ryan, you describe Notion's journey into
+- [19:51] Gen AI is almost an accident built on
+- [19:54] years of prior work. Can can you unpack
+- [19:57] the pre-existing ingredients
+- [19:59] like search connected apps and and the
+- [20:02] collaborative editor that Notion had
+- [20:04] that became the foundation for your
+- [20:06] agent?
+- [20:07] >> Yeah. Yeah. I I I know it wasn't like uh
+- [20:12] an accident that we created this agentic
+- [20:14] notion AI, but like when I kind of
+- [20:15] replay how we got here, it it it almost
+- [20:18] feels like the stars aligned. So like
+- [20:20] notion's history um briefly because I've
+- [20:23] only been here, you know, one year out
+- [20:26] of I think Notion's been around. I mean
+- [20:28] Notion as like a company uh with the
+- [20:31] co-founders has been around for like 13
+- [20:33] years. um in its current form I think
+- [20:36] since 2016 2017 um but essentially
+- [20:41] notion started as like wikis and pages
+- [20:43] you know like sort of like collaborative
+- [20:45] docs they added databases so you could
+- [20:47] do more project management um and then
+- [20:50] added things like connected apps where I
+- [20:53] could connect say GitHub Slack u there's
+- [20:57] a whole bunch of different connections
+- [20:59] but those are the two that that I I use
+- [21:01] a ton um And then I can both like embed
+- [21:05] content within notion from those apps.
+- [21:08] And then we started like indexing and um
+- [21:13] ranking content from those apps so that
+- [21:15] I could be within notion search for
+- [21:18] what's one that I love doing. Oh, like
+- [21:19] what's the Wi-Fi in the New York office?
+- [21:22] Um and I can like search within content
+- [21:25] that's already in Notion. But like if
+- [21:27] that conversation about the Wi-Fi
+- [21:28] password was also on Slack, our search
+- [21:31] tools could go out into like the Slack
+- [21:34] content and find it and then present it
+- [21:37] to you. And now we can actually use AI
+- [21:40] to do this like retrieval um augmented
+- [21:44] generation. You can ask the AI a
+- [21:46] question and then we could generate say
+- [21:48] like five different queries or questions
+- [21:50] for like what you asked and then go out
+- [21:53] into our um indexes, our vector stores
+- [21:58] and like go find the content that like
+- [22:00] closely matches that base and that
+- [22:01] content could come from GitHub, it could
+- [22:03] come from Slack and of course it can be
+- [22:05] within notion itself and then we can
+- [22:08] take all that information give it back
+- [22:10] to an LLM and then like ingest and find
+- [22:14] the answer that you're looking for. Um,
+- [22:16] and so we ended up building this system
+- [22:19] which is what we call we'll call it deep
+- [22:21] find or enterprise search. And so that
+- [22:24] shipped I think that shipped like two
+- [22:26] years ago. Um, and then we built this uh
+- [22:31] with GPT4.
+- [22:33] We built writer uh we built an assistant
+- [22:36] within notion. And so we start building
+- [22:39] these like foundational pieces of using
+- [22:42] AI within notion. And then fast forward
+- [22:45] to like this year, we essentially have
+- [22:49] all of these parts built. We have the
+- [22:52] core primitives of notion. We have a
+- [22:54] rich collaborative workspace also rich
+- [22:57] with like permission checking um uh and
+- [23:01] those sort of things. We have this block
+- [23:03] structure in notion that's like highly
+- [23:05] composable. Um and then we have this
+- [23:08] advanced search functionality and we
+- [23:10] have the ability to write with AI. we
+- [23:13] have like all of this stuff. And so it
+- [23:15] was like a matter of seeing that all of
+- [23:18] these pieces already existed in some
+- [23:20] form and then building a system that can
+- [23:23] bring them all together. Uh which is
+- [23:25] what we essentially call our notion
+- [23:27] agent. Um and so we would build tools
+- [23:30] that connect to all of these different
+- [23:32] parts. Tools like search, tools like uh
+- [23:36] writing to a page, querying a database,
+- [23:39] um all these sort of things. So yeah, it
+- [23:41] was it was really like we were we were
+- [23:44] able to pull together years of work,
+- [23:49] research, learnings, technology, um, and
+- [23:52] then assemble it into our current agent.
+- [23:56] >> Ryan, walk us through maybe if you if
+- [23:59] you can remember what it what it felt
+- [24:00] like. So So you joined about a year ago.
+- [24:03] It's some change plus or minus. Um, so
+- [24:08] Notion has all these connectors, right?
+- [24:10] They've been clearly working on Gen AI
+- [24:13] uh tracking the Gen AI revolution.
+- [24:16] You're coming in as as you said from the
+- [24:18] startup, right? With actually not
+- [24:21] necessarily being on the bleeding edge
+- [24:23] of Gen AI, right? You're you're trying
+- [24:26] to kill Slack or something. So, can you
+- [24:28] can you walk us through
+- [24:30] >> that founder conversation and what it
+- [24:32] felt like because essentially it sounds
+- [24:33] like you came on to actually build the
+- [24:34] agent. You you said something about how
+- [24:36] there were maybe two people there
+- [24:38] working on the project. Can you walk us
+- [24:39] through what that felt like?
+- [24:42] >> It really felt like being tossed into
+- [24:44] the deep end. Um because my my
+- [24:48] co-founder and I had to learn uh not
+- [24:52] only AI uh we had to learn aic systems
+- [24:56] um and we had to learn like notion uh at
+- [24:59] the same time. Like notion is a a huge
+- [25:01] codebase. It's a huge codebase. It is um
+- [25:04] it's pretty complex. Um I I think that
+- [25:10] like the block system, the permission
+- [25:11] system, the real time system, not to
+- [25:14] mention we la we launched offline this
+- [25:16] year which has its own like uh CRDT or
+- [25:19] conflict conflict resolution data type
+- [25:22] system. Um we had to like we had to
+- [25:25] contend with like all of this stuff. We
+- [25:26] had to learn all of this stuff and learn
+- [25:28] how to like most effectively use AI um
+- [25:32] and be like what is a good product here?
+- [25:34] Uh, so it was really like having to
+- [25:37] figure out a bunch of very complicated
+- [25:39] pieces um at once. But what I've loved
+- [25:44] is that Notion's like a very prototype
+- [25:47] forward uh company and the stage that
+- [25:51] things were at was like really
+- [25:54] innovative and exciting but also like
+- [25:56] very cobbled together. Um, and
+- [26:01] I felt really free to just like go in
+- [26:03] and play and like break things, change
+- [26:06] things. Um, and more or less like that
+- [26:09] culture is still like in the AI team. I
+- [26:13] mean, we don't we don't kind of like
+- [26:15] break and hack at the core agent that
+- [26:17] now that we've like fully launched it,
+- [26:18] but all the things that we're trying to
+- [26:20] build on to it or uh extend with it or
+- [26:23] like that that's very much like the
+- [26:25] culture still. Um, but it was I it was
+- [26:28] honestly like crazy. I had no idea what
+- [26:30] I was doing. It was super complicated.
+- [26:33] It took me it took me a while to like
+- [26:34] ramp up and feel um comfortable, but it
+- [26:38] was a matter of just kind of like
+- [26:41] powering through it and like trying
+- [26:43] things. I I also think that like AI is
+- [26:47] still like in its infancy and so even
+- [26:51] though I felt like tons of imposttor
+- [26:54] syndrome, nobody else really knew what
+- [26:57] they were doing. I mean, we were all
+- [26:59] just trying to figure this out and like
+- [27:00] push it to its limits. Um, and so I I
+- [27:04] was able to play into my strengths,
+- [27:05] which is like product engineering. Um,
+- [27:08] and so even though I'm not an AI expert,
+- [27:10] I can use an AI feature and pretty
+- [27:13] intuitively figure out like, is this
+- [27:15] good? Like, is this solving a problem
+- [27:17] for me? Um, and so I leaned into that
+- [27:19] really hard. It
+- [27:20] >> it definitely sounds uh Ryan that that
+- [27:23] like this was a real sort of aha moment
+- [27:26] of where you kind of realized that, you
+- [27:28] know, LLMs are all about context, right?
+- [27:30] What you put into them. Uh, agents, the
+- [27:33] same sort of thing. and and notion
+- [27:36] sitting on this gold mine of context
+- [27:39] right that whether that's your personal
+- [27:41] notes in there whether like you you
+- [27:43] mentioned that you know the connectors
+- [27:44] to GitHub connectors to other things I
+- [27:47] how do you sort of like can you tell us
+- [27:49] a little bit about like was that you
+- [27:51] know a moment that you sort of realized
+- [27:52] that what were sort of the experiments
+- [27:55] that sort of showed oh we've got all
+- [27:57] this really good structured data in the
+- [28:00] blocks and stuff like that and perhaps
+- [28:02] unstructured data from other sources
+- [28:04] This this was a huge moment for us, you
+- [28:07] know, like like I mentioned, we were
+- [28:09] experimenting with like uh really
+- [28:11] advanced stuff like doing code
+- [28:13] generation and and all sorts of kind of
+- [28:15] wild things to help like automate
+- [28:17] workflows and whatever. And and that has
+- [28:19] essentially morphed into this like
+- [28:21] custom agent uh product that we
+- [28:23] previewed uh like a month ago. But what
+- [28:27] what was really really exciting for us
+- [28:30] is
+- [28:32] we realized that we could just like
+- [28:34] search and stuff all of this context
+- [28:37] into the prompt or like the the
+- [28:40] transcript that we're giving the model.
+- [28:42] And it was just really good at tool
+- [28:45] calling like based on that context. Um,
+- [28:48] and I think one of the like aha moments
+- [28:52] for us was when we realized we could get
+- [28:55] rid of a lot of like
+- [28:58] complicated modeling of our data. Um,
+- [29:03] and just like break things down into
+- [29:05] really simple terms for the model. And I
+- [29:07] I I'll give you a good example. um our
+- [29:10] prior version of notion AI that we
+- [29:12] called like the assistant um that lived
+- [29:14] in the bottom right corner. We'd
+- [29:16] experimented with uh fine-tuning model
+- [29:19] on top of frontier models. Uh we'd
+- [29:21] experimented with pretty complicated
+- [29:25] rendering of like data within notion
+- [29:28] like we would use JSON in some places
+- [29:30] and XML in some places and the models
+- [29:33] would like do fine. But anytime you're
+- [29:35] doing this like bespoke um structuring
+- [29:38] of data, you like have to include
+- [29:40] instructions about like what this is and
+- [29:42] you have to like explain it. And a key
+- [29:45] moment for us was we were trying to
+- [29:49] figure out how to represent like a page
+- [29:51] and page content which is this uh very
+- [29:54] complex tree of blocks. Um and like we
+- [29:59] had this moment we were like what if we
+- [30:01] just try to figure out how to present
+- [30:03] this as markdown like models are trained
+- [30:06] on lots and lots of markdown. We see all
+- [30:08] these uh tools and startups that can
+- [30:10] represent web pages as markdown. We're
+- [30:12] like, "What if we just represent a
+- [30:14] notion page as markdown?" And we played
+- [30:17] with it and the models were like so good
+- [30:21] and we had like no instructions because
+- [30:24] all of that context and reasoning about
+- [30:26] what Markdown is and how to read it, how
+- [30:28] to understand it, and then most
+- [30:30] importantly like how to edit it is like
+- [30:33] all baked in. And we had this moment
+- [30:36] where we're like, "Oh, we should just
+- [30:40] use the models how they were like meant
+- [30:42] to be used." Like it's almost like these
+- [30:45] native capabilities are built into them.
+- [30:49] And so then we ended up like rewriting a
+- [30:51] lot of our systems to be like to the
+- [30:54] model incredibly stupid like markdown
+- [30:57] JSON and that's like about it. Like
+- [31:00] let's not over complicate this. The hard
+- [31:03] part then came to that like middleware
+- [31:06] layer where like how do you actually
+- [31:08] represent a very complex
+- [31:11] um page block tree as markdown and then
+- [31:14] on like the flip side of that, how do
+- [31:17] you let the agent write changes to a
+- [31:20] like markdown file and then translate
+- [31:23] that to the very complicated like block
+- [31:25] structure um within notion. And that's
+- [31:27] like honestly where a majority of our
+- [31:30] work went is like that sort of
+- [31:32] translation layer. Um moving in in and
+- [31:36] out.
+- [31:36] >> Do you look at that as the secret
+- [31:38] source? Like it sounds really
+- [31:39] interesting that once you kind of
+- [31:41] realize that oh we've been trying to
+- [31:43] force the model to do something it
+- [31:44] didn't want to do but once we realized
+- [31:46] we got markdown it's just happy to go
+- [31:49] along with it. is then the secret source
+- [31:52] actually you sort of writing those
+- [31:54] passes those sort of systems to be able
+- [31:57] to go from markdown back to the blocks
+- [31:59] and I will sort of say I I've actually
+- [32:02] written some code of writing blocks and
+- [32:04] it was a real pain a couple years ago
+- [32:05] when I did it so I can sort of relate to
+- [32:08] that you know quite a lot but is that
+- [32:11] something that you sort of see as the
+- [32:12] secret source of this sort of
+- [32:14] intermediate middleware kind of thing?
+- [32:18] >> I I think so. I I think that,
+- [32:22] you know, a another a really important
+- [32:26] learning from all of this is that
+- [32:30] we as human beings like I look I look at
+- [32:33] notion and I don't see blocks and tree
+- [32:37] structures and all of this stuff. I just
+- [32:39] see words on a page. And so for me to
+- [32:42] effectively communicate with an LM about
+- [32:45] that content, the the model needs to
+- [32:47] like I'm air quoting see it needs to see
+- [32:51] that content almost the same way that I
+- [32:52] can see it. So that when I say rewrite
+- [32:55] this paragraph or like change these uh
+- [32:58] bulleted lists to like numbered lists,
+- [33:00] it's incredibly
+- [33:02] obvious to the model like what I'm
+- [33:04] talking about and like what my intent
+- [33:06] is. Um, and so I I do think that this
+- [33:09] sort of
+- [33:12] representing Notion in a like LLM native
+- [33:15] way like is kind of the secret sauce to
+- [33:18] what makes notion AI really good. I also
+- [33:20] think it's why like uh coding agents are
+- [33:22] so good is because they're just working
+- [33:24] with like the file system. Like here is
+- [33:26] a text file essentially and like the
+- [33:30] model has tools to interact like read
+- [33:33] the text file, search for text files and
+- [33:35] make changes to text files. You don't
+- [33:37] you don't want to over instruct a model
+- [33:40] about like here's what to do when the
+- [33:42] file is Python, here's what to do when
+- [33:44] the file is TypeScript because the more
+- [33:46] detail and the more instruction, the
+- [33:48] more uh chance for confusion and error.
+- [33:51] Um, so yeah, we spend we spend an
+- [33:53] enormous amount of time just trying to
+- [33:55] keep our instructions and our
+- [33:56] representation of notion data as simple
+- [33:59] as possible.
+- [34:01] >> So, so Brian, it makes a lot of sense
+- [34:04] this this aha moment where okay, so
+- [34:06] everything's in in markdown. So you have
+- [34:09] these trees of markdown.
+- [34:12] where I'd go next and maybe for our
+- [34:14] listeners is they're probably thinking,
+- [34:15] okay, well, you just have a a giant rag
+- [34:17] against that or, you know, maybe the
+- [34:20] models have have a certain amount of
+- [34:22] context window
+- [34:24] to allow that. But what happens when you
+- [34:26] do have extremely large amounts of of
+- [34:30] data, you have access to all these
+- [34:32] files. I mean, this is obviously notion
+- [34:34] strength. You have connectors
+- [34:36] everywhere. Maybe this takes us to the
+- [34:37] tools uh question in terms of how how
+- [34:42] you do that. Can can you walk us through
+- [34:44] a little bit more of that secret sauce?
+- [34:47] >> Yeah, it it is hard. Um and I will admit
+- [34:50] we've not like perfected it. Um there
+- [34:53] there are cases where you can load tons
+- [34:55] and tons of content into your context
+- [34:58] window and the model will struggle. Um,
+- [35:01] you know, the more context that you put
+- [35:04] into
+- [35:06] the context window, we we do see a
+- [35:08] degradation in like performance, both
+- [35:10] like raw like latency, but also like
+- [35:13] accuracy. Um, it's sort of like you end
+- [35:15] up with like a needle in a haststack
+- [35:17] problem and we observe that. So, a
+- [35:20] couple things that we do, uh, we keep
+- [35:23] the context like the basic thing is just
+- [35:25] keep the context as minimal as possible.
+- [35:26] like don't put stuff in the context
+- [35:28] window unless essentially the users
+- [35:30] explicitly ask for it to be there. Um
+- [35:33] and then we do things like on the search
+- [35:37] side uh you know within like the
+- [35:40] internal notion workspace there's just
+- [35:42] like an enormous amount of data and so
+- [35:45] if I were to ask what's the New York
+- [35:47] Wi-Fi password I could get like
+- [35:50] megabytes of content like if I were to
+- [35:52] do just like really really basic search.
+- [35:55] So our search infrastructure is very
+- [35:57] smart. Um we do that vector search, we
+- [36:01] rerank things and then we have like a
+- [36:04] cut off point and then we'll only return
+- [36:05] that content and then we can summarize
+- [36:07] that content with another LLM so that
+- [36:10] only the necessary information that was
+- [36:12] asked for is presented as context. Um
+- [36:15] and then another thing that we do is
+- [36:17] regularly like compact or compress your
+- [36:20] transcript. So if you're ever conversing
+- [36:22] with your your agent and we start
+- [36:26] busting the context window, we can start
+- [36:28] kind of chunking and compressing um
+- [36:31] older parts of your transcript which
+- [36:33] which is itself is sometimes errorprone
+- [36:36] like that's like a lossy thing. We're
+- [36:38] essentially like doing a a lossy
+- [36:42] compression of your past convers
+- [36:44] conversation and so sometimes that
+- [36:45] doesn't work as well and and that's
+- [36:47] something we're trying to improve now.
+- [36:48] what what what's the sweet spot on like
+- [36:51] so you know just to get into some
+- [36:53] specifics I what's sort of a what do you
+- [36:56] see we know that context when you know
+- [36:58] can go out to hundreds of thousands if
+- [37:00] not millions of tokens now what do you
+- [37:03] guys see as like this is the sweet spot
+- [37:05] where we're putting enough context in
+- [37:07] there versus we're not over stuffing it
+- [37:10] and also costing you a lot of money
+- [37:12] right
+- [37:15] we see probably probably in the 100 to
+- [37:20] 150,000 token limit is like kind of the
+- [37:24] sweet spot, right? I I I mean I would
+- [37:26] say less context is better. Um like we
+- [37:30] don't want to just fill it up with
+- [37:32] fluff. Um and we we do actively try to
+- [37:35] avoid that, but we we've borrowed this
+- [37:39] concept that we see in other like
+- [37:41] especially like coding tools where you
+- [37:43] can like add add context like manually.
+- [37:46] Um, and so using this in notion feels
+- [37:49] pretty natural. You can just like
+- [37:50] appment mention a page, a database, a
+- [37:53] person, um, or whatever. Or you could
+- [37:55] even just like drop in links, um, to
+- [37:57] things that are on the web. And then the
+- [37:59] agent will then pull in whatever that
+- [38:02] content is as context. Um, but for
+- [38:04] example, with things like databases, you
+- [38:07] could have a database with like 100,000
+- [38:09] pages in it, and we would not want to
+- [38:11] put that into the context window because
+- [38:13] it's going to be giant. um it's going to
+- [38:15] nerf the models like next respon next
+- [38:18] response. So we'll do things like
+- [38:21] present the like highle view of the
+- [38:24] database and some metadata about it like
+- [38:27] here's the the columns that they have
+- [38:30] and then here's maybe like the first
+- [38:31] three pages that we see and then we have
+- [38:35] um probably one of our most important
+- [38:37] tools is our like view tool where you
+- [38:40] can view the database, you can view
+- [38:43] pages within the database and so we'll
+- [38:45] present like the database to the agent
+- [38:47] and be like here's just some snippets
+- [38:50] about like what's in it and there's
+- [38:51] maybe 10,000 pages in it and here's the
+- [38:55] tools that you can use to like query it
+- [38:57] or view more things into it. And so we
+- [39:00] give the agent essentially these tools
+- [39:02] that if it wants to dig deeper and
+- [39:04] deeper it can um but we don't like
+- [39:07] present too much information up front
+- [39:09] where it like gets confused.
+- [39:12] Ryan, you you started talking about
+- [39:14] tools and wondering how much how much of
+- [39:18] that is a key part of this when Sam and
+- [39:21] I have been talking with with a number
+- [39:22] of other companies um you know big you
+- [39:26] know large enterprise companies pretty
+- [39:27] sophisticated
+- [39:29] um domain areas whether it's in banking
+- [39:32] or or health or legal right Lexus Nexus
+- [39:37] but we we there's a lot of domain
+- [39:39] expertise and so they tend to get into
+- [39:42] training models, fine-tuning models,
+- [39:44] having, you know, uh, teacher student
+- [39:48] uh, relationships, a lot of pretty
+- [39:50] sophisticated stuff. Sounds like you
+- [39:52] you've kind of
+- [39:53] >> decided not to go down that path,
+- [39:56] >> but really have the models reasoning
+- [39:58] over as much data as possible and then
+- [40:00] working with things like tools. Is it is
+- [40:03] is that right? Would you would you would
+- [40:05] you agree with that? Maybe can you can
+- [40:07] you provide some context around how
+- [40:08] important the tool side is? That's
+- [40:11] exactly right. Um the tools are
+- [40:14] essentially what makes the notion agent
+- [40:18] what it is. Um the entire the entire
+- [40:23] loop of our agent is we give it some
+- [40:26] basic um documentation essentially about
+- [40:29] what notion is um and what the user is
+- [40:32] currently doing. So, we include like
+- [40:34] what page you're on so that if somebody
+- [40:36] was like, um, fix my typos in this page,
+- [40:40] the agent will know what like this page
+- [40:43] is. Um, and then we just give it a list
+- [40:47] of tools uh with instructions and
+- [40:50] documentation and we let it rip. We just
+- [40:53] let it pick the tools that it thinks is
+- [40:55] most appropriate. And our engineering
+- [40:58] team um spends a lot of time trying to
+- [41:02] keep these tools as simple as possible.
+- [41:05] Um cuz again if we were to
+- [41:08] you know in the the MCP world you might
+- [41:11] have like thousands of tools and modules
+- [41:14] and things and the agent has to like
+- [41:16] search through all of that stuff and
+- [41:18] pick the most effective one. Um, and so
+- [41:20] we're trying to be really careful about
+- [41:22] every new tool or even new like tool
+- [41:25] input or parameter that like it's as
+- [41:28] minimal and as clear as possible. Like
+- [41:32] for example, we never want to have like
+- [41:34] overlapping purpose that I could create
+- [41:37] a database say um with three different
+- [41:41] tools because then the agent has to like
+- [41:43] reason about like okay well I'm on a
+- [41:45] page should I create a database over
+- [41:47] here and then move it? should I create a
+- [41:49] database in line and then like set it up
+- [41:51] like those can just really confuse it.
+- [41:53] Um and in the cases that we do have sort
+- [41:56] of like overlapping um functionality we
+- [41:59] then like provide instructions about uh
+- [42:02] in this scenario you would prefer this
+- [42:04] one. These are kind of like fshot
+- [42:06] examples. In this example you would use
+- [42:08] this tool. In this example you would use
+- [42:10] that tool. Um just to give it a couple
+- [42:12] hints about how to use these things. So,
+- [42:15] so I'm really curious on that, right?
+- [42:17] That we're coming up on the sort of one
+- [42:19] year first birthday of MCP, right? As
+- [42:23] we're recording this now, it's just
+- [42:24] around the corner. I you Notion was one
+- [42:27] of the companies that jumped into MCP
+- [42:29] very early. I you know, and and made not
+- [42:32] only were people sort of making
+- [42:34] third-party uh you know, MCPs, but
+- [42:36] Notion themselves decided to make the
+- [42:38] MCP. Um and I use it with the Claude
+- [42:41] app. I I love that. I I'm really
+- [42:43] curious. Did that give you a lot of
+- [42:46] lessons that you then sort of took into
+- [42:50] uh you know building out these agents
+- [42:52] internally and then also how how much do
+- [42:55] your internal tools match what is sort
+- [42:57] of you know you're exposing as an
+- [42:59] external MCP?
+- [43:02] Yeah, we the the fun fact is that like
+- [43:05] every tool almost every tool in our MCP
+- [43:08] uh uses the same tool like almost
+- [43:11] literally the same tools that our notion
+- [43:13] AI uses. Um I I think our MCP also has
+- [43:19] it does more basically than our like
+- [43:22] internal notion AI does. Can do more
+- [43:24] things with like uh comments and stuff.
+- [43:26] Um but all like the core tools the
+- [43:28] things that you can do with databases
+- [43:30] and pages it's all it's all shared. Um
+- [43:34] and there was a lot of did you learn
+- [43:36] from like watching what everyone was use
+- [43:38] like what were the was the most popular
+- [43:40] MCP uh you know sort of tool or function
+- [43:43] in there and did did that sort of
+- [43:45] dictate or at least help in designing
+- [43:47] the actual notion 3.0 agents?
+- [43:51] >> Um it it did and it didn't. uh we
+- [43:56] the audience for like our notion AI and
+- [43:59] then our notion MCP uh isn't like
+- [44:04] perfectly overlapped like MCP is is a
+- [44:06] more technical tool like it is you
+- [44:10] really I mean one you need to know what
+- [44:11] MCP is uh I could not describe to my mom
+- [44:14] what MCP is so you like
+- [44:16] >> you've already kind of like split your
+- [44:19] your audience um on MCP so like that was
+- [44:22] one thing uh we were deliberating with
+- [44:26] like notion AI is like maybe this should
+- [44:28] just be MCP um but I think that the
+- [44:31] barrier to entry there is a little
+- [44:34] steeper um and there's a lot of people
+- [44:36] there's students you know there's my mom
+- [44:39] there's like there's people that use
+- [44:41] notion that don't want to have to think
+- [44:43] about like the setup and the
+- [44:45] configuration um and then there's power
+- [44:47] users uh you know I I use it with cloud
+- [44:50] code and and codecs myself like the
+- [44:51] notion MCP and it's like phenomenal
+- [44:54] Um, but we need to build like a product
+- [44:57] that can work for like the everyday
+- [45:00] Notion user as well. And so we did keep
+- [45:04] that in mind. And I think what was great
+- [45:05] is we saw what worked really well on the
+- [45:08] Notion MCP and we adopted some of those
+- [45:10] best practices. And then like um I was
+- [45:13] talking about the page and markdown
+- [45:15] stuff with our Notion AI. We we were
+- [45:18] able to innovate on that front and then
+- [45:20] share that back to the Notion MCP. um
+- [45:23] and then make the Notion MCP better. And
+- [45:25] so our our teams uh that work on Notion
+- [45:28] AI and the Notion MCP, we collaborate
+- [45:30] pretty tightly um and are constantly
+- [45:33] sharing things that we're learning back
+- [45:35] and forth um about like what people want
+- [45:38] from these different products uh and how
+- [45:40] they're using them, what works well,
+- [45:41] what doesn't work well. This series is
+- [45:44] presented by Outshift, Cisco's emerging
+- [45:46] tech incubation engine and driver of the
+- [45:49] internet of agents, an open
+- [45:52] interoperable internet for
+- [45:53] agent-to-agent collaboration. Learn more
+- [45:56] about the internet of agents and explore
+- [45:58] how Agentic systems are the future at
+- [46:01] outshift.isco.com.
+- [46:05] Ryan. So, so again, so you joined in
+- [46:07] January and led what you called this
+- [46:10] scrappy tiger team to build this agent.
+- [46:13] Um, you know, and maybe we could come
+- [46:15] back to MCP here, but um, you know,
+- [46:18] going back,
+- [46:20] >> how did you iterate and go from
+- [46:23] exploration to finding that internal
+- [46:26] product market fit
+- [46:27] >> where where people couldn't stop using
+- [46:29] the tool?
+- [46:30] >> Um, even you know, even when it was
+- [46:33] buggy. uh you know and it sounded like
+- [46:35] it was internal first and I want to get
+- [46:37] to then maybe some data points about how
+- [46:39] it was used externally and maybe you
+- [46:42] know h how people are using the MCP but
+- [46:44] can you talk a little bit about that
+- [46:46] product market fit?
+- [46:48] We almost have this like unspoken rule
+- [46:50] about product development here that um
+- [46:54] you know we're we're big users of like
+- [46:56] internal features, you know, like dog
+- [46:58] fooding. Um and anytime we have an idea
+- [47:02] or a feature that is exciting,
+- [47:06] we have to convince ourselves first. Um
+- [47:10] we don't want to just go out to users
+- [47:12] with some half-baked idea and like run
+- [47:14] an AB test and then like look at the
+- [47:16] data. Um, I think there's other like
+- [47:20] products that that works for, but here
+- [47:22] at Notion, we're like we're pretty
+- [47:24] design focused. Uh, we are very critical
+- [47:28] of our own product. And so we really
+- [47:31] need to like be have conviction that the
+- [47:34] thing um is good before we start
+- [47:36] releasing it. And so when we were
+- [47:38] working on notion AI um like when I
+- [47:42] first joined we were doing all this sort
+- [47:43] of more advanced very technical stuff
+- [47:46] and we were finding it hard to get like
+- [47:48] product market fit internally. We found
+- [47:50] sparks of it. We found some people that
+- [47:52] were like super fans of what we were
+- [47:53] working on. Um and then for a lot of
+- [47:56] people they were just like man this is
+- [47:58] this is really complicated. It's really
+- [48:00] slow. Sometimes it works. uh when it
+- [48:03] breaks I'm like stuck and I'm like
+- [48:06] having to look at like generated code
+- [48:08] and like I I can't do that. Like I don't
+- [48:10] write code. And then people were just
+- [48:13] like, you know, kind of hitting like
+- [48:14] dead ends and we were like that's not a
+- [48:16] good sign. And so we did a couple revs
+- [48:21] on the way it worked and we found like
+- [48:25] an early version of this like aentic
+- [48:27] loop and when we shipped it internally
+- [48:29] all of a sudden all these people who
+- [48:31] were like maybe on the fence about like
+- [48:34] changing all the the AI features were
+- [48:38] like oh I I need this like I need this
+- [48:41] to work and like honestly because like
+- [48:44] we're so prototypy like it was very hack
+- [48:46] act together. It was slow. It was buggy.
+- [48:49] And like the moment for us was when we
+- [48:52] started getting all these bug reports.
+- [48:55] And it's like not good that we had like
+- [48:58] bugs and like things we needed to
+- [48:59] improve, but the volume of people who
+- [49:02] were like, "Oh, I need this fixed so
+- [49:05] that I can like um you know, do like do
+- [49:09] more revisions on my um product review
+- [49:12] or like people were just like coming to
+- [49:15] us and it's that feeling of of when the
+- [49:18] product is like being pulled out of you
+- [49:21] rather than you trying to like push what
+- [49:23] the product should be. And like people
+- [49:25] were just coming and saying like, "Oh,
+- [49:27] the uh agent is not good at using this
+- [49:30] block type or I wish it could like do
+- [49:33] more advanced querying on the database
+- [49:35] or the search results aren't like super
+- [49:37] accurate." Um like one one example of
+- [49:40] this near like the last mile of us
+- [49:43] shipping the agent is we had an engineer
+- [49:46] who was like, "I really wish I could
+- [49:48] like customize
+- [49:50] my own agent." And he had this idea
+- [49:54] where he was like, "What if we already
+- [49:56] have pages within notion? What if I just
+- [50:00] like made a dedicated page that is like
+- [50:03] the quote unquote personality of my
+- [50:06] agent?" And he just like built it,
+- [50:08] hacked it together, and like I I will
+- [50:11] admit I like used this or like I I saw
+- [50:14] us talking about it and I was like, "Ah,
+- [50:16] I don't know. Seems like kind of like a
+- [50:17] scrappy idea." And then I like used the
+- [50:20] early prototype and I was like, "Oh my
+- [50:22] god, this is so cool." I could influence
+- [50:25] the style and the tone. I could even put
+- [50:27] in like little snippets that's like when
+- [50:29] I ask you to do X, you do Y. And then
+- [50:32] all of a sudden, I'm like in my agent
+- [50:33] and without like any other keystrokes, I
+- [50:35] can be like do X and it just like does
+- [50:38] Y. And then it was like, oh my god, this
+- [50:41] is this is very cool. And it like
+- [50:43] unlocks this like possibility. But like
+- [50:45] yeah for for us we really we found that
+- [50:48] spark and then we went through the
+- [50:49] traditional
+- [50:51] um like product development where we
+- [50:53] brought in some like early adopters and
+- [50:55] asking for feedback and working really
+- [50:57] tightly with them and making sure that
+- [50:59] the the agent was solving problems for
+- [51:01] them. And the more and more we expanded
+- [51:03] our testing the more people were like
+- [51:04] just pulling the product out of us. Um
+- [51:07] and we knew like from that moment really
+- [51:10] early on that we like had something. Um,
+- [51:13] and and to be honest, I like I do not
+- [51:16] know
+- [51:18] how I would ever use notion like without
+- [51:20] this feature. And that's like me being
+- [51:22] like a user. And and that is to me like
+- [51:25] the most important thing is that I am
+- [51:27] like fully convinced that this is like a
+- [51:30] a worthwhile thing to build.
+- [51:33] >> Yeah. Ryan is is there uh it's sounds
+- [51:36] like it was kind of a steady with very
+- [51:38] early realization realization that there
+- [51:40] was some traction right as you mentioned
+- [51:43] um I think eval are very important
+- [51:46] >> a lot of companies talk about the
+- [51:48] importance of eval right for their
+- [51:50] specific domain hey what do the
+- [51:53] benchmarks say what you know what are
+- [51:56] the metrics say but you're saying hey
+- [51:58] dog fooding was essentially a big part
+- [52:00] of your evals actually the vibe I've you
+- [52:03] know this the sorts of things that
+- [52:05] you're you're doing personally this
+- [52:07] engineer that you refer to was uh that
+- [52:09] that that did this crazy thing um that
+- [52:12] then became super cool was was was it
+- [52:16] pretty much kind of the steady
+- [52:17] acceleration or was there any I guess
+- [52:19] I'm curious if it was any single
+- [52:22] particular breakthrough on on that um
+- [52:26] that tra trajectory that you know
+- [52:28] looking back um you you can point to as
+- [52:31] as as a real breakthrough. through
+- [52:33] through those bugs, through those
+- [52:34] issues.
+- [52:36] >> I I think it was really the um
+- [52:40] like the markdown stuff. Uh when we
+- [52:44] shipped that internally, it just the
+- [52:47] writing the the way the model could
+- [52:49] write got so much better. Um not only
+- [52:53] just like write but like reason. Uh it
+- [52:56] was just so much so much simpler um for
+- [52:59] the model to be able to work. And then I
+- [53:01] think maybe also our like uh our web
+- [53:05] tooling um being able to like fetch
+- [53:07] contents of a website, search the
+- [53:09] internet um and just kind of like seeing
+- [53:13] all of those pieces come together and
+- [53:15] may maybe like a really good example is
+- [53:18] when we had one of our first moments
+- [53:20] where we saw the agent effectively chain
+- [53:23] all of these tool calls together. So to
+- [53:26] be able to like read the current page
+- [53:27] that I'm on um go and search the
+- [53:31] internet uh for you know some subject
+- [53:33] that I'm that I'm maybe I'm researching
+- [53:36] something and then say like create a
+- [53:38] database fill out all the properties
+- [53:41] create views and then populate the
+- [53:43] database like essentially in one shot
+- [53:45] you know being able to ask it like read
+- [53:46] this page do some research on the
+- [53:48] internet and then set up like a task
+- [53:51] board for me to like work on and just
+- [53:53] seeing it like scaffold hold all of that
+- [53:56] and get it set up for you without you
+- [53:58] like having to do all this work bouncing
+- [54:01] between context tools um and whatever
+- [54:04] was Yeah, it was just kind of like
+- [54:06] mind-blowing at first.
+- [54:08] >> Ryan, I'm really curious. Okay, so you
+- [54:10] get this product market fit moment and
+- [54:12] my guess is that you've also already
+- [54:14] sort of seen that in your career at
+- [54:16] Instagram with certain features or
+- [54:18] things like that, right? So it becomes
+- [54:20] really clear like you talked about
+- [54:22] suddenly people are pulling the product
+- [54:23] out of you rather than you trying to
+- [54:25] push it onto them. Um where do you go
+- [54:28] from here with that? So clearly you've
+- [54:30] got something that's working really
+- [54:32] well. My guess is you're now being
+- [54:34] bombarded with like you know 500 things
+- [54:37] of people saying hey but I also want X
+- [54:40] and Y and Z and you know all these sorts
+- [54:43] of things. How do you sort of how do you
+- [54:45] sort of clarify that you know like the
+- [54:48] the whole sort of curation aspect of
+- [54:51] sort of saying yeah no no no okay we're
+- [54:53] just going to focus on this or we're
+- [54:54] just going to nail these key features
+- [54:59] that is incredibly challenging um
+- [55:02] because yeah we have uh a really diverse
+- [55:06] population of users from like I was
+- [55:09] saying from students to parents uh
+- [55:12] people running their home office or like
+- [55:15] a church on notion to Fortune 500
+- [55:18] companies um that are running uh their
+- [55:22] projects and knowledge base and whatnot
+- [55:24] on notion. Um and so that is hard to
+- [55:28] figure out like what to do because
+- [55:29] you've got the the requests from those
+- [55:31] different um levels of customer are are
+- [55:34] wildly different. Um so we have to do a
+- [55:38] little bit of constant like rep
+- [55:40] prioritizing uh within there. Um and
+- [55:43] then internally we have ideas uh things
+- [55:46] that we want to try, things that we want
+- [55:48] to experiment and we certainly don't
+- [55:51] want to ignore innovation. You know, one
+- [55:54] thing that we're constantly doing, we
+- [55:56] have a a group of folks here who are on
+- [55:59] like the bleeding edge of AI research um
+- [56:02] and technology. constantly following
+- [56:04] what the frontier labs are doing and
+- [56:06] releasing and talking about so that we
+- [56:08] are prepared uh when new ideas and new
+- [56:12] paradigms come around. We don't want to
+- [56:15] be left behind. We want to take
+- [56:17] advantage of new things and at least try
+- [56:19] them and see how it fits within notion.
+- [56:21] We also have to listen to our customers
+- [56:23] um and figure out what they need. Uh but
+- [56:27] it is a challenge. I mean, one of the
+- [56:29] things that we're trying to be really
+- [56:30] careful about is like,
+- [56:33] you know what what's the saying that if
+- [56:35] all you have is a hammer, everything
+- [56:37] looks like a nail or whatever. And when
+- [56:40] people ask for new features, it's like,
+- [56:42] boy, we could just like add a tool to
+- [56:45] the model or to our agent and let it do
+- [56:47] that. Um, and that to me is a little bit
+- [56:51] of a slippery slope because the more
+- [56:53] tools that we add, the more decisions
+- [56:56] and the more options um, the model has
+- [56:59] to make. I mean, it's just the same way
+- [57:01] as like us. Like when I go to a
+- [57:03] restaurant, one of my biggest pet peeves
+- [57:05] is when I go to like a restaurant and
+- [57:07] they give me like the Cheesecake Factory
+- [57:09] menu where it's like, here's 20 pages of
+- [57:11] like food that you could order. And I'm
+- [57:13] like gh what do I what do I actually
+- [57:16] want? My ideal is like I go to a place
+- [57:18] and it's like here's four dishes and you
+- [57:20] get to pick. They're all excellent, but
+- [57:21] you have to pick between those four. And
+- [57:23] I'm like perfect. I know I will have a
+- [57:25] great time. So that's like the way we
+- [57:27] want to design our tools is like we want
+- [57:28] the uh the very like uh curated menu. Um
+- [57:33] so we have to be really careful of that.
+- [57:34] But we also, you know, don't want to
+- [57:35] limit the functionality of the agent. Um
+- [57:38] like something we're working on right
+- [57:39] now, we just released the ability for
+- [57:41] the agent to read comments that are
+- [57:43] within pages or or databases. um which
+- [57:46] we didn't launch with initially and it
+- [57:49] was probably our most requested feature
+- [57:51] and so that one made sense because so
+- [57:53] many people were asking for it that that
+- [57:55] pull of the product. Um but then it
+- [57:58] comes to other more like nuance stuff
+- [57:59] and perhaps it's a job better suited for
+- [58:03] MCP. Um, so if there's a more technical
+- [58:06] advanced feature that people need, maybe
+- [58:08] we can like folks on our support team
+- [58:11] can work with that customer to figure
+- [58:13] out how to solve their problem without
+- [58:15] necessarily adding a tool. Um, I will
+- [58:18] say like currently our biggest focus is
+- [58:22] like reliability and performance. Um,
+- [58:26] notion is a very complicated
+- [58:29] uh uh the like structure in blocks and
+- [58:32] databases. It's very complicated for the
+- [58:34] agent. So we have to give the agent lots
+- [58:36] of instructions and lots of
+- [58:38] documentation. We have to uh we we have
+- [58:41] like different models have like
+- [58:44] different layers or levels of like
+- [58:46] thinking that you can give it. And we're
+- [58:48] on like the higher level of reasoning
+- [58:50] and thinking whenever we're calling
+- [58:52] OpenAI or anthropic and that can feel
+- [58:54] slow sometimes when you're just like fix
+- [58:57] this typo and it's sitting there for
+- [58:59] like 10 seconds like thinking about how
+- [59:01] to do that. So, we're trying to figure
+- [59:03] out ways to make this feel a lot
+- [59:05] snappier, a lot lighter. Um, and then
+- [59:08] and then we're also working on custom
+- [59:10] agents, um, which is not fully shipped
+- [59:13] yet, but that is also built on our
+- [59:15] entire agentic loop. And so, making sure
+- [59:18] that that works, that's performant. Um,
+- [59:21] that that is a whole other suite of um
+- [59:25] complexities and things to to worry
+- [59:27] about. Um, but it's showing immense
+- [59:29] promise.
+- [59:31] Yeah, Ryan, the the reliance on on tools
+- [59:34] is a big one, and I'm thinking about our
+- [59:36] listeners here who are probably thinking
+- [59:38] through, okay, how best to do it. I
+- [59:40] could definitely relate to the confusion
+- [59:42] that we we keep hearing that agents have
+- [59:44] with a long list of tools. Um,
+- [59:48] you know, I I you know, some there's
+- [59:50] there's a a Mediterranean place in not
+- [59:53] far where where you know, I can walk in
+- [59:54] and okay, you got to choose the protein,
+- [59:56] you got to choose the carb, you got to
+- [59:57] choose this. Or you don't have to do
+- [59:59] that choosing. you could do this or you
+- [60:01] could do that and it's like um and and
+- [60:03] so I think agents are going to be
+- [60:06] smarter than probably me but but you
+- [60:08] still have that confusion. So, so, so
+- [60:09] I'm wondering
+- [60:11] are you talked about performance being a
+- [60:13] big one in terms of ranking
+- [60:16] >> I I think on on on the tool side what
+- [60:18] tools you use. You can't just add
+- [60:20] another tool. Can you talk a little bit
+- [60:22] about maybe what tools
+- [60:24] >> are emerging
+- [60:26] as as big ones or what what bucket tools
+- [60:29] are emerging or what classification or
+- [60:32] other practices are big?
+- [60:36] >> Yeah. Um,
+- [60:40] our our page tool is still probably like
+- [60:43] the most used um to both like read and
+- [60:46] write to pages. Uh, and because notion
+- [60:49] has I can't remember how many like
+- [60:51] different block types we have, but it's
+- [60:52] like it's so many. It's like over a
+- [60:55] hundred I think. Um, each of those tools
+- [60:58] has to be like hand maintained on like
+- [61:01] how we represent it to the model and
+- [61:03] then how the model can like write back
+- [61:05] to it. Um, so that's hard. We we got to
+- [61:07] go through the laundry list of all these
+- [61:09] things and make sure they work. Um, so
+- [61:11] we spend a lot of time doing that
+- [61:12] because it's like the most used tool.
+- [61:15] Um, and then we have our databases that
+- [61:18] uh we allow people to query them uh
+- [61:21] generate them. They can um add views to
+- [61:24] them. Um, and our views can be pretty
+- [61:27] complicated. If you've ever been in like
+- [61:29] uh chart views options in notion,
+- [61:31] there's all the different um types of
+- [61:34] charts that you can display and then the
+- [61:36] colors and the formatting um things that
+- [61:38] you show and don't show. We want to
+- [61:40] represent all of that to the agent um
+- [61:43] reasonably so that it can like work with
+- [61:44] that. Um so we go yeah we spend a lot of
+- [61:47] time just kind of doing the like here's
+- [61:49] all the things that you can do in
+- [61:50] notion. Let's make sure that the agent
+- [61:52] can do it reasonably well. And then sort
+- [61:56] of like finding the balance of like if
+- [61:59] we let it do too much, it's like more
+- [62:01] mistakes that it can make. It's more
+- [62:03] confused that it can get. So we have to
+- [62:05] be like pretty careful of that. So I I'm
+- [62:08] I'm really kind of curious. Right.
+- [62:10] you're you you've got all these you've
+- [62:12] got these in-house sort of tools and
+- [62:14] stuff like that that you're building yet
+- [62:17] you're you're using uh these you know
+- [62:20] models from anthropic from open AI and
+- [62:23] stuff like that at the same time they
+- [62:26] are kind of looking at all these
+- [62:27] products like notion and thinking like
+- [62:30] oh we could also have that tool we could
+- [62:32] also do that kind of thing so you've
+- [62:34] really got this kind of friendnemy thing
+- [62:36] right where you're you're kind of
+- [62:38] friends with them on one sense, but did
+- [62:42] you, you know, you got to feel at times
+- [62:43] like that you've got a target on your
+- [62:45] back that perhaps, you know, Anthropic
+- [62:48] wants to come after the enterprise area
+- [62:50] of notion. Uh, you know, OpenAI wants to
+- [62:53] come after the consumer side of that.
+- [62:55] How do you guys think about that?
+- [62:58] >> We have we have I I'll start by saying
+- [63:00] we have really great relationships with
+- [63:02] with the um the Frontier Labs. Um yeah,
+- [63:06] they do look to us as like product
+- [63:08] people. Um and then obviously we look to
+- [63:11] them as like the AI experts. Um you know
+- [63:14] I see both anthropic and open AI are are
+- [63:17] innovating on the product side alongside
+- [63:18] their models and um building things in
+- [63:22] the B2B space, the consumer space uh and
+- [63:25] whatnot. And I think that we don't
+- [63:29] necessarily want to go toe-to-toe with
+- [63:32] these huge labs. I mean they're
+- [63:33] extremely talented. They're wellunded.
+- [63:36] Um we believe our unique
+- [63:40] value is this collaborative space. Um
+- [63:45] this is in the like soul of notion and
+- [63:47] it's how notion works. Um and so that is
+- [63:52] I think what we are leaning into the
+- [63:53] most. You know we do not want like we're
+- [63:56] not going to build a notion version of
+- [63:57] like chat GPT. Um that doesn't really
+- [64:00] make a whole lot of sense. We want
+- [64:01] notion AI to be like our our our
+- [64:05] marketing um push is like that. These
+- [64:07] are teammates and we really want them to
+- [64:09] feel like teammates where um I can bring
+- [64:12] them into my workspace and either
+- [64:14] automate work or multitask things um or
+- [64:18] bring like expertise uh to a task um or
+- [64:22] to my work and less so the yeah like
+- [64:26] we're not going to make a notion
+- [64:28] generated video app or something um that
+- [64:31] wouldn't be too good. I guess more what
+- [64:33] I meant though was like do you feel the
+- [64:35] pressure to sort of develop your own
+- [64:37] secret source that is not model
+- [64:41] dependent that's sort of like stuff that
+- [64:44] they would have to think gee how are
+- [64:46] they doing that with our models we're
+- [64:48] not sure right kind of thing I you know
+- [64:51] like on one hand obviously they can you
+- [64:53] know sort of get a sense of what traffic
+- [64:55] is coming into their models I but it
+- [64:57] sounds like your whole middleware is
+- [64:59] really interesting in in that sort of
+- [65:00] sense and I'm curious just like do you
+- [65:03] you know is there an active conversation
+- [65:05] going on of like hey why don't we try
+- [65:08] and develop something that's you know
+- [65:09] really unique to us.
+- [65:12] Yeah, I that that is mostly how we
+- [65:16] approached this. Um like one thing, you
+- [65:19] know, it reminds me of of my time at
+- [65:22] Instagram.
+- [65:24] We were pretty weary to like vendor lock
+- [65:27] in. Um there there of course would be
+- [65:31] tools and products and APIs that would
+- [65:34] be Android specific and Apple specific
+- [65:37] and we would like to take advantage of
+- [65:38] those things but we would never want to
+- [65:42] build the core product around a single
+- [65:45] operating systems capability and the way
+- [65:48] that applies to notion is um
+- [65:52] I think the the different vendors have
+- [65:54] like their own kind of like here here's
+- [65:56] a good example like uh text replacement
+- [65:59] tools. um or they're now even coming out
+- [66:02] with like their own sort of like agentic
+- [66:03] tools and like we don't want to overfit
+- [66:08] to one like vendor's um API because uh
+- [66:13] that could change um the other vendor
+- [66:15] could come out with like a model that is
+- [66:17] like pretty exciting and we want to like
+- [66:19] experiment with that but if we've like
+- [66:21] overfitit for um you know the way one
+- [66:25] model behaves or a tool that it has
+- [66:27] we'll kind of end our like have cornered
+- [66:29] ourselves
+- [66:30] Um, and I think the other thing that
+- [66:33] we've learned over the last year is that
+- [66:36] like with all this like discovery that
+- [66:38] that the models work really well with
+- [66:40] Markdown, it's like we just kind of want
+- [66:42] to figure out and learn what these
+- [66:46] models are really good at and then
+- [66:48] figure out how to apply them to notion
+- [66:51] um and to the problems that our users
+- [66:53] have within notion and the way like the
+- [66:55] notion system works. Um, and so yeah,
+- [66:59] spending we spend almost all of our
+- [67:01] engineering effort on that middleware
+- [67:03] and you know our our AI like researchers
+- [67:06] and experts are the ones that are
+- [67:08] figuring out like oh this model is like
+- [67:10] now becoming really good at this new
+- [67:12] technology or this new technique and
+- [67:14] then we'll find a way to like apply that
+- [67:16] into notion and in a very like notion
+- [67:18] specific way. Do do you uh you know as
+- [67:21] you go through this do you sort of
+- [67:22] actively plot and plan that okay part of
+- [67:26] our agent will go for this model first
+- [67:28] then we'll go for another model. So we
+- [67:30] never let any vendor actually see the
+- [67:32] full sort of you know what's going on
+- [67:35] there.
+- [67:36] No, no, we're not. We're we're we're
+- [67:40] pretty open um both about like product
+- [67:43] and like what we're trying to do with
+- [67:46] the models because um the Frontier Labs
+- [67:48] are also trying to push the boundaries
+- [67:50] as well. Um and so we're frequently
+- [67:51] sharing like learnings about things that
+- [67:53] are working or not working. Um it really
+- [67:56] does feel like a rising tides lift all
+- [67:58] boats um sort of moment.
+- [68:01] >> So So Ryan, I I'm hearing you
+- [68:06] I I I want to follow up though on, you
+- [68:09] know, Sam Alman's been big about, hey,
+- [68:12] watch out. Don't don't develop in the
+- [68:15] road map of OpenAI because we're going
+- [68:17] to steamroll you, right? Don't build a
+- [68:21] rapper that can easily be wiped out by
+- [68:24] us. And when I saw them roll out OpenAI
+- [68:28] recently, you the apps in in ChatGpt,
+- [68:32] >> right? Now within my chat GPT feed, I
+- [68:35] can I can link to all these specialists,
+- [68:38] right? So and you noticed in their their
+- [68:40] launch, they have these specialist these
+- [68:43] domain experts. So So travel was a big
+- [68:44] one, right? Expedia, Booking.com, you
+- [68:47] could go straight to your your accounts
+- [68:49] from OpenAI and fiddle fiddle around
+- [68:51] there.
+- [68:52] >> Um
+- [68:53] >> for housing, you know, Zillow, uh
+- [68:56] Corsera, right? You you you could do
+- [68:59] banking. All those folks feel safe,
+- [69:02] right? The the those folks with the
+- [69:05] domain expertise, it's very different.
+- [69:07] Um book I I I think you you notion
+- [69:11] sounds like it's very dangerously in the
+- [69:14] road map recently and I'm not sure if
+- [69:16] it's obviously on purpose. I think this
+- [69:19] this stuff obviously came about
+- [69:21] relatively recently where Sam is is now
+- [69:23] talking more about being an assistant,
+- [69:26] right? He's talking about even a
+- [69:28] hardware device.
+- [69:29] And so maybe it wasn't by design, but it
+- [69:32] feels like it's becoming awfully close.
+- [69:35] Um, so are you sure you have something,
+- [69:37] you know, maybe I don't know if you can
+- [69:39] articulate what the differentiation is
+- [69:42] because it certainly feels like they
+- [69:43] have that connection tissue that they
+- [69:46] want to drive me anywhere. And you know,
+- [69:48] maybe second, I would just say, do you
+- [69:50] feel like OpenAI has provided a clear
+- [69:53] road map clear enough for folks like
+- [69:55] you? like what it and I'm just wondering
+- [69:58] what what what you're taking away from
+- [70:00] that.
+- [70:01] >> I definitely don't have any insight into
+- [70:04] OpenAI's roadmap. They launched new
+- [70:06] stuff that I'm like you were doing what
+- [70:09] uh all the time. Um which I think is
+- [70:11] cool. I I think it's very cool to watch.
+- [70:14] Um I I do think to me notions in a very
+- [70:21] sweet spot where like our expertise is
+- [70:27] the like multi-per
+- [70:29] real-time collaborative workspace. Um
+- [70:33] and I don't have a doubt in my mind that
+- [70:36] um other folks and and notion is not the
+- [70:38] only like multiplayer um B2B workspace
+- [70:42] app out there either. But I and I don't
+- [70:44] have any doubt in my mind that open or
+- [70:46] anthropic could build something could
+- [70:47] build something pretty great. Um but
+- [70:50] notion has over a decade of of uh
+- [70:53] experience in this space. Um and and not
+- [70:56] just
+- [70:58] on product and engineering but also like
+- [71:00] trust with companies and customers and
+- [71:03] users. Um and so we've developed quite a
+- [71:06] lot of expertise um in that. And you
+- [71:09] know we we don't necessarily want to
+- [71:11] like reframe
+- [71:13] notion as only AI like we to us we are
+- [71:18] using AI to like solve these
+- [71:21] collaborative issues for people. Um and
+- [71:24] so yeah I I don't think that I would see
+- [71:28] us ever going like toeto toe with open
+- [71:31] AAI. Um
+- [71:33] who knows this industry changes like
+- [71:36] every other day. I I'm kind of like
+- [71:38] chuckling because when you were talking
+- [71:40] about plans because we were recently
+- [71:42] having an internal conversation about
+- [71:44] like uh somebody asked me like what our
+- [71:46] AI team's roadmap is and I'm like I can
+- [71:49] tell you what we're doing until like
+- [71:50] Friday
+- [71:52] and that's like it uh and that's very
+- [71:54] much like by design because
+- [71:55] opportunities come up so fast new models
+- [71:58] drop um new prototypes show promise um
+- [72:02] new problems pop up with our
+- [72:04] infrastructure and so we're kind of like
+- [72:06] constantly ly pivoting and chasing um
+- [72:09] those new things. So yeah, it's like
+- [72:11] we're always kind of like on our heels
+- [72:13] and like ready to pivot and react.
+- [72:16] >> Ryan, it good point. Um is there one
+- [72:20] specific area you feel relatively
+- [72:22] confident that you just
+- [72:25] you you think you you have a dominant
+- [72:30] position in that's defensible
+- [72:33] in this overall area of context?
+- [72:36] I I think that our like search and
+- [72:39] connection is like world class. Um it is
+- [72:44] by far what I use Notion AI for. Um, I
+- [72:48] love being able to like write documents,
+- [72:50] edit documents, and manage databases,
+- [72:52] but on its own, I think it would be like
+- [72:56] a a nice feature, but when I can combine
+- [72:58] that with the context and retrieval that
+- [73:01] we've got um in addition to the like
+- [73:04] within notion, like the years and years
+- [73:06] of content and information from all of
+- [73:08] these different uh connections that we
+- [73:10] use like really sort of like um is the
+- [73:16] Yeah. the the the value to me like for
+- [73:19] example uh when I onboarded here it was
+- [73:22] like one of the best onboardings ever
+- [73:25] because instead of having to have an
+- [73:26] onboarding buddy that I'm like
+- [73:27] constantly peppering with questions I
+- [73:29] just am like asking notion AI how do I
+- [73:32] do this where do I find this or like why
+- [73:34] was this decision made and it can go
+- [73:36] back like five years in time and be like
+- [73:38] here is where like you know Ivan wanted
+- [73:41] to try feature X and then we shipped it
+- [73:43] or whatever um and that's like that's
+- [73:46] like so useful. Uh, and also like that
+- [73:49] information doesn't always have to be
+- [73:52] crystallized within notion. That
+- [73:54] conversation could have happened in
+- [73:55] Slack 2 years ago and notion would just
+- [73:58] whoop go and find it. It really just
+- [73:59] comes down to like to me like product
+- [74:04] and taste and execution. Um, and it's
+- [74:07] ultimately like why I joined Notion with
+- [74:10] my co-founders because we like love the
+- [74:13] product. Um, we love the like level of
+- [74:15] taste. It doesn't feel um like we're
+- [74:18] just cramming every feature that we
+- [74:20] could possibly think of. We're very very
+- [74:22] critical and have a very high bar for um
+- [74:25] what we actually ship and how polished
+- [74:26] it is.
+- [74:27] >> That definitely seems to be a theme
+- [74:29] across a lot of the the uh sort of
+- [74:32] people who are adopting AI is that this
+- [74:34] really is about curation about taste and
+- [74:38] and and you know I think notion is
+- [74:40] definitely seen as a taste maker. I'm
+- [74:42] curious sort of now as we're sort of
+- [74:44] starting to wind up, what advice do you
+- [74:47] have for other companies that are sort
+- [74:50] of getting into this, you know, that are
+- [74:52] in that position of where they Yeah,
+- [74:55] maybe they've got some kind of, you
+- [74:56] know, data, some kind of context.
+- [74:58] They're trying to provide better
+- [75:00] products for their their customers.
+- [75:02] They're, you know, they're a bit
+- [75:04] intimidated by Open AI, sort of saying
+- [75:06] that they're going to get steamrololled.
+- [75:09] What's your sort of take on it? and sort
+- [75:10] of, you know, if someone was sort of
+- [75:12] sitting next to you in the bar and they
+- [75:14] tell you, "Hey, uh, we're just starting
+- [75:16] out, like, you know, give us give us the
+- [75:19] secret sauce."
+- [75:21] Um,
+- [75:25] a couple things that come to mind
+- [75:30] is like the first is just you just got
+- [75:32] to channel the model. Like just do use
+- [75:35] the APIs the way they were meant to be
+- [75:37] used. Don't try to be fancy. Don't try
+- [75:39] to over complicate it. Use plain
+- [75:42] English. Um, you know, like like I
+- [75:44] mentioned, if I could if a a new hire if
+- [75:47] I could present my prompt or my
+- [75:49] instructions to a new hireer and they
+- [75:51] can generally understand it, that's like
+- [75:53] what you should be shooting for. Just
+- [75:55] like keep it very simple. Um, what's
+- [75:58] nice is that that sort of maps to just
+- [76:00] like traditional engineering best
+- [76:02] practices, too. I've seen abstractions
+- [76:05] and frameworks and code that are just
+- [76:07] like PhD level complexity and like my
+- [76:10] eyes like glaze over when I'm trying to
+- [76:13] like read, you know, some code or
+- [76:15] whatever. And that's like a good kind of
+- [76:18] like smell test of like maybe
+- [76:20] something's actually overly complex. Um,
+- [76:23] and the same goes for working with LLMs,
+- [76:26] like just keep it simple. Um, and then
+- [76:32] I think the other part is like you just
+- [76:34] got to try stuff. Um, I would I would
+- [76:37] also recommend like don't invest in
+- [76:41] evals really soon. Like just be very
+- [76:43] vibey. Like just try things and feel it.
+- [76:47] Um, to me evals are once you've got a
+- [76:50] sense of like product market fit and you
+- [76:52] want to like hone in on the accuracy,
+- [76:55] the quality, the latency or whatever.
+- [76:58] Um, I would not start with like eval to
+- [77:01] do exploratory product work. Um, like
+- [77:03] pre-product market fit. I would not
+- [77:06] bother with evals. I would just very
+- [77:07] much like yeah use vibes.
+- [77:11] >> Interesting. So what to get that product
+- [77:13] market fit? What do you sort of
+- [77:16] like how okay if we if you're you're
+- [77:18] sort of encouraging people not to use
+- [77:20] eval because that's it's kind of
+- [77:21] interesting because a lot of other
+- [77:22] people we're listening to are sort of
+- [77:24] saying evales eval.
+- [77:26] But you make a really nice point that
+- [77:28] the emails probably don't help that much
+- [77:30] when you're exploring what what are you
+- [77:33] know what are the key sort of things for
+- [77:35] exploring
+- [77:38] >> it's kind of just classic product
+- [77:40] development to me like how much are
+- [77:43] people using your thing you know
+- [77:45] retention retention retention retention
+- [77:47] if people are constantly using your AI
+- [77:50] feature you've nailed it um and I'm a
+- [77:54] big believer in like build things that
+- [77:56] solve your problems. Now, that's hard.
+- [77:59] It depends on the space, you know, if
+- [78:00] I'm building a um AI feature for
+- [78:04] lawyers. I'm not a lawyer. I don't know
+- [78:06] how any of that works. Uh so, that would
+- [78:09] be really challenging for me. And and
+- [78:11] that's more of like a career life lesson
+- [78:12] is like I feel like people should work
+- [78:14] in spaces that they're super passionate
+- [78:16] and knowledgeable about. Um and so like
+- [78:18] for me, working at Notion's great
+- [78:20] because I like productivity tools. um I
+- [78:22] like being productive and so I'm gonna
+- [78:24] build tools that like do that for me. Um
+- [78:27] but yeah, that's it. I don't think
+- [78:30] there's anything necessarily unique
+- [78:32] about um you know, the other thing I
+- [78:34] would mention is like really early on in
+- [78:36] product development is like don't worry
+- [78:37] about costs.
+- [78:39] Don't worry about how much you're
+- [78:40] spending uh or like on AI development,
+- [78:44] don't worry about how cost effective
+- [78:47] your AI feature is yet. Like those
+- [78:49] things can be optimized later. Um, and
+- [78:52] especially if you've built something
+- [78:53] that is incredibly valuable to people
+- [78:55] that you should like have a a pricing
+- [78:58] structure that reflects that value as
+- [79:00] well. Um, that doesn't put you
+- [79:01] underwater. Um, I early in in our
+- [79:05] previous startup, I think we were like
+- [79:07] really precious about how cost effective
+- [79:11] like our LLM features were. And it's
+- [79:14] like, well, 20 people use it, so who
+- [79:17] cares?
+- [79:19] You got to earn the right to like
+- [79:20] optimize the price and the margins,
+- [79:23] right? Over the summer, we we had our
+- [79:25] our our flagship conference and Andrew
+- [79:28] Ing came to speak and he was really big
+- [79:31] on this this notion of being fast,
+- [79:34] right? That we we needed over the
+- [79:36] summer, I think we still were in this
+- [79:39] kind of environment that speed was
+- [79:41] necessary. We, you know, we're early. Um
+- [79:44] and multiple other people chimed in in
+- [79:46] agreement to the point where he was
+- [79:49] saying, "Yeah, you know, eval
+- [79:52] um even guard rails, uh security, uh you
+- [79:56] got to prototype, get some things out
+- [79:57] there, then kind of build that
+- [79:59] redundancy." But I want to come back to
+- [80:01] something I think you've mentioned a
+- [80:03] couple times, which is this culture,
+- [80:05] right? And you talked about being an
+- [80:07] Instagram and Kev Kevin Zystrom was was
+- [80:09] I think became famous for you know just
+- [80:12] perfecting the you know the icon
+- [80:14] corners. You know there were many um uh
+- [80:18] you know sharing apps and photo sharing
+- [80:20] image sharing apps at the time but they
+- [80:22] broke through that taste that you're
+- [80:24] talking about and you talked about
+- [80:25] notion actually not shipping throwing
+- [80:28] tools as fa as fast as possible uh
+- [80:31] slowing down perhaps and actually caring
+- [80:33] about what you put out there. Are we
+- [80:34] still in the in the era of speed? I
+- [80:37] mean, kind of moving forward or are we
+- [80:40] in the era of slowing down?
+- [80:43] >> I think we're still in the era of speed.
+- [80:45] Um, and it's it is challenging to
+- [80:49] uh be like crafts people that have a
+- [80:52] really high bar for polish and then be
+- [80:53] in a space that like is moving at
+- [80:56] breakneck speed. Um, so you you you have
+- [81:00] for us we have to straddle the line of
+- [81:03] holding a high bar while not like
+- [81:06] slowing ourselves down. Um, and that
+- [81:09] that's pretty hard. And so sometimes we
+- [81:11] will have to be a little bit more
+- [81:12] tolerant of um, you know, bugs,
+- [81:16] glitches, like whatever. You we're we're
+- [81:18] never going to willingly like ship a
+- [81:20] bug. Uh but sometimes if the agent has
+- [81:24] we have this like a bit of air cover
+- [81:26] that like AI is non-deterministic and so
+- [81:30] like there is a I think a there's a
+- [81:34] higher level of like tolerance for it
+- [81:36] being like quirky and weird
+- [81:38] than there would be in like traditional
+- [81:40] software you know like the the Instagram
+- [81:43] point is a great example like we had
+- [81:45] such a high bar because we could control
+- [81:47] every single pixel of it. um with AI we
+- [81:49] we can't control as much. Um and even
+- [81:52] though Frontier Labs like don't
+- [81:53] necessarily know how these things work
+- [81:54] under the hood. Um and so that that
+- [81:57] gives us a bit of air cover to be a
+- [81:58] little experimental. Um but at the same
+- [82:01] time there are some principles that we
+- [82:03] just hold really dearly. Uh like one is
+- [82:06] permissions. Um we care very much about
+- [82:08] how uh we respect your permissions and
+- [82:11] permissions of content and people within
+- [82:13] your workspace. You know we never want
+- [82:14] to leak content. We want to be um aware
+- [82:18] of uh the dangers of fetching content
+- [82:21] from the internet. Um if the agent is
+- [82:24] ever changing content on your behalf, we
+- [82:27] want you to have a one-click way to undo
+- [82:29] that and restore what it did or or see
+- [82:31] what it did. So, you know, there's some
+- [82:34] places that we could be a little faster
+- [82:35] and looser. And then there's some areas
+- [82:37] where we're like, nope, like this is a
+- [82:39] red line that we're not going to cross.
+- [82:40] You know, we never want to make people's
+- [82:42] content um irreoverable.
+- [82:45] um or leaked.
+- [82:48] >> Where do you go from here?
+- [82:51] Well, like you've done you've done a
+- [82:52] bunch of stuff. It's been a really
+- [82:54] interesting conversation. I'm I'm really
+- [82:55] kind of curious to see and and not just
+- [82:57] just for you and for personally for
+- [82:59] Notion, but like where do you think as
+- [83:01] an industry we sort of go from here?
+- [83:06] >> Yeah, it's it's a pretty weird time. Um
+- [83:09] I don't know what things are going to
+- [83:10] look like in in a year, let alone like
+- [83:13] five years. Do you think like everyone's
+- [83:15] been talking about or you know I guess
+- [83:17] earlier in the year everyone was talking
+- [83:18] about 2025 being the year of agents.
+- [83:21] It's kind of you know I think Kapathy
+- [83:23] mentioned that it's the kind of probably
+- [83:24] the decade of agents which seems to make
+- [83:26] more sense to me. I you know is the
+- [83:29] future agents right? Do you sort of
+- [83:31] foresee that like uh a lot of this stuff
+- [83:34] is going to be agents rolling out?
+- [83:36] >> We're experimenting a lot with obviously
+- [83:39] with agents. Um, I think a custom agent
+- [83:42] bet is very exciting because this adds
+- [83:45] another layer of like autonomy um to our
+- [83:49] like notion agents and so we're we're
+- [83:51] really excited about that. Um, I I agree
+- [83:54] with Carpathy. I think it's it's a
+- [83:56] decade of agents. Um, I think his point
+- [84:00] about like every nine of reliability
+- [84:03] taking enormous like the same amount of
+- [84:06] effort I think is completely true. Um,
+- [84:08] I've seen it firsthand with uh what
+- [84:11] we're doing on notion AI where we've got
+- [84:13] things like pretty stable, but that last
+- [84:15] like few percent uh you know in some
+- [84:18] tool error rate or whatever, it's really
+- [84:20] hard to nail because it's not there is
+- [84:23] no like silver bullet. It is a bunch of
+- [84:25] small things that you have to fix. Uh
+- [84:27] and then a new model will come out and
+- [84:29] have its own quirks and like things that
+- [84:31] you have to patch. Um so that is like
+- [84:33] really challenging but but fun. It's
+- [84:35] like a fun challenge. What I'm most
+- [84:38] excited about is like extending model
+- [84:42] capabilities and modality. I am not
+- [84:47] wholly convinced that the future is chat
+- [84:50] boxes. Um I think there's a lot more
+- [84:53] interesting stuff going on. I'm I'm
+- [84:54] really excited about all these companies
+- [84:57] building like AI browsers, not just, you
+- [85:00] know, a popup in the side where I can
+- [85:01] like chat with the web page, but
+- [85:03] automation and um like more context
+- [85:06] aware about like what I'm doing. You
+- [85:08] know, AI is essentially like with you
+- [85:10] and available at all time and has more
+- [85:12] and more and more context. So I think
+- [85:14] that that's for us at at notion what
+- [85:17] we're um investing a lot in right now is
+- [85:20] like the more context the more
+- [85:22] information the better the AI is going
+- [85:24] to perform. So like how can we give it
+- [85:26] more context.
+- [85:28] >> Ryan this has been a fantastic
+- [85:31] conversation.
+- [85:33] Thank you. Thank you very much for
+- [85:35] sharing. You you did intrigue me though
+- [85:37] you know by ending on customized agents.
+- [85:39] Can you can you just give us you know
+- [85:41] maybe a preview or an outline of the
+- [85:43] types of things that are coming down
+- [85:45] moving forward? You know, is this maybe
+- [85:46] more relevant for the enterprise or or
+- [85:49] are you talking about more for the
+- [85:50] assistant in terms of the the assistant
+- [85:52] for the individual?
+- [85:54] >> I I do think it solves problems for
+- [85:56] both. Um I would say that
+- [86:00] enterprises and and well just companies
+- [86:03] will probably see the immediate value
+- [86:05] from custom agents. Like for instance,
+- [86:08] we're using it to power um our IT
+- [86:11] departments, our help desk departments.
+- [86:13] It's helping our our sales groups, our
+- [86:15] customer support groups. For an example,
+- [86:17] we have like an IT channel in Slack. And
+- [86:20] you can ask a question about, you know,
+- [86:21] oh, my computer's acting up or I need a
+- [86:24] new um cable for my monitor. And our bot
+- [86:28] will reply either and pull information
+- [86:30] like from our help docs from previous uh
+- [86:33] requests. and then if it can't answer
+- [86:35] your question, it'll file a ticket for
+- [86:37] our IT team to then go look into.
+- [86:39] They'll look into it and then then
+- [86:40] handle your thing where previously that
+- [86:42] was like either a person um in Slack
+- [86:45] constantly monitoring that stuff or
+- [86:46] another like uh app or service that we
+- [86:49] had to manage that was like kind of
+- [86:51] doing that and not as deeply integrated
+- [86:53] as as Notion is. But I I've also seen a
+- [86:56] bunch of great like personal
+- [86:58] productivity uses for it. Um, something
+- [87:01] that I started doing is I have a custom
+- [87:04] agent that is like my work journal. Um,
+- [87:06] and so at the end of every single day,
+- [87:09] it like looks across my Slack channels,
+- [87:12] my pull requests, um, my documents. Um,
+- [87:16] you know, we have we have meeting notes
+- [87:18] within notion, so it can see all the
+- [87:19] meetings that I was in. It sucks up all
+- [87:21] of that context and it writes like a
+- [87:24] little 10point blurb about like here's
+- [87:26] the things Ryan did today. And then it
+- [87:28] stuffs that into a database that becomes
+- [87:29] like my my journal. Um I like kind of
+- [87:32] journaling. I like kind of keeping tabs
+- [87:34] on what I do. I can be so busy that I
+- [87:36] like forget all the minutiae of like the
+- [87:39] things we did and accomplished. Um and
+- [87:42] so now instead of me having to take time
+- [87:44] and like go and write that every single
+- [87:46] day, I just have a custom agent that
+- [87:48] plops a new page uh into this database
+- [87:50] and I can review it uh if I want or not.
+- [87:53] Um or I can do even like more meta, you
+- [87:56] know, summarization over the uh the
+- [87:58] month of November. What all did I do?
+- [88:01] And all that information is there.
+- [88:03] >> Fascinating. All right. The whole
+- [88:05] conversation has been very fascinating.
+- [88:07] Or Ryan, thank you so much for for
+- [88:08] joining us on the pod. Um we certainly
+- [88:11] learned a lot. Uh it's very interesting
+- [88:13] to hear what a startup like Notion is
+- [88:16] doing. uh and and thank you for being so
+- [88:19] open about, you know, a number of the
+- [88:21] different topics of how you've actually
+- [88:23] sort of built this experience. Thank you
+- [88:25] very much.
+- [88:27] >> Thank you so much for having me. This
+- [88:28] was a blast. Thank you, Ryan.
+- [88:31] >> And special thanks to our presenting
+- [88:32] sponsor, Outshift by Cisco. You can
+- [88:35] learn more about their work on the
+- [88:36] internet of agents via their Linux
+- [88:38] Foundation project, agy.org.
+- [88:42] This open-source project enables agents
+- [88:44] to work at scale across any vendor or
+- [88:47] framework with trusted and secure
+- [88:49] discovery, identity access, and
+- [88:51] observability.
+- [88:53] For more stories about the AI
+- [88:55] revolution, like and subscribe to the
+- [88:57] podcast and check out venturebeat.com to
+- [89:00] sign up for our newsletters.

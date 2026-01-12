@@ -1,0 +1,1861 @@
+---
+title: "I've got an exciting one for you today."
+video_id: "OFfwN23hR8U"
+video_url: "https://www.youtube.com/watch?v=OFfwN23hR8U"
+speaker: "doing"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  I've got an exciting one for you today
+  What you're about to watch is a special live event that I hosted during the launch week of the Dynamus community
+  A ton of value that I've never shared on my YouTube channel before
+key_points:
+  - "that I can share with you guys"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:39:57+09:00"
+---
+
+# Transcript: OFfwN23hR8U
+
+- URL: https://www.youtube.com/watch?v=OFfwN23hR8U
+- Retrieved at: 2025-12-30T10:39:57+09:00
+
+## Text
+
+- [00:00] I've got an exciting one for you today.
+- [00:01] What you're about to watch is a special
+- [00:03] live event that I hosted during the
+- [00:05] launch week of the Dynamus community. A
+- [00:08] ton of value that I've never shared on
+- [00:10] my YouTube channel before. I'm doing
+- [00:11] this in celebration of the Archon launch
+- [00:13] and reaching a thousand members in the
+- [00:15] community. So, just a thank you to you
+- [00:18] and a way to show you what we've got
+- [00:19] going on in Dynamis. So, this is lessons
+- [00:22] that I've learned from building hundreds
+- [00:24] of AI agents over the past couple of
+- [00:26] years. And it was actually really hard
+- [00:28] to condense all my lessons down into the
+- [00:30] top 20 that I present here in this
+- [00:32] event. So, a ton of value packed into
+- [00:35] this. And so, with that, let's get right
+- [00:37] into the event. And also, let me know in
+- [00:38] the comments if there's any strategies
+- [00:40] or tips that I cover here that you want
+- [00:42] me to make a full video on. There we go.
+- [00:45] And so, the plan for today is just to
+- [00:48] give you guys a bunch of really
+- [00:50] practical lessons that I've learned um
+- [00:52] just from building hundreds of agents
+- [00:53] over the last few years here. mostly the
+- [00:56] last couple of years. And I typically
+- [00:59] don't do presentation style videos or
+- [01:03] live streams. I'm usually either just
+- [01:05] chatting with you guys like I do in live
+- [01:06] streams or when I'm making a video, it's
+- [01:09] always like really hands-on, like let's
+- [01:10] code something. I want this to be like
+- [01:12] really practical and hands-on. Um, and
+- [01:14] so even though it is a presentation, I'm
+- [01:17] going to work hard to make it really
+- [01:18] engaging for you guys. So, typically I'm
+- [01:20] against just like showing slides. Um,
+- [01:23] but yeah, I've got my usual mix of like
+- [01:24] a little bit of memes and just a ton of
+- [01:26] practical advice for you guys here, uh,
+- [01:28] to keep it fun. So, yeah, there's 20
+- [01:30] lessons in total that I want to share.
+- [01:32] And, uh, the first thing I want to say
+- [01:33] before I kick this off at all is that,
+- [01:37] um, it was really hard to take something
+- [01:40] like lessons learned from building AI
+- [01:42] agents and like actually um, put it down
+- [01:44] into a presentation that I can give in
+- [01:47] less than 10 hours. I mean, there's so
+- [01:49] many things that I can talk about,
+- [01:50] different lessons that I've learned. And
+- [01:52] so the most difficult part out of all
+- [01:53] this is just thinking about what are
+- [01:54] like the few that are the most important
+- [01:56] that I can share with you guys. And so I
+- [01:58] could probably even do like another
+- [02:01] event just like this just sharing a
+- [02:02] whole another set of 20 lessons. Um but
+- [02:05] these 20 are the ones that I wanted to
+- [02:07] focus on the most with you guys. And so
+- [02:09] yeah, we'll just go through this right
+- [02:11] now. Um and starting with I want to kick
+- [02:14] this off here by just giving everyone a
+- [02:16] quick reminder of what an AI agent
+- [02:18] actually is. So I give this definition
+- [02:20] in the AI agent mastery course and a lot
+- [02:22] of you already know it at a high level
+- [02:24] what an agent is but I just want to give
+- [02:26] this um as a refresher for everyone. So
+- [02:29] an AI agent is a program that uses a
+- [02:32] large language model to reason about how
+- [02:35] it interacts with its environment and to
+- [02:37] take varying courses of actions to
+- [02:39] achieve a goal. And so there's kind of
+- [02:41] two parts to that. First we have
+- [02:43] interacting with the environment. Those
+- [02:45] are the tools that we give the agent to
+- [02:47] do something like um pull messages from
+- [02:49] a slack conversation or draft an email
+- [02:52] in Gmail or Outlook. Like that's the it
+- [02:54] interacting with its environment and
+- [02:56] then taking varying courses of actions.
+- [02:58] The thing that makes agents so powerful
+- [03:00] and also dangerous as we'll see in a
+- [03:03] little bit is that it can decide what it
+- [03:07] wants to do based on what goal you have
+- [03:09] for it. And so it might decide to take
+- [03:11] five steps or three steps or one. We
+- [03:14] don't know. It's it's non-deterministic
+- [03:15] in that way because we're letting the
+- [03:17] agent have that level of control. And so
+- [03:20] that's an agent at a high level. And
+- [03:23] then what I want to dive into for my
+- [03:25] lessons with you guys today is I want to
+- [03:27] start with u a few highlevel lessons
+- [03:30] that I've learned from building agents.
+- [03:31] So just kind of zooming out to the top
+- [03:33] level of just building agents as a
+- [03:35] whole. And then I want to give you
+- [03:37] lessons that are specific to each of the
+- [03:40] different components that we have for an
+- [03:42] AI agent. And so if you've been through
+- [03:44] the first part of the AI agent mastery
+- [03:46] course, you've seen this graphic already
+- [03:49] because one of the very first videos
+- [03:51] that I have in module one of the course
+- [03:52] is breaking down the different
+- [03:54] components to an AI agent. We have the
+- [03:56] agent program. This is the system
+- [03:58] prompt, your general instructions to the
+- [04:00] agent for how you want it to behave and
+- [04:02] the tone that you want it to have. You
+- [04:03] have the large language model. That's
+- [04:05] the brain of your agent that has all
+- [04:07] that reasoning capability. And then you
+- [04:09] have the tools. These are the
+- [04:11] capabilities that you give your agent to
+- [04:13] interact with its environment. And then
+- [04:15] last we have the memory system. So that
+- [04:17] is both short-term memory like the
+- [04:19] conversation history and then also
+- [04:21] long-term memory being able to remember
+- [04:23] your preferences and goals and things
+- [04:24] like that between conversations and also
+- [04:27] rag and just like knowledge bases in
+- [04:29] general is often considered a part of
+- [04:32] long-term memory within the memory
+- [04:33] systems as well. So yet another quick
+- [04:35] refresher there on the components of an
+- [04:37] AI agent. I'm going to give you lessons
+- [04:38] that I've learned specific to each of
+- [04:39] these just as a way to keep this
+- [04:41] presentation really really organized for
+- [04:43] you guys. Um, and so then after I go
+- [04:45] through all this, I'll I'll also open up
+- [04:47] a time for a Q&A. Um, probably within
+- [04:50] the last like 15 20 minutes of the hour
+- [04:52] that we have here. Um, and so I'm going
+- [04:54] to try to go through one less lesson
+- [04:56] every two minutes because I have 20 in
+- [04:58] total. So I'm going to go through things
+- [05:00] pretty quickly here. Um, and so this is
+- [05:03] the kind of thing where it'd probably be
+- [05:04] beneficial to even like watch the replay
+- [05:06] of this later if you want to pick out
+- [05:08] certain lessons and really listen in on
+- [05:10] those again. Um, because I am going to
+- [05:11] go rather quickly. But yeah, the goal
+- [05:14] with this is like even if you're already
+- [05:16] familiar with half of these lessons and
+- [05:18] like you already understand that and you
+- [05:20] implement that for your own agents,
+- [05:21] hopefully at least like five or 10 of
+- [05:23] these are going to really resonate with
+- [05:24] you and be useful and like I've got a
+- [05:26] ton of really practical stuff to share
+- [05:27] with you guys here. So yeah, that's an
+- [05:29] overview of everything. And now diving
+- [05:31] into it, starting with the higher level
+- [05:33] lessons that I've learned. A lot of it
+- [05:35] is based around the biggest challenge
+- [05:37] that we have with agents. And that is
+- [05:40] the whole idea of hallucinations. And I
+- [05:43] pulled this uh this image off the
+- [05:44] internet. I just thought it was funny uh
+- [05:46] because it's an AI agent with a long
+- [05:47] nose like Pinocchio. Like every time he
+- [05:49] lies, his nose grows bigger. And I think
+- [05:51] this is really uh this really just hits
+- [05:54] spoton because when AI agents
+- [05:56] hallucinate as in they make a mistake or
+- [05:58] they just completely make up
+- [06:00] information, they act so confident when
+- [06:02] they tell you that information that's
+- [06:03] just completely wrong. Like they'll even
+- [06:05] cite sources from the internet that just
+- [06:07] don't exist and they'll just tell you
+- [06:08] with 100% certainty that like this is
+- [06:11] what it used um for its information. And
+- [06:14] so yeah, they they just seem to like lie
+- [06:16] very freely sometimes. Um and that's
+- [06:19] what a hallucination is. And I know that
+- [06:20] in general hallucinations, it's a very
+- [06:24] overused term. Um, and we hear this so
+- [06:26] much in the AI space, but I just think
+- [06:28] it's a good label for a lot of these
+- [06:30] mistakes that agents and just LLMs in
+- [06:32] general can make. And then they're also
+- [06:34] very confident as they present those
+- [06:36] mistakes to you. So that's the biggest
+- [06:37] challenge that we have. And so a lot of
+- [06:40] the highlevel tips and and lessons that
+- [06:42] I've learned that I want to share with
+- [06:43] you guys is working around these
+- [06:45] hallucinations.
+- [06:47] And so the biggest reason that we have
+- [06:48] to deal with this in the first place is
+- [06:51] because for the first time ever when
+- [06:53] developing software, we have the whole
+- [06:57] idea of non-determinism. And that's a a
+- [07:00] very fancy word um but I like using that
+- [07:02] a lot. Essentially what it means is
+- [07:04] before we had AI agents when we built a
+- [07:06] piece of software, we would take some
+- [07:09] input like this is someone's email or
+- [07:12] this is a request that we have to an API
+- [07:14] endpoint like whatever that input is and
+- [07:16] then we would always get the exact same
+- [07:18] output every single time we run that
+- [07:21] automation or whatever it is with that
+- [07:24] given input. And so it doesn't matter if
+- [07:26] we run that workflow 100 times. If we
+- [07:29] give the same input, we're always going
+- [07:30] to get the same output. That's what I
+- [07:32] mean by a deterministic workflow. And
+- [07:34] I've covered this in the course as well.
+- [07:36] And so with non-determinism now with an
+- [07:38] agent, when we receive a certain piece
+- [07:41] of input, we aren't guaranteed to always
+- [07:44] get the same output out because the
+- [07:46] agent is giving that ability to reason
+- [07:49] about what it wants to do. And it will
+- [07:51] make those decisions differently even
+- [07:53] when you give it the same exact prompt.
+- [07:55] And so the danger with this is that it
+- [07:58] could do fine the first 50 times you
+- [08:00] give it a certain prompt. like you ask
+- [08:01] it to uh research the web for something
+- [08:04] specific or whatever that prompt might
+- [08:06] be, but then the 51st time that you give
+- [08:08] that exact same request, it can
+- [08:10] completely botch it. It might search the
+- [08:12] wrong thing or not even invoke the tool
+- [08:14] that you want it to invoke even though
+- [08:15] the last 50 times it did it fine. And so
+- [08:18] that kind of brings me to the first big
+- [08:20] tip that I have here is that to avoid
+- [08:23] hallucinations really affecting you
+- [08:25] deeply, you want to use AI to save time,
+- [08:29] not replace you entirely. And so I have
+- [08:32] this uh quote here from uh Peter Parker,
+- [08:35] Spider-Man's uncle. He says, "With great
+- [08:37] power comes great responsibility." So
+- [08:39] these AI agents, they're dangerous
+- [08:41] because they reason about how they want
+- [08:43] to accomplish a goal. For the first time
+- [08:45] ever, we have software that doesn't
+- [08:46] always behave the same. Might work in
+- [08:49] one case and then break in another case
+- [08:51] with the same input. And that's
+- [08:53] dangerous, but also it's powerful.
+- [08:55] Having agents being able to reason about
+- [08:57] what they do in their environment
+- [08:58] unlocks a whole new level of automations
+- [09:01] and ways that we can um improve
+- [09:03] efficiencies in our business. There's so
+- [09:05] many different things we can do with
+- [09:07] agents. Uh but the the goal here is to
+- [09:10] share the responsibility with the AI so
+- [09:13] that you can catch hallucinations. And
+- [09:15] to make this like really really clear, I
+- [09:17] have a good example here. And I I did
+- [09:19] share this in the AI agent mastery
+- [09:21] course as well, but this is just my
+- [09:22] favorite example in general. I always
+- [09:24] say that like you wouldn't want to trust
+- [09:26] an AI agent to manage your inbox and
+- [09:29] automatically reply to every email. That
+- [09:32] is way too much responsibility that
+- [09:34] you're giving it. You want to share that
+- [09:36] responsibility. And so the way that you
+- [09:38] can do that is instead of having the
+- [09:39] agent always reply automatically to the
+- [09:41] emails, it can just automatically create
+- [09:44] email drafts. And so it's still saving
+- [09:46] you time because it gets you started on
+- [09:48] each reply um to your emails. But then
+- [09:51] if it hallucinates and it gives a really
+- [09:53] bad response, like maybe it tells the um
+- [09:56] person who emailed you that you can meet
+- [09:58] at a time that you're not actually
+- [09:59] available, well then you can correct it.
+- [10:00] And so any mistake, any hallucination
+- [10:02] that it makes is just going to cost you
+- [10:05] a little bit of time because you have to
+- [10:06] correct it a bit versus it would
+- [10:08] actually send that email and um in that
+- [10:11] case it's replacing you entirely and
+- [10:12] then that responsibility becomes very
+- [10:14] dangerous. So I hope that makes sense
+- [10:16] and I don't want to just say that like
+- [10:18] you never want to build out a process
+- [10:20] with AI that replaces something you're
+- [10:21] doing entirely. Um but the safest bets
+- [10:24] for implementations for AI um for
+- [10:26] yourself or your business, whatever that
+- [10:28] is, is usually the ones that are going
+- [10:29] to save you time. And then any kind of
+- [10:31] hallucinations aren't going to like
+- [10:33] negatively impact you greatly like
+- [10:35] sending a an email to someone that is
+- [10:37] just like a totally terrible thing you
+- [10:39] wouldn't want to actually say. So yeah,
+- [10:42] I hope that makes sense. That is the the
+- [10:43] first one there. And then the second
+- [10:45] lesson, again, just saying really high
+- [10:48] level at this point is you don't want to
+- [10:50] skimp on the planning and prototyping
+- [10:52] phase of building your agents. And so I
+- [10:54] covered this in my road map for building
+- [10:56] AI agents. That's what we're looking at
+- [10:58] right here for this screenshot. And I
+- [11:00] dedicate two entire modules in the
+- [11:02] course to this because it's just so
+- [11:04] important to have a good foundation for
+- [11:06] your agent. You don't want to dive into
+- [11:09] the implementation of your agent right
+- [11:10] away without knowing what you're really
+- [11:12] working towards and what kind of tools
+- [11:14] you want for your agent and things like
+- [11:15] that. It's worth spending that time up
+- [11:17] front because if you spend five hours
+- [11:19] planning your agent, that could end up
+- [11:21] saving you 20 hours of development down
+- [11:23] the line. So it might kind of sting at
+- [11:25] first like, "Oh, I'm spending so much
+- [11:26] time not actually making something yet."
+- [11:29] but it's going to make the whole process
+- [11:30] faster in the end. You just kind of have
+- [11:31] to have that foresight and and be
+- [11:33] patient with the first part of the
+- [11:35] process. And so that's why I cover it so
+- [11:36] much in in what I do um within the
+- [11:38] course and just this is how I build my
+- [11:40] agents in general. U because there have
+- [11:42] definitely been times when I first
+- [11:44] started building agents that I um I
+- [11:46] didn't do a lot of planning and
+- [11:48] prototyping and then I just had to scrap
+- [11:49] everything and start again. And that's
+- [11:51] when it gets to that point where it's
+- [11:52] like, oh, I actually ended up having to
+- [11:53] spend 20 more hours on this agent um
+- [11:56] because I didn't spend a few hours
+- [11:57] planning up front. So yeah, do not skimp
+- [11:59] on these phases.
+- [12:01] Uh then the the next one here is to
+- [12:04] beware what I like to call the
+- [12:06] hallucination explosion or another word
+- [12:09] for this is uh compounding
+- [12:11] non-determinism. And whoa, Cole, that
+- [12:13] those are really fancy phrases. All I
+- [12:15] mean by this though is that if you have
+- [12:17] many agents that are working together to
+- [12:20] solve one problem like a multi- aent
+- [12:22] workflow, you have to be careful about
+- [12:24] the inaccuracies of all these LLMs and
+- [12:27] they kind of build on top of each other.
+- [12:30] Like for example, if you have three
+- [12:32] agents that each individually work well
+- [12:35] 95% of the time, as in they only
+- [12:37] hallucinate 5% of the time, the fact
+- [12:40] that all three of them have to work
+- [12:42] correctly for a single execution to be,
+- [12:44] you know, quote unquote successful, that
+- [12:46] means that your whole system is only
+- [12:48] actually going to work 86% of the time.
+- [12:51] And um actually, let me pull up a
+- [12:53] calculator here because I I'll I'll do
+- [12:54] like a little live calculation to show
+- [12:56] you how I got this number. Because let's
+- [12:59] say agent number one, it works
+- [13:00] successfully 95% of the time. So 0 n5,
+- [13:04] but then it also relies on the second
+- [13:06] agent. Like maybe it's communicating to
+- [13:08] it through the A2A protocol like I
+- [13:10] covered on my channel previously. Let's
+- [13:12] say that this agent also only works
+- [13:14] successfully 95% of the time. Well, you
+- [13:17] have to actually multiply these two
+- [13:19] numbers together if you want to compute
+- [13:21] how likely your entire system is to be
+- [13:23] successful. But then let's say that it's
+- [13:26] using the MCP protocol to work with some
+- [13:28] external tools and maybe it only
+- [13:30] leverages this MCP server correctly also
+- [13:34] 95% of the time. Well then yet again you
+- [13:36] have to multiply 95% into this equation.
+- [13:40] And so rounding up that's what gives us
+- [13:42] that 86% that I have in the slide right
+- [13:44] here. So only 86% of the time is this
+- [13:47] solution actually going to work
+- [13:48] correctly because even if two of the
+- [13:50] components here are successful, you
+- [13:53] still might have one that fails and that
+- [13:54] could bring the entire system down. And
+- [13:56] so that's why you have to be very very
+- [13:58] careful with kind of what I like to call
+- [14:00] the hallucination explosion. It's an
+- [14:02] explosion because the more agents that
+- [14:04] you have in the mix, the more likely you
+- [14:05] are to have these errors kind of
+- [14:07] compound on each other or I guess I
+- [14:08] should say the chance of these errors
+- [14:10] compounding on each other. And so the
+- [14:12] biggest way to tackle this is to just
+- [14:15] have strategies in general to reduce
+- [14:17] hallucinations. And so this gets into uh
+- [14:20] the next few lessons that I have here
+- [14:22] from building AI agents which are all
+- [14:24] about how to reduce hallucinations in
+- [14:26] general. Nowadays when building my AI
+- [14:29] agents, I always rely on AI coding
+- [14:31] assistants to exponentially speed up my
+- [14:33] development. And that brings us to the
+- [14:35] sponsor of today's video, which is
+- [14:37] Windinsurf. And Windinsurf has a special
+- [14:39] place in my heart because it was my
+- [14:41] first ever AI coding assistant.
+- [14:43] Seriously, before Windsurf, I was
+- [14:45] working in VS Code, no extensions like
+- [14:47] Copilot. Windsurf has always stood out
+- [14:50] to me for a few different reasons. First
+- [14:52] of all, it's speed. Like you can watch
+- [14:54] here on the right hand side in our
+- [14:55] Cascade agent. Also, we have access to
+- [14:58] all of the best third-party models
+- [15:00] listed right here. And they've even
+- [15:02] built their own. It's crazy. And then
+- [15:04] also within their Cascade agent, there's
+- [15:05] just so many different features that we
+- [15:07] have. Cascade can handle complex coding
+- [15:10] tasks with longerterm agentic memory. We
+- [15:12] can run multiple conversations in
+- [15:14] parallel. And they've added a new native
+- [15:16] planning mode so that we can handle even
+- [15:19] longer, more complex tasks with ease.
+- [15:22] The important thing to know is that this
+- [15:23] is not just a Vive coding tool. This is
+- [15:25] an enterprise ready solution that's
+- [15:27] actually already being used by over 30%
+- [15:30] of Fortune 100 companies. And with the
+- [15:33] Cognition acquisition, the creators of
+- [15:35] Devon, Windsurf has gotten a makeover.
+- [15:38] It's a lot more reliable and snappy.
+- [15:40] They're continuing to add a ton of new
+- [15:41] features like Deep Wiki and Vibe and
+- [15:43] replace. And they're not slowing down
+- [15:45] anytime soon. Plus, I am seriously
+- [15:48] looking forward to the native Devon and
+- [15:49] Windsurf integration that's coming soon.
+- [15:51] I'll have a link to Windsurf in the
+- [15:53] description. They are definitely worth
+- [15:55] checking out. Yeah, one thing that
+- [15:56] Benedict said, I think you can reduce
+- [15:58] hallucinations a lot if you let another
+- [16:00] AI check the output. And I'm glad you
+- [16:03] mentioned that because literally that's
+- [16:04] what I'm covering now in this in this
+- [16:07] fourth lesson right here is the whole
+- [16:08] idea of AI agent guard rails. And so
+- [16:12] what guardrails are is just a piece of
+- [16:14] logic that you have that runs either
+- [16:16] before you call into your agent or your
+- [16:18] LLM or after. And so then if you detect
+- [16:23] something that is either going to likely
+- [16:25] cause hallucinations or you you do
+- [16:27] detect a hallucination in the output
+- [16:29] guardrail, then you can go down this
+- [16:32] failure path where you'd either let the
+- [16:34] user know that their process um or that
+- [16:36] their request wasn't able to be handled
+- [16:39] for whatever reason or maybe you'd loop
+- [16:41] loop back to the AI agent and have it
+- [16:43] try to correct itself. You can take
+- [16:45] proper course of action based on if one
+- [16:48] of these guard rails fails. And to give
+- [16:50] you a clear example of what these
+- [16:52] guardrails look like, let's say that you
+- [16:54] have an agent that is a travel planning
+- [16:58] agent. Um, and so you as a user, you
+- [17:01] give it the destination, your budget,
+- [17:04] how long you want to go on your
+- [17:05] vacation, and then the agent will help
+- [17:07] you plan an itinerary. It's a very
+- [17:09] common use case that I've seen before. A
+- [17:11] lot of people build this as an example
+- [17:12] when they show new AI agent frameworks.
+- [17:15] Um, and so as an input guard rail, one
+- [17:18] thing that you want to avoid for this
+- [17:20] travel planning assistant is you don't
+- [17:21] want to have it plan an itinerary um,
+- [17:24] when you are extremely under budget.
+- [17:26] Like if you want to go to Dubai for a
+- [17:28] week for only $500, you probably
+- [17:30] couldn't even buy the plane ticket for
+- [17:32] that much depending on where you live.
+- [17:33] And so that would definitely cause a lot
+- [17:35] of hallucinations if you were forcing
+- [17:37] the agent to try to uh, plan that trip
+- [17:40] when it's extremely under budget. And so
+- [17:42] a good input guardrail is you could have
+- [17:45] a smaller more lightweight LLM that just
+- [17:48] quickly evaluates the user's request for
+- [17:50] their trip and determines is the budget
+- [17:52] actually reasonable for the trip. And so
+- [17:55] then if they do say like I want to go to
+- [17:57] Dubai for $500, then it'll go down this
+- [17:59] failure path where you would tell the
+- [18:00] user like hey this is way under budget.
+- [18:03] You've got to adjust something here um
+- [18:04] for the travel planning assistant to
+- [18:07] actually be able to help you. So that
+- [18:09] would be a really good guardrail. But
+- [18:11] then if they want to go to Dubai for a
+- [18:13] weekend, maybe it's like $3,000 or
+- [18:14] whatever, like something within a
+- [18:16] reasonable range, then it could continue
+- [18:18] to the travel planning assistant. And
+- [18:20] then for an output guard rail, maybe you
+- [18:23] would have another agent that is
+- [18:25] verifying that the travel planning
+- [18:26] assistant actually planned an itinerary
+- [18:29] for the number of days that the user
+- [18:30] said they wanted to go on a vacation
+- [18:32] for. And so if they said that I want to
+- [18:34] go to Germany for 10 days and the
+- [18:37] itinerary was only for 8 days, well then
+- [18:40] this LLM would be able to detect that
+- [18:42] pretty easily. Like that's the thing
+- [18:43] with these guardrail agents is a lot of
+- [18:45] times they can be a lot more
+- [18:46] lightweight. Like you could use GPT 4.1
+- [18:49] mini instead of GPT 4.1 because a lot of
+- [18:52] these decisions that it has to make
+- [18:53] around like is this input or output
+- [18:56] good? they're a lot simpler and so you
+- [18:58] could just detect really quick like does
+- [19:00] this itinerary actually make sense given
+- [19:02] what the user um said and then if it is
+- [19:04] then you return that file final
+- [19:06] itinerary otherwise maybe this output
+- [19:08] guardrail would loop back uh in a
+- [19:11] failure case and have the agent replan
+- [19:12] the itinerary. So guardrails are super
+- [19:15] super powerful in general it's just a
+- [19:17] huge way to reduce hallucinations and a
+- [19:19] lot of times they can be pretty simple
+- [19:21] to set up. Uh, and then the next
+- [19:23] strategy for reducing hallucinations is
+- [19:27] yet another thing that I've covered a
+- [19:28] lot before is the whole idea of
+- [19:31] specialized agents. And this one is
+- [19:33] really a lot simpler to explain um than
+- [19:36] guard rails. Because really, if you
+- [19:38] think about it, like the way that
+- [19:40] companies work with humans, with people,
+- [19:42] is that you always want to distribute
+- [19:44] responsibility between many people that
+- [19:46] specialize in different things. You're
+- [19:48] always going to get better results when
+- [19:50] you have specialization, when you have
+- [19:52] distributed responsibility among humans.
+- [19:55] And it's the same way, it works the same
+- [19:57] way with agents. And so if you have one
+- [19:59] agent that handles all of your tool
+- [20:02] calls for Slack and then another one
+- [20:03] that handles all of your tool calls for
+- [20:05] working with your database, you're
+- [20:06] distributing that responsibility.
+- [20:08] that's going to lead to a lot better
+- [20:10] results because if you overwhelm one
+- [20:12] agent, one LLM with way too much
+- [20:14] responsibility, it's going to start to
+- [20:17] fail frequently understanding how to
+- [20:19] leverage these different capabilities
+- [20:21] that you've given it to solve the goal
+- [20:23] that you have for it. And so, I've
+- [20:25] covered this a lot before with like
+- [20:27] having specialized agents that each use
+- [20:29] an MCP server, things like that, but in
+- [20:31] general, this just helps a lot. And the
+- [20:34] one thing you do have to be a little
+- [20:35] careful of here is this does kind of
+- [20:38] start to point us back to the
+- [20:40] hallucination explosion I was just
+- [20:41] talking about because now you do have an
+- [20:43] orchestrator agent that has to make the
+- [20:46] right call like which specialized agent
+- [20:48] do I point to. But typically this
+- [20:50] decision can be quite simple. So you
+- [20:52] don't have to worry too much about that
+- [20:54] compounding non-determinism that I was
+- [20:56] talking about because there at least
+- [20:58] I've seen from the agents that I've
+- [20:59] built that this primary orchestrator
+- [21:01] that has to figure out which specialized
+- [21:03] agent to use, it very rarely picks the
+- [21:06] wrong one, especially if the roles for
+- [21:08] each of these agents are very distinct.
+- [21:10] And I'm very clear in the system prompt
+- [21:12] to my primary agent exactly when it
+- [21:15] needs to call into each of these
+- [21:17] specialized agents. And so this helps
+- [21:18] reduce hallucinations quite a bit. And
+- [21:21] then the very last strategy that I have
+- [21:23] here for reducing hallucinations and
+- [21:26] yeah these are these are all taken up in
+- [21:28] the lessons as well. So this is lesson
+- [21:29] number six um is examples examples and
+- [21:33] examples. And I'll talk about this more
+- [21:35] when I get to one of my lessons for
+- [21:37] system prompting specifically. But it is
+- [21:40] just so helpful to an LLM or AI agents
+- [21:43] in general to give examples in the
+- [21:45] system prompt. And we see this with all
+- [21:47] of the the best AI agents and the most
+- [21:50] popular AI coding assistants like Vzero
+- [21:53] and Cursor and Bolt. New like they all
+- [21:55] have very concrete examples in their
+- [21:58] system prompts. And so like this
+- [22:00] screenshot that I took right here, this
+- [22:02] is an example of um it's an example of
+- [22:05] an example in the system prompt for
+- [22:08] Bolt. The front-end application
+- [22:10] developer that you can use in your
+- [22:12] browser. Um, and so yeah, like it even
+- [22:15] says right here like example colon and
+- [22:17] then they just paste in an example of
+- [22:20] exactly what they'd want the bolt new
+- [22:23] agent to output in a specific case. And
+- [22:26] they don't hold back from including any
+- [22:28] context. Like they have all the
+- [22:29] nitty-gritty details of the pluses and
+- [22:31] the minuses and the at symbols and all
+- [22:33] the different line numbers for diffs.
+- [22:35] Like they've got everything covered in
+- [22:37] this example here. just showing the
+- [22:38] agent exactly what to output given some
+- [22:41] input that they describe kind of above
+- [22:43] here in the system prompt that's cut off
+- [22:44] right now. But yeah, examples are just
+- [22:46] so so powerful and you can use examples
+- [22:48] to tell an agent how to use tools um
+- [22:52] exactly the format that you want it to
+- [22:53] output. Pretty much any kind of
+- [22:55] direction that you want to give to the
+- [22:57] agent. Examples oftentimes help with
+- [22:58] that and sometimes they can be overkill
+- [23:01] like they'll make your system prompt
+- [23:02] longer. Um, but in general they're
+- [23:05] really useful especially for anything
+- [23:06] that's a bit more complex with your
+- [23:08] agent. And so yeah, hope that one makes
+- [23:10] sense there. Um, yeah. And then the the
+- [23:13] next thing that um I want to cover now
+- [23:16] is diving specifically into lessons for
+- [23:18] one of the components that we have for
+- [23:20] an AI agent and that is the agent
+- [23:23] program. And so again, this is the
+- [23:25] system prompt for your agent. Um, the
+- [23:27] instructions that you give it to
+- [23:28] determine its behavior and um the tone
+- [23:31] that you want it to have. And so the
+- [23:33] first lesson that I've got for your
+- [23:35] system prompt for your agent is that you
+- [23:38] want to avoid adding what I like to call
+- [23:41] negatives. And this is especially true
+- [23:43] for longer system prompts. And so as a
+- [23:47] bad example of prompting, you might say
+- [23:50] something like, "Explain quantum physics
+- [23:52] to me and do not use complex language."
+- [23:54] That's a negative right here. Like
+- [23:56] you're telling it not to do something.
+- [23:58] And then a good example of a prompt is
+- [24:00] explain quantum physics to me and use
+- [24:02] fifth grade level English. And so in
+- [24:04] this case in selling in instead of
+- [24:06] telling it not to do something, you are
+- [24:08] telling it to do something. And the
+- [24:10] reason that you want to do this is when
+- [24:12] you get very long system prompts. I've
+- [24:15] seen this time and time again. I don't
+- [24:16] really know why, but LLMs, they love to
+- [24:19] drop the negative, as in they will kind
+- [24:22] of like take out the do not and then
+- [24:24] they'll do the very thing that you told
+- [24:26] them not to do. like they'll use complex
+- [24:28] language and obviously in this example
+- [24:31] here it's a very very basic prompt and
+- [24:34] and this really only applies to longer
+- [24:36] system prompts like of course it would
+- [24:37] listen in this case but once you have
+- [24:39] system prompts that are like five six 10
+- [24:41] paragraphs it will start to do this
+- [24:43] thing where it'll drop the negative and
+- [24:45] so you'll see something like this a lot
+- [24:48] where like when you want it to you know
+- [24:50] give a very simple explanation for
+- [24:51] something you'll tell it to like use a
+- [24:53] specific type of language like high
+- [24:55] school language or fifth grade level
+- [24:57] language. I'm sure you guys have seen
+- [24:58] that a lot. Um, yeah, Benedict said,
+- [25:01] "This behavior also refers to humans.
+- [25:03] Humans also don't hear the negatives."
+- [25:05] Yeah, it's true. And and yeah, I mean,
+- [25:07] kind of like what I was talking about
+- [25:08] with specialized agents, too. Like a lot
+- [25:09] of the ways that we think about how
+- [25:11] humans behave and how to make humans uh
+- [25:13] do things well. I mean, that applies to
+- [25:16] AI agents as well. Um, so yeah, that's a
+- [25:20] good point. Um, and then the next thing
+- [25:22] for system prompts, and this is probably
+- [25:25] the most obvious lesson out of all the
+- [25:27] 20 that I have for you guys here, um,
+- [25:29] but this is this happens very frequently
+- [25:31] still, is you want to avoid
+- [25:33] contradictions in your system prompts.
+- [25:35] And so, like in this example that I
+- [25:37] have, this is just a fake system prompt
+- [25:39] that I had Claude help me generate just
+- [25:41] for an example for you guys. We tell it
+- [25:44] that it's a knowledge assistant at the
+- [25:45] top here. And we're telling it to give
+- [25:48] very concise and efficient answers.
+- [25:51] But then in the very next paragraph, we
+- [25:52] tell it to make sure that we give a
+- [25:55] comprehensive coverage of the topic and
+- [25:57] we include historical context and
+- [25:59] theoretical frameworks, practical
+- [26:01] applications, blah blah blah blah. We're
+- [26:03] telling it to be like very comprehensive
+- [26:05] in its response in the very next
+- [26:07] paragraph. And this is a contradiction.
+- [26:10] The LLM is going to take these two
+- [26:12] pieces of instruction, try to balance
+- [26:15] what it wants to do, and it's going to
+- [26:17] usually just kind of randomly pick
+- [26:19] between one of these, like either be
+- [26:20] very concise or be super comprehensive,
+- [26:22] and you're going to get very
+- [26:23] inconsistent results and a lot of
+- [26:25] hallucinations.
+- [26:27] And I've seen this so much. And
+- [26:29] obviously when you're creating your
+- [26:31] system prompts, you you probably don't
+- [26:34] want to or you're probably not going to
+- [26:36] end up making a very obvious
+- [26:38] contradiction like within two adjacent
+- [26:40] paragraphs. Like that probably won't
+- [26:41] happen. But when you have longer system
+- [26:43] prompts and you're telling it at the
+- [26:45] start to do something, then maybe six
+- [26:47] paragraphs later, you're describing how
+- [26:49] you want to take a specific action and
+- [26:50] that's going to contradict with kind of
+- [26:52] like the role you gave it at the start
+- [26:54] of the assistant prompt. We see this
+- [26:55] kind of thing a lot. And so like one
+- [26:57] example uh of what I did, there was an
+- [27:00] agent that I built one time that was
+- [27:02] kind of like a customer support agent
+- [27:04] and its goal was to get the person
+- [27:07] communicating with it booked um for an
+- [27:09] event on the calendar. And what I said
+- [27:12] at the start of the system prompt is I
+- [27:14] told it to be very flexible and
+- [27:16] accommodating for when that user is
+- [27:19] available for getting that that meeting
+- [27:21] uh booked. But then later on in the
+- [27:24] system prompt when I was giving it
+- [27:26] instructions on how to use the calendar
+- [27:28] tools that I had for it, I told it to be
+- [27:30] rigid. As in you look at the calendar to
+- [27:32] see the times that are available for a
+- [27:34] meeting and you only ever offer those
+- [27:36] times. You never offer times that are
+- [27:39] outside of the range that you got
+- [27:41] available times for. And so there was a
+- [27:44] contradiction there. I told it to be
+- [27:46] very rigid when I was describing how to
+- [27:47] use the tools, but then at the start of
+- [27:49] the system prompt, I told it to be very
+- [27:51] accommodating to the user. And so I
+- [27:52] ended up finding that a lot of times it
+- [27:54] would offer times to the user that
+- [27:57] weren't actually available. The calendar
+- [27:58] API did not return to it. And it was
+- [28:01] just because I told it at the start of
+- [28:02] the system prompt to be accommodating to
+- [28:04] the user. So as soon as I took that out
+- [28:07] or at least I clarified you want to be
+- [28:08] accommodating um for um maybe just like
+- [28:13] I don't know like the like you want to
+- [28:15] have a nice tone versus like actually be
+- [28:17] accommodating for the calendar. Then I
+- [28:18] stopped getting those hallucinations. it
+- [28:20] started to only ever give times to the
+- [28:22] user that it got from the calendar API.
+- [28:26] So very important to keep those kind of
+- [28:27] things in mind. So when you start to get
+- [28:29] like really mixed results where
+- [28:30] sometimes an agent does things properly
+- [28:32] and sometimes it doesn't, it's usually
+- [28:34] because of some kind of underlying
+- [28:36] contradiction that you missed in your
+- [28:37] system prompt and it happens more than
+- [28:39] you would think.
+- [28:41] Um and then the the last system prompt
+- [28:43] tip that I have for you guys. I'm just
+- [28:45] checking the time here to make sure that
+- [28:46] I'm doing good. Looks pretty good. Yeah.
+- [28:48] So the next system prompt tip that I
+- [28:51] have for you guys is to version your
+- [28:53] prompts. And so just like you want to
+- [28:55] version your code so that you can revert
+- [28:58] back to a different version of your code
+- [29:00] if something more recently breaks, you
+- [29:03] want to be able to do the same thing
+- [29:04] with your system prompts. Because as you
+- [29:06] are evolving your system prompts over
+- [29:08] time, even if you think that you have
+- [29:10] provided more context and of course it
+- [29:12] would make the AI agent perform better,
+- [29:15] you still will run into situations where
+- [29:17] maybe your system prompt gets too long
+- [29:18] and it overwhelms the LLM. Maybe you
+- [29:20] added in one of those contradictions and
+- [29:22] you didn't realize it. you'll hit that
+- [29:24] kind of snag where you want to quickly
+- [29:26] revert to a previous version of your
+- [29:27] prompt that maybe wasn't quite working
+- [29:29] to your liking and that's why you tried
+- [29:32] another version but at least it was
+- [29:34] better and so you can revert back to
+- [29:36] that and then work through your other
+- [29:38] version back in your development
+- [29:39] environment and see if there's some
+- [29:40] contradiction you accidentally added or
+- [29:42] if you have to give better examples like
+- [29:44] whatever that is to improve that third
+- [29:45] version then you can go back to it. So
+- [29:47] versioning is very important just like
+- [29:48] it is for your code.
+- [29:51] So, uh, yeah, and Jiren asked, "What
+- [29:53] tools are you using to manage your
+- [29:54] prompts?" Langfuse is a really good one
+- [29:56] for sure. Um, and then also just like
+- [29:58] having a separate place in your GitHub
+- [30:00] repository for your prompts and just
+- [30:02] versioning it along with your code. That
+- [30:03] definitely works as well. Um, but tools
+- [30:05] like Langfuse are also fantastic.
+- [30:08] Um, so yeah, that's everything for the
+- [30:10] system prompt. Now, we move on to large
+- [30:13] language models and the general lessons
+- [30:15] that I learned from working with LLMs
+- [30:17] within AI agents.
+- [30:19] Um, the first tip that I got for this is
+- [30:22] that swapping large language models can
+- [30:24] actually be pretty dangerous even if you
+- [30:27] are swapping to an LLM that is supposed
+- [30:29] to be better in just every way. Um, like
+- [30:32] just as an example, a couple of years
+- [30:35] ago or I guess whenever GPT40 was
+- [30:38] released, I had an agent that was
+- [30:40] running with GPT4 Turbo. That's kind of
+- [30:44] like the last LLM that OpenAI had
+- [30:46] released before they released GPT40.
+- [30:49] And they they gave the benchmarks when
+- [30:52] they released 40 and they're like, "Yep,
+- [30:53] this is just better than GPT4 Turbo in
+- [30:55] every way. Uh, we recommend that you
+- [30:57] guys upgrade to this model." And so I
+- [30:59] did that. I took my agent and I just
+- [31:00] flipped the switch and I changed the LLM
+- [31:02] from from 4 Turbo to 40. and things were
+- [31:07] better in some ways, but then it started
+- [31:08] having these like super weird
+- [31:10] hallucinations
+- [31:11] because different LLMs, even if it's
+- [31:13] like supposed to be just a straightup
+- [31:15] better LLM, they understand system
+- [31:17] prompts in different ways and they take
+- [31:19] actions in different ways. And so, you
+- [31:20] have to be very careful for that. You
+- [31:22] can't just swap your LLM, push your
+- [31:25] agent to production with that change,
+- [31:26] and then just call it good. Like, you
+- [31:27] have to do a lot of testing under the
+- [31:29] hood to make sure that your system
+- [31:30] prompt still holds for that new LM that
+- [31:33] you're using. Because like I said, even
+- [31:34] if the LLM is better, that doesn't
+- [31:35] actually mean that your agent is going
+- [31:37] to perform better. You might have to
+- [31:39] tweak your system prompt. You might have
+- [31:41] to um even change your tools that you
+- [31:44] have for your agent. I mean, hopefully
+- [31:45] you wouldn't have to do that. Usually,
+- [31:46] it's just changing the system prompt.
+- [31:48] That still has to happen a lot. And
+- [31:50] we've seen that before with other things
+- [31:52] like bolt.diy as well. Um, and like I
+- [31:54] think Bolt. New had this even happen as
+- [31:57] well where like they were originally
+- [31:58] running with cloud 3.5 sonnet and then
+- [32:01] when they changed to cloud 3.7 sonnet,
+- [32:03] they had to tweak their system prompt a
+- [32:05] ton. Um, like actually more than you
+- [32:07] would think. And so, yeah, it's really
+- [32:08] good to just keep that in mind in
+- [32:09] general. And then also, your favorite
+- [32:13] LLM isn't always the best. And I see
+- [32:16] this happen a lot. I've been prone to
+- [32:17] this myself even where I get super
+- [32:19] attached to a specific LLM and I don't
+- [32:23] really consider using other ones even
+- [32:24] though I know deep down that there are
+- [32:27] different LLMs that are better at
+- [32:29] different things. Like sometimes you
+- [32:31] might get really attached to Claude 3.7
+- [32:33] Sonnet. Like that's just your favorite
+- [32:35] LLM and you try to use it all of the
+- [32:36] time. And I find Claude 3.7 Sonnet um to
+- [32:40] generally be the best LLM for coding um
+- [32:43] overall. I mean there's a lot of debate
+- [32:45] for that but then Gemini 2.5 Pro I find
+- [32:47] works better for more of my creative
+- [32:49] agents like they need kind of like
+- [32:51] writing assistant or something like that
+- [32:53] and so just knowing those differences of
+- [32:55] when different LLMs work better and not
+- [32:58] just being super stubborn and always
+- [32:59] sticking with one like that is super
+- [33:01] important. Like maybe you love using the
+- [33:02] Quen models like the new Quen 3 that was
+- [33:05] just released. Um, but you might find
+- [33:07] with a little bit of testing and if you
+- [33:08] allow yourself to explore that once in a
+- [33:10] while with a little bit of testing that
+- [33:11] mistrol actually works better for one or
+- [33:13] two your agents for example and so then
+- [33:15] you can switch to that for your local AI
+- [33:17] implementation. So yeah, it's just
+- [33:18] important to be open-minded especially
+- [33:21] as more and more LM are released being
+- [33:22] willing to like test those and not just
+- [33:24] like look at the benchmarks and try to
+- [33:25] make a snap decision based off that. And
+- [33:28] it's easy to swap LLMs and test things
+- [33:29] really quickly so it's worth doing so.
+- [33:33] And then the last lesson that I have
+- [33:35] from LLM specifically is that you want
+- [33:38] to watch your context links. And this
+- [33:41] applies mostly to local LLMs. Um because
+- [33:44] especially like a lot of the big guys
+- [33:46] now like Gemini 2.5 Pro or Llama 4,
+- [33:51] Claude, like they all have such long
+- [33:53] context lengths that you usually don't
+- [33:55] hit that limit anymore. But there still
+- [33:57] are a lot of LLMs where you do. um like
+- [34:00] a lot of OpenAI's models are 128,000
+- [34:02] tokens for their contacts length. Like
+- [34:04] you can definitely hit that if you um
+- [34:06] are retrieving a bunch of chunks from
+- [34:07] rag or pasting in big documents. And
+- [34:10] then local LLMs oftentimes have a lot
+- [34:12] smaller contacts limits like 32,000
+- [34:14] tokens. And you'll often hit those
+- [34:16] because the biggest thing is that the
+- [34:18] conversation history is a part of the
+- [34:20] prompt to the LLM. And so as you're
+- [34:22] sending in more messages and having a
+- [34:23] longer conversation, you can hit this
+- [34:25] limit. And the problem is once you hit
+- [34:27] that limit, you start to lose part of
+- [34:29] the conversation. It's it's included in
+- [34:31] this like forgotten context at the end
+- [34:33] here because the limit only spans this
+- [34:37] part of the conversation.
+- [34:39] And the very important thing to keep in
+- [34:41] mind with this is that the system prompt
+- [34:43] like your general instructions to the
+- [34:45] agent that we've already covered, that's
+- [34:47] generally included at the very top of a
+- [34:50] conversation because it's the highlevel
+- [34:51] instructions. And so when you hit that
+- [34:53] context length, you'll see that the
+- [34:55] system prompt is the first thing to go.
+- [34:58] You start to lose those instructions for
+- [34:59] the agent. And so you'll see this a lot
+- [35:01] with local LMS especially when the agent
+- [35:04] starts to seem to just completely forget
+- [35:06] your instructions and not understand how
+- [35:08] to use the tools anymore. That's
+- [35:10] generally because you hit the context
+- [35:12] length and now you're starting to lose
+- [35:14] your system prompt. So it doesn't even
+- [35:15] know it has access to the web search
+- [35:17] tool anymore. So if it's not calling in
+- [35:19] a brave anymore and you have no idea why
+- [35:21] you're in a longer conversation, it's
+- [35:22] definitely because of a context limit
+- [35:24] issue. So certainly good to keep that in
+- [35:27] mind. Um and so yeah, that brings us
+- [35:30] into the memory systems here, long-term
+- [35:33] and short-term memory. So I've got a few
+- [35:35] lessons for this as well. The first one
+- [35:38] for short-term memory is that previous
+- [35:41] hallucinations are likely to be repeated
+- [35:44] by the agent. And I've got another
+- [35:47] really simple example here that I just
+- [35:48] had Claude generate for me. And usually
+- [35:51] it's not going to be this small of a
+- [35:53] conversation for this issue to crop up,
+- [35:56] but it just demonstrates it well. So
+- [35:58] like in this case, the user is asking uh
+- [36:00] when was to kill Kill a Mockingbird
+- [36:02] published and then the AI said it was
+- [36:04] published in 1962. And then you as the
+- [36:07] user, you'll correct it and you'll say
+- [36:10] no actually it was published in 1960.
+- [36:12] And then you guys have all probably seen
+- [36:14] this before when you corre correct the
+- [36:15] LLM. It'll say something like, "You're
+- [36:17] absolutely right. I apologize for the
+- [36:18] error. Yes, it was indeed published in
+- [36:21] 1960."
+- [36:23] And so then now you would think that it
+- [36:24] would have that correct information. But
+- [36:27] then if you continue the conversation a
+- [36:29] while and you come back and say
+- [36:30] something like, "Tell me about Harper
+- [36:32] Lee and her famous novel." It might
+- [36:34] repeat that hallucination that it was
+- [36:36] published in 1962.
+- [36:38] And you'll see this a lot where even
+- [36:41] though you corrected its mistake, it'll
+- [36:43] still repeat it in the same
+- [36:44] conversation. And that's one of the
+- [36:46] reasons why it's really dangerous to
+- [36:48] have long conversations, especially in
+- [36:50] things like your AI coding assistance
+- [36:51] because if it understood something
+- [36:53] incorrectly in your codebase or in the
+- [36:55] conversation previously, it might make
+- [36:58] that same mistake again. I've seen this
+- [37:00] before where like there was an error
+- [37:02] invoking a tool like the web search tool
+- [37:05] and then later on the conversation you
+- [37:07] ask it to do the web search again and
+- [37:09] it'll say that it can't like it won't
+- [37:11] even try because it just knows from the
+- [37:13] previous point of the conversation that
+- [37:15] that didn't work even if you told it
+- [37:17] later that oh yeah you just did this
+- [37:19] thing wrong that's why it didn't work.
+- [37:20] So yeah, that's one big reason why you
+- [37:22] want to start new conversations quite
+- [37:24] often with your agents and AI coding
+- [37:26] assistants.
+- [37:29] And the next thing here, I've got the uh
+- [37:31] prototype pulled up for the N8N agent
+- [37:34] that we build in the AI agent mastery
+- [37:36] course because the biggest thing that
+- [37:38] helped me understand long-term memory
+- [37:40] better, and like maybe this is obvious
+- [37:41] for a lot of you guys, but this really
+- [37:43] hit home for me, is that long-term
+- [37:45] memory for your agents is just another
+- [37:47] rag. Like that's literally all it is. So
+- [37:50] within our prototype here we have the
+- [37:51] tool for our agent to retrieve memories
+- [37:55] and then we have the tool for it to
+- [37:57] retrieve documents. Both of these just
+- [37:59] using rag like you can see that the tool
+- [38:01] is exactly the same. And then the way
+- [38:03] that we insert memories into supabbase
+- [38:05] is using the exact same node in n as how
+- [38:08] we insert our documents into superbase
+- [38:11] within our rag pipeline. And the reason
+- [38:14] this is so important is because a lot of
+- [38:16] these strategies that we learn for
+- [38:19] better rag retrieval like query
+- [38:22] expansion or re-ranking like all of
+- [38:24] these nitty-gritty strategies which I'm
+- [38:26] going to be covering in the live
+- [38:27] workshop this Friday by the way. So go
+- [38:29] to the events tab and check that out if
+- [38:31] you're interested. I'm going to be
+- [38:32] diving into rag strategies. But a lot of
+- [38:34] those rag strategies apply to working
+- [38:36] with long-term memory as well because it
+- [38:38] just is essentially another table in
+- [38:40] your vector database just with memories
+- [38:42] generated by the agent instead of
+- [38:45] documents that you're pulling from your
+- [38:46] data source like Google Drive, your
+- [38:48] local files, SharePoint, whatever that
+- [38:50] might be. And obviously not all of the
+- [38:53] strategies will apply to memories and
+- [38:55] like you have to treat them differently
+- [38:57] than your documents. Um, but in general,
+- [38:59] a lot of those ways to make rag more
+- [39:02] accurate are going to apply to memories
+- [39:03] as well. So, really good to know that.
+- [39:06] Um, and then the last memory lesson that
+- [39:09] I have here
+- [39:11] is that you want to include tool calls
+- [39:14] in your conversation history. And I I
+- [39:17] got this nice diagram actually from a
+- [39:18] lang chain documentation page that shows
+- [39:20] what I mean by this. So typically what
+- [39:23] I've I've seen people do this a lot and
+- [39:25] actually it's really unfortunate. The
+- [39:27] NAND agents do this as well where they
+- [39:30] don't include in the conversation
+- [39:32] history anything related to tools and so
+- [39:35] you store the human message then the
+- [39:37] agent response and then you just flip
+- [39:39] back and forth between these and that
+- [39:40] makes up your entire conversation.
+- [39:43] But really what we want to do is we want
+- [39:45] to include everything related to the
+- [39:48] tools as well. So whenever the agent
+- [39:50] makes a request to use a tool like send
+- [39:53] an email or read a Slack message, we
+- [39:55] want to include that request and then
+- [39:57] the response that we get back from
+- [39:59] calling this tool like here is the
+- [40:01] message or here's the action and the
+- [40:04] success from that like we want to store
+- [40:06] that in the conversation history. And
+- [40:08] the reason for that is because a lot of
+- [40:10] times the agent can re-reference things
+- [40:12] that were returned by the tool calls in
+- [40:14] a subsequent request that we have for it
+- [40:16] in the conversation. As a good example
+- [40:18] of this, uh we have rag. Like when you
+- [40:21] you perform a search in your vector
+- [40:23] database and you retrieve relevant
+- [40:25] chunks, the agent is going to use that
+- [40:27] to then answer the user's message. But
+- [40:29] then the user might have a follow-up
+- [40:31] message that could also be answered from
+- [40:34] the chunks that it retrieved from that
+- [40:36] first rag lookup. And so if we have the
+- [40:39] tool responses as a part of the
+- [40:41] conversation history, the agent can
+- [40:43] re-reference that to answer the second
+- [40:45] user question without having to do
+- [40:47] another lookup. So it's just faster and
+- [40:50] it just makes the agent more likely to
+- [40:52] give a correct response because it's
+- [40:54] referencing things that it already
+- [40:55] retrieved successfully. And so we don't
+- [40:58] have that at all if we just don't in if
+- [41:00] we don't store the tool calls and
+- [41:02] responses in the conversation. Very very
+- [41:04] very important.
+- [41:06] And then the very last one that I want
+- [41:08] to cover here is and I'm going to give
+- [41:11] maybe like seven minutes to try to get
+- [41:13] through this pretty quickly here because
+- [41:14] I want to do some time with uh for Q&A
+- [41:16] with you guys. I want to focus on the
+- [41:18] tools briefly here and really I want to
+- [41:20] just dive into the anatomy of a good
+- [41:22] tool. How you can set up a tool all the
+- [41:25] different components and I want this to
+- [41:26] apply no matter the tool or framework
+- [41:28] that you're using. So if you're using
+- [41:29] N8N or Pantic AI, Crew AI, Lang Chain,
+- [41:32] whatever it is, like everything that I'm
+- [41:33] talking about for tools here are going
+- [41:35] to apply. And so the first thing is the
+- [41:38] descriptions that you give to your tools
+- [41:41] are key because everything that you give
+- [41:43] as a part of the tool description is
+- [41:46] indeed included in the prompt to the LLM
+- [41:48] to tell it when and how to use a tool.
+- [41:51] And so it's worth being pretty
+- [41:53] descriptive here. And so telling the
+- [41:56] agent like what's the purpose of this
+- [41:58] tool? How do you call it? What are the
+- [42:00] arguments that are here? Like for this
+- [42:02] rag tool, we have to pass in some kind
+- [42:04] of query so that we can search the
+- [42:06] vector database with that query. And my
+- [42:09] general rule of thumb when working with
+- [42:11] tools in general is that the tool
+- [42:13] description like what we're looking at
+- [42:15] right here, that is your place to tell
+- [42:17] the agent how to use the tool, this
+- [42:20] individual tool. And then the system
+- [42:22] prompt is where you can tell the agent
+- [42:24] how to use different tools together. And
+- [42:27] so that is where you kind of zoom out at
+- [42:29] a higher level. How do you incorporate
+- [42:31] these tools together to accomplish a
+- [42:32] single goal? And then the tool
+- [42:34] description is where you hone in on all
+- [42:36] of the nitty-gritty details for an
+- [42:38] individual tool. And both are very
+- [42:40] important because a lot of times you
+- [42:42] don't want to just use one tool per
+- [42:44] execution. Like you want your agents to
+- [42:45] reason about how they can use different
+- [42:47] tools together. And so that's why you
+- [42:48] want to include that in the system
+- [42:49] prompt as well.
+- [42:51] And then the next one is for more
+- [42:53] complex tools especially just like we do
+- [42:56] in our system prompts we want to give
+- [42:58] examples specifically examples for what
+- [43:01] the parameters might look like. So like
+- [43:03] for this rag this retrieval tool for the
+- [43:06] user query we're giving it some examples
+- [43:08] of how we want to format the queries
+- [43:10] that we would use to search the vector
+- [43:12] database.
+- [43:13] And so, like I said, for very simple
+- [43:15] tools or especially ones that don't have
+- [43:17] any parameters at all, like if we just
+- [43:19] want to fetch the channels that are
+- [43:22] available to us in Slack, for example,
+- [43:24] we might not need examples, but
+- [43:25] oftentimes they can be very helpful,
+- [43:27] especially when our parameters might be
+- [43:28] a little bit more complex or we're very
+- [43:30] particular about how we wanted to format
+- [43:33] things like our queries.
+- [43:35] And then also for pretty much all of
+- [43:37] your tools, you want to catch the errors
+- [43:41] and then return the problem to the
+- [43:42] agent. And so you'll see this in my
+- [43:45] template that I have for module 4 of the
+- [43:47] pyantic a the pantic AI agent for um the
+- [43:50] AI agent mastery course. Every single
+- [43:53] tool that I create for the agent, I
+- [43:55] always wrap the entire thing in a try
+- [43:57] block and then I have an accept here.
+- [43:59] And you can do something similar in in
+- [44:01] N8N with um the like error workflows and
+- [44:04] for any other framework like this. I'm
+- [44:07] showing a tool from my Pantic AI agent,
+- [44:09] but you can set up something pretty much
+- [44:10] the exact same in any framework as well
+- [44:12] like Crew AI or Eggno or whatever that
+- [44:14] is. You just catch any exception here.
+- [44:17] And the reason you want to do this is
+- [44:18] there's twofold. The first is that if an
+- [44:21] agent uses a tool incorrectly, you don't
+- [44:24] want your application to crash.
+- [44:26] Sometimes a tool is going to fail just
+- [44:27] because the agent hallucinated a bad
+- [44:29] parameter. It's not because your code is
+- [44:32] actually bad. And so you don't want to
+- [44:34] just like, you know, crash the entire
+- [44:35] application. The other thing is that
+- [44:38] when you tell the agent exactly what
+- [44:40] went wrong, and I don't really do that
+- [44:42] here. This isn't a best example cuz I
+- [44:44] just returned an empty list. But if you
+- [44:45] were to maybe return an empty list and
+- [44:47] some error message as well, you can tell
+- [44:49] the agent what went wrong with the tool
+- [44:51] call so that it has a chance to maybe
+- [44:53] invoke the tool a second time fixing up
+- [44:56] the parameters or whatever might have
+- [44:57] caused that error. And so that kind of
+- [45:00] just gives it another level of reasoning
+- [45:02] like not only what tools should I call
+- [45:03] on how, but also how should I reinvoke
+- [45:06] them if there are any issues that come
+- [45:08] up. It's very powerful.
+- [45:10] And then the next thing is for your
+- [45:13] tools. You want to be very careful to
+- [45:15] only return what the LLM needs to know.
+- [45:19] And this actually came up in in our
+- [45:21] community yesterday. Someone was talking
+- [45:23] about using the um Shopify API. Mark was
+- [45:25] talking about using the Shopify API in
+- [45:27] one of his agents. And for the tool
+- [45:29] calls that invoke the Shopify API, the
+- [45:33] results that you get back, like this is
+- [45:35] what we're doing at Superbase. We're
+- [45:36] fetching a bunch of records from
+- [45:38] Superbase and we're storing that in
+- [45:40] result here. But often times when we're
+- [45:42] using APIs from different services like
+- [45:44] Superbase or Shopify, what we have in
+- [45:47] results is going to include a lot of
+- [45:49] metadata like maybe the time for this
+- [45:51] query or other pieces of information
+- [45:54] that we need related to the query that
+- [45:56] isn't like just the data that we care
+- [45:58] about. And there's going to be a lot
+- [46:00] more included usually. And so you want
+- [46:02] to make sure that what you return is
+- [46:04] just the information that you care about
+- [46:06] giving back to the LLM. Like in this
+- [46:07] case, we only care about sending back
+- [46:08] the actual data. That's why I'm doing
+- [46:10] results data and not just result. I
+- [46:13] could be lazy and just send in the
+- [46:15] entire result to the LLM. But if that
+- [46:18] includes this massive JSON body from the
+- [46:20] API with a ton of extra information, I
+- [46:23] risk overwhelming the LLM and just
+- [46:25] making it so it doesn't correctly pick
+- [46:26] out of that JSON the information that it
+- [46:29] actually cares about having. And so
+- [46:30] that's why you want to format things.
+- [46:32] And you'll see that as well with all the
+- [46:34] different tools that I set up um within
+- [46:36] the AI agent mastery course. And then
+- [46:39] the very very last thing that I want to
+- [46:41] cover with you guys, the last lesson,
+- [46:43] the 20th one that I've got for you is in
+- [46:46] general what the anatomy of a good tool
+- [46:48] looks like. And um this is kind of hard
+- [46:50] to see. So I'm going to see if I can
+- [46:52] actually pull this up um within Windsurf
+- [46:56] here because I have I have this example
+- [46:57] live instead of just in a slide here.
+- [46:59] So, let me zoom in on this um because I
+- [47:01] want to just show you really quickly the
+- [47:03] anatomy of a good tool. And so, a lot of
+- [47:05] this is just covering what I've already
+- [47:07] showed um for the different tips that I
+- [47:09] have, the different lessons for tools,
+- [47:10] but I just want to quickly like tell you
+- [47:13] how this all applies in a single tool
+- [47:14] here. So, this is my full tool for rag.
+- [47:18] You give some kind of user query. It'll
+- [47:20] search the vector database and it'll
+- [47:22] return the relevant chunks for the agent
+- [47:23] to uh use that to aid in answering the
+- [47:26] user's question. And so the first thing
+- [47:28] is we've got the examples in the prompt
+- [47:30] and I have a very detailed prompt here
+- [47:32] including different arguments that we
+- [47:33] have for this tool. And then we have the
+- [47:36] whole thing wrapped in a try catch
+- [47:38] block. So I've got the try and then the
+- [47:39] accept at the end. When we get an error
+- [47:42] retrieving the documents from rag, I
+- [47:44] also tell the agent exactly what that
+- [47:46] error is. So the response includes the
+- [47:48] error message itself so it can reason
+- [47:50] about how to fix that problem when it
+- [47:53] would maybe invoke this tool a second
+- [47:55] time. And then the other thing that I
+- [47:58] wanted to show you here uh for the
+- [48:00] anatomy of a good tool is what I talked
+- [48:02] about just a little bit ago where you
+- [48:03] want to only return the information that
+- [48:05] is relevant to the agent. So in this
+- [48:06] case when we get this result from
+- [48:08] superbase and we're calling that match
+- [48:10] document function for rag. We are
+- [48:12] getting all the documents and then we're
+- [48:14] just going to loop over them and create
+- [48:16] this string for each document that
+- [48:18] includes the ID, the title, the URL, all
+- [48:20] that important metadata and then the
+- [48:22] content of that chunk as well. We don't
+- [48:24] need anything else. And trust me, there
+- [48:26] is a lot more that we get back from this
+- [48:29] result object. And so that's how we make
+- [48:31] sure that we're only giving what we
+- [48:32] actually care about the LLM receiving.
+- [48:34] And then we're just returning that as a
+- [48:36] nicely formatted string. Because just
+- [48:38] like humans benefit from having things
+- [48:40] well formatted for them, agents also
+- [48:44] benefit in the same way. And that's
+- [48:45] often why oftentimes why you hear
+- [48:47] markdown as being the best format for
+- [48:50] agents is because markdown just formats
+- [48:53] things very nicely. Like let me open up
+- [48:55] a readme here so I can show you like
+- [48:57] this readme file. Like this is using
+- [48:59] markdown where we have sections and
+- [49:01] numbers and subheadings and um code
+- [49:04] blocks and things like that. Like all of
+- [49:05] that just makes it so that the agent has
+- [49:08] a better idea of how things are
+- [49:09] structured. And so that's why also in my
+- [49:11] tools I'll spend the time I'll I'll
+- [49:13] actually code out creating a well
+- [49:15] formatted string to give back to the
+- [49:18] agent. Um but yeah, what I'm going to do
+- [49:20] now is I'm going to enable Q&A. And so
+- [49:23] I'll try to go through some questions in
+- [49:24] the regular chat as well. Um, but yeah,
+- [49:27] I I hope that those lessons made sense
+- [49:29] to you guys. I hope that even if you're
+- [49:31] like an expert at building agents, at
+- [49:32] least a few of those like, "Oh yeah, I
+- [49:34] didn't really think about it that way."
+- [49:35] I just hope that that can help you um
+- [49:36] build more effective agents. And so,
+- [49:39] yeah, I just want to spend some time
+- [49:40] with some questions for you guys for 10
+- [49:42] or 15 minutes here before we wrap it up.
+- [49:45] Um, but yeah, let me go through the chat
+- [49:46] and see if I can find anything. And then
+- [49:48] also you guys can feel free to start
+- [49:50] posting in the uh Q&A channel as well.
+- [49:53] Yeah, first congratulations on a booming
+- [49:55] community. Thank you very much. I
+- [49:56] appreciate it. Uh and your question, my
+- [49:58] tools are not forming properly. There's
+- [50:00] no syntax error but still can't get my
+- [50:01] agent to start using tools. What might
+- [50:04] be the problem? Yeah. So I mean this
+- [50:06] depends a lot on what exactly you're
+- [50:08] building with like if it's N8N or Pantic
+- [50:10] AI. So I'd be curious on that. Um
+- [50:13] because it yeah kind of sounds like the
+- [50:14] thing that I have to dive into a little
+- [50:15] bit more to really be able to to say um
+- [50:18] because there are a lot of things that
+- [50:19] could be wrong there. Um syntax there's
+- [50:23] no syntax error but I can't get my agent
+- [50:25] to start using the tools because it
+- [50:26] seems like there might just be like a
+- [50:28] connection error there between the agent
+- [50:29] and the tool. Um so I guess my first
+- [50:32] question is like will the agent ever use
+- [50:34] the tool or are you hitting a snag there
+- [50:35] where it doesn't even seem to recognize
+- [50:37] that the tool is there? So I'd start
+- [50:39] with that. hard to give like something
+- [50:40] super concrete um at that point. Um
+- [50:44] yeah, let's see. Fred, are there ways to
+- [50:46] lock in the system prompt so it does not
+- [50:48] scroll off as the context gets long?
+- [50:50] Perhaps encapsulating the system prompt
+- [50:52] information as memory.
+- [50:54] So, you kind of can. I mean, you could
+- [50:56] take the instructions from the system
+- [50:58] prompt and just like prepend the the
+- [51:00] latest user message with that. Like here
+- [51:03] are some instructions. Now, here is the
+- [51:05] user message. Like, you can send that in
+- [51:06] as the latest prompt to the LLM. So you
+- [51:09] could definitely do that or you could
+- [51:11] kind of like you're saying have your
+- [51:13] general goals and preferences and and
+- [51:15] instructions as a part of the uh
+- [51:17] long-term memory. So it could retrieve
+- [51:18] that and have that as a part of the
+- [51:20] latest user message as well. So, you
+- [51:22] definitely can. Um, generally what I
+- [51:24] would say though is like if you're
+- [51:25] getting if you're hitting a problem
+- [51:28] where the system prompt is starting to
+- [51:29] get cut off, you're going to want to
+- [51:31] resolve that anyway because if it gets
+- [51:33] through the system prompt and it loses
+- [51:35] the entire system prompt, then you're
+- [51:36] going to start losing parts of the
+- [51:37] conversation as well. So, it's still
+- [51:39] going to be a problem. Like, you don't
+- [51:40] really want to work around this issue
+- [51:41] and and like leave the issue as it is.
+- [51:44] definitely want to address that and
+- [51:45] either use a different LLM that can
+- [51:47] handle longer context or figure out how
+- [51:50] you can make sure you don't hit that
+- [51:51] context limit like maybe for rag agents
+- [51:53] you'll just return less chunks like
+- [51:55] whatever that might be I would
+- [51:56] definitely address that as a priority
+- [51:59] instead of trying to work around it u
+- [52:01] but good question though yeah and then
+- [52:03] Ryan asked do you have a specific method
+- [52:05] to optimize system prompts especially
+- [52:06] when switching between LLMs um and so
+- [52:09] yeah I don't want to get into this a ton
+- [52:11] right now but this is where LLM eval EV
+- [52:13] valuations really come in handy. Um,
+- [52:16] specifically LLM as a judge is a very
+- [52:19] powerful setup where you use another
+- [52:21] large language model to um, usually
+- [52:24] evaluate the responses from your agent.
+- [52:27] It can also generate the the requests to
+- [52:30] the agent as well and be used to
+- [52:32] automatically tune the system prompt. So
+- [52:34] it can create you would kind of like
+- [52:36] give it your system prompt, have it
+- [52:38] generate questions or requests to your
+- [52:40] agent, evaluate the output, and then
+- [52:42] automatically tweak the system prompt
+- [52:44] based on that. Um, and usually I find
+- [52:47] that like manually adjusting the system
+- [52:49] prompt is more powerful, but you can go
+- [52:50] down that route if you want. But yeah,
+- [52:52] usually it's either going to be like
+- [52:53] having some sort of automated evaluation
+- [52:55] and adjusting the prompt yourself based
+- [52:57] on those results or just having an LLM
+- [53:00] as a judge kind of like on either end
+- [53:01] automatically tweaking the system
+- [53:03] prompt.
+- [53:04] Yeah, good question.
+- [53:07] Um, next up,
+- [53:11] oh, I gotta scroll down. Whenever I
+- [53:13] click into the replies for a Q&A and I
+- [53:14] go back out, I have to scroll back down,
+- [53:16] which is kind of unfortunate. Um, yeah,
+- [53:19] I have a workflow where there is a
+- [53:20] WhatsApp chatbot using Puppeteer. Uh,
+- [53:23] didn't provide an API key.
+- [53:26] I use an API key that processes the
+- [53:28] payment system. I only use the AI agent
+- [53:31] in the conversation part of the chatbot.
+- [53:33] the rest I set with a classifier direct
+- [53:34] different actions such as creating a
+- [53:37] balance, depositing, withdrawing. You
+- [53:38] think my approach is good? Um, yeah. I
+- [53:41] mean, that sounds good to me. Um, in in
+- [53:44] order for me to like really like give
+- [53:46] you a solid like yes or no, I'd probably
+- [53:48] have to see it a bit more because this
+- [53:50] seems like quite an involved workflow.
+- [53:53] Um, but I guess I'm curious like what
+- [53:56] exactly your thought is with the
+- [53:58] classifier there. Um, I mean it sounds
+- [54:00] good, but I yeah, I definitely have to
+- [54:02] take a bit more of a closer look at
+- [54:04] that. I mean, and and honestly, like you
+- [54:06] could you could build out both
+- [54:08] approaches because the tools will kind
+- [54:10] of be the same. Like those actions that
+- [54:12] you take either directed by the agent or
+- [54:14] just buy like a separate classifier like
+- [54:16] a um m like an ML setup there. Like you
+- [54:19] could definitely just test both um reuse
+- [54:21] those actions and see what works better.
+- [54:24] Um but yeah, I mean that looks that's
+- [54:25] looks like a really cool use case by the
+- [54:27] way. Like that's awesome.
+- [54:29] Um, Eric asked, "Thank you for these
+- [54:32] lessons. Gold." I appreciate very much,
+- [54:34] Eric. Uh, where in the community can I
+- [54:35] refer back to it? Yeah, good, good
+- [54:37] question. So, all of the events that I
+- [54:40] have in Dynamus, these work or these
+- [54:42] events and then like workshops that I
+- [54:43] do, anything is going to be
+- [54:45] automatically recorded and then the
+- [54:46] recording will be uploaded within like
+- [54:48] around 30 minutes of the event being
+- [54:50] complete. And the way that you can go
+- [54:52] back to that, um, actually, let me share
+- [54:54] my screen quick. So here in the homepage
+- [54:57] of Dynamus, you can go to the events
+- [54:59] calendar. You can click on any past
+- [55:01] event like I can go to the community
+- [55:03] introduction from yesterday and then
+- [55:05] click into it. Go to the page for this
+- [55:07] past event and then the recording will
+- [55:09] be right here for you to view. Um and so
+- [55:12] that'll be uploaded within 30 minutes of
+- [55:13] the event being complete. So very very
+- [55:15] easy to go back through those events.
+- [55:17] You can also go to the live events tab
+- [55:19] and then instead of um just viewing the
+- [55:21] upcoming events, you can view past
+- [55:23] events and then you can also get into
+- [55:24] that event view um this way just like we
+- [55:27] did through the calendar. So super easy
+- [55:29] to view those um those past events and
+- [55:32] get the recordings for those.
+- [55:34] But yeah, good question. All right,
+- [55:38] let's see. We got a few more questions
+- [55:40] here and then I will wrap it up. So it
+- [55:42] looks like we got four more. So I'll try
+- [55:43] to get through these four more that we
+- [55:44] have in the Q&A. Uh, and then I think I
+- [55:47] will call it there. Um, yeah, thank you,
+- [55:50] Max, by the way. Appreciate it. You are
+- [55:52] very welcome. Thank you, Andrea.
+- [55:55] Appreciate it, guys. I'm just taking a
+- [55:56] look at the uh regular chat quick here
+- [55:58] and then yeah, let me go back to the
+- [55:59] Q&A.
+- [56:01] All right, scroll down.
+- [56:04] Patrick asked, "With image recognition,
+- [56:06] is there a way to use examples?"
+- [56:07] Examples here are the attributes from
+- [56:09] this image and use this as an example
+- [56:11] when classifying other images.
+- [56:14] So typically
+- [56:16] for like an image recognition like if
+- [56:18] you're talking about like a machine
+- [56:19] learning algorithm or like a model that
+- [56:21] you're custom model that you're building
+- [56:22] up like a CNN or something the examples
+- [56:25] would be more like your input when
+- [56:26] you're training the model. Um so I I
+- [56:29] guess I'm not quite understanding your
+- [56:31] question unless you're talking about
+- [56:32] like using an LLM specifically with
+- [56:34] image analysis like not building your
+- [56:35] own image recognition model. Um, I'm not
+- [56:39] sure if you mean that example here are
+- [56:41] the attributes from this image and use
+- [56:43] this as an example when classifying
+- [56:45] other images. Um, because if you mean
+- [56:48] just like using LLM with vision
+- [56:49] capabilities, you could definitely like
+- [56:51] include an image as a part of your
+- [56:53] prompt like you kind of do like like um
+- [56:56] twoot prompting where where you'd be
+- [56:58] like here's an image and then here's how
+- [57:01] I want you to classify it. Now here's
+- [57:03] another image. How would you classify
+- [57:04] this? like you could definitely do that
+- [57:06] just as it wouldn't be a part of your
+- [57:07] system prompt. It would just be like a
+- [57:09] part of your user prompt doing something
+- [57:11] like a twoot prompting.
+- [57:14] Um yeah, but good question though. Brian
+- [57:16] asks, "Have you found that there is a
+- [57:17] limit to how many agents you can have
+- [57:19] under an orchestrator? Will it
+- [57:20] eventually get confused?" Yeah, so there
+- [57:22] there certainly is a limit. Um because
+- [57:24] just like you can overwhelm an LLM with
+- [57:26] too many regular tools since each sub
+- [57:28] aent is essentially another tool, you
+- [57:32] can definitely run into that issue where
+- [57:34] um there you might have like 20
+- [57:36] different sub aents and that can start
+- [57:37] to overwhelm the LLM. As far as how many
+- [57:40] it takes to overwhelm because it's
+- [57:43] usually pretty simple like here is your
+- [57:45] Slack agent, here's your data analytics
+- [57:48] agent, here's your database agent. like
+- [57:50] it's usually pretty easy for the
+- [57:51] orchestrator to know when to call into
+- [57:53] each of them. You can go pretty far.
+- [57:55] Like you can have a good number of sub
+- [57:57] aents under the orchestrator. Um like
+- [57:59] I've seen as many as like 15 to 20 and
+- [58:02] like it still works really well because
+- [58:03] usually that handoff is just really
+- [58:05] really simple. Um but like if you really
+- [58:08] want to get fancy, you can start to have
+- [58:09] like an orchestrator that has sub
+- [58:11] orchestrators. Um I don't find that to
+- [58:14] be necessary like ever. Um, but you
+- [58:16] definitely could do that if you just
+- [58:17] want to like kind of create this
+- [58:18] hierarchy of agents to like really make
+- [58:20] sure that you never have more than 10
+- [58:22] tools for any given agent or whatever
+- [58:23] that might be. Um, but yeah, usually I
+- [58:26] don't find this to be an issue because
+- [58:27] if you have an agent that you actually
+- [58:30] want to orchestrate like 50 different
+- [58:32] sub aents, you've probably got more of a
+- [58:34] problem there where you're just trying
+- [58:35] to do too much with one application and
+- [58:37] you might want to split that into
+- [58:38] different things in the first place as
+- [58:40] like entirely separate applications.
+- [58:42] Yeah, good question.
+- [58:46] All right, next one. Is there a video in
+- [58:49] the community for vibe coding full stack
+- [58:52] app in Pantic AI? Any vibe coding for a
+- [58:54] serverless app? Yeah, so as one of the
+- [58:57] videos in module four in the AI agent
+- [58:59] mastery course, I talk about using AI
+- [59:01] coding assistance to help us build
+- [59:03] agents with Pyantic AI. And I and I will
+- [59:05] say that I I don't generally condone
+- [59:07] vibe coding overall. like I don't want
+- [59:10] to uh I don't want you to trust the LLM
+- [59:12] entirely when coding things. I want you
+- [59:14] to be able to validate its output. Um
+- [59:16] but certainly using AI coding assistance
+- [59:17] is a big thing that I focus on for at
+- [59:19] least kind of getting that first 90% of
+- [59:21] the code created and then then you just
+- [59:22] perfecting it and fixing any errors that
+- [59:24] come up yourself. And then as far as
+- [59:27] vibe coding um a full stack app, that is
+- [59:30] something I'll cover more in module five
+- [59:32] of the AI agent mastery course when I
+- [59:34] build a full application around the
+- [59:36] agent that we built in the previous
+- [59:37] modules. And then for serverless, um I
+- [59:41] will be covering serverless for
+- [59:43] deploying agents in module six.
+- [59:46] And so all that is coming soon. I want
+- [59:48] to get these modules out for you guys as
+- [59:50] soon as possible.
+- [59:52] Um is there a support for calendarly
+- [59:53] one-on-one session with colon team for
+- [59:55] query features or client requests? Yeah,
+- [59:58] good question. So, I'll be having um
+- [59:59] generally three office hour sessions a
+- [60:02] week, which aren't going to be
+- [60:03] one-on-one sessions um because obviously
+- [60:05] there's just like so many different
+- [60:07] questions that all you guys have,
+- [60:08] fantastic questions, but I got to be
+- [60:10] able to address um you know, a lot of
+- [60:12] people at the same time. And so, I I
+- [60:14] won't be offering one-on-one sessions,
+- [60:15] but the office hours are going to be
+- [60:16] your place to come in with specific
+- [60:18] questions on your projects or like when
+- [60:20] you want to just get into the
+- [60:20] nitty-gritty details of things like
+- [60:22] that's what I'm going to be offering.
+- [60:23] And I'm specifically offering many of
+- [60:25] those every single week just to make
+- [60:26] sure that there's so much time available
+- [60:28] for that that it's not going to be like
+- [60:30] 50 people coming into each office hour.
+- [60:32] It's going to be a very small group of
+- [60:33] people and we can all learn together at
+- [60:35] the same time as we're going through
+- [60:37] these questions as well. They can all be
+- [60:38] recorded sessions.
+- [60:41] Um yeah, then the last question that we
+- [60:43] have here and then I'll close it off for
+- [60:44] all of us. Got one from Tom. Um let's
+- [60:49] see. Let me got to scroll back down. All
+- [60:50] right. So Tom asked, "What are your
+- [60:51] thoughts about process the process of
+- [60:53] fine-tuning embedding models? I feel
+- [60:55] like this is an important building block
+- [60:57] for accurate responses from rag. Maybe
+- [60:58] you could visit this one of your
+- [60:59] videos." Yeah, absolutely. Great
+- [61:01] question. Fine-tuning embedding models
+- [61:04] is super super powerful and definitely
+- [61:06] something that I've been wanting to
+- [61:07] cover on my channel for a while. The
+- [61:10] biggest problem is it's a bit more
+- [61:12] involved than a lot of the things I like
+- [61:14] typically cover on my channel. So, it's
+- [61:15] just a it's a hard video to create and
+- [61:18] it's it's not going to be as easy for
+- [61:19] people to like resonate with that really
+- [61:21] quick like, oh yeah, I'm going to like
+- [61:22] go use this in N right now because it's
+- [61:24] not that simple. Um, but it is super
+- [61:26] super important and specifically I am
+- [61:28] going to be creating a course on
+- [61:30] knowledgebased agents like a rag
+- [61:32] specific course for Dynamis um sometime
+- [61:35] after the AI agent mastery course and
+- [61:37] fine-tuning embedding models is going to
+- [61:39] have a dedicated portion of that course
+- [61:41] for sure because it's super important.
+- [61:43] Um, so yeah, really good question.
+- [61:45] And yeah, something I definitely want to
+- [61:46] focus on.
+- [61:50] Oh, and then yeah, really quick one from
+- [61:51] David. If we've made changes to your
+- [61:52] repo, how can we submit them? You can
+- [61:54] make a poll request in any repo in the
+- [61:56] Dynamus organization if you want. And
+- [61:58] so, yeah, right now the AI agent mastery
+- [62:00] repo is the only one that we have. Um,
+- [62:02] so yeah, definitely feel free to make a
+- [62:04] PR if you fix something up or just have
+- [62:06] a new feature. I'll take a look and I'll
+- [62:07] be pretty picky about the things that I
+- [62:09] add into the repo. But yeah, I mean, if
+- [62:11] there's like an issue that's like
+- [62:12] seriously needs to be addressed or
+- [62:13] something that I can add into the
+- [62:15] package without having to redo a bunch
+- [62:17] of videos or anything, then yeah, I'm
+- [62:18] all yours for that. Um, so yeah, good
+- [62:20] questions. And um, let me remove that
+- [62:23] there. I'm going to go back to the chat.
+- [62:26] Uh, Jiren said, "Man, such good content.
+- [62:28] I appreciate it very much."
+- [62:30] Uh, yeah, Pan said, "Vive coding is 90%
+- [62:32] code in the future, so I believe having
+- [62:34] personalized coding agents should be a
+- [62:35] great add-on." Yeah, definitely.
+- [62:37] Definitely.
+- [62:39] Um, Aiden said, "Appreciate the help and
+- [62:41] knowledge you give." Yeah, thank you
+- [62:43] very much. I'm glad I'm glad that this
+- [62:45] has been helpful for you guys. Um, and
+- [62:46] yeah, with that, I'm generally going a
+- [62:48] little bit over in these events, but I
+- [62:50] just love answering all your guys'
+- [62:51] questions, and I appreciate them a ton.
+- [62:53] And thank you all for being here and
+- [62:55] just hearing me out on all the lessons
+- [62:56] that I've learned, at least a good chunk
+- [62:58] of lessons that I've learned from
+- [62:59] building agents over the years. So, I
+- [63:00] hope that was super helpful for you
+- [63:01] guys. And of course, if you have any
+- [63:03] questions on any of those lessons and
+- [63:05] you want me to elaborate on anything,
+- [63:07] like please ask away in the community,
+- [63:09] come to office hours next week with
+- [63:11] questions. Um, I'd love to help address
+- [63:13] anything more that you guys are curious
+- [63:15] about and specifically like how you can
+- [63:17] apply these lessons into your projects.
+- [63:18] I know that there's probably a lot of
+- [63:20] questions about that kind of stuff and
+- [63:21] so I'd love to get into the details of
+- [63:22] that with you as well. So, that is
+- [63:25] everything that I have for today. Thank
+- [63:26] you all for being here, for coming with
+- [63:28] such great questions as well. And I will
+- [63:30] see you guys around in the community.

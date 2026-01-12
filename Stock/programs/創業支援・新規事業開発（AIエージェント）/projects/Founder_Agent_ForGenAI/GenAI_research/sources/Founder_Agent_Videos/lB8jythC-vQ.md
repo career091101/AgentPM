@@ -1,0 +1,592 @@
+---
+title: "All right, so we're gonna welcome back Matt Marshall to the stage and he's going to be chatting with..."
+video_id: "lB8jythC-vQ"
+video_url: "https://www.youtube.com/watch?v=lB8jythC-vQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  All right, so we're gonna welcome back
+  Matt Marshall to the stage and he's
+  going to be chatting with Andrew at Deep
+key_points:
+  - "Yeah. Hopefully you can see me. Okay."
+  - "can they best do for enterprises today."
+  - "So maybe I share you a little bit of"
+  - "history of uh how agentic AI um came or"
+  - "never really uh told this story as"
+  - "response. Right? Today, we can prompt"
+  - "trying to develop workflows that are"
+  - "get it to write a report, we will let it"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: lB8jythC-vQ
+
+- URL: https://www.youtube.com/watch?v=lB8jythC-vQ
+- Retrieved at: 2025-12-30T16:06:59+09:00
+
+## Text
+
+- [00:00] All right, so we're gonna welcome back
+- [00:02] Matt Marshall to the stage and he's
+- [00:04] going to be chatting with Andrew at Deep
+- [00:07] Learning AI. Give it up for Matt and
+- [00:09] Andrew.
+- [00:11] So, welcome Andrew.
+- [00:14] Andrew and thank you. Hope you all see
+- [00:16] and hear me. It's great to be here.
+- [00:18] There he is.
+- [00:21] Yeah. Hopefully you can see me. Okay.
+- [00:24] So, hey Andrew, nice to meet you. So uh
+- [00:28] how do you define agentic a AI systems?
+- [00:32] I think there's a big question around
+- [00:33] just starting with that how and how what
+- [00:36] can they best do for enterprises today.
+- [00:40] So maybe I share you a little bit of
+- [00:41] history of uh how agentic AI um came or
+- [00:45] the term agentic AI came about. I've
+- [00:47] never really uh told this story as
+- [00:49] explicit as I'm planning to. About a
+- [00:51] year and a half ago, I saw that the
+- [00:53] technical development community was
+- [00:55] starting to build systems that wasn't
+- [00:57] just prompting an element and getting a
+- [00:59] response. Right? Today, we can prompt
+- [01:00] the AI model, get a response, but
+- [01:02] instead the technical community was
+- [01:04] trying to develop workflows that are
+- [01:06] more iterative where we could um it to
+- [01:09] get it to write a report, we will let it
+- [01:11] first write an outline, then do some web
+- [01:13] search, then write a first draft, then
+- [01:14] read this first draft, then critique and
+- [01:16] iterate and end up with a much better
+- [01:18] work output. So I saw and I was working
+- [01:20] on some of these systems myself able to
+- [01:22] deliver a much better response. But what
+- [01:24] happened in the technical community was
+- [01:26] there started to be these debates about
+- [01:28] is this really an agent or not and some
+- [01:30] people said all of this is an agent.
+- [01:33] Some people said to be an agent you need
+- [01:35] to be highly autonomous and take action
+- [01:36] and so on and I felt that this debate
+- [01:38] was um not that fruitful. So I came out
+- [01:42] and started using the word agentic AI
+- [01:44] and proposed to community let's stop
+- [01:46] having this debate. Let's think of it as
+- [01:48] having degrees of autonomy where some
+- [01:50] things you know simple enterprise
+- [01:52] workflow automation is less agentic and
+- [01:54] then there are things that um can be
+- [01:56] highly autonomous can carry a complex
+- [01:59] sequence of tasks all by itself without
+- [02:00] human intervention and the degrees of
+- [02:02] autonomy. So instead of debating uh what
+- [02:05] is an agent and what isn't let's just
+- [02:07] use the term agentic and think about it
+- [02:10] as degrees of autonomy and that shifted
+- [02:12] the terminology. So I think I obviously
+- [02:14] I still feel a little bit of a thrill
+- [02:15] when I see so many people use the term
+- [02:17] agent because frankly I I think I I push
+- [02:19] for that and and manage to make that
+- [02:21] happen. But it's been helpful to just
+- [02:23] move past the debate to um for all of us
+- [02:26] to then spend more time building these
+- [02:28] systems that instead of prompting them
+- [02:30] getting a response can take multiple
+- [02:32] steps. I'm seeing this having a huge
+- [02:34] impact on all sorts of enterprise
+- [02:35] workflows. Um I know there's been hype
+- [02:38] on AGI, artificial general intelligence
+- [02:40] or whatever. This idea that someday,
+- [02:42] yeah, we so intelligent, you know, we
+- [02:43] don't need humans or whatever. That is
+- [02:45] hype. That's really inaccurate. What
+- [02:47] will happen for businesses over the next
+- [02:49] I want to say decade would be my
+- [02:50] prediction will be we'll be looking at a
+- [02:52] lot of very complex workflows in
+- [02:54] enterprises current workflows and
+- [02:56] workflows that we aren't even doing
+- [02:57] today and figuring out how to implement
+- [02:59] them in these iterative multi-step
+- [03:01] agentic workflows and it will create a
+- [03:03] lot of value for businesses.
+- [03:05] Thanks Andrew. Great response. Um so
+- [03:09] these new reasoning AI models like
+- [03:12] OpenAI's 03 right or or Gemini 2.5
+- [03:16] um have ignited more interest in agents
+- [03:18] because they're smarter and trained to
+- [03:20] use tools natively. You're actually
+- [03:24] stating stating that dumber models like
+- [03:26] you you've talked about this like GPT3.5
+- [03:29] plus agents can actually beat smarter
+- [03:32] models like GPT4. That that was a study
+- [03:35] you did, right? 95% versus say 67%
+- [03:38] accuracy, right? So dumber model with
+- [03:41] agents beats smarter model. So do you
+- [03:44] see agentic design as the as the do you
+- [03:47] still see agentic design as the larger
+- [03:50] ROI lever or are we entering a phase
+- [03:53] where these reasoning models shift that
+- [03:56] balance as models get smarter and start
+- [03:58] to pull in more native tool usage and
+- [04:00] other functionality? How should
+- [04:01] developers think about this?
+- [04:04] So I think um reasoning models are a
+- [04:07] fantastic improvement over non-reing
+- [04:10] models and uh my teams and many other
+- [04:12] teams increasingly use reasoning models
+- [04:15] in part of an agentic workflow. Um so
+- [04:18] the core idea of AI agents is that
+- [04:20] instead of just prompting an element to
+- [04:22] get a response, you can map out a much
+- [04:25] more complex workflow. For example, we
+- [04:27] may have employees that are downloading
+- [04:29] a document, reading some fields, doing
+- [04:31] a, you know, internet search to make
+- [04:32] sure that someone about to sell to
+- [04:34] doesn't have compliance or whatever
+- [04:36] problems and then filling out in a
+- [04:37] different form and then looking up some
+- [04:39] code to figure out the tariffs and then
+- [04:41] and so on. So, we have a lot of complex
+- [04:42] multi-step enterprise workflows and um
+- [04:45] agentic systems are stepping in to do
+- [04:47] these complex multi-step tasks. um
+- [04:50] museum models are a fantastic building
+- [04:52] block to build these complex agentic
+- [04:54] workflows, but they're they're they're
+- [04:55] absolutely not a replacement. What has
+- [04:58] happened is um it turns out that many
+- [05:00] developers were already prompting the
+- [05:02] non-reasoning OM to think out loud
+- [05:05] sometimes called chain of thought
+- [05:06] reasoning where we say instead of
+- [05:08] blurting out the answer dear why don't
+- [05:10] you just think through step by step this
+- [05:12] problem before you know saying what you
+- [05:14] think is the answer at the end and this
+- [05:15] resulted in much better performance for
+- [05:17] the non-reasoning generation of LMS and
+- [05:20] then um with really open AI doing a lot
+- [05:22] of pioneering work with 01 in the data
+- [05:24] you know 03 04 um and and and and Deep
+- [05:27] Seek and Anthropic and Google Gemini.
+- [05:29] Multiple teams, all the many teams of
+- [05:31] these reasoning models. Now, um this
+- [05:33] thinking chain of thought got baked into
+- [05:35] the LOM and this was a very powerful
+- [05:37] step forward. But what I'm seeing at
+- [05:39] least at this moment in time is um
+- [05:42] general purpose reasoning is common
+- [05:44] enough or it's useful enough to bake it
+- [05:47] into the OM because a lot of businesses
+- [05:48] will want to use it. But for a lot of
+- [05:51] enterprises, we have very boutique
+- [05:52] workflows. So for example my team AI
+- [05:54] fund you know we have a workflow where
+- [05:56] we look at Google drive look at the
+- [05:58] documents extract you know b that that
+- [06:00] that's such a boutique workflow that
+- [06:02] kind of one of my team members does
+- [06:04] probably not worth the expense of
+- [06:06] training AI model and then spending tons
+- [06:08] of money on that just to automate a
+- [06:09] simple workflow. So if a lot of those
+- [06:11] workflows it will make more sense to
+- [06:13] just implement an agentic workflow to
+- [06:15] just get the job done. If ever there are
+- [06:18] I don't know millions of users or
+- [06:19] something doing very similar things then
+- [06:21] baking it in into the might maybe not as
+- [06:23] many as millions but large number of
+- [06:25] users then baking it in would make sense
+- [06:27] I think that's what's happening
+- [06:28] reasoning models so I think agentic
+- [06:29] workflows will continue to be a big deal
+- [06:32] um in my team at AI fund we're seeing it
+- [06:35] improve our ability to reason about
+- [06:37] tricky legal documents uh do medical
+- [06:39] healthcare diagnosis where staff have
+- [06:41] using this to for tariff compliance uh
+- [06:43] to give good career advice we're seeing
+- [06:45] this really in be instrument al for many
+- [06:48] different applications.
+- [06:50] Great. You uh Andrew, you you've
+- [06:52] highlighted the MCP, the the model
+- [06:55] context protocol
+- [06:57] as a key Lego brick for connecting
+- [06:59] agents to tools and data. Tell us what
+- [07:02] it is and why it's important. And with
+- [07:04] OpenAI, anthropic, and dev tool vendors
+- [07:06] now adopting MCP standards, what
+- [07:10] interoperability gaps still slow these
+- [07:12] pilot projects down?
+- [07:15] So MCB is a great step forward, but
+- [07:17] there's still a lot to be done. Um, MCB
+- [07:19] was proposed by Enthropic as a way to
+- [07:21] connect models primarily to sources of
+- [07:24] data and some other things. Um, but it
+- [07:26] turns out that if you have say, you
+- [07:28] know, 10 model providers and 20 data
+- [07:31] sources is very efficient if every model
+- [07:34] provider needs to figure out how to
+- [07:36] integrate with Google Drive, how to
+- [07:37] integrate with one drive, how to
+- [07:38] integrate with local documents, how to
+- [07:39] integrate with GitHub. So for 10 model
+- [07:41] provisor in 20 data sources it took kind
+- [07:44] of 200 pieces of work 10 times 20
+- [07:47] whereas if MCP um you can define a
+- [07:51] standardized way uh so so the amount of
+- [07:54] work becomes 10 plus 20 instead of n
+- [07:56] times m work is n plus m work and the
+- [07:59] other really interesting thing about um
+- [08:01] mcp is uh it binds the integration at
+- [08:04] runtime rather than at development time.
+- [08:06] So for example, if I'm writing code and
+- [08:08] I want to integrate with say Google
+- [08:10] Drive, I can look up the Google Drive
+- [08:12] API and integrate that specific API into
+- [08:14] my software. So that works, but that's
+- [08:16] making a decision at the implementation
+- [08:18] time on how to integrate with one thing.
+- [08:20] Um, one exciting part of MCP is it
+- [08:23] postpones the decision of how to get my
+- [08:26] LM access to data to runtime rather than
+- [08:28] at development time. So I can bring my
+- [08:30] OM and then you know when I'm running
+- [08:32] it, it can look around and see what data
+- [08:33] sources are available. of a new data
+- [08:35] source that I didn't even think about
+- [08:36] when I was writing my code. Maybe the
+- [08:38] arm could figure out how to use it. So,
+- [08:40] it's a fantastic step forward. When
+- [08:42] OpenAI also agreed to adopt it, I think
+- [08:44] it was in March that open made the
+- [08:45] announcement. It was a bit of a surprise
+- [08:47] to to to a lot of people to including me
+- [08:49] frankly, but I think that caused the
+- [08:51] industry to coales around it as more of
+- [08:53] an industry standard. Having said that,
+- [08:55] I think and my team deep learning.ai, we
+- [08:57] actually worked with Enthropic to teach
+- [08:59] a short pause in MCP. of the developers,
+- [09:01] you know, the deep eye short MCP is kind
+- [09:04] of a definitive source of information
+- [09:06] created with anthropic on how to use it.
+- [09:08] I think that the protocol still has room
+- [09:11] to improve. Um, and for example, right
+- [09:15] now MCP gives you a flat foul list like
+- [09:17] a long list of resources available. But
+- [09:20] for really complex information sources,
+- [09:22] I think the the protocol I hope will
+- [09:24] evolve toward more hierarchical
+- [09:26] discovery. Um so for example if I want
+- [09:28] to integrate with a really complex cloud
+- [09:30] service you know a simple flat list of
+- [09:33] all the APIs of all the services it
+- [09:35] doesn't work there's too many of them so
+- [09:36] I think eventually we'll need to um uh
+- [09:39] MCP hopefully MCP maybe other things
+- [09:41] will need to evolve to a more
+- [09:43] hierarchical discovery mechanism so it's
+- [09:45] early days it's a great step forward
+- [09:47] with many more steps to come yeah uh
+- [09:49] great answer and we we didn't have time
+- [09:50] to touch on all the security and other
+- [09:52] governance issues that are related to
+- [09:53] MCP in production right um So, Andrew,
+- [09:57] um, landing AI, uh, you know, your new
+- [10:00] agentic document extraction
+- [10:03] accurately extracts PDF files into LLM
+- [10:06] ready markdown. There there are a ton of
+- [10:09] these kind of OCR, RCR models uh, coming
+- [10:13] out. Tell tell us how that works and
+- [10:15] what people can do with it. Which
+- [10:16] multimodal agent patterns are proving
+- [10:18] most enterprise ready today? Vision
+- [10:21] first, text first, or hybrid?
+- [10:26] So um it turns out that AI as a general
+- [10:29] purpose technology you know like
+- [10:31] electricity and other general purpose
+- [10:32] technology it makes many many new
+- [10:35] applications possible that just were not
+- [10:36] possible before. So I think businesses
+- [10:39] um uh if you have if you can get the
+- [10:40] right talent in house which is sometimes
+- [10:42] a bit of a challenge uh with the right
+- [10:44] talent you can explore and execute on
+- [10:46] tons of business use cases. uh what you
+- [10:48] mentioned about landing AI's agentic
+- [10:50] document extraction is one technology
+- [10:52] that opens up a particularly large set
+- [10:55] of opportunities not the only ones but
+- [10:56] but a really exciting one which is OM
+- [10:59] are very good at processing text data
+- [11:01] and all of us have tons of basically PDF
+- [11:04] files and forms in you know our personal
+- [11:07] laptops in our enterprise data
+- [11:08] warehouses and it turns out that um
+- [11:11] previously most models extracting text
+- [11:14] you know they kind of got it like I
+- [11:16] don't know 80% right or thing and for
+- [11:18] some applications being 80% right is
+- [11:20] good enough but um uh if you take um for
+- [11:24] example invoice matching common finance
+- [11:26] function we get so many invoices have to
+- [11:28] match them to the database be able to
+- [11:29] extract out every line of a complex form
+- [11:32] invoice of complex formatting to match
+- [11:34] it against the database that's an
+- [11:36] important use case and what landing AI
+- [11:39] uh did what what my team did was we
+- [11:42] built a gente document extraction that
+- [11:45] um unlike traditional OCR that looks at
+- [11:47] the document and blurts out a bunch of,
+- [11:49] you know, text, sometimes slightly
+- [11:51] inaccurately. We examine the document
+- [11:53] iteratively with an agentic workflow
+- [11:55] where we take a document, cut into
+- [11:57] pieces, examine it, reflect on it, make
+- [11:59] sure we really get the uh extracted
+- [12:01] information as accurate as possible. And
+- [12:03] this opens up a lot of opportunities for
+- [12:06] um businesses to process, you know,
+- [12:08] financial invoices or healthcare medical
+- [12:10] patient records or insurance claim
+- [12:12] forms. And turns out for example so many
+- [12:14] businesses have so many forms. Somehow a
+- [12:17] lot of businesses we ask people to file
+- [12:18] forms but forms with fields checkboxes
+- [12:21] this is fundamentally a very visual
+- [12:23] representation of image of of of
+- [12:26] information and traditional OCR
+- [12:28] algorithms they just don't extract the
+- [12:29] information correctly. So these agentic
+- [12:32] document extraction um we can pull out
+- [12:34] this text you know in a much more
+- [12:36] accurate way for downstream processing.
+- [12:38] And actually I was uh the other day I
+- [12:40] was looking at the charts of adoption.
+- [12:41] it it really looks like that, right? The
+- [12:42] the the the amount of users um adopting
+- [12:45] agency document extraction is really uh
+- [12:48] taking off in a very exciting way. Uh
+- [12:50] and so uh uh yeah, working hard on new
+- [12:53] features that that so I think we'll
+- [12:55] announce soon. But uh I think there's
+- [12:56] actually um because um process text
+- [12:59] getting the text out of your PDF files
+- [13:01] opens up a lot of application
+- [13:02] opportunities.
+- [13:04] Moving to another big concern for for
+- [13:06] enterprise uh deployments, evaluation
+- [13:09] and observability at age and scale.
+- [13:11] Right. In recent talks, you've
+- [13:12] emphasized systematic evaluation loops
+- [13:15] for every new autonomy increment.
+- [13:19] What concrete metrics, dashboards, red
+- [13:22] team drills belong in an agentic
+- [13:24] software development life cycle and
+- [13:26] where are the biggest tooling white
+- [13:28] spaces you hope the community will solve
+- [13:30] this year?
+- [13:32] So um observability is important. It
+- [13:36] usually comes a little bit later. Maybe
+- [13:38] this does how I usually advise most
+- [13:40] businesses uh with the rise of AI
+- [13:42] technology agent technology agentic
+- [13:45] extraction and so on. There's a huge
+- [13:48] number of applications that can now be
+- [13:50] built. One of the biggest challenges of
+- [13:53] many businesses is uh talent and it is
+- [13:56] true that some you know the large AI
+- [13:57] companies are paying five $10 million
+- [14:00] range salaries for people that know how
+- [14:02] to train AI foundation models. So that
+- [14:04] sometimes is a bit of sticker shock but
+- [14:05] the good news is for engineers able to
+- [14:08] build applications uh the price is not
+- [14:10] anywhere near the $5 billion range. So I
+- [14:12] think you know the the because the
+- [14:14] number of large companies competing in a
+- [14:17] can't afford to lose way for talent to
+- [14:19] train these AI foundation models those
+- [14:21] salaries have been bit up dramatically
+- [14:23] but um for building software
+- [14:25] applications the salaries aren't nearly
+- [14:27] as high as that um is I don't say it's
+- [14:29] cheap but it's not you know $5 million
+- [14:31] it's much less than that but I think
+- [14:33] most businesses still do not have enough
+- [14:35] talent to execute on these projects and
+- [14:36] then I feel like um uh with AI assisted
+- [14:40] coding uh so using you know there's a
+- [14:42] GitHub copilot generation and a cursor
+- [14:45] winds serve and these days I personally
+- [14:46] use a cloud code the most now cloud code
+- [14:49] with cloud 4 released like three four
+- [14:50] weeks ago it's is my personal but I find
+- [14:53] that these productivity tools are
+- [14:54] letting developers prototype like crazy
+- [14:56] so there's so many projects that
+- [14:58] previously would have taken me you know
+- [15:00] three months and six engineers to build
+- [15:02] that today I or one of my engineers
+- [15:03] would build literally on a weekend um
+- [15:05] and so this lets us prototype really
+- [15:07] fast and decide what to take to
+- [15:09] production um and If we can prototype 20
+- [15:13] things and 18 die a quick death and
+- [15:15] that's the price of find the two they're
+- [15:17] really valuable that's actually a very
+- [15:18] good trade-off and so unlike I know
+- [15:20] there's been angst that a lot of proof
+- [15:22] of concepts don't make it to production
+- [15:24] I don't agree I feel like the cost of a
+- [15:26] proof of concept is going so low that
+- [15:28] I'm fine doing lots of PC's that that
+- [15:30] get thrown away as a price of buying the
+- [15:31] ones that really valuable and then when
+- [15:34] you do so so I would say focus on
+- [15:36] getting the talent and executing those
+- [15:38] projects and then when that happens
+- [15:40] there is an important role for
+- [15:41] observability and safety and guardrails.
+- [15:44] Um I tend to frankly put those in later
+- [15:47] because I find that one of the ways that
+- [15:50] large businesses grind to halt is if um
+- [15:53] uh for an engineer to try anything they
+- [15:55] need sign offs from like five vice
+- [15:57] presidents or something right and and
+- [15:59] and I think many large businesses we
+- [16:01] have something to lose. We can't afford
+- [16:03] to have a random innovation team ship
+- [16:05] something that damage the brand, leak
+- [16:07] sensitive information.
+- [16:09] So we have something to lose. But this
+- [16:11] is why many businesses end up saying
+- [16:12] things like before you ship anything, I
+- [16:14] need you to go through privacy review,
+- [16:16] marketing review, legal review,
+- [16:17] compliance review, you know, HR review,
+- [16:19] whatever. And then everything grinds to
+- [16:21] a halt. So I find that for many
+- [16:23] businesses if um we can instead create
+- [16:25] sandboxes that lets developers
+- [16:28] innovative teams iterate really quickly
+- [16:30] build prototypes uh but but because it's
+- [16:32] running on a sandbox with limited
+- [16:34] private information not shipping outside
+- [16:37] using the company brands you know
+- [16:38] risking damage to the brand that leaves
+- [16:40] teams run really quickly and then we can
+- [16:42] see what works and only then invest in
+- [16:44] those things to make sure it's you know
+- [16:47] responsible um doesn't have downside and
+- [16:49] then invest in resources at that time to
+- [16:51] take the scale and when that happens the
+- [16:53] observability is is an important piece
+- [16:55] of it right okay so you I think you've
+- [16:57] answered it's part of my next question
+- [16:59] which was you know you've talked about
+- [17:02] um speed of execution is the single best
+- [17:05] predictor of startup success and this is
+- [17:07] also uh relevant for enterprise leaders
+- [17:11] hamstrung by by these these these
+- [17:13] rigidity controls so I think sandboxes
+- [17:16] is your answer I'm actually surprised by
+- [17:19] how many companies still haven't uh
+- [17:21] haven't instituted something like that.
+- [17:22] Um but you know moving on can I can I
+- [17:26] share something about speed? That's
+- [17:26] something that occurred to me. So all
+- [17:28] all my life but many years even before
+- [17:29] geni I've had a personal obsession with
+- [17:31] sweets. I used to go to my teams and say
+- [17:33] don't take two days to do something that
+- [17:35] should take one day because the price is
+- [17:37] not one day slower the price is twice as
+- [17:39] slow which may not be survivable in some
+- [17:41] businesses. And it occurred to me I feel
+- [17:43] like you know some people think speed
+- [17:45] means work harder is stressful and so
+- [17:47] on. I that's not what it's meant to be.
+- [17:49] Um, imagine that we've been on a roller
+- [17:51] coaster. It's kind of slowmoving roller
+- [17:53] coaster. Still kind of fun, but it's a
+- [17:55] slowmoving roller coaster. Well, what's
+- [17:56] happened in the last uh year, our roller
+- [17:59] coaster just picked up a lot of speed
+- [18:01] and um I it's fun. It's really exciting.
+- [18:03] It feels like things are moving faster
+- [18:04] than ever before. We can write code,
+- [18:05] ship products, come feedback faster than
+- [18:07] before. So, I feel like the world is now
+- [18:09] on a very fastm moving roller coaster
+- [18:11] and it's great.
+- [18:15] Uh Andrew, fantastic. uh you know we
+- [18:17] we've just got 15 seconds. I wanted to
+- [18:19] take at least one of the questions that
+- [18:21] came in from Hoova. Um you know what can
+- [18:23] we learn from lean principles to
+- [18:26] encourage employees to shape their own
+- [18:29] uh work environment given that a agentic
+- [18:32] uh trends are are causing maybe a little
+- [18:34] bit of dislocation in the enterprise
+- [18:37] and and I think specifically for
+- [18:38] employees.
+- [18:40] I think in the future uh people one of
+- [18:42] the most important skills of any job row
+- [18:44] will be the ability to tell AI exactly
+- [18:47] what you want so they can do it for you.
+- [18:48] People that know how to do that will be
+- [18:50] much more powerful and be able to
+- [18:52] accomplish much more than people that
+- [18:54] don't. And I think for the foreseeable
+- [18:55] future, one of the best ways to tell a
+- [18:58] computer what you want is to write code.
+- [19:00] Uh but not to write code yourself, but
+- [19:02] to get AI to write code for you. because
+- [19:04] of AI coding assistance um the
+- [19:07] difficulty of writing code is lower than
+- [19:09] ever before and what this means is uh
+- [19:11] actually frankly on my team you know the
+- [19:13] marketers HR professionals the finance
+- [19:15] professionals we would kind of have
+- [19:16] asked everyone to learn to code and it
+- [19:18] actually gives a meaningful productivity
+- [19:20] boost and I find that my team just does
+- [19:22] stuff that non-software engineers just
+- [19:24] does a ton of stuff that would not be
+- [19:26] possible if they did not know how to
+- [19:28] code so my advice to individuals is AI
+- [19:30] and computers is becoming even more
+- [19:32] important so go learn about it and take
+- [19:34] control of it. Andrew, thank you very
+- [19:37] much for joining us today. Awesome.
+- [19:39] Thank you. Thank you everyone. Thank
+- [19:40] you, man.

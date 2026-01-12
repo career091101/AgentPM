@@ -1,0 +1,860 @@
+---
+title: "YouTube Video: 2VroIM26s84"
+video_id: "2VroIM26s84"
+video_url: "https://www.youtube.com/watch?v=2VroIM26s84"
+speaker: "Rebecca Balon"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  Hello and welcome back to Equity, Techrunch's flagship podcast about the business of startups. I'm Rebecca Balon and this is the episode where we bring on industry experts to help us explore a trend i...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2VroIM26s84
+
+- URL: https://www.youtube.com/watch?v=2VroIM26s84
+- Retrieved at: 2025-12-30T09:20:20+09:00
+
+## Text
+
+- [00:00] Hello and welcome back to Equity,
+- [00:01] Techrunch's flagship podcast about the
+- [00:03] business of startups. I'm Rebecca Balon
+- [00:05] and this is the episode where we bring
+- [00:06] on industry experts to help us explore a
+- [00:09] trend in the tech world and dive deep.
+- [00:10] Today we're bringing you a live
+- [00:11] interview from Techrunch Disrupt 2025
+- [00:14] where AI editor Russell Brandom sat down
+- [00:16] with OpenAI's head of startups Mark
+- [00:18] Manara. The pair took a closer look at
+- [00:20] how AI native companies are evolving
+- [00:22] beyond the GPT rapper label and how
+- [00:24] product development cycles are shrinking
+- [00:26] from weeks to days.
+- [00:30] [Music]
+- [00:33] I'm Russell Brandham, the AI editor at
+- [00:35] TechCrunch, and I have with me Mark
+- [00:38] Manara, head of startups at OpenAI. Uh,
+- [00:42] those of you may be hearing this in your
+- [00:44] podcast feed, in which case no, the
+- [00:46] weird acoustics are because this we're
+- [00:48] recording live at TechCrunch Disrupt. We
+- [00:51] can feel the magic in the air. I think
+- [00:53] it's fair to say. Y
+- [00:55] >> um so I'm super thrilled to be talking
+- [00:59] with you. Obviously Open AI is just an
+- [01:02] unbelievably exciting company right now
+- [01:04] and I think
+- [01:06] you know what's coming out of Open AI
+- [01:10] has huge implications for so many
+- [01:13] startups uh in so many different ways.
+- [01:16] Um so I want to start with a bit of a a
+- [01:20] sort of challenge for you. I think
+- [01:23] there's this idea that I hear a lot in,
+- [01:27] you know, talking to folks in the
+- [01:28] industry that open AI is sort of focused
+- [01:32] on consumer AI. It's the chat GPT
+- [01:36] company and enterprise AI and B2B is
+- [01:39] more, you know, you're anthropic, you're
+- [01:41] coher, everyone else.
+- [01:44] Do you agree with that? Is that sort of
+- [01:47] looking at it the wrong way? What what's
+- [01:49] your take on that?
+- [01:50] >> No, I I don't agree with that. I mean we
+- [01:52] do have a a big consumer business, a
+- [01:54] successful consumer product and that is
+- [01:57] core to to open AI but we've invested
+- [02:00] heavily on the B2B side of the business
+- [02:02] in particular um with enterprises and
+- [02:04] and startups and so I my focus is
+- [02:06] working with startups so that you know
+- [02:08] daytoday we're trying to support
+- [02:10] companies building on top of our
+- [02:11] platform some of the most innovative
+- [02:13] startups in AI you know cursor and
+- [02:16] perplexity and a bridge and Harvey and
+- [02:18] all these category defining companies Um
+- [02:21] the investments are are are massive and
+- [02:24] and I think like we increasingly are
+- [02:26] trying to work backward from what these
+- [02:29] startups actually need and build
+- [02:31] specifically for them. Make our models
+- [02:33] better uh at at at how they perform in
+- [02:36] in product for these companies. Build
+- [02:38] our API and platform around the needs
+- [02:40] that they have. And we've invested in
+- [02:43] building out um a pretty significant
+- [02:45] team behind that as well. So we are a
+- [02:46] global team uh focused on startups.
+- [02:49] We're now uh in Europe, in Asia,
+- [02:51] obviously here in San Francisco, New
+- [02:53] York. Um and we built the team really um
+- [02:56] with with startups in mind. So it's it's
+- [02:58] a lot of former founders, a lot of
+- [02:59] former operators of startups, folks
+- [03:02] who've invested in startups. Somebody
+- [03:03] just joined the team last week who's a
+- [03:05] former VC. Um we really want to like
+- [03:08] prioritize what uh what startups are
+- [03:10] asking us for which is essentially like
+- [03:12] make your models better, improve the the
+- [03:14] product, help us increasingly you know
+- [03:16] figure out go to market and really
+- [03:18] invest from the all of of OpenAI in it.
+- [03:21] So everything from everyone from execs
+- [03:23] to product to research to sales um our
+- [03:26] solutions team which is heavily invested
+- [03:28] is really laser focused on on that
+- [03:30] mission.
+- [03:30] >> Yeah. Yeah. Well so I want to unpack
+- [03:33] that. I mean, obviously more powerful
+- [03:35] models is great. It's tricky because
+- [03:37] it's sort of the product that does
+- [03:39] everything. It's hard to tell like which
+- [03:41] part are you focused on, but I guess
+- [03:42] what are you hearing from startups in
+- [03:45] terms of what
+- [03:48] they want from, you know, a GPT5, GPT6,
+- [03:52] and so on.
+- [03:53] >> So, it's interesting. So, there's a
+- [03:54] parallel with uh programming languages
+- [03:56] that I think about a lot, which is
+- [03:57] there's two kinds of programming
+- [03:59] languages. There's ones that everyone
+- [04:01] complains about and then there's ones
+- [04:02] that nobody uses, right? And I think
+- [04:05] that there's like a very similar analogy
+- [04:07] to how you think about models which you
+- [04:09] know we have lots of scaled usage of our
+- [04:11] models in all kinds of startup products
+- [04:13] but startups are really vocal about
+- [04:15] telling us hey like it's not good enough
+- [04:17] in these ways or in this situation this
+- [04:19] kind of task uh we want to see different
+- [04:21] behavior we want something more
+- [04:23] steerable. So I think right now the
+- [04:24] things that are top of mind are it's
+- [04:26] always cost to latency um you know can
+- [04:29] we bring those down that's that's sort
+- [04:30] of a forever um but in particular I
+- [04:33] think it's um for people building agents
+- [04:35] these models need to call tools they
+- [04:37] call functions they call external tools
+- [04:40] that u either the developer defines or
+- [04:42] they can use third party tools that um
+- [04:45] tool calling that an agent needs to do
+- [04:47] is really what drives the performance of
+- [04:49] the agent. Is it making successful tool
+- [04:51] calls? Is it calling the right tools at
+- [04:52] the right time? Is it uh is it you know
+- [04:55] making mistakes along the way or not? So
+- [04:57] that's an area of a pretty intense focus
+- [04:59] right now. The other is um coding. You
+- [05:02] know we our mut our models are are used
+- [05:04] heavily in in coding applications and I
+- [05:07] think there's many parts to what makes a
+- [05:10] great coding model. There's the actual
+- [05:11] code generation. There's the tool
+- [05:13] calling which is part of how you know
+- [05:14] cursor and windsurf and cognition and
+- [05:16] these other companies you know build on
+- [05:18] top of the models. Um, then there's
+- [05:20] actually like the personality and the
+- [05:21] behavior of the model. So, uh, is the
+- [05:23] model telling you what it does before it
+- [05:27] goes and calls a tool or takes some
+- [05:29] action? That actually matters a lot. If
+- [05:31] you're a user of cursor and you're
+- [05:32] sitting in front of the screen and uh,
+- [05:33] the cursor, the model is making 20 tool
+- [05:36] calls in a row. That actually is not the
+- [05:38] best user experience if it's not giving
+- [05:39] you some context of what it's doing. So,
+- [05:41] you can kind of monitor and and redirect
+- [05:42] or follow along. Um, similarly, there's
+- [05:45] code quality. So the you know writing
+- [05:47] functional code is one thing and and the
+- [05:49] models are very good at that. But is it
+- [05:51] um creating stylistic uh imperfections
+- [05:55] that somebody who's an expert engineer
+- [05:57] who's been doing this for 20 years
+- [05:59] doesn't like to see in their code?
+- [06:00] That's a problem. So these are like
+- [06:01] little things but they add up to a
+- [06:03] really significant set of improvements
+- [06:05] we're trying to make to the models um
+- [06:06] right now.
+- [06:07] >> Yeah. Yeah. One of the odd things you
+- [06:10] were going through sort of all the
+- [06:12] different all the different products
+- [06:14] that that uh coding products
+- [06:17] specifically that have OpenAI built in.
+- [06:20] We're in this odd moment where there's
+- [06:23] still the sort of drop- down menu. You
+- [06:26] know, every time someone launches their
+- [06:27] cursor, they're they're thinking, "Okay,
+- [06:30] do I want GPT5? Do I want Gemini? Do I
+- [06:32] want Claude?" Um whereas I I guess I
+- [06:37] think of it for more mature
+- [06:39] technologies. I'm not asking, you know,
+- [06:41] Dropbox which sort of hosting provider
+- [06:45] they want to use. It's sort of you would
+- [06:48] expect at a certain point people say,
+- [06:50] well, okay, I want the product to work a
+- [06:52] certain way and I'm going to just
+- [06:54] hardcode in the model that works best
+- [06:56] for that. But it feels like we're not
+- [06:58] quite at that point yet in terms of what
+- [07:00] users want.
+- [07:02] I think that's I think that's right. I
+- [07:03] think um developers can be very
+- [07:06] opinionated in terms of what product
+- [07:09] Yeah. Yeah. This may shock you,
+- [07:13] >> but I I think part of it is allowing the
+- [07:15] developer a degree of control in the in
+- [07:17] the product to say, "No, I have an
+- [07:19] opinion or what I'm trying to do. I
+- [07:21] think I have an opinion on what the
+- [07:22] which model is best and uh I'm going to
+- [07:25] consciously choose that." In many other
+- [07:27] products outside of coding, startups are
+- [07:29] not giving that choice and they're
+- [07:30] already saying, "No, we've done the
+- [07:32] eval. We've we've run the tests. We have
+- [07:34] a sense of how to prompt this model most
+- [07:36] effectively and which one is the best
+- [07:39] across these tasks." And sometimes it
+- [07:41] might be multiple models powering the
+- [07:42] product and they've made choices of
+- [07:44] which task. That I think is um is very
+- [07:47] common outside of coding. With coding, I
+- [07:49] think there seems to be a difference to
+- [07:51] the developer to give them the choice
+- [07:53] and have have control. Um, even if there
+- [07:56] might be a default or suggestion or you
+- [07:58] know, some of these companies have an
+- [08:00] automatic option where they are deciding
+- [08:02] under the hood and trying to use
+- [08:03] intelligent routing to say okay for this
+- [08:05] kind of task we're going to use GPD5 or
+- [08:07] this other task we think 4.1 is better.
+- [08:09] Um, there's I think an evolution still
+- [08:11] happening there, but I think it the
+- [08:13] origins of it is developer control.
+- [08:15] >> Yeah. Yeah. So maybe that's specific to
+- [08:17] coding that like developers are fussy
+- [08:19] and want to be able to sort of tweak
+- [08:21] around the edges
+- [08:22] >> or power users, you know, I think that
+- [08:24] is part of it as well
+- [08:26] >> to spin it a little bit more nicely.
+- [08:28] Yeah.
+- [08:29] >> So you mentioned multiple models. A
+- [08:31] thing that I hear a lot particularly in
+- [08:33] these sort of multi-step workflows where
+- [08:37] okay, we've got one system where we say
+- [08:39] what kind of user is this? We've got one
+- [08:41] model just doing that. if we find out
+- [08:43] it's this kind of user then what they
+- [08:46] want is fairly simple so maybe we don't
+- [08:47] need a huge model often I hear sort of
+- [08:53] founders talk about well you know we
+- [08:56] always want to keep costs down and we
+- [08:59] want specifically we don't want to be
+- [09:02] bringing more intelligence to this
+- [09:03] particular task than we need so there
+- [09:05] are a bunch of open source models some
+- [09:07] of which made by open AAI uh itself that
+- [09:12] you know if you need something a little
+- [09:13] more contained. The result is the
+- [09:16] flagship models like GPT5 are often sort
+- [09:19] of working in the context of a lot of
+- [09:22] other smaller models. Does that change
+- [09:25] how you think about what you need to do
+- [09:27] for GPT5 for that to shine you know in
+- [09:30] that context?
+- [09:32] >> Yes. I think um you know the reason we
+- [09:34] ship multiple sizes and versions of
+- [09:36] models. So we have a GBD5 Nano Mini and
+- [09:40] you know the the the full GBD5 is
+- [09:42] exactly for this reason and we see
+- [09:44] startups try to bring the right tool for
+- [09:46] the right job inside of their product
+- [09:48] and save cost you know bring the latency
+- [09:50] down but you know some of these complex
+- [09:52] workflows have all of those models
+- [09:55] happening simultaneously sometimes you
+- [09:57] know many times in in succession. So you
+- [09:59] think of a company like Decagon or
+- [10:01] Sierra that's taking in customer support
+- [10:04] uh inquiries you know they will have a
+- [10:06] bunch of orchestration of different
+- [10:08] models happening in succession a bunch
+- [10:10] of you know classification what type of
+- [10:12] intent is this user and uh maybe quick
+- [10:15] analysis that's happening really fast
+- [10:16] and small models but the end reasoning
+- [10:18] step um that actually produces the
+- [10:20] output to the user might have to reason
+- [10:22] over a lot of context and so they might
+- [10:23] use a you know a slightly bigger model
+- [10:25] for that and in some cases they have
+- [10:26] fine tunes that are running to say Okay,
+- [10:28] I'm fine-tuning for a very specific
+- [10:30] purpose on tone or um uh you know like
+- [10:33] like like even function calling or
+- [10:35] classification where you can see
+- [10:36] improvements in those techniques with
+- [10:38] fine-tuning all that can be happening in
+- [10:40] one step to the user so you don't
+- [10:42] perceive that it's happening but it's
+- [10:43] there and I think that's just like
+- [10:46] developers and founders and engineering
+- [10:48] teams being really smart about how to
+- [10:50] how to bring the right tool to do those
+- [10:52] different jobs. So that um that is that
+- [10:55] is always a focus for us is to have kind
+- [10:58] of each of the tools that you might need
+- [11:00] to use in the product available to you
+- [11:02] from from OpenAI um small, medium, you
+- [11:04] know, and large. And uh and I think that
+- [11:07] will be true into the future as well.
+- [11:09] >> Yeah, actually I'm glad you mentioned
+- [11:10] fine-tuning because that reminds me of
+- [11:12] something. Uh I I heard that
+- [11:16] the a sort of under discussed strength
+- [11:20] of open AAI specifically was the
+- [11:22] finetuning that because of the
+- [11:24] infrastructure advantage it was very
+- [11:26] well it was much easier to try you know
+- [11:29] 30 different variations of fine-tuning
+- [11:32] on a specific task and say okay which
+- [11:35] flavor works best here. Is that
+- [11:37] something you've sort of focused on? Is
+- [11:39] that because you've heard a lot of
+- [11:40] feedback from startups saying, you know,
+- [11:43] we really care about getting the best
+- [11:45] possible fine-tuning?
+- [11:46] >> Yeah. So, um, we've had a fine-tuning
+- [11:48] API for for a few years now. We see it
+- [11:52] as a tool in the tool set. So, we we
+- [11:54] generally for working with a startup and
+- [11:56] we're advising them technically. We
+- [11:58] don't recommend starting with
+- [11:59] fine-tuning. We say, you know, these
+- [12:01] models are very steerable, especially
+- [12:02] GPD5 and some of the the more recent
+- [12:04] models where you can prompt to get a lot
+- [12:06] of the behaviors you want. You can put
+- [12:08] few shot examples in the prompt. You can
+- [12:10] have really complex long instructions,
+- [12:12] etc. And that often is enough to get the
+- [12:15] performance that a company's looking
+- [12:16] for. But there are cases where
+- [12:18] fine-tuning is an advantage. And there's
+- [12:20] now multiple kinds of fine-tuning you
+- [12:22] can do on the OpenAI platform. Um,
+- [12:24] supervised fine-tuning is the the one
+- [12:26] we've had the longest that is, you know,
+- [12:28] bring tens of thousands of examples,
+- [12:30] steer the tone, the output format, um,
+- [12:32] some of the structure. And there's lots
+- [12:34] of reasons you might do that. You can
+- [12:36] also fine-tune to make your function
+- [12:38] calling more accurate in in certain
+- [12:39] cases. Um, more recently we've released
+- [12:42] reinforcement fine-tuning which think of
+- [12:44] it as using RL to fine-tune our
+- [12:47] reasoning models. So
+- [12:48] >> um the advantage of that is if you have
+- [12:51] a a hard reasoning use case where it's
+- [12:53] maybe a domain specific reasoning like
+- [12:56] um Ambience Healthcare was was a company
+- [12:58] that used this technique to try to
+- [13:00] improve the selection of insurance codes
+- [13:03] uh for healthcare billing. And so it's
+- [13:05] actually a very complicated problem. The
+- [13:07] models are like okay out of the box, but
+- [13:09] it turns out reinforcement fine-tuning
+- [13:11] um bringing up a number of examples and
+- [13:14] trying to improve the reasoning over
+- [13:15] this task has a dramatic impact on uh
+- [13:18] the accuracy. Um so that's an example
+- [13:20] where um it's it's a very very powerful
+- [13:24] technique for that specific use case.
+- [13:26] But again, we don't start there. We
+- [13:27] start with like let's try all the
+- [13:29] lowerhanging fruit that doesn't cost
+- [13:31] money to go run a training job, doesn't
+- [13:33] uh cost a lot of engineering and
+- [13:34] research time to go build these data
+- [13:36] sets. If you can get impact that way,
+- [13:38] that's your best bet. If you can't and
+- [13:39] you have one of these more challenging
+- [13:41] domain specific reasoning use cases, it
+- [13:44] might be a good fit for our
+- [13:45] reinforcement fine-tuning. And a lot of
+- [13:46] what our work, the work that our team
+- [13:48] does is helping companies navigate that
+- [13:50] decision-m and then if they're ready to
+- [13:51] actually go fine-tune, just go do that.
+- [13:53] and you can do it really fast and uh
+- [13:55] really quickly and effectively on the
+- [13:57] platform which is great. With a little
+- [13:58] bit of help from us, we can help you
+- [13:59] kind of optimize.
+- [14:00] >> Awesome. Cool. So, I mean, we're talking
+- [14:04] now, you've just gotten off stage from
+- [14:06] this panel about uh specifically using
+- [14:11] AI in the marketing function for a
+- [14:13] startup. Great panel. Everyone go live
+- [14:16] stream it or go look up the video. Um,
+- [14:20] are there other, you know, we've been
+- [14:22] talking about examples like cursor and
+- [14:23] levelable where the the model is really
+- [14:26] performing the core product function.
+- [14:29] There wouldn't be a cursor without AI
+- [14:32] models. But there are also these
+- [14:34] situations where maybe AI isn't your
+- [14:36] core product, but you're a lean startup.
+- [14:39] You're growing. You're thinking, okay,
+- [14:41] can we maybe stretch the marketing
+- [14:43] dollar a bit further? Can we have you
+- [14:45] know one person in this department
+- [14:47] instead of three? Are there I is that
+- [14:52] part of what you look at with startups
+- [14:54] if you know I guess what are what do you
+- [14:56] what is that conversation look like?
+- [14:58] >> Yeah I mean our work dayto-day is
+- [15:00] primarily working with companies where
+- [15:02] AI is the core of their business. So we
+- [15:04] we like to say very similar if you took
+- [15:06] the LLM out of the product the product
+- [15:08] might not work. That's the type of
+- [15:09] company where we can generally be most
+- [15:11] useful to them because they're operating
+- [15:13] at the bleeding edge of this technology.
+- [15:15] Every new model we release, every new
+- [15:17] API feature may have an impact on their
+- [15:19] product market fit and the product
+- [15:21] metrics. You know, hopefully we're
+- [15:22] helping them improve uh how they're how
+- [15:24] they're growing their company. And so
+- [15:26] that's a lot of our day-to-day, but we
+- [15:28] do see how these companies use AI inside
+- [15:30] the business. And that's been a really
+- [15:31] interesting lens. I think um engineering
+- [15:34] is definitely one of the areas where
+- [15:36] this is most prolific. So companies
+- [15:38] using cursor or windsurf or other um
+- [15:40] other coding tools that have
+- [15:42] intelligence built in codec from openai
+- [15:45] and what's interesting is it does change
+- [15:47] the product development life cycle quite
+- [15:49] a bit. You know we we um used to think
+- [15:51] in the old days of a twoe sprint as like
+- [15:54] the norm and that became uh very common
+- [15:56] among startups. I'm a former founder by
+- [15:58] the way. We we ran these twoe sprints
+- [16:00] for a long time. Now we're seeing
+- [16:02] companies can ship so much in that time
+- [16:04] frame that two weeks is just way too
+- [16:05] long. And most have shifted to a week or
+- [16:08] even I met one company that's moving to
+- [16:10] just three days. I think cursor famously
+- [16:12] has like a one-day sprint. Uh and you
+- [16:14] know it's it's it's a dramatic change
+- [16:17] and it means that you are no longer
+- [16:19] blocked by what you can build. Uh I
+- [16:21] remember being a founder just how long
+- [16:22] it took us to stand up our mobile app.
+- [16:24] we had launched with, you know, web web
+- [16:26] first and we're building out the first
+- [16:28] mobile app and it was like a slog to go
+- [16:30] build that thing. Today we could do it
+- [16:31] in a week and have something like
+- [16:33] production ready and live and that's
+- [16:35] it's just it just changes the the the
+- [16:38] way you design the org how fast you can
+- [16:40] build small teams accomplishing a ton
+- [16:42] more outside of coding. We are seeing a
+- [16:45] lot of use cases in go to market. So
+- [16:47] think sales teams, marketing teams. the
+- [16:50] um where I've seen the most advantage
+- [16:52] has been I think on the research side.
+- [16:54] So, you know, we we were talking in the
+- [16:56] previous session that, you know, an
+- [16:58] SDR's job five or six years ago, a sales
+- [17:00] development rep's job involved a lot of
+- [17:02] research to go find, okay, what are the
+- [17:04] companies that matter? Can I find the
+- [17:05] contact information for the right ones?
+- [17:07] Can I find uh events and signals that I
+- [17:10] can draft off of to figure out, you
+- [17:12] know, the right time to email someone
+- [17:14] who might be a prospect. Now, you can
+- [17:17] effectively automate most of that grunt
+- [17:19] work. And uh the SDR's job changes where
+- [17:21] you're managing a set of tools that are
+- [17:23] helping you be 10 times or more more
+- [17:25] productive and then still having human
+- [17:27] in the loop to actually have the
+- [17:28] conversation with the customer, you
+- [17:30] know, do the consultative work to maybe
+- [17:32] get to a sale. Uh but it means that a
+- [17:34] small team can do a lot more even in the
+- [17:35] go to market side of the business as
+- [17:37] well. So those are a couple examples. Um
+- [17:39] we obviously a lot of see a lot of
+- [17:41] customer support automation and uh
+- [17:43] companies like Decagon, Sierra, Maven
+- [17:45] AGI um supplying the technology that
+- [17:48] other startups are using to to build on
+- [17:50] top of Parloa is another one. So that is
+- [17:52] an area where the tooling has gotten
+- [17:54] really really good and can get give a
+- [17:56] lot of leverage to the organization as
+- [17:57] well.
+- [17:58] >> Cool. Cool.
+- [18:00] So to zoom out a little bit, I think one
+- [18:04] of the really interesting shifts to see
+- [18:06] in the startup landscape is I think a
+- [18:09] year and a half ago, two years ago,
+- [18:11] there was this well the term uh GPT
+- [18:14] rapper, right? A lot of startups got
+- [18:16] tagged as, oh, that's just a GPT rapper.
+- [18:19] You know, maybe you can make a good
+- [18:20] product, but you're going to get out
+- [18:21] competed by the models. It feels like we
+- [18:24] don't hear that anymore. Like now people
+- [18:26] are taking those companies a lot more
+- [18:28] seriously. there's a sense that that's a
+- [18:30] much more defensible way to build a
+- [18:33] startup and launch a product. I guess do
+- [18:37] you have a theory about what changed or
+- [18:39] sort of why that is?
+- [18:41] >> I I think these companies have just been
+- [18:43] very successful growing and so uh can't
+- [18:46] argue with that.
+- [18:47] >> Yeah, it's you look at companies like
+- [18:49] lovable that hadn't launched a year ago
+- [18:51] or a little over a year ago and you know
+- [18:53] they're doing almost 200 million in ARR
+- [18:55] right now. It's like yes they use models
+- [18:57] in the product but uh it's hard to argue
+- [18:59] with that growth and and some of the
+- [19:01] numbers that they're putting out. are
+- [19:02] just one example obviously but um across
+- [19:04] all different verticals where you know
+- [19:06] B2B vertical so legal tech there's some
+- [19:08] very scaled users like um Harvey and
+- [19:11] Lora and Spellbook and even up you know
+- [19:14] if you look at healthcare it's ambience
+- [19:16] and a bridge are leading the lead in the
+- [19:18] pack um you know you can go to many of
+- [19:20] these verticals and see actually these
+- [19:22] businesses are getting a ton of traction
+- [19:24] and they're building really successfully
+- [19:26] so I think that just like that alone has
+- [19:28] been differentiating what I see working
+- [19:30] with these companies is that um the ones
+- [19:33] that have been most successful tend to
+- [19:35] be very sophisticated about how the
+- [19:37] models work actually. And you see a lot
+- [19:39] of teams, founding teams that have uh
+- [19:42] really heavy math backgrounds, research
+- [19:44] backgrounds, not just pure engineering,
+- [19:46] but actually have a little bit of an
+- [19:48] edge because they understand what is a
+- [19:49] transformer, how does it actually work,
+- [19:51] how might you design um data sets if
+- [19:53] you're fine-tuning, uh how might you
+- [19:55] bring the right context into the model
+- [19:57] when you're using it and um kind of work
+- [19:59] at that bleeding edge. And that does
+- [20:01] give an advantage even though you might
+- [20:02] be building on top of somebody else's
+- [20:04] models like open eyes or or our peers
+- [20:06] like that knowledge allows you to move
+- [20:08] faster and build a better product that
+- [20:10] has stronger performance on the core
+- [20:12] product metrics that you might be
+- [20:13] measuring down the road. So there is a
+- [20:15] theme there that I I have seen across
+- [20:16] some of the most successful companies
+- [20:18] built on our technology.
+- [20:20] >> So the differentiating factor then it
+- [20:22] isn't just oh okay it's the interface
+- [20:25] layer you got there or you have an
+- [20:27] understanding of the market. really is,
+- [20:30] you know, you're behind the wheel of the
+- [20:31] car, now you have to drive it. And sort
+- [20:33] of understanding the model and how
+- [20:36] you're going to get the most out of it
+- [20:38] really is a huge advantage. If you know,
+- [20:42] why is Harvey the the you know, why did
+- [20:45] Harvey succeed and get to that ARR when
+- [20:49] you know, certainly there's lots of
+- [20:50] other legal tech or legal AI startups
+- [20:52] that were going for it. A big factor in
+- [20:55] your opinion is the understanding of the
+- [20:58] core AI technology.
+- [20:59] >> Definitely. You know, I'll give you
+- [21:01] another example. We uh I was chatting
+- [21:03] with the founder of Fixer, which is a an
+- [21:06] AI for email startup um just last week
+- [21:09] and they're a heavy fine-tuning uh user
+- [21:12] and you know you ask why and it's like
+- [21:14] well actually when you're bringing AI to
+- [21:16] this specific problem of you know
+- [21:18] triaging email doing calendaring and
+- [21:21] like all the things that you might do
+- [21:22] with your with your email inbox there's
+- [21:24] all different kinds of kind of patterns
+- [21:25] across email actually like the base
+- [21:27] model is pretty good but you can get
+- [21:29] even more performance out of it through
+- [21:31] fine-tuning for different use cases. So
+- [21:33] an example is you know you're going back
+- [21:35] and forth to schedule some meeting like
+- [21:37] when you say Friday are you talking
+- [21:38] about last Friday or you know or like
+- [21:40] next Friday or two weeks from now
+- [21:42] Friday. It's like well actually the
+- [21:44] models are like sometimes get that wrong
+- [21:45] and so uh fine-tuning they found for all
+- [21:48] these different sort of um subtasks in
+- [21:51] their product gave them much better
+- [21:53] performance and it means that that is an
+- [21:55] edge that they now have because they've
+- [21:56] developed this skill of how to use the
+- [21:58] models really effectively. So, the
+- [22:00] product gets better because of that
+- [22:01] sophistication and how they use it.
+- [22:03] >> Yeah, it's it's funny you should bring
+- [22:04] them up. Actually, I I talked with the
+- [22:06] founder, Richard Hollingsworth, who's
+- [22:08] great. Um, and one thing he said that I
+- [22:11] really remember, he said, you know,
+- [22:13] they're trying to make the perfect email
+- [22:14] assistant. He said, you know, the
+- [22:15] perfect email assistant, I don't
+- [22:18] necessarily want the smartest person in
+- [22:20] the world. I want someone who knows me
+- [22:23] really well and my sort of needs and how
+- [22:25] I use email. Um, and that kind of
+- [22:28] translates to, okay, maybe we use the
+- [22:29] base model. We don't need, you know, the
+- [22:32] absolute bleeding edge, but we need to
+- [22:34] fine-tune it so that it really
+- [22:36] understands the quirks of how all of,
+- [22:40] you know, the different ins and outs of
+- [22:41] of the specific task. Um, cool. So,
+- [22:48] otherwise,
+- [22:49] you were talking about go to market
+- [22:52] sales as sort of core functions. Are
+- [22:55] there places or or sort of corners of
+- [22:59] companies where you see maybe
+- [23:02] opportunities yet to be had where AI
+- [23:04] hasn't really had that impact yet?
+- [23:07] You're saying, you know, this is maybe
+- [23:09] undiscovered country for for folks out
+- [23:11] here who are thinking of where they
+- [23:13] could make an impact.
+- [23:15] >> Yeah, I mean I think there's a a lot of
+- [23:17] activity across all different parts of,
+- [23:19] you know, the B2B landscape and
+- [23:21] different verticals. You know, maybe
+- [23:23] there's one uh thing that I think we're
+- [23:26] still working on as an industry right
+- [23:28] now is longer and longer horizon agent
+- [23:31] tasks where you know, we talked a bit on
+- [23:34] the previous panel about, you know, the
+- [23:36] fact that there's still a human in the
+- [23:37] loop in most use cases around AI and I
+- [23:40] think that's a good thing right now.
+- [23:41] It's like you know some some end toend
+- [23:44] tasks either the the the models still
+- [23:48] need to improve for that to be more and
+- [23:50] more reliable or the user has to be able
+- [23:53] to like guide the model in very specific
+- [23:55] ways and I um I think that's an area
+- [23:57] where you know as the as the models
+- [24:00] improve ours and and others like that
+- [24:03] that is going to be more and more the
+- [24:04] reality that we'll be able to do is to
+- [24:06] hand off a more ambiguous uh task
+- [24:08] similar to how you'd work with a
+- [24:10] co-orker.
+- [24:11] and allow them to go run with it for
+- [24:13] longer. Um, we're seeing that start to
+- [24:16] happen more in coding as like the first
+- [24:18] case that's probably the farthest along,
+- [24:19] but um there's probably that applied
+- [24:22] across 25 different areas that I think
+- [24:25] there's still some white space to be
+- [24:26] had.
+- [24:28] >> Yeah. Yeah, it is interesting. I I think
+- [24:32] a lot about like the difference between
+- [24:35] a person overseeing maybe two AI models
+- [24:38] when they're coding of okay this one can
+- [24:40] do versus a person overseeing 200 which
+- [24:44] is maybe more the the sort of uh
+- [24:48] marketing sales version where okay we
+- [24:49] need I need a lot of eyes looking for
+- [24:53] leads and then when you come back to me
+- [24:55] I can sort of oversee what's happening
+- [24:57] but it does feel like that friction is
+- [25:01] kind of greater in different parts of
+- [25:03] the company a lot of the time. Are there
+- [25:06] particular I don't know I mean you I
+- [25:08] it's I'm just sort of circling on the
+- [25:10] same question but are there particular
+- [25:12] corners of it that you see as not really
+- [25:14] fully automated yet?
+- [25:18] >> Um I mean most areas are probably not
+- [25:20] fully automated yet. I think like you
+- [25:22] know where we've seen where we've seen
+- [25:24] the most activity I would say is coding
+- [25:26] customer support inside of a company
+- [25:28] coding customer support go to market and
+- [25:31] sales um increasingly we're seeing some
+- [25:34] activity in accounting and uh finance so
+- [25:37] using AI to um handle more analysis and
+- [25:40] and uh planning steps internally and
+- [25:43] different parts of the or some of that's
+- [25:45] tax related some it's forecasting
+- [25:47] targets um I think there's there's
+- [25:50] probably still more more fruit to uh to
+- [25:52] be born there. But that might be an area
+- [25:54] where
+- [25:55] >> you know we focused um a bit more on
+- [25:58] like okay how do you how do you make the
+- [25:59] models really good at data analysis as
+- [26:01] an example. I think there's a lot of
+- [26:02] juice to still squeeze there from model
+- [26:05] performance and that touches on some of
+- [26:07] maybe the finance areas and um core data
+- [26:10] analysis where the models are good at
+- [26:12] generating SQL queries but reasoning
+- [26:14] over data over tabular data. Um, I think
+- [26:17] it's an area where we're still trying to
+- [26:18] to make the models better and and
+- [26:20] improve. There might be then opening
+- [26:22] even more doors to what you can build on
+- [26:24] top of that.
+- [26:25] >> Yeah. Yeah.
+- [26:27] >> Okay. I want to zoom back. This is
+- [26:30] zooming way back now, but you mentioned
+- [26:32] one of the things that you're sort of a
+- [26:34] battle you're constantly fighting. You
+- [26:36] said cost and latency. You know,
+- [26:37] everyone wants to be cheaper. Everyone
+- [26:39] wants it to be faster. It can never be
+- [26:41] fe fast or cheap enough really. Um but
+- [26:45] there's this interesting phenomenon you
+- [26:47] know the latency needs of different use
+- [26:50] cases are very different and in
+- [26:52] particular for real time lat for
+- [26:54] real-time use cases say uh you know
+- [26:57] captioning live captioning of uh of
+- [27:00] video streams where you it really needs
+- [27:02] to be running as fast as the data is
+- [27:05] coming in and so latency becomes this
+- [27:08] incredible race of either it can go fast
+- [27:11] enough to keep up or we can't really do
+- [27:13] this
+- [27:15] when you're faced with that kind of
+- [27:17] problem. How much wiggle room does is
+- [27:19] there in sort of modern inference
+- [27:22] architecture? How much can you say all
+- [27:23] right you know maybe we need to you know
+- [27:26] scale down the model we're using a
+- [27:27] little bit but we can get it as fast as
+- [27:29] you need it to be.
+- [27:30] >> Yeah I this is ongoing efforts in
+- [27:33] research and engineering to make uh the
+- [27:36] intelligence that we can offer available
+- [27:38] more cheaply and faster. that's like
+- [27:40] full stop, major focus all the time. And
+- [27:43] we've made a lot of uh like we've had a
+- [27:45] lot of big wins on that over the last
+- [27:47] couple of years. But uh it it will
+- [27:49] perpetually be the thing that we need to
+- [27:51] do. I think we've been I guess in some
+- [27:55] ways surprised by you know people's
+- [27:57] patience to wait for some of these
+- [27:58] models to to produce their outputs. But
+- [28:01] in almost every case in the history of
+- [28:03] technology, if you make something
+- [28:04] faster, usage improves, product metrics
+- [28:06] improve. So we we know that that has to
+- [28:08] happen. Um I think there's a couple
+- [28:10] levers to to play with. One is the model
+- [28:13] itself. And so you know one of the areas
+- [28:15] where the codeex model GBD5 codeex
+- [28:18] actually was was showing um strengths
+- [28:20] was actually having variable uh
+- [28:22] processing time. So a simpler task that
+- [28:25] you send to this model would have would
+- [28:27] have a result more quickly and a more
+- [28:29] complicated task that you know you and I
+- [28:31] would have to reason over longer the
+- [28:32] model would also re reason over longer.
+- [28:34] is we trained it in a way where it was
+- [28:36] um trying to bring down the latency
+- [28:38] overall by bringing it down the places
+- [28:40] where the least intelligence was was or
+- [28:42] the least chains of thought tokens were
+- [28:44] required. So that's like one example of
+- [28:45] how the model plays a role. But then
+- [28:47] there's inference architecture as well
+- [28:48] and and how we actually serve up these
+- [28:51] models. And we made a lot of
+- [28:52] improvements on things like caching
+- [28:54] which you know it's low-level infra
+- [28:56] stuff that you know you probably don't
+- [28:57] think about every day but it matters a
+- [28:58] ton to our startup customers where if
+- [29:00] they can get caching percentage higher
+- [29:03] it means number one the tokens are
+- [29:04] cheaper because we charge less and then
+- [29:06] two things move much faster uh and the
+- [29:08] response to their user gets faster. So
+- [29:11] those are like two of the main drivers
+- [29:12] and then um shipping smaller models that
+- [29:15] have the same level of intelligence.
+- [29:16] Like those are the levers that we're
+- [29:18] constantly trying to pull because every
+- [29:20] startup wants it faster and we want it
+- [29:22] faster. So uh so we'll keep chipping
+- [29:25] away.
+- [29:26] >> Yeah. Awesome. Well, on that note, this
+- [29:29] was fantastic. Thank you so much for uh
+- [29:31] for agreeing to do these back to back. I
+- [29:33] know not always easy, but uh this was an
+- [29:35] absolute delight. Thank you so much.
+- [29:37] Thank you for having me.

@@ -1,0 +1,752 @@
+---
+title: "Transcript: XeIx4S6YvGo"
+video_id: "XeIx4S6YvGo"
+video_url: "https://www.youtube.com/watch?v=XeIx4S6YvGo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:21:19"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: XeIx4S6YvGo
+
+- URL: https://www.youtube.com/watch?v=XeIx4S6YvGo
+- Retrieved at: 2025-12-30T11:16:41+09:00
+
+## Text
+
+- [00:00] OpenAI just killed Naden. Or did they
+- [00:02] really? Because they just dropped their
+- [00:03] agent kit. We may be seeing that
+- [00:04] narrative right now online. But today, I
+- [00:07] am here to actually compare Agent Kit
+- [00:09] and Naden and talk about the future of
+- [00:10] both of these agent builders. As always,
+- [00:13] we're not just going to be talking about
+- [00:14] it. I'm going to be comparing both of
+- [00:15] these platforms across different
+- [00:16] categories so we can highlight each of
+- [00:18] the platform strengths and weaknesses.
+- [00:20] So, to start off with a quick overview
+- [00:21] of each of these tools, we've got Agent
+- [00:23] Kit, which just dropped October 6th of
+- [00:25] 2025. It's OpenAI's agent builder that
+- [00:27] looks like this. It's very very simple
+- [00:29] to use and it's very drag and drop low
+- [00:31] code visual interface. Here's a quote
+- [00:33] from Sam Alman saying, "Agent Builder is
+- [00:35] like Canva for building agents. It's a
+- [00:37] fast visual way to design the logic,
+- [00:39] steps, ideas." I'm assuming you guys
+- [00:41] already know what Naden is, but if you
+- [00:42] don't, it was released October 8th,
+- [00:44] 2019, so about 6 years ago. But in the
+- [00:46] last year, it really started to take
+- [00:47] off. As you can see by this Google
+- [00:48] Trends chart right here, Naden's in the
+- [00:50] blue. And then we have other AI
+- [00:52] automation platforms like Make and
+- [00:54] Zapier down below. And you can see it
+- [00:56] just hockey stickked right past them.
+- [00:57] You can plug AI into your own data and
+- [00:59] there's over 500 integrations which
+- [01:01] makes it really easy to connect to your
+- [01:02] tools and this is what NN looks like. So
+- [01:05] like I said today we're going to be
+- [01:06] comparing agent kit with NN across
+- [01:08] different categories. To answer the
+- [01:09] question is Agent Kit going to kill
+- [01:11] NAND? And in short my answer is no. When
+- [01:14] we started hearing rumors about this
+- [01:15] dropping everyone immediately ran to
+- [01:18] it's going to kill NAND? I don't think
+- [01:19] it's going to at all. And I also want to
+- [01:21] be really clear that I don't think
+- [01:22] OpenAI's goal was to compete with NAND.
+- [01:25] I think that Agent Kit is built for
+- [01:27] teams and consumers that are really
+- [01:29] integrated into OpenAI's environment and
+- [01:31] they're not looking to build super super
+- [01:33] custom robust AI automations and
+- [01:35] autonomous systems. They're looking to
+- [01:37] build some really quick and easy
+- [01:38] workflows that's going to save
+- [01:40] themselves time and maybe even some
+- [01:41] conversational agents internally for
+- [01:43] their team. Now, NN of course was built
+- [01:45] to be completely everything. It's super
+- [01:47] powerful. It was honestly built for
+- [01:48] developers. It's a little bit more
+- [01:49] technical, but because of that, you have
+- [01:51] the ability to truly do anything. Like
+- [01:53] when we saw Google drop their Opal,
+- [01:55] which was like very similar visual
+- [01:56] interface. People said, "Oh, is this
+- [01:58] going to kill any?" No. Real quick, why
+- [02:00] should you trust my opinion on this? I
+- [02:01] run an AI automation community where I'm
+- [02:03] teaching over 150,000 people how to
+- [02:05] build AI solutions to implement into
+- [02:07] businesses. And all of that is being
+- [02:09] done with NAN. Our AI company, True
+- [02:10] Horizon, consults and implements custom
+- [02:12] AI solutions. And pretty much all of
+- [02:14] that is NADN. And we've been working
+- [02:16] with enterprise companies as well. So
+- [02:17] the categories that we're going to look
+- [02:18] at today are ease of use, triggers,
+- [02:21] agent tools, model support, UI chat
+- [02:23] components, and deployment and control.
+- [02:25] So starting off with the first category,
+- [02:27] we have ease of use. So if I'm like a
+- [02:29] complete beginner and I want to test out
+- [02:30] agent kit, which is OpenAI agent
+- [02:32] builder, I would come here and I would
+- [02:33] search OpenAI agent builder. I could
+- [02:35] look at the release notes or I could go
+- [02:37] here to the OpenAI platform, click on
+- [02:39] agent builder, and then I could open up
+- [02:40] my agent builder right here. This is
+- [02:42] pretty much available to everyone. You
+- [02:43] just have to have an OpenAI API account.
+- [02:46] You can see here we have the ability to
+- [02:48] create a workflow. And what's key here
+- [02:49] in my mind is it says to build a chat
+- [02:51] agent. Now a chat agent or a
+- [02:53] conversational agent in my mind is very
+- [02:55] different to like a fully autonomous
+- [02:57] tools agent because the chat agent is
+- [02:59] going to be looking up some information
+- [03:00] for you, helping you get your questions
+- [03:02] answered, but not as much like take
+- [03:04] action on your behalf autonomously. So
+- [03:06] anyways, we have some templates down
+- [03:08] here that we could look at, but I'm just
+- [03:09] going to go ahead and create a new flow
+- [03:10] so we can get familiarized with this
+- [03:12] environment. What you'll notice here is
+- [03:13] that we have a start and I actually
+- [03:15] cannot delete this start because every
+- [03:17] workflow needs a trigger. You can see
+- [03:18] that once you have this start, you have
+- [03:20] to drag the circle to say where does
+- [03:21] this go next just like end where you'd
+- [03:23] connect your nodes together. And we have
+- [03:25] an AI agent right here which we're able
+- [03:26] to name. We're able to give it
+- [03:28] instructions. We can include chat
+- [03:29] history. We can choose the model, the
+- [03:31] reasoning, we can give it tools. And we
+- [03:33] have an output format section where we
+- [03:35] can do text, JSON or widget, which we'll
+- [03:37] talk a little bit about later. But what
+- [03:38] I'm immediately seeing off the bat is
+- [03:40] this whole interface is a lot less
+- [03:42] intimidating than nitn. I can easily
+- [03:44] choose my model, give it instructions,
+- [03:46] and I can also on the lefthand side see
+- [03:48] everything I have available to me, which
+- [03:49] is an agent. I can end it. I can do a
+- [03:52] file search. I can do guard rails, MCP
+- [03:54] servers. I've only got five logic and
+- [03:56] data operations to choose from. If,
+- [03:58] else, while, human approval, transform,
+- [04:01] or set state. And this is a lot less
+- [04:03] intimidating to me as a complete
+- [04:05] beginner with no coding background to
+- [04:07] get into compared to when I jump into
+- [04:09] something like niten create a new
+- [04:10] workflow and then when I open up this
+- [04:12] first step I have tons of different
+- [04:14] things in here. Let's say I want to pull
+- [04:15] in an AI agent and I can click on that
+- [04:17] agent right here. I have this input
+- [04:19] where I'm looking at this variable. I
+- [04:20] have all these options down here to
+- [04:22] choose from and I might not know exactly
+- [04:23] what they mean. You can also see I have
+- [04:25] an error already because I didn't
+- [04:26] connect to chat model. I also have the
+- [04:28] option to add memory and all these
+- [04:29] different tools. And this just initially
+- [04:31] is going to be a lot more intimidating
+- [04:32] than hopping into the agent builder by
+- [04:35] OpenAI. One of the first things that I
+- [04:36] wanted to do when I built my first agent
+- [04:38] ever is I wanted to connect it to the
+- [04:39] internet so it could look up things for
+- [04:40] me. And with OpenAI's agent builder, all
+- [04:43] I have to do is click on this plus for
+- [04:44] tool and I can just do web search. And
+- [04:46] that's basically going to search the way
+- [04:48] that you can do web search when you're
+- [04:50] in chatbt. You can also specify to only
+- [04:52] look through certain websites and you
+- [04:53] can also do location-based searches. So
+- [04:55] just like that, I already have an AI
+- [04:57] agent that can search the web and I can
+- [04:59] also connect a chat model right here
+- [05:00] without ever having to go and get any
+- [05:02] API key. But in any if we wanted to
+- [05:04] search the web, we'd have to give it a
+- [05:05] tool. We'd have to choose from all of
+- [05:07] these hundreds of different tools. We
+- [05:09] may even need to set up our own custom
+- [05:10] HTTP request and we would also have to
+- [05:13] go get an API key for both the web
+- [05:15] search and also the chat model, which is
+- [05:17] just a lot more intimidating and
+- [05:18] definitely raises the barrier to entry a
+- [05:20] little bit compared to the agent
+- [05:21] builder. So if I was to think about the
+- [05:23] time that it would take for a complete
+- [05:24] beginner to build one automation system
+- [05:26] in OpenAI agent builder or the exact
+- [05:28] same system in Naden, they would do it
+- [05:30] much quicker and feel a lot less
+- [05:31] overwhelmed in agent builder hands down.
+- [05:34] Which is why for this first category,
+- [05:35] agent kit gets an 8 out of 10. Naden
+- [05:37] gets a 6 out of 10 and that is our new
+- [05:39] total for the scores right now. Anyways,
+- [05:41] let's move on to the next category which
+- [05:42] is triggers. So remember earlier when we
+- [05:44] were looking at this workflow section
+- [05:46] and it says to build a chat agent. Now
+- [05:49] when we look at the triggers, you can
+- [05:50] kind of see why I am drawn to that or
+- [05:53] not drawn to that fixated on that
+- [05:55] because when you have your AI agent and
+- [05:56] you have just this start option, there's
+- [05:58] no other triggers available as you can
+- [06:00] see which means that if we want to
+- [06:02] communicate with this agent, the only
+- [06:03] way we can actually trigger it is by
+- [06:05] talking to it as you can see over here
+- [06:07] in this preview. So if I want to test my
+- [06:08] workflow, I can chat with it right here
+- [06:10] and I can say search the web for NDN. We
+- [06:12] can see visually that the agent right
+- [06:14] now is using its web search function and
+- [06:16] it's using its reasoning to search the
+- [06:17] web for Naden. And that's really cool
+- [06:19] because we spun up a web agent in matter
+- [06:21] of seconds. But the issue here is I
+- [06:24] don't see a great way to have web- based
+- [06:26] events or scheduled triggers. Even if we
+- [06:28] go up here to publish our AI agent,
+- [06:30] let's just say we're going to call this
+- [06:31] test web agent or text, I guess. And
+- [06:34] when we publish this, it said right
+- [06:36] there that it could be used in API
+- [06:37] calls. I don't know if you guys caught
+- [06:39] that, but what we're able to do is
+- [06:40] either embed it as chatkit, which I will
+- [06:42] talk about a little bit later, or we
+- [06:43] could trigger this agent from an agent's
+- [06:45] SDK, and it gives us the TypeScript or
+- [06:47] the Python. So, what this tells me is
+- [06:49] you technically could be able to trigger
+- [06:51] this agent from uh an HTTP request or
+- [06:54] from like an action in an app, but it's
+- [06:56] not super intuitive or easy. It would be
+- [06:58] really nice if OpenAI had scheduled
+- [07:00] triggers or app events, stuff like that.
+- [07:03] For instance, if you wanted to make an
+- [07:04] open AAI agent to respond to your
+- [07:06] emails, it would not be as easy as an
+- [07:08] NAN because there's not like a Gmail
+- [07:10] trigger on new message received trigger.
+- [07:13] Whereas an NAN and you want to look at
+- [07:14] your triggers, we could go to Gmail
+- [07:16] right here and then we could see our
+- [07:18] trigger is on new message received. So
+- [07:21] we could easily have this agent go off
+- [07:23] whenever we get a new Gmail. We also
+- [07:25] have eight triggers in Slack. So on any
+- [07:27] event, on bot mentioned, on file shared,
+- [07:29] on new user, on a reaction added,
+- [07:31] there's so many triggers that are
+- [07:32] already natively baked into Nitn. We we
+- [07:35] could of course have a web hook. So our
+- [07:36] CRM could send data, we could have
+- [07:38] Google Drive, we could have Twilio, we
+- [07:40] can have pretty much anything. And in my
+- [07:42] mind, the systems that are most valuable
+- [07:44] when it comes to automation or AI
+- [07:45] automation are the ones that the human
+- [07:47] doesn't have to manually trigger. So
+- [07:49] real quick example, a lot of businesses
+- [07:51] reach out to us and they want to
+- [07:52] integrate this personal assistant that I
+- [07:54] had built. However, when we're trying to
+- [07:55] actually communicate what would be the
+- [07:57] best quick win to show them ROI really
+- [07:59] fast, I never would recommend a personal
+- [08:01] assistant. What I would recommend is
+- [08:02] something that nurtures leads or
+- [08:03] responds to leads quicker and stuff like
+- [08:05] that because those type of systems help
+- [08:07] grow the business and as the business
+- [08:08] grows, those systems will get used more
+- [08:10] and more. So, the throughput of the
+- [08:12] system increases as the business grows,
+- [08:14] which is just a scalable compoundable
+- [08:17] ROI of the system. And it's not the
+- [08:19] exact same with something like a
+- [08:20] personal assistant because as the
+- [08:22] business grows, it doesn't necessarily
+- [08:24] mean that you're going to be using the
+- [08:25] system more. So, in a nutshell, the most
+- [08:27] powerful automations in my mind are ones
+- [08:29] that run in the background when you even
+- [08:30] know they're running. And because in
+- [08:32] OpenAI's agent builder, we're kind of
+- [08:34] limited on our triggers and being able
+- [08:36] to schedule or have things go off in the
+- [08:38] background. That's why I think any
+- [08:40] definitely takes the cake here, coming
+- [08:41] in at a 10 out of 10 and agent kit comes
+- [08:43] at a 5 out of 10, which makes our new
+- [08:45] score agent kit 13 and 16. All right,
+- [08:48] moving on to agent tools, which is
+- [08:50] really, really important because this is
+- [08:51] what gives our agents the ability to
+- [08:52] actually do things on our behalf. So,
+- [08:54] we're back in our OpenAI agent builder
+- [08:56] flow where we already gave our agent the
+- [08:58] tool of web search, which was super
+- [08:59] easy. No API key, really quick. I love
+- [09:02] it. But now, when we go to add more
+- [09:03] tools, you can see we only have a few
+- [09:05] options. We have a client tool, which is
+- [09:07] the ability to send data back to our
+- [09:09] chat kit widget, which I will say that
+- [09:11] is very cool. We can do MCP servers. So,
+- [09:13] this is nice because you can connect
+- [09:14] really easily to Gmail, Google Calendar,
+- [09:17] Drive, Outlook. You can see these other
+- [09:18] integrations right here, but there
+- [09:20] aren't a ton here and they all have to
+- [09:21] be MCP servers. You also could connect
+- [09:23] to a different MCP server, which is cool
+- [09:25] because there's, you know, tons in
+- [09:26] Zapier. You can even connect to your own
+- [09:27] custom end workflow and there's also
+- [09:29] lots of other MCP servers that you could
+- [09:31] connect to. And it's not as powerful as
+- [09:33] how many APIs there are out there and
+- [09:35] how many you could connect to with a
+- [09:36] standard HTTP request. And in Nitn when
+- [09:38] you come in here to connect tools you
+- [09:40] can first of all also call on an NIDN
+- [09:42] workflow which is super powerful and
+- [09:44] then of course you have all of these
+- [09:45] native integrations which is just
+- [09:46] there's literally hundreds and hundreds
+- [09:48] I think it's over 500 native
+- [09:49] integrations that they have. So almost
+- [09:51] any tool that you could think of you can
+- [09:52] connect to with your AI agents here. And
+- [09:54] if Naden doesn't have a native
+- [09:55] integration, you can use this HTTP
+- [09:57] request tool which is the most dynamic
+- [09:59] and powerful tool in the world because
+- [10:01] you can literally talk to any service
+- [10:03] that has API documentation. And like I
+- [10:05] mentioned with being able to call on
+- [10:07] subworkflows, you can see here with the
+- [10:08] ultimate personal assistant, for
+- [10:10] example, it has an email agent. And if I
+- [10:12] open up this email agent workflow, what
+- [10:14] we see is a completely separate AI agent
+- [10:16] that I built in Naden. And this agent in
+- [10:18] itself has tons of other tools that it
+- [10:20] can use in here. So you can build some
+- [10:22] really really powerful orchestration
+- [10:24] agent systems in NN. And all of these
+- [10:26] are super modular and reusable because
+- [10:28] now if I ever need an email agent, I can
+- [10:30] just hook it up to this one. Even if
+- [10:32] this agent is hooked up to like 100, it
+- [10:34] doesn't matter. And yes, I did say that
+- [10:36] you can hook up an OpenAI agent to an NN
+- [10:38] agent, which does work, but you would
+- [10:40] need to use this, which is the MCP
+- [10:42] server trigger right here. And you would
+- [10:44] be able to hook up this MCP server to a
+- [10:46] bunch of different tools. So, you do
+- [10:47] have the ability to talk to some custom
+- [10:48] agents and stuff in these workflows down
+- [10:51] here. It's just not as powerful as the
+- [10:53] sub workflow as a tool option. So, for
+- [10:55] agent tools, agent kit's going to come
+- [10:57] in once again at a five. N's going to
+- [10:59] come in at a 10. And our new total is
+- [11:01] agent kit 18. N 26. So, let's move into
+- [11:04] the next category, which is model
+- [11:06] support. So, this one's pretty simple
+- [11:07] and it's pretty easy because in OpenAI,
+- [11:10] of course, you only have access to the
+- [11:11] OpenAI models. And that's really not a
+- [11:13] huge problem. As you can see, we have
+- [11:14] tons and tons of models. You've got
+- [11:16] heavy ones, fast ones, reasoning ones.
+- [11:18] It's really not that big of a deal. And
+- [11:19] you also in here can change the
+- [11:21] reasoning effort really quickly. You can
+- [11:22] change the verbosity, the summary, the
+- [11:24] tool choice, all of this kind of stuff.
+- [11:26] And once again, because it's all baked
+- [11:28] into your OpenAI environment, you
+- [11:29] already have everything right here.
+- [11:30] You're also able to easily toggle on or
+- [11:32] off if you want chat history to be
+- [11:34] included or not. But in NN, what you can
+- [11:36] do is choose your own chat model. So,
+- [11:37] Anthropic, Azure, Bedrock, Coher, any of
+- [11:40] these. Or you could also just go to open
+- [11:42] router. And now you can choose pretty
+- [11:44] much any of the hundreds of models that
+- [11:46] are on Open Router. So you have way more
+- [11:48] freedom here. And honestly, I think that
+- [11:50] is very important because I don't always
+- [11:51] only just use OpenAI's models. I do a
+- [11:54] lot of the times, but for certain use
+- [11:56] cases, I really want to use a Google or
+- [11:57] I really want to use anthropic. And when
+- [11:59] you choose any of these models, you
+- [12:01] still have the option to change things
+- [12:02] like your top P, your frequency, your
+- [12:04] sampling temperature, all that kind of
+- [12:06] stuff as well in NAND, which is why
+- [12:08] NIAND comes in at a 10 out of 10 because
+- [12:10] you can also use local models because
+- [12:12] you can host NAND locally. And agent
+- [12:14] kit's going to come in at a 6 out of 10
+- [12:16] here, pushing our new total to agent kit
+- [12:18] 24 and N36. Now, this one's really
+- [12:20] interesting. We are moving on to UI chat
+- [12:23] components. So earlier in this video, I
+- [12:25] alluded a few times to something called
+- [12:26] Chatkit, which is like Agent Kit's
+- [12:28] built-in tool to help you create like
+- [12:30] website widgets and embed your OpenAI
+- [12:33] agents really easily and really cleanly
+- [12:35] onto your own website. Users can add
+- [12:37] slick branded chat interfaces to their
+- [12:39] apps without extra coding. Everything
+- [12:40] looks polished and works with OpenAI
+- [12:42] agents out of the box. And that is
+- [12:43] actually a really big value ad for
+- [12:45] OpenAI's agent kit. And it end on the
+- [12:48] other hand focuses way more on the
+- [12:49] backend workflows. So, it has no fancy
+- [12:52] or easy way to embed chat interfaces by
+- [12:54] default. You would typically need to
+- [12:56] embed your agent into some sort of front
+- [12:58] end if you want it to actually look
+- [13:00] nice. Here's a quick example of all of
+- [13:02] the different widgets you could create
+- [13:03] and you could have your OpenAI agents
+- [13:05] power these different widgets. And
+- [13:07] that's where this output thing comes
+- [13:08] into play. If I change this to widget,
+- [13:10] we could basically set up the type of
+- [13:12] widget we want and what little things
+- [13:14] that our agents could change based on
+- [13:15] its output in that widget. And so when I
+- [13:17] click on create widget here, you can see
+- [13:18] that we could either describe and start
+- [13:20] to mock up what we want it to look like.
+- [13:22] You can go to the gallery and see these
+- [13:24] are types of widgets and this is what
+- [13:25] you could have your agent actually
+- [13:27] interface with and change. And so that's
+- [13:28] why I think this is really cool for
+- [13:30] their front end. But with Naden, you
+- [13:32] have the option with the chat message
+- [13:33] trigger to open up a chat interface and
+- [13:36] embed it, but it just looks like this.
+- [13:37] It's really hard to customize and it
+- [13:39] just doesn't look great. So here's a
+- [13:40] cool quote from HubSpot. Chatkit saved
+- [13:42] us weeks of custom front-end work,
+- [13:44] making it easy for us to prototype
+- [13:46] enhancements to the UI of HubSpot's
+- [13:47] breeze assistant and agents. With the
+- [13:49] custom response widget, our agent can
+- [13:50] deliver interactive guided solutions
+- [13:52] instead of static replies. So, it is
+- [13:54] very cool, which is why agent kit is
+- [13:57] going to get a 9 out of 10 and Naden's
+- [13:58] going to get a 5 out of 10, moving the
+- [14:00] total to agent kit 33 and end 41.
+- [14:02] Hopefully, I've done all this math
+- [14:04] right. Let me know if I have not. And
+- [14:05] now to talk about our final section, we
+- [14:07] have deployment and control, which is
+- [14:09] obviously a big deal, especially if you
+- [14:11] want to do this for your own business or
+- [14:13] help other businesses implement AI
+- [14:15] automations. One of the biggest reasons
+- [14:17] in my mind that blew up besides being
+- [14:20] easy to use and visual is because it was
+- [14:23] open- source. I think they prefer to
+- [14:25] actually use the term code available or
+- [14:27] something like that, but meaning you can
+- [14:30] host it in the cloud, you can host it on
+- [14:32] your own private server, you can host it
+- [14:33] locally on your own computer, and you
+- [14:34] can have full control over all of the
+- [14:36] data, especially if you're locally
+- [14:38] hosting your LLM as well. You know where
+- [14:40] everything's going. Agent Kit, on the
+- [14:42] other hand, is deployed and managed
+- [14:43] entirely in OpenAI's cloud, so users
+- [14:46] don't have to worry about the technical
+- [14:47] setup, which is good. Everything's
+- [14:48] hosted for them, but also OpenAI has
+- [14:51] full control over where the data and
+- [14:52] agents are living. And once again, if
+- [14:54] your company and your workflows are
+- [14:55] already completely baked into OpenAI's
+- [14:57] environment, then that's probably not a
+- [14:58] huge deal for you, and you could easily
+- [15:00] spin up some really helpful automations
+- [15:02] with OpenAI's Agent Kit. But Naden, once
+- [15:04] again, you can have full control,
+- [15:06] although sometimes that does require a
+- [15:07] little bit more technical setup or
+- [15:09] expertise at the beginning. So for
+- [15:11] deployment and control, agent kit gets a
+- [15:13] 7 out of 10. Naden gets a 10 out of 10,
+- [15:15] moving the total to a final agent kit 40
+- [15:18] and NADN 51, which means that NADN is
+- [15:20] our winner today. But once again, this
+- [15:22] is very relative. If I was approaching
+- [15:24] this from a standpoint of a different
+- [15:25] type of consumer, maybe not as much of a
+- [15:27] developer standpoint, I would probably
+- [15:29] enjoy Agent Kit more. So anyways,
+- [15:31] there's a few more miscellaneous things
+- [15:32] I wanted to hit on real quick about the
+- [15:34] two platforms. So like pricing,
+- [15:36] evaluation tools, and community support.
+- [15:38] This is still not a finished product by
+- [15:39] Agent Kit, and they're capable of doing
+- [15:40] a ton of cool stuff here. So their
+- [15:42] pricing is not fully finalized right
+- [15:45] now. You can just basically access it
+- [15:46] for free, but I believe you'd be paying
+- [15:48] for the usage of the AI chat models.
+- [15:50] Agent Kit also has some really cool
+- [15:52] evaluation tools, but there's also some
+- [15:53] aspects of the evaluation that I don't
+- [15:55] love. So, let me show you what I mean by
+- [15:56] that real quick. Okay, so this is one of
+- [15:58] OpenAI's templates. And what I want to
+- [15:59] do real quick is just preview it and
+- [16:01] just do a quick conversation. So, I
+- [16:03] first of all say hello. You can see
+- [16:05] what's going on over here. The triage
+- [16:06] agent is going to figure out what to
+- [16:08] output. And then it basically sends me
+- [16:10] back some information and it says to get
+- [16:12] started, could you share the following?
+- [16:14] You can see I responded to that. You can
+- [16:15] see we saw the path that this workflow
+- [16:17] took. And now the launch helper agent is
+- [16:19] basically creating us a guide on how to
+- [16:22] launch this. So regardless of the
+- [16:24] output, what I don't love here is I
+- [16:26] can't see how the data moved through
+- [16:27] each of these steps. So if I close out
+- [16:29] of this preview and I click on, you
+- [16:31] know, that we want to see what happened
+- [16:32] in this condition, it's kind of hard to
+- [16:34] see what data just passed through. And
+- [16:35] if I click on evaluate, this is where we
+- [16:37] could actually kind of, you know, see
+- [16:39] those logs, but it's a little bit
+- [16:40] confusing. Like you can see the timing
+- [16:42] of each of these steps. You can see what
+- [16:44] happened. If I click on this triage
+- [16:46] agent, we can see that it used GPT5. We
+- [16:49] can see the system prompts. We can see
+- [16:50] the input right here. And we can see the
+- [16:52] reasoning and the actions, but it's just
+- [16:54] a lot harder to see the data moving
+- [16:56] through the nodes in the way that NIDAN
+- [16:58] makes it a lot easier to do because in
+- [17:00] NIN with this workflow, you can see
+- [17:02] everything's green. You can see how many
+- [17:04] items are moving through. When you click
+- [17:06] into a node, you can see the input on
+- [17:07] the left, you can see the configuration
+- [17:08] in the middle, and you can see the
+- [17:09] output on the right. So, it's really
+- [17:11] easy to follow the data trail and
+- [17:13] understand exactly where something went
+- [17:15] wrong and what you need to change. But
+- [17:17] in my mind, in this OpenAI agent kit
+- [17:19] environment, it's just hard for me to
+- [17:21] understand what's coming in and what's
+- [17:22] going out because you can see here we
+- [17:24] have a variable which is input output
+- [17:26] parsed blah blah blah. But I don't
+- [17:28] exactly know where that variable is
+- [17:29] coming from. I would have to come into
+- [17:30] here and I would have to try to figure
+- [17:32] out, okay, output format, we have JSON,
+- [17:34] we have this response schema, and is
+- [17:36] this where it's outputting the
+- [17:37] information? So anyways, not trying to
+- [17:39] get too technical here, but I really
+- [17:40] like in Nitn how you can see the outputs
+- [17:43] of the nodes. You can see data flow. You
+- [17:44] can see the input configuration and the
+- [17:46] output. And you can also click on
+- [17:48] executions and you can go see all of the
+- [17:50] different runs very clearly what
+- [17:51] happened in a much more visual interface
+- [17:54] than going into the agent builder,
+- [17:56] looking at the evaluations, and looking
+- [17:57] at all of the logs and having to kind of
+- [17:59] look through it like this. It's just a
+- [18:01] bit more confusing, which surprises me
+- [18:03] because it's so much easier to use if I
+- [18:05] was a complete beginner. But they also
+- [18:07] do have some really cool evaluation
+- [18:08] capabilities with data sets, trace
+- [18:10] grading, and prompt optimization. As you
+- [18:12] can see here, there's different ways
+- [18:14] that you can grade your runs and then
+- [18:16] like pass prompts through to see if
+- [18:17] they're passing or failing. You can
+- [18:19] optimize your prompts, and of course,
+- [18:20] you can trace grade. The last thing I
+- [18:23] wanted to hit on here was community
+- [18:24] support. OpenAI obviously just released
+- [18:26] their agent kit yesterday, and we all
+- [18:29] know what that company is capable of.
+- [18:30] They're it's just really cool what
+- [18:32] they're working on. So, I imagine we're
+- [18:33] going to see Agent Kit continue to
+- [18:35] evolve and evolve. But because Eniden's
+- [18:37] been around for 6 years and has blown up
+- [18:38] in the past year, there's so much
+- [18:40] content, there's so many courses,
+- [18:41] there's so many free templates, like
+- [18:43] 5,000 plus templates, whereas in Open
+- [18:46] AI's Agent Kit, you're a little bit more
+- [18:48] on your own right now. Anyways, overall,
+- [18:50] we have Agent Kit at 40, we have Naden
+- [18:52] at 51. And I wanted to talk about real
+- [18:55] quick when you would choose each of
+- [18:56] these tools. So, I would choose OpenAI
+- [18:58] agent kit if I wanted to prioritize
+- [19:00] rapid deployment with minimal technical
+- [19:02] complexity. If I wanted a polished chat
+- [19:04] user interface or some widgets that
+- [19:05] could be dynamic, if I'm looking to do
+- [19:07] some really quick and easy comprehensive
+- [19:09] agent evaluation and testing. And of
+- [19:10] course, if I have everything that I know
+- [19:12] about my business already in OpenAI's
+- [19:14] ecosystem, it's going to make it really
+- [19:16] easy to plug in these custom workflows.
+- [19:18] Now, Nen, they definitely were targeting
+- [19:20] more of the developers. Flexibility
+- [19:22] across multiple AI providers, complex
+- [19:24] workflow automation beyond simple chat,
+- [19:26] cost control through self-hosting,
+- [19:27] complete data and infrastructure
+- [19:29] control. You obviously have the ability
+- [19:30] to connect to literally anything,
+- [19:31] trigger your workflows by literally
+- [19:33] anything, and do any type of data
+- [19:35] manipulation or transformation that you
+- [19:37] need. But making this video was really
+- [19:38] fun for me because I think a lot of
+- [19:40] people tend to get caught up on tools.
+- [19:42] You know, what's going to drop? What's
+- [19:44] going to be relevant? What do I learn?
+- [19:45] Am I taking a huge risk or gamble? The
+- [19:48] answer is no. as long as you're
+- [19:50] approaching it from the mindset of I
+- [19:52] want to learn when AI is valuable, when
+- [19:54] it's not, how to save time, and how to
+- [19:56] solve a core problem that is actually
+- [19:58] facing the business. Because if you're
+- [20:00] trying to work with businesses, they're
+- [20:01] probably not going to choose you because
+- [20:03] of your specific tool. They're going to
+- [20:05] choose you because you know how to
+- [20:06] deliver them results that save them
+- [20:08] money, save them time, and increase
+- [20:09] their focus. So, real quick, the mindset
+- [20:11] should be become tool agnostic. Solve
+- [20:14] what the problem is at its core. Doesn't
+- [20:16] really matter how you get there. So, if
+- [20:18] I apologize for the ramble there, but
+- [20:19] hopefully you guys understand where I'm
+- [20:21] coming from. That's the type of stuff I
+- [20:22] love to talk about in this space because
+- [20:24] there is a lot of hype. And if you're
+- [20:25] looking to connect with a ton of other
+- [20:26] people who enjoy talking about that kind
+- [20:28] of stuff as well, then definitely check
+- [20:29] out my plus community. The link for this
+- [20:31] is down in the description. We just hit
+- [20:32] 3,000 members, which is super exciting,
+- [20:34] but it's full of people that are
+- [20:36] building with NAND every day or
+- [20:37] different platform. It's a community
+- [20:39] full of AI problem solvers. Tons of
+- [20:40] people in here are building businesses
+- [20:41] with AI or using AI to help their own
+- [20:43] businesses. It's a really cool space to
+- [20:45] be. And we also have three full courses
+- [20:47] right now. Agent zero which is the
+- [20:49] foundations of AI automation for
+- [20:50] beginners. We have 10 hours to 10
+- [20:52] seconds where we dive into naden and
+- [20:54] identifying how to save time with
+- [20:55] automations. And then we have a new
+- [20:58] course for our annual members called one
+- [20:59] person AI automation agency where we lay
+- [21:01] the foundation for building a scalable
+- [21:03] AI automation business. I also run one
+- [21:05] live call a week in here which have been
+- [21:07] really fun lately. Been getting a lot of
+- [21:08] cool questions and cool discussions. So
+- [21:10] I'd love to see you guys in this
+- [21:11] community. But that's going to do it for
+- [21:12] today's video. If you enjoyed you
+- [21:13] learned something new, please give it a
+- [21:14] like. It definitely helps me out a ton.
+- [21:16] And as always, I appreciate you guys
+- [21:17] making it to the end of the video. I'll
+- [21:19] see you on the next one.

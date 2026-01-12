@@ -1,0 +1,3852 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=nMKS-QXjqo8"
+video_id: "nMKS-QXjqo8"
+video_url: "https://www.youtube.com/watch?v=nMKS-QXjqo8"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "marketing", "PMF", "AI", "investment", "funding", "team_building", "product_development", "growth"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=nMKS-QXjqo8
+  - Retrieved at: 2025-12-30T16:15:54+09:00
+  - [00:10] Okay, it's merged.
+key_points:
+  - "- [00:49] you fetch you see should see the lab"
+  - "- [02:05] >> Should I start letting people in?"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: nMKS-QXjqo8
+
+- URL: https://www.youtube.com/watch?v=nMKS-QXjqo8
+- Retrieved at: 2025-12-30T16:15:54+09:00
+
+## Text
+
+- [00:10] Okay, it's merged.
+- [00:12] Nice. Thank you.
+- [00:38] gets merged in tutorials done.
+- [00:41] >> Yeah,
+- [00:49] you fetch you see should see the lab
+- [00:51] one. I don't see for some reason.
+- [01:04] >> What?
+- [01:09] We'll start in 2 minutes. Okay,
+- [01:12] >> sounds good.
+- [01:18] Um, I mean
+- [01:23] I don't see it either, but
+- [01:27] I mean if you look at the PR
+- [01:30] >> Yeah, I don't see it. I don't see it.
+- [01:34] Do I mean you can just drop the command
+- [01:36] in the um
+- [01:40] just drop the command in.
+- [01:57] That's weird.
+- [01:59] Okay. Pull regen. Okay.
+- [02:04] everything.
+- [02:05] >> Should I start letting people in?
+- [02:07] >> Yeah, go.
+- [02:09] >> You can let everyone in now, then I'll
+- [02:12] speak.
+- [02:13] >> Okay, perfect.
+- [02:15] >> Thank you.
+- [02:35] Okay, so I can see that we have people
+- [02:37] joining in. Thank you everyone for
+- [02:39] joining. Welcome to the workshop with
+- [02:41] Arise. We'll be starting very shortly.
+- [02:44] But before we begin, I'd just like to
+- [02:46] give a few guidelines to make sure the
+- [02:48] workshop is smooth as well as engaging.
+- [02:50] So um quick guidelines, please please
+- [02:52] stay on mute unless you're asking a
+- [02:54] question to avoid background music. If
+- [02:56] you'd like to speak, just raise your
+- [02:58] hand and wait for the wait for Aman or
+- [03:00] Dylan to uh call on you before unmuting.
+- [03:03] You can also drop your questions in chat
+- [03:04] anytime. Our team will also be looking
+- [03:06] at the chat and also Aman and Dylan as
+- [03:08] well. So since this is an interactive
+- [03:10] session, we encourage you to participate
+- [03:12] in discussions, but please be respectful
+- [03:14] and give others a chance to speak as
+- [03:16] well. If possible, keep your cameras on.
+- [03:19] If not, that's also okay, but it would
+- [03:21] just make the workshop more engaging. Uh
+- [03:23] another thing the session was recorded
+- [03:25] and we'll be sharing the recording and
+- [03:26] the resources afterwards as well.
+- [03:28] Finally um we ask everyone that to
+- [03:31] participate courteously and respectfully
+- [03:33] so we can create a more positive
+- [03:34] experience for everyone. And that's all.
+- [03:37] Thank you Aman. You can take over.
+- [03:39] >> Awesome. Thank you so much. All right.
+- [03:41] Good to see you all here. Um well let's
+- [03:43] hop right in and uh yeah super excited
+- [03:46] to share a little bit around agents and
+- [03:50] building uh building smarter agents
+- [03:52] faster. Um so thanks to data science
+- [03:55] dojo for inviting us to kind of share
+- [03:57] more here. Uh so I'll hop right in and
+- [04:00] just do a quick intro of ourselves. So
+- [04:02] my name is Aman. I'm on the product team
+- [04:05] at a company called Arise. Uh Dylan, do
+- [04:08] you want to give a quick intro of
+- [04:09] yourself as well?
+- [04:10] >> Yep, absolutely. Um, so my name is Dylan
+- [04:13] Kuzon. I do community and developer
+- [04:15] relations at Arise. Um, so very nice to
+- [04:19] meet everyone.
+- [04:20] >> Yeah. Awesome. So we're going to be
+- [04:22] hopping in and and um, you know, giving
+- [04:24] a bit of an overview of how to build
+- [04:26] agents. This is a pretty pretty lengthy
+- [04:27] workshop. It's around 3 hours, but we're
+- [04:29] going to try and break it up, make it
+- [04:31] kind of fun, interactive, and leave a
+- [04:33] good amount of time for questions as
+- [04:34] well. Um, so just by way of a little bit
+- [04:36] of background. Um, so I actually uh, you
+- [04:39] know, I I have a technical background
+- [04:40] myself. I actually started my career as
+- [04:41] an engineer working on evaluations for
+- [04:44] self-driving cars and then went over to
+- [04:46] Spotify and worked on the machine
+- [04:48] learning platform there which is how I
+- [04:50] discovered the company I'm at now which
+- [04:52] is called Arise. Uh we're an eval
+- [04:54] observability company. Uh if you haven't
+- [04:56] heard of us before we're sort of uh you
+- [04:58] know one of the leading observability
+- [05:00] and eval companies in the space. Um,
+- [05:02] we're backed by Microsoft and Data Dog
+- [05:04] and we actually have companies like
+- [05:06] Spotify, Uber, Reddit, Instacart, Door
+- [05:09] Dash, and 150 plus more customers. Uh,
+- [05:13] so we've been seeing we've been kind of
+- [05:15] lucky to see and learn a lot about how,
+- [05:19] you know, these customers of ours are
+- [05:21] actually building and deploying agents
+- [05:22] in the wild. So um you know if you know
+- [05:26] this workshop is really going to be sort
+- [05:28] of a deeper dive into some of those
+- [05:30] lessons of how to actually build agents
+- [05:33] from 0 to 1. We'll use some
+- [05:35] off-the-shelf frameworks just to get us
+- [05:37] all oriented and started so we can get
+- [05:39] you know kind of get get our agents up
+- [05:41] and running right away.
+- [05:43] And this this workshop is really built
+- [05:44] for people that are trying to learn, you
+- [05:46] know, maybe you're building agents or
+- [05:48] you want to learn more about core
+- [05:49] concepts like rag tool call tool
+- [05:52] calling, MCP and eval from a more
+- [05:54] practical lens and hands-on lens. And
+- [05:57] finally, uh you'll actually be able to
+- [05:59] walk away from this workshop with an
+- [06:00] endto-end example that you can deploy in
+- [06:02] your own company. Uh it's really going
+- [06:04] to be kind of a starter pack example. Uh
+- [06:06] think about it that way. But um you know
+- [06:08] hopefully this gives you a little bit of
+- [06:10] a hands-on into some of these more kind
+- [06:12] of uh specific advanced concepts. Uh a
+- [06:15] couple of quick questions. Usually I run
+- [06:17] this workshop uh in person. Um it'd be
+- [06:20] great if you could just drop in the chat
+- [06:23] uh you know where you're calling in from
+- [06:26] and just to uh while you kind of put
+- [06:28] that message in there. I myself I'm I'm
+- [06:30] in uh in in New York right now. Uh Dylan
+- [06:33] is in New York too but feel free to
+- [06:35] engage in the chat. drop in where you're
+- [06:37] calling in from. That would be uh that
+- [06:39] would be great. Um and while while we do
+- [06:42] that, as you introduce yourself, I'll
+- [06:44] just reiterate some of the the ground
+- [06:46] rules here that the data science dojo
+- [06:48] folks um kind of mentioned. We're gonna
+- [06:51] basically the format of this is going to
+- [06:53] be a little bit of we're going to do
+- [06:55] some slides per each of these sections
+- [06:58] and then we're going to have a hands-on
+- [06:59] workshop uh for basically a lab
+- [07:02] component for each of the the sections
+- [07:05] here. The lab is going to be in Python.
+- [07:08] So I sent out a survey before just to
+- [07:10] check if everyone um is comfortable with
+- [07:12] Python and how comfortable you are.
+- [07:14] Don't worry, we've it's going to be
+- [07:16] pretty starter like very kind of, you
+- [07:19] know, pretty beginner friendly Python
+- [07:21] code. And we're gonna pause at each of
+- [07:24] the lab sections and make breakout rooms
+- [07:26] so that people can, you know, work
+- [07:28] through the coding portion live and
+- [07:32] we'll be there to help you if you get
+- [07:34] stuck with debugging or if you run into
+- [07:36] any issues. If you still can't get the
+- [07:38] code working for any particular reason,
+- [07:41] I just ask that, you know, so that we
+- [07:43] can kind of keep the the workshop
+- [07:45] moving, just feel free to flag and come
+- [07:47] back to the to the code um afterwards as
+- [07:50] well if you need to. Uh, you know, this
+- [07:52] is all going to be public GitHub uh code
+- [07:55] so you can always come back and
+- [07:56] reference it and we'll be dropping links
+- [07:58] so that you can catch up at any point as
+- [08:00] well. Awesome. We have Wow, this is a
+- [08:03] really diverse group. We have people
+- [08:04] from Orange County, Nashville, Sweden,
+- [08:06] Texas, Boston. So, pretty pretty awesome
+- [08:09] here. Um, and then yeah, if at any point
+- [08:11] you do have a question, feel free to
+- [08:13] raise your hand and I'll try to leave
+- [08:15] some space for questions space naturally
+- [08:18] throughout the workshop, but uh, you
+- [08:20] know, if it is a burning question, feel
+- [08:22] free to raise your hand and you can
+- [08:23] always ask the question in the chat as
+- [08:25] well. And either my myself or Dylan will
+- [08:28] be able to take the question live as
+- [08:30] well. So try to ask the question in chat
+- [08:33] first. If you don't if you feel like
+- [08:35] it's really important or urgent, raise
+- [08:36] your hand and I'll call on you and you
+- [08:38] can go off mute just so that we can kind
+- [08:40] of keep the workshop going. So a little
+- [08:42] bit of just like framing of what your
+- [08:44] team might look like. So these are kind
+- [08:46] of the two main personas that we're sort
+- [08:48] of seeing building AI agents and
+- [08:50] actually responsible for evalu
+- [08:55] agents off the ground. We have technical
+- [08:57] users in our platform. So, think of that
+- [08:59] as like AI engineers, developers, data
+- [09:00] scientists, but we're actually seeing
+- [09:02] more and more subject matter experts and
+- [09:04] AI PMs. Um, just again as sort of like a
+- [09:07] quick question for folks here, where
+- [09:09] would you say you fall into one of these
+- [09:12] categories? Are you an AI engineer,
+- [09:15] developer, curious about AI, but not
+- [09:18] really fully writing AI code, or are you
+- [09:20] an AI PM or another type of uh persona
+- [09:23] as well? Maybe just drop in the chat
+- [09:24] here just so we know uh how many folks
+- [09:27] are kind of split across different
+- [09:28] roles.
+- [09:33] Oh wow, nice. We have a good number of
+- [09:35] uh AIPMs hopping in full stack transfer.
+- [09:39] Nice.
+- [09:43] Cool. Okay, awesome. Well, you all are
+- [09:46] in the right place. Um we have a lot of
+- [09:48] folks here thinking about uh you know
+- [09:51] sort of AIPM at a at a higher level
+- [09:54] which is awesome. So this actually a
+- [09:57] good starting point here for um you know
+- [09:59] where we kind of see ourselves fit into
+- [10:03] the landscape. This is something that a
+- [10:05] lot of teams experience firsthand,
+- [10:06] right? Like building prototypes is easy
+- [10:08] but getting to production is hard. But
+- [10:11] what do you what do we really mean by
+- [10:12] that when you're thinking about you know
+- [10:14] AI code or AI in products? Um you know
+- [10:19] really fundamentally like how do you
+- [10:21] integrate AI into your product? So
+- [10:23] getting starting with a prototype this
+- [10:24] might be your like lovable bolt replet
+- [10:26] type of prototype or maybe you're just
+- [10:28] getting started with something like
+- [10:29] Langchain or Crew AI or one of the agent
+- [10:32] frameworks. There's really a series of
+- [10:35] steps you have to go through to get to a
+- [10:37] point where you feel more confident
+- [10:39] deploying your application. And our goal
+- [10:42] is really to help guide you through a
+- [10:43] few of these steps and show you why you
+- [10:45] need to do things like curating data,
+- [10:48] looking at your data, writing eval, and
+- [10:50] really ultimately getting started with
+- [10:52] uh being able to understand what your
+- [10:54] agent is actually doing so that you can
+- [10:56] go back to your team and say, "Hey, this
+- [10:57] is the things we need to change about
+- [10:59] our agent before we actually go and
+- [11:00] deploy to production." So, we're going
+- [11:03] to do a quick overview, introduction to
+- [11:05] agents. We'll finally answer that
+- [11:06] question. You've probably heard a
+- [11:08] million times. What is an agent? We're
+- [11:10] going to get into agent engineering.
+- [11:11] What does that mean? How does that apply
+- [11:14] to a skill that you might want to start
+- [11:16] learning or or learning more about or
+- [11:18] picking up in this job environment.
+- [11:20] Then, we'll start getting into agent
+- [11:22] frameworks and architectures. And with
+- [11:25] that, we'll kind of talk about the core
+- [11:26] components that go into agents, agent
+- [11:29] frameworks, and architectures. and then
+- [11:31] talk about rag evaluation and finally
+- [11:34] getting to production.
+- [11:36] Just because there's this is a lot of
+- [11:38] time and it's a lot of topics. I'm going
+- [11:40] to do my best to cover each of these but
+- [11:42] uh you know a couple of the sections we
+- [11:44] might go a little bit faster in uh and
+- [11:46] depending on how much time we have. I
+- [11:47] want to leave a good amount of time
+- [11:48] about 30 minutes at the end for any
+- [11:50] questions. So uh you know we'll we'll
+- [11:52] try to get through as much of this as we
+- [11:53] can but if we don't cover some of the
+- [11:55] slide material uh just know that that's
+- [11:57] something you can always come back to at
+- [11:58] the end as well. Okay, module one. Let's
+- [12:01] hop right in. Before we actually talk
+- [12:03] about agents, another quick question for
+- [12:06] folks here since we have a mix of
+- [12:08] people, AIPMs,
+- [12:10] leadership role, developers, and full
+- [12:13] stack developers learning about AI. How
+- [12:16] many folks have actually built an agent?
+- [12:18] And if you have built an agent, in what
+- [12:20] framework did you build agent? Maybe
+- [12:22] please drop that in the chat, too. and
+- [12:24] would love to just sort of use that as a
+- [12:26] starting point for where folks are at in
+- [12:28] terms of building agents and where where
+- [12:30] you maybe have gotten started already.
+- [12:32] Gain graph. Great. Okay, we're going to
+- [12:33] be using more lane graph in this
+- [12:35] presentation too.
+- [12:38] So, just to sort of zoom out for a sec
+- [12:40] while folks kind of put that information
+- [12:42] in. When we think about agents, there's
+- [12:44] really, you know, three main components
+- [12:47] here that we like to talk about, which
+- [12:48] are the input, which is usually the
+- [12:50] query or the thing we're asking the
+- [12:52] agent to do. There's the output or the
+- [12:54] response from this agent-based system.
+- [12:57] And then in between that is really what
+- [12:59] we think about from an LLM based
+- [13:01] application. And an agent is really a
+- [13:03] mix of these components. It's really the
+- [13:06] LLM with code around the LLM call that
+- [13:10] helps with constructing the prompt, the
+- [13:12] context, the things the agent has access
+- [13:15] to and where it gets data to ultimately
+- [13:18] be able to solve a user's question or
+- [13:21] perform a task or perform, you know,
+- [13:23] actually accomplish what the user is
+- [13:25] asking for. So we define agents as
+- [13:29] softwarebased systems that can take
+- [13:31] actions on behalf of a user utilizing
+- [13:34] reasoning. That reasoning is powered by
+- [13:37] AI and specifically in this case these
+- [13:40] days it's a lot of LLMs.
+- [13:43] That agent may also be able to decide
+- [13:45] and determine what next action to take
+- [13:48] using routing. So that can be the
+- [13:51] determining you know which tool to call,
+- [13:54] where to query data from or what next
+- [13:56] action to take. And then last but not
+- [13:57] least, that agent can actually take
+- [13:59] action and that is making API calls,
+- [14:02] constructing requests to external
+- [14:04] services to actually pull down, pull in
+- [14:07] data and uh actually take action on the
+- [14:10] data. Do yoga will be covering MCP uh a
+- [14:13] little bit later in this one. Stick
+- [14:14] around for that.
+- [14:17] So, a couple just to just to kind of
+- [14:19] orient this a little bit around agent
+- [14:21] use cases are probably things you're
+- [14:22] going to be familiar with. Uh, if you've
+- [14:24] used um you know the comet browser from
+- [14:27] Perplexity or Operator from OpenAI,
+- [14:30] you're probably familiar with things
+- [14:31] like desktop or browser agents. Uh, if
+- [14:34] you've built automations using NADN or
+- [14:38] another no code low code system, you've
+- [14:40] probably built something like a personal
+- [14:41] assistant. A lot of people are using
+- [14:43] cloud code. That's another example of a
+- [14:46] type of agent or cursor agent for
+- [14:47] coding. What we're going to be covering
+- [14:49] in this presentation is actually going
+- [14:51] to be a research assistant. So, this is
+- [14:53] actually going to help us pull data, do
+- [14:55] planning, querying, and actually take
+- [14:56] action on data that we pull. And we're
+- [14:58] actually going to go ahead and build one
+- [15:00] of these from scratch ourselves.
+- [15:03] There's a lot of resources out there on
+- [15:04] some of the most popular agent
+- [15:06] frameworks, including Langraph, Blumma
+- [15:08] Index, and Crew AI. I urge you to take a
+- [15:11] look at some of this supporting material
+- [15:12] from deep learning AI. Fun fact, we
+- [15:14] actually also have a course with deep
+- [15:16] learning AI around evaluating AI agents
+- [15:19] where some of this material is actually
+- [15:21] covered in that course as well. So if
+- [15:22] you want to go deeper or you have a
+- [15:24] desire to learn more about evaluating AI
+- [15:27] agents, feel free to check that out as
+- [15:29] well. Uh it's really good sort of
+- [15:30] condensed content uh to give you an
+- [15:33] overview of different agent frameworks
+- [15:34] and then how to evaluate AI agents as
+- [15:36] well. So, let's take an example of an
+- [15:38] anatomy of an agent really quick. So,
+- [15:40] we're going to be using this example of
+- [15:42] a trip planning bot. It's sort of a toy
+- [15:43] example, but it actually covers a lot of
+- [15:45] the components here that sort of
+- [15:48] standard agent services and products
+- [15:50] actually have today. So, it's a pretty
+- [15:51] good example because it it actually
+- [15:53] covers a lot of the the like
+- [15:55] nitty-gritty, the how of how agents
+- [15:57] work. So, let's take an example of an AI
+- [16:00] agent and uh the the task I'm giving
+- [16:03] this AI agent is to book me a trip to
+- [16:04] San Francisco. So what does that agent
+- [16:06] need to do? It needs to actually go in
+- [16:08] figure out which tool to call. It needs
+- [16:10] to call the right APIs, construct the
+- [16:13] requests to those APIs. It needs to pull
+- [16:16] down the context from those requests and
+- [16:18] the the responses from those APIs,
+- [16:20] construct a response and actually make
+- [16:22] it something that we can use downstream.
+- [16:24] And then overall it needs to actually
+- [16:26] perform the task and generate the right
+- [16:28] answer. Right? So there's a lot of steps
+- [16:29] in an agent that you know seem really
+- [16:32] simple at a high level but it's also
+- [16:34] sort of the steps that you can think
+- [16:35] about a human taking when you ask a
+- [16:37] human hey you know go and book me a trip
+- [16:39] to San Francisco. Well each of these
+- [16:43] steps you can actually break down
+- [16:45] further and figure out was the right
+- [16:47] action taken per step. So for instance
+- [16:50] figuring out which tool to call you can
+- [16:52] determine was that the right tool to be
+- [16:54] selected. uh search uh did we construct
+- [16:56] the right API call? Did we use the
+- [16:59] context correctly? Did we construct the
+- [17:01] right response? So each step can be
+- [17:02] broken down into further subtasks that
+- [17:05] you can actually evaluate uh in the same
+- [17:07] way that you can evaluate a human doing
+- [17:09] the same task. And the thing is that
+- [17:11] means that there's a lot of ways that
+- [17:12] agents can go wrong. That means that you
+- [17:15] know things like calling the wrong wrong
+- [17:17] tool, constructing the search
+- [17:18] incorrectly, uh generating a response
+- [17:21] that maybe isn't super friendly or
+- [17:23] inappropriate. Any one of those things
+- [17:26] going wrong can result in an unhappy
+- [17:28] user. And an unhappy user means a poor
+- [17:30] business outcome, which means your agent
+- [17:33] isn't doing the thing you want it to do.
+- [17:34] So, it's really important to think about
+- [17:36] agents as, you know, systems that can do
+- [17:39] all of these really amazing things. But
+- [17:42] just because they can do these things
+- [17:43] doesn't mean they're doing them
+- [17:44] correctly. And that's a little bit of
+- [17:45] what we're going to dive deeper on as
+- [17:47] well. So remember here, this is just the
+- [17:50] reality of agent engineering. When you
+- [17:52] change your prompt, you change your
+- [17:53] model, you change something even really
+- [17:56] small like adding a single line to your
+- [17:58] prompt or to your code, that can mean
+- [18:00] that your system can break. And so
+- [18:02] that's what a lot of agent engineering
+- [18:04] that we're going to be covering is
+- [18:05] actually going to talk about as well.
+- [18:07] The reason for that is because there's
+- [18:09] this is kind of a new way of developing
+- [18:12] products in the software testing sort of
+- [18:15] deterministic world. uh sorry these
+- [18:17] should be swapped switched but software
+- [18:20] is deterministic
+- [18:22] LLM agents are nondeterministic right
+- [18:24] these are probabilistic stochastic
+- [18:27] systems that means that given the same
+- [18:29] inputs the LLM can produce different
+- [18:30] outputs LLM agents can take multiple
+- [18:33] paths whereas unit tests or software
+- [18:36] code are deterministic right so like the
+- [18:38] when you think about end to end the
+- [18:40] software itself is deterministic the
+- [18:42] unit tests 1 plus 1 equals 2 every
+- [18:45] single time in Asia world. Try this out
+- [18:48] yourself. Ask Chat GBT, what does 1 plus
+- [18:50] 1 equal? You tell it it's wrong. Say go
+- [18:52] back and recalculate it. It's going to
+- [18:54] take 30 seconds and it might land up
+- [18:56] with a different answer. And we know
+- [18:57] that because of all of the tokens that
+- [18:59] we have to generate here. The last but
+- [19:01] not least, and really maybe the most
+- [19:03] important point here is that improving
+- [19:05] agents relies on your data. And so a lot
+- [19:08] of what we're going to be covering is
+- [19:09] actually how to get data out of our
+- [19:11] agent so we can actually use that data
+- [19:13] to improve on the agent itself. So it's
+- [19:15] actually building a data flywheel from
+- [19:17] the output of the agents uh that we can
+- [19:19] use to improve on the agent. Whereas
+- [19:21] traditional software testing relies on
+- [19:23] integration tests uh on your existing
+- [19:25] codebase.
+- [19:27] Okay, with that we're going to jump into
+- [19:28] our first lab and we're going to get
+- [19:30] started by actually running an agent on
+- [19:33] our local machine. Uh so the the let me
+- [19:37] go ahead and drop this link in the chat
+- [19:42] and this is the GitHub repo with a
+- [19:44] readme
+- [19:47] as Dylan said here for the labs. Make
+- [19:50] sure you've got a code editor ready uh
+- [19:52] with the CLI and Python 3 and ideally
+- [19:55] git so that you can pull the GitHub repo
+- [19:57] down. If you can't for some reason uh
+- [20:00] you know if you don't have git in your
+- [20:02] command line you can also just
+- [20:07] kind of show you here on my my machine
+- [20:10] as well.
+- [20:12] You can go back up to the parent uh repo
+- [20:16] and you can also just download as a zip
+- [20:18] if you don't have git in your command
+- [20:20] line um for any particular reason. So
+- [20:22] you can download the folder as a zip.
+- [20:24] And then what you want to do is navigate
+- [20:26] to Python LLM agents agent mastery
+- [20:30] course. And what we're going to do is
+- [20:33] actually start with just the readme
+- [20:35] which has the code example in there of
+- [20:37] what we want you to run. So this is
+- [20:39] actually going to just set up a langraph
+- [20:42] system on your local machine and you're
+- [20:44] going to host it yourself. So if you're
+- [20:45] using VS Code, a terminal, you're using
+- [20:47] cursor, any of those will work for this.
+- [20:50] And what you're going to do is actually
+- [20:52] uh what you will need is an open AI key.
+- [20:54] If you have an open AI key, um if you do
+- [20:57] not have an open AI key, please drop in
+- [20:59] the chat and we'll be able to help you
+- [21:01] out. Um we'll message you separately,
+- [21:03] but let's assume that everyone has an
+- [21:05] open AI key. And if you don't, please
+- [21:07] drop in the chat and we'll help you out.
+- [21:09] And uh we'll come back to the Arise
+- [21:11] Space ID for a sec. But what you're
+- [21:13] going to do is navigate to this folder
+- [21:15] CD backend
+- [21:17] and you're going to go ahead and install
+- [21:20] the requirements.
+- [21:22] And then once you have those
+- [21:24] requirements installed, you'll just
+- [21:25] start um you'll start the agent up.
+- [21:34] And I'm actually going to stop sharing
+- [21:36] screen and I'm going to share my entire
+- [21:37] window and go through these steps in
+- [21:39] real time as well so we can do this
+- [21:40] together.
+- [21:43] So I have uh the folder here.
+- [21:48] Let me open a fresh terminal.
+- [22:00] So I'm going to go and just navigate to
+- [22:02] cd which is how you get to the right
+- [22:04] directory which is Python.
+- [22:23] CD agents
+- [22:29] agent mastery course
+- [22:36] and I'm going to go to the back
+- [22:40] And I'm just going to go ahead and
+- [22:43] install this.
+- [22:46] And uh I do also recommend um using a
+- [22:50] virtual environment for this.
+- [22:57] So I'm going to copy that command here.
+- [23:10] Let me activate that virtual environment
+- [23:25] and then we UV install which is just
+- [23:28] going to install the requirements for
+- [23:30] the system.
+- [23:35] I'm sorry. We're gonna go off mute
+- [23:37] there. Um,
+- [23:40] and as always, if you have any
+- [23:41] questions, just feel free to drop or
+- [23:43] raise your hand if you're stuck or have
+- [23:45] any questions on any of this so far.
+- [23:48] Okay, let's see what's going on here.
+- [23:55] >> You forgot to source the environment.
+- [23:58] >> Oh, whoops. I copied it into
+- [24:00] >> Oh, no. It's here. Yeah.
+- [24:09] Okay. It looks like there's an issue
+- [24:10] with fast UID.
+- [24:13] This is the live demo part.
+- [24:35] Okay, this was working right before. So,
+- [24:38] >> yeah. Uh, I think you may might be able
+- [24:40] to remove light LLM for requirements.
+- [24:43] We're not
+- [24:44] >> Okay, let's do that then.
+- [24:46] >> Okay, sorry about that. So, I think if
+- [24:47] other people if you're hitting this,
+- [24:48] just remove light LLM from your
+- [24:50] requirements. I think that didn't make
+- [24:52] it into our
+- [24:55] Let's try that now. Okay, that should
+- [24:57] work. Yeah, good call. Dylan, maybe feel
+- [24:59] free to push up a quick change to remove
+- [25:01] that as well from the requirements
+- [25:03] if you have a sec.
+- [25:06] Okay, and then
+- [25:09] we're going to go ahead and actually
+- [25:12] start
+- [25:15] this agent.
+- [25:20] So, I'm going to go back up, copy this
+- [25:22] command.
+- [25:23] >> Um, do you want to show how to set up
+- [25:25] the environment variables?
+- [25:27] >> Uh,
+- [25:30] yeah, good idea. Nobody steal my API
+- [25:33] keys or my keys, please. So, I'm going
+- [25:35] to copy this is my envle.
+- [25:40] And yeah, good call because
+- [25:43] this is missing
+- [25:49] my API keys. So, let's go ahead and copy
+- [25:52] this environment.
+- [25:55] And we're just going to rename it
+- [25:59] and provide my open AI key.
+- [26:06] Just share this really quick.
+- [26:12] So all you have to do is basically take
+- [26:15] this env.ample.
+- [26:18] We'll come back to the arise setup in
+- [26:20] just a sec, but let's just get the agent
+- [26:22] working first and then just rename this
+- [26:25] to env.
+- [26:28] You should have your env set up.
+- [26:32] Let's try that again.
+- [26:35] Okay,
+- [26:36] >> I'm on. So it says that
+- [26:38] >> sorry um are you running into yogo?
+- [26:41] >> Yes. Uh is the API from open so short DM
+- [26:48] postd? Is that is that right?
+- [26:53] >> Sorry I don't know if I followed the
+- [26:54] question there. There you go.
+- [26:55] >> Okay. Dylan shared with us the API key,
+- [26:59] but uh but what is really strange is
+- [27:02] that there are only three three
+- [27:04] characters
+- [27:06] the little short. Is that right?
+- [27:08] >> Uh Dylan, I don't know if the whole key
+- [27:10] was maybe we didn't copy paste over the
+- [27:12] whole key to to
+- [27:14] >> Yeah, that's I I'll just share it in uh
+- [27:17] the
+- [27:17] >> Oh, okay.
+- [27:19] >> Yeah,
+- [27:19] >> we're going to revoke the key after this
+- [27:21] workshop. So, um, feel free to do as
+- [27:23] much damage as you want for the next
+- [27:25] couple hours here in the meantime.
+- [27:28] Okay. So, if you are at this stage where
+- [27:32] in your terminal you see this AI trip
+- [27:36] planner, you're in the right spot. If
+- [27:40] you aren't at this stage yet, please
+- [27:41] drop in the chat. I'm going to pause
+- [27:43] here for a couple of minutes for folks
+- [27:45] to keep getting set up here while we
+- [27:46] help them kind of run the agent locally.
+- [27:51] Uh yeah, I mean I'm having trouble to
+- [27:55] set up the environment. So I'm not yet
+- [27:56] there. So
+- [27:57] >> okay, we'll give it about five more
+- [27:59] minutes and uh if you have a question,
+- [28:02] please drop in the chat and we can help
+- [28:04] DM you or pull you aside to a breakout
+- [28:06] room to help debug if you're running.
+- [28:08] >> Um so I want that enrollment file. Um
+- [28:13] you can help me with that
+- [28:14] >> with which with which part? Sorry, Gary.
+- [28:17] that that environment file that we
+- [28:19] created.
+- [28:20] >> Yeah.
+- [28:22] >> Uh did you ping me that APIs? Oh,
+- [28:26] >> it's in the chat. It's in the chat.
+- [28:30] >> Ranga, this is uh this is just cursor.
+- [28:32] So, this is uh this is an IDE that you
+- [28:35] can um download. Um if you don't have
+- [28:38] cursor installed, let me go ahead and
+- [28:41] share a way for you to get cursor
+- [28:43] installed. Do you do you have any type
+- [28:46] of IDE or terminal?
+- [28:48] >> Uh no.
+- [28:50] >> Okay.
+- [28:51] >> I use
+- [29:02] Yeah, you can use any any um IDE for
+- [29:05] this one.
+- [29:10] >> So, we have to download onto the local.
+- [29:13] >> That's right. Yeah,
+- [29:17] >> I need to type this uh file open API
+- [29:20] key. Oh, I have
+- [29:23] >> So, what you need to do is copy paste
+- [29:26] the API key into this uh this line over
+- [29:29] here. Open.
+- [29:30] >> Yeah, this line I have to type.
+- [29:32] >> You can copy paste it
+- [29:37] from uh the chat. The same it should
+- [29:40] look like this. Basically
+- [29:42] >> this line is not there. Yeah.
+- [29:45] >> And then rename env you know it
+- [29:48] shouldn't say example it should just be
+- [29:50] envy
+- [29:55] for the requirements.xt you did python r
+- [29:58] and then run the requirements txt.
+- [30:00] >> Exactly. Yeah. So
+- [30:03] just to show the commands again
+- [30:06] you'll
+- [30:08] let me zoom in here.
+- [30:13] open a AP key. Okay.
+- [30:16] So, um you're going to hit Python 3. So,
+- [30:20] I'll copy this again just start to
+- [30:22] finish. So, you can just copy these
+- [30:23] commands basically.
+- [30:26] It's in the uh it's in the readme as
+- [30:28] well um for the tutorial.
+- [30:37] Um, so once you set the environment, so
+- [30:39] you set the keys, right? That's it,
+- [30:40] right?
+- [30:41] >> That's right. Exactly.
+- [30:51] >> Sorry, Zoom is really annoying where it
+- [30:53] uh takes up the whole window and I'm
+- [30:55] just trying to show where uh
+- [30:57] >> Oh, you don't need to set up the array
+- [30:59] key now, right? Array space.
+- [31:01] >> Not not yet. We'll do that in the next
+- [31:02] portion in about 10 minutes.
+- [31:06] >> And you go to the agent mastery course.
+- [31:08] From there, you created the source and
+- [31:09] then uh virtual environment.
+- [31:12] >> Yep, exactly.
+- [31:13] >> Okay.
+- [31:14] >> I'll kind of show where to do that again
+- [31:16] as well. And sorry, Gary, I'm going to
+- [31:17] mute you, but if you have questions,
+- [31:18] just drop them in the chat. Um, and then
+- [31:20] we'll we'll help you get started. And
+- [31:22] >> Sure. Um, and then, uh, Dylan, um, feel
+- [31:25] free to, if you want to make a breakout
+- [31:27] room with Pushbach, um, and maybe even
+- [31:30] Giri, you can you guys can might be a
+- [31:32] good way to to help debug a couple
+- [31:34] people at the same time.
+- [31:36] >> Yep.
+- [31:38] >> Yeah.
+- [31:39] >> So, um, so after setting the
+- [31:41] environment, you just run the agent. And
+- [31:43] where where should we run the agent
+- [31:44] from?
+- [31:45] >> Uh, the same terminal.
+- [31:48] You can run it in the same terminal.
+- [31:49] Yeah.
+- [31:51] So, let me go ahead and just copy paste
+- [31:54] the same commands again as well, just so
+- [31:56] that we have them all in here. So, all
+- [31:59] you got to do is navigate to
+- [32:02] this URL.
+- [32:10] This is the URL.
+- [32:20] That's the readme in that URL basically.
+- [32:25] And then you're going to navigate to
+- [32:37] you're going to get your Python 3 and
+- [32:40] virtual environment set up.
+- [32:49] you'll
+- [32:51] cd backend. So, you're going to go to
+- [32:53] the backend folder, pip install. Oh,
+- [32:57] sorry. You need to insource.
+- [33:03] By the way, I will say this is probably
+- [33:05] the hardest part of the demo. Um, the
+- [33:08] rest of it should be pretty easy once
+- [33:09] you get set up here. So, I know it's it
+- [33:11] takes a little bit of a while to get
+- [33:12] this part set up, but then once you're
+- [33:14] good, then we'll be able to go through
+- [33:17] the rest of it.
+- [33:18] >> So, so uh so what did you run to run the
+- [33:21] agent? Um what um you do? Sorry.
+- [33:25] >> Yeah. So, um so to run the agent, you go
+- [33:28] you go back to basically do this and
+- [33:32] type this. So, this will be from the
+- [33:35] root of the directory.
+- [33:43] It's just that command dot slashstart
+- [33:46] dot sh
+- [34:11] Okay. So, I'm going to go ahead and
+- [34:16] push forward here.
+- [34:18] We're going to run that again. And I'm
+- [34:20] going to navigate to Let me go ahead and
+- [34:23] share my entire screen.
+- [34:28] So, you should be in cursor or in your
+- [34:31] IDE environment. And you should have at
+- [34:34] this point run the start command. And
+- [34:38] once you have that started, you can
+- [34:40] actually just go to the UI that it says.
+- [34:44] This is where the UI is running. It's on
+- [34:47] the same port. And you should be able to
+- [34:50] see this plan your perfect trip UI on
+- [34:54] your local machine.
+- [34:57] Uh maybe drop in the chat if you're at
+- [34:59] this point. And if you are not at this
+- [35:01] point, also feel free to drop in the
+- [35:02] chat so we can just do a quick check-in
+- [35:04] at the 30 minute mark.
+- [35:11] Okay, nice.
+- [35:14] We got one. We got one person there.
+- [35:17] Anyone else?
+- [35:20] Okay,
+- [35:22] Elvis, maybe join the breakout room. If
+- [35:24] we could get Elvis in the breakout room,
+- [35:27] uh Dylan should be able to help you out
+- [35:28] there.
+- [35:33] Uh where do I how do I join breakout
+- [35:35] room?
+- [35:36] >> Uh data science folks.
+- [35:39] >> Yeah.
+- [35:39] >> Yeah. Yeah. I've added
+- [35:41] >> Okay. I think Rakkesh and
+- [35:44] Elvis would be two folks to join the
+- [35:46] breakout room.
+- [35:52] Uh Nathan, do you want to share what
+- [35:54] error you got? Maybe I can help debug
+- [35:56] you um right now.
+- [36:01] Yeah, I can share quickly.
+- [36:05] >> I don't think you'll be able to share
+- [36:06] screen, but maybe just let us know what
+- [36:08] error you got.
+- [36:10] >> Oh, the when I run the script, it says
+- [36:12] uh
+- [36:14] some process spawn process minus one
+- [36:17] error. Um
+- [36:19] >> uh you need to put your open AI API key
+- [36:21] invi
+- [36:35] API key and rename the file to envend
+- [36:42] folder.
+- [36:53] It says no model name glen graph. That's
+- [36:56] what it says.
+- [36:57] >> Did you install the requirements?
+- [36:59] >> Yeah, I did. Um,
+- [37:01] >> you pip installed requirements in the
+- [37:03] shell.
+- [37:04] Oh,
+- [37:05] >> in the shell.
+- [37:06] >> Yeah.
+- [37:07] >> Okay.
+- [37:08] >> So, I I dropped and copy pasted all the
+- [37:11] commands you need. I'll I'll paste them
+- [37:12] again for you here.
+- [37:16] You should just be able to run them run
+- [37:18] one by one in the
+- [37:21] folder.
+- [37:27] So, it's creating a virtual environment,
+- [37:30] sourcing that virtual environment, going
+- [37:32] to the backend folder, installing
+- [37:34] requirements.txt, txt going back up one
+- [37:37] directory and then starting the agent
+- [37:41] after you've put in the ENV file or the
+- [37:44] ENV uh API key. Anyone else running into
+- [37:48] any issues or anyone else here at this
+- [37:50] point? Feel free to drop in the chat.
+- [37:52] I've got I see Nath here. I got Diego
+- [37:55] here. Do
+- [37:57] is it DO or Diego?
+- [38:00] >> It's Dio.
+- [38:01] >> Diego. Okay. Uh, anyone else? We've got
+- [38:06] about 16 other folks where I have no
+- [38:08] idea where you are in the process. So,
+- [38:18] give it about 30 seconds more and then
+- [38:19] we're going to move on.
+- [38:28] Okay. Nice, Sherwood. Thank you.
+- [38:50] Okay, I'm going to go ahead and close
+- [38:53] the breakout room so those folks can
+- [38:54] come back
+- [38:58] and then we will keep pushing on.
+- [39:14] Push box. Did you get it working?
+- [39:18] >> No luck.
+- [39:19] >> Mine is working. Uh uh after that uh
+- [39:23] push back is back.
+- [39:26] >> Did you guys Did you folks get it
+- [39:27] working or No.
+- [39:28] >> Yes. Yes. The environment is
+- [39:30] >> installation is done. The environment is
+- [39:32] set. Yeah.
+- [39:33] >> Okay. Perfect. Perfect. Awesome.
+- [39:36] >> Mine is working. I'm fine.
+- [39:37] >> Yours is working as well. Awesome. We
+- [39:40] are we're moving. We're humming along. I
+- [39:42] know it's just annoying to do the
+- [39:44] environment setup stuff, but it's a it's
+- [39:46] a one-time deal and the rest of it gets
+- [39:48] easier.
+- [39:51] I'm just waiting for the folks from the
+- [39:52] breakout room to come back and then
+- [39:54] we'll keep pushing ahead here. And don't
+- [39:56] worry, there will be more time if you
+- [39:57] get stuck at all. So, you know, not the
+- [40:00] only session for part of the breakout
+- [40:02] room for us to stop. So, um but let's go
+- [40:06] ahead and push on a little bit more
+- [40:07] here.
+- [40:10] So now that we've run the agent, you
+- [40:13] should be at this uh Okay. Yeah, go
+- [40:17] ahead. Front of
+- [40:18] >> Okay. I think we have not yet run the
+- [40:20] agent. I mean, we were stuck at uh the
+- [40:24] environment setup issue, right? And then
+- [40:27] >> uh we went into the breakout room. Uh is
+- [40:30] there anything that we missed out or
+- [40:32] >> did you did you set up your environment
+- [40:34] correctly or did
+- [40:35] >> Yeah, now it is it is set up. Yeah.
+- [40:37] >> Okay. All you have to do is basically
+- [40:38] run these commands. So once you've set
+- [40:41] up your environment, then go back up to
+- [40:43] the root of the agent mastery course and
+- [40:46] run dotstart.sh
+- [40:50] dot slashstart.sh
+- [40:52] and that should run your agent.
+- [40:58] >> We're seeing the right screen
+- [41:00] >> from the agent mastery course. Okay.
+- [41:02] >> Yeah, exactly.
+- [41:05] I dropped it in the chat. um what the uh
+- [41:08] the commands are.
+- [41:10] >> Sorry to cut you off, but you're showing
+- [41:12] the slide deck screen and not the code
+- [41:14] screen.
+- [41:15] >> Yeah.
+- [41:16] >> Yeah. Yeah. It's it's the uh it's just
+- [41:20] the same commands and I just put them in
+- [41:22] Zoom as well just so that in the Zoom
+- [41:23] chat so we can just use them all as the
+- [41:25] uh I'll go ahead and run it one more
+- [41:27] time just so we're all
+- [41:28] >> Yeah, agent is running now.
+- [41:31] >> Okay, so this is basically it. So, I'm
+- [41:33] in the agent mastery course root folder
+- [41:36] and I runst start.sh
+- [41:39] and you should see this this screen
+- [41:45] and then what you can do is actually
+- [41:47] open this link in your web browser
+- [41:53] and now you should see this agent.
+- [41:58] >> Can you go back to the comment from
+- [42:00] trans? Yeah, it's all it's all in the
+- [42:02] Zoom chat. So the um if you need to, you
+- [42:04] can just look in the Zoom chat. Okay.
+- [42:06] >> Yeah, everything all of the commands are
+- [42:08] in the Zoom chat. They're also in the
+- [42:10] read me. So it's the same commands in
+- [42:12] both places.
+- [42:14] >> So just kind of follow along with which
+- [42:16] step you're at in the Zoom chat.
+- [42:21] >> I think the Yeah, it's open.
+- [42:24] >> Awesome.
+- [42:25] >> Yep.
+- [42:26] >> Awesome. Okay, so hopefully you have the
+- [42:29] OpenAI key in your environments.
+- [42:34] You've
+- [42:36] installed your requirements in your
+- [42:38] local uh in your Python virtual
+- [42:40] environment.
+- [42:41] And
+- [42:44] now you should hopefully start the agent
+- [42:45] and see this UI. So if you're on this
+- [42:48] screen, congrats,
+- [42:51] you have now run an agent on your local
+- [42:53] machine. Let's go ahead and test it. So,
+- [42:55] we're going to go ahead and actually
+- [42:57] just type in a initial command here of
+- [42:59] saying we're going to Kyoto for 5 days
+- [43:03] and let the agent plan the trip for me.
+- [43:13] At Sherwood, you can just um follow the
+- [43:16] commands in the Zoom chat. So, you can
+- [43:18] run it from the back end uh as well.
+- [43:20] It's a different command. Or you can
+- [43:22] just um go back up one directory, you
+- [43:25] know, to the to the root and click this.
+- [43:27] This is sort of this command will run
+- [43:29] everything for you um
+- [43:34] in the in the root of the uh
+- [43:38] Yeah. Yeah. Um yeah, I think it's
+- [43:39] because uh you can technically run the
+- [43:42] back end separately from the front end,
+- [43:43] but we're just doing a convenience
+- [43:44] command.
+- [43:46] And good call. Yeah. says start from
+- [43:52] one level up.
+- [43:54] Okay. So, let's take a look at this. So,
+- [43:56] we have our our trip which is
+- [43:58] destination Kyoto duration 5 days and
+- [44:01] budget. And we have this output here.
+- [44:04] It's a little dry to me. It doesn't
+- [44:06] really like scream a great
+- [44:09] >> put some SO4.
+- [44:11] >> Um, sorry. Go ahead. Uh, Giri. And if if
+- [44:15] we could just use the the uh raise hand
+- [44:17] just so we're
+- [44:18] >> Oh, sorry.
+- [44:19] >> Yeah, go ahead. Do you have a question?
+- [44:20] >> Can you use a different city for this or
+- [44:22] >> Yeah, you can use any city you want. Try
+- [44:24] try to put anything you want in there.
+- [44:26] Try and I mean this is like a machine.
+- [44:28] This is an agent you're running on your
+- [44:29] machine. We're going to jump into how it
+- [44:31] works in a sec, but try out different
+- [44:33] cities, try out different duration, try
+- [44:35] out different budgets, interests, but
+- [44:37] congrats. If you're on this screen, you
+- [44:40] have now run a Lang graph agent on your
+- [44:43] local machine with a UI and a backend
+- [44:45] fully functional that you can use for
+- [44:48] all sorts of things if you wanted to
+- [44:49] build your own custom agents in the
+- [44:51] future. So, this should be a good
+- [44:52] starting point for us to hop into what
+- [44:54] agent engineering is. Okay, so hopping
+- [44:58] ahead a little bit here and don't worry,
+- [45:00] we're going to come back if you still
+- [45:01] have problems running anything in about
+- [45:03] 10 minutes. We'll help you debug agent
+- [45:05] engineering. So what is agent
+- [45:08] engineering? Well, we define it as the
+- [45:11] job for, you know, basically designing
+- [45:14] what the ideal user experience should
+- [45:17] look like for your product, assuming
+- [45:19] that there's AI in the product. And I
+- [45:22] think that there's a lot of
+- [45:22] misconception of like let's just put AI
+- [45:25] into everything now. Like you're
+- [45:26] probably in your companies or
+- [45:27] businesses. You're coming up on what is
+- [45:30] it Q3 now. So what happens in Q3? We
+- [45:34] start going into Q4. And Q4 is company
+- [45:37] planning, right? We're going to start
+- [45:38] planning for next year.
+- [45:41] So most likely
+- [45:43] you've probably heard this discussion
+- [45:44] come up, which is maybe your VP has come
+- [45:47] up to you or to your team and said,
+- [45:48] "Hey, what's our strategy for next year,
+- [45:51] right? We're going into 2026." And as we
+- [45:54] all know, 2025 was the year of agents.
+- [45:56] Everyone was saying, "2025, we're going
+- [45:59] to have agents everywhere. We have
+- [46:00] hundreds of agents." Well, where are all
+- [46:02] the agents? A big reason why we don't
+- [46:05] see a lot of agents in production just
+- [46:07] yet is because it's really really hard
+- [46:09] to develop agent products in a way that
+- [46:12] actually works to delight and you know
+- [46:15] make the user experience actually very
+- [46:17] good. And the things that you need to
+- [46:19] think about when designing your agent
+- [46:21] are what context does the agent need?
+- [46:23] What tools does it have access to?
+- [46:25] Should the agent be in the foreground or
+- [46:27] the background?
+- [46:29] Let's take an example. So, we just built
+- [46:31] this trip planner and there's a couple
+- [46:34] of boxes on the right on the left hand
+- [46:35] side here that you're putting
+- [46:36] information into, but the the planner
+- [46:39] itself is actually just a few steps.
+- [46:42] It's the same parts of the agent that we
+- [46:43] talked about before. There's a system
+- [46:46] prompt or a prompt. And so, it's really
+- [46:48] just a prompt that says like, "Help me
+- [46:50] plan this trip." The agent can do things
+- [46:52] like planning or reasoning. That's an
+- [46:54] optional step that we're going to decide
+- [46:56] whether or not to use with the agent. It
+- [46:58] has tool cults, so it can actually do
+- [47:00] things like take information for
+- [47:03] research, for itineraries, for your
+- [47:05] budget, for local experiences.
+- [47:08] It does rag, so it can actually take the
+- [47:10] destination information and do a lookup
+- [47:12] and find out, hey, let's find more
+- [47:14] information about this destination,
+- [47:16] about Kyoto, about different places. And
+- [47:18] then all of that basically goes into an
+- [47:20] LLM.
+- [47:22] And that LLM call effectively generates
+- [47:24] an output. it generates the itinerary
+- [47:26] that you saw on the right hand side. So
+- [47:30] really what we're trying to do is think
+- [47:31] about each part of our you know each
+- [47:35] each part of our product has components
+- [47:39] to it. So when we think about agent
+- [47:41] engineering think about how we want to
+- [47:44] construct these components to ultimately
+- [47:46] get us to the itinerary that we want.
+- [47:48] Because again we're doing this as a trip
+- [47:50] planner but in your world you could make
+- [47:52] this agent anything else you wanted. It
+- [47:55] could help be a finance agent or a
+- [47:56] budget planner agent. It could help you
+- [47:58] write code for the front end of your AI
+- [48:00] of your application. You know, you it
+- [48:02] could help you do SQL like natural
+- [48:04] language to SQL. But you're still going
+- [48:06] to have to go through these steps of
+- [48:07] thinking what are the parts of my agent
+- [48:10] to get to the output that I want. That's
+- [48:12] basically what agent engineering is.
+- [48:14] It's context engineering plus tool calls
+- [48:17] plus LLMs to get you to an end system.
+- [48:22] This is another way to look at that
+- [48:23] which is you have your agent tools. What
+- [48:25] are the tools that the agent has access
+- [48:27] to? Can it look up information from the
+- [48:28] internet? Can it look up information
+- [48:30] from a database? That all becomes
+- [48:32] context. And how is that context
+- [48:34] constructed? What is the prompt look
+- [48:36] like? What is the data going into the
+- [48:38] prompt? All of that goes to an LLM and
+- [48:41] then it generates an output generates
+- [48:42] code. So there's really a couple of
+- [48:45] parts of the system here. The system
+- [48:47] prompt, reasoning, tool calling, rag,
+- [48:49] LLM. These are all opportunities to
+- [48:52] iterate on and change your agent in some
+- [48:55] way. So I like to think of these as like
+- [48:57] product first principles for trip
+- [48:59] planning or a trip planning agent or
+- [49:01] really any agent. And you get to decide
+- [49:03] which components you want to use and not
+- [49:05] use. It's all Python code. And of
+- [49:07] course, you know, it's modifiable depend
+- [49:09] depending on what you want the agent to
+- [49:11] do.
+- [49:12] So that kind of brings us into well I'm
+- [49:15] kind of drawing all of this stuff as
+- [49:16] like whiteboard diagrams so that we get
+- [49:18] like a visual representation
+- [49:21] but the way that people actually do this
+- [49:23] in production is they set set up their
+- [49:25] agent with observability
+- [49:27] and observability is essentially the way
+- [49:29] for you to look at this black box right
+- [49:32] like when you think about it I have my
+- [49:34] code running I'm just typing in stuff
+- [49:36] and the code runs and my back end is
+- [49:37] running I have my website which is just
+- [49:40] a UI layer
+- [49:42] And I can like type things in there and
+- [49:44] I can see, okay, the agent is generating
+- [49:45] an itinerary. But how does it actually
+- [49:47] work? What's going on underneath the
+- [49:49] hood to make those system calls that we
+- [49:51] saw from the the whiteboard diagrams
+- [49:53] back here? How do we know that this is
+- [49:55] actually what the agent looks like?
+- [49:57] That's what observability helps you out
+- [49:58] with. It turns this black box of an LLM
+- [50:02] and the surrounding code from the LLM
+- [50:05] into a way for you to debug the system
+- [50:08] and basically identify what steps is the
+- [50:11] agent taking, what are the tools being
+- [50:13] called, is the agent hallucinating and
+- [50:16] ultimately gives you transparency to be
+- [50:18] able to see and share with the rest of
+- [50:20] your team. Here's what we want to go and
+- [50:22] fix. Here's what the agent is doing. And
+- [50:24] you can all start speaking the same
+- [50:25] language. I'll give you an example. I
+- [50:28] love this diagram if you've never seen
+- [50:30] this before. It's a bunch of scientists
+- [50:31] or I think it's a bunch of blind people
+- [50:33] or like you know people wearing bandanas
+- [50:35] and they're looking at this elephant and
+- [50:37] they're looking at it from different
+- [50:38] angles, right? And depending on where
+- [50:40] you're sitting on the the part of the
+- [50:41] stack, this is like any product team,
+- [50:43] any engineering team, right? And someone
+- [50:45] comes to you and says, "Hey, our agent
+- [50:47] is is crashing. It's not performing
+- [50:49] well." Well, you're going to get like 10
+- [50:51] different answers for why. This actually
+- [50:53] happened yesterday. Anthropic put out a
+- [50:54] blog post where they said, "Hey, we've
+- [50:56] actually had performance degradations
+- [50:59] with Claude since August and we had
+- [51:01] three different bugs and we couldn't
+- [51:03] figure out what was going on and it was
+- [51:06] because the agent was really complex
+- [51:07] blah blah blah." But if you go on
+- [51:09] Reddit, if you go on X, people are
+- [51:12] complaining that Claude was like
+- [51:13] hallucinating more. It wasn't performing
+- [51:14] well. The reason for that is because you
+- [51:16] had a bunch of teams looking at a pretty
+- [51:19] complex system but from different
+- [51:21] perspectives and so nobody could speak
+- [51:23] the same language for hey we have an
+- [51:25] issue what's going on right so you're
+- [51:27] looking at it from your own lens your
+- [51:29] own perspective and you're not seeing
+- [51:30] the big picture. Well the reason that
+- [51:32] that's valuable is because now you can
+- [51:35] speak this language of converting what
+- [51:38] your agent processes look like into
+- [51:41] what's called spans. spans and traces
+- [51:43] which are terminology and observability.
+- [51:46] And so now you can go back to your team
+- [51:48] and say, "Hey, this is the span that has
+- [51:51] an issue. This is the exact interaction
+- [51:53] that I want to go and fix." And it
+- [51:55] doesn't matter whether you're an
+- [51:56] engineer or a PM or someone else on the
+- [51:58] team. This is the common language that
+- [52:00] agent, you know, AI engineers and agent
+- [52:03] engineers are actually starting to
+- [52:04] speak. It's it's really here's the log,
+- [52:07] here's the trace, here's the example we
+- [52:08] want to go and fix. So now you can all
+- [52:10] work on the same thing. That's a really
+- [52:12] really powerful component of actually
+- [52:16] building production grade AI systems.
+- [52:19] So let's take this for example here.
+- [52:21] Observability basically allows you to
+- [52:24] make changes to your system and actually
+- [52:26] verify that those changes took place. So
+- [52:28] for example, you can change the
+- [52:30] architecture of the agent. You can
+- [52:32] change your prompt. You can change your
+- [52:33] model. You can change the context going
+- [52:35] into your agent. And whenever you make
+- [52:37] any of those changes, you can make sure
+- [52:39] that those changes took effect. Exactly,
+- [52:42] Sherwood. These are now integrating with
+- [52:43] open telemetry.
+- [52:45] Exactly.
+- [52:47] We're going to talk more about eval
+- [52:49] here, but eval basically the system on
+- [52:52] top of your traces that allow you to
+- [52:54] kind of programmatically check whether
+- [52:57] something was good or bad. But before
+- [52:59] you even start grading, before you start
+- [53:01] doing eval, you need observability to
+- [53:03] start speaking that same language.
+- [53:06] So another example I like to use for
+- [53:08] traces and spans is think about a trace
+- [53:10] as the endtoend action that you want the
+- [53:14] agent to take. So in our case in the
+- [53:16] trip planner the agent is taking the
+- [53:19] inputs from the user and generating an
+- [53:22] itinerary. That endtoend interaction
+- [53:25] that's represented by something called a
+- [53:27] trace. It's the complete route that the
+- [53:30] agent is taking to solve a problem.
+- [53:33] What happens actually though when like
+- [53:35] think about it as like delivering a
+- [53:36] package, right? Well, you got to do all
+- [53:38] of these steps in between. You have to
+- [53:40] pick up the package, got to get
+- [53:41] directions, get on the right street. All
+- [53:43] of those steps, you can think of those
+- [53:45] steps as spans or individual actions,
+- [53:48] individual subprocesses
+- [53:51] that the agent needs to take to actually
+- [53:53] get to that final end state of a
+- [53:55] successful package delivery. So, we look
+- [53:58] at this as traces and spans. We're going
+- [53:59] to mostly focus on traces and spans. A
+- [54:02] couple other uh components of
+- [54:04] observability are metrics, which are
+- [54:06] things like latency, P99, if you've
+- [54:09] heard of that term before. Uh but that's
+- [54:11] basically how long is it taking for the
+- [54:13] agent to run. These are metrics, things
+- [54:15] you'd look at at the system level. And
+- [54:17] then logs, which are for each part of
+- [54:20] each sub uh each span, what are the
+- [54:22] events being called? We're not going to
+- [54:23] focus too much on logs in this one.
+- [54:25] We're going to mostly focus on traces
+- [54:27] and spans. Really important here.
+- [54:30] A good mental map for what a span is is
+- [54:33] it's basically just a JSON. It's a JSON
+- [54:36] in a row. And we're going to look at
+- [54:39] those more closely, but I just want
+- [54:40] people to know it's really just text.
+- [54:43] It's a string that is basically
+- [54:45] constructed when you hit construct an
+- [54:48] itinerary for me. And it breaks that up
+- [54:50] into multiple fields in that JSON. And
+- [54:53] that's it. It's just a row. It's a row
+- [54:55] with the JSON.
+- [54:58] Each trace is comprised of spans. So
+- [55:00] we're going to look at this in more
+- [55:02] detail. And the spans can be of
+- [55:04] different types, different kinds. So you
+- [55:06] can have prompts or LLM spans, toolled
+- [55:10] spans, reasoning or agent spans. So the
+- [55:13] type of the span can be different. And
+- [55:15] that's a really important step. So you
+- [55:17] have trace at the top level. You have
+- [55:19] spans which are the individual steps to
+- [55:22] get to that trace. And each of those
+- [55:23] spans can be a different kind or a
+- [55:25] different type like get directions,
+- [55:27] database, query, etc.
+- [55:29] This is really what that looks like
+- [55:31] practically.
+- [55:32] You basically see this represented as a
+- [55:34] tree where the top level object is the
+- [55:37] trace and the subobjects or the sub rows
+- [55:40] underneath that are called spans. And
+- [55:43] how these spans ladder up and work is
+- [55:46] basically a representation of your code
+- [55:47] of your agent. So the most important
+- [55:49] thing to take away here is agents are
+- [55:52] represented by traces and spans. And
+- [55:55] we're going to dive deeper into what
+- [55:56] those spans are. quick example of what
+- [55:58] that looks like. You have uh you can
+- [56:01] actually have what's called a session
+- [56:02] which is multiple back and forths with
+- [56:04] an agent and that's going to have
+- [56:06] multiple traces and you can see here
+- [56:08] that the trace data or the span is kind
+- [56:11] of just a JSON object on the right hand
+- [56:12] side. Sherwood had a great question
+- [56:14] which was like is this hotel this is
+- [56:16] basically hotel. Exactly right. Hotel is
+- [56:20] short for what's called it's called open
+- [56:23] telemetry and open telemetry is
+- [56:25] basically just a protocol for being able
+- [56:28] to log span data and trace data in a
+- [56:32] standardized way. It's basically the
+- [56:35] leading protocol for observability. It's
+- [56:38] being adopted I mean it's been adopted
+- [56:40] into like every system you've probably
+- [56:42] used in the last five years most likely
+- [56:46] has open telemetry underneath it. So
+- [56:48] it's a standard for any application not
+- [56:51] just AI applications.
+- [56:54] What we've kind of contributed back to
+- [56:56] the space is open inference which is
+- [57:01] another package on top of open telemetry
+- [57:04] that uses the same open telemetry
+- [57:06] standard but it contributes extra
+- [57:09] information that you can log through
+- [57:11] instrumentation.
+- [57:13] And the reason that that's really
+- [57:14] powerful is because traditional
+- [57:17] telemetry and traditional logs and
+- [57:19] traces they don't know about LLMs,
+- [57:22] right? like we invented this protocol
+- [57:24] years ago. It's open source, but it
+- [57:27] doesn't have any knowledge of what LLM
+- [57:30] should look like. It doesn't know about
+- [57:32] spans. It doesn't know about agents. So,
+- [57:35] what we've done is we've kind of put out
+- [57:36] this package here called open inference,
+- [57:38] which is also open source. Dylan, if you
+- [57:41] don't mind, would you mind grabbing the
+- [57:42] GitHub repo for open inference and just
+- [57:44] dropping it in the chat as a resource
+- [57:45] for people to to access?
+- [57:48] And open inference is also open source.
+- [57:50] So, it's basically a standard that all
+- [57:52] of those companies I mentioned earlier,
+- [57:54] Reddit, Uber, Instacart, Dolingo, Door
+- [57:56] Dash, and 150 plus others, they're all
+- [57:59] using Open Inference, which is this
+- [58:01] open- source package to basically take
+- [58:04] their telemetry data, and you can think
+- [58:07] of it as like move some columns around
+- [58:10] and adjust the same data to be formatted
+- [58:13] correctly for LLMs. That's all it is. So
+- [58:15] it's basically the same data just with
+- [58:17] some columns and rows moved around so
+- [58:19] that you get LLM uh basically built
+- [58:22] purpose-built for agents essentially.
+- [58:25] The last part of this is instrumentation
+- [58:28] and that's really just the way that you
+- [58:30] get the spans and traces set up
+- [58:34] correctly. And that's just the action
+- [58:36] that you take to hook into your
+- [58:38] framework, hook into your LLM calls so
+- [58:40] that you can actually get these logs.
+- [58:42] and we're actually going to set that up
+- [58:44] for our systems.
+- [58:46] I'm going to take a quick pause here and
+- [58:48] answer a couple questions. You could
+- [58:49] have directly got this from the LLM
+- [58:51] model. Why we use vector? You don't have
+- [58:52] to use vector. We can remove the vector
+- [58:54] database as well. Uh we'll talk a little
+- [58:56] bit about why uh we used it, but um all
+- [58:59] of this is totally flexible the
+- [59:00] framework. Do you eventually finding its
+- [59:03] way do you see EBPF
+- [59:06] eventually finding its way into the
+- [59:07] observability for AI agents? I know that
+- [59:09] hotel is considering as the fourth
+- [59:11] pillar of observability. Uh these are
+- [59:13] events um uh something protobuff or
+- [59:17] something like that I think. Um right
+- [59:19] sharewood this is like using events in
+- [59:21] the as opposed to just spans.
+- [59:24] >> Well it it gets you accessibility as to
+- [59:28] what's happening on the OS.
+- [59:30] >> Okay.
+- [59:31] >> So you can actually capture information
+- [59:33] metrics from what's happening OS. So
+- [59:34] like if you were to take, you know, like
+- [59:36] if you're doing a neural network and you
+- [59:38] said, "Hey, I'm just going to parse
+- [59:39] through this huge array, but then if you
+- [59:42] vectorize it, you can see a huge
+- [59:44] difference." EVPF will show you an
+- [59:46] enormous difference in why one runs so
+- [59:48] much faster than the other.
+- [59:50] >> Okay.
+- [59:51] >> Just curious if you're looking into that
+- [59:54] to, you know, hey, why is this agent
+- [59:57] running slow? Maybe it's something that
+- [60:00] I'm doing in my code and EVPF could tell
+- [60:03] me that. interesting. I'm I'm not super
+- [60:05] familiar with that, but I can tell you
+- [60:07] that's it's really interesting. I I'll
+- [60:09] take a look into that. I actually
+- [60:10] haven't heard of that before. Um so,
+- [60:12] thanks for sharing. Um I love I love
+- [60:14] learning something new, so I'll take a
+- [60:16] look into that after this. Um what I can
+- [60:19] say is that
+- [60:21] what I want to kind of underscore uh on
+- [60:23] this slide and like the concept of
+- [60:25] observability is
+- [60:27] look whether or not you use uh whatever
+- [60:30] provider you end up using for
+- [60:31] observability my recommendation for when
+- [60:34] you're building agents in your own
+- [60:36] company is standardize around
+- [60:39] standard standardize around the open-
+- [60:41] source standards because as Sherwood is
+- [60:45] alerting is uh alluding to is the space
+- [60:48] is so early that things are going to
+- [60:50] change but what you want is that your
+- [60:52] platform is going to change along with
+- [60:54] those standards so that when the
+- [60:56] standards get adopted your platform
+- [60:57] doesn't break so that's the reason that
+- [60:59] you want to use kind of open- source
+- [61:02] standards um and we we're always going
+- [61:03] to be built on top of so you don't have
+- [61:06] to worry about that but in general
+- [61:07] whichever standard that you want to use
+- [61:09] um whichever platform you want to use
+- [61:11] whichever frameworks you want to use
+- [61:13] matters less I would say than picking
+- [61:15] the right open source standard to build
+- [61:16] on top of I'm going to take a look at
+- [61:18] EVPF. Um I know that there's changes
+- [61:20] that are going to come down the line
+- [61:22] from hotel but we will be uh first to
+- [61:25] adopt them as well.
+- [61:27] Okay, that actually brings us up into
+- [61:29] setting up observability for our agents.
+- [61:32] This is the step where you want to
+- [61:33] navigate to lab number two and I'm going
+- [61:36] to go ahead and uh share that on on my
+- [61:39] screen and we're going to look at the
+- [61:41] readme for lab number two. And this is
+- [61:44] going to be setting up observability for
+- [61:46] our system.
+- [62:00] So let me go ahead and open this up on
+- [62:03] the right hand side. By the way, a fun
+- [62:05] fact, if you want to read markdown in
+- [62:08] cursor and IDE, just open preview and it
+- [62:11] gives you like a markdown native
+- [62:12] rendering of uh the text, which is kind
+- [62:16] of nice. So, what we're going to do is
+- [62:18] we're going to set up
+- [62:21] um
+- [62:24] Shri uh Shri will send a I'll send a
+- [62:27] this is let me just send you the quick
+- [62:28] uh the repo that you need to uh copy
+- [62:31] paste on your end.
+- [62:44] and uh feel free to message Dylan as
+- [62:46] well. He'll be able to help you out as
+- [62:48] an as a facilitator if you get stuck. So
+- [62:52] uh so kind of pushing ahead here. Yes,
+- [62:55] each tool does have its own spans and
+- [62:58] we're going to see what that looks like.
+- [62:59] So
+- [63:01] prerequisite for this one, you should
+- [63:03] have run your agent. It should be
+- [63:06] running and the UI should be running.
+- [63:08] The next thing we're going to do is
+- [63:10] we're actually going to sign up for an
+- [63:11] Arise account
+- [63:14] and we're going to add these two pieces
+- [63:16] of information to our ENV file.
+- [63:20] That's all we're going to do basically
+- [63:22] and then we're going to rerun the agent
+- [63:23] and then we'll go back to Arise.
+- [63:28] So, what I'm going to do is I'm actually
+- [63:30] going to go to the Arise system.
+- [63:34] Share my whole screen here.
+- [63:39] And I'm going to sign up. Not this one.
+- [63:52] This one.
+- [63:54] And I'm going to go to app.rise.com.
+- [63:56] rise.com
+- [64:00] and let's just go ahead and sign up for
+- [64:02] a new account.
+- [64:21] Oh yeah, thanks Dylan. That's the that's
+- [64:23] the URL you want to go to. So, feel free
+- [64:25] to follow along as I do this. Um, you
+- [64:28] should get an email. And if you don't
+- [64:32] worry if this is moving a little too
+- [64:34] fast, I'll also pause for about 5
+- [64:36] minutes after I do all of these steps to
+- [64:41] have folks actually kind of follow along
+- [64:43] as well.
+- [65:00] So, I'm going to set up a password.
+- [65:21] Okay. So once you're on this screen, you
+- [65:25] can hit start tracing. That's what we're
+- [65:27] going to do. We're going to start with
+- [65:28] tracing.
+- [65:30] We've already actually done most of
+- [65:32] these steps already. The main thing that
+- [65:34] we're going to try to do is actually go
+- [65:36] to this button, create or manage your
+- [65:38] API key. If you're not on this screen,
+- [65:41] don't worry. You can always just go to
+- [65:42] the settings tab. It's just going to
+- [65:44] take you there anyway.
+- [65:47] And that will actually take you to this
+- [65:49] page. So, let me do that again so I can
+- [65:51] exit this. If you're on Arise and you
+- [65:53] see this, you go to settings
+- [65:57] and it should take you to the API key
+- [65:59] page.
+- [66:01] Then, we're going to hit new API key
+- [66:04] and we're going to name it. I'm going to
+- [66:06] call it agent.
+- [66:09] Once you hit the key, it's the same as
+- [66:11] creating a key from OpenAI. You're just
+- [66:13] going to copy that and it's going to
+- [66:14] copy it to your clipboard.
+- [66:20] And then I'm going to go back here to
+- [66:21] cursor.
+- [66:23] I'm going to go back to my IDE
+- [66:26] and I'm going to go to the ENV file that
+- [66:29] we had before. This is the same place
+- [66:31] that we put our API key.
+- [66:33] Let's go ahead and put the API key in
+- [66:36] here. So I just copy paste it in the
+- [66:39] Arise API key.
+- [66:43] Once I've done that, I'm going to copy
+- [66:45] the space ID that tells us where we're
+- [66:48] going to log data. So basically with
+- [66:50] these two pieces of information,
+- [66:52] we have tracing set up within this repo
+- [66:56] already and our data is going to go to
+- [66:57] the right place. It's going to go to my
+- [66:59] account to the right space.
+- [67:02] Once you have that set up in your repo
+- [67:05] in the env.
+- [67:12] And I'm going to I have to restart it.
+- [67:13] So I'm just going to hit the same button
+- [67:16] to start the agent up.
+- [67:21] Okay, it says it's start up. I'm going
+- [67:24] to go back here. And now I'm going to
+- [67:26] type in the same request that I had
+- [67:27] before. Yeah, exactly. Control C or
+- [67:30] command C to kill the process. So I'm
+- [67:33] going to go ahead and type in the same
+- [67:34] thing. Kyoto 5 days moderate. And I'm
+- [67:36] just actually let's change it. Let's
+- [67:37] make it Tokyo this time.
+- [67:42] Tokyo is a cool city.
+- [67:46] Okay. And then we got this itinerary
+- [67:48] here.
+- [67:48] >> Uh
+- [67:50] and we have to go there. But uh it's
+- [67:53] it's saying no API keys found or in the
+- [67:56] in the setting section. Uh the current
+- [67:58] space ID is mentioned.
+- [68:01] >> You have to create a new API key. Push.
+- [68:06] >> Okay.
+- [68:06] >> Yeah.
+- [68:08] So once you create a new API key, this
+- [68:10] is what it looks like. So I'll just
+- [68:13] create another one just to have it.
+- [68:15] And you can copy it
+- [68:18] and put that into your env.
+- [68:26] save your env file. Command S or control
+- [68:29] S. And then restart your
+- [68:32] >> Y
+- [68:33] >> local host.
+- [68:36] Then you should have
+- [68:38] this agent, you know, kind of running
+- [68:40] here. And you're just going to send it
+- [68:41] another request. Let's say you want to
+- [68:43] go to Tokyo, wherever you want to go.
+- [68:45] But now you're going to notice something
+- [68:49] ideally if this works. And there's no
+- [68:51] guarantee it will, but let's see if it
+- [68:53] does. So, let's go ahead and try that
+- [68:56] again. Tokyo, five days.
+- [69:07] >> You may want to reset your terminal to
+- [69:10] apply the changes in the environment
+- [69:12] file.
+- [69:14] >> Uh, yeah. Yeah, good call.
+- [69:18] >> Dylan, do you have the commands for
+- [69:19] that? Maybe we can just drop that in
+- [69:20] there really quick.
+- [69:24] Yeah,
+- [69:25] that's good call.
+- [69:29] So, we're just going to source that same
+- [69:31] virtual environment.
+- [69:36] I always forget to do that whenever I
+- [69:38] run this.
+- [69:39] >> Yeah, I I usually kill the terminal.
+- [69:42] >> Yeah. So, you can kill it. Open a new
+- [69:44] terminal
+- [69:46] and then you need to source.
+- [69:49] Was it Python? it
+- [69:51] source.vnb/bin/activate.
+- [70:04] Is it this? Sorry, I think you have a
+- [70:09] I'm just copy. Yeah. Yeah. Yeah.
+- [70:11] Source.bin.activates.
+- [70:16] Do this.
+- [70:27] You're
+- [70:40] so that's a really good point Dylan
+- [70:42] brought up which is you have to kill the
+- [70:44] terminal and then go back to the backend
+- [70:47] folder and then you can run this command
+- [70:49] and it will pull in the latest
+- [70:51] environment variables which you'll need.
+- [70:57] Now, when I do this, I should be able to
+- [70:59] run
+- [71:02] my
+- [71:08] I'll go back here
+- [71:11] and run the agent.
+- [71:14] So, I'll copy paste this back in.
+- [71:24] Thanks, Stone. So, steps to follow are
+- [71:29] restart your terminal,
+- [71:34] navigate back
+- [72:28] Let's try this again.
+- [72:46] Something's not working.
+- [72:55] Where to get the space ID?
+- [73:03] Uh the space ID is in the this page, the
+- [73:08] settings page. It's the uh this this
+- [73:11] thing here,
+- [73:13] I think. Yeah.
+- [73:17] Okay, this should have worked.
+- [73:29] It's not working.
+- [73:43] Dylan, any idea why this might not be
+- [73:45] working?
+- [73:46] >> Uh, I'm testing on my hand. So, you see
+- [73:50] >> this was working before. This is the
+- [73:52] live demo part. So, always love that.
+- [73:57] Give it a sec here and see what's
+- [73:58] happening.
+- [74:06] That's in there.
+- [74:09] Says my arise tracing is set up.
+- [74:20] Thank you.
+- [74:58] Is it possible that the light LLM
+- [75:01] instrumentation was required?
+- [75:06] >> I don't believe so.
+- [75:09] >> Okay,
+- [75:12] let's try to figure out what's going on.
+- [75:14] Sorry y'all, we're hitting a little bit
+- [75:15] of technical difficulty. We'll be back
+- [75:18] in just a couple minutes once we get
+- [75:20] this up and running.
+- [75:50] Okay, since Aman and Dylan are solving
+- [75:52] it, we can take a short break. You guys
+- [75:53] can get snacks or water or anything for
+- [75:56] some time.
+- [75:57] >> Good call. Thank you. Yeah, I'm like,
+- [75:59] "Wow, that's that's Yes, please do that.
+- [76:02] We'll be back in about five minutes.
+- [76:03] We'll get this working." It was working
+- [76:05] right before, so it's probably just a a
+- [76:06] a temporary bug. So, we'll be right back
+- [76:08] in a couple minutes.
+- [76:10] >> Okay.
+- [76:11] >> Do you want to say like five minutes or
+- [76:12] so?
+- [76:14] >> Yeah. Yeah. Should be good.
+- [76:16] >> All right. See you all in a little bit.
+- [83:30] Okay, I'm back if other folks are as
+- [83:34] well. And I got it working. I think I
+- [83:37] figured out what's going on. And if
+- [83:39] you're running into this as well, let me
+- [83:40] give you a set of commands to try to fix
+- [83:42] it.
+- [83:46] So, what I have to do, I think it has
+- [83:48] something to do with this virtual
+- [83:49] environment setup, but um basically,
+- [83:54] let me just drop in the commands that I
+- [83:55] ran. It's actually closer to what we did
+- [83:57] in the readme. So, if you run into any
+- [83:59] issues, just do basically just follow
+- [84:01] this.
+- [84:09] I'm going to copy paste that in
+- [84:12] in just a sec.
+- [84:17] Okay,
+- [84:20] basically just do this if this works.
+- [84:23] Um, this works for me that I just tested
+- [84:25] this out myself. Um, so it is basically
+- [84:30] restart your terminal, go back to the
+- [84:32] backend folder, reinstall the
+- [84:34] requirements if you need to, and go back
+- [84:37] and um Awesome, awesome, Pier, glad to
+- [84:40] hear it. And then hit start.sh. sh
+- [84:45] >> uh
+- [84:48] I did not run that in requirements.txt
+- [84:51] but uh
+- [84:53] but the the UI got launched.
+- [84:57] >> Oh great awesome good. You only need to
+- [85:00] Oh yeah, you can skip the requirements
+- [85:01] if you've already installed them. Um
+- [85:06] just some folks joined later.
+- [85:09] Um,
+- [85:11] in case you haven't installed,
+- [85:16] this is just like start to finish
+- [85:18] basically getting it going. Um, okay.
+- [85:20] Awesome. I'm glad to hear that people
+- [85:21] got this working. So, we're going to hop
+- [85:24] into
+- [85:26] showing that
+- [85:28] in the UI. So, once you've run a single
+- [85:31] request, let me go ahead and do this
+- [85:32] again. Uh, let's say I'm going to Spain
+- [85:34] for 5 days. It's a bit of a short trip,
+- [85:36] but you know, for the purposes of this
+- [85:38] demo, we're going to go ahead and run
+- [85:41] that query.
+- [85:46] I need to restart it actually first cuz
+- [85:49] I killed it.
+- [85:56] Try this again. We're going to do Spain.
+- [85:59] 5 days. Plan my trip.
+- [86:06] And all right, we've got this itinerary
+- [86:08] here. Once I go back, I should actually
+- [86:12] see this as my page. And I'll see a
+- [86:14] project here called AI trip planner.
+- [86:27] Okay, looks like it's running a little
+- [86:29] bit late. It's 15 minutes.
+- [86:33] Oh, this is the one from
+- [86:37] Tokyo. But let's go ahead and take a
+- [86:39] look at it just for the purposes of this
+- [86:40] while we wait for the Spain one. And
+- [86:43] once you click into a single row on the
+- [86:46] request, you should see basically what
+- [86:49] we showed in the slides earlier, which
+- [86:50] is your trace tree. And this is
+- [86:53] essentially the execution of your agent
+- [86:55] from start to finish. And what you can
+- [86:58] do is actually open up this agent graph.
+- [87:01] And once you click on that, this is
+- [87:03] actually what the agent looks like. This
+- [87:05] is basically a top level agent which
+- [87:08] then sends a request from the user into
+- [87:12] three sub aents. The budget node, the
+- [87:14] local node, and the research node. And
+- [87:16] then all three of those go into an
+- [87:18] itinerary. And that's what you see on
+- [87:21] the other end. So now when we're looking
+- [87:23] at this, we're actually seeing how our
+- [87:25] agent is working end to end, which is
+- [87:27] pretty cool. I mean, I think from
+- [87:28] looking at, you know, from going from a
+- [87:30] black box like code to being able to see
+- [87:33] the agent actually showing up in real
+- [87:35] time, that's basically the power of
+- [87:37] observability.
+- [87:40] On the left hand side, you're actually
+- [87:41] seeing your trace at the top level. And
+- [87:44] then each individual row is basically
+- [87:47] the spans. Let's take a look at one of
+- [87:49] these spans just to understand this
+- [87:50] better. You can see here that there's a
+- [87:52] prompt that says you are a concise
+- [87:54] travel agent. Respond with 200
+- [87:56] characters or less. Outline the lodging
+- [87:58] meals, etc. And it actually does the
+- [88:01] travel plan here in a very brief sort of
+- [88:04] way. I can go in further and actually
+- [88:07] look at the itinerary. And you can see
+- [88:09] create an itinerary for Tokyo.
+- [88:13] Awesome.
+- [88:15] What's kind of cool is that I'm going to
+- [88:17] show one more thing here and then I'm
+- [88:18] going to hop back for folks here, but
+- [88:20] you can actually replay uh the entire
+- [88:23] agent and to or the sorry an entire span
+- [88:26] end to end as well. So that last span
+- [88:29] that I clicked on had a prompt in it and
+- [88:31] this is what the prompt is which is
+- [88:32] create a duration for this destination
+- [88:35] and travel style and each of these are
+- [88:37] basically variables. Those variables are
+- [88:40] what we got from the front end actually.
+- [88:42] Tokyo 5 days moderate and that's
+- [88:44] actually what's going into our prompt
+- [88:47] and you can see that here
+- [88:50] that that means that I can replay the
+- [88:52] system by making changes to my itinerary
+- [88:55] prompt.
+- [88:57] For instance, I can say always respond
+- [89:01] in a super upbeat tone and use emojis.
+- [89:05] Maybe for some reason this thing isn't
+- [89:07] responding in the way that I want it to
+- [89:09] sound for my company, right? This agent.
+- [89:12] And then I can do this AB test and
+- [89:14] actually compare what this looks like. I
+- [89:17] need to enter an API key. Let me go
+- [89:19] ahead and do that really quick.
+- [89:26] Please hold while I enter an API key.
+- [89:32] Uh no, Sherwood. actually um the agent
+- [89:35] has tracing set up in it already
+- [89:38] actually um right off the bat. So as
+- [89:41] long as you just uh start as long as
+- [89:43] you've put your um
+- [89:47] your Arise API key and space ID, you
+- [89:51] should be able to see what we're seeing
+- [89:53] here.
+- [89:58] Dio, what what is the issue that you're
+- [90:01] uh running into?
+- [90:04] Uh, I think that it's because that I
+- [90:06] didn't feel the integrations I'm doing
+- [90:09] now.
+- [90:10] >> Okay. Okay. Got it. Yeah, you got to put
+- [90:12] in your Arise API key and space ID for
+- [90:15] this step. Um, this is the main part
+- [90:17] basically. And you can see here I can
+- [90:19] now AB test. So I have this prompt
+- [90:20] playground and I have a very different
+- [90:23] itinerary. Looks like it uses a lot more
+- [90:25] emojis. It's still not super upbeat, but
+- [90:28] it's a little bit better than it was
+- [90:30] before where it's just kind of monotone
+- [90:32] basically. And it says, "Hey, hope you
+- [90:34] have an amazing time exploring Tokyo on
+- [90:36] this 5day itinerary." And what's cool is
+- [90:38] it's again the same agent, the same
+- [90:41] template, but now we can change the
+- [90:43] template in the platform and actually
+- [90:45] see AB test what the output from the
+- [90:48] agent looks like. Really powerful to do
+- [90:50] that all in one place.
+- [90:56] I'm going to pause here before we get
+- [90:57] deeper into agent frameworks. How are
+- [91:00] people doing on this so far? Where are
+- [91:02] were you able to get your trace to
+- [91:04] appear in Arise? And if not, please also
+- [91:06] drop that in the chat so we can just
+- [91:08] sort of benchmark where people are at.
+- [91:11] >> The traces work for me, but this
+- [91:14] playground
+- [91:15] uh the the exact prompt did not come
+- [91:19] >> as the this one. The reason the reason
+- [91:21] for that is because you might need to be
+- [91:23] on the the right span. And don't worry,
+- [91:25] we'll come back to the playground in
+- [91:26] just a sec. Mostly just wanted to demo
+- [91:29] what the playground looked like, but
+- [91:30] we'll come back to it in a in a little
+- [91:32] bit. Um, basically, if you go into the
+- [91:34] playground, this is the Spain itinerary
+- [91:37] we put in before, you go down to the
+- [91:39] itinerary node and click on this span.
+- [91:43] And then if you click on view and prompt
+- [91:45] playground, it should carry over the
+- [91:48] variables for you here.
+- [91:52] >> It's basically that last span in the
+- [91:54] list which has the itinerary.
+- [91:58] >> When I go to the projects page, it shows
+- [92:01] the steps to execute to get my telemetry
+- [92:03] data. Sherwood, you might need to go
+- [92:05] back and uh restart your terminal once
+- [92:08] you have the env uh file set up with
+- [92:11] arise space ID and API key. So I I might
+- [92:14] recommend that.
+- [92:17] Did were you able to to restart your
+- [92:19] terminal with that with those those two?
+- [92:21] >> Yeah, I'll try I'll try that. See what
+- [92:23] happens.
+- [92:24] >> Cool.
+- [92:25] >> Yeah, basically it's just getting the
+- [92:27] environment variables to stick.
+- [92:29] Okay, we've got a couple
+- [92:31] >> once you restart. Sorry. Once you
+- [92:32] restart, just go on to the erase app and
+- [92:35] just refresh it.
+- [92:37] >> That's right. You should run the agent
+- [92:39] with another request. So, we can we'll
+- [92:41] go ahead and run that again now. So,
+- [92:43] instead of Tokyo, let's say we want to
+- [92:45] go to I don't know. I'm running out of
+- [92:47] cities now. San Francisco.
+- [92:52] Try that out.
+- [92:59] And you see here an output. And then if
+- [93:02] you go back to arise
+- [93:05] in your project page.
+- [93:12] Oh, you know what? I messed uh I did a
+- [93:14] slight thing that might slow me down
+- [93:16] here, but that that will show up over
+- [93:18] here as well.
+- [93:24] So we have to go to the project projects
+- [93:26] page.
+- [93:27] >> Yeah, you go to projects and you should
+- [93:29] see the project here, the latest
+- [93:31] project.
+- [93:34] >> And if you don't see it here, just
+- [93:36] double check that you have the right API
+- [93:38] keys in place.
+- [93:52] Okay. So, feel free to drop uh just say
+- [93:56] either yes or no. If you have traces
+- [93:59] showing up in the chat, you can just put
+- [94:00] in yes or no and I'll be able to
+- [94:02] interpret that.
+- [94:11] No. Okay.
+- [94:21] Not yet. Dio, were you able to restart
+- [94:24] your terminal with the API keys in?
+- [94:30] >> Okay, we'll try that.
+- [94:31] >> Yeah. Elvis, how about yourself? Were
+- [94:34] you able to put the API key intov and
+- [94:36] restart the terminal?
+- [94:43] >> Uh, no. I'm still trying to finish up my
+- [94:45] configuration from my previous uh step
+- [94:47] there. It's a corporate laptop, so it's
+- [94:49] pretty well locked down.
+- [94:50] >> Oh, I set up a virtual uh and trying to
+- [94:54] work through that. So, I'm a bit behind,
+- [94:56] but I'll catch up.
+- [94:57] >> Okay. If you have issues with Arise or
+- [95:00] with networking, just drop that in the
+- [95:02] chat. Uh you might need to because if
+- [95:05] you're using a corporate laptop, you
+- [95:06] might need to go with the open- source
+- [95:08] product, which I'm going to drop a link
+- [95:10] for in here as well.
+- [95:11] >> Okay, gotcha. I was able to get to the
+- [95:12] site, created the account, got the API
+- [95:14] key uh generated.
+- [95:16] >> Um, so I'm good on that side. Uh, what's
+- [95:20] supposed to be the uh the Arise space
+- [95:23] ID? By the way, I got the key, but
+- [95:25] what's the space ID supposed to be?
+- [95:27] >> Yeah, so if you go into settings, you
+- [95:29] should see the space ID right here. And
+- [95:30] you can just
+- [95:34] >> No worries. We're trying to make it
+- [95:36] easier to use, so should get easier as
+- [95:38] time goes on.
+- [95:39] >> Sounds good.
+- [95:42] Um,
+- [95:44] so what you can do is actually uh you
+- [95:46] can actually just go to the playground
+- [95:48] from here as well. Um, but if you wanted
+- [95:50] to load up with the same itinerary span,
+- [95:53] you navigate down to the bottom here and
+- [95:56] you can just click on the span and click
+- [95:59] on this button here, view and prompt
+- [96:00] playground. It's in the top right of the
+- [96:02] page. You click that button and it will
+- [96:05] take you over to here. And then if you
+- [96:07] wanted
+- [96:10] >> uh the button is not working.
+- [96:11] >> Yeah, like it's not taking um it to this
+- [96:15] prompt playground.
+- [96:17] >> Interesting. You're clicking the button
+- [96:18] but it's not opening the page.
+- [96:20] >> Yeah, nothing is happening.
+- [96:22] >> Are are you seeing the span and all of
+- [96:24] the other
+- [96:25] >> Yeah. Yeah. Yeah, I can see everything.
+- [96:27] >> Could you try a different LLM span and
+- [96:29] see if that works? You can try a
+- [96:31] different orange uh span.
+- [96:33] >> Yeah,
+- [96:34] >> try this one maybe.
+- [96:36] and click that view and prompt
+- [96:38] playground.
+- [96:46] It's not working.
+- [96:48] >> Okay, that's interesting. I haven't seen
+- [96:50] that one happen before. And then you can
+- [96:52] AB test with duplicate prompt here
+- [96:54] basically.
+- [96:55] >> Uh no, no, no. It's actually it took
+- [96:58] time the other one.
+- [97:00] >> Okay. Internet. Um, and then uh if you
+- [97:03] hit someone asked how do I AB test, you
+- [97:06] just hit duplicate prompt. And now you
+- [97:08] can rewrite the prompt and say always
+- [97:10] respond in a happy way or in a certain
+- [97:15] way. Um,
+- [97:30] okay.
+- [97:35] Let me check if we got the breakout room
+- [97:37] going
+- [97:39] and how folks are doing there.
+- [97:44] Give it a couple more minutes here.
+- [97:46] Cha-ching. Bada bing. I like that.
+- [97:49] That's good to hear.
+- [97:55] Sorry, I'm in New York, so I uh Hey,
+- [97:58] extra kind of put a little bit of
+- [98:00] emphasis on that one.
+- [98:25] Is there a breakout room open?
+- [98:28] >> There is. Yeah, there is a breakout room
+- [98:30] if you're running into issues.
+- [98:33] Um, data science dojo.
+- [98:36] >> Yes. Who wants to be in the breakout
+- [98:37] room? Can you tell me in chat? I'll add
+- [98:40] you quickly.
+- [98:40] >> Yeah, this is Nathan. Yeah, please add.
+- [98:42] >> Oh, I'm adding you.
+- [98:45] And I'm just checking in with Dylan how
+- [98:47] that's going.
+- [98:49] >> So for playground, do we need to
+- [98:51] integrate with the open AI?
+- [98:54] >> Uh yes, you do. We do. Um yeah, there uh
+- [98:59] you so do yog also needs a breakout room
+- [99:03] data science dojo. Um so the thing with
+- [99:06] the open AI thing is like you can use
+- [99:08] any playground uh model that you want
+- [99:11] to. So you can just you basically go to
+- [99:14] settings
+- [99:16] integrations and you can add any model
+- [99:19] you might have access to. If it's most
+- [99:21] people have access to OpenAI, you can
+- [99:22] just put that in here and just put the
+- [99:24] same API key in here. And I'll recopy
+- [99:27] the one that we sent if you need to run
+- [99:29] it run that again.
+- [99:32] >> I use the same API.
+- [99:34] >> Yeah, you can use the same one. It'll
+- [99:35] work.
+- [99:38] Um
+- [99:40] so can you one more time? How do we get
+- [99:42] into that place?
+- [99:43] >> Yeah. So it's uh so it's uh the settings
+- [99:46] >> it is. Okay. Okay.
+- [99:47] >> And integrations and yeah.
+- [99:54] >> Okay. And
+- [99:57] so Sherwood what we offer is a open so
+- [100:02] the there's two answers actually to your
+- [100:04] question. You can host Arise on premise
+- [100:09] at your company and we we're actually
+- [100:11] hosted on premise
+- [100:13] um in in a bunch of companies, large
+- [100:16] enterprises. It's not a problem for us
+- [100:18] at all. If you wanted to self-host or
+- [100:21] have your own open- source version of
+- [100:22] Arise, this is sort of a smaller kind of
+- [100:25] package version, but you can look at
+- [100:27] Phoenix. A lot of teams a lot of teams
+- [100:29] are using the open source version if
+- [100:31] they want to self-host it. So, it just
+- [100:32] depends um where you work. Okay, thank
+- [100:35] you.
+- [100:36] >> Mhm.
+- [100:38] >> Very nice.
+- [100:40] >> Awesome. And this will just keep getting
+- [100:42] easier to use. I know it's uh a little
+- [100:44] bit of pain the first time around. We
+- [100:45] were just uh you know, we were getting
+- [100:47] the labs all set up right before. So,
+- [100:49] couple of steps we missed, but you know,
+- [100:51] once you get started with the real
+- [100:53] project, it's really just a couple lines
+- [100:55] of code and the the data starts to show
+- [100:56] up. So,
+- [100:59] um Okay. And there was a good question.
+- [101:01] I see DS PI support. Uh yeah, you can um
+- [101:05] you can get prompts generated by DSPI as
+- [101:07] well. So we actually have uh we have a
+- [101:10] couple different ways to do that. If
+- [101:12] you're using DSP, you can trace DSPI. So
+- [101:15] I'll go and show that really quick.
+- [101:17] Arise DSPI.
+- [101:20] We have integrations with DSPI and I
+- [101:23] will share this in the chat.
+- [101:27] And you can also optimize prompts in the
+- [101:30] Arise platform. So we have a mechanism
+- [101:32] for you to actually create a task and
+- [101:36] optimize the prompt as well.
+- [101:48] And I'm going to go ahead and close the
+- [101:50] breakout room.
+- [101:57] Now we're getting into the fun stuff.
+- [102:00] Hey Aman, can I ask you a real quick
+- [102:02] question?
+- [102:02] >> Yeah, go ahead.
+- [102:04] >> So, let's say that I have inside my
+- [102:06] agent, you know, I've got code and I I
+- [102:10] start a trace and I create spans inside
+- [102:12] my own code.
+- [102:14] Will they get integrated into
+- [102:17] that? So, they'll actually show so that
+- [102:19] I don't have a break of seeing two
+- [102:21] different traces.
+- [102:22] >> 100%. 100%. So each of these are we kind
+- [102:26] of covered a little bit of this um in
+- [102:29] the instrumentation part but we
+- [102:32] basically offer auto instrumentation
+- [102:34] which is what we're using for purposes
+- [102:36] of this presentation and workshop. But
+- [102:40] everything in your code if you go back
+- [102:42] to your code and you look at the main.py
+- [102:47] um
+- [102:49] one sec let me pull that up for us
+- [102:51] really quick.
+- [103:05] main.py. You can wrap any of your tool
+- [103:08] calls. You can wrap any of your
+- [103:10] functions in decorators.
+- [103:14] And what's awesome is when you use this
+- [103:16] decorator,
+- [103:19] your code when it's instrumented, when
+- [103:21] you import the package for
+- [103:22] instrumentation, we'll just slurp up all
+- [103:25] of the right function calls and
+- [103:27] everything
+- [103:28] as individual spans and that's what
+- [103:31] shows up here. So it's all through a
+- [103:33] combination of auto or manual
+- [103:35] instrumentation. So you don't have to
+- [103:36] use frameworks, you can use your own
+- [103:37] code and it will show up here as well.
+- [103:43] Fantastic.
+- [103:46] >> What's cool about this is I'm going to
+- [103:47] show one more pretty cool feature while
+- [103:48] we wait for the folks. Okay, actually it
+- [103:51] looks like they're done. So, I'm going
+- [103:52] to close the breakout room
+- [103:55] and I'm going to show more one more
+- [103:56] thing here, which is you can actually
+- [103:58] ask questions. You don't have to just
+- [104:00] look at this data, right? Like this is
+- [104:02] kind of a lot to process. I've got my
+- [104:04] graph here. I have all of my spans, but
+- [104:08] I can also open up Alex, which is our
+- [104:11] copilot. Think of it as like cursor for
+- [104:13] AI engineering. And I can say what's
+- [104:17] going on here?
+- [104:21] And Alex will actually work like it is
+- [104:24] an agent that we built ourselves that
+- [104:26] will go in and actually do analysis on
+- [104:30] the individual spans in the trace and
+- [104:33] pull out insights that we can then use
+- [104:36] for iteration on our agent.
+- [104:40] This one doesn't have any issues with
+- [104:41] it. So, it's kind of boring because it's
+- [104:42] just going to tell us the same thing.
+- [104:43] It's just like here's what's going on
+- [104:46] with the agent. But it oh it does say
+- [104:50] okay implement context consolidation so
+- [104:52] that there's you know the context could
+- [104:55] be improved or managed better
+- [104:59] and give some suggestions for things I
+- [105:00] can improve on with my
+- [105:05] so that's a little bit of setting up
+- [105:07] your agent with traces and observability
+- [105:11] an example of us iterating on an
+- [105:13] individual span and then actually having
+- [105:16] Alex tell us and do analysis on our
+- [105:20] spans and on our agent. You can imagine
+- [105:22] that this type of agentic way of working
+- [105:25] means that we can use our agent to
+- [105:27] actually improve on our a uh you know
+- [105:29] use the arise agent to actually improve
+- [105:31] on our agent and have these two agents
+- [105:33] sort of like talking to each other to
+- [105:35] improve. And that's sort of what the end
+- [105:37] goal is for where we're headed.
+- [105:44] Okay. So, with that, we're going to hop
+- [105:46] ahead a little bit more
+- [105:49] and
+- [105:54] just going to get this open.
+- [105:59] One sec here.
+- [106:15] Okay. Okay. So, now we're going to hop
+- [106:18] into agent architectures and frameworks.
+- [106:22] And we're going to use this as a bit of
+- [106:24] a way to segue into eval as we get
+- [106:26] further along.
+- [106:29] So, agent architectures are basically
+- [106:32] tell us how to build a reliable and
+- [106:35] scalable agent. And some of the
+- [106:36] foundational patterns here that we see
+- [106:38] are reasoning which you kind of saw in
+- [106:40] Alex. You saw uh reasoning as well from
+- [106:44] how we are setting up our agent in the
+- [106:46] first place. There's like a top level
+- [106:48] agent that decides what to use. That
+- [106:51] agent contain actions and then there's
+- [106:53] the interaction of how to manage that
+- [106:54] context and state.
+- [106:58] Here's a few examples of common types of
+- [107:02] architectures that we tend to see when
+- [107:05] we think about agent-based systems.
+- [107:08] Um, so we have here, you know, routing,
+- [107:10] orchestrator, worker, parallelize
+- [107:12] agents, which is the example we're using
+- [107:14] in our sort of demo, an example with the
+- [107:16] trip planner, and then evaluator
+- [107:18] optimizer.
+- [107:22] So a router is typically used when you
+- [107:25] have distinct categories that benefit
+- [107:27] from separate handling and when
+- [107:28] classification can be done reliably. So
+- [107:31] for example, a customer support bot is a
+- [107:34] really classic example of a router where
+- [107:37] you have, you know, essentially a router
+- [107:39] agent that can specialize
+- [107:42] where to actually send a query or
+- [107:44] request. For instance, you might have
+- [107:47] different specialized agents for refunds
+- [107:50] or
+- [107:52] processing frustrated customers or
+- [107:54] asking about policies. And so the router
+- [107:57] can say, "Hey, based on this user's
+- [107:59] request, let's get let's take an
+- [108:00] example. Give me a refund for
+- [108:03] my flight." This router agent can say,
+- [108:06] "Oh, let me go look up and use the
+- [108:08] specialized refund agent, which has
+- [108:10] access to tools to look at docs about
+- [108:13] refund policy. and it has access to
+- [108:16] tools to actually process the user's
+- [108:18] information and give them a refund. It's
+- [108:20] a lot like calling a call center. Think
+- [108:23] about it as literally calling a call
+- [108:24] center and saying like, "Press one for
+- [108:26] refunds, press two for billing." That's
+- [108:28] what a router agent architecture looks
+- [108:30] like.
+- [108:34] In the case of an orchestrator, this is
+- [108:37] useful when subtasks can't be predicted
+- [108:39] ahead of time. So this is an example of
+- [108:42] when we don't actually know
+- [108:45] what the user's question is going to be
+- [108:48] and you might need to call multiple
+- [108:50] agents at the same time and sometimes
+- [108:52] those agents may even need to call each
+- [108:53] other. An example of this would be
+- [108:56] something like a coding agent where you
+- [108:58] might want to modify multiple files
+- [109:01] while also doing things like searching
+- [109:03] the codebase to get more contexts and
+- [109:05] information. So the orchestrator can
+- [109:07] actually kick out to multiple agents and
+- [109:10] those agents can go and perform tasks
+- [109:12] like searching over the codebase,
+- [109:14] editing a file, saving, running tests
+- [109:17] and the single orchestrator's job is to
+- [109:19] say let me write this Python file or
+- [109:22] write this you know add this feature.
+- [109:25] So the difference here is really why are
+- [109:27] we going through different agent
+- [109:28] architectures just to sort of zoom out
+- [109:30] for a sec. The reason is because how you
+- [109:32] design your agent ultimately determines
+- [109:35] what your observability evaluation is
+- [109:37] going to look like. So you're kind of
+- [109:38] deciding your agent strategy based on
+- [109:40] the architecture itself. Here's just a
+- [109:43] few of the architectures that we see,
+- [109:44] but it's helpful to think about how
+- [109:46] these pieces come together when you're
+- [109:48] designing your agent system.
+- [109:52] Then we have P uh parallelization.
+- [109:55] And this is useful for when you're
+- [109:57] trying to split a task up across
+- [109:59] multiple agents. For instance, you can
+- [110:03] split the t like in this case, we're
+- [110:04] we're actually assigning, you know, it's
+- [110:07] a little bit like the router agent
+- [110:08] except that we're calling multiple
+- [110:09] agents to solve the task of generating
+- [110:11] an itinerary because there's different
+- [110:13] parts of an itinerary, right? Like
+- [110:15] there's the budget, there's the weather,
+- [110:16] there's the local research. And we want
+- [110:18] each agent to do a specialized job to go
+- [110:21] and do that research and come back with
+- [110:24] information that then the itinerary can
+- [110:26] kind of pull all of it together to
+- [110:28] generate that final output at an
+- [110:30] aggregated way. So it's really helpful
+- [110:32] to basically have each agent be
+- [110:34] specialized, sub agent be specialized
+- [110:36] here and then those results are
+- [110:38] aggregated so that you're not putting
+- [110:40] everything into one LLM call or one
+- [110:42] agent to go and generate the itinerary.
+- [110:44] That job is split up across multiple
+- [110:46] agents. So, it's kind of more
+- [110:48] specialization as well.
+- [110:51] Okay. And then last but not least, we
+- [110:52] have
+- [110:54] an evaluator optimizer agent. This one
+- [110:57] is really cool because you're actually
+- [110:59] using the output from your agent or LLM
+- [111:02] call and you're evaluating that and
+- [111:05] using that evaluation to improve on the
+- [111:07] agent in the first place. And so this
+- [111:09] agent can sort of work in a loop and
+- [111:11] keep improving on its response to get
+- [111:14] you something that you actually are
+- [111:16] happy with in the end. So for example,
+- [111:19] if I copy paste
+- [111:22] our presentation into OpenAI into chat
+- [111:25] GPT and I say translate this into
+- [111:27] Spanish,
+- [111:28] I'm okay for that agent to take more
+- [111:30] time. And we've seen this with chat GPT,
+- [111:33] right? Like now with reasoning, it
+- [111:35] generates outputs. It might go back and
+- [111:36] regenerate output go back. And that's
+- [111:38] because they're actually it's actually
+- [111:40] running you know there's a sense of
+- [111:41] evaluation of each output to keep
+- [111:44] iterating or refining the output until
+- [111:48] the evaluator is happy with the end
+- [111:50] result. So it's actually helping you
+- [111:52] kind of do it's not exactly
+- [111:53] reinforcement learning because there's
+- [111:54] no uh verifiable reward but it's a it's
+- [111:57] sort of a system that uses eval which
+- [112:00] we're going to talk more about to
+- [112:02] ultimately get you a good output at the
+- [112:04] end of the day.
+- [112:06] Yeah. Yeah, go ahead. Bronov.
+- [112:09] >> Um, so the pattern of an a like a
+- [112:13] sequential agent like we where there's
+- [112:15] one agent that creates an output, passes
+- [112:17] the next one and so on. Is it considered
+- [112:19] just like a normal chain of uh an agent
+- [112:22] or is it considered a separate
+- [112:23] architecture pattern which is like a
+- [112:25] sequential one?
+- [112:26] >> Yeah, that's a good point. We didn't put
+- [112:27] that in here, but normally we do call
+- [112:29] that a sequential agent. Um, so that's a
+- [112:31] really good point. We just call that a
+- [112:32] sequential sequential agent which is if
+- [112:34] it's a multi- aent system you can have
+- [112:36] agents calling in series as opposed to
+- [112:38] parallel.
+- [112:39] >> Good question.
+- [112:40] >> Yeah,
+- [112:43] great question. So this is mostly I
+- [112:46] would say that these agent frameworks uh
+- [112:48] the sorry these agent architectures are
+- [112:50] really to give people ideas for what
+- [112:52] type of task you are trying to solve in
+- [112:55] your company or your product and how
+- [112:57] that can map to existing design
+- [112:59] paradigms for agent systems. I also
+- [113:01] highly recommend there's a few great
+- [113:03] blog posts that I'm going to go ahead
+- [113:05] and pull up now because they're that
+- [113:06] good that Anthropic has designed around
+- [113:09] agent best practices. And I think these
+- [113:12] are all great um and they're they're
+- [113:14] worth looking at like when to use sub
+- [113:16] agents, how to build effective agents
+- [113:19] and I'm going to go ahead and share that
+- [113:20] in the chat so that people have access
+- [113:22] to these uh afterwards as well. These
+- [113:25] are three pretty good blog posts on
+- [113:26] agent architectures that kind of cover
+- [113:28] some of this in more depth as well. So,
+- [113:32] we're really just giving you a high
+- [113:33] level here.
+- [113:38] Aside from the architectures, there's
+- [113:39] actually different frameworks for
+- [113:41] agents. For instance, you've probably
+- [113:44] heard of some of these terms before like
+- [113:46] Crew AI, Mastra, Autogen, Agno,
+- [113:49] Langraph, which we're using here.
+- [113:52] Each of them has slight specialties that
+- [113:55] you might want to go to one for versus
+- [113:57] another, but really just kind of know
+- [114:00] that this is kind of a good reference,
+- [114:02] maybe a good screenshot to take of why
+- [114:04] you might want to pick one agent
+- [114:06] framework versus another. The best part
+- [114:08] about using an observability platform
+- [114:10] like Arise is that we are agnostic to
+- [114:13] any framework or language that you're
+- [114:14] using. We work with all of these
+- [114:16] frameworks and all these languages. So
+- [114:18] you can still get observability and
+- [114:20] evaluation. Why that's helpful is
+- [114:22] because you might want to change your
+- [114:24] system from crew AI to master because
+- [114:26] it's changed slightly or you want to
+- [114:27] have multiple agents running with
+- [114:29] multiple frameworks and that's totally
+- [114:31] supported in Arise as well.
+- [114:34] So we're actually going to skip this
+- [114:37] lab. Let me take a look at it really
+- [114:39] quick and see if we have some time to go
+- [114:41] through it because we are coming up a
+- [114:44] little bit short on time. And so I just
+- [114:45] want to double check how long this one
+- [114:47] is to run.
+- [114:59] Actually, we can go ahead and run this
+- [115:00] one. This one's a pretty good one um to
+- [115:02] run.
+- [115:03] There's one small change you're going to
+- [115:05] need to make to this lab. So this lab is
+- [115:08] a Jupyter notebook or Python notebook
+- [115:11] which you should also be able to run in
+- [115:13] your IDE. So all you have to do is
+- [115:15] navigate to lab 3. You click on that and
+- [115:18] you should see this on the right hand
+- [115:20] side and you'll need to select a kernel.
+- [115:24] I'm going to go ahead and say pick a
+- [115:26] Python environment.
+- [115:28] Just pick this one.
+- [115:32] And now we can actually run through this
+- [115:34] lab. In this lab, we're actually
+- [115:36] basically going to be comparing these
+- [115:38] different agent architectures to each
+- [115:40] other and looking at what they look like
+- [115:42] in Arise so that we can evaluate which
+- [115:44] one we want to pick. So here I need to
+- [115:47] actually put in my Arise space ID and
+- [115:50] API key again. So I'm going to go ahead
+- [115:52] and hit install.
+- [115:56] And we'll need to go back to Arise here
+- [115:58] to get that information. So, I'm going
+- [116:00] to go to my settings page,
+- [116:03] create a new API key,
+- [116:09] copy that.
+- [116:21] And when I hit run, you'll see that in
+- [116:25] you'll see basically me get prompted
+- [116:26] here for my space ID or API key. So
+- [116:30] let's go ahead and grab that
+- [116:31] information. So the space ID is in the
+- [116:34] settings page. I'm just going to copy
+- [116:35] that. And then I enter it at the top of
+- [116:38] the page.
+- [116:40] You'll see that here.
+- [116:43] Let me go ahead and paste that in. And
+- [116:46] then I'm going to be prompted for my API
+- [116:48] key,
+- [116:50] which I just put here.
+- [116:53] Copy paste that.
+- [116:57] And here I'm going to Okay. Oh, awesome.
+- [117:00] Nice. This is set up correctly.
+- [117:02] Uh, so I'm going to go ahead and
+- [117:04] actually just run this.
+- [117:08] Oh, I need to pip install. I always
+- [117:10] forget to do that.
+- [117:18] If you select the virtual environment uh
+- [117:20] that you just created, you would not you
+- [117:23] shouldn't need to do a p install.
+- [117:26] >> Yeah, I just always forget to do that.
+- [117:36] And I don't know if I have that stored
+- [117:38] here in my kernel.
+- [117:58] I just pasted the comment.
+- [118:01] >> Oh, thank you. Yeah, we should for sure
+- [118:04] put this in the notebooks, too, because
+- [118:05] I always forget um people are using
+- [118:08] different environments.
+- [118:14] Thanks, Dylan.
+- [118:16] So, we're going to go ahead and install
+- [118:17] that into our virtual environment.
+- [118:42] Okay, then we're going to hit run here.
+- [118:46] And what we're basically doing just to
+- [118:48] explain step by step is in this
+- [118:51] notebook, a notebook is basically a way
+- [118:53] for you to run Python code in sort of a
+- [118:56] sequential way. So it's really just like
+- [118:58] the same thing as what we were doing
+- [118:59] before with the agent, but sub parts of
+- [119:01] it. So it's, you know, instead of
+- [119:03] hosting it as a server, we're actually
+- [119:05] just running parts of the code in in
+- [119:07] Python. And what I'm doing is I'm
+- [119:09] setting up my Arise tracing in the
+- [119:12] notebook itself. And what's really cool
+- [119:14] is like we can actually just set up that
+- [119:16] tracing to run for the parts of the
+- [119:18] agent.
+- [119:20] Um, yeah. So Sherwood, this is a bit of
+- [119:22] just an example. It's kind of a side
+- [119:24] quest. Uh so that you you need to run
+- [119:27] the tracer provider in the notebook
+- [119:28] because this is its own um
+- [119:32] uh you're setting it up for this project
+- [119:34] that we're about to run in notebook
+- [119:35] basically.
+- [119:38] And then I can go ahead and set up the
+- [119:40] same local host.
+- [119:43] Yeah. So this one is is uh it's a little
+- [119:45] bit different than what we're running
+- [119:47] for uh what we ran just before with the
+- [119:50] the trip planner. It's the same code.
+- [119:52] It's just parts of it instead. And we're
+- [119:54] going to set up the test scenarios here.
+- [119:56] So we have a trip to Tokyo, trip to
+- [120:00] Paris, and this is just data that we're
+- [120:01] going to use to run through the system.
+- [120:05] So let's compare the current parallel
+- [120:07] architecture here. So I'm going to go
+- [120:09] ahead and hit this run button. And it's
+- [120:11] actually going to go ahead and send
+- [120:13] those same three requests that we have
+- [120:14] here, Tokyo, Paris, and Bangkok. And
+- [120:18] it's going to make a request to my
+- [120:20] server. And you can see that it's
+- [120:22] actually hitting the server here. plan
+- [120:24] trip and it's sending those requests to
+- [120:26] the server to actually make itineraries.
+- [120:30] Okay, it looks like it ran. Let's go
+- [120:32] ahead and look at our data in Arise.
+- [120:42] Oh, I might be on. Actually, let me do
+- [120:44] one more thing really quick. Let me go
+- [120:46] back to
+- [121:07] I'm just switching accounts because of a
+- [121:10] an issue I was having earlier. So, I'm
+- [121:12] just going to go ahead and just do that
+- [121:13] setup one more time.
+- [121:32] Yep. Thank you.
+- [121:38] So, I'm actually just going to go
+- [121:39] through the steps one more time. So, if
+- [121:41] you haven't done this yet, you're in a
+- [121:44] good spot since we'll be going through
+- [121:46] it one more time.
+- [122:21] Okay, let's try to run this again.
+- [122:27] Go back here.
+- [122:58] Okay, I might be still having some
+- [123:00] issues with my Jupiter notebook, but
+- [123:03] maybe you all are doing okay. It just
+- [123:05] might just be me that's running into
+- [123:06] this for networking reasons.
+- [123:12] Yeah, I think I'm just having some
+- [123:13] networking problems.
+- [123:28] >> Dylan, any chance you have it up on your
+- [123:30] machine running?
+- [123:32] >> Um, no, but give me a second.
+- [123:35] >> Okay. Yeah, I think I'm I'm think I'm
+- [123:37] running into some issues with my
+- [123:38] account. Um just uh
+- [123:42] just receiving requests I think
+- [123:56] try one more thing really quick and see
+- [123:57] if that works.
+- [124:02] I'm going to go ahead and create a new
+- [124:04] virtual environment.
+- [124:14] Try this one more time. And if this
+- [124:15] doesn't work, we'll just kind of move
+- [124:16] ahead.
+- [124:23] Could you drop in the chat for folks
+- [124:25] here? Um,
+- [124:27] yep. We will send out the recording
+- [124:29] afterwards as well. Resh, feel free to
+- [124:31] drop in the chat if you got the notebook
+- [124:33] working or you're still waiting for uh
+- [124:37] or you know you're stuck at a different
+- [124:39] step
+- [124:55] on the beginning of the notebook. What's
+- [124:57] uh what's the issue you're running into,
+- [124:58] Diego?
+- [125:02] Um I try to to run that on the Jupyter
+- [125:07] notebook that is on the command line but
+- [125:12] uh
+- [125:13] but some some let me let me show the
+- [125:17] problem.
+- [125:20] >> I don't know if you'll be able to share
+- [125:22] screen.
+- [125:23] >> I know uh ammon isn't better to to break
+- [125:26] room in this case?
+- [125:28] >> Oh yeah. Um, good call. Yeah, let's do a
+- [125:30] breakout room if you want to hop in with
+- [125:33] Dylan. Um,
+- [125:34] >> please.
+- [125:35] >> We can do another breakout room
+- [125:37] >> to our data science dojo friends.
+- [125:44] If you are here,
+- [125:48] thank you.
+- [125:51] Thanks, Dylan, for uh being the breakout
+- [125:55] room guy.
+- [125:57] appreciate it.
+- [126:01] We're going to keep chugging along here
+- [126:02] and we'll come back. Maybe we'll try
+- [126:04] again in five minutes. Come back and
+- [126:06] we'll kind of push ahead.
+- [126:36] Yeah, I think we have a couple folks
+- [126:38] that want to get added to the breakout
+- [126:39] room.
+- [126:43] Cool.
+- [126:47] Thank you.
+- [126:49] Um, okay. And in the meantime, I'm going
+- [126:52] to try and figure out what's going on
+- [126:54] here.
+- [127:03] I think I'm just having some networking
+- [127:05] issues where notebook isn't sending the
+- [127:07] data to my Arise instance.
+- [127:21] Yeah, we're going to have to try to
+- [127:24] debug this later.
+- [127:38] Okay, in the meantime, we're going to
+- [127:39] hop back to
+- [127:43] we'll start getting ready for the tools
+- [127:44] and MP MCP section. So, we're moving
+- [127:47] ahead in a couple minutes here. Feel
+- [127:49] free to drop in the chat. Um, Jupyter
+- [127:52] Notebook working.
+- [128:11] And we'll give it a couple minutes here
+- [128:13] and then we'll we'll hop into the next
+- [128:15] section.
+- [128:39] In the meantime, while that that group
+- [128:41] is sort of working through their
+- [128:44] notebook and installation, I'm going to
+- [128:47] show one more part of the the product
+- [128:49] here, which is what we talked about
+- [128:51] earlier was actually being able to
+- [128:54] replay parts of your agent graph.
+- [128:58] And the thing is that single example
+- [129:00] that AB tests like that's cool but it's
+- [129:02] not really a datadriven approach to see
+- [129:04] okay am I making like a sustained change
+- [129:06] to my platform or to my agent. What we
+- [129:09] want to do there is actually create an a
+- [129:12] data set the concept of a data set. And
+- [129:15] this data set is basically a way for us
+- [129:17] to essentially replay more data. So I
+- [129:21] can create an think of it as like rows
+- [129:24] of spans that we've curated that we can
+- [129:27] use for proper sort of AB test over
+- [129:30] multiple rows of data. So remember you
+- [129:32] have a trace which is the the sort of
+- [129:34] the main part of the tree like the main
+- [129:37] um the the top part of your trace tree.
+- [129:40] You have the spans which are the
+- [129:41] individual rows. Think of those as like
+- [129:43] rows in a spreadsheet. And then I have a
+- [129:45] data set here which is can be contained
+- [129:48] by uh multiple spans or multiple rows of
+- [129:51] data. So I can create that data set and
+- [129:53] let's go ahead back to here and you can
+- [129:57] also just upload a CSV if you want to
+- [129:58] use for testing just create data set.
+- [130:01] But I go into
+- [130:03] the data set and I can from here
+- [130:06] actually let's say we want to add
+- [130:08] multiple rows. Let me let me go ahead
+- [130:10] and add like two or three different
+- [130:11] rows.
+- [130:13] So, I'm going to add this one.
+- [130:16] I'm going to add to my data set.
+- [130:20] And I'm just basically going in and
+- [130:21] adding itinerary spans because I want to
+- [130:24] create a data set of itinerary spans.
+- [130:27] So, feel free to follow along here. And
+- [130:29] we will use this data set for some
+- [130:31] testing in just a moment.
+- [130:33] So, I've got, you know, three or four
+- [130:35] different examples here and I can go
+- [130:37] ahead and go into this data set.
+- [130:41] And what's great is from here I can go
+- [130:44] ahead and
+- [130:46] run an experiment from the data set. So
+- [130:48] if I hit create in playground, it's
+- [130:50] actually going to pull over uh that same
+- [130:55] data set. So let me go ahead and do one
+- [130:57] more thing.
+- [131:02] I do need to save this as a prompt
+- [131:04] because that doesn't get pulled over
+- [131:06] automatically.
+- [131:15] And I'm going to go ahead and hit save
+- [131:19] and save itinerary prompt one
+- [131:23] and save as a V1 itinerary.
+- [131:26] And I can pull in that same data set I
+- [131:28] just created. And now when I look at
+- [131:30] this, I have multiple rows or multiple
+- [131:34] examples that I can use to replay the
+- [131:37] same data and the same information. So
+- [131:39] it's really handy for me to, you know,
+- [131:41] let's say I want to do an AB test on
+- [131:43] more than just one row of data. I can
+- [131:45] now do an AB test on multiple rows of
+- [131:47] data on a single data set object. So, I
+- [131:51] can do the same thing here and say,
+- [131:54] make sure the itinerary is friendly and
+- [131:59] always uses emojis.
+- [132:02] On top of that, I can add what's called
+- [132:04] an evaluator. And this is the LLM as a
+- [132:06] judge eval. And I can add a add an
+- [132:09] example here for a friendly eval. So,
+- [132:12] for example,
+- [132:15] in here
+- [132:17] going to hop ahead a little bit and copy
+- [132:19] paste a template that we're going to
+- [132:21] come back to in a sec, but I'm basically
+- [132:23] going to add a prompt template for
+- [132:25] evaluation.
+- [132:26] And this is an LLM as a judge. So,
+- [132:28] you've probably heard of LLM as a judge
+- [132:30] before, but it's one of the tools that
+- [132:32] we can use as eval uh to actually check
+- [132:36] the output of the system in the first
+- [132:38] place. So, in here I have basically two
+- [132:41] labels, friendly or robotic. And I'm
+- [132:44] going to go ahead and put that in here
+- [132:47] and say
+- [132:49] this is what we want to check for. Are
+- [132:51] you sounding friendly or are you
+- [132:52] sounding robotic?
+- [132:55] And what's interesting is I can actually
+- [132:56] edit what the definition of friendly or
+- [132:58] robotic sound like. So I could say
+- [133:00] friendly is defined as upbeat, cheerful,
+- [133:02] while robotic is something that sounds
+- [133:04] like an AI generated it. I can also say
+- [133:06] friendly should require emojis because
+- [133:10] maybe that's just what my brand really
+- [133:12] wants to gravitate towards. It's like
+- [133:14] you should always use emojis with our
+- [133:16] customers or something like that. And I
+- [133:18] can go ahead and create that email.
+- [133:23] Now, when I do this, I run this test.
+- [133:27] Let's go ahead and change the model as
+- [133:29] well. And we're going to go ahead and
+- [133:30] use GPT 4.1. And we're going to compare
+- [133:33] it to the original model. and prompt.
+- [133:36] And now I'm going to hit run all
+- [133:41] and you can see that I'm doing this AB
+- [133:43] test again.
+- [133:47] Yeah, let me go ahead and share that.
+- [133:50] It's here.
+- [133:57] One second.
+- [134:11] And you can just copy paste that into
+- [134:13] the eval part of the prompt playground.
+- [134:17] And now we actually have this eval
+- [134:21] running on the outputs here. And what's
+- [134:24] great is I can actually go and look at
+- [134:26] my data set. And you can actually see
+- [134:29] this comparison of the first experiment
+- [134:32] which didn't have that prompt change I
+- [134:34] made to it to the new version which has
+- [134:36] this friendly eval applied. And I
+- [134:38] actually get a score on the output from
+- [134:42] the playground. And what's great is if I
+- [134:44] go into here, I can actually see why,
+- [134:48] you know, not only what the label is,
+- [134:50] but the explanation of the label itself
+- [134:52] or the explanation of the eval. So for
+- [134:55] instance, you see to determine whether
+- [134:56] the text is friendly or not, it's uh you
+- [135:00] know use of emojis etc. So when we run
+- [135:02] eval LLM as a judge eval, we're not only
+- [135:06] getting the the LLM label itself,
+- [135:11] we're actually also getting an
+- [135:12] explanation for why something is
+- [135:14] friendly or something is robotic. Why
+- [135:16] the LLM as a judge is labeling that
+- [135:18] output as friendly or robotic. And you
+- [135:20] can see here it says this is robotic
+- [135:22] because it doesn't have emojis. It
+- [135:23] doesn't have a warm tone. So this is the
+- [135:26] power of LLM as a judge, right? It kind
+- [135:28] of it's acting basically as a labeler
+- [135:30] for my data. so that when I go back and
+- [135:32] I change my prompter and make changes to
+- [135:34] my system, I can verify that those
+- [135:36] changes are actually making an impact.
+- [135:39] And that's really what uh this this kind
+- [135:41] of allows for.
+- [135:47] Let me go ahead and check.
+- [135:55] Okay, then we're going to go ahead and
+- [135:56] close that breakout room so that the
+- [135:58] folks can join back in and we're going
+- [136:01] to keep going ahead with MCP tools and
+- [136:04] tracing.
+- [136:08] Any questions on any of this so far on
+- [136:10] the concept of agents, agent frameworks,
+- [136:14] eval
+- [136:17] of that so far prompt prompt iteration
+- [136:20] while we wait 10 more seconds for folks
+- [136:22] to join. Why is it necessary to always
+- [136:25] use evals?
+- [136:27] >> Ah, asking good questions, Piplop. Um,
+- [136:31] so
+- [136:35] I'll give you a short answer and then we
+- [136:37] have a slightly longer answer in just a
+- [136:38] moment.
+- [136:39] >> Sure.
+- [136:40] >> The short answer is
+- [136:43] your EV valves are basically how you
+- [136:45] check the output of your system because
+- [136:48] LLMs are non-deterministic.
+- [136:50] In the software world, we have unit
+- [136:52] tests or integration tests, right? So,
+- [136:54] anytime you push a change, you make sure
+- [136:55] you're not breaking something. That's
+- [136:57] the equivalent of what eval
+- [137:02] arguably, you know, you basically need
+- [137:05] multiple ways to check the output of the
+- [137:07] LLM because integration and unit tests
+- [137:11] always have like a binary pass fail.
+- [137:13] Evals are a much more nuanced way to
+- [137:15] grade the output of LLMs because they're
+- [137:17] nondeterministic and because they're
+- [137:18] subjective because the outputs of LLMs
+- [137:20] are often subjective. Um, eval also
+- [137:23] don't have to be LLM eval based
+- [137:26] evaluations as well. And we'll talk more
+- [137:28] about that as well.
+- [137:30] >> Thank you.
+- [137:30] >> Yeah, good question. And we'll we'll
+- [137:33] jump into that in just very shortly in
+- [137:35] about the next five minutes. So
+- [137:37] hopefully by now you've looked at
+- [137:38] different agent frameworks and
+- [137:39] architectures and and we hit a couple
+- [137:41] technical snags, but we're going to keep
+- [137:44] pushing on here. We're going to talk
+- [137:45] about what are agent AI agent tools. And
+- [137:49] this is just sort of an example of the
+- [137:51] different types of tools that you know
+- [137:52] you tend to can you can basically give
+- [137:54] access to uh your agent. There's data
+- [137:57] access which is essentially rag with
+- [138:00] things like you know APIs or databases
+- [138:03] on top that you can pull from and pull
+- [138:05] data from. Ex uh there's extraction
+- [138:08] which is you know think of this as like
+- [138:10] metadata parsing or pulling data out
+- [138:13] from a string and doing processing on
+- [138:15] it. There's execution which is actually
+- [138:19] taking action or calling an API for
+- [138:22] instance triggering a workflow or making
+- [138:24] an API call. And then there's analysis
+- [138:27] which is think of this as parsing logs
+- [138:30] or doing reasoning on top of data. So
+- [138:33] these are the four very common types of
+- [138:35] categories of tools. And the reason that
+- [138:37] you want to apply these tools to your
+- [138:39] agent is because they can provide
+- [138:41] basically think of it this way. When you
+- [138:42] ask your LLM
+- [138:45] what happened yesterday, it's not going
+- [138:47] to know what happened yesterday because
+- [138:49] the knowledge cut off was 6 months ago.
+- [138:52] So it needs to go and look for recent
+- [138:54] information. And to go and get that
+- [138:56] recent information, you basically need
+- [138:58] to hook it up to a real world uh API or
+- [139:01] database. You can also make the agent
+- [139:03] more specialized by giving it access to
+- [139:05] these tools because now it can perform a
+- [139:08] very specific task like write code or
+- [139:10] read code. And that means that you can
+- [139:12] build a system that knows about multiple
+- [139:14] parts of your you know your enterprise
+- [139:16] or business.
+- [139:26] On top of that, when you think about,
+- [139:27] you know, why tools matter in the real
+- [139:29] world, it's because, you know, LM can't
+- [139:32] directly query databases. Tools give
+- [139:34] LLMs the ability to basically take
+- [139:36] action in the real world and bridge the
+- [139:39] gap between external data sources and
+- [139:41] what the LLM knows already. So, example
+- [139:43] is like MCP calls, which we're going to
+- [139:45] hop into now as well.
+- [139:48] MCP is sort of it doesn't really think
+- [139:50] of it as like uh you know you'll often
+- [139:52] hear this expression of like MCP is like
+- [139:53] an API for LLMs. I think that's a pretty
+- [139:56] good example. It basically is a way for
+- [139:58] you to give the LLM access to specific
+- [140:02] actions you might want it to take by
+- [140:05] describing you know in your MCP server
+- [140:08] which is uh model context protocol. you
+- [140:10] can basically describe the tool, the
+- [140:12] data, and why the LLM might want to use
+- [140:15] that tool. And when you think about what
+- [140:19] your, you know, in your own company or
+- [140:21] if you wanted to access other companies
+- [140:22] MCPs, it's basically the language that
+- [140:25] you can use to expose
+- [140:28] how to take action on your data uh for
+- [140:31] external LLMs. It's sort of like here.
+- [140:33] It's like almost like developer
+- [140:35] documentation for an LLM is another way
+- [140:37] to look at it for your API.
+- [140:40] So the way I would look at it is like
+- [140:42] MCP doesn't replace tools. It just makes
+- [140:45] tools interoperable and it's a standard
+- [140:47] protocol for you to define essentially
+- [140:50] these tool calls to make action on your
+- [140:53] your API uh on your uh your system.
+- [140:59] Okay, we're going to we're going to go
+- [141:01] ahead and skip the uh MTP um sort of
+- [141:05] demo really quick and actually just hop
+- [141:07] ahead so that we can get closer to evals
+- [141:09] in the time that we have. So, basically,
+- [141:13] think about it this way. When you when
+- [141:15] you know, we'll send out the the the
+- [141:17] labs for labs three and four. Fun fact,
+- [141:20] this is actually just our first uh sort
+- [141:22] of runthrough of the new course that
+- [141:24] we're launching on our site. So you're
+- [141:25] actually you all are getting like a
+- [141:26] slight preview into some of the material
+- [141:28] we're going to have, but we will do a
+- [141:29] deeper dive into Rag MCP and trading off
+- [141:32] those different approaches for your
+- [141:35] system and you can actually AB test and
+- [141:37] see which one is going to work best for
+- [141:38] your system.
+- [141:41] Okay, with that we're going to hop into
+- [141:43] Rag. So how many folks are uh have
+- [141:47] already actually quick question for the
+- [141:49] audience here. How many folks have
+- [141:51] actually built around MCP or RAG systems
+- [141:54] in the past? So, just so I know how much
+- [141:57] to cover around rag.
+- [142:05] Nice. Sherwood, was it a rag system or
+- [142:07] an MCP or both?
+- [142:11] >> It was RAG.
+- [142:13] >> Okay.
+- [142:14] Rag. Yes. MCP now. Okay. I think rag is
+- [142:17] has been around a little bit longer
+- [142:18] about a year or more than MCP so far
+- [142:21] from a protocol but awesome. So we have
+- [142:23] a couple folks that have built some
+- [142:24] things with MCP.
+- [142:26] >> Yeah, go ahead.
+- [142:28] >> Things with MCP but nothing complex.
+- [142:30] >> Okay. Yeah, I'd say we're we we'll share
+- [142:33] some more uh we'll share that notebook
+- [142:35] out afterwards. Um so you can kind of
+- [142:37] take a first pass at spinning up an MCP
+- [142:39] server for your agent using that um to
+- [142:42] to see how it works.
+- [142:44] So when we think about rag, there's
+- [142:48] really four components here.
+- [142:51] There's the prompt which is your user qu
+- [142:54] uh user query or you know basically
+- [142:55] going in and generating context that is
+- [142:58] being sent to the LLM system. But rag is
+- [143:01] basically it's like it's this word that
+- [143:04] I really think has been subsumed by
+- [143:06] context engineering. So, rag is
+- [143:09] basically a way for you to get data from
+- [143:12] a document store or a database that then
+- [143:15] you can use as context alongside your
+- [143:17] prompt your prompt template and your
+- [143:20] user question. And then all of that can
+- [143:23] basically all of those retrieve
+- [143:24] documents that you get from uh from this
+- [143:27] call to the database is what you send to
+- [143:29] the LLM system.
+- [143:33] Part of the reason you want to try to
+- [143:35] use a, you know, try to use rag for a
+- [143:38] lot of enterprise applications where you
+- [143:40] have proprietary data that you're
+- [143:42] querying from in your database like a
+- [143:44] file store or a document store is
+- [143:47] because it's going to reduce
+- [143:48] hallucinations and so that you can run
+- [143:51] specific checks on the documents that
+- [143:52] are retrieved to make sure that they're
+- [143:55] relevant to the question that the user
+- [143:57] is asking and so that you can check if
+- [144:00] the LLM is hallucinating or not based on
+- [144:02] the retrieved document. So for instance,
+- [144:04] a hallucination is basically a way for
+- [144:06] you to check, hey, I retrieved this
+- [144:08] document from my system. This is the
+- [144:10] question that the user asked. Is the LLM
+- [144:12] giving an answer based on the document
+- [144:14] or just making something up? And you can
+- [144:17] only really do that if you're checking
+- [144:18] against a retrieved document. And when
+- [144:20] you have those retrieved documents, it
+- [144:21] actually makes the system respond
+- [144:23] better. Notebook LM is I don't know if
+- [144:27] it's actually a good example of rag. I
+- [144:29] would probably call it more of uh
+- [144:32] context engineering generally because
+- [144:33] they're doing a lot of stuff in there.
+- [144:35] But yeah, actually, you know what? If
+- [144:36] you if you copy paste a PDF into
+- [144:40] notebook LM, I would say that that is
+- [144:42] rag because it's it may not be doing rag
+- [144:45] like in the sense of like a vector
+- [144:46] database or chunking or things like
+- [144:48] that, but it is using the context to
+- [144:50] respond to the query. So, um yeah, you
+- [144:53] could say that. Good question.
+- [144:57] Arise does have a prompt registry. Um,
+- [144:59] so, uh, I'll I'll show that in sort of
+- [145:01] the in the next slide, but we do have a
+- [145:03] prompt registry for you to store prompts
+- [145:05] that you can retrieve from.
+- [145:09] So, when you think about how rag fits
+- [145:11] in, how does Rag fit into your agent,
+- [145:14] right? Well, your AI agent can actually
+- [145:17] call directly to an LLM or it can
+- [145:19] actually make a tool call or MCP call to
+- [145:21] pull in that retrieve context. So again,
+- [145:24] this kind of fits in handinhand with
+- [145:26] tools in MCP because basically you can
+- [145:30] sort of think about let me actually just
+- [145:31] go ahead and and um draft this up really
+- [145:35] quick as an example.
+- [145:39] But when we think about our our trip
+- [145:42] planner example over here,
+- [145:45] we can really think about like, you
+- [145:47] know, if I want to go ahead and say I'm
+- [145:48] planning a trip to Kyoto,
+- [145:51] you know, Kyoto,
+- [145:53] this thing can actually this query can
+- [145:55] actually go and look up from my database
+- [145:59] information about
+- [146:02] Kyoto,
+- [146:04] Tokyo, Osaka.
+- [146:06] And the rag system is actually going to
+- [146:08] go ahead and pull up specifically
+- [146:11] information
+- [146:12] about Kyoto.
+- [146:41] Okay, one second here.
+- [146:44] So, it's going to go ahead and actually
+- [146:45] pull up information specifically about
+- [146:47] Kyoto.
+- [146:49] But if I want to access what this this
+- [146:51] database is, I can actually wrap it in a
+- [146:55] tool call or in an MCP call
+- [146:59] and basically have it, you know,
+- [147:01] actually call this
+- [147:04] tool call
+- [147:08] where my database is behind
+- [147:13] an MCP server.
+- [147:15] And this is an example of how these
+- [147:17] three components basically come together
+- [147:18] to do rag because now I'm retrieving
+- [147:21] information about Kyoto
+- [147:24] and that gets sent to the LLM system.
+- [147:32] And this is just a really simple example
+- [147:34] of like how these different components
+- [147:35] come together. If I ask about Kyoto,
+- [147:38] it'll make a tool call. This database is
+- [147:40] behind an MCP server. It'll do a lookup
+- [147:43] on Kyoto and actually look up that
+- [147:45] information, send it to an LLM and
+- [147:47] that's rag essentially.
+- [147:53] So how does Rag combine with agents?
+- [147:57] Well, in that example, I just showed
+- [147:59] like one quick query and then a
+- [148:01] retrieval from a database, but you can
+- [148:03] have multiple queries or even adaptive
+- [148:06] retrieval as well. You can have multiple
+- [148:08] hops. So I could say refine my query on
+- [148:11] Kyoto and tell me about this one
+- [148:12] specific neighborhood in Kyoto or do you
+- [148:16] know further lookups and reasoning on
+- [148:18] top of the retrieve context as well. So
+- [148:20] there's a lot of benefits to using Rag
+- [148:22] when it comes to, you know, taking this
+- [148:25] data and applying it in your agent
+- [148:26] system for things like more complex
+- [148:29] queries, for chaining tools together,
+- [148:32] and in general, it's just a good
+- [148:34] fallback for um you know, basically
+- [148:36] having even potentially multiple
+- [148:38] databases that the agent can query from
+- [148:40] as well.
+- [148:42] So the things you want to check for, we
+- [148:44] kind of talked about hallucination,
+- [148:45] which is I've retrieved a document. Is
+- [148:48] is my LLM even using it to respond? You
+- [148:51] can use retrieval relevance, which is is
+- [148:54] this document relevant to the user's
+- [148:56] question or not? And then of course look
+- [148:57] at the overall correctness and if the
+- [149:00] LLM is actually citing the document. So
+- [149:02] there's a lot of things you can actually
+- [149:03] check to improve the quality of your RAG
+- [149:06] system and RAG pipeline as well. And
+- [149:08] these are LLM as a judge metrics that
+- [149:10] you can run as well.
+- [149:13] Um, I'm going to skip this one.
+- [149:17] Okay, we're going to hop straight into
+- [149:19] eval
+- [149:21] example and that will be sort of uh, you
+- [149:23] know, the, you know, towards as we get
+- [149:26] closer to the end of this workshop and
+- [149:28] we'll look a little bit ahead. Oh, nice.
+- [149:29] Sure. would you have jumped ahead to um
+- [149:31] I think we might okay I we might have to
+- [149:34] uh bump your account uh up one more
+- [149:37] level um to run that notebook.
+- [149:40] >> Yeah, just for the uh details here. So
+- [149:44] basically our engineering team just
+- [149:46] enforced a policy where you can only
+- [149:48] have one project per free account. Uh,
+- [149:51] so you just need to use the same project
+- [149:53] name that we used before and actually
+- [149:56] we're currently reverting this so this
+- [149:59] won't be an issue in a few hours.
+- [150:03] >> Awesome. Thanks, Dylan. So, um, so what
+- [150:06] are eval
+- [150:08] why do they matter and how does
+- [150:10] observability, rag, tool calling and all
+- [150:13] of this actually go into eval?
+- [150:17] Well, we know this to be true. Someone
+- [150:18] asked this before, why do I need to run
+- [150:19] any belts? The answer is because LLM's
+- [150:22] hallucinate.
+- [150:24] Let's actually go ahead and prove that
+- [150:26] out for a second. So,
+- [150:29] I'm going to go back to my
+- [150:32] agent trip planner here, and I'm going
+- [150:35] to say, "Take me to Hogwarts, right?
+- [150:39] And we'll see what the agent produces."
+- [150:44] Well, it gave me an answer. even though
+- [150:46] Hogwarts isn't a real place. And it's a
+- [150:48] pretty pretty realistic answer, right?
+- [150:50] Like, but I can't actually go book a
+- [150:52] trip here. Now, imagine if this trip
+- [150:55] planner was public and I had this hooked
+- [150:58] up to all of my APIs to go and book
+- [151:02] flights and book trips like where you
+- [151:04] know and some and some someone has their
+- [151:06] kid give get access to the trip planner
+- [151:08] and the kid types in I want to go to
+- [151:10] Hogwarts and you get this really nice
+- [151:12] itinerary and the kid's like great book
+- [151:15] me a vacation to Hogwarts
+- [151:18] where is it going to take them Florida?
+- [151:19] I have no idea. And the thing is, unless
+- [151:22] you have eval,
+- [151:26] you would have no idea that the LLM is
+- [151:28] hallucinating, that it's generating
+- [151:29] answers that aren't specific to your
+- [151:32] policy. And you don't have to take my
+- [151:34] word for it. Like, this is literally the
+- [151:36] CPOS of the companies that are selling
+- [151:39] you LLM telling you that eval are
+- [151:42] important. the OpenAI CPO, Anthropic CPO
+- [151:45] are saying eval are going to be a really
+- [151:47] important skill because if you're
+- [151:49] deploying this stuff all over your
+- [151:51] enterprise, you better make sure it's
+- [151:53] working the way you expect it to.
+- [151:56] There's a lot of Exactly. It might take
+- [152:00] you right to, you know, Disney. Who
+- [152:02] knows? Is Hogwarts Disney Harry Potter?
+- [152:05] I don't remember. Universal. Um, so you
+- [152:07] know, on top of that, I think that
+- [152:09] there's a lot of conflation around what
+- [152:13] eval are. So I wanted to try to like
+- [152:16] make this more clear for people here.
+- [152:19] When people talk about eval, they're
+- [152:20] usually talking about two types of eval.
+- [152:23] On the lefth hand side you have model
+- [152:25] evaluation which is think of this as
+- [152:28] like benchmarks
+- [152:30] that the foundation model companies are
+- [152:33] basically using to measure how good
+- [152:36] their system is. So these are things
+- [152:39] like bench mmlu. You've probably heard
+- [152:42] of some of these benchmarks in the past.
+- [152:45] These are actually not super relevant to
+- [152:47] the types of eval that you will care
+- [152:49] about with your business. What you would
+- [152:52] really care about is LLM system
+- [152:54] evaluation, which is essentially how
+- [152:56] good is my agent performing for my
+- [152:59] specific data set of real world data. So
+- [153:02] this is things like pulling customer
+- [153:04] data, pulling examples from the trip
+- [153:06] planner and building data sets around
+- [153:08] that, which we kind of ran as an example
+- [153:10] for some of the folks earlier as well.
+- [153:15] And just as a reminder, this is kind of
+- [153:16] what LLM based applications look like
+- [153:18] today. You have a user's input query and
+- [153:20] LLM which has all of this nice stuff
+- [153:22] around it. Prompts, tools, data sources,
+- [153:24] and then an output.
+- [153:27] A lot of people say eval are just unit
+- [153:29] tests. Yes and no.
+- [153:32] On the left hand side, you have this,
+- [153:34] you know, think about software testing
+- [153:36] as like a bullet train or a train going
+- [153:38] on a track. And really, there's a couple
+- [153:40] different tests that you can run on this
+- [153:42] type of system. And you can make sure
+- [153:43] that the train is going from point A to
+- [153:45] point B correctly, that it's, you know,
+- [153:48] there's engagement between the train and
+- [153:49] the track. This is like an integration
+- [153:51] test. And a unit test would be like, did
+- [153:53] it get there on time? And if you're on
+- [153:55] the East Coast, your trains are always
+- [153:56] going to be late. And so your unit test
+- [153:58] is probably failing, but you know, here
+- [154:00] we are. On the right hand side, you have
+- [154:04] something closer to what an agentbased
+- [154:06] system looks like, which is closer to
+- [154:08] like a driving test. Because think about
+- [154:11] driving in a chaotic environment like
+- [154:13] New York. There's people crossing the
+- [154:15] street when you least expect them to.
+- [154:17] There's pe think of that as like someone
+- [154:19] trying to put in a request like take me
+- [154:21] to Hogwarts. Like you never you can't
+- [154:23] anticipate everything people are going
+- [154:25] to do all the time. But your system
+- [154:27] needs to be robust to those inputs
+- [154:30] anyway, right? There's no excuse if you
+- [154:32] didn't stop at a red light even if
+- [154:33] someone was like, you know, uh when you
+- [154:36] thought you should go. Like it doesn't
+- [154:38] matter. At the end of the day, your
+- [154:39] system needs to be robust to variables.
+- [154:43] So in unit testing world, you're
+- [154:45] basically checking how your components
+- [154:47] work together and making sure each
+- [154:49] component is tested individually.
+- [154:52] But in the case of LLMs, you're actually
+- [154:54] testing endtoend non-deterministic
+- [154:57] sort of actions that the LLM can take
+- [154:59] because the agent can go off the rails.
+- [155:02] It can take action on APIs, right? And
+- [155:05] what you're trying to do is check
+- [155:06] multiple parts of the system which is
+- [155:08] different than traditional software
+- [155:10] testing.
+- [155:12] So just kind of recap that software
+- [155:14] testing is deterministic. LMS are
+- [155:15] ndeterministic. And we kind of covered
+- [155:17] some of this earlier. Um
+- [155:20] this is really a good slide to kind of
+- [155:21] pause on for a moment which is the
+- [155:23] common types of evaluations for LLM
+- [155:25] systems. So you have LLM as a judge, uh,
+- [155:28] which we'll go into more depth on in
+- [155:30] just a moment, but this is really LLM as
+- [155:32] a judge is basically using an LLM to
+- [155:34] grade the output of your agent or other
+- [155:36] LLM.
+- [155:38] This makes sense because it's sort of
+- [155:40] like encoding knowledge into an LLM
+- [155:42] about what it should check. It's sort of
+- [155:44] like telling a human or an intern, hey,
+- [155:46] check the outputs here and make sure
+- [155:48] that they're correct. You have to define
+- [155:49] what's correct and how to check the
+- [155:51] outputs.
+- [155:53] A really common way to test agents and
+- [155:56] you know kind of a less complicated way
+- [155:58] I would say to actually eval
+- [156:01] the output of the agent is a codebased
+- [156:03] eval. So this is things like correctness
+- [156:06] string checks. For instance, if I'm an
+- [156:08] airline uh like United Airlines, I don't
+- [156:12] want my customers to come in and ask for
+- [156:14] me to book their flights on Delta. So I
+- [156:16] should check the input and make sure
+- [156:18] that if people ask about Delta, I should
+- [156:20] say, "Sorry, I can't help you with
+- [156:21] that." like I shouldn't try to help them
+- [156:23] out.
+- [156:25] Annotations is basically humans going in
+- [156:27] and looking at the data and it's
+- [156:28] actually this is where most uh eval
+- [156:32] systems start today is using human
+- [156:34] annotation and eval. So this is why it's
+- [156:37] so you've probably been hearing like
+- [156:38] there's all these companies that are
+- [156:40] doing human evaluations and labeling.
+- [156:42] That's really what annotations are. And
+- [156:44] then last but not least is business
+- [156:46] metrics. This is like the thumbs up,
+- [156:48] thumbs down that you can collect from
+- [156:50] your end user in the application. It's
+- [156:52] the human in the loop for your customer
+- [156:53] support bot. Ultimately, it's the thing
+- [156:56] that matters most, which is like is your
+- [156:58] user frustrated or not? And it's
+- [157:00] actually the thing that you want to try
+- [157:02] to encode in your other eval as much as
+- [157:04] possible and measure as well from your
+- [157:07] end system when you deploy it.
+- [157:10] I'm going to focus a little bit more on
+- [157:11] LM as a judge metrics. And basically
+- [157:14] what this is is it's it's using the
+- [157:16] output of one model to grade another
+- [157:18] output. So that's uh that's basically um
+- [157:21] you know using you know an LLM to to
+- [157:23] grade the first agent system.
+- [157:26] It's really flexible and really great
+- [157:28] for subjective tasks which are things
+- [157:31] like tone which we kind of used earlier
+- [157:34] quality. As long as you can describe
+- [157:36] what looks good or doesn't look good you
+- [157:38] can encode that in an LLM as a judge. On
+- [157:41] the other hand, code or rulebased checks
+- [157:43] are like things like JSON validation.
+- [157:46] Those are going to be better at
+- [157:47] deterministic tasks like where you know
+- [157:50] that there's like a binary discrete
+- [157:51] value like a one or a zero.
+- [157:54] A common LLM as a judge system really
+- [157:56] contains three components. There's the
+- [157:59] eval prompt which is what we're writing
+- [158:01] as a prompt to go into the LLM system.
+- [158:04] There's the LLM itself that we're using
+- [158:06] for evaluation. And the things we care
+- [158:08] about there are cost, performance,
+- [158:09] latency, and accuracy just like we would
+- [158:11] with any other system. And then there's
+- [158:12] the data that we're actually evaluating.
+- [158:14] And this is again spans, right? This is
+- [158:17] just a row of data that we're going to
+- [158:18] put into our LLM system to evaluate in
+- [158:21] the first place. So input, output, and
+- [158:23] then maybe a label or expected label
+- [158:25] that we can use as well. I like to think
+- [158:28] about the four steps for an eval prompt.
+- [158:31] At the top, you have the ro, then you
+- [158:34] have the context. So the role is
+- [158:36] basically like telling the LM you are an
+- [158:37] LLM as a judge. Your job is to grade the
+- [158:40] output of these systems. Then you
+- [158:42] provide the context which is the actual
+- [158:43] variable of like what you want the LM as
+- [158:45] a system to grade. You can provide a
+- [158:48] goal which is determine whether or not
+- [158:51] the output is toxic or not toxic. And
+- [158:53] then last but not least, you define what
+- [158:56] that means. Like what should the LLM
+- [158:58] output? And you almost always want to
+- [159:01] constrain the system to respond with a
+- [159:03] single word toxic or not toxic or a
+- [159:06] label. And the reason for that is
+- [159:08] because then you can use that label as a
+- [159:10] classification for other types of
+- [159:12] evaluation as well. So here the LLM is
+- [159:15] always responding with either only of
+- [159:17] toxic or not toxic.
+- [159:22] When it comes to designing good
+- [159:23] evaluations, here's just a couple
+- [159:25] principles or best practices. You really
+- [159:28] want to kind of start, I think the most
+- [159:29] important thing is actually starting
+- [159:31] with alignment. This is actually bullet
+- [159:32] number four, which is picking the right
+- [159:35] thing to measure and making sure it's
+- [159:37] aligned with your human evaluations in
+- [159:40] the first place. Once you've kind of
+- [159:43] started doing this this uh error
+- [159:45] analysis of different modes of failures,
+- [159:48] so you can start finding, okay, here's
+- [159:50] where my LLM isn't performing well. Is
+- [159:51] it the tone? Is it the quality of the
+- [159:53] output in some way? Is it the is it
+- [159:56] correct or not? Is it the rag or
+- [159:58] retrieval? Then you can go in and sort
+- [160:00] of se further segment. Okay, how do we
+- [160:02] measure this part of our system? It's
+- [160:04] the same as humans looking at data and
+- [160:05] seeing like is this good or bad or not?
+- [160:13] And yeah, just to put it all together,
+- [160:14] you really need observability
+- [160:16] at the top level to be able to even run
+- [160:19] eval.
+- [160:22] And once you have a system that's
+- [160:23] actually you have observability with
+- [160:26] traces, your labeling with eval, you can
+- [160:29] actually build a feedback loop in top on
+- [160:32] top of your agent system using this data
+- [160:34] as well.
+- [160:38] And I'm going to go ahead and show a
+- [160:40] live example of this. And this will work
+- [160:41] with your trip planner that you just set
+- [160:43] up as well in the uh Arise application.
+- [160:47] So you can measure a couple things here.
+- [160:48] We started with tone. You can also look
+- [160:50] at tool calling and overall correctness.
+- [160:53] So what I'll do is, you know, in case
+- [160:55] you in case you uh were in the breakout
+- [160:57] room, um you can actually just copy
+- [161:00] paste this prompt. And I'll just copy
+- [161:02] paste it back in again.
+- [161:12] And let's just go ahead and run this
+- [161:14] together.
+- [161:24] So I'm going to go back to Arise and
+- [161:26] let's go ahead and
+- [161:29] just run this example one more time for
+- [161:32] folks.
+- [161:37] in case people missed it.
+- [161:44] Oh, logged out. There you go.
+- [161:50] Uh, that's correct. Shwood, you will.
+- [161:57] So, what you can do is go to the
+- [161:58] itinerary and let's go ahead and delete
+- [162:00] these
+- [162:05] and create a new experiment.
+- [162:08] We'll load in the prompt that we just
+- [162:10] saved and we're going to do an AB test
+- [162:13] here. I'm going to say always respond in
+- [162:16] a friendly way and use emojis.
+- [162:22] So, now I'm requiring something from my
+- [162:24] LLM to do. I can also change the model
+- [162:27] and say GPT4.1
+- [162:30] and I can set up an eval which I already
+- [162:33] have here because I copy pasted it
+- [162:34] before but if you haven't you can just
+- [162:36] hit add eval and define that eval
+- [162:39] prompt. What you're actually going to do
+- [162:42] after you do this is actually compare it
+- [162:43] to human labels as well. So, let's go
+- [162:46] ahead and run that in here. And really,
+- [162:50] just with a couple clicks, I can do this
+- [162:51] AB test and see what the output of my
+- [162:54] system looks like.
+- [162:57] So, feel free to follow along if you
+- [163:00] have been putting examples into your
+- [163:01] trip planner and want to run an eval
+- [163:03] live.
+- [163:12] Wow. Okay, it's so much better. It says,
+- [163:14] "Absolutely. I'd love to help you plan
+- [163:15] five unforgettable days in New York.
+- [163:17] Maybe it's a little over the top,
+- [163:19] honestly. We might want to adjust that
+- [163:20] later down the line, too.
+- [163:23] And I can go in here and you can see
+- [163:25] great. Okay, it's actually grading the
+- [163:28] first, you know, the data set of rows
+- [163:30] initially with zero versus when I make
+- [163:33] that adjustment to the prompt, it's
+- [163:35] actually getting better and it says it's
+- [163:36] more friendly based on the eval that I
+- [163:38] just defined. I could also go in and
+- [163:41] label that data myself and actually
+- [163:43] provide human labels on top of the data
+- [163:45] set. So I could say I want to actually
+- [163:49] label the data in this in in the Arise
+- [163:51] platform and label it either so zero is
+- [163:55] robotic and then this is friendly
+- [164:08] and say friendly.
+- [164:12] Select the data set
+- [164:14] and add in my annotation.
+- [164:27] Awesome. So, let's go ahead and label
+- [164:29] this now. So, I can actually label the
+- [164:31] outputs that I'm looking at with either
+- [164:33] robotic or friendly. So, this is some of
+- [164:35] the original outputs that I can compare
+- [164:37] to. I think these ones were not super
+- [164:40] strong. So, I'm going to go ahead and
+- [164:41] label them as robotic.
+- [164:46] And then what I can do is actually
+- [164:48] compare. What's great about when I just
+- [164:49] label that data here is it actually
+- [164:52] applies it back to the same data set.
+- [164:55] So, I actually now have this column on
+- [164:57] my data set
+- [165:00] which were the labels that I just
+- [165:02] provided,
+- [165:04] which is great because it means I'm not
+- [165:05] actually copying any data.
+- [165:08] It's just the same data set except I'm
+- [165:10] labeling data in the same platform. And
+- [165:13] I can use that label data to actually uh
+- [165:17] run another experiment.
+- [165:22] And let's go ahead and
+- [165:26] copy a
+- [165:29] quick eval here. Actually, we'll just
+- [165:30] run this one live.
+- [165:34] See if this works. Actually,
+- [165:45] we want to look at the eval.
+- [165:50] This one may or may not actually have
+- [165:52] been done. Um, well, what you could do
+- [165:55] is actually compare the, you know, the
+- [165:57] match rate of the LLM, uh, eval to the
+- [166:02] human label as well. So you can actually
+- [166:03] look at the two columns side by side and
+- [166:05] see is my LLM eval matching my human
+- [166:09] annotation or not. So just kind of show
+- [166:11] that really quick.
+- [166:16] We'll just do like a quick comparison
+- [166:18] here.
+- [166:22] Eval friendly label.
+- [166:28] Oh,
+- [166:36] I think we have a slight bug in the
+- [166:38] system. Not pulling those columns. Uh,
+- [166:41] no worries.
+- [166:53] Okay. And let's go ahead and push ahead
+- [166:56] here a little bit more. So once we've
+- [166:57] actually run those human labels on here,
+- [167:00] someone asked a good question earlier of
+- [167:01] does Arise have a prompt uh hub and we
+- [167:05] do actually you can save an example
+- [167:07] prompt or update the prompt as well. So
+- [167:10] I can make changes to it and actually
+- [167:11] save it back to the initial system. And
+- [167:14] from here I can actually pull down the
+- [167:16] prompt if I want to use it in my code uh
+- [167:19] as well.
+- [167:27] Okay, we're going to go ahead and push
+- [167:29] ahead for the last little bit here
+- [167:31] talking about
+- [167:34] how to use eval to actually deploy your
+- [167:36] agents into production. Uh yeah, you can
+- [167:39] actually share with you can actually
+- [167:41] capture your hotel metrics and logs and
+- [167:43] store them in Arise. We're just an hotel
+- [167:45] collector as well.
+- [167:47] Good question.
+- [167:51] So
+- [167:53] the thing is that like you know even
+- [167:55] after you have your LLM you know system
+- [167:59] hooked up to you know agent system
+- [168:01] hooked up to traces you're running eval
+- [168:03] the thing is you actually need ways to
+- [168:05] measure the quality of your agent over
+- [168:08] time and so you actually need monitoring
+- [168:10] and dashboards to come back to and look
+- [168:12] at how your agent is performing over
+- [168:14] time.
+- [168:16] A lot of systems will tell you you can
+- [168:17] look at cost and latency to measure if
+- [168:20] your agent is doing well. I think you're
+- [168:22] going to run into issues if you're not
+- [168:23] actually tracking eval metrics over time
+- [168:25] through monitors as well.
+- [168:28] Think about it this way. You've now
+- [168:30] inserted a dependency in your product
+- [168:32] through an external API call. What
+- [168:34] happens if OpenAI goes down or they
+- [168:36] change the model on you or they're, you
+- [168:38] know, decide to use a different model
+- [168:39] tomorrow and you have no idea? That's
+- [168:42] really what you need. uh you know
+- [168:44] honestly a very common problem here is
+- [168:46] the underlying model shifting in some
+- [168:48] way. And so that's why you really need
+- [168:50] monitoring uh and sort of security and
+- [168:52] compliance checks for people trying to
+- [168:54] jailbreak your system when you didn't
+- [168:56] even realize that there was a
+- [168:57] vulnerability in the first place. So of
+- [168:59] course we have cost tracking in the
+- [169:01] platform as well. So you can actually
+- [169:02] monitor using costs.
+- [169:05] We also have monitoring for some of the
+- [169:08] sort of main services out there like
+- [169:10] page duty, slack. You can get an email
+- [169:12] notification if your thresholds um are
+- [169:16] above a certain value. And I'll kind of
+- [169:17] show what that looks like just for us to
+- [169:20] have as a reference point.
+- [169:23] But you can actually set up monitors
+- [169:24] here on qualities like eval as well. So
+- [169:28] I could say, you know, for my generative
+- [169:31] tracing, I want to go ahead and
+- [169:39] measure
+- [169:44] my eval.
+- [169:46] And look at my
+- [169:52] hallucination score.
+- [170:05] And you can see that this is an example
+- [170:06] of a monitor that's set up on my system
+- [170:08] for the eval that I set up, which is
+- [170:11] hallucination score. So all of those
+- [170:13] eval earlier, you can have them actually
+- [170:16] running on all of your incoming data and
+- [170:19] actually have monitor set up on evalu.
+- [170:22] So if you go into here, you can actually
+- [170:24] set up eval as jobs or as tasks on all
+- [170:28] incoming data as well.
+- [170:30] And that's what the monitoring kind of
+- [170:32] looks like uh in the Arise system as
+- [170:34] well.
+- [170:41] Going to skip red teaming because it's
+- [170:43] less relevant. I'm going to throw one
+- [170:45] more kind of best practice you're all
+- [170:47] way as you think about agents, which is
+- [170:49] think about guard rails. It's another
+- [170:51] way to look at this is like real time
+- [170:52] eval. Uh we actually integrate with some
+- [170:55] of the leading guardrail providers out
+- [170:57] there, open source ones like guardrails
+- [170:58] AI or Nemo guardrails. And what's really
+- [171:02] interesting about this is you can
+- [171:03] actually build guardrails that are
+- [171:05] specific to your failure modes. So
+- [171:07] guardrails are like blockers in real
+- [171:10] time to make sure that the LLM doesn't
+- [171:13] produce some text that's garbage or, you
+- [171:15] know, not actually what you want the
+- [171:17] system to to generate.
+- [171:20] Okay, so just a quick recap here for
+- [171:22] this workshop. We've kind of covered a
+- [171:24] lot of ground. Uh you you should have
+- [171:26] got an agent set up on your machine.
+- [171:28] We've gone through and actually run the
+- [171:30] agent and hooked it up to observability
+- [171:32] and done some agent engineering on the
+- [171:34] prompt or iterated on the prompt. We've
+- [171:37] explored different frameworks and
+- [171:38] architectures for agents instead of just
+- [171:40] TypeScript and Python. We've actually
+- [171:42] looked at all of the different major
+- [171:44] frameworks out there. We've talked about
+- [171:46] tools and MCP and how planning and
+- [171:48] reasoning and APIs all impact the
+- [171:51] quality and output of your agent in the
+- [171:53] first place. We talked about rag and
+- [171:55] being able to change your documents or
+- [171:57] change your um you know your rag
+- [171:59] strategy to to actually update what your
+- [172:01] LLM produces. And then we've hooked that
+- [172:04] all up to observability and eval so that
+- [172:06] you can run eval tests when you're
+- [172:09] running an AB test on a prompt or an
+- [172:11] agent system or changing your model. But
+- [172:13] you can also have those eval on all of
+- [172:15] your data coming in when you think about
+- [172:17] production as well. So we've covered a
+- [172:19] lot of ground. The interesting and sort
+- [172:22] of the good news here is there's
+- [172:23] actually more. You can actually do
+- [172:25] things like advanced agent evaluance
+- [172:29] parameter extraction and planning. I'll
+- [172:32] show an example of one of these just to
+- [172:34] have uh you know just for us to take a
+- [172:36] look at really quick. But you can
+- [172:38] actually run uh you can actually run
+- [172:40] eval at a much higher level at a higher
+- [172:42] level than just spans. You can actually
+- [172:44] run them on multiple spans as well. And
+- [172:47] we call these agent eval. And this is
+- [172:49] actually a new and emerging area of
+- [172:52] evaluation that we're actually helping
+- [172:54] lead and and sort of uh build research
+- [172:57] around. So you can actually check if
+- [172:59] your agent is performing well at the
+- [173:01] highest level, not just individual parts
+- [173:03] of your agent. So I highly recommend you
+- [173:05] check this out. Um, you know, we'll drop
+- [173:07] a link to this uh for you all to to
+- [173:10] access later as well. Um, but let me
+- [173:12] just go ahead and put this in the doc so
+- [173:14] that you have access to it now too.
+- [173:17] Uh, when non-rag generative AI
+- [173:19] applications, which eval work? JSON
+- [173:21] inputs. Yeah. So you can you can um so
+- [173:24] you basically the eval that are even
+- [173:26] non-rag eval will work just fine on
+- [173:28] individual spans. It's all about taking
+- [173:30] the input output JSON and running
+- [173:32] evaluations on that. And if you like
+- [173:35] this and you want more and you want to
+- [173:37] get deeper into best practices on
+- [173:39] building agents, you want access to more
+- [173:41] notebooks, you want access to support
+- [173:44] like Dylan and myself, I highly
+- [173:46] encourage you to scan the QR code to
+- [173:48] join our Slack community for both Arise
+- [173:51] and for Phoenix, uh, which is our
+- [173:53] open-source community. Uh, please give
+- [173:56] us a star on GitHub if you're in GitHub
+- [173:59] as well. And, uh, would love to, you
+- [174:01] know, have your support as we build this
+- [174:03] out. It's an open source project. We
+- [174:05] really appreciate all of your support
+- [174:07] and feel free to stay in touch. Reach
+- [174:08] out to me on X or LinkedIn. I'm happy to
+- [174:11] help as you get further in your journey.
+- [174:13] But thank you so much for joining and
+- [174:15] for spending this almost 3 hours
+- [174:17] together. Uh I really enjoyed it. I love
+- [174:20] live debugging. I actually love uh when
+- [174:23] things go wrong because this just helps
+- [174:24] us get better and and learn. So
+- [174:27] hopefully this was fun for you all too.
+- [174:29] Um, and thank you for spending the time
+- [174:31] and thank you for data science Jojo for
+- [174:33] having us.
+- [174:36] >> I'll stick around for for five more
+- [174:38] minutes for any questions people have.
+- [174:39] >> Yeah. Yeah. If you have any questions,
+- [174:40] feel please feel free to ask Aman and
+- [174:43] Dylan and then we'll be closing the
+- [174:46] workshop. But you have time. You have
+- [174:48] eight minutes right now.
+- [174:57] Dylan, I think there was a question on
+- [174:59] on the link to the Slack community.
+- [175:01] >> Yeah. Yeah. Can you share the link in
+- [175:03] chat or maybe the QR code?
+- [175:05] >> I'll go back here as well so people have
+- [175:06] it.
+- [175:07] >> Perfect.
+- [175:07] >> Yeah, the QR code didn't work.
+- [175:13] Thank you. That's pretty good to know.
+- [175:22] So, I don't actually know about either
+- [175:23] of those platforms, Pushbox. So, I know
+- [175:25] I mean I've used N a little bit, but I'm
+- [175:28] probably not the right person to ask
+- [175:29] about those.
+- [175:30] >> Yeah. Uh I mean, I can answer for that.
+- [175:32] Like for
+- [175:33] >> for prototyping for to have like a proof
+- [175:35] of concept, you know, you want to you
+- [175:37] you want to create your your business,
+- [175:39] you want a proof of concept that, you
+- [175:41] know, to showcase it to to investors. Uh
+- [175:44] yeah, NAS and make.com are probably like
+- [175:48] the best options, but you know, those
+- [175:50] are not systems that can scale or that
+- [175:54] can be like extremely reliable. you can
+- [175:56] be you you know it's like you get to a
+- [176:01] point of like a working demo like very
+- [176:03] very fast with those systems but then
+- [176:05] you you hit a wall that is like
+- [176:09] impossible to um you know to get above
+- [176:14] um so yeah
+- [176:17] >> uh one question I do have so our
+- [176:20] organizations are very strict about the
+- [176:22] data so all we can experiment is with
+- [176:25] the
+- [176:26] uh self-hosted ones, but I do see that
+- [176:29] self-hosted ones have restrictions. I
+- [176:31] can't try the optimizer framework and
+- [176:33] stuff like that. So, how do we
+- [176:36] experiment? Do we get a trial period for
+- [176:39] self-hosted and I can play around?
+- [176:47] >> Yeah, I I don't know much about Wait,
+- [176:49] sorry. This is Sorry, maybe I
+- [176:51] misunderstood the question. Was this for
+- [176:53] uh Arise or Phoenix? Uh Shri
+- [176:56] >> uh means the tracing tool you showed the
+- [176:59] >> okay don't that
+- [177:02] >> so your question was was around
+- [177:04] self-hosting is that the question
+- [177:06] >> yes yes it was around selfhosting
+- [177:09] >> so we we provide VPC deployments um
+- [177:13] those are paid PC's that we run um for
+- [177:16] enterprise uh sort of applications or
+- [177:18] use cases and then we have uh Phoenix
+- [177:22] which is this the tool we didn't go into
+- [177:24] too much depth on but it's very similar
+- [177:26] to Arise. I just dropped a link to it
+- [177:29] and you can self-host Phoenix in your
+- [177:30] own environment and it's fully open
+- [177:32] source. You don't even have to talk to
+- [177:33] us about that.
+- [177:34] >> Um yeah so open Phoenix is the open
+- [177:37] source equivalent of Arise. So both
+- [177:39] forms are very similar.
+- [177:41] >> Okay. So it has all the optimizer and
+- [177:44] the good to be features whichever I saw
+- [177:47] would be also available I assume. Uh
+- [177:50] it's probably worth uh trying out
+- [177:52] Phoenix and kind of coming to your own
+- [177:54] conclusion, I would say, because um
+- [177:57] there's going to be differences between
+- [177:58] the two. Obviously, one is open source
+- [178:00] and the other one is a fullyfledged
+- [178:03] enterprise platform. Here's an example
+- [178:05] of what I mean. Arise has monitoring
+- [178:09] dashboards,
+- [178:10] uh eval,
+- [178:13] you know, eval platform. Phoenix will
+- [178:15] have eval as well, but it doesn't today
+- [178:17] yet. And Arise has the co-pilot that you
+- [178:20] saw the sorry the um the agent that you
+- [178:23] saw in the platform as well. I don't
+- [178:24] know if you saw that one, but we had an
+- [178:26] agent in the platform. Um kind of show
+- [178:28] that really quick as well. And so if you
+- [178:31] want access to all of those, that will
+- [178:33] actually require uh you uh using um
+- [178:39] Arise because that that's not available
+- [178:41] in Phoenix.
+- [178:42] >> Okay.
+- [178:43] >> Yeah. is I can buy it as mean
+- [178:46] self-hosted version. Can I buy it uh for
+- [178:50] my organization?
+- [178:51] >> Um I would say yes. Uh is the short
+- [178:55] answer of course. I mean we're here to
+- [178:57] help you out. Um I would recommend
+- [179:00] reaching out to us to book a demo and we
+- [179:02] can discuss any specific questions you
+- [179:05] have around that um with that call.
+- [179:08] >> Makes sense.
+- [179:09] >> Yeah. But absolutely we work with some
+- [179:11] of the leading enterprises here. I just
+- [179:13] went ahead and updated our website
+- [179:14] recently. Um, so you actually see some
+- [179:17] of our cool new logos as well.
+- [179:21] >> Makes sense. Yeah, it was a very good
+- [179:23] session. Loved it.
+- [179:25] >> Thank you. I'm so glad to hear that. And
+- [179:28] feel free to ask us any questions you
+- [179:30] have as you get started with the Rise 2.
+- [179:32] And this is what the co-pilot looks
+- [179:34] like.
+- [179:36] >> Okay,
+- [179:38] this is the interesting features. It's
+- [179:40] nice. Yeah, this one's an arise only
+- [179:43] feature.
+- [179:46] It can help you write eval.s. It can
+- [179:48] help you iterate on your platform as
+- [179:49] well. Um, from here and we're going to
+- [179:52] expose it as an MCP as well.
+- [179:57] >> Great. Okay, I think that might be it.
+- [180:00] Um,
+- [180:01] thank you all again and
+- [180:05] stay in touch.
+- [180:07] >> Perfect. Thank you so much and thank you
+- [180:09] so much Aman for such a composed.
+- [180:11] >> Last question where you get a PowerPoint
+- [180:15] for this session is it come with a video
+- [180:17] or
+- [180:20] >> I'll give that one to uh our Dota data
+- [180:22] science dojo friends. Are you sharing
+- [180:24] the videos after this?
+- [180:28] >> Not only yeah we'll be sharing the
+- [180:30] slides as well.
+- [180:31] >> Do should I just link to them in the
+- [180:33] chat? Would that be helpful? I'll ask
+- [180:36] you over email. That's fine. We'll
+- [180:39] communicate over email. That's okay. And
+- [180:41] uh thank you so much everyone for
+- [180:43] joining. Thank you.
+- [180:44] >> Thank you. Very helpful, very detailed
+- [180:47] training. Thank you.
+- [180:49] Thank you. Bye. Bye. Thanks every Thank
+- [180:53] you.

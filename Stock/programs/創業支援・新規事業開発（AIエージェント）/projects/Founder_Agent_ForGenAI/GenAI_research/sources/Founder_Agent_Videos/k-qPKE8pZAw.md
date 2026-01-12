@@ -1,0 +1,1036 @@
+---
+title: "right now the AI world is on fire with new models dropping left and right and in today's video we're..."
+video_id: "k-qPKE8pZAw"
+video_url: "https://www.youtube.com/watch?v=k-qPKE8pZAw"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Anthropic"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  right now the AI world is on fire with
+  new models dropping left and right and
+  in today's video we're going to figure
+key_points:
+  - "right now the AI world is on fire with"
+  - "token context window and is somehow even"
+  - "in this video we're going to put all"
+  - "because you guys are awesome I'm going"
+  - "this video completely for free which"
+  - "one should be the best AI agent at least"
+  - "window 1 million tokens so at this point"
+  - "that means you can throw multiple books"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: k-qPKE8pZAw
+
+- URL: https://www.youtube.com/watch?v=k-qPKE8pZAw
+- Retrieved at: 2025-12-30T16:00:56+09:00
+
+## Text
+
+- [00:00] right now the AI world is on fire with
+- [00:02] new models dropping left and right and
+- [00:04] in today's video we're going to figure
+- [00:06] out which of these new models makes for
+- [00:08] the best AI agents as of 24 hours ago
+- [00:12] Google just released their Gemini flash
+- [00:14] 2.0 model that has an insane 1 million
+- [00:17] token context window and is somehow even
+- [00:20] cheaper than deeps R1 and a few days
+- [00:22] before that open AI just released their
+- [00:25] 03 Mini model which looks like it's the
+- [00:27] best developer model out there cuz it's
+- [00:29] insanely smart and super efficient and
+- [00:31] in this video we're going to put all
+- [00:33] these models to the test to figure out
+- [00:35] which one makes for the best AI agent by
+- [00:37] comparing them against the most
+- [00:39] important task AI agents need to perform
+- [00:42] and to keep things interesting we're
+- [00:43] also going to throw some of the previous
+- [00:45] best models out there like Claud Sonet
+- [00:47] 3.5 and GPT 40 to see how these old
+- [00:49] models stack up against the new ones and
+- [00:52] because you guys are awesome I'm going
+- [00:53] to be giving away all the source code in
+- [00:55] this video completely for free which
+- [00:56] does include one of my favorite AI
+- [00:58] agents that I've ever built just check
+- [01:00] out the description below for more
+- [01:01] information but enough of that let's go
+- [01:03] ahead and dive into the video and start
+- [01:05] testing out all these models to figure
+- [01:06] out which one makes the best AI agent
+- [01:08] and real quick before we just dive into
+- [01:10] testing we need to do a quick breakdown
+- [01:12] of all these models to figure out which
+- [01:13] one should be the best AI agent at least
+- [01:16] on paper and we're going to do that by
+- [01:17] comparing the five core stats of what
+- [01:19] goes into making a great AI agent so
+- [01:22] right out the gate Gemini 2.0 Flash the
+- [01:24] newest model has an insane context
+- [01:26] window 1 million tokens so at this point
+- [01:28] that means you can throw multiple books
+- [01:30] worth of knowledge in here and pretty
+- [01:31] much skip all of rag because it can
+- [01:33] handle so much information what's also
+- [01:35] important to note is it's pretty cheap
+- [01:36] but it does have a limited output tokens
+- [01:39] next we got 03 mini which is taking over
+- [01:41] the world by storm cuz it's pretty
+- [01:42] balanced it has a 200,000 input token
+- [01:45] and it has a 100,000 output token limit
+- [01:48] which is the biggest right now so at
+- [01:50] this point if you're trying to do
+- [01:51] generate a lot of content for like a
+- [01:53] small book or a bunch of newsletters
+- [01:55] this is your model to go to and it's
+- [01:56] also a really good developer next we
+- [01:58] have deep seek R1 which pretty which
+- [02:00] broke the internet 2 weeks ago because
+- [02:02] it's open source it's the cheapest model
+- [02:05] to use right now and it's also the
+- [02:06] smartest so all around it has a lot of
+- [02:08] Pros I also do want to do a quick
+- [02:10] throwback to one of the most commonly
+- [02:12] used models by developers claw 3.5 Sonet
+- [02:16] at this point it is you know one of the
+- [02:17] most widely used models by AI developers
+- [02:20] but it has a huge negative because it is
+- [02:22] insanely expensive for what you're
+- [02:24] getting at this day and age so at this
+- [02:27] point it's seven times more expensive
+- [02:28] than deep seek so at this point I've cut
+- [02:30] it out of my development life cycle next
+- [02:33] we have gp2 4.0 which has pretty much
+- [02:35] been the standard for all agents but at
+- [02:38] this point you know it's not looking so
+- [02:39] good when you compare it to the rest of
+- [02:40] the models that are available so at this
+- [02:42] point on paper it looks like 03 mini
+- [02:45] should be the best model at least on
+- [02:47] paper but enough talking about it let's
+- [02:49] go ahead and start putting these models
+- [02:50] to the test and figure out which one
+- [02:52] makes for the best AI agent so let's go
+- [02:54] ahead and dive into test number one all
+- [02:56] right guys so it's time to go ahead and
+- [02:57] dive into our first test which is called
+- [02:59] instru instruction overload and in this
+- [03:01] test what we want to do is make sure
+- [03:02] that these models can properly follow
+- [03:04] instructions so to test them what we're
+- [03:06] going to do is use these agents to go
+- [03:09] off and write a newsletter but in a very
+- [03:11] specific format with a ton of different
+- [03:13] rules to really put these agents to the
+- [03:15] test then once we're done testing all
+- [03:17] these different models we're going to
+- [03:18] compare them to see how long they took
+- [03:20] to run and complete the task how many
+- [03:22] tokens were used the overall price and
+- [03:24] most importantly did they pass or fail
+- [03:26] and then once we've done that we'll
+- [03:27] actually do a quick Deep dive to
+- [03:29] actually look at a side-by-side
+- [03:30] comparison of all the final generated
+- [03:32] newsletters so that we can see how they
+- [03:34] stack up against each other to see which
+- [03:36] model is the best at handling task like
+- [03:38] this so let's go ahead and do a quick
+- [03:40] look at this agent and all of the rules
+- [03:42] it has to follow because it's my
+- [03:43] favorite agent I've built of all time
+- [03:45] and then once we've understand the agent
+- [03:47] we'll go ahead and start kicking off the
+- [03:48] test so let's go ahead and dive in all
+- [03:49] right so when it comes to this first
+- [03:50] test which I'm calling instruction
+- [03:52] overload we actually have a crew running
+- [03:54] under the hood which has three different
+- [03:57] agents we have a synthesizer agent a
+- [03:59] newsletter wrer agent and a newsletter
+- [04:01] editor so those are the core agents
+- [04:03] inside of this task and I'm going to go
+- [04:04] ahead and show you all the instructions
+- [04:06] that we need to follow in order to go
+- [04:07] off and write a great newsletter that
+- [04:10] feels like a human rot it and not an llm
+- [04:12] all right so as you can see we have
+- [04:14] three steps and three agents so the
+- [04:16] first one its sole purpose is to go off
+- [04:18] and build the strategy and you know take
+- [04:21] a brain dump from me and to go off and
+- [04:23] turn that into a great outline and a
+- [04:25] subject so what we've done as you can
+- [04:27] see we have a ton of instructions in
+- [04:28] here so like hey agent please go off and
+- [04:30] follow these steps so you know process
+- [04:33] the brain dump come up with a subject
+- [04:35] line and then develop an outline then
+- [04:37] what we do is give it even additional
+- [04:39] instructions like hey here is the
+- [04:40] strategy for writing a great headline it
+- [04:42] needs to follow these rules here's a
+- [04:44] bunch of examples so as you can see this
+- [04:46] is like a really instruction heavy way
+- [04:48] to go off and create this agent then we
+- [04:50] go ahead and give it an example input an
+- [04:52] example output so that it can mimic what
+- [04:55] we want it to do in the real life and
+- [04:56] then from there once it has the subject
+- [04:58] line and the outline we spin it over to
+- [05:00] a newsletter writer this newsletter
+- [05:02] writer is responsible for taking in that
+- [05:04] subject line and outline and actually
+- [05:05] turning it into an actual newsletter so
+- [05:07] you can see once again a bunch of steps
+- [05:10] and instructions on hey please do this
+- [05:12] for the introduction here's a deep dive
+- [05:13] section and basically just here's what
+- [05:15] you need to do in order to go off and
+- [05:17] basically create a newsletter that
+- [05:18] follows a specific template and once
+- [05:20] again we give it examples and example
+- [05:22] outputs so that it knows exactly what it
+- [05:24] needs to do going forth so you can say
+- [05:26] like Hey we're going to address our AI
+- [05:28] developers and follow the exact
+- [05:30] structure above which focuses on
+- [05:32] following this template right here and
+- [05:34] then finally we have another agent who's
+- [05:36] responsible for you know going off and
+- [05:38] just quickly doing a one-time Loop
+- [05:41] through this newsletter that was just
+- [05:42] generated to make sure it's following
+- [05:43] all the rules that we wanted to so
+- [05:45] review the introduction make sure it
+- [05:47] follows all these other writing rules
+- [05:48] that I would do if I was to sit down and
+- [05:50] write a newsletter so it's pretty cool
+- [05:52] this newsletter normally would have
+- [05:53] taken me a few hours to write but now it
+- [05:55] takes a few seconds it's unreal this is
+- [05:57] by far my favorite agent of all time and
+- [05:59] and you can actually go ahead and
+- [06:00] download this entire you know code
+- [06:02] completely for free once again link down
+- [06:03] the description below but enough talking
+- [06:05] about this agent what I want to do now
+- [06:07] is go ahead and actually show you some
+- [06:09] of the results when we went off and ran
+- [06:11] This Crew with multiple agents to see
+- [06:13] how it performs when we actually put it
+- [06:15] up to the test on instruction overload
+- [06:17] so let's go ahead and quickly look at
+- [06:18] the final results and then we'll compare
+- [06:20] newsletters at the very end so let's
+- [06:21] dive in and look at the test results for
+- [06:23] test number one where we're trying to
+- [06:24] figure out if these agents can
+- [06:26] officially follow model instructions
+- [06:28] properly so before we just dive into the
+- [06:29] results I do just want to mention that
+- [06:31] all of the agents were able to
+- [06:32] successfully build a newsletter and in
+- [06:35] the next section we'll actually look at
+- [06:36] the results so you can see like oh yeah
+- [06:37] like this model did do a better job but
+- [06:39] they did technically all pass they all
+- [06:41] did generate a newsletter now what I
+- [06:43] want to do before just like diving into
+- [06:44] exactly comparing the models I just want
+- [06:46] to show you what a run from one of these
+- [06:48] models looks like so you can understand
+- [06:49] what's going on behind the scenes so as
+- [06:51] you saw in the code Deep dive what's
+- [06:53] going on is right out the gate we had
+- [06:55] one agent whose sole job was to go off
+- [06:58] and you know take the R dump and write
+- [07:00] an outline from there it was supposed to
+- [07:02] go off and do a bit of writing once it
+- [07:04] was done writing it was supposed to do
+- [07:05] some editing and then finally we had a
+- [07:07] little tool call that was actually there
+- [07:09] to confirm that a word counter tool to
+- [07:11] make sure that we hit the word limit
+- [07:13] which was close to a we wanted a th000
+- [07:15] words inside of these newsletters and
+- [07:17] then finally once it was done verifying
+- [07:19] that the final editor should just go
+- [07:20] ahead and tell us what the final
+- [07:22] newsletter is so that's what a good run
+- [07:24] looks like so now that you understand
+- [07:25] what's going on let's go ahead and look
+- [07:27] at the results from these different
+- [07:29] agents to see exactly how they stacked
+- [07:31] up against one another so right out the
+- [07:33] gate the Deep seek models took forever
+- [07:35] that's the biggest takeaway deep seek V3
+- [07:38] specifically really struggled so it took
+- [07:40] over 10 minutes which is crazy how long
+- [07:43] it took you can also see that it took a
+- [07:45] decent amount of input tokens and output
+- [07:47] tokens so it was insanely cheap to use
+- [07:49] but it just took forever so I would not
+- [07:51] be using this as an actual agent deep
+- [07:53] seek R1 on the other hand still took
+- [07:55] almost 10 minutes to run but it was very
+- [07:58] efficient and it did do pretty good
+- [07:59] results you'll see here in a second but
+- [08:01] okay results we I'll give it that at
+- [08:03] best all right next let's talk about
+- [08:05] Claude Sonet this one very unimpressed
+- [08:08] with it took long time you know almost 4
+- [08:11] minutes but it took an insane amount of
+- [08:13] input tokens what this tells me when
+- [08:15] ever I see this number is as you can see
+- [08:17] over here how we were constantly hopping
+- [08:19] from task to task to task like what this
+- [08:21] tells me is this agent is making
+- [08:24] multiple recalls over and over and over
+- [08:25] again so instead of it being like 1 2 3
+- [08:27] 4 it's like one two and it does it like
+- [08:30] six more times we can actually look it
+- [08:31] up together so you guys can see the
+- [08:33] final results so we'll look up the stack
+- [08:35] Trace together so you can see o sorry
+- [08:37] too many windows so you can see for
+- [08:39] Claude Sunnet this one struggled and you
+- [08:41] can see this is exactly what's happening
+- [08:43] it's gross so it's like it's riding a
+- [08:45] little bit no is that it no I it's not
+- [08:48] the right word count did I do it again
+- [08:49] nope I didn't do it so it's just over
+- [08:51] and over and over really struggling with
+- [08:53] word count and cannot write a news
+- [08:55] article of the proper length so that's
+- [08:57] why this one failed really hard so let's
+- [08:59] go ahead and hop back to our results so
+- [09:01] this one is a huge fail in my opinion
+- [09:03] because it cost an insane amount of
+- [09:05] money it took very long time and it took
+- [09:07] an insane amount of tokens so very
+- [09:09] unimpressed with this model next we're
+- [09:11] going to hop over to the open AI
+- [09:12] families which actually did a really
+- [09:13] good job GPT 40 did a really good job of
+- [09:16] just running through it took less than 2
+- [09:18] minutes to generate a really good result
+- [09:20] it was a little pricey 9 Cent for a
+- [09:21] newsletter and then on the other hand
+- [09:23] the 03 Mini model absolutely crushed it
+- [09:25] it was super fast it took you know
+- [09:27] barely any tokens to get the desired
+- [09:29] result the only other model that beat it
+- [09:31] was R1 and then finally you know it just
+- [09:33] generated the proper result the other
+- [09:35] model that I was still really impressed
+- [09:36] with was Gemini flash 2.0 this model ran
+- [09:39] pretty fast a little over a minute it
+- [09:41] did have a ton of tokens though like you
+- [09:44] know so you it's kind of repeating that
+- [09:45] same format that Claude was doing where
+- [09:47] it's like do work nope that's not it do
+- [09:49] work nope not doing it so it did that on
+- [09:51] multiple Cycles but it was really fast
+- [09:53] and it got to the desired result and it
+- [09:56] took like it was one of the cheapest it
+- [09:58] was the cheapest model so was fast and
+- [10:00] very cheap so I'm going to give that one
+- [10:02] a runner up so all in all on paper the
+- [10:04] open AI families crushed it the most and
+- [10:07] then the runner up was Gemini and deep
+- [10:10] seek was left in the dust so let's go
+- [10:12] ahead and actually look at the
+- [10:12] newsletters to see what the actual final
+- [10:15] output was so we can look at the quality
+- [10:16] of the newsletters and not just the raw
+- [10:18] stats all right guys so I'm super
+- [10:19] excited to show you what these agents
+- [10:21] were able to do when it goes to building
+- [10:23] a newsletter that followed a ton of
+- [10:25] super Specific Instructions and just for
+- [10:26] a little bit more background what I did
+- [10:28] is the input for this I I was like hey
+- [10:30] please write a newsletter that goes off
+- [10:31] and talks about how you can use the four
+- [10:33] different types of luck to go off and
+- [10:35] build your own AI personal brand to
+- [10:37] attract opportunities to you so that's
+- [10:38] what I wanted to write about and here's
+- [10:39] the best one by far so it specifically
+- [10:41] called out the right developer so this
+- [10:43] is who it's supposed to be addressing
+- [10:45] and then from there what I did is I had
+- [10:46] four types of luck and I wanted it to
+- [10:48] make sure it included a number for each
+- [10:50] different type so you know type one it
+- [10:52] should have a number and then it should
+- [10:54] you know kind of basically talk about
+- [10:56] the concept give a few key insights it
+- [10:58] needs to do both bullet points and then
+- [11:00] from there it needs to just kind of have
+- [11:01] some takeaway lessons or talking about
+- [11:03] actionable steps and it kind of did that
+- [11:05] for everything it's very easy to read
+- [11:07] it's very skimmable bullet points
+- [11:08] numbering so it just we basically want
+- [11:10] to make a newsletter that's super super
+- [11:12] easy to read then at the very end I
+- [11:14] wanted to kind of say hey let's do a
+- [11:15] quick wrap up so it did that it's also
+- [11:18] supposed to you know talk about
+- [11:19] actionable takeaways so I basically put
+- [11:22] everything that we talked about into a
+- [11:23] nice synthesis and then finally what I
+- [11:26] did is I was like all right at the very
+- [11:27] end you need to have a nice PS that kind
+- [11:29] of calls out to some of like other
+- [11:31] products and services and you know and
+- [11:33] it did it so that's all around it
+- [11:35] absolutely crushed it so what I want to
+- [11:36] do next is show you the runner up in my
+- [11:38] opinion which was Jim and I flash so it
+- [11:41] did a really good job too it called out
+- [11:43] the Right audience so developers then
+- [11:45] what it did from there it kind of
+- [11:46] followed the same process however you
+- [11:48] can see this one it didn't number
+- [11:50] everything so not the best and then also
+- [11:52] you can see that this one didn't use a
+- [11:53] lot of bullet points like it was
+- [11:55] supposed to but the important thing is
+- [11:56] like it did stay pretty much on topic
+- [11:58] the only thing is uh it did add in some
+- [12:00] extra stuff that like it wasn't supposed
+- [12:02] to like it kind of went off the rails of
+- [12:05] what I said it should talk about but it
+- [12:06] still stayed pretty much on track with
+- [12:08] following everything that I asked it to
+- [12:10] the only thing I didn't like is when it
+- [12:12] came to like adding in tools I didn't
+- [12:14] really talk about these tools it was
+- [12:15] supposed to just stick more to
+- [12:16] actionable insights so it did follow it
+- [12:18] but not the best and then but all around
+- [12:20] it did do the right PS but it did add in
+- [12:23] this random call to action that I did
+- [12:25] not ask it to do so let's go and look at
+- [12:27] Deep seek next and see how it compared
+- [12:28] so deep seek absolutely crushed it in my
+- [12:30] opinion when it came to like the
+- [12:33] formatting however it did not follow
+- [12:36] what we were actually the core topic so
+- [12:38] you can see engineer your luck three
+- [12:40] ways that's not what it's supposed to be
+- [12:42] there's actually four types of luck and
+- [12:44] it went ahead and just absolutely
+- [12:45] skipped one of them so it didn't even
+- [12:47] talk about blind luck so it just kind of
+- [12:49] like didn't understand there's four
+- [12:50] types so this should be number one and
+- [12:53] then then we go from there so maybe it
+- [12:55] got confused cuz like blind Luck's out
+- [12:57] of our control I don't know but I was
+- [12:58] not super impressed with that but it's
+- [13:00] still like I do like the way it writes
+- [13:03] it did follow my writing instructions
+- [13:05] really well it made it very readable so
+- [13:07] it did follow what I needed it to do
+- [13:09] like the style and the format and the
+- [13:10] instructions it kind of just needed some
+- [13:12] additional feedback and that's a common
+- [13:13] theme if you want to check out my last
+- [13:15] video where I compared all these
+- [13:17] different models for just regular
+- [13:18] development practices you can see that
+- [13:20] deep seek R1 is insanely smart follows
+- [13:22] instructions to the tea but sometimes it
+- [13:24] just needs a little bit more guidance
+- [13:26] along the way and a few reminders to get
+- [13:28] to the desired result so so all around
+- [13:30] it absolutely did great but it kind of
+- [13:32] just you know got a little bit it went
+- [13:33] too hard in some areas and it didn't do
+- [13:35] it enough in other areas and I do want
+- [13:37] to just show you a few other ones I
+- [13:38] think you might find pretty interesting
+- [13:39] 40 has been my go-to model for a super
+- [13:41] long time and once again I just want to
+- [13:43] show you how it performed so it called
+- [13:45] out the wrong audience but hey that is
+- [13:47] what it is it did not add a subject line
+- [13:49] so this is why this one failed it didn't
+- [13:51] number the different types of luck and
+- [13:53] then finally at the very end it did do a
+- [13:56] pretty good job calling out stuff yeah
+- [13:59] and then the only thing is like the
+- [14:00] curated resources basically it just it
+- [14:02] didn't really actually curate resources
+- [14:04] this is should be actionable insights so
+- [14:06] you know all around not the best and
+- [14:08] then just to give you guys to show you
+- [14:10] after we spent 30 Cent let me show you
+- [14:12] what Claude was able to do so Claude it
+- [14:14] should have said that this was the
+- [14:15] subject line but at least it's there so
+- [14:17] it did better than 40 now it caught out
+- [14:20] the Right audience then when it comes to
+- [14:22] actually like numbering stuff it did do
+- [14:24] pretty good and then all around it did
+- [14:27] like kind of follow what it was supposed
+- [14:29] to do but it kind of went off the rails
+- [14:32] like I never said to talk about like you
+- [14:34] know giving I never told it to go this
+- [14:36] deep into like coming up with actionable
+- [14:39] steps so all around it just picked that
+- [14:41] it was going to become a professional at
+- [14:43] giving you advice on how you can you
+- [14:45] know implement this solution so this is
+- [14:47] more of like an educational newsletter
+- [14:49] and it kind of took it into like no this
+- [14:50] is a full-blown strategy that you have
+- [14:52] to follow so all around it finally got
+- [14:54] there now here's what really failed at
+- [14:56] the very end it just went off on its own
+- [14:58] it was like oh oh by the way you know
+- [15:00] you should get this and this and this
+- [15:02] and it kind of just came up with this
+- [15:03] huge extra thing at the end which has
+- [15:05] never been mentioned anywhere so Claude
+- [15:07] it cost a ton and it didn't follow the
+- [15:09] result so as you can see 03 mini did
+- [15:11] exactly what we wanted it to there was
+- [15:13] no really need for additional changes so
+- [15:15] I would pretty much post this and I'd be
+- [15:16] very happy with the final result so but
+- [15:18] enough of that if you have any feedback
+- [15:20] too on any of these tests or if you have
+- [15:22] other tests that you like me to run let
+- [15:23] me know but let's go ahead and start
+- [15:24] hopping over to the next test where
+- [15:26] we're going to be putting all these
+- [15:28] agents to the test against what I'm
+- [15:29] calling tool hell so let's go ahead and
+- [15:31] hop over to test number two all right
+- [15:32] guys so now it's time to dive into test
+- [15:34] number two which I'm calling tool hell
+- [15:36] now tool calling is one of the most
+- [15:38] important features of agents and it's
+- [15:40] actually the main thing that separates
+- [15:41] Agents from regular llms a regular llm
+- [15:44] just goes off and pretty much just
+- [15:46] generates a response but an agent has
+- [15:48] the ability to take multiple attempts at
+- [15:50] the same solution it can call tools to
+- [15:52] get additional information at specific
+- [15:54] times so it's one of the most important
+- [15:56] features of making a great agent so
+- [15:58] here's how we're going to test it I went
+- [15:59] ahead and gave all of these models a
+- [16:02] bunch of different tools that it could
+- [16:03] possibly call and I want to make sure
+- [16:05] that it can call these tools with a
+- [16:07] right parameters and in the right order
+- [16:09] and to test it what we've done is we've
+- [16:11] given our agent I believe like five to
+- [16:13] six different tools where we've given it
+- [16:15] instructions on which order it should
+- [16:17] call the different tools and how it
+- [16:18] should pass the input from one tool to
+- [16:20] the next to really go off and you like
+- [16:23] tool help this is a very kind of
+- [16:24] intensive test and at the very end it's
+- [16:26] going to use all the tool results to
+- [16:27] generate a final result so I'm super
+- [16:29] excited to show you the test I built for
+- [16:30] it and at the end what we're going to do
+- [16:32] is same thing that we did last time
+- [16:33] we're going to go off and evaluate how
+- [16:35] the different models performed you know
+- [16:37] how much time how many tokens price and
+- [16:39] did it pass or fail and then we'll go
+- [16:40] look at the final in this case we're
+- [16:42] generating a poem and we'll see if the
+- [16:43] agents were able to successfully
+- [16:45] generate a poem and which one did the
+- [16:47] best so let's go ahead and dive in all
+- [16:49] right so here's exactly how we're
+- [16:50] setting up this test to see if these
+- [16:52] agents can handle tool hell so what
+- [16:54] we're doing is we have an agent that has
+- [16:56] five different tools so you can see
+- [16:58] we're going to try to do everything from
+- [17:00] getting the current date getting the
+- [17:01] weather getting the stock price of
+- [17:03] Nvidia search the latest news on Elon
+- [17:05] Musk then what we're going to do to try
+- [17:07] and trick it up is we're going to say
+- [17:08] based on whatever weather you get from
+- [17:10] up here I want you to use it to generate
+- [17:12] the square root and then once you have
+- [17:14] everything please go off and write a
+- [17:16] song using all this information in the
+- [17:17] theme of Twinkle Twinkle Little Star so
+- [17:20] that's exactly what we're going to be
+- [17:21] doing in here so let's go ahead and look
+- [17:23] at the results to see how these
+- [17:24] different agents stacked up under the
+- [17:26] tool hell test so here are the results
+- [17:28] for test number two when trying to
+- [17:29] figure out which of these agents perform
+- [17:31] best on tool calling so right out the
+- [17:33] gate this one separated the pack pretty
+- [17:35] clearly so as you can see deep seek V3
+- [17:38] deep seek R1 and Gemini flash all failed
+- [17:41] but they failed for different reasons
+- [17:42] deep seek V3 just could never get this
+- [17:44] working its tool calling abilities are
+- [17:46] utter garbage so I would not use this
+- [17:48] for any tool calling agents next there's
+- [17:50] deep seek R1 which was it could generate
+- [17:54] all the way through and do tool calling
+- [17:56] but it would only work 20% of the time
+- [17:59] So 20% of time it would just generate
+- [18:00] perfectly valid code but the other 80%
+- [18:03] of the time just cuz it natively doesn't
+- [18:05] support tool calling and we're having in
+- [18:07] CI we had to use some like extra
+- [18:08] features to get tool calling to work
+- [18:10] would just kind of not do what it needed
+- [18:12] to do and follow the proper tool calling
+- [18:14] process so I'm going to give this one a
+- [18:16] fail just cuz it's not consistent and
+- [18:17] reliable the next one is Gemini 2.0
+- [18:20] flash so this one failed for a different
+- [18:23] reason this one was able to do tool
+- [18:25] calling properly all along the way but
+- [18:27] then at the final step when it was
+- [18:29] supposed to actually go off and generate
+- [18:30] a response the model itself just didn't
+- [18:33] understand how it was supposed to go off
+- [18:35] and properly spit out the final result
+- [18:37] that you'll see here in just a minute so
+- [18:39] it like I said it did do tool calling
+- [18:41] properly check but the final output
+- [18:43] wasn't what it was supposed to be so
+- [18:44] it's kind of like a pass and fail
+- [18:46] definitely worth you know potentially
+- [18:48] using for light tool calling just like
+- [18:50] single shot tool calling and maybe with
+- [18:52] some better prompt engineering it could
+- [18:53] have worked but I'm going to give this
+- [18:54] one like a past fail just cuz it did
+- [18:57] call All Tools properly but interpreting
+- [19:00] and using all those tools in the output
+- [19:01] it failed so maybe that's on Me Maybe
+- [19:03] the test wasn't 100% but the other
+- [19:04] models with the exact same prompts
+- [19:06] absolutely crushed it so when it comes
+- [19:08] to all the open AI models and Claude
+- [19:11] they did it with no no concerns and let
+- [19:13] me show you what a good run would look
+- [19:14] like just we're on the same page so this
+- [19:16] is looking at I believe 40 and what you
+- [19:18] can see that we were doing is passing in
+- [19:20] the initial prompt of like hey here's
+- [19:22] your job here's all the tools you have
+- [19:24] and you can see it followed the desire
+- [19:26] structure so it would go prompt call a
+- [19:28] tool look at the response call another
+- [19:30] tool get a response call the next tool
+- [19:32] response tool response tool and then
+- [19:34] here's your final output where it was go
+- [19:36] off and generate the final answer of
+- [19:38] Twinkle Twinkle Little Star so as you
+- [19:39] can see this is what a good run looks
+- [19:41] like and this is exactly what the open
+- [19:44] Ai and Cloud models were able to do and
+- [19:46] I do just want to mention I was a little
+- [19:47] bit shocked on these results GPT 40
+- [19:50] absolutely crushed it it worked super
+- [19:52] fast faster than 03 model which is kind
+- [19:54] of like a shock I was not expecting that
+- [19:56] so yeah this one definitely looked to be
+- [19:58] the winner on paper so now let's go
+- [20:00] ahead and start looking at the results
+- [20:02] of the actual you know the final outputs
+- [20:04] from these different models to see which
+- [20:05] agent did the best all right guys so
+- [20:07] let's go through all the different
+- [20:08] results so you can see exactly what
+- [20:10] these different agents were able to
+- [20:12] produce so you can see which one worked
+- [20:13] the best so out the gate we agreed that
+- [20:16] the Gemini flash model was able to call
+- [20:19] all the tools properly and for the
+- [20:21] cheapest amount but when you actually
+- [20:22] look at the final output what you can
+- [20:24] see is that it called most of the
+- [20:27] information properly so it got the date
+- [20:29] it got the stock price it looked up Elon
+- [20:32] Musk but when it comes and it got the
+- [20:34] weather but when it looks at going off
+- [20:36] and you know getting the total amount of
+- [20:39] like you know we were supposed to get
+- [20:40] the square result of the weather it
+- [20:43] never did that so all around it never
+- [20:46] went off and actually even though it
+- [20:47] called the tool and got the right result
+- [20:48] it didn't spit it out so this is just
+- [20:50] kind of like one of the things that this
+- [20:51] model it did do the tools in the right
+- [20:53] order but because its reasoning ability
+- [20:55] was not the best it was not able to
+- [20:57] properly do the tool call so eh not a
+- [21:00] big fan of that one all right now let's
+- [21:01] go look at GPT 40 which was like one of
+- [21:03] the second best performing models on
+- [21:05] here and you can see that this one did
+- [21:07] awesome it went off it got the current
+- [21:10] date it went off and did the weather it
+- [21:13] went off it looked up nvidia's price it
+- [21:15] went off got elon's information and then
+- [21:18] it went off and squared it so it
+- [21:20] absolutely crushed it same for the other
+- [21:22] 01 model it was a little bit more it
+- [21:24] actually used numbers and this one also
+- [21:26] crushed it and then as you saw earlier
+- [21:28] the Deep seek models were not able to do
+- [21:31] things properly and the Claude model
+- [21:34] also you know it ran but it just cost a
+- [21:36] good about of money so they all all the
+- [21:37] models worked it's just that the Gemini
+- [21:40] Flash in its final output did not
+- [21:42] properly get the right information so
+- [21:44] it's kind of like a half it did it but
+- [21:46] it didn't finally do it so when it comes
+- [21:48] to actual results it looks like the 01
+- [21:51] models sorry the open AI models were the
+- [21:53] best and you know once again I'm going
+- [21:55] to say 03 mini won this one but you
+- [21:58] could also say GPT 401 this as well just
+- [22:00] cuz they did do the best and included
+- [22:02] everything and at a reasonable price and
+- [22:04] speed all right so now that we got that
+- [22:06] out of the way let's go ahead and hop
+- [22:07] over to test number three where we're
+- [22:08] going to start looking at rag so the
+- [22:10] ability for these models to go off and
+- [22:12] handle working with a ton of data
+- [22:14] finding the right information and then
+- [22:16] going off and giving the user the
+- [22:18] information they want so let's go ahead
+- [22:19] and top into test number three all right
+- [22:21] guys so welcome to test number three
+- [22:22] where we're going to be doing a needle
+- [22:24] and a Hy stack test on these different
+- [22:26] agents so basically what we want to do
+- [22:28] ult ultimately in this test is to make
+- [22:30] sure that these models can properly
+- [22:32] identify information in a vast amount of
+- [22:35] raw information and generate a response
+- [22:37] to it so to test it what we're going to
+- [22:38] do is we're going to give these agents a
+- [22:40] large amount of raw random data and
+- [22:42] we're going to hide one key piece of
+- [22:44] information in the information it has to
+- [22:46] sift through and then we're going to ask
+- [22:47] the agent a specific question and it's
+- [22:49] up to that agent to hopefully generate
+- [22:51] the proper response and find that one
+- [22:53] key piece of information and per usual
+- [22:55] we're going to evaluate it look at the
+- [22:56] scores and then what we're going to do
+- [22:58] in this one cuz it's just generating a
+- [23:00] single response it's pretty much a past
+- [23:01] fail and we don't have to look at the
+- [23:03] Raw results so let's go ahead and hop
+- [23:04] into test three so I can explain this a
+- [23:06] little bit more in detail when we look
+- [23:07] at the code all right guys so let's go
+- [23:08] ahead and look at the code that's going
+- [23:10] to go off and perform this needle in a
+- [23:12] Hy stack overview so we're going to say
+- [23:13] all right agent your job is you're a
+- [23:15] research analyst and it's your job to go
+- [23:17] off and answer queries that the user
+- [23:19] gives you and you're going to go through
+- [23:20] and sift through a bunch of information
+- [23:22] and give me the desired result and the
+- [23:23] specific job that it has to do the
+- [23:26] specific task is you have to say what
+- [23:28] what's the favorite thing Brandon
+- [23:29] Hancock likes to do so that's the main
+- [23:31] question you're going to go off and try
+- [23:33] and answer now like I said what we're
+- [23:35] trying to do ultimately is we're going
+- [23:36] to throw in a ton of information into
+- [23:38] this agent for it to have to go sift
+- [23:40] through hundreds of thousands of tokens
+- [23:42] in some cases and the easiest way we're
+- [23:44] going to do this is we have a git data
+- [23:46] tool and all this git data tool is it
+- [23:49] grabs some information from a local file
+- [23:51] we're not going to actually do a rag
+- [23:53] request so we're not going to like embed
+- [23:55] things and then go off and then look
+- [23:57] through a vector store because you know
+- [23:59] get a little nerdy about this when
+- [24:00] you're doing an actual rag request what
+- [24:02] you're doing is you're going through oh
+- [24:04] okay there are you know hundreds of
+- [24:06] megabytes worth of data and I just want
+- [24:08] to find the most you know three five 10
+- [24:11] relevant pieces of information and pass
+- [24:12] it over to my agent so that's you know
+- [24:14] that's more on the vector database anded
+- [24:17] search kind of side of things and we're
+- [24:18] not trying to do that we're just trying
+- [24:19] to swamp this agent with a ton of raw
+- [24:22] data and make it to go through and look
+- [24:24] through that raw data to find the raw
+- [24:25] information so that's why we're not
+- [24:26] doing rag requests we're just saying hey
+- [24:28] here's a ton of data go off and look now
+- [24:30] let me show you what I mean by a ton of
+- [24:31] data so when we're testing the 03 Mini
+- [24:34] model it has a 1 million context sorry
+- [24:36] when we're testing the gini flash it has
+- [24:38] a 1 million context window so we're
+- [24:40] going to push it to the Limit by passing
+- [24:42] in a context uh we're basically passing
+- [24:45] in a file that has 900,000 tokens worth
+- [24:48] of context which is wild that it can
+- [24:50] still look through this and basically
+- [24:52] what it's trying to look up is it's
+- [24:53] trying to find this raw string right
+- [24:55] here which says Brandon Hancock makes
+- [24:57] YouTube videos for for uh about AI for
+- [24:59] developers and entrepreneurs his
+- [25:01] favorite thing is when viewers just like
+- [25:02] you like And subscribe to the channel so
+- [25:04] we're going to go ahead and start
+- [25:05] testing each one of these agents to see
+- [25:07] if they can sift through all of these
+- [25:09] different files to find the relevant
+- [25:11] information and it is important to note
+- [25:13] that each one of these models has
+- [25:14] different you know input limits when it
+- [25:16] comes to context windows so I made a
+- [25:18] bunch of different files that would work
+- [25:20] and it's important to note a lot of the
+- [25:21] models and we'll see this in a second
+- [25:23] but a lot of the models actually don't
+- [25:25] live up to the total amount of tokens
+- [25:27] that you can pass in if it was breaking
+- [25:29] so we'll talk to that more when we look
+- [25:30] at the results so now let's go ahead and
+- [25:32] look to see how these models performed
+- [25:34] when we did this needle and a Hy stack
+- [25:36] test to see which models live up to the
+- [25:38] expectation and are able to successfully
+- [25:40] go off and research what the heck does
+- [25:42] Brandon like when it comes to uh his
+- [25:44] favorite thing so let's go ahead and
+- [25:45] look at the results so here are the
+- [25:46] results for test number three when it
+- [25:48] comes to looking to see how these agents
+- [25:50] perform in the needle and a Hast stack
+- [25:52] test so let's go ahead and start looking
+- [25:53] at some of the worst models such as deep
+- [25:55] seek V3 so right out the gate what
+- [25:57] you'll notice is this model and Claude
+- [25:59] Sonic both failed and as you can see
+- [26:02] they were not even able to use half of
+- [26:04] their entire context window whenever we
+- [26:07] were passing in a large amount of data
+- [26:08] so let me show you kind of why it was
+- [26:10] failing behind the scenes when we look
+- [26:11] at the stack Trace so what you can see
+- [26:13] is we were calling This research agent
+- [26:15] saying like hey please go off and
+- [26:17] research we were only at this point
+- [26:19] using 400 tokens we called the tool
+- [26:21] properly so pass on the tool call then
+- [26:24] we were able to get a response from the
+- [26:26] model so you can see we B in the
+- [26:28] additional 30,000 tokens into this you
+- [26:31] know V3 chat model but because it was
+- [26:34] not able to answer in a single shot so
+- [26:36] like here's the result what it had to do
+- [26:39] was then recall all that information so
+- [26:41] we got 30,000 tokens in then it's like
+- [26:43] oh I don't know the answer let me call
+- [26:45] another iteration and pass that 30,000
+- [26:48] in to a second call so we got 30,000
+- [26:51] plus another 30,000 which put us at the
+- [26:53] limit of 60,000 and it was able to pass
+- [26:57] but the fact that it could not single
+- [26:58] shot the answer mean we are not using
+- [27:00] tokens efficiently so all in all you can
+- [27:02] see we used 90,000 tokens but all we
+- [27:05] were able to pass in was 30,000 just cuz
+- [27:07] it was having to recall the agent over
+- [27:09] and over and over to try and get the
+- [27:10] answer so huge fail not efficient use of
+- [27:13] tokens CU it's not smart so that was a
+- [27:15] fail same for Claud Sonet I only could
+- [27:17] put in 26,000 tokens and it kept doing
+- [27:20] the same thing where it kept multiple
+- [27:21] times would call get the answer but it
+- [27:24] not formally find the result so it kept
+- [27:25] searching over and over and over again
+- [27:27] and exploded and not basically hitting
+- [27:29] that you know eventually it kept
+- [27:30] recursively calling and exceeding that
+- [27:32] 200,000 tokens so I could only get it to
+- [27:34] work at 26,000 tokens input otherwise it
+- [27:37] would just fail so you know huge fail on
+- [27:38] both those so let's go ahead and look at
+- [27:39] the models that did pass and see what
+- [27:41] they did differently so you can see
+- [27:43] let's go ahead and look in this case
+- [27:45] look over at GPT 4.0 and for this model
+- [27:48] what we were able to do is go off and do
+- [27:51] what we were supposed to do which is a
+- [27:53] single shot response so hey go look up
+- [27:56] stuff do a tool call then we have a a
+- [27:58] ton of information it's supposed to
+- [27:59] write that in there give us the answer
+- [28:01] and it did so you can see in this case
+- [28:03] we were able to pass in
+- [28:05] 125,000 tokens and it got the answer so
+- [28:08] huge success for GPT 4.0 it actually
+- [28:11] executed the fastest out of all of them
+- [28:12] which is a little bit surprising I would
+- [28:14] have expected Gemini to do it but it
+- [28:15] didn't maybe that has to do with the
+- [28:17] token throughput so let's go ah and
+- [28:18] actually look at O3 mini next so o03
+- [28:20] mini has a much bigger context window of
+- [28:23] 200,000 tokens and we were able to pass
+- [28:25] in 190,000 tokens which is crazy so we
+- [28:27] were able to pass in a lot more tokens
+- [28:29] 70,000 more tokens and it only took 2
+- [28:31] seconds more so that's wild how much
+- [28:33] more information it can process and
+- [28:35] still single shot the answer now let's
+- [28:37] also look at another model like Gemini
+- [28:39] 2.0 flash which is by far the most like
+- [28:42] mindboggling one because it ended up
+- [28:45] being able to process over 900,000
+- [28:49] tokens and in order whenever it
+- [28:51] processed 900,000 tokens all it cost us
+- [28:54] was 8 cent to do the entire search
+- [28:56] through all of it which is crazy how
+- [28:58] cheap it is compared to the other models
+- [28:59] so much information so little money and
+- [29:01] it was able to single shot the response
+- [29:03] so if I was you and going off and
+- [29:05] building some rag applications that were
+- [29:07] going to be really data dependent and
+- [29:09] heavy Gemini 2.0 flash knocks us when
+- [29:12] out of the park it's not even close so
+- [29:14] yeah simple rag request simple Q&A chat
+- [29:17] Bots Gemini 2.0 flash is your new go-to
+- [29:19] model but if you want to do some rag and
+- [29:21] some other stuff definitely these other
+- [29:23] models like 03 mini would probably be my
+- [29:25] other suggestion with how cheap and how
+- [29:26] much information it can process so yeah
+- [29:28] I hope you guys found this super helpful
+- [29:30] and it hopefully it was pretty cool to
+- [29:31] see how all these models stacked up side
+- [29:33] by side when it comes to all these
+- [29:35] different tests that we put them through
+- [29:36] today all right guys so after all of
+- [29:38] that testing which model wins well
+- [29:40] hopefully it's pretty clear 03 mini is
+- [29:42] the best model for your agents it's the
+- [29:44] most well-rounded between its throughput
+- [29:47] price and everything else it's reasoning
+- [29:48] just all around it's a great model now I
+- [29:50] do want to give a few Runner UPS just to
+- [29:52] point out a few caveats if you're
+- [29:54] building a chatbot or if your project
+- [29:57] involves doing a ton of queries Gemini
+- [30:00] flash 2.0 is the best model for these
+- [30:03] types of use cases so I would definitely
+- [30:05] recommend using this because it's
+- [30:07] insanely cheap insanely cheap to use and
+- [30:09] its 1 million context window is crazy
+- [30:12] and just let you know there are some
+- [30:13] bigger models out there there's the
+- [30:15] Gemini flash 2.0 which has a 2 million
+- [30:17] context window definitely recommend
+- [30:19] checking that one out even more if
+- [30:20] you're going deep into Ragland and I do
+- [30:22] just want to mention if you are working
+- [30:24] on building a project and you really
+- [30:26] don't care about cost you need to be
+- [30:28] hyper efficient on money deep seek was a
+- [30:31] really smart model and insanely cheap to
+- [30:34] use but the sacrifice was time so
+- [30:36] definitely if you're looking for a
+- [30:38] process-based agent that's good at
+- [30:40] following instructions don't care how
+- [30:42] long it takes deep seek R1 was a great
+- [30:44] catchup but the catch on that one is if
+- [30:46] you need to use tools it's a no-o so
+- [30:48] strictly process based task deep seek R1
+- [30:51] does make a viable solution yeah that's
+- [30:53] a wrap for this video guys I hope you
+- [30:54] enjoyed seeing all these models getting
+- [30:56] compared let me know if there's any
+- [30:57] other models you do want me to test in
+- [30:59] this agent setup love to try them out
+- [31:01] and if you have any questions about
+- [31:02] anything today uh please let me know oh
+- [31:04] and real quick before you go I want to
+- [31:05] do a few quick reminders first all the
+- [31:07] source code in this video was completely
+- [31:08] for free so be sure to check out that
+- [31:09] link down the description below you also
+- [31:11] will get access to that agent that's my
+- [31:13] favorite one I've ever built where you
+- [31:15] get to create a newsletter in seconds
+- [31:17] and you'll get access to the other test
+- [31:19] and test results that I shared in this
+- [31:20] video also I have a free school
+- [31:22] Community with over 4,000 AI developers
+- [31:25] of all skill levels so if you're looking
+- [31:26] to hang out with some like-minded people
+- [31:28] definitely recommend checking it out we
+- [31:30] do free coaching calls every Tuesday
+- [31:32] night and we'd love for you to be there
+- [31:34] to help you get unstuck on whatever
+- [31:35] you're working on so you can keep
+- [31:36] building awesome AI projects but that's
+- [31:39] enough guys I have a ton of other AI
+- [31:41] related content on this channel
+- [31:43] everything from crei linkchain Full
+- [31:45] stack AI tutorials it's all here so I
+- [31:47] definitely recommend checking out
+- [31:48] whichever video pops up next but hope
+- [31:50] you guys had a great time watching today
+- [31:52] and I can't wait to see y'all in the
+- [31:53] next video see you
+- [31:55] [Music]

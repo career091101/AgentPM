@@ -1,0 +1,449 @@
+---
+title: "Transcript: VKAq_PA_21U"
+video_id: "VKAq_PA_21U"
+video_url: "https://www.youtube.com/watch?v=VKAq_PA_21U"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:13:59"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: VKAq_PA_21U
+
+- URL: https://www.youtube.com/watch?v=VKAq_PA_21U
+- Retrieved at: 2025-12-30T11:08:59+09:00
+
+## Text
+
+- [00:00] This video is sponsored by Hatacon, one
+- [00:02] of the best open-source platform to
+- [00:04] monitor, debug and improve your
+- [00:06] production ready large model
+- [00:07] application. I was able to build this
+- [00:09] MCP server where it will prompt user to
+- [00:11] sign up, login and connect to cursor
+- [00:14] automatically. And when user prompt
+- [00:15] cursor to use this MCP, it will
+- [00:17] dynamically generate a payment link
+- [00:19] where it will ask for user credit card
+- [00:22] and charge them by MCP usage and only
+- [00:24] after user paid MCP will start working.
+- [00:26] And the more user use your MCP and find
+- [00:28] value, the more they will be charged.
+- [00:30] And you can set up sophisticated usage
+- [00:32] based tier to monetize your MCP server
+- [00:35] properly. This is what I want to take
+- [00:36] you through today. How to set up and
+- [00:38] monetize your own MCP server and
+- [00:40] distribute to thousands of people. So
+- [00:42] MCP obviously is the hottest topic for
+- [00:45] the past few months. It extends AI
+- [00:47] agents capability to integrate different
+- [00:49] type of systems or access external docs
+- [00:51] easily. And the beauty of MCP from my
+- [00:54] perspective is that anyone who has
+- [00:56] domain knowledge can actually build MCP
+- [00:58] to help agent complete specific tasks
+- [01:00] and distribute to hundreds of thousands
+- [01:02] of people. But one problem I see is that
+- [01:04] most of those MCPS today are just
+- [01:06] running locally on users machine. And
+- [01:08] obviously the setup is quite technical
+- [01:11] that made the distribution and
+- [01:12] monetization of MCP awkward. It mostly
+- [01:15] works for people who already use your
+- [01:17] product. Otherwise, they will need to go
+- [01:18] through it whole flow of go to your
+- [01:20] website, sign up, pay, get API key, add
+- [01:23] MCP server, and then start using. But
+- [01:25] what really caught my attention is that
+- [01:27] Stripe recently just released this agent
+- [01:30] SDK where you can easily create a paid
+- [01:32] MCP server by attaching a price ID and a
+- [01:35] tools to achieve some similar experience
+- [01:37] that I just showed you earlier. And that
+- [01:39] really change how you distribute and
+- [01:40] monetize MCP server. Now you can just
+- [01:43] get start using right away and while
+- [01:45] they are using it you can prompt them to
+- [01:47] upgrade. So this will make building MCP
+- [01:49] business much more interesting and this
+- [01:51] is what I want to take you through today
+- [01:53] and I will break that down into two
+- [01:54] parts. One is how do we set up a payment
+- [01:57] system for your MCP server by usage and
+- [01:59] second is how do you set up a nice
+- [02:01] authentication layer for your MCP server
+- [02:03] and we're going to use three very useful
+- [02:05] package. which one the stripe agent
+- [02:06] toolkit that allow you to connect
+- [02:08] payment very easily and cloudflare has
+- [02:10] this MCP class you can just turn any
+- [02:12] function right into a MCP tool and also
+- [02:15] set up the OOS layer and in the end
+- [02:17] we're going to use MCP remote which is
+- [02:19] allow you to achieve this type of UX
+- [02:21] that prompt user to create account and
+- [02:22] sign in but before you launch your paid
+- [02:24] MCP to the world how will you know if
+- [02:26] your pricing strategy for your large
+- [02:28] model product actually makes sense or if
+- [02:30] users are secretly burning through your
+- [02:32] API budgets this is where her headon is
+- [02:34] such a game changanger manager. So,
+- [02:36] Helicon is an all-in-one platform for
+- [02:38] monitoring, debugging, and most
+- [02:39] importantly, understanding how people
+- [02:40] are actually using your large model
+- [02:42] application. You get real-time
+- [02:44] visibility into exactly how much each
+- [02:46] user or endpoint is costing you down to
+- [02:48] every single API call, prompt, and model
+- [02:51] used. With this detailed cost and usage
+- [02:52] analytics, you can see which feature are
+- [02:54] driving your bill and where you might
+- [02:56] need to adjust your pricing to. But it
+- [02:58] goes way beyond just cost. It helps you
+- [03:00] analyze how people are interacting with
+- [03:02] your prompt which allow you to spotted
+- [03:04] patterns and understand where you can
+- [03:06] optimize and even get data sets so that
+- [03:08] you can fine-tune your own model to
+- [03:09] reduce cost while improving performance
+- [03:11] and reliability. It has loads of super
+- [03:13] useful functionalities like caching if
+- [03:16] users are asked the same requests to
+- [03:18] launch your model. It will just return
+- [03:19] the result cach before so it doesn't
+- [03:21] cost you anything and reduce latency.
+- [03:23] They also have prompt experiments
+- [03:24] feature where you can compare multiple
+- [03:26] different prompts across thousands of
+- [03:28] different real user requests. So you can
+- [03:30] iterate your prompts with confidence. So
+- [03:32] if you're building a paid MCP server or
+- [03:34] any large language model powered app,
+- [03:36] use headcom to monitor your cost,
+- [03:38] understand your users and build a
+- [03:39] business that actually scales. I have
+- [03:41] put a link in the description below for
+- [03:42] you to get start. Now without further
+- [03:45] ado, let me show you how to build a paid
+- [03:47] MCP server. So, Stripe has this agent
+- [03:49] toolkit. They allow you to define an MCP
+- [03:51] server and you can just add payment
+- [03:53] gator tools by define the name, the
+- [03:55] function as well as price ID. And with
+- [03:57] this, you can set up quite sophisticated
+- [04:00] pricing strategy. Either set up a
+- [04:01] one-off pricing for lifetime access to
+- [04:03] your awesome MCB server. But you can
+- [04:05] also set up a recurring subscription as
+- [04:07] well as usage based pricing, which is
+- [04:09] probably the most interesting and
+- [04:11] suitable one for MCP server where you
+- [04:13] probably use different AI model behind
+- [04:15] the scenes. And all those capabilities
+- [04:17] can be achieved with just few lines of
+- [04:19] code by using this paid MCP agent class
+- [04:22] provided by stripe. So this paid MCP
+- [04:25] agent class is a extended version of
+- [04:27] Cloudflare's MCP agent class which is a
+- [04:30] package that allow you to turn any
+- [04:31] functions you build into a MCP2 very
+- [04:34] easily. Let me take you through this MCP
+- [04:36] agent very quickly so you understand the
+- [04:38] fundamentals. Then we showcase some new
+- [04:40] capabilities from this paid MCP agent
+- [04:42] class. You can just open cursor in any
+- [04:44] folder and do this. Create Cloudflare
+- [04:46] test my MCP server template is
+- [04:48] Cloudflare AI demo remote MCP oles and
+- [04:51] inside source folder. This index ts is
+- [04:54] how you can set up MCP server. So you
+- [04:56] will use this class defined by
+- [04:58] cloudflare called MCP agent. Give a name
+- [05:00] version and then start adding tools like
+- [05:02] a simple MCP tool for adding numbers
+- [05:05] together or a bit more sophisticated
+- [05:07] calculation. You can give it the name,
+- [05:08] the type of input that this tool should
+- [05:10] take and define the actual
+- [05:12] functionalities. All you need to do just
+- [05:13] pasting the name of MCP server the
+- [05:16] URL/MCP. So this is how simple it is for
+- [05:19] you to create your own MCP. And what
+- [05:20] Strap did is basically have a new class
+- [05:22] called paid MCP agent that is built
+- [05:25] based upon Clawflar's MCP agent class.
+- [05:28] So the setup is very similar. You can
+- [05:30] still add public tools like what you did
+- [05:32] before. But what you can do now is that
+- [05:34] you can also add a paid tool and all you
+- [05:36] need to do just passing on this
+- [05:38] additional information which is price ID
+- [05:41] the payment reason which will show up if
+- [05:43] user haven't paid to explain why they
+- [05:45] should upgrade and that's pretty much it
+- [05:47] with this setup. If a user try to call
+- [05:49] this specific MCB tool but they haven't
+- [05:51] paid yet, it will return a result of the
+- [05:54] payment link as well as a reason why
+- [05:56] they need to pay. So the agent can
+- [05:58] actually render and show this payment
+- [05:59] link to the user. And as I mentioned
+- [06:01] before, there are multiple different
+- [06:03] ways you can set up payment strategy.
+- [06:04] This example of how do you set up a
+- [06:06] one-time payment. Just go to Stripe,
+- [06:09] create a product, and the pricing will
+- [06:10] be one off, give the price, then you
+- [06:13] will get this pricing ID that you can
+- [06:15] copy and paste over. You will need to
+- [06:17] define a payment success, which is where
+- [06:19] do you want to take users to after they
+- [06:21] pay successfully. So you can create a
+- [06:23] nice looking page that showing users
+- [06:25] instruction about what to do next. So
+- [06:27] this is a onetime payment. You can also
+- [06:28] create a subscription payment where
+- [06:30] setup is almost identical except the
+- [06:32] pricing will be recurring and you can
+- [06:34] set up flat rate fee here and pasting
+- [06:36] over the price ID and the mode will be
+- [06:39] subscription. But the most interesting
+- [06:40] part is this usage based payment method
+- [06:42] every time when user uses MCP tool. It
+- [06:45] will record a usage and consumer
+- [06:47] credits. You need to do is choose this
+- [06:49] usage based pricing. The most common one
+- [06:51] is probably per tier. So let's say you
+- [06:53] want to set up a emoji generator MCP.
+- [06:55] The first five generation will be free
+- [06:57] per unit price will be zero and there's
+- [06:59] no flat fee. After that you want to
+- [07:02] charge $1 and it will give them some
+- [07:04] credits to generate let's say 30 emojis.
+- [07:07] You want to give a new tier which charge
+- [07:09] $10 that gives them 500 credits. If they
+- [07:12] exceed that 500 quota then you will
+- [07:15] charge
+- [07:16] 0.001 per new emoji generated. So you
+- [07:19] can create that but you will need to
+- [07:20] attach a meter. You can search for meter
+- [07:22] on stripe and then create a meter. Meter
+- [07:24] is basically counter that keep track the
+- [07:26] usage of the user. You can give a name
+- [07:28] and choosing how you want this meter to
+- [07:30] be added. You will choose that meter to
+- [07:32] track the usage. Then you can just copy
+- [07:34] this pricing ID over to the line item
+- [07:36] here as well as meter event which is
+- [07:39] this event name you can get from the
+- [07:41] meter page and the mode will be still
+- [07:43] subscription. So this setup will
+- [07:45] automatically track the usage. So in
+- [07:47] this example chat earlier I call this
+- [07:49] MCP server 10 times and in the invoice
+- [07:52] automatically track my usage and
+- [07:54] calculate the invoice dynamically. So
+- [07:55] this is how you can use stripe agent
+- [07:57] toolkit to add pricing and payment to
+- [07:59] your MCP server so you can start
+- [08:01] monetize. If you want to get more in
+- [08:03] depth step-by-step tutorial I have
+- [08:04] detailed breakdown for how to build a
+- [08:06] proper MCP server as well as template
+- [08:09] that already have authentication and
+- [08:10] payment built in. All those tutorial and
+- [08:12] MCP template will be inside AI builder
+- [08:15] club I'm building. I have put the link
+- [08:17] in the description below. So if you're
+- [08:18] interested, feel free to join. But apart
+- [08:20] from that, you also need to set up
+- [08:21] authentication system for the MCP
+- [08:23] server. So user can sign up and track
+- [08:25] their usage. So here we're going to use
+- [08:27] two things. One is Cloudflare OS
+- [08:29] provider. Another is a MCP remote
+- [08:31] package. So to build authentication
+- [08:33] system for your own MCP server, you
+- [08:36] actually need to do something called
+- [08:37] OOS. OS is a protocol that allow user to
+- [08:40] grant access to certain client
+- [08:42] application to the server data. For
+- [08:43] example, you often will see things like
+- [08:45] login with Google or login with
+- [08:47] Facebook. That's kind of common use case
+- [08:48] for OASP. But for MCP, we need to use
+- [08:50] OAS because for MCP, you often just
+- [08:52] build a server and it is designed to be
+- [08:54] used in multiple different clients like
+- [08:56] cursor, wing serve. And the way it work
+- [08:58] is that when someone add your MCP server
+- [09:00] to cursor, it will send a request to to
+- [09:03] the MCP server to check if a user
+- [09:05] already logging or not. If it's not
+- [09:07] authorized, it'll open the browser, get
+- [09:09] a O code and wait for user to login
+- [09:12] successfully. And after that, it will
+- [09:13] ping server to generate access code and
+- [09:15] verify if user grant access. This flow
+- [09:18] might feels a bit more complicated. But
+- [09:20] the good thing is that Cloudflare
+- [09:21] actually provides this OS provider class
+- [09:23] that is automatically handling the
+- [09:25] pipeline for this OS. All you need to do
+- [09:27] just implement a actual signup flow and
+- [09:30] put that logic inside the default
+- [09:31] handler and you don't need to worry
+- [09:33] about any other stuff. And if you check
+- [09:34] the example ripple from stripe that's
+- [09:36] exactly what they did. So in the
+- [09:38] index.ts at top they were defined those
+- [09:40] pay tools but at the bottom there's a OS
+- [09:43] provider where the default handler is
+- [09:45] app which is stored in this app.ts. So
+- [09:48] inside app.ts it has this /authorized
+- [09:51] endpoint and they just have this mock
+- [09:53] authentication system that is always log
+- [09:55] in true. So it will just always assume
+- [09:57] that user login and they can go to the
+- [09:59] approval directly by putting the email
+- [10:01] and click approve. So to build actual
+- [10:04] authentication layer you just need to
+- [10:06] build your own authentication flow which
+- [10:07] I will show you how to do very quickly
+- [10:09] then replace logic
+- [10:10] inside/auorize instead of always log in
+- [10:12] you need to do the check does the user
+- [10:14] actually login if not you show them a
+- [10:16] signup page so this is cloudfare part
+- [10:18] the second piece that you really need is
+- [10:20] this package called MCP remote mcp
+- [10:23] remote as I mentioned before is a
+- [10:25] special package that help you mimic UX
+- [10:27] where you will prompt user to login when
+- [10:29] they try to connect your MCP server in
+- [10:31] cursor cuz if you don't have that and
+- [10:33] just do the normal connection it won't
+- [10:35] be able to connect the system properly
+- [10:37] because user hadn't given any
+- [10:39] authentication user will have to go to
+- [10:40] your application generate a API key and
+- [10:43] pass on here but what MCP remote will do
+- [10:46] is that you can just change the command
+- [10:47] to MPX MCP remote and the URL endpoint
+- [10:51] this will kind of mimic the experience
+- [10:53] so when user try to add that it will
+- [10:55] automatically open the browser and
+- [10:56] prompt user to sign in and only after
+- [10:58] user approve the MCP tools will show up
+- [11:01] properly so with These two things
+- [11:02] together you can achieve that experience
+- [11:04] where it prompt user to log in they can
+- [11:07] start using right away and for the first
+- [11:09] time it will prompt user to give credit
+- [11:11] card and upgrade and you will capture
+- [11:13] the email address of every single users
+- [11:15] who are interesting using your MCP
+- [11:16] server and here's one quick example of
+- [11:18] how I build the authentication system
+- [11:20] based on stripe ripple I showed earlier
+- [11:22] I use superbase as authentication system
+- [11:25] creating new superbase project and if I
+- [11:27] go to setting data API it will give me
+- [11:29] this URL as well as anonymous key I just
+- [11:31] need to change thedev.v vars which is
+- [11:34] like EMV file for Cloudflare superbase
+- [11:36] URL and key and service row key which is
+- [11:39] this three items here then go to
+- [11:41] authentications turn on the email
+- [11:42] authentication and then go to emails to
+- [11:44] set up the email templates they're going
+- [11:46] to send to user when they try to create
+- [11:47] account the approach I normally use is a
+- [11:50] one-time password which is every time
+- [11:52] when user put in the email address we
+- [11:53] send them a six digits for one-time
+- [11:55] password this one I found has best email
+- [11:58] deliverability so I don't need to worry
+- [12:00] about those email goes to users like
+- [12:02] spam sandbox. So you can just change
+- [12:04] this and add a token here and then click
+- [12:06] save. Once you've done that, we just
+- [12:07] need to create a superbase.ts which has
+- [12:10] a function to set up a superbase client
+- [12:12] and then a function to send onetime
+- [12:14] password to the user and superbase
+- [12:16] already have the predefined function to
+- [12:18] handle everything. So you don't need to
+- [12:20] worry about that too much as well as a
+- [12:21] function to verify if the onetime
+- [12:23] password is correct. And we also have a
+- [12:25] session TS. This is to be used after
+- [12:27] user sign once you want to remember that
+- [12:29] they have been signed in. So they don't
+- [12:31] need to keep doing this. So it has this
+- [12:33] function called store sessions as well
+- [12:34] as get sessions when user try to connect
+- [12:36] server again and in app.ts TS you will
+- [12:39] want to change the logic inside /
+- [12:41] authorize and again / authorize is where
+- [12:44] you will define the whole logic about
+- [12:46] check if user login already if not it
+- [12:49] will request onetime password verify it
+- [12:51] the endpoint for verifying the onetime
+- [12:54] password and the page where we're going
+- [12:55] to show to users after they make a
+- [12:57] payment successfully that's pretty much
+- [12:58] it if you want to learn more I have
+- [13:00] detailed breakdown of how to build a
+- [13:02] proper MCP server with code example and
+- [13:05] explanation so you can follow along copy
+- [13:07] paste and plugin as as a paid MCP
+- [13:09] template. They already have
+- [13:11] authentication os flow and stripe
+- [13:13] payment set up publicly. So you can just
+- [13:15] take and launch your own paid MCP server
+- [13:17] a few hours. All those tutorial and
+- [13:19] templates is available in AI builder
+- [13:21] cloud where we have a community of top
+- [13:23] AI builders who are building and
+- [13:25] launching their own AI products. So they
+- [13:26] might already experience a problem and
+- [13:28] challenge that you are facing today. You
+- [13:30] can come and get advice as well as
+- [13:31] in-depth course about AI coding and
+- [13:34] building large model application from
+- [13:36] myself and industry experts and we're
+- [13:38] continuously providing more and more
+- [13:40] useful tools to bootstrap your process
+- [13:42] of building and launching AI products
+- [13:44] from SAS templates and tank coder which
+- [13:46] can help you generate effective PRD and
+- [13:49] cursor rules and many other perks of
+- [13:51] essential parts. If you're interested, I
+- [13:53] have put a link in the description below
+- [13:54] for you to click and join. I'm really
+- [13:56] excited to see what type of MC you're
+- [13:58] going to build. I hope you enjoy this
+- [13:59] video and I see you next

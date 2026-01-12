@@ -1,0 +1,527 @@
+---
+title: "What if I told you that you could run more AI workloads on your existing infra while cutting inferen..."
+video_id: "kmAXSlpPyvE"
+video_url: "https://www.youtube.com/watch?v=kmAXSlpPyvE"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  What if I told you that you could run
+  more AI workloads on your existing infra
+  while cutting inference cost up to 98%
+key_points:
+  - "more AI workloads on your existing infra"
+  - "data fabric blueprint can help achieve"
+  - "NVIDIA. In this video, we will look at"
+  - "our latest enterprisegrade reference"
+  - "love this. Here's a challenge every AI"
+  - "are crushing your budget, and the"
+  - "latency is slower than you'd like."
+  - "precisely where you could benefit by"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: kmAXSlpPyvE
+
+- URL: https://www.youtube.com/watch?v=kmAXSlpPyvE
+- Retrieved at: 2025-12-30T16:03:28+09:00
+
+## Text
+
+- [00:01] What if I told you that you could run
+- [00:02] more AI workloads on your existing infra
+- [00:04] while cutting inference cost up to 98%
+- [00:07] without losing accuracy? Sounds amazing,
+- [00:09] right? That's exactly what Nvidia's new
+- [00:11] data fabric blueprint can help achieve
+- [00:13] in real world agentic workflows. Hi, my
+- [00:16] name is Singren. I work on the
+- [00:17] generative AI platforms team here at
+- [00:18] NVIDIA. In this video, we will look at
+- [00:21] our latest enterprisegrade reference
+- [00:23] workflow, the NVIDIA AI blueprint for
+- [00:25] building data flow wheels. If you're
+- [00:27] building AI agents powered by large
+- [00:29] models in production, you're going to
+- [00:30] love this. Here's a challenge every AI
+- [00:32] developer faces. You deploy a powerful
+- [00:35] large language model to power your AI
+- [00:37] agent, say a llama 3.17b, and it's
+- [00:40] working great, but the inference cost
+- [00:42] are crushing your budget, and the
+- [00:43] latency is slower than you'd like.
+- [00:45] Traditional approaches require you to
+- [00:47] manually experiment with smaller models,
+- [00:48] spend weeks finetuning, and hope you
+- [00:50] don't sacrifice accuracy. That's
+- [00:52] precisely where you could benefit by
+- [00:54] setting up a data flywheel. But data fly
+- [00:56] wheel is a self-reinforcing cycle that
+- [00:58] uses your production AI traffic, the
+- [01:01] actual prompts and responses your users
+- [01:02] generate to automatically discover more
+- [01:04] efficient models. Here's how it works.
+- [01:06] It all starts with your enterprise data
+- [01:08] and your AI agent interactions. Your
+- [01:10] production app generates logs with every
+- [01:12] AI interaction. The flywheel analyzes
+- [01:15] this data to curate ground truth for
+- [01:17] your specific use cases and helps them
+- [01:19] to experiment with smaller, more
+- [01:21] efficient models. It fine-tunes his
+- [01:23] models using your production real world
+- [01:25] data. It evaluates performance,
+- [01:26] identifies the best candidate, smaller
+- [01:28] models. You could even guard rail them
+- [01:30] based on the specific use case you're
+- [01:32] deploying them for and continue building
+- [01:33] on this self-improving cycle.
+- [01:35] Essentially, the more data you have, the
+- [01:37] better the optimization becomes. Hence
+- [01:39] the flywheel effect. You're continuously
+- [01:41] observing how you deploy large models
+- [01:43] behave in production, capturing that
+- [01:44] data and using it to distill smaller,
+- [01:47] cheaper, faster model alternatives that
+- [01:49] can do the same job at a fraction of a
+- [01:50] cost. Now that we've understood the data
+- [01:52] plug concept, let's look at what NVIDIA
+- [01:54] blueprints are. If you're already
+- [01:56] familiar with NVIDIA blueprints, NVIDIA
+- [01:58] NIM, and Nemo microservices, feel free
+- [02:00] to jump to the tutorial part of this
+- [02:01] video. Otherwise, continue watching. So,
+- [02:03] NVIDIA blueprints are reference AI
+- [02:05] workflows pre-trained for specific use
+- [02:07] cases that can be customized by
+- [02:09] enterprise developers.
+- [02:11] They include reference code for
+- [02:13] constructing the workflow using Nvidia
+- [02:15] AI enterprise software su including
+- [02:17] NVIDIA NIM and Nemo microservices along
+- [02:19] with tools and documentation for
+- [02:21] deploying in your own environment and
+- [02:22] customizing with your own data. They
+- [02:24] also include a reference architecture
+- [02:26] which documents API definitions and how
+- [02:28] the microservices interoperate and much
+- [02:30] more. They're available on
+- [02:32] build.envidia.com/b blueprints. You can
+- [02:35] find a variety of blueprints and assets
+- [02:36] to start building with state-of-the-art
+- [02:38] NVIDIA AI tools for some of the most
+- [02:40] common agent use cases. Do check it out.
+- [02:42] I'll drop the link in the description.
+- [02:44] The data blueprint is built on top of
+- [02:46] two core building blocks from Nvidia.
+- [02:49] Nvidia Nemo microservices and NVIDIA NIM
+- [02:51] microservices. Let's first take a look
+- [02:53] at NVIDIA Nemo. It is an end-to-end
+- [02:55] cloudnative accelerated platform for
+- [02:57] building, customizing, and deploying
+- [02:59] generative AI models. a modular stack
+- [03:01] for LLM training, customization,
+- [03:03] evaluation, and inference, enabling you
+- [03:05] to build state-of-the-art generative AI
+- [03:07] models. Now that you know how to build
+- [03:08] your models using NVIDIA Nemo, we also
+- [03:11] encourage you to deploy them as NVIDIA
+- [03:13] NIM. Think of NVIDIA NIM as an AI model
+- [03:16] in a pre-built optimized container
+- [03:18] exposed as an API. So developers can
+- [03:20] integrate generative AI into
+- [03:22] applications like never before. NVIDIA
+- [03:24] NIM are easy to use inference
+- [03:25] microservices for rapidly deploying the
+- [03:27] latest AI models and not just large
+- [03:29] language models. With NVIN, we have
+- [03:31] helped standardize the complicated
+- [03:32] deployment of AI models. Link to all of
+- [03:34] these building block components can be
+- [03:36] found in the description below. Now that
+- [03:37] we have understood all the building
+- [03:39] blocks, let's take a quick look at the
+- [03:40] data flow blueprint architecture. This
+- [03:42] version of the blueprint is designed to
+- [03:44] help teams replicate the capabilities of
+- [03:45] large foundational models. For example,
+- [03:47] the 70B model in this architecture with
+- [03:50] smaller, more costefficient
+- [03:52] alternatives. At the heart of the
+- [03:54] blueprint, you see a flywheel
+- [03:55] orchestrator. It is a unified control
+- [03:57] plane, an API that abstracts the
+- [03:59] complexity of interacting directly with
+- [04:00] the underlying Nemo and Nim
+- [04:02] microservices and coordinates the data
+- [04:03] flywheel job. Here's how the flywheel
+- [04:05] works step by step. So, it starts with
+- [04:08] log inestion. The production prompt and
+- [04:10] the request logs from the teacherbased
+- [04:12] model name which is llama 3.370B in this
+- [04:14] case is curated and ingested into the
+- [04:17] elastic search index. These logs follow
+- [04:19] the OpenAI compliant request response
+- [04:21] log format. The orchestrator then uses
+- [04:24] this log and tags them with the metadata
+- [04:26] like workload ID and client ID enabling
+- [04:28] the system to isolate and uh process
+- [04:30] data by task for each agent node. Once a
+- [04:33] data set is curated, the orchestrator
+- [04:35] dduplicates the logs and transforms them
+- [04:36] into task aligned data sets for training
+- [04:39] and fine-tuning and evaluation
+- [04:40] experiments. Notably, these data sets do
+- [04:42] not rely on any external ground truth
+- [04:44] labels, only on the original model
+- [04:46] responses, eliminating the need for
+- [04:48] manual labeling. That's a huge savings.
+- [04:50] These data sets are then stored in the
+- [04:51] Nemo data store which are then used by
+- [04:53] the Nemo customizer or evaluator to
+- [04:55] fine-tune using LOA adapters or using
+- [04:57] LLM as a judge and other custom
+- [04:59] benchmarks to evaluate the various
+- [05:01] models for each of the experiments. So
+- [05:03] in this blueprint we eventually run
+- [05:05] three experiments zeros prompting in
+- [05:07] context learning as well as fine-tuned
+- [05:10] custom evaluations. So once we've done
+- [05:12] customizing the model and evaluating
+- [05:14] them uh we we identify and pick the best
+- [05:17] performant candidate model using the
+- [05:19] evaluation report that is generated. So
+- [05:20] the developer or IT admin in your team
+- [05:22] can understand the various
+- [05:23] experimentation results and surface the
+- [05:25] best performing smaller model
+- [05:26] alternative and replace the largest MDB
+- [05:28] model.
+- [05:31] The beauty about this is the entire loop
+- [05:33] can be scheduled or triggered on demand
+- [05:35] creating an automated scalable system
+- [05:37] that continuously and progressively
+- [05:38] surfaces smaller, faster and more
+- [05:40] costefficient models which uh lowers
+- [05:42] your inference cost while preserving the
+- [05:44] accuracy of the larger baseline model.
+- [05:46] In this case, a 3.21B was found to be as
+- [05:49] closely accurate as possible to the 70p
+- [05:50] model and has been uh promoted to be uh
+- [05:53] powering the deployed app. The trigger
+- [05:55] for the data view can be customized as
+- [05:58] per your business needs. It could be a
+- [05:59] new model that enters your model
+- [06:00] registry or curating or collecting a
+- [06:02] predefined number of data records to
+- [06:04] trigger the evaluation and retraining
+- [06:06] pipelines. All right, now that we've
+- [06:08] understood all the building blocks and
+- [06:09] prerequisites, let's get into the demo.
+- [06:11] We will set up a data fly wheel for a
+- [06:13] high impact use case for an agent tool
+- [06:15] calling use case. We will replace this
+- [06:17] largest 70B model with a smaller
+- [06:19] efficient alternative without
+- [06:20] compromising on the tool calling
+- [06:21] accuracy. All notebooks and instructions
+- [06:23] covered in this demo are made available
+- [06:25] in the description. For the sake of this
+- [06:27] tutorial and to abstract the hardware
+- [06:29] dependencies, we will use NVIDIA
+- [06:31] Launchable. NVIDIA Launchable provides
+- [06:33] one-click deployable GPU development
+- [06:34] environments that eliminate all the
+- [06:36] setup complexity. Think of it as a
+- [06:38] pre-built sandbox that you can set up in
+- [06:40] just two to three minutes to run your AI
+- [06:41] workloads on GPU uh clusters like the
+- [06:44] data flow blueprint in this case. It
+- [06:46] offers a unified interface across
+- [06:47] multiple cloud providers, AWS, Google
+- [06:49] Cloud, Azar, and others automatically
+- [06:51] finding the right GPU type at the best
+- [06:53] price. All right, I'll pass it on to my
+- [06:55] colleague Ashan to walk you through a
+- [06:56] quick demo on setting up the NF
+- [06:58] blueprint from scratch. Broadly, they
+- [07:00] involve getting the NGC API key,
+- [07:02] deploying the Nemo microservices
+- [07:03] platform, cloning this notebook
+- [07:05] repository, and that's it. You're good
+- [07:07] to go. Let's get started. Over to you,
+- [07:09] Shashank.
+- [07:11] Hi, I'm Shashanka and this is a
+- [07:13] demonstration of the data flywheel
+- [07:15] blueprint. Today I'll show you how this
+- [07:17] blueprint can optimize your existing
+- [07:19] agent deployment by identifying more
+- [07:21] efficient models or nims that can match
+- [07:23] the same accuracy. The goal of this
+- [07:25] blueprint is to provide a reference
+- [07:26] implementation of a data flywheel
+- [07:28] leveraging components from the Nemo
+- [07:30] microservices platform. Let's get right
+- [07:32] into it. What is a data flywheel? It's a
+- [07:35] process that leverages data collected
+- [07:37] from production applications like LLM
+- [07:39] prompt and response logs and end user
+- [07:42] feedback to improve the application over
+- [07:44] time either by finding cheaper nys
+- [07:46] thereby reducing total cost of ownership
+- [07:48] or more accurate nys for the same
+- [07:50] budget. It can do so by running a series
+- [07:52] of experiments including customization
+- [07:54] in context learning as well as model
+- [07:56] evaluation. Now let's take a look at how
+- [07:59] you can use this data flywheel
+- [08:00] orchestrator service that we have
+- [08:02] created. We have released a Jupyter
+- [08:04] notebook that shows how to use the rest
+- [08:05] API and you can find it right over here
+- [08:08] in the data flywheel blueprint GitHub in
+- [08:10] the notebooks folder.
+- [08:14] The first thing that you will see is
+- [08:16] that there is a readme that explains how
+- [08:17] the notebook works and the workflow
+- [08:20] including prerequisites.
+- [08:23] The first thing that you will observe is
+- [08:25] that there is a readme associated with
+- [08:27] the notebook that details how the
+- [08:28] blueprint works as well as the
+- [08:30] prerequisites for hardware and software
+- [08:32] to run the notebook.
+- [08:34] However, there is a second route to run
+- [08:36] this
+- [08:38] and Nvidia launchable. Let's see how
+- [08:40] that works. You can go ahead and click
+- [08:42] on that notebook and click deploy now.
+- [08:45] This will take you to the launchable
+- [08:46] page. You can go ahead and click this
+- [08:48] deploy launchable button to create your
+- [08:50] launchable.
+- [08:52] I do have my launchable already deployed
+- [08:54] over here. So I'm just going to go and
+- [08:55] click on open notebook and this will
+- [08:58] take me to the Jupyter notebook.
+- [09:00] The first thing that you will see over
+- [09:02] here is that there is an architecture
+- [09:03] diagram of the data fly blueprint and
+- [09:05] how it operates with the Nemo
+- [09:06] microservices platform.
+- [09:09] The specific application in focus today
+- [09:11] is that of an AI virtual assistant for
+- [09:13] customer service.
+- [09:15] This agent or multi- aent system rather
+- [09:17] that it answers questions about product
+- [09:19] purchases on an e-commerce website.
+- [09:21] These questions can include requests for
+- [09:23] product details, order status checks,
+- [09:26] return processing, as well as small
+- [09:28] talk, and casual engagement. You can
+- [09:29] find more information about this AI
+- [09:31] virtual assistant application at
+- [09:32] build.envidia.com,
+- [09:34] as well as an associated blueprint card
+- [09:36] for it. For the purposes of this data
+- [09:38] flywheel blueprint, we will simply
+- [09:40] leverage the user and agent interaction
+- [09:42] logs generated from that multi- aent
+- [09:44] system, and we will use these logs to
+- [09:46] improve the various candidate models
+- [09:47] involved.
+- [09:49] Now let's go right ahead and get started
+- [09:50] with the setup portion of this. The
+- [09:52] first thing that you want to do is set
+- [09:53] an NGC API key followed by cloning the
+- [09:56] data fly blueprint GitHub repo. Setting
+- [09:58] the right paths and dependencies and
+- [10:00] then finally we set the configuration
+- [10:02] for the blueprint. Now this is a very
+- [10:04] important cell. The first configuration
+- [10:06] we make is to set the LLM judge model
+- [10:10] and point it to a remote endpoint. By
+- [10:12] doing so, we don't need to deploy this
+- [10:13] model locally and we can simply hit that
+- [10:15] external endpoint to run evaluations on
+- [10:17] the candidate ns in our search space.
+- [10:19] The second configuration that you will
+- [10:21] see over here is to select the candidate
+- [10:23] nims that should be part of your search
+- [10:24] space and whether or not the blueprint
+- [10:26] should try customizing it. Finally, once
+- [10:30] we make these configurations, we can get
+- [10:32] started to deploy the first the Nemo
+- [10:34] microservices platform followed by the
+- [10:35] data flywheel service. Once these
+- [10:38] services are deployed, you can
+- [10:39] optionally configure MLflow for detailed
+- [10:41] logging of model evaluations as part of
+- [10:43] the data flywheel and you can do so by
+- [10:46] running this docker compost command over
+- [10:47] here. Once all these services are
+- [10:49] running, we're all set to get started.
+- [10:55] The next step now is to load the sample
+- [10:57] data provided. This data includes a
+- [10:59] timestamp of the interaction from the
+- [11:01] time the request was issued, a workload
+- [11:03] ID that represents a specific agent node
+- [11:05] that was locked at. This is especially
+- [11:07] important in multi- agent systems. A
+- [11:09] client ID that represents the
+- [11:10] application itself and is unique to it.
+- [11:12] A request that was sent to the model.
+- [11:14] This is an open air chat completion
+- [11:15] format. And this is followed by a
+- [11:17] response which is by default from a
+- [11:18] llama 3.370p instruct model. And that is
+- [11:21] the model that we're trying to distill
+- [11:22] using this blueprint. Finally, we load
+- [11:25] that data using elastic search followed
+- [11:27] by that we can create a flywheel job by
+- [11:29] sending a post request to the jobs API.
+- [11:32] This will return with a job ID that you
+- [11:34] can actually use to monitor the job
+- [11:35] status by sending a get request to the
+- [11:37] job/j job ID API.
+- [11:40] You will see certain artifacts of the
+- [11:42] job uh reported over here. However, this
+- [11:44] is an asynchronous call as and so it
+- [11:46] will return the current status. You will
+- [11:48] note that in the job status output after
+- [11:50] certain evaluations are completed, you
+- [11:51] will see the following three metrics. In
+- [11:53] this case, the use case was pertaining
+- [11:55] to tool calling and so the metrics it
+- [11:57] will report is that of tool calling
+- [11:59] evaluation. Namely, the first is the
+- [12:01] function name accuracy which is an exact
+- [12:03] match that checks if the predicted
+- [12:04] function name exactly matches the ground
+- [12:06] truth function name. There's the
+- [12:08] function name plus args accuracy which
+- [12:10] is also an exact match metric on both
+- [12:13] the function name as well as the
+- [12:14] arguments. It checks if both the
+- [12:15] function name and args exactly match the
+- [12:17] ground truth. Now this is a very strict
+- [12:19] metric and so it would be interesting to
+- [12:20] see how it does in this use case and the
+- [12:22] reason is because there are some queries
+- [12:24] or some arguments that are passed down
+- [12:26] to tools which are rather long strings.
+- [12:28] Even if the um predicted argument is off
+- [12:32] by a character this exact match metric
+- [12:34] will mark it as zero. That is exactly
+- [12:36] why we also have this function name and
+- [12:38] args accuracy other than judge metric
+- [12:40] which will actually check the arguments
+- [12:42] for semantic similarity and so it will
+- [12:45] capture intent that way. Finally, to
+- [12:47] view the evaluation results once they're
+- [12:49] ready, you can use the MLFlow
+- [12:50] integration that we have at port 5000.
+- [12:52] So, if you're using this via the
+- [12:53] launchable route, you can actually find
+- [12:55] that dashboard right over here in the
+- [12:57] secure link section at port 5,000. Let's
+- [12:59] click on this one. We'll take you to the
+- [13:01] MLFlow dashboard. And you can see that I
+- [13:03] have three experiments that are captured
+- [13:05] over here. The specific cell that was
+- [13:06] running was this one with 300 data
+- [13:09] points. You'll observe that there are
+- [13:11] three different models logged over here.
+- [13:13] The llama 3.21b, 3.23b, 2 3B and Lama
+- [13:16] 3.18B models across three different
+- [13:18] types of evaluation. First for the base
+- [13:21] model, then for fus learning or in
+- [13:23] context learning evaluation and finally
+- [13:25] evaluating a customized version of it.
+- [13:26] You can go ahead and select them and
+- [13:28] compare these runs.
+- [13:30] MLflow will report detailed evaluation
+- [13:33] results including a lot of different
+- [13:34] kinds of metrics. Look at a scatter plot
+- [13:36] of the run name which will be specific
+- [13:38] to the models and the type of evaluation
+- [13:40] that was run on them. the mean
+- [13:42] correctness rating which is the LM judge
+- [13:44] judge metric for both function name and
+- [13:47] ox. Here we can see that the llama 3.18b
+- [13:50] is outperforming the rest so far and
+- [13:51] this is just on 300 data points. It it
+- [13:54] scores close to 75% on this specific
+- [13:58] metric. Note that 100% on on this data
+- [14:00] set u means that it is 100% close to the
+- [14:04] lama 3.370p model which is the one that
+- [14:07] it's trying to disturb.
+- [14:11] And back inside the notebook once the
+- [14:13] cell gets completed it will display a
+- [14:15] table of all the different kinds of
+- [14:16] metrics that are available for the
+- [14:18] specific case including function name
+- [14:20] accuracy the exact match metric and in
+- [14:22] this case we can see that a customized
+- [14:24] version of a llama 3.21bd instruct model
+- [14:26] can come close to 83% of the accuracy of
+- [14:28] a llama 3.370p model and then the 8b
+- [14:31] customized is actually at 98%. Let's see
+- [14:34] now what happens if we increase the
+- [14:35] number of records that are available to
+- [14:37] the flywheel service. Next we do a job
+- [14:40] with 500 records. We see that a custom
+- [14:42] 1B model now comes close to 95% in terms
+- [14:45] of functioning accuracy. Let's take it
+- [14:46] up a notch. What happens with 1,00
+- [14:48] records? Now we do another run and and
+- [14:51] this time we see that the LMA 3.21D
+- [14:54] instruct model a custom version of it
+- [14:55] comes close to 96% and then 71% in terms
+- [14:58] of the function name and RX accuracy
+- [15:00] which is the LM judgement metric. In
+- [15:01] this case we were able to find that a
+- [15:03] custom version of a model as small as 1D
+- [15:05] can come close to the accuracy of a
+- [15:06] model 70 times its size that is the
+- [15:09] llama 3.370D. And there you have it.
+- [15:11] We've seen how using the data fuel
+- [15:13] service, you can run evaluation
+- [15:14] experiments on various models, including
+- [15:16] customizations and find much smaller
+- [15:18] variants thereby reducing the total cost
+- [15:19] of ownership. Thank you for watching.
+- [15:22] Perfect. Thank you so much, Sashant.
+- [15:24] Hope this was a good precursor to think
+- [15:25] about building data flywheels and
+- [15:26] adopting the data flywheel blueprint
+- [15:28] from Nvidia. Though we showcased an
+- [15:30] agentic tool calling in this video, you
+- [15:31] can easily extend it to any of your
+- [15:33] downstream agentic use cases that you're
+- [15:34] building and running on your infra on
+- [15:36] cloud on prem or even edge. Hope this
+- [15:38] was motivation enough to start thinking
+- [15:40] about building data flywheels to
+- [15:41] optimize for inference cost and managing
+- [15:43] your compute. The blueprint is available
+- [15:45] on build.nvia.com and we'll drop the
+- [15:47] link in the description as well. Thank
+- [15:49] you for watching.

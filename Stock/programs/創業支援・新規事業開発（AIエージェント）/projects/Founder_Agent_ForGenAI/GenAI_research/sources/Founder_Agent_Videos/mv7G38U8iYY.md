@@ -1,0 +1,650 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=mv7G38U8iYY"
+video_id: "mv7G38U8iYY"
+video_url: "https://www.youtube.com/watch?v=mv7G38U8iYY"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "PMF", "AI", "team_building", "product_development"]
+topics: ["プロダクト開発", "組織構築", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=mv7G38U8iYY
+  - Retrieved at: 2025-12-30T16:12:42+09:00
+  - [00:09] um so I'm Jason lki I'm with a rise AI
+key_points:
+  - "- [03:49] thing you should start with maybe not a"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: mv7G38U8iYY
+
+- URL: https://www.youtube.com/watch?v=mv7G38U8iYY
+- Retrieved at: 2025-12-30T16:12:42+09:00
+
+## Text
+
+- [00:09] um so I'm Jason lki I'm with a rise AI
+- [00:13] uh we are the leading evaluation
+- [00:14] observability company out there um we
+- [00:18] probably have more and see more uh LMS
+- [00:22] in production than most other companies
+- [00:24] so a lot of I think talk today uh feels
+- [00:26] a little high level to me this is going
+- [00:28] to be pretty technical um and uh we this
+- [00:32] this whole talk is on on agents agent
+- [00:34] evaluation
+- [00:36] so uh how many so how many of you uh
+- [00:40] feel like this this is kind of the the
+- [00:41] year of Agents I I definitely do myself
+- [00:43] you have companies like uh laying chain
+- [00:46] launching Lane graph been around a while
+- [00:48] but it's it's probably one of the the
+- [00:50] the the lower level Frameworks for agent
+- [00:52] building you've got llama index with
+- [00:54] workflows event-based we'll talk a bit
+- [00:57] about that uh crew AI is a little bit
+- [00:59] more high level
+- [01:00] um in terms of agents and then probably
+- [01:02] the missing one from this is autogen so
+- [01:04] you've got a whole set of tooling there
+- [01:05] to to build agents and it's powered by a
+- [01:08] lot of what you see on the right here
+- [01:10] which is which is tool calling uh tool
+- [01:12] calling is kind of the the core you know
+- [01:15] one of the core pieces to to building
+- [01:16] but we're going to get into a lot more
+- [01:17] of this um the real question is like how
+- [01:20] do you make this stuff work uh and one
+- [01:22] we have more probably more customers
+- [01:24] live with with either trying to deploy
+- [01:26] agents we have an agent within our own
+- [01:28] platform one of the I think the better
+- [01:30] assistants out there uh to help you
+- [01:32] debug Ai and um and and so we have a lot
+- [01:35] a lot a lot of experience in this well
+- [01:39] what do we see well I think you're going
+- [01:41] to see if you talk about agents you're
+- [01:42] going to see a lot of complicated graphs
+- [01:44] you're going to see a lot of complex
+- [01:45] stuff out there really what we see in
+- [01:47] all of our customers they start with
+- [01:49] something really simple like this this
+- [01:52] is a
+- [01:54] two-age router and skill
+- [01:57] architecture uh so so what what does
+- [02:00] that mean you've got an LM at the front
+- [02:03] end determining a user's intent routing
+- [02:07] it to a skill that's taken care of by
+- [02:10] another llm
+- [02:11] call S like forget all the the noise you
+- [02:15] hear out like this is what I see a lot
+- [02:17] of people doing so this is the simplest
+- [02:19] thing I would try to understand first
+- [02:20] there's a router and there's a skill um
+- [02:23] and then how do you make this this
+- [02:24] actually do something well typically you
+- [02:27] send it back to the router so so either
+- [02:29] there's a user stage in between this um
+- [02:33] or you're you're kind of doing different
+- [02:35] steps of an agent without a user
+- [02:36] interaction but this is probably most of
+- [02:39] what you see out there architecture--
+- [02:41] wise forget all the complexity people
+- [02:43] say forget all the stuff out there this
+- [02:45] is this is probably
+- [02:47] it now what I'm going to get into is a
+- [02:50] little bit more of like okay where does
+- [02:52] this go how do you debug this how do you
+- [02:54] evaluate this uh from a an LM eval
+- [02:58] perspective
+- [03:00] so well there's there's another level of
+- [03:02] complexity I would say that we also see
+- [03:04] out there which is there's not just a
+- [03:06] router and um a router and and a skill
+- [03:11] but there's a stacking of those together
+- [03:14] there's State typically where
+- [03:16] information's passed from one output
+- [03:19] action to another but this is probably
+- [03:22] the core of most agent uh architectures
+- [03:25] out there it's a a decision of what to
+- [03:29] go do it's an llm debugging and then
+- [03:32] it's kind of basically State below this
+- [03:36] um now this can so so there's there's
+- [03:40] Frameworks that make this try to make
+- [03:42] this easier um a lot of what I would see
+- [03:45] out there is probably agents in code
+- [03:47] code code is kind of probably the first
+- [03:49] thing you should start with maybe not a
+- [03:50] framework um and and kind of what what
+- [03:53] this looks like you know is basically
+- [03:56] the router is doing tool calls it's an
+- [03:59] llm that's der determining the intent of
+- [04:02] what the user is trying to do calling a
+- [04:05] tool the tool itself might be uh a
+- [04:08] general purpose you know function or
+- [04:10] might be an L another llm pass on on
+- [04:13] some set of data there's some State
+- [04:16] below that that's feeding in to both the
+- [04:19] router that's determining what to go
+- [04:21] call and the tool itself uh the skill
+- [04:25] itself but below that that tool call so
+- [04:28] this is the core you know a building
+- [04:31] block that if you're building an agent
+- [04:32] you would should start with um but you
+- [04:36] realize you can realize that getting the
+- [04:38] tool call right am I am I calling the
+- [04:40] right thing am I extracting the right
+- [04:41] data am I doing the right action below
+- [04:44] this um and this uh this particular
+- [04:47] example is kind of taken from a chat to
+- [04:49] purchase where I'm uh I I'm interacting
+- [04:52] with an e-commerce assistant and just
+- [04:54] potentially purchasing a product or
+- [04:55] looking up a product which we see as a
+- [04:57] common uh a common example out there in
+- [05:00] the e-commerce World um now the
+- [05:03] difficulties of of evaluating this agent
+- [05:05] so what you see here is what a lot of
+- [05:08] teams have which is a couple lines of
+- [05:10] code uh seems pretty pretty simple but
+- [05:14] an immense amount goes on another
+- [05:16] surface what you have on the the right
+- [05:18] here is um is is actually our product uh
+- [05:22] we have an open source product called
+- [05:24] Phoenix uh one of the more popular open
+- [05:27] source observability and evaluation
+- [05:28] software out there check it out PP
+- [05:31] install rise Phoenix uh but underneath
+- [05:34] this like three lines of code you've got
+- [05:37] probably 100 distributed system
+- [05:39] calls like couple lines of code
+- [05:42] incredible number of calls to different
+- [05:44] you know distributed systems it might be
+- [05:46] retrieval that you're doing it might be
+- [05:47] API calls you're doing it might be you
+- [05:49] know 20 different llm calls you're doing
+- [05:51] underneath the surface of these um so
+- [05:54] the first thing to get a handle of is
+- [05:56] what in the world's going on in those
+- [05:58] three lines of code um so that's that's
+- [06:00] where you know that's where Phoenix
+- [06:02] steps in it's I've got think we traced
+- [06:04] 20 different platforms right now from uh
+- [06:07] from from autogen to um the crew to Lan
+- [06:11] graph you name it one line of code you
+- [06:13] can see what's going on under the
+- [06:15] surface so first off what's going on
+- [06:17] what are these calls actually doing the
+- [06:21] next phase is like how do you run
+- [06:23] evaluations on top of those how do I
+- [06:25] what are what are like is it LM vals is
+- [06:27] it Cod vals um and and we'll talk a
+- [06:30] little bit about uh how to evaluate the
+- [06:33] effectiveness of of what you're doing
+- [06:35] below the surface so the first thing you
+- [06:36] need to do um I think most teams need to
+- [06:39] do is is Trace their their agent to
+- [06:41] understand what it's
+- [06:42] doing um what might I trace and what
+- [06:46] what might I need to understand
+- [06:48] well typically there's a a router that's
+- [06:53] kind of doing a a a like intent lookup
+- [06:55] to to then determine what skill or
+- [06:57] action to take and the question is like
+- [07:00] did they get that routing right did I
+- [07:03] call the right skill so there's kind of
+- [07:06] one thing here is am I routing to the
+- [07:08] right skill the second pieces is the
+- [07:10] skill doing the right thing so those are
+- [07:13] the two different things you might want
+- [07:14] to evaluate in this case I might have a
+- [07:16] customer asking a question um he might
+- [07:19] be looking up something to purchase or
+- [07:21] he might be just asking a general
+- [07:22] product question so I'm responding in
+- [07:25] different ways depending upon what the
+- [07:26] user is asking to do and and sometimes
+- [07:30] it's uh you know and in both cases the
+- [07:32] example here I've got an
+- [07:35] llm also in the skill itself so the
+- [07:37] skill could be a function call it can be
+- [07:39] an API call it doesn't need to be an llm
+- [07:41] call uh fed back to the router but
+- [07:44] typically I'm I'm doing two llm calls
+- [07:46] here a router and a a some type of skill
+- [07:50] so this is kind of a this is kind of the
+- [07:51] simplest form of agent now we'll talk
+- [07:53] about more complicated ones in a bit but
+- [07:55] like this is I would say 90% of what I
+- [07:58] see
+- [08:01] it can get more complicated so this is
+- [08:04] an example of a real production you know
+- [08:06] this is what we see in in in some cases
+- [08:08] from a production perspective and you
+- [08:11] can see the branch B basically there's a
+- [08:13] router at the front there's a branch to
+- [08:15] go decide what to do this is a chat to
+- [08:17] purchase I'm talking to e-commerce I'm
+- [08:20] I'm potentially wanting to purchase a
+- [08:22] product but it might be doing a product
+- [08:23] lookup I might be asking for support on
+- [08:25] something there's a lot of things I
+- [08:27] might be doing when I'm chatting with
+- [08:28] this assistant the branches in the
+- [08:32] little yellow triangles mean LM calls
+- [08:34] you can see some of the branches don't
+- [08:35] have an llm call so I might just be
+- [08:37] looking up a product returning something
+- [08:39] to to the router stage and some of these
+- [08:43] actually have two L calls underneath so
+- [08:45] I might be doing a lot so this is again
+- [08:48] in its simplest form break I I I would
+- [08:51] say what I see what architectures I see
+- [08:53] is this kind of router kind of skill
+- [08:56] architecture with with a loop on it um
+- [08:59] and and and again we're going to get
+- [09:00] into how do you evaluate these how do I
+- [09:02] know they're doing the right thing what
+- [09:03] do I care about what do our customers
+- [09:04] care about um but this is kind of what
+- [09:06] what it looks like as you're actually
+- [09:08] deploying one of these uh real
+- [09:10] architecture um and this this example
+- [09:13] right here uh and I say most of our
+- [09:16] customers are actually doing this in
+- [09:18] code like there's Frameworks out there
+- [09:19] there's a lot of Frameworks I would say
+- [09:21] the you know you uh some some some are
+- [09:24] positive some have strengths and
+- [09:25] weaknesses but I would say most people I
+- [09:28] currently see are actually kind of doing
+- [09:30] this in in code that they build versus
+- [09:33] the Frameworks the Frameworks are pretty
+- [09:34] new you know you've got to learn the
+- [09:36] abstractions so um I think there's
+- [09:38] strengths and then I think there's you
+- [09:40] know actually what I what I see going on
+- [09:42] out there so um either one you do uh we
+- [09:45] have tracing options for you in
+- [09:46] debugging I I would say if you're using
+- [09:47] a framework you need some tracing
+- [09:49] options um some of the lower level
+- [09:51] Frameworks that are are are pretty new
+- [09:54] um out there are going to be uh Lane
+- [09:56] graph which is think of nodes and edges
+- [09:59] uh llama index just launched workflows
+- [10:02] which is kind of event based um has some
+- [10:04] some advantages I think to the way the
+- [10:06] way you think about things um but these
+- [10:09] you can see some of these there's maybe
+- [10:10] router stages in the beginning that that
+- [10:12] spread you out there's Loops here to
+- [10:14] decide when you come back so there are
+- [10:16] different ways of
+- [10:18] abstracting these kind of branch and
+- [10:20] flow that you were seeing in the earlier
+- [10:22] stages so they're they're abstract like
+- [10:24] if I squint at some of our customers you
+- [10:27] know and our own assistants architect
+- [10:29] textures I can kind of see the nodes and
+- [10:30] edges um but they're they're like an
+- [10:33] abstraction layer on top of of of what's
+- [10:35] there and I would say Lane graph is kind
+- [10:36] of like you know maybe L chain started
+- [10:38] with chains now they got Loops so let's
+- [10:40] do a graph um so uh so an extension of
+- [10:45] where where they're going to go
+- [10:47] um now now the hard thing is not
+- [10:51] building something that that you demo on
+- [10:53] Twitter it's that that it happens every
+- [10:56] day uh the hype cycle is Big um most of
+- [10:59] that stuff is just unusable unusable in
+- [11:02] production not like and and the hard
+- [11:05] part is not making the Twitter demo and
+- [11:06] making your first POC the hard thing is
+- [11:08] actually making something that you're
+- [11:11] comfortable putting into production
+- [11:12] you're comfortable putting into your in
+- [11:13] front of your customers um and you know
+- [11:16] it's not going to go you know say that
+- [11:18] it's know you know it's not going to
+- [11:19] make up something or or or do something
+- [11:21] that you don't want it to do um so
+- [11:23] working so so I would say the hard thing
+- [11:25] is not that first PC the hard thing is
+- [11:26] actually iterating on this stuff and
+- [11:28] making it solid um and and so we'll talk
+- [11:32] a little bit about like um what we think
+- [11:35] you need to do that to to make the stuff
+- [11:36] work um obviously I'm going to give you
+- [11:38] a plug for what we do observability and
+- [11:40] evaluation in the first set here uh but
+- [11:43] I honestly think I don't know how anyone
+- [11:46] deploys stuff without tracing like like
+- [11:48] this there's just so many things going
+- [11:49] on in these systems um I I think it's
+- [11:53] you know I I I like we couldn't launch
+- [11:55] and run our assistant without you know
+- [11:57] our our own tools um so first off it's
+- [12:00] it's like understanding what's going on
+- [12:01] in the surface um I would say a lot of
+- [12:04] it is also starting to build out you
+- [12:06] know test sets or or example sets to
+- [12:09] make sure your the skills you you have
+- [12:11] are working correctly and then maybe the
+- [12:14] questions and routing are working
+- [12:15] correctly so building out little golden
+- [12:17] data sets that that you you you want to
+- [12:19] test it when you make a change um the
+- [12:22] the biggest thing we see the biggest
+- [12:23] problem is like a prompt change just
+- [12:26] flows through the system in terms of
+- [12:28] brakes so because you have llms feeding
+- [12:31] llms like a small change somewhere can
+- [12:33] can actually Ripple through and in a lot
+- [12:35] of ways you don't you don't realize um a
+- [12:37] change to the router can break your your
+- [12:40] uh extraction parameter extraction which
+- [12:42] breaks your Downstream skill so uh so
+- [12:45] the biggest thing is like how do I get
+- [12:47] tests in place um so that when I I make
+- [12:50] a prompt or model change or a new model
+- [12:52] comes out um I kind of have a quick view
+- [12:55] of what's broken um the other one is
+- [12:57] breaking down the individual step so I
+- [12:59] was saying like okay there's a router
+- [13:01] stage there's kind of a skill stage you
+- [13:03] you'll kind of get at like like some
+- [13:05] teams are you the skills really
+- [13:07] important it's important to get right I
+- [13:10] I need some tests on this um and so this
+- [13:12] is my my high priority thing I'm going
+- [13:14] to go I'm going to go like build test
+- [13:16] for um some teams you know it's you know
+- [13:18] the intent and routing is most important
+- [13:20] so I think I think you need to figure
+- [13:21] out based upon your use case what to go
+- [13:22] build out um and then there's the
+- [13:24] experiment iterate and you got to have
+- [13:26] tools in place that help you test and
+- [13:28] and check your results
+- [13:30] um I I'll talk a little bit about like
+- [13:33] what what you know what does um uh the
+- [13:37] an eval look like at at the at the
+- [13:39] router stage so so I don't know I'm sure
+- [13:41] you've heard about evals a lot um and
+- [13:45] I'm not sure how many I guess a question
+- [13:46] for all of you how many of you have like
+- [13:48] built an evaluation or how many have you
+- [13:50] heard of eval I mean everyone's probably
+- [13:52] heard of eval okay uh how many of you
+- [13:54] built an eval in
+- [13:56] eval okay not not that many um wow uh so
+- [14:00] so so what are evaluations are like it's
+- [14:03] just a fancy industry word for like for
+- [14:06] for understanding performance or results
+- [14:08] of what you built um there's kind of two
+- [14:11] ways that we see out there of doing that
+- [14:13] there's kind of um there there's the
+- [14:16] more fancy way which is actually using
+- [14:18] an llm um to understand whether your llm
+- [14:22] returned the right thing uh and and as
+- [14:25] crazy it sounds they they're actually
+- [14:27] it's actually pretty useful um so I
+- [14:29] don't like we use it in our system all
+- [14:31] the time we use it for things that like
+- [14:33] um just are not are hard to do in code
+- [14:37] um like detecting like I want something
+- [14:39] just to you know I want to evaluate
+- [14:43] whether um the question was answered
+- [14:44] correctly I want to evaluate whether um
+- [14:47] you know the right data was returned I
+- [14:49] want to evaluate whether I think
+- [14:50] something's a jailbreak so so these are
+- [14:52] all evals that we constantly run in our
+- [14:53] system that are LM driven you also have
+- [14:56] evals that are kind of code driven so so
+- [14:59] um and you write some Python and it's
+- [15:02] like it feels like normal a fancy word
+- [15:05] for normal testing uh but the idea is
+- [15:09] that that either LM Val or Cod Val
+- [15:12] you're checking your system um a natural
+- [15:15] one for lme vowels is actually the
+- [15:17] routing stage so did I route to the
+- [15:19] right question um it's it's a really
+- [15:23] it's kind of an intelligent thing you
+- [15:24] you want to know uh did did I get that
+- [15:26] intent routing right um so and then
+- [15:29] sometimes what you're doing if you don't
+- [15:30] get it right is you're adding
+- [15:31] instructions to the router you're saying
+- [15:33] like if someone says this you know or
+- [15:34] someone implies this go here um so
+- [15:37] you're you're building out uh you're
+- [15:39] you're finding problems and building out
+- [15:40] issues um so at at the router stage
+- [15:43] you're typically determining what
+- [15:44] function to call and what parameters are
+- [15:46] extracted those are the two things that
+- [15:48] go down to the next stage uh so you're
+- [15:51] evaluating your parameter extraction
+- [15:53] you're evaluating your your function
+- [15:55] calling intent um at the at the skill
+- [15:59] stage you might like if you really have
+- [16:00] a multi-step router versus just a single
+- [16:02] step you might be looking at convergence
+- [16:04] or or just purely like if the the llm is
+- [16:08] doing the right thing um so so typically
+- [16:11] there's there's a stage like if the if
+- [16:13] the and I would say most teams aren't
+- [16:15] doing this iterative thing right now
+- [16:17] like it's it's probably like like a user
+- [16:19] you know go back to the user um I think
+- [16:21] rep just just launched up you know one
+- [16:24] that is iterative but still has a user
+- [16:26] input but I would say a lot of a lot of
+- [16:28] a lot of people I see right now or you
+- [16:30] know user stage in the between but if
+- [16:31] you are doing this iterative uh piece
+- [16:33] the real question are you converging am
+- [16:35] I getting to like most of this stuff
+- [16:39] doesn't change after a couple iterations
+- [16:40] and you're just off in the weeds so so
+- [16:43] how do you have some checks um that that
+- [16:45] determine uh if the thing is actually
+- [16:47] doing what what you want it to do so
+- [16:49] there's um you know conver you can do
+- [16:52] convergency vals or just an eval for
+- [16:54] your uh for for your general skill or
+- [16:56] you can do evals at the router um and
+- [16:59] what they look like like what does an
+- [17:01] eval look like well evals you know this
+- [17:03] is fancy word typically a template you
+- [17:05] know Phoenix has a bunch you so arise
+- [17:08] Phoenix which is our open source
+- [17:09] observability evaluation all these
+- [17:11] templates are open you can use them
+- [17:12] yourself um and uh but but that
+- [17:15] template's kind of giving you it's kind
+- [17:17] of a classification it's telling you
+- [17:19] whether this thing's doing the right
+- [17:20] thing and you're kind of using this
+- [17:21] little intelligence layer for
+- [17:23] classification um that's that's core of
+- [17:26] what what an LM eval is um you you know
+- [17:29] again the most popular ones are just did
+- [17:31] I get the question answered correctly
+- [17:33] that that's you know is did I other
+- [17:35] popular one is hallucinations you'll
+- [17:37] you'll you'll hear hallucination evals a
+- [17:39] lot which is did I add a fact in that
+- [17:42] wasn't part of the data I'm generating
+- [17:44] that fact the information from so my
+- [17:46] inserting facts that that aren't real so
+- [17:48] evals um agent evals and then you'll get
+- [17:52] probably router evals agent evals and
+- [17:54] let's see we're going to see if this
+- [17:56] works okay so this is Phoenix you can
+- [17:58] download it today today um we also have
+- [18:00] a rise core which is our broader
+- [18:02] Enterprise platform but Phoenix is open
+- [18:04] source you can run it it's looking at
+- [18:06] function calling eval so it's run here
+- [18:07] it's a it's basically a chat to purchase
+- [18:10] asking a question um and it's asking a
+- [18:13] question about uh a product and and
+- [18:15] basically uh promotion and it's coming
+- [18:18] back with product search so you've kind
+- [18:19] of gone the wrong Branch I've asked a
+- [18:21] question about the product promotion and
+- [18:23] I've gone down search well typically
+- [18:25] you'll find a problem you might want to
+- [18:27] add it to a data set so a workflow
+- [18:29] typically is looking at the response of
+- [18:32] your system you're finding you know
+- [18:35] spans or issues you're saving the data
+- [18:36] sets where you're going to do some tests
+- [18:38] on and then experiments are a are an
+- [18:41] area kind of a slightly more advanced
+- [18:43] area where you're going to test new
+- [18:45] prompts or Test new data you know Test
+- [18:47] new models on those examples and and
+- [18:50] then we'll automatically add evals you
+- [18:52] can kind of see there on the bottom of
+- [18:54] these these examples so um once again
+- [18:57] check out uh check out arise Phoenix uh
+- [19:01] definitely great uh from a open source
+- [19:03] perspective arise is core platform
+- [19:06] Enterprise is a little bit broader wider
+- [19:08] solution designed for for Enterprise
+- [19:10] deployments with some of the top teams
+- [19:12] obvious top a AI teams out there using
+- [19:14] us uh the top AI teams in the world
+- [19:16] using us um and yeah and if you're
+- [19:19] building you know want to get your hands
+- [19:21] try to build Assistance or agents uh try
+- [19:24] if you're building anything definitely
+- [19:27] trace and and evalate and then
+- [19:30] definitely try out Phoenix it's it's
+- [19:31] there to do any any
+- [19:38] questions if you have have a question
+- [19:41] make eye contact with guy who's walking
+- [19:44] around with a
+- [19:45] microphone hi uh thank you so much for a
+- [19:48] great
+- [19:49] presentation I have a blun question uh
+- [19:51] what do you mean by parameter extraction
+- [19:54] it's just not the term that I've seen
+- [19:56] yeah so so the question was what what do
+- [19:58] I mean by parameter extraction well um
+- [20:00] in function calling which is kind of the
+- [20:02] intent routing of llms there's two main
+- [20:05] things it does it determines um the
+- [20:07] function the function call which is like
+- [20:09] the action it thinks you should take and
+- [20:11] then it extracts from the data uh
+- [20:13] parameters that that you should use in
+- [20:15] that function and so you define as part
+- [20:18] of your tool calling definition um what
+- [20:20] you think you'll need in that next stage
+- [20:22] so so you're kind of defining as part of
+- [20:24] your branching what you think you need
+- [20:26] and it will extract it for you
+- [20:38] um yeah I this question was like uh
+- [20:41] different agents have different agentic
+- [20:43] tools uh and does does Phoenix kind of
+- [20:45] help you find that I think I'm I think
+- [20:48] Phoenix uh I think you're G to have to
+- [20:50] like like typically you're going to kind
+- [20:51] of Define what tools you think you need
+- [20:54] and then we'll make sure you're kind of
+- [20:55] calling the right ones and and or taking
+- [20:58] the right actions and and then we'll
+- [21:00] make sure it's taking the right steps to
+- [21:02] do the things but like you're defining
+- [21:04] kind of what the things should do yeah
+- [21:08] thanks so much amazing talk Al us from
+- [21:09] Stanford University one question is
+- [21:11] around um the use of agents in mental
+- [21:14] health I think there's a lot of
+- [21:15] conversational AIS going around one of
+- [21:17] questions is you you thought about you
+- [21:19] know there's some things where their
+- [21:21] outdoor might break or the llm itself
+- [21:23] might break how do you set an ecosystem
+- [21:26] where you can monitor where the issues
+- [21:29] of breakup are happening and if there's
+- [21:32] llm one of the llms is going wrong how
+- [21:34] do you identify that yeah so the
+- [21:36] question is like how do you how do you
+- [21:38] set up an ecosystem whether you're going
+- [21:39] to catch problems and how do you figure
+- [21:41] out where the problems are uh so I I do
+- [21:44] think these the the platforms like like
+- [21:45] ours like our Enterprise platform um
+- [21:48] have you know these online evals so
+- [21:50] evals that run as your data is ingested
+- [21:52] and and augment your data and you can
+- [21:54] kind of uh like that that approach is
+- [21:56] typically what people are using to like
+- [21:58] build in checks and they'll they'll
+- [22:00] check different parts of their system um
+- [22:03] so you've got like think of it as like
+- [22:04] AI monitoring the AI decisions but
+- [22:07] humans are writing those those checks um
+- [22:10] and then you know our our platform
+- [22:11] actually does have ai co-pilot that
+- [22:14] helps you write the checks thems
+- [22:15] too so um we have time for one more
+- [22:18] question make eye contact with Guy where
+- [22:22] are you guy uh okay so there's a
+- [22:25] question in the back how does your
+- [22:26] offering like different from something
+- [22:29] like Lang fuse or Trace Loop um like
+- [22:31] what makes Phoenix different than those
+- [22:33] offerings yeah good good okay so good
+- [22:36] good question so the the ecosystem right
+- [22:38] now is is kind of um link fuse uh link
+- [22:42] Smith and and probably probably us I
+- [22:44] would say uh Phoenix is is open source
+- [22:47] so Link Link Smith isn't so we have kind
+- [22:49] of an open source offering and one of
+- [22:50] the I would say the top uh Solutions
+- [22:52] there I think the developer experience
+- [22:54] and ease of deployment there is probably
+- [22:56] better than l fuse l fuse is a little
+- [22:58] bit thinner but wider product um I think
+- [23:01] on the Enterprise side uh blank fuse
+- [23:04] probably doesn't even compete there's I
+- [23:06] would say on that side on our main
+- [23:07] product line in terms of breath of
+- [23:09] solution um I think the AI integration
+- [23:12] so so co-pilot AI enablement throughout
+- [23:15] the platform no one's even close to to
+- [23:18] an assistant like what we have um I
+- [23:20] would say um I think our online evals
+- [23:23] are are more built out so so like uh
+- [23:26] helping you automate and and write evals
+- [23:28] online code eval so so I I I think
+- [23:30] there's a breath of of solution on the
+- [23:33] on the Enterprise side that's that's
+- [23:34] broader and then we're not just link so
+- [23:36] link Smith would probably be the closest
+- [23:38] competitor but we're not who wants to be
+- [23:40] tied to your framework we're open 20
+- [23:42] different places we integrate 20
+- [23:44] different Frameworks when the next
+- [23:47] framework comes along do you want your
+- [23:49] observability platform tied to your
+- [23:50] framework or open uh the last point I
+- [23:53] would say is we you know we're kind of
+- [23:55] cloud native so your data stored in
+- [23:57] Arrow file par files and you can use
+- [24:00] offline systems with it versus giving
+- [24:03] all your data to a vendor um so that's
+- [24:06] that's probably you know hopefully that
+- [24:08] gives you kind of a lay of the land
+- [24:09] ecosystem cool

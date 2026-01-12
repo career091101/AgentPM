@@ -1,0 +1,1035 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=p8Jx4qvDoSo"
+video_id: "p8Jx4qvDoSo"
+video_url: "https://www.youtube.com/watch?v=p8Jx4qvDoSo"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=p8Jx4qvDoSo
+  - Retrieved at: 2025-12-30T16:19:14+09:00
+  - [00:00] Hey everyone. Um, I'm Jared Kaplan. I'm
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=p8Jx4qvDoSo"
+  - "- Retrieved at: 2025-12-30T16:19:14+09:00"
+  - "- [00:00] Hey everyone. Um, I'm Jared Kaplan. I'm"
+  - "- [00:03] going to talk briefly about scaling and"
+  - "- [00:06] the road to human level AI, but my guess"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: p8Jx4qvDoSo
+
+- URL: https://www.youtube.com/watch?v=p8Jx4qvDoSo
+- Retrieved at: 2025-12-30T16:19:14+09:00
+
+## Text
+
+- [00:00] Hey everyone. Um, I'm Jared Kaplan. I'm
+- [00:03] going to talk briefly about scaling and
+- [00:06] the road to human level AI, but my guess
+- [00:08] is for this audience, a lot of these
+- [00:10] ideas are pretty familiar, so I'll keep
+- [00:12] it short and then we're going to do a
+- [00:14] sort of fireside chat Q&A with uh with
+- [00:16] Diana. I actually have only been working
+- [00:20] on AI for about six years. I uh before
+- [00:24] that had a long career, the vast
+- [00:26] majority of my career as a theoretical
+- [00:28] physicist. um working in academia. And
+- [00:31] so uh how did I get to AI? Well, I I I
+- [00:34] want to be brief. Why did I start in
+- [00:36] physics? It was basically because my mom
+- [00:38] was a science fiction writer and I
+- [00:41] wanted to figure out if we could build a
+- [00:44] faster than light drive and physics was
+- [00:46] the way to do that. Um I also was very
+- [00:49] excited about just understanding the
+- [00:52] universe. How do things work? How do the
+- [00:54] biggest trends that underly sort of
+- [00:58] everything that we see around us, where
+- [01:00] does that all come from? For example, is
+- [01:02] the universe deterministic? Do we have
+- [01:04] free will? I was very, very interested
+- [01:05] in all of those questions. But
+- [01:07] fortunately, along the way, uh during my
+- [01:10] career as a physicist, I met a lot of
+- [01:13] very, very interesting, very deep
+- [01:15] people, including many of the uh
+- [01:17] founders of Anthropic that I now work
+- [01:20] with all of the time. And uh I was
+- [01:23] really interested in what they were
+- [01:24] doing and I kept track of it. And as I
+- [01:27] moved from different uh among different
+- [01:30] subject areas in physics from large
+- [01:33] hadron collider physics, particle
+- [01:34] physics, cosmology, string theory, um
+- [01:38] and on I got a little bit frustrated, a
+- [01:41] little bit bored. I didn't feel like we
+- [01:42] were making progress quickly enough. And
+- [01:44] a lot of my friends were telling me that
+- [01:46] AI was becoming a really big deal. Um
+- [01:49] and I didn't believe them. I was really
+- [01:51] skeptical. I thought, well, AI, people
+- [01:53] have been working on it for 50 years.
+- [01:55] SVMs aren't that exciting. Um, that was
+- [01:58] all we knew about back in 2005, 2009
+- [02:01] when I was in school. But I got
+- [02:03] convinced that that maybe AI would be an
+- [02:05] exciting field to work on. Um, and I I
+- [02:08] got very lucky to know the right people
+- [02:10] and the rest is history. So uh I'm going
+- [02:13] to talk a little bit about how our
+- [02:16] contemporary AI models work and how
+- [02:18] scaling is leading them to get better
+- [02:21] and better. So there are really two
+- [02:24] fundamental phases to the training of
+- [02:27] contemporary AI models like claude
+- [02:30] chatgpt
+- [02:32] etc. The first phase is pre-training and
+- [02:37] that's where we train AI models to
+- [02:40] imitate human written data, human
+- [02:42] written text and understand the
+- [02:45] correlations underlying that data. And
+- [02:47] these these figures are very very retro.
+- [02:50] This is actually from the playground of
+- [02:52] the original GPD3 model. And you can see
+- [02:55] that as a speaker at a journal club,
+- [02:58] you're probably elephant me to say
+- [03:00] certain things. is the word elephant in
+- [03:01] that sentence is really really unlikely.
+- [03:05] What pre-training does is teach models
+- [03:08] what words are likely to follow other
+- [03:10] words in large corporate of text and now
+- [03:14] with contemporary models multimodal
+- [03:16] data. The second phase of training for
+- [03:19] contemporary AI models is reinforcement
+- [03:22] learning. This is another very retro
+- [03:24] slide. Um it shows the original
+- [03:27] interface we used for sort of claude
+- [03:29] zero or claude negative one uh back in
+- [03:32] the ancient days of 2022
+- [03:35] when we were collecting feedback data.
+- [03:39] And what you see here is basically the
+- [03:41] interface for having a conversation with
+- [03:44] very very early versions of Claude and
+- [03:47] picking which response from Claude was
+- [03:51] better according to you, according to
+- [03:54] crowdworkers, etc. And using that
+- [03:57] signal, we optimize, we reinforce the
+- [04:00] behaviors that are chosen to be good,
+- [04:04] that are chosen to be helpful, honest,
+- [04:05] and harmless. And we discourage the
+- [04:07] behaviors that are bad. So really all
+- [04:10] there is to training these models is
+- [04:12] learning to predict the next word and
+- [04:15] then doing reinforcement learning to
+- [04:17] learn to do useful tasks. And it turns
+- [04:19] out that there are scaling laws for both
+- [04:22] of these phases of training. So this is
+- [04:26] a a figure that that we made five or six
+- [04:29] years ago now and it shows how as you
+- [04:32] scale up the pre-training phase of AI,
+- [04:35] you predictably get better and better
+- [04:38] performance for our models. And this was
+- [04:41] something that came about because I was
+- [04:43] just sort of asking the dumbest possible
+- [04:45] question. As a physicist, that's what
+- [04:47] you're trained to do. You sort of look
+- [04:48] at the big picture and you ask really
+- [04:50] dumb things. I'd heard it was very
+- [04:53] popular in the 2010s to say that big
+- [04:55] data was important and so I just wanted
+- [04:58] to know how big should the data be? How
+- [05:02] important is it? How much does it help?
+- [05:04] Similarly, a lot of people were noticing
+- [05:06] that larger AI models performed better.
+- [05:09] And so we just asked the question, how
+- [05:11] much better do these models perform? And
+- [05:14] we got really lucky. We found that
+- [05:16] there's actually something very very
+- [05:18] very precise and surprising underlying
+- [05:21] AI training. This really blew us away
+- [05:23] that there are these nice trends that
+- [05:25] are as precise as anything that you see
+- [05:27] in physics or or astronomy. And these
+- [05:30] gave us a lot of conviction to believe
+- [05:34] that AI was just going to keep getting
+- [05:36] smarter and smarter in a very
+- [05:38] predictable way. Because as you can see
+- [05:40] in these figures already back in 2019,
+- [05:44] we were looking across many many many
+- [05:47] orders of magnitude in compute, in data
+- [05:50] set size, in neural network size. And so
+- [05:54] we expected once you see something is
+- [05:56] true over many many many orders of
+- [05:58] magnitude you expect it's probably going
+- [06:00] to continue to be true for a long time
+- [06:01] further. So this has sort of been one of
+- [06:04] the fundamental things that I think
+- [06:05] underlies uh uh improvements in in AI.
+- [06:09] The other is actually also something
+- [06:11] that started to appear quite a long time
+- [06:13] ago although it's become really really
+- [06:15] impactful uh in the last couple of years
+- [06:18] is that you can see scaling laws in the
+- [06:20] reinforcement learning phase of AI
+- [06:23] training. So uh a researcher about four
+- [06:27] years ago decided to study scaling laws
+- [06:31] for Alph Go. Basically putting together
+- [06:33] two very very high-profile AI successes,
+- [06:36] GPD3 and scaling for pre-training and
+- [06:39] AlphaGo. This was just a researcher uh
+- [06:42] Andy Jones working on his own uh with
+- [06:45] like his own I think maybe single GPU
+- [06:48] back in these sort of ancient days. And
+- [06:50] so he couldn't study AlphaGo, that was
+- [06:52] expensive, but he could study a simpler
+- [06:53] game called Hex. So he made this plot
+- [06:56] that you see here. Now, ELO scores, I
+- [07:00] think, weren't as as as well known um
+- [07:02] back then, but all EOS ELO scores are,
+- [07:05] of course, is chess ratings. They
+- [07:07] basically describe how likely it is for
+- [07:10] one player to beat another in a game of
+- [07:13] chess. They're used now to benchmark AI
+- [07:16] models to see sort of how often does a
+- [07:18] human prefer one AI model to another.
+- [07:20] But but back then this is just sort of
+- [07:22] the classic application of ELO scores as
+- [07:24] as chess ratings. And he looked at as
+- [07:27] you train different models to play this
+- [07:30] game of hex, which is a very simple
+- [07:33] board game, a bit simpler than than Go,
+- [07:36] how do they do? And he saw these
+- [07:37] remarkable straight lines. So it's sort
+- [07:40] of a skill in science to notice very
+- [07:43] very simple trends and and this was one
+- [07:45] I think it went unnoticed. I think
+- [07:48] people didn't focus on this this sort of
+- [07:50] kind of scaling behavior in RL soon
+- [07:52] enough but but eventually it came to
+- [07:53] pass. So we see that basically you can
+- [07:56] scale up the compute in both
+- [07:57] pre-training and RL and get better and
+- [08:00] better performance. And I think that's
+- [08:01] sort of the fundamental thing that is
+- [08:03] driving AI progress. It's not that AI
+- [08:07] researchers are really smart or they
+- [08:08] suddenly got smart. It's that we found a
+- [08:12] very very simple way of making AI better
+- [08:16] systematically and and we're we're
+- [08:18] turning that crank. So what kinds of
+- [08:20] capabilities is this unlocking? I tend
+- [08:22] to think of AI capabilities on two axes.
+- [08:25] I think the less interesting axis, but
+- [08:27] it's still very important is basically
+- [08:30] the the flexibility of AI, the ability
+- [08:34] of AI to meet us where we are. So if you
+- [08:38] put say Alph Go on this figure, it would
+- [08:42] be very very far below the X-axis
+- [08:44] because although Alph Go was super
+- [08:46] intelligent, it was better than any Go
+- [08:49] player at playing Go, it was uh only
+- [08:53] able to operate in the universe of a Go
+- [08:55] board. But we've made steady progress
+- [08:58] since the advent of large language
+- [09:00] models making uh AI that can deal with
+- [09:05] many many many all of the modalities
+- [09:08] that that people can deal with. We don't
+- [09:09] have AI models I think that uh that have
+- [09:11] a sense of smell. Um but that's that's
+- [09:14] probably coming. And so as you go up the
+- [09:16] y- axis here you get to AI systems that
+- [09:19] can do more and more relevant things in
+- [09:22] in the world. I think the more
+- [09:23] interesting axis though is sort of the
+- [09:25] the x-axis here which is how long it
+- [09:28] would take a person to do to do the
+- [09:30] kinds of tasks that AI models can do and
+- [09:33] that's something that has been
+- [09:34] increasing steadily as we increase the
+- [09:37] capability of AI. This is sort of the
+- [09:38] time horizon for for tasks and um an
+- [09:42] organization meter studied this very
+- [09:44] systematically and found yet another
+- [09:46] scaling trend. They found that if you
+- [09:49] look at uh the length of tasks that AI
+- [09:52] models can do, it's doubling roughly
+- [09:55] every 7 months. And so what this means
+- [09:58] is that the increasing intelligence that
+- [10:02] is being baked into AI by scaling
+- [10:04] compute for pre-training and RL is
+- [10:07] leading to predictable useful
+- [10:10] tasks that the AI models uh can can do,
+- [10:14] including longer and longer horizon
+- [10:15] tasks. And so you can sort of speculate
+- [10:17] about where this is heading. And in AI
+- [10:20] 2027 folks did. And this kind of picture
+- [10:24] suggests that over the next few years we
+- [10:27] may reach a point where AI models um can
+- [10:30] do tasks that don't just take us minutes
+- [10:32] or hours but days, weeks, months, years
+- [10:36] etc. Eventually, we imagine AI models or
+- [10:39] or millions of AI models perhaps working
+- [10:42] together will be able to do the work
+- [10:44] that whole human organizations can do.
+- [10:46] They'll be able to do the kind of work
+- [10:48] that the entire scientific community
+- [10:50] currently does. Um, one of the nice
+- [10:52] things about math or theoretical physics
+- [10:54] is that you can make progress just by by
+- [10:57] thinking. Um and so you can imagine AI
+- [11:00] systems working together to make the
+- [11:02] kind of progress that the theoretical
+- [11:04] physics community makes in in say 50
+- [11:06] years in a matter of days, weeks etc. So
+- [11:11] what is left if if this sort of picture
+- [11:13] of scaling can take us very far? What is
+- [11:15] left? I think that what may be left in
+- [11:18] order to unlock um kind of human level
+- [11:21] AI broadly construed is relatively
+- [11:24] simple. One of the most important
+- [11:25] ingredients I think is relevant
+- [11:28] organizational knowledge. So we need to
+- [11:30] train AI models that don't just greet
+- [11:33] you with a blank slate but can learn to
+- [11:37] work within companies, organizations,
+- [11:39] governments as though they have the kind
+- [11:42] of context that someone who's been
+- [11:44] working there for years has. So I think
+- [11:47] AI models need to be able to work with
+- [11:48] knowledge. They also need memory. What
+- [11:51] is memory if not knowledge? I
+- [11:53] distinguish it in the sense that as you
+- [11:56] do a task that takes you a very very
+- [11:59] long time, you need to keep track of
+- [12:01] your progress on that specific task, you
+- [12:03] need to build relevant memories and you
+- [12:05] you need to be able to use them. And
+- [12:06] that's something that we've uh we've
+- [12:08] begun to build into into Claude 4 and I
+- [12:11] think will become increasingly
+- [12:12] important. A third ingredient that I
+- [12:14] think that we need to get better at and
+- [12:16] and we're making progress on is
+- [12:19] oversight. the ability of AI models to
+- [12:24] understand sort of fine grained nuances
+- [12:26] to solve hard fuzzy tasks. So it's easy
+- [12:30] right now and you see an explosion of
+- [12:32] progress for us to train AI models that
+- [12:34] can say write code that passes tests or
+- [12:37] that answer math questions correctly
+- [12:39] because it's very crisp what's correct
+- [12:42] and what's incorrect. So it's very easy
+- [12:44] to apply reinforcement learning to make
+- [12:47] AI models uh do better and better at
+- [12:49] those kinds of tasks. But what we need
+- [12:52] and are developing are AI models that
+- [12:54] help us to generate much more nuanced
+- [12:57] reward signals so that we can leverage
+- [13:01] reinforcement learning to do to do
+- [13:04] things like tell good jokes, write good
+- [13:06] poems, um and have good taste in in
+- [13:11] research. The other ingredients that we
+- [13:13] need, I think, are are are simpler. We
+- [13:15] obviously need to be able to train AI
+- [13:16] models to do more and more complex
+- [13:18] tasks. We need to work our way up the
+- [13:22] y-axis from text models to multimodal
+- [13:24] models to robotics. Um, and I expect
+- [13:27] that over the next few years, we'll see
+- [13:29] increasing uh continued gains from scale
+- [13:33] when applied applied to these these
+- [13:36] different domains.
+- [13:38] And so how should we sort of prepare for
+- [13:41] this this future these possibilities? I
+- [13:44] think there are a few a few things that
+- [13:46] I always recommend. One is I think it's
+- [13:49] really a good idea to build things that
+- [13:53] don't quite work yet. This is probably
+- [13:55] always a good idea. We always want to
+- [13:56] have ambition, but I think specifically
+- [13:59] AI models right now are getting better
+- [14:01] very very quickly. And I think that's
+- [14:03] going to continue. That means that if
+- [14:04] you build uh a product that doesn't
+- [14:07] quite work because Claude 4 is still a
+- [14:09] little bit too dumb, um you could expect
+- [14:11] that there'll be a Claude 5 coming that
+- [14:14] will make that make that product work
+- [14:16] and deliver a lot of value. So I think
+- [14:18] that's that's something that I always
+- [14:19] recommend is sort of experiment on the
+- [14:21] boundaries of what AI can do because
+- [14:23] those boundaries are moving rapidly. The
+- [14:25] next point I think is that AI is going
+- [14:28] to be helpful for integrating AI. I
+- [14:31] think that one of the main bottlenecks
+- [14:33] for AI is really just that it's
+- [14:36] developing so quickly that we haven't
+- [14:38] had time to integrate it into
+- [14:41] products, companies, other thing
+- [14:44] everything else that we we we do into
+- [14:46] into science. Um, and so I think that in
+- [14:49] order to sort of speed that process up,
+- [14:51] I think leveraging AI for AI integration
+- [14:53] is going to be is going to be very
+- [14:54] valuable. And then finally, I mean, I
+- [14:56] think this is sort of obvious for for
+- [14:58] this crowd, but I think figuring out
+- [14:59] where adoption of AI could happen very
+- [15:02] very quickly is is key. Um, we're seeing
+- [15:07] uh an explosion of AI integration for
+- [15:10] coding. And there are a lot of reasons
+- [15:12] why software engineering is a great
+- [15:14] place for AI, but I think the big
+- [15:16] question is sort of what's next? Um,
+- [15:19] what beyond software engineering can
+- [15:21] grow that that quickly? I don't know the
+- [15:23] answer, of course. Um, but hopefully you
+- [15:26] guys will figure it out. So that's it
+- [15:28] for for for the talk. Um, I want to
+- [15:30] invite Diana on stage for uh for a chat.
+- [15:34] >> YC's next batch is now taking
+- [15:36] applications. Got a startup in you?
+- [15:38] Apply at y combinator.com/apply.
+- [15:41] It's never too early and filling out the
+- [15:44] app will level up your idea. Okay, back
+- [15:46] to the video. That was a awesome talk
+- [15:50] about all the scaling laws and recently
+- [15:53] Anthropic just launched clot 4 which is
+- [15:57] just available. Curious uh how does it
+- [16:01] change what is possible as all these
+- [16:04] model releases keep compounding for the
+- [16:07] next 12 months?
+- [16:09] >> I think that uh we'll be in trouble if
+- [16:11] it's 12 months before before an even
+- [16:14] better model comes out. But uh I guess
+- [16:17] uh a few things with with Cloud 4. I
+- [16:19] think that with Cloud 3.7 Sonnet
+- [16:22] uh it was already really exciting to use
+- [16:25] 3.7 for coding. But I think something
+- [16:28] that everyone noticed was that 3.7 was a
+- [16:32] little bit too eager. Um sometimes it
+- [16:35] just really wanted to make your tests
+- [16:37] pass. Um and it would do things that
+- [16:39] that you you don't really want. Uh there
+- [16:41] are a lot of like try excepts things
+- [16:43] like that. Um, so with Cloud 4, I think
+- [16:46] that we've been able to improve the
+- [16:49] model's ability to act as an agent
+- [16:52] specifically for coding, but but in a
+- [16:53] lot of other ways for search, for all
+- [16:55] kinds of other applications. Um, but
+- [16:57] also improve its supervision, the sort
+- [17:01] of oversight that I I I mentioned in my
+- [17:03] talk, so that it uh it follows your
+- [17:06] directions and hopefully improves in in
+- [17:09] code quality. I think the other thing
+- [17:10] that we've worked on is improving its
+- [17:12] ability to uh save and store memories
+- [17:15] and we hope to see people leveraging
+- [17:17] that because Claude 4 can blow through
+- [17:19] its context window with a very complex
+- [17:21] task but can also uh store memories as
+- [17:24] files or records, retrieve them in order
+- [17:27] to sort of keep doing work across many
+- [17:29] many many context windows. But I guess
+- [17:31] finally I think the picture that scaling
+- [17:33] laws paint is one of incremental
+- [17:35] progress. And so I think that what
+- [17:37] you'll see with Claude is that steadily
+- [17:40] it gets better in lots of different ways
+- [17:43] with each release. Um but I think that
+- [17:45] scaling really suggests a kind of smooth
+- [17:49] curve towards what I expect is kind of
+- [17:52] human level AI or AGI.
+- [17:54] >> Is there some special feature that a lot
+- [17:57] of the audience here are going to get
+- [17:59] excited? some some beta that you can
+- [18:02] some alpha leak you can give everyone on
+- [18:05] what you think people are going to fall
+- [18:07] in love with the new APIs.
+- [18:09] >> I think the thing that I I'm most
+- [18:11] excited about is sort of uh memory
+- [18:14] unlocking longer and longer horizon
+- [18:16] tasks. I think that like as as time goes
+- [18:19] on we're going to see Claude as a
+- [18:22] collaborator that can sort of take on
+- [18:23] larger and larger chunks of work. This
+- [18:25] is to your point of all these future
+- [18:27] models being able to take bigger and
+- [18:29] bigger tasks right now. At this point,
+- [18:31] they're able to do tasks in the hours.
+- [18:35] >> Yeah, I think so. I think it's a very
+- [18:38] imprecise measure, but I think that
+- [18:40] right now if you look at sort of
+- [18:42] software engineering tasks, I think
+- [18:43] meter literally benchmarked how long it
+- [18:45] would take people to do various tasks
+- [18:47] and uh and yeah, I think it's a time
+- [18:50] scale of of hours. I think just gen like
+- [18:52] broadly as people work with AI,
+- [18:55] I think that the people who are skeptics
+- [18:57] of AI will say correctly that AI makes
+- [19:00] lots of stupid mistakes. Um, it can do
+- [19:03] things that are absolutely brilliant and
+- [19:05] and surprise you, but it can also make
+- [19:07] uh make basic errors. I think one of the
+- [19:09] sort of basic features of of AI that's
+- [19:12] different about the shape of AI
+- [19:14] intelligence compared to human
+- [19:15] intelligence is that there are a lot of
+- [19:17] things that I can't do but I can at
+- [19:19] least judge whether they were done
+- [19:21] correctly. I think for AI the judgment
+- [19:24] versus the generative capability is much
+- [19:27] closer which means that I think that uh
+- [19:29] a major role people can play in
+- [19:31] interacting with AI is kind of as
+- [19:33] managers to sort of sanity check uh
+- [19:36] sanity check the the work
+- [19:37] >> which is fascinating because one of the
+- [19:39] things we observe through the batches in
+- [19:41] YC last year a lot of companies when
+- [19:45] they were out and selling products they
+- [19:47] were selling it more still as a co-pilot
+- [19:50] where you would have a co-pilot let's
+- [19:52] say for customer support where you still
+- [19:54] need the last human approval before they
+- [19:56] would send the reply for a customer but
+- [19:59] one thing that has changed just in the
+- [20:01] spring batch I think a lot of the AI
+- [20:04] models are very capable to do task end
+- [20:07] to end to your point that which is uh
+- [20:09] remarkable founders are selling now
+- [20:12] directly replacements of full workflows
+- [20:17] how have you seen this translate to what
+- [20:19] you hope the audience will build.
+- [20:22] >> I think there are a lot of
+- [20:23] possibilities. Basically, it's a
+- [20:25] question of
+- [20:27] what level of success or performance is
+- [20:31] is acceptable. There are some tasks
+- [20:33] where getting it sort of 70% right is is
+- [20:36] good enough and others where you need
+- [20:37] 99.9% to to deploy. I think that
+- [20:41] honestly I think it's probably a lot
+- [20:43] more fun to build for use cases where uh
+- [20:46] 70 80% is good enough because then you
+- [20:50] can really get to the frontier of what
+- [20:51] AI is capable of. But I think that we're
+- [20:54] sort of pushing up the the reliability
+- [20:59] as well. So I think that uh we will see
+- [21:01] more and more of these tasks. I think
+- [21:03] that uh right now human AI collaboration
+- [21:06] is is going to be the sort of most
+- [21:09] interesting place because I think that
+- [21:11] for the most advanced tasks you're
+- [21:13] really going to need humans in the loop.
+- [21:14] But I do think in the longer term there
+- [21:16] will be more and more tasks that can be
+- [21:17] fully automated.
+- [21:18] >> Can you say more about what you think
+- [21:21] the world is going to look like with
+- [21:22] this human to AI loop collaboration?
+- [21:25] because there's the essay from Dario
+- [21:28] with machines of love and grace that he
+- [21:31] paints this picture that's very
+- [21:33] optimistic and what are the details of
+- [21:35] how we get there with with this book?
+- [21:38] >> I think that we already see some of some
+- [21:41] of that happening. So at least when I
+- [21:43] talk to folks who work in say biomedical
+- [21:46] research um with the right sort of
+- [21:49] orchestration I think it's possible to
+- [21:51] take frontier AI models now and produce
+- [21:57] interesting valuable insights for say
+- [22:00] drug discovery. Um so I think that's
+- [22:02] already starting to happen. I guess an
+- [22:05] aspect of it that that I think about is
+- [22:07] that like there there's sort of
+- [22:10] intelligence that requires a lot of
+- [22:11] depth um and and intelligence that
+- [22:15] requires a lot of breadth. So for
+- [22:16] example in math you can sort of work on
+- [22:19] trying to prove one theorem for a decade
+- [22:22] like the threemon hypothesis or firmat's
+- [22:24] last theorem. Um I think that's that's
+- [22:26] sort of solving one very specific very
+- [22:28] hard problem. I think there's a lot of
+- [22:31] areas of science, probably more so in
+- [22:33] biology, maybe interestingly in
+- [22:35] psychology or or history, where putting
+- [22:39] together a very very large number of
+- [22:43] pieces of information um across many
+- [22:46] many different areas is kind of where
+- [22:48] it's at. And I think that AI models
+- [22:51] during the pre-training phase kind of
+- [22:53] embibe all of human civilization's
+- [22:56] knowledge. And so I suspect that there's
+- [22:58] a lot of uh fruit to be picked in using
+- [23:03] that sort of feature of AI that it knows
+- [23:05] much much more than any one human expert
+- [23:08] and therefore you can kind of elicit um
+- [23:12] insights putting together many different
+- [23:14] uh many different areas of expertise say
+- [23:17] across biology for for for research. So
+- [23:19] I think that um we're making a lot of
+- [23:22] progress on making AI better at deeper
+- [23:25] tasks like hard coding problems, hard
+- [23:27] math problems, but I suspect that
+- [23:28] there's a particular overhang in areas
+- [23:31] where putting together knowledge that
+- [23:34] maybe no one human expert would have
+- [23:36] where that kind of intelligence is is is
+- [23:39] very useful. So I think that's something
+- [23:41] that I' I'd expect to see more of. Um is
+- [23:44] sort of leveraging AI's sort of breadth
+- [23:46] of knowledge. In terms of how exactly it
+- [23:49] will roll out, I really don't know. It's
+- [23:51] really really hard to predict the
+- [23:52] future. Scaling laws give you one way of
+- [23:56] predicting the future which says this
+- [23:58] trend is going to continue. I think a
+- [24:00] lot of trends that we see
+- [24:03] over the long haul I expect will
+- [24:05] continue. I mean the economy, the GDP,
+- [24:09] uh the these kinds of trends are really
+- [24:11] reliable indicators of the future. But I
+- [24:13] think in terms of in detail how will
+- [24:15] things be implemented, I think it's
+- [24:16] really really hard to say.
+- [24:17] >> Are there specific areas that you think
+- [24:20] a lot more builders could go into and
+- [24:23] build with these new models? I mean
+- [24:25] there's a lot that has been done let's
+- [24:27] say for coding tasks but what are some
+- [24:30] tasks that have a lot more green field
+- [24:32] that are just getting unlocked right now
+- [24:34] with the current models
+- [24:36] >> I come from a research background rather
+- [24:38] than uh rather than business so I don't
+- [24:41] I don't know that I have anything very
+- [24:43] uh very deep to say but I think that
+- [24:44] like in general any place where um it
+- [24:49] requires a lot of skill um and it's a
+- [24:52] task that mostly involves sort
+- [24:55] sitting in front of a computer
+- [24:56] interacting with data. I think finance
+- [24:59] uh people who use Excel spreadsheets a
+- [25:01] lot. Um I think I I expect law although
+- [25:06] maybe maybe maybe law uh is is is more
+- [25:09] regulated requires more uh more more
+- [25:12] expertise um as a stamp of approval. But
+- [25:14] I think all of these areas are probably
+- [25:16] green field. I think another that that I
+- [25:19] sort of mentioned is how do we integrate
+- [25:23] AI into existing businesses? I think
+- [25:26] that like when electricity came along,
+- [25:28] there was some long adoption cycle and
+- [25:31] the very first simplest ways of say
+- [25:33] using electricity weren't necessarily uh
+- [25:36] the best. You wanted to not just replace
+- [25:38] a steam engine with an electric motor.
+- [25:41] You wanted to sort of remake the way
+- [25:43] that factories work. And I think that
+- [25:44] probably leveraging AI to integrate AI
+- [25:48] into parts of the economy um as quickly
+- [25:51] as possible. I expect there's just a lot
+- [25:53] of a lot of leverage there.
+- [25:54] >> Now other question is you have a
+- [25:56] extensive training as a physicist and
+- [25:59] you were one of the first to really
+- [26:01] observe this trend with scaling laws and
+- [26:04] it probably comes from being a physicist
+- [26:06] and seeing all these exponentials that
+- [26:09] happen naturally in nature. How has that
+- [26:14] training come about with uh being able
+- [26:17] to perform like the best research in the
+- [26:20] world with with with with AI?
+- [26:22] >> I think the thing that was useful from a
+- [26:24] physics point of view is looking for the
+- [26:28] biggest picture, most macro trends and
+- [26:31] then trying to make them as precise as
+- [26:33] possible. So I remember meeting like
+- [26:36] kind of brilliant AI researchers who
+- [26:38] would say things like learning is
+- [26:41] converging exponentially
+- [26:43] and I would just ask really dumb
+- [26:45] questions like are you sure it's an
+- [26:47] exponential? Could it just be a power
+- [26:49] law? Is it quadratic? Like like exactly
+- [26:52] how is this thing converging? And it's a
+- [26:55] really dumb kind of simple question to
+- [26:57] ask, but basically I think there was a
+- [26:59] lot of fruit to be picked and and
+- [27:01] probably still is in trying to make the
+- [27:04] big trends that you see as precise as
+- [27:06] possible because that I don't know it
+- [27:08] gives you a lot of tools. It allows you
+- [27:09] to ask like what does it really mean to
+- [27:11] move the needle? I think with scaling
+- [27:13] laws, the the holy grail is finding a
+- [27:17] better slope to the scaling law because
+- [27:19] that means that as you put in more
+- [27:21] compute, you're going to get a bigger
+- [27:24] and bigger advantage over other AI
+- [27:27] developers. Um, but until you've sort of
+- [27:30] made precise what the trend is that you
+- [27:32] see, you sort of don't know exactly what
+- [27:35] it means to beat it and and how much you
+- [27:37] can beat it by and how to know
+- [27:39] systematically whether you're you're
+- [27:41] you're achieving that end. So, I think
+- [27:43] those were kind of the tools that that I
+- [27:45] think I used. It wasn't necessarily like
+- [27:47] literally applying say quantum field
+- [27:50] theory to AI. I think that's uh that's a
+- [27:52] little bit too specific. Well, are there
+- [27:54] specific uh physics heruristics like
+- [27:57] reormalization, symmetry that came in
+- [27:59] very handy to really keep observing this
+- [28:03] trend or or measuring it?
+- [28:05] >> Something that you'll observe if you
+- [28:06] look at AI models is that they're big.
+- [28:09] Neural networks are big. They have
+- [28:10] billions now trillions of parameters.
+- [28:12] That means that they're made out of big
+- [28:15] matrices. and basically studying uh
+- [28:19] approximations
+- [28:21] where you
+- [28:23] take the limit that neural networks are
+- [28:25] very big and specifically that the uh
+- [28:28] matrices that compose neural networks
+- [28:29] are big. That's actually been kind of
+- [28:31] useful and that's something that
+- [28:32] actually was a well-known approximation
+- [28:34] in in physics um and and in math. Um
+- [28:37] that's something that's been applied.
+- [28:39] But I think generally it's really asking
+- [28:41] very naive dumb questions that gets you
+- [28:43] very far. I think AI is really in a
+- [28:45] certain sense only like maybe 101 15
+- [28:48] years old in terms of the current
+- [28:50] incarnation of how we're training AI
+- [28:52] models. That means that it's an
+- [28:53] incredibly new field. A lot of the most
+- [28:56] basic questions haven't been answered
+- [28:58] like questions of interpretability, how
+- [29:01] AI models really work. And so I think
+- [29:03] there's there's really a lot to uh to
+- [29:06] learn at that level rather than applying
+- [29:09] very very fancy techniques. Are there
+- [29:11] specific tools in physics that you apply
+- [29:14] for interpretability?
+- [29:15] >> I would say that interpretability is a
+- [29:17] lot more like biology. It's a lot more
+- [29:19] like neuroscience. So I think those are
+- [29:21] kind of the tools. Um there there is
+- [29:23] there is some more more more mathematics
+- [29:26] there. But I I think it's more like
+- [29:28] trying to understand the features of the
+- [29:30] brain. Um the benefit that you get with
+- [29:33] AI over neuroscience is that um you can
+- [29:36] really measure everything in AI. You
+- [29:38] can't measure the the activity of every
+- [29:41] neuron, every syninnapse in a brain, but
+- [29:43] you can do that in AI. So there's much
+- [29:45] much much more data for reverse
+- [29:48] engineering how AI models work.
+- [29:50] >> Now when aspect about scaling laws,
+- [29:52] they've held for over five orders of
+- [29:56] magnitude, which is wild. This is a bit
+- [29:58] of a contrarian question, but what
+- [30:01] empirical sign would convince you that
+- [30:05] the curve are changing that maybe we're
+- [30:07] getting off the curve?
+- [30:09] >> I think it's a really I think it's a
+- [30:10] really hard question, right? Because I
+- [30:12] mostly use scaling laws to diagnose
+- [30:14] whether AI training is broken or not.
+- [30:16] Mh.
+- [30:16] >> So I think that uh once you see
+- [30:20] something and you find it very it's a
+- [30:21] very compelling trend, it becomes very
+- [30:24] very interesting to examine
+- [30:27] where it's failing. But I think that my
+- [30:29] first inclination is to think if scaling
+- [30:32] laws are failing, it's because we've
+- [30:34] screwed up AI training in some way.
+- [30:36] Maybe we got uh we got the architecture
+- [30:39] of the neural network wrong or there's
+- [30:42] some bottleneck in training that we
+- [30:43] don't see or there's some problem with
+- [30:45] precision in the algorithms that we're
+- [30:47] using. So I think it would take a lot to
+- [30:51] convince me at least that scaling was
+- [30:54] really no longer working at the level of
+- [30:55] the sort of these empirical laws because
+- [30:57] so many times in my experience over the
+- [31:00] last 5 years when it seemed like scaling
+- [31:01] was broken it was because we were doing
+- [31:03] it wrong.
+- [31:04] >> Interesting. So I guess going into
+- [31:06] something very specific that goes hand
+- [31:08] in hand is a lot of the compute power
+- [31:10] required to go keep going on this curve.
+- [31:14] What happens uh as compute becomes more
+- [31:17] more scarce how far down do you go into
+- [31:21] the precision ladder like do you explore
+- [31:23] things like FP4 do you explore things
+- [31:26] like turnary representations what what
+- [31:28] are your thoughts around that? Yeah, I
+- [31:30] mean I think that um right now AI is
+- [31:34] really inefficient because there's a lot
+- [31:37] of value in AI. So um there's a lot of
+- [31:39] value in unlocking the most capable
+- [31:44] frontier model. Um and so companies like
+- [31:47] Anthropic and others are moving as
+- [31:49] quickly as we can to both make AI
+- [31:52] training more efficient and AI inference
+- [31:54] more efficient as well as unlocking
+- [31:56] frontier capabilities. But a lot of the
+- [31:58] focus really is on uh unlocking the
+- [32:00] frontier. I think that over time as AI
+- [32:05] becomes more and more widespread, I
+- [32:08] think that we're going to really drive
+- [32:10] down the cost of inference and training
+- [32:13] dramatically from where we are right
+- [32:15] now. I mean right now we're seeing sort
+- [32:17] of 3x to 10x gains algorithmically and
+- [32:22] in sort of scaling up compute um and in
+- [32:25] uh inference efficiency per year. I
+- [32:29] guess like the joke is that we're going
+- [32:31] to get computers back into binary. So I
+- [32:33] think that we will see much much lower
+- [32:36] precision as one of the many avenues to
+- [32:38] make inference more efficient over time.
+- [32:41] But sort of we h we're very very very
+- [32:43] out of equilibrium with AI development
+- [32:45] right now. AI is improving very rapidly.
+- [32:47] Things are changing very rapidly. We
+- [32:49] haven't fully realized the potential of
+- [32:52] current models, but we're unlocking more
+- [32:54] and more capabilities. So I think that
+- [32:56] what the equilibrium situation looks
+- [32:58] like where AI isn't changing that
+- [33:01] quickly, I think is one where AI is
+- [33:03] extremely inexpensive, but it's sort of
+- [33:05] hard to know if we're even going to get
+- [33:07] there. like AI may just keep getting
+- [33:09] better so quickly that uh sort of
+- [33:11] improvements in int intelligence unlock
+- [33:13] so much more and so we may continue to
+- [33:15] focus on that rather than say getting
+- [33:18] precision down to FP2
+- [33:21] >> which is very much uh the Jebans paradox
+- [33:24] as intelligence becomes better and
+- [33:26] better people are going to want it more
+- [33:29] not that is driving the cost down which
+- [33:31] is this irony right
+- [33:33] >> yeah absolutely I mean I think that uh
+- [33:35] yeah that's that's certainly certainly
+- [33:36] something that we've seen that there are
+- [33:38] certain uh certain points where AI
+- [33:41] becomes accessible enough. That said, um
+- [33:45] I think as AI systems become more and
+- [33:48] more capable um and can do more and more
+- [33:51] of the work that that we do, it's going
+- [33:53] to be worth it to pay for uh frontier
+- [33:55] capabilities. I think it's a question
+- [33:57] that I've always had and can have is
+- [34:00] kind of like is all of the value at the
+- [34:02] frontier or is there a lot of value with
+- [34:05] kind of cheaper systems that aren't
+- [34:07] quite as capable? And I think the sort
+- [34:09] of time horizon picture is maybe one way
+- [34:11] of thinking about this. I think that you
+- [34:14] can do a lot of very simple bite-sized
+- [34:15] tasks, but I think it's just much more
+- [34:18] convenient to be able to use an AI model
+- [34:21] that can do a very complex task end to
+- [34:23] end rather than requiring us as humans
+- [34:26] to sort of orchestrate a much dumber
+- [34:28] model to break the task down into very
+- [34:30] very small slices and put them together.
+- [34:32] So, I do kind of expect that a lot of
+- [34:33] the value is going to come from the most
+- [34:35] capable models, but I might be wrong. It
+- [34:38] it might depend and it might really
+- [34:40] depend on the capabilities of AI
+- [34:43] integrators to sort of leverage AI
+- [34:44] really efficiently.
+- [34:45] >> What advice would you give this audience
+- [34:48] which there everyone is early in the
+- [34:50] career with lots of potential in terms
+- [34:52] of how do you stay relevant in the
+- [34:55] future where all these models are going
+- [34:57] to become so awesome. What should
+- [34:59] everyone be really good at and study and
+- [35:03] to still do really good work? I think as
+- [35:06] I mentioned there's a lot of value in
+- [35:09] understanding how these models work and
+- [35:12] being able to really efficiently
+- [35:13] leverage them and and integrate them and
+- [35:15] I think there's a lot of value in kind
+- [35:17] of like building building at the
+- [35:19] frontier. Um I don't know we could turn
+- [35:21] it over to the audience for for
+- [35:23] questions.
+- [35:23] >> Let's turn it out to the audience for
+- [35:24] some questions.
+- [35:26] >> I had a quick question on the scaling
+- [35:27] loss. You show that a lot of the scaling
+- [35:30] laws are like linear that like the more
+- [35:32] we have exponential compute going up but
+- [35:34] then like we have linear progress in uh
+- [35:36] in the scaling loss but then on your
+- [35:38] last slide you show that you expect then
+- [35:40] suddenly like an exponential growth in
+- [35:42] like how much time we save. I want to
+- [35:45] ask you like why do you think that
+- [35:46] suddenly on this chart we're exponential
+- [35:48] and not linear anymore?
+- [35:50] Thank you.
+- [35:52] >> Yeah, this is a really good question and
+- [35:53] I don't know. Um I mean the meter
+- [35:56] finding was kind of an empirical
+- [35:58] finding. Um the way that I tend to think
+- [36:01] about this is that um in order to do
+- [36:04] more and more complex logger horizon
+- [36:06] tasks um what you really need is some
+- [36:09] ability to self-correct. You need to be
+- [36:12] able to sort of identify that you've
+- [36:13] you've you make a plan and then you
+- [36:15] start executing in the plan. But
+- [36:16] everyone knows that our plans are kind
+- [36:18] of worthless and uh and we encounter
+- [36:21] reality. we get things wrong. And so I
+- [36:24] think that a lot of what determines the
+- [36:26] horizon length of what models can
+- [36:28] accomplish is their ability to notice
+- [36:30] that they're doing something wrong and
+- [36:32] and correct it. Um, and I think that's
+- [36:34] not sort of like a lot of bits of
+- [36:36] information. It doesn't necessarily
+- [36:37] require a huge change in intelligence to
+- [36:40] sort of notice one or two more times
+- [36:42] that you've made a mistake and how to
+- [36:44] correct that mistake. But if you sort of
+- [36:46] fix your mistake, maybe you sort of on
+- [36:48] the order sort of double the horizon
+- [36:50] length of the task because like instead
+- [36:52] of getting stuck here, you get stuck
+- [36:54] twice as far twice as far out. So I
+- [36:56] think that's sort of the picture that I
+- [36:58] have that like you can kind of unlock
+- [36:59] longer and longer horizons with
+- [37:01] relatively modest improvements in your
+- [37:04] kind of ability to understand the task
+- [37:06] and self-correct. But that just kind of
+- [37:09] like those are just words. I think the
+- [37:11] empirical trend is maybe the most
+- [37:13] interesting thing. And uh maybe we can
+- [37:15] build more detailed models for why that
+- [37:18] trend is true, but it's sort of your
+- [37:20] guess is as good as mine.
+- [37:22] >> Yeah. So I also have a question over
+- [37:24] here. Um so it's an honor. Um so
+- [37:26] basically um in terms of um increasing
+- [37:29] the time horizon, I feel like so my
+- [37:31] mental model of neuronet networks is
+- [37:32] very simple. If you want them to do
+- [37:34] something, you train on such data. Um so
+- [37:37] if you want them to um if you want to
+- [37:39] increase the um time horizon you have to
+- [37:41] slowly get for example verification
+- [37:42] signals. Now um I think one way to do
+- [37:45] this is via product. So like for example
+- [37:47] um cloud agent and then you use the
+- [37:48] verification signal to incrementally
+- [37:50] improve the model. Now my question is
+- [37:52] basically this works really nicely for
+- [37:54] for example coding where you have a
+- [37:56] product that is sufficiently good such
+- [37:57] that you can deploy it and then get the
+- [37:59] verification signal but what about other
+- [38:01] domains like in other domains are we
+- [38:03] just um scaling data labelers to AGI or
+- [38:06] is there a better approach? Yeah, it's a
+- [38:09] good question. I mean, um, so when when
+- [38:13] sort of skeptics ask me sort of why do I
+- [38:17] think we will be able to sort of scale
+- [38:20] and get something like broadly human
+- [38:21] level AI, it's basically because of of
+- [38:24] what you said. there is some sort of
+- [38:26] very kind of operationally intensive
+- [38:29] path where you just sort of build more
+- [38:31] and more different tasks for AI models
+- [38:34] to do that are more and more complex,
+- [38:35] more and more long horizon and you just
+- [38:38] sort of turn the crank and train with RL
+- [38:40] on those those more more complicated
+- [38:43] tasks. So I sort of feel like that's the
+- [38:44] worst case for AI progress. And I mean
+- [38:48] given the level of investment in AI and
+- [38:50] I think the the sort of level of value
+- [38:52] that I think is being created with AI, I
+- [38:54] think people will do that if necessary.
+- [38:57] That said, I think there are a lot of
+- [38:59] ways of sort of making it simpler. The
+- [39:01] best is to have an AI model that is
+- [39:05] trained to oversee and supervise what uh
+- [39:09] claw like you have claude say which
+- [39:11] you're training to be clawed when you
+- [39:13] have another AI model that's sort of
+- [39:14] providing supervision and is not just
+- [39:17] saying did you do this incredibly
+- [39:19] complicated task correctly like did you
+- [39:23] become a faculty member and get tenure
+- [39:25] will that take six or seven years is
+- [39:27] that like an endto-end task where at the
+- [39:28] end you sort of either get tenure or not
+- [39:30] over seven that's that's ridiculous.
+- [39:32] That's very inefficient. But instead can
+- [39:34] provide more detailed supervision that
+- [39:36] says you're doing this well, you're
+- [39:38] doing this poorly. Um I think that sort
+- [39:40] of as we're able to use AI more and more
+- [39:43] in that kind of way, we'll probably be
+- [39:45] able to make training for very long
+- [39:47] horizon tasks more efficient and I think
+- [39:49] we're already doing this to some extent.
+- [39:51] >> We'll do one last question.
+- [39:53] >> Yeah, I wanted to build on top of that.
+- [39:55] when you're basically developing like
+- [39:57] these tasks and then training them with
+- [39:59] RL, would are you like like would you
+- [40:02] like try creating these tasks like using
+- [40:04] large language models like the tasks you
+- [40:07] use for RL or are you still using
+- [40:09] humans?
+- [40:10] >> Great question. So I would say a mix. Um
+- [40:13] I mean obviously we're building the
+- [40:14] tasks as much as possible using AI to
+- [40:17] sort of like say generate tasks with
+- [40:20] code. we do like also uh ask humans to
+- [40:25] create tasks. So it's it's basically
+- [40:27] some mixture of those things. Um I think
+- [40:29] that as AI gets better and better,
+- [40:31] hopefully we're able to leverage AI more
+- [40:33] and more, but of course the frontier of
+- [40:35] the difficulty of these tasks also
+- [40:37] increases. So I think humans are are are
+- [40:39] still going to be involved.
+- [40:40] >> Okay. Thank you.
+- [40:41] >> All right. Let's give it a round of
+- [40:43] applause to Jared.
+- [40:45] >> Thank you so much. Thanks.

@@ -1,0 +1,290 @@
+---
+title: "Agentic AI is very hot right now and in this video I'm going to share a practical stepbystep road map to learn Agentic A"
+video_id: "DNBaUCCST3I"
+video_url: "https://www.youtube.com/watch?v=DNBaUCCST3I"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Agentic AI is very hot right now and in this video I'm going to share a practical stepbystep road map to learn Agentic AI along with free learning resources
+  The first step in this road map is to gain understanding of AI basics
+  There are so many confusing terms like statistical ML, deep learning, ML versus AI, NLP
+key_points:
+  - "step in this road map is to gain understanding of AI basics"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:08:05+09:00"
+---
+
+# Transcript: DNBaUCCST3I
+
+- URL: https://www.youtube.com/watch?v=DNBaUCCST3I
+- Retrieved at: 2025-12-30T10:08:05+09:00
+
+## Text
+
+- [00:00] Agentic AI is very hot right now and in
+- [00:02] this video I'm going to share a
+- [00:04] practical stepbystep road map to learn
+- [00:07] Agentic AI along with free learning
+- [00:09] resources. The first step in this road
+- [00:11] map is to gain understanding of AI
+- [00:14] basics. There are so many confusing
+- [00:16] terms like statistical ML, deep
+- [00:17] learning, ML versus AI, NLP. You need to
+- [00:21] know what all these different term
+- [00:23] means. And for this we have an excellent
+- [00:27] onehour tutorial on YouTube where I have
+- [00:31] clarified all these concepts in a very
+- [00:33] simple language that even a high school
+- [00:35] student can understand it easily along
+- [00:38] with some visualization. For example, to
+- [00:40] explain neural networks, I have used
+- [00:41] this specific visualization. So once you
+- [00:44] watch this one hour video your
+- [00:47] fundamentals on the AI family tree like
+- [00:50] where everything stands you know like ML
+- [00:53] is part of AI and then statistical ML
+- [00:55] and deep learning is part of ML and so
+- [00:57] on you will have a very good
+- [00:58] understanding of a bigger picture. Once
+- [01:02] that is done you have to learn Python
+- [01:04] programming. You are going to use Python
+- [01:06] as a programming language for your agent
+- [01:08] AI application and therefore you need to
+- [01:11] have a basic understanding of this
+- [01:14] programming language. You will find many
+- [01:16] amazing tutorials on YouTube. Our
+- [01:18] channel also have this uh tutorial
+- [01:21] playlist where we are not only teaching
+- [01:23] concepts but we have done a lot of
+- [01:25] hands-on coding. There are a lot of
+- [01:27] exercises. So if you go to video
+- [01:29] description you will find a link to
+- [01:31] GitHub where we have given all these
+- [01:33] exercises. So once you learn through
+- [01:35] this tutorials, do some exercises, you
+- [01:38] will have a good understanding of
+- [01:40] Python. Python is a easiest programming
+- [01:42] language. Even a high school student can
+- [01:45] learn this in like few days. Okay. Once
+- [01:47] you have learned Python, now to move
+- [01:50] into Genai, your prerequisite step will
+- [01:54] be NLP foundation. Natural language
+- [01:57] processing is a science where you
+- [02:00] process natural language. The way humans
+- [02:02] you know how humans process the natural
+- [02:04] language you train computers to process
+- [02:07] it in that fashion and for that you need
+- [02:10] to have understanding on regular
+- [02:11] expression various text prep-processing
+- [02:14] techniques such as tokenization stemming
+- [02:16] and so on then text representation such
+- [02:19] as count vectorizer etc. When you're
+- [02:22] using chat GPT you are typing all the
+- [02:24] text but internally it gets converted
+- [02:27] into something called embeddings. So
+- [02:30] these are the founding principles on
+- [02:32] which chat GPT and LLM works. Therefore
+- [02:35] you need to have the strong foundation
+- [02:37] and luckily we have another free YouTube
+- [02:40] tutorial playlist on this. So just go
+- [02:43] through the entire playlist. It is okay
+- [02:46] if you skip this uh fast text part and
+- [02:49] some of the NLTK and spacey library
+- [02:52] part. It is okay, right? But make sure
+- [02:54] you are learning all these essential
+- [02:57] concepts. Okay, after you have gained
+- [03:01] understanding on NLP, the next step will
+- [03:04] be geni. Okay, for generative AI, you
+- [03:06] need to know how LLM works. What are
+- [03:10] vector databases like chromadb, pine
+- [03:12] cone and so on. What is retrieval
+- [03:14] augmented generation and lang chain is
+- [03:17] the most popular frameworks that people
+- [03:21] use to build geni application. Now for
+- [03:24] this we have this threehour uh course
+- [03:28] actually you can see 725k view and this
+- [03:31] course goes over all the concepts in
+- [03:34] sequence starting from ji evolution to
+- [03:36] what is llm so we have used nice parrot
+- [03:39] analogy here to explain the llm then
+- [03:42] what are embeddings vector databases
+- [03:45] retrieval augmented generation and then
+- [03:47] here at this stage we start with
+- [03:50] practical lang chain fundamental so we
+- [03:52] have done a lot of coding And then we
+- [03:54] have built a project also. So there are
+- [03:57] two projects here. I would say even if
+- [04:00] you do one project is good enough. Okay.
+- [04:02] So that will be 2our course for you. And
+- [04:05] once you have completed this course, you
+- [04:07] will have a good understanding of all
+- [04:09] these concepts along with hands-on
+- [04:11] practical experience. Then comes some
+- [04:15] extra genai projects for which we have
+- [04:18] another playlist where we have built
+- [04:21] these three projects and I might add
+- [04:24] more projects in the future. So you can
+- [04:26] save this playlist link and all these
+- [04:29] projects are useful in terms of building
+- [04:31] real life applications using different
+- [04:34] models such as llama which is open
+- [04:35] source model from meta and this
+- [04:38] particular project ji project the third
+- [04:40] one is actually based on the real uh
+- [04:43] client project that we did in my company
+- [04:45] at technologies where we used a hybrid
+- [04:47] approach usually in the industry when
+- [04:50] you're working on any jai projects you
+- [04:52] will not just use llm and be done with
+- [04:55] it. Here you have used a regular
+- [04:58] expression to classify some of the log
+- [05:01] text. Then for remaining text we have
+- [05:03] used bird classification along with
+- [05:05] statistical ML and then we have used NLP
+- [05:08] and some LLM as well. Okay. So it's like
+- [05:10] a truly kind of very industry relevant
+- [05:13] real project and when you have done
+- [05:16] these projects now you have gained solid
+- [05:19] practical hands-on experience on
+- [05:21] building GNAI projects. Now these
+- [05:24] projects are not agentic in nature.
+- [05:26] Okay, they use LLM as one of the
+- [05:28] components. So if you go by anthropics
+- [05:30] guide, these are workflow application.
+- [05:33] So then what about agents? Well, that is
+- [05:36] your next step. Okay, so I should just
+- [05:38] say step number five. Here you want to
+- [05:41] develop understanding on what is agenti,
+- [05:45] what is the difference between these
+- [05:46] three terms. Okay. Uh so I have I have
+- [05:49] various videos actually various very
+- [05:51] short videos very intuitive effect
+- [05:54] explanations okay agenti is explained in
+- [05:57] this particular video okay along with no
+- [06:00] code tools such as N8N
+- [06:02] and then what is MCP so now when you
+- [06:06] have clarified all these concepts your
+- [06:08] step number six will be hands-on agentic
+- [06:11] AI so there are many frameworks out
+- [06:14] there right so the frameworks
+- [06:17] which are out there are eggno
+- [06:20] then there is lang graph there is crew
+- [06:23] ai I'm building a crew ai tutorial by
+- [06:25] the way uh the video should be out soon
+- [06:27] then there is google adk right there is
+- [06:32] open ai adk you don't need to learn all
+- [06:35] of these I would suggest you learn agno
+- [06:38] lang graph and qi and that's good enough
+- [06:40] for agno we have a course you can see
+- [06:43] the views and just read the comments
+- [06:46] very practical hands-on intuitive
+- [06:49] tutorial that even a beginner can start
+- [06:52] and learn it. Okay. Then comes lang
+- [06:55] graph. So lang graph is used to build
+- [06:57] reliable agents using stateful graphs.
+- [07:02] Okay. So this is one and halfhour video
+- [07:05] which covers graphs, simple graphs,
+- [07:08] graphs with conditions, chatbot with
+- [07:10] tools, you know, chatbot with memory,
+- [07:12] human in the loop. We also cover
+- [07:14] langsmith which is used for monitoring
+- [07:18] tracing etc. Okay. So all of that is
+- [07:20] covered in this 1 and 1/2 hour video. So
+- [07:26] at this stage uh you would also like to
+- [07:28] build your own MCP server. Model context
+- [07:31] protocol is used to build a H&TK
+- [07:33] applications and for that we have
+- [07:36] another video where we build an MCP
+- [07:39] server for some real life use case.
+- [07:43] Okay. Now these are all free learning
+- [07:46] resources but let's say if you want to
+- [07:47] learn using ad free experience lot of
+- [07:51] practical and enhanced content then we
+- [07:53] have this genai boot camp as well where
+- [07:56] we have covered all these modules in
+- [07:59] depth along with the
+- [08:01] soft skills and let me show you the
+- [08:04] agenti project that we have here. So in
+- [08:07] this particular project what we have
+- [08:09] done is for my company at leak
+- [08:11] technologies we have built this uh
+- [08:15] agentic AI HR assist tool where clot
+- [08:19] desktop is used for MCP client and for
+- [08:24] MCP server we have built using Python.
+- [08:26] So what it will do is it will do the
+- [08:29] onboarding of a new employee. So when
+- [08:31] you say hey onboard this new employee
+- [08:33] this person is reporting to their XYZ it
+- [08:35] will do all the steps add the employee
+- [08:37] to HRMS send welcome email notify manage
+- [08:40] it will do all of that using the agentic
+- [08:43] AI principles now this is it folks so
+- [08:46] this is the end of the road map as a
+- [08:48] bonus section I have included ML and DL
+- [08:51] foundation so let's say if you want to
+- [08:53] learn agentic fast in a fast track quick
+- [08:56] way then it is okay if you skip ML and
+- [08:59] DL foundation But if you want to build
+- [09:03] enhanced understanding of agentic AI
+- [09:06] then you need to have some foundation of
+- [09:07] machine learning and deep learning. So
+- [09:09] in machine learning you need to know you
+- [09:12] know what is statistical machine
+- [09:13] learning gradient descent linear
+- [09:14] logistic regression some of the
+- [09:16] classification techniques like decision
+- [09:18] tree random forest unsupervised learning
+- [09:21] uh at least one like DB scan or cins and
+- [09:24] then how do you do model fine-tuning and
+- [09:26] evolution. Similarly, deep learning is a
+- [09:29] foundation of LLMs and things like that.
+- [09:32] Okay. So, if you are building an
+- [09:36] application, if you are working at a
+- [09:37] very higher level where you are just
+- [09:39] using bunch of frameworks like agno,
+- [09:41] langraph and building the applications,
+- [09:43] then it's okay if you don't know the
+- [09:45] details of neural network. But let's say
+- [09:47] if you're doing customization and
+- [09:49] working at a lower level, then you need
+- [09:51] to know PyTorch and some of the deep
+- [09:53] learning principles which I have
+- [09:55] highlighted here. And I have also
+- [09:57] mentioned some of the free learning
+- [10:00] resources for both of this. So check it
+- [10:02] out. As a next step, you need to work on
+- [10:05] more projects. You also want to work on
+- [10:09] building online credibility through
+- [10:10] LinkedIn, Kegel, Discord, etc. And the
+- [10:13] tips for effective learning is spend
+- [10:14] less time in watching tutorials and more
+- [10:17] time in digesting, implementing and
+- [10:19] sharing it. And on code basics discord
+- [10:22] server, if you click on it here, we have
+- [10:23] a partner and group finder chat. So just
+- [10:26] try to study this road map in a group.
+- [10:28] You can post that okay I have started
+- [10:30] studying using this agenti road map. Uh
+- [10:33] do you want to be my partner and that
+- [10:36] that way you are kind of like going to a
+- [10:38] gym together going to play pickle ball
+- [10:41] together you know like company will
+- [10:42] always motivate you and help you with
+- [10:44] the inspiration. I hope you like this
+- [10:46] road map. Check video description for
+- [10:48] the PDF link. If you have any questions
+- [10:51] please post in the comment box below. I
+- [10:53] will try my best to answer as many
+- [10:55] questions as possible. Thank you very
+- [10:57] much for watching. If you like this
+- [10:58] video, give it a thumbs up and share it
+- [11:00] with your friends.
+- [11:02] [Music]

@@ -1,0 +1,423 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=oAoigBWLZgE"
+video_id: "oAoigBWLZgE"
+video_url: "https://www.youtube.com/watch?v=oAoigBWLZgE"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=oAoigBWLZgE
+  - Retrieved at: 2025-12-30T16:17:13+09:00
+  - [00:00] I've been playing with mCP integration
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=oAoigBWLZgE"
+  - "- Retrieved at: 2025-12-30T16:17:13+09:00"
+  - "- [00:00] I've been playing with mCP integration"
+  - "- [00:02] into AI coding IDE for the past few days"
+  - "- [00:05] it has totally changed my workflow and"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: oAoigBWLZgE
+
+- URL: https://www.youtube.com/watch?v=oAoigBWLZgE
+- Retrieved at: 2025-12-30T16:17:13+09:00
+
+## Text
+
+- [00:00] I've been playing with mCP integration
+- [00:02] into AI coding IDE for the past few days
+- [00:05] it has totally changed my workflow and
+- [00:07] boost my productivity so my cursor not
+- [00:09] only generate codes but also calling
+- [00:11] text to image model to generate all the
+- [00:13] gaming assets that is needed for
+- [00:15] developing the game that you're seeing
+- [00:17] here and not only that when there bugs
+- [00:18] my cursor also looking to console log
+- [00:20] and network request to debug Arrow it
+- [00:22] can even read my superbase database
+- [00:24] directly and doing internet search
+- [00:26] looking to my figma file all those
+- [00:28] thanks to the mCP server function so
+- [00:30] today I will take you through what is
+- [00:31] mCP how can you integrate existing mcps
+- [00:34] that other people already created as
+- [00:36] well as the easiest way to set up your
+- [00:38] own mCP server in just few minutes for
+- [00:40] people who are watching this video you
+- [00:42] probably more or less heard about mCP
+- [00:44] which is a modo context protocol
+- [00:45] introduced by entropic last year it
+- [00:47] basically provide a universal interface
+- [00:49] for people to connect their agent to
+- [00:51] allour different data source and
+- [00:53] external systems you can think of mCP
+- [00:55] like a USBC port for all sorts of
+- [00:57] different air applications just like
+- [00:58] USBC provides standardized way to
+- [01:00] connect your device to also different
+- [01:01] accessories mCP provides standardized
+- [01:03] ways to connect AI model to different
+- [01:05] data source and external system what's
+- [01:07] really interesting is AI coding has
+- [01:08] evolved a lot for the past few months
+- [01:10] from initially just a chat co-pilot to
+- [01:12] composer that can create a fil to
+- [01:14] nowadays all the modern a ID like cursor
+- [01:16] and window server or build powerful
+- [01:18] agents that can do some plannings and
+- [01:19] take a lot of different type of actions
+- [01:21] at default cursor coding agents we have
+- [01:23] a list of actions that can take but what
+- [01:25] if you wanted to do more that's where
+- [01:27] the mCP comes in you can build all sorts
+- [01:29] of different COs in inations so that
+- [01:30] cursor can access almost whatever you
+- [01:32] want they really change the game for AI
+- [01:33] codings mCP can be used for many
+- [01:35] different scenarios for example some of
+- [01:37] mCP server might be just prompts where
+- [01:40] the agent can just call certain mCP like
+- [01:42] analyze code and it will return a proper
+- [01:44] user message with specific prompt that
+- [01:46] can guide the agent behavior for next
+- [01:48] actions but on the outs side mCP can
+- [01:50] also be used to connect to different
+- [01:52] external Resource as well as assistance
+- [01:54] to calling different API and point when
+- [01:56] you look at entropic mCP doc it is
+- [01:58] fairly complicated and not exactly clear
+- [02:00] how can you install and create your own
+- [02:02] mCP very easily that's why today I want
+- [02:04] to take you through some of my favorite
+- [02:06] mCP as well as the easiest way to build
+- [02:08] your own mCP that can connect your
+- [02:09] cursor into any source of system you
+- [02:11] want so without further Ado let's get it
+- [02:13] there are a few Marketplace already
+- [02:14] existed they show you a list of mCP that
+- [02:16] other people have created that you can
+- [02:17] use from gl. a SMI cursor. directory as
+- [02:21] well ASM systems where they have hosted
+- [02:23] mCP server that you can use and the way
+- [02:25] you can use those platform is that you
+- [02:26] can search for the mcpu that you want to
+- [02:28] use for example if I I want to add a
+- [02:30] sequential thinking mCP which is type of
+- [02:32] mCP that will force agent to think
+- [02:34] through a few different steps and do
+- [02:35] some plannings I can choose a ID that
+- [02:37] I'm using in this case a recursor and I
+- [02:39] can just copy this command line over go
+- [02:40] to my cursor select feature and in the
+- [02:42] mCP server I can click on ADD mCP I can
+- [02:45] give a name and the name here didn't
+- [02:47] really matter I can just call it
+- [02:48] sequential thinking and there are two
+- [02:49] different types you can choose in most
+- [02:51] cases for now you'll probably choose
+- [02:52] command which means it will run a local
+- [02:54] command to call the server but if you're
+- [02:56] using some host mCP server then you can
+- [02:58] choose SS but most of the time it is
+- [03:00] almost always command so we can add this
+- [03:02] and click add the botton you will see
+- [03:03] that this is a new mCP server added
+- [03:05] called sequential syncing and this is
+- [03:06] one two called sequential sying so what
+- [03:09] I can do is that we can start a new chat
+- [03:11] with agent and just give a prompt I want
+- [03:13] to build a game now let's plan it using
+- [03:15] sequential syncing don't generate any
+- [03:17] code yet and then you will be prompt to
+- [03:19] call this mCP server and for this
+- [03:21] specific tool if you open it you can see
+- [03:22] that it is basically trying to use
+- [03:23] function call to force agent generate
+- [03:25] multiple different sorts it is counting
+- [03:27] how many sorts that you need to do in
+- [03:28] total and the next s needed will be true
+- [03:30] which means if I finish this it will try
+- [03:32] to continue doing another s repeat this
+- [03:34] process for probably eight times if you
+- [03:36] want you can also turn on this YOLO mode
+- [03:38] which means you don't need to approve
+- [03:39] every single time but I would suggest
+- [03:41] you to do the manual one first but to
+- [03:43] make something more interesting you can
+- [03:44] also search for a r mCP and one thing to
+- [03:47] not is that currently there's no
+- [03:49] standardized way to install or set up
+- [03:51] mcps each mCP is kind of set up
+- [03:53] differently and the quality of mcps on
+- [03:55] those websites are also quite unstable
+- [03:58] many of them didn't really work at all
+- [04:00] and this makes adoption a lot harder but
+- [04:01] I will show you a few example of common
+- [04:03] ways to install those mcps basic I want
+- [04:05] to find command line to use sometimes
+- [04:07] they will provide MPX package D which
+- [04:09] you can copy and start using but quite
+- [04:11] often you will have problem that it
+- [04:13] didn't really work for example if I copy
+- [04:15] this one and add a mCP server Reddit MC
+- [04:18] you might see that this mCP has no tool
+- [04:20] available which means you can't do
+- [04:22] anything with it but you might also say
+- [04:23] Json like this and for this one you
+- [04:25] basically need to convert them into a
+- [04:26] single line command which in this case
+- [04:28] will be the uvx from git link here mCP
+- [04:32] Reddit and you can of separate them out
+- [04:34] with space so I can copy this and add a
+- [04:35] new server called it redit command and
+- [04:38] paste in you can see that this has been
+- [04:41] added with two tools fetch Reddit hot
+- [04:43] strats and fetch Reddit post content and
+- [04:45] we can give a try what are some latest
+- [04:48] hot content on Reddit it will try to
+- [04:50] call this mcp2 F Reddit hot Strat and if
+- [04:53] I click accept you can see it return
+- [04:55] some of the content from reddits so this
+- [04:58] is basically how you can use those
+- [04:59] existing platform to find mCP that you
+- [05:01] might be able to use but one really
+- [05:02] annoying thing of using other people's
+- [05:04] mCP at the moment is that even though
+- [05:06] there are mCP directories many of those
+- [05:08] mcps didn't actually work or it is very
+- [05:11] complicated to set up with incomplete
+- [05:13] documents I spent quite a lot of time
+- [05:14] testing different mcps and future down
+- [05:16] list of mcps that's both useful and
+- [05:18] useable I'll share this list in the AI
+- [05:20] Builder Club Community and building and
+- [05:22] I'll continue sharing new interesting
+- [05:23] mCP I found so if you're interested you
+- [05:25] can click on the link below to join my
+- [05:27] community but what I want to show you is
+- [05:29] a few MC that I personally use a lot
+- [05:31] that really boost my productivity and
+- [05:32] the first mCP I want to introduce is
+- [05:34] browser tools this mCP that give your
+- [05:36] cursor access to your browser console
+- [05:38] log and network tabs directly so that
+- [05:41] they can run your app debugging much
+- [05:42] easier and also allow you to communicate
+- [05:44] with cursor about specific element that
+- [05:46] you want to change on the you firstly
+- [05:48] you will need to clone their Chrome
+- [05:49] plugin so you can either run the command
+- [05:50] line get clone or you can use GitHub
+- [05:52] desktop app and clone this specific
+- [05:54] Ripple and once it's done you can click
+- [05:56] on the settings in your Chrome extension
+- [05:58] and click on load on compact then choose
+- [06:00] Chrome extension folder from the browser
+- [06:02] 2 mCP folder as you see the browser 2
+- [06:04] mCP show up here and next we want to add
+- [06:07] mCP server to cursor you click on
+- [06:09] settings feature mCP server and just
+- [06:11] give a name browser tools and the type
+- [06:13] we choose command here we're need to
+- [06:15] copy this and paste in you can see it
+- [06:17] has list of tools from get console logs
+- [06:19] console Arrow Network Arrow screenshots
+- [06:22] as well as select element and the last
+- [06:23] step is that we want to run the browser
+- [06:25] to mCP server so you can just open
+- [06:27] Terminal in any directory to MP X at
+- [06:30] agentes browser to server and then this
+- [06:32] server is running now if you go to any
+- [06:34] web page and open inspector you can see
+- [06:36] at top there have bar called browser 2
+- [06:38] mCP is debugging the browser which means
+- [06:41] you can actually go to cursor in agent
+- [06:43] mode just ask what's in my console lck
+- [06:45] and it will run this get console log to
+- [06:47] it'll be able to see all the console
+- [06:48] logs you have and also check if there's
+- [06:50] any arrow in console L apart from
+- [06:52] reading the console and network logs it
+- [06:54] also has cool features like guest L
+- [06:56] Elements which means you can go to your
+- [06:58] web browser right click in back so in
+- [07:00] here we select this specific element and
+- [07:02] then I can give prompt update only the
+- [07:04] style of element I choose in the browser
+- [07:06] right now to something fancier that
+- [07:08] looks like a real poket car then it will
+- [07:09] run this function called guest L element
+- [07:12] and return a specific diff and from
+- [07:13] there it identify it is car component
+- [07:15] and update that specific component and
+- [07:17] this is kind of fairly simple example
+- [07:19] but you can imagine for more complex
+- [07:21] applications this will allow you to
+- [07:23] communicate with cursor much easier and
+- [07:24] one of the coolest thing that mCP allow
+- [07:26] you to do is connect to any other
+- [07:28] service to enhance your cursor workflow
+- [07:30] for example what if cursor can call text
+- [07:31] to image model to generate all sorts of
+- [07:33] gaming assets like the background image
+- [07:35] and this is where you can create custom
+- [07:37] mCP server to connect any sort of
+- [07:39] service and here you can see I actually
+- [07:40] create my own mCP server with one of
+- [07:43] function called generate image so what I
+- [07:45] would do is I take a screenshot of how
+- [07:46] the game looks like right now help me
+- [07:48] generate different images of dogs for
+- [07:50] cards instead of emoji and click submit
+- [07:53] and then it will call this function to
+- [07:55] generate a image and it will return one
+- [07:58] and it will try to generate a few
+- [08:01] more all right so it generate a few
+- [08:03] different image so we have this new game
+- [08:05] called poy memory game and if you click
+- [08:08] on each one of them you can see that
+- [08:10] they are unique image that generated by
+- [08:13] the AI model and all those image are
+- [08:15] actually coordinated by cursor itself
+- [08:18] which is absolutely amazing and even
+- [08:20] though setting up mCP server does sounds
+- [08:22] like a lot of work when you look at mCP
+- [08:24] doc but it's actually not that
+- [08:26] complicated and you can use cloud flat
+- [08:28] where they provide a worker and mCP that
+- [08:30] basically give you the boy play of the
+- [08:31] mCP server you just need to build
+- [08:33] function yourself and I'm going to
+- [08:35] quickly show you how you can do that so
+- [08:36] I'm going to create a new folder with
+- [08:38] command line mpm create Cloud flare at
+- [08:42] latest so this one we set up a cloud
+- [08:44] flare project I will just name it my mCP
+- [08:47] and the example I will choose hell word
+- [08:49] and Hell World worker and language I
+- [08:51] will choose typescript and do we want to
+- [08:54] use git for the version of course we
+- [08:56] want and do we want to deploy for this
+- [08:58] one I'm going to choose use no but if
+- [09:00] you want you can also deploy it to use
+- [09:02] on other server or even share with
+- [09:03] others later cool the next step is our
+- [09:05] CD my mCP which is folder name and then
+- [09:08] do mpm so you can just paste this in if
+- [09:11] you restart Cloud you should be able to
+- [09:13] see a little toy icon show up here where
+- [09:16] it include all the functions that we
+- [09:18] have defined in those example file but
+- [09:20] if you want to activate this mCP for
+- [09:22] cursor what you will do is that you will
+- [09:24] put the command of this one space this
+- [09:26] one and this one and putting that
+- [09:28] together for my specific examp example I
+- [09:30] would just put this command line into
+- [09:32] cursor's mCP so I can add a new mCP and
+- [09:35] my mCP type will be command and paste
+- [09:38] that in and add you can see this tool
+- [09:40] has been added successfully and here is
+- [09:43] one tool called say hello if you open
+- [09:45] your mCP folder and select indexs this
+- [09:49] as we mentioned before is where you're
+- [09:50] going to store all the functions so here
+- [09:52] you can see this one function called say
+- [09:53] hello so the thing above is how we
+- [09:56] communicate when to use this tool the
+- [09:58] inputs and expand output format and here
+- [10:00] we have one function of say hello so
+- [10:03] what we can do is that we can open
+- [10:05] cursor or just say say hello for workers
+- [10:09] mCP server for me and now you can see it
+- [10:12] tried to call this tool called say hello
+- [10:14] and it return this result which is what
+- [10:16] you define here this is a very basic mCP
+- [10:19] function but you can imagine now you can
+- [10:21] write whatever function you want conect
+- [10:23] to external API service or even run
+- [10:25] local models directly and this is
+- [10:27] exactly how I write mCP to call image
+- [10:29] generation model post down replicate I
+- [10:31] can just choose the API service I can
+- [10:33] just copy the code example open cursor
+- [10:35] paste in and give prom help me write a
+- [10:37] new function that will generate image
+- [10:39] using a model host down replicate don't
+- [10:41] use any environment variable just put
+- [10:43] variable inside index.ts directly uh so
+- [10:46] this is not best practice but because
+- [10:47] cursor mCP unfortunately didn't allow
+- [10:50] you to set up environment variable very
+- [10:52] easily so we have to set the environment
+- [10:54] variable inside the file direct lay and
+- [10:56] I will also give some additional prompt
+- [10:58] the replicate API return a prediction
+- [11:00] object that needs to be pulled for
+- [11:02] completion not an immediate result and
+- [11:04] making sure pass result poply so this
+- [11:07] just some a common mistake I saw L model
+- [11:09] often make with replicate API aut box
+- [11:11] okay I'll click accept and at top we
+- [11:14] need to put the API key here and here
+- [11:16] you can see that it generate new
+- [11:17] function with description generate image
+- [11:19] using recraft V3 model and with two
+- [11:23] input param prompt and size and return
+- [11:26] the URL of gener image once it's
+- [11:28] finished I do PM round deploy this word
+- [11:30] deploys again and just for testing
+- [11:32] purpose I will use cloud to just quickly
+- [11:34] test it so I will close cloud and open
+- [11:37] Cloud again just quickly check the
+- [11:38] generate image is here so I say help me
+- [11:41] generate an image of Doc Val
+- [11:46] AI allow for this chat and I got an
+- [11:48] arrow saying fail to start image
+- [11:50] generation the specific version didn't
+- [11:52] exist I think it is using the wrong URL
+- [11:55] for some reason so I'm just going to
+- [11:58] copy this in again make sure you use the
+- [12:01] right URL and write inputs just like
+- [12:05] above code example okay once it's
+- [12:08] finished we can do npm R deploy to
+- [12:10] deploy the latest version and I'm going
+- [12:11] to restart Cloud to say help me generate
+- [12:14] a dog image well the reason I use cloud
+- [12:17] is because I don't want to keep restart
+- [12:20] my cursor it's just a bit easier but you
+- [12:21] don't have to you can also just testing
+- [12:23] cursor directly okay so you can see that
+- [12:26] it return this message of the image URL
+- [12:29] generated if I open that link it will
+- [12:30] show me this image generation so this
+- [12:32] how you can connect any sorts of
+- [12:33] functionalities and external assistant
+- [12:35] to your cursor I'm really excited to see
+- [12:37] what kind of things you're going to come
+- [12:38] up with and most annoying thing about
+- [12:40] mCP now is that many of them just kind
+- [12:42] of don't work out of box it's almost
+- [12:45] easier to build your own so I spent
+- [12:47] quite a few time to like test different
+- [12:48] mCP server choose the ones that I use a
+- [12:51] lot and I'm putting the AI build club
+- [12:53] and building so if you're interested you
+- [12:55] can click on the link below to join the
+- [12:56] community where I will be maintaining a
+- [12:58] list of high quality mCP that I found is
+- [13:00] extremely useful for AI coding as well
+- [13:02] as some custom ones that I develop
+- [13:04] myself you can click the link in the
+- [13:05] description below to join my community I
+- [13:08] hope you enjoy this content if you enjoy
+- [13:10] please comment below I'll post more in
+- [13:11] depth tutorial about mcps in AI coding
+- [13:14] thank you and I see you next time

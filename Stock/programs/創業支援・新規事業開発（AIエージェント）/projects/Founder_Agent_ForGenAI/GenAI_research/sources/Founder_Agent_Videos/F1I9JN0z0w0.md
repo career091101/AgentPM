@@ -1,0 +1,864 @@
+---
+title: "Most AI agents and MCP servers are built to only work with a single user, you."
+video_id: "F1I9JN0z0w0"
+video_url: "https://www.youtube.com/watch?v=F1I9JN0z0w0"
+speaker: "using"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Most AI agents and MCP servers are built to only work with a single user, you
+  But in this video, I want to help you move beyond that
+  Because here's the thing, a lot of times we build our AI agents and we want to scale them to thousands or millions of users
+key_points:
+  - "user, we have to change these credentials, maybe duplicate the agent"
+  - "use a Gmail tool on behalf of this user"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:13:11+09:00"
+---
+
+# Transcript: F1I9JN0z0w0
+
+- URL: https://www.youtube.com/watch?v=F1I9JN0z0w0
+- Retrieved at: 2025-12-30T10:13:11+09:00
+
+## Text
+
+- [00:00] Most AI agents and MCP servers are built
+- [00:03] to only work with a single user, you.
+- [00:06] And a lot of times that's okay. But in
+- [00:08] this video, I want to help you move
+- [00:09] beyond that. Because here's the thing, a
+- [00:12] lot of times we build our AI agents and
+- [00:14] we want to scale them to thousands or
+- [00:16] millions of users. But also, our agent
+- [00:19] needs to be personalized, personal
+- [00:21] memory and tools for every single user.
+- [00:25] And there is a fundamentally different
+- [00:27] way that we have to build our agents if
+- [00:29] we want that to actually work because
+- [00:31] most agents are built with a single
+- [00:34] Gmail account in mind or a single Slack
+- [00:36] account or a single rag knowledge base
+- [00:38] and that my friend will not scale. Now
+- [00:40] I'm using N8N here just because it helps
+- [00:42] me demonstrate things very visually for
+- [00:44] you. But this is a problem that we have
+- [00:46] no matter where we are building our AI
+- [00:48] agents and MCP servers. We build
+- [00:51] something that needs personalization.
+- [00:53] Like in this case, it's a very basic
+- [00:55] example of an email assistant agent. And
+- [00:58] so we have a couple of tools to manage
+- [00:59] our inbox in Gmail. You can obviously
+- [01:02] imagine adding a lot more tools to
+- [01:03] extend this quite a bit. But the thing
+- [01:05] that I'm trying to show you here is that
+- [01:07] if we click into any one of these Gmail
+- [01:08] nodes, we have our credentials
+- [01:10] essentially hardcoded into the agent.
+- [01:13] And we see this all of the time. And so
+- [01:15] as soon as we want to bring in a second
+- [01:17] user, we have to change these
+- [01:18] credentials, maybe duplicate the agent.
+- [01:21] Obviously not ideal. What we really want
+- [01:24] here is for this agent or this MCP to be
+- [01:27] able to go through an authorization flow
+- [01:30] with the user. So they connect their
+- [01:32] Gmail account and the agent will
+- [01:33] dynamically use the Gmail account based
+- [01:35] on the user interacting with the agent.
+- [01:38] We can have that kind of personalization
+- [01:40] for memory as well. So we're combining
+- [01:42] memory and tools. And the other thing
+- [01:44] that'd be really ideal is if the agent
+- [01:46] would only go through this authorization
+- [01:48] flow when the time comes for it to first
+- [01:51] use a Gmail tool on behalf of this user.
+- [01:55] These are the kinds of things that are
+- [01:57] actually quite challenging to build
+- [01:59] ourselves. And trust me, I have tried.
+- [02:01] But in this video, I have you covered.
+- [02:03] I'll show you how we can build
+- [02:04] personalized AI agents that actually
+- [02:06] scale. We'll be using Langraph, which is
+- [02:09] one of my favorite agentic frameworks.
+- [02:11] and they have some awesome features for
+- [02:12] long-term memory that we'll be using.
+- [02:14] And we'll be also using a platform
+- [02:16] called Arcade. Now, Arcade is the key
+- [02:18] here for solving the authentication and
+- [02:21] scaling nightmare for tools that I can
+- [02:23] almost guarantee you wouldn't want to
+- [02:25] build yourself because this is what MCP
+- [02:28] wishes it had. We can take our AI agents
+- [02:31] and we can have them dynamically request
+- [02:33] access to user accounts for different
+- [02:35] services and we go through an OOTH flow.
+- [02:37] So, we have scopes for security and
+- [02:39] permissions. We can cache these
+- [02:41] credentials going forward so our agents
+- [02:42] don't have to ask again. And also we can
+- [02:44] build our own tools into the platform.
+- [02:47] And then for icing on the cake here, we
+- [02:50] also are only asking for permission when
+- [02:52] the time comes for our agent to use one
+- [02:54] of these services on behalf of our user
+- [02:56] for the very first time. It's very
+- [02:59] powerful. All right, so I'm going to
+- [03:00] give you a really cool demo now of the
+- [03:02] agent we're going to build in this video
+- [03:04] and it's using langraph and arcade under
+- [03:07] the hood. So, I have a basic streamlet
+- [03:09] interface that I built for demonstration
+- [03:11] purposes. I'm signed into my account
+- [03:13] here with my email. This is the Langraph
+- [03:15] workflow that I'll show you how to build
+- [03:17] later in this video that we have
+- [03:18] operating under the hood. So, we have
+- [03:20] our agent node. We have its tools and
+- [03:22] then we also have this authorization
+- [03:24] step whenever our agent needs to get
+- [03:26] access to a user's account to use some
+- [03:28] tools in arcade for the first time. Now,
+- [03:30] I have specifically revoked my access to
+- [03:33] a sauna and Gmail so that you can see
+- [03:35] the flow for the first time. So, no
+- [03:37] connected users in Arcade right now.
+- [03:39] I'll go ahead and send in a request.
+- [03:41] I'll say, "Grab all my emails in my
+- [03:42] inbox and tell me what Cole said because
+- [03:45] just for demonstration purposes, I sent
+- [03:47] myself an email here. AI SAS ideas using
+- [03:51] Arcade." And so, just a few ideas of
+- [03:53] platforms that I mean, you could build
+- [03:54] without Arcade, but Arcade is going to
+- [03:56] solve that huge problem of agent
+- [03:58] authorization. And it's just so cool. I
+- [04:00] reached out to Arcade and I partnered
+- [04:02] with them to bring this video to you
+- [04:04] because there really is a whole new
+- [04:06] suite of agents and SAS platforms that
+- [04:08] we can build thanks to them solving
+- [04:10] agent authorization. So yeah, here we
+- [04:12] go. So it asks us to visit this URL and
+- [04:15] obviously you can make a much nicer UI
+- [04:16] here, but I'm just going to go ahead and
+- [04:17] click on this link. And so we'll sign in
+- [04:20] with our Google account and we will
+- [04:22] authorize based on specific scopes what
+- [04:24] we want Arcade to do with our Google
+- [04:26] account so it can operate on our behalf.
+- [04:28] So the authorization is successful. I
+- [04:30] can go back here and now in a second.
+- [04:32] There we go. So Cole has said in his
+- [04:34] email, here are his five SAS ideas. Take
+- [04:36] a look at that. And then just to
+- [04:38] continue with something simple here, I
+- [04:40] can say now look in my SAS ideas project
+- [04:42] and tell me which ones I'm missing. So
+- [04:44] I'm going to send in this request. I'll
+- [04:46] show you what I'm talking about here. So
+- [04:47] within my ASA, I have this SAS ideas
+- [04:50] project and I'm listing three out of the
+- [04:52] five that I sent myself in an email. And
+- [04:55] the really cool part here is that now
+- [04:57] it's asking for my authorization for a
+- [05:00] sauna. And so we can see how whenever we
+- [05:02] first need access to a specific tool,
+- [05:05] that's when it asks for access. It's not
+- [05:07] like we have to do our Gmail and a sauna
+- [05:09] and every other tool we connected all up
+- [05:11] front. It's just in time authorization.
+- [05:14] And so I can click on this link and
+- [05:16] we'll go through a very similar process
+- [05:18] here. In my case, I already went through
+- [05:19] it. So it's just kind of a oneshot
+- [05:20] there. And all right. So now in a second
+- [05:22] it's going to list out everything in my
+- [05:24] ASA and it's going to find the
+- [05:26] difference between what it just had here
+- [05:28] and then what we have in ASA. There we
+- [05:29] go. The ideas that are not currently in
+- [05:31] your SAS project is social media growth
+- [05:34] agent and calendar and task life
+- [05:36] management. And then it asks if I want
+- [05:38] to add them to my SAS project so I can
+- [05:40] keep going forward with this. But then
+- [05:42] the other thing that I want to show you
+- [05:43] here is long-term memory. So, I set it
+- [05:45] up in a way where I can say remember,
+- [05:47] that's my keyword here, telling the
+- [05:48] agent to remember something for later
+- [05:50] for my user specifically. So, I'm just
+- [05:53] saying remember these tasks for later.
+- [05:55] So, this is going to use a long-term
+- [05:57] memory that is built into Langraph.
+- [05:59] There we go. I've remembered these tasks
+- [06:00] for later. And I can actually start a
+- [06:02] brand new conversation and I can ask it
+- [06:04] what are the tasks that I asked you to
+- [06:07] remember. All right. So, now leveraging
+- [06:09] the long-term memory here because it is
+- [06:10] a brand new conversation. There we go.
+- [06:13] You asked me to remember social media
+- [06:14] growth agent and calendar and task life
+- [06:17] manager. There we go. So, we've got
+- [06:18] long-term memory. We've got tools
+- [06:20] specific to the user with authorization
+- [06:22] that's just in time. This is the kind of
+- [06:25] personalized agent that we can really
+- [06:26] bring to everyone. So, there we go.
+- [06:28] We've got long-term memory. We've got
+- [06:30] tools that are specific to the user.
+- [06:32] Like, if I went and I signed into a
+- [06:33] different account here, it's going to go
+- [06:35] through the same authorization flow for
+- [06:36] Gmail and ASA. I'll have a completely
+- [06:39] different set of memory. So, it's not
+- [06:40] going to give me the same answer when I
+- [06:42] ask this question. This is the kind of
+- [06:44] personalized agent that we can bring to
+- [06:46] everyone and scale to millions. All
+- [06:48] right. So, now that you know what you're
+- [06:49] getting yourself into, let's dive into
+- [06:51] how we build this agent. So, I'll have a
+- [06:53] GitHub repo linked in the description
+- [06:55] below where we have the agent there that
+- [06:57] you can try yourself. And in the read
+- [06:59] me, I've got instructions for setting up
+- [07:00] everything. And then what we're going to
+- [07:02] go over here is a progression. So, I'm
+- [07:04] going to start by covering the
+- [07:06] fundamentals, the basics of Arcade and
+- [07:09] how we have the Asian authorization
+- [07:11] built in. Then, we'll dive into more of
+- [07:13] the langraph integration and how that
+- [07:15] works with Arcade. And then, finally,
+- [07:17] we'll add in the Streaml interface and
+- [07:19] long-term memory for the complete agent
+- [07:21] that I just demoed for you. And the
+- [07:23] thing is, even if you don't end up
+- [07:24] building with Arcade, which obviously I
+- [07:26] would recommend doing, I reached out and
+- [07:28] partnered with them to bring you this
+- [07:29] guide for a reason. Even if you don't
+- [07:32] build with Arcade, I still want to dive
+- [07:34] into the core concepts, the fundamentals
+- [07:37] of how exactly we build these kinds of
+- [07:39] agents so we can have personalization
+- [07:41] that scales to thousands and millions of
+- [07:44] users. And so that's what we're covering
+- [07:45] in this repository. This is the resource
+- [07:47] that I have for you. And getting started
+- [07:50] with Arcade is so, so easy. And so you
+- [07:53] can sign up. They got a free tier that
+- [07:54] can definitely get you started in your
+- [07:56] development. And then they have the
+- [07:58] documentation. So, I'll link to Arcade
+- [08:00] and their documentation below as well.
+- [08:02] And man, their documentation just makes
+- [08:04] it so easy to get started. So, certainly
+- [08:06] poke around with the documentation if
+- [08:08] you're interested in using Arcade. They
+- [08:09] got a lot here, including a really nice
+- [08:12] quick start. But specifically, the
+- [08:15] section of the documentation that I'm
+- [08:16] really interested in, if I go into
+- [08:18] Langchain, they have a guide here using
+- [08:20] Langraph with Arcade. And this really is
+- [08:22] just a beautiful combination because of
+- [08:24] the way that Lang graph helps us build
+- [08:26] these agentic workflows that are
+- [08:28] necessary to have those authorization
+- [08:31] steps kind of just built right into our
+- [08:33] agent. And so that's why I'm using
+- [08:34] Langraph here. And they show you how to
+- [08:37] set up your environment like installing
+- [08:38] your pip packages, setting up your
+- [08:40] environment variables. And then a lot of
+- [08:41] the code that we see here is going to
+- [08:43] look very similar to what I'm going to
+- [08:45] show you when we dive into our agent.
+- [08:47] And what you can do with Langraph is
+- [08:49] they have all these preconfigured tools
+- [08:51] for things like Firecrawl or Gmail or
+- [08:53] Asauna like we saw or Slack or Jira,
+- [08:56] Reddit. They have all of these
+- [08:57] preconfigured tools that we can bring
+- [08:58] into our agents just with a couple of
+- [09:01] lines of code. We can also add in our
+- [09:02] own tools and MCP servers as well. So
+- [09:06] very easy to get everything up and
+- [09:07] running with this in mind. And this is
+- [09:09] our documentation as our reference
+- [09:11] point. Now let's dive into what this
+- [09:12] looks like for our agent. All right, so
+- [09:14] back to our readme. Let's scroll down to
+- [09:16] our progression section cuz I want to
+- [09:18] start with the basics of Arcade, laying
+- [09:20] the foundation of how we can connect
+- [09:22] Arcade to Langraph and have the Asian
+- [09:24] authorization for our tools. And I'm
+- [09:27] actually pretty excited to dive into
+- [09:28] this with you. I've been so focused on
+- [09:30] AI coding recently that I haven't had
+- [09:32] one of these guides in a while where I
+- [09:34] just go through building a script step
+- [09:36] by step. So, I'm looking forward to
+- [09:37] this. And so, what we're going to be
+- [09:39] doing is building out the first version.
+- [09:41] And so we're going to actually create
+- [09:42] this graph at a very high level and I'll
+- [09:45] show you what it looks like to connect
+- [09:46] the different tools that we have in
+- [09:47] Arcade. And so you can follow the readme
+- [09:50] to understand like you know how you
+- [09:51] leverage the requirements.ext and the
+- [09:54] example to set up your environment. I'm
+- [09:55] assuming you have all that taken care
+- [09:57] of. And so we can start by importing all
+- [09:59] the packages that we need and setting
+- [10:01] our environment variables. So we just
+- [10:03] need to set our Arcade API key which you
+- [10:05] can just do within the settings in your
+- [10:07] Arcade dashboard here. And then we need
+- [10:09] our OpenAI API key. We're just using GPT
+- [10:11] for our model here. And we can define
+- [10:13] the exact one we like, like GPT 4.1
+- [10:16] mini, and then also the email that we're
+- [10:18] using for authorization. And this will
+- [10:20] be more dynamic once we get to one of
+- [10:21] the more advanced parts of our
+- [10:23] progression. And so then what we're
+- [10:24] going to do is create an instance of the
+- [10:26] tool manager. This is the primary class
+- [10:29] in the Arcade SDK where we can define
+- [10:32] the tools that we want to bring into our
+- [10:34] agent. And so we'll actually do that
+- [10:36] right now. So we'll call
+- [10:37] manager.gettools.
+- [10:39] And then we passed in a couple of tool
+- [10:40] kits here for Gmail and ASA just like we
+- [10:43] saw in our demo. And so these are the
+- [10:45] preconfigured tools. They come out of
+- [10:47] the box with Arcade and we can just plug
+- [10:49] them right into our agents. It's really
+- [10:50] convenient. And then we can also build
+- [10:52] our own tools and connect our own MCP
+- [10:54] servers as well, which is outside of the
+- [10:56] scope of this guide, but I just want to
+- [10:57] call that out and you can definitely go
+- [10:58] to the documentation to add that as
+- [11:01] well. Then once we have all of our
+- [11:03] tools, we can call this to lang chain to
+- [11:05] basically just take the tools that we
+- [11:06] have in arcade and then use their direct
+- [11:08] integration to turn it into the tools
+- [11:11] that we can then pass directly into a
+- [11:13] chat openai instance that we create from
+- [11:15] langchain. Now I don't cover lang chain
+- [11:17] a lot on my channel. I generally use
+- [11:19] pideantic AI for my agent framework, but
+- [11:21] this is just what works really well with
+- [11:23] arcade and also we're not focusing too
+- [11:25] much on lang chain here. We're just
+- [11:26] using it to create our connection to the
+- [11:28] LLM. And then the rest of the heavy
+- [11:30] lifting is going to be done with
+- [11:31] langraph. And I definitely cover lang
+- [11:33] graph a lot on my channel. So yeah, we
+- [11:36] define our chat openaii instance. We
+- [11:38] bind the tools that we've created from
+- [11:40] arcade. And then we can create our
+- [11:42] langraph workflow. So we're just using
+- [11:44] an in-memory saver right now. And then
+- [11:45] we're calling this create react agent.
+- [11:47] So this is a pre-built component from
+- [11:49] Langraph. In the next step of our
+- [11:51] progression, I'll show you more how we
+- [11:53] can actually build the langraph workflow
+- [11:54] ourselves. So you see how it works under
+- [11:56] the hood. But basically what we're
+- [11:58] building here is the flow that we
+- [12:00] already saw. So the request from the
+- [12:02] user comes into the agent and then the
+- [12:04] agent is going to figure out just like
+- [12:06] we typically have with AI agents. Do I
+- [12:09] need to invoke a tool or can I give the
+- [12:11] final response to the user right away?
+- [12:13] And so if it doesn't need to invoke any
+- [12:14] tools, we'll just go right to end and
+- [12:16] it'll give that simple response.
+- [12:18] Otherwise, we are either going to go to
+- [12:20] tools or to authorization. And it's all
+- [12:23] based on if we already have the
+- [12:25] authorization for the user's account set
+- [12:27] up in Arcade. And so like in my
+- [12:29] dashboard right here, my account is
+- [12:31] already connected with Asauna and Gmail.
+- [12:33] So I've already given the agent the
+- [12:35] ability to use the accounts on my
+- [12:37] behalf. And so if I were to go in and
+- [12:39] ask it to list the emails in my inbox
+- [12:41] right now, like just within the Streamla
+- [12:43] interface here, then it's going to go
+- [12:45] right to the tools node because it
+- [12:47] already has that access. So it'll invoke
+- [12:48] the tool. the control will go back to
+- [12:50] the agent and it'll reason about what
+- [12:52] happened and then give the final
+- [12:53] response to the user or invoke another
+- [12:55] tool. But if I haven't given access yet,
+- [12:58] like if I start with a new account or I
+- [13:00] go back in the dashboard and I revoke
+- [13:02] the access here, then it has to go to
+- [13:04] the authorization step first. So it'll
+- [13:06] get the authorization for my Gmail
+- [13:08] account or my Jira account, whatever,
+- [13:10] then go to the tool node, invoke that
+- [13:12] tool, then go back to my agent. And so
+- [13:14] this is very much like our usual AI
+- [13:17] agent flow that we have and we've seen
+- [13:19] before, I've covered it on my channel.
+- [13:20] It's just we have this one extra node
+- [13:22] here for authorization. So it's a very
+- [13:24] simple addition, but it unlocks this
+- [13:26] whole new world of possibilities for
+- [13:28] personalized agents that can scale to
+- [13:30] thousands of users. And so this is what
+- [13:33] we're building here. And so we create
+- [13:34] the React agent. We pass in the tools
+- [13:36] and the model. And then we're going to
+- [13:38] define our configuration. And so this is
+- [13:41] everything that we're passing into the
+- [13:42] lang graph flow and then we'll just go
+- [13:44] ahead and call it. So it's just
+- [13:45] graph.stream. We pass in the user input
+- [13:48] and our configuration and we just print
+- [13:49] out everything that we get back from the
+- [13:51] graph. And then the last thing that
+- [13:53] we'll dive into more as we continue here
+- [13:55] as well is we have the whole concept of
+- [13:57] interrupts in langraph. And so
+- [13:59] specifically when we reach the
+- [14:01] authorization node, we actually have to
+- [14:04] pause the graph entirely because we need
+- [14:06] to wait for the user to authorize the
+- [14:09] agent to access their Gmail account or
+- [14:11] whatever that might be. And so Arcade
+- [14:14] has this direct integration with Lang
+- [14:15] Graph where whenever we hit this stage,
+- [14:18] it's going to pause the graph with this
+- [14:20] interrupt and then we would authorize
+- [14:22] the account and then the graph needs to
+- [14:25] resume and we'll continue on with the
+- [14:27] tool call and then getting the final
+- [14:29] response from the agent. And for this
+- [14:31] first basic implementation, that
+- [14:33] automated step where we'd actually
+- [14:35] resume the graph after authorization,
+- [14:38] we're not doing that here, but we'll see
+- [14:39] in a little bit what that actually looks
+- [14:41] like. But this is everything that I want
+- [14:42] to show you for a very basic
+- [14:44] implementation just so that we can see
+- [14:45] what it looks like to define the tools
+- [14:47] in arcade and then integrate that with
+- [14:50] langraph. And so now within my terminal
+- [14:52] here, I'll bring this over and we can go
+- [14:54] ahead and call Python and then I'll say
+- [14:55] arcade one basics.py. So I'll go ahead
+- [14:59] and kick this off. Actually off camerara
+- [15:00] I did change the question by the way
+- [15:02] just to match with our demo from earlier
+- [15:04] but it's going to go through the
+- [15:05] authorization flow. In my case I already
+- [15:07] did give it access to my Gmail account
+- [15:09] earlier. So, it's just going to go and
+- [15:10] fetch the contents, the five SAS ideas
+- [15:12] from the email that I sent myself
+- [15:14] already. So, I'll pull my terminal back
+- [15:16] up. And there we go. Here are my five AI
+- [15:19] SAS ideas. This is looking really good.
+- [15:22] And then the other thing that we can do,
+- [15:23] I'll show you this really quick. If we
+- [15:24] go back into Arcade and I revoke my
+- [15:27] access to my email. So, now I I have to
+- [15:30] go through the authorization flow again.
+- [15:32] And then I clear this. Let me zoom back
+- [15:34] out and I'll run the same thing again.
+- [15:36] Now, it's not going to give us an
+- [15:38] answer. It's instead going to give us a
+- [15:40] link because we need access now. So
+- [15:41] there we go. So it ends the flow here.
+- [15:44] But we'll see in the next iteration when
+- [15:46] we get into integrating more with Lang
+- [15:47] graph, we can make it so that it'll give
+- [15:50] the link, we'll authorize, and then
+- [15:52] it'll continue on right away without us
+- [15:54] having to rerun anything like we saw in
+- [15:56] the demo earlier. Okay. So now on to the
+- [15:59] second step of our progression here. I
+- [16:01] want to show you more how langraph works
+- [16:03] along with arcade. This is where we
+- [16:05] really start to understand this pattern
+- [16:08] of authorization that's going to apply
+- [16:10] no matter the tool or platform that
+- [16:12] we're using for agent authorization. And
+- [16:14] so I've got the second script that we're
+- [16:16] going to go through from scratch. Again,
+- [16:17] covering a lot of the same things. So
+- [16:19] I'll go a little bit quicker here, but
+- [16:20] then talking about more specifically how
+- [16:22] exactly we've built up this graph in
+- [16:25] Langraph. And the documentation that I'm
+- [16:28] referencing for this is the second page
+- [16:30] in the lang chain section on user
+- [16:32] authorization. And so a lot of the code
+- [16:34] that you see and you can reference here
+- [16:36] is what we're going to be covering in
+- [16:37] our repo. And so starting off with the
+- [16:39] same kind of deal here. We're importing
+- [16:41] all of our libraries, setting our
+- [16:42] environment variables for things like
+- [16:44] our Arcade API key and OpenAI API key.
+- [16:47] And then we're going to create that same
+- [16:49] tool manager. I'm just going to keep
+- [16:51] things simple and include the same tools
+- [16:53] throughout all these demos here. So
+- [16:54] we've got Gmail and ASA again. Going to
+- [16:57] convert those to Langchain, build up our
+- [16:59] chat, OpenAI, and then I also have this
+- [17:01] tool node. This is one of the nodes that
+- [17:03] we have in lang graph specifically for
+- [17:05] executing a tool once the agent has
+- [17:07] decided that it wants to do so. And
+- [17:09] we'll see how that plays in with the
+- [17:10] rest of the graph in a second here. Then
+- [17:12] we can define our workflow. This is
+- [17:14] where we define all of the nodes that we
+- [17:17] want in our langraph flow and we'll
+- [17:19] connect them together at the end as
+- [17:21] well. And so starting with our primary
+- [17:23] node to call the agent. So going back to
+- [17:26] the langraph studio here, we're defining
+- [17:29] this purple node right here. And so all
+- [17:31] we have to do is take in the messages.
+- [17:34] And so we're going to have this with
+- [17:35] conversation history as well and we're
+- [17:37] going to pass that into the model. So
+- [17:39] we're going to call the a stream
+- [17:40] function so we can get the tokens out in
+- [17:42] real time as they're being streamed from
+- [17:44] the LLM. And so we're going to just
+- [17:46] write those out like this. And then
+- [17:48] we're going to accumulate any of the
+- [17:49] tool calls that the agent has decided to
+- [17:52] make. And so we build up this list over
+- [17:54] time because then if we do have any tool
+- [17:56] calls, we have to go to these nodes
+- [17:58] here. Otherwise, we'll just give the
+- [18:00] final response to the user and go to the
+- [18:02] end of the graph. So, accumulated list
+- [18:04] of tools right here and then adding into
+- [18:06] the message history. So, we're building
+- [18:07] up the message history over time, which
+- [18:09] we're maintaining as a part of the state
+- [18:12] for our LAN graph workflow. So, really
+- [18:14] the only state that we're keeping track
+- [18:15] of in our graph is the message history.
+- [18:19] And then we have a decision node. So, if
+- [18:22] the agent has decided to invoke tools,
+- [18:24] we have to go to the authorization and
+- [18:25] tool nodes. Otherwise, like I said,
+- [18:27] we'll just go to the end of the graph.
+- [18:29] And so this kind of decision point is
+- [18:31] what we're adding right here with this
+- [18:33] should continue function. So basically,
+- [18:34] we're just checking to see if there are
+- [18:36] any tool calls. We'll go to
+- [18:38] authorization if we require O. And so
+- [18:41] we're basically asking the Arcade tool
+- [18:43] manager here, is this a tool that
+- [18:45] requires authentication? And do we
+- [18:48] already have the authorization for this
+- [18:50] user and this account for this tool? If
+- [18:52] we do already have all that in place and
+- [18:54] we can just invoke the tool right away,
+- [18:56] then we'll go right to the tools node,
+- [18:58] which is what we've defined right here.
+- [19:00] Otherwise, we'll move on to the
+- [19:01] authorization step. So, this manager
+- [19:04] tells us which one of the two paths we
+- [19:06] have to go down here from our agent
+- [19:08] whenever we are invoking a tool. And so
+- [19:11] then we have our authorize step. And so
+- [19:13] this is where we figure out exactly like
+- [19:16] what's the URL that we need for for the
+- [19:18] OOTH for Gmail or Asauna or whatever
+- [19:20] that might be. And then we give that to
+- [19:22] the user. So we write this out to the
+- [19:23] CLI which we'll run in a second here. Um
+- [19:25] or our streamlin application. And then
+- [19:28] we're just going to call this manager.we
+- [19:30] for off. And so this is where we
+- [19:32] integrate directly with the whole
+- [19:33] interrupt that we have in langraph. The
+- [19:35] whole concept of an interrupt. And so
+- [19:37] we're actually going to stop the
+- [19:38] execution of the graph here. We're going
+- [19:40] to wait for the user to fulfill our
+- [19:42] authorization request. Then we'll move
+- [19:45] on to the next step of the flow where we
+- [19:47] actually execute the tool. we were
+- [19:49] waiting on authorization for. And that's
+- [19:51] everything. Those are all the nodes that
+- [19:52] we have for our graph. And so now we can
+- [19:54] just build our graph. So we have a
+- [19:55] simple function to do that where we
+- [19:57] define the state here which is just a
+- [19:59] simple message state because again the
+- [20:00] conversation history is the only thing
+- [20:01] that we care about here. And then we'll
+- [20:03] add our nodes. So we have the agent
+- [20:05] tools and authorization. And then we
+- [20:07] have all our edges. So we start with the
+- [20:09] agent and then from the agent we're
+- [20:11] either going to just give the final
+- [20:13] response and exit or go to authorization
+- [20:15] or tools. And then if we do go to
+- [20:17] authorization after we, you know, get
+- [20:19] the permission to use the user's
+- [20:21] account, then we'll go to tools.
+- [20:22] Otherwise, once we go to tools, we want
+- [20:25] to go back to the agent because we never
+- [20:27] end our workflow execution after
+- [20:30] executing a tool. We always want to
+- [20:31] invoke the tool and then pass control
+- [20:34] back to the agent because then the LLM
+- [20:36] is going to figure out like, okay, yes,
+- [20:38] my tool call was successful. Now I can
+- [20:40] tell the user like, yep, your tool was
+- [20:42] successful. Let me give you a summary of
+- [20:44] what happened. So we always want to do
+- [20:45] that and that's everything for our
+- [20:47] graph. So now we can just compile it
+- [20:48] with the in memory here. We'll add in
+- [20:50] Postgress later in the next example and
+- [20:53] we can return our graph and then we just
+- [20:55] have a simple main function to execute
+- [20:58] our graph very similar to what we did in
+- [21:00] the first example here. So that is it.
+- [21:03] Now we can go ahead and run the CLI and
+- [21:05] test this out. See how it works now
+- [21:06] where once we perform the authorization
+- [21:09] it'll automatically go on to our tool
+- [21:11] call. So now to test out our second
+- [21:13] implementation, I have a little CLI
+- [21:15] built that I'm not going to dive into
+- [21:16] right now. It's very similar to how we
+- [21:18] interacted with our lane graph graph in
+- [21:20] the first implementation. So I'll go
+- [21:22] ahead and run this. And then within my
+- [21:24] arcade dashboard, I revoked my access to
+- [21:26] aauna again. So we can see what the
+- [21:28] authorization flow looks like now that
+- [21:30] we have langraph more integrated. So
+- [21:31] it'll automatically pick back up after
+- [21:33] our authorization. So I can say what
+- [21:35] tasks do I have in my SAS ideas project?
+- [21:40] and then it'll give me the link to
+- [21:42] authorize with a sauna. There we go. So,
+- [21:44] I'm going to go ahead and copy this.
+- [21:46] Just do it really quickly on my other
+- [21:48] monitor here. Okay, so I've done the
+- [21:49] authorization and then in just a second
+- [21:52] here, it'll start listing out the tasks
+- [21:53] that I have. Just those three that I
+- [21:55] have in my project right now. And there
+- [21:56] we go. In my SAS ideas, I've got these
+- [21:59] three. So, this is looking really good.
+- [22:01] And because we have the direct
+- [22:02] integration with the interrupt here,
+- [22:05] we're able to ask for the authorization
+- [22:07] and then pick right back up without us
+- [22:10] having to re-execute the graph in any
+- [22:12] way. All right. So at this point, we
+- [22:14] understand the core pattern that we need
+- [22:16] to have for agents for agent
+- [22:18] authorization. So we can have tools that
+- [22:21] are acting on users behalfs with their
+- [22:23] services like Gmail and Asa. And so the
+- [22:25] last thing that I want to show you how
+- [22:26] to add here is long-term memory that is
+- [22:29] also custom to each user. So we can have
+- [22:32] hyperpersonalized memory and tools
+- [22:34] thanks to Arcade. And then some of the
+- [22:36] long-term memory stuff that I'll dive
+- [22:37] into with Langraph. And so I'll have
+- [22:39] this linked in the description as well.
+- [22:41] This is the documentation from Langraph
+- [22:43] for memory. They cover both short-term
+- [22:46] and long-term memory here, which we're
+- [22:47] going to be focusing on long-term
+- [22:49] memory. So this page right here is
+- [22:51] definitely worth a read. And everything
+- [22:52] that we're about to implement is coming
+- [22:54] from this. And so within the third
+- [22:56] example that I have in the GitHub repo
+- [22:57] for you, most of our langraph setup here
+- [23:00] and our integration with arcade looks
+- [23:02] exactly the same. So all this code that
+- [23:04] I'm scrolling through right here is
+- [23:06] pretty much the same. What really is
+- [23:08] different though is we're using
+- [23:09] Postgress first of all to store our
+- [23:12] checkpointers. That's our interrupts to
+- [23:13] handle the authorization. So we know
+- [23:15] where we need to pick back up in our
+- [23:17] graph. And then also we have this new
+- [23:19] concept of a store. The store is for our
+- [23:22] long-term memory. And so specifically
+- [23:25] the way that I've set it up here, and
+- [23:26] you could definitely set up long-term
+- [23:28] memory in many different ways. You could
+- [23:29] also integrate with me zero, which is a
+- [23:31] long-term memory solution that's open
+- [23:32] source and I've covered on my channel a
+- [23:34] lot. I'm just trying to build something
+- [23:36] really simple into Langraph right here.
+- [23:38] But specifically, what I've added to
+- [23:40] this flow is it's going to check to see
+- [23:43] if the keyword remember is anywhere in
+- [23:46] the user's message. because if it is,
+- [23:48] that is our way to clue the AI agent
+- [23:50] that we want to leverage long-term
+- [23:51] memory and store this message so it can
+- [23:53] pick it back up later. And so if that is
+- [23:56] the case, we're going to call this aput
+- [23:58] function of the store. And we're going
+- [24:00] to add in the data, which is basically
+- [24:02] going to be our user request, which we
+- [24:04] told it to remember. And this nameace
+- [24:06] here, if I go back to where we defined
+- [24:08] the namespace, we're specifying the
+- [24:10] unique user ID, which in this case, now
+- [24:14] that we have streamllet in the mix, and
+- [24:15] that this is based off the demo that I
+- [24:17] showed you earlier, we actually sign in
+- [24:19] with superbase. And so if you take a
+- [24:21] look at the example and you set it up
+- [24:23] yourself, we define the Superbase URL
+- [24:26] and key. So we have Superbase
+- [24:28] authentication. So this is actually very
+- [24:30] very dynamic where this user ID is going
+- [24:33] to be based on the email we use to sign
+- [24:35] in with superbase. And so we're storing
+- [24:36] long-term memories in our Postgress
+- [24:38] database unique to each user. That is
+- [24:41] the main thing that we're adding in
+- [24:42] here. So when we call our agent, the
+- [24:44] main thing that's different is we fetch
+- [24:46] those memories and we pass that in as a
+- [24:48] part of the prompt to our agent. And
+- [24:50] then if we have the remember keyword,
+- [24:52] we'll also store the memories from that
+- [24:54] last user message as well. And so then I
+- [24:56] also built a streamlet interface around
+- [24:58] this which I'm not going to dive into
+- [25:00] how I configured all of this. You can
+- [25:01] take a look at the code if you're
+- [25:03] interested. But this is our way to now
+- [25:05] interact with the agent that now has
+- [25:06] custom tools and memory for each user.
+- [25:09] So back over to the stream interface
+- [25:11] that I showed in the demo earlier and
+- [25:12] I've got instructions in the readme for
+- [25:14] spinning this up. I'm going to go ahead
+- [25:15] and create a brand new account here. So
+- [25:17] I've already done a lot of demoing of
+- [25:18] the arcade tools and how the
+- [25:20] authorization flow looks like. So maybe
+- [25:21] I'll just show the memory really quickly
+- [25:23] here. So, I'll make a brand new account
+- [25:24] so we can show that we do have distinct
+- [25:26] memories for different users. So, I'll
+- [25:27] just use one of my throwaway emails here
+- [25:30] just to get a new account here with
+- [25:32] Superbase. I'll add in my full name. I
+- [25:35] will sign up. All right, there we go.
+- [25:38] So, I'm logged into a new account and
+- [25:39] now I can just say like remember these
+- [25:42] tasks. I need to um build a new app and
+- [25:47] also uh do my laundry. All right. So,
+- [25:50] we're going to go ahead and remember
+- [25:51] these tasks. And then I'll show that
+- [25:52] like in a brand new conversation, we
+- [25:54] have these tasks remembered. There we
+- [25:56] go. All right. So, new conversation. Uh,
+- [25:58] what tasks did I tell you to remember
+- [26:02] for me? All right. So, now it should say
+- [26:04] do the laundry and build a new app.
+- [26:07] There we go. Yep. Build a new app. Do
+- [26:08] your laundry. Perfect. But now, if I log
+- [26:10] out of this account and then I log back
+- [26:13] into the original one that I was using
+- [26:15] for the demo at the start of this video.
+- [26:18] So, let me log into this. And now I ask
+- [26:20] the same exact question. What tasks did
+- [26:23] I ask you to remember? Now, we'll get,
+- [26:26] if you remember from the start of the
+- [26:27] video, some of the tasks that we had in
+- [26:29] the email that I had. There we go.
+- [26:30] Social media growth agent, calendar, and
+- [26:32] task life manager. So, perfect. We now
+- [26:35] have long-term memory individual for
+- [26:36] each user. And our agent can access our
+- [26:39] individual ASA and Gmail accounts. There
+- [26:41] are really powerful ways you can combine
+- [26:43] this together as well where the way that
+- [26:45] it does things in our ASA and Gmail can
+- [26:47] be based off of memories that we gave it
+- [26:49] like giving it instructions for it to
+- [26:51] remember on how we want it to operate
+- [26:52] with our account. So basically every
+- [26:54] single user can have a little individual
+- [26:57] system prompt essentially for how it
+- [26:59] wants the agent to operate for them so
+- [27:01] that we don't just have to rely on a
+- [27:03] single massive system prompt instructing
+- [27:05] the agent on how to do things on users
+- [27:07] behalf and they can really get custom
+- [27:08] with it as well. So, that's the power of
+- [27:10] combining Arcade with long-term memory
+- [27:12] and really everything that I had for you
+- [27:14] in this video. So, definitely check out
+- [27:16] Arcade. There are they are a fantastic
+- [27:18] platform. It's free to get started. you
+- [27:20] can build these agents that really just
+- [27:22] unlock a whole new world of
+- [27:23] possibilities for the kind of platforms
+- [27:25] that you can build that I mean sure you
+- [27:28] could implement agent authorization
+- [27:29] yourself but if you really think about
+- [27:31] what goes on behind the scenes to manage
+- [27:33] the authorization and being able to like
+- [27:35] scale the thousands of users and maybe
+- [27:37] building a dashboard like this yourself
+- [27:39] like Arcade just takes care of so much
+- [27:41] for you and combining that with memory
+- [27:42] man it is just a gamecher so I hope that
+- [27:45] you enjoyed this guide and just getting
+- [27:46] an understanding of what this Asian
+- [27:48] authorization pattern looks like. And so
+- [27:50] if you're looking forward to more things
+- [27:52] with AI agents and building these kind
+- [27:55] of solutions, definitely give me a like
+- [27:57] and a subscribe as well. Thank you for
+- [27:59] watching and I will see you in the next

@@ -1,0 +1,1188 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=oOylEw3tPQ8"
+video_id: "oOylEw3tPQ8"
+video_url: "https://www.youtube.com/watch?v=oOylEw3tPQ8"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=oOylEw3tPQ8
+  - Retrieved at: 2025-12-30T16:17:37+09:00
+  - [00:00] For us, the end goal is to replace
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=oOylEw3tPQ8"
+  - "- Retrieved at: 2025-12-30T16:17:37+09:00"
+  - "- [00:00] For us, the end goal is to replace"
+  - "- [00:01] coding with something much better. I"
+  - "- [00:02] think that this is going to be a decade"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: oOylEw3tPQ8
+
+- URL: https://www.youtube.com/watch?v=oOylEw3tPQ8
+- Retrieved at: 2025-12-30T16:17:37+09:00
+
+## Text
+
+- [00:00] For us, the end goal is to replace
+- [00:01] coding with something much better. I
+- [00:02] think that this is going to be a decade
+- [00:05] where just your ability to build will be
+- [00:08] so magnified. If you keep pushing the
+- [00:10] frontier faster than other people, you
+- [00:12] can get really big gains occurring to
+- [00:13] you. Building a company's hard and so
+- [00:15] you may as well work on the thing that
+- [00:16] you're really excited about. And so
+- [00:17] yeah, we set off to work on uh the
+- [00:18] future of code.
+- [00:24] Welcome back to another episode of How
+- [00:25] to Build the Future. Today I'm joined by
+- [00:28] Michael Tru, co-founder and CEO of
+- [00:31] Anyphere, the company behind Cursor, the
+- [00:33] AI coding platform we all know and love.
+- [00:36] They recently hit a $9 billion valuation
+- [00:40] and are one of the fastest growing
+- [00:42] startups of all time, reaching a hundred
+- [00:44] million ARR just 20 months after
+- [00:48] launching. Michael, thanks for joining
+- [00:50] us. Thank you for having me. Excited to
+- [00:52] be here. You've said the goal of cursor
+- [00:55] is to actually invent a new type of
+- [00:57] programming uh where you can just
+- [00:59] describe what you want and it gets
+- [01:00] built. Talk to me about that. Yeah, the
+- [01:02] goal with the company is to replace
+- [01:05] coding with something that's much
+- [01:06] better. Me and my three co-founders,
+- [01:08] we've been programmers for a long time.
+- [01:10] More than anything, that's what we are.
+- [01:11] The thing that attracted us to coding is
+- [01:13] that you get to build things really
+- [01:15] quickly. to do things that are sort of
+- [01:17] simple to describe. Coding requires
+- [01:19] editing you know millions of lines of
+- [01:21] kind of esoteric formal programming
+- [01:22] languages uh requires you know doing
+- [01:25] lots and lots of labor to actually make
+- [01:27] things show up on the screen that are
+- [01:28] kind of simple to describe. We think
+- [01:29] that over the next 5 to 10 years it will
+- [01:31] be possible to invent a new way to build
+- [01:33] software that's higher level and more
+- [01:35] productive that's just still down to
+- [01:37] defining how you want the software to
+- [01:38] work and how you want the software to
+- [01:39] look. And so our goal with cursor uh is
+- [01:42] to get there and you know our path to
+- [01:44] getting there is to at any given point
+- [01:46] in time always be the best way to code
+- [01:48] with AI and then evolve that process uh
+- [01:51] you know evolve it away from normal
+- [01:52] programming to something that looks very
+- [01:54] different. So some people would say that
+- [01:56] is what we have today. You sort of
+- [01:57] describe what you want and out it comes.
+- [02:00] What would you say to that? Like are we
+- [02:02] there yet? You know what are the steps
+- [02:04] to where you really want to go? We're
+- [02:06] seeing the first signs of things really
+- [02:08] changing. Um I think you guys are
+- [02:10] probably on the forefront of it with YC
+- [02:12] because I think that in smaller code
+- [02:13] bases with smaller groups of people
+- [02:15] working on a piece of software that's
+- [02:16] where you feel the change the most
+- [02:18] already there we see people kind of
+- [02:20] stepping up above the code to a higher
+- [02:22] level of abstraction and just asking uh
+- [02:25] essentially agents uh and AIS to make
+- [02:27] all the changes for them in the
+- [02:28] professional world. I think there's
+- [02:29] still a ways to go. I think that the
+- [02:32] whole idea of kind of vibe coding or
+- [02:34] coding without really looking at the
+- [02:36] code and understanding it it doesn't
+- [02:37] really work. There are lots of nth order
+- [02:39] effects. You know, if you're dealing
+- [02:40] with millions of lines of code and
+- [02:41] dozens or hundreds of people working on
+- [02:43] something over the course of many years,
+- [02:44] uh right now, you can't really just
+- [02:47] avoid thinking about the code. Our
+- [02:49] primary focus is to help professional
+- [02:51] programmers to help people who build
+- [02:52] software for a living. In those
+- [02:54] environments, people are more and more
+- [02:56] using AI to code. You know, on average,
+- [02:58] we see about people using, you know,
+- [02:59] having AI write 40% 50% of the lines of
+- [03:02] code produced within cursor. But it's
+- [03:04] still a process of you know reading
+- [03:06] everything that comes out of the AI. And
+- [03:08] so an important chasm for us to cross as
+- [03:10] a product will be getting to a place
+- [03:12] where uh you know we become less of a
+- [03:14] productivity tool that's helping you
+- [03:15] look at read write understand code and
+- [03:17] where the artifact kind of changes and I
+- [03:19] think for professional developers
+- [03:20] there's still a ways to go there. In
+- [03:21] your head do you think of it as uh like
+- [03:23] different tiers there sort of obviously
+- [03:25] startups are starting out with zero
+- [03:27] lines of code so that's very easy. Is
+- [03:29] there a point that you're tracking right
+- [03:31] now where oh well that's when you know
+- [03:34] just vibe coding it stops working and
+- [03:37] that's when things sort of become real.
+- [03:39] The vibe coding style of things is
+- [03:41] definitely not something that we
+- [03:43] recommend if you're going to have the
+- [03:44] code stay around for a really long time.
+- [03:46] I think that one of the things that
+- [03:47] characterizes software development when
+- [03:48] you're two three person four person
+- [03:49] startup and you're kind of moving around
+- [03:51] and trying to figure out what you're
+- [03:52] doing is often the code is only going to
+- [03:53] be around for for weeks. Right now we're
+- [03:55] in this phase where um AI is kind of
+- [04:00] operating as a helper for you, right? So
+- [04:03] kind of like the main ways in which
+- [04:04] people are using AI to code, they're
+- [04:05] either delegating tasks to an AI and
+- [04:07] they're saying, "Go do this thing for
+- [04:08] me. Go answer this question for me." Or
+- [04:10] they have an AI looking over their
+- [04:11] shoulder and taking over the keyboard
+- [04:13] every once in a while. That's kind of
+- [04:14] the tap form factor. And I think that
+- [04:16] the game in the next 6 months to a year
+- [04:19] is to make both of those, you know, an
+- [04:21] order of magnitude more useful. coding
+- [04:23] sometimes is incredibly predictable when
+- [04:24] you're just looking over someone's
+- [04:25] shoulder, you know, the next 10, 15, 20
+- [04:27] minutes of their work. Um, and so the
+- [04:29] tab form factor can go very far. And
+- [04:30] then the agent form factor of delegating
+- [04:32] to another human can go very far too.
+- [04:34] And then I think that once those start
+- [04:36] to get mature and you know for 25 30% of
+- [04:39] professional development, you can just
+- [04:41] entirely lean on those end to end
+- [04:42] without really looking at things. Then
+- [04:44] there will be all of these other things
+- [04:45] to figure out about how you make that
+- [04:46] work in the real world. One way in which
+- [04:48] you can view LMS is their view you
+- [04:51] interface with them like a human like a
+- [04:53] helper. Um another way in which you can
+- [04:55] view LMS is they're kind of an advanc
+- [04:56] and compiler or interpreter technology.
+- [04:59] It's going to be always helpful if we
+- [05:01] are a tool to help a human go from an
+- [05:03] idea in their head to something on the
+- [05:04] screen to give people uh control over
+- [05:07] the finest details. Right? That's one of
+- [05:09] the product challenges we have in front
+- [05:10] of us is you should always be able to
+- [05:12] move something a few pixels over. You
+- [05:13] should always be able to edit something
+- [05:14] very specific about the logic. I think
+- [05:16] one useful UI always to have there is to
+- [05:19] have written down the logic of the
+- [05:21] software um and you can you know point
+- [05:23] at various bits of the logic and and
+- [05:25] actually edit them. But um if we were to
+- [05:27] get to a place where you don't have to
+- [05:28] pay attention to the code as much you
+- [05:30] know that written down version of the
+- [05:31] logic of the software is going to have
+- [05:32] to get higher level. And so yeah we're
+- [05:34] excited about you know after you get
+- [05:36] agents working after you get kind of the
+- [05:37] tab form factor very mature does AI
+- [05:40] actually evolve what a what it means to
+- [05:41] be writing and looking at a programming
+- [05:43] language. Is it a context window thing?
+- [05:45] You know, it sort of makes sense that
+- [05:47] well, once you get past about a million
+- [05:48] to two million tokens, only even in the
+- [05:51] I feel like the last 100 days did we get
+- [05:53] a usable 2 million token length. Is that
+- [05:56] naturally one of the places where once
+- [05:58] your code base reaches a certain size,
+- [06:00] you know, you got to use rag, it has
+- [06:03] incomplete context, and then it just
+- [06:05] can't do what uh a human coder could do.
+- [06:08] Yeah, I think that there are a bunch of
+- [06:09] bottlenecks to agents being human level.
+- [06:12] I think one is context window side of
+- [06:14] things is definitely uh an issue where
+- [06:17] you know if you have 10 million lines of
+- [06:18] code that's you know maybe 100 million
+- [06:20] tokens um and both having a model that
+- [06:23] can actually ingest that having it be
+- [06:25] cost effective and then not just having
+- [06:27] a model that can physically ingest that
+- [06:29] into its weights but also one that
+- [06:30] actually pays attention effectively to
+- [06:32] that context window is tricky and I
+- [06:34] think that that's something that the
+- [06:34] field needs to grapple with and it's not
+- [06:36] just a codebased thing there it's also
+- [06:38] just a continual learning problem of you
+- [06:41] know knowing knowing the context of the
+- [06:42] organization and things that have been
+- [06:43] tried in the past and who your
+- [06:45] co-workers are and that uh problem of
+- [06:47] having uh you know a model really
+- [06:50] continually learn something kind of
+- [06:52] something that the field I think still
+- [06:54] doesn't really have a great solution to
+- [06:56] like it has always been suspected that
+- [06:58] it will be or for a lot of people have
+- [07:00] suspected you just make the context
+- [07:01] window infinite and that ends up working
+- [07:03] out. I think that there's a der of
+- [07:05] really good long context data uh
+- [07:08] available to the institutions that are
+- [07:10] training these models and so I think
+- [07:11] that that will be tricky but continual
+- [07:13] learning and long context is definitely
+- [07:14] a bottleneck to being superhuman. It's
+- [07:16] kind of related, but being able to do
+- [07:18] tasks over very long time horizons and
+- [07:20] continue making forward progress. Going
+- [07:21] around on the internet, there's this
+- [07:22] amazing chart of progress in the last
+- [07:24] year or two on the max length of time an
+- [07:27] AI can make forward progress on a task.
+- [07:29] And it's gone up from, you know, seconds
+- [07:31] to I think I I don't know the details of
+- [07:33] how these numbers are actually gotten,
+- [07:34] but I think someone's claiming some of
+- [07:35] the latest models it's like an hour.
+- [07:37] Then there are problems with different
+- [07:38] modalities. So to be a software
+- [07:40] engineer, you kind of need to run the
+- [07:42] code and then play with the output. If
+- [07:43] you didn't, you would be way superhuman.
+- [07:45] That would be insane. But so computer
+- [07:47] using is kind of is is going to be
+- [07:48] important for the future of code. Being
+- [07:50] able to run the code, being able to look
+- [07:51] at data dog logs and interface with with
+- [07:53] those tools that humans use. There are a
+- [07:55] lot of known devils that we will have to
+- [07:57] face and then a lot of unknown devils
+- [07:58] that we will have to face in you know uh
+- [08:01] the task of making coding agents
+- [08:03] superhuman. And then you know one thing
+- [08:04] I will note kind of hearkening back to a
+- [08:06] last response is that even if you had
+- [08:09] something you could talk to that was
+- [08:10] human level at coding or faster and
+- [08:12] better better than a human at coding you
+- [08:14] know sort of the skill of an entire
+- [08:15] engineering department I think that the
+- [08:16] UI of just having a text box asking for
+- [08:18] a change of the software is imprecise
+- [08:21] and so even in the limit if you care
+- [08:23] about humans being able to control what
+- [08:24] shows up on the screen you'll need a
+- [08:26] different way for them to interface and
+- [08:27] so one potential UI there is you know an
+- [08:29] evolution of programming languages to be
+- [08:31] something that's higher level another is
+- [08:33] maybe direct manipulation of the UI,
+- [08:34] right? Being able to point at things on
+- [08:36] the screen and say, "Oh, change this."
+- [08:37] Or actually kind of finick with the
+- [08:38] values yourself. Yeah. I mean, that
+- [08:40] seems like a a bunch of things that are
+- [08:42] kind of just nent in the wings, right?
+- [08:44] Like uh the models don't seem to have a
+- [08:46] really clear sense for aesthetics for
+- [08:48] instance. And so the idea that maybe
+- [08:50] this human level designer needs to
+- [08:52] actually, you know, be able to they need
+- [08:54] to be able to see actually. Yeah. And
+- [08:56] it's been interesting seeing them
+- [08:57] improve at the aesthetic side of things.
+- [08:59] And I think that that's actually like an
+- [09:00] interesting specific example about how
+- [09:02] we've hacked around these continual
+- [09:05] learning problems. But our understanding
+- [09:06] is that you know the way you teach these
+- [09:08] models to be better at something like
+- [09:09] aesthetics is not in the way you would a
+- [09:12] human. It is by you know basically
+- [09:14] collecting a bunch of data doing RL on
+- [09:15] them. Um and that's like how you've
+- [09:17] taught at that task. And that's a a task
+- [09:20] that enough people care about that you
+- [09:22] can pay the cost to do all of that and
+- [09:23] you can go and train and have it into
+- [09:25] sort of baked into the base model.
+- [09:27] um it's kind of a hack around the
+- [09:28] continual learning problem. So given
+- [09:29] this sort of future that everyone's
+- [09:32] building towards and you're certainly a
+- [09:33] leader at the forefront of it, you know,
+- [09:36] what do you think uh will be
+- [09:37] irreplaceable or like sort of the
+- [09:39] essential pieces of being a software
+- [09:41] engineer in the future? We think that
+- [09:44] one thing that will be irreplaceable is
+- [09:46] taste. So just defining what what do you
+- [09:49] actually want to build? People usually
+- [09:50] think about this when they're thinking
+- [09:51] about the visual aspects of software. I
+- [09:53] think it's also there's a taste
+- [09:55] component to the non-visual aspects of
+- [09:57] software too about how the logic works.
+- [09:59] And right now the act of programming
+- [10:01] kind of bundles up you figuring out how
+- [10:03] exactly you you want the thing to work
+- [10:05] like what product you're really defining
+- [10:06] with the logic that you're writing and
+- [10:08] the kind of high level taste of the
+- [10:10] implementation details of how that maps
+- [10:12] onto a physical computer. But then right
+- [10:14] now a lot of programming is kind of this
+- [10:15] human compilation that you're doing
+- [10:17] where you kind of know what you want.
+- [10:19] You could tell it to another human
+- [10:20] being, but you really have to spell it
+- [10:22] out for the computer because the
+- [10:24] language that you can you have to
+- [10:26] describe things to a computer is for
+- [10:28] normal programming just you know for
+- [10:29] loops and if statements and variables
+- [10:30] and methods and u you really have to
+- [10:33] have to spell it out. And so I think
+- [10:34] that more and more of that like human
+- [10:35] compilation step will go away and
+- [10:38] computers will be able to kind of fill
+- [10:39] in the gaps, fill in the details. But
+- [10:41] since we, you know, are a tool that's
+- [10:43] that's helping you make things happen,
+- [10:45] helping you build things, that kind of
+- [10:47] taste for what what is actually useful
+- [10:49] for what you want to build, I don't
+- [10:50] think will ever go away. That makes
+- [10:51] sense. I it there's that quote, good
+- [10:54] people will uh help you hit, you know,
+- [10:56] this bar, but the truly great, the truly
+- [10:58] masterful, they uh, you know, hit a bar
+- [11:01] that you can't even see. Yeah. So, and
+- [11:03] that requires taste. You've called it
+- [11:05] sort of people need to become logic
+- [11:08] designers. You know, what does that mean
+- [11:11] in terms of, you know, intent driven
+- [11:13] programming? As this tech matures more
+- [11:15] and more, as we get closer to a world
+- [11:16] where programming can be automated and
+- [11:18] can be replaced with a better way of
+- [11:20] building software, I think there are a
+- [11:22] bunch of implications. I think one is
+- [11:23] that, you know, professional devs will
+- [11:26] just get so much more productive. It's
+- [11:27] just crazy how slow thousand people
+- [11:31] software projects move. Yeah. And 100
+- [11:33] people software projects move and real
+- [11:35] kind of professional software projects
+- [11:36] move. Um, and a lot of that comes down
+- [11:38] to the the weight of the existing logic.
+- [11:40] Just kind of getting the best of you.
+- [11:42] When you're in a new codebase, you can
+- [11:44] start from scratch. You can do things
+- [11:45] very quickly. When you change something,
+- [11:47] there's not a bunch of other things that
+- [11:49] then break that you need to to fix. I
+- [11:51] think that one of the implications of it
+- [11:53] will be that you know the next
+- [11:54] distributed training framework or the
+- [11:55] you know the next database or the next
+- [11:57] uh visual design tool will just be way
+- [11:59] faster to build the next AI model which
+- [12:01] you know if you talk to the labs largely
+- [12:03] they're bottlenecked on engineering
+- [12:05] capacity I think all of that will just
+- [12:06] just improve a ton. I think that you
+- [12:08] know one second order effect two will be
+- [12:11] many more pieces of niche software will
+- [12:13] exist. One of my first jobs actually was
+- [12:16] working for a biotech company. Um, and
+- [12:19] it was a company staffed by wet lab
+- [12:21] scientists. They were developing drugs
+- [12:23] to to cure cure diseases. And I was the
+- [12:25] first software engineer hired and they
+- [12:27] were generating massive amounts of
+- [12:29] chemicals and then putting them through
+- [12:30] these biological experiments and then
+- [12:31] they needed a readout to kind of figure
+- [12:33] out which which chemicals to then pursue
+- [12:35] further. And they needed a ton of just
+- [12:38] internal software development to do
+- [12:39] that. And uh it was amazing both looking
+- [12:42] at the uh exist existing tools off the
+- [12:44] shelf just how bad they were and then it
+- [12:47] was crazy to think that this company for
+- [12:48] whom software was not their core
+- [12:49] competency had to go out and do this
+- [12:51] crazy laborious thing of hiring a real
+- [12:53] software engineering team and training
+- [12:54] them up and um having them do internal
+- [12:56] product development and for companies
+- [12:58] like uh like that company uh there will
+- [13:01] just be many more options available to
+- [13:02] them. The physics of digital space
+- [13:05] already are so great, but I think that
+- [13:07] that's just going to, you know, get
+- [13:08] turned up many notches into the future.
+- [13:10] Things that you want to want to happen
+- [13:12] on computers will then just kind of be
+- [13:13] able to happen. Switching gears, like I
+- [13:15] wanted to hear about the early days of
+- [13:17] cursor. You met your co-founders uh
+- [13:19] Swale, Arvid, and Aman um at MIT and
+- [13:24] this company started in 2022. What drew
+- [13:26] you together and when did you realize uh
+- [13:29] this was a team that could build
+- [13:31] something really ambitious together? I
+- [13:32] think we had a lot of youthful naivee. I
+- [13:35] think probably unjustified at the time.
+- [13:37] So from the start um we were we were
+- [13:39] pretty ambitious. Cursor came out of an
+- [13:43] ambitious idea exercise actually for the
+- [13:45] four of us. You know we all found
+- [13:46] programming fairly young and then some
+- [13:48] of our first engineering projects
+- [13:50] actually had to do with AI. So one of us
+- [13:52] worked on um improving the data
+- [13:55] efficiency of robotic reinforcement
+- [13:56] learning. So teaching robots very
+- [13:59] quickly to learn new tasks. That was one
+- [14:00] of our early AI projects. You know,
+- [14:02] another one of us worked on building
+- [14:04] actually a competitor to Google um using
+- [14:06] using neural networks um to try and sort
+- [14:09] of speedrun building an amazing search
+- [14:10] engine for the web. Um you know, others
+- [14:12] did uh academic work in AI. But uh there
+- [14:15] were two moments in 2021 that uh got us
+- [14:18] really excited about building a company
+- [14:20] that was focused on AI. One of them was
+- [14:22] using the first useful AI products where
+- [14:25] AI was really at the center and GitHub
+- [14:27] copilot was honestly the moment where
+- [14:29] that viscerally we really felt like uh
+- [14:31] now it was possible to make just uh
+- [14:33] really useful things with AI and that we
+- [14:36] shouldn't go to work in a lab to work on
+- [14:38] these things you know in an academic
+- [14:39] lab. Instead it was time for this stuff
+- [14:41] to come out into the real world. The
+- [14:42] other thing that got us really excited
+- [14:43] was seeing research come out of OpenAI
+- [14:45] and other places that showed there were
+- [14:46] these very predictable um natural laws
+- [14:49] that showed if you scaled up the data
+- [14:50] and you scaled up the compute that goes
+- [14:51] into these models, they were just
+- [14:53] getting better. Um and so that meant
+- [14:55] that even if we ran out of ideas for how
+- [14:57] to make AI better, there were a couple
+- [14:58] of orders of magnitude of that to to
+- [15:00] still run. From the start, we wanted to
+- [15:01] pick an area of knowledge work and then
+- [15:03] work on what that knowledge work became
+- [15:06] as AI got more mature. We were very
+- [15:08] interested in the shape of a company
+- [15:09] where you build build a product for for
+- [15:12] that area of knowledge work because that
+- [15:14] lets you do a couple of things. One, as
+- [15:16] the underlying tech gets more mature,
+- [15:18] you know, you can then yeah evolve the
+- [15:20] form factor of what doing that thing
+- [15:21] looks like. And then two is even back
+- [15:24] then it was clear you were probably
+- [15:26] going to need more than just scaling up
+- [15:28] the size of language models, you know,
+- [15:29] to GPDN. And one way to continue
+- [15:34] carrying forward progress on the
+- [15:36] underlying machine learning is to you
+- [15:38] know get product data of you know what
+- [15:40] suggestions do people like what do they
+- [15:41] dislike you know what what are the hard
+- [15:43] pieces of human human work that the AI
+- [15:45] still can't really access and you kind
+- [15:47] you get that after the pane of glass
+- [15:48] where the knowledge work happens and so
+- [15:50] initially we set out to do that for uh
+- [15:53] you know an area of knowledge work we
+- [15:54] actually didn't know that well which was
+- [15:55] mechanical engineering and we worked on
+- [15:58] a co-pilot for um for computerated
+- [16:00] design for a And so we were training 3D
+- [16:03] autocomplete models. So helping people
+- [16:05] who are doing 3D modeling of a part that
+- [16:07] they want to build in something like
+- [16:08] Solid Works or um Fusion 360 and trying
+- [16:12] to predict kind of the next changes to
+- [16:13] the geometry they were going to make.
+- [16:14] And it's a an interesting problem. It's
+- [16:16] one that academics have worked on. It's
+- [16:18] actually one that Deep Minds worked on a
+- [16:19] bit too. And and these were not large
+- [16:21] language models per se. You can do it
+- [16:23] entirely 3D or what you can do is uh one
+- [16:27] thread that we worked on for a while is
+- [16:29] turning it into a language problem where
+- [16:31] you take the the steps that someone's
+- [16:33] doing in a CAD system and you kind of
+- [16:35] turn it into method calls. So if they're
+- [16:36] making a circle, you make that a method
+- [16:38] call and it's just kind of like a list
+- [16:39] of method calls. It's not really
+- [16:40] programming, but it it sort of looks
+- [16:42] like it. Uh the problem is if you're
+- [16:43] going to do it entirely textbased,
+- [16:45] you're asking the model to do something
+- [16:47] really tricky. not just predict what the
+- [16:50] user is going to do next, but also in
+- [16:52] its mind's eye simulate the geometry
+- [16:54] because
+- [16:56] CAD kernels like the software underlying
+- [16:59] these uh CAD applications, they're
+- [17:01] fairly complicated and just from seeing
+- [17:03] the sequence of actions a user took,
+- [17:05] it's kind of hard to hallucinate what
+- [17:07] the what the final thing looks like.
+- [17:08] It's pretty tricky. But we worked on
+- [17:09] that for a bit. Uh we there was a ton of
+- [17:11] data work to do there, a ton of data
+- [17:13] scraping where there's cat data that
+- [17:15] exists on the open internet. We needed
+- [17:16] to get that to make the models better
+- [17:17] and better. And then we put that aside
+- [17:20] and that was for a couple of reasons.
+- [17:22] One was we really weren't as excited
+- [17:24] about mechanical engineering as we were
+- [17:25] about coding. We were all coders. The
+- [17:26] other one was I think that the science
+- [17:28] back then wasn't yet ready for 3D. Like
+- [17:33] the pre-trained models weren't that good
+- [17:35] at it. There wasn't a lot of data.
+- [17:36] There's orders of magnitude less data of
+- [17:37] CAD models in the internet than code. Um
+- [17:40] and so it's hard to make a useful model
+- [17:41] or it was back then hard to make a
+- [17:43] useful model for that domain. Did you
+- [17:44] end up uh going to sit with I don't know
+- [17:46] people who used CAD or machinists and
+- [17:49] people like that? So we did we did tons
+- [17:51] of user interviews and I think we could
+- [17:54] have done that even better. And I think
+- [17:55] that again on the maybe youthful naive
+- [17:58] we were operating dayto-day week to week
+- [18:01] counting tasks by the by the hours. And
+- [18:03] looking back on the time we spent on
+- [18:05] that I think it would have been better
+- [18:06] up front to actually just go work at a
+- [18:09] company that was employing mechanical
+- [18:11] engineers for 3 weeks. just go
+- [18:13] undercover, get a better sense for like
+- [18:15] the just stalt of just get a job as a as
+- [18:17] a draft person and then I think that
+- [18:19] would have been immensely valuable. Um,
+- [18:21] and substituting some of the like
+- [18:23] hundreds of user interviews for that. I
+- [18:25] guess alongside that you were also
+- [18:27] getting into training your own models to
+- [18:28] be able to do this which were you know
+- [18:30] and using RL and that was very useful
+- [18:33] and also learning how to spin up you
+- [18:36] know large clusters to actually train
+- [18:38] these models. Yeah. So in that kind of
+- [18:40] period of false starts uh we didn't know
+- [18:42] it at the time but yeah some of some of
+- [18:44] the stuff we did there ended up being
+- [18:45] useful for us. It was doing a lot of you
+- [18:48] know um behavior cloning um less RL but
+- [18:51] you were kind of looking at good
+- [18:53] examples of what hum humans did and then
+- [18:54] training the AI to do those things. But
+- [18:56] yeah training large language models in
+- [18:58] the order of tens of billions of uh
+- [19:00] parameters was not something a ton of
+- [19:02] people were doing back then. Even though
+- [19:04] the the kind of end product of the
+- [19:06] product and models that we were working
+- [19:07] on at that time wasn't that useful, it
+- [19:09] was a great dry run of of training
+- [19:10] models at scale and uh you know also
+- [19:14] doing inference at scale. There both
+- [19:16] back then and honestly also now there
+- [19:18] weren't that many people training 10
+- [19:21] billion plus uh parameter scale large
+- [19:24] language models, machine learning
+- [19:26] models. And so the the state of the
+- [19:28] infrastructure was very very early and
+- [19:29] we were doing things like forking
+- [19:30] Megatron LM or Microsoft Deep Speed and
+- [19:32] kind of ripping out the internals and
+- [19:34] then um you know deploying that for
+- [19:36] training. Even on the inference side of
+- [19:38] things too there were a couple of during
+- [19:40] that period a couple of things that we
+- [19:41] we ran at scale. Now in cursor we do
+- [19:44] over half a billion model calls per day
+- [19:47] on our own inference and you know some
+- [19:50] of some of the experience of of doing
+- [19:52] inference back then and and training
+- [19:54] back then it has has definitely been uh
+- [19:56] immensely useful um for for the cursor
+- [19:58] experience. So one of the things that's
+- [20:00] I mean a incredibly brave but also
+- [20:02] incredibly precient was to take a moment
+- [20:05] and say actually we don't know enough
+- [20:08] about CAD you know we need to do
+- [20:10] something else. Was it a a straight
+- [20:12] beline from the CAD training the CAD
+- [20:14] models, you know, sort of recognizing
+- [20:16] that scaling laws were holding and here
+- [20:18] was a domain that, you know, we could go
+- [20:21] down and then you realized actually we
+- [20:24] need to do something else. Like what was
+- [20:25] it to actually pivot it to, you know,
+- [20:28] what it is today? It wasn't a straight
+- [20:30] line. Um we I mean being programmers
+- [20:35] ourselves and being inspired by products
+- [20:38] like copilot and uh also papers like the
+- [20:41] early codex papers. I remember at the
+- [20:43] time one of the things we did to justify
+- [20:46] to investors that they should kind of
+- [20:47] like invest in our crazy cat idea is we
+- [20:50] did the back of the envelope math for
+- [20:51] what codeex the first coding model
+- [20:53] costed to train. From my memory it only
+- [20:55] cost about 90k or 100k by our
+- [20:57] calculations. that really surprised
+- [20:59] surprised investors at the time and was
+- [21:01] kind of helpful in us getting enough
+- [21:02] money to to pursue the uh CAD idea where
+- [21:06] you had to start training immediately.
+- [21:07] So we always knew about coding. We were
+- [21:09] always excited about it. We were always
+- [21:10] excited about you know how AI was going
+- [21:11] to change coding. We had a little bit of
+- [21:13] trepidation about going and working on
+- [21:15] that space because there were so many
+- [21:17] people already doing it. Um and uh we
+- [21:19] thought copilot was awesome and you know
+- [21:22] there were dozens of other companies
+- [21:23] working on it too at the time. When we
+- [21:25] decided to put aside CAD, which was a
+- [21:27] little bit of an independent idea, that
+- [21:28] was sort of the science not really
+- [21:30] working out, us not really being excited
+- [21:31] about that domain. The thing that drew
+- [21:33] us back into coding was our our personal
+- [21:35] interest. And the thing that gave us the
+- [21:36] confidence then to continue with it was
+- [21:40] one seeing the progress that others had
+- [21:42] made over the course of, you know, 9
+- [21:44] months or whatever it was. Felt like it
+- [21:45] was a little bit slower than it could
+- [21:46] have been. And then also just sitting
+- [21:49] down and and thinking that if we were
+- [21:51] being really consistent with our beliefs
+- [21:53] in 5 years all of coding was going to
+- [21:56] flow through these models and the active
+- [21:57] programming was going to entirely change
+- [21:59] and there were going to be all these
+- [22:00] jumps you needed both at a product level
+- [22:01] and at a model level to get there and
+- [22:02] the ceiling was just just so high and it
+- [22:06] really didn't seem like the existing
+- [22:08] players in the space were were aiming
+- [22:10] for a completely different type of
+- [22:12] coding. didn't seem like they had that
+- [22:14] ambition like they were really set up to
+- [22:16] execute on that too. That first
+- [22:18] experience taught us that you building a
+- [22:20] company is hard and so you may as well
+- [22:21] work on the thing that you're really
+- [22:22] excited about. And so yeah, we set off
+- [22:24] to work on uh the future of coding. It's
+- [22:26] uh sounds extra precient in that Sam
+- [22:28] Alman sat in this chair maybe a year ago
+- [22:30] and talked about how if you're betting
+- [22:32] against the models getting smarter,
+- [22:35] that's bad. you should always bet that
+- [22:36] the models are going to get a lot
+- [22:38] smarter and you know 12 18 24 months
+- [22:41] later that's been uh only more and more
+- [22:43] true and then it sounds like you had
+- [22:45] been taking that bet uh a full 12 months
+- [22:48] before even that was said. Yeah, we had
+- [22:50] a phrase back then which was follow the
+- [22:52] line um and you wanted to always be
+- [22:55] following the line and planning for
+- [22:57] where the line was. I mean kind of
+- [22:59] hearkening back to the to the scaling
+- [23:00] loss of like you know these things are
+- [23:02] just going to keep getting better and
+- [23:03] better and better. The classic Peter
+- [23:04] Tealism is uh what do you believe that
+- [23:06] nobody else believes and uh you believe
+- [23:09] this and you were so right that that's
+- [23:11] what allowed you to actually go to where
+- [23:13] the puck was going to be. Yeah, I think
+- [23:15] I think it was one of the things that
+- [23:16] was helpful and now obviously it's
+- [23:17] become much more uh in vogue. But back
+- [23:19] then, you know, 2022 was this crazy uh
+- [23:22] pivotal year where you start at the
+- [23:24] beginning of the year, no one's really
+- [23:26] talking about AI. I mean, GBD3 had
+- [23:28] happened the year before. Copilot had
+- [23:30] happened. Copilot was beta 2021 and then
+- [23:32] maybe GA 2022 and then it started
+- [23:35] picking up and you know we still
+- [23:36] remember all the launches of you know
+- [23:38] instruct GBT which made GP3 a little bit
+- [23:41] better. It was fine tuning on
+- [23:42] instructions and then uh Dali in the
+- [23:45] summer. I remember that was kind of the
+- [23:47] visceral moment that convinced a lot of
+- [23:48] people who weren't focused on the space
+- [23:50] to be to pay a bit more attention to it.
+- [23:53] But then there was uh palm and stable
+- [23:55] diffusion and then you start to get RHF
+- [23:59] you start to get 3.5 and you have these
+- [24:00] models getting way better without a big
+- [24:02] increase in the training cost which was
+- [24:04] an interesting development. Heard it
+- [24:05] rumored that to go from GPD3 which you
+- [24:08] know had existed for a while and didn't
+- [24:10] you know impress some people but was
+- [24:12] certainly not the breakout moment
+- [24:14] chachbt was to chache BT was like a 1%
+- [24:16] increase in the training costs. Oh my
+- [24:18] god. It was you know from fine tuning on
+- [24:19] instructions RHF you know some other
+- [24:21] details too. Do you remember are there
+- [24:23] were there like specific features or
+- [24:26] product choices that you made because
+- [24:28] you knew that the uh that the models
+- [24:30] were going to get not just a little bit
+- [24:32] smarter but significantly smarter that
+- [24:34] change specific products or road maps
+- [24:37] that ended up you know sort of causing
+- [24:39] you to win cuz you mentioned I mean
+- [24:41] there were certainly maybe a dozen other
+- [24:42] companies that were quite good that you
+- [24:45] know were also in the area. So, one of
+- [24:47] the product decisions that we made early
+- [24:48] on that was nonobvious that came from
+- [24:51] being excited about a bit more of a
+- [24:53] radical future was not building an
+- [24:55] extension and was building an editor.
+- [24:58] That was was not obvious to people at
+- [25:01] the time. And yeah, that came from a
+- [25:03] place of thinking all of programming is
+- [25:04] going to flow through these models. It's
+- [25:06] going to look very different in the
+- [25:07] future. You're going to need a control
+- [25:08] UI. It also came too from interesting
+- [25:10] anecdotes we knew about. So, we knew we
+- [25:12] knew a little bit about this the
+- [25:13] internal inside baseball of building
+- [25:15] GitHub copilot. the first version the
+- [25:16] the whole building GitHub copilot story
+- [25:18] from what I understand and you know
+- [25:20] don't have firsthand knowledge so some
+- [25:21] of these details might be wrong is
+- [25:22] pretty interesting where it started from
+- [25:24] a very solution and search for a problem
+- [25:26] place of being interested in just taking
+- [25:28] GB3 and making it useful for for coders
+- [25:31] and I think it came from uh leadership
+- [25:32] it came from the CEO of GitHub at the
+- [25:33] time he just said we need to be doing
+- [25:34] this and he kind of sent a tiger team
+- [25:36] off figure out was Matt Freriedman at
+- [25:38] the time yeah that yeah my understanding
+- [25:39] is came from Matt and I think they spent
+- [25:42] almost a year wandering in the desert
+- [25:44] experimenting with different product
+- [25:45] ideas and of course they had the these
+- [25:48] were people really excited about the
+- [25:49] future of AI. They thought immediately,
+- [25:51] can we just automate PR's intent a
+- [25:52] little before or uh its time and they
+- [25:55] worked on that for a bit and then
+- [25:56] decided that was impossible and they
+- [25:58] tried all these other wacky product
+- [26:00] ideas until they just hit on the simple
+- [26:02] thing of of autocomplete. But even after
+- [26:05] they got autocomplete to work, um they
+- [26:08] needed to make changes at the editor
+- [26:09] level. They couldn't do it entirely as
+- [26:11] an extension. They had to go and change
+- [26:12] things in the mainline VS Code and
+- [26:14] expose different editor APIs to even
+- [26:16] just show that ghost text. Then there
+- [26:17] was some from my understanding that was
+- [26:19] actually kind of hard to do
+- [26:20] organizationally. If you were going to
+- [26:21] need to change the editor for something
+- [26:23] as simple as ghostex autocomplete, we
+- [26:25] knew we were going to have to do it a
+- [26:26] bunch. And so that was nonobvious and we
+- [26:28] got a lot of flack for that. And we
+- [26:30] actually initially started by building
+- [26:32] our own editor from scratch. Obviously
+- [26:34] using lots of open source technology,
+- [26:35] but not you know basing it off of VS
+- [26:38] Code, kind of like how browsers are
+- [26:39] based off of Chromium. It was a little
+- [26:40] bit more akin to building, you know, all
+- [26:43] the internal rendering of a browser from
+- [26:45] scratch. and we launched with that and
+- [26:46] then we then we switched to to basing
+- [26:48] off of VS code but uh the editor thing
+- [26:49] was non obvious. So cursors out you made
+- [26:52] a bunch of decisions that turned out to
+- [26:54] be right. When did you know it was going
+- [26:57] to work? It took a little bit of time.
+- [26:59] If you'll remember there's this initial
+- [27:02] year is roughly a year in the wilderness
+- [27:05] of you know working on something that
+- [27:07] that was precursor to cursor and the
+- [27:10] mechanical engineering side of things.
+- [27:11] Uh and then you know there was an
+- [27:13] initial development period for curser
+- [27:14] that was fairly small before we released
+- [27:16] the first version to the public. I think
+- [27:18] that it was from lines of code to first
+- [27:21] public beta release. It was 3 months but
+- [27:23] then there was this year of iterating in
+- [27:24] public at very small scale where we had
+- [27:26] did not have lightning in the bottle. Um
+- [27:28] and it was growing but it was you know
+- [27:30] the numbers numbers were small. Dialing
+- [27:32] in the product at that point took maybe
+- [27:35] a year of getting all of the details
+- [27:37] right. Then it was only after that
+- [27:40] initial period of cursor being out for 9
+- [27:42] months to a year of working on the
+- [27:43] underlying product building out the team
+- [27:45] also not just the product side of things
+- [27:47] but also starting to get the first
+- [27:50] versions of custom models behind cursor
+- [27:52] to power you know underneath cursor um
+- [27:55] that things started to click and then uh
+- [27:57] growth started to pick up and then yeah
+- [28:00] since then it's been uh you know we sort
+- [28:02] of have a tiger by the tail and if we
+- [28:04] are to be successful there's a lot of
+- [28:05] things that we need to continue to
+- [28:06] execute on in the future. I think one of
+- [28:08] the challenges we have and a lot of
+- [28:10] other companies in parallel spaces have
+- [28:12] is just the rate at which we need to
+- [28:14] build the company I think is really fast
+- [28:16] and I think rules of thumb around don't
+- [28:18] grow headcount more than 50% or
+- [28:21] year-over-year iron laws have to yeah
+- [28:24] have to have to be broken I think
+- [28:25] interesting um were there like uh sort
+- [28:28] of true north metrics or things that you
+- [28:30] and your co-founders were monitoring to
+- [28:32] figure out like is this working was it
+- [28:34] you know week-on-week retention or open
+- [28:36] rate or how did that influence uh what
+- [28:39] you were working on in a given week? So,
+- [28:41] we looked at um all the normal things
+- [28:44] like retention. For us, the main
+- [28:46] activity metric we looked at or the
+- [28:47] yeah, the main topline metric we looked
+- [28:49] at we we looked at revenue, we looked at
+- [28:51] paid power users measured by are you
+- [28:54] using the AI four or five days a week
+- [28:56] out of seven days a week. And that was
+- [28:58] the number we were trying to get up. And
+- [29:00] why was it paid? Well, I think that
+- [29:02] we're a tool that serves professionals.
+- [29:03] And I also think that to deliver the
+- [29:05] tool, it has real costs. And so we care
+- [29:06] about you get graduating to that paid
+- [29:08] tier. And that's that's where things
+- [29:09] were sustainable. Paid power users. That
+- [29:11] was what we, you know, it wasn't DAUs,
+- [29:12] MAUs or anything like that. It was are
+- [29:13] you using this every single day for your
+- [29:16] work. That's what we were trying to get
+- [29:17] up. And then once that was the metric, I
+- [29:19] guess did you work backwards from that?
+- [29:21] It's like, well, we know the segment of
+- [29:22] people we want to grow and then what do
+- [29:25] they want or what would prevent people
+- [29:27] from becoming that? I think that
+- [29:29] building for yourself doesn't work in a
+- [29:31] lot of spaces. For us, it did. And I
+- [29:35] think it was actually clarifying uh
+- [29:37] because one of the siren songs involved
+- [29:39] in building AI products is optimizing
+- [29:42] for the demo. Mhm. uh we were really
+- [29:44] nervous about optimizing for the demo
+- [29:46] because with AI it's it's easy to kind
+- [29:48] of take a couple of examples and put
+- [29:50] together a video where you know it looks
+- [29:53] like you have a revolutionary product
+- [29:55] and then I think that there's a long
+- [29:58] line you know there's a lot of work
+- [29:59] between the version that can result in
+- [30:01] that great looking demo and then a
+- [30:03] useful AI product which means kind of
+- [30:05] dialing in the the speed side of things
+- [30:06] the reliability side of things the
+- [30:08] intelligence side of things the product
+- [30:09] experience side of things for us the
+- [30:11] kind of main thing that we really acted
+- [30:13] on was just we reload the editor. Our
+- [30:15] product development uh process early on
+- [30:17] it was very experimental. It was very
+- [30:18] focused on um kind of like what we
+- [30:20] understand Apple to be like very focused
+- [30:22] on dog fooding and usable demos like
+- [30:24] things we could just immediately start
+- [30:26] using in the editor internally and then
+- [30:27] we would look at these metrics to make
+- [30:29] sure that you know week on week on month
+- [30:31] we were kind of on the right path. Yeah.
+- [30:33] So earlier you said I mean sometimes you
+- [30:35] got to break these iron laws around
+- [30:37] hiring. Um when did you decide to break
+- [30:39] it? I mean, you know, was it just the
+- [30:42] co-founders and a few people until sort
+- [30:44] of, you know, some revenue goal? How did
+- [30:46] you think about the gas pedal? Did you
+- [30:49] like sort of feather it and then like
+- [30:50] once it was clear like you hit your
+- [30:52] numbers like we're pushing pushing the
+- [30:55] pedal all the way down? So, it was just
+- [30:57] the co-founders for a long time and then
+- [30:58] the co-founders and a few people until
+- [31:00] we got to the point where things were
+- [31:02] really kind of dialed in and taking off.
+- [31:04] Who were some some of the first hire? I
+- [31:06] mean I assume more engineers but you
+- [31:07] know so we agonized over the first hires
+- [31:10] and I think that if you want to go fast
+- [31:12] on the order of years actually going
+- [31:13] slow on the order of you know 6 months
+- [31:17] is super helpful because if you really
+- [31:20] nail the first 10 people to come into
+- [31:22] the company they will both accelerate
+- [31:24] you in the future because when you know
+- [31:26] the nth person comes in that's you know
+- [31:28] is thinking about working with you comes
+- [31:29] in and hangs out with the team they'll
+- [31:30] just be shocked by the talent density
+- [31:32] and then really excited to work there.
+- [31:33] And then the other reason they can help
+- [31:34] you go faster in the future is if
+- [31:37] someone comes in and they're not a great
+- [31:38] fit, these people act as an immune
+- [31:40] system against that, right? And they
+- [31:42] will be kind of keepers of holding the
+- [31:43] bar really high. And so we hired very
+- [31:46] very very slowly at the start. We were
+- [31:48] able to do that also partially because
+- [31:49] we had such a big founding team and all
+- [31:52] the co-founders were technical. But
+- [31:53] yeah, the people we got uh uh are
+- [31:56] fantastic and are really core to the
+- [31:58] company today and folks who bled across
+- [32:01] disciplines where we are this company
+- [32:02] that needs to be something in between a
+- [32:04] foundation model lab and a normal
+- [32:06] software company and the models and
+- [32:08] product have to work together under one
+- [32:10] roof and so we had fantastic people who
+- [32:12] were uh product minded, commercially
+- [32:14] minded but had actually trained models
+- [32:16] at scale. So generalist polymath is
+- [32:19] really really great at sort of that
+- [32:21] first 10 people stage. Yeah. and and
+- [32:23] making build building things quickly.
+- [32:25] Yeah. And shipping production code
+- [32:27] quickly. These days, I mean, everyone's
+- [32:29] sort of trying to figure out how to deal
+- [32:30] with this, but you know, simply because
+- [32:32] the AI tools are so great, it's making
+- [32:35] it harder at times to even figure out
+- [32:37] how do you uh evaluate great engineers?
+- [32:40] Has that changed over time for you as
+- [32:43] you know, literally your own product has
+- [32:44] become more and more common? Do you
+- [32:46] select for people who are really great
+- [32:48] at using the AI tools or you know is it
+- [32:51] really just the you know let's stick
+- [32:53] with the classics and you know anyone
+- [32:55] could learn how to use the AI tools. So
+- [32:58] for interviewing we actually still
+- [33:02] interview people without allowing them
+- [33:03] to use AI other than autocomplete for
+- [33:05] our first technical screens. Programming
+- [33:06] without AI is still a really great
+- [33:08] timeboxed test for skill and
+- [33:10] intelligence and kind of the the things
+- [33:12] that you would always want someone on
+- [33:14] your team to to have. um as a
+- [33:16] programmer. But then the other reason is
+- [33:17] we've hired lots of people who are
+- [33:19] fantastic programmers who actually have
+- [33:20] no experience with AI tools and we don't
+- [33:22] want to unfairly disadvantage them
+- [33:23] because these tools are so useful. So we
+- [33:25] would much rather hire those people and
+- [33:26] then teach them on the job to to use
+- [33:28] these things and also kind of mine the
+- [33:30] product insights from that beginner's
+- [33:31] mind of them using the tools for the
+- [33:32] first time. Cursor is now worth $9
+- [33:34] billion. Uh how do you keep the hacker
+- [33:37] energy alive, you know, as the team
+- [33:39] scales? And do you still write code? And
+- [33:42] I do. Yes. It's something that we think
+- [33:44] about a lot uh because I think that
+- [33:46] cursor in the future will have to look
+- [33:49] very different from cursor today. One I
+- [33:51] I think you can do it by hiring the
+- [33:53] right people. So uh the last step of our
+- [33:56] hiring process is a two-day on-site
+- [33:58] where you come and you just work on a
+- [34:00] project with us. And so this is after an
+- [34:01] initial set of technical screens and
+- [34:03] you're in the office and you're kind of
+- [34:04] a member of the team and you come to
+- [34:06] meals with us and uh and work on
+- [34:08] something. and then you demo it at the
+- [34:09] end and then we ask you questions. That
+- [34:10] gets at energy and excitement and
+- [34:13] passion for the problem space. And
+- [34:16] usually you're probably not going to be
+- [34:17] super willing to do that if you're maybe
+- [34:19] just view it as a job and you're
+- [34:21] applying to a bunch of of technology
+- [34:22] companies at the same time. So I think a
+- [34:24] big way to do it is by getting
+- [34:25] passionate people through the hiring
+- [34:27] process. There are big projects that
+- [34:29] require a lot of coordination amongst
+- [34:30] people where you need top down
+- [34:31] alignment. I think that we always want
+- [34:33] to be a place that does a good degree of
+- [34:35] bottoms up experimentation too. Um, and
+- [34:37] so we really try and encourage that.
+- [34:39] Both people taking time on the side to
+- [34:41] do that. Uh, and then also explicitly
+- [34:43] taking teams of engineers, sectioning
+- [34:45] them off from the rest of the company
+- [34:46] and kind of just giving them carp launch
+- [34:48] to to experiment on what they'd like.
+- [34:50] So, one of the things that I think all
+- [34:52] startups and maybe all businesses right
+- [34:54] now are even trying to figure out in the
+- [34:56] face of uh some of the most impressive
+- [34:58] and incredible models in the world is
+- [35:01] what are the moes that are going to
+- [35:03] actually be durable and usable. How do
+- [35:05] you think about that? Well, I think that
+- [35:07] the the market that we're in and that
+- [35:10] others are in resembles markets that
+- [35:12] you've seen in the past that actually
+- [35:13] aren't enterprise software markets. Um,
+- [35:15] so I think that a lot of enterprise
+- [35:16] software markets are kind of
+- [35:17] characterized by well there's sort of a
+- [35:20] low ceiling for the good core value you
+- [35:22] can deliver in the product and there's a
+- [35:24] lot of lock in and the market we're in
+- [35:28] kind of mirrors search at the end of the
+- [35:29] 90s where the product ceiling is really
+- [35:32] high. search could get a lot better for
+- [35:33] a long long period of time and you know
+- [35:36] for us the end goal is to replace coding
+- [35:37] with something much better and automate
+- [35:39] coding and I think that there's a long
+- [35:41] long long way to go on that one of the
+- [35:42] things that characterize search and I
+- [35:44] think also characterize our market is
+- [35:46] distribution is really helpful for
+- [35:48] making the product better and so if you
+- [35:51] have lots of people using your thing you
+- [35:53] have an atscale business you get a sense
+- [35:55] of where the product's falling over and
+- [35:58] where it's doing well and so in search
+- [36:00] that's seeing you know what are people
+- [36:01] clicking on what are they bouncing back
+- [36:02] from what was a good search result, what
+- [36:04] is a bad search result, which then feeds
+- [36:05] into the R&D and then helps them make a
+- [36:07] better search engine. Uh for us, it's
+- [36:08] seeing, you know, where are people
+- [36:10] accepting things, where are they
+- [36:10] rejecting things in the places where
+- [36:12] they accept things and then they correct
+- [36:13] it later, what's what's going on there?
+- [36:15] How could we have been better? I think
+- [36:16] that that will be a really really
+- [36:18] important driver um to making the
+- [36:20] product better and kind of the
+- [36:20] underlying models better in the future.
+- [36:22] I think another market to take
+- [36:23] inspiration from is consumer electronics
+- [36:26] at the beginning of the 2000s. The thing
+- [36:28] there was getting the iPod moment right
+- [36:30] and then the iPhone moment right. And
+- [36:32] you know, I think the chatbt moment is
+- [36:34] kind of like the iPod or iPhone moment
+- [36:36] of our age of if you keep pushing the
+- [36:38] frontier faster than other people, you
+- [36:40] can get really big gains occurring to
+- [36:41] you. And I think that there are a couple
+- [36:42] more of those that exist in our space.
+- [36:44] And so it's hard to do, but we're really
+- [36:46] focused on trying to be uh the ones to
+- [36:48] race toward those the fastest. It's
+- [36:50] 2025. I feel like we're actually even in
+- [36:53] the opening stages of this age of
+- [36:55] intelligence. What a revolution. You
+- [36:57] know, what are you personally most
+- [36:59] excited about right now? I think that
+- [37:01] this is going to be a decade where just
+- [37:06] your ability to build will be uh so
+- [37:08] magnified. Both people who already
+- [37:11] that's their living and that's what they
+- [37:13] do, but then I think it'll also become
+- [37:15] accessible for tons more people. What a
+- [37:16] time to be alive.
+- [37:18] Thanks for joining me today. Thank you.
+- [37:20] Thanks for having me.
+- [37:25] [Music]

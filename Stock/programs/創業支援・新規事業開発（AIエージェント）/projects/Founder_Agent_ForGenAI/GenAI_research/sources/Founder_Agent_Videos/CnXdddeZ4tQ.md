@@ -1,0 +1,1667 @@
+---
+title: "Companies like Uber, Rapolit, LinkedIn uses a framework called Langraph to build agents that are not just powerful but r"
+video_id: "CnXdddeZ4tQ"
+video_url: "https://www.youtube.com/watch?v=CnXdddeZ4tQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Companies like Uber, Rapolit, LinkedIn uses a framework called Langraph to build agents that are not just powerful but reliable
+  There are so many agent AI frameworks out there and Langraph is one of the popular framework
+  In this particular crash course, we will look at some theoretical fundamentals first and then we will dive deeper into langraph covering a range of topics which I have displayed on the screen right now
+key_points:
+  - "and then we will dive deeper into langraph covering a range of topics which I have displayed on the screen right now"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:06:25+09:00"
+---
+
+# Transcript: CnXdddeZ4tQ
+
+- URL: https://www.youtube.com/watch?v=CnXdddeZ4tQ
+- Retrieved at: 2025-12-30T10:06:25+09:00
+
+## Text
+
+- [00:00] Companies like Uber, Rapolit, LinkedIn
+- [00:02] uses a framework called Langraph to
+- [00:05] build agents that are not just powerful
+- [00:07] but reliable. There are so many agent AI
+- [00:10] frameworks out there and Langraph is one
+- [00:12] of the popular framework. In this
+- [00:14] particular crash course, we will look at
+- [00:16] some theoretical fundamentals first and
+- [00:18] then we will dive deeper into langraph
+- [00:21] covering a range of topics which I have
+- [00:23] displayed on the screen right now. I
+- [00:25] also want to take a moment to thank Jad
+- [00:27] Brains for sponsoring this video. As
+- [00:30] part of this collaboration, you all will
+- [00:32] get 3 month free subscription of PyCharm
+- [00:35] Pro. More details on that later. Let's
+- [00:38] start with agentic AI fundamentals
+- [00:40] through Langraph. We will be building AI
+- [00:42] agents. So, it's important you know what
+- [00:44] it is. And if you already know this
+- [00:46] concept, feel free to skip to the next
+- [00:48] section. When you have a simple LLM and
+- [00:51] when you ask a question, it can give
+- [00:53] limited answer. based on its training
+- [00:55] cutoff. So let's say if you ask
+- [00:57] questions specific to your organization,
+- [01:00] it won't be answered because it doesn't
+- [01:01] have access to this data. In my own
+- [01:04] company Atlake Technologies, we have 55
+- [01:06] people and we want to build this HR
+- [01:09] assistant chatboard where you can ask
+- [01:11] policy related questions such as how
+- [01:13] many vacation days are there or what is
+- [01:16] the policy on seclive and so on and you
+- [01:18] can build such a system using a rag
+- [01:21] architecture. So let's say you have all
+- [01:23] this policy data in a PDF file. You can
+- [01:27] point LLM to that knowledge using
+- [01:29] retrieval augmented generation then you
+- [01:32] can ask any question and generate the
+- [01:35] answers. If you don't know about rag you
+- [01:38] will find many videos on YouTube but rag
+- [01:40] is one architecture that gets used to
+- [01:43] assist LLM with external knowledge. Do
+- [01:47] we call this agent? No. Anthropic
+- [01:50] defines AI systems which are built using
+- [01:53] LLM
+- [01:55] as in two categories. Okay. So the first
+- [01:58] one is workflows. Second one is an
+- [02:00] agent. So workflows are systems where
+- [02:02] LLM and tools are orchestrated through
+- [02:05] predefined code paths. So whatever we
+- [02:07] just saw was workflow. Let's say you
+- [02:11] enhance this chatboard further where it
+- [02:13] can ask specific question for a person.
+- [02:15] Let's say moan is logged in and he's
+- [02:17] asking how many leaves do I have left.
+- [02:19] It will specifically look for moan's
+- [02:21] data. Okay, 7 days left and so on. Is
+- [02:25] this call agent? Once again, no. So here
+- [02:27] what's happening is LLM is having access
+- [02:30] to all the policy documents. So moan can
+- [02:32] ask general policy documents as well.
+- [02:35] But LLM is also pointing to the HR
+- [02:40] database. So that through some API let's
+- [02:43] say and when you say okay as moan how
+- [02:46] many leaves are left for me it will just
+- [02:50] retrieve that particular answer. This is
+- [02:52] called tool augmented chatboard. Now
+- [02:56] let's complicate this further and
+- [02:58] imagine a chatbot that can prepare for
+- [03:01] Sara's maternity leave or it can onboard
+- [03:05] a new employee. Now when you're
+- [03:07] onboarding a new employee, you have to
+- [03:09] perform various steps. You have to
+- [03:11] schedule a welcome meeting where you
+- [03:14] will need access to outlook. You will
+- [03:17] create interns profile in HR management
+- [03:19] system for which you need access to HRMS
+- [03:22] through some API let's say. Then you
+- [03:24] will create uh tickets to order laptop
+- [03:28] etc. So here you are doing goal oriented
+- [03:31] planning. So you have a goal here bigger
+- [03:34] goal. It's a complex task and you are
+- [03:37] kind of planning this. You are doing
+- [03:39] multi-step reasoning you know and
+- [03:41] multi-step planning and doing autonomous
+- [03:45] decision making. Okay. Now as a system
+- [03:48] you have LLM as a core component but you
+- [03:50] have access to all these tools. Okay.
+- [03:52] Outlook, HRMS, Slack these are all the
+- [03:57] tools that you have. Okay. You also have
+- [03:59] knowledge which is the database or any
+- [04:02] documents you have. All right. So uh
+- [04:05] this is called an agent. Okay, it's an
+- [04:08] agentic chatboard because it can do
+- [04:10] multi-step planning, multi-step
+- [04:12] reasoning just like how we as a humans
+- [04:15] will do it. And it has some level of
+- [04:18] autonomy. Okay, some level of control.
+- [04:20] Of course, you can't give it an access
+- [04:22] to your bank's password etc. Otherwise,
+- [04:25] it will do crazy things. But you give
+- [04:27] some control that hey LLM I'm giving you
+- [04:29] this control and within that control you
+- [04:32] can take autonomous decisions. So AI
+- [04:35] agent is something that can make
+- [04:38] decisions and take actions on its own to
+- [04:42] an extent. Okay. So you have to remember
+- [04:44] there is some some form of control here.
+- [04:47] You can't give agent access to you know
+- [04:51] your Bitcoin wallet and things like
+- [04:54] that. There is some level of control but
+- [04:55] within that control it can take
+- [04:57] autonomous decision. It can take actions
+- [05:00] on its own to achieve a goal without
+- [05:03] being told explicitly what to do. And
+- [05:07] agentic AI you will hear these two terms
+- [05:09] AI agent and agentic AI. Agent AI is
+- [05:11] nothing but a system that is using one
+- [05:12] or more agents. Okay they are similar
+- [05:14] things. So this is the chart that is
+- [05:16] showing the comparison between the three
+- [05:18] in the first rack chatboard where you
+- [05:20] were asking policy questions. It is
+- [05:22] reactive but it's it doesn't use tool
+- [05:24] reasoning planning proactivity. Okay.
+- [05:27] Whereas agent AI is using uh tool use
+- [05:30] reasoning planning proactivity and so
+- [05:33] on. One of the biggest problems with
+- [05:35] agents is reliability. They are like
+- [05:37] monkeys. You are giving them some tools
+- [05:39] and they can do all kind of crazy
+- [05:41] things. So you need to control them. If
+- [05:44] you plot a chart of agent's level of
+- [05:47] control to its reliability, as you can
+- [05:50] see here, as you increase the control,
+- [05:54] the reliability will drop. So if you
+- [05:56] have a fully autonomous agent just like
+- [05:59] that monkey, the reliability will go
+- [06:02] down. Okay, this is the general issue
+- [06:05] with any agents. Lang graph is a
+- [06:09] framework that will help you increase
+- [06:12] the reliability for agents. Okay.
+- [06:14] Langraph comes with lot of tools and
+- [06:17] features which will help you bend this
+- [06:19] graph and you can increase the
+- [06:21] reliability of these autonomous agent.
+- [06:24] Okay. So it's a framework that helps you
+- [06:26] build reliable agents. Now how it
+- [06:29] differs from other frameworks such as
+- [06:31] Agno, Google ADK and so on. Agno is very
+- [06:34] lightweight and fast. Google ADK on the
+- [06:37] other hand has tight GCP integration. It
+- [06:40] allows you to build multi- aent system
+- [06:43] using Google's A2A protocol and so on.
+- [06:46] Whereas Lang graph provides a more
+- [06:50] expressive customizable framework to
+- [06:53] build highly complex agents. Okay. So
+- [06:56] it's very customizable. In other
+- [06:58] frameworks when I use them personally
+- [07:00] what I see is it's sort of like a black
+- [07:02] box. Okay. you can't customize things
+- [07:04] beyond certain points. Whereas in
+- [07:06] Langraphph, you can go underneath at a
+- [07:09] deeper level and customize things and
+- [07:11] create complex agents. Also, it excels
+- [07:16] at graph-based stateful orchestration.
+- [07:19] We'll go over graph and state and so on.
+- [07:22] I know these things might sound like
+- [07:25] jargon but just in case if you know
+- [07:27] about graph data structure and a
+- [07:29] stateful orchestration the langraph will
+- [07:33] allow you to do that okay it will allow
+- [07:35] you to do multi-step workflows with
+- [07:37] memory streaming human in the loop
+- [07:40] control some of you might be familiar
+- [07:43] with langchain framework and a natural
+- [07:45] question is what is the difference
+- [07:47] between these two frameworks well
+- [07:49] sometimes you want to build AI system
+- [07:51] where let's say you are getting uh data
+- [07:54] from some database okay in step one then
+- [07:56] you are doing some data cleaning then
+- [07:58] you are giving it to LLM for extracting
+- [08:01] some information or summarizing or doing
+- [08:03] some work okay then you are performing
+- [08:05] some other step then again you're
+- [08:07] calling LLM you can have this kind of a
+- [08:10] workflow system remember workflow from
+- [08:12] that anthropic document so this is that
+- [08:15] same workflow it's a linear workflow
+- [08:17] which is called a chain and whenever you
+- [08:20] want to build this kind of workflows,
+- [08:22] lang chain framework is ideal and in
+- [08:25] fact we have a couple of videos and one
+- [08:28] complete YouTube project where we built
+- [08:31] uh this kind of chain using lang chain.
+- [08:33] Okay, where we uh retrieved the
+- [08:36] documents for which we use text loader
+- [08:38] class from lang chain. Okay, so these
+- [08:40] are all the classes and tools provided
+- [08:43] by langchain frameworks. Langchain
+- [08:45] frameworks provides so many amazing
+- [08:48] utilities which can be used in langraph
+- [08:50] too. by the way. Okay. So this is one
+- [08:53] example of a chain that we created in
+- [08:56] one of our rocky boat project in in
+- [08:58] YouTube. Okay. So here you will use lang
+- [09:01] chain. Now when do you use langraph?
+- [09:03] Well when you have some kind of autonomy
+- [09:05] that is given to LLM. For example, here
+- [09:08] you start at some point and LLM will
+- [09:11] decide okay whether it wants to call
+- [09:13] step A, step B or whether it wants to
+- [09:16] make call to LLM, you know, another LLM
+- [09:19] and then this LLM will also have some
+- [09:21] kind of autonomy. It will internally
+- [09:23] decide if if it wants to call step C,
+- [09:26] step D, E, it can also call by the way
+- [09:29] previous LLM. You see this pathway. So
+- [09:32] here this kind of decision control is
+- [09:36] given to this LLM. It is done by this
+- [09:39] LLM in autonomous way. Okay, autonomy is
+- [09:42] a keyword folks. So LLM is like a human
+- [09:45] brain, right? It it it is smart. It can
+- [09:47] make that decision. You just give
+- [09:49] instruction that okay, you are given
+- [09:51] this task and just figure out from this
+- [09:54] step CD E these three steps and it will
+- [09:57] determine it on its own. You're not
+- [10:00] going to write some code etc. Okay, I
+- [10:02] mean you'll write code for giving a
+- [10:04] prompt but the decision is made by LLM.
+- [10:08] Okay, so here you have a human brain.
+- [10:09] Here you have a human like like sort of
+- [10:11] like a human brain and it's making all
+- [10:13] these independent decisions and you are
+- [10:15] seeing this graph type of data
+- [10:18] structure. Okay. So you have a graph
+- [10:20] where you can have like this kind of you
+- [10:22] know like like cycles and so on and it
+- [10:25] is represented as stateful workflows
+- [10:28] which is a graph. Okay. So for this
+- [10:30] scenario you will use lang graph. So
+- [10:33] let's outline the differences in a table
+- [10:35] format. You use lang chain to build llm
+- [10:38] apps. Okay chains tools and agents.
+- [10:41] Whereas langraph is used to manage
+- [10:43] complex workflows with state. Okay. So
+- [10:46] it will have a state and that state will
+- [10:48] pass through different nodes in the
+- [10:50] graph. In lang chain you have linear and
+- [10:52] reactive chains. Whereas in lang graph
+- [10:54] you have graph based support loops,
+- [10:57] retries and memories. Okay. So there is
+- [10:59] some kind of autonomy. When you're
+- [11:01] retrying let's say you are doing
+- [11:02] something it doesn't work it will retry
+- [11:04] again. It's like debugging your code.
+- [11:07] You write code you get an error you see
+- [11:09] the error you update it. You again run
+- [11:12] it. you know it's like a retry like
+- [11:14] you're fixing and there's a feedback
+- [11:16] loop. So you'll see all of that in this
+- [11:18] lang graph and the best use case for
+- [11:21] lang chain is simple chatboards rack
+- [11:23] tool usage whereas for complex workflows
+- [11:27] you know in our HR assistant chatboard
+- [11:29] when we said onboard new employee for
+- [11:32] this that kind of workflow which is
+- [11:34] multi-step agent with memory you will
+- [11:36] use langraph okay uh here the state
+- [11:40] handling is partially stateful or
+- [11:43] stateless in lang chain whereas in lang
+- [11:45] graph
+- [11:46] it is fully stateful. So there is a
+- [11:48] state that you will pass. Okay. So let's
+- [11:50] say in in
+- [11:53] lang graph you will have this kind of
+- [11:54] graph right. So you begin you have this
+- [11:57] kind of graph. This can have nodes.
+- [12:01] Okay. It can be any graph and you will
+- [12:05] be passing a state. So there will be a
+- [12:08] state. So there is some kind of state
+- [12:11] that you pass. So you pass it here. same
+- [12:14] state is being passed here. We will uh
+- [12:17] have a separate section on this so you
+- [12:19] will understand and each of these nodes
+- [12:21] will
+- [12:22] modify this state. Okay. And then
+- [12:25] example use case for lang is book a
+- [12:27] flight simple API whereas langraph you
+- [12:30] use it for complex thing like plan a
+- [12:32] vacation multiple step multi-step
+- [12:34] reasoning planning and so on. They also
+- [12:37] have something called lang by the way.
+- [12:40] So lang we'll we'll produce a separate
+- [12:42] video in the future on lang. So this
+- [12:45] lang is used for observability debugging
+- [12:50] testing and monitoring. Okay. Whereas
+- [12:53] lang graph and lang chain these are
+- [12:56] opensource systems. Okay. There are two
+- [12:59] frameworks in the lang chain ecosystem.
+- [13:02] They also have this lang platform which
+- [13:06] is used for deployment. Before we start
+- [13:09] writing code, let's install some
+- [13:11] necessary stuff. The first one is IDE.
+- [13:13] We are going to use PyCharm. I love this
+- [13:15] editor. Jet Brains is an official
+- [13:18] sponsor of this video and they have this
+- [13:21] unified editor. So previously they used
+- [13:24] to have community version and pro
+- [13:26] version. Now there is a single version.
+- [13:29] Okay. So when you download, so just
+- [13:31] click on download and it will just
+- [13:33] download the latest version. Okay. So I
+- [13:36] clicked on it and then I will install
+- [13:38] it. So if you go back on their page you
+- [13:42] will see that uh by default whatever
+- [13:44] version you get is pro actually. So you
+- [13:48] get 1 month of pro included and after
+- [13:52] that it is free forever with community
+- [13:54] features but as part of our
+- [13:56] collaboration with PyCharm you're going
+- [13:59] to get extended
+- [14:02] free subscription of pro. Okay. So,
+- [14:05] check the video description below for
+- [14:07] the coupon code. Uh we want to thank uh
+- [14:10] Jet Brains for this partnership. After
+- [14:13] you uh downloaded it, obviously you will
+- [14:15] go through common sense steps. Double
+- [14:18] click, install, remove any previous
+- [14:22] versions that you have. And I have this
+- [14:24] latest version of PyCharm ready. I will
+- [14:27] also create a directory to store all my
+- [14:30] code. So C code is a directory where I
+- [14:33] keep all my code. So here I'm going to
+- [14:37] create
+- [14:38] maybe lang graph learning you know lang
+- [14:41] graph learning that kind of folder I'll
+- [14:44] store all my code here
+- [14:47] and here you will just say open C code
+- [14:52] just open that folder you know lang
+- [14:54] graph learning
+- [14:57] okay select the folder
+- [15:01] so it will open that up here. All right.
+- [15:05] Now,
+- [15:07] you will also explore this AI assistant
+- [15:11] that is inbuilt in PyCharm. So, you get
+- [15:15] this AI pro for free for 30 days. Just
+- [15:19] click on let's go to enable it. Okay.
+- [15:24] All right. So, see this is enabled. Now,
+- [15:26] you can pick your model from here. You
+- [15:29] can ask it to write code, whatever. We
+- [15:32] are going to use AI assistant and some
+- [15:34] of the cool features of PyCharm
+- [15:36] throughout the entire tutorial. We will
+- [15:38] also install UV which is an efficient
+- [15:41] Python package manager. You can use it
+- [15:43] as a replacement of pip. Click on
+- [15:46] installation step here and I have
+- [15:48] Windows. So I'm going to copy this
+- [15:51] command and put it in my Windows command
+- [15:55] prompt. Okay. So I'm using Windows
+- [15:57] command prompt. Here I will put it add
+- [16:01] and it will add UV. We'll use UV to
+- [16:04] install other necessary Python packages.
+- [16:07] Okay. Now we have created this langraph
+- [16:10] learning uh folder. So let's go into
+- [16:14] that folder
+- [16:16] and then you will have access to this UV
+- [16:18] command. You will just say UV in it and
+- [16:21] it will perform some necessary
+- [16:23] initialization. So if you check here, it
+- [16:26] added pi project.toml file. I will go
+- [16:30] over what it is. Uh it's just
+- [16:32] necessarily your package management.
+- [16:35] Then it also added Python version. So I
+- [16:38] have Python 3.10 by the way. Uh it's
+- [16:43] okay even if you have 3.11 or a later
+- [16:45] version. I'm going to use 3.10.
+- [16:48] Then you have git ignore. So you can
+- [16:51] enhance this. you know you can add
+- [16:53] whatever extra files here. So this is
+- [16:56] the project structure that it has
+- [16:58] created and PyCharm is asking me to
+- [17:01] select a valid Python interpreter. So
+- [17:04] what I'm going to do is I will create
+- [17:08] virtual environment using UV and the way
+- [17:11] you do that is you will install
+- [17:15] necessary Python uh packages. So for now
+- [17:19] what I need is langraph. So you can just
+- [17:21] say uv add in that directory lang graph
+- [17:25] I also need python dot environment I
+- [17:28] need notebook. So just add and you'll
+- [17:32] see it's so fast it created virtual
+- [17:35] environment
+- [17:36] here. See v environment and it also
+- [17:39] added all the dependencies. So you will
+- [17:41] see this toml file being updated. See
+- [17:45] all the dependencies are added and the
+- [17:48] exit dependencies are expanded in this
+- [17:51] uv.log file. Okay. So these are internal
+- [17:53] details. You don't need to worry. You
+- [17:55] can treat it as a black box. Whatever
+- [17:58] you want to install. Uh previously with
+- [18:00] pip you will say pip install something.
+- [18:03] Now with uv you are saying uv add that
+- [18:07] particular thing. Now let me configure
+- [18:10] python interpreter. So click on
+- [18:12] configure python interpreter. uh go to
+- [18:14] interpreter settings
+- [18:17] and here just say add interpreter add
+- [18:21] local interpreter. Okay, select existing
+- [18:24] and click on this folder icon. Okay,
+- [18:26] folder icon and here you need to select
+- [18:30] the virtual environment. So we have
+- [18:32] langraph learning okay which has venv
+- [18:37] folder that's your virtual environment.
+- [18:38] Go to scripts and in scripts you need to
+- [18:42] pick up a python.exe.
+- [18:45] Okay. Make sure you're selecting the
+- [18:47] Python interpreter within the virtual
+- [18:50] environment which is created by UV. So
+- [18:53] once you hit okay
+- [18:57] all right now your environment is all
+- [18:59] set. Graph is a most fundamental data
+- [19:02] structure in langraph. So let's
+- [19:05] understand some of the basics. If you
+- [19:07] have taken computer science classes, you
+- [19:09] will know graph uh already. So graph is
+- [19:13] nothing but nodes and ages. So let's say
+- [19:17] you have Google map, right? Like and you
+- [19:18] have all these cities. Let's say you
+- [19:20] have Delhi, New York, Mumbai, etc. So
+- [19:24] these cities are sort of like nodes.
+- [19:26] Okay? So whatever round you are seeing,
+- [19:28] they are nodes. And the thing that
+- [19:32] connects these two nodes are called
+- [19:36] ages.
+- [19:37] Okay. So going back to our example of
+- [19:41] Google map. Let's say this is Delhi.
+- [19:43] Okay. And from Delhi I'm going to
+- [19:45] Mumbai. Just think about this as a road
+- [19:49] between Delhi and Mumbai. You know some
+- [19:50] expressway.
+- [19:53] Graphs can also have cycles you know and
+- [19:55] graphs are used to represent things like
+- [19:58] your Facebook connections. So in in your
+- [20:00] Facebook uh when you have friends so you
+- [20:03] your friend they are all nodes and your
+- [20:07] relationship let's say you're a friend
+- [20:08] family whatever you know same way with
+- [20:10] LinkedIn those things are ages so we
+- [20:13] will build our first simple graph in a
+- [20:18] lang graph and for that we are going to
+- [20:20] use an example of uh let's say your
+- [20:22] stock trading account let's say you have
+- [20:24] stock trading account in Robin Hood or
+- [20:27] zeroda you put money in let's say you
+- [20:30] are investing in corporate bonds and you
+- [20:33] get almost similar kind of fixed uh
+- [20:36] return let's say around 8%. Okay. Now I
+- [20:39] live in US. I invest money and sometimes
+- [20:43] you know I'm from India. So I have this
+- [20:45] mindset of looking at my portfolio in
+- [20:48] INR Indian rupees. So what I do is I
+- [20:52] invest money and then I get the return
+- [20:54] and then I calculate the total amount
+- [20:56] and then I convert it to INR. Okay. So
+- [20:58] if you think about that uh in terms of a
+- [21:02] graph what you have is you have your
+- [21:05] input amount. Okay. Let's say you have
+- [21:07] input amount in zerod. Let's say you put
+- [21:10] or let's say bank account you put some
+- [21:12] $1,000 and you have your first node
+- [21:15] which will calculate your total amount
+- [21:19] including interest. So let's say you are
+- [21:21] getting interest or let's say bond is
+- [21:23] giving you 8% return. Okay. So here this
+- [21:27] is your first node and after you get 8%
+- [21:31] return your total okay your total in USD
+- [21:37] is going to be 1,000 into 8%. So 8% is
+- [21:42] like so if you do this you will get the
+- [21:44] total amount okay and then in node two I
+- [21:48] would like to convert this amount into
+- [21:51] INR. Okay. So this one the first node
+- [21:55] let's say if you have to write python
+- [21:57] function we can say calc total this will
+- [22:01] be my function and the second function
+- [22:04] will be convert
+- [22:07] to INR
+- [22:09] and when you do that like your total INR
+- [22:13] will be whatever is your total USD
+- [22:16] amount multiplied by the exchange rate
+- [22:19] let's say right now it's 85 so this okay
+- [22:22] and that's the amount you get uh as an
+- [22:25] output. Okay. Now the way lang graph uh
+- [22:29] graphs work is they will consume
+- [22:32] something called a state. So if you have
+- [22:34] taken some computer science classes uh
+- [22:37] you will know about this state. So state
+- [22:41] is let's say an object. Okay. So state
+- [22:44] is an object which gets passed between
+- [22:47] the nodes and this state will have all
+- [22:49] these parameters right. So it will have
+- [22:51] amount
+- [22:53] it will have total USD total
+- [22:57] USD it will have total INR and so on and
+- [23:01] you pass this state you know like like
+- [23:04] it goes through this node and you get
+- [23:07] new state again you get new state so
+- [23:10] you're not calling these nodes by
+- [23:11] function etc it's just a state whatever
+- [23:14] you want to pass single object you pass
+- [23:16] it and it just comes out so let me write
+- [23:18] the code folks this is very very simple.
+- [23:22] Uh you you will be amazed how simple
+- [23:24] this thing is. So let's create a
+- [23:28] notebook. Now uh this PyCharm version
+- [23:32] allows you to write notebooks
+- [23:36] uh inside the ID. Okay? So you don't
+- [23:38] have to go outside. And I will just call
+- [23:41] it simple graph.
+- [23:44] Now what I love about uh this is it will
+- [23:48] give you AI autocomplete. Okay. So first
+- [23:53] thing that we are going to do is we will
+- [23:56] define our state. Okay. So this state
+- [24:00] this red square is an object a python
+- [24:04] dictionary or let's say class. Okay. So
+- [24:06] let's define that. So I will say class
+- [24:11] portfolio
+- [24:13] state.
+- [24:15] Okay.
+- [24:17] And
+- [24:20] now I want this to be derived from type
+- [24:23] dict. So in Python
+- [24:26] you you know about this uh thing typing
+- [24:29] right? So this way you create type
+- [24:32] hints. You know Python is not a
+- [24:34] statically typed language but you can
+- [24:36] use this typing hints to define data
+- [24:39] types of your members. So here once you
+- [24:43] derive this from type dict you'll be
+- [24:46] able to define the types. Okay. So here
+- [24:48] I will have
+- [24:51] amount USD which will be float. Now see
+- [24:54] this is what I like about AI editor like
+- [24:56] when you're typing something it will try
+- [24:58] to autocomplete and then you will have
+- [25:01] total
+- [25:03] USD which is float. See I'm just hitting
+- [25:05] tab and then you have total INR
+- [25:11] and that is also float. So control enter
+- [25:15] or just hit this button. See it is
+- [25:17] running this. And then the next one will
+- [25:20] be I will just create an object just to
+- [25:22] kind of show you right. So my object
+- [25:27] um and how do you define the types in
+- [25:30] Python? Well once again Python is a
+- [25:32] dynamically typed language. So when you
+- [25:34] say colon this you are defining a type
+- [25:37] hint not the exact type. And here you
+- [25:41] can have
+- [25:43] amount USD
+- [25:45] whatever
+- [25:48] and then you have total USD
+- [25:52] and then you have total INR. Okay. Now
+- [25:56] when you do this it works okay but let's
+- [25:58] say if I have improper key see you will
+- [26:01] see this kind of type hint. See this
+- [26:02] bulb. So it is saying that there are
+- [26:06] incorrect types. Okay. Okay, so that's
+- [26:08] the whole idea of doing this type dict.
+- [26:10] All right, my state object which is this
+- [26:14] red object is defined. Now I need to
+- [26:16] define these two nodes which is nothing
+- [26:18] but a simple Python function that state
+- [26:22] as an input. Okay, so you will have calc
+- [26:25] total. It will take portfolio state as
+- [26:28] an input and it will output the
+- [26:31] portfolio state. Okay. So, portfolio
+- [26:34] state will be my output.
+- [26:36] And here what you are getting is uh
+- [26:40] let's say I want to call this object
+- [26:42] state.
+- [26:45] In the state the total USD amount that I
+- [26:49] have is nothing but the amount in
+- [26:56] USD multiply by the return rates. Let's
+- [26:59] say I'm getting 8% fixed return. Okay.
+- [27:04] And I will just return this state back.
+- [27:06] Okay. So you're getting state as an
+- [27:07] input. You are returning state as an
+- [27:10] output as per this diagram. This red
+- [27:12] square will pass between the nodes. So
+- [27:14] say same thing for the second function
+- [27:16] which is convert to INR. So I'll just
+- [27:19] copy paste folks just to save time on
+- [27:21] recording. Pretty straightforward. you
+- [27:24] are getting state as an input, state as
+- [27:26] an output and this is how you define the
+- [27:29] data type of output using the Python
+- [27:31] type hints. Okay? And in this function
+- [27:35] what you're doing is you're saying total
+- [27:37] INR is nothing but whatever is the total
+- [27:39] amount in USD multiplied by 85. Now in
+- [27:43] real life situation you will get the
+- [27:45] live conversion rates using some APIs.
+- [27:48] Here it's a learning tutorial so we
+- [27:50] don't need to bother about all of that.
+- [27:52] All right. So let's execute this. This
+- [27:55] is done. Now I will go ahead and define
+- [27:58] my graph. So lang graph dot graph
+- [28:03] import state graph. Okay. And my
+- [28:08] builder. So there is something called
+- [28:09] builder which will let you define that
+- [28:13] graph. Okay. So here the state is your
+- [28:18] portfolio state. So that is what you're
+- [28:19] passing it as an input. Okay. And in the
+- [28:23] graph what do you do? Well, you add
+- [28:25] nodes. Okay, first you add nodes and
+- [28:28] then you define the relationship which
+- [28:29] is like ages. So I will just add a node
+- [28:34] here saying add node and calculate
+- [28:39] total. Now you can also define the name
+- [28:42] of the node. Okay. So my
+- [28:45] you can also call it calculate total
+- [28:47] node, right? calc total and then same
+- [28:51] way you will say
+- [28:54] uh this one is convert to INR and this
+- [28:59] is convert to INR node. Okay. So these
+- [29:03] are the two nodes you have added. Now
+- [29:05] you need to add ages to define the
+- [29:08] relationship. Okay. So it will always
+- [29:11] start with uh something called a start
+- [29:13] age. Okay. So here you you will begin
+- [29:17] with this start age. So you are starting
+- [29:20] with a start age and then you will end
+- [29:23] with the end age.
+- [29:26] So let's start with that builder dot add
+- [29:30] age
+- [29:32] and in add age
+- [29:36] you will have start. So start is a
+- [29:39] constant that you can import from this.
+- [29:43] So from start first I want to calculate
+- [29:46] the total correct and then from total
+- [29:51] I want to go to INR and from INR I want
+- [29:55] to go to N. Now you just notice like my
+- [29:57] AI autocomplete is completing it. So I'm
+- [30:00] saving a lot of time when I use this AI
+- [30:02] assistant. I feel like I have got some
+- [30:04] iron man kind of superpower. You know my
+- [30:06] productivity goes up because I don't
+- [30:08] have to type so many things. You can
+- [30:11] also use this AI assistant code here and
+- [30:15] you can just say whatever you want to
+- [30:17] do, right? Like you can just say okay
+- [30:20] complete
+- [30:23] the code for builder
+- [30:25] and display the graph using
+- [30:30] I display. So when you do that it is
+- [30:34] generating the code. See
+- [30:38] you see. So that way it is useful. So
+- [30:40] I'll just delete it um just to kind of
+- [30:43] show you manually before I show you how
+- [30:45] to display the graph. We need to build
+- [30:47] it. So we'll just say graph is equal to
+- [30:50] builder dot compile.
+- [30:53] And this is the code.
+- [30:55] You just copy paste. You don't need to
+- [30:57] remember syntax etc. to display the
+- [31:00] graph. So as you can see here it has a
+- [31:04] start node. Then there is calc total
+- [31:06] node convert to INR node and end. Now
+- [31:09] you can simply call it by doing this.
+- [31:13] You can just say graph dot invoke and
+- [31:16] pass your initial state. Okay. So see on
+- [31:20] a $1,000 USD amount uh the total USD is
+- [31:24] 1080 and total INR is this much. Now
+- [31:28] when you look at this graph it looks
+- [31:29] more like a linear chain. In the next
+- [31:32] step, we are going to create a graph
+- [31:35] with some conditions. We will design
+- [31:38] this kind of graph where you give your
+- [31:41] amount as an input and also target
+- [31:44] currency. So previously we had INR as a
+- [31:47] fixed currency. Now I want to supply
+- [31:49] INR, EUR etc. And based on the target
+- [31:53] currency, it will call different nodes.
+- [31:55] Okay. So let's create a Jupyter notebook
+- [32:00] here.
+- [32:02] This will be to graph with condition.
+- [32:09] And here I'm going to do some copy
+- [32:12] paste.
+- [32:14] Now I don't want this to be total INR.
+- [32:17] It is total INR. And you will have a
+- [32:22] target currency. Okay. So from by the
+- [32:26] way if you want to support fixed set of
+- [32:28] currency you can use literal which will
+- [32:31] means like just use from these
+- [32:33] currencies. Okay. So let's say I want
+- [32:38] only INR and EUR to be my target
+- [32:43] currency. Okay. So let's execute this
+- [32:47] and also copy paste this here.
+- [32:54] So I have
+- [32:57] total USD. I think this function is okay
+- [33:01] but total INR should be this because we
+- [33:04] don't have that total INR variable
+- [33:07] and let's create a convert to EUR
+- [33:11] function. Okay, so convert to EUR
+- [33:14] will be whatever is the I'm just hard
+- [33:16] coding 0.9. Whatever is the rate you can
+- [33:20] put it there. Okay, so let's execute. So
+- [33:22] we have this three nodes now. So let's
+- [33:27] add those three nodes. Okay. So here
+- [33:31] I will once again copy paste this
+- [33:35] calc total node convert to INR node and
+- [33:38] convert to EUR node. Okay. So this is
+- [33:42] convert to EUR
+- [33:45] EUR. Now let's think about ages. So the
+- [33:49] first age is this which is okay. You
+- [33:53] always calculate total and then you add
+- [33:58] something called a conditional age.
+- [34:01] So in conditional age your start key or
+- [34:04] your source is let's say this one right
+- [34:08] kelp total node
+- [34:11] and then you want to write a function
+- [34:13] that will help you select you know which
+- [34:16] node to go to. So we can say choose
+- [34:21] conversion is our function. it will get
+- [34:24] state as an input obviously
+- [34:26] portfolio state and I want the string to
+- [34:31] be the output. It will return a string
+- [34:34] and and see you can do simply you can
+- [34:37] just return the target currency folks.
+- [34:41] So based on whatever is the target
+- [34:43] currency you can make a decision. So let
+- [34:45] me show you. So once you do that you
+- [34:48] supply this as a second argument here.
+- [34:52] Okay. So first argument is the starting
+- [34:54] node. Second one is the function. So
+- [34:59] calculate node calculated a state and
+- [35:03] state was passed to conversion and what
+- [35:05] you got as an output is a string
+- [35:07] actually. Okay. So here
+- [35:11] you can do something like
+- [35:14] say hello this autocomplete. So the
+- [35:16] output can be either INR or EUR and you
+- [35:20] want to map INR to convert to INR node
+- [35:23] and convert to UR node. So you're just
+- [35:25] doing the mapping. Okay. So that's your
+- [35:28] conditional age. And your last age
+- [35:32] is
+- [35:34] you can do this. You can do either this
+- [35:37] or you can supply this as an array.
+- [35:40] Either way works fine. Okay. So
+- [35:45] applying this as an array
+- [35:49] and then graph is equal to builder dot
+- [35:53] compile. I run it
+- [35:57] and then okay I got this error because
+- [36:00] this function was not defined.
+- [36:03] Okay, it ran fine
+- [36:06] and let's run the graph. See you see
+- [36:10] like now you see
+- [36:13] from calculate node it will use this
+- [36:16] function which will return which
+- [36:18] function choose conversion remember
+- [36:21] choose conversion will return either UR
+- [36:23] or INR and based on that it will pick
+- [36:26] this function
+- [36:28] all right now let's run this so you will
+- [36:31] just say graph
+- [36:34] dot invoke
+- [36:36] and see for INR currency See it is
+- [36:39] returning this. I mean you can do the
+- [36:41] math it's correct. Or if you do eur it
+- [36:45] is going through a different path of
+- [36:47] invocation. So congratulation we just
+- [36:50] created a graph with some conditions and
+- [36:54] some kind of routing. Let us now create
+- [36:56] a simple chatboard state graph. Here we
+- [36:59] will be using Google Gemini model. You
+- [37:02] can use openAI or other model too. You
+- [37:04] need to create API key first. So just
+- [37:07] Google Gemini API key and click on this
+- [37:10] link and click on get API key or let's
+- [37:14] say create API key and here it will ask
+- [37:17] you for the Google project. So you can u
+- [37:22] once again Google Google cloud project
+- [37:25] and here you'll be logging using your
+- [37:27] Gmail ID obviously and if you click here
+- [37:30] you will see all your projects. So just
+- [37:33] create a new project. Okay, I have
+- [37:35] already created all these projects. So,
+- [37:37] I'm going to select AI agents tutorial.
+- [37:39] So, AI agents tutorial and create an API
+- [37:42] key. Once that API key is copied to a
+- [37:47] secure place, what you will do is you
+- [37:51] will create this file called env. Okay?
+- [37:54] So right click file enviable
+- [38:00] Google API key and whatever is your key
+- [38:03] just copy paste that we will now create
+- [38:06] a new notebook called
+- [38:09] chatbot and we'll load that key into
+- [38:13] environment variable okay so from dot
+- [38:16] environment this is the module that we
+- [38:18] use when you do this it will set Google
+- [38:21] Gemini key as an environment
+- [38:23] variable. Okay. So, execute this and
+- [38:27] we'll install some necessary modules
+- [38:30] now. So, just say UV add lang chain.
+- [38:34] Lang chain is probably not installed
+- [38:35] right now. And the other one is lang
+- [38:38] chain Google geni. This if you're using
+- [38:42] openai you have to install a different
+- [38:44] module. Okay. Then uh from
+- [38:49] lang
+- [38:50] chain dot chat models
+- [38:54] okay import init
+- [38:57] chat model
+- [39:00] okay and then create an llm
+- [39:06] by calling init chat model.
+- [39:12] So I'll be using Gemini here. And when
+- [39:15] you do llm invoke and say who was the
+- [39:20] first person to walk on moon, it will it
+- [39:27] will answer that question. Okay. So your
+- [39:29] basic LLM setup is done and you will see
+- [39:32] that it will have this AI message, human
+- [39:34] message, you know, all those kind of
+- [39:35] things. All right. So this thing is set
+- [39:38] up. Now let's create our uh state graph.
+- [39:42] Okay, our state graph and our usual
+- [39:44] setup. So I'm going to remove this
+- [39:46] because this is not needed. And here you
+- [39:50] will create a state and I will also
+- [39:52] import some necessary models here all in
+- [39:55] one go. Okay. So this is type dict
+- [40:00] and my state like what should be the
+- [40:04] state? Well, I'm exchanging messages. So
+- [40:07] it is good if I have a messages list you
+- [40:12] know because there is a conversation to
+- [40:15] maintain the chat history I will have
+- [40:17] all the messages being appended into
+- [40:20] this messages list. So therefore I'm
+- [40:22] having this and our node will be
+- [40:25] chatboard which takes this particular
+- [40:29] state as input. It will output the same
+- [40:32] thing
+- [40:34] and you will say return
+- [40:39] you want to return same thing right like
+- [40:42] messages and you will say that
+- [40:46] um so see messages is a list okay and
+- [40:49] you'll say llm dot invoke whatever llm
+- [40:52] you created
+- [40:54] this okay I I'll run it and you will get
+- [40:56] more idea on this and then our graph
+- [41:00] compilation is pretty straightforward
+- [41:01] you have start node chat port and
+- [41:04] compile right so that's pretty
+- [41:07] straightforward and now I will say graph
+- [41:10] dot invoke so this is a common
+- [41:13] convention that they use where you
+- [41:15] specify role of user and the actual
+- [41:18] message okay so graph dot invoke
+- [41:21] it expects messages as a state input
+- [41:24] right you need to add her to this schema
+- [41:27] okay and that messages
+- [41:31] is this message
+- [41:34] and you will get a response back which
+- [41:37] will be again messages. So response
+- [41:42] messages
+- [41:44] um you can you can print this and let's
+- [41:47] see how this goes. Okay, so I executed
+- [41:50] this and it says Neil Armstrong. Okay,
+- [41:54] Neil Armstrong. So it worked as expected
+- [41:57] but I don't see the original question.
+- [42:00] Usually when you are in chat GPD right
+- [42:02] you see a question from a human right so
+- [42:05] there is a human message where we say
+- [42:07] okay it will ask okay who was the first
+- [42:10] person to walk on the moon then it will
+- [42:13] be an AI human that kind of thing okay
+- [42:17] so you somehow want to preserve that
+- [42:21] original question because then if you're
+- [42:23] maintaining a chat history it will have
+- [42:25] a context so in order to do that we need
+- [42:28] to make some changes here. Okay, here we
+- [42:32] are not just saying list but we are
+- [42:34] saying this is annotated list and then
+- [42:37] we will say add messages. So add
+- [42:40] messages is a built-in function from
+- [42:42] lang graph what it will do is once you
+- [42:47] specify this kind of uh syntax it will
+- [42:50] automatically preserve the original
+- [42:52] message. Okay so let me just run it
+- [42:54] quickly. Okay here annotated is not
+- [42:58] defined. Okay, because it is here and I
+- [43:00] did not execute this cell. Okay, so let
+- [43:02] me just execute this
+- [43:06] and then this. You need to execute all
+- [43:09] of this.
+- [43:12] Now when you see it, see human message
+- [43:14] is preserved. So first is human message
+- [43:16] who walked on the moon for the first
+- [43:18] time and then there is AI message. Okay.
+- [43:21] So this uh function by the way is called
+- [43:24] a reducer function. This particular add
+- [43:27] message is called a reducer function. It
+- [43:31] will add some kind of validation to
+- [43:33] messages. It will tell it you know that
+- [43:36] it you don't need to override but you
+- [43:38] need to append the new messages which is
+- [43:41] coming from AI. If you want to
+- [43:42] understand that in detail you can just
+- [43:45] Google langraph reducers. Okay, reducers
+- [43:50] add message function and you will
+- [43:54] find some documentation.
+- [43:57] Okay, so update state all of that. Um,
+- [44:00] so I I went to this particular
+- [44:05] I think where is it? Yeah, here. See, so
+- [44:08] this is how reducer works. So when you
+- [44:12] have this function
+- [44:15] add messages, right? add messages.
+- [44:19] You can read more about it. They have
+- [44:21] given nice documentation. All right. So,
+- [44:23] our chatbot is defined. Let's say if you
+- [44:25] want to write a loop uh where you can
+- [44:27] ask question one by one, then you can
+- [44:29] use this particular code. So, let me
+- [44:32] just show it to you. It's just simple
+- [44:36] while loop, okay? Where you initialize
+- [44:38] your state to be none. And then in the
+- [44:42] first iteration when state is none, see,
+- [44:44] you're taking the message from the
+- [44:46] input. Okay? input cell you are taking
+- [44:47] the message from and when the state is
+- [44:50] null you will have simple object like
+- [44:54] this but next time onwards whatever
+- [44:56] messages you have so after first
+- [44:59] iteration you will have one human
+- [45:00] message one AI message and then you
+- [45:02] append one that the new human message to
+- [45:05] that okay so that way our chat history
+- [45:08] is maintained so let me just run it so
+- [45:11] here who was the
+- [45:14] first person to walk
+- [45:18] on the moon. Print name only. Right? So
+- [45:22] when you do that, see it is saying Neil
+- [45:25] Armstrong. Now you can say, okay, which
+- [45:28] year? Which year?
+- [45:32] And it is saying 1969. See, so there is
+- [45:35] a context. Now you can ask related
+- [45:37] questions and it will work. Okay. When I
+- [45:39] ask this question, what is the latest
+- [45:41] price of MSFT stock to the chatbot that
+- [45:44] we just created? it will say I am unable
+- [45:46] to provide real-time stock prices
+- [45:49] because LLM's knowledge is cut off until
+- [45:52] certain date and in order to build
+- [45:55] useful agents you need to provide tools
+- [45:58] to agents. So when a person ask
+- [46:01] questions such as MSFT stock price LLM
+- [46:04] should be able to call Yahoo Finance API
+- [46:07] or some Python function to get the
+- [46:10] latest uh stock price. So we are going
+- [46:12] to now build uh a tool for this
+- [46:17] chatboard. Okay. So let me just
+- [46:20] unccommand this
+- [46:23] and I have created this four tool call.
+- [46:27] Okay. So right click jupyer notebook. I
+- [46:29] created it. I imported couple of
+- [46:32] necessary
+- [46:34] libraries and I will just create the llm
+- [46:37] in the same way that we did last time.
+- [46:41] Okay. So we just created LLM like this.
+- [46:45] But I want to provide this LLM access of
+- [46:49] a tool that can get stock prices. Now I
+- [46:52] don't want to go to the intricacies of
+- [46:54] calling Yahoo Finance API etc. What I'll
+- [46:56] do is I will just define a Python
+- [46:59] function and assume it is giving the
+- [47:01] latest stock price. Okay. So let's say
+- [47:03] this is the Python function. So I'll
+- [47:06] just copy paste. Save some time on
+- [47:08] typing. And all you're doing is passing
+- [47:11] the symbol Microsoft, Apple, etc. And it
+- [47:13] will just return some dummy value. Okay,
+- [47:16] in real life industry use case, you will
+- [47:18] call Yahoo Finance or whatever API. But
+- [47:20] for learning, this function is good
+- [47:22] enough. And you will annotate that as
+- [47:25] add tool. Okay, so tool is something
+- [47:28] that we have imported from lang chain
+- [47:30] core. And now we have this tool. Then
+- [47:35] you create this tools variable which
+- [47:38] contains all the tools. So let's say if
+- [47:40] you have second function you know you
+- [47:41] can have second function third function
+- [47:43] you can have a list of tools here and
+- [47:46] you will now create a variable called
+- [47:50] llm with tools and you will say llm
+- [47:56] dotbind actually there is another method
+- [47:58] llm.bind bind tools. Okay, let's execute
+- [48:02] this. So this is looking good and I have
+- [48:05] copy pasted same code. Okay, chatboard
+- [48:08] how you build graph everything remains
+- [48:11] same. Now here we are going to add one
+- [48:13] condition to add the access of tools to
+- [48:16] this chatboard which is builder dot add
+- [48:20] conditional age. See you want to call
+- [48:22] the tool only if required. If some
+- [48:25] person is asking question on stock price
+- [48:27] then it provide access to tool otherwise
+- [48:30] you don't need to that's why this is a
+- [48:31] conditional age which starts with h8
+- [48:35] board and it will end in something
+- [48:39] called tools condition.
+- [48:43] Okay. Now tools condition is something
+- [48:45] that we have imported from lang graph
+- [48:49] pre-built and what this will do is it
+- [48:52] will return
+- [48:54] either tools or underscore and now what
+- [48:58] does that mean? Let me just show you. So
+- [49:01] here um and by the way I added the tools
+- [49:05] node as well. Okay so there are like two
+- [49:06] changes like this and this. So you added
+- [49:10] a node for chatboard then you added a
+- [49:12] node for tools and you have to just say
+- [49:15] tool node tools right so tools is this
+- [49:18] tool node tools and tool node is again a
+- [49:21] pre-built class that we have called and
+- [49:24] the second line that I added is add
+- [49:26] conditional age from chatboard to tools
+- [49:28] condition so let me execute this code to
+- [49:30] show you so you see here
+- [49:35] uh what is happening is
+- [49:39] From chatbot you have a conditional age
+- [49:42] going to tools. So why is it dotted?
+- [49:46] Because only if required then call
+- [49:49] tools. Otherwise chatboard can directly
+- [49:52] go to end. Okay. So chatbot is going to
+- [49:54] either tools or end. And that is what is
+- [49:57] specified by tools condition. See it is
+- [49:59] going to either tools which is this
+- [50:01] tools or end. Okay. So that's what this
+- [50:05] tool condition means. It means from
+- [50:08] chatboard when required go to tools
+- [50:11] otherwise if not required go to end.
+- [50:13] Okay. And um I think even if you don't
+- [50:18] do this should work. Okay. Let me just
+- [50:21] try this. Yeah. See. All right. So my
+- [50:26] this thing is done. Now I can just type
+- [50:31] in some message. So I'll just say what
+- [50:33] is the price of Amazon stock right now.
+- [50:36] and see 150. So it is making a tool call
+- [50:39] and it is retrieving 150. What is the
+- [50:41] price of apple? 100.4. Okay. So 100.4 is
+- [50:46] something that it should return. And
+- [50:48] when you look at the state here, watch
+- [50:50] this. This is very important. So you had
+- [50:53] a human message, right? What is the
+- [50:54] price of your original question? Then
+- [50:57] you have a AI message. Okay? And you
+- [51:02] have this tool call. So see tool
+- [51:05] message. So your tool is returning 100.4
+- [51:10] and you call get stock price. Okay, you
+- [51:13] call this get stock price function.
+- [51:16] Okay, so here on the AI message you can
+- [51:18] see the exit function call. uh it is
+- [51:21] Apple get stock price and this is the
+- [51:24] beauty of LLM that from your natural
+- [51:26] question which is this it intelligently
+- [51:29] figured out that it needs to call this
+- [51:31] and how it did it uses this doc string
+- [51:34] you know it knows that I have access of
+- [51:36] this tool which will return the current
+- [51:38] price of a stock okay so from this it
+- [51:42] extracted apple as a stock ticker then
+- [51:45] it called this function okay uh and if
+- [51:48] you look at the state you see that
+- [51:50] function call see function call argument
+- [51:52] symbol apple get stock price and the
+- [51:54] result is nothing but a simple tool
+- [51:56] message so 100.4 before was a tool
+- [51:59] message which you just directly return
+- [52:01] to it. But now when I ask a different
+- [52:04] question, let's say I ask who invented
+- [52:07] the theory of relativity in that case it
+- [52:10] will not call tool. See, you don't see
+- [52:13] any tool message. So it is smartly
+- [52:16] figuring out what needs to be done here.
+- [52:19] Now let's say I ask this question. I
+- [52:21] want to buy 20 Amazon stocks then 15
+- [52:24] MST. What will be the total cost? Pause
+- [52:27] this video and tell me what will happen.
+- [52:30] Well, you will think that it will first
+- [52:32] retrieve Amazon 20 stocks then 15 MS FT
+- [52:36] and it will tell you the total. See, no,
+- [52:38] it did not work as per our expectation.
+- [52:41] So, what it did is it retrieved the MSFT
+- [52:45] stock price I think MSF yeah 200.3.
+- [52:50] So, it made this second tool call,
+- [52:52] right? And it just retrieved this thing.
+- [52:56] It did not do this math actually. So if
+- [52:59] you look at this state see you see the
+- [53:03] it made two tool calls actually and 150
+- [53:07] and 200 but it is not taking that
+- [53:10] response back to LLM and LLM should say
+- [53:13] okay I have this price of MS50 this
+- [53:15] price of Amazon let me add up and let me
+- [53:18] give you the comprehensive final answer.
+- [53:20] It is not doing that. So this needs some
+- [53:23] update. Okay. So for that I will just
+- [53:26] copy paste. So let let's keep this as it
+- [53:28] is and Ctrl Ctrl + V and let's call this
+- [53:35] tool call agent. Now I want to call it
+- [53:38] agent because I want to make it more
+- [53:40] intelligent. Okay. And the only change
+- [53:43] you will do here is see right now when
+- [53:46] you make a tool call it will go directly
+- [53:48] to the end but you want the response
+- [53:51] from tool to go back to chatbot. So for
+- [53:54] that you will simply say builder dot add
+- [53:59] age
+- [54:01] from tools let's go back to chatbot
+- [54:06] so now okay I need to execute all of
+- [54:09] this okay so let's execute all the cells
+- [54:12] step by step so look at this chart
+- [54:16] now from tools also it is going to this
+- [54:19] chatboard so this is becoming agentic
+- [54:22] now Okay. So let me just show you how
+- [54:25] exactly it is agentic.
+- [54:27] So this I think let me just directly run
+- [54:31] this. See now it is reasoning. Okay. And
+- [54:34] if you look at the state
+- [54:37] um
+- [54:38] it made those two tool calls right? One
+- [54:41] for Amazon second for MSFT. And then
+- [54:44] again it made an AI call. See and it
+- [54:48] told you the final result. So it is
+- [54:52] truly agentic because what happens is
+- [54:56] you have let's say your chatbot okay so
+- [54:59] let's say your chatbot is an LLM based
+- [55:02] and then you are calling these tools
+- [55:06] okay so let's say you're calling this
+- [55:08] tool to get the stock price and from
+- [55:11] here you go back and here is the
+- [55:13] response right so this is a question and
+- [55:16] this is a response
+- [55:18] so first it will uh call it for Amazon.
+- [55:22] Okay. So, Amazon. Okay. Let's say
+- [55:24] whatever is the Amazon price. Okay.
+- [55:27] Let's say 10.
+- [55:29] So, 10 goes here. Okay. Then again it
+- [55:32] calls it for MSFT.
+- [55:35] What is the MSFT stock price? Let's say
+- [55:38] 20. So, 20 goes again here. And it will
+- [55:40] do the reasoning. So, it is doing like
+- [55:41] multi-step planning almost. I mean, I
+- [55:45] know it's simple but it is doing those
+- [55:47] multiple iterations. And therefore if
+- [55:49] you remember our definition of agent AKI
+- [55:52] when you give it a tool access it should
+- [55:54] be able to call the tool whenever
+- [55:56] required and it should be able to take
+- [55:58] back all those response and generate a
+- [56:00] comprehensive final output. Let's talk
+- [56:03] about memory. Now when you are doing a
+- [56:06] conversation with chatboard you need to
+- [56:08] maintain a context. So let's say if you
+- [56:10] ask a question I want to buy 10 Reliance
+- [56:12] stocks. What is the price? There will be
+- [56:14] price. then you can say I want to buy
+- [56:16] five MSFT stocks and add the price to
+- [56:19] the previous total. So it needs to know
+- [56:21] what happened previously. Okay,
+- [56:23] therefore memory is important. And in
+- [56:25] our code previously we used simple
+- [56:29] Python list. So if you look at this one,
+- [56:32] you see we used Python coding and Python
+- [56:36] list to append messages to the previous
+- [56:38] chat history. And this is not a very
+- [56:41] efficient way of maintaining memory.
+- [56:44] Lang graph provides inbuilt constructs
+- [56:48] to save the memory. Okay. So we will
+- [56:51] look into that. So this way works but
+- [56:53] it's not very efficient. You might run
+- [56:54] into the issues. So we will look at the
+- [56:57] proper way using lang graph inbuilt
+- [56:59] methods. I'm going to click here crl +
+- [57:03] v. Okay. Just copy pasting the last
+- [57:05] notebook. Let's call it memory.
+- [57:10] And first let's understand what happens
+- [57:12] if you don't have memory. So here if you
+- [57:16] click on this button it will just run
+- [57:18] all the cells. And now see let's say if
+- [57:22] I ask a different question which is
+- [57:27] uh
+- [57:29] get me the current price of
+- [57:34] a real stock. Okay. get me the
+- [57:39] and tell me
+- [57:42] how many or using a current price. You
+- [57:45] can just say using the current price,
+- [57:49] tell me the total
+- [57:52] price of 20 10 real stocks
+- [57:56] and add it to previous total. Tell me
+- [58:00] will this work or not?
+- [58:04] See could you please provide the
+- [58:06] previous to it doesn't know what
+- [58:08] happened previously. So let's use
+- [58:12] uh this thing called checkpoint memory.
+- [58:15] So if you look at the documentation
+- [58:19] you can import this from lang graph
+- [58:21] checkpoint memory import memory saver.
+- [58:23] Okay. So let me import that here.
+- [58:27] I think you can import anywhere. So I'm
+- [58:31] going to import here.
+- [58:34] Okay, so you are importing this object
+- [58:37] of memory saver class and then this
+- [58:41] memory you will provide while compiling
+- [58:44] a graph.
+- [58:46] So here you will say check pointer is is
+- [58:48] equal to memory. Okay, so you created
+- [58:51] the object while compiling the graph you
+- [58:53] are saying that take this object of
+- [58:55] memory. We are not done yet. So one last
+- [58:58] step is
+- [59:00] when you invoke this method. Okay. So
+- [59:05] let me just remove this. You need to
+- [59:08] provide something called config
+- [59:12] which is a dictionary that will say
+- [59:14] configurable
+- [59:15] and thread ID. Th trade ID let's say my
+- [59:19] thread ID is one. I'll tell you the
+- [59:23] value of this thread ID later on. But
+- [59:26] for now when you invoke this graph,
+- [59:30] let's pass this config.
+- [59:35] Config is equal to config. Okay.
+- [59:39] So you got the total price of April
+- [59:42] stocks. Okay. 100.4.
+- [59:46] Or let me actually this is not needed.
+- [59:49] Let me just remove this cell.
+- [59:52] Let me add it here.
+- [59:55] And I will add it to both.
+- [59:58] So config here and config here. Same
+- [60:02] config with same thread ID.
+- [60:05] So now when I run this, it will tell me
+- [60:09] 6,04 is the total price. And when I run
+- [60:12] that, okay, so here is not working
+- [60:15] because apparently I did not execute the
+- [60:17] previous code. So let's execute by
+- [60:21] clicking on run all and see what
+- [60:23] happens.
+- [60:25] See now it worked. Previously the price
+- [60:27] was 64. Now 64 + 876 68 80. Isn't this
+- [60:34] amazing? Now you can maintain two
+- [60:37] different threads also. So let me show
+- [60:39] you. So say if I add a new cell here.
+- [60:46] Okay. So let me how do I add a new cell?
+- [60:49] You can press button B to add a new
+- [60:52] cell.
+- [60:54] And let's assume
+- [60:56] here I'm creating a different thread ID.
+- [60:59] Different thread ID. Okay, thread ID
+- [61:01] too. And here I will say uh let's pick
+- [61:06] another stock Apple. Okay.
+- [61:10] Tell me the current price of
+- [61:15] five
+- [61:18] Apple stocks.
+- [61:22] Okay.
+- [61:23] And here the thread ID is two. So when
+- [61:26] you run it,
+- [61:28] see the current price of Apple stock is
+- [61:31] this. And you're saying like first I'm
+- [61:35] having thread ID 1 then I have thread ID
+- [61:38] 2 thread ID 1 again. So let me just get
+- [61:42] thread ID. You know what I I think I
+- [61:44] need to call it config 1 and two. So
+- [61:47] config one is this. Config 2 is this.
+- [61:51] Okay. So here I'm passing config 2. Here
+- [61:53] I'm passing config one.
+- [61:57] Um
+- [61:59] and then
+- [62:03] uh you will say something else. So tell
+- [62:08] me the current price of five MS stocks
+- [62:12] and
+- [62:14] add it to
+- [62:16] previous total.
+- [62:19] Okay.
+- [62:21] And just to be on a safe side, I will
+- [62:23] just execute all the cells. So make sure
+- [62:25] you are passing config 2 here. Okay,
+- [62:27] config 1, config 2, and config 1. So the
+- [62:31] output of config 1 was $6,04.
+- [62:35] Correct? And in config 1 again when I
+- [62:38] said, okay, add it to previous total. It
+- [62:42] did not remember Apple's total, but it
+- [62:44] remember this. See, 6,04 is a previous
+- [62:48] total. I hope you're getting it. It's
+- [62:50] pretty common sense. So it is
+- [62:52] maintaining two different thread
+- [62:53] context. Okay. So if I to uh draw a
+- [62:58] picture, it will look something like
+- [63:01] this where I have two threads. Okay. So
+- [63:06] I have
+- [63:09] thread one
+- [63:11] and then this one is
+- [63:16] a thread two. Okay. Okay. So in a thread
+- [63:19] one in thread two if you look at just
+- [63:22] thread two we ask for five apple stock
+- [63:26] price which is $502 right? So here
+- [63:32] five
+- [63:33] apple and the price is $502
+- [63:37] and then you add
+- [63:40] 5 msft. So the five msft
+- [63:43] is 1, right? So 5 MSFT.
+- [63:49] So 5 MSFT
+- [63:53] is 1,1 and it is just adding these two.
+- [63:56] So when it adds that you get 15
+- [64:00] 03,
+- [64:01] right? So this is my
+- [64:04] thread two execution. But when I look at
+- [64:06] thread one u we asked for
+- [64:12] we asked this question which where we
+- [64:14] got 64 and in that 64
+- [64:18] you are adding 876 see 876 you are
+- [64:21] adding to 64.
+- [64:23] So this um memory is used not only to
+- [64:28] maintain context around different
+- [64:30] threads but it is also useful to resume
+- [64:34] complex state any time for error
+- [64:36] recovery or human in the workflow. Okay.
+- [64:39] So if you read through it you will
+- [64:41] realize add memory is not just
+- [64:43] maintaining memory for your chat
+- [64:44] conversation but let's say you are
+- [64:45] having some kind of error failure and
+- [64:47] you want to resume from the last good
+- [64:49] state. The checkpoint checkpoint is like
+- [64:51] you are kind of saving you know how do
+- [64:53] you save a file in gate or in your IDE
+- [64:57] and you can say control zt control z so
+- [64:59] it is just saving checkpoint at certain
+- [65:01] point so that you can go back and
+- [65:03] recover from error when you're done
+- [65:05] building your agenti application and
+- [65:08] when you're ready to deploy to
+- [65:10] production you want to think about
+- [65:12] monitoring because agent might be taking
+- [65:15] multi-turns and it might be incurring
+- [65:17] lot of API cost you want to know how
+- [65:20] many tokens are being used, what is the
+- [65:22] cost, what is the latency and you also
+- [65:25] want to have some kind of trace of
+- [65:26] output so that you know that your
+- [65:29] customers are given the right answers
+- [65:31] and you can perform some kind of audit.
+- [65:33] Langsmith is a tool that allows you to
+- [65:35] do this and we are going to incorporate
+- [65:38] it in the code that we have built so far
+- [65:40] quickly. Okay, so just type
+- [65:42] smith.langchain.com
+- [65:46] and you can login using your Google ID.
+- [65:48] I'm already logged in. So I see this
+- [65:50] kind of setup here where in the home I
+- [65:53] will see this kind of projects. So I'm
+- [65:55] going to set up a new project. So just
+- [65:58] click on setup tracing and I'll show you
+- [66:00] it's very easy. Click on generate API
+- [66:02] key and then add that API key here.
+- [66:05] Okay. So I'm going to generate the API
+- [66:07] key and add it in your env file. Then
+- [66:12] set this other variable length tracing
+- [66:15] true. Langmith endpoint is this and
+- [66:18] project name is your project name. In
+- [66:20] our case, it's langraph learning. You
+- [66:22] can give any project name by the way. So
+- [66:24] if you look at all the instructions
+- [66:26] here, they have given uh those
+- [66:28] instructions. Okay. After that, you will
+- [66:31] u create a new notebook. So let me just
+- [66:34] create a new notebook uh for I think
+- [66:38] let's do it for an agent. Okay. So I'm
+- [66:40] going to copy paste file tool agent call
+- [66:43] it 7
+- [66:45] um langsmith
+- [66:48] right lang.
+- [66:53] And here you will have to install lang
+- [66:56] smmith module first. So you will just
+- [66:58] say uv add lang
+- [67:02] and it added it easily.
+- [67:05] Then you will convert uh this into a
+- [67:09] function. So, Langsmith allows you to uh
+- [67:14] upload the traces of your calls via
+- [67:18] annotation. Okay. So, you can say from
+- [67:21] langmmith import
+- [67:24] traceable and traceable is an annotation
+- [67:29] that you can define on top of any
+- [67:31] function. So, we will define a function
+- [67:33] called call graph where you just pass in
+- [67:36] a question right that you want to ask to
+- [67:38] your chatboard.
+- [67:40] and it will answer that question. Okay.
+- [67:43] So here
+- [67:45] call graph will be called on what is the
+- [67:48] price of let's say apple stock right
+- [67:50] now. And this is your query.
+- [67:56] Okay. And you will
+- [67:59] return
+- [68:01] this particular thing.
+- [68:05] All right. I will remove the other calls
+- [68:09] that we have. Actually, you know what? I
+- [68:12] think this looks like a better call
+- [68:14] because it has multiple tool calls
+- [68:17] involved. So, I will try that. Okay,
+- [68:19] just simple one call and click on this
+- [68:21] to run all the code. Now, when you call
+- [68:24] load environment, it loaded those
+- [68:27] environment variables into memory. And
+- [68:30] then when you have this add traceable,
+- [68:32] it will add traces to our project. So
+- [68:35] let's look at our Langsmith project
+- [68:36] online and see what's going on. So here
+- [68:42] uh if you refresh
+- [68:44] you will find this project Langraph
+- [68:47] Learning. It wasn't there before. And
+- [68:50] when you click on it you will see the
+- [68:52] calls. Okay. So click on it. I want to
+- [68:56] buy 20 stocks and you can see the call
+- [69:00] breakdown. Now interesting thing here is
+- [69:02] it will show you the cost. So apparently
+- [69:03] the Google Gemini API that I'm using
+- [69:06] it's cost it's costing some money to me
+- [69:09] 284 tokens. Um you can look at the tool
+- [69:14] calls. Tool calls were of course free
+- [69:16] latency was zero. In this case latency
+- [69:18] was 82 seconds. So see you can monitor
+- [69:21] cost you can monitor latency. You can
+- [69:24] also audit some of these calls to check
+- [69:27] for the correct output. Okay. So
+- [69:29] whenever you are building enterprise
+- [69:32] scale application having this kind of
+- [69:35] monitoring tool will be extremely useful
+- [69:38] and tracing is just one dimension of uh
+- [69:41] lang. It provides many other features as
+- [69:44] well such as evaluating agents
+- [69:46] performance uh it and collaborate on
+- [69:49] prompts
+- [69:51] monitoring you know route decisions and
+- [69:53] things like that like since this is a
+- [69:54] lang craft tutorial and not langid
+- [69:56] tutorial I don't I don't want to go into
+- [69:59] details of those additional features but
+- [70:01] at least by doing this you set up a
+- [70:04] basic lang project and you have your
+- [70:07] traces being collected on this dashboard
+- [70:11] let's go over another important topic
+- [70:12] called human in the loop also known as
+- [70:15] hitl when you're building agentic
+- [70:18] workflows they can't be fully autonomous
+- [70:22] before performing some critical action
+- [70:24] you want to take some human approval
+- [70:26] let's say you're buying stocks using
+- [70:28] some AI system before it executes a
+- [70:31] specific trade you want to make sure
+- [70:33] everything is perfect and give a human
+- [70:35] approval so that's what we are going to
+- [70:37] build right now to demonstrate human in
+- [70:40] the loop
+- [70:41] I have created this Python file. I'm not
+- [70:44] using notebook to make things easier.
+- [70:46] Just a simple Python file which has get
+- [70:49] stock price tool. We have written this
+- [70:51] code before. So it shouldn't be a
+- [70:53] surprise. When you run it, you ask the
+- [70:56] price of 10 MS50 stocks and it will tell
+- [70:58] you. Now let's add another tool to buy
+- [71:03] the stocks. Okay? So we will say tool
+- [71:09] and uh
+- [71:12] buy stocks.
+- [71:15] Okay. So here let's say I will also add
+- [71:20] total price for this you know and you're
+- [71:24] just writing a dummy Python function. I
+- [71:26] I I don't want to go ahead and connect
+- [71:28] it with my Robin Hood account and
+- [71:30] execute the trade for real. Okay. a
+- [71:32] learning tutorial but in real life you
+- [71:35] will have some API integration you are
+- [71:36] calling whatever your stock brokerage
+- [71:39] accounts API to execute it okay so you
+- [71:42] bought this quantity share for a total
+- [71:46] price of this very simple and then add
+- [71:50] that to this particular tools array and
+- [71:55] then tools will go to llm with tools
+- [71:58] okay so now let's execute that Okay. So
+- [72:02] here I am going to add a second step
+- [72:08] saying that buy 10 MSFT
+- [72:12] stocks
+- [72:14] at current price. And here
+- [72:18] okay.
+- [72:20] So let me just run it and this is okay.
+- [72:24] Right. So it is saying I have bought 10
+- [72:26] shares of MSFT for a total price of
+- [72:29] this. So it worked as expected folks.
+- [72:31] Sometimes I have seen that just Gemini
+- [72:33] model behaves unpredictable way. So you
+- [72:36] might get like random output. If you
+- [72:39] want the best output you should use GPT
+- [72:41] model. I mean of course for that you
+- [72:43] will need open AI API. Um but just be
+- [72:49] aware that sometimes you might get weird
+- [72:51] output and it's just LLM, right? It's
+- [72:53] just unpredictable at times. Now I want
+- [72:57] to add the human in the loop component
+- [73:00] for which we will use this interrupt
+- [73:02] function. So if you look at their
+- [73:04] documentation they have this interrupt
+- [73:06] function which is similar to input
+- [73:08] function in Python. Whenever you want to
+- [73:10] take input from Python right like let's
+- [73:13] say okay should I execute this trade?
+- [73:15] Yes and no. We use input function right?
+- [73:17] Interrupt is a similar function. So if
+- [73:20] you look at the documentation
+- [73:23] you know this is how you interrupt. So
+- [73:25] let me copy paste this to import that
+- [73:29] first obviously and then I will not buy
+- [73:33] the stocks directly. I will just say
+- [73:36] interrupt and I will say approve buying
+- [73:38] this much right this stocks and that
+- [73:40] will be your decision and if decision
+- [73:46] is equal to yes then do this
+- [73:50] otherwise buying decline. Okay.
+- [73:54] Now whenever it is executing and when it
+- [73:57] comes to this node when it encounters
+- [74:00] this line it will stop execution and it
+- [74:03] will ask for human input. So how do you
+- [74:06] know it has stopped the execution? Well
+- [74:08] here in this code uh you can just print
+- [74:12] I'll just copy paste here. So you can
+- [74:15] just print here
+- [74:17] state.get interrupt. Okay. So when you
+- [74:20] do this see it will print this value
+- [74:23] which means the graph execution has
+- [74:25] interrupted right. So if you look at our
+- [74:29] particular graph uh the graph nodes if
+- [74:32] you think about it right we have start
+- [74:34] node then we have get stock prices tool
+- [74:38] right so we have a chatbot actually so
+- [74:41] this is chatbot and then it has access
+- [74:44] to the tools so you have seen the dotted
+- [74:48] line right so tools and in tools both
+- [74:51] the tools get prize as well as execute
+- [74:54] and there is this and then there is and
+- [74:57] correct. So now what happens is when
+- [75:01] you're buying a stock see it will come
+- [75:03] through this nodes right? So it's in a
+- [75:05] chatboard it will make a tool call. So
+- [75:08] it will call buy tools and then it will
+- [75:10] stop here. It will not go further ahead.
+- [75:13] It will just stop. And here is where
+- [75:18] human in the loop right? So human in the
+- [75:21] loop will come in play where you will
+- [75:23] give some kind of output and then it
+- [75:25] will uh finish the remaining execution.
+- [75:29] It's very straightforward folks. So I
+- [75:30] hope you're getting it.
+- [75:32] So to get that here using Python input
+- [75:36] function I will say okay um do you want
+- [75:39] to approve like approve
+- [75:47] yes no
+- [75:49] you want to approve that and once you
+- [75:51] have the decision you will say graph dot
+- [75:55] invoke
+- [75:57] command.
+- [75:59] See, so you are passing decision through
+- [76:02] command. So what command will do is
+- [76:04] whatever is decision, right? Either yes
+- [76:06] or no, it will put it here as an output
+- [76:09] of the interrupt. So when you call
+- [76:10] interrupt, it will be blocked. And when
+- [76:12] you say command
+- [76:14] decision,
+- [76:16] it will
+- [76:19] actually this
+- [76:22] this is the name of the argument. So in
+- [76:24] command you're saying resume wherever
+- [76:26] you're blocked resume with this
+- [76:28] particular decision which is yes. So let
+- [76:30] me just run it so you get an idea. Um so
+- [76:34] here it should ask
+- [76:36] yes. See approve buying this. Now you
+- [76:39] will say yes no. So you will say yes
+- [76:42] and when you say yes it will
+- [76:45] okay let me see. So when I said yes
+- [76:50] actually it worked. I should have
+- [76:52] printed actually here. Uh let me just
+- [76:55] print this thing. I forgot to print that
+- [76:58] state actually that's why.
+- [77:02] Okay. So approve. Yes. And it will say
+- [77:06] um all right. Let me just debug it to
+- [77:08] see what's going on. So I'll put a break
+- [77:10] point here.
+- [77:13] And let's run this. I hope this
+- [77:16] interrupt and PyCharm's debugger
+- [77:19] interrupt kind of works well in the
+- [77:21] sync. Okay, approve. You will say yes.
+- [77:24] You see decision you got it as yes. So
+- [77:26] it is a working as expected. So when you
+- [77:28] do this, it should return that that.
+- [77:31] Okay, an obvious mistake that I was
+- [77:33] making was I need to get this back in
+- [77:35] state. Okay, so that was a problem. So I
+- [77:38] was not returning that state back into
+- [77:40] this variable. So now when you say
+- [77:43] approve yes it should say you bought 10
+- [77:46] stocks and if you say approval no
+- [77:51] let me try that no
+- [77:54] see I was not able to buy stocks buying
+- [77:56] decline so it this one will return
+- [77:59] buying decline but then llm will enhance
+- [78:01] the output and it will add that the line
+- [78:03] might look something different so I hope
+- [78:06] you got a some idea on you know how you
+- [78:10] can involve all humans in the agent AI
+- [78:13] workflows using
+- [78:16] the interrupt and command. That's it
+- [78:19] folks. The link for the code is given in
+- [78:22] the video description. If you have any
+- [78:23] question, post in the comment box below.
+- [78:25] Feel free to share this with your
+- [78:27] friends who want to learn agentic AI
+- [78:29] using Langraph. And if you like this
+- [78:31] video, give it a thumbs up. Thank you
+- [78:33] very much for watching.

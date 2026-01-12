@@ -1,0 +1,1444 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=t8jNXTe2_Gk"
+video_id: "t8jNXTe2_Gk"
+video_url: "https://www.youtube.com/watch?v=t8jNXTe2_Gk"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=t8jNXTe2_Gk
+  - Retrieved at: 2025-12-30T16:31:52+09:00
+  - [00:00] from the foundation model perspective
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=t8jNXTe2_Gk"
+  - "- Retrieved at: 2025-12-30T16:31:52+09:00"
+  - "- [00:00] from the foundation model perspective"
+  - "- [00:02] and we have a lot of good models right"
+  - "- [00:03] anopic models and geminite models right"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: t8jNXTe2_Gk
+
+- URL: https://www.youtube.com/watch?v=t8jNXTe2_Gk
+- Retrieved at: 2025-12-30T16:31:52+09:00
+
+## Text
+
+- [00:00] from the foundation model perspective
+- [00:02] and we have a lot of good models right
+- [00:03] anopic models and geminite models right
+- [00:06] open models or yeah what make the chat
+- [00:09] GBT difference is a gentic features
+- [00:11] right think about it right and I'm
+- [00:14] pretty sure you use chatb all the time
+- [00:16] but what makes chat GB different I think
+- [00:19] that's a secret sauce and also my
+- [00:21] prediction is like GBD5 is not a model
+- [00:24] it's a agent I think maybe you know
+- [00:27] future everyone going to have this R2D2
+- [00:29] too right and you know we all like R2D2
+- [00:32] I think that's a clearly trend right and
+- [00:33] we all have our digital companion
+- [00:35] physically we already have open search
+- [00:38] base knowledge base you can easily add
+- [00:40] another layer of the rag on top of it
+- [00:43] right build a decent enough uh rag
+- [00:46] system and however your data refreshing
+- [00:49] data management system can be as the
+- [00:52] same as they have today you don't have
+- [00:55] to redo everything so this is one
+- [00:57] possible way right to move the RA system
+- [01:01] forward quickly.
+- [01:06] >> Welcome to data framed. This is Richie.
+- [01:08] AI agents are the hottest of hot topics,
+- [01:10] but there's a big leap from your CEO
+- [01:12] declaring your company to be allin on AI
+- [01:15] agents to actually getting some value
+- [01:17] from them, especially in an enterprise
+- [01:19] setting. So, today we're going to try
+- [01:21] and figure out how to cross that chasm.
+- [01:23] I want to know how to make your
+- [01:24] organization AI agent ready, how to
+- [01:27] manage your corporate data for use with
+- [01:29] AI agents, and how to manage and govern
+- [01:33] those AI agents once they're in
+- [01:34] production. Our guest is Jun Kan, the VP
+- [01:37] of generative AI services at Oracle. Jun
+- [01:40] oversees the development of Oracle's
+- [01:42] generative AI services, generative AI
+- [01:44] agents, and code assist platform. In his
+- [01:47] career, Jun's been responsible for
+- [01:49] creating some pretty high-profile AI
+- [01:51] products. At Microsoft, he founded
+- [01:53] Microsoft Power Virtual Agent, now part
+- [01:55] of C-Pilot Studio. And Jun also ran the
+- [01:58] AI and machine learning department at
+- [02:00] fraud detection platform SIF. So, Jun
+- [02:02] certainly knows a thing or two about
+- [02:04] getting AI into the enterprise. Let's
+- [02:06] hear his advice on adopting AI agents.
+- [02:12] >> Hi, Jun. Welcome to the show.
+- [02:13] >> Hi, pleased to meet you. At the moment,
+- [02:16] I think AI agents are the hottest topic
+- [02:18] around. So, first of all, can you just
+- [02:20] tell me what's the coolest AI agent
+- [02:22] you've seen so far?
+- [02:23] >> Ah, that's a very tricky question. I
+- [02:26] think you know it, you use it every
+- [02:28] single day.
+- [02:29] >> Go on. Uh, what's that?
+- [02:30] >> Yeah. Which is chat GBT?
+- [02:32] >> Okay. So, uh, we're counting chat GBT as
+- [02:34] an agent now then.
+- [02:36] >> Yes. I think you think about it, right?
+- [02:38] And everyone have the model access for
+- [02:41] open models. But why and the chat GBT
+- [02:45] experience is quite different from lot
+- [02:48] of agent you saw right and then think
+- [02:50] about right and go back to 12 months and
+- [02:54] uh even more than 12 months right when
+- [02:56] CHP first started it's missing a lot of
+- [02:59] features for example web search features
+- [03:02] and the memory features code generation
+- [03:05] features right some now actually it
+- [03:07] generate code around the code right so
+- [03:10] think about it right and
+- [03:12] from the foundation model perspective,
+- [03:14] right? And we have a lot of good models,
+- [03:16] right? Anopic models, right? And Gemini
+- [03:19] models, right? Open models or what make
+- [03:22] the chat GBT
+- [03:24] is a gentic features, right? Think about
+- [03:26] it, right? And I'm pretty sure you use
+- [03:29] CHB all the time, but what makes CHB
+- [03:32] different? I think that's a secret
+- [03:34] sauce.
+- [03:37] And also my prediction is like CBD5 is
+- [03:40] not a model, it's a agent.
+- [03:42] >> Interesting. Uh yeah, that would be very
+- [03:44] cool. And I certainly I'm right there
+- [03:46] with you that um just having these uh
+- [03:48] simple sort of tool use features, being
+- [03:50] able to search the web, being able to
+- [03:51] just interact with like uh Python or
+- [03:54] whatever code tools, it just makes such
+- [03:56] a difference to like the quality and the
+- [03:58] range of things that you can do well
+- [04:00] with generative AI.
+- [04:01] >> Yeah. And also key thing is memory.
+- [04:04] Memory is also very important because
+- [04:07] right and you probably noticed right and
+- [04:10] uh uh open launched called memory
+- [04:12] features right and not long ago right
+- [04:15] three six months ago however they
+- [04:16] actually using this memory features more
+- [04:19] than six months ago right if you go to
+- [04:21] your CHBD settings you can actually see
+- [04:25] what they memorized all the combinations
+- [04:28] you had with CHBT and also there are
+- [04:31] another secret command you can type in
+- [04:33] strategy we call the Bio we just tell
+- [04:35] the BIO into CHBT you can see all your
+- [04:39] informations they saved for you so I
+- [04:42] think that's one of the secrets right
+- [04:45] and why it makes CHBD so relevant to a
+- [04:49] lot of questions you have I think that's
+- [04:51] agent right so memory to calling that's
+- [04:53] the the the key component of the agents
+- [04:56] >> yeah yeah so uh the chat GPD memory
+- [04:59] feature is really interesting because uh
+- [05:00] I went into my settings had a look at
+- [05:02] like what it is remembering about me. It
+- [05:04] thought I was really into ultra running
+- [05:05] which is very odd. I'm very much like I
+- [05:07] will go jogging once a year so I don't
+- [05:10] know where it's got the idea for me
+- [05:11] from. Uh so yeah uh you just need to be
+- [05:13] careful that uh it is remembering the
+- [05:15] right things about you. I know at Oracle
+- [05:17] you've just launched uh a rag agent. Uh
+- [05:19] talk me through uh what is that and
+- [05:21] what's it for.
+- [05:22] >> Correct. Correct. I think everybody
+- [05:24] knows rag right and we don't need to
+- [05:26] explain what is rag and however I think
+- [05:30] why it makes rag so popular if we ask
+- [05:34] this questions for example I think you
+- [05:37] know concept from your perspective what
+- [05:40] do you think why is rag suddenly get too
+- [05:42] popular right and remember about eight
+- [05:44] years back right we had chatbot right
+- [05:47] and everyone is building chatbot but now
+- [05:49] everyone is building ragbased chatbot so
+- [05:52] what is the difference between the
+- [05:54] chatbot we built 80 years ago now the
+- [05:57] rack.
+- [05:58] So I'll give you my answer right because
+- [06:00] eight years ago I was at Microsoft right
+- [06:03] we are building this chatbot for
+- [06:05] enterprise customers right at that time
+- [06:06] we build chatbot for Macy for HP and
+- [06:10] what the key challenge at that moment
+- [06:13] when we build a chatbot in the high
+- [06:15] level right there's a two technology
+- [06:18] right when you build a chatbot first one
+- [06:20] is we call internet understanding when
+- [06:22] you ask a questions right and then the
+- [06:25] model need understand what kind of
+- [06:27] questions you're asking we call the
+- [06:29] inclined classifier. This is very
+- [06:31] generic technology, right? Just like
+- [06:34] Alexa, a shur they all have similar
+- [06:36] technology, right? You ask questions,
+- [06:38] they try to identify what is your
+- [06:40] intent. In the head, all you can think
+- [06:42] about is a classification problems,
+- [06:44] right? So you can have like 100 in 200
+- [06:46] in time, right? So that's the first
+- [06:48] step, right? When you ask a question,
+- [06:50] the model try to understand what's your
+- [06:51] intent. And the second part is once you
+- [06:54] understand the intent and will try to
+- [06:57] give you answer. So essentially you will
+- [07:00] hardcode all these answers related to
+- [07:03] this intent. Again this I'm trying to
+- [07:05] simplize the problem and now you have
+- [07:07] this intent classification and the
+- [07:09] knowledge retrievable kind of like two
+- [07:12] part this chatbot. But what's the
+- [07:14] problem? The problem is most of the
+- [07:17] chatbot cannot follow up your questions
+- [07:21] because they don't understand the
+- [07:22] context. That's one challenge. And the
+- [07:26] second challenge is because your
+- [07:28] knowledge base has to keep updated all
+- [07:31] the time, right? Because once you have a
+- [07:33] new product launch, then you have to
+- [07:35] update your answers. So this ongoing
+- [07:37] knowledge base maintenance become a
+- [07:40] challenge. And also when you ask
+- [07:42] questions, right? For example, you ask,
+- [07:44] okay, what's a uh what's the open hours
+- [07:46] in Christmas time for me, right? And
+- [07:49] then you have to understand all these
+- [07:51] details, right? Daytime, location,
+- [07:54] right? We call a soft feelings, right?
+- [07:55] And you need to understand all the
+- [07:56] details, right? We can use a classic NP
+- [07:59] technology, right? Processing all the
+- [08:00] data. This is a classic NRP technology
+- [08:04] like eight years ago. Internet
+- [08:06] understanding, right? and uh knowledge
+- [08:09] building and uh that's one of the part
+- [08:12] however I think the challenge is this
+- [08:15] kind of uh chatbot or you can think
+- [08:17] about Shri and Al Alexa Alex as well
+- [08:19] it's kind of silly right can only answer
+- [08:22] specific question you have you cannot
+- [08:25] really have a dialogue so that's why the
+- [08:27] chatbot I kind of get a popular solve
+- [08:29] certain problem but didn't really go too
+- [08:32] far but now in this large language model
+- [08:36] for you see how this L language model
+- [08:40] will help to solve the problem. You
+- [08:42] don't need internet classification
+- [08:43] anymore essentially right because this
+- [08:46] the language model understand your
+- [08:48] language really really well and secondly
+- [08:51] all this large language model can very
+- [08:54] easily understand your follow-up
+- [08:55] questions you don't need another like
+- [08:58] gas right so basically the building
+- [09:00] natural language understanding of the
+- [09:03] large language model is so advanced so
+- [09:06] we just solved some the critical problem
+- [09:09] so you don't have any language
+- [09:11] understanding challenge anymore. And
+- [09:14] however the second part is still exist
+- [09:17] because right the rack system right you
+- [09:21] know the rack system right and so we we
+- [09:23] still need to keep updating all the
+- [09:25] knowledge base or the database you have
+- [09:29] keep all the knowledge I think that part
+- [09:32] is still existing today no matter what
+- [09:34] kind of uh rank implementation you use
+- [09:37] or do you keep updating your knowledge
+- [09:39] base or your database right to reflect
+- [09:43] the question you're asking. I think this
+- [09:45] is still one of the challenge uh we're
+- [09:47] dealing with today. Yeah, that's that's
+- [09:49] from the high level.
+- [09:50] >> Absolutely. And it sounds very simple
+- [09:52] but um just the idea of having chat bots
+- [09:56] that your customers don't hate that's
+- [09:58] just absolutely huge for so many
+- [10:00] organizations I think.
+- [10:02] >> Exactly. Exactly. Yeah. I think one of
+- [10:04] the success use case we have right
+- [10:06] because once we have the rag system
+- [10:07] right and even we only have the
+- [10:09] generation model you can see a lot of
+- [10:10] team started building their own racks
+- [10:13] because from the high level right and
+- [10:15] very simple knowledge right and if you
+- [10:18] have already have a database for example
+- [10:20] if you already have your data you open
+- [10:22] search you can simply do the you know
+- [10:25] query right to the search to the open
+- [10:28] search database right and then you get
+- [10:29] the search result back you do rerun you
+- [10:32] do generation Everybody understand right
+- [10:34] even very simple few steps you can
+- [10:36] already generate very useful system of
+- [10:39] course right we need to deal other
+- [10:41] issues right and knowledge updates
+- [10:43] hallucination however just introduce a
+- [10:45] very simple right concept and can
+- [10:48] already solving a lot of issues right
+- [10:51] you know for example and inside Oracle
+- [10:53] right we have the we have this slack
+- [10:55] channel right essentially can ask for
+- [10:57] when you run into issue oh I cannot log
+- [10:59] in my laptop I have the the data doing
+- [11:02] issues, right? Before we have the human
+- [11:05] support team, right, to open ticket for
+- [11:08] each question you ask. Now it's just
+- [11:10] like the automatic chatbot, right?
+- [11:14] Ragbot just answer the question that
+- [11:16] directly give you the answers and the
+- [11:18] instructions. But I think it's just like
+- [11:19] a very simple implementation of the rag
+- [11:22] in the support system can save a lot of
+- [11:26] the effort, right? And uh support effort
+- [11:30] any enterprise, right? I think that's
+- [11:32] kind of a low hanging food right to
+- [11:34] build a rank system for support and I
+- [11:37] think right that's is a very basic
+- [11:39] starting point and you can achieve
+- [11:42] dramatic results immediately.
+- [11:44] >> Yeah. So um I like that uh with these
+- [11:47] sort of large language models okay you
+- [11:49] solved the sort of natural language
+- [11:50] understanding you've solved a lot of the
+- [11:51] issues around context with rag it's like
+- [11:53] you've got accuracy from um your
+- [11:55] knowledge base but um you mentioned the
+- [11:58] the the big challenge before that
+- [12:00] keeping knowledge up to date making sure
+- [12:02] you're retrieving exactly the right
+- [12:03] information um in a in a scalable way I
+- [12:07] guess um that seems to be the big
+- [12:09] problem. So it sounds like knowledge
+- [12:11] management, data management, these are
+- [12:12] the the big challenges. Do you have any
+- [12:14] advice for organizations on how they can
+- [12:17] manage all this data for their for their
+- [12:20] agents for their chat bots?
+- [12:21] >> This actually go back to the traditional
+- [12:24] enterprise search problem. So let's say
+- [12:27] forget the rack, right? And you just
+- [12:28] want to build the enterprise search,
+- [12:31] right? Because search the same thing,
+- [12:32] right? You want the latest information.
+- [12:34] So essentially you can think about okay
+- [12:36] yes uh we're not a bo ocean here right
+- [12:40] if you already have very good enterprise
+- [12:43] search system right for example like a
+- [12:45] lot of pins using open search if you
+- [12:48] already have your knowledge base and
+- [12:50] data in the open search which you
+- [12:52] already keep refreshing regularly. So
+- [12:55] essentially you already have a good
+- [12:58] knowledge base to start with and then
+- [13:00] you can build the rag layer on top of it
+- [13:03] right. So basically you have the query
+- [13:04] rewriting and the rerank and the
+- [13:07] generation. So you already build a very
+- [13:10] decent rag system to start with right
+- [13:13] but again that's not the end but so
+- [13:17] essentially you already have a real time
+- [13:20] rag system with your existing knowledge
+- [13:23] based management. But I think that's
+- [13:25] actually one of the interesting uh
+- [13:28] challenge in the enterprise is because
+- [13:30] when you saw a lot of the uh opensource
+- [13:33] PC implementations right it sounds very
+- [13:35] easy right you can easily build a PC
+- [13:37] right and you can easily show the result
+- [13:39] however right once you get enterprise uh
+- [13:41] customers you will find the challenge
+- [13:44] because a lot of enterprise system you
+- [13:47] they already have the knowledge base
+- [13:49] right clearly it's a lot of effort if
+- [13:52] you want to rebuild the knowledge base
+- [13:54] for example using vector DBs that will
+- [13:56] be huge effort and a lot of challenge
+- [13:58] however you can leverage the existing
+- [14:01] knowledge b systems right you don't have
+- [14:04] to rebuild everything from scratch so
+- [14:07] for example in this case if a customer
+- [14:08] already have let's say they already have
+- [14:10] open search base knowledge base you can
+- [14:13] easily add another layer of the rag on
+- [14:16] top of it right build a decent enough uh
+- [14:19] rag system and however your data
+- [14:22] refreshing data management system can be
+- [14:25] as the same as they have today. You
+- [14:28] don't have to redo everything. So this
+- [14:31] is one possible way, right, to move this
+- [14:34] RA system forward quickly to have the
+- [14:37] team enterprise systems, right, to adopt
+- [14:39] the rag concept to start with.
+- [14:42] >> Okay. Okay. So, it sounds like if you've
+- [14:43] got really good um enterprise like
+- [14:46] knowledge management, then creating the
+- [14:48] that rag layer like it's just embed
+- [14:52] everything thrown into a vector database
+- [14:53] that's probably going to be give you a
+- [14:55] decent start. There was a big if though
+- [14:56] that's like if you've got the good
+- [14:58] enterprise management system.
+- [14:59] >> Exactly. Exactly. Exactly. So, that's
+- [15:01] actually get the second part. But if
+- [15:02] you're just nibbley, oh okay, plug into
+- [15:05] this open search, right? I send a query,
+- [15:08] get result back, I do a rerank
+- [15:10] generation, I'm done. Clearly, it's not
+- [15:12] a giving sense for it. Well, we started.
+- [15:14] So, wow. Yeah, that sounds very
+- [15:16] straightforward. And then we wrote an
+- [15:17] issues. Why? Because the traditional
+- [15:20] search uh results, right? And if you if
+- [15:25] you don't do specifically chunking, it
+- [15:28] could return the whole documents.
+- [15:31] So, you run a query and the s search
+- [15:33] system give return the whole documents
+- [15:36] which is not useful right for the
+- [15:38] further processing. So and we because
+- [15:41] once we get the results back right and
+- [15:42] we won't do the rer for example to
+- [15:44] measure which result is bad. However you
+- [15:46] just return the whole documents back it
+- [15:48] was helpful. So that way that way then
+- [15:51] you have to think about oh okay our data
+- [15:54] ingestion pipel actually need a change
+- [15:57] but in this case when you ingest data
+- [15:59] into the open search then you have to
+- [16:01] change it right instead of send the
+- [16:03] whole document as a single ch then you
+- [16:05] want to jump into smaller pieces and
+- [16:07] then for each for each smaller pieces
+- [16:09] right and for example open source they
+- [16:11] already have the building embedding mem
+- [16:14] right so basically now you get into the
+- [16:16] second part right and how can you modify
+- [16:20] your existing knowledge management
+- [16:22] system. How do you modify your existing
+- [16:26] data ingestion process to make it better
+- [16:30] for the new rack system? So I think
+- [16:33] that's exactly getting into the second
+- [16:36] phase of the re implementation right so
+- [16:38] the new phase is oh I just poke into the
+- [16:40] existing safe and do reanking generation
+- [16:45] and reflection you know that's probably
+- [16:47] is okay start and then you get oh that
+- [16:50] doesn't work but some use cases why and
+- [16:52] then you get into oh actually we need a
+- [16:54] more smarter trunking algorithms right
+- [16:57] so you get a second part of the problem
+- [16:59] and then
+- [17:01] eventually you will get into a more
+- [17:03] concrete problem. For example, right
+- [17:04] when you inest data, if you have some
+- [17:06] graphs, the image, the existing data
+- [17:09] inesting pipeline may not work because
+- [17:11] you don't really processing all the
+- [17:13] image data then you get a next piece of
+- [17:17] the rep system. So, oh actually we need
+- [17:19] to do this multimodality
+- [17:22] ingestion and the generation right. So,
+- [17:25] I think that's why I like your um
+- [17:28] podcast right with that guy for the rack
+- [17:30] 2.0. He's very practical. I don't
+- [17:33] remember his name. Yeah. Because once
+- [17:34] you start building the system layer by
+- [17:37] layer, problem and problem, then you get
+- [17:39] the deep and the deep of all these
+- [17:41] issues. However, if you just read a
+- [17:43] paper, read some blog, you don't build
+- [17:45] it, you won't be able to fully
+- [17:48] understand what are the challenges here.
+- [17:50] Clearly, opportunity is huge. But if you
+- [17:54] don't build it in real, you won't
+- [17:57] understand all the challenging features
+- [17:59] we're facing in the real enterprise
+- [18:01] environment. Yeah.
+- [18:02] >> Okay. Uh yeah. So uh that was uh uh Da
+- [18:05] Kila, one of the adventures of rag who
+- [18:07] who was on the show recently talking
+- [18:09] about um the place uh innovations in
+- [18:12] retrieval augmented generation. But uh
+- [18:14] yeah, so that's interesting. It seems
+- [18:16] like then you've got a very iterative
+- [18:18] process. So you're going to start off
+- [18:20] you're going to have like some kind of
+- [18:21] chatbot and then there's going to be a
+- [18:23] lot of a lot of tuning goes on just like
+- [18:25] figuring out all the al algorithmic
+- [18:27] stuff to make it work properly. Uh so
+- [18:29] you kind of covered the technical side.
+- [18:31] I'm curious as to who's involved like on
+- [18:34] the talent side like which teams or or
+- [18:37] roles tend to be involved in this?
+- [18:39] >> Oh yeah that's a great question. Yeah, I
+- [18:41] think generally speaking, right? And you
+- [18:43] need a data scientist, right?
+- [18:46] Engineering. Yeah. For example, the
+- [18:47] right system, right? And it's of course
+- [18:50] you need the uh engineering team to do
+- [18:53] all the integration work. However, I
+- [18:55] think the data scientist
+- [18:59] how good it is, right? You need to
+- [19:01] measure, right? So, essentially, right,
+- [19:03] you need to measure not the the single
+- [19:07] system, you you want to measure the end
+- [19:08] to end accuracies and recourse, right?
+- [19:12] This is typical data scientist work,
+- [19:14] right? We prepare the the sample
+- [19:16] questions, right? We know the ground
+- [19:18] truth, right? you you want to build the
+- [19:20] Android evaluation data set to start
+- [19:22] with to systematically measure the
+- [19:26] improvement of your rack system. So I
+- [19:29] think that's is that's the one key part
+- [19:31] is right not only that leave build a
+- [19:34] rack system don't matter right and of
+- [19:37] course right you had a human right and
+- [19:40] testing to measure yourself however you
+- [19:42] should have you should build your
+- [19:44] evaluation data set you should have a
+- [19:46] data scientist and measure this right
+- [19:48] systematically and continue to improve
+- [19:51] your evaluation data set as well right
+- [19:53] you should add more and more questions
+- [19:55] right more and more answers right
+- [19:56] continuously to measure and they improve
+- [19:59] your system.
+- [20:00] >> Okay. So, uh measuring does seem
+- [20:02] incredibly important. I agree that's
+- [20:03] very much data scientist work, but what
+- [20:06] sort of metrics will you use to see does
+- [20:09] the system work on? I mean, especially
+- [20:10] if it's if it's non-deterministic, so
+- [20:12] you're going to get different slight
+- [20:13] different results each time. Uh talk me
+- [20:15] through it.
+- [20:16] >> Yeah, definitely. I think uh in the in
+- [20:18] the support scenarios that uh we have
+- [20:21] one key measure called deflection rate.
+- [20:23] So, this is very standard across
+- [20:24] industry even 80 years ago, right? when
+- [20:26] I was in the Microsoft right and this
+- [20:28] defection rate is the uh the question
+- [20:31] the B can answer and without need a
+- [20:35] human involvement right for example
+- [20:39] right when we start a deflection rate
+- [20:40] 20% is pretty good right essentially 20%
+- [20:43] of question you can answer by bot
+- [20:44] accurately without talking to human
+- [20:46] that's great 20% is pretty high years
+- [20:49] ago right when we started this so wow
+- [20:51] you can you can solve 20% of the
+- [20:53] question that's that's awesome but
+- [20:55] nowadays Right. And you know for example
+- [20:57] the and the rack system support system
+- [21:01] we build we could even reach 80%
+- [21:03] infection rate. So that dramatically
+- [21:06] improved right and for example the
+- [21:09] experiment I had eight years ago right
+- [21:12] now we can from like 20 15 20% to 70
+- [21:17] 80%. That's the dramatic difference. But
+- [21:20] again that's just one of the metric you
+- [21:22] could measure like a deflection rate.
+- [21:23] So, and we can use as one as a proxy of
+- [21:27] the and accuracy of the system.
+- [21:29] >> Okay, that seems like a pretty useful
+- [21:31] measure. And I guess do you need like um
+- [21:33] is it is it going to be largely around
+- [21:34] like end user measures like uh this
+- [21:37] person found the answer to the question
+- [21:39] they wanted or like they clicked on on
+- [21:41] the first result or it feels like you
+- [21:45] need like a whole suite of different
+- [21:46] measures or different stages.
+- [21:48] >> Yeah, this is one simple right for
+- [21:50] example, right? But any chatbot system,
+- [21:51] right? And once you uh once you provide
+- [21:53] answers right and uh if you don't have
+- [21:56] further questions right and they just
+- [21:58] quit a session and however if they
+- [22:01] continue have questions right and there
+- [22:02] always buttons there right you can kick
+- [22:04] talk to human for example right I think
+- [22:06] every single bot system has that
+- [22:09] functions I think that's a good proxy so
+- [22:11] if the customer don't click button right
+- [22:14] and talk to the humans I think that's
+- [22:16] one very strong signal and also right
+- [22:18] because when we generate answers you
+- [22:20] also have the links Right? And if a
+- [22:23] customer clicks links right that also
+- [22:25] very strong signal that means oh okay
+- [22:27] you provide the useful informations
+- [22:29] right once they click link right and can
+- [22:31] find their answers they need so yeah but
+- [22:33] I think all the all the chat system
+- [22:35] where I build like Microsoft and Oracle
+- [22:38] and also right and on the market right
+- [22:41] and this signal is very clear talk to
+- [22:42] human that's al signal
+- [22:45] >> oh that's true it's like oh this
+- [22:48] chatbot's annoying I want to speak to a
+- [22:49] human that's a sign that your product is
+- [22:51] not working. That's uh yeah very very
+- [22:53] clear very straightforward but the very
+- [22:56] very yen okay actually that's often my
+- [22:59] default behavior chat silly right
+- [23:02] straight to you uh so I'd like to talk
+- [23:03] about some of the issues about um
+- [23:05] adopting uh chatbots and agents within
+- [23:08] the enterprise so um I guess it seems
+- [23:10] like um data privacy data security are
+- [23:13] sort of top of mind in terms of the the
+- [23:15] challenges can you talk me through what
+- [23:17] people should be worried about uh with
+- [23:19] these things
+- [23:19] >> yeah I think this is one of actually the
+- [23:21] advantage for the existing uh enterprise
+- [23:25] systems right including Oracle,
+- [23:27] Microsoft traditional they're very
+- [23:29] strong on data privacy and uh and the
+- [23:33] securities right yeah same thing I
+- [23:34] remember you you uh you talked with the
+- [23:38] entitlement right in the previous
+- [23:41] podcast I think that's actually it's
+- [23:44] very true right because uh when you
+- [23:46] build a new rack system right and I
+- [23:48] think one of the key challenge is how to
+- [23:51] integrate with existing uh enterprise
+- [23:54] system including entitlement right and
+- [23:56] authorizations right because certain
+- [23:58] informations are only available for
+- [24:00] certain customers right you cannot do uh
+- [24:04] index all your knowledge base right and
+- [24:06] then just throw it out right I think you
+- [24:09] probably saw some videos right and some
+- [24:11] the some company build some rack system
+- [24:14] now every single employee you get the
+- [24:16] same information as a CEO
+- [24:18] I think the key thing is right and the
+- [24:21] security and the data privacy compliance
+- [24:24] is super super important right so when
+- [24:27] you design your system you had have this
+- [24:30] in your mind how do you integrate with
+- [24:32] your existing security and
+- [24:36] authentication authoring system which is
+- [24:39] actually is very tricky because if you
+- [24:42] don't design your system carefully
+- [24:44] including if you just stumbling index
+- [24:45] everything I think it'll be very tricky
+- [24:48] and but the good news is A lot of the
+- [24:50] enterprise uh providers in including
+- [24:53] Oracle like Microsoft they already have
+- [24:56] very strong security and compliance
+- [24:59] policies. I think for uh for us right we
+- [25:02] start building the new uh agents or the
+- [25:06] gent solutions we work very closely with
+- [25:10] all the security legal and compliance
+- [25:13] teams right within the organization and
+- [25:16] leverage their existing experience. I
+- [25:19] think conducted the key key things
+- [25:21] collaborate with existing security
+- [25:24] compliance and the data privacy group.
+- [25:27] Every single solution we build we always
+- [25:30] go through the security compliance
+- [25:31] reviews with the internal team. So make
+- [25:34] sure the solution we build is fully
+- [25:37] compliant and secure with your existing
+- [25:41] policies. You don't have to invent new
+- [25:44] things but make sure the thing you build
+- [25:48] is right secure and compliant with your
+- [25:51] existing policy. I think that's the case
+- [25:53] thing.
+- [25:54] >> Okay. So, uh yeah, in in theory the
+- [25:56] existing sort of enterprise software
+- [25:58] using hopefully those policies that
+- [26:00] you've already developed over the years,
+- [26:02] they're just going to sort of naturally
+- [26:04] apply in the in the AI use cases. Um all
+- [26:08] right. One thing that's uh I was having
+- [26:10] conversation with one data to come to
+- [26:11] customers that they were struggling with
+- [26:13] okay the technology works but in terms
+- [26:15] of uh the organizational side of things
+- [26:18] there's teams wanting to like get
+- [26:20] started with AI and like build things as
+- [26:22] quickly as they can and then you got a
+- [26:24] compliance team that are just like nope
+- [26:26] nope nope nope nope because they move a
+- [26:28] lot slower. Yes. Do you have any sense
+- [26:30] of like how you can resolve this sort of
+- [26:32] tension between governance and speed?
+- [26:34] >> Yes. Exactly. I think that's is our
+- [26:37] ongoing challenge. Uh however, I think
+- [26:39] the challenge is also opportunities. I
+- [26:42] think the first question is why complian
+- [26:44] say no. Then you had to go back to you
+- [26:47] know I I get I get the I get a no every
+- [26:49] day you have to dial back. So I think
+- [26:52] the question is you need to educate
+- [26:56] the team right for example two years ago
+- [26:58] right when we started a lot of our
+- [27:00] compliance legal don't really understand
+- [27:02] how the larger the model chain works. I
+- [27:04] think right and we spend a lot of time
+- [27:06] working together with our legal team
+- [27:08] compliance team is more like the
+- [27:10] education as well as learning together.
+- [27:13] So I think to build a partnership is
+- [27:14] very important of course right and from
+- [27:16] the compliance legal perspective it's so
+- [27:19] much risk from their perspective they
+- [27:20] seem oh everything is so risk right if
+- [27:23] you model general anything how do we
+- [27:25] control this behavior right I think it's
+- [27:28] more about education right and you so
+- [27:31] service for example right and we need oh
+- [27:33] okay logical model itself is also
+- [27:35] software right it's a piece of software
+- [27:38] it's not like a magic things right and
+- [27:41] it's a piece of software
+- [27:43] And then how do we control this
+- [27:45] behavior? How do we monitor the
+- [27:46] behaviors and once they understand the
+- [27:48] concept right and once understand how do
+- [27:52] you control the behaviors of the large
+- [27:55] language model and then they will have
+- [27:56] better understandings actually sometimes
+- [27:58] we will provide even more insightful
+- [28:01] suggestions for you to solve another
+- [28:04] problem right and now our legal team is
+- [28:07] now get very knowledgeable right when we
+- [28:09] start discussing about compliance data
+- [28:12] privacy sometimes they are actually on
+- [28:14] our Right. Try to ask people okay this
+- [28:17] is another legal issues right and as you
+- [28:20] do the zero data retention right you
+- [28:22] don't keep on the data yeah it should be
+- [28:24] okay right because we start some
+- [28:25] discussion with the partners right and
+- [28:27] then they understand the concept then
+- [28:29] they can help you sometimes right and to
+- [28:32] even accelerate some of the process I
+- [28:35] think the casing is really build a
+- [28:37] partnership right and educate and your
+- [28:41] team your legal compliance team and also
+- [28:44] work together it's not easy right I
+- [28:46] spend a lot of times right working very
+- [28:48] closely with him but now once they have
+- [28:50] the knowledge right once they have the
+- [28:52] understanding and then it's become much
+- [28:55] much easier of course certain compliance
+- [28:57] you still have to do for example right
+- [29:00] we you know like llama when we launch
+- [29:01] llama stream model so it's multimodality
+- [29:05] credibility we cannot launch in EU right
+- [29:07] because that's just a law we have to
+- [29:10] comply with the EU law you cannot use
+- [29:12] the multimodality models for lu the lamb
+- [29:15] for model then the certain certain law
+- [29:17] you have to comply they just had no way
+- [29:20] around but some of other things more
+- [29:23] about I think the understanding uh
+- [29:25] collaboration and make sure right and we
+- [29:28] all on the same page
+- [29:30] >> okay yeah so I I'm definitely in
+- [29:32] agreement that just educating different
+- [29:34] teams on like what what's possible what
+- [29:36] should be allowed what's a what's a good
+- [29:37] idea or what's a bad idea that's really
+- [29:39] important um and yeah it sounds like uh
+- [29:42] that the trick then is that uh you've
+- [29:45] just got to have some sort of agreement
+- [29:47] with these compliance teams on like uh
+- [29:49] general principles for what should be
+- [29:51] allowed in general, what shouldn't be
+- [29:52] allowed and that that should resolve
+- [29:54] most of the sort of use cases just to
+- [29:56] enable you to get on building stuff.
+- [29:58] >> Yeah. Yeah. Exactly. I think I I will
+- [30:00] put this in the beginning you you
+- [30:02] probably want to put extra effort
+- [30:04] because from legal complaint team they
+- [30:06] also want to learn the new technology
+- [30:08] right think for example I build a few
+- [30:10] PCs I demo to them right and have some
+- [30:13] sessions work session together with them
+- [30:15] to tell them what exactly is the
+- [30:16] knowledge behind the scenes I think that
+- [30:19] could help right them to understand the
+- [30:21] technology and in the long term to
+- [30:23] benefit you right to move the project
+- [30:26] forward more quickly Right? You don't
+- [30:28] have to repeat some of the discussions
+- [30:30] again. Right? Once we truly understand
+- [30:33] and how how the large language model get
+- [30:36] trained, right? And how the large
+- [30:38] language model get called in the
+- [30:40] inferencing time once and they
+- [30:42] understand all this concept and it'll be
+- [30:44] much easier. I just want to return to
+- [30:46] something you said uh a moment ago about
+- [30:48] um not being able to use the llama for
+- [30:51] uh the large language model from meta uh
+- [30:53] in the EU. This is something I had not
+- [30:55] heard about. Do you want to talk me
+- [30:56] through what are the issues there? I
+- [30:57] think they have a policy right if you uh
+- [31:00] process image and there are certain
+- [31:03] restrictions in certain region right you
+- [31:05] cannot using the image processing uh
+- [31:08] features in the EU regions I remember
+- [31:10] right when the llama street start right
+- [31:12] I think llama 3 on the street right
+- [31:13] start image and sending features however
+- [31:16] I think that certain uh EU rules right
+- [31:19] you cannot process image I think that's
+- [31:21] why we had to turn off the image
+- [31:24] processing features right in the EU
+- [31:26] regions right We only allow that in the
+- [31:28] in the US regions for example. Yeah,
+- [31:30] that's one of the very specific rules or
+- [31:33] had the complex.
+- [31:34] >> Okay. Yeah, that definitely seems uh
+- [31:36] worth taking note of at the point where
+- [31:37] you're choosing your models and also uh
+- [31:39] deciding sort of where where things are
+- [31:41] being deploy deployed and
+- [31:42] >> yeah, I think again that's actually go
+- [31:44] back to the uh data privacy and the
+- [31:46] sovereignty scenes right each each
+- [31:49] region and uh state right may have their
+- [31:52] own policies right for example right
+- [31:54] data privacy policies right in Singapore
+- [31:57] and Australia and it could be different
+- [32:00] from US you had to really compliance
+- [32:03] yeah and uh with your local policies.
+- [32:06] >> Absolutely. Yeah. Uh always a good idea
+- [32:08] to to check all the different local
+- [32:09] policies around the world. Um okay. Uh
+- [32:12] so uh for organizations who are sort of
+- [32:15] um wanting to get started with these
+- [32:17] things. Um
+- [32:19] we talked about having to put governance
+- [32:20] in place beforehand. Uh do you have any
+- [32:22] advice on like what are sort of good
+- [32:23] first use cases? Like I don't know
+- [32:25] whether you can jump like straight to
+- [32:26] we're creating some fancy agent or
+- [32:29] whether like you want to start with
+- [32:30] something simpler.
+- [32:31] >> Oh yeah. I I I think to mention I think
+- [32:33] uh red actually is really good use case
+- [32:36] because I think it solve a lot of
+- [32:39] problems right to start with right and
+- [32:41] if you already have the knowledge base
+- [32:43] build today right for example you
+- [32:45] already have some internal search
+- [32:47] systems and build a rack system on top
+- [32:50] of it I think that's is very tangible
+- [32:53] right you can generate very tangible
+- [32:55] results and for example I the the use
+- [32:59] case I gave right support support
+- [33:01] chatbot
+- [33:02] click the system right I think that's a
+- [33:04] very tangible things right you could
+- [33:07] could build and show the immediate
+- [33:10] results and of course right and a lot of
+- [33:12] other other use cases you can think
+- [33:14] about but I think right to start from
+- [33:16] support channel I think that should be
+- [33:18] very uh decent starting point and you
+- [33:22] can see some tangible results if you
+- [33:24] already have some knowledge based system
+- [33:26] right and uh inside the your company. I
+- [33:30] think that should be the very
+- [33:32] straightforward starting point.
+- [33:33] >> Okay. So yeah, uh start with chatbots
+- [33:36] and then kind of work forward from
+- [33:37] there. I guess at the other extreme of
+- [33:39] things, so there are a few startups that
+- [33:41] are trying to have uh complete uh like
+- [33:45] AI employees. So you've got Cognition
+- [33:47] Labs has this like uh Devon software
+- [33:50] engineer. There's like a Julius AI has
+- [33:53] like an AI data data scientist. Emma's
+- [33:55] trying to create like a universal AI
+- [33:57] employee. um like some really really
+- [34:00] ambitious projects that I'm not quite
+- [34:02] sure work in entire in entirely yet. Is
+- [34:06] there like a sweet spot for like where
+- [34:08] you should be aiming with like uh with
+- [34:10] agents? Yeah, I think that's actually uh
+- [34:13] if you think back right in the past two
+- [34:15] years what are the two common use case
+- [34:19] about large junction model
+- [34:22] I think one probably we already talked
+- [34:24] about rag and then the second one is
+- [34:26] really code agent right I don't know I'm
+- [34:29] pretty sure right you already tried some
+- [34:31] of the code code tools right like you
+- [34:32] know wind surf right cursor yeah I use
+- [34:35] cursor as well in my spell time so I
+- [34:38] think that if you if you're using cursor
+- [34:42] for long enough, right? Or any other
+- [34:44] code agent, they involved quickly,
+- [34:48] right? And so so start with is just
+- [34:51] complete your code and then you can
+- [34:54] generate the whole code for you and then
+- [34:58] they can read your repository, generate
+- [35:01] more config code and now they can
+- [35:03] generate the multi-steps, right? And
+- [35:05] they say you give a plan, they can
+- [35:07] execute, right? So you can you just from
+- [35:09] for example for any of this code
+- [35:11] generation tool you can see they're
+- [35:12] involving from very simple task
+- [35:15] completion to now kinds of like a fully
+- [35:19] semi-auto coding
+- [35:22] task right they can run for example 20
+- [35:25] minutes right all the tasks right and
+- [35:27] they can pling the task and run all the
+- [35:29] tasks I think we call a async right and
+- [35:33] code agent right and the latest I think
+- [35:34] codeex and cloudy code they already went
+- [35:37] into into that direction. So clearly I
+- [35:39] think a code demolition right automation
+- [35:44] is one trend very clearly and is very
+- [35:46] productive already I'm pretty sure right
+- [35:49] a lot of the you know developers if
+- [35:51] you're not using code generation tools
+- [35:53] right you're probably out yeah but again
+- [35:55] go back to your question I think right
+- [35:56] and this is I I think we're still just
+- [36:00] the beginning right and we saw the
+- [36:02] adoptions right internally we also have
+- [36:03] the code generation tools why we
+- [36:05] developed right and in our team why we
+- [36:07] called Oracle code assist right and we
+- [36:10] beta launched this service right and uh
+- [36:13] last year right and internally and we
+- [36:16] have a lot of teams right using it as
+- [36:17] well so I think a code clearly is
+- [36:20] another uh trend you you you probably we
+- [36:23] all know right the win ser news right
+- [36:25] and all this news right code I think a
+- [36:27] code is clearly one winner right in this
+- [36:30] genative AI world right code clearest
+- [36:34] winner right and we'll discover more use
+- [36:37] cases I think this has started right and
+- [36:39] we clearly see some patterns but I would
+- [36:42] assume right and once we get into deep
+- [36:44] into the applications yeah for example
+- [36:46] right I'm I'm always thinking right
+- [36:48] because I've been doing software more
+- [36:49] than 30 years so I always thinking right
+- [36:53] and is there any fundamental like a
+- [36:56] computer system operating system right
+- [36:58] and even compilers right and should we
+- [37:01] rethink some of the fundamental building
+- [37:04] block we are doing today like operating
+- [37:06] systems right And and for example all
+- [37:09] the command line today we use still a
+- [37:10] little bit of DY right and you need do
+- [37:13] the find the grab whatever right and
+- [37:16] come out some of the the information you
+- [37:18] need from your laptop for example.
+- [37:20] However think about right if you have a
+- [37:21] natural language interface
+- [37:24] you should just oh okay can you find me
+- [37:26] the resume I saved in my disk you know a
+- [37:29] month ago and with a name blah blah
+- [37:32] right and then this smart command line
+- [37:35] should find my data for me. I don't need
+- [37:36] to run this crazy you know Unix command
+- [37:39] right on the foundation right and this
+- [37:41] could be build very soon I would assume
+- [37:44] that this should be available very soon
+- [37:46] as a part of a building your operating
+- [37:49] system right for example when you you
+- [37:50] may you get a max right you should
+- [37:52] already have this very smart command
+- [37:54] line right you don't need to remember
+- [37:56] all this Unix command anymore right it's
+- [37:58] just there
+- [38:00] >> that's funny uh yeah so uh on the coding
+- [38:03] side I'm right there with you like if
+- [38:04] you don't know how to use these sort of
+- [38:06] AI assisted coding tools then you're not
+- [38:08] going to make it as a software developer
+- [38:10] these days. I mean I I think the point
+- [38:12] is though they're quite easy to use. So
+- [38:13] it's uh something that uh everyone
+- [38:15] should look into if you if you're
+- [38:17] writing code. But yeah uh I do like the
+- [38:19] idea of just better um software like
+- [38:23] there's so many times where um yeah I I
+- [38:27] cannot find a file that I'm pretty sure
+- [38:29] I downloaded or I created like a while
+- [38:31] ago. Even like uh like we use uh uh the
+- [38:34] Google office suite and somehow even
+- [38:37] though Google is a search company like
+- [38:39] Google Drive search is absolutely
+- [38:41] terrible like they're supposed to be
+- [38:43] they're supposed to be good with this
+- [38:44] stuff.
+- [38:44] >> Yeah, exactly. Same thing Dropbox all
+- [38:47] these things like so think about the
+- [38:49] software you're using every day clearly
+- [38:52] a lot of things they can do better. So
+- [38:54] that's why if you think about I'm always
+- [38:56] get very excited and basically I'm
+- [38:58] thinking the software we built in the
+- [38:59] past 30 years can be rewritten in a in a
+- [39:03] dramatic way. I give you another
+- [39:05] example, right? So we all know the the
+- [39:08] web scrapper five years ago when we
+- [39:09] built this web scribbers oh you get a
+- [39:11] you get a HTML page right then you try
+- [39:13] to do regular expressions I do all the
+- [39:15] things or try to match a certain data
+- [39:18] field for example however every website
+- [39:20] is different and then the web change all
+- [39:22] the time and then you have to change
+- [39:24] your you know web scribbing tools for
+- [39:26] example however this is very simple you
+- [39:29] just send this to H to language mode you
+- [39:31] dump HTML send to the LM said oh I want
+- [39:34] this field then they will give you on
+- [39:36] version back.
+- [39:37] >> Oh yeah, I'm with you on that. Like web
+- [39:39] scraping is such a tedious task to do as
+- [39:42] a human. It's it's so annoying and uh
+- [39:45] yeah, I do like that element.
+- [39:48] >> Yeah. So, so actually I you know I I
+- [39:51] like to do all the experimental things
+- [39:53] like I do two things, right? One thing
+- [39:56] is oh I just download the whole raw HTML
+- [39:58] I sent to the the RM that give me all
+- [40:00] the answer back. Pretty decent. Another
+- [40:03] way is actually you take a screenshot
+- [40:05] center. Can you also back too? So either
+- [40:08] way it works perfect.
+- [40:09] >> Nice. Uh so yeah uh lots of
+- [40:12] opportunities then I think for just
+- [40:14] making software better. So you mentioned
+- [40:16] the idea of like uh enterprise search
+- [40:18] and also just like operating system
+- [40:19] search. Seeing you've been in this game
+- [40:21] 30 years. Do you have any more
+- [40:22] predictions on like things uh that can
+- [40:25] be improved using AI over the next few
+- [40:27] years? Yeah, I think you know like like
+- [40:30] for example right and if we this
+- [40:32] industry long enough right for example
+- [40:34] 30 years back right you know I I still
+- [40:36] remember when I was high school right I
+- [40:38] heard of AI the expert system I was so
+- [40:40] excited so wow expert system that sounds
+- [40:42] great right and then I studying I
+- [40:44] remember it's a prologue right that's
+- [40:46] one of the language at that time perlo
+- [40:48] they call this AI uh language so I I
+- [40:51] started using prologue that build my own
+- [40:54] expert system and then I find out oh
+- [40:57] actually the so-called expert system
+- [40:59] just if else I got quite disappointed I
+- [41:03] said wow then you had to build all this
+- [41:04] knowledge base knowledge graph handcraft
+- [41:07] all these things it's just like another
+- [41:10] practical right and then 30 years later
+- [41:13] we had this large language model
+- [41:16] essentially any of language today is a
+- [41:19] super super smart expert system we
+- [41:24] cannot even imagine to build 30 years
+- [41:27] ago, right? If you're 30 years ago, you
+- [41:29] can build a expert system like any of
+- [41:32] these large today. It's like a
+- [41:34] impossible task.
+- [41:36] So that's why you know I was so excited
+- [41:40] when this thing happens. I wow finally
+- [41:42] after 30 years we finally build some
+- [41:46] decent expert system. So I think it's
+- [41:49] thinking forward I I think again I I
+- [41:52] think there's like a plenty of things
+- [41:54] even go back to 30 50 years ago when we
+- [41:58] start thinking about the AI and I think
+- [42:01] a lot of the vision and the pear had 50
+- [42:05] years ago now we can finally implement
+- [42:08] that like the third tooling test right
+- [42:10] oh we finally conquer it and now the
+- [42:14] expert system we already build it I I I
+- [42:16] think I probably could just go back to
+- [42:18] read all these old airbooks to say what
+- [42:20] kind of dream they had 15 years maybe
+- [42:22] now it's become a reality
+- [42:24] >> absolutely uh yeah I mean definitely
+- [42:26] like there's just been so much progress
+- [42:27] over the last few decades hopefully uh
+- [42:30] it's going to continue in in this area
+- [42:32] because look stuff that we've been
+- [42:33] trying to get working for decades it now
+- [42:35] actually does work so uh
+- [42:36] >> yeah robotics I think robotics probably
+- [42:39] makes I was just joking with my kids I
+- [42:41] think okay maybe you know five years
+- [42:43] later everyone going to have this R2-D2
+- [42:45] right and you know we all like R2D2 too.
+- [42:47] I think right I think that's it's I
+- [42:50] think that's clearly trend right and we
+- [42:51] all have our digital companion
+- [42:53] physically right and now today we
+- [42:56] already have this digital companion like
+- [42:58] CHPD kind of however I think after five
+- [43:01] years I would assume right we will all
+- [43:02] have our little cute robotics robots
+- [43:06] with us and we will all have the
+- [43:09] autonomous driving I would assume right
+- [43:11] I I don't particular like drive myself I
+- [43:14] think right and you know autonomous
+- [43:16] driving should PG right in 10 years
+- [43:18] right why we need to drive right and we
+- [43:20] have all this Whimo right and Tesla
+- [43:22] we're building autonomous driving I
+- [43:24] think this reality is is already here
+- [43:28] and just on the he side right a lot of
+- [43:30] things are already happening we just
+- [43:31] didn't realize yeah
+- [43:33] >> Jensen Swang earlier this year uh the
+- [43:35] CEO of Nvidia E was talking about
+- [43:37] physical AI being the next big wave
+- [43:39] which I think is just a rebranding of
+- [43:41] robotics but uh yeah it it seems like uh
+- [43:44] this is going to be an important big
+- [43:46] That's exactly right for example right
+- [43:48] the robotic scene we have been
+- [43:50] envisioning for more than 50 years now
+- [43:53] just become a reality so I think we are
+- [43:55] just living in our own uh fantasy right
+- [43:58] we imagine all these things 50 years ago
+- [44:01] now it's happening one by one
+- [44:03] >> so uh what's the impact then of uh of
+- [44:05] physical AI uh I presume it's going to
+- [44:07] hit manufacturing and industrial use
+- [44:09] cases first is it
+- [44:10] >> well I think industry already happening
+- [44:12] I am more talking about that how this
+- [44:14] impact our daily lives actually and this
+- [44:17] is only one error actually I do have
+- [44:19] concerns
+- [44:20] you know if you have a physical robot in
+- [44:24] your home audio control
+- [44:26] if it misbehavior right I think this
+- [44:29] actually once you get into your daily
+- [44:31] life I think there's a lot of things we
+- [44:33] have to thinking carefully if you build
+- [44:35] a small cute robot dog probably it's
+- [44:38] okay however if you have like a really
+- [44:40] human bot right can lifting things right
+- [44:43] and can do all the heavy heavy you know
+- [44:46] labor work but what happened out of
+- [44:48] control right and actually I do have a
+- [44:50] concerns I put such you know huge human
+- [44:53] body in my house right not only privacy
+- [44:56] it's just like you know what happened to
+- [44:58] the malfunction
+- [44:59] >> yeah well I mean Isaac Azimov he wrote
+- [45:00] hundreds of books on this topic it's
+- [45:02] like robots going wrong all over the
+- [45:04] place
+- [45:05] >> yeah it's all over the place yeah I
+- [45:06] think that's kind of like yes I I'm
+- [45:08] always uh optimistic about technology
+- [45:11] however I think right and once we get
+- [45:13] into the physical space I I think right
+- [45:15] we definitely need a more care how do we
+- [45:17] design this robots right can co- with us
+- [45:21] pe thisfully right I think that's going
+- [45:22] to be one of the the things we have to
+- [45:24] thinking right now yeah
+- [45:26] >> yeah uh definitely some uh potentially
+- [45:29] great things or potentially very scary
+- [45:31] things going on like Terminator was not
+- [45:33] necessarily a happy movie so uh yeah
+- [45:35] before we wrap up I'd love to talk a bit
+- [45:37] about um Stargate because Oracle's
+- [45:39] obviously involved in this is a
+- [45:41] ridiculously large infrastructure
+- [45:43] project can you just tell us a bit about
+- [45:44] it.
+- [45:45] >> Yeah. Yeah. I think you already saw all
+- [45:46] the news and I won't repeat, right? And
+- [45:48] but however, I think I would like like
+- [45:52] more think about from computing
+- [45:53] perspective, right? And for example,
+- [45:55] right, when we start building all the
+- [45:57] GPU clusters, right? And to start with
+- [45:59] like 1,000 GPUs, right? Back to three
+- [46:04] years ago, right? For example, when the
+- [46:06] GBD2 GBD uh three open when they
+- [46:09] started, right? I think about like
+- [46:10] probably thousands of TPUs, right, to
+- [46:14] build a large language models. You
+- [46:16] probably heard from Ela, right? He built
+- [46:18] like a 100K H100 in his Memphis, right?
+- [46:23] Data center. And now the Stargate right
+- [46:26] is is already close to uh equivalent
+- [46:30] right about 500K H100 scales, right? So
+- [46:35] beside think about right this computing
+- [46:38] infrastructure right is getting more and
+- [46:40] more powerful right and very you know
+- [46:44] very soon right we're going to have a 1
+- [46:45] million GPUs right in a single GPU
+- [46:48] clusters right I think that's kind of
+- [46:50] the target right and like sgate and also
+- [46:52] other provider too right as Microsoft
+- [46:55] and Amazon right meta they all trying to
+- [46:58] build the large scale TPU clusters I
+- [47:01] think the what's unique about the Oracle
+- [47:04] My collaboration is right. This is huge
+- [47:07] CPU clusters in many many regions right
+- [47:11] the Texas one is just a first one right
+- [47:13] you probably heard right we're going to
+- [47:15] build one in the Middle East right and
+- [47:17] we're also working with a lot of the you
+- [47:19] know state and government are building
+- [47:21] the large CPU cluster for them right I
+- [47:23] think again this I think this just
+- [47:25] another starting point and we just
+- [47:29] dramatically change our GPU
+- [47:32] infrastructures to start with right and
+- [47:35] more generic is more the computing
+- [47:37] infrastructures right back to again back
+- [47:39] to that was 10 years ago right when I
+- [47:42] lead a team right launch the first
+- [47:44] Amazon machine learning service right
+- [47:46] we're only talking about a CPU so
+- [47:48] hundreds of CPUs but now we're talking
+- [47:51] about
+- [47:53] thousand even
+- [47:55] GPUs it's only 10 years right and we
+- [48:00] dramatically already advance the whole
+- [48:03] computing industry so given another five
+- [48:06] years right and that's why I think you
+- [48:08] know I'm super excited right and because
+- [48:10] from the computing uh infrastructure
+- [48:13] right computer science perspective this
+- [48:15] just like a so dramatic change in the
+- [48:18] past few years and this going to lead us
+- [48:21] to many things right we it's very hard
+- [48:24] predict I put this way yeah
+- [48:26] >> having a million GPUs in a single
+- [48:29] cluster that's just a ridiculous uh I
+- [48:32] mean it's a crazy ambitious engineering
+- [48:34] challenge can Can you talk us through
+- [48:35] like what are the benefits going to be
+- [48:37] like what do you expect to come out of
+- [48:39] having such a massive compute
+- [48:41] infrastructure? Yeah, I think one
+- [48:43] perspective is just iteration. For
+- [48:44] example, right and let's just use in
+- [48:47] TBD3 as the sample, right? And you know
+- [48:49] before it could again it could take you
+- [48:51] 12 months, right? Do one iterations but
+- [48:55] now if you 100x tower
+- [48:58] then you could do iteration super
+- [48:59] quickly, right? Everything else you
+- [49:01] could probably have one iteration,
+- [49:02] right? So the way you do the I think
+- [49:05] Jeff have very good uh blog post about
+- [49:08] this, right? I think a couple years
+- [49:09] back. So essentially you increase your
+- [49:13] iteration speed that makes a huge
+- [49:16] difference right before for example if
+- [49:19] you take your three months to experiment
+- [49:21] one algorithm now probably going to take
+- [49:24] you three weeks and once you have more
+- [49:27] computer powers right you could take you
+- [49:29] to three days so that means your
+- [49:31] innovation speed is accelerating so
+- [49:34] that's the difference it's not
+- [49:36] necessarily your model get larger and
+- [49:39] larger if more about the the iteration
+- [49:42] speed and I think about it then you
+- [49:44] could have a more teams right doing all
+- [49:47] the experimentation in parallel once you
+- [49:49] have the computing powers and then I
+- [49:52] think the integration could could
+- [49:54] accelerate I think that makes a huge
+- [49:56] difference right it's another not only
+- [49:58] about the sex it's really about the
+- [50:00] speed you emulate
+- [50:01] >> okay that's interesting because I had
+- [50:03] assumed it was just be okay we're going
+- [50:04] to create some like giant new model but
+- [50:06] actually just being able to create
+- [50:07] similar size models but faster and being
+- [50:10] able to keep tweaking them that just
+- [50:11] make
+- [50:12] >> exactly yeah before probably going to
+- [50:14] you know take you know one team three
+- [50:16] months do one iterations now you could
+- [50:19] have 100 team doing insane so basically
+- [50:22] you do 100x
+- [50:24] your iteration right I think that's
+- [50:27] going to dramatically and accelerate
+- [50:31] right and no matter what you build agent
+- [50:34] or foundation models right I think that
+- [50:36] can accelerate our AI revolutions.
+- [50:40] >> Okay. Uh yeah, certainly a bright future
+- [50:43] um for being able to develop stuff once
+- [50:45] once all that infrastructure is in
+- [50:46] place. Okay, cool. So uh just uh to
+- [50:48] finish up, what are you most excited
+- [50:49] about in the world of AI?
+- [50:51] >> Yeah, I think for me I you because I've
+- [50:53] been doing the computer science AI for a
+- [50:55] really long time. My my
+- [50:58] thinking is still I I think it's still a
+- [51:00] lot of fundamental computing problem,
+- [51:03] right? one one I think one thing really
+- [51:05] excited me is I am thinking is right how
+- [51:08] the way we build a computing system
+- [51:11] right and how the way we build a
+- [51:12] computing software could dramatically be
+- [51:15] changed in next few years I think that's
+- [51:18] what you know one dimensions right what
+- [51:20] you've been thinking should we just do
+- [51:22] we still need a compeller for example
+- [51:25] building other things right is our
+- [51:28] current MacBook or Windows system do we
+- [51:32] rebuild all this operating system as
+- [51:34] well and again you know I think that
+- [51:37] clearly a lot of the uh lot of things we
+- [51:40] could do right we could make our
+- [51:42] software computer much smarter and much
+- [51:45] better uh however I think the second
+- [51:48] thing is I still believe there
+- [51:52] scientific wise right we haven't make
+- [51:54] many breakthroughs of course that's
+- [51:56] great we still have a lot of potential
+- [51:58] build super powerful latent models
+- [52:00] agents but again I think some of the
+- [52:02] fundamental technology like reinforced
+- [52:04] learning it's still 50 years ago right
+- [52:08] it's not many dramatic uh I would say
+- [52:12] right scientific advancement yet and I
+- [52:15] think right still have a lot of
+- [52:17] opportunities right develop a new
+- [52:19] algorithm and uh have a new I think I
+- [52:24] another I think another thing is maybe
+- [52:27] the current algorithm large language
+- [52:29] model for example right may get by right
+- [52:33] in next few years then we still need to
+- [52:36] keep thinking you know put this way I
+- [52:39] didn't think we done right we just
+- [52:41] started and uh as a humanity right I
+- [52:45] think right is perfect great right
+- [52:47] however I can solve all the problem the
+- [52:49] very beginning I think right from a
+- [52:52] research science perspect it's a lot of
+- [52:53] things right and I think we should
+- [52:55] continue to involve and continue to do
+- [52:59] more not stop here right Right now is
+- [53:02] great right we can build a lot of
+- [53:04] applications but I still think it's a
+- [53:06] lot of potentials for science community
+- [53:08] right continue to uh involve right
+- [53:12] continue to invent right not stop here
+- [53:16] >> absolutely uh I'm right there with you
+- [53:17] like a lot of the kind of uh basic
+- [53:20] scientific research questions these are
+- [53:22] like very very cool things to work on
+- [53:24] there's a lot of ways that both data and
+- [53:26] AI can help out here it hopefully if we
+- [53:28] can speed up the scientific research
+- [53:30] that's uh That's definitely going to be
+- [53:32] a big win for humanity.
+- [53:33] >> Wonderful. Uh and just finally uh I
+- [53:35] always want recommendations for people
+- [53:37] to follow. So uh whose work are you most
+- [53:40] excited about? Uh I think not not
+- [53:43] particular of course right traditionally
+- [53:44] like Andrew Gapasi Andrew Njectings and
+- [53:48] all these euros
+- [53:51] follow them and and I start to follow
+- [53:53] for example like open anic
+- [53:56] right and because they are the top tiers
+- [53:59] right frontier and deep mind and all
+- [54:02] this right and enterprise right we
+- [54:05] follow them very closely and uh yeah I
+- [54:09] think um be open-minded I put ly and
+- [54:12] podcast right including your podcast
+- [54:14] right things
+- [54:15] >> absolutely got to follow data frame
+- [54:17] >> exactly you got to follow data frame
+- [54:18] right the one you had with reg 2 I think
+- [54:21] that's fantastic there's a lot of
+- [54:22] practical exper I think my uh my
+- [54:26] recommendation is just like listen and
+- [54:28] read as much if you can don't be b
+- [54:32] any one of them right the more you learn
+- [54:35] right and the longer you learn then you
+- [54:37] can build your own judgment right And so
+- [54:41] but don't bounce by single person for
+- [54:43] example oh I will only follow uh this
+- [54:46] person's blog or suggestion you know and
+- [54:50] I think I and be very open-minded and
+- [54:54] try to learn right and from different
+- [54:56] companies or different personnel right
+- [54:58] broadcast you know podcast YouTube right
+- [55:01] and anything right you could learn and
+- [55:03] uh yeah that's my suggestion yeah
+- [55:06] >> uh definitely uh I like the idea of just
+- [55:08] speaking to different people getting
+- [55:09] different points of view. Um, yeah, I
+- [55:11] mean different people on the podcast
+- [55:12] every week. I do like it when uh guests
+- [55:14] disagree with whatever that was last
+- [55:17] week said. Brilliant. Uh, yeah. Uh, but
+- [55:19] good advice just to uh get all those
+- [55:21] different points of view. Uh, super. Uh,
+- [55:23] thank you so much for your time, John.
+- [55:24] >> Yeah, thank you so much for having me
+- [55:26] here. I'm super excited. You you can see
+- [55:28] I'm super super excited.
+- [55:31] I think we just started. Yeah, I think a
+- [55:33] long again you know it's a very exciting
+- [55:36] work ahead of us but I still I think a
+- [55:38] long way to go right to fundamentally
+- [55:40] change uh how we do computing and I
+- [55:43] think right we still have a lot of
+- [55:45] opportunities and uh you know we can
+- [55:47] make a difference
+- [55:49] >> absolutely it's all about making a
+- [55:50] difference all right thanks
+- [55:52] >> okay thanks so much for having me here
+- [55:54] and uh very nice talk to Check.
+- [55:59] [Music]

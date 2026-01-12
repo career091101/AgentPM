@@ -1,0 +1,239 @@
+---
+title: "Transcript: SsqwRLy0CNQ"
+video_id: "SsqwRLy0CNQ"
+video_url: "https://www.youtube.com/watch?v=SsqwRLy0CNQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:06:52"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Team Building"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: SsqwRLy0CNQ
+
+- URL: https://www.youtube.com/watch?v=SsqwRLy0CNQ
+- Retrieved at: 2025-12-30T10:53:38+09:00
+
+## Text
+
+- [00:00] There was probably a period of a trough
+- [00:02] of disillusionment. You know, I think
+- [00:04] when 3.5 hit the scene, uh, many of us
+- [00:07] assumed everything was possible. AGI was
+- [00:10] around the corner.
+- [00:11] >> It's not a done deal that you just
+- [00:13] download some AI and then somehow magic
+- [00:16] occurs. It takes a tremendous amount of
+- [00:17] work.
+- [00:20] >> I'm Matt Marshall, founder and
+- [00:21] editor-inchief of VentureBeat. Over the
+- [00:24] next six minutes, venturebe is going to
+- [00:26] present the three enterprise best
+- [00:28] practices for using AI by leveraging aic
+- [00:32] capabilities. We use the example of in
+- [00:34] it, which like many companies thought
+- [00:36] applying AI would be much easier than it
+- [00:38] was. The result is one you'll want to
+- [00:40] stick around for. It started with a
+- [00:43] classic mistake. In the land rush after
+- [00:45] chat GPT was launched, into it IT CEO
+- [00:48] demanded a shocking AI launch in record
+- [00:50] time. They delivered intuid assist, a
+- [00:53] chatbot bolted onto their software. It
+- [00:55] was supposed to be a gamecher.
+- [00:57] >> When you take a beautiful well-designed
+- [00:59] user interface and you simply plop human
+- [01:02] chat on the side, that doesn't
+- [01:04] necessarily make it better. Like now
+- [01:06] suddenly our customers have to start
+- [01:07] typing things and they're like, I didn't
+- [01:09] show up to QuickBooks to talk to it. I
+- [01:11] showed up to solve my accounting needs,
+- [01:13] to solve my payroll needs, my money
+- [01:14] movement needs.
+- [01:15] >> It almost put a cognitive burden on
+- [01:17] people like what can it do? Can I trust
+- [01:19] it? And so there's definitely a trough
+- [01:22] of disillusionment, definitely pivots,
+- [01:25] definitely customer feedback.
+- [01:28] >> The pivot didn't come from a
+- [01:29] spreadsheet. It came from watching a
+- [01:31] customer work. We're noticing customers
+- [01:34] are doing split screen when they're
+- [01:35] filling an invoice. They'll literally
+- [01:36] have an email on one screen and or a
+- [01:39] handwritten note and they'll have the
+- [01:41] QuickBooks invoice screen on the other.
+- [01:43] That was a big aha moment for us which
+- [01:45] is like okay instead of trying to create
+- [01:47] something new that requires new pixels
+- [01:49] that is doing something new um find a
+- [01:53] surface or job or workflow that is like
+- [01:56] has manual toil. That single observation
+- [01:59] sparked a new mission and a declaration
+- [02:02] from the top.
+- [02:02] >> In technology we like to dip our toe in
+- [02:06] the pool. What this moment showed us is
+- [02:09] you have to jump into the pool, which
+- [02:10] means you're going to have to disrupt
+- [02:13] entire experiences that you built before
+- [02:15] without AI and just say, I'm going to
+- [02:19] eliminate the old way. I'm burning the
+- [02:20] boats and it's only going to be the AI
+- [02:23] way. And so that's like exciting and
+- [02:26] scary and weird and aggressive and bold
+- [02:30] and all those kinds of things.
+- [02:31] >> Burning the boats meant reinventing how
+- [02:33] they worked. forge a builder culture
+- [02:36] starting with their people.
+- [02:38] >> So we as an organization created all of
+- [02:40] these small cross functional teams that
+- [02:43] are just focused on doing this and
+- [02:45] nothing else. We actually had to not do
+- [02:47] some things in order to do these things,
+- [02:49] right? And that's always the hard part
+- [02:50] and and it's just incredible the amount
+- [02:52] of support that we actually got to say,
+- [02:54] hey, we're going to do these, but we're
+- [02:56] not going to do all these other things
+- [02:57] that we originally thought we were going
+- [02:58] to do, right? So that ruthless
+- [03:00] prioritization and that focus was really
+- [03:02] really important.
+- [03:03] >> Inside these teams, job descriptions
+- [03:06] dissolved in what leaders called a
+- [03:08] smearing of roles.
+- [03:09] >> One thing we did very early on, you
+- [03:11] know, with Byron and team is is to say
+- [03:12] that everybody talks to the customer,
+- [03:15] right? And it's not just the job of the
+- [03:16] research team. The research team does
+- [03:18] the logistics and the setting up and
+- [03:19] sourcing, but everybody talks to the
+- [03:21] customer and and it's through talking to
+- [03:23] the customer that we get out of this
+- [03:24] tech bubble and into the real world
+- [03:26] where actual work gets done. Byron came
+- [03:28] to me with a prototype, beautiful UI,
+- [03:31] fully built out dashboard, graphs, and
+- [03:33] all the stuff, right? I'm like, "Oh my
+- [03:34] god, you're like a front-end engineer
+- [03:36] now, right?" Like, like like you are the
+- [03:38] Renaissance, man. You got all you got it
+- [03:40] all. With the right people in the right
+- [03:42] place, they dismantled the slow process
+- [03:44] of a 40-year-old company.
+- [03:46] >> So, instead of a document or a picture
+- [03:48] being worth a thousand words, a
+- [03:49] prototype is worth
+- [03:50] >> 10,000 words. People can start already
+- [03:52] starting to play with it, right? Then
+- [03:54] immediately the next day the user
+- [03:55] researcher team can take it to to
+- [03:57] customers and get their reaction and
+- [03:59] take on you know what does this feel
+- [04:00] like.
+- [04:01] >> We'll literally show a working
+- [04:03] functioning prototype to the customer
+- [04:05] and ask for their opinion and they will
+- [04:07] actually tell us live what they don't
+- [04:08] like and we'll v code it on the spot and
+- [04:11] like the reaction on their faces is just
+- [04:12] like wow this is magic.
+- [04:14] >> To build trust they gave customers a
+- [04:16] slider of autonomy to control the AI and
+- [04:18] to decide what to build they used the
+- [04:20] Marie Condo method. started talking to
+- [04:22] the customer about like, hey, what are
+- [04:24] the moments in your day that actually
+- [04:25] brings you joy? Oh, is this when I
+- [04:27] actually get paid? When the money hits
+- [04:28] our bank account, right? It's when we
+- [04:30] signed that contract and I got that gig
+- [04:32] that I really wanted, right? It's like
+- [04:34] when my taxes are finally done and
+- [04:36] accepted. That's one thing off my back,
+- [04:38] right? So, so we we actually really
+- [04:39] centered the AI agents around these uh
+- [04:42] these moments of joy and magic.
+- [04:44] >> Underpinning it all was the technology.
+- [04:46] Instead of a slow top-down build, they
+- [04:49] use a strategy called fast follow
+- [04:51] harvesting.
+- [04:51] >> We instituted a fast follow harvesting
+- [04:54] model for our platform capabilities. So
+- [04:57] what that means is the the various
+- [05:00] agentic teams um as they were building
+- [05:02] they were leveraging as much of the
+- [05:04] platform as we had and where platform
+- [05:06] capabilities were missing they figured
+- [05:08] them out and then there was a team that
+- [05:10] basically ran right behind them and said
+- [05:11] ooh that's a cool capability let's turn
+- [05:13] that into a platform. Oo, that's a cool
+- [05:15] capability. Let's move that into the
+- [05:16] platform. And then they would kind of
+- [05:18] stabilize and modernize and and um make
+- [05:21] sure that it's, you know, scalable,
+- [05:23] highly reliable, all that kind of stuff.
+- [05:24] And then they would go to the other
+- [05:25] agentic teams and say, "Hey, look what's
+- [05:27] a what's a feature in the platform now."
+- [05:28] And then those agent teams would adopt
+- [05:30] it.
+- [05:30] >> A key component was an LLM router that
+- [05:32] provided resilience. Clarence Hang
+- [05:35] remembers getting a call from Ashoke at
+- [05:37] 9:00 p.m. at night.
+- [05:38] >> He's like, "Open the eyes down. Are you
+- [05:41] guys okay?" But because we were on Gen
+- [05:44] OS, it just auto switched to the file
+- [05:46] back to the next LM and it was okay,
+- [05:47] right? Um, similarly uh uh I think a
+- [05:50] month or two month ago uh uh Gemini
+- [05:53] completely went down right in a in an
+- [05:54] afternoon I was actually uh talking to
+- [05:56] my buddies at uh who works at Alphabam
+- [05:59] like are you guys okay? He was on the
+- [06:00] Gemini team. He's like oh man we're all
+- [06:02] freaked out even our internal chat and
+- [06:04] everything was down. But you know we we
+- [06:06] we dropped like less than 20 requests um
+- [06:08] because we were um on GenoS and the LM
+- [06:11] gateway.
+- [06:12] >> So did this new playbook of people
+- [06:14] process and platform actually worked?
+- [06:16] The results were tangible. Small
+- [06:18] businesses using the new payments agent
+- [06:20] got paid on average, 5 days faster, and
+- [06:23] saved up to 12 hours a month. Engagement
+- [06:26] soared into the millions. We're seeing
+- [06:28] strong traction since the launch last
+- [06:30] month with customer engagement in the
+- [06:32] millions and repeat usage rates
+- [06:34] significantly above our expectations.
+- [06:36] For enterprise leaders into its story
+- [06:38] offers a clear road map. The initial
+- [06:40] stumbles aren't just common, they may be
+- [06:42] necessary. The biggest lesson, start
+- [06:45] with the work your customers actually
+- [06:46] do, not the technology you want to
+- [06:48] deploy.
+- [06:52] [Music]

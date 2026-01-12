@@ -1,0 +1,567 @@
+---
+title: "Transcript: TebGzQRBGgc"
+video_id: "TebGzQRBGgc"
+video_url: "https://www.youtube.com/watch?v=TebGzQRBGgc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:19:23"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TebGzQRBGgc
+
+- URL: https://www.youtube.com/watch?v=TebGzQRBGgc
+- Retrieved at: 2025-12-30T10:57:54+09:00
+
+## Text
+
+- [00:00] Next up, we have a fireside chat with
+- [00:02] Desiree from Walmart being moderated by
+- [00:04] Susan who's with Microsoft. Hey, hey,
+- [00:07] I'm Susan Linger.
+- [00:09] This is Desi Gossby. We're going to go
+- [00:11] enterprise now.
+- [00:13] Um, thank you so much for joining. So,
+- [00:16] Desi has this incredible role at
+- [00:18] Walmart. Um, I'm going to start with a
+- [00:21] little bit of context, right? Because I
+- [00:23] think we do need to go back up to the
+- [00:24] 50,000 foot level and just set some
+- [00:27] context. So Walmart is an organization
+- [00:30] that of course everybody knows that has
+- [00:33] an extraordinary long reputation and
+- [00:36] particularly around process. Um and at
+- [00:39] the same time we find ourselves in this
+- [00:40] moment where I don't know what what you
+- [00:42] all think but like I'm taking bets on
+- [00:45] how many times we all say vibe coding
+- [00:46] today. Um this is my this is my one. I'm
+- [00:50] probably not going to say it again. Um
+- [00:51] but I do I'm not going to say it at all.
+- [00:53] She's not going to say it at all either.
+- [00:54] Okay. So I want to start Desi with um
+- [00:58] you know given where you sit in the
+- [00:59] organization you have seen a lot of
+- [01:02] change both in the industry and also at
+- [01:06] Walmart and so what does this moment
+- [01:09] mean to you?
+- [01:11] Yeah I it's um you know for for Walmart
+- [01:14] and and and in in general it it's it's a
+- [01:17] pretty significant moment. We see this
+- [01:19] as uh a pretty um big inflection point
+- [01:22] very similar to uh to the internet. And
+- [01:26] um you know what we mean by that is
+- [01:27] really when we take a step back it's as
+- [01:30] profound as um uh in terms of how it is
+- [01:34] that we're actually going to operate,
+- [01:36] how it is that we actually you know do
+- [01:37] work. Uh but the core principles around
+- [01:40] you know how how we're going to apply uh
+- [01:42] you know this this new moment um really
+- [01:44] isn't going to change. But um but it is
+- [01:48] a significant uh inflection point and it
+- [01:50] it's permeating everything it is that we
+- [01:52] do. Uh but at the end of the day the way
+- [01:55] that we look at it is um you know we we
+- [01:57] always start with our customers and our
+- [01:59] members and really understanding how
+- [02:01] it's going to impact them. We look at
+- [02:03] how it's going to impact uh our our
+- [02:05] operations. We look at how it'll impact
+- [02:07] how it is that we actually do
+- [02:08] development and you know what we call
+- [02:10] our ways of working. it's going to
+- [02:12] permeate all parts of of of what it is
+- [02:15] that we do. Uh and um you know with that
+- [02:18] you know we're looking at it in terms of
+- [02:19] how it is that we actually take this
+- [02:22] take what it is that you know AI has
+- [02:23] always been part of our DNA as a company
+- [02:25] but take this and how do we take the
+- [02:27] things that we do uh you know to the
+- [02:28] next level. Walmart has always been um
+- [02:31] what we call a um an EDLC EDLP company.
+- [02:35] And what that means is that we are very
+- [02:37] focused on how it is that we drive
+- [02:40] everyday, you know, low cost uh so that
+- [02:42] we can provide everyday low prices for
+- [02:44] our customers. And that means that we
+- [02:46] have to be incredibly rigorous in terms
+- [02:48] of the process that we use uh across the
+- [02:51] board in terms of delivering product,
+- [02:53] you know, to our customers that that
+- [02:55] they love. uh and making sure that we
+- [02:58] are uh eliminating anything that's you
+- [03:00] know u manual work um using automation
+- [03:03] wherever it is that we can uh and um and
+- [03:07] and delivering the best experience
+- [03:09] removing friction you know for our
+- [03:10] customers uh as part of that. So so um
+- [03:14] so let's get a little specific on that.
+- [03:16] So let's talk maybe a little bit about
+- [03:18] some use cases uh just to make it a
+- [03:21] little bit more um direct. So what are
+- [03:24] some of the use cases for example that
+- [03:26] you started with and then I'd love it if
+- [03:28] you could talk a little bit about some
+- [03:29] of the things that are more emerging
+- [03:30] right now. Yeah. So um let me put a
+- [03:33] little bit of framing on on how how we
+- [03:35] look at things a little bit more and
+- [03:37] then I'll go specific into a couple of
+- [03:39] use cases. Uh so when we look at um how
+- [03:43] it is that we're we're we're looking at
+- [03:45] applying um geni and aentic AI um you
+- [03:50] know we're moving into this world where
+- [03:51] we potentially have you know thousands
+- [03:53] of different use cases and so we want to
+- [03:56] make sure that we are um uh you know
+- [03:58] removing as much friction or removing as
+- [04:00] much cognitive burden for for our users
+- [04:03] as possible. And so we think about it in
+- [04:05] sort of four different buckets. it's the
+- [04:07] customer member and how do we basically
+- [04:09] create an experience around that and so
+- [04:11] specifically um you know we've been
+- [04:13] working on a a shopping assistant called
+- [04:15] Sparky uh as part of that and uh and
+- [04:18] bringing our customers along on the
+- [04:19] journey for how it is they can start to
+- [04:21] use uh this sort of new class of AI to
+- [04:23] help them in their uh commerce
+- [04:25] experiences. We look at in a second
+- [04:28] bucket around our associates
+- [04:30] specifically you know our associates
+- [04:32] that might be working in the field uh in
+- [04:34] the stores in the in the uh in the
+- [04:36] distribution centers how we can remove
+- [04:38] friction for them uh as well as for our
+- [04:40] associates that are sort of in the home
+- [04:42] office like our merchants and there
+- [04:43] we've developed uh assistance for them
+- [04:45] to help them with decision-m uh that
+- [04:48] they need in terms of the products that
+- [04:49] the that they might want to bring to
+- [04:50] bear. We have assistants that are
+- [04:52] helping our our field associates in
+- [04:53] terms of what actions they need to take
+- [04:55] in the store so that they can be more
+- [04:57] efficient uh you know as more productive
+- [05:00] uh you know as they're working. Uh and
+- [05:02] then um we have uh sellers and suppliers
+- [05:05] you know that you know that we work with
+- [05:06] uh as well. And so um you know working
+- [05:09] with them on how uh how to make it
+- [05:12] easier for them to do to do business
+- [05:13] with us. Uh, and then of course we've
+- [05:15] got developers, uh, and really, you
+- [05:17] know, giving them the superpowers and
+- [05:19] charging them up with, you know, with
+- [05:21] the new, um, agentic tools. And I'm not
+- [05:23] going to use that word, so
+- [05:26] word around that. Um, but, um, um, we
+- [05:30] can talk about more specific examples,
+- [05:32] but, um, but we have, um, you know,
+- [05:35] hundreds, if not thousands of different
+- [05:37] use cases, uh, you know, across the
+- [05:39] company that we're, you know, that we're
+- [05:40] bringing to life. And again, it comes
+- [05:42] down to looking at our different
+- [05:44] processes. Where is it that we've got,
+- [05:47] you know, things that are manual that
+- [05:48] now if we bring more data, more
+- [05:51] intelligence to bear, we can start to
+- [05:53] remove that friction for for our for our
+- [05:56] users, for our associates, and for our
+- [05:57] customers uh and going from there. Yeah.
+- [06:00] And it I mean clearly so you've got
+- [06:02] multiple stakeholders, you know,
+- [06:04] multiple personas that you're that
+- [06:06] you're building for. Um, each of them of
+- [06:09] course has a set of expectations about
+- [06:10] what a process with Walmart should look
+- [06:12] like, right? Has looked like, should
+- [06:14] look like. Yeah. How do you navigate
+- [06:16] that area, that white space between sort
+- [06:20] of the expected and the new in a
+- [06:23] trustworthy way? Yeah, I I think it um
+- [06:27] it's it's just part of how it is is that
+- [06:29] we work, you know, from a customer
+- [06:31] perspective. of you know trust is part
+- [06:32] of our value uh value proposition and we
+- [06:35] want to make sure that we're bringing uh
+- [06:37] you know our our customers along for the
+- [06:39] journey and the example that I often use
+- [06:41] is um you know with my u I use my mom
+- [06:45] she's a a longtime Walmart customer and
+- [06:47] I remember growing up going to to the
+- [06:49] store and doing the weekly grocery shop
+- [06:51] uh you know at at Walmart um if you take
+- [06:53] a step back that really is a it's a very
+- [06:55] you know manual process um but she's
+- [06:58] also been interacting with AI you know
+- [07:00] through that whole time the fact that
+- [07:01] she was able to go to the store and get
+- [07:03] what it was that she wanted. It was on
+- [07:04] the shelf. Um AI was used, you know, to
+- [07:07] do that. Um can you can you kind of get
+- [07:10] into a little bit of where the AI
+- [07:12] actually or like what it is and where it
+- [07:13] is in the process? Uh yeah, it's it's in
+- [07:17] in so many different places. Um maybe if
+- [07:19] I if I talk a little bit about you know
+- [07:22] where we are to now you know the again
+- [07:25] using the example of my mom. She you
+- [07:26] know co comes along um she can get her
+- [07:29] she can now get her you know groceries
+- [07:31] delivered with online pickup and
+- [07:32] delivery. Uh that whole process of being
+- [07:36] able to um uh go um understand what um
+- [07:41] you know what the um u you know for the
+- [07:44] for us what the demand is and doing
+- [07:46] demand prediction, figuring out what
+- [07:48] things need to be on the shelf, figuring
+- [07:49] out um you know back from the DC what um
+- [07:53] you know what uh what pallet to
+- [07:55] basically construct in a way that can
+- [07:57] actually go to the go to the store and
+- [07:59] that the people who are actually
+- [08:00] unloading the trucks actually know
+- [08:02] exactly what what aisle to actually put
+- [08:04] things on. All of that is being driven
+- [08:06] uh driven by AI and it shows up you know
+- [08:08] for you know for our customers and then
+- [08:10] as we move forward you know into this
+- [08:12] new world um you know and you're doing
+- [08:15] starting to do more things online
+- [08:17] everything from the you know the site is
+- [08:18] personalized you know predicting um you
+- [08:21] know what what things she's going to buy
+- [08:23] um being able to do replenishment and so
+- [08:25] we move into this this new world where
+- [08:27] where it is that we're going when I ask
+- [08:29] her the question um instead of having
+- [08:31] you having to go and weekly you know
+- [08:32] figure out where groceries you you know
+- [08:34] you you need to have delivered. What if
+- [08:36] it just showed up for you uh
+- [08:38] automatically because we actually
+- [08:39] understand everything about you, what
+- [08:41] things actually need to be replenished,
+- [08:42] and it just shows up at your doorstep uh
+- [08:45] potentially delivered all the way into
+- [08:46] into your home. And all of that is being
+- [08:48] driven by um AI, JAI, aentic AI. And
+- [08:52] she's like, "Yeah, there there's no
+- [08:53] question there." And that's part of what
+- [08:55] I mean by bringing uh to your question
+- [08:57] around bringing um bringing um you know
+- [09:00] uh you know in this case the customer
+- [09:01] along if you're adding value uh to what
+- [09:04] it is they're uh you know to their lives
+- [09:06] and in our case um you know helping them
+- [09:08] you know to you know to to remove
+- [09:10] friction helping them to save save money
+- [09:11] and live better um which is part of our
+- [09:13] mission um and we you know live up to
+- [09:16] that promise then you know the the trust
+- [09:18] comes and then from an associate
+- [09:20] perspective if we're actually helping
+- [09:22] them uh to uh um uh to do their jobs
+- [09:26] better, faster, and more efficiently,
+- [09:28] bringing them along on the journey as
+- [09:30] well. Um you know, they're they're
+- [09:32] making decisions um and then they get to
+- [09:34] the point where they trust it. Um you
+- [09:36] know, that's that's part of that's part
+- [09:38] of how it is that we how how it is that
+- [09:39] we work and we've seen that, you know,
+- [09:41] both of our associates and both our um
+- [09:44] our customers are coming along with us
+- [09:46] on the journey.
+- [09:48] Yeah. And one of the areas that I think
+- [09:51] um we wanted to talk about was a little
+- [09:53] bit deeper dive into inventory
+- [09:55] management. So what does that look like
+- [09:56] for you? Yeah. So for inventory
+- [09:59] management um it's uh um you know we
+- [10:03] look at that every single part of the
+- [10:05] process from you know from the origin uh
+- [10:08] to how it gets to the store to how it
+- [10:10] gets to your home and and back and um
+- [10:13] and every piece of that um is is driven
+- [10:16] by AI whether it's really looking at our
+- [10:18] signals and understanding the demand
+- [10:20] demand prediction uh to how it is that
+- [10:22] it's getting to the you know to the
+- [10:23] right warehouses to how it is that we
+- [10:25] then um use that to construct as I said,
+- [10:28] you know, the pallets to getting to into
+- [10:30] the store to figuring out where in the
+- [10:31] store um you know, the the demand is um
+- [10:34] and then um and and getting the getting
+- [10:36] the products on the shelves. One of
+- [10:39] things that we're starting to do um uh
+- [10:41] uh differently uh you know in in the
+- [10:44] sort of new world when it comes to
+- [10:45] inventory management is starting to
+- [10:47] really take a look at regional signals
+- [10:49] uh and trends uh that are out there. And
+- [10:52] we have something called um uh um trend
+- [10:56] um a trend to product and um and that's
+- [10:59] really helping us uh um especially in
+- [11:02] the fashion space to really take a look
+- [11:05] at uh social media signals signals that
+- [11:07] we're actually getting from our
+- [11:08] customers to uh to not only create new
+- [11:12] products but to create them and
+- [11:13] understand them and and do that really
+- [11:15] really fast uh and get those um and and
+- [11:18] get the products that our customers want
+- [11:19] and love uh you know online into uh into
+- [11:22] the store as quickly as possible. All
+- [11:25] that's being driven by AI, driven by,
+- [11:26] you know, Gen AI and all the new
+- [11:28] techniques that are out there. And
+- [11:29] that's just one case where we're
+- [11:31] starting to use that in terms of
+- [11:33] identifying the right products um and
+- [11:35] creating the right products, you know,
+- [11:36] for our customers and doing that as and
+- [11:38] and and reducing the, you know, the
+- [11:40] cycle for that. Uh trend to product has
+- [11:42] gotten us down from, you know, from
+- [11:44] months to weeks, you know, to getting
+- [11:45] the right products, you know, to our
+- [11:46] customers. and we're going to be able to
+- [11:48] apply that to to multiple areas uh as
+- [11:50] part of our um in inventory management
+- [11:52] flow moving forward. But that's just one
+- [11:54] example. Sure. Sure. And so on the agent
+- [11:57] side like what's the state-of-the-art in
+- [11:59] terms of where you're using agents and
+- [12:01] then the orchestration part of the
+- [12:04] agents which is of course a whole
+- [12:06] different you know yeah I think um again
+- [12:09] you know Walmart is a is a huge
+- [12:11] enterprise we have a very large u you
+- [12:14] know set of of um of services uh already
+- [12:18] um and so the the way that we think
+- [12:20] about it is we have a lot of the the
+- [12:21] different building blocks for you know
+- [12:23] for the types of different flows uh you
+- [12:25] that we want to enable, you know, for
+- [12:27] our um, you know, for our customers and
+- [12:29] and for our associates. And so the way
+- [12:31] that we look at uh at agents is how do
+- [12:34] we put the right uh capabilities in
+- [12:36] place around uh our services uh and
+- [12:40] exposing it, you know, with the right
+- [12:42] sets of experiences so that um so that
+- [12:44] they can take advantage of those things.
+- [12:46] And so um you know I'm sure we've
+- [12:49] already talked about and we'll be
+- [12:50] talking about um we break down our
+- [12:52] domains and really looking at um you
+- [12:56] know how do we wrap those things as MCP
+- [12:58] uh uh with the MCP protocol uh and then
+- [13:01] exposing those things so that we can
+- [13:03] then start to orchestrate different uh
+- [13:04] agents um and using you know using
+- [13:07] things like A2A. So we're looking very
+- [13:09] much at at at standardization um you
+- [13:11] know as part of as as part of how it is
+- [13:13] that we're looking to take our existing
+- [13:15] infrastructure break it down and then
+- [13:18] recompose it into the agents that we
+- [13:19] that we want to be able to build. Say
+- [13:21] the other piece that we're really
+- [13:23] looking at is you know we have a lot of
+- [13:24] structured data today whether it's our
+- [13:26] catalog you know for example um and um
+- [13:29] but we now can bring a lot of
+- [13:31] unstructured data uh as well uh and how
+- [13:34] is that we expose that so that we bring
+- [13:36] that intelligence uh to help with you
+- [13:39] know answering the questions for our
+- [13:40] customers or orchestrating these
+- [13:42] different flows predicting what it is
+- [13:43] that they want to be able to do you know
+- [13:45] uh you know moving forward. So um you
+- [13:49] know for us um you know it's it's
+- [13:52] creating assistance creating um and then
+- [13:55] going along that journey then figuring
+- [13:57] out you know once we build that trust
+- [13:59] what is it that we can just sort of
+- [14:00] fully automate uh and uh and and going
+- [14:03] from there. So it it permeates all parts
+- [14:06] of of of what it is that we do. Uh and
+- [14:08] in the future what you should expect is
+- [14:10] yes, we're going to automate you know
+- [14:12] your your grocery delivery uh you know
+- [14:14] as much as possible and with your
+- [14:15] permission you know you know be able to
+- [14:17] do that. Well we're on our way uh on our
+- [14:19] journey for that. Great. So quick
+- [14:21] followup on this. So some of the
+- [14:22] unstructured signals are probably fairly
+- [14:24] obvious. Are there any other
+- [14:26] unstructured data sets or signals that
+- [14:28] you're Yeah. So I I think um you know
+- [14:31] the way that we we talk about um you
+- [14:33] know the the you know how we we um what
+- [14:37] we want to do is we have um you know
+- [14:40] thousands of merchants who are excellent
+- [14:42] uh at at what they do. They are experts
+- [14:45] uh in in the categories that they
+- [14:47] support. You know we have a a cheese
+- [14:49] merchant who knows exactly what wine
+- [14:51] goes with what cheese pairing. U but
+- [14:53] that data isn't necessarily captured in
+- [14:56] a structured way. Uh and now um you know
+- [14:59] with the tools that we have we can
+- [15:00] capture you know that that expertise you
+- [15:03] know that they have uh and really bring
+- [15:05] that to bear uh you know for our
+- [15:06] customers when they're when they're
+- [15:08] trying to figure out hey I need to you
+- [15:10] know to throw the party you know what
+- [15:11] kind of appetizer should I have what
+- [15:13] sort of things that that's expertise
+- [15:14] that that's now going to be at our
+- [15:16] customers you know fingertips as an
+- [15:18] example. So I'm looking forward to the
+- [15:20] agentic shakurerie board frankly.
+- [15:24] So, we just have a few minutes left. Um,
+- [15:26] and I thought it would be a good time to
+- [15:28] just ask you, you know, you've
+- [15:30] obviously, you know, we're going through
+- [15:32] this pretty quickly at a high level, but
+- [15:33] like you've seen a lot of change. You've
+- [15:36] probably had some struggles and
+- [15:38] challenges that you can't talk about and
+- [15:40] some struggles and challenges that maybe
+- [15:42] you can talk about that you've learned
+- [15:44] from. What advice do you have for folks
+- [15:46] as they are sort of embarking on the
+- [15:48] next, I don't know, 12 to 18 months?
+- [15:50] Yeah, it's um it always comes back to
+- [15:53] basics whether it's you know the change
+- [15:56] with the internet you know for me the
+- [15:57] most recent one was like you know with
+- [15:58] mobile um really just take a step back
+- [16:02] and first understand what problems do
+- [16:05] you really need to solve you know for
+- [16:07] your customers in our case for our
+- [16:09] associates uh and um and where is their
+- [16:13] friction where is there you know manual
+- [16:16] work that you can now start to think
+- [16:18] differently about how it is that you you
+- [16:20] you automate those things. That is just
+- [16:23] going to open up, you know, a world of
+- [16:25] of many many different um ideas and
+- [16:27] things that you didn't think or or or
+- [16:29] know uh were possible. Uh and down to
+- [16:32] the level of the individual. Um uh and I
+- [16:35] do this for myself. I'm a developer at
+- [16:37] heart and with with you know with these
+- [16:39] new tools I'm not going to use the word
+- [16:40] but you know I look at my job and um and
+- [16:44] I'm creating my own you know agents and
+- [16:46] things to you know to automate you know
+- [16:48] the you know that work but it comes down
+- [16:50] to the problems you know that I have and
+- [16:51] where it is that I have friction. I'd
+- [16:53] say the other thing from an enterprise
+- [16:54] perspective um you know the other way to
+- [16:57] look at this is we are moving the the
+- [17:00] the change that we're seeing today is
+- [17:01] very similar to what we've seen uh when
+- [17:04] we went from monoliths to distributed
+- [17:06] systems. Uh we don't want to repeat
+- [17:08] those mistakes. So how do you take a
+- [17:10] step back and take a look at the
+- [17:12] foundational capabilities that you
+- [17:13] already have the services and platforms
+- [17:15] that you've already built and really
+- [17:17] then think about okay what does it mean
+- [17:19] for those services uh and platforms to
+- [17:22] operate uh in an agentic world so how do
+- [17:25] you decompose you know your domains what
+- [17:28] MCP servers should you have what sort of
+- [17:30] agent orchestration should you have what
+- [17:31] is the experience we're going to be
+- [17:33] looking at a very different type of
+- [17:34] experience where customers are expecting
+- [17:36] us to anticipate what it is that they
+- [17:38] need So how are you thinking end to end
+- [17:40] about um really reinventing the you know
+- [17:43] the experience for our customers and
+- [17:45] then using the the capabilities that you
+- [17:46] have as the foundational building blocks
+- [17:48] and then building on top of uh and and
+- [17:50] and enabling those things to be surfaced
+- [17:52] in a in in an agentic way. So yeah it
+- [17:56] feels like I mean and I I don't know
+- [17:58] that the extent to which you've been
+- [18:00] working on this but it feels like the
+- [18:02] signals that you use to evaluate
+- [18:06] are going to change too. you know, in
+- [18:07] other words, the methods that you use to
+- [18:09] figure out what is working and what
+- [18:10] isn't working. That's a whole other
+- [18:12] world of sort of, you know, future
+- [18:14] analytics. Yeah. Yeah. And I think it um
+- [18:17] you know, in the agentic world and we're
+- [18:19] starting to you know to you know to work
+- [18:20] through this and it's going to change
+- [18:22] but um it's going to be you know the
+- [18:25] metrics around conversion and things
+- [18:27] like that that those are are not going
+- [18:28] to change but um uh but we're going to
+- [18:31] be looking at you know goal completion
+- [18:33] things like that. What does that mean?
+- [18:34] How do you measure that? um did we
+- [18:37] actually you know achieve you know what
+- [18:38] it that you know the ultimate goal that
+- [18:40] um you know that our associate that our
+- [18:42] customers are actually solving. Uh and
+- [18:44] so that's going to be a new way to
+- [18:46] really look at how is it that we're
+- [18:47] delivering you know at the end of the
+- [18:49] day it's it's a measure of are we
+- [18:50] delivering the benefit are we delivering
+- [18:53] you know the value um you know you know
+- [18:55] that we expect uh and then working back
+- [18:57] from there to basically figure out the
+- [18:59] right metrics and I think you know for
+- [19:00] us you know you know at the end of the
+- [19:02] day it's our our customers are trying to
+- [19:04] solve a problem for themselves same
+- [19:06] thing for our associates did we actually
+- [19:08] solve that problem with these new tools
+- [19:09] and so that that's what we mean by you
+- [19:11] know was the goal actually met for for
+- [19:13] for our customers and associates. So
+- [19:15] great. Well, Desi, thank you so much.
+- [19:17] Please give Desi a warm round of
+- [19:19] applause.
+- [19:20] Um, thanks everybody.
+- [19:23] Thanks,

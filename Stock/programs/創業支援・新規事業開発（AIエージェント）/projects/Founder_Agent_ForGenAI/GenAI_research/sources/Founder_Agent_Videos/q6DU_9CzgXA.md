@@ -1,0 +1,850 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=q6DU_9CzgXA"
+video_id: "q6DU_9CzgXA"
+video_url: "https://www.youtube.com/watch?v=q6DU_9CzgXA"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "PMF", "AI", "investment", "funding", "team_building", "product_development"]
+topics: ["プロダクト開発", "組織構築", "資金調達", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=q6DU_9CzgXA
+  - Retrieved at: 2025-12-30T16:23:43+09:00
+  - [00:01] Hello everybody. Welcome and thanks so
+key_points:
+  - "- [00:50] should probably start by just defining"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: q6DU_9CzgXA
+
+- URL: https://www.youtube.com/watch?v=q6DU_9CzgXA
+- Retrieved at: 2025-12-30T16:23:43+09:00
+
+## Text
+
+- [00:01] Hello everybody. Welcome and thanks so
+- [00:03] much for joining us today. Uh my name is
+- [00:05] Matt Honen. I'm the editor-inchief here
+- [00:06] at MIT Technology Review. For the next
+- [00:09] half hour or so, we are going to be
+- [00:11] talking about AI agents, which is a
+- [00:13] really hot topic right now. You may have
+- [00:15] seen that OpenAI just announced the new
+- [00:17] agents for example. Uh I'm joined today
+- [00:19] by my colleagues Will Douglas Heaven.
+- [00:21] He's a senior AI editor here at Tech
+- [00:23] Review and Grace Hawkins, our AI
+- [00:26] reporter. Grace uh is the newest member
+- [00:28] of our editorial team. Welcome to you
+- [00:30] both. Thanks for being here.
+- [00:31] >> Hi, Matt.
+- [00:33] >> Hi there.
+- [00:34] >> Um, so, you know, I've got a bunch of
+- [00:36] questions I want to get to. Uh, and I,
+- [00:38] but before I get started, I do want to
+- [00:40] remind the the people watching, uh, on
+- [00:42] LinkedIn that if you have questions,
+- [00:44] please add them to the comments and we
+- [00:46] will get to as many of them as we can.
+- [00:48] Uh, but to kick things off, I think we
+- [00:50] should probably start by just defining
+- [00:52] terms here. And, and Will, I think I'm
+- [00:54] going to start with you if you don't
+- [00:55] mind. What exactly is an agent? How is
+- [00:58] it different than just a, you know,
+- [01:01] prompting an LLM?
+- [01:04] >> Sure. Uh, thanks. Um, yeah, so the good
+- [01:06] news, the the concept is is pretty
+- [01:09] straightforward. Um, the idea of an
+- [01:11] agent is not new at all. Uh, we've had
+- [01:13] agents in software for for decades. Your
+- [01:16] washing machine is an agent in the sense
+- [01:18] that uh, you know, it's a machine that
+- [01:21] you give a task, give it a task, and it
+- [01:23] goes off and and does it automatically.
+- [01:26] Um the exciting thing now is that we've
+- [01:28] taken all the generality and the
+- [01:31] intelligence in LLMs and hooked those up
+- [01:36] to you know other software. So now we
+- [01:38] have agents that are powered by LLMs you
+- [01:41] know AI agents. Um so we have the
+- [01:44] generality of LLM plus you know the
+- [01:46] generality of what agents are you know
+- [01:48] thing in the world that can go off and
+- [01:49] do stuff. um put those two things
+- [01:51] together and we have like a really
+- [01:53] exciting uh set of possibilities and I
+- [01:56] think that's sort of where we are right
+- [01:58] now. You know what's actually going to
+- [02:00] be done with this tech?
+- [02:01] >> Can you give me an example of what an
+- [02:02] agent might do?
+- [02:04] >> So we have um we we've seen sort of some
+- [02:08] demos of agents we've seen from
+- [02:10] companies like Anthropic and uh OpenAI
+- [02:13] and Google Deep Mind. So this is sort of
+- [02:14] something that they're all converging on
+- [02:16] the idea of like a web browsing agent.
+- [02:17] So you have your your LLM uh in a sort
+- [02:21] of side panel that you can ask ask it to
+- [02:23] do stuff. You chat to it as you would uh
+- [02:25] any chatbot, but it can go off on the
+- [02:27] web and it's able to carry out tasks
+- [02:29] like book you concert tickets or make
+- [02:31] restaurant reservations. Um or as one
+- [02:34] fun example uh um in one reviewer was
+- [02:38] just inquiring about the price of eggs
+- [02:39] and then was surprised when eggs turned
+- [02:42] up on on his doorstep. Um but that's
+- [02:45] very very early days. Those are b those
+- [02:46] are basic examples but um that's the
+- [02:49] sort of the idea of what people are
+- [02:50] playing with at the moment.
+- [02:52] >> Getting to the price of eggs. Grace uh
+- [02:54] you wrote this incredible cover story
+- [02:56] for us which I'm going to hold up here
+- [02:57] so I can see. Um about AI agents and I I
+- [03:01] wonder what some of the you you
+- [03:02] mentioned that that eggs anecdote in
+- [03:04] your in your story, but I I wonder what
+- [03:05] some of your uh main takeaways were from
+- [03:08] from spending time uh reporting out that
+- [03:10] feature.
+- [03:11] >> Yeah, I think the egg story leads into
+- [03:13] that quite well. Um, this is a case
+- [03:15] where this Washington Post reporter,
+- [03:18] just as Will said, you know, asked
+- [03:21] OpenAI's operator agent, which is sort
+- [03:23] of the predecessor to the agent that
+- [03:25] they just released this past week. Um,
+- [03:28] asked it to, you know, just find for me
+- [03:30] what the cheapest eggs I can get
+- [03:32] delivered are. Not buy them for me, but
+- [03:33] find them for me. Um, and, you know,
+- [03:35] shortly thereafter, some eggs turned up
+- [03:38] on his doorstep and they cost 30 bucks.
+- [03:40] And he'd asked for the cheapest eggs. So
+- [03:42] obviously, not only um did the agent do
+- [03:45] something that I didn't wanted uh that I
+- [03:47] didn't want that it to do, but it had a
+- [03:49] material impact on him, right? It cost
+- [03:51] him 30 bucks. Um and so that's
+- [03:54] bigger picture. I mean, I think that's
+- [03:56] one of the really important things to
+- [03:57] keep in mind about agents that they will
+- [03:59] do things that we don't want them to do
+- [04:01] and we don't have effective ways of
+- [04:03] preventing that yet at this point in
+- [04:04] time. Uh we're all familiar with the way
+- [04:06] that LLM chat bots will hallucinate,
+- [04:08] sometimes tell us things that aren't the
+- [04:10] case. uh and when that happens with
+- [04:12] agents there could be real consequences
+- [04:14] because they are taking actions in the
+- [04:16] real world and just because of the
+- [04:17] nature of LLMs we don't yet have a way
+- [04:19] to deterministically uh ensure they
+- [04:21] don't do that. So you know test trusting
+- [04:24] an agent with your uh financial
+- [04:26] information might not be the wisest
+- [04:28] wisest call um and it might also be
+- [04:31] possible for malicious actors to exploit
+- [04:33] that try to control and hijack an agent
+- [04:36] uh that's supposed to be working on your
+- [04:38] behalf.
+- [04:39] I I saw a uh a pretty interesting uh
+- [04:43] interview with with Meredith Whitaker
+- [04:44] recently who was talking about the way
+- [04:46] that agents are uh you know for them to
+- [04:48] work really well you need to give them
+- [04:49] access to your email, access to your
+- [04:51] calendar, access to all these other
+- [04:53] sources of of um of personal information
+- [04:55] or or or you often do for some of the
+- [04:57] things that we sort of seen uh promoted
+- [04:59] as being the benefits of agents. What
+- [05:02] what could go wrong with that? And if
+- [05:06] something does go wrong, who's
+- [05:08] responsible?
+- [05:11] >> So, I mean, there's a huge risk, I
+- [05:13] think, at this point in time if you give
+- [05:15] an agent access to a lot of your
+- [05:16] personal data, not in a way that's not
+- [05:19] careful, that it could get exfiltrated,
+- [05:21] that essentially someone else could gain
+- [05:23] access to that data. And there's a lot
+- [05:24] of discussion about this going on online
+- [05:26] these days. Um there's this uh
+- [05:28] influential blogger about AI, Simon
+- [05:30] Willis, who sort of has identified this
+- [05:32] thing that I think he calls the lethal
+- [05:33] trifecta or the lethal triad. Um where
+- [05:37] if you give an agent access to personal
+- [05:39] data, um access to commands from the
+- [05:42] outside world and also the ability to
+- [05:45] sort of send messages or something like
+- [05:48] that to, you know, communicate. um that
+- [05:51] that's automatically a vulnerability
+- [05:53] because you could have an a malicious
+- [05:54] actor who say sends you an email that
+- [05:57] hijacks your LLM um to then you know
+- [06:00] send them emails that contain a bunch of
+- [06:02] your personal data if the LLM also has
+- [06:04] access to the personal data. So you know
+- [06:06] of course one strategy is try to break
+- [06:08] those things apart. The LLM that has
+- [06:09] access to your personal data isn't the
+- [06:11] same as the LLM that can send emails but
+- [06:13] then that reduces the efficacy of the
+- [06:15] agent. You can't just have an agent
+- [06:17] taking care of all your emails and doing
+- [06:18] all that stuff for you and still be
+- [06:20] safe. So, it's really an unresolved
+- [06:22] problem. And I would say at this point
+- [06:24] in time, I would not be comfortable
+- [06:25] having an agent manage my email for that
+- [06:27] precise reason.
+- [06:28] >> I'm I'm going to come back to this a
+- [06:30] little bit later uh in the conversation.
+- [06:31] Uh and I want to remind folks who are
+- [06:33] watching, if you have questions, you can
+- [06:35] put them in the comments. We'll try and
+- [06:36] get to as many of them as we can. Uh but
+- [06:38] before we do, I want to I want to move
+- [06:40] on to agent coding. Uh I think this is
+- [06:43] this is one of the things that people
+- [06:45] will probably be most familiar with. Um
+- [06:48] but certainly not everyone has heard of
+- [06:49] it is but it's really where we're
+- [06:51] starting to see agents show up in the
+- [06:52] workplace. And can maybe one of you
+- [06:54] could tell me a little bit about what is
+- [06:55] agentic coding uh for people who aren't
+- [06:57] familiar with it.
+- [06:59] >> Uh sure I can I can jump in on this. Um
+- [07:02] it's so people may have heard you know
+- [07:06] LLM's were one of the things they were
+- [07:07] really good at to begin with was uh sort
+- [07:10] of generative coding where um you know
+- [07:13] you sort of you're typing along in your
+- [07:15] coding environment and it sort of uh an
+- [07:17] autocomplete code for you. Um, and then
+- [07:20] it sort of developed from that and you
+- [07:22] could sort of chat to the coding chatbot
+- [07:24] and describe a a problem. Um, and it
+- [07:27] would sort of generate a a code snippet
+- [07:29] of code for you. Um and then if you
+- [07:32] would bring sort of the idea of agents,
+- [07:34] this idea of you know the system working
+- [07:36] autonomously into that then you have um
+- [07:40] essentially a set of AI tools that can
+- [07:43] read the documentation in your
+- [07:45] organization, read all the existing code
+- [07:48] um and help you diagnose and fix bugs
+- [07:51] for example or help you sort of
+- [07:53] prototype a uh a feature that you want.
+- [07:57] So, you're sort of offloading the the
+- [07:59] hands-on um nitty-gritty engineering
+- [08:03] task that that people used to do and the
+- [08:05] developers themselves, the human
+- [08:07] developers are sort of stepping back and
+- [08:09] becoming managers, orchestrators of of
+- [08:12] these agents. Um it's still early days
+- [08:14] but I do think that that use of agents
+- [08:18] is one of the most mature and an area
+- [08:20] where um you if you talk to people in
+- [08:23] these organizations using this
+- [08:25] technology it is already making an
+- [08:27] impact. I know that the the the
+- [08:29] developers within the AI companies
+- [08:30] themselves like Anthropic and OpenAI are
+- [08:33] using these kinds of AI coding agents
+- [08:36] themselves to develop, you know, the
+- [08:37] next generation of AI agents.
+- [08:40] >> And is is your sense of it that these
+- [08:44] that like how widespread is your sense
+- [08:46] of it that these are being used outside
+- [08:47] of places like OpenAI? Is it being used
+- [08:49] in mainstream uh or or
+- [08:52] >> more widely used in tech companies and
+- [08:54] other places where people are developing
+- [08:55] code?
+- [08:56] Yeah, I mean so there's there's a you
+- [08:58] know a fuzzy line between um sort of
+- [09:00] generative coding which I think has
+- [09:02] taken off enormously just the idea that
+- [09:04] you do have an LLM to help you uh you
+- [09:08] know solve coding problems. I think
+- [09:10] that's extremely widespread. I mean we
+- [09:12] hear like amazing uh stats from you know
+- [09:15] within some of the biggest tech
+- [09:16] companies in the world like Google for
+- [09:18] instance I think Google and Microsoft
+- [09:20] the CEO CEOs of those companies have
+- [09:22] both said a few months ago so it's
+- [09:24] probably more now but around a quarter
+- [09:26] of all code developed inhouse was
+- [09:28] developed with generative AI. um how
+- [09:32] much of that is being done with sort of
+- [09:34] these agentic tools where you really are
+- [09:36] handing off a lot more autonomy to them
+- [09:38] I I don't think we know yet but I think
+- [09:40] it's it's definitely moving in that
+- [09:42] direction um and this new wave of
+- [09:45] companies developing that technology um
+- [09:48] is really pushing this vision where
+- [09:50] where you know the the work of you know
+- [09:52] 100 developers can now be done by by 10
+- [09:55] people um that's what we're being told I
+- [09:58] we're seeing a little bit of push back
+- [09:59] as well uh about, you know, how safe,
+- [10:02] how correct, how good these agents are
+- [10:05] compared to, you know, a real expert
+- [10:07] human programmer. Um, but I think that's
+- [10:09] just that's just a symptom of, you know,
+- [10:12] early stage adoption. I don't think it's
+- [10:14] fair to say that this tech is not going
+- [10:16] to take off and not going to be
+- [10:17] impactful. It just maybe isn't as
+- [10:19] perfect or as getting there as quickly
+- [10:22] as as people would have us believe.
+- [10:24] Well, I think this this raises another
+- [10:26] uh question that I think a lot of people
+- [10:28] are are concerned about or wondering
+- [10:29] about right now, which is the the role
+- [10:31] of AI agents in the workforce u and and
+- [10:34] specifically taking um you know, taking
+- [10:37] people's jobs. Uh there's been some news
+- [10:40] recently that uh uh you know, Andy
+- [10:42] Jasse, the CEO of of um of Amazon, has
+- [10:45] said that he's anticipating they're
+- [10:48] going to replace a large portion of
+- [10:49] their workplace with with AI agents. Um,
+- [10:52] and yet simultaneously I there's uh, you
+- [10:55] know, the the CEO of CLO's name I'm I'm
+- [10:58] forgetting at the moment, uh, has sort
+- [11:00] of walked back what they're doing with
+- [11:01] agents because he had previously said
+- [11:02] that they were going to be replacing
+- [11:04] basically all of their or a lot of their
+- [11:05] customer service representatives with AI
+- [11:07] agents, but it hasn't panned out. Now
+- [11:08] they're they're they're hiring again.
+- [11:11] So, we've got these conflicting signals.
+- [11:13] Are are
+- [11:15] how do you feel uh, in terms of agents
+- [11:17] coming into the workplace? Is there
+- [11:19] evidence that they're starting to take
+- [11:20] jobs or or do you think that they're
+- [11:21] that's coming soon?
+- [11:24] >> So, it's hard to say as far as, you
+- [11:28] know, I know about the extent to which,
+- [11:29] you know, agents are really taking jobs
+- [11:31] because, you know, changes in job
+- [11:33] markets are so multiffactorial. Like for
+- [11:35] example, you know, entry- level software
+- [11:37] engineer hiring is down, but it's not
+- [11:39] clear if that's because of coding
+- [11:41] agents, which as Will said are really
+- [11:42] the most mature use of agents uh today
+- [11:45] or just because, you know, there's a
+- [11:47] huge amount of hiring post pandemic and
+- [11:49] that's cooled down. Um so, you know, I
+- [11:51] think we're going to need more evidence
+- [11:52] and more time to really see um exactly
+- [11:55] how much agents are changing the job
+- [11:57] market. Um but I think there are some
+- [11:59] sort of important interesting factors
+- [12:02] that might make this a bit of a slow
+- [12:04] process even if you know Amazon or like
+- [12:06] CLA you know have they have these
+- [12:08] ambitions uh to adopt agents into the
+- [12:10] workforce um one thing that you know if
+- [12:14] they want to have agents that are
+- [12:16] reliable that are safe that aren't going
+- [12:18] to cause major problems for their
+- [12:20] companies um especially if they're
+- [12:22] outward facing like customer service
+- [12:24] agents I mean you really need to drill
+- [12:26] down in on reliability ility. You don't
+- [12:28] want to have agents talking to um
+- [12:31] customers without human supervision if
+- [12:33] you can't trust them 100%. And we are
+- [12:35] just nowhere near being able to trust
+- [12:36] agents 100%. Now, for internal purposes,
+- [12:40] the agents just working uh with your own
+- [12:42] systems within your own company is any
+- [12:44] access to the outside world. That's a
+- [12:45] bit safer and that's somewhere where um
+- [12:47] we may sort of see more displacement
+- [12:50] even earlier, I might think.
+- [12:52] >> Uh I want to move uh on to
+- [12:54] breakthroughs. Before I do, I thought I
+- [12:56] might get to a couple of audience
+- [12:57] questions. Um, and and uh Grace, maybe
+- [13:01] you can take this one, uh, because you
+- [13:02] you actually wrote about this recently.
+- [13:04] Uh, uh, Lenan Galinus, uh, forgive me if
+- [13:09] I'm mispronouncing your name. Uh, asks,
+- [13:10] "What type of nent regulation around AI
+- [13:13] are you hearing about?" And I suppose,
+- [13:15] is there anything specifically about a
+- [13:17] um about agents um that you that you've
+- [13:19] seen happening? M now I'm not aware of
+- [13:25] agent specific regulation at this point
+- [13:27] in time though that certainly um may
+- [13:31] exist though it's worth noting that at
+- [13:33] where we are now like most of the AI
+- [13:35] systems that we're interacting with on a
+- [13:36] daily basis are agents you know you chat
+- [13:39] with chat GBT and say hey can you like
+- [13:41] look this up for me on the web and it
+- [13:43] will you know interact with the internet
+- [13:44] so that makes it an agent it's going out
+- [13:46] and doing a search for you it's
+- [13:47] accomplishing that task for you outside
+- [13:49] the chat box window. So any AI
+- [13:51] regulation that we are seeing today is
+- [13:53] sort of implicitly um targeted at agents
+- [13:56] regulation that's going to apply to LLM.
+- [13:58] Um now so we had this um which I
+- [14:00] recently wrote about this sort of
+- [14:02] proposed moratorum on state level AI
+- [14:04] regulation that ended up getting dropped
+- [14:06] from the sort of big bill that the Trump
+- [14:08] administration got through uh at the
+- [14:10] start of this month. And so states I
+- [14:12] think are sort of gearing up to push
+- [14:14] through some more AI regulation. I know
+- [14:16] that California context best. There's a
+- [14:18] bill moving uh through the California
+- [14:21] state senate right now, for example,
+- [14:23] that just sort of added a bunch of um uh
+- [14:26] requirements on transparency, you know,
+- [14:28] and disclosing disclosure
+- [14:30] of uh safety issues um that might arise
+- [14:33] in their internal in companies internal
+- [14:35] testing of AIS. Those need to be
+- [14:36] disclosed. They need to sort of disclose
+- [14:38] their safety procedures more generally.
+- [14:39] It's protections from whistleblowers.
+- [14:41] So, you know, I think there's certainly
+- [14:43] a lot of energy behind uh in particular
+- [14:47] um putting into place legislation that
+- [14:48] requires AI companies to be more
+- [14:50] transparent about what's going on um
+- [14:52] inside of them, particularly with
+- [14:53] respect to safety. So, we'll sort of
+- [14:55] have to see uh where that goes and
+- [14:57] whether those um policies actually get
+- [14:59] enacted into law.
+- [15:01] >> Um Mario Villa asks, "How do we evaluate
+- [15:04] the morality of agent or a machine
+- [15:06] replacing a human for a particular job?
+- [15:08] Is it ethical or not?" Um, I I I I I
+- [15:11] think I can take a crack at this one.
+- [15:12] Uh, I don't, you know, I don't think
+- [15:16] that um I don't I don't know that I
+- [15:19] don't know that it's an ethical question
+- [15:20] as much as it is just as as much as it
+- [15:22] is a practical question that that uh
+- [15:24] unfortunately a lot of the times when
+- [15:25] people are looking at the bottom line
+- [15:27] for their company, someone in charge of
+- [15:29] it, they're they're not asking
+- [15:30] themselves like, is it ethical for me to
+- [15:31] bring this person in, they're asking,
+- [15:32] can I can I have a cost savings here?
+- [15:34] And I think despite what you think about
+- [15:36] the um the ethics of it, uh it's going
+- [15:40] to happen like like when when businesses
+- [15:43] who have a you know when they say you
+- [15:45] know I've got a fiduciary responsibility
+- [15:47] to my shareholders and I can save cost
+- [15:49] by um by replacing people with agents.
+- [15:52] We're we're going to start to see that
+- [15:53] happen. I um my mother uh I remember
+- [15:56] used to this is like a used to tell me
+- [15:58] this story uh and it always it always
+- [16:00] just kind of astounded me that when she
+- [16:02] was uh in college she worked at a at a
+- [16:04] department store in Atlanta and she uh
+- [16:07] worked as as bookkeeping basically
+- [16:10] totaling up the receipts for the day and
+- [16:11] she said there was an entire floor of
+- [16:12] people who were doing that like it's
+- [16:14] just a one big floor with people with
+- [16:15] with with machines and and those jobs
+- [16:18] all went away with uh with the advent of
+- [16:20] spreadsheets and um so I think it's you
+- [16:22] know it's it's going to happened and
+- [16:23] it's one of those types of things that I
+- [16:25] think we have to be prepared about which
+- [16:26] is why we're we're spending some time uh
+- [16:27] talking about it today. Um I do want to
+- [16:30] move on though and I I'll try to get
+- [16:31] some more audience questions towards the
+- [16:33] end. But I'm curious what you think is
+- [16:35] going to be the breakthrough moment for
+- [16:38] uh adoption of agents. Um you know like
+- [16:40] I we mentioned that OpenAI has just
+- [16:41] rolled some out. Uh but they're they're
+- [16:44] not really I wouldn't argue mainstream
+- [16:46] yet. What do you think it will take for
+- [16:47] them to become mainstream?
+- [16:50] >> Yeah, I mean I can jump in. I'd like to
+- [16:52] hear what Grace thinks as well, but um I
+- [16:55] mean there's no there's no right or
+- [16:56] wrong answer to that. I mean I think we
+- [16:57] are at the moment now where we're gonna
+- [16:59] we're going to start seeing what people
+- [17:01] make of this technology. Um and it is
+- [17:03] really interesting as you say that
+- [17:05] OpenAI has taken its operator agent
+- [17:07] which was the sort of the web browsing
+- [17:08] agent that we talked about earlier and
+- [17:11] bundled with a chat GPT. So people you
+- [17:13] know with a paid paid subscription to
+- [17:16] chat GPT can now try this out. The demos
+- [17:18] we've seen from OpenAI for that like you
+- [17:22] know booking tickets and booking
+- [17:23] restaurant reservations feel like they
+- [17:26] feel like demos they feel like proof of
+- [17:28] concepts really novelty. The big problem
+- [17:31] with uh sort of a personal agent in your
+- [17:34] phone that can go off and do tasks for
+- [17:35] you, as we mentioned earlier, is that
+- [17:37] we're going to need to trust it to well,
+- [17:40] we either need to trust it to make sort
+- [17:42] of financial traction transactions on
+- [17:45] our behalf. Um trust it with personal
+- [17:47] information or we have an agent which
+- [17:49] will continuously be, you know, asking
+- [17:51] us peri permission to do things. Um, at
+- [17:54] which point it's not a very useful agent
+- [17:56] if it's going to be pinging us every few
+- [17:58] seconds, you know, can I do this, can I
+- [17:59] do that? Um, and I know that the people,
+- [18:02] you know, in the companies building
+- [18:04] these tools are really trying to figure
+- [18:06] that out and there's no good answer yet
+- [18:08] for what that balance is between, uh,
+- [18:10] you know, handing over autonomy um, and
+- [18:13] and having it be a useful tool. Um, but
+- [18:16] that's a sort of consumerf facing agent
+- [18:17] that, you know, we would interact with.
+- [18:19] there's a whole other realm of
+- [18:22] possibility where agents just sort of
+- [18:23] work behind the scenes. Um, you know,
+- [18:25] they're part of, you know, business
+- [18:28] workflows. They're sort of embedded in
+- [18:30] the existing IT systems of a company and
+- [18:32] they just sort of manage some of that
+- [18:33] without, you know, uh, you know, an IT
+- [18:36] team, human IT team getting involved in
+- [18:39] it. Um long term I think that some
+- [18:44] people are really excited about you know
+- [18:46] agents are actually sort of you know a
+- [18:47] step towards super powerful AI because
+- [18:52] one vision of you know what future AI is
+- [18:54] going to look like is just an AI that
+- [18:56] can be you know run hands-free. We don't
+- [18:59] need to engage with it all the time. So
+- [19:00] solving these problems now with agents
+- [19:02] could you know pave the path to an AI
+- [19:05] that sort of just you know coexisted and
+- [19:07] solved problems for us. uh you know
+- [19:09] without us having to interact with it
+- [19:11] too much but so I think the problems
+- [19:13] we're solving now with these sort of
+- [19:14] very toy like agents um are going to be
+- [19:18] key um and I don't know how easy they're
+- [19:21] going to be to solve
+- [19:23] >> to some extent I think it seems like
+- [19:24] you're talking about
+- [19:27] an issue that's larger than the agents
+- [19:28] right and that the the reason that you
+- [19:30] would want to have an agent coming back
+- [19:31] and asking you if it's doing the right
+- [19:32] thing is so it doesn't buy that $30
+- [19:34] carton of eggs for you and
+- [19:37] the It's are we going to have to solve
+- [19:39] the trust issue with LLMs in general
+- [19:41] before we can solve the trust issue with
+- [19:43] with with deploying the agent?
+- [19:45] >> Yeah. Yeah. I think so. I mean that
+- [19:47] agents are powered by LLM solely. The
+- [19:49] trust issue lies with the LLM, you know,
+- [19:51] do you trust the LLM to to do something?
+- [19:53] Can you know the agent part of it? It's
+- [19:55] just that LLM sending an instruction to
+- [19:57] go, you know, to to Instacart or
+- [19:58] whatever. It's just that extra extra
+- [20:01] step. Um, as far as I know, the audience
+- [20:04] would have to go and and look this up in
+- [20:06] um, but with the the egg example, which
+- [20:08] I think is such a great example to come
+- [20:10] back to, uh, operator is not meant to be
+- [20:13] able to go and make uh, you make a
+- [20:16] transaction like that without your
+- [20:17] permission. And as far as I can recall,
+- [20:19] the reviewer said that he didn't
+- [20:21] actually give it that permission. And
+- [20:22] OpenAI was looking into how that even
+- [20:24] happened. So yeah, LLMs are uh, not
+- [20:29] fully trustworthy at all. we see again
+- [20:31] and again and again. So you know the
+- [20:33] idea that these are the things that are
+- [20:34] you know controlling the agents to do
+- [20:37] stuff on our behalf yet it's a big
+- [20:38] fundamental problem that nobody has yet
+- [20:41] solved. I think also another relevant
+- [20:44] possibility and I think this is
+- [20:45] something that the companies are still
+- [20:47] grappling with is that maybe you could
+- [20:48] build some sort of nonLM system around
+- [20:50] the agent that could check to make sure
+- [20:53] everything it's trying to do follows
+- [20:55] some rules like you know not spending
+- [20:57] too much money or something like that
+- [20:59] right like in a lot of ways lower tech
+- [21:02] system around it but of course if you
+- [21:04] have to sort of then add this lower tech
+- [21:05] element that's just checking the agents
+- [21:08] work in a in a less sophisticated way I
+- [21:11] mean are you maybe hamstringing the
+- [21:12] capacities of agents. I don't know, but
+- [21:14] it might, you know, there might be ways
+- [21:15] to try to handle some of these problems
+- [21:16] that sort of skirt around uh the
+- [21:19] problems at the core of LLMs as well.
+- [21:21] >> This this was the question that I said I
+- [21:23] wanted to come back to earlier when we
+- [21:24] were when we were talking at the top.
+- [21:26] Um, so let's say that the that it does
+- [21:28] go by the $30 carton of eggs or or or or
+- [21:32] something for your business that's
+- [21:33] that's cost substantially more money.
+- [21:35] Um,
+- [21:36] who's responsible for that mistake? Is
+- [21:38] it is it the is it the is it the
+- [21:40] individual who's deployed the agent? Is
+- [21:41] it the uh is it the the the software
+- [21:44] company that that's built the agent?
+- [21:46] Who's who uh who's responsible for and
+- [21:49] for the you know sometimes the real
+- [21:51] dollars that are involved or pounds uh
+- [21:53] will um when when an agent makes a
+- [21:56] mistake.
+- [21:58] >> So we don't know yet. We don't have the
+- [22:01] legal frameworks for this. Um and it's a
+- [22:03] big I think open question in AI policy
+- [22:06] and in AI regulation. You know, there
+- [22:08] are a lot of folks who see liability as
+- [22:10] a really promising pathway toward
+- [22:12] effectively regulating AI. Let's make
+- [22:14] the companies responsible um liable for
+- [22:18] mistakes that their LLMs or that their
+- [22:20] agents make and then they'll be super
+- [22:21] super motivated to develop systems that
+- [22:23] are incredibly safe because they don't
+- [22:25] want that liability. Um whether or not
+- [22:28] that's something that would actually
+- [22:30] sort of get encoded in into law, I think
+- [22:33] depends on all of the sort of same
+- [22:36] forces. um that are you know determining
+- [22:38] the trajectory of AI policy in the
+- [22:40] United States. So it is certainly an
+- [22:42] unsettled question. Now I think a lot of
+- [22:44] people you know folks I've spoken with
+- [22:46] from the sort of AI safety oriented side
+- [22:49] of thing would really like to see
+- [22:50] companies be made liable. Am I sanguin
+- [22:52] that that's likely to happen or do I
+- [22:54] think that's a likely outcome? Maybe not
+- [22:57] so much. I think there's a lot of people
+- [22:58] who would see that as uh excessively
+- [23:00] hamstringing AI development, especially
+- [23:02] with those those dynamics that we have
+- [23:04] uh with AI development in the US versus
+- [23:07] versus China right now, but at this
+- [23:09] point it's a open question. It's not
+- [23:10] something that's settled yet.
+- [23:12] >> I say there's an interesting precedent
+- [23:14] there because just with LLMs with chat
+- [23:16] bots, uh non-agent chat bots, we've seen
+- [23:19] lots of, you know, embarrassing
+- [23:21] uh corporate mess ups. you know, the the
+- [23:24] the airline that promised a customer uh
+- [23:28] a refund, the lawyers that used Chat GPT
+- [23:32] to generate sort of case briefs that had
+- [23:34] made up case law in them. I mean, these
+- [23:36] are, you know, career damaging, business
+- [23:38] damaging mistakes. Um, the companies
+- [23:41] aren't liable for those. I mean, if
+- [23:43] anything, we sort of roll our eyes and
+- [23:45] say, well, how stupid could you be to
+- [23:46] think that a chatbot could have done
+- [23:48] those things in the first place? So it's
+- [23:50] it's kind of strange that now we're
+- [23:52] moving to agents which are just LLMs
+- [23:54] that can do things. Um
+- [23:57] yeah, these questions become a lot more
+- [23:59] serious because you can have a lot more
+- [24:00] real world impact from these mess ups.
+- [24:04] Um on the other hand, like if the
+- [24:06] companies don't step up and offer some
+- [24:08] kind of guarantee or protection, then
+- [24:10] maybe this these tools simply won't take
+- [24:12] off because people won't want to risk
+- [24:14] it.
+- [24:15] I I just I just really want to know who
+- [24:17] I'm going to be able to sue when my
+- [24:18] lights go out to power the paperclipip
+- [24:20] factory. Um to go back to some audience
+- [24:24] questions here. We've got a few more
+- [24:25] minutes and I just want to make sure we
+- [24:26] get get a few more of these. Do you
+- [24:27] think that um that leveraging custom SLM
+- [24:30] small language models trained on very
+- [24:32] context focused data sets can help
+- [24:35] overcome this trust issue?
+- [24:37] >> Uh quick answer. Yeah, to some extent I
+- [24:40] think uh if you train on you know
+- [24:42] focused proprietority data sets um then
+- [24:45] you get better you get better results.
+- [24:47] Um
+- [24:49] and never forget that you know LLMs are
+- [24:53] by their nature you know statistical
+- [24:56] slot machines. So no matter how good
+- [24:59] they are you're not going to guarantee
+- [25:01] uh you know 100% accuracy. Um and that's
+- [25:04] you know that issue is not going away.
+- [25:07] Uh, and got a question here from Dr.
+- [25:09] Adam Bjac, who asks, "How do you cut
+- [25:11] through the hype to make careful
+- [25:13] strategic decisions about how and where
+- [25:16] organizations should apply AI agents?"
+- [25:20] >> I mean, I think that, you know, if I
+- [25:23] were in that position, I would test
+- [25:25] anything that I was planning on using
+- [25:27] exhaustively in a sort of sandboxed in a
+- [25:30] safe format. Um, stress tested against,
+- [25:33] you know, tons of scenarios where what
+- [25:35] if someone's trying to steal my data?
+- [25:36] what prompts might they try to, you
+- [25:37] know, send to my agent to get them to do
+- [25:39] that? Um, and, you know, really ensure
+- [25:42] that you are not giving that agent
+- [25:44] access to anything where it can where it
+- [25:47] is likely to sort of or where it's even
+- [25:48] possible for it to cause substantial
+- [25:50] damage. Um, you know, right? Because
+- [25:52] these things are these slot machines,
+- [25:54] they're probabilistic and might not be
+- [25:55] obvious a priori uh how things could go
+- [25:58] wrong. So, if I were in a position to
+- [25:59] start deploying an agent uh in my
+- [26:01] company, I would not do that without
+- [26:03] very extensive testing.
+- [26:05] We have just a few more minutes here and
+- [26:07] so this will be the last audience
+- [26:08] question I get to. Ahmed Alismari asks,
+- [26:11] "What does an agent remember when the
+- [26:13] context dissolves?" I think that that
+- [26:14] probably depends on the agent. Is that
+- [26:16] correct?
+- [26:17] >> Yeah.
+- [26:19] And then the settings within within the
+- [26:20] LM if the agent I mean with chat GPT and
+- [26:23] and other other chatbots, you know, you
+- [26:26] can turn on the memory or turn it off. I
+- [26:28] think that's, you know, part of the
+- [26:29] settings.
+- [26:30] >> Yeah. Right. There's a bunch of
+- [26:31] different ways that you could try to,
+- [26:33] you know, condense the context and and
+- [26:35] give the agent access to it in some way
+- [26:36] and all of that, but it's it's a design
+- [26:38] decision.
+- [26:39] >> And then the last question that I wanted
+- [26:40] to make sure I got to, um, and and
+- [26:42] Grace, I'm going to ask you to to to
+- [26:44] feel this one, is uh, how easy is it to
+- [26:48] build and deploy your own agent? Is this
+- [26:49] something that individuals can do?
+- [26:51] >> Yeah, it it certainly is. It's something
+- [26:53] that I would recommend people be
+- [26:54] extraordinarily careful about and you
+- [26:56] know consider again what private info
+- [26:58] you're giving an agent access to because
+- [27:00] someone could try to take that info from
+- [27:02] you. I actually um I recently wrote an
+- [27:04] article where I uh started downloading
+- [27:07] and playing with uh LLMs on my own
+- [27:09] laptop which is not you know very high
+- [27:11] spec. Um, and I was able to um, uh,
+- [27:15] create a little agent that would, it
+- [27:17] didn't give it the ability to write any
+- [27:19] emails, but I let it sort of read my
+- [27:20] email inbox and make a to-do list for me
+- [27:22] from that inbox. it was required just a
+- [27:25] teeny teeny teeny bit um of coding, but
+- [27:28] I think quite soon it's going to be e
+- [27:30] even more feasible um to put together
+- [27:32] agents to have a little you know a lo an
+- [27:34] LLM that you hook up to, you know,
+- [27:36] something that can read your email or
+- [27:37] something that can read your calendar
+- [27:39] and sort of maybe even deploy those
+- [27:40] locally um and get them to do little
+- [27:42] tasks for you. But I would highly highly
+- [27:44] recommend if anyone's interested in
+- [27:46] doing that. It's very fun to play around
+- [27:47] with. But please be extremely conscious
+- [27:50] of uh the security concerns that uh that
+- [27:53] includes.
+- [27:54] >> Is this a totally unre unrealistic fear
+- [27:56] that I have? Like like it's become so
+- [27:58] hard to get a camping reservation or a
+- [28:00] restaurant reservation because so many
+- [28:02] people have deployed, you know, bots to
+- [28:04] uh to to help suck them up. Am I
+- [28:07] paranoid to think that within a couple
+- [28:08] of years here it's going to be like my
+- [28:10] ability to go eat at a restaurant is
+- [28:12] going to be based on how good my agent
+- [28:13] is versus how good your agent is
+- [28:16] >> where you live in San Francisco. Yeah,
+- [28:18] definitely.
+- [28:18] >> It's not out of the question at all.
+- [28:22] >> Okay. Well, great. I'm glad to hear
+- [28:23] that. Uh well everybody, unfortunately
+- [28:26] that's all the time we've got uh today.
+- [28:28] Um, there's a lot more to talk about
+- [28:30] though and I assure you we are going to
+- [28:32] get to it, but we're going to get to it
+- [28:34] at our big event in the fall in
+- [28:36] November, MTech MIT. Uh, if you'd like
+- [28:39] to join us there, uh, please be sure to
+- [28:41] register by August 1st because that's
+- [28:43] when prices are going to go up. Uh, and
+- [28:45] just as a some as a as a tip, we're
+- [28:48] already expecting this to sell out. Our
+- [28:50] in-person tickets are going pretty
+- [28:52] quickly. So, if you want to attend in
+- [28:54] person, uh, be sure to register soon so
+- [28:56] you can you can have a seat there. Uh
+- [28:58] it's it's a lot of fun. Um but if you
+- [29:00] can't make it in person, there's always
+- [29:01] the live stream option. Thank you so
+- [29:04] much uh for joining us. Uh from me, from
+- [29:06] Will, from Grace, from everybody with
+- [29:07] the MIT Technology Review team, we were
+- [29:10] glad you were here. Hope you enjoyed
+- [29:11] this as much as we did, and we'll see
+- [29:13] you soon. Take care.

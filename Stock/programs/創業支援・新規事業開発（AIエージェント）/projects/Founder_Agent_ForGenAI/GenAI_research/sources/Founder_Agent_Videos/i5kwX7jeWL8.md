@@ -1,0 +1,915 @@
+---
+title: "Not only have I built hundreds of AI agents myself, I've seen other people build thousands for every..."
+video_id: "i5kwX7jeWL8"
+video_url: "https://www.youtube.com/watch?v=i5kwX7jeWL8"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Not only have I built hundreds of AI
+  agents myself, I've seen other people
+  build thousands for every use case under
+key_points:
+  - "the sun. And those who are the most"
+  - "successful are the ones who don't over"
+  - "complicated. And in this video, I want"
+  - "to show you how that can be you as well."
+  - "Cuz here's the thing, and I see this all"
+  - "perfectionism kicks in and they worry"
+  - "right now is take a deep breath. That is"
+  - "why I'm here. Honestly, you can learn"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: i5kwX7jeWL8
+
+- URL: https://www.youtube.com/watch?v=i5kwX7jeWL8
+- Retrieved at: 2025-12-30T15:52:32+09:00
+
+## Text
+
+- [00:00] Not only have I built hundreds of AI
+- [00:02] agents myself, I've seen other people
+- [00:04] build thousands for every use case under
+- [00:07] the sun. And those who are the most
+- [00:09] successful are the ones who don't over
+- [00:11] complicated. And in this video, I want
+- [00:13] to show you how that can be you as well.
+- [00:15] Cuz here's the thing, and I see this all
+- [00:17] of the time. When people first think
+- [00:20] about building their AI agents, their
+- [00:22] perfectionism kicks in and they worry
+- [00:24] about creating the perfect system
+- [00:26] prompt, defining the perfect tools,
+- [00:28] thinking about the LLM they want to use.
+- [00:30] They consider the context and
+- [00:31] observability and latency and security
+- [00:33] and deployment. They get overwhelmed
+- [00:34] with everything. And that might be you
+- [00:36] as well. So, what I have to say to you
+- [00:38] right now is take a deep breath. That is
+- [00:41] why I'm here. Honestly, you can learn
+- [00:43] 90% of what you need to build AI agents
+- [00:46] from just this video. And that, my
+- [00:48] friend, is what I have for you in this
+- [00:50] video. I want to cover each of the core
+- [00:52] components of building agents like
+- [00:54] system prompts, tools, security, and
+- [00:56] context. And I want to break down what
+- [00:58] you should focus on to build the first
+- [01:00] 90% of your agent. Basically, creating
+- [01:02] that proof of concept. And then,
+- [01:04] honestly, even more importantly, I want
+- [01:06] to talk about what you shouldn't focus
+- [01:08] on at first because otherwise, you're
+- [01:10] over complicating it. the kinds of
+- [01:12] things you will need to look into at
+- [01:14] some point when you want to specialize
+- [01:15] your agents and move to production. But
+- [01:17] that's what my other content is for
+- [01:19] right now. Whether you're new to
+- [01:20] building agents or you just want to
+- [01:22] build them faster, I want to help you
+- [01:24] focus on the first 90% to make things
+- [01:26] dead simple. Oh, and by the way, this
+- [01:28] agent that you're looking at right here
+- [01:30] is the mascot for the new Dynamis
+- [01:32] Agentic coding course. So, if you want
+- [01:33] to master building systems around AI
+- [01:36] coding, check out the link in the
+- [01:37] description. All right. So, the first
+- [01:38] thing I want to cover with you is the
+- [01:40] four core components of any AI agent,
+- [01:43] which quick recap, an AI agent is any
+- [01:47] large language model that is given the
+- [01:49] ability to interact with the outside
+- [01:50] world on your behalf through tools. And
+- [01:53] so, it can do something like book a
+- [01:54] meeting on your calendar, search the
+- [01:56] internet for you. That's the first part
+- [01:58] of agents is these tools. It's the
+- [02:00] functions that we give it that it can
+- [02:01] call upon to perform actions. And then
+- [02:04] the brain for our AI agent is the large
+- [02:07] language model. It processes our
+- [02:09] requests and it decides based on the
+- [02:11] instructions we give it which tools to
+- [02:13] use. And speaking of those core
+- [02:16] instructions, that is our agent program,
+- [02:18] aka the system prompt. It's the highest
+- [02:21] level set of instructions we give to any
+- [02:23] AI agent at the start of any
+- [02:25] conversation that instructs it on its
+- [02:27] persona, goals, how to use tools. We'll
+- [02:30] cover the different core components of
+- [02:31] system prompts in a little bit. And then
+- [02:34] last but not least, we have memory
+- [02:35] systems. That's the context we have from
+- [02:38] our conversations, both the short-term
+- [02:41] and long-term memory. We'll talk about
+- [02:42] this a bit more when we get into context
+- [02:44] as well. And so, as we go through each
+- [02:47] of these core components, I'm going to
+- [02:49] move pretty quickly because I just want
+- [02:50] to cover the basics with you, but I'll
+- [02:52] also link to different videos on my
+- [02:54] channel throughout this video if you
+- [02:55] want to dive deeper into anything. And
+- [02:57] when building an AI agent, it is really
+- [03:00] simple to get started. And I'll show you
+- [03:02] an example in code in just a bit here so
+- [03:04] you can really see what I'm talking
+- [03:06] about. So when you're building the very
+- [03:08] core of your AI agent, it's really just
+- [03:10] three steps. You need to pick a large
+- [03:12] language model, write a basic system
+- [03:14] prompt as the agent instructions, and
+- [03:16] then add your first tool because you
+- [03:18] need a tool otherwise it's really just a
+- [03:20] regular large language model, not an
+- [03:22] agent. And so for picking a large
+- [03:24] language model, I would highly recommend
+- [03:26] using a platform called Open Router
+- [03:28] because it gives you access to pretty
+- [03:29] much any large language model you could
+- [03:31] possibly want. And so Claude Haiku 4.5
+- [03:35] is the general one that I use just as
+- [03:36] I'm prototyping my AI agents, but you
+- [03:38] could use GPT 5 Mini. You could use an
+- [03:41] open source model like DeepSeek, for
+- [03:43] example. Like all of them are available
+- [03:45] on this platform. And then when creating
+- [03:47] your system prompt, you just want to
+- [03:48] define your agents role and behavior.
+- [03:50] And you can refine this over time as
+- [03:51] well. just starting really simple and
+- [03:53] then adding your first tool. Like you
+- [03:55] can give it access to search the web.
+- [03:57] You can give it the ability to perform
+- [03:59] mathematical computations with a
+- [04:01] calculator tool. Like literally whatever
+- [04:02] it is, just start simple and then once
+- [04:04] you have this foundation, that's when
+- [04:06] you can build on more capabilities and
+- [04:08] integrations. And I want to show you
+- [04:10] more than just theory as well. Like
+- [04:11] let's actually go and build an AI agent
+- [04:13] right now so you can see practically how
+- [04:15] dead simple it really is. And I'll have
+- [04:17] a link to this repo in the description
+- [04:19] as well if you want to dive into this
+- [04:21] extremely basic agent that's covering
+- [04:23] all of the components in this video,
+- [04:25] even some things we'll talk about in a
+- [04:27] bit like observability. So you can get
+- [04:28] this up and running yourself, even use
+- [04:30] this as a template for your first agent
+- [04:33] if you want. And so I'm going to build
+- [04:34] it from scratch with you right now, like
+- [04:36] show you line by line how simple this
+- [04:38] really is. It's going to be less than 50
+- [04:40] lines in the end, just like I promised
+- [04:42] in the slide. And so first I'm going to
+- [04:44] import all of the Python dependencies.
+- [04:46] I'm using Pantic AI since it's my
+- [04:49] favorite AI agent framework, but it
+- [04:51] really doesn't matter the one that you
+- [04:52] use. The principles that I'm covering in
+- [04:54] this video applies no matter how you're
+- [04:55] building your agents, even if it's with
+- [04:57] a tool like N8N because what I'm
+- [04:59] focusing on here is just defining our
+- [05:01] four core components. LLM, tools,
+- [05:04] memory, and a system prompt. And so the
+- [05:07] first thing I'm going to do is define
+- [05:09] the large language model that I want to
+- [05:11] leverage. And just like I talked about a
+- [05:13] little bit ago, I'm using open router.
+- [05:15] So right now I'm going to use cloud
+- [05:16] haiku 4.5 as my model. But literally
+- [05:19] just changing this line or just changing
+- [05:22] my environment variable here. A single
+- [05:24] line change. I can swap to any model I
+- [05:26] want like Gemini or DeepSeek or OpenAI.
+- [05:29] It's that easy. After I have my LLM
+- [05:31] defined, now I define the agent itself
+- [05:34] including the system prompt, the
+- [05:36] highlevel instructions. And so I'm
+- [05:38] importing this from a separate file.
+- [05:40] I'll just show you a very very basic
+- [05:42] example of a system prompt here and then
+- [05:44] more on this in a little bit. The core
+- [05:45] components that I generally include
+- [05:47] including the persona goal tool
+- [05:50] instructions, the output format like how
+- [05:52] it communicates back to us and then also
+- [05:54] any other miscellaneous instructions I
+- [05:55] want to include. So I have this saved
+- [05:57] here. Now this is a part of my agent
+- [05:59] that I've defined. And so the next thing
+- [06:01] that we need to add is a tool to really
+- [06:03] turn it from an LLM or a chatbot into a
+- [06:06] full-fledged agent. And the way that you
+- [06:09] do that with most AI Asian frameworks is
+- [06:11] you define a Python function like very
+- [06:13] simply and then you add what is called a
+- [06:16] decorator. This signals to paid AI that
+- [06:19] this function right here I want to take
+- [06:21] and attach to my agent as a capability
+- [06:24] that it can now invoke. And so the agent
+- [06:26] defines these parameters when it calls
+- [06:28] the tool. So like in this case this is a
+- [06:30] very basic tool to add two numbers
+- [06:32] together because large language models
+- [06:34] as token prediction machines actually
+- [06:36] suck at math. interesting fact. And so
+- [06:38] it defines these parameters and it
+- [06:40] leverages this dock string as it's
+- [06:42] called like this comment is included as
+- [06:44] a part of the prompt to the LLM because
+- [06:46] it defines when and how to leverage this
+- [06:49] tool which in this case the
+- [06:51] functionality is very basic just adding
+- [06:53] two numbers together. But this could be
+- [06:54] a tool to search the web based on a
+- [06:56] query it defines create an event in our
+- [06:59] calendar based on a time range and title
+- [07:01] that it defines right like all those
+- [07:02] things are parameters and then we
+- [07:04] perform the functionality for the agent
+- [07:05] based on that. That is the tool that we
+- [07:08] got for the agent. And that is really
+- [07:09] good. We've created our agent and added
+- [07:11] the tools. The only thing we have to do
+- [07:13] now is set up a way to interact with it.
+- [07:15] So I'm going to create a very basic
+- [07:17] command line interface here. We start
+- [07:19] with empty conversation. This is where
+- [07:21] we'll add memory, which is the fourth
+- [07:22] component of agents. And so in an
+- [07:25] infinite loop here, we're getting the
+- [07:26] input from the user. Uh and we're
+- [07:28] exiting the program if they say exit.
+- [07:30] Otherwise, we are going to call the
+- [07:32] agent. So it's very simply agent.run run
+- [07:34] with the user's latest message and
+- [07:37] passing in for short-term memory the
+- [07:39] conversation history so it knows what we
+- [07:41] said to each other up until this point
+- [07:44] and then I'm going to add on to the
+- [07:46] conversation history everything that we
+- [07:47] just said and then print out the agents
+- [07:50] latest response. Take a look at that.
+- [07:52] And then even after we call our main
+- [07:53] function here, we are still below 50
+- [07:56] lines of code. It is that easy to define
+- [07:59] our agents. And obviously there's so
+- [08:01] many more things that we have to do to
+- [08:02] really get our agent to the point where
+- [08:04] it's production ready. But again, I just
+- [08:06] want to focus on making it dead simple
+- [08:07] for you right now. And I know that a lot
+- [08:10] of this might be review for you if you
+- [08:11] built agents in the past. But especially
+- [08:14] if you have built a lot of AI agents
+- [08:16] already, you're probably like me where a
+- [08:18] lot of times you just overcomplicate
+- [08:20] things cuz you know how much can go into
+- [08:22] building agents. That's what I'm trying
+- [08:23] to do is just draw you back to the
+- [08:25] fundamentals because you need to keep
+- [08:27] things simple when you're first creating
+- [08:29] any agent really any software at all.
+- [08:31] And so yeah, we can go into the terminal
+- [08:33] now and interact with our agent. So I'm
+- [08:35] going to run agent.py here. Everything
+- [08:37] that we just built, I can say hello to
+- [08:39] get a super simple response back here.
+- [08:41] And then I can say for example, what is
+- [08:43] and I'll just do a couple of bigger
+- [08:45] numbers that I want to add together. And
+- [08:47] so here it knows thanks to the tool
+- [08:49] description that it should use the add
+- [08:52] numbers tool that we gave it to produce
+- [08:54] this sum. There we go. Take a look at
+- [08:56] that. And I can even say did you use the
+- [08:58] tool, right? And it should say yes. Like
+- [08:59] it actually recognizes based on the
+- [09:01] conversation history that it used the ad
+- [09:03] numbers tool. Okay, perfect. So we got
+- [09:05] this agent with conversation history. It
+- [09:07] knows when to use this tool. And now at
+- [09:09] this point we can start to expand the
+- [09:10] tools that we give it. We can refine our
+- [09:13] system prompt, play around with
+- [09:14] different LLMs. and I want to talk about
+- [09:16] that as well. Now, starting with large
+- [09:18] language models, choosing your LLM, like
+- [09:20] I was saying when I was building the
+- [09:22] agent, Claude Haiku 4.5 is the one that
+- [09:24] I recommend just a cheap and fast option
+- [09:26] that's really good for building proof of
+- [09:28] concepts when I don't want to spend a
+- [09:29] lot of money on tokens as I'm iterating
+- [09:31] on my agent initially. And then Claude
+- [09:33] Sonnet 4.5 is generally the best
+- [09:36] all-around right now. This might change
+- [09:38] in literally a week and people have
+- [09:40] different opinions. The main thing that
+- [09:42] I want to communicate here is don't
+- [09:44] actually worry about picking the perfect
+- [09:46] LLM up front, especially when you're
+- [09:47] using a platform like Open Router where
+- [09:49] it makes it so easy to swap between
+- [09:52] LLMs. Even if you're not using Open
+- [09:54] Router, it still is really easy. And
+- [09:56] then if you want a local model for
+- [09:58] privacy reasons or you want to be 100%
+- [10:00] free running on your hardware, then
+- [10:02] Mistl 3.1 Smaller Quen 3 are the ones
+- [10:04] that I recommend right now. And if you
+- [10:06] haven't ever tried Open Router or a tool
+- [10:08] like it that really just routes you
+- [10:10] between the different LLM providers, I
+- [10:12] would highly recommend trying one
+- [10:13] because it makes it so easy to iterate
+- [10:15] on the LLM for your agent, giving you
+- [10:17] instant access to take a look at this.
+- [10:19] We got Grock, Anthropic, Gemini, we've
+- [10:21] got the GPT models, we've got uh Quen 3,
+- [10:25] all the open- source ones. No matter
+- [10:27] what you want to experiment with, you've
+- [10:28] got it here. And so just use this as
+- [10:30] your tool to iterate on the LM very
+- [10:32] quickly and just not have to think about
+- [10:34] it that much. And then for the system
+- [10:36] prompt component, I promised I would
+- [10:37] dive a little bit more into the
+- [10:39] different categories that I have. So
+- [10:40] that's what I want to talk about very
+- [10:41] quickly. It can be especially easy to
+- [10:44] overthink the system prompt because it's
+- [10:46] just such a broad problem to solve of
+- [10:48] like what should the top level
+- [10:50] instruction set be for my agent? And so
+- [10:52] I like to keep things simple by working
+- [10:54] off of a template that I use for all of
+- [10:56] my AI agents at least as a starting
+- [10:58] point. I always have persona and goals,
+- [11:00] tool instructions and examples, output
+- [11:02] format, and miscellaneous instructions.
+- [11:05] And what you shouldn't worry about at
+- [11:07] this point is setting up elaborate
+- [11:09] prompt evaluations or split testing your
+- [11:12] system prompts. You can get into that
+- [11:14] when you really want to refine your
+- [11:15] agent instructions. But right now, just
+- [11:18] keep it simple and refine at a high
+- [11:20] level as you are manually testing your
+- [11:22] agent. And if you want to see that
+- [11:24] system prompt template in action, I've
+- [11:25] got you covered. I'll have a link to
+- [11:27] this in the description as well. It's a
+- [11:30] real example of me filling out those
+- [11:32] different sections, creating a system
+- [11:34] prompt for a task management agent. So,
+- [11:36] I have my persona defined here. I'm
+- [11:39] defining the goals for the task
+- [11:40] management agent. The tool instructions
+- [11:42] like how I can use different tools
+- [11:44] together to manage tasks in my platform.
+- [11:47] The output format, just specifying ways
+- [11:49] that I want it to communicate back to me
+- [11:50] or things to avoid. Some examples. Now,
+- [11:53] this applies more to more complex agents
+- [11:55] and system prompts where you actually
+- [11:57] want to kind of give an example of a
+- [11:59] workflow of chaining different tools
+- [12:01] together, so it doesn't really apply
+- [12:02] here. And then the last thing is just
+- [12:03] miscellaneous instructions. This is also
+- [12:05] the place to go to add in extra
+- [12:08] instructions to fix those little issues
+- [12:10] you see with your agent that doesn't
+- [12:12] necessarily fit into all the others. So,
+- [12:14] a catchall to make sure that there's a
+- [12:15] place to put anything as you're
+- [12:17] experimenting with your agent and
+- [12:19] refining your system prompt. And then as
+- [12:21] far as tools go for your AI agents,
+- [12:23] there's just a few things I want to
+- [12:24] cover quickly to help you keep things
+- [12:26] simple and focused. The first is that
+- [12:28] you should keep your tools to under 10
+- [12:31] for your AI agents, at least when
+- [12:33] starting out. And you definitely want to
+- [12:34] make sure that each tool's purpose is
+- [12:36] very distinct. Because if your tools
+- [12:38] have overlapping functionality or if you
+- [12:40] have too many, then your large language
+- [12:42] model starts to get overwhelmed with all
+- [12:44] the possibilities of its capabilities
+- [12:46] and it'll use the wrong tools. It will
+- [12:48] forget to call tools. uh and it's just a
+- [12:51] mess. Like definitely keep it to under
+- [12:53] 10. And then also MCP servers are a
+- [12:56] great way to find preackaged sets of
+- [12:58] tools you can bring into your an agent
+- [13:00] when you're, you know, creating
+- [13:01] something initially and you just want to
+- [13:02] move very quickly. And so definitely
+- [13:05] based on what you're building, you'll
+- [13:06] probably be able to find an MTP server
+- [13:08] that gives you some functionality right
+- [13:10] out of the box for your agents. And then
+- [13:12] the last thing I'll say is a lot of
+- [13:14] people ask me, "What capabilities should
+- [13:16] I focus on learning first when I'm
+- [13:18] building agents?" and I want to give
+- [13:20] them tools and rag is always the answer
+- [13:24] that I have for them. Giving your AI
+- [13:26] agent tools that allows it to search
+- [13:28] your documents and knowledge base.
+- [13:30] That's what retrieval augmented
+- [13:31] generation is. And so really, it's
+- [13:33] giving your agents the ability to ground
+- [13:35] their responses in real data. And I
+- [13:37] would say that probably over 80% of AI
+- [13:40] agents running out in the wild right
+- [13:41] now, no matter the industry or niche,
+- [13:44] are using rag to some extent as part of
+- [13:46] the capabilities for the agent. And then
+- [13:49] continuing with our theme here, what not
+- [13:52] to focus on when building tools is don't
+- [13:55] worry about multi- aent systems or
+- [13:57] complex tool orchestration through that
+- [13:59] yet. When you have a system that starts
+- [14:01] to have more than 10 tools, that is
+- [14:03] generally when you start to split into
+- [14:05] specialized sub aents and you have
+- [14:07] routing between them. Those kinds of
+- [14:09] systems are powerful and necessary for a
+- [14:12] lot of applications, but definitely
+- [14:13] overengineering when you're just getting
+- [14:15] started creating your agent or a system.
+- [14:17] Also, if you want to learn more about
+- [14:18] rag and building that into your agents,
+- [14:20] check out the video that I'll link to
+- [14:21] right here. I cover that all of the time
+- [14:23] on my channel because it is so
+- [14:25] important. And so with that, moving on
+- [14:26] to the next thing, we have our security
+- [14:29] essentials because it is important to
+- [14:31] think about security when you're
+- [14:32] building any software upfront. But I
+- [14:34] don't want you to over complicate it
+- [14:36] yet, right? Like don't become a security
+- [14:38] expert overnight. There are existing
+- [14:40] tools out there to help us with
+- [14:42] security. So we can still move quickly
+- [14:43] as we're building our agent initially.
+- [14:45] We'll definitely want to pay more
+- [14:47] attention to security when we're going
+- [14:48] into production. But at first there are
+- [14:50] a couple of tools that I want to call
+- [14:52] out here. And then just some general
+- [14:54] principles to follow. Like for example,
+- [14:56] don't hardcode your API keys, right?
+- [14:58] Like you don't want to have your OpenAI
+- [15:00] or anthropic API key just sitting there
+- [15:02] right in your code or your end workflow
+- [15:05] for example. You always want to store
+- [15:06] that in a secure way through things like
+- [15:09] environment variables. And then also
+- [15:12] when we think about building AI agents
+- [15:14] in particular, there's a lot of security
+- [15:15] that we want to implement through what
+- [15:17] are called guard rails, right? So
+- [15:18] limiting what kind of information can
+- [15:20] come into the large language model and
+- [15:22] then also limiting the kinds of
+- [15:24] responses that the agent can give and
+- [15:27] having it like actually retry if it
+- [15:29] produces any kind of response that isn't
+- [15:31] acceptable for us. And there's a super
+- [15:33] popular open source repository that I
+- [15:36] lean on all the time to help with
+- [15:37] guardrails and very creatively called
+- [15:39] guardrails AI. And so it's a Python
+- [15:42] framework because I always love building
+- [15:43] my AI agents with Python that helps
+- [15:46] build reliable AI applications by giving
+- [15:48] you both the input and output guard
+- [15:50] rails that I'm talking about. So
+- [15:51] limiting what goes in and limiting what
+- [15:53] the agent can produce. And they provide
+- [15:56] a lot of different options for
+- [15:57] guardrails. Like for example, one thing
+- [15:59] that you want to avoid quite often is
+- [16:01] inserting any kind of PII, personally
+- [16:04] identifiable information into a prompt
+- [16:06] to an LLM, especially when it's going
+- [16:08] out to some model in the cloud like
+- [16:10] anthropic or Gemini instead of a local
+- [16:12] LLM. So limiting that kind of thing,
+- [16:14] maybe detecting any vulgar language
+- [16:16] that's outputed from an LLM because they
+- [16:18] will do that sometimes. Like those are
+- [16:20] just some examples of input and output
+- [16:21] guard rails. And it is very easy to
+- [16:24] install this as a Python package and
+- [16:26] bring these guards right into your code
+- [16:29] as you are interacting with your agents
+- [16:31] like we saw earlier when I had that, you
+- [16:32] know, simple command line tool to talk
+- [16:34] to the agent. Like I could just add a
+- [16:35] guard before or after that call to the
+- [16:38] agent. So yeah, guardrails don't have to
+- [16:39] be complicated. There are tools like
+- [16:41] this, even completely open- source ones
+- [16:42] like guardrails AI that make it very
+- [16:44] easy. Okay, so we've talked about
+- [16:46] guardrails and I gave you one example of
+- [16:49] best practices for security in our
+- [16:50] codebase. But what about the other
+- [16:52] million different vulnerabilities we
+- [16:54] have to account for in our codebase and
+- [16:57] the dependencies we're bringing into our
+- [16:59] project? We can't expect ourselves to
+- [17:01] become a security expert overnight. And
+- [17:03] so it's important to learn these things,
+- [17:05] but also we can lean on existing tools
+- [17:07] to help us with this vulnerability
+- [17:10] detection. There are a lot of options
+- [17:12] out there for this, but Sneak Studio is
+- [17:14] one that I've been leaning on a lot
+- [17:16] recently. And they also have an MCP
+- [17:18] server within the studio to help us
+- [17:21] handle vulnerability detection
+- [17:22] automatically right within our coding
+- [17:25] process. So like always, I'm trying to
+- [17:27] focus on open- source solutions for this
+- [17:29] video, but there's really no open-
+- [17:31] source alternative to Sneak that I know
+- [17:33] about. This platform is incredible. So
+- [17:35] in the Sneak Studio, we can set up these
+- [17:38] different projects and integrations. We
+- [17:39] can have it analyze our codebase and
+- [17:42] dependencies for vulnerabilities in our
+- [17:44] GitHub repositories. They have a CLI. We
+- [17:46] can do things locally. They have the MCP
+- [17:48] server that I'm going to show you in a
+- [17:49] little bit. I'll link to all this in the
+- [17:51] description. But yeah, the MCP server in
+- [17:53] particular is super cool to me because
+- [17:55] we can have vulnerability detection
+- [17:57] built right into our AI coding
+- [17:59] workflows. Now, so take a look at this.
+- [18:02] I have the Sneak MCP server connected
+- [18:05] directly to my cloud code after I went
+- [18:06] through the Sneak authentication process
+- [18:08] in the CLI. And you can connect this to
+- [18:10] literally any AI coding assistant or MCP
+- [18:13] client. So now within cloud I could
+- [18:15] build this into a full AI coding
+- [18:17] workflow which is very cool. I'm going
+- [18:18] to show you a simple demo right now.
+- [18:19] I'll just say you know use the sneak MCP
+- [18:23] to analyze my code and dependencies
+- [18:27] for vulnerabilities.
+- [18:29] And so it's able to leverage different
+- [18:31] tools within the MCP server to check for
+- [18:34] both right like it's a very robust
+- [18:36] solution here. And so I'll let it go for
+- [18:38] a little bit. I'll pause and come back
+- [18:41] once it has run the vulnerability
+- [18:42] detection. Okay, this is so cool. Take a
+- [18:44] look at this. So, within my basic agent
+- [18:47] repository, first it used the sneakc
+- [18:49] server to analyze for any
+- [18:51] vulnerabilities with my dependencies,
+- [18:53] things like paidantic AI, for example.
+- [18:56] And then it does a code scan. So, this
+- [18:59] would also detect things like if I had
+- [19:01] my environment variables hardcoded like
+- [19:03] the example that I gave earlier. So, it
+- [19:05] found three issues with my dependencies
+- [19:07] and nothing with my code, which I'm very
+- [19:08] proud of. I got no issues with my code.
+- [19:11] And not only does it do the analysis,
+- [19:13] but it gives me a summary and lists the
+- [19:15] actions I can take to remedy things.
+- [19:16] Like here are the uh just medium
+- [19:18] severity vulnerabilities that I have
+- [19:20] within a few of my dependencies. Nothing
+- [19:22] in my code. And then it gives me
+- [19:23] recommendations to fix fix things. And
+- [19:26] so I can go and say yes action on this
+- [19:28] now. And it's going to update my
+- [19:30] requirements.ext fix these things. And I
+- [19:32] could even run the sneak MCP server
+- [19:34] again. And you can definitely see how
+- [19:35] you'd build this kind of thing directly
+- [19:37] into the validation layer of your AI
+- [19:39] coding workflow. Very, very neat for any
+- [19:42] AI agent or really any software you want
+- [19:44] to build at all. Moving on, I want to
+- [19:46] talk about memory. Now, managing the
+- [19:48] tokens that we're passing into the LLM
+- [19:50] calls for our agents. And this really is
+- [19:52] a hot topic right now, especially with
+- [19:54] all the rate limiting that people are
+- [19:56] getting with AI coding assistants like
+- [19:58] Claude Code. It really is important to
+- [20:01] manage our context efficiently, only
+- [20:03] giving to our agents the information it
+- [20:06] actually needs and not completely
+- [20:07] bloating our system prompts with
+- [20:09] thousands of lines of instruction and
+- [20:10] tools that it doesn't actually need.
+- [20:12] That's what you want to avoid. And so,
+- [20:14] just a couple of simple tips here going
+- [20:16] along with our theme. The first one is
+- [20:18] to keep your prompts very concise. both
+- [20:21] your system prompts and then also the
+- [20:23] tool descriptions that describe to your
+- [20:25] agent when and how to use tools like I
+- [20:27] showed in the code earlier. You don't
+- [20:29] need to over complicate it. That's why I
+- [20:31] have these templates for you like the
+- [20:33] one for the system prompt, right? Like
+- [20:34] you have your goal just a couple of
+- [20:36] sentences, your persona just a couple of
+- [20:38] sentences. Keep it very organized and
+- [20:41] keeping it organized also helps you keep
+- [20:42] it quite concise. You don't need to
+- [20:44] overthink it. And so keeping your system
+- [20:47] prompts to just a couple of hundred
+- [20:49] lines at most is generally what I
+- [20:51] recommend. Some solutions might need
+- [20:52] more, but that's when I'd start to
+- [20:54] question like could you really make that
+- [20:56] more concise or split it into different
+- [20:58] specialized agents so each agent still
+- [21:00] has a simple system prompt. Another
+- [21:02] thing you can do for agents that have
+- [21:04] longer conversations is you can limit
+- [21:06] kind of in a sliding window to the 10 or
+- [21:09] 20 most recent messages, for example,
+- [21:12] that you actually include in the
+- [21:14] context. And going back to the code,
+- [21:15] I'll even show you what that looks like
+- [21:17] here. Like right now when we call our
+- [21:19] agent, we run it, we're passing in the
+- [21:21] entire conversation history. But in
+- [21:22] Python, if I wanted to include just the
+- [21:24] last 10 messages, I could do something
+- [21:26] like this. And so now maybe like, you
+- [21:29] know, all previous messages aren't
+- [21:30] really as relevant anymore. We just want
+- [21:32] to include the most recent 10. That's
+- [21:34] how we can do that. So that's another
+- [21:35] really popular strategy. Also, tools
+- [21:37] like N8N have that as an option baked
+- [21:39] directly into their short-term memory
+- [21:41] nodes. So very useful to know. And then
+- [21:44] also when you start to have so much
+- [21:46] information about a single user that you
+- [21:48] don't want to include it in the
+- [21:51] short-term memory, that's when you can
+- [21:53] look at long-term memory. But also,
+- [21:55] don't build it from scratch. Again,
+- [21:57] don't over complicate it. There are
+- [21:59] tools that you can use just like with
+- [22:01] security to help us with long-term
+- [22:03] memory, and mem is one of those. Mem is
+- [22:06] a completely open-source long-term
+- [22:08] memory agentic framework. And so I'll
+- [22:10] show the GitHub in a second here, but
+- [22:12] yeah, when you have so much information
+- [22:14] about a user that you can't just include
+- [22:16] it all in context, you need some way to
+- [22:19] search through a longer term set of
+- [22:21] memories and bring only the ones in that
+- [22:23] are relevant to the current
+- [22:24] conversation, which actually does use
+- [22:25] rag under the hood, by the way. So
+- [22:27] again, another example why it's such an
+- [22:29] important capability. Um, but yeah,
+- [22:32] basically you're able to pull core
+- [22:34] memories from conversations and store it
+- [22:36] to be searched later. That's what
+- [22:38] Memzero offers us. And it's so easy to
+- [22:40] include in our Python code to just like
+- [22:42] guardrails AI. I'll show you an example
+- [22:44] really quickly in their quick start. You
+- [22:46] install it as a Python package and then
+- [22:48] you basically have a function to search
+- [22:51] for memories like performing rag to find
+- [22:53] memories related to the latest message
+- [22:55] and then you have a function to add
+- [22:57] memories. And so it'll use a large
+- [22:59] language model to extract the key
+- [23:01] information to store to be retrieved
+- [23:03] later. And so this definitely solves the
+- [23:05] context problem because now you're able
+- [23:06] to basically have infinite memory for an
+- [23:09] agent, but you don't have to give it all
+- [23:10] to the LLM at once. It just retrieves
+- [23:13] things as needed. And of course, the
+- [23:14] last thing I want to hit on for context
+- [23:16] is what not to focus on when you're
+- [23:18] first building your agent. Do not worry
+- [23:21] about advanced memory compression
+- [23:23] techniques. There's a lot of cool things
+- [23:24] that Enthropic especially has been doing
+- [23:26] research on, but like don't worry about
+- [23:27] that. Don't worry about specialized sub
+- [23:29] agents. These are both solutions to
+- [23:31] handle the memory problem when it starts
+- [23:34] to get really really technical. But
+- [23:36] right now, just start simple and you can
+- [23:38] always optimize things as you're
+- [23:40] starting to expand your agent and go to
+- [23:42] production and you hit some limits. But
+- [23:44] right now, focusing on these things up
+- [23:46] front is all you need to go the first
+- [23:49] 90% probably even beyond depending on
+- [23:51] how simple your agents are. And context
+- [23:54] was the last of the four core components
+- [23:56] of agents. So, we've covered the core
+- [23:57] four and security. Now, I want to talk a
+- [24:00] bit about observability and deployment.
+- [24:02] Getting our agent ready for production.
+- [24:04] And I will say that security,
+- [24:06] observability, and deployment definitely
+- [24:08] go a lot more into the last 10% of
+- [24:10] building an agent. But I want to touch
+- [24:11] on them here because there are some ways
+- [24:13] to design stuff up front very simply,
+- [24:16] especially with observability. I want to
+- [24:18] introduce you to Langfuse right now. And
+- [24:21] I covered this on my channel already.
+- [24:22] Link to a video right here on Langfuse
+- [24:24] if you want to dive more into
+- [24:25] observability. But we can set up the
+- [24:27] ability to watch for the actions that
+- [24:29] our agent is taking, view them in a
+- [24:31] dashboard. We can do things like testing
+- [24:34] different prompts for our agents. It is
+- [24:35] a beautiful platform and it's actually
+- [24:38] super easy to incorporate into our code.
+- [24:41] And so I did this very sneakily already
+- [24:43] when I built the agent with you, but I
+- [24:45] have this function here called setup
+- [24:47] observability. And all it does is it
+- [24:50] initializes langfuse based on some
+- [24:53] environment variables that I have set
+- [24:54] here. And I cover all that in my YouTube
+- [24:56] video on Langfuse if you're curious. But
+- [24:58] you basically just connect to your
+- [24:59] Langfuse instance. And then after you
+- [25:02] set up the connection and instrument
+- [25:04] your agent, your Pantic AI agent for
+- [25:07] observability, that is all you have to
+- [25:09] do. Literally no more code in here for
+- [25:12] Langfuse. And it's going to watch for
+- [25:13] all of our agent executions, even
+- [25:15] getting a sense of the tool calls that
+- [25:17] it's making under the hood. So take a
+- [25:19] look at this. So I'm in the Langfuse
+- [25:20] dashboard now where I can view that
+- [25:23] execution that we had from our test
+- [25:24] earlier where it used the add numbers
+- [25:26] function and we have all of this very
+- [25:29] rich data around the number of tokens
+- [25:31] that it used the latency. We can view
+- [25:33] the tools and also look at the different
+- [25:35] parameters that we have like the tool
+- [25:37] arguments like for the numbers to add.
+- [25:39] We can view the system prompt that was
+- [25:41] leveraged here based on that template we
+- [25:44] have defined. We have all this
+- [25:45] observability that also really helps for
+- [25:47] monitoring our agents in production when
+- [25:49] other users are leveraging the agent. So
+- [25:51] we can't just like look at our chat and
+- [25:53] see how the agent is performing. And
+- [25:55] there's so many other things within
+- [25:56] langu as well that I don't want to get
+- [25:58] into right now like eval for your agent.
+- [26:01] It is a totally open- source platform
+- [26:03] just like me zero and guardrails AI. So
+- [26:06] again focusing on open source a lot in
+- [26:08] this video. There are other solutions
+- [26:10] for this kind of observability like
+- [26:12] Heliconee and Langmith for example, but
+- [26:14] Langfuse is the one that I love using.
+- [26:16] And I know I didn't cover it too much in
+- [26:18] the code, but it really is as simple as
+- [26:19] what I showed you. And so you can use
+- [26:21] the repository that I have linked below
+- [26:23] as your template to like start an agent
+- [26:25] with observability baked right in if
+- [26:27] you're interested. And then the very
+- [26:29] last component that I want to at least
+- [26:30] touch on right now is how you can
+- [26:33] configure your agent upfront to work
+- [26:35] well for deployment when you're ready to
+- [26:37] take your agent into production. Now,
+- [26:39] obviously that's going to be part of the
+- [26:41] last 10%. Not something I'm going to
+- [26:42] talk about a lot in this video, but the
+- [26:44] one big golden nugget that I want to
+- [26:46] give you here is you should always think
+- [26:49] about how you can build your AI agent to
+- [26:51] run as a Docker container. Docker is my
+- [26:55] method for packaging up any application
+- [26:59] especially AI agents that I want to
+- [27:00] deploy to the cloud and also I will say
+- [27:03] that AI coding assistants are very good
+- [27:06] at setting up docker configuration like
+- [27:08] your docker files and docker compose u
+- [27:10] files. Yeah. So leverage those and then
+- [27:13] you can add you know like a simple
+- [27:14] streamllet application with Python or
+- [27:16] build a react front end to create a chat
+- [27:18] interface for your agent if it is a
+- [27:20] conversationally driven agent or
+- [27:22] otherwise what I like to do for more you
+- [27:24] know like background agents that run on
+- [27:26] a data set periodically I'll run it just
+- [27:27] as a serverless function so it's kind of
+- [27:29] like background agent run it as
+- [27:31] serverless in a docker container
+- [27:33] conversational agent you run it in a
+- [27:35] docker container also with a front-end
+- [27:37] application that's pretty much like the
+- [27:39] two tracks I have for any agent that I
+- [27:41] want to deploy. So yeah, just think like
+- [27:43] Docker native. Have that in your mind
+- [27:45] from the get-go when you're building
+- [27:46] your agent. What you don't want to focus
+- [27:48] on for observability and deployment and
+- [27:51] everything production ready is
+- [27:52] Kubernetes orchestration, extensive LM
+- [27:55] evals or prompt AB testing. Like some of
+- [27:57] the things we have in Langfuse that are
+- [27:58] very powerful when you want to super
+- [28:00] refine your agent tools and system
+- [28:02] prompt and everything like don't even
+- [28:03] worry about that yet. You can definitely
+- [28:05] get there and like I said core part of
+- [28:07] the last 10%. But right now also don't
+- [28:10] even think about like the infrastructure
+- [28:12] that much because unless you're running
+- [28:13] local large language models, you don't
+- [28:15] really need heavy infrastructure for
+- [28:16] your agents at all. Like obviously it
+- [28:19] depends on the amount of usage of your
+- [28:20] agent. But for most use cases, just like
+- [28:23] a couple of vCPUs and a few gigabytes of
+- [28:25] RAM is all you need to run an AI agent
+- [28:28] even if you have a front-end application
+- [28:30] as well. very very lightweight as long
+- [28:33] as you are calling a third party for the
+- [28:36] large language model like open router or
+- [28:38] you know anthropic or gemini whatever
+- [28:40] that might be. So there you go that's
+- [28:42] everything that I have for you today
+- [28:43] helping you just keep it simple which
+- [28:46] will not just help you build better
+- [28:47] agents even when you have to scale
+- [28:49] complexity but it'll also just help you
+- [28:51] get over that hurdle of motivation
+- [28:53] because I'm giving you permission to not
+- [28:55] be perfect at first. you just start with
+- [28:57] the foundations like I showed you and
+- [28:59] then build on top and iterate as you
+- [29:01] need. And so I hope that inspires you to
+- [29:03] just go and build your next AI agent
+- [29:05] right now because it can be super simple
+- [29:07] to start. And so with that, if you
+- [29:10] appreciate this video and you're looking
+- [29:11] forward to more things on building AI
+- [29:13] agents and using AI coding assistants,
+- [29:15] I'd really appreciate a like and a
+- [29:17] subscribe. And with that, I will see you
+- [29:18] in the next

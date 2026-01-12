@@ -1,0 +1,466 @@
+---
+title: "You can now let AI control your entire computer."
+video_id: "GxEC9GgMZ7c"
+video_url: "https://www.youtube.com/watch?v=GxEC9GgMZ7c"
+speaker: "about"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  You can now let AI control your entire computer
+  What I'm about to show you is not only the future of AI, but what I think is the future of computing
+  Anthropic just gave me exclusive early access to Claude for Chrome, their AI agent that controls your computer
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, LLM"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:15:18+09:00"
+---
+
+# Transcript: GxEC9GgMZ7c
+
+- URL: https://www.youtube.com/watch?v=GxEC9GgMZ7c
+- Retrieved at: 2025-12-30T10:15:18+09:00
+
+## Text
+
+- [00:00] You can now let AI control your entire
+- [00:02] computer. What I'm about to show you is
+- [00:04] not only the future of AI, but what I
+- [00:06] think is the future of computing.
+- [00:08] Anthropic just gave me exclusive early
+- [00:10] access to Claude for Chrome, their AI
+- [00:13] agent that controls your computer. You
+- [00:15] give the agent a prompt, it does
+- [00:17] whatever you want in your browser. This
+- [00:19] might be the most powerful AI tool yet.
+- [00:21] What I'm about to show you in this video
+- [00:23] is two awesome use cases you can do with
+- [00:25] Claude for Chrome. And then I'm going to
+- [00:27] compare it to other AI browser use
+- [00:29] agents like Perplexity Comet to let you
+- [00:31] know which one's the best and which one
+- [00:32] you should invest in. If your mind's not
+- [00:34] blown by the end of this video, you're
+- [00:36] insane. Let's get into it. So, what
+- [00:38] you're looking at here on the right hand
+- [00:40] side is Claude for Chrome. It's their
+- [00:42] extension for Google Chrome, right? So,
+- [00:44] it's an AI agent that's actually an
+- [00:46] extension in Google Chrome that controls
+- [00:48] your entire browser. Over on the left
+- [00:50] hand side is my email inbox. So, I pray
+- [00:53] to God nothing embarrassing is going to
+- [00:54] show during this video. What I'm going
+- [00:56] to do is give Claude for Chrome some
+- [00:58] commands to do in my email inbox that
+- [01:01] will save me tons of time that I think a
+- [01:03] lot of people do when they'll get their
+- [01:04] hands on this technology. Basically, the
+- [01:06] way this works is Claude has control of
+- [01:08] your browser and can do anything it
+- [01:09] wants in there. It can type, it can
+- [01:11] click on things, it can send emails.
+- [01:13] Anything you can do in your browser,
+- [01:14] Claude can do as well. So, let's start
+- [01:16] giving it commands that it'll perform in
+- [01:18] my browser for me. So, if you're
+- [01:20] anything like me, you subscribe to every
+- [01:21] single AI newsletter you see. So, I have
+- [01:24] thousands of newsletters that come to me
+- [01:25] on a daily basis. So, what I'm going to
+- [01:27] do is I'm going to have Claude for
+- [01:28] Chrome go through my email inbox, find
+- [01:31] me all the newsletters, read through all
+- [01:33] the newsletters, summarize them, and
+- [01:35] then email me that summary. So, instead
+- [01:37] of me having to go and read a thousand
+- [01:39] newsletters every single morning,
+- [01:40] instead, I'm going to read one summary
+- [01:42] email that Claude will be sending me
+- [01:44] that has a rundown of all of those
+- [01:46] newsletters. So, it saves me a ton of
+- [01:48] time so I don't have to read a thousand
+- [01:49] different newsletters. So, here's the
+- [01:51] prompt. Search my inbox for any
+- [01:52] newsletters. then email me a summary of
+- [01:54] those newsletters with a title and
+- [01:56] description of the newsletters. And I'm
+- [01:58] going to hit enter. And what you're
+- [01:59] going to see here is Claude is going to
+- [02:01] take control of my computer. So it says,
+- [02:03] "I'll help you search your inbox for
+- [02:04] newsletters and email a summary to you.
+- [02:06] Let me take a screenshot to see the
+- [02:08] current state of your browser. Then
+- [02:09] navigate to email inbox." Okay, so it's
+- [02:12] screenshotted my browser to see what it
+- [02:14] looks like. It's now searching through
+- [02:16] my inbox for newsletter or mailing list.
+- [02:19] It hit enter. It now has a rundown of
+- [02:23] all the newsletters in my inbox. Uh, so
+- [02:25] it clicked and you can see all the
+- [02:27] commands it's doing over here on the
+- [02:28] right hand side. Right? So it clicked,
+- [02:30] it typed newsletter or unsubscribe or
+- [02:32] something else. It hit return. It's
+- [02:34] waiting three seconds. It's taking a
+- [02:36] screenshot now so that it can see
+- [02:37] everything in my inbox. Right? That's
+- [02:39] how it sees. It takes screenshots. So
+- [02:40] everything's done through screenshots.
+- [02:42] Perfect. I can see the search results.
+- [02:44] So it sees it sees various newsletters.
+- [02:46] It can see the rundown. Open AAI,
+- [02:47] Substack, uh, Tech Brew, A16Z, Speedrun,
+- [02:52] Yahoo, Fantasy, Fantasy Football Star
+- [02:54] next week. Promise you I'm going to win.
+- [02:56] Uh, snacks. Okay, so now it's going
+- [02:57] down. It's scrolling down my
+- [02:59] newsletters. And now it's going through
+- [03:00] and reading all of those newsletters.
+- [03:02] Perfect. I now have a comprehensive view
+- [03:04] of the newsletters. Let me scroll down a
+- [03:05] bit to make sure I capture all the
+- [03:07] newsletters before composing the summary
+- [03:08] email. Excellent. Now I have a
+- [03:10] comprehensive list of email newsletters.
+- [03:13] I can see. Okay, so now look at this. It
+- [03:14] opens up the new message, right? So, it
+- [03:17] clicked it opened up the compose email.
+- [03:19] It's taking a screenshot to see where
+- [03:21] the email composer is. All right. Looks
+- [03:23] like it put in the subject line
+- [03:25] newsletter summary from your inbox. It's
+- [03:27] taking a screenshot to make sure it did
+- [03:28] the right thing here. I love that. All
+- [03:30] right. Let me take a screenshot to
+- [03:31] confirm the subject was entered
+- [03:33] correctly. All right. It's verifying its
+- [03:34] work to make sure it wrote the subject
+- [03:36] in there correctly, which I like. All
+- [03:37] right, perfect. I can see the subject
+- [03:39] newsletter summary from your inbox is
+- [03:40] now in the subject fields. Now I need to
+- [03:42] click in the email body area to compose
+- [03:44] the newsletter summary. I can see
+- [03:46] there's space below the subject field
+- [03:47] where I can type in the email content.
+- [03:49] Okay, so clicked and now you can see
+- [03:51] here it moved the cursor into the email
+- [03:54] composer so that I can write the email.
+- [03:56] Now let me take a screenshot to confirm
+- [03:58] I'm in the email body. So it's going
+- [03:59] step by step just like a human being
+- [04:02] would. Right? It's clicking in each
+- [04:03] area. It can see everything on the
+- [04:05] browser and it's confirming through the
+- [04:06] screenshot that it's doing everything
+- [04:08] correctly. Basically, the AI agent's
+- [04:10] eyes are the screenshots of everything
+- [04:12] going on in the computer. All right.
+- [04:14] Now, I'll type the newsletter summary
+- [04:15] based on all the newsletters I found in
+- [04:16] the search. Okay. So, now it's about to
+- [04:18] type in Oh, here it is. Here's a summary
+- [04:20] of the newsletters I found in your
+- [04:21] inbox. So, it's going through Oh, wow.
+- [04:24] It's categorizing it by the uh type of
+- [04:28] the newsletter. Product and development,
+- [04:29] entertainment and lifestyle, business
+- [04:31] and finance, AI and technology. I love
+- [04:34] that. Uh, and now let's see. Great.
+- [04:36] Okay, I can see the cursor is in the
+- [04:37] email body area. Now type the newsletter
+- [04:39] summary. Wow. Okay, these newsletters
+- [04:41] span a various categories including AI
+- [04:43] technology, business, finance, product
+- [04:45] development, and now it's taking a
+- [04:46] screenshot to confirm the email content
+- [04:48] is there. And then it is going to send
+- [04:50] the email. Perfect. I can see the emails
+- [04:52] composed with the email being sent to
+- [04:53] me, the subject, the body, and notice
+- [04:55] there was a little popup advertisement
+- [04:57] Gmail had in there. So, it exited out of
+- [04:59] that. It dismissed that popup. And now I
+- [05:02] think what it should be doing next is
+- [05:03] clicking send so it can send me the
+- [05:05] email. Now, let me click. Oh, boom.
+- [05:07] Clicked send. It just hit send. Let's
+- [05:09] see what happens here. Let's go back to
+- [05:11] my inbox. And there it is. Me summary
+- [05:13] summary for your inbox. And there's the
+- [05:15] email the AI agent sent to me. So, there
+- [05:18] it is. Let's run down what just happened
+- [05:19] here before we go into the next
+- [05:21] incredible use case. Right? It went in,
+- [05:23] it went through my entire inbox, it
+- [05:25] found all the newsletters, it summarized
+- [05:27] them for me in my email, and then sent
+- [05:29] them to me. Right? Imagine if this got
+- [05:31] automated. Right? The next step is
+- [05:33] clearly automation for this. So imagine
+- [05:35] I can give it a task every morning. Do
+- [05:37] this for me. And now I don't need to
+- [05:39] worry about reading all the newsletters
+- [05:40] in my inbox anymore. Every morning,
+- [05:42] Claude, it just goes and summarizes the
+- [05:45] emails for me. That's clearly where this
+- [05:47] technology is going, right? It just
+- [05:49] saved me a ton of time and a ton of
+- [05:51] work. I don't need to read every single
+- [05:52] newsletter. Now I now have a rundown of
+- [05:54] all those newsletters. The next use case
+- [05:56] I'm going to show you with this Claude
+- [05:57] agent is a curation of stories and
+- [06:00] creating content. So, what I usually do
+- [06:02] when I'm creating these YouTube videos
+- [06:04] is I try to find top AI stories and then
+- [06:08] turn those into scripts, but now I can
+- [06:10] automate that with this Clawed agent.
+- [06:12] So, what I'm going to have it do is find
+- [06:14] the top AI news stories, go into Google
+- [06:16] Sheets, create a new spreadsheet, put
+- [06:18] those stories in there, and then come up
+- [06:20] with scripts and titles for each one of
+- [06:22] those stories so that I can go in and
+- [06:24] maybe every day just have a list of
+- [06:26] potential videos I can film. This will
+- [06:28] make it so I don't have to hire writers
+- [06:30] so I don't have to hire researchers. And
+- [06:32] it'll also just save me a ton of time on
+- [06:33] top of that. So, let's get into the
+- [06:35] Claude agent. So, here's what we're
+- [06:36] going to do. I'm gonna say, "Find me a
+- [06:37] list of top AI news stories. Then,
+- [06:39] create a new spreadsheet in Google
+- [06:40] Sheets and put the news stories in the
+- [06:42] spreadsheet in different rows. Then,
+- [06:44] create me a YouTube script and title for
+- [06:46] each news story in different columns."
+- [06:47] Right? And you know, everyone watches
+- [06:49] video is probably not a YouTube creator,
+- [06:50] but for you, this could be things like
+- [06:52] things you do at work, right? You
+- [06:54] probably have to create spreadsheets at
+- [06:55] work. So, you can have this do research
+- [06:57] for you, maybe look through your inbox,
+- [06:59] and then create those spreadsheets for
+- [07:01] you. This can save you a lot of time, no
+- [07:03] matter what industry you're in. So, I'm
+- [07:05] going to hit enter, and I'm going to
+- [07:06] have the Clawed agent get to work. I'll
+- [07:08] help you find the top AI news stories,
+- [07:10] create a Google Sheet spreadsheet with
+- [07:11] them, and add YouTube script content.
+- [07:14] Let me start by searching for recent AI
+- [07:16] news. So, it's in Google. It's going to
+- [07:18] search for AI news inside Google. Again,
+- [07:20] I'm not touching anything. I'm not
+- [07:22] typing anything. It's searching top AI
+- [07:24] news stories 2025. Uh so it has and what
+- [07:27] you can see here on the right hand side
+- [07:29] is everything that how the so what you
+- [07:31] can see here on the right hand side is
+- [07:32] how the clawed agent is thinking again.
+- [07:34] So it searched for AI news. It changed
+- [07:37] the input. It pressed return. It waited.
+- [07:39] It's reading the page. I can see the
+- [07:41] results for the AI news. Let me click on
+- [07:42] the news tab to get the current AI. So
+- [07:45] it knew to go to the news tab to get the
+- [07:47] latest news. I'm in London right now. So
+- [07:49] it's showing all the different stories
+- [07:50] of UK AI news and trends. That's fine.
+- [07:53] For the record, it always seems like the
+- [07:54] biggest news stories come out while I'm
+- [07:56] on the road, while I'm on vacation. So,
+- [07:57] of course, I had to figure out a way to
+- [07:58] film this in a hotel. But anyway,
+- [08:00] doesn't matter. Okay, so now went into
+- [08:01] Google Sheets. It created a new
+- [08:03] spreadsheet. I can see that there's a
+- [08:04] blank spreadsheet. Let me click on the
+- [08:06] blank spreadsheet template to create a
+- [08:07] new one. Okay, so now it's in there.
+- [08:09] Perfect. I now have a new Google Sheet
+- [08:10] document open. I can see the spreadsheet
+- [08:12] interface in the cell selected. I will
+- [08:14] start with the title in cell A1. Okay,
+- [08:16] so now it's creating the columns for us.
+- [08:18] So the news title, let me click directly
+- [08:20] on the main spreadsheet area to select
+- [08:22] the cell A1. All right, so it's in
+- [08:23] there. It just typed in news title. All
+- [08:25] right, so it's creating those columns
+- [08:26] for us. I imagine'll have the story in
+- [08:29] the next. So hit tab to move down. All
+- [08:30] right, so it put source in B1. It's
+- [08:32] moving over to C1. All right, it just
+- [08:35] put date in C1. Okay, I imagine it's
+- [08:37] going to do the YouTube script and the
+- [08:39] YouTube title in D1 and E1, I would
+- [08:41] guess. It's taking a screenshot after
+- [08:43] every change it makes to make sure it's
+- [08:44] doing it correct, I assume. All right,
+- [08:46] now let me add the next header for
+- [08:48] YouTube title in D1. Okay, so it's
+- [08:50] creating the headers one by one, which
+- [08:51] is great. And as this goes, all right,
+- [08:53] so now I created the next column, which
+- [08:55] is YouTube script. Okay, now I have all
+- [08:57] my headers set up. Let me start adding
+- [08:59] the AI news stories. I'll begin with the
+- [09:01] first news story in row two. Let me
+- [09:03] click on cell A2. Man, I had to do so
+- [09:07] much monotonous spreadsheet work in my
+- [09:09] job before. This would have saved me so
+- [09:11] much time. This is going to make the
+- [09:13] office life so much easier for a lot of
+- [09:16] people. Imagine this is connected to
+- [09:18] your cloud memories and it knows
+- [09:19] everything about you. So, it can
+- [09:20] customize what it's doing in your
+- [09:22] browser based on what it knows about
+- [09:23] you. There's so much potential here.
+- [09:25] It's crazy. I feel like I'm in day one
+- [09:27] of this like revolutionary change. All
+- [09:28] right, so it put the news title in cell
+- [09:30] A2. It's moving over to the source. I'm
+- [09:33] excited to see what it does for the
+- [09:34] YouTube title and script. So now we're
+- [09:36] not only having it do kind of the hard
+- [09:39] work of finding stories, we also have it
+- [09:40] do creative work, which is coming up
+- [09:42] with the YouTube scripts and titles. So
+- [09:44] I'm excited to see how that turns out.
+- [09:45] So it's putting the source in. It's
+- [09:47] taking screenshots every step of the way
+- [09:48] to ensure it's doing the right work
+- [09:50] here. I like that. Okay, it moved to the
+- [09:52] wrong cell. Now it's taking a
+- [09:54] screenshot. I'm interested to see if
+- [09:55] it's going to recognize it did the wrong
+- [09:57] thing here. Good. The source is now
+- [09:58] saved. Now I'm in Okay, so yep, it fixed
+- [10:00] the cell. It moved over to the right
+- [10:01] cell. Now it's putting in the date. All
+- [10:03] right, so here's where it gets
+- [10:04] interesting. Let's see what it Okay.
+- [10:05] Yep. Came up with the YouTube title AI
+- [10:07] security crisis. 63% of UK predict major
+- [10:10] cyber attacks in 2025. All right. Is
+- [10:12] that exactly an AI story I'm going to
+- [10:14] make a YouTube script out of? Probably
+- [10:16] not, but let's see how it does with the
+- [10:17] actual script itself. All right. It's in
+- [10:19] the script cell. Let's see how it does
+- [10:22] here. All right. Perfect. I'm in cell
+- [10:23] E2. Let me create a YouTube script for
+- [10:25] the story. And boom. There's the script.
+- [10:26] Let me I'm going to hit stop here. Let's
+- [10:28] see what we got so far. Intro. Hey AI
+- [10:30] enthusiasts. Shocking news from the
+- [10:32] cyber security world. 63% of C CISOs
+- [10:35] expect major cyber attacks in 2025 with
+- [10:37] AI both creating new threats and
+- [10:38] offering solutions. All right, so it
+- [10:40] gives me kind of a light script. This is
+- [10:42] the exact script I'm probably going to
+- [10:43] use. No, but it's a starting spot,
+- [10:46] right? And now imagine I just have this
+- [10:47] running 247 looking for AI news stories,
+- [10:50] putting them into spreadsheets for me,
+- [10:52] just having me prepared. You can see how
+- [10:54] this can now start replacing people and
+- [10:56] making it so one-person businesses like
+- [10:58] me can get a lot done instead of having
+- [11:01] to go do hours of research every day,
+- [11:03] hours of writing scripts, hours of
+- [11:05] coming up with titles, I can save that
+- [11:07] with this AI agent. And the same goes
+- [11:08] for you depending on what you're doing.
+- [11:10] Any kind of manual work you do on
+- [11:12] computers now can be taken care of with
+- [11:15] this clawed agent. It is super super
+- [11:17] powerful. Now, is this the first browser
+- [11:19] use agent? No, there isn't. Probably the
+- [11:22] most popular one at the moment is
+- [11:24] Perplexity Comet. But the thing with
+- [11:26] Perplexity Comet is this and it's the
+- [11:28] concern I had at the beginning is it is
+- [11:30] an entirely new browser, right?
+- [11:32] Perplexity basically forked Google
+- [11:34] Chrome and built their entire own
+- [11:37] browser just to house an AI agent. What
+- [11:39] I like about Claude is is they built
+- [11:41] this to be an extension for Chrome. So
+- [11:44] you don't need to use a new browser to
+- [11:46] use this AI agent. I think 99% of people
+- [11:49] have no interest in switching browsers
+- [11:51] and maybe they'll play around Perplexity
+- [11:53] comment for a couple minutes and then
+- [11:55] they'll come back to Chrome and never go
+- [11:56] back. Right, Claude? They're not trying
+- [11:58] to force you into new applications. They
+- [12:01] just build software for the things
+- [12:02] you're currently using. They try to make
+- [12:04] things as convenient as possible.
+- [12:06] Instead of making you use an entirely
+- [12:08] new development environment to use
+- [12:10] clawed code, they just did it so you can
+- [12:11] use it in your terminal and you can open
+- [12:13] up the terminal and cursor so you can
+- [12:15] code where you've always been. Instead
+- [12:16] of having to make you download a new
+- [12:18] browser to use their AI agent, they just
+- [12:21] have it as an extension for the browser
+- [12:22] you're already using. I love this
+- [12:24] mindset from Anthropic to make it as
+- [12:27] easy for you and as natural for you to
+- [12:29] use their AI tools and enhance your
+- [12:31] current workflows already instead of
+- [12:33] forcing you into new workflow. This is
+- [12:35] really powerful and almost every use
+- [12:37] case I've given it so far, it's been
+- [12:38] able to do pretty much flawlessly. The
+- [12:41] one use case it actually failed at was I
+- [12:43] I tried to have it edit my thumbnail
+- [12:46] inside Canva. I won't show it to you
+- [12:48] because it took forever to get to a
+- [12:49] really bad result, but it just could not
+- [12:52] figure out how to like edit the text,
+- [12:54] make the text look good. It didn't have
+- [12:56] much good taste when it came to visual
+- [12:58] design. So, the AI agents aren't there
+- [13:01] yet when it comes to visual design, but
+- [13:03] for more of the monotonous work for
+- [13:05] curating information, for summarizing,
+- [13:07] putting information together, and
+- [13:09] putting together spreadsheets and
+- [13:10] documents and emails, it is really,
+- [13:13] really impressive. It's in exclusive
+- [13:15] early access now. If you want to be a
+- [13:17] part of it, make sure to sign up on
+- [13:19] their website for the wait list. They
+- [13:20] are slowly rolling it out now. I've
+- [13:22] enjoyed it so much and I cannot wait to
+- [13:24] see where it goes from here. I'm going
+- [13:26] to actually run an experiment. And I
+- [13:27] think I'm going to buy a computer
+- [13:29] dedicated to this and just have it run
+- [13:31] 24/7 on the computer doing different
+- [13:33] things in my browser, just doing work
+- [13:35] for me. I'll create a follow-up video on
+- [13:37] that. So, make sure to hit subscribe and
+- [13:38] turn on notifications to get that video
+- [13:40] when it comes out. I really appreciate
+- [13:42] you watching the video. Leave a like if
+- [13:43] you enjoyed it or learn anything at all.
+- [13:45] and I'll see you in the next video.

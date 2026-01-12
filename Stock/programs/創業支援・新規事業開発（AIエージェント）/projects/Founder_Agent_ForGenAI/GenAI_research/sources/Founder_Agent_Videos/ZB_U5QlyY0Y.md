@@ -1,0 +1,297 @@
+---
+title: "Transcript: ZB_U5QlyY0Y"
+video_id: "ZB_U5QlyY0Y"
+video_url: "https://www.youtube.com/watch?v=ZB_U5QlyY0Y"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:10:01"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Product Development"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: ZB_U5QlyY0Y
+
+- URL: https://www.youtube.com/watch?v=ZB_U5QlyY0Y
+- Retrieved at: 2025-12-30T11:23:16+09:00
+
+## Text
+
+- [00:00] Imagine an AI that doesn't just browse
+- [00:02] the web, it controls it. An AI that can
+- [00:05] scrape data, file JRO tickets, fill out
+- [00:08] forms, trigger workflows, and even
+- [00:11] automate complex 30inut research
+- [00:13] projects, all within your own browser or
+- [00:15] straight from the cloud. Well, allow me
+- [00:18] to reintroduce Retriever, the next
+- [00:20] evolution of the AI web agent, [music]
+- [00:23] which has been now rebuilt from the
+- [00:25] ground up with MCP, cloudscaling, and
+- [00:28] multi- aent intelligence. Previously,
+- [00:31] Retriever AI was only known for being a
+- [00:33] powerful local first browser extension,
+- [00:36] one that ran completely inside your own
+- [00:38] Chrome browser. It let you automate
+- [00:41] websites applied to jobs or collect data
+- [00:44] securely [music] and privately all
+- [00:46] without relying on external servers. But
+- [00:49] with this new version 2 update,
+- [00:51] Retriever takes a massive leap forward.
+- [00:54] Now your browser itself becomes a remote
+- [00:56] MCP server, meaning other apps and AI
+- [01:00] agents can directly control your browser
+- [01:02] remotely. For example, if you were to
+- [01:04] tell Retriever to send a connection
+- [01:06] request to Google CTO Jeff Dean, the
+- [01:09] agent instantly understands and it's
+- [01:11] able to open up LinkedIn in the
+- [01:13] background, find a profile, and send the
+- [01:15] request all within the browser using
+- [01:18] credentials securely. This is because
+- [01:20] Retriever runs locally and it can handle
+- [01:23] websites that block cloud bots like
+- [01:25] LinkedIn while still executing multiple
+- [01:27] tasks in parallel across different tabs.
+- [01:30] And the best part is is that you can
+- [01:32] save that task as a shortcut and rerun
+- [01:34] it instantly or scale the exact same
+- [01:37] automation to the cloud with a single
+- [01:39] click. Essentially, with Retriever
+- [01:41] version two, your browser becomes a
+- [01:43] remote MCP server and it's going to let
+- [01:45] other apps and AI agents control it a
+- [01:48] lot better. You can instantly scale any
+- [01:50] automation to thousands of cloud
+- [01:52] browsers and run multi- aent workflows
+- [01:55] for 30 plus minutes using Google Sheets
+- [01:57] as memory or you can even trigger
+- [01:59] automations on the go through WhatsApp.
+- [02:02] This is a new version that is going to
+- [02:05] support a lot of new features with slash
+- [02:07] commands, record and repeat task, and a
+- [02:10] lot more which we're going to be
+- [02:11] uncovering throughout today's video. And
+- [02:13] a huge props to them for sponsoring
+- [02:15] today's video. This is definitely a
+- [02:17] great tool and I highly recommend that
+- [02:19] you go ahead and upload them on product
+- [02:21] hunt as they have just released this new
+- [02:23] version today. But what sets Retriever
+- [02:26] apart from other AI web agents is its
+- [02:29] overall performance on various sorts of
+- [02:31] benchmarks. On the web bench, it scored
+- [02:33] an 81.39
+- [02:35] percentage for its overall success rate.
+- [02:38] It also is super fast with a blazing
+- [02:40] fast 0.9 minute task completion and an
+- [02:44] ultra low 12 cents per task cost. It is
+- [02:48] something that also excels at both
+- [02:50] reading and writing tasks. It
+- [02:52] outperforms competitors like Open AI as
+- [02:55] well as Enthropic. And it's a local
+- [02:58] first architecture which avoids bot
+- [03:00] detection. It reuses authenticated
+- [03:02] sessions. It can even handle captas and
+- [03:05] support multi-tab workflows. While
+- [03:08] DOMbased intelligence is going to ensure
+- [03:10] accurate interactions with complex web
+- [03:12] pages, it's fast, it's reliable, and
+- [03:15] it's costefficient, which is why I
+- [03:17] really wanted to showcase it on the
+- [03:19] channel. Before we get started, I just
+- [03:21] want to mention that you should
+- [03:22] definitely go ahead and subscribe to the
+- [03:24] World of AI newsletter. I'm constantly
+- [03:26] posting different newsletters on a
+- [03:28] weekly basis. So, this is where you can
+- [03:31] easily get up-to-date knowledge about
+- [03:33] what is happening in the AI space. So,
+- [03:35] definitely go ahead and subscribe as
+- [03:37] this is completely for free. But let's
+- [03:39] get started. You have three ways to
+- [03:41] access it. First is through the WhatsApp
+- [03:43] bot that lets you trigger automations
+- [03:45] and fetch data directly from your phone.
+- [03:48] And it's simply as just texting the bot.
+- [03:51] You can also access it through the
+- [03:52] Chrome extension, which is what we
+- [03:54] showcased before as a remote MCP server,
+- [03:57] which is going to let your AI agent
+- [04:00] control your browser remotely. You also
+- [04:02] have the cloud and API platform, which
+- [04:04] we'll showcase. But to install it, you
+- [04:07] can easily click on this button, which
+- [04:08] will take you to the Chrome store, and
+- [04:10] you can add this to Chrome as a single
+- [04:13] click, and it will add the extension.
+- [04:15] Once installed, you can then click on
+- [04:17] the retriever extension. And this is
+- [04:20] where you can now go ahead and create an
+- [04:22] account or sign up using Google. It is
+- [04:25] completely free to access and you can
+- [04:27] even access a free API via Gemini.
+- [04:30] But here is your AI web agent. You can
+- [04:34] do almost anything from automating tasks
+- [04:36] on the web, extracting data where you
+- [04:38] can even automate data entry. You can
+- [04:41] crawl different sorts of pages, create
+- [04:43] docs, call APIs and MCPS as well as work
+- [04:47] on different sheets. Now, to get
+- [04:49] started, you can simply go ahead and
+- [04:52] automate anything based off the natural
+- [04:54] language prompt that you paste in. And
+- [04:56] what you can also do is you can add
+- [04:58] context based off the page that you want
+- [05:00] to work on. So if you want it so that it
+- [05:03] has context for my world of AI YouTube
+- [05:05] channel page as well as my newsletter,
+- [05:08] you can add that as context so that it
+- [05:10] can simultaneously perform web-based
+- [05:12] task across these two different pages
+- [05:14] asynchronously. On the bottom, you can
+- [05:17] click on teach a trick and this is
+- [05:19] essentially where you can add in a new
+- [05:21] recording to teach the AI web agent to
+- [05:23] perform a task. What you can also do is
+- [05:26] if you click on the MCP URL, this is
+- [05:29] where you can copy a URL from retriever
+- [05:31] so that you can connect your browser as
+- [05:34] a tool to other AI agents or apps so
+- [05:37] that it can control and let them trigger
+- [05:39] real actions on your browser remotely.
+- [05:42] Also, keep in mind you can use this
+- [05:44] completely for free. This is the beauty
+- [05:46] of Retriever because if you wanted to,
+- [05:48] you can have it so that you can add in
+- [05:50] your own API from Gemini and Gemini
+- [05:53] offers a free API tier that you can use
+- [05:56] on a daily basis. There's also different
+- [05:58] tools that you can have your web agent
+- [06:00] use from different MCP servers to user
+- [06:03] tools like Slack messages. You can also
+- [06:06] use system tools that are already
+- [06:08] implemented within Chrome. You can add
+- [06:11] in different sorts of files and you can
+- [06:13] even attach Google Sheets. But now let's
+- [06:15] test this out. I can go ahead and I can
+- [06:17] request it to scrape the contents of my
+- [06:19] YouTube channel page as well as my
+- [06:21] newsletter. And I can scrape the data as
+- [06:24] markdown. We can send in this prompt.
+- [06:25] And you can see that it is going to
+- [06:27] start off by analyzing the request. This
+- [06:29] is where you can add in further guidance
+- [06:32] or corrections if needed. But it's going
+- [06:33] to now work on planning to execute this
+- [06:36] task. And you can see that the agentic
+- [06:39] tabs right now are this uh YouTube
+- [06:42] channel link as well as the newsletter
+- [06:44] link. And quite rapidly it was able to
+- [06:46] do a great job in extracting all the
+- [06:48] contents. You can see all of the YouTube
+- [06:51] links that it was able to extract from
+- [06:53] my YouTube channel and it was able to
+- [06:56] also extract the link the total views as
+- [06:58] well as the upload date. And at that
+- [07:01] bottom it also is showcasing the summary
+- [07:05] it got from the newsletter. Talks about
+- [07:07] all the new posts I have on newsletter
+- [07:10] and it has extracted all the contents
+- [07:12] for it. And you can see that this was
+- [07:14] something that it was able to do quite
+- [07:16] rapidly. You can share this task. You
+- [07:18] can copy the messages and you can even
+- [07:20] create a shortcut for this task to be
+- [07:22] rerun in the future. And like how you
+- [07:25] can access the extension for free, you
+- [07:27] can also access the cloud platform. This
+- [07:30] is essentially where you can automate
+- [07:32] and
+- [07:35] this is essentially where imagine you
+- [07:37] are able to take any automation you
+- [07:39] built locally and instantly scale it to
+- [07:41] thousands of browsers. This is where you
+- [07:44] can simply extract website datas at
+- [07:46] scale. You can process spreadsheets at
+- [07:48] scale and automate any workflow at
+- [07:51] scale. It is something that you can
+- [07:53] simply describe in natural language and
+- [07:54] you can execute it rapidly with the
+- [07:57] flashlight, the flash model or even a
+- [07:59] pro model. You can set a default proxy.
+- [08:03] You can also add in tools like you would
+- [08:05] with extension. This is where I can
+- [08:06] execute a task of extracting contents
+- [08:09] off of angel.co co finding different
+- [08:12] sorts of AI startups founded after 2023
+- [08:15] having it precisely execute this task
+- [08:18] that is very detailed scrolled until all
+- [08:21] the results are loaded and then extract
+- [08:22] each company name description location
+- [08:25] and a couple of other fields and I can
+- [08:28] simply go ahead and request this task to
+- [08:30] be completed but the beauty of this is
+- [08:32] that you can scale it to a thousands of
+- [08:34] browsers in the cloud with a single
+- [08:36] prompt that's exactly what the retriever
+- [08:38] cloud does it can turn your local
+- [08:40] workflow into a production ready
+- [08:42] automation that can run in parallel
+- [08:44] across massive cloud infrastructure and
+- [08:46] it's going to give you supercharged
+- [08:48] scale speed and reliability and you can
+- [08:51] see it was quite rapidly able to extract
+- [08:53] all the contents and now we can open it
+- [08:55] up in a Google sheet. This is where we
+- [08:58] have the parent website you have the
+- [09:01] source website location tagline
+- [09:03] industries and all the different fields
+- [09:05] that we had requested fully scraped.
+- [09:08] This is the beauty of retriever. In the
+- [09:10] same manner, you can do a lot more at
+- [09:13] scale with the cloud version, but you
+- [09:16] have a good hybrid approach of using
+- [09:18] retriever with obviously with the
+- [09:19] extension as well as the cloud if
+- [09:22] needed. But this is the new update of
+- [09:24] retriever that makes AI web automation a
+- [09:27] lot easier. I'll leave all these links
+- [09:29] in the description below so that you can
+- [09:31] get started right away. But with that
+- [09:33] thought, guys, thank you guys so much
+- [09:34] for watching. I hope you enjoyed today's
+- [09:35] video and got some sort of value out of
+- [09:37] it. This is, in my opinion, one of the
+- [09:39] best AI web agents available, and I
+- [09:42] highly recommend that you take a look at
+- [09:43] it with the links in the description
+- [09:44] below. But with that thought, make sure
+- [09:46] you go ahead and join the newsletter,
+- [09:47] join our private Discord, follow me on
+- [09:50] Twitter, and lastly, make sure you guys
+- [09:52] subscribe, turn on notification bell,
+- [09:53] like this video, and please take a look
+- [09:54] at our previous videos because there's a
+- [09:56] lot of content [music] that you will
+- [09:57] truly benefit from. But with that
+- [09:58] thought, guys, have an amazing day,
+- [10:00] spread positivity, and I'll see you guys
+- [10:01] really shortly. He suffers.

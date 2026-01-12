@@ -1,0 +1,384 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=lokbsA5VXOk"
+video_id: "lokbsA5VXOk"
+video_url: "https://www.youtube.com/watch?v=lokbsA5VXOk"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["AI", "machine_learning"]
+topics: ["AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=lokbsA5VXOk
+  - Retrieved at: 2025-12-30T16:08:30+09:00
+  - [00:00] So if we want to have an AI agent that
+key_points:
+  - "- [00:34] what's important to know here is that it"
+  - "- [01:31] node and you go to settings, you should"
+  - "- [02:43] openai and get a API key. This is not"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: lokbsA5VXOk
+
+- URL: https://www.youtube.com/watch?v=lokbsA5VXOk
+- Retrieved at: 2025-12-30T16:08:30+09:00
+
+## Text
+
+- [00:00] So if we want to have an AI agent that
+- [00:01] can search through documents and search
+- [00:03] the web, we would have to give that
+- [00:04] agent access to tools. [music] So
+- [00:06] something like perplexity for web search
+- [00:07] and something like a subbase vector
+- [00:09] store for file search. So that way I can
+- [00:11] ask my AI agent what number is the rule
+- [00:13] about the flag stick and what is the
+- [00:15] Chicago Bears current record. It's going
+- [00:17] to search perplexity for the Bears
+- [00:19] record. It's going to search its vector
+- [00:20] store for the rule about the pin. You
+- [00:23] can see it says that the rule about the
+- [00:24] flag stick is rule 17. And if I go to
+- [00:26] the PDF that it's looking at, we have
+- [00:27] rule 17 about the flag stick. And then
+- [00:29] the Chicago Bears current record in the
+- [00:31] 2025 NFL season is 8 and3. Go Bears. So
+- [00:34] what's important to know here is that it
+- [00:36] used those two tools to pull its
+- [00:37] knowledge because inside the AI agent
+- [00:39] itself, we have no system prompts. All
+- [00:41] we said is that you are a helpful
+- [00:43] assistant. So then how come I'm able to
+- [00:44] come over to this AI agent and ask the
+- [00:46] exact same question about the rule about
+- [00:48] the flag stick and what is the Chicago
+- [00:49] Bears current record? And you can see
+- [00:51] this agent has no tools attached at all.
+- [00:53] And if we look inside real quick, there
+- [00:55] is not even a system prompt either. So,
+- [00:58] how come this agent with no tools is
+- [01:00] able to get us the exact same answer?
+- [01:01] The rule about the flag stick is rule
+- [01:03] 17. And as of today, the Chicago Bears
+- [01:05] record is 8 and three. You can also see
+- [01:07] it got that from Chicago Bears.com. So,
+- [01:09] this is not magic. What we're doing is
+- [01:11] inside the actual OpenAI chat model,
+- [01:13] which is the brain for our AI agent.
+- [01:15] We're enabling web search and we're
+- [01:17] enabling file search. So, that's what
+- [01:19] we're going to be talking about today
+- [01:20] using OpenAI's responses API. Okay.
+- [01:22] Okay, so in a recent update of Naden, I
+- [01:24] think it was 1.118 or later, what they
+- [01:27] did is they updated the chat model node
+- [01:29] for OpenAI. So when you click into your
+- [01:31] node and you go to settings, you should
+- [01:33] see version 1.3, which is the latest.
+- [01:35] Otherwise, you will not have access to
+- [01:37] the responses API. Now, unfortunately,
+- [01:39] right now, you do have to do it through
+- [01:40] the OpenAI chat model. And if you guys
+- [01:42] have been watching my channel for a
+- [01:44] while, you know that I like to use Open
+- [01:45] Router. But unfortunately, even if
+- [01:47] you're using OpenAI models, we don't yet
+- [01:49] have access to responses API through
+- [01:51] Open Router yet. But anyways, now that
+- [01:53] we're able to use the responses API
+- [01:55] natively in here, what that does is it
+- [01:57] allows our agents to have a few more
+- [01:59] capabilities. So really the big one is
+- [02:01] being able to have the built-in tools.
+- [02:02] So the OpenAI responses API provides a
+- [02:05] range of built-in tools to enrich the
+- [02:06] model's response. And the ones that
+- [02:08] we're covering today are web search and
+- [02:10] file search. So web search allows the
+- [02:12] model to actually search the web for the
+- [02:14] latest information before it creates a
+- [02:15] response. And the file search allows you
+- [02:17] to drop in a file into OpenAI. OpenAI
+- [02:20] will handle the embedding and the
+- [02:21] indexing and the storage once you drop
+- [02:23] it in there. And then you can hook that
+- [02:24] up to your AI agents. We also have the
+- [02:26] ability for code interpretation and MCP
+- [02:28] servers, but right now I'm just going to
+- [02:30] be talking about these top two in
+- [02:32] today's video. So let's just first start
+- [02:34] off with a web search example. So what
+- [02:35] you're going to do is you're going to
+- [02:36] create an AI agent and you're going to
+- [02:38] hook up an open AI chat model. And then
+- [02:40] when you click into the chat model, the
+- [02:41] first thing you have to do if you don't
+- [02:42] already have a credential is go to
+- [02:43] openai and get a API key. This is not
+- [02:46] your typical chat gvt environment. This
+- [02:48] is platform.openai.com.
+- [02:50] And this is what it should look like.
+- [02:51] And then you'll go here and grab an API
+- [02:53] key, put in your billing information,
+- [02:55] and once you get that key, it will be as
+- [02:56] simple as just pasting it right in here
+- [02:59] in the API key section. So once you're
+- [03:01] connected, what you have to do is just
+- [03:02] enable this little toggle that says use
+- [03:04] responses API. And this is what gives us
+- [03:07] access to adding in those built-in
+- [03:08] tools, which are web search, file
+- [03:10] search, and code interpreter. And by the
+- [03:12] way, I don't see the MCP thing right
+- [03:13] here. It still may be possible, but you
+- [03:15] might just have to do a little bit more
+- [03:16] kind of like coding in order to set up
+- [03:18] that request to use the MCP servers. So
+- [03:20] not going to cover that today. So for
+- [03:22] the first example, I'm just going to
+- [03:23] enable web search. And we have a few
+- [03:25] options now. So the first thing is to
+- [03:26] set the context size. So right here, you
+- [03:28] can see highle guidance for the amount
+- [03:30] of context window space to use for the
+- [03:32] search. And you can choose between low,
+- [03:33] medium, or high. And then what's pretty
+- [03:35] cool is you can actually select the
+- [03:36] city, the country, or the region to
+- [03:38] search within. And then you can also do
+- [03:40] web search allowed domains. So if you
+- [03:43] only want to search certain domains like
+- [03:45] Google or LinkedIn or Wikipedia, you
+- [03:47] could do that. And I will show an
+- [03:48] example of this in a sec. So now just to
+- [03:50] prove that this works, let me go ahead
+- [03:52] and turn off the responses API. And
+- [03:54] let's chat with this agent real quick.
+- [03:56] So with no web search functionality in
+- [03:57] this agent, if I ask who won the World
+- [03:59] Series this year, it's going to come
+- [04:01] back with something like, I don't have
+- [04:02] information on the events that occurred
+- [04:03] after June 2024. So then all we'd have
+- [04:06] to do is come into the node, enable
+- [04:08] responses API, enable web search, and
+- [04:11] then now that we have that turned on, we
+- [04:13] could just run this again. And now when
+- [04:14] it hits its Open AI brain, it's actually
+- [04:17] searching the web in order to figure out
+- [04:18] who won the World Series this year. So
+- [04:20] that just came back. The LA Dodgers won
+- [04:22] the 2025 World Series, defeating the
+- [04:24] Blue Jays in a thrilling seven game
+- [04:25] series. And it also is pulling the
+- [04:27] actual websites that it got this
+- [04:28] information from. It even included a
+- [04:30] visual recap of the final moments of
+- [04:32] game 7 at the end. So nice. Now, real
+- [04:34] quick, let me just show off the actual
+- [04:36] domain thing. So, if I come in here and
+- [04:38] I choose that I only want to search
+- [04:39] within a domain, which is up atai.com,
+- [04:42] which is my really old AI agency website
+- [04:45] that has no information about the 2025
+- [04:48] World Series in there at all. and I go
+- [04:50] ahead and rerun this question, we're
+- [04:52] going to see that it's basically not
+- [04:53] able to find this because, okay, I
+- [04:55] forgot about this, but I'm glad it
+- [04:56] happened. You can't use that filter if
+- [04:58] you're using GPT 4.1 or probably some of
+- [05:00] those older models. So, what I'm going
+- [05:02] to do real quick is I'm just going to go
+- [05:03] ahead and grab a GPT 5 mini instead. And
+- [05:06] we should be able to see some success
+- [05:08] here. So, I'll grab 5 Mini and we will
+- [05:10] just go ahead and run this again. And
+- [05:11] like I was saying before, I got really
+- [05:13] interrupted. There's no information
+- [05:14] about the World Series on that website
+- [05:16] right there. So, it's not going to be
+- [05:18] able to answer it. And it's going to
+- [05:19] say, "Hey, I'm limited to only this
+- [05:20] domain. I can't find that." There you
+- [05:23] go. I can't find the answer on the
+- [05:24] domain that I'm restricted to, which is
+- [05:26] upai.com. All right. Now, for file
+- [05:28] search, which is also really, really
+- [05:30] cool. What we're doing in this node is
+- [05:31] once again, we are using the responses
+- [05:33] API. We're going to turn off the web
+- [05:35] search and we're using file search this
+- [05:37] time, but you certainly can use both at
+- [05:38] the same time as you saw earlier in that
+- [05:40] demo. So, you can see here what we need
+- [05:42] is a vector store ID and a filter. Now,
+- [05:45] I'll explain the filter thing in a sec
+- [05:47] because this looks pretty weird. But
+- [05:48] first, let's just talk about how do you
+- [05:50] actually get a vector store ID. So,
+- [05:51] you're going to go once again to the
+- [05:53] same place where you got your API key,
+- [05:54] platform.openai.com.
+- [05:56] And on the lefth hand side, you can see
+- [05:57] storage. And this will let you upload
+- [05:59] files, but it will also let you create
+- [06:01] vector stores. So, you're going to go
+- [06:03] ahead and create a vector store, give it
+- [06:04] a name, and drop in some files. So, here
+- [06:06] you can see once again, I've dropped in
+- [06:08] the rules of golf PDF. And what this
+- [06:09] does is it gives you a vector store ID,
+- [06:11] which is right here. So you'd copy this
+- [06:13] value and you would put it right here as
+- [06:15] an array. So if there's just one, you
+- [06:17] put two double quotes on each side. But
+- [06:19] if you had multiple vector stores that
+- [06:20] you wanted to be able to query through,
+- [06:22] you would just put a comma and then do
+- [06:23] the exact same thing. Now, if you just
+- [06:25] try to do this without filters, it's
+- [06:27] going to error. At least it was erroring
+- [06:28] for me. So I was able to figure out
+- [06:30] based on the documentation over here of
+- [06:32] how to use these tools for the responses
+- [06:34] API with web search and file search that
+- [06:37] I needed to add this filter that looks
+- [06:38] like this. And I'll be honest, it wasn't
+- [06:40] super intuitive. So, good thing I've got
+- [06:42] this right here for you guys. Go ahead
+- [06:43] and take a screenshot of it and then you
+- [06:44] can paste that into your OpenAI chat
+- [06:47] model node. And then the other option
+- [06:49] that we can add in here is about max
+- [06:50] results. So, we could just set a number
+- [06:51] here if we wanted to. So, before we test
+- [06:53] that out again, I just wanted to call
+- [06:55] out the whole pricing thing. So, if you
+- [06:56] haven't yet watched my video about
+- [06:58] Gemini file search, I will go ahead and
+- [06:59] tag that right up here. definitely give
+- [07:01] it a watch because it's basically the
+- [07:02] exact same thing that we're doing here
+- [07:04] with OpenAI's vector store file search
+- [07:06] except for Gemini's was so much cheaper
+- [07:09] because you can see here that OpenAI is
+- [07:10] going to charge you 10 cents per
+- [07:12] gigabyte per day. So if you have a
+- [07:13] vector store sitting here with data and
+- [07:15] you're not even using it, you're still
+- [07:16] going to get build and Gemini only
+- [07:18] charges you for uploading files which is
+- [07:20] why everyone was like, "Wo, this is
+- [07:22] awesome." So I just wanted to call that
+- [07:23] out real quick. But as far as actually
+- [07:25] what's going on on the back end when you
+- [07:26] drop in files to either Gemini or to
+- [07:28] OpenAI and the indexing and like what's
+- [07:30] going on and which one's better at
+- [07:31] retrieval, I haven't explicitly tested
+- [07:33] them out yet. Right now, I'm kind of
+- [07:34] leaning towards Gemini because it comes
+- [07:36] back with a lot more metadata than what
+- [07:37] OpenAI does, which I'll show you guys in
+- [07:39] a sec. But I just wanted to say cuz I
+- [07:41] know I'm going to get comments about
+- [07:42] that. I haven't explicitly tested it
+- [07:44] yet, but maybe a video is coming about
+- [07:45] that. Okay. So, I'm going to ask it to
+- [07:47] explain what should happen if a ball at
+- [07:50] rest moves in golf. And what it's doing,
+- [07:52] of course, is it's using its brain to
+- [07:54] think about what it needs to do. There
+- [07:55] are no tools to call. So, it's going to
+- [07:57] search through the files. And you can
+- [07:59] see the answer we get is if a ball at
+- [08:00] rest moves, what happens? Depends on
+- [08:02] what caused the ball to move. If X, this
+- [08:04] happens. If Y, this happens. If Z. If
+- [08:07] [snorts] A, if B. As you can see, this
+- [08:09] is pulling from our document. Now, by
+- [08:12] default, right now with no system
+- [08:13] prompt, it's not actually exactly citing
+- [08:15] where it got this information from. And
+- [08:17] if we click into the actual chat model
+- [08:19] node, we can see this is the actual
+- [08:21] answer that it gave us. But what we
+- [08:23] don't see is an exact source or an exact
+- [08:25] section that it pulled it from. And
+- [08:26] that's what Gemini does give back, which
+- [08:28] is super helpful. Now, you could get
+- [08:30] this to be a little bit more specific
+- [08:31] with that sort of stuff by prompting our
+- [08:33] agent. But once again, there's nothing
+- [08:35] in here as far as the system message.
+- [08:37] Now, the last thing I wanted to hit on
+- [08:38] real quick was the other options that we
+- [08:40] actually get in addition to the built-in
+- [08:42] tools. So, with the responses API, we
+- [08:44] get these built-in tools as you guys
+- [08:45] saw, but we also have more options to
+- [08:48] choose from in here. So, in the options,
+- [08:50] if we scroll all the way down, if
+- [08:51] responses API is enabled, we have some
+- [08:53] extra things like conversation ID,
+- [08:55] prompt, cache key, all the way down to
+- [08:57] prompt. And just to show you guys, if I
+- [08:59] turned off responses API, we don't have
+- [09:01] those options anymore. I don't want this
+- [09:03] video to go too long, so I'm not going
+- [09:04] to run through an example of every
+- [09:06] single one, but here are what these
+- [09:07] additional options do. And also, if
+- [09:09] you're curious in here, you can pretty
+- [09:11] much get information about all of them a
+- [09:12] little bit more detailed. And you could,
+- [09:14] of course, go to the OpenAI platform for
+- [09:15] the responses API to read more about how
+- [09:17] these all work. But at a high level, the
+- [09:19] prompt lets you have saved prompts in
+- [09:21] your OpenAI dashboard that you can
+- [09:23] reference with some sort of ID to pull
+- [09:24] those into your chat model. You can have
+- [09:26] a service tier, so you can have sort of
+- [09:28] the balance between speed and cost for
+- [09:30] that use case. You can have a safety
+- [09:32] identifier to tag individuals. You can
+- [09:34] have a conversation ID which is really
+- [09:36] cool because then you have sort of your
+- [09:37] memory being held in OpenAI rather than
+- [09:40] having like a simple memory or a
+- [09:42] Postgress memory in Nen. You can have a
+- [09:45] prompt cache key which basically lets
+- [09:47] OpenAI cache some of those prompts and
+- [09:49] responses rather than having to run it
+- [09:51] through and burn more tokens every time.
+- [09:53] You can have metadata so custom key
+- [09:55] value tags. And then you can have top
+- [09:56] log props, which honestly I don't fully
+- [09:58] understand and I'm not sure when I would
+- [10:00] use it. But once again, if you're
+- [10:02] curious, chuck this into Perplexity and
+- [10:03] figure out how that works or check out
+- [10:05] the OpenAI docs. But if you're
+- [10:06] interested in diving deeper with all
+- [10:08] this kind of stuff, then definitely
+- [10:09] check out my plus community. The link
+- [10:10] for that is down in the description.
+- [10:11] We've got a great community of members
+- [10:12] who are building with Enidin every day
+- [10:14] and building businesses with Enidin
+- [10:15] every day. We also run one live call per
+- [10:17] week in the community. So I'd love to
+- [10:18] see you guys in those calls in the
+- [10:20] communities. But that's going to do it
+- [10:22] for today. If you enjoyed or you learned
+- [10:23] something new, please give it a like. It
+- [10:25] definitely helps me out a ton. And as
+- [10:26] always, I appreciate you guys making it
+- [10:27] to the end of the video. I'll see you on
+- [10:29] the next one.

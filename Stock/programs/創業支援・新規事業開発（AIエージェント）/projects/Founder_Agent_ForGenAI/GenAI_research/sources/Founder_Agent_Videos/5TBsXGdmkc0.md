@@ -1,0 +1,1096 @@
+---
+title: "YouTube Video: 5TBsXGdmkc0"
+video_id: "5TBsXGdmkc0"
+video_url: "https://www.youtube.com/watch?v=5TBsXGdmkc0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Hello guys. So we are going to continue the discussion with respect to our langraph crash course. Already I have said that we are going to cover this into multiple parts and specifically I had written...
+key_points:
+  - "be important for everyone to understand"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 5TBsXGdmkc0
+
+- URL: https://www.youtube.com/watch?v=5TBsXGdmkc0
+- Retrieved at: 2025-12-30T09:38:33+09:00
+
+## Text
+
+- [00:00] Hello guys. So we are going to continue
+- [00:02] the discussion with respect to our
+- [00:04] langraph crash course. Already I have
+- [00:05] said that we are going to cover this
+- [00:07] into multiple parts and specifically I
+- [00:09] had written about part one, part two and
+- [00:11] part three. In the part one uh we
+- [00:13] discussed about the entire langraph
+- [00:16] fundamentals where when we understood
+- [00:18] how to build a basic chatbot tools,
+- [00:20] multiple tools, adding memory, add human
+- [00:23] in the loop, streaming techniques and we
+- [00:24] also discussed about MCP. So all these
+- [00:26] specific topics have been completed. Now
+- [00:29] we are moving into the part two and this
+- [00:33] part two I am basically categorizing in
+- [00:35] the advanced lag graph section and
+- [00:38] before I start making you understand
+- [00:40] about workflows and agents multi- aents
+- [00:43] and functional API I really want to take
+- [00:46] this specific topic that is nothing but
+- [00:47] debug and monitoring because this is one
+- [00:50] of the more core fundamental topics that
+- [00:52] you should really understand and with
+- [00:55] the help of this trust me uh if you
+- [00:58] specifically
+- [00:59] add related to debugging and monitoring
+- [01:02] in your resume that will definitely
+- [01:04] impress the interviewer. So when I talk
+- [01:06] about debug and monitoring whenever you
+- [01:09] develop a generative AI application or
+- [01:12] an agentic application right or an
+- [01:15] agentic AI application
+- [01:18] this debugging and monitoring is must
+- [01:22] okay debugging and monitoring is must
+- [01:26] and as I said that if you know the
+- [01:28] langin ecosystem specifically since
+- [01:30] we're discussing about lang and langraph
+- [01:32] we are going to use lang
+- [01:35] for the debug and monitoring and along
+- [01:38] with this we will also show how you can
+- [01:40] use Langraph Studio right to execute any
+- [01:44] kind of flows and these two topics will
+- [01:47] be important for everyone to understand
+- [01:49] and how you can specifically work with
+- [01:51] Langsmith and Langraph Studio both of
+- [01:54] this will be in the Langchin cloud
+- [01:56] itself okay in the Langchin cloud so
+- [01:59] here it will give you an idea like how
+- [02:01] to use this specific cloud platform and
+- [02:03] how you can debug and monitoring the
+- [02:05] entire graph and workflow with respect
+- [02:07] to which LLMA model you are specifically
+- [02:09] using how it is how it is probably
+- [02:12] taking the input providing you the
+- [02:13] response and when we talk about langraph
+- [02:15] studio right the entire graph execution
+- [02:17] the pattern of the graph execution you
+- [02:19] can easily see it okay so this is the
+- [02:22] agenda uh I really want to talk about
+- [02:24] debug and monitoring and obviously in my
+- [02:26] next part I will also talk about LLM
+- [02:28] evaluation metrics and then one part
+- [02:30] will be only discussing about this
+- [02:32] workflow and multi- aents so right now
+- [02:34] We're going to focus on this specific
+- [02:36] thing. Okay, debug and monitoring how
+- [02:38] you can basically do it in langraph. So
+- [02:41] let's go ahead. So as I said, I will
+- [02:43] just go ahead and minimize this. This
+- [02:44] was my code if you remember right in the
+- [02:47] last class, we already have created this
+- [02:50] for first of all what I will do, I will
+- [02:52] just go ahead and write langsmith. Okay,
+- [02:55] so as you know we are going to use this
+- [02:57] lang platform for the debug and
+- [02:58] monitoring. Why I'm using this? Because
+- [03:01] see if you have if you know about the uh
+- [03:05] you know if you just go ahead and talk
+- [03:06] about lang chain right so let's say we
+- [03:09] are going over a lang chain in the lang
+- [03:11] chain in the first page you can see the
+- [03:12] entire ecosystem and in this particular
+- [03:15] ecosystem you'll be able to see you know
+- [03:17] about lang chain you know about langraph
+- [03:18] because completely we spoke about lang
+- [03:20] graph in our previous class we also
+- [03:22] spoke about different different
+- [03:23] integrations from mcp to normal tools
+- [03:25] integration everything we spoke about
+- [03:28] and this is what lang is all about here
+- [03:30] you and do the debug. Here you can
+- [03:32] probably use the playground, prompt
+- [03:34] management, annotation, testing and
+- [03:36] monitoring. So we are going to focus on
+- [03:37] all this specific task. Okay. And step
+- [03:39] by step we will try to see it. Now first
+- [03:42] of all uh if I really want to use the
+- [03:44] lang you need to have the langsmith API
+- [03:47] key. So what I will do I will just go
+- [03:49] ahead and write langsmith API key. Okay.
+- [03:51] And we will just go ahead and create a
+- [03:53] lang API key. So I will just go over
+- [03:56] here and we will go ahead and click on
+- [03:58] sign up. Once we click on sign up here
+- [04:00] you can go ahead and continue with
+- [04:02] Google right you'll be seeing why this
+- [04:04] API key will be amazing right and I have
+- [04:07] been using this platform for a longer
+- [04:09] period of time and it's quite amazing to
+- [04:12] see what all things it can basically do
+- [04:14] okay so I will just go over here and
+- [04:16] I'll click on tracing projects okay just
+- [04:18] to give you an idea what all things are
+- [04:19] there uh let's see in the settings do I
+- [04:22] have a different theme so I will make it
+- [04:24] as a dark theme okay so I'll click on
+- [04:26] back now see in the tracing projects
+- [04:28] You'll be able to see that I have
+- [04:30] created so many different kind of
+- [04:32] projects. Let's say here you have this
+- [04:34] course line graph right if you just go
+- [04:36] ahead and see this you know here you'll
+- [04:38] be able to see that what kind of traces
+- [04:40] it is actually able to pick up right so
+- [04:43] this kind of traces like how your entire
+- [04:44] applications will be specifically
+- [04:46] working right now I got an error because
+- [04:48] there was an authentication error why
+- [04:50] this authentication error have actually
+- [04:51] come right this kind of debugging you'll
+- [04:54] be able to do it in a very easy way
+- [04:56] monitoring the entire monitoring part
+- [04:58] will be able to do it in a very easy way
+- [05:00] so here you have monitoring also See,
+- [05:02] you can probably go ahead and create a
+- [05:04] variable dashboard. You can create
+- [05:05] anything. So, let's say if I just go
+- [05:07] ahead and click on this line graph
+- [05:08] projects right here, you'll be able to
+- [05:10] get all the charts based on the days.
+- [05:12] Let's say I think this is from a longer
+- [05:16] period of time. So, let's say if I go
+- [05:17] ahead and just hit on last last 14 days
+- [05:20] and see that whether any kind of uh
+- [05:22] tracks is there, right? There is
+- [05:23] nothing, right? So what I will do I'll
+- [05:25] again go back to my monitoring you know
+- [05:27] and I've used this long back you know
+- [05:29] and right now it is just showing for 7
+- [05:31] days but let's say I will go over here
+- [05:33] and let's see whether I can provide
+- [05:36] probably just provide some kind of
+- [05:38] metadata. So let's say last 30 days at
+- [05:40] least we should be able to see something
+- [05:42] that basically means I've not used
+- [05:44] anything in this last 30 days. Uh let's
+- [05:46] say I will just go ahead and apply some
+- [05:48] filters over here. Right? So let's apply
+- [05:51] some filters. Let's say I will go ahead
+- [05:53] and write first at least from first uh
+- [05:56] start date I will apply invalid end date
+- [05:59] end date is where let's see this is my
+- [06:02] start date time end date we will just go
+- [06:04] ahead and write 2025
+- [06:07] month I will say 03 and this will be
+- [06:11] 31st 31st March right I'll just go ahead
+- [06:13] and apply this let's see whether there
+- [06:15] is anything or not so here you can see
+- [06:17] one of the request was there here you
+- [06:19] can see that I have probably used at
+- [06:21] that point of time when I was just
+- [06:22] trying it out. Right? So this is a very
+- [06:24] good uh dashboard that is probably got
+- [06:27] uh got created for you and along with
+- [06:29] this you can trace each and every
+- [06:31] request that is happening. Right? Just
+- [06:33] to show you uh in my company also I
+- [06:35] specifically use a different dashboard.
+- [06:37] I have a paid account of Langraph cloud
+- [06:40] project so that you know I use it for my
+- [06:42] products that I'm specifically building
+- [06:44] related to AI. But anyhow I will be
+- [06:46] showing you each and everything as we go
+- [06:47] ahead. Now first of all in the lang you
+- [06:50] need to go ahead and create your API key
+- [06:51] in order to start using. So I'll go
+- [06:53] ahead and click on settings. So here you
+- [06:54] can see so many different API keys are
+- [06:56] there. I will go ahead and create the
+- [06:57] API key. I will write okay this is my
+- [07:00] langraph crash course. Okay crash
+- [07:03] course. And I will just go ahead and
+- [07:04] create the API key. Okay. I will use
+- [07:07] this API key. And again let me tell you
+- [07:09] guys this uh it gives you free access of
+- [07:12] 500,000 request in the lang. So you
+- [07:15] don't have to probably just go ahead and
+- [07:17] copy my API key. You can go ahead and
+- [07:18] create your own, right? Because money
+- [07:21] will not it will not charge you
+- [07:23] anything. So here I will go in myv file.
+- [07:27] I will go ahead and uh go ahead and
+- [07:29] create a key over here because I'm going
+- [07:31] to use this key and the key name will be
+- [07:33] nothing but langen
+- [07:35] langchen_i
+- [07:38] key. Right? So this will basically be my
+- [07:40] key name and I will paste it over here.
+- [07:42] Okay? because the reason is very simple
+- [07:44] because I'm going to use this particular
+- [07:47] u I'm going to use this particular uh
+- [07:49] key for tracking my entire application
+- [07:52] in short right and uh you will be seeing
+- [07:54] that how we will be going ahead and
+- [07:56] tracking each and everything with
+- [07:57] respect to the keys that we are using
+- [07:58] over here right so now let's go ahead
+- [08:01] and probably take a specific example and
+- [08:03] then we will try to debug and monitor
+- [08:05] with the help of langsmith okay so here
+- [08:07] I will create my third folder and this
+- [08:09] folder will be all about debugging
+- [08:12] Okay, debugging. I will create this
+- [08:15] particular folder rename to debugging.
+- [08:18] Okay, and then I will go ahead and
+- [08:20] create some files over here. Right. So
+- [08:22] the first file is simply debugging
+- [08:26] ynb.
+- [08:28] Okay, here I will go ahead and select
+- [08:30] the kernel and then I will start working
+- [08:33] on my code. So let's say 1 + 1. Now here
+- [08:37] what we are planning to do is that I
+- [08:38] will create a simple
+- [08:41] uh simple state graph uh with respect to
+- [08:43] a specific task wherein I make a tool
+- [08:46] call and then based on that we will go
+- [08:49] ahead and track it everything in the
+- [08:50] lang. Okay. So first of all what I will
+- [08:53] actually do is that I will import some
+- [08:55] of the libraries that I require. Okay.
+- [08:57] And these libraries are commonly used.
+- [08:59] Okay. Uh even in my previous tutorials I
+- [09:02] have actually spoken about it. Okay. So
+- [09:04] here I will remove this langin open AI
+- [09:07] because I don't require it because at
+- [09:09] the end of the day we are just going to
+- [09:10] go ahead and use our uh normal gro API
+- [09:13] right so here you can see from typing
+- [09:15] let me close this and let me open it
+- [09:18] once again okay so here you go so I will
+- [09:22] just go ahead and execute it so from
+- [09:24] typing import annotated I'm using type
+- [09:26] deck end start state graph add messages
+- [09:29] which is my reducer tool node tool base
+- [09:32] message OS and load_.env.
+- [09:35] Now what we are basically going to do is
+- [09:37] that quickly I'll go ahead and
+- [09:38] initialize my load
+- [09:41] env okayv
+- [09:44] and I will go ahead and execute it. The
+- [09:45] reason is very simple why we are using
+- [09:47] this so that we can load our environment
+- [09:49] variable. Now the next step is that I
+- [09:52] will just go ahead and write os.environ
+- [09:54] environment and here we are going to go
+- [09:56] ahead and use our grock
+- [09:58] API_key
+- [10:01] and here we are basically going to go
+- [10:02] ahead and write OS uh get env
+- [10:08] here we are going to go ahead and write
+- [10:09] grock API key okay so once we do this
+- [10:13] the next key that I'm really interested
+- [10:15] in is my lang API key so I will go ahead
+- [10:18] and write os dot
+- [10:20] environ now see guys here Uh you can
+- [10:24] also see that I'm not getting any
+- [10:25] suggestion. The reason is very simple.
+- [10:26] What I will do? I will just go to this
+- [10:28] particular folder. Okay. And sometime
+- [10:30] you know u uh whenever you keep your
+- [10:34] dashboard open or whenever you keep your
+- [10:36] VS code open for longer period of time
+- [10:38] and then when you create a new folder it
+- [10:40] will not be able to load the packages.
+- [10:41] So what I will do I will just close this
+- [10:44] and I will open it from here again.
+- [10:46] Okay. And now you can see that my entire
+- [10:49] uh libraries will get loaded and at
+- [10:51] least I'll be able to get some kind of
+- [10:53] suggestions. Hope so. Okay. And this is
+- [10:55] the problem that I usually face whenever
+- [10:57] I'm specifically working with this. Now
+- [11:00] here you can see all the libraries has
+- [11:01] got loaded. Okay. So now we are going to
+- [11:04] go ahead and write os.environment. And
+- [11:06] here I'm going to go ahead and write
+- [11:07] langsmith
+- [11:09] API_key.
+- [11:11] And inside this we are going to
+- [11:13] basically write os.get get env and then
+- [11:16] we are just going to go ahead and load
+- [11:18] our
+- [11:20] lang lang chain
+- [11:23] API key okay now this langsmith API key
+- [11:27] will be playing a very important role
+- [11:29] because once we set this in the
+- [11:31] environment right that basically means
+- [11:32] my entire langun application will
+- [11:34] understand where we need to probably go
+- [11:36] ahead and track based on this API key it
+- [11:38] is going to go ahead and use some
+- [11:40] specific project and start tracking
+- [11:42] things okay so this is really important
+- [11:44] for you all to understand. Okay. Other
+- [11:46] than this, uh we also need to go ahead
+- [11:48] and set up two more important things,
+- [11:50] right? From this, right, I will go ahead
+- [11:52] and set up OS. Environment. One variable
+- [11:56] I'll create over here and OS. One more
+- [11:59] variable we'll create over here. Now,
+- [12:00] what are the variable? I will let just
+- [12:02] let you know. Uh and for that, we need
+- [12:05] to just go ahead and set up see the
+- [12:07] documentation. So I here I will go I
+- [12:09] will go ahead and write langsmith
+- [12:11] API key API key env okay so here you can
+- [12:16] see get started with langsmith once you
+- [12:18] probably just go ahead and see for the
+- [12:20] observability right so observability
+- [12:23] evaluation prompt engineering there are
+- [12:25] so many different things that you can
+- [12:26] basically do over here right so uh get
+- [12:29] started by adding tracing to your
+- [12:31] application so if you want to go ahead
+- [12:32] and understand how to go ahead and add
+- [12:34] tracing so you have to go ahead and set
+- [12:36] up this three keys right one is uh lang
+- [12:40] tracing is equal to true then langsmith
+- [12:43] API key which we have already set it up
+- [12:45] so here what I will do I will just go
+- [12:46] ahead and copy this open my project here
+- [12:49] I'll just go ahead and write is equal to
+- [12:51] true okay and remember this true is not
+- [12:54] a boolean variable right this is not a
+- [12:56] boolean variable it is like a string
+- [12:58] variable so here I will just go ahead
+- [13:00] and write something like true sorry I
+- [13:04] will just go ahead and write it as true
+- [13:06] Okay, perfect. Now, one more thing after
+- [13:08] this, what we really need to do is about
+- [13:10] our project. I think there is also one
+- [13:12] more key where we need to set up the
+- [13:14] project. So, let's see this. I will just
+- [13:17] go ahead and see some examples over
+- [13:18] here. Uh, lang spacing is there. Uh, to
+- [13:22] create an API, head to the langid
+- [13:23] setting pre API key. Okay, it has just
+- [13:25] set this three keys. There is also one
+- [13:27] more field which is called as project
+- [13:29] and I will also talk about that. Uh, why
+- [13:32] we use project key also, right? uh that
+- [13:35] we'll just try to understand in some
+- [13:36] time. So right now what I will actually
+- [13:38] do is that I will go back again to my
+- [13:40] code where I was doing the debugging.
+- [13:42] Okay. So I'll remove this and then once
+- [13:44] I set the project what will happen? So
+- [13:46] here uh it is telling me to import the
+- [13:48] OS. So let's quickly go ahead and import
+- [13:52] the OS. Okay. And this OS has got
+- [13:56] imported. Okay. Now what we are
+- [13:58] basically going to do is that quickly I
+- [14:00] will go ahead and create a state graph.
+- [14:02] And this state graph will be a basic
+- [14:04] state graph with tool call. Okay. So
+- [14:06] here I'm going to go ahead and create a
+- [14:08] graph with tool call. And I hope we have
+- [14:11] discussed this uh in our previous
+- [14:13] session also. Okay. So first of all what
+- [14:16] I am actually going to do is that I'm
+- [14:18] going to go ahead and make a tool. Okay.
+- [14:20] So I will go ahead and write from
+- [14:21] langchen
+- [14:23] tools import tool. Okay. Now inside this
+- [14:26] I will go ahead and use this tool
+- [14:28] decorator at the rate tool. Okay. And
+- [14:31] here we are going to go ahead and define
+- [14:33] our function. Here we are going to go
+- [14:36] ahead and write add. A is nothing but
+- [14:39] float. Let's say B is nothing but float.
+- [14:42] Okay. C. And here I will just go ahead
+- [14:46] and
+- [14:47] say add two numbers. Okay. And here we
+- [14:52] are just going to go ahead and return a
+- [14:54] plus b. This is just a simple way
+- [14:56] because I really want I'm focused more
+- [14:58] on explaining you about Langsmith how
+- [15:01] the tracking basically happens. Okay.
+- [15:04] Then I will just go ahead and create my
+- [15:06] tool node. So this is my tool node. This
+- [15:09] will be nothing but I will use this tool
+- [15:11] node and inside this I'm going to add
+- [15:13] this functionality which is called as
+- [15:14] add. Okay, which is called as add. So
+- [15:18] add is just like one tool that we are
+- [15:20] trying to integrate and first of all I'm
+- [15:23] trying to make it as a tool node itself
+- [15:24] along with this the second thing is that
+- [15:27] I should find out a way over here to
+- [15:30] even initialize my LLM model right so in
+- [15:34] order to initialize if you see in my
+- [15:36] previous file I just used this right so
+- [15:39] I will use the same code over here right
+- [15:42] from langchain chat_model import
+- [15:44] initiate model and initiate chat model
+- [15:47] I'm using grock lama 3 8 billion8192
+- [15:50] parameter. So if you just go ahead and
+- [15:51] execute this, this is how my llm is
+- [15:54] right. You can also use chat gro but
+- [15:56] here I'm using this initiate chat model
+- [15:58] for the better purpose. Okay now this is
+- [16:01] done right. Uh in my next step what I'm
+- [16:03] actually going to do is that I will just
+- [16:05] quickly go ahead and bind my llm model
+- [16:08] with this tool. So here I will go ahead
+- [16:09] and write llm dotbind
+- [16:13] tools and here I'm going to go ahead and
+- [16:16] add this tool. Okay. And this will be
+- [16:19] nothing but my llmc with tools. Okay. So
+- [16:24] this is done. Okay. Now uh I will create
+- [16:27] a function. This will be my node
+- [16:29] function saying that hey let's call the
+- [16:32] llm model. So llm model. And here I'm
+- [16:36] going to go ahead and give an input of
+- [16:38] state. This will be of state type which
+- [16:40] I have not defined. So I will first of
+- [16:42] all go ahead and create my state graph.
+- [16:45] So here let's go ahead and create the
+- [16:47] state graph. So class class state okay
+- [16:52] um class state and this will be
+- [16:54] returning something called as type
+- [16:56] because I need to return all the values
+- [16:57] in the form of key value pairs. So here
+- [16:59] I'm going to go ahead and create my
+- [17:00] messages and here we are going to use
+- [17:02] the annotated okay and then we will go
+- [17:05] ahead and write list
+- [17:08] and this is my base message. Okay. Um,
+- [17:12] base messages. The reason why I'm adding
+- [17:14] this because I need to keep a list of
+- [17:17] all the messages that I'm trying to
+- [17:18] append it over here. Right. And this add
+- [17:21] messages is my reducer. So what will
+- [17:23] happen at every conversation when we are
+- [17:25] passing from one node to the other node.
+- [17:27] All the information will start getting
+- [17:29] saved over here and it'll be available
+- [17:31] in this particular variable called as
+- [17:32] messages which will be available in the
+- [17:34] entire state graph. So here we're going
+- [17:36] to create the state. Type dict is not
+- [17:38] defined. The reason is very simple
+- [17:39] because we did not import typed dictect.
+- [17:41] Let's see. So, typed dict is installed.
+- [17:44] Okay. Type dict. Okay. Let's see. Are we
+- [17:48] returning this? Okay. It should be
+- [17:50] messages colon. Let me see this quickly.
+- [17:54] Messages colon annotated list of add
+- [17:56] message type dict is not defined. Now it
+- [17:59] is defined. I think I had to execute
+- [18:00] that once again. Okay. So now you have
+- [18:03] the state colon state. Okay. Since we
+- [18:06] have to pass state as my parameter and
+- [18:08] here we are going to just return the
+- [18:12] messages
+- [18:14] messages
+- [18:16] colon
+- [18:18] because we have to return this entirely
+- [18:20] in the form of dictionary here I'm going
+- [18:22] to basically go ahead and write lm with
+- [18:25] tools dot
+- [18:28] invoke
+- [18:30] and here we going to go ahead and give
+- [18:32] my state of
+- [18:35] messages. Okay. So done. So here we are
+- [18:38] specifically using this particular model
+- [18:41] u and also using our uh tool specific uh
+- [18:44] model so that we'll be able to invoke it
+- [18:46] and get the response and again save it
+- [18:48] back to the messages. So guys now here
+- [18:50] you can see that I have added one tool
+- [18:52] okay and I have binded with my LLM and
+- [18:54] I've also created one node definition
+- [18:56] okay the reason of creating this is that
+- [18:59] because we are going to create this
+- [19:00] graph okay and here you can see lm with
+- [19:03] tool is there so let me just make sure
+- [19:04] to remove this s so that our naming
+- [19:07] convention is almost right okay so here
+- [19:10] you can see uh I have imported three
+- [19:12] different libraries okay start state
+- [19:15] graph start and end and there is a tool
+- [19:17] node and there is a tool condition Okay.
+- [19:19] Uh, instead of this tool calling LLM, I
+- [19:22] have basically written call LLM model.
+- [19:24] Right. So here what I will do, I will
+- [19:25] just go ahead and copy and paste this.
+- [19:27] Okay. So I will copy and paste it over
+- [19:29] here. Okay. Quickly. And this same
+- [19:33] function we will try to use it over
+- [19:35] here. Okay. You know my tool nodes uh is
+- [19:39] basically nothing but like this, right?
+- [19:41] It is giving in a list of uh list of
+- [19:43] tool function. So here what I can do is
+- [19:45] that I can also go ahead and define my
+- [19:47] tool and I can write add over here.
+- [19:49] Okay. So this is done and here you can
+- [19:53] see that uh this is tools. So let me
+- [19:55] just make the spelling to tools. The
+- [19:57] same problem statement what we did in
+- [19:58] the next last class. Here what we are
+- [20:01] doing is that we are calling this LLM
+- [20:03] model first of all as one of my node. So
+- [20:06] tool calling LLM is one of my node. Then
+- [20:08] I have a tool nodes. Okay. Then from
+- [20:10] start to tool calling I have then we are
+- [20:12] adding a conditional edges saying that
+- [20:14] hey tool calling LLM to tool condition
+- [20:17] and here from tools to end right. So if
+- [20:18] you probably go ahead and see the image
+- [20:20] it is it looks something like this right
+- [20:22] and if you remember in my previous
+- [20:24] session already we have covered this. So
+- [20:26] from start there is a tool calling LLM.
+- [20:28] This tool have one functionality that is
+- [20:30] called as add and we are ending it over
+- [20:32] here with respect to the functionality
+- [20:34] and if you see right somewhere here in
+- [20:36] the chatbot only we discussed it right.
+- [20:38] So here you can see this right now in
+- [20:40] order to invoke it I will just go ahead
+- [20:42] and write response and I will go back in
+- [20:45] my debugging. YNB and I will invoke it.
+- [20:49] Now see I'll just go ahead and ask what
+- [20:51] is the recent AI news. Okay, what is the
+- [20:53] recent AI news? Now let me just open my
+- [20:57] langsmith page. So quickly this is my
+- [20:59] lang. I will go back. Okay, so by
+- [21:02] default in the tracing project I don't
+- [21:04] have anything. Okay, I don't have
+- [21:05] anything right. So I will just go ahead
+- [21:08] and execute this now. So now once I
+- [21:11] execute this now this is what we are
+- [21:13] executing graph.invoke messages what is
+- [21:15] the recent AI news. Okay or I'll just go
+- [21:17] ahead and search for what is machine
+- [21:20] learning. Okay now when I'm searching
+- [21:23] this see what will happen it'll go to
+- [21:25] this tool calling LLM. This tool calling
+- [21:27] LLM will first of all see whether it is
+- [21:29] a tool call or not. Right now it is not
+- [21:31] a tool call. Right? It'll try to give
+- [21:32] the answer. It'll give you the response.
+- [21:34] Right? So once I execute this now see
+- [21:36] the magic what will happen in the lang
+- [21:38] okay so right now this has got executed
+- [21:41] uh if you go ahead and see the response
+- [21:44] you'll be able to see okay fine I'm
+- [21:45] getting a AI message learning is a field
+- [21:48] of sub field and all this information
+- [21:50] now I'll go back to my lang right and
+- [21:53] I'll just go ahead and reload this see
+- [21:55] once I reload it right the amazing thing
+- [21:57] is that there is something called as
+- [21:59] default okay default and here inside
+- [22:03] this particular default here you can see
+- [22:06] that I am able to get one trace okay and
+- [22:10] the trace is like once I click this you
+- [22:13] know you'll be able to see that in this
+- [22:15] trace it shows like how the flow of
+- [22:17] execution has happened I ask the input
+- [22:20] what is machine learning and here the
+- [22:23] human it is considering it as a human
+- [22:25] input and this is my entire AI message
+- [22:27] right it is probably giving it and also
+- [22:30] in order to understand the entire flow
+- [22:32] first of all it went and hit this tool
+- [22:33] tool calling LLM node right you remember
+- [22:36] what is this tool calling LLM node right
+- [22:38] inside this there is a two call that is
+- [22:40] happening one is chat Grock call right
+- [22:43] so inside this chat Grock you know this
+- [22:45] LLM hash tools like add but it is not
+- [22:47] using it right and then here you can see
+- [22:50] with respect to the tool condition also
+- [22:52] right how things are happening how
+- [22:54] everything is visible here you can
+- [22:56] clearly see that right so with respect
+- [22:58] to this you know the tool calling llm is
+- [23:00] one node and in two inside this there is
+- [23:02] a chat rock model right it also has a
+- [23:05] tools called as add right now let me
+- [23:08] show you one more good example over here
+- [23:11] so I will say hey uh what is since it
+- [23:14] has some additional tools okay so I will
+- [23:17] say hey what is 2 + 2 okay what is 2 + 2
+- [23:21] I'll just ask this question now you know
+- [23:24] that this is definitely make a tool call
+- [23:27] okay or I'll just go ahead and ask this
+- [23:29] question
+- [23:32] uh Please,
+- [23:34] please do do the operation
+- [23:39] or let's say I'll go ahead and write
+- [23:41] what is
+- [23:43] 5 + 20. Okay, so this is my question.
+- [23:46] Okay, I'll just go ahead and execute
+- [23:48] this. Let's see two responses I will get
+- [23:51] and let's see what kind of response I
+- [23:52] will get. So here you can see what is 2
+- [23:54] + 2. So one is what is 2+2? Tool is
+- [23:56] giving a four output, right? So here now
+- [23:59] I'll click on this. Okay, I'll click on
+- [24:02] this. Now here you'll be able to see
+- [24:05] first of all tool calling llms is there.
+- [24:08] What is 2 plus blue? The AI output says
+- [24:11] a 2 +2 there's all values and here you
+- [24:13] can see in the YAML in the JSON uh you
+- [24:17] know so here you can see the output
+- [24:19] first is calling this particular tool
+- [24:20] called as add right and inside this tool
+- [24:23] condition also you'll be able to see
+- [24:24] that what is 2 plus two first of all add
+- [24:26] tool call it got added then it is going
+- [24:28] to this particular tool itself the
+- [24:30] output of the first node is tool right
+- [24:33] then when we went inside the tools over
+- [24:35] here now here you can see more
+- [24:37] information the add functionality is
+- [24:39] basically giving you the output as four
+- [24:41] and internally on this particular tool
+- [24:43] there was this operation that got
+- [24:45] executed where the input is this and
+- [24:47] your output is this right and finally
+- [24:50] here you can see that with respect to
+- [24:51] the entire flow your output is basically
+- [24:54] coming as four itself okay so if I just
+- [24:57] go ahead and show you this right and uh
+- [24:59] let's say if I just go ahead and write
+- [25:01] this what is 5 + 5 5 + 20 okay this has
+- [25:06] got executed let's say I will go ahead
+- [25:07] and write respon response of
+- [25:10] let's see the response here you can see
+- [25:13] 25 tool message content is basically
+- [25:15] coming as right so it is executing this
+- [25:17] entire thing and it is giving you the
+- [25:19] response right so this is the most
+- [25:21] amazing thing right let me give you more
+- [25:24] good and proper answers so here what I
+- [25:27] will do from tools I'll not go to the
+- [25:29] end instead I'll send it to the tool
+- [25:30] calling LLM so in order to send it to
+- [25:33] the tool calling LLM I will just go
+- [25:35] ahead and give this right now I'm not
+- [25:37] able to see the output properly
+- [25:38] because at the end of the day I'm just
+- [25:40] getting uh a default message right now
+- [25:44] if I go ahead and ask what is 5 + 20
+- [25:46] let's ask this and let's see the
+- [25:49] response now now the response will be an
+- [25:52] AI message okay before it was coming as
+- [25:54] a tools message because after the tool
+- [25:56] it was going to the end right but now
+- [25:59] from the tool it is again going back to
+- [26:00] the uh the LLM itself now if I just go
+- [26:04] ahead and reload it and if I just close
+- [26:06] this the first important transaction
+- [26:10] like uh the first thing like just
+- [26:12] recently when I asked what is 5 plus 20
+- [26:15] that thing you'll be able to see it now
+- [26:17] see how line by line it has done so if I
+- [26:19] just go ahead and click this here you'll
+- [26:21] be able to understand the entire flow
+- [26:22] first message that you got what is 5 + 2
+- [26:25] output what is human is human input is
+- [26:27] what is 5+2 AI is considering this as a
+- [26:30] parameter it is calling the tool called
+- [26:32] as add then from this it is calling a
+- [26:35] tool name called as add the tool output
+- [26:37] is basically 25 and then finally the AI
+- [26:41] since the tool is giving the output back
+- [26:42] to the LLM the LLM will probably
+- [26:45] summarize and give you the output. So
+- [26:46] step by step what has got executed. This
+- [26:50] is what it is showing right. This is
+- [26:52] what it is basically showing. First it
+- [26:54] went to the tool calling LLM. Then it
+- [26:56] went to the LM model. Then tool
+- [26:57] condition is applied. Then the tool call
+- [26:59] is done. Then the ad call is done.
+- [27:01] Right? Then it again went back to my
+- [27:03] LLM. Then u it saw that it not had any
+- [27:06] more questions. Then it went to the end
+- [27:08] section. And finally you can see the
+- [27:10] output over here. And this is what your
+- [27:11] output end is. Right? So if you are able
+- [27:15] to understand that flow right it is very
+- [27:17] much simple in order to get like how the
+- [27:20] execution is specifically happening
+- [27:22] right and this we just seen with one
+- [27:24] specific example okay now you may be
+- [27:27] thinking kish okay fine with this at
+- [27:29] least we are able to understand like how
+- [27:31] the flow of the calls is actually
+- [27:33] happening how every tool is basically
+- [27:35] getting called and all is there
+- [27:36] something we can probably go ahead and
+- [27:38] see the entire lang graph right lang
+- [27:40] graph studio okay uh with respect to the
+- [27:43] graph workflow, right? Can we do that?
+- [27:46] This was one of the question. Now, here
+- [27:48] you can also see guys, uh, by default we
+- [27:50] are getting this default, right? You can
+- [27:53] also go ahead and set up the project
+- [27:55] name. Now, this will be one assignment
+- [27:58] to you. How to set up the project name.
+- [28:00] Okay. So, if I go ahead and search for
+- [28:02] Langsmith
+- [28:04] setup project name.
+- [28:08] Okay. If I just go ahead and see this
+- [28:10] log traces to a specific project. So
+- [28:13] here there will be one more parameter
+- [28:15] which we can specifically go ahead and
+- [28:17] use it somewhere here it will be coming
+- [28:19] up. Okay. Um as mentioned in the tracing
+- [28:23] project lang use a concept of project to
+- [28:25] group. You can set up the lang project
+- [28:30] environment. Right. So here what I will
+- [28:32] do I will go ahead and set it up. Where
+- [28:34] I will set it up I will just go ahead
+- [28:36] and write over here.
+- [28:38] Okay. code and I will say os.environ.
+- [28:42] Okay. And here I can give my project
+- [28:45] name lang project name and that project
+- [28:48] name will be what? Whatever is your test
+- [28:50] project. So I'll go ahead and write test
+- [28:52] project. Now let's see whether this will
+- [28:55] work or not.
+- [28:56] So quickly
+- [28:59] uh let's execute this
+- [29:03] or either you have to restart the
+- [29:04] kernel. It may be something like this.
+- [29:06] But at the end of the day, both will
+- [29:08] work. Okay, so let's see again. I'll go
+- [29:10] back to my Langsmith.
+- [29:12] Reload it.
+- [29:15] If it does not work, you have to restart
+- [29:17] the kernel. Okay,
+- [29:19] so right now it is not working. So you
+- [29:21] have to restart the kernel in order to
+- [29:23] make it work. Okay, so just restart the
+- [29:25] kernel and you'll be able to I'll keep
+- [29:27] this one as the assignment. It is
+- [29:29] definitely going to work. Now the next
+- [29:30] step is that how do you go ahead and run
+- [29:32] this with the help of Langraph Studio?
+- [29:34] because lang graph studio also you need
+- [29:35] to probably know how to probably go
+- [29:38] ahead and run this. Okay. So for
+- [29:40] langraph studio I will be using a
+- [29:42] library. Now the best amazing part is
+- [29:45] that monitoring with langraph studio is
+- [29:47] very very much simple. Okay. So here I'm
+- [29:49] going to use inme. Okay. So I'm going to
+- [29:51] use this specific library and I will
+- [29:54] quickly go ahead and install this. So
+- [29:56] command prompt I will go over here. I
+- [29:58] will say uv add minus r requirement.txt.
+- [30:03] Okay. So once I do this installation,
+- [30:05] this is perfectly done. Okay. Uh once
+- [30:08] this installation is done inside this
+- [30:10] debugging folder, you know, I will go
+- [30:12] ahead and create one specific
+- [30:15] py file. So let's go ahead and see. I'll
+- [30:18] write, hey, this is my agent. py file.
+- [30:20] Okay. Now inside my agent py file, uh
+- [30:23] what we are basically going to do is
+- [30:24] that uh as usual, I'm going to go ahead
+- [30:27] and set up some of the keys and
+- [30:29] configuration, right? So quickly what I
+- [30:32] will do I will go ahead and import all
+- [30:34] this specific stuff. Okay. Uh I don't
+- [30:37] require lang open aai because I require
+- [30:40] the other one. Right. So here I will say
+- [30:43] gro_api
+- [30:45] key. Okay. Here also grock API key.
+- [30:51] Now this will be fun. You will just love
+- [30:54] it. Okay. uh because we are going ahead
+- [30:57] once one more step wherein we play with
+- [31:00] all these things right and we will also
+- [31:02] set up all these environment variables
+- [31:03] that I require okay I will just go ahead
+- [31:06] and paste it over here so agent py I
+- [31:10] will just go ahead and write it over
+- [31:11] here and inside my debugging ipynb I
+- [31:15] will also go ahead and import this lang
+- [31:18] project okay so all this are simple
+- [31:21] environment that we are trying to set it
+- [31:23] up okay now As you know in the debugging
+- [31:26] what all things we executed we first of
+- [31:28] all initialized my llm. So let's go
+- [31:29] ahead and initialize it. So here now my
+- [31:34] py file. I will just go ahead and
+- [31:35] initialize it. Okay we are going to use
+- [31:38] this llama 3 model and then again I will
+- [31:40] go back to my debugging file. Uh I will
+- [31:42] create this particular classes. So let's
+- [31:44] go ahead and create this classes in my
+- [31:47] agent. py. Same state. There should be a
+- [31:50] state. Okay. I will close all this
+- [31:53] specific stuff. Okay, quickly I'll go
+- [31:56] back again to my this one. Okay, and
+- [31:59] then here you will be able to see that I
+- [32:01] have all the specific files that has got
+- [32:03] created.
+- [32:05] I'll copy this. Okay, so that I just go
+- [32:07] ahead and keep on adding all these
+- [32:09] things or I can directly call this as a
+- [32:10] function. So here I will go ahead and
+- [32:12] write. So this will basically be my
+- [32:14] function. I will say definition make
+- [32:18] tool graph. Okay. And inside this I'm
+- [32:23] going to go ahead and define this
+- [32:24] function.
+- [32:26] Okay. So here you can see this is my
+- [32:29] tool. This is my LMIT tool. Same thing.
+- [32:32] Nothing so much different. Everything
+- [32:34] I'm defining it over here itself. And
+- [32:37] then once I go back to my debugging I
+- [32:39] will just go ahead and create all these
+- [32:40] things. Okay. So let me just go ahead
+- [32:44] and define this where I'm going to
+- [32:46] create the builder
+- [32:49] compile each and everything. Okay. So
+- [32:52] I'm going to go ahead and define inside
+- [32:53] this function. Okay.
+- [32:59] And there will be a tab. Let's see the
+- [33:02] tool condition has not got imported.
+- [33:05] Why? Because I've not imported it. Very
+- [33:08] simple. Calling llm models each and
+- [33:10] everything is there. So let's go ahead
+- [33:11] and import this tool condition.
+- [33:15] This three libraries that I require.
+- [33:17] Okay. I will quickly go ahead and do
+- [33:19] that. I'm telling you why I'm
+- [33:21] specifically using this the same code
+- [33:23] inside that I have made a function which
+- [33:25] is called as make tool graph and uh this
+- [33:28] is what we are basically doing we are
+- [33:30] compiling it okay and then I'm going to
+- [33:32] just go ahead and return this particular
+- [33:34] graph okay and at the end of the day in
+- [33:37] order to execute this I'll say agent dot
+- [33:40] make tool graph I'm just calling this
+- [33:41] function okay so this is my agent
+- [33:43] function uh let's say this is my I'll go
+- [33:46] ahead and write tool agent okay now My
+- [33:49] main aim is that you understood how this
+- [33:51] graph looks like. This graph looks
+- [33:53] something like this. And I want to show
+- [33:55] you this in langraph studio. Right? Now,
+- [33:58] how do I probably go ahead and execute
+- [34:00] this in the langraph studio? Now, you
+- [34:02] remember one of the library that we have
+- [34:03] imported in Langraph CLI in memory.
+- [34:06] Okay? With the help of this, we will be
+- [34:08] able to run any graph in the langraph
+- [34:11] studio from our local to the langraph
+- [34:13] cloud in the langraph cloud. So let's
+- [34:15] say if you are running a graph in your
+- [34:17] local you can directly go ahead and
+- [34:19] monitor that in the lang cloud itself
+- [34:21] and that is what is my plan over here.
+- [34:23] So here we what we will do we will
+- [34:25] create one more file which will be my
+- [34:28] langraph
+- [34:30] dot JSON file. Okay now inside this
+- [34:33] langraph.json and remember you have to
+- [34:35] name it in this way right we will go
+- [34:38] ahead and set up some configuration. The
+- [34:40] first configuration is nothing but I'll
+- [34:42] say dependencies. what all dependencies
+- [34:44] we have right so I will go ahead and
+- [34:46] write dependencies okay so first key is
+- [34:49] nothing but dependencies inside this
+- [34:51] dependency you have something like dot
+- [34:54] okay then here you have something like
+- [34:58] graphs okay so the next key that we need
+- [35:02] to set is with respect to the graph
+- [35:04] inside this graph I will go ahead and
+- [35:06] give my tool agent name so I'll say hey
+- [35:09] this is nothing but this is my tool
+- [35:13] tool _ agent. Okay, this is the name of
+- [35:16] the agent. And the second parameter is
+- [35:18] the file name which I have created.
+- [35:22] Right? So inside this, you know that
+- [35:23] I've created debugging inside the
+- [35:25] debugging folder, I've created the
+- [35:26] agent. py file, right? So from this
+- [35:28] current working directory, what is my
+- [35:30] file name? I will write dot / agent.
+- [35:34] py. And this is basically calling inside
+- [35:37] this we are calling this particular
+- [35:40] variable which is called as tool agent.
+- [35:42] So what it is going to do this will
+- [35:43] basically call this particular function
+- [35:45] and this function is going to load each
+- [35:46] and everything as we go ahead. Okay. So
+- [35:49] this is very simple and this is what we
+- [35:50] are basically doing. So here I'm going
+- [35:52] to go ahead and write this. Then in the
+- [35:54] next parameter we are also going to give
+- [35:56] what are dependencies we have. So one
+- [35:58] dependency we have is in my environment
+- [36:00] variable. So in my environment variable
+- [36:03] where is the env file? In the root
+- [36:05] folder. So I'll say hey do double dash
+- [36:08] go to the root folder and there you call
+- [36:10] the env file right? So this is the
+- [36:12] dependencies that we specifically have.
+- [36:14] So guys now finally what we are
+- [36:16] basically going to do is that I will try
+- [36:17] to show you that how you can run this
+- [36:20] after setting up the configuration
+- [36:21] directly into the langraph studio which
+- [36:23] is in the cloud. Okay. So uh now I'll
+- [36:26] show you my face. So let's go ahead and
+- [36:29] uh go to my terminal and first of all
+- [36:31] what you need to do is that see whenever
+- [36:33] you open a command prompt right remember
+- [36:36] I open a command prompt over here right
+- [36:38] now you know that your configuration
+- [36:40] file is given inside this folder that is
+- [36:43] nothing but three debugging so first of
+- [36:45] all I will go inside this particular
+- [36:47] folder three debugging okay and from
+- [36:50] here I will run a command which is
+- [36:52] called as langraph dev okay so let me
+- [36:56] again hide my face so Here we are going
+- [36:57] to call a command called as lang graph
+- [36:59] dev and with the help of this particular
+- [37:01] command and from where this command is
+- [37:02] basically coming up because we have
+- [37:04] installed langraph cli in memory. Okay.
+- [37:07] Now what this command is going to do is
+- [37:08] that it is going to pick up this
+- [37:09] configuration file. It is going to see
+- [37:11] hey where my agent is right on this
+- [37:14] specific file in this particular working
+- [37:15] directory and it is going to call you
+- [37:17] the tool agent variable which is present
+- [37:19] inside over here right. So that is how
+- [37:22] it is basically going to understand and
+- [37:24] then it is going to run this in the
+- [37:25] langraph studio. So once I go ahead and
+- [37:27] execute this here you can see that some
+- [37:29] of the links are there
+- [37:31] and automatically you should have logged
+- [37:34] in into your lang and here you will be
+- [37:36] able to see that my entire graph has got
+- [37:39] opened this is nothing but this is
+- [37:41] langraph studio here you got tool agent
+- [37:44] name which I gave in my configuration
+- [37:46] here are my nodes right here you can
+- [37:49] drop a message and then just execute it
+- [37:52] like just go ahead and type hi and once
+- [37:54] you click on submit the exec execution
+- [37:56] will go ahead you know and uh if you
+- [37:58] remember we can also put interruption
+- [38:00] right we can interrupt it let's say
+- [38:02] before this particular node we want to
+- [38:03] put an interrupt we can go ahead and put
+- [38:05] it after this particular node we can go
+- [38:06] ahead and put up this particular
+- [38:08] interrupt right and then we can continue
+- [38:09] our execution this is the most important
+- [38:11] thing now again the other thing is that
+- [38:13] if I go back over here there are some
+- [38:15] more URLs that you'll be able to see see
+- [38:17] this is my API docs URL so if I just go
+- [38:20] ahead and click this now what is this
+- [38:21] URL all about here you can see all the
+- [38:24] different different APIs The entire
+- [38:26] documentation is basically created. See
+- [38:28] you have /ass assistant / assistant
+- [38:30] search. So by default you'll be able to
+- [38:32] get this kind of information from this
+- [38:34] graphs also. There is also something
+- [38:36] like you can also convert this into MCP
+- [38:38] right. So here with respect to the
+- [38:40] MCP/MCP post MCP you can also convert
+- [38:43] your entire see this is the URL where
+- [38:46] your entire services are running right
+- [38:48] you can specifically go ahead and write
+- [38:49] this particular code and just go ahead
+- [38:51] and test the request based on you right
+- [38:53] you can put the keys you can put all the
+- [38:55] information you'll be able to get the
+- [38:57] response right so this is the entire
+- [38:59] thing here you can also see the code
+- [39:01] snippet you know look at the curl
+- [39:03] command each and everything so I would
+- [39:05] suggest just go ahead and check out more
+- [39:06] about the documentation because as we go
+- [39:09] ahead you know this level of debugging
+- [39:12] and monitoring is super super
+- [39:13] beneficial. Uh the best part is
+- [39:15] debugging with the help of this right
+- [39:17] and not only this see uh if I also go
+- [39:20] back to my tracing project right this
+- [39:21] was my project name test project here
+- [39:23] also you'll be able to see different
+- [39:24] types of tracings that is happening in
+- [39:26] the default you can actually see
+- [39:27] different types of tracing that is
+- [39:29] happening you know everything you'll be
+- [39:31] able to see it right so two types of
+- [39:33] debugging I have actually showed you
+- [39:35] okay one was with respect to lang again
+- [39:38] you want to go back over there just go
+- [39:39] ahead and click on this lang uh
+- [39:41] deployments here in the langraph studio
+- [39:43] you know just give the URL where you are
+- [39:45] specifically running right and I think
+- [39:48] it has got closed now so here you'll be
+- [39:50] able to see that if I just go ahead and
+- [39:51] click this the again the URL will be
+- [39:54] able to come right and here is my entire
+- [39:56] URL that is available over here right so
+- [39:59] I hope you like this particular video
+- [40:00] one assignment I really want to give you
+- [40:02] go ahead and test it over here just go
+- [40:04] ahead and write the messages and see
+- [40:06] what all things will be able to see this
+- [40:08] will be so graphically like how the
+- [40:10] input is going how it is calling the
+- [40:11] tool each and everything gets
+- [40:13] highlighted in an amazing way. So I hope
+- [40:15] you like this particular video wherein
+- [40:17] we spoke about debug and monitoring with
+- [40:20] the help of Langsmith and Langraph
+- [40:21] Studio. Uh this is just like a crash
+- [40:24] course which we are specifically
+- [40:25] learning. So yes, this was it from my
+- [40:28] side. I'll see you in the next video.
+- [40:29] Have a great day. Thank you and all.
+- [40:30] Take care. bye-bye.

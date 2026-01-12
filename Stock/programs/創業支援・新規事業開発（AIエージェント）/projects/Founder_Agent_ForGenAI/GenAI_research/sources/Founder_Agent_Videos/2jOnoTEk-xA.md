@@ -1,0 +1,1242 @@
+---
+title: "YouTube Video: 2jOnoTEk-xA"
+video_id: "2jOnoTEk-xA"
+video_url: "https://www.youtube.com/watch?v=2jOnoTEk-xA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  YC's next batch is now taking applications. Got a startup in you? Apply at y combinator.com/apply. It's never too early and filling out the app will level up your idea. Now, on to the video. >> You ha...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2jOnoTEk-xA
+
+- URL: https://www.youtube.com/watch?v=2jOnoTEk-xA
+- Retrieved at: 2025-12-30T09:25:00+09:00
+
+## Text
+
+- [00:00] YC's next batch is now taking
+- [00:02] applications. Got a startup in you?
+- [00:04] Apply at y combinator.com/apply.
+- [00:07] It's never too early and filling out the
+- [00:10] app will level up your idea. Now, on to
+- [00:12] the video.
+- [00:13] >> You have to innovate. You have to move
+- [00:14] faster than everybody else. And it's
+- [00:16] like running a marathon but at an
+- [00:19] extremely high velocity. Right. The only
+- [00:21] uh mode you have is speed. I read all
+- [00:23] the Twitter comments every time. Google
+- [00:25] IO last year was AI overview and
+- [00:27] perplexity is dead. This year was AI
+- [00:29] mode and perplexity is dead and I read
+- [00:31] all of that too and it's it's always
+- [00:32] fun. I love it actually.
+- [00:37] [Music]
+- [00:39] Aravant, I see you every I don't know 2
+- [00:42] or 3 months and you give me an update on
+- [00:44] the latest on Perplexity. Why don't you
+- [00:46] just tell these folks where you're at?
+- [00:48] How are things going? Do people use
+- [00:50] Perplexity?
+- [00:52] >> Do you guys use Perplexity?
+- [00:55] Well, whether you believe it or not,
+- [00:56] like I have infra issues every day. So
+- [00:59] there are a lot of people using it and
+- [01:02] um this usage is actually growing to the
+- [01:04] extent that we don't actually know how
+- [01:06] to deal with it. We have to rebuild the
+- [01:09] infra to scale the next 10x. So
+- [01:12] definitely a lot of people in the world
+- [01:13] using it. Thanks to all of you as well.
+- [01:16] What is next for us? The browser. That's
+- [01:19] the big bet we're making as as far as
+- [01:21] the future of the company goes.
+- [01:23] Everyone's here is like why should I use
+- [01:25] perplexity when there's search and other
+- [01:27] AI apps of course chat GPT has a bigger
+- [01:30] distribution than us every other AI app
+- [01:32] is trying to put search as a layer in it
+- [01:35] all of them support citations a lot of
+- [01:38] them support some of the verticals we
+- [01:40] put work into yes like we're always
+- [01:41] going to continue to remain better than
+- [01:43] others in that category but I think the
+- [01:46] browser and agents are truly the next
+- [01:49] bet that we want to make we think about
+- [01:51] it as an assistant rather than a
+- [01:53] complete autonomous agent but one omni
+- [01:56] box where you can navigate you can
+- [01:58] askformational queries and you can give
+- [02:01] agentic tasks and your AI with you on
+- [02:03] your new tab page on your site car as an
+- [02:06] assistant on any web page you are makes
+- [02:08] the browser feel like more like a
+- [02:10] cognitive operating system rather than
+- [02:12] just yet another browser and we hope to
+- [02:16] make it like a cloud where you launch
+- [02:18] several tasks in parallel that are
+- [02:20] running asynchronously Okay. And pulling
+- [02:23] all your personal contacts, your email,
+- [02:26] your calendar, your Amazon, your, you
+- [02:29] know, all all sorts of social media
+- [02:30] accounts that you have and you go and do
+- [02:33] research on real estate, the markets,
+- [02:36] and these are all like just processes
+- [02:38] running on your browser. That's never
+- [02:40] been possible before. And Chrome was
+- [02:43] exciting when each tab was its own
+- [02:45] process. You think about each query or
+- [02:47] each prompt could be that
+- [02:49] >> and that will be our new browser comet.
+- [02:51] So, we're putting all our energy into
+- [02:52] that.
+- [02:53] >> This was going to be the hard question I
+- [02:54] saved for the end, but since you queued
+- [02:56] it up, I'll do it right now. Um, I think
+- [02:58] if Sam Alman were still on the stage
+- [03:00] today, he would say, "Oh, yeah, that's
+- [03:02] what we're doing." Um, and I think
+- [03:05] Sundar at Google probably would say
+- [03:08] that's the direction we're headed as
+- [03:10] well. So, it feels like there are a
+- [03:12] bunch of players now, many of them very
+- [03:15] wellunded, going in generally the same
+- [03:17] direction. How do you see the world?
+- [03:19] Like do you think that there's going to
+- [03:21] it's going to play out where there's
+- [03:22] actually like a bunch of different use
+- [03:24] cases and you can own a very important
+- [03:26] one that others won't want to own or are
+- [03:29] we in for like a major competitive
+- [03:31] battle?
+- [03:32] >> Look, if something is really worth
+- [03:33] doing, it's it's only natural that
+- [03:36] people with a lot of funding will go and
+- [03:38] do it. Um people said perplexity is a
+- [03:41] great product. Now everyone is trying to
+- [03:44] do something that can answer any
+- [03:45] question with sources. Cursor was a
+- [03:48] great product.
+- [03:49] Now, OpenAI is trying to buy cursor's
+- [03:52] competitor anthropic launch codeex uh
+- [03:55] like clot code. Google has its own like
+- [03:57] rival tool. So, it's only natural that
+- [03:59] when there's a lot of money to be made
+- [04:00] in a certain sector, people are going to
+- [04:03] try to copy it. And there's only a
+- [04:06] limited amount of things you can be
+- [04:08] world class at, whether it's being
+- [04:10] building great models or building one or
+- [04:12] two really good products. So, you're
+- [04:14] obviously not going to win on
+- [04:15] everything. For us, this is the only
+- [04:17] thing we care about. accuracy at the
+- [04:19] level of answers, accuracy at the level
+- [04:21] of tasks, orchestrating all these
+- [04:23] different tools. The browser is much
+- [04:25] harder to copy than like uh yet another
+- [04:28] chat tool. That said, I'm I'm fully
+- [04:31] working with the assumption that uh
+- [04:33] OpenAI will also build its own browser.
+- [04:35] Anthropic will also try to build its own
+- [04:37] browser. Google already has one called
+- [04:39] Chrome. So, it's completely reasonable
+- [04:41] to expect them to do it. And the only uh
+- [04:44] mode you have is speed. You have to
+- [04:45] innovate. You have to move faster than
+- [04:46] everybody else. And it's like running a
+- [04:49] marathon but at an extremely high
+- [04:52] velocity, right?
+- [04:52] >> Yes. Yeah. I I really agree with your
+- [04:55] statement that like you can only focus
+- [04:58] on one thing and be world class at one
+- [04:59] thing. And just to give you guys like a
+- [05:01] little glimpse into it, we were
+- [05:03] backstage before this talk and he was
+- [05:04] showing me some of the new stuff that
+- [05:06] they're working on and there was like a
+- [05:07] bug, right? And he stopped everything he
+- [05:10] was doing to like figure out what was
+- [05:12] wrong with this bug. Why was it not
+- [05:13] doing the right thing? And if you think
+- [05:15] about like what would the CEO of a large
+- [05:17] company do in that situation? Probably
+- [05:19] they would like hand it off to somebody
+- [05:21] else on their team. So that's like a
+- [05:23] good piece of evidence that you actually
+- [05:25] mean what you say.
+- [05:26] >> Yeah. I I I love I love triaging and
+- [05:28] fixing bugs. I know it sounds trivial.
+- [05:31] Like is that the best use of the time of
+- [05:33] a CEO? There are a lot of people who
+- [05:36] would think otherwise. Recently people
+- [05:38] are like uh oh like like there I hope
+- [05:40] this behavior is rubbing off on others.
+- [05:42] Like I've noticed even Sundar is doing
+- [05:44] bug support on X right now. So
+- [05:46] >> I'm happy that like you know that that's
+- [05:48] setting a good example.
+- [05:49] >> Great. Okay, let's go back to the
+- [05:51] beginning. Like most of the folks in the
+- [05:52] audience here are either students or
+- [05:54] recent grads or grad students. Um and I
+- [05:57] think hearing your story of like how you
+- [06:00] started Perplexity uh would be really
+- [06:02] interesting to them because it's
+- [06:03] probably exactly the world that they're
+- [06:05] in now.
+- [06:05] >> Yeah.
+- [06:06] >> Tell us how you got started. We started
+- [06:07] the company without actually having
+- [06:09] clear idea of what to build which is the
+- [06:11] opposite of what YC advises which is
+- [06:14] start from a project and turn it into a
+- [06:16] company. I really think at this point in
+- [06:19] time when AI is improving so fast you
+- [06:23] don't have to rigidly stick to any one
+- [06:25] idea when you're getting started but the
+- [06:28] most important thing is you don't change
+- [06:29] the idea every week like that you
+- [06:31] shouldn't do either. So start with
+- [06:34] something like brainstorm, think about
+- [06:36] it and then try to immediately build it
+- [06:39] and get it in the hands of people. Uh
+- [06:41] one tool that we were building was
+- [06:43] natural language SQL which we actually
+- [06:46] thought about it as a search tool
+- [06:47] searching over relational databases. I
+- [06:50] allowed Twitter search but it never like
+- [06:52] like the original version of Facebook
+- [06:54] graph search. I allowed that when I was
+- [06:56] much younger. So I wanted to like
+- [06:59] rebuild that but using language models.
+- [07:02] Um, and I love Twitter as a platform.
+- [07:04] So, it was there's no good way to search
+- [07:06] over Twitter. There still is no good way
+- [07:08] to search over Twitter. But at least at
+- [07:10] the time, we organized the entire
+- [07:13] Twitter's data in the form of like
+- [07:14] relational tables and just converted
+- [07:17] every user's query into a SQL query and
+- [07:20] ran it as against the database and it
+- [07:22] was really really good and um that's
+- [07:25] what got us started. But at some point
+- [07:28] we figured it's better to like scale
+- [07:30] this across the web and we cannot make
+- [07:33] every website in the form of tables and
+- [07:37] neither is it actually easy to answer
+- [07:38] all sorts of questions. So we bet on the
+- [07:41] fact that language models can do all the
+- [07:43] reasoning and parsing and like
+- [07:45] structuring later but the more important
+- [07:47] thing is to start with something more
+- [07:48] unstructured and that ended up becoming
+- [07:51] perplexity.
+- [07:52] >> Got it. Um, and maybe one step before
+- [07:55] you actually left to go start the
+- [07:57] company, like how did you find your
+- [07:59] co-founders? How did you decide that
+- [08:02] machine learning and AI was like the
+- [08:04] area you wanted to focus on?
+- [08:05] >> Cuz that was the only thing I was good
+- [08:07] at. I was not good at anything else.
+- [08:08] >> Okay.
+- [08:09] >> So, what's the point in starting a
+- [08:10] company? I cannot start a delivery
+- [08:11] company or a social media company. Like,
+- [08:14] I'm not I'm not the right fit, right?
+- [08:16] Uh, the only thing I knew was AI and
+- [08:18] machine learning. In fact, it's funny. I
+- [08:20] we started an AI company. uh but we're
+- [08:23] not made fun of like not even training
+- [08:25] our own models like mo but only the
+- [08:27] foundation models are stuff we don't
+- [08:28] train we train so many different models
+- [08:31] but uh that's the extent to which you
+- [08:33] need to have the intellectual humility
+- [08:35] to know like what you're good at what is
+- [08:37] actually doable for you within with the
+- [08:39] resources that you have access to and
+- [08:42] the co-founders are like people I like
+- [08:44] like I knew from grad school so we had
+- [08:47] been talking and discussing ideas for a
+- [08:48] long time and um I think grad school is
+- [08:51] a great way to like uh you know like
+- [08:53] like identify your co-founders. You
+- [08:55] don't talk to them with the you know
+- [08:57] with the long-term calculation of like
+- [08:59] oh this could be my co-founder of my
+- [09:01] future company. You talk to them because
+- [09:03] they're interesting people. And I think
+- [09:05] that's essentially the value of the Y
+- [09:07] cominator network. So even if your first
+- [09:09] startup year fails, you get access to a
+- [09:12] lot of amazing people and maybe they
+- [09:13] could be your future co-founders. So
+- [09:15] that that's essentially what grad school
+- [09:16] was for me.
+- [09:17] >> Yeah, that's awesome. Um, okay. So, you
+- [09:19] launched this first version of
+- [09:21] Perplexity, which is largely to like do
+- [09:24] Twitter search effectively. Um,
+- [09:26] >> at what point did it like start to work
+- [09:29] and you maybe internally felt like, oh,
+- [09:31] we should keep working on this. This is
+- [09:33] going to be something to explore.
+- [09:35] >> Yeah. So, whoever we gave early access
+- [09:37] to, they were all very excited about it.
+- [09:39] They kept using it repeatedly. I think
+- [09:42] there's a phenomenon in products where
+- [09:44] there's an initial wow factor. Yep.
+- [09:46] >> And then mostly either drops completely
+- [09:48] that that means you never had real
+- [09:50] retention or it it definitely drops but
+- [09:52] there sustained usage. So when we saw
+- [09:55] that for the relational database
+- [09:57] searches like Twitter, LinkedIn, GitHub,
+- [10:00] we knew that we have like there was
+- [10:02] something magical about combining large
+- [10:04] language models in search. But then what
+- [10:06] we did is like we dreamt bigger and said
+- [10:08] what if we just give answers and site
+- [10:11] the relevant sources. We launched that
+- [10:14] as a discord bot and that was also
+- [10:15] continually being used. It was not like
+- [10:17] a one-day usage and people started
+- [10:19] ignoring it. So that's when we decided
+- [10:21] we had the courage to launch it. We
+- [10:23] launched it 7 days after the chat GPT
+- [10:25] launch especially at a time when chat
+- [10:27] GPT did not have web right web search.
+- [10:29] So that was a good moment. And I think
+- [10:31] like many of the successful AI products
+- [10:33] that people speak about today cursor
+- [10:35] included all were like 2022 launches or
+- [10:38] like like early 2023 or late 2022
+- [10:41] launches. So they're all like old
+- [10:43] people, you know, in the in the in the
+- [10:44] in this AI time scale.
+- [10:46] >> Yes.
+- [10:46] >> For me, the aha moment was like the New
+- [10:49] Year Eve, there was like close to
+- [10:51] 700,000 queries. And I was like, okay,
+- [10:54] this has the crappiest name for a
+- [10:56] consumer product. It's called
+- [10:57] Perplexity. Very hard. Nobody even knows
+- [11:00] how to share it. And then it was so
+- [11:02] slow. Took seven seconds to answer for a
+- [11:04] query at the time. And um it was making
+- [11:08] a lot of mistakes, hallucinations
+- [11:10] and like a no-name company, no-name
+- [11:13] founder, very one or two million dollars
+- [11:16] in seed funding. Despite that, people
+- [11:18] were caring enough to sharing
+- [11:19] screenshots and like and and a new year
+- [11:21] eve and you could be, you know, watching
+- [11:23] Netflix, right? So, uh that's when I
+- [11:25] knew there was something real here and I
+- [11:27] started like optimizing for like, you
+- [11:29] know, committing to this this vision.
+- [11:30] >> Okay. And at that point, like on that
+- [11:33] New Year's Eve, did you in your head
+- [11:35] think I'm building a thing that could
+- [11:38] really compete with Google and like take
+- [11:39] over a market as big as what Google
+- [11:41] offers or was it just a toy for you?
+- [11:44] >> The first time the thought occurred to
+- [11:45] me was when um Google wrote a blog post.
+- [11:48] Sundar wrote a blog post about Bard.
+- [11:51] >> Like that was around the time when we
+- [11:53] were raising series A funding and
+- [11:56] everybody said, "Okay, Bard is going to
+- [11:57] do whatever you're doing." And it's like
+- [12:00] why do I have to build bar like why not
+- [12:02] just do it on Google right where you you
+- [12:05] have all the distribution in the world
+- [12:06] so why do you have to build a separate
+- [12:08] product like just just update your core
+- [12:10] main
+- [12:12] >> the best possible asset to do this
+- [12:13] >> exactly and I kept thinking it was
+- [12:16] pretty obvious you cannot like if if if
+- [12:19] people can get answers to best hotels to
+- [12:22] stay in San Francisco with a view of the
+- [12:24] Golden Gate Bridge or like Bay Bridge or
+- [12:26] like where can I stay in New York like
+- [12:28] next to the Central park with good
+- [12:30] amenities or like which flight is the
+- [12:32] best thing for me to take to fly from SF
+- [12:34] to London. If you get direct answers to
+- [12:37] these questions with booking links right
+- [12:39] there, how are you going to mint money
+- [12:41] from booking and Expedia and Kayak and
+- [12:44] like like you know or like same same
+- [12:47] thing for shopping. How are you going to
+- [12:49] take money from um Amazon and like
+- [12:52] Walmart for the same ad where they're
+- [12:54] all bidding against each other? It's not
+- [12:56] in their incentive to give you good
+- [12:57] answers at all. So that's when I
+- [12:59] realized that they have to build a
+- [13:00] separate product but they can never
+- [13:03] capitalize on their core distribution
+- [13:06] and 2024 2023 especially and a large
+- [13:10] part of 2024 too Google had like maybe
+- [13:14] the fourth or fifth best models at any
+- [13:16] moment. So as a startup outside Google,
+- [13:18] you had access to AI that was better
+- [13:21] than what Google internally had, which
+- [13:24] was unprecedented, right? Until then, if
+- [13:27] you had to compete with Google and you
+- [13:29] had to build something that needed a lot
+- [13:30] of AI in it, good luck, right? Like cuz
+- [13:33] you never have an AI outside Google
+- [13:35] that's even equal, leave alone being
+- [13:37] better. But now it's a completely
+- [13:39] reversal of the situation thanks to open
+- [13:41] AI or anthropic or open source models.
+- [13:44] So that plus innovator dilemma plus the
+- [13:47] fact that we could make a lot of
+- [13:48] mistakes and it's fine. Whereas for
+- [13:50] Google, one mistake tanks their stock.
+- [13:52] Like you remember the live demo of Bard
+- [13:54] where it failed and the stock went down
+- [13:56] 6%.
+- [13:57] >> Yep.
+- [13:57] >> So we knew that there was a lot of
+- [13:59] advantages for us.
+- [14:00] >> Yeah. And I heard you talk about this
+- [14:02] recently but you know Google
+- [14:04] specifically has been trying to build
+- [14:06] perplexity like experiences and you know
+- [14:10] you
+- [14:10] >> AI mode.
+- [14:11] >> Yeah. They just like change the name of
+- [14:12] it each Google IO and then not really
+- [14:15] >> true. I'm not I'm not I'm not like
+- [14:16] saying something wrong.
+- [14:18] >> Yes.
+- [14:18] >> Right. So it's like I I
+- [14:20] >> look it might sound a little um cocky to
+- [14:24] say that but it's true. Um the same
+- [14:26] feature is being launched year after
+- [14:28] year after year
+- [14:29] >> with a different name with a different
+- [14:31] VP with a different group of people but
+- [14:34] it's the same thing except maybe it's
+- [14:36] getting better but it's never getting
+- [14:38] launched to everybody. One of the things
+- [14:40] I I've come to admire about you is you
+- [14:43] really have a focus on the user
+- [14:45] experience and and you told me how you
+- [14:47] kind of learned that from Larry Page.
+- [14:50] Yeah. By reading the book about uh
+- [14:52] Google. Um why do you think Google has
+- [14:55] lost that ability?
+- [14:58] >> Well, it's a much bigger business,
+- [14:59] right? And it's not founder anymore. Uh
+- [15:02] it's hard to take risks. Um I think they
+- [15:05] have great people. Nobody like no one in
+- [15:07] this audience would think Google has
+- [15:09] incompetent people. I think they're like
+- [15:10] really great engineers. It's largely the
+- [15:12] incentive structure. It's hard to like
+- [15:14] you know take a hit on your own stock
+- [15:17] and do the thing that's long-term
+- [15:19] correct. So you know honestly I'm happy
+- [15:22] that that sort of dilemma exists because
+- [15:25] otherwise where is the opening for
+- [15:27] startups right and and then if startups
+- [15:29] can succeed then it's going to be
+- [15:31] monopolies getting bigger and bigger and
+- [15:33] that's not great for the world. I
+- [15:34] actually am very happy that we are able
+- [15:36] to win and they're also like able to
+- [15:38] like ship new products and people are
+- [15:41] like first time comparing right earlier
+- [15:44] for access to information you would
+- [15:46] never even bother to compare an
+- [15:48] alternative to Google.
+- [15:49] >> It's true.
+- [15:50] >> Like that was like considered a waste of
+- [15:51] time a joke. Now at least you're like oh
+- [15:54] I first go ask this app like I I'll ask
+- [15:56] Google or I'll ask Chad GPT or I'll ask
+- [15:59] Perplexity or ask Gemini and then maybe
+- [16:01] you don't even ask Google anymore. You
+- [16:03] just ask the AI apps and there are a
+- [16:05] bunch of AI assistants and the phone
+- [16:08] makers will start offering all of them
+- [16:10] as alternatives. It's not going to be
+- [16:11] like a locked in default search option.
+- [16:14] So, I'm really happy that they're
+- [16:16] competing in a world where a monopoly
+- [16:18] hopefully doesn't exist and that creates
+- [16:21] a more fair ground for everybody.
+- [16:23] >> Yeah. Yeah. You were also telling me
+- [16:25] backstage about um you know you are
+- [16:28] facing this increased competition from a
+- [16:30] variety of folks but if you look at your
+- [16:32] numbers you haven't really seen effect
+- [16:34] >> you know I read all the Twitter comments
+- [16:36] every time the Google IO exactly the
+- [16:39] same set of comments repeated this year
+- [16:41] u Google IO last year was AI overview
+- [16:44] and perplexity is dead this year was AI
+- [16:47] mode and perplexity is dead and I read
+- [16:49] all of that too and it's it's always fun
+- [16:52] I love it actually um because like like
+- [16:55] they know that they're all thinking like
+- [16:56] I don't I don't even expect these things
+- [16:58] or the people in the company are like
+- [16:59] thinking Google wouldn't build this or
+- [17:01] something like that but it's the reality
+- [17:03] is like nobody actually gets exposed to
+- [17:05] those features but competition is real
+- [17:08] okay let's assume let's let's
+- [17:11] accept that open AI is extremely
+- [17:12] wellunded doesn't have all these
+- [17:14] innovative DMA problems wants to
+- [17:17] actually ship search on chat GPT chat
+- [17:19] GPT is the most successful consumer AI
+- [17:22] product out there And so competing
+- [17:24] against it is very difficult which is
+- [17:26] why I I really want to like um push the
+- [17:29] company more on the browser side and I
+- [17:33] think comet the browser will be an
+- [17:35] abstraction layer above chat bots. I you
+- [17:37] could even imagine like I you know if
+- [17:39] you permit comet all your chat GPT chats
+- [17:42] can you know be fed into that AI and
+- [17:45] like you don't even have to worry about
+- [17:46] memory or personalization or like you
+- [17:48] know any of these things and it'll do a
+- [17:50] thing a lot of new things that a chatbot
+- [17:53] cannot do like accessing other tabs
+- [17:55] accessing your browsing history going
+- [17:58] and completing forms for you like paying
+- [18:00] your credit cards buying stuff for you
+- [18:03] um and being your scout you know going
+- [18:05] and doing all the research for to that
+- [18:07] sort of thing like periodic recurring
+- [18:09] tasks. I think that's the magic that the
+- [18:11] browser enables for you. And putting it
+- [18:13] into like mobile like like building
+- [18:15] mobile versions of this browser is going
+- [18:18] to be very hard like just engineering
+- [18:20] wise it's going to take many months. So
+- [18:22] I'm not really worried about like
+- [18:23] someone else trying to copy this. It's
+- [18:25] going to take time for anybody.
+- [18:26] >> Switching to a different browser is like
+- [18:28] a pretty big decision for a user. What
+- [18:30] what do you think will be the very
+- [18:32] shortterm things that your browser will
+- [18:35] do? so much better than what I can get
+- [18:38] today in Chrome that will make me want
+- [18:39] to switch.
+- [18:40] >> The perfect blend of AI, navigation, and
+- [18:43] agents is is is what we're going to
+- [18:46] offer. And um might sound like a boring
+- [18:49] answer, but no one's done that. And
+- [18:51] there are like hundreds of millions,
+- [18:52] probably close to a billion people using
+- [18:54] AI these days. So, the market's already
+- [18:57] pretty big.
+- [18:57] >> What's like a specific example of how I
+- [18:59] would do that, you know, if I had access
+- [19:00] to it tomorrow?
+- [19:02] >> You can schedule your meetings. uh you
+- [19:04] can reply to some of your emails that
+- [19:06] you don't even want to read. You can
+- [19:08] like for example let's say you're
+- [19:09] hosting a Y cominator event and you say
+- [19:12] I only want to accept Stanford dropouts
+- [19:14] and it can go through the entire list of
+- [19:16] people who applied and just filter based
+- [19:19] on who's you know took scrape their
+- [19:21] LinkedIn URLs
+- [19:23] >> filter based on whether they were
+- [19:24] Stanford and whether they dropped out or
+- [19:26] not and then accepted like that level of
+- [19:28] multi-step reasoning
+- [19:30] >> is something you can uniquely do. By the
+- [19:32] way, I'm not saying that's a good
+- [19:33] filter. Uh I wouldn't get in otherwise.
+- [19:36] And so hopefully you don't you're more
+- [19:38] open. Yeah.
+- [19:39] >> We look for deep mind researchers also.
+- [19:41] Yeah. Yeah. Don't worry. Um Okay, cool.
+- [19:44] Let's talk a little bit about how you
+- [19:46] run the company now, right? I don't know
+- [19:49] if you wanted to say how many employees
+- [19:50] you have.
+- [19:51] >> Yeah, we have about 200.
+- [19:52] >> Okay, so the company's getting bigger.
+- [19:54] Um you now have access to code writing
+- [19:58] AI tools. Um, are you guys just like
+- [20:00] full in on that stuff? Are you vibe
+- [20:02] coding everything? How what what's it
+- [20:04] look like?
+- [20:04] >> I mean, you you don't want to wipe code
+- [20:06] everything, right? Like like like we
+- [20:08] frequently run into infra issues and you
+- [20:10] don't want a wipe coder right there
+- [20:12] fixing it on live things on production
+- [20:15] like I do want like people well trained
+- [20:16] in regular software engineering,
+- [20:19] infrastructure, distributed systems like
+- [20:21] you don't want to like replace these
+- [20:22] skills. But yeah front-end design that's
+- [20:27] where we are seeing tremendous adoption
+- [20:28] like cursor is being used by everybody.
+- [20:31] uh we made it mandatory to use at least
+- [20:33] one AI coding tool and internally at
+- [20:36] perplexity it happens to be cursor and
+- [20:38] like a mix mix of cursor and github
+- [20:40] copilot but yeah we definitely made it
+- [20:42] compulsory and so the way machine
+- [20:45] learning people are do using it AI
+- [20:47] people are like sometimes they read a
+- [20:49] paper and they can just upload a
+- [20:51] screenshot of the pseudo code and uh ask
+- [20:55] cursor to like just edit the files to
+- [20:57] implement this new algorithm and then
+- [20:59] it's able to like uh write it on unit
+- [21:01] tests and then uh run an experiment
+- [21:03] pretty quickly that uh is reducing the
+- [21:06] experimentation time from like 3 4 days
+- [21:09] to like literally 1 hour or like there
+- [21:11] are people who don't know design and so
+- [21:13] sometimes I'm I just give them feedback
+- [21:15] where I take a screenshot of my iOS app
+- [21:18] and I say this button needs to move here
+- [21:20] with an arrow and they upload my
+- [21:22] screenshot to cursor and then ask it to
+- [21:24] like write write a change to the swift
+- [21:26] UI file. So that level of change is
+- [21:29] incredible. Like like the speed at which
+- [21:31] you can fix bugs and ship to production
+- [21:34] is is crazy.
+- [21:36] >> The more bugs there are as long as you
+- [21:37] can fix them fast.
+- [21:38] >> Yeah, bugs are always ahead of like how
+- [21:40] fast people can write code though.
+- [21:41] >> But just just to be clear, I'm a big fan
+- [21:43] of all these tools, but it is also
+- [21:46] introducing new bugs and many people
+- [21:49] don't know how to fix them
+- [21:51] >> and they don't even know how the bug got
+- [21:53] introduced and they have to go find it
+- [21:54] again. So it's not perfect and I
+- [21:57] actually like the more newer tools like
+- [22:00] clawed code seems to be far smarter than
+- [22:03] like what cursor is able to do. So I'm
+- [22:06] actually like like really positive that
+- [22:08] this is the right future but there are
+- [22:10] there are issues right now.
+- [22:11] >> Yeah.
+- [22:12] >> Yeah. um in talking to a lot of the
+- [22:13] folks here, one of the major questions
+- [22:16] that I've heard is um as these coding
+- [22:19] tools get better and better and better,
+- [22:21] what is the like actual
+- [22:24] enduring value of a company like yours
+- [22:26] if if increasingly it's easy to
+- [22:28] replicate what you have done using these
+- [22:30] tools? What's your take on that general
+- [22:33] type of question?
+- [22:35] >> I mean brand definitely has a big value,
+- [22:37] right? Like there are cursor
+- [22:40] competitors, perplexity competitors like
+- [22:43] OpenAI will have like their own cursor.
+- [22:46] OpenAI has perplexity within chat GPT
+- [22:48] that did not kill any of these
+- [22:50] companies. So there is a certain brand
+- [22:52] value that once you acquire at the scale
+- [22:54] of like several millions of users,
+- [22:56] paying users, you don't actually die
+- [22:59] that fast. You earn the right to survive
+- [23:01] and keep building. Uh so brand is
+- [23:03] important. uh narrative is very
+- [23:06] important to the brand like you have to
+- [23:08] communicate to people why do you even
+- [23:10] need to exist for us it's the focus on
+- [23:12] accuracy okay let there exist 100 chat
+- [23:15] bots but we are the most focused on
+- [23:17] getting as many answers right as
+- [23:19] possible we focus on speed time to first
+- [23:22] token on app or web like we're still the
+- [23:25] fastest despite doing search uh we focus
+- [23:28] a lot on like how we present the answer
+- [23:30] so there are some things you are
+- [23:32] obsessed about because you care about it
+- [23:34] and that becomes your narrative and your
+- [23:36] brand identity. And if you manage to get
+- [23:40] reasonable amount of distribution, not
+- [23:41] saying 100 million users, but tens of
+- [23:44] millions, then you earn the right to
+- [23:46] keep playing the game no matter what
+- [23:48] other people ship. Until then, it's
+- [23:50] definitely a challenge. You have to
+- [23:51] worry about it. Even now, we worry about
+- [23:53] it and the only solution is to move fast
+- [23:55] and keep shipping. be beyond brand like
+- [23:57] do you think about any network effect
+- [24:00] types of things emerging with perplexity
+- [24:04] >> I mean brand has network effects right
+- [24:05] like people people tell each other about
+- [24:07] the brand
+- [24:08] >> but no AI product has within app network
+- [24:12] effect like like it's not like WhatsApp
+- [24:14] where if you build a WhatsApp rival meta
+- [24:17] has a definitely like a questionable
+- [24:19] brand right like people don't
+- [24:21] necessarily trust Meta's products they
+- [24:23] think like these are ad products Despite
+- [24:26] that, nobody's able to switch off
+- [24:27] WhatsApp that easily because all your
+- [24:30] contacts, your groups, everything is
+- [24:32] there. AI doesn't quite have that yet.
+- [24:35] Uh mainly because you can easily export
+- [24:38] your chat GPT history, upload it
+- [24:40] somewhere else or uh things like that. I
+- [24:44] think the browser will definitely be one
+- [24:45] play to like you know figure this out
+- [24:48] because as your browsing history and
+- [24:50] like which again you can still export
+- [24:51] but not the same as just getting a dump
+- [24:54] a CSV dump
+- [24:55] >> uh and your passwords your wallet your
+- [24:58] agent remembers you there's a lot of
+- [25:00] tasks that are running on the browser
+- [25:01] that you rely on your day-to-day life
+- [25:03] and work that's one way to like keep get
+- [25:06] the product a lot more sticky and like
+- [25:08] create more network effects especially
+- [25:10] if multiple people rely on the same set
+- [25:11] of tasks you're sharing it with them.
+- [25:14] That's one way to get all this into like
+- [25:15] the next level.
+- [25:16] >> It also sounds like a lot of the stuff
+- [25:18] that you aspire to solve for users
+- [25:21] requires integrations or partnerships or
+- [25:23] something with a bunch of other
+- [25:25] companies in the world. Yeah. And if you
+- [25:27] can get those to be good, then there is
+- [25:30] somewhat of a network effect in the
+- [25:31] sense that your product will be good and
+- [25:33] some competitor would have to build the
+- [25:35] same integration or same deal with with
+- [25:38] these providers.
+- [25:39] >> What does that look like do you think in
+- [25:40] the future? like does perplexity do
+- [25:43] deals with all the airlines in the world
+- [25:46] and all the hotels and all the
+- [25:48] e-commerce providers?
+- [25:49] >> So we we already work with self book uh
+- [25:52] they power all the hotel bookings
+- [25:54] natively done on perplexity. We work
+- [25:56] with trip advisor to surface all the
+- [25:59] reviews of hotels and different you know
+- [26:02] places. We have like collaborations for
+- [26:04] the maps. We work with Yelp. uh we also
+- [26:08] like you know for shopping we have a lot
+- [26:10] of merchants who are directly selling on
+- [26:12] us
+- [26:13] >> uh and then we work with firmly to like
+- [26:15] support the bookings like like native
+- [26:17] purchases so there's already a lot of
+- [26:19] partnerships Shopify is one of our
+- [26:21] partners on finance we work with FMP
+- [26:24] sports we work with like uh stats
+- [26:26] perform so there's a lot of data
+- [26:28] providers already working with us to on
+- [26:31] these verticals and we just think it's
+- [26:32] going to expand further as agents start
+- [26:35] to do things. Different people are okay
+- [26:38] with like becoming MCP servers. Some
+- [26:40] people are not. Some people just want to
+- [26:42] like like preserve their websites. The
+- [26:44] browser agent will be generic enough
+- [26:46] that it'll respect whatever the third
+- [26:48] party wants because at the end of the
+- [26:50] day, the agent is the one that's being
+- [26:53] permitted by the user to act on their
+- [26:55] behalf. And um if there is no MCP
+- [26:58] server, it's still fine. You can just
+- [27:00] use these tabs as if the user would have
+- [27:03] done it. And uh that's the key advantage
+- [27:06] of the browser that you do not have if
+- [27:08] you commit entirely to just the MCP
+- [27:10] vision. If you commit entirely to MCP
+- [27:13] vision, you require these third party
+- [27:15] MCP servers to work reliably. Uh the
+- [27:18] data that they send you uh on with the
+- [27:20] MCP protocol has to be perfect. Your
+- [27:22] chatbot has to like like you know deal
+- [27:24] with all these issues that exist. On the
+- [27:27] other hand, if you just ground up design
+- [27:29] it as the way a human would use that
+- [27:31] website, you have full control over like
+- [27:33] how to how to do it, you don't have to
+- [27:35] rely on someone else doing the
+- [27:37] engineering well on their end.
+- [27:39] >> Um, let's talk next about business
+- [27:42] model. Your main competitor Google,
+- [27:44] their business model, as you've talked
+- [27:45] about, is selling ads. Um, and you think
+- [27:48] that prevents them from being really
+- [27:50] good at what you're doing. So what what
+- [27:52] will your business model be and how will
+- [27:53] you get it to be on the order of
+- [27:55] magnitude of of Google's?
+- [27:57] >> I don't know if you'll ever get order of
+- [27:59] magnitude profits as Google. Uh just to
+- [28:02] be clear and I don't think that's
+- [28:04] needed. No one in the history even
+- [28:06] Google themselves never has had another
+- [28:08] business that had the margins that
+- [28:10] Google has. So it's completely
+- [28:12] reasonable to get something far far
+- [28:15] better than any public company out there
+- [28:17] right now and and way be still way below
+- [28:19] Google. Number two, I think the
+- [28:21] subscription revenue is like really
+- [28:24] encouraging. We never expected to get
+- [28:26] this far and then we think like we can
+- [28:28] grow at least, you know, a few billions
+- [28:30] a year in just subs, which is a great
+- [28:32] business. usage based pricing where
+- [28:36] people are paying an agent for
+- [28:38] completing a task or people have
+- [28:40] recurring tasks and they pay based on
+- [28:43] you know every single use of the task
+- [28:45] and they normalize this system based on
+- [28:48] like how much it would take to hire a
+- [28:49] person to do that for them uh is going
+- [28:52] to be a thing I don't exactly know how
+- [28:54] it's going to play out what are the
+- [28:55] margins going to be on that potentially
+- [28:57] it's going to be way better than um
+- [28:59] subscriptions in terms of volume of
+- [29:02] people who would pay for it but it might
+- [29:03] be lower margins because it's usage
+- [29:05] based. So you're still going to be
+- [29:07] spending on all those queries. Someone
+- [29:08] might be paying a subscription to like
+- [29:10] one of these AI apps and might not have
+- [29:12] used it for an entire month. And so
+- [29:14] that's good margins on that user, right?
+- [29:16] So I don't actually have a clear sense
+- [29:18] of how this is all going to like evolve.
+- [29:20] But all I know is subscriptions and
+- [29:22] usage based pricing are going to be a
+- [29:24] thing. transactions, you know, uh if
+- [29:27] people start buying more through AIS,
+- [29:30] uh taking a cut out of the transactions
+- [29:32] is good. It's going to be CPAs have
+- [29:34] historically been way lower margins than
+- [29:36] CPCs, which is why Google never became a
+- [29:39] transaction platform, which is why I
+- [29:41] said like you're going to make a lot of
+- [29:42] money here. You may never make as much
+- [29:44] money as Google.
+- [29:45] >> Yeah. I Google Google's business model
+- [29:47] is potentially the best business model
+- [29:49] ever. Ever. So, yeah, it's fair to not.
+- [29:51] Maybe it was so good that you needed AI
+- [29:53] to kill it basically.
+- [29:55] >> All right, let's we're going to do some
+- [29:56] audience Q&A in a little bit, but um
+- [29:58] before we get there, I kind of wanted to
+- [30:00] understand your advice for the folks in
+- [30:03] this room, right? Like if you were in
+- [30:04] their position back whatever it was four
+- [30:07] years ago, what would you advise they
+- [30:09] do?
+- [30:10] >> I would say uh work incredibly hard.
+- [30:13] There is no substitute for it. Don't
+- [30:16] think like you're very smart like like
+- [30:19] strategizing the right way to build a
+- [30:21] company despite all like what big model
+- [30:24] labs are doing. You should assume that
+- [30:26] if you have a big hit, if your company
+- [30:30] is something that can make revenue on
+- [30:32] the scale of hundreds of millions of
+- [30:33] dollars or potentially billions of
+- [30:35] dollars, you should always assume that a
+- [30:37] model company will copy it. Mainly
+- [30:40] because they are really looking for
+- [30:41] revenue. They raise like tens of
+- [30:43] billions or close to 50 billion and they
+- [30:46] need to justify all that capex spend and
+- [30:48] they need to keep searching for new ways
+- [30:50] to make money. So they will copy
+- [30:52] anything that's good. I think you got to
+- [30:54] live with that fear. You have to embrace
+- [30:56] it and realize that like your mode comes
+- [30:59] from moving fast and building your own
+- [31:01] identity around what you're doing
+- [31:02] because users at the end care. Like when
+- [31:04] you're trying to get like a specific
+- [31:06] person for your house help, you are
+- [31:08] searching for that specific person. and
+- [31:10] you're not like going for a general
+- [31:13] agency that handles all of it. So, um I
+- [31:16] think there's like like real benefit
+- [31:18] from embracing that fear and like
+- [31:20] sleeping with that fear and waking up
+- [31:22] every day and like feeling excited about
+- [31:24] what you're going to build because
+- [31:25] that's the only thing that'll keep you
+- [31:26] going.
+- [31:27] >> Well, you guys are the perfect example
+- [31:29] of how it's possible to go up against
+- [31:31] somebody as big as Google. That's great.
+- [31:33] >> All right, let's do some Q&A. We'll
+- [31:35] start on the left side here. Go for it.
+- [31:38] Uh, hi, my name is Sammy and I just want
+- [31:41] to personally thank you for helping me
+- [31:43] get a 100 in my theory of knowledge
+- [31:45] course. Uh, would not have been able to
+- [31:47] do it without you. No shame. Um, quick
+- [31:50] question for you. Uh, you know, with
+- [31:51] your recent partnership with Nvidia to
+- [31:54] ship AI models across Europe, um,
+- [31:56] there's been talks about perplexity
+- [31:57] being installed on um, all Samsung
+- [32:00] phones or pre-installed. Um, and that
+- [32:02] could lift your valuation towards 14
+- [32:04] billion uh, according to sources like
+- [32:06] Bloomberg. Um it's a heavy
+- [32:08] responsibility being the default search
+- [32:10] engine for you know the mainstream
+- [32:12] population. What do you think are the
+- [32:13] most important factors at Perplexity to
+- [32:16] prevent hallucinations or incorrect uh
+- [32:19] data from you know being given to the
+- [32:21] masses? Thank you so much.
+- [32:22] >> Thank you. Uh hallucinations is
+- [32:25] something we we really care about. We
+- [32:27] we're building benchmarks internally uh
+- [32:30] to keep up to date with that. The only
+- [32:33] way there is to keep building a better
+- [32:34] search index. uh keep capturing better
+- [32:37] snippets of all the web pages and then
+- [32:39] like these models like like you know are
+- [32:41] getting fast enough that you can have
+- [32:44] them reason multistep for every query
+- [32:47] without incurring too much cost and so
+- [32:49] that's another way to reduce
+- [32:50] hallucinations.
+- [32:51] >> I I want to ask you about like the
+- [32:54] innovator's dilemma. So, if you were in
+- [32:56] Sund's shoes or in um in like the Google
+- [33:00] co-founder's shoes, like what would you
+- [33:01] do and how would you kind of come up
+- [33:03] with maybe changing their business model
+- [33:05] even if it's a worse model?
+- [33:07] >> So, if you were running Google competing
+- [33:09] against yourself, what would you do?
+- [33:11] >> I I think I don't envy that job at all.
+- [33:14] Um I I nobody in the world wants that
+- [33:16] job. It's it's it's a very difficult
+- [33:19] job. Would you sacrifice the business
+- [33:22] model in order to get like a new
+- [33:25] >> get the next product
+- [33:26] >> or would you ship it as a separate
+- [33:28] product? Like if you're Google, would
+- [33:29] you just build a separate thing that is
+- [33:31] the perplexity competitor and and
+- [33:33] sacrifice the distribution advantage
+- [33:35] that you have in the short run?
+- [33:39] >> Yeah, I I don't like genuinely I don't
+- [33:41] know. I think uh I can say all what I
+- [33:44] want but they have more data on like
+- [33:46] what their users are doing and um there
+- [33:49] are a lot of people in the world who
+- [33:50] hate AI by the way so I think just
+- [33:53] throwing AI down people's throats on
+- [33:55] such a you know massive distribution
+- [33:57] area is not easy what I would do I would
+- [34:00] I definitely don't know and I I don't
+- [34:02] want to be in that position also by the
+- [34:03] way if if if ads are part of every AI
+- [34:06] answer you're going to hate it too um
+- [34:09] and and so um it's good that There
+- [34:12] there's alternatives like us.
+- [34:14] >> All right.
+- [34:17] >> Hey Arvin, my name is Akshad. Uh so in a
+- [34:20] recent interview with Nikl Kamat, he
+- [34:22] asked you for an internship at
+- [34:24] Perplexity. So I was just wondering how
+- [34:26] that um arrangement is going.
+- [34:28] >> He he came he came to the office. He
+- [34:31] spent a couple of days. I mean he hasn't
+- [34:33] posted about it. So I'll let him post
+- [34:34] about it. But I we did spend time with
+- [34:36] him. Uh it was not a proper internship
+- [34:39] but we did speak to him for a while.
+- [34:41] I want to start by saying thank you very
+- [34:43] much for your very candid answers. I
+- [34:45] really appreciated that. So um a lot of
+- [34:48] startups they find some like cool
+- [34:49] application of foundation models and
+- [34:52] then they'll like build something off of
+- [34:54] that but then if it does gain traction
+- [34:57] then the foundation models will
+- [34:59] consolidate that into their own
+- [35:00] infrastructure. And Perplexity sort of
+- [35:03] has that issue too with like a lot of
+- [35:04] LMS adding search like TAGBT,
+- [35:08] Gemini, companies like Coher. So I was
+- [35:12] just wondering like how would you
+- [35:13] approach something like that? Would you
+- [35:15] try to pivot just get better at what you
+- [35:17] do or I think I would say uh pick
+- [35:20] something you want to like be known for?
+- [35:22] Uh yes there are other people
+- [35:24] integrating search but we still want to
+- [35:27] be the fastest and most accurate and
+- [35:29] obviously I cannot just say that and and
+- [35:31] then stop like we need to figure out a
+- [35:34] new strategy too and and build new
+- [35:36] products that don't exist yet. Uh so our
+- [35:39] browser will be that bet for us and
+- [35:41] browser and search are not two
+- [35:43] distinctive products. They're actually
+- [35:45] like the browser is a natural graduation
+- [35:47] step from search just like how Google
+- [35:49] graduated from Google search to Chrome
+- [35:51] and Chrome is the main reason they got
+- [35:53] billions of daily queries from hundreds
+- [35:55] of millions. So when Google IPOed they
+- [35:57] had no browser and they had like maybe a
+- [36:00] 100 million queries now you know like
+- [36:02] it's like 10 billion or something. So
+- [36:04] the browser is an important part of that
+- [36:06] and then so that's why we we are making
+- [36:08] a massive bet on that and agents can
+- [36:10] only be built with a browser. I'm very
+- [36:12] like convinced about that vision that if
+- [36:14] you want to have a mobile agent that you
+- [36:17] can actually build and implement without
+- [36:21] being restricted by whatever OS rules
+- [36:23] that Apple or Google sets in terms of
+- [36:25] not being able to call third party apps.
+- [36:28] Expecting every mobile app to have MCP
+- [36:31] servers and then like connecting all
+- [36:33] their data to your thing is not going to
+- [36:35] be that straightforward. Like nobody
+- [36:37] wants to be disintermediated by an AI
+- [36:39] that quickly. So the browser will be a
+- [36:41] great way to build all these things.
+- [36:42] Thank you.
+- [36:44] >> So as a lot of us here have done um
+- [36:46] we've tried we've failed at our startups
+- [36:49] um you know some of us have been more
+- [36:51] successful than others some like me have
+- [36:53] failed when you're in that moment
+- [36:55] failing over and over again. What do you
+- [36:58] tell yourself as CEO or as an
+- [37:01] entrepreneur to to win to teach yourself
+- [37:03] to win?
+- [37:04] >> What what do I tell myself when I feel
+- [37:06] like I might fail?
+- [37:07] >> Yeah. or when you're in that very
+- [37:09] specific moment of failing where you
+- [37:11] feel like everything's crashing down on
+- [37:12] you or this feature isn't working or
+- [37:14] this bug has popped up, how do you get
+- [37:16] through that and what do you think your
+- [37:17] biggest motivational factor is in that
+- [37:19] realm?
+- [37:20] >> Or maybe like at the beginning before it
+- [37:22] started to take off, what gave you the
+- [37:25] hope to keep working on it versus just
+- [37:27] go back to OpenAI and get your job?
+- [37:30] >> I just watched uh the Elon Musk videos
+- [37:33] on YouTube.
+- [37:34] No, I'm serious.
+- [37:36] [Applause]
+- [37:42] I I can tell you which video. There's a
+- [37:44] video where there's like a third failure
+- [37:47] in a row and like what do you think? And
+- [37:49] he's like I don't ever give up. I would
+- [37:51] have to be dead or incapacitated.
+- [37:53] >> So you'd say you're also never going to
+- [37:55] give up?
+- [37:56] >> Yeah, I I hope to I hope to like stay
+- [37:58] that way. It's not easy. Uh I think he's
+- [38:00] done it for way longer and that's why
+- [38:02] you all like respect him. But that's you
+- [38:05] know there are examples of great
+- [38:07] entrepreneurs who have done this despite
+- [38:10] all the odds stacked against them. So
+- [38:12] what do you have to lose? Just keep
+- [38:14] going.
+- [38:15] >> Thank you.
+- [38:16] >> Yeah.
+- [38:18] [Applause]
+- [38:23] >> Uh yeah my question is about uh kind of
+- [38:26] the sustainability of perpetuity not in
+- [38:28] terms of the business model but just in
+- [38:29] terms of the web in general. Um, you
+- [38:31] know, a lot of studies have come out
+- [38:32] recently showing that AI search engines
+- [38:34] like Perplexity drive a lot less traffic
+- [38:36] to websites. So, I'm curious, what do
+- [38:38] you think like the web will look like in
+- [38:39] 5 to 10 years when a lot of these
+- [38:41] websites, you know, they're not getting
+- [38:42] as much traffic and so they have to kind
+- [38:44] of cease their operations and like the
+- [38:45] web will just be a lot quieter of a
+- [38:47] place for content creation. How do you
+- [38:49] think perplexity fits into that? And
+- [38:50] what do you think the web will look like
+- [38:52] in that era?
+- [38:53] >> I think that there are going to be uh,
+- [38:55] you know, the web is already pretty long
+- [38:57] tail uh, and there's a massive power
+- [38:59] loss. So I I feel like the parallel is
+- [39:01] going to get even more skewed. That is
+- [39:04] very obvious. There are going to be
+- [39:06] certain brands that are wellnown and
+- [39:08] they're going to preserve direct organic
+- [39:10] visits, but those who are trying to game
+- [39:12] the SEO system and trying to get
+- [39:14] traffic, I think they're definitely
+- [39:15] going to have a harder time.
+- [39:17] >> Okay. Yeah.
+- [39:19] >> Hi Rean, good afternoon. Uh firstly,
+- [39:21] where do you place the line between
+- [39:23] summarization and plagiarism in report
+- [39:25] generation? And how do you avoid IP
+- [39:28] violations in your product? And
+- [39:30] secondly, how do you deal with political
+- [39:32] bias? Bias and political sorry,
+- [39:35] political bias and personal interest in
+- [39:37] news articles and other human written
+- [39:39] sources.
+- [39:40] >> Yeah, I think there are cases where you
+- [39:42] actually have objective truth, right?
+- [39:45] Like what was the score in the NBA game?
+- [39:47] what is the live weather right now in
+- [39:50] San Francisco where you don't want to
+- [39:52] you don't want to be wrong ever on those
+- [39:53] queries and and people know what is true
+- [39:56] but you even there you're trusting right
+- [39:58] like you're trusting some data provider
+- [40:00] who's tracking the live game the TV
+- [40:02] that's showing you the number or Apple
+- [40:04] or Google's like acute weather all these
+- [40:07] things so at some point it all relies on
+- [40:09] trust and trust is built over time based
+- [40:13] on being being accurate reliably and so
+- [40:16] trying to surface the right data from
+- [40:17] the right people who have earned the
+- [40:19] right to like like be surface in AI is
+- [40:22] is how we think about it for accuracy.
+- [40:25] Now there are things that don't have one
+- [40:27] clear accurate answer. I think there
+- [40:31] the best thing we can do is offer all
+- [40:34] the perspectives
+- [40:35] and not really take a clear opinion on
+- [40:38] like what is right and wrong when
+- [40:40] there's no clear uh answer to that
+- [40:42] question. Do you measure how accurate
+- [40:45] you are at that job by user feedback in
+- [40:48] some way?
+- [40:49] >> We don't actually measure it today. We
+- [40:51] we should an eval set uh should be built
+- [40:55] for that like like questions where there
+- [40:57] is no one objective answer. The problem
+- [40:59] with building an automated eval for for
+- [41:01] that type of thing is what what what is
+- [41:04] the right answer? It's subjective,
+- [41:06] right? like like if if there are
+- [41:08] questions about the origins of CO and
+- [41:10] there's so many different opinions of
+- [41:11] that relying a lot on Wikipedia as a
+- [41:14] source and and you know can say maybe
+- [41:16] for a human raider you're like okay
+- [41:18] saying all the things Wikipedia said
+- [41:20] it's a good answer but maybe what you
+- [41:22] want is to say stuff that is not there
+- [41:24] in Wikipedia and that relies on like
+- [41:26] having a much better human evaluators
+- [41:29] like pool much smarter people who who
+- [41:32] are supposed to rate these things and
+- [41:34] they're not like available for like you
+- [41:36] scale AI style evaluations. Right.
+- [41:38] >> Right.
+- [41:39] Okay. I think we have time for one final
+- [41:41] question. You get it?
+- [41:44] >> Awesome. Hi, my name is Angela. Thank
+- [41:46] you so much for talking to us. I have a
+- [41:47] question about your go to market
+- [41:49] strategy. You had a great campaign for
+- [41:51] students. That's how I and assume many
+- [41:53] college students learn about you guys.
+- [41:55] But then also you had a collaboration
+- [41:56] with Koshi which is a little bit
+- [41:59] different audience. So I'm just trying
+- [42:00] to understand how do you decide which
+- [42:02] audience you're trying to get? I think
+- [42:04] like what one one perspective here is
+- [42:08] trying to get into distributions of
+- [42:10] users that you don't typically have
+- [42:11] access to on your traditional marketing
+- [42:13] channels. You know, there are a lot of
+- [42:15] people who don't use Twitter or LinkedIn
+- [42:18] and and and and they're all like they
+- [42:20] all exist in the world. We just are
+- [42:21] living in a bubble here. U and and there
+- [42:24] are some other businesses that have good
+- [42:26] access to them. uh like you know
+- [42:28] traditional businesses like like you
+- [42:30] could imagine the the kind of people who
+- [42:32] use Costco regularly may not even be
+- [42:35] using AI on a regular basis and so if
+- [42:37] that's the kind of people you're going
+- [42:38] for then it makes sense to change your
+- [42:41] strategy to reach them but also remember
+- [42:44] that uh it's good to grow with
+- [42:46] adjacencies like you do want to have
+- [42:48] some overlapping sets of people who
+- [42:50] would be the word of mouth carriers as
+- [42:53] they help you expand to more you know
+- [42:56] non-over overlappinging circles. So I
+- [42:58] think that that's how I think about it.
+- [42:59] Like there should be some overlap, but
+- [43:01] your distribution should keep evolving
+- [43:03] over time. Thank you.
+- [43:06] >> All right, Arvin, thanks for joining us.
+- [43:07] >> Thank you everybody.

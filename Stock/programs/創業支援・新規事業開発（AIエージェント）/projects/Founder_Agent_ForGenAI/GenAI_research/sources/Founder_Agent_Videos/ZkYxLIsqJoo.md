@@ -1,0 +1,808 @@
+---
+title: "OpenAI Agent Platform Tutorial"
+video_id: "ZkYxLIsqJoo"
+video_url: "https://www.youtube.com/watch?v=ZkYxLIsqJoo"
+speaker: "Unknown"
+channel: "HubSpot"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  OpenAI has finally joined the race with
+  a new platform that helps you make AI
+  agents and AI workflows. And I wanted to
+key_points:
+  - "first AI agent with this brand new"
+  - "a working AI agent that will do exactly"
+  - "this. It will go search the web and find"
+  - "leads for you. Then it will populate a"
+  - "information. And then it will pass that"
+  - "information to a third agent which is"
+  - "that agent will take that information"
+  - "blocks will carry over to pretty much"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: ZkYxLIsqJoo
+
+- URL: https://www.youtube.com/watch?v=ZkYxLIsqJoo
+- Retrieved at: 2025-12-30T11:24:41+09:00
+
+## Text
+
+- [00:00] OpenAI has finally joined the race with
+- [00:02] a new platform that helps you make AI
+- [00:05] agents and AI workflows. And I wanted to
+- [00:07] show you exactly how to create your very
+- [00:09] first AI agent with this brand new
+- [00:11] platform.
+- [00:14] And by the end of the video, you'll have
+- [00:16] a working AI agent that will do exactly
+- [00:19] this. It will go search the web and find
+- [00:21] leads for you. Then it will populate a
+- [00:24] Google spreadsheet with those leads and
+- [00:27] with their email and all their
+- [00:29] information. And then it will pass that
+- [00:31] information to a third agent which is
+- [00:33] going to be your outreach agent. And
+- [00:34] that agent will take that information
+- [00:37] and draft customizable emails in your
+- [00:40] Gmail account and have it ready to be
+- [00:42] sent out in draft mode. And the building
+- [00:44] blocks will carry over to pretty much
+- [00:46] any AI agent that you want to make. Now,
+- [00:48] this is how you get to it. Go to
+- [00:50] platform.openai.com. openai.com.
+- [00:53] And right here on the left side, you'll
+- [00:55] see something called agent and build
+- [00:56] agents. That will bring you to this
+- [00:58] page, the agent builder. And then you
+- [01:00] could open up the agent builder from
+- [01:02] here. And this platform is designed for
+- [01:04] developers. But just like my other
+- [01:06] videos, I'm going to simplify this so
+- [01:08] anybody could follow along. You don't
+- [01:10] have to be a developer to use this
+- [01:11] platform here. Now, to get started, you
+- [01:13] could create your own. And by the way,
+- [01:15] we're not going to do any coding to
+- [01:16] create these. And you could also start
+- [01:18] with these templates. They only have a
+- [01:20] few right now, but with these templates,
+- [01:22] I'll be able to kind of show you the
+- [01:24] building blocks, and then we'll fully
+- [01:26] build one from scratch. And then by the
+- [01:28] time it's done, you could go ahead and
+- [01:30] test it even before launching to make
+- [01:32] sure everything works as it should. And
+- [01:34] if you're just brand new to AI agents, I
+- [01:36] thought this would be a good video to
+- [01:38] kind of walk you through it step by
+- [01:39] step, too. So, even if you've never
+- [01:41] built any type of AI agent in any other
+- [01:44] platform, this will still make sense to
+- [01:46] you. So, we'll start at the very top.
+- [01:48] What are AI agents exactly? Well, you're
+- [01:50] used to chat GPT, right? That's an AI
+- [01:52] chatbot. That is a reactive chatbot. You
+- [01:55] ask a question, it gives you an answer.
+- [01:57] That's pretty much it. AI agents are
+- [02:00] more proactive. You give it a goal and
+- [02:02] then it decides what steps it should
+- [02:05] take to reach that goal. So, it could
+- [02:07] gather information. It usually has
+- [02:09] access to different tools that it could
+- [02:11] tap into. It could sometimes make
+- [02:12] decisions and then it could produce a
+- [02:15] result. And a lot of these AI agents
+- [02:16] will also have some memory. So this AI
+- [02:19] agent builder that OpenAI created is a
+- [02:22] visual workbench basically for creating
+- [02:24] these agents. So instead of having to
+- [02:26] write code, you just use these building
+- [02:29] blocks. These are called nodes on this
+- [02:31] canvas, right? Each node performs one
+- [02:34] very clear job and then the arrows
+- [02:36] connect them to show the flow of data.
+- [02:39] So you could start with a blank canvas
+- [02:41] or from the templates. We'll choose this
+- [02:43] customer service template that's just on
+- [02:45] the template page. So I could show you
+- [02:47] the building blocks here. So all these
+- [02:49] little separate boxes that you see,
+- [02:50] these are called nodes. And nodes are
+- [02:53] basically the core of how you create AI
+- [02:55] agents in this platform. So in this
+- [02:58] case, there's a start node. This is a
+- [03:01] guard rail node. I'll skip over this
+- [03:03] one. It's a little bit more advanced.
+- [03:04] We'll get back to it. Then you have
+- [03:07] these AI agents. So this is a node for
+- [03:09] an AI agent. And then it connects to
+- [03:13] different conditions. This is another
+- [03:14] node and so on. Right? So you could see
+- [03:16] all these different nodes that you could
+- [03:18] add. Now on the left side you could just
+- [03:21] carry these over like this and then that
+- [03:24] will start a node. When we build one
+- [03:25] from scratch I'll explain a little bit
+- [03:27] more on how to build those. But this is
+- [03:29] important to understand kind of what
+- [03:31] nodes are and you could drag and drop
+- [03:32] any of them into this platform from the
+- [03:35] left side. The agent node. This one
+- [03:37] right here. Let me click on this one.
+- [03:39] This is basically the brain of your
+- [03:41] entire operation. And in this template,
+- [03:44] you could see there are multiple agents.
+- [03:46] An agent just doesn't have to be one.
+- [03:48] You could connect these agents to each
+- [03:50] other to make these AI workflows. And if
+- [03:53] you click on any of these agents or grab
+- [03:55] one from the left side here, you could
+- [03:57] see they have a name. They have a set of
+- [03:59] instruction that they follow. They also
+- [04:01] have memory with this chat history here.
+- [04:04] They could use different AI models
+- [04:05] depending on which one you choose to
+- [04:07] give it access to. and they could also
+- [04:09] access different tools and they have a
+- [04:11] response format. So this is the core of
+- [04:14] what makes an AI agent here. You'll also
+- [04:17] see these notes on top of this template.
+- [04:19] So that's this note right here. This is
+- [04:21] just a note. So if you are creating this
+- [04:25] and you want to remember why you did
+- [04:26] something or if you're going to share
+- [04:28] this later with anyone, that's what
+- [04:30] these notes are for. They're just for
+- [04:32] internal documentation on what these
+- [04:34] things are doing. You also have these
+- [04:36] tools right over here. So you have a
+- [04:38] file search node. So that comes in
+- [04:40] really handy. That way you could store
+- [04:42] searchable documents and it will create
+- [04:44] a library that your agent could pull
+- [04:46] from. Guard rails are also an important
+- [04:49] type because they are a safety check.
+- [04:52] They could detect unwanted inputs for
+- [04:54] example or outputs. Make sure personal
+- [04:56] information doesn't get out there. Make
+- [04:58] sure no one is jailbreaking it.
+- [05:00] Basically getting the AI model or the AI
+- [05:02] agent to do something it shouldn't do.
+- [05:04] So these are useful. And you have the
+- [05:06] MCP. It lets you connect your agent to
+- [05:10] external services like Gmail or Zapier
+- [05:13] which then connects to bunch of other
+- [05:14] things or your company database. So this
+- [05:17] is going to be really useful and I have
+- [05:19] covered other agent videos on this
+- [05:22] channel plenty. So I have videos on make
+- [05:24] Zapier all kinds of different things
+- [05:26] NAT. So those are the competitors to
+- [05:29] OpenAI but I'll link all the resources
+- [05:31] at the end of the video in the
+- [05:33] description. Now, to see an agent in
+- [05:35] action, since we're using a template,
+- [05:37] we're on edit mode right now, but if we
+- [05:39] press play, you could see the agent
+- [05:41] actually going to work. This one starts
+- [05:44] with a chat. So, if I just type in a
+- [05:46] chat here, the agent will then go to
+- [05:48] work and try to figure out what's going
+- [05:50] on. So, it's going through the safety
+- [05:51] check here. Then, it's going to classify
+- [05:54] the text. You could see it in real time
+- [05:55] going to work here. And this is what it
+- [05:57] looks like internally. If you publish
+- [05:59] this, it will look like a traditional
+- [06:01] chatbot. it won't really give you these
+- [06:03] things, but when you're testing it, you
+- [06:05] want to see exactly how it's flowing
+- [06:06] through the information. And you could
+- [06:09] see this agent after it classified your
+- [06:12] text, it went through the set of
+- [06:13] condition like how should I route this
+- [06:15] information and it decided to send it to
+- [06:18] our information agent. We also have a
+- [06:20] return agent, a retention agent, right?
+- [06:22] So, this is a little bit more
+- [06:24] complicated, but I wanted to show you
+- [06:26] here with a template that had bunch of
+- [06:28] building blocks because we're going to
+- [06:30] basically go from beginner to pretty
+- [06:32] advanced in this one video. And we'll
+- [06:34] also talk about publishing here once we
+- [06:36] actually build one from scratch that
+- [06:37] we're going to go ahead and publish. By
+- [06:38] default, they all get saved to your
+- [06:40] draft. So, anytime you start one, it
+- [06:42] will create a draft. You could always
+- [06:44] come back to it. I'll jump into this
+- [06:46] data enrichment agent. This is a really
+- [06:48] simple agent just so you see what a very
+- [06:51] basic agent looks like because I wanted
+- [06:53] to show you all the building blocks. But
+- [06:55] an agent could start just with a start
+- [06:56] node here. Then this agent searches the
+- [06:59] web and then it basically gives you an
+- [07:02] output. Now this is super simple. You
+- [07:04] pretty much could use chat GPT for an
+- [07:06] agent this simple. But this agent will
+- [07:09] have access to all the different tools
+- [07:10] and things like that that you can give
+- [07:12] it access to. You have your own set of
+- [07:14] instructions. So you could go a little
+- [07:16] bit beyond just using chat GPTR if you
+- [07:18] build these. But the whole point of
+- [07:20] these is actually that it's modular. You
+- [07:22] could really build it out, right? Things
+- [07:24] that you just can't do with a simple
+- [07:26] chatbot. Okay. Now, let me show you how
+- [07:28] to actually build an agent from scratch.
+- [07:30] And I want to build a real agent, a
+- [07:32] really powerful agent, too. Not a simple
+- [07:34] one that you could see from these
+- [07:36] templates, but we'll start simple so you
+- [07:38] could follow along here. And then you'll
+- [07:40] see the working and building blocks of
+- [07:42] this. If it's too complicated, then you
+- [07:44] might want to look at a different
+- [07:45] platform like Me, Zapier, or N810. I
+- [07:48] think they're a little bit simpler. This
+- [07:49] is really more designed for developers,
+- [07:51] but you can make really powerful agents
+- [07:54] here. And it just came out, so they're
+- [07:56] probably going to tweak this a lot more
+- [07:59] in the near future, too. Now, before we
+- [08:01] build this lead generation agent, I also
+- [08:03] have a resource that shows you how to
+- [08:05] actually implement AI agents to save you
+- [08:07] time at work. is called how to use AI
+- [08:10] agents to save 20 plus hours a week from
+- [08:13] HubSpot. It covers five AI workflows you
+- [08:16] can implement at work and it also
+- [08:18] includes real tools, prompts, and agent
+- [08:20] templates you could use today. And my
+- [08:22] personal favorite in this list is the
+- [08:24] company brief generator agent. It's an
+- [08:26] AI agent that retrieves company
+- [08:28] information on your customers and is
+- [08:31] perfect for any type of B2B type of
+- [08:33] business like my production company for
+- [08:35] example. You could also type in a URL
+- [08:38] and it'll create a report for you. And
+- [08:40] it's not a simple report that you'll get
+- [08:42] out of chat GPT. This agent pulls not
+- [08:45] just from the web search. It also uses
+- [08:47] another tool called glean search. That's
+- [08:49] like a company's internal search tool
+- [08:52] and your customer database via another
+- [08:54] tool called datab bricks. And it outputs
+- [08:57] the same result in a consistent format.
+- [09:00] So once we built our agent with OpenAI
+- [09:02] agent builder, you could build similar
+- [09:04] and even more advanced agents using
+- [09:06] what's covered in this guide. I'll put a
+- [09:08] link in the description where you could
+- [09:10] download this guide completely for free.
+- [09:11] And thank you for HubSpot for sponsoring
+- [09:14] this video and making this resource
+- [09:15] available to my audience. Okay, let's
+- [09:17] build our lead generation agent. You'll
+- [09:19] just click create here to create your
+- [09:21] agent. And the best place to start with
+- [09:23] this agent is actually the tool that
+- [09:25] it's going to use to populate our leads.
+- [09:28] So all I did was open up Google Sheets.
+- [09:31] Google Sheets is the best place for
+- [09:32] this. And I created this template here.
+- [09:35] You have a name, a business type, the
+- [09:37] address, the phone number, the email, a
+- [09:39] column for description, what makes that
+- [09:41] business different, and if an email has
+- [09:43] been sent to them or not. This could
+- [09:45] actually do that step two. Now, every
+- [09:47] agent usually comes with these two
+- [09:49] nodes. You can actually delete these
+- [09:51] here and start from scratch, but you
+- [09:53] definitely need a starter node. So that
+- [09:54] can be deleted here. So an agent can be
+- [09:58] grabbed from here and then your start
+- [10:00] node will need to get connected to it
+- [10:02] like how it was in the beginning. So
+- [10:03] it's really easy drag and drop, right?
+- [10:05] So we have our very first agent here.
+- [10:08] This is going to be a complete workflow.
+- [10:09] So it's going to have multiple different
+- [10:10] agents doing different things. So this
+- [10:12] very first agent is going to actually
+- [10:15] find us leads based on what we search
+- [10:17] for. Okay. So I'm going to name this
+- [10:19] agent. This is our very first agent in
+- [10:21] this sequence. It's going to be three
+- [10:23] different agents working together. And
+- [10:24] this is going to be a leadfinder agent.
+- [10:26] And then you're going to give it a
+- [10:28] instruction. These are called system
+- [10:30] instructions. And I'm going to explain
+- [10:32] this to you right here. Let me open this
+- [10:33] up. So this is where real prompt
+- [10:37] engineering comes into play. It's not
+- [10:39] just basically talking to chat GPT,
+- [10:41] although they call that prompt
+- [10:42] engineering too. But prompt engineering
+- [10:44] at its core is when you build an agent
+- [10:47] or any type of AI app. What's the
+- [10:49] instruction that you're giving it? This
+- [10:51] is where that comes into play. So, I'll
+- [10:54] make a page for you so they're really
+- [10:55] easy to copy and paste here. But this
+- [10:58] first one has a different instruction
+- [11:00] than my next one. This is you are a
+- [11:01] helpful lead generation agent. And I
+- [11:04] give a context on what we are and what I
+- [11:06] wanted to do. And then I told it to pass
+- [11:08] the information to our next agent, which
+- [11:10] I could always come back to once I build
+- [11:12] this out because our next agent is a
+- [11:14] data entry agent and I already kind of
+- [11:15] build this out so I know what the next
+- [11:18] one is and I kind of specifically told
+- [11:20] it. The more specific you get with these
+- [11:23] type of prompts, these system prompts,
+- [11:25] the better your agent is going to do.
+- [11:27] And in the middle, I also explained
+- [11:29] basically the different columns that I
+- [11:31] had made in my Google sheet because I
+- [11:33] wanted to go find the information and
+- [11:35] then eventually put that information
+- [11:37] there. And I'm going to save this one.
+- [11:38] Then you also have chat history. So you
+- [11:41] want to turn this on. It's on by
+- [11:43] default. So it could have conversational
+- [11:45] memory. Then you could choose your AI
+- [11:48] model. So you could use chatpt 5 5 5.1.
+- [11:51] You could also choose the type of tools
+- [11:54] that he has access to. So the MCP server
+- [11:57] is going to give us access to pretty
+- [11:58] much any tool in the world. But in this
+- [12:01] case, we have file search, we have web
+- [12:03] search. Web search is what we want. Now
+- [12:06] chatpt by default has web search, right?
+- [12:08] So you're used to it. But that's
+- [12:09] technically chatpt calling a tool called
+- [12:12] web search. That's what it's doing in
+- [12:14] the background. Now, I don't have to
+- [12:15] fill anything out here, but you can
+- [12:17] actually change the context size to be
+- [12:19] high. You want it to be able to look for
+- [12:22] a lot of information. The high lets you
+- [12:24] do that. So, I'm going to go ahead and
+- [12:25] add that. And the output format is going
+- [12:27] to be text. I'm going to get text and
+- [12:29] I'm going to pass it to the next agent
+- [12:31] as text. Now, already we have an AI
+- [12:34] agent. Okay. So, if I press play right
+- [12:37] on top here, it's gonna bring this
+- [12:38] chatbot. And if I talk to this chatbot,
+- [12:41] it's going to go and try to get us
+- [12:42] leads. Okay. but it will get us leads
+- [12:45] and respond to us in chat format, which
+- [12:47] again we could use just about any
+- [12:49] chatbot for what we want to do now is
+- [12:52] actually get those leads to nicely
+- [12:53] format in our Google sheet and then
+- [12:56] reach out to them with email with our
+- [12:58] follow-up agent. So the sequence of
+- [12:59] agents is going to do that for us. So
+- [13:01] we'll go back to edit mode here. Now
+- [13:03] let's grab another agent node. We'll
+- [13:05] drop that here. So again, they are not
+- [13:08] connected by default. You have to grab
+- [13:10] this right here and then connect them
+- [13:12] like that. And with this agent, what
+- [13:15] we're going to do is this is going to be
+- [13:17] our data entry agent. So, it's going to
+- [13:19] take the leads that it found based on
+- [13:21] the different columns for our sheet that
+- [13:22] we told it and it's actually going to
+- [13:24] input those into that. So, with each
+- [13:26] agent, you want it to have a pretty
+- [13:28] narrow role. That's how you get it to
+- [13:29] really do what you want for the most
+- [13:31] part, right? You don't want it to give
+- [13:32] it five different things to do like you
+- [13:34] might with chat GPTs. Kind of one at a
+- [13:36] time and then you could just stack those
+- [13:38] agents on top of each other. Okay. Now
+- [13:40] this data entry agent might seem a
+- [13:42] little bit complicated because it will
+- [13:44] have to use an MCP server to do it. Now
+- [13:47] if you use other versions of AI agent
+- [13:50] platforms that let you build them for
+- [13:52] example make Zap year and N8N they
+- [13:56] directly connect to other tools like our
+- [14:00] Google sheet. This does not. This
+- [14:02] requires an MCP server to connect to
+- [14:04] different things and we'll actually use
+- [14:06] Zapier in between the two. Okay. So, I'm
+- [14:09] going to go to tools. I'm going to press
+- [14:10] the plus sign and I'm going to choose
+- [14:12] MCP server. Hopefully, they just roll
+- [14:15] out those other tools like the other
+- [14:16] platforms have it. So, you don't have to
+- [14:18] do this middle part here. Now, there are
+- [14:20] some tools that are related, even Google
+- [14:22] Drive, but the actions within those is
+- [14:24] very limited right now. And Google Sheet
+- [14:26] is just not one we could select here.
+- [14:28] Even the Google Drive option doesn't
+- [14:30] really do what I want in this case. But
+- [14:32] the nice thing is Zapier is an app that
+- [14:34] connects bunch of different apps. So,
+- [14:35] I'm going to select this instead. And
+- [14:37] there is a website here, mcp.zapier.com.
+- [14:41] I'm going to go ahead and copy this and
+- [14:43] open this up. It's going to ask you to
+- [14:44] log into a Zapier account. So, if you
+- [14:46] don't have one, you'll have to create
+- [14:47] one here. They do have some free credits
+- [14:49] available with it, but sometimes you may
+- [14:52] have to upgrade depending on if this
+- [14:53] ends up being really useful for you and
+- [14:55] you're going to use it a lot. And with
+- [14:57] Zapier, I could basically connect to
+- [14:59] 8,000 different apps and they have like
+- [15:01] thousands of actions across all those
+- [15:03] apps that you could use. So it could
+- [15:05] find a Google sheet, it could write in
+- [15:07] it. All those things are done through
+- [15:08] Zapier. And then once you log into
+- [15:10] Zapier, I'm going to choose this one,
+- [15:12] new MCP server right on top. And then
+- [15:15] it's going to ask us what our client is.
+- [15:17] That's just basically the company and
+- [15:19] the API that we want to use. So OpenAI
+- [15:22] agent builder. That's the platform we're
+- [15:23] using. So we're going to choose that.
+- [15:25] I'll call this lead genen agent here.
+- [15:27] And we'll create our server. Then it
+- [15:29] asks you what tool this MCP server has
+- [15:31] access to. What can it do? Google sheet.
+- [15:34] And in this case, we want the agent to
+- [15:37] be able to create rows inside of the
+- [15:40] Google sheet we already created, right?
+- [15:42] You can give it access to all kinds of
+- [15:43] different things that you can do inside
+- [15:45] of Google sheet. I'll choose this option
+- [15:46] right here. And you could also choose
+- [15:49] some configuration here. So obviously I
+- [15:51] need to choose an account for my Google
+- [15:53] Drive. Then I'm going to choose right
+- [15:55] here, set a specific value from my
+- [15:57] Google Drive. I'm going to choose my
+- [15:59] Google Drive here. And then we want a
+- [16:01] specific spreadsheet, right? because I
+- [16:03] only give it access to that spreadsheet.
+- [16:05] So, I'm going to say right here, set a
+- [16:08] specific value and then I picked that
+- [16:10] specific spreadsheet. So, that's why I
+- [16:12] created the spreadsheet as the very
+- [16:14] first task inside of the same Google
+- [16:16] account. So, make sure that was the
+- [16:17] first thing you did here. And I also
+- [16:20] made sure the worksheet is set to sheet
+- [16:22] one. That document only had one sheet.
+- [16:25] So, this is just more extra here. But
+- [16:27] everything else I'm going to leave on
+- [16:29] default, right? The AI needs to fill out
+- [16:31] all those different things. But you can
+- [16:32] see it pulled in that information at
+- [16:34] least the header for all those different
+- [16:36] sections of that sheet. So I'm going to
+- [16:38] save this. Now we have to connect it to
+- [16:40] OpenAI. So right on top it's going to
+- [16:41] tell you that's your next step. Now this
+- [16:43] creates a API key or basically a secret
+- [16:46] key. It's a handshake between these two
+- [16:48] platforms. So they could actually talk
+- [16:50] to each other. So copy this with APIs.
+- [16:53] Anytime you see APIs just that's a key
+- [16:55] that lets two different apps talk to
+- [16:57] each other. in this case, the agent
+- [16:59] builder and our Zapier account. So, I'm
+- [17:02] going to copy this one. And this is the
+- [17:04] Zapier MCP server that we've created.
+- [17:07] I'll go back to agent builder and we'll
+- [17:09] type in that API key here. This is our
+- [17:11] Zapier MCP. So, I'm going to connect the
+- [17:13] two. Now, this part is actually asking
+- [17:15] you, do you want it to access and add
+- [17:17] other tools and edit other tools? I
+- [17:19] actually don't want that. I want to
+- [17:21] limit the control that this server has.
+- [17:23] I don't want it to just add bunch of
+- [17:24] tools in Zapier. doesn't need to do that
+- [17:27] in this case, but you can add that and
+- [17:28] it's on by default. I only want it to
+- [17:31] have access to the thing I'm telling it
+- [17:32] to do so it doesn't get confused. So,
+- [17:35] very specifically, I check this on and
+- [17:37] I'm going to add it. And then you'll see
+- [17:38] it added it over here. One more thing I
+- [17:41] actually forgot to add here. So, I'll go
+- [17:43] back to it. Under approval, always
+- [17:45] require approval for all tool calls. In
+- [17:48] this case, I could say never require
+- [17:50] approval. Now, you can turn this on if
+- [17:52] you're going to give it access to bunch
+- [17:53] of tools and it might have too much
+- [17:55] control. In this case, I limited it, so
+- [17:57] I'm going to say never. So, it doesn't
+- [17:59] ask me and it could go to work and I'm
+- [18:01] going to update it. So, anytime you
+- [18:02] could click a tool to update it
+- [18:04] settings. Okay. Now, every single time
+- [18:06] you create an agent, the instruction
+- [18:08] part is a very important part. So, let's
+- [18:10] go ahead and open this up. So, in this
+- [18:12] case, I really spelled out exactly what
+- [18:15] I want to happen. So if I was teaching
+- [18:18] someone for the very first time how to
+- [18:20] do this for me, I would walk them
+- [18:22] through and they would watch me do it.
+- [18:24] So while I was doing it manually, I just
+- [18:27] wrote down all the steps, right?
+- [18:29] Retrieve the lead information from the
+- [18:31] previous agent and then pass it to this
+- [18:33] agent. And these are the things I want
+- [18:35] you to put in these columns. And that's
+- [18:37] it for this agent. We'll go ahead and
+- [18:39] save this one here. And we'll have our
+- [18:41] final agent. So, so far it's going to go
+- [18:44] search the web, find the leads based on
+- [18:45] what we're going to give it in chat.
+- [18:47] Then it's going to go and add that to
+- [18:49] our Google sheet. Then we're going to
+- [18:51] actually have the agent outreach. So,
+- [18:54] I'll call this one outreach agent. So,
+- [18:55] this will literally do the outreach for
+- [18:57] us, right? It's not just finding leads,
+- [18:59] giving us a sheet. I wanted to take that
+- [19:02] even a further step here. And since I
+- [19:04] already showed you Zapier, which is
+- [19:05] probably the most complicated part of
+- [19:07] using this is that MCP server. So, it
+- [19:09] can't find tools. I just felt like
+- [19:11] without tools, this would not be that
+- [19:13] good of a video. I feel like custom GPTs
+- [19:16] could almost do that inside of chat GPT.
+- [19:19] Now, this also needs that tool first.
+- [19:21] Let me just change the agent and then
+- [19:23] we'll come in and put in our
+- [19:24] instructions here, but let's go ahead
+- [19:26] and choose our Zapier tool. So, it's
+- [19:28] going to be MCP server Zapier again. So,
+- [19:31] same kind of thing we looked at before
+- [19:32] by going to this site again, this
+- [19:34] portion. Okay, it took us to the same
+- [19:36] place again, but we're going to add a
+- [19:38] new tool and this is going to be Gmail.
+- [19:39] So you could send out an email and draft
+- [19:41] it. And with Gmail, we want to create a
+- [19:44] draft. So you could search up here,
+- [19:46] create, create a draft is what we want.
+- [19:49] In this case, I do want to manually look
+- [19:50] at this, but then I could just go
+- [19:52] through a bunch of different email
+- [19:54] drafts that is created for us and then
+- [19:56] press send. I find that to be a little
+- [19:57] bit safer. And for configuration, again,
+- [20:00] add to your right accounts. Now, the
+- [20:02] body needs to be generated with AI, so
+- [20:04] we're going to leave that. But we do
+- [20:05] have some advanced options. One of them
+- [20:07] that I do recommend is body type. You
+- [20:10] could actually set this to be HTML. So,
+- [20:13] I'm going to change it to specific and
+- [20:15] I'm going to change it to HTML just
+- [20:16] because HTML just creates better
+- [20:18] formatting, the headings and things like
+- [20:20] that. But the plane sometimes does work.
+- [20:22] This is one thing I do like to change.
+- [20:23] So, I'll save that. The Google sheet
+- [20:25] also needs to be able to look up a
+- [20:27] Google sheet because the previous one
+- [20:28] only let us write something in a Google
+- [20:30] sheet. So, I'm going to add a tool.
+- [20:31] We'll use Google sheet again, but this
+- [20:33] time I want to look up a specific row in
+- [20:36] a sheet. So, we'll select this option.
+- [20:38] And then again, I'm going to choose
+- [20:39] specifically that sheet, right? That
+- [20:41] spreadsheet. Even though AI might be
+- [20:44] able to guess that, I don't want it to
+- [20:45] make any mistakes. And the worksheet,
+- [20:47] again, I'm going to choose that one to
+- [20:49] be our only sheets there. Okay. And
+- [20:52] everything else I'm going to leave on
+- [20:54] default. So, pretty much every time I'm
+- [20:56] just choosing that specific sheet here
+- [20:58] to make sure it doesn't look elsewhere
+- [21:00] in my Google sheet or my Google Drive.
+- [21:02] And then one more tool inside of Google
+- [21:05] Sheet that I need to add, which is
+- [21:07] updating the sheet. I'll choose this one
+- [21:09] here with line item support. I'll choose
+- [21:12] advanced and then do the exact same
+- [21:14] thing. Basically, choose the right
+- [21:15] spreadsheet and limit it to that one
+- [21:18] sheet on that spreadsheet. Let's save
+- [21:20] that. Okay. So, Google Sheets has three
+- [21:21] different actions that it could take
+- [21:23] inside of that tool. and Gmail has one
+- [21:25] now. And all we have to do is go to
+- [21:27] connect here, copy our secret key, and
+- [21:29] then take it to our agent builder.
+- [21:32] Again, I'll name it the same thing here.
+- [21:33] Let's connect. I changed the approval to
+- [21:35] never require. And I also uncheck these
+- [21:38] two that are checked by default. And
+- [21:40] I'll add it now. And for our
+- [21:42] instruction, I really spelled out what I
+- [21:44] want to happen here. And you could ask
+- [21:46] chat GPT to kind of help you expand it
+- [21:48] out if you just use a few couple of
+- [21:51] sentences maybe to describe it. But I
+- [21:53] like to really spell out step by step
+- [21:55] what's happening. I just found it that
+- [21:57] prompt engineering with these system
+- [21:59] prompts makes for good AI agents.
+- [22:01] Otherwise, it's going to be a little bit
+- [22:03] frustrating because it's just going to
+- [22:04] go off the rails here. But again, I'll
+- [22:07] have a sheet with what I'm using here
+- [22:09] with those three different agents and
+- [22:10] the system prompt you could copy and
+- [22:12] paste. And it's ultimately saying to
+- [22:14] find the leads and then draft a tailored
+- [22:16] email. That's why I had a one row that
+- [22:19] had the description field that made that
+- [22:22] difference. So, it has that information
+- [22:24] to actually make a better email
+- [22:27] outreach, right? It actually finds
+- [22:29] things that are relevant to that
+- [22:30] business. It's not just a plain email
+- [22:33] it's writing every time. That's the
+- [22:34] whole point of the lead genen to
+- [22:35] customize it for that business here. And
+- [22:37] it will also be able to change what's on
+- [22:39] that row. So, I know an email has been
+- [22:41] sent for example. So, right now
+- [22:44] everything was set to no. it will change
+- [22:45] it to yes once it drives that email. So
+- [22:48] we'll save that. Okay. I'm going to go
+- [22:49] back to that same sheet. I'm just going
+- [22:51] to erase everything. So then we'll
+- [22:53] populate here with new information.
+- [22:55] Okay. Now with the agent complete, all I
+- [22:57] have to do is go up here and it creates
+- [22:59] a chatbot for us. Right. So this is the
+- [23:01] same as talking to chat GPT except it's
+- [23:04] now going to go through this workflow,
+- [23:06] reference everything we have. And my
+- [23:07] prompt actually in this box is really
+- [23:09] simple. Find me five video production
+- [23:11] companies in Chicago. So, you just have
+- [23:12] to type in the type of business and the
+- [23:14] location. And the type of business could
+- [23:17] be anything, dentists, law firms. It
+- [23:19] will still work with all the system
+- [23:20] prompts that I've set up. So, this is
+- [23:23] going to first, you'll see every time an
+- [23:25] agent gets called, it will go to work.
+- [23:27] So, the start node was just the chat is
+- [23:30] finding me those video production
+- [23:31] companies here. And then now, okay, it
+- [23:34] found me five. The data entry agent is
+- [23:37] going to go ahead and add that to our
+- [23:38] sheet, which I've cleared out here. And
+- [23:42] let me let this one go to work here.
+- [23:44] This may take a few minutes. Okay. So
+- [23:46] then your second agent should populate
+- [23:49] this Google sheet with the all the right
+- [23:51] information and with the email address.
+- [23:54] And in this case, all these emails that
+- [23:56] are set to be sent should say no. And
+- [24:00] the descriptions all should be different
+- [24:01] here because it's going to use that
+- [24:03] information to create a custom email for
+- [24:05] every single person. It's not copy and
+- [24:07] pasting the same exact email. And then
+- [24:09] the third agent is the outreach agent
+- [24:12] that should create the drafts for you in
+- [24:14] your inbox. So these are the different
+- [24:16] drafts that I have here. And I'll click
+- [24:18] on one of them. And it's nicely
+- [24:20] formatted here. It has the subject line
+- [24:22] that is different based on that
+- [24:23] production company here. And this part
+- [24:26] of the email is different every time.
+- [24:29] That's what the agent extracted. Now you
+- [24:31] could personalize this a lot more a lot
+- [24:34] differently than mine based on your
+- [24:36] system prompt, right? So, make sure your
+- [24:38] system prompt tells you how you want the
+- [24:40] email. You could even give it an exact
+- [24:42] type of a email template. And you could
+- [24:44] always publish these. And I actually
+- [24:46] forgot to name this one. You could
+- [24:47] always name it right on top here. So,
+- [24:49] we'll name it now AI Legent Agent and
+- [24:52] publish. Now, this is going to be
+- [24:53] published in your workspace. So, this is
+- [24:56] how I would use it every time. You'll
+- [24:57] come back and use it here with press and
+- [24:59] play and use it here. Now this is where
+- [25:01] it gets a lot more complicated and
+- [25:03] definitely requires a lot more advanced
+- [25:05] knowledge and even a developer. They
+- [25:07] have something called chatkit which then
+- [25:10] you would have to share to add this to
+- [25:12] your website. So this part does require
+- [25:14] a lot more advanced knowledge. If you
+- [25:16] want to put this in your app or your
+- [25:18] website, I recommend getting a developer
+- [25:21] for this step. Just build the agent,
+- [25:23] test it out. You could use it here
+- [25:25] anytime you want. But if you do want to
+- [25:27] add it to your website, definitely not
+- [25:29] simple right now. I still use Chatbase.
+- [25:31] That's my favorite platform for creating
+- [25:33] agents that could easily get embedded to
+- [25:36] your website. I have plenty of videos
+- [25:37] about that on my channel as well. Now,
+- [25:39] as I'm recording this, the Zapier MCP
+- [25:42] that is in beta. The OpenAI agent
+- [25:45] builder also in beta. So, you may come
+- [25:47] across some issues. I just wanted to
+- [25:49] make this video as this came out, but it
+- [25:51] does have issues. It sometimes took me
+- [25:53] three or four different chats to get it
+- [25:56] to work. That's why I don't think it's
+- [25:57] ready for publishing publicly, but it's
+- [26:01] great as an internal tool. So, hopefully
+- [26:03] this gives you a good understanding of
+- [26:04] what the Open AI agent builder is and
+- [26:07] how to get something out of it that is
+- [26:09] useful. And there are plenty of other AI
+- [26:11] agent builders out there. Some of them
+- [26:13] are a lot easier like Zapier, Make Natn,
+- [26:16] and even Google has a new one too. And
+- [26:19] I've covered most of them on this
+- [26:20] channel. So, I'll put some resources in
+- [26:22] the description. And on our platform,
+- [26:24] Skill, we also have an AI agent builder
+- [26:27] course along with 30 other courses that
+- [26:29] you get access to. I recommend you watch
+- [26:31] that with the free trial and I'll link
+- [26:33] that in the description below this
+- [26:34] video, too. Thanks so much for watching
+- [26:36] this video and I'll see you on the next

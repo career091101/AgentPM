@@ -1,0 +1,497 @@
+---
+title: "In this video, I will show you how you can build your first AI agent in less than 20 minutes."
+video_id: "Jekzc6BM5_w"
+video_url: "https://www.youtube.com/watch?v=Jekzc6BM5_w"
+speaker: "showing"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  In this video, I will show you how you can build your first AI agent in less than 20 minutes
+  No prior technical background needed
+  We are going to use a leading AI automation platform called Zapier
+key_points:
+  - "AI agent in less than 20 minutes"
+  - "phase what we are going to do is we will come up with a confidence score"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:28:28+09:00"
+---
+
+# Transcript: Jekzc6BM5_w
+
+- URL: https://www.youtube.com/watch?v=Jekzc6BM5_w
+- Retrieved at: 2025-12-30T10:28:28+09:00
+
+## Text
+
+- [00:00] In this video, I will show you how you
+- [00:01] can build your first AI agent in less
+- [00:04] than 20 minutes. No coding experience
+- [00:06] required. No prior technical background
+- [00:09] needed. We are going to use a leading AI
+- [00:11] automation platform called Zapier. Let's
+- [00:14] jump into our problem statement. Now, we
+- [00:16] are going to build a customer support AI
+- [00:18] agent for an online e-learning company
+- [00:22] and that company is my own company
+- [00:24] codebasics. We have this platform
+- [00:26] codebasics.io IO where we have boot
+- [00:28] camps, courses, etc. We have more than
+- [00:32] half million registered users on this
+- [00:34] platform and we have a team of software
+- [00:37] engineers, video editors, customer care
+- [00:39] representatives, etc. We obviously get
+- [00:42] lot of emails and I'm showing you my
+- [00:45] actual email inbox. You see 10,000
+- [00:48] emails and we get all these emails, you
+- [00:50] know, is there a job placement? Okay,
+- [00:52] I'm trying to buy machine learning
+- [00:53] course but I have this question. There
+- [00:55] are tons of emails that we get and our
+- [00:58] learner experience team or customer
+- [01:01] support team takes care of these emails.
+- [01:04] Now Vishal is one of the members of our
+- [01:07] learner experience team and he gets
+- [01:09] bombarded with all these questions. He's
+- [01:12] very passionate about education and he
+- [01:14] writes responses based on the reference
+- [01:17] material that we have. So let's say if
+- [01:19] someone is asking okay what is your
+- [01:21] refund policy? that policy will be
+- [01:23] mentioned in our course brochure or it
+- [01:26] will be in some Excel containing FAQs.
+- [01:29] So we have all this reference material
+- [01:32] that contains the truth you know that
+- [01:34] that contains the answers and our
+- [01:38] customer care representatives will look
+- [01:40] into that material and they will respond
+- [01:42] to a learner questions. Uh after some
+- [01:46] time they will get trained and they will
+- [01:47] know how to respond it even without
+- [01:49] looking into that material. Now to
+- [01:52] reduce their workload we can build an AI
+- [01:56] agent that will have access to same
+- [01:59] reference material and it can produce
+- [02:01] the answer using LLM. Now we know that
+- [02:05] LLM can hallucinate and we have a good
+- [02:09] brand and good reputation in the market
+- [02:12] and we don't want these AI agents to
+- [02:14] respond directly. So in the first phase
+- [02:18] what we are going to do is we will come
+- [02:20] up with a confidence score. So let's say
+- [02:23] whatever answer this agent is producing
+- [02:25] if it is high confidence then that
+- [02:28] answer which will be drafted as an email
+- [02:32] will be given to our learner experience
+- [02:34] team and they will just hit send button.
+- [02:36] Okay. So let's say on average Val takes
+- [02:40] 5 minutes to respond to a learner query.
+- [02:44] Now since the answer is already drafted
+- [02:47] by this AI agent, he will quickly review
+- [02:50] it in 10 seconds let's say and he will
+- [02:52] hit the send button. So 5 minute is now
+- [02:55] reduced to 10 seconds or 15 seconds
+- [02:58] which is a huge improvement. If you look
+- [03:00] at the scale then there will be some
+- [03:02] answers where LLM will not be confident.
+- [03:05] Okay. So it says okay I have a low
+- [03:07] confidence. So we'll generate a score
+- [03:09] between 1 to 10 and let's say if the
+- [03:11] score is greater than seven it is high
+- [03:14] confidence. So in that case the answer
+- [03:16] will be drafted and it will it will be
+- [03:18] ready in Vishal's inbox. Okay the draft
+- [03:20] will be ready. All he has to do is
+- [03:23] review it and click on send button. But
+- [03:26] if the score is less than seven, it is
+- [03:29] low confidence and we will send a
+- [03:32] WhatsApp notification to the mobile
+- [03:34] phone that is associated with our
+- [03:35] learner experience team and someone from
+- [03:39] that team will look into it and they
+- [03:41] will draft an email. They will send an
+- [03:43] email manually. So this this will be
+- [03:45] like old way. Okay. So this will take
+- [03:48] still 10 minutes but the hope is that we
+- [03:53] can uh handle 80% let's say 80% of our
+- [03:57] question if we can handle it with high
+- [03:59] confidence that's a huge improvement in
+- [04:02] the current process because you already
+- [04:04] saw for real we had 10,000 emails if out
+- [04:08] of that let's say 8,000 emails okay
+- [04:12] which is 80%
+- [04:14] are high confidence answer and In every
+- [04:17] answer if you are saving let's say 10
+- [04:20] minutes or less let's say even if you're
+- [04:22] saving 5 minutes okay you are saving
+- [04:24] 40,000 minutes of learner experience
+- [04:28] team's time okay so that is the goal of
+- [04:31] this AI agent now you might have a
+- [04:33] question what exactly is an AI agent I
+- [04:36] have produced videos on this before so
+- [04:37] if you have seen my videos on what is AI
+- [04:39] agent you can skip this section
+- [04:41] otherwise I will quickly give you an
+- [04:43] idea see when you are typing a question
+- [04:45] to chat GP GPT chat GPT is powered by
+- [04:48] some kind of LLM. Right? So right now it
+- [04:50] is GPT 5. If you are using claude it
+- [04:54] will be uh claude h high sonate etc. The
+- [04:58] model can be anything right? It can be
+- [05:00] gemini any model. These models will
+- [05:02] produce the answer. Now if the question
+- [05:04] is okay plan a 3-day trip to Australia
+- [05:06] or how many planets are there in a solar
+- [05:09] system it will produce the answer
+- [05:10] because this is something it has seen in
+- [05:14] pre-training phase. Okay. So these LLM
+- [05:17] models are trained till certain
+- [05:20] knowledge cutff date and if the question
+- [05:23] is in that knowledge it will answer it.
+- [05:25] But let's say if you ask this question
+- [05:26] what is the price of Emirate flights
+- [05:28] from New York to Delhi tomorrow? Well,
+- [05:31] it doesn't know that because it has a
+- [05:32] knowledge cutff. Let's say this model
+- [05:34] was trained on data till December 2024,
+- [05:37] it will say okay, I can't answer it. But
+- [05:39] you have noticed that if you ask this
+- [05:41] question to chat GPT, it will do
+- [05:43] internet search and it will still answer
+- [05:45] it. Okay, so see this first scenario is
+- [05:48] generative AI with only LLM. But chat
+- [05:51] GPT is an agentic application. So what
+- [05:54] it will do is chatgpt or you can build
+- [05:56] your own application where you can have
+- [05:58] access to internet you can have access
+- [06:00] to expedia API or make my trip.com API
+- [06:05] whatever API can give you the latest
+- [06:07] flight prices you can give the access of
+- [06:10] that API to your LLM and using that API
+- [06:14] LLM will be able to produce the answer.
+- [06:17] It's like if I tell you that okay a
+- [06:19] drill a hole in the wall you won't be
+- [06:22] able to do it you are LLM but if I give
+- [06:25] you a tool let's say hammer a drill then
+- [06:27] you'll be able to do it right because
+- [06:29] that is a tool so similarly this Xedia
+- [06:31] API is a tool through which it will be
+- [06:33] able to produce this answer not only
+- [06:36] that you can say okay book me the
+- [06:38] cheapest flight and it has access to
+- [06:40] Xedia API so what LLM can do is it can
+- [06:43] do thinking you might have seen this
+- [06:45] thinking prompt you know Whenever you
+- [06:47] type any question chat GPT or claude or
+- [06:50] Gemini will say thinking. So if you ask
+- [06:53] this kind of question uh it will search
+- [06:55] for flights you know then it will decide
+- [06:58] the cheapest flights. So let's say it
+- [07:00] found five flights then it will decide
+- [07:02] the cheapest price. Okay this is the
+- [07:03] cheapest flights and it will book it.
+- [07:05] See this is the big difference folks. So
+- [07:07] if you're dealing with chat GPT or any
+- [07:10] plane Q&A type LLM app you are asking a
+- [07:14] question it is producing the answer. But
+- [07:16] what agent will do is it will take an
+- [07:19] action. See flight booking is an action
+- [07:21] right? See if I'm asking you question
+- [07:23] you are given the answer that is simple
+- [07:24] Q&A. But here it is booking the flight.
+- [07:27] So that is what is the key here in
+- [07:30] agent. Okay. So it will say okay flight
+- [07:32] booked for $1,200
+- [07:34] etc. So this is an AI agent. So AI agent
+- [07:38] is a program that takes the input. It
+- [07:40] will think and act to complete a task
+- [07:43] using tools, memory and knowledge. Okay.
+- [07:47] So AI agent will take an action. It is
+- [07:50] not just simple Q&A. It will take an
+- [07:52] action. Also, it is autonomous. So
+- [07:55] autonomous but narrow. Okay. So it it
+- [07:58] has some kind of autonomy
+- [08:02] where it is taking an action. So in our
+- [08:04] case this AI agent has access to tools
+- [08:09] such as Gmail or WhatsApp because see
+- [08:12] when it is drafting an email it will
+- [08:15] draft that email using Gmail or Outlook
+- [08:17] whatever is your email tool you can
+- [08:20] integrate that with your AI agent and it
+- [08:22] is using that right so it is using Gmail
+- [08:24] WhatsApp as a tool it also has access to
+- [08:27] boot camp brochure FAQ so this is called
+- [08:30] knowledge okay so this is knowledge this
+- [08:32] is tool it will have its own memory and
+- [08:34] using that it will take the question and
+- [08:37] it will take some action. So it will go
+- [08:40] to your Gmail, it will write an email
+- [08:43] actually and put it in a draft. So it
+- [08:45] took that autonomous action or if it is
+- [08:48] low confidence it will send a
+- [08:50] notification on your WhatsApp. See in
+- [08:52] both the cases it is taking an
+- [08:54] autonomous action and it has access to
+- [08:58] tools, knowledge etc. Therefore this is
+- [09:01] an AI agent. Let's build this AI agent
+- [09:04] in Zapier. Now I will start the timer to
+- [09:06] see how much it takes to create this
+- [09:08] agent. We are using Zapier which is an
+- [09:11] AI automation platform. You can log in
+- [09:14] here using your Google account. They
+- [09:17] provide a free trial version with some
+- [09:19] credits. So we are going to use that. I
+- [09:21] have logged in using my account and on
+- [09:25] the left hand side you will see this
+- [09:27] option for agents. So just click on that
+- [09:30] and here we will create a new agent. I
+- [09:33] have some previous agent so I'll just
+- [09:34] disable them. Okay. And let's create a
+- [09:38] new agent by clicking on this button.
+- [09:41] They provide a bunch of templates so you
+- [09:42] don't have to do the work from scratch.
+- [09:45] Here I will select support email agent.
+- [09:49] So click on use this template and you
+- [09:52] will be asked to link uh to your email
+- [09:56] account. So here I have already
+- [09:58] connected to my account. In your case
+- [10:00] you have a new setup. You will say
+- [10:02] connect new account and you will follow
+- [10:04] the steps to connect your Gmail account
+- [10:06] with this. Click on create and then here
+- [10:12] you will be able to modify this prompt.
+- [10:15] So they give you by default some prompt.
+- [10:19] In our case in code basics we have come
+- [10:22] up with this prompt which aligns with
+- [10:25] our brand value. Okay. So let me just
+- [10:29] copy paste that prompt here. We did some
+- [10:31] iteration obviously. So Ctrl Ctrl + V.
+- [10:35] And the prompt says that you are an AI
+- [10:38] agent supporting the learner experience
+- [10:40] team at Code Basics. And when you get
+- [10:42] any query, you have to determine the
+- [10:44] intent first. And we have two major
+- [10:46] products, data analytics boot camp and
+- [10:48] data science boot camp. So you figure
+- [10:51] out which boot camp it is and you have
+- [10:53] to attach your brusher. Okay. So here
+- [10:56] let me attach the data science brochure.
+- [10:58] So you see this is just a placeholder.
+- [11:01] So here put your mouse focus here and
+- [11:06] say add tools and then the beauty about
+- [11:08] Zepier is that it provides integration
+- [11:11] with 7,000 plus applications. So you
+- [11:14] click here and connect to your Google
+- [11:17] drive. So my brochures are available in
+- [11:19] the Google drive here. So this one is a
+- [11:23] data science brochure. So say it has
+- [11:25] information about the boot camp uh
+- [11:28] frequently asked questions what modules
+- [11:30] are covered is it online is it
+- [11:33] pre-recorded classes you know we have
+- [11:35] all that information another brochure is
+- [11:38] data analytics boot camp brochure okay
+- [11:41] so we are going to provide you all this
+- [11:43] material brochure and the prompt
+- [11:44] everything so check video description
+- [11:46] below and here click on data integration
+- [11:50] so in data integration it will ask you
+- [11:52] to select your Google account then you
+- [11:55] can select your drive. In my drive I
+- [11:57] have this email folder where I have kept
+- [11:59] my brcher. The first one is a data
+- [12:02] science and AI boot camp. So I will
+- [12:03] select that. Add a data source. And you
+- [12:07] see it has added this source. So I can
+- [12:09] remove this placeholder. Whatever is in
+- [12:11] bracket I can remove that. And the
+- [12:14] second one I will add is data analytics.
+- [12:17] So put your mouse cursor here. Follow
+- [12:20] the same steps. Okay. Add tools Google
+- [12:23] Drive data integration.
+- [12:26] Select the account
+- [12:29] folder email and DA boot camp brochure.
+- [12:33] Okay. Add data source. All right. Then
+- [12:36] you have few other uh placeholders as
+- [12:39] well. So the first one is Gmail create
+- [12:43] draft reply. So put your mouse cursor
+- [12:46] here and once again say add tools. So
+- [12:50] whenever you have high confidence answer
+- [12:53] you want it to connect to your Gmail and
+- [12:55] create that draft. So that is what this
+- [12:57] tool is. So click on add tools and I
+- [13:02] have already created Gmail create draft
+- [13:05] reply but let me let me just remove it.
+- [13:08] Remove from the agent. Okay. And add it
+- [13:11] again. So Gmail in Gmail you will say
+- [13:15] create draft reply. See and then remove
+- [13:20] that placeholder text that we have. And
+- [13:23] the last one is WhatsApp. Okay. So here
+- [13:28] if the answers confidence score is less
+- [13:31] than seven, you want to notify over
+- [13:34] WhatsApp manually. So you'll just say
+- [13:37] add tools
+- [13:39] and
+- [13:40] here WhatsApp just type in WhatsApp
+- [13:44] WhatsApp notifications
+- [13:47] send a message
+- [13:50] and click on this cog wheel to connect
+- [13:54] it to your phone number. So here I have
+- [13:56] given a phone number of my customer
+- [13:58] support team and just say save. That's
+- [14:02] it folks. This agent is now ready. You
+- [14:06] will enable this agent by clicking on
+- [14:09] this. So that way the agent is enabled.
+- [14:11] You can do agent preview. You can test
+- [14:16] it here. We are going to just test it
+- [14:18] directly. Okay. So if you go back
+- [14:23] and click on my agents, see whatever
+- [14:26] agent we created, it is now ready here.
+- [14:30] Now I'm going to ask a question using a
+- [14:32] different email id. So I have this email
+- [14:35] id. Let's say this person is a student
+- [14:38] of code basics or a potential student.
+- [14:40] Okay. And they will ask this question.
+- [14:44] So code basics is the email id for
+- [14:46] customer support team at code basics and
+- [14:50] I am going to ask a question
+- [14:53] question on DS and AI boot camp. I will
+- [14:57] say hey I have a question you know what
+- [15:00] is your refund policy
+- [15:05] on DS and AI boot camp.
+- [15:10] Okay send. So now the email is sent. So
+- [15:15] if you look at the email here which is
+- [15:17] this particular email. So this is the
+- [15:19] email id of customer support team at
+- [15:22] code basics and they got a question.
+- [15:25] Normally a customer care representative
+- [15:28] or from the learner experience team will
+- [15:31] manually respond to it. But see we are
+- [15:33] not going to do anything. We'll just
+- [15:34] wait because the agent is running. So if
+- [15:36] you click on it and if you click on
+- [15:39] activity
+- [15:41] after some pause you will see it
+- [15:43] running. So see now after waiting for a
+- [15:46] minute or so I'm seeing this in
+- [15:49] progress. So the agent is running and
+- [15:51] you will see all the steps. Step one is
+- [15:53] determining intent. Then it is looking
+- [15:56] for answers in the document. So it is
+- [15:58] now looking at that particular document.
+- [16:01] Okay. And it it kind of found some
+- [16:06] matching content. So see it is looking
+- [16:09] at it. So we will wait for it to finish
+- [16:12] the run. See now it is complete and it
+- [16:15] found the answer. It said that okay
+- [16:19] answer found you know 100% refund within
+- [16:21] 30 days of enrollment and that is
+- [16:23] exactly what our policy is. So it's a
+- [16:25] 100% accurate answer. It assigned a
+- [16:28] score of 9 out of 10. So now let's look
+- [16:30] at our email ID. Look at this folks. Do
+- [16:33] you see this draft icon? So when I click
+- [16:35] on it, see I am Vishal. I'm from
+- [16:38] customer care team and I'm sleeping
+- [16:40] during the night and it got this
+- [16:42] question my agent run and agent created
+- [16:46] this draft already. So now see hey there
+- [16:49] thank you for reaching out to code a
+- [16:50] great question about this. See we offer
+- [16:52] 100% refund within 30 days. This is
+- [16:55] exactly what Vishal would have responded
+- [16:57] in a nice and friendly tone. If you look
+- [17:00] at our prompt we are saying okay respond
+- [17:02] nicely in a friendly tone because that's
+- [17:05] what is our core value.
+- [17:08] And now Vishal can just uh click on send
+- [17:12] button. Okay. And on the other hand see
+- [17:16] I got the response. Thank you for
+- [17:19] reaching out. I mean here it says Peter
+- [17:21] Panda actually Vishal great question.
+- [17:23] See how wonderful this is. You can ask a
+- [17:25] different question. Um
+- [17:29] where we'll check that WhatsApp
+- [17:31] notification flow. Okay. So we'll say
+- [17:33] question on data engineering boot camp.
+- [17:36] Now we have provided brochure for only
+- [17:38] data science and data analytics boot
+- [17:40] camp. We have not mentioned anything
+- [17:41] about data engineering boot camp. Okay.
+- [17:44] So when are you going to launch your
+- [17:47] data
+- [17:49] engineering boot camp? Okay. So let's
+- [17:52] see. Let's send this question. The
+- [17:55] question is sent. Our agent should run
+- [17:58] in a minute. So see I have received the
+- [18:01] question. I will go to my agents tab
+- [18:05] and refresh it. It sometimes takes time
+- [18:08] but you will see the status here. Okay,
+- [18:10] now I'm seeing it. Okay, so it's
+- [18:12] running. So it's going step by step.
+- [18:15] Let's wait till the execution is done. I
+- [18:18] was seeing some errors. So I sent my
+- [18:19] email again and the second time it got
+- [18:23] completed. See it sent a notification on
+- [18:26] WhatsApp because the score confidence
+- [18:30] score that it found was below six. There
+- [18:34] is no concrete answer on data
+- [18:35] engineering boot camp. So when I come to
+- [18:38] my WhatsApp okay like whatever number is
+- [18:41] configured and if you check you will see
+- [18:43] a message on WhatsApp. So you will not
+- [18:45] see any email WhatsApp message will be
+- [18:48] sent to a relevant person from customer
+- [18:51] support team. All right. So, as you can
+- [18:54] see, we built our agent actually in less
+- [18:58] than 10 minutes. You notice that it's
+- [19:01] super easy to build the agents using no
+- [19:05] code tools such as Zapier. All you need
+- [19:08] is common sense. Common sense plus a
+- [19:11] right tool. Using this approach, you can
+- [19:13] build your agent just like this. You
+- [19:16] don't need to know coding. You don't
+- [19:17] need to have a technical background. We
+- [19:19] just built a single agent. You can
+- [19:22] actually build multiple agents and then
+- [19:24] you can have another agent which can
+- [19:25] orchestrate all these individual agents.
+- [19:28] This is called agentic AI. With agentic
+- [19:31] AI you can automate many complex
+- [19:33] workflows. Now you might wonder what are
+- [19:36] the other tools available in the market
+- [19:38] to build agentic AI workflows. Well,
+- [19:41] broadly you can categorize them into
+- [19:43] these two classes. First one is low code
+- [19:46] or no code and second one is using
+- [19:49] agentic AI frameworks such as langraph
+- [19:51] crew AI etc where you will have to do
+- [19:54] coding in the first category the options
+- [19:56] that you have is Zepier N8N make etc.
+- [20:01] You can pick any one of them all of them
+- [20:04] offers free trials. N8N is good for
+- [20:07] small projects, but if you are
+- [20:09] self-hosting, be ready to handle server
+- [20:11] cost, setup, and maintenance. Plus, N8N
+- [20:14] updated their pricing model on August 7,
+- [20:17] 2025, which has affected majority of
+- [20:20] their users running automation at scale.
+- [20:23] Zapier, on the other hand, is fully
+- [20:25] managed and it does not incur additional
+- [20:27] cost like server cost and maintenance
+- [20:30] cost. It also provides 8,000 plus
+- [20:32] integrations right out of the box which
+- [20:35] makes it a better choice for enterprise
+- [20:37] scale large projects. All right, I hope
+- [20:40] you like this video. Please share it
+- [20:42] with your friends who wants to learn
+- [20:44] building AI agents without any coding.
+- [20:46] If you have any questions, there is a
+- [20:48] comment box below. Thank you for
+- [20:50] watching.
+- [20:52] [Music]

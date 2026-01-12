@@ -1,0 +1,432 @@
+---
+title: "Hi, I'm Chris Alexia, a deep learning developer advocate at NVIDIA. Today, I'll be walking you throu..."
+video_id: "cLteGDv1bgA"
+video_url: "https://www.youtube.com/watch?v=cLteGDv1bgA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Hi, I'm Chris Alexia, a deep learning
+  developer advocate at NVIDIA. Today,
+  I'll be walking you through an example
+key_points:
+  - "Hi, I'm Chris Alexia, a deep learning"
+  - "flywheels which are self-reinforcing"
+  - "data from user interactions is captured"
+  - "customize AI agents for precise function"
+  - "set. In this tutorial, we're going to"
+  - "stage, as you can see here, is preparing"
+  - "behavior. For this tutorial, there are a"
+  - "few prerequisites. The first is that we"
+category: "Technical Tutorial"
+confidence_level: "high"
+---
+
+# Transcript: cLteGDv1bgA
+
+- URL: https://www.youtube.com/watch?v=cLteGDv1bgA
+- Retrieved at: 2025-12-30T11:37:34+09:00
+
+## Text
+
+- [00:05] Hi, I'm Chris Alexia, a deep learning
+- [00:07] developer advocate at NVIDIA. Today,
+- [00:10] I'll be walking you through an example
+- [00:11] of making AI agents star performers
+- [00:13] using NVIDIA Nemo microservices. AI
+- [00:16] agents rely on tools to execute complex
+- [00:18] tasks effectively. As the number of
+- [00:21] available tools expand from 10 to
+- [00:23] hundreds, customizing the underlying
+- [00:25] models for tool calling becomes
+- [00:26] increasingly critical to maintain
+- [00:28] efficiency and accuracy. To continuously
+- [00:31] improve AI agents and better provide uh
+- [00:34] you know excellent user experience,
+- [00:36] organizations need to set up AI data
+- [00:38] flywheels which are self-reinforcing
+- [00:40] feedback loops as we see here where the
+- [00:43] data from user interactions is captured
+- [00:46] and then used to refine AI models
+- [00:49] leading to better outcomes and even more
+- [00:51] valuable data for further customization.
+- [00:55] Today we're going to work through an
+- [00:56] end-to-end example demonstrating how to
+- [00:58] customize AI agents for precise function
+- [01:01] calling using the XLAM data
+- [01:03] set. In this tutorial, we're going to
+- [01:06] work through four stages. The first
+- [01:08] stage, as you can see here, is preparing
+- [01:10] data for fine-tuning and evaluation. The
+- [01:13] second stage, customizing the model with
+- [01:15] Laura fine-tuning. The third stage,
+- [01:17] evaluating the accuracy of the
+- [01:19] customized model. And finally, the
+- [01:21] fourth stage, adding some guard rails to
+- [01:23] make sure that our LLM exhibits safe
+- [01:26] behavior. For this tutorial, there are a
+- [01:28] few prerequisites. The first is that we
+- [01:31] do need to make sure our Nemo
+- [01:32] microservices are running. We can do
+- [01:35] this by following this uh link to our
+- [01:38] deployment uh guide. Basically, all you
+- [01:41] need to do is run the microservices
+- [01:44] through the parent helm chart. The
+- [01:46] parent helm chart simplifies setup
+- [01:48] providing all necessary microservices
+- [01:50] conveniently in one step uh to help
+- [01:52] streamline our development workflow. For
+- [01:56] the demo today, we're going to need to
+- [01:58] after setting up our actual Nemo
+- [02:01] microservices add one additional uh item
+- [02:04] which is going to be deploying our llama
+- [02:07] 3.21b instruct nim. This nim can be
+- [02:10] deployed with this simple command. All
+- [02:12] this is going to do is make sure that we
+- [02:14] have the model we'd like to actually
+- [02:16] work with deployed in our microser
+- [02:19] environment. Now, NIM is our inference
+- [02:22] micros service which is easy to use
+- [02:25] basically designed for secure reliable
+- [02:27] deployment of high performance AI models
+- [02:29] you know across cloud data centers
+- [02:31] workstations whatever you're using. So
+- [02:33] that's why we're selecting the NIM.
+- [02:35] Before moving on to the rest of the
+- [02:37] tutorial you'll need to make make sure
+- [02:38] that you set up your config. py. These
+- [02:41] values are going to be provided to you
+- [02:42] during the setup process. Your hugging
+- [02:45] face token will need to be something
+- [02:46] that you provide from your hugging face
+- [02:48] account. Optionally, you can use your
+- [02:51] wand tob API key. And the rest of these
+- [02:53] I recommend leaving as their
+- [02:55] defaults. In order to set up our data,
+- [02:59] first we need to make sure that we have
+- [03:00] the actual data downloaded. And then
+- [03:02] we're going to prepare it for both
+- [03:04] customization and
+- [03:05] evaluation. After some boilerplate in
+- [03:08] the notebook, you're going to be asked
+- [03:09] to go ahead and provide your hugging
+- [03:11] face token. Now, this token will need to
+- [03:13] be associated with an account that does
+- [03:15] have access to this particular data set.
+- [03:17] It's just a simple form submission on
+- [03:19] the hugging face website. But once you
+- [03:21] have that token, you're free to download
+- [03:23] this data set, which is going to be in
+- [03:25] this following, you know, format. Taking
+- [03:27] a little bit of a look at the XLAM data
+- [03:29] set, we can see that the data set is
+- [03:31] comprised of a number of rows where each
+- [03:33] row is going to be associated with a
+- [03:34] query, some answers, and some tools. The
+- [03:38] idea here is that the XLAM data set is
+- [03:41] going to provide our LLM with a query as
+- [03:44] well as some potential tools. And then
+- [03:46] the responsibility of the LLM is going
+- [03:48] to be to generate the correct tool call
+- [03:51] given the list of tools and query. So in
+- [03:54] this case, our answers result is the
+- [03:56] ground truth that we're going to use to
+- [03:58] determine whether or not our LLM
+- [04:00] correctly identified which tool to use
+- [04:03] and when. We need to do a little bit of
+- [04:05] work to make sure this format is
+- [04:07] compatible with both our Nemo customizer
+- [04:09] microser as well as our Nemo evaluator
+- [04:11] microser which is what we're going to
+- [04:13] look at next. To prepare the data for
+- [04:16] customization is fairly straightforward.
+- [04:18] What we're going to do is we're just
+- [04:19] going to make sure that we've provided
+- [04:21] the data in this following format. Now,
+- [04:24] this is specific to customizer in order
+- [04:26] to make sure that it runs well with this
+- [04:28] job. Uh it's going to be important. It's
+- [04:31] in this format. And so, what we've done
+- [04:33] is we've gone ahead and we've provided
+- [04:34] you with an actual helper function to
+- [04:37] help you get this done. Now, the helper
+- [04:39] function has a lot of code, but don't
+- [04:40] worry about it. All you need to do is
+- [04:42] run this convert example, and then we're
+- [04:44] going to run it across the entire data
+- [04:46] set. Once you've done that, your data is
+- [04:48] now in a format that's ready for Nemo
+- [04:51] Customizer Microser. Before we move to
+- [04:53] the next step, however, we're going to
+- [04:55] go ahead and split this data set so that
+- [04:57] we have our classic train, validation,
+- [04:59] and test. Next, we're going to prepare
+- [05:01] some data so that it's compatible with
+- [05:02] the evaluator microser, uh, which we'll
+- [05:04] get to in just a second. As you can see,
+- [05:07] we have the same kind of thing here
+- [05:10] where we need to make sure that our data
+- [05:11] is in a very specific format. What we're
+- [05:14] going to do is use again the helper
+- [05:15] function to help us get into this
+- [05:17] format. You'll notice that all you have
+- [05:19] to do once again is run the convert data
+- [05:21] set and that's going to help you get
+- [05:23] that data into the desired format. Now
+- [05:26] that we have data in our desired format,
+- [05:28] we're good to move on to our actual
+- [05:29] fine-tuning and then evaluation. After
+- [05:32] we've done that, we're going to
+- [05:33] implement some guardrails and then we'll
+- [05:35] have seen the whole endto-end example.
+- [05:37] This whole time we've actually been
+- [05:39] using just Python and we're about to get
+- [05:41] into those microservices. In the next
+- [05:43] step for customization, it's pretty
+- [05:46] straightforward. We just have to do some
+- [05:48] checks. Then we're going to go ahead and
+- [05:50] we're going to upload upload our data to
+- [05:51] Nemo data store. We're going to provide
+- [05:54] the configuration needed to do Laura
+- [05:56] customization through Nemo Customizer.
+- [05:59] And then we're just going to do some
+- [06:00] inference gut checks to make sure things
+- [06:02] are working.
+- [06:03] The first thing we're going to set up is
+- [06:04] a namespace for data store and entity
+- [06:07] store microservices which will be spun
+- [06:09] up as part of the parent helm chart that
+- [06:12] you ran in order to start this tutorial.
+- [06:14] Now you'll notice that what we're going
+- [06:15] to do is create a namespace for both our
+- [06:17] data store and our entity store so that
+- [06:19] we can keep track of things a little bit
+- [06:21] easier. In this next step, what we're
+- [06:23] going to do is upload our data to the
+- [06:25] Nemo data store. So what we're going to
+- [06:27] do is we're going to create a repository
+- [06:28] ID. Then we're going to go ahead and use
+- [06:31] the hugging face API to create our repo.
+- [06:34] Once we've done that, we're going to
+- [06:35] upload our actual data set files to Nemo
+- [06:37] data store. And then finally, we're
+- [06:40] going to register that data set with the
+- [06:41] Nemo entity store so that it can be seen
+- [06:44] by our Nemo customizer micros
+- [06:47] service. Starting the training job is an
+- [06:49] incredibly straightforward process. All
+- [06:52] you have to do is submit it to the
+- [06:53] actual jobs endpoint. You'll notice here
+- [06:55] that we've provided this code snippet.
+- [06:57] This is the whole code to get the
+- [06:59] training job started through Nemo
+- [07:00] customizer micros service. You'll notice
+- [07:03] that what we need to provide is a name
+- [07:05] for the thing that we're going to
+- [07:06] customize. We need to provide a output
+- [07:10] including namespace for our model. We're
+- [07:12] also going to point at our base model.
+- [07:14] This is the model we're starting with.
+- [07:16] We're going to provide a way to get to
+- [07:17] our data set. And then we're going to
+- [07:19] set up the actual hyperparameters for
+- [07:21] our training run. You'll notice that
+- [07:23] we're going to do supervised fine-tuning
+- [07:25] with our Laura We're going to train for
+- [07:27] two epochs with a batch size of 16.
+- [07:30] We're going to go ahead and use a very
+- [07:32] small learning rate and we're going to
+- [07:33] set up some Laura configs here as well.
+- [07:36] Neo customizer leverages efficient
+- [07:38] fine-tuning techniques such as Laura for
+- [07:40] SFT, optimizing large language models
+- [07:42] for various use cases. The big idea here
+- [07:45] is that it's this API call to get things
+- [07:47] fired off. And that's it. All we have to
+- [07:50] do now is run some code to verify that
+- [07:52] our endpoint is up and active. And we're
+- [07:55] going to just check back every so often.
+- [07:57] You could put this in a loop until we
+- [07:59] see that our status has been completed.
+- [08:01] Once the status is completed, we're
+- [08:03] ready to do that gut check to make sure
+- [08:04] everything worked out. As you can see,
+- [08:06] we take a sample of our data and we're
+- [08:08] going to go ahead and send that to the
+- [08:10] newly customized NIM. In the newly
+- [08:12] customized NIM, you see that the
+- [08:14] response we get is a function that has
+- [08:17] the argument city, New York City. Zip
+- [08:19] code by city is the function name. And
+- [08:21] you'll see that in the ground truth we
+- [08:23] have function zip code by city and we
+- [08:25] call it with city on New York City.
+- [08:28] Exactly what we'd expect. Now we're
+- [08:30] going to go ahead and take note of our
+- [08:31] custom model name in order to move to
+- [08:33] the next step which is going to leverage
+- [08:35] the evaluator micros
+- [08:37] service. The evaluation microser is
+- [08:40] again very straightforward. Basically
+- [08:42] what we're going to do is we're going to
+- [08:43] go ahead and establish a baseline
+- [08:45] accuracy. So we're going to evaluate the
+- [08:47] base model and then we're going to
+- [08:48] evaluate our Laura customized model.
+- [08:51] What this means is that we're going to
+- [08:52] have both the accuracy from our original
+- [08:55] model and then the improvement that we
+- [08:58] got from that customization process.
+- [09:01] There are two main entities that we need
+- [09:03] to care about with Nemo evaluation
+- [09:05] microser. The first is an evaluation
+- [09:08] config option. Basically what this is is
+- [09:10] it's how we wish to evaluate uh the
+- [09:13] model that model or system in fact that
+- [09:15] we want to evaluate. You'll notice that
+- [09:17] we're going to use a custom eval type
+- [09:19] called custom tool calling. It's going
+- [09:21] to use a custom data set which is the
+- [09:23] data set we configured earlier in this
+- [09:25] process when we did our data
+- [09:26] preparation. And then we're going to
+- [09:28] look for exactly this template in order
+- [09:30] to evaluate did we get the correct tools
+- [09:33] and the correct function.
+- [09:36] The next component of our evaluation job
+- [09:38] is going to be our target. So if our
+- [09:40] target our config is how we're going to
+- [09:43] evaluate, target is what we're going to
+- [09:45] evaluate. In this case, you can see
+- [09:47] we're going to point our target at our
+- [09:48] base model. This is the that we set up
+- [09:51] again when we're doing the initial setup
+- [09:53] steps here. And the idea is we just want
+- [09:55] to see how well does this dim do on its
+- [09:57] own before the
+- [09:59] customization. So all that's left to do
+- [10:01] is fire off this job, which will kick
+- [10:03] off our evaluation job. We're going to
+- [10:05] go ahead and just wait for our job using
+- [10:07] this helper function that you see here.
+- [10:09] And once we're done waiting for 235
+- [10:12] seconds, we're good to go ahead and see
+- [10:13] how it did. It did not so good, right?
+- [10:16] So, you can see here that we get some
+- [10:18] stats back. And this tells us that uh in
+- [10:20] fact, it did pretty bad on this on this
+- [10:22] task. Function name accuracy was quite
+- [10:24] low and function name and args accuracy
+- [10:28] was even lower. So, let's go ahead and
+- [10:30] see what the customized model can do.
+- [10:32] You'll notice that for the customized
+- [10:35] model, we don't have to recreate that
+- [10:36] config, right? Since that config was
+- [10:39] created initially, we can now just swap
+- [10:41] our target since we're trying to
+- [10:43] evaluate exactly the same way. The how
+- [10:46] hasn't changed for our evaluation. It's
+- [10:48] just the what. So, we point now at our
+- [10:50] customized model and again, we kick off
+- [10:52] the job and we wait. 230 seconds later,
+- [10:56] we get a much better response. Function
+- [10:58] name accuracy is now up to 0.92 and our
+- [11:02] function name and RX accuracy is now up
+- [11:04] to 0.72. A massive increase over the
+- [11:07] baseline model. So, so far we've been
+- [11:10] able to customize our model. Then we've
+- [11:13] been able to evaluate that in fact it's
+- [11:14] much better. All that's left to do is
+- [11:16] apply some guardrails so that we can
+- [11:18] make sure this model is used in a safe
+- [11:21] and effective manner. For guardrails,
+- [11:23] again, very few steps. We're going to
+- [11:26] add the guardrails configuration and
+- [11:28] then we're going to evaluate the safety
+- [11:30] AR guardrails. This is going to be by
+- [11:32] eyeball. So, we're just going to make
+- [11:33] sure that it's working the way that we'd
+- [11:35] expect it to work. What we're going to
+- [11:37] do is we're actually going to use the
+- [11:39] content safety NIM. Now, the content
+- [11:41] safety NIM is going to help us ensure
+- [11:43] that our interactions remain safe and
+- [11:45] compliant. The way that it does this is
+- [11:48] by having a NIM essentially act as a
+- [11:50] guardrail, right? verifies that user
+- [11:52] input making sure that nothing you know
+- [11:55] inappropriate squeaks through when
+- [11:57] customers are using this particular
+- [11:58] service that you're offering with that
+- [12:01] particular content safety nim. We're
+- [12:03] going to go ahead and add the guardrails
+- [12:05] configuration to the microser. Again,
+- [12:07] this is done pretty straightforwardly.
+- [12:09] It's just a simple API call. We're going
+- [12:11] to go ahead and apply it for this tool
+- [12:13] calling input. What we're going to do is
+- [12:16] add a rail and it's going to be an input
+- [12:18] that checks the content safety check.
+- [12:20] Right? So just to make sure that that
+- [12:22] incoming content is safe. The prompt
+- [12:25] here is basically just to see you know
+- [12:28] check if there is unsafe content in the
+- [12:30] user or agent messages in the below
+- [12:32] conversation in accordance with our
+- [12:34] safety policy with the below categories.
+- [12:36] Provide a safe or unsafe rating. And you
+- [12:39] can see it goes on and on to describe in
+- [12:41] detail what is happening here. But this
+- [12:43] is the idea. It's just going to check
+- [12:45] and make sure that input is safe. If
+- [12:47] it's safe, it's going to let it through.
+- [12:49] If it's not safe, it won't let it
+- [12:50] through. And finally, we're going to set
+- [12:52] up some safe and unsafe messages, and
+- [12:54] we're just going to see how this works,
+- [12:57] right? So, let's scroll down and check
+- [12:59] it out. We have this class that helps us
+- [13:01] implement the actual guard rail with
+- [13:04] tool calling. Once we've got this set
+- [13:06] up, we can go ahead and just activate
+- [13:08] this with our NIM. And you can see here
+- [13:11] that for this guardrails off situation,
+- [13:14] we can pass in our unsafe message and
+- [13:17] get a response. Right? This is not
+- [13:19] ideal. So, let's turn our guard rails on
+- [13:21] and see that if we pass in our unsafe
+- [13:23] message, we're going to go ahead and get
+- [13:25] the response that it was blocked due to
+- [13:27] that safety check. Then, with our user
+- [13:30] query that's safe, this is our safe
+- [13:32] message. If we run this with guardrails
+- [13:34] on, you can see that we get the actual
+- [13:37] response the way that we would hope to.
+- [13:39] So in this tutorial, we've customized a
+- [13:42] model specifically for function calling
+- [13:44] using the XLAM data set, verified its
+- [13:46] accuracy using Nemo evaluator,
+- [13:48] safeguarded model deployment with Nemo
+- [13:50] guardrails, and use the whole NVIDIA
+- [13:53] Nemo microservices, you know, pipeline
+- [13:55] to streamline this workflow with simple
+- [13:58] APIs, making it nice and straightforward
+- [14:01] for development and deployment of
+- [14:03] precise function calling AI
+- [14:05] applications. To learn more about Nvidia
+- [14:07] Nemo microservices and try this
+- [14:08] tutorial, visit the links provided in
+- [14:10] the description.

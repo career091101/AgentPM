@@ -1,0 +1,621 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=pPRoAs8xh2o"
+video_id: "pPRoAs8xh2o"
+video_url: "https://www.youtube.com/watch?v=pPRoAs8xh2o"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=pPRoAs8xh2o
+  - Retrieved at: 2025-12-30T16:20:20+09:00
+  - [00:00] My name is David Andre and in this video
+key_points:
+  - "- [01:45] not. So all you need to do is give it a"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: pPRoAs8xh2o
+
+- URL: https://www.youtube.com/watch?v=pPRoAs8xh2o
+- Retrieved at: 2025-12-30T16:20:20+09:00
+
+## Text
+
+- [00:00] My name is David Andre and in this video
+- [00:01] I'll show you how to self-host your AI
+- [00:04] agents. Self-hosting means running your
+- [00:06] application on a server that you
+- [00:08] control. The alternative is cloud hosted
+- [00:10] solutions or SAS, both of which mean
+- [00:12] someone else controls the server for
+- [00:14] you. Now, there are many benefits to
+- [00:16] self-hosting. First, you have full
+- [00:17] control over your data and over the
+- [00:19] privacy. Second, it's usually way more
+- [00:21] affordable than cloud-based solutions.
+- [00:24] And third, you avoid ecosystem login.
+- [00:26] So, if you want to move your AI agent
+- [00:27] elsewhere, you can do so very easily.
+- [00:29] So, here's the plan. First, I'll show
+- [00:31] you how to build a simple AI agent in
+- [00:33] Python. Second, we will SSH into a
+- [00:35] virtual private server. And third, I'll
+- [00:37] show you how to deploy that AI agent
+- [00:39] onto your VPS. I'll show you the VPS
+- [00:42] option because not only is it the most
+- [00:43] convenient, it's also the most scalable
+- [00:45] and the most affordable type of
+- [00:47] self-hosting. Now, you might be
+- [00:49] thinking, "But David, what even is a
+- [00:51] VPS?" A VPS stands for virtual private
+- [00:53] server and it's a remote Linux server
+- [00:56] with its own RAM, its own CPU and
+- [00:58] storage on a shared machine. So to
+- [01:00] deploy your AI agent on your virtual
+- [01:02] private server, first we need an AI
+- [01:04] agent. So let me show you how you can
+- [01:05] build your own first agent in Python.
+- [01:08] You don't need any framework, nothing
+- [01:09] like that. We're going to use AI to do
+- [01:12] the coding for us. So you can do this
+- [01:13] even if you're complete beginner. So
+- [01:14] let's jump into cursor and let's open an
+- [01:16] empty project. You can use either
+- [01:17] cursor, codex, cloth code, whatever AI
+- [01:20] agent you want. We're basically going to
+- [01:21] oneshot this, right? So my goal is to
+- [01:23] build a simple agent and to show you how
+- [01:25] to deploy it. So first off, I'm going to
+- [01:26] create a markdown file named build
+- [01:29] idea.md and I'm going to paste in the
+- [01:31] build idea. And as you can see, it's
+- [01:32] very simple. An AI agent that runs on a
+- [01:34] daily chron scrapes the hacker news
+- [01:36] front page and saves the top 10 posts
+- [01:38] into a markdown file. You can review
+- [01:40] this weekly, monthly, doesn't matter.
+- [01:42] This agent will always be running on
+- [01:43] your VPS no matter if you check it or
+- [01:45] not. So all you need to do is give it a
+- [01:46] list of commands and a list of times and
+- [01:48] it will run those commands on those
+- [01:49] times. Anyways, let's jump back into the
+- [01:51] IDE and I'm going to be using Codeex
+- [01:53] because right now it's one of the best
+- [01:54] coding agents in the world. I think it's
+- [01:56] better than CL code. So, let me expand
+- [01:57] the left side and all I'm going to do is
+- [01:59] type in build a simple project folder
+- [02:02] structure for the build idea in and then
+- [02:04] I'm going to tag the markdown file. The
+- [02:06] goal is to then deploy this agent on a
+- [02:09] VPS. So, let's use Python only. Boom.
+- [02:12] Pure English. You don't have to be a
+- [02:14] professional developer. These AI agents
+- [02:15] have gotten so good over the past year.
+- [02:17] It's actually kind of crazy. And you can
+- [02:18] see that on the right we already start
+- [02:20] seeing some of the folders, right? We
+- [02:21] have the data scripts and src. We also
+- [02:23] have the env file in which I pasted in
+- [02:26] my password for the SSH server. But more
+- [02:29] on that in a bit. And then we have the
+- [02:30] build idea.mmd. And as you can see,
+- [02:32] Codex is already creating these Python
+- [02:33] files and it's working very fast. I'm
+- [02:35] going to explain the concept of hacker
+- [02:36] news. This is a kind of a news site that
+- [02:38] usually shows you stuff that's happening
+- [02:40] in the software and startup space. And
+- [02:41] by the way, you can use the same type of
+- [02:43] AI agents to scrape any website. Whether
+- [02:45] that is archive for interesting AI or
+- [02:47] machine learning research papers,
+- [02:49] whether that is Twitter for what's
+- [02:50] trending or any other site you want.
+- [02:53] What I'm about to show you is very
+- [02:54] versatile, so feel free to adapt it for
+- [02:56] your own use case. Anyways, Codex has
+- [02:58] finished building. So, as you can see,
+- [02:59] it created like eight different Python
+- [03:01] files, each of them being very short,
+- [03:03] like 20 to 30 lines. So, then I'm going
+- [03:04] to ask it, tell me how I can test this
+- [03:07] project here locally. Answer in short.
+- [03:10] All right. So first we need to activate
+- [03:11] a Python environment. It's suggesting me
+- [03:12] to create a virtual environment, but
+- [03:14] instead I'm going to use cond. So we do
+- [03:16] cond activate testing. Then I'm going to
+- [03:18] do pip install- r requirements. I'm just
+- [03:20] following the instructions that codex is
+- [03:22] giving me. So this will install all of
+- [03:24] the dependencies of this project. And
+- [03:26] then the last thing we have to do is
+- [03:27] type in python script/
+- [03:29] run digest. This is the python file that
+- [03:31] will run the digest. And boom, there it
+- [03:33] is. Yeah, these are the top 10 posts.
+- [03:35] Oneshot it. No errors, no issues. The AI
+- [03:38] agents are getting too good at this.
+- [03:40] Now, this is already very useful. We
+- [03:41] have an automatic way to scrape hacker
+- [03:43] news every single day. But to make it an
+- [03:45] AI agent, we need to add another layer
+- [03:47] on top of it using an LLM that extracts
+- [03:49] some useful insights from this. So,
+- [03:51] since this is a bunch of context, I'm
+- [03:53] leaning towards using a reasoning model
+- [03:55] to give us actually useful thoughts
+- [03:57] rather than just a typical, you know,
+- [03:59] non-reasoning model. So, for something
+- [04:00] like this, I'm going to switch to
+- [04:01] perplexity. I'm going to switch to deep
+- [04:03] research and I'm going to ask it read
+- [04:05] the official open router docs and tell
+- [04:07] me how I can use GPT 5.1 thinking with
+- [04:11] medium reasoning effort. And now
+- [04:13] Perplexi is going to do the deep
+- [04:14] research and honestly you can use chat
+- [04:15] GPD as well. Claude Gemini doesn't
+- [04:18] really matter. Perplexi just has a very
+- [04:19] balanced deep research that doesn't take
+- [04:21] too much time but still checks 40 50
+- [04:24] sources to give you a detailed response.
+- [04:26] Then what I'm going to do is while
+- [04:27] that's running inside of cursor I'm
+- [04:29] going to create a new folder named docs.
+- [04:31] In there, I'm going to move our build
+- [04:33] idea. I'm going to create a new file as
+- [04:35] well. Name it open router and MD. And in
+- [04:37] here, I'm going to paste in the research
+- [04:39] findings from replicity. So, we can
+- [04:40] easily tag the file anytime and
+- [04:42] reference it. Now, since our project
+- [04:44] already works, what I'm going to do is
+- [04:45] I'm going to initialize a new GitHub
+- [04:46] repo get in it. Boom. Then I'm going to
+- [04:48] stage everything. Actually, no. First
+- [04:50] thing we have to do is create a g
+- [04:52] ignore. So, I'm going to go back into
+- [04:53] codex and tell it create a comprehensive
+- [04:56] git ignore for this project. And the
+- [04:58] reason for that is we have an
+- [05:00] environment variable, right? So here
+- [05:01] we're going to put all our secrets and
+- [05:04] uh env variables such as open router API
+- [05:07] key as well. And this needs to be
+- [05:08] ignored by git. You do not want to track
+- [05:11] your environment variables by git. That
+- [05:12] is a very bad habit. Then I'm going to
+- [05:14] do another git command git add dot to
+- [05:16] stage everything. And then I'm going to
+- [05:18] do git commit.m first commit. Boom. That
+- [05:21] way we can track everything through git.
+- [05:23] Even if we don't use github, we're just
+- [05:24] going to keep it simple for now.
+- [05:26] Anyways, let's see. Perplexi has
+- [05:27] finished. I'm going to click copy,
+- [05:29] scroll all the way down, click the copy
+- [05:31] button, switch back to our IDE, paste it
+- [05:33] in into the empty margon file, save
+- [05:35] that, and then I'm going to go back to
+- [05:36] Codex and I'm going to say read open
+- [05:38] router.mmd and update our project so
+- [05:41] that after we scrape the hacker news
+- [05:44] front page, we will run a single API
+- [05:47] call to GPT 5.1 thinking telling it to
+- [05:50] analyze these hacker news stories and
+- [05:53] extract actionable insights and trends
+- [05:56] in the AI case from that data and then
+- [05:59] we append the response from the LM into
+- [06:02] the same MD file. So this is going to
+- [06:04] convert a simple scraper into an actual
+- [06:06] AI agent that can generate unique
+- [06:09] insights from this data and obviously as
+- [06:12] the news stories on hacker news change
+- [06:14] this will be collecting different
+- [06:15] trends. So even if you take two weeks
+- [06:17] off and you kind of feel that okay maybe
+- [06:19] you might be out of sync or happening in
+- [06:21] AI maybe you think that you're falling
+- [06:23] behind you can just check your VPS and
+- [06:25] you will have 14 different reports each
+- [06:27] of them telling you what are the latest
+- [06:29] things happening in AI so you can get up
+- [06:31] to speed super fast and it doesn't take
+- [06:32] a genius to see how we could build on
+- [06:34] top of this and make it a lot more
+- [06:36] powerful but if you watch until the end
+- [06:37] you will have the necessary skill set to
+- [06:39] not only build AI agents but to
+- [06:41] self-host them on a VPS so really if you
+- [06:44] sit down for the 10 minutes and pay
+- [06:46] attention. You'll be far ahead of
+- [06:48] everybody else. Okay, so it seems like
+- [06:50] Codex has finished the updates. So what
+- [06:52] I'm going to do is I'm going to again
+- [06:53] stage everything and I'm going to do
+- [06:54] another commit. Git commit added lm
+- [06:57] processing. Boom. This is a very good
+- [06:59] habit for any project that you're going
+- [07:01] to develop for more than 2 hours.
+- [07:03] Initializing a git repository makes sure
+- [07:05] that even if the agent messes up
+- [07:07] something, you can simply go back to the
+- [07:08] previous comet. Okay, so before we
+- [07:10] deploy the agent to our VPS, let's just
+- [07:12] do a one quick test locally to make sure
+- [07:13] it runs. tell me how to test this
+- [07:16] locally. All right, so we probably need
+- [07:17] to reinstall requirements.txt because we
+- [07:19] have some new dependencies such as the
+- [07:21] OpenAI SDK. Then we actually we need to
+- [07:24] change because it wants me to export the
+- [07:26] API key, but we already have the
+- [07:28] environment file. So what I'm going to
+- [07:29] say is change the code to use thev file
+- [07:33] from root folder. In the meantime, we
+- [07:35] need to switch to open router. Top
+- [07:37] right, click on keys. If you don't have
+- [07:39] an open router account, just log in with
+- [07:40] your Gmail or your GitHub. Super fast,
+- [07:43] super simple, takes 20 seconds. Then go
+- [07:46] to top right, click on keys, create API
+- [07:48] key. I'm going to name it subscribe. If
+- [07:50] you're watching this, make sure to
+- [07:51] subscribe. It takes 2 seconds and it
+- [07:52] helps out a lot. And I'm going to click
+- [07:54] on create. Boom. Copy that. Do not share
+- [07:56] your API keys with anybody. Treat them
+- [07:58] as passwords. They should be completely
+- [08:00] private. Then make sure to hit command S
+- [08:01] to save. Codeex already finished because
+- [08:03] it's very fast. So what we need to do
+- [08:05] now is rerun this command. Python
+- [08:08] execute this Python file basically. So,
+- [08:10] I'm going to clear the terminal and run
+- [08:11] it again. And we have an error. What's
+- [08:14] happening? Boom. I'm going to paste this
+- [08:17] in. Boom. Logs. Explain this error and
+- [08:20] fix it. We might be passing some extra
+- [08:22] stuff that Open Router doesn't like.
+- [08:24] Okay. It's missing a proxy. All right.
+- [08:26] So, let's open the terminal, reinstall
+- [08:29] the requirements, and then rerun the
+- [08:33] script. Now, actually, I want to make
+- [08:34] two more small tweaks. First of all, I
+- [08:36] changed the reasoning effort to low to
+- [08:38] make it faster. Second, we want the
+- [08:40] command line to give us more info. So
+- [08:42] I'm going to say add four more print
+- [08:46] statements so that we see some logs in
+- [08:50] the console as the program is running
+- [08:53] because right now we don't really see
+- [08:54] anything when we activate it which is
+- [08:56] very difficult for debugging and just
+- [08:57] knowing what's happening. Okay,
+- [08:59] fetching. Okay, so you can see the
+- [09:00] hacker news part is very fast. Now it's
+- [09:03] generating the AI insights using the GBD
+- [09:06] 5.1 thinking model through open router.
+- [09:08] Okay. So let's look at the report. We
+- [09:10] have the sources and let's see below.
+- [09:12] There it is. AI insights and trends.
+- [09:14] Here are the key AI relevant trends
+- [09:16] emerging from these stories. AI infra
+- [09:18] consolidation. Okay. Inference moves to
+- [09:20] the edge. That's true. A lot of
+- [09:22] influence is moving to local devices
+- [09:24] like phones and laptops. So if you want
+- [09:27] to learn more about open source models,
+- [09:28] watch this video. But yeah, this is
+- [09:30] really good. You can see that we have
+- [09:32] over 200 lines almost 300 lines of
+- [09:36] analysis of what's happening on hacker
+- [09:38] news. So obviously you can then do
+- [09:40] whatever you want with this. You can
+- [09:41] resell this to companies where you know
+- [09:43] as a consulting or you can turn this
+- [09:45] into a social media agent that tweets
+- [09:47] about these stories and reports on them
+- [09:49] or you can just use this for your own
+- [09:50] use cases to brainstorm new product
+- [09:52] lines, new marketing campaigns. There's
+- [09:54] like hundreds of different ways you can
+- [09:56] utilize this. But anyways, now the AI
+- [09:58] engine agent works. So, let me show you
+- [10:00] how you can self-host it on your own
+- [10:02] virtual private server. First off, to
+- [10:04] visit the Hostinger site, click the link
+- [10:05] below the video. Now, Hostinger offers
+- [10:07] many different VPS plans, but I think
+- [10:10] the KVN2 one is perfect for most of you
+- [10:12] and it's also the one me and my team use
+- [10:14] internally. So, click on choose plan and
+- [10:17] this will redirect you to the checkout
+- [10:18] here. Select the period. I recommend
+- [10:20] going 24 months because when you build
+- [10:22] your agents, you want them to be running
+- [10:24] forever. Plus, you get a really, really
+- [10:26] solid deal when you go with the 24-month
+- [10:28] plan. You even get a free domain for a
+- [10:30] year as a bonus. And since Hostinger was
+- [10:32] kind enough to sponsor this video, if
+- [10:34] you click on have coupon code and type
+- [10:36] in David, you will get another 10% off
+- [10:39] of your plan. Next, we need to select
+- [10:41] the location of our server. So, just
+- [10:42] select whatever is the closest to you.
+- [10:44] And then what remains is finishing the
+- [10:46] checkout. So, click on continue. Next,
+- [10:47] we need to create an account. And this
+- [10:49] takes 20 seconds. Super simple. Now,
+- [10:50] after you sign up, you get redirected to
+- [10:52] the billing page where you fill out your
+- [10:54] name and your billing details and
+- [10:57] complete the purchase of your VPS. If
+- [10:59] you're serious about building AI agents,
+- [11:00] make sure to check out Hostinger. Use
+- [11:02] the link below the video. It really is
+- [11:04] the simplest way to host your AI agents.
+- [11:06] So, once you finish the checkout, you
+- [11:07] will see your Hostinger panel. So, on
+- [11:09] the left, click on VPS and this is your
+- [11:11] virtual private server. Click on manage
+- [11:13] and we can see the CPU, the memory, all
+- [11:14] that stuff. But for now, what matters is
+- [11:17] the root access, right? So, we want to
+- [11:18] SSH into the VPS, which is how we can
+- [11:21] access the server from cursor right
+- [11:23] here. Now, you're probably wondering
+- [11:24] what SSH even means. SSH stands for
+- [11:27] secure shell, and it is a protocol that
+- [11:28] lets you securely access a remote
+- [11:30] computer through the terminal. Now,
+- [11:32] here's why that matters for AI agents.
+- [11:34] First, you get remote control, meaning
+- [11:36] you can manage your server from
+- [11:37] anywhere, whether you're in Cork,
+- [11:39] Ireland or in Dubai. Second, thanks to
+- [11:41] the SSH protocol, you get a secure
+- [11:43] connection to your server, meaning all
+- [11:45] of the communication is encrypted.
+- [11:47] Third, with SSH, you can also do file
+- [11:49] transfer. So, let's say your AI
+- [11:51] generates a large report or maybe you
+- [11:52] have a fine-tuned model and all of these
+- [11:54] weights of the model are like multiple
+- [11:56] gigabytes. Well, with SSH, you can
+- [11:57] transfer that to your server, no
+- [11:59] problem. So, let's switch back to the
+- [12:00] IDE and I'm going to ask Codex, now help
+- [12:03] me deploy the AI agent we've just built
+- [12:08] onto my Hostinger VPS. First off, what
+- [12:12] do you need from me? Answer in short.
+- [12:16] Boom. So we can work with the AI agent
+- [12:18] to help us deploy the AI agent we just
+- [12:20] built. First, it needs the VPS details.
+- [12:22] So this is uh going to be easy. I'm just
+- [12:25] going to screenshot the stats of our VPS
+- [12:27] right here. I'm going to paste this in.
+- [12:29] Here are the
+- [12:32] VPS details. Then it's going to need SSH
+- [12:35] access info. So I'm going to copy this
+- [12:38] root access right here. Next, here is
+- [12:40] the SSH info. Boom. And as I said
+- [12:44] before, I kept my password inside of the
+- [12:46] ENV file. So, it's right here. And
+- [12:48] again, do not share your password with
+- [12:50] anyone. I'll need to reset my VPS
+- [12:53] password right after this video.
+- [12:54] Otherwise, anybody watching could SSH
+- [12:57] into my own server and do whatever they
+- [12:59] want in there. Now, if you forgot your
+- [13:00] password, just click on change and type
+- [13:02] in your new one. Hostinger makes this
+- [13:04] super easy. All right, so I'm going to
+- [13:06] say, tell me what to do next. In the
+- [13:09] meantime, I'm going to open a new
+- [13:10] terminal. Boom. Type in clear. All
+- [13:11] right. All right. So, inside of
+- [13:12] Hostinger, just click on this copy
+- [13:13] button right here next to the root
+- [13:15] access. Open your any terminal and just
+- [13:17] paste this in. Boom. You can see that
+- [13:19] it's asking for the password. So, I'm
+- [13:21] just going to copy mine. Paste it into
+- [13:22] the terminal. And don't worry, it
+- [13:24] doesn't show. So, don't expect some
+- [13:25] characters to appear. It is pasted in.
+- [13:27] Just hit enter. And there we go. Then,
+- [13:29] I'm going to type clear to just get a
+- [13:31] nice clean terminal. All right. So, we
+- [13:33] are inside of the server, which is
+- [13:35] beautiful. We're SSH connect into this
+- [13:37] hostinger server. So if we ran some, you
+- [13:40] know, endless loop, we could see the CPU
+- [13:42] go up or something like that. Obviously,
+- [13:43] we don't want to crash our server, so
+- [13:45] I'm not going to do that. But if you
+- [13:47] type ls, you can see all the files. As
+- [13:48] you can see, I already have one test
+- [13:50] folder right here. But what we're going
+- [13:51] to do is we're going to do make
+- [13:53] directory to create a new folder, which
+- [13:55] will be named the hacker news agent,
+- [13:56] which is what we just built. So I'm
+- [13:58] going to paste this pseudo command right
+- [13:59] here. Boom. And if we type ls, we should
+- [14:01] see a new folder. Next, I'm going to run
+- [14:02] the second command that Codex gave me.
+- [14:05] And if we type ls now and then I'm going
+- [14:06] to cd into that folder. Beautiful. We
+- [14:09] can see that we're inside of the new
+- [14:10] folder we just created. And since we're
+- [14:12] running Ubuntu as our Linux distro, we
+- [14:14] need some of these prerequisites such as
+- [14:16] Python free virtual environment and pip
+- [14:18] to install all the dependencies. So
+- [14:20] first I'm going to do a update. And
+- [14:22] guys, I'm just following these
+- [14:23] instructions from Codex. To be
+- [14:25] completely honest, I don't understand
+- [14:26] all of this. I'm not a VPS expert, but I
+- [14:29] know how to use AI and I know what I
+- [14:31] want to do. If you just have these two
+- [14:32] things, a little bit of intention and
+- [14:34] knowledge how to use AI agents in 2025
+- [14:37] and 2026, you can build literally
+- [14:40] anything. All right, so our server has
+- [14:42] been updated. Next, I'm going to run APD
+- [14:44] install and all of these dependencies.
+- [14:46] Some of them should or I think Hostinger
+- [14:48] installs most of them. You can see that
+- [14:49] it's very fast, which is the benefit of
+- [14:51] using Hostinger. It already gives you a
+- [14:53] server that's ready with most of these
+- [14:54] dependencies. So, there's very little
+- [14:56] maintenance you actually have to do.
+- [14:57] Like personally, I'm not a CIS admin and
+- [14:59] I have no problem managing dozens of
+- [15:02] different AI agents, some of them in
+- [15:03] Python, some of them in NA10, all
+- [15:05] running on a single hosting VPS. And you
+- [15:08] can see how little we're using, just
+- [15:10] less than 1% CPU and only 13% memory.
+- [15:13] This VPS is a beast. It can handle
+- [15:15] hundreds of different agents running on
+- [15:18] all kinds of different use cases. All
+- [15:19] right, so all the prerequisites have
+- [15:20] been installed. Let me do clear once
+- [15:22] again. And this is the important part.
+- [15:24] Next, we're going to be deploying the
+- [15:25] agent we built locally onto the VPS.
+- [15:28] Now, to copy our local project to the
+- [15:30] VPS, we're going to use SCP. SCP is a
+- [15:34] SSH based command line tool that allows
+- [15:36] you to securely copy your project from
+- [15:38] your local machine to the server. So,
+- [15:40] I'm just going to copy the exact full
+- [15:42] command that Codex gave us. And as you
+- [15:44] can see, this is the local path to the
+- [15:46] project. So, we need to change this. So,
+- [15:48] I'm going to actually do pwd to get the
+- [15:52] full path on my computer to the project.
+- [15:55] I'm going to say update the command you
+- [15:58] just gave me.
+- [16:00] This is the directory on my MacBook.
+- [16:04] Boom. Codex is super fast. It gave me
+- [16:06] the command. So, let's go into our SSH.
+- [16:08] So, I'm going to copy this new command.
+- [16:09] And we actually have to run this in a
+- [16:11] new terminal, not in the SSH, right? So,
+- [16:13] we can actually kill this and just open
+- [16:15] an empty terminal. Paste in this
+- [16:17] command. it will try to connect to the
+- [16:18] VPS again through SSH. So, we need to
+- [16:20] copy the password one more time, which
+- [16:23] means it's going to ask for the password
+- [16:24] again. So, let's paste that in. Boom. As
+- [16:27] you can see, it's copying all those
+- [16:28] files one by one to our virtual private
+- [16:31] server. Now, Hostinger gives you 100 GB
+- [16:33] on the KVM2 plan. So, that's more than
+- [16:36] enough for a simple project like this.
+- [16:38] And there it is. It's done. So, the next
+- [16:40] step is to SSH into the server again.
+- [16:42] Boom.
+- [16:44] Paste in the password.
+- [16:48] There we go. Let's do clear. Then we
+- [16:49] need to CD into the new folder we just
+- [16:51] created. Beautiful. Next, activate the
+- [16:54] virtual environment with Python VNV.
+- [16:56] Copy the source command to actually
+- [16:58] activate the VNV. There we go. On the
+- [17:00] left, we can see the VNV, which means
+- [17:02] all of the dependencies we install are
+- [17:04] isolated to be in this Python
+- [17:06] environment. And then just run pip
+- [17:08] install again, exactly like we did
+- [17:10] locally on our machine, but this time
+- [17:12] we're doing it on the VPS. And the last
+- [17:14] step that remains is to test whether our
+- [17:16] AI engine agent works. So type in python
+- [17:19] scripts slash run digest. Hit enter.
+- [17:24] And we can see that it's fetching the
+- [17:25] front page. It's parse the top 10 post.
+- [17:28] And now it's generating the AI insights.
+- [17:29] All of which is happening on the VPS. So
+- [17:32] this is not happening locally on my
+- [17:33] MacBook, right? I could be doing this on
+- [17:35] a toaster. As long as it has SSH, as
+- [17:38] long as it can connect to a Linux
+- [17:40] server, you can operate a VPS. And this
+- [17:42] is really the beauty of self-hosting.
+- [17:44] Your virtual private server runs in one
+- [17:46] location. So in this case, I selected
+- [17:47] the UK and you can SSH into it from
+- [17:50] anywhere. So even if you're in
+- [17:51] Antarctica, it doesn't matter, right?
+- [17:53] Your AI agents are still running in the
+- [17:54] UK using this chrome job to regularly
+- [17:57] scrape the hacker news website. Amazing.
+- [17:59] So the AI agent finished running, it
+- [18:01] created the digest. All right, so what
+- [18:02] remains is setting up the chrome. So we
+- [18:05] need to SSH back into the VPS. Boom.
+- [18:08] It's going to ask for the password
+- [18:09] again. Let's copy that.
+- [18:12] And this will let us automate when the
+- [18:15] agent runs. There we go. We're in. Let
+- [18:18] me do clear. Now, to set up the chrome,
+- [18:20] you have to do chrome tab- e. Hit enter.
+- [18:23] This will open a chrome tab editor. Now,
+- [18:26] as you can see, I have the nano
+- [18:27] selected. But if you're doing this for
+- [18:28] the first time, it will ask you like
+- [18:30] between four options. Just select nano.
+- [18:32] It's uh it's the simplest one. Now, you
+- [18:35] have to go all the way to the bottom. So
+- [18:36] you can just use your arrows to access
+- [18:38] the editor and go below all the
+- [18:40] comments, right? So the hashtag blue
+- [18:42] text, those are comments. You need to go
+- [18:44] to the bottom and then here paste in
+- [18:46] whatever command CEX gives you with your
+- [18:49] open router API key already inserted.
+- [18:50] And this will set up the daily chrome at
+- [18:53] 9:00 a.m. So I'm going to paste it in.
+- [18:55] Copy code. Paste it in. Boom. And by the
+- [18:57] way, if you want it to run twice a day
+- [18:59] or every 5 minutes, all of that is
+- [19:01] possible with Chrome. Just tell Codex
+- [19:03] and it will give you a new command. Now
+- [19:04] pay attention because using the chrome
+- [19:06] editor requires some keyboard shortcuts.
+- [19:09] You have them at the bottom. So first we
+- [19:11] need to do Ctrl O. This writes it right.
+- [19:16] And then we need to hit enter. And it
+- [19:17] saves this chrome job as a file. And
+- [19:19] then we need to do Ctrl X to exit the
+- [19:22] Chrome tab editor. And that's it. The
+- [19:24] Chrome is now active. So the agent will
+- [19:26] run autonomously on your VPS at the
+- [19:29] specified time. So this is 9:00 a.m.
+- [19:30] daily. Now to verify that your chrome
+- [19:32] job has been created just do chrome
+- [19:34] tab.l
+- [19:37] and you can see that there you go this
+- [19:40] is our command and it is here it exists
+- [19:42] and it will run on the VPS every single
+- [19:44] day. So now you know how to selfhost
+- [19:47] your AI agents on a VPS. Hopefully you
+- [19:49] enjoyed this more technical video. If
+- [19:51] you did, please subscribe and I wish you
+- [19:54] a happy productive week. See you.

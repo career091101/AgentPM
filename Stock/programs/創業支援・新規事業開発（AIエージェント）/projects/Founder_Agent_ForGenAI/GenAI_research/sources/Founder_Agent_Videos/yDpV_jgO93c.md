@@ -1,0 +1,6115 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=yDpV_jgO93c"
+video_id: "yDpV_jgO93c"
+video_url: "https://www.youtube.com/watch?v=yDpV_jgO93c"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "startup", "PMF", "AI", "investment", "funding", "team_building", "product_development"]
+topics: ["資金調達", "組織構築", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=yDpV_jgO93c
+  - Retrieved at: 2025-12-30T16:43:44+09:00
+  - [00:00] Hey there everyone. I'm absolutely
+key_points:
+  - "- [01:38] that is very important for from a"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: yDpV_jgO93c
+
+- URL: https://www.youtube.com/watch?v=yDpV_jgO93c
+- Retrieved at: 2025-12-30T16:43:44+09:00
+
+## Text
+
+- [00:00] Hey there everyone. I'm absolutely
+- [00:02] thrilled to welcome you all into this
+- [00:03] Autogen crash course where we are going
+- [00:05] to dive deep into the world of Autogen.
+- [00:08] A game-changing framework by Microsoft
+- [00:10] that has been revolutionizing the AI
+- [00:12] automation. Autogen is here to stay and
+- [00:15] it has been gaining a lot of popularity
+- [00:17] with more than 45,000 plus stars on
+- [00:19] GitHub. Now, whether you are a complete
+- [00:22] beginner looking to dip your toes into
+- [00:24] the world of AI, or you're a seasoned
+- [00:26] developer who is ready to take your
+- [00:27] skills to the next level, this tutorial
+- [00:30] is your ticket to mastering agentic AI
+- [00:32] with Autogen. By the end of this video,
+- [00:34] you will be able to build your own AI
+- [00:36] agents, automate your workflow like a
+- [00:39] pro, and also integrate them into your
+- [00:41] application with confidence.
+- [00:43] My name is Mika Aarval and I'm obsessed
+- [00:45] with making complex tech topic like
+- [00:47] these accessible and easy to understand
+- [00:50] by everyone and I'm pretty sure that by
+- [00:52] the end of this tutorial you will be
+- [00:54] creating your AI agents in autogen in no
+- [00:57] time. So please make sure to share this
+- [00:58] video with everyone in your network. And
+- [01:01] now let's see that how we are going to
+- [01:02] learn and master the autogen in our
+- [01:04] crash course to be able to better follow
+- [01:07] the whole flow. I have divided the same
+- [01:09] into logical parts and as you can see we
+- [01:12] will be covering and mastering autogen
+- [01:14] in 12 parts starting all the way from
+- [01:16] the installation where we will install
+- [01:19] autogen onto our system then we will go
+- [01:21] and create our very first autogen agent.
+- [01:24] Now you can think of this like a hello
+- [01:26] world in your journey of agentic AI.
+- [01:29] Then to understand things a little bit
+- [01:30] more deeply and to have a proper idea we
+- [01:33] will be understanding about architecture
+- [01:36] as well in depth because I believe that
+- [01:38] that is very important for from a
+- [01:40] software development point of view. Once
+- [01:42] the same is done then we will further
+- [01:44] dive deep into agents in autogen and see
+- [01:47] different different kind of agent and
+- [01:50] how can we make sure that a agent is
+- [01:52] there which can fulfill our need. Post
+- [01:54] this we will see that how we can
+- [01:56] configure the models by providing the
+- [01:58] brain to our agent and how smart or what
+- [02:01] all our agent can process via the
+- [02:03] multimodel output. Once all of this has
+- [02:06] been done we will now take advantage of
+- [02:08] the collaboration within the agents and
+- [02:11] learn about teams in autogen
+- [02:13] understanding along the flow that how
+- [02:15] termination condition and human in the
+- [02:17] loop can be included in the same. Once
+- [02:20] all of that has been done then we will
+- [02:22] make sure that we learn about tools
+- [02:25] which are going to enhance the
+- [02:27] functionality of our agents a lot more.
+- [02:30] In the end we will see that how autogen
+- [02:32] studio a very good application which can
+- [02:34] help us by providing a graphical user
+- [02:37] interface for whole of our autogen
+- [02:39] understanding help us in creating and
+- [02:41] prototyping our use case and by the end
+- [02:45] we will be creating a proper end toend
+- [02:47] project where we will be having a
+- [02:49] backend supported by autogen and in the
+- [02:52] front end we will be able to search for
+- [02:55] any research paper or any topic on the
+- [02:57] RF library and we will be able to get
+- [03:00] our result just like here we have got
+- [03:02] them from agentic AI. Now I'm super sure
+- [03:05] that by the end of this video you will
+- [03:07] be able to follow and create your own AI
+- [03:10] agents. I have made this crash course as
+- [03:13] beginnerh friendly as possible and we
+- [03:15] will go through each example step by
+- [03:17] step line by line ensuring that you are
+- [03:20] with me in the whole way. You will see
+- [03:22] just that how straightforward and
+- [03:24] exciting it is to bring your AI agents
+- [03:26] into life. And here's the best part. To
+- [03:29] make sure that you are able to follow
+- [03:31] your journey in the world of AI, I'm
+- [03:33] giving away all the source code along
+- [03:35] with this visualization completely for
+- [03:37] free. Just click on the link down below
+- [03:39] and you will be able to download the
+- [03:41] same so that you can kickstart your
+- [03:43] journey with this tutorial. Now, if
+- [03:45] you're really serious about your career
+- [03:47] in AI, do make sure that you watch the
+- [03:49] video till the very end and you shall be
+- [03:51] AI ready in no time. If you have any
+- [03:54] doubts or any comments, please make sure
+- [03:56] that you ask the same in the comments
+- [03:57] down below and I will clear the same in
+- [03:59] no time. So what are we waiting for
+- [04:01] everyone? Now let's uh dive into the
+- [04:03] very first example and bend our very
+- [04:05] first AI agent together. I am beyond
+- [04:08] excited to guide you guide you all
+- [04:10] through all of this and pretty sure that
+- [04:11] by the end you will love Autogen as much
+- [04:14] as I do. So let's get started.
+- [04:17] Hey there everyone. So now let's get
+- [04:19] started with our autogen journey and
+- [04:21] today we are going to first see that how
+- [04:23] can we install autogen onto our system
+- [04:26] and unlike other frameworks there's a
+- [04:28] little caveat as well which I would like
+- [04:29] to ex uh explain to you so that you
+- [04:32] never face any problem. Now uh don't
+- [04:34] worry if you're pretty new to this I'm
+- [04:36] going to take each thing uh step by step
+- [04:38] and I will walk you through every
+- [04:40] command or everything which I run. Now
+- [04:43] coming to installation everyone first
+- [04:45] let's go to the official website of
+- [04:47] autogen. So this is the website which we
+- [04:50] can go here. So autogen framework for
+- [04:53] building AI agents and application. You
+- [04:56] can see that how it is Microsoft. GitHub
+- [04:58] because Autogen is the uh framework
+- [05:00] which has been created and maintained by
+- [05:02] Microsoft right here. Now the way to
+- [05:06] explain a way to install the same is by
+- [05:08] using this agent chat
+- [05:11] uh module of autogen. So if I want to
+- [05:14] explain uh install the same what I will
+- [05:16] be doing let me just close it here.
+- [05:17] Yeah. So I will do pip install
+- [05:20] agent chat uh sorry autogen
+- [05:24] agent chat right. So again we will not
+- [05:26] be installing like this. We will be
+- [05:28] following the best practices. So for
+- [05:30] that very first thing I will be creating
+- [05:32] an environment. So python - m v env and
+- [05:37] I can say autogen crash course. So this
+- [05:41] is going to be my environment everyone
+- [05:42] which I will create. Let me first create
+- [05:44] that.
+- [05:46] Now the same has been created as we can
+- [05:48] see here. Let me quickly just also make
+- [05:50] sure that I can activate as well. And I
+- [05:55] have activated this particular
+- [05:57] environment. Right now to install the
+- [06:00] same we have created a requirements.tx
+- [06:02] txt file in which I will be writing
+- [06:05] autogen agent chat then autogen
+- [06:10] core and autogen
+- [06:13] ext. So these are the three libraries
+- [06:15] which you need to write everyone so that
+- [06:17] autogen will be completely installed
+- [06:20] onto your system. Now what can I do? I
+- [06:22] can do pip install - r and let me zoom
+- [06:26] it in a little bit maybe. Yeah and
+- [06:28] requirements. So already this structure
+- [06:31] you will all be also getting but here I
+- [06:33] have just added in the requirements file
+- [06:35] because I believe that will be very
+- [06:36] helpful as we go on and master each of
+- [06:39] these parts. Now once I run this we can
+- [06:42] see that how the same will get installed
+- [06:45] onto my virtual environment and we have
+- [06:48] installed the same right now to explain
+- [06:50] you one quick thing and I want that all
+- [06:53] of you focus on this thing very much uh
+- [06:55] because if you use uh like if you do
+- [06:58] wipe coding or use AI a lot let me just
+- [07:01] add a command here. Can you give me a
+- [07:06] code to create an agent in autogen
+- [07:13] framework? So let us just see that what
+- [07:15] exactly it will give out to us.
+- [07:19] Okay. So it is giving us some code. Let
+- [07:21] us see this. Now this is what I wanted
+- [07:24] to show you. Since this is very new
+- [07:26] since autogen has been I think it has
+- [07:29] been just 3 to 4 months since it has
+- [07:30] been uh developed and moved to the newer
+- [07:33] version. You will see this pip install
+- [07:35] py autogen and you will see from autogen
+- [07:39] import assistant agent user proxy agent.
+- [07:41] Well this is totally wrong right? This
+- [07:43] is not the way of using autogen since
+- [07:46] the latest version the way Microsoft
+- [07:48] supported. So now let us go and learn a
+- [07:50] little bit more about this. If I go on
+- [07:52] to our visualization and we discuss
+- [07:54] about the very first one which is
+- [07:56] autogen installation. We have to install
+- [07:59] the agent chat core and the extension
+- [08:03] module from autogen or pi autogen. This
+- [08:07] is totally wrong now right? This is
+- [08:09] something which is not being followed.
+- [08:11] So that's the very first thing which you
+- [08:12] have to avoid if you are learning
+- [08:14] autogen uh in like autogen as of the
+- [08:17] latest version which surely you will be
+- [08:19] doing. Now to explain a little bit on
+- [08:21] what happened Autogen was being
+- [08:23] developed at Microsoft only and up till
+- [08:26] version.2 so as you can see here up till
+- [08:29] version.2 two it was all single. So this
+- [08:33] autogen or pi autogen whatever you are
+- [08:35] seeing and you will see many tutorials
+- [08:37] many AI or code completion giving you
+- [08:39] this code only right it was all good but
+- [08:43] in between it got split into AG2 and the
+- [08:47] version 4 so there is no version.3 in
+- [08:49] between this version.4 4 the one in
+- [08:53] green is the one which is being
+- [08:55] maintained and now suggested by
+- [08:57] Microsoft
+- [08:59] while AG2 which is a totally separate
+- [09:01] framework right that is totally
+- [09:03] different nothing to now do with autogen
+- [09:05] at least is being maintained separately
+- [09:08] much like any other framework like Creo
+- [09:10] AI Google ADK etc right so I would like
+- [09:12] to show you that as well if we go on
+- [09:14] Google and search for AG2 we can see
+- [09:17] that how this is a proper uh like
+- [09:20] framework in itself self and it also has
+- [09:23] a GitHub uh GitHub link where shortly it
+- [09:26] is also like it is having a 2.8k 8k
+- [09:28] stars and here we will see that how we
+- [09:32] have
+- [09:34] the way of installing this now it is
+- [09:36] like this and I think yes you can see
+- [09:38] from autogen import so may seem counter
+- [09:42] active but yes from autogen this is
+- [09:44] totally wrong for the latest version of
+- [09:46] autogen now the autogen has been moved
+- [09:49] to the 6 version but ideally anything
+- [09:52] above 04 plus is something which we can
+- [09:55] follow now we can go to the official
+- [09:57] page as well everyone From here we can
+- [09:59] go to the GitHub right so the official
+- [10:02] GitHub link it is having 45 plus 45K
+- [10:05] plus stars and here it is showing that
+- [10:07] okay how can you install with Python
+- [10:10] 3.10 10 or later. So, pip install agent
+- [10:12] chat and ext open AI. So, I have
+- [10:15] installed the core module as well which
+- [10:16] we will learn uh in as we go forward.
+- [10:20] Now, uh if I go back on our autogen
+- [10:23] homepage here as well, you can see that
+- [10:25] how it is still having the reference to
+- [10:28] point2 version. And let me click this
+- [10:31] and now we can see how it is saying
+- [10:32] autogen.4 has been released. Read the
+- [10:35] migration guide. This is the official
+- [10:38] project. We are not affiliated with any
+- [10:40] folks uh any folks or startups which
+- [10:43] means that AG2 and Autogen now they are
+- [10:46] not related to each other and the code
+- [10:48] which your VIP coding or any code
+- [10:51] completion client or maybe cursor will
+- [10:54] give it can be based on a previous
+- [10:55] autogen version something to very
+- [10:57] strongly avoid in the starting with
+- [11:00] version.4 Four we have we are seeing
+- [11:02] something known as the eventdriven
+- [11:05] asynchronous architecture for autogen.
+- [11:07] So they have chained the whole way in
+- [11:09] which autogen was kind of developed and
+- [11:12] that is why we have to get started with
+- [11:14] the latest version. Right? So this thing
+- [11:16] is again very very important to
+- [11:18] understand and that is why I have
+- [11:20] created this diagram. Please make sure
+- [11:22] that you don't do this. This is totally
+- [11:24] totally wrong. The thing which we have
+- [11:26] to follow everyone is this strictly. So
+- [11:29] from autogen agent chat where we will be
+- [11:31] creating our agents right. So with this
+- [11:34] thing out of mind now let's try to learn
+- [11:36] a little bit about this asynchronous
+- [11:38] architecture as well and I will give you
+- [11:40] a quick overview of what it means and
+- [11:42] why it is beneficial.
+- [11:44] Now we can see that how in a eventdriven
+- [11:47] architecture which is asynchronous we
+- [11:50] are having the workflow something like
+- [11:51] this. So when we talk about synchronous
+- [11:54] we have let's say two processes right.
+- [11:57] So if we have two things which are kind
+- [11:59] of working. First it will go it will
+- [12:02] wait for the whole process to complete
+- [12:04] and then it will come back. So we can
+- [12:06] see that how we are having a call for
+- [12:08] process B. Wait for response from
+- [12:10] process V. Let me zoom it in a little
+- [12:12] bit. Get response from process B and
+- [12:16] then we can continue working on uh
+- [12:18] process A. So in a way it is all
+- [12:20] synchronously working in order. So if
+- [12:23] let's say you send a request you will be
+- [12:26] waiting for that to get back and cannot
+- [12:28] make another request till then. Whereas
+- [12:31] in a asynchronous processing and this is
+- [12:33] something which is uh totally
+- [12:35] independent of autogen. It has nothing
+- [12:37] to do with autogen. This is a basic
+- [12:39] python or programming concept at all. In
+- [12:41] asynchronous programming when we make a
+- [12:44] call then we can continue working on the
+- [12:47] process A as well. So this is actually
+- [12:48] process A and this is process B. It is
+- [12:51] vertical in nature. Right? Now since we
+- [12:54] can continue working meanwhile we can
+- [12:56] wait and get the response from B as well
+- [12:59] which in a way means that of course it
+- [13:01] is a lot optimized. We don't have to
+- [13:03] unnecessarily wait for our responses.
+- [13:05] Right? So with the basic idea clear
+- [13:08] everyone now let me just show you a
+- [13:10] quick example as well and we have
+- [13:12] installed the same in line with this
+- [13:15] understanding we shall also increase the
+- [13:17] async IO library. So async IO is the
+- [13:20] library which we can use to make sure
+- [13:22] that in Python we are able to properly
+- [13:26] achieve this asynchronous processing. So
+- [13:28] let me just again run this pip install -
+- [13:33] r requirements and it will install the
+- [13:35] async IO library as well. Right. So I
+- [13:39] think we have already seen about the
+- [13:40] overall installation everyone. Here I
+- [13:42] have given you that what all are the
+- [13:44] libraries which we need in the very
+- [13:46] first thing in your requirement.x txt.
+- [13:48] So maybe I can add a little bit more
+- [13:50] here. Add below to your
+- [13:54] requirements
+- [13:56] txt.
+- [13:58] Don't
+- [13:59] use autogen or pi autogen. Right. So
+- [14:04] these are the official links as well
+- [14:05] which uh I have shown you. So the github
+- [14:08] and the official homepage. After that,
+- [14:11] let's try to now understand a little bit
+- [14:13] on the acing functionality because the
+- [14:14] same will be very much helpful
+- [14:16] throughout our uh crash course. Now
+- [14:19] let's uh understand the same by an
+- [14:21] example, right? So you wake up in the
+- [14:23] morning and surely you need a coffee and
+- [14:25] a bagel, right? So I can maybe draw a
+- [14:27] good person. So this is let's say you in
+- [14:32] the morning all grumpy and you need two
+- [14:34] things, right? So you need this coffee.
+- [14:38] So this is your coffee.
+- [14:40] and you need your bagel.
+- [14:44] So we can write bagel here. Now in a a
+- [14:48] synchronous manner what you will do is
+- [14:50] you will first go and prepare your
+- [14:52] coffee maybe let's say it takes you
+- [14:54] around 3 minutes right and after that
+- [14:57] once you have prepared your coffee that
+- [14:58] is when you will go to bagel and create
+- [15:00] your bagel. So it will create it will
+- [15:02] take let's say another 2 minutes right.
+- [15:04] So 3 + 2 in total it is five proper
+- [15:06] minutes. The understanding is same here
+- [15:09] as well. Meanwhile, you are uh let's say
+- [15:12] preparing your coffee. You cannot
+- [15:15] continue any other process. You will
+- [15:16] have to start and complete it and then
+- [15:19] get back to your work. Right? So this is
+- [15:22] the way through which synchronous uh uh
+- [15:24] programming happen. Let us see the code
+- [15:26] as well. Here I have what I have done is
+- [15:28] and again you can just go through this
+- [15:30] code uh when you will get it totally
+- [15:33] based on Python. As I said I have
+- [15:35] created two functions. So just like we
+- [15:36] will be doing these functions brew
+- [15:38] coffee and toast pickle right. So yeah
+- [15:41] we can just brew the coffee it will take
+- [15:43] 3 minutes let's say and it will take 2
+- [15:45] minutes here now when I run this full
+- [15:47] code let's see how much time it will
+- [15:49] take. So let me just run this and we can
+- [15:52] select the environment as autogen crash
+- [15:54] codes. Always make sure that you are
+- [15:56] selecting the right environment so that
+- [15:58] you don't face any problem here. And I
+- [16:01] have run the same. I think I will have
+- [16:02] to install the IPY kernel. Let me do
+- [16:04] that. So again this is just all part of
+- [16:07] setting up. I have made sure that all
+- [16:09] the issues which you will face I will
+- [16:11] also face so that we can solve that
+- [16:12] together.
+- [16:14] Now we see that okay how the coffee was
+- [16:16] brewed and coffee was ready and how
+- [16:18] bagel was starting toasted and bagel is
+- [16:20] ready and all of this took 5 minutes in
+- [16:23] total right. So as the understanding is
+- [16:26] there we cannot start uh like this. This
+- [16:30] is very akin to how you warm food in
+- [16:32] microwave. So you first put up something
+- [16:35] then you take that out then you put up
+- [16:36] the next thing. So microwave is also a
+- [16:38] very good example here of your syn uh
+- [16:41] synchronous programming. So where we can
+- [16:42] have a microwave like this where we
+- [16:44] first put something then we put some
+- [16:46] other things. So that is how synchronous
+- [16:47] programming works. Now coming to the
+- [16:50] asynchronous version which Microsoft and
+- [16:53] other frameworks are also following
+- [16:55] nowadays. In this we will be defining
+- [16:58] our overall functions in a async keyword
+- [17:01] right which in a way suggest that they
+- [17:04] can be run asynchronously
+- [17:06] that is if the one is running you can
+- [17:08] easily start the other one without
+- [17:10] waiting for the result or the response
+- [17:12] from that particular function. Now if
+- [17:14] you will see the code again we have done
+- [17:15] the same thing we have the start time we
+- [17:18] sorry we have started the time then
+- [17:20] coffee and bagel we are we have called
+- [17:22] both of them together right after that
+- [17:25] this is a way through which we call this
+- [17:27] so await async IO gather and I'm like
+- [17:31] combining both of these things so this
+- [17:33] is my total task right where I will be
+- [17:35] calling both of these functions so now
+- [17:38] this time I will wake up I will just so
+- [17:40] this is let's say me this time and And
+- [17:43] I'm taking me as a little bit smarter
+- [17:45] for the timing. I hope you are all good
+- [17:47] with this. Now I can have a coffee here
+- [17:49] and a bagel here. Right? So this is
+- [17:52] let's say my coffee maker. And let's say
+- [17:55] this is my bagel maker. Now what I will
+- [17:58] do and follow the green arrow. Now I
+- [18:00] will first go to the coffee. I will
+- [18:01] start the coffee maker with the button.
+- [18:03] Then I will go to the bagel and I will
+- [18:04] start that with the button. Right? So
+- [18:06] I'm assuming that I have a some high-end
+- [18:08] machines to create that. So yeah, my
+- [18:10] coffee will get uh like brew and
+- [18:12] meanwhile my bagel will get toasted. Now
+- [18:15] what you can do and I will be running
+- [18:16] this code uh not here because we face
+- [18:18] some issues in Jupyter notebook. This is
+- [18:22] the exact same code where we have the
+- [18:24] asynchronous function this time. Now
+- [18:27] what will happen everyone pay attention
+- [18:29] since we have this coffee bagel etc. And
+- [18:31] result is there once I run this
+- [18:33] function. If I clear everything Python
+- [18:36] let me clear it again Python and I can
+- [18:39] just say first installation and 1.2
+- [18:43] asynchronous run. So let me run this and
+- [18:45] you will see that how both of them
+- [18:47] started together. First bagel is ready
+- [18:49] then coffee is ready and after that it
+- [18:52] took me all 3 minutes which is of course
+- [18:55] a time is saved. So the idea is exactly
+- [18:58] the same in autogen as well where we
+- [19:01] will be able to make asynchronous call
+- [19:03] to our agent as well as other
+- [19:05] components. So we can save on that time
+- [19:08] right. So I hope that this thing is
+- [19:10] absolutely clear everyone. Now we have
+- [19:12] covered two very important things here.
+- [19:14] The very first thing is how we have to
+- [19:17] not fall for any wipe coding any tool
+- [19:19] any autocomp completion and you have to
+- [19:21] install this particular autogen agent
+- [19:24] chat as well as core and extension which
+- [19:26] again we will learn more about them and
+- [19:28] not this and this is a very basic idea
+- [19:31] like what exactly happened how they
+- [19:32] split up and I've shown you on the
+- [19:34] Microsoft website as well that how they
+- [19:36] are not related in line with how the
+- [19:39] Microsoft says that it is a new
+- [19:41] event-driven asynchronous architecture
+- [19:44] And I'm not sure that what exactly AG2
+- [19:46] people are doing if they are also
+- [19:48] asynchronous event driven. We are
+- [19:50] focusing on Microsoft autogen the one
+- [19:53] which now Microsoft supports. In that we
+- [19:56] see that how we learned about the
+- [19:58] asynchronous architecture as well which
+- [20:01] is of course going to be very helpful.
+- [20:03] Whenever we call our asynchronous
+- [20:06] function they should be called like
+- [20:07] this. So you can see it here async def
+- [20:10] right. So I create a code routine and we
+- [20:13] are just assembling all the functions
+- [20:14] and calling them all together. So this
+- [20:16] is how in the back end right this all
+- [20:19] thing autogen will take care of you but
+- [20:20] this is how it will happen in the back
+- [20:22] end and many of the inbuilt functions
+- [20:24] and modules they will expect that you
+- [20:27] will be calling them asynchronously else
+- [20:29] they will give an error. Okay. So yeah
+- [20:31] with that I hope everyone we are pretty
+- [20:33] much done with the very first part that
+- [20:36] is our installation. So let me just
+- [20:38] maybe as a good practice maybe we can
+- [20:40] mark a quick green here. So right click.
+- [20:44] Okay. So seems like now we are done with
+- [20:46] installation. If you will be writing now
+- [20:48] autogen agent chat. So we will be seeing
+- [20:51] that in the next part how we can create
+- [20:52] agent using that we should be all good.
+- [20:55] So now let's meet in the next part where
+- [20:57] we will create our very first autogen
+- [20:59] agent kind of like hello world in a
+- [21:01] aentic AI world.
+- [21:03] Hey everyone. So welcome to the part two
+- [21:06] where we will be now understanding and
+- [21:08] creating our very first agent that is
+- [21:10] going to be like a hello world code
+- [21:12] which we write while learning any
+- [21:13] programming language. Now we have
+- [21:15] already installed autogen and understood
+- [21:18] that how it is different from AG2. So
+- [21:20] that thing is going to be very helpful
+- [21:22] along with our understanding of
+- [21:23] asynchronous programming. Now if I go
+- [21:26] and show you about the first autogen
+- [21:27] agent let us try to see agent chat API
+- [21:31] and the first autogen agent. When I talk
+- [21:34] about the overall agent like this is
+- [21:37] something which is kind of helping us to
+- [21:39] visualize our agent. I like to call
+- [21:41] agent as digital humans. So just like we
+- [21:44] are human beings, we are doing some
+- [21:45] work. AI agents are artificial human
+- [21:49] beings or digital human beings who do
+- [21:51] some work. Right? Since the most
+- [21:54] important thing which we as human have
+- [21:56] is the brain your agent also need a AI a
+- [22:00] brain that is a llm or a right so that
+- [22:04] is where the understanding or the need
+- [22:05] of uh these lm like GPT lama etc arises
+- [22:10] so the whole idea is that we can create
+- [22:13] our agents if we can provide them a
+- [22:16] brain now surely that will depend on
+- [22:18] different different kind of agent but
+- [22:19] for the time being we are going to
+- [22:21] create a very basic agent which can help
+- [22:23] us to answer our questions. So let us go
+- [22:26] back everyone and here we can see that
+- [22:29] how introduction to agent chat API with
+- [22:31] first assistant agent. So I will be
+- [22:34] following and creating these notebooks
+- [22:36] initially and towards the end we will
+- [22:38] move towards the python file as you get
+- [22:40] more comfortable because I believe with
+- [22:42] these with this headings and overall
+- [22:44] marking it is a lot easier to follow.
+- [22:46] Right now you will see that right now it
+- [22:48] is not able to find the libraries. Well,
+- [22:51] the reason is pretty simple. We have not
+- [22:53] specified the kernel here. So, let us do
+- [22:55] that. And I can select autogen crash
+- [22:58] course. That is the one.
+- [23:00] And yeah, seems like everything is kind
+- [23:02] of removed. Uh, we do need this env as
+- [23:05] well. So, let me just first add that
+- [23:07] into the requirement as a best practice.
+- [23:12] And I can now just run this again. So,
+- [23:14] pip install - r requirements. This will
+- [23:18] just import the as well.
+- [23:21] Now the reason that we want this env is
+- [23:24] we will be needing some environment
+- [23:25] variables and env module is able to help
+- [23:29] us load that onto our environment. Now
+- [23:32] the variable which we will be needing
+- [23:33] here is the open AI API key. Now I am
+- [23:37] having a separate file where my personal
+- [23:40] key is present. Right? Surely you can
+- [23:42] use your own key. So this example will
+- [23:45] be provided to you. Right? Make sure
+- [23:47] that you don't make any mistake in the
+- [23:49] spelling or have any extra spaces or
+- [23:52] something because that will fail your
+- [23:54] full uh agent as it will not be able to
+- [23:56] connect to its page. So let us now move
+- [23:59] forward everyone and we can see that how
+- [24:02] this loadb function is going to load
+- [24:04] your key onto the environment. We will
+- [24:06] get the key here with the with our
+- [24:08] environment right. So let me run this.
+- [24:12] Okay, no module in open AI, right? So
+- [24:14] makes sense. uh we should have this
+- [24:16] module as well. Let me just add it here.
+- [24:18] Open AI and I think that this is there
+- [24:21] is one more module which we need to add
+- [24:23] to specifically connect to open AI which
+- [24:26] is this one open AI. So let me just I
+- [24:29] will explain you this in the
+- [24:30] architecture and specifically in the
+- [24:32] model. So let us for the timing clear
+- [24:34] everything and do pip install - r
+- [24:38] requirements.
+- [24:40] Okay. So let me just uh get rid of this
+- [24:43] and let us install the open module just
+- [24:46] and seems like the same has been
+- [24:47] installed. Let me close and go back. Now
+- [24:50] what we can do everyone we can just run
+- [24:52] this again.
+- [24:54] Uh okay my bad no module name tick
+- [24:56] token. So again another module
+- [24:58] dependency is there tick token and I can
+- [25:02] just again run this.
+- [25:04] So seems like the same has also been
+- [25:06] added. Now I think it should be all good
+- [25:08] and again I'm just facing all these
+- [25:10] issues which you will also face. So we
+- [25:13] are solving it right as and when we face
+- [25:15] that once I have my API key loaded right
+- [25:19] once I am also have this open AI chat
+- [25:21] completion client now I'm going to
+- [25:24] connect to my brain now I'm going to use
+- [25:26] the GPT4 model with the API key which it
+- [25:29] has loaded and this brain is known as
+- [25:33] model client in the language of autogen
+- [25:35] so this particular thing everyone let me
+- [25:38] just add it here as well it is known as
+- [25:41] a model client model client. So this is
+- [25:46] the same lingo which we will be using
+- [25:48] going further as well. Now once I have
+- [25:51] this model client loaded so we have
+- [25:52] loaded this uh model client from the
+- [25:56] assistant uh from the agent chat API. So
+- [25:59] from autogen agent chat agents we can
+- [26:02] import this assistant agent. So this is
+- [26:05] the very basic kind of an agent which
+- [26:06] can help you to answer the question. It
+- [26:08] is having a brain a most simple kind of
+- [26:11] a digital human which can do some work
+- [26:13] for us. Right? So let me just create
+- [26:15] that. Here you will see that how we are
+- [26:18] providing the name as of now just like
+- [26:20] we humans have a name and we are
+- [26:22] providing the bait. If you want you can
+- [26:24] of course provide with description as
+- [26:26] well. So we can just say a basic
+- [26:30] first agent. Of course there are so many
+- [26:33] things which can be provided right. So
+- [26:35] we will understand them as we go
+- [26:37] forward. But I can just create this
+- [26:39] agent and the same has been created. So
+- [26:42] in the back end now autogen has created
+- [26:44] this particular person for me to whom I
+- [26:48] can ask anything and it will be able to
+- [26:50] do based on its capabilities. For
+- [26:52] example, right now it has a brain. So it
+- [26:54] will be able to answer some of my
+- [26:55] questions. Let's see that. I'm just
+- [26:58] asking it what is the capital of France.
+- [27:00] due to some reason I find it this is the
+- [27:03] def facto way of doing this in autogen.
+- [27:05] So yeah let us run this
+- [27:08] and seems like it has given us something
+- [27:10] right it has given us the output maybe I
+- [27:12] can copy this output have a markdown
+- [27:14] here and I can show you this output many
+- [27:17] things has been splitted out at the part
+- [27:20] of this output in the back end autogen
+- [27:23] is handling that okay how exactly all of
+- [27:26] this will happen so it is kind of a
+- [27:28] layer between your LLM or the brain and
+- [27:31] layer is autogen right which is helping
+- [27:33] you to connect to that So this is what
+- [27:35] it has returned. First it said that okay
+- [27:38] I have the messages which is a list
+- [27:41] right. So just like we talk to each
+- [27:43] other as human you just think of this as
+- [27:46] a digital human I asked a human that
+- [27:49] what is the capital of France that's the
+- [27:51] very first message you can see that how
+- [27:53] source is user and model usage again
+- [27:56] because here no model was there right
+- [27:58] when I asked the question we don't need
+- [27:59] any model here. So model you can just
+- [28:01] easily think of as a llm. After that it
+- [28:04] is giving us the time and everything.
+- [28:06] The content which I asked was what was
+- [28:08] the capital of France and the type was
+- [28:11] text message. So just remember this as
+- [28:13] well as and when how we communicate with
+- [28:15] each other. We can send each other a
+- [28:17] text message a image and audio file. In
+- [28:20] a similar manner they are also
+- [28:22] communicating with text message. The
+- [28:24] output which we got was from the
+- [28:26] assistant. So this is the name which I
+- [28:28] have given to my digital human assistant
+- [28:30] right and it is saying that okay there
+- [28:33] was a model usage with the prompts and
+- [28:35] everything and the answer is somewhere
+- [28:38] present in this content the capital of
+- [28:40] France is Paris uh it is saying
+- [28:42] terminate we will learn more about this
+- [28:44] but shall be fine and the type is text
+- [28:45] message right so it is very important in
+- [28:48] the frameworks of agentic AI to
+- [28:50] understand these particular uh outputs
+- [28:53] because your all the logic will be based
+- [28:55] on this thing right when to automate
+- [28:57] when you genuinely use these things the
+- [28:59] logic will be based on this. Now I can
+- [29:02] show you this messages separately. So it
+- [29:04] is just a list in our result in a way we
+- [29:06] have just messages right. So this is a
+- [29:09] list to now get the output or to now
+- [29:12] just get the answer. If you pay focus we
+- [29:16] have two elements in this list. The very
+- [29:18] first one is my message which I said as
+- [29:21] a user asking what is the capital of
+- [29:23] France and the last message is of course
+- [29:25] by the agent who gave me the answer
+- [29:28] right so for that we use this minus one
+- [29:32] uh again this is a very basic slicing of
+- [29:33] Python where I'm getting the last
+- [29:35] message so I am saying okay from the
+- [29:38] results messages get me the last message
+- [29:40] and get me the content once I do this I
+- [29:44] will be able to get the answer which is
+- [29:46] capital of France's Paris this maybe we
+- [29:48] can get a little more crafty what is the
+- [29:50] capital of India and or let's say USA
+- [29:55] and write some more about the same let
+- [30:00] me now again run this or I can show you
+- [30:02] this running separately so that your
+- [30:04] code is pretty fine make sure that this
+- [30:06] is Python not markdown so it will run
+- [30:09] and I can just quickly
+- [30:12] show you the output
+- [30:14] so let it run we will see what exactly
+- [30:16] happens Here the same is running. Uh it
+- [30:19] is taking a little bit of time because
+- [30:20] again it is just trying to now get more
+- [30:22] things out. So let me copy this and let
+- [30:25] us see this in code everyone. Not in
+- [30:27] code my bad. So I need a markdown here
+- [30:30] right markdown. A pretty big message
+- [30:33] again. First message was from the user.
+- [30:36] What is the capital of USA? Write some
+- [30:37] more about the same. And it has given us
+- [30:40] in a easy to read understand manner. So
+- [30:42] if I just show you the content this is
+- [30:44] what it has given. Capital of US is
+- [30:46] Washington DC and some information about
+- [30:49] the same despite being the capital it is
+- [30:51] not part of any state operates as a
+- [30:53] separate federal district resident of DC
+- [30:55] have a unique political status all these
+- [30:57] things right so this is again how
+- [30:59] everyone we can create our very first
+- [31:01] autogen agent just like a hello world
+- [31:04] thing but yes it can help us to answer
+- [31:06] question now shortly there are more
+- [31:07] agents as well which we will learn as we
+- [31:09] go forward so let's now go back and mark
+- [31:12] our part two as complete as Well,
+- [31:15] because we are able to create our agent.
+- [31:17] Okay. So, cool everyone. Now, let's meet
+- [31:20] in this third part where we will learn
+- [31:22] about the architecture. Hey everyone,
+- [31:24] welcome back. So, let's now jump right
+- [31:26] onto the third part which is the
+- [31:28] architecture. Now, for that, let's first
+- [31:30] go into the official documentation.
+- [31:32] Again, uh we can safely close this one.
+- [31:34] This is not the one. And if I show you,
+- [31:37] let's say on the GitHub as well, there's
+- [31:40] a diagram which we will see and we will
+- [31:42] use as well. This is the overall
+- [31:44] architecture or the autogen ecosystem
+- [31:47] having all the details about our autogen
+- [31:50] right. So this I just wanted to make
+- [31:51] sure that you understand that how it has
+- [31:53] different different layers or different
+- [31:55] different subm modules which we have
+- [31:57] installed as well. Now if I go on the
+- [32:00] official website you will see that this
+- [32:03] agent chat is the one which we are
+- [32:04] using. It is a highle API for building
+- [32:08] and this is something which is suggested
+- [32:10] as well. So agent chat is the
+- [32:11] recommended starting point. Now the same
+- [32:13] is very powerful on par with any
+- [32:16] framework any other framework as well
+- [32:18] and you can create awesome agent just by
+- [32:20] using agent chat. That said it is built
+- [32:23] on top of autogen core. So for advanced
+- [32:25] user autogen code eventdriven
+- [32:28] programming model provides more
+- [32:30] flexibility and control over the
+- [32:32] underlying components. So the whole idea
+- [32:35] is that autogen has created an
+- [32:37] architecture in which it has given user
+- [32:39] more overall visibility and excess of
+- [32:43] controlling each and everything. Though
+- [32:46] for at least or I would say 90 80 to 90%
+- [32:50] of the case autogen agent chat has all
+- [32:52] the functionality which we use to create
+- [32:54] our overall agent frame or agent
+- [32:57] applications. Right? So with that again
+- [33:00] we have seen that how can we install the
+- [33:02] same. So that is I think pretty much
+- [33:03] done. We have also kind of created our
+- [33:05] very first agent. Now let's go back and
+- [33:08] let us learn about the architecture as
+- [33:11] well. Let me go here and I can show you
+- [33:13] the architecture in this as well. So as
+- [33:16] I said everyone this is the architecture
+- [33:18] right the overall way through which we
+- [33:21] tell this is a layered architecture like
+- [33:23] that is how we say it in technical terms
+- [33:26] that how autogen is having a layered
+- [33:29] architecture. Now what do we by mean and
+- [33:31] why it's a layered architecture? Well,
+- [33:33] just like we have bits of sandwiches one
+- [33:36] over the another. We can see that how
+- [33:38] the bottommost layer is the core, right?
+- [33:42] On top of that we have the agent chat.
+- [33:45] Now this is very much like how the core
+- [33:48] layer is abstracted, right? For example,
+- [33:50] there are many libraries in Python as
+- [33:52] well which runs the code in C++ in the
+- [33:54] back end. Okay, but for us the same has
+- [33:58] been extracted. we have a higher level
+- [34:00] API or higher level uh module which we
+- [34:03] can use directly right so just giving
+- [34:05] you an example then on top of that we
+- [34:07] have the extensions much like how we
+- [34:10] have extensions in Google Chrome right
+- [34:11] so we can install those extension and
+- [34:14] enhance the functionalities so if I show
+- [34:16] you the extension part as well everyone
+- [34:18] we can see that how here we are having
+- [34:21] agent chat core and extension that are
+- [34:24] the most like that are the three layers
+- [34:26] right if I go on extension It is having
+- [34:29] different different extensions for agent
+- [34:31] models tools. So these are something
+- [34:34] which we can use. I can actually go to
+- [34:36] agent chat and if we go on models here.
+- [34:40] Let me just show you. So this is the one
+- [34:42] which I was uh asking that we could have
+- [34:44] installed this directly instead of
+- [34:46] installing autogen openai and tick token
+- [34:49] separately. Right. So this is something
+- [34:51] which maybe we can also install into our
+- [34:53] system. So I will just have it uh maybe
+- [34:57] in the requirements although I guess
+- [34:59] there is some uh problem with having it
+- [35:01] like this. So surely we can see that
+- [35:03] right. So overall the whole idea now
+- [35:06] everyone is that since uh this is the
+- [35:09] way architecture is handled. We will be
+- [35:12] majorly focusing on the agent chat
+- [35:14] because as I said that is something
+- [35:16] which is recommended which is able to
+- [35:18] help us in 80 to 90% of the use cases.
+- [35:21] Though occasionally we will be having
+- [35:23] some components which we will be taking
+- [35:25] from the core or the extension library.
+- [35:27] The whole idea is that this assistant
+- [35:29] agent as well. It has been created by
+- [35:32] the core base class of base agent
+- [35:35] present in our core library or core
+- [35:37] module and on top of that it has been
+- [35:39] extended and has been created. Right? So
+- [35:42] to understand this a little bit more I
+- [35:44] have given you again a very good
+- [35:46] notebook which you can follow. Let us go
+- [35:48] through that side by side. I can close
+- [35:50] this.
+- [35:52] Coming to the autogen architecture in
+- [35:54] depth again it is totally code free
+- [35:55] right and it is starting from version.4
+- [35:58] because as I explained you earlier that
+- [36:00] is where the autogen has drawn the line
+- [36:02] and everything has changed. So let's try
+- [36:04] to understand everyone. So autogen.4 is
+- [36:07] a framework for building multi-agent AI
+- [36:09] system with asynchronous eventdriven
+- [36:11] architecture. Key improvements over
+- [36:14] previous version include a redesigned
+- [36:16] core for layer core layer for
+- [36:18] scalability
+- [36:20] agent chat a simplified highle API for
+- [36:23] agents interaction
+- [36:25] extensions for integrating external
+- [36:27] tools and data. So I think these all are
+- [36:29] very straightforward to understand
+- [36:30] everyone and this is the again same
+- [36:31] diagram which I can show you by zooming
+- [36:33] it out. Yeah. So this is the same
+- [36:35] diagram. Now you will see few more
+- [36:37] things here. You will see this developer
+- [36:39] tools where the studio let me second.
+- [36:42] Yeah. So where this studio and bench
+- [36:44] comes in. So we will be seeing this
+- [36:46] studio because it is part of autogen
+- [36:48] right. It is it gets integrated with
+- [36:50] this whole overall ecosystem and help us
+- [36:53] to create our agents for prototyping
+- [36:56] right not the full end to end thing. I
+- [36:59] never believe that just by dragging and
+- [37:01] dropping we can create any production
+- [37:03] ready application. So let me refresh
+- [37:05] this. This is going to be the kind of a
+- [37:07] UI through which you can see the same
+- [37:09] right
+- [37:11] now post that we have the apps which we
+- [37:13] can also connect to this. So magentic
+- [37:15] one is again another app. So if you will
+- [37:17] just search for magentic one it is by
+- [37:19] Microsoft right. So the whole idea is
+- [37:21] that since it is in Microsoft it is not
+- [37:23] magnetic one it is magentic one a
+- [37:26] journalist multi- aent system for
+- [37:28] solving complex tasks. So this can
+- [37:30] easily integrate with your autogen that
+- [37:32] is the idea. So Microsoft Microsoft
+- [37:34] right
+- [37:36] in this now we can see more things. So
+- [37:38] apps pre-built and custom application ag
+- [37:41] framework core component and powering
+- [37:43] agent. So this is the core autogen
+- [37:45] framework and we have the developer
+- [37:47] tools which can be used for testing and
+- [37:49] building. Right now let's move forward.
+- [37:51] Uh magentic one again here I've just
+- [37:53] written everything a pre-built
+- [37:54] application demonstrating multi- aent
+- [37:56] collaboration. Then it can serve as a
+- [37:59] reference implementation for developers.
+- [38:00] So I've just given the purpose role and
+- [38:02] the GitHub reference. Similarly the your
+- [38:04] app here thing right. We are more
+- [38:06] focused on this AG framework layer where
+- [38:08] we have the core asynchronous
+- [38:10] event-driven architecture using an actor
+- [38:12] model. Agent act independently to and
+- [38:15] react to events right supports parallel
+- [38:17] task execution for scalability. Agent
+- [38:20] chat simplified building conversational
+- [38:22] agent that is something which you will
+- [38:23] be using predefined agent role. So we
+- [38:26] have these agents which are predefined.
+- [38:27] assistant agent user user proxy agent
+- [38:30] else we will have to define them from
+- [38:31] complete scratch right something which
+- [38:33] of course for major of the use cases
+- [38:35] will not be required and then the
+- [38:37] documentation which we are also
+- [38:39] referring to and extension extend
+- [38:41] functionality via plug-in so we have
+- [38:42] extensions for open AAI connecting to
+- [38:44] Azure connected to anthropic similarly
+- [38:47] for tools etc we have MCP and all these
+- [38:50] things are supported via extension so
+- [38:52] you will see that how by making this
+- [38:54] layered architecture they're able to
+- [38:56] very nicely divide hide the whole thing
+- [38:58] right if it would have been a single uh
+- [39:00] if they would have followed some other
+- [39:02] architecture maybe it was not that clear
+- [39:04] now you know that okay agent chat is the
+- [39:06] one which I have to use right core is
+- [39:08] the one which is at the core and the
+- [39:10] back end which handles which basically
+- [39:11] everything is defined and extensions are
+- [39:14] the one where if anything I have to
+- [39:15] extend that is where we can have the
+- [39:17] extension part right so let's now move
+- [39:19] forward and we can learn about this I've
+- [39:22] also added for the bench and studio so
+- [39:24] just you can read about this uh this
+- [39:26] bench is something different altogether
+- [39:28] and here we have the summary table which
+- [39:30] is summarizing all the points. So I
+- [39:32] personally believe that this is more
+- [39:34] than enough. Now ideally we could also
+- [39:36] compare this VO frame uh this VO
+- [39:39] architecture with other frameworks as
+- [39:41] well like CUI ADK lang but I think that
+- [39:44] is out of the scope for this particular
+- [39:47] uh crash course but the whole idea is
+- [39:49] that you should understand from this
+- [39:51] diagram agent chat the one which you'll
+- [39:53] be using core where everything is kind
+- [39:55] of defined from which agent chat has
+- [39:57] been abstracted upon extension to
+- [39:59] enhance the functionality studio which
+- [40:01] provides us it is a developer tool which
+- [40:03] provides it a UI so that we can create
+- [40:05] our uh agents or we can use autogen
+- [40:08] framework as a whole. This was the exact
+- [40:10] reason that in the last part we have
+- [40:13] created the agent from the autogen agent
+- [40:15] chat and which you will see at I guess
+- [40:19] 99% of the cases or examples once your
+- [40:23] LLM or your code completter become that
+- [40:26] smart. Okay. So though my code
+- [40:28] completion has ended I anyway turn it
+- [40:30] off because in autogen it gives a lots
+- [40:32] of wrong code right. So yeah with that I
+- [40:35] hope everyone you have the enough idea
+- [40:37] for the architecture part. Okay. So I
+- [40:39] have made sure to went through inside
+- [40:41] all the documentation and present this
+- [40:44] to you in a easy to understand manner.
+- [40:46] This is something which you can also go
+- [40:47] through as well. Right. But I believe
+- [40:49] that what I have told you that is way
+- [40:51] more than enough. Nothing more than it
+- [40:53] is required with the part of this crash
+- [40:55] course. Okay. So with that I think we
+- [40:57] can go back and I can just mark this as
+- [41:01] right again.
+- [41:03] So I can say that okay we are done with
+- [41:04] the architecture as well right?
+- [41:08] Okay everyone so now let's move on to
+- [41:10] the next part and now let's learn about
+- [41:12] agents in auto chat in a lot deep
+- [41:14] manner. So first let me explain you a
+- [41:17] basic idea so that it will be a lot easy
+- [41:18] to understand. Now when we talk about
+- [41:21] agent in autogen like you can see and
+- [41:23] consider this here as a very good
+- [41:26] example of an agent. It has an AI
+- [41:29] written on this, hence the AI agent. But
+- [41:32] in a technical or in a layman way, you
+- [41:34] should just think of agents as a digital
+- [41:36] human and nothing else, right? Just like
+- [41:40] we are human, right? So let me just have
+- [41:42] this thing uh here. Yeah. So it's a
+- [41:44] digital human just like we have a brain
+- [41:48] and we can have a tools as well. Now I
+- [41:50] will just discuss a little bit about
+- [41:52] this tools and we will be covering this
+- [41:54] after in a separate portion. But the
+- [41:57] idea is that we also use tool at any
+- [42:00] work which we do. Right now you are
+- [42:01] watching this video you are using laptop
+- [42:03] and internet. If you want to let's say
+- [42:06] do some calculation calculator is a tool
+- [42:08] which you use. Similarly of course if
+- [42:11] you have any apps or anything in your
+- [42:13] phone all of those are tools for us
+- [42:14] right now. It can very well happen that
+- [42:17] an agent just like us might not require
+- [42:19] tool for some task. Maybe it's just on
+- [42:21] the brain part. And it can very well
+- [42:24] happen that some agents they also don't
+- [42:26] need brain because all they want to do
+- [42:28] that has nothing to do with the thought
+- [42:30] process or anything. It is just some
+- [42:32] instruction which they have to follow.
+- [42:34] Right? So now let's learn a little bit
+- [42:36] more about this and let's go to the
+- [42:37] official documentation once here. If we
+- [42:40] go to agents you will see that how
+- [42:43] autogen agent chat again the higher
+- [42:45] level API provides a set of preset
+- [42:47] agents. The example of that we have
+- [42:50] already seen that is your assistant
+- [42:52] agent which are already made. Now the
+- [42:54] base agent class is present in the
+- [42:56] autogen core from which if you want you
+- [42:59] have to properly define and extend that
+- [43:02] class and create your own agents if you
+- [43:04] want that though as I said the agents
+- [43:06] have been provided so you will not be
+- [43:07] needing that. Now we can see that each
+- [43:10] with variations in how an agent might
+- [43:11] respond to message all agents share the
+- [43:15] following attribute and methods. So this
+- [43:17] is something which is there in all of
+- [43:19] the agents right first is name right so
+- [43:22] a simple name which is an identifier for
+- [43:24] an agent in autogen you cannot have
+- [43:26] spaces in between names as of version
+- [43:29] 6.1 if that changes in future surely you
+- [43:32] can incorporate that second is
+- [43:34] description of the agent in text so just
+- [43:36] like you will define a human similarly
+- [43:39] that is where this description comes
+- [43:41] into picture now a note here this
+- [43:44] description is not something which agent
+- [43:47] takes into play when it is doing his
+- [43:49] job. Right? Now what do I mean by that?
+- [43:51] Let's say if I have defined this
+- [43:54] assistant agent here, right? Now the
+- [43:58] description will have no effect on how
+- [44:00] it performs its job. If I ask that okay,
+- [44:02] you are a smart person and you help us
+- [44:05] to answer the question. No, description
+- [44:07] should be just a oneliner ID which
+- [44:09] defines what an agent does. For that we
+- [44:12] have a separate uh overall argument
+- [44:15] which is known as system prompt. So I
+- [44:16] will show you that but yes that is
+- [44:17] something which you have to remember.
+- [44:19] Now uh the next one is run method that
+- [44:22] runs the agent given a string or list of
+- [44:25] messages. So much like we ask our agent
+- [44:27] to do something or if someone ask you to
+- [44:29] do something then there are technically
+- [44:31] two ways in which you can do a job
+- [44:32] right. So I will just explain you with a
+- [44:34] proper uh example that will be better.
+- [44:37] One is that okay if I ask you to let's
+- [44:40] say get some coffee for me right just a
+- [44:42] simple example either you can do the
+- [44:44] full work and then come back to me right
+- [44:46] so you can just go make the coffee or
+- [44:49] maybe purchase it and then come back to
+- [44:51] me doing the full job so you run and did
+- [44:53] my job second is run stream in which you
+- [44:57] will be telling me all all the updates
+- [44:59] right so you'll be telling that okay I'm
+- [45:00] going I have reached the shop I am now
+- [45:02] paid this is something which I have kind
+- [45:04] of ordered so we will see the same in
+- [45:06] action as well but they very important
+- [45:08] via run and run stream we can generally
+- [45:10] see that okay how our agent uh is
+- [45:13] performing it can return you the
+- [45:14] messages as well in runstream while in
+- [45:17] run you will just see a single final
+- [45:19] answer so let's say if your request
+- [45:21] takes maybe 10 seconds or it takes it
+- [45:25] has multiple agents then in the run part
+- [45:27] overall at an autogen level it will get
+- [45:29] completed and you will get the full
+- [45:30] summary together okay so that is what it
+- [45:33] says method that runs the agent given a
+- [45:35] task or a string and returns a task
+- [45:37] results. Agent are expected to be
+- [45:39] stateful and this method is expected to
+- [45:42] be called with new messages not complete
+- [45:44] history. Now what does that mean is uh
+- [45:47] just like I ask you to get me a coffee
+- [45:49] you have the state in your mind. So
+- [45:51] agents have a state. Next time when I
+- [45:54] ask you to do the same you will remember
+- [45:56] that okay which shop or which coffee I
+- [45:58] like. It is not that I have to send you
+- [46:00] the full history. So that is what it is
+- [46:02] saying. You should not send the complete
+- [46:03] history just send the new message.
+- [46:06] Agents are stateful by default in
+- [46:08] autogen and they will remember that.
+- [46:10] Okay. Next is run stream. Same as run
+- [46:12] but returns an iterator of messages that
+- [46:14] subclass base agent or base chat message
+- [46:17] followed by a task result. So again it
+- [46:19] will be also doing the work. It will
+- [46:20] just send you the updates and send you
+- [46:22] the intermediate message rather than
+- [46:24] everything in the end. So the reason is
+- [46:27] pretty simple that all of the agents
+- [46:28] which can be there they have this thing
+- [46:30] because if you just think about this any
+- [46:32] human right or any AI human or digital
+- [46:36] human it will be having a name and
+- [46:37] description and surely you will be
+- [46:39] running the same right. So now let's uh
+- [46:42] just try to see few more thing. If I go
+- [46:45] on the API reference here just pay
+- [46:47] attention and I go on agents here we
+- [46:50] will see that okay what all pre-built
+- [46:52] agents are provided to us. The very
+- [46:56] major one which you are going to use is
+- [46:57] the assistant agent as the name suggest
+- [47:00] it is going to assist you in task right.
+- [47:03] So agent that provides assistant with
+- [47:05] tool you use. So it can have a tool it
+- [47:07] can have a model as well. So we can
+- [47:09] provide multiple tools to it. It can
+- [47:11] have a overall model context. So
+- [47:14] anything related to model. It can have a
+- [47:16] system message which basically is that
+- [47:18] okay how you want it to behave. Right.
+- [47:20] So that is all things which are provided
+- [47:22] to this agent. And of course run and run
+- [47:24] stream something which we have learned
+- [47:25] about. Similarly uh we have the code
+- [47:28] executor agent here which can help you
+- [47:30] to execute a code. Now it can or cannot
+- [47:33] have a mind. Right? Then we have the
+- [47:35] user proxy agent. As the name suggests,
+- [47:37] it is going to behave as a user. So you
+- [47:40] can specify or send message as a user to
+- [47:42] this agent. Right? We will be using this
+- [47:44] in human in the loop concept if you are
+- [47:46] aware or else we will be covering that
+- [47:47] as well in the separate part. The idea
+- [47:50] is that autogen agent chat provides you
+- [47:53] by default some agents and as I have
+- [47:55] said before earlier 95% of the use cases
+- [47:57] you shall be pretty good rather 99% of
+- [47:59] the use cases. Now you can see that how
+- [48:01] it has society of mind agent. I think
+- [48:03] this is something which they have
+- [48:04] recently added agent that uses inner
+- [48:06] team of agent to generate responses.
+- [48:08] Yeah. So they have added that recently
+- [48:10] because when I think around.5 version it
+- [48:12] was not there. Then we have message
+- [48:14] filter conf uh agent we have the base
+- [48:17] chat agent right. So all these different
+- [48:20] different kinds of agents are present
+- [48:22] and in the core as well if you will go
+- [48:23] you will find that how we have the core
+- [48:27] API where the agent is uh like agent is
+- [48:30] an interface which you have to implement
+- [48:31] if you want to use that. Okay, so that
+- [48:34] was the whole idea behind agent. Now
+- [48:36] going back, we can see that as I told
+- [48:39] how it can have a brain and it can have
+- [48:41] a tool if required, right? Then we have
+- [48:44] the user proxy, code executor, society
+- [48:46] in mind, all these different different
+- [48:48] kind of agents and surely that library
+- [48:50] will grow as the new version arrives.
+- [48:53] Now let us go and see the same in action
+- [48:55] as well. agents in autogen. Let me
+- [48:57] select the kernel here so that it is
+- [48:59] able to
+- [49:01] yeah now it should be able to check
+- [49:03] everything. So let me zoom it in. So
+- [49:06] what all I'm importing here pay
+- [49:07] attention I'm just importing the agent
+- [49:09] which is my assistant agent. Then I'm
+- [49:10] importing a open AI chat condition
+- [49:12] client from model and I'm also importing
+- [49:15] messages because that is how we connect
+- [49:17] with our agents right. So doing the
+- [49:20] simple thing here getting the API key
+- [49:22] kind of a boiler plate code till now
+- [49:24] this is I guess we are just setting
+- [49:25] things up I can run this and I will get
+- [49:27] the model client after this I'm also
+- [49:29] defining a tool as well so I can just
+- [49:31] show you an idea that okay how the tools
+- [49:33] get used this is a web search okay so
+- [49:35] it's a custom function now I will cover
+- [49:36] that okay how different types of tools
+- [49:38] are there but yes a custom function can
+- [49:40] be used as a tool it just find
+- [49:42] information on the web right now I am
+- [49:44] just trying to dummy this particular
+- [49:47] call right so I'm not making a real call
+- [49:49] to the web. I am just trying to mock
+- [49:51] this call that I will ask my agent that
+- [49:53] okay go and use this tool to search on
+- [49:56] the web and it will directly get this
+- [49:57] thing only. So we are not going on
+- [49:59] Google or any search engine to search
+- [50:00] right now. We are just mocking this for
+- [50:02] the understanding purpose. So let me
+- [50:04] define this as well. Now this is where
+- [50:07] my agent comes into picture everyone. So
+- [50:09] I'm defining my agent. It is having a
+- [50:10] name. It is having a brain which is
+- [50:13] model client. It is having a tool as
+- [50:15] well. So I'm just giving a web search as
+- [50:17] a tool. Now you can give multiple tools
+- [50:18] here right and we are having a system
+- [50:21] message which is use tools to solve
+- [50:23] task. So this system message is
+- [50:26] something which will go into your brain
+- [50:28] right. So when we talk or when we
+- [50:30] normally use chat GPT if you try to give
+- [50:32] it some instructions in the starting
+- [50:34] that hey return your uh output always as
+- [50:36] an answer and you are someone who is an
+- [50:38] expert in this this field. So this
+- [50:40] system message is something which is
+- [50:42] kind of getting used there. Let me just
+- [50:44] mark it in green. This is on the basis
+- [50:46] of what your agent will be solving the
+- [50:48] task. Now you will see that I have not
+- [50:50] provided a description here because
+- [50:52] that's not a mandatory field right. We
+- [50:55] can see the same here as well. If you go
+- [50:57] on assistant we have the name and the
+- [50:59] model kind. If you want like description
+- [51:01] I can provide description but for a
+- [51:05] single agent it is not a mandatory
+- [51:06] field. So let me just say an agent which
+- [51:09] uses tool to help solve task. So I have
+- [51:14] not defined my agent as well everyone.
+- [51:17] After this I am just calling pay
+- [51:18] attention here await because it's
+- [51:21] asynchronous agent.run. So I'm running
+- [51:24] this agent. Now the same has been
+- [51:25] defined find information about
+- [51:28] labrad.riever. So I'm just asking this
+- [51:30] agent. Now internally it knows that okay
+- [51:33] it has to use the tool and since it has
+- [51:35] a brain it will be sending something in
+- [51:38] this query right. So it is not that the
+- [51:41] full task will go to the query. It will
+- [51:43] be sending something smart based on the
+- [51:46] understanding in this query. So let's
+- [51:47] see the result. Let me call this.
+- [51:51] And seems like that it has given us the
+- [51:52] labrador retriever or simply labrador is
+- [51:55] a British breed of retriever rungo. Now
+- [51:57] I would like to show you a little bit
+- [51:58] more things here. Let us see the
+- [52:00] messages as well once. So result or let
+- [52:03] us see the full result here. Now let me
+- [52:05] copy this again in the same manner. We
+- [52:07] have understood it and pay attention
+- [52:09] now. So again seems difficult it is not
+- [52:12] at all. Just try to break it one by one.
+- [52:14] We have multiple messages here. The very
+- [52:16] first one is this one. So it is your
+- [52:18] text message. That's your first message.
+- [52:20] Right everyone? And this message in a
+- [52:24] way continues till uh here. Okay. So
+- [52:28] this is the very first message which we
+- [52:30] sent as user. We can see that as well
+- [52:33] that we are asking this information.
+- [52:35] Find information about labrad or
+- [52:36] retriever. Now this is very important
+- [52:38] that you understand these things right.
+- [52:40] Uh it is not that our work gets over
+- [52:42] when we have called or got our answer.
+- [52:44] No, if you want to genuinely make a
+- [52:46] production level system which gets used
+- [52:50] any agent which gets used and is
+- [52:52] actually helpful, you need to make sense
+- [52:54] of the output as well. That is very very
+- [52:56] important. Now second is tool call
+- [52:59] request. So as we asked our agent that
+- [53:01] okay solve the question by using the
+- [53:03] tool it made a tool call request and we
+- [53:05] can see that
+- [53:07] one second. Yeah. So let me just divide
+- [53:10] it. We can see that how in the query it
+- [53:12] just send the labrador retriever. It has
+- [53:14] not sent the full test full task right.
+- [53:17] It understood that hey the user want
+- [53:19] something related to labrad.riever. So
+- [53:22] it just send this as a query. So if it
+- [53:25] would have been Google this is what it
+- [53:27] would have searched on Google. Okay. Now
+- [53:29] we can see more things as well. We can
+- [53:30] see this function call ID. This is very
+- [53:33] important for your uh logging purposes
+- [53:36] because this ID will be same here as
+- [53:37] well. See, so small small things we have
+- [53:40] to notice in are working, right? This ID
+- [53:42] is same here. Then of course some other
+- [53:44] things for about the date, time, any
+- [53:46] usage, what was the prompts etc. So
+- [53:48] after this we have got our answer in the
+- [53:51] third. So let me now just get it back 1
+- [53:54] minute. Yeah. So we can just have it
+- [53:57] back fourth and you can see that how
+- [53:59] this was tool execution event where we
+- [54:02] were now simply calling the tool and we
+- [54:03] got the answer. This is the content and
+- [54:06] final is tool call summary message where
+- [54:08] it tried to just it is now coming from
+- [54:10] our assistant where the no usage of
+- [54:12] model as of now and we are getting our
+- [54:14] answer back. And if you remember this
+- [54:16] was the final one which we were getting
+- [54:18] right. So if you remember result dot
+- [54:21] messages minus one which means the last
+- [54:23] message we were able to get this last
+- [54:25] message out and this was the content
+- [54:29] here right I think this is yeah this is
+- [54:32] a separate one which is coming in the
+- [54:34] end as well result so we were able to
+- [54:36] get this content here which was labrador
+- [54:39] is a this thing okay so that was the
+- [54:42] whole uh flow in which it happened for a
+- [54:45] single agent now if this is clear when
+- [54:47] we will learn about multi-agent that
+- [54:49] shall also be very much clear but the
+- [54:51] again the idea is go a step further in
+- [54:54] your understanding of AI and agents okay
+- [54:56] so yeah as we can see this all kind of
+- [54:58] ran for us now let us do one thing let
+- [55:01] us try to see this with another way
+- [55:03] through which we can run it that is the
+- [55:04] onssage method right so in this what we
+- [55:08] do is we will be sending it like a
+- [55:09] message and let me run this and it will
+- [55:11] make a lot of sense right let me run
+- [55:12] this
+- [55:15] so 1 minute yeah we can see that how
+- [55:18] this time as well it is just divided
+- [55:20] properly. Let me just show you this.
+- [55:22] Yeah. Okay. Not Python. My bad.
+- [55:25] Markdown. And we have the message source
+- [55:28] assistant the final message which is
+- [55:30] coming in. Uh this is the chat message.
+- [55:33] And we can just have the response inner
+- [55:35] message as well which is this one. So
+- [55:37] this time we are separating out our
+- [55:40] messages. So this was the all the inner
+- [55:42] messages to call request and everything.
+- [55:45] And final is a response chat message
+- [55:47] which we received. Okay. So this is
+- [55:49] another way of just running your engine.
+- [55:50] Now ideally I can go a lot deep into
+- [55:53] this but for the overall purpose of this
+- [55:56] crash course you can just understand
+- [55:58] that this is another way through which
+- [55:59] we run. Okay. Now let us move forward
+- [56:02] and yeah so this time as well I'm just
+- [56:05] asking it a query via the tool. Let me
+- [56:07] just run this again.
+- [56:10] And okay I think this is the same uh
+- [56:12] code I have copied multiple times. Yeah,
+- [56:15] this is I guess the same one agent on
+- [56:17] message. Yeah, so this I think I've
+- [56:18] copied multiple times. I wanted to show
+- [56:20] you this on stream one. Okay, so if you
+- [56:22] remember we learn about run and run
+- [56:24] stream where I gave you the example as
+- [56:26] well. Now once I go here everyone you
+- [56:28] can see that how this time I will be
+- [56:30] using on message stream. So I'm just
+- [56:32] running this message via stream. Now let
+- [56:34] me run this and it will make a lot of
+- [56:36] sense.
+- [56:38] This time it is giving you the full
+- [56:40] summary. So tool call request assistant
+- [56:42] it is telling you that okay what
+- [56:43] happened? And it is kind of very nicely
+- [56:45] broken and everything for you right. So
+- [56:47] a lot better overall. It is giving you
+- [56:49] the summary as well. So ideally we would
+- [56:52] like to run our agent with this
+- [56:54] methodology not by the run because it is
+- [56:56] difficult to make sense of run uh
+- [56:59] output. Right. This time you will see
+- [57:00] that output is very much clear. It is
+- [57:02] broken as well pretty easily. We have
+- [57:04] the tool call request. Then we have the
+- [57:05] tool call execution event and then
+- [57:08] finally the assistant user message is
+- [57:10] not there. So that is how this runs. Now
+- [57:13] as I said for the timing you should be
+- [57:15] good if you just understand that this is
+- [57:17] how we have to run it. We can just set
+- [57:19] the output stats to true. So we can see
+- [57:21] the summary as well right but you can
+- [57:23] see that how good overall this is in
+- [57:26] reading. Then uh if I go back and let's
+- [57:30] say I see this one. So this I have to
+- [57:32] make a lot of sense for you right where
+- [57:34] I was explaining this in depth. But
+- [57:37] normally this is a way better way of uh
+- [57:39] just running this. Now let me just uh
+- [57:43] check one thing. I think we can run it
+- [57:44] like this as well. So I can ask it uh
+- [57:48] what was the last question I asked. So
+- [57:53] let's see uh if it will still be calling
+- [57:55] the tool because in the instructions we
+- [57:57] are very clear that hey just use the
+- [57:58] tool. Let me run this
+- [58:02] and seem like it is now having that
+- [58:04] context. It is maintaining that state
+- [58:06] and it is able to give us the answer. So
+- [58:08] this was actually the last question
+- [58:09] which I asked this agent. So this does
+- [58:12] prove that point here where it was
+- [58:15] saying that let me go to agent chat and
+- [58:17] agents
+- [58:19] that agents are expected to be stateful
+- [58:21] and this method is expected to call with
+- [58:23] new message not complete history. So I
+- [58:26] didn't send it the message I can
+- [58:27] normally do the followup that is the
+- [58:29] whole reason whole idea of this. Just
+- [58:31] like if I have Chad GPT, let me go to
+- [58:34] chatgptt.com.
+- [58:36] Just like in chat GPT, if I just show
+- [58:39] you some examples, let's say technical
+- [58:42] agent activated something on that. Yeah.
+- [58:44] So this agent I have just given the
+- [58:46] first instruction that hey always return
+- [58:48] an answer in JSON. It is having that
+- [58:51] context. So if I will ask it, it will be
+- [58:53] having the full summary or the history.
+- [58:55] That is the whole idea which this
+- [58:56] particular thing says. So we don't have
+- [58:58] to specifically maintain that or send it
+- [59:00] separately. Maybe that is case in some
+- [59:02] framework but yeah that is how autogen
+- [59:04] maintains it. So yeah we have I think
+- [59:06] learned a great deal as of now we have
+- [59:08] of course uh discussed about assistant
+- [59:10] agent which is going to help you in I
+- [59:13] guess again 80% of your task because
+- [59:15] this is the agent which can use a tool
+- [59:17] like it's the best representation of a
+- [59:20] digital human. It has a brain, it can
+- [59:22] use tools, it works on its own and you
+- [59:25] can provide some instructions to it. So
+- [59:27] these agents are something which you can
+- [59:29] replace human with if you are able to
+- [59:30] make them very better. So as of now I
+- [59:33] hope that you have the full idea clear.
+- [59:34] Now we will be moving forward and in
+- [59:37] future overall uh parts we will also
+- [59:39] learn about how we have the human in the
+- [59:41] loop. There also an agent comes. Then as
+- [59:44] I showed you we have the code execution
+- [59:46] agent as well. Again that is a little
+- [59:48] complex to uh write and execute but yeah
+- [59:51] that can help you to execute your code.
+- [59:53] It can check in real time if the code is
+- [59:55] right or wrong. Hence uh playing a role
+- [59:57] of it can play a role of a developer as
+- [59:59] well. Right? So that's the whole idea
+- [60:01] everyone. Now we have learned about
+- [60:03] multiple things in here. What is an
+- [60:05] agent? Uh what are the multiple things
+- [60:07] which are the characteristics of the
+- [60:08] agent like name uh description run and
+- [60:10] run. Then we have seen the assistant
+- [60:13] agent and learn about other agents which
+- [60:15] are provided as a part of agent chat
+- [60:17] API. After that we have run the same
+- [60:20] using run and run stream and saw that
+- [60:21] how it is coming that run stream thing
+- [60:23] will be very much clear in the team as
+- [60:25] well when we will have multiple agents
+- [60:27] working. Okay. So just remember that
+- [60:28] concept it will be tested well tested in
+- [60:30] the team part where you will be lot more
+- [60:32] comfortable by seeing your output uh as
+- [60:35] it gets processed by each agent. Okay.
+- [60:38] So these are the things. Now let's meet
+- [60:41] in the next part where we will learn
+- [60:42] about the model or the brain of our
+- [60:45] agent which of course has a very big
+- [60:46] role to play. So with that everyone now
+- [60:48] let's meet the next part. Hey everyone.
+- [60:51] So now let us continue and learn about
+- [60:53] models in autogen. And of course they
+- [60:55] are super important to add memory add
+- [60:57] brain to our agents. Now let me first
+- [61:00] mark this done because I forgot that in
+- [61:02] the last video. So yeah we done with
+- [61:04] agents in autojet. Now if you remember I
+- [61:07] told you that how in an agent we have a
+- [61:10] brain which is of course a very
+- [61:12] important part. The brain is formerly
+- [61:15] known as model in autogen and model
+- [61:18] client is the argument which in which we
+- [61:20] have to provide which LLM we are going
+- [61:22] to use. Now I hope you do understand
+- [61:24] that these LLMs like OpenAI chat GPT or
+- [61:28] Google Gemini all these oranthropic plot
+- [61:30] these are the one which can provide a
+- [61:32] thinking capability to our agents right
+- [61:35] so moving forward we can learn more
+- [61:37] about agents like this if let's say is
+- [61:39] our particular agent here we have a
+- [61:42] model or a brain attached to it so I
+- [61:44] like to say it in a very layman terms as
+- [61:46] brain because I believe that is the
+- [61:48] right word now this brain coupled with
+- [61:51] the power of AI can add thinking
+- [61:54] capabilities into my agent right and
+- [61:58] this can be supported by a different
+- [61:59] different providers. So let us try to
+- [62:01] learn a little bit more about that by
+- [62:03] going to the official documentations. So
+- [62:05] in autogen agent chat we have the model
+- [62:08] as the separate section in this uh we
+- [62:11] can see that how in many cases we need
+- [62:14] access to LLM model services such as
+- [62:16] open AAI, Azure OpenAI or local models.
+- [62:19] You can actually see what are the one
+- [62:21] which are supported in the right as
+- [62:23] well. Right. So we have the open AAI, we
+- [62:24] have the entropic, Olama which is a
+- [62:26] local which is a very good thing it is
+- [62:28] supported and Gemini right along with
+- [62:31] that uh since it has OpenAI chat
+- [62:33] completion uh client all the models or
+- [62:36] the LLM which do support or are
+- [62:38] compatible with OpenAI chat completion
+- [62:40] they also are supported. Right? So let's
+- [62:43] now move forward. We can easily log the
+- [62:45] calls if required using this particular
+- [62:47] code. But we are more interested in
+- [62:49] understanding that how can we connect to
+- [62:51] our models. So for that we have the
+- [62:54] autogen extensions library. Now in this
+- [62:57] extensions library we have the models as
+- [63:00] a separate overall uh sub package. So if
+- [63:03] I go on the API reference as well we can
+- [63:06] see that how in models it is having open
+- [63:09] AAI azure anthropic semantic lama Azure.
+- [63:13] So again these are the one which are
+- [63:14] provided. Now let us go back to models
+- [63:16] once.
+- [63:19] So we have to select that okay from
+- [63:20] autogen extension models. OpenAI I am
+- [63:23] using the OpenAI chat completion client.
+- [63:25] Now this is something which we have seen
+- [63:27] as well and here I can provide my model
+- [63:29] which I want to use. For example, I am
+- [63:31] using GPT4 and I have the key for that
+- [63:34] as well. Now always remember this API
+- [63:36] key is something which is needed. If you
+- [63:39] remember like in our case we were
+- [63:41] loading this open API key from the env
+- [63:44] file. If you want you can provide it
+- [63:46] directly as well but of course that is
+- [63:48] not suggested because of safety reason.
+- [63:51] So this is how you can use the open AI
+- [63:53] everyone. Now for this I know that you
+- [63:55] need credits and for this key many
+- [63:58] students and people who are doing it for
+- [64:00] the first time surely they will not be
+- [64:02] having this key handy right because
+- [64:05] again it is not always possible to load
+- [64:07] up get a card and load it up. So for the
+- [64:09] same reason I will be showing you two
+- [64:11] awesome ways through which you can run
+- [64:12] it for totally free. So you can do this
+- [64:15] full crash course and even more advanced
+- [64:17] thing in autogen without having to worry
+- [64:19] about any money. So zero total zero
+- [64:21] investment. Okay, I hope this is zero
+- [64:23] but yeah not three zero. So in this now
+- [64:26] we will understand about Olama as well
+- [64:28] but before that let me show you in depth
+- [64:30] about other offers other offerings. So
+- [64:32] we have the Azour openai right here we
+- [64:35] can just install this first via pip and
+- [64:37] use that and again this is the code
+- [64:39] similarly we have the enthropic we have
+- [64:41] the lama gemini now gemini don't have
+- [64:44] any uh library as such it gets supported
+- [64:47] via open AI chat completion client
+- [64:49] something which I've already told you
+- [64:50] right so in this next we will see about
+- [64:52] Olama so for those who are not aware is
+- [64:56] a service through which you can run your
+- [64:58] local models right so you can get up and
+- [65:00] running your local llm's locally on your
+- [65:02] laptop and of course that is very much
+- [65:04] helpful if you don't want to use any
+- [65:07] third party uh provider uh providers. So
+- [65:10] for this everyone we have to install
+- [65:11] this. So let us first quickly do this
+- [65:13] thing and I can just have a terminal.
+- [65:18] I can install this. Seems like the same
+- [65:20] is installed. Now uh here I've also
+- [65:22] covered about Gemini right how you can
+- [65:24] use Gemini. You can see that how it just
+- [65:26] requires a Gemini key and you can
+- [65:28] specify this particular uh model. So I
+- [65:31] don't have this handy now but we can
+- [65:33] easily try it out and it will work.
+- [65:35] Coming to the Olama let us first try to
+- [65:37] test out the model here. Let us use this
+- [65:39] code only and we can have this uh
+- [65:42] overall uh code run. I can just select
+- [65:45] the kernel. So autogen crash course and
+- [65:48] seems like it has resolved all the
+- [65:50] libraries. So autogen code models import
+- [65:52] user message. So this is the model
+- [65:54] message which we are going to send
+- [65:56] autogen extama
+- [65:58] lama chat completion client right. So to
+- [66:02] use this it is assuming that you have
+- [66:04] your lama server running at 11434 port.
+- [66:09] Uh so in your local host on this port
+- [66:11] normally lama starts your services. So
+- [66:14] for that let's do one thing. I have the
+- [66:17] lama running in my uh machine. I can
+- [66:20] just show you lama let's say run and
+- [66:23] okay I think it will require this llama
+- [66:25] 3.2
+- [66:28] and it is starting so I have the llama
+- [66:30] 3.2 do model I can just say hi and it
+- [66:32] will just reply for that who are you let
+- [66:35] me zoom it in so that it is readable
+- [66:38] okay here it is yeah so this is the case
+- [66:40] yeah uh again I think I've zoomed in not
+- [66:43] correctly my bad yeah so it is able to
+- [66:45] message as you can see right we can
+- [66:47] clear everything out and I can say great
+- [66:50] and yeah it is just helping us out let
+- [66:52] us get out of this let me uh select this
+- [66:55] by and clear everything again and I can
+- [66:59] do lama a ser
+- [67:02] okay so it is saying address is already
+- [67:04] in use let me quickly solve that now you
+- [67:07] can also get this error everyone so it
+- [67:08] is very important to learn how can we
+- [67:10] solve that we can do lsof - i and then
+- [67:14] we can do that it is on this particular
+- [67:17] thing right so 11 434
+- [67:20] I think I'm wrong so we can see that how
+- [67:23] ama is running here let me just do kill
+- [67:26] hy kill- 9 and I I can provide 3 590.
+- [67:32] Let me now run this or I think we can do
+- [67:34] this via button as well. No llama serve.
+- [67:38] Okay, I guess uh since I have started
+- [67:39] this already, it will be running on my
+- [67:41] local. Let me just paste this or go to
+- [67:43] my local host. Just a second. So local
+- [67:46] host and I can have this 1 4 3 4 and
+- [67:52] yeah, seems like it is running. So
+- [67:54] again, totally my bad. In lama when you
+- [67:56] start this uh it gets started. I think
+- [67:58] this was in LM studio. So there is one
+- [68:00] more everyone which you can try out uh
+- [68:02] LM studio again the same thing just that
+- [68:04] it is a graphical user interface GUI
+- [68:07] based thing. So it is something which I
+- [68:08] also use a lot now since the same is
+- [68:11] running we can just try the first try it
+- [68:15] first out. So as of now no agents or
+- [68:16] nothing are there right in this model
+- [68:19] client I'm just creating a request and
+- [68:20] I'm just asking it a question. So let me
+- [68:22] ask this and again we have used a user
+- [68:25] message here. We have directly just sent
+- [68:27] a request to the model client. Okay. So
+- [68:30] no agent as of now. But seems like we
+- [68:33] are getting the answer here. We can see
+- [68:35] this and yes seems like the answer is
+- [68:38] with us everyone. This is the answer and
+- [68:39] it has also reached out to my lama which
+- [68:41] is running on the llama 3.2 model. If
+- [68:44] now we want to use it with let's say a
+- [68:47] agent what I can do I can just go to
+- [68:49] agents here. I can copy my this
+- [68:52] particular agent and let me do one
+- [68:54] thing.
+- [68:55] So yeah, I can have an agent defined.
+- [68:58] Let's get rid of the tool and I can
+- [69:00] provide lama model client here, right?
+- [69:03] So I can just remove description as
+- [69:06] well, not required.
+- [69:08] And we can just say that
+- [69:10] you are a helpful
+- [69:14] assistant. Okay. So I think now it shall
+- [69:17] be able to answer us. Assistant agent is
+- [69:19] not defined. Totally makes sense. We can
+- [69:21] define that. So from autogen agent chat
+- [69:25] right dot agents import assistant agent.
+- [69:30] So now the same is defined. Let me just
+- [69:32] quickly copy this as well.
+- [69:35] And we can maybe ask this question only.
+- [69:37] Let's see what information it has. And
+- [69:40] of course uh like GPD40 it's a model on
+- [69:43] the cloud. It will be able to run and it
+- [69:46] might be able to handle more
+- [69:47] complexities but I believe that is that
+- [69:49] should not be a problem. Right. So I
+- [69:52] think we should have asked high only no
+- [69:53] worries but okay so it has kind of given
+- [69:56] a lots of information that is pretty
+- [69:58] good. Now we can see that how this lama
+- [70:01] right has provided us with this
+- [70:03] information. Now let's discuss about one
+- [70:06] more shortcoming or caveat here that is
+- [70:08] that many students they say that how
+- [70:11] they are not even having a good high-end
+- [70:13] PC on which local models like this can
+- [70:15] run and many of you have a office PC on
+- [70:19] which it is not uh like allowed to just
+- [70:22] install Oola right so that is where I
+- [70:25] guess we have some limitation in terms
+- [70:27] of learning so for that we have the next
+- [70:29] part which I have tried to worked out on
+- [70:32] the autogen and that is using open
+- [70:33] router So for people who are not aware
+- [70:35] it's an awesome service via which you
+- [70:40] can get a single API key and you can use
+- [70:42] all the models. So the idea is that as
+- [70:44] of now you have open uh let's say
+- [70:46] different key for openi different key
+- [70:48] for gemini different key for claude. Now
+- [70:51] what you can use via open router one key
+- [70:54] and you can specify which model you want
+- [70:55] to use right. So of course uh they
+- [70:58] charge you on that on that. So it is not
+- [71:00] that it is free in here and you are
+- [71:02] paying that but the good thing is that
+- [71:04] if you go and search free here you will
+- [71:07] find that how we have many many
+- [71:09] different models which are totally free
+- [71:11] for us to use and of course they have
+- [71:13] some limitation I guess like 10 requests
+- [71:16] per minute or something we can check
+- [71:17] that but you can use them easily right
+- [71:20] for the same what you can do you can
+- [71:22] create an account here easily you can
+- [71:23] then go to keys and we can create a key
+- [71:27] here so I can just say uh autogen in
+- [71:30] crash course
+- [71:33] and I can create a key here. Right? So I
+- [71:36] can I just need to now copy that to make
+- [71:37] sure that uh I can use it. It will be
+- [71:41] gone if I don't copy it. You won't be
+- [71:42] able to see it again. Right? So I have
+- [71:45] this key everyone. Now we can see this
+- [71:47] key here and I can go to activity now to
+- [71:51] see that okay if I've used that or not.
+- [71:53] As of now you see that we don't have any
+- [71:55] activity here. Right? So let's go back
+- [71:58] and see this in action. Now let me open
+- [72:01] another file.
+- [72:03] So I've just done a simple step of
+- [72:05] getting the key by open router. I have
+- [72:07] explained you what exactly open router
+- [72:09] is. Now you can check this out at your
+- [72:10] end as well. Right now let me do one
+- [72:12] thing. So let me first select the kernel
+- [72:14] here. I have selected the kernel. Let me
+- [72:18] load everything. So here as well this is
+- [72:20] supported via our open chat completion
+- [72:23] client. So that is one good thing as
+- [72:25] well. Here I can just change the key
+- [72:27] here. Don't again try to use mine.
+- [72:28] Although here you can but still I will
+- [72:30] be deleting it. So this is the open
+- [72:32] router API key and I will suggest to
+- [72:33] just check out the platform. It's a
+- [72:35] pretty awesome platform and gives you
+- [72:36] many models. Now you can see that how
+- [72:39] you have to define it. Now please make
+- [72:40] sure that you uh when you will be
+- [72:42] getting the code via the GitHub link
+- [72:45] which I will attach make sure that you
+- [72:47] use this code only. It took me a lot of
+- [72:49] time to get it working. uh lots of
+- [72:51] GitHub uh issues on autogen official
+- [72:54] GitHub repo and few on the on their
+- [72:58] discord as well. But yes, finally I was
+- [73:00] able to make it work. Now that is not
+- [73:02] actually in the documentation and not
+- [73:04] anywhere else also I found this. So let
+- [73:07] me now run this and I have defined the
+- [73:10] model client here. Open router model
+- [73:11] client. You can just for the timing
+- [73:13] ignore this uh thing and I can just now
+- [73:16] let me delete this. I can just now
+- [73:18] provide this to my agent again. So it's
+- [73:19] a simple assistant agent with the name
+- [73:22] client and a system message. And I can
+- [73:25] ask it the doubt.
+- [73:28] So let it run. And again I believe that
+- [73:31] this is going to be very helpful for
+- [73:33] majority of you. No local setting
+- [73:35] nothing. Just go to a website and get
+- [73:37] the key. And we can see that how it has
+- [73:39] given us the answer. Hey, how are you?
+- [73:41] Let me show you the answer. I'm doing
+- [73:43] great. Thanks for asking. Since I'm an
+- [73:45] AI, I don't have any feelings. Pretty
+- [73:47] harsh. But I'm always ready to help you,
+- [73:49] right? So maybe we can ask it. Uh who
+- [73:52] are you?
+- [73:54] Who are you?
+- [73:57] And who trained you? So let us ask this
+- [74:01] question. Although it's deep seek. So
+- [74:03] let's see what answer it will give. And
+- [74:05] I can see the
+- [74:08] so let it load. Meanwhile, I hope you
+- [74:10] will do check this out. Let me refresh
+- [74:12] and show you that how we have a new
+- [74:14] entry now. So see at 11:45 we have the
+- [74:18] entry for R10528
+- [74:20] which means that yes the call is going
+- [74:22] to open router and I'm not scamming you
+- [74:25] in in any case. So until and unless they
+- [74:28] stop this access uh you can just be very
+- [74:31] happy that you just now know a service
+- [74:33] which can give you these keys and you
+- [74:35] can try it out in different different uh
+- [74:37] agent frameworks right so yeah I think
+- [74:39] we have another answer let us see this
+- [74:41] time what it's saying so yeah it is
+- [74:43] saying I'm the r1 your friendly
+- [74:45] assistant and everything I can refresh
+- [74:47] it
+- [74:49] and I see another call so yeah that two
+- [74:51] and again the cost is zero so for anyone
+- [74:53] who comments down that hey it is not
+- [74:55] working I I have shown you that it is
+- [74:57] totally free and it is uh not asking you
+- [74:59] for any money and again you can just use
+- [75:02] the free model here. So if you will
+- [75:04] search on models and go free these are
+- [75:08] all the models which you can use. Open
+- [75:10] router works by providing you access via
+- [75:12] some providers right. So the idea is
+- [75:15] that it has many models right? So you
+- [75:16] will not be needing to locally host them
+- [75:19] and you will also not need any credit
+- [75:21] card or anything. So it is again totally
+- [75:23] from scratch. it will not ask you
+- [75:24] anything until and unless you are using
+- [75:27] free models. The second you are using
+- [75:28] any paid model surely it will fail and
+- [75:30] ask you for some money. So with all
+- [75:33] these models though I don't think that
+- [75:35] you will ever require that at least in
+- [75:36] your practice. So with that everyone I
+- [75:39] think uh you all should be a lot happy
+- [75:42] because we have seen multiple cases. So
+- [75:45] we have learned that how we can use a
+- [75:47] chad uh chad GPT as the paid option for
+- [75:49] our brain or the model. We have seen the
+- [75:52] local lama for those people who want to
+- [75:54] get everything on their system and
+- [75:56] they're always kind of like okay I don't
+- [75:58] want to give my data. So local is also
+- [76:00] supported. And finally we have another
+- [76:02] very awesome service in terms of open
+- [76:04] router. Why you just get your key and
+- [76:06] you have multiple models which you can
+- [76:08] choose. Just make sure that you uh get
+- [76:10] that syntax from here because as I told
+- [76:12] you it took me also a lot of time. So
+- [76:15] this is a best way of like uh running
+- [76:17] it. Right. So with that let's go and
+- [76:19] mark the fifth as well. Yeah. So let me
+- [76:24] mark this as done. And I really hope
+- [76:26] that you like the explanation and you
+- [76:28] have now three models and you cannot
+- [76:30] make any excuse that okay you don't have
+- [76:33] an API key or your laptop is pretty
+- [76:35] slow. All the excuses I have actually
+- [76:37] handled which I seen from students or
+- [76:39] freshers handled in this brain part
+- [76:42] which I believe is the biggest
+- [76:43] bottleneck whenever you're trying to
+- [76:45] learn AI. Right? So with that now let's
+- [76:47] meet in the next uh part everyone and
+- [76:49] there we will see about multimodel and
+- [76:51] structured output which will be a lot
+- [76:53] helpful or make our agent a lot
+- [76:55] stronger.
+- [76:57] Hey everyone. So now let's move forward
+- [76:59] and now let's learn about how can we
+- [77:01] make our model support more than just
+- [77:05] text messages. Now of course there is a
+- [77:07] very good usage of this anytime you are
+- [77:10] creating a extremely smart model and
+- [77:12] with the LLMs which are out there
+- [77:14] supporting that I think our agent should
+- [77:16] also be that smart that it can read and
+- [77:19] learn about let's say different images
+- [77:21] or any other input which is sent to it
+- [77:23] and that is where the multimodel uh
+- [77:26] support is kind of thing. So I could
+- [77:28] just add I think I've done a mistake
+- [77:30] here. So it should be multimodel input
+- [77:33] and I will be covering one more thing
+- [77:35] here which is your structured output. So
+- [77:37] these are the things which we will be
+- [77:39] seeing and learning with respect to our
+- [77:41] agents first. Now the idea is pretty
+- [77:43] simple. It is not always the case like
+- [77:45] let's say if you are making a chatbot
+- [77:48] which is powered by autogen in the back
+- [77:50] end and we can of course have a single
+- [77:52] or multiple agent then we can give our
+- [77:54] customer the functionality of uploading
+- [77:56] a image as well right something which is
+- [77:59] very much there in let's say swiggy
+- [78:01] zumato or any other food startup or
+- [78:04] let's say Amazon flipkart or e-commerce
+- [78:06] uh delivery right so this is where the
+- [78:08] multimodel input support comes in the
+- [78:11] second is the structured output Now of
+- [78:14] course I hope you know that till now we
+- [78:16] are a lot dependent because let's say
+- [78:19] this JSON is the format in which we are
+- [78:21] making our APIs in which the
+- [78:23] communication happens. So autogenerally
+- [78:26] supports the way through which you can
+- [78:28] expect a structured response and I hope
+- [78:31] you know that the same is very much
+- [78:33] useful in uh let's say in request or
+- [78:36] response to an API then also in
+- [78:38] communication. So let's say if your mod
+- [78:40] model it is behaving like an it can
+- [78:42] generally behave like an single API
+- [78:44] where you are sending it some overall
+- [78:46] inputs and it is just responding you for
+- [78:49] sure in a JSON. So instead of asking in
+- [78:51] your prompt that please my life depends
+- [78:53] on it please make sure that you give me
+- [78:54] a JSON only these should be the fields
+- [78:56] and then checking it in the end. It's a
+- [78:59] very good thing that via pyic base model
+- [79:01] it is supporting this right. So if you
+- [79:03] didn't understand I hope you did but yes
+- [79:05] we will be covering this in depth as
+- [79:06] well. So let's get started now. Let's go
+- [79:10] to the sixth part. And the whole idea
+- [79:13] about multimodel input and structured
+- [79:15] output everyone is that this particular
+- [79:18] model which I have the brain and of
+- [79:22] course it must support this image input
+- [79:24] right. So it is not that if you ask a
+- [79:28] 3-year-old child whose brain is not
+- [79:29] developed that okay what is this image?
+- [79:31] He might not able to tell you.
+- [79:33] Similarly, older models like GPT3.5,
+- [79:36] Turbo, etc. uh they don't have that
+- [79:38] image support and surely many newer
+- [79:40] models like Tiny Llama etc. are not
+- [79:42] having that. So then it will not work.
+- [79:44] But models like GPT4 and I think DeepS
+- [79:46] v3 the one which I showed you via open
+- [79:49] router that is also having that right.
+- [79:52] So the idea is that okay I can send it a
+- [79:55] image and it will be able to response in
+- [79:59] text the way it normally does or it can
+- [80:01] give me a JSON output as well. So which
+- [80:04] will surely be used in API web app or
+- [80:07] structuring of our output. So let us see
+- [80:10] the same in practice. Now before that
+- [80:12] just let me go and show you. So I think
+- [80:15] there are a lot uh overall spread across
+- [80:18] multiple places. So let me show you
+- [80:19] directly in the practice. Now let me
+- [80:21] remove this and this and we can go to
+- [80:24] the sixth one.
+- [80:26] So first let's check out on the
+- [80:28] multimodel capabilities everyone with
+- [80:30] autogen not autogen. So let me correct
+- [80:33] this first.
+- [80:35] Okay autogen
+- [80:37] maybe you can create a model which just
+- [80:40] corrects all your file names right that
+- [80:42] will be helpful. So yeah, we can imagine
+- [80:44] uh messages as the way agents
+- [80:46] communicate like the how we text our
+- [80:48] friend. But again 10 years back there
+- [80:50] was just simple SMS. Now we have the way
+- [80:53] through which we can send the images as
+- [80:54] well. So when we communicate with the
+- [80:56] agent sending a message when it responds
+- [80:58] it to also send a message and I've shown
+- [81:00] you that how we have a text message or
+- [81:02] user message as different kind of
+- [81:04] messages in autogen. Similarly so we
+- [81:07] have shown you here text message, image
+- [81:09] message or tool message. So when it is
+- [81:12] communicating with the tool, it sends a
+- [81:13] tool message. Right? Now again uh you
+- [81:16] can learn about these different
+- [81:17] different types in the API reference.
+- [81:20] And if I search for message here, these
+- [81:23] are the different different kind of
+- [81:24] messages. A little out of scope for the
+- [81:26] crash course but I don't think that it
+- [81:28] will be difficult. I think the major one
+- [81:30] which we should be knowing about is the
+- [81:32] text message, multimodel message, chat
+- [81:35] message. These are the one and uh like
+- [81:38] something which you'll be working on.
+- [81:40] Along with that since we are on this
+- [81:41] topic there is one very important which
+- [81:44] is your task result. So we will be using
+- [81:48] that in future. So let me just show you
+- [81:49] that as well. Let me search it. Task uh
+- [81:53] result. Okay I have to search I think
+- [81:55] outside task result. And don't worry uh
+- [81:59] more you learn about autogen like even
+- [82:02] after the crash course you will have
+- [82:03] idea you will be understanding that okay
+- [82:05] what are all these so this task result
+- [82:07] is also another kind of message everyone
+- [82:09] which we will be uh kind of using so it
+- [82:12] kind of signifies that task has been
+- [82:14] properly done or concluded right so now
+- [82:17] if I go back into our code let me just
+- [82:21] select the right environment always make
+- [82:24] sure that you do this and the errors
+- [82:26] will go I am getting the assistant agent
+- [82:29] as you can see here. I am getting the
+- [82:30] chat completion client a text message
+- [82:32] but this time multimodel message as well
+- [82:35] and this ag image right. So what we will
+- [82:38] be doing is we will be sending an image.
+- [82:40] Okay. So first let me just create our
+- [82:42] model everyone. I think the model has
+- [82:44] been created. Then we have this
+- [82:46] assistant agent. Now do make sure that I
+- [82:49] am using GPT 40 here. Similarly whatever
+- [82:51] model you are using that should support
+- [82:53] your uh multimodal input. Right. So
+- [82:57] let's now move forward and we can see
+- [82:59] that how initially I'm just asking it a
+- [83:02] simple text message. Let it answer. It
+- [83:05] has just given us the answer that how
+- [83:06] Washington DC is the capital. So this
+- [83:08] was more of a test message that yes our
+- [83:10] agent is in fact working. Now let's talk
+- [83:13] about multimodel message in which we
+- [83:16] will be sending an image. Let me show
+- [83:18] you this image as well everyone. So I
+- [83:21] can open this.
+- [83:23] So yeah this a cute black dog. Now from
+- [83:27] where I'm getting this image there's a
+- [83:28] website known as pixum pretty useful for
+- [83:32] uh all your testing purposes like you
+- [83:35] can see that how it can give you images
+- [83:38] right so if I open this link it will
+- [83:39] just give a image I think yeah so it
+- [83:44] actually will be giving you se different
+- [83:45] images so first it was a bridge now it's
+- [83:47] a cup if I launch it again it's some
+- [83:52] outside garden or something the idea is
+- [83:54] that we can just get images for our
+- [83:57] testing. Now since these are the uh
+- [84:00] width and the height if we provide the
+- [84:03] ID then we get the exact image every
+- [84:05] time. So if I will click this link
+- [84:06] always I will get this black now right?
+- [84:09] If you want to do test it out you can
+- [84:11] also do one thing where is the page.
+- [84:14] So we can I think browse images where
+- [84:17] exactly it is
+- [84:20] okay let me just check. Yeah uh yeah
+- [84:22] here's the gallery. So in this there is
+- [84:25] a image gallery. Now you can uh do check
+- [84:28] your model with multiple different
+- [84:29] different ids. I'm just using the
+- [84:31] default uh dog one. I think that shall
+- [84:33] be helpful. So let's go back and let us
+- [84:37] ask our model that okay what do you see
+- [84:40] in this image. So the idea is that I
+- [84:42] will be creating a request. So I will be
+- [84:44] first getting the image. Okay. Then I
+- [84:47] will be converting my images into the
+- [84:49] bytes format so that it is able to
+- [84:51] understandable by my model. So this is
+- [84:54] the way through which we do that. Uh we
+- [84:56] are using this ag image to represent my
+- [84:58] image and then I'm sending in the
+- [85:01] content that what is in the image as a
+- [85:04] and this ag image is the image which I'm
+- [85:06] sending source is user and then we are
+- [85:09] just running this role uh with the
+- [85:12] autogen and agent is also the same one.
+- [85:15] So we have this agent.run the one which
+- [85:17] we asked this question. So let me run
+- [85:19] this.
+- [85:21] Okay, let it run. And we can see that
+- [85:24] image shows a black Labrador retriever
+- [85:26] puppy lying on a wooden surface. Uh, let
+- [85:28] us do one thing as well. Let us randomly
+- [85:30] give some
+- [85:32] 150 maybe. Let me copy this and let us
+- [85:36] check what is there in the image here.
+- [85:40] Image doesn't exist. That's not helpful.
+- [85:43] 15.
+- [85:44] Okay. So, it's something of a waterfall,
+- [85:46] right? Glad that I didn't give that much
+- [85:49] like didn't give the 150. And we can
+- [85:51] just run it.
+- [85:54] Okay, let it load. Yeah, and seems like
+- [85:56] image shows a waterfall cascading down
+- [85:58] between two rocky cliffs supported by
+- [86:00] greenery. These dogs are small and a
+- [86:02] small stream in the foreground. So
+- [86:04] foreground. So yeah, I think this is
+- [86:06] actually able to be our eyes and it can
+- [86:09] tell if something is broken in the image
+- [86:12] in in the image for our chatbot as well.
+- [86:15] So yeah, I think that is something by
+- [86:17] which we can support the input of an
+- [86:20] image in multimodel. Now let's go on and
+- [86:23] see about the output as well. So the
+- [86:26] idea is again very very simple. It is
+- [86:29] normally a requirement because these
+- [86:31] agents they will be sitting somewhere
+- [86:33] inside your whole technical flow. Right?
+- [86:36] You will be using this maybe with some
+- [86:38] APIs. you will be uh having or love
+- [86:41] having a structured response which you
+- [86:44] can process in the code. So for that we
+- [86:46] need structured output. Now these are
+- [86:48] something which are now majorly
+- [86:49] supported by every of the model the
+- [86:52] newer one which are coming. So I can
+- [86:55] just select the right environment then
+- [86:57] let me load everything. You can see that
+- [87:00] here as well I will be using the piantic
+- [87:02] module. So for those who are not aware
+- [87:04] just go and search pyantic.
+- [87:07] You can surely learn a little bit more
+- [87:08] about that as well. So, Pyantic is most
+- [87:10] widely used data validation library for
+- [87:13] Python, right? Pyantic actually also
+- [87:16] have a uh agentic AI framework. I think
+- [87:19] Pyantic. Yeah, let me know if you want a
+- [87:22] video on that. Do comment it out and
+- [87:24] maybe I can teach you this particular
+- [87:26] framework as well. Now, uh let me close
+- [87:29] this. The whole idea is that I have now
+- [87:32] created a pyic model. So I've created a
+- [87:35] planet info which is inheriting my base
+- [87:37] model from pyic and I am saying that
+- [87:40] okay I need a name which should be
+- [87:41] string. I need a color which should be
+- [87:43] string and distance miles which should
+- [87:46] be integer. Right? So these are the
+- [87:48] things which I have provided. Again I am
+- [87:50] just creating a simple request. So model
+- [87:53] client I have created in this I am
+- [87:55] making sure to provide the response
+- [87:57] format because understand it will get
+- [88:00] processed in my brain. The brain is LLM.
+- [88:03] So, LLM should know that okay it has to
+- [88:05] provide the format in this particular uh
+- [88:08] it should provide the output in this
+- [88:09] particular format. Now when I do inject
+- [88:13] okay one minute I not defined this. So
+- [88:16] now we have defined this particular
+- [88:18] structure as well everyone. Now when I
+- [88:21] will inject this brain into my digital
+- [88:23] human that is model into the agent and I
+- [88:28] will ask it any question
+- [88:30] it will be able to answer. So as of now
+- [88:32] if you will see that I have just
+- [88:34] provided and asked it as well. Uh name
+- [88:38] is planet agent. Okay. I think I have uh
+- [88:40] done something. Yeah my bad. Sorry. So
+- [88:42] we have actually done two things here.
+- [88:45] In the first one I have provided this
+- [88:47] response format. In the second one I
+- [88:48] have not provided this response format.
+- [88:51] So this one is the model client with
+- [88:53] exactly everything same. This one uh is
+- [88:57] just this formatted. So it is not having
+- [88:59] this particular context. Now ideally
+- [89:02] what we used to do before is something
+- [89:04] like this but the problem was that it is
+- [89:07] not shortity that you will always get
+- [89:08] the answer in the JSON format and that
+- [89:11] used to fail a lot of system. I
+- [89:14] personally also have spent days on the
+- [89:17] 3.5 turbo model asking and begging it to
+- [89:20] always respond in JSON because my logic
+- [89:22] and everything was dependent on that. In
+- [89:24] a very similar manner, we have just used
+- [89:27] this uh we have just used this
+- [89:29] particular uh new agent where we are
+- [89:32] providing a structure. We are expecting
+- [89:34] a structured response. So let me use
+- [89:35] this first. Let me ask this agent. It is
+- [89:39] having the model client as unstructured.
+- [89:41] Let me run this.
+- [89:44] And now if I want if I want to check it,
+- [89:47] let me just do one thing. Let me check
+- [89:48] this thing first. One minute. I can run
+- [89:51] this.
+- [89:53] And we can see that how it is giving it
+- [89:55] like this. JSON name Mars average
+- [89:57] distance from sun. So in a way if you
+- [90:01] will see it has not listened to me
+- [90:02] right. Okay that is I forgot that is the
+- [90:04] reason I have this code. It did give the
+- [90:07] name but in the age part is messed it up
+- [90:10] which I think is something which I
+- [90:11] cannot uh at all uh
+- [90:16] afford. Right. So it is very important
+- [90:17] to know that yes your framework it does
+- [90:20] support that thing. Now to do the same
+- [90:22] everyone I can just do one thing. Let me
+- [90:25] create my agent again. Let me provide
+- [90:27] the model client directly
+- [90:30] and let me move this. So yeah this was
+- [90:32] the reason I actually included this. It
+- [90:34] has messed this up. So age thing it has
+- [90:36] somehow giving average distance from
+- [90:37] set. I have just run it normally. Now
+- [90:40] let me define this
+- [90:43] and we can copy this whole thing.
+- [90:46] And once I ask this let it run
+- [90:49] and see name color distance miles what
+- [90:53] did we provided
+- [90:56] name color distance miles so this is the
+- [91:00] reason now I wanted to actually show you
+- [91:01] this difference with comparison I hope
+- [91:04] now you understand that why this is a
+- [91:06] very big thing for a model or my agent
+- [91:09] to support right because my logic will
+- [91:12] tomorrow sit on this thing let's say I
+- [91:14] get this thing as my result here result
+- [91:18] JSON and now I will be returning on this
+- [91:21] result JSON right so result JSON
+- [91:26] the second I try to get something like
+- [91:28] age here I think age we have not defined
+- [91:31] sorry color it shall work uh sorry uh my
+- [91:35] bad JSON dot
+- [91:38] I think we have to get it or convert it
+- [91:41] to JSON maybe because it is a yeah it is
+- [91:44] a string as of now I believe So totally
+- [91:47] okay we can just maybe convert it to
+- [91:48] JSON. So you can do that. But the idea
+- [91:51] is that here my logic if it is dependent
+- [91:53] on this age it will fail here. But in
+- [91:56] here I am always sure that okay I will
+- [91:59] get what I'm asking. And one thing if
+- [92:01] you will notice we are using a very
+- [92:03] strong overall client. GPT4 is by no
+- [92:06] means an model which is very uh let's
+- [92:10] say weak in learning or following
+- [92:12] instruction. But still it is messing it
+- [92:14] up if you are not providing the exact
+- [92:15] structure. So yeah that was all everyone
+- [92:18] with respect to our multimodel input
+- [92:20] capabilities and the output capabilities
+- [92:23] in JSON. So if we go back we can see
+- [92:26] that how we saw that we can pass the
+- [92:28] image. Let me have this. Yeah we can
+- [92:31] pass the image. Uh our agent will be
+- [92:34] able to handle that and it should also
+- [92:37] support this. So yes that is something
+- [92:38] which will happen and we can get the
+- [92:41] response any way we want in a text the
+- [92:43] normally way we are getting and in a
+- [92:45] JSON as well. So that is where this
+- [92:47] multimodel input and structured output
+- [92:49] is useful. The reason I have included
+- [92:51] this is because this will be used in
+- [92:53] your applications when you do make uh
+- [92:56] applications in your uh let's say work
+- [92:59] using agenti and I want to make sure
+- [93:02] that via this crash course you are
+- [93:03] having the full idea about autogen and
+- [93:06] what are all the basic or required thing
+- [93:09] at least it supports. So let's go back
+- [93:11] and I think we can easily mark
+- [93:14] part six as done because yeah we have
+- [93:16] understood the same in depth as well and
+- [93:18] this is done. Now let's meet and then we
+- [93:21] will take things up a lot of notch and
+- [93:23] learn about teams in our autogen.
+- [93:27] Okay everyone, so let's now jump on to
+- [93:30] understanding about teams in our
+- [93:32] autogen. I think we have a very very
+- [93:34] good and a solid ground till now. We
+- [93:37] have understood each and everything
+- [93:39] before directly jumping on multi- aent
+- [93:42] setup. Right. So now let's see that what
+- [93:44] exactly are teams. As the name suggest
+- [93:47] teams is when multiple agents are
+- [93:50] working in a application right so let's
+- [93:54] see this team thing yeah so this is a
+- [93:57] team everyone now up till now we were
+- [94:00] seeing them separately like you must
+- [94:01] seen this agent somewhere then this
+- [94:03] agent somewhere and this agent somewhere
+- [94:06] the whole idea behind team is that we
+- [94:08] can now divide the expertise of these
+- [94:12] agents separately and if you think this
+- [94:15] is very logic ical thing right even we
+- [94:18] as human workers we don't we are not
+- [94:20] able to do everything right so it is
+- [94:22] always the case that yes we have teams
+- [94:25] in which one person know something other
+- [94:27] person knows something talking coming to
+- [94:29] development we normally have teams where
+- [94:31] one person is a back-end developer or an
+- [94:33] expert another one is let's say a
+- [94:35] front-end expert and this person is
+- [94:37] someone who works in a pro product
+- [94:39] management side so the idea is exactly
+- [94:42] the same again that we will be creating
+- [94:44] these teams And when you divide your
+- [94:47] agents based on their expertise and of
+- [94:50] course we can have different different
+- [94:51] types of brain for them. For example, we
+- [94:53] can have the open AI one for generic
+- [94:55] task and if we feel that okay cloud
+- [94:57] models are good for coding, maybe we can
+- [94:58] have that in the middle agent who is
+- [95:01] going to code or we can say this
+- [95:02] particular agent and if we want as well
+- [95:06] we can have this agent as a code
+- [95:07] executor agent which can just execute
+- [95:09] the code because now it's a totally
+- [95:12] separate kind of an agent right so
+- [95:15] instead of we putting up our heads into
+- [95:17] how to connect these agents with their
+- [95:19] input and output any framework and of
+- [95:22] Autogen as well. It do supports teams
+- [95:25] inside it where multiple agents can work
+- [95:27] together. So let's go uh into the
+- [95:30] documentation and agent chat
+- [95:33] and we can see teams here right. So
+- [95:35] again uh the idea is creating a multi-
+- [95:37] aent team or simply a team using
+- [95:39] autogen. So we will first learn that
+- [95:42] okay how we can create a team then how
+- [95:44] to observe etc. So we will be learning
+- [95:46] all of these things but the basic idea
+- [95:48] is that given a single task the whole
+- [95:51] idea of this team is to make sure that
+- [95:54] they can work collaboratively and they
+- [95:56] can provide us the answer and of course
+- [95:59] um multiple agents they will be better
+- [96:01] than a single agent in doing a task
+- [96:03] which is complex enough right so if any
+- [96:05] task is there which is very very complex
+- [96:07] which has multiple things we will be
+- [96:09] using team only in that and these are
+- [96:13] actually the thing which you will be
+- [96:14] creating
+- [96:15] It will be very less that you will be
+- [96:17] creating a single agent. The reason is
+- [96:20] pretty simple. A single agent can be uh
+- [96:22] like if I talk about an LLM kind of an
+- [96:24] agent, you can directly maybe used LLM
+- [96:27] as well. Of course, many things will not
+- [96:29] be supported like tools etc. So this is
+- [96:31] where framework comes in. But teams are
+- [96:34] where any framework and autogen
+- [96:36] especially uh shines, right? This is
+- [96:38] going to make it a lot more powerful for
+- [96:40] you. So let's now go back to our coding
+- [96:44] part and we can go here
+- [96:48] and we can first learn about multi- aent
+- [96:50] system. Let me select the right kernel
+- [96:51] and close these things off and select
+- [96:54] the kernel. Yeah. So a team is group of
+- [96:57] agent that work together to achieve a
+- [97:00] common goal. So pretty simple thing they
+- [97:02] are going to work together and help us
+- [97:04] achieve a common goal. Now you can just
+- [97:06] see that how we are just getting all the
+- [97:08] things for the timing. We have the model
+- [97:10] client. Now if you want you can have a
+- [97:12] model client
+- [97:15] two here which let's say maybe Olama or
+- [97:18] open router or claude or Gemini because
+- [97:22] this was this like many students have
+- [97:23] this doubt yes your agents are still a
+- [97:26] separate entity like for example I think
+- [97:29] in Hindi and English so my model is
+- [97:31] different you may think in some other
+- [97:32] language so your model is different and
+- [97:34] the way we will be thinking that is also
+- [97:36] something where we can totally have a
+- [97:39] different approach and That is I think
+- [97:41] what makes us unique and like maybe a
+- [97:44] lot stronger in itself. So yeah we can
+- [97:47] define multiple things and we can use
+- [97:49] them. Now very first thing you can see
+- [97:52] and this is something which you have to
+- [97:53] understand. We are just using a single
+- [97:55] agent here. So this is something which
+- [97:57] we have seen as well. We are just using
+- [97:59] this simple single agent and we are
+- [98:02] asking it to uh like give us something
+- [98:05] right.
+- [98:07] So we are asking it to write a story
+- [98:08] about a brave knight and a dragon up to
+- [98:11] 500 words. I should have made it 250
+- [98:13] because more the words more will be the
+- [98:16] model usage. But no worries. Let it run.
+- [98:21] And seems like it has given us given us
+- [98:23] the answer. Now let me make it maybe 50.
+- [98:27] The reason for that I will tell you. Let
+- [98:28] us make it 50.
+- [98:31] And again it has given us a smaller poem
+- [98:34] this time. And we can see that in a land
+- [98:36] of whisper sir Elrich faced the fear
+- [98:39] dragon sapphire at top mist peak. So
+- [98:41] yeah it is able to give us but now the
+- [98:43] idea is that uh who will review it like
+- [98:46] if it's good or not can we have uh like
+- [98:49] if I will ask this agent only then maybe
+- [98:52] it have biases because again it is the
+- [98:54] only one which is producing it much like
+- [98:56] our model like again the idea is that
+- [98:59] let's say this model which is producing
+- [99:01] it it will be having this kind of a
+- [99:03] learning only right maybe I could have
+- [99:05] some better model who is good at writing
+- [99:07] or reviewing task and I can use that to
+- [99:10] review what has been written. So that is
+- [99:13] the whole idea everyone of using teams
+- [99:15] and again multi- aent system we can have
+- [99:18] they each can be of different type they
+- [99:20] can be of different they can be using
+- [99:21] different different tools as well right
+- [99:24] so as in when we will be going forward
+- [99:26] create our projects we can surely have
+- [99:28] those kind of agents as well now let's
+- [99:31] see and learn about multi- aent team
+- [99:33] approach
+- [99:35] so the initial thing which we have done
+- [99:37] we have created three agents a plot
+- [99:39] agent
+- [99:40] You create a engaging plot for stories.
+- [99:42] Focus on Pokemon's journey.
+- [99:45] Character agent. You develop character.
+- [99:47] Describe the Pokémon and the villain in
+- [99:49] detail including their motivation and
+- [99:51] background. So you can see that how now
+- [99:53] I am able to focus on a very specific
+- [99:55] part with my agent. Something the way it
+- [99:58] happens. You cannot have someone who is
+- [100:00] a jack of all trade doing everything
+- [100:02] properly. Right? So yeah, that is
+- [100:04] something which we cannot do. and ending
+- [100:06] agent which is going to just work on the
+- [100:08] ending. So it will be having the
+- [100:10] context. Now in a team the context is
+- [100:12] shared and all of them like this will
+- [100:15] know that okay character agent it will
+- [100:18] know that yes this is the plot which I
+- [100:19] has been given to me. Similarly this
+- [100:21] ending agent will know that okay this is
+- [100:23] the whole story I have to now define an
+- [100:25] ending and we will be giving them a
+- [100:28] single task and all of them will work
+- [100:30] and give us the output. Right? So before
+- [100:33] we move forward many of you might be
+- [100:35] thinking and let me explain you that as
+- [100:37] well that how do team operates right so
+- [100:41] let me just take a little bit of space
+- [100:42] here and try to explain you that now the
+- [100:45] way team can operate everyone surely can
+- [100:47] be in different different manner so for
+- [100:50] example let's say this is my agent
+- [100:52] I'm making going to make it small so
+- [100:55] this let's say is my agent which is a
+- [100:58] plot agent this is let's say my story
+- [101:02] agent
+- [101:03] And similarly this is let's say my
+- [101:07] ending agent right now comes the
+- [101:10] question that okay how exactly are they
+- [101:12] going to collaborate and work with each
+- [101:15] other and if you think about this this
+- [101:17] is how we also can think about like
+- [101:19] there are multiple ways through which
+- [101:21] they can work right now it may happen
+- [101:24] that first I am asking you to write the
+- [101:26] full story then I believe all of them
+- [101:28] should be able to work right if let's
+- [101:30] say you have to create a full
+- [101:31] application
+- [101:32] Maybe then the product manager will make
+- [101:34] the full uh PR or the requirements
+- [101:38] backend engineer will make sure to
+- [101:39] create the back end and front- end
+- [101:41] engineer they will work on providing the
+- [101:42] full front end uh part and we have the
+- [101:44] application ready or it can also happen
+- [101:47] that someone comes to your team and they
+- [101:50] just have a doubt regarding back end and
+- [101:53] let's say if I am the back end engineer
+- [101:54] then I will have to just only answer
+- [101:56] this doubt right I don't think that it
+- [101:58] should go through product manager or the
+- [102:00] front- end developer as
+- [102:02] So with that in mind I've just discussed
+- [102:04] about the two most common use cases and
+- [102:07] those are the types of interaction which
+- [102:09] we are going to learn about as well and
+- [102:10] they are very logical in understanding
+- [102:13] the first way everyone isware we have a
+- [102:16] round roman team. So if you just think
+- [102:19] about this uh let me do one thing.
+- [102:22] Okay. Yeah this is the problem. One
+- [102:25] second everyone. So yeah the very first
+- [102:27] one is going to be rounding team. Now
+- [102:29] this team can be let's say something
+- [102:31] like this. Okay, arrows are always a
+- [102:33] problem here. So we have to delete this
+- [102:36] one as well. And now I can define them.
+- [102:39] This time I will be surely right. Yeah.
+- [102:41] So let's say this is my first agent.
+- [102:43] Then this is my second agent. So let me
+- [102:47] just write it down as well. So this is
+- [102:49] going to be my first agent.
+- [102:52] first
+- [102:54] then
+- [102:56] second
+- [102:58] and finally third right so I have these
+- [103:01] three agents everyone now what can I do
+- [103:04] is the task will first go to the first
+- [103:06] one then it will go to the second agent
+- [103:10] right and
+- [103:13] it depends now like this is with respect
+- [103:15] to autogen in general like we if we want
+- [103:19] right we could send this further back in
+- [103:22] a loop to my first agent again. So that
+- [103:25] is the whole idea that we can now send
+- [103:27] it back to my first agent again and it
+- [103:30] is going to work totally well, right? No
+- [103:32] problem at all. It is going to work
+- [103:33] totally as we want it. Another way of
+- [103:37] doing this. Now let's first learn about
+- [103:39] this much in uh this one in depth. So
+- [103:41] this way of interaction is known as
+- [103:43] roundroin team and this is genuinely the
+- [103:46] team which you will be defining the most
+- [103:48] and working the most with. The idea is
+- [103:51] pretty simple. Anytime we are making any
+- [103:53] system, we think linearly, right? So
+- [103:55] somewhere your uh let's say first agent
+- [103:57] will work, then the second, then the
+- [103:58] third. That said, of course, we can have
+- [104:01] cases where this kind of team might not
+- [104:03] cut it. The approach or the doubt which
+- [104:05] I talked to you about the second one,
+- [104:07] right? So let's see this now everyone.
+- [104:10] Here we can see that how agent chat
+- [104:12] supports several team presets. Round
+- [104:14] robin group chat. A team that runs on a
+- [104:18] group chart with participant taking
+- [104:19] turns in roundroin fashion. So let us
+- [104:21] see the tutorial. So again in the team
+- [104:24] you will see that this is kind of
+- [104:26] default kind of a team which it has
+- [104:28] supported. So we can have multiple
+- [104:30] agents defined. Now here is it is having
+- [104:32] the primary agent and on the same time
+- [104:35] it is having a secondary or creating
+- [104:38] critic agent right. uh we will see about
+- [104:41] what exactly other things are but the
+- [104:43] idea again is that once you are defining
+- [104:45] this team in this manner ground dominant
+- [104:48] group chat we can have primary agent
+- [104:50] here and the critique agent here okay
+- [104:53] first primary agent is going to do the
+- [104:55] work and then critique agent so let us
+- [104:56] try it out as well everyone now I have
+- [104:59] defined my agents here let me define it
+- [105:01] again yeah here I have mentioned round
+- [105:04] domain group chat is a simple yet
+- [105:05] effective team configuration where all
+- [105:08] agents share the same context context.
+- [105:10] So this thing is very important to
+- [105:11] understand that how my agents they will
+- [105:15] be sharing the context. So if the first
+- [105:18] one if the first one that is the pilot
+- [105:21] agent or sorry plot agent it gives me
+- [105:24] the plot the character agent will be
+- [105:27] having the context that yes this is the
+- [105:29] plot which I have to work on and create
+- [105:30] the story or sorry create the
+- [105:32] characters. So this is very very helpful
+- [105:35] of course and this is where I guess we
+- [105:38] should be very thankful to these
+- [105:39] frameworks because doing this uh without
+- [105:42] frameworks are very difficult. Let's say
+- [105:43] you are working on so again to like dumb
+- [105:48] it down a lot. You can just think that
+- [105:50] okay you are using open AI and you are
+- [105:52] using claude. So you asked OpenAI to
+- [105:55] write some code then you go to claude
+- [105:56] and maybe you are testing the code out
+- [105:58] here. So you will have to give the
+- [106:00] context again that hey uh this is what I
+- [106:02] asked it to do and this is the code it
+- [106:04] has provided me. So I hope you
+- [106:07] understand what was the problem in that
+- [106:08] kind of a setup. Right? They have the
+- [106:11] overall shared context. Now let me
+- [106:13] define the team. You can see that how in
+- [106:15] round dropping group chat you can
+- [106:17] provide participants as the argument.
+- [106:22] Your autofill. Okay. So your chat
+- [106:24] completion it is going to give agents
+- [106:26] here many time and you will be
+- [106:28] scratching your head thinking where is
+- [106:30] the problem? Well the problem is this
+- [106:32] only that it is participants right? So
+- [106:34] yeah, you will face that error believe
+- [106:36] me. Once I have defined these everyone,
+- [106:38] let me maybe have this separately. I
+- [106:41] have this thing. Yeah, once I have
+- [106:43] defined this particular team, I can just
+- [106:45] have this team and see what exactly in
+- [106:48] here. So actually I have multiple things
+- [106:50] inside this. So we can say that okay uh
+- [106:53] what are the agents or something?
+- [106:57] Okay. Yeah. No, I think we had that. So
+- [106:59] we can have the component, description,
+- [107:01] label, type maybe. Let us run this. So
+- [107:04] it is a team and it is a round doming
+- [107:06] group team where we have three agents.
+- [107:08] Now what this max turns three means here
+- [107:11] everyone is that this particular team it
+- [107:15] is going to take maximum number of three
+- [107:18] turns not three circle that is something
+- [107:22] which might be there in other framework
+- [107:23] in autogen right here first second third
+- [107:29] if it would have been four it would have
+- [107:32] got another chance so max turns means
+- [107:34] three turns max turns means number of
+- [107:36] time it agents will kind of executed.
+- [107:40] First execution, second execution, third
+- [107:43] execution. Right? So, let us run this
+- [107:45] and I can just test my team here. Write
+- [107:48] a short story. Uh, write a short story.
+- [107:50] A brave boy at this Pokémon. Keep it up
+- [107:52] to let me make it 50 words only because
+- [107:55] else it will be a lot long, right? Let
+- [107:56] us now run this.
+- [107:59] So, again the idea is that now I will
+- [108:02] tell you that run stream will make a lot
+- [108:04] of sense. Pay attention. It is running
+- [108:05] but it is not showing you any output.
+- [108:08] So it is team.run task is equal to task.
+- [108:12] I have given this particular task as a
+- [108:14] test uh test text message and we see
+- [108:17] that final output you got after 19
+- [108:19] seconds. So I could not have stopped it
+- [108:21] in between if something wrong was
+- [108:22] happening and it is like that example if
+- [108:26] you remember I asked it to get a coffee
+- [108:28] no communication whatsoever went and get
+- [108:30] me the coffee. If it would have been a
+- [108:32] lot longer kind of a flow which I will
+- [108:34] show you, it will of course be very uh
+- [108:37] irritating because you will just get the
+- [108:39] output maybe after 1 minute, 2 minutes.
+- [108:41] But meanwhile, let us see the output
+- [108:43] everyone. If that is pretty nice
+- [108:46] and seems like uh okay, it has chosen
+- [108:49] charm vendor. So I asked this user now
+- [108:51] this user is outside. Okay, it is not
+- [108:54] the part of max turns. First it went to
+- [108:56] plot writer then uh it went to character
+- [109:01] writer. Now I have just made sure to
+- [109:03] make it a little bit smarter. So we have
+- [109:06] this source in team and then we have the
+- [109:09] content. In the agent we didn't have
+- [109:11] anything like this. Now we have the
+- [109:12] source and we have the content. So you
+- [109:15] can just see the code and you will
+- [109:16] understand this. Here plot writer has
+- [109:19] given us a very good plot in Luminina
+- [109:21] town. Young Kai and his fairy Charmander
+- [109:24] venture into this. Then we have worked
+- [109:27] on the character overall. So Charmander
+- [109:29] and the Master Umbra face to face. And
+- [109:32] where is Yeah, one minute. Let me check.
+- [109:34] Where is the last one?
+- [109:36] Okay,
+- [109:38] just a second. Where is the last? Yeah,
+- [109:40] ending. My bad. Now we can say as Kai
+- [109:44] and Charmander celebrated their victory
+- [109:46] over Master Kumra, the burned shadows
+- [109:49] begin to swirl and reform. revealing a
+- [109:52] hidden message in the groves, ashes etc.
+- [109:54] Right? So this is again what we have got
+- [109:58] in the output. They are working one one
+- [110:01] time. So let me just mark it somehow.
+- [110:04] Yeah, this is the first one.
+- [110:07] This uh okay sorry this is the second
+- [110:10] one. A lot of big output right? First
+- [110:11] output second
+- [110:14] and we have the ending writer. Okay. Now
+- [110:19] on the same time if I write if I give
+- [110:21] max turns equals to six and now try to
+- [110:23] run it. Pay attention. I hope you all
+- [110:26] understand what exactly it will be. So
+- [110:27] let me run this. It will take a lot of
+- [110:30] time. They will be getting two two turns
+- [110:32] each. So first the plot then the
+- [110:36] character then the ending. Similarly
+- [110:39] plot character ending. Now in this
+- [110:42] ideally it is useful when you have a
+- [110:44] reviewer kind of a flow. So we can have
+- [110:46] this person who is writing something uh
+- [110:48] this person let's say who is reviewing
+- [110:50] it and this person who is summarizing
+- [110:52] all the changes. Now when it will go
+- [110:54] back to the writer it will make sure to
+- [110:56] accommodate all those changes and your
+- [110:58] prompting should also be very strong
+- [111:00] here. If you make an error or very weak
+- [111:02] prompting you will see that they are not
+- [111:04] behaving nicely. Just like how if you're
+- [111:06] working in a team we need to have a very
+- [111:08] strong understanding right between us
+- [111:11] that okay how this one will be working
+- [111:13] how this one will be working. So yeah we
+- [111:15] saw that after 13.5 it came out pretty
+- [111:18] quickly here we have got our output now
+- [111:21] I am like we are not just going inside
+- [111:23] this you can get the same user then plot
+- [111:26] writer character writer ending writer
+- [111:28] plot writer character writer ending
+- [111:30] writer but you can see that how more or
+- [111:33] less it would have taken in the idea so
+- [111:35] this ending is something which top plot
+- [111:37] writer would have uh kind of inculcated
+- [111:40] because it is having the context and uh
+- [111:44] the character writer Maybe it would have
+- [111:45] made it a little bit better based on the
+- [111:47] plot with the ending. Okay. So that is
+- [111:50] the way through which you can run a
+- [111:52] round draw in team everyone. Now let us
+- [111:54] see uh let me show you one more thing.
+- [111:57] So this is again the comparison in let's
+- [112:00] say single agent versus a multi- agent
+- [112:02] that how creativity it is very limited
+- [112:04] to one viewpoint diverse idea ideas from
+- [112:07] each agent depth flexibility and setup
+- [112:10] effort. So again it's a little bit
+- [112:12] effort of defining it. Let me show you
+- [112:14] one more thing. If I go back
+- [112:17] and if we run the team. So we have run
+- [112:19] the team right in via this particular
+- [112:21] thing team.
+- [112:23] There is another way through which we
+- [112:25] can run our team and that is again run
+- [112:26] stream only. Now this will going to make
+- [112:28] a lot of sense right. So let me add
+- [112:31] another code. Now
+- [112:33] so team.reset uh async for message in
+- [112:36] team.runstream write a short poem about
+- [112:38] the fall season. This task result is
+- [112:41] something which we will have to import.
+- [112:43] I told you about that as well from
+- [112:45] autogen agent chat. Base import
+- [112:51] okay I think it is base and something as
+- [112:53] well. No import task result. Yeah. So it
+- [112:57] is in autogen chat base. Now I'm first
+- [113:00] resetting the team. So again once I
+- [113:02] reset the team it will not have any
+- [113:04] idea. If I normally run the team again
+- [113:06] like this team dot run let's say it will
+- [113:09] be having the full idea that okay what
+- [113:11] all has happened resetting just delete
+- [113:13] all the all the context just like uh
+- [113:16] let's say a new chat in chat GPD where
+- [113:18] no context is there with the multi-
+- [113:20] aents now when I normally run this team
+- [113:23] and let's see that again this is totally
+- [113:25] different but you will see this coming
+- [113:27] as and when they are done so source user
+- [113:29] source plot writer
+- [113:32] uh like as soon as they are done with
+- [113:33] their work they are just giving giving
+- [113:34] me the output. So that is the whole aim
+- [113:36] that is the whole idea and you can now
+- [113:38] create those use cases and agents or
+- [113:41] team where you are having multiple
+- [113:43] things to check you can have these tools
+- [113:46] in your agent. So all those basic kind
+- [113:48] of project which you see regarding
+- [113:50] agenti that is something which you can
+- [113:51] handle here and yes we can see that how
+- [113:54] ending writer is working now plot writer
+- [113:56] again all the things they are showing
+- [113:58] you. So it is having again lots of
+- [113:59] content that is not the problem and it
+- [114:02] is able to give me out anything right
+- [114:04] you can learn about more on the team
+- [114:06] that how this happens one thing more you
+- [114:08] can have a single agent team as well so
+- [114:12] there are many benefits of this as we
+- [114:14] will see in future there are like now we
+- [114:17] will be working extensively with teams
+- [114:19] right so we will have multiple things
+- [114:21] which team provides autogen it assumes
+- [114:26] or I think it is logical as well that
+- [114:29] you can have a single person or a single
+- [114:31] person team. Right? Now the benefit of
+- [114:33] that if you remember when we were
+- [114:35] running our agent we could just run it
+- [114:38] uh one time. So if when we used to do
+- [114:40] agent run it used to not run two times
+- [114:43] right but in a team we can have like
+- [114:46] round doin team for example we can have
+- [114:48] a maximum number uh this one minute what
+- [114:52] was the thing
+- [114:55] so I think max turns right yeah so we
+- [114:57] can provide this max turns to be two and
+- [114:59] it is going to run uh let's say multiple
+- [115:01] times let me show you that so don't get
+- [115:03] uh like all
+- [115:06] messed up in the lingo like we can have
+- [115:07] a separate kind of uh we can have a
+- [115:11] single person team as well. So let me
+- [115:13] just define it as team two so as to not
+- [115:16] mess up anything.
+- [115:18] Now I can just have this code
+- [115:22] and I can just do team two team two and
+- [115:27] I think it will run right. So source
+- [115:30] user my message then we will have a plot
+- [115:32] agent and again we will have a plot
+- [115:34] agent. So a single person team but it
+- [115:35] can run multiple times. So this is just
+- [115:37] one of the power of single person team
+- [115:39] or team in general. We can have more
+- [115:42] things as well. But yes, this is where
+- [115:44] your understanding and everything gets a
+- [115:46] lot solidified and this is where I
+- [115:48] believe uh 80 to 90% of the use cases on
+- [115:51] the web are getting kind of handled
+- [115:53] where we create multiple agents in us in
+- [115:55] this kind of a team. So it gives you
+- [115:57] this top reason as well everyone maximum
+- [115:59] number of turns two reached because you
+- [116:02] were able to catch that here also it is
+- [116:04] saying this is actually the task result
+- [116:07] that is why we are able to mention that.
+- [116:09] So in the task result type of a message
+- [116:11] we get this message dots stop diesel
+- [116:13] right if I just show you the message as
+- [116:16] well because again that is important.
+- [116:18] Let me show you the message. So this is
+- [116:20] the last message because it ran for then
+- [116:23] it ran again then it ran again and
+- [116:26] finally I have the task result from
+- [116:28] which I got the context and it is just
+- [116:31] saying that okay what exactly happened.
+- [116:33] Yeah so it is having all the message and
+- [116:35] everything right now uh let us move
+- [116:39] forward and let me open another file
+- [116:41] here.
+- [116:43] So this is a little advanced concept but
+- [116:45] I will still explain you because I want
+- [116:47] that you don't feel confused. There is
+- [116:49] another way or another type of team. Now
+- [116:51] for that again it is an advanced concept
+- [116:54] but let's try to learn that it is a
+- [116:56] selector group chat. Right? This team is
+- [116:59] known as selector group chat. Let me get
+- [117:01] this image and try to explain you what
+- [117:04] will happen.
+- [117:07] So if I choose this selector group chat
+- [117:10] everyone then in this what happens as
+- [117:14] the name suggest it will be selecting an
+- [117:17] agent. So let's say if we give it a task
+- [117:21] then a selector will be here right it
+- [117:23] will also be having a brain because just
+- [117:25] think about this if you have let's say
+- [117:28] three teachers history geography and
+- [117:30] maths and a person is sitting outside
+- [117:34] right you ask that hey I have a math
+- [117:37] doubt this is not a round robin team
+- [117:40] that person should also be a little bit
+- [117:41] smart right it should understand that
+- [117:43] yes this is the agent where I should
+- [117:44] send it right so this is where this kind
+- [117:47] of a team comes in where it will be
+- [117:50] sending the overall uh task to the agent
+- [117:55] it seems most uh deemed fit right and
+- [117:59] one thing more which I'm telling you uh
+- [118:02] which is very important that in this
+- [118:06] name and description
+- [118:10] become
+- [118:12] a lot important because from the name
+- [118:16] and the description only it will be able
+- [118:18] to tell that yes this is the particular
+- [118:22] agent whom I should send this request to
+- [118:25] right so up till now it was totally fine
+- [118:27] if you are not giving the description
+- [118:29] the second you come into uh let's say
+- [118:31] this particular case where we have the
+- [118:34] select a group chat we should be having
+- [118:37] a description as well so a little bit of
+- [118:39] caveat now here uh I have actually
+- [118:42] created this example everyone which is a
+- [118:45] little bit advanced
+- [118:47] But the good thing is that if you will
+- [118:48] go through this documentation, you will
+- [118:51] try you will be able to understand the
+- [118:53] same because it is the same example. But
+- [118:55] since it is a little advanced concept,
+- [118:57] it requires a lot of more in-depth uh
+- [118:59] thing to understand and work it out. We
+- [119:02] can see that how it is having this uh
+- [119:04] tools. Uh so we have multiple agents
+- [119:06] here each having its own tool and then
+- [119:08] the whole workflow is kind of explained
+- [119:10] that how it will happen. Right? Just one
+- [119:13] thing I would like to show here that
+- [119:15] when I do select a selector team, select
+- [119:18] a group chat. So earlier one was round
+- [119:20] robin group chat. I gave it the
+- [119:23] participants which I think makes a lot
+- [119:25] of sense. So all of these are
+- [119:27] participants here. The planning agent,
+- [119:29] the web search and the data analyst. So
+- [119:31] these are all the participating entity.
+- [119:34] Now again just like history teacher,
+- [119:36] geography teacher, math teacher. I give
+- [119:39] it a brain as well. So it is the model
+- [119:41] client. Okay. So it is having a brain as
+- [119:44] well. Then I provide a termination
+- [119:46] condition. So this is something which we
+- [119:48] will learn about. It is the next topic.
+- [119:50] I give it a prompt as well. So I say
+- [119:53] that I tell it that okay how do you have
+- [119:56] to select what are all the things which
+- [119:58] are there at your disposal like what are
+- [120:00] all the agents you have in a way. So for
+- [120:03] example again if I have a person sitting
+- [120:06] outside he should know that hey you have
+- [120:07] these 20 teachers right? maths uh
+- [120:10] geography and your uh history. It should
+- [120:14] have their descriptions etc. Right? So
+- [120:16] these are all the things which are kind
+- [120:18] of required in selector group chat. It
+- [120:20] is not difficult to understand and it
+- [120:23] will be easier with the knowledge which
+- [120:25] I have shared you you will be able to
+- [120:26] understand that right but with the uh
+- [120:29] like overall with the length and with
+- [120:31] the crash course in mind I think you can
+- [120:33] just run through that example yourself.
+- [120:35] Do ask me in the comments and I will
+- [120:36] clear your doubts as well. Now
+- [120:40] with with this all thing provided there
+- [120:41] are few more things if you can allow
+- [120:43] repeated speaker. So this is again very
+- [120:46] logical. You can very well have let's
+- [120:48] say a generic agent as well here right?
+- [120:50] So a generic physician or a general
+- [120:52] teacher or your sports teacher who think
+- [120:54] he knows everything. Not sure how it is
+- [120:56] same across all the schools but yes it
+- [120:58] should not be the case right every every
+- [121:00] time it is sending us here only. So
+- [121:02] every any doubt you ask it is sending
+- [121:03] you here. So that is why we have the
+- [121:06] allow repeated speaker here which we can
+- [121:08] make false and then the speaker will not
+- [121:11] be repeated which I think is very much
+- [121:12] in-depth and totally understandable
+- [121:14] approach. So this is again a second way
+- [121:17] of doing or interacting in your team
+- [121:19] everyone. Now uh surely there can be
+- [121:22] different different ways there can be uh
+- [121:25] you can create your own as well right
+- [121:27] but the idea is that with these two you
+- [121:30] will be able to handle most of your use
+- [121:32] cases for sure. We have actually swarm
+- [121:35] and magentic one as well. Then we have
+- [121:37] this graph flow which we can create our
+- [121:39] own but as I said they are a little bit
+- [121:41] kind of an advanced though you will be
+- [121:44] able to understand them if you go
+- [121:45] through them yourself right but there
+- [121:49] are many different ways as well that is
+- [121:51] something which I want you to understand
+- [121:53] a little out of scope with respect to
+- [121:54] the crash course but yes you should be
+- [121:56] aware that your agents can interact in
+- [121:59] multiple ways inside a team right so
+- [122:02] with that I am pretty sure that in this
+- [122:04] long session we have understood about
+- [122:06] team in depth. I have majorly told you
+- [122:09] that okay what is a team why do or why
+- [122:11] we might require it. We have ran the
+- [122:14] same using run and run uh run and run
+- [122:17] stream to see the output as it is coming
+- [122:19] and of course uh like once at all as
+- [122:22] well. Then we also understood a little
+- [122:25] on this function. So how we can run how
+- [122:28] you can reset stop all these things as
+- [122:31] well you can do right you can resume a
+- [122:32] team. So teams are having context. You
+- [122:34] can just normally ask to run it again
+- [122:36] and they will just run. So just give it
+- [122:38] another task and they will be having the
+- [122:40] context. Right? We also learn about
+- [122:42] single agent team as well. So I think
+- [122:44] that is also clear. Now before we move
+- [122:47] on to the next thing, let me do one
+- [122:49] thing and you will understand the
+- [122:51] requirement of next part because I
+- [122:53] believe that context is very important
+- [122:55] for us as well. If we see the
+- [122:58] roundrobing group chat, we see that by
+- [123:01] default max turns is none.
+- [123:04] And one thing more. So you can totally
+- [123:08] not provide it, right? So let me do one
+- [123:10] thing. Let me make a team three. And
+- [123:12] here I'm not providing it. I've just
+- [123:14] committed this out. And I will be now
+- [123:17] running this team. So I run this team.
+- [123:20] And let me do team 3.
+- [123:23] Team 3.et.
+- [123:26] And let me run this. So a team which is
+- [123:30] running
+- [123:31] where we don't have any max turns. So it
+- [123:34] was pretty logical that yes okay they
+- [123:36] will speak one time they will speak two
+- [123:37] time but of what if we have not
+- [123:40] specified that what many of you are
+- [123:42] thinking uh yeah they will keep on
+- [123:44] speaking right so it will keep on
+- [123:46] running unfortunately because it don't
+- [123:48] have any max turns it is none by
+- [123:50] default. So yeah it will happen it will
+- [123:52] just be running indefinitely
+- [123:55] and charging you a lot and in production
+- [123:58] use cases it will not be able to help
+- [124:00] you find your answer. Now the same
+- [124:02] problem arises if you have a selector
+- [124:04] group kind of a thing because there
+- [124:05] there is no logic of max turns right you
+- [124:08] cannot say that you will get your answer
+- [124:09] in five turns or seven turns or eight
+- [124:12] turns. So those things are not there
+- [124:15] though what we have is we have a brain
+- [124:17] inside these agents. So we will try to
+- [124:20] see if we can use that somehow and that
+- [124:22] is where we will be learning about
+- [124:24] termination condition. As the name
+- [124:26] suggests it will help us to terminate
+- [124:28] our team right now very useful across
+- [124:32] single agent team as well and these are
+- [124:34] the kind of things which you can use
+- [124:35] with single agent team but they will be
+- [124:37] a lot helpful. So I will have to restart
+- [124:39] it because it will keep on running else.
+- [124:41] Ive restarted the kernel. Now you can
+- [124:43] see that how it is keeping on running
+- [124:45] right. So in the next part everyone we
+- [124:48] will learn about termination condition
+- [124:50] which will help us to avoid things like
+- [124:52] these in our roundrobin team or in our
+- [124:55] selector group chat or rather for that
+- [124:57] matter any of the team right. So let's
+- [125:00] now go and mark the team as done and it
+- [125:05] is the most important thing. Now
+- [125:08] everything which we will be discussing
+- [125:10] that will more or less be in lie of the
+- [125:13] team only. Okay. So that is very
+- [125:15] important to understand and we will be
+- [125:18] creating teams in autogen or any
+- [125:20] framework as well to be honest going
+- [125:23] forward single agent is good for just
+- [125:25] checking your work out but there as well
+- [125:28] we will be now shifting towards team
+- [125:30] creation rather than thinking in terms
+- [125:32] of agents. Okay. So yeah let's now meet
+- [125:35] and learn about how we'll be handling
+- [125:37] this kind of a situation.
+- [125:40] So now let's move on to the eighth part
+- [125:42] everyone where we are going to learn
+- [125:44] about termination condition. Now we saw
+- [125:47] that why we might require one in the
+- [125:49] last example where we had a team which
+- [125:53] was not stopping as we have removed this
+- [125:57] max turns argument.
+- [125:59] Along with this you have to understand
+- [126:01] one more use case like we can have this
+- [126:04] max turns may be set to 10 but maybe the
+- [126:08] team is doing the work or is able to do
+- [126:10] the work before that. So maybe in three
+- [126:12] or four turns it is able to do the work
+- [126:14] and vice versa as well where we have uh
+- [126:18] set the max turns at three but still the
+- [126:20] work is not completed. Now this is with
+- [126:23] respect to roundrod robbing group chat.
+- [126:24] Surely with respect to other teams as
+- [126:27] well other group chats there will be
+- [126:29] similar kind of problems and that is
+- [126:32] where termination condition comes in to
+- [126:35] help us in determining when the team is
+- [126:38] going to stop. So let's learn a little
+- [126:40] bit more about them. Now if I go on the
+- [126:44] documentation we have the termination
+- [126:45] defined here. So we have explored how to
+- [126:48] define agents and organize them into
+- [126:50] teams that can solve tasks. So yes we
+- [126:53] have done the same thing. However a run
+- [126:55] can go forever. Yeah. So we also saw the
+- [126:57] same and in many cases we need to know
+- [127:00] when to stop them. This is the role of
+- [127:03] termination condition. So as the name
+- [127:04] suggests this is termination condition.
+- [127:07] Agent chat supports several termination
+- [127:09] condition by providing a base
+- [127:11] termination condition class. So there is
+- [127:14] a class which you can inherit and define
+- [127:16] your conditions though there are many
+- [127:18] inbuilt as well which will be able to
+- [127:20] again handle most of your use cases. A
+- [127:23] termination condition is a callable that
+- [127:25] takes a sequence of so this I will make
+- [127:28] it easy and install uh like explain you
+- [127:30] but let's uh quickly summarize it. The
+- [127:32] whole idea is to make sure that we can
+- [127:35] make our team stop based on some
+- [127:38] condition. Now what can be those
+- [127:40] condition? Let's try to see them one by
+- [127:42] one. Two things to understand here. Uh
+- [127:45] they can be combined using and and or.
+- [127:47] So we can have multiple termination
+- [127:48] conditions. They are stateful but reset
+- [127:52] automatically after each run. So once
+- [127:54] the run or run stream is finished, they
+- [127:57] basically will be reseted, right? They
+- [127:58] can be used again. So now let's see
+- [128:01] everyone uh what exactly are the
+- [128:03] termination condition built-in
+- [128:05] termination condition. As I said, they
+- [128:07] will be more than enough for many of our
+- [128:09] use cases. The very first one is max
+- [128:12] message termination
+- [128:14] stops after a specified number of
+- [128:16] messages have been produced including
+- [128:19] both agent and task message. Right? So I
+- [128:22] think this is the easiest one of the
+- [128:24] lot. Let us try to quickly use it and
+- [128:26] understand once. Now if I go back into
+- [128:29] the termination condition. So this is
+- [128:32] again the same file where uh let me set
+- [128:35] the kernel. Yeah.
+- [128:39] So I think I can remove these things
+- [128:41] before because we are just interested in
+- [128:44] the termination condition part
+- [128:47] multi- teamam approach with termination
+- [128:52] condition right this makes a lot of
+- [128:54] sense now we have defined our agents
+- [128:57] okay uh totally my bad so let us get
+- [129:00] some imports
+- [129:02] we just remove those imports as well
+- [129:05] right so yeah surely this will be needed
+- [129:09] I need to have the boiler plate here.
+- [129:12] And we will be needing uh yeah this as
+- [129:15] well.
+- [129:17] So we can import this and I believe we
+- [129:20] can very well use the text message
+- [129:24] and the same shall be fine then. So let
+- [129:28] me close this one and close this one.
+- [129:31] Now everything is clear. We have the
+- [129:33] assistant agent. Now what I can do I can
+- [129:36] just have a plot agent which is my type
+- [129:41] of assistant agent. So the same has been
+- [129:43] defined. Let me zoom it out. I think
+- [129:45] it's a little more zoom in. So yeah
+- [129:47] everyone I have just defined my model
+- [129:48] client and we have the uh assistant
+- [129:51] agent as well. We have defined three
+- [129:52] agents again. This time as well I'm
+- [129:56] going to like pro run my team. But
+- [129:58] before that what I will do is I will be
+- [130:01] from autogen agent chat conditions. Yeah
+- [130:05] import
+- [130:06] max message termination. Now I know that
+- [130:09] what many of you will be thinking that
+- [130:10] may we already have a max turns right?
+- [130:13] Well yes but it is not there in other
+- [130:15] types of group chat or teams. So let me
+- [130:18] define a termination
+- [130:20] condition here which is max message one.
+- [130:25] Right. So I'm just saying that okay I
+- [130:27] will just run the very first agent. So I
+- [130:28] am providing three agents here but I
+- [130:30] will just run the very first agent. Now
+- [130:33] let us define this and we can send this
+- [130:37] termination condition in here. So the
+- [130:40] team or the group chat takes in
+- [130:43] termination conditions which can be of
+- [130:46] course applied. They will be checked at
+- [130:48] each run and if they are done then we
+- [130:49] will be stopping the flow. Now let me
+- [130:52] run this thing and I think we should be
+- [130:55] running it in a separate way so we can
+- [130:57] see the outputs instead of a single run.
+- [131:00] Let me just copy that code as well
+- [131:02] everyone.
+- [131:03] Now uh okay
+- [131:08] yeah I think this one is better. So
+- [131:11] let's get rid of this and have another
+- [131:15] code
+- [131:16] and have this. So I just wanted that
+- [131:18] towards the end we are I'm coding and
+- [131:20] showing you that how the files which we
+- [131:22] have seen above are useful right that's
+- [131:24] why I'm not written the full code now we
+- [131:27] have send a we are defining a team
+- [131:29] everyone we have the team once I run
+- [131:32] this uh pause the video and maybe you
+- [131:34] can think and in the comments if you can
+- [131:37] let me know what exactly or how many
+- [131:40] messages will be seen we have set the
+- [131:42] termination condition as max termination
+- [131:45] with one let me Run this. Hopefully you
+- [131:48] have answered the question.
+- [131:50] And we just see a single message which
+- [131:52] is from user. Also we see the stop
+- [131:56] region which is maximum number of
+- [131:58] messages one is received reached. Now if
+- [132:02] you remember pay attention it is agent
+- [132:05] and task message both. So one message
+- [132:08] the task message which we gave the task
+- [132:10] that is also considered. So a little
+- [132:12] caveat then round robbin team and if we
+- [132:16] present it let's say as two now and
+- [132:19] define it I will have to again define
+- [132:21] the team because it has been resetted.
+- [132:24] If I run this now then it will be having
+- [132:28] a single overall uh like agent taking
+- [132:33] place. So if I show you from the diagram
+- [132:36] in the visualization way we can go to
+- [132:39] the termination condition part. So we
+- [132:41] have covered a lots of ground here.
+- [132:44] Yeah. So this is where termination
+- [132:45] conditions are defined. Adding a
+- [132:47] condition to stop the flow of the team
+- [132:50] based on the logical condition. So when
+- [132:52] we give this task ideally they can keep
+- [132:55] on running in a loop but of course we
+- [132:57] can provide different different
+- [132:59] conditions. Right now in this case uh
+- [133:02] the one which we use right now we had
+- [133:04] this stop sign
+- [133:07] set on two which means that okay this is
+- [133:09] the first message then it goes here and
+- [133:12] it stops the tip. So every time it will
+- [133:14] check if the termination condition has
+- [133:15] been uh reached or is true it will stop
+- [133:18] that. Now shortly this will not be very
+- [133:21] helpful. Let's see more termination
+- [133:23] condition. So we can see the max
+- [133:27] message. Next one is the text mention
+- [133:29] termination which I believe is very very
+- [133:31] helpful and something which you will be
+- [133:34] using the most. Now think about this
+- [133:36] when we say that okay some task is over
+- [133:38] when we are doing it in a real life as
+- [133:40] well in your team if you are working or
+- [133:43] let's say if you are in some if you do
+- [133:46] some project report or something
+- [133:48] whenever your teacher or your manager or
+- [133:50] someone in your team feels that yes we
+- [133:53] feel that task has been done stop or
+- [133:56] maybe in case party right but the idea
+- [134:00] is that we stop the task based on some
+- [134:03] intelligence This is kind of that
+- [134:06] intelligence. So what we can do is we
+- [134:10] can ask one of our agent like I'm just
+- [134:12] telling you the way of using this. We
+- [134:14] can ask one of our agent let's say the
+- [134:16] final reviewer agent to tell us uh if
+- [134:19] the task has been done then we can ask
+- [134:21] it to say terminate and when it will say
+- [134:24] terminate we will stop our team. So it's
+- [134:26] a very smart way of stopping the team.
+- [134:28] We can have the max turn zero. We can
+- [134:30] have a reviewer agent that reviewer
+- [134:32] agent will be smart and if it feels that
+- [134:34] okay all the reviews has been taken care
+- [134:35] of then please mention terminate and the
+- [134:38] wolf code will stop similarly we have
+- [134:41] the token usage one I think that is
+- [134:42] pretty straight uh forward we have the
+- [134:44] timeout termination so let's say if you
+- [134:46] want to just run your team for 10
+- [134:48] seconds something right then handoff
+- [134:51] termination so uh in a little advanced
+- [134:55] type of a team swarm if you have learned
+- [134:57] about open AI swarm you will have an
+- [134:59] idea
+- [134:59] There's a condition of a handoff. So
+- [135:02] again a little out of scope of this
+- [135:03] crash course but you can also stop.
+- [135:05] Let's say when handoff goes to some
+- [135:08] particular agent we want to stop so that
+- [135:10] we can check that okay what all has
+- [135:12] happened. A very good use case of this
+- [135:14] is say refund whenever there is a refund
+- [135:17] we can then stop our team maybe at that
+- [135:18] point so that we can see that okay what
+- [135:20] exactly has happened do we want to
+- [135:22] actually process the refund or not. So
+- [135:24] at that time we can come in as user in
+- [135:26] the loop something which we will discuss
+- [135:28] in the next part. Similarly there is
+- [135:31] source match external termination much
+- [135:33] like how we have the stop button in chat
+- [135:35] interfaces in chat GB we have that stop
+- [135:37] button right. So that is the external
+- [135:38] termination something which you will use
+- [135:40] if you are making a chatbot kind of a
+- [135:42] thing. Then stop message text message
+- [135:46] function call or function termination.
+- [135:48] So I think we have covered all of them
+- [135:50] only. whenever you get a stop message,
+- [135:52] whenever we have a text message, a
+- [135:54] function call or a function termination.
+- [135:56] So this is all where we can stop it. Now
+- [135:59] let's see the same uh from the
+- [136:01] documentation as well. This is a primary
+- [136:03] agent. Uh this is a critique agent. So
+- [136:06] the way we provide our prompt is like
+- [136:09] provide constructive feedback for every
+- [136:11] message response with approve when your
+- [136:15] feedbacks are addressed. So a simple
+- [136:18] thing uh if you are reviewing my code uh
+- [136:20] you can just give me all the changes and
+- [136:22] in the end you can say that okay your
+- [136:24] code is fine then of course I will have
+- [136:26] a party and I will stop working on my
+- [136:28] code. Now let's see that it has defined
+- [136:31] the max message termination max equals
+- [136:33] to three. Pretty strange why it has
+- [136:35] defined the max message one. Okay first
+- [136:37] maybe it is also showcasing us. So this
+- [136:40] is the very first one everyone
+- [136:42] now okay max is three. Yeah, makes
+- [136:46] sense. We have the user the very first
+- [136:48] one then primary then creat. So three
+- [136:52] things right now they have surely worked
+- [136:55] on this and they have given us the
+- [136:57] answer. This is another function console
+- [137:00] which can be used to print it in a nice
+- [137:02] way much like how we have the run stream
+- [137:04] and everything. So again just a simple
+- [137:06] way of using it. They are giving a task
+- [137:09] and after three message they have
+- [137:10] stopped. No max turns here if you will
+- [137:13] see just the termination condition much
+- [137:15] like how we have used it. Now if we go
+- [137:18] forward they must have
+- [137:21] okay so they are running it again as a
+- [137:23] standalone script. This time what is
+- [137:25] happening? Yeah. So again this time what
+- [137:28] exactly is happening everyone? So it is
+- [137:31] uh if you remember if you just remember
+- [137:34] it was mentioned that how termination
+- [137:35] condition get reset whenever this run
+- [137:37] stream is done. Right? So they are
+- [137:40] showcasing that thing only where since
+- [137:43] uh we are running it again. So pay
+- [137:45] attention here we are running this again
+- [137:48] and we have you this run stream function
+- [137:52] now because the team is having the
+- [137:55] context it will be running and since on
+- [137:58] run and run stream this is a little bit
+- [138:00] important thing to notice
+- [138:02] they are stateful but reset
+- [138:04] automatically after each run. So if you
+- [138:07] want to reset them effectively you can
+- [138:08] just dot reset them but after each run
+- [138:12] or run stream they will uh get reset
+- [138:14] automatically. So you can see here that
+- [138:17] how when they ran it 1 minute. Yeah. So
+- [138:21] when they ran it afterwards they have
+- [138:23] not reset or anything in the in this
+- [138:25] particular thing. I think yeah it was
+- [138:26] here. Sorry for the mess up but yes they
+- [138:29] have not reset the condition. It has
+- [138:31] already been reset. And we see three
+- [138:33] message this time. User is out of the
+- [138:34] picture. last TT gave the message so it
+- [138:37] has taken in the feedback then it is
+- [138:40] saying that okay uh revised haiku now
+- [138:42] follows the traditional 575 pattern and
+- [138:44] it still captured the atmosphere so
+- [138:47] seems like yeah it is all done and it is
+- [138:50] providing the feedback then primary
+- [138:52] person is also saying thank you for your
+- [138:53] kind words and approval I'm glad
+- [138:55] everything so just exchanging nice
+- [138:58] now let's see that how you can combine
+- [139:00] termination condition as well I can show
+- [139:02] you that practically
+- [139:04] I can have say a text mention
+- [139:08] termination. I can either make them run
+- [139:11] for 10 turns and sorry or text mention
+- [139:17] when one of them say approve.
+- [139:20] Right? So the idea again is very simple.
+- [139:23] Let me I think it is this instead we
+- [139:25] will check that idea is very simple. I'm
+- [139:27] combining the conditions. I want that
+- [139:29] okay it should get done by 10 turns and
+- [139:31] I should get an approve. If I don't then
+- [139:33] I will stop anyways because I cannot
+- [139:35] make it run forever. Now if you are
+- [139:38] using this then what we have to do we
+- [139:41] should also change our agent or
+- [139:44] something. So I can maybe create a new
+- [139:46] review agent review agent
+- [139:50] and I can just say something like this.
+- [139:55] Let me remove this
+- [139:58] review agent.
+- [140:00] You
+- [140:03] have to say approve
+- [140:08] once the story is complete and you like
+- [140:15] the full flow. Else provide your
+- [140:20] feedback.
+- [140:22] Now pretty simple thing. It will be
+- [140:23] providing the feedback. they will be
+- [140:25] running back again. Let's see if it will
+- [140:27] be taking in that. So I can just add
+- [140:30] this review agent here. Review agent.
+- [140:34] Yeah, I can just define my team again.
+- [140:38] So either 10 or approve. Whatever
+- [140:42] happens first it will stop. Now let us
+- [140:44] try to run our team and we will see each
+- [140:46] of the messages. Let us run this. So
+- [140:49] each agent will run. Pause and tell me
+- [140:51] how many time it will run. three times
+- [140:53] because one message is from the user
+- [140:55] which is the source and three three
+- [140:57] messages nine message
+- [141:00] okay so okay I think I'm not uh okay
+- [141:02] what have I made a mistake on okay my
+- [141:05] bad so we have not uh defined it here
+- [141:07] like we have not redefined our team
+- [141:09] after redefining the termination
+- [141:10] condition so let me do it again again
+- [141:13] and we can run this now so user now we
+- [141:18] will get I can delete this as well this
+- [141:20] is from the last
+- [141:22] plot writer let's see after that
+- [141:27] so it will take a little bit of time
+- [141:28] meanwhile I think we can see the last
+- [141:30] example as well again the same thing we
+- [141:32] can either use and and or to combine our
+- [141:35] conditions here it has combined the same
+- [141:39] thing coincidentally the 10 messages and
+- [141:41] approve and this time we will see that
+- [141:44] how it is topping so pay attention we
+- [141:47] gave the task again we defined the
+- [141:50] termination condition and pass them the
+- [141:52] combined termination condition.
+- [141:54] This time it stopped. It is mentioning
+- [141:56] the message as well. Approve mentioned.
+- [141:59] So that is why it is stopping. Let's see
+- [142:00] the R team. Yeah, seems like uh R is the
+- [142:03] use case which is the same. I can have a
+- [142:06] markdown here like this. Pretty big
+- [142:10] overall messages. Shall we find okay my
+- [142:13] bad I have not I have to prompt. Yeah.
+- [142:16] So we can see that how it is giving us
+- [142:19] the plot writer. It can have the
+- [142:21] character writer.
+- [142:24] Then we have what we have ending.
+- [142:28] Yeah. Source ending writer. And let's
+- [142:31] see the review as well everyone. The
+- [142:33] review writer says what it says. Okay.
+- [142:36] It is just saying a proof. It like the
+- [142:38] thing right. We could have made it that
+- [142:39] okay if you like it just provide your
+- [142:41] feedback and if you feel the same is
+- [142:43] completed you can give approve. We could
+- [142:46] have done a little strong prompting but
+- [142:47] I guess that is not the problem here. So
+- [142:50] this is all everyone which the way you
+- [142:52] can use a termination condition and I
+- [142:55] hope you understand how helpful this is.
+- [142:57] Any team which you will be creating in
+- [142:59] autogen you have this very strong
+- [143:00] control and the best part you can have
+- [143:03] AI take that call for you that okay when
+- [143:04] you have to stop unlike guessing that
+- [143:07] okay when the work will get done in any
+- [143:09] of the teams. So we have treated round
+- [143:11] robin team just like any other team. It
+- [143:13] is uh it is connecting with one another
+- [143:15] and it is able to give us when to stop.
+- [143:17] Similarly again you can create your own
+- [143:19] custom termination condition as well.
+- [143:21] Here I think they have made a function
+- [143:24] called termination. So totally fine. I
+- [143:26] think it will terminate as and when some
+- [143:29] function is called maybe final greeting
+- [143:32] message once that is called then we
+- [143:33] should be always stopping because we
+- [143:36] have the final message. So this is a
+- [143:38] very good way of even controlling the
+- [143:40] flow better and this is something which
+- [143:42] I like a lot about autogen at each and
+- [143:45] every point it has behaved like a very
+- [143:47] mature framework where you can control
+- [143:50] the things as much as you want. So we
+- [143:52] can have a predefined conditions which
+- [143:54] we are using or it has given you the f
+- [143:57] full overall way in which you can easily
+- [144:01] define your own condition as well. So
+- [144:03] this is the I think definition of a
+- [144:06] proper and a complete framework rather
+- [144:08] than let's say having a drag and drop
+- [144:10] kind of a thing where we don't have
+- [144:11] control over these things. So this is uh
+- [144:14] like if you are a pro programmer you
+- [144:16] will love this thing a lot about autogen
+- [144:18] because you can jump onto the core and
+- [144:20] anything which you don't like which
+- [144:23] surely will be the case as and when you
+- [144:25] will go to more mature use cases you can
+- [144:29] just go and change the code as you like.
+- [144:30] So this is the idea. Now surely you can
+- [144:32] go through this if you want but I
+- [144:34] believe that the one which are provided
+- [144:36] they are way more than enough and in the
+- [144:38] projects as well we are able to just uh
+- [144:42] handle any use case by using uh any of
+- [144:45] these termination condition right so
+- [144:48] yeah that is all about termination
+- [144:49] condition I hope like you have surely
+- [144:52] understood the same and this is how it
+- [144:54] happens now I could have shown you this
+- [144:56] like okay I think it is understood that
+- [144:58] when it will say a proof let's say as in
+- [145:00] when it says approve
+- [145:03] 1 minute.
+- [145:05] So we have approve here. It will be
+- [145:08] checked after every message. If I just
+- [145:10] give you uh another very quick good
+- [145:13] thing. Let me just show you that. So
+- [145:16] let's say if I run this team again
+- [145:19] and I provide about the fall season
+- [145:23] approve it will stop because I have
+- [145:26] mentioned this approve. It is checking
+- [145:28] if the text approve is mentioned and my
+- [145:30] message is also a part of the message.
+- [145:33] So the second I it sees approve it will
+- [145:35] stop the reason you can see text approve
+- [145:37] mention. Okay. So uh like months of
+- [145:41] practice make you even have hold of
+- [145:43] these things and yeah I think that is
+- [145:45] very helpful and you will see that how
+- [145:47] in connection with other framework this
+- [145:49] is going to be very much helpful all
+- [145:50] these termination condition. Now I
+- [145:53] believe we can go back and
+- [145:56] very nicely we can mark a yes here as
+- [145:58] well. Where are we? So lots of notes,
+- [146:01] lots of things we have covered and we
+- [146:03] can say that okay termination conditions
+- [146:05] are also done. Now let's see that how
+- [146:08] can I get this flow a little bit outside
+- [146:10] with me right? If I am asking for the
+- [146:13] poem let's say why should AI always have
+- [146:15] that call when to stop or normally as
+- [146:17] well how can we as human enter into the
+- [146:20] AI world or the AI agents and say
+- [146:24] provide feedback control the flow or do
+- [146:26] anything which we want in this human in
+- [146:28] the loop concept in the next part.
+- [146:32] So now let's take things up a notch and
+- [146:34] see that how can we as human be part of
+- [146:36] this awesome world of agents who are
+- [146:39] working to solve a task in the human in
+- [146:41] the loop concept. Now this concept in
+- [146:43] itself is a common concept across
+- [146:46] agents. So the terminology is same in
+- [146:49] your uh lang chain, langraph, crewi or
+- [146:52] any other framework as well that when
+- [146:54] our agents are working how can we be
+- [146:56] part of that right so let's see that
+- [146:59] once and understand it let me have the
+- [147:02] okay we have covered a lots of things
+- [147:04] yeah so as you can see here everyone
+- [147:06] human in the loop concepts as of now our
+- [147:08] agents were interacting and working with
+- [147:10] one another so it used to give task here
+- [147:13] then maybe it can give it back or it can
+- [147:15] give it to is the whole idea was that uh
+- [147:19] in a way your agents were only doing the
+- [147:21] task but that is not always possible a
+- [147:24] very good use case of that if I can
+- [147:26] think of whenever you are chatting with
+- [147:28] uh let's say an agent on Amazon or
+- [147:30] somewhere and say uh there are multiple
+- [147:33] agents there is a agent which is created
+- [147:35] for
+- [147:37] customer general query
+- [147:40] then we have a refund agent which is
+- [147:42] going to refund things we have a some
+- [147:45] booking or let's say order agent which
+- [147:48] is going to help us with order. But
+- [147:50] finally we have a real customer care. So
+- [147:53] customer
+- [147:55] care executive which is a human. Now
+- [147:58] think about this with all what we have
+- [147:59] learned. We can genuinely create
+- [148:01] something like this. Of course we have
+- [148:03] to go to the selector group chat which
+- [148:06] can take the call that okay I have to
+- [148:07] select this user or the human. So
+- [148:09] something which you can actually create
+- [148:10] from scratch. But the idea is that now
+- [148:13] this human is also part of the loop.
+- [148:15] Hence the name human in the loop. So
+- [148:18] till now our agents were only
+- [148:20] interacting. Now we enter the loop. So
+- [148:22] this is the whole concept of human in
+- [148:24] the loop. And if you remember I told you
+- [148:26] that how autogen provides a user proxy
+- [148:29] agents which can mimic the user. So
+- [148:32] let's see this in action and learn a
+- [148:34] little bit more.
+- [148:37] So yeah as you can see we have seen how
+- [148:39] to create uh control observe our team.
+- [148:42] The section will focus that how with the
+- [148:45] team for your application we can provide
+- [148:46] human feedback because normally it
+- [148:49] happens rather that we as human want to
+- [148:52] give some feedback. We want to generally
+- [148:55] get inside the flow and make sure that
+- [148:56] we can provide some inputs. For that uh
+- [148:59] there are two ways through which we can
+- [149:01] do this. So during the team runs that is
+- [149:04] when the execution is happening uh when
+- [149:07] the team is still running and second is
+- [149:10] once the team has run team run has been
+- [149:12] completed. Now I will explain you both
+- [149:14] in a very easy to get manner which you
+- [149:16] will be astonished like why it has been
+- [149:17] made so difficult but yes these are the
+- [149:20] two ways everyone through which we can
+- [149:21] do that. Now again uh we can easily
+- [149:24] integrate the same from to streamllet as
+- [149:27] well something which we will see in the
+- [149:30] end in our yeah in our project. So I
+- [149:34] hope you remember that we have this very
+- [149:35] good project. Let me check if it is
+- [149:37] still working.
+- [149:39] So yeah user is asking to conduct a
+- [149:41] review. I hope you're able to join the
+- [149:44] dots somehow that what is happening. But
+- [149:46] the idea is that yes we can create stuff
+- [149:48] like this where we can have a chat
+- [149:50] message in the uh steam net app. So this
+- [149:52] is what they have also provided in the
+- [149:55] official documentation. So we can have
+- [149:57] this agent py. Now this is a agent again
+- [150:01] uh we can create soft like fully working
+- [150:05] things like this. As of now I think it
+- [150:07] doesn't make sense but yeah why we have
+- [150:09] totally we can totally use this and get
+- [150:11] the work done. Now let's get back and
+- [150:14] try to understand them first the full
+- [150:16] the like both the cases one by one. The
+- [150:19] very first one is where we can have the
+- [150:22] user enter when the team is still
+- [150:24] running using a user proxy agent. As the
+- [150:27] name suggest we are going to be a proxy
+- [150:29] for the user. So let's see that and
+- [150:32] let's see this diagram as well.
+- [150:35] The whole idea here everyone is that
+- [150:38] when we are running our team there can
+- [150:42] be a agent one there can be an agent
+- [150:44] three and in between we are coming as an
+- [150:46] agent. So the flow will stop or
+- [150:49] depending on what function we have given
+- [150:51] it will be taking in the input from
+- [150:53] outside which we will be defining. Now
+- [150:56] this is very much similar how uh we have
+- [150:58] everything here right. So we can just
+- [151:01] switch them. Okay that might not be
+- [151:03] possible. We can have something like
+- [151:05] this. So this is the first agent.
+- [151:07] Then
+- [151:09] we have the second agent which is a user
+- [151:12] and third agent which is the third
+- [151:15] agent. Right now it can be very helpful.
+- [151:18] Let's say this gives you some story
+- [151:20] before it goes to the AI you are also
+- [151:22] giving in some input or normally as well
+- [151:24] whatever output it is giving you can
+- [151:26] come in between and correct that or
+- [151:28] towards the end maybe you can come in
+- [151:30] and you can let's say do terminate or a
+- [151:33] proof kind of a thing so this is where
+- [151:35] this things kind of gets used what will
+- [151:38] happen pay attention this diagram is a
+- [151:40] little bit tricky to understand it could
+- [151:41] have been a lot easy agent one will work
+- [151:44] and then the flow will go to uh agent
+- [151:48] two which is user proxy. So this in a
+- [151:50] way you have to treat it like an agent.
+- [151:53] But in here this flow will come outside
+- [151:55] like this request for user input. Now if
+- [151:58] you remember or if you do understand
+- [151:59] that we as user are sitting outside we
+- [152:01] are anyway outside right we are sitting
+- [152:03] like this in a nice manner creating our
+- [152:05] application sitting outside having a
+- [152:07] nice autogen session. So the whole idea
+- [152:11] is that how it will come back to you.
+- [152:12] This user proxy agent come backs to you.
+- [152:15] This is what this bold arrow suggest.
+- [152:17] Then based on your feedback it goes back
+- [152:20] or you a response then it continues its
+- [152:22] work. So this is the whole idea of the
+- [152:24] very first manner of doing things to
+- [152:27] understand this better although it
+- [152:30] doesn't happen in chat GPD. Let's say
+- [152:32] when I'm asking it to to write a story
+- [152:37] when it is generating this response it
+- [152:39] is asking me in between. So it doesn't
+- [152:41] happen here but the equivalent of Chad
+- [152:44] GPT is that when it is coming out with
+- [152:47] this response somehow it is asking me or
+- [152:49] somehow the user is in the loop maybe he
+- [152:52] makes sure that okay everything will be
+- [152:53] in the right format maybe he makes sure
+- [152:56] that okay what are the keys we should
+- [152:57] get but yes user is in the loop when
+- [152:59] this format is getting created something
+- [153:02] which doesn't happen in charge GP but
+- [153:04] let's see the same in agentic in autogen
+- [153:06] in action so let's go back let me close
+- [153:10] this close this and we can go remain in
+- [153:13] the loop.
+- [153:15] So as we can see here uh I have actually
+- [153:17] now shifted to switch the gears and I
+- [153:20] have shifted to Python file because as I
+- [153:23] told you right initially we will start
+- [153:24] with this and towards the end we will
+- [153:26] shift to the Python file as that will be
+- [153:28] helpful in the project as well. Now lots
+- [153:31] of issues. Let us select the right
+- [153:32] kernel. Autogen 1 minute. Yeah, autogen
+- [153:36] dashboards all are gone.
+- [153:40] Now uh let us try to understand them one
+- [153:42] by one everyone. I think this is
+- [153:43] something extra. We are not using that.
+- [153:46] Yeah. Uh again this time we just got the
+- [153:48] user proxy agent as well and I think all
+- [153:51] the other things makes a lot of sense
+- [153:53] like we know all the other things in a
+- [153:55] way. Import async.io user proxy agent
+- [153:57] assistant agent then console load load
+- [154:01] uh env everything everything is there
+- [154:04] after that I have defined two agents the
+- [154:06] very first one is the simple assistant
+- [154:09] agent the second one is the user proxy
+- [154:12] agent which is going to proxy a user now
+- [154:16] it is a really helpful assistant which
+- [154:18] is just going to help us with any
+- [154:20] generic task given and this is a proxy
+- [154:22] agent that represent user now the thing
+- [154:24] which I want you to focus on is this
+- [154:26] input function which I have provided as
+- [154:29] by default the input function of Python.
+- [154:32] So if you all remember Python as a input
+- [154:34] function when you once you run it it
+- [154:37] gives back the flow out to you. So let
+- [154:39] me just demonstrate that for people who
+- [154:40] are not having any idea. If I like let
+- [154:43] me just define that in zero. So let me
+- [154:46] make a new file and say 9 9.0
+- [154:51] and we can say input function py pay
+- [154:55] attention. So I can do print and say
+- [154:57] hello world. After that I can say input
+- [155:02] or input
+- [155:06] how are you
+- [155:08] and then I can say print
+- [155:11] by world. I think that makes a lot of
+- [155:13] sense. Now if I do try to run this
+- [155:16] particular code let me clear everything
+- [155:18] and say python
+- [155:21] 9 dot this and 9.0 O input it is saying
+- [155:26] how are you then it stopped it is
+- [155:28] stopped it is asking me for my input I
+- [155:30] can say I am good now we have not use
+- [155:32] that uh extra line /n so it should be
+- [155:35] fine and it is done by but the flow came
+- [155:38] out to us the same understanding you
+- [155:41] have to provide your input function
+- [155:43] which you want to use now for us this is
+- [155:45] a simple input function by default by
+- [155:47] python you can get a lot more crafty and
+- [155:49] make it any way you like then I have
+- [155:52] defined the termination definition which
+- [155:53] is approve. I have defined my team by
+- [155:56] having the participants. If you will ask
+- [155:59] AI to code first it will make a error of
+- [156:01] using pi autogen or autogen then it will
+- [156:03] use agents here. So we have to avoid
+- [156:05] both those errors. Then I'm asking write
+- [156:07] a nice fourline poem about India and I'm
+- [156:10] running the same. So let's see this in
+- [156:12] action as well. Everyone clear
+- [156:14] everything. Python
+- [156:16] my bad. Python 9.
+- [156:21] and 9.1 this so let us run this
+- [156:26] great so pay attention it has it this
+- [156:28] was the very first task which gave which
+- [156:29] came by me then assistant has done its
+- [156:32] work I can make it let's say make it a
+- [156:34] little
+- [156:36] easy to understand
+- [156:39] and have a
+- [156:44] good ending so I know it's four line but
+- [156:47] let's see so this is again text message
+- [156:50] which is going as a user and you can see
+- [156:53] India shines with color bright and sand.
+- [156:54] And so it has given a good job. Then I
+- [156:57] can say
+- [156:59] tell something about its history as
+- [157:05] well. And let's see.
+- [157:08] So for diverse cultures in unified
+- [157:10] stride. So I think now it is good. I can
+- [157:11] do approve. So if you will see now I am
+- [157:14] the part of the loop and I am kind of
+- [157:17] using or having some say. I can provide
+- [157:20] a feedback and it has stopped because we
+- [157:22] have the approve function here. We could
+- [157:24] use any other termination condition as
+- [157:26] well. That is I think now totally
+- [157:28] understood by us. So this thing is very
+- [157:30] important and this is how our AI can
+- [157:33] actually get a lot better. One thing uh
+- [157:36] the team stopped here when we did
+- [157:39] approve. So the team was running it was
+- [157:42] on the hold unless and until I have
+- [157:45] provided the overall input. So because I
+- [157:48] was part of the team now. So this is the
+- [157:50] very first way everyone of running a
+- [157:51] team. So I think the similar example
+- [157:53] will be given here. We have the
+- [157:56] assistant and the user proxy. Yeah. Four
+- [157:58] lang po about the ocean. And we can see
+- [158:00] that how it is going in the same manner.
+- [158:03] The second approach uh that is a little
+- [158:05] bit good to understand. Let's see that.
+- [158:08] So let's go here. Yeah. The second
+- [158:10] approach now is based on the fact that
+- [158:12] our team is able to load and save the
+- [158:15] state. Like it is having that idea that
+- [158:17] okay what all has happened right? If you
+- [158:20] remember uh we have been able to run our
+- [158:22] team again. So just to show you like
+- [158:24] what effectively it means that I will be
+- [158:29] running this team again. So if I do
+- [158:31] teamr runstream again and I ask that hey
+- [158:33] what you did it will be telling me that
+- [158:35] okay I created a poem on India with the
+- [158:38] feedback but if I also provided the
+- [158:40] direct feedback it will be able to take
+- [158:42] that as well and in a way without having
+- [158:45] a user proxy agent that is a user proxy
+- [158:47] agent inside. So what do I mean? Let us
+- [158:50] try to understand that
+- [158:52] once uh the code runs and the full thing
+- [158:55] has happened. So everything has been ran
+- [158:57] the team has been stopped because of
+- [158:59] some termination condition. After that
+- [159:02] since the team state is already saved.
+- [159:04] It is stateful. I can give it another
+- [159:07] message to work on. And this is very
+- [159:10] much similar on how chat GP operates. I
+- [159:13] ask it to do something do something. It
+- [159:16] will give me this. And I can now ask
+- [159:18] make uh status a lot longer with number.
+- [159:24] Now it is stopping the whole flow and
+- [159:26] after that I'm providing it is having
+- [159:28] all the context and it is giving me the
+- [159:30] output in JSON because I have been
+- [159:32] continuing this JSON thing in my initial
+- [159:34] thing. So if I do this now
+- [159:38] see it has made the status a lot longer
+- [159:41] I guess maybe a little more longer than
+- [159:43] we expected but yeah that is the whole
+- [159:45] idea. So we are out of the loop. We are
+- [159:48] out of the team. This agent it has done
+- [159:50] its work. Now we can control that okay
+- [159:52] we are giving in some input. Pretty
+- [159:53] simple like that. Earlier it would have
+- [159:56] asked me hey is this like again we could
+- [159:58] have given internally only before
+- [160:00] showing the end result that uh okay this
+- [160:02] is the operation do you want this is the
+- [160:04] status do you want to make it shorter?
+- [160:06] So this is how the concept of human in
+- [160:09] the loop runs everyone with respect to
+- [160:11] AI or agentic AI in general. Now let's
+- [160:14] see the second one as well.
+- [160:16] So again the very boilerplate code where
+- [160:19] we have everything defined. I can just
+- [160:21] get rid of this. Yeah. Now I have
+- [160:24] defined assistant 1 2 and three. They
+- [160:26] are going to be a writer, reviewer and
+- [160:28] editor. So pretty normal things they are
+- [160:30] going to do. After that I have defined
+- [160:33] my team which is taking a max turns of
+- [160:35] three. Pretty simple thing as of now. If
+- [160:37] I run it normally it is just going to
+- [160:40] behave like this.
+- [160:42] Right.
+- [160:43] >> Yeah,
+- [160:44] >> this is going to be my writer, reviewer
+- [160:46] and editor. It will stop and we will
+- [160:49] come out. That is the whole idea. But we
+- [160:52] can get a lot more crafty and make it a
+- [160:54] little advanced. And see how we have
+- [160:55] done this. If you remember, see this is
+- [160:58] the way how which we run our team. So
+- [161:01] our team is having the state if we don't
+- [161:02] reset it. We have it now inside a loop.
+- [161:05] So now we are not running it outside. We
+- [161:07] are having it inside a loop. And the
+- [161:10] initial task initial task I do provide.
+- [161:13] So this is the task which is defined
+- [161:14] outside. I provide this task uh I
+- [161:19] provide this task as the very first task
+- [161:20] which my team has to do. After that what
+- [161:23] I do I overload this task. I just remove
+- [161:27] its value and I ask that okay feedback
+- [161:30] input please provide your feedback. Type
+- [161:32] exit to stop
+- [161:34] feedback. Strip exit. So if it is exit
+- [161:38] then great come out of the loop and stop
+- [161:40] the flow. Else my task is feedback. So
+- [161:42] if I ask it that hey make it shorter
+- [161:46] then this task it will go back in the
+- [161:48] loop. Since it has been overridden the
+- [161:51] task will go when the team will run this
+- [161:54] time it will be having the context of
+- [161:56] the previous things as well. So all the
+- [161:59] three agents what they have worked on
+- [162:00] they will be having the context. Let's
+- [162:02] see the same in action. I can just run
+- [162:04] clear everything.
+- [162:06] Python
+- [162:08] 9.9.2
+- [162:13] and yeah it is just saying write
+- [162:14] threeline poem about this and we can see
+- [162:17] that how everything is happening so they
+- [162:20] they have the three message here we
+- [162:22] asked them to max turns for three they
+- [162:24] have given this thing to us I can say uh
+- [162:28] make it a little longer with dragon.
+- [162:34] So yeah, I think this can happen.
+- [162:38] Yeah, seems like it is working everyone.
+- [162:40] Now you will see that how this text
+- [162:41] message is going as a user message. So
+- [162:44] we can use a termination condition here
+- [162:45] as well. Once I do a proof, it will stop
+- [162:47] based on termination condition as well.
+- [162:49] Something which I want all of you to try
+- [162:50] it out. I have done the difficult way of
+- [162:53] doing a loop. You could have we could
+- [162:56] have a loop and also we could have
+- [162:57] stopped it and then we could have seen
+- [163:00] that okay if the message type is top
+- [163:02] result or something we can stop that.
+- [163:04] But yeah, this is also pretty much uh
+- [163:06] similar. If I let's say write exit, it
+- [163:09] will come out. So this is the way it is
+- [163:11] working. It will keep on working. But
+- [163:13] yes, the team is not waiting for me.
+- [163:15] That is the whole idea. Much like chat
+- [163:16] GPT. Now we can see the same. I think
+- [163:19] now it will be a lot clear. It ran. It
+- [163:22] is having all the state everything
+- [163:23] saved. It came out. This is bolded
+- [163:25] because it can have multiple times. And
+- [163:28] I as a user am sitting here. So these
+- [163:30] are the two ways everyone through which
+- [163:32] in autogen you can have human inside the
+- [163:34] loop and I think both of them are pretty
+- [163:36] easy to understand. First one if before
+- [163:39] giving the answer ch takes you in the
+- [163:41] loop. So let's say someone in the chad
+- [163:43] GP office is sitting and it is approving
+- [163:46] or providing any feedback that is how it
+- [163:48] will happen. Second once it has given
+- [163:51] you the output you are then providing
+- [163:53] your input or feedback. So that is
+- [163:54] another very good way of providing your
+- [163:56] feedbacks to your team. uh prerequisite
+- [164:00] you can say or a requirement that team
+- [164:01] should maintain the state. Now if I ask
+- [164:03] it to make it shorter and it didn't have
+- [164:06] that uh state or the context it will not
+- [164:09] be any helpful right what it will make
+- [164:11] shorter what it will make longer or
+- [164:12] let's say easier to read so the team
+- [164:15] should maintain state if in case you do
+- [164:18] team reset here it will just lost all
+- [164:21] the context
+- [164:22] now it will I think
+- [164:25] lost everything so please make sure that
+- [164:27] this is not done we are not resetting
+- [164:29] the team context if you are using it
+- [164:32] inside any particular application
+- [164:36] then what you have to do make sure that
+- [164:38] you save your team state. Now you can
+- [164:40] save the same as well a little out again
+- [164:42] of the scope but there is a way through
+- [164:45] which we can state our team like it's
+- [164:46] pretty easy honestly we can just call
+- [164:48] this save state function on the agents
+- [164:52] as well as on the team. So I can use
+- [164:53] this save state and the same will go to
+- [164:56] an uh go to a particular file or I can
+- [165:00] do a database as well. I can use a
+- [165:02] database and I can load this as well. So
+- [165:05] in case like for example when this will
+- [165:07] be useful say I actually it is useful in
+- [165:10] chat GPD to be very honest the way chd
+- [165:13] should be operating so it is maintaining
+- [165:15] a state here I will stop it once I maybe
+- [165:19] log out or once I don't use it if I go
+- [165:21] on some other chat. So this initial uh
+- [165:24] startup it is loading the state right.
+- [165:27] So that is the whole idea something
+- [165:28] which we can we will have to use and we
+- [165:32] can use your persistent state or
+- [165:35] database or file here as well. So that
+- [165:37] let's say you are defining it by user by
+- [165:39] application you can easily control those
+- [165:41] things. So they will be pretty nicely
+- [165:43] doable for each user. You can have a
+- [165:45] same team which is performing running
+- [165:48] asynchronously and having the context of
+- [165:51] that particular user. So those things
+- [165:52] can also be handled here. And this is
+- [165:55] all I think there is in uh human in the
+- [165:58] loop. Uh good very good concept. So see
+- [166:01] they have also mentioned that how you
+- [166:02] can save the state everything and this
+- [166:04] is the way it runs and of course we can
+- [166:07] have the max turns as one as well. So
+- [166:09] after every run it is going to ask us
+- [166:10] for the feedback. So if it is a writer
+- [166:13] after every writer it is going to ask us
+- [166:14] as a feedback. Max turns this one and
+- [166:17] again here it has said max turn is
+- [166:19] specific to team class and is currently
+- [166:21] only supported by roundroin selector
+- [166:23] group chat and swarm when used with
+- [166:26] termination condition. I think we have
+- [166:27] already understood this thing in depth.
+- [166:29] So shall be fine and yeah we can have
+- [166:31] termination condition is well totally
+- [166:33] straightforward thing but the idea I
+- [166:35] hope you are able to get that how it
+- [166:36] will be able to transfer us the flow
+- [166:38] either from inside or once it has
+- [166:40] completed the run. So with this I am
+- [166:43] pretty sure that we have understood and
+- [166:45] I can go
+- [166:47] and mark the termination condition as
+- [166:50] done.
+- [166:51] Yeah, we have covered a lots of ground
+- [166:53] not in red my bad.
+- [166:55] Let us see that in it. See green
+- [167:01] and we can mark this. So great everyone.
+- [167:04] Uh we have covered a lots of things in
+- [167:06] autogen and honestly you are a lot ready
+- [167:08] now to create your own teams and agents
+- [167:10] as well. Now let's though try to
+- [167:13] understand one very important topic
+- [167:15] which is tools. something which we have
+- [167:17] used but I would still like to explain
+- [167:20] you this in a little bit of depth as
+- [167:22] this can make this these are like
+- [167:25] special powers just like we use tools
+- [167:27] they are going to make your agents a lot
+- [167:28] more stronger so with that now let's see
+- [167:31] if you're having any doubts please ask
+- [167:33] the same in the chat uh in the comments
+- [167:35] with the time stamp and I will surely
+- [167:37] help you to answer them and make sure
+- [167:39] that your autogen journey is very smooth
+- [167:43] so now let's move on to the next part
+- [167:45] everyone in which we are going to
+- [167:46] discuss about tools in autogen. Now in
+- [167:49] this as well they are it is a very
+- [167:51] important concept with respect to the AI
+- [167:54] agents and in different different
+- [167:56] frameworks we will find that tools are
+- [167:58] provided in maybe a lot of them in build
+- [168:02] or you can support or add your tools add
+- [168:04] your own tools and supercharge your
+- [168:06] agent to do more work than of course it
+- [168:09] can normally do just like us how we use
+- [168:12] tools to supercharge our workflow. We
+- [168:14] can have a laptop. We can have any app,
+- [168:17] a calculator. Our agents will also
+- [168:19] perform a lot well provided the right
+- [168:21] tools. Again, right tools. Okay. So,
+- [168:25] let's see the same in action. And here
+- [168:27] the documentation is a little bit wavy
+- [168:30] like it's not a lot complete. Okay. My
+- [168:32] bad. Sorry that we have to do after 15
+- [168:34] minutes. So, if I go on autogen agent
+- [168:38] chat, we will not find tool as part of
+- [168:40] this here. Though we have used the same
+- [168:43] and we have seen that how can we give a
+- [168:46] function. So we will talk a little bit
+- [168:48] more about that and learn. We see that
+- [168:50] in the core uh we have the tool defined
+- [168:53] here. So nothing to be afraid of like
+- [168:55] things are there in core that is not the
+- [168:58] case. Here is where we are kind of see
+- [169:00] tools are code that can be executed by
+- [169:02] an agent or perform action. A tool can
+- [169:05] be simple function as an calculator or
+- [169:08] an API call to a third party service
+- [169:09] such as stock price lookup. Let's say if
+- [169:11] you want to find that what is the
+- [169:13] current price of say Microsoft uh stocks
+- [169:17] or weather forecast in the context of AI
+- [169:20] agents in general tools are designed to
+- [169:22] be executed by agents in response to
+- [169:25] model generated function call. So this
+- [169:28] thing is very important if you remember
+- [169:29] when we did that black labrador where we
+- [169:33] kind of mocked our call it was creating
+- [169:36] this it was calling our function based
+- [169:38] on the model generated call. So it was
+- [169:40] not sending out the full overall query.
+- [169:43] It was taking out the part which it
+- [169:45] required. Now uh this is a little bit
+- [169:47] less uh easily understandable. So I will
+- [169:50] make sure that I explain you with my
+- [169:53] visualization here. Let's go to the
+- [169:55] tool.
+- [169:57] So tool yeah I think there is where we
+- [170:01] find these tools. So great everyone uh
+- [170:03] pretty nice drawings. I hope you like
+- [170:05] them. Now talking about tools broadly
+- [170:09] they can be categorized into three major
+- [170:12] parts and this is right in autogen as
+- [170:15] well although it took it like it takes
+- [170:17] these two as the one but if you talk
+- [170:19] about any framework tools can be defined
+- [170:22] into three major categories. The very
+- [170:25] first one is the custom function tool as
+- [170:28] the name suggest. So this pencil I have
+- [170:30] kind of added so you understand that yes
+- [170:32] this is a custom tool where we have
+- [170:33] drawn something in this you are
+- [170:36] providing your own function as a tool to
+- [170:39] your agent. Now this is going to be very
+- [170:42] very helpful whenever you want to
+- [170:44] control the functionality whenever you
+- [170:45] want a specific functionality which of
+- [170:48] course you only are aware about plus
+- [170:50] when let's say you want to connect your
+- [170:53] agents to your specific application that
+- [170:56] is where I guess these tools will be
+- [170:58] helpful as it can let's say connect to
+- [171:00] your DB and get your data so maybe
+- [171:01] something like this we can do where it
+- [171:03] can make those calls and internally we
+- [171:05] can handle them right so that is the
+- [171:07] whole idea now we have already seen the
+- [171:09] same in action but let's see another
+- [171:11] example here. Let me close this uh let
+- [171:14] me actually close everything and we can
+- [171:15] maybe start from scratch.
+- [171:18] So 2.1 custom tool function we can see
+- [171:22] that how uh let me close this. Yeah,
+- [171:25] initially we have defined everything the
+- [171:27] way we do. So we have the environment
+- [171:28] and we have the open AI client. Then I
+- [171:31] define a reverse string function which
+- [171:33] is going to be my tool. A simple tool
+- [171:36] which is going to just uh reverse my
+- [171:38] string. Now we can make it as complex
+- [171:41] also as we like. Let us let me close
+- [171:43] this. Now uh once I have done this in
+- [171:46] the later version of autogen like not
+- [171:49] starting from point 4 but in the newer
+- [171:50] version they suggest that you use this
+- [171:54] function tool to wrap your tool. So I
+- [171:57] will show you what this is. Pay
+- [171:59] attention.
+- [172:00] So yeah again see function tool class
+- [172:03] uses description and type annotations to
+- [172:06] inform the LLM when and how to use a
+- [172:09] given function. So again just we are
+- [172:11] telling that okay this is the tool this
+- [172:13] is a description this is what maybe the
+- [172:16] input or like the type annotation what
+- [172:18] are the different types are of so that
+- [172:21] our LLM has a better idea though in
+- [172:24] general and as a very good practices for
+- [172:27] any tool which you define in framework
+- [172:29] any framework always make sure that you
+- [172:31] define the types let me remove this
+- [172:34] extra thing and you also provide this
+- [172:36] dock string so this dock string uh
+- [172:39] across frame framework. This gets shared
+- [172:41] with your uh LLM and they are able to
+- [172:44] make a better call. Ideally, I would
+- [172:46] also want that I make it a lot better by
+- [172:49] providing it let's say input which is
+- [172:51] string
+- [172:53] and I will also like to provide output
+- [172:55] which is again a string and I can say uh
+- [172:58] this is the type the reversed
+- [173:01] string is returned. So this is a very
+- [173:05] good or rather the best way of defining
+- [173:07] your tool because across the framework
+- [173:09] now I don't want that you're limited to
+- [173:11] one framework though please master one
+- [173:13] framework that is required just like
+- [173:14] languages I don't care if you code in 10
+- [173:17] language one language should be mastered
+- [173:19] with all the concepts so similarly tool
+- [173:21] is that basic concept always have a
+- [173:24] habit to define your tools like this and
+- [173:27] in autogen specifically we have this
+- [173:29] function tool where you can wrap it out
+- [173:31] so it is going to be very helpful
+- [173:34] Now we can define our assistant agent
+- [173:36] and we can give it let's say all the
+- [173:38] things it requires. So name model and
+- [173:41] everything.
+- [173:42] I will tell what this reflect on tool
+- [173:44] use is let me for the time being just uh
+- [173:46] comment it out and you can see that how
+- [173:49] I'm giving it the text reverse one
+- [173:50] second. Yeah how I'm giving it reverse
+- [173:53] the text hello how are you and just
+- [173:55] calling it directly using the run
+- [173:56] functionality. So let us run this and I
+- [173:58] think it will be a lot clearer. Python
+- [174:03] Okay. 1 minute.
+- [174:06] Okay. My bad. Uh why are we back at two?
+- [174:09] It should be 10. It should be 10.
+- [174:13] It should be 10. So that we don't go on
+- [174:17] to our first agent. No, we don't want to
+- [174:19] do that. Python clear everything. 10
+- [174:24] 10.1
+- [174:26] one. And we can run this tool. Now
+- [174:29] optional is not defined. where I'll be
+- [174:31] using this optional
+- [174:33] uh I have a function I think there it
+- [174:35] might be. Yeah. So I actually have a
+- [174:37] very big tool to showcase that how the
+- [174:38] tool can be even bigger like this.
+- [174:41] Right. So just as an example what I can
+- [174:44] do for the time being let me just
+- [174:46] comment everything out here as well or
+- [174:48] let me delete this. Yeah let me delete
+- [174:51] everything. Should be fine. We are just
+- [174:53] using this that tool I will show you
+- [174:54] some other place as well. Now uh let me
+- [174:57] clear everything and run this. Clear it
+- [174:59] again.
+- [175:00] and run the tool.
+- [175:03] We see that how it has returned the
+- [175:06] output
+- [175:07] uh as the reverse string the way we
+- [175:09] asked it. Okay. So we have just I think
+- [175:11] printed out the content. For better
+- [175:14] understanding we can print out the
+- [175:16] result as well. And now I think we all
+- [175:19] will be very comfortable in this. So let
+- [175:21] me run this.
+- [175:24] Now we can see that how the W flow went.
+- [175:26] We have a text message in the starting
+- [175:28] which was the message which we sent.
+- [175:30] Then we have a tool call request where
+- [175:32] the text which went thanks to our LLM
+- [175:36] not the full query just the one which we
+- [175:37] wanted. Then with the same ID we have
+- [175:41] the response.
+- [175:44] So it is able to tool call execution. It
+- [175:46] is able to response the output which is
+- [175:49] this one. And then finally our agent
+- [175:51] also returned whatever we have got from
+- [175:53] the tool. So one thing to note here
+- [175:55] which I would like to show and explain
+- [175:57] like let's say if I ask it hello how are
+- [175:59] you doing or how you doing? So clear
+- [176:03] everything and let me run it again.
+- [176:08] So pay attention this is what we are
+- [176:10] getting right. If I just do one more
+- [176:13] thing right now print and I do
+- [176:18] one minute
+- [176:20] this is the tool right reverse
+- [176:23] if I call this function separately and
+- [176:26] let's say I pass this so I'm just
+- [176:29] calling it parallelly right I'm just uh
+- [176:32] calling this I can have this commented
+- [176:37] and again I can run this
+- [176:41] So we see that how the output is totally
+- [176:44] the same. I I think I forget this uh
+- [176:46] yeah how the output is totally the same
+- [176:49] in a way uh whatever the tool is
+- [176:51] returning our agent is returning
+- [176:53] directly. So if let's say I asked you
+- [176:55] the question what is 5 into 10 ^ 3.5
+- [177:00] you just run it on the calculator and
+- [177:02] you show it to me directly right you are
+- [177:04] not giving me the answer like you are in
+- [177:06] a way giving me the answer but whatever
+- [177:08] the calculator is returning you are just
+- [177:09] giving that back to me. This is where
+- [177:12] the reflect on tool use uh attribute or
+- [177:15] this argument come into picture where as
+- [177:18] the name suggests it is going to now
+- [177:19] reflect on the output which has been
+- [177:21] given by tool. So we can have more uh
+- [177:24] this prompt here. This time instead of
+- [177:27] directly returning it will try to maybe
+- [177:29] give something extra. So let's see what
+- [177:31] it has now do
+- [177:34] and okay it has not done it anything. We
+- [177:37] can just maybe ask it give the
+- [177:41] result with the summary. So a little
+- [177:46] maybe again as I said a little weak
+- [177:48] prompting we can correct that and let us
+- [177:51] run this now. Let me clear everything
+- [177:52] first. Run this.
+- [177:57] Okay. See
+- [177:59] this time it is reflecting on the tool
+- [178:01] use. It is giving us this thing with the
+- [178:03] summary. So it is saying that okay
+- [178:05] original phrase was this and the reverse
+- [178:08] one is this which I have given you. So
+- [178:10] it is reflecting on what tool said. So
+- [178:12] in a way uh let's say if I ask you a
+- [178:16] question you are seeing the answer and
+- [178:17] then you are telling me that okay this
+- [178:19] is how it must have calculated that 10
+- [178:21] to the^ 3.5 this is how we can carate
+- [178:23] this was your question it was very
+- [178:25] difficult all these things it is able to
+- [178:26] do if I make it again uh like if I make
+- [178:30] sorry if I comment this out again let me
+- [178:33] clear everything clear this and now if
+- [178:36] we see it will just give the normal
+- [178:39] answer right so the second I use This
+- [178:42] reflect on tool use it will tell us with
+- [178:45] its thought or mind. So that is how we
+- [178:47] are using and defining the custom tools
+- [178:51] everyone. Now they can be very very
+- [178:53] complex as well. Totally fine. Next
+- [178:57] let's move on to the next category which
+- [179:00] is your inbuilt tools here. As you can
+- [179:02] see it is having this AG
+- [179:05] logo which means that they are the
+- [179:07] inbuilt ones which are there in autogen.
+- [179:09] Now, Autogen library though limited
+- [179:11] surely has some inbuilt tools which you
+- [179:13] can see here. Built-in tools or inbuilt
+- [179:15] tools should be fine. Again, they have a
+- [179:18] Python code execution tool. Then they
+- [179:19] have this local search tool or global
+- [179:21] search tool for rags. They have the
+- [179:24] Docker command line exeutor which is a
+- [179:26] class which runs this Python code. MCP
+- [179:28] server tool for MCPS although that is
+- [179:31] also a little bit in works not a very
+- [179:33] not very enhanced as of now. So shortly
+- [179:35] they will be working on enhancing it.
+- [179:37] HTTP tool and lang chain tool adapter
+- [179:40] for using lang chain tools. So as I said
+- [179:42] they consider this lang chain tool
+- [179:44] adapter which with which you can use
+- [179:45] lang chain tools separately in a inbuilt
+- [179:48] tools but I believe this is logically
+- [179:51] this is a third party tool. So we will
+- [179:53] come to that but for the time being
+- [179:54] let's see the inbuilt tool in action as
+- [179:57] well. So let's go back and I can show
+- [180:00] you the inbuilt tool. Pretty easy thing
+- [180:02] which we are doing here. uh we are using
+- [180:04] the HTTP tool but yes it is difficult to
+- [180:08] just configure it in your uh as a
+- [180:11] inbuilt tool pay attention here again
+- [180:14] this is the very basic code I'm just
+- [180:15] getting the chat uh I'm just getting the
+- [180:18] openi client once I have done this in
+- [180:21] the schema now I am providing that okay
+- [180:23] okay let me first show you what exactly
+- [180:25] is the HTTP request we are making so cat
+- [180:29] API
+- [180:30] I think this is the one if I remember it
+- [180:32] right no Um, what is the one? What is
+- [180:35] the main aim? Yeah, catfact Ninja. My
+- [180:38] bad. So, very simple. We have an I'm
+- [180:41] just using a basic API, but I'm pretty
+- [180:43] sure you can use that as well. So,
+- [180:46] catfact Ninja
+- [180:49] and I can do fact here.
+- [180:52] See what it gives you. It gives you a
+- [180:54] fact and it gives you the length of that
+- [180:56] fact. So, the whole idea is that it is
+- [180:58] an API which is returning you something.
+- [181:00] So you can you are making a rest based
+- [181:02] call right. So this is where the use
+- [181:05] case of HTTP tool can come in. If I have
+- [181:07] an API which I want to connect and
+- [181:09] surely I may want to make sense of. So
+- [181:11] you can see this again the documentation
+- [181:13] is a little bit little bit advanced not
+- [181:15] very straightforward or easy to get. So
+- [181:17] they have defined everything. I think
+- [181:18] they have given an example. Yes. So they
+- [181:20] have given an example as well. Let's try
+- [181:22] to understand this from my example. I
+- [181:24] think that will be better.
+- [181:26] Now first let me get the
+- [181:29] like. Yeah. So everyone this is the URL
+- [181:33] which we are hitting. Now first let me
+- [181:37] get it here. Actually
+- [181:39] pay attention. Yeah first pay attention
+- [181:42] that how cat fact is basically the main
+- [181:47] base domain. So again I'm just naming it
+- [181:49] and I'm describing it. Scheme is https.
+- [181:53] Then I define the host which is
+- [181:55] catfact.ninja.
+- [181:57] 443 is the port. I'm defining the path.
+- [182:00] So this is the path fact. And after that
+- [182:04] the method is get response type is JSON
+- [182:07] and I'm also giving the schema. Now what
+- [182:09] is the schema? If you pay attention here
+- [182:12] fact and length both first one is string
+- [182:15] second one is an integer. So if I go
+- [182:18] back I have defined the schema above.
+- [182:21] object type it is having the fact which
+- [182:23] is of type string it is having the
+- [182:24] description now again this will be
+- [182:26] helpful for our LLM I guess as well when
+- [182:28] it will be having all these things
+- [182:29] defined and length which is an integer
+- [182:32] and description and both of them are
+- [182:34] required one so this is how the schema
+- [182:35] is and this is my tool in overall
+- [182:39] now again I can just maybe so we we can
+- [182:42] actually use both the tools as well pay
+- [182:44] attention
+- [182:46] we are just passing now HTTP tool at the
+- [182:48] reverse string http is the inbuilt
+- [182:52] Reverse string is the one which I have
+- [182:54] created. You are a helpful assistant
+- [182:56] that can fetch random cat fact and
+- [182:58] reverse strings using tools. So I'm just
+- [183:01] telling that okay you are this kind of
+- [183:02] an agent. Now again we are just calling
+- [183:04] this response this time on messages
+- [183:06] content is this. Uh let's now try to run
+- [183:09] this.
+- [183:11] Clear everything. Python
+- [183:14] 10
+- [183:16] 10.2.
+- [183:19] Okay. Okay, what's the problem? No
+- [183:21] module name JSON schema to pyantic.
+- [183:23] Where is it giving this issue I think.
+- [183:25] Okay, I I get what we are missing out
+- [183:27] maybe.
+- [183:28] [Music]
+- [183:30] So the whole problem seems to be coming
+- [183:32] everyone because we are missing some
+- [183:34] dependency. Now this library overall is
+- [183:37] something which is missing as well. So
+- [183:38] either you can do pip install and I
+- [183:42] think this is a library but the major
+- [183:44] reason is that it is in the ext module
+- [183:46] and we have not installed that. So we
+- [183:50] have the ext which is by default but it
+- [183:52] doesn't cater to this dependency is
+- [183:55] there. So it knows what is HTTP tool but
+- [183:59] inside that we have a dependency. So
+- [184:00] let's now run this. Uh let me clear
+- [184:03] everything. Let me remove this and we
+- [184:06] can run this. So autogen is fine. Let's
+- [184:08] see what all it has installed. Few
+- [184:11] things it has done. Uh many things are
+- [184:13] satisfied.
+- [184:15] JSON schema 2 identic it has installed
+- [184:17] as we can see.
+- [184:19] And it is saying that okay everything is
+- [184:21] fine. It has downloaded this particular
+- [184:22] thing only. It installed that and seems
+- [184:25] like yeah everything is installed. So
+- [184:26] just a dependency thing nothing major.
+- [184:28] We can close everything out here and I
+- [184:32] can just run this again. So not this.
+- [184:34] Yeah.
+- [184:37] Open API key environment variable. Okay.
+- [184:41] I think it is trying to load it from
+- [184:43] where it is loading. Open AI API key.
+- [184:45] Let me quickly check if that has been
+- [184:46] changed. So I have actually removed the
+- [184:50] env to like avoid going it on uh upload.
+- [184:53] So I was just committing the code in
+- [184:55] between. So no worries I have uh
+- [184:57] restored that and let me clear this out
+- [185:00] also. Let me open a new terminal. Yeah.
+- [185:03] So source and everything is fine. Now
+- [185:05] Python 10 and 10.2 inbuilt tools. Let us
+- [185:10] see this in action.
+- [185:12] And seems like it has ran and it is
+- [185:14] giving us the answer. So pay attention.
+- [185:16] Where is the exact thing
+- [185:19] reverse string? Okay, I think one
+- [185:21] minute. Let me see what have we given.
+- [185:24] You're a helpful assistant. That is
+- [185:26] fine. Can you please reverse the word
+- [185:28] cat? Okay, I think uh okay, my bad. We
+- [185:31] have not given the right task. Can you
+- [185:33] please
+- [185:35] get a random
+- [185:37] cat fact?
+- [185:39] So now it will work for sure. Again we
+- [185:42] ask it to use the other tool. Let us do
+- [185:45] clear
+- [185:46] and let us now this
+- [185:50] uh this is again for the context thing
+- [185:51] which I was showing you the very reason
+- [185:54] it was not directly hitting I was
+- [185:56] showing that how LLM inside our agent or
+- [185:59] our agent overall is smart then it can
+- [186:01] take the call when I ask it to reverse
+- [186:03] the string it call the reverse string
+- [186:04] function now when I ask it to do okay it
+- [186:08] is saying that okay 1 minute do
+- [186:10] validation error dynamic model fact
+- [186:12] field missing input value function call.
+- [186:16] Okay, let me check this error. What is
+- [186:18] the exact problem here?
+- [186:21] So let's see like what exactly may be
+- [186:23] wrong. We have provided the schema and
+- [186:25] everything. Okay, let me just maybe
+- [186:28] change it a little bit fact for me using
+- [186:32] the tool. Using the tool. So again just
+- [186:36] making it a little bit more uh
+- [186:38] consistent. Let us clear everything out
+- [186:41] and clear and run this.
+- [186:46] Okay, it is again failing that cat fact
+- [186:48] for me.
+- [186:51] CAT fact using the tool or else we will
+- [186:54] try to maybe then change the schema.
+- [187:00] It seems like it is changing. Maybe we
+- [187:01] can provide a separate schema. Let me
+- [187:03] just uh have I have the schema as well
+- [187:06] for this schema.
+- [187:09] two which is something like this let me
+- [187:13] make it schema 2 and we can just provide
+- [187:16] schema 2 maybe so schema 2
+- [187:20] and clear everything out and let's try
+- [187:23] to run this maybe like I guess there is
+- [187:25] some issue in the pyanting maybe because
+- [187:27] of version but let's see that should be
+- [187:28] fine
+- [187:30] okay
+- [187:32] one validation error for dynamic length
+- [187:34] input should be a valid integer
+- [187:37] So okay maybe seems like it is is it
+- [187:41] taking any input? No. So we are giving
+- [187:43] this HTTP tool
+- [187:46] input should be an integer. What are we
+- [187:48] providing here?
+- [187:50] 1 minute it is integer only. Let us
+- [187:52] clear it out. And this again stay like
+- [187:56] it should work. Let's see. Yeah. So it
+- [187:59] is able to get it. Maybe we will have to
+- [188:01] do that uh checking a little bit
+- [188:03] harsher. Here we can see that how all
+- [188:06] cats have claws and all except for
+- [188:08] cheetah sh when at rest and the length
+- [188:11] is 73. So maybe what is happening is
+- [188:15] that unnecessarily our uh agent is
+- [188:20] trying to pass some scheme uh pass some
+- [188:22] things here. Maybe that was the case. We
+- [188:25] can have uh again this is the tool which
+- [188:28] is by default. Let me just zoom out.
+- [188:30] Yeah, this is the tool which is by
+- [188:32] default and we can maybe say that catfax
+- [188:36] directly call the tool no changes or
+- [188:42] inputs. Again just trying to understand
+- [188:44] what exactly it means with respect to
+- [188:46] the AI because these are the issues
+- [188:49] which you will face with right. So let
+- [188:51] us now run it again.
+- [188:55] So okay very strange it is giving us the
+- [188:58] error where input should be a valid
+- [189:00] integer. Maybe it is trying to change
+- [189:02] some of the things here. That is the
+- [189:04] only thing which I can think of. See
+- [189:06] without any change it is able to now
+- [189:07] give us the output. So yeah we can see
+- [189:10] that by going through the documentation
+- [189:12] as well. But the idea is that using the
+- [189:14] inbuilt tool which is your HTTP tool. It
+- [189:17] is able to provide us with the answer
+- [189:18] and again we have multiple tools in uh
+- [189:21] this. So this is an autogen.
+- [189:24] We can see the graph rag, lang chain,
+- [189:26] mcp, canvas. Now let's move on to the
+- [189:29] last part everyone which is the most
+- [189:32] helpful I believe which is your third
+- [189:33] party tools and I'm really thankful for
+- [189:36] Microsoft and autogen for supporting
+- [189:38] this where we will be able to easily
+- [189:42] incorporate other tools into lang uh
+- [189:45] into our autogen. So this is how we are
+- [189:48] just uh I have found this very good
+- [189:49] diagram telling that how they can easily
+- [189:51] connect. So for this let me show you the
+- [189:54] documentation
+- [189:56] and I think this is a lang chain. Yeah.
+- [189:58] So it provides you a wrapper. First you
+- [190:00] will have to install this uh autogen
+- [190:03] lang chain and then it provides you this
+- [190:06] uh from the langen experimental package.
+- [190:08] Now again this is a little bit old. If I
+- [190:11] just show you this has been depreciated.
+- [190:15] So let us search for this lang chain
+- [190:17] experimental.
+- [190:19] One minute. Yeah, this is a doc site.
+- [190:24] So this is a legacy site. They are now
+- [190:25] moved on to the version.3 which is the
+- [190:27] latest one. Right here we can find
+- [190:29] different different tools. I think in
+- [190:30] the version two as well. Yeah. So this
+- [190:33] is the base package everyone where they
+- [190:35] have the tools. Now this lang chain
+- [190:37] experimental is old but that is the
+- [190:39] example.
+- [190:41] though what I will be doing to show you
+- [190:42] this particular thing I will be showing
+- [190:44] you via let me first install this
+- [190:46] because we will be needing
+- [190:50] this thing let me install this and again
+- [190:52] this is a little bit of going a little
+- [190:54] bit above level but I hope now you can
+- [190:56] handle it nicely clear everything out
+- [190:59] and I have a code similarly for third
+- [191:02] party tools in this uh we will have to
+- [191:05] pip install this as well so I will do
+- [191:07] pip install this. So this is just the
+- [191:11] tools, right? Uh what is the this? Okay,
+- [191:13] my bad. PIP install lang chain
+- [191:16] community.
+- [191:19] Second, let us see why. Okay, I think
+- [191:22] the library is different. 1 minute.
+- [191:26] Okay, totally wrong. First mistake. I
+- [191:29] just copied that pip install lchin
+- [191:31] community and yeah, that is getting
+- [191:33] installed. So again, it is having all
+- [191:34] the tools. Now you should have a little
+- [191:36] bit of knowledge of lang chain as well
+- [191:39] but I guess that should be fine. It is
+- [191:40] still showing that maybe it has not
+- [191:42] refreshed or something. Yeah. So the
+- [191:43] same has been done. Now if I go and
+- [191:46] search for say lang chain tools we can
+- [191:50] see that how lang lang has lots of tools
+- [191:53] which we can use right so I will be
+- [191:55] showing you via this Google serper. Now
+- [191:57] you can read more about it. Uh serper is
+- [191:59] a website which helps you with Google
+- [192:01] search serper API. So it's free as well
+- [192:03] right? I can maybe sign in and show you
+- [192:05] quickly.
+- [192:06] So 1 minute
+- [192:09] and by the way this is my email if
+- [192:10] anyone has any doubt or wants to connect
+- [192:12] with me. Pretty simple mail to Mayarval.
+- [192:16] In this what you can do you can create a
+- [192:18] key again uh you cannot use mine but yes
+- [192:20] the idea is that uh once you have
+- [192:22] created the key then you can create a
+- [192:24] call through which you can get the
+- [192:26] result. So let's say if I search for
+- [192:27] Apple link and I do search
+- [192:29] we will get the result from Google. So
+- [192:31] serp is kind of helping you in doing
+- [192:33] that totally free for the first thousand
+- [192:36] searches way more than you will require
+- [192:38] for learning all the frameworks out
+- [192:40] there maybe because this is supported in
+- [192:42] lang chain and QAI both right so if I go
+- [192:45] back now again it's a pretty simple code
+- [192:48] to understand we load the key and
+- [192:50] everything after that uh we just pass
+- [192:53] this serer key this google serper API
+- [192:57] wrapper we use from the langchain
+- [192:58] community and we are saying that okay we
+- [193:00] want maybe the news. So you can provide
+- [193:03] different different types as well here.
+- [193:05] I think it is mentioned in the launch
+- [193:07] here. If I go on Google serp
+- [193:11] yeah so see type is there where we can
+- [193:13] have search or anything images all those
+- [193:16] things are supported and now you can
+- [193:19] just easily create a search web tool
+- [193:22] which internally is using this search
+- [193:24] tool wrapper. So I am able to use this
+- [193:26] tool from lang chain all the way to my
+- [193:29] autogen. Thus this diagram that how they
+- [193:31] are connecting. Now in the docs they
+- [193:34] still are using the lang chain older
+- [193:36] version I think which was community or
+- [193:37] something which we saw but yes after a
+- [193:40] lots of effort this is the way you have
+- [193:41] to lang chain experimental. This is how
+- [193:43] you will be able to do it directly. So
+- [193:45] this is the best or the right way of
+- [193:47] using the same and I think this is
+- [193:49] something which you should also be
+- [193:50] doing. So again uh I feel that they have
+- [193:52] they have to still update this
+- [193:53] documentation but after some effort I
+- [193:56] was able to run the same. Now again the
+- [193:59] client we are creating everyone. Then we
+- [194:01] have the agent which is defined. Now you
+- [194:04] can see the overall full part. You are a
+- [194:07] helpful assistant that can search the
+- [194:09] web to find current information. When
+- [194:11] asked a question use search web tool to
+- [194:13] find relevant information and provide a
+- [194:16] comprehensive answer based on the search
+- [194:17] result. So simple searches the result
+- [194:20] and provides the output. Tool is this
+- [194:22] search web tool which we have from third
+- [194:24] party lang. here as of now it supports
+- [194:27] lang chain only though
+- [194:29] and I can just now create this function
+- [194:32] which is demonstrating the search
+- [194:34] autogen third party tool demonstration
+- [194:36] now I have done this in this manner
+- [194:38] asking charg to make it comment so that
+- [194:41] it is able to you are able to understand
+- [194:42] that when you run it at your end test
+- [194:45] query who won the IPL tournament in
+- [194:47] cricket in 2025
+- [194:49] without tools surely it will not have
+- [194:51] the idea let us take a wild guess or
+- [194:54] maybe you can take that wild guess Okay,
+- [194:55] let's run it without any tool and see
+- [194:57] what it will answer.
+- [195:00] And again, it is just trying to uh then
+- [195:01] run the query. So I can have actually
+- [195:03] multiple queries as well. For each
+- [195:05] query, it will just run my search agent
+- [195:06] and give me the answer. So let us try to
+- [195:08] do this. Let me clear everything out.
+- [195:11] Clear everything. Python
+- [195:15] 10 10.3. Now everyone this is again I
+- [195:18] know that this might be a little complex
+- [195:20] but I really hope that you are able to
+- [195:22] handle this because I feel that this
+- [195:24] concept should be very clear to you. So
+- [195:26] we can see that how the winner of the
+- [195:27] tournament is IPL sorry RCB and IPL is
+- [195:31] also winner because they earned the most
+- [195:33] and if I go on my logs
+- [195:35] we can see that it has searched for IPL
+- [195:37] 2025 winner just now. So I hope that you
+- [195:41] can see that how it is very helpful. We
+- [195:42] search for Apple link as well that is
+- [195:43] also here. So yes, it is going and
+- [195:46] hitting our serper API. It is not that
+- [195:49] it is getting the result from anywhere
+- [195:50] else. And that is the reason that uh
+- [195:53] that I think it makes it a very
+- [195:55] powerful. One more reason I like autogen
+- [195:57] that it is giving you this kind of a
+- [196:00] plugandplay kind of a thing where you
+- [196:01] can plug in other tools as well. So yeah
+- [196:04] surely that is very helpful right now.
+- [196:07] Uh yeah with that clear I think we have
+- [196:09] covered the tool in a lot more depth
+- [196:11] than honestly required. So we have seen
+- [196:14] that how we can have custom function
+- [196:15] tool how we can use inbuilt tools. You
+- [196:17] can maybe play around with more inbuilt
+- [196:19] tools as well and the third party tools
+- [196:22] as well which are going to be very
+- [196:24] powerful because in the lang chain as I
+- [196:26] showed you we have many many tools which
+- [196:28] we can use right if I go back see there
+- [196:31] are so many tools divided by the search
+- [196:34] code productivity web browsing database
+- [196:37] finance and finally all the tools. So
+- [196:40] you can see that how it is going to be
+- [196:41] very much helpful for us and autogen
+- [196:44] done a good thing where it knows that
+- [196:46] yeah people might know lang chain or
+- [196:48] since langen has already defined them it
+- [196:50] has kind of tried to balance the act
+- [196:52] here by providing the wrapper. So kudos
+- [196:55] for autogen to that everyone and this I
+- [196:58] believe now we have covered in a lot of
+- [196:59] depth. So let us go back and go up
+- [197:07] and I think we should like just have two
+- [197:11] ticks here because or rather three
+- [197:13] because we have done all the three types
+- [197:14] of tool. So it is very very uh helpful.
+- [197:17] Believe me it will be very helpful in
+- [197:19] making your proper agents. I'm using one
+- [197:21] of the autogen agents in uh one let's
+- [197:23] say application of mine and there I have
+- [197:26] used this third party tool very much
+- [197:28] because that made my work a lot easier.
+- [197:30] And I have explained you autogen agents
+- [197:32] tool in lots of depth. The three types
+- [197:34] custom, inbuilt, third party. You will
+- [197:38] have this thing through which you can
+- [197:39] always go back and understand this. Now
+- [197:42] let's see in the next part about autogen
+- [197:44] studio UI. Something which I'm pretty
+- [197:46] sure you're going to love. We have
+- [197:47] covered so much ground in so much depth.
+- [197:50] All of that we will see that how we can
+- [197:52] also have a UI. So autogen is very
+- [197:55] generous in providing us that thing on
+- [197:57] which we can drag and drop things up to
+- [197:59] a limit and prototype and test our
+- [198:00] agents. So let's now move on to the next
+- [198:03] part where we will learn about autogen
+- [198:04] studio.
+- [198:06] Great everyone. So let's now move on to
+- [198:08] the next part in autogen studio which is
+- [198:12] a UI which is provided by autogen and it
+- [198:14] can help you to create your teams by
+- [198:17] just dragging and dropping the elements.
+- [198:20] Now let's see the same ones on the
+- [198:22] documentation. Studio as you can see
+- [198:24] here is a low code interface built to
+- [198:28] help you rapidly prototype AI agents
+- [198:31] enhance them with tools. So now you will
+- [198:33] see that how all the things which I have
+- [198:35] covered they will just compress and
+- [198:37] explain like we use here. So that is the
+- [198:40] reason I didn't started off with tools
+- [198:42] direct uh studio directly but first made
+- [198:45] sure that the base is very strong and is
+- [198:47] totally set.
+- [198:49] So let's see that okay uh it is built on
+- [198:51] autogen agent chat something I think
+- [198:53] which we have mastered a lot a high
+- [198:55] level API for building multi- aent
+- [198:56] application now this is the autogen
+- [198:59] studio v.4 I think like the autogen we
+- [199:02] learned that how it was also version.4
+- [199:04] for and this caution is something which
+- [199:07] I would like you to focus on. Autogen
+- [199:09] studio is meant to help you rapidly
+- [199:12] prototype multi- aent workflows and
+- [199:14] demonstrate an example of end user
+- [199:16] interface built with autogen. It is not
+- [199:18] meant to be production ready app.
+- [199:20] Developers are encouraged to use autogen
+- [199:22] framework to build their own application
+- [199:24] implement authentication security and
+- [199:26] other features required for deployed
+- [199:28] application. So this is a very powerful
+- [199:31] statement and I believe that is true for
+- [199:33] AI agents or agentic AI in general that
+- [199:37] many people they feel that okay in 10 15
+- [199:39] minutes they can easily create an agent
+- [199:42] which can help them to answer or which
+- [199:44] can genuinely be a skill.
+- [199:47] I totally believe and unfortunately
+- [199:49] extremely sorry but that is not the case
+- [199:51] with the level of control you want in
+- [199:53] real world applications in the
+- [199:56] especially in the companies when you
+- [199:57] will go autogen is the kind of uh
+- [200:01] overall framework you should master
+- [200:03] because I told you that how it is having
+- [200:04] the full control now with the
+- [200:06] understanding you have you will find
+- [200:08] core also very easy if your programming
+- [200:10] skill is uh pretty good but it is giving
+- [200:12] you all those things with respect to
+- [200:14] authentication security you can
+- [200:15] implement things and inject things into
+- [200:18] its base functions. So this thing is
+- [200:20] very very important to understand and I
+- [200:22] will genuinely keep my stand here that
+- [200:24] no code tools can help you to prototype
+- [200:27] but if you have to go to real world
+- [200:29] usage or production applications you
+- [200:31] should know about these things in
+- [200:32] detail. So yeah not a caution as such
+- [200:35] but yes something which you should be
+- [200:37] focusing on because I want that my
+- [200:39] students they should be well versed and
+- [200:41] having in-depth knowledge about
+- [200:43] everything. So that is the reason I have
+- [200:44] created this good crash course as well
+- [200:47] where now we have mastered everything
+- [200:48] via coding first. So yeah I think enough
+- [200:51] talk let's go to the autogen studio and
+- [200:54] we can go to the installation.
+- [200:57] Yeah. So this is the one everyone. Let's
+- [200:59] go and use requirements. I think I
+- [201:02] forgot to add requirements of the one we
+- [201:05] used in middle. So pretty sure that you
+- [201:07] can do that. You can see the recordings
+- [201:08] again. And normally if you will see the
+- [201:11] error you will remind that okay what was
+- [201:13] something which I installed majorly it
+- [201:15] was autogen and in this we installed
+- [201:18] open AI then we installed HTTP tool and
+- [201:21] I think the lang one as well. So that
+- [201:23] was what we kind of have not added here.
+- [201:26] Now if I do pip install-r
+- [201:30] requirements again uh one word of
+- [201:32] caution here which I have noticed. So
+- [201:34] what it's going to do is that it is
+- [201:37] going to downgrade your autogen agent
+- [201:39] chat library because autogen studio. So
+- [201:42] right now we are on 0.6.1. This is the
+- [201:45] latest one. It is going to downgrade it
+- [201:48] to I think 0.5.7.
+- [201:50] So since I have spent a lot of time uh I
+- [201:52] do remember this. The idea is pretty
+- [201:54] clear. the latest version of studio
+- [201:55] requires that library. So if you are
+- [201:59] using some uh functionality which is on
+- [202:01] the latest version, please make sure
+- [202:03] that you create a separate environment.
+- [202:05] Now the reason I know this because again
+- [202:08] I've spent a lot of time and I faced a
+- [202:10] problem in one of the implementation
+- [202:13] where it was not able to just uh get the
+- [202:16] function and I was pretty sure that yes
+- [202:17] that function is there. So a quick
+- [202:20] advice because maybe it can happen that
+- [202:22] 6.5 version can come in future but
+- [202:25] because of this small thing you are
+- [202:26] facing an error right. So let me go back
+- [202:29] and let us install this
+- [202:32] and I can show you that as well maybe
+- [202:35] see.
+- [202:37] So it will install lots of things. Let
+- [202:39] it do
+- [202:44] numpy tenacity
+- [202:46] installing a lots of package. So it will
+- [202:48] take a lot of time. Meanwhile, uh okay,
+- [202:51] let it run. See if I show you again if
+- [202:55] you will see it is having autogen studio
+- [202:57] that is 0.1.5.
+- [203:00] Okay, seems like they have released a
+- [203:02] new version. Let me go on GitHub once.
+- [203:05] So 1 minute. Yeah, let us search that. I
+- [203:08] think they have released some new
+- [203:09] version because else it used to do that.
+- [203:14] 4.22. What are we on?
+- [203:18] 0.1.5 okay let me search this maybe now
+- [203:21] again this is important and I want you
+- [203:23] to also follow these things that's why
+- [203:25] we are doing it so okay whatever it has
+- [203:29] got
+- [203:30] 4.22 22 this is the latest one okay
+- [203:33] pretty strange
+- [203:35] let's see okay maybe we can run it
+- [203:37] directly I think that will give us an
+- [203:38] idea so that be fine maybe we are like
+- [203:41] seeing the different one once you have
+- [203:43] installed this everyone then after that
+- [203:44] it is pretty easy to run just provide
+- [203:46] these things autogen studio UI - port
+- [203:50] 8081
+- [203:53] and it will start on your local uh host
+- [203:56] and port let it start once so we can see
+- [203:59] that okay application is running and it
+- [204:02] is doing some things. Uh so I will tell
+- [204:04] you what it is doing here. It is just
+- [204:05] trying to create a local database in the
+- [204:09] in my laptop dot autogen studio database
+- [204:13] initialize application data folder then
+- [204:15] initialize database with default travel
+- [204:17] planning workflow and successfully
+- [204:19] initialize everything. So let me go back
+- [204:22] and if I now go on this particular link
+- [204:28] uh okay so this is a older one. Let me
+- [204:30] quickly check why that happened.
+- [204:33] So maybe because of some dependency but
+- [204:36] yes I think we should correct that.
+- [204:37] Don't use this version rather we should
+- [204:40] make sure to correct this one. Pretty
+- [204:44] strange that how it happened but yes
+- [204:47] totally strange. So this is not the
+- [204:49] right UI everyone. If you have used
+- [204:51] autogen lot way back then you would have
+- [204:54] seen this kind of a UI. We don't need
+- [204:55] this. Let me clear everything out. Oh
+- [204:58] sorry let me stop this first clear
+- [205:01] everything out and try to install this
+- [205:04] again.
+- [205:06] Okay so pretty shame like it never
+- [205:08] happened before but good that it
+- [205:10] happened because I would then le get
+- [205:12] less comments that okay this is
+- [205:14] something which we are facing. So very
+- [205:16] happy that I got this here only and let
+- [205:18] it run.
+- [205:21] So yeah see this is what I was
+- [205:23] mentioning uh it has uninstalled the 6.1
+- [205:27] and I think then it has installed
+- [205:30] the.5.7. So this is something which I
+- [205:33] was pointing to that how it has reverted
+- [205:36] back to.5.7
+- [205:38] version and uninstalled 6.1. Now if I
+- [205:43] start it again let me paste it I think.
+- [205:45] Yeah no this is not the command.
+- [205:48] Let me just get the command right which
+- [205:51] we were using. So it was autogen studio
+- [205:53] UI. Autogen studio UI and port is 8081.
+- [205:58] Let me run this.
+- [206:01] So it is now able to load that. I really
+- [206:03] hope it doesn't mess this up with the
+- [206:05] previous version one else I will delete
+- [206:07] the autogen studio. And yeah a humble
+- [206:10] request you also please if you face this
+- [206:12] issue I'm very happy that I faced it.
+- [206:14] Believe me that you will be able to
+- [206:15] solve that. Now let us go and let me do
+- [206:19] this and run this now and see how good
+- [206:24] the UI is. We can just maybe delete
+- [206:27] everything. So this is from my previous
+- [206:29] run which I had
+- [206:31] and yeah so this is the UI everyone
+- [206:34] which you can see and let me just
+- [206:37] explain this things one by one. The very
+- [206:39] first thing which you would like to do
+- [206:41] let us go to and understand settings
+- [206:43] right. So let me just quick give you a
+- [206:45] quick walk through and don't worry I
+- [206:48] have a separate video like we have
+- [206:50] discussed this already on my channel. So
+- [206:52] I will tell you like where you can get
+- [206:53] the full in-length idea.
+- [206:56] So this is the autogen studio where you
+- [206:59] can build your multi- aent apps by just
+- [207:01] dragging and dropping. First let us go
+- [207:04] to settings. In settings you see that
+- [207:06] how we have the settings. We can have
+- [207:08] the default model for us that is GBTO
+- [207:10] mini. And you can of course change the
+- [207:12] same as well by going to edit model and
+- [207:14] maybe let's say provide whatever you
+- [207:16] want here. Then after that if you go on
+- [207:19] environment variables you can just
+- [207:20] provide any environment variables here
+- [207:22] like open router key or Google API key
+- [207:24] whatever you want that will be get
+- [207:26] picked up. After that uh deploy is again
+- [207:30] a little bit out of scope but the idea
+- [207:31] is that you can use it as well to get
+- [207:34] your team. So the JSON configuration
+- [207:36] which I talked about you just go through
+- [207:38] it once and it gives you the docker way
+- [207:40] as well. So docker container setup that
+- [207:42] how you can create this file and it will
+- [207:44] be kind of deployed. Now let's go to
+- [207:47] gallery. Now coming to gallery this is
+- [207:50] like your default things which are
+- [207:53] present by default which are given in
+- [207:55] autogen. So you get this default
+- [207:57] component library. In future, I'm pretty
+- [208:00] sure that maybe five to 6 month down the
+- [208:02] line, we will get many galleries which
+- [208:04] we can maybe uh play around or even we
+- [208:07] can just download and create our own
+- [208:08] galleries. So I will be very happy if
+- [208:10] anyone of you uh just share your gallery
+- [208:12] with me which I can directly load here
+- [208:14] and of course uh that is a little bit
+- [208:16] advanced because I that would mean that
+- [208:18] you have genuinely mastered autogen. Now
+- [208:21] in this you will find five major
+- [208:24] elements all of them which we have
+- [208:25] learned about. Agents sorry teams
+- [208:29] we have the round dominant team we have
+- [208:30] the selector team a web agent team and a
+- [208:32] deep research team agents. So simple
+- [208:37] agents which we have seen
+- [208:39] tools models and termination. So I think
+- [208:42] we know all five of these. These are
+- [208:44] very important. And if you want we can
+- [208:47] add a team here. We can add an agent
+- [208:49] here. We can add some tool here as well.
+- [208:52] Then model is something which we can
+- [208:53] add. It also supports the local mistral
+- [208:56] or llama model. So you can just change
+- [208:57] it here if you will see. So this is the
+- [209:00] local host same of llama if you don't
+- [209:03] have the key again you will like to use
+- [209:04] it right. So here you can just change
+- [209:06] the model and it will work. So O lama or
+- [209:08] lm studio both can work here.
+- [209:11] And in the end you have the termination
+- [209:13] condition as well. So let me delete this
+- [209:14] one which I added. Now you can add the
+- [209:16] termination condition right. So
+- [209:17] termination text let's says terminate or
+- [209:19] say approve.
+- [209:22] So this is where all the things are kind
+- [209:23] of defined which you can use in your
+- [209:25] studio. So the idea is that okay have
+- [209:27] everything in the gallery. We will drag
+- [209:29] and drop or pick from here. It also has
+- [209:31] a like dark and light mode that shall be
+- [209:34] fine. We cannot sign in so not sure why
+- [209:37] it is asking us to sign out. No worries.
+- [209:40] Then this is where the playground is. So
+- [209:42] any team which you have defined you can
+- [209:44] just ask some questions here. much like
+- [209:45] chat GPD right so let me start from
+- [209:48] scratch let me delete all the teams and
+- [209:51] we are now left with just the round
+- [209:52] robin team now if I just close this okay
+- [209:56] close this close this this is the
+- [209:59] builder everyone where you can drag and
+- [210:01] drop things now you can drag your things
+- [210:03] into the agents like you can drop agents
+- [210:07] into team so I hope you understand this
+- [210:09] termination condition also will go to
+- [210:10] team whereas model and tools will go to
+- [210:13] the agent so that is the idea if I want
+- [210:15] I can have another assistant agent here
+- [210:17] and it will come up like this. Now in a
+- [210:21] similar manner I can add a termination
+- [210:23] condition which is on approve and it
+- [210:25] will come here. If I go on settings now
+- [210:27] this will make a lot of sense. It is
+- [210:29] having all the things which we know
+- [210:30] anyways. So non robmy team the
+- [210:32] termination condition but you will not
+- [210:35] see max terms here. You can use maybe
+- [210:38] termination condition with maximum five
+- [210:40] here. So that is what they meant by
+- [210:42] prototyping that not all features are
+- [210:44] available. Similarly, if I go on agent,
+- [210:47] you can just change and see this agent
+- [210:48] and see all its information. We should
+- [210:51] say approve now, not terminate because
+- [210:53] we are using it by approve
+- [210:56] and I can just run this agent here as
+- [210:58] well. So this is again the way you can
+- [211:00] just zoom in zoom out. You can download
+- [211:03] this agent as a JSON sorry this team as
+- [211:05] a JSON. Save it. You can verify that if
+- [211:09] it is right or wrong. Now why the verify
+- [211:10] thing because I can see the JSON as
+- [211:13] well. So if I make some changes here
+- [211:15] let's say autogen 2 maybe it will fail.
+- [211:18] See it is giving us error. So it is a
+- [211:22] low code not no code low code. And I
+- [211:25] should go back to the builder. And now
+- [211:27] if I verify it and save it everything is
+- [211:29] fine. I can run the same as well. So
+- [211:32] what is the capital of France? Let me
+- [211:34] run this.
+- [211:36] And seem like it has given us the
+- [211:37] answer. Second again. See it said
+- [211:39] terminate. It didn't stop because for us
+- [211:42] the way to stop is approve. Second one
+- [211:44] said approve because it knows that it
+- [211:46] has the uh context that yes France is
+- [211:49] indeed the capital of sorry Paris is
+- [211:52] indeed a capital of France and we are
+- [211:53] able to get our answers. Now if we go on
+- [211:56] this playground we can create uh a new
+- [212:00] session with the team. So this is the
+- [212:02] team which is being selected. If you
+- [212:04] click here you will see the team. You
+- [212:05] can select the team. Select your team
+- [212:08] and yeah do this. It will be maintaining
+- [212:10] and it will show you the W flow as well.
+- [212:12] So first, second, third, how many tokens
+- [212:15] got used, the W flow, how it went and
+- [212:19] why it ended, task is completed. You can
+- [212:21] see the same a little bit more in depth
+- [212:23] and yeah it is going to help you. Now
+- [212:26] similarly
+- [212:27] they have the selector group chat here
+- [212:29] as well. So let me go to gallery and you
+- [212:34] can get the team from here. So I can
+- [212:36] just copy this and it is now picked up
+- [212:38] as a template. Here you will see that
+- [212:41] how we have the model right. So simple
+- [212:43] drag and drop things you can do and test
+- [212:45] this out. Now already if you will go on
+- [212:48] my channel I have a proper full video
+- [212:50] which explains this in depth that what
+- [212:53] exactly is autogen studio over an hour.
+- [212:56] In the end we will also like in this you
+- [212:58] will also see that how you can have like
+- [213:01] all the components how you can change
+- [213:03] few things and we will be using a web
+- [213:06] search team in which I will show you
+- [213:09] that how can you let's say find the best
+- [213:11] value money iPhone from Amazon India and
+- [213:14] it is going to do everything for you. It
+- [213:16] is going to search the web. It is going
+- [213:17] to make sure that it is able to go to
+- [213:19] results and finally get that out for
+- [213:22] you. And additionally I have also
+- [213:24] covered that how can you run your studio
+- [213:27] autogen studio with a local LM studio
+- [213:30] app. So local LLM because I do
+- [213:33] understand that not everyone of of us is
+- [213:35] having the key but that doesn't mean we
+- [213:37] should stop. So in this if you will see
+- [213:39] this is a very good use case where your
+- [213:41] agent is doing all this uh for us and it
+- [213:43] is able to search and get the things out
+- [213:46] and give us the result. How it is able
+- [213:48] to do that? Uh it has a tool for that.
+- [213:51] Right. So do make sure that you see this
+- [213:53] for a in-depth understanding the level
+- [213:55] in which we are covering autogen but all
+- [213:58] in all yes this is the way in which this
+- [214:00] operates you can now have anything which
+- [214:02] you want inside this we can maybe let's
+- [214:04] say provide a chat GPT4 model here we
+- [214:06] can maybe change it to Mistral so the
+- [214:08] idea is I think pretty clear because we
+- [214:10] have covered all these things in so much
+- [214:11] depth this is the whole overall UI
+- [214:14] everyone and yes you can just play
+- [214:16] around with it and create your own teams
+- [214:19] I would suggest that create a new
+- [214:21] gallery here. So let's say test gallery
+- [214:25] and okay I will have to I guess give
+- [214:28] some import from URL. Okay. So again
+- [214:31] it's a JSON thing. So either we can
+- [214:32] paste the JSON. We have the default
+- [214:35] gallery here. We can import this and
+- [214:37] maybe we can make some changes here.
+- [214:39] That is something which I will suggest
+- [214:40] you to do right rather than uh like if
+- [214:43] you actually want to master it. That is
+- [214:45] something which I also did and then
+- [214:46] maybe you can define your agents though
+- [214:49] there will be limitations like that is
+- [214:51] something which I want you to understand
+- [214:52] there will be limitations for sure. See
+- [214:54] this is the kind of an agent it is
+- [214:56] giving you that reflect on tool use and
+- [214:58] stream model client and tool call
+- [215:00] summary format. So good thing but yes
+- [215:02] not all information is all not all
+- [215:05] parameters are present here but this is
+- [215:08] good enough for our prototyping. So head
+- [215:10] over to the video after this video.
+- [215:12] Don't leave and just run away. Head over
+- [215:14] to that video and see that how I have
+- [215:16] helped you master autogen studio and
+- [215:19] also how we can find the best iPhone
+- [215:23] just by giving a query here and it will
+- [215:25] do everything for us. So with that
+- [215:28] everyone I guess we are kind of also
+- [215:31] understood about autogen studio in
+- [215:33] depth. Now you can play around it and
+- [215:36] surely go to the video if you want to
+- [215:38] see how can I integrate the local one
+- [215:40] because with the crash course this will
+- [215:42] take a lot of time and I don't want to
+- [215:43] repeat that effort. I want that you
+- [215:45] understand and test out things based on
+- [215:47] the confidence which you get from this
+- [215:48] video. So with now we have covered so
+- [215:52] much ground everyone that we can create
+- [215:55] a very good project and the one which I
+- [215:57] showed you in the starting. So in the
+- [215:59] last part let's conclude our learning
+- [216:01] and see that how can we create a project
+- [216:04] from autogen which is going to search
+- [216:07] the RF library for us for the research
+- [216:09] papers on the topic we ask for. So let's
+- [216:12] now move on to the next part.
+- [216:16] So great everyone. Now let's move on to
+- [216:18] the next part in which based on all the
+- [216:20] learnings we are going to implement a
+- [216:22] project and I will show you that how all
+- [216:25] these things which we have learned that
+- [216:26] is getting used and in the end you will
+- [216:28] be having a end toend application where
+- [216:30] you can ask it anything and it is going
+- [216:33] to shortly give us the answer by
+- [216:35] generally searching and giving a summary
+- [216:38] as well. So if I click on this it will
+- [216:40] take me to that research paper. Now many
+- [216:42] student ask me that sir what is the best
+- [216:44] research paper? what research paper are
+- [216:46] coming into this particular field. Well,
+- [216:49] now you have a full application for that
+- [216:51] which you will also be learning how to
+- [216:53] create. Super happy that you have made
+- [216:54] it till here and let's now jump onto
+- [216:57] that. Let me first see if I have made
+- [216:59] any uh visualization for project.
+- [217:02] I guess all is present but let's see
+- [217:04] still. Yeah. So again this is just what
+- [217:07] I have created. So we will have two
+- [217:10] agents here and we will be using the RV
+- [217:13] library in Python which is able to
+- [217:15] search and get us the result. The
+- [217:17] project is loosely based on the
+- [217:20] official. So they also have a project
+- [217:22] but that is a difficult one to just do.
+- [217:24] So again if you will see here it has a
+- [217:26] travel planning which is a very simple
+- [217:28] kind of a team which you can genuinely
+- [217:30] create on autogen studio as well. Then
+- [217:32] company search. This is a little
+- [217:34] advanced but the good thing is that I
+- [217:36] have a more way much more advanced
+- [217:39] project than this in pipeline. And the
+- [217:42] last one is a literature review which is
+- [217:44] unnecessarily complex which I made a lot
+- [217:46] easy for you. Now let's jump onto the
+- [217:50] coding. Let me close the autogen studio
+- [217:54] and we can close other things as well.
+- [217:58] So pay attention everyone. Now the way I
+- [218:00] have defined it the defi like divided
+- [218:02] the project it is an autogen back end
+- [218:05] and the front end we are parsing via the
+- [218:07] streamllet application right so let me
+- [218:09] first show you the back end because that
+- [218:12] will make a lot of sense to us
+- [218:15] uh this is again what all I have defined
+- [218:17] literature review back end core logic
+- [218:20] for the multi- aent literature review
+- [218:21] assistant built with the autogen stack
+- [218:24] now version.4 Four is very important to
+- [218:26] mention here. It exposes a single public
+- [218:28] C routine run lit uh literature review
+- [218:31] that drives a two agent team. Search
+- [218:34] agent crafts an RF query fetches papers
+- [218:37] via the provided RF tool. Summarizer
+- [218:40] writes a short markdown ser literature
+- [218:42] review for the selected paper. Now if
+- [218:44] you will see that is what is happening.
+- [218:45] We as user ask the query. Search agent
+- [218:48] is telling. Now you can hide that that
+- [218:50] is all in just template. And finally we
+- [218:53] are getting a very good query in a
+- [218:54] markdown format. So yeah let's see that
+- [218:57] how can we do that and it's a very good
+- [218:59] practice to make it like this right. So
+- [219:01] let's see this in uh action everyone. I
+- [219:04] have made it a very nicely commented. We
+- [219:07] have just imported lots of things. We
+- [219:09] have the async io typing then we have
+- [219:12] the rf libraries right. Uh I think we
+- [219:15] can ignore this not type ignore.
+- [219:19] We are using the function tool because
+- [219:20] we will be defining a local sorry we
+- [219:23] will be defining a custom tool. Then
+- [219:26] assistant agent then we can get rid of
+- [219:28] this as well. So I was just trying out
+- [219:30] to make it
+- [219:32] more more complex but I think easier
+- [219:34] works. And after that we have the team
+- [219:37] and the client. Okay. So pretty simple
+- [219:40] thing. No worries at all. Now the very
+- [219:43] first thing is my tool everyone in which
+- [219:44] I'm using the r library. So let me show
+- [219:47] you this thing. uh r python.
+- [219:53] So it helps you in getting the papers
+- [219:57] etc based on the search query. Right? So
+- [219:59] let's say we are searching for query. We
+- [220:01] can provide the maximum result which is
+- [220:03] 10. And we can let's say sort by
+- [220:05] submitted date. So the newer one will
+- [220:07] come first. We can sort by re relevancy
+- [220:10] etc. I hope all of you know what archive
+- [220:13] is and really sorry if I'm pro like
+- [220:15] pronouncing it wrong and yeah you can
+- [220:18] just search for papers here right so
+- [220:20] agentic AI
+- [220:23] and it will give you the papers so we do
+- [220:25] have lots of papers for agentic and it
+- [220:28] is normally suggested that any field
+- [220:29] you're interested in please make sure
+- [220:31] that you find relevant papers in that
+- [220:33] well this is how you can do that and a
+- [220:37] better way of doing that is this
+- [220:38] directly via the project which we will
+- [220:41] Now
+- [220:43] it is just we are just sending the query
+- [220:45] here and the max result which is default
+- [220:48] to five. We are creating the client we
+- [220:51] are getting the search request.
+- [220:53] Once we have defined this thing we will
+- [220:55] be getting our papers right. So once we
+- [220:59] do this client search we will be
+- [221:00] appending for each of the result in this
+- [221:03] we will be appending the papers. What
+- [221:05] all is present in papers? title,
+- [221:07] authors, published,
+- [221:10] summary and the PDF URL. So we can see
+- [221:12] this and that is the best thing. Uh I
+- [221:15] think okay I've not shown the summary
+- [221:16] here authors I think it is problem
+- [221:19] tackled which I have kind of wrapped
+- [221:20] around the sum and the key contribution.
+- [221:23] So this study revolves yeah this is
+- [221:25] actually the summary study provides a
+- [221:27] structure taxonomy addressing design
+- [221:29] philosophy and challenge associated with
+- [221:31] AI agents and agentic AI. So yeah, this
+- [221:34] is a very good way of actually
+- [221:36] understanding do you want to read this
+- [221:37] paper or not. Now let's go back and I
+- [221:41] have just now wrapped this tool into the
+- [221:44] function tool. You can use it directly
+- [221:46] but since the newer version are
+- [221:47] suggesting this that is helpful and if
+- [221:50] you are on point 4 some version please
+- [221:52] upgrade that because as far as I
+- [221:54] remember it was not there. After that
+- [221:57] I'm just building my team. Now I'm using
+- [221:58] a functional way of doing this here. I
+- [222:01] am not uh defining it in a Python script
+- [222:04] and that is something which I believe
+- [222:05] you should also be doing. So build team
+- [222:08] and then we can see that how the team is
+- [222:10] starting to get build everyone uh create
+- [222:13] and return a two agent team etc. Then it
+- [222:15] is having the client here. Now the key
+- [222:18] is kind of cut so you will not be able
+- [222:19] to use that. Then we have the search
+- [222:22] agent. I could have done a API key as
+- [222:24] well but shall be fine. We have the
+- [222:27] search agent which is having the name,
+- [222:29] the description and the system message.
+- [222:33] Given a user topic, think of the best RC
+- [222:35] query and call the provided tool. Always
+- [222:37] fetch five times the paper requested so
+- [222:39] that you can down select the most
+- [222:41] relevant ones. Now actually we can just
+- [222:43] do five only. I think that will be
+- [222:45] helpful. So I was what I was doing was I
+- [222:48] was little playing around that maybe we
+- [222:49] can get more papers than user wants and
+- [222:51] then we can select the best one. So that
+- [222:53] was my idea because what I saw that if
+- [222:56] you were just getting the five one like
+- [222:58] if you were getting the five or the
+- [222:59] exact number the results were not so
+- [223:01] good. So that is the whole idea that you
+- [223:04] can down select the most relevant ones
+- [223:06] when the tool returns exact choose
+- [223:08] exactly the number of people requested
+- [223:10] and pass them as concise JSON. So this
+- [223:12] is the whole idea everyone. Now what can
+- [223:14] I do again maybe remove this to make it
+- [223:17] easier only shall be fine. Again I want
+- [223:20] that you play around with these things
+- [223:21] right so that you can also practice some
+- [223:23] things
+- [223:25] and this is helpful right tool is the
+- [223:28] RCF tool I think that makes a lot of
+- [223:30] sense model client the LLM client which
+- [223:32] is GPT 40 mini here and we are
+- [223:34] reflecting on tool use so that is why it
+- [223:37] is like giving it like this so title
+- [223:41] authors etc not just the direct output
+- [223:44] now we have the summarizer which is your
+- [223:47] assistant agent
+- [223:49] And it is just having again the whole
+- [223:51] idea that produce the markdown summary.
+- [223:53] Since they are in a round doin group
+- [223:55] chat, they are first it is going to
+- [223:57] search and then it is going to
+- [223:58] summarize. Now you can easily make a
+- [224:02] having a user proxy agent or any
+- [224:04] complexity but this is what we are
+- [224:06] doing. Not a lot simpler but yes it is
+- [224:09] still a manageable kind of a thing. Let
+- [224:11] me actually add that as well because I
+- [224:12] don't want that you see bad results.
+- [224:14] That will be helpful. Now if I go
+- [224:17] forward everyone I have created an
+- [224:19] orchestrator here. Now the orchestrator
+- [224:21] is just like our function which we
+- [224:23] create to run our team. So we are just
+- [224:26] building our team and we are providing
+- [224:27] the model here.
+- [224:30] Task prompt uh is this task prompt and
+- [224:33] we are just running it in run stream.
+- [224:35] Now the reason I have this in a function
+- [224:38] is that I want to use it in streamllet
+- [224:40] as well. Now again I am really assuming
+- [224:43] that you have seen all the things which
+- [224:45] we have discussed. So it will be very
+- [224:46] easy to get but I will still suggest to
+- [224:49] create this team from scratch even after
+- [224:51] seeing the video and I have still kept
+- [224:53] it very easy where it is in a single
+- [224:55] script because future projects which we
+- [224:58] uh which I have done they were in a
+- [224:59] proper end to end production manner
+- [225:01] where we are having separate folders and
+- [225:04] files for each and everything for each
+- [225:06] agent for team and we were creating a
+- [225:09] proper streamllet app as well on that.
+- [225:12] Now once the team has been defined I can
+- [225:14] run this and if I want I can just test
+- [225:18] out the same in the CLI. So in this I am
+- [225:21] just testing it out in CLI something
+- [225:23] which I will not be normally doing. So
+- [225:25] let us do this. If I do python
+- [225:29] 12th
+- [225:30] and say autogen back end so I can see
+- [225:33] the idea is that first we will be
+- [225:35] testing it out in the CLI then we will
+- [225:36] go to the front end. Right. So let's see
+- [225:38] it and make it run.
+- [225:41] So it is again doing something. It is
+- [225:42] user run.st stream only but it is taking
+- [225:45] the time. So let it take the time. And
+- [225:47] we see that how it has got us the
+- [225:49] answers everyone. Right. And then our
+- [225:54] next agent which is your what is the
+- [225:56] agent? Yeah it has given us the whole
+- [225:58] summary. So here we have just asked for
+- [226:01] neural network for chemistry. A simple
+- [226:02] normal query. We could change to maybe
+- [226:05] let's say artificial
+- [226:08] intelligence.
+- [226:11] And I think yeah that is also going to
+- [226:12] work. One thing more I would like to see
+- [226:14] here just a second
+- [226:18] I can maybe yield this thing and to make
+- [226:21] our work a little bit more difficult. I
+- [226:24] can maybe first have message here.
+- [226:28] So let me have the message
+- [226:32] and maybe then we can have this N.
+- [226:38] Great. So let's see this now everyone
+- [226:40] let me run this again.
+- [226:43] So source user it is just giving us the
+- [226:45] message first. This is the thing and
+- [226:47] then after two uh lines or rather three
+- [226:51] new lines we are getting this thing.
+- [226:54] Now the tool call is getting made to rf.
+- [226:56] So let us let us see and how it will
+- [226:58] run.
+- [227:00] And again one good thing in this is that
+- [227:01] there is no dependency. You don't need
+- [227:03] any other key if you have your LLM
+- [227:06] handled because in many of the example
+- [227:08] which you will see on the official
+- [227:09] documentation it unnecessarily asks you
+- [227:12] for a Google API key or Google uh vertex
+- [227:15] key or something which I think kind of
+- [227:17] is very not very helpful because getting
+- [227:19] that key will mean that you have to
+- [227:21] again go to Google and create an account
+- [227:23] there. So that is all something which I
+- [227:25] have removed. So now if we see everyone
+- [227:28] we can see that how we are having
+- [227:29] everything here.
+- [227:32] So okay let me see it is a little
+- [227:34] difficult now to understand that is a
+- [227:36] good thing.
+- [227:38] Okay. No here. Yeah.
+- [227:41] So we got this thing uh we have the
+- [227:43] message here everyone where we can see
+- [227:45] that okay what exactly we got back. Then
+- [227:49] after that again just I want to show you
+- [227:52] that yes this is how we are returning
+- [227:53] it. But thanks to the way we are showing
+- [227:56] it it is able to easily readable. After
+- [227:58] that yeah this is the reading thing and
+- [228:00] we have just then uh kind of
+- [228:03] uh marked down and sorry summarized all
+- [228:05] the things. Right. So this is the thing
+- [228:07] and this is the paper right. So yeah
+- [228:10] makes a lot of sense I think. Yeah this
+- [228:11] is how it is getting executed shall be
+- [228:14] pretty straightforward. These are the
+- [228:15] links etc which we are getting and our
+- [228:17] summarizer is just doing the awesome job
+- [228:20] of summarizing everything. Now let's
+- [228:23] jump onto the front end part again. See
+- [228:26] this part again if you have not
+- [228:27] understood how this is working. Let me
+- [228:29] get rid of this now because then it will
+- [228:32] be a lot difficult to read in the
+- [228:33] steamlet. The reason we are yielding it
+- [228:36] here because it's a generator it is
+- [228:38] returning that back. So in the streamlit
+- [228:40] as well we will be using this. Let us go
+- [228:43] back and see the steam app. Pay
+- [228:46] attention a minimum stream app front end
+- [228:49] for the literature review assistant
+- [228:50] defined in literature review backend. py
+- [228:53] user enter as a topic and I should make
+- [228:56] it different actually it is autogen
+- [228:58] backend py and the design number of
+- [229:02] papers. then watch the two agent
+- [229:04] conversation stream in real time. Now uh
+- [229:08] I don't have steamlit in this
+- [229:09] environment if you remember. So what we
+- [229:10] should do? We should go on requirements
+- [229:14] and we should install streamlit. Uh
+- [229:17] steamlit again is an awesome library
+- [229:18] through which you can create front end.
+- [229:21] So pip install r requirements.
+- [229:26] Let it run and let me just stop that. So
+- [229:29] till now I have been running that from a
+- [229:31] separate uh instance right. So let me
+- [229:34] stop that there. So let me stop it. If I
+- [229:38] refresh it now it will be gone. Yeah. So
+- [229:41] it has done that. Let me just tell you
+- [229:42] one more thing here. One very very
+- [229:44] important thing again. Always make sure
+- [229:46] that you do this which streamllet.
+- [229:49] Now see there is a problem. I will show
+- [229:51] you what the problem is. Streamlit
+- [229:54] uh I think it was 12th. And if I select
+- [229:58] streamlit application,
+- [230:00] it will start uh no such command 12th.
+- [230:03] My bad. Okay. Streamlit run 12th and
+- [230:07] stream.app.
+- [230:09] So it has started but it is giving us
+- [230:11] the error. It is seeing no module named
+- [230:12] RF. Okay. Now the problem is that uh
+- [230:17] actually I think I I should add RF here
+- [230:20] as well. I installed that to test out
+- [230:22] something. Should be fine. So R also we
+- [230:25] have provided. Let me close this once
+- [230:27] and do this install requirements again.
+- [230:29] So again this is some error which I
+- [230:31] faced which I don't want you to waste a
+- [230:33] lot of time on. Now we have got RCF as
+- [230:35] well hopefully. Now if I run this again
+- [230:38] streaml run the application
+- [230:40] again it is saying the same thing no
+- [230:42] module rf but we have just installed
+- [230:44] that right. The problem is that this
+- [230:47] streamllet this application it is not
+- [230:49] coming from my uh environment. It is not
+- [230:54] coming it is not taking it from here the
+- [230:56] autogen crash course one which we have
+- [230:58] created it is taking if I show you by
+- [231:02] clearing everything which streamllet it
+- [231:06] is going to my global installation so
+- [231:09] that's a very big problem right because
+- [231:11] in the global I don't have the autogen
+- [231:13] or r septer installed so for that do
+- [231:16] deactivate
+- [231:19] and we have deactivated deactivated our
+- [231:21] environment source
+- [231:22] Autogen
+- [231:25] bin activate again in you might also
+- [231:29] require to restart your uh VS code but I
+- [231:31] think it will be handled if I do which
+- [231:33] streamllet now see now it is coming from
+- [231:37] my uh my one right so I actually wasted
+- [231:39] an R one day on this particular issue
+- [231:42] where I installed that library maybe 10
+- [231:45] times and genuinely it was very
+- [231:47] frustrating but the whole idea is that
+- [231:49] now you will not face the problem if I
+- [231:51] now to stream lit run 12th and streamlit
+- [231:57] app. Let me run this.
+- [232:00] And if I refresh it now, see the same
+- [232:03] has been easily uh started. I ask it for
+- [232:07] give me for agentic AI again. I will be
+- [232:09] showing you the code. Don't worry. But
+- [232:10] yeah, I can maybe let's say ask for
+- [232:13] seven papers
+- [232:16] and it will run and hopefully give me
+- [232:18] the seven papers.
+- [232:22] So for people who are not a lot I think
+- [232:25] though you should be learning steam at
+- [232:27] least because it is the easiest way of
+- [232:29] making this awesome UI and the front
+- [232:32] end. So yeah no one is there who is
+- [232:34] going to skip that. Okay you need to
+- [232:36] know the autogen and at least a steamlet
+- [232:38] app because the idea is that it is very
+- [232:40] easy to present in this manner. If you
+- [232:42] would have been showing on a terminal
+- [232:44] that is not the right way, right? So I
+- [232:45] want you to again the crash course is
+- [232:47] complete. You learn everything and you
+- [232:49] finally also see that how can you
+- [232:50] present your project that is the whole
+- [232:52] idea. So seems like again it is working.
+- [232:54] It is getting you things here and here
+- [232:56] are the seven selected seven papers for
+- [232:59] the same. And now the all of them will
+- [233:01] be kind of summarized. So let's see
+- [233:05] them.
+- [233:08] So yeah it is doing pretty nice job
+- [233:09] thanks to R libraries and our
+- [233:11] understanding of autogen the same has
+- [233:13] been now summarized click on anyone and
+- [233:15] go directly to the paper and read it
+- [233:18] right so now let's see that how exactly
+- [233:20] have we written it everyone lets me
+- [233:22] remove this it is going to be pretty
+- [233:23] easy the very first thing set page
+- [233:26] config now the good thing with streaml
+- [233:28] net is that if I comment everything out
+- [233:31] and I refresh it it is all good so it
+- [233:35] gets refreshed in real time right
+- [233:38] This is the title which we have done. Uh
+- [233:40] this is the page title and the page
+- [233:42] icon. So there is a reason if you go
+- [233:44] here you see this uh book icon and the
+- [233:47] literature movie review. After that I am
+- [233:50] given a paper uh sorry I'm given a text
+- [233:52] box. So let me just move this. If I
+- [233:55] refresh it now I have the text box and
+- [233:58] this slider. So pretty simple thing.
+- [234:01] Suppose that this is where the all magic
+- [234:04] is happening. Pay attention. The very
+- [234:07] first thing you don't see a button here.
+- [234:08] You don't see a button here. So I'm just
+- [234:10] adding that button search and I am
+- [234:12] saying that okay when the button is
+- [234:15] clicked. So if st dotbutton and query is
+- [234:19] not null like query is having something
+- [234:22] then we are defining a runner inside it.
+- [234:24] Again these are based on some broad
+- [234:27] practices I have covered here which
+- [234:30] again is going to run in a container.
+- [234:32] Pay attention how it will run. It is
+- [234:34] going to run literature review the back
+- [234:37] end which we have defined here. It is
+- [234:40] going to just call that. See it was also
+- [234:42] running like this only. This particular
+- [234:44] thing if you pay attention it was also
+- [234:46] running via this run literature review
+- [234:47] back end code and it is very much how we
+- [234:50] have run the code throughout our crash
+- [234:51] course. Now if you go forward
+- [234:55] you will see that how
+- [234:58] I have uh again just we are getting we
+- [235:01] are splitting it. So if you remember we
+- [235:02] were returning this role and the
+- [235:05] content. I am just splitting this rest
+- [235:09] via this particular thing. Okay. If you
+- [235:11] want you could have shown everything
+- [235:13] that is also fine. Then I am just saying
+- [235:15] that okay uh strip it again as well. And
+- [235:19] I am just showing that as a markdown
+- [235:21] after that. So pretty simple thing I'm
+- [235:23] doing with chat placeholder
+- [235:25] st place that message. So I'm just using
+- [235:28] this container. Right. So if I refresh
+- [235:29] it now you will see things coming. If I
+- [235:32] do AI agents uh sorry let us do autogen
+- [235:34] maybe search for it. Now this again this
+- [235:37] is a container which is showing you
+- [235:39] everything. It is working everything. So
+- [235:41] all I'm saying is that pay attention it
+- [235:44] is able to get me the message and with
+- [235:46] st.p spinner it is trying to run this in
+- [235:48] the back end and if there is an error it
+- [235:50] will just go out of this loop. So these
+- [235:52] are more things regarding to steamlet
+- [235:54] where it will create some new event loop
+- [235:56] etc. So learn about event loop with
+- [235:58] seamlet and this shall be a lot clearer.
+- [236:01] Uh I could have made it a easier thing
+- [236:03] as well but I believe that this is
+- [236:04] totally fine because you should be at
+- [236:07] least aware about these much things if
+- [236:09] you are learning and presenting your AI
+- [236:11] agents project because they should be
+- [236:14] pretty good at the workace right so see
+- [236:15] this container now it is having
+- [236:16] everything.
+- [236:18] So yeah I think that does complete our
+- [236:22] full thing. Now see pay attention how we
+- [236:23] are showing the role here and then the
+- [236:25] content. So that is the reason we are
+- [236:27] seeing the search agent in dark the
+- [236:29] bolded and we are seeing the bold
+- [236:31] content here. So yeah this is how your
+- [236:33] agent will work and a pretty easy maybe
+- [236:36] 15 20 no 40 line code of streaml net out
+- [236:39] of which the first yeah 30 line code
+- [236:41] because the first 10 15 are nothing as
+- [236:43] such and a very much easily
+- [236:46] wellcommitted understandable back end.
+- [236:49] Now what I want all of you to do is to
+- [236:51] make sure that you can create similar
+- [236:52] kind of things. Do tag me, do share
+- [236:54] that. And I do believe that you can
+- [236:57] create awesome projects with this
+- [236:58] understanding for sure. So yeah, with
+- [237:01] that everyone I guess we can go back and
+- [237:06] very happily I would like to mark this
+- [237:09] full thing as done where we are. Yeah.
+- [237:11] So I would like to mark this project as
+- [237:13] done as well from this thing. Yeah.
+- [237:16] And I hope you all are with me here.
+- [237:18] Thanks a lot for being for this whole
+- [237:20] part where we have actually mastered
+- [237:23] this autogen up to a very good level
+- [237:25] where since we can create the project as
+- [237:27] well which can do your work for us. Now
+- [237:29] what I would want what your homework is
+- [237:31] is that we saw that how can we integrate
+- [237:34] tools into our agents. I would like that
+- [237:38] you have a tool here which searches
+- [237:40] first and then it goes to uh your uh
+- [237:43] let's say RF library to search that.
+- [237:46] Okay. So before this we have another
+- [237:50] Google search agent which search for
+- [237:51] this topic and then it gets the things
+- [237:53] for the query. So yeah we can see that
+- [237:56] how we have so many papers on autogen uh
+- [237:58] again because we have asked for more and
+- [238:00] it's a relatively new framework. We will
+- [238:03] surely not have many things but yes we
+- [238:05] can go here or see this autogen studio
+- [238:07] paper
+- [238:10] and see we have the full uh idea. So
+- [238:13] this is the paper on which autogen
+- [238:15] studio was kind of suggested how we can
+- [238:18] start that the oldest UI I believe is
+- [238:20] this one which is pretty nice and yes
+- [238:23] the whole thing here which is kind of
+- [238:24] explaining that what all goes in the
+- [238:26] back end so pretty powerful thing right
+- [238:29] so yeah let me close this and
+- [238:33] I think now we are pretty done with
+- [238:34] everything so nicely we have covered the
+- [238:38] autogen crash course everything is
+- [238:43] So great everyone this actually
+- [238:44] completes our crash course. We have
+- [238:46] covered all the modules everything is in
+- [238:48] depth. Please make sure that you
+- [238:49] download this uh all the codes and
+- [238:52] everything from the link down below. One
+- [238:55] thing more before we go if you want to
+- [238:58] create a project end to end in which we
+- [239:01] have made sure that again you will see
+- [239:02] this project. Let me showcase this
+- [239:04] quickly to you. Let's say if I download
+- [239:06] a data set Titanic CSV
+- [239:09] and I can just easily download this
+- [239:13] save and now I have this right. So I can
+- [239:15] we can use Titanic earlier as well. What
+- [239:18] I have done in the project using Autogen
+- [239:20] I can just drag and drop this data and I
+- [239:23] can ask it question. Hi, can you give me
+- [239:29] a graph of how many people
+- [239:34] survived and died in the data set
+- [239:39] Titanic?
+- [239:42] Okay, what is the problem? Uh, alert
+- [239:45] X-Men. So, yeah, uh, I actually know the
+- [239:48] problem. Actually, we are using Docker
+- [239:50] to run the code on my machine. So, let
+- [239:51] me just show you that. Uh I have started
+- [239:53] the docker container. So let it get up.
+- [239:57] We see that okay docker has started. Now
+- [239:59] let me just minimize it and
+- [240:02] let me just refresh the whole thing. Now
+- [240:07] if I send this and let me get rid of
+- [240:09] this. And if I now try to run this, pay
+- [240:11] attention.
+- [240:13] write uh can you help
+- [240:17] can you help me with the graph of people
+- [240:25] who survived
+- [240:27] and died in the data set. So let's see
+- [240:32] hopefully it will work now. Yeah see you
+- [240:35] can see the user the same is running.
+- [240:37] The good thing and rather the best thing
+- [240:39] is how the docker we have a container
+- [240:42] here. So it is now running the code
+- [240:43] inside my laptop inside a docker
+- [240:46] container. So we have used an agent for
+- [240:48] that and see it is saying that okay it
+- [240:52] sees pandas library is not installed. So
+- [240:54] it is installing the required library.
+- [240:56] So it gave the code as well and it is
+- [240:59] not just stopping like chatgp by giving
+- [241:01] the code. It is running this code and
+- [241:05] then correcting the mistake as well.
+- [241:07] After that it has given me everything.
+- [241:09] See it is now saying that okay what
+- [241:11] exactly happened let's wait maybe the
+- [241:13] graph will also be coming so actually
+- [241:15] graph gets saved as well somewhere right
+- [241:17] so now we have seen the graph the good
+- [241:21] thing can you do some analysis
+- [241:26] as well and tell me what could have led
+- [241:33] to above
+- [241:35] so I'm showing you like what strong
+- [241:37] projects you can create by having a
+- [241:39] in-depth knowledge of autogen. Now if
+- [241:41] you are interested in creating a project
+- [241:44] like this uh with proper uh structure as
+- [241:47] well. So you can see that how we are
+- [241:49] following a very good structure here.
+- [241:51] Head over to my channel where you will
+- [241:52] see the video in depth. I have covered
+- [241:54] that how can you create a project like
+- [241:56] this. So where you will be having each
+- [241:59] and everything in this particular
+- [242:01] production level content and I will be
+- [242:03] writing all the code one by one right in
+- [242:05] front of you. So line by line we will be
+- [242:07] seeing everything. Now see it is doing
+- [242:09] all this uh analysis for us and this I
+- [242:13] guess is a very good project if you want
+- [242:14] to showcase your expertise in agentic AI
+- [242:17] or autogen and now it is now sending
+- [242:20] many things and it is telling us see
+- [242:22] there is a moderate positive
+- [242:23] correlation. So I call this app as our
+- [242:26] analyzer GPD. See analyzer GBD digital
+- [242:30] data analyzer and it has tell us many
+- [242:34] nice things in the graph. It has done
+- [242:36] the work of a data analyst. So yeah
+- [242:39] bye-bye data analyst. Autogen is here
+- [242:41] and it is telling you all the things.
+- [242:43] Now you can continue the chat and ask
+- [242:44] more question as well. So for a project
+- [242:47] in depth like this do head over to my
+- [242:48] channel and you can see and understand
+- [242:51] that how can we do that end to end and I
+- [242:54] will be writing each and every code
+- [242:56] there as well. So the crash course is
+- [242:58] done but if you want to now make a
+- [243:00] project which is this stronger learn
+- [243:03] everything in depth and then create your
+- [243:05] own project head over and yeah let me
+- [243:07] know how you like that. So great
+- [243:09] everyone now I really hope that you like
+- [243:11] this particular autogen crash course and
+- [243:15] I really hope that you will become like
+- [243:16] since you have completed it you will be
+- [243:18] feeling a lot more confident. Do make
+- [243:20] sure to like this video share it with
+- [243:23] everyone whoever is going to start the
+- [243:25] journey in the AI world because I
+- [243:27] believe this is a proper uh way of
+- [243:29] getting it by mastering a framework
+- [243:32] instead of any drag and drop tool and do
+- [243:34] let me know in the comments how you like
+- [243:35] the explanation and everything. If you
+- [243:37] have any doubts, please ask the same
+- [243:39] with the time stamp and I will be
+- [243:40] happily clear that as soon as possible.
+- [243:43] Make sure that uh you also share your
+- [243:46] learnings on LinkedIn and do tag me out
+- [243:48] there and I will be more than happy to
+- [243:50] help you in further in the journey of
+- [243:52] your Autogen. So with that uh thanks a
+- [243:55] lot for staying with me and we are
+- [243:56] concluding this Autogen crash course.
+- [243:58] Really hope that you have a great
+- [243:59] learning experience.

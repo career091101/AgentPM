@@ -1,0 +1,1609 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=mnQmBFJEqPg"
+video_id: "mnQmBFJEqPg"
+video_url: "https://www.youtube.com/watch?v=mnQmBFJEqPg"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "team_building", "product_development", "growth"]
+topics: ["組織構築", "成長戦略", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=mnQmBFJEqPg
+  - Retrieved at: 2025-12-30T16:11:14+09:00
+  - [00:00] I have built hundreds of AI agents and
+key_points:
+  - "- [01:05] AI agent should do after we call him? In"
+  - "- [01:18] is very important. Anytime you make any"
+  - "- [01:27] we need to select which email do we want"
+  - "- [02:01] need to do is we need to go to Google"
+  - "- [02:22] this up, we need to go into Google and"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: mnQmBFJEqPg
+
+- URL: https://www.youtube.com/watch?v=mnQmBFJEqPg
+- Retrieved at: 2025-12-30T16:11:14+09:00
+
+## Text
+
+- [00:00] I have built hundreds of AI agents and
+- [00:02] in this video I'll show you the six
+- [00:04] agents that everyone needs and I'll also
+- [00:06] explain how to turn this into a
+- [00:08] profitable side hustle and no it's not
+- [00:11] by building an automation agency. So to
+- [00:13] build AI agents NA10 is the simplest way
+- [00:16] by far. It is more powerful than
+- [00:18] make.com's API and it is easy to get
+- [00:20] started and you can basically build any
+- [00:22] AI agent you want inside of NA10. So
+- [00:24] let's start with the trigger and again
+- [00:26] there are hundreds of different options.
+- [00:27] For example, if you select on app event,
+- [00:29] you can select from thousands of
+- [00:32] different apps that are natively
+- [00:33] connected into any. However, for this
+- [00:35] build, I'm actually going to go with the
+- [00:37] schedule trigger. This is one of the
+- [00:38] most useful types of triggers inside of
+- [00:40] any, which lets you set an interval.
+- [00:42] Could be days, could be hours, even
+- [00:44] seconds, right? I'm going to go with
+- [00:45] days once a day. So, the first agent I'm
+- [00:47] going to be building is an infinite lead
+- [00:49] followup. And this is what it's going to
+- [00:51] look like when it's finished. But
+- [00:52] basically, it will follow up with any
+- [00:54] types of leads. could be job candidates,
+- [00:56] could be potential clients, and it's
+- [00:58] going to keep following up until you get
+- [00:59] the sale. So once you decide on the
+- [01:01] schedule, next you need the first action
+- [01:03] step, right? What is the first thing the
+- [01:05] AI agent should do after we call him? In
+- [01:08] this case, it needs to be Gmail get many
+- [01:10] messages. There it is. So it can analyze
+- [01:13] multiple different emails that you
+- [01:14] received and decide what actions it
+- [01:16] wants to take on those emails. Now, this
+- [01:18] is very important. Anytime you make any
+- [01:21] change inside of any 10, make sure to
+- [01:22] click save. Otherwise, you risk losing
+- [01:24] progress. So, inside of the Gmail node,
+- [01:27] we need to select which email do we want
+- [01:29] our AI agent to look at. Right? So, if
+- [01:31] you don't have any emails connected,
+- [01:33] simply click on create new credential.
+- [01:34] And this is actually probably the
+- [01:36] hardest part. So, if you're willing to
+- [01:38] sit through the next 3 minutes, you will
+- [01:41] already be ahead of 99% of people. And I
+- [01:43] can promise you that because most people
+- [01:45] cannot even set up a single Google
+- [01:47] service into their AI agent and they're
+- [01:50] just going to drop off and never
+- [01:51] automate anything in their life. So if
+- [01:53] you can stick through the next three
+- [01:54] minutes, you will begin your automation
+- [01:56] journey and you can get rid of all the
+- [01:58] boring in your life. So what we
+- [02:01] need to do is we need to go to Google
+- [02:02] Cloud Console. So let me show you how to
+- [02:03] do that. This is going to be the email
+- [02:05] inbox I'm going to be automating and
+- [02:07] anything I send out, it's going to
+- [02:09] automatically get follow-ups. So if you
+- [02:11] send out a job application, it's going
+- [02:13] to keep following up with that company
+- [02:15] until they respond to you. Same with,
+- [02:16] you know, getting clients as a business,
+- [02:18] whatever you want to do. This agent is
+- [02:20] universal. Everyone needs him. So to set
+- [02:22] this up, we need to go into Google and
+- [02:23] type in Google Cloud Console. Boom. Hit
+- [02:27] enter. Click the first link. Now make
+- [02:28] sure to switch to the same account you
+- [02:30] want to automate. Now at the top, we
+- [02:32] need to create a project, right? Create
+- [02:33] project. New project. Let's name it NA10
+- [02:36] email follow upper. I know very creative
+- [02:39] name. For location, just leave it as is.
+- [02:41] Click create. And this is how Google
+- [02:43] Cloud Console works. Basically, you have
+- [02:45] these different projects and in these
+- [02:46] you have these off clients. You don't
+- [02:48] have to understand all of it. Just
+- [02:49] follow what I'm doing. Follow these
+- [02:51] steps. I'm going to show you everything
+- [02:52] in this video. So, you can see the
+- [02:53] project has been created. Click on
+- [02:54] select project. And you need to see it
+- [02:56] in the top. There we go. NA10 email
+- [02:58] follow-uper. Beautiful. Since we're
+- [02:59] going to be using Gmail, we need to type
+- [03:01] in Gmail API and we need to enable this.
+- [03:04] There we go. Enable. Literally just one
+- [03:06] click. Takes a few seconds to load and
+- [03:08] it's going to enable it for this
+- [03:10] project. And boom. Just like that, it's
+- [03:11] enabled. So, let's click on OAF consent
+- [03:14] screen and then click on clients. We
+- [03:16] need to create a new client. Get
+- [03:19] started. So app name I'm going to name
+- [03:21] David Andre and A10 agent. Support email
+- [03:24] just select the email you're automating.
+- [03:26] Next audience you can only select
+- [03:28] external. If you have a Google Workspace
+- [03:30] you can select internal but just click
+- [03:31] on external. Next email address just
+- [03:34] paste the same one. Next. And then agree
+- [03:36] continue. Create. All right. So all of
+- [03:38] configuration created. So let's click on
+- [03:40] clients on the left again. Create
+- [03:41] client. And this is the last step. So
+- [03:43] web application. We can rename this as
+- [03:45] NA10 followup agent. And here is the
+- [03:48] important part, right? So if we go back
+- [03:50] into NA10, we can see that this is the
+- [03:52] redirect URL. So copy that. Boom.
+- [03:54] Authorized redirect URLs. Paste this in.
+- [03:57] Create. The next two things is the
+- [03:59] client ID and the client secret. So we
+- [04:02] get those when you click create. So
+- [04:04] client ID, just copy paste those. Boom.
+- [04:06] Client secret. Just like that. Copy
+- [04:08] paste. And then click on save. And next
+- [04:12] we need to click on this button which
+- [04:13] appears after you fill this out. Sign
+- [04:15] with Google. And this is really the last
+- [04:17] stretch. So we need to select the email.
+- [04:19] We have a access block. Let's see. App
+- [04:22] is being tested. Okay. So we I think I
+- [04:25] didn't add myself as a developer. That's
+- [04:26] a mistake. Let's go back to our client
+- [04:28] audience. Test users. There we go. Need
+- [04:30] to add myself as a test user. Save.
+- [04:32] Nice. So now we can continue, but it
+- [04:35] doesn't seem like it. You might see,
+- [04:36] okay, David, this is another error.
+- [04:37] Actually, it's not. It's just bad UI. We
+- [04:39] need to click on continue. Right. It's
+- [04:40] it's kind of tempting to click on back
+- [04:42] to safety, but don't worry. We're
+- [04:43] absolutely safe here. Just click on
+- [04:45] continue and then u it's the permissions
+- [04:48] you want the AI agent to have. So I want
+- [04:50] my full email management. Continue and
+- [04:52] connection successful. Now we did the
+- [04:54] hardest part low key. Now just building
+- [04:56] the agent is going to be much easier and
+- [04:58] this is going to compound to all the
+- [04:59] other agents. So keep in mind this is
+- [05:01] only the first of six AI agents that I'm
+- [05:03] going to show you. And each of them you
+- [05:05] can take the lessons from this one and
+- [05:07] just build them that much faster. And
+- [05:08] honestly if you implement all six of
+- [05:10] these agents into your life, you're
+- [05:12] going to save multiple hours per week.
+- [05:14] Now, before we add the AI agent, there
+- [05:15] are actually a few other things we have
+- [05:17] to do inside of the Gmail note. First of
+- [05:19] all, make sure to enable return all.
+- [05:21] Leave simplify turned on. And then
+- [05:23] inside of filters, this is super
+- [05:24] important. We need to click on search
+- [05:26] and do in send. This is the same search
+- [05:28] you can do inside of Gmail. Just do in
+- [05:31] send. Now, it's funny because I've never
+- [05:32] sent an email from this Gmail address,
+- [05:35] but for most emails, you probably use
+- [05:36] them to send stuff as well. You can also
+- [05:38] do something like has attachment,
+- [05:40] whatever works inside of Gmail. This is
+- [05:42] the same logic that will work in this
+- [05:44] NA10 node. So this since it's a
+- [05:47] following up agent, we need to check
+- [05:49] which emails we send so that it can
+- [05:51] follow up on them with that recipient.
+- [05:54] So this is it like this note is good. So
+- [05:56] we can save that and actually we can run
+- [05:58] it so we can test out if it works. So
+- [06:00] get many messages. Let's see. And as
+- [06:02] expected we have no output data because
+- [06:04] we didn't send an emails. But let me
+- [06:05] just quickly send an email to myself.
+- [06:08] Boom. Hi David, how are you doing?
+- [06:11] testing anything at the moment. Let me
+- [06:14] know how it goes. All right. So, I'm
+- [06:15] just going to send one email so we have
+- [06:16] some data to work with. And now we have
+- [06:19] actually something in the send. So,
+- [06:21] let's go back and let's rerun this so we
+- [06:23] can see if our node works. And there we
+- [06:26] go. One item. So, just like that, we
+- [06:28] have proven that our first two nodes
+- [06:29] work. The schedule trigger will be
+- [06:31] executed once a day. And then the Gmail
+- [06:33] will successfully pull all sent emails
+- [06:36] from your inbox that you just connected
+- [06:38] and you get all the data whether it's
+- [06:40] the history ID, the internal date, the
+- [06:43] payload, the subject line or the
+- [06:45] recipient. Everything you might need is
+- [06:47] in this output data which of course
+- [06:49] we're going to use to feed that into an
+- [06:50] agent to process it to write a
+- [06:52] personalized short follow-up message.
+- [06:54] Okay, so let's click on save. Now the
+- [06:56] next note I'm actually going to use a
+- [06:58] code note. This one is the most
+- [07:00] customizable note. You can either use
+- [07:02] JavaScript or Python. I'm going to use
+- [07:04] JavaScript. So, I'm going to replace
+- [07:05] this default. I'm going to delete all of
+- [07:06] it with something I prepared ahead of
+- [07:09] time just to save you guys time. Now,
+- [07:11] you might be thinking, "Okay, David, how
+- [07:12] can I create this? This is so complex."
+- [07:14] Calm down. I'm going to show you. You
+- [07:16] can literally do this with JGBT. So,
+- [07:18] inside of JBT, you need to describe what
+- [07:20] you want. Here's how that looks like for
+- [07:22] this agent. Build a function that
+- [07:24] processes Gmail messages data to find
+- [07:26] friends where you reached out but never
+- [07:27] got a response. So all of this, you
+- [07:29] know, you don't have to understand
+- [07:30] JavaScript as long as you can describe
+- [07:32] what exactly you want. You can build
+- [07:34] essentially anything. Just make sure to
+- [07:36] use CH GB thinking because it's a lot
+- [07:38] more powerful than the default GPD5. So
+- [07:41] once CHGBD finishes generating the code,
+- [07:43] just click copy code right here at the
+- [07:45] top of the code block. Go back into NA10
+- [07:47] and paste it inside of your JavaScript
+- [07:49] node. So just like with every single new
+- [07:52] node we add, we should test it. You
+- [07:54] should never build a full automation
+- [07:55] without doing any testing because then
+- [07:57] you're going to be stuck in many
+- [07:58] different errors, right? You want to fix
+- [08:00] the errors one by one as you're building
+- [08:01] it. So, let's run this node. Boom. Node
+- [08:04] executed successfully. And let's look at
+- [08:05] the output here. Now, the simplest way
+- [08:07] to explain this is that this code, it
+- [08:10] basically finds all the emails where you
+- [08:12] didn't get a response, right? This is
+- [08:13] like all the failed outreaches because
+- [08:16] you don't want the agent to be running
+- [08:17] on the ones that did get a response. So,
+- [08:19] this one finds the ones that failed and
+- [08:21] gets their thread IDs. That's just how
+- [08:23] Gmail notifies them. Basically, those
+- [08:25] are the people who completely ignored
+- [08:27] you because those are the ones we need
+- [08:28] to follow up with. Okay, so the next
+- [08:30] note after this one is going to be a
+- [08:32] loop loop over items. Boom. There we go.
+- [08:34] And here we don't have to literally do
+- [08:35] any setup. It's as simple as possible
+- [08:37] because it's going to run on our AI
+- [08:38] agent. So, we need to replace this node.
+- [08:40] We need to delete it and replace it with
+- [08:42] something else. So, let's click on plus.
+- [08:44] And inside is going to be our AI agent.
+- [08:46] This is going to be the decision maker
+- [08:47] of how do we follow up, right? What the
+- [08:50] message looks like, how does the email
+- [08:51] look like. So let's click on save and
+- [08:53] let's configure the AI agent. Now to do
+- [08:55] that let's quickly run the loop node.
+- [08:57] Super simple and then we have some input
+- [08:59] data in the AI agent to work with.
+- [09:00] Right? So let's customize the pro
+- [09:02] message. We need to click on define
+- [09:03] below and then click on expression. Now
+- [09:06] if you just look at the left side of the
+- [09:07] data which is always the input, right? A
+- [09:09] lot of people are confused by NA10
+- [09:11] because if you're using for the first
+- [09:12] time, it might seem intimidating. But
+- [09:14] when you realize that the left side,
+- [09:16] this side is just the input data. The
+- [09:18] middle is the current node, aka what we
+- [09:21] do with that data. And the right side is
+- [09:23] the output. So what the data looks like
+- [09:25] after this node is executed. Once you
+- [09:27] understand this, the UI doesn't look so
+- [09:29] intimidating. So if you look on the
+- [09:31] left, what do we need, right? Well, we
+- [09:33] need the subject and we probably need
+- [09:35] the snippet. So we just need to define
+- [09:38] something like this where we say subject
+- [09:40] and then JSON.ubject which by the way
+- [09:43] let me show you a pro trick. You can
+- [09:45] just drag it over. This is the beauty of
+- [09:47] NA10. So when you identify the data you
+- [09:49] want just literally drag it over and
+- [09:51] just like that boom it's there. So
+- [09:53] whether you're like oh David you
+- [09:54] pre-prepared this. I don't know how to
+- [09:55] do it. All you need to do is really drag
+- [09:57] stuff from the left into the middle to
+- [09:59] kind of build your prompt. That's the
+- [10:01] essential skill when using the AI agent
+- [10:03] inside of NA10. Now the snippet again,
+- [10:06] same thing, right? This text is just so
+- [10:09] we tell the agent this is the snippet.
+- [10:11] Boom. You can literally rename this like
+- [10:13] here's the email body, whatever you want
+- [10:16] it to be, you know, just type it in
+- [10:18] there. This is the user prompt. This is
+- [10:19] telling the agent what the email is
+- [10:22] about. However, the user prompt is not
+- [10:23] enough. We also need a system prompt.
+- [10:25] So, let's click on add options system
+- [10:27] message. And this is where we're going
+- [10:28] to tell the AI agent how to behave. So
+- [10:30] once again, let's switch to expression
+- [10:32] because you can click this button to
+- [10:34] make it full screen, which is much
+- [10:35] easier to edit. And again, I prepared
+- [10:37] this ahead of time, but feel free to
+- [10:39] pause and copy it. By the way, all of
+- [10:41] the AI agents, all of the prompts,
+- [10:42] everything from this video is inside of
+- [10:44] the classroom of the new society. So
+- [10:46] when you go to templates and presets
+- [10:47] right here, you can literally get all
+- [10:49] the AI agents from my past videos as
+- [10:51] well as from this video and just copy
+- [10:53] paste them into your life and business.
+- [10:54] So actually inside of any 10 what you
+- [10:56] can do is click on these three dots in
+- [10:57] the top and click on import from file
+- [10:59] and then you can select a JSON file
+- [11:01] which is a pre-built agent and boom just
+- [11:03] like that I imported the full AI agent
+- [11:05] already configured into my NA10. So if
+- [11:08] you want to just skip through a lot of
+- [11:09] steps maybe you're a busy business owner
+- [11:11] you don't have time join the new society
+- [11:13] go into the classroom click on templates
+- [11:15] and presets and here you can access all
+- [11:16] of my agents all my pre-built
+- [11:18] automations all of my prompts and
+- [11:20] instructions everything you need to
+- [11:21] start automating your life and business.
+- [11:23] The link to new society is going to be
+- [11:25] below the video. Now, back to NA10. So,
+- [11:27] I'm going to delete this because I'm
+- [11:28] showing you how to build it from
+- [11:30] scratch, but that was just for you that
+- [11:32] want to skip through some steps. Let's
+- [11:33] define the AI agent. So, we have the
+- [11:35] system prompt again. Uh it just defines
+- [11:37] the behavior of it, right? So, what the
+- [11:39] task is, input explanation, how the
+- [11:41] output should look like, the tone and
+- [11:43] style, basic pro engineering. You can
+- [11:45] customize this for how you want your
+- [11:47] emails to look. Obviously, we still get
+- [11:48] an error inside of the AI agent. And the
+- [11:50] reason is we're lacking the chat model.
+- [11:53] Without the LLM, without the large
+- [11:55] language model, the AI agent is just a
+- [11:58] body without a brain. The LLM is the
+- [12:00] brain. It's what gives it the
+- [12:01] intelligence. Now, you can either use
+- [12:02] OpenAI for models like GPT. You can use
+- [12:06] Enthropic for the cloud models, Google
+- [12:09] for Gemini models, or you can use Open
+- [12:11] Router to access all of the models. Now,
+- [12:13] most of you are probably familiar with
+- [12:14] CHI GBD. So, we're going to stick to
+- [12:15] OpenAI. and it's also one of the
+- [12:17] simplest to set up. For the model, I
+- [12:20] would like to use GPD 4.1. This is one
+- [12:23] of the most reliable models in the world
+- [12:25] right now. It's much more reliable than
+- [12:27] GPD5, and sometimes it's even better to
+- [12:29] be honest, especially in agentic
+- [12:31] workflows. So, let's select that. Now,
+- [12:33] our automation is a bit messy. I don't
+- [12:35] like when it looks ugly, but we're going
+- [12:37] to fix that in a bit. The main part is
+- [12:39] we need to define the credential, right?
+- [12:41] So, this is basically the OpenAI API
+- [12:44] key. As you can see, I already have a
+- [12:46] few, but if you don't have any, just go
+- [12:48] to Google again and type in platform
+- [12:50] OpenAI.
+- [12:52] Boom. And click on the first link,
+- [12:53] platform.openai.com.
+- [12:55] In here, you need to log in with the
+- [12:56] same account as using CHBD. So,
+- [12:59] hopefully if you're watching this, you
+- [13:00] have a CHGBD account. If not, you're
+- [13:03] kind of falling behind. So, in top left,
+- [13:05] click on login. Once you log in, click
+- [13:07] on dashboard. On the left, click on API
+- [13:09] keys. Create new secret key. I'm going
+- [13:11] to name it NA10 follow upper. Boom.
+- [13:14] Create secret key. Once again, do not
+- [13:17] share these with anybody. Treat them as
+- [13:19] passwords. I'm going to delete this key
+- [13:21] before uploading this video. Go back to
+- [13:23] NA10. Credentials. Create new
+- [13:25] credential. Just paste your API key.
+- [13:28] Save. It's testing it. Boom. Just like
+- [13:30] that. Tested successfully. Which means
+- [13:32] we can now use any of the OpenAI models.
+- [13:34] And there is really like all of them.
+- [13:36] You can use even GBD5. If you want to
+- [13:38] use GPD5, you know, why not? Boom. There
+- [13:41] we go. GPD5
+- [13:42] select. So now we have the AI agent with
+- [13:45] the chat model. The next thing is the
+- [13:48] output, right? What does the agent do?
+- [13:50] It needs to reply to the message aka
+- [13:52] send an email. So let's click plus right
+- [13:54] here after the agent output. We need to
+- [13:55] find the line. Click plus. Do Gmail.
+- [13:58] Select Gmail. And then reply. Reply to a
+- [14:02] message. Okay. Select the first one. Let
+- [14:04] me reorganize it a bit so it looks
+- [14:05] nicer. Very important. Double click on
+- [14:07] this once again. Select the same
+- [14:09] account. resource message operation
+- [14:11] reply message ID let's switch to
+- [14:14] expression the email type switch that to
+- [14:16] text there we go text and the message is
+- [14:19] just going to be JSON output switch to
+- [14:21] expression JSON output and that should
+- [14:24] be it to be honest let's save that and
+- [14:26] let's run this again so execute workflow
+- [14:30] it's finding a message there was instant
+- [14:32] now it's the AI agent is running with
+- [14:34] open AI API okay GPD5 will take like a
+- [14:38] few seconds to respond
+- [14:40] So, this one is writing the email
+- [14:41] obviously and then it's going to send
+- [14:42] the email and the loop over again if we
+- [14:45] have more items obviously because this
+- [14:47] one can work um even if you have 20
+- [14:49] emails right that you send out. Oh,
+- [14:51] there we go. So, workflow has finished.
+- [14:53] Let's check our email. Did this get a
+- [14:55] follow-up. Okay. And I can already see
+- [14:58] that it did which is beautiful. So, look
+- [15:01] at this. Hey there, following up on my
+- [15:02] note from the other day in case it
+- [15:04] through. I'm happy to reset context.
+- [15:06] Isn't this beautiful? We just got an AI
+- [15:08] agent automatically follow up on an
+- [15:10] email that I sent out. Now, obviously in
+- [15:11] this case it was 38 minutes ago, but
+- [15:13] imagine this was sent like a few days
+- [15:15] ago, right? And it didn't get a
+- [15:16] response. AI agent runs, follows up.
+- [15:19] Amazing. Like this is going to save so
+- [15:20] many hours in so many businesses and so
+- [15:23] many jobs. It's crazy. This is not going
+- [15:25] to replace jobs. A lot of people listen
+- [15:27] to, you know, Sam Alman, Dario, these
+- [15:29] people who hype up You have to
+- [15:32] realize the CEOs of the companies, they
+- [15:33] have the most incentive to hype
+- [15:35] everything up. However, AI agents are
+- [15:37] going to replace the most repetitive,
+- [15:39] boring parts of your job. So, you can
+- [15:41] focus on the creative stuff because
+- [15:42] LLMs, news flash, are not creative and
+- [15:46] it will not be solved just by scaling.
+- [15:48] It will needs an entirely different
+- [15:50] architecture. Why? Because large
+- [15:52] language models are sequence models. All
+- [15:54] they do is predict the next word aka the
+- [15:57] next token. So, they cannot have a
+- [15:59] inventive original thought like humans
+- [16:01] can. So, what I'm trying to say is that
+- [16:03] you don't have to worry for your job.
+- [16:04] Instead, you should be excited that
+- [16:06] agents like this can replace all the
+- [16:08] boring in your job and you'll do
+- [16:10] the creative high leverage stuff. And
+- [16:11] again, this is just the first of the six
+- [16:13] AI agents I'm going to show you. Plus,
+- [16:15] later in the video, I'll show you how
+- [16:16] you can actually make real money by
+- [16:18] selling NAT agents like this one to
+- [16:21] businesses for thousands of dollars.
+- [16:23] However, in order to start building AI
+- [16:24] agents, either for yourself or for other
+- [16:26] businesses, you need to know how to host
+- [16:28] them, which is one of the biggest
+- [16:30] problems beginners face. Luckily, the
+- [16:32] solution is quite simple and that is
+- [16:33] Hostinger. This is what I use for all of
+- [16:35] my AI agents, for all of the AI agents
+- [16:37] we use in our team because it's the
+- [16:39] simplest way you can start building AI
+- [16:41] agents, plus one of the most affordable
+- [16:43] ways as well. So, let me show you how to
+- [16:44] set it up. If you get the KVM2 plan,
+- [16:47] which I would recommend you to get, you
+- [16:48] can literally run hundreds of AI agents
+- [16:50] on this plan, and it will cost you way
+- [16:52] less than if you used the NA10 Cloud,
+- [16:54] especially if you go with the 24 month
+- [16:56] option, which I definitely recommend you
+- [16:58] do because you want your AI agents
+- [16:59] running forever. You build them once and
+- [17:01] they save you time in perpetuity. And
+- [17:03] since Hostinger was kind enough to
+- [17:04] sponsor this video, if you use the
+- [17:06] coupon code David, you will save
+- [17:08] additional 10% off on your annual or
+- [17:11] 2-year plan. Then what remains is
+- [17:13] selecting the server location. So just
+- [17:14] select whatever is closest to you. I'm
+- [17:16] in Czech Republic, so Germany is super
+- [17:17] close. And then for the operating
+- [17:19] system, click on NA10. They literally
+- [17:21] have a one-click install template for
+- [17:23] NA10. It couldn't be any easier. So
+- [17:25] click on confirm and then click on
+- [17:26] continue and log in with your hosting
+- [17:28] account or just create one. And the last
+- [17:30] thing that remains is filling out your
+- [17:31] billing details and your credit card.
+- [17:33] I've been using Hostinger for months to
+- [17:35] host my enter agents. And it really is
+- [17:37] the simplest and most affordable way to
+- [17:39] do so. So again, make sure to check out
+- [17:40] the link description and remember to use
+- [17:42] code David to get 10% off. All right. So
+- [17:45] once you have your Hostinger VPS, go to
+- [17:47] the panel, click on home, and select
+- [17:49] manage. Here we can see how our virtual
+- [17:51] private server is running and all the
+- [17:53] usage you see about it. So this is
+- [17:55] another advantage over the N10 cloud.
+- [17:57] You can actually see this data that NA10
+- [18:00] otherwise wouldn't give you. So all we
+- [18:02] need to click is manage app and this
+- [18:03] will launch the NA10 server where we can
+- [18:05] see all of our AI agents. All right,
+- [18:06] let's look at the second AI agent which
+- [18:08] is realistic AI videos. And there is
+- [18:11] hundreds of ways you can do this. You
+- [18:13] can use it for marketing, for B-roll in
+- [18:15] videos, for you know promotions like um
+- [18:19] for uh interviews, for upskilling your
+- [18:23] employees. I mean get creative. You know
+- [18:25] realistic videos are changing the world.
+- [18:26] There's like the startup Synasia I'm
+- [18:29] going to pop up on screen that is
+- [18:31] scaling like crazy. I think they're like
+- [18:32] 200 million ARR and all they do is like
+- [18:35] create realistic video avatars, right?
+- [18:37] So this automation is going to teach you
+- [18:39] how to do that. It's actually pretty
+- [18:41] simple. So trigger the trigger doesn't
+- [18:43] really matter to be honest. Here I have
+- [18:44] a schedule trigger. You can do WhatsApp,
+- [18:47] Telegram, up to you. Trigger isn't the
+- [18:49] main thing here. The main thing is
+- [18:50] honestly the V3, but we're going to get
+- [18:52] to that. Be patient. Second note is
+- [18:55] Google Sheets, right? So, so this is
+- [18:56] simple get rows in a sheet. You connect
+- [18:58] Google Sheets API just like we did with
+- [19:00] Gmail API earlier. Then resource click
+- [19:03] on sheet within document operation get
+- [19:05] rows and then document by URL. So here
+- [19:08] is the doc for this and for this example
+- [19:11] I'm going to keep it super simple and
+- [19:13] I'm following a trend. It's actually
+- [19:15] much bigger than I thought which is ASMR
+- [19:18] videos. Right? So let me show you
+- [19:19] example. So here's an example of a video
+- [19:21] completely generated with AI including
+- [19:23] the sound. So take a listen.
+- [19:30] So yeah, this is ASMR. Uh to be honest,
+- [19:31] I don't really watch or listen to ASMR,
+- [19:34] but you'll be surprised how big the
+- [19:35] market is. I mean, some of these videos
+- [19:36] are getting hundreds of millions of
+- [19:38] views, but again, you can use this
+- [19:39] anyway. I'll show you how to customize
+- [19:40] the prompt. So yeah, you attach the
+- [19:43] Google sheet, then you select which
+- [19:44] sheet because, you know, sheets have
+- [19:46] different pages. So just select the
+- [19:47] correct page. Then underneath filters
+- [19:50] column, click on status and then value
+- [19:52] start. So when this goes to start this
+- [19:55] is when the automation will be triggered
+- [19:58] right. So we can do like a marketing
+- [20:00] video for a real estate company blah
+- [20:02] blah blah whatever you want this is the
+- [20:04] video ID release this is the prompt and
+- [20:05] then you switch it to start and the
+- [20:07] trigger will pick it up and under
+- [20:08] combine filters select and and that's it
+- [20:11] as you can see the Google sheets note is
+- [20:12] pretty simple then we have a AI agent
+- [20:14] and this guy is responsible for writing
+- [20:17] the prompt. So whatever you write here,
+- [20:19] you just put the video idea. This AI
+- [20:22] agent has a prompt that is optimized for
+- [20:25] creating. Well, this one again is for
+- [20:27] ASMR, but you can style this for like
+- [20:29] marketing videos, right? So you can say
+- [20:31] marketing
+- [20:33] marketing video copywriter, right?
+- [20:37] Whatever you need for your own use case.
+- [20:41] Feel free to update this prompt. But
+- [20:42] basically, this turns the vague video
+- [20:45] idea into an optimized prompt for V3,
+- [20:48] which is the video model we're using.
+- [20:51] Uh, in this case, we're using OpenAI
+- [20:53] GBD4 mini. Again, whatever model you
+- [20:56] prefer. My favorite is GBD4.1. It's more
+- [20:59] powerful than the mini, and it's very
+- [21:01] cheap as well. Let me save that
+- [21:03] actually. And then this is the main
+- [21:05] part, the HTTP request, right? So, what
+- [21:08] does this do? Again, you might be
+- [21:09] thinking, okay, David, I don't know what
+- [21:10] HTTP is. Honestly, you don't even need
+- [21:12] to understand what HTTP stands for. For
+- [21:14] those who are curious, it's hypertext
+- [21:16] transfer protocol. But the main thing is
+- [21:18] is that we do a request to this URL.
+- [21:21] Okay, so this is the URL where V3 is
+- [21:23] hosted. We're using replicate for this.
+- [21:25] Honestly, you can think of replicate as
+- [21:27] kind of an open router but for videos
+- [21:29] and AI images, right? But it's more than
+- [21:31] that because you can actually host the
+- [21:34] models here as well. Open router is just
+- [21:36] the router. But as you can see here, we
+- [21:38] already have V3 fast. We have some other
+- [21:41] AI video models. Uh but for this we're
+- [21:44] using Google V3. This is the most
+- [21:47] powerful version of Google's video
+- [21:49] model. And look at this realism, right?
+- [21:51] You upload an image and then it gives
+- [21:53] you a realistic video which you could
+- [21:56] easily fool a lot of people with this.
+- [21:58] So in here, if you click on HTTP, you
+- [22:01] get instructions on how to do the
+- [22:03] request, right? You see the
+- [22:04] authorization be better token. You see
+- [22:06] the headers. You see the prompt right
+- [22:09] here. Resolution aspect ratio. So
+- [22:11] replicate gives you everything you need.
+- [22:13] And all you can also use it in Python,
+- [22:15] NodeJS, whatever you want. So this is
+- [22:17] the power of replicate and it makes it
+- [22:19] very easy where you don't have to host
+- [22:20] these models yourself. Right? So we're
+- [22:23] using a basic HTTP request to the
+- [22:26] replicate URL. And then just like I
+- [22:28] said, we send the headers specify them
+- [22:30] exactly as they are specified right
+- [22:32] here. So, authorization and we put the
+- [22:34] bearer token and this is actually your
+- [22:37] replicate API key. So, do not share this
+- [22:40] with anybody. I'm going to have to
+- [22:41] delete mine after upload or before
+- [22:44] uploading this video. Hopefully, I don't
+- [22:46] forget. But yeah, this is your API key.
+- [22:47] So, it looks like this or whatever
+- [22:50] whatever whatever. And just if you're
+- [22:52] curious, you can create this in your
+- [22:53] account. So, click on your account,
+- [22:55] click on API tokens here. Put your uh
+- [22:58] API name. So, I can put like VO free
+- [23:00] agent and just create token. Now, I
+- [23:03] think you get a few dollars for free,
+- [23:05] but if it doesn't work, just charge up
+- [23:07] like $3 and you'll be fine. Just keep in
+- [23:09] mind if you want to create hundreds of
+- [23:10] videos with V3, it is more expensive
+- [23:12] than languages, right? Generating videos
+- [23:14] is more expensive than generating text.
+- [23:18] So, you know, keep that in mind. The
+- [23:19] costs are $320 per 8second video. So, if
+- [23:23] you are completely broke, this agent is
+- [23:25] not for you. But if you have that
+- [23:27] hustle, if you have that entrepreneurial
+- [23:29] resourcefulness, you can flip these
+- [23:31] videos for hundreds of dollars. Like you
+- [23:33] can sell video creatives for companies.
+- [23:35] You can sell mockups like interior
+- [23:37] design, walkthroughs, digital. Like
+- [23:39] there's infinite opportunity, guys.
+- [23:41] Literally infinite. All you need to have
+- [23:43] is a bit of initiative and the slightest
+- [23:46] bit of work ethic and you can make it.
+- [23:47] You can make so much money with AI. It's
+- [23:49] kind of disgusting. So this is the setup
+- [23:52] for the headers. again authorization
+- [23:53] better API key name prefer value weight
+- [23:56] send body and then body content type
+- [23:59] JSON specify body using JSON and by the
+- [24:01] way if you pay attention this JSON is
+- [24:03] literally this part of the HTTP request
+- [24:07] right so N10 just makes it a bit simpler
+- [24:09] by splitting it into multiple fields but
+- [24:12] you get the point right so here we need
+- [24:13] this is important we actually cannot
+- [24:15] send the new lines so by doing u this a
+- [24:18] little bit of reg x you know that
+- [24:20] replace we replace these new line
+- [24:22] characters because that's one thing that
+- [24:24] replicate doesn't really like. So yeah,
+- [24:26] just make sure there's new line no new
+- [24:28] line characters when you're sending
+- [24:29] this. And that's pretty much it for the
+- [24:30] HTTP request. It's not that difficult.
+- [24:33] And actually, I can put something here.
+- [24:36] Let me flip this to start. We can flip
+- [24:37] this to finish. I can say um strawberry
+- [24:40] in the spirit of, you know, strawberry
+- [24:42] for OpenAI. Let's create a video about a
+- [24:45] strawberry. Let's go step by step.
+- [24:47] Schedule trigger. Let's run this.
+- [24:49] Successful. Get rows in sheet. Boom. So,
+- [24:52] this got Yeah, correct. Nice. We're
+- [24:54] going to send this to the AI agent. The
+- [24:56] agent is going to write the prompt for
+- [24:57] this. Next up, HTTP request. This one is
+- [24:59] going to create a video. Then, it's
+- [25:02] going to be sent to this one, which is
+- [25:03] another HTTP request. And this basically
+- [25:05] streams the the output. That's it. This
+- [25:08] doesn't really do anything else. Method
+- [25:10] get URL JSON URL stream. Maybe there's a
+- [25:13] simpler way to do it, but hey, this
+- [25:15] works, you know. If you know of a better
+- [25:16] way, feel free to comment below. And by
+- [25:18] the way, if you want to see more NA10
+- [25:20] videos, make sure to subscribe. You
+- [25:22] would be surprised how strong of a
+- [25:24] signal that is. It takes like two
+- [25:25] seconds to subscribe. It's completely
+- [25:26] free and it tells me you like this type
+- [25:29] of content. So if you want to see more
+- [25:31] NA10 videos on your YouTube recommended
+- [25:33] page, go below the video and subscribe
+- [25:34] right now. So again, this one we
+- [25:37] covered. This one I showed you just now.
+- [25:39] It streams the output and then it
+- [25:40] uploads it to Google Drive. Resource
+- [25:42] file operation upload input data field
+- [25:44] name data file name. This honestly
+- [25:47] doesn't matter much, but here we just
+- [25:48] have it for the video idea. So, it
+- [25:51] matches the video idea. That's the file
+- [25:53] name. And then you put my drive and the
+- [25:55] URL folder. Pretty simple. Just like
+- [25:58] other Google notes. If you learn a few
+- [26:00] of these um Google services, Gmail,
+- [26:02] sheets, you'll be able to do all of
+- [26:04] them. Whether it's calendar, whether
+- [26:06] it's u Google Drive, whether it's I
+- [26:08] don't know what else. What else is in
+- [26:09] the guitue? They have so many services.
+- [26:11] It's crazy. If you learn a few of them,
+- [26:13] you can do all of them. Basically NA10
+- [26:15] is really compounding like that and then
+- [26:18] Google sheets up update row and sheet.
+- [26:20] So overall this agent again is simple.
+- [26:23] This is six simple agents all people
+- [26:25] should have. So you know it's nothing
+- [26:27] crazy but you can see this is very
+- [26:28] powerful because you could have your
+- [26:30] client post stuff here and you could
+- [26:32] maybe charge them you know $50 per video
+- [26:34] where it's costing you $320 per video.
+- [26:37] Very nice arbitrage and a lot of people
+- [26:39] in the new society are actually doing
+- [26:41] business models like this. You know,
+- [26:43] everybody wants to make like 10k a month
+- [26:45] with AI, but a lot of people just want
+- [26:47] to make $2,000 as a multiple sources of
+- [26:50] income. You know, like a lot of people
+- [26:51] have a job and they don't want to quit
+- [26:52] it. They just want to have a second
+- [26:54] source of income with AI. It's totally
+- [26:56] possible and I've seen it dozens of
+- [26:59] times. So, let's run it. We have the We
+- [27:01] have the prompt. Let's look at a wrote a
+- [27:04] detailed prompt for how it should sound,
+- [27:06] how it should look like. Then, we're
+- [27:08] running replicate. This one is the
+- [27:10] longest one because it's generating the
+- [27:11] video. usually takes between 30 and 60
+- [27:14] seconds from my testing. Okay, there we
+- [27:16] go. Video has been generated. If we look
+- [27:19] at this, we have this output.
+- [27:22] So this node kind of simplifies that
+- [27:24] just rereams it into a file name. So we
+- [27:27] actually have the file with 2.4
+- [27:29] megabytes which we can then upload into
+- [27:31] Google Drive. So that's why this node is
+- [27:33] necessary. It's kind of just formatting
+- [27:35] for Google Drive. Let's run it.
+- [27:38] Uploading the file also takes a few
+- [27:40] seconds. since it's on a server and then
+- [27:41] it just updates the row in a sheet
+- [27:43] because right now we have um the start
+- [27:45] and we don't have the link. So this
+- [27:47] should update the sheet so that this is
+- [27:50] flipped to finished and we have the
+- [27:51] link. Beautiful. Let's look at the
+- [27:53] video.
+- [27:56] Man, the sounds are so realistic. That's
+- [27:58] crazy. And yeah, this is um
+- [28:00] hyperrealistic
+- [28:01] AI video using the best AI model in the
+- [28:03] world. And again, feel free to customize
+- [28:05] this prompt. All you need to do is
+- [28:07] change the prompt of this AI agent to be
+- [28:09] optimized for marketing, recruiting, uh
+- [28:12] video creatives, whatever types of
+- [28:14] videos you want to make. B-roll for
+- [28:16] YouTube videos, faceless YouTube
+- [28:17] channels, you can start with this. I
+- [28:19] mean, the opportunities are endless,
+- [28:20] right? Just customize this prompt so
+- [28:21] that it generates videos that you want
+- [28:24] and that's pretty much it. You can get
+- [28:25] started with it using the best video
+- [28:27] model in the world. Now, if you think
+- [28:29] generating hyperrealistic videos with
+- [28:31] matching sound is impressive, just wait
+- [28:33] until you see what's coming. So here is
+- [28:35] the first simple AI agent everybody
+- [28:36] needs and this one has a bit more nodes
+- [28:39] but it's actually pretty simple. So let
+- [28:40] me walk through. So here we actually
+- [28:41] have two schedule triggers. This one is
+- [28:43] running every 11 hours. And basically
+- [28:47] what this agent does is tracking a
+- [28:49] YouTube channel's performance very very
+- [28:52] accurately. So maybe you have some
+- [28:54] competitors or maybe you want to track
+- [28:55] your own channel. Doesn't matter. Or
+- [28:57] maybe you want to sell this to a client.
+- [28:59] You know there's plenty of YouTubers who
+- [29:01] would buy something like this. I mean,
+- [29:03] if you showed me this like a few months
+- [29:05] back before I really locked in on any
+- [29:07] 10, I would definitely pay $500,000
+- [29:10] minimum because you'll see these reports
+- [29:12] that this agent generates are very, very
+- [29:14] detailed with graphs and stuff. So,
+- [29:16] basically, this trigger runs every 11
+- [29:18] hours. It checks the RSS feed. So, this
+- [29:20] is my channel as an example, but u yeah,
+- [29:23] it just checks my videos. Then, we have
+- [29:25] a code block which filters out all the
+- [29:27] items to only the ones published in the
+- [29:30] last 12 hours. So we don't want to be
+- [29:32] retracting the same videos over and
+- [29:34] over. So that's what this code block
+- [29:36] does. To be honest, if you are scared of
+- [29:38] code blocks, you can probably like use
+- [29:40] some of these um default ones, data
+- [29:42] transformation like edit fields, filter,
+- [29:45] stuff like that. But a lot of the times
+- [29:46] it's just simpler to go to JBD, ask it
+- [29:49] to write the code and use a single
+- [29:51] JavaScript code block than, you know,
+- [29:54] five different manual NAN logics and
+- [29:58] loops and conditionals. It's up to you.
+- [30:00] whatever you want. Next, we have a
+- [30:02] Google Sheets append row in sheet. So,
+- [30:04] this actually sets the status to start.
+- [30:07] So, here you know, boom, start. And this
+- [30:08] is how it looks like, by the way. So,
+- [30:10] you can see this is measuring like which
+- [30:12] videos are performing on day one, day
+- [30:14] three, day um yeah, 1 2 3 7 14 30 which
+- [30:20] shows you outliers, which is very very
+- [30:22] important to know like maybe your own
+- [30:24] channel or your competitors which videos
+- [30:27] are outliers. You can study those. You
+- [30:29] can think of similar ideas, stuff like
+- [30:30] that, right? So, this this agent is very
+- [30:34] powerful and again lots of YouTubers
+- [30:36] would pay some serious money to have it
+- [30:39] and it's building is much simpler than
+- [30:41] it might seem. So, again, this uh append
+- [30:44] wrote in sheets sets the status to start
+- [30:46] sets the video title sets the video
+- [30:48] link. So, boom title link. Then we have
+- [30:52] another Google Sheets note and this one
+- [30:54] gets rows. So same document but the
+- [30:57] filter is that it gets all the rows
+- [30:59] where the status is at start. So it
+- [31:01] ignores the finished ones and it ignores
+- [31:04] the empty ones only when there's start
+- [31:06] it runs on those basically. Then we have
+- [31:08] edit fields and these are the fields to
+- [31:10] set. So row number we do JSON row number
+- [31:12] and link JSON video link which is
+- [31:15] matching from the sheet. So then we have
+- [31:17] a few familiar fields again we've
+- [31:19] covered these AI agent into update rows
+- [31:22] in Google Sheets. But this is where it
+- [31:23] gets interesting. Day zero. So here we
+- [31:26] have a YouTube node that gets the video
+- [31:28] and its views based on the video ID. So
+- [31:31] on YouTube every video has ID. Pull up
+- [31:33] my latest uh so this is the correct
+- [31:35] video, right? You can see this. This is
+- [31:36] the video ID in the URL. And this note
+- [31:40] gets the views. Then we have a update
+- [31:42] row in sheets. So classic Google sheets
+- [31:44] row number and then it sets the views on
+- [31:46] day one. So in this sheet I'm using fake
+- [31:48] data because I didn't want to run this
+- [31:50] for 30 days um for obvious reasons. But
+- [31:53] yeah, you can see this updates the views
+- [31:55] day zero which updates our chart over
+- [31:58] here. So for each video this runs and
+- [32:01] then something interesting happens. Wait
+- [32:04] one day. So this is very interesting
+- [32:05] note. Um it literally just waits, you
+- [32:08] know. So it's kind of like the schedule
+- [32:10] but for a pause. So it pauses the
+- [32:12] automation for one and then the unit is
+- [32:14] days and then that's day zero and then
+- [32:17] on day one it runs again gets the video
+- [32:20] updates the rows on how many views it
+- [32:22] has in day one and pauses for one day.
+- [32:25] So then we have day two which is
+- [32:26] basically the same. We track the views
+- [32:28] we update the row for day two aka the
+- [32:31] column and then we wait one day for day
+- [32:33] three. On day three we do a longer pause
+- [32:35] until day seven. Again you can configure
+- [32:36] this however you want. If you want to
+- [32:37] track every single day for 30 days it's
+- [32:40] up to you. But I think uh 0 1 2 3 4 7
+- [32:43] 1430. That's really good. So basically
+- [32:46] this is it. This is um this is the whole
+- [32:49] thing. And as you can see even though
+- [32:51] there's a lot of nodes it's quite
+- [32:53] simple. I mean most of it is kind of
+- [32:55] duplicated here with just a delay. And
+- [32:57] this automation runs for 30 days until
+- [33:00] it's completed. So it's literally inside
+- [33:02] of NA10 sitting this execution is going
+- [33:05] to be active for 30 days until it's
+- [33:08] fully fully done. and it's going to be
+- [33:10] tracking all of the views on this
+- [33:13] channel. So again, for experimentations
+- [33:15] using my own channel. So it's going to
+- [33:17] be spotting which are outliers like this
+- [33:19] NA10 video for example and which videos
+- [33:22] are lacking. And then you can go back
+- [33:23] and analyze why did the video flop, why
+- [33:26] did this video do well and to any
+- [33:28] content creator, this is beyond
+- [33:30] valuable. Honestly, like I was being
+- [33:32] very conservative when I say $500. to
+- [33:34] bigger creators, something like this
+- [33:36] could be worth thousands of dollars
+- [33:38] because each successful video is going
+- [33:40] to make them thousands of dollars. So,
+- [33:42] if you can, you know, deliver them one
+- [33:43] successful video every 3 months, right?
+- [33:45] Every three months is like the ROI on AI
+- [33:48] agent like this is kind of crazy. And
+- [33:50] again, this is just number three of the
+- [33:52] six that I'm going to show you in this
+- [33:53] video. So, let's go on onto the next
+- [33:55] one. Now, this one has a lot fewer
+- [33:57] nodes, but that doesn't mean it's not
+- [33:59] useful. It's actually just as useful.
+- [34:01] And when I say everyone should have
+- [34:03] this, I mean it. Everyone should have
+- [34:05] this expense tracker agent. So you can
+- [34:08] pretty much understand how it works just
+- [34:10] by looking at it. But basically the
+- [34:11] trigger is a Gmail note. So you select
+- [34:13] which email you want to check. You do
+- [34:14] pull times every minute or whatever you
+- [34:16] want. And then event is message
+- [34:19] received. So when a message comes in
+- [34:21] into your email inbox, it will trigger
+- [34:23] and it will run an AI agent which will
+- [34:25] determine, hey, is this an expense or is
+- [34:28] this just spam or some friend emailing
+- [34:31] you or whatever, right? So the prompt I
+- [34:33] again just like last time identical and
+- [34:36] the prompt is this analyze email
+- [34:40] personality silent dismiss honestly it's
+- [34:42] pretty overkill. Uh the prompts you just
+- [34:44] say like if this is an expense do that
+- [34:46] if it's not an expense do nothing. This
+- [34:48] prompt could be much shorter, but feel
+- [34:50] free to take it, copy it. Again, all of
+- [34:51] the resources are in the new society
+- [34:53] templates and presets. So, if you want
+- [34:55] any of these agents, like maybe this one
+- [34:57] you could build very relatively fast.
+- [34:59] The previous one took some time, but uh
+- [35:02] if you want them and just literally just
+- [35:03] one click import from file, all of that
+- [35:06] is in the new society templates and
+- [35:07] presets right here. AI agents by David.
+- [35:10] You can download any of these and start
+- [35:11] having that agent save you time right
+- [35:14] away. literally with a few clicks, no
+- [35:16] matter what your business or your life
+- [35:17] is. Some of these agents every single
+- [35:19] person needs expense tracker is one of
+- [35:22] them. So again, this AI agents
+- [35:23] determines is this an email with an
+- [35:25] invoice, is this a receipt or is this
+- [35:27] just some random ass email? For the
+- [35:29] model, GPD 4.1 Minute is sufficient. If
+- [35:32] you are finding issues that the model is
+- [35:33] underperforming, just select 4.1 and
+- [35:36] you're going to be chilling. And the
+- [35:39] only tool it has is append row in
+- [35:41] sheets. So all it does is just append a
+- [35:44] single row in Google Sheets. Let me show
+- [35:45] you. Could not be simpler.
+- [35:48] Boom. There it is. So you have the date,
+- [35:50] self-explanatory, date of the
+- [35:51] transaction, the category. Honestly, the
+- [35:54] category should probably be here. So the
+- [35:56] transaction name, then the cost
+- [35:58] category, and then how relevant it is.
+- [35:59] This is like AI each ranks this 1
+- [36:01] through 10. So if it's like a completely
+- [36:03] waste um you know like Netflix
+- [36:05] subscription might be two. If it's like
+- [36:07] groceries might be nine, right? So you
+- [36:09] understand this and yeah that's the AI
+- [36:12] agent literally could not be simpler and
+- [36:16] it automates most of your accounting
+- [36:18] needs. Like obviously if you're like a
+- [36:20] financial company, you probably need
+- [36:22] in-house accountants. But if you're just
+- [36:24] a single solarreneur, if you're a small
+- [36:28] business owner, if you're a individual
+- [36:31] and you just want to have a spreadsheet
+- [36:34] with all your transactions categorized
+- [36:36] into different categories and with the
+- [36:37] relevance that the AI agent decides,
+- [36:40] it could not be any simpler. It takes 5
+- [36:43] to 10 minutes to build this and it's
+- [36:44] going to save you time forever in
+- [36:46] perpetuity. Now, let's be honest. The
+- [36:47] reason you're watching this is because
+- [36:49] you understand the power of automation
+- [36:51] and AI agents. But one thing that nobody
+- [36:53] is automating is the actions in their
+- [36:56] productivity app, which is exactly what
+- [36:58] we just released inside of vectal by
+- [37:00] adding workflows. There's a lot of
+- [37:02] manual that happens in your task
+- [37:04] management, in your productivity. Now
+- [37:06] you're able to automate it. So inside of
+- [37:08] Veectal on the right there is this new
+- [37:10] button workflows. In here you can either
+- [37:12] use one of the pre-built workflows we
+- [37:14] have or create a new one. Daily creative
+- [37:17] idea. The trigger, let's go with
+- [37:20] schedule. Daily at 8 a.m. And action
+- [37:23] create idea. And you can set the prompt
+- [37:25] to whatever you want. Maybe you run a
+- [37:27] marketing agency. Maybe you do sales.
+- [37:30] Maybe you have a fashion design
+- [37:32] business, whatever you want. This
+- [37:34] workflow will run every single day at 8
+- [37:36] a.m. and create an actionable idea that
+- [37:39] would get you closer to your goals. And
+- [37:40] since Vectal has your user context such
+- [37:42] as your word description, short-term
+- [37:44] goals, long-term goals, this idea will
+- [37:46] be hyper relevant to you. Now, this is
+- [37:48] just one of many workflows you're able
+- [37:50] to build inside of Veectal. For example,
+- [37:52] this one is super useful and it's one of
+- [37:54] the pre-built workflows that we built
+- [37:56] for you. So, you don't even have to
+- [37:57] build it when you use Vectal. So, what
+- [37:58] it does, it runs every time an email is
+- [38:00] received that fits this criteria, spam,
+- [38:03] promotional email, stuff like that. And
+- [38:04] then what to do? It marks the email as
+- [38:06] red. This single workflow will reduce
+- [38:08] the time you spend on your email by 80
+- [38:11] to 90%. I have this running on all of my
+- [38:13] main inboxes and it's something that
+- [38:16] everyone should activate. So if you love
+- [38:17] NA10, you're going to absolutely love
+- [38:19] Vectal Workflows which allows you to
+- [38:21] automate all the boring inside of
+- [38:23] your task manure app. So go to vectal.ai
+- [38:25] and give it a shot. You can use
+- [38:27] workflows even on the free account. So
+- [38:29] there is no excuse. Now let's go back to
+- [38:31] any. The fifth agent all of you should
+- [38:33] have is a personalized outreach email
+- [38:35] agent. So all of us at a certain point
+- [38:38] in our life need to send an email right
+- [38:40] to somebody whether it's a company we're
+- [38:41] applying to work at or you know someone
+- [38:43] we want to have on a podcast but that
+- [38:45] email cannot be basic it cannot be spam
+- [38:48] it needs to be personalized and this is
+- [38:49] exactly what this agent does. So we have
+- [38:52] a schedule trigger right here which
+- [38:53] checks again rows inside of a sheet. So
+- [38:56] here is what the sheet looks like. We
+- [38:58] have the research status. We have the
+- [39:00] email. So this is my email for testing.
+- [39:02] uh contact company could be vectal
+- [39:05] doesn't matter contact name and then the
+- [39:07] research. So this is what this agent
+- [39:09] does. It does deep research on that
+- [39:12] person before sending the email. So if
+- [39:14] you're doing cold emails, this will
+- [39:16] change the game completely for you. And
+- [39:18] um yeah, I'm going to show you how to
+- [39:20] build this. So you have the full
+- [39:22] personalized email body just by this
+- [39:25] little bit of information. All you need
+- [39:26] is the contact email and the name of the
+- [39:28] person really. So again, this trigger
+- [39:32] runs I think it's one once a day. Yeah,
+- [39:34] it doesn't really matter. And it checks
+- [39:36] all the new leads here. You can set it
+- [39:38] to one once an hour. It's up to you.
+- [39:40] Schedule trigger is very easy to
+- [39:41] configure, you know. Boom. Runs once an
+- [39:44] hour just like that. Next gets rows in
+- [39:46] sheets. So it gets all the rows with the
+- [39:49] start status just like the previous
+- [39:52] agents. And then this is interesting. So
+- [39:55] you can use either perplexity owner or
+- [39:57] there's an alternative way SER API. It's
+- [39:59] up to you whichever you prefer. Um some
+- [40:02] people are familiar with SER some people
+- [40:04] prefer perplexity. So whatever you
+- [40:07] whichever you want to use you can use it
+- [40:10] just you know detach the other one and
+- [40:12] attach this as the chart model entirely
+- [40:14] up to you. Then this agent performs web
+- [40:16] research. So again either it uses
+- [40:17] proplexity or SER but it researches on
+- [40:20] this person and the prompt is the main
+- [40:22] thing right?
+- [40:23] You are a research assistant. Your task
+- [40:24] is to perform photo web research on a
+- [40:26] specified person and or company. So
+- [40:28] there's some more info but that's
+- [40:29] basically it. It does deep research on
+- [40:33] this person and the company to
+- [40:35] understand who it does what it's about
+- [40:38] enough info to personalize the email and
+- [40:40] then it goes into second AI agent. So
+- [40:43] this one writes the email, right? So it
+- [40:45] it gets all the info from the previous
+- [40:48] agent and the research results. So
+- [40:51] actually this is from the sheet and this
+- [40:52] is the research results for the previous
+- [40:54] agent and it's instructed to write a
+- [40:56] personalized collab email as me you know
+- [40:59] David you can obviously customize this
+- [41:01] prompt however you want again all of the
+- [41:03] AI agents from this video are available
+- [41:05] in the new society inside of the
+- [41:07] templates and preset section. So if you
+- [41:09] want to just take the prompts or if you
+- [41:10] want to import the whole agent you you
+- [41:12] know where to find them. So yeah first
+- [41:15] agent does the web search agent writes
+- [41:17] the email and then we update the rows in
+- [41:19] a sheet. So actually this is the
+- [41:21] practical way of doing it. A lot of
+- [41:22] people would have it send the email
+- [41:24] right away. But this AI agents are not
+- [41:27] there yet. Maybe in a year, maybe in two
+- [41:28] years where they're like super reliable,
+- [41:31] but LLMs hallucinate. LLMs make up
+- [41:34] So the way to do it is to have one step
+- [41:39] human approval, right? So if you add
+- [41:41] like let's say again you can have a
+- [41:43] separate agent that does the lead
+- [41:44] generation that scrapes the web for
+- [41:45] emails and adds the contact names and
+- [41:48] then you you launch it once a day you
+- [41:50] know the next 10 people are researched
+- [41:54] and then the email is written for them
+- [41:55] and then you go as a human or you hire a
+- [41:58] VA or whatever just double checking that
+- [42:00] the email is looking good right maybe if
+- [42:02] if it's like if you're doing crazy
+- [42:04] volume and you you don't care you can
+- [42:06] remove this step but I think for most
+- [42:09] most production and most real businesses
+- [42:12] you will need to confirm the email that
+- [42:15] the AI wrote and maybe instead of doing
+- [42:17] that you can actually have a you can
+- [42:19] actually have a separate step Gmail and
+- [42:22] it can be a draft right create a draft
+- [42:25] so that's another way to do it it's just
+- [42:27] probably easier to see many of them in a
+- [42:28] sheet so if you're doing lots of volumes
+- [42:30] saving that in a sheet is easier if
+- [42:32] you're doing less volume writing a draft
+- [42:35] and then just sending it through an
+- [42:36] email you know going to your drafts and
+- [42:38] you'll see the pre-written drafts here
+- [42:40] and just clicking send probably is
+- [42:41] easier. Then the send out of the email
+- [42:44] is once you approve it, right? So once
+- [42:46] you confirm the status to confirmed, the
+- [42:48] second part of the automation runs again
+- [42:50] I think once a day or once five minutes
+- [42:52] doesn't matter and uh sends out all the
+- [42:55] emails that you confirmed. So it gets
+- [42:57] the rows by confirmed and it sends the
+- [42:58] message and it up updates it to send.
+- [43:00] So, this agent, it has a few more nodes
+- [43:03] than the previous one, but it's also
+- [43:06] very simple and it's beyond useful,
+- [43:08] especially for businesses that are doing
+- [43:09] cold outreach and that are sending out
+- [43:12] lots of emails. This makes sure that the
+- [43:14] email is personalized and that it
+- [43:16] doesn't get you get higher delivery
+- [43:18] rates, higher open rates, and ultimately
+- [43:21] more business. That's the goal of this.
+- [43:22] And you save yourself time and your
+- [43:23] team's time. This agent can be obviously
+- [43:26] used in hundreds of different ways, but
+- [43:28] if you're doing anything with cold email
+- [43:30] outreach, you need an AI agent like this
+- [43:33] one. Now, as I promised, I'm going to
+- [43:34] also talk about how to turn this into a
+- [43:36] side hustle because you can make a lot
+- [43:38] of money relatively fast with AI agents.
+- [43:41] I mean, these are some offers that
+- [43:43] people are offering and I would say
+- [43:45] these are not even experts. These are
+- [43:47] like medium level AI agent builders,
+- [43:49] right? And you can see the start package
+- [43:51] 750 and advanced package is 5K and
+- [43:53] businesses are paying way more than that
+- [43:56] for good AI agents and automations. But
+- [43:58] the mistake a lot of people make is that
+- [43:59] they don't stand out. You know they like
+- [44:02] AI automation agency. No no no business
+- [44:04] wants to hear that. If someone reaches
+- [44:06] out to me and say like I run an AI
+- [44:07] automation agency they instantly get
+- [44:10] flagged by my vectoral workflow as spam,
+- [44:14] right? Because this is a this is not an
+- [44:16] original offer. Nobody wants to work
+- [44:19] with an AI automation agency. People
+- [44:21] want to be solving, they want you to
+- [44:23] solve a specific problem for them. You
+- [44:26] need to be specialized. A good way to
+- [44:28] stand out is to have an irresistible
+- [44:30] offer. And the example like how you can
+- [44:32] do that is add a free AI consultation
+- [44:34] for an expert. You need to position
+- [44:36] yourself as expert, right? So this is
+- [44:39] much harder to say no to than oh I'm AI
+- [44:44] agency. You know this is I charge this
+- [44:46] much. If you just offer a free
+- [44:48] consultation with no expectations and
+- [44:49] you actually do a lot of preparation
+- [44:51] beforehand, maybe you use one of your
+- [44:54] agents to help you with the preparation
+- [44:55] and the deep research, the company will
+- [44:57] be way more impressed. If you put 5
+- [44:59] hours of effort into a free
+- [45:01] consultation, be like, "Oh, wow. This
+- [45:03] guy, this guy did a lot for this, you
+- [45:05] know, free call. Like, imagine if I hire
+- [45:07] him, he'll probably overd deliver."
+- [45:08] That's the type of feeling you need to
+- [45:10] leave in your clients. Then to profit
+- [45:12] maximize, you want to add some expensive
+- [45:15] but great add-ons, right? And this is
+- [45:17] where the real money is because business
+- [45:19] owners value time. They value speed.
+- [45:21] They value efficiency, personalization.
+- [45:24] So this is example of someone on Upwork
+- [45:26] to doing this today and there's no
+- [45:29] reason it could be you. These people are
+- [45:30] not experts in machine learning or
+- [45:32] experts in math or programming. You
+- [45:35] literally have to click and drag in a
+- [45:37] tool like NA10 to do this. So this
+- [45:39] person which we found is doing the fast
+- [45:44] delivery for another 5 to 500 to 100k.
+- [45:46] So if you have a bit of work ethic and
+- [45:48] you can deliver fast, you can charge
+- [45:50] another 1k done for you code. You know
+- [45:53] if people want any u automation but in
+- [45:56] code boom another 1500 and how can you
+- [46:00] do that? Tools like cloth code tools
+- [46:02] like codex tools like cursor I've made
+- [46:04] countless videos on these. So if you're
+- [46:05] subscribed to this channel you will
+- [46:07] know. Code guidance is literally could
+- [46:09] just be a call explaining the code to
+- [46:11] them and how to integrate it. Another
+- [46:12] 500. Do you see the upsells are crazy?
+- [46:15] That's because this guy knows that a
+- [46:17] businessman will happily spend money to
+- [46:18] save time for the fast delivery or
+- [46:20] happily spend time to, you know, get his
+- [46:22] business up to speed with the code
+- [46:24] guidance. So really being creative with
+- [46:26] the bonuses, with the guarantees, with
+- [46:28] the conditions this is where you can
+- [46:31] make your offer stand out from everybody
+- [46:33] else. I mean this is what Hermosi talks
+- [46:35] about. So if you follow, if you follow
+- [46:37] Alexi, if you read the book 100 million
+- [46:39] offers, you will know all of this. But
+- [46:41] applying this for AI agents is where the
+- [46:44] untapped opportunity is because this
+- [46:45] field is very new and most people have
+- [46:47] such a boring commoditized offer. It's
+- [46:49] crazy. So what do you need to take away?
+- [46:51] It's not about creating the most
+- [46:53] complicated agent. Far from it, guys.
+- [46:55] All you need is a reliable agent that
+- [46:57] specifically targets the business and
+- [46:59] helps to solve a specific problem for
+- [47:00] that business. Like you don't even need
+- [47:03] to show them the notes. It could
+- [47:04] literally be four nodes, five nodes. It
+- [47:07] could take you an hour to build. Doesn't
+- [47:09] matter. It's more about creating a great
+- [47:11] offer specific to your target avatar. So
+- [47:14] if you're targeting dentists, if you're
+- [47:15] targeting real estate agents, whoever it
+- [47:17] is you're specializing on, it is all
+- [47:19] about the offer. The offer needs to be
+- [47:21] compelling. It needs to reverse risk. It
+- [47:23] needs to deliver the promise fast. You
+- [47:26] need to understand Zatar, what problems
+- [47:28] they're facing, what is their dream
+- [47:29] outcome. If you don't, you will always
+- [47:30] struggle. If you don't, if you do
+- [47:33] understand it, you will have more
+- [47:34] clients than you can handle. So this is
+- [47:36] how you can turn any on missions into
+- [47:37] business. Now let me show you the sixth
+- [47:39] agent that everyone needs and this one I
+- [47:42] really believe everyone needs. So this
+- [47:44] agent unlike the other ones which are
+- [47:46] more business targeted is for your
+- [47:48] personal life to never ever miss a
+- [47:50] person's birthday. Right? So you have a
+- [47:53] Google sheet once again. Let me show
+- [47:55] you. Boom. Where you write down the
+- [47:58] birthdays of your friends. Right? So
+- [48:00] birthday name interest and actually you
+- [48:03] only need to add the let me make it
+- [48:05] clear. You only need to add these three
+- [48:08] fields, birthday, name, and interest.
+- [48:10] The agent takes care of the rest of the
+- [48:12] gift ideas and of reminding you. So, if
+- [48:15] you have a calendar or some place where
+- [48:17] you store all your closest friends
+- [48:19] birthdays, you just once add them here
+- [48:21] and then we have a schedule trigger.
+- [48:24] Honestly, we could probably have it run
+- [48:27] uh less frequently
+- [48:29] because uh maybe like once a week.
+- [48:32] You'll see the way this AI agent works.
+- [48:33] Basically what this agent does is that
+- [48:35] not only does it remind you of the
+- [48:37] birthday when it's coming like up to
+- [48:39] seven days before so you have enough
+- [48:40] time to buy the gift but also
+- [48:42] brainstorms some gift ideas right so it
+- [48:44] reads get rows in sheet classic Google
+- [48:46] sheet where you have the status as
+- [48:50] nothing so this is important you have to
+- [48:52] actually set it like so status value
+- [48:55] empty otherwise it it doesn't work then
+- [48:58] you have the AI agent which brainstorms
+- [49:00] the based on the interest It brainstorms
+- [49:04] ideas right based on the name. If it's a
+- [49:06] man or a woman, maybe the gift ideas are
+- [49:08] different. And if the birthday is within
+- [49:10] 7 days, it will generate the idea using
+- [49:12] a model. So you can use a reasoning
+- [49:13] model. If you prefer cloth as ideas, you
+- [49:16] know, disconnect openai and connect
+- [49:19] anthropic pretty simple change. You just
+- [49:22] need to add your uh enthropic API key.
+- [49:24] That's the only change. And then we have
+- [49:26] a tool structured output parser to
+- [49:30] format the output of the agent. Then we
+- [49:32] have if else note. So you know a lot of
+- [49:35] people use AI agents for simple
+- [49:37] conditional logic which is very bad. You
+- [49:40] should absolutely use code where
+- [49:42] possible. And if else statement is a
+- [49:44] beautiful example of that. So don't be
+- [49:46] one of these people who spend $1,200 a
+- [49:49] month on LLM doing simple Right?
+- [49:51] So this was a Reddit post like wow we've
+- [49:53] been burning money for 6 months. We're
+- [49:55] spending $1,200 a month. And what was
+- [49:58] what was they doing? You think, okay,
+- [50:00] some crazy AI agent like writing
+- [50:02] personalized emails, like really doing
+- [50:03] lots of reasoning. No, this person was
+- [50:06] extracting phone numbers from text,
+- [50:08] which you can do with regular
+- [50:09] expression. He was checking profanity,
+- [50:12] which you can do matching words against
+- [50:14] the blacklist. He was reformatting JSON.
+- [50:16] There is countless of JSON parsers that
+- [50:19] exist. And he was, this one is the
+- [50:21] funniest. He was using the LLM to
+- [50:24] uppercase words which literally you can
+- [50:27] do with that upper a single method. So
+- [50:30] there's a lot of people who are quite
+- [50:31] stupid who are using LLMs for things
+- [50:34] that you should be using code for. And
+- [50:37] this person was spending 1,200 a month
+- [50:40] and and he was posting this like wow
+- [50:42] look at this optimization after
+- [50:44] switching to GPD photo mini we the bills
+- [50:46] dropped to $200 a month. No, you're
+- [50:48] still a dumbass. You're spending $200 a
+- [50:51] month on something that should be a
+- [50:53] simple code that costs nearly zero to
+- [50:56] run. You can do this all with Python or
+- [50:58] JavaScript for nearly zero. It can run
+- [51:00] super fast, more reliable, by the way,
+- [51:03] than LLM because LM hallucinate and
+- [51:04] infinitely faster because a response
+- [51:06] from LM can take 1, two, 3 seconds.
+- [51:09] Python can run in a few milliseconds.
+- [51:11] Same with JavaScript. So don't be one of
+- [51:13] these people who avoid code at all cost
+- [51:16] and then look like absolute retards when
+- [51:18] they use LLMs for this. and spend
+- [51:20] hundreds of dollars a month on stuff
+- [51:22] that has been solved for decades with a
+- [51:25] few lines of code. So this is what I
+- [51:28] mean. We can use an if statement here. A
+- [51:30] lot of people would use a AI
+- [51:31] agent here. It's like, okay, if it's
+- [51:33] true, redirect to Telegram. If it's
+- [51:35] false, like guys, come on. No matter if
+- [51:38] you're not a beginner programmer, it's
+- [51:39] all about constructing logic. It's not
+- [51:41] about being a senior developer. An AI
+- [51:43] agent is really good at like recognizing
+- [51:46] if email is spam or not, right? based on
+- [51:48] the context of the email, who sent it,
+- [51:50] how it was phrased. There's a lot of
+- [51:52] different like variables and nuances
+- [51:53] that goes into that. You cannot just use
+- [51:55] a black list of words, right? Because
+- [51:57] that would be unreliable and it would do
+- [51:59] false flags. So, use AI where it makes
+- [52:01] sense. But if you can solve something
+- [52:03] with a few lines of code, use code for
+- [52:06] that, right? And the beauty of NA10 is
+- [52:08] that a lot of the code is actually a
+- [52:10] place replaced with these nodes. So, you
+- [52:12] have these like data transformation
+- [52:14] nodes where a lot of them like edit
+- [52:16] fields, right? set modify, add or remove
+- [52:18] fields, filter, remove fields, matching
+- [52:21] conditions, limit the these are all like
+- [52:25] logic that otherwise you would have to
+- [52:27] write code. But thanks to NA10, you
+- [52:29] don't have to do that. You have these
+- [52:31] pre-built, pre-created nodes that you
+- [52:34] can just click and drag and drop. And
+- [52:36] again, all you need to do is kind of
+- [52:38] think through the logic in your brain.
+- [52:40] And once you know how your AI agent or
+- [52:42] AI automation should work, you can build
+- [52:44] it just with these notes. Instead of
+- [52:46] putting AI agent everywhere where it
+- [52:48] doesn't make sense. So again, if it's
+- [52:50] true that the birthday is coming up, we
+- [52:51] send a text message on Telegram
+- [52:53] reminding you that, hey, your friend's
+- [52:55] birthday is coming up. I mean, look, to
+- [52:57] be honest, this is mostly for men,
+- [52:58] right? Let's be honest. Women, they all
+- [53:00] always somehow remember their friend's
+- [53:01] birthday up to like two months before
+- [53:03] they're preparing for it. It's crazy how
+- [53:05] much effort they put into this So,
+- [53:07] this is mostly for us guys. um so that
+- [53:10] we don't forget about one of our best
+- [53:12] friends birthdays and the AI agent also
+- [53:13] brainstorms the gift idea. If you want
+- [53:15] more ideas, just change the prompt to
+- [53:17] brainstorm five different ideas. One of
+- [53:19] them is most likely going to be
+- [53:20] relevant. And yeah, this AI agent,
+- [53:23] unlike the other ones, is for your
+- [53:24] personal life, but it will allow you to
+- [53:26] be one of the favorite guys in the group
+- [53:29] because you never miss a birthday and
+- [53:31] you always have a per ready when one of
+- [53:34] your boys birthday comes. So yeah, this
+- [53:36] AI agent is also something that everyone
+- [53:38] should have just in case. Even if you're
+- [53:39] great with birthdays, it never hurts to
+- [53:42] be reminded. So yeah, these were six AI
+- [53:44] agents that everyone should have. And
+- [53:48] again, the beauty of NA10 is that once
+- [53:50] you build your first agent, you you
+- [53:52] defeat most of the friction. It's it can
+- [53:54] be intimidating at the start, but if you
+- [53:56] really get started, if you really push
+- [53:57] through to the first one or two agents,
+- [54:00] the rest is really easy because you you
+- [54:03] do the same right? Schedule
+- [54:04] trigger. We've learned that Google
+- [54:06] Sheet, we've learned that AI agent, we
+- [54:08] know that. So like most of the notes
+- [54:10] you're already familiar with. So really,
+- [54:12] I would encourage you to sit down, block
+- [54:14] out 60 to 90 minutes in your calendar
+- [54:16] and build your first NAT agent. This is
+- [54:19] a beyond valuable skill to have in the
+- [54:21] next few years. It will future proof
+- [54:23] yourself against being replaced because
+- [54:26] if you can in your company be the guy
+- [54:28] who finds a way to automate the process,
+- [54:31] trust me, no boss is going to ever fire
+- [54:33] you. So yeah, this has been six AI
+- [54:35] agents that everybody needs. And again,
+- [54:37] once you build agents, you need to host
+- [54:39] them somewhere. And the best option is
+- [54:41] by far Hostinger is the simplest way.
+- [54:43] It's like literally one click. You don't
+- [54:46] have to know anything about VPS
+- [54:47] management. None of that. They make it
+- [54:48] so easy to run self-hosted NA10 on a
+- [54:52] VPS. And it's also one of the most
+- [54:54] affordable options out there. So once
+- [54:56] again, thank you Hostinger for
+- [54:57] sponsoring the video. Make sure to use
+- [54:58] code David for another 10% off when
+- [55:01] going with the annual or Twitter plan.
+- [55:03] And with that being said, thank you guys
+- [55:05] for watching and have a wonderful,
+- [55:06] productive week.

@@ -1,0 +1,751 @@
+---
+title: "I was finally able to build an AI automation to handle a project for me that I've been trying to build for a few months"
+video_id: "KRjJd-F49Y0"
+video_url: "https://www.youtube.com/watch?v=KRjJd-F49Y0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Tutorial", "Development"]
+summary: |
+  I was finally able to build an AI automation to handle a project for me that I've been trying to build for a few months now and I used Make AI agent for it
+  So, I partnered with Make for this video to show you exactly how it works
+  Now, I'll give you a quick background on this and I think a lot of people could benefit from this type of automation
+key_points:
+  - "able to build an AI automation to handle a project for me that I've been trying to build for a few months now and I used Make AI agent for it"
+  - "thing it's going to ask you is going to ask you to create a connection"
+  - "here that comes directly from OpenAI"
+  - "from the company that runs the AI model"
+  - "from OpenAI, it's available to everyone"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:30:01+09:00"
+---
+
+# Transcript: KRjJd-F49Y0
+
+- URL: https://www.youtube.com/watch?v=KRjJd-F49Y0
+- Retrieved at: 2025-12-30T10:30:01+09:00
+
+## Text
+
+- [00:00] I was finally able to build an AI
+- [00:02] automation to handle a project for me
+- [00:04] that I've been trying to build for a few
+- [00:05] months now and I used Make AI agent for
+- [00:08] it. So, I partnered with Make for this
+- [00:10] video to show you exactly how it works.
+- [00:12] Now, I'll give you a quick background on
+- [00:13] this and I think a lot of people could
+- [00:15] benefit from this type of automation.
+- [00:17] I've been using ton of different tools
+- [00:19] in the last couple years like custom
+- [00:21] GPTs inside of chat GPT to repurpose my
+- [00:24] YouTube videos and it's never really
+- [00:26] clicked for me because it still requires
+- [00:29] a lot of manual steps in the automation
+- [00:31] process, right? I still have to click
+- [00:33] things, copy and paste things and it's
+- [00:35] something that I continuously keep
+- [00:37] forgetting to do in my day-to-day work.
+- [00:40] Now, with MakeAI agents, I was able to
+- [00:42] build a real AI automation that handles
+- [00:45] every step for me. So, if you haven't
+- [00:47] used Make before or if you're new to it,
+- [00:49] Make is a visual platform where you
+- [00:52] could design, build, and automate just
+- [00:54] about anything. Now, the new upgrade,
+- [00:56] Make AI agents, they let you build
+- [00:58] customizable AIdriven assistants that
+- [01:01] could decide, adapt in real time, and
+- [01:04] integrate with your workflows, too. And
+- [01:06] make could connect just about anything.
+- [01:08] Over 2,000 different apps across 30,000
+- [01:10] different actions. So, pretty much
+- [01:12] whatever you want to build, this could
+- [01:13] probably connect it. And I've set myself
+- [01:15] a brand new account here so you could
+- [01:17] follow along. Any type of prompt that
+- [01:19] I'm going to use. I'm going to include
+- [01:20] in the description. And before we jump
+- [01:22] in, make also gave me a free month of
+- [01:25] the pro plan with 10,000 operations
+- [01:27] included that I could give to you. So
+- [01:29] I'll put a link in the description to
+- [01:31] that plan so you could follow along with
+- [01:33] the rest of the video. And I think this
+- [01:35] is something you'll want to build for
+- [01:36] yourself, too. So here inside of my make
+- [01:38] account on the left side, you'll see
+- [01:40] something called AI agents. So click on
+- [01:42] this and we'll go ahead and click create
+- [01:45] an agent to create our very first one.
+- [01:47] Now the first thing it's going to ask
+- [01:48] you is going to ask you to create a
+- [01:50] connection. Now this connection is
+- [01:52] simply asking what AI model you want to
+- [01:54] use. That's the nice thing with this. It
+- [01:56] gives you ton of different option. Now
+- [01:58] I'm going to choose open AI. Make has
+- [01:59] their own AI provider. You could use
+- [02:01] Anthropic Gemini. Pretty much any AI
+- [02:03] tool you want is under this dropdown.
+- [02:06] But OpenAI the creators of chat GPT
+- [02:08] because I'm going to use a chat GPT
+- [02:09] model. I'm going to choose that one.
+- [02:11] Then it's going to ask for my API key
+- [02:13] here that comes directly from OpenAI. So
+- [02:16] if you're totally new to these type of
+- [02:18] AI automations, every time you want to
+- [02:20] create some kind of automation, you will
+- [02:22] need to get an API key from the company
+- [02:25] that runs the AI model. In this case,
+- [02:27] I'm going to use a version of chat GPT.
+- [02:30] So that comes from OpenAI. Let me show
+- [02:32] you exactly how to get that right now.
+- [02:34] If you don't know how to get an API key
+- [02:36] from OpenAI, it's available to everyone.
+- [02:38] So, if you go to a website called
+- [02:40] platform.openai.com,
+- [02:42] it's going to bring you to this page and
+- [02:44] you want to go ahead and log in or
+- [02:46] create yourself a free account. Now,
+- [02:48] this is totally separate from your
+- [02:50] chatgpt.com account. This is to get an
+- [02:53] API key so we can build those kind of
+- [02:55] automations. I'm going to go to the
+- [02:56] dashboard here and on the left side,
+- [02:58] you'll see API keys over here. Now, I'm
+- [03:01] going to go ahead and create a new
+- [03:02] secret key. You could name it here and
+- [03:05] create it. And most likely if it's your
+- [03:06] first time creating one, it's going to
+- [03:08] ask you for a credit card and you'll pay
+- [03:10] open AAI on the OpenAI platform based on
+- [03:12] API usage. And back on make it will ask
+- [03:15] you to go to the OpenAI billing page
+- [03:17] here. So it will link directly there
+- [03:18] too. I'll save it now. Next, I'm going
+- [03:20] to name this agent script repurposing
+- [03:23] agent. And then I'm going to choose an
+- [03:24] AI model. I actually like chat GPT 5
+- [03:27] mini. Now, this is a good balance in my
+- [03:29] opinion between a really smart AI model,
+- [03:32] a fast AI model, and a very affordable
+- [03:35] AI model from all the ones available.
+- [03:37] Then you have your system prompt right
+- [03:39] over here. So, system prompt is what the
+- [03:42] agent needs to do the task that you're
+- [03:44] going to give it. You want to describe
+- [03:46] exactly what you want this agent to do.
+- [03:48] Now, I'm going to paste mine here. Then
+- [03:50] I'll walk you kind of briefly through
+- [03:51] it, but I'll copy it in the description
+- [03:53] below the video so you could kind of
+- [03:55] copy and paste it for your own and go
+- [03:57] ahead and edit it as you need to. Okay,
+- [03:59] it brings us to this page here and I'll
+- [04:01] walk you through the different settings.
+- [04:02] This is where you set up your MakeAI
+- [04:04] agent. Here you could click on improve
+- [04:06] which I found really beneficial. It
+- [04:08] improves your system prompt especially
+- [04:10] if you're new to system prompting. But
+- [04:12] to walk you through the basics of the
+- [04:14] system prompt, I tell it what it is. So
+- [04:17] you are a script repurposing agent. goal
+- [04:19] is to repurpose YouTube scripts that I
+- [04:22] write in Google Docs into two new
+- [04:25] formats. So, the point of my agent, and
+- [04:27] you could do this with a blog post, for
+- [04:29] example, any type of document that you
+- [04:31] have inside of Google Docs. I actually
+- [04:33] don't have these videos on YouTube. I'm
+- [04:35] not pulling them from YouTube. I pull
+- [04:37] them directly after I write the script
+- [04:39] in Google Docs. I'll show you how this
+- [04:41] all works. Then what it does is first it
+- [04:44] creates a 60-second YouTube short script
+- [04:46] with a strong hook, three quick steps,
+- [04:49] and one clear CTA. So it writes a new
+- [04:52] script for me that's ready to read. I'm
+- [04:54] going to show you what it does after
+- [04:55] that, too. It writes a LinkedIn post for
+- [04:57] me, and then I told it exactly what to
+- [05:00] do with those things. I told it when
+- [05:02] it's done writing that YouTube short
+- [05:04] script to ping me on Slack to tell me
+- [05:07] it's ready. So I go ahead and record it
+- [05:08] like this. I like to create original
+- [05:10] YouTube shorts and then on top of that
+- [05:12] it will also post the LinkedIn post for
+- [05:16] me. It will write one create a document
+- [05:18] around it and post it for me and I could
+- [05:21] build on top of it even more. But right
+- [05:23] now that is doing two things that I was
+- [05:25] always leaving on the table that I just
+- [05:27] didn't get the time to do. They were not
+- [05:29] fully automated that required copy and
+- [05:31] pasting. This does it for me
+- [05:32] automatically. Then you have context. So
+- [05:35] this section is also a very important
+- [05:37] section. background information,
+- [05:39] additional context for your agent. So,
+- [05:42] what I like to do here is actually tell
+- [05:44] it the tone and the style of the
+- [05:46] writing, but I want to show you how to
+- [05:48] create a context document from scratch
+- [05:50] in this step because this is something
+- [05:52] you could use across all your AI
+- [05:54] automations. So, because this is a
+- [05:56] repurposing agent, I needed to have a
+- [05:59] really clear understanding on how I like
+- [06:00] to talk, my tone, my reading level for
+- [06:03] the content that I write. So, what I'm
+- [06:05] going to do is inside of chat GPT here,
+- [06:07] I'm going to give it a simple prompt
+- [06:08] like this. Analyze the following text
+- [06:10] for writing style, the tone, the reading
+- [06:13] level, and create a document for me
+- [06:15] using canvas. This is a tool that chat
+- [06:17] GPT has just to make it easier to read
+- [06:19] and download that I can give an AI agent
+- [06:21] to mimic my writing style. And then I'm
+- [06:24] just going to paste something that I got
+- [06:27] from a YouTube transcript. So, I just
+- [06:29] went to YouTube on one of my videos and
+- [06:30] I copied the transcript. You could do
+- [06:32] this with anyone's writing or your own.
+- [06:34] And I recommend if you wrote anything,
+- [06:36] as long as there is enough like a
+- [06:37] paragraph or two, it will have enough of
+- [06:39] a sample here to analyze. And you can
+- [06:41] see writing style, conversational, and
+- [06:44] really, really detailed breakdown, tone,
+- [06:47] reading level, whatever else you want to
+- [06:49] analyze with your writing style, I
+- [06:50] recommend you do that here. Okay. Now,
+- [06:52] when it's done, I'm just going to press
+- [06:54] download right on top. And you could
+- [06:55] download any of these formats. Now,
+- [06:57] markdowns are fine, too, but usually a
+- [07:00] Word doc is fine. Now, back on make, I'm
+- [07:02] going to add this context. And again,
+- [07:03] you could do PDFs, text files, any type
+- [07:05] of file. Just analyze your own writing
+- [07:08] style. I'm going to upload mine. And
+- [07:09] then I'm going to add a description
+- [07:10] because you typically want to have a
+- [07:12] really solid description with pretty
+- [07:14] much every step of building an AI gen so
+- [07:16] the agent knows everything that is going
+- [07:18] on with this. So the context of this is
+- [07:20] this is my writing style. Use it anytime
+- [07:23] you repurpose any content. So I'm going
+- [07:25] to go ahead and save that. Now you have
+- [07:27] two more things here as you build your
+- [07:28] agent. So, so far we had our AI model
+- [07:31] that we picked in the very beginning. We
+- [07:33] have the system prompt. Those are the
+- [07:35] two most important things to get you
+- [07:36] going. Then the context is optional, but
+- [07:39] I like to give it something like I just
+- [07:40] showed you. Then you have tools. So,
+- [07:43] what makes an agent really powerful is
+- [07:45] access to other tools. And there's a
+- [07:47] couple of things you'll see over here.
+- [07:49] First, you have MCPs. So, MCPS are a
+- [07:51] connector. They could connect to pretty
+- [07:53] much any type of an external server. So
+- [07:56] that's one way to connect to just about
+- [07:58] everything on the internet. But in this
+- [08:01] case, we're going to use tools, which
+- [08:02] are also things that could connect make
+- [08:05] to other services. So with tools, you
+- [08:08] have two options. I'm going to press add
+- [08:09] here. You could add to modules or
+- [08:12] scenarios. Now, this is really
+- [08:14] interesting because modules could be
+- [08:16] simple individual actions. And I have an
+- [08:18] example for you to see, but if you want
+- [08:20] one action to be done, a module is going
+- [08:22] to be able to do that. connect to one
+- [08:24] tool and one action. Scenarios are
+- [08:26] entire workflows that you could connect
+- [08:28] to and you could give the agent the
+- [08:30] power of that entire scenario, which is
+- [08:33] a really powerful option. And you could
+- [08:35] pick and choose multiple module
+- [08:37] scenarios this agent can have access to.
+- [08:40] And once the agent does have that
+- [08:42] access, it will be able to make those
+- [08:43] decisions and complete those tasks for
+- [08:46] you using those tools. Okay, let's go
+- [08:48] ahead and start here with a couple of
+- [08:49] tools that we need. The first one I'm
+- [08:51] going to create is going to be a
+- [08:52] scenario. So, it's going to be a
+- [08:53] multi-step tool. Now, you could go ahead
+- [08:55] and create it here, right? Since we
+- [08:57] don't have one, it lets you create it
+- [08:58] right over here. I typically actually
+- [09:00] like to go to that page, scenarios page
+- [09:04] right here. And you'll see all the
+- [09:06] different scenarios you've built in the
+- [09:07] past because you could use make just
+- [09:10] with scenarios without the AI agents.
+- [09:12] Obviously, when you give access to the
+- [09:15] scenarios to the agent, it gets a lot
+- [09:17] more powerful and it could start making
+- [09:18] decision and do things a lot more than
+- [09:21] just using the regular scenarios here.
+- [09:23] But I'm going to go ahead and create one
+- [09:25] here right on top and I'm going to go
+- [09:26] ahead and build one from scratch. They
+- [09:28] also have ton of different templates,
+- [09:30] but in this case, I know exactly what I
+- [09:32] want to happen. This is what the page
+- [09:33] looks like. They got ton of different
+- [09:35] tutorials if you haven't built these
+- [09:36] before. Now the very first thing I like
+- [09:38] to do is I just like to come up here and
+- [09:40] I like to name the scenario so I don't
+- [09:42] forget a lot of times if I start
+- [09:44] creating it I forget to name it later
+- [09:46] and with the agent the instruction you
+- [09:48] give it a lot of times you could call
+- [09:49] this by name this type of a tool or a
+- [09:52] scenario it will go and fetch that and
+- [09:54] then before I press the plus sign with
+- [09:56] each of these down here you have an
+- [09:59] input and an output I like to set this
+- [10:01] right up front also and then I'll show
+- [10:03] you exactly what's going to happen when
+- [10:05] I press the plus sign But with the
+- [10:07] input, let me add one here to explain
+- [10:09] what's happening. I'm basically going to
+- [10:11] tell it what I'm expecting to happen as
+- [10:13] the input and what the output should be.
+- [10:15] Now, I call a script text from a file
+- [10:17] ID. You could name this whatever you
+- [10:19] want, but it's best to have some kind of
+- [10:21] a naming system that is easy for you to
+- [10:23] remember. So, I have one here that I've
+- [10:25] created. Then, I describe what's going
+- [10:27] to happen. File ID from a Skillap
+- [10:29] YouTube video, and it will get the text
+- [10:31] document from that. It's in text format.
+- [10:33] I leave default value to empty. And I'll
+- [10:36] set this to be required here. So that's
+- [10:38] it for input. And then I have an output
+- [10:41] also. So I could add an output. What
+- [10:43] happens at the end? And in this case,
+- [10:45] it's going to get the script text, which
+- [10:48] again, the description full YouTube text
+- [10:50] from that doc. So it's going to be able
+- [10:53] to with the file ID find a new document
+- [10:56] and then extract the text and give the
+- [10:58] agent that text. That's what this
+- [11:00] workflow is going to do. And if you set
+- [11:02] it to multi-line, it could write
+- [11:04] multi-line. So, I'll set it to that.
+- [11:05] I'll press save. Okay. So, now I have an
+- [11:07] input and output ready. Now, I'm going
+- [11:10] to press the plus sign and I'm going to
+- [11:11] choose Google Docs, which again, there's
+- [11:14] thousands of apps you could connect to
+- [11:16] this way. Google Docs is obviously one
+- [11:18] of them. And you have ton of different
+- [11:20] actions within each document. In this
+- [11:22] case, I wanted to get content from a
+- [11:24] document. It's going to see when a new
+- [11:26] document appears, and it'll get the
+- [11:28] content from that. Then, it's going to
+- [11:30] ask you to connect. Obviously, it's my
+- [11:31] first time using it on this account. So,
+- [11:33] you have to give a connection permission
+- [11:35] to Google. So, I'll click on this and
+- [11:38] set that up. Very simple. Okay. I
+- [11:40] checked on all the requests. And by the
+- [11:42] way, under the connections, you could
+- [11:44] add new connections there anytime or
+- [11:45] remove any existing one. Always
+- [11:47] available there. I'm going to do by
+- [11:49] mapping and I'm going to click on
+- [11:51] document ID. Now, if you go to this tab
+- [11:54] right here at the end, you'll see your
+- [11:56] custom system variables. That's your
+- [11:58] input that I selected myself. That's why
+- [12:01] I set that up in the very beginning. It
+- [12:03] always appears here. So, I could just
+- [12:05] select it here. Now, you could do it by
+- [12:07] dropdown, but I don't want to do it
+- [12:09] right here by dropdown because I wanted
+- [12:10] to map here to what's happening in my
+- [12:13] actual account. And the document ID came
+- [12:15] from that. I'm going to press save.
+- [12:17] Okay. Now, I'm going to turn this into a
+- [12:18] scenario right now. So, I'm going to
+- [12:20] press the plus sign here. And there is
+- [12:22] something called scenario. You could
+- [12:24] look for it. It's this one right here.
+- [12:25] I'm going to select it. And under action
+- [12:27] here, I want it to return an output. And
+- [12:30] if I click here, I want it to give me
+- [12:32] the script text, right? And I have all
+- [12:35] these different options available on
+- [12:37] what it can do. So the one I want over
+- [12:40] here is called text content. So I could
+- [12:43] click on this right here. So this is
+- [12:45] going to get the script text. I'm going
+- [12:46] to save that. Okay. I'll go ahead and
+- [12:48] save this here. Now, with this type of
+- [12:50] scenario, it's also asking you to
+- [12:52] actually change it on demand because
+- [12:53] we're pulling something from Google
+- [12:55] Drive here. So, I'm going to update that
+- [12:57] schedule, and I'm going to go ahead and
+- [12:59] turn this on demand when I'm ready. But
+- [13:02] right now, I'm going to go ahead and
+- [13:03] save it. So, we could actually do a
+- [13:04] quick test. So, I'm just going to run it
+- [13:06] once to run a test. And to run a test,
+- [13:08] it will for input ask me for the file
+- [13:11] ID. So, I'll just show you. If you go to
+- [13:14] a Google Doc, you'll see your file ID
+- [13:17] here right after the D. So this right
+- [13:19] here is the file ID before edit. So it's
+- [13:23] between d slash and edit. Again, that's
+- [13:26] going to happen automatically. I'm just
+- [13:28] doing a quick test here to make sure
+- [13:30] it's working. So I'm going to input that
+- [13:31] and press okay. And it's going to run.
+- [13:34] And it's going to show you that it's
+- [13:35] working. So you'll see one action was
+- [13:37] taken here. One action was taken here.
+- [13:40] And here under the log section on the
+- [13:42] bottom, I could see exactly what
+- [13:44] happened. As long as these turn green.
+- [13:47] Okay. And you get that each action was
+- [13:49] taken. This is working exactly like I
+- [13:52] want. Now I could go ahead and turn it
+- [13:54] on demand. Now I'm going to give my
+- [13:56] agent access to this. Right now this is
+- [13:58] just running as a scenario, but I'll
+- [14:00] show you what happens once the agent has
+- [14:02] access to it. Okay, let's go back to the
+- [14:03] AI agent tab here and we'll go back to
+- [14:06] our repurposing agent. So so far I just
+- [14:09] created that new scenario. So I'm going
+- [14:11] to press add and I'm going to add it.
+- [14:13] Now, when you add it, it will show up
+- [14:14] under the dropdown the way I made it.
+- [14:16] So, I could click on it right over here,
+- [14:18] and I could give it a description.
+- [14:20] Remember, with AI agents, always
+- [14:22] describe what this is supposed to do.
+- [14:25] And this tool takes the file ID or
+- [14:27] document ID that it finds in a new
+- [14:29] script scenario and uses it to pull the
+- [14:32] full script text. I'm going to go ahead
+- [14:34] and add this one. Now, this agent has
+- [14:37] the AI model in the background, has the
+- [14:40] system instructions, has my context with
+- [14:42] the tone, and has this one specific
+- [14:44] tool. Now, this is already going to go
+- [14:46] to work, but I want to build the whole
+- [14:48] workflow. So, we're going to add a
+- [14:49] couple more tools here. And this time,
+- [14:51] we'll build some simpler ones. We'll
+- [14:53] just do the modules. With the modules,
+- [14:55] it's a one-off action, so they're really
+- [14:57] easy to make. And we'll go ahead and
+- [14:59] just build a module tool from this page.
+- [15:01] Very straightforward with these. The
+- [15:03] first one I'm going to create here is
+- [15:05] going to be a Google Docs, but this time
+- [15:07] it's going to be able to write a new
+- [15:09] one. Right, we're repurposing content.
+- [15:11] So, I'm going to choose that one. And
+- [15:12] this is going to be able to create a new
+- [15:14] document. So, a different action here.
+- [15:16] And my description is going to be create
+- [15:18] a document for shorts and LinkedIn post
+- [15:21] text. It's going to be the same
+- [15:22] document, but it's going to break it up.
+- [15:24] And I explained it in the system
+- [15:26] instruction to kind of break it up into
+- [15:28] two different sections. It already knows
+- [15:30] my connection because we already
+- [15:31] connected to our Google accounts. For
+- [15:33] the name and the context, I'm going to
+- [15:35] ask the AI to decide for me here. And
+- [15:38] then it's going to save it somewhere.
+- [15:39] So, I don't want to save in the same
+- [15:41] folder because it's going to create kind
+- [15:42] of a loop. It's going to always see a
+- [15:44] new document being created and try to
+- [15:46] repurpose that. So, I'm going to create
+- [15:48] this in a new folder that I'm going to
+- [15:50] have which I already created called AI
+- [15:52] created files. So, it will move into
+- [15:54] that folder instead of the folder my
+- [15:56] scripts are living in. And that's it for
+- [15:58] creating new tools, these module tools,
+- [16:00] because they're just one action. They
+- [16:02] don't need a scenario like the one I
+- [16:04] just created here. They just literally
+- [16:06] do one thing, which is go create a new
+- [16:09] document. Now, the next one, I'm
+- [16:11] actually going to have it post on
+- [16:12] LinkedIn for me. So, this is really
+- [16:14] handy. We'll create a new one. This one
+- [16:17] is going to be a LinkedIn and create a
+- [16:19] user text post. In this case, I want to
+- [16:22] actually post it to my company page. So,
+- [16:24] create a company text post. And the name
+- [16:27] of it is I'm going to put right here.
+- [16:29] LinkedIn creates an organizational text
+- [16:31] post. And in this description, because
+- [16:33] I'm creating a doc that is multiple
+- [16:36] different things for multiple platforms,
+- [16:38] YouTube short being one of them. This
+- [16:40] says share only the LinkedIn specific
+- [16:42] repurposed content from the Google doc.
+- [16:44] I'm going to go ahead and connect to my
+- [16:46] LinkedIn account here because this is a
+- [16:48] new connection. I've only connected to
+- [16:49] OpenAI and Google so far. And I chose my
+- [16:52] company page and I let AI decide the
+- [16:54] content here. And we'll add one more
+- [16:56] here. Okay. Now, this is going to notify
+- [16:58] me on Slack when a new YouTube short is
+- [17:00] ready, which again, this agent takes
+- [17:01] care of. It takes my long form, makes a
+- [17:04] short form. Now, this is a lot more
+- [17:06] handy lately because we have other
+- [17:07] researchers that are helping me with the
+- [17:09] script writing process. So, maybe that
+- [17:12] way as soon as it's ready and they put
+- [17:14] it in my folder, this does the
+- [17:16] repurposing. It does the posting on
+- [17:18] LinkedIn and it's going to let me know
+- [17:20] when a YouTube short is ready. So, I'll
+- [17:22] create a new one. And this time we'll
+- [17:24] choose Slack. You could send this to a
+- [17:26] group in Slack, by the way, too. Or just
+- [17:28] this is going to ping me directly.
+- [17:30] Direct message. Create a send a message
+- [17:32] on Slack. Again, I'll connect to Slack
+- [17:34] here, too. And it's going to be a Slack
+- [17:36] user. And this is going to be a direct
+- [17:38] message sent to me on Slack on the Slack
+- [17:40] channel I give it access to. And I'm
+- [17:42] going to let AI decide the text here.
+- [17:44] I'm going to let everything be decided
+- [17:46] by AI. And I'll add. Okay, that's pretty
+- [17:48] much it. You could build this a lot
+- [17:50] more. You could post to a lot more
+- [17:52] platforms, repurpose this in a lot of
+- [17:55] different ways, but just to show you so
+- [17:57] far, this is going to take a YouTube
+- [17:59] script that gets created in Google Doc
+- [18:01] in a specific folder. Then it's going to
+- [18:03] actually repurpose it as a LinkedIn post
+- [18:05] and a YouTube shorts script. Then it's
+- [18:08] going to post it on LinkedIn and it's
+- [18:10] going to notify me on Slack that this is
+- [18:13] ready for me to now read a short version
+- [18:16] of that script, too. Okay. So now you
+- [18:18] could go ahead and do some testing here
+- [18:20] if you want on the right side, but we
+- [18:22] still need to create one more scenario
+- [18:24] here. Okay. So let me go ahead and
+- [18:26] create it and explain what this is going
+- [18:27] to do. Now this one is actually not a
+- [18:29] tool I'm making. I'm just making an
+- [18:31] automation here for the agent to run
+- [18:33] continuously. So I'm just going to call
+- [18:35] this right on top run agent. That's the
+- [18:38] job of this one. And again, if you build
+- [18:40] more agents, name them accordingly
+- [18:42] because you may want to have multiple
+- [18:44] different agents doing multiple
+- [18:46] different things. Now, this one actually
+- [18:48] doesn't need input and output because
+- [18:50] we're not giving it to the agent. That
+- [18:52] was more specific because we were giving
+- [18:53] something to the agent at the end. This
+- [18:56] time, we're not doing that. So, I just
+- [18:57] need to start here with a Google Drive
+- [19:00] connection. Let me show you why. In
+- [19:02] Google Drive, I wanted to actually find
+- [19:04] out every time there is a new file. So,
+- [19:07] they have an option for that. You could
+- [19:09] do it with Google Docs, too, but I like
+- [19:10] to use Google Drive for this. And only
+- [19:13] because I wanted to specifically look
+- [19:14] inside of that folder. So this says
+- [19:16] trigger when a file is created inside of
+- [19:18] a folder. So I'll choose that one. Now I
+- [19:21] connected to Google Docs, but this is
+- [19:22] going to ask me to connect to Google one
+- [19:24] more time for Google Drive access. Now
+- [19:26] this time I chose a very specific folder
+- [19:28] here with the drop down. So I don't need
+- [19:30] AI to decide anything here. I'm going to
+- [19:32] limit it to just one so you could always
+- [19:34] see the latest one. And I'll go ahead
+- [19:36] and save that. And then you could tell
+- [19:37] it from now on or on a specific date.
+- [19:40] Now, the next thing is I'm going to
+- [19:41] press the plus sign and I'm going to
+- [19:42] choose make AI agent to then run that
+- [19:45] agent. Okay, this option right here. And
+- [19:47] if I click here under the different
+- [19:49] agents that I have, I have one that I
+- [19:51] created. So, I'll choose that agent
+- [19:53] here. This is how you set up a schedule
+- [19:55] to run the agent. It could be by itself
+- [19:57] also. It doesn't have to be from a
+- [19:59] trigger like this one. You could just
+- [20:00] have the AI agent running as your first
+- [20:03] action here, your first trigger. So, you
+- [20:05] could see I have all the different
+- [20:06] tools, scenarios, and modules. All those
+- [20:09] are there. I could always add more here.
+- [20:11] You'll also see any MCP if you connected
+- [20:13] to external servers that way. Your
+- [20:15] context is here. And down here, I'm
+- [20:18] going to go ahead and add a message. And
+- [20:20] this is going to be my starter message
+- [20:21] as if I was talking to a regular
+- [20:23] chatbot. This is the file ID for my new
+- [20:26] script in Google Drive. Repurpose the
+- [20:28] content. That's what I'm telling the
+- [20:30] agent to do as a user. And here I'm
+- [20:34] going to choose the file ID. So, that's
+- [20:36] going to add it here organically every
+- [20:38] time it gets created here. And that's
+- [20:39] it. I'm going to go and save it from
+- [20:41] there. Okay. Now that it's saved, I'm
+- [20:42] going to go ahead and turn this on. Now,
+- [20:44] this doesn't actually have to run every
+- [20:46] 15 minutes, right? Because I don't get a
+- [20:48] YouTube script every 15 minutes. I get
+- [20:50] it once a day. So, I could do this every
+- [20:53] day at a specific time, right? Depending
+- [20:55] on what our schedule looks like. So,
+- [20:57] this should be fine right now. I'm going
+- [20:59] to press save. So, as soon as a script
+- [21:01] is ready, it'll know that. And usually
+- [21:03] by 3:00, we have one ready. So it'll run
+- [21:06] exactly then. Now just for the sake of
+- [21:08] testing, I'm going to just change this
+- [21:09] to run right now so I could show you the
+- [21:12] output that I'm getting. Okay. So it
+- [21:14] went and checked for Google Drive. So
+- [21:16] one action ran there and it knows that I
+- [21:18] created a new document. I actually just
+- [21:20] copied the script here and it created it
+- [21:23] in the same folder as I have all my
+- [21:25] scripts. So now the agent is going to
+- [21:27] work and after a few seconds it's done.
+- [21:29] So let's check its work. Let's go to
+- [21:31] Google Docs first. Okay. So, here's the
+- [21:33] document it created for me. It created a
+- [21:35] YouTube short. Now, with YouTube shorts,
+- [21:37] I actually like to break it down this
+- [21:39] way into hook steps. That's where the
+- [21:41] custom instruction, that system prompt
+- [21:43] that I gave it comes into play. So,
+- [21:45] that's why it's formatted this way. The
+- [21:48] LinkedIn post is not formatted that way
+- [21:50] because this is going to go ahead and
+- [21:51] post it. Now, I might want more line
+- [21:53] breaks, maybe a couple emojis thrown in
+- [21:55] there, but that's where again my system
+- [21:57] prompt comes in. context is following
+- [22:00] how my conversational style is and it's
+- [22:03] writing in that tone. And again, if you
+- [22:05] build this out even further, you could
+- [22:07] have one for X, for example, for
+- [22:08] Facebook. You could just build this out
+- [22:10] for other type of content you want to
+- [22:12] post either manually or automatically.
+- [22:15] Now, on LinkedIn, here's my actual
+- [22:17] profile, my business profile. One minute
+- [22:19] ago, I automated my YouTube script
+- [22:21] repurposing with make AI agent in
+- [22:23] minutes. And this came exactly from the
+- [22:25] script for this exact video. So I could
+- [22:27] show you what the output looks like
+- [22:29] here. And I think it's pretty good. And
+- [22:30] if I go to my Slack over here, there it
+- [22:32] is. My YouTube short script. I automated
+- [22:35] YouTube shorts with make AI agent.
+- [22:36] That's the script that got repurposed.
+- [22:38] This link should take me directly to
+- [22:40] this where I could go ahead and read
+- [22:42] that. And for the LinkedIn section too,
+- [22:44] it showed me exactly what's been posted
+- [22:46] on LinkedIn. So, it's nice to get a
+- [22:48] Slack message just to check what is
+- [22:50] posting. If I want to make some
+- [22:51] alteration or fix my system prompt, the
+- [22:54] whole point is just run this and keep
+- [22:56] improving on it till you have something
+- [22:58] you're really happy with and your
+- [22:59] automation is running according to plan.
+- [23:01] Now, as you build more automations and
+- [23:03] more of these AI agents, it gets easy to
+- [23:05] lose track of where everything connects.
+- [23:08] So, make has introduced a new update
+- [23:10] called Make Grid that fixes a lot of
+- [23:12] that for you. Now you could access grid
+- [23:14] on the left section here on the sidebar.
+- [23:17] You could also look at it on these
+- [23:19] individual scenarios here. So I'll show
+- [23:21] you this one right here. So you could
+- [23:23] see a nice visual presentation here and
+- [23:25] you could move around your entire
+- [23:27] organization. So again, as this gets
+- [23:29] more complicated, it's nice to zoom out
+- [23:31] to see big picture and zoom in. And you
+- [23:33] could select by layer. So for example, I
+- [23:35] want to see how my data is being
+- [23:37] transferred. It's going to show me that.
+- [23:39] If I want to see how my credits are
+- [23:41] being used, I could see that by credits.
+- [23:44] Again, this is a brand new account, but
+- [23:45] you could see how powerful this could
+- [23:47] become as you have more data, more
+- [23:49] tools, more agent. You could get a
+- [23:51] really nice view to see how they talk to
+- [23:53] each other here through all kinds of
+- [23:55] different ways. And I think if anything
+- [23:57] breaks, this is a nice place to come
+- [23:58] back to to see how everything is
+- [24:00] working. And this makes building AI
+- [24:02] agents a lot less of a mystery, right?
+- [24:04] You have a lot more control here and you
+- [24:06] could see exactly what's going on. And
+- [24:07] when you are done testing everything,
+- [24:09] this is again where you could run your
+- [24:11] agent and turn it on and it will run
+- [24:14] based on the schedule that you set here.
+- [24:16] Mine was daily. You could set it as
+- [24:17] often as you want here depending on your
+- [24:20] use case. So hopefully that example of
+- [24:22] that make AI agent showed you a few
+- [24:24] different ways you could create AI
+- [24:25] agents for yourself to automate all
+- [24:27] kinds of different things in your
+- [24:28] business. Again, make sure to grab the
+- [24:31] link in the description and take
+- [24:32] advantage of that free month of the pro
+- [24:34] plan and start building your AI agent
+- [24:36] today. Thank you so much for watching
+- [24:38] this video.

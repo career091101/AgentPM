@@ -1,0 +1,794 @@
+---
+title: "Music Okay, we are at hack day 2025 in San Francisco and we're about to do a workshop on building pr..."
+video_id: "hwWGx91hwY0"
+video_url: "https://www.youtube.com/watch?v=hwWGx91hwY0"
+speaker: "Dewan"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Okay, we are at hack day 2025 in San
+  Francisco and we're about to do a
+  workshop on building production ready AI
+key_points:
+  - "Okay, we are at hack day 2025 in San"
+  - "Francisco and we're about to do a"
+  - "agents with strands agents. In this"
+  - "how easy it is to use different model"
+  - "into some code so you can actually see"
+  - "how this works. Now, my name is Dewan"
+  - "AWS. Myself, Lore, and Ellie are all"
+  - "Now, I'm going to start this off setting"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: hwWGx91hwY0
+
+- URL: https://www.youtube.com/watch?v=hwWGx91hwY0
+- Retrieved at: 2025-12-30T15:51:45+09:00
+
+## Text
+
+- [00:01] [Music]
+- [00:07] Okay, we are at hack day 2025 in San
+- [00:11] Francisco and we're about to do a
+- [00:13] workshop on building production ready AI
+- [00:15] agents with strands agents. In this
+- [00:17] workshop, we're going to do three
+- [00:19] things. First, we're going to build our
+- [00:21] first agent with Strand agents. Then
+- [00:23] from there, we're going to talk about
+- [00:24] how easy it is to use different model
+- [00:26] providers within Strand agents. And then
+- [00:28] after that, we're going to use custom
+- [00:30] tools, built-in tools, and MCP servers
+- [00:33] inside of Strand's agents.
+- [00:36] Okay, we're going to talk about building
+- [00:38] production ready AI agents for Strand
+- [00:40] agents. I'm going to do a quick
+- [00:42] presentation, then we're going to dive
+- [00:44] into some code so you can actually see
+- [00:45] how this works. Now, my name is Dewan
+- [00:48] Lightoot. I'm a developer advocate at
+- [00:50] AWS. Myself, Lore, and Ellie are all
+- [00:54] here to help you build production ready
+- [00:56] AI agents at this hackathon.
+- [00:59] Now, I'm going to start this off setting
+- [01:02] the tone on what is Agentic AI. At AWS,
+- [01:07] we define agentic AI as AI agents that
+- [01:10] are autonomous systems that can
+- [01:12] understand, plan, and execute actions to
+- [01:16] achieve specific goals. So if you
+- [01:18] communicate with a traditional LLM, it
+- [01:21] can't do things like look at the
+- [01:23] weather. It can't do things like look up
+- [01:25] the time. It doesn't have access to
+- [01:27] tools or its environment. It also is not
+- [01:31] going to remember your name when you
+- [01:33] open up a new session. So when we start
+- [01:35] talking about aensic AI, we're building
+- [01:38] those building blocks along with
+- [01:40] observability. So we actually can see
+- [01:42] how the agent think and allow the agents
+- [01:46] reasoning capabilities to make
+- [01:48] intelligent decisions on how to solve
+- [01:50] our problems.
+- [01:52] So when we talk about from strands,
+- [01:54] strands is a open-source SDK.
+- [01:58] So if you all want to contribute, you
+- [02:00] can contribute to strands agents. It
+- [02:02] supports MCP and A2A and you can get
+- [02:06] started in a few lines of code. So if
+- [02:08] you look at this example in three lines
+- [02:10] of code I am already invoking my first
+- [02:13] agent.
+- [02:17] Now if we go under the hood strands has
+- [02:20] something called an agentic loop.
+- [02:23] There's three things to make an agent
+- [02:25] within strands. You have a model
+- [02:28] you have tools and you have a prompt.
+- [02:32] We allow the reasoning capabilities of a
+- [02:35] model to to really shine. The models are
+- [02:38] getting smarter. They're getting more
+- [02:40] intelligent. They are able to make
+- [02:42] decisions on when to make a tool call,
+- [02:45] on what tool call to make, how to create
+- [02:47] a plan, and how to achieve the actions
+- [02:51] in that plan.
+- [02:55] So if we look at strands I mentioned
+- [02:57] that it's model agnostic earlier meaning
+- [03:00] that it supports models in Amazon
+- [03:02] bedrock.
+- [03:04] It also supports models on anthropic
+- [03:07] models through light LLMA
+- [03:10] if you want to build and run agents
+- [03:12] locally as well as open AI and you have
+- [03:16] the ability to build your own custom
+- [03:18] providers within Strand's agents.
+- [03:22] There are many pre-built tools within
+- [03:24] strands. So things like look up the
+- [03:27] current date and time
+- [03:29] and many other HTTP request tools and
+- [03:33] many other tools are available in
+- [03:34] strands and I'll show you how you can
+- [03:36] take a look at those.
+- [03:40] Now it also supports MCP. For those of
+- [03:43] you that are building MCP servers today,
+- [03:46] I think you'll appreciate how simple it
+- [03:48] is to get started with MCP servers.
+- [03:54] Now, if you scan this QR code, you could
+- [03:56] take a look at some resources that will
+- [03:59] help you with today's building strands
+- [04:02] agents inside of the hackathon.
+- [04:05] [Applause]
+- [04:08] All right, I'm actually going to go to
+- [04:10] strands agents.com
+- [04:12] so you all can take a look on how we do
+- [04:14] this. So, let me stop my presentation.
+- [04:17] So, we'll stop that
+- [04:19] and we'll go to strandsagents.com. So,
+- [04:22] when we go to strandsagents.com, you're
+- [04:24] going to see a user guide. You'll see
+- [04:26] examples and API reference. If you go to
+- [04:29] the user guide, here's where you'll find
+- [04:31] out information about the different
+- [04:33] components within strings.
+- [04:38] So you'll find things about the agent,
+- [04:40] the agentic loop. It handles stress and
+- [04:42] manage session management, conversation
+- [04:45] management. As we know when we're
+- [04:47] communicating with our agents, the
+- [04:49] contact windows grow very large. So you
+- [04:53] may have to do some sliding window to
+- [04:55] remove some of the conversation from the
+- [04:58] conversation management as well as you
+- [05:01] may want to remove the all the um
+- [05:04] summarize the conversations within the
+- [05:06] the conversation manager. You can do
+- [05:09] that as well and you can create your own
+- [05:11] custom conversation managers within
+- [05:13] strings.
+- [05:15] Now, if you want to find out information
+- [05:17] about the tools, here are everything you
+- [05:20] need to know about the community
+- [05:21] built-in tools within strings. And we'll
+- [05:24] walk through some code here in a moment,
+- [05:26] but these are all the built-in tools
+- [05:28] that you can use right now with a single
+- [05:30] line of code.
+- [05:33] I mentioned the model providers
+- [05:36] and then information on how you can
+- [05:38] build some multi- aent solutions within
+- [05:41] Strand's agents.
+- [05:43] If you're looking for some ideas during
+- [05:45] the hackathon, there's some examples on
+- [05:47] strandsagents.com.
+- [05:49] And finally, if you really want to dive
+- [05:51] into the event loop and actually the
+- [05:55] components of strands agents, you can
+- [05:57] look at the API reference.
+- [06:02] Now, the QR code that you scan will take
+- [06:04] you to this CloudFront. On this
+- [06:06] CloudFront, there's a survey here. If
+- [06:09] you fill out this survey, you get $25 in
+- [06:11] AWS credits. So, be sure to fill out the
+- [06:14] survey, get your credits. We would love
+- [06:16] your feedback.
+- [06:18] There's also information on different
+- [06:20] resources for Strand agents. So, you if
+- [06:23] you want to know how to build with
+- [06:24] strands in a workshop, there's a
+- [06:27] workshop that you can use spin up in
+- [06:28] your own account. There's also sample
+- [06:31] code on GitHub for using strands, the
+- [06:34] strands agents documentation. and Ellie
+- [06:36] and Lore who's here today. They develop
+- [06:39] a course on getting started with your
+- [06:41] first strands agents. This course will
+- [06:44] help you really dive into building
+- [06:46] agents. Be sure to check that out.
+- [06:50] And then the slides that I presented,
+- [06:51] all of that is on the CloudFront. Now,
+- [06:54] let's dive into some code.
+- [07:01] Now, all of this code that I'm showing
+- [07:03] is in the sample. I'm going to go
+- [07:05] through this because some of you may not
+- [07:07] be familiar with strands. This code will
+- [07:10] have these Jupyter notebooks along with
+- [07:12] sample code where you can spin it up
+- [07:14] right in Python. But when you first get
+- [07:16] started with strands, we're going to
+- [07:18] load up our environmental variables,
+- [07:25] the pip install that you need. We're
+- [07:27] going to do strands agents and strands
+- [07:30] agents tools. And then we also have to
+- [07:32] install the strands agents
+- [07:35] models that we need. So strands agents
+- [07:43] and then we would have to do open AI and
+- [07:45] anthropic
+- [07:50] open AI but I already had these
+- [07:52] installed but it's just as simple as
+- [07:54] this to get started with different
+- [07:55] providers. Now in these examples I am
+- [07:58] going to use enthropy. So the first
+- [08:00] thing we'll do we'll import strands and
+- [08:02] then we'll use the enthropic model.
+- [08:05] In the enthropic model we'll pass in our
+- [08:07] API key the tokens that we need and then
+- [08:10] the temp we'll set the temperature and
+- [08:12] then we'll invoke our first agent.
+- [08:14] Notice here that we pass in the model
+- [08:17] and a system prop. And then we're going
+- [08:20] to invoke our first agent with something
+- [08:22] simple like tell me a joke. And so now
+- [08:24] we invoked our first agent and it tells
+- [08:27] us a joke. Great. Now, let's actually
+- [08:29] look at strands to check a few things
+- [08:32] out. First, the first thing we're going
+- [08:33] to do is look at the response. So, when
+- [08:36] we get a response from strands, there's
+- [08:38] a few things that you'll see. You'll see
+- [08:40] the message, you'll see the metrics,
+- [08:42] you'll see the state and the stop
+- [08:44] reason. If you are building agents or if
+- [08:47] you're build writing code leveraging
+- [08:49] LLMs and they're using tools, you're
+- [08:52] going to need to know the stop reason so
+- [08:54] you can figure out what actions to take.
+- [08:56] And so here if we look at the message,
+- [08:59] this is going to be the most recent
+- [09:01] message from our assistants and you can
+- [09:04] see that here. Now if we're trying to
+- [09:08] understand and evaluate our agents,
+- [09:13] strands has built-in metrics.
+- [09:16] And so now I can look at this event
+- [09:19] loop. And to make this work better, I'm
+- [09:21] going to import pretty print so we can
+- [09:24] actually see this better. And so now
+- [09:25] we'll do our response metrics
+- [09:32] and we'll pretty print that.
+- [09:38] And so as you can see, we can see inside
+- [09:41] of that event loop how many time it
+- [09:44] took, how many turns it took to get the
+- [09:48] agent to solve our question. And here
+- [09:52] you see it was one cycle. It shows the
+- [09:54] cycle duration, the tracing. If you're
+- [09:57] trying to really get that hotel data and
+- [10:01] really understand your agents to trace,
+- [10:04] you can see that here. And then you can
+- [10:06] see your accumulated token usage. So, if
+- [10:10] you're really trying to cost optimize,
+- [10:12] all of that is built within strings.
+- [10:18] Now the next example we're going to look
+- [10:20] at is we're going to create a simple
+- [10:22] agent that has a couple things. First
+- [10:25] we're going to give it the tool of
+- [10:28] calculator and then we'll create a
+- [10:30] custom weather tool. And if you notice
+- [10:33] that from strands we import our agent
+- [10:36] and then we imp import tool. This allows
+- [10:39] us to use a custom decorator on top of a
+- [10:42] Python function to make it a tool within
+- [10:46] strands. So if we take a look at this,
+- [10:49] we create a function that says get
+- [10:51] weather. It doesn't have any inputs.
+- [10:53] It's just a simple get weather. And we
+- [10:56] can actually modify this to make it
+- [10:58] simpler. So let's just say city. So
+- [11:00] we'll pass in the city and it's a
+- [11:02] string. And so here we'll say the
+- [11:06] weather in city is sunny. And so now
+- [11:10] when we ask the assistant what is the
+- [11:13] weather today in San Francisco
+- [11:23] and we invoke our agent, you'll see it
+- [11:26] uses the weather tool.
+- [11:28] the weather in tool. The weather today
+- [11:30] in San Francisco is sunny. And as you
+- [11:33] can see how easy it was to create a tool
+- [11:37] and then pass it into our agent
+- [11:40] directly. We didn't have to worry about
+- [11:42] the JSON schema. All of this was handled
+- [11:45] by our agent because of the buil
+- [11:47] built-in tool decorator.
+- [11:51] Now another thing that I want to talk
+- [11:54] about is Strands has something called
+- [11:57] hooks. In this event loop, if we come
+- [12:00] back to the strands documentation and we
+- [12:02] go over to our agent, it has something
+- [12:04] called event loop. There's a couple ways
+- [12:07] that you can actually log or take
+- [12:09] actions during this event loop. And so
+- [12:13] if I come in here and look at hooks,
+- [12:15] I'll show you exactly what I mean. So we
+- [12:18] go into our agents and we look at hooks.
+- [12:22] So there are different invocation points
+- [12:25] inside of strings.
+- [12:27] So you have a request start when you
+- [12:30] first invoke the agent. You have model
+- [12:34] events before it actually invoked the
+- [12:36] the model. You have tool events before
+- [12:39] those tool calls. And then you have
+- [12:41] request events. So at any point or any
+- [12:44] event point within the agent event loop,
+- [12:48] you can take some action. Maybe you want
+- [12:51] to verify that the tool was called.
+- [12:54] Maybe you want to modify the system
+- [12:56] prompt. Maybe you want to perform some
+- [12:59] other action. Using event hooks within
+- [13:03] strands will allow you to do that. And
+- [13:05] so I say that as we go back to our
+- [13:09] example.
+- [13:11] One thing that you may want to do is
+- [13:13] actually ensure the right tool was
+- [13:15] called when that eentic loop happens.
+- [13:18] You can do that with the strands. And if
+- [13:21] the right tool wasn't called, you can
+- [13:23] actually modify the tool call before it
+- [13:26] actually the results actually go to the
+- [13:29] agent. And so right here, we're going to
+- [13:32] directly invoke our tool. And notice
+- [13:35] that
+- [13:38] we directly invokeed the tool. And
+- [13:40] here's the result. And so this tool
+- [13:42] result, if we directly invoke the tool,
+- [13:45] we can actually change it and send it to
+- [13:47] the agent using event hooks.
+- [13:52] Now looking at logging within strands.
+- [13:54] This is pretty simple to do to as well.
+- [13:56] So first we have a logger and we're just
+- [13:59] going to start the logger as we invoke
+- [14:02] this agent. And let me make sure I
+- [14:03] change the model so it uses the right
+- [14:05] model. So we'll come in here and we'll
+- [14:08] change the model to use and flopping
+- [14:10] model
+- [14:12] and we'll just say hello. So if you're
+- [14:15] logging the strands agent, you can see a
+- [14:17] lot of things and I am inside of a
+- [14:20] Jupyter notebook. But one of the things
+- [14:21] I could see is that the right model was
+- [14:24] called, right? I can see the tokens in
+- [14:28] configuration for the model. I can see
+- [14:30] the prompt that was sent and I was al
+- [14:32] also see the response. I can also see
+- [14:35] the conversation manager that's
+- [14:36] configured. If you remember that I
+- [14:39] mentioned the conversation manager that
+- [14:41] is built in with in strands by default
+- [14:44] is set to sliding window conversation
+- [14:47] manager meaning that you can have 40
+- [14:50] conversations within an agent in before
+- [14:55] before those conversations start being
+- [14:57] removed. So if I communicate with an
+- [15:00] agent, invoke an agent, I get a
+- [15:02] response, the tool calls, the tool
+- [15:04] results, all of that goes into context
+- [15:07] and will have to be managed within your
+- [15:09] agent. Strands does that for you.
+- [15:13] Let's actually take a look at that. So
+- [15:14] if we look at our agent, we can do a few
+- [15:16] things here. So if we go to agent dot
+- [15:21] model.config,
+- [15:22] config.
+- [15:24] We can actually see what model is
+- [15:27] configured. And again, as we invoke our
+- [15:31] agent in our code, we can easily modify
+- [15:34] the model that's being used either
+- [15:37] within the code or using an event hook.
+- [15:42] And I've already kind of talked about
+- [15:44] model providers. So let's actually take
+- [15:46] a look at using a local model with OAM.
+- [15:49] So in this example, I'm going to show
+- [15:52] you how to build a local agent using O
+- [15:56] Lama. We'll use a llama model and run it
+- [15:59] right here on my laptop. So we're not
+- [16:01] invoking any external APIs.
+- [16:06] So I'll ensure that we have all our
+- [16:09] requirements. I'm using UV.
+- [16:12] So I'll install the strands agents or
+- [16:15] llama model provider.
+- [16:18] And then from here
+- [16:20] I'm going to import OS, import request,
+- [16:23] import our agent, our tool decorator so
+- [16:26] we can actually create a tool and then
+- [16:28] we'll import the OAMA model.
+- [16:32] Now we want to ensure that O Lama is
+- [16:35] running on our local laptop. As you can
+- [16:37] see local host API tags and we're going
+- [16:40] to verify that O Lama is actually
+- [16:43] running. We're also going to verify our
+- [16:45] model that is running.
+- [16:48] So notice this is our list of models and
+- [16:50] this is the model we'll be using for
+- [16:53] this
+- [16:55] for this um workshop. Now one thing I
+- [16:59] want to call out is that since we're
+- [17:00] using O Lama all of these models are
+- [17:03] open and we can download these models on
+- [17:06] our local laptop. So depending on the I
+- [17:09] would say capacity of your hard drive
+- [17:11] space, your RAM, your video card, you
+- [17:14] can actually create some pretty powerful
+- [17:17] local models on your systems.
+- [17:21] So the next thing we're going to do is
+- [17:23] define some tools. So we're going to
+- [17:25] confine define a read a file read tool
+- [17:29] so we can read a file. We're going to
+- [17:31] define a write file tool and then we'll
+- [17:35] define a list directory tool.
+- [17:39] So we'll define these tools. And now our
+- [17:42] tools have been defined. The next thing
+- [17:45] we're going to do is create a
+- [17:46] comprehensive system prompt. And in this
+- [17:49] system prompt, we're telling the agent
+- [17:52] to modify his behavior. We're telling it
+- [17:54] that you are a helpful personal
+- [17:56] assistant capable of performing local
+- [17:59] file actions and simple tasks for the
+- [18:01] user. Here are your capabilities. When
+- [18:05] using the tools, always verify the file
+- [18:07] path before operations. Be careful with
+- [18:11] system commands and provide clear
+- [18:13] explanations of what you're doing. If a
+- [18:16] task cannot be completed, explain why
+- [18:18] and suggest alternatives. always be
+- [18:20] helpful, concise, and focus on
+- [18:22] addressing the user's efficiency.
+- [18:25] Now, we'll define the model ID along
+- [18:29] with our system prompt. And then from
+- [18:31] here, we're actually going to define the
+- [18:33] model provider that we'll be using.
+- [18:36] Here, we define the OMA model provider,
+- [18:39] the model ID, the host, and then all of
+- [18:42] the params that we'll use for that
+- [18:44] model.
+- [18:46] After that, we'll create our agent with
+- [18:48] our system prompt, the model, and the
+- [18:51] tools we'll use for this demo.
+- [18:55] And now everything is created. The next
+- [18:58] thing we're going to do, we're actually
+- [18:59] going to invoke our agent. And now we're
+- [19:03] telling the agent to read the file path
+- [19:05] for our sample sample file.
+- [19:08] Here's the file. And summarize it in
+- [19:11] five bullet points. Let's make sure the
+- [19:13] file is there.
+- [19:16] Here's the sample file and we want the
+- [19:19] agent to summarize this file. And this
+- [19:22] is all going to be done locally on my
+- [19:23] laptop. So we'll run our local agent.
+- [19:28] JSON loads. We have an issue. Let's make
+- [19:31] sure I ran everything needed for this
+- [19:34] demo.
+- [19:36] So if we come back up,
+- [19:39] make sure I got everything running. Did
+- [19:41] we run that? Yes.
+- [19:44] Do we need JSON? Let's see. Import JSON.
+- [19:52] All right. So, that's running. Our file
+- [19:55] is running. System prompt is good.
+- [19:59] That's good. Now, let's invoke again.
+- [20:04] Model. Ah. Okay. So, it's saying my
+- [20:06] model's now found. Let's pull down this
+- [20:08] model and make sure we have the right
+- [20:10] model. So if we come back up and look at
+- [20:12] our models that are available, I got 3B.
+- [20:15] So let's change the model to ensure we
+- [20:17] have the right model configured.
+- [20:21] I didn't want to download a new model
+- [20:23] because of bandwidth in this
+- [20:25] environment. So we'll change the model
+- [20:27] and then we'll run our code again.
+- [20:30] We'll configure our agent with the new
+- [20:32] model so the agent knows. And now we'll
+- [20:35] invoke our agent again.
+- [20:38] And let's see what happens this time.
+- [20:43] our local agent.
+- [20:45] Let me clear all outputs. Let's try this
+- [20:48] one more time.
+- [20:52] All right. So, let's make sure all
+- [20:53] that's good. All the requirements.
+- [20:56] We're good.
+- [20:59] We're good.
+- [21:01] All right.
+- [21:06] Okay. We have that. We'll change that to
+- [21:09] tools.
+- [21:11] We'll make sure everything's good with
+- [21:12] that.
+- [21:14] We'll create our tool
+- [21:16] system prompt.
+- [21:18] And we may have to do some
+- [21:19] troubleshooting. Let's make sure this is
+- [21:21] running.
+- [21:22] We're good. And one more time. Okay,
+- [21:26] it's working now.
+- [21:29] I didn't have all the dependencies
+- [21:30] installed. And so now we can look. We
+- [21:33] have the first tool called file read. I
+- [21:35] apologize for issue. It seems there is
+- [21:37] an encoding problem with the PDF. So, it
+- [21:40] can't read the PDF. So, what we need to
+- [21:42] do is give it a different another tool.
+- [21:45] Oh, okay. Now, it's able to see the tool
+- [21:48] using it sees the tool. It was able to
+- [21:50] extract the information from the file
+- [21:52] and then it was able to summarize it.
+- [21:55] Ah, okay. So, at first it it couldn't
+- [21:57] figure out the issue. It figured out the
+- [21:59] issue
+- [22:01] and then it was able to summarize the
+- [22:03] document.
+- [22:05] So our agent was able to figure it out
+- [22:08] and all of this was local. So the agent
+- [22:10] really was pretty capable to be a local
+- [22:13] smaller 3 billion parameter model.
+- [22:19] Now I wanted to list my files in my
+- [22:21] directory
+- [22:23] and it's listing all of my files in this
+- [22:25] directory.
+- [22:28] And this is all my local agent. Now I
+- [22:30] wanted to create a file. We're just
+- [22:32] verifying that all the tools are
+- [22:34] working. So if we come in here to sample
+- [22:37] file, we should see sample file here. So
+- [22:40] our local agent was able to run locally
+- [22:44] to read a file and summarize it to read
+- [22:47] the files in our directory and and list
+- [22:49] them and then from there it was able to
+- [22:50] write to that directory.
+- [22:53] Open source open source SDK using a
+- [22:57] local model. So there's a lot of freedom
+- [22:59] and capabilities that you can do locally
+- [23:02] without access to any external model
+- [23:05] providers using strands agents.
+- [23:09] Now the next thing I want to do is
+- [23:11] actually come in here and use MCP. So
+- [23:15] we're going to use different tools and
+- [23:17] MCP using strands agents. If you come
+- [23:20] back to the documentation, I always like
+- [23:22] to go back there because this has
+- [23:24] everything we need.
+- [23:27] If we go to tools overview, this will
+- [23:30] tell you everything about using tools
+- [23:32] within strings. All of the built-in
+- [23:35] tools,
+- [23:39] the ability to create custom tools as
+- [23:42] well as MCP. Strands even has a feature
+- [23:46] to hotload tools. And if we have time,
+- [23:49] I'll show you that. But what I mean by
+- [23:52] house flow tools, Australian's agent
+- [23:55] could actually write Python code
+- [23:58] creating his own tool and then using it
+- [24:01] in the same runtime. So it's pretty
+- [24:04] powerful.
+- [24:06] Let's come back over here, take a look
+- [24:07] at the code. Notice here we have our AWS
+- [24:11] documentation assistant agent. We're
+- [24:14] going to leverage anthropic rather than
+- [24:17] Amazon bedrock just so we ensure that
+- [24:20] everyone has access. Now from here we'll
+- [24:23] load our environmental variables.
+- [24:26] Load up the right environment.
+- [24:29] So we have that all loaded. Our
+- [24:31] requirements should be good to go. And
+- [24:33] then from here we have our enthropic
+- [24:36] model imported.
+- [24:40] Let's install all of our requirements
+- [24:42] into this environment. So, we'll install
+- [24:44] that because we don't have those and
+- [24:46] we'll make sure everything is loaded
+- [24:48] into this virtual environment so we can
+- [24:50] use it in this demo. So, we're going to
+- [24:53] go through this and once we go through
+- [24:55] this, I'm going to go back through my
+- [24:56] demo that I did earlier cuz I got a lot
+- [24:58] of questions about it and we'll kind of
+- [25:00] walk through how I built that and and
+- [25:03] answer some of those questions.
+- [25:05] So, we're waiting on our dependencies
+- [25:08] and looks like all of our dependencies
+- [25:10] are good to go. We'll load up our
+- [25:12] environmental variables again. Then from
+- [25:15] there, we'll import all of our
+- [25:18] let's see strands agents models and
+- [25:20] anthropic model. Okay. So, we'll have to
+- [25:22] go back up here and install our inrop
+- [25:25] enthropic model. So we'll do UV add
+- [25:30] and strands agents
+- [25:33] [Music]
+- [25:36] and it's going to be agents and it's
+- [25:39] going to be anthropic and we'll also do
+- [25:42] open AI just in case and lama. So, we'll
+- [25:45] just add all of those
+- [25:50] arguments.
+- [25:55] [Applause]
+- [25:56] There we go. And now they're all added.
+- [25:58] We'll load our environmental variables
+- [26:00] again. And then our enthropic model
+- [26:02] should work this time
+- [26:04] from models.anthropic.
+- [26:07] There we go. All right. So, we have our
+- [26:10] models loaded with anthropic. So, we can
+- [26:12] use that. MCP is loaded. Our agent is
+- [26:15] loaded. All of that's good. Everything's
+- [26:18] imported. The next thing we need to do
+- [26:20] is create our enthropic model. So, we'll
+- [26:23] create our enthropic model.
+- [26:27] And now what we need to do is actually
+- [26:30] connect to the MCP server using an MCP
+- [26:33] client. And this is going to be standard
+- [26:35] in, standard out AWS. If we go to AWS
+- [26:39] lab documentation.
+- [26:41] So we go to AWS Labs.
+- [26:44] AWS Labs MCP
+- [26:53] on the AWS
+- [26:56] Labs MCP GitHub. There are a ton of AWS
+- [27:01] supported
+- [27:03] locally run MCP servers. So you can use
+- [27:07] these MCP servers to run get
+- [27:10] documentation via MCP connect to your
+- [27:13] AWS resources via MCP and run those in
+- [27:17] your environment. So here we're going to
+- [27:19] get the AWS documentation.
+- [27:23] We created a client for that. And now
+- [27:25] what we're going to do is we're going to
+- [27:27] ask the agent a simple question based on
+- [27:30] the documentation. And the question is
+- [27:32] going to be what is Amazon bedrock's
+- [27:34] pricing model? be concise. And so we'll
+- [27:37] see this start the MCP server, list the
+- [27:40] tools, and then the agent will be
+- [27:44] invoked with our prompt and use make the
+- [27:46] tool call. And so as you can see, here's
+- [27:50] our search the documentation.
+- [27:52] Here's the read documentation and then
+- [27:54] the model response. And that was pretty
+- [27:56] quick. All of this was done via MCP.
+- [28:03] So we we built our first agent, we made
+- [28:07] tool calls, we created custom tools, and
+- [28:10] we leveraged MCP with Strand's agents.
+- [28:13] I'm going to go back to my code that I
+- [28:15] ran earlier,
+- [28:18] and let's actually do that. So if we
+- [28:20] come in here, I'm going to pull up
+- [28:26] my terminal. We'll go to documentation
+- [28:30] tip and hack SF. Then we'll go code dot.
+- [28:38] All right. So, we're already in here and
+- [28:41] I'm just going to show walk through this
+- [28:43] demo code one more time cuz I got a lot
+- [28:45] of questions about it. So, earlier I did
+- [28:47] a demo using a two MCP servers that I
+- [28:51] built and all of these are available on
+- [28:53] my GitHub. So, the MCP servers are a GTP
+- [28:57] thumbnail MCP server and a YouTube API
+- [29:00] project MCP server. The goal of these
+- [29:03] MCP servers is to be able to generate
+- [29:06] thumbnails via OpenAI and get metadata
+- [29:10] and and transcripts from YouTube.
+- [29:14] I use Strand agents to connect to OpenAI
+- [29:17] and the MCP service. I have a file write
+- [29:20] tool, a file read tool, an editor tool,
+- [29:23] and a shell tool. So, this agent has all
+- [29:26] the capabilities it needs to write a
+- [29:28] blog post based on a transcript. I in I
+- [29:32] load my environmental variables.
+- [29:35] I set the bypass consent to true because
+- [29:38] if I'm building an autonomous agent, I
+- [29:41] need it to be able to freely run in an
+- [29:43] isolated environment to perform a task,
+- [29:46] troubleshoot the task, and be able to
+- [29:48] solve the problem.
+- [29:50] Now I'm using the OpenAI model provider
+- [29:55] and now I'm building my YouTube MCP
+- [29:58] server
+- [29:59] client and then my GPT MCP server
+- [30:02] client. I have a prompt that's been
+- [30:05] optimized to work for this agent. And
+- [30:09] then from there, I give it a prompt to
+- [30:11] write a blog post based on this video.
+- [30:13] I'm going to give it a new video this
+- [30:15] time. And then we'll run this one more
+- [30:17] time. And then we'll complete our
+- [30:19] presentation. So, we'll go to my YouTube
+- [30:21] channel, Lab Everyday,
+- [30:24] and we'll just pull up a video. We'll
+- [30:25] try to get a shorter video.
+- [30:28] And let's see.
+- [30:32] We'll do how I pass the AWS
+- [30:36] solutions architect video. So, we'll
+- [30:38] take that and we'll just copy in this
+- [30:40] prompt.
+- [30:43] We'll pull up our terminal.
+- [30:50] We'll give it a minute.
+- [30:54] And so while our terminal is open,
+- [30:58] we have this with statement here in
+- [31:00] order to open our MCP clients, grab the
+- [31:04] tools for each one of those clients, and
+- [31:06] then we actually print them out so we
+- [31:08] know which tools are available. And then
+- [31:10] we actually create our agent, our blog
+- [31:13] agent, and then we invoke our agent with
+- [31:14] a prompt. So if I come here to our
+- [31:18] terminal,
+- [31:20] got a new terminal cuz that terminal is
+- [31:22] not open
+- [31:30] and we can just run it from here.
+- [31:32] Sourcebnv
+- [31:36] activate. We are now in our virtual
+- [31:38] environment. So now if I do python
+- [31:40] demo.py
+- [31:42] Pi and we run the code. We can actually
+- [31:45] see all these tool calls.
+- [31:48] And so as you can see, we are starting
+- [31:50] our MCP server.
+- [31:52] We are listening the tools that are
+- [31:54] available.
+- [31:56] We're getting the transcript from
+- [31:57] YouTube tool one and strands is logging
+- [32:00] all of this real time.
+- [32:04] Then from there we are generating an
+- [32:05] image from OpenAI.
+- [32:14] We'll close that out and we'll just open
+- [32:15] this up and then we should see a new
+- [32:18] blog post and a new image here in
+- [32:19] shortly.
+- [32:21] All right. So we're waiting on the image
+- [32:23] to be generated. There's the image has
+- [32:26] been generated via OpenAI. Now, we're
+- [32:28] running share commands because when this
+- [32:30] downloads, it downloads to a temp
+- [32:33] environment. And what we want to do is
+- [32:35] move it into our current directory so we
+- [32:37] can actually add it to the blog post.
+- [32:42] This code that you're looking at, I
+- [32:44] actually use this on my own blog and I
+- [32:47] have it fully autonomous. So, if I
+- [32:49] created a new YouTube video, it will
+- [32:52] automatically upload upload to a
+- [32:54] temporary blog site. So I could read the
+- [32:56] blog, see if it makes sense, edit it in
+- [32:59] my own words, and then I can move it to
+- [33:01] my actual blog. So if we come back over
+- [33:03] here, we should see this new AWS
+- [33:05] certification blog. It should have an
+- [33:07] image,
+- [33:13] mastering AWS certification, a journey
+- [33:15] through exam preparation. The image was
+- [33:18] generated. Here's the blog post based on
+- [33:20] the video. And then the video is
+- [33:23] embedded at the bottom. So, we should be
+- [33:25] able to open the video
+- [33:28] and this takes us to the video.
+- [33:32] And so, in a few lines of code, we were
+- [33:35] able to do multiple things within
+- [33:37] Strand's Agents. If you all would like
+- [33:40] more information, feel free to check out
+- [33:43] the resources that we have available.
+- [33:46] Ellie, Laura, and myself will be here to
+- [33:49] help you, guide you through any other
+- [33:51] challenges you have with trans agents.
+- [33:53] If you just want to talk agents and
+- [33:56] agentic AI, feel free to grab us. We
+- [33:59] love talking about this and building
+- [34:01] agents will be here. So, thank you all
+- [34:04] again for tuning in. Thank you, Adam,
+- [34:06] for having us and thank you to the whole
+- [34:09] entire hackathon for this opportunity to
+- [34:13] present. Thank you.
+- [34:17] [Applause]
+- [34:23] [Music]

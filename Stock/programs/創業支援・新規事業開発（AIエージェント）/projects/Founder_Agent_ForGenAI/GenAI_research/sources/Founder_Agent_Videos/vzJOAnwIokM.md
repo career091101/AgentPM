@@ -1,0 +1,3845 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=vzJOAnwIokM"
+video_id: "vzJOAnwIokM"
+video_url: "https://www.youtube.com/watch?v=vzJOAnwIokM"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=vzJOAnwIokM
+  - Retrieved at: 2025-12-30T16:37:02+09:00
+  - [00:00] Hello all, my name is Krishna and
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=vzJOAnwIokM"
+  - "- Retrieved at: 2025-12-30T16:37:02+09:00"
+  - "- [00:00] Hello all, my name is Krishna and"
+  - "- [00:02] welcome to my YouTube channel. So guys,"
+  - "- [00:04] uh if you have been following my lang"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: vzJOAnwIokM
+
+- URL: https://www.youtube.com/watch?v=vzJOAnwIokM
+- Retrieved at: 2025-12-30T16:37:02+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] uh if you have been following my lang
+- [00:06] chain playlist, my langraph playlist,
+- [00:08] I've uploaded tons and tons of videos.
+- [00:11] Uh I have made end to-end projects. I
+- [00:14] have taught each and everything
+- [00:16] specifically uh on this particular
+- [00:18] frameworks. Now uh this particular video
+- [00:20] is just like a oneshot video uh on
+- [00:23] langchain itself because recently lang
+- [00:25] has come up with its uh recent version
+- [00:28] that is version v1 and uh there are some
+- [00:31] various changes specifically in terms of
+- [00:34] creating agents applying memories. Uh
+- [00:36] there is a new concepts that have uh
+- [00:38] recently been come that is called as
+- [00:39] middleware. So considering all these
+- [00:41] things I thought why not make a oneshot
+- [00:44] video with all the recent updates and uh
+- [00:47] you can watch this entire tutorial.
+- [00:49] It'll be a longer tutorial where I have
+- [00:50] included each and everything. So uh go
+- [00:53] ahead enjoy this and make sure to hit
+- [00:55] like uh we'll keep a like target of
+- [00:57] thousand so that after completing this
+- [00:59] particular video I'm also parallely
+- [01:01] recording the updates with respect to
+- [01:02] langraph and there is one more new topic
+- [01:05] that is coming which is called as deep
+- [01:06] agents. So everything will be getting
+- [01:08] recorded as we go ahead. So go ahead
+- [01:11] enjoy this particular crash course on
+- [01:13] Langchen version B1. Hello guys. So
+- [01:16] recently Langchain has come up with lot
+- [01:18] of updates in their specific
+- [01:20] documentation in the recent version and
+- [01:24] uh in this entire series of videos and
+- [01:26] in this module we are going to see the
+- [01:28] various changes uh which langin has
+- [01:31] specifically come up with you know so
+- [01:34] here inside the documentation if I just
+- [01:36] go ahead and click on docs. Okay. So
+- [01:38] here you'll be able to see there is lang
+- [01:39] chain lang graph and deep python. So we
+- [01:42] will be covering all these things all
+- [01:44] these modules uh again in an updated way
+- [01:46] so that we are always up to date with
+- [01:49] langen documentation. So first of all we
+- [01:50] will go ahead with langen documentation
+- [01:53] over here. Now here with respect to this
+- [01:55] particular documentation uh there are a
+- [01:58] lot of changes uh specifically with
+- [02:00] respect to syntaxes with respect to
+- [02:03] creating agents you know uh how to
+- [02:05] integrate with multiple different models
+- [02:09] um how to go ahead and call a tool how
+- [02:11] to you know come up with a structured
+- [02:14] output along with that it also has lot
+- [02:17] support of messages you know different
+- [02:18] types of messages like AI message human
+- [02:21] message uh tool message. Along with
+- [02:24] that, we'll also be seeing something
+- [02:25] called a short-term memory. We'll be
+- [02:27] seeing how to perform streaming, you
+- [02:29] know, and there is a new concept uh that
+- [02:31] has basically come up with respect to
+- [02:33] middleware like built-in middlewares,
+- [02:35] custom middleware and uh we'll also be
+- [02:37] learning about guard drills and many
+- [02:39] more things. So in this entire series of
+- [02:41] video we are first of all going to cover
+- [02:44] the entire lang chain uh recent
+- [02:46] framework whatever the updates are there
+- [02:49] and uh you know and we are also going to
+- [02:51] use an amazing package which is called
+- [02:53] as UV package manager. Now everybody if
+- [02:56] you have heard about UV package manager
+- [02:58] this is an extremely fast python package
+- [03:02] uh and project manager and it is
+- [03:03] completely written in rust. So I'll give
+- [03:05] you an idea how you can actually go
+- [03:07] ahead and work with UV package manager
+- [03:10] and this is the entire installation you
+- [03:13] know uh how to probably go ahead step by
+- [03:15] step I'll be showing you how to how you
+- [03:17] can go ahead and create an environment
+- [03:19] um and along with this you can use any
+- [03:21] ID right there are also various ids that
+- [03:23] are now available we have VS code we
+- [03:26] have cursor we also have Google
+- [03:28] anti-gravity nowadays I'm actually
+- [03:30] specifically using Google anti-gravity
+- [03:32] also so uh all these things we will try
+- [03:35] to cover and uh our main aim is always
+- [03:37] to stay up to date with respect to
+- [03:40] anything that is basically coming in
+- [03:41] lang chain. Okay. So uh from as we go
+- [03:45] ahead now we will be covering this step
+- [03:47] by step and uh I will show you how step
+- [03:50] by step how to go ahead and create an
+- [03:51] environment and we will just start with
+- [03:53] a specific uh new project itself. So
+- [03:56] here you'll be able to see that I have
+- [03:57] already opened uh Google anti-gravity
+- [04:01] which I will show you in front of you
+- [04:03] right and I have created a folder which
+- [04:05] is called as langin updated now we'll
+- [04:07] start from basics now Google
+- [04:08] anti-gravity also you can go ahead and
+- [04:10] download it in order to download all you
+- [04:12] have to do is that just go ahead and
+- [04:13] search for Google anti-gravity
+- [04:17] okay and then this ID this is like a
+- [04:20] aentic ID like how we have VS code how
+- [04:23] we have cursor right you can also
+- [04:24] download for windows this It will be
+- [04:26] just be like a .exe file and then once
+- [04:28] you go ahead and install this uh you
+- [04:30] will be able to start working on it. So
+- [04:32] this is the ID that we are going to
+- [04:34] specifically work on. The best part
+- [04:36] about this ID is like cursor you know it
+- [04:38] provides access to agent and it also
+- [04:40] provides you completely for free. Uh I
+- [04:43] think for some number of requests not
+- [04:45] for uh infinity requests right but uh
+- [04:48] yes with the help of agents you will be
+- [04:50] able to write the code in a much more
+- [04:51] efficient way. Right. So now as we go
+- [04:54] ahead uh we will be covering uh the
+- [04:57] recent updated lang chain version and
+- [04:59] we'll try to see that how we can go
+- [05:01] ahead and create agents how we can go
+- [05:03] ahead and work with tools each and
+- [05:04] everything. So let's go ahead and start
+- [05:06] that. So guys now let's go ahead and
+- [05:09] start with first of all creating a
+- [05:11] virtual environment and it is always a
+- [05:13] good practice that we start with
+- [05:15] creating a virtual environment and uh
+- [05:17] for any kind of projects that we work
+- [05:19] with. So the first thing is that uh we
+- [05:21] will try to create a virtual environment
+- [05:23] with the help of UV. Okay, UV package
+- [05:25] manager. But before we go ahead, you
+- [05:27] know, uh we need to install the UV
+- [05:30] package manager, right? So how to go
+- [05:32] ahead and install it. So if you just go
+- [05:35] ahead and search for UV package manager.
+- [05:37] So this is the first link that you will
+- [05:39] be able to see it. Okay. So once you
+- [05:42] click it here you'll be able to see in
+- [05:44] the installation you have options for
+- [05:45] Mac OS Linux and you also have options
+- [05:48] for Windows right so out of both of
+- [05:51] these options you can go ahead and do
+- [05:53] it. Let's say that if you're using Mac
+- [05:54] OS or Linux, you can use this command. U
+- [05:59] if you are using Windows, you can
+- [06:00] directly open a PowerShell and you can
+- [06:02] execute this command. Right? So, how to
+- [06:05] open a PowerShell? So, first of all,
+- [06:06] what I will do, I'll copy this
+- [06:08] particular command. And now I will go to
+- [06:10] my um you know the ID and here I will
+- [06:14] open my terminal. The opening of the
+- [06:17] terminal is similar like VS code if
+- [06:19] you're using VS code till now. Okay. Now
+- [06:22] here inside this PowerShell see you have
+- [06:24] PowerShell option you have command
+- [06:25] prompt option. So here inside this
+- [06:27] PowerShell only you can just go ahead
+- [06:28] and paste this command and just press
+- [06:30] enter. So once you press enter the UV
+- [06:33] package manager you know will get
+- [06:35] automatically installed. Okay. So I've
+- [06:38] already done that installation so I
+- [06:40] don't have to do it again. But just to
+- [06:42] show it to you I have actually done it.
+- [06:44] Okay. Now I will remove this. I will
+- [06:46] open my command prompt. Okay. or
+- [06:50] whatever like let's say that you're
+- [06:51] using Mac OS whether you're using u uh
+- [06:55] Linux you know it is up to you whatever
+- [06:57] things you really want to use you can go
+- [06:58] ahead and use it okay so till then I'll
+- [07:00] just go ahead and close this now here
+- [07:03] the first step is that how do I go ahead
+- [07:05] and create my virtual environment with
+- [07:09] the help of UV package uh package
+- [07:12] manager so first of all what I will do I
+- [07:14] will initialize this entire folder as a
+- [07:17] working repository now in order order to
+- [07:19] initialize it you know we will go ahead
+- [07:21] and use one command which is called as
+- [07:24] uv init okay so please make sure to
+- [07:27] remember this command so if you want to
+- [07:29] go ahead and just initialize a working
+- [07:32] repository let's say this is my working
+- [07:33] repository so first of all I will
+- [07:35] initialize it with the help of uv so for
+- [07:37] that I will just go ahead and write uv
+- [07:39] init pro uh command once I execute this
+- [07:42] so here you can see it has initialized
+- [07:44] the project which is called as langchain
+- [07:46] updated so as soon as you init
+- [07:48] initialize the working repository. Here
+- [07:51] you get some of the basic information,
+- [07:53] right? So here you'll see pi
+- [07:55] project.2ml. This will give the
+- [07:56] information like which versions we are
+- [08:00] specifically working with. So here we
+- [08:02] are working with python 3.13. So recent
+- [08:05] updated Python package manager. Uh later
+- [08:09] on like let's say if python package is
+- [08:11] also getting updated, you know again
+- [08:13] when you write uv in it, it'll just take
+- [08:15] the recent python version. Okay. And it
+- [08:18] is always a good practice to work with
+- [08:20] the rethin version. That's the reason
+- [08:22] you can actually go ahead and directly
+- [08:24] use this. Now along with that you'll be
+- [08:26] seeing that a default main. py is
+- [08:29] basically there. Then you also have
+- [08:30] something called as python version file.
+- [08:32] So here you can see that I'm getting
+- [08:34] 3.13. Okay. So all this information you
+- [08:37] can see over here in a very simple way.
+- [08:40] Now the next thing what I will do is
+- [08:41] that I will just go ahead and write uv
+- [08:45] venv. Now see as soon as I write UV venv
+- [08:49] and I put a slash. Okay. Now what this
+- [08:52] will do is that it will go ahead and
+- [08:54] create a virtual environment. So once
+- [08:56] let me press enter. So here you can see
+- [08:58] that uh unrecognized subcomand slash. So
+- [09:01] by def by mistake I have put this slash
+- [09:04] I should not have put that. So what I
+- [09:06] will do I will just write uv venv. Now
+- [09:09] in order to create a virtual environment
+- [09:11] this is the most simplest command right.
+- [09:13] UV venv. As soon as I write uv VNV and I
+- [09:17] press enter. So here you can see that
+- [09:20] now it is using this Python 3.13.2
+- [09:23] and it has created a virtual environment
+- [09:25] at this specific location.
+- [09:29] So Venv is my virtual environment. Right
+- [09:34] now in order to activate it see if as
+- [09:37] soon as you create a virtual environment
+- [09:39] you need to install the libraries inside
+- [09:41] that virtual environment. Right now in
+- [09:43] order to install the specific libraries
+- [09:46] inside that virtual environment, I will
+- [09:48] first of all activate that virtual
+- [09:50] environment. Now in order to activate
+- [09:52] it, the command is given over here. See
+- [09:54] it is written activate with VNV
+- [09:57] script/activate.
+- [09:58] So if you go inside the script, there is
+- [10:00] something called as activate. I just
+- [10:02] need to go ahead and call this
+- [10:04] particular uh or execute this particular
+- [10:06] command. So what I will do, I will copy
+- [10:08] this over here. I will paste it over
+- [10:10] here and I will just execute it. Now as
+- [10:12] soon as I do that here you can see that
+- [10:15] my
+- [10:16] my virtual environment right is
+- [10:19] activated which is called nothing but
+- [10:21] lunction updated. So this virtual
+- [10:23] environment has got updated. Okay. Now
+- [10:25] the next step is that how do I go ahead
+- [10:29] and start the installation of all the
+- [10:32] libraries. Okay. Now installation of the
+- [10:35] libraries is very important. Till now uh
+- [10:38] you know uh whenever we install a
+- [10:40] virtual a libraries you know you also
+- [10:42] need to make sure to keep an updated
+- [10:44] track of which version we are installing
+- [10:46] right uh but now with the help of UV
+- [10:49] package manager this is becoming very
+- [10:51] very easy now okay so let's say that I
+- [10:53] go ahead and first of all create a
+- [10:55] requirement txt file and please make
+- [10:57] sure to create that particular file
+- [10:59] outside VNV folder so I will go ahead
+- [11:01] and write requirement txt now inside
+- [11:05] this I will be using some of the
+- [11:07] libraries. Let's say one of the
+- [11:09] libraries that I'm using is Langchin.
+- [11:11] Then I have Langchin community. Okay,
+- [11:14] Langchin community because I will be
+- [11:16] requiring this. Okay, then I also have
+- [11:19] Langchin- OpenAI because I want to use
+- [11:22] this Langchin OpenAI. I also have to use
+- [11:25] Langchin Grock because I may also use
+- [11:28] Grock models. Then I also have
+- [11:30] Python-Env,
+- [11:32] right? So I will also be using this.
+- [11:34] Along with this I will also use langin/
+- [11:38] google jenna my main aim over here is to
+- [11:41] install all these libraries is very
+- [11:43] simple because I want to show you all
+- [11:44] the examples with different different
+- [11:46] libraries and all okay so these are my
+- [11:49] default libraries and uh here you can
+- [11:51] see that it is also giving you some
+- [11:52] suggestions but don't go through that
+- [11:54] suggestion go ahead and type each and
+- [11:56] everything in front of you okay now the
+- [11:59] time comes is that I have to go ahead
+- [12:01] and install all these particular
+- [12:03] libraries inside in my virtual
+- [12:05] environment. Now here the best thing is
+- [12:07] that see I'm not given any specific
+- [12:09] version. We are going to work with the
+- [12:11] recent version of all these lang
+- [12:13] libraries over here. Now what is the
+- [12:15] recent version that also we will go
+- [12:17] ahead and check it out. So here what I
+- [12:19] will do I will write uv add minus r
+- [12:23] requirements
+- [12:25] txt right so this is how you go ahead
+- [12:28] and do the installation. See you can
+- [12:30] also go ahead and write uvp pip install
+- [12:32] minus r requirement.xt txt you you used
+- [12:35] to install all the requirement.txt by
+- [12:37] writing pip install minus our
+- [12:38] requirement.txt txt but with the help of
+- [12:40] UV you can just go ahead and write uv
+- [12:42] add minus r requirement txt now once I
+- [12:45] execute this so here you can see that
+- [12:48] all my installation will start happening
+- [12:50] okay it'll give you some warnings but
+- [12:52] it's okay we can skip this warnings now
+- [12:55] here you can see by default all the
+- [12:57] libraries has got installed now here you
+- [13:00] can also see all the version of the
+- [13:02] specific libraries that has got
+- [13:03] installed now just by seeing this you'll
+- [13:05] not be able to identify it so what I
+- [13:07] will do I will go ahead and Open this
+- [13:08] pipro.2mml.
+- [13:10] Now inside this you will be seeing that
+- [13:12] okay langchin 1.1.0 has been installed
+- [13:14] and this is the recent version. Langchin
+- [13:17] community.4.1
+- [13:18] is installed. Langchin Google geni 3.2.0
+- [13:22] is installed and all the different
+- [13:24] libraries has been installed. Now
+- [13:26] because of this you will be at least
+- [13:27] able to identify it because I will also
+- [13:29] pass you this pi project.2ml to ML file
+- [13:32] to just get you understand that okay
+- [13:34] right now we are in the specific
+- [13:36] versions tomorrow any number of updates
+- [13:39] that specifically comes you don't have
+- [13:41] to actually worry about it you know at
+- [13:43] least you know which is the base version
+- [13:45] right but my suggestion will be always
+- [13:48] that try to work with the recent version
+- [13:50] of langin because there are many many
+- [13:52] functionalities that will get deprecated
+- [13:54] some of the functionalities may may get
+- [13:55] moved to some other libraries and many
+- [13:57] more things now this is where we have
+- [14:00] actually gone ahead and uh you know
+- [14:03] created or installed all our libraries.
+- [14:06] Okay. Now the next thing is that I will
+- [14:08] also go ahead and create some keys.
+- [14:12] Okay. So I will be requiring three keys.
+- [14:15] One is the Google API key. So I will go
+- [14:17] ahead and write Google API key. Okay. So
+- [14:20] I will go to Google AI studio API key.
+- [14:23] And here you can see this is my
+- [14:24] dashboard. And there is an option which
+- [14:26] says create an API key. So I will go
+- [14:28] ahead and select one of the project. So
+- [14:31] let's say this is my project and I'll
+- [14:33] say okay this is my set key that I
+- [14:36] really want to go ahead and create or
+- [14:38] I'll go ahead and name it as lang chain
+- [14:40] updated and I will just go ahead and
+- [14:42] create the key. Okay
+- [14:45] now you know how to create a keys right
+- [14:47] at least uh that I think you should be
+- [14:49] familiar with. I will go ahead and copy
+- [14:50] the API key. Similarly I will go ahead
+- [14:52] with gro API key. So I will write gro
+- [14:55] API key and here is my API keys. Okay.
+- [15:00] And I will just go ahead and click on
+- [15:01] create API key and I can go ahead and
+- [15:03] create it. Right. Similarly with respect
+- [15:05] to open AI API. So I have created all
+- [15:07] these keys and what I will do I will
+- [15:10] quickly go ahead and create one file
+- [15:12] which is called asenv
+- [15:15] and I will go ahead and install uh paste
+- [15:18] this API keys over here. Right. So these
+- [15:21] are my API keys that I will be
+- [15:23] specifically using for my project. There
+- [15:25] is also one more library that I want to
+- [15:27] install for my uh Jupyter notebook that
+- [15:30] is nothing but UV add IPI kernel. Okay,
+- [15:35] IPI kernel. So IPi kernel you will be
+- [15:38] able to see that that is also installed.
+- [15:40] IPI kernel is just like a kernel
+- [15:42] provided to the Jupyter notebook. Again
+- [15:44] let me repeat it guys. Whenever you want
+- [15:46] to add any independent libraries, you
+- [15:48] use this command which is called as uv
+- [15:52] add. Okay. And then you give the library
+- [15:56] name. Okay, library name. If you want to
+- [16:00] directly install it from the
+- [16:01] requirement.txt, then you can just go
+- [16:04] ahead and write ue add minus r
+- [16:07] requirement. TXT. Okay, like it's just
+- [16:11] like you are doing the installation from
+- [16:13] requirement.txt.
+- [16:14] So in this video what we have actually
+- [16:16] done is that in this section we have
+- [16:19] created a virtual environment. We have
+- [16:22] created a requirement.txt file which has
+- [16:25] all the recent libraries and we have
+- [16:27] installed it by using this command uv
+- [16:30] minus r requirement.txt.
+- [16:32] Otherwise you can also go ahead and
+- [16:34] individually you can go ahead and
+- [16:36] install all the libraries by writing uv
+- [16:38] the library name whatever library name
+- [16:41] that you want. Let's say you want to go
+- [16:42] ahead and install lang. So here you can
+- [16:44] just go ahead and see that and here I
+- [16:46] have already installed it. So it is
+- [16:48] showing me resolve this and that right
+- [16:51] now in the next step what we are going
+- [16:53] to do is that we will start working on
+- [16:55] our lang uh updated documentation and we
+- [16:59] will start implementing agents. We'll
+- [17:01] show you how you can go ahead and
+- [17:03] integrate different kind of models. So
+- [17:05] let's go ahead and start with that. So
+- [17:07] guys now we have created a virtual
+- [17:09] environment. uh we have done the
+- [17:11] installation of all the libraries that
+- [17:13] we require in our virtual environment.
+- [17:15] Uh with the help of UV package manager
+- [17:18] uh you can also see all those things
+- [17:20] updated in pi project toml file and here
+- [17:24] you can see all these libraries we are
+- [17:25] going to specifically use it. Okay. Now
+- [17:28] uh you can also add your any
+- [17:30] descriptions that you specifically want
+- [17:32] to add also. Now what we are going to do
+- [17:35] is that we will start with the updated
+- [17:40] lang chain folder. Okay. So I've created
+- [17:43] a folder over here. So let me first of
+- [17:45] all delete this and create a new folder.
+- [17:49] So I will write updated
+- [17:51] lang chain. Okay. And uh I will start
+- [17:55] with the first file which is called as
+- [17:58] lang chain intro doip yb file. Okay. So,
+- [18:04] let me minimize this. I will go ahead
+- [18:06] and select the kernel. I want Python
+- [18:09] environment VNV. Okay. And uh we'll
+- [18:12] write a markdown saying that this is the
+- [18:15] lang chain version v1. Okay. I will just
+- [18:20] go ahead and write it. And I will just
+- [18:22] go ahead and execute it. Perfect. Now,
+- [18:26] just to check everything is working fine
+- [18:28] or not. So I will also go ahead and open
+- [18:30] my code and I'll execute something.
+- [18:33] Okay. So this is working. The Python
+- [18:35] code is also working like oneplus 1 is a
+- [18:37] kind of a numerical operation. Now uh my
+- [18:40] env file is also been loaded. Everything
+- [18:42] is ready. So first of all as usual we'll
+- [18:45] go ahead and import OS. Then from env we
+- [18:49] are going to import load_.env.
+- [18:52] And we will go ahead and initialize
+- [18:54] load_.env.
+- [18:56] and we will initialize our open AI API
+- [18:59] key. So I will write OST
+- [19:02] environment
+- [19:03] and here you can see that I will go
+- [19:05] ahead and write open AI API key. So uh
+- [19:09] one thing about uh Google anti-gravity
+- [19:12] is that it provides you a lot of
+- [19:13] suggestion. Okay. So you will be seeing
+- [19:16] okay quickly when you're coding it
+- [19:18] you'll quickly see all the suggestions
+- [19:20] that is coming up. Right. So OS.getb and
+- [19:23] open AI API key. So I will go ahead and
+- [19:25] execute this. So perfect. Um now the
+- [19:28] first thing that I'm just going to start
+- [19:31] okay um that is all about agents. Okay.
+- [19:34] Now first of all you need to understand
+- [19:36] what exactly is agents. So what I will
+- [19:40] do I will just open my file over here. I
+- [19:44] will create a new file so that I write
+- [19:46] something to you so that you get an
+- [19:48] understanding. Okay. See uh before uh
+- [19:52] you know when we started working right
+- [19:55] when initially we got generative AI at
+- [19:57] that time generative AI is becoming very
+- [19:59] very much as a important topic but
+- [20:01] nowadays everybody is specifically
+- [20:03] talking about a okay so everybody is
+- [20:08] talking about agents and agents is
+- [20:11] altogether a very very handy topic okay
+- [20:15] very very important and handy topic
+- [20:16] altogether so initially if you go ahead
+- [20:20] and see you know initially we were just
+- [20:22] talking about LLM models so let's say
+- [20:24] that this is one of my LLM model now the
+- [20:29] LLM model can be anything it can be an
+- [20:31] open AI LLM model it can be a generative
+- [20:34] AI LLM model it can be uh you know grock
+- [20:37] LLM model any open source LLM models the
+- [20:40] main task of the LLM model was that uh
+- [20:43] whenever we give any kind of input right
+- [20:47] input let's say if I go ahead and ask
+- [20:49] Hey uh write me a paragraph about
+- [20:52] artificial intelligence. So LLM will
+- [20:54] take that particular input and then it
+- [20:56] will give you a specific output. Okay,
+- [21:01] it'll give you a specific output like
+- [21:04] okay if I'm asking write a paragraph 200
+- [21:06] words paragraph on artificial
+- [21:08] intelligence it'll give me a 200 words
+- [21:10] paragraph as an output. Okay, this was a
+- [21:13] simple generative AI application. Okay,
+- [21:17] I used to say this as a Gen AI
+- [21:20] application.
+- [21:21] So, Gen AI application.
+- [21:24] Okay, application. Perfect.
+- [21:29] But now, uh as we move ahead, you know,
+- [21:32] so let's say that for this particular
+- [21:33] LLM model, if I ask a question, hey,
+- [21:36] provide me with the current AI news or
+- [21:39] today's current AI news. So let's say
+- [21:41] that I want to know the today's
+- [21:47] AI news
+- [21:50] AI news
+- [21:53] okay now in this particular scenario you
+- [21:56] know that LLM has a cutff training
+- [21:59] training date okay so we basically say
+- [22:01] that LLM is already trained from
+- [22:03] previous data it does not have the
+- [22:06] current information right recent
+- [22:08] information like let's say tomorrow's or
+- [22:11] today's information it does not have
+- [22:13] right so LLM has to be dependent on some
+- [22:16] thirdparty tool why it should be
+- [22:19] dependent on third party tool because
+- [22:21] when I'm asking this specific question
+- [22:23] or tell me about the today's AI news LLM
+- [22:26] does not have that particular
+- [22:28] information right because it is already
+- [22:30] trained with the previous data it is not
+- [22:31] trained with today's data and there is
+- [22:33] always a cut off training date right
+- [22:35] this is really really important for you
+- [22:36] all to understand so this is one of the
+- [22:38] problem of just using a plain LLM. Now
+- [22:42] that's the reason whenever we say that
+- [22:45] if we need to answer if my LLM needs to
+- [22:47] answer this particular question, it
+- [22:50] needs to be dependent on
+- [22:53] some thirdparty tool, some tool. Okay,
+- [22:58] whenever we say some tool that it can be
+- [23:01] a third party tool, it can be any kind
+- [23:02] of tool. Okay, it can be a third party
+- [23:05] APIs, it can be Google search, it can be
+- [23:08] something else, right?
+- [23:10] And based on this particular tool what
+- [23:12] should happen is that whenever we give
+- [23:13] an input saying that today's AI what are
+- [23:16] the today's AI news the LLM should be
+- [23:17] able to make a decision okay I will not
+- [23:20] be able to answer this particular
+- [23:21] question so now I'm dependent on some
+- [23:23] other tool which will be able to answer
+- [23:25] this particular question because this
+- [23:27] tool is currently connected to the
+- [23:30] current data or current like today's
+- [23:33] news it is basically connected to right
+- [23:35] specifically AI news and this will be
+- [23:37] able to give me the response and This
+- [23:39] response that you basically get from
+- [23:41] here it is basically called as context
+- [23:44] right and then only the LLM will be able
+- [23:46] to generate the output right so in this
+- [23:48] particular scenario where we have a LLM
+- [23:51] being dependent on some other tool and
+- [23:54] from where we are basically getting a
+- [23:55] context as soon as we give an input the
+- [23:57] LLM is able to make a decision okay I'm
+- [24:00] not able to answer this I have to
+- [24:02] probably dependent on the tool which
+- [24:04] tool will be able to answer this
+- [24:05] particular question and it will be able
+- [24:06] to give the context and generate the
+- [24:07] output so This is nothing but it is a
+- [24:10] basic agent. It is a basic
+- [24:15] agent. Okay, it is a basic agent. This
+- [24:19] is the simple functionality of an agent.
+- [24:23] Okay, so uh that is what an agent is all
+- [24:26] about. So I hope till now you have got a
+- [24:28] clear understanding what a basic agent
+- [24:31] looks like, right? So autonomously here
+- [24:33] you can see that it is able to make any
+- [24:36] kind of a simple decision like when to
+- [24:39] route what kind of query and how to
+- [24:41] properly solve that particular task.
+- [24:43] Okay. So uh whenever we talk with
+- [24:47] respect to an agent before creating a
+- [24:49] agent with the help of langin was little
+- [24:51] bit tough you know so before we used to
+- [24:53] use an LLM model then we used to create
+- [24:55] a a tool separately then we had to
+- [24:58] probably go ahead and do a linkage
+- [25:00] between this particular tool to the LLM
+- [25:02] we used to use a architecture which is
+- [25:04] called as react architecture okay react
+- [25:08] architecture now with the help of this
+- [25:10] particular architecture we were building
+- [25:11] this specific agent but now Creating
+- [25:14] this agent has become simpler with the
+- [25:17] recent langchain version that is
+- [25:18] langchain uh version one. Okay. So now
+- [25:21] let me go ahead and show you that how we
+- [25:23] can quickly create an agent uh and how
+- [25:26] easy it is basically to create an agent.
+- [25:29] So first of all in order to create an
+- [25:31] agent what we will be doing is that we
+- [25:33] will just go ahead and define something
+- [25:36] called as from langchain.
+- [25:39] Okay. Langchain dot agents we import
+- [25:44] something called as create
+- [25:46] agent. Okay. Create agent. Now as soon
+- [25:50] as we write like this langen dot aagents
+- [25:53] create agent. Here we go ahead and
+- [25:56] define agent is equal to create agent.
+- [26:00] And inside this first of all we give our
+- [26:02] model name. Now model name can be given
+- [26:05] through different ways. So directly if
+- [26:07] I'm importing the open AAI library I
+- [26:10] will be giving the my model name. Let's
+- [26:11] say my model name is GPT5 which is the
+- [26:14] recent uh you know specific open AAI
+- [26:16] model. And then I will go ahead and use
+- [26:18] tools. So right now I will keep this
+- [26:20] tools and empty because I don't have any
+- [26:22] other tools created yet. Okay. And then
+- [26:26] apart from this tool we also provide
+- [26:28] some kind of system prompt. So here I
+- [26:32] will go ahead and write my system prompt
+- [26:33] saying that hey you are an helpful
+- [26:36] assistant. Okay. And then we have also
+- [26:38] kept verbose is equal to true. I will
+- [26:40] talk about what is verbose. Okay. It'll
+- [26:42] give you more information with respect
+- [26:44] to the invocation. Now as soon as I go
+- [26:46] ahead and just run or uh write this. So
+- [26:49] here you can see it got an unexpected
+- [26:51] keyword argument. I think verbose is not
+- [26:53] supported yet for this. So let me remove
+- [26:56] it. Okay. Now let me just go ahead and
+- [26:59] uh execute this agent. Now you'll be
+- [27:01] able to see some kind of diagram over
+- [27:03] here. Okay. And that diagram will
+- [27:06] definitely match this diagram that we
+- [27:09] have created. Okay. So this is how we
+- [27:12] basically go ahead and create a basic
+- [27:14] agent. But right now you can just see
+- [27:16] that tools is right now empty. Okay. So
+- [27:19] what we have we have start, we have
+- [27:21] model and we have end. So that basically
+- [27:23] means
+- [27:24] we just have this input lm and output.
+- [27:28] still that tool connection is not there
+- [27:30] because we have not created any tool
+- [27:33] right so now what I will do I will just
+- [27:35] go ahead and define one function so
+- [27:37] let's say this is my get weather
+- [27:39] function I will give my city over here
+- [27:43] which will be in the form of string and
+- [27:45] this will also return string okay and
+- [27:49] here I will just say return the weather
+- [27:51] in this city is sunny that's it okay I
+- [27:54] can also provide some dock string to
+- [27:57] provide some more information related to
+- [28:00] this particular function. It's like get
+- [28:02] the weather for a city. Okay. And now
+- [28:04] this same tool I can add it over here.
+- [28:08] So that basically means if I ask what is
+- [28:12] the weather of Bangalore now the LM will
+- [28:15] be much more smarter enough to know that
+- [28:18] which tool it needs to call. Right? So
+- [28:21] now what I have done is that we have
+- [28:24] created a function which is called as
+- [28:27] which is called as get weather. Okay. So
+- [28:29] here what we have done is that we have
+- [28:32] created a function which is called as
+- [28:34] get weather. And this get weather is
+- [28:37] added as a tool to this particular LLM.
+- [28:40] Okay. Now if I ask hey what is the
+- [28:43] weather for this particular city? Now
+- [28:46] the LLM will make a decision. It will
+- [28:48] not have the current information
+- [28:49] obviously right because it is already
+- [28:52] trained with the previous data. So it
+- [28:54] knows that it has to call this get
+- [28:56] weather function or tool right and then
+- [28:58] it'll try to get the context. The
+- [29:00] context is nothing but whatever this
+- [29:02] function is returning that is the
+- [29:04] context and finally it will be
+- [29:05] generating the output. Okay now see this
+- [29:08] as soon as I created a function get
+- [29:10] weather and I updated inside this tools.
+- [29:13] Right now I have this tool that is
+- [29:15] available. Now you see how this agent
+- [29:18] diagram will change. Now you can see
+- [29:20] that right. So now I have start the
+- [29:23] model which is my LLM and this is
+- [29:25] basically connected to my tools. Now
+- [29:28] whenever I ask any question with respect
+- [29:30] to weather this model will definitely go
+- [29:32] ahead and hit the tool get the response
+- [29:34] and it will display the output. Now in
+- [29:37] order to run the agent it is very
+- [29:39] simple. I will go ahead and run the
+- [29:43] agent over here. And running the agent
+- [29:45] is very simple. Well, I will write
+- [29:46] agent.invoke
+- [29:48] agent.invoke.
+- [29:51] And let's say that I will go ahead and
+- [29:54] uh you know just write what is the
+- [29:56] weather like in New York. I know this is
+- [29:59] not going to give me New York weather
+- [30:01] because here I'm just returning a simple
+- [30:02] string. But just imagine that here we
+- [30:05] had some API calls that was basically
+- [30:08] made in order to get the weather
+- [30:10] information and uh here we can display
+- [30:13] that particular information. So now if I
+- [30:14] go ahead and execute this clearly you
+- [30:17] will be able to see that I'm getting one
+- [30:19] error. Let's see uh expected dictionary.
+- [30:22] Okay. So this is not the right format to
+- [30:24] give it. The simple reason is that we
+- [30:27] need to give it in the form of a
+- [30:29] messages. So I will write messages
+- [30:33] colon.
+- [30:35] Okay. And then I will give it in the
+- [30:38] form of a role. like role is like user
+- [30:41] because it is a user message human
+- [30:44] message. We will talk more about these
+- [30:46] different types of messages as we go
+- [30:47] ahead but right now I just want to show
+- [30:49] you how you can go ahead and run this
+- [30:51] particular agent. So role is equal to
+- [30:53] user and content we are writing what is
+- [30:55] the weather like in New York. Now if I'm
+- [30:57] giving in this fun see the error is very
+- [30:59] simple over here that you have got
+- [31:01] expected dictionary. So whenever we are
+- [31:03] using this inbuilt function called as
+- [31:06] create agent for creating the agent in
+- [31:09] this particular scenario we have to give
+- [31:11] the input in the form of a dictionary
+- [31:14] wherein my dictionary key will be in the
+- [31:16] form of a messages. Okay here if I'm
+- [31:19] writing messages and I'm executing this.
+- [31:22] So here you can see I'm given the role
+- [31:24] is equal to user and content what is the
+- [31:27] weather like in New York. So if I go
+- [31:28] ahead and execute it now you'll be able
+- [31:30] to clearly see the response. See guys,
+- [31:32] I'm showing you the error. I will not
+- [31:34] cut that particular error part because I
+- [31:36] want to show you each and everything.
+- [31:37] Okay. So now what is the weather like in
+- [31:40] New York? So first of all, this was the
+- [31:41] human message that has gone. You can
+- [31:43] also give it in the form of human
+- [31:44] message. We'll discuss more about the
+- [31:46] messages as we go ahead. Then here you
+- [31:48] can see the AI message is making a tool
+- [31:51] call. So somewhere here you'll be able
+- [31:53] to see that it has made a tool call. So
+- [31:55] let me just go ahead and see it. uh
+- [31:59] somewhere here you can see that it has
+- [32:01] made a tool call and it also knows which
+- [32:03] tool to call right get weather because
+- [32:05] it has this particular information. Now
+- [32:07] the question arises that how does LLM
+- [32:10] model knows that it has to make a get
+- [32:12] weather tool call because when we define
+- [32:14] this particular function get weather we
+- [32:16] have also put a dock string right and
+- [32:19] when we are assigning this tool to this
+- [32:21] particular agent this dock string it the
+- [32:24] LLM will understand which is the dock
+- [32:26] string over here like get the weather
+- [32:28] for a city now it knows that it will go
+- [32:30] ahead and call this particular function
+- [32:31] right so it made a tool message so here
+- [32:34] you can see the weather in New York is
+- [32:35] sunny it has just taken this particular
+- [32:38] uh city data and it is basically giving
+- [32:40] you the output like sunny right and then
+- [32:42] finally you can see the AI message it's
+- [32:44] sunny in New York right so once you get
+- [32:46] the context from the tool the model will
+- [32:48] be displaying the output right so if you
+- [32:50] want to also display the output over
+- [32:52] here you can just go ahead and write
+- [32:53] response is equal to agent this one and
+- [32:56] then I will just go ahead and write
+- [32:58] response of messages
+- [33:02] messages
+- [33:03] right so you can see messages and then
+- [33:06] you can just go ahead and take the last
+- [33:07] message dot contain and here you should
+- [33:10] be getting the output right so when you
+- [33:13] write messages
+- [33:15] last one you'll be getting the last
+- [33:17] output if you remember if you remove
+- [33:19] this also you'll be getting the entire
+- [33:20] conversation and all right let me also
+- [33:23] show you one more way you can also
+- [33:25] directly go ahead and write like this
+- [33:26] agent do invoke and here you can
+- [33:30] write in the form of messages
+- [33:34] and here you can just go ahead and Write
+- [33:37] something like this. What is the
+- [33:41] what is the
+- [33:44] weather in New York? So let's see
+- [33:48] whether we'll be able to get the output
+- [33:49] or not.
+- [33:52] Like this also you can directly write.
+- [33:53] You don't need to even specify that
+- [33:55] whether it is an human message or not.
+- [33:57] It will automatically identify it. Okay.
+- [34:00] So now here you'll be able to see that
+- [34:04] and there is a small spelling mistake
+- [34:06] and here also you can see that I'm
+- [34:07] getting a output. Okay and this is
+- [34:09] really really good even though I made a
+- [34:11] spelling mistake it is being able to
+- [34:12] give me the right output also. Okay so
+- [34:14] that's the most amazing part out there.
+- [34:17] So I hope you got a very basic idea of
+- [34:20] how to create an agent. What was an
+- [34:22] agent? We basically say this as an
+- [34:24] autonomous agent because based on the
+- [34:26] input the model is taking the decision
+- [34:28] which tools to call get the context and
+- [34:30] give you the output right so everything
+- [34:32] is happening over here but as we go
+- [34:35] ahead we will be creating multiple tools
+- [34:37] so this is one of the tool like that we
+- [34:39] can go ahead and create any number of
+- [34:40] tools as we like okay so this was just a
+- [34:43] basic way of creating an agent with a
+- [34:46] recent version now which version we are
+- [34:48] talking with right so I'll write import
+- [34:50] lang chain
+- [34:53] and import lang chain and I will just go
+- [34:56] ahead and print lang chain
+- [35:00] version
+- [35:02] right so it is 1.1.0
+- [35:04] So I hope uh in this video we have
+- [35:08] understood about agents
+- [35:11] basic agents right uh agents are like
+- [35:14] you know autonomously it will be doing
+- [35:16] this specific task that is assigned to
+- [35:17] it. So yeah in the next video now we
+- [35:20] will see how to integrate different
+- [35:22] different models we will talk about
+- [35:24] different kind of messages each and
+- [35:26] everything and uh as we go ahead like in
+- [35:29] this series we will be discussing about
+- [35:30] that. So let's go ahead and discuss the
+- [35:33] next thing that is model integration. So
+- [35:35] guys, now we are going to discuss about
+- [35:38] model integration with your LLM
+- [35:40] application or with your generative AI
+- [35:42] application and uh we will see three
+- [35:45] popular models that is open AI, Google
+- [35:47] geminy and gro you know in gro you have
+- [35:49] various open source models Google geminy
+- [35:51] whenever we talk about you know there
+- [35:53] are different geiny models and open AAI
+- [35:55] like you have GPD models you know 4.5
+- [35:58] whichever you want to specifically go
+- [36:00] ahead and use it okay now what we are
+- [36:02] going to do is that we I will just go
+- [36:04] ahead and show you with the recent
+- [36:06] updated langen like what are the
+- [36:08] different ways of invoking a specific
+- [36:11] model. Okay. So first of all I will go
+- [36:14] ahead and make a code sale you know and
+- [36:16] if you remember in our env file we have
+- [36:19] all the three API keys loaded over here.
+- [36:22] Okay. So first thing is that what I will
+- [36:24] do I will just go ahead and write import
+- [36:25] OS and then from env import load
+- [36:32] env right and I will go ahead and
+- [36:35] initialize the load env so that we load
+- [36:38] all the models right and then we are
+- [36:41] going to set our environment variable
+- [36:43] from the open AI API key so open AI API
+- [36:48] key is equal to os get env key and here
+- [36:53] also we are going to use the openi API
+- [36:55] key. Similarly, what you can actually do
+- [36:58] is that you can also load different
+- [36:59] different API keys like how you have
+- [37:01] seen over here. Grock API key uh you
+- [37:04] have Google API key and all right. So we
+- [37:07] will be using all these three models uh
+- [37:09] you know and uh we'll try to see that
+- [37:11] how we can go ahead and call them. Okay.
+- [37:13] So once I have initialized or once I
+- [37:16] have loaded all the environment
+- [37:17] variables specifically with respect to
+- [37:19] OpenAI API key, Google API key and gro
+- [37:21] API key. First I will show you how you
+- [37:23] can load the OpenAI model. Right. So for
+- [37:25] this uh first of all I will go ahead and
+- [37:27] initialize from langin dot chat_models
+- [37:30] import init chat model. Okay. So init
+- [37:34] chat model is one of the libraries that
+- [37:37] we specifically use in order to
+- [37:38] initialize any kind of chat model
+- [37:40] itself. Okay. Then we go to the next
+- [37:43] statement. We will use a variable called
+- [37:45] as models. So let's say I will write
+- [37:46] model. And here I will write init chat
+- [37:48] model. And you know by default you can
+- [37:52] directly provide your model name. Okay.
+- [37:55] Now, since I want to show you with
+- [37:57] OpenAI, so first of all, I will go ahead
+- [37:58] and write GPT. Let's say I want to go
+- [38:01] ahead and try 4.1. Okay, 4.1. And here I
+- [38:06] will just go ahead and write models.
+- [38:08] Okay, instead of writing models, I can
+- [38:09] also go ahead and write model. And now
+- [38:11] let's see uh what error I get. Okay,
+- [38:14] unable to inform provider for model is
+- [38:16] equal to okay, GTP I have written. It
+- [38:19] should be GPT 4.1, right? So I hope
+- [38:21] everybody knows different different
+- [38:22] models that are available in OpenAI. You
+- [38:25] have 4.1, you can have 4.5. Okay. So I
+- [38:28] will be using 4.1. So here you can see
+- [38:30] that now once I execute this, it gives
+- [38:33] me this information that it is a chat
+- [38:35] open AI model. Uh it has maximum output
+- [38:38] tokens all this information over here
+- [38:40] with respect to the model. Now comes
+- [38:43] like how do I go ahead and invoke the
+- [38:45] model? So let's invoke the model over
+- [38:48] here. Now in order to invoke the model
+- [38:50] uh with the help of init chat model or
+- [38:52] directly you can directly use this
+- [38:53] model.invoke invoke and let's say that I
+- [38:56] give a message saying that hello hello
+- [38:59] how are you okay how are you now here
+- [39:03] you can see that clearly I've given a
+- [39:05] simple message this is a human message
+- [39:07] itself and I will be able to get the
+- [39:09] response now let's go ahead and display
+- [39:11] the response so this is a simple like
+- [39:15] I'm giving this specific input this
+- [39:17] input goes to the model that is GPT 4.1
+- [39:19] and it'll give us some kind of response
+- [39:21] okay now once I go ahead and see the
+- [39:23] response You will be able to see that I
+- [39:25] get an AI message content. Hello, I am
+- [39:29] just a program but I'm here and ready to
+- [39:31] help you. How can I assist you today? So
+- [39:33] this is the response from the LLM model
+- [39:35] that is GP 4.1. Okay, if I really want
+- [39:38] to just get directly see the content, I
+- [39:41] can also go ahead and write
+- [39:42] response.content.
+- [39:44] Okay, once I do this, this is the output
+- [39:46] of the model that you will be able to
+- [39:47] see. So any kind of models that you have
+- [39:51] with respect to open AAI let's say I
+- [39:52] want to go ahead and try GPT 4.5 you can
+- [39:55] go ahead and change this whatever model
+- [39:56] you require or whatever model you really
+- [39:58] want to use from openAI you can change
+- [40:01] the model name and you can actually get
+- [40:02] it over here
+- [40:04] now comes the next one like how do I
+- [40:07] call a Google geminy model right so here
+- [40:11] I'm going to talk about Google Germany
+- [40:13] model integration
+- [40:15] so let's try this also Okay. So for
+- [40:19] Google Germany what I will do I have
+- [40:21] already loaded the environment. So I
+- [40:23] will write from langchain from langchain
+- [40:27] dot chat models import
+- [40:32] init chat model. Okay. So init chat
+- [40:36] model and here I can use this. Okay. So
+- [40:39] this is a markdown right. So I will
+- [40:41] delete this and let me execute it over
+- [40:44] here. lot of suggestions usually comes
+- [40:46] with uh Google uh this Google
+- [40:48] anti-gravity and I specifically use this
+- [40:51] I like it because for coding purpose it
+- [40:53] it becomes easy for me to quickly you
+- [40:56] know autocomplete all the code so uh now
+- [40:59] what I will do is that I will go ahead
+- [41:01] and just use this specific code now see
+- [41:05] this code so I'm using from langen chat
+- [41:07] models import init chat model okay here
+- [41:10] we are loading the Google API key and
+- [41:13] then we are using init Chad model but to
+- [41:16] specify this Google Germany model we
+- [41:18] just have to write google genai colon
+- [41:21] whatever model name you are specifically
+- [41:23] using from Google gy right there may be
+- [41:26] different different models so I will use
+- [41:28] google genai colon geminy 2.5 that will
+- [41:32] be model and I've just written
+- [41:34] modelinvokes why do parrot talk you know
+- [41:37] so this is the question that I have
+- [41:38] given up from the human I get the
+- [41:40] response and I will just go ahead and
+- [41:41] display the response so once I display
+- [41:44] the response. Now you should be able to
+- [41:45] see that the output that you're getting
+- [41:48] will be from the Gemini 2.5 flashlight.
+- [41:50] Okay. So I have already initialized I
+- [41:52] have already loaded the Google API key.
+- [41:54] For the first request I think it is
+- [41:55] going to take some amount of time but
+- [41:57] after that uh if my API key is
+- [41:59] absolutely working I'm actually going to
+- [42:01] get the response. So this is how you can
+- [42:04] use init chat model and integrate with
+- [42:07] Google API key. So here you can see that
+- [42:09] I have got the answer. Parrots don't
+- [42:12] talk in the same way human dos with
+- [42:13] understanding intent behind every word
+- [42:15] instead they are remarkable something
+- [42:17] like that right so this is the output
+- [42:18] from the Google geminy 2.5 flash slide
+- [42:22] now I also want to show you instead of
+- [42:26] using init chat model we can also use
+- [42:28] one more way okay and that is basically
+- [42:31] by using chat open AI chat open AI now
+- [42:36] in order to use chat open AI what I will
+- [42:38] do first of all I will go ahead and see
+- [42:39] in my requirement txt okay
+- [42:42] requirement.txt txt do I have the
+- [42:45] necessary library that I'm actually
+- [42:47] looking for okay now you may be thinking
+- [42:49] kish what kind of libraries that you
+- [42:51] specifically require right so here we
+- [42:53] have already have lang chain open aai
+- [42:55] you know so langchain openai is
+- [42:57] basically installed or not so first of
+- [42:58] all you have to probably go ahead and
+- [43:00] check that so if that is installed I
+- [43:02] think you are good to go over here right
+- [43:04] now for chat openai if I really want to
+- [43:07] use what is the library that I need to
+- [43:09] import right so here I will go ahead and
+- [43:11] write from langun _ openai input chat
+- [43:14] openai then we will go ahead and
+- [43:16] initialize chat openai
+- [43:19] and here I'm just going to go ahead and
+- [43:20] give my model name so model is equal to
+- [43:23] and let's say I will just go ahead and
+- [43:25] use gpt 4.1 okay so this is my model is
+- [43:31] equal to and then if I go ahead and just
+- [43:34] write response is equal to model.invoke
+- [43:36] invoke
+- [43:38] invoke let's say I go ahead and write
+- [43:40] hello how are you I should be able to
+- [43:42] get the same output like how we got it
+- [43:44] over here okay so using init chat model
+- [43:48] basically gives you an option of
+- [43:51] indirectly using this chat open see here
+- [43:53] also when you see this specific model it
+- [43:55] is nothing but chat open AI so there is
+- [43:57] also one more way of basically calling
+- [43:59] this particular model now since you have
+- [44:01] chat open AI and in the requirement txt
+- [44:04] you have also installed lang function
+- [44:06] Google gen AI. So here also you have an
+- [44:09] option of something called as chat
+- [44:12] Google generative AI. Okay. So if I go
+- [44:15] ahead and paste it, you can see from
+- [44:16] langchain Google genai import chat
+- [44:20] Google generative AI. I've used again
+- [44:22] Germany 2.5 flashlight to pirate stock.
+- [44:24] If I go ahead and see the response
+- [44:27] uh you know this kind of suggestion will
+- [44:29] come. So don't get worried about it
+- [44:31] because we are not going to use the
+- [44:32] suggestion over here. Okay. So here is
+- [44:34] my output from this specific uh Google
+- [44:38] um means Google Germany integration. Now
+- [44:42] uh these are the ways you can either use
+- [44:44] in chat model, you can use chat open AI.
+- [44:46] If you if you're specifically using
+- [44:48] OpenAI models, if you want to go ahead
+- [44:49] and use uh Google Germany models, then
+- [44:52] you can use chat Google generative AI or
+- [44:54] within the init chat model, you can go
+- [44:55] ahead and call the Google uh Google
+- [44:57] models itself, Germany models. Now the
+- [45:00] third one that I'm going to use is Grock
+- [45:02] model integration. Now similarly Grock
+- [45:05] model integration will also be very very
+- [45:08] easy. Okay.
+- [45:11] So again two ways. One is by using init
+- [45:14] chat model. So here you can see now uh I
+- [45:17] am imported init chat model. I have my
+- [45:20] environment variable set up for grock
+- [45:22] API key. And then you can see I'm using
+- [45:24] init chat model with my gro. Now this
+- [45:27] time I'm writing grock over here. See
+- [45:29] before I I wrote what over here Google
+- [45:31] genai and the model name of Google
+- [45:33] Germany but here this time we are
+- [45:35] writing grock colon whatever model we
+- [45:38] want to specifically use from grock
+- [45:40] right you that quen is the recent model
+- [45:43] that has been uploaded over this I used
+- [45:45] this and then we are using model invoke
+- [45:47] why do parrot talk I'm able to get the
+- [45:49] response okay now you have init chat
+- [45:52] model so there should also be an option
+- [45:54] of chat gro okay so that will be my next
+- [45:57] one to show you so Here you can see that
+- [45:59] I'm getting the output. Okay. So why do
+- [46:01] parrots talk? Let me think about this. I
+- [46:02] know parrots are mimicking human speech
+- [46:04] and all and all all the information is
+- [46:06] over here. Now one more way that how we
+- [46:09] can basically call chatgro. So here
+- [46:11] you'll be able to see we can use lang
+- [46:14] grock. So again in the requirement.txt
+- [46:16] you can see we have imported lang grock.
+- [46:19] So I've imported from lang grock import
+- [46:21] chat gro. I'm calling the same model and
+- [46:23] I'm able to get the response. Okay. So
+- [46:26] here you will be able to see that I'm
+- [46:29] able to see the output with respect to
+- [46:31] the same thing. Okay. So this is uh
+- [46:35] pretty much clear I guess with respect
+- [46:37] to the model integration. I think uh we
+- [46:40] have done a pretty good job uh with
+- [46:43] respect to this and uh the all the
+- [46:46] integrations specifically uh one two
+- [46:49] ways of simple integration of calling
+- [46:51] the loading the model is from init chat
+- [46:53] model or let's say if you are using open
+- [46:55] AI then we use chat open AAI if you're
+- [46:57] using Google Germany let's say inside
+- [47:00] the init chat model you just write
+- [47:01] Google geni and then you basically write
+- [47:04] the model name whichever model name you
+- [47:06] so this you can change I can also use uh
+- [47:08] geminy 2.5 flash. Let's say I want to go
+- [47:11] ahead and use this flash. So here also I
+- [47:13] should be able to generate the content.
+- [47:15] It's like a very very easy approach of
+- [47:18] calling any kind of model specific to
+- [47:21] the LLM providers. Okay. So here you can
+- [47:24] see all the outputs you are basically
+- [47:25] getting. Okay. So this was about model
+- [47:28] integration. Now in my uh as we go ahead
+- [47:32] in this series, we will also be talking
+- [47:34] about the message structure, the
+- [47:36] streaming structure and all. Okay. uh so
+- [47:39] probably in this series now we should
+- [47:41] also go ahead and understand the
+- [47:42] streaming structure. So let's go ahead
+- [47:44] and discuss about that. So now we are
+- [47:47] going to discuss about this two
+- [47:48] important topics which is called as
+- [47:50] streaming and batch. Okay. Now why
+- [47:54] streaming and batch is important. So
+- [47:57] let's say that I go ahead and write
+- [47:59] model.invoke. You know how to invoke a
+- [48:02] specific model right? And let's say that
+- [48:03] I say hey write me a 200 words paragraph
+- [48:11] on artificial intelligence. So let's say
+- [48:14] if I'm asking this question to my model
+- [48:17] or to my LLM right and here you'll be
+- [48:20] seeing that we have to wait for the
+- [48:23] response to get generated and be
+- [48:25] displayed over here right. So this
+- [48:28] usually happens in invoke right but it
+- [48:30] is always a good practice that we try to
+- [48:34] stream the output as soon as is soon as
+- [48:37] it is generated from the LLM right so
+- [48:39] and that is where streaming can be very
+- [48:42] very handful so here you can see most
+- [48:44] model can stream the output content
+- [48:46] while it is being generated now in this
+- [48:48] particular case we had to wait till the
+- [48:51] LLM completely generated the content and
+- [48:54] then finally it displayed the output but
+- [48:56] in the case of streaming what we do is
+- [48:58] that we can also stream the output of
+- [49:01] the LLM model while it is being
+- [49:03] generated. So by displaying the output
+- [49:05] progressively streaming significantly
+- [49:08] improves user experience particularly
+- [49:10] for long responses. So for this we have
+- [49:14] to use this function which is called as
+- [49:16] stream. Okay, this returns an iterator
+- [49:19] that yields output chunk from the LLM
+- [49:22] and they also display it over here. So
+- [49:25] let's try to see that how this stream
+- [49:27] will basically work right now in order
+- [49:29] to do or work with streaming we will be
+- [49:32] using this inbuilt function called as
+- [49:33] model.stream stream. Okay. And let's say
+- [49:36] now I go ahead and ask, hey, write me a
+- [49:41] 200 words paragraph. Okay. On artificial
+- [49:44] intelligence. So let's display this
+- [49:46] right now. Okay. Let's execute this. So
+- [49:49] here you can see that it is creating a
+- [49:51] generator object. But our main aim is
+- [49:53] that this is of a stream type, right? We
+- [49:57] also need to display the output from the
+- [49:59] stream. So what I will do? I will use a
+- [50:01] for loop. So I'll say for chunk in
+- [50:05] model.stream
+- [50:06] and let's display sorry let's display
+- [50:11] the stream output. Okay. So here I will
+- [50:14] go ahead and print and I'll just go
+- [50:16] ahead and write chunk dot text. Now
+- [50:19] let's display this. Now here you can see
+- [50:21] that once we go ahead and execute this
+- [50:26] it did not wait for the entire content
+- [50:28] to be generated. So what we have done is
+- [50:31] that as the content is being generated
+- [50:33] from the LLM, the LLM is giving you the
+- [50:36] output. It is also getting displayed
+- [50:37] over here. Okay. In a much more better
+- [50:40] way for you all to see, what I will do,
+- [50:42] I will use some special character to
+- [50:46] just you know to just show you the
+- [50:49] content that is basically generated. So
+- [50:51] I will use this two parameter end is
+- [50:53] equal to that basically means I'm using
+- [50:55] some kind of delimiter over here. as
+- [50:57] soon as any token is generated from the
+- [51:00] llm and we also going to use flush is
+- [51:02] equal to true. Okay. Now see the output
+- [51:05] I have written write me a 200 work
+- [51:08] paragraph and here you can see that we
+- [51:10] are generating this particular text and
+- [51:12] this text is basically getting generated
+- [51:14] over here. Okay. Now let's try some more
+- [51:18] uh some more good things inside this uh
+- [51:20] instead of just writing like this you
+- [51:22] know I will also go ahead and uh you
+- [51:25] know just try to display something over
+- [51:27] here so let's go ahead and do this and
+- [51:30] here you can see that I'm just writing
+- [51:32] why do parrots have colorful feathers
+- [51:34] okay feathers so now it is going to
+- [51:37] print the chunk text and here you can
+- [51:39] see that paragraph by paragraph as the
+- [51:42] content is basically getting generated
+- [51:45] it is also being displayed in the
+- [51:46] output. So this is an example of stream
+- [51:50] and the main thing is that you can
+- [51:52] stream the output from the llm while it
+- [51:54] is being generated. Right? So we don't
+- [51:56] have to wait till the entire text is
+- [51:59] generated. Now if I go ahead and ask the
+- [52:01] same question over here. So let's say I
+- [52:04] go ahead and ask the same question and
+- [52:07] here instead of you know why do parrots
+- [52:10] have colorful
+- [52:12] feathers? If I just go ahead and use
+- [52:14] model.invoke invoke. So here what I will
+- [52:16] do I'll remove all these things. Okay, I
+- [52:18] will remove all these things and we will
+- [52:20] try to generate it by using
+- [52:22] model.invoke. Now see we have to wait
+- [52:24] for the output. Okay, model.invoke it is
+- [52:26] giving me some syntax. No worries I will
+- [52:29] fix it. Now see I'll wait for the
+- [52:30] output. I'm waiting waiting waiting and
+- [52:33] then finally the response gets
+- [52:35] generated. Right? Once the entire
+- [52:38] response is output is created then only
+- [52:40] it'll get generated. But in this case of
+- [52:42] streaming as it is generated we are also
+- [52:44] able to see. Okay. Now similarly there
+- [52:47] is also one more concept which is called
+- [52:49] as batch. Okay. Now batch is a
+- [52:53] collection of independent requests to a
+- [52:55] model which can significantly improve
+- [52:58] performance and reduce cost as the
+- [53:00] processing can be done parallel. Now
+- [53:03] there may be scenario that you may have
+- [53:06] multiple inputs. So let's say I will go
+- [53:09] ahead and create some kind of response.
+- [53:10] See, I'm using model.batch function.
+- [53:13] Inside this, I have a list of inputs.
+- [53:17] Like my first question is why do parrots
+- [53:19] have colorful weathers? I'm writing how
+- [53:21] do airplane fly? What is quantum
+- [53:23] computing? Now, I have three different
+- [53:25] questions and I want to send all this
+- [53:29] question as an input to the LLM model in
+- [53:32] a parallel way, right? I want the output
+- [53:35] parallelly, right? So that is what it is
+- [53:38] over here. You can see batch is a
+- [53:39] collection of independent requests to a
+- [53:41] model which can significantly improve
+- [53:44] performance and reduce cost as the
+- [53:45] processing can be done parallel. So if
+- [53:46] I'm giving three inputs, this will go
+- [53:49] parallelly to the model and generate the
+- [53:50] output. So let's go ahead and see the
+- [53:52] output. Now here you can see all these
+- [53:55] three questions has gone together by
+- [53:57] using this model.batch and automatically
+- [54:00] you'll be able to see all the output all
+- [54:02] at once. Okay, three responses it will
+- [54:04] generate and you are able to see the
+- [54:06] output all at once. Similarly, I can
+- [54:09] also set one more parameter inside this
+- [54:12] which is basically called as max
+- [54:15] currency. Right? So there is a config
+- [54:19] parameter which you can basically add
+- [54:21] along with this model.batch
+- [54:23] functionality which says that how many
+- [54:27] parallel calls you can actually make. So
+- [54:29] here you can go ahead and set it max
+- [54:30] concurrency is equal to five and then
+- [54:33] probably go ahead and do it right. So
+- [54:35] anyhow my questions are three if I'm
+- [54:37] giving 10 10 different questions all at
+- [54:40] a time. So it'll take five five and then
+- [54:42] it'll probably send it to the LLM and
+- [54:44] generate the output. Right? So I hope
+- [54:47] you got a very clear idea about
+- [54:51] streaming and batch and this is
+- [54:54] necessary because if you are working for
+- [54:56] any company developing chat bots most of
+- [55:00] the time you are definitely going to use
+- [55:01] streaming but there may be scenarios
+- [55:04] that you also want to probably go ahead
+- [55:06] and use batch functionality. So I hope
+- [55:08] you like this particular video.
+- [55:11] So I hope you have understood this. Now
+- [55:13] let's go ahead towards the next section
+- [55:15] wherein we are going to understand about
+- [55:17] tools creation. So guys till now we have
+- [55:20] already discussed about streaming and
+- [55:23] batch and along with this we also saw
+- [55:26] the model integration like how you can
+- [55:27] go ahead and integrate different kind of
+- [55:29] LLMs with the help of two important
+- [55:31] functionality or two important
+- [55:33] libraries. one is initate chat model and
+- [55:36] you can see that we have also used chat
+- [55:38] gro chat open AI and uh along with that
+- [55:42] we also had chat Google generative AI
+- [55:44] right now it's time that uh we move
+- [55:46] towards one more step ahead and we talk
+- [55:48] about how to go ahead and work with
+- [55:52] tools so if you remember we had
+- [55:55] discussed about a simple agent right in
+- [55:57] an agent basically an LLM will be
+- [55:59] connected to a tool now this tool is
+- [56:02] just some kind of functionality It can
+- [56:04] be a API request. It can be uh inbuilt
+- [56:07] tools. It can be news reporting tools.
+- [56:10] It can be Google search engine tool. It
+- [56:12] can be any kind of independent
+- [56:14] functionality tool. Right? Now in this
+- [56:19] series of videos now we are going to
+- [56:21] understand like how we are going to go
+- [56:24] ahead and create tools. Right. So first
+- [56:27] of all what I will do I will go ahead
+- [56:29] and create a ipynb file. And here you
+- [56:31] can see tools definition is basically
+- [56:33] given. Model can request to call tools
+- [56:36] that perform tasks such as fetching data
+- [56:38] from a database, searching the web or
+- [56:40] running code. Tools are pairing of a
+- [56:43] schema including the name of the tool,
+- [56:45] argument and definition and function or
+- [56:48] core routine to execute. So here what we
+- [56:50] are basically going to do is that first
+- [56:52] of all I will show you how you can
+- [56:55] basically create a tool right in a
+- [56:57] simple way. So first of all as usual I
+- [57:01] will use one of my LLM model. The LLM
+- [57:04] model that we are going to use is Grock
+- [57:06] Quen 332B. And here you can see that I'm
+- [57:09] also able to invoke the model. This we
+- [57:12] have already learned in the previous
+- [57:14] section. Right? So inside this response
+- [57:16] you will be able to understand like what
+- [57:18] is the response that you're getting from
+- [57:19] the LLM.
+- [57:22] But with this particular model I need to
+- [57:24] integrate some tool. Okay. Now in order
+- [57:27] to integrate what tool I will first of
+- [57:29] all create and what is the basic schema
+- [57:32] definition for creating a tool. So
+- [57:34] whenever we need to create a tool first
+- [57:36] of all I will go ahead and you know use
+- [57:40] a import function from langen.tools I
+- [57:43] will import something called as tool.
+- [57:45] Okay. Now this tool library that we are
+- [57:49] importing over here will be used as a
+- [57:51] decorator. So when we use this as a
+- [57:53] decorator on top of any function that
+- [57:56] function will actually become a tool in
+- [57:58] langin. Okay. So here first of all we'll
+- [58:01] write add the rate tool. I will go ahead
+- [58:03] and define my function. Let's say this
+- [58:05] function is nothing but get weather. Now
+- [58:07] inside this get weather I will be using
+- [58:10] a variable which is called as location.
+- [58:13] And this will give you a string type.
+- [58:15] Okay. And here I will also go ahead and
+- [58:18] define. See if you see the definition
+- [58:22] whenever we talk about tool it is
+- [58:24] nothing but is pairing of schema
+- [58:26] including the name of a tool description
+- [58:29] and or argument definition. So here I am
+- [58:32] going to go ahead and provide some dock
+- [58:33] string. Now this dock string will play a
+- [58:35] very important role. I will talk about
+- [58:37] it. Okay. So I'll say at a location.
+- [58:40] Okay. So get weather at a location. Now
+- [58:43] this definition uh this schema that we
+- [58:46] have or this doc string that we have
+- [58:48] defined over here this is important
+- [58:50] because when we bind this tool with the
+- [58:52] LLM the LLM will be able to identify the
+- [58:55] functionality of this particular
+- [58:57] function okay what exactly it is doing
+- [59:01] from this particular dock string okay so
+- [59:04] that's the reason we have written this
+- [59:05] dock string so now I will go ahead and
+- [59:07] say return and here you can write any
+- [59:10] functionality that you want okay so
+- [59:12] let's I'm hard coding right now the
+- [59:14] temperature. What you can actually do is
+- [59:16] that you can go ahead and hit a API
+- [59:18] request or database request over here
+- [59:20] and get the information. So I'll write
+- [59:21] it's sunny in this specific location
+- [59:24] which location I'm actually using. Okay,
+- [59:27] by default I'm saying it's sunny. Okay,
+- [59:30] now this is done right. I have a tool
+- [59:31] over here. Now this tool needs to be
+- [59:34] binded with my model, right? So if you
+- [59:36] see over here, if I want to bind this
+- [59:39] LLM with this particular tool, how do I
+- [59:41] do it? Okay. So for that I will be using
+- [59:44] model dotbind
+- [59:46] tools. Okay. So bind tools and here we
+- [59:50] are basically going to use this
+- [59:51] particular tool which is called as get
+- [59:54] weather. Okay. Get weather and here we
+- [59:58] can go ahead and write model_with
+- [60:02] tools. Now this is one way. Okay. The
+- [60:05] other way is that what we have learned
+- [60:07] right we can directly use this we can
+- [60:10] use this function right create agent
+- [60:13] give the model name give the tools and
+- [60:15] automatically this will get created
+- [60:17] right that we have already shown and
+- [60:18] this is one of the functionality which
+- [60:20] we used to use before also that is
+- [60:22] nothing but binding tools okay now once
+- [60:25] I bind this tool the next thing is that
+- [60:28] how do I call this okay see now in order
+- [60:32] to call it I will say model bit tools
+- [60:34] dot invoke what's the weather like in
+- [60:36] Boston and here now I can go ahead and
+- [60:39] iterate through this response tool calls
+- [60:41] see if I just go ahead and print the
+- [60:44] response first of all you'll be able to
+- [60:46] see
+- [60:48] I'll print this response
+- [60:50] now when we are printing this response
+- [60:52] here you'll be able to see that the
+- [60:55] reasoning contain is the user is asking
+- [60:57] for about the weather in Boston I need
+- [60:59] to use the get weather function see
+- [61:01] automatically now LLM is able to make a
+- [61:04] decision that what functionality needs
+- [61:06] to be called and here you can see that
+- [61:07] we also printing the tool calls that it
+- [61:10] is doing. So tool call of name is
+- [61:12] nothing but weather and argument it is
+- [61:14] basically requiring is nothing but
+- [61:15] location. Okay. So this is the most
+- [61:18] simplest way of you know working with a
+- [61:22] tool just directly go ahead and use a
+- [61:24] decorator provide some kind of schema or
+- [61:27] dock string and just go ahead and bind
+- [61:29] it with the tool. Either you can do like
+- [61:31] this or if you're directly creating an
+- [61:33] agent you would just define that
+- [61:35] particular schema means the function and
+- [61:38] then you use this create agent with the
+- [61:39] model name with the tool name and here
+- [61:41] you'll be able to get it right. This is
+- [61:43] the most simplest way. Okay.
+- [61:47] Now I really want to show you one more
+- [61:49] important technique which is called as
+- [61:51] tool execution loop.
+- [61:55] Tool execution loop. Now see first of
+- [61:59] all inside this what I will do I will
+- [62:03] paste this code now see initially we set
+- [62:06] up a message from the role user saying
+- [62:08] that the user is sending the message
+- [62:10] what's the weather in Boston now we are
+- [62:12] using model with tools do invoke of
+- [62:14] message then here I will be getting my
+- [62:16] AI message and inside this message we
+- [62:18] are also appending this particular AI
+- [62:20] message and you know inside this AI
+- [62:22] message it will be nothing but it will
+- [62:23] be a tool call right we are making a
+- [62:25] tool call which is nothing but weather
+- [62:26] data
+- [62:27] Right? We are making a tool call over
+- [62:29] here. Right? Now for tool calls in AI
+- [62:32] message.tool calls. Now that get
+- [62:35] weather.invoke of tool call we are
+- [62:37] doing. See at the end of the day if you
+- [62:39] see whenever we make a tool call we are
+- [62:41] basically calling get weather and
+- [62:43] internally we are using this get
+- [62:45] weather.invoke of tool call so that we
+- [62:48] get the response from this. See over
+- [62:50] here if I go ahead and show you when we
+- [62:53] are making the tool call the tool call
+- [62:54] will go ahead and provide us the output
+- [62:57] that is nothing but the context and with
+- [62:59] the help of this particular code get
+- [63:01] weather.invoke of tool call we are
+- [63:03] getting the tool results and that also
+- [63:06] we are appending it inside our message
+- [63:08] and finally you'll be able to see the
+- [63:09] message text since we are using model
+- [63:11] with tool.invoke invoke now see I will
+- [63:14] execute this step by step you'll be
+- [63:15] seeing the weather in Boston is sunny
+- [63:18] right and if you go ahead and just see
+- [63:20] this messages section messages section
+- [63:24] you should be able to see the role the
+- [63:26] AI message that you got and the tool
+- [63:28] message like when the tool got executed
+- [63:31] it is giving this particular response at
+- [63:32] sunny in Boston so when model with tools
+- [63:35] do invoke it is going it is basically
+- [63:37] getting the context from the tool and it
+- [63:40] is displaying the output Right. So
+- [63:42] that's easy with respect to the tool
+- [63:44] execution loop. Okay. So I hope uh you
+- [63:47] got an idea with respect to tools. Very
+- [63:50] basic way of creating this. Now the main
+- [63:53] thing is that internally you can write
+- [63:55] any definition you want to use inbuilt
+- [63:58] tools that are available in lang chain.
+- [63:59] You can directly go ahead and write the
+- [64:01] code. The most important thing is that
+- [64:03] what response you are basically
+- [64:04] generating out of that particular tool.
+- [64:06] Right? So this was a quick revision on
+- [64:08] understanding about how you can actually
+- [64:11] specifically work with a tool. So now as
+- [64:14] we go ahead now we are also going to
+- [64:16] discuss about one more uh important
+- [64:19] thing that is called as messages. Now
+- [64:21] what are the different types of messages
+- [64:23] there is something called a system
+- [64:24] message AI message human message. So
+- [64:27] that part we will go ahead and discuss
+- [64:29] it. So yes uh let's go ahead and discuss
+- [64:31] about that. So guys, till now we have
+- [64:33] covered various topics specific to tools
+- [64:36] and how you can integrate tools with the
+- [64:39] LLM models um and probably go ahead and
+- [64:42] create a generative AI application. Now
+- [64:45] we are going to move towards our next
+- [64:46] topic which is called as messages right
+- [64:49] and messages uh in short are a very
+- [64:52] important data structures that can be
+- [64:55] specifically used with langin.
+- [64:58] uh I will for I have written the
+- [65:00] definition I will go ahead and write the
+- [65:01] code in front of you each and everything
+- [65:03] we'll discuss step by step so first of
+- [65:05] all the messages are the fundamental
+- [65:07] unit of context for models in langen
+- [65:11] they represent the input and output of a
+- [65:13] model carrying both the content and
+- [65:16] metadata need to represent the state of
+- [65:18] a conversation when interacting with an
+- [65:20] LLM messages are object that contain
+- [65:23] role content and metadata role is super
+- [65:27] important. Okay, role basically
+- [65:30] identifies the message type. Now first
+- [65:33] of all what I'll do is that in order to
+- [65:35] show you the messages till now we have
+- [65:37] discussed in various places right you
+- [65:40] can see that I'm getting an output with
+- [65:42] respect to tool. So this is one kind of
+- [65:45] message whenever you see an output from
+- [65:48] a specific model right like here we have
+- [65:51] written model.invoke invoke on a
+- [65:52] specific question. The model when it is
+- [65:55] giving its output will be in the form of
+- [65:56] a message. So whenever a model gives an
+- [65:58] output, it is basically a AI message.
+- [66:01] Whenever a human is giving an input, it
+- [66:04] is nothing but a human message. So there
+- [66:08] are different kind of message structures
+- [66:10] that we are going to see. There are
+- [66:12] specifically three types which we are
+- [66:14] going to discuss one by one. Okay. So
+- [66:16] first thing first, what I am actually
+- [66:18] going to do, first of all, I will go
+- [66:19] ahead and initialize my model. Okay, now
+- [66:22] you know how to initialize your model.
+- [66:24] So I have imported OS from
+- [66:26] langchin.ch_model.
+- [66:28] Import init chat model. I'm using the
+- [66:30] gro API key as my environment variable.
+- [66:32] And then we have used init chat model
+- [66:34] with this quen model from grock. Okay.
+- [66:38] So I'll go ahead and execute this. Now
+- [66:40] see this is really important. Okay.
+- [66:42] Whenever I go ahead and write
+- [66:44] model.invoke on any specific input.
+- [66:48] Okay. So let's say I'll say uh please
+- [66:51] tell me
+- [66:53] what is artificial intelligence. Okay.
+- [66:56] So this is my question.
+- [66:59] Now by default when I give this specific
+- [67:02] input to the model this is treated as a
+- [67:05] human input or a human message. So once
+- [67:09] I execute this this as an input to the
+- [67:11] LLM is going as an input which is
+- [67:13] nothing but a human message. And when I
+- [67:16] want to see the output, I'll just go
+- [67:17] ahead and execute this. Now my output
+- [67:20] will be basically an output from the LLM
+- [67:23] which is nothing but an AI message. And
+- [67:25] the content that is inside this is the
+- [67:27] output from the LLM model. Okay. Now
+- [67:30] this is what a simple message basically
+- [67:33] looks like. Now two things we have
+- [67:35] discussed about human message AI
+- [67:36] message. I will deep dive more into it
+- [67:39] and probably talk more about it. Okay.
+- [67:42] But first of all before going to human
+- [67:45] message AI message we will start with a
+- [67:47] text prompt. Okay. So text prompt are
+- [67:50] nothing but they are strings idle for
+- [67:53] straightforward generation task where
+- [67:54] you don't need to retain conversation
+- [67:56] history. Okay. Now here you can clearly
+- [68:00] see that whenever I'm writing
+- [68:03] model.invoke with some specific
+- [68:05] question. Okay. So here when I'm writing
+- [68:08] model.invoke invoke with some question.
+- [68:10] Let's say I'll say what is langchain?
+- [68:14] Okay. Now in this particular scenario, I
+- [68:17] have not specified anything to the model
+- [68:19] like how the model should behave, right?
+- [68:22] I'm just providing a simple text, right?
+- [68:24] This text is treated as an human message
+- [68:26] internally. But I can also say this as a
+- [68:29] text prompt. Okay, so idle for
+- [68:30] straightforward generation task where
+- [68:32] you don't need to retain any
+- [68:33] conversation history. Let's say that I
+- [68:35] just want to give an input and get an
+- [68:36] output from the model. So in this
+- [68:38] particular scenario I will just go ahead
+- [68:39] and use this phenomena right. So when I
+- [68:42] say model.invoke what is langchain I
+- [68:44] will directly get an output in the form
+- [68:45] of AI message. Okay now use text prompts
+- [68:49] when you have a single standalone
+- [68:51] request. You don't need conversation
+- [68:53] history. You want minimal code
+- [68:54] complexity and all. Right now we will
+- [68:57] see in the different type like one more
+- [68:59] category which is called as message
+- [69:01] prompts. So here we have seen about text
+- [69:03] prompts. In text prompts I just specify
+- [69:05] my input. I get the output from the
+- [69:07] model. So now we will try to understand
+- [69:10] how is message prompts different than
+- [69:12] the text prompt. Okay. Now here we'll
+- [69:15] first of all see the definition.
+- [69:16] Alternatively, you can pass
+- [69:20] messages in the list of messages to the
+- [69:22] model by providing a list of message
+- [69:24] object. Okay. Now you need to first of
+- [69:26] all understand if I want to provide a
+- [69:29] list of messages, it can be a human
+- [69:31] message, it can be an AI message, it can
+- [69:34] be a system message. Now you should
+- [69:35] understand what exactly is a system
+- [69:37] message. System message is just like an
+- [69:40] instruction like how the LLM should
+- [69:43] behave. Okay, again let me repeat it.
+- [69:45] What is a system message? It is nothing
+- [69:48] but it is a kind of a instruction to the
+- [69:50] LLM like how it should basically behave.
+- [69:53] So in the case of message types you have
+- [69:56] different messages like system message,
+- [69:58] human message, AI message and tool
+- [70:00] message. First of all we'll understand
+- [70:02] the definition of system message. System
+- [70:04] message tells the model how to behave
+- [70:05] and provide context for interaction.
+- [70:07] Human message is nothing but it
+- [70:09] represents user input and interaction
+- [70:10] with the model. AI message is nothing
+- [70:12] but response generated by the model
+- [70:14] including text content, tools and
+- [70:16] metadata. Tool message represents the
+- [70:19] output of a tool call. Okay. So all this
+- [70:23] information is basically over here. So
+- [70:25] here you can see system message
+- [70:26] definition, human message, AI message
+- [70:28] and tool message. So let's go ahead and
+- [70:30] see this particular example. Okay. So
+- [70:32] first of all what I will do I will go
+- [70:34] ahead and import all these messages
+- [70:36] types. So in order to import I will use
+- [70:38] from langchain dot messages import
+- [70:43] system message
+- [70:46] human message
+- [70:49] AI message. Okay now I will create a
+- [70:53] list of messages. Let's say that I'm
+- [70:55] having a conversation history also. So
+- [70:57] that's the reason I'm creating this list
+- [70:59] of messages. So let's say first of all I
+- [71:01] use a system message. Now this system
+- [71:04] message is just like an instruction to
+- [71:06] the LLM model like how the LLM model
+- [71:08] should behave. So I'll go ahead and
+- [71:09] write you are a poetry expert.
+- [71:14] Okay. So this is my first message. Let
+- [71:17] me go ahead and write human message over
+- [71:19] here. In the human message I will go
+- [71:21] ahead and say um this will be an input.
+- [71:24] I'll say write an write a poem on
+- [71:30] artificial intelligence.
+- [71:32] Okay,
+- [71:34] artificial intelligence because in
+- [71:37] chatbot usually this kind of
+- [71:39] conversation happens in a conversation
+- [71:41] history, right? There'll be a list of
+- [71:42] messages that will be happening. So
+- [71:44] let's say here uh I give the output or
+- [71:48] let's say I give this two information
+- [71:50] like a system message and a human
+- [71:52] message. Okay. So this is my list of
+- [71:54] messages. Now I'll use model.invoke and
+- [71:57] I'll give this messages over here. Okay.
+- [72:02] Over here I'll get it and I'll go ahead
+- [72:04] and get my response. Now let me do one
+- [72:07] thing. Let me go ahead and print my
+- [72:09] response dot content. Okay. Now see this
+- [72:14] both the messages are basically going.
+- [72:16] Okay. First is the instruction to the LM
+- [72:18] like how you should basically go ahead
+- [72:20] and u act like I'm saying you are a
+- [72:23] poetry expert and then probably I've
+- [72:26] given the input and based on this input
+- [72:28] I will be getting my AI message as the
+- [72:30] output okay the user wants a poem about
+- [72:32] artificial and let me start thinking
+- [72:33] about the key themes related to AI
+- [72:36] creating aspects how human build AI then
+- [72:38] maybe do and all this information is
+- [72:40] basically there and you're getting the
+- [72:42] output okay so this is what a simple
+- [72:47] you know a list of messages prompts look
+- [72:49] like okay here we can pass a list of
+- [72:52] messages in the form of a conversation
+- [72:54] history here I can also go ahead and
+- [72:56] write I provide AI messages over here
+- [72:58] and probably go ahead and try it out
+- [73:00] okay now let's see some more important
+- [73:02] thing right here the kind of examples
+- [73:06] that you have seen is with respect to a
+- [73:09] system message okay this was just a
+- [73:11] basic message itself right you just have
+- [73:13] a oneliner let me see one more example
+- [73:16] So here I've written system message I'm
+- [73:19] writing you are a helpful coding
+- [73:20] assistant. I've given this messages list
+- [73:23] human message as an input. How do I
+- [73:25] create a rest API? Right? And now you
+- [73:27] can also see this specific response. It
+- [73:30] will go ahead and try to create a rest
+- [73:31] API. So here you can see all the
+- [73:34] information. Okay the user is asking all
+- [73:36] this information is basically can
+- [73:37] creating a rest API invoid involves
+- [73:40] defining endpoints that handle this and
+- [73:42] that all the information is there. Okay.
+- [73:44] So that basically means we are able to
+- [73:46] get a good answer. Now till now the
+- [73:49] system message that we have specified is
+- [73:51] just a oneliner message. Sometime we
+- [73:52] want a detailed information provided in
+- [73:55] the system message so that we give more
+- [73:58] information to the LLMs. Right? So what
+- [74:00] we will do I will show you one more
+- [74:02] example where we give detailed
+- [74:05] information detailed info to the LLM
+- [74:08] through system message. Okay system
+- [74:11] message. So let's see this example. So
+- [74:14] this example is also really good. So
+- [74:16] here now I will say like this. Now see
+- [74:20] inside this we have provided a system
+- [74:22] message. I'm saying you are a senior
+- [74:25] Python developer with expertise in web
+- [74:26] frameworks. Now more context is
+- [74:28] basically given here. Before that I've
+- [74:30] just told that hey you are a helpful
+- [74:32] coding assistant. We have not specified
+- [74:34] any specific programming language like
+- [74:36] Python, Java, you know it can be C, C++,
+- [74:39] anything as such right? I've just
+- [74:40] provided a generic information. The
+- [74:42] answer was also very generic. Okay. But
+- [74:44] in this particular scenario, you can see
+- [74:46] that I provided a detailed information.
+- [74:48] You're assistant senior Python developer
+- [74:50] with expertise in web frameworks. Always
+- [74:52] provide code examples and explain your
+- [74:54] reasoning. Be concise but thorough with
+- [74:57] in your explanation. Now I wrote how do
+- [74:59] I create a rest API? The same thing. Now
+- [75:02] you see the response. The re response
+- [75:04] will be much more practical and it will
+- [75:07] be related to definitely Python. So if
+- [75:09] you go ahead and see this here you can
+- [75:11] see start the steps choosing flask
+- [75:13] install it the code example everything
+- [75:15] is over here and lot of messages are
+- [75:17] over here disable debug mode in
+- [75:19] production add input validation and all
+- [75:21] right so
+- [75:23] you can clearly see that if we provide
+- [75:26] more information inside this system uh
+- [75:29] message we will be able to get more
+- [75:31] proper response okay now this is what a
+- [75:34] simple things is right now I have also
+- [75:37] told you that whenever we provide the
+- [75:40] messages, we can also provide this three
+- [75:42] important information. One is role,
+- [75:45] content and metadata. Role basically
+- [75:48] identifies the message type whether it
+- [75:49] is system, user or human. Content
+- [75:52] represents the actual content of the
+- [75:53] messages. It can be text, audio and
+- [75:55] documents. Metadata is some kind like an
+- [75:57] optional fields. Okay. So let's say that
+- [76:00] I want to go ahead and define some kind
+- [76:01] of human message over here. Okay. My my
+- [76:04] human message with some metadata. So
+- [76:06] here you can see content is hello name
+- [76:08] is Alice ID is message 1 2 3. So here
+- [76:12] you can see we are providing two
+- [76:14] metadata information one is for
+- [76:16] identifying for different users and one
+- [76:19] is uniquely identified for tracing. So
+- [76:21] this is basically for tracing you know
+- [76:22] so that we can go ahead and trace it.
+- [76:24] Now if I go ahead and see the response
+- [76:28] see if I go ahead and just use
+- [76:29] model.invoke on this human message you
+- [76:32] should be able to see the response. So
+- [76:34] the user said hello. So I should be in a
+- [76:36] very friendly way. It'll be able to
+- [76:39] probably provide the response based on
+- [76:41] the metadata information also that we
+- [76:43] specifically have. Okay. Now this is
+- [76:46] just a specific idea about how you can
+- [76:49] play with system message, human message.
+- [76:52] Uh you know you can also have uh AI
+- [76:55] messages. You we have also spoken about
+- [76:57] the list of messages that you really
+- [76:59] want to work on. Right. Right. Let's see
+- [77:01] one more example. Okay. Now this example
+- [77:04] is also amazing. So here you can see I
+- [77:07] have written from langchen messages. I
+- [77:09] have imported AI message, system
+- [77:10] message, human message. AI message is
+- [77:12] that I'd be happy to help you with the
+- [77:14] question. Okay, create an AI message
+- [77:16] manually. We have created it. Okay, this
+- [77:18] is not generated by AI itself but we are
+- [77:21] creating our own message and we are
+- [77:22] assigning as label as AI message. Now I
+- [77:25] am adding all the information into the
+- [77:27] conversation history. So say they say
+- [77:29] you are a helpful assistant. have
+- [77:30] written as a human input initially we
+- [77:32] have written can you help me AI message
+- [77:34] is nothing but I'd be happy to help you
+- [77:36] with that question human message great
+- [77:38] what is 2 + 2 now this entire list of
+- [77:41] conversation can be also understood by
+- [77:42] the llm and based on this it should also
+- [77:45] be able to give you the output so here
+- [77:48] you can see clearly how the output is
+- [77:52] right first 2 + 2 is four that's
+- [77:53] straightforward but may I should I
+- [77:55] explain this this so this is a reasoning
+- [77:57] model that we have specifically used
+- [77:59] right so That's the reason it is
+- [78:00] providing a lot of reasoning stuff and
+- [78:02] all. Now inside this can I also go ahead
+- [78:05] and see my metadata. So in order to see
+- [78:07] the metadata so I can write response dot
+- [78:10] metadata. Okay or usage metadata. And
+- [78:14] here you can see that you'll also be
+- [78:16] able to get the information like uh how
+- [78:18] much was the input token, how much
+- [78:19] output token was generated by the LLM
+- [78:21] and what are the total number of tokens.
+- [78:22] So that you will be able to see all the
+- [78:24] information out there. Right? So this is
+- [78:26] also there. Now we have discussed about
+- [78:30] all the things. There is only one
+- [78:32] message that is remaining that is
+- [78:34] nothing but tool messages. Now already
+- [78:36] in our previous example we have
+- [78:38] understood about tools. Tools message is
+- [78:40] nothing but it's just like an output
+- [78:42] that is provided by the tools. Right? So
+- [78:44] whenever an LLM require a help of a
+- [78:47] tool, it will go ahead and make a tool
+- [78:49] call and whenever that tool specifically
+- [78:51] gets executed, it is just going to go
+- [78:53] ahead and give you the output. Okay. So
+- [78:56] finally let's go ahead and talk about
+- [78:58] tool. Okay. And here I will be taking
+- [79:01] another example.
+- [79:03] Right. So here you can see I've used AI
+- [79:05] message and tool message. In the AI
+- [79:07] message I've empty content but we are
+- [79:09] making a tool call. Okay. The name of
+- [79:11] the tool that we are going to make is
+- [79:13] get weather. Argument is nothing but
+- [79:15] location as San Francisco and we have
+- [79:17] also used id. Weather result whatever we
+- [79:20] are basically getting we have hardcoded
+- [79:21] it. Now I'm using this tool message with
+- [79:24] content is equal to weather result and
+- [79:25] tool ID. Now see I've asked the question
+- [79:28] what's the weather in San Francisco then
+- [79:30] AI message is basically given from here.
+- [79:33] Okay. And then tool message is nothing
+- [79:35] but the output uh that we get from here
+- [79:37] after executing the weather result. So
+- [79:39] now if I go ahead and execute this and
+- [79:41] probably go ahead and see the response I
+- [79:44] should be able to get the output as
+- [79:46] okay. Uh uh one more very important
+- [79:48] thing is that if you see this specific
+- [79:50] tool message okay so if I go ahead and
+- [79:53] see my tool message it is nothing but it
+- [79:55] is coming as a tool message okay and
+- [79:58] once this tool message is there we are
+- [80:00] giving as an in uh input to the model so
+- [80:04] that is the reason model.invoke invoke
+- [80:05] of messages when we execute we are
+- [80:06] getting the response as a message. So I
+- [80:10] hope you got an idea with respect to
+- [80:12] different types of messages. You can go
+- [80:14] ahead and try it out. Explore more about
+- [80:16] it. You know u since this is the updated
+- [80:19] version of langchain uh my
+- [80:21] responsibility is to cover all the
+- [80:23] specific topics as the updates are
+- [80:25] basically coming up. Okay. Now uh as we
+- [80:27] go ahead we'll also be talking about
+- [80:29] different structured output where we
+- [80:31] talk about pentic we talk about nested
+- [80:33] structures we talk about typed deck. Um
+- [80:36] so that part uh we will be covering now.
+- [80:39] So now we are going to discuss about
+- [80:42] structured output. Till now uh we have
+- [80:45] already seen messages. We have also got
+- [80:48] to know about the different type of
+- [80:51] message prompts like system message,
+- [80:53] human message, AI message and tool
+- [80:55] message. And we also saw multiple
+- [80:57] examples and how to implement it with
+- [81:00] the help of langen. Now in the
+- [81:02] structured output, why is structured
+- [81:04] output actually required? Okay. Now see
+- [81:06] guys uh we will definitely be using
+- [81:08] different different LLMs and we want
+- [81:10] this LLM models to be requested in such
+- [81:13] a way that so they provide the response
+- [81:16] in a format matching a given schema. So
+- [81:19] let's say that hey I am requesting a LLM
+- [81:23] model to write me an essay on some
+- [81:26] specific topic and I definitely want the
+- [81:29] response of that LLM model to follow
+- [81:32] some structure and that is where I would
+- [81:35] definitely want some kind of structured
+- [81:37] output right so this is where we
+- [81:40] implement or we make the LLM to give a
+- [81:43] kind of structured output and we do it
+- [81:45] by using different techniques some of
+- [81:47] the techniques are like pidentic we can
+- [81:50] also use type date we can use data
+- [81:52] classes and that is what we will be
+- [81:54] discussing in this particular section
+- [81:57] okay so over here you can see I have
+- [81:59] written a very detailed explanation
+- [82:01] about structured output it says that
+- [82:03] model can be requested to provide a
+- [82:05] response in a format matching a given
+- [82:07] schema is useful for ensuring the output
+- [82:10] can be easily passed and be used in
+- [82:12] subsequent processes langchen supports
+- [82:15] multiple schema types and methods for
+- [82:16] enforcing structured output
+- [82:18] So the first uh technique that we are
+- [82:21] going to use or first type that we are
+- [82:22] going to use is something called as
+- [82:23] pyntentic. Now pyntic model it provides
+- [82:27] a richest feature set with field
+- [82:30] validation description and nested
+- [82:32] structure. So I will show you one
+- [82:34] example like how we can create a
+- [82:36] structured output from the LLM
+- [82:39] specifically for the LM response itself.
+- [82:41] Right? So first of all what I will do I
+- [82:43] will go ahead and import OS along with
+- [82:47] this what I am actually going to do is
+- [82:49] that I will also go ahead and the first
+- [82:51] step is obviously I have to load my uh
+- [82:53] lm model right so I'll write from langin
+- [82:56] dot chat models importit
+- [83:01] chat models right then I will write osen
+- [83:05] environment
+- [83:08] and here I'm going to specifically write
+- [83:10] gro_i
+- [83:12] is equal to os.get get env since I'm
+- [83:16] actually going to use my gro API key
+- [83:19] right so I'll write gro API key
+- [83:24] now the model that I'm actually going to
+- [83:26] use is nothing but I will be using this
+- [83:29] gro model groan
+- [83:32] uh the model name is nothing but quen
+- [83:35] and we will be using quen 32
+- [83:38] billion parameters model it's a
+- [83:40] reasoning model right so this is the
+- [83:42] model that I
+- [83:44] So here you can see cannot import uh
+- [83:47] name in it chat models. Okay let's see
+- [83:50] what is the issue. So here you can see
+- [83:52] there is something called as init chat
+- [83:54] model. Uh we had made a different import
+- [83:58] but it's okay. We have actually loaded
+- [84:00] our LLM model.
+- [84:02] Now let me quickly show you that how
+- [84:05] with the help of pyentic you will be
+- [84:07] able to generate a structured output.
+- [84:09] The best part about pyntic is that it
+- [84:11] also has field validation descriptions
+- [84:14] and also nested structure. So first of
+- [84:16] all in order to use pyntic we need to
+- [84:18] import one library which is called as
+- [84:20] from pidentic import base models.
+- [84:25] Okay, comma field. So this field is uh
+- [84:30] what we are going to specifically use in
+- [84:32] order to use field validation. Now here
+- [84:35] let's say I want my lln to give the
+- [84:39] output in a some kind of structured
+- [84:40] schema. Okay. Now what schema it will
+- [84:43] basically follow. So what I will do for
+- [84:45] that I will create let's say a class
+- [84:47] called as movie. And inside this movie
+- [84:50] we will inherit with this specific base
+- [84:53] model. Okay. The base model that we have
+- [84:55] imported over here. And if you see that
+- [84:58] it is nothing but it is a base class for
+- [85:00] creating pyic models. Right. and pying
+- [85:03] model has a very important property that
+- [85:04] it provides you field validation
+- [85:06] description and it also provides you
+- [85:08] nested structure. Now let's say my
+- [85:11] structure output from the LLM needs to
+- [85:13] have different fields. Okay. So one of
+- [85:16] the field is nothing but title. So let's
+- [85:18] say this title should be of only type
+- [85:20] string. Okay. So here we are writing
+- [85:23] colon string. Okay. And this will be of
+- [85:27] type field. And here I can go ahead and
+- [85:30] provide some description saying that
+- [85:32] this title is nothing but it is the
+- [85:35] title of the movie.
+- [85:37] Okay. Now see my LLM needs to definitely
+- [85:40] generate some kind of output and it will
+- [85:41] generate based on whatever fields I'm
+- [85:43] actually creating over here. And we are
+- [85:45] going to make sure that this title
+- [85:47] should only be having string value over
+- [85:49] here. If it has a numerical value then
+- [85:51] it'll give us a error because pientic uh
+- [85:55] will do this kind of field validation
+- [85:57] also. Okay. the pyntic model. Now,
+- [85:59] similarly, my second field will be
+- [86:01] nothing but year. Let's say my year is
+- [86:03] there and it will be of int type and I
+- [86:06] will go ahead and write field and here
+- [86:08] again this will be my description and I
+- [86:11] will say hey this is the year of this
+- [86:16] year.
+- [86:18] This year the movie was released.
+- [86:23] Okay, the movie was released. And then
+- [86:25] coming to the third important let's say
+- [86:28] that I want to also create one more
+- [86:30] field inside this. It is nothing but
+- [86:31] director string. And again I can
+- [86:34] basically say this is a field. Now see
+- [86:36] you understand what this field is right.
+- [86:38] If you go ahead and uh just hover over
+- [86:40] it and if you see what exactly field is
+- [86:42] this is basically providing you lot of
+- [86:44] different different parameters that you
+- [86:46] can set which represents this particular
+- [86:49] uh variable right the year. Okay. So
+- [86:52] here I've just given that this
+- [86:54] particular field is nothing but this is
+- [86:56] the year the movie was released. This
+- [86:58] information will be very much important
+- [86:59] for the LLM right because once we are
+- [87:01] giving this kind of descriptions we can
+- [87:03] also set some other parameters like uh
+- [87:05] you know we can set a liar this will be
+- [87:08] very very handy because it will help the
+- [87:10] LLM to know in which field it needs to
+- [87:13] place the output that it is coming from
+- [87:15] the LLM itself when we are displaying
+- [87:17] that in a structured output. Okay. So
+- [87:20] this is my uh director field. In the
+- [87:23] director field, I will also go ahead and
+- [87:24] write some kind of description so that
+- [87:26] it gives some idea to my LLM saying that
+- [87:30] okay, the director of the movie,
+- [87:34] director of the movie. Okay. Then I have
+- [87:39] my ratings. This is also one field that
+- [87:42] I definitely want. My rating can be a
+- [87:44] float value. Okay. It needs to be a
+- [87:46] float value because it can have
+- [87:48] different float value itself. And then I
+- [87:50] have my description. Inside my
+- [87:52] description, I will go ahead and say the
+- [87:56] movies
+- [88:00] ratings
+- [88:01] out of 10. Okay, out of 10. Now see this
+- [88:06] is the output that my LLM should be
+- [88:10] generating it. So that's the reason I've
+- [88:12] created a class called as movie and it
+- [88:14] is inheriting base model. Inheriting
+- [88:16] base model basically means it is it is
+- [88:18] just going to go ahead and if you just
+- [88:20] hover towards this base model it is it
+- [88:22] is nothing but it is a base class for
+- [88:23] creating pyic models. And one important
+- [88:25] thing is that this pyantic model has
+- [88:27] real validation description and all.
+- [88:29] Okay. Now let me go ahead and execute
+- [88:32] this. Okay. Now if I want my model to
+- [88:35] generate the structured output. So what
+- [88:37] I will do I will just go ahead and write
+- [88:38] model with structure output and we will
+- [88:41] give like what structure output it needs
+- [88:43] to give of this particular movie class.
+- [88:46] Okay. So this movie class is over here
+- [88:48] and here I will go ahead and define
+- [88:50] model with structure.
+- [88:53] Okay. Model with structure. So this is
+- [88:56] what uh my uh important model way is you
+- [89:01] know now see as soon as I go ahead and
+- [89:04] execute this. Okay, I go ahead and
+- [89:06] execute this and if you go ahead and
+- [89:08] just display it what is this model with
+- [89:10] structure,
+- [89:12] it shows that it is a runnable binding.
+- [89:14] It has uh information from Chad Gro
+- [89:18] model and then it also has this py tool
+- [89:20] parser. Okay, now this is really
+- [89:23] important because now I'm going to
+- [89:24] display how the output will get
+- [89:26] displayed whenever we ask any question
+- [89:28] to this particular model with structure.
+- [89:31] So for that I will go ahead and write
+- [89:33] model with structure dot invoke
+- [89:38] and here I will go ahead and ask a
+- [89:40] question provide details. Let's say I
+- [89:43] want a details about the movie movie
+- [89:47] inception. So if I go ahead and use
+- [89:49] model invokework if you remember model
+- [89:51] is nothing but it is not having any
+- [89:53] schema attached right. So here if you
+- [89:55] are attaching any schema or any
+- [89:57] structure output it is nothing but model
+- [89:59] with structure. So if I just go ahead
+- [90:01] and write model.invoke and I say hey
+- [90:03] provide me the details of the movie
+- [90:06] inception. So here you can see this is
+- [90:09] how is the default output we will get.
+- [90:11] Okay once we execute this see this is my
+- [90:14] AI message. Okay I need to provide a
+- [90:16] detail about the movieception. The
+- [90:18] inception probably has to do a concept
+- [90:19] of planting an idea. So it is probably
+- [90:22] providing all the details but I don't
+- [90:24] want all these details. I want the
+- [90:25] details in this structure output. I want
+- [90:28] it in the form of title, year, director,
+- [90:30] rating. Right? So I should be able to
+- [90:32] get that. Now if I go ahead and use this
+- [90:34] model with output dot invoke and now I
+- [90:37] want to go ahead and create I'm asking
+- [90:39] the same question. See over here I'm
+- [90:41] asking the same question response. Now
+- [90:43] if I go ahead and display the response,
+- [90:45] you should be able to see that I will
+- [90:47] get in this structured output. Right? So
+- [90:50] here you can see title is nothing but
+- [90:51] inception. Here it got released on 2010.
+- [90:55] director is nothing but Christopher
+- [90:57] Nolan rating is 8.8 eight right so
+- [91:00] sometimes now this information I can use
+- [91:02] it anywhere right this is a vague
+- [91:04] information it has all the information
+- [91:07] probably from the internet data that it
+- [91:10] has been trained with but if I just want
+- [91:12] some kind of structured output which is
+- [91:14] important for me because if I'm able to
+- [91:17] generate this output I will be able to
+- [91:19] use this in the same structured manner
+- [91:21] for some other purpose right so our main
+- [91:25] aim over here is that where models can
+- [91:27] be requested to provide the respon in a
+- [91:29] format matching a given schema and here
+- [91:32] my given schema is basically following
+- [91:34] this. Now there is very much one more
+- [91:36] very important thing. Okay. Now see I'm
+- [91:39] getting the output over here as
+- [91:42] inception which is in the form of string
+- [91:44] integer Christopher Ner and rating.
+- [91:46] Let's say one very important property
+- [91:49] about pyic is that
+- [91:51] if if this title has some integer value
+- [91:56] will have some integer value then it is
+- [91:58] definitely going to give us an error and
+- [92:01] that is what this field validation is
+- [92:04] supported in pentic. Okay. Because of
+- [92:06] this field validation you always need to
+- [92:10] have values of this title as a string
+- [92:12] only. For this year you should have it
+- [92:15] in the form of integer. If in this
+- [92:18] director field you need to always have a
+- [92:19] string and in this rating you can either
+- [92:22] have integer or a floating value. If you
+- [92:24] have some other values it is going to
+- [92:26] give you an error. Okay. So that is the
+- [92:29] most important property about pyntic
+- [92:31] with respect to field validation. Okay.
+- [92:33] So now I hope you got an idea uh about
+- [92:36] how does a pyic basically work. Okay.
+- [92:39] Now what I will do I can also go ahead
+- [92:43] and create a message output. Okay,
+- [92:47] message output alongside alongside pared
+- [92:52] structure. Okay, parse structure. So
+- [92:55] let's see this example. Now you may be
+- [92:57] thinking what exactly this is. Okay, so
+- [92:59] here you'll be able to see that I will
+- [93:02] just go ahead and do the same thing. If
+- [93:04] you can see over here from pyentic
+- [93:06] import base model field I've created a
+- [93:08] class movie here this is just like an
+- [93:11] optional field okay and then I have put
+- [93:14] the description all the information over
+- [93:15] here and model with structure I have
+- [93:17] written model do with structure output
+- [93:19] movie and I have written include raw is
+- [93:22] equal to true see one of the feature
+- [93:24] include raw is equal to true now what
+- [93:27] this actually does you'll try to
+- [93:28] understand it okay what this feature
+- [93:31] will actually do so now if I just go
+- [93:33] ahead and execute this I'll create some
+- [93:35] more code and see the response model
+- [93:37] with structure.inote input will provide
+- [93:39] a detail about the movie Inception and
+- [93:41] remember we have kept this parameter as
+- [93:43] include to raw is equal to true. Now
+- [93:45] once we get includes raw is equal to
+- [93:47] true by default how the raw message will
+- [93:50] come that is also displayed over here
+- [93:52] right the initial raw message this raw
+- [93:55] message like how it is basically getting
+- [93:57] displayed that will also get displayed
+- [93:59] over here and this is my parsed message
+- [94:01] right based on the structure so I can
+- [94:04] also display that also and there is also
+- [94:07] option by including this particular
+- [94:09] parameter okay now along with this there
+- [94:12] is also one more important thing which
+- [94:14] is supported in pyntic which is called
+- [94:16] as nested structure. Okay. Now let's see
+- [94:20] or let's understand what exactly is
+- [94:22] nested structure. Let's say I am
+- [94:25] importing pentic and I have this class
+- [94:28] actor. Okay. So inside the actor you
+- [94:31] have two variables name and role.
+- [94:33] Obviously every actor will have a name
+- [94:35] and role and it is of type string. Okay.
+- [94:38] Now inside my movie right there may be
+- [94:41] multiple actors right. So what I can do
+- [94:44] I can use this direct class inside this.
+- [94:46] So here you can see I have written class
+- [94:49] movie details base model title this is
+- [94:52] the movie title year the movie release
+- [94:55] date cast will be the list of actor see
+- [94:57] this is the same actor over here and
+- [94:59] here I can have list of actors so that
+- [95:01] is the reason we are saying next
+- [95:03] structure okay John Jonner's list of
+- [95:06] strings it can also be a list of jonors
+- [95:08] right and budget is nothing but a
+- [95:10] floating point and here you can see that
+- [95:12] I've created uh by default none okay
+- [95:15] otherwise we specy specifically provide
+- [95:17] some kind of description budget in
+- [95:19] million USD. Okay. Now this way we are
+- [95:22] using a nested structure that basically
+- [95:24] means inside the movie details we are
+- [95:25] using this particular actor. Okay. Now
+- [95:28] if I go ahead and use the same thing and
+- [95:32] ask the same question model with
+- [95:33] structure output and this time I have
+- [95:35] written movie details right over here.
+- [95:38] Now if I just go ahead and ask the same
+- [95:41] question from this particular structure
+- [95:42] output saying that hey model with
+- [95:44] structure.invoke Invoke provide the
+- [95:46] details about the movie Inception. I
+- [95:48] should be getting the response in this
+- [95:50] specific way and in the cast I will be
+- [95:52] getting a list of actors. In genres I'll
+- [95:54] be getting a list of genres. Right? So
+- [95:56] here you can see I will just go ahead
+- [95:58] and display this. This is amazing. See
+- [96:01] in title I got assumption year 201 cast
+- [96:04] actor name Leonardo Darpo role Dom Cobb.
+- [96:08] Right. Then the next actor is nothing
+- [96:10] but Joseph
+- [96:12] Levit role is Arthur. actor name. So
+- [96:15] here you can see multiple actors are
+- [96:17] there. Jon also you can see the list of
+- [96:20] this is there science fiction action and
+- [96:23] budget is 160.0
+- [96:25] um um 160.0 zero based on the millions
+- [96:30] uh budget in millions USD right so 160
+- [96:33] million uh dollars were actually spent
+- [96:35] in this so I hope you got a specific
+- [96:38] idea about paidentic the main aim is
+- [96:40] that you're providing field validation
+- [96:43] and you're actually making the model to
+- [96:45] provide the response in a format that
+- [96:48] matches your given schema based on the
+- [96:50] schema that you have actually designed
+- [96:52] so I hope you have understood about uh
+- [96:55] pentic now In uh as we go ahead we'll
+- [96:58] also be discussing about one more type
+- [97:00] which is called as type deck and there
+- [97:02] is also one more type which is called as
+- [97:04] data class. Okay. So we will see both of
+- [97:06] them as we go ahead. So guys now we are
+- [97:09] going to continue the discussion for the
+- [97:11] structured output. Uh we have already
+- [97:14] covered how we can make an LLM to you
+- [97:18] know provide a response in a format
+- [97:20] matching a given schema using pentic
+- [97:23] model. Uh now the same thing we will try
+- [97:25] to do it with the help of typed dick.
+- [97:28] Now typed dick provides a simple
+- [97:29] alternative using python built-in typing
+- [97:32] idle when you don't need runtime
+- [97:35] validation. So whenever we are trying to
+- [97:38] uh use typed deck there runtime
+- [97:40] validation is not there as how we had in
+- [97:43] pentic models. Okay. So now we'll try to
+- [97:46] do the same thing uh like how an LLM can
+- [97:49] provide a response in a specific schema
+- [97:51] wherein runtime validation is not
+- [97:53] required. Let's say if I'm actually
+- [97:55] creating title and we are saying that it
+- [97:57] is of type string it if integer is also
+- [98:00] getting displayed in the output it is
+- [98:02] fine because there we do not focus much
+- [98:04] on runtime validation. Okay. So first of
+- [98:07] all uh to do this I will go ahead and
+- [98:09] use from typing extension import
+- [98:13] type deck. Okay. So we are going to use
+- [98:16] typed dict and along with this I'm also
+- [98:17] going to use annotated. So this two uh
+- [98:21] are the important libraries that I'm
+- [98:23] actually going to use. If you see type
+- [98:25] dict it is a simple type name ses at
+- [98:27] runtime. It is equivalent to a plain
+- [98:29] dictionary. It is just going to create a
+- [98:31] simple dictionary in short. Right? So
+- [98:33] that is the reason we don't need runtime
+- [98:35] validation over here. Now I will try to
+- [98:38] use the same kind of data. Okay. So here
+- [98:40] I will say hey let's create a class
+- [98:42] which is called as a movie. Okay. So now
+- [98:45] I will just go ahead and create it. Now
+- [98:48] here you can see I've created a movie
+- [98:50] dictionary and this is this time
+- [98:51] inheriting type dict instead of pentic.
+- [98:54] Right? If we inherit pentic then this
+- [98:56] all will have a runtime validation but
+- [98:59] we right now don't require it. Uh we are
+- [99:01] saying that hey we are going to probably
+- [99:03] go ahead and inherit with uh pent type
+- [99:06] dict itself. Okay. And here first of all
+- [99:08] my first field is title and we are
+- [99:10] annotating it saying that it is a string
+- [99:13] and the description is this. These are
+- [99:14] some optional fields which we can keep
+- [99:16] it as empty. Okay. So the next field
+- [99:18] over here year it will be of type. We
+- [99:21] are annotating it as int. And here you
+- [99:23] can see the description is mentioned.
+- [99:25] Similarly I have director and ratings.
+- [99:27] Okay. So uh this is how we actually uh
+- [99:31] create this particular structure. So now
+- [99:32] once I have created this schema now it's
+- [99:35] time that I will call my model and I'll
+- [99:37] use with structure output and and I
+- [99:40] apply this particular schema that is
+- [99:42] movie dictionary okay which we have
+- [99:46] created it over here and I will just go
+- [99:49] ahead and say this is my model with type
+- [99:52] dick structure okay with type dict with
+- [99:56] type dict okay I'll just go ahead and
+- [99:58] write this then the next step will be
+- [100:01] that I will use this model with type
+- [100:03] dict dot invoke and I'll say please
+- [100:09] provide the details
+- [100:13] of
+- [100:15] the movie Avengers let's say this time
+- [100:18] I'm going to take the Avengers movie
+- [100:20] okay and then if I go ahead and see the
+- [100:22] response
+- [100:25] okay and then you will be able to see
+- [100:28] the response over here so here you can
+- [100:30] see director Jos widen rating a title
+- [100:32] Avengers year 2012. Okay. So now you can
+- [100:36] see the response over here. Now what I
+- [100:37] will do I will also go ahead and create
+- [100:39] a next structure and this time instead
+- [100:42] of using base model I will just directly
+- [100:45] go ahead and use my type dict. Let's say
+- [100:47] I will go ahead and use my type dict
+- [100:49] over here. I'll use my type dict over
+- [100:51] here. So we can also go ahead and imple
+- [100:54] uh implement the nested structure but
+- [100:56] and over here the validation will not be
+- [100:58] compulsory. Right? uh let's say if the
+- [101:01] directory is having string if I give an
+- [101:02] integer then also it is fine so here the
+- [101:04] input validation will not happen like
+- [101:06] how it happens in pentic so if I go
+- [101:09] ahead and execute this so here you can
+- [101:11] see I'm able to see please provide me
+- [101:13] the details about uh the movie inception
+- [101:15] so 16 millions 160 million all the
+- [101:17] information is there let's say I want to
+- [101:19] go ahead and try out for Avengers so you
+- [101:22] should be able to even see the response
+- [101:24] okay so this was a brief idea about how
+- [101:27] we can quickly use the type deck all we
+- [101:29] are doing is that whatever schema we are
+- [101:31] actually creating we are inheriting that
+- [101:34] specific module right in over here we
+- [101:36] are using typed deck in the previous
+- [101:38] stage we used base model which was
+- [101:39] specifically for pentic itself okay and
+- [101:42] this gives you a clear idea like how we
+- [101:44] can actually go ahead and use uh pentic
+- [101:46] over here and clearly and how we are
+- [101:48] able to see the output now along with
+- [101:50] this there is also a very important
+- [101:52] property which is called as profile so
+- [101:54] if I write model with structure dot
+- [101:57] profile or instead of writing model with
+- [102:00] structure I'll use model type
+- [102:02] dick.profile and if I just go ahead and
+- [102:04] display it here you can see runnable se
+- [102:06] sequence has no attribute profile okay
+- [102:09] so this is what is the error that we are
+- [102:11] getting now whenever we try to create
+- [102:14] some kind of structured output there we
+- [102:15] should not be able to see the profile
+- [102:17] but if I go ahead and write
+- [102:18] model.profile profile which was my base
+- [102:20] model. Here you can see that all the
+- [102:22] necessary information like how many
+- [102:24] maximum input tokens are there? Maximum
+- [102:26] output tokens. This specific model can
+- [102:29] actually do image input does it suppose
+- [102:32] image right the answer is false audio
+- [102:34] inputs false video input false audio
+- [102:36] input false reasoning output true tool
+- [102:40] calling true. So these are the
+- [102:42] information which talks about like what
+- [102:44] all things the model is basically
+- [102:46] supporting and we have used quen 3 model
+- [102:48] over here. So, Quen 3 model actually
+- [102:51] specifically has all this particular uh
+- [102:53] supporting tools or supporting features
+- [102:56] which you can actually understand about
+- [102:57] the model also. Right. So, now we have
+- [103:00] understood about typed date. We have
+- [103:02] understood about pyic. Now the next
+- [103:03] thing that we need to understand about
+- [103:05] one more uh way like how we can go ahead
+- [103:08] and apply this kind of schema that is
+- [103:10] called as data classes. Okay. So now
+- [103:13] let's go ahead and discuss about this
+- [103:15] data classes.
+- [103:17] So now let's go ahead and discuss about
+- [103:19] data classes and how we can actually go
+- [103:21] ahead and how our LLM can create a
+- [103:23] structured output based on a specific
+- [103:25] schema with the help of data classes.
+- [103:26] We'll be discussing about that. Now see
+- [103:28] data class has already been there from
+- [103:31] Python 3.7 version. Okay. So a data
+- [103:34] class is a class typically containing
+- [103:36] mainly data although there aren't really
+- [103:38] any uh restriction like data validation
+- [103:40] nothing as such input data validation
+- [103:42] but you can create it by directly using
+- [103:44] this particular decorator. So let's do
+- [103:46] one thing quickly. Uh let's take one
+- [103:49] example. First of all, we'll start with
+- [103:51] Pentic. Okay, because we have already
+- [103:53] know about Pentic now. Okay. And here we
+- [103:56] are using GPT5 uh for creating the
+- [103:58] agent. So what I will do? I will just go
+- [104:00] ahead and write import OS uh and I'll
+- [104:03] say OS. Environ okay in run. And this
+- [104:08] time I'm just going to go ahead and use
+- [104:10] my OpenAI API key. Open AI API key. I
+- [104:14] just I'm using this just to show you how
+- [104:17] we can actually go ahead and create our
+- [104:19] agents also. Okay. Uh open AI
+- [104:24] API key. Perfect. Now this is done.
+- [104:27] Okay. And here you can see that uh I
+- [104:30] have imported pentic import base model
+- [104:32] and you know uh already in this series
+- [104:34] we have covered how to create an agent
+- [104:36] how to create a simple agent. So from
+- [104:38] langin.tagents we are importing create
+- [104:39] agent. So first of all I have this
+- [104:41] particular schema contact info. We are
+- [104:43] inheriting base model. Whenever we
+- [104:45] inherit a base model of pentic that
+- [104:47] basically means we have some kind of
+- [104:48] input validation. Name should always be
+- [104:50] string. Email should always be string.
+- [104:53] Phone should always be string. Okay.
+- [104:55] Then we are creating this agent over
+- [104:57] here. So here you can see create agent
+- [105:00] uh and the response format. Okay. This
+- [105:02] time I'm not using this with structured
+- [105:04] output. Instead what I'm actually doing
+- [105:06] I'm directly showing you how you can
+- [105:08] integrate with the agent itself. So in
+- [105:10] create agent model is equal to GPT5. We
+- [105:13] are using this model and we are writing
+- [105:14] response format is nothing but contact
+- [105:16] info this specific class. Okay. So
+- [105:19] whatever agent this is basically there
+- [105:21] we are going to always get the output in
+- [105:24] this particular schema. Okay. So here we
+- [105:26] are written agent in invoke message role
+- [105:29] with user contact extract contact from
+- [105:31] John doing john at the rate example.com
+- [105:34] with this particular information. So
+- [105:36] here this is my entire content. Okay.
+- [105:40] And I have written extract contact info
+- [105:43] from this particular information and
+- [105:45] this information is going to my agent.
+- [105:48] Now agent what it is basically going to
+- [105:49] do based on this particular format. It
+- [105:52] is going to take the name over here,
+- [105:53] email over here, phone number over here,
+- [105:56] right? And then we can go ahead and
+- [105:58] print the result structured response
+- [105:59] whatever response we have. Right? So let
+- [106:02] me do one thing. Let me first of all
+- [106:03] just directly go ahead and display the
+- [106:05] result. Okay. So my result is nothing
+- [106:08] but over here. You'll be able to see
+- [106:10] quickly after I use this particular
+- [106:12] model.
+- [106:13] So here you can see message human
+- [106:15] message extract contact info from this
+- [106:17] AI message is over here and structured
+- [106:19] response is over here. So if I just go
+- [106:21] ahead and write result of
+- [106:24] structured
+- [106:27] response. Okay. So here you'll be able
+- [106:30] to see this is my contact info. The name
+- [106:32] is John Doe. Email is johntheample.com
+- [106:35] and this is there right? So based on
+- [106:38] this specific schema we are able to get
+- [106:40] this that is the useful property about
+- [106:42] pyic over here. Validation is applied on
+- [106:44] every field. Okay. Now similarly if I
+- [106:47] want to do it type dect type duct is
+- [106:49] very simple which we have already
+- [106:50] discussed. So this is nothing but with
+- [106:52] the help of type dict
+- [106:55] because I really want to make that
+- [106:57] comparison. So from typing extension
+- [106:59] import type dict then we are using from
+- [107:01] langchen.tag agents create agent. This
+- [107:04] is my schema. This time we are
+- [107:06] inheriting type deck. Over here the data
+- [107:09] input validation will not get applied
+- [107:11] but definitely we have provided a schema
+- [107:13] wherein we are saying the name should be
+- [107:14] string and all. So here you can see
+- [107:16] create agent. I will remove the tools. I
+- [107:19] don't want the tools right now. So
+- [107:20] create agent with model GP5 response
+- [107:22] format is contact info. Now I have
+- [107:24] written contract extract contact info
+- [107:26] from this information and I will just go
+- [107:28] ahead and print my structured response.
+- [107:31] So here should also be able to see that
+- [107:33] I'm able to get the output which looks
+- [107:35] something like this in the form of a
+- [107:37] dictionary pair right like it will be in
+- [107:39] the form of a dictionary. So that also
+- [107:41] you will be able to see it. Uh so here
+- [107:43] you can see name John do email example
+- [107:46] and all. Now I will show you how with
+- [107:48] the help of data class you can do the
+- [107:49] same thing. Okay. So now I will show you
+- [107:52] with the help of data class. So with the
+- [107:55] help of these are just different ways
+- [107:57] you can use any one of them. So first of
+- [107:59] all what I'll do I will go ahead and
+- [108:01] import from data classes. import data
+- [108:04] class. Okay. Then I will go ahead and
+- [108:07] import from langchain agents.
+- [108:10] Agents import
+- [108:15] create agent. Okay. And then I will
+- [108:18] write add the rate data class. I will
+- [108:21] create the class as contact info
+- [108:25] whatever class I have. So this will be
+- [108:28] my contact info class. And how we define
+- [108:31] a variables inside my data class. So it
+- [108:35] will be nothing like this. We just
+- [108:37] specify uh the information over here.
+- [108:40] Right? So this is my data class. So let
+- [108:42] me write it properly because of the
+- [108:44] validation. So here you can see that
+- [108:46] I've used name is equal to steer str.
+- [108:49] name of the person, email str, phone
+- [108:52] number str okay now the next thing is
+- [108:54] that I will just go ahead and use my
+- [108:57] create my agent here you can also call
+- [108:59] tools if you have any kind of tools I
+- [109:01] don't have any tools so I'll remove this
+- [109:03] but the response format will be in the
+- [109:05] form of contact info and finally I will
+- [109:08] just go ahead and display the response
+- [109:10] like how we display the result itself
+- [109:12] right so with the help of data class
+- [109:14] also you can actually do the same thing
+- [109:17] okay now this is really important and I
+- [109:20] hope uh you got a very good
+- [109:21] understanding that how you can actually
+- [109:23] work with data class you got work with
+- [109:26] structured output uh you work with type
+- [109:28] dig you work with pyic and here the in
+- [109:32] the data class we have discussed about
+- [109:33] all the three examples right from type
+- [109:35] dick to data classes and all so yeah uh
+- [109:38] I hope you have understood this
+- [109:40] particular section now uh the next
+- [109:43] section that uh we will be discussing
+- [109:45] about is like streaming we'll be
+- [109:47] discussing about uh sorry we have
+- [109:49] discussed about streaming uh we'll be
+- [109:51] discussing about short-term memory and
+- [109:52] other things right so let's continue the
+- [109:55] discussion so guys now we are going to
+- [109:57] discuss about middleware now this
+- [110:00] specific topic is a very meaningful
+- [110:03] topic that has been included in languin
+- [110:05] and it has some amazing functionalities
+- [110:08] uh what we'll do in this section is that
+- [110:10] we'll talk talk about middleware uh how
+- [110:12] you can implement middleware by
+- [110:14] different different uh inbuilt
+- [110:16] functionalities that are available in
+- [110:17] lang
+- [110:18] uh we'll take some good use cases in
+- [110:20] making you understand. So first of all
+- [110:23] we'll try to understand the definition.
+- [110:24] Okay. So let's say over here the
+- [110:26] definition is written. Middleware
+- [110:29] provides a way to uh more tightly
+- [110:32] control what happens inside the agent.
+- [110:36] Middleware is useful for the following.
+- [110:38] It tracks agent behavior with logging
+- [110:41] analytics and debugging. Transforming
+- [110:43] prompts tool selection output
+- [110:45] formatting. adding retries, fallbacks,
+- [110:48] early termination logic, apply rate
+- [110:51] limits, guardrail and PII detection. Now
+- [110:54] just by seeing this definition uh I know
+- [110:56] many of you will be specifically
+- [110:58] confused. So it is always better that I
+- [111:00] try to show you with a very good
+- [111:02] example. Okay. So let's consider one
+- [111:05] example over here.
+- [111:07] Let's consider an example wherein we
+- [111:10] take something like airport security.
+- [111:13] Okay. So I hope everybody may have been
+- [111:16] to airports. Okay. So in the airport
+- [111:18] security if you go ahead and see that
+- [111:22] right. So in the airport security when
+- [111:24] you enter the airport right when you
+- [111:28] enter the airport you let's say you are
+- [111:31] the passenger.
+- [111:33] So let's say if this is your boarding
+- [111:37] gate or this is your flight right the
+- [111:40] boarding gate is somewhere on 18 number
+- [111:43] right now to go to this boarding gate
+- [111:46] you have to when you're entering the
+- [111:48] airport you have to cross to various
+- [111:50] stages right so you need to cross
+- [111:53] through security check so let's say
+- [111:55] there is a security check over here then
+- [111:58] after crossing the security check you
+- [112:00] may have to probably go to the
+- [112:02] immigration
+- [112:05] After going through the immigration, you
+- [112:07] need to go ahead and board the flights
+- [112:10] and then finally you go to this
+- [112:11] particular gate number where you catch
+- [112:12] your flight. Right? Now in every of this
+- [112:16] step in the security check what happens
+- [112:20] you know we go ahead and apply or over
+- [112:23] here what will happen in the security
+- [112:25] check they will probably go ahead and
+- [112:26] see your luggage what is there in the
+- [112:28] luggage and all like you should not be
+- [112:31] carrying any batteries that kind of
+- [112:33] check will happen so this I can
+- [112:35] basically say this as my middleware one
+- [112:38] okay so I'm going to probably go ahead
+- [112:40] and implement one middleware over here
+- [112:43] okay let me write it much more properly
+- [112:46] so that you should be able to understand
+- [112:48] right. So here what I can do I can go
+- [112:50] ahead and develop my middleware one over
+- [112:53] here and this middleware one
+- [112:55] functionality is that it will go ahead
+- [112:58] and do all the necessary check that is
+- [113:01] required so that with respect to luggage
+- [113:04] with respect to other things. Now the
+- [113:06] second thing over here in the
+- [113:07] immigration counter right in the
+- [113:08] immigration counter what immigration
+- [113:11] people will do basically uh they check
+- [113:13] your passport whether your passport
+- [113:15] valid date is there or not each and
+- [113:16] everything. So that kind of checks can
+- [113:19] basically happen in my middleware too
+- [113:22] right and before boarding you know here
+- [113:26] we will probably go the the people will
+- [113:28] go ahead and see your boarding pass
+- [113:31] right and see whether the boarding pass
+- [113:33] is right or not. So here we can go ahead
+- [113:35] and develop our middleware three.
+- [113:39] Now just by seeing this example before
+- [113:42] any important let's consider that this
+- [113:44] is my agent one this is my agent two
+- [113:46] this is my agent three before the agents
+- [113:48] we are doing something we are doing we
+- [113:51] it can be a normal check it can be
+- [113:52] logging it can be exceptional handling
+- [113:54] it can be model calling right it can be
+- [113:56] anything as such so that's the reason we
+- [113:59] have given this specific definition
+- [114:02] here let's say it provides a way to
+- [114:05] tightly control what happens inside the
+- [114:07] agent now here We are considering this
+- [114:09] as a agent and within this particular
+- [114:11] agent we can do multiple things right.
+- [114:14] We can create middleware 1, middleware
+- [114:15] 2, middleware 3, right? And here we can
+- [114:18] track agent behavior with logging
+- [114:20] analytics, debugging, transforming
+- [114:22] prompts tool selections. We can do
+- [114:24] multiple things in short of or different
+- [114:26] kind of functionalities over here.
+- [114:28] Right? So uh this is what it is. See
+- [114:32] this can be considered as a very good
+- [114:34] example. So before we have let's
+- [114:36] consider this is my agent inside this
+- [114:38] agent I have my model I have my tools
+- [114:40] okay and this is nothing but this is a
+- [114:42] react agent right so model will when we
+- [114:46] once we make a request to the model the
+- [114:47] model will see whether that request
+- [114:49] needs to be passed to the tool then the
+- [114:50] tool will execute it give it give the
+- [114:52] context back and finally we get the
+- [114:54] result right with the help of middleware
+- [114:57] now my agent will look something like
+- [114:59] this so agent with middleware
+- [115:03] so So in agent with middleware
+- [115:07] here we will be able to see that there
+- [115:09] will be different different triggers.
+- [115:11] Okay. So clearly you can see over here
+- [115:14] what what is the best thing that is
+- [115:16] available this middleware right? It
+- [115:18] exposes hooks. We basically say it as
+- [115:21] hooks. Okay hooks means what? Hooks
+- [115:24] means trigger points. Before the agent
+- [115:26] we can add something. Before the model
+- [115:28] we can add something. This uh tools
+- [115:31] calls you can see you can add something.
+- [115:33] After the model call we can add
+- [115:34] something. After the agent we can add
+- [115:36] something. It can be logging. It can be
+- [115:38] summarization. It can be multiple things
+- [115:39] in sure. So here in short we are adding
+- [115:43] some kind of hooks. Okay. And we are
+- [115:47] adding these hooks so that we can do
+- [115:48] something over here. Right now the best
+- [115:51] way is that uh we will see first of all
+- [115:53] some built-in built-in middlewares. Okay
+- [115:57] that is available. So we'll see some
+- [116:00] built-in middlewares. One of the
+- [116:02] middleware which is very commonly used
+- [116:05] is something called a summarization
+- [116:06] middleware.
+- [116:08] Now this summarization middleware is a
+- [116:11] uh kind of a middleware that we can use
+- [116:13] in the agent and it task is only to
+- [116:15] summarize. So let's say if this is my
+- [116:18] LLM model or this is my agent.
+- [116:22] This is my agent and let's say this
+- [116:24] agent is basically connected to a tool.
+- [116:27] Okay. And this tool is return connected.
+- [116:30] And here we get the output.
+- [116:32] Now here you can see that what this
+- [116:34] summarization will do. Okay. What this
+- [116:37] summarization will be specifically doing
+- [116:40] is that we add this middleware over
+- [116:42] here. We add this summarization
+- [116:45] middleware over here. So whenever we
+- [116:47] give any input and once we generate the
+- [116:49] output let's say after some number of
+- [116:54] messages
+- [116:56] after some number of input and output
+- [116:59] messages you know that this messages
+- [117:00] list will keep on growing. So if I apply
+- [117:04] this summarization middleware what it is
+- [117:06] going to do it is just going to
+- [117:07] summarize this entire list of messages
+- [117:11] after it reaches some some number let's
+- [117:15] say after it reaches some count after
+- [117:17] after 10 messages I want this to
+- [117:20] summarize right all these 10 messages I
+- [117:24] want to summarize then what we can do we
+- [117:26] can apply the summarization middle layer
+- [117:27] within the agent and it task will be
+- [117:30] that once it reaches 10 when once the
+- [117:32] count of the message reaches reaches 10.
+- [117:35] We are just going to quickly summarize
+- [117:37] the message and this summarization of
+- [117:38] the message will be taken care by the
+- [117:41] LLM. Right? So this kind of middleware
+- [117:44] we can add it over here. Okay. Similarly
+- [117:47] there are other middleware. One of the
+- [117:49] middleware example is human in the loop
+- [117:51] feedback. I can basically say human in
+- [117:53] the feedback. So this summarization also
+- [117:56] this middleware also I can add. There is
+- [117:59] a model tool calling.
+- [118:03] There is one more uh very good uh
+- [118:06] built-in middleware and there are list
+- [118:07] of middlewares which you can basically
+- [118:09] use it like model call limit. Okay,
+- [118:12] model call limit basically means uh what
+- [118:15] limit the number of models to prevent uh
+- [118:18] you know excessive cost. So there there
+- [118:20] are many okay I'll just show you the
+- [118:23] I'll just show you the documentation. So
+- [118:25] here you can see I have summarization
+- [118:27] middle where it automatically summarizes
+- [118:29] conversation history when approaching
+- [118:31] token limits human in the loop. It saves
+- [118:33] pause the execution for human approval
+- [118:35] of tool calls. Then you have model call
+- [118:38] limits limit the number of model calls
+- [118:40] to prevent excessive cost. Then you have
+- [118:42] tool call limit control tool execution
+- [118:45] by limiting call counts. You have model
+- [118:47] fallback to-do list LLM tool selector
+- [118:49] tool retry. So many different options
+- [118:50] are there. Okay. So we I will now go
+- [118:54] ahead and show you that how you can go
+- [118:55] ahead and apply this middleware itself.
+- [118:57] Right? So first of all what I will do I
+- [118:59] will go ahead and quickly open my
+- [119:02] Jupyter notebook. So this is my uh some
+- [119:05] middleware over here. You can see I will
+- [119:07] close this. Okay. This is my middleware
+- [119:09] code. So first of all we go ahead and
+- [119:12] import or we go ahead and load our
+- [119:14] environment variable with open AI API
+- [119:16] key. Okay. Now the next step is that we
+- [119:18] will go ahead and write our code.
+- [119:21] Now writing our code is very simple over
+- [119:23] here. Okay. Here first of all we will go
+- [119:26] ahead with our summarization
+- [119:29] summarization
+- [119:31] middleware. Okay.
+- [119:34] Summarization middleware. Again it is
+- [119:37] not possible to cover all the different
+- [119:39] types of middleware that is available
+- [119:40] over here. But I'll try my level best to
+- [119:43] cover some very important so that you
+- [119:45] can independently
+- [119:47] do all the things uh you know after
+- [119:49] seeing some examples. Okay, because at
+- [119:52] the end of the day it's up to you for
+- [119:53] what kind of use cases you are
+- [119:55] specifically using this. Okay, so let's
+- [119:58] go ahead with the summarization. Now
+- [119:59] summarization middleware I will also go
+- [120:01] ahead and probably provide you some
+- [120:03] definition over here. Okay, so here you
+- [120:06] can see it automatically
+- [120:08] summarizes. So let me see I will try to
+- [120:12] provide you a material which will be
+- [120:14] very meaningful and you should be able
+- [120:16] to learn read it later on. So
+- [120:18] summarization middleware is nothing but
+- [120:19] it automatically summarizes conversation
+- [120:21] history when approaching token limits
+- [120:24] preserving recent messages while
+- [120:26] compressing the older context. Okay. So
+- [120:28] what it does is that it compresses the
+- [120:31] older context and it just use the recent
+- [120:34] messages whenever the token limit is
+- [120:36] reached. Summarization is useful for the
+- [120:38] following longunning conversation. So
+- [120:40] specifically in a chatbot when you have
+- [120:42] a longunning conversation it is always
+- [120:44] good that we try to summarize the
+- [120:46] previous context multi-turn dialogues
+- [120:48] with extensive history application while
+- [120:50] preserving full conversation context
+- [120:52] matters. Okay. So now let me quickly go
+- [120:55] ahead and show you one example that how
+- [120:57] you can go ahead and implement this.
+- [120:58] Okay. So first of all what I'll do and
+- [121:01] uh we can use different different
+- [121:03] triggers also. Okay. I will show you in
+- [121:05] summarization there are multiple
+- [121:07] triggers which you can actually use. Uh
+- [121:09] there is a token trigger there is uh uh
+- [121:12] messages trigger and all. Okay. So first
+- [121:14] of all what I will do I will go ahead
+- [121:15] and show you how we can go ahead and
+- [121:17] create an agent. So from langin uh dot
+- [121:20] agents I'm going to go ahead and import
+- [121:23] create
+- [121:25] agent. Okay. So this is the first one.
+- [121:28] Then from langchain dot agents
+- [121:32] uh dot middleware I'm going to go ahead
+- [121:35] and import summarization middleware.
+- [121:38] Okay. Then from langchen
+- [121:42] dot uh we are also going to go ahead and
+- [121:44] use checkpoint. Okay. The checkpoint is
+- [121:47] required so that I go ahead and apply
+- [121:49] some memory also. So I will go ahead and
+- [121:52] say memory. Okay. from langin dot
+- [121:55] checkpoint dotmemory import inmemory so
+- [121:59] I'm going to also go ahead and apply in
+- [122:01] memory so that I can go ahead and apply
+- [122:04] checkpoints uh within my chat bots right
+- [122:07] then from langchin
+- [122:11] core dot messages I'm going to use uh
+- [122:16] human message
+- [122:18] and then I'm also going to use system
+- [122:21] message
+- [122:23] system message. Okay. So these are the
+- [122:26] basic libraries uh that I'm going to
+- [122:28] use. The first example that we are going
+- [122:30] to do is that message based
+- [122:32] summarization. Okay. Message
+- [122:35] based summarization.
+- [122:39] So I'll go ahead and create my agent. My
+- [122:42] agent is equal to create agent. And
+- [122:45] inside say this create agent. First of
+- [122:47] all I'll go ahead and use my model.
+- [122:48] Let's say the model that I use is GPT 40
+- [122:51] mini. Okay, 40 mini. So this is the
+- [122:54] model that we are going to use. Uh
+- [122:57] tools, you can go ahead and define your
+- [122:59] tools but right now I did not define any
+- [123:01] tools as such. So I'm just going to go
+- [123:02] ahead and keep like this. Then we going
+- [123:04] to use checkpointter. This is for my
+- [123:07] checkpointing uh the whatever
+- [123:09] conversation history is there. I'm
+- [123:11] trying to save it within my local
+- [123:13] hardware like in my hard disk itself.
+- [123:16] Okay. Now to give the middleware as an
+- [123:18] option inside this agent. See our main
+- [123:21] aim is that I want to add a middleware
+- [123:24] inside this agent. Right? So here you
+- [123:27] can see I've given model information.
+- [123:28] I've given checkpoint. So here you can
+- [123:30] also go ahead and give your
+- [123:31] summarization uh sorry middleware as a
+- [123:34] parameter. So inside this middleware you
+- [123:36] can give a list of middleware like what
+- [123:38] all middleares you really want to apply.
+- [123:40] So now here we are applying the
+- [123:42] summarization middleware within our
+- [123:45] agent. So inside this particular agent
+- [123:46] we are applying summarization. But when
+- [123:49] do the summarization actually happen?
+- [123:52] Right? That is the major question.
+- [123:54] Right? So inside the summarization, we
+- [123:56] have an option to give multiple
+- [123:58] parameters. First of all, what LLM model
+- [124:01] we are going to use in order to do the
+- [124:03] summarization. So let's say I want to go
+- [124:05] ahead and it's always a better idea that
+- [124:07] we use uh models that cost less for the
+- [124:10] summarization because uh whenever the
+- [124:13] message expands
+- [124:15] uh up to a certain count we are again
+- [124:17] going to do this uh summarization in
+- [124:19] short right so it is always good that
+- [124:21] you try to use a model LLM model which
+- [124:25] has lesser cost you know with respect to
+- [124:27] tokens then I want this summarization to
+- [124:30] trigger right so there will be another
+- [124:32] parameter which is called as trigger And
+- [124:34] inside this trigger what we are going to
+- [124:35] do we are going to put our condition
+- [124:37] like when I want the summarization to
+- [124:40] happen. So here I will say when my
+- [124:42] messages length is becoming 10 at least
+- [124:46] okay my input output all the messages
+- [124:49] that is which which is getting generated
+- [124:51] uh whenever it becomes 10 usually
+- [124:53] whenever you create a chatbot this
+- [124:55] number is a bigger number right but just
+- [124:57] to show you in this use case we are
+- [124:59] going to set it as 10. Okay, then I'm
+- [125:02] also going to say that at this point you
+- [125:04] go ahead and trigger it. But when you
+- [125:07] trigger it, you summarize the previous
+- [125:08] contest and keep the recent
+- [125:12] top four messages. Okay, recent top four
+- [125:15] messages like that, right? So that we
+- [125:17] get the context and we go ahead and
+- [125:19] apply it. So here what you can do this
+- [125:21] is just one of the summarization which I
+- [125:23] have actually applied. Now you can keep
+- [125:25] on adding any number of summarization,
+- [125:27] any number of middlewares, right? You
+- [125:29] just need to put comma over here. Then
+- [125:31] you go ahead and define your next some
+- [125:33] next middleware after this. Right? Any
+- [125:35] number of middleares you can actually go
+- [125:37] ahead and add it. Okay. So now this is a
+- [125:40] basic agent that I've actually created
+- [125:43] wherein I have added a middleware of
+- [125:44] summarization middleware. Okay. So now
+- [125:47] once I execute this cell my agent is
+- [125:49] ready. Okay. Now all I have to do is
+- [125:52] that in order to test this out right
+- [125:56] whether this summarization is happening
+- [125:58] or not let's check it out how we can
+- [126:00] actually do it. Okay. So first of all
+- [126:03] before I invoke anything with this
+- [126:05] particular agent I want to go ahead and
+- [126:07] create a thread. Okay. So I will go
+- [126:09] ahead and run with a thread ID. And for
+- [126:13] this I will go ahead and create my
+- [126:14] config. Inside my config I'm going to go
+- [126:17] ahead and create my variable called as
+- [126:19] configurable. Okay. And then I'm going
+- [126:22] to go ahead and create my thread ID.
+- [126:25] This will actually uniquely identify
+- [126:29] a user. Okay. So here I will say test
+- [126:32] one. So this is my unique user. Let's
+- [126:34] say this particular thread is my unique
+- [126:36] user. And I'm going to go ahead and do
+- [126:38] this. Okay. Now let's create some kind
+- [126:41] of test data. Okay. So let's say these
+- [126:44] are my convers. These are my human
+- [126:46] questions I need to ask the agent to
+- [126:48] this particular agent like what is 2 + 2
+- [126:51] what is 10 * 5 what is 10 100 divid by 4
+- [126:54] what is 15 - 7 and then my llm will also
+- [126:58] keep on my agent will keep on generating
+- [126:59] the answer so here what I will do I will
+- [127:01] say for Q in questions okay and I will
+- [127:06] go ahead and generate my response my
+- [127:08] response will be using this agent invoke
+- [127:12] agent invoke and here we are going to go
+- [127:14] ahead and set this in the form of a
+- [127:17] messages because we need to provide in
+- [127:19] the form of a message and here I'm going
+- [127:20] to go ahead and use my human message. My
+- [127:23] human message is nothing but whatever
+- [127:25] questions I have which I'm reading in
+- [127:27] this Q variable I will be giving it over
+- [127:29] here. Right? And then I will have my
+- [127:32] config variable. Clear? Then what I'm
+- [127:35] going to do, I'm going to print whatever
+- [127:37] response I'm actually going to get. And
+- [127:39] along with that, I'm also going to print
+- [127:42] the length of the response messages.
+- [127:44] Okay, the reason why I'm printing the
+- [127:46] length of the response messages to show
+- [127:48] you because here we have set up that
+- [127:50] whenever the message size increases more
+- [127:53] than 10, the summarization should
+- [127:55] happen. And when the summarization
+- [127:57] happens, this message length will get
+- [128:00] reduced. Okay. So here you can see I'm
+- [128:02] testing all these messages. So first of
+- [128:04] all first question will go what is 2+2
+- [128:07] and uh uh you know my llm my agent will
+- [128:10] uh provide me the answer 2 + 2 is four.
+- [128:13] Then we are going to print that entire
+- [128:15] response and then we also going to see
+- [128:16] the length of the message response.
+- [128:18] Okay. And when this length of the
+- [128:20] message response increases more than 10
+- [128:23] automatically the summarization will
+- [128:25] happen with this particular LLM model.
+- [128:27] So let's go ahead and try this out.
+- [128:29] Okay. So here you can see message
+- [128:31] message 2 message 4 message 6 message 8
+- [128:35] 10. Now automatically my summarization
+- [128:38] should happen over here. See now it has
+- [128:40] gone message 6. And here is the content.
+- [128:43] Here is the summary of the conversation
+- [128:45] to date. Human asked several arithmetic
+- [128:47] question. What is 2 + 2? A responded 2 +
+- [128:49] 2= 4. Uh what is 10 * 5? 10 mult* 5= 50.
+- [128:55] So here the summarization has happened.
+- [128:57] Why it has happened over here? because
+- [128:59] when my message length got triggered to
+- [129:01] 10 right triggered to 10 then it is
+- [129:04] going to go ahead and do the entire
+- [129:06] summarization and that's the very
+- [129:08] important property of middleware right I
+- [129:11] hope you are able to understand the
+- [129:12] power of middleware right let's see one
+- [129:15] more example see one of the trigger is
+- [129:17] through this way right where we have
+- [129:20] what we have done is that here I've
+- [129:23] applied this trigger based on the
+- [129:25] message length right 10 now there is
+- [129:27] also different way. Uh one of the way is
+- [129:30] basically based on token size, right? So
+- [129:34] let's go ahead and do based on token
+- [129:36] size.
+- [129:38] This was based on the length of the
+- [129:39] message. Now based on token size also
+- [129:41] you can actually do it. Now let's go
+- [129:43] ahead and do it. Now here what I'm
+- [129:44] actually going to do, I will first of
+- [129:46] all import all the libraries. So these
+- [129:49] are all my libraries that I'm actually
+- [129:51] going to import. From langin aents
+- [129:53] import uh create agent. Then from
+- [129:55] langin.tagents. middleware import
+- [129:58] summarization middleware then we also
+- [130:00] going to create tools uh over here we
+- [130:03] used human message in memory and then
+- [130:05] this is the tool that we have created
+- [130:06] let's say that this is my search hotel
+- [130:08] functionality and here I have hardcoded
+- [130:11] some things okay hotels in this and
+- [130:14] these are all the possible hotels that
+- [130:15] are available let's consider that this
+- [130:17] is probably returned from some API okay
+- [130:19] now what I will do I will go ahead and
+- [130:21] create my agent and this time my trigger
+- [130:23] will be token count okay token count So
+- [130:26] uh token count basically means how many
+- [130:28] tokens has been generated by the model.
+- [130:30] Right? So here I'm again going to use
+- [130:32] agent create agent. Okay. And then we
+- [130:36] are going to go ahead and use model is
+- [130:38] equal to
+- [130:40] GPT 40
+- [130:43] mini. Okay. And then I'm going to go
+- [130:46] ahead and use my tools.
+- [130:49] My tools will be nothing but let's
+- [130:50] consider that I'm going to use search
+- [130:52] hotels over here. my checkpointer.
+- [130:59] Let's see whether I've imported
+- [131:01] checkpointer or not.
+- [131:05] Checkpointer is over here
+- [131:09] is equal to inmemory
+- [131:12] saver.
+- [131:14] And then I'm going to go ahead and apply
+- [131:15] my middleware again. And this time the
+- [131:18] middleware that I'm going to apply is
+- [131:19] nothing but summarization middleware.
+- [131:22] And here I'm going to give my
+- [131:24] parameters. Let's say the first
+- [131:25] parameter is my model which is nothing
+- [131:27] but GPT 40 mini.
+- [131:31] This time my trigger will be not based
+- [131:35] on messages but based on tokens. So now
+- [131:38] I'm going to specify tokens and token
+- [131:40] length I'll keep it to 550. Let's say
+- [131:42] that if it increases more than 550 then
+- [131:44] what I'm actually going to do the
+- [131:46] summarization will happen. And when the
+- [131:47] summarization is basically happening, we
+- [131:49] are going to go ahead and keep the
+- [131:52] recent 200 tokens. Okay. So recent 200
+- [131:56] tokens.
+- [131:59] These are the parameters that is
+- [132:00] available out there, right? And inbuilt
+- [132:02] parameters, right? So this is done. This
+- [132:05] is my summarization that is basically
+- [132:07] going to get applied. Let's see. Did I
+- [132:10] miss out anything over here? This should
+- [132:12] be trigger is equal to. Okay, perfect.
+- [132:15] Now this is my agent that has got
+- [132:17] created. Now what I will do I will go
+- [132:18] ahead and create my config. Okay config
+- [132:22] will be nothing but this config so that
+- [132:24] we apply for a specific user and uh just
+- [132:28] to display or print how many tokens has
+- [132:30] been generated. I will create this
+- [132:32] function called as count tokens. Total
+- [132:34] character is equal to some length of
+- [132:36] whatever content is there. Right? That
+- [132:38] length and we are saying that we are
+- [132:40] considering okay four characters is
+- [132:42] equal to one token. Okay, four character
+- [132:44] is equal to one token. So this is what
+- [132:46] is basically happening. Okay, so now I'm
+- [132:49] getting an error. Let's see. Unable to
+- [132:51] find GBD 40. I've written 40. It should
+- [132:53] be 4 ohm mini. 4 mini. It's okay. Uh
+- [132:57] please specify model directly. Okay. GTP
+- [133:00] I have written it over here. It should
+- [133:02] be GPT.
+- [133:04] GPD. Okay. Now done. This is done. Okay.
+- [133:08] Now we are going to go ahead and run it.
+- [133:10] Okay. And we are going to run this test
+- [133:12] for the so here you can see I have
+- [133:15] created cities like Paris, London,
+- [133:16] Tokyo, New York, Dubai and Singapore.
+- [133:19] And this is my question. Find hotels in
+- [133:21] this specific city. Right? And we are
+- [133:23] doing agent.invoke.
+- [133:25] Then we are counting the total number of
+- [133:28] tokens from this response dossage and
+- [133:30] I'm printing both these things. Now here
+- [133:32] you can see one very important thing is
+- [133:34] that when the token size increases 550
+- [133:38] more than 550 then the summarization
+- [133:40] will happen right so now let's go ahead
+- [133:42] and execute this
+- [133:44] this is good okay you'll be able to see
+- [133:46] the response so here 149 tokens is there
+- [133:48] four messages okay now this will
+- [133:51] increase 302
+- [133:54] then 456
+- [133:58] then when see it increases to 550 so see
+- [134:01] now from 450 56 it has become 396 that
+- [134:04] basically means uh over here after this
+- [134:06] 550 had expanded. So we are able to do
+- [134:09] the summarization. So after 396 again it
+- [134:12] went to 232 that basically means
+- [134:14] summarization has happened here also.
+- [134:15] See here is a summary here is a summary
+- [134:17] and here also summary right. So the
+- [134:20] summary is basically happening over here
+- [134:22] right and based on this you are
+- [134:24] basically creating the response. Okay
+- [134:27] including the grand hotels all this
+- [134:29] information. So summarization is
+- [134:30] specifically happening once your 550 tok
+- [134:34] to tokens is getting over. Okay. Now
+- [134:36] this is one more way and one more way I
+- [134:39] want to go ahead with uh you know which
+- [134:41] is basically called as based on
+- [134:42] fraction. Okay. Now what is based on
+- [134:46] fraction? How based on fraction it is
+- [134:47] going to apply. Okay. Here this time
+- [134:50] I'll copy and paste some code and you
+- [134:53] you can just go ahead and see to it.
+- [134:56] Okay.
+- [134:57] So here you can see I have my search
+- [134:59] totals. This time the trigger will be
+- [135:02] based on fraction not on token and
+- [135:04] fraction I have given 0.005005 005
+- [135:07] 0005 this is this fraction is based on
+- [135:09] the context of the LLM model right so if
+- [135:12] the LLM model is able to accommodate
+- [135:14] 160k tokens right uh if I give the
+- [135:18] fraction as 0.5 that basically means 0.5
+- [135:20] of six of that many number of tokens is
+- [135:24] equal to 640 tokens that is what I've
+- [135:26] given as an example okay we can also
+- [135:28] convert that so it is based on different
+- [135:30] different LLM context size here we are
+- [135:33] going to use fraction okay so fraction
+- [135:35] is 0005 that basically means 0.5% 02
+- [135:38] that is nothing but 2%. U and here again
+- [135:41] you can see I'm counting the count
+- [135:43] tokens everything is same and here we
+- [135:45] are using config and here you can also
+- [135:47] go ahead and see the fraction so
+- [135:49] whenever the fra this fraction increases
+- [135:51] 0.5 then we are good to go see 9
+- [135:57] here 133 tokens.15
+- [136:02] 21
+- [136:04] whenever it reaches 0 five okay 5%.
+- [136:08] You can see if it does not reaches 0.5
+- [136:10] that basically means summarization. So
+- [136:12] here it has increased. So here you can
+- [136:14] see summary of the conversation
+- [136:17] it has increased from here to and uh
+- [136:19] what we have done is that here the
+- [136:21] summary has been created. Right? So that
+- [136:23] basically means that percentage of the
+- [136:25] token has got uh the fraction has got
+- [136:27] increased right. So this was just about
+- [136:30] summarization and three types we have
+- [136:32] learned. One is based on token size, one
+- [136:34] is based on u you know the number of
+- [136:37] messages and all right and uh an amazing
+- [136:41] uh summarization technique and if you go
+- [136:43] ahead and see this is the summarization
+- [136:45] over here you can see some examples but
+- [136:47] I I have probably given you a very good
+- [136:50] example and there are also other
+- [136:51] built-in uh middleware now you can use
+- [136:54] any of them like tool call limit you
+- [136:56] know how to apply it so inside the
+- [136:57] middleware you go ahead and apply it
+- [136:59] like this right and uh let's say you
+- [137:02] want to probably go ahead and apply
+- [137:03] model fall back right so model fall back
+- [137:05] basically means from one model if some
+- [137:07] model is not there you can fall back to
+- [137:09] the other model right let's say if this
+- [137:11] API cost or API key is not working then
+- [137:14] it will fall back to the other model
+- [137:15] right so what I will show you is that in
+- [137:18] the next uh section I will show you how
+- [137:20] you can also go ahead and apply human in
+- [137:22] the loop a very good example because
+- [137:24] human feedback is always required right
+- [137:26] whenever a task is basically happening
+- [137:28] in the agent and that is what we are
+- [137:30] basically going to go ahead and discuss
+- [137:32] but I hope you got a clear idea about
+- [137:34] summarization middleware. So now we are
+- [137:36] going to continue a discussion with
+- [137:39] respect to middleware and uh we are
+- [137:41] going to discuss one more type which is
+- [137:42] called as human in the loop. Okay. And
+- [137:45] this is a very important uh
+- [137:47] functionality in terms of middleware. So
+- [137:50] here uh what this does is that it pauses
+- [137:53] agent execution for human approval,
+- [137:55] editing or rejection of a tool call
+- [137:57] before they execute. Human in the loop
+- [138:00] is useful for the following. High stakes
+- [138:02] operation require human approval like
+- [138:04] database rights, financial transaction,
+- [138:06] compliance workflows where human
+- [138:08] oversight is mandatory. Longunning
+- [138:10] conversation where human feedback guides
+- [138:12] the agent. Okay. Now let me just open my
+- [138:15] scribble notebook and let me talk more
+- [138:17] about it. Let's say that I have a
+- [138:19] specific agent and my human in the loop
+- [138:21] is actually required. Let's say this
+- [138:23] agent uh does some kind of task. Okay.
+- [138:27] And whenever we talk about agent these
+- [138:29] are basically autonomous agent
+- [138:32] autonomous agent when we say autonomous
+- [138:34] agent that basically means without much
+- [138:36] human intervention it'll be able to do
+- [138:38] some specific task let's say this agent
+- [138:41] actually does a work and uh it is a
+- [138:43] critical work let's say with respect to
+- [138:45] financial transaction okay financial
+- [138:48] transaction now when I say financial
+- [138:51] transaction let's say this agent helps
+- [138:53] me to buy stocks
+- [138:55] Okay.
+- [138:57] Now let's say
+- [139:00] and see this is definitely a very
+- [139:02] critical task. I hope you agree with
+- [139:05] this. This is a critical task. We cannot
+- [139:08] just directly uh we cannot uh you know
+- [139:11] completely be dependent on the agent to
+- [139:13] do this specific task. Some kind of
+- [139:15] human intervention is definitely
+- [139:16] required. Let's say for the next day the
+- [139:19] agent is going to probably go ahead and
+- [139:21] buy a stock and uh you know
+- [139:23] automatically goes and does some kind of
+- [139:25] mistake. So there may be a huge loss of
+- [139:28] finance in this side. So we cannot be
+- [139:30] completely dependent on the autonomous
+- [139:32] agent. What we can actually do is that
+- [139:34] we can add a human over here, right? And
+- [139:39] we can make sure that whenever an agent
+- [139:41] takes any decision in this kind of
+- [139:44] critical task, first of all, it will go
+- [139:47] ahead and request this human to provide
+- [139:49] a confirmation, right? And that is the
+- [139:51] reason we say human in the loop, right?
+- [139:54] We always asking feedbacks to the human
+- [139:57] being because at the end of the day uh
+- [139:59] unless until this feedback is not given
+- [140:01] to the agent this kind of task will not
+- [140:05] get completed right and this is really
+- [140:08] important because for any kind of
+- [140:10] critical task we need to have human
+- [140:13] intervention
+- [140:15] intervention because there may be
+- [140:17] mistakes that may that agent can make
+- [140:19] that an LLM can specifically make right
+- [140:22] so now we are going to understand how we
+- [140:24] can actually go ahead and implement this
+- [140:26] kind of middleware. Okay. So here you
+- [140:29] can see I have I'm I'm actually working
+- [140:31] in the same notebook. Okay. What I will
+- [140:34] do is that I will go ahead and import
+- [140:36] some of the libraries. The first library
+- [140:38] is that with respect to create agent.
+- [140:40] The second library I'm going to import
+- [140:42] is from langen.agents.m middleware
+- [140:44] import human in the loop middleware.
+- [140:46] Before we just using summarization
+- [140:48] middleware right then we are using
+- [140:50] checkpoint dotmemory in memory. Right
+- [140:52] now let's say that I want to do a
+- [140:54] specific task which needs to be done
+- [140:56] which needs to be intervened by the
+- [140:58] human being again and again. Basically
+- [141:00] my agent should go ahead and ask
+- [141:02] continuous feedback you know with
+- [141:04] respect to any task that it does right
+- [141:07] now what I will do I will go ahead and
+- [141:10] create two important function let's say
+- [141:12] one of my agent work is basically to
+- [141:14] send emails okay so here you can see
+- [141:17] that I have two different
+- [141:18] functionalities one is read email here
+- [141:20] we give the email id email content for
+- [141:23] ID this one is there where we are
+- [141:25] reading the email then second is send
+- [141:28] email tool okay So this basically sends
+- [141:30] a email right here. I know I've just
+- [141:33] written some kind of dummy information
+- [141:34] saying that email send to recipient with
+- [141:37] subject this subject. Okay, this is what
+- [141:40] is my basic thing over here. Again, if
+- [141:42] you really want to implement a end toend
+- [141:45] email thing, you need to use SMTP server
+- [141:47] and based on that you can actually do
+- [141:49] it. But the core idea over here is that
+- [141:51] I just want to show you to do this
+- [141:54] particular task, I want my agent to be
+- [141:56] always intervened by human beings. Okay.
+- [141:59] So these are the two functionalities
+- [142:01] that I have like kind of a tool. Now
+- [142:03] what I will do I will go ahead and
+- [142:04] create my agent. My agent will be
+- [142:06] nothing but create agent. Here the first
+- [142:09] thing that I'm going to use is model. So
+- [142:11] model I'll write GBD40.
+- [142:14] Okay. The second parameter that I'm
+- [142:16] actually going to use is tools. Tools
+- [142:18] here I'm going to go ahead and provide
+- [142:20] my tool called as read email tool. Send
+- [142:23] email tool. whatever tools I have
+- [142:25] written over here on the top because my
+- [142:27] agent work is basically to send a uh
+- [142:30] email right then here I'm going to use a
+- [142:33] checkpointer this is for my memory so
+- [142:36] inmemory saver in memory
+- [142:41] inmemory saver I'll go ahead and
+- [142:43] initialize this now I'm going to go
+- [142:44] ahead and add my middleware okay
+- [142:47] middleware as I said you can also add
+- [142:49] summarization middleware over here but
+- [142:52] this example I want to So human in the
+- [142:54] loop middleware and inside this human in
+- [142:56] the loop middleware way I will have
+- [142:58] multiple options. One is interrupt. So I
+- [143:01] can go ahead and use interrupt. So I
+- [143:04] will uh go ahead and use something
+- [143:07] called as interrupt on. Okay is equal to
+- [143:10] now where I need to interrupt right that
+- [143:14] is what we really need to understand
+- [143:15] where we need to interrupt it on what
+- [143:17] kind of action I want to interrupt it.
+- [143:19] Now in this particular scenario if my
+- [143:21] agent is sending a mail I really want to
+- [143:23] make a confirmation from the human being
+- [143:25] or get an approval before the human
+- [143:28] being before sending the mail right so
+- [143:30] here what I'll do interrupt on I will
+- [143:32] write okay this functionality which is
+- [143:34] called as send email tool so whenever
+- [143:36] this functionality or this tool is
+- [143:38] basically getting called I need to go
+- [143:39] ahead and ask for the human permission
+- [143:42] right whether we should allow it or not
+- [143:43] so here I will say allowed
+- [143:47] decision which you can hardcode it Okay,
+- [143:49] decision and here I will say I will have
+- [143:52] three important things. Okay, three
+- [143:55] important thing. One is approved,
+- [143:58] edit
+- [144:00] or reject. Okay, so I'm saying that
+- [144:02] there are three important options that
+- [144:04] you can basically interrupt on and human
+- [144:08] can basically approve it or edit it or
+- [144:10] reject it. Okay, either it can approve
+- [144:13] okay go ahead and send the mail either
+- [144:15] it can say no no no don't send the mail
+- [144:17] to this email id to some other mail
+- [144:18] email id that is reject edit and third
+- [144:21] one is something called as reject okay
+- [144:23] so this on send email tool I definitely
+- [144:26] want um I definitely want a kind of
+- [144:31] interrupt right now with respect to read
+- [144:34] email tool I don't want anything so what
+- [144:35] I will do for this particular tool I
+- [144:38] will go ahead and say hey go ahead and
+- [144:40] make it false.
+- [144:42] So whenever I'm making this particular
+- [144:43] tool call for this particular tool call
+- [144:46] I definitely go need to go ahead and
+- [144:48] take an approval from the human being.
+- [144:49] The human being can provide three
+- [144:51] options. One is approve, edit and
+- [144:52] reject. Okay. So this is done very
+- [144:55] clear. So I will go ahead and execute
+- [144:57] and create my agent. Now once I have my
+- [144:59] specific agent over here, now the next
+- [145:01] step is that what I will do? I will just
+- [145:03] go ahead and create a config file. See
+- [145:06] config over here. I'll say test approve.
+- [145:07] Let's go ahead and do the test approve
+- [145:09] with this thread ID. Thread ID indicates
+- [145:12] unique ID. Okay, I'm using
+- [145:14] message.invoke messages human message
+- [145:17] and I said send email to
+- [145:18] john@thetest.com
+- [145:20] with subject hello and body how are you?
+- [145:23] Okay, so this is my input that is given
+- [145:24] over here. Now once I give this
+- [145:26] particular input the agent will know
+- [145:28] okay it has two tools. One is read email
+- [145:30] tool and one is send email tool. So it
+- [145:32] will first of all go ahead and execute
+- [145:34] read email tool. Read email tool is
+- [145:36] nothing but it goes and uh read the
+- [145:38] email by its id and send email is
+- [145:41] nothing but it mock sends mox function
+- [145:43] to send an email. Okay.
+- [145:46] Now while reading this particular read
+- [145:48] email tool it will not do anything but
+- [145:51] once it goes to send email tool it is
+- [145:53] going to create an interrupt. Okay. So
+- [145:55] let's see this. So I'll go ahead and
+- [145:56] execute it. And now I will go ahead and
+- [145:59] see my result. See there is something
+- [146:01] called as interrupt. Now why interrupt
+- [146:04] is basically happening over here? It is
+- [146:06] very much clear because we have created
+- [146:09] a trigger over here right in this
+- [146:11] particular middle uh in in this
+- [146:13] particular middleware wherein wherever
+- [146:15] the send email tool is basically
+- [146:16] executed we need to go ahead and take a
+- [146:18] permission from the human being. Now
+- [146:20] what is basically happening for this
+- [146:22] send email tool now we need to take a
+- [146:23] approval from the human being. Now for
+- [146:25] the approval process it is very simple.
+- [146:28] I will go ahead and write this
+- [146:29] particular condition. Now see this I
+- [146:31] will write if
+- [146:34] interrupt is present in result print
+- [146:37] pause approving then I will say
+- [146:39] agent.invoke invoke. Now see human needs
+- [146:42] to see give the confirmation. Okay, go
+- [146:44] ahead and send the mail, right? Then how
+- [146:47] that execution will basically happen.
+- [146:49] For that we use this particular uh uh
+- [146:52] this particular library which is called
+- [146:54] as command. Okay. Now this command what
+- [146:56] it does is that it executes a command.
+- [147:00] Okay. Now what command it basically
+- [147:02] executes? It executes says that hey
+- [147:04] execute the workflow resume the workflow
+- [147:07] and there the decision type will be
+- [147:09] approve. Now this approve if you
+- [147:11] remember it matches this right so we are
+- [147:14] saying approve right so here we are
+- [147:16] saying approve right and for the same
+- [147:18] config then we will be able to see that
+- [147:20] the mail will be sent so this is the
+- [147:23] code wherein the human is approving
+- [147:26] right if you instead of approve if you
+- [147:28] write reject over here it'll get
+- [147:29] rejected right so this is the human
+- [147:31] approval that is basically happening so
+- [147:33] once I execute this I'm getting an execu
+- [147:35] error saying the command okay command is
+- [147:37] not there we need to probably go ahead
+- [147:40] and uh you know uh import the library
+- [147:43] which is basically called as command.
+- [147:46] Okay. Now command libraries uh will be
+- [147:49] available uh let me just open my browser
+- [147:54] and here I will search for langchain
+- [147:56] command. Okay so lchain command
+- [148:02] let's see there is interrupts.
+- [148:05] So interrupt command command command
+- [148:08] rumé. So here you can see from lang
+- [148:10] graph.types import command. So I'll go
+- [148:13] over here. I will
+- [148:16] paste it here itself. Okay. So here you
+- [148:20] can see that I'm basically pasting it
+- [148:21] over here. I'll execute it. Now this
+- [148:24] should basically execute it. Now here
+- [148:25] you can see the email has been sent to
+- [148:27] john@therettest.com with subject hello.
+- [148:30] So before my result was this. Now if I
+- [148:33] go ahead and see my result, it will
+- [148:35] basically have the tool message which is
+- [148:37] nothing but email sent to this because
+- [148:39] this is the tool that is basically
+- [148:40] getting called right the send email
+- [148:43] tool. This tool is basically getting
+- [148:45] called and that has executed wherein it
+- [148:48] has said that okay we have sent a email
+- [148:50] to this and finally the AI message is
+- [148:52] saying that the email has been sent to
+- [148:54] John test with subject hello. Okay. Now
+- [148:57] similarly let's say you want to do it
+- [148:58] for reject. Okay. So how do I do it for
+- [149:01] reject? Let's say the human wants to
+- [149:04] reject this. Okay. Uh uh it does not
+- [149:07] want to continue with this, right? So
+- [149:09] for reject again I will use the same
+- [149:10] code. Let's say this is my agent entire
+- [149:12] thing. Okay. I will execute this. I'll
+- [149:16] open more code cell. Now I will go ahead
+- [149:18] and set my config. Now here we are
+- [149:21] basically saying that okay fine
+- [149:24] agent.invoke.
+- [149:25] Okay. I have to basically close the
+- [149:27] brackets. Okay. Now I'm using this test
+- [149:31] do- reject for this particular thread.
+- [149:34] I'm using this unique. And then for
+- [149:36] rejecting I will just go ahead and
+- [149:38] update my code. Instead of making that
+- [149:41] decision type as approve, I'm going to
+- [149:43] use this as reject. So this reject and
+- [149:46] this reject are matching. Right? And
+- [149:48] then I will just go ahead and execute
+- [149:50] it. Pause approving. You can see it
+- [149:53] seems that there is was an issue with
+- [149:54] sending an email. Now if you go ahead
+- [149:55] and see the result, you'll be able to
+- [149:57] see that user rejected the tool call.
+- [150:00] Right?
+- [150:01] Very simple. Here we are using this
+- [150:03] command. Okay, this command is really
+- [150:06] really important. It's just to execute
+- [150:08] something in the specific workflow.
+- [150:10] Right? And finally, you can also do it
+- [150:12] for editing. Right? Let's say that I
+- [150:15] don't want to drop a mail by mistakenly
+- [150:18] have given some other email id. I want
+- [150:20] to change the email ID. Right? So
+- [150:22] everything is same over here with
+- [150:24] respect to creating an agent. I'll go to
+- [150:26] the next step. I will go ahead and
+- [150:28] create my config. Let's say I go ahead
+- [150:31] and send an email to wrongthe
+- [150:33] ratemail.com with subject text and body
+- [150:34] hello. If I go ahead and execute this, I
+- [150:37] will go ahead and show you the result.
+- [150:39] It'll be interrupted waiting for the
+- [150:41] human feedback. Now the human can
+- [150:43] basically say hey go ahead and execute
+- [150:45] the type edit. So here you can see if
+- [150:47] interrupt in result agent.invoke Invoke
+- [150:50] command resume is equal to decision type
+- [150:52] edit and edited action we have said that
+- [150:55] okay name send email to we are changing
+- [150:58] the argument recipient subject and body
+- [151:02] okay so this was edited by human before
+- [151:04] sending and I'm giving the same config
+- [151:06] if I go ahead and execute this
+- [151:09] you should be able to see what is the
+- [151:12] output that will be the email has been
+- [151:14] sent successfully now if you go ahead
+- [151:16] and see the result you'll be able to see
+- [151:18] that the email send to correct at the
+- [151:20] rategmail.
+- [151:21] Right? So here we have edited right. So
+- [151:25] for edit you have something called as
+- [151:27] edit action.
+- [151:29] So this is basically with respect to the
+- [151:31] human in the uh loop uh middleware which
+- [151:34] you can go ahead and try it and do it
+- [151:36] from your side based on your
+- [151:38] requirement. Okay. Now the next thing is
+- [151:41] that you can still go ahead and explore
+- [151:44] all the other built-in built-in
+- [151:47] middleares like model call limit. Let's
+- [151:49] say you want to have the limit the
+- [151:51] number of model calls to prevent
+- [151:53] infinite loops. You can go ahead and use
+- [151:54] this thread limit run limit. You can go
+- [151:58] ahead and see what are the configuration
+- [152:00] options. So this entire page you can go
+- [152:03] ahead and explore it by yourself and you
+- [152:06] can do multiple things. You can do LM
+- [152:08] tool selector option is also there
+- [152:10] right. So here you can see tool selector
+- [152:13] middle middleware you can see agent with
+- [152:14] tools where most aren't relevant per
+- [152:16] query reducing token usage by filtering.
+- [152:19] So for different different task you
+- [152:20] definitely have these amazing middleares
+- [152:23] okay which you can actually use. So I
+- [152:25] hope you have understood about
+- [152:27] middleares.

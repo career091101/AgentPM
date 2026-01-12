@@ -1,0 +1,669 @@
+---
+title: "So Gemini's new file search API is awesome because it allows you to drop in a document. It generates..."
+video_id: "irg-2IfAjpo"
+video_url: "https://www.youtube.com/watch?v=irg-2IfAjpo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Automation"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  So Gemini's new file search API is
+  awesome because it allows you to drop in
+  a document. It generates those
+key_points:
+  - "So Gemini's new file search API is"
+  - "cheap price is probably why you've been"
+  - "I'm going to be talking about how we can"
+  - "data pipeline that looks like this"
+  - "file and get answers back. But I will"
+  - "going to try to be as honest as I can"
+  - "building things. What is Gemini file"
+  - "then you can have your nitni agents"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: irg-2IfAjpo
+
+- URL: https://www.youtube.com/watch?v=irg-2IfAjpo
+- Retrieved at: 2025-12-30T15:58:09+09:00
+
+## Text
+
+- [00:00] So Gemini's new file search API is
+- [00:01] awesome because it allows you to drop in
+- [00:03] a document. It generates those
+- [00:04] embeddings and then you're right away
+- [00:05] able to just chat with it and ask it
+- [00:07] questions and get answers back. So that
+- [00:09] functionality along with the fact that
+- [00:11] they're offering it for a super super
+- [00:12] cheap price is probably why you've been
+- [00:14] seeing it on your feeds lately. So today
+- [00:16] I'm going to be talking about how we can
+- [00:17] use it in Naden for our rag agents
+- [00:19] without having to build a huge massive
+- [00:21] data pipeline that looks like this
+- [00:23] because we're able to just drop in a
+- [00:24] file and get answers back. But I will
+- [00:26] say it's not completely magic. So
+- [00:28] everything that we're doing today, I'm
+- [00:29] going to try to be as honest as I can
+- [00:31] about it. So just to start off before we
+- [00:33] actually get into niten and start
+- [00:34] building things. What is Gemini file
+- [00:36] search? So how does it work? Basically
+- [00:38] you upload your files to Gemini. It
+- [00:40] automatically chunks and embeds them and
+- [00:42] then you can have your nitni agents
+- [00:44] using this as knowledge. So if you've
+- [00:46] ever built like a rag agent before with
+- [00:48] a vector database like pine cone or
+- [00:49] superbase, it's super super similar
+- [00:51] except for once again we're cutting out
+- [00:53] basically all of this data pipeline
+- [00:55] processing where we have to understand
+- [00:56] the file type, add metadata, maybe add
+- [00:58] context, split it up, run it through an
+- [01:00] embeddings model, and then put it into
+- [01:01] our vector store. Whereas in this
+- [01:03] example, we basically just upload the
+- [01:04] doc, we shoot it over to Google, and
+- [01:06] then it takes care of everything else.
+- [01:07] And then we can go ahead and just have
+- [01:09] an AI agent that's plugged into our
+- [01:10] Google store and it can start giving us
+- [01:12] answers right away. Why is it useful?
+- [01:14] You don't have to build your own search
+- [01:15] system or database because Gemini
+- [01:17] handles that storage and searching. And
+- [01:18] what do you need to know? You only need
+- [01:20] to know how to upload your files through
+- [01:22] Gemini file API. And you don't need all
+- [01:24] this special stuff and special technical
+- [01:26] setup. And real quick to hit on pricing,
+- [01:28] which is why this is pretty exciting.
+- [01:30] They only charge you for uploading or
+- [01:32] for your indexing or your embedding. So
+- [01:34] when you upload a file, you pay 15 cents
+- [01:36] for every 1 million tokens processed.
+- [01:39] And just to put that into perspective,
+- [01:40] right here I've got a 121page PDF and
+- [01:44] this was about 95,000 tokens. So not
+- [01:46] even a tenth of what would cost you 15.
+- [01:50] So it's really really affordable. And
+- [01:51] then also when you look at the storage,
+- [01:53] it stores everything as of right now for
+- [01:55] completely free regardless of how much
+- [01:57] you have in there. And then as far as
+- [01:59] querying it, there is some sort of limit
+- [02:00] when you get really really high on your
+- [02:02] queries, but basically all you'll be
+- [02:03] paying for on your queries is the chat
+- [02:05] model usage. So this table is assuming
+- [02:08] that you're using 100 GB of storage and
+- [02:10] 1 million queries per month. And so this
+- [02:12] is where with Gemini it would cost you
+- [02:14] nothing to store. It would cost you
+- [02:15] almost 12 bucks to index all of that but
+- [02:17] just one time. And then you might hit
+- [02:19] some sort of base fee just because
+- [02:20] you're doing so many queries per month
+- [02:22] and that's going to be like let's just
+- [02:23] call it 35 bucks for this first month.
+- [02:26] Now for something like Superbase where
+- [02:27] you do like a PG vector extension, it's
+- [02:29] still pretty affordable. It just takes a
+- [02:31] lot more on you for technical setup and
+- [02:33] kind of maintenance there. And then when
+- [02:35] you compare something like Pine Cone
+- [02:36] Assistant or OpenAI Vector Store, which
+- [02:38] is essentially the same value prop as
+- [02:40] Gemini File Search where you just drop
+- [02:41] in docs and then you can chat with them
+- [02:43] right away. These, as you can see, are
+- [02:45] charging you a lot more for storage. And
+- [02:47] then you've also got costs here for
+- [02:48] indexing and querying. And also with the
+- [02:50] Pine Cone Assistant, you get charged
+- [02:52] like 5 cents every hour that this thing
+- [02:54] is running. So over time, that also
+- [02:57] stacks up. And I did not include that
+- [02:58] cost in this table. And so once again,
+- [03:01] just a visualization, Gemini is super
+- [03:03] cheap when it comes to this file search
+- [03:04] API. You may be able to get cheaper if
+- [03:06] you go a different route, but
+- [03:08] considering how easy and quick it is to
+- [03:09] just set up a Gemini file search API and
+- [03:12] rag agent, that cost is justified. All
+- [03:16] right, so we're about to switch over and
+- [03:17] we're going to actually start looking at
+- [03:18] the Gemini file search. But I wanted to
+- [03:20] say at the end of this video, I am going
+- [03:22] to come back and just do a little bit of
+- [03:23] some final considerations and things to
+- [03:25] think about. So when we get into any
+- [03:27] end, there's going to be four HTTP
+- [03:29] requests that you guys will be looking
+- [03:30] at, and I'm going to walk through
+- [03:31] exactly how I set them up. The first one
+- [03:33] is going to be us actually creating that
+- [03:35] store. And so right now, I'm just going
+- [03:36] to refer to it as a folder, cuz I think
+- [03:38] that that just makes things a little
+- [03:39] easier to contextualize. So the first
+- [03:41] one we're going to do is we're going to
+- [03:42] make a folder. The next request we have
+- [03:43] to do is actually upload a file. And so
+- [03:46] we upload it to just like the Google
+- [03:47] Cloud environment, but that doesn't yet
+- [03:49] mean it's in the folder. So the third
+- [03:51] HTTP request that we have to make is
+- [03:53] we're going to take this file and we're
+- [03:54] going to move it into the folder that we
+- [03:56] created earlier in step one. And then
+- [03:58] finally, we have to set up the actual
+- [03:59] request to query it. So we're going to
+- [04:01] hook up an AI agent to the tool and then
+- [04:03] we'll be able to chat with it to get all
+- [04:04] of the information that is in this file,
+- [04:07] which will be in this folder that we
+- [04:10] created. All right, so here's what it
+- [04:11] looks like in NN. We've got the create
+- [04:13] store, we've got the upload file, and we
+- [04:14] have the query. And then after I show
+- [04:16] you guys how all of this works, we're
+- [04:17] going to run a quick evaluation to see
+- [04:19] how accurate the results actually are
+- [04:21] coming back. Okay, so I already have all
+- [04:23] of this built out for you guys. If you
+- [04:24] want to download it for completely free,
+- [04:25] so you can just plug in your own
+- [04:26] information, you can do so by joining my
+- [04:28] free school community. The link for that
+- [04:30] is down in the description. I also just
+- [04:31] recorded a full step-by-step breakdown
+- [04:33] of this in my plus community if you want
+- [04:35] to check that out where I do other live
+- [04:37] builds and we've got full courses in
+- [04:38] here as well. So if that interests you,
+- [04:40] go check it out. So anyways, the way
+- [04:41] that this works is we're setting up our
+- [04:43] HTTP requests. And the way that I knew
+- [04:45] how to set this up was by looking at the
+- [04:47] file search API documentation. And I'm
+- [04:50] going to be honest, this API
+- [04:52] documentation from Google. And most of
+- [04:53] Google's are not my favorite. They're
+- [04:56] not super intuitive. They're very
+- [04:57] confusing. And so I will show you guys
+- [04:59] where I found the operations that we
+- [05:01] need to do. But once again, you can
+- [05:02] download this workflow for free and just
+- [05:04] plug in your key information. So you can
+- [05:07] see this is our file search API. We have
+- [05:09] different scenarios like directly
+- [05:10] uploading to file search store. We can
+- [05:12] import files. We can learn how the
+- [05:14] chunking works. We can look at the
+- [05:15] metadata and citations and stuff like
+- [05:17] that. And also another cool tip that I
+- [05:19] saw from Mark Hashef is you can actually
+- [05:21] go ahead and view as markdown and then
+- [05:23] you could paste in all of this
+- [05:25] information to an LLM and it could help
+- [05:26] you set up some requests. It's
+- [05:28] definitely not perfect and you have to
+- [05:29] work with it a little bit. So that's why
+- [05:30] I'm here to just show you what to do. So
+- [05:32] the way that I went about this is I went
+- [05:34] down to the second one which is
+- [05:35] importing files and I kind of followed
+- [05:37] this order of operations. So the first
+- [05:40] thing that you can see what we have to
+- [05:41] do is we have to create a file search
+- [05:43] store. So what I did is I saw that this
+- [05:45] was a post request. I grabbed this whole
+- [05:47] endpoint right here and I'm going to
+- [05:49] throw this into this HTTP request right
+- [05:51] there. Now, I'm not going to dive into
+- [05:53] the nitty-gritties of setting up an HTTP
+- [05:55] request, but one thing that I know just
+- [05:57] because I've done it so many times is
+- [05:58] when you see a question mark in the URL,
+- [06:01] this basically just means that anything
+- [06:02] following that question mark is a query
+- [06:05] parameter. And so, you can see our query
+- [06:07] parameter is a key and then we need to
+- [06:09] go get a Gemini API key. So, if you're
+- [06:11] in this documentation page, you can
+- [06:12] click up here to get API key. Or you
+- [06:14] could go to Google AI Studio and then
+- [06:16] you'll find when you create your
+- [06:17] profile, you can create a key right
+- [06:19] here, which I will just go ahead and
+- [06:20] call test. Throw that in there. And then
+- [06:23] when I get this key, it will give me
+- [06:25] this value, which I can go ahead and
+- [06:26] copy and go back into edit. And you
+- [06:29] would just be pasting this right in here
+- [06:30] where I have my query parameter that
+- [06:32] says key, and then I've got that value.
+- [06:34] Now, that's one way you can do it. And I
+- [06:36] have the rest of the template set up so
+- [06:37] that you can do that. But a much better
+- [06:39] way to do it so that you don't have to
+- [06:41] go copy and paste your key every time is
+- [06:43] to create an authentication up here. So
+- [06:45] we know this is a query parameter. So
+- [06:47] I'm going to choose generic. I'm going
+- [06:48] to go to generic type and choose query.
+- [06:50] And then I'm going to create a new query
+- [06:52] off where I basically for the name just
+- [06:54] type in key for the value. Paste in that
+- [06:56] API key. And then I'm just going to name
+- [06:58] this Google demo 1119.
+- [07:02] And so I can save that. And now I know
+- [07:04] exactly what query off that this is. And
+- [07:06] I can use this every time rather than
+- [07:08] sending over these query parameters. So
+- [07:10] anyways, I've got my header content type
+- [07:12] in here. And then the most important
+- [07:13] thing that you need to do in this
+- [07:15] request is choose the name for your file
+- [07:18] store. So I'm going to call my file
+- [07:19] store YouTube- test. And then I'm just
+- [07:22] going to go ahead and execute this step.
+- [07:24] And you can see that we got this success
+- [07:26] message back from Google, which is
+- [07:27] basically saying, okay, here's the name
+- [07:29] of your file store. Here's the display
+- [07:31] name. And here's the time that we
+- [07:32] created it. And so right now I'm just
+- [07:33] going to pin this data so we can save it
+- [07:35] because we're going to have to come back
+- [07:36] and use this name in the next step.
+- [07:38] Okay, so we created our file store. The
+- [07:40] next thing we need to do is we need to
+- [07:41] upload the file to Google and then we
+- [07:44] have to move it into that file store. So
+- [07:46] real quick, what I'm going to do is just
+- [07:48] delete this connection. We're going to
+- [07:49] go ahead and pull up this form
+- [07:51] submission trigger which just makes me
+- [07:53] drop in a document. And I just dropped
+- [07:55] in this PDF which is the rules of golf.
+- [07:57] And it's like a 22page PDF or something
+- [07:59] like that. Now, let's go into this HTTP
+- [08:01] request and take a look at what we're
+- [08:02] doing. So, the way that I found out how
+- [08:04] to configure this one was back in the
+- [08:06] API documentation. You can see that
+- [08:07] after we created our file search store,
+- [08:09] we needed to initiate resumable upload
+- [08:11] to the store. So, I went ahead and
+- [08:13] grabbed this post request. I grabbed
+- [08:15] this URL right here. As you can see, it
+- [08:18] ends in files. And then I threw in right
+- [08:19] here this URL. And then we have our
+- [08:22] query parameter which I'm actually going
+- [08:23] to get rid of because as you guys saw we
+- [08:25] just set up a query off together which
+- [08:27] was Google demo 1119 right there. And
+- [08:29] then the last thing that we actually
+- [08:30] need to send over is the actual noden
+- [08:32] file. So right here for the body we're
+- [08:34] choosing naden binary file which is
+- [08:36] right over here. You can tell it's
+- [08:38] binary because you have schema table
+- [08:40] JSON and then binary. And that's where
+- [08:41] it shows up. And so all you have to do
+- [08:44] is copy whatever the name is right here
+- [08:45] of that binary file and then put it in
+- [08:47] there. So that's why I'm saying file.
+- [08:49] Those two things match up. And I can go
+- [08:51] ahead and execute this step. And what
+- [08:52] this is going to do is it's going to
+- [08:54] tell us that our file is now in the
+- [08:56] Google environment. So what it does is
+- [08:58] it temporarily holds this file, which is
+- [09:00] why you see an expiration time. So if
+- [09:02] you don't move it into a folder by this
+- [09:04] date, it will expire. So you can see we
+- [09:06] got a name, we got a mime type, we have
+- [09:08] a size, we have a URI, we have a state,
+- [09:10] we have a source, and that's just some
+- [09:12] metadata about this. And this is
+- [09:14] basically just our success message from
+- [09:15] Google. So moving on to the next one.
+- [09:18] What we have to do is actually move that
+- [09:19] file that's up in Google's cloud into
+- [09:21] our folder. So I'm going to go back once
+- [09:23] again into the API documentation. You
+- [09:25] can see that there's one right here
+- [09:27] which is import files into the right
+- [09:29] store. So I would basically grab this
+- [09:31] request. I then came into this HTTP
+- [09:33] request and pasted it right in here. And
+- [09:35] what you notice is that we have a
+- [09:37] variable to configure because right here
+- [09:39] you can see it's asking for our store
+- [09:41] name. Now the reason why we have to do
+- [09:42] it in the endpoint is because it didn't
+- [09:44] come after the question mark. So, it's
+- [09:46] not actually a query parameter. So,
+- [09:48] that's why we have to copy and paste the
+- [09:49] name of our file store in the actual
+- [09:51] URL. So, I'm going to go back into this
+- [09:53] first node where we got that. I'm going
+- [09:55] to copy this name right here of our file
+- [09:57] store and then open up this import file
+- [10:00] node and we're going to delete this and
+- [10:02] we're going to paste in the name of our
+- [10:04] file store right there. I'm going to go
+- [10:05] ahead and get rid of our query
+- [10:06] parameters because we already set that
+- [10:08] up together. We've got our headers we're
+- [10:09] sending over. And then finally for the
+- [10:11] JSON body, we just need to send over the
+- [10:13] name of the file that we just uploaded.
+- [10:15] So on this left-h hand side, we had the
+- [10:17] upload file operation and it gave us a
+- [10:19] name. I basically just dragged in that
+- [10:21] name right there. And now if we execute
+- [10:23] this step, we're going to get a success
+- [10:25] message from Google that's telling us
+- [10:26] that our file has been put into that
+- [10:29] folder. All right, so we made our
+- [10:31] folder, we uploaded the file, and then
+- [10:33] we moved that file into that folder. So
+- [10:35] now we're ready to actually test out the
+- [10:37] agent and see if it can understand what
+- [10:39] is in that PDF that we just gave it. So
+- [10:41] the way that this knowledgebased tool
+- [10:43] works is it is another HTTP request. So
+- [10:46] of course I went to the API
+- [10:47] documentation and I saw this request
+- [10:49] right here which is to generate content
+- [10:51] which just means it's going to get an
+- [10:52] answer back for us. So I grabbed the
+- [10:54] endpoint right here. You can see that
+- [10:55] it's using Gemini 2.5 flash as the
+- [10:57] model. I saw the header parameters. I
+- [10:59] saw it was a post and then I saw the
+- [11:00] actual body of the request that we need
+- [11:02] to send over. And what you'll notice is
+- [11:04] in the body, it asks us for a store
+- [11:06] name. So once again, what we'd want to
+- [11:08] do is we'd go all the way back up here.
+- [11:10] We would grab the name of the file store
+- [11:12] that we want to search in. And then we
+- [11:14] would open up this HTTP request and we
+- [11:16] would make sure that it goes right in
+- [11:17] here. And now it knows to look in that
+- [11:20] file store. Now, the other thing that we
+- [11:22] had to configure was this from AI
+- [11:23] function for the actual query that we're
+- [11:25] sending to the file store. And so what I
+- [11:27] did is I used the from AI function,
+- [11:28] which basically just means that the
+- [11:29] agent that controls this tool will make
+- [11:31] the query. And I told it that the query
+- [11:33] is the question that the user needs an
+- [11:35] answer to. So it will be filling in the
+- [11:37] information here. And I'll show you guys
+- [11:38] what I mean by that when we actually run
+- [11:40] a demo. But then finally for the actual
+- [11:41] prompt, I kept it really simple. I said
+- [11:43] you are a helpful rag agent. Your job is
+- [11:45] to answer the user's question using your
+- [11:46] knowledgebased tool to make sure all of
+- [11:48] your answers are grounded in truth.
+- [11:49] Please site your sources when you're
+- [11:51] giving your answers. When you are
+- [11:52] sending a query to the knowledgebased
+- [11:54] tool, only send over text, no
+- [11:55] punctuation, question marks, or new
+- [11:57] lines just to keep the JSON body from
+- [11:58] breaking. So here's the rules of golf
+- [12:00] PDF that I uploaded. Let's just go ahead
+- [12:02] and ask a basic question to see if it's
+- [12:04] working. So, I'm going to ask the agent,
+- [12:05] what happens if your club breaks during
+- [12:07] the round. All right, so I just shot
+- [12:08] that off. It's going to use its brain.
+- [12:10] It's going to call the knowledgebased
+- [12:11] tool, and then we should see a correct
+- [12:12] answer that also tells us where it got
+- [12:14] it from. Okay, so we just got this back.
+- [12:16] It says, "Short answer. If a club breaks
+- [12:17] during the round because of normal play,
+- [12:19] you may continue to use the damaged
+- [12:20] club, have it repaired, or replace it
+- [12:22] during the round. But if it breaks for
+- [12:24] non-normal reasons, you may not use that
+- [12:26] club for the remainder of the round, and
+- [12:27] you may not repair it until after the
+- [12:29] round." It showed us the source was from
+- [12:31] the knowledge base from this document
+- [12:32] and then rule 4 clubs. Okay, so that's
+- [12:35] how it handles one document in there.
+- [12:37] Let's go ahead and throw in another one
+- [12:38] and see what that's like. So, we already
+- [12:40] have this pipeline configured. I should
+- [12:42] be able to just pull up this form, drop
+- [12:44] in another file, which is completely
+- [12:46] different. This one's about Nvidia, and
+- [12:47] it should upload the file and import it
+- [12:49] into the correct store once again. Okay,
+- [12:52] so that was quick. It looks like it's
+- [12:53] already done. I'm just going to go ahead
+- [12:55] and ask some random question about
+- [12:56] Nvidia, and we will see if it is able to
+- [12:58] pull it. Okay, so I just asked it to
+- [13:00] give me a Q1205 fiscal summary for
+- [13:03] Nvidia. All right, so we got that back
+- [13:04] and we see, okay, here is a concise Q1
+- [13:08] fiscal summary for Nvidia. We've got
+- [13:09] total revenue 26 billion, data center
+- [13:11] revenue 22 billion. We've got a gap
+- [13:13] gross margin. We've got some other stats
+- [13:15] like this. And you can see that this
+- [13:16] came from the Nvidia press release.
+- [13:18] Nvidia announces financial results for
+- [13:20] first quarter fiscal year 2025, April
+- [13:22] 28th, 2024. And if I go to the document
+- [13:25] that this actually pulled from, you can
+- [13:27] see that this is in fact correct. But
+- [13:29] you still of course want to know that
+- [13:31] this is grounded in truth. And you could
+- [13:33] prompt your agent to make sure they're
+- [13:34] always giving you like exact quotes and
+- [13:36] things like that. And so if I real quick
+- [13:38] just actually click into this
+- [13:39] knowledgebased tool, we can go ahead and
+- [13:41] see the output that it got. And what
+- [13:43] you'll see is first of all, we get a
+- [13:44] candidates array. And in this candidates
+- [13:46] array, we see the actual text of the
+- [13:48] real answer that the Gemini model was
+- [13:51] able to get to based on all of the data
+- [13:53] that it was looking through. But then
+- [13:54] from there, if we go further down, we
+- [13:56] can actually see grounding metadata. So
+- [13:58] this means these are all the actual
+- [14:00] chunks that it pulled in order to get to
+- [14:01] that conclusion that we just saw. This
+- [14:03] is an actual chunk that it pulled from
+- [14:05] its file store. And if we keep going
+- [14:07] down, we'll see more. We can see chunk
+- [14:09] two. And we can also see where each
+- [14:10] chunk came from as far as which folder
+- [14:12] it was in. Chunk three, chunk four. and
+- [14:14] we get all these different chunks. We're
+- [14:16] also able to see grounding supports. So,
+- [14:17] this will pull different explicit
+- [14:19] sentences and things like that out of
+- [14:21] the chunks and it will tell us where it
+- [14:22] started and where it ended. And you can
+- [14:24] go ahead and verify all of this stuff in
+- [14:26] your document as well. So, I just wanted
+- [14:28] to give you guys some quick insight of
+- [14:29] what the tool actually comes back with
+- [14:31] and then how your agents work together
+- [14:32] in order to give you the right answer.
+- [14:34] Now, of course, we actually want to test
+- [14:36] this. So, what I'm going to do is I'm
+- [14:37] going to upload one more file using this
+- [14:38] flow right here, and then I'm going to
+- [14:40] run this evaluation where we're testing
+- [14:42] this agent on these 10 different
+- [14:44] questions, and we're going to see how
+- [14:45] accurate it's able to answer them. Okay,
+- [14:47] so we've got three total PDFs in our
+- [14:50] store. We have the rules of golf, which
+- [14:52] is 22page PDF. We've got the Nvidia
+- [14:55] announcement, which was nine pages. And
+- [14:56] then we have Apple's 10K, which was 121
+- [14:59] pages. And we've got 10 different
+- [15:00] questions across all three of these
+- [15:02] different PDFs. and we're going to go
+- [15:04] ahead and see how well it does. So, I'm
+- [15:06] running the evaluation right now. I will
+- [15:08] check back in with you guys when we get
+- [15:09] these results. Okay, so we just got that
+- [15:12] finished up. You can see the first run I
+- [15:13] actually had the wrong API key put in.
+- [15:15] So, it errored eight times in a row. But
+- [15:18] on the second run, things went much
+- [15:19] better. So, what we see here is that it
+- [15:21] got a 4.2 correctness, which is out of
+- [15:23] five. So, on these questions, it was
+- [15:25] able to get five, five, four, five. It
+- [15:27] had one tough one with a two, but these
+- [15:29] questions were really tough. And keep in
+- [15:31] mind that we dropped in basically almost
+- [15:33] 200 pages worth of PDFs and we didn't do
+- [15:36] anything special and hardly even any
+- [15:38] prompting. We basically just had the
+- [15:39] agent take its best shot at it. And
+- [15:41] these PDFs were about Apple, Nvidia, and
+- [15:44] golf. So they just really didn't have
+- [15:45] any correlation, but we shoved them all
+- [15:47] in the same store as well. So anyways,
+- [15:49] just to kind of wrap up here, we have
+- [15:50] some final considerations that I wanted
+- [15:52] to talk about when it comes to RAG in
+- [15:55] general as well as this specific Gemini
+- [15:58] file search API. And so the first three
+- [16:00] honestly just kind of fall under the
+- [16:01] umbrella of the fact that this is not
+- [16:03] magic. It's great that you can drop in
+- [16:05] these files, but what happens if you
+- [16:06] need to update a file and throw it back
+- [16:08] in? Now you have duplicate data because
+- [16:10] Google isn't really keeping a record of
+- [16:11] all of this data and making sure that
+- [16:13] things aren't duplicated or that old
+- [16:14] ones need to be updated and deleted,
+- [16:16] things like that. And if you keep on
+- [16:18] exploding your database with duplicate
+- [16:19] data, it's going to lower the quality of
+- [16:21] your agents responses. And you also have
+- [16:23] to remember that garbage in is garbage
+- [16:24] out. So, yes, Gemini's file search API
+- [16:27] does utilize some OCR and stuff like
+- [16:29] that to make sure it can understand
+- [16:31] what's actually going on in your
+- [16:32] documents, but if it is super messy or
+- [16:35] if it was scanned bad or if it just
+- [16:36] doesn't make sense going in, it's not
+- [16:38] going to make any sense going out. And
+- [16:39] so, sometimes you may need to do some
+- [16:41] pre-processing before you drop in those
+- [16:42] files to Gemini. Now, this one is also
+- [16:45] super important because sometimes you
+- [16:47] just don't want to do chunkbased
+- [16:48] retrieval. Semantic search is good for
+- [16:50] being quick and cost-effective when you
+- [16:52] need to find basically a needle in a hay
+- [16:54] stack. But if you need a context of the
+- [16:56] entire document or transcript or video
+- [16:58] or whatever it is, you should not be
+- [17:00] using chunk based retrieval unless
+- [17:01] you're getting really really granular
+- [17:03] with some metadata tagging and things
+- [17:04] like that. But ultimately, it's just not
+- [17:06] the best path. I did an example in my
+- [17:08] community where I basically had this
+- [17:10] document in there and I asked it, "How
+- [17:12] many total rules are in your PDF?" And
+- [17:14] it came back and said five. Because it
+- [17:16] actually couldn't look through the
+- [17:17] entire document in one swoop. It had to
+- [17:19] basically chunk it up and look at just
+- [17:21] individual chunks. But of course, if I
+- [17:22] asked about the last rule, which is rule
+- [17:24] 28, it would get it right. And then
+- [17:26] finally, just about security and
+- [17:27] privacy, your documents are being
+- [17:29] uploaded and stored on Google's servers.
+- [17:31] And so, if you're doing this, just make
+- [17:33] sure that you're not uploading anything
+- [17:34] that has sensitive information like PII
+- [17:37] because Google will process and index
+- [17:39] that data. So, it will no longer be
+- [17:40] private. And of course, every situation
+- [17:42] is different. So, just think about the
+- [17:43] rules or company regulations or industry
+- [17:46] regulations, things like GDPR, HIPPA, or
+- [17:48] CCPA. But anyways, that's going to do it
+- [17:50] for this one. I don't want the video to
+- [17:51] go too long. Just a reminder, if you
+- [17:53] want to download this workflow, you can
+- [17:54] do so for free by joining my free school
+- [17:56] community. The link for that is down in
+- [17:58] the description. And if this kind of
+- [17:59] stuff interests you and you want to dive
+- [18:00] deeper on rag or evaluations and things
+- [18:02] like that, then definitely check out my
+- [18:03] plus community. The link for that is
+- [18:05] also down in the description. We've got
+- [18:06] a great community of over 200 members
+- [18:08] who are building with naden and building
+- [18:10] businesses around AI automation every
+- [18:12] single day. We've also got full courses
+- [18:14] in here. We've got agent zero, which is
+- [18:15] the foundations for AI automation. We've
+- [18:17] got 10 hours to 10 seconds where you
+- [18:18] learn how to identify, design, and build
+- [18:20] time-saving automations. And then for
+- [18:22] our premium members, we've got one
+- [18:23] person AI agency and subs to sales. And
+- [18:26] we've got projects for everyone and tons
+- [18:28] of other resources in here. We also run
+- [18:30] one live Q&A every week, which are super
+- [18:32] fun. So, I'd love to see you guys in
+- [18:33] those calls in the communities. But
+- [18:34] that's going to do it for today's video.
+- [18:36] So, if you enjoyed or you learned
+- [18:37] something new, please give it a like. It
+- [18:38] definitely helps me out a ton. And as
+- [18:40] always, I appreciate you guys making it
+- [18:41] to the end of the video. I'll see you on
+- [18:43] the next one. Thanks everyone.

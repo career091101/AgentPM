@@ -1,0 +1,716 @@
+---
+title: "So, OpenAI just launched ChadBt Atlas. This is OpenAI's own browser. So, here Atlas integrates Chad ..."
+video_id: "iT1fWrKhD9M"
+video_url: "https://www.youtube.com/watch?v=iT1fWrKhD9M"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  So, OpenAI just launched ChadBt Atlas.
+  This is OpenAI's own browser. So, here
+  Atlas integrates Chad GBT directly into
+key_points:
+  - "This is OpenAI's own browser. So, here"
+  - "the browsing experience. This is similar"
+  - "tried that, this is not going to be too"
+  - "they've announced. I've tested this"
+  - "things are becoming legitimately useful."
+  - "So to start we can type in a question or"
+  - "a URL. We can say what's on Reddit today"
+  - "what's happening. You can also go to"
+category: "Technical Tutorial"
+confidence_level: "high"
+---
+
+# Transcript: iT1fWrKhD9M
+
+- URL: https://www.youtube.com/watch?v=iT1fWrKhD9M
+- Retrieved at: 2025-12-30T15:54:11+09:00
+
+## Text
+
+- [00:00] So, OpenAI just launched ChadBt Atlas.
+- [00:03] This is OpenAI's own browser. So, here
+- [00:06] Atlas integrates Chad GBT directly into
+- [00:09] the browsing experience. This is similar
+- [00:11] to Perplexity's Comet. So, if you've
+- [00:13] tried that, this is not going to be too
+- [00:15] new. So, today, let me show you what
+- [00:17] they've announced. I've tested this
+- [00:19] thing kind of extensively. Specifically,
+- [00:21] I'm very excited about the agent mode. I
+- [00:23] think we're at a point where these
+- [00:24] things are becoming legitimately useful.
+- [00:27] So to start we can type in a question or
+- [00:29] a URL. We can say what's on Reddit today
+- [00:32] and it gives you kind of a summary of
+- [00:34] what's happening. You can also go to
+- [00:35] sources or you can actually navigate you
+- [00:38] to specific pages. And once you're on a
+- [00:40] particular web page, you can also click
+- [00:42] this askt button and just chat with
+- [00:45] chatbt about what's happening on this
+- [00:47] page. So let's say click summarize. It
+- [00:49] will go ahead and summarize the key
+- [00:51] themes and points from this. So it will
+- [00:53] search for you. It will summarize pages
+- [00:55] and with agent mode, it will actually
+- [00:57] take some pretty advanced actions that
+- [01:00] interact with the websites. Now, I
+- [01:02] noticed that it knows my custom
+- [01:04] instructions that I have for my ChadBt.
+- [01:06] So, this is your version of ChadBt. This
+- [01:09] is the same chatbot that that you're
+- [01:10] used to, but now in this sort of split
+- [01:12] screen view where you have the browsing
+- [01:14] and the AI assistant on the right. And
+- [01:16] over time, as it gets more memories,
+- [01:18] better memories, it should get better
+- [01:20] and better at finding the things you
+- [01:21] like, navigating the web in the way that
+- [01:24] you prefer, kind of like which things
+- [01:25] you're logged into, which things you
+- [01:27] use. Now, this is a kind of a Chrome
+- [01:29] plugin. It's live globally, but only on
+- [01:32] Mac OS. If you're not on Mac OS, you
+- [01:35] know, it's coming soon, but if you're on
+- [01:36] a Mac OS, it's available to everyone.
+- [01:38] The thing that really caught my eye was
+- [01:40] the agent mode. So, you can click agent
+- [01:42] mode, and you can select it from here as
+- [01:45] well. and agent mode. You kind of see
+- [01:47] preview here. They got a little like
+- [01:48] this grid-like animation and the cursor
+- [01:50] moving. And I gotta say, it's getting
+- [01:52] pretty good. So, in this video, I really
+- [01:54] wanted to dive into agent mode because
+- [01:57] once the abilities of these large
+- [01:59] language models pass a certain threshold
+- [02:00] in terms of how they're able to navigate
+- [02:02] the web and use Excel spreadsheets and
+- [02:05] various other computer apps and
+- [02:06] software, at some point that really
+- [02:08] begins changing how we interact with our
+- [02:10] computers, potentially even making
+- [02:12] people more efficient at their jobs.
+- [02:14] maybe even automating some jobs. So, I'm
+- [02:16] not saying we're there yet, but I got to
+- [02:18] say this is getting pretty good. Let's
+- [02:20] uh dive in and take a look. All right,
+- [02:22] let's try out Atlas's agent mode. So, I
+- [02:25] asked Atlas to interact with Google
+- [02:27] spreadsheets. I had to go online, find
+- [02:29] some data, and now asked it to put it
+- [02:31] into this spreadsheet that I have open.
+- [02:33] This is what popped up. It said agent
+- [02:35] mode may introduce risk. And you have
+- [02:37] two options here. You can be logged in
+- [02:39] to the site that you're interacting with
+- [02:40] or start logged out. So, this is just to
+- [02:43] protect you in case there's some sort of
+- [02:45] an injection. So, we're going to go
+- [02:46] ahead and click start logged in. And as
+- [02:48] you can see here, so it's thinking about
+- [02:50] what it's supposed to do. And it's
+- [02:52] thinking about it now. It just went
+- [02:54] ahead and pasted it all into A6. So,
+- [02:58] let's see uh where it goes from here. By
+- [03:00] the way, I may have accidentally made
+- [03:01] this task a little bit more difficult
+- [03:03] for it because I think I just
+- [03:05] accidentally put some random keystrokes
+- [03:07] into I6 or whatever. So, now it's trying
+- [03:10] to reverse that. It's like, oh, we don't
+- [03:11] want that data in there. Let me delete
+- [03:13] it. So, good start, I guess. Oh, there
+- [03:16] it goes. And it's just um going through
+- [03:18] line by line. So, basically, what it has
+- [03:20] to do is go take a look at my channel on
+- [03:24] YouTube, see what the last 10 videos
+- [03:26] were, and just get some data like dates,
+- [03:29] titles, and how many views it has, and
+- [03:31] then put all that data into this
+- [03:34] spreadsheet. So, let's try again. There
+- [03:35] we go. Date published, title, views. So,
+- [03:38] notice the little cursor it's using. So,
+- [03:40] it's actually interacting this, as far
+- [03:42] as I can tell, live like you and I
+- [03:44] would. So, it's moving the cursor. It's
+- [03:45] typing things in. Okay. And now it's
+- [03:48] putting in the actual data. So, that
+- [03:51] took a little bit. That took a minute or
+- [03:53] two for it to figure out how to do it.
+- [03:55] So, it did a few different approaches
+- [03:56] and finally decided to just click on
+- [03:59] each cell separately and then input the
+- [04:02] data into that cell. And as it's doing
+- [04:04] that, interestingly, it's very humanlike
+- [04:07] how it's approaching this. All right.
+- [04:09] So, it worked for 6 minutes. It had a
+- [04:10] few back and forths, but finally I feel
+- [04:13] like it did what it was supposed to.
+- [04:15] Now, there's some issues. So, it didn't
+- [04:17] take my last 10 videos. I think it just
+- [04:20] searched my name and then pulled up
+- [04:22] whatever the first however many videos
+- [04:24] were shown. And it did struggle with
+- [04:25] data input for a little bit. Looks like
+- [04:27] there's also one piece of information
+- [04:29] missing views for this particular video.
+- [04:31] But overall, interestingly, it sort of
+- [04:34] completed the task. Not perfectly, but
+- [04:37] I'm not going to say I'm impressed, but
+- [04:38] my curiosity is peaked. All right, so
+- [04:41] here we are in Google Docs this time.
+- [04:44] So, I opened up a brand new Google Docs
+- [04:46] and I'm going to click on ask ChatGpt
+- [04:48] here in the corner so that that chat
+- [04:49] with GPT window pops up that allows you
+- [04:51] to control everything. And as you can
+- [04:53] see here, it gives you some ideas and it
+- [04:56] also suggests agent mode. So, let's see
+- [04:58] what that's going to be able to do.
+- [04:59] We'll click agent mode. Notice we're
+- [05:01] saying agent mode. We're logged in. And
+- [05:03] so we're logged into Google Sheets or
+- [05:05] Google Docs. And we also have some other
+- [05:07] options. We're using web search. We can
+- [05:09] use a cloud browser if we wanted to. We
+- [05:11] can also have GitHub connected as well
+- [05:14] as Box, Dropbox, Gmail, and there's a
+- [05:16] lot more. All right, let's see. We're
+- [05:18] going to ask it to go to Reddit
+- [05:20] Singularity, find the top trending AI
+- [05:23] news, let's say in the last few days,
+- [05:25] and post them in this document with a
+- [05:28] brief summary and links to that Reddit
+- [05:30] post. also includes some data on how
+- [05:31] many views or upvotes each received. And
+- [05:34] away it goes. So, it goes into its
+- [05:36] little agent mode. Very exciting. I
+- [05:39] apologize if the window looks a little
+- [05:40] bit weird. So, Atlas went globally live,
+- [05:43] but only for MacOSS. Will Smith eating
+- [05:46] spaghetti on the front page of Reddit,
+- [05:48] but anyway. So, I record on a Windows,
+- [05:50] but I do have my MacBook. So, I am sort
+- [05:53] of streaming my MacBook and recording it
+- [05:56] on my Windows. So, I apologize if it
+- [05:58] looks a little bit weird. And one other
+- [05:59] thing I'm going to test simultaneously
+- [06:01] is well, can it do multiple tasks
+- [06:04] simultaneously? So, I opened up another
+- [06:06] tab. I clicked agent mode. And you know
+- [06:08] what? I I'll just go ahead and give it a
+- [06:09] few different tasks that we'll kind of
+- [06:11] unpack one at a time as it goes along.
+- [06:13] In a different window, I gave it one of
+- [06:15] the tasks that I usually give every
+- [06:17] single thing of this nature, and that is
+- [06:19] find an online mind sweeper game and
+- [06:22] win, which sometimes has some pretty
+- [06:24] hilarious outcomes. And I gotta say I'm
+- [06:26] very impressed with what it's doing
+- [06:28] because again this is not the first
+- [06:30] iterations of OpenAI's sort of computer
+- [06:33] use. They had operator and now this is
+- [06:36] agent mode within the Atlas browser. So
+- [06:39] it's it's not probably brand new. It's
+- [06:41] probably built on top of the existing
+- [06:42] technology. But I think it will be
+- [06:44] interesting to see how having their own
+- [06:46] browser how having Chad kind of built in
+- [06:49] there how that's going to affect its
+- [06:51] ability to navigate the web to reason
+- [06:53] about what it's doing. Meanwhile, low
+- [06:55] and behold, our Reddit task is done.
+- [06:58] That took about five minutes. It did
+- [07:00] came up with a title for the sheet. Top
+- [07:01] AI news from our singularity October
+- [07:04] 2025. Perfect. Keep in mind this is
+- [07:06] running or was running simultaneously to
+- [07:08] this where the agent is playing Mind
+- [07:11] Sweeper. So, you can have as many tabs
+- [07:13] as you want open. You can have multiple
+- [07:14] agents running in there. There's
+- [07:16] probably some limit. We'll see if we can
+- [07:18] uh find that limit where the end is, but
+- [07:20] Ch is doing pretty well with this Mind
+- [07:22] Sweeper game. But notice it did exactly
+- [07:24] what we said here. So Will Smith eating
+- [07:26] spaghetti. So that's talking about
+- [07:27] Google VO3.1 that was recently launched.
+- [07:30] It has a summary and interestingly gives
+- [07:33] some good background. So this playful
+- [07:35] meme has been around since 2023 and
+- [07:37] gives a pretty good sort of background.
+- [07:39] So if you're not familiar why Will Smith
+- [07:41] is eating spaghetti kind of like in one
+- [07:43] or two sentences just tells you, you
+- [07:44] know, back in 2023 this sort of video
+- [07:46] looked grotesque. And the fact now it
+- [07:48] looks pretty good kind of sparked a
+- [07:50] discussion about how quickly AI
+- [07:51] generated video is progressing.
+- [07:53] Interestingly, so notice it says why it
+- [07:56] matters. So actually I just remember
+- [07:58] this. I do have custom instructions for
+- [08:00] CHBT. And one of the things that I add
+- [08:02] into custom instructions for readability
+- [08:04] is I say why does this matter? So when
+- [08:07] you're doing deep research, tell me why
+- [08:08] it matters. Any insights? Because
+- [08:10] sometimes it'll just say the headline
+- [08:12] like this test got a 76% improvement.
+- [08:15] And if you ask it to tell you any
+- [08:16] additional insights why it matters, it
+- [08:18] often gives a much sort of in-depth
+- [08:20] answer. Oftentimes helping you
+- [08:22] understand why that's a big headline or
+- [08:25] you know why it matters. So in this case
+- [08:27] it very succinctly says look using a
+- [08:29] familiar meme as a benchmark helps
+- [08:31] people intuitively grasp the
+- [08:33] improvements. Then it has engagement. So
+- [08:35] we asked for engagement kind of like how
+- [08:37] many people are enjoying this, upvoting,
+- [08:39] viewing this and of course the red link.
+- [08:41] This is perfect. All right. Next, we're
+- [08:43] going to say let's let's take a look at
+- [08:44] one of those stories. That's the new
+- [08:46] apps SDK that OpenAI launched in ChadBt.
+- [08:50] So, I'm going to say let's look at the
+- [08:51] story and just copy and pasted the title
+- [08:53] of like what it titled it, which is just
+- [08:55] chipt and apps SDK. And we're going to
+- [08:57] say let's try to figure out how big of a
+- [09:00] story this is. And specifically, we're
+- [09:02] going to compare it to the leaked story
+- [09:04] that Amazon is planning to lay off
+- [09:06] something like 600,000 workers in the US
+- [09:09] and replace them with robots. So, I told
+- [09:10] it to compare it to that and just pasted
+- [09:12] in the title of that story. And we're
+- [09:14] going to say find whatever metrics
+- [09:16] online that show how big the stories are
+- [09:18] relative to each other. We're going to
+- [09:19] say, use Reddit and up votes as well as
+- [09:22] Google Trends as well as any other
+- [09:23] credible sources to determine how much
+- [09:25] interest there is in these stories.
+- [09:27] Write out your findings at the bottom of
+- [09:29] this Google doc. And we're going to
+- [09:31] click go. So, you're getting what I'm
+- [09:33] trying to do. I'm trying to have it do
+- [09:34] some analysis for me for how big these
+- [09:36] two sto are compared to each other.
+- [09:38] Right? So, one has a 10,000 Reddit up
+- [09:40] votes, the other has 500, right? So, the
+- [09:43] 10,000 is bigger. Google Trends shows us
+- [09:45] search data, search trends. And I'm also
+- [09:48] extremely curious to see where else it
+- [09:50] goes to kind of check when left to its
+- [09:52] own devices. What is it going to use to
+- [09:54] try to figure out what's a bigger story?
+- [09:56] What's a trending story? Meanwhile, our
+- [09:58] mind sweeper agent won the game. Did it
+- [10:02] do so playing by the rules and being a
+- [10:04] good sportsman? No. No, it did not. It
+- [10:07] found some way to cheat. I don't even
+- [10:08] know what it did. I assume maybe it
+- [10:10] found some custom board size and just
+- [10:12] set it to be one by one. Then it went
+- [10:15] ahead and just clicked the one square,
+- [10:17] thereby winning the game. 100%
+- [10:19] efficiency. Oh boy. Well, I guess I
+- [10:21] can't blame it. It did win. It did
+- [10:23] complete the task as I requested it to.
+- [10:25] All right, let's launch another agent.
+- [10:27] Let's see if this one can unsubscribe me
+- [10:29] from all the spammy marketing emails
+- [10:32] that I receive. I'm going to say go into
+- [10:33] my Gmail and unsubscribe me from all my
+- [10:35] emails in the promotions tab that have
+- [10:38] unsubscribe links. So far, I've had a
+- [10:40] few agents like this that could do it,
+- [10:43] but the maximum they're willing to do is
+- [10:44] like maybe three or four emails and they
+- [10:46] stop. If this can unsubscribe you from
+- [10:49] even 10 per run, I mean, I think that
+- [10:52] would be pretty cool. If it's willing to
+- [10:54] do all of them, that would be amazing.
+- [10:56] Okay, I can't show some of these emails,
+- [10:58] but basically it just says, "Per safety
+- [11:00] guidelines, I want to make sure you
+- [11:01] confirm before I proceeded to go and
+- [11:03] unsubscribe you." And we're going to
+- [11:05] say, "Yeah, unsubscribe me from
+- [11:07] everything." So, this is interesting. It
+- [11:09] encountered a set of instructions on the
+- [11:10] Gmail page. Now, this could be a prompt
+- [11:13] injection. So, it's being very careful.
+- [11:14] It's like, "Do you want me to not follow
+- [11:16] any instructions from the screen without
+- [11:18] your explicit direction?" So, I said,
+- [11:20] "Yes, unsubscribe me. Don't follow
+- [11:22] on-screen instructions not related to
+- [11:24] that task." So, it's going to be
+- [11:26] interesting to see how well it's able to
+- [11:27] handle this. All right, the first one is
+- [11:29] going very well. So, this is from Vimeo.
+- [11:31] So, it clicked unsubscribe and now
+- [11:33] hopefully it's going to click the big
+- [11:35] blue unsubscribe button. And it did.
+- [11:39] Hooray. Okay. So, one email
+- [11:41] unsubscribed. That's a uh success. Now,
+- [11:44] it's unsubscribing me from yet another
+- [11:46] marketing email. So, that's two. All
+- [11:49] right. So, it's doing great.
+- [11:50] Unfortunately, it's stopping to confirm
+- [11:53] quite a bit, making it a little bit not
+- [11:55] efficient for me. But I got to say, I
+- [11:57] mean, it's it's finishing it. It's doing
+- [11:58] it perfectly correct. Going back to our
+- [12:01] Reddit research agent. So, we're
+- [12:03] comparing it to stories, how popular
+- [12:05] they are, how trending they are. So, it
+- [12:07] worked for 4 minutes on those stories.
+- [12:09] And here are the results. So, notice it
+- [12:12] starts by saying, okay, so on the R
+- [12:14] Singularity subreddit, the story, one of
+- [12:17] them gathered this many up votes. that
+- [12:19] was from the previous instructions from
+- [12:21] the previous story that it found. And in
+- [12:23] the same subreddit, the other story
+- [12:25] earned this many uploads. So I got to
+- [12:28] give it huge credit for that. So it's
+- [12:30] drawing on the context. It's comparing
+- [12:32] apples to apples, right? So it's not
+- [12:34] going to a bigger subreddit or a smaller
+- [12:36] subreddit. It's like, okay, we have this
+- [12:38] data here. Let's find the correlating
+- [12:40] data point on that same subreddit for
+- [12:43] this story number two. It also checks
+- [12:45] some other subreddit and lists what it
+- [12:48] finds, how many up votes on two
+- [12:49] different stories, and also has links in
+- [12:52] case you want to go and check it out for
+- [12:53] yourself. Google trends for the past 7
+- [12:55] days show that ChadBt apps far outnumber
+- [12:58] those for Amazon replace worker robots.
+- [13:01] So, I'm going to give it a solid B for
+- [13:02] that. You probably need some sort of
+- [13:04] custom instructions to explain to it how
+- [13:06] to make sure that you're doing Google
+- [13:08] Trends correctly. This is a skill issue,
+- [13:10] but it's easily fixed. But the fact that
+- [13:12] I went on Google Trends and visually
+- [13:14] inspected the graphs and charts, I I
+- [13:17] mean that's amazing. Very very useful
+- [13:19] for doing online research. Then we have
+- [13:21] a media coverage. And there the Amazon
+- [13:24] piece is one of the most popular ones
+- [13:26] and it notices that it's that's in
+- [13:28] contrast to what we found through Google
+- [13:30] Trends and Reddit. This is extremely
+- [13:33] good. This is very impressive. So, in
+- [13:36] this one, I asked the agent mode of
+- [13:38] Atlas to go online, find a motivational
+- [13:42] story about somebody getting into the
+- [13:43] best shape of their lives. It has to be
+- [13:45] somewhere where they posted their entire
+- [13:47] meal plan and food log, right? So, that
+- [13:49] was sort of step one. Find what they
+- [13:52] were eating to get to that point. Then
+- [13:54] recreate that meal plan for me. Then go
+- [13:57] on Instacart and order everything that I
+- [14:00] would need to make that meal plan. So,
+- [14:03] so far it's added five things.
+- [14:05] cucumbers. I think it was searching for
+- [14:07] whey protein at some point. Looks like
+- [14:09] it's getting some broccoli and zucchini
+- [14:12] and garlic for me. So, it's navigating
+- [14:14] this thing very very effectively. At the
+- [14:17] very beginning when it just went into
+- [14:18] Instacart, Instacart pops up saying,
+- [14:20] "Hey, do you want a free trial of
+- [14:22] something?" So, I was a little bit
+- [14:24] worried that Chad is going to be like,
+- [14:25] "Yeah, that sounds like a great idea."
+- [14:27] But no, you know what? It said it said
+- [14:29] no thank you. Clicked the no thank you
+- [14:31] button. So, definitely gets a thumbs up
+- [14:33] for that. And there it is. So that's my
+- [14:36] order. So as you can see here, there's a
+- [14:37] bunch of things. Everything looks pretty
+- [14:39] good. Baby spring mix, natural cage
+- [14:42] free, large brown eggs. I mean, this
+- [14:44] this seems legit. All right. So at this
+- [14:46] point, it worked for 5 minutes. All the
+- [14:48] items I got, I believe that this was
+- [14:50] part of a healthy meal plan. So the
+- [14:52] 5minute part was just the Instacart and
+- [14:55] checking out. Before that, it worked for
+- [14:57] 4 minutes. Finding that transformation.
+- [14:59] Looks like it found somebody in Men's
+- [15:01] Health and got their meal plan, a
+- [15:03] proposed 7-day meal plan. So, that's
+- [15:06] perfect. Then, it stopped because it
+- [15:08] needed me to log into Instacart. Again,
+- [15:10] if you're logged in, it should be able
+- [15:12] to just keep going. So, the first part
+- [15:14] was 4 minutes, last part was 5 minutes.
+- [15:16] So, a total of 9 minutes to go research
+- [15:19] a meal plan and order it on Instacart.
+- [15:22] As far as I can tell, this was done
+- [15:23] flawlessly. All right, here I'm seeing
+- [15:25] if it's able to use Hey Genen. So, hey
+- [15:28] Jen is an AI avatar that you're able to
+- [15:31] use and say whatever you want. Very
+- [15:33] popular service. So, I told it to go
+- [15:34] there, find a female avatar and have it
+- [15:37] talk about Chad GPT Atlas. So, it worked
+- [15:40] for a while. It stopped because it
+- [15:41] needed me to log in. And here it is
+- [15:44] interacting with the website to try to
+- [15:46] create that avatar video. It's going to
+- [15:48] be choosing a voice. Actually, that's
+- [15:50] interesting. I'm pretty sure it can't
+- [15:52] listen to the audio output. So, it it
+- [15:55] has to just kind of assume it's working.
+- [15:57] But, it created a script. It pasted it
+- [15:59] in there. Everything should be working
+- [16:01] perfectly. So, it wasn't able to
+- [16:03] completed because the the button is
+- [16:06] grayed out because you're supposed to
+- [16:07] select a voice first. So, let's see if
+- [16:10] it's able to do it. Yeah, it looks like
+- [16:12] it's doing it fine. Okay. I can hear the
+- [16:14] sound in the background. So, I can't
+- [16:17] tell if it's able to if it if it is able
+- [16:19] to hear the audio output or have some
+- [16:21] sort of confirmation that the audio
+- [16:23] played, but it's continuing still for
+- [16:26] some reason has a trouble selecting the
+- [16:27] voice. I guess it's clicking on play. It
+- [16:29] needs to click anywhere else besides
+- [16:31] play. There it is. Okay, so it selected
+- [16:33] Annie professional. And now it should be
+- [16:35] able to click generate video. Wow, it
+- [16:38] did it. All right, so let's see what it
+- [16:40] came up with. Let's hit play. Let's see
+- [16:42] how well the sound comes through. Hello,
+- [16:44] I'm excited to tell you about ChatGpt
+- [16:46] Atlas, OpenAI's new AI powered web
+- [16:48] browser. It integrates the Chat GPT
+- [16:51] chatbot directly into your browser
+- [16:53] window. You can ask for instant
+- [16:54] summaries of articles, compare products,
+- [16:57] or extract key insights from web pages
+- [16:59] right in a sidebar without switching
+- [17:01] tabs. One advanced feature is called
+- [17:03] agent mode.
+- [17:04] >> So, that's pretty cool. It would now
+- [17:06] give you that whole website, create a
+- [17:07] script, create an avatar. You know, I
+- [17:09] just said female avatar, which it did.
+- [17:12] It selected the right voice. A+. This is
+- [17:15] terrific. It had some trouble selecting
+- [17:17] the voice, but it it figured it out
+- [17:18] eventually. Next, you might have heard
+- [17:20] about a Deep Seek OCR paper. Basically,
+- [17:23] they're finding that we're able to take
+- [17:25] words, take a picture of those words, so
+- [17:27] to speak, and basically have a limbs
+- [17:29] read that. And the data compression is
+- [17:32] pretty impressive. So instead of trying
+- [17:33] to shove everything into the context
+- [17:36] window, we're able to use images to be
+- [17:39] able to just pack in a lot more data, a
+- [17:41] lot more words into images. So I asked
+- [17:43] Atlas, find out everything about the new
+- [17:46] Deepseek OCR paper, then find any
+- [17:48] well-known people in the AI space that
+- [17:50] have talked about it. Create a Google
+- [17:52] doc and write out a summary of the
+- [17:53] paper, what people said about it with
+- [17:55] links. So there's mainly two things that
+- [17:58] I was looking here. one, did it sort of
+- [18:00] figure out what it was about, summarize
+- [18:02] it in a way that made it easy to
+- [18:04] understand what it was, and two, Andre
+- [18:07] Carpathy went into quite some detail
+- [18:09] about this paper on Twitter. So, I just
+- [18:12] wanted to see if we would be able to
+- [18:13] find that cuz when we're saying
+- [18:15] well-known people in the AI space that
+- [18:17] talked about it, that better be one of
+- [18:19] the names. That's probably one of the
+- [18:21] most highest sort of ranked AI people
+- [18:24] that have talked about that paper. And
+- [18:26] of course, it's supposed to put it a
+- [18:27] Google doc, which it did. So, it's
+- [18:28] saying this is an open source vision
+- [18:30] language model that reimagines how long
+- [18:32] text context can be compressed and
+- [18:34] processed by LMS. So, first and
+- [18:36] foremost, everything is terrific. It's a
+- [18:39] very good breakdown of why it's
+- [18:41] important. They have a significant
+- [18:43] section. They specifically point out
+- [18:44] that this is a finding that could enable
+- [18:46] LMS to handle context of millions of
+- [18:48] tokens. And then we have reactions from
+- [18:51] the community. Notice Andre Carpathy,
+- [18:53] he's right there. So, interestingly, it
+- [18:55] linked venture beat instead of X or
+- [18:58] Twitter where Andre actually posted it.
+- [19:00] So, so if I had to nitpick, this is I
+- [19:03] would this is where I would do it. I'd
+- [19:05] prefer if it was a link to Karpathy's
+- [19:07] post, but I'm sure X doesn't just allow
+- [19:10] any chatbot, especially Chad GBT, to
+- [19:13] just crawl their website all
+- [19:15] willy-nilly. I'm sure there's some some
+- [19:16] limits to that. So, since VentureB sort
+- [19:19] of like created their article about it,
+- [19:20] it went to VentureB. This to me is an
+- [19:23] A+. I mean, it absolutely knocked it out
+- [19:25] of the park. Did exactly what it was
+- [19:27] supposed to. Guess maybe not an A+. I'll
+- [19:30] give it a solid A, maybe an A minus, but
+- [19:32] again, I don't think it easily crawl
+- [19:34] X.com, which is why it can't provide the
+- [19:37] original post. We'll actually test out
+- [19:39] to see how well it interacts with X in a
+- [19:40] second. But again, very, very solid,
+- [19:42] taking into account the fact that it
+- [19:44] can't easily, most likely can't easily
+- [19:46] browse X. All right. Next, I want to see
+- [19:47] if it create a little audiobook for us.
+- [19:49] So, I said, "Log into 11 Labs and use a
+- [19:51] nice AI voice to create a short audio
+- [19:53] book about how amazing honey badgers
+- [19:55] are." All right. So, again, I had to
+- [19:57] help it log in. In the future, once I'm
+- [19:59] logged in, it has memory about stuff.
+- [20:01] This shouldn't be an issue. This should
+- [20:02] be a seamless process. But, it wrote out
+- [20:04] this script. It had Sarah voice it. So,
+- [20:07] let's listen to what it sounds like.
+- [20:09] >> Overall, the honey badger is a reminder
+- [20:11] that size doesn't determine strength.
+- [20:13] Its resilience, intelligence, and
+- [20:15] boldness make it one of the most amazing
+- [20:17] animals in the natural world. like a
+- [20:19] tiny superhero in the wild.
+- [20:21] >> Also, Honey Badger don't care. Come on.
+- [20:23] This is terrific. Again, A+.
+- [20:26] Everything's perfect. Again, we can we
+- [20:28] can tell it to do more things or we can
+- [20:29] add various custom instructions if we do
+- [20:31] this repeatedly. Maybe, hey, make sure
+- [20:33] you use this specific voice for
+- [20:35] everything, etc. But for a one-shot sort
+- [20:39] of like my first time doing this, again,
+- [20:41] it's oneshotting everything. So far,
+- [20:43] extremely impressive. And last, but
+- [20:45] certainly not least, I said, "Hey, I'm
+- [20:47] doing a video about opening eyes at Chad
+- [20:49] PT Atlas, do full research on it, what
+- [20:51] are the features, create a new Google
+- [20:53] doc, put all the details in there, and
+- [20:54] then write out a 30 to 60 second intro
+- [20:56] to the video about it, made it make it
+- [20:58] exciting and engaging." So, here's that.
+- [21:01] So, I went through to make sure that I
+- [21:02] got the details correctly. So, for
+- [21:05] example, it's going global. You know,
+- [21:07] it's being released globally to
+- [21:09] everybody, but only on Mac OS. I said
+- [21:12] before, but Windows users are secondass
+- [21:14] citizens. We are always forgotten about
+- [21:17] our features delayed. It's extremely
+- [21:19] frustrating. And it also got this right.
+- [21:22] So agent mode is kind of an early
+- [21:24] preview. It's available for plus pro and
+- [21:27] business subscribers. Again, this
+- [21:29] significance tab, this is most likely,
+- [21:31] I'm pretty sure this is because I have
+- [21:33] those special custom instructions where
+- [21:34] it's supposed to draw some insights or
+- [21:36] why it's important or significance,
+- [21:38] whatever you want to call it. So that's
+- [21:39] why it includes something like that
+- [21:40] everywhere. So here it says the browser
+- [21:43] also highlights the growing competition
+- [21:45] in AI powered browsing joint offerings
+- [21:47] from Perplexity Opera and the upcoming
+- [21:50] AI enhanced Chrome versions which is
+- [21:52] definitely a point that a lot of people
+- [21:54] have made. So Perplexity a lot of this
+- [21:57] is like Perplexity's Comet. So we'll see
+- [22:01] who makes a better product and who will
+- [22:03] have the most users in the end.
+- [22:05] Certainly, this is going to be very,
+- [22:07] very similar to Comet, at least at first
+- [22:09] glance. And it wrote a little video
+- [22:11] intro script. Imagine a browser that
+- [22:13] doesn't just take YouTube websites, but
+- [22:15] actively helps you understand them.
+- [22:17] Anyways, I think this is a solid A.
+- [22:19] There's one minor detail where I think
+- [22:21] if you make this, if you make Atlas your
+- [22:24] default browser, you get higher rate
+- [22:27] limits for 7 days. It's a minor detail,
+- [22:29] but kind of an interesting one, right?
+- [22:31] If you're experimenting with Fed, you
+- [22:33] just click make this my default and that
+- [22:35] gives you more read limits. I wish it
+- [22:36] would have mentioned that. I don't see
+- [22:38] that anywhere in here. But let me know
+- [22:40] what you think. If you try it out, what
+- [22:41] do you think about it? Are you going to
+- [22:43] be using it actively? Is this something
+- [22:45] that's going to be useful for you? How
+- [22:47] is this going to affect perplexity and
+- [22:49] comment? I'm looking forward to hearing
+- [22:50] more from you. My initial impression of
+- [22:52] this thing is that it's pretty dang
+- [22:54] good. Specifically, I'm talking about
+- [22:55] the agent mode. It's very powerful,
+- [22:57] accurate, and actually does useful
+- [22:59] stuff. Now, time will tell if this is
+- [23:02] something I'm going be using daily or
+- [23:03] not. A lot of the stuff kind of seems
+- [23:06] very cool in the very beginning, but
+- [23:07] then you just don't end up using it. So,
+- [23:09] we'll do an update in a few weeks, but
+- [23:12] just first glance, this thing is getting
+- [23:15] better and better. And I feel like we're
+- [23:16] beginning to cross into this territory
+- [23:18] where it can actually do useful stuff
+- [23:20] for you on your behalf. I haven't even
+- [23:22] tried doing the filling out forms of it
+- [23:24] or having it shop for me because again,
+- [23:27] it needs to have a whole bunch of
+- [23:28] information in there. But I feel like if
+- [23:30] you use it and it has that context over
+- [23:32] time, it will get to be very useful
+- [23:35] where it actually saves you time. But
+- [23:37] yeah, let me know what you think. Please
+- [23:38] hit thumbs up. Make sure you're
+- [23:39] subscribed. and I'll see you in the next

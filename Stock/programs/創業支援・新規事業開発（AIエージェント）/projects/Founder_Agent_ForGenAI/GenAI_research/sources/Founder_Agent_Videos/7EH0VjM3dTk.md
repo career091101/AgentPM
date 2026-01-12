@@ -1,0 +1,2717 @@
+---
+title: "YouTube Video: 7EH0VjM3dTk"
+video_id: "7EH0VjM3dTk"
+video_url: "https://www.youtube.com/watch?v=7EH0VjM3dTk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "Technical"
+  - "Tutorial"
+summary: |
+  well if you want to maintain hemony it turns out like what did we do during World War II will we like Henry Ford here you go you're going to be absolutely freaking rich because you're going to make al...
+key_points:
+  - "some of the key questions in AI what"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 7EH0VjM3dTk
+
+- URL: https://www.youtube.com/watch?v=7EH0VjM3dTk
+- Retrieved at: 2025-12-30T09:42:09+09:00
+
+## Text
+
+- [00:00] well if you want to maintain hemony it
+- [00:01] turns out like what did we do during
+- [00:03] World War II will we like Henry Ford
+- [00:05] here you go you're going to be
+- [00:06] absolutely freaking rich because you're
+- [00:08] going to make all the tanks right this
+- [00:09] is sort of the same thing they're doing
+- [00:10] with AI is like here you go Sacha Della
+- [00:13] like you you get to do this in AI right
+- [00:15] Dylan Patel has become one of the go-to
+- [00:17] thinkers on all things hardware and AI
+- [00:18] with his writing over at semi analysis
+- [00:20] today on unsupervised learning I had an
+- [00:22] awesome time chatting with him on a host
+- [00:24] of different things it was particularly
+- [00:25] fun because we talked right after the AI
+- [00:27] diffusion rule came out so I got his
+- [00:28] live reactions to what it means for
+- [00:30] hyperscalers what it means for China the
+- [00:31] UAE and others and what the future of
+- [00:33] geopolitics looks like given these
+- [00:34] regulations we also talked a lot about
+- [00:36] some of the key questions in AI what
+- [00:38] will happen with open source models what
+- [00:39] are nvidia's long-term competitive Moes
+- [00:41] and we also talked about what's required
+- [00:43] to build really large clusters he had
+- [00:45] some amazing stories from xai's 100,000
+- [00:47] GPU cluster xai kind of came in and was
+- [00:49] like well we can't find a data center
+- [00:51] anywhere what they did is like the most
+- [00:52] Elon awesome thing ever right which is
+- [00:54] like I think folks will really enjoy
+- [00:55] this conversation without further Ado
+- [00:57] here's Dylan
+- [01:00] dlan thanks so much for coming on yeah
+- [01:02] thank you for having me it's a very cozy
+- [01:04] comfortable place I can't believe we got
+- [01:05] you like during AI diffusion rule week I
+- [01:07] feel like this must just be Madness
+- [01:09] right now yeah yeah I mean uh the fun
+- [01:11] story was uh it was supposed to be
+- [01:13] originally Monday uh they dropped on
+- [01:16] Sunday night SL Monday right and so I
+- [01:18] was like I was up all night working on
+- [01:20] it and had to cancel and we we shifted
+- [01:22] it back a few days so thanks for being
+- [01:23] flexible and you shipped a pretty long
+- [01:25] piece in the intro yeah yeah it was it
+- [01:26] was great I'm curious if you just give
+- [01:28] our listeners some like quick context on
+- [01:29] what's going on on the regulatory side
+- [01:31] with the ad diffusion Rule and then
+- [01:32] maybe given the you know goals of what
+- [01:34] they're trying to do uh what kind of
+- [01:35] grade would you give it yeah so I think
+- [01:38] originally right the October 2022
+- [01:40] regulations were uh primarily on the
+- [01:43] semiconductor industry uh but the the
+- [01:45] wording there was like not minced at all
+- [01:47] right it was we want to regulate AI um
+- [01:50] we believe it's going to advance rapidly
+- [01:52] this October 22 um which is were scaling
+- [01:56] pre but they were scaling pilled right
+- [01:58] exactly um and and like you know if you
+- [02:00] get a chance to talk to some of the
+- [02:01] people like um you know know Ben
+- [02:04] Buchanan who's like the special adviser
+- [02:05] in the White House like he's like you no
+- [02:08] no this is exactly why we did it we knew
+- [02:10] it was coming and it's like oh so the
+- [02:11] government is actually quite competent
+- [02:13] and it's quite interesting because you
+- [02:16] know they they they hit really hard they
+- [02:19] have the goal of like the US must be
+- [02:22] ahead of China on AI right because uh
+- [02:24] the next five years of progress next
+- [02:26] three years next two years of progress
+- [02:28] are going to shape the next you you know
+- [02:31] Century of like hemony for the world
+- [02:34] right and and so this is like taking an
+- [02:36] acts to like try and stop Chinese
+- [02:39] progress um as far as the grading right
+- [02:41] October 22 was really well intentioned
+- [02:44] from if you if you have this world view
+- [02:46] right that that AI is you know in the
+- [02:47] next five years going to transform the
+- [02:49] world um you know if you have the view
+- [02:51] that it's going to take 20 years then
+- [02:52] it's a very different like story and
+- [02:54] actually these regulations are actually
+- [02:55] pretty bad um because they're going to
+- [02:57] limit us competitiveness long term uh
+- [02:59] but at least over the next 5 years they
+- [03:01] definitely will like keep the us further
+- [03:02] ahead so October 22 is really well
+- [03:04] intentioned but there was like quite a
+- [03:05] few loopholes so they did another round
+- [03:07] in 23 then they did another round in
+- [03:09] December um and all of these like have
+- [03:12] like slowly patched over loopholes
+- [03:13] there's still some um you know major
+- [03:16] ones right namely Chinese companies can
+- [03:18] get gpus from you know foreign firms
+- [03:20] right so if you've seen the fuss that
+- [03:22] oracle's been throwing um they they've
+- [03:24] just been like ranting about it well
+- [03:25] it's like look at who their largest one
+- [03:27] of their largest cloud customers is it's
+- [03:28] bite dance right right right um or you
+- [03:31] know hey you can build a data center in
+- [03:33] Malaysia now all of a sudden it's fine
+- [03:34] right and so Malaysia from 2024 to 2027
+- [03:39] uh not the country itself but companies
+- [03:40] operating there mostly Chinese companies
+- [03:42] many of them claiming they're now
+- [03:44] Singaporean companies right like the
+- [03:45] largest operator in China of data
+- [03:47] centers in China GDs moved to Singapore
+- [03:49] and says they're Singaporean now it's
+- [03:51] like but now they're these companies are
+- [03:52] building three gigs of data center
+- [03:54] capacity to put that in context at the
+- [03:56] beginning of 2024 that was roughly met
+- [03:59] AS Global footprint right so it's like
+- [04:01] oh wow like the entire world's like
+- [04:04] social media is running off of you know
+- [04:06] what Malaysia is putting up in three
+- [04:08] years so what happens to all these like
+- [04:09] you know Malaysian data center builds
+- [04:11] given like you know uh obviously a big
+- [04:13] part of this regulation is is both
+- [04:14] during countries and then also applying
+- [04:16] much more regulatory uh oversight of
+- [04:17] like who's actually training models
+- [04:18] within your data centers obviously all
+- [04:20] this planning has gone into to building
+- [04:22] these things but now it seems like the
+- [04:23] rug's kind of been pulled out in some
+- [04:24] way yeah I mean this is definitely the
+- [04:26] most far-reaching regulation that I've
+- [04:28] ever seen right um probably there were
+- [04:30] big there were bigger things during the
+- [04:31] Cold War or World War II I'm not sure um
+- [04:34] but like this is very far-reaching in
+- [04:36] that like it's regulating clouds
+- [04:38] overseas right um it's regulating
+- [04:40] foreign companies it's it's limiting
+- [04:41] what they can buy to a huge extent and
+- [04:43] so Malaysia has a huge amount of Data
+- [04:45] Center capacity that's going to be
+- [04:47] that's being built um we'll see if they
+- [04:49] continue building it right you know I
+- [04:50] think most people will still continue
+- [04:51] building it um companies like Microsoft
+- [04:54] and Oracle have significant assets uh
+- [04:57] being built in Malaysia they probably
+- [04:58] won't stop um but other companies you
+- [05:01] know what what what happens now you know
+- [05:03] at the end of the day the US is still
+- [05:04] very limited on data center footprint as
+- [05:06] well we're building as fast as we can
+- [05:08] there's a lot of regulatory bottlenecks
+- [05:10] there's there's a number of different um
+- [05:13] things in that nature um but you know
+- [05:17] what what happens as you deploy a you
+- [05:18] know American companies deploy AI
+- [05:20] globally right it's like is open AI
+- [05:22] going to serve GPT in in in Japan and
+- [05:24] Taiwan and South Korea or like do they
+- [05:26] just run it out of Microsoft data
+- [05:27] centers in Malaysia maybe right like
+- [05:29] this could be a reasonable way to like
+- [05:31] subsume this but like the really
+- [05:33] important thing here and the like sort
+- [05:35] of you know even if you're like very Pro
+- [05:37] America anti China there's still huge
+- [05:39] negatives to this regulation in that
+- [05:41] like a ton of buyers can't buy you know
+- [05:44] that Data Center capacity in Malaysia
+- [05:46] actually deploy right like American
+- [05:48] companies can't do that right and so you
+- [05:50] know oracle is a good example right
+- [05:52] they're one of the parts of the rule is
+- [05:54] you can only have 7% of your data center
+- [05:56] capacity in a in a country in any
+- [05:58] country that's not like a US Ally right
+- [06:00] these one countries and Oracle was to
+- [06:03] have like 20% of their capacity in
+- [06:04] Malaysia so now it's like what do I do
+- [06:06] with these data centers that I was going
+- [06:07] to build I'm obviously an American
+- [06:08] company fine I won't rent it to Chinese
+- [06:10] companies but like what do I do now so
+- [06:13] there is a bit of like you know the
+- [06:15] companies that have so much capacity in
+- [06:18] the US um are the only ones that can now
+- [06:21] take over these data centers in in
+- [06:22] Malaysia and build 7% rule right because
+- [06:25] of the 7% rule so like it's like
+- [06:26] Microsoft meta Amazon Google right these
+- [06:29] four companies have you know you know 70
+- [06:31] plus% of their data center AI Data
+- [06:33] Center capacity in the US um and so they
+- [06:35] can they can like deal and they're
+- [06:37] they're building super fast else they
+- [06:38] can deal with like hey I'll take I'll
+- [06:39] take 500 megawatts I'll take a gigawatt
+- [06:41] in Malaysia and that won't break me out
+- [06:43] of the ruling right um everyone else is
+- [06:46] kind of like so so now you've like
+- [06:47] reduced competition massively in the
+- [06:49] market right um and you've created sort
+- [06:52] of a monopoly and so this is sort of
+- [06:54] like why these regulations while they
+- [06:55] are like yes if your belief is like this
+- [06:58] whole AI like
+- [07:00] acceleration and like you know you need
+- [07:01] to combat China uh this is very
+- [07:03] important us must maintain hemony that's
+- [07:05] one side of the fence the other side is
+- [07:07] like well if you want to maintain hemony
+- [07:08] it turns out like what did we do during
+- [07:10] World War II well we like we're like
+- [07:12] Henry Ford here you go you're going to
+- [07:13] be absolutely freaking rich because
+- [07:15] you're gonna make all the tanks right or
+- [07:17] whatever right trucks um this this is
+- [07:19] sort of the same thing they're doing
+- [07:20] with AI is like here you go Sacha Nella
+- [07:23] like you you get to do this in in AI
+- [07:25] right um and so there's a bit of like
+- [07:27] antitrust like you know know I like
+- [07:29] decentralized power you like
+- [07:31] decentralized Power you like Innovation
+- [07:32] and does this like Stamp Out innovation
+- [07:34] in some ways uh you know probably not
+- [07:37] for American like startups but for like
+- [07:40] infrastructure Hardware it definitely is
+- [07:42] like pretty pretty bad obviously there's
+- [07:44] been you know like uh proliferation of
+- [07:46] players like cor weave and these folks
+- [07:48] like how how do these regulations like I
+- [07:49] mean ultimately you know I've heard you
+- [07:50] say it obviously favors you know the the
+- [07:52] giant tech companies but presumably like
+- [07:53] they can have Footprints in these tier
+- [07:55] one countries as well like what happens
+- [07:56] to the kind of like you know the mini
+- [07:58] Cloud ecosystem so I think I think cor
+- [08:00] weave has rapidly like become quite
+- [08:03] close to the hypers scale level right
+- [08:05] like and so and then their their next
+- [08:07] set of build outs like large build outs
+- [08:08] are you know continued in the US of
+- [08:10] course but then also Europe um I think
+- [08:13] they could expand overseas for a while
+- [08:15] and still be fine they're going to have
+- [08:16] to hit certain regulatory like you know
+- [08:19] levels for you know being able to
+- [08:21] monitor their customers workloads and
+- [08:23] all these like you know just when you
+- [08:24] throw up the more requirements you add
+- [08:27] less people who can do it yeah exactly
+- [08:29] the the cloud ecosystem though right
+- [08:30] excluding cor weave like is very much
+- [08:32] hit hard right there's a lot of clouds
+- [08:34] that are in foreign countries that are
+- [08:36] trying to build up there's Sovereign AI
+- [08:38] which is like you know a lot of startups
+- [08:40] are Ser in the bay are serving Sovereign
+- [08:42] AI firms in Malaysia and Singapore in
+- [08:44] India in the Middle East whatever that's
+- [08:45] their biggest customer and it's like
+- [08:47] these guys are heavily heavily impacted
+- [08:49] by these regulations um there's a lot of
+- [08:51] um you know Cloud companies that are you
+- [08:54] know I guess like tier one is like the
+- [08:55] hyperscalers tier two is like core re
+- [08:57] and Oracle and then like be below that
+- [08:59] is like everyone is just kind of like
+- [09:01] really hit really badly um and so you
+- [09:04] know I think the startup ecosystem is
+- [09:05] going to have to learn like what do I do
+- [09:08] if potentially you know my big Middle
+- [09:10] East customer or my big Singaporean
+- [09:12] customer or my big Korean customer
+- [09:14] whatever it maybe not Korea Korea is
+- [09:15] like allowed um tier one but you know
+- [09:18] one of these countries Sovereign AI
+- [09:19] countries are they am I now regulated
+- [09:21] like this is actually like potentially
+- [09:23] bad for startups in some way it also is
+- [09:25] diversity on the foundation model side
+- [09:26] right um I guess like on The Sovereign
+- [09:28] AI Point like contextualize before this
+- [09:30] regulation what was happening both in
+- [09:31] kind of the data center buildout world
+- [09:33] uh you know that's government fueled as
+- [09:34] well as like the kind of training core
+- [09:36] models like for you know uh for a
+- [09:38] specific country or geography it was
+- [09:40] basically the wild west right the US had
+- [09:42] an executive order a while back it was
+- [09:44] basically just like if you're building a
+- [09:45] model that's 26 flops which is like very
+- [09:48] large that's like twice as large in
+- [09:50] terms of flops as llama 405b right so I
+- [09:53] presumably like very few people have
+- [09:54] done that yet but it's like a
+- [09:56] notification requirement that's it but
+- [09:58] that's in the US right so if you're in
+- [09:59] China and you're doing this or if you're
+- [10:00] anywhere else it's fine of course there
+- [10:02] were not really data center build outs
+- [10:04] of the scale to hit that quite yet but
+- [10:06] they were coming next year in the year
+- [10:07] after right or 2025 2026 these build
+- [10:10] outs were coming and so you know there
+- [10:12] was not much regulating Foundation
+- [10:15] models uh regulating other countries
+- [10:17] from building Foundation models like
+- [10:19] obviously like open Ai and and other
+- [10:21] companies were like told like hey I know
+- [10:24] the UAE is telling you they're going to
+- [10:26] build you a massive cluster you're not
+- [10:27] allowed to do that right like there's
+- [10:29] obious viously things like that tacitly
+- [10:30] under the table happening but there were
+- [10:32] no like here are the regulations so you
+- [10:35] know if you were a company in China you
+- [10:37] would you know do whatever you want and
+- [10:38] if you're a company elsewhere you do
+- [10:39] whatever you want and you could rent gqs
+- [10:41] from wherever you wanted and you could
+- [10:42] build whatever you want um and this like
+- [10:44] smacks it down right you can't like
+- [10:46] export model weights right out outside
+- [10:48] the US SL outside of like trusted clouds
+- [10:51] which is again the hyperscalers right um
+- [10:53] of of foundation models that are really
+- [10:55] the like biggest big ones right um you
+- [10:58] know like think llama 4 and GPT 5 and
+- [11:00] that kind of stuff um or you can't like
+- [11:03] um there's like various things around
+- [11:05] like protecting against synthetic data
+- [11:07] generation which all the Chinese
+- [11:08] companies are doing a ton of synthetic
+- [11:10] data generation of gp4 so their models
+- [11:12] can be good right like this is part of
+- [11:13] the like dirty secret about why like yes
+- [11:15] Alibaba and deepseeker really good but
+- [11:17] they're also just generating a bunch of
+- [11:18] data from gp4 and using that to like
+- [11:21] Post train right partially um there's a
+- [11:23] lot of um regulations around um yeah
+- [11:27] accessing clouds um and so a lot of
+- [11:29] company a lot of clouds you know they
+- [11:31] didn't have a core you know you know
+- [11:34] like when you look at like the big tech
+- [11:35] companies they've sort of all paired off
+- [11:37] right um you know meta themselves
+- [11:39] Google's themselves but then Microsoft
+- [11:40] open AI Amazon anthropic um elon's world
+- [11:44] is is xai Tesla you know there's the
+- [11:46] lines are blurry right X the lines are
+- [11:49] very blurry between these companies um
+- [11:51] but like these are sort of the hypers
+- [11:52] scalers in the US but in China um
+- [11:54] Alibaba was doing good in AI um and they
+- [11:57] were building out but besides that like
+- [11:59] there's 's a bunch of new players
+- [12:00] there's moonshot there's deep seek and
+- [12:02] there's all these other players that are
+- [12:03] popping up but they don't have a
+- [12:05] hyperscale partner um bite dance of
+- [12:08] course right and bite dance do they do
+- [12:09] run a lot of their infrastructure but
+- [12:11] they a lot of it they rent um you know
+- [12:13] what do they do well they decided well
+- [12:14] let me just like not b not uh deep seek
+- [12:17] but like bite dances just like oh I'll
+- [12:18] just rent from any GPU Cloud out there
+- [12:20] right so there's random clouds in like
+- [12:23] the in Europe there's random clouds all
+- [12:24] over Asia right and it's like their
+- [12:25] business case is like you're going to
+- [12:27] make a decent profit right and you're
+- [12:29] going to build gpus and rent them to me
+- [12:31] right and I'm not you're not going to
+- [12:32] have any observability to my workload
+- [12:33] I'm just going to do whatever I want um
+- [12:35] most of it is just serving Tik Tok right
+- [12:37] let's be clear it's not actually like
+- [12:39] elicit but you know the potential is
+- [12:40] there and they're obviously working on
+- [12:41] language models and generative video
+- [12:43] models and there's always the like fear
+- [12:45] that they're going to manipulate our
+- [12:46] teenagers minds and you know destroy
+- [12:49] after Sunday I guess I mean they're
+- [12:50] still going to be able to do the latter
+- [12:52] thing right but but they're heavily
+- [12:54] heavily heavily limited on you know the
+- [12:56] size of clusters they can get now and
+- [12:58] and who and what and notification
+- [12:59] requirements and like the companies have
+- [13:01] to be able to be observe their workload
+- [13:03] which is like bad security so it's it's
+- [13:05] a really really big blow to of course
+- [13:07] bite dance and many Chinese AI players
+- [13:10] but it's also a huge blow to all these
+- [13:11] random Cloud companies whose business
+- [13:12] case was like I'm G to sell to bike
+- [13:15] dance right or I'm gonna sell to this
+- [13:16] Chinese company so where where does
+- [13:18] Chinese ai go from here and like what
+- [13:19] you do you see any kind of like if
+- [13:21] they're looking around for loopholes
+- [13:22] like what you know what is the path
+- [13:24] forward there is there's one obvious
+- [13:26] loophole which is um while there's like
+- [13:28] strict caps right like each country can
+- [13:30] only buy 50,000 gpus for the next four
+- [13:32] years and it's like that's kind of
+- [13:34] nothing when Nvidia is making you know 6
+- [13:36] million plus this year tot right um it's
+- [13:38] like huh um so so each country can only
+- [13:41] buy 50,000 gpus but then there's still
+- [13:43] loopholes which is if you buy 1,700 or
+- [13:45] less that doesn't count to the 50k um so
+- [13:48] so the obvious thing is you just spin up
+- [13:50] a bajillion you know shell companies and
+- [13:52] you just buy you buy 17 you buy 1600
+- [13:54] gpus and and then you route them to
+- [13:56] China or whatever right so there are
+- [13:58] still some loopholes
+- [13:59] um but generally you know this is this
+- [14:02] is much harder to do I think I think
+- [14:05] more more so is just like you know China
+- [14:08] has a ton of amazing engineers and they
+- [14:09] will have to innovate right like deep
+- [14:11] seek is like amazing at engineering
+- [14:13] right so it's like um you know they're
+- [14:15] they're crushing companies with similar
+- [14:17] levels of compute right um because
+- [14:19] they're just engineering better but
+- [14:20] they're not quite like open ey anthropic
+- [14:22] level now they need to take this like
+- [14:24] same like compute for collabs continues
+- [14:26] to scale like crazy and theirs cannot
+- [14:29] skill nearly as fast so it's like we not
+- [14:30] only have to be better at engineering we
+- [14:32] have to be like way way way way better
+- [14:33] at engineering with this new push to
+- [14:35] like test time compute like is that
+- [14:36] feasible uh with with like a huge
+- [14:38] compute deficiency yeah so so I think
+- [14:41] there's um some interesting aspects of
+- [14:45] test time compute right um it is way
+- [14:47] more compute intensive than people think
+- [14:49] like people are like oh training is dead
+- [14:50] and it's like no building a test time
+- [14:53] compute capable model requires tons of
+- [14:56] of training you WR some really
+- [14:57] interesting data about this it's it's
+- [14:59] not just like pre-training it's
+- [15:00] posttraining right so you have to
+- [15:02] generate a ton of data you have to throw
+- [15:03] most of it away um you have to verify
+- [15:06] verify the data to make sure it's like
+- [15:07] actually accurate right um The Chain of
+- [15:09] Thought or the reasoning chain um and
+- [15:12] then you have to train the model right
+- [15:13] and you have all these reward models
+- [15:14] it's like very complicated post training
+- [15:15] stuff so um you know and and it's very
+- [15:19] compute intensive actually um so you can
+- [15:23] make reasoning models today right like
+- [15:25] 01 and like you know deep seeks R1 I
+- [15:28] think it is and Ali as a reasoning model
+- [15:29] I can't remember the name off top of my
+- [15:30] head but these these models like are
+- [15:33] like the way you should think of it is
+- [15:34] like you know scaling laws are log log
+- [15:36] right so you can scale you can scale
+- [15:38] data you can scale parameters you can
+- [15:40] scale uh and and and and it's like well
+- [15:42] both of those are sort of like petering
+- [15:44] out right because data is not scaling
+- [15:46] fast enough and you know just infinitely
+- [15:48] growing parameters doesn't give you
+- [15:49] anything right or it gives you doesn't
+- [15:51] it gives you diminishing returns um but
+- [15:53] we've scaled up this rung many times
+- [15:54] right the training runs that these
+- [15:55] Frontier labs are doing are billions of
+- [15:58] dollars right and uh next year probably
+- [16:00] tens of billions of dollars right it's
+- [16:01] like scaling very fast you can only get
+- [16:04] like a logarithmic Improvement on that
+- [16:05] front every so often right whereas test
+- [16:08] time compute we like at the Bottom Rung
+- [16:10] of the ladder right and it's like oh I
+- [16:12] can like climb up this ladder really
+- [16:14] rapidly because oh right now we're
+- [16:15] spending hundreds of thousands millions
+- [16:17] you know tens of millions Bill hundreds
+- [16:19] of millions billions right and and like
+- [16:21] the compute deficiency doesn't like
+- [16:23] matter until you get to the billions
+- [16:24] plus scale yeah right um and so there
+- [16:26] are many rungs that they can you know
+- [16:28] out engineer with the limited compute
+- [16:31] resources and and sort of catch up uh
+- [16:34] but there's also the flip side of like
+- [16:36] well anthropic openi Deep Mind Etc right
+- [16:38] xal these guys are and and and many
+- [16:40] startups in fact right like Mira startup
+- [16:42] and so on and so forth are all scaling
+- [16:44] up this ladder really quickly as well as
+- [16:46] fast as they can um and so it's it's
+- [16:49] it's interesting to see what's going to
+- [16:51] happen I I think that you know that's on
+- [16:53] the training side and on the inference
+- [16:55] side you know it's like if you actually
+- [16:58] like do a query of like 01 versus GPD 40
+- [17:02] it's like yeah it cost like 20 cents for
+- [17:03] a query and it costs like $6 for a query
+- [17:06] right it's like it's like a a dramatic
+- [17:08] difference now obviously the quality is
+- [17:10] better and so that like and that $6 is
+- [17:12] still way cheaper than like paying you
+- [17:14] know someone who makes way more than $6
+- [17:15] for that work um but it is like you know
+- [17:19] and and it's scalable right uh whereas
+- [17:21] like human resources are less scalable
+- [17:23] um you know it's kind of like this is
+- [17:26] this is this is a huge difference in
+- [17:28] cost $6 is all inference and it's like
+- [17:30] well you're limited on GPS you get into
+- [17:32] China you're limited to 50,000 in all
+- [17:34] these countries that are friendly to
+- [17:35] China or even neutral to China right so
+- [17:37] it's like it's going to be very hard to
+- [17:39] get that scaling of compute on inference
+- [17:43] right and you know you can throw as much
+- [17:44] money as you want on training but to
+- [17:46] actually like change the world right
+- [17:48] again like if you believe AI is going to
+- [17:50] change the world then you have to spend
+- [17:52] a ton on inference rightt um even if the
+- [17:55] margins are low right you know uh even
+- [17:57] though like anthropics and open gross
+- [17:59] margins on inference are like 75% a lot
+- [18:01] of these other companies gross margins
+- [18:02] on inference are like 10 20% even it's
+- [18:04] 10 20% gross margins you know to
+- [18:07] amortize the cost of like a $5 billion
+- [18:09] model right like okay you need to do
+- [18:11] like $10 billion of a of inference
+- [18:13] revenue and it's like okay well then
+- [18:14] that's like8 billion of Hardware cost
+- [18:17] which you know and that Hardware cost of
+- [18:19] $8 billion is like actually depreciated
+- [18:21] over multiple years so in that year you
+- [18:22] bought like $30 billion of Hardware
+- [18:24] congrats right it's like this and that's
+- [18:27] like way too much right like that's way
+- [18:28] that's like like exceeds the Caps
+- [18:29] dramatically so I think um you know test
+- [18:32] time compute they'll be able to like
+- [18:34] deliver impressive results probably the
+- [18:36] question is if they'll be able to scale
+- [18:37] it and sell it
+- [18:39] um and and so that's like the the the
+- [18:43] issue and like on the flip side it's
+- [18:44] also like China the cost of developing
+- [18:47] software in China is like way cheaper
+- [18:49] than in the US right they just have way
+- [18:51] more talented Engineers uh software
+- [18:53] engineers and and so you know their
+- [18:55] development practices and all these
+- [18:57] things are different as well but like
+- [18:58] every company there you know there's a
+- [19:00] lot of like platform SAS doesn't work in
+- [19:02] China right this is like pretty well
+- [19:03] understood as like like and like in the
+- [19:05] VC world it's been like amazing for VC
+- [19:06] is that platform SAS type stuff has been
+- [19:08] awesome um because you can sell to all
+- [19:10] these companies because develop it
+- [19:11] you're you're developing it in one place
+- [19:13] and you're selling it to everyone right
+- [19:14] whereas in China it's like okay you're
+- [19:16] developing in one place but everyone can
+- [19:18] just develop it internally and it won't
+- [19:19] be maybe as good it won't be best in
+- [19:20] class but whatever devs are cheap right
+- [19:22] which kind of seems like the future
+- [19:23] we're headed do with all this AI coding
+- [19:24] progress this is what I'd be curious
+- [19:26] about your take yeah no I mean I
+- [19:27] definitely think it's it's it's a a huge
+- [19:29] risk for these SAS providers right um
+- [19:31] you know the ability I mean obviously
+- [19:32] Clara and folks have talked about it
+- [19:33] very publicly but I think the kind of Mo
+- [19:35] that was spinning up these applications
+- [19:37] in the past is uh is certainly a lot
+- [19:40] weaker now and I think like the ability
+- [19:42] also you know that combined with the
+- [19:43] ability to more easily migrate data out
+- [19:45] of whatever system of record you're in
+- [19:47] um and basically all the like painful
+- [19:48] stuff that probably stopped someone from
+- [19:50] ever really upgrading their software in
+- [19:51] the past is now just like a relatively
+- [19:53] simple thing to do with a bunch of like
+- [19:54] AI agents you throw it it go away for
+- [19:56] like a few days and there it is um yeah
+- [19:58] it's a real threat stas going forward
+- [20:00] but a lot of countries have you know I
+- [20:01] think clearly from the beginning have
+- [20:02] realized the importance of having this
+- [20:03] you know uh this expertise and models in
+- [20:05] their own country but if anything this I
+- [20:07] feel like this regulation makes
+- [20:08] incredibly clear uh you know yeah yeah I
+- [20:10] mean any point be cut off I think like
+- [20:12] if you look at UAE this is exactly
+- [20:14] what's happened and I think it's been
+- [20:15] pretty well reported in the media like
+- [20:17] at one point g42 which is the UAE sort
+- [20:20] of champion of sovereign AI uh funded by
+- [20:23] you know all sorts of like you know UAE
+- [20:25] money and it is based in UAE and um they
+- [20:28] they they were at one point like
+- [20:29] threatened of being cut off and they
+- [20:31] were like the CEO was like a Chinese guy
+- [20:34] from China and it was like CCP links
+- [20:36] potentially blah blah blah all this
+- [20:37] stuff and then like you know goes s like
+- [20:40] all the media reporting on this goes
+- [20:41] silent for like six months and then the
+- [20:43] next you know uh thing to come out from
+- [20:45] like whether it was Bloomberg or Reuters
+- [20:46] or Wall Street Journal whatever was like
+- [20:49] yeah g42 and Microsoft are going to do a
+- [20:50] partnership and it's like huh I wonder
+- [20:53] like what happened here like is it is it
+- [20:55] purely organic or was there like some
+- [20:57] sort of like tacet like well if you're
+- [20:59] just going to run all your own
+- [21:00] infrastructure you know maybe there's
+- [21:02] something that here but you know now
+- [21:03] that we know Microsoft is partnered with
+- [21:05] you you know it's good and like you know
+- [21:07] now when you look at it it's like g42
+- [21:09] and the US government are actually like
+- [21:10] talking all the time and they're like
+- [21:12] like g42 will be a big cloud player and
+- [21:14] they're deploying gpus in the US even
+- [21:16] not just in you know the UAE but in
+- [21:18] Europe and the US so it's through these
+- [21:20] hypers scolar I guess you can enforce
+- [21:21] the American sphere of influence of like
+- [21:23] what you know both obviously you know
+- [21:25] oversight of what you know models are
+- [21:26] out there and but also like you know
+- [21:28] ultimately like who gets you know I
+- [21:29] think right now there's what some human
+- [21:31] rights terms involved in like the
+- [21:32] tearing of the companies you could of
+- [21:33] the countries and you could imagine like
+- [21:35] all sorts of ways that uh
+- [21:36] administrations use this stuff going
+- [21:37] forward yeah I mean I mean like the
+- [21:39] Biden the the regulation itself does
+- [21:41] mention human rights um obviously the
+- [21:43] new Administration is coming in if you
+- [21:44] had me guess I'd say like 95%
+- [21:47] probability the Trump Administration
+- [21:48] just keeps these rules and maybe like
+- [21:50] like obviously tweaks them to some
+- [21:51] extent but the human rights thing
+- [21:53] they're probably going to throw out and
+- [21:54] like you know and switch for like you
+- [21:56] know e American economic
+- [21:59] influence or like industry or like
+- [22:01] whatever whatever the priority of like
+- [22:03] you know purchasing energy and weapons
+- [22:04] from the US government right like these
+- [22:06] are the sort of things that might matter
+- [22:07] more for the Trump Administration versus
+- [22:09] like human rights policies might matter
+- [22:11] more for the Biden Administration but at
+- [22:12] the end of the day yeah it's like a
+- [22:13] weapon for sort of the arsenal of
+- [22:15] democracy you know this is like a
+- [22:17] regulation s enough it's like but I mean
+- [22:19] taking a step back I feel like you've
+- [22:20] talked before about and I think it was
+- [22:21] maybe in the context of the chip band
+- [22:23] about this like Goldilocks that you're
+- [22:24] trying to strike of like preventing
+- [22:26] China from training their own Cutting
+- [22:27] Edge models but not making it like so
+- [22:29] Barren that like everything gets built
+- [22:31] up within the country itself and I
+- [22:32] wonder like you know back to the I guess
+- [22:34] the grade question like does it feel
+- [22:35] like this you know hard-handed approach
+- [22:38] like is that the right way to further
+- [22:39] these policy objectives Jacob here
+- [22:41] taking a quick break to say that if
+- [22:42] you're enjoying this conversation with
+- [22:44] Dylan we'd love if you could share it
+- [22:45] with a friend we're always trying to get
+- [22:47] the word out about unsupervised learning
+- [22:48] and we have an absolutely fantastic set
+- [22:50] of guests coming up these next months
+- [22:52] now back to Dylan does it feel like this
+- [22:55] you know hard-handed approach like is
+- [22:57] that the right way to further these
+- [22:58] policies objectives so I think um
+- [23:00] October 22 and then the 2023 regulations
+- [23:03] they were they were more like you know
+- [23:04] we're going to try and limit you um but
+- [23:07] they didn't like fully limit like China
+- [23:09] building their own domestic supply chain
+- [23:10] and all these things right um because
+- [23:12] the intention is you can't build your
+- [23:13] own domestic Supply chains and you can't
+- [23:15] access it but you can access it at like
+- [23:17] some tier right now like with these most
+- [23:20] recent regulation it's like no access at
+- [23:23] all to this stuff right like you have
+- [23:24] you have order magnitude less compute
+- [23:26] than like any of the US like labs right
+- [23:29] um that's what we're trying to enforce
+- [23:30] on you um in which case like obviously
+- [23:32] there's going to be like some leakage
+- [23:33] and so maybe it's not a whole order of
+- [23:34] magnitude maybe it's like you know 75%
+- [23:36] less compute whatever right it's still a
+- [23:38] humongous amount so now it's like China
+- [23:41] only has two options which is like build
+- [23:43] your own supply chain or you know and
+- [23:46] and if we limit that effectively right
+- [23:48] like so like Ben Thompson has this take
+- [23:49] and he's like yeah if you if the
+- [23:51] regulatory regulations are so effective
+- [23:53] on preventing China from building their
+- [23:54] own semiconductor industry um or you
+- [23:57] know sort of like or they like build
+- [23:58] their own semiconductor industry and
+- [24:00] it's like competitive then like action
+- [24:03] on Taiwan is much more likely right
+- [24:04] whereas like if they feel that they're
+- [24:06] still benefiting from Taiwan right um
+- [24:09] they feel that they still can build it
+- [24:11] up and get access through Western sphere
+- [24:12] right this is like the sort of like
+- [24:13] geopolitical stuff I have no idea about
+- [24:15] by the way right uh talking out my butt
+- [24:17] but like there's sort of the like you
+- [24:19] know the goldilock zone of like yeah you
+- [24:20] don't want to ban them too hard you
+- [24:21] don't want to let them just have
+- [24:22] everything because then that like
+- [24:24] induces risk right but if there's like
+- [24:26] that goldilock zone of like you just
+- [24:29] can't right like you're kind of like
+- [24:30] you're behind but not so far behind
+- [24:32] There's Hope of catching up then it's
+- [24:33] may be fine I guess Switching gears to
+- [24:35] you know the cluster build outs that
+- [24:36] we're seeing today um maybe just give
+- [24:38] some codex to listeners on you know
+- [24:40] obviously you're you're the guru of of
+- [24:41] tracking all this like the size of
+- [24:43] cluster build outs we have today those
+- [24:44] being planned and maybe just talk a
+- [24:45] little bit about kind of the biggest
+- [24:46] blockers that we have to larger clusters
+- [24:48] today in these tier one countries yeah
+- [24:50] so I mean when you take a step through
+- [24:52] sort of like GPD 4 2020 you know uh 2022
+- [24:55] sorry uh roughly 20 you know few
+- [24:58] thousand gpus A1 100s right and they
+- [25:00] train this model change the world right
+- [25:03] um now what's the next sort of Step Up
+- [25:06] right you know you got to look at like
+- [25:07] from two to three to four right there's
+- [25:09] order you know a couple orders of
+- [25:10] magnitude of compute increases now you
+- [25:12] know with GPT sort of five quote unquote
+- [25:15] or Orion or whatever is coming out
+- [25:16] they're you know working on it um this
+- [25:18] is a scale of you know hey well we can't
+- [25:20] necessarily go for you know order
+- [25:22] magnitude more gpus because it's just
+- [25:23] too expensive and there's a lot of uh
+- [25:26] difficulties with building that out um
+- [25:28] so we go up you know we go from 20,000
+- [25:29] GPS to 100,000 right um and so X is
+- [25:32] built 100,000 meta's built 100,000 both
+- [25:35] of them have actually building more than
+- [25:37] that right in one one spot to do
+- [25:38] training openi plans are also and
+- [25:40] anthropic you know so on and so forth
+- [25:42] anthropic has 400,000 tranium server uh
+- [25:45] gpus coming up this year um or tranium
+- [25:48] chips not gpus but like there there
+- [25:50] people are in the hundreds of thousands
+- [25:51] range uh go for this year uh but you
+- [25:54] know sort of what's built today and
+- [25:55] what's training models today is on that
+- [25:57] order of magnitude of ,000 right and the
+- [25:59] GPU that's being used is the h100 so you
+- [26:01] got you have 5x the gpus and you have 3x
+- [26:04] the performance per GPU roughly so then
+- [26:06] you're at like 15x more compute um and
+- [26:10] we'll see what comes of this right like
+- [26:12] you know the the thing is like you don't
+- [26:14] build a cluster or run a model and
+- [26:15] immediately get like you know something
+- [26:17] great out of it right you have to like
+- [26:18] do tons of experimentation and you know
+- [26:20] training takes months and post training
+- [26:22] takes months and safety takes months
+- [26:23] right it's not like snap of the finger
+- [26:25] you get the model right now that you've
+- [26:27] built the cluster uh um and so there is
+- [26:29] a bit of a lag right and so you know
+- [26:32] this year we'll see models come out that
+- [26:34] are from that sort of quote unquote last
+- [26:36] generation cluster but the next
+- [26:38] generation one is being built now what
+- [26:39] this next generation one is like
+- [26:41] hundreds of thousands right um and for
+- [26:43] context right like you know each GPU
+- [26:46] right once you include networking
+- [26:47] building all this sort of stuff maybe is
+- [26:49] you know the GPU itself of h100 is like
+- [26:51] 24,000 but once you add everything else
+- [26:53] up it's like 445,000 per GPU all in of
+- [26:57] everything right and so the cost of like
+- [26:59] 100,000 is like like a lot right it's
+- [27:02] like5 billion for 100,000 gpus yeah
+- [27:05] right um and so elon's round was six
+- [27:07] billion and uh you know he built 100,000
+- [27:10] GPU cluster right like you know
+- [27:11] obviously there's like other costs right
+- [27:13] they had to buy data they had to do like
+- [27:15] um you know employees and they had to do
+- [27:17] like they had to convert a factory into
+- [27:19] a data center right and like set up all
+- [27:21] this crazy [ __ ] that they did right
+- [27:23] which is like you know I'll talk about
+- [27:24] that in a second but like there's a lot
+- [27:25] of stuff that needs to be done to get
+- [27:29] um you know a model train and now now
+- [27:31] that elon's built the cluster doesn't
+- [27:32] mean a model's going to come out you
+- [27:33] know I'd be surprised if they have a
+- [27:35] leading model even this quarter right um
+- [27:37] it's going to take some time and there
+- [27:39] and and so like what is what is you know
+- [27:40] that's on the training front um and and
+- [27:43] these next Generation clusters be built
+- [27:44] this year not $5 billion they're they're
+- [27:46] you know 15 right you know and obviously
+- [27:48] you can't scale the money up you know
+- [27:50] like insane amounts but 3x right and and
+- [27:53] obviously in the con of that anthropic
+- [27:54] raising this like2 billion that you know
+- [27:56] in this current VC round seems
+- [27:58] perplexing well so what's nice is you
+- [28:00] know anthropic open AI anthropic
+- [28:03] especially can you know open Ai and and
+- [28:06] and you know some of these companies
+- [28:07] that are the startups right uh can can
+- [28:10] raise around and that money can only be
+- [28:12] enough for maybe a year year and a half
+- [28:14] of GPU rental right and that's rental
+- [28:16] right they're not the one buying the
+- [28:17] gpus right so Amazon might be the one
+- [28:19] spending you know5 10 billion dollar but
+- [28:22] they might for one year rent it for 3
+- [28:24] four right um and you know when you look
+- [28:26] at the revenue the credits they get from
+- [28:28] Amazon Plus the round they raise right
+- [28:30] that's enough to pay for something like
+- [28:32] that right now the the and and the
+- [28:34] trainum server is not $10 billion
+- [28:35] because it's like a cheaper internal
+- [28:37] chip for Amazon but like you kind of get
+- [28:39] this like benefit if your Cloud partner
+- [28:41] really loves you right and in the case
+- [28:43] of like open aai and Microsoft kind of
+- [28:46] but they were able to make a deal strike
+- [28:47] a deal with Oracle right Oracle spending
+- [28:50] like 10 Billion Dollar Plus for them
+- [28:52] this year to build out data centers and
+- [28:54] gpus right um for open AI uh not
+- [28:57] Microsoft and interestingly enough
+- [28:59] Microsoft is doing stuff as well but
+- [29:00] like but they're not rent they're not
+- [29:02] charging $10 billion this year right
+- [29:04] they're charging a few billion dollars
+- [29:05] this year so there is there is that
+- [29:08] benefit right that you don't need to
+- [29:09] necessarily you might have signed the
+- [29:10] dotted line and like Oracle may like
+- [29:12] have taken the credit risk right of like
+- [29:15] we or we opening on this contract exist
+- [29:17] in three years I mean you and I believe
+- [29:19] yes but like this is something that you
+- [29:21] have to consider as a possibility no um
+- [29:24] and so there is that risk um and like
+- [29:26] the numbers that like companies are
+- [29:27] raising not enough to pay for the whole
+- [29:29] cluster but that just means you know
+- [29:30] anthropic is going to raise even more 9
+- [29:33] months from now or a year from now
+- [29:34] whenever they release their reasoning
+- [29:35] model you know it's a constant
+- [29:36] fundraising thing right this like Sam
+- [29:38] strength is like he's a god tier
+- [29:39] fundraiser right um and so that's like
+- [29:43] one aspect of it the other aspect is
+- [29:45] like when you look at the hyperscalers
+- [29:46] right meta Google uh Amazon um xai you
+- [29:49] know all these guys are building their
+- [29:50] own data centers they're the ones de
+- [29:52] delivering the capex it's really hard to
+- [29:55] get the electrical infrastructure uh the
+- [29:57] substation build it all out get it to
+- [29:59] work uh get all the chips to be
+- [30:01] networked properly uh deal with all the
+- [30:03] failed chips because when you're talking
+- [30:04] about you know this number of chips
+- [30:06] actually quite a few are failed a lot of
+- [30:07] them are silent failures there's a lot
+- [30:08] of difficulties in getting a cluster to
+- [30:10] work um and so like you know the big big
+- [30:13] data center guys have like sort of like
+- [30:15] known this right the hyperscalers xai
+- [30:17] kind of came in and was like El's like
+- [30:19] well we're just going to do it and it's
+- [30:20] like well we can't find a data center
+- [30:21] anywhere cuz all of them are already
+- [30:23] taken right uh for for the time frames
+- [30:26] we need so what do we do right and and
+- [30:29] like what they did is like just like the
+- [30:30] most like Elon awesome thing ever right
+- [30:32] which is like they found a random
+- [30:34] Appliance Factor closed Appliance
+- [30:36] Factory in Memphis Tennessee right
+- [30:38] located next to like a giant power plant
+- [30:41] water treat treatment facility like a
+- [30:43] garbage dump like like just like
+- [30:45] literally like what most people in SF
+- [30:47] would be like this is the worst place on
+- [30:48] [ __ ] earth right like not not really
+- [30:50] but like um you know you talk to people
+- [30:52] at X that actually go to the data center
+- [30:54] like this place kind of sucks right like
+- [30:57] Memphis has really good Wings by the way
+- [30:58] you know there's good inh across the
+- [31:00] yeah great food in Memphis but like
+- [31:02] wings barbecue Etc but like you know
+- [31:04] it's like okay we bought the suppliance
+- [31:06] factory but why did we buy it well one
+- [31:08] there's a gigawatt um natural gas plant
+- [31:11] right next door right two there's a
+- [31:13] natural gas line a main that they tapped
+- [31:16] and they set up their own generation
+- [31:18] capacity on site you know three they're
+- [31:20] upgrading the substation take more power
+- [31:22] from the grid right so they're like
+- [31:23] doing they set up their own like
+- [31:24] freaking mobile generators to like
+- [31:27] create power setting up Tesla battery
+- [31:29] packs uh they're now planning they've
+- [31:31] filed permits to build their own [ __ ]
+- [31:33] power plant right like uh on site not
+- [31:36] just like mobile generators but like a
+- [31:37] massive natural gas combine you know so
+- [31:40] they can do a million gpus or is what he
+- [31:42] claims right or what he says he's going
+- [31:43] to do which you know we'll see um I
+- [31:45] won't bet against Elon right there's
+- [31:47] he's doing all these like things to like
+- [31:49] get the data center now right because
+- [31:51] there's no power you know the substation
+- [31:53] wasn't ready right the power is right
+- [31:54] there but the substation was was not was
+- [31:56] too small and it was being upgraded to
+- [31:57] slowly because you know us power grid
+- [32:00] upgrades take a long time take at least
+- [32:02] 6 months a year they had already thought
+- [32:03] about it but it was only like six months
+- [32:04] a year like okay we'll just generate
+- [32:05] power on the site right so they tap the
+- [32:07] natural gas line that's next door and
+- [32:08] they set up all these mobile generators
+- [32:10] right oh the power from these generators
+- [32:11] is pretty dirty and GPU training is like
+- [32:13] you know the moment I stop training
+- [32:15] power just goes to zero or you know
+- [32:17] maybe if I'm doing a gradient update now
+- [32:19] all my gpus go idle and like they're
+- [32:21] exchanging weights and it's like oh [ __ ]
+- [32:22] power went to zero then it's like oh
+- [32:24] [ __ ] power went to 100 megawatts and
+- [32:26] like this sort of stuff can blow up
+- [32:27] grids um and so you know elon's like
+- [32:30] okay we'll just throw a bunch of Tesla
+- [32:31] battery packs there's doing all sorts of
+- [32:32] crazy things oh how do we you know how
+- [32:34] do we cool this this facility because it
+- [32:36] wasn't ready to be able to cool this
+- [32:38] much amount of stuff oh we'll water cool
+- [32:39] everything and then we'll rent a bunch
+- [32:40] of chillers water chillers like many of
+- [32:43] them restaurant grade like freaking
+- [32:45] container things and just place them
+- [32:46] outside and like cool right it's like
+- [32:48] they're doing all this like crazy stuff
+- [32:49] and it's like way more complicated than
+- [32:51] this right and it works right it's like
+- [32:52] it's like very impressive um how they
+- [32:55] deal with all the problems uh I guess
+- [32:57] one more fun funny stories like this
+- [32:58] power problem I mentioned meta they
+- [33:00] accidentally open sourced this code um
+- [33:03] it's literally called Power Plant no
+- [33:04] blow up it's a flag um and so when
+- [33:06] you're doing the gradient update right
+- [33:08] when you're like exchanging weights um
+- [33:10] instead of like having the gpus go idle
+- [33:12] right basically when you're when you're
+- [33:13] sending all the weight to the network
+- [33:15] instead they just have them do fake M
+- [33:17] Matrix multip so the power stays stable
+- [33:20] right because otherwise like the power
+- [33:21] plant might blow up if you go like this
+- [33:23] and it's like what the hell right so
+- [33:25] like this is like the crazy stuff that's
+- [33:26] happening and it's like um you know
+- [33:28] there's so many complicated things going
+- [33:30] on in these you know 10 billion doll
+- [33:32] build outs that people are doing
+- [33:33] fascinating if you were running like the
+- [33:34] government right now I mean what like
+- [33:36] obviously it seems like the energy side
+- [33:37] is like a massive policy and and just
+- [33:39] like bureaucratic blocker to more of
+- [33:41] these data centers happening like what's
+- [33:42] the best thing that government can be
+- [33:43] doing to unblock this stuff and you know
+- [33:45] is every future data center buildout
+- [33:47] like this going to have to pck together
+- [33:48] Elon style you know I mean I mean like
+- [33:51] to be clear right like the the like
+- [33:53] number of like normally built
+- [33:54] conventionally built data centers is
+- [33:56] like this it's just like what we want is
+- [33:58] like straight line up right like you
+- [34:00] know um and so you know for example uh
+- [34:04] gas generators are sold out for two four
+- [34:06] years from GE right like it's like oh
+- [34:08] wow vnova I guess now right um
+- [34:10] substation equipment same thing right
+- [34:12] it's like sold out for four years so
+- [34:13] like now you have to get like creative
+- [34:14] right um and so like even though it's
+- [34:17] like growing really rapidly so like some
+- [34:18] of the stuff is like held up by like I
+- [34:20] think in one part of like uh the Midwest
+- [34:23] it might be Ohio or Indiana the P the
+- [34:26] cost of like if you build a new power
+- [34:27] plant to transport that power on the
+- [34:30] grid to a customer cost more than the
+- [34:32] cost of actually generating the power
+- [34:34] it's like what the flip right like it's
+- [34:36] like so like the grid needs huge
+- [34:37] Investments right um there needs to be
+- [34:40] like a removal of a lot of the
+- [34:41] environmentally reg environmental
+- [34:43] regulations um but also to an extent
+- [34:45] there needs to be like more Vibe shift
+- [34:47] of like ESG type stuff right is like
+- [34:50] what is like is is like and this is like
+- [34:51] the attitude of like people at AI Labs I
+- [34:53] don't know if it's actually true or or
+- [34:55] or like it's the correct one but like
+- [34:58] maybe you just say screw it to build AGI
+- [35:00] faster we we do it with natural gas and
+- [35:03] then because we're doing it with natural
+- [35:05] gas and then AGI will like create enough
+- [35:07] economic wealth and prosperity that we
+- [35:09] can just do carbon sequestration and it
+- [35:10] will all be good right it's like this is
+- [35:12] a pretty like wild take but this is like
+- [35:13] this is what some people believe and and
+- [35:15] to some extent meta has kind of uh you
+- [35:19] know either for either you know they
+- [35:21] laid off their whole like Dei thing they
+- [35:24] they uncensored politics there's been a
+- [35:25] massive Vibe shift one of the things
+- [35:27] they're doing is like they're setting up
+- [35:28] two GW right I told you earlier four
+- [35:31] sorry three was like their total Global
+- [35:32] capacity beginning of 24 they're setting
+- [35:34] up 2 gws in Louisiana alone basically
+- [35:37] all powered by natural gas um and it's
+- [35:40] like yeah now they can get in two years
+- [35:42] right and they've like figured out how
+- [35:42] to get the substations and all that
+- [35:44] whatever they they've gotten all the
+- [35:45] supply chain stuff and it's like yeah if
+- [35:47] we just throw ESG out the window can go
+- [35:49] faster right and and and like you're
+- [35:51] doing it in states that don't have as
+- [35:53] much environmental stuff Texas and
+- [35:55] Louisiana and so on and so forth right
+- [35:57] many other States uh you know all over
+- [35:59] the country but it's like you know
+- [36:01] that's part of it right now to this to
+- [36:03] this moment right like Google and Amazon
+- [36:04] are still quite like committed to their
+- [36:06] green pledges Microsoft is sort of in
+- [36:08] the middle and Meta Meta and xai
+- [36:10] obviously don't give a [ __ ] right so
+- [36:11] it's like you or they don't not that
+- [36:13] they don't give a [ __ ] right like
+- [36:14] obviously like xai like Tesla does way
+- [36:17] more for green than what they're
+- [36:18] destroying right so it's like all sorts
+- [36:19] of like you know it's complicated but
+- [36:21] like is there a way to like change the
+- [36:23] vibe on those two and therefore they
+- [36:24] move faster right or is there a way to
+- [36:26] like um make it so you don't have to do
+- [36:29] crazy stuff like grids are upgraded
+- [36:31] power generation is is you know like
+- [36:33] on-site power generation like all these
+- [36:34] different things like um help build
+- [36:36] solar and wind and uh batteries faster
+- [36:39] and cheaper in addition to doing all the
+- [36:41] gas right um there's a lot of
+- [36:43] complicated things to do um on the
+- [36:46] energy side and there's ways to still
+- [36:48] make it green and fast right like you
+- [36:50] could just throw up a lot of solar you
+- [36:51] can throw up a lot of wind and you know
+- [36:53] the the power generation of like
+- [36:55] Renewables are like this but wind and
+- [36:57] solar don't don't actually like
+- [36:58] correlate that well so then you're like
+- [37:00] most of the times you have power
+- [37:01] obviously you have Excess power
+- [37:03] sometimes um but most of the times you
+- [37:04] have power and then you throw on like a
+- [37:05] small amount of battery and now it's
+- [37:07] like almost all the time you have power
+- [37:08] but there's still like times where the
+- [37:09] sun isn't shining and the wind isn't
+- [37:11] blowing for a long enough period that
+- [37:12] your batteries are drain so now you have
+- [37:14] some backup gas right and it's like
+- [37:16] these are ways to like make it Greener
+- [37:17] and still do it fast but yeah I think I
+- [37:19] think like grid um an industrial policy
+- [37:22] around that is like the biggest like
+- [37:25] thing that needs to be done to
+- [37:26] accelerate this kind like the domestic
+- [37:28] version of uh now now that we've done
+- [37:30] the uh the international regulations
+- [37:31] it's the next next area of focus yeah
+- [37:34] you would think right it's like like I I
+- [37:36] myself of like far more of like an
+- [37:38] attitude of like we should win harder
+- [37:41] rather than we should like try to make
+- [37:43] them lose yeah right like that's sort of
+- [37:45] like I think like most people think
+- [37:47] that's a better ideal and like what
+- [37:50] America stands for more but you know we
+- [37:51] kind of like yeah so we have these
+- [37:53] 100,000 uh GPU clusters obviously now
+- [37:56] where we're going to see the output of
+- [37:57] these model at some point in 2025 and I
+- [37:58] assume that will obviously impact a ton
+- [38:00] of the you know future Investments based
+- [38:02] on what we see there but obviously
+- [38:03] people have to invest way ahead of that
+- [38:04] and so we already kind of know what
+- [38:05] we're getting in for uh for for build
+- [38:07] outs in this next year as you kind of
+- [38:09] think you know uh just kind of putting
+- [38:11] your betting hat on for like two years
+- [38:13] from now five years from now like how
+- [38:15] big clusters do you think we'll have two
+- [38:17] years from now yeah um I would I would
+- [38:20] imagine it' be like you know like
+- [38:21] there's a couple things right like you
+- [38:23] know you could say it by number of chips
+- [38:24] but it's not fair right A1 100s were
+- [38:26] like 400 h00 are 700 wat black well is
+- [38:29] 1200 wat right you know sort of the
+- [38:31] power per chip is scaling rapidly so
+- [38:33] saying the number of chips is not fair
+- [38:35] energy right so energy is like a good
+- [38:37] metric because it's like how much useful
+- [38:38] work you get per me energy is like
+- [38:40] growing rapidly right um but then like
+- [38:42] the amount of energy you're devoting to
+- [38:44] this right so so 150 megawatts is these
+- [38:46] 100K clusters right um we're seeing like
+- [38:49] you know 400 500 megawatts uh cluster
+- [38:53] sort of being built out now right like
+- [38:55] you know and and then you know in 2020
+- [38:57] I'd imagine it'll be like gwatt skill
+- [38:59] clusters right or that's what it looks
+- [39:01] like based on or you know one gwatt in
+- [39:03] 2026 is and Meta Meta is like trying to
+- [39:06] do like two gws by early to mid 27 so
+- [39:09] it's like and others are all like sort
+- [39:10] of doing similar stuff um in different
+- [39:12] parts of the nation it's like these
+- [39:14] build outs are are rapidly like sort of
+- [39:16] escalating to
+- [39:18] like Earth shattering amounts of like
+- [39:20] power in one spot right um so you know
+- [39:23] and then and then like obviously the
+- [39:25] like dollars per chip and then the power
+- [39:27] all this these are variables that change
+- [39:29] over time um but yeah the the the build
+- [39:31] outs are are scaling right when you go
+- [39:33] from like 20,000 gpus 400 watts each you
+- [39:36] know that was you know that was like on
+- [39:38] the order of like you know 20 megawatts
+- [39:41] to 2 gaws from 2022 to 2026 27 it's like
+- [39:46] holy crap you just scaled that much
+- [39:49] power totally in you know two orders of
+- [39:51] magnitude in in like five years so if
+- [39:54] we're sitting here at the end of 27 how
+- [39:55] how much money is open a raised
+- [39:58] oh I I think I think it'd be you know
+- [40:01] really difficult to say you know I I
+- [40:03] really do think it would be like north
+- [40:04] of 100 billion right like that's that's
+- [40:07] like yeah like like uh it's it's it's
+- [40:10] pretty clear that they've been trying to
+- [40:12] convince like um all these like
+- [40:14] sovereigns to invest and like they've
+- [40:16] been like passive on getting them but
+- [40:18] like I think like you know you're going
+- [40:19] to see 03 release you'll probably see
+- [40:21] another reasoning model release you
+- [40:22] might see gp5 release it's like how are
+- [40:24] they not going to raise a ton ton more
+- [40:25] money at a ton higher valuation Revenue
+- [40:27] skyrockets right like it's like pretty I
+- [40:29] think I think that's what's going to
+- [40:30] happen um and I think this similar stuff
+- [40:33] obviously open ey will lead the pack but
+- [40:35] like others will also get you know
+- [40:38] similar trajectories happening like
+- [40:40] anthropic xai um you know I think I
+- [40:43] think like yeah the amount of capital
+- [40:44] that will be deployed is going to be
+- [40:46] insane you know on the model side
+- [40:47] obviously we've seen this massive
+- [40:48] scaling of test time compute you know it
+- [40:50] seems to work really well with easily
+- [40:51] verified data you know coding math I
+- [40:53] think there's this big question of like
+- [40:54] what other tasks will fall into these
+- [40:56] test time compute models what's your
+- [40:57] thinking on that so I think I think like
+- [41:00] I really like like when opening I
+- [41:02] released the like five levels thing I
+- [41:03] thought a lot of people were like
+- [41:04] puzzled like what the [ __ ] is you know
+- [41:06] it's like reasoning and then and then
+- [41:08] agents like because everyone's been you
+- [41:09] know the startup ecosystem is like chat
+- [41:12] Bots agents right um and I think that
+- [41:15] it's like I think it makes a lot of
+- [41:17] sense because test time compute like
+- [41:20] you're you're like verifying your
+- [41:21] outputs and you're making sure they're
+- [41:23] accurate right so I think I think like
+- [41:24] and these these like test time compute
+- [41:26] methods right of synthe data generation
+- [41:28] and then throwing away a lot of it and
+- [41:29] verifying it and using it right this is
+- [41:31] where other modalities can come in right
+- [41:34] so like computer use is like kind of
+- [41:37] predicated on all these synthetic data
+- [41:39] uh generation pipelines and test time
+- [41:40] compute working agents are all
+- [41:42] predicated on like the reliability of a
+- [41:44] model getting high enough to where you
+- [41:46] can actually like you know get the
+- [41:48] answer reliability and chain multiple
+- [41:50] together right and it's like these
+- [41:52] different paradigms I think will stack
+- [41:53] together right like it's like you can't
+- [41:55] do computer use without test time
+- [41:56] computer you can't do um agents without
+- [41:59] test time compute and uh when you
+- [42:02] combine test time you know computer use
+- [42:04] agents it's like oh wow you know it's
+- [42:06] like this now it's like autonomously
+- [42:07] working on the computer without even
+- [42:09] like you know having to like manually
+- [42:11] code in all the apis that's it's
+- [42:12] accessing and all this right it's like I
+- [42:13] think like what tasks it can do will
+- [42:15] like bro Branch out drastically once you
+- [42:18] get the core of like reasoning like sort
+- [42:20] of not solved but like at a really
+- [42:23] strong point um and the pipelines for
+- [42:25] doing all this stuff right um and so I
+- [42:27] think that's probably now like what kind
+- [42:29] of use cases that is is like I think
+- [42:31] it's like whatever you know SAS business
+- [42:33] mod of course like coding is great but
+- [42:35] it's like what about software
+- [42:35] engineering right because coding is very
+- [42:37] different than software engineering um
+- [42:40] you know it's like it's like customer
+- [42:41] service like great chat Bots do that
+- [42:42] kind of but like not great right like oh
+- [42:45] searching through documentation right
+- [42:47] like rag is okay but like actually you
+- [42:49] need to like rag is really bad because
+- [42:51] there's no way to verify that you
+- [42:52] properly pulled in the right stuff right
+- [42:54] your retrieval actually worked um people
+- [42:57] can be like oh our retrieval is really
+- [42:58] accurate but it's still like not
+- [42:59] accurate enough for an agent um and so
+- [43:02] like you know when you stack these
+- [43:03] things together I think like any like
+- [43:05] it's really any like information task I
+- [43:08] I don't see why it wouldn't work now
+- [43:09] obviously what what gets done in 25 26
+- [43:12] is very different than what might get
+- [43:13] done in 2030 um I don't know if I'm like
+- [43:16] the best to like say like what specific
+- [43:18] use case though right I think I can just
+- [43:20] see sort of the writing in the wall is
+- [43:21] like clear what about like the open
+- [43:23] source side I mean obviously open source
+- [43:24] models have been relatively quick to
+- [43:26] catch up to you know the through gbt 40
+- [43:29] type level models I think there is a big
+- [43:31] question on on you know with these test
+- [43:33] time compute models even in the
+- [43:34] regulations themselves right I mean I
+- [43:35] think the the way they framed it is like
+- [43:37] you know open source models all fair
+- [43:38] game and there's much more you know
+- [43:39] whatever the open source models uh
+- [43:41] capabilities are is up till then is fine
+- [43:43] and then basically it kind of almost
+- [43:44] assumes there's going to be some massive
+- [43:45] gap between uh between Clos and open
+- [43:48] models that just increases over the next
+- [43:49] few years is that how you seeing things
+- [43:51] too I think I think so I agree right
+- [43:53] like I think meta will release llama 4
+- [43:55] and it'll be better than gbd4 right uh
+- [43:57] you know obviously like you know you can
+- [43:59] say open source models have closed the
+- [44:00] Gap but it's like does anyone have a
+- [44:02] voice mode right does anyone have like
+- [44:04] um quite the level of inference cost
+- [44:06] that anthropic and open I do no not
+- [44:08] really because their models are are
+- [44:10] really efficient right um 40 is like
+- [44:12] much smaller than llama 405b in terms of
+- [44:15] active parameters right like way smaller
+- [44:17] so it's like you know there is still
+- [44:18] like open models are are behind uh maybe
+- [44:21] not in capabilities entirely but in some
+- [44:23] ways I think what actually like um ends
+- [44:26] up happening is that
+- [44:28] like reasoning models are not
+- [44:32] necessarily going to be fully open
+- [44:35] sourced uh even like you know like you
+- [44:37] see the Deep seek model you see open
+- [44:39] eyes model right meta will release
+- [44:40] better models as long as they think it
+- [44:41] makes sense to but will they only
+- [44:43] release chat and completion models or
+- [44:46] you know internally they have a their
+- [44:47] own code model that like is trained on
+- [44:49] their own code database in in addition
+- [44:51] to all the stuff in llama and it's like
+- [44:52] well that's not being released and that
+- [44:54] one's far more capable right at least at
+- [44:56] coding right it's like um so there's
+- [44:58] like things like this that like I think
+- [45:01] it point to like okay meta is not going
+- [45:02] to just open source everything right
+- [45:04] right I don't think that necessarily
+- [45:06] like means that like you're putting
+- [45:08] together the reasoning system right or
+- [45:10] the agent system right it might mean
+- [45:12] here's the based weights congrats we
+- [45:14] didn't do any of the reasoning training
+- [45:15] or like here's the instruct model or
+- [45:17] maybe we even do some reasoning right
+- [45:19] but it's like we're
+- [45:21] we're I guarantee you if meta has the
+- [45:23] best model in the world they will not
+- [45:24] open source it yeah like that's like I
+- [45:26] would would guess can they be like you
+- [45:28] know can it feel like hey they're 69
+- [45:29] months behind with a reasoning model
+- [45:31] like you know when when uh will there be
+- [45:33] like an open source equivalent to 03 in
+- [45:35] six nine months yeah I mean that's
+- [45:37] that's a great question I'm not I'm not
+- [45:39] exactly sure um I don't think so
+- [45:41] actually yeah um I think like 03 like
+- [45:44] especially depending on like what level
+- [45:45] of like compute you throw at it right
+- [45:47] like if you looked at the arc challenge
+- [45:49] like seems unlikely to me yeah um but at
+- [45:52] the same time Google's already got a
+- [45:53] reasoning model anthropic allegedly has
+- [45:55] one internally that's like really good
+- [45:57] better than 03 even but you know we'll
+- [45:58] see um when they eventually release it
+- [46:00] like it's like what actually ends up
+- [46:03] happening is going to be very feels like
+- [46:05] the whole question is like how much
+- [46:06] capex is meta willing to spend to you
+- [46:08] know to keep up with these I mean I
+- [46:09] think I think they'll keep up on compute
+- [46:10] it's like the science is hard too right
+- [46:12] it's not just like you know you know
+- [46:14] some level of compute I mean the numbers
+- [46:16] you're counting if opening eye by the
+- [46:17] end of 27 is raised hundred billion doll
+- [46:19] um that's a lot of money to put toward
+- [46:21] uh free open source models yeah I mean
+- [46:23] like but like most of like to be clear
+- [46:25] most of meta's GP purchases are for like
+- [46:27] like recommendation systems on Instagram
+- [46:30] right like it's like you can say like
+- [46:33] Zuck can be like oh hey I bought this
+- [46:34] many gpus on like some stream or
+- [46:36] whatever but then when you dig into it
+- [46:38] it's like well more than half of those
+- [46:39] are like for recommendation systems like
+- [46:41] chill like they're not like you know
+- [46:42] you're not spending $30 billion on llm
+- [46:46] infra infra or or Transformers you're
+- [46:48] doing this on like all your products
+- [46:50] right um I think I think yeah I just
+- [46:52] think metal won't open source like
+- [46:55] everything they do right um and I think
+- [46:57] that
+- [46:58] like llama 4 will be open sourced but
+- [47:01] like the moment that they have something
+- [47:04] at such a capability level I don't see
+- [47:07] why like they would open source it
+- [47:09] because they get benefit from they get
+- [47:11] to attract a lot of talent they get to
+- [47:13] have the whole Community tell them what
+- [47:14] they're doing wrong with their models
+- [47:15] right like you look at llama 2 llama
+- [47:16] three people are like oh yeah you're
+- [47:18] doing your um your your RL wrong these
+- [47:21] ways right you're like lobotomizing the
+- [47:23] model in these ways and people are like
+- [47:24] and meta is learning from that right
+- [47:25] you're like I think and they're
+- [47:27] attracting all this talent that you know
+- [47:30] if they have the best model they're not
+- [47:31] going to do that if they're like six to
+- [47:32] nine months behind um maybe they're six
+- [47:35] to nine mons behind on capabilities but
+- [47:37] then the cost is way higher for
+- [47:38] inference or maybe cost is the same on
+- [47:40] inference but their capabilities are
+- [47:41] worse right and it's like um if you look
+- [47:44] at any specific benchmark it's like oh
+- [47:46] five percentage points great but it's
+- [47:47] like those benchmarks that are in the
+- [47:49] 70s and 80s are irrelevant it's about
+- [47:51] like oh you're like 10% on this
+- [47:53] Benchmark versus 50% right and like when
+- [47:55] you look at like the like like sweep
+- [47:56] bench and like things like that it's
+- [47:58] like delas are getting really big yeah
+- [47:59] the Deltas are really large right or
+- [48:01] like Arc right it's like oh yeah yeah
+- [48:03] there's only like two models that like
+- [48:05] even score you know any reasonable
+- [48:07] amount right it's like the these are the
+- [48:08] sort of things that I think matter it's
+- [48:09] like can you do a task or not versus
+- [48:12] like oh yeah it's 5% better at this task
+- [48:14] as you think about like the broader you
+- [48:15] know uh all the kind of big questions
+- [48:17] you're thinking about I'm wondering if
+- [48:18] there's like you know a set of two to
+- [48:20] three questions that are like most if
+- [48:22] you could just like Zoom forward two
+- [48:23] three years and get the answer to them
+- [48:25] uh you know I assume one of will be the
+- [48:27] performance of these models on the
+- [48:28] 100,000 you know GPU clusters but like
+- [48:30] what else is uh do you feel like are the
+- [48:32] big questions that if you could flip you
+- [48:34] know if you had a time machine go
+- [48:35] forward to two three years uh you'd most
+- [48:37] want to know the answer too I think a
+- [48:39] lot of it would be like how they do
+- [48:40] stuff right in the model level right um
+- [48:43] because there are a lot of outstanding
+- [48:44] questions on like with model development
+- [48:46] how that changes Hardware development
+- [48:48] like how that changes networking
+- [48:49] development like how that changes data
+- [48:51] center build outs do you need all the
+- [48:52] data centers to be right next to each
+- [48:53] other do you need them to be can they be
+- [48:55] geographically spread what level of BWI
+- [48:57] do you need between them what model you
+- [48:59] know research stuff comes out right like
+- [49:01] if you year ago you explained reasoning
+- [49:03] and test time compute and how that works
+- [49:05] to me I think like that would have been
+- [49:07] huge right right but like I didn't know
+- [49:08] that was even the question to ask right
+- [49:10] like okay I knew synthetic data was a
+- [49:11] thing but I didn't think it was like
+- [49:12] that huge of a deal right it was a big
+- [49:14] deal but not like that was more for like
+- [49:15] distilling stuff right um but it's not
+- [49:17] right there's a lot of other use cases
+- [49:18] so it's like I don't even know what
+- [49:20] question on the model side is like the
+- [49:22] important one right like what really
+- [49:24] gets agents to work reliably and well
+- [49:26] right what what is the trick that gets
+- [49:28] computer use models because anthropics
+- [49:29] computer use model today sucks right but
+- [49:31] like I mean it at least is something
+- [49:33] right no one else has something um but
+- [49:35] now that you have something it's clear
+- [49:36] to see like how you can like climb up
+- [49:37] and be like oh this is good so what what
+- [49:39] are the tricks that people figure out
+- [49:41] and how does that impact right like what
+- [49:43] is the average like when you're doing
+- [49:44] inference like what is the average
+- [49:46] sequence length now right like is reason
+- [49:48] what's like what's reasoning or what's
+- [49:50] like test time compute in terms of like
+- [49:52] search look like right like these are
+- [49:53] questions that like I don't even know
+- [49:54] what the answer would be um and I know I
+- [49:57] guess I'm definitely not smart enough to
+- [49:58] know what question to ask in two years
+- [50:00] like besides like what is the secret
+- [50:02] what is the biggest development right
+- [50:03] like it's like ah with this development
+- [50:05] I guess of of uh you know more compute
+- [50:07] being used to create synthetic data and
+- [50:08] an difference like you know that
+- [50:10] obviously has massive implications on
+- [50:11] the data center Hardware side it feels
+- [50:13] like we might be able to get to
+- [50:14] potentially more like for example right
+- [50:16] like when you're doing synthetic data
+- [50:18] generation you're you're verifying which
+- [50:20] reasoning chains that you've generated
+- [50:21] are good you're throwing away a bunch of
+- [50:23] them and then you're training on them
+- [50:24] and you're grading them with all these
+- [50:25] reward models and and you're training on
+- [50:27] them like how much of this is online
+- [50:29] versus offline right can you fully
+- [50:31] separate the synthetic data generation
+- [50:33] from the post trining like RL with all
+- [50:36] the reward models no you can't because
+- [50:37] you need to update the model that's
+- [50:38] generating the reasoning data constantly
+- [50:41] but then like how often do you need to
+- [50:42] update it can you can you do you need to
+- [50:44] update it every 30 seconds right like if
+- [50:47] you look at like training of llama I
+- [50:48] think I think the weight the gradients
+- [50:50] got updated every 15 seconds right and
+- [50:52] it took a few seconds and then you're
+- [50:53] training for like 10 seconds or 15
+- [50:55] seconds whatever right it's like oh okay
+- [50:57] you're spending this much time in
+- [50:58] network versus compute like I can like
+- [50:59] think about why how you need to design
+- [51:01] your network now um but what what is it
+- [51:03] what is that ratio what ises that mean
+- [51:05] on reasoning like when you're generating
+- [51:07] that data uh how much how much time does
+- [51:09] it like how much time are you generating
+- [51:11] data and then doing post training and
+- [51:13] then before you update the way model and
+- [51:15] send it back to the data generation
+- [51:16] nodes to do it again and Grading their
+- [51:18] outputs like this stuff like it's kind
+- [51:21] of unknown to me um and probably unknown
+- [51:24] to anyone besides like open ey anthropic
+- [51:26] and SSI
+- [51:27] like what is like actually the future
+- [51:29] and what is what matters there what can
+- [51:31] you like how would you design a cluster
+- [51:34] to do to to accommodate that or how
+- [51:36] would you design your network or can you
+- [51:38] be not collocated right maybe maybe just
+- [51:40] really really good fiber layouts between
+- [51:42] these two data centers is good enough or
+- [51:44] uh maybe they do need to be collocated
+- [51:46] with super high B right like these are
+- [51:47] sort of questions that like I don't know
+- [51:48] right the Paradigm exists but like
+- [51:51] there's so many details totally no I
+- [51:53] mean I think it and it obviously has
+- [51:54] implications I feel like you must get
+- [51:55] asked all the time and I think you
+- [51:57] you've talked about very publicly on
+- [51:58] other podcasts you know I'm sure people
+- [51:59] are like well Nvidia like you know paint
+- [52:01] the likeliest picture where they lose or
+- [52:03] you know what are like the actual uh you
+- [52:04] know long-term modes here and I know
+- [52:06] you've talked about obviously the
+- [52:07] hardware software networking side of
+- [52:08] things I'm sure you've seen a bunch of
+- [52:10] Hardware startups um and folks going
+- [52:11] after different parts of it what what of
+- [52:13] that is like most interesting to you um
+- [52:16] I think I think like there's there's a
+- [52:18] couple classes right there's the old AI
+- [52:19] Hardware startups right cerebrus Gro and
+- [52:22] manova tens torrent right quote unquote
+- [52:25] old right they've been around for a
+- [52:26] while and then there's a new age of them
+- [52:28] right like um there's there's like you
+- [52:31] know etched and positron and madx and
+- [52:35] you know there's a number of other ones
+- [52:36] there's a couple that are like some
+- [52:37] pretty high-profile ones that are I
+- [52:39] think still under stealth so I won't say
+- [52:40] anything um but there's quite a few AI
+- [52:42] Hardware startups and their approaches
+- [52:44] are quite different the way they think
+- [52:46] is very different the what they're
+- [52:47] focusing on is very different like each
+- [52:49] each hardware company has a quote
+- [52:51] unquote a gimmick right because like
+- [52:53] you're you're you're just not going to
+- [52:54] beat Nvidia by engineering better than
+- [52:56] them on all axes and doing this doing
+- [52:58] stuff the same way so you have to do
+- [52:59] things like quite differently um
+- [53:01] meanwhile Nvidia every generation is
+- [53:03] like making you know large enough
+- [53:05] changes to their architecture so it's
+- [53:07] like not necessarily like the same but
+- [53:10] you know they're making large enough
+- [53:11] changes to their
+- [53:12] infrastructure um and so you know the
+- [53:16] question is whether or not like you know
+- [53:19] what what are the like quote unquote
+- [53:20] gimmicks people are doing how are they
+- [53:22] solving them and or do those give them
+- [53:24] like does that differentiate them enough
+- [53:26] and then at the same time you have the
+- [53:28] like big problem of like all the models
+- [53:30] are being developed on Nvidia Hardware
+- [53:32] um cognizant of what's going to happen
+- [53:34] and with the with the drawbacks and
+- [53:35] benefits of what Nvidia Hardware does
+- [53:37] and what's the next generation one going
+- [53:39] to do and so like all the model research
+- [53:41] ideas like hey this research idea would
+- [53:43] work but it's like if it runs really
+- [53:45] inefficiently on gpus I'm not going to
+- [53:47] pursue it because I don't actually care
+- [53:49] about like how many operations I did I
+- [53:50] care about how much time it took right
+- [53:52] and if like even though that is
+- [53:54] theoretically 10x less operations but it
+- [53:56] 10x longer because it's just a algorithm
+- [53:58] that doesn't work well on gpus and all
+- [54:00] of a sudden it's like all of a sudden
+- [54:02] it's like this is not worthwhile
+- [54:04] pursuing yeah so the entire research
+- [54:05] landscape is yeah like it it Inu like
+- [54:08] nvidia's dominance influences where
+- [54:09] research goes right and so like you have
+- [54:11] to be different but you can't be too
+- [54:13] different because then you're like you
+- [54:14] know like well then models didn't
+- [54:16] develop the way I I wanted them to and
+- [54:18] now I'm so right like could you have a
+- [54:20] model that's like extremely you know far
+- [54:23] fewer parameters but needs way more
+- [54:25] bandwidth and you know could run all
+- [54:27] entirely on chip potentially but like
+- [54:29] how are you going to train that model
+- [54:30] right and it's like well I'm going to
+- [54:31] train it with Nvidia gpus which doesn't
+- [54:33] make sense because I can do something
+- [54:34] better and how am I going to deploy it
+- [54:35] well I'd rather deploy have it be able
+- [54:37] to be deployed on all the gpus I've
+- [54:38] already bought right um so it's like you
+- [54:41] know you've got the Chicken and the Egg
+- [54:42] kind of problem too um I think like some
+- [54:45] people are explicitly targeting like
+- [54:47] inference and like training and like
+- [54:49] that'll be interesting because um when
+- [54:52] you talk to like you know Nvidia you
+- [54:55] talk to the chip teams at various
+- [54:57] hyperscalers like the TPU or tranium or
+- [55:00] you know Etc right like these various
+- [55:02] like one of the labs has an AI chip team
+- [55:04] like all these companies all these
+- [55:05] people believe that training chips are
+- [55:07] inference chips which is very funny um
+- [55:10] and I think it's because like they they
+- [55:11] see the flexibility they see like the
+- [55:12] workload changing it's like so like does
+- [55:14] an inference chip like what does it
+- [55:16] materially mean because there are a few
+- [55:17] of those in works right um by the time
+- [55:21] you get your chip out maybe you
+- [55:22] projected a 5x cost difference or 10x
+- [55:24] cost difference versus Hopper they
+- [55:26] capture it but now like Blackwell
+- [55:28] nvidia's pitching 10 to 15x Improvement
+- [55:30] in cost it's like well you know they're
+- [55:31] massaging the numbers marketing actually
+- [55:33] I think they said 30X in their GTC but
+- [55:35] like you know massaging the numbers 10x
+- [55:37] 15x even is like probably could be like
+- [55:39] reasonable or not um depends on the
+- [55:41] workload standard chat inference it's
+- [55:43] probably not that but for like uh for
+- [55:46] mediumsized and small models but for
+- [55:47] like really really large models or
+- [55:49] reasoning models it's actually I do
+- [55:50] think it's going to be like 105x um so
+- [55:52] it's like oh wow okay so you've captured
+- [55:54] you've like narrowed the Delta massively
+- [55:56] right
+- [55:56] um so that's like a big uh that's a big
+- [56:00] like question also is like so so what is
+- [56:03] interesting is like yeah a lot of these
+- [56:04] companies are taking approaches that are
+- [56:06] super cool right like and the three that
+- [56:09] I mentioned the new age ones like madx
+- [56:11] positron and etched are taking
+- [56:13] approaches that are super cool right and
+- [56:15] could work out uh or models could
+- [56:17] develop in a way that isn't good for
+- [56:19] them right um so that's that's the big
+- [56:22] question right I think you've called
+- [56:23] tranium like the Amazon basics of chips
+- [56:25] and so uh you're obviously the hardware
+- [56:27] Guru but like one thing I've just been
+- [56:29] curious about is like to what extent is
+- [56:30] anthropics use of them like a sacrifice
+- [56:32] versus hey it doesn't really matter um
+- [56:35] yes it's it's the Amazon Basics TPU
+- [56:37] because like its topology of networking
+- [56:39] looks exactly like a TPU and like a lot
+- [56:41] of different design choices they have
+- [56:42] were like this is just like TPU stuff
+- [56:45] right um obviously they're doing a lot
+- [56:47] of their own independent stuff there's a
+- [56:48] lot of unique things um that they've
+- [56:50] implemented like stochastic rounding and
+- [56:53] all these other things but like it's
+- [56:54] like you know these are unique things
+- [56:55] but um
+- [56:56] it is the Amazon Basics TPU right from
+- [56:59] Google right Google TPU um and so like
+- [57:02] because it's like worse but it's cheaper
+- [57:04] and yeah like what now anthropic like
+- [57:06] what is like they barely used tranium
+- [57:08] today right they barely used tranium in
+- [57:09] inferentia uh they've primarily used
+- [57:11] hopper Hopper at Google hopper at Amazon
+- [57:14] um they did use some TPU at Google of
+- [57:15] course um but now this year like it's
+- [57:18] like very clear they've bet all eggs
+- [57:21] into the basket of trainum um how much
+- [57:23] of this is forced right like you know
+- [57:25] how do I do did I need to do this to get
+- [57:27] Amazon to invest in me and like make me
+- [57:29] their partner uh partially yeah Absol
+- [57:33] absolutely right but did I do this out
+- [57:34] of my own volition because it actually
+- [57:36] made sense I think partially yeah
+- [57:38] because like the Amazon Basics TPU gives
+- [57:40] you on some metrics it gives you the
+- [57:43] best uh performance per dollar right and
+- [57:45] those metrics are like memory bandwidth
+- [57:47] and memory capacity per dollar it
+- [57:49] actually has better than any other chip
+- [57:50] in the market including tpus or gpus
+- [57:53] right because like some of the like
+- [57:54] supply chain choices that Amazon CHS
+- [57:56] right um and and things around that
+- [57:59] right so it's like
+- [58:01] what you know I think I I don't think
+- [58:03] it's as simple as like anthropic was
+- [58:05] forced to I think I think like they had
+- [58:07] to weigh the benefits right they're like
+- [58:08] we could partner really closely with
+- [58:10] Amazon we could raise more money from
+- [58:11] them and do this or raise a little less
+- [58:13] money and and like try and get gpus from
+- [58:15] them right it's like they had to partner
+- [58:18] with someone to do the capex of course
+- [58:19] right because the whole like rental
+- [58:21] versus like capex of like the cluster um
+- [58:23] so they definitely had to deal with that
+- [58:24] and then they had to have the
+- [58:25] distribution Channel of Amazon right
+- [58:27] they needed those things um but like I'm
+- [58:30] sure they could have struck a smaller
+- [58:31] deal with Amazon and gotten gpus if they
+- [58:33] really wanted to now was that better or
+- [58:35] was it better to like take more money go
+- [58:37] tranium go all in um you know do like
+- [58:41] try and emphasize your future model
+- [58:43] architecture on the benefits that
+- [58:44] trainum offers you versus gpus because
+- [58:46] there are some right uh majority know
+- [58:48] they're worse right just straight up
+- [58:50] worse but some benefits exist so that's
+- [58:52] the sort of question that uh um you it's
+- [58:55] a good question
+- [58:56] I I I think mostly like it's like hand
+- [58:58] ringing and and a bit of like yeah we
+- [59:00] can engineer our way out of this does it
+- [59:02] make sense for open AI to like build its
+- [59:03] own ship I think it does right I mean
+- [59:05] like it doesn't make sense if you think
+- [59:08] like you know their growth is like
+- [59:10] linear like you know it's going to go
+- [59:12] from like you know you know like what do
+- [59:13] you think open ey's Revenue this year is
+- [59:14] going to be if it's less than1 billion
+- [59:16] and the year after that less than15
+- [59:17] billion should not make a chip right but
+- [59:21] like if you think their revenue this
+- [59:22] year is going to be north of $10 billion
+- [59:24] by by $10 billion I mean run rate um cuz
+- [59:28] we're we're we're at a BC right we don't
+- [59:30] we don't think about things in uh no run
+- [59:31] rate is more important I think it's just
+- [59:32] simply more important right whatever the
+- [59:34] higher one is we'll take yeah exactly
+- [59:36] exactly uh I mean it's like more
+- [59:37] indicative of like what the current
+- [59:38] state of the business is right um so
+- [59:40] like you know if they go like well north
+- [59:43] of $10 billion on run rate and the year
+- [59:44] after that what are they at like north
+- [59:46] of 20 like you know you know the costs
+- [59:49] start to scale rapidly and like it makes
+- [59:50] a ton of sense to make their own chip
+- [59:52] right um and so like you know just
+- [59:55] because they have the chip team doesn't
+- [59:56] mean that like they're not going to you
+- [59:58] know they're not like collaborating
+- [60:00] super closely with Nvidia and working
+- [60:02] with them on New architecture right like
+- [60:03] there's a wall in in open AI like the
+- [60:06] people working on the chip do not get to
+- [60:08] work with Nvidia on what their next
+- [60:09] Generation architecture is right the
+- [60:11] Nvidia is no stranger to this like
+- [60:13] coopertition I mean all of it's major
+- [60:14] customers exactly exactly like meta's
+- [60:16] doing it Google's doing it Amazon's
+- [60:17] doing it right it's like they're used to
+- [60:19] it and their like attitude is very much
+- [60:21] like good luck we're going to crush you
+- [60:24] right like we're just better right and
+- [60:25] like so far that's worked right um and
+- [60:29] and like I think their attitude to open
+- [60:30] AI would be the same um and open ai's
+- [60:33] attitude is always like well you know
+- [60:35] how much you know it's the same as
+- [60:36] hypers SKS right like well if we spend
+- [60:38] like you know few hundred million
+- [60:39] dollars billion dollars a year on this
+- [60:42] um it gives us a call option also we can
+- [60:43] always just use it as a negotiating chip
+- [60:45] right like if if you know I spend a
+- [60:48] billion dollars on my own chips in 26 27
+- [60:51] right uh but then you know the
+- [60:54] alternative is you know and and and and
+- [60:57] I'm not really deploying them in huge
+- [60:58] scales I'm mostly still buying Nvidia
+- [61:00] chips but if I got a 10% discount on
+- [61:02] Nvidia chips it paid for itself yeah and
+- [61:03] it's like did does does tranium help
+- [61:06] Amazon get a 10% discount or a 5%
+- [61:08] discount on $30 billion of GPU purchases
+- [61:11] like okay great it's like worth it right
+- [61:13] and it doesn't even like you could like
+- [61:15] just not do anything with it and it
+- [61:16] would be worth it right like obviously
+- [61:17] it's a game of chicken like Jensen like
+- [61:19] knows how much you're making and all
+- [61:20] these things but yeah I think I think
+- [61:22] that's the big um question and I think I
+- [61:25] think in from my perspective it
+- [61:26] absolutely makes sense even if it's not
+- [61:28] successful yeah um to do this and if
+- [61:31] it's successful it's humous there's this
+- [61:33] whole crop of companies too that that
+- [61:34] popped up like you know the fireworks
+- [61:36] and togethers of the world um you know
+- [61:38] that are they're obviously just you know
+- [61:39] focused on inference optimization today
+- [61:41] and places to run a bunch of models what
+- [61:43] what happens to that market long term I
+- [61:45] think that um Enterprise AI uh is is
+- [61:50] actually got like really decent legs in
+- [61:53] some regards um
+- [61:56] because of all again like all the unique
+- [61:58] data that enterprises have and uh unique
+- [62:00] use cases and you know now that you can
+- [62:02] you Enterprises like to think their data
+- [62:04] is good but now like you most of the
+- [62:06] times it's pretty dirty and garbage
+- [62:08] right like just to be clear uh but now
+- [62:10] like with the synthetic data pipelines
+- [62:11] reasoning all this sort of stuff people
+- [62:12] can actually figure out how to generate
+- [62:14] a bunch of data that's specific to a
+- [62:16] business and verify whether it's good or
+- [62:18] not and then like they can actually
+- [62:19] improve the models and like they can do
+- [62:21] reasoning on a much smaller scale for
+- [62:24] Enterprises I think like this works
+- [62:25] hugely right this is massively good
+- [62:27] right now obviously like fireworks and
+- [62:29] together I think are like there's like
+- [62:31] 20 inference API providers out there
+- [62:33] that are just taking open source models
+- [62:35] and serving them um you obviously name
+- [62:37] the best two in class right two
+- [62:38] companies that like build their own
+- [62:40] inference engine uh are very efficient
+- [62:43] much more efficient than like VM or
+- [62:45] tensor RTM like all of these like sort
+- [62:47] of things um have good go to market all
+- [62:49] these sort of things like you know these
+- [62:50] companies are good I think they will be
+- [62:52] good because they're going to continue
+- [62:54] to be a um you know meta is going to
+- [62:56] open source models B chin will continue
+- [62:58] open source models C Enterprises uh will
+- [63:02] be able to work with people to make um
+- [63:05] better you know reasoning type models
+- [63:06] right now like together helps people
+- [63:08] train models right um and so does data
+- [63:10] breaks and like sort of like all these
+- [63:12] companies like help train models and
+- [63:13] there's many other like sort of services
+- [63:15] or like people can partner with a
+- [63:17] startup to help them make a I feel like
+- [63:18] the whole yeah the whole Mosaic pitch
+- [63:19] was like you know train your own models
+- [63:21] that went out of fashion for a bit
+- [63:22] because the general purpose models were
+- [63:23] just getting better at everything way
+- [63:25] faster than like Bloomberg GPT was but
+- [63:27] now with these reasoning chains and then
+- [63:28] need to kind of verify this he actually
+- [63:29] might be back in that world yeah yeah I
+- [63:31] think I think like Mosaic really lost
+- [63:33] its kind of and data Works kind of lost
+- [63:34] its footing for a bit um it'll be really
+- [63:36] interesting to see if they can get RL
+- [63:38] and reasoning to work because I think
+- [63:40] that like you know if like and I'm sure
+- [63:42] I'm sure Alia D BRS kind of knows this
+- [63:43] is like you know this is the thing that
+- [63:45] like would make training for your
+- [63:48] customers make sense again and maybe not
+- [63:49] pre-training right because that's what
+- [63:51] Mosaic was doing Mosaic was doing really
+- [63:53] really good pre-training you know they
+- [63:54] had the best model in the world twice
+- [63:56] two different instances open source
+- [63:57] model for for short periods of time but
+- [63:59] they had the best model in the world for
+- [64:00] short periods of time twice like once
+- [64:02] with the m MPT and then once with dbrx
+- [64:05] um but the you know like they've kind of
+- [64:09] fallen off because it's like well I
+- [64:10] can't really compete and spend the capex
+- [64:11] that meta is right um or or you know
+- [64:14] even like Alibaba right um so but now
+- [64:17] again right it's like I take the open
+- [64:19] source pre-trained model I generate all
+- [64:21] these pipelines for reasoning synthetic
+- [64:22] data and my customers data again like
+- [64:26] you know it kind of sucks but like you
+- [64:27] know now I can like verify it in some
+- [64:29] way figure out the recipe and like
+- [64:31] actually apply it to everyone's business
+- [64:32] use cases I think that is that is like
+- [64:35] potentially and and and these people
+- [64:36] need to serve models right so it's not
+- [64:37] just like data bricks Mosaic ml that's
+- [64:39] going to do this but like everyone's
+- [64:40] going to do this there going to be
+- [64:41] startups that do this as a service um
+- [64:43] like uh like adaptive ml like they're
+- [64:46] going to do this as a service and
+- [64:47] they've actually been doing it as a
+- [64:48] service um for like a year now um which
+- [64:50] is like really cool like these these
+- [64:52] people can partner with Enterprises they
+- [64:54] can do white glove services can do
+- [64:56] consulting services like whatever it is
+- [64:57] help them build models that like are
+- [65:00] uniquely uh you know unique use cases
+- [65:03] for this stuff right um and then and
+- [65:05] then like those will need to be deployed
+- [65:07] right or companies will want to do it on
+- [65:08] their own right there's always going to
+- [65:10] be and there's always going to be like
+- [65:11] security stuff like so I think I think
+- [65:13] like together and and fireworks will be
+- [65:16] like the partner of choice for inference
+- [65:18] of these models right even if it's not
+- [65:20] necessarily on their gpus it's like let
+- [65:22] let me you know do a virtual private
+- [65:24] Cloud on Amazon with your software uh
+- [65:27] running the model right because you've
+- [65:28] built all these like variable batching
+- [65:30] and all these like various things and
+- [65:31] it's way more efficient right than like
+- [65:33] the public software I'm G to ask like a
+- [65:34] very basic question about cor weave uh
+- [65:36] just uh for for my own edification um
+- [65:39] and that's just like what made them so
+- [65:41] successful I mean from the outside
+- [65:43] sometimes it feels like there was this
+- [65:45] decision from Jensen to allocate gpus
+- [65:46] among a bunch of players they were kind
+- [65:48] of rewarded in that um and I think it
+- [65:51] kind of goes to and you're an expert on
+- [65:52] this like the extent to which some of
+- [65:54] these mini clouds can differentiate
+- [65:55] Beyond like just access to the gpus
+- [65:57] which it felt like in the first bit was
+- [65:58] was one of the big things so I think I
+- [66:00] think like part of it is
+- [66:03] um I think I think it's there's three
+- [66:05] factors right one is the allocation bit
+- [66:07] right like Jensen is no idiot his
+- [66:09] customers are all trying to build chips
+- [66:11] um they also rent most of the gips to
+- [66:13] other people you want to have more
+- [66:15] competition right so let me spark
+- [66:17] competition let me do a small investment
+- [66:18] in like four different clouds I think
+- [66:19] they've invested in four different
+- [66:20] clouds so far um and and they haven't
+- [66:22] been large Investments they've been
+- [66:23] pretty small um but like sort of giv
+- [66:26] other people confidence like oh yeah
+- [66:27] they're going to get allocation right
+- [66:28] and then those gpus are allocated there
+- [66:30] world's so tight in gpus they're able to
+- [66:31] rent them for a lot of money make money
+- [66:33] and get the engine going on a on a on a
+- [66:35] cloud right so cor weave now has like
+- [66:37] 200k plus gpus right like a lot of gpus
+- [66:39] right they're doing like you know
+- [66:41] billions of dollars of Revenue right
+- [66:43] like it's not not mundane business now
+- [66:45] right um and so and you know they're
+- [66:48] worth like whatever like 20 billion
+- [66:49] dollars or something like I think on the
+- [66:51] last round whatever right and and
+- [66:52] they're going to go public this year
+- [66:53] probably at like more than that right
+- [66:54] well more than that it's like this is a
+- [66:56] real business now right um how do they
+- [66:59] differentiate right like one is yeah
+- [67:00] they still continue to have access
+- [67:02] newest generation they're still going to
+- [67:03] have access they're still gonna you know
+- [67:05] maybe Google gets for every you know 10
+- [67:08] that Microsoft gets cor maybe in the
+- [67:10] beginning can get three now at some
+- [67:12] point you know the production capacity
+- [67:13] is not 13 the production capacity is 100
+- [67:16] and you know again I'm just pretending
+- [67:17] there's only two people now you know
+- [67:18] Microsoft gets 90 and cor only gets you
+- [67:21] know three right so now it's you know 93
+- [67:23] right whatever right like you know like
+- [67:25] the this but like at the beginning is of
+- [67:27] of a new gpu's useful life you know it
+- [67:29] is worth the most because at that time
+- [67:31] you can rent it for way more and then
+- [67:32] over time it Narrows as more and more
+- [67:35] competitors enter the market and there's
+- [67:36] more and more of them um that's one two
+- [67:39] is the speed of build outs right
+- [67:41] like uh Microsoft's data center
+- [67:44] organization and rack and all these
+- [67:46] things like server organization same
+- [67:47] with Amazon um they're custom there are
+- [67:50] like tens of thousands of people they've
+- [67:52] always been used to modifying servers
+- [67:54] customizing them to squeeze every pen
+- [67:55] out right um and and and in the era of
+- [67:58] like GPU Compu it's like well what if I
+- [68:00] just do what Jensen says right like I
+- [68:02] build you know I might make some tweaks
+- [68:03] I might put a little bit less memory I
+- [68:05] might change the storage around I might
+- [68:06] change the network a little bit slightly
+- [68:07] but like in general what if I just take
+- [68:08] the reference design and like modify it
+- [68:10] a little bit um now I am paying a little
+- [68:13] bit more right not you know that that
+- [68:15] but then I have the like time to market
+- [68:17] right like the moment the GPU is being
+- [68:19] produced by tsmc it's packaged it can go
+- [68:21] to the server maker reference design is
+- [68:23] ready to ship to me right whereas like
+- [68:25] Amazon you know especially Amazon their
+- [68:27] Blackwell rollouts are much later than
+- [68:30] many of the other uh players because
+- [68:32] they have to do all this customization
+- [68:33] yeah right um and and then like lastly
+- [68:36] like sort of there's like um I think I
+- [68:38] think the other aspect is Data Center
+- [68:40] capacity right we talked about this ESG
+- [68:41] stuff corewave gives like they're very
+- [68:44] they've been very aggressive always on
+- [68:45] like renting gpus getting credit at like
+- [68:48] what what at the time seem like crazy
+- [68:50] terms like like double digit loans like
+- [68:52] what the flip to deploy gpus was the
+- [68:54] right decision right now they're they're
+- [68:56] established and so their loans are
+- [68:57] single digits again right like you know
+- [68:58] higher higher single digits but it's
+- [69:00] like um getting data centers is very
+- [69:03] hard and they've been very very creative
+- [69:04] initially they were just like getting
+- [69:06] anything and everything um that capacity
+- [69:08] all dried out and the hyperscalers woke
+- [69:10] up and they went to try and get
+- [69:11] everything and everything but then Corby
+- [69:13] started going to crypto companies right
+- [69:15] like um you know they went to a couple
+- [69:17] different crypto companies um offered to
+- [69:19] buy one of them out offered to you know
+- [69:21] and then eventually like just like
+- [69:22] struck a deal where they're retrofitting
+- [69:23] all their data centers like yeah throw
+- [69:25] crypto crap away I'm going to convert
+- [69:26] your your thing into a data center right
+- [69:29] and one of these crypto data centers has
+- [69:30] a like a 200 megawatt uh natural gas
+- [69:33] plant in the middle of like seven
+- [69:36] buildings right and each of these
+- [69:37] buildings is a data center so there they
+- [69:39] simultaneous and it's like a natural gas
+- [69:41] plant it's like like meta what they're
+- [69:42] doing is like okay the gas plant is like
+- [69:45] 30 miles away and I I I struck a deal
+- [69:47] with this solar power company that's
+- [69:49] putting you know tons of solar panels
+- [69:51] like you know in a similar distance away
+- [69:53] but I'm not necessarily consuming as so
+- [69:55] it's not clean right um in the case of
+- [69:58] like cor it's like no no no I don't care
+- [70:00] right like the power is here like right
+- [70:03] on site I'm converting this to crypto
+- [70:04] data these crypto data centers to real
+- [70:06] data centers there's a metric called pee
+- [70:08] power usage Effectiveness is basically
+- [70:10] how much power are you pulling uh from
+- [70:12] like the grid power generation versus
+- [70:15] how much are the chips consuming right
+- [70:17] and so or like the servers right and so
+- [70:19] like the ratio that like hyperscalers
+- [70:21] try to design to is like 1.1 right only
+- [70:24] 10% of the power is lost in transmission
+- [70:26] and cooling right but like this crypto
+- [70:28] data center once they convert it because
+- [70:30] it's like a really like really dumb
+- [70:32] design because the crypto people didn't
+- [70:33] know how to build the data center
+- [70:34] properly right um even though it's being
+- [70:35] retrofitted it's still going to be like
+- [70:37] 1.4 so it's like you go from 1.1 to 1.4
+- [70:40] it's like oh if it's consuming 200
+- [70:42] megawatts um what was 20 megawatts of
+- [70:46] power being burned uh on Cooling and and
+- [70:48] electrical transmission and and
+- [70:50] conversion now is like 50 right 60 70
+- [70:54] right and it's like okay this is a lot
+- [70:56] of inefficiency but it's like screw it
+- [70:58] we need gpus now it was worth it I iess
+- [71:00] yeah the inefficiency both on the
+- [71:01] financing side on the uh on the power
+- [71:03] conversion side and then and then they
+- [71:04] do like certain things like really
+- [71:05] efficiently like they're just a small
+- [71:06] organization that's well-run yeah right
+- [71:09] and their
+- [71:10] software there's their Cloud software
+- [71:12] for GPU rental is literally better than
+- [71:14] Amazon's and Google's yeah um it's it's
+- [71:17] actually hilarious we'll have a piece
+- [71:18] about what makes it better um just the
+- [71:20] way they do their manage services the
+- [71:21] way they manage their Network um the way
+- [71:24] they do storage like there's a number of
+- [71:26] things here that are just like
+- [71:27] objectively better with cor weef um and
+- [71:29] it's like what um how did you guys build
+- [71:34] lose to that game but it's like it's
+- [71:35] like well you have this Legacy and you
+- [71:37] know innovator dilemma and you don't
+- [71:38] build a brand new thing that's purpose
+- [71:40] built you like morph and you have all
+- [71:42] these like weird requirements for random
+- [71:44] customers like random defense company
+- [71:46] you also need to make sure your gpus are
+- [71:47] rentable to them or like you know and
+- [71:49] it's like cor is like well let's like
+- [71:51] they're starting the problem a new and
+- [71:53] they have a brand new Team Clean Slate
+- [71:54] really good engineer and they're
+- [71:55] building what needs to be built purpose
+- [71:57] built for this business right and they
+- [72:00] don't have like a team of like 2,000
+- [72:02] people who work on storage architecture
+- [72:04] that used that used to be primarily
+- [72:06] targeted for thesea this use case and
+- [72:08] accelerators are different right like
+- [72:09] what you need an AI not exactly
+- [72:11] analogous it's similar right like you
+- [72:13] know but they're trying to morph this
+- [72:14] massive code base to that rather than
+- [72:16] like ground up build something new right
+- [72:18] and it's like this is the the case for
+- [72:20] every startup in the AI world yeah like
+- [72:22] I think I think like there is innovators
+- [72:23] dilemma with the big companies yeah what
+- [72:25] are like I mean you obviously must get
+- [72:27] see all sort kind of interesting
+- [72:28] investment plays on this massive
+- [72:30] Hardware build that going on there's the
+- [72:31] obvious stuff there's data centers
+- [72:32] liquid cooling any like second or third
+- [72:34] order effects you've seen where you're
+- [72:35] like that's a clever way to play the uh
+- [72:37] the massive data center buildout yeah I
+- [72:40] think like I mean like some of the stuff
+- [72:41] is like uh yesterday I had like an
+- [72:44] hourong discussion with a guy who's
+- [72:46] building a data center in Armenia
+- [72:48] because there's a nuclear power plant
+- [72:49] there it's like great this is like
+- [72:51] awesome and he's like doing a venture
+- [72:52] fund he he has a venture Fund in New
+- [72:54] York but he's kind of just like screw it
+- [72:57] I'm going to work on this pretty much
+- [72:59] it's like oh this is awesome right like
+- [73:00] it's like you know there's silly stuff
+- [73:01] like that not silly like it could work
+- [73:03] right um although the regulation's kind
+- [73:04] of screw in I talk about that um but
+- [73:06] like I think like a lot of like
+- [73:08] interesting plays around networking and
+- [73:10] Optics right there's a lot of stuff
+- [73:12] going on in networking and Optics which
+- [73:13] is like a big bottleneck um especially
+- [73:16] as we continue to scale the density of
+- [73:18] gpus um and the uh you know the the
+- [73:22] amount of data that needs to be
+- [73:23] communicated between gpus as model model
+- [73:25] get a larger and B the context length
+- [73:27] get longer and longer because of
+- [73:28] reasoning um you know this is sort of
+- [73:31] like and search like all these things
+- [73:32] require like more interconnected gpus um
+- [73:35] I would say that there's a lot of
+- [73:37] interesting stuff around like
+- [73:39] Transformers right I told you they're
+- [73:40] sold out for like four years well like
+- [73:42] there's all sorts of interesting
+- [73:43] startups working on like solid state
+- [73:44] Transformers and like partially solid
+- [73:46] state Transformers and like all sorts of
+- [73:48] like Hardware stuff that's like sexy
+- [73:50] right like there's like there's like
+- [73:51] funny stuff there's like cool companies
+- [73:53] on like carbon sequestration because yes
+- [73:55] meta and Microsoft meta especially and X
+- [73:57] have like said like screw the
+- [73:58] environment right like not screw the
+- [73:59] environment but like we're going to
+- [74:00] build AI as fast as we can you know like
+- [74:03] they're at some point going to be like
+- [74:04] yeah let's be greaten again right and
+- [74:06] it's like carbon sequestration stuff is
+- [74:07] like in in a wrapped up in a data center
+- [74:09] play is like actually pretty interesting
+- [74:11] right it's like there's all sorts of
+- [74:13] like you know like interesting stuff
+- [74:15] around you know storage what companies
+- [74:17] are doing there uh because video models
+- [74:20] are going to require a lot of like
+- [74:21] interesting work there right like it's
+- [74:23] like you know purpose-built solutions
+- [74:24] for the plethora and sea of innovation
+- [74:26] that's happening um and targeting all
+- [74:28] these things I think if you look at
+- [74:29] every layer of the stack there's more
+- [74:31] Innovation happening today um you know
+- [74:34] not just in each stack but also like
+- [74:36] bridging multiple layers of the stack uh
+- [74:38] to like come up with like a huge
+- [74:40] Improvement um some of that is happening
+- [74:41] at the big companies some of happening
+- [74:43] at startups I think you know some of
+- [74:44] these startups will get acquired by
+- [74:45] bigger companies some will actually like
+- [74:46] find a product Market fit right like um
+- [74:48] I think some of them well license
+- [74:50] technology like whatever it is I think
+- [74:52] there's a lot of like Hardware
+- [74:53] technologies that are interesting and
+- [74:54] then I think the really like fun area is
+- [74:58] software infra yeah right so software
+- [75:00] infrastructure is like also getting very
+- [75:02] diverse um because not everyone can just
+- [75:06] build their own stack I think that where
+- [75:08] where people are like very in tune with
+- [75:10] the hardware understand how to Mak
+- [75:12] things run fast um also in tune with
+- [75:14] what's going on with models um and like
+- [75:16] bringing you know you bring your data
+- [75:17] and all your capabilities and I bring
+- [75:19] you something that lets you build and
+- [75:21] serve your actual use case right so this
+- [75:23] is software infra is not you know was
+- [75:25] not always sexy it was always like you
+- [75:27] know SAS was more sexy or like you know
+- [75:29] like um and or like you know some sort
+- [75:32] of like I mean I guess software infra is
+- [75:35] to some extent uh SAS but not really um
+- [75:38] I think these are the sort of the
+- [75:39] businesses where there's a lot of
+- [75:40] innovation happening as well infr layer
+- [75:41] has just been so hard to invest in
+- [75:42] because the models change so quickly
+- [75:44] that any kind of like scaffolding or
+- [75:45] things you're building for this current
+- [75:46] generation of models you're like is that
+- [75:48] relevant and in six this is this is why
+- [75:50] like some companies have like you know
+- [75:52] bet on things that were like further out
+- [75:54] right like like like I mentioned the
+- [75:55] Adaptive right like they were they were
+- [75:57] working on pre they like it's like a few
+- [75:59] french guys who moved to UAE and they
+- [76:00] built the Falcon model in UAE right and
+- [76:02] then they like moved to back to France
+- [76:04] and now they're in New York right but
+- [76:05] like while they were building the Falcon
+- [76:06] model for UAE they were doing
+- [76:07] pre-training they did 180 billion
+- [76:10] parameter model to chill optimal it's
+- [76:11] like fun right it was not like it was a
+- [76:13] good model when it got released it was
+- [76:14] just like you know whatever right like
+- [76:15] llama just came out too right it was
+- [76:17] like it was like really good but it was
+- [76:18] like yeah they're like immediate like
+- [76:19] pre trining doesn't matter right it's
+- [76:20] like we're gonna work on synthetic data
+- [76:22] and reasoning it's like what okay sure
+- [76:25] and then like for for a while I was like
+- [76:27] what are you guys doing like I don't
+- [76:28] know that and then like all of a sudden
+- [76:29] I like oh wait wait this is right like
+- [76:30] so you have to like you saw something
+- [76:32] yeah it's like it's like there's a lot
+- [76:33] of companies that are like doing
+- [76:35] something that may not matter today and
+- [76:38] you just have to like doesn't seem to be
+- [76:40] the focus the popular thing today but
+- [76:42] could be and will be in the future 100%
+- [76:45] what about what do you think of like
+- [76:46] these AI Hardware efforts like folks
+- [76:47] that are using you know AI for chip
+- [76:49] design or you know circuit board layout
+- [76:50] or some of these other things I think
+- [76:52] it's really interesting that YC all of a
+- [76:54] sudden like decided to invest in like 12
+- [76:56] different AI for chip design companies
+- [76:58] all at once uh in in the last few
+- [77:00] batches um a couple of them are cool I
+- [77:02] actually even invested in one of them
+- [77:03] myself personally just to be clear I'm
+- [77:05] not hating on the idea it's just like
+- [77:07] very interesting that this happened um
+- [77:10] but like you know AI chip design is very
+- [77:12] expensive right um it's very difficult
+- [77:15] the number of Engineers working on chip
+- [77:17] design has not grown that meaningfully
+- [77:19] over the last two decades right in the
+- [77:21] in the US like this is the start of like
+- [77:22] every AI app pitch it's like whatever
+- [77:24] insert your profession here is uh
+- [77:26] stagnating in growth right but but the
+- [77:29] output has been dramatically improving
+- [77:31] right and that's because of Eda software
+- [77:32] right electronic design assistant and
+- [77:34] Eda software as much as you can hate on
+- [77:36] it as much as you can say it's like old
+- [77:37] shitty software it's actually really
+- [77:39] awesome because it's like the the
+- [77:41] productivity gains that chip designers
+- [77:42] are getting year on-ear are meaningfully
+- [77:44] large right and that's pretty AI Now Now
+- [77:47] Cadence and synopsis and semans are all
+- [77:49] U Mentor Graphics right are all
+- [77:51] investing in AI for chip design there's
+- [77:52] also a lot of companies doing it right
+- [77:54] uh Nvidia has written multiple papers
+- [77:55] about their internal tooling um and
+- [77:57] they've hidden a lot of it too they
+- [77:58] haven't said a lot about um Google same
+- [78:01] way right this is absolutely going to be
+- [78:03] huge now is AI going to chip design chip
+- [78:05] right away no but is it going to be a
+- [78:06] force multiplier for a very like in
+- [78:09] demand profession like and yeah like and
+- [78:12] and like the other thing is like today
+- [78:14] like a lot of workloads just have to use
+- [78:16] like like CPUs and then gpus are the
+- [78:18] general purpose parallel Computing
+- [78:20] platform right now obviously they're
+- [78:21] generally making more and more
+- [78:23] enhancements for certain types of models
+- [78:25] but like gpus are not good at running
+- [78:26] CNN yeah right like and this is a
+- [78:28] conscious design decision by Nvidia
+- [78:30] right like they're okay they're good but
+- [78:32] they're not like amazing at running
+- [78:34] CNN's like they are at Transformers
+- [78:35] right and and this I believe is like a
+- [78:37] conscious design decision um what you
+- [78:40] know how do you go from like CPU which
+- [78:42] is the catch all general purpose GPU to
+- [78:44] like general purpose for parallel
+- [78:46] processing to like what is the next step
+- [78:48] and like and Nvidia is like branching
+- [78:49] their GP architecture out they have
+- [78:51] different like architectures for like
+- [78:53] Automotive versus uh gaming versus um
+- [78:56] yeah um you know pure data center AI so
+- [78:58] they're not like just like sitting flat
+- [79:00] footed but it's like how can we
+- [79:01] proliferate architecture to Target use
+- [79:03] cases better um and and today for for it
+- [79:06] to make sense for you to design a chip
+- [79:08] for a tam that Tam needs to be billiant
+- [79:10] if you can bring down the cost right so
+- [79:12] like Google made a YouTube chip right
+- [79:14] because that was a billion dollar
+- [79:15] multi-billion dollar Tam for them alone
+- [79:17] internally that's when Asic made sense
+- [79:19] but when when chip design costs can
+- [79:20] drive down and it's like AI for chip
+- [79:22] design will do this right like I just
+- [79:24] think it won't be like you know it's not
+- [79:26] going to go from Z to one it's going to
+- [79:27] be like a force multiplier and I think
+- [79:29] it's it's one of the areas I'm super
+- [79:30] super excited about whether it be floor
+- [79:32] planning or or RTL generation or many
+- [79:35] other things like verification
+- [79:36] verification is like half the spend of a
+- [79:38] chip design it's like quite funny as
+- [79:40] like more than like half the cost is
+- [79:41] making sure what you designed actually
+- [79:43] works I was like okay interesting um
+- [79:45] like there's tons of like stuff there um
+- [79:48] that I think um could be done and yeah
+- [79:51] it's like I'm very excited about that
+- [79:53] space actually I feel like this has been
+- [79:54] uh a fascinating and really wide ranging
+- [79:56] conversation we always like to end with
+- [79:57] a standard set of quickfire questions um
+- [80:00] and so maybe to start uh what's one
+- [80:02] thing that's overhyped and one thing
+- [80:03] that's underhyped in the AI world today
+- [80:05] overhyped
+- [80:06] rag um underhyped various other forms of
+- [80:10] like semantic search um and like
+- [80:13] retrieval um there's some interesting
+- [80:16] papers that came out recently yeah Will
+- [80:17] model progress uh this year in 25 be
+- [80:20] more or less are the same as in 24 more
+- [80:22] what's your weirdest prediction on like
+- [80:24] the implications for all this AI
+- [80:25] progress on the future I think you know
+- [80:27] there's a lot of like worries that like
+- [80:29] there's going to be huge inequality um
+- [80:32] I'm actually like on the flip side I
+- [80:34] think that
+- [80:35] like um blueco collar type jobs that
+- [80:38] were generally hated on were like are
+- [80:40] going to do well until robotics comes
+- [80:42] which I think is pretty soon but uh you
+- [80:43] know um so for that but like no but like
+- [80:46] I think that like generally the poorest
+- [80:47] people in the world will also improve in
+- [80:50] quality of living massively right and
+- [80:53] it's not going to be like a half versus
+- [80:54] have knots Ultra Elite versus not I
+- [80:56] don't think that's going to be the
+- [80:57] future yeah I mean I guess you better
+- [80:59] hope the uh inference cost on these
+- [81:00] reasoning models comes down yeah I I
+- [81:02] like that the what is what is opening
+- [81:04] eyes thing intelligence per uh dollar
+- [81:07] like maximizing intelligence per dollar
+- [81:08] and it's like well right now it's really
+- [81:11] freaking expensive right yeah and I
+- [81:13] expect I expect the models to get even
+- [81:14] more expensive right like a query from
+- [81:16] like gp5 05 or whatever right like
+- [81:19] reasoning version of GPD 5 is going to
+- [81:21] be like dozens of dollars if not
+- [81:23] hundreds of dollars right but it's the
+- [81:25] work it puts out is going to be crazy do
+- [81:27] you have a go-to query you use when like
+- [81:28] a new model comes out test it out um
+- [81:30] it's funny I actually asked them about
+- [81:31] semiconductor manufacturing because uh I
+- [81:34] know the training set quite well I've
+- [81:35] read a lot of the papers um and and then
+- [81:38] I see if it actually understands it and
+- [81:39] a lot of times models get it wrong um in
+- [81:42] today even to this day Claude is the
+- [81:44] only model that you can like once you
+- [81:46] create enough can get the patterning
+- [81:48] stack for lithography like somewhat
+- [81:50] accurate and that's just because no one
+- [81:52] publishes on it so it's like it has to
+- [81:53] like understand and infer what people
+- [81:55] are actually doing which I thought was
+- [81:57] very
+- [81:58] interesting we' talked about a bunch of
+- [82:00] different parts of the AI startup world
+- [82:02] but any like spaces within the AI
+- [82:03] startup world we haven't talked about
+- [82:04] that you find particularly interesting
+- [82:05] or exciting I think there's a lot of
+- [82:07] cool stuff happening on the distributed
+- [82:08] training side right like with noose and
+- [82:10] with uh um you know although I'm not you
+- [82:12] know like you know there still needs to
+- [82:14] be a lot more to prove what they did as
+- [82:15] like good and real but like very
+- [82:17] exciting and then Prime intellect same
+- [82:18] thing um and yeah they also like you
+- [82:21] know like are doing really cool stuff I
+- [82:22] think distributed uh training and in is
+- [82:24] like going to be really cool um I think
+- [82:27] that
+- [82:29] um I think that a lot of these like
+- [82:31] multi-agent reasoning startups that
+- [82:34] started a while ago um but have actually
+- [82:37] been focused on reasoning like like like
+- [82:39] synth labs and and adaptive and like
+- [82:41] people like that rather than like you
+- [82:42] know agents and pivoting to reasoning
+- [82:44] because everyone's doing a reasoning
+- [82:44] startup now right like uh I think that's
+- [82:46] like a really cool area
+- [82:49] um and I really just like people who in
+- [82:52] startups that are like have been
+- [82:53] singularly focused like forever on the
+- [82:55] same thing and like they're like and
+- [82:57] they're right it's just like you don't
+- [82:58] know when they're going to be right
+- [82:59] right and it's sort of like you know me
+- [83:01] be loving chips so much you know I had a
+- [83:04] good business but like it did not pop
+- [83:05] off until like you know AI like there
+- [83:07] were a few people working in my company
+- [83:08] not 20 right so sort like same thing as
+- [83:10] like being so inly focused and good at
+- [83:12] it but then all of a sudden the time
+- [83:14] does come and you were right right like
+- [83:15] it's like this is like uh those are the
+- [83:17] kind of startups I like the most not
+- [83:19] necessarily people who are like
+- [83:20] Outsiders to a field and just want to
+- [83:21] revolutionize it well we always like to
+- [83:23] leave the last word uh you um I can't
+- [83:25] imagine there's much of a vend diagram
+- [83:27] of folks that listen to this podcast and
+- [83:28] aren't subscribed to semi analysis so I
+- [83:30] assume some folks are at least a high
+- [83:31] level familiar with you but uh would
+- [83:33] love to just you know where can folks go
+- [83:35] to learn more about you the work you're
+- [83:36] doing any plugs you want to make uh the
+- [83:38] floor is uh is yours yeah I would say if
+- [83:40] you want to see the serious side go to
+- [83:42] the website uh check out the newsletter
+- [83:44] or check out the institutional sort of
+- [83:46] products which is like the main business
+- [83:47] like the data sales and Consulting um
+- [83:50] and you know we sort of like have
+- [83:51] industry experts all the way from you
+- [83:53] know former industry experts all the the
+- [83:54] way from like as have worked to asml and
+- [83:56] like lamb research and Intel all the way
+- [83:58] up to like uh Microsoft and Nvidia
+- [84:00] formers and like you know everything in
+- [84:02] the middle and then also like half the
+- [84:03] companies like X hedge fund people so
+- [84:04] it's a cool mix and then we also have
+- [84:06] and then I would say if you want to see
+- [84:07] the like light-hearted bit right where I
+- [84:09] will tweet jokes like hey um you know AI
+- [84:14] regulations came out on Monday Arsenal
+- [84:16] for democracy oh look Israel Palestine
+- [84:19] ceasefire two days later wonder happen
+- [84:21] that's absolute joke but you know that's
+- [84:22] what I post on my Twitter right like so
+- [84:23] you know like I think like you know
+- [84:25] there's a there's a range and that's
+- [84:26] Dylan 522 P right so I think that's sort
+- [84:28] of the uh the Shilling I'll do for
+- [84:31] myself amazing well Dylan thanks so much
+- [84:32] for coming on this was awesome yeah
+- [84:34] thank you thank you
+- [84:37] [Music]

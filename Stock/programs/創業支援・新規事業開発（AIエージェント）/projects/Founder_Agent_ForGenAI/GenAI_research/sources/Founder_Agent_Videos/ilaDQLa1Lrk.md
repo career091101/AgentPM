@@ -1,0 +1,1104 @@
+---
+title: "People that will join companies next year will be managers on day one. They will just be managing a ..."
+video_id: "ilaDQLa1Lrk"
+video_url: "https://www.youtube.com/watch?v=ilaDQLa1Lrk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Automation"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Tool Integration"
+  - "Startup"
+  - "Product Development"
+summary: |
+  join companies next year
+  will be managers on day one.
+  agentic-based workforce,
+key_points:
+  - "And today's guest is at the forefront"
+  - "Dan Diasio is Global Consulting"
+  - "You've been in this business a long time."
+  - "and we realized this was very different"
+  - "was really focused as a discipline,"
+  - "like there was a team of data scientists"
+  - "and the way that people are using AI now"
+  - "I didn't have this impression immediately."
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: ilaDQLa1Lrk
+
+- URL: https://www.youtube.com/watch?v=ilaDQLa1Lrk
+- Retrieved at: 2025-12-30T15:57:23+09:00
+
+## Text
+
+- [00:00] People that will
+- [00:00] join companies next year
+- [00:03] will be managers on day one.
+- [00:05] They will just be
+- [00:05] managing a workforce
+- [00:06] that is an
+- [00:07] agentic-based workforce,
+- [00:09] one that is
+- [00:09] extremely powerful
+- [00:10] and sometimes clumsy.
+- [00:16] Welcome to WorkLab
+- [00:17] the podcast for Microsoft.
+- [00:19] I’m Molly Wood.
+- [00:20] On this show, we explore
+- [00:21] the future of work and the power of AI
+- [00:23] to amplify human potential
+- [00:25] and transform organizations.
+- [00:27] And today's guest is at the forefront
+- [00:29] of this new world of business.
+- [00:31] Dan Diasio is Global Consulting
+- [00:33] AI leader at EY.
+- [00:35] We'll be talking about moving from
+- [00:36] pilot projects to real world impact,
+- [00:38] reskilling for the AI era,
+- [00:40] and what leadership looks like
+- [00:42] when humans and AI agents team up.
+- [00:45] EY is in the inaugural class
+- [00:47] of the Digital Data Design
+- [00:48] Institute at Harvard
+- [00:50] Frontier Firm AI Initiative,
+- [00:52] hosted by Harvard Business School
+- [00:54] in collaboration with Microsoft.
+- [00:56] The initiative will research
+- [00:57] human-AI collaboration,
+- [00:59] upskill global C-suite leadership,
+- [01:01] and deliver new insights and tools
+- [01:03] to help reinvent organizations
+- [01:05] as Frontier Firms.
+- [01:07] Dan, welcome to WorkLab.
+- [01:08] I'm excited to join you, Molly.
+- [01:10] You've been in this business a long time.
+- [01:11] Tell me what you have seen
+- [01:13] and how you've ended up
+- [01:14] in the moment we're in right now.
+- [01:15] EY is a large,
+- [01:17] complex organization.
+- [01:18] We have 400,000 people.
+- [01:20] There is 100 years’
+- [01:21] worth of history
+- [01:22] and had a heritage in the businesses
+- [01:25] we operate in.
+- [01:26] It was only a couple of months into
+- [01:27] after ChatGPT had
+- [01:29] kind of arrived on the scene,
+- [01:30] and we realized this was very different
+- [01:32] from the AI of the past.
+- [01:33] I would say AI of the past
+- [01:35] was really focused as a discipline,
+- [01:36] like there was a team of data scientists
+- [01:38] and machine learning engineers
+- [01:40] that were really responsible
+- [01:41] for taking data and turning that
+- [01:43] into insights and
+- [01:44] translating that into actions.
+- [01:46] It was a part of our organization.
+- [01:48] What we realized pretty quickly
+- [01:49] is that AI was going to impact
+- [01:51] every single corner
+- [01:52] across every part of our business,
+- [01:55] and we needed to really rethink
+- [01:56] what our organization was going to be.
+- [01:58] So we created a part of our business.
+- [02:01] We called it EY.ai,
+- [02:02] which was the symbol for us internally
+- [02:04] that we need to move from the old
+- [02:06] business EY.com to EY.ai,
+- [02:09] and that meant a real rescale
+- [02:11] and rethink of everything
+- [02:12] that we do across the organization
+- [02:13] and how we enable our people.
+- [02:15] I'd say it's been very fundamental,
+- [02:17] but we really started with a purpose
+- [02:19] and an intent to be able to drive
+- [02:21] AI systemically across the business,
+- [02:22] as opposed to just turn it on in a way.
+- [02:25] It feels like you saw something
+- [02:26] really important coming
+- [02:27] because to be candid about the
+- [02:29] elephant in the room, I would say that
+- [02:31] people feel that the advent of LLMs
+- [02:34] and the way that people are using AI now
+- [02:36] could pose a threat to the consulting
+- [02:38] business that we have always known.
+- [02:40] I'm putting this gently,
+- [02:41] but it sounds like EY
+- [02:43] saw that almost immediately
+- [02:45] and moved to adapt.
+- [02:46] Yeah, I mean, I think there's been a lot
+- [02:48] written about the
+- [02:49] demise of the knowledge worker
+- [02:51] in the space of AI.
+- [02:52] That as cost of knowledge
+- [02:53] goes to zero, what happens
+- [02:55] to all of these knowledge workers?
+- [02:57] And, you know, over time,
+- [02:58] I didn't have this impression immediately.
+- [03:00] Like there was a bit of shock
+- [03:01] and awe that happened in the beginning.
+- [03:03] But over time,
+- [03:04] I've come to appreciate and believe
+- [03:06] that the knowledge worker
+- [03:07] is just totally underrated in this moment.
+- [03:10] Let's talk about your career at EY
+- [03:11] because you’ve been there
+- [03:12] a long time,
+- [03:12] you’ve been in this business
+- [03:13] a long time.
+- [03:15] So, Molly, this is a
+- [03:16] really fascinating time.
+- [03:17] I would say, right now
+- [03:18] I spend most of my time
+- [03:19] working on trying to help
+- [03:21] EY become a Frontier Firm.
+- [03:24] And that really means that I focus on
+- [03:25] four things every day.
+- [03:26] You know, so first
+- [03:28] I'm really working with our teams
+- [03:29] that are supporting our clients
+- [03:30] and trying to move from this idea
+- [03:32] of ideation and experimentation
+- [03:34] into enterprise scale with our AI agendas.
+- [03:37] The second is, if you make a list
+- [03:39] of all the industries that are going
+- [03:41] to be impacted by AI
+- [03:43] professional services near the top of that list.
+- [03:45] So we are actively working to
+- [03:46] look at everything we do
+- [03:48] to deliver value for our clients
+- [03:49] and start to infuse AI to become
+- [03:51] much more AI powered.
+- [03:52] The third is
+- [03:53] we have a historical dedication
+- [03:56] to a business model
+- [03:57] that is focused on effort, and
+- [03:58] we are looking to break that with AI.
+- [04:00] So there's a lot around
+- [04:01] commercial model innovation.
+- [04:02] And then fourth, the very essence of
+- [04:04] EY is all about our people.
+- [04:06] So we are working on building
+- [04:07] training programs, tooling and enablement
+- [04:09] to really empower the workforce.
+- [04:10] I spend most of my time these days
+- [04:12] really trying to figure out how we kind of
+- [04:15] create a new professional services firm
+- [04:16] that is based much more on AI
+- [04:18] and disrupting the old one.
+- [04:19] There are so many things to unpack there.
+- [04:22] Let's start with just the EY part of it,
+- [04:24] just the internal transformation.
+- [04:25] Because, of course, that's incredibly
+- [04:27] valuable when it comes to helping clients.
+- [04:29] But I would imagine presents
+- [04:31] its own set of challenges
+- [04:33] given the size and
+- [04:35] history of a firm like EY.
+- [04:37] So, Molly, if I can tell you a story?
+- [04:39] Say more, absolutely.
+- [04:40] So shortly after ChatGPT
+- [04:42] came onto the scene, we realized
+- [04:44] that our clients were being bombarded
+- [04:46] by PowerPoints explaining what AI was.
+- [04:48] And you can't learn that much about
+- [04:51] how these things work from a PowerPoint.
+- [04:53] So we created something inside our
+- [04:55] organization that we called a master class.
+- [04:58] We would show up with laptops
+- [04:59] in our clients,
+- [05:01] often in their boardroom
+- [05:02] or with their management committee.
+- [05:04] And we had some
+- [05:05] simple tools and a script.
+- [05:07] Often that script was to be able to use
+- [05:10] AI to build a new snack product
+- [05:13] in a lot of ways, so
+- [05:15] it was kind of simple,
+- [05:16] It was guided, it was scripted,
+- [05:17] but it got their hands on the keyboards.
+- [05:20] And it was fascinating,
+- [05:22] like just to watch this magic happen
+- [05:24] where CEOs were working in teams
+- [05:26] with their management committee,
+- [05:29] building new products,
+- [05:30] creating new marketing plans,
+- [05:32] creating jingles
+- [05:33] that they could use to advertise it,
+- [05:34] and then pitching it
+- [05:35] back to their committees.
+- [05:36] So it was really, really powerful.
+- [05:39] But then we took a step back.
+- [05:40] We've done this hundreds of times now,
+- [05:42] and I've looked at the results
+- [05:43] of all the images of the products
+- [05:45] that people have built over time,
+- [05:47] and it's all the same looking stuff.
+- [05:51] So it's all the same sort of packaging.
+- [05:53] It's all the same ingredients,
+- [05:55] the same recipes,
+- [05:56] the same marketing plans.
+- [05:57] Like if this stuff were to come true,
+- [05:59] we would have a global shortage
+- [06:00] of matcha
+- [06:01] and monk fruit everywhere.
+- [06:03] But it's a lot of the same.
+- [06:05] So what that kind of really translates
+- [06:07] to us is AI makes it very easy to produce
+- [06:10] something good, but it kind of
+- [06:12] commoditizes the output.
+- [06:14] And in a lot of ways it raises the floor,
+- [06:16] but it doesn't raise the ceiling.
+- [06:18] So what does it take
+- [06:19] to actually raise the ceiling?
+- [06:21] And what we say at EY is that it's
+- [06:23] AI and something.
+- [06:25] You have to bring context to be able
+- [06:28] to really unlock its potential.
+- [06:30] We often refer to these things
+- [06:31] as the big four.
+- [06:32] So you need to have creativity.
+- [06:34] You need to have critical thinking,
+- [06:36] systems thinking, and deep domain
+- [06:39] expertise to be able to really get
+- [06:41] what's possible into the system, to work
+- [06:44] together with the system, to be able
+- [06:46] to create the right and best output.
+- [06:48] And in a lot of ways, that's essentially
+- [06:51] what consultants are very good at.
+- [06:54] So we see that the role of the consultant
+- [06:56] is going to shift from one that does
+- [06:57] a lot of work and produces content
+- [07:00] to one that is much more of a creator,
+- [07:02] and using agents
+- [07:03] to be able to do a lot of that work.
+- [07:05] I mean, as you describe it,
+- [07:06] it sounds like what you're saying is
+- [07:07] we're going to have our consultants
+- [07:08] go back to being great, right?
+- [07:10] Like not that they weren't great
+- [07:12] to start with, but that there is an
+- [07:14] up-leveling that is required
+- [07:17] to not only stay ahead but be the best.
+- [07:19] And I think they have, you know, often
+- [07:21] we find that consultants
+- [07:22] have contexts that exists
+- [07:24] outside the organization
+- [07:25] in which they're supporting’s four walls,
+- [07:27] and that is extremely valuable
+- [07:29] to be able to get the most out of AI.
+- [07:31] So, I do think it is a big change
+- [07:32] to move from the old consulting model
+- [07:34] to the new consulting model,
+- [07:36] but I don't think that work goes away.
+- [07:37] It changes,
+- [07:38] and I think it becomes more important.
+- [07:40] Let's talk about your clients now.
+- [07:41] How often are you now
+- [07:43] telling this story to them?
+- [07:45] I think this is, you know,
+- [07:47] we are going through a period right now
+- [07:49] where there's too much focus
+- [07:51] on productivity
+- [07:52] and there's not as much focus
+- [07:54] as needed on growth.
+- [07:56] And this is very much
+- [07:57] part of the growth agenda,
+- [07:59] how we start to move
+- [08:01] from thinking about what we do today
+- [08:02] and how we can use technology
+- [08:04] to automate it,
+- [08:05] to how we can start
+- [08:06] to empower people to start
+- [08:07] to create the businesses of the future.
+- [08:09] So, it is probably a daily
+- [08:11] part of that talk tracks
+- [08:12] that I have with clients.
+- [08:13] Is it like a matcha granola bar?
+- [08:15] Like, what are we talking here?
+- [08:16] There's like some monk fruit in it,
+- [08:18] some matcha,
+- [08:19] You know, often some
+- [08:20] some like natural chocolate.
+- [08:22] I mean, the same packaging.
+- [08:24] It's very crusty looking,
+- [08:25] you know, deep greens and browns.
+- [08:27] Very environmentally friendly.
+- [08:28] Of course, yeah.
+- [08:30] I mean, I kind of want to try it.
+- [08:32] But we're off topic.
+- [08:33] As you start to socialize the adoption
+- [08:37] of this technology
+- [08:38] with this really important realization,
+- [08:40] right, that your human skills matter,
+- [08:41] that your context matters,
+- [08:42] that your internal data
+- [08:45] and the context that brings
+- [08:46] you as a business matter,
+- [08:47] what kind of specifics
+- [08:48] are you starting to talk to people
+- [08:50] about when it comes to adoption?
+- [08:52] Like, are we building a playbook at last?
+- [08:54] Yes, I think we have the beginnings
+- [08:56] of a playbook that's been really effective
+- [08:57] for many of the clients
+- [08:58] that we've been supporting.
+- [08:59] The last couple of years
+- [09:00] have been an investment in technology.
+- [09:02] You're building tools,
+- [09:03] and when you use those tools
+- [09:05] and you expect to get value
+- [09:06] out of those tools, what do you do?
+- [09:07] You say, does the tool do
+- [09:08] what my person did before?
+- [09:10] And then you get into
+- [09:10] this productivity loop.
+- [09:12] And unfortunately productivity has a limit.
+- [09:14] Like there's only so much value
+- [09:15] you can create with productivity.
+- [09:17] Growth has no limit associated with it.
+- [09:20] So, we see that in order to be successful,
+- [09:23] you know, you referred to a playbook
+- [09:24] earlier, Molly,
+- [09:25] in order to be successful,
+- [09:26] it takes three things.
+- [09:28] It takes the mindset,
+- [09:29] the skill set, and the tool set.
+- [09:32] And right now,
+- [09:32] most of the investments
+- [09:33] have gone towards the tool set.
+- [09:35] There's not as much in the mindset
+- [09:38] and the skill set.
+- [09:40] So, what we see is
+- [09:41] enterprise transformation
+- [09:43] actually begins with the intent
+- [09:45] of how we start to frame the problem,
+- [09:47] how we start to look after the objectives
+- [09:49] of what we're trying to get out of AI.
+- [09:51] Are we just using it to do
+- [09:52] what we do today?
+- [09:53] Or are we going to reinvent
+- [09:55] the entire new way of working?
+- [09:57] And that shift is something
+- [09:58] that I think we're starting to see over
+- [10:00] the last couple of months
+- [10:01] of moving away from use cases towards
+- [10:04] more of a reinvention agenda.
+- [10:05] And so how is the concept
+- [10:08] and the introduction of agentic tools
+- [10:10] and agentic AI
+- [10:12] starting to change this conversation
+- [10:13] even more, because it feels to me like
+- [10:15] that’s a bit of a gateway drug
+- [10:16] to really thinking
+- [10:17] about transformation in a different way.
+- [10:19] Not just productivity,
+- [10:20] but new types of employees.
+- [10:23] Yeah.
+- [10:23] So, new types of employees.
+- [10:25] It’s such an interesting concept.
+- [10:28] Like, I think next year will be the first year
+- [10:31] that when you work at a company,
+- [10:33] you will be a manager,
+- [10:34] and you will not just have
+- [10:36] a human workforce
+- [10:36] in which you're managing.
+- [10:38] And, agents
+- [10:39] are going to be really responsible
+- [10:40] for driving a lot of the
+- [10:42] what we call at EY
+- [10:43] the toil that nobody wants to do
+- [10:46] and to start to drive
+- [10:47] a lot of that execution path.
+- [10:49] But agents are still subject to the same
+- [10:52] statistical sameness
+- [10:53] if you use them
+- [10:54] to do your critical thinking.
+- [10:56] So the real sequence of work
+- [10:58] should be human, agent, and then human.
+- [11:01] And so for that reason,
+- [11:03] I don't really see it changing
+- [11:05] the need to really focus on the mindset
+- [11:08] and the skill set,
+- [11:09] because what companies are going to be
+- [11:11] after is driving differentiation
+- [11:13] from their competitors
+- [11:15] and being able to create new markets.
+- [11:17] And, the AI is going to create
+- [11:19] the same predictable output
+- [11:20] for you as it would for somebody else
+- [11:22] if you're not using that context with it.
+- [11:24] So how does that progression
+- [11:26] that you've described
+- [11:27] help companies become Frontier Firms?
+- [11:31] You know, transition away
+- [11:33] from the way they used to do things?
+- [11:35] Yeah.
+- [11:35] When it starts with the strategy of
+- [11:37] what is it that we want to do
+- [11:39] and how do we intend to create value?
+- [11:42] What we often say to
+- [11:43] our clients is create
+- [11:45] a point of view
+- [11:46] that you would be comfortable
+- [11:47] taking to your investors
+- [11:48] on what your strategy would be.
+- [11:50] Like, the value that you're creating with
+- [11:52] AI is not in your portfolio of things
+- [11:54] that you're doing.
+- [11:55] I mean, it's good and it's valuable.
+- [11:57] It's kind of like going to the gym
+- [11:58] if you're trying to run the
+- [12:00] the New York Marathon,
+- [12:01] like gym work and practice runs,
+- [12:03] they're helpful,
+- [12:04] but they're not the marathon.
+- [12:05] And instead, start to think about
+- [12:08] what the main objective is
+- [12:09] and where value is going to be created.
+- [12:11] And that often manifests itself
+- [12:12] in 2 to 3 pages of like just plain text.
+- [12:15] When you have that,
+- [12:16] that helps
+- [12:17] you set the mindset, skill set,
+- [12:19] and the tool set objective
+- [12:20] because you shift from an approach
+- [12:22] of just implementing AI everywhere,
+- [12:24] to start to think
+- [12:25] my marketing function,
+- [12:27] I'm going to completely reinvent
+- [12:28] my marketing function.
+- [12:30] I'm going to target
+- [12:31] not just people, but I'm going to target
+- [12:33] being able to market to people’s agents
+- [12:35] that are going to buy
+- [12:36] the products on their behalf.
+- [12:38] And you start to get into
+- [12:39] just a different territory
+- [12:41] in a different space than where the
+- [12:42] narrative has been placed in time.
+- [12:43] It's so interesting
+- [12:44] as you're describing this,
+- [12:45] because it sounds like
+- [12:47] that's how you should always
+- [12:48] be thinking about business.
+- [12:50] But I understand that
+- [12:52] when a tool like this comes along,
+- [12:54] people can have one of
+- [12:55] two responses, right?
+- [12:55] One is just like,
+- [12:56] we got to put it on everything.
+- [12:57] We got to smear some of this
+- [12:59] peanut butter and jelly on across
+- [13:01] everything that we're doing.
+- [13:02] Or we might tiptoe
+- [13:04] in with a couple of pilots
+- [13:05] and then kind of
+- [13:06] wait for other firms to figure it out
+- [13:08] and then come in all the way.
+- [13:10] And I really hear you describing a third
+- [13:12] and better way.
+- [13:13] I think the practical reality is
+- [13:16] the first two
+- [13:17] is what we've seen over the course
+- [13:18] of the last three years.
+- [13:20] And that's partly
+- [13:21] because this is an extremely
+- [13:23] powerful technology
+- [13:24] that we are still learning
+- [13:25] all the right
+- [13:26] controls to be able
+- [13:27] to put this at scale
+- [13:29] inside of organizations.
+- [13:31] We at EY have something we call,
+- [13:32] we refer to as the blueprint.
+- [13:34] So when you shift away
+- [13:35] and you think about a function that runs
+- [13:37] AI natively
+- [13:38] as if you've built it
+- [13:39] for the era in which we're in today,
+- [13:41] then that's not just a process
+- [13:44] that's AI powered.
+- [13:45] You have multiple layers,
+- [13:46] you have connectivity into the sources
+- [13:48] that you engage with today, because
+- [13:50] you know, it becomes a big question.
+- [13:52] Do you want to change and rip out
+- [13:53] everything that you've invested
+- [13:55] in from a technology perspective?
+- [13:57] But then you have an AI native platform,
+- [13:58] you have an intelligence layer,
+- [14:00] you have a control layer.
+- [14:01] The control layer is actually responsible
+- [14:03] for maintaining how much autonomy
+- [14:06] do you give these agents?
+- [14:07] And, like, simple things like
+- [14:09] where do you put the agents?
+- [14:10] Do you put the agents in the HR master,
+- [14:12] or do you put them in
+- [14:13] some other registration?
+- [14:15] And what access do they have
+- [14:16] to be able to run your business?
+- [14:17] And then you start to layer
+- [14:18] in the process,
+- [14:20] what the new jobs are of the future,
+- [14:22] and where and how you create value.
+- [14:23] And when you stack that up together,
+- [14:25] that is the playbook
+- [14:27] for how you become
+- [14:28] a much more Frontier-focused business
+- [14:31] in the area that you want to,
+- [14:32] that you want to start to compete in.
+- [14:34] Over time, doing that in different places
+- [14:37] allows you to work
+- [14:38] towards becoming the Frontier Firm.
+- [14:39] When you talk to your clients
+- [14:40] about their competition,
+- [14:41] is it firms that are moving faster
+- [14:44] to become Frontier Firms,
+- [14:45] or is it AI-first companies
+- [14:47] that are coming up behind them?
+- [14:48] I would say that that all, of course
+- [14:51] Molly, that depends on the industries
+- [14:53] in which we're focused on.
+- [14:54] But most of my clients
+- [14:57] are really concerned
+- [14:59] about the competitors
+- [15:00] and the disruptors that they do not see
+- [15:02] and they are not competing with today.
+- [15:04] It's the AI natives.
+- [15:05] I mean, there are many companies
+- [15:07] that are 40 or 50 people companies
+- [15:09] that have multibillion dollar valuations,
+- [15:12] and they are starting to be
+- [15:13] a very disruptive force
+- [15:14] for established businesses.
+- [15:16] And you don't see them.
+- [15:17] And then all of a sudden
+- [15:18] they are $1 billion company
+- [15:20] and starting to really eat
+- [15:21] into your business model.
+- [15:23] I would say that's driving a majority
+- [15:25] of the strategic
+- [15:26] imperative inside these organizations.
+- [15:28] Yeah.
+- [15:28] That's always been
+- [15:30] a hard thing to keep up with.
+- [15:31] You're kind of trying to imagine
+- [15:32] the anatomy of your disruptor
+- [15:34] as if it's this, like, shadow box of a person,
+- [15:37] or a company.
+- [15:39] And it is really challenging.
+- [15:41] But what I have seen,
+- [15:43] I would say over the last six months
+- [15:44] that is quite different now,
+- [15:46] is that in the beginning,
+- [15:47] everybody at the executive
+- [15:49] team needed to know about AI.
+- [15:51] So the education sessions,
+- [15:52] I referred to those master classes,
+- [15:53] those were supported by the executives,
+- [15:55] in many cases by the boards.
+- [15:57] Then slowly, it became a technology thing,
+- [15:59] where it became
+- [16:00] the responsibility of the CIO
+- [16:01] or the CTO to be able
+- [16:02] to scale out the technology.
+- [16:04] As we start
+- [16:05] to get more into mindset, skill set,
+- [16:07] being really needed investment
+- [16:10] buckets to balance out,
+- [16:12] you know, the true transformative power.
+- [16:14] It seems to be something
+- [16:15] that is going back up to the CEO
+- [16:18] and the executive leaders in the company
+- [16:20] to start to set the vision
+- [16:22] and the strategy.
+- [16:23] So, that natural progression, you know,
+- [16:25] we tend to overestimate things
+- [16:26] in the short term
+- [16:27] and underestimate them in the long term.
+- [16:29] Like perhaps
+- [16:29] that is what
+- [16:30] we should have predicted over time.
+- [16:32] But we do feel there's an inflection
+- [16:33] point happening
+- [16:34] where companies are starting to revisit
+- [16:36] the way they're thinking about AI
+- [16:37] in their organizations.
+- [16:38] Interesting.
+- [16:39] Before we move off of that,
+- [16:41] what are some of the benefits
+- [16:42] that a legacy firm
+- [16:44] can bring to this conversation?
+- [16:46] Like, you know,
+- [16:46] we should not assume
+- [16:48] that every company will be disrupted
+- [16:50] by a brand new AI native company.
+- [16:53] Are there things that are built-in benefits
+- [16:55] for a company
+- [16:56] that's been around for a long time?
+- [16:57] Maybe their data set,
+- [16:58] maybe, you know, their context?
+- [17:00] Yeah.
+- [17:01] I mean, I think really what it comes down
+- [17:03] to is their scale in a lot of ways.
+- [17:07] You know, organizations
+- [17:08] I've seen, you know, compete
+- [17:10] against some of these AI native startups,
+- [17:12] the AI native startups
+- [17:13] don't like the messiness,
+- [17:14] which is a corporate reality.
+- [17:16] Many of these companies
+- [17:17] have learned in B2B
+- [17:19] constructs, have learned to be able
+- [17:20] to sell to an enterprise,
+- [17:22] to be able to take technology
+- [17:24] to a complex organization.
+- [17:26] I’d say that the data flywheel
+- [17:28] inside of organizations
+- [17:30] is critically important,
+- [17:31] because that organizational nuance
+- [17:34] and context is what drives differentiation
+- [17:37] from just using a general-purpose model.
+- [17:39] And then I'd say also it's
+- [17:40] the customer reach and contracts.
+- [17:42] You know, often
+- [17:43] these are incredible
+- [17:44] endowments inside of organizations
+- [17:46] that really are
+- [17:48] the points that allow them to be able
+- [17:51] to kind of move into a new market.
+- [17:52] Like, there are many
+- [17:54] multi-conglomerate technology companies
+- [17:56] and some of them find that
+- [17:58] their most valuable asset in the AI space
+- [18:01] are the game consoles that they have,
+- [18:03] and the following of consumers
+- [18:07] engaging in gaming
+- [18:09] on their game consoles,
+- [18:10] because that implicitly
+- [18:11] has this community
+- [18:12] that can become the flywheel
+- [18:14] in which you introduce AI innovation.
+- [18:16] Let's talk about employees,
+- [18:18] because so far
+- [18:19] we've talked about leaders,
+- [18:20] and this is a leadership challenge,
+- [18:23] bringing employees along.
+- [18:24] EY has launched an initiative to upskill
+- [18:26] tens of thousands of professionals in AI.
+- [18:30] Talk about how important this is
+- [18:31] and how you get it done in organizations.
+- [18:33] Yeah, this is something that is
+- [18:36] as we are a people-based business
+- [18:37] and we will be a people-based business,
+- [18:40] this is something
+- [18:41] that is of critical importance
+- [18:42] to us in our organization.
+- [18:44] I'll speak for our consulting organization.
+- [18:48] Last year, we built a full curriculum
+- [18:50] for all of our employees at EY
+- [18:53] to get introduced,
+- [18:55] to get the foundations,
+- [18:56] but then to start to teach
+- [18:57] AI to them in the context of their jobs.
+- [19:00] And I referred to using AI
+- [19:03] to move into a creator-based economy
+- [19:05] and to be able to do what's
+- [19:07] what's not possible in AI itself.
+- [19:09] We call that the “power of the and.”
+- [19:11] So, we’re working on teaching our people
+- [19:14] how to find their “and.”
+- [19:16] How to take their deep
+- [19:18] domain expertise and turn that
+- [19:20] into a strategic differentiator
+- [19:22] in the way that they engage with AI
+- [19:24] to create unique content.
+- [19:25] So we rolled out this out
+- [19:26] to all of our people,
+- [19:27] and we feel really good about it
+- [19:29] because we've seen our employee
+- [19:32] engagement scores go up
+- [19:33] as a result of that.
+- [19:35] We feel that people feel more in
+- [19:37] the driver's seat
+- [19:38] of how they can start to shape AI,
+- [19:40] as opposed to have I happen to them.
+- [19:42] So it's been an investment
+- [19:43] that we will continue to make
+- [19:44] and all of our people
+- [19:45] across the organization every year.
+- [19:47] This is such a great point
+- [19:48] that you're bringing up,
+- [19:49] because there can be a lot of built-in
+- [19:52] resistance or skepticism or concern.
+- [19:55] You know,
+- [19:56] we would be lying
+- [19:57] if we said that didn't exist
+- [19:58] within organizations.
+- [19:59] And it really is a leadership challenge
+- [20:02] to champion this, to do it in partnership
+- [20:05] with your employees.
+- [20:06] Yeah, we run this poll
+- [20:08] asking employees
+- [20:09] how engaged they are, and how much
+- [20:11] they're getting what they need from AI.
+- [20:14] Recently, about 85% of them
+- [20:16] said they were really excited
+- [20:17] for agentic AI, but 86% of them
+- [20:20] said they had to learn it on their own.
+- [20:22] Most of their learning
+- [20:22] was happening on their own.
+- [20:23] This is not EY specific.
+- [20:25] This is broadly across workers.
+- [20:28] So, in order to really engage with people,
+- [20:30] you need to have a strategy
+- [20:32] with clear intent, which is,
+- [20:34] I think, more of a growth strategy
+- [20:36] than a productivity strategy.
+- [20:37] You need to have the right investments
+- [20:39] in helping people develop those skills
+- [20:42] and give them the opportunity
+- [20:43] and the tooling to be able to
+- [20:45] to build that muscle.
+- [20:47] And then I think, you have to address
+- [20:48] the fact that this is going to be
+- [20:50] an ever-going cycle of change.
+- [20:53] And, like, change agility
+- [20:55] and investing in building out
+- [20:57] that muscle is critically important
+- [20:59] and something that, you know, I'd say
+- [21:01] we're still tackling inside of EY.
+- [21:03] How do you communicate that
+- [21:04] to leaders at other companies?
+- [21:05] That “You may bring them along” to
+- [21:07] “You need to start with your strategy
+- [21:08] and your desired outcomes
+- [21:09] and really go deep on the functions
+- [21:12] that you want to change,
+- [21:13] but don't leave your employees behind.”
+- [21:15] Yeah, I mean, this is the story
+- [21:17] of 2025 right now with AI.
+- [21:20] It's how do we create more as opposed to,
+- [21:23] you know, try to use AI to do the same,
+- [21:25] but with less?
+- [21:26] What we often do inside of EY
+- [21:28] is we believe that, you know,
+- [21:30] we can talk all we want
+- [21:31] about what a company should do,
+- [21:33] but we need to be able to walk
+- [21:35] the talk as well.
+- [21:36] And we've invested in something
+- [21:37] we call our Client Zero Program,
+- [21:39] which is where we are doing this
+- [21:42] to ourselves first
+- [21:43] and then showing our clients
+- [21:45] what's worked and what hasn't worked.
+- [21:47] And that has been
+- [21:48] a really effective tool
+- [21:49] of being able to really drive that.
+- [21:51] I think the second is
+- [21:52] when you can come in with a blueprint,
+- [21:54] these, these blueprints
+- [21:56] I was referring to say,
+- [21:57] this is how you can create value
+- [21:59] in an AI native way,
+- [22:00] then you automatically shift
+- [22:02] to the growth agenda
+- [22:03] as opposed to just focusing
+- [22:04] on the productivity agenda.
+- [22:06] What can you tell us about what has
+- [22:07] worked and what hasn't worked?
+- [22:08] Okay, so, inside of EY?
+- [22:11] Yeah.
+- [22:12] So, I'd say at EY
+- [22:13] We won't tell anybody.
+- [22:14] Don't tell anyone.
+- [22:15] No.
+- [22:16] Please. This is off the record.
+- [22:17] Just between us.
+- [22:17] Yes. Okay.
+- [22:18] So, in that case,
+- [22:20] I think we've done a really good job
+- [22:22] with our leadership buy-in
+- [22:23] and engagement.
+- [22:24] You know, our leaders,
+- [22:26] our CEO is very active
+- [22:28] in driving and shaping our AI agenda.
+- [22:30] Her direct report is responsible
+- [22:33] for leading all of the programs
+- [22:35] that we're doing
+- [22:36] all across our service lines.
+- [22:38] And we've cascaded
+- [22:39] that down into priorities
+- [22:41] for every geography around the world.
+- [22:43] So I think leadership buy-in
+- [22:45] the investments that we're making
+- [22:47] in people, in process, in technology.
+- [22:50] Like last year, we've invested over
+- [22:51] a billion dollars of capital
+- [22:53] into getting ourselves ready
+- [22:54] to become that Frontier Firm.
+- [22:58] The challenging part that you asked for,
+- [23:00] I'd say, you know, and this is
+- [23:02] this is not unique to EY,
+- [23:04] but this is a massive
+- [23:06] and fundamental change of the business.
+- [23:09] For us, we are a business model
+- [23:12] that has been built on the billable hour,
+- [23:14] where people monetize their efforts.
+- [23:17] The harder the problem,
+- [23:18] the harder you have to work,
+- [23:19] the more you get paid
+- [23:20] for that particular problem.
+- [23:22] And we are going to, through AI,
+- [23:25] start to break that business model,
+- [23:27] but it fundamentally changes
+- [23:29] how we price our services
+- [23:30] and how we value our services.
+- [23:32] And it's not just us
+- [23:33] that needs to change,
+- [23:34] it's also the clients that are going to buy
+- [23:36] our services in the future
+- [23:38] need to be along with
+- [23:39] with us for that journey.
+- [23:40] So that kind of change management,
+- [23:43] change agility and breaking down
+- [23:45] the muscle memory of, you know,
+- [23:48] being in a business for decades
+- [23:51] under a consistent business model
+- [23:53] is something that I would say
+- [23:54] is the biggest challenge
+- [23:56] that we are facing,
+- [23:57] but it's something that is critical
+- [23:58] for our long-term thriving with AI.
+- [24:01] For leaders who want to start
+- [24:04] or maybe accelerate their organization’s
+- [24:06] AI transformation,
+- [24:07] what are some concrete places
+- [24:09] that they can begin?
+- [24:10] Like, where do you start?
+- [24:12] Yeah, look at where
+- [24:13] the company creates value
+- [24:15] inside the organization today.
+- [24:16] I would say it's a value-based story.
+- [24:19] It needs to be about growth.
+- [24:20] Start in those areas.
+- [24:21] So for many
+- [24:22] consumer product-based companies
+- [24:24] that'll be, what products do you build
+- [24:26] and make inside your organization?
+- [24:27] And that'll put you down a path
+- [24:29] of looking at AI to do product
+- [24:30] innovation and R&D,
+- [24:32] and to be able to help the sales
+- [24:34] and marketing function
+- [24:35] or the supply chain function.
+- [24:36] If you're in a banking function,
+- [24:38] it becomes
+- [24:39] a little bit of a different story.
+- [24:40] Oil and gas is a different story.
+- [24:43] So I'd say it's
+- [24:44] a very sector specific story of
+- [24:45] think about where you create value.
+- [24:47] I know you're going to say that
+- [24:48] I'm giving you like an easy answer
+- [24:50] and I'm not getting specific enough.
+- [24:52] Well, I have an idea
+- [24:52] about how we can drill down.
+- [24:53] I wonder, is there a temptation
+- [24:55] for companies to start
+- [24:56] with an underperforming
+- [24:58] part of the business,
+- [24:58] because that might feel a little bit safer?
+- [25:00] Like, are you sort of saying, listen,
+- [25:02] go up the gut,
+- [25:03] take the thing that you already do
+- [25:05] the best and try to figure out
+- [25:06] how you can make it better?
+- [25:07] Yeah, that that is a great way to say it.
+- [25:10] In a lot of ways,
+- [25:11] what we see is organizations
+- [25:13] wanting to test it out
+- [25:15] by experimenting in their back office.
+- [25:17] And then when you do that,
+- [25:18] you get into this
+- [25:19] like cost out productivity.
+- [25:20] AI is going to show returns on its P&L
+- [25:23] by driving down costs.
+- [25:26] I think, you know,
+- [25:27] the strategic companies that we see,
+- [25:29] they are taking on
+- [25:30] challenging business questions
+- [25:31] that are existential to their
+- [25:33] business strategy,
+- [25:34] And they're using that to start
+- [25:36] to power their business.
+- [25:37] And I think getting to a 2 or 3 page
+- [25:40] reinvention of a function
+- [25:42] agenda is an easy and tangible way—
+- [25:45] well, I shouldn't say easy.
+- [25:46] I was going to say.
+- [25:47] Sounds like an easy thing to do,
+- [25:48] but it is an objective
+- [25:51] target that you can set
+- [25:52] that allows you to start to push
+- [25:54] and move that mindset shift
+- [25:56] in the organization,
+- [25:58] that this is not about just doing AI, but
+- [26:01] it's about changing how we work with AI.
+- [26:04] And then if you are an employee,
+- [26:06] for employees who want to thrive in
+- [26:08] an AI-first workplace,
+- [26:10] even if they have been
+- [26:11] mandated to upskill.
+- [26:13] What are some of the things
+- [26:16] that they should focus on right now?
+- [26:17] This is probably
+- [26:19] the biggest revolution of management
+- [26:23] that has ever happened in our society.
+- [26:27] And these are really big, bold words.
+- [26:29] But, the corporate ladder used to be
+- [26:32] that you took a job
+- [26:34] and you worked hard by building
+- [26:36] credibility and experience.
+- [26:37] And ultimately
+- [26:38] if you did that really well,
+- [26:40] you became a manager.
+- [26:41] And then you managed and oversaw people.
+- [26:44] And today, the corporate ladder
+- [26:45] is being completely kicked over.
+- [26:48] People that will join companies
+- [26:50] next year will be managers on day one.
+- [26:53] They will just be managing a workforce
+- [26:55] that is an agentic-based workforce,
+- [26:57] one that is extremely powerful
+- [26:59] and sometimes clumsy.
+- [27:00] And they'll have to have
+- [27:01] the requisite skills
+- [27:02] to be able to do that
+- [27:04] technological management.
+- [27:06] So that's where I get into those four
+- [27:08] that I described earlier.
+- [27:10] I think that really requires
+- [27:12] that critical thinking,
+- [27:13] that creativity,
+- [27:14] that systems thinking
+- [27:16] and the domain expertise
+- [27:18] to make that happen.
+- [27:19] And I'll just add a fifth one in here
+- [27:20] because it feels right.
+- [27:22] But there's got to be a real structured
+- [27:26] and a real investment
+- [27:28] in developing the delegation skills.
+- [27:30] Because giving agents instructions
+- [27:33] to be able to go do the work,
+- [27:35] and then critically evaluating
+- [27:36] if that happened in the appropriate
+- [27:38] way is critical
+- [27:39] for how a worker can thrive
+- [27:41] by being able to accomplish much more
+- [27:42] than what they'd be without
+- [27:43] what was possible yesterday.
+- [27:45] This is just partly me
+- [27:47] and how I like to work,
+- [27:48] but this sounds like a workplace
+- [27:49] I would want to be a part of.
+- [27:51] As opposed to, like, I'm
+- [27:52] you know, I'm an entry level worker
+- [27:53] who's going to come in
+- [27:53] and do a bunch of rote skills
+- [27:55] and regurgitate things.
+- [27:57] To be able to come in and say,
+- [27:58] have creative thinking, right?
+- [28:00] Have critical thinking skills,
+- [28:03] set strategy for an agent.
+- [28:06] It seems like a good story.
+- [28:07] I think there's a lot of upside.
+- [28:09] I mean, really, at the end of the day,
+- [28:11] I think this technology
+- [28:12] will start to power a new economy
+- [28:15] just like the internet did.
+- [28:17] You know, at first
+- [28:18] when the internet first came along,
+- [28:19] we were really worried
+- [28:21] that it was going to replace
+- [28:22] all the mail carriers.
+- [28:23] And then it created
+- [28:24] trillion-dollar businesses.
+- [28:26] It's hard to know
+- [28:27] exactly what those businesses
+- [28:29] are going to be,
+- [28:30] but I know those businesses
+- [28:31] will be created by people
+- [28:33] that have learned
+- [28:34] how to scale their impact
+- [28:36] and their creative thinking by using AI.
+- [28:39] In any technological revolution,
+- [28:41] there's always in the beginning,
+- [28:43] first fear and then reinvention.
+- [28:45] And I think we're just coming out of
+- [28:47] that fear phase right now.
+- [28:48] Dan Diasio,
+- [28:49] thank you so much for the time today.
+- [28:50] It's my pleasure.
+- [28:51] Thank you.
+- [28:52] For more conversations like this one,
+- [28:54] follow the show
+- [28:54] and find every episode
+- [28:56] at Microsoft.com/worklab.
+- [28:58] I'm your host, Molly Wood.
+- [28:59] Thank you for listening.
+- [29:01] If you've got a question or a comment,
+- [29:03] drop us an email
+- [29:04] at worklab@microsoft.com
+- [29:06] and check out
+- [29:06] Microsoft's Work
+- [29:07] Trend Indexes and the WorkLab
+- [29:09] digital publication,
+- [29:10] where you'll find
+- [29:11] all of our past episodes,
+- [29:12] along with thoughtful stories
+- [29:14] that explore
+- [29:15] how business leaders are thriving in
+- [29:16] today's AI era.
+- [29:18] You can find all of that
+- [29:19] at Microsoft.com/worklab.
+- [29:21] As for this podcast,
+- [29:23] please rate us, review us,
+- [29:24] follow us wherever you listen.
+- [29:26] It helps us out a ton.
+- [29:28] The WorkLab Podcast is a place for experts
+- [29:30] to share their insights and opinions.
+- [29:32] As students
+- [29:33] of the future of work,
+- [29:33] Microsoft values
+- [29:34] inputs from a diverse set of voices.
+- [29:37] That said, the opinions
+- [29:38] and findings of our guests are their own,
+- [29:40] and they may not
+- [29:41] necessarily reflect Microsoft's
+- [29:42] own research or positions.
+- [29:44] WorkLab is produced by Microsoft
+- [29:46] with Trifilm.
+- [29:47] Sharon Kallander
+- [29:48] and Matthew Duncan produce
+- [29:49] the podcast with editorial support
+- [29:51] from Jon Ellenberg.
+- [29:52] Jessica Voelker is the WorkLab editor.

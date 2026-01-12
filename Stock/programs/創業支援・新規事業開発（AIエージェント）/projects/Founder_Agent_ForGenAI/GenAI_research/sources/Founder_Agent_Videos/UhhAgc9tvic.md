@@ -1,0 +1,1571 @@
+---
+title: "Transcript: UhhAgc9tvic"
+video_id: "UhhAgc9tvic"
+video_url: "https://www.youtube.com/watch?v=UhhAgc9tvic"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:53:48"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: UhhAgc9tvic
+
+- URL: https://www.youtube.com/watch?v=UhhAgc9tvic
+- Retrieved at: 2025-12-30T11:05:36+09:00
+
+## Text
+
+- [00:00] talk about um uh while we wait. So,
+- [00:05] uh how I wanted to start this off was
+- [00:07] just introducing um the panelists,
+- [00:10] myself to give you guys an idea of what
+- [00:12] we're uh what we work on in our day jobs
+- [00:15] and then I wanted to get into there's a
+- [00:17] lot of these buzzwords that um this
+- [00:19] panel is uh is uh titled with. I'd like
+- [00:23] to define each one and ask the panelists
+- [00:26] question uh questions about each one of
+- [00:28] these. Right? So I want to do a deep
+- [00:30] dive on what cognitive architectures
+- [00:32] actually mean and then I I'll ask
+- [00:34] panelist questions about that stuff. Um
+- [00:37] I wanted to understand how agents can
+- [00:40] use memory, how do you compress memory,
+- [00:43] how do you deal with uh kind of managing
+- [00:45] memory and then also dealing with a
+- [00:48] limited context size uh for language
+- [00:50] models. Uh I also wanted to see how we
+- [00:53] can talk about and understand planning
+- [00:55] and long horizon reasoning. Right? So if
+- [00:58] you think about a difficult enough task,
+- [01:02] you can you can almost think of it as a
+- [01:04] language model executing consecutive
+- [01:06] steps anywhere from 20 to 50 steps
+- [01:08] depending on how uh difficult the task
+- [01:11] is. Uh I wanted to ask about how you can
+- [01:15] use agents to execute those steps. Um
+- [01:18] and then I want to get more into multi-
+- [01:20] aent systems. So these are not just
+- [01:22] language models interacting and invoking
+- [01:24] other language models but human in the
+- [01:27] loop systems as well. And so all of our
+- [01:29] panelists um work at companies that are
+- [01:33] developing these cognitive
+- [01:34] architectures, these memory modules,
+- [01:36] these multi- aent uh interaction uh
+- [01:39] frameworks. So I wanted to touch on that
+- [01:43] and then I want to get to the last point
+- [01:44] which is how do we take the experiences
+- [01:47] that these multi- aent human in the loop
+- [01:49] systems that have have had in the past
+- [01:52] uh this could be customer interaction
+- [01:53] data this could be logged interactions
+- [01:56] how do you take that information and now
+- [01:58] make the system learn so that the
+- [02:00] thousandth time a system does something
+- [02:03] it does it a lot better than the first
+- [02:04] time that it did it. Um and then I
+- [02:06] wanted to end off with uh future
+- [02:08] direction. So, I've got a lot to uh I
+- [02:11] wanted to ask a lot of questions and
+- [02:13] give people a lot of um kind of a deep
+- [02:15] dive into uh into um the the topic at
+- [02:18] hand. Um and so hopefully we get through
+- [02:21] it all. But uh let's see if we can um
+- [02:26] Is the is the panel ready?
+- [02:38] Hey, Loren. How are you doing?
+- [02:42] >> I'm good. How you doing? Happy Monday,
+- [02:45] by the way.
+- [02:46] >> Yes.
+- [02:52] >> Should I kick it off? Like do intros or
+- [02:55] >> Awesome. Um I'm not sure.
+- [02:58] >> Yeah, you can go ahead and get started.
+- [03:00] >> I'm seeing everybody. Okay. Okay. Yeah.
+- [03:02] Sorry, I had to I had to scroll to see
+- [03:03] everybody uh was present. Okay, cool.
+- [03:05] So, I'd like to start off with uh with
+- [03:07] introductions. So, I'll introduce myself
+- [03:09] and then I'll throw it over to the panel
+- [03:11] um to give an overview of what you're
+- [03:13] working on uh your company as well. So,
+- [03:15] uh my name is Zan Hassan. I'm a a staff
+- [03:18] uh engineer at Together AI. Together AI
+- [03:21] is um AI native cloud. It's powering a
+- [03:24] lot of the training and inference
+- [03:26] workloads that a lot of leading uh genai
+- [03:29] companies are working on. Um, and we do
+- [03:32] everything from providing compute to
+- [03:34] kernels to to run these geni models that
+- [03:36] you're hearing all about. So maybe I'll
+- [03:39] throw it off to Loren. Uh, you can you
+- [03:41] can go next.
+- [03:43] >> Thanks, Dan. Everyone, my name is Loren.
+- [03:45] I lead the open source team at Crew AI.
+- [03:47] And to those who don't know what Crewai
+- [03:49] is, it's the leading multi- aent
+- [03:51] orchestration platform. So we pretty
+- [03:55] much kind of power and help companies
+- [03:57] like Docusine to PWC to uh Royal Bank of
+- [04:01] Canada kind of one build but also deploy
+- [04:04] and iterate and monitor their AI agents
+- [04:06] within these enterprise systems.
+- [04:11] >> All right, awesome. Thank you. Uh thank
+- [04:13] you Loren. Um next up uh Kartik.
+- [04:17] >> Thank you. Uh hey everyone, I'm Karthik.
+- [04:19] Uh I am head of AI at WAI. So at Wand um
+- [04:24] we basically are building the uh agentic
+- [04:27] operating system for hybrid workforces.
+- [04:29] Uh so there is a lot of overlap to
+- [04:31] things that Loren mentioned as well. You
+- [04:33] know we're trying to basically build uh
+- [04:35] a cognitive architecture that allows
+- [04:37] both human workers as well as agentic
+- [04:39] workers to kind of work together
+- [04:41] organize workflows and then engage in
+- [04:44] automation. You know ranging from kind
+- [04:46] of simple automation all the way to full
+- [04:48] automation of departments and companies
+- [04:50] and so forth. Um before I came to W um
+- [04:53] my uh background is actually as a
+- [04:56] researcher as as a uh research scientist
+- [05:00] in in planning and uh uh cognition. Uh
+- [05:03] back in the so I like to say that you
+- [05:04] know a decade or so ago I was working on
+- [05:07] agents before agents were cool. At that
+- [05:09] time agents were robots you know they
+- [05:10] were actually physically uh embodied
+- [05:12] agents. uh but yeah a lot of lot of the
+- [05:15] work that I did both as a grad student
+- [05:17] and then during my time at IBM research
+- [05:19] it's coming back now it's in vogue and
+- [05:21] I'm hoping that we can talk about it at
+- [05:22] the panel you know things like planning
+- [05:24] uh obser observability replanning memory
+- [05:28] cognition all of these things so yeah
+- [05:29] looking forward to it
+- [05:31] >> awesome thank you so much Garthik uh and
+- [05:33] last but not least Sarah
+- [05:37] >> um can you hear me okay I'm not okay
+- [05:39] >> yeah I can hear you fine
+- [05:41] >> okay cool um hi everyone Everyone um my
+- [05:43] name is Sarah. I'm one of the
+- [05:44] co-founders and CTO of Leta which is the
+- [05:47] platform for stateful agents. Um let
+- [05:49] basically came out of the MEGPT project
+- [05:51] which my co-founder and I and also our
+- [05:53] lead research scientists um worked on
+- [05:54] during our PhDs at UC Berkeley. Um,
+- [05:57] MEGBT2 is kind of like the first example
+- [05:59] of a stateful agent that has like
+- [06:00] memory, can learn, um, you know, a sense
+- [06:02] of identity. And so a lot of those ideas
+- [06:05] we built into Leta, which is essentially
+- [06:07] making it really easy to create these
+- [06:08] agentic services that are persisted,
+- [06:10] have memory, um, can be integrated into
+- [06:12] your applications. And today we work
+- [06:15] with companies like Built Rewards,
+- [06:16] Nokia, 11X to essentially help them
+- [06:19] build these agents that are able to
+- [06:20] learn.
+- [06:22] >> Awesome. Thank you so much. So, uh,
+- [06:25] during the introductions, um, there's a
+- [06:27] lot of concepts that were, uh,
+- [06:29] mentioned. So, I'd like to kind of
+- [06:31] define these concepts and then throw it
+- [06:33] over to to to the experts to answer
+- [06:36] questions about what's happening at the
+- [06:37] edge right now. I wanted to start off
+- [06:39] talking about cognitive architectures.
+- [06:41] And the way that I understand cognitive
+- [06:43] architectures, these are really the the
+- [06:45] blueprints or the scaffolding within
+- [06:46] which all of these different modules
+- [06:48] sit, right? to have perception um uh uh
+- [06:52] uh IO memory the ability to reason and
+- [06:55] plan and make decisions um and then also
+- [06:58] to to do tool calls and uh and um action
+- [07:01] things in the real world. So
+- [07:03] traditionally a lot of cognitive
+- [07:05] architectures have been quite modular
+- [07:08] where you could have a a planning system
+- [07:11] that feeds into a decision-m system and
+- [07:14] then you have memory that that that
+- [07:15] you're able to access. Uh and more
+- [07:18] recently we've been seeing kind of these
+- [07:20] all powerful monolithic LLMs that do
+- [07:23] everything right. They they plan and
+- [07:25] then they do in context uh kind of
+- [07:28] management of what's been executed and
+- [07:29] what's not been executed. Um so I wanted
+- [07:32] to start off and just uh pose the
+- [07:34] question to to the folks on the panel.
+- [07:36] How do you think today's language model
+- [07:38] based uh agents uh are do you think that
+- [07:41] they're modular architectures or do they
+- [07:42] differ fundamentally from classical uh
+- [07:45] cognitive models that are um that are
+- [07:47] more modular?
+- [07:50] So maybe we can go uh backwards. So
+- [07:52] let's maybe we can start off with Sarah.
+- [07:55] >> Yeah. So I I mean I think there's kind
+- [07:57] of different ways that people like to
+- [07:59] think of LMS. Um I personally kind of
+- [08:02] prefer like like there's like the more
+- [08:04] like oh neuroscience like cognitive
+- [08:06] architectures um mentality but then
+- [08:08] there's also kind of like the more like
+- [08:10] systems like operating system mentality
+- [08:12] and and I think that abstraction is
+- [08:14] actually much much easier to think about
+- [08:16] like because in the end like an LLM is
+- [08:18] just a tokens in tokens out it's just
+- [08:20] like a string generation machine right
+- [08:22] and so all these things that we do like
+- [08:24] tool calling memory management multi-
+- [08:26] aent systems it's kind of like mapping
+- [08:28] down those systems into like this like
+- [08:32] LLM computer that's just generating
+- [08:34] tokens. So I I think for me I I
+- [08:36] personally find it easier to think more
+- [08:38] so of the LLM as like a CPU and
+- [08:41] essentially like the the tokens that
+- [08:43] we're putting into it or kind of like a
+- [08:44] compiled program. Um and so I I think
+- [08:48] you know there's of course like
+- [08:49] different like agent architectures,
+- [08:50] different way that ways that you can
+- [08:51] structure things, manage the context.
+- [08:53] Um, but I I personally find that way of
+- [08:56] thinking of things a lot easier because
+- [08:59] um I think it is clo more closely tied
+- [09:01] to the reality of what an LLM is, which
+- [09:03] is ultimately just, you know, this token
+- [09:05] generation machine rather than um
+- [09:07] something like a human brain.
+- [09:09] >> Yeah. Yeah. And I know that Karpathy put
+- [09:12] out um software 3.0 0 talk where he
+- [09:14] makes a similar analogy where language
+- [09:17] models are really like a CPU or an
+- [09:19] operating system and then you've got all
+- [09:21] of these different modules that uh that
+- [09:22] you give them access to. Um awesome
+- [09:26] Carik uh how about how about your take?
+- [09:29] >> Yeah, so I think I I agree I think a lot
+- [09:31] with what Sarah said. I think it's a
+- [09:33] great uh distinction between kind of
+- [09:35] more of the neuroscience and I think now
+- [09:37] when we're coming into this modern
+- [09:38] paradigm what we would often call
+- [09:39] neurosymbolic kind of architectures,
+- [09:41] right? uh combining neural methods on
+- [09:43] the one hand and then putting them in a
+- [09:45] scaffolding of more symbolic methods uh
+- [09:47] versus kind of the more you know
+- [09:49] operating system metaphor. But one thing
+- [09:51] I also want to talk about is a little
+- [09:53] bit of kind of a historical perspective
+- [09:55] you know from from the research or from
+- [09:56] the AI side of things right. So
+- [09:59] cognitive architectures have been around
+- [10:00] pretty much for as long as AI as a field
+- [10:02] has been around, right? So people were
+- [10:03] working on cognitive architectures even
+- [10:05] in the 1960s and the 1970s. In fact,
+- [10:08] some of the earliest work in the whole
+- [10:09] field of AI as we know it was around
+- [10:12] these kind of uh well meshed out
+- [10:15] cognitive architectures that could
+- [10:16] actually run robots and actual real
+- [10:18] world systems and so on. Right? What I
+- [10:20] see now and I actually gave a talk about
+- [10:22] this last last week as well. What I see
+- [10:24] now is that a lot of the ideas from that
+- [10:26] uh time whether they are in terms of
+- [10:28] communication between agents or they're
+- [10:30] in terms of the planning the you know
+- [10:32] observing the world replanning all of
+- [10:34] that a lot of those are coming back now
+- [10:36] as we start um you know uh using LLM for
+- [10:39] more and more complex tasks now right so
+- [10:42] essentially I think what's happened is
+- [10:44] the engines like the the components in
+- [10:46] these architectures have become more
+- [10:48] powerful right so we're replacing each
+- [10:49] of the individual components with
+- [10:51] specific models right so there are
+- [10:52] models that are good for um you know uh
+- [10:55] long horizon planning for example there
+- [10:57] are models that are good for you know
+- [10:59] completion there are models that are
+- [11:00] good for different things so we are we
+- [11:02] have a you know powerful models now but
+- [11:05] we still need a little bit of that
+- [11:07] determinism you know because I think one
+- [11:08] of the big problems that people have had
+- [11:09] obviously with LLM based systems is that
+- [11:12] you know the the consistency is just not
+- [11:13] there when you try to go from PC's to
+- [11:15] actual production level things right so
+- [11:17] one of the encouraging things and for me
+- [11:19] this is encouraging because it it shows
+- [11:20] that we're actually building on history
+- [11:22] and on the experience and errors of you
+- [11:24] know other people decades before us is
+- [11:26] that people have been building these uh
+- [11:28] bringing in these ideas into various
+- [11:31] things you know whether it is a crew AI
+- [11:32] or an autogen or an AG2 or you know
+- [11:34] whether it's a protocol like an A2A MCP
+- [11:37] whatever right a lot of these ideas from
+- [11:39] the past are actually now making
+- [11:40] themselves felt again and I think this
+- [11:42] is somewhat the right way because to me
+- [11:44] at least this is a very personal view I
+- [11:45] might change this you know if there are
+- [11:47] further advances but to me it seems like
+- [11:50] where we should be putting our effort
+- [11:51] into is not building larger and larger
+- [11:53] LLMs that can be more and more general
+- [11:55] and generic, right? But rather smaller,
+- [11:58] more specialized components or units,
+- [12:00] right? And then those units are embedded
+- [12:02] into these more symbolic structures in
+- [12:04] some sense because ultimately that gives
+- [12:06] you more more of a level of control and
+- [12:09] more customizability and more
+- [12:10] consistency which is what businesses are
+- [12:12] looking for at the end of the day right
+- [12:14] because like this big gap between the
+- [12:16] research and the PC's uh and then you
+- [12:18] know kind of business applications on
+- [12:20] the other uh end which is where all the
+- [12:22] you know money is is basically this
+- [12:24] notion of you know can you break it down
+- [12:26] into individual components can you do
+- [12:28] credit blame assignment if something
+- [12:29] goes wrong Can you tell me which
+- [12:30] component actually messed that up?
+- [12:32] Right? And can you effectively gate the
+- [12:34] propagation of errors? Right? So I think
+- [12:36] cognitive architectures have a very
+- [12:38] important role to play in that. Uh and I
+- [12:40] think there's a lot that we can learn
+- [12:41] from the past as we try to kind of
+- [12:43] reinvent the wheel in some sense. Right.
+- [12:44] So so that's kind of my take on that.
+- [12:46] >> Yeah. Awesome. I I wanted to pull on uh
+- [12:50] one of the one of the threads that you
+- [12:51] mentioned there, but I I want to give
+- [12:53] Lorenza a uh Loren a go at the question
+- [12:56] and then we can go into go into the next
+- [12:58] question after that.
+- [13:00] speak. Yeah, pretty much agreed with
+- [13:02] Cartik and Sarah here like the LM being
+- [13:06] the core of our operating system as a
+- [13:10] developer tool slash um framework kind
+- [13:13] of provider right and and giving that
+- [13:15] perspective think of like these
+- [13:18] architectural um components that we have
+- [13:22] the cognitive architecture as components
+- [13:24] that we have so we have our LM that has
+- [13:26] now access to memory before it didn't
+- [13:29] maybe now if you're using a framework
+- [13:31] like crew like leta for example you have
+- [13:34] these modules that you could easily plug
+- [13:35] in and play for example if you want
+- [13:37] memory equals just do memory equals true
+- [13:39] for crew AI or reasoning memory uh
+- [13:42] reasoning equals true so these are like
+- [13:44] components that you could add on to your
+- [13:45] agents you could add any tool that you
+- [13:47] want right you could observe and and
+- [13:49] monitor that um and these are like kind
+- [13:51] of like special abilities that your LM
+- [13:54] kind of has out of the box there are
+- [13:55] some reasoning models too explain like
+- [13:58] as these models get better and better.
+- [14:00] Some of the these abstractions or
+- [14:02] components kind of are now built in
+- [14:05] within like the inference models, right?
+- [14:07] But if you were to put it from like a
+- [14:09] perspective of you might want
+- [14:11] specialized LMS for specific types of
+- [14:13] use cases, right? Um maybe you don't
+- [14:16] need a reasoning model, but you need
+- [14:18] memory. So these are kind of like the
+- [14:21] the things frameworks give you out of
+- [14:23] the box. They're kind of battle tested.
+- [14:24] they're used by you know enterprise
+- [14:27] companies but at the same time it's
+- [14:30] giving you the right tools that you need
+- [14:32] to make that decision for. So if you
+- [14:34] have a particular use case that you have
+- [14:35] in mind, you don't you may not need like
+- [14:38] the biggest of models, right? Maybe a
+- [14:41] eight bill parameter model with memory
+- [14:43] and the right tools. Uh maybe even
+- [14:45] fine-tune for particular use cases are
+- [14:47] kind of enough. Uh but from to answer
+- [14:49] your question, yeah, I think they're
+- [14:51] from a perspective of components, think
+- [14:53] of it like having a toolkit, right? you
+- [14:56] have an LM that's kind of in the center
+- [14:57] of all of that and you can bring and
+- [14:59] pick and choose what tools you want to
+- [15:01] include whether that be a framework or
+- [15:04] you know a singular agent that you're
+- [15:05] making yourself or you know an LLM call.
+- [15:08] >> Awesome. Thank you so much. So what I
+- [15:10] wanted to do for maybe the next half an
+- [15:12] hour is essentially pick each one of
+- [15:14] these tools that all of you have
+- [15:15] mentioned um and get your understanding
+- [15:17] of them and uh and ask uh questions that
+- [15:20] the community is kind of grappling with.
+- [15:21] So the first one um and this is the one
+- [15:24] that I'm most interested in is memory.
+- [15:26] So Lorenz you just mentioned that you've
+- [15:28] now given these language models uh
+- [15:30] access to memory. They without without
+- [15:32] connection to an external database or a
+- [15:35] classical like a vector database or a
+- [15:37] classical database or even in context uh
+- [15:39] memory really the only memory they have
+- [15:41] is what they've kind of distilled from
+- [15:43] their pre-training and post-training.
+- [15:45] Right? So I wanted to start off and kind
+- [15:47] of pose the question of how do you think
+- [15:49] of memory and what are the different
+- [15:51] types of memory um that you can that you
+- [15:53] can give to uh to these agents.
+- [15:57] >> Yeah. So within crew we have kind of
+- [16:00] like the same similarities of like the
+- [16:03] sore kind of cognitive architecture when
+- [16:05] it comes to like memory systems right we
+- [16:07] have episodic memory which is kind of
+- [16:10] like long-term memory where you can
+- [16:11] self-learn and evaluate over time. We
+- [16:13] have semantic memory kind of like
+- [16:15] knowledge sources that you could plug
+- [16:16] and play. Um and then we have um
+- [16:19] procedural memory which is kind of like
+- [16:21] the rules that you have. For procedural
+- [16:23] we have something called entity memory
+- [16:24] kind of like remembers certain things
+- [16:26] and attributes kind of like your writing
+- [16:28] style to who's important in this
+- [16:30] particular company. We focus our memory
+- [16:33] a lot when it comes to orchestrating
+- [16:36] multiple tasks together. So instead of
+- [16:38] like just remembering a birthday for
+- [16:40] example, uh it's remembering uh how are
+- [16:43] you passing in tool inputs for a
+- [16:45] particular like task uh we have
+- [16:47] long-term memory that does a self
+- [16:48] evaluation after every test gets
+- [16:51] executed and that self-evaluation has a
+- [16:54] suggestion on how it can improve and
+- [16:56] like a score. It uses Alum as the judge
+- [16:58] to calculate all these things. But
+- [17:00] that's kind of like how we see a crew of
+- [17:03] agents kind of self-improving over time.
+- [17:05] And if you were to picture what a crew
+- [17:08] is, it's multiple agents, right? It's
+- [17:09] not just one agent. Each agent has its
+- [17:12] own knowledge store and memory store and
+- [17:14] state if you're using like a flow for
+- [17:16] example. But um together it's kind of
+- [17:19] like how do we orchestrate a automation
+- [17:22] use case versus like a chatbot use case.
+- [17:25] So think of an example being like let's
+- [17:27] do lead enrichment. We're pulling data
+- [17:29] from HubSpot. We're trying to enrich
+- [17:31] this user using maybe something from
+- [17:33] online. We're trying to find their
+- [17:34] LinkedIn. So the tools that come into
+- [17:36] that the uh memories that we generate
+- [17:40] like entities like who's important for
+- [17:42] this type of company when it comes to
+- [17:43] like a lead enrichment, what company do
+- [17:45] they work in, right? These get stored as
+- [17:47] memories for future iteration uh future
+- [17:50] executions. So from that perspective,
+- [17:53] our memories kind of like coupled
+- [17:55] towards automation and agentic like
+- [18:00] pipelines you can say versus like oh
+- [18:03] when was my birthday right? So I think
+- [18:05] this is kind of like the road we were
+- [18:07] taking when it comes to like memory
+- [18:09] systems more so than um anything else.
+- [18:14] >> Awesome. I I'd like to go to Sarah next
+- [18:17] and I'd like to kind of augment the
+- [18:18] question a little bit as well. Um I'd
+- [18:20] like for you to talk about the kind of
+- [18:22] the multi-ter memory system um that Leta
+- [18:24] has but then maybe also touch on
+- [18:27] practically how those uh those
+- [18:29] multi-tered uh different memories are
+- [18:31] implemented. So a lot of the community
+- [18:33] is kind of grappling with all sorts of
+- [18:36] different databases, classical
+- [18:37] databases, uh embedding uh embedding
+- [18:40] approaches. Um so how does Letta uh deal
+- [18:42] with this?
+- [18:45] Yeah. So I I think you know this this
+- [18:47] actually just comes back to once again
+- [18:49] the fact that like LM are just text in
+- [18:50] text out machines, right? And so the way
+- [18:53] that we think of memory is is there
+- [18:54] there's or I think the way most people
+- [18:56] think of memory now is is there there's
+- [18:57] kind of like two tiers. There's the
+- [18:59] memory in terms of like the state or
+- [19:02] what information's in the context window
+- [19:04] and then there's also external
+- [19:06] information. So stuff that's outside of
+- [19:07] the context window, but it's somehow
+- [19:09] accessible to the LLM, whether it's
+- [19:11] through like tool calling, having like
+- [19:13] another agent retrieve things. Um, and
+- [19:15] and I think like this external form of
+- [19:17] memory is like what most people think of
+- [19:19] as memory. Like whenever you have like
+- [19:21] plug-in memory, it's almost always just
+- [19:23] like some rag based thing. So you know,
+- [19:25] if I add like a memory MCP server or
+- [19:27] something, that's all that's essentially
+- [19:29] doing is just like fetching um some
+- [19:31] records that I have in some external
+- [19:33] storage, bringing them back into the
+- [19:34] context window. And so now the LM is
+- [19:36] like aware of that. Um but I I think
+- [19:39] memory it's it is actually like a lot
+- [19:42] more than that. Um because I think like
+- [19:45] our devril actually had like a pretty
+- [19:46] good um way to put this which is that
+- [19:49] you know me essentially explaining that
+- [19:51] like memory is not just a matter of like
+- [19:52] doing rag or doing recall. And I think
+- [19:55] the example he gave was like um you know
+- [19:57] recall is remembering that you hit me.
+- [20:00] Memory is remember you know hating you
+- [20:02] because you hit me. a bit of a violent
+- [20:04] example. Um, but I I think that does
+- [20:07] really get to the crux of it because I
+- [20:09] think with these rag based systems where
+- [20:10] you're just retrieving potentially
+- [20:12] relevant records um into the context
+- [20:14] like you know maybe the last user
+- [20:15] message doing some embedding similarity
+- [20:18] or some like graph search over like some
+- [20:20] external system and bringing that back
+- [20:22] into context all that really gives you
+- [20:24] is recall. So if you want to have you
+- [20:26] know more of like an agent having an
+- [20:28] ability to learn or to like adapt its
+- [20:30] persona you need to have something
+- [20:31] that's more like system prompt learning.
+- [20:33] So essentially rewriting the um actual
+- [20:35] like context of the agent over time. And
+- [20:38] the way that we did that in MGBT I I
+- [20:40] think MEGBT was kind of like the first
+- [20:41] example of this. There was just like a
+- [20:43] human section and a persona section
+- [20:44] inside of the context window. And the
+- [20:46] agent had the ability to edit those
+- [20:48] portions of its context window. And in
+- [20:50] Letto's kind of generalized it more to
+- [20:52] have something called memory blocks. Um
+- [20:54] so essentially the context window is
+- [20:56] broken up into multiple kind of
+- [20:58] allocated sections of of memory or our
+- [21:00] context. Um, and the agent is able to
+- [21:03] essentially like rewrite like, you know,
+- [21:05] maybe the human section or the
+- [21:06] organizational section or the general
+- [21:08] purpose or like tools used section. And
+- [21:10] so through this, the agent is
+- [21:12] essentially like continuously like
+- [21:13] rewriting the system prompt. Um, and
+- [21:15] that's kind of what allows it to
+- [21:17] actually kind of change its own
+- [21:18] instructions in a way that, you know, I
+- [21:20] think is much closer to learning than
+- [21:22] these more like rag based approaches.
+- [21:24] And we also had some recent work called
+- [21:26] like sleeptime compute where we actually
+- [21:28] offloaded a lot of this learning onto a
+- [21:30] different agent. So now in Letta like
+- [21:32] you can actually choose a new agent
+- [21:34] architecture where it's not just a
+- [21:36] single agent that's modifying its
+- [21:37] memory, managing its memory, doing
+- [21:39] retrieval. It's actually one agent
+- [21:41] that's just talking to you. It's kind of
+- [21:42] general purpose and then it has another
+- [21:44] agent um that's essentially working in
+- [21:46] the background to do memory management
+- [21:48] operations. So that other sleeptime
+- [21:50] agent is getting all the conversational
+- [21:52] history, all the events that are
+- [21:53] happening and its sole purpose is to
+- [21:55] just rewrite context to make sure that
+- [21:57] the primary agent is, you know, as
+- [22:00] adaptive um as possible, learning as
+- [22:02] much as possible. And that's really only
+- [22:05] possible because of the way that we
+- [22:06] architected Leta. So everything in Leta
+- [22:08] is essentially persisted in the
+- [22:09] database, including these context
+- [22:11] blocks. So you can do really cool things
+- [22:13] like allowing different agents to share
+- [22:15] context blocks. So that's kind of like
+- [22:16] shared context where if either agent
+- [22:18] modifies it um it's propagated to all
+- [22:21] the agents that are you know attached to
+- [22:22] it. Um so you could theoretically have
+- [22:24] like you know synced organizational
+- [22:26] memory stuff like that. Um and the
+- [22:28] blocks are also standalone so you can
+- [22:29] always like kind of query a block that's
+- [22:31] about a specific topic. We have a really
+- [22:33] cool um example agent called like void.
+- [22:36] That's like a an agent on blue sky. And
+- [22:39] void is kind of interesting because it's
+- [22:40] swapping out its context blocks
+- [22:42] continually. So it always has like 10
+- [22:44] context blocks about different users and
+- [22:46] depending on which set of users it's
+- [22:48] talking to, it actually like swaps out
+- [22:50] which set of context blocks it has. Um,
+- [22:52] so that's kind of like a a another layer
+- [22:55] I guess where like you're doing
+- [22:56] retrieval on like the po pieces of
+- [22:58] context themselves and then also
+- [23:00] rewriting those. Um, so yeah, there's
+- [23:02] like a lot of different crazy things you
+- [23:03] can do, but I I think ultimately it does
+- [23:05] just come down to like you know what is
+- [23:07] stuff that's stored in context that's
+- [23:09] being rewritten either by the agent
+- [23:10] itself or something else. And then also
+- [23:12] what is like your external store and I
+- [23:14] actually think like the details of a lot
+- [23:16] of these things like don't really
+- [23:18] matter. Um it's just in terms of like
+- [23:20] the incontext memory it's basically just
+- [23:22] like replacing the text that you have
+- [23:24] right and I think for external stores
+- [23:25] like you know there's a lot of things
+- [23:26] that people do like graphs or like you
+- [23:29] know just embedding search. You can
+- [23:31] actually even just use like GP and
+- [23:33] files. We did like an experiment with
+- [23:34] that recently and it works surprisingly
+- [23:36] well. Um but yeah, I think that kind of
+- [23:38] just depends like more on your
+- [23:39] application and the details of what you
+- [23:41] want to store. Um but it's like not
+- [23:43] actually as impactful as you might think
+- [23:45] as compared to like um system prompt
+- [23:47] rewriting.
+- [23:49] >> Awesome. Uh Caric, I'd like to pose the
+- [23:52] same question to you, but touching on
+- [23:53] some of uh what Sarah mentioned around
+- [23:56] thinking of memory as system prompt
+- [23:58] rewriting. One of the very practical
+- [24:00] problems that the that developers and um
+- [24:03] the community um has is running into
+- [24:06] context length issues. So if memory
+- [24:08] really is kind of uh making sure that
+- [24:11] the system prompt is fresh, all of the
+- [24:13] information that you put into the
+- [24:14] language model that you condition its
+- [24:16] generation on is fresh. Um how do you
+- [24:19] deal with kind of compressing those
+- [24:21] memories? Uh having to compress those
+- [24:24] memories when you run into context
+- [24:25] length issues. state-of-the-art models
+- [24:27] are about 200,000 for a lot of these
+- [24:30] models. Gemini about a million to a
+- [24:32] million. Um so maybe how can we how can
+- [24:35] we deal with that?
+- [24:37] >> Yeah. No, I think that's a great
+- [24:38] question. In fact, I think that's a
+- [24:40] question of very uh you know huge
+- [24:43] practical importance because like you
+- [24:44] said developers who are making things
+- [24:47] right now they are working mostly with
+- [24:48] those things right so the way I think of
+- [24:50] this is so so there's a phrase that's
+- [24:52] been thrown around a lot in the last one
+- [24:53] or two months. I'm sure all of you here
+- [24:55] on this call have heard it context
+- [24:56] engineering, right? Which is basically
+- [24:57] this notion of you have context, you
+- [24:59] have context windows, right? But now
+- [25:01] what you need to do is you need to kind
+- [25:03] of uh impose some sort of structure and
+- [25:05] some sort of hierarchy and you know some
+- [25:07] sort of engineering basically on top of
+- [25:09] that context itself and obviously Zen
+- [25:11] that problem comes up because you have
+- [25:13] models whose context windows are being
+- [25:15] exceeded by you know what we want to
+- [25:18] give those models and also remember that
+- [25:20] even if a model advertises itself as a I
+- [25:22] don't know 125k or 200k or 1 million you
+- [25:25] know context window model it's not
+- [25:27] necessary that it's going to actually
+- [25:28] process all of the 1 million tokens that
+- [25:30] you're putting into that context, right?
+- [25:32] This is a very wellstudied and
+- [25:33] well-known effect in language models at
+- [25:35] this point, right? Like the whole notion
+- [25:36] of, you know, they they models tend to
+- [25:38] focus more on the beginning and the end
+- [25:39] of the context. And there's this whole
+- [25:41] needle in a haststack problem in the
+- [25:42] middle of it, right? It's like the thin
+- [25:44] non-existent middle. So, the way that I
+- [25:47] like to think about it, and I actually
+- [25:48] want to go back, I I actually really
+- [25:49] liked the apherism that Sarah used
+- [25:51] about, you know, recall versus memory,
+- [25:53] right? That, you know, the difference
+- [25:54] between remembering that something is
+- [25:56] bad for you versus hating it because,
+- [25:58] you know, it was bad for you. And I
+- [25:59] actually want to extend it out one
+- [26:01] further step. Right? So there's recall,
+- [26:02] there's memory, but then there's also
+- [26:04] this notion of knowledge and wisdom,
+- [26:06] right? So the idea there is that if
+- [26:08] something has happened a bunch of times
+- [26:09] over and over and over again, right?
+- [26:11] Then it actually is knowledge that you
+- [26:13] can encode and write down, right? So
+- [26:14] that it actually becomes something that
+- [26:16] you can use for, you know, future uh uh
+- [26:19] computation and for creating things in
+- [26:21] the future and so on. And the reason I
+- [26:22] talk about this is because again I think
+- [26:25] a lot of this panel for me I'm going to
+- [26:27] be the guy who keeps saying you know but
+- [26:29] you know remember this stuff that was
+- [26:30] done in the past right which which I
+- [26:31] think there is a lesson there for all of
+- [26:33] us who are building and developing right
+- [26:35] um one of the very uh uh powerful tools
+- [26:39] in AI uh you know over the last 20 years
+- [26:41] but of course the work has been going on
+- [26:42] for many decades is this whole notion of
+- [26:45] knowledge graphs right so the idea there
+- [26:47] is that you know you can basically uh
+- [26:50] you know extract from the context that
+- [26:52] is there and you can start making these
+- [26:54] structural representations of knowledge
+- [26:56] itself. Right? So a knowledge graph at
+- [26:58] its simplest is basically a graph you
+- [27:00] know nodes and edges and then the nodes
+- [27:02] are basically concepts or entities and
+- [27:03] the edges are relationships between them
+- [27:05] right but one of the things I think that
+- [27:07] could be really powerful is the
+- [27:09] distillation of the knowledge of the
+- [27:11] world right into these structured graph
+- [27:14] representations and that's one step you
+- [27:17] know representing that knowledge the
+- [27:18] other step is teaching our LLMs how to
+- [27:21] actually use you know access and use the
+- [27:23] knowledge that is there in these
+- [27:24] graphical structures for that you need
+- [27:26] obviously a bunch of different tools and
+- [27:28] you know you need a bunch of different
+- [27:29] uh models to be trained to access that
+- [27:31] and the reason I think that that's so
+- [27:33] important right is the world's knowledge
+- [27:36] can be many different things depending
+- [27:38] on your application right it can be
+- [27:39] knowledge about your particular company
+- [27:41] it can be knowledge about a particular
+- [27:42] use case it can be knowledge uh about a
+- [27:45] particular country's you know sovereign
+- [27:48] uh I don't know wealth things for
+- [27:50] example right um so these are very
+- [27:52] customizable things and if you think
+- [27:54] about it this is the way that we as
+- [27:55] humans tend to interact with stored
+- [27:57] knowledge and stored context, right?
+- [27:59] This is the way that older, let let me
+- [28:01] say older AI agents, you know, preLLM AI
+- [28:03] agents, this is how they used to access
+- [28:05] that as well, right? And so for me, this
+- [28:07] is very much tied into this concept of
+- [28:09] memory because knowledge is nothing but
+- [28:11] memory that has been aged like fine
+- [28:13] wine, right? If you think about it,
+- [28:15] knowledge, whether it is knowledge that
+- [28:16] we have or knowledge that's been passed
+- [28:18] on through previous generations or
+- [28:19] through teaching and so on is basically
+- [28:21] just memory and context that has been,
+- [28:24] you know, stacked up layer after layer
+- [28:25] after layer until you know that okay,
+- [28:27] this is just received wisdom. I can
+- [28:28] just, you know, kind of depend on it and
+- [28:30] so on. Of course, there are other
+- [28:31] problems on the other side of it. You
+- [28:32] know, there are biases that get built in
+- [28:34] and all of that, right? But ideally,
+- [28:36] what we want our agentic systems to be
+- [28:38] heading towards is the ability to both
+- [28:41] represent memory, right? in that in that
+- [28:43] way and also use that memory in that in
+- [28:46] that way and I think one of the places
+- [28:47] that we can turn to just like we've had
+- [28:49] all these advances incredible advances
+- [28:51] in the last one or two years including
+- [28:52] all of us here we've been working on
+- [28:53] some of these we've had advances on
+- [28:55] cognitive architectures on uh kind of
+- [28:58] interoperable platforms and and you know
+- [29:00] tools and things like that I think
+- [29:02] what's coming next is also advances in
+- [29:04] how to represent context how to
+- [29:06] represent knowledge memory all of these
+- [29:08] things right and how to actually have
+- [29:10] models that can learn how to use these
+- [29:12] Right? These don't need to be huge
+- [29:13] models, right? You don't need to have
+- [29:15] multi-billion parameter models because
+- [29:16] remember if you're able to externalize
+- [29:19] the knowledge and teach the model how to
+- [29:21] actually retrieve the information that
+- [29:22] it needs, right? You no longer need to
+- [29:24] store all of that information inside of
+- [29:25] the model during pre-training. And I
+- [29:27] think that really will help with scale
+- [29:29] up. It'll also help with I think uh uh
+- [29:31] interpretability, right? Because once
+- [29:32] the knowledge is stored outside, it
+- [29:34] automatically becomes a lot more
+- [29:36] interpretable than knowledge that is
+- [29:37] inside a model during pre-training and
+- [29:39] so forth, right? So I think that's my
+- [29:40] kind of maybe slightly tangential take
+- [29:42] on memory which is that we need to focus
+- [29:44] more on systematizing it into knowledge
+- [29:46] uh in some sense.
+- [29:48] >> Awesome. So this actually gives me
+- [29:51] multiple ways that I can go forward now.
+- [29:53] So right now I I I might want I I want
+- [29:56] to skip the the next two things that I
+- [29:57] wanted to talk about and get into
+- [29:59] actually the learning aspect that you
+- [30:01] all that you all talked about. So what I
+- [30:03] how I want to take the conversation is
+- [30:04] going from memory um and then seeing how
+- [30:07] do how can agents how can these language
+- [30:10] models that are token in token out how
+- [30:12] can they learn from iterative previous
+- [30:15] uh memories previous experiences um so I
+- [30:18] I'd like to uh touch on that how do you
+- [30:22] uh is it is it a matter of kind of um
+- [30:24] reinforcement learning fine-tuning or is
+- [30:26] it a matter of context engineering and
+- [30:29] retrieving the appropriate context for
+- [30:31] the task is at a hand. Um, and so this
+- [30:34] time the maybe maybe we can do uh kind
+- [30:36] of a round on on this and then we can
+- [30:38] get into the other the other tools. So,
+- [30:41] um, Loren, maybe you can start us off.
+- [30:44] >> Yeah, I'm going to touch on two things
+- [30:46] that we currently do and then kind of
+- [30:48] like the future of how I essentially see
+- [30:50] this from the perspective of how we do
+- [30:53] it at crew. So, we have two ways for
+- [30:56] kind of like self-improving, right? Uh,
+- [30:58] one is through reinforcement learning
+- [30:59] with human feedback. Uh and again kind
+- [31:01] of like just giving painting a picture
+- [31:03] of how that works in crew is like for
+- [31:06] every task that gets executed it will
+- [31:08] pause and it will give you a suggestion
+- [31:10] like a field where you can give a
+- [31:12] suggestion on how it can improve over
+- [31:14] time and you as a as a person or as um u
+- [31:18] someone who's administrating this this
+- [31:20] agent workflow you have the ability to
+- [31:22] type hey maybe use these types of
+- [31:25] websites when you're scraping the web u
+- [31:27] these are the types of entities I want
+- [31:30] uh enriched when it comes to like a lead
+- [31:32] for example that I've I'm trying to
+- [31:34] search for right so after every task
+- [31:37] usually in a crew there's like two to
+- [31:39] three tasks per crew that we have uh
+- [31:41] these are these get stored into memory
+- [31:44] for future iterations to load it's a
+- [31:46] little bit on like the simpler end super
+- [31:48] practical we just reingject that into
+- [31:50] the prompts later on as like memories
+- [31:52] and how it can improve there's like a
+- [31:54] suggestions on kind of like the prompt
+- [31:57] on the prompt layer that we inject or
+- [31:59] future iterations using that retrieved
+- [32:02] memory store. When you use memory equals
+- [32:05] true within crew, so this is the second
+- [32:07] piece. Um, long-term memory after every
+- [32:10] task, it automatically scores itself. It
+- [32:14] gives a a suggested score of like how it
+- [32:16] did based off a task uh output. So when
+- [32:20] you define a task and crew, you have
+- [32:22] something called description and an
+- [32:24] expected output. Expected output is kind
+- [32:26] of like your criteria of success, right?
+- [32:29] So this is something we require by
+- [32:30] default uh when you're defining a an
+- [32:33] agent task. And what we do is using
+- [32:36] elements as a judge, we take a score
+- [32:38] based off like the task outputs itself
+- [32:41] against that expected output and we
+- [32:44] store that into long-term memory. And
+- [32:45] again, kind of like the same cycle as
+- [32:47] reinforcement learning with human
+- [32:48] feedback. Kind of like the same concepts
+- [32:50] of this task evaluator gets stored into
+- [32:53] memory. So kind of like think of a way
+- [32:56] of how it can improve itself. That's
+- [32:58] kind of like the prompt and score that
+- [33:00] we that we give it. Um the future of how
+- [33:03] we can take this to Clark's point is
+- [33:06] like this concept of context
+- [33:08] engineering. Can you as an engineer can
+- [33:10] you uh from a using a framework
+- [33:13] perspective right have the toolkit to
+- [33:17] define how this kind of context is used
+- [33:20] stored uh and retrieved right so
+- [33:24] bringing all these together you have
+- [33:26] reinforcement learning with human
+- [33:27] feedback kind of ties into long-term
+- [33:30] memory for like a aentic
+- [33:32] self-improvement over time and then for
+- [33:35] the future for like developers not not
+- [33:37] the future but for engineers ers who
+- [33:39] want to have more control over this
+- [33:41] context. This is something where where
+- [33:44] context engineering comes into play.
+- [33:47] >> Awesome. Um Sarah, I'd like to get your
+- [33:49] take on this, but then I'd also uh
+- [33:51] modify the question a little bit which
+- [33:53] is um how do how do these language
+- [33:56] models how do you think they can learn
+- [33:58] from past experiences but then also how
+- [34:00] do you allow users or developers to
+- [34:02] inject hard constraints? So let's say uh
+- [34:05] you want to alter the behavior of the
+- [34:07] language model. how can they learn from
+- [34:10] uh kind of uh human imposed constraints
+- [34:12] or business uh imposed constraints as
+- [34:15] well?
+- [34:17] >> Yeah. So I I mean I think with Leta like
+- [34:19] the primary mechanism for learning is
+- [34:21] essentially like you know what we were
+- [34:23] talking about before which is is
+- [34:24] rewriting the the memory blocks um which
+- [34:27] eventually go into the system prompt and
+- [34:29] and yeah I mean if you try just try leta
+- [34:32] today if you like you know tell it like
+- [34:33] oh like start using emojis in your
+- [34:35] responses or like you know don't do this
+- [34:37] like you'll see that it'll often
+- [34:38] actually update its its memory blocks or
+- [34:40] its memor in in context memory to you
+- [34:43] know basically like write its own prompt
+- [34:44] to give itself instructions to to do
+- [34:46] that in the future. Sure. So I I think
+- [34:48] that's kind of like the most like basic
+- [34:49] form of learning that we support. Um in
+- [34:52] terms of kind of you know more like
+- [34:54] reinforcement learning based things. I
+- [34:56] think this is like a tough problem. Like
+- [34:58] my my co-founder Charles his PhD was
+- [35:00] actually in in RL and he actually I
+- [35:04] think is like a big believer in more
+- [35:05] just like using um you know kind of like
+- [35:09] using that for as like another form of
+- [35:11] like system prompt learning or like you
+- [35:12] know potentially like using the feedback
+- [35:14] that you get from the agents. Um, so
+- [35:16] like in Letto, we do have like a thumbs
+- [35:17] up, thumbs down that you can put for
+- [35:19] different responses. Um, so eventually
+- [35:21] that could be used as essentially like a
+- [35:23] mechanism of feedback to potentially do
+- [35:25] like automated like prompt tuning maybe
+- [35:28] similar to something like DSPI um to
+- [35:30] essentially encourage those agents in
+- [35:32] the long run um to kind of like rewrite
+- [35:35] their prompts or like to automatically
+- [35:36] rewrite the prompts to um potentially
+- [35:38] like you know do better in whatever the
+- [35:40] task is. Um, another kind of related
+- [35:43] topic is also like sleeptime compute
+- [35:45] which I mentioned before which is
+- [35:47] essentially having you know these agents
+- [35:49] which are offline and so these agents
+- [35:51] because they're not like part of the
+- [35:53] conversational agent they can go back
+- [35:55] through previous histories they can
+- [35:57] maybe revise feedback um to essentially
+- [35:59] like process information and then
+- [36:01] generate like a better prompt um or like
+- [36:03] better like in context memory blocks
+- [36:05] from that. Um so I I think these are
+- [36:07] like all all things that you can do. Um
+- [36:10] but yeah, it's it's definitely hard to
+- [36:12] get right.
+- [36:13] >> Yeah, for sure. Um and Karthik, I know
+- [36:15] that Wes put out uh work on this as well
+- [36:18] where you've talked about language
+- [36:20] models, benchmarking performance,
+- [36:21] current state of the language model, uh
+- [36:23] retraining and replacing uh to to
+- [36:26] improve performance across those
+- [36:27] benchmarks. Um can you maybe talk a
+- [36:29] little bit about how these systems learn
+- [36:31] from experience and human input as well?
+- [36:33] >> Yeah, actually that's great. I I
+- [36:35] actually wanted to pick up also on uh uh
+- [36:38] the part that Sarah was talking about
+- [36:39] with respect to reinforcement learning.
+- [36:40] Right? So we've we've been doing a lot
+- [36:42] of work also at war that is very related
+- [36:45] to that area, right? So what happens is
+- [36:48] we get a lot of information that comes
+- [36:49] in from let's say our customers, right?
+- [36:52] Both in terms of information that they
+- [36:54] have prior to actually starting to use
+- [36:56] the system, right? So these are usually
+- [36:57] in the form of documents and process
+- [36:59] knowledge and so on, right? And then
+- [37:00] there's also usage information. As they
+- [37:02] start using the system, as they start
+- [37:03] chatting with it, as they start giving
+- [37:05] it goals, they start giving it also
+- [37:07] feedback in terms of how it's doing and
+- [37:08] so on. And so the big, you know, the the
+- [37:10] billion or trillion dollar question is
+- [37:12] how do you actually use all of this
+- [37:13] knowledge to improve the performance of
+- [37:15] the system? I agree that I think there
+- [37:17] is a lot of potential in various
+- [37:19] reinforcement learning methods, right?
+- [37:21] But one thing I'd like to talk about is
+- [37:23] there is also a drawback to a lot of
+- [37:25] this, right? apart from the you know the
+- [37:27] obvious drawbacks of like scale and time
+- [37:29] and compute and all of that stuff right
+- [37:30] one of the pro one of the fundamental
+- [37:32] issues with reinforcement learning right
+- [37:34] is it can tend to kind of overoptimize
+- [37:36] it can tend to go into a bit of a hole
+- [37:38] right and so nowhere is this more
+- [37:41] evident than when you're trying to use
+- [37:43] reinforcement learning in order to train
+- [37:45] models to do better on challenging
+- [37:47] domains so we wrote a paper back in I
+- [37:49] think March or April it's currently
+- [37:51] under review at the Europe's conference
+- [37:53] we're hoping for the best but basically
+- [37:55] That paper which was about concise
+- [37:57] reasoning was talking about this effect
+- [38:00] where as the uh length of the output
+- [38:04] generated by the model gets longer and
+- [38:06] longer right the accuracy of your model
+- [38:09] overall actually starts dropping right
+- [38:12] and the problem here is essentially that
+- [38:14] in some sense and I'm I'm greatly
+- [38:15] oversimplifying here I'll drop a link to
+- [38:17] the paper and the work for people who
+- [38:19] want to read it in more detail but the
+- [38:21] the fundamental concept here is that the
+- [38:23] model is basically learning to overfit
+- [38:26] on specific instances, right? And so
+- [38:29] it's kind of losing a lot of its
+- [38:31] predictive power in some sense. So the
+- [38:33] fundamental u idea behind the paper that
+- [38:36] we wrote was if you can somehow restrict
+- [38:39] these models to uh shorter outputs or
+- [38:42] smaller uh outputs, right? You can
+- [38:44] actually greatly improve the accuracy of
+- [38:46] those models. And the way that we tested
+- [38:48] it is we took a bunch of these smaller
+- [38:50] models, you know, like a 1.5 billion
+- [38:52] parameter model and a three billion
+- [38:54] parameter model, a 7 billion parameter
+- [38:55] model, and we said if we were to impose
+- [38:58] this artificial constraint of now
+- [39:00] outputting much shorter responses,
+- [39:03] right? Can we actually increase the uh
+- [39:06] accuracy of the model? So you actually
+- [39:08] get two wins, right? you get one win in
+- [39:09] terms of the accuracy improves and your
+- [39:11] second win is that you're greatly
+- [39:13] reducing the number of output tokens
+- [39:14] which is ultimately the biggest cost
+- [39:16] when you're calling these models right
+- [39:18] and so the TLDDR of the work uh and
+- [39:20] again like I said I I'll put a link to
+- [39:21] the paper uh right after I finish
+- [39:23] speaking here was that we can reduce the
+- [39:26] number of output tokens to almost
+- [39:27] one/ird of what it was previously while
+- [39:30] preserving or in some cases even
+- [39:32] improving the accuracy on challenging
+- [39:34] domains and challenging problems right
+- [39:36] so I think that's there are algorithmic
+- [39:38] advances that we can make. In this case,
+- [39:39] we're talking about, you know, RL, we're
+- [39:41] talking about reinforcement learning,
+- [39:42] but there are a lot of algorithmic
+- [39:44] advances that we can make in order to
+- [39:46] make these models uh more accurate, but
+- [39:48] also uh less expensive in some sense,
+- [39:51] right? And then one final one last thing
+- [39:52] I'll also say uh which is slightly
+- [39:54] different is in terms of personalization
+- [39:57] of these models. We've also been doing a
+- [39:59] lot of work at wand you know since uh
+- [40:00] basically the beginning of this year
+- [40:02] where sometimes because you have a lot
+- [40:05] of usage data instead of just taking
+- [40:07] kind of the plus one minus one you know
+- [40:09] just the thumbs up thumbs down you can
+- [40:10] also take that usage data and you can
+- [40:13] train adapters right so you can train
+- [40:15] like a last layer on a smaller model
+- [40:18] right which can be used as an adapter
+- [40:20] for a particular company or for a
+- [40:21] particular use case right so these are
+- [40:23] kind of use and throw and in fact we we
+- [40:25] we even got it down to the level where
+- [40:27] we could train adapters for specific
+- [40:29] users, right? So Zen, for example, if
+- [40:31] you're using let's say our product,
+- [40:33] right? And then you have a set of
+- [40:35] interactions with it. We can actually
+- [40:37] customize the performance and the
+- [40:38] behavior of the model to take into
+- [40:40] account everything that you have talked
+- [40:42] to it about. Now obviously there are a
+- [40:43] lot of you know different problems that
+- [40:45] need to be solved in that space. But
+- [40:46] these are two different things like the
+- [40:48] RL approach I think is a much more
+- [40:50] general heavy-handed approach in some
+- [40:52] sense versus the adapter approach I
+- [40:54] think is much more niche and narrow and
+- [40:56] like targeted towards a specific use
+- [40:58] case or a specific person a specific
+- [41:00] company and so on. So yeah, I think
+- [41:01] that's kind of my view on that that I
+- [41:03] think RL is very powerful but we also
+- [41:05] need to be a little careful about how
+- [41:07] much we end up optimizing with
+- [41:09] reinforcement learning techniques.
+- [41:11] >> Yeah. uh and I wanted to pull on uh one
+- [41:14] one thread if you can if you can
+- [41:16] optimize the number of output tokens. I
+- [41:18] I think the third benefit of that is
+- [41:20] also it's easier to manage the context
+- [41:23] because if you think of a a language
+- [41:26] model or an agent's task uh for to
+- [41:29] successfully complete a difficult task
+- [41:32] at hand it can take anywhere from 20 to
+- [41:35] 50 to 100 consecutive executions. These
+- [41:38] could be tool calls feeding the input
+- [41:40] back in reasoning over that. Uh and so
+- [41:42] if you're more efficiently managing that
+- [41:44] context, then you you're less likely to
+- [41:46] run into those long context issues that
+- [41:48] we talked about. Um but this is a good
+- [41:50] segue into the into the last topic that
+- [41:52] I want to talk about, which is this long
+- [41:54] horizon reasoning and planning. Um
+- [41:58] difficult tasks require multiple
+- [42:00] successful uh language model calls. So
+- [42:04] maybe I I wanted to pose this question
+- [42:06] to everybody which is how do your
+- [42:08] systems handle these long horizon task
+- [42:10] completions and reasoning? Uh and
+- [42:12] specifically the interesting thing that
+- [42:13] developers are are having to deal with
+- [42:16] is what happens if the if the system or
+- [42:19] the model makes an error on the 10th
+- [42:21] step, how does it execute on the 11th
+- [42:24] step and how does it go forward? So, um
+- [42:26] maybe maybe you guys can talk about how
+- [42:28] you're dealing with that issue and maybe
+- [42:29] what are some of the uh future uh
+- [42:31] research directions to help uh deal with
+- [42:33] planning and long horizon uh reasoning.
+- [42:36] So, I'll throw it over to Sarah and then
+- [42:37] we can go from there.
+- [42:39] >> Yeah. So, we actually had a um like some
+- [42:41] recent like research work that's
+- [42:43] currently going into a paper called like
+- [42:44] recovery bench on this topic. Um it was
+- [42:47] essentially doing like a comparison on
+- [42:49] terminal I think yeah terminal bench um
+- [42:51] which is like this terminal use
+- [42:53] benchmark. it's it's like a pretty good
+- [42:54] benchmark for like these like long
+- [42:55] horizon complex tasks um in the terminal
+- [42:59] and there's this kind of interesting
+- [43:00] result where um depending on which model
+- [43:03] you're using the ability of the LM or
+- [43:05] agent to recover actually differs quite
+- [43:07] a bit so I think um you know cloud
+- [43:10] sonnet is incredibly good at coding so
+- [43:11] it's obviously number one for like uh
+- [43:14] you know doing the task in a fresh state
+- [43:16] but in terms of like you know the
+- [43:17] recovery state so like once you kind of
+- [43:19] prefill the agent with a failed
+- [43:20] trajectory um we actually found that GPD
+- [43:23] 5. Um, and I think Gemini also like
+- [43:25] bumped up in the ranking. So, GBD5 was
+- [43:27] like the best performing model. Um, and
+- [43:29] then yeah, there's I think there's also
+- [43:30] been work from like SweetBench kind of
+- [43:31] showing that like if you randomly
+- [43:32] alternate between like GBD5 or like the
+- [43:35] different models like you get like
+- [43:36] better results than just using a single
+- [43:38] model. Um, so yeah, I I do think one
+- [43:40] interesting aspect is like, you know,
+- [43:42] maybe throughout the agent's lifetime
+- [43:43] you should be changing um what model
+- [43:45] you're actually using. So maybe if
+- [43:47] there's a failure, you should like
+- [43:48] switch to like a more like um you know
+- [43:51] an LLM that's better at recovery. Um so
+- [43:54] I think like that's maybe one really
+- [43:56] interesting angle. Um, and then yeah, I
+- [43:58] think in terms of long horizon tasks
+- [44:00] more generally, um, one thing that we've
+- [44:02] actually found is that memory plays like
+- [44:04] a surprisingly important role here
+- [44:06] because going back to this idea of, you
+- [44:08] know, rewriting the system prompt,
+- [44:09] rewriting the context blocks, that's
+- [44:11] essentially like a way for the agent to
+- [44:13] be organized about what it's doing at
+- [44:16] the moment. If you've ever used cloud
+- [44:17] code, you might have seen like, you
+- [44:18] know, it's always making these like
+- [44:20] to-do lists and then checking off the
+- [44:21] to-do lists. So, I think having
+- [44:23] something like that happening inside of
+- [44:25] the agent's memory is actually
+- [44:27] incredibly important for the agent to
+- [44:29] understand what it's doing to not get
+- [44:31] derailed, which which is ultimately like
+- [44:32] the biggest risk. Um, you know, the
+- [44:34] agent like blows up its context, forgets
+- [44:36] what it's doing, um, and like fails the
+- [44:38] task, you know, on iteration number 10.
+- [44:41] Um, so yeah, I I think like memory
+- [44:43] rewriting, making sure that you're, you
+- [44:45] know, consolidating the context window,
+- [44:47] avoiding derailment, these are all like
+- [44:49] things that are like really really
+- [44:50] important and something that we focused
+- [44:51] a lot on Leta. And so I I think a lot of
+- [44:54] these tasks like if you actually do that
+- [44:55] context management right, you can get
+- [44:57] really really far. So with Letto, we
+- [44:59] actually um I think like a couple weeks
+- [45:01] ago made like an example um just like
+- [45:03] terminal use agent and and like terminal
+- [45:05] use is like not like our our main thing
+- [45:07] obviously. Um but despite that like it
+- [45:10] was actually like the number one like
+- [45:11] open source implementation um at the
+- [45:13] time for terminal bench just because
+- [45:15] like a lot of the built-in features of
+- [45:16] Leta for um you know being able to write
+- [45:19] to context being able to modify context
+- [45:21] over time and then giving the agent the
+- [45:23] tools to do that that actually turned
+- [45:24] out to be extremely useful for creating
+- [45:27] an agent that can do really long horizon
+- [45:29] tasks um like the ones in terminal
+- [45:30] bench.
+- [45:33] >> Awesome. Thank you. Um so we're almost
+- [45:36] at time here. I've been given uh six
+- [45:39] more minutes to to take some audience
+- [45:41] questions. So uh I'm just let me let me
+- [45:43] look through to see if there's uh
+- [45:45] there's some good question. There's a
+- [45:46] lot of questions. So let's see
+- [45:50] uh
+- [45:55] yeah so this is this is a topic that I
+- [45:57] wanted to talk about and I'll use this
+- [45:59] question to to talk about that. But I
+- [46:02] wanted to pose this question about
+- [46:03] single language model powered agent
+- [46:06] systems versus multi- language model uh
+- [46:09] powered agent systems. And there's a lot
+- [46:10] of debate in the community around uh
+- [46:13] when is the added complexity of multi-
+- [46:15] aent systems worth uh worth it versus
+- [46:18] when should I just stick with the most
+- [46:20] powerful model that I can find. And
+- [46:21] Sarah, you mentioned about how it might
+- [46:24] be worth swapping out that most powerful
+- [46:26] model to recover, but how do you guys
+- [46:28] think about going with multi- aent
+- [46:31] systems versus just using the most
+- [46:32] powerful model and letting it uh letting
+- [46:35] it fix uh fix uh the trajectory to these
+- [46:38] uh long horizon tasks and task
+- [46:40] completion. So I'll throw it over to
+- [46:41] Loren uh for this one maybe.
+- [46:44] >> Yeah. So again, it always depends on
+- [46:47] your usage and that's kind of why what
+- [46:49] we tell customers and our users, right?
+- [46:51] There's two orchestration types that we
+- [46:54] have at crew. One is a crew which think
+- [46:56] of it like a Whimo. You have a bunch of
+- [46:58] agents working together and it's
+- [47:00] autonomously getting to its end
+- [47:02] destination. Then you have something
+- [47:04] called flows which is more
+- [47:05] deterministic. You have uh it's an
+- [47:07] event-based orchestrator. So you have a
+- [47:09] start method, you have routers and in
+- [47:11] between are like each node can have
+- [47:13] regular Python code to single shot LM
+- [47:17] cos singular agents or inside that could
+- [47:20] be a group. So how we've distributed
+- [47:23] like a like a like a 2 by two is like
+- [47:25] depending on your use case if it's high
+- [47:27] complexity high precision use cases you
+- [47:30] might want the best models that you can
+- [47:31] get right for lower comp complexity
+- [47:35] lower precision use case think of like a
+- [47:36] lead enrichment um it's not as complex
+- [47:39] you don't need the the best of models
+- [47:41] you might need tools uh to get you there
+- [47:44] but for example when it comes to high
+- [47:46] complexity high precision use cases for
+- [47:48] example we had a customer that's filling
+- [47:50] out IRS text form data. You can't make a
+- [47:52] mistake for those, right? So maybe using
+- [47:55] the the the latest and best models for
+- [47:58] something that could do OCR really well
+- [48:00] or something that can do image
+- [48:01] processing really well or image
+- [48:03] understanding really well or even
+- [48:04] writing into um like tool calls
+- [48:07] specifically to um writing into those
+- [48:10] forms. It just depends on your use case.
+- [48:12] So again, if you were to have a a
+- [48:15] framework or framing for this, if it's a
+- [48:18] high complexity, high precision use
+- [48:20] case, potentially use the best models
+- [48:22] you can get. If it's a lower complexity,
+- [48:24] lower a precision use case, you might
+- [48:27] get away with smaller uh models as well.
+- [48:31] >> Awesome. Caric, I'd like to hear your
+- [48:33] take on this because you've mentioned um
+- [48:34] the use of small, very small fine-tuned
+- [48:37] models that are specialized and that
+- [48:39] that tells me that you lean more towards
+- [48:41] the multi-agent system. So I' I'd love
+- [48:43] to take your I'd love to hear your take.
+- [48:45] >> Yes. I I think I think I will keep it
+- [48:48] brief. Uh I actually think that this is
+- [48:50] going to be an emerging field in the
+- [48:52] next 6 months. So to everyone here at
+- [48:53] the conference as well and you know I
+- [48:55] intend to also follow my own advice in
+- [48:57] some sense. So remember how rag I think
+- [49:00] maybe two years back or a little bit
+- [49:01] more right rag became this whole thing
+- [49:04] where there were so many different
+- [49:05] options you know you can choose a
+- [49:06] different vector db you can choose your
+- [49:09] you know uh um uh the the the model that
+- [49:12] you want in order to vectorize the data
+- [49:14] and all lot of other different things I
+- [49:16] think this question of you know single
+- [49:18] agent versus multi- aent or single model
+- [49:20] versus multiple models is also going to
+- [49:22] get there right and so in some sense
+- [49:24] there is no good answer there is no
+- [49:25] correct answer right I think it's going
+- [49:27] to be very case use case dependent. It's
+- [49:29] going to be very application dependent,
+- [49:30] right? Uh obviously you get a lot of,
+- [49:33] you know, uh immediate trade-offs if you
+- [49:35] go with like a large model, let's say,
+- [49:37] versus a bunch of smaller models.
+- [49:38] There's communication overhead and
+- [49:40] there's all kinds of other overheads
+- [49:41] when you're trying to manage the output
+- [49:43] from a bunch of different models. But it
+- [49:45] might net net end up being cheaper for
+- [49:46] you, right? versus using a much larger
+- [49:49] model uh may not always work both from a
+- [49:51] cost perspective but also your larger
+- [49:53] model may not be trained on specific
+- [49:55] data that you want it to be able to use
+- [49:56] or access and so forth right so I think
+- [49:59] this whole notion of uh you know
+- [50:01] architecture engineering for lack of a
+- [50:03] better phrase or better term I think is
+- [50:06] going to be very important in the next 6
+- [50:08] months to one year right and if you are
+- [50:09] someone from a hands-on perspective if
+- [50:11] you're someone who can actually build
+- [50:13] you know both with a single model but
+- [50:15] also with multiple models and you can
+- [50:17] actually give stakeholders that choice
+- [50:19] right you can tell them you can go this
+- [50:21] way or you can go this other way and let
+- [50:22] me advise you on what will work better
+- [50:24] and what will work when you do this I
+- [50:26] think you stand to make a lot of
+- [50:29] progress you know make a lot of money
+- [50:30] whatever your metric is right so I think
+- [50:32] that's that that's kind of what I'll say
+- [50:33] about it I don't think there is one
+- [50:34] correct answer but I do think people
+- [50:36] should be focusing on how to actually
+- [50:39] turn this into um an engineering field
+- [50:42] not a science field right how do you
+- [50:43] turn this actually into something that
+- [50:45] can be engineered so Yeah, awesome.
+- [50:48] Thank you. Uh, and we've just got one
+- [50:49] minute left, so Sarah, I'd like to throw
+- [50:51] the same question over to you and then
+- [50:52] we'll go go over to a break.
+- [50:55] >> Yeah, I mean I I think I maybe disagree
+- [50:57] a little bit in that I I think you
+- [50:59] you'll often get the best performance
+- [51:00] from having like one really good agent
+- [51:03] like running on like a really good
+- [51:04] model. Um, and I think part of the
+- [51:06] reason for this is because ultimately
+- [51:08] that's how a lot of these models are
+- [51:10] trained, right? like in general you want
+- [51:11] to design your systems around the around
+- [51:13] the way that you are kind of guessing
+- [51:15] that open AAI and anthropic and these
+- [51:16] other providers are training these
+- [51:17] models and and you know I I think
+- [51:19] there's also been like recent blog posts
+- [51:21] from like cognition and I think like um
+- [51:24] open devon or open hands that was kind
+- [51:26] of talking about how like in these
+- [51:27] really frontier um use cases like coding
+- [51:30] where you're really pushing the limits
+- [51:32] of what can agents do um they've
+- [51:34] actually found that like single agent
+- [51:35] systems are much easier to actually work
+- [51:37] with and and engineer or like just have
+- [51:40] better performance performance um than
+- [51:41] multi-agent systems. I do of course
+- [51:43] think that there's cases where you want
+- [51:44] multi-agent systems like I think
+- [51:46] anthropics research agent was
+- [51:48] multi-agent. It had like multiple sub
+- [51:49] aents um with like specialized contexts
+- [51:52] researching you know different exploring
+- [51:54] different things with like one um you
+- [51:56] know main agent aggregator. Um, but I I
+- [51:59] think in general like for our users,
+- [52:00] what we kind of recommend is like
+- [52:02] starting with a single agent and then if
+- [52:04] there's like reasons to go multi- aent
+- [52:05] like for for example like maybe there's
+- [52:07] just so much context that you can't fit
+- [52:08] it into a single agent then breaking it
+- [52:10] up into multi- aents and then I think we
+- [52:13] also kind of suggest like you know start
+- [52:14] with the best model and just single
+- [52:16] agent and then if if you need to reduce
+- [52:18] your cost if you need to kind of like
+- [52:20] you know reduce the amount of context
+- [52:22] per LM call or like maybe use cheaper
+- [52:24] models then break it down. But I I do
+- [52:26] think it's really important to you know
+- [52:27] because I in most cases you will you
+- [52:30] will be getting the best performance
+- [52:31] from one really good model um to kind of
+- [52:34] start from that.
+- [52:35] >> Yeah. Awesome. Yeah. I wanted to end off
+- [52:38] with that with that because that's kind
+- [52:40] of a highle decision that a lot of
+- [52:43] developers are having to make as soon as
+- [52:44] they start off on a problem. Do they
+- [52:46] want to go with a bunch of models or
+- [52:48] just go the easy route and and use the
+- [52:49] best model? So um we're at time. I
+- [52:52] wanted to thank the panel and just to
+- [52:54] give a quick summary. We we touched on
+- [52:56] cognitive architectures. We talked about
+- [52:58] memory. We then looked at how you can
+- [53:00] use past experiences, past uh logs of uh
+- [53:04] previous memories to then learn for
+- [53:06] future execution. We we talked about
+- [53:08] kind of long horizon reasoning planning.
+- [53:11] Uh and then uh thanks to the questioner,
+- [53:13] we also got the opportunity to talk
+- [53:15] about multi-agent versus single agent
+- [53:17] systems that the community is debating
+- [53:18] about. Like Sarah mentioned, Anthropic
+- [53:20] put out a blog post on multi-agent
+- [53:22] systems. Uh open hands and um and
+- [53:25] cognition put a blog on you maybe you
+- [53:28] don't need the added complexity of
+- [53:29] multi-agent systems. Um so I hope this
+- [53:31] discussion was uh useful to all the
+- [53:33] developers out there and to everybody
+- [53:34] that's listening and I wanted to thank
+- [53:36] the thank the panel as well. Thank you
+- [53:38] so much for your time.
+- [53:39] >> Thanks for having us.
+- [53:41] >> Thanks so much folks.
+- [53:42] >> Thanks everyone.
+- [53:43] >> Thanks everyone.
+- [53:44] Uh we are going to take uh an 8 minute
+- [53:48] break and we'll come back from

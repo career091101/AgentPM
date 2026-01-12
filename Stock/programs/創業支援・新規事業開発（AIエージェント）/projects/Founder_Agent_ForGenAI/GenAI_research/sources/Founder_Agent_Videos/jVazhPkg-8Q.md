@@ -1,0 +1,1381 @@
+---
+title: "Excellent. All right. Uh, hey folks. My name is Isaac Pervetera. I'm a principal scientist in the ge..."
+video_id: "jVazhPkg-8Q"
+video_url: "https://www.youtube.com/watch?v=jVazhPkg-8Q"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  All right. Uh, hey folks. My name is
+  Isaac Pervetera. I'm a principal
+  scientist in the generative AI
+key_points:
+  - "All right. Uh, hey folks. My name is"
+  - "Isaac Pervetera. I'm a principal"
+  - "talking about um an area I personally"
+  - "find fascinating, which is um how do you"
+  - "deploying agents. Uh and I think at this"
+  - "point clearly everyone is pretty"
+  - "components of this are um having some"
+  - "or tasks that can um complete those we"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: jVazhPkg-8Q
+
+- URL: https://www.youtube.com/watch?v=jVazhPkg-8Q
+- Retrieved at: 2025-12-30T15:59:56+09:00
+
+## Text
+
+- [00:00] Excellent.
+- [00:01] All right. Uh, hey folks. My name is
+- [00:03] Isaac Pervetera. I'm a principal
+- [00:05] scientist in the generative AI
+- [00:06] innovation center at Amazon Web
+- [00:08] Services. Um, and today I'm going to be
+- [00:10] talking about um an area I personally
+- [00:12] find fascinating, which is um how do you
+- [00:15] build a self-improving agentic system.
+- [00:18] Uh, so I'll be talking about the system
+- [00:20] my team and I built um using the
+- [00:22] open-source strands SDK from Amazon. Um
+- [00:26] although so it was a an SDK our team
+- [00:28] developed and then open sourced um
+- [00:30] originally um coming from in-house as
+- [00:32] well as Amazon Bedrock agent core which
+- [00:34] is our new um agentic
+- [00:36] productionalization uh tool chain um for
+- [00:39] deploying agents. Uh and I think at this
+- [00:42] point clearly everyone is pretty
+- [00:43] wellversed in Agentic AI but just I'll
+- [00:45] talk about it for like two seconds. Um
+- [00:48] so obviously huge step forward for LLMs
+- [00:51] um giving them agency. Uh primary
+- [00:53] components of this are um having some
+- [00:56] kind of uh memory tools uh reasoning
+- [01:00] loop um and then giving them uh goals uh
+- [01:03] or tasks that can um complete those we
+- [01:06] can use um those different tools to
+- [01:08] complete actions with. So we at AWS
+- [01:10] believe uh are going to start seeing
+- [01:12] very large scale propagation of these
+- [01:13] agents and see them as really a
+- [01:15] transformative technology and we're
+- [01:17] thinking quite a bit about how we
+- [01:18] facilitate the productionalization of
+- [01:20] agents in a stable, secure and scalable
+- [01:24] manner.
+- [01:28] So with today's LMS, it's not really a
+- [01:30] question anymore of if AI agents are
+- [01:32] viable. Instead, the discussion kind of
+- [01:34] shifted more towards how can AI agents
+- [01:36] be best put in a position to succeed.
+- [01:37] Um, and I think this has major
+- [01:39] implications for how we work. And while
+- [01:41] I don't think quite yet agents are in a
+- [01:43] position to fully replace humans, the
+- [01:45] best workers are going to be those that
+- [01:46] are able to effectively use AI to
+- [01:48] improve their productivity. Um, and I
+- [01:50] think that several reasons why we think
+- [01:52] that um, agents are uh, really ready for
+- [01:55] enterprise use, enterprise use. Um, this
+- [01:57] is uh, model reasoning capabilities are
+- [02:00] really as good as they've ever been. Um,
+- [02:04] data and knowledge integration has
+- [02:05] become easier and easier. Um now it's
+- [02:07] very simple to spin up a vector
+- [02:10] database. Um we on the the AWS side have
+- [02:13] uh Amazon Bedrock knowledge bases very
+- [02:15] easy to deploy. Um also very excited to
+- [02:19] see the infrastructure and especially
+- [02:20] the protocols. So the the maturity of
+- [02:22] MCP uh ADA um these are huge factors and
+- [02:26] then as well as you know lot of great
+- [02:28] folks here who have been developing um
+- [02:30] agentic tools. I think the the set of
+- [02:33] tools that are available are really
+- [02:35] mature and it's it's really great to see
+- [02:37] and I think that this alto together
+- [02:39] makes uh AI agents much more viable than
+- [02:41] they were let's say even a year ago. Um
+- [02:44] and also just to set the stage in terms
+- [02:46] of where we came from versus where we
+- [02:47] are now. Um guys are probably familiar
+- [02:49] with robotic process automation um
+- [02:52] entirely rules-based and just executed
+- [02:54] with predefined flows. Um then 2023 2024
+- [02:59] era of rag chat bots generative AI
+- [03:02] assistance the ability to kind of go
+- [03:03] through a rag database and answer
+- [03:04] questions. And I think right now we're
+- [03:06] in tier three which is where we're
+- [03:08] seeing the propagation of kind of goal-
+- [03:09] driven agents. Um they're a able to
+- [03:12] independently execute tasks. You can
+- [03:14] have multi- aent systems where they're
+- [03:15] able to work together towards goal. But
+- [03:18] we're not quite yet at this fourth tier
+- [03:20] which I would we would say is kind of
+- [03:23] fully autonomous agentic systems. Um,
+- [03:26] that being said, you know, if you asked
+- [03:27] me you even like a year and a half ago
+- [03:29] if I thought that AI agents were ready
+- [03:31] for prime time, I would have absolutely
+- [03:33] told you no because the consistency of
+- [03:34] the LLMs at the time were just um not
+- [03:37] good enough. Uh, now we're seeing LM
+- [03:39] with substantially lower hallucination
+- [03:41] rates and greater accuracy. But that
+- [03:43] being said, the hallucination rates even
+- [03:44] for the top LMS is not zero. Um, and
+- [03:47] we'll talk later about ways we can kind
+- [03:50] of address and look at ways to evaluate.
+- [03:52] And another thing I just want to state
+- [03:54] is that, you know, Aentic AI, not a
+- [03:56] magic wand. Um, it has really impressive
+- [03:59] capabilities. Um, and it's really
+- [04:02] powerful. Um, but you need to be careful
+- [04:05] to carefully tune your prompts and your
+- [04:06] tool definitions. Um, and even when your
+- [04:09] prompts are um, tuned as well as
+- [04:11] possible, you still will likely see some
+- [04:14] mistakes in really complex tasks. Um,
+- [04:16] and this is why human in the loop is a
+- [04:17] critical component to the success of AI
+- [04:19] agents. Um, and I think you know it it's
+- [04:22] it helps to think carefully about what
+- [04:24] granularity you want your tool
+- [04:25] definitions to exist at. Uh, so they
+- [04:28] could be very granular if you need a lot
+- [04:30] of flexibility in the task. But if
+- [04:32] something, you know, something I like to
+- [04:34] say is that if something was a
+- [04:36] directional as cyclic graph or a DAG
+- [04:38] before, there's not really a reason to
+- [04:40] insert an agent into the middle of it.
+- [04:42] However, you could have an agent control
+- [04:44] and execute that DAG. Um so I think that
+- [04:48] uh it there's different ways in which
+- [04:51] you can implement tools. So it just
+- [04:52] makes sense to to think carefully about
+- [04:55] what the best way for you to implement
+- [04:57] tools for your use cases. Um and just
+- [05:00] generally I think there's a lot of
+- [05:02] different considerations for the the way
+- [05:04] you implement agents. Um latency
+- [05:06] implications, cost implications,
+- [05:08] complexity. Um do you need to be able to
+- [05:10] have human in the loop? um you have task
+- [05:13] uh execution stopping mid um execution.
+- [05:17] So number of different things to think
+- [05:18] about um but generally you want them use
+- [05:20] agents where there are tasks that are
+- [05:23] require flexibility. So just talking
+- [05:25] about the the agentic loop um as I
+- [05:28] mentioned before create an agent LM but
+- [05:31] providing it with memory tools um goals
+- [05:35] giving it goals to achieve and then
+- [05:36] allowing it to reason. Um and then the
+- [05:38] flow for this reasoning can vary. Um but
+- [05:41] the dominant um agentic reasoning
+- [05:43] paradigm right now is react. Um so the
+- [05:45] loop starts with a user interaction.
+- [05:47] Agent will receive the input then decide
+- [05:49] what action to take next. So it'll
+- [05:50] determine if any tools are needed um and
+- [05:52] then answer the question. So this can be
+- [05:54] single multi-step um and after each LM
+- [05:57] uh each time the LM reasons it's about
+- [06:00] its previous action it will look and see
+- [06:01] if that was successful and then decide
+- [06:03] if it needs to proceed or stop. And
+- [06:05] something I like to talk about is um
+- [06:07] just because I think React is a dominant
+- [06:09] paradigm right now. Um but there are
+- [06:11] other paradigms that do exist and I
+- [06:13] think it it's valuable for us to know
+- [06:15] about these just because um there's
+- [06:17] different times in which they may make
+- [06:18] more sense. Um so React was first
+- [06:21] introduced in 2023 by Yao at all um
+- [06:24] paper react synergizing reasoning and
+- [06:26] acting language models. Um and I've kind
+- [06:29] of mentioned this already. It just
+- [06:30] combines reasoning and acting to create
+- [06:33] uh the agentic glue.
+- [06:36] Uh it does tend to be the default with
+- [06:38] pretty much all um different agentic uh
+- [06:42] development kits. Um agent's going to be
+- [06:45] given a task. We'll reason about how to
+- [06:46] accomplish it and then we'll begin
+- [06:48] calling tools and reason after each
+- [06:49] action. RWO is an interesting one in
+- [06:52] that um the agent generates a plan and
+- [06:54] then executes it but actually
+- [06:55] intermediate rules. Um so it will just
+- [06:58] kind of create this step-by-step um
+- [07:00] execution plan and then we'll just start
+- [07:02] executing um until the answer or gets
+- [07:04] the answer and then you can restart
+- [07:06] execution once it's done. Um and then
+- [07:07] there's also reflection which is another
+- [07:09] interesting one um which uh promotes
+- [07:13] self-reflection and iterative
+- [07:14] refinement. Um however this
+- [07:16] self-refinement can introduce some
+- [07:18] latency. So it's not always the best
+- [07:20] choice for consumerf facing applications
+- [07:22] but it is an interesting one especially
+- [07:24] for kind of like thinking about um like
+- [07:26] deep research for example um things
+- [07:28] where you don't necessarily have these
+- [07:29] latency bounds.
+- [07:31] All right and another concept that we
+- [07:34] can kind of talk about we've already
+- [07:35] talked about agentic reasoning um so now
+- [07:38] we can talk a little bit about when does
+- [07:39] it make sense to use single versus
+- [07:41] multi- aent. Um single agents tend to be
+- [07:43] pretty capable especially with the the
+- [07:44] new top of the line LLMs that are out
+- [07:46] there. Um, but the more that we expand
+- [07:49] the scope of our agents, the more likely
+- [07:51] they are to make mistakes. So for the
+- [07:53] most complex tasks and goals, um, could
+- [07:56] be a good idea to let agents specialize
+- [07:58] in specific areas. If we provide an
+- [08:00] agent with like let's say, you know, 50
+- [08:02] tools, 100 tools, um, it's going to be
+- [08:04] more and more difficult for a single
+- [08:06] agent to know when to use all those
+- [08:07] tools. And also the the thing to
+- [08:10] consider is that um when we have all
+- [08:13] these different tool definitions um
+- [08:15] those are all going to wind up in its
+- [08:16] prompt. And so if you have a hundred
+- [08:18] different tool definitions that need to
+- [08:19] wind up in a prompt that's going to make
+- [08:20] it balloon in size. Uh so it's not
+- [08:23] exactly the most efficient to to
+- [08:24] necessarily give it that access. There's
+- [08:26] different ways you can also um address
+- [08:28] this via semantic search with tools but
+- [08:30] generally I like to have agents
+- [08:31] specialize in kind of these multi- aent
+- [08:33] systems. Um so talk a little bit about
+- [08:36] multi-agent patterns. Um so these are
+- [08:38] two probably the most common patterns
+- [08:39] which are agentic swarms and then
+- [08:41] supervisor sub aent. Um there's more
+- [08:43] patterns than this obviously but these
+- [08:45] are two of the most common. Um and the
+- [08:46] difference between these two patterns is
+- [08:49] while in supervisor sub aent the
+- [08:51] supervisor controls all the routing and
+- [08:53] the final decision-m swarm is a little
+- [08:54] bit more collaborative. Um so each agent
+- [08:57] in swarm has awareness of the other
+- [08:58] agents and thinks about when to hand
+- [09:00] off. Um supervisor sub agent is a little
+- [09:03] bit more structured um and also probably
+- [09:06] scales it. it scales better because
+- [09:08] you're having the supervisor focus on um
+- [09:11] which agents to go and in what sequence.
+- [09:13] Uh that being said, there are advantages
+- [09:15] to using a swarm. um the awareness of
+- [09:18] other agents within the swarm can
+- [09:20] actually be an advantage uh to prevent
+- [09:22] duplicate um work just because if let's
+- [09:25] say there is some tool overlap between
+- [09:27] them um then you know because all the
+- [09:30] other agents the agent within the swarm
+- [09:32] is aware of all the other agents that
+- [09:33] sit in its ecosystem whereas it's on the
+- [09:36] supervisor to inform the other sub
+- [09:38] agents of what was done previously. So
+- [09:41] um it's there's there's definitely ways
+- [09:44] in which both of them make sense. I
+- [09:46] think as you scale in particular,
+- [09:48] supervisor sub agent makes more sense.
+- [09:50] Um but swarm patterns definitely can be
+- [09:53] um pretty useful and I think there's
+- [09:55] also hybrid patterns or there's hybrid
+- [09:57] patterns as well. Um so you know think
+- [09:58] of like supervisor they could hand off
+- [10:00] to a research swarm. Uh not necessarily
+- [10:05] going to talk too much about that here
+- [10:06] but there's also competitive patterns.
+- [10:09] Um so think about like agentic
+- [10:12] arbitrage. um you have like two agents
+- [10:14] that are trying to negotiate. Um in our
+- [10:16] solution, we used a supervisor sub agent
+- [10:18] paradigm. Um but tons of different ways
+- [10:21] in which you can implement um and would
+- [10:23] just recommend to to test and try as
+- [10:25] many as possible and just think about
+- [10:27] which ones make most sense.
+- [10:30] So um I mentioned it before uh we uh
+- [10:34] open sourced our strands SDK which is um
+- [10:38] our Agentic SDK um for uh that um we use
+- [10:43] internally at Amazon. Uh basically what
+- [10:45] we wanted to do is um develop something
+- [10:48] that was simple, streamlined and model
+- [10:50] driven. Um so the idea is it's easy to
+- [10:54] use um very intuitive uh got strong
+- [10:57] capabilities um MCP uh integration
+- [11:00] native um integrated with AWS services
+- [11:04] um also very easy for prototyping uh and
+- [11:07] so um we use this a lot uh that being
+- [11:10] said you know you can use whatever
+- [11:12] framework you want within um Amazon
+- [11:14] Bedrock um for strands in particular uh
+- [11:18] the way it works is um It's built on
+- [11:21] this agentic loop which by default react
+- [11:25] um but uh there are ways to do custom
+- [11:28] implementations for different types of
+- [11:31] um custom agentic orchestration. So um
+- [11:35] you know with any standard agentic loop
+- [11:38] you know it receive user input um
+- [11:41] process it decide what to do generate a
+- [11:44] response and then kind of continue that
+- [11:46] loop iteratively.
+- [11:48] So, um, talked about strands. Now, we'll
+- [11:52] talk a little bit about and something
+- [11:54] that, you know, we at AWS see quite a
+- [11:56] bit with all of our customers is, um,
+- [11:59] it's pretty easy to get one agent out
+- [12:01] there and just have it running locally.
+- [12:03] Um, but scaling can be a real challenge.
+- [12:07] And so, what and especially when you
+- [12:10] think about the number of ways agents
+- [12:11] need to communicate and how you manage
+- [12:13] agents at scale. So right now, you know,
+- [12:15] if you have your your agent um and has
+- [12:18] access to its tools, uh how do you scope
+- [12:21] that at the department level,
+- [12:22] organization level? How do you decide
+- [12:24] what agents are able to communicate
+- [12:26] externally? Um and especially this this
+- [12:29] problem only gets worse as agents
+- [12:31] continue to propagate. Um and so it's
+- [12:34] definitely something that is uh can be
+- [12:36] pretty challenging. Um, and I think
+- [12:38] that, you know, when you're trying to,
+- [12:40] um, implement all of these things at
+- [12:42] production scale, then all of a sudden
+- [12:44] you need to think about, um, how am I
+- [12:46] monitoring performance? Um, how is my
+- [12:48] system scaling? Are my systems or are my
+- [12:51] agents secure? Um, you know, how am I
+- [12:54] governing my agents? Uh so these are all
+- [12:57] really uh complex questions and I think
+- [13:00] it actually is something that uh doesn't
+- [13:03] get addressed quite enough especially
+- [13:06] when people just kind of go grab some um
+- [13:09] agentic example off the internet and
+- [13:11] start implementing it. Um that's pretty
+- [13:13] easy actually deploying all this stuff
+- [13:16] and getting it to run in prod much more
+- [13:18] difficult. Um so that was the uh
+- [13:23] motivation
+- [13:25] for us to launch Amazon Bedrock agent
+- [13:28] core. Um so the the idea for agent core
+- [13:31] is it's our agent or agentic deployment
+- [13:33] uh tool chain. So it has components for
+- [13:35] agentic runtimes um memory tool hosting
+- [13:39] identity and observability. Um and the
+- [13:42] idea is is that we wanted to kind of
+- [13:44] handle a lot of the undifferiated heavy
+- [13:46] lifting when it came to deploying agents
+- [13:49] um particularly at scale. Uh currently
+- [13:51] the service is in preview but it's going
+- [13:52] to be launched um soon. And so uh the
+- [13:56] idea is is that all of because you can
+- [13:59] build whatever you want using AWS or any
+- [14:02] other cloud infrastructure. Uh but I
+- [14:03] think that there's certain problems you
+- [14:05] may run into that tend to be fairly
+- [14:07] persistent. Um, one is let's say for um
+- [14:12] your runtime if you want to be using
+- [14:14] some kind of serverless solution
+- [14:16] timeouts tend to be an issue if you're
+- [14:18] doing some kind of deep research project
+- [14:20] um or figuring out how to do kind of
+- [14:21] birectional streaming. Um these are
+- [14:24] problems that you you'll run into as you
+- [14:26] uh go into prod. And so that was one of
+- [14:28] the goals of agent core is to be able to
+- [14:30] solve a lot of these problems and remove
+- [14:31] that undifferiated heavy lifting. Um so
+- [14:35] for folks who who may not be as familiar
+- [14:38] can just show you guys kind of what the
+- [14:40] um AWS agentic stack looks like. Um so
+- [14:44] uh for folks who are not familiar Amazon
+- [14:46] Bedrock is just our overall generative
+- [14:48] AI service. So this includes um pure
+- [14:51] model hosting um serving uh but also a
+- [14:54] number of other different abstractions.
+- [14:56] So we have um optimization um model
+- [15:00] customization guard rails um knowledge
+- [15:03] bases which are effectively kind of a
+- [15:05] managed vector database. Um we also have
+- [15:09] agent core now which provides um agent
+- [15:12] core runtime uh gateway memory identity
+- [15:16] observability and a few firstparty tools
+- [15:18] as well. Um but we also have plenty at
+- [15:21] the infrastructure layer. So these all
+- [15:23] work together. Um and then we also have
+- [15:25] uh Kira, which is our agentic coding
+- [15:27] IDE. Won't be talking too much about
+- [15:29] that one, but that one is interesting.
+- [15:30] So it is definitely worth a look. Um and
+- [15:32] then we also have Nova Act, which is
+- [15:35] more of our um browser use uh toolkit.
+- [15:38] Uh so that's another thing you can use
+- [15:40] where you can either have that run on
+- [15:42] its own or you can use that as a tool um
+- [15:45] for different kinds of browser use,
+- [15:46] computer use workloads. And then also uh
+- [15:48] strands agents. But one thing I'll say
+- [15:50] is that you know uh agent core and all
+- [15:52] of this is designed to work with
+- [15:53] whatever framework you want. So um
+- [15:55] there's nothing stopping you from um
+- [15:58] using any model any framework. If you
+- [16:01] want to use open AI models there's no
+- [16:03] issue deploying that on agent core. We
+- [16:04] have no restrictions on kind of what you
+- [16:06] can do there. It's effectively the same
+- [16:08] as just using a lambda. Um so just
+- [16:11] doubling double clicking a little bit on
+- [16:13] agent core. Um so I mentioned kind of
+- [16:15] some different components here. Um and
+- [16:17] our solution is built using um all these
+- [16:20] components particularly the runtime is
+- [16:22] for hosting everything. So um this is
+- [16:24] where you specify uh all of the
+- [16:28] components like your agent instructions
+- [16:30] um you know your context your tools um
+- [16:33] and then whatever framework you want it
+- [16:36] it's pretty much agnostic. If it can
+- [16:38] work within a docker container it can be
+- [16:39] deployed on runtime. Um then we have uh
+- [16:43] some of the other ancillary services
+- [16:45] here. So like agent core gateway. So
+- [16:47] this is um you can kind of think of it
+- [16:49] as an MCP gateway. So uh you can have
+- [16:52] your tools uh effectively made as um
+- [16:56] gateway targets and then um the gateway
+- [16:59] will manage access to these tools. So
+- [17:01] that way you're able to have your agents
+- [17:04] um use different tools from the gateway
+- [17:05] also run semantic search over your
+- [17:07] tools. So you can run semantic search um
+- [17:10] for all the different tool definitions.
+- [17:11] So if you want to uh you can just make a
+- [17:13] call to the the agent core gateway API
+- [17:16] um via boto3 or we have several other
+- [17:18] APIs um and SDKs uh that you can make
+- [17:22] that call and then just semantically
+- [17:24] retrieve only the tools that you want.
+- [17:26] Um couple other one first-party tools
+- [17:28] that we have as well. Um not we didn't
+- [17:31] use them in this solution but they are
+- [17:32] interesting and definitely worth a look
+- [17:34] is uh we have agent core browser which
+- [17:36] is um a manage browser use um solution.
+- [17:40] So it will uh create it'll help um
+- [17:45] launch browser use workloads in a secure
+- [17:47] isolated environment. Um so we'll use uh
+- [17:51] launch chromium for you. You can do it
+- [17:53] either headless or you can do it where
+- [17:55] you're um actually able to kind of view
+- [17:57] what the agent is doing. And we also
+- [17:58] have an agent air agent core code
+- [18:00] interpreter. So um for both of these
+- [18:02] these are just workloads that
+- [18:03] potentially have more kind of security
+- [18:05] implications with them. uh especially
+- [18:08] just having something have access to a
+- [18:10] browser, being able to um just launch
+- [18:12] and execute code arbitrarily. So we
+- [18:15] wanted to make sure that these were
+- [18:16] environments where they were secure and
+- [18:18] isolated um and that you can kind of
+- [18:20] send instructions to them but it doesn't
+- [18:22] just have like open access to to any
+- [18:24] tool or system. Then um we have agent
+- [18:27] core identity. This is not one of the um
+- [18:31] more uh
+- [18:34] I guess sexy if you will uh services but
+- [18:37] it's a really fundamental one. It's a
+- [18:38] really important one. Um so the ability
+- [18:41] to authenticate and have um tokens for
+- [18:45] your agents uh not only to communicate
+- [18:47] internally but also externally to
+- [18:49] external APIs. Um this is something that
+- [18:51] I think is really really fundamental for
+- [18:53] anyone who's building agents. Um so this
+- [18:55] is one that I think um is really
+- [18:57] important. So uh identity is one that we
+- [18:59] built in um to the solution. Also we
+- [19:02] have a core memory. So uh memory works
+- [19:05] on uh couple different levels. So
+- [19:08] there's short-term memory which is kind
+- [19:09] of your standard just state saving um
+- [19:12] text as well as long-term memory
+- [19:15] abstractions. So we have um user
+- [19:17] preference memory. So this is
+- [19:19] effectively looking at your
+- [19:20] conversations and extracting different
+- [19:22] user preference details out of them and
+- [19:23] then saving them to a database. Um and
+- [19:26] then also we have uh long-term
+- [19:28] summarization
+- [19:29] and you can implement your own kind of
+- [19:31] custom uh memory implementation that you
+- [19:34] want um that will effectively just kind
+- [19:36] of operate over this this long-term
+- [19:38] memory.
+- [19:39] And then finally, but um arguably one of
+- [19:42] the most important pieces and something
+- [19:44] that's really critical to the the
+- [19:46] application we put together is um agent
+- [19:48] core observability. Uh so agent core
+- [19:50] observability uh is built in. So if you
+- [19:54] it's not necess you don't have to use
+- [19:55] runtime in order to use agent core
+- [19:57] observability and I think that's
+- [19:59] something that um should uh mention
+- [20:01] about all of these is they're designed
+- [20:02] to be modular. So you can use them with
+- [20:04] kind of any one of um or just one on its
+- [20:08] own use them all together. Obviously
+- [20:10] they're designed to be inter very easily
+- [20:12] to to work together interoperably but um
+- [20:15] you can just kind of pick and choose
+- [20:16] which ones you want to use. So if you
+- [20:17] just want to use memory can just use
+- [20:19] memory. No problem there. or if you just
+- [20:21] want to use identity can also do that as
+- [20:23] well. Um and so for uh agent core
+- [20:26] observability this is built in for
+- [20:28] runtime. So any agent you deploy um on
+- [20:31] agent core runtime is automatically
+- [20:33] going to be um logged a core
+- [20:34] observability. So you'll be able to look
+- [20:36] at your traces there. And so that's a
+- [20:37] pretty important part of kind of the
+- [20:40] system that we put together.
+- [20:42] And then just uh a little bit more on on
+- [20:44] what runtime does. I won't spend too
+- [20:46] much more time on this but effectively
+- [20:49] the idea is that you have um your models
+- [20:52] uh whatever model you want to use um
+- [20:54] whichever framework you want to use uh
+- [20:57] you just add your runtime decorator um
+- [20:59] your identity config and then you can
+- [21:01] configure what kind of observability um
+- [21:03] depth you want and then configure it uh
+- [21:06] create a docker file or we have a
+- [21:08] starter kit that will create a docker
+- [21:10] file for you uh then launch and then um
+- [21:13] what we'll do is it'll have that uh
+- [21:14] docker image host posted in our um
+- [21:16] elastic container registry and then um
+- [21:19] we have the concept of an agent as well
+- [21:21] as an endpoint. So an endpoint is a
+- [21:23] specific deployment of that agent um but
+- [21:25] the agent is kind of the larger
+- [21:27] abstraction
+- [21:29] and then uh agent core observability. So
+- [21:31] um this is just kind of your your
+- [21:33] standard tracing. So everything you
+- [21:35] would expect with um tracing framework
+- [21:37] you'll be able to find here. Um and so
+- [21:40] you can uh as I mentioned before uh
+- [21:42] agents deployed on agent core runtime um
+- [21:45] work or agents running outside of
+- [21:47] agentore runtime work as well.
+- [21:51] So I think there's some some interesting
+- [21:54] uh concepts when it comes to evaluation.
+- [21:56] Um there's two kind of main feedback
+- [21:59] paradigms. Uh one is offline evaluation.
+- [22:01] So this is pretty standard. This is um
+- [22:03] your standard eval metrics. um think
+- [22:07] like uh you know success rate, think um
+- [22:12] like tool call accuracy like these are
+- [22:15] things that are straightforward
+- [22:16] implement um and they can just be run at
+- [22:19] will so like you can integrate it with
+- [22:21] your Jenkins pipeline um whenever you
+- [22:23] maybe make a change to your code you can
+- [22:25] have your offline evals run and I think
+- [22:27] it's it's a really important um thing to
+- [22:29] implement and definitely something you
+- [22:30] want to have a mature pipeline for um
+- [22:33] online evaluation I would argue is
+- [22:36] almost I would actually say it's more
+- [22:38] important just because when you think
+- [22:39] about um offline versus online offline
+- [22:42] is really helpful in terms of like
+- [22:44] giving that that guidance um in terms of
+- [22:47] directionally but online when you're
+- [22:49] looking at your actual feedback from
+- [22:51] your users this is incredibly valuable
+- [22:53] information um it can come in different
+- [22:56] forms but fundamentally I think it's
+- [22:58] really important to have some kind of
+- [23:00] pipeline where you're actively looking
+- [23:03] at your traces and then looking at
+- [23:05] especially the feedback you're getting
+- [23:06] from users are you know you getting like
+- [23:08] thumbs up thumbs down what kind of
+- [23:10] comments are they leaving and then also
+- [23:11] I think another thing that's really
+- [23:13] interesting and very valuable to look at
+- [23:14] is that implicit feedback um that
+- [23:17] implicit feedback can mean um something
+- [23:20] like just leaving the chat early when
+- [23:23] unexpected and I think there's different
+- [23:24] ways to kind of um look into this but uh
+- [23:28] it's definitely something that I think
+- [23:30] is really bears some emphasis so next
+- [23:33] let's just talk a little bit about um
+- [23:34] some of the different metrics. So I'll
+- [23:36] go back to to offline. Um so I think for
+- [23:39] for a Gentic evaluation some different
+- [23:41] things I like to look at um are you know
+- [23:44] tool calling evaluation, final response
+- [23:46] and then also kind of operational
+- [23:48] evaluations as well.
+- [23:50] So for tool calling um just kind of
+- [23:53] assessing the appropriateness of the
+- [23:54] tools and this is kind of on a per agent
+- [23:56] basis. I think you can also kind of like
+- [23:58] roll these up um for your multi- aent
+- [24:00] system as well. Um but just looking at
+- [24:02] you know incorrect tools um missing
+- [24:05] tools uh tool argument accuracy um
+- [24:10] weighted averages of these and then um
+- [24:13] looking at tool calling accuracy with LM
+- [24:15] as a judge. Uh so and one of the things
+- [24:17] that I like about um with tool calling
+- [24:20] and in particular with um this offline
+- [24:23] tool calling evaluation is if you have
+- [24:26] the the tool that for a query um it's
+- [24:29] deterministic which sometimes like LM as
+- [24:32] a judge is really effective but I think
+- [24:34] it helps to have those different types
+- [24:35] of metrics mixed in where you can have
+- [24:37] some that are deterministic some that
+- [24:38] are LM as a judge based um so I like to
+- [24:40] have a good balance uh just because it
+- [24:43] makes a little easier or I think it's a
+- [24:45] little gives gives you a better view of
+- [24:47] your overall accuracy. Um it definitely
+- [24:50] helps in terms of you know reasoning,
+- [24:52] multi-step actions, long-term coherence
+- [24:54] and then um talk a little bit about kind
+- [24:57] of response evaluation metrics. Uh so
+- [25:00] these are ones you've definitely seen
+- [25:02] before if you've implemented any kind of
+- [25:04] offline evaluation, correctness,
+- [25:06] similarity, precision, recall,
+- [25:08] relevancy. Um so these are pretty
+- [25:10] standard. I think most libraries you can
+- [25:12] find these um online uh coming back to
+- [25:16] online metrics um these are ones tend to
+- [25:19] be a little trickier because they often
+- [25:21] well you you're not going to have ground
+- [25:22] truth with these uh so I think that
+- [25:25] analyzing this data is something that um
+- [25:28] is really really valuable uh for anyone
+- [25:31] who's got like large scale agentic
+- [25:32] deployments because there's quite a bit
+- [25:34] of information within those traces um
+- [25:36] and I think the the thumbs up thumbs
+- [25:38] down feedback is really really useful in
+- [25:41] its most common implementation just due
+- [25:42] to simplicity. Uh, personally I'm
+- [25:45] definitely a bigger fan of liyker scale
+- [25:47] feedback. Um, over thumbs up, thumbs
+- [25:49] down. But the problem is is that if
+- [25:52] you're asking a user to give a star of
+- [25:54] like one to five stars, a lot of times
+- [25:56] they'll just kind of like eyes will
+- [25:58] glaze over and just when they're trying
+- [25:59] to think about, do I think this is one
+- [26:01] to five? Um, and then just not answer.
+- [26:03] Um, so thumbs up, thumbs down. even
+- [26:06] though I prefer the metrics you're able
+- [26:08] to calculate with Laker Score, um you're
+- [26:10] just going to get less engagement of
+- [26:13] that actual metric. Um so for that
+- [26:16] reason, um my go-to tends to be thumbs
+- [26:18] up, thumbs down, even though there's
+- [26:20] much more information, there's more
+- [26:21] information and more that you can derive
+- [26:22] from Leyard scale. Um then, you know,
+- [26:26] comments obviously are really valuable,
+- [26:28] but that's going to be a very small
+- [26:29] percentage of your users that are
+- [26:30] actually going to take the time to to
+- [26:32] write a comment. Um, so like for online
+- [26:35] metrics, it definitely makes sense to
+- [26:38] have a pipeline for um, evaluating these
+- [26:41] comments. Um, but I think it's it's
+- [26:44] definitely going to be a subset of your
+- [26:47] users that are going to actually use
+- [26:50] these comments or going to leave
+- [26:51] comments at all. Um, then also there's
+- [26:53] some other implicit ones as well.
+- [26:55] Latency obviously is pretty easy to
+- [26:57] measure. Uh, path efficiency is an
+- [26:59] interesting one. Um so path efficiency
+- [27:01] is one where even if the um LLM got the
+- [27:05] correct answer and the user was happy um
+- [27:08] did the LLM kind of take unnecessary
+- [27:10] steps uh in did the agent take
+- [27:12] unnecessary steps in getting to that
+- [27:14] answer. So that's one that I think is
+- [27:16] definitely valuable to look at. Um
+- [27:18] abandonment rate. So if you're um users
+- [27:20] kind of are leaving mid-con
+- [27:22] conversation. Um and then question
+- [27:24] repetition. These are ones where um you
+- [27:27] have to actually spend some time
+- [27:28] figuring out a pipeline of how to tag
+- [27:31] your traces. Um and I think that
+- [27:33] especially as it gets larger and larger,
+- [27:37] like if your application has thousands
+- [27:39] or hundreds of thousands of users,
+- [27:41] that's where I think it it bears um a
+- [27:45] lot of thought in terms of how you're
+- [27:46] going to implement this pipeline. But
+- [27:48] there's a tremendous amount of
+- [27:49] information that you can um retrieve uh
+- [27:53] if you can kind of build this pipeline
+- [27:55] up. So uh now this is the actual
+- [27:59] architecture of what my team and I um
+- [28:01] put together. So um this is this kind of
+- [28:05] like self-improving agent concept.
+- [28:06] Fundamentally it's just um a multi- aent
+- [28:09] system where we have a supervisor. Um
+- [28:12] then we have four different agents. Um
+- [28:14] in this case uh we were just using um
+- [28:17] fairly simple tool set although one tool
+- [28:20] is a little bit more complex and you'll
+- [28:22] see why. Um so the the main idea is it's
+- [28:26] kind of like a travel assistant but it's
+- [28:28] also got um a shopping component mixed
+- [28:31] in because it uses the Amazon um product
+- [28:33] advertising API which has access to the
+- [28:35] entire Amazon product catalog. So,
+- [28:37] you're able to ask travel questions,
+- [28:39] search the internet, or um ask for
+- [28:42] recommendations for different products
+- [28:44] uh that would make sense for like your
+- [28:46] travel. So, in this case, there's two
+- [28:48] agents that are dedicated to that. One
+- [28:50] is a shopping assistant. So, this is the
+- [28:52] one that actually controls the access to
+- [28:53] those APIs. And then there's a cart
+- [28:55] manager that is just dedicated to kind
+- [28:57] of managing, removing, or adding items
+- [28:59] to your cart. Um and so these are it's a
+- [29:04] fairly straightforward implementation in
+- [29:06] terms of kind of the the main piece just
+- [29:09] using strands um using a setup with a
+- [29:11] supervisor. The agents are are um set up
+- [29:14] as tools for the supervisor. Um and then
+- [29:17] each one of the agents has access to its
+- [29:19] tools which are deployed um MCP servers.
+- [29:22] Uh then the the thing that I think is
+- [29:24] probably the most interesting here is
+- [29:26] the analysis agent on the right hand
+- [29:28] side. So um the analysis agent is set up
+- [29:32] so that it will be able to look and
+- [29:34] analyze traces um it also takes in the
+- [29:37] prompts um and has an understanding of
+- [29:39] the system architecture. So what you're
+- [29:42] able to do is you're able to pass all
+- [29:43] this information to the analysis agent.
+- [29:45] Then the analysis agent is able to um
+- [29:48] assess through these traces and through
+- [29:51] the prompts um you know what changes
+- [29:53] need to be made, what are kind of common
+- [29:55] errors um and what are um you know the
+- [29:58] things that need to be changed to
+- [30:00] improve the the performance of the
+- [30:01] system. And so you can implement this in
+- [30:04] an automated way. What we did is we uh
+- [30:07] set it up so that it would return those
+- [30:09] recommendations which the user can then
+- [30:10] implement. Um but pretty straightforward
+- [30:13] to to do on your own. And just to give
+- [30:15] you guys an idea of kind of what this
+- [30:17] looks like. Um so uh here you can see
+- [30:21] this is um kind of current instruction.
+- [30:23] So this is the the shopping agent. Um
+- [30:26] this was it existing prompt. Uh this was
+- [30:28] the recommended adjustments. um as well
+- [30:31] as also it will look at tool definitions
+- [30:32] and say oh this um tool definition needs
+- [30:35] to be um a little bit more robust or
+- [30:38] maybe even you should consider taking
+- [30:41] this tool and moving it over to a
+- [30:43] different agent.
+- [30:45] All right and so with that um we'll jump
+- [30:48] into the demo.
+- [30:51] So here, uh, let me jump over here.
+- [30:56] Just a simple React front end. Um,
+- [30:58] nothing too crazy. Uh, but let's just
+- [31:01] start by just kind of showing what it
+- [31:02] does.
+- [31:11] So here you can see we have um just this
+- [31:14] uh our our a supervisor agent which is
+- [31:17] kind of answering our questions. But
+- [31:18] there's a couple other different
+- [31:19] wrinkles here within this uh UI. So we
+- [31:22] have profile information that we're
+- [31:23] storing um that can kind of dynamically
+- [31:25] be adjusted here as well as we have a
+- [31:27] shopping cart. Um so let's go ahead and
+- [31:31] start with a simple question just to
+- [31:33] start off.
+- [31:36] Um, oh, and then also I think another
+- [31:37] important piece is uh the ability to uh
+- [31:40] provide feedback. So what we did is um
+- [31:44] all the feedback goes to a Dynamo this
+- [31:46] is I cleared this out because it was
+- [31:48] kind of large but all the feedback goes
+- [31:49] to a Dynamo DB table. Um so you can see
+- [31:52] kind of the feedback any comments that
+- [31:53] you get get stored here and then can be
+- [31:56] pulled um by the agent um when it's uh
+- [32:01] running its cycle. So here we go. This
+- [32:03] is um some information about Bali. Uh so
+- [32:06] in this case you could see that when the
+- [32:08] supervisor was given the the prompt
+- [32:11] different from the initial question it
+- [32:14] then goes to look for um the the
+- [32:18] previous or the travel agent. But now
+- [32:21] let's go and run something using the
+- [32:23] Amazon product advertising API. So
+- [32:27] here now we can see uh it's calling um a
+- [32:30] different agent. So it's now using the
+- [32:31] shopping assistant. Um so previously
+- [32:33] it's using the travel assistant and so
+- [32:36] now um it's running searches uh over the
+- [32:39] Amazon product catalog um kind of while
+- [32:42] it's doing this and one of the things
+- [32:43] that we need to do is we need to
+- [32:44] implement um sub agent streaming. Uh but
+- [32:47] so in the meantime what I can do is I
+- [32:49] can kind of show you guys what this
+- [32:50] looks like within Amazon Bedrock agent
+- [32:52] core. Um so within Bedrock agent core
+- [32:55] this is the console. Um so you can see
+- [32:57] these are the the different components
+- [32:59] here. Um so we have the the runtime. So
+- [33:02] this is where uh we have our agent
+- [33:04] deployed here. Uh so you can see you can
+- [33:06] see the last time it was updated. So um
+- [33:09] when you click on an agent, this will
+- [33:11] show you, you know, how you can invoke
+- [33:13] it um using TypeScript, JavaScript or
+- [33:15] Python. And this also shows you um all
+- [33:18] of your different versions as well as
+- [33:19] your endpoints. Um so uh in this case, I
+- [33:22] just have one endpoint up and running.
+- [33:24] Um and that's what we're we're invoking
+- [33:26] right now. Jump back over here.
+- [33:33] um taking a little bit longer. It's
+- [33:36] probably running multiple searches. But
+- [33:37] anyway, so um what we can also do is we
+- [33:41] can within a given agent look at um the
+- [33:45] uh observability.
+- [33:46] So here uh I can go into um any agent
+- [33:50] that's deployed within agent core. I can
+- [33:52] go look and see, you know, how many
+- [33:53] agents I have, how many sessions I have,
+- [33:55] what's kind of my traces, my error
+- [33:56] rates, um, all these kind of standard
+- [33:59] metrics and then I can jump into a
+- [34:01] specific agent. Um, go look at traces.
+- [34:07] So here we can see um, and these this is
+- [34:09] just kind of just like standard um,
+- [34:11] trace metrics uh, looking at, you know,
+- [34:14] what happened each time. um also like
+- [34:18] all of the different components in terms
+- [34:19] of like what was actually um run using
+- [34:22] agent court. So then here we've got
+- [34:24] finally got our answer. Um so in this
+- [34:27] case we can see it's recommending a few
+- [34:29] different things. Um so top
+- [34:32] recommendation go take a look here.
+- [34:37] So looks like some decent sunglasses.
+- [34:39] Then to kind of round it out, what we
+- [34:41] can do is uh we can then say,
+- [34:46] "Please add the Oakley
+- [34:50] sunglasses to my cart."
+- [34:53] Oh, I think I should probably specify
+- [34:56] cables.
+- [35:01] And so then what it'll do is it will um
+- [35:03] engage cart manager assistant. And so
+- [35:06] then it will um go take a look at my
+- [35:09] cart. In this case, the cart is Dynamob.
+- [35:11] There are ways um that you can do kind
+- [35:14] of an add to cart button um from using
+- [35:17] and by the way, the thing that uh we're
+- [35:19] using here is this Amazon product
+- [35:21] advertising API. So um this is something
+- [35:24] that you can get access to depending if
+- [35:26] you're like with an Amazon seller. Um,
+- [35:31] but overall the the idea is is that
+- [35:34] you're able to kind of use these
+- [35:36] different sub aents. Um, so I think what
+- [35:38] I'll do looks like there was an issue
+- [35:40] here. But um, just to kind of jump back
+- [35:43] over. Uh, so to to show you guys what
+- [35:46] the analysis agent looks like. Um,
+- [35:47] because that one takes the longest just
+- [35:49] because it's got to pull in a lot of
+- [35:51] different traces, all the different
+- [35:52] prompts, all the tool definitions. Um,
+- [35:54] so here this is one that I ran earlier.
+- [35:56] So kind of analyze system performance,
+- [35:58] give me prompt recommendations. Um so
+- [36:01] here it's kind of looking at response
+- [36:03] times um usage statistics uh prompt
+- [36:06] recommendations as well. And then here
+- [36:09] some system recommendations uh you know
+- [36:12] current sequential model creates
+- [36:13] bottlenecks. Um implement um you know
+- [36:17] optimize internet search. Uh but then
+- [36:19] also here you know you can ask it for
+- [36:22] more direct kind of prompt
+- [36:23] recommendations. So this is the updated
+- [36:25] prompt that it thinks you should use. Um
+- [36:27] looking using some of those
+- [36:28] recommendations it had previously.
+- [36:31] Um as well as so for uh all the
+- [36:34] different um agents kind of implementing
+- [36:36] the and then understanding from the tool
+- [36:39] definitions kind of what um structure
+- [36:42] all the data comes in for the the
+- [36:44] product advertising API. Um same thing
+- [36:47] for the cart manager and then as well as
+- [36:49] the the actual supervisor uh agent
+- [36:51] itself. And then you can kind of
+- [36:53] doubleclick on um different trends and
+- [36:56] things that um it noticed. So uh in
+- [36:59] effective it's kind of like a way to
+- [37:01] talk to your traces. Um but uh the idea
+- [37:04] is is that you're able to um pull all
+- [37:06] this different information. Um the and
+- [37:09] then actually use it to to get some
+- [37:12] actionable recommendations for how to
+- [37:13] improve your system. And um we were able
+- [37:16] to see some pretty substantial
+- [37:18] improvements in terms of going from like
+- [37:20] uh the the base prompts that we had to
+- [37:23] um more uh robust prompts. Um and so I
+- [37:27] think that this is something that we
+- [37:28] want to try to uh implement more
+- [37:32] robustly um and at scale. So with that,
+- [37:37] I'm going to jump back over to the
+- [37:39] presentation,
+- [37:42] jump out of this
+- [37:50] So in terms of um recommendations for
+- [37:53] implementation um the example provided
+- [37:55] is kind of like a toy example. Um at
+- [37:57] scale you need a more robust search
+- [37:59] mechanism to identify relevant traces.
+- [38:01] So I think that this is where um it
+- [38:04] makes sense to do some kind of tagging
+- [38:06] on your traces. Um, so because you know
+- [38:08] if you're using like a top-end model to
+- [38:10] do to analyze 100,000 traces, it's going
+- [38:12] to cost you a lot of money. So it's
+- [38:14] something where um makes more sense to
+- [38:17] to start with a smaller model to to do
+- [38:19] some analysis and to or to effectively
+- [38:22] kind of add tags and then look for and
+- [38:24] do kind of filtering on those tags to to
+- [38:26] do a more robust um analysis. Um in our
+- [38:30] version we didn't implement automatic
+- [38:32] prompt optimization but pretty
+- [38:34] straightforward to deploy that. um just
+- [38:36] effectively need to give it access to
+- [38:38] the actual repo um wherever your prompts
+- [38:41] live uh whether that's you know in
+- [38:43] GitHub using we have um bedrock prompt
+- [38:45] management as well or whatever prompt
+- [38:47] repository you're using just giving it
+- [38:49] access to that um and then I think just
+- [38:51] generally speaking the standardized
+- [38:53] analysis of your user traces is
+- [38:55] something that I think is really
+- [38:56] important for pretty much every
+- [38:58] production application um and I think
+- [39:00] it's something that it's a pipeline that
+- [39:03] it offline evaluation pipelines tend to
+- [39:05] be really robust. Um I believe online
+- [39:08] evaluation pipelines should be just as
+- [39:10] if not more robust. Uh and then in terms
+- [39:12] of um examples, we have plenty of
+- [39:14] examples uh to get started with for um
+- [39:17] Amazon Bedrock agent core if you're
+- [39:19] interested. Um these are uh very easy to
+- [39:23] use and um we have uh integrations with
+- [39:26] a number of different um LM uh agentic
+- [39:28] frameworks. So you can go and get
+- [39:30] started uh and go play around. And that
+- [39:33] is uh pretty much it. So can address any
+- [39:36] questions now that folks have.
+- [39:53] Okay. Yeah. So there's some interesting
+- [39:54] questions here. I see one. Can you
+- [39:56] enable the agentic workflow to decide on
+- [39:57] its own on the type of agentic reasoning
+- [39:59] strategy used based on the specific use
+- [40:01] case? Uh yes. So this is an area that
+- [40:04] I've definitely been looking into and I
+- [40:05] think that um there's ways in which you
+- [40:08] could kind of either put some kind of
+- [40:11] like small LLM that just is making a
+- [40:14] really quick decision about like is this
+- [40:16] low, high, or medium. Um or you can put
+- [40:20] like have the LLM kind of like make that
+- [40:22] judgment call. The thing is in order to
+- [40:24] do that, you really just need to make
+- [40:25] sure that you're optimizing that call
+- [40:27] and have using as few tokens as
+- [40:29] possible. Uh just because otherwise
+- [40:31] you're going to be adding additional
+- [40:32] latency to to trying to do um uh dynamic
+- [40:36] reasoning. Um and then yes, happy to to
+- [40:40] share the presentation. Um
+- [40:45] can follow up on uh we we do have a free
+- [40:48] tier. Um I think that also we have one
+- [40:52] thing I will say is um the uh we do have
+- [40:54] uh Amazon Nova models. Uh those are are
+- [40:56] priced very very competitively. Um so if
+- [40:59] you want to kind of run experimentation
+- [41:00] with those those are a pretty good way
+- [41:02] to to save money. Um
+- [41:06] see
+- [41:08] so in terms of business metrics um I
+- [41:11] would say I would just look at kind of
+- [41:13] typical metrics like thinking about like
+- [41:15] marketing metrics for example like if
+- [41:17] you have like a retail system um
+- [41:21] thinking about like how do I calculate
+- [41:22] like lift for example those are like
+- [41:25] pretty wellestablished metrics it's just
+- [41:28] kind of tying those back in um to uh to
+- [41:33] the um uh to the LLM and the agentic
+- [41:37] performance. Um so that can be takes
+- [41:40] some creativity, but I think like
+- [41:42] there's a lot of like really standard
+- [41:44] fundamental metrics that exist that you
+- [41:46] just need to figure out how do I take
+- [41:49] the data that's generated from my agent
+- [41:50] and my agent interactions and kind of
+- [41:52] tie this back um and just look at uh you
+- [41:54] know how that interaction is happening.
+- [41:56] Um so EC so agent core is effectively
+- [41:59] like lambda it's like serverless. So
+- [42:01] under the hood it is using EC2 but um
+- [42:04] the idea is that you don't have to
+- [42:05] manage anything. So the whole concept of
+- [42:08] agent core is it's all serverless. So
+- [42:11] nothing is um going to be something you
+- [42:16] have to manage. Uh it's going to just
+- [42:18] handle um all those different pieces on
+- [42:21] its own and then just um you'll just uh
+- [42:24] effectively call it and then your only
+- [42:27] build um as you use it. So, uh, EC2 like
+- [42:30] like if you, you know, are hosting an
+- [42:32] LLM server on EC2, you're going to be
+- [42:34] paying for, you know, every second that
+- [42:36] that's up versus agent core, you're only
+- [42:38] paying on a per invocation basis, very
+- [42:39] similar to Lambda.
+- [42:51] All right, let's see what are these type
+- [42:54] of agentic agents now commercialized by
+- [42:57] businesses. I we're starting to see that
+- [42:59] um at least from from my perspective uh
+- [43:02] we've started to see some some customers
+- [43:04] actually moving these to production. I
+- [43:05] think they're pretty nent um in general.
+- [43:08] I'm not seeing like there are I think
+- [43:11] probably the the places that are having
+- [43:14] like that have like the most robust
+- [43:17] deployments are kind of ISVS or you know
+- [43:19] the software vendors. Um there are some
+- [43:22] retailers though that are launching
+- [43:23] them. Uh, I think we're we're starting
+- [43:25] to see them in terms of the actual um
+- [43:31] capabilities are being given. I think
+- [43:33] that people are are companies are being
+- [43:36] a little on the conservative side, which
+- [43:38] totally makes sense given that I think
+- [43:41] only recently has MCP started to become
+- [43:44] more secure and have the the security
+- [43:46] vulnerabilities been addressed. Um so
+- [43:48] and that's something that you know we as
+- [43:50] um AWS are spending a lot of time kind
+- [43:52] of thinking about and one of the reasons
+- [43:53] why we we really wanted to make sure
+- [43:54] that we put in some kind of um identity
+- [43:57] uh piece to to agent core
+- [44:04] let's see
+- [44:11] if I'm using memory from a third party
+- [44:13] platform provider can I integrate their
+- [44:15] observability metrics in agent core
+- [44:18] Um so within the runtime uh you can call
+- [44:21] whatever API you want. So as long as
+- [44:23] they have an API um within the runtime
+- [44:26] then you can pull that data in.
+- [44:32] Uh so difference between agent core and
+- [44:34] lambda. So agent core lambda has a
+- [44:36] 15minute timeout is one of the main
+- [44:38] things. Um agent core runtime is
+- [44:41] designed to have an 8 hour um timeout.
+- [44:44] So it can do much longer jobs. So any
+- [44:47] kind of deep research uh as well as it's
+- [44:49] also configured for streaming. Um it's
+- [44:51] also there's no limit on payload size
+- [44:53] which you might find with Lambda. Um and
+- [44:56] also it's actually priced a little bit
+- [44:58] differently. Um it's more competitive
+- [45:00] for agents. Um so when for example
+- [45:05] you're running like a multi- aent flow
+- [45:08] and you have different nodes or
+- [45:09] different runtimes running um then what
+- [45:12] can happen is with lambda you'd pay for
+- [45:15] that entire process versus when you have
+- [45:20] um everything deployed on agore runtime
+- [45:22] those individual run times you're just
+- [45:24] paying for the actual time the agent was
+- [45:25] invoked.
+- [45:32] All right. Well, um, want to be
+- [45:35] respectful. I don't know if I'm I'm out
+- [45:36] of time here. Uh, I think my session
+- [45:39] officially has ended.
+- [45:41] >> Isaac, if there are any questions,
+- [45:43] please feel free to take those.
+- [45:44] >> Okay, great.
+- [45:45] >> Great. You may take maybe five more
+- [45:47] minutes. Yeah, that should be okay.
+- [45:49] >> Okay, great.
+- [45:51] Happy to do that. Um,
+- [45:55] yeah. So I think for good I think deep
+- [45:59] research is probably one where like
+- [46:01] using these um really highle reasoning
+- [46:06] models makes sense. It's just tough to
+- [46:09] use some of the the high reasoning
+- [46:12] capabilities um like when literally what
+- [46:15] I'm talking about is for for most of
+- [46:16] these models now they tend to have
+- [46:18] different settings like low, medium and
+- [46:21] high reasoning. Um, setting that high
+- [46:23] reasoning is going to make the the
+- [46:25] output pretty verbose. So, you're going
+- [46:27] to get a lot of intermediate tokens. Um,
+- [46:30] for something where it's not latency
+- [46:32] sensitive, uh, that definitely makes
+- [46:34] sense. Um,
+- [46:40] and so I think that it it just depends
+- [46:43] on like kind of what kind of application
+- [46:45] you have.
+- [46:48] Um,
+- [46:50] yeah, I don't think there may not be a
+- [46:52] free tier for bedrock, but what I would
+- [46:55] say is generally speaking, the, as I
+- [46:56] mentioned, kind of the Nova models are
+- [46:58] pretty um
+- [47:00] pretty competitively priced.
+- [47:10] So, Bedrock, it bedrock itself is just a
+- [47:14] generative AI service. Um,
+- [47:18] oh man, I love all these questions. I
+- [47:21] wish I could answer every single one of
+- [47:22] them. Um, okay. Uh, let's go back up.
+- [47:24] So, what is special about Bedrock in
+- [47:26] terms of agentic AI? So, bedrock
+- [47:27] fundamentally is like so there's there's
+- [47:29] different abstractions. There's bedrock
+- [47:31] and maybe let me go back to the the
+- [47:33] stack actually that might be helpful.
+- [47:38] Share
+- [47:48] Yeah. So, um, Bedrock is kind of a suite
+- [47:51] of different services here. So, you can
+- [47:53] see that we have like the the base kind
+- [47:56] of models. That's just the serving. Um,
+- [47:59] so that's, uh, all the different models
+- [48:02] um, we have available. Oh, also, by the
+- [48:04] way, we do actually have the the OpenAI
+- [48:06] OSS models, which are also very, very
+- [48:08] competitively priced. So, I would check
+- [48:09] those out as well. Those are really
+- [48:11] powerful. um and have the the different
+- [48:13] reasoning um capabilities as well. Uh
+- [48:16] then within bedrock there's different
+- [48:18] components. Um agent core is
+- [48:20] specifically a piece of bedrock that is
+- [48:23] designed for agents. So that's kind of
+- [48:26] the the main agentic piece um that we we
+- [48:30] are emphasizing. And then we have um our
+- [48:33] strands SDK as I mentioned but you can
+- [48:34] use whatever framework you want. So
+- [48:36] there's no restriction on if you're you
+- [48:37] know more of like crewi lang graph that
+- [48:40] is your preference you can totally use
+- [48:42] that with uh agent core runtime as well.
+- [48:52] Uh so in terms of the the reasoning why
+- [48:56] it's verbose for high it's just because
+- [48:58] it it you're instructing it to think
+- [49:00] carefully about what it's going to do.
+- [49:02] So, um, its reasoning process is
+- [49:04] basically just printing out a whole
+- [49:05] bunch of tokens and kind of like
+- [49:07] thinking out loud effectively. So,
+- [49:09] you're just making it think quite a bit
+- [49:10] and then that's going to make it more
+- [49:12] verbose versus low, it's going to output
+- [49:15] um a much lower number of tokens.
+- [49:20] Um, so in terms of I think would it be
+- [49:26] overkill to uh set up a single agent
+- [49:30] with uh bedrock agent core? Definitely
+- [49:32] not. I mean if you would deploy single
+- [49:34] agent on lambda, you could do the same
+- [49:35] thing with agent core. Um
+- [49:39] and then I see another question I really
+- [49:41] like. Uh multi- agent setup reminds me
+- [49:42] with microservices. Do they work
+- [49:44] together implementation wise? So this is
+- [49:46] actually another project that we're
+- [49:47] working on. Um because one of the things
+- [49:49] that I think that we see is a lot of
+- [49:52] these multi- aent systems are deployed
+- [49:53] as a monolith where you have all the
+- [49:55] different agents on the same compute. A
+- [49:57] more realistic scenario is actually
+- [49:59] having each agent run as its own micros
+- [50:01] service and then communicating kind of
+- [50:02] like a toa style. Um so that is
+- [50:05] something that I think that we want to
+- [50:07] um we're we're looking into um more kind
+- [50:10] of common deployments for that. Um
+- [50:14] see
+- [50:21] am I out of time Roger more time?
+- [50:25] >> Uh so Isaac uh please feel free to take
+- [50:28] uh so since audience is engaged I think
+- [50:31] uh you can take a few more minutes.
+- [50:34] >> Okay. Um and some of these I'm uh happy
+- [50:38] to take offline. I'm not a security
+- [50:41] expert, so if it seems like I'm I just
+- [50:44] want to make sure I'm getting the the
+- [50:46] correct answers on some of these. So, I
+- [50:48] would uh want to get back to you folks
+- [50:49] on on some of those.
+- [50:58] Yeah. So, I think um in terms of how to
+- [51:01] make sure these agents are not
+- [51:02] overkilling the process um Yeah. So,
+- [51:05] that was actually under the hood that
+- [51:07] was a I got throttled. we actually have
+- [51:09] lower limits as AWS employees than um we
+- [51:12] give to customers. Uh but um the
+- [51:17] effectively it's the way I kind of think
+- [51:18] about it is kind of similar to security
+- [51:21] um with each a like sub agent it's just
+- [51:24] kind of like least number of tools it
+- [51:26] needs and least amount of kind of
+- [51:28] context it needs uh and I think probably
+- [51:31] I'm sure this guy mentioned earlier but
+- [51:33] um the I really like the concept of
+- [51:36] context engineering uh so thinking
+- [51:38] carefully about like how to manage that
+- [51:39] context um is going to definitely help
+- [51:42] Um, so it's and and one thing I'll also
+- [51:47] say, you don't necessarily need to use
+- [51:48] agents for everything. So you can use
+- [51:50] like workflows if something's more
+- [51:52] simple and just needs a couple like
+- [51:53] directional like pieces of information
+- [51:56] and you don't need that flexibility, you
+- [51:57] don't necessarily need to use agents.
+- [51:59] Um, but I think that for something more
+- [52:01] complex, um, where there is a lot of
+- [52:04] reasoning that needs to go into it and
+- [52:06] then there's multiple different paths.
+- [52:08] Also, you want error correction. That's
+- [52:10] where a workflow kind of falls apart.
+- [52:13] Um, versus like and because you can only
+- [52:16] have so many branching trees before the
+- [52:17] logic just gets too complex to manage.
+- [52:25] Uh, agentic framework you shared
+- [52:26] conforms the Amazon native framework. So
+- [52:28] if the client wants the solution to be
+- [52:30] running on other cloud platform, how
+- [52:31] much will the additional effort be? Um,
+- [52:33] so there's different uh with within the
+- [52:36] strands framework, you can use different
+- [52:38] model providers. there's not necessarily
+- [52:40] um a restriction on using just Amazon
+- [52:43] Bedrock. I think the integrations are
+- [52:45] going to be the best with Bedrock. Um
+- [52:47] but we have integrations for for all
+- [52:49] kinds of different model providers.
+- [52:54] Um yeah, so you can use um uh your own
+- [52:58] MCP server as a target for agent core.
+- [53:01] Uh so that's definitely something um
+- [53:03] within I would take a look at agent core
+- [53:05] gateway
+- [53:12] see
+- [53:19] trying to see what other questions I've
+- [53:20] missed.
+- [53:38] Yeah. So if you look um for in terms of
+- [53:40] the trust model, I would go take a look
+- [53:42] at the agent core identity um
+- [53:44] documentation. Um, so each one that and
+- [53:49] actually maybe I have a slide that I can
+- [53:52] share here although I don't think I have
+- [53:55] uh I probably don't have that handy
+- [53:56] unfortunately. Um but I I would go take
+- [53:58] a look at the documentation and we can
+- [54:00] um pass some links there. Um well I I
+- [54:04] unfortunately have to run but uh thank
+- [54:06] you so much. I'm I'm really happy to see
+- [54:08] uh all the questions from the audience.
+- [54:09] These are great questions. Um, and for,
+- [54:12] uh, folks whose questions I wasn't able
+- [54:14] to answer, uh, I will try to see if I
+- [54:16] can find an answer and then post
+- [54:18] something on LinkedIn.
+- [54:21] >> Thank you so much, Isaac. Uh,
+- [54:24] there was a lot of engagement, so thank
+- [54:26] you so much.
+- [54:29] >> Thanks, everyone. And two.

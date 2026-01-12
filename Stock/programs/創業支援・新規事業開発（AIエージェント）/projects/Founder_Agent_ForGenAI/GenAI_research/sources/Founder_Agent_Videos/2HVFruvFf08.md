@@ -1,0 +1,435 @@
+---
+title: "YouTube Video: 2HVFruvFf08"
+video_id: "2HVFruvFf08"
+video_url: "https://www.youtube.com/watch?v=2HVFruvFf08"
+speaker: "Matt Marshall"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Business Strategy"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Business Strategy"
+summary: |
+  [Music So I'm Matt Marshall and I'm here with Tim Tully, partner at Menllo Ventures and with Vjoy Pandy, senior vice president of Outshift, Cisco's innovation arm. And uh we're talking about where the...
+key_points:
+  - "human is sort of the key point there,"
+  - "more important and relevant because of"
+category: "Business"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2HVFruvFf08
+
+- URL: https://www.youtube.com/watch?v=2HVFruvFf08
+- Retrieved at: 2025-12-30T09:20:02+09:00
+
+## Text
+
+- [00:00] [Music]
+- [00:02] So I'm Matt Marshall and I'm here with
+- [00:04] Tim Tully, partner at Menllo Ventures
+- [00:07] and with Vjoy Pandy, senior vice
+- [00:09] president of Outshift, Cisco's
+- [00:11] innovation arm. And uh we're talking
+- [00:13] about where the world of enterprise AI
+- [00:16] is headed. And many people say it's AI
+- [00:18] agents. And so we're here to talk about
+- [00:21] that with Tim who's a leading investor
+- [00:23] in AI. He's been looking at agents, big
+- [00:26] investor in Anthropic, which is the new
+- [00:28] cool kid on the on the block in terms of
+- [00:30] a leading LLM and and Vjoy who's really
+- [00:32] looking at it from the enterprise
+- [00:35] implementation side and has a lot to say
+- [00:38] around that. So, so welcome guys.
+- [00:39] Looking forward to the conversation.
+- [00:41] >> Glad to be here.
+- [00:43] >> Thanks for having me.
+- [00:44] >> Let's talk about what what AI agents
+- [00:47] are. What are they? Tim, do you want to
+- [00:49] you want to jump in with definition or
+- [00:50] vjoy uh in terms of what they are? Sure.
+- [00:55] Uh AI agent is any number of of
+- [00:58] basically software demons is what I
+- [01:01] would call it that can sort of
+- [01:02] progressively respond to human agendas,
+- [01:05] right? So the most common one that I see
+- [01:07] at least in my side of the of the fence
+- [01:09] where I operate in venture land is folks
+- [01:11] creating um travel agent agents. Um so
+- [01:15] hey, I want to travel to Cabo San Lucas.
+- [01:17] Please plan me a 7-day vacation. And by
+- [01:19] the way, I want to do some deep fea
+- [01:21] sport fishing along the way. So the
+- [01:23] agent will go out, scour the web, talk
+- [01:26] to LLMs, store a bunch of metadata along
+- [01:28] the way, progressively run queries
+- [01:30] against LLMs, come back to you and
+- [01:32] present to you a multimodal sort of
+- [01:35] solution for that vacation that you're
+- [01:36] looking for. And along the way behind
+- [01:38] the scenes, there's just a ton of work
+- [01:39] that has to happen to make that work.
+- [01:41] And it's happening on your behalf as a
+- [01:44] human is sort of the key point there,
+- [01:47] >> right? And and they're they're becoming
+- [01:49] more important and relevant because of
+- [01:51] LLMs, right? Vjoy would you would you
+- [01:53] agree the significance?
+- [01:56] >> Yeah, I mean I think so I completely
+- [01:58] agree with what what both of you said
+- [02:00] the way I would think about this is is
+- [02:03] the next agents are the next
+- [02:04] evolutionary step in generative AI and
+- [02:07] there's a lot of AI like agent washing
+- [02:10] going on right now in the industry as
+- [02:12] well. So there are assistants that you
+- [02:14] will see there which people are calling
+- [02:16] agents. So in my head there is a pretty
+- [02:19] clear definition of what agents are and
+- [02:22] like Tim said there is a little bit of
+- [02:24] proactive nature to these agents so they
+- [02:26] can take action. So that's a big
+- [02:28] difference. The other big difference I
+- [02:30] would say from assistants is whereas
+- [02:32] assistants were somewhat passive as they
+- [02:36] collect input either from machines or
+- [02:38] humans like you type in a prompt and you
+- [02:40] get a response or a machine sends a
+- [02:42] prompt and you get a response. In the
+- [02:44] case of agents, they are more online
+- [02:47] real time. They're always listening and
+- [02:49] they're pulling data continuously and
+- [02:52] they're pulling inputs continuously. So
+- [02:54] that's the second difference I would
+- [02:56] say. So think of them as tireless
+- [02:59] specialized employees in an organization
+- [03:02] that are very specific to certain tasks
+- [03:05] and that collaborate together to solve a
+- [03:09] bigger business problem for you. You you
+- [03:12] you've got you've got the t ticket
+- [03:13] flying case, but that you you've got
+- [03:15] some other big use cases. You Tim,
+- [03:17] you're looking at at these you VJO,
+- [03:19] you're you're looking at enterprise use
+- [03:22] cases, right? There's marketing
+- [03:23] automation, there's uh big one in
+- [03:25] customer support. Let's how widespread I
+- [03:28] guess I just want to make sure we're
+- [03:29] covering on this. Are these agents
+- [03:31] potentially?
+- [03:34] >> I think I think the the possibilities on
+- [03:36] this is is sort of endless. I mean like
+- [03:38] like you mentioned, I'm seeing an a
+- [03:40] remarkable sort of stream of customer
+- [03:42] success companies come through where
+- [03:44] they're they're just basically replacing
+- [03:47] well replacing and augmenting at the
+- [03:49] same time, you know, customer success
+- [03:51] teams and and helping them scale out is
+- [03:53] is what's happening. It's happening in
+- [03:54] marketing automation. It's happening in
+- [03:56] code generation as well. I mean, what is
+- [03:58] copilot? I in some ways that's an agent,
+- [04:00] right? GitHub copilot. It is an agent in
+- [04:02] some ways. Maybe it's not by the
+- [04:03] strictest definition that we talk about,
+- [04:05] but it's an agent that I'm using all the
+- [04:07] time and I think you're going to see it
+- [04:08] spread across into other forms of
+- [04:10] software engineering.
+- [04:11] >> No. So, I think if you think about what
+- [04:13] Gartner is saying, Gartner is predicting
+- [04:15] by 2028
+- [04:17] one-third of all interactions that
+- [04:20] organizations are going to have with
+- [04:21] generative AI are going to be agentic.
+- [04:24] And so there is a trend that is going to
+- [04:27] happen. So for the seauite the message
+- [04:29] here is that you need to be prepared and
+- [04:32] it's just 3 years away and there is a
+- [04:35] long journey ahead. So you need to start
+- [04:37] today with assistance with lowhanging
+- [04:41] use cases that don't have a blast radius
+- [04:43] which is pretty massive because you're
+- [04:45] starting out and then slowly and
+- [04:47] steadily move towards use cases that are
+- [04:49] more critical. I think in in terms of
+- [04:51] the u the the adoption here, if we could
+- [04:55] just talk briefly on why they haven't
+- [04:58] been adopted as quickly as some would
+- [05:00] think, right? The excitement came out in
+- [05:03] the in are we are we ready for these? C
+- [05:06] can we talk a little bit about that uh
+- [05:08] in terms of what the challenges are?
+- [05:11] If you think think about where we stand
+- [05:14] with generative AI, there's some pretty
+- [05:16] fundamental problems that we need to
+- [05:19] solve as an industry. So one thing
+- [05:22] that's pretty evident to all of us in
+- [05:25] the space is that reasoning is still a
+- [05:28] little early when it comes to large
+- [05:30] language models. So yes, they can build
+- [05:32] semantic relationships
+- [05:34] uh but they cannot reason and it's
+- [05:37] getting better but it it'll take us a
+- [05:39] while to get to good reasoning and once
+- [05:42] you get to good reasoning you can then
+- [05:44] get to good planning. So if you throw an
+- [05:46] ambiguous problem or a high level
+- [05:48] problem statement at an agent you need
+- [05:51] the reasoning and planning to actually
+- [05:54] build a set of instructions that they
+- [05:55] can go and tackle. So that's one big
+- [05:58] area of research. The other thing I
+- [06:00] would say is that there needs to be
+- [06:02] collaboration between these agents
+- [06:03] because you're not going to have a
+- [06:05] singular kitchen sink agent that comes
+- [06:08] in and solves your entirety of the
+- [06:11] business workflow. I mean business
+- [06:12] workflows are pretty complicated. So the
+- [06:16] hurdle is a little bit higher and you
+- [06:18] need a bunch of these agents to come
+- [06:20] together, network, collaborate and then
+- [06:23] solve a bigger problem and fit within
+- [06:25] these business workflows. So I think
+- [06:27] that that's where some more work needs
+- [06:29] to be done. And then the other big one
+- [06:32] is actually I would say trust and
+- [06:33] explanability because
+- [06:36] just naturally so businesses are a
+- [06:38] little bit more
+- [06:40] uh careful when they look at generative
+- [06:43] AI and they want transparency,
+- [06:46] explanability. It is a paradigm shift to
+- [06:49] agents where things are more autonomous
+- [06:51] and proactive. But we do need to stand
+- [06:55] start on the assistant side right now
+- [06:57] because if you don't do that then you're
+- [07:00] not prepared for what's coming next.
+- [07:04] >> I I I think you've I think you've nailed
+- [07:05] it. I I think excessive loops is another
+- [07:08] problem, right? Where where the agent is
+- [07:09] is not happy with the the output, can't
+- [07:12] find it, and then it's running up calls
+- [07:14] on your on your your cloud service and
+- [07:16] it's becoming super expensive. It just
+- [07:18] you these these problems then get
+- [07:19] amplified each at each step of the
+- [07:22] decision-m voy you're referring to right
+- [07:24] this this need for better reasoning that
+- [07:26] we're still walking through
+- [07:27] >> it is a journey and the good news is
+- [07:29] that if you solve for the problems of
+- [07:33] using generative AI even with assistance
+- [07:36] in your organization
+- [07:38] you will then end up solving for the
+- [07:40] agentic world as well you're seeing them
+- [07:43] get better and better their capabilities
+- [07:46] are always improving
+- [07:48] But businesses are struggling to consume
+- [07:50] it because of four big reasons. The
+- [07:52] first is like they don't even know which
+- [07:54] use cases make sense. So what use cases
+- [07:57] should I build it around? How do I
+- [08:00] experiment? Is there a virtual sandbox?
+- [08:02] That's one. So where do I even begin?
+- [08:04] The second thing is how do I customize
+- [08:07] it? So once I know the use case
+- [08:09] customization we talked about RAD. So
+- [08:11] our knowledge bases, the enterprise
+- [08:13] knowledge bases, our policies, does it
+- [08:15] fit into the active directory that I
+- [08:17] might have in the organization? I might
+- [08:20] have procured only one or two LLMs. So
+- [08:22] can I bring my own LLM to the picture?
+- [08:25] So my own LLMs, my own knowledge bases,
+- [08:28] my policies, that's the second one. Then
+- [08:30] once I did that and I'm happy with it,
+- [08:33] then the ROI, I'm spending a ton of
+- [08:35] money on this. Is it really am I really
+- [08:38] better off? So at the prompt layer, at
+- [08:41] the business workflow layer, am I
+- [08:43] getting the return on investment at the
+- [08:44] business workflow level? And finally,
+- [08:47] when all of that is awesome, then I
+- [08:49] deploy it. I need trust, safety, and
+- [08:51] security. So these are the four big
+- [08:53] reasons that we found out. And so we do
+- [08:56] have a product called Motific. You can
+- [08:59] go to motifific.ai. It's actually a
+- [09:02] product that actually allows enterprises
+- [09:05] to go through this exact journey and go
+- [09:08] through experimentation
+- [09:10] through customization through ROI and
+- [09:12] then trust safety and security and I
+- [09:14] think if you do that even to build out
+- [09:17] an assistant you are pretty well set for
+- [09:20] the agentic world. So that's the good
+- [09:22] news and I think you should just start
+- [09:25] today is the way I would think about it.
+- [09:27] Tim, Tim, you're no newcomer on the
+- [09:29] enterprise side, right? You're Splunk
+- [09:30] and you what you're you're looking at
+- [09:33] orchestration and and the need for for
+- [09:35] elasticity of these things in the
+- [09:37] runtime. Could could you talk a little
+- [09:39] bit about about what you're you're
+- [09:42] seeing there? Would you agree with what
+- [09:43] Vjoy is saying?
+- [09:45] >> Yeah, I mean I I I agree that the
+- [09:47] journey starts with assistance and you
+- [09:48] got to sort of start somewhere. I I I
+- [09:51] still think that a lot of development
+- [09:54] teams are are um they're they don't
+- [09:57] necessarily have the tools that they
+- [09:58] need to build the best agents that they
+- [10:00] want right now. And so I'm on I'm of of
+- [10:04] the belief that there needs to be some
+- [10:06] kind of like orchestration layer, some
+- [10:08] kind of Kubernetes-l like infrastructure
+- [10:10] that allows these agents to to run on
+- [10:12] like I I I don't think it's, you know,
+- [10:14] AWS Lambda style functions of ephemeral
+- [10:16] workloads. At the same time, I don't
+- [10:18] think it's, you know, the heavy duty
+- [10:19] thing that Kubernetes expects and
+- [10:21] enforces on developers. I think there's
+- [10:23] an opportunity for engineering teams to
+- [10:26] go out there and innovate and build some
+- [10:27] kind of orchestration layer that runs
+- [10:29] agentic workloads on it. And that's one
+- [10:32] of the things that I spend a lot of time
+- [10:33] as an investor, you know, keeping my
+- [10:36] keeping my eye out on is is looking for
+- [10:37] a company that's going to go go do that
+- [10:39] is is build out the infrastructure layer
+- [10:41] for for agents. Like I just don't see it
+- [10:44] right now. And I think there's a massive
+- [10:45] opportunity for it. agents. Agents are
+- [10:47] basically one monolithic blob that can
+- [10:50] go ahead and tackle everything within
+- [10:52] that one binary. And I think that's
+- [10:55] where the world is today. One of the
+- [10:57] thesis that we have is to your point
+- [11:00] that this agentic framework or workflow
+- [11:03] will look like specialized agents that
+- [11:07] are pretty thin. almost think of them
+- [11:08] like my microservices that come about
+- [11:11] and talk to each other in a network and
+- [11:14] collaborate and solve a biggest bigger
+- [11:16] business problem. That's precisely what
+- [11:18] I had in mind is, you know, when I
+- [11:19] described that there has to be something
+- [11:20] that's between Lambda functions or
+- [11:22] ephemeral functions and Kubernetes, it's
+- [11:24] it's like this Goldilock solution of not
+- [11:26] too hot, not too cold. somewhere in the
+- [11:28] middle and it's it's thin agents that
+- [11:30] are really great at specific tasks that
+- [11:32] are sort oforked together talking to
+- [11:34] each other with some protocol that's yet
+- [11:35] to be devised or maybe it's being
+- [11:37] devised somewhere and I'm not aware of
+- [11:38] it but um that you know does some kind
+- [11:41] of multiccast broadcast or you know
+- [11:43] something like that across the substrate
+- [11:45] where it's being orchestrated and
+- [11:46] they're able to communicate seamlessly
+- [11:48] with each other.
+- [11:49] >> So that yeah that's that's great. So, so
+- [11:50] we've got a great set of view points
+- [11:52] there in ter in terms of conclusions for
+- [11:54] how enterprise IT folks other sea level
+- [11:58] folks at the decision-m table get ready
+- [12:01] for agents. What are the big takeaways?
+- [12:03] I mean, I think what one of the
+- [12:04] takeaways
+- [12:05] >> I mean this is sounds strange but I
+- [12:06] think decision makers also have to be
+- [12:08] prepared for people to deploy these
+- [12:11] things in the enterprise on their own.
+- [12:13] Like you know these things are getting
+- [12:14] easier and easier to deploy. There's
+- [12:17] demand for it. I think that a lot of
+- [12:20] your engineers at your favorite at your
+- [12:23] favorite company, they're obviously very
+- [12:24] bright and they're going to be able to
+- [12:25] deploy these agents and you're suddenly
+- [12:27] you're going to have, you know, hundreds
+- [12:28] of thousands of these things sort of
+- [12:29] running around your enterprise and and
+- [12:30] you just have to sort of be ready to
+- [12:32] deal with that somehow and have some
+- [12:33] policies around how you're going to
+- [12:35] manage and deal with it.
+- [12:37] >> Yeah, I would completely agree. I mean
+- [12:38] the the only thing I would add there is
+- [12:40] if you really want to get this right,
+- [12:42] what I would also suggest is that
+- [12:44] organizations look at empowering citizen
+- [12:47] developers. These are developers who are
+- [12:49] not deep tech developers. These are
+- [12:51] developers sitting in HR and legal and
+- [12:54] finance and sales because a lot of the
+- [12:56] use cases actually are from these sort
+- [12:59] of productivity functions within
+- [13:02] organizations. Can we as an industry
+- [13:04] build tools and software to enable
+- [13:06] citizen developers to then build
+- [13:09] assistance and agents simply? So that's
+- [13:12] number one. And the other thing I would
+- [13:14] add there is get your hygiene
+- [13:18] going correct or at least figured out
+- [13:21] right now. So where's your data? Is it
+- [13:23] cataloged? Is it accessible?
+- [13:26] Uh is it if it's unstructured data, is
+- [13:28] there an easy way to to ingest it in an
+- [13:31] AI pipeline? Even if you're just doing
+- [13:33] inference side like rag kind of
+- [13:36] techniques, it's not easy. So I would
+- [13:38] say get your data hygiene together. uh
+- [13:41] get your get your identities and access
+- [13:44] control together and then start on the
+- [13:47] journey with use cases that have low
+- [13:49] blast radius.
+- [13:50] >> Great guys. So so my takeaway is is get
+- [13:53] ready for agents, right? As an
+- [13:55] enterprise decision maker, you need to
+- [13:57] be setting up your infrastructure to
+- [13:59] even if the the technology isn't
+- [14:00] necessarily as mature as you want it uh
+- [14:02] to to be ready for these things because
+- [14:04] they're coming and they're going to have
+- [14:05] huge impact.
+- [14:06] >> I absolutely agree with that.
+- [14:07] >> Yeah, completely agree, Matt. And I
+- [14:08] think yeah just start with doing an AI
+- [14:11] readiness assessment in your
+- [14:12] organization. Empower your citizen
+- [14:14] developers and build out a road map from
+- [14:17] experimentation all the way to
+- [14:18] production deployment starting like you
+- [14:20] said with smaller use cases and then
+- [14:23] growing over time.
+- [14:26] >> Thank you very much guys for joining us.
+- [14:30] >> Thanks a lot Matthew
+- [14:31] >> and thank you for watching. For more
+- [14:33] stories about the tech revolution,
+- [14:35] subscribe to our newsletters and check
+- [14:37] out our other VBN conversation videos at
+- [14:39] venturebeat.com.

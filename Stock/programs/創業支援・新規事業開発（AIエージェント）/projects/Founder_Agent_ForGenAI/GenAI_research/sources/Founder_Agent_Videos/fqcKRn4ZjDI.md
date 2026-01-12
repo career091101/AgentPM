@@ -1,0 +1,380 @@
+---
+title: "Imagine being able to build and deploy a complete AI agent in just minutes. No server setup, no comp..."
+video_id: "fqcKRn4ZjDI"
+video_url: "https://www.youtube.com/watch?v=fqcKRn4ZjDI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Imagine being able to build and deploy a
+  complete AI agent in just minutes. No
+  server setup, no complicated frameworks,
+key_points:
+  - "Toolhouse is a back-end as a service"
+  - "assistant to handle daily tasks, a code"
+  - "agent, Toolhouse takes care of the"
+  - "complex backend so that you can focus"
+  - "Just take a look at this demo to see how"
+  - "powerful Toolhouse really is. I started"
+  - "second agent, which is aulular agent."
+  - "This one automatically scans my inbox"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: fqcKRn4ZjDI
+
+- URL: https://www.youtube.com/watch?v=fqcKRn4ZjDI
+- Retrieved at: 2025-12-30T14:36:02+09:00
+
+## Text
+
+- [00:00] Imagine being able to build and deploy a
+- [00:03] complete AI agent in just minutes. No
+- [00:05] server setup, no complicated frameworks,
+- [00:08] and no endless documentation. That's
+- [00:10] exactly what Toolhouse delivers.
+- [00:12] Toolhouse is a back-end as a service
+- [00:15] that's built specifically for AI
+- [00:16] developers. Whether you're creating an
+- [00:19] assistant to handle daily tasks, a code
+- [00:21] review bot, or a fully custom automation
+- [00:24] agent, Toolhouse takes care of the
+- [00:26] complex backend so that you can focus
+- [00:29] entirely on building. It's fast,
+- [00:31] developer friendly, and designed for
+- [00:33] those who like to vibe code, create
+- [00:35] great things quickly without friction.
+- [00:38] Just take a look at this demo to see how
+- [00:40] powerful Toolhouse really is. I started
+- [00:42] building a simple AI agent that acts
+- [00:44] like a regular person. Its only job was
+- [00:47] to send me an email requesting to meet
+- [00:49] just like a normal user would. But
+- [00:51] behind the scenes, the email was
+- [00:53] generated and sent by an AI agent that I
+- [00:55] built using Toolhouse, all within a
+- [00:58] couple of minutes. Next, I built a
+- [01:00] second agent, which is aulular agent.
+- [01:02] This one automatically scans my inbox
+- [01:04] for meeting requests as well as creates
+- [01:07] calendar invites and even pings me on
+- [01:09] Discord to keep me updated. To make it
+- [01:12] all work, I simply pasted the URL of a
+- [01:14] remote MCP server. In this case, one was
+- [01:17] hosted through Zapier, which connected
+- [01:20] the agent to the Google calendar, Gmail,
+- [01:22] as well as Discord with no complex setup
+- [01:24] and no manual integration. I then
+- [01:27] deployed all the agents with a single
+- [01:29] click, and Toolhouse instantly spun up a
+- [01:31] hosted UI so I can start chatting with
+- [01:34] it right away. And as soon as I did
+- [01:36] this, theuler agent activated. It read
+- [01:39] the email from the first agent, created
+- [01:41] a calendar event based on the meeting
+- [01:43] request, and then it sent me a
+- [01:45] notification through Discord. All of
+- [01:47] this happened automatically, and it was
+- [01:49] powered by Toolhouse and MCP. And I
+- [01:52] didn't write a single line of backend
+- [01:53] code, which is the amazing part. Well,
+- [01:56] you may wonder what's the point of using
+- [01:58] Toolhouse. Well, the reason is because
+- [02:00] building with most AI projects is where
+- [02:02] you often deal with different APIs,
+- [02:05] databases, and vector stores. But with
+- [02:07] Toolhouse, it makes it super effortless.
+- [02:10] It provides a complete backend for AI
+- [02:13] applications right out the box. And it's
+- [02:15] going to let you build AI agents rapidly
+- [02:17] with any large language model. And you
+- [02:19] can connect to it various sorts of tools
+- [02:21] to automate and build anything. This is
+- [02:24] where you can connect it with tools like
+- [02:25] notion, Gmail or Slack through MCP and
+- [02:28] add rag for document ingestion in
+- [02:31] seconds. Everything runs smoothly from
+- [02:33] one unified platform where there's no
+- [02:35] complex setup, no extra configuration.
+- [02:38] Just open Toolhouse and you can build
+- [02:39] your agent in natural language and you
+- [02:41] can deploy it in less than a couple
+- [02:43] minutes. To get started, it is super
+- [02:45] simple. Use the link in the description
+- [02:46] below to head over to Toolhouse. And
+- [02:48] once you are here, click on start
+- [02:50] building. This will prompt you to either
+- [02:52] sign in with an account or you can
+- [02:54] create one completely for free. After
+- [02:56] creating account or signing in, you're
+- [02:57] going to be then greeted with the main
+- [02:59] dashboard of Toolhouse. Now, you have
+- [03:01] two ways to get started. You can either
+- [03:03] use the agent studio where you can
+- [03:05] simply type in a prompt in plain natural
+- [03:07] language to build out your agent or you
+- [03:10] can use the CLI to build it out as well.
+- [03:12] You have two different ways to do this
+- [03:14] and I'll showcase the CLI method later
+- [03:16] on in the video. But this is essentially
+- [03:18] where you can describe anything you want
+- [03:20] your AI agent to do and it'll be fully
+- [03:23] built out. Now there's also a couple of
+- [03:25] different pre-built options that you can
+- [03:27] work with different agents in different
+- [03:29] domains that haven't already configured
+- [03:31] and you can discover all of these
+- [03:33] different agents amongst these
+- [03:35] categories so that you can easily get
+- [03:37] started with the template. Now within
+- [03:39] the left hand side you have the agent
+- [03:40] studio where you can manage all of your
+- [03:43] agents that you have created. You have
+- [03:45] agent runs where you can track
+- [03:47] individual records of what happened with
+- [03:50] each run and you can see all the results
+- [03:52] and logs of generations. Bundles are
+- [03:55] essentially where you can group a bunch
+- [03:57] of different MCPs that your agent can
+- [04:00] use. If you click on create bundle, you
+- [04:02] can have it so that you can enable all
+- [04:04] of these external tools that your AI
+- [04:06] agent can access from Tavly web search
+- [04:09] to something like sending an email. It
+- [04:12] has the ability to access all these
+- [04:14] external tools that can basically
+- [04:16] enhance your agents capability. You can
+- [04:19] even schedule different agent runs. You
+- [04:22] can even use different external MCP
+- [04:24] servers. So if you want to add in an
+- [04:27] MCP, you can request that as well. But
+- [04:29] there is a lot of different servers that
+- [04:31] you can use and power your AI agent
+- [04:33] with. And to showcase how simple it is,
+- [04:35] for example, say if I want to use this
+- [04:37] template for seed stage startup finder
+- [04:39] where it builds an agent to find
+- [04:41] seedstage SAS startups on Crunchbace and
+- [04:44] Angelus. We can click on use now and it
+- [04:47] will then send in the prompt to the
+- [04:48] agent studio to work on building it out
+- [04:51] where it can configure the agent title
+- [04:53] system prompt as well as the user
+- [04:55] message. And you can see right away it
+- [04:56] has already developed the agent for us.
+- [04:59] This is where we requested it to build
+- [05:00] an agent to find the startups off of
+- [05:03] those two websites. And now with the
+- [05:05] agent UI, you can send in any prompts to
+- [05:07] interact with that agent. So we can ask
+- [05:09] it to please find a list of seedstage s
+- [05:12] startups from Crunchbase and Angelus.
+- [05:14] And it's going to be able to use its
+- [05:16] tools that are built within the agent
+- [05:19] like web searching as well as crawling.
+- [05:21] And you can see that it's going to be
+- [05:22] able to extract a list of different
+- [05:24] startups that are found off of
+- [05:26] CrunchBase as well as Angel List. And
+- [05:28] after a couple seconds, you can see that
+- [05:30] it was able to create a comprehensive
+- [05:33] list of new seedstage SAS startups off
+- [05:36] of CrunchBase as well as Angelist. Not
+- [05:39] only the website, the description, the
+- [05:41] location, as well as the funding stage.
+- [05:43] Just off of this single prompt, a
+- [05:45] textual prompt, it was able to build out
+- [05:47] this agent that has web searching
+- [05:49] capabilities, scraping capabilities, and
+- [05:51] so much more. This is the capability of
+- [05:53] toolhouse and how you can easily build
+- [05:55] different production ready agents. And
+- [05:58] you can access the code and once you're
+- [06:00] ready, you can even publish it. So if
+- [06:02] needed, you can access and share this
+- [06:04] link around so others can access this
+- [06:06] agent. And now that you have basically
+- [06:09] created the backend functionality of
+- [06:11] your app, you can then have it connected
+- [06:13] to a front-end builder like lovable or
+- [06:15] both. And you can basically vibe code it
+- [06:17] further where you can have it create the
+- [06:20] front end with these two tools and then
+- [06:22] have it connected with this agent which
+- [06:24] I'll showcase in a second. You can also
+- [06:26] have it so that you can access it via
+- [06:29] API and then you can even schedule it
+- [06:31] for autoscheduled weekly execution. In
+- [06:33] this case, if you already have a lovable
+- [06:35] account, you can head over to it and you
+- [06:37] can copy this to your clipboard, this
+- [06:39] message over here, and then you can send
+- [06:41] it into lovable so that it can then work
+- [06:43] on building out the front-end component
+- [06:46] of your agent. Toolhouse already
+- [06:48] provides that front-end chatbot. But say
+- [06:50] if you want to build it within an app,
+- [06:52] that is where you can use lovable. This
+- [06:55] is where it'll create the interface. It
+- [06:57] will have it so that it's a standalone
+- [06:58] app where others can access its
+- [07:01] interactive accessibility and it is
+- [07:04] something that's going to be production
+- [07:05] ready all without writing a single line
+- [07:07] of code. You can see that it is creating
+- [07:10] the plan for this. And there we go. We
+- [07:12] have our lovable app fully developed.
+- [07:14] And this is where we can converse with
+- [07:16] the agent that was developed with
+- [07:18] toolhouse. And you can see that I sent
+- [07:20] in the exact same prompt that I did
+- [07:22] within Toolhouse. And it's going to
+- [07:23] execute it by using the agent's
+- [07:26] capabilities.
+- [07:28] And just like that, we have the same
+- [07:30] functionality of our agent working
+- [07:32] within this front end that lovable
+- [07:33] build. But guys, say if you want to use
+- [07:35] it within the CLI, well, it's super
+- [07:37] simple. You can use npm install command
+- [07:40] and you can open up your command prompt.
+- [07:41] You can paste this in and it's going to
+- [07:43] install toolhouse CLI onto your
+- [07:46] computer. And to create a new agent, you
+- [07:49] can use the th new command. And this is
+- [07:51] where you can simply go ahead and build
+- [07:53] out a custom agent directly within your
+- [07:55] CLI. This is where I have given it the
+- [07:58] name as stock market agent. And this is
+- [08:01] where you can now go ahead and deploy
+- [08:03] the agent. And that is by using the th
+- [08:06] deploy command. Then we can go ahead and
+- [08:08] authenticate this by logging in with our
+- [08:10] tools account.
+- [08:13] And then what you can do is use the th
+- [08:15] vibe and then whatever agent you have
+- [08:17] created. And you can now have it so that
+- [08:20] you can instantly generate a deployed
+- [08:22] frontend either with lovable, bold or v
+- [08:25] 0ero. This is where you can use whatever
+- [08:27] option you want. But this is an option
+- [08:30] where you can use the CLI to guide you
+- [08:32] through selecting your preferred vibe
+- [08:33] coding service and you can generate the
+- [08:35] required prompt and redirect you to a
+- [08:37] live AJ interface. And if you want to
+- [08:40] configure the prompt before you deploy
+- [08:42] it, you can definitely go into the YAM
+- [08:44] file and you can configure the system
+- [08:45] prompt here within your IDE or any sort
+- [08:48] of editor. And yep, you can do exactly
+- [08:50] the same thing off of tool houses method
+- [08:53] within the agent studio. And if you want
+- [08:55] to change the code like the system
+- [08:57] prompt, you can add additional
+- [08:59] information directly within this editor
+- [09:02] that's built within the agent studio.
+- [09:04] But let's say you want to enhance your
+- [09:06] agent even further. Well, you can do so
+- [09:08] with MCPS. This is where you can empower
+- [09:11] it with external tools and data
+- [09:13] processing capabilities with different
+- [09:15] tool sets like XA web search which
+- [09:17] allows your large English model to
+- [09:18] search the internet, send emails, and so
+- [09:21] many other types of capabilities. In
+- [09:23] this case, we're scraping contents, but
+- [09:26] you wanted to do a better job in terms
+- [09:28] of scraping. We know a tool that can do
+- [09:30] that, which is Firecrawl. I can use
+- [09:32] whatever MCP server like Firecrawl MCP
+- [09:36] to scrape better contents off of
+- [09:38] websites. I can configure it by
+- [09:40] providing my API key. And what's nice is
+- [09:42] that you can even bundle multiple MCP
+- [09:45] servers that your agent can use. This is
+- [09:47] where you can enable a list of them that
+- [09:49] your agent can use. And all you got to
+- [09:51] do is just configure it within the agent
+- [09:54] studio the prompt itself so that it runs
+- [09:57] that bundle particularly. you will be
+- [09:59] able to access the MCP server directly
+- [10:02] with this button where you can manage
+- [10:04] the API key directly from here. Now what
+- [10:06] I can do is within the code I can tell
+- [10:08] it to use the fire crawl MCP and I've
+- [10:11] just rewrote the prompt so that it uses
+- [10:13] the firecraw mcp I can click save and
+- [10:16] once that is done what we can do is then
+- [10:19] now go over to preview and then send in
+- [10:21] any sort of request that will use the
+- [10:24] firecrawl mcp based off of the
+- [10:26] configurations we had provided. So,
+- [10:28] let's just rerun this prompt and it will
+- [10:30] now use the firecrawl mcp to scrape the
+- [10:34] different contents off of angel list as
+- [10:36] well as crunchbase. We can see there is
+- [10:39] a list of newer companies compared to
+- [10:42] what I saw previously and it was able to
+- [10:45] find a lot more and US-based as well as
+- [10:48] companies that are seed staged funding.
+- [10:51] Overall, you can see that it did a
+- [10:53] decent job in doing this and a lot
+- [10:55] better than the previous scraper. If you
+- [10:57] like this video and would love to
+- [10:58] support the channel, you can consider
+- [11:00] donating to my channel through the super
+- [11:02] thanks option below. Or you can consider
+- [11:05] joining our private Discord where you
+- [11:07] can access multiple subscriptions to
+- [11:09] different AI tools for free on a monthly
+- [11:11] basis, plus daily AI news and exclusive
+- [11:14] content, plus a lot more. But that's
+- [11:16] basically it guys for today's video on
+- [11:18] toolhouse. This is an incredible way for
+- [11:21] you to build AI agents in less than a
+- [11:24] couple of minutes to connecting
+- [11:25] different sorts of MCP servers as well
+- [11:28] as deploying it instantly. Puts the
+- [11:30] power of AI deployment at your
+- [11:31] fingertips and it's something that you
+- [11:33] can do quite rapidly. I'll leave all
+- [11:35] these links in the description below as
+- [11:36] well as your Discord where there is a
+- [11:39] lot of ways for you to access developer
+- [11:41] docs and as well as just simply chat
+- [11:44] with the community. But that's basically
+- [11:45] it guys. a great tool and I highly
+- [11:47] recommend that you use this with the
+- [11:48] links in the description below. But with
+- [11:50] that thought guys, thank you guys so
+- [11:51] much for watching. Make sure you go
+- [11:52] ahead and subscribe to the second
+- [11:53] channel, join the newsletter, join our
+- [11:55] private discord, follow me on Twitter,
+- [11:56] and lastly, make sure you guys
+- [11:57] subscribe, turn on notification bell,
+- [11:58] like this video, and please take a look
+- [12:00] at our previous videos cuz there is a
+- [12:01] lot of content that you'll truly benefit
+- [12:03] from. But with that thought, guys, have
+- [12:04] an amazing day. Spread positivity and
+- [12:06] I'll see you guys fairly shortly. He
+- [12:07] suffers.

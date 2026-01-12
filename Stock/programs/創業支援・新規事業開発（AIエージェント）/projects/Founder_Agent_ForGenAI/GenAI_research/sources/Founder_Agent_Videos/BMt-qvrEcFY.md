@@ -1,0 +1,1257 @@
+---
+title: "YouTube Video: BMt-qvrEcFY"
+video_id: "BMt-qvrEcFY"
+video_url: "https://www.youtube.com/watch?v=BMt-qvrEcFY"
+speaker: "Mahham Codes"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Learn to build AI agents with Langbase, one of the most powerful serverless AI clouds. This hands-on course will teach you how to create context engineered agents that use memory and AI primitives to ...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: BMt-qvrEcFY
+
+- URL: https://www.youtube.com/watch?v=BMt-qvrEcFY
+- Retrieved at: 2025-12-30T10:03:24+09:00
+
+## Text
+
+- [00:00] Learn to build AI agents with Langbase,
+- [00:03] one of the most powerful serverless AI
+- [00:05] clouds. This hands-on course will teach
+- [00:08] you how to create context engineered
+- [00:10] agents that use memory and AI primitives
+- [00:14] to take action and deliver accurate
+- [00:16] production ready results using Langbase.
+- [00:18] Maham from Scribba developed this
+- [00:20] course.
+- [00:23] Hello everyone and welcome to this
+- [00:25] course on building serverless AI agents
+- [00:28] with Langbase. Over the next few scrims
+- [00:31] we're going to build something powerful
+- [00:33] AI agents without frameworks and these
+- [00:35] agents are going to be context aware
+- [00:38] that is the AI agent can dynamically use
+- [00:40] relevant information to generate
+- [00:42] accurate meaningful task focused
+- [00:45] responses. We're living through an
+- [00:47] incredible shift in software. Large
+- [00:49] language models opened the door and now
+- [00:51] the focus has moved to AI agents built
+- [00:53] on top of LLMs and everyone's talking
+- [00:56] about agents. But most platforms make it
+- [00:59] way harder than it should be with
+- [01:01] bloated frameworks, messy deployments,
+- [01:04] endless YAML configurations, and slow
+- [01:06] feedback loops that actually kill your
+- [01:08] momentum. That's why this course breaks
+- [01:10] it down to the simplest, most
+- [01:12] straightforward way to build AI agents
+- [01:15] with Langbase. Now, Langbase is not a
+- [01:18] framework. It's a serverless AI cloud
+- [01:20] platform specifically designed for
+- [01:22] building, deploying, and scaling AI
+- [01:24] agents easily. By the end of this
+- [01:27] course, you will be able to build
+- [01:28] serverless AI agents with memory and
+- [01:31] agentic rag that enable realtime
+- [01:33] contextaware autonomous behavior. You
+- [01:36] will be able to use langbased memory
+- [01:38] agents which use their proprietary
+- [01:40] reasoning models to handle terabytes of
+- [01:42] data without you needing to train
+- [01:44] anything. You can easily deploy your
+- [01:46] agents with just one click and scale
+- [01:49] effortlessly from hobby projects all the
+- [01:51] way to production without changing your
+- [01:53] code. Before you start, make sure you're
+- [01:56] comfortable with JavaScript and
+- [01:57] TypeScript. If not, I recommend
+- [01:59] completing the Scrimbars learn
+- [02:00] JavaScript course. Also, if you feel you
+- [02:02] need more background knowledge on AI,
+- [02:04] intro to AI engineering and learn rag
+- [02:07] would be good courses to help you brush
+- [02:09] up. Also, you'll be needing to sign up
+- [02:11] on Langbase by clicking the link on the
+- [02:13] slide and get your API key. We'll need
+- [02:15] it for the upcoming lessons. When you
+- [02:18] sign up, you land in the Langbase AI
+- [02:20] studio where you can manage your AI
+- [02:22] agents, memories, and your API key. Add
+- [02:25] your LLM API keys in your Langbase AI
+- [02:27] studio account and Langbase has a wide
+- [02:30] range of LLM so you can pick the one
+- [02:32] that best fits your needs. Before we
+- [02:34] dive deeper, let me quickly explain to
+- [02:36] you what exactly is an AI agent. You can
+- [02:40] think of an AI agent as an autonomous
+- [02:42] software powered by LLMs that can
+- [02:44] perceive, reason, decide, and act. It's
+- [02:47] not just answering questions. It
+- [02:49] performs task, uses tools, handles
+- [02:52] workflows, and adapts based on context
+- [02:54] and memory. Building and scaling such
+- [02:56] agents has historically been a
+- [02:58] challenge, and using full frameworks
+- [03:00] makes things slow and rigid. Instead,
+- [03:03] Langbase uses a primitives-based
+- [03:05] approach. Now, AI primitives are small
+- [03:07] composible building blocks like Lego
+- [03:09] pieces that let you focus on building
+- [03:12] your agent while Langbase handles the
+- [03:14] infrastructure for you. These AI
+- [03:16] primitives include pipe agents, memory
+- [03:19] agents, tools, workflow, threads,
+- [03:22] chunker, agent runtime, parser, embed,
+- [03:25] and don't worry if you don't know what
+- [03:27] those terms mean. We'll be explaining
+- [03:30] each of these AI primitives in the later
+- [03:32] part of the course. I'm Mahham Codes,
+- [03:34] your instructor and an AI content
+- [03:36] developer. You can connect with me on X
+- [03:39] and LinkedIn. Click the links on the
+- [03:41] slides and you'll be directed to my
+- [03:43] profiles. I'm excited to guide you on
+- [03:45] this journey of building AI agents. In
+- [03:48] the next lesson, we'll dive into the
+- [03:50] core concepts you'll need to build your
+- [03:52] first context engineered AI agent with
+- [03:55] Langbase. So, let's get started.
+- [04:00] Hey folks, before we start coding AI
+- [04:03] agents, let's cover some essential
+- [04:05] concepts that will guide you throughout
+- [04:06] this course as we'll be building an
+- [04:08] agentic rack system. Let me explain to
+- [04:11] you what that means. Now, agentic rack
+- [04:13] combines two powerful ideas and rag.
+- [04:17] Agentic basically means an AI agent that
+- [04:19] is an autonomous program that can
+- [04:21] understand what you ask, make decision
+- [04:24] and take actions based on context and
+- [04:26] memory. Whereas rag is retrieval
+- [04:29] augmented generation and instead of just
+- [04:31] guessing answers, the system first
+- [04:34] retrieves relevant information from a
+- [04:36] large set of documents or data then uses
+- [04:39] that information to generate accurate
+- [04:41] informed responses. On the other hand,
+- [04:44] context engineered AI agents use context
+- [04:48] and tools to perform tasks autonomously
+- [04:50] and in an agentic rag setup. A retrieval
+- [04:53] step is added to bring in relevant
+- [04:56] information that the agent reasons over
+- [04:58] to generate accurate contextaware
+- [05:00] answers. To build this contextaware
+- [05:02] agentic rack system, Langbase offers
+- [05:05] everything we need. We'll be using
+- [05:07] Langbas pipes. Now pipes are serverless
+- [05:10] AI agents that run online. They can
+- [05:12] automate tasks, analyze information,
+- [05:15] carry out research or help users by
+- [05:17] answering questions. Langbased pipes are
+- [05:19] available as serverless APIs. You write
+- [05:22] the logic in Langbas takes care of the
+- [05:24] infrastructure deployment and scaling.
+- [05:27] This is the easiest way to build, deploy
+- [05:29] and scale AI agents without worrying
+- [05:31] about servers or maintenance. You can
+- [05:34] build AI agent pipes using either the
+- [05:36] language SDK to interact with the
+- [05:38] language APIs. This is the code method
+- [05:41] or you can use the langbas AI studio the
+- [05:44] UI to build, deploy and collaborate on
+- [05:47] AI agents. In this course, we'll focus
+- [05:50] on coding with the SDK, but feel free to
+- [05:53] explore the documentation if you'd like
+- [05:55] to build AI agents using the Langbas AI
+- [05:57] studio. Click the links on the slides to
+- [06:00] explore both. Next, we'll be using
+- [06:02] memory agents from Langbase to build a
+- [06:04] contextually aware rag agent. These are
+- [06:07] AI agents with human-like long-term
+- [06:09] memory. You can train them on your data
+- [06:12] and knowledge bases without managing
+- [06:14] vector stores or servers yourself.
+- [06:17] Langbased memory agents make semantic
+- [06:19] retrieval augmented generation much
+- [06:22] easier. And just like with pipes, you
+- [06:24] can use either the SDK or the Langbas AI
+- [06:26] studio to build memory agents. But in
+- [06:29] this course, we'll be using the Langbase
+- [06:31] SDK as I mentioned before. So let's take
+- [06:33] a look at the Langbase SDK. As we know
+- [06:36] that Langbase is an API first platform
+- [06:38] and the Langbase API key you will get
+- [06:40] will help in authenticating SDK calls.
+- [06:42] The SDK supports Python, TypeScript,
+- [06:45] Node.js, React, Nex.js and you can learn
+- [06:48] more in detail in the official Langbas
+- [06:51] talks which have comprehensive guides to
+- [06:53] help you learn about it. As we progress,
+- [06:55] we'll dive deeper into the agentic rag
+- [06:57] and how to build these powerful agents
+- [06:59] in Typescript using the Langbase SDK
+- [07:01] pipes and memory agents. Before jumping
+- [07:04] into code, let me quickly show you what
+- [07:06] you'll be building, which is a memory
+- [07:08] based contextaware AI agent that answers
+- [07:11] questions based on documents you upload.
+- [07:14] Here's how it works. You create a memory
+- [07:16] instance to store your documents and
+- [07:18] then you upload data into that memory
+- [07:20] and it converts it into a memory agent.
+- [07:23] When a user asks a question, relevant
+- [07:25] chunks are fetched from that memory.
+- [07:28] Then we're going to create an AI agent
+- [07:30] pipe that uses those chunks as context
+- [07:32] to generate an answer. And finally, the
+- [07:34] AI agent pipe will return the response
+- [07:36] based on the retrieved data and the
+- [07:38] query. To give you a fast preview of the
+- [07:40] agent we'll build throughout this
+- [07:42] course, let's use command new by
+- [07:44] Langbase that can vip code this entire
+- [07:46] agent for you. You just type something
+- [07:49] like chat with PDF and it generates the
+- [07:51] code using Langbase SDK and the AI
+- [07:54] primitives. We'll be building the
+- [07:55] backend step by step so you can
+- [07:57] understand exactly what's happening
+- [07:59] behind the scenes. That way you'll be
+- [08:01] able to easily scale your AI agents. In
+- [08:04] the next lessons, we'll start coding our
+- [08:06] first AI agent with memory using
+- [08:08] TypeScript and the language SDK. So
+- [08:10] let's go.
+- [08:14] Before we continue with coding, let's
+- [08:16] set up something you'll use throughout
+- [08:18] the course. Environmental variables.
+- [08:20] Now, environmental variables allow you
+- [08:22] to store API keys securely and use them
+- [08:24] in your code without typing them into
+- [08:27] every file. This will make your
+- [08:29] exercises and challenges much easier to
+- [08:32] follow. And we'll be using the language
+- [08:33] API key to build AI agents. So, you need
+- [08:36] to add that in Scribba. Now, how to add
+- [08:39] environmental variables in Scribba? For
+- [08:41] that, you need to go to Scribba homepage
+- [08:43] and click on your name or avatar and
+- [08:46] open the settings. Inside the settings,
+- [08:48] click the scrim environment and you'll
+- [08:50] be directed to this interface where you
+- [08:52] can add your API keys in this panel.
+- [08:55] Once added, you can access them in your
+- [08:58] code using process.env.langbase
+- [09:00] API key. We'll use this syntax in the
+- [09:03] upcoming lessons. Now, if you're using
+- [09:06] another editor and you're working
+- [09:08] outside of Scrimbar, for instance,
+- [09:09] you're using VS Code editor, you need to
+- [09:12] create a ENV file in the root of your
+- [09:14] project and add your API keys there. For
+- [09:18] practice on Scrimbar, always use the
+- [09:20] Scribba's environment system. If you
+- [09:22] want to learn more about it, click the
+- [09:24] link in the slides and you'll be
+- [09:26] directed to a scrim teaching you more
+- [09:29] about the Scribba environmental variable
+- [09:30] system. Now, one thing more you should
+- [09:32] know before you jump into the coding of
+- [09:35] the AI agents is how you're going to run
+- [09:37] code in Scribbar. So, in the upcoming
+- [09:39] lessons, you will run files with this
+- [09:42] npxtsx file name.ts command in your
+- [09:45] terminal. Before running this command,
+- [09:48] make sure to install your dependencies
+- [09:49] by running npm install command. And
+- [09:52] that's all you need to prepare. With
+- [09:53] environmental variables set up, you're
+- [09:55] ready to continue building agents. So,
+- [09:57] let's jump back into coding and put this
+- [10:00] into practice.
+- [10:04] Welcome back. In the last video, you got
+- [10:06] a sneak peek at the memory agent on
+- [10:08] command new, the one we'll be building
+- [10:10] step by step throughout this course.
+- [10:12] Now, it's time to actually create it.
+- [10:14] We'll build a simple Node.js app in
+- [10:17] Typescript using the Langbase SDK to
+- [10:19] create an agentic rack system. In this
+- [10:21] lesson, we'll just focus on creating an
+- [10:23] agentic memory using Langbas SDK, the
+- [10:26] foundation for contextually aware system
+- [10:28] or agentic rag. And by the end of this
+- [10:31] lesson, you'll have a memory created
+- [10:33] directly through the Langbase SDK,
+- [10:36] results printed to your console, and the
+- [10:38] memory automatically showing up in your
+- [10:40] Langbase AI Studio account. So, let's
+- [10:42] get started. First thing first, create a
+- [10:45] new directory and initialize Node.js
+- [10:47] project by running this command. npm
+- [10:49] initi y. This will create a package.json
+- [10:54] file. Then with this command npmi
+- [10:57] langbase env you will install the
+- [11:00] dependencies. We'll use the langbase SDK
+- [11:03] to create the memory agents and env to
+- [11:05] manage environmental variables. So let's
+- [11:08] install these dependencies. As I
+- [11:10] mentioned before that you'll need a
+- [11:11] langbase API key to create the agent. So
+- [11:14] create a env file
+- [11:17] with your Langbase API key in it. If
+- [11:20] you've set up LLM API keys in your
+- [11:21] Langbase studio profile, the AI memory
+- [11:24] and the agent pipe will automatically
+- [11:26] use them. Once this is done, create a
+- [11:28] new file by the name create memory.ts
+- [11:32] and in this file, import the env package
+- [11:36] to load the environmental variables.
+- [11:39] Then import the langbase class from the
+- [11:43] langbase package. After that create a
+- [11:45] new instance of the langbase class by
+- [11:48] this const langbase object
+- [11:52] new langbase. This will contain your API
+- [11:57] key. Now if we look at the langbase
+- [11:59] documentation, it says that to create
+- [12:02] memory on langbase, we need to use this
+- [12:05] langbase.mmemories.create
+- [12:06] function. So let's do that. In an async
+- [12:10] function
+- [12:11] main, we'll create a new AI memory. Add
+- [12:16] const memory equals to wait
+- [12:21] langbase dot memories dotcreate
+- [12:24] function. This will create a new AI
+- [12:27] memory on langbase. Inside this langbase
+- [12:30] domemies.create create function we'll be
+- [12:32] defining the name of the memory its
+- [12:35] description
+- [12:36] and the embedding LLM model you'll use
+- [12:41] to create memory embeddings and finally
+- [12:43] we call main so the script actually
+- [12:46] executes this is how you're going to
+- [12:49] create memories on langbase now here's a
+- [12:52] challenge for you create a memory named
+- [12:55] knowledgebase using the memoriescreate
+- [12:57] method and use openAI text embedding
+- [13:00] three large model for embeddings.
+- [13:02] Finally, log the created memory to the
+- [13:03] console. I'll pause here so you can do
+- [13:06] it on your own. Give it a try. Don't
+- [13:08] worry if you're not able to do it. We'll
+- [13:10] solve this together once you're back.
+- [13:14] All right, let's do it together. We're
+- [13:16] going to create an async function main
+- [13:19] with a const memory object equals to
+- [13:23] await using the line base dot memories
+- [13:27] dot create method inside it defining the
+- [13:31] name of the memory which is going to be
+- [13:34] knowledge base giving it a description
+- [13:38] then we'll be using open AI text
+- [13:41] embedding three large model for
+- [13:43] embedding so for that defining the
+- [13:46] embedding LLM model as open AI text
+- [13:50] embedding three large and the final part
+- [13:52] of the challenge is to log the created
+- [13:54] memory to the console for that creating
+- [13:57] console.log
+- [13:59] function with
+- [14:02] AI memory in it and lastly we're going
+- [14:05] to call main to execute the script. This
+- [14:09] is done. Let's save the file. Now to
+- [14:12] create this agentic memory, run this
+- [14:14] command in your terminal. npxtsx.
+- [14:17] The name of the file is create
+- [14:19] memory.ts.
+- [14:21] It's asking me to install the following
+- [14:22] packages. Let's proceed with yes. This
+- [14:25] will create an AI memory and log the
+- [14:28] memory details to the console. Like at
+- [14:31] the moment, I'm getting this indication
+- [14:32] that the AI memory has been created with
+- [14:34] the name knowledge base. This is the
+- [14:36] description. The owner login is
+- [14:38] mahamedev. That's the username of my
+- [14:40] Langbase AI studio account. This is the
+- [14:42] embedding model that I used to create
+- [14:45] this AI memory. Chunk size of 10,000 and
+- [14:47] a chunk overlap of48
+- [14:51] with the URL where you can access your
+- [14:53] memory. If you visit your language AI
+- [14:55] studio account and inside the memory
+- [14:58] tab, you'll see the memory has been
+- [15:00] created for you. Good job. In the next
+- [15:03] scrim, we'll upload documents to this
+- [15:06] agentic memory. So stay with me.
+- [15:10] Hey folks, welcome to this lesson on
+- [15:13] uploading documents to memory. In the
+- [15:15] last scrim, you learned how to create an
+- [15:17] agentic memory in Langbase. Let's take
+- [15:19] it a step further. We're going to upload
+- [15:22] documents to that memory. By the end of
+- [15:24] this lesson, you'll have a document
+- [15:26] uploaded into the agentic memory and the
+- [15:28] document will be showing up in your
+- [15:30] Langbase AI studio account. First thing
+- [15:32] first, create a new folder in the
+- [15:34] directory by the name docs. This is
+- [15:37] where we'll store all the documents we
+- [15:39] want to upload. For this demo, I'll add
+- [15:41] a mock text file by the name Langbase
+- [15:45] FAQ. TXT with some FAQ content in it.
+- [15:50] Let's paste that content and save the
+- [15:52] file. This mock text file is going to be
+- [15:55] inside the docs folder. Now, [snorts]
+- [15:57] Lang supports multiple file formats like
+- [15:59] text, PDF, markdown, and CSV. So, you
+- [16:03] can use whatever makes sense for your
+- [16:04] project. Next, in the root of your
+- [16:07] project, create another file by the name
+- [16:09] upload docs.ts.
+- [16:11] Then we're going to import
+- [16:15] to load the environmental variables.
+- [16:17] After that, we're going to import the
+- [16:19] Langbase class
+- [16:22] from the Langbase SDK. Then we're going
+- [16:25] to import
+- [16:27] read file from FS promises to read our
+- [16:31] FAQ file asynchronously. We'll also
+- [16:34] import the path module to help us safely
+- [16:38] build file paths. The relevant imports
+- [16:41] are done. The next step is to create a
+- [16:44] new instance of the langbase class with
+- [16:47] this con lang base equals to new lang
+- [16:51] base with your API key in it. Next,
+- [16:54] we're going to define an async function
+- [16:58] main. This lets us use a weight inside
+- [17:01] which makes working with asynchronous
+- [17:03] operations like reading files or
+- [17:05] uploading them much easier. Then inside
+- [17:07] this async main function, we're going to
+- [17:10] create a const current working directory
+- [17:13] object with process. CWT to get the
+- [17:17] current working directory. Process CWT
+- [17:20] returns the folder where your node.js
+- [17:22] script is running. And we'll use this as
+- [17:24] a base path when locating files. Inside
+- [17:27] the same async function, we'll be
+- [17:29] setting the memory name by this const
+- [17:32] memory name object and the name of the
+- [17:36] memory that we created earlier is
+- [17:38] knowledge base. So giving that this is
+- [17:41] where we'll upload and store the
+- [17:43] documents. Now to read the FAQ file,
+- [17:46] we're going to create a const line base
+- [17:50] FAQ object with await read file
+- [17:56] path dot join current working directory.
+- [18:00] In this case, the current working
+- [18:01] directory is docs and inside that docs
+- [18:05] folder, we have this lang base faq.txt
+- [18:10] file. So giving that file path. Now read
+- [18:14] file actually reads the file from the
+- [18:16] disk and path.join safely builds the
+- [18:19] path to our FAQ file. After this is
+- [18:22] done, we'll be uploading the document to
+- [18:26] Langbase memory. Now this is the most
+- [18:29] important step. If we look at the
+- [18:31] Langbase SDK documentation, it states
+- [18:33] that to upload documents to a memory, we
+- [18:36] need to define a
+- [18:37] langbase.mmemories.cuments.upload
+- [18:40] function. So let's do that. I'll be
+- [18:43] creating a const FAQ result object with
+- [18:47] a weight using the langbase dot memories
+- [18:50] dot documents dotupload function that
+- [18:54] will be responsible to upload the
+- [18:56] document to the langbase AI memory and
+- [18:59] inside this we'll be defining the memory
+- [19:02] name that tells langbase which memory to
+- [19:04] put this file in.
+- [19:07] Then we'll also be defining the content
+- [19:10] type, the document name which will be
+- [19:14] the same name of the file we created
+- [19:16] inside the docs folder. We'll also be
+- [19:19] adding the document with the actual file
+- [19:22] contents we are going to read. And
+- [19:24] lastly, inside the meta function, we'll
+- [19:27] be defining a category and topic. These
+- [19:31] are extra tags and are completely
+- [19:33] optional but useful later for filtering
+- [19:35] or organizing documents. This is how
+- [19:38] you're going to upload a document to
+- [19:40] Langbas memory. Now, here's a challenge
+- [19:42] for you. Upload the demo FAQ document to
+- [19:45] the memory and print the success upload
+- [19:47] document message to the console. I'll
+- [19:49] pause here so you can do it on your own.
+- [19:50] Give it a try. Don't worry if you're not
+- [19:52] able to do it. We'll solve this together
+- [19:54] once you're back.
+- [19:59] All right, let's do it together. As
+- [20:02] we've created this langbase.mmemories
+- [20:03] dodo documents.upload function, inside
+- [20:06] this I'm going to define the content
+- [20:08] type for the FAQ document. That is going
+- [20:10] to be text/plain.
+- [20:12] Since langbase faq is a text file, so
+- [20:16] I'm giving that content type. Inside the
+- [20:18] document name, I'm going to add langbase
+- [20:20] faq.txt.
+- [20:22] That's the name of the document which is
+- [20:24] inside the docs folder. and we want this
+- [20:27] document to be uploaded to our AI memory
+- [20:29] on Langbase. Then inside this document
+- [20:31] tag, I'll be adding the actual file
+- [20:34] content we just read. In this case, it
+- [20:37] is going to be Langbas FAQ. So let's do
+- [20:39] that.
+- [20:42] The category would be support and the
+- [20:45] topic would be Langbase FAQs. This is
+- [20:49] done. And the last part of the challenge
+- [20:51] is to print the success message to the
+- [20:53] console. For that I'm going to create
+- [20:56] this console.log function with this
+- [20:58] message that if the upload is succeeded
+- [21:01] print a check mark with this faq
+- [21:03] docuploaded message otherwise we print
+- [21:05] an error message. Lastly we're going to
+- [21:07] call main. So the script actually
+- [21:10] executes. Let's save the file. To upload
+- [21:13] this document to the memory we're going
+- [21:15] to run this command in your terminal npx
+- [21:18] tsx. And the name of the file is upload
+- [21:22] docs.ts. DS and when you run this
+- [21:25] command you'll see that in your Langbase
+- [21:27] AI studio account and inside the memory
+- [21:30] tab and the knowledgebased memory you
+- [21:32] created earlier the document has been
+- [21:34] uploaded with a ready status. Great job.
+- [21:37] In the next we'll see what memory agents
+- [21:39] on Langbase do after you upload the
+- [21:41] document for context engineering. So
+- [21:43] stay with me.
+- [21:47] Welcome back. So far you've created a
+- [21:49] memory and uploaded documents into it.
+- [21:52] But what actually happens after you
+- [21:54] upload a document to Langbase? That's
+- [21:56] where memory agents come in. A memory
+- [21:59] agent isn't just storing raw text. It's
+- [22:02] running through a whole pipeline of
+- [22:03] processes to make your data reusable,
+- [22:06] searchable, and contextually aware for
+- [22:09] your AI agents. Let's walk through it
+- [22:12] using this simple diagram. The moment
+- [22:14] you upload a document, Langbase parses
+- [22:17] it. That means it breaks down the
+- [22:19] structure and extract meaning not just
+- [22:21] the text. Next, the content is split
+- [22:24] into smaller meaningful chunks. And
+- [22:26] instead of dealing with one giant file,
+- [22:28] the system works with manageable
+- [22:30] sections that keep context intact. Once
+- [22:32] your document is split into smaller
+- [22:34] chunks, each chunk needs to be
+- [22:36] translated into something a computer can
+- [22:39] actually work with. That's where
+- [22:41] embeddings come in. The chunks are sent
+- [22:43] to the embedding LLM model that
+- [22:45] generates embeddings. Now an embedding
+- [22:47] is basically a numerical representation
+- [22:49] of the meaning. Words and sentences are
+- [22:52] converted into long list of numbers that
+- [22:54] are like vectors and these numbers
+- [22:57] capture semantic meaning. So two pieces
+- [22:59] of text that are similar in meaning will
+- [23:01] have embeddings that are close to each
+- [23:03] other in this highdimensional space. By
+- [23:06] converting your chunks into embeddings,
+- [23:08] Langbase makes it possible for the
+- [23:10] system to later compare your query
+- [23:11] against all store chunks and instantly
+- [23:14] find the most relevant ones not just by
+- [23:16] keywords but by meaning that is semantic
+- [23:18] search. So embeddings are a bridge that
+- [23:21] let AI understand your text at a deeper
+- [23:24] and semantic level. The embeddings are
+- [23:26] stored in a vector store and indexed for
+- [23:29] faster retrieval. Now indexing is done.
+- [23:31] So when you query the memory later, the
+- [23:34] system can instantly look up the most
+- [23:36] relevant chunks. All these steps happen
+- [23:38] within minutes and all of the data is
+- [23:41] automatically prepared that is the index
+- [23:43] data and stored in a vector store. So
+- [23:45] you can quickly ask questions from that
+- [23:47] data. And here's the best part on
+- [23:49] linebased you just don't get the
+- [23:51] pipeline as one black box. You get
+- [23:53] separate AI primitives like the memory
+- [23:56] workflow, threads, parser, chunker,
+- [23:58] embed tools and so on. That means you
+- [24:01] have the freedom to build scalable AI
+- [24:04] agents by composing exactly the AI
+- [24:06] primitives you need instead of being
+- [24:08] locked into one fixed framework. And
+- [24:10] using these AI primitives, there are
+- [24:13] reference agent architectures that
+- [24:15] leverage Langbas to build, deploy, and
+- [24:18] scale autonomous agents. With these
+- [24:20] agent architectures, you can define how
+- [24:23] your agents use LLM, tools, memory, and
+- [24:26] durable workflows to process input, make
+- [24:28] decisions, and achieve goals. You can
+- [24:31] learn about them by clicking the link in
+- [24:33] the slide. Now, let's talk about what
+- [24:35] happens when you ask a question. For
+- [24:38] that, Langbase can rewrite or refine
+- [24:41] your query to improve the entire
+- [24:43] retrieval process, making sure the
+- [24:45] system looks for the right information.
+- [24:47] Then it fetches the most relevant chunks
+- [24:49] from the index. That is it retrieves
+- [24:52] those relevant chunks. Then those chunks
+- [24:54] get reranked prioritizing the most
+- [24:56] contextually accurate results. And with
+- [24:58] the right context in hand, the agent
+- [25:00] passes it to the LLM to generate a
+- [25:02] useful grounded answer. And finally, the
+- [25:05] system evaluates the response for
+- [25:07] coherence and alignment with the source
+- [25:09] memory. So to recap, when you upload a
+- [25:12] document or data to langbased memory,
+- [25:15] which is agentic memory or memory agent,
+- [25:17] it transforms it into something your AI
+- [25:20] agents can actually reason with. This is
+- [25:22] how we move from raw data to
+- [25:24] contextually aware responses. In the
+- [25:27] next lesson, we'll see how to actually
+- [25:29] query the memory and retrieve results.
+- [25:32] So follow along.
+- [25:36] Hey folks, welcome back. In this lesson,
+- [25:39] you learn how to perform retrieval
+- [25:40] against a query using Langbase. And if
+- [25:42] you've been following along, here's the
+- [25:44] journey so far. We created a
+- [25:46] contextually aware memory agent and
+- [25:48] uploaded data into that memory. The
+- [25:50] memory agent parsed, chunked, embedded,
+- [25:53] and indexed the data in a vector store.
+- [25:55] Now, we're going to move forward to the
+- [25:57] third step of building a contextually
+- [25:59] aware rack system that is retrieving
+- [26:02] relevant data against a query. And by
+- [26:05] the end of this lesson, you'll see those
+- [26:07] retrieved memory chunks printed to your
+- [26:09] console. Now, how retrieval works? As we
+- [26:12] uploaded a mock langbased FAQ document
+- [26:14] to the EI memory in the previous scrim,
+- [26:16] if a user now asks a question like, "How
+- [26:19] do I upgrade my individual plan?" Here's
+- [26:21] what happens behind the scenes. The
+- [26:23] question is embedded into a vector
+- [26:25] representation. Embeddings are compared
+- [26:27] with all the stored embeddings in your
+- [26:29] memory index and a semantic vector
+- [26:32] search is run to find the most relevant
+- [26:34] chunks in the language AI studio. You
+- [26:37] can test this easily if you click the
+- [26:39] memory tab from the sidebar menu and
+- [26:41] open your memory agent. Click retrieval
+- [26:44] testing and after clicking that enter
+- [26:47] your query into the input box like how
+- [26:48] do I upgrade my individual plan and you
+- [26:50] will see the system return chunks along
+- [26:53] with the similarity percentages. Now,
+- [26:55] here's a pro tip. You can adjust chunk
+- [26:58] size and overlap under the settings to
+- [27:01] improve retrieval accuracy. At this
+- [27:03] stage, you now have the relevant chunks.
+- [27:05] And if you pass these chunks into an
+- [27:08] agent's context and ask the same
+- [27:09] question, the agent will generate an
+- [27:11] answer based on this context. This is
+- [27:13] retrieval augmented generation that is
+- [27:16] rag cycle in action. But before
+- [27:18] generation, let's take a look at the
+- [27:19] retrieval step in code. As in the
+- [27:22] previous step, we uploaded the document
+- [27:24] to the AI memory. Now, we're going to
+- [27:26] create a new file in the project
+- [27:27] directory by the name agent.ts. And
+- [27:30] inside this file, I'm going to import
+- [27:32] the environmental variables from your
+- [27:34] env file. This is how we securely store
+- [27:37] the Langbase API key. Next, again, I'm
+- [27:40] going to import
+- [27:42] Langbase class from the Langbase
+- [27:45] package. This brings in the Langbase SDK
+- [27:48] so we can interact with the Langbase
+- [27:50] APIs. Then again we're going to create a
+- [27:52] new langbase
+- [27:54] client instance using our langbase API
+- [27:57] key from the env file. After this we're
+- [28:01] going to define a reusable function to
+- [28:03] run retrieval against a query. For that
+- [28:05] I'm doing export async
+- [28:08] function with run memory agent and the
+- [28:13] query is going to be string. This
+- [28:15] function will run the retrieval process
+- [28:17] against a user query. Now if we head
+- [28:20] over to the langbase SDK documentation
+- [28:23] to retrieve memories on langbase we need
+- [28:25] to define this langbase domemies.
+- [28:27] retrieve function. So let's do that. In
+- [28:29] a const chunks object I'm going to
+- [28:33] define this langbase
+- [28:37] dotmemories dot retrieve function. Now
+- [28:40] inside this langbase domeies. retrieve
+- [28:42] function the important work will be
+- [28:44] done. We're going to add a query that is
+- [28:47] going to be the user's question. Then
+- [28:49] defining top K as four that tells the
+- [28:53] LLM to fetch the top four most relevant
+- [28:56] chunks. After that, we're going to
+- [28:58] specify which memory to search in. As in
+- [29:01] the previous lessons, we created a
+- [29:05] knowledge base memory. So, we're
+- [29:07] specifying that. And finally, we're
+- [29:10] going to return the retrieved chunks so
+- [29:12] we can use them in our agent. This is
+- [29:15] done. Let's save the file. Now to run
+- [29:17] the retrieval process, you need to hook
+- [29:20] this run memory agent up. And for that,
+- [29:22] I'm going to create a new file in the
+- [29:24] project directory by the name index.ts.
+- [29:28] And in the start, I'm going to import
+- [29:31] the function we wrote in agents.ts file.
+- [29:34] So let's do that. Import run memory
+- [29:39] agent from the agent.ts file. After
+- [29:43] that, I'm going to define an async
+- [29:45] function main to run our code. Inside
+- [29:49] it, creating a const chunks object with
+- [29:52] a weight run memory agent that sends the
+- [29:57] user query. How do I
+- [30:02] upgrade
+- [30:04] individual plan? And finally, with
+- [30:07] console.log, print the retrieve chunks
+- [30:10] so you can see what came back. and
+- [30:12] closing this with main. So the script
+- [30:13] actually executes. This is done. Let's
+- [30:16] save the file. Now it's time to run the
+- [30:19] script in your terminal. For that, I'm
+- [30:21] going to enter this command. npx tsx
+- [30:26] index.ts.
+- [30:28] That's the name of the file. And you'll
+- [30:30] see the retrieved memory chunks printed
+- [30:32] to your console. These are the most
+- [30:34] relevant sections of your data for the
+- [30:37] query. And that's retrieval in action.
+- [30:40] In the next lesson, we'll see how to
+- [30:42] pass these chunks into an agent for
+- [30:44] generation and completing the entire
+- [30:46] agentic rag cycle. So stay with me.
+- [30:53] Welcome back. Up till now we created a
+- [30:56] memory agent, uploaded data into that
+- [30:59] memory and upon user query, relevant
+- [31:01] chunks are fetched from that memory. Now
+- [31:04] we're moving to the fourth step of
+- [31:06] building a contextually aware agentic
+- [31:08] rack system that is agent processing. In
+- [31:10] this lesson, we'll be creating an AI
+- [31:12] agent pipe on Langbase that uses the
+- [31:15] data chunks as context to generate an
+- [31:17] answer. And by the end of this lesson,
+- [31:19] you'll have an AI agent pipe set up in
+- [31:21] your Langbase AI Studio account. To
+- [31:24] begin with, create a new file by the
+- [31:26] name create pipe.ts in the root of your
+- [31:30] project. Then inside this file, import
+- [31:32] the env to load the environmental
+- [31:35] variables. Then import langbase class
+- [31:39] from
+- [31:41] the langbase package. Then again create
+- [31:44] a new langbase
+- [31:46] client instance with your langbase API
+- [31:49] key in it. Now to create the pipe agent
+- [31:51] using the langbase SDK, if we head over
+- [31:54] to the documentation, it states that we
+- [31:57] need to define this
+- [31:58] langbase.pipes.create
+- [31:59] create function. So let's do that. We'll
+- [32:02] be creating an async function main and
+- [32:07] inside this async function main, we'll
+- [32:09] be creating our AI agent pipe. As we
+- [32:12] uploaded the langbase FAQ into the AI
+- [32:15] memory, so the AI agent pipe we'll be
+- [32:17] creating would be a support agent. For
+- [32:20] that creating const support agent using
+- [32:24] await
+- [32:26] and langbase dotpipes dotcreate function
+- [32:30] and inside this function I'm going to
+- [32:32] give the AI agent pipe a name
+- [32:37] and description. Now name and
+- [32:39] description are like human friendly
+- [32:41] metadata for the pipe and that will be
+- [32:43] shown in the language AI studio account
+- [32:45] and is very useful for organization.
+- [32:48] When you create a pipe agent, you can
+- [32:50] give it initial messages. So for that
+- [32:53] we're going to define a messages array.
+- [32:57] Inside this messages array, we'll be
+- [32:59] defining the pipe agents role and its
+- [33:02] content.
+- [33:04] These work just like a conversation
+- [33:05] history. you'd send an LLM or an agent.
+- [33:08] Now, inside the role, you can either
+- [33:10] define a system or a user prompt. A
+- [33:13] system prompt is like giving the AI its
+- [33:15] job description before the conversation
+- [33:17] starts, and it defines how the AI should
+- [33:20] behave, its role, tone, and boundaries.
+- [33:22] For instance, you could give this system
+- [33:25] prompt to the agent that tells it that
+- [33:27] you're a helpful support agent that
+- [33:29] always answers briefly and accurately.
+- [33:31] Whereas a user prompt is the actual
+- [33:34] input or question from the user that the
+- [33:36] AI needs to respond to. For instance,
+- [33:39] how do I upgrade my individual plan? Is
+- [33:41] an example of a user prompt. Now, here's
+- [33:43] a challenge for you. Define the support
+- [33:45] AI agent pie by giving it a name,
+- [33:47] description, and a system prompt. I'll
+- [33:49] stop here so you can try it on your own.
+- [33:52] Don't worry if you're not able to do it.
+- [33:53] We'll do this together once you're back.
+- [33:58] All right, let's do it together. Since
+- [34:01] we're creating support agent so I'm
+- [34:02] going to give this name to the agent
+- [34:06] AI support agent giving this description
+- [34:09] that this agent is here to support users
+- [34:12] with their queries. Now the next part is
+- [34:14] adding a system prompt. So for that the
+- [34:17] role is going to be system instead of
+- [34:19] user. And this is the system prompt that
+- [34:21] you're a helpful AI assistant. You will
+- [34:23] assist users with their queries. And
+- [34:25] lastly, we're going to log the created
+- [34:28] pipe agent to the console with this
+- [34:30] console.log and ending this with main.
+- [34:34] So the script executes. Let's save the
+- [34:36] file. And to create this AI pipe agent,
+- [34:39] let's run this command in your terminal.
+- [34:42] npx tsx. The name of the file is create
+- [34:45] pipe.ts.
+- [34:47] This will create the support pipe agent.
+- [34:50] And if we head over to the Langbase AI
+- [34:52] studio account inside the pipes tab,
+- [34:55] you'll see that the AI support agent has
+- [34:57] been created. If you click that agent,
+- [35:00] you'll see the system instructions you
+- [35:01] gave to the agent. That's all for now,
+- [35:04] folks. In the next lesson, you will
+- [35:06] generate comprehensive rag responses by
+- [35:08] connecting this agent to the memory. And
+- [35:11] that's the last step in creating a
+- [35:12] contextually engineered agentic rack
+- [35:15] system. So, let's go.
+- [35:18] Hey folks, in this lesson we're going to
+- [35:20] look at the last step of creating a
+- [35:22] contextually aware agentic rag system
+- [35:25] that is generating rag responses. In
+- [35:27] this step, we'll be connecting the AI
+- [35:29] agent pipe we created in the previous
+- [35:31] scrim to the knowledgebased AI memory
+- [35:33] with langbased FAQ docs uploaded into
+- [35:36] that memory to generate contextually
+- [35:38] aware responses. In this lesson, the
+- [35:40] goal is to take those chunks we
+- [35:42] retrieved from memory, build a system
+- [35:44] prompt with that context, call the
+- [35:46] Langbas AI agent pipe, that is the AI
+- [35:49] support agent we created in the previous
+- [35:50] scrim, and return the LLM completion.
+- [35:53] So, let's get started. In the agent.ts
+- [35:55] file we created at the time of
+- [35:56] performing retrieval, at the moment, it
+- [35:59] is retrieving relevant chunks from
+- [36:00] memory. There's a run memory agent
+- [36:03] helper to do that. And now in the same
+- [36:05] file we'll add code to generate a
+- [36:07] grounded answer using those chunks. As
+- [36:10] we've imported langbase the SDK client
+- [36:12] used to call Langbase APIs. We'll also
+- [36:15] import
+- [36:16] memory retrieve response which is the
+- [36:19] TypeScript type for the objects returned
+- [36:22] by the memories. retrieve function from
+- [36:24] the langbase SDK. Then to generate a
+- [36:26] response from chunks and query, we'll be
+- [36:29] defining an export async function
+- [36:34] run AI support agent. And this run AI
+- [36:38] support agent takes chunks and query as
+- [36:42] input. And this run AAI support agent
+- [36:44] function even receives chunks with an
+- [36:48] array of retrieved memory chunks with
+- [36:50] this memory retrieve response function.
+- [36:52] And it even receives the query that is
+- [36:54] going to be the user question or prompt
+- [36:57] string. Then create a const
+- [37:00] system prompt object
+- [37:03] with a weight gets system prompt
+- [37:07] function to generate a system prompt for
+- [37:09] the LLM. Now the get system prompt
+- [37:12] chunks builds a single system prompt
+- [37:13] string that includes instructions and
+- [37:15] the collected chunk text. That prompt
+- [37:18] sets the agents behavior and provides
+- [37:20] the context it must use. Next, we'll run
+- [37:23] the agent with this const
+- [37:26] completion using the await
+- [37:28] langbase.pipes
+- [37:31] dotr run function. In it, we're setting
+- [37:34] the stream false. That means the call
+- [37:36] returns a full completion rather than
+- [37:38] streaming partial tokens. As we're
+- [37:40] running the agents, we're also defining
+- [37:42] the name of the agent we created earlier
+- [37:44] that is AI support agent. Then inside
+- [37:46] this langbase.pipes.run
+- [37:48] function, we'll be defining a messages
+- [37:51] array with a system message and the
+- [37:54] content to be system prompt. Other than
+- [37:56] the system prompt, we'll also be
+- [37:59] defining a user message that is going to
+- [38:02] be the actual content or the actual user
+- [38:06] question. And finally, the AI returns a
+- [38:09] completion that is the answer. Next,
+- [38:12] we'll create the system prompt to build
+- [38:14] the context. For that, defining an async
+- [38:17] function. Get system prompt. This
+- [38:21] function builds the instruction for the
+- [38:22] AI and it takes all the chunks pieces of
+- [38:26] text from memory and glues them together
+- [38:28] into one big string. Then we're going to
+- [38:30] define the system prompt.
+- [38:33] So, the LLM or agent generates accurate
+- [38:35] rag responses. These are like rules that
+- [38:38] is asking the LLM to be helpful and
+- [38:40] accurate. only use the given context and
+- [38:42] always site sources. This ensures the AI
+- [38:45] doesn't hallucinate or make up
+- [38:46] information. And finally, as we defined
+- [38:48] in the previous scrim that in the
+- [38:50] agent.ts file, we added code to retrieve
+- [38:52] chunks from memory. It searches for the
+- [38:55] four most relevant chunks for the same
+- [38:58] reason we gave topk the value of four.
+- [39:00] And the four most relevant chunks it is
+- [39:02] going to generate for us will be related
+- [39:04] to the question. Let's save this file
+- [39:06] and to run the support agent with the AI
+- [39:09] memory chunks inside the index.ts file
+- [39:12] we created earlier in the previous
+- [39:13] scrim. Other than the run memory agent
+- [39:16] that we're importing, we'll add run AI
+- [39:21] support agent that we defined in
+- [39:23] agent.ts file. And we're going to remove
+- [39:26] this for now and create an async
+- [39:29] function main with a user query.
+- [39:34] How do I upgrade to individual plan?
+- [39:38] Then with this const chunks object,
+- [39:42] we call the run memory agent query
+- [39:45] function that gets the best context
+- [39:47] chunks and then we pass those chunks
+- [39:52] with const completion to run AI
+- [39:57] support agent function that takes chunks
+- [40:00] and query as input. With this function,
+- [40:03] the AI generates the final response and
+- [40:06] finally we log the result to the console
+- [40:10] ending it with main. So the script
+- [40:12] executes. Now to run the code, I'm going
+- [40:14] to run this command in my terminal. npx
+- [40:17] tsxindex.ts.
+- [40:19] This runs the program for you and you
+- [40:22] will see the AI response in the console
+- [40:24] with the sources cited. Good job. You
+- [40:27] just built a retrieval augmented
+- [40:28] generation rag agent and it first
+- [40:31] retrieves relevant info from memory.
+- [40:33] Then it uses that info to answer
+- [40:35] questions accurately and it always cites
+- [40:38] its sources. Stay with me as we dig
+- [40:40] deeper into the context engineering part
+- [40:42] of AI agents.
+- [40:48] Welcome back. So far we built a
+- [40:50] contextaware agentic rack system. Here
+- [40:53] is what we did step by step. created an
+- [40:56] AI memory and uploaded data into it
+- [40:59] which wasn't just stored as raw text but
+- [41:01] processed through a pipeline that made
+- [41:03] it searchable and contextually aware.
+- [41:06] After uploading the data to that memory,
+- [41:08] it converted it into a memory agent and
+- [41:11] as we discussed earlier, these are the
+- [41:13] processes in that pipeline. Then we
+- [41:16] retrieved relevant chunks when a user
+- [41:18] asked a question like how do I upgrade
+- [41:20] my individual plan and passed those
+- [41:22] chunks into an AI agent pipe got back an
+- [41:25] accurate response grounded in both the
+- [41:27] query and the retrieve data. In this
+- [41:29] entire process we use two AI primitives
+- [41:33] langbased memory and AI agent pipes. But
+- [41:36] Langbase offers many more AI primitives
+- [41:38] you can combine to engineer powerful
+- [41:41] scalable AI agents. So let's quickly go
+- [41:43] through them. Workflow is one of the AI
+- [41:46] primitives by linebased that helps you
+- [41:48] build multi-step AI applications and
+- [41:51] supports sequential and parallel
+- [41:53] execution. It lets you add conditions,
+- [41:56] retries, and timeouts. Gives you
+- [41:59] detailed step-by-step logging. You can
+- [42:01] think of it as orchestration for your AI
+- [42:04] processes. Next up, threads is another
+- [42:06] AI primitive that manages conversation
+- [42:09] history and your context. This primitive
+- [42:12] is essential for chatbased application
+- [42:14] where the AI needs to remember what was
+- [42:16] said before. The parser AI primitive
+- [42:19] extracts text from different document
+- [42:21] formats like PDF, CSVs, and it is useful
+- [42:23] for pre-processing documents before
+- [42:26] feeding them into your AI pipeline. Next
+- [42:28] up, we have the Chunka AI primitive that
+- [42:31] splits text into smaller, manageable
+- [42:33] pieces. This AI primitive is useful for
+- [42:36] building rag pipelines and lets you
+- [42:38] focus only on relevant sections of large
+- [42:41] documents. The embed AI primitive
+- [42:43] converts text into vector embeddings.
+- [42:46] And this one enables semantic search and
+- [42:48] similarity comparisons, making it easier
+- [42:50] to find relevant information based on
+- [42:53] context rather than just keywords. Now
+- [42:56] tools is another most important AI
+- [42:58] primitive that allows you to extend the
+- [43:00] capabilities of your AI applications.
+- [43:03] They give your AI agents extra powers
+- [43:05] like web search API calls or running
+- [43:08] code. If you know about MCP model
+- [43:11] context protocol, then adding tools to
+- [43:13] your MCP server makes highly versatile
+- [43:16] AI workflows where agents can fetch live
+- [43:19] data, automate tasks, and stay context
+- [43:22] aware. And if you don't know about MCP,
+- [43:24] then you should definitely take this
+- [43:26] intro to model context protocol course
+- [43:28] on Scribba. Click the link on the slide
+- [43:30] and you'll be directed to the course.
+- [43:33] Next up, we have the agent AI primitive
+- [43:36] that works as a runtime LLM agent and
+- [43:39] you can specify all parameters at
+- [43:41] runtime and get the response from that
+- [43:43] agent. Now, all these primitives are
+- [43:45] documented in the Langbas documentation.
+- [43:48] Click the link in the slides to dive
+- [43:50] into the examples and learn how to use
+- [43:52] each one in code. Now using these AI
+- [43:55] primitives, Langbase also provides eight
+- [43:58] reference agent architectures like
+- [44:01] augmented LLM, prompt chaining, agentic
+- [44:03] routing, agent paralization,
+- [44:05] orchestration workers, evaluator,
+- [44:07] optimizer, augmented LLM with tools and
+- [44:10] memory agent. Now you don't need any
+- [44:12] framework to build AI agents. All you
+- [44:14] need are composible AI primitives for
+- [44:16] it. Again, check the link in the slides
+- [44:18] to explore each architecture in detail.
+- [44:21] If you're into wipe coding agents with
+- [44:22] an agent app, don't miss the next
+- [44:25] lesson.
+- [44:28] Hey everyone, congratulations on making
+- [44:31] it to the final lesson of the course. So
+- [44:34] far, we've built a full contextaware
+- [44:36] gentrack system step by step. We started
+- [44:39] it by creating an AI memory on lang base
+- [44:42] and uploaded documents into that memory
+- [44:44] that converted it into a memory agent.
+- [44:47] saw how memory agents processed that
+- [44:49] data, retrieved relevant chunks, and
+- [44:52] built a pipe AI agent, generated drag
+- [44:54] responses, and explored langbased AI
+- [44:57] primitives. Now, let's look at a faster
+- [45:00] way to build all of this using command.
+- [45:04] Now, what is command? Command is
+- [45:06] computer human AI by line base. It's
+- [45:09] like having an ondemand AI engineer. You
+- [45:11] just describe your idea and it builds a
+- [45:14] production ready AI agent for you. All
+- [45:16] you need to do is prompt your AI agent
+- [45:18] idea and command builds a fully
+- [45:20] functional agent complete with its API
+- [45:22] and the agent app that are deployed on
+- [45:24] Langbase which is the most powerful AI
+- [45:27] serverless platform. Now inside command
+- [45:30] you get an agent IDE which is a powerful
+- [45:32] code editor for editing, debugging and
+- [45:35] observing the agent. You even get an
+- [45:37] agent app. Every agent you build on
+- [45:40] command has a production ready sharable
+- [45:42] app. You get a readytouse API for your
+- [45:45] agent with code snippets and command
+- [45:48] supports scalable production ready
+- [45:50] deployments. Now inside the input box of
+- [45:53] command new you can prompt the agent and
+- [45:56] the agent app switch between these two
+- [45:58] modes for specific updates. And with
+- [46:00] version control you can even track
+- [46:02] changes and revert to previous versions.
+- [46:05] Command also supports forking the agents
+- [46:07] that is you can copy other agents and
+- [46:08] make them your own. You even get live
+- [46:11] deployed URLs to share your agents with
+- [46:13] the world. And with the agent flow
+- [46:15] diagram, you get visualized flows for
+- [46:18] understanding complex agent logic. And
+- [46:20] inside command, you also get memory
+- [46:22] agents that are ready to use rack
+- [46:24] pipelines. And you even get
+- [46:26] automatically generated documentation
+- [46:28] for your agent through the agent readme.
+- [46:30] Now let's create your first agent with
+- [46:32] command. All you need to do is prompt
+- [46:35] command for wipe coding AI agents. Just
+- [46:38] describe what you want to create in the
+- [46:39] prompt box. The more specific you are,
+- [46:42] the better the results. Enter an initial
+- [46:44] prompt for your agent idea and command
+- [46:46] will continue from there. You can keep
+- [46:48] refining and adjusting your agent as you
+- [46:50] go. Let's use this prompt for this demo
+- [46:53] that build an AI support agent that uses
+- [46:56] my docs as memory for autonomous rag.
+- [46:58] Now when you enter a prompt, command
+- [47:00] begins the agent creation process and it
+- [47:03] lays out the foundational structure of
+- [47:05] your agent and starts generating the
+- [47:07] necessary code to bring it to life. This
+- [47:09] includes the agent code and the agent
+- [47:11] apps code. Now the agent.ts file
+- [47:14] contains the main logic of your agent
+- [47:16] and its workflow. Whereas the app folder
+- [47:19] inside the directory contains the app
+- [47:21] and the front-end code, the React
+- [47:23] components for your agent. Now command
+- [47:26] generates the agent code in real time in
+- [47:28] the agent IDE where all the code
+- [47:30] generation and editing takes place. You
+- [47:33] can toggle between files and edit them
+- [47:35] manually or prompt command to make those
+- [47:37] changes. It intelligently detects when
+- [47:40] an agent requires access to private or
+- [47:42] extended data that is rag. In such cases
+- [47:45] it automatically creates memory agents
+- [47:48] like in this case for the prompt that we
+- [47:50] gave command created a support doc
+- [47:53] memory for us. It will store the company
+- [47:55] documentation and provide it to the
+- [47:57] support agent when needed. Once this
+- [47:59] memory agent has been created, click the
+- [48:02] memory and then you can upload documents
+- [48:04] to that memory agent. Once uploaded, the
+- [48:07] documents are parsed, chunked and
+- [48:09] embedded making them searchable and
+- [48:11] retrievable by the agent. As we
+- [48:14] discussed in the previous scrims while
+- [48:15] we were working on the code, after
+- [48:17] you've uploaded a document and command
+- [48:19] has generated all the necessary code,
+- [48:21] the next step is to deploy your agent.
+- [48:23] If your agent uses specific LLMs or
+- [48:26] tools, you may need to add API keys in
+- [48:28] the environmental variable section. And
+- [48:30] if you are a langbased user and have LLM
+- [48:33] keys saved in your profile key set,
+- [48:35] they'll be automatically imported here.
+- [48:37] Once the agent has been deployed, you
+- [48:39] will have access to agent app which is a
+- [48:42] production ready app to interact with
+- [48:43] and share the agent. The agent API that
+- [48:46] is a readytouse scalable serverless
+- [48:48] endpoint for your agent. and the agent
+- [48:51] flow diagram that is a visual
+- [48:52] diagrammatic representation of the
+- [48:54] agent's logic to understand how it
+- [48:56] works. You can also edit the agent's
+- [48:58] code or download it if you prefer to
+- [49:01] self-host it. Now, alongside the agent,
+- [49:03] command automatically generates a
+- [49:05] fullyfledged application for your agent.
+- [49:08] That's the agent app. And they are
+- [49:10] accessible after you deploy the agent.
+- [49:12] These agent apps are production ready.
+- [49:14] They auto update when the agent changes.
+- [49:16] And they're fully hosted, instantly
+- [49:18] sharable. mobile and desktop ready and
+- [49:22] customizable using the app prompt mode.
+- [49:24] You can test the agent with a prompt
+- [49:26] like how do I upgrade to individual plan
+- [49:28] and it should respond with an answer
+- [49:30] based on the documentation you uploaded.
+- [49:32] Other than the agent app, you can use
+- [49:34] this AI agent through the agent API as
+- [49:37] well. Go to the API tab and retrieve
+- [49:39] your API base URL and API key that you
+- [49:42] can use in your applications, websites
+- [49:45] or literally anywhere you want. After
+- [49:47] deploying the agent, command also
+- [49:49] automatically generates a visual agent
+- [49:52] flow to help you understand how your
+- [49:54] agent works. By clicking this icon right
+- [49:57] here on the top right corner of the
+- [49:58] agent IDE, you get access to the agents
+- [50:01] flow diagram. Agents can quickly become
+- [50:04] complex with multiple decision paths,
+- [50:07] tools, and branching conditions. The
+- [50:09] agent flow diagram provides a clear view
+- [50:11] of the agents logic including its
+- [50:13] decision paths, tools used, and
+- [50:16] branching conditions. That was all for
+- [50:18] now folks. If you want to learn more,
+- [50:21] I'll highly recommend visiting the
+- [50:22] language documentation by clicking the
+- [50:24] link in the slide and learn how you can
+- [50:26] build, scale, and deploy any type of AI
+- [50:29] agents. I hope you had a wonderful time
+- [50:31] learning how to build serverless context
+- [50:34] engineered AI agents using Langbase. So,
+- [50:37] what are you waiting for? Go ahead, sign
+- [50:39] up on Langbase and reach out to me on my
+- [50:41] social profiles if you have any more
+- [50:43] questions.

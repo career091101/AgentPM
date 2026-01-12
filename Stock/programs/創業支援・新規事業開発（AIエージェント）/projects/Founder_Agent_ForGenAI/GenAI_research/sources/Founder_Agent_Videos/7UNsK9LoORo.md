@@ -1,0 +1,605 @@
+---
+title: "YouTube Video: 7UNsK9LoORo"
+video_id: "7UNsK9LoORo"
+video_url: "https://www.youtube.com/watch?v=7UNsK9LoORo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Today I'm super excited to share with you guys this Photoshop AI agent that I built in Nen with no code. It uses Google's new nano banana image generation model which is absolutely insane. It's really...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 7UNsK9LoORo
+
+- URL: https://www.youtube.com/watch?v=7UNsK9LoORo
+- Retrieved at: 2025-12-30T09:45:11+09:00
+
+## Text
+
+- [00:00] Today I'm super excited to share with
+- [00:01] you guys this Photoshop AI agent that I
+- [00:03] built in Nen with no code. It uses
+- [00:05] Google's new nano banana image
+- [00:07] generation model which is absolutely
+- [00:08] insane. It's really changing the game
+- [00:10] for ad creatives and UGC content. So I
+- [00:12] don't want to waste any time. We're
+- [00:13] going to dive into it and I'm going to
+- [00:14] show you guys exactly how this system
+- [00:16] works. And as always, I'm going to give
+- [00:17] all the resources that you need to set
+- [00:19] this up completely free. So stick around
+- [00:21] so I can show you guys how to do that.
+- [00:22] All right. So here is the master
+- [00:24] Photoshop agent. And you can see it's
+- [00:25] not too complex. Up front, what we have
+- [00:27] is the ability to take text or image as
+- [00:29] an input. And then the agent has five
+- [00:31] different tools to choose from. It's got
+- [00:33] two image genen tools where it can
+- [00:34] combine images or edit existing images.
+- [00:37] And then it has three file handling
+- [00:38] tools in Google Drive where it can
+- [00:40] change the name of a file, search
+- [00:41] through raw files, or search through AI
+- [00:43] generated images that it's created for
+- [00:45] us. And it can manage all of this right
+- [00:46] in your pocket, right through Telegram.
+- [00:48] So let's hop into a demo. Okay, so you
+- [00:50] can see that our workflow is listening
+- [00:52] to us. I'm going to send a picture on
+- [00:53] Telegram.
+- [00:55] Okay, so I just shot that off and now
+- [00:57] you can see it's uploading that to
+- [00:58] Google Drive. The agent's going to see
+- [01:00] that and then it's going to ask us what
+- [01:02] we want to name that file in our Google
+- [01:04] Drive. So there you go. It just
+- [01:05] responded with what would you like me to
+- [01:07] name that photo? And I'm shooting back a
+- [01:09] message that says call it Nate. And what
+- [01:11] it's going to do now is use this change
+- [01:13] name tool to change the name in our
+- [01:15] Google Drive to Nate. As you can see, if
+- [01:17] I switch over real quick to media, it
+- [01:19] just got called Nate. And originally it
+- [01:20] would have been called today's date. So
+- [01:22] now it's asking us what we want to do
+- [01:23] next. And I'm going to shoot off this
+- [01:25] picture of a bag of granola. And once
+- [01:27] again, it's going to ask us what do we
+- [01:29] want to name this file. And just to show
+- [01:31] you guys real quick, in the media folder
+- [01:32] that it's dropping, like I said, it
+- [01:34] defaults to naming everything today's
+- [01:36] date. So now I'm going to show you guys
+- [01:37] that it actually does change it. All
+- [01:39] right, so shooting off this message that
+- [01:40] says to call that picture granola. And
+- [01:42] once again, we'll see it go here and
+- [01:44] change that picture to granola. And then
+- [01:46] we'll have it combine the images
+- [01:47] together. All right, that just finished
+- [01:49] up. We'll check the media folder, and we
+- [01:50] can see that picture got called granola.
+- [01:53] Okay, so I've got Telegram open on my
+- [01:54] desktop now just to make this easier.
+- [01:56] And it's asking us what to do next. I'm
+- [01:58] shooting off this message that says,
+- [01:59] "Please combine the Nate and granola
+- [02:01] pictures to make a photorealistic image
+- [02:03] where the man is holding their granola
+- [02:05] while hiking on a mountain." So, if you
+- [02:07] remember over here, we have a raw file
+- [02:08] of granola. We have a smiling selfie of
+- [02:11] me. And it's going to put these
+- [02:13] together. Right here, you can see it's
+- [02:14] using its combined image tool, and it's
+- [02:16] going to use nano banana to make it look
+- [02:17] like I'm holding the granola on a
+- [02:19] mountain. So, I'll check in with you
+- [02:20] guys when that's finished up. Oh, and
+- [02:22] one other thing. While this is running,
+- [02:24] normally the agent would go search
+- [02:25] through the files to make sure it has
+- [02:27] the right IDs to combine the images. But
+- [02:29] because it's using its memory, it
+- [02:30] already knows that. So that's why it
+- [02:32] didn't hit the other file handling
+- [02:33] tools. But you can see we got a response
+- [02:35] over here. It's combined the images.
+- [02:36] Now, let me click into this Google Drive
+- [02:38] link and we'll take a look. So there we
+- [02:40] go. We've got the kind granola with all
+- [02:41] the spelling correct. We've got me and
+- [02:43] my face holding the granola while hiking
+- [02:46] on a mountain. And just to show you guys
+- [02:48] what that would look like if the files
+- [02:49] weren't just immediately uploaded and we
+- [02:52] wanted to pull different ones. So let's
+- [02:53] see. We have a Hermosi picture right
+- [02:54] here that's insanely low quality. We've
+- [02:56] got a JBL speaker picture right here. So
+- [02:58] what I'm going to do now is say please
+- [02:59] combine the Hermosi image with the JBL
+- [03:01] speaker image to make it look like the
+- [03:03] man is listening to the speaker on a
+- [03:04] boat. And now you can see it's searching
+- [03:06] through the RAW files. It has those
+- [03:08] correct IDs. And now that it has those
+- [03:10] file IDs, it can pass that to the
+- [03:12] combine images tool in order to actually
+- [03:14] send those both to Nano Banana and get
+- [03:17] back an image. There you go. You can see
+- [03:18] it's calling the combined images tool.
+- [03:20] So, I'll check in with you guys when we
+- [03:21] get that back. All right, so it just
+- [03:23] told us it was done. I'm going to go to
+- [03:24] the AI image generation folder, and you
+- [03:26] can see we do have a new one. Let's
+- [03:27] click in to see how it turned out. Not
+- [03:29] too bad at all. We have the JBL speaker.
+- [03:31] We've got Hermoszi in his
+- [03:32] acquisition.com beater, and it looks
+- [03:35] pretty good. And remember, these images
+- [03:37] are only going to get better and better
+- [03:39] when you come in here and you customize
+- [03:40] the prompts and you customize all this
+- [03:42] other stuff because what's actually
+- [03:44] going on is this agent is creating its
+- [03:46] own prompt when it sends over variables
+- [03:48] to this workflow. So, if we had a
+- [03:50] dedicated agent just focused on like
+- [03:52] creating optimized AI image generation
+- [03:54] prompts, the results would probably be a
+- [03:56] lot better. All right. All right. And
+- [03:58] just to show off the functionality of
+- [03:59] the edit image tool, I'm going to shoot
+- [04:01] off this message that says to create a
+- [04:02] photorealistic advertisement of the
+- [04:04] granola image, make it look like it's
+- [04:06] being held in front of the Eiffel Tower.
+- [04:08] So, this one is going to have to find
+- [04:09] the file ID of the granola image,
+- [04:11] whether that's in the memory or if it
+- [04:12] has to search the raw files. Looks like
+- [04:14] it just searched the raw files as you
+- [04:16] can see. And now it's going to call the
+- [04:17] edit image tool in order to change the
+- [04:20] appearance of that image. Okay, so looks
+- [04:22] like that just finished up. I'm going to
+- [04:24] go to the AI image generation folder.
+- [04:26] You can see we have granola ad Eiffel.
+- [04:28] If I click on it, you can see that it is
+- [04:29] our bag of granola which looks exactly
+- [04:32] like that and it is being held in front
+- [04:34] of the Eiffel Tower. So, if that's not a
+- [04:36] good ad creative, then I don't know what
+- [04:38] is. And so, all of the words are pretty
+- [04:40] much spot-on except for right up here at
+- [04:41] the top. As you can see, this is
+- [04:43] supposed to say ingredients you can see
+- [04:45] and pronounce. But two things, the first
+- [04:48] thing is that in the RAW files, this is
+- [04:50] a pretty low quality image. So, like I
+- [04:52] can't even read what that says right
+- [04:53] there. And then the second thing is this
+- [04:54] image generation model is only going to
+- [04:56] get better and better and of course the
+- [04:58] prompting that is in this current
+- [04:59] workflow is very minimal. But anyways,
+- [05:02] now that you guys have seen how this
+- [05:03] works, let's start to dive into what's
+- [05:06] going on with all of these nodes. So the
+- [05:08] first thing I'm going to start off with
+- [05:09] is the text to image input. What happens
+- [05:11] here is we're using a switch basically
+- [05:13] to detect if a photo exists or if text
+- [05:15] exists. And if photo exists, we go up
+- [05:18] this way where we download it, upload it
+- [05:19] to Google Drive, and then we shoot that
+- [05:21] off to the agent. But if text exists,
+- [05:23] then we just shoot the text straight
+- [05:25] away. But what we have to do is make
+- [05:26] sure that the variables are the same so
+- [05:28] that it's always coming through in a
+- [05:30] field called JSON message.ext. So we
+- [05:32] basically just standardize the input so
+- [05:34] the agent looks at it no matter what
+- [05:36] comes through. Naturally, the next thing
+- [05:37] that we'll go over is the system prompt,
+- [05:39] which is very, very minimal. I said,
+- [05:41] "You are a personal assistant agent.
+- [05:43] Your job is to use the tools you have
+- [05:44] access to to help the user with their
+- [05:46] request." I listed out all the tools and
+- [05:49] I gave a very minimal description of
+- [05:50] each of them because in the tools
+- [05:52] themselves, there's a brief description,
+- [05:54] but I still like to put them here. And
+- [05:55] then for the instructions, I only ended
+- [05:57] up giving it one instruction, which was
+- [05:59] if the user submits a photo, ask what
+- [06:01] they want to name it by saying, "What
+- [06:03] would you like me to name that photo in
+- [06:04] your Google Drive?" Then once they
+- [06:06] respond, change the name using your
+- [06:07] change name tool. The system prompt is
+- [06:09] very minimal. We have only five tools to
+- [06:11] choose from, and we're using GPD 5.1 and
+- [06:14] it's doing really well. And from here,
+- [06:15] what I would do is as I'm testing more
+- [06:17] and as you guys download the template
+- [06:18] and start to play around with different
+- [06:20] things, just add instructions to your
+- [06:21] system prompt when you realize it's
+- [06:23] failing to do certain things. And then
+- [06:25] real quick, just to hit on what's going
+- [06:26] on over here before we dive into the
+- [06:28] tools is we're using GBT 5.1. We're
+- [06:30] using Sonnet 3.5 as the fallback model.
+- [06:33] And then we're just using simple memory
+- [06:35] with the session ID being the Telegram
+- [06:36] chat ID. All right, so first I'm going
+- [06:39] to go over the file handling tools
+- [06:40] because they're super simple and we'll
+- [06:42] just get that out the way. The first one
+- [06:44] is change name. So if I click into this
+- [06:45] tool, you can see what we're doing is
+- [06:47] we're updating a file and we're updating
+- [06:49] it by the ID and the ID is automatically
+- [06:52] found by the agent. So if the agent
+- [06:55] doesn't have the ID of a file to change
+- [06:56] the name, it will have to go use its
+- [06:58] other tools to find that ID and then it
+- [07:00] will pass the ID to this tool. And the
+- [07:02] other thing that gets passed to this
+- [07:03] tool is the new name. So when we say,
+- [07:05] hey, call that photo Nate, it knows to
+- [07:07] fill this in right here with the word
+- [07:09] Nate. And then these tools are doing the
+- [07:11] exact same thing. The only difference is
+- [07:13] the folder that they're searching in. So
+- [07:15] if I say to search for raw files, what
+- [07:17] we're doing is we're searching within a
+- [07:19] folder called media and we're searching
+- [07:21] for files. But if the agent realizes
+- [07:23] that we want to search through an image
+- [07:24] that it already created for us, it would
+- [07:26] use this one which is search AI images
+- [07:28] and it's doing the exact same thing
+- [07:30] except for we change the folder that
+- [07:31] it's looking through. So like I said,
+- [07:33] those three are super simple, but those
+- [07:34] are necessary in order to change things,
+- [07:37] look at things, and search through the
+- [07:39] database. Okay, so now let's get into
+- [07:41] the fun stuff which are these two custom
+- [07:42] workflows that I built. And what that
+- [07:44] means is if I open up this workflow, you
+- [07:46] can see that it is a custom Nadin
+- [07:49] workflow that I built myself. We're able
+- [07:51] to make our main agent call on it
+- [07:53] because you can see that if we add a
+- [07:54] tool right here, we have an option to
+- [07:56] call an Nin workflow as a tool. So
+- [07:58] that's how we can create these really
+- [07:59] modular systems because now if I ever
+- [08:02] want to create another agent that can
+- [08:03] combine images, I can just plug it into
+- [08:05] this workflow right here. So anyways,
+- [08:07] there's a lot of stuff going on here. So
+- [08:09] let's just take it node by node. The
+- [08:11] first thing that's going on is we have
+- [08:12] the input where I'm defining to the main
+- [08:15] Photoshop agent what to send over. So
+- [08:18] you can see we're sending over an image
+- [08:19] prompt, image one, which is an image ID,
+- [08:22] image two, which is the image ID of the
+- [08:24] second image, and then the image title
+- [08:26] for the new image that's created. And
+- [08:28] that may seem a little confusing, but
+- [08:29] when we go back to the main Photoshop
+- [08:31] agent, it looks at this and it says,
+- [08:33] "Okay, when I need to call this tool,
+- [08:34] which is combining images, I need to
+- [08:37] send over a prompt, image one, image
+- [08:39] two, and image title." So, this is how
+- [08:41] it knows to use its brain to give the
+- [08:43] second workflow all of this information.
+- [08:45] And to make this easier, I pulled in the
+- [08:47] live data from that run we did in the
+- [08:49] demo, just so you guys can see that what
+- [08:51] comes in is here's the image with
+- [08:53] Hormosi in the speaker. Here's the ID of
+- [08:55] the first one, the ID of the second one,
+- [08:57] and the new name of the AI generated
+- [08:59] image. So from there, what we do is we
+- [09:01] edit fields just to create an array of
+- [09:03] the two image IDs. We have to create an
+- [09:06] array so that we can split these out
+- [09:08] into two separate items because we need
+- [09:09] to download two files and we need to get
+- [09:11] a public URL of both of those files. So
+- [09:14] in the Google Drive node, we're
+- [09:15] downloading by ID. So you can see we're
+- [09:17] getting both of these pictures here.
+- [09:18] There's the Hormosi one and there is the
+- [09:20] speaker one. And then the way that the
+- [09:21] nano banana API works, it has to take a
+- [09:24] public URL of an image in order to
+- [09:26] actually change it. So what we do is we
+- [09:28] use a free service called image BB and
+- [09:30] I'm basically just uploading these
+- [09:32] images as binary and then it gives us
+- [09:34] back a public URL that represents the
+- [09:36] image. So here you can see this is what
+- [09:37] we get back and if I open that up, it is
+- [09:39] the picture of Herozi.
+- [09:41] So that's just a cool little workaround
+- [09:43] if you need to get an binary image into
+- [09:45] a public URL. There's other ways to do
+- [09:46] it, but this is just a free easy way
+- [09:48] that I do it. So once we have both those
+- [09:50] URLs back, we aggregate them so that we
+- [09:52] can make one API request rather than
+- [09:54] two. So we're making one request to Nano
+- [09:57] Banana through a service called FAL AI.
+- [10:00] So I'm not going to dive super super
+- [10:01] deep into what's going on here. If you
+- [10:03] want to watch an API video I made, I'll
+- [10:04] tag that right up here. But what's going
+- [10:06] on is we're using our foul credentials.
+- [10:09] So I got my API key from foul.ai. And
+- [10:12] then this JSON body request is really
+- [10:13] simple. We're passing over a prompt and
+- [10:15] we're passing over two image URLs. And
+- [10:18] the only reason why this prompt looks a
+- [10:19] little confusing is because I put these
+- [10:21] two replace functions in there that
+- [10:23] basically make sure if the prompt has
+- [10:26] new lines or um double quotation marks
+- [10:29] that it gets rid of that because that
+- [10:31] would break the JSON body request. So
+- [10:33] now it has everything it needs. It has
+- [10:34] both the images and it has the prompt.
+- [10:36] And then it basically says, "Okay, I
+- [10:38] received your request. We're working on
+- [10:40] that right now." And because it's
+- [10:41] working on it, we wait for about 10
+- [10:43] seconds and then we make a request back
+- [10:45] to foul to see if it's done. And if it's
+- [10:47] not done, it will come here and it will
+- [10:49] wait for 30 seconds. And honestly, this
+- [10:50] should probably change to like four
+- [10:52] because images are really quick. And
+- [10:55] then it will just continuously check
+- [10:56] until it's done. So that's just another
+- [10:58] cool guard rail you can have in your
+- [10:59] workflows. And then once it gets that
+- [11:02] result back, it basically gives us a
+- [11:03] URL. And so what I do is I make a simple
+- [11:05] git request to that URL to actually get
+- [11:08] the image itself. And now we have the
+- [11:10] image as binary. We can upload it to
+- [11:12] Google Drive. And then we can set our
+- [11:14] response to the main agent which is
+- [11:15] basically saying, "Hey, the image was
+- [11:17] created and this is what we named it and
+- [11:19] here's the link to that image in your
+- [11:20] Google Drive." And then the main agent
+- [11:22] gets that and responds to us, the user.
+- [11:24] So hopefully that wasn't too confusing
+- [11:26] and at a high level you can understand
+- [11:27] what's going on. Remember this will be a
+- [11:30] free workflow you guys can download in
+- [11:31] my free school community as well. So the
+- [11:35] best way to really understand it is to
+- [11:36] download all the assets, run it, and
+- [11:38] then go node by node and understand
+- [11:40] what's going on. And real quick, the way
+- [11:41] you would actually get all this is you
+- [11:43] join my free school community. The link
+- [11:44] for that down in the description. When
+- [11:46] you get there, this is what it will look
+- [11:47] like. And all you need to do is go to
+- [11:49] YouTube resources and find the post
+- [11:51] associated with this video. If you're
+- [11:53] having trouble finding it, you can also
+- [11:54] use the search bar to search for the
+- [11:55] title of the video. But then once you
+- [11:57] get in there, you'll see the video and
+- [11:59] then you'll also see all of these JSON
+- [12:01] files that you can download and then
+- [12:02] import directly into your NAD. And then
+- [12:05] when you get all the stuff set up, there
+- [12:06] will be a big sticky note right here
+- [12:08] called a setup guide and it will tell
+- [12:09] you exactly what you need to do to get
+- [12:11] up and running. Okay, cool. So that was
+- [12:13] the combine images node where we used
+- [12:15] nanobanana. Now what's cool is the edit
+- [12:18] image node is very very similar. So if I
+- [12:21] open this up and I actually just click
+- [12:22] on view subexecution, we can see exactly
+- [12:25] what happened when it was called. And
+- [12:27] it's very similar to the previous one.
+- [12:29] Literally the only difference is that
+- [12:31] instead of passing in two image IDs,
+- [12:34] we're only passing in one. So what
+- [12:36] happens once again is the input is image
+- [12:38] title, image prompt, and image ID. So
+- [12:41] here's the run from the granola Eiffel
+- [12:42] Tower ad. As you can see, we're going to
+- [12:45] go to Google Drive once again, pass in
+- [12:46] that image ID so we can download the
+- [12:48] file. Then what comes next is we are
+- [12:51] once again sending that binary data to
+- [12:53] imageB to get a public URL. So right
+- [12:56] here you can see this is the public URL
+- [12:58] we get for our granola picture.
+- [13:01] And then now that we have that we can
+- [13:02] make another request to FAI to use
+- [13:04] Nanobanana where we send over the prompt
+- [13:07] and then just one image URL instead of
+- [13:09] two. So it's very very similar. We're
+- [13:11] using the same guardrails in here to get
+- [13:13] rid of new lines and new spaces and um
+- [13:16] quotation marks, all that kind of stuff.
+- [13:17] And then it basically just edits that
+- [13:19] image. We're doing the exact same thing
+- [13:21] here with a polling check. And then when
+- [13:23] we get the result, we download it as
+- [13:25] binary rather than keeping it as a URL,
+- [13:28] put it in our Google Drive, and then we
+- [13:29] send a response back to the main agent.
+- [13:32] Real quick, just wanted to touch on some
+- [13:33] of the pricing for this system. The
+- [13:35] first thing that I wanted to cover was
+- [13:37] foul.ai.
+- [13:38] What foul is is like a place where you
+- [13:40] can have a ton of different image and
+- [13:42] video generation models and you can just
+- [13:44] use one credential and, you know, get
+- [13:46] all of them through there. So, it's
+- [13:47] really cool. You can see right here my
+- [13:48] recently used our Nano Banana Edit.
+- [13:50] We've got V3 fast, V3. You can go to
+- [13:53] explore and you can see all of these
+- [13:55] other models that they have available.
+- [13:57] But anyways, the reason why I wanted to
+- [13:58] show you guys this is because first of
+- [14:00] all, it's only about 4 cents per image,
+- [14:02] which is not too bad at all. But what
+- [14:03] you can do is you can play around with
+- [14:05] like image URLs and prompts here. So you
+- [14:07] can really refine the way you want to
+- [14:09] have your prompting before you get into
+- [14:11] Nen and start messing around there. And
+- [14:13] then the way that we can call it through
+- [14:14] nen is by going to their API
+- [14:16] documentation. I would change this to
+- [14:18] HTTP curl. And now you can look through
+- [14:20] like how to get your API key, how to set
+- [14:22] that up, how to submit a request, how to
+- [14:23] upload files, all this kind of stuff.
+- [14:26] And I also did see about a week ago that
+- [14:28] you could get free image generation
+- [14:29] through Open Router for Gemini Nano
+- [14:31] Banana because if you go to the Gemini
+- [14:33] web app, it's free to try out there. And
+- [14:36] so for a while it was free here on Open
+- [14:37] Router, but it looks like they might
+- [14:38] have just taken that off. So
+- [14:42] unfortunate, but once again, you can get
+- [14:44] 25 images for only a dollar. So it's not
+- [14:46] too bad. Okay, so that's basically all
+- [14:48] that's going on in this workflow. Now,
+- [14:50] let's talk about a few ways that when
+- [14:52] you get this template that you could
+- [14:54] customize this and make it a little more
+- [14:56] production ready. So, something that I
+- [14:58] alluded to earlier was in these two
+- [15:00] tools where you're doing image
+- [15:01] generation would be to have a dedicated
+- [15:04] AI that would create the system prompts
+- [15:06] or the AI image generation prompts. So
+- [15:08] what you could do is like literally
+- [15:09] right here just add an AI agent node and
+- [15:12] this one is prompted in a way where it's
+- [15:14] specializing in creating AI image
+- [15:17] generated prompts and then you pass that
+- [15:19] prompt all the way down to the create
+- [15:20] image node rather than relying on this
+- [15:23] main agent who has tons of other jobs to
+- [15:25] do relying on him to make the image
+- [15:27] prompt. It would be better to have a
+- [15:29] second agent in this workflow that would
+- [15:31] specialize in that. There's of course
+- [15:33] other things you can do like having a
+- [15:34] logger. So in a previous agent I've made
+- [15:36] that was kind of similar. This one was
+- [15:37] an ultimate media team. What I did here
+- [15:40] was I had it returning all of its steps
+- [15:42] into a Google sheet, whether it errored
+- [15:44] or it was successful. So you could see
+- [15:46] exactly what input was processed, what
+- [15:48] tools were called, how many tokens that
+- [15:49] was taking you. So you could use this
+- [15:51] video, which I will tag right up here if
+- [15:53] you haven't seen it. You can download
+- [15:54] those resources and do the exact same
+- [15:56] thing in this agent where you can have a
+- [15:58] Google sheet that's logging everything.
+- [15:59] And then of course another really cool
+- [16:01] next step would be being able to take
+- [16:02] these AI generated images and pass that
+- [16:05] to another workflow that can create
+- [16:07] videos out of them and you could use
+- [16:08] like V3 fast to create those images for
+- [16:11] you. That's another thing that I did in
+- [16:13] this media agent where I have like an
+- [16:14] image tovide tool, a create video tool.
+- [16:16] So definitely check out that video as
+- [16:18] well if you want to literally use some
+- [16:20] of these workflows and then just hook
+- [16:22] them up to your Photoshop agent and
+- [16:24] because that's the beauty of these
+- [16:25] custom workflows as a tool. you can have
+- [16:27] them hooked up to as many different
+- [16:28] agents as you want. So once again, all
+- [16:30] the resources for this video and every
+- [16:31] single other YouTube video you've seen
+- [16:33] on my channel, you can get for
+- [16:34] completely free in my free school
+- [16:36] community, you just have to come here,
+- [16:37] look through the YouTube resources, and
+- [16:39] as you can see, every single video has
+- [16:41] all of the resources right here. And if
+- [16:43] you're looking to take your skills a
+- [16:44] little further with NINDN and you're
+- [16:46] also looking to understand how you can
+- [16:47] monetize your AI automation knowledge,
+- [16:49] then definitely check out my plus
+- [16:51] community. The link for that will also
+- [16:52] be down in the description. We've got
+- [16:53] thousands of members in here who are
+- [16:55] building and selling end services every
+- [16:57] single day and they're always sharing
+- [16:58] their learnings and their challenges.
+- [17:00] It's a really cool space to be. We've
+- [17:01] also got two full courses at the moment
+- [17:03] with a third one coming about monetizing
+- [17:04] your AI skills. But if you're a complete
+- [17:06] beginner, you can start with the
+- [17:07] foundations and then you get in here and
+- [17:08] you master nen and then you learn how to
+- [17:10] start selling or consulting with this
+- [17:12] knowledge. So, I'd love to see you guys
+- [17:14] in these communities. But that's going
+- [17:15] to do it for the video. If you enjoyed
+- [17:16] or you learned something new, please
+- [17:17] give it a like. It definitely helps me
+- [17:19] out a ton. And as always, I appreciate
+- [17:20] you guys making it to the end of the
+- [17:21] video. I'll see you on the next one.
+- [17:23] Thanks everyone.

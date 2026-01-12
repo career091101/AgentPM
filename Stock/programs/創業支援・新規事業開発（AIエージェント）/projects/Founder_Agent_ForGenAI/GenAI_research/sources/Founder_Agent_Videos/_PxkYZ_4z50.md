@@ -1,0 +1,1341 @@
+---
+title: "If you found it hard to get 10x productivity gains out of these AI coding tools, you're not alone. S..."
+video_id: "_PxkYZ_4z50"
+video_url: "https://www.youtube.com/watch?v=_PxkYZ_4z50"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  If you found it hard to get 10x
+  productivity gains out of these AI
+  coding tools, you're not alone. Savvy
+key_points:
+  - "software engineers have been adopting"
+  - "ultimately seeing that these models are"
+  - "are finally getting good enough to"
+  - "enable this level of productivity. But"
+  - "software engineers that are reinventing"
+  - "the way software engineering is done. In"
+  - "this video, I'm taking you inside my"
+  - "of a startup that is dead set on scaling"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: _PxkYZ_4z50
+
+- URL: https://www.youtube.com/watch?v=_PxkYZ_4z50
+- Retrieved at: 2025-12-30T11:28:06+09:00
+
+## Text
+
+- [00:00] If you found it hard to get 10x
+- [00:02] productivity gains out of these AI
+- [00:04] coding tools, you're not alone. Savvy
+- [00:07] software engineers have been adopting
+- [00:09] powerful new tools like cursor, claude
+- [00:12] code, codecs, and others, but they find
+- [00:15] themselves in these endless loops,
+- [00:17] fighting against hallucinations, and
+- [00:19] ultimately seeing that these models are
+- [00:21] doing everything but what we ask them to
+- [00:23] do. They wonder why they're not seeing
+- [00:25] that order of magnitude improvement in
+- [00:27] productivity. Sound familiar? The
+- [00:30] models, tools, and other infrastructure
+- [00:32] are finally getting good enough to
+- [00:33] enable this level of productivity. But
+- [00:35] you have to know how to set everything
+- [00:37] up and how to orchestrate the right
+- [00:39] framework. And Microsoft just asked me
+- [00:41] to speak to a group of their elite
+- [00:43] software engineers that are reinventing
+- [00:45] the way software engineering is done. In
+- [00:47] this video, I'm taking you inside my
+- [00:49] talk at Microsoft where we're going
+- [00:51] through the exact orchestration playbook
+- [00:54] I gave them. the workflows, tools, MCPs,
+- [00:58] frameworks, and the overall philosophy
+- [01:00] that we've used to create an
+- [01:02] orchestration layer that surrounds our
+- [01:04] coding agents to give them the context
+- [01:07] and tools and validation steps that they
+- [01:10] need that has led to the huge
+- [01:11] productivity gains that we've seen over
+- [01:13] the past few months, especially. By the
+- [01:15] way, I'm Patrick, a CTO and co-founder
+- [01:17] of a startup that is dead set on scaling
+- [01:20] as far as we can with as few people as
+- [01:22] possible by leveraging productivity
+- [01:24] games like the orchestration playbook
+- [01:26] I'm about to show you. It's been really
+- [01:29] fun being one of the first startups to
+- [01:31] have a significant amount of revenue
+- [01:33] going through a truly AI native app. We
+- [01:35] launched this about two years ago and
+- [01:38] have since worked with companies like
+- [01:40] Coca-Cola, Disney, Google, Microsoft,
+- [01:43] Nike, and many other amazing brands.
+- [01:45] We've also been heavy users of Claude
+- [01:47] code since it came out back in February
+- [01:49] and have invested a lot of time into our
+- [01:51] orchestration framework, the MCPs, the
+- [01:54] context management and other frameworks
+- [01:56] and tooling in order to get the absolute
+- [01:58] best performance out of cloud code in
+- [02:00] addition to cursor which we've been
+- [02:01] using for far longer and other AI
+- [02:04] agents. So with that, I'm very excited
+- [02:06] to show you my talk at Microsoft. And I
+- [02:09] hope these ideas are just as valuable
+- [02:11] for you as they've been for us. enjoy
+- [02:13] this insider look few of the core
+- [02:15] workflows that we use across the team
+- [02:17] here. Um and then I'll go through some
+- [02:19] engineering workflows and then give you
+- [02:21] guys some kind of strategy uh some
+- [02:23] highle ideas that hopefully are very
+- [02:25] tactical as to what we've learned and
+- [02:27] then a little bit more um supplied like
+- [02:29] insights as we've been going through
+- [02:30] this. I'm thinking of our entire team
+- [02:32] and especially myself more and more of
+- [02:34] orchestrating an environment and
+- [02:35] creating an environment where these LLMs
+- [02:37] can run and have the context they need
+- [02:40] to help again not just with engineering
+- [02:41] and product but the entire organization
+- [02:43] over time.
+- [02:44] >> Quick question on the communication.
+- [02:46] What's Bolt useful for for internal
+- [02:48] communication?
+- [02:49] >> So, okay, excellent question. Our CEO,
+- [02:51] our CPO are both not engineers for them
+- [02:54] there's a couple amazing use cases with
+- [02:55] Bolt that helps and I would classify
+- [02:57] that in the communication realm. So the
+- [02:59] first thing is they're able to iterate
+- [03:02] to design to think through product
+- [03:03] features with the same constraints that
+- [03:06] I'm thinking through on the engineering
+- [03:07] side which maybe doesn't sound like a
+- [03:09] huge deal in Microsoft's context. I'm
+- [03:11] doing my best to kind of you know I'm at
+- [03:13] the very polar opposite end of the
+- [03:14] spectrum with this tiny team but in our
+- [03:17] context it's incredible because it saves
+- [03:18] me hours of having to oh hey you know we
+- [03:21] can't do that or you know this uh we
+- [03:23] could potentially do but it's got these
+- [03:24] other considerations allowing somebody
+- [03:26] to create a you know next.js JS uh app
+- [03:29] in React using you know whatever backend
+- [03:31] can be a really helpful way to allow
+- [03:33] them to kind of understand uh without
+- [03:35] communicating to me but in the interface
+- [03:37] of bolt what's possible.
+- [03:38] >> I see. So you're using it for like
+- [03:40] ideation helping them build like
+- [03:41] interactive prototypes and stuff just to
+- [03:43] share ideas and just to communicate with
+- [03:45] the tech people.
+- [03:46] >> Exactly. So the end result is instead of
+- [03:49] like a Figma doc or some other you know
+- [03:50] UIUX uh uh schematic I get actual code
+- [03:53] that you know compiles um and runs. So
+- [03:56] that's one big advantage just to help me
+- [03:58] not have to advise them and then also
+- [04:00] for them to communicate more details
+- [04:01] through fleshed out CSS for example as
+- [04:04] to what exactly they're looking for. And
+- [04:05] then the second big thing is being able
+- [04:08] to build prototypes and to get those in
+- [04:10] front of our users and well actually
+- [04:13] maybe a third one which is internal
+- [04:14] tooling. So, uh, our CEO like without me
+- [04:17] even knowing was, uh, was prototype or
+- [04:20] prototyped a couple things and was
+- [04:22] bringing that in front of some of our
+- [04:23] partners to just get their feedback on,
+- [04:24] hey, uh, you know, I haven't talked to
+- [04:25] engineering yet, but here's an idea. Is
+- [04:27] there any interest there? And that is so
+- [04:29] much faster and more effective than, um,
+- [04:32] well, we weren't even doing it before,
+- [04:33] but having a Figma doc, for example, and
+- [04:35] running that through our customers, uh,
+- [04:37] for them to have, uh, something that
+- [04:38] just communicates this idea that our CEO
+- [04:40] has much more tactically. And then uh
+- [04:43] the internal team uh use of that has
+- [04:45] been really helpful. I I'll show a
+- [04:47] couple screenshots of these, but them
+- [04:48] being able to basically uh run with and
+- [04:52] build internal tooling. So I can think
+- [04:54] of that as communicating all the
+- [04:56] workflows that like our operations team.
+- [04:58] I mean they know that much better than I
+- [04:59] do. uh I'm just you know I try to have
+- [05:01] as much context for all parts of the
+- [05:03] company as possible but at the end of
+- [05:05] the day they're the ones that are
+- [05:06] interfacing with these systems
+- [05:07] understand the constraints understand
+- [05:09] what our users or our customers are
+- [05:11] asking for and they're able to build
+- [05:12] internal tooling uh much more
+- [05:14] competently than I can in the sense from
+- [05:16] like a product perspective and then I
+- [05:17] can just go in you know refine things
+- [05:19] from a security and uh you know
+- [05:21] integrating with different APIs that we
+- [05:22] have perspective actually touching on I
+- [05:25] think one of the biggest helps
+- [05:27] especially from what I perceive to be uh
+- [05:29] this context which is how do you
+- [05:31] eliminate the the bottlenecks that will
+- [05:33] come as these codegen tools get better
+- [05:35] and better and better and those
+- [05:37] bottlenecks are around communication at
+- [05:39] least in our context and I've got to
+- [05:41] think even more so at a larger company
+- [05:43] uh than us so just thinking of how can
+- [05:45] one person reach in and do a lot more
+- [05:48] and also how can uh we use these tools
+- [05:51] to basically have a bunch of meetings or
+- [05:54] communications or docs or slide decks
+- [05:56] that just no longer need to happen
+- [05:58] because the communication loops groups
+- [05:59] were so fast and they uh basically were
+- [06:01] happening against LLMs instead of
+- [06:04] meetings or talking uh with other
+- [06:05] people. Um again, an important part of
+- [06:08] that is having the right context so that
+- [06:09] those LLMs actually are uh interfacing
+- [06:12] and and representing the thought that
+- [06:14] we'd want to have correctly and not just
+- [06:16] uh with whatever their pre-training data
+- [06:18] is, which can be pretty good, but it's
+- [06:20] not as uh powerful obviously as like the
+- [06:22] domain that you're working in.
+- [06:23] >> It's the new version of you're saying
+- [06:24] this meeting could have been an email.
+- [06:26] Now you're saying could have been an LM.
+- [06:29] >> Yeah, in the future, maybe in 6 months,
+- [06:30] I'll just I'll send uh Thomas my my AI,
+- [06:33] you know, version of myself. Uh so, um
+- [06:36] I'm just trying to really think outside
+- [06:38] of the box on ways to do so much more
+- [06:40] work, you can imagine, like weeks worth
+- [06:42] of research essentially, um and
+- [06:44] distilling the best ideas, whether it's
+- [06:46] from a conference or internal meetings
+- [06:48] or whatever the case might be, uh to get
+- [06:50] really actionable applied to our
+- [06:52] situation, ready to go insights. Here's
+- [06:55] a few other ways that we were able to
+- [06:57] provide context into that orchestration
+- [06:59] layer. So the first is granola. This is
+- [07:01] synonymous with any voice recording app
+- [07:03] that's able to basically take
+- [07:04] transcripts of what's happening and then
+- [07:07] record um a summary. At this conference
+- [07:10] I was just at the AI engineer world's
+- [07:11] fair down in San Francisco. being able
+- [07:13] to record all of the meetings I
+- [07:15] attended, scrape the website for the 224
+- [07:19] talks, the descriptions, uh, information
+- [07:21] about the speakers and company, record
+- [07:23] the talks, going through all the
+- [07:24] material that we learned that day, feed
+- [07:26] all that into using Granola into deep
+- [07:29] research, and then notebook LM's a
+- [07:30] helpful tool as well to just basically
+- [07:32] uh, query all that information or create
+- [07:34] a podcast uh, based off of it. an
+- [07:36] incredible workflow to just mine all of
+- [07:38] that information and get actionable
+- [07:40] insights, especially when you pair that
+- [07:42] with your written OKRs or other business
+- [07:45] objectives. So, kind of again
+- [07:46] summarizing a ton of data, taking our
+- [07:49] own personalized information about the
+- [07:51] the company, our current objectives,
+- [07:54] current projects we're working on, and
+- [07:55] allowing the power of Genai to distill
+- [07:57] that down into very actionable and even
+- [07:59] in our case uh in light of our tech
+- [08:02] stack uh uh you know, libraries that we
+- [08:04] could be using. Another cool use case
+- [08:06] are other frameworks. So of course SWAT
+- [08:08] analysis, BRDS, PRDS like product
+- [08:10] request docs that can be a really
+- [08:11] helpful way to take a bunch of
+- [08:13] information ask whatever model you guys
+- [08:14] are using and to filter it through a
+- [08:16] framework again apply to your situation.
+- [08:18] So corpus of data framework that you
+- [08:21] want to use to help shape up and get the
+- [08:22] model to think uh and the process and
+- [08:25] the reason through the information in a
+- [08:26] in a structured way. for example, like a
+- [08:28] SWAT analysis where you have four
+- [08:30] quadrants to split out actual
+- [08:32] information and then applying that to
+- [08:34] your specific situation. Those three
+- [08:36] pillars have been super helpful for
+- [08:38] product and market research using deep
+- [08:40] research tools to understand industries,
+- [08:42] competitors, uh customers and even one
+- [08:46] cool experiment has been getting two
+- [08:48] models that talk to each other just
+- [08:49] through a very very simple like uh use
+- [08:51] of the API to basically have like one
+- [08:54] pretend to be an you know principal UX
+- [08:56] researcher or uh customer development
+- [08:58] like interviewer and then the other to
+- [09:00] be you know uh CMO of a midsized um
+- [09:03] healthcare company or whatever you
+- [09:05] persona you're looking for. And it's
+- [09:07] pretty remarkable how much information
+- [09:09] these LLM have. Again, just thinking of
+- [09:10] the pre-training, which is essentially
+- [09:12] absorbing as much of human knowledge on
+- [09:14] the internet, books, you know, YouTube
+- [09:16] videos, uh, other resources, uh, as
+- [09:18] possible. So there there's quite a bit
+- [09:20] of context if you're able to mine it
+- [09:21] through tools like that. So that's
+- [09:23] something we do a lot to inform our
+- [09:24] product strategy, marketing, uh, and
+- [09:26] just to get ideas for new products. And
+- [09:28] then, of course, we'll go and validate
+- [09:29] that with real, uh, user information.
+- [09:31] Operations, uh, there's a platform in
+- [09:33] ADN. I don't know if anybody's heard of
+- [09:35] that. Okay, it sounds like yeah, not a
+- [09:36] number of folks. Super helpful as a
+- [09:38] pretty technical way to orchestrate
+- [09:41] through a guey um different workflows.
+- [09:43] Zapier's also got an interface like
+- [09:45] this. A lot of different, you know,
+- [09:47] companies are are coming out like Gum
+- [09:48] Loop's another one that we've been
+- [09:50] experimenting with, but just a way to
+- [09:52] allow interfacing with all of the LLMs,
+- [09:56] different APIs you might use again in
+- [09:58] kind of a Zapier-esque way, but the
+- [10:00] allow other parts of the team to uh to
+- [10:02] build little workflows. I found this
+- [10:04] though to be really helpful even for me
+- [10:06] to uh like one example of what I was
+- [10:09] working on yesterday a little bit was
+- [10:11] how can I write one piece of media?
+- [10:14] uh YouTube script or uh LinkedIn blog
+- [10:17] post and then have that basically
+- [10:18] translate or well one to have a ton of
+- [10:20] help fleshing out those ideas kind of
+- [10:22] through the process I mentioned earlier
+- [10:24] and then two um to basically format
+- [10:26] those into other you know types of posts
+- [10:28] that way I can just speed up my own
+- [10:29] internal workflow of trying to share
+- [10:31] some of these ideas out in the public
+- [10:33] and you can imagine there's a ton of
+- [10:34] different workflows internally that
+- [10:36] we're able to use these platforms for
+- [10:37] one of the biggest themes that we keep
+- [10:39] coming up against as we've been building
+- [10:41] is the little bits of friction that
+- [10:44] might not seem like a big deal actually
+- [10:46] are a really big deal in terms of
+- [10:48] allowing us to get these models to go
+- [10:50] from just helping us with basically like
+- [10:53] what we would use uh being searched for
+- [10:54] in the past but to go a lot further and
+- [10:57] to start to become actual agents that
+- [10:59] are working on our behalf and then
+- [11:00] eventually um like proactive
+- [11:03] asynchronous agents that are just doing
+- [11:04] work for us without us even asking. So
+- [11:07] we're kind of you know inching towards
+- [11:08] that. One example of lowering friction
+- [11:10] is I'll use something called Super
+- [11:12] Whisper. There's a few of these
+- [11:14] platforms, but it's a really amazing
+- [11:16] speechtoext platform where I'm just uh
+- [11:18] dictating. I I've got a hotkey. Hold
+- [11:20] that down on my computer and then I'll
+- [11:21] I'll mention a bunch of what I'm uh
+- [11:23] looking for. It's got a local model
+- [11:25] that's does an excellent job of
+- [11:26] translating that into text. And then it
+- [11:28] uses uh GPT 4.1 mini in my case, but you
+- [11:31] can have anything. And it knows where
+- [11:33] you're at. If are you in an IDE? Are you
+- [11:35] in a terminal shell? Are you in a word
+- [11:37] document? And then it will uh uh kind of
+- [11:40] transform the text uh or like uh
+- [11:42] reinterpret what I'm saying and clean it
+- [11:43] up to make it more articulate but
+- [11:45] fine-tune for that environment. Just
+- [11:48] amazing how much that just feels
+- [11:50] incredible in terms of me able to just
+- [11:51] speak and then know and like trust that
+- [11:53] that output is is is solid or go in
+- [11:55] there and make a couple quick edits. Uh
+- [11:57] and again if you think about that you
+- [11:59] know voice can be and at least for me a
+- [12:01] really powerful way to interact and
+- [12:02] orchestrate and control these models. So
+- [12:05] just thinking of all those bits of
+- [12:06] friction Dario the you know CEO of
+- [12:08] Anthropic was just saying recently
+- [12:09] sonnet 3.5 you could kind of trust it to
+- [12:12] do about 10 minutes of work sonnet um
+- [12:15] 3.7 you can trust it to do maybe 45
+- [12:18] minutes of work this is in like a a
+- [12:20] software engineering context and then a
+- [12:22] sonnet 4 and especially opus you can
+- [12:24] trust that to do maybe a couple hours
+- [12:26] worth of work the friction points become
+- [12:28] do they have the context I need for the
+- [12:30] project I'm working on for a company for
+- [12:32] me specifically and Then what's the
+- [12:35] friction and like how much do I have to
+- [12:36] interface with these models for example
+- [12:39] in the context of a code agent so cloud
+- [12:42] code or uh open's codeex or uh 03 pro
+- [12:47] any any of these models that you might
+- [12:48] be using in order to get them to run and
+- [12:51] to have that you know 45 minutes or a
+- [12:54] couple hours you need to be able to give
+- [12:56] feedback if you're working on a UI app
+- [12:58] for example using something like
+- [12:59] Microsoft's Playright MCP which I'm an
+- [13:02] absolute massive fan of is a tool that
+- [13:04] these models can use to go and navigate
+- [13:07] around your browser to take screenshots
+- [13:10] to look at the network logs, console
+- [13:11] logs, to get all this context about what
+- [13:14] they're doing, designing these UI mocks,
+- [13:16] uh uh to build out a great interface. If
+- [13:19] you give the model all of that context,
+- [13:21] it can just continue to iteratively uh
+- [13:23] again have that short feedback loop
+- [13:24] where you're not involved and come up
+- [13:26] with much more competent outputs than uh
+- [13:29] not having those tools. One uh kind of
+- [13:32] funny way I like to think about this,
+- [13:34] stealing this from uh Anthropics CPO who
+- [13:37] was also one of the co-founders of uh
+- [13:38] Instagram, but is this idea of closing
+- [13:41] your eyes for a couple seconds or like
+- [13:43] 30 seconds and then just imagining that
+- [13:45] you're the LLM and you only have what
+- [13:48] the person just like prompted and like
+- [13:50] gave you. And there's not a whole lot
+- [13:53] you can typically do in that context,
+- [13:55] right? Uh with just the prompt that like
+- [13:57] I'm writing to chatbt, for example. It's
+- [14:00] like okay well that's that's cool man
+- [14:01] but you know what does the UI mock look
+- [14:03] like you know what's the context for you
+- [14:05] know uh like the the business objectives
+- [14:07] for this quarter what are the KPIs I
+- [14:09] need to adhere to and you know design to
+- [14:11] what's your style guide you know what's
+- [14:13] uh like what kind of stylistic um you
+- [14:15] know preferences you have in the
+- [14:16] codebase like what kind of open source
+- [14:18] packages can I use it goes on and on and
+- [14:20] on in terms of the context that you need
+- [14:22] in order to execute on that task well so
+- [14:25] I think having empathy for the LLMs and
+- [14:27] really putting yourself in their shoes
+- [14:29] even through that thought exercise. It's
+- [14:30] remarkable how much that can help. And
+- [14:33] then yeah, giving it tools as well.
+- [14:35] >> Okay, let's talk about tools as the next
+- [14:37] step because that's a big one. When
+- [14:39] you're going to feed this context, you
+- [14:41] have business plan up there and
+- [14:42] templates for marketing. How are you
+- [14:44] still, what format are you storing this
+- [14:46] business plan and I'm imagining I got my
+- [14:49] LLM up and I'm talking, you know, am I
+- [14:51] doing copy paste out of some word
+- [14:52] document I had somewhere and it's just a
+- [14:54] couple of sentences that we've all
+- [14:56] agreed on and then or
+- [14:59] How are you feeding the extra context?
+- [15:01] Because that seems really interesting
+- [15:02] and quite actionable for the work we do.
+- [15:04] >> We're truly like collectively on the
+- [15:06] cutting edge right now. I mean, there
+- [15:07] aren't good solutions for a lot of these
+- [15:09] things. And it's it's going to events
+- [15:11] like the AI engineer worlds fair talking
+- [15:13] to speakers just obsessing over
+- [15:15] anthropic especially but uh you know
+- [15:17] OpenAI's API docs to try to gleam okay
+- [15:20] what are the workflows at the internal
+- [15:22] >> cloud the system prompt for cloud came
+- [15:24] out a week or so ago and there's a lot
+- [15:27] to learn from that.
+- [15:28] >> Exactly. I mean that's such an excellent
+- [15:29] example of you know uh I'll answer your
+- [15:32] question but just to take this like
+- [15:33] quick detour um looking at what these
+- [15:35] teams especially teams like the frontier
+- [15:37] labs where the product is interfacing
+- [15:39] directly with the researchers that are
+- [15:42] doing like the post training and I mean
+- [15:44] everything with the LLMs because there's
+- [15:46] this like awkward divide between how
+- [15:48] much can the the raw model do then like
+- [15:50] what should the product be on top of
+- [15:52] that uh for example like you know the
+- [15:54] the chatbot uh type interface or chat
+- [15:56] interface of openi Um so understanding
+- [15:59] uh from all that collaboration that's
+- [16:01] happening and just gleaming like the way
+- [16:02] that things are phrased or kind of like
+- [16:04] claude code uh that was used internally
+- [16:06] for I think nine months before anthropic
+- [16:08] released it uh almost four months ago
+- [16:10] and just understanding the workflows and
+- [16:12] how do they envision agents is so
+- [16:14] interesting to study that and then apply
+- [16:16] that because it's way bigger than just
+- [16:18] code agents and it's way bigger than in
+- [16:20] cloud code's case a CLI code agent uh
+- [16:23] and cloud code is basically cursor but
+- [16:25] in the CLI in case anybody's not
+- [16:27] familiar. Um, it's it's it's it's
+- [16:30] showing the the path for how these
+- [16:31] agents will work and what kind of uh
+- [16:34] tooling anthropics exposing. So, one
+- [16:37] example, just just making my way back to
+- [16:39] you your question is uh they just came
+- [16:41] out like again a couple days ago. All
+- [16:43] this stuff is happening so incredibly
+- [16:45] fast with a mode that you can double
+- [16:47] shift into and um what will happen is it
+- [16:51] it's it's a uh like a planning mode. So,
+- [16:53] you're basically able to work with the
+- [16:54] model. they came out with a checklist
+- [16:56] like a month ago because I was using
+- [16:58] different workflows before that and then
+- [17:00] now you've got this iterative uh model
+- [17:01] where you can discuss you know product
+- [17:03] requirements and like have it do
+- [17:05] research and kind of iterate with it
+- [17:06] come up with a plan okay that and then
+- [17:08] go back into coding mode so these tools
+- [17:11] are slowly uh gaining some of this
+- [17:13] capability but to answer your question
+- [17:15] uh XML and markdown files are easiest
+- [17:18] XML because most of their training data
+- [17:21] on the pre-training side was ingesting
+- [17:23] just massive amounts of XML So I I'll
+- [17:25] use XML tags quite a bit to kind of you
+- [17:27] know help summarize. The models are
+- [17:29] getting so good now though that you know
+- [17:31] some of those tricks are a little bit
+- [17:32] less uh important. I still use it all
+- [17:34] the time and I I do think I get quite a
+- [17:36] bit more performance. And if you look at
+- [17:37] any of these
+- [17:37] >> just bullet points XML is already
+- [17:39] formatted in the way the LLM is trained.
+- [17:41] So
+- [17:41] >> exactly and specifically just like XML
+- [17:43] style tags, you know, just to like give
+- [17:45] context for breaking up the prompt.
+- [17:47] >> I just to continue off that question. Um
+- [17:49] do you do each one of these steps
+- [17:50] manually or you do you have a pipeline
+- [17:52] for all of this? like do they Yeah, just
+- [17:54] kidding.
+- [17:54] >> Well, I mean, so great question and
+- [17:56] yeah, these are connected. Uh so um
+- [17:59] right now some of these there's a bit of
+- [18:01] a pipeline for like on the engineering
+- [18:02] side using MCPs which I can explain a
+- [18:04] little bit more in a second but um a lot
+- [18:06] of it honestly is uh I mean it's just
+- [18:09] changing so fast that I'll get a manual
+- [18:10] workflow working and then I'll try to
+- [18:12] through NAND or you know a similar type
+- [18:14] process or a script which of course all
+- [18:16] these models are phenomenal at coming up
+- [18:18] with you know Python or bash scripts or
+- [18:20] whatever you're looking for or um in my
+- [18:23] case using notion as a as a data store
+- [18:25] essentially and that is interfacing with
+- [18:27] markdown or having a a reference library
+- [18:30] of prompts and like markdown files that
+- [18:32] I can use.
+- [18:33] >> Um, so yeah, it's a lot of kind of
+- [18:35] manually stitching things together and
+- [18:37] trying to automate it.
+- [18:38] >> So, how do you pass this down to your
+- [18:39] team then? Do you just kind of create a
+- [18:41] shared central data source for
+- [18:43] communicating, hey, these are the
+- [18:44] problems I found that work really well.
+- [18:46] Share them back with me or do you have
+- [18:47] like a better way of approaching that?
+- [18:49] >> I mean, great question. I'm literally
+- [18:51] thinking through this right now for for
+- [18:53] this big workshop tomorrow. So, it's
+- [18:55] very precient question. I would say to
+- [18:56] date using Loom or any platform to
+- [19:00] quickly just like hey here's this new
+- [19:01] workflow I'm using. Uh you know giving
+- [19:03] them a couple different markdown files.
+- [19:05] Uh so markdown is my primary. I just
+- [19:06] have like a context folder I'll throw in
+- [19:08] a repo. Then I'll put any uh context. So
+- [19:11] uh you know docu uh documentation
+- [19:13] different like a PRD different workflows
+- [19:16] uh instructions on how to use different
+- [19:17] things. I can explain that more in a sec
+- [19:19] but that just to uh finalize that
+- [19:21] question. Um and then for the team I can
+- [19:23] like take that folder uh and then with
+- [19:25] the loom that explains all the context
+- [19:27] for how to go about using this workflow
+- [19:30] I can communicate to that to them. But I
+- [19:32] think a much better approach is uh two
+- [19:35] different areas that I'm I'm thinking
+- [19:36] through right now. Um one is basically
+- [19:39] building out notion documents uh in a
+- [19:42] way that these LLM can query through
+- [19:44] them and have essentially the markdown
+- [19:45] files uh all ready to go there. So a
+- [19:48] person can go in edit what they need to
+- [19:49] edit and then quickly reference that in
+- [19:52] uh chatgbt or claude or or cursor is a
+- [19:56] lot of what our team besides me uses to
+- [19:58] to iterate through.
+- [20:00] >> One thing just to kind of mention this
+- [20:02] is a really really powerful tool that
+- [20:04] connects back to this is MCPs. Is
+- [20:07] anybody here familiar or like have
+- [20:09] probably heard that buzzword flying
+- [20:10] around? I think it's the single most uh
+- [20:12] asked question I've seen on the internet
+- [20:14] the past couple months is what is MCP?
+- [20:16] So uh model context protocol is what
+- [20:18] that stands for. Basically it's a
+- [20:20] standard that anthropic le but now open
+- [20:22] AAI um Google a lot of these other big
+- [20:26] platform providers are behind MCP. What
+- [20:28] I see it as so helpful for are two main
+- [20:31] things. One is MCPs are an incredible
+- [20:34] way to package up and give context to
+- [20:37] these LLMs for how to use tools. So what
+- [20:41] is a tool? In this case I'm thinking of
+- [20:42] notion. So an MCP I can go in I can copy
+- [20:46] a little bit of JSON which uh I'm I'm
+- [20:49] sure in the near future we'll have much
+- [20:50] more elegant solutions to this. As a
+- [20:52] side note, right now at the conference
+- [20:54] they talked about a registry of MCP
+- [20:57] registries. So there's so many different
+- [20:59] platforms listing out all the MCPs that
+- [21:01] there's literally a registry of all of
+- [21:02] those. That's how like messy the whole
+- [21:05] MCP environment is right now because the
+- [21:07] spec came out in uh November and it's
+- [21:09] you know quickly getting adoption. But
+- [21:11] um I I'm imagining going into one of
+- [21:13] those, grabbing the notion MCP for
+- [21:15] example, and what is that? It's
+- [21:17] basically a wrapper on their API that
+- [21:19] gives the LLM a bunch of context as to,
+- [21:22] hey, here's how you can read documents,
+- [21:25] you know, create documents, you know,
+- [21:26] blah blah blah. Also, here are some
+- [21:28] additional resources or workflows that
+- [21:30] you can use. And there's a bunch of
+- [21:32] other advanced uh new parts of the spec
+- [21:34] which I won't go into that allow all
+- [21:36] kinds of cool much more dynamic stateful
+- [21:39] things to happen over just a raw API.
+- [21:41] But why that's cool is now I can go into
+- [21:44] chat GBT or cursor ask it to use you
+- [21:48] know some name that I come up with for a
+- [21:50] workflow and then it can just
+- [21:51] iteratively do that. So what's
+- [21:53] especially neat in the context of an
+- [21:55] enterprise and I think more relevant to
+- [21:57] you all is being able to encapsulate
+- [22:00] tool use internal workflows prompts um
+- [22:04] essentially the markdown files I was
+- [22:06] mentioning earlier all within an MCP and
+- [22:09] uh you could create these very easily.
+- [22:12] uh the models are excellent at uh taking
+- [22:13] in the documentation to create them but
+- [22:15] then you have you know some standard
+- [22:17] workflow that you have for creating a
+- [22:18] PRD or um interfacing with you know
+- [22:22] whatever uh again I don't know your all
+- [22:24] tech stack but um workflow you have
+- [22:26] before you get to like a PRD to create a
+- [22:28] feature uh so like linear or gr for
+- [22:31] example get all that context that's
+- [22:32] needed and then transform that into a
+- [22:34] standardized way that can then get fed
+- [22:36] to the the models or soon to be the
+- [22:37] agents uh to be built upon. So um all
+- [22:40] this to say right now it's Loom and
+- [22:44] giving people the source markdown
+- [22:46] documents that I'm using but in the
+- [22:47] future and I think for you all to really
+- [22:49] think about is what are the MCPs that we
+- [22:51] can use to encapsulate all that tool use
+- [22:53] and that process um into one little easy
+- [22:56] to implement uh script that other people
+- [22:58] that are not technical can bring into
+- [23:00] Claude or you know chat GBT or cursor or
+- [23:04] copilot. I'm I'm sure if it's not
+- [23:06] already implemented will soon to be able
+- [23:08] to build those things out. So I think
+- [23:10] that's uh that that's what I would
+- [23:11] recommend.
+- [23:12] >> Do you find um Thank you by the way.
+- [23:14] That's a good answer. My question is
+- [23:16] around the nontechnical people.
+- [23:18] >> How do they feel about like adding the
+- [23:20] context through some markdown file and
+- [23:23] do they you know how do you train? How
+- [23:25] do you get them to shift the way they
+- [23:27] think of working?
+- [23:28] >> We've almost died so many times. I mean
+- [23:31] the last you know two and a half years
+- [23:32] have been phenomenal with AI but before
+- [23:34] that that in our DNA is just this we
+- [23:36] have to adopt new things and we have to
+- [23:38] to move and uh use these tools. So
+- [23:41] that's just part of the cultural DNA. I
+- [23:43] would say though it what's amazing is
+- [23:46] giving people demos of how powerful
+- [23:48] these things are and how much time it
+- [23:50] saves them
+- [23:51] >> and Nate and is really good for showing
+- [23:52] people what's going on in a system in a
+- [23:55] visual way. I I think that's an
+- [23:57] excellent example. Uh being able to I
+- [23:59] mean it just looks neat. Also, you can
+- [24:00] like see your entire like day workflow
+- [24:03] laid out. Um and then to see the outputs
+- [24:05] and now that these LMS are are so good.
+- [24:07] Again, I'm um I'm still just absolutely
+- [24:09] blown away by Opus 4 and Cloud Code.
+- [24:11] Although again, lots of great models
+- [24:13] besides like anthropics. I don't mean to
+- [24:15] be uh uh you know championing one or the
+- [24:17] other over the other here. But um I
+- [24:19] think just the raw ability for these to
+- [24:22] produce and basically to augment your
+- [24:23] work is is what's been the most helpful
+- [24:25] of oh wow instead of spending 3 hours
+- [24:27] doing this I can spend 10 minutes you
+- [24:29] know prompting with this chatbot um or
+- [24:31] you know chat GBT and using this MCP
+- [24:34] that you know Patrick just created for
+- [24:35] me um I'm able to uh get this incredible
+- [24:38] result. So I think it's it's at that
+- [24:40] level now to where that kind of drives
+- [24:41] adoption.
+- [24:42] >> Thank you.
+- [24:43] >> Yeah,
+- [24:43] >> you mentioned different models. These
+- [24:45] models have uh kind of uh their own uh
+- [24:50] uh style for different things. Yes.
+- [24:52] Especially for us have this coding that
+- [24:55] I use them a lot for. I don't know if
+- [24:57] you experienced that or you use that to
+- [24:59] your advantage or any any thought on
+- [25:03] that area
+- [25:04] >> just to kind of detail that a tiny bit.
+- [25:05] Uh Claude sonnet 3.5 was a little lazy
+- [25:08] according to some people and then 37 was
+- [25:11] way overeager. I would go and you know
+- [25:13] refactor a bunch of unit tests and do
+- [25:14] all kinds of adjacent things that you
+- [25:16] did not ask it for. Sonnet 4 and Opus 4
+- [25:19] are much more steerable and they they
+- [25:21] can do all kinds of stuff but they will
+- [25:22] really really adhere to what your prompt
+- [25:24] uh uh is. The cloud code team talked
+- [25:27] about when they were training um and
+- [25:29] testing Sonnet 4 and Opus 4. There was
+- [25:31] actually a few regressions they noticed,
+- [25:33] but come to find out it was just uh part
+- [25:35] of their their their eval or their the
+- [25:38] prompts they use to test the performance
+- [25:39] of the model. there were a couple like
+- [25:41] mistakes that the earlier models didn't
+- [25:43] realize but that model did. So it
+- [25:45] actually was a good thing. Uh the models
+- [25:47] were adhering to the the examples. Uh uh
+- [25:50] so to your point the context, the
+- [25:52] prompting, the um tool use like all the
+- [25:56] things that you feed into it, I mean it
+- [25:57] changes when the when these new models
+- [25:59] come out. So I think the best solution
+- [26:01] to that is having uh eval trust is an
+- [26:04] like kind of the the best platform
+- [26:06] currently for that. but it's ways to
+- [26:08] kind of denote like a unit test like
+- [26:10] what are the you know the the prompts
+- [26:12] and then what are the expected outputs
+- [26:13] based off of tools and like other
+- [26:16] information that you're giving it. So my
+- [26:17] answer would be having eval that are
+- [26:19] able to uh give you you know however
+- [26:22] many nines of uh um predictability in
+- [26:25] terms of the outcomes and then
+- [26:26] unfortunately for now at least us having
+- [26:28] to go in and uh tweak you know the
+- [26:31] prompts the eval on a per model basis in
+- [26:34] order to account for those different um
+- [26:37] levels of detail eagerness all these
+- [26:39] other metrics that a model has. So these
+- [26:42] are a few examples of different
+- [26:43] workflows that we use on the engineering
+- [26:45] and product side in order to uh to speed
+- [26:48] things up. So I I covered MCPs at
+- [26:50] length, but there's also external LLMs.
+- [26:53] Some of my favorite are Microsoft's own
+- [26:55] playright to use browser the you know
+- [26:57] browser use GitHub. I'll actually use
+- [26:59] the GH CLI tool. It's you know same
+- [27:02] functionality. It's just some of the
+- [27:03] models are actually better with that
+- [27:05] tool versus um uh the GitHub MCP fire
+- [27:08] crawl to turn any website into markdown
+- [27:11] and uh a few of these other tools here.
+- [27:14] So playing around with some of these
+- [27:15] tools and just seeing what they're
+- [27:16] capable of is is really helpful to
+- [27:18] gather ideas and to drive adoption.
+- [27:20] >> Anything you want to say high level on
+- [27:22] Genai UX?
+- [27:23] >> You can think of it two ways. One is
+- [27:25] LLMs
+- [27:26] using your product or website or
+- [27:29] software, which is of course, you know,
+- [27:31] just barely starting, but it's going to
+- [27:33] happen more and more and more. The most
+- [27:34] obvious version of this right now is SEO
+- [27:36] dying in favor of um like LLM SEO. Uh
+- [27:40] there's a few terms for that, but it's
+- [27:41] not even like uh um you know uh
+- [27:44] consolidated yet. As LM are using the
+- [27:47] software we build, reading our
+- [27:48] documentation, discovering our API
+- [27:51] endpoints, they're going to be making
+- [27:53] more and more of the purchase decisions.
+- [27:56] Right now, they're already aiding us in
+- [27:58] those purchase decisions if we're using
+- [28:00] uh chat GBT, for example, to gather
+- [28:02] context for whatever we're trying to
+- [28:04] decide on, you know, an open source
+- [28:06] library or an API or anything else. But
+- [28:08] in the future, I I definitely see these
+- [28:11] agentic uh you know, end to-end
+- [28:12] workflows where they're using whatever
+- [28:15] you know, Stripe or a cryptocurrency of
+- [28:16] some sort to actually uh make purchase
+- [28:18] decisions. So, how do you make them
+- [28:20] discoverable? A lot of what we were
+- [28:22] talking about earlier with like markdown
+- [28:23] files, how do you instead of having a
+- [28:24] bunch of pages of docs with all this
+- [28:26] confusing CSS and, you know, images?
+- [28:28] Again, if you're an LLM and you can see
+- [28:30] images, but you're not going to look at
+- [28:32] all of them because it takes up too much
+- [28:33] context. How can you just like have one
+- [28:35] giant MD file or one standard that is
+- [28:37] coming out as an LLM.txt file that's
+- [28:41] basically a sitemap but meant for the
+- [28:42] LLMs that kind of as uh efficiently as
+- [28:45] possible get them all the context that's
+- [28:46] a lot more easy to to read. So yeah,
+- [28:49] which is again all these are really
+- [28:51] powerful uh frameworks. So that's one
+- [28:52] idea of uh Genai UX. The other idea
+- [28:56] though is how do we design platforms for
+- [28:58] people using Genai? One, I mean there's
+- [29:01] a ton of different paradigms for this,
+- [29:03] but one example I'll just give
+- [29:05] sprinkling intelligence throughout the
+- [29:07] app in chat GBT. One of my favorite
+- [29:08] examples of this is how it just
+- [29:10] automatically renames your chat uh with
+- [29:12] context about whatever you're talking
+- [29:13] about in a, you know, short distance.
+- [29:15] So, there's a lot of cool UX, you know,
+- [29:17] paradigms that way.
+- [29:18] >> Okay, great.
+- [29:18] >> These are a couple examples of different
+- [29:20] things we've uh uh like vibe coded. I'll
+- [29:23] give you guys a 30 second rundown. This
+- [29:26] was a new slideshow that we'll use at
+- [29:28] large events. So imagine this being on a
+- [29:29] you know big projector or screen
+- [29:31] somewhere needs to be highly performant.
+- [29:33] Uh it was really fast to get from zero
+- [29:36] to like 90% as you know t is typical
+- [29:38] with uh these this was also a couple
+- [29:40] months ago. So the models are
+- [29:41] significantly better now which I can
+- [29:43] explain. Um but what still took a lot of
+- [29:46] time was diving deep into WebGL uh you
+- [29:49] know virtualization of um uh the UI in
+- [29:52] order to basically you know I can't just
+- [29:54] render like 10,000 images or videos
+- [29:56] right? I'm going to crash any browser.
+- [29:58] So, how do I uh handle the performance?
+- [30:01] At the time, using Sonnet 3.5 and 3.7,
+- [30:04] it just wasn't uh quite there. So, I had
+- [30:06] to manually go in and do a bunch of that
+- [30:08] performance optimization myself. Um,
+- [30:11] still really fast though. It took uh you
+- [30:13] know, it was probably a fourth of the
+- [30:16] time that it would typically take. Um, I
+- [30:18] think we got this out in uh about three
+- [30:21] or so weeks, maybe four weeks. um with
+- [30:23] you know a bunch of testing and having
+- [30:24] to do a lot of uh research with just one
+- [30:26] engineer. Um one example though this was
+- [30:29] 5 hours uh our API our like an initial
+- [30:33] repo and then also taking some documents
+- [30:35] and some written uh PRDS and just being
+- [30:38] able to compile that super quickly into
+- [30:40] a working SAS dashboard that had again
+- [30:43] integration with our API uh
+- [30:45] authentication
+- [30:47] um you know it looks beautiful and and
+- [30:49] works really well. Um, one thing I'll
+- [30:51] mention here too is it was looking
+- [30:53] great, but um, I just asked it to use
+- [30:56] design principles from uh, you know, a
+- [30:58] couple companies I really admire and
+- [30:59] then I had it uh, use deep research uh,
+- [31:02] uh, to kind of distill and like like
+- [31:04] compile like what that actually means,
+- [31:05] format in that into a markdown file and
+- [31:08] then I took our like 15page style guide
+- [31:10] that was the PDF. I converted that into
+- [31:12] a markdown file, just thrown it into an
+- [31:13] LLM and you know having it do that and
+- [31:15] then I I asked it to use all those
+- [31:17] principles to basically take our uh
+- [31:19] Tailwind and Chad CNbased UI and to make
+- [31:22] that look much better. And it was
+- [31:23] shocking the difference of just a ton of
+- [31:24] little like animations and like C or you
+- [31:26] know UI polish. Of course, I would sit
+- [31:28] with it and and spend more time to kind
+- [31:30] of distill that down. But one point I
+- [31:32] wanted to make is for for um SEO for UI
+- [31:36] UX design for understanding a well
+- [31:38] structured API interface to like your
+- [31:40] backend services uh to think about off
+- [31:43] one engineer being able to go and
+- [31:45] explore so many different domains that
+- [31:47] they're not experts in and quickly get
+- [31:49] like pretty incredible uh results. Uh
+- [31:52] think about especially with this tech
+- [31:54] stack being Nex.js and React and uh you
+- [31:56] know a bunch of like modern things. It's
+- [31:58] going out, it's finding all these
+- [31:59] incredible new open source projects and
+- [32:01] it's coming back with an initial pull
+- [32:03] that's much better than what our
+- [32:05] internal team probably would come up
+- [32:06] with and it's it's basically instant.
+- [32:08] Then of course if you really get good at
+- [32:10] prompting and pulling from these these
+- [32:11] uh modern like San Francisco, you know,
+- [32:13] VC backed startups, you can get just
+- [32:15] incredible results. Uh same thing with
+- [32:17] SEO, same thing with a lot of other
+- [32:18] areas. So any role, not just engineers,
+- [32:21] you can use these LLMs uh to, you know,
+- [32:23] go pretty deep horizontally, but the
+- [32:25] magic in my experience is the the
+- [32:27] horizontal connection, whether that's
+- [32:29] eliminating communication or allowing
+- [32:31] somebody to get just a much better much
+- [32:33] more well-rounded uh end result by uh
+- [32:36] just even asking it to like improve the
+- [32:38] SEO. Of course, you want to be a lot
+- [32:39] more specific than that, but it's it's
+- [32:41] remarkable that what you can come up
+- [32:42] with. Okay, so lots of highle ideas,
+- [32:45] lots of tactical experiences that I've
+- [32:47] I've given. These are uh I try to just
+- [32:49] quickly kind of distill down what would
+- [32:51] be the next steps I'd recommend or I
+- [32:53] literally am recommending to our team
+- [32:55] right now. The first is to just adapt AI
+- [32:59] in your workflows. I've mentioned this a
+- [33:02] number of different times, but the best
+- [33:04] way to understand what these models are
+- [33:05] capable of, their character, the way
+- [33:08] that these foundation model labs are
+- [33:10] working with their product teams to
+- [33:12] bring the intelligence and the
+- [33:13] capability of the models into reality is
+- [33:16] by using them and understanding uh what
+- [33:19] they're capable of because it is pretty
+- [33:20] remarkable if you have a great model, if
+- [33:23] you give it context, if you use uh MCPS
+- [33:26] and other tools and give it access to
+- [33:28] that, if you give it tools specifically
+- [33:31] like within an IDE or a llinter or
+- [33:34] static analysis or again to take
+- [33:36] screenshots so that it can just iterate
+- [33:38] and have this feedback loop before
+- [33:39] needing to talk to you again. Amazing
+- [33:41] things can come out of it. So yeah,
+- [33:43] trying the different models uh I love
+- [33:45] the earlier comments about uh the
+- [33:47] nuances between the different sonnet
+- [33:48] models. uh that kind of information is
+- [33:50] actually really helpful or at least
+- [33:51] having somebody on the team that uh can
+- [33:53] speak to that and then especially using
+- [33:55] these agentic coding tools that are just
+- [33:57] coming out. Um codeex cloud code cursor
+- [34:01] agent is I mean again new as of like uh
+- [34:03] very recently and then open hands is is
+- [34:06] a really cool orchestration framework
+- [34:07] along with um fac or uh yeah factory as
+- [34:11] well. And then I would encourage you all
+- [34:13] to just spend 30 minutes or even five
+- [34:16] minutes vibe coding a personal app using
+- [34:19] bolt.new or lovable or any of these uh
+- [34:22] you know kind of end toend uh frameworks
+- [34:24] just to see what it's capable of. I
+- [34:26] helped run a hackathon at AI house
+- [34:28] recently and it was really amazing to
+- [34:29] see like what people were very surprised
+- [34:31] with specifically with Bolt uh in terms
+- [34:33] of what you can come up with. If you're
+- [34:34] an engineer, claude code with Opus 4. I
+- [34:36] mean, honestly, even if it's your own
+- [34:38] personal money, I would I would just I
+- [34:41] would give it a shot because it's it's
+- [34:42] uh it's pretty amazing what that model
+- [34:44] is capable of. And specifically, there's
+- [34:46] a few documents um there's a best
+- [34:48] practices with cloud code uh uh article
+- [34:50] that Enthropic came out with two months
+- [34:52] ago and then a mastering cloud code in
+- [34:54] 30 minutes YouTube video with their
+- [34:56] recent launch when uh Opus and Sonet 4
+- [34:58] came out. whether or not you use
+- [35:00] Anthropics products just that mindset
+- [35:03] and the way that they use these tools
+- [35:04] and the way that the tools are being
+- [35:05] built is super helpful to gleam. So
+- [35:07] yeah, 30 minutes vibe coding or using a
+- [35:10] tool like uh cloud code and then your
+- [35:12] education stack is becoming so critical
+- [35:15] with things updating so fast and
+- [35:17] changing so quickly. uh for me at least
+- [35:20] with a small team uh going into
+- [35:23] different parts of Seattle and getting
+- [35:24] in these like founder groups where it's
+- [35:26] a bunch of technical uh early stage you
+- [35:28] know engineers essentially uh talking
+- [35:30] about the new tools that we're finding
+- [35:32] or going down to San Francisco for the
+- [35:33] AI engineer world's fair. I mean
+- [35:35] honestly talks like this you know is is
+- [35:37] a great way to go about it. Um and then
+- [35:40] having great podcast YouTube uh channels
+- [35:43] to follow articles and again just
+- [35:45] reading the documentation as boring as
+- [35:47] that sounds is actually not. There's all
+- [35:48] kinds of nuance if you're really looking
+- [35:50] for it. That's super interesting on
+- [35:52] Anthropic and OpenAI's website. And I
+- [35:53] feel like they do a horrible job like
+- [35:55] getting the word out that there are some
+- [35:57] great resources. Uh I will say uh
+- [35:59] recently I think it's it's been getting
+- [36:01] a little bit better on anthropic side.
+- [36:02] But yeah, so that's what I'd recommend.
+- [36:04] Um and I've got a list of uh specific
+- [36:07] recommendations I can I can go back to.
+- [36:09] And then from an organization
+- [36:11] perspective, I think empowering each
+- [36:13] person to build more of the stack as I
+- [36:15] was mentioning earlier. So you might be
+- [36:18] shocked what one uh engineer from like a
+- [36:20] UI, UX, um SEO, marketing, copy. Of
+- [36:24] course, these models are also usually
+- [36:26] really great about copy. Uh for my
+- [36:28] personal website, I just took my
+- [36:29] LinkedIn, converted it to markdown. Um
+- [36:32] and then I had this other big
+- [36:33] application I filled out that kind of
+- [36:34] gave my whole story a little while ago.
+- [36:36] So I I did that as well and just amazing
+- [36:38] what it came out with it, you know, with
+- [36:39] the first poll. Of course, I iterated
+- [36:40] with that and then like manually rewrote
+- [36:42] stuff, but just to have like the white
+- [36:44] be uh page problem taken care of was was
+- [36:46] phenomenal. So, just seeing what you can
+- [36:48] build and exploring much wider than
+- [36:50] you're used to. Um the second thing is
+- [36:52] identifying the largest bottlenecks. So,
+- [36:55] as I mentioned earlier, likely I'm I'm
+- [36:57] guessing this goes to communication and
+- [37:00] how do you get one idea and get through
+- [37:03] all the stakeholders and get back with
+- [37:05] uh everything checked off, ready to go,
+- [37:07] insight from all the different areas.
+- [37:09] How can you do that instead of having a
+- [37:11] ton of meetings and you know um uh
+- [37:13] sending a PRD back and forth? How can
+- [37:15] you just come up with uh like a
+- [37:18] vibecoded uh P or um uh sit down and get
+- [37:22] an actual working like MVP together with
+- [37:25] one person and then iterate from there
+- [37:26] or give the right amount of context into
+- [37:29] the LLM so that that initial MVP or PC
+- [37:33] is much much closer to on target because
+- [37:36] you've taken the time to uh you know get
+- [37:39] the product engineering uh you know
+- [37:41] customer comments uh style guide
+- [37:43] everything together. And then the last
+- [37:45] thing I'd mention here is on that point
+- [37:48] building the orchestration layer
+- [37:50] engineers in the future and from my
+- [37:52] perspective and from the conference's
+- [37:54] perspective is uh much more of an
+- [37:56] orchestrator like we're not in the IC
+- [37:58] mode that we used to always be in. We're
+- [38:01] taking a step back. I mean even at a
+- [38:02] tiny startup and we're orchestrating
+- [38:04] this like sea of agents. I would not
+- [38:06] have said this until Opus 4 and cloud
+- [38:08] code. I really do feel anywhere from
+- [38:10] three to I mean maybe up to like 20 but
+- [38:12] like 10x uh you know more productive
+- [38:15] because and I mean that sounds crazy but
+- [38:17] you can imagine you you collapse all
+- [38:18] these you know areas of communication if
+- [38:21] you have the tools the context the right
+- [38:23] models you have these feedback loops so
+- [38:25] the agent can just go and go and go and
+- [38:26] go without having to come back and ask
+- [38:28] you and then you you seat it with the
+- [38:30] right uh you know with a very clearly
+- [38:32] laid out like uh text stack uh as to
+- [38:34] like where you want to go with those
+- [38:36] elements I mean you can move really fast
+- [38:38] and ship things in, you know, a day or
+- [38:40] even like hours. So, I think building
+- [38:41] that orchestration layer, building the
+- [38:43] ability to do that and thus getting the
+- [38:45] speed that we're all going to need.
+- [38:47] Unfortunately, I I think one of the only
+- [38:48] moes moving forward, at least for now,
+- [38:50] that's uh persistent is is the speed of
+- [38:53] execution, at least from what we're
+- [38:55] seeing just because it's easier to make
+- [38:57] products. So, that's um meaning that
+- [38:59] we're needing to adapt and you know,
+- [39:00] leverage these new tools and get these
+- [39:02] efficiency gains as much as possible.
+- [39:04] Uh, so having the orchestration layer is
+- [39:06] one of the best ways I can think of to
+- [39:07] to speed that up and to allow that to
+- [39:09] happen.
+- [39:10] >> Patrick, are you going to take this
+- [39:11] video and do something with AI on it to
+- [39:13] learn about your next presentation?
+- [39:15] >> I I I will definitely transcribe this
+- [39:17] and uh there's a lot of thoughts that,
+- [39:19] you know, takes so long to kind of put
+- [39:21] together when you're sitting down at
+- [39:22] your computer writing. Honestly, just
+- [39:23] talking and especially your guys'
+- [39:25] questions so helpful to see to uh kind
+- [39:28] of bring all those ideas together for
+- [39:29] context for articles or anything.
+- [39:31] >> I love it.
+- [39:32] >> That's one of my favorite new workflows.
+- [39:33] I just it's you know same ideas but just
+- [39:35] so much easier to to take them out and
+- [39:37] the questions really give so much depth
+- [39:40] uh because like where I maybe skipped
+- [39:42] over something quickly now you've got
+- [39:44] that context embedded in the the
+- [39:45] transcript as well
+- [39:46] >> you have mentioned a wide range of tools
+- [39:49] and and models how do you make sure the
+- [39:52] governance of those models the privacy
+- [39:55] the security of those all things for
+- [39:57] your product
+- [39:58] >> to be honest this is probably one of the
+- [39:59] biggest differences between like our
+- [40:02] startup and like you know it's like a
+- [40:04] lot of stuff it's like h like I don't
+- [40:05] you know I mean obviously user data
+- [40:07] we're super protective on and like PII
+- [40:09] we take very seriously but anything
+- [40:10] outside of that is kind of like um you
+- [40:13] know again speed is the biggest mo that
+- [40:15] we see right now I think sticking with
+- [40:17] the big you know providers like OpenAI
+- [40:18] anthropic I mean it's a little hard it's
+- [40:20] like well clearly openai you know ripped
+- [40:22] through from my perspective a ton of
+- [40:24] YouTube and like other sources so I
+- [40:26] don't know how much you know you can
+- [40:28] fully fully trust them but uh in that
+- [40:30] case if you go from like a 20 to $40
+- [40:32] plan I for enterprise then they've got a
+- [40:34] lot more guarantees. Um but yeah we just
+- [40:36] roll with the uh uh you know enthropic
+- [40:38] and open AI uh Grock uh and a few other
+- [40:41] models but avoiding of course like
+- [40:43] deepseek uh would or other models like
+- [40:45] that would probably be a good way to go
+- [40:47] or at least pulling one of the like you
+- [40:48] know uh post-trained versions on hugging
+- [40:51] face that's got some of the uh that
+- [40:52] stuff outside of there and then hosting
+- [40:54] it yourself could be helpful. Some of
+- [40:55] you mentioned about validation for
+- [40:57] marketing specific you mentioned like we
+- [41:00] ask it to do this all all these tasks
+- [41:02] and then we validate it
+- [41:04] >> but you didn't repeat that for other uh
+- [41:06] like other applications. What is your
+- [41:08] view on like validation in general? Is
+- [41:10] it practical or is it something that is
+- [41:13] necessary to do
+- [41:15] >> in
+- [41:15] >> with this like that you go fast in
+- [41:18] switching between models? How how is it
+- [41:20] critical
+- [41:21] >> your eval? One of the like hacks that
+- [41:23] we're able to do is essentially like
+- [41:26] human in the loop. Uh so for us it's
+- [41:28] being able to kind of validate a lot of
+- [41:29] the output at our scale at least uh that
+- [41:31] comes out. Um of course if anything's
+- [41:33] built into the app like our image
+- [41:34] processing pipeline then that's
+- [41:36] obviously way above what we could
+- [41:37] manually do. Um so in those cases having
+- [41:40] evals for uh there's amazing text based
+- [41:43] evals or or you know code based anything
+- [41:45] that a traditional LLM would use again
+- [41:47] with like brain trust. Um and then some
+- [41:49] like image evals that we've created for
+- [41:51] example to just make sure that if
+- [41:53] somebody's got glasses that's
+- [41:54] represented in their uh you know the
+- [41:56] image that's like presented. Um but
+- [41:58] beyond that um there's uh I'm laughing
+- [42:02] because last year and like this was
+- [42:04] repeated this year people will talk
+- [42:05] about uh just like feeling the vibes of
+- [42:09] these models and like outputs. So like
+- [42:10] honestly again in a startup context
+- [42:12] that's a lot of what we're doing. But um
+- [42:15] I think it's just taking the time to
+- [42:17] understand the character of the models
+- [42:18] uh to create eval where we can uh to
+- [42:21] safeguard and to make sure we're
+- [42:22] actually measuring the difference
+- [42:23] between new model updates and you know
+- [42:25] looking for regressions that kind of
+- [42:26] stuff. Just like really paying attention
+- [42:28] to okay what's the 8020 of the 20% of
+- [42:30] areas we really need to focus on. I I
+- [42:33] don't see it is possible even like uh to
+- [42:36] evaluate everything because we don't
+- [42:38] know the answer that like the user might
+- [42:41] ask a question and we are blind to their
+- [42:43] privacy private data and we don't know
+- [42:46] if our model works well or not. So those
+- [42:48] are the biggest part of development with
+- [42:51] AI. One other note I'll just add on that
+- [42:53] is uh when you're orchestrating agentic
+- [42:56] workflows, I think there are there are a
+- [42:58] lot of patterns that you can borrow uh
+- [42:59] whether you're using like OpenAI's
+- [43:01] agents SDK or um uh lane chain or any of
+- [43:04] these other platforms uh to basically
+- [43:06] add validation steps and to kind of uh
+- [43:09] have like experts that are fine-tuned
+- [43:11] for specific outcomes. Um like you know
+- [43:14] fine-tuning even just one of OpenAI's
+- [43:16] models is not as hard as it seems. I
+- [43:17] mean with like a hundred you know pairs
+- [43:18] of data you can you can get pretty far.
+- [43:20] uh but having like you know kind of
+- [43:22] defining these specific um roles and
+- [43:25] then fine-tuning to that can really help
+- [43:27] get to you know a high level of nines in
+- [43:29] terms of predictability for outcomes. So
+- [43:30] that's another tool I'd mention. I think
+- [43:32] though expectations around software I I
+- [43:35] think are are going to change to a
+- [43:36] certain degree or have already where we
+- [43:38] just we're working with this more
+- [43:40] ephemeral uh less predictable uh like
+- [43:43] thing or agg uh you know in terms of
+- [43:46] software versus like very cut and dry
+- [43:48] predictability. So, I think it's going
+- [43:49] to become more acceptable in some cases.
+- [43:52] >> Yeah, man.
+- [43:53] >> Yeah, absolutely. Thank you so much for
+- [43:55] watching. If you found value in this
+- [43:57] video, odds are you'll also love this
+- [43:59] video I just released encapsulating the
+- [44:01] framework and the playbook that I came
+- [44:03] back with from the AI Engineer Worlds
+- [44:06] Fair in San Francisco that just
+- [44:07] happened. It is by far my favorite
+- [44:09] conference for all things AI
+- [44:11] engineering. Also, make sure to like and
+- [44:14] subscribe to stay in the loop on future
+- [44:15] videos just like this. And please
+- [44:17] comment if you have any questions or
+- [44:19] ideas stemming from this video. Thanks.

@@ -1,0 +1,270 @@
+---
+title: "YouTube Video: 04Gap8vWV28"
+video_id: "04Gap8vWV28"
+video_url: "https://www.youtube.com/watch?v=04Gap8vWV28"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  I keep hearing about MCP and how useful [music point, I'm almost afraid to ask, what is it and how does it work? >> Well, Martin, let me show you. >> Welcome to the show, Jack. What do you do here at ...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 04Gap8vWV28
+
+- URL: https://www.youtube.com/watch?v=04Gap8vWV28
+- Retrieved at: 2025-12-30T09:17:01+09:00
+
+## Text
+
+- [00:00] I keep hearing about MCP and how useful
+- [00:03] [music] it is for AI apps. At this
+- [00:05] point, I'm almost afraid to ask, what is
+- [00:07] it and how does it work?
+- [00:09] >> Well, Martin, let me show you.
+- [00:20] >> Welcome to the show, Jack. What do you
+- [00:23] do here at Google?
+- [00:25] >> Thanks for having me, Martin. Well, I'm
+- [00:26] a Python devel developer advocate here
+- [00:28] at Google Cloud and my background is in
+- [00:30] open source client libraries
+- [00:32] specifically on databases and making the
+- [00:34] connection experience smooth.
+- [00:36] >> Excellent. So, what is MCP and why is it
+- [00:40] useful?
+- [00:41] >> Yeah. Well, MCP stands for model context
+- [00:44] protocol. It's an open protocol
+- [00:46] developed by Enthropic that standardizes
+- [00:48] how we provide context to large language
+- [00:51] models or LLMs. There are three main
+- [00:54] components to MCP, but today we are
+- [00:56] going to focus on tools.
+- [00:58] >> Okay, tools. That sounds a bit abstract
+- [01:01] to me. What What are they? Well, tools
+- [01:04] give an LLM or agent the ability to take
+- [01:07] action in the real world through
+- [01:09] discovering and calling external APIs,
+- [01:11] querying a database, or running custom
+- [01:13] code, you name it.
+- [01:15] >> That makes sense. Who would use MCP?
+- [01:19] MCP really is useful for a wide
+- [01:21] audience, but I see most users falling
+- [01:23] into one of two groups of people. If you
+- [01:26] provide an API or a service, you may
+- [01:28] want to use MCP to package your API into
+- [01:31] MCP tools so that clients and agents
+- [01:34] have an easier time using it. If you are
+- [01:37] a developer using AI assisted or
+- [01:39] building AI agents, MCP makes it easier
+- [01:42] for agents to use an API or perform
+- [01:44] actions on your behalf. For example, an
+- [01:47] MCP server for Cloud Run. A developer
+- [01:50] can ask in plain English to deploy a
+- [01:52] Cloud Run service instead of having to
+- [01:54] know all those pesky G-Cloud commands.
+- [01:56] >> Those pesky G-Cloud commands. Yes, I
+- [01:59] feel you. Uh, and where would you deploy
+- [02:02] this MCP server?
+- [02:03] >> Good question. You have lots of
+- [02:05] different options. You can run an MCP
+- [02:07] server locally. For example, if you want
+- [02:09] AI help when you are writing code in
+- [02:11] your editor. You can also have remote
+- [02:13] MCP servers if you want to share it with
+- [02:15] others. I think deploying MCP to Cloud
+- [02:18] Run on Google Cloud is a great option.
+- [02:21] >> All right, let's get down to brass tax.
+- [02:24] What might a real use case of MCP look
+- [02:27] like?
+- [02:28] >> Yeah, let's say Alice is an API
+- [02:30] provider. Her company sells sprinkler
+- [02:32] systems for lawns. She partners with
+- [02:35] lawn care companies who install these
+- [02:37] sprinkler systems. To make life easier
+- [02:39] for them, she provides an MCP server
+- [02:42] with a tool that they can call to get a
+- [02:45] price quote. She has deployed the MCP
+- [02:47] server on Cloud Run, [clears throat]
+- [02:49] which is serverless, so that she doesn't
+- [02:50] have to worry about the infrastructure.
+- [02:52] >> Got it.
+- [02:54] >> David runs a lawn care company. He
+- [02:56] provides an AI chatbot that his
+- [02:58] customers can use to get lawn care tips,
+- [03:01] to schedule visits, or to place orders,
+- [03:03] and so on. If David points his AI agent
+- [03:06] to Alice's MCP server, the agent can now
+- [03:09] provide quotes for installing sprinkler
+- [03:11] systems.
+- [03:13] >> Oh, shadow, please get down. Okay. All
+- [03:18] right. Sorry about that, Jack. I see.
+- [03:21] Uh, so what would the end user
+- [03:22] experience be?
+- [03:24] >> Yeah. Let's say we have Eve, who is the
+- [03:27] end user. She might use David's AI
+- [03:29] chatbot to ask for general lawn care
+- [03:32] tips, like when is the best time to
+- [03:33] water her lawn.
+- [03:36] She might also ask how much it would
+- [03:37] cost to install a new sprinkler system.
+- [03:41] David's chatbot can actually answer this
+- [03:44] question thanks to Alice's MCP server
+- [03:46] and API. That makes sense. Now, I'm a
+- [03:50] developer. What does the code for all
+- [03:52] this look like?
+- [03:54] >> That's an important part. Let's start
+- [03:56] with Alice's MCP server. She has
+- [03:58] imported the fast MCP library and added
+- [04:01] this MCP.tool decorator to the calculate
+- [04:04] quote function. That annotation is all
+- [04:07] it takes to expose this method via the
+- [04:09] MCP protocol. So AI agents can now use
+- [04:13] it. The body of that function is the
+- [04:16] business logic for calculating the quote
+- [04:18] itself. The price quote depends on which
+- [04:20] country the customer in as well as the
+- [04:22] square meters their lawn.
+- [04:25] >> All right. Uh, that looked pretty
+- [04:26] simple. Now, how would David's agent
+- [04:29] call Alice's tool to calculate a quote?
+- [04:33] >> Let's take a look at the actual code for
+- [04:34] David's agent. When you build an agent,
+- [04:37] you can provide an array of tools or
+- [04:39] functions that it can call. David's
+- [04:41] provides a single tool of type MCP tool
+- [04:44] set which contains the address of
+- [04:46] Alice's MCP server.
+- [04:49] >> Okay. And when I've given tools to
+- [04:51] agents before, I remember having to
+- [04:53] provide which input and output
+- [04:55] parameters each function takes and a
+- [04:57] description of what each function does.
+- [05:00] Uh, but David didn't have to do that
+- [05:01] here.
+- [05:02] >> That's right. He didn't. He just pointed
+- [05:04] the agent to Alice's MCP server URL and
+- [05:07] it figured out the rest.
+- [05:09] >> And then David's agent called Alice's
+- [05:12] API.
+- [05:13] >> Yep, it did. Alice is running her MCP
+- [05:16] server on Cloud Run. So, if she clicks
+- [05:18] on the Cloud Run service logs in the
+- [05:20] console, here's what it looks like. Here
+- [05:23] is the actual call made by David's
+- [05:25] agent.
+- [05:26] >> That makes sense. And where would David
+- [05:29] run his agent?
+- [05:31] >> Another good question. The agent was
+- [05:33] built using Google's ADK or agent
+- [05:36] development kit and it was also deployed
+- [05:38] to Cloud Run.
+- [05:40] >> Wow, a lot of Cloud Run in this example,
+- [05:42] huh?
+- [05:44] Yeah, Cloud Run is serverless which
+- [05:46] makes it really easy to deploy agents,
+- [05:48] MCP servers or APIs. Google handles the
+- [05:52] configuration and scaling so that you
+- [05:53] can release faster.
+- [05:55] >> Very good. But I have some questions for
+- [05:58] you, Jack.
+- [06:00] >> All right. All right. Go ahead, Martin.
+- [06:02] >> So, the point of MCP is that agent
+- [06:04] developers like David don't have to tell
+- [06:07] the AI what the input and output
+- [06:09] parameters are.
+- [06:11] That's one advantage of MCP. Another
+- [06:13] reason for MCP is that previously your
+- [06:15] tools had to be built for a specific
+- [06:17] framework like lang chain or visual
+- [06:19] studio code. MCP is a common protocol
+- [06:23] that many clients can use. On the other
+- [06:26] side, developers who expose their APIs
+- [06:28] with MCP. That way, Alice's API or the
+- [06:31] API for a calendar, email, or local file
+- [06:34] system all appear the same and make it
+- [06:36] easier for AI agents. M and you said
+- [06:40] before that we'd put the MCP server in
+- [06:42] the cloud to make it available for
+- [06:44] everyone, but Alice might want some
+- [06:46] authentication for MCP server, so only
+- [06:49] registered partners like David can use
+- [06:52] it, right?
+- [06:54] Yes. Luckily, MCP has support for
+- [06:56] authentication. I will note that it is
+- [06:59] fairly new and still evolving. MCP
+- [07:02] supports OOTH, which is great for when
+- [07:04] users like you or me want to
+- [07:06] authenticate. You can also lean into
+- [07:09] cloud run existing authentication infra
+- [07:12] to use with MCP like bear off. This is a
+- [07:15] great choice when you are wanting
+- [07:16] servicetoervice authentication.
+- [07:19] >> I see. What does this MCP protocol
+- [07:22] actually look like?
+- [07:24] >> Good question. Let's take a look. I have
+- [07:26] the MCP inspector pulled up on my
+- [07:28] computer. Here we can see that the tools
+- [07:31] is an array with a single entry called
+- [07:33] calculate quote. That tool takes two
+- [07:35] inputs, square meters and country code.
+- [07:38] Both are required.
+- [07:40] >> That looks a little bit like an open API
+- [07:42] spec. What's the difference?
+- [07:45] >> That's an important question. An open
+- [07:47] API spec is lower level. For example, it
+- [07:50] includes the HTTP status codes that an
+- [07:52] API can return. The MCP server skips
+- [07:55] those implementation details.
+- [07:57] >> In the code you showed, Alice used uh
+- [08:00] Python and the fast MCP library. All is
+- [08:03] good. But what if Alice already has a
+- [08:06] well- tested API and doesn't want to
+- [08:08] change it? Uh, she just wants to expose
+- [08:11] her existing API to AI agents.
+- [08:14] >> Totally. Fast MCP actually has built-in
+- [08:17] support for this exact functionality.
+- [08:19] You can point it to your open API spec
+- [08:21] and it will actually generate an MCP
+- [08:23] server. Another option is to write a
+- [08:25] small proxy using fast MCP that forwards
+- [08:27] any calls to the underlying API.
+- [08:30] >> Very good. Now, let's recap. What are
+- [08:33] the main takeaways here, Jack?
+- [08:36] >> As I was first learning about MCP and
+- [08:38] writing my first MCP servers, here's
+- [08:40] what I learned along the way. One, MCP
+- [08:43] is super useful as a common language for
+- [08:45] declaring tools for our AI agents. Two,
+- [08:48] if you want agents to use your API,
+- [08:50] expose it with MCP. And three, it's
+- [08:54] super easy to run an MCP server on Cloud
+- [08:56] Run.
+- [08:57] >> Great takeaways and thanks for joining
+- [09:00] me today, Jack. Thanks for having me,
+- [09:02] Martin.
+- [09:03] >> And thank you everyone for watching. If
+- [09:05] you have any questions for Jack or me,
+- [09:08] ask in the comments. And do let me know
+- [09:10] what you thought of today's episode. I
+- [09:13] read every single comment. I can't wait
+- [09:17] to see what you build.

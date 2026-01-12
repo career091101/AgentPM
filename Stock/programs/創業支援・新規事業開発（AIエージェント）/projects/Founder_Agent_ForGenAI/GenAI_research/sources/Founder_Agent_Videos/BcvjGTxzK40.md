@@ -1,0 +1,630 @@
+---
+title: "YouTube Video: BcvjGTxzK40"
+video_id: "BcvjGTxzK40"
+video_url: "https://www.youtube.com/watch?v=BcvjGTxzK40"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  I've got something really exciting that I've been exploring recently that I want to share with you. It's all about creating aic experiences with something called AGUI. Now, let me set the stage for yo...
+key_points:
+  - "for you a bit first. There's a good"
+  - "demos and really important principles,"
+  - "channel around when it first came out."
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: BcvjGTxzK40
+
+- URL: https://www.youtube.com/watch?v=BcvjGTxzK40
+- Retrieved at: 2025-12-30T10:03:42+09:00
+
+## Text
+
+- [00:00] I've got something really exciting that
+- [00:01] I've been exploring recently that I want
+- [00:03] to share with you. It's all about
+- [00:05] creating aic experiences with something
+- [00:07] called AGUI. Now, let me set the stage
+- [00:10] for you a bit first. There's a good
+- [00:12] chance that you're stuck on the idea
+- [00:14] that we need to be building apps or SAS
+- [00:17] platforms around our AI agents. But that
+- [00:20] isn't where the future is headed. The
+- [00:22] real shift is embedding agents into our
+- [00:25] applications so they become a natural
+- [00:27] part of the product experience. And it
+- [00:29] seems natural, right? I mean, when the
+- [00:30] AI height bubble bursts, the products
+- [00:32] that are going to be left over are
+- [00:34] generally not going to be the ones
+- [00:35] competing as agents, but instead the
+- [00:38] ones that deeply integrate AI agents
+- [00:40] into a product that delivers its own
+- [00:42] unique value. That's what I mean by
+- [00:45] agentic experiences and the future of
+- [00:47] SAS because these platforms are the ones
+- [00:49] that are not going to be wiped out as
+- [00:51] our more general agents like chat GP and
+- [00:54] operator get more powerful and make the
+- [00:56] more niche agents just simply
+- [00:58] irrelevant. So right now I'll introduce
+- [01:00] you to how to build these kinds of
+- [01:01] agentic experiences which are not
+- [01:03] trivial by the way generally a lot
+- [01:05] harder than building isolated chat bots.
+- [01:08] But luckily I have the tech stack for
+- [01:10] you to make it simple. So, I'll
+- [01:12] introduce you to that, get into some
+- [01:14] demos and really important principles,
+- [01:16] and then we'll build together. I'll even
+- [01:17] take an agent that I've created
+- [01:19] previously on my channel and create a
+- [01:21] full application around it. So, the
+- [01:23] primary part of our tech stack here is a
+- [01:26] protocol developed by the C-pilot Kit
+- [01:28] team called AGUI. I covered it on my
+- [01:31] channel around when it first came out.
+- [01:33] Super powerful stuff. Now, the big
+- [01:35] question is, what does this actually do
+- [01:36] for us? Well, simply put, AGUI
+- [01:39] standardizes how front-end applications
+- [01:41] connect to AI agents. It's like MCP, but
+- [01:45] instead of connecting agents to tools,
+- [01:47] we are connecting agents to our
+- [01:49] applications in a standard way. It's
+- [01:52] fully open source. So, they have this
+- [01:54] GitHub repo, which I'll link to in the
+- [01:56] description. They have a nice diagram
+- [01:57] here that shows how it works at a high
+- [01:59] level as well. So we have AGUI kind of
+- [02:02] as a middleman here that provides a
+- [02:04] standard of communication between our
+- [02:06] front-end applications and our AI
+- [02:09] agents. And so as long as both have
+- [02:12] support for AGUI, which all of these AI
+- [02:15] agent frameworks do, then we have this
+- [02:18] seamless communication that makes it so
+- [02:19] we can build full applications in
+- [02:21] hundreds of lines of code instead of
+- [02:23] thousands and thousands. And that's what
+- [02:25] we'll see as we build together and go
+- [02:27] through some of these demos. And so we
+- [02:29] just have to pick our front-end library
+- [02:31] and our AI agent framework. And then
+- [02:33] AGUI takes care of a lot of things. And
+- [02:36] so for our front end, we're going to be
+- [02:38] using Copilot Kit. This is a React
+- [02:40] library that makes it very easy for us
+- [02:42] to build userfacing agentic
+- [02:45] applications. It integrates natively
+- [02:46] with AGUI, of course. And then out of
+- [02:49] all the options we have for our AI agent
+- [02:52] framework, you know, if you've been
+- [02:53] following my channel that paid AI is my
+- [02:56] favorite. And they recently added a
+- [02:58] direct firstparty integration between
+- [03:01] Copilot Kit and Pineanti through AGUI.
+- [03:04] They even have an AGUI doc section in
+- [03:06] Pideant AAI. So, I'm super excited for
+- [03:08] this. This is actually the catalyst for
+- [03:10] me to make this video and I've been
+- [03:12] talking to the Copilot Kit team about
+- [03:14] this and actually asking for this
+- [03:15] integration. So, I'm super excited that
+- [03:17] it's finally here because now we can
+- [03:19] build these kinds of user interactive
+- [03:21] applications with Pyantic AI agents
+- [03:24] under the hood driving the whole thing.
+- [03:26] And these are the demos that they have
+- [03:28] for us that I was talking about earlier.
+- [03:29] I'll link to this in the description.
+- [03:30] It's a great resource to just explore
+- [03:33] the power of AGUI. So, they have all of
+- [03:36] these different demos that each
+- [03:38] represent something that would very much
+- [03:41] not be trivial to build without AGUI.
+- [03:43] But with AGUI, it's really easy. You can
+- [03:46] even see the code for both the front end
+- [03:48] like with copilot kit here and the back
+- [03:50] end like I have paid ai selected here
+- [03:52] but you can even just select any AI
+- [03:55] agent framework you want and it'll
+- [03:56] immediately drop that in in the back end
+- [03:58] and then we have to change nothing in
+- [04:00] the front end that's what agui gives us
+- [04:03] that standard communication so we can
+- [04:05] move from langraph to eggno or eggno to
+- [04:07] panty and our front end app doesn't have
+- [04:09] to change at all so let's actually see
+- [04:11] this in action like I want you to see
+- [04:13] how this really does unlock a entic
+- [04:15] experiences for us. Like in this example
+- [04:18] right here, it is a recipe builder and
+- [04:20] there's a state sync between our front
+- [04:23] end and our backend thanks to AGUI. So
+- [04:26] like for example, I can add an
+- [04:27] ingredient here and I can say I'm adding
+- [04:29] in beef, one pound of beef. And then I
+- [04:31] can ask my agent, what are my
+- [04:33] ingredients? And it's going to
+- [04:35] immediately recognize the changes that I
+- [04:37] made in the front end here because we
+- [04:39] have that two-way sync. There we go. We
+- [04:41] got our ingredients. And then I can do
+- [04:43] the other way around. And I can say I
+- [04:46] want to make a recipe with a lot of
+- [04:49] beef. All right. So now instead of
+- [04:51] syncing the front end to the the backend
+- [04:52] agent, it's now the agent that's going
+- [04:54] to be updating our front end here. So
+- [04:56] it's creating the recipe and boom, it
+- [04:59] renders out everything in a very
+- [05:00] beautiful way in the front end. So we
+- [05:02] have our typical chat application on the
+- [05:04] right hand side, but then it's deeply
+- [05:07] integrated into the rest of the
+- [05:08] components of our front end. That's what
+- [05:10] I mean by aentic experiences. Really,
+- [05:12] really nice. We have our instructions
+- [05:14] here. We can actually improve it with AI
+- [05:17] as well. We have our list of ingredients
+- [05:19] and I can continue to collaborate with
+- [05:21] the agent here making changes back and
+- [05:23] forth to make my perfect recipe. And
+- [05:26] obviously it's just a very simple
+- [05:27] example here. But yeah, definitely play
+- [05:29] around with these different things like
+- [05:31] human in the loop collaborating with our
+- [05:33] agent toolbased generative UI. So we can
+- [05:36] actually build tools in our front end
+- [05:37] that we give into our AI agent
+- [05:40] dynamically. There's so many powerful
+- [05:41] things here. And like I said, we can
+- [05:43] view the code. So we can see exactly how
+- [05:46] the front end was built with Copilot Kit
+- [05:48] and how the back end was built with the
+- [05:50] Pantic AI agent. All right, so now that
+- [05:52] you know how AGUI works and what it
+- [05:54] really gives us, let's get into actually
+- [05:56] building with it. So the easiest way to
+- [05:58] get started with building these Aente
+- [06:00] experiences with AGUI is to follow this
+- [06:03] quick start, which I'll link to in the
+- [06:04] description. And so this is the copilot
+- [06:07] kit documentation and they have an
+- [06:08] entire section for working with
+- [06:10] paidantic AI specifically and they do
+- [06:13] that for all of their integrations. It's
+- [06:15] really really cool. And so to get
+- [06:17] started we just have to have mpm
+- [06:19] installed on our machine and we can copy
+- [06:21] this command here. So I'll actually go
+- [06:22] into my terminal and let's walk through
+- [06:24] this really quickly. So, it's going to
+- [06:26] set up a new project for us using
+- [06:28] Copilot Kit as the front end. And then
+- [06:30] we're using AGUI here. And we can select
+- [06:32] our agent framework. And so, I'll just
+- [06:34] say test here because I have something
+- [06:36] else set up already that I'll demo for
+- [06:37] you. And there we go. We can select our
+- [06:39] framework. Like I can say I want to use
+- [06:41] Pinantic AI. There we go. And so, it's
+- [06:43] going to open up your browser for
+- [06:45] authentication because there is a cloud
+- [06:47] version of Copilot Kit. We don't
+- [06:49] actually have to pay for anything
+- [06:51] though. Um, and so we can just get
+- [06:53] through this and authenticate and then
+- [06:54] I'll come back once I have this done.
+- [06:56] Okay, there we go. So, I'm signed in. It
+- [06:58] creates a Copilot kit cloud API key as
+- [07:01] well if you want to host with them. You
+- [07:03] don't have to though. And so, for
+- [07:04] demonstration purposes, we're not going
+- [07:06] to be doing anything with that right
+- [07:07] now, but yeah, they even give us some
+- [07:09] documentation here. And so, we can open
+- [07:11] this new folder that was created for us.
+- [07:13] And so, I have it open right now. And
+- [07:15] then there's a readme here that walks
+- [07:17] you through the quick start. So, how you
+- [07:18] can get things set up in both the front
+- [07:20] end and the back end. And it's literally
+- [07:22] just a couple of commands. Like, it's so
+- [07:24] easy to get this up and running. And
+- [07:26] that's going to give us a quick start
+- [07:29] that's going to look kind of like the
+- [07:30] demos that we saw here. But now we have
+- [07:33] something that is running entirely
+- [07:34] locally. And there's a couple of
+- [07:36] different things we can try to really
+- [07:38] see the power of AGUI. And we can start
+- [07:40] to build on top of this application as
+- [07:42] well. But I'll just show you really
+- [07:43] quickly. Like for example, I can say set
+- [07:45] the theme to green. And so this is a
+- [07:48] tool that we actually build in the front
+- [07:50] end and send into our agent. So our
+- [07:53] backend agent, thanks to AGUI, doesn't
+- [07:56] even have to know that there's a tool to
+- [07:58] change the theme. And we just pass that
+- [07:59] in from the front end. I can also say
+- [08:02] write a proverb about the difficulties
+- [08:06] of SQL. All right. So we'll send this
+- [08:08] in. It'll make a proverb for us. And
+- [08:09] then boom, we immediately have that
+- [08:11] state sync like that other demo I was
+- [08:13] showing you where now our front end has
+- [08:15] this proverb here. And it's displayed
+- [08:17] and rendered out in a nice rain. I can
+- [08:18] say write another one. And so we can do
+- [08:21] another state sync here. And then I can
+- [08:23] delete one of these as well. Like I'll
+- [08:25] just delete this first one. And I'll say
+- [08:26] I deleted one which is left. Right? So
+- [08:30] we can know that the front end is also
+- [08:31] syncing back to the back end as well.
+- [08:34] And then the last thing that they have
+- [08:36] for the demo here. I'm just trying to
+- [08:37] like show you the different kinds of
+- [08:39] things that we can do with this front
+- [08:40] end. It's really, really neat. We can
+- [08:42] also render out components in our chat
+- [08:44] UI. So, we're not limited to just having
+- [08:46] a bland conversation here and then
+- [08:49] passing things into the rest of our app.
+- [08:50] We can also render out cool things here.
+- [08:52] So, I can say, uh, what is the weather
+- [08:54] in Orlando, Florida? And it's going to
+- [08:57] render out a really nice looking card
+- [08:59] here. So we can take tool calls from the
+- [09:01] back end and standardize the format like
+- [09:04] actually make it look like a nice
+- [09:05] component in our React frontend. So
+- [09:08] super cool. That's what we have for our
+- [09:09] quick demo here. But now let's actually
+- [09:12] use this as a starting point to build
+- [09:14] our own applications on top. Now to
+- [09:17] build on top of this application, we're
+- [09:19] not going to dive straight into
+- [09:21] implementation. There's one really cool
+- [09:23] thing first because the co-pilot kit
+- [09:25] team, they have built a vibe coding MCP
+- [09:29] server. Now, you know that I'm not the
+- [09:31] biggest fan of vibe coding. So, maybe
+- [09:32] this isn't the best name for what I'm
+- [09:34] about to use it for, but this is an MCP
+- [09:36] server that's kind of like archon for
+- [09:39] knowledge retrieval. It gives our AI
+- [09:41] coding assistant the ability to search
+- [09:44] through the co-pilot kit and AGUI
+- [09:47] documentation and best practices. So it
+- [09:50] becomes our expert guide on our
+- [09:52] implementation. Super cool. So if you're
+- [09:54] building any kind of agentic experiences
+- [09:56] with this tech stack, definitely use
+- [09:58] this MCP server. That's what I'm going
+- [10:00] to be using right now. And they have
+- [10:02] instructions here based on your AI
+- [10:04] coding assistant like cursor or client
+- [10:05] or windsurf exactly how to hook it up.
+- [10:08] Now they don't have instructions here
+- [10:10] for claude code specifically. Uh but
+- [10:12] I've got that for you right now. So you
+- [10:14] can copy this URL right here and then go
+- [10:16] into your editor. I have my terminal
+- [10:19] open here and I'll just paste the
+- [10:21] command right here. So it's claude MCP
+- [10:23] ad and then SSE is their transport and
+- [10:26] then you just can call this server
+- [10:28] whatever you want and then the SSE URL
+- [10:30] is the one that we copied from the
+- [10:32] documentation. So I'll add that in here
+- [10:34] and then I can also do a claude MCP list
+- [10:37] to test the connection and so this is a
+- [10:40] remote MCP server completely free to
+- [10:42] use. Now Claude Code is able to search
+- [10:45] the C-pilot kit documentation. Super
+- [10:47] cool. Okay, so now armed with this MCP
+- [10:49] server, we can now build any kind of
+- [10:52] agentic experience that we want on top
+- [10:54] of this starter template. It provides a
+- [10:56] really good foundation for us. And so
+- [10:58] yeah, I'll send in a request here. I'll
+- [11:00] show you what it looks like to build on
+- [11:02] top. And then I'll even show you how far
+- [11:05] I went taking a rag AI agent that I
+- [11:08] built with Padantic AI on my channel
+- [11:09] previously and I'll show you how I built
+- [11:12] a full application around it with a GUI.
+- [11:14] So, we'll get there in a second, but
+- [11:15] right now I just want to send in a
+- [11:17] simple request here. I'll and first I'll
+- [11:19] actually tell it to use the uh copilot
+- [11:22] kit MCP server to understand how to
+- [11:25] build this feature. And maybe I don't
+- [11:28] have to call that out explicitly, but I
+- [11:29] just want to to make sure that it
+- [11:31] leverages the MCP. So, what I want to do
+- [11:33] here, if I go within the source and
+- [11:36] page.tsx,
+- [11:38] one of the things we have here is the
+- [11:40] co-pilot kit action. This is our
+- [11:43] front-end tool that we're passing into
+- [11:45] our agent to give it the ability to
+- [11:47] change the theme. And so I want to add
+- [11:50] another tool here to do something else.
+- [11:53] Let's say maybe clear all the proverbs
+- [11:55] that we have on the front end. I think
+- [11:56] that's a good example here. So I'll say
+- [11:58] I want to make another uh front-end tool
+- [12:03] with co-pilot kit to clear the proverbs
+- [12:08] that we currently have. And so we since
+- [12:10] we have that state sync as well, the
+- [12:12] agent will immediately recognize that
+- [12:14] everything is cleared in the front end.
+- [12:16] And so I'm going to go ahead and send
+- [12:17] this in right now. And it should after
+- [12:20] maybe looking at some of the files we
+- [12:21] have in um our starter template here or
+- [12:24] actually yeah right away it searches the
+- [12:26] copilot kit docs. Take a look at that.
+- [12:28] Use copilot kit action custom actions
+- [12:30] front end. And we can do control O to
+- [12:33] expand and actually see the chunks or
+- [12:35] the snippets as they call them that were
+- [12:37] retrieved from this rag implementation.
+- [12:39] It's really, really cool. So, we're
+- [12:41] pulling in the documentation from
+- [12:42] C-pilot kit. That's a part of our
+- [12:44] context engineering here, giving our
+- [12:47] coding assistant all the information it
+- [12:49] needs to actually build out the
+- [12:51] implementation here. Now, this is a very
+- [12:53] simple example. And so, it could
+- [12:55] probably just look at what we already
+- [12:57] have for a front-end tool and then
+- [12:58] implement that as well. But I hope that
+- [13:00] you can see that like if we didn't have
+- [13:02] any front-end tools at all, it would
+- [13:04] have no idea how to use use copilot kit
+- [13:07] action. So, it would need to search
+- [13:08] through the documentation like we are
+- [13:10] doing here. And so, yeah, let me
+- [13:12] actually scroll down. Um, let me exit
+- [13:14] out of this. There we go. All right.
+- [13:16] Yeah, there we go. It is adding in a
+- [13:17] clear all proverb tool. And so, when
+- [13:20] this is invoked from our agent, it's
+- [13:23] going to yeah, just clear the proverbs
+- [13:25] in the state that we have and that'll
+- [13:26] immediately be synced to the backend as
+- [13:29] well. Looking really, really nice. So,
+- [13:30] cool. Yeah, I'll pause and come back
+- [13:32] once this is fully fully implemented.
+- [13:34] There we go. I just paused for like 20
+- [13:36] seconds and then we are done. So we have
+- [13:39] that new action and then we just have
+- [13:41] the button that it added for us to be
+- [13:43] able to clear things right here. So
+- [13:45] there we go. We got our updated UI. So
+- [13:46] now I can say add a bunch of proverbs.
+- [13:50] All right. So we'll have to populate it
+- [13:51] first obviously. So the agent has
+- [13:53] generated some proverbs. There we go. We
+- [13:55] have Oh wow. It is adding a lot. All
+- [13:56] right. So we added a lot of proverbs
+- [13:58] here. And now I can clear all of them.
+- [14:00] And so I'm going to send this in. Click
+- [14:03] this button here. Or I could just ask it
+- [14:05] to clear the proverbs. So, well, I'm
+- [14:06] actually going to click this button
+- [14:07] here, clear all proverbs. Uh, there we
+- [14:09] go. And now we have that state sync. And
+- [14:11] so, I can say, what proverbs do I have?
+- [14:15] And it's going to say that there are
+- [14:17] none. There we go. It is currently
+- [14:19] empty. And I can also show you. So, I'm
+- [14:21] going to say add some more. I'll also
+- [14:23] show you that like I can have the agent
+- [14:24] clear them as well. So, it doesn't just
+- [14:26] have to be this button. So, I can say
+- [14:28] clear the proverbs. And so just based on
+- [14:30] a simple text request to our agent, we
+- [14:32] can do the same thing that that button
+- [14:34] did. And so I hope that this just helps
+- [14:36] you see how our agent is starting to
+- [14:39] interact with the website. We can build
+- [14:40] these agentic experiences where AI
+- [14:43] agents can actually help us navigate
+- [14:45] through a website as well. Like this is
+- [14:46] a really simple example where it
+- [14:48] performs an action of a button click,
+- [14:50] but this could be a full onboarding
+- [14:52] experience where the agent is actually
+- [14:54] like walking me through clicking on
+- [14:56] different buttons in my app depending on
+- [14:58] what I'm talking to it about. Like, oh,
+- [15:00] I have this question and then it's like,
+- [15:01] okay, well, let me click on this button
+- [15:03] and then highlight this section of a
+- [15:04] website. Like, there's just so many
+- [15:05] things that we can do with this. And so,
+- [15:07] that that's like the higher level
+- [15:09] principles that I wanted to be speaking
+- [15:10] to in this video. Like it's cool to like
+- [15:13] see AGUI and Pantic AI specifically, but
+- [15:16] like the most important thing that I'm
+- [15:18] trying to get across here is the general
+- [15:20] principles of like we need a way to sync
+- [15:22] the state between the front end and the
+- [15:25] back end. The agent needs to know like
+- [15:26] where we're currently at in our front
+- [15:28] end. And that is what AGUI makes really
+- [15:31] easy for us along with the fact of
+- [15:33] course that our backend is so incredibly
+- [15:36] simple thanks to AGUI. Generally, you'd
+- [15:39] have to build an entire backend with API
+- [15:41] endpoints and middleware and everything.
+- [15:43] But our backend right now is literally
+- [15:45] just a single file. We have our
+- [15:47] agent.py. And so this is our Pantic AI
+- [15:50] agent where we have our agent defined.
+- [15:52] We're giving it some tools. It's going
+- [15:53] to look very similar for uh other
+- [15:56] frameworks as well. We have our primary
+- [15:58] system prompt. And then the only thing
+- [16:00] we have to do to turn this padantic AI
+- [16:03] agent into a fully working API endpoint
+- [16:06] compatible with AGUI and our C-pilot kit
+- [16:08] front end is to call this two AGUI
+- [16:11] function. So so easy. And so now our
+- [16:13] agent is running on port 8000 and it is
+- [16:16] good to go. And we have everything
+- [16:17] handled here with the state syncing and
+- [16:19] conversation history. We can even
+- [16:21] dynamically adjust the system prompt
+- [16:23] based on the front end. There's so much
+- [16:24] integration that we have here for
+- [16:26] literally 100 lines of code. like this
+- [16:28] is just so so easy. And so there are a
+- [16:31] lot of things that are made possible
+- [16:32] thanks to AGUI. Not because we couldn't
+- [16:35] build it without the protocol, but
+- [16:37] because it just makes it so easy to do
+- [16:39] so. And it's the same kind of thing with
+- [16:41] like the model context protocol. I mean,
+- [16:43] we can connect agents to any tools, but
+- [16:45] MCP just makes it very easy and
+- [16:47] accessible. That's what we have here.
+- [16:49] And like I said I would cover, I even
+- [16:51] went as far as to take an existing
+- [16:54] Pantic AI agent that I built on my
+- [16:56] channel previously and create a full
+- [16:58] application around it with AGUI and
+- [17:00] Copilot Kit. And that's what you're
+- [17:02] looking at right here. And so I'll link
+- [17:04] to the video right here where I built
+- [17:05] this rag agent. I built it with cloud
+- [17:07] code and a team of sub agents. And in
+- [17:09] that video we were just using the
+- [17:11] command line, a simple CLI tool to talk
+- [17:13] to our agent. So it was a perfect
+- [17:15] opportunity to take an existing agent
+- [17:18] and barely having to change the code at
+- [17:20] all thanks to the podantic AI and AGUI
+- [17:22] integration to build out this full app.
+- [17:24] And so now I can ask it a question. It's
+- [17:26] a rag agent. So we have this knowledge
+- [17:28] base with all this information about AI
+- [17:30] startup. So I can ask it about OpenAI's
+- [17:32] funding for example. And we'll get the
+- [17:34] answer on the right hand side like a
+- [17:35] normal chatbot. It's got streaming and
+- [17:37] conversation history and everything. But
+- [17:39] then also it takes all of the chunks
+- [17:42] that we returned from the knowledge base
+- [17:44] and it populates the front end with
+- [17:46] them. So we have this super interactive
+- [17:48] rag agent where we can actually like
+- [17:49] view the chunks that it retrieved. We
+- [17:51] can see the match percentage. We can
+- [17:53] click into view the contents of the
+- [17:55] chunks and all the metadata like the
+- [17:57] document that it came from. I mean this
+- [17:59] is definitely taking a typical rag agent
+- [18:01] that you would have in just a chat
+- [18:03] interface. taking it to the next level
+- [18:05] where we can actually see under the hood
+- [18:07] what information it's using to give us
+- [18:09] the answer that we have in the chat box.
+- [18:11] So really really cool and man was it
+- [18:14] easy to build this out. I'll just show
+- [18:16] you the code really quickly here. I had
+- [18:18] to define some classes here. That's for
+- [18:20] the state sync so that the chunks that
+- [18:22] we have in the front end is synced with
+- [18:23] what the agent knows it's displaying.
+- [18:26] And then I defined my agent very very
+- [18:28] much the same way like I always do with
+- [18:30] padantic AI giving it tools as well to
+- [18:32] search my knowledge base both with
+- [18:34] semantic search and hybrid search like a
+- [18:37] keyword search. And so I'll scroll down
+- [18:39] here. We have the system prompt as well.
+- [18:42] Um this is also dynamic. So all of the
+- [18:44] chunks that we have as a part of that
+- [18:46] state sync through agui we're passing
+- [18:48] those in as a part of the system prompt.
+- [18:50] And then all I have to do just like our
+- [18:52] starter template is call the rag agent.2
+- [18:55] to agui and now we have the full backend
+- [18:58] infrastructure spun up with the agent
+- [19:00] running on a port 8000. Absolutely
+- [19:02] beautiful. And we could swap this out
+- [19:04] for a langraph agent and not even have
+- [19:06] to change the front end at all. That is
+- [19:08] the beauty of AGUI. And to build all of
+- [19:12] this, all I did is I followed the quick
+- [19:13] start here in the copilot kit
+- [19:15] documentation for Pantic AI. They have
+- [19:18] instructions specifically for how you
+- [19:20] can take an existing Pantic AI agent and
+- [19:23] turn it into something that's compatible
+- [19:24] with AGUI. So I I use this as a
+- [19:26] reference point. And then I went into
+- [19:28] Cloud Code. I took that starter template
+- [19:31] that I already showed you building on
+- [19:32] top of, put in the code for my existing
+- [19:35] agent, hooked in the vibe coding MCP
+- [19:38] server and just had it go ham. So yeah,
+- [19:41] using the MCP for documentation and then
+- [19:43] the existing template to build on top
+- [19:44] of, I just told it exactly what I
+- [19:46] wanted. I want you to take the copilot
+- [19:48] kit application, make it work with this
+- [19:50] rag agent so I can actually see the
+- [19:52] chunks and all the metadata and it
+- [19:53] knocked it out of the park. It was so
+- [19:55] easy to build this out. So there you
+- [19:57] have it. That is everything you need to
+- [19:59] know to get started building agentic
+- [20:01] experiences with AGUI. Now here's the
+- [20:04] thing. Pyantic AI, AGUI, Copilot Kit,
+- [20:07] these are just tools to get the job
+- [20:09] done. The higher level principles are
+- [20:11] what I really want you to focus on.
+- [20:13] things that I covered here like human in
+- [20:15] the loop and front-end tools and state
+- [20:16] syncing. That's what you really need to
+- [20:18] make these agentic experiences. AGUI is
+- [20:22] just the protocol to standardize things
+- [20:24] and make it that much easier to build
+- [20:26] out this kind of application. Like I
+- [20:28] literally built this out in like a half
+- [20:30] hour after I brought in my existing
+- [20:31] agent. It was so easy to do this with
+- [20:33] the help of an AI coding assistant. So
+- [20:36] there you go. If you appreciated this
+- [20:38] video and you're looking forward to more
+- [20:39] things AI agents and AI coding, I would
+- [20:42] really appreciate a like and a
+- [20:43] subscribe.

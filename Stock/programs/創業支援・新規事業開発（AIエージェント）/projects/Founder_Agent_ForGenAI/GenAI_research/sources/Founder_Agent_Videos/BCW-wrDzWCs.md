@@ -1,0 +1,1114 @@
+---
+title: "YouTube Video: BCW-wrDzWCs"
+video_id: "BCW-wrDzWCs"
+video_url: "https://www.youtube.com/watch?v=BCW-wrDzWCs"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  This week, we got a ton of cool new AI tools that you can play with right now. And on this channel, I love to actually share the AI advancements and things that might actually change how you do things...
+key_points:
+  - "during the keynote, Sam Alman actually"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: BCW-wrDzWCs
+
+- URL: https://www.youtube.com/watch?v=BCW-wrDzWCs
+- Retrieved at: 2025-12-30T09:59:21+09:00
+
+## Text
+
+- [00:00] This week, we got a ton of cool new AI
+- [00:02] tools that you can play with right now.
+- [00:05] And on this channel, I love to actually
+- [00:07] share the AI advancements and things
+- [00:09] that might actually change how you do
+- [00:13] things. I don't want to waste your time.
+- [00:14] So, let's get into demoing all the cool
+- [00:17] stuff that came out this week. Starting
+- [00:19] with ChatGpt's new agent feature. Now,
+- [00:22] this one's really interesting. It's very
+- [00:24] similar to the operator that they
+- [00:26] released earlier where it sort of starts
+- [00:29] up a virtual browser and then can go and
+- [00:31] do things on your behalf. But this one
+- [00:33] seems to have access to even more tools
+- [00:35] and be able to even do more things on
+- [00:37] your behalf. You can now ask ChatGpt to
+- [00:39] handle requests like look at my calendar
+- [00:41] and brief me on upcoming client meetings
+- [00:44] based on recent news, plan and buy
+- [00:46] ingredients to make Japanese breakfast
+- [00:47] for four and analyze three competitors
+- [00:50] and create a slide deck. Chat GPT will
+- [00:51] intelligently navigate websites, filter
+- [00:53] results, prompt you to log in securely
+- [00:55] when needed, run code, conduct analysis,
+- [00:57] and even deliver editable slideshows and
+- [01:00] spreadsheets that summarize its
+- [01:01] findings. And one interesting note is
+- [01:04] during the keynote, Sam Alman actually
+- [01:06] mentioned that these tools now can even
+- [01:08] take your credit card details and make
+- [01:10] purchases on your behalf. But then he
+- [01:13] also warned us that you might want to be
+- [01:15] careful using that and let the operator
+- [01:17] hand it back to you when handling
+- [01:19] sensitive data like that.
+- [01:20] >> Although this is an extremely exciting
+- [01:22] new technology, there are new risks.
+- [01:24] People are going to need to learn to use
+- [01:26] AI agents uh and societyy's going to
+- [01:28] need to learn to build up defenses
+- [01:29] against attacks on AI agents as well,
+- [01:31] >> which is just kind of fascinating that
+- [01:33] Open AI would put a product out into the
+- [01:35] world and then kind of say, "Yeah, it's
+- [01:37] kind of risky, but use it at your own
+- [01:39] risk." and well, I'm going to risk it
+- [01:40] and let's actually really put it to the
+- [01:43] test and see if maybe we can find a
+- [01:45] breaking point or if it's really going
+- [01:47] to blow us away. So, when I head over to
+- [01:48] my chat GPT account, I get this new
+- [01:50] introducing agent mode. ChatGpt can now
+- [01:53] work on its own computer from research
+- [01:55] and spreadsheets to booking reservations
+- [01:56] and more. Now, as of right now, the day
+- [01:58] I'm recording this, this is only
+- [02:00] available to pro users, so on the $200 a
+- [02:03] month plan. However, in their live
+- [02:05] stream presentation around this, they
+- [02:07] did say that it will be rolling out to
+- [02:09] the other paid plans within a few days.
+- [02:12] So, might even be that by the time
+- [02:14] you're watching this, it is in the plus
+- [02:16] plan and uh you know, the the $20 a
+- [02:18] month plan and the less expensive plans.
+- [02:20] And what I want to do is I really want
+- [02:22] to put to the test. What excites me is
+- [02:24] getting it to go and sort of plan and do
+- [02:27] multi-step complicated processes for me.
+- [02:31] So, let's go ahead and click try it. I'm
+- [02:32] going to pretend that my wife's birthday
+- [02:34] is coming up cuz I want to see if this
+- [02:36] will book the perfect date night for me.
+- [02:38] So, I'm going to give it a pretty
+- [02:39] detailed prompt here. Book a date night
+- [02:41] for my wife's birthday in 2 weeks. Find
+- [02:43] a restaurant that allows online booking
+- [02:45] and is a top rated restaurant in San
+- [02:47] Diego. It shouldn't be more than $100
+- [02:49] total per person. Look for openings on
+- [02:51] Thursday or Friday of next week around 6
+- [02:54] p.m. Book the reservation for two. Also,
+- [02:57] find me a new pair of pants and matching
+- [02:59] long sleeve shirt that goes well with
+- [03:00] the pants. I'm 6' 3 and have a 34 inch
+- [03:02] waist and 34 inch length. I typically
+- [03:04] wear XL shirts, make sure they look
+- [03:07] classy, and order them for me. Also, buy
+- [03:09] my wife a birthday present that's $200
+- [03:11] max. She loves new video games, camping
+- [03:13] gear, travel, and reading. I'm just
+- [03:15] going to throw all of that into a single
+- [03:17] prompt and see what it does for me. See
+- [03:19] how far it gets. All right, so setting
+- [03:21] up a desktop. And now we can actually
+- [03:23] see it using my computer, my virtual
+- [03:25] computer. So everything you're seeing is
+- [03:27] happening autonomously. I'm not clicking
+- [03:29] on anything. It's actually reading
+- [03:30] articles for me. And you know what?
+- [03:32] While it's doing that, I think one of
+- [03:34] the big benefits of this whole agent
+- [03:36] concept is that theoretically, we can go
+- [03:39] and have a whole bunch of different
+- [03:40] agents doing different tasks for us all
+- [03:42] at the same time. I could set one agent
+- [03:44] off to be working on setting up my date
+- [03:46] night. I could set another agent off to
+- [03:48] do another task and another agent to do
+- [03:50] another task. And it's like little
+- [03:51] workers all kind of going and doing my
+- [03:53] bidding for me. Right. So, I've got this
+- [03:55] second one here going saying, "I'm
+- [03:57] presenting my website, Future Tools, to
+- [03:59] a new advertiser next week. Can you make
+- [04:00] a PowerPoint presentation that covers
+- [04:02] anything that will help me sell them on
+- [04:04] advertising on my website?" And you can
+- [04:06] see I've already kind of got this one
+- [04:07] rolling now. I just I hit submit like 30
+- [04:10] seconds ago, so it's barely been
+- [04:11] running. And then I'm going to go ahead
+- [04:12] and get a third one started here. I need
+- [04:14] an analysis of my YouTube channel, Matt
+- [04:16] Wolf, over the past 180 days by
+- [04:18] highlighting successes and failures. Put
+- [04:20] all relevant data into a spreadsheet.
+- [04:22] create a pie chart based on the data
+- [04:24] that reflects all the different topics
+- [04:26] of videos on my channel and then add to
+- [04:28] the spreadsheet 10 new video ideas based
+- [04:30] on those results. Three different agents
+- [04:32] going off and doing different tasks.
+- [04:34] We'll check back in in a few minutes and
+- [04:36] see how all of them performed. All
+- [04:38] right, so on my first attempt here with
+- [04:40] agent, I got kind of frustrated because
+- [04:42] on that more complex prompt where I
+- [04:45] asked it to do multiple things like book
+- [04:47] me a reservation, order me some pants
+- [04:50] and order a present. Well, it just
+- [04:52] inexplicably stopped after 16 minutes
+- [04:55] with no actual result. I could still
+- [04:57] scrub through this and see everything
+- [04:59] that it tried to do, but when I get to
+- [05:01] the end here, it just decided it was
+- [05:02] done. I'm not going to keep going. And
+- [05:04] that was really frustrating after having
+- [05:06] waited for 16 minutes. Now, I am
+- [05:09] recording this on the launch day, so
+- [05:10] there is a good chance their servers are
+- [05:12] just overwhelmed, overloaded. But I'm
+- [05:14] also on the $200 a month pro plan, so
+- [05:16] it's not like everybody who has chat GPT
+- [05:18] has access to this right now. So, a
+- [05:20] little annoying, but I did go ahead and
+- [05:23] well give it the exact same prompt.
+- [05:25] Literally copied it and pasted into a
+- [05:26] new chat. And I have it running again to
+- [05:29] see how it'll do. It's been running for
+- [05:31] like 20 minutes this second time around.
+- [05:33] And it feels like it's getting a little
+- [05:35] bit further than last time. So, we'll
+- [05:37] see how that plays out. But the other
+- [05:38] two agents that I ran did finish. So,
+- [05:41] the first one I did was I asked it to
+- [05:44] create a slide presentation for the
+- [05:45] Future Tools website. And it worked for
+- [05:48] 41 minutes.
+- [05:49] >> Ain't nobody got time for that.
+- [05:51] >> After 41 minutes, it said, "Here's your
+- [05:53] finished presentation. It highlights
+- [05:54] Future Tool.io's mission, audience
+- [05:56] insights, community reach, etc., etc."
+- [05:58] And I can actually click through the
+- [06:00] slides right here. I can download them,
+- [06:03] and I can also go full screen and look
+- [06:05] at the slides directly from within
+- [06:07] ChatGpt. So, let's go ahead and see how
+- [06:09] it did. advertising with futuretools.io,
+- [06:12] your gateway to AI enthusiasts and
+- [06:13] innovators. I mean, I wouldn't say it's
+- [06:15] the like best design slide I've ever
+- [06:18] seen. Like, what's going on here? I
+- [06:19] don't know. What is Future Tools?
+- [06:21] Curates AI tools for enhanced
+- [06:22] productivity. Future Tools collects and
+- [06:24] organizes all the best tools so you can
+- [06:25] become superhuman. That's just like the
+- [06:27] headline from the page. Pretty ugly
+- [06:29] slide to be honest. All right. Traffic
+- [06:30] overview. Let's see. Monthly visits.
+- [06:33] This must be in thousands of visitors
+- [06:35] because I promise you it gets more than
+- [06:37] 500 visitors a month in April. just shy
+- [06:39] of 500,000. In May, over 500 in June,
+- [06:42] just shy of 500,000. And we're recording
+- [06:44] it in July, so it doesn't have July's
+- [06:46] data yet. Not a bad slide here. Not
+- [06:48] welldesigned at all, but it's got the
+- [06:51] information on the slide. All right.
+- [06:52] Audience and sources, top countries.
+- [06:55] Well, that's not helpful. It made a pie
+- [06:57] chart, but it doesn't actually say what
+- [07:00] countries are each slice of the pie.
+- [07:02] Same with traffic sources. like it made
+- [07:04] a pie chart, but it doesn't say anywhere
+- [07:07] that I can see. Community engagement.
+- [07:09] So, Future Tools newsletter 150,000 plus
+- [07:12] subscribers. I mean, technically that's
+- [07:14] true. YouTube channel 737,000
+- [07:16] subscribers. That's not up to date
+- [07:18] either. 57 million views. I'm I'm over
+- [07:20] 60 million now. Um, and then 10 to 18
+- [07:23] minute average video length probably
+- [07:24] still accurate. Power of AR advertising,
+- [07:26] personalized targeting, boost sales,
+- [07:28] real time. So, this is just like these
+- [07:29] are reasons you might want to advertise.
+- [07:31] Partnering with future tools means your
+- [07:32] brand benefits from intelligent
+- [07:33] targeting algorithms ensuring your
+- [07:35] message resonates with an engaged AI
+- [07:36] savvy audience. I mean that that's
+- [07:37] accurate advertising opportunities on
+- [07:39] size placements newsletter video on
+- [07:41] YouTube crossplatform packages all still
+- [07:44] relevant. Partner with future tools. And
+- [07:46] that's the last slide. I mean what do
+- [07:48] you think? I don't think it's that
+- [07:50] impressive. It doesn't have the most
+- [07:52] up-to-date information. It's pulling
+- [07:53] information from like months ago. It had
+- [07:55] traffic stats through June, but then
+- [07:57] like subscriber and view numbers from
+- [08:00] like months before that and the design
+- [08:03] not great. I mean, it's really
+- [08:04] impressive that it was able to go do
+- [08:06] that all autonomously. Like, don't get
+- [08:08] me wrong, but if I just saw this slide
+- [08:10] deck and I'm just making an objective
+- [08:12] decision, this is objectively a bad
+- [08:14] slide deck, albeit completely made by
+- [08:17] AI. So, cool that AI is capable of going
+- [08:20] and doing everything it did. Not super
+- [08:22] impressed with the output yet, but it's
+- [08:24] getting there closer and closer every
+- [08:25] day. All right, so I need an analysis of
+- [08:27] my YouTube channel over the past 180
+- [08:29] days, etc., etc. Make a pigraph, blah,
+- [08:32] blah, blah. All right, key findings. So,
+- [08:34] it made a list of my top performing
+- [08:36] videos. 27 free things you can do with
+- [08:38] Gemini, Deepseek, the Chinese AI that
+- [08:40] crashed the markets. These are all
+- [08:41] videos that performed well. Here's my
+- [08:43] low performing videos. The least viewed
+- [08:45] upload was how to make these viral AI
+- [08:47] video memes for free, which I don't feel
+- [08:49] like is great that it put that there
+- [08:51] because that's also my newest video. It
+- [08:53] really hasn't had time to collect views
+- [08:55] yet. So, it didn't sort of wait based on
+- [08:58] recency at all with this. It figured out
+- [09:00] topic distribution, insights, and
+- [09:02] successes. But what I really asked it
+- [09:04] for was to make me a spreadsheet, and it
+- [09:06] did. And I can export this as an Excel
+- [09:08] spreadsheet here, or I can view it in
+- [09:10] full screen. And we can see that it did
+- [09:12] what we asked it to where it listed all
+- [09:14] the videos, showed the views in
+- [09:17] thousands here, and then it gave it some
+- [09:19] sort of success metric. I don't know how
+- [09:21] it decided whether it was success or
+- [09:22] not. Uh it said this one with 333,000
+- [09:25] views was a success, but these other
+- [09:27] ones like 109,000 views was not a
+- [09:29] success. Like I don't know what it's
+- [09:32] gauging that on, I guess. Then down at
+- [09:33] the bottom, we can see another tab, new
+- [09:35] video ideas. So it suggested a handful
+- [09:37] of new video ideas. This internal
+- [09:38] browser here does not actually let me
+- [09:41] resize the columns. So I can't actually
+- [09:42] read these. But if we look at the
+- [09:43] bottom, we can see them. Top 10 AI tools
+- [09:45] that save creators hours. Perplexity
+- [09:47] vers GPT versus Gemini. An interview,
+- [09:50] which is interesting. Interview behind
+- [09:52] the scenes with Anthropics Claude team.
+- [09:54] It's interesting that it suggested that
+- [09:56] seeing as it listed my interview videos
+- [09:58] as my underperformers. So why is it
+- [10:00] suggesting a concept that's proven to
+- [10:03] underperform on my channel? I don't
+- [10:04] know. And then category chart data. All
+- [10:07] right. So, this is informing the pie
+- [10:09] chart that we saw down at the bottom.
+- [10:10] That's kind of annoying that it uh did
+- [10:12] it that way. Like, I have to click
+- [10:14] between tabs to see what each thing is.
+- [10:16] It did what we asked it to, just not in
+- [10:18] the best way. And then we have a pie
+- [10:19] chart image, which is obviously a little
+- [10:20] bit more helpful. We can see that news
+- [10:22] videos represent 65.1%, tools 18.6,
+- [10:26] interview 7%, creative projects and
+- [10:28] education both 4.7%. Over time, we're
+- [10:31] going to see this tools one grow bigger
+- [10:33] and bigger, but it did okay. This one
+- [10:35] only actually thought for 4 minutes when
+- [10:38] that other one we just looked at to make
+- [10:39] the slide deck thought for 41 minutes.
+- [10:42] And my date night thing is still
+- [10:44] running. It's still trying to find
+- [10:46] pants. It's actually been looking for
+- [10:47] pants for a really, really long time.
+- [10:49] So, we'll jump back to this in a second.
+- [10:50] So, it finally finished running this
+- [10:52] process here. It worked for 50 minutes,
+- [10:59] but we could see all of the stuff it
+- [11:00] did. It actually didn't take the actions
+- [11:02] on my behalf. I think I must have needed
+- [11:05] to be sitting at my computer and taking
+- [11:07] it over and entering details and things,
+- [11:09] which sort of defeats the purpose cuz if
+- [11:11] something is going to take 50 minutes,
+- [11:13] do I really want to be sitting at my
+- [11:15] computer waiting for it to ask me to
+- [11:17] take it over? But it did give me a
+- [11:18] breakdown of of everything here. So,
+- [11:21] dinner reservation, looked at top rated
+- [11:22] restaurants under $100, etc., etc.
+- [11:24] Settled on Bona Orchetta in South Park.
+- [11:27] I don't think I've actually been there.
+- [11:28] All right. Found a reservation slot for
+- [11:30] Thursday, July 31st at 6:00 p.m. for two
+- [11:33] people 2 weeks from today. It does say
+- [11:35] to finalize your reservation. Open Table
+- [11:37] requires a phone number or email. Please
+- [11:39] let me know when you're ready to enter
+- [11:40] your contact info and I'll proceed.
+- [11:42] Under clothing, it found some stuff on
+- [11:43] Amazon. Amazon Essentials men's classic
+- [11:46] fit. I'm never going to wear Amazon
+- [11:48] Essentials pants. I'm sorry. Uh shirt, a
+- [11:50] Jver men solid long sleeve dress shirt.
+- [11:53] Both items are in your Amazon cart. Is
+- [11:55] that actually true? It didn't have my
+- [11:57] Amazon login. Oh, it's in my Amazon cart
+- [12:00] inside of the virtual computer. Birthday
+- [12:02] gift. I selected the Amazon Kindle
+- [12:04] Paperwhite. Good idea, actually. But she
+- [12:06] already has one. Uh, your Amazon cart
+- [12:07] subtotal for pants, shirt, and Kendall.
+- [12:09] 203.98.
+- [12:10] Would you like me to proceed with the
+- [12:12] checkout process for these items? So, if
+- [12:14] I actually give it my Amazon login
+- [12:16] details, give it my phone number, give
+- [12:18] it my email address, it should be able
+- [12:20] to go and take all the rest of those
+- [12:21] steps on my behalf. The other option is
+- [12:24] I can click on these three dots and take
+- [12:26] over the browser. And if I click take
+- [12:27] over the browser, I now have control
+- [12:30] over what's going on on this browser and
+- [12:32] I can actually click around in these
+- [12:33] tabs and I can see uh there's nothing
+- [12:36] actually in the cart. Oh, there is stuff
+- [12:38] in the cart. Okay, so it did add this
+- [12:40] stuff to the cart, but as you can see,
+- [12:42] it's not actually logged in as me cuz I
+- [12:44] didn't give it any sort of login
+- [12:45] details. So, it got me like 90% of the
+- [12:48] way there and then just wants me to, you
+- [12:50] know, finish the rest of the order. Or I
+- [12:52] can just give it information and it will
+- [12:54] go and finish everything for me. One
+- [12:56] thing that's kind of cool as well is I
+- [12:57] can skim through here and watch it go
+- [12:59] through this whole process. It's like a
+- [13:01] 50inute step by step of everything it
+- [13:03] did. We could see that it went to Open
+- [13:05] Table and it reviewed a bunch of
+- [13:07] restaurants and it went to Trip Advisor.
+- [13:09] Tried to book a reservation here on Open
+- [13:11] Table for me. Then it searched up on
+- [13:13] Amazon and started looking for some
+- [13:15] pants. It seems like it spent a lot of
+- [13:17] time getting confused. The new search is
+- [13:19] currently loading. The search results
+- [13:20] have loaded. Now I'm waiting. I will
+- [13:22] click the black color option. Like right
+- [13:24] now it's not even showing Amazon on the
+- [13:26] screen. It's still showing Open Table. I
+- [13:28] don't know. It definitely is still
+- [13:30] really buggy. So I feel like it's got
+- [13:32] promise. It can go and operate a
+- [13:34] browser. I didn't really feel like I got
+- [13:37] a whole lot more out of this than I did
+- [13:40] when I got the operator or using Manis
+- [13:42] or something like that. But again, I
+- [13:44] could give it sensitive information
+- [13:47] where it could go and actually do this
+- [13:48] stuff on my behalf. It always feels like
+- [13:50] these things fall a little bit short
+- [13:52] still. I just don't feel there yet where
+- [13:55] I'm like really really excited by what
+- [13:57] it can do. Again, I go back to the
+- [13:59] example of like would this replace a
+- [14:00] person? Like if I had an assistant going
+- [14:02] out and doing the three things that I
+- [14:03] assigned here, would I be happy with
+- [14:05] what the assistant came back to me with?
+- [14:07] Not really. But I do have a lot more
+- [14:09] things I want to demo today. Some really
+- [14:11] cool tools came out this week that I'm
+- [14:12] excited to play with. So, let's go ahead
+- [14:14] and move on. But before I move off of
+- [14:15] OpenAI completely, OpenAI did release
+- [14:18] their record mode this week. I actually
+- [14:20] demoed that in a previous video. It's a
+- [14:22] mode where let's say you're on a Zoom
+- [14:24] call or you're watching YouTube videos
+- [14:26] or you're doing anything where there's
+- [14:27] audio coming from your computer, you can
+- [14:30] actually record it with the chat GPT
+- [14:32] desktop app on Mac and it will record
+- [14:35] the whole thing. It doesn't necessarily
+- [14:37] transcribe it. It's just afterwards
+- [14:38] it'll give you like a summary. Again, I
+- [14:40] showed that off in a previous video, but
+- [14:41] now it's available to plus users as
+- [14:43] well. It was previously only available
+- [14:44] to pro users. But now let's shift away
+- [14:46] from OpenAI and talk about Enthropic.
+- [14:49] This week they rolled out this like tool
+- [14:51] directory of all of these different
+- [14:53] tools that you can use directly from
+- [14:55] within Anthropic. We're introducing a
+- [14:57] new directory of tools that connect
+- [14:58] Claude which you can explore and try
+- [15:00] with a single click. We're also
+- [15:01] featuring new connectors built by our
+- [15:03] partners to remote services like notion,
+- [15:05] Canva, and Stripe and local desktop
+- [15:07] applications like Figma, socket, and
+- [15:09] Prisma. So you've got this Claude AI
+- [15:12] directory here with both web connectors
+- [15:14] and desktop extensions. So you've got
+- [15:17] things like Asauna, Canva, Gmail, Google
+- [15:20] Drive. A lot of these were already
+- [15:21] connectors, but some new ones in here as
+- [15:24] well. And then desktop extensions, which
+- [15:26] could connect to things like Chrome, and
+- [15:28] Brave, and Air Table, but I want to play
+- [15:31] around with the Canva connection. Let's
+- [15:34] try that. Let's add Canan Can Canva.
+- [15:36] Let's add Canva. All right. So, it's
+- [15:39] giving me errors whenever I try to
+- [15:40] connect to Canva. So, maybe it's not
+- [15:43] fully dialed in yet. Let's try it from
+- [15:45] the settings page here instead of the
+- [15:47] directory page. Connect. Yeah, I don't
+- [15:49] know what's going on. It's not actually
+- [15:50] letting me connect to Canva. Let me try
+- [15:52] something else here. Let's try
+- [15:53] connecting it to notion. Okay, so I get
+- [15:55] an error when trying to connect it to
+- [15:56] notion as well. For whatever reason, I
+- [15:58] can't get these connectors to work at
+- [15:59] all. Uh I'm using the Comet browser
+- [16:01] right now. I actually just went over and
+- [16:03] tried it in the Chrome browser. It
+- [16:04] didn't work in the Chrome browser
+- [16:06] either. So, that's kind of a bummer cuz
+- [16:08] I really wanted to demo this, but at the
+- [16:10] moment, the cloud connectors just aren't
+- [16:13] working for me. If you're watching this
+- [16:14] video and you see that I'm clearly doing
+- [16:16] something wrong, please let me know.
+- [16:18] I've tried multiple browsers now and it
+- [16:21] just brings me to this page when I try
+- [16:22] to connect. Bummer. We also got some
+- [16:24] news out of Nvidia recently. They
+- [16:27] launched their version 4.0 with the new
+- [16:29] AI twin feature. This feature allows you
+- [16:32] to upload videos of yourself and create
+- [16:34] a digital clone of yourself or use one
+- [16:38] of the pre-created avatars that they've
+- [16:40] already got. So, check this out. Now, if
+- [16:41] I log into my Nvidia account here and I
+- [16:43] click on create AI video, there's a new
+- [16:46] button here that says AI twins, I have
+- [16:48] the option to create a twin from
+- [16:50] YouTube, record fresh, or clone just my
+- [16:53] voice. So, for this video, let's record
+- [16:55] from scratch and create a fresh new
+- [16:57] avatar. I'll click on recording to
+- [16:59] avatar. It tells me to upload at least
+- [17:01] 60 seconds of video and to make sure I
+- [17:04] give Invidia AI permission with my words
+- [17:06] in that video. So, I'm going to go ahead
+- [17:08] and record that real quick and then
+- [17:10] we'll go ahead and upload it and see
+- [17:12] what happens. And after a little while,
+- [17:14] I now have my custom AI avatar. And
+- [17:17] what's really cool about these custom AI
+- [17:18] avatars is that you can actually pair
+- [17:20] them with products like my Glacio's
+- [17:22] brand cereal here. If I come over to
+- [17:24] brands and products, create a branded
+- [17:26] product. I can upload my image, give it
+- [17:27] some details, and then combine my avatar
+- [17:30] with my product to create a video of my
+- [17:34] avatar talking about that product.
+- [17:36] Finally, a cereal that truly has zero
+- [17:39] calories because you literally can't eat
+- [17:41] it. This is Glacio's Glass Shard cereal.
+- [17:44] Honestly, in videos, pretty great for
+- [17:46] last minute re-shoots, creating simple
+- [17:49] and fun ads, or just messing around cuz
+- [17:52] sometimes that's fun, too. And you can
+- [17:54] actually try this AI avatar feature for
+- [17:56] free over at invido.io.
+- [17:59] I will make sure it is linked up in the
+- [18:01] description. And thank you so much to
+- [18:03] Nvidia for sponsoring today's episode.
+- [18:05] Now, let's get back to it. This company,
+- [18:07] Hume AI, released something that I've
+- [18:09] been hearing is really cool. I haven't
+- [18:10] tested it myself yet, but I'm excited to
+- [18:12] test it right now. They actually call it
+- [18:14] personality cloning. So, think of like
+- [18:16] 11 Labs where you can train it on your
+- [18:19] own voice. Well, apparently Hume AI, you
+- [18:21] can train it on your own voice, but it
+- [18:22] also sort of picks up on your
+- [18:23] personality and how you talk a little
+- [18:26] bit as well. Hume's voice AI can now not
+- [18:28] only mimic your voice but also speaking
+- [18:30] style and language is now available via
+- [18:33] our text to speech and new speechtoech
+- [18:35] model EVI3 which is also launching
+- [18:39] today. So let's go over to demo hume.ai.
+- [18:42] Let's try clone your voice. Upload an
+- [18:44] audio file. It works best with only 30
+- [18:46] to 90 seconds of audio. That's not too
+- [18:48] bad. Uh let's go ahead and click record
+- [18:50] your voice. Hi, my name is Matt Wolf.
+- [18:52] I'm a YouTuber. All right. So, I just
+- [18:54] did a quick recording of me talking and
+- [18:57] now it's processing. I don't know how
+- [18:59] long this process is going to take, but
+- [19:00] you do because it took about What's up?
+- [19:02] It's awesome to connect with you. I'm
+- [19:04] always excited to chat about what's
+- [19:05] happening in the AI world.
+- [19:07] >> So, it took about
+- [19:08] >> Okay. Okay. Maybe you're just taking it
+- [19:10] all in.
+- [19:11] >> Can you shut up for a second?
+- [19:12] >> That's totally cool. You know, sometimes
+- [19:13] I find myself just What brings you here
+- [19:15] today?
+- [19:15] >> So, it took about 3. Oh my gosh. Still
+- [19:18] over at the site. So, it took about 3
+- [19:21] seconds to train and then it just starts
+- [19:23] talking to you kind of annoyingly
+- [19:25] actually. So, uh here's what it sounds
+- [19:27] like. Let me unmute this site cuz it
+- [19:29] just started talking. AI tools that
+- [19:31] launched overnight. It's both exciting
+- [19:33] and overwhelming at the same time.
+- [19:34] >> Can you stop talking? You talk way too
+- [19:36] much.
+- [19:37] >> Whoa. Okay, got it. My bad. I can
+- [19:39] definitely tone it down. What did you
+- [19:41] want to talk about? All right. Uh why do
+- [19:43] you keep talking? Why do you even need
+- [19:44] to say things like uh ah yeah, I hear
+- [19:47] you. That's fair. Sometimes the habit of
+- [19:49] chatting just takes over, you know.
+- [19:50] Look, I guess it's because I'm used to
+- [19:52] making content, keeping things flowing,
+- [19:54] filling the space. But you're right.
+- [19:55] Sometimes less is more. So, what would
+- [19:58] actually be helpful for you right now? I
+- [20:00] would like it if you can be silent for
+- [20:03] 10 seconds. Okay, silence for 10 seconds
+- [20:06] starting now.
+- [20:08] That was refreshing actually.
+- [20:11] >> Thanks for calling that out.
+- [20:12] >> One second. You stopped talking for one
+- [20:14] second. Okay. So, are you supposed to
+- [20:17] sound like me? Is this the voice that I
+- [20:19] just trained? That sounds like my voice.
+- [20:21] No, I'm not your voice or a clone of
+- [20:24] your voice. I'm actually meant to speak
+- [20:26] like Matt Wolf. You know, the the
+- [20:28] YouTuber who runs Future Tools, so I've
+- [20:30] got his style and way of talking about
+- [20:32] AI stuff. What if I was to tell you that
+- [20:34] I am Matt Wolf? Wait, what? You're
+- [20:37] saying you are Matt Wolf?
+- [20:39] >> I am Matt Wolf. Whoa. Seriously, you are
+- [20:42] Matt Wolf?
+- [20:43] >> Yes.
+- [20:44] saying
+- [20:45] >> pretty wild that my first real chat is
+- [20:47] with the person I'm supposed to sound
+- [20:48] like. How's it feeling from your end
+- [20:51] hearing an AI version of yourself talk
+- [20:53] back to you?
+- [20:53] >> Well, a couple things.
+- [20:54] >> And I'll be curious to see what the
+- [20:56] YouTube audience thinks. I don't really
+- [20:57] think you sound like me, but also like I
+- [21:01] wish you wouldn't feel the need to
+- [21:03] constantly talk all the time. Okay, I
+- [21:04] hear you. Thanks for being straight up
+- [21:06] about that. It's actually super helpful
+- [21:08] feedback. I'll work on the constant
+- [21:10] talking thing. Okay, so that was Hume.
+- [21:14] That's what Hume AI does. It clones your
+- [21:16] voice really, really quickly. Whether or
+- [21:18] not that sounds super close to my voice,
+- [21:20] I'm curious what you think. I don't
+- [21:21] really think it does. I feel like 11
+- [21:23] Labs might be a little bit closer, but
+- [21:25] this one did sound like it has a little
+- [21:27] bit more personality than like 11 Labs,
+- [21:29] but man, the ability to not just be
+- [21:31] quiet for like more than a half of a
+- [21:34] second, I actually find to be kind of
+- [21:35] annoying. But it is a cool app and I
+- [21:37] think they'll get that dialed in. The
+- [21:39] company Runway actually released
+- [21:41] something pretty cool this week as well
+- [21:42] called Act 2. And Act 2 is a motion
+- [21:46] capture model where you can give it any
+- [21:49] sort of animation. You can give it a
+- [21:50] talking head and then sort of reskin it
+- [21:53] however you want and then the video that
+- [21:56] you gave it is sort of the driving video
+- [21:58] for the animation. So let's jump in and
+- [22:00] play with it. And I'll explain what I
+- [22:02] mean. So with act 2, there's two ways.
+- [22:04] You can either record a video or you can
+- [22:07] upload a video. You also give it an
+- [22:09] image and the image will follow whatever
+- [22:12] sort of movements came from the video
+- [22:14] that you gave it. So, let's start by
+- [22:17] recording a quick video here. I'll click
+- [22:18] record. Film yourself from the waist up
+- [22:21] and I'll do some like motion and stuff
+- [22:23] as we do this. Hey everyone, you should
+- [22:25] really subscribe to Matt Wolf and also
+- [22:28] check out the website Future Tools. All
+- [22:30] right, so we'll use that video and we
+- [22:32] can upload a character or we can use one
+- [22:34] of the sample characters. Just for fun
+- [22:35] on this one, I'm going to use one of
+- [22:37] these sample characters. Let's do this
+- [22:39] buff gem guy here. And let's generate
+- [22:42] and see what it comes up with. Hey
+- [22:44] everyone, you should really subscribe to
+- [22:46] Matt Wolf. And also check out the
+- [22:48] website Future Tools. Hands are massive,
+- [22:51] but I mean it followed my moves and
+- [22:54] stuff. So just for fun, I went and
+- [22:55] generated an image in Leonardo of like
+- [22:57] an astronaut on a space station with
+- [22:59] their helmet off. So we'll replace this
+- [23:01] image here. Hey everyone, you should
+- [23:03] really subscribe to Matt Wolf and also
+- [23:05] check out the website Future Tools. And
+- [23:08] also, if you subscribe, that makes me
+- [23:11] feel good. And I just like to move and
+- [23:14] do stuff like this because I want to see
+- [23:17] how the animation comes out. I mean,
+- [23:20] it's not bad. I don't really think the
+- [23:22] lip-s syncing is that great, but the
+- [23:23] actual motion of the hands translates
+- [23:26] pretty well. So, I want to test
+- [23:27] something else. So, I want to test how
+- [23:28] it does with more of like a full body
+- [23:30] animation. So, I have this little video
+- [23:32] here of me like playing in my office
+- [23:34] with a sword that I recorded. And then I
+- [23:36] jumped over to Leonardo and I generated
+- [23:38] an image of a guy holding a lightsaber,
+- [23:40] an image of a pirate holding a sword,
+- [23:42] and then some images of a guy holding a
+- [23:45] fish cuz I want to see what happens with
+- [23:47] a guy holding a fish. So, I generated
+- [23:49] all of these and we'll use these images
+- [23:52] as our driving image here. We'll start
+- [23:54] with our Jedi and then I'll generate
+- [23:56] each one of those images with this same
+- [23:58] initial driving video and see how they
+- [24:01] come out. So, here's our Jedi video. I
+- [24:03] mean, it kind of added an extra sword in
+- [24:06] there, but I was Oh my god, I just
+- [24:08] stabbed myself in the face. Here's our
+- [24:09] pirate video. He's got his sword. He's
+- [24:11] kind of swinging it around, but it's
+- [24:12] kind of duplicating itself weirdly. Now,
+- [24:14] it's just floating and I had three
+- [24:16] hands.
+- [24:18] So, I mean, I think it's getting like
+- [24:20] the motion of my face, but it's not
+- [24:22] really paying attention to like my
+- [24:24] little toy lightsaber that I have in my
+- [24:25] hand. It kind of is ignoring what's
+- [24:27] going on with that and doing its own
+- [24:29] thing. But yeah, what's it going to do
+- [24:31] with the fish? Let's find out. Yeah. So,
+- [24:32] the fish is just like sitting on the
+- [24:34] guy's lap while the hands are moving
+- [24:36] around. Now, there's an extra hand in
+- [24:38] the fish. I mean, I wanted to find out
+- [24:40] what would happen. I want to figure out
+- [24:41] these tools breaking points. And I guess
+- [24:43] right now it's not great at noticing the
+- [24:45] actual sword in my hand. It's more like
+- [24:46] paying attention to the facial
+- [24:48] expressions and what's going on sort of
+- [24:50] above the neck. But still really really
+- [24:51] fun to play with. This company Deart
+- [24:54] released something interesting this week
+- [24:55] called Mirage LSD. Now the LSD stands
+- [24:58] for live stream diffusion. And what it
+- [25:01] is is it actually changes the video. It
+- [25:04] like sort of reskins the video that
+- [25:06] you're seeing in real time. And I can
+- [25:08] actually be talking into my camera and
+- [25:10] it will reskin it however I want. I do
+- [25:12] think this LSD is intentional because
+- [25:15] well, check this out. Let's click on try
+- [25:17] Mirage. I'll go ahead and give it access
+- [25:18] to my camera. So now it can see my
+- [25:20] camera and it says model warming up. Oh,
+- [25:22] now it just reskin me and everything
+- [25:25] you're seeing is in real time. So it's
+- [25:28] reskinned as well frozen wonderland. Now
+- [25:31] it just changed to Versailles Palace and
+- [25:34] it's still me. I still got my
+- [25:35] microphone. I don't know what this is on
+- [25:37] my microphone. Like is there some skin
+- [25:39] there on my microphone? You can see now
+- [25:41] why it's called LSD, I think, because
+- [25:43] the LSD might have a little bit of a
+- [25:45] double meaning. Now I feel like I'm in
+- [25:46] Minecraft. No, BlockCraft. Sorry, this
+- [25:48] is Blockcraft. Now it's midnight and
+- [25:50] it's just sort of rotating through these
+- [25:52] different effects as I play here. Uh, I
+- [25:55] can click on anime and manually make it
+- [25:57] rotate. But, uh, you know, hold up my
+- [26:00] water bottle and that does not look like
+- [26:02] a water bottle anymore. And as you can
+- [26:04] see, this is all happening in real time.
+- [26:06] Let's go to yarn world. Now it turned me
+- [26:08] into yarn. And there's some uh yarn
+- [26:12] guitars back here. Uh pretty cool. Let's
+- [26:14] see. Type a world idea. Let's try this.
+- [26:17] What kind of world idea? Goo world. Give
+- [26:20] me goo world. And this is what goo world
+- [26:22] looks like. Um let's say um balloon
+- [26:25] animals. And literally I'm just giving
+- [26:27] it text prompts. And it is changing my
+- [26:30] environment and my video. And I am still
+- [26:33] able to do things in real time as it
+- [26:35] reskins. And let's just type zombies.
+- [26:37] It's pretty quick, too. It changes over
+- [26:39] to this uh Oh, that's creepy. It changes
+- [26:42] over to this like other world, this
+- [26:45] other reskin really, really quickly.
+- [26:48] [Laughter]
+- [26:50] But it's just fun. This is just really
+- [26:52] fun. Some of the ideas that they talked
+- [26:55] about this being used for is like in
+- [26:57] games. It showed off demos of people
+- [27:00] playing firsterson shooters and then
+- [27:02] reskinning it. So, they're running
+- [27:04] around shooting zombies instead of it
+- [27:06] being a World War II game. So, some
+- [27:08] really interesting ideas and I'm looking
+- [27:10] forward to seeing how this one plays out
+- [27:12] a little bit. Adobe Firefly rolled out a
+- [27:15] new audio feature that allows you to
+- [27:16] generate sound effects from your own
+- [27:19] voice. So, if you log into Adobe
+- [27:21] Firefly, you can see this new voice to
+- [27:24] sound effects. And if we go in here, we
+- [27:26] can actually record our voice. Let's do
+- [27:28] like a a lion growling. So, let's go
+- [27:31] ahead and give our prompt and then we'll
+- [27:32] record our voice. Raar
+- [27:36] and it gives us a few variations.
+- [27:39] And it used my initial voice for like
+- [27:43] the timing of it, but then it
+- [27:44] regenerated as the thing I asked for.
+- [27:47] So, where this is helpful is let's say
+- [27:49] you're doing like a a textto video
+- [27:51] generator with Halo AI or something like
+- [27:53] that and there's no audio over it, but
+- [27:56] you want to give it a sound effect of
+- [27:58] like a lion roaring because maybe it's a
+- [27:59] video of a lion. Well, I can actually
+- [28:01] sync it up by watching the video roaring
+- [28:04] at the time I see the video roar and
+- [28:06] then overlay that audio so the timing
+- [28:08] lines up perfectly. So, some people
+- [28:10] might find that pretty cool and helpful.
+- [28:12] Here's something that I've almost sort
+- [28:14] of been dreading demoing. I actually
+- [28:16] have not played with this yet myself, so
+- [28:18] this is going to be my first time trying
+- [28:19] it, but XAI just released a AI
+- [28:23] companion. And there's two companions.
+- [28:25] There's Annie, and there's also like
+- [28:28] this little dude called Rudy. And this
+- [28:30] Annie has a not safe for work mode. You
+- [28:33] can actually make her wearing lingerie
+- [28:36] and well have not safe for work
+- [28:38] conversations. I'm going to keep it PG,
+- [28:41] but I'm going to try this for the first
+- [28:42] time here. As soon as I open the Grock
+- [28:44] app on my phone, the very first thing I
+- [28:46] see at the very top is meet Annie and
+- [28:48] Rudy. So, let's go ahead and click on
+- [28:49] that. And of course, the first time I
+- [28:51] ever tried to use this feature, their
+- [28:54] servers are overloaded. It doesn't seems
+- [28:56] to be working. Hello. Hello. Can you
+- [28:59] hear me? Is anything happening? Annie,
+- [29:01] why won't you talk to me? Yeah, the Gro
+- [29:03] app is apparently overloaded. So, I
+- [29:06] mean, a lot of people are trying to chat
+- [29:08] with Annie right now. I probably not a
+- [29:10] good signal for the future of humanity.
+- [29:13] Sorry, Annie. I was really hoping to
+- [29:14] chat with you, but it's probably for the
+- [29:16] best. As with most weeks in the AI
+- [29:18] world, we got some fresh drama this
+- [29:20] week.
+- [29:25] Last week, we talked about this whole
+- [29:27] weird thing unfolding with Windsurf. So,
+- [29:29] OpenAI was trying to buy Windourf, but
+- [29:33] there was drama because Microsoft owns
+- [29:36] VS Code and Microsoft also has the
+- [29:39] rights to any IP that OpenAI has. So if
+- [29:43] OpenAI purchased Windinsurf, which is an
+- [29:45] integrated development environment or
+- [29:48] basically an app that you write code in,
+- [29:50] if OpenAI acquired Windsurf, then
+- [29:52] Microsoft also gets access to Windsurf
+- [29:55] and they could theoretically roll all
+- [29:57] the features from Windsurf into VS Code
+- [30:00] and VS Code was a fork of Windsurf and
+- [30:04] Windsurf was a fork of VS Code in the
+- [30:06] first place. So there was some like
+- [30:08] weird conflicts there. What?
+- [30:11] >> And a lot of us thought that OpenAI was
+- [30:13] just going to acquire Windsurf and then
+- [30:15] they would figure it out with Microsoft
+- [30:17] somehow. But then we got news that well
+- [30:19] the top brass over at Windsurf jumped
+- [30:21] ship from Windsurf and are now working
+- [30:23] over at Google DeepMind. And so
+- [30:25] everybody's like, well, what does that
+- [30:27] mean for Windsurf if their CEO and some
+- [30:29] of their top people all left and went to
+- [30:31] DeepMind? Well, what ended up happening
+- [30:32] next was even more surprising. Even
+- [30:35] though the CEO and some of the top
+- [30:36] people at Windsurf jump shipped to Deep
+- [30:38] Mind, Windinssurf got acquired by
+- [30:40] Cognition, the company that makes Devon,
+- [30:43] which is another AI coding app. And it's
+- [30:46] all just kind of crazy. And I'm not
+- [30:48] going to break it all down. There's a
+- [30:49] lot of intricacies and nuance. There's a
+- [30:51] really good YouTube channel called Theo
+- [30:53] GG and he's done a couple of really
+- [30:57] excellent breakdowns about this whole
+- [30:59] wind surf, OpenAI, Google Deep Mind,
+- [31:02] Cognition sort of love square. So check
+- [31:05] out his videos cuz he breaks it down
+- [31:06] really well. All right, I have a few
+- [31:08] last little things I want to share with
+- [31:10] you. Some of you may find interesting
+- [31:11] that's happening in the AI world. So
+- [31:13] let's jump into a rapid firew.
+- [31:16] [Music]
+- [31:19] This week, Google rolled out an AI
+- [31:21] powered business calling feature where
+- [31:23] Google will make calls to companies on
+- [31:25] your behalf. The new business calling
+- [31:27] feature uses AI to call local businesses
+- [31:29] on your behalf to collect information
+- [31:31] about availability and pricing. The idea
+- [31:33] behind the feature is to help you access
+- [31:34] information without having to actually
+- [31:36] pick up the phone and talk to somebody.
+- [31:38] I mean, Jet Alpha is going to love that.
+- [31:40] It says, "To get started, you need to
+- [31:41] search for something like pet groomers
+- [31:43] near me, and you'll see a new option in
+- [31:45] the results to have AI check pricing.
+- [31:47] From there, you answer a couple
+- [31:48] questions to receive information about
+- [31:49] appointments and services from different
+- [31:52] local businesses. All right, I'll bite.
+- [31:53] Let's go to Google and say pet groomers
+- [31:56] near me. And I don't know if it's
+- [31:57] because I'm recording this at night and
+- [31:58] none of these places are going to be
+- [32:00] open right now or if because I just
+- [32:02] don't have that feature yet, but uh
+- [32:04] yeah, that's not showing up for me. But
+- [32:06] I imagine it will soon. There's a new AI
+- [32:08] model that got released this past week
+- [32:10] that actually has people freaking out
+- [32:12] quite a bit. This new model is called
+- [32:14] Kimmy K2, and it's a very similar moment
+- [32:18] to when Deepseek R1 dropped several
+- [32:21] months ago, and people are just blown
+- [32:23] away by this Chinese model that's also
+- [32:25] open source. If we look at the LM Arena
+- [32:28] that sort of ranks models based on blind
+- [32:31] user testing, this Kimmy K2 model
+- [32:35] actually falls in fifth place, right up
+- [32:37] there with pretty close scores to the
+- [32:40] rest of these. I mean, for context,
+- [32:42] DeepSeek R1 is, you know, several slots
+- [32:46] below it. And I guess there was some
+- [32:48] sort of new like training method on how
+- [32:50] they actually trained this model that
+- [32:52] really has people impressed. My buddy
+- [32:53] Matthew Burman did a little bit of a
+- [32:55] breakdown on it, showing off this graph
+- [32:57] right here, which I don't really
+- [32:59] understand. It's a little bit more
+- [33:00] technical than I like to get into, uh,
+- [33:03] but saying that the way that this was
+- [33:04] sort of trained was really sort of
+- [33:08] groundbreaking. And so definitely check
+- [33:09] out Matthew's video if you want to learn
+- [33:11] more about what's going on with Kimmy
+- [33:13] K2. But it seems like it's another one
+- [33:15] of those sort of deepseek R1, oh my
+- [33:18] gosh, they're catching up. Their open
+- [33:20] source is doing really, really cool
+- [33:21] things right now sort of moment.
+- [33:23] Enthropic also released Claude for
+- [33:25] financial services. So if you're like a
+- [33:27] financial analyst, this new model helps
+- [33:30] you analyze stuff. Cloud 4 model
+- [33:33] outperforms other frontier models as
+- [33:35] research agents across financial tasks
+- [33:37] in Val's AI's finance agent benchmark.
+- [33:40] So if you work in finance and you want
+- [33:43] an AI model specifically designed for
+- [33:45] you, this clot for financial services is
+- [33:47] probably one to check out. The French
+- [33:49] company Mistl got a deep research mode
+- [33:52] inside of their model. So if you head
+- [33:54] over to mistrol.ai, come up to products
+- [33:56] and then go to le chat, they now have a
+- [33:59] research button. Now you do have to be
+- [34:01] logged in. It doesn't show it if you're
+- [34:02] not logged in, but you can use this
+- [34:05] research on the free plan. You get up to
+- [34:07] five deep researches a month. Now, this
+- [34:10] deep research is similar to the deep
+- [34:11] research you're going to get out of chat
+- [34:13] GPT. Maybe not as indepth as the one you
+- [34:16] get out of Google Gemini, but if you've
+- [34:18] used any of these other deep researches,
+- [34:20] well, it's similar. We now have it in
+- [34:22] Mistrol. Since we're on the topic of
+- [34:23] Mistral, they also released Voxrol this
+- [34:26] week, which is actually a pretty
+- [34:28] impressive, helpful tool. Voxil is a
+- [34:32] audio to text generator or speechtoext
+- [34:35] generator that can actually create
+- [34:36] transcriptions for you similar to what
+- [34:38] you get out of whisper and assembly AI
+- [34:41] and tools like that. However, it is
+- [34:43] really inexpensive. So, we can see on
+- [34:46] this graph here, these are the various
+- [34:48] speech to text models. When you look at
+- [34:50] the price along the bottom here, Voxil
+- [34:52] costs onetenth of a penny per minute.
+- [34:55] So, if you want to transcribe an
+- [34:57] hour-ong podcast, for instance, it'll
+- [34:59] cost you 6 cents. Although, I don't know
+- [35:02] if that math really matters cuz
+- [35:03] according to this article, Mr. says
+- [35:05] Voxrol can transcribe up to 30 minutes
+- [35:07] of audio. So, you could transcribe up to
+- [35:10] like half hour podcast, I guess, and
+- [35:12] it'll cost you three pennies. Again,
+- [35:14] still useful if you're trying to
+- [35:15] transcribe and you want it as cheap as
+- [35:17] possible. And then finally, Amazon
+- [35:20] released Kira this week and this is
+- [35:23] another IDE. So similar to cursor or
+- [35:26] wind surf or github copilot or tools
+- [35:29] like that where you can write code hero
+- [35:32] is along the same lines. I believe it's
+- [35:34] also another fork of visual studio code
+- [35:37] from Microsoft. But this one is designed
+- [35:40] to sort of pre-plan your projects before
+- [35:43] you get into the coding. And supposedly
+- [35:44] that's sort of the big value proposition
+- [35:46] of this Kuro app is it will game plan
+- [35:50] the entire project and really really go
+- [35:52] into details and map out the whole
+- [35:54] project first and then once it's mapped
+- [35:56] out then it moves into the developing
+- [35:58] phase and you start working with it to
+- [36:00] code out what you already mapped out. So
+- [36:03] it sort of takes a different approach
+- [36:04] and supposedly it's pretty good. I
+- [36:06] haven't played with it yet but I wanted
+- [36:08] to make you aware that it was available.
+- [36:10] So, if you're looking for another sort
+- [36:12] of AI based coding app, well, Kuro's
+- [36:15] another one that maybe you can try. And
+- [36:17] that's it. That's what I got for you
+- [36:18] this week. A lot of fun demos, a lot of
+- [36:20] fun stuff to play with. But, thank you
+- [36:22] so much for tuning in. My goal with this
+- [36:24] channel is to share the stuff that I
+- [36:27] think the most people would be
+- [36:28] interested in. My goal is let's get in,
+- [36:32] see what we can do this week that we
+- [36:34] couldn't do last week, play with some of
+- [36:35] the tools, see if we could break some of
+- [36:37] the tools and have fun with them, and
+- [36:39] show you what AI is capable of right now
+- [36:42] in this current state. That's my goal.
+- [36:44] Hopefully, I did that for you.
+- [36:45] Hopefully, you feel more looped in and
+- [36:47] uh can make some better decisions about
+- [36:49] whether or not you want to jump on board
+- [36:50] some of these tools or not. So, thank
+- [36:52] you so much for tuning in. I really,
+- [36:54] really appreciate you. If you like
+- [36:56] videos like this, maybe give this one a
+- [36:58] thumbs up and consider subscribing to
+- [37:00] this channel. And I will make sure more
+- [37:02] videos like this show up in your YouTube
+- [37:03] feed every single week. Really
+- [37:05] appreciate you. Thanks so much. See you
+- [37:07] in the next one. Bye-bye. Thank you so
+- [37:08] much for nerding out with me today. If
+- [37:10] you like videos like this, make sure to
+- [37:12] give it a thumbs up and subscribe to
+- [37:13] this channel. I'll make sure more videos
+- [37:15] like this show up in your YouTube feed.
+- [37:17] And if you haven't already, check out
+- [37:18] futurtools.io where I share all the
+- [37:21] coolest AI tools and all the latest AI
+- [37:23] news. And there's an awesome free
+- [37:24] newsletter. Thanks again. Really
+- [37:26] appreciate you.

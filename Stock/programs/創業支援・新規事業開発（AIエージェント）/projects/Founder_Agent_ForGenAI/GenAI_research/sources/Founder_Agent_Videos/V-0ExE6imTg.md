@@ -1,0 +1,475 @@
+---
+title: "Transcript: V-0ExE6imTg"
+video_id: "V-0ExE6imTg"
+video_url: "https://www.youtube.com/watch?v=V-0ExE6imTg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:15:57"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: V-0ExE6imTg
+
+- URL: https://www.youtube.com/watch?v=V-0ExE6imTg
+- Retrieved at: 2025-12-30T11:08:04+09:00
+
+## Text
+
+- [00:00] I get asked this question more than
+- [00:02] anything, so it is about time that I
+- [00:04] make a video covering this. Should I be
+- [00:06] building my AI agents with N8N or
+- [00:09] Python? Or more generally, should I
+- [00:11] build my agents with no code tools or in
+- [00:14] code? If I had a dime for every time
+- [00:17] someone asked me this, Elon Musk would
+- [00:18] wish he had my net worth. And so my goal
+- [00:21] in this video for you, just very
+- [00:23] broadly, is to make it easy for you to
+- [00:25] make a decision use case by use case.
+- [00:28] Should I stick to N8N as the easy way to
+- [00:30] build AI agents or move to code, get
+- [00:33] over that learning curve and probably
+- [00:34] learn how to leverage AI coding
+- [00:36] assistance as well? And all the pros and
+- [00:38] cons that I have here in this beautiful
+- [00:40] diagram that'll guide our video today, I
+- [00:43] honestly don't think that any of them
+- [00:45] are hot takes. But of course, there are
+- [00:47] always nuances that you might think of
+- [00:49] as we go over this. And so definitely
+- [00:50] let me know in the comments if you agree
+- [00:52] with everything that I'm saying here or
+- [00:54] if you think that there's something that
+- [00:56] I've missed. And before I go and say
+- [00:57] anything positive or negative about
+- [00:59] either, I just want to be super clear
+- [01:01] that I have a deep level of respect for
+- [01:03] building AI agents both with N8N and
+- [01:06] Python and all the AI agent frameworks
+- [01:08] that we have there. In fact, at the end
+- [01:10] of the video, there is something else
+- [01:11] that I want you to consider. We don't
+- [01:13] necessarily have to pick one over the
+- [01:16] other. More on that later. But right
+- [01:18] now, I want to explain my general
+- [01:21] recommendation and then get into the
+- [01:23] pros and cons to really help you think
+- [01:25] for yourself how what I'm saying applies
+- [01:26] to your use case. And so, at a high
+- [01:29] level, I recommend using N8N to build
+- [01:32] your AI agents for any kind of
+- [01:34] integrationheavy internal tools, proof
+- [01:36] of concepts, and team collaboration
+- [01:38] across skill levels. So, N8N is a very
+- [01:41] integrationheavy platform. You can
+- [01:43] connect to hundreds of different
+- [01:44] services so easily. And so any kind of
+- [01:47] internal automations you have for your
+- [01:48] team, N8 is great for that. And then
+- [01:50] proof of concepts simply because you can
+- [01:52] build so quickly with N8N. And then
+- [01:55] across different skill levels because
+- [01:57] there is a lot less of a learning curve
+- [01:59] building your agents and automations in
+- [02:00] N8N versus in Python. Now, when you
+- [02:04] really want to get to production scale
+- [02:06] applications or anything where speed,
+- [02:09] control, and flexibility, like how much
+- [02:11] can you really design the solution
+- [02:12] around exactly what you want, that is
+- [02:15] when I recommend going with Python. I
+- [02:17] know a lot of people that start with N8N
+- [02:19] because it's easier and then they move
+- [02:21] to Python when they really want to take
+- [02:22] their ideas far. Not saying that you
+- [02:25] can't do the same with N8N, but that's
+- [02:26] just generally what I see. And I do use
+- [02:29] both as a part of my workflow still
+- [02:31] because I'll use nitn to prototype so I
+- [02:33] can ideulate quickly and then move to
+- [02:35] Python when I really want to scale
+- [02:37] things and have a lot of the flexibility
+- [02:38] that I'll be talking about throughout
+- [02:40] this video. And so with that, I want to
+- [02:43] move on to the pros and cons here. I
+- [02:45] love my pros and cons list and I made it
+- [02:48] look all nice and pretty for you as
+- [02:49] well. And so I want to start with N8N,
+- [02:51] talk about the good and the bad there
+- [02:53] and then how that relates to Python. And
+- [02:55] by the way, when I say N8N versus
+- [02:57] Python, I mean more generally no code
+- [02:59] versus code, these are just the two
+- [03:01] tools that I use extensively myself and
+- [03:03] what I cover on my YouTube channel. So
+- [03:05] starting with N8N, it is both very easy
+- [03:08] to get started. The learning curve is
+- [03:10] quite small and it is a beautifully
+- [03:13] visual agent builder. So I've got a
+- [03:15] workflow up just as an example to talk
+- [03:17] about here. When I'm building with N8N,
+- [03:19] it feels like I have this canvas. It's
+- [03:22] like an art form to create my AI agents
+- [03:25] and automations. I just love how easy it
+- [03:27] is to connect my different nodes
+- [03:29] together. I can visualize the tools I
+- [03:30] have connected to my agent, for example.
+- [03:32] You definitely don't have this kind of
+- [03:35] experience when you're working with code
+- [03:37] instead. And of course, you've got your
+- [03:40] hundreds of integrations and thousands
+- [03:41] of templates to help you get started.
+- [03:43] One of the things that N8N makes so easy
+- [03:46] is integrating with your different
+- [03:47] services like my database with Postgress
+- [03:50] or Google Drive. I just go in here. I
+- [03:52] can pick from the hundreds of different
+- [03:54] integrations that we have. And then it
+- [03:56] walks me through setting up my
+- [03:57] credentials. And then boom, I'm good to
+- [03:59] go for each service in just a couple of
+- [04:01] minutes. And it's not that easy to do
+- [04:03] with code. A lot of times you find
+- [04:05] yourself rebuilding the same
+- [04:06] integrations that other people have
+- [04:08] thousands of times because it isn't just
+- [04:10] a node you can drag into your workflow.
+- [04:12] And speaking of leaning on other people,
+- [04:14] there's also thousands of templates for
+- [04:17] us to use in the N template library. No
+- [04:19] matter what you want to build or the
+- [04:21] service you want to integrate with
+- [04:22] specifically, you'll probably find
+- [04:24] something here to help you get started
+- [04:25] so you don't have to start anything from
+- [04:27] scratch. And that's part of what I do
+- [04:29] with my YouTube channel as well is
+- [04:30] sharing these templates like this one
+- [04:32] for an Aentic rag agent with knowledge
+- [04:34] graphs so that you have a place to start
+- [04:36] from. This isn't the end goal, but this
+- [04:38] is a template for you to build on top of
+- [04:40] and customize to your use case. And so
+- [04:42] there's a lot of things out there to
+- [04:44] help us do that with N8N. And also for a
+- [04:47] noode platform, N8N scales extremely
+- [04:51] well because of something called Q mode.
+- [04:53] That's definitely more advanced. I'm not
+- [04:54] going to cover that in this video
+- [04:56] extensively obviously, but like for a
+- [04:58] noode platform, N8N scales to thousands
+- [05:01] of users quite well. And also, I
+- [05:04] definitely have to call out that N8N is
+- [05:07] open- source and self-hostable, which
+- [05:09] also means we can build our AI agents to
+- [05:11] run completely locally if we're working
+- [05:12] with sensitive data or just want a very
+- [05:15] secure environment. And so, I have
+- [05:17] always appreciate N8N a lot for that.
+- [05:19] So, a lot of high praise for N8N. It
+- [05:21] really is an incredible platform, but
+- [05:23] there are unfortunately some cons that
+- [05:25] we have to cover here. First of all, N8N
+- [05:28] is 100% open- source and self-hostable,
+- [05:31] but that doesn't mean that it's free for
+- [05:33] you to commercialize your workflows. You
+- [05:35] have to pay a license fee. Now, I'm not
+- [05:38] going to do a cost breakdown right now,
+- [05:40] but definitely go research that if it
+- [05:42] applies to you. Just know that this is a
+- [05:44] big reason that I use N8N for internal
+- [05:47] tools and proof of concepts because I'm
+- [05:49] not commercializing either of those.
+- [05:51] Also with N8N we hit what I call the
+- [05:54] noode performance and noode integration
+- [05:57] box. So for performance there is an
+- [06:00] overhead for these noode platforms with
+- [06:03] these node builders. They're never going
+- [06:05] to be as efficient as directly running
+- [06:08] code. Even with a language like Python
+- [06:10] that is generally considered to be one
+- [06:12] of the slower languages, it still has a
+- [06:14] lot better efficiency compared to N8N.
+- [06:18] And then what I mean by the integration
+- [06:19] box is we are boxed in to the
+- [06:23] integrations that N8N supplies us. And
+- [06:25] sure, it's pretty fantastic how many
+- [06:28] there are overall, but it's going to get
+- [06:30] to that point where you find that one
+- [06:32] tool that you really want to use, but
+- [06:34] it's not there in the integration list.
+- [06:36] And so you have to build the integration
+- [06:38] yourself, typically with an HTTP request
+- [06:40] node. But that gets more complex. And
+- [06:43] often times, especially because of AI
+- [06:44] coding assistance, at that point it's
+- [06:46] easier to just code the solution. And
+- [06:48] even for the integrations that are there
+- [06:51] for you, they don't always have what you
+- [06:53] need. One good example is Google Drive.
+- [06:56] We're able to watch for files that are
+- [06:58] created or updated in a Google Drive
+- [07:00] folder, but not for files that are
+- [07:02] deleted. And for something like a rag
+- [07:04] pipeline where we need to keep our
+- [07:05] knowledge base in sync with Google
+- [07:07] Drive, that's actually pretty important.
+- [07:09] And so this is a good example where I
+- [07:11] had to build this workflow with a direct
+- [07:13] integration using the HTTP node to the
+- [07:15] Google Drive API to watch for files that
+- [07:17] are deleted and I have to do so
+- [07:20] periodically. It's not an ideal
+- [07:21] solution, but that's what I was forced
+- [07:23] to do with N8N. And kind of going along
+- [07:26] the same lines here, when you can't do
+- [07:28] something in N8N, a lot of times you'll
+- [07:30] resort to using code nodes, which don't
+- [07:33] get me wrong, it's fantastic that N8N
+- [07:36] gives this to us. So we can inject code
+- [07:38] anywhere in our workflows when we need
+- [07:40] some more customizability, but these
+- [07:42] code nodes are not very efficient. And
+- [07:45] because of security reasons, you're very
+- [07:47] limited to the libraries that you can
+- [07:49] import into the JavaScript or Python
+- [07:52] code nodes. And so they're fantastic.
+- [07:54] They solve the problem they aim to
+- [07:56] solve, but they're never going to be
+- [07:58] ideal. And I see these workflows all the
+- [08:00] time where they end up just being half
+- [08:02] code now. And it's like, come on, man.
+- [08:03] Why don't you just code the solution in
+- [08:05] the first place? Also, end workflows are
+- [08:08] difficult to version control. One of the
+- [08:10] beautiful things that we have with code
+- [08:12] is we can track the changes in our files
+- [08:15] over time and even revert things when
+- [08:17] the things go wrong. And that's all
+- [08:19] thanks to git. Now, we can just throw
+- [08:21] the JSON workflows for N8N in our Git
+- [08:25] repository, but JSON diffs are pretty
+- [08:29] ugly. Not to get too technical here.
+- [08:30] It's actually quite difficult to really
+- [08:32] see what has changed in your workflow
+- [08:34] over time, and it's kind of unal because
+- [08:36] you have to translate things between Git
+- [08:38] and then like bringing it back into
+- [08:40] GitHub when you want to revert something
+- [08:41] or see what you had in a previous
+- [08:43] version. And then last but not least,
+- [08:45] N8N does not work very well for large
+- [08:47] files, which is especially important for
+- [08:49] your RAG AI agents. I have had N8N
+- [08:53] choke, even with 20 megabyte PDF files,
+- [08:56] bringing it through something like a RAG
+- [08:58] pipeline. And that's even if my machine
+- [09:02] hosting NAN definitely has enough memory
+- [09:04] because there's a separate problem with
+- [09:06] node buffering. And generally what I've
+- [09:09] seen in the nan community is especially
+- [09:11] once you get to 200 megabytes for your
+- [09:13] files nan is going to choke so bad and
+- [09:15] you can handle tens hundreds of
+- [09:18] gigabytes easily in your Python code as
+- [09:20] long as you have the memory in your
+- [09:22] machine to handle that. So that's nan at
+- [09:24] a high level. There are definitely cons
+- [09:26] to code as well. So I want to cover that
+- [09:28] too. So moving over to code now I'm
+- [09:30] going to start with the cons with Python
+- [09:32] here. First of all, we obviously have a
+- [09:35] higher learning curve. Even with the
+- [09:37] help of AI coding assistance, which I
+- [09:39] cover so much on my channel nowadays,
+- [09:42] you still need to validate the code. And
+- [09:45] so, it's important for you to understand
+- [09:47] Python or really whatever language or AI
+- [09:49] agent framework you're working with. And
+- [09:51] so, it does take more to get yourself
+- [09:53] comfortable. And also, there is a higher
+- [09:57] chance of security issues. You need to
+- [09:59] know your stuff more. So, kind of
+- [10:01] related to the higher learning curve,
+- [10:02] but security I wanted to call out
+- [10:04] specifically because there's a lot that
+- [10:05] NAN handles for us with security because
+- [10:08] they manage the credentials. They help
+- [10:10] us set up the credentials like I showed
+- [10:12] earlier and so you have to worry about
+- [10:13] that less. Also, one of the biggest
+- [10:16] things with N8N is they give us the
+- [10:18] integrations ahead of time. We don't
+- [10:20] have to set up things oursel unless
+- [10:22] we're hitting the integration box. With
+- [10:24] code, that's different. Even if there
+- [10:27] are a million developers that have
+- [10:29] already set up a Google Drive
+- [10:30] integration, a lot of times you'll find
+- [10:32] yourself rebuilding it from scratch
+- [10:34] because there's no clear here's your
+- [10:36] node to dump into your workflow like we
+- [10:38] have with N8N. And then last but not
+- [10:40] least, code can often be very difficult
+- [10:43] to visualize. There are some tools to
+- [10:46] help this. For example, when I'm
+- [10:48] building my AI agents with Langraph, I
+- [10:50] have the Lang graph studio. So I can see
+- [10:52] for my multi- aent workflows, for
+- [10:54] example, here are the different agents
+- [10:56] that I have. Here's my guard rail.
+- [10:58] Here's my fallback. And I can see what
+- [11:00] my workflow looks like even as I execute
+- [11:03] it. And you have tools like Langfuse for
+- [11:05] tracing. So you can get a lot of
+- [11:08] visibility and sort of a visualization
+- [11:10] into what is going on, but it's never
+- [11:12] going to be as much of that canvas like
+- [11:15] we have with N8N. So definitely there is
+- [11:18] the advantage to no code tools there.
+- [11:20] But now we get into the pros of code.
+- [11:23] And this is where I think you'll really
+- [11:24] start to see why people will start with
+- [11:27] N8N but then move to Python for a lot of
+- [11:30] things. As much as both are fantastic
+- [11:32] because Python is where you have full
+- [11:35] control and customizability.
+- [11:37] There are limitations you'll hit with no
+- [11:39] code tools where there's just nothing
+- [11:40] you can do because when you have the
+- [11:43] code, that's when basically every
+- [11:46] possibility is open to you. Just to give
+- [11:48] one really quick example here in N.
+- [11:51] There isn't actually the idea of
+- [11:54] parallel execution. You can set up your
+- [11:56] workflow in a way where it will run two
+- [11:59] different things, but these will end up
+- [12:02] running simultaneously. Even though the
+- [12:03] workflow builder kind of makes it look
+- [12:05] like they're going to run in parallel,
+- [12:08] but in code, you can truly run things in
+- [12:12] parallel. For example, one of the AI
+- [12:14] agents that I build in the AI agent
+- [12:16] mastery course in Dynamis is this
+- [12:19] research agent that runs multiple
+- [12:21] research agents in parallel. So, for
+- [12:23] example, I can say I want to build an AI
+- [12:26] pet startup. And so, this AI agent helps
+- [12:29] me with competitor research. It helps me
+- [12:31] analyze SEO and marketing. Take a look
+- [12:34] at this. And it kicks off all of these
+- [12:36] specialized research agents at exactly
+- [12:38] the same time to help me with my
+- [12:40] request. And you can't do this in NAND.
+- [12:44] It's just not possible. But with Python
+- [12:46] and any programming language, we're able
+- [12:48] to do parallel execution. So, not only
+- [12:50] is it faster because the language itself
+- [12:52] is faster than no code tool, but also
+- [12:54] we're able to do things like parallel
+- [12:56] execution. Also, token streaming like
+- [12:58] you're seeing right here is another
+- [13:00] thing we can't do in N8N. So, just
+- [13:02] showing you a really good example of a
+- [13:03] couple of random things. You'll see this
+- [13:05] quite a bit where we have a better user
+- [13:08] experience, a better speed thanks to
+- [13:10] everything being in code. And going
+- [13:12] back, we got the better performance kind
+- [13:14] of like I've already covered. Also,
+- [13:16] access to top open-source AI tools and
+- [13:18] libraries. All these things that I've
+- [13:20] covered on my channel like graffiti for
+- [13:22] knowledge graphs, dockling for rag. We
+- [13:25] have crawl for AI for crawling websites.
+- [13:28] You can integrate these things with NN
+- [13:30] and I've shown some of that with like
+- [13:31] crawl for AI and graffiti for example,
+- [13:33] but it's a lot more difficult. It's not
+- [13:35] as simple as installing a Python
+- [13:37] package, setting up your environment
+- [13:39] variable, and then boom, you're good to
+- [13:40] go. And then the big thing that I
+- [13:42] mentioned a couple of times already is
+- [13:44] being able to use AI coding assistance
+- [13:46] because they are getting so powerful,
+- [13:49] especially tools like Codeex and Claude
+- [13:51] Code. Right now, you can build things so
+- [13:54] quickly that part of the advantage of
+- [13:56] N8N being easier to build things. That's
+- [13:59] starting to diminish just thanks to AI
+- [14:01] coding assistance. Also, code is always
+- [14:04] going to scale better even though Q mode
+- [14:07] is really nice for N8N. We can also run
+- [14:09] our agents locally. So, everything can
+- [14:12] be open source with Python assuming
+- [14:14] you're using the right tools. But then
+- [14:15] also there's no license concerns also
+- [14:18] assuming you are using the right tools.
+- [14:20] And then of course we've got version
+- [14:21] control with Git. So it's just a lot
+- [14:23] easier to manage our different
+- [14:25] environments, having backups and being
+- [14:27] able to revert to different versions of
+- [14:29] our code, the kinds of things that it's
+- [14:31] just not as realistic with our no code
+- [14:34] tools. So there you go. That was a lot
+- [14:36] of detail on the pros and cons of both,
+- [14:39] but I wanted to be very specific for you
+- [14:41] so that you can take what I said here.
+- [14:44] Think for yourself how it applies to
+- [14:46] your own use cases. Make the decision
+- [14:48] for you. And the last thing that I'll
+- [14:51] leave you with to consider is the hybrid
+- [14:54] approach. You don't have to just pick
+- [14:57] N8N or just pick Python. You can for
+- [15:00] example use N8N for the orchestration
+- [15:02] all of the entry points and integrations
+- [15:04] for your applications but then offload
+- [15:06] the heavy processing like your agents
+- [15:09] chunking for rag the data set handling
+- [15:11] for those larger files you can give that
+- [15:13] all to external Python microservices and
+- [15:15] even deploy both of the things together
+- [15:18] Python and N8N on the same instance in
+- [15:20] the cloud and I've even shown that on my
+- [15:22] channel before like with my graffiti MCP
+- [15:25] server video for example because then
+- [15:27] you can take advantage of the pros and
+- [15:29] cons of both platforms, using them
+- [15:31] together, relying on their strengths.
+- [15:34] So, I hope this video has been very
+- [15:36] helpful for you to help you make that
+- [15:38] allimportant decision that will apply no
+- [15:40] matter what you are building. And of
+- [15:42] course, let me know in the comments if
+- [15:43] you agree with what I'm covering here or
+- [15:45] if you think there are some nuances that
+- [15:47] I should be covering or anything that
+- [15:48] I've missed. And with that, if you
+- [15:51] appreciated this video and you're
+- [15:52] looking forward to more things on AI
+- [15:54] agents, I would really appreciate a like
+- [15:55] and a subscribe. And with that, I will
+- [15:57] see you in the next

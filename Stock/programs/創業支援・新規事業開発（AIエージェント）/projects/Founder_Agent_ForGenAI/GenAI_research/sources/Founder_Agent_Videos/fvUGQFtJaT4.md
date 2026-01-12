@@ -1,0 +1,384 @@
+---
+title: "Okay. So, if you're building a business of any kind where you're doing some kind of manufacturing or..."
+video_id: "fvUGQFtJaT4"
+video_url: "https://www.youtube.com/watch?v=fvUGQFtJaT4"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Okay. So, if you're building a business
+  of any kind where you're doing some kind
+  of manufacturing or providing a service,
+key_points:
+  - "quickly is that you need to develop a"
+  - "Basically, this is like a list of what"
+  - "in this video I want to talk about how"
+  - "some of the big companies are now"
+  - "tasks. We're seeing this in a number of"
+  - "one I'm going to talk about in this"
+  - "video is something that Anthropic just"
+  - "are ways of giving your agents a set of"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: fvUGQFtJaT4
+
+- URL: https://www.youtube.com/watch?v=fvUGQFtJaT4
+- Retrieved at: 2025-12-30T14:37:50+09:00
+
+## Text
+
+- [00:00] Okay. So, if you're building a business
+- [00:02] of any kind where you're doing some kind
+- [00:05] of manufacturing or providing a service,
+- [00:08] one of the things that you learn quite
+- [00:10] quickly is that you need to develop a
+- [00:12] set of standard operating procedures.
+- [00:15] Basically, this is like a list of what
+- [00:18] needs to get done in what order to what
+- [00:21] sort of quality. In my 20s, I built a
+- [00:24] company that did manufacturing of CDs
+- [00:26] and CDRs and DVDRs. And we had a whole
+- [00:30] bunch of different SOPs for everything
+- [00:33] from the design of the packaging right
+- [00:36] through to the requirements that we'd
+- [00:37] give the factory when they were doing
+- [00:39] manufacturing. And even things like the
+- [00:41] cartoon boxes that we shipped all the
+- [00:43] products in had to be custom made so
+- [00:46] that they would have our logo on it and
+- [00:48] stuff like that. The good thing was once
+- [00:50] we had the SOPs then it was very easy to
+- [00:52] be able to just put in orders and make
+- [00:55] the whole thing kind of run itself. Now
+- [00:58] in this video I want to talk about how
+- [00:59] some of the big companies are now
+- [01:01] getting agents to adopt standard
+- [01:04] operating procedures for different
+- [01:07] tasks. We're seeing this in a number of
+- [01:09] different places at the moment. The main
+- [01:11] one I'm going to talk about in this
+- [01:12] video is something that Anthropic just
+- [01:15] announced called skills. But I'm also
+- [01:17] going to touch on the claude code
+- [01:19] plugins and the Gemini CLI extensions.
+- [01:22] In many ways, all three of these things
+- [01:25] are ways of giving your agents a set of
+- [01:28] standard operating procedures that they
+- [01:30] can follow to do the different tasks
+- [01:32] that you want them to do. So, I think
+- [01:34] it's no surprise at this point that the
+- [01:36] quality of your agents and the quality
+- [01:39] of your output from any LLM is going to
+- [01:42] be about the context that you put into
+- [01:45] this. Right? Lots of people have been
+- [01:47] talking about context engineering and
+- [01:49] really this goes back a few years,
+- [01:50] right? These models are basically doing
+- [01:53] a conditional probability where they're
+- [01:56] conditioning on whatever you put into
+- [01:58] them. So the better the quality of the
+- [02:00] context that you're inputting to the LLM
+- [02:03] or to your agent, the better the quality
+- [02:06] you're actually going to get out. So
+- [02:08] just like humans need SOPs to reduce
+- [02:11] variability, agents need them even more.
+- [02:14] And you can kind of think of this as a
+- [02:16] sort of core pattern of where you've got
+- [02:18] inputs coming in going through a series
+- [02:20] of steps having key decision points
+- [02:24] using tools having some kind of output
+- [02:27] and then perhaps even having a
+- [02:28] verification at the end to check the
+- [02:31] output is actually what was supposed to
+- [02:33] be produced. So if we jump into the
+- [02:36] anthropic announcement, they're talking
+- [02:38] here about Claude skills. And
+- [02:41] interestingly, this is something that is
+- [02:43] not only for the Claude chat online
+- [02:47] interface. This is also something you
+- [02:49] can use with the API. So it really shows
+- [02:52] that they're seeing that this is sort of
+- [02:53] like a key fundamental thing for people
+- [02:56] building better agents and better
+- [02:58] workflows for using the anthropic
+- [03:00] models. So what actually is a skill
+- [03:03] here? Skills are folders that include
+- [03:05] instructions, scripts, and resources
+- [03:08] that Claude can load when needed. Claude
+- [03:11] will only access the skill when it's
+- [03:13] relevant. Now, they've made a bunch of
+- [03:15] pre-made skills for things like working
+- [03:17] with Excel files, creating
+- [03:19] presentations, formatting documents, and
+- [03:21] stuff like that. And if you think about
+- [03:24] it, you can look at this as part of the
+- [03:26] original MCP spec. Most people focus on
+- [03:29] MCPs purely as API calls or data
+- [03:33] ingestion, but there's a third thing in
+- [03:36] there for context of sort of prompts and
+- [03:39] being able to access and pull back
+- [03:41] prompts to go into the model context. In
+- [03:44] many ways, you could think of this as
+- [03:46] making a new way to do that kind of
+- [03:48] task. All right, so they talk about how
+- [03:51] skills work that basically it will scan
+- [03:54] for any relevant matches. Now, they
+- [03:56] don't tell us how they're doing this,
+- [03:58] whether this is done with some kind of
+- [04:00] similarity check between what you type
+- [04:02] in and what your skills are called, etc.
+- [04:06] But they do tell us that the skills are
+- [04:08] composable, that they can stack
+- [04:10] together, that they're portable, so that
+- [04:12] once you've got them, you can use them
+- [04:14] not only in the sort of Claude apps, but
+- [04:17] you can use them in Claude code, you can
+- [04:18] use them with the API as well. And
+- [04:21] clearly they've put a bit of effort into
+- [04:23] how Claude is going to actually decide
+- [04:26] which skill to use by talking about that
+- [04:28] these only get loaded when they're
+- [04:31] actually needed. So if you come into the
+- [04:33] Claude settings, you can actually go to
+- [04:35] the capabilities and they've got a bunch
+- [04:38] of these already pre-made there. And one
+- [04:40] of them is a skill creator. So this is
+- [04:43] kind of cool that they've got a skill to
+- [04:46] actually help you make skills. And so
+- [04:48] the skill creator, it's basically its
+- [04:50] job is to help you provide interactive
+- [04:52] guidance for you to design a workflow,
+- [04:56] design something, and then it's going to
+- [04:58] work out that folder structure and
+- [05:01] create what they call the skill MD file.
+- [05:03] So that's going to be one of the key
+- [05:05] things that sort of directs what the
+- [05:06] actual steps will be, what the syntax
+- [05:09] will be, any how it's going to use any
+- [05:11] tools. And in many ways, this is kind of
+- [05:13] similar to things that we've seen with
+- [05:15] coding for quite a while, right? We've
+- [05:17] had things like agents.md
+- [05:20] cursor has had their own sort of custom
+- [05:23] instructions. Pretty much every coding
+- [05:25] agent now has a way of you sort of
+- [05:28] preloading a bunch of custom
+- [05:29] instructions in there. So the cool thing
+- [05:31] is this skill will actually help you to
+- [05:34] make more skills. But that said, you can
+- [05:37] go through it and do it yourself. So
+- [05:39] like I mentioned early on, one of the
+- [05:41] other things that's really interesting
+- [05:42] about this is this is not just for their
+- [05:44] sort of claude chat UI. This is going to
+- [05:48] be available in the API as well. So they
+- [05:51] talk about that agent skills, which we
+- [05:52] often refer to as simply skills, can now
+- [05:55] be added to the messages API requests
+- [05:58] and they've got a whole endpoint for
+- [05:59] doing that and the code execution tool
+- [06:02] at the back to be able to use those as
+- [06:05] well. And with things like this, we're
+- [06:07] actually starting to see quite a bit of
+- [06:09] divergence between the actual LLM
+- [06:12] providers APIs. So, we've got all the
+- [06:15] main foundation model providers actually
+- [06:17] updating how their APIs work to be able
+- [06:20] to work better with their background
+- [06:24] tools and the tools that they're adding
+- [06:26] on to the API that they will run
+- [06:28] themselves. For example, the Gemini API
+- [06:30] has Google search, etc. So on top of
+- [06:33] them talking about this for the consumer
+- [06:34] stuff, they've also outlined how this
+- [06:37] can actually be sort of used for agents.
+- [06:41] And you can see here this whole idea of
+- [06:42] the agent configuration where it's going
+- [06:45] to basically have skills equipped for
+- [06:48] different things and it's going to have
+- [06:50] different MCPs that it can connect to.
+- [06:53] And you can see here that it's using
+- [06:55] back-end code execution to be able to
+- [06:57] access different folders in that skills
+- [07:00] directory for things like being able to
+- [07:03] format documents in a certain way to be
+- [07:06] able to deal with PDFs to be able to use
+- [07:08] a database like BigQuery etc. And when
+- [07:11] we're looking at this, there's more
+- [07:12] detail about the actual anatomy of a
+- [07:15] skill and of the skill MD file that it
+- [07:18] will have basically a name, a
+- [07:20] description, and you can see in many
+- [07:22] ways there are elements in here that
+- [07:24] similar to the whole sort of prompt
+- [07:27] layer of MCPS. They have some nice
+- [07:30] examples in here of some different
+- [07:32] skills of how you can do things like
+- [07:34] bundling additional content that can be
+- [07:37] used and loaded just when it's needed
+- [07:39] and even showing you how this stuff
+- [07:41] actually gets used in the actual context
+- [07:44] window when combined with things like
+- [07:45] tools and other MCPs etc. Now in many
+- [07:48] ways this is also similar to what
+- [07:50] they're doing with claude code plugins
+- [07:52] and what Google is doing with the Gemini
+- [07:54] CLI extensions. You want to package up
+- [07:57] things as these sort of skills. Now, for
+- [08:00] the CLI code tools, that's going to
+- [08:03] include things like sub aents, slash
+- [08:06] commands, MCP servers, and it's probably
+- [08:08] a lot more detailed and intense, but
+- [08:11] fundamentally, it's still the same idea
+- [08:13] of getting the best context into the
+- [08:16] actual model when you need it to be able
+- [08:19] to produce the output that you want. So,
+- [08:22] it is interesting to see as we go
+- [08:23] forward with this, the whole idea of
+- [08:25] plug-in marketplaces or you could almost
+- [08:27] think of these as context window
+- [08:29] marketplaces where people can make a
+- [08:32] whole bunch of different things that you
+- [08:33] can package up and serve through. And it
+- [08:36] also is developing this idea of where
+- [08:39] these chat platforms like your Claude
+- [08:43] chat, your Gemini chat, your chat GPT,
+- [08:46] etc. are becoming full-on platforms that
+- [08:49] can host apps and can be able to do a
+- [08:51] whole bunch of different agentic tasks
+- [08:54] for you. We saw that as part of the
+- [08:56] announcement that OpenAI introduced
+- [08:58] recently at their dev day for apps. And
+- [09:01] one thing to note here is that this is
+- [09:03] not just one of the foundation model
+- [09:06] companies doing this. They're all
+- [09:07] jumping on the bandwagon. You're tending
+- [09:10] to see OpenAI, Google, and Anthropic all
+- [09:13] be moving in the same direction here.
+- [09:16] And then other providers like Mistral
+- [09:18] and perhaps some of the Chinese
+- [09:19] companies sort of fast following with
+- [09:22] integrating a lot of these ideas into
+- [09:24] their platforms as well. So just to
+- [09:26] finish up, I would say go and check out
+- [09:27] the Claude skills and if you've got
+- [09:30] access to it, go into the Claude chat
+- [09:32] and actually try getting it to make
+- [09:34] something. Like you can see here, I'm
+- [09:35] just saying, okay, take my YouTube
+- [09:37] transcripts and turn it into LinkedIn
+- [09:39] content. It will walk you through a
+- [09:41] bunch of different steps before it comes
+- [09:43] to the final sort of output. And you can
+- [09:45] see, interestingly, it's obviously knows
+- [09:47] what you've got connected that I have
+- [09:49] notion connected to this. So, you will
+- [09:52] have to correct it and guide it in the
+- [09:54] way that you want to. But the cool thing
+- [09:56] is you can then take that skill and put
+- [09:58] in your own custom prompts. You can do a
+- [10:00] whole bunch of different things to
+- [10:02] create your own standard operating
+- [10:04] procedures for using these platforms.
+- [10:08] The platform is no longer just a chat
+- [10:09] app. It's really a set of personal
+- [10:11] agents that you can use. All right. So,
+- [10:14] after I recorded the video, I found some
+- [10:16] other really interesting things in here.
+- [10:18] The first one is the best practices. If
+- [10:20] you go through this deeply, you see a
+- [10:23] lot of interesting things about
+- [10:25] conserving tokens. They've got this
+- [10:27] example of basically getting the extract
+- [10:29] PDF out of using approximately 50 tokens
+- [10:33] and they talk about using this as
+- [10:35] opposed to using something too verbose
+- [10:38] in here. I also find it interesting that
+- [10:41] if you know how to write code perhaps
+- [10:43] writing some code to put in these things
+- [10:45] or when you're making it with their
+- [10:47] skill for making skills that putting
+- [10:50] code into this actually seems to work
+- [10:52] more than just writing plain English.
+- [10:54] The other thing that's really
+- [10:55] fascinating is they've now got this repo
+- [10:58] of skills up and that's got a whole
+- [11:00] bunch of different skills that they made
+- [11:02] themselves. So you can see their skill
+- [11:05] creator in here. We can see the skill MD
+- [11:08] talking about how it does everything,
+- [11:11] what the process is, and we can see
+- [11:13] that's reasonably long. And we can see
+- [11:15] that they've got Python code in here for
+- [11:18] doing the packaging of this, doing the
+- [11:21] validation of this, etc. The other thing
+- [11:23] that I found really interesting is the
+- [11:25] license. For some of these, you'll see
+- [11:27] there's Apache 2 licensed, which is what
+- [11:30] I would expect this to be. But if we
+- [11:33] come in and look at some of the others,
+- [11:34] like in the document skills, Excel file
+- [11:37] stuff, we see this is not Apache
+- [11:39] license. This is strictly copyright of
+- [11:42] anthropic and all rights reserved. It
+- [11:45] does seem that they're planting a flag
+- [11:47] here that they don't want other
+- [11:49] providers ripping off these and putting
+- [11:52] them into their own take on this kind of
+- [11:55] thing. But if you do want to get into
+- [11:56] this, this repo is definitely worth
+- [11:59] checking out to actually see how they're
+- [12:01] doing a bunch of different things in
+- [12:03] here for things like brand guidelines, a
+- [12:06] whole bunch of things around the
+- [12:07] documents, MCP builders, skill creators,
+- [12:11] etc. My guess is that going forward we
+- [12:14] will have repos of awesome skills.
+- [12:17] That's something you could imagine we're
+- [12:19] going to start seeing reasonably quickly
+- [12:21] where people are actually going to start
+- [12:23] putting this kind of thing up. Anyway,
+- [12:26] let me know in the comments what is the
+- [12:27] most unusual thing you could be using
+- [12:30] this for. Do you have standard operating
+- [12:32] procedures or things that perhaps are
+- [12:34] not obvious? I feel like we've seen the
+- [12:36] whole repurposing of content or writing
+- [12:38] tweets, but my guess is that there's
+- [12:40] probably a lot of really cool things
+- [12:41] people are doing that are not obvious.
+- [12:44] And I would say also that if you want to
+- [12:47] protect your skills, you may want to
+- [12:49] consider turning off allowing Anthropic
+- [12:52] to train on these skills. I'm sure part
+- [12:54] of their goals for improving the Claude
+- [12:57] models is to get as many skills so that
+- [12:59] they can work out what are the key
+- [13:01] things they need to be training the
+- [13:02] models for. So, let me know what unusual
+- [13:05] SOPs or unusual things you're doing with
+- [13:08] these platform agents and where you
+- [13:11] would like to see this go in the future.
+- [13:13] Anyway, and as always, if you want to
+- [13:15] see more videos like this, please click
+- [13:17] like and subscribe. I will talk to you
+- [13:18] in the next video. Bye for now.

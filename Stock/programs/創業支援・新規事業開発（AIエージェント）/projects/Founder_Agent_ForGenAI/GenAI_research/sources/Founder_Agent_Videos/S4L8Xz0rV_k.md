@@ -1,0 +1,723 @@
+---
+title: "Transcript: S4L8Xz0rV_k"
+video_id: "S4L8Xz0rV_k"
+video_url: "https://www.youtube.com/watch?v=S4L8Xz0rV_k"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:20:42"
+tags:
+  - "AI"
+  - "Agents"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: S4L8Xz0rV_k
+
+- URL: https://www.youtube.com/watch?v=S4L8Xz0rV_k
+- Retrieved at: 2025-12-30T10:52:11+09:00
+
+## Text
+
+- [00:00] Today, we're going to build an OpenAI
+- [00:02] agent that has a real use case. So, no,
+- [00:04] don't worry. We're not just going to get
+- [00:05] the weather or a travel itinerary. I'm
+- [00:07] going to show you a real use case using
+- [00:08] OpenAI agents. And today's video is
+- [00:10] sponsored by Zavier because they hit me
+- [00:12] up and they're like, Corbin, we need to
+- [00:13] show the internet how to actually
+- [00:14] leverage this for something we can use
+- [00:16] day-to-day. And I'm like, you know what?
+- [00:17] I got you. Let me show you this powerful
+- [00:19] workflow. And the workflow we're going
+- [00:20] to use today is going to be able to
+- [00:22] provide any YouTube link found on the
+- [00:24] internet. We're going to be able to ask
+- [00:25] questions for it. We're going to build a
+- [00:26] custom widget for it. Watch this
+- [00:28] preview. I'm going to take this video
+- [00:30] right here that shows how to use OpenAI
+- [00:31] agents in 60 minutes. I'll simply put in
+- [00:34] the prompt, what are the three main
+- [00:35] points about this video, put the link,
+- [00:38] enter, and the best part is this bot is
+- [00:40] free form. We could ask anything, key
+- [00:42] points, give me X tweets, give me a
+- [00:44] blog, what is the best part of this
+- [00:45] video. Give me the top 10 quotes,
+- [00:47] anything, y'all. So, first, our YouTube
+- [00:48] bot is going to analyze it. And boom, we
+- [00:51] got the three main points from that
+- [00:53] video. The content introduces OpenAI
+- [00:54] agent builders. We walk through a
+- [00:56] practical workflow. And the content
+- [00:58] highlights the limitations and next
+- [00:59] steps in regards to errors you could
+- [01:01] experience with the agent builder. And
+- [01:02] then look at this. We created a custom
+- [01:04] widget that takes the data of the
+- [01:06] YouTube thumbnail, the data of the
+- [01:08] YouTube title, and the duration of that
+- [01:09] video and put it all in a nice little
+- [01:11] chat output. Let's find out how to do
+- [01:12] this. So to start, we're going to come
+- [01:14] over to our agent builder. We're going
+- [01:15] to hit create. This is where we're going
+- [01:17] to build our little YouTube bot. And
+- [01:19] this is going to transform into a bigger
+- [01:20] series found on this channel. So make
+- [01:22] sure to go to my playlist here. I'm
+- [01:23] going to show you how to take this code
+- [01:25] and actually push it using chatkit to a
+- [01:27] real website or software. For now, let's
+- [01:29] actually build out the workflow. So,
+- [01:30] first things first is our first little
+- [01:32] agent block here is going to be the data
+- [01:34] grabber or we can just call it YouTube
+- [01:37] helper. So, because our main use case,
+- [01:39] at least for this workflow, is to
+- [01:41] essentially grab what the user wants to
+- [01:43] learn about the video and the video
+- [01:45] itself. That's all we're going to care
+- [01:46] about with this first agent. We'll go
+- [01:48] ahead and use this prompt. I'm going to
+- [01:49] expand like this. The prompt is this.
+- [01:52] You are a payload formatter. If you're
+- [01:53] asking yourself, Corbin, what the heck
+- [01:55] does payload formatter mean? Payload is
+- [01:58] a developer term for essentially just
+- [02:00] data being sent between different
+- [02:01] softwares. To put it simply, if I save a
+- [02:04] variable called X equals bananas and
+- [02:07] cheese and it's a string that could be
+- [02:08] in a payload. This will make more sense
+- [02:10] as we get going here. User will provide
+- [02:11] the YouTube URL and set it as a JSON
+- [02:14] schema for URL. This will make sense as
+- [02:16] we'll set it together here. And then the
+- [02:18] user will ask a question about the video
+- [02:20] and set that for the prompt. You might
+- [02:22] be asking yourself, Corbin, why did you
+- [02:24] identify setting, right? This is how
+- [02:26] we're going to set up variables so it's
+- [02:28] dynamic. So anytime we start a new
+- [02:30] session with our chatbot, it will set it
+- [02:32] for the new YouTube URL or the new user
+- [02:34] message that we're calling prompt. Let's
+- [02:36] save. What's fundamentally important for
+- [02:38] you to understand now is we're going to
+- [02:39] use the JSON as the output. Here's the
+- [02:41] situation. There's a ton of models. If
+- [02:44] you're just starting out in the OpenAI
+- [02:46] agent workflow builder, Steco DBT5, it's
+- [02:49] a nice little one-sizefititall. What's
+- [02:51] really important for you to understand
+- [02:53] though is this reasoning effort. The use
+- [02:55] case of the agent behind me is its sole
+- [02:57] purpose is just to extract data from our
+- [03:00] message. Hey, check out this YouTube
+- [03:02] video. Here's the link. Here is what I
+- [03:05] want to know. What is the best thing
+- [03:07] about this video? It's just grabbing
+- [03:09] that data and formatting it. Therefore,
+- [03:11] for the reasoning effort, we can use
+- [03:13] low. Why do we use low? It's faster.
+- [03:15] It's going to just put in and out. We
+- [03:17] don't need the bot to like look at the
+- [03:19] YouTube link and be like, "It's a cool
+- [03:21] YouTube link." No, we don't care. Just
+- [03:23] grab the YouTube link and set it. So,
+- [03:24] we're going to say low here. We're going
+- [03:26] to add a schema. Typically, with schema,
+- [03:28] we can go with either advanced, which is
+- [03:30] quite literally the code, or simple. We
+- [03:32] can stay with simple. So, first thing is
+- [03:34] that we need to name our payload, our
+- [03:36] little present that we're going to give
+- [03:37] to the other agents. I'm going to name
+- [03:39] this payload just like YouTube or let's
+- [03:41] say user data. And the user data we care
+- [03:44] about is going to be the relevant URL
+- [03:46] that they're providing us. We're going
+- [03:48] to set this as a string. All a string is
+- [03:50] is quite literally just text, right?
+- [03:52] Just characters of text. That's all a
+- [03:54] string is. Why do you call it a string,
+- [03:55] Corbin? Because you know what? I call it
+- [03:57] a string. Okay. The next one we're going
+- [03:58] to add here is going to be prompt. And
+- [04:00] then this is going to be a string as
+- [04:01] well. Now, obviously, whatever your
+- [04:03] specific use case is or whatever data
+- [04:04] you want to extract in this kind of
+- [04:06] function, maybe you want to set a
+- [04:08] number. Maybe what's important to you is
+- [04:10] that from the conversation you're having
+- [04:12] with the user, the user is like, "Hey,
+- [04:14] my company size is 20 employees." And
+- [04:16] then you want to use that later in your
+- [04:18] workflow. Therefore, in that context,
+- [04:20] you would set this to employees, but you
+- [04:21] want to set the type to number. Now, the
+- [04:23] reason type even exists here and why
+- [04:25] it's being shown is because in real
+- [04:27] code, it has implications. And
+- [04:29] obviously, we're dealing with a
+- [04:30] developer heavy drag and drop builder.
+- [04:33] It has implications when you send a
+- [04:35] payload, which you'll see pretty soon
+- [04:36] here in like a third party app, how
+- [04:38] you're identifying that payload. If, for
+- [04:40] example, I were to set this to number,
+- [04:42] but in reality, when you receive and
+- [04:44] handle the data, it's not a number. This
+- [04:46] could cause errors and breaks in your
+- [04:48] workflow. Put simply, this for the type,
+- [04:51] use a chat GBT chat, use a claw chat,
+- [04:53] use a Gemini chat. Identify that you're
+- [04:55] using the correct type so you don't run
+- [04:56] into dumb errors where everything is
+- [04:58] perfect. is all perfect. But then the
+- [05:00] only issue you had was just that little
+- [05:02] thing of just instead of string, you put
+- [05:03] number. That has real implications. All
+- [05:05] I care about though is URL and prompt.
+- [05:07] Later in this video, we're going to go
+- [05:09] over why I named it prompt and why I
+- [05:11] named it URL. That actually there's a
+- [05:13] reason behind that. We're going to say
+- [05:14] update. So perfect. We have our YouTube
+- [05:16] helper. We have the user data behind my
+- [05:18] head. We can go ahead and test this. So
+- [05:20] I'm going to hit preview here and we'll
+- [05:21] put in that same little prompt we had
+- [05:23] earlier. So I'm going to go ahead and
+- [05:24] just put in best part about this video.
+- [05:25] And what we care about right now is that
+- [05:27] it's going to put that YouTube URL in
+- [05:29] the URL parameter. It's going to put
+- [05:31] that best part of this video in the
+- [05:33] prompt parameter. And as you see here,
+- [05:35] it does. Boom. If you want to double
+- [05:37] check that, you go to evaluate here. You
+- [05:39] go to the most recent run and post
+- [05:41] response. Scroll down here. And perfect.
+- [05:44] It has formatted the data correctly to
+- [05:46] URL URL prompt prompt. This is important
+- [05:49] for you to understand because
+- [05:50] essentially what's happening here is
+- [05:51] that it's taking our like I'm just
+- [05:53] texting you dictation like when as a
+- [05:55] user when I'm just messaging chat GBT
+- [05:57] this is taking that kind of information
+- [05:59] and making it legible for the AI to read
+- [06:02] in a structured way. That's why we do
+- [06:03] stuff like this. It's why there's a
+- [06:04] little curly bracket here. If I'm
+- [06:06] sending you a text and I send you a text
+- [06:08] with a curly bracket, you might be like
+- [06:09] Corbin not an AI. My bad. No curly
+- [06:11] bracket. So now that we prove this
+- [06:13] little data extractor works and you can
+- [06:15] apply this kind of logic elsewhere, I'm
+- [06:16] going to show you something very
+- [06:17] fundamentally important for you to
+- [06:19] understand on how to pass data in very
+- [06:20] complex workflows that get very large.
+- [06:23] Because one thing you'll notice that can
+- [06:24] get very frustrating is if I'm creating
+- [06:26] a workflow here and I take this data and
+- [06:28] I pass it to this agent, you'll notice
+- [06:30] that when I create other agents in the
+- [06:32] workflow, I'm not able to pass the data
+- [06:34] found here simply. Let me show you how
+- [06:37] to do that. We're going to delete this
+- [06:38] agent. You see this little thing called
+- [06:39] set state? Oh yeah, this is important.
+- [06:41] We're going to grab it. I'm going to
+- [06:42] connect it. And what we're going to do
+- [06:43] here is this. Actually, before we do
+- [06:45] that, because of the fact that we're
+- [06:47] going to be using a thirdparty
+- [06:48] integration here of bumpups, which is
+- [06:50] what's going to allow us to extract
+- [06:52] information from the YouTube video, we
+- [06:54] need to understand what we need to send
+- [06:56] to this thirdparty integration of
+- [06:58] bumpups to even get data from that
+- [07:00] YouTube link, which we will then parlay
+- [07:02] with Zapier MCP. So, it's a very simple
+- [07:05] plug-and-play integration. So, we're
+- [07:06] going to come back to our YouTube helper
+- [07:08] real quick. I'm going to go to the user
+- [07:09] data. And the reason I chose URL and
+- [07:11] prompt for the naming is going to make a
+- [07:13] lot more sense. Now coming over to
+- [07:14] Bumpup's API, the specific request we're
+- [07:16] making here is called chat. And what
+- [07:18] chat allows us to do is it allows us to
+- [07:20] provide any YouTube link found on
+- [07:22] YouTube and simply prompt it, ask
+- [07:25] specific questions for it. Now, there's
+- [07:27] other features here that we could
+- [07:28] leverage within Zapier MCP that might be
+- [07:30] interesting to add to this bot, such as
+- [07:32] generating timestamps for the video, but
+- [07:34] for this video specifically, we're just
+- [07:36] going to worry about the chat. Now, what
+- [07:37] I want you to notice and why it's
+- [07:38] important for you to see it in this use
+- [07:40] case is this applies to really any type
+- [07:43] of logic that you'll integrate within
+- [07:45] Zapier. Whether it's Gmail, whether it
+- [07:47] is Slack, every single one of these
+- [07:49] softwares has their own relevant API
+- [07:52] documentation. So, for example, if we're
+- [07:54] sending a payload in Slack, same
+- [07:55] situation. These are the relevant data
+- [07:57] points that we care about, channel and
+- [07:59] text. Now, coming over to Bumpup's API,
+- [08:01] you can kind of get an idea of what data
+- [08:03] is required in order for it to execute.
+- [08:05] Now, in reality, for a chat endpoint for
+- [08:08] bumpups to execute, it only really
+- [08:10] requires the YouTube URL, but we can set
+- [08:12] these other things called variables or
+- [08:14] parameters in the call. The steps and
+- [08:16] processes I'm about to show you applies
+- [08:17] to any software, any API, and
+- [08:19] fundamentally, it's going to allow you
+- [08:20] to do any third party integration. So,
+- [08:22] this might be a little confusing at
+- [08:23] first, but it's going to literally be
+- [08:24] crystal clear by the end of this video.
+- [08:26] So, notice this. We have the URL, we
+- [08:28] have the prompt bumps API. Oh, it's
+- [08:31] calling it the URL and prompt here. What
+- [08:34] other things can we pass or pieces of
+- [08:36] data that we can send? The model, the
+- [08:38] language, and output format. So, let's
+- [08:40] go ahead and add those. So, I'm going to
+- [08:41] go to model, add property, model. And
+- [08:43] what you'll notice is, okay, Corin, but
+- [08:45] how do I know if this is a string,
+- [08:46] number, bull? Go back to the
+- [08:47] documentation. And what documentation
+- [08:49] does is it will actually tell you. So,
+- [08:51] yes, this says string here, but I
+- [08:52] realize it says enum there. So,
+- [08:54] therefore, I'm going to select enum
+- [08:56] here. And what you'll notice is that
+- [08:58] it's going to show up like a little
+- [08:58] pill. So, do bump-.0.
+- [09:01] There we go. And you might be saying,
+- [09:02] Corbin, how you know it's bump 1.0? No,
+- [09:04] it's because it identifies here and you
+- [09:06] also notice it in the payload here.
+- [09:08] Nice. We can add another property here.
+- [09:09] The other property we can add is
+- [09:11] language. And the reason I'm showing you
+- [09:12] all this is because even though it says
+- [09:15] clearly in documentation that this is
+- [09:17] not required for it to work, you may
+- [09:19] want to have the little nuance of this
+- [09:21] stuff when you do your third party
+- [09:22] integrations. For example, language. If
+- [09:24] you want the output not to be in
+- [09:26] English, maybe you want it in Spanish,
+- [09:28] then you can set it here. But for now,
+- [09:29] we'll do English. And for the last
+- [09:31] property here, we have output format,
+- [09:33] whether it's text or markdown. So we can
+- [09:35] just simply go here, output format,
+- [09:37] paste it, and simply put enum enum. And
+- [09:41] I'm going to put text. I'll hit update.
+- [09:42] And now what we did here is we created a
+- [09:45] nice little format, user data here
+- [09:47] that's going to be able to be sent here.
+- [09:49] If you're following along up to this
+- [09:50] point and you're like, I kind of get it,
+- [09:51] Corbin. This is kind of cool, but this
+- [09:53] is starting to get a little confusing.
+- [09:54] What I suggest you to do is literally
+- [09:56] just follow this video to a tea. do
+- [09:58] every single thing I'm doing with me and
+- [10:00] then the dots will connect so much
+- [10:02] easier. We're going to set the state
+- [10:03] here. This is going to allow us to use
+- [10:04] the data that we grabbed in YouTube
+- [10:06] helper and pass it throughout this
+- [10:08] workflow. This is a fundamental skill in
+- [10:09] OpenAI agent builders that you can use
+- [10:11] for any context. So, we're going to do
+- [10:12] assign a value here. So, the first value
+- [10:14] we're going to assign and if this little
+- [10:16] boxes show up, just put like in it'll
+- [10:17] show up then is going to be the URL. So,
+- [10:20] we're going to do URL and then we're
+- [10:21] going to do two variables. So, we're
+- [10:22] going to set this. We're going to make
+- [10:23] it equal something. We're say add
+- [10:24] variable and then I'm just going to call
+- [10:26] this YouTube URL. Save. Then we're going
+- [10:29] to add another one and we're going to do
+- [10:30] I again. And then we're going to put
+- [10:31] prompt. And then for the add variable,
+- [10:34] we shall do prompt. What are you
+- [10:36] noticing here? Essentially, we are just
+- [10:38] mapping the data found in YouTube helper
+- [10:40] and we're mapping it here. The reason
+- [10:42] we're mapping it is so we can use it
+- [10:43] through the workflow. Next, we're going
+- [10:44] to do model. And with the model, we're
+- [10:46] going to say add variable again. And
+- [10:47] we're just going to call it model. We
+- [10:48] can call this the same thing. And I
+- [10:50] encourage you to call it the same thing
+- [10:52] so that you don't get confused later on
+- [10:54] in the workflow where it's like the data
+- [10:56] for language and then you set the
+- [10:57] variable name to like cheese, you're
+- [10:59] going to get confused. So just I would
+- [11:00] suggest just calling it the same thing,
+- [11:02] language. Not again. And then something
+- [11:04] I've noticed that's been happening at
+- [11:05] least in the early days of the agent
+- [11:06] builder. So this might not happen by the
+- [11:08] time you watch this video is sometimes
+- [11:09] it would do like input output text but
+- [11:11] then not do the correct next. And then
+- [11:13] we're going to add variable here called
+- [11:15] output format. Perfect. So let me speak
+- [11:18] in very simple terms here of what we
+- [11:20] just accomplished together. Essentially
+- [11:21] what we just accomplished together is
+- [11:23] we've created an AI agents which sole
+- [11:25] focus is to handle extraction of data
+- [11:28] and structuring of data. Very
+- [11:29] fundamental skill. The next thing we
+- [11:30] just learned how to do is how to set
+- [11:32] these as variables and this data as
+- [11:34] variables so we can use it throughout
+- [11:36] our entire workflow. This workflow today
+- [11:38] is on the simpler side but in more
+- [11:39] complex workflows this is a huge unlock.
+- [11:41] Let's do our next agent here. This agent
+- [11:43] is going to be the YouTube bot. So I'm
+- [11:45] going to call it YTbot. So the first
+- [11:47] thing we're going to do with YTBot is
+- [11:48] we're going to add tools and we're do
+- [11:50] MCP server. Server we're going to use is
+- [11:52] going to be Zap year. We're going to go
+- [11:53] ahead and get our API key. I've already
+- [11:54] created one, but we're going to create
+- [11:56] one together right now. So I'm going to
+- [11:57] say new MCP server. Make sure you choose
+- [11:59] the client of OpenAI API. We're going to
+- [12:01] name this YTbot. Once we do that, we're
+- [12:04] going to add some tools here. So the
+- [12:05] first tool I want to add is going to
+- [12:07] come from YouTube. This is going to
+- [12:08] allow us to get the relevant metadata.
+- [12:10] When I say metadata, essentially it's
+- [12:11] going to be like the thumbnail link, the
+- [12:14] title of the video, duration, everything
+- [12:15] of this nature. I'm going to use the
+- [12:17] action of find video. Alternatively, if
+- [12:19] you like, let me just do everything. You
+- [12:21] say add all YouTube tools. I'm going to
+- [12:22] say find video for now. Nice. Add
+- [12:24] another tool. Next tool here is going to
+- [12:26] be bumpups. And bumpups is going to
+- [12:27] allow us to, you know, do a bunch of
+- [12:29] cool things such as creative
+- [12:30] descriptions, hashtags. We're going to
+- [12:31] use send chat today, but there's other
+- [12:33] functions we could do. We'll do send
+- [12:35] chat. Perfect. This is the limitations
+- [12:37] of this specific MCP protocol. Or in
+- [12:40] other words, this is what we can
+- [12:41] specifically do in this workflow. If we
+- [12:42] wanted to have the ability to do more,
+- [12:44] Zapier has over 8,000 apps. We can add a
+- [12:47] ton of other functions and capabilities
+- [12:49] within this agent builder. And to
+- [12:51] connect either of these different
+- [12:53] accounts, whether it's YouTube or
+- [12:54] Bumpups, you'll simply go to the site,
+- [12:56] create an account, log in. For Bumbo
+- [12:59] specifically, you'll simply come up to
+- [13:00] your profile, you go to settings, go to
+- [13:02] API, and then create API key. When your
+- [13:05] API key is created, you can copy it like
+- [13:07] this and you'll be good to go. All
+- [13:08] relevant documentation for Bumbos API is
+- [13:10] down here as well. That step process is
+- [13:12] typically standard for any software to
+- [13:14] find their API key. From here, we're
+- [13:15] going to hit connect. So, from here,
+- [13:16] we're going to come down here, copy
+- [13:18] secret. If at any point you're like,
+- [13:19] Corbin, I think my secret leaked, just
+- [13:21] hit this, rotate the secret, reset it.
+- [13:22] We're going to go over here. We're going
+- [13:23] to enter it in connect. This is going to
+- [13:25] prompt us with all the relevant
+- [13:26] abilities this MCP server currently has.
+- [13:28] And as you already saw, we have the
+- [13:30] ability to find YouTube videos and
+- [13:32] ascend a chat to bumpups. We love it.
+- [13:34] ad. So now we've functionally given our
+- [13:36] AI agent a super power. It is an
+- [13:38] extremely powerful agent. Now it can do
+- [13:39] anything with over 8,000 apps, but we
+- [13:42] just gave it access to YouTube and bump
+- [13:43] ups. So now that it has access to that,
+- [13:45] we're going to want to put our reasoning
+- [13:46] effort for now to high. This is a great
+- [13:48] suggestion for anyone that's building an
+- [13:50] AI agent workflow, especially when you
+- [13:52] want to make an agent do a more complex
+- [13:53] task. Always set the reasoning effort to
+- [13:55] high so that when it runs into errors
+- [13:57] when trying to call the MCP protocol or
+- [13:59] the file search, it will try to
+- [14:01] self-correct itself. If you set that
+- [14:03] reasoning to low and you try to use Zap
+- [14:05] your MCP or you try to use file searcher
+- [14:07] more of these complex things within the
+- [14:08] agent workflow, it's just going to run
+- [14:10] into a wall. Just basically make the
+- [14:11] agent smarter, give it more IQ with any
+- [14:14] action. Let's identify the specific name
+- [14:15] found in the MCP protocol. We're going
+- [14:17] to say here is the expected data for the
+- [14:19] bumpup send chat payload. How did you
+- [14:20] get that Corbin? Click your little MCP
+- [14:22] here and you'll see it right there.
+- [14:24] Simply copy this, be good to go. Now
+- [14:27] comes the payload. Now what is the
+- [14:28] payload, Corbin? That is what we set
+- [14:30] here. grabbed here and we're ready to go
+- [14:33] now. So, let's go ahead and set that
+- [14:34] together. I'm going to hit expand. So,
+- [14:36] here we go. What we need is a URL,
+- [14:37] model, prompt, language, output format.
+- [14:40] Remember, we got this information from
+- [14:41] here and specifically what we were
+- [14:43] sending here identify here and here. So,
+- [14:46] to do that, it's quite simple. We're
+- [14:47] going to add context and we're going to
+- [14:49] get it from the state here that we set
+- [14:51] in the set state. So YouTube URL I can
+- [14:54] go and copy this here and instead of me
+- [14:56] having to go back and forth add context
+- [14:58] I can simply just use this code right
+- [15:01] state not YouTube URL but maybe model
+- [15:04] the next one we can put here as well
+- [15:07] state.prompt prompt the language
+- [15:09] state.language. So you're understanding
+- [15:10] something here. Why are you able to do
+- [15:12] that, Corbin? I'll explain pretty soon
+- [15:14] here. We're going to do output format as
+- [15:15] well. So you might be asking yourself,
+- [15:16] Corbin, why is it state dot and then the
+- [15:18] variable? Well, let me explain that real
+- [15:20] quick. Essentially, that's what we're
+- [15:22] identifying this in the workflow. So
+- [15:23] it's going to be state dot and then
+- [15:25] remember we are setting up this variable
+- [15:27] here. So to call that variable here, I'm
+- [15:30] saying here a lot, my bad. Here, here,
+- [15:32] here. State.youtuberl state.odel. We're
+- [15:35] good to go. This is going to be dynamic
+- [15:36] data that when a user starts a chat,
+- [15:39] it'll be able to fill it in here. So
+- [15:40] then the last major part of this prompt
+- [15:42] is going to be telling it to use the MCP
+- [15:44] tool. Use the MCP tool and receive its
+- [15:46] response and put it in chat. Nice. Save.
+- [15:48] MCP tool is Zapier. We love Zapier.
+- [15:51] Zapier. So let's go ahead and add our
+- [15:52] last bot here. That's going to be a
+- [15:54] custom widget UI. So you're going to
+- [15:56] learn two major things here. Now, you're
+- [15:58] going to learn how to integrate YouTube
+- [15:59] API, but you're also going to learn how
+- [16:00] to set up a custom widget to reflect
+- [16:02] data coming in and how to specifically
+- [16:04] prompt the widget creator to make a good
+- [16:07] widget because if you go a little crazy
+- [16:09] with the widget creator, it's just going
+- [16:11] to give you a bunch of errors and we
+- [16:13] don't like errors. Airs are no good.
+- [16:14] We're going to rename this to YT UI.
+- [16:17] Let's go ahead and do tools again. We're
+- [16:19] going to do NCP server. Come back down
+- [16:21] to Zapier here. Enter in that same key
+- [16:23] we got earlier, copy secret. Paste it
+- [16:25] here. Connect. And the sole purpose of
+- [16:27] this one is simply just going to be
+- [16:28] YouTube find video. So I can leave that
+- [16:30] on add first step done. So with that
+- [16:32] first step done here is the first line.
+- [16:34] Remember we are identifying the specific
+- [16:35] action YouTube find tool that we found
+- [16:37] here. But then we're asking for very
+- [16:39] specific variables that we're going to
+- [16:41] receive from this which is URL max res
+- [16:44] duration and title. Your next question
+- [16:45] might be Corbin how the heck did you
+- [16:47] know that? You have two options. Your
+- [16:49] first option is to go to the relevant
+- [16:51] application that you're requesting data
+- [16:52] from. So in this context is YouTube and
+- [16:54] YouTube's data API and then simply find
+- [16:56] the event you're looking for right. So
+- [16:57] search list this is find video and this
+- [17:00] is where the parameters are identified
+- [17:02] or essentially how software talks to
+- [17:04] each other and it's like hey YouTube
+- [17:06] what's the duration they'll identify as
+- [17:08] video duration in the payload. So
+- [17:09] therefore in reality coming back here if
+- [17:12] I want to be very very specific I could
+- [17:13] do video duration. Therefore when we
+- [17:16] find the video using the zap year action
+- [17:17] and the data is received the AI knows
+- [17:20] how to read the data which leads to the
+- [17:21] second option. If you don't want to go
+- [17:22] through API docs, you're like, I don't
+- [17:24] like that, Corbin. Don't worry. Just go
+- [17:25] to any AI model. Simply put in like
+- [17:27] YouTube API, what is the API data point
+- [17:30] for the duration of a video or what is
+- [17:32] the API data point for the thumbnail of
+- [17:34] the video? This is how you speak to the
+- [17:35] model so you get the best results, which
+- [17:37] is how I know that when dealing with
+- [17:39] YouTube API, it actually gives you all
+- [17:41] the different URL types for the
+- [17:43] thumbnail resolution. So, max res is
+- [17:45] like the max resolution, but there's one
+- [17:47] called like normal, and it's like the
+- [17:49] quality is horrible. So, I wanted to go
+- [17:50] with like the best quality using URL max
+- [17:52] res. These little nuances of max res
+- [17:55] video duration. This applies to other
+- [17:57] softwares that you'll integrate with
+- [17:58] Zapier as well. Just kind of dive into
+- [17:59] the books. We're then going to say then
+- [18:01] place in widget. Essentially, the data
+- [18:03] that we find here, place it in our
+- [18:05] widget, which we shall create together.
+- [18:07] So, to do that, we're going to do text
+- [18:08] check widget add widget. Great. When
+- [18:10] creating this widget, we want to be as
+- [18:12] specific as possible. Therefore, we want
+- [18:13] to identify what data points we want to
+- [18:15] reflect in the widget. We need a YouTube
+- [18:17] widget that will showcase video
+- [18:18] thumbnail, URL, max res, video duration,
+- [18:20] and title. Hit enter. Now, one thing I
+- [18:22] realized when using this widget builder
+- [18:24] is you really want to get that first
+- [18:25] prompt right. If you don't and you get a
+- [18:28] ton of errors in the code, there's ways
+- [18:29] to solve for it. But honestly, the
+- [18:31] workflow should be, I attempted a
+- [18:33] widget, Corbin, it came out, there was
+- [18:35] errors, it was horrible. Just retry
+- [18:37] again. Just give it a better prompt.
+- [18:38] Maybe give some UI context and just keep
+- [18:40] going at it. So, this widget isn't
+- [18:42] perfect. Obviously, we have a little bit
+- [18:43] of cutting off here, but you kind of get
+- [18:45] the idea of what we're trying to achieve
+- [18:46] here. I'm simply going to come over to
+- [18:47] download. And with it downloaded, it
+- [18:49] will go to wherever you leave your
+- [18:50] downloads. For me, it's just desktop.
+- [18:51] Also, as a side note, you might be like,
+- [18:52] Corbin, this looks disgusting. Like, why
+- [18:54] is this such a low resolution? That's
+- [18:56] cuz no image really exists here. But
+- [18:58] don't worry, it'll fill it in based off
+- [18:59] the chat. So, going back over to our
+- [19:01] little widget here, I'm going to say
+- [19:02] upload. Find the file. It should be a
+- [19:04] dot widget. And there we go. X. And
+- [19:06] we'll go ahead and place the last two
+- [19:07] lines of the prompt. We essentially need
+- [19:08] to tell the prompt what YouTube or video
+- [19:09] are we even talking about. So, we're
+- [19:10] going to say here is a YouTube video add
+- [19:12] context YouTube URL. Perfect. Save. With
+- [19:14] all this done, this workflow should
+- [19:16] work. Let preview. So, I'm going to
+- [19:17] simply put in that same video we saw
+- [19:18] earlier. I'm going to ask what is the
+- [19:20] best quote from this video. Put in the
+- [19:22] link. Enter. And effectively, we're
+- [19:24] going to be extracting data first.
+- [19:25] That's what's happening in the workflow.
+- [19:26] Extracting the user's prompt. Extracting
+- [19:28] the user's URL. Then, we're going to set
+- [19:30] that data so we can reference it in the
+- [19:31] YTbot and YT UI. First initiation of the
+- [19:34] YT bot. We are quite literally analyzing
+- [19:36] the video of artificial intelligence
+- [19:37] using bumpups API to give us the best
+- [19:40] quote. And because we set our agent to
+- [19:41] approve it first, we're going to hit
+- [19:42] approve. We can obviously turn that off
+- [19:44] within the agent, which I'll show after
+- [19:45] this workflow. So, boom. First step's
+- [19:47] done. This is a developer heavy, but
+- [19:49] don't worry. I'm going to make it sound
+- [19:50] very easy, almost like you're going to
+- [19:52] McDonald's and ordering your favorite
+- [19:54] Happy Meal. That's hilarious. I said
+- [19:55] that in the video. It was within the
+- [19:57] first 20 seconds. Don't believe me?
+- [19:58] Check out the video. So, next comes our
+- [20:00] YTUI. This is going to be the widget we
+- [20:01] created. And we should see a thumbnail,
+- [20:03] its relevant title, and duration. And
+- [20:05] there we go. We got the thumbnail, the
+- [20:06] title, duration. The widget needs some
+- [20:08] work obviously, but you get the idea.
+- [20:10] Now, if you just want this to run, so
+- [20:11] you don't have to hit approve. Click
+- [20:12] your bot, click your tools, zap year, go
+- [20:14] to approval, click this, and say never
+- [20:16] require approval for any tool, and hit
+- [20:18] update. Nice. So, there is a setup for a
+- [20:21] really cool workflow. Now, here is the
+- [20:23] best part, y'all. Make sure to stay
+- [20:24] tuned on this channel as I plan on
+- [20:26] taking this one step further. And then,
+- [20:27] let's take that one step further than
+- [20:29] that. I'm going to make all that code
+- [20:30] for free, completely open source. Check
+- [20:32] me out on GitHub description down below.
+- [20:33] The code's free. Just take just take all
+- [20:35] my code. Just steal it. Without further
+- [20:36] ado, as you already know with these
+- [20:37] style of videos, I'll see you in the
+- [20:39] next. Zapier just made OpenAI agents
+- [20:41] even more powerful by giving us the
+- [20:42] ability to access over 8,000 apps on the

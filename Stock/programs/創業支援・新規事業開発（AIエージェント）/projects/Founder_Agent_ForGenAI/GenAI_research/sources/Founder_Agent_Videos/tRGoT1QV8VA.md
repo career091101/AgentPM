@@ -1,0 +1,1062 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=tRGoT1QV8VA"
+video_id: "tRGoT1QV8VA"
+video_url: "https://www.youtube.com/watch?v=tRGoT1QV8VA"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "PMF", "AI", "team_building", "product_development"]
+topics: ["プロダクト開発", "組織構築", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=tRGoT1QV8VA
+  - Retrieved at: 2025-12-30T16:33:14+09:00
+  - [00:07] Hello everyone. This is Nico and Karan
+key_points:
+  - "- [00:52] whether it thinks we should move ahead"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: tRGoT1QV8VA
+
+- URL: https://www.youtube.com/watch?v=tRGoT1QV8VA
+- Retrieved at: 2025-12-30T16:33:14+09:00
+
+## Text
+
+- [00:00] [Music]
+- [00:07] Hello everyone. This is Nico and Karan
+- [00:11] and today we'll be walking you through a
+- [00:13] state-of-the-art agent AI application
+- [00:17] focused on evaluation, guardrails, and
+- [00:20] auditability.
+- [00:22] For the purposes of this demo, we'll use
+- [00:24] a hiring agent. So here's what the
+- [00:28] overall higher level workflow looks
+- [00:30] like. So as you can see there's two main
+- [00:34] inputs. One is the resume and other is
+- [00:38] the job opening. So these would be the
+- [00:40] two inputs. In our scenarios these are
+- [00:43] two input PDFs. And then this will pass
+- [00:46] through our AI system which will then
+- [00:49] generate an output and it will determine
+- [00:52] whether it thinks we should move ahead
+- [00:54] interviewing that candidate or not and
+- [00:57] the reasoning for the same. But now what
+- [01:00] happens within this AI system is there
+- [01:03] are multiple steps in here. So first and
+- [01:06] foremost as the PDFs are being passed
+- [01:10] we'll have an extraction model that will
+- [01:11] extract those details. For our scenario,
+- [01:14] we are using GPT4 mini, but this can be
+- [01:17] any LLM. And then we're doing a
+- [01:20] comparison here. And now what we would
+- [01:22] want to do is we would want some
+- [01:25] guardrail on that output of the
+- [01:27] comparison. So this is where we run
+- [01:30] those guardrails twice. So let's say the
+- [01:33] first time a comparison happens, we run
+- [01:35] a hallucination guardrail. This is
+- [01:37] something that Weights and Biases Viv
+- [01:39] provides by default. And let's say on
+- [01:43] this overall scenario there's three
+- [01:45] possible outcomes. So the first scenario
+- [01:48] is there is no hallucination and then a
+- [01:52] final output is uh shown. The second
+- [01:55] scenario is where a hallucination occurs
+- [01:59] in which case the loop selfiterates the
+- [02:03] agent again will come back and then try
+- [02:05] to give out another response where the
+- [02:08] hallucination guardrail will be run for
+- [02:10] the second time. In that case, let's say
+- [02:13] if there is no hallucination, the output
+- [02:15] is generated. And in the third scenario
+- [02:18] where there is hallucination that
+- [02:20] happens in both of those cases, this is
+- [02:23] when an expert will be invoked and that
+- [02:26] is where a human in the loop or an
+- [02:28] expert annotator comes in and then adds
+- [02:31] in their own feedback. So that's what
+- [02:34] this overall project talks about. So now
+- [02:38] let's jump into the example. So in here
+- [02:42] I have this streamlit UI. So in this
+- [02:45] case I'll upload the job offer again uh
+- [02:49] we are hiring for this open position we
+- [02:51] have right now for a gen AI engineer and
+- [02:54] then for our applications what we have
+- [02:57] done is for the purposes of this demo we
+- [03:00] have generated some synthetic
+- [03:02] applications so I'll just upload them
+- [03:05] but this is where a manager and HR can
+- [03:08] add in the own applications and now I'll
+- [03:11] hit the evaluate application button
+- [03:14] What's now happening behind the hood is
+- [03:17] now it's trying to process do comparison
+- [03:20] and then generate an output and then
+- [03:22] determining if there's a hallucination
+- [03:24] or not. While this is happening as you
+- [03:28] can see on this left hand section
+- [03:30] there's some settings that you can have.
+- [03:32] So for the extraction model you can
+- [03:34] determine what LLM you would want to
+- [03:36] use. Similarly for the comparison model
+- [03:39] we are using GPT4 mini for both of these
+- [03:41] scenarios. Similarly, if you want to use
+- [03:45] your own custom LLM, let's say you have
+- [03:48] an internal built LLM or a fine-tuned
+- [03:51] version of an LLM, you can easily add
+- [03:54] that and you can now play around and now
+- [03:57] start interacting with that custom LLM.
+- [04:00] And then for a guardrail, you can also
+- [04:03] set a guardrail model. In this case, we
+- [04:06] have used GPT40 mini throughout. So now
+- [04:09] my application has actually come back
+- [04:12] with a response where I can see an
+- [04:15] expert wasn't asked which means one of
+- [04:18] the first two scenarios actually
+- [04:20] occurred and in this case it determines
+- [04:23] that it would want to recommend this
+- [04:26] interview or this candidate for an
+- [04:28] interview and here's the corresponding
+- [04:30] reasoning for the same. So now let's
+- [04:34] jump into the weights and biases Viv UI
+- [04:38] and take a look at what this looks like
+- [04:41] and what went behind the scenes when it
+- [04:44] generated this particular result. So now
+- [04:48] I am in the weights and biases viv
+- [04:50] workspace and once I hit refresh you can
+- [04:54] now see uh my calls just ran which is
+- [04:57] literally what I had uh logged 2 minutes
+- [05:00] ago. And here you can notice there's two
+- [05:03] extractions. Uh so we are again uploaded
+- [05:06] PDFs and then there was a prediction
+- [05:08] that actually happened.
+- [05:10] Now you can see there's a bunch of
+- [05:12] columns in here. So again what we are
+- [05:15] looking at right now is a general trace
+- [05:17] view which will showcase each and every
+- [05:19] trace that has been logged to this
+- [05:21] application. Now let's say in my
+- [05:24] scenario I am most interested in my
+- [05:27] output which is the output of the
+- [05:29] predict function. What I can do is
+- [05:32] instead of having a generic view I can
+- [05:35] now filter out and create a new view I
+- [05:38] can only filter out let's say on the
+- [05:40] predict function. This is where weights
+- [05:43] and biases viv has a concept called a
+- [05:46] saved view. So here if you notice on the
+- [05:48] top right we have this option where you
+- [05:50] can now save this view or save this as a
+- [05:54] new view. What I've done is I've already
+- [05:57] created my own view here which is called
+- [06:00] the guardrail traces. So now once I am
+- [06:04] in my guardrail traces view now I can
+- [06:07] see the call that I just made. And here
+- [06:10] you can again see the tokens the cost
+- [06:12] the latency at an higher level. But here
+- [06:16] you'll also notice the two applications
+- [06:18] or the two PDFs that I had uploaded. I
+- [06:21] can also look at those. So here's my
+- [06:24] application. Here's my job offer. Again
+- [06:27] goes on to show that weights and biases
+- [06:29] can support rich media which not just
+- [06:32] includes images, it can also include
+- [06:35] things like audio files, video files. So
+- [06:38] again if you have any um agentic
+- [06:41] application or any genai application
+- [06:44] dealing with multimodel data uh reads
+- [06:47] and biases can log and allow you to
+- [06:50] visualize them.
+- [06:52] Now for this predict function you can
+- [06:54] see it did it mentioned that there was
+- [06:57] no hallucination and then it recommended
+- [06:59] for an interview which is what we saw in
+- [07:02] our streamllet part. Now you'll also
+- [07:05] notice in the feedback column I have
+- [07:08] this robot emoji. So this is something
+- [07:10] that I have used or implemented in this
+- [07:14] project. So now what we have done here
+- [07:16] is anytime a robot meaning our agentic
+- [07:20] AI bot generates or gives any response
+- [07:24] we would want to determine that using
+- [07:26] the robot emoji. And let's say if a
+- [07:30] human or an expert annotator is being
+- [07:32] intervened or asked in this process,
+- [07:35] that is where we'll add an I emoji
+- [07:38] determining that. So now let's dig into
+- [07:41] what our predict function does. So here
+- [07:45] again you can now look at the predict
+- [07:47] function. Here again the standard inputs
+- [07:50] which is the offer the uh the second
+- [07:53] input which is the application and the
+- [07:56] final output that we just saw. But now
+- [08:00] here you can see there is a sequence of
+- [08:01] events that we've automatically
+- [08:04] captured. Again you can see we use the
+- [08:07] langraph uh like API here. So now let's
+- [08:11] take a look at how this workflow has
+- [08:14] been generated and what does that entry
+- [08:18] point look like in terms of capturing
+- [08:20] and recording traces with weights and
+- [08:23] biass viv. So along with this calls tab
+- [08:27] there is this code tab. So if I click on
+- [08:29] this code tab this is where you can see
+- [08:33] uh I have used the viv python SDK. Now
+- [08:37] when it comes to interacting with Viv
+- [08:39] there's different ways on how you can do
+- [08:41] that. One is through the Python SDK
+- [08:43] which is what we have done in our
+- [08:44] application. The other is through our
+- [08:47] TypeScript JavaScript SDK and you can
+- [08:51] also interact with Viv with our service
+- [08:54] API and we have also added support for
+- [08:58] hotel. So if you have any application
+- [09:01] working with the open telemetry
+- [09:03] standards you can use that. You can also
+- [09:06] use our log to weave with MCP as well.
+- [09:10] So again different ways whatever or
+- [09:13] however your application is built you
+- [09:15] can log capture traces to weights and
+- [09:18] biases fe. So now in case of our Python
+- [09:21] SDK once you import the SDK all you need
+- [09:25] is a oneline decorator. So in this case
+- [09:29] you can see we have our predict function
+- [09:31] and all I had to do was decorate this
+- [09:34] function with this oneline decorator
+- [09:37] called weave.ob
+- [09:39] and that was all that was required in
+- [09:42] terms of capturing in this entire set of
+- [09:44] traces.
+- [09:46] Again in this case we're using langraph
+- [09:49] we have or weights and biases we has its
+- [09:52] own built-in integration with langraph
+- [09:54] as well. So now I can look at all of
+- [09:58] these traces where I can see there's two
+- [10:01] extractions that were happened. One for
+- [10:03] the job offer, one for the application
+- [10:06] and then there was a comparison that
+- [10:08] happened in this case. And now if you
+- [10:10] notice when I was mentioning the either
+- [10:13] of the two scenarios that happened, this
+- [10:15] is the case where a hallucination
+- [10:18] happened for the first time. The agent
+- [10:21] went back, recalculated, did the
+- [10:24] comparison again, and then it checked
+- [10:27] for a hallucination guardrail. And for
+- [10:29] the second time, there was no
+- [10:31] hallucination. And we can again click on
+- [10:34] this node actually expand all the way to
+- [10:38] the hallucination guard. And in this
+- [10:40] case, you can see this says there was a
+- [10:42] hallucination. And then if I do the same
+- [10:45] on the second hallucination guard rate,
+- [10:48] this now has an output as a false. So as
+- [10:51] you can again see that's one scenario on
+- [10:54] how that can happen.
+- [10:57] Now what you can also do is you can look
+- [11:01] at details on each and every sequence of
+- [11:04] events. So here you can see there's a
+- [11:06] bunch of things which you can look at a
+- [11:08] parent level. You can break it down into
+- [11:11] individual sub calls which we did here
+- [11:13] for the hallucination guardrails. At the
+- [11:16] bottom you'll also notice we have this
+- [11:18] nice little timeline view with a
+- [11:20] scrubber. So you can easily scrub
+- [11:22] through things look at what happened
+- [11:24] look at the output and then determine it
+- [11:27] accordingly.
+- [11:29] Along with that for each and every call
+- [11:33] V will also capture all the information
+- [11:36] around the input tokens the output
+- [11:39] tokens and then give you the cost for
+- [11:42] the same and then you also have the
+- [11:45] latency that's also being captured. So
+- [11:48] again this is one form of visualization.
+- [11:51] You can also render this view in a code
+- [11:54] composition format. This is something a
+- [11:57] lot of developers like where you can now
+- [12:00] have a higher level predict function but
+- [12:02] now you can see the sub calls that were
+- [12:04] made in this case what the calls that
+- [12:07] langraph made what happened in each of
+- [12:10] these different scenarios and then we
+- [12:13] also have a flame view in which case
+- [12:16] again let's say if I would want to look
+- [12:18] at the distribution of the time or the
+- [12:21] latency this gives a nice little view
+- [12:24] where I can see my extraction uh
+- [12:27] extraction for the job offer and then
+- [12:29] extraction for the application took the
+- [12:32] bulk load of my time literally I would
+- [12:34] say like more than half of it whereas my
+- [12:38] comparison hallucination and in this
+- [12:41] case the second iteration of it took a
+- [12:44] comparatively less amount of time so
+- [12:47] what this tells me is let's say in the
+- [12:49] next iterations if I would want to
+- [12:52] improve the latency maybe I might want
+- [12:54] to look into the extraction and then
+- [12:56] figure out a way on how I can improve
+- [12:59] the efficiency and the latency there. So
+- [13:01] that's just another way on how you can
+- [13:04] render or use these different
+- [13:06] visualizations.
+- [13:08] Again, one more thing, right now I'm
+- [13:10] using weights and biases weave in a
+- [13:12] light mode. I know lots of developers
+- [13:15] prefer this in a dark mode as well. You
+- [13:17] can also do the same. Um there is a
+- [13:20] command that you can do or you can also
+- [13:22] simply toggle that from the user
+- [13:24] settings in your profile as well. So as
+- [13:27] you can see I just switched to a dark
+- [13:29] mode and again if I hit the option and M
+- [13:33] on my keyboard I can switch back to the
+- [13:35] light mode as well. So this is again
+- [13:38] super relevant and then here you can see
+- [13:40] a distribution of all of these calls. So
+- [13:44] now let's switch over to another
+- [13:47] scenario. So in this case where the
+- [13:50] hallucination happened for the first
+- [13:52] time but let's say it did not happen
+- [13:54] again. Now let's move on to the scenario
+- [13:57] where a hallucination happened for both
+- [13:59] of these cases and then an expert was
+- [14:02] now being called. So now I'll switch
+- [14:05] over to another project or another view
+- [14:09] where I can now see in this particular
+- [14:12] trace there is an oh sorry in this case
+- [14:15] there is a robot as well as an I emoji
+- [14:18] which again tells me a human was
+- [14:21] actually invoked. Now let's look at that
+- [14:24] predict function again. Again you can
+- [14:26] see it's pretty similar to what we saw
+- [14:28] before where um like there was a
+- [14:31] comparison with a hallucination
+- [14:33] guardrail.
+- [14:35] The same thing happened again but now an
+- [14:37] expert was now being called. So this is
+- [14:40] again another scenario where Vivve can
+- [14:43] also trace and give you quickly in terms
+- [14:47] of how many times was an expert being
+- [14:50] involved. How many times was the bot
+- [14:53] able to self-reflect and then reduce or
+- [14:56] eliminate hallucinations.
+- [14:59] And here for calculating hallucination
+- [15:01] we have used our own inbuilt
+- [15:03] hallucination scorer that Viv provides
+- [15:06] out of the box. Again, you're free to
+- [15:09] use that or you can build in your own
+- [15:12] custom hallucination or any guardrail
+- [15:15] that you want. So now let's dig deeper
+- [15:19] into this hallucination guardrail and
+- [15:21] then see why exactly is the
+- [15:24] hallucination happening. So I can now
+- [15:27] start to dive deeper and deeper all the
+- [15:30] way to the actual call to the LLM. So in
+- [15:33] this case we asked OpenAI through light
+- [15:37] LLM and now on this section here I can
+- [15:40] see the exact system prompt the user
+- [15:43] prompt that openai received. In this
+- [15:46] case you can see it actually got two
+- [15:50] inputs. One was the input data and the
+- [15:52] output and then it had to determine if
+- [15:55] there was a hallucination or not. And
+- [15:57] the thing we care the most about here is
+- [15:59] in the response you can see there is a
+- [16:03] hallucination. So the hallucination is
+- [16:06] true here. So now let's say a developer
+- [16:10] built this application tested it out as
+- [16:13] an expert annotator or as a PM. I'm now
+- [16:18] looking at this application and I feel
+- [16:20] the hallucination shouldn't happen.
+- [16:23] Maybe this is a scenario where I can now
+- [16:26] start to improve my application so I can
+- [16:28] reduce the time where an actual human
+- [16:31] has to come in and review these things.
+- [16:34] Typically what you would have to do is
+- [16:37] go back in the code, make those changes,
+- [16:40] rerun that, look at the traces back
+- [16:42] again, which requires a lot of back and
+- [16:45] forth, a lot of manual intervention and
+- [16:47] also requires some technical capability
+- [16:50] in terms of actually going back making
+- [16:52] those changes, reshipping it. What we
+- [16:55] would want to do is we want to make
+- [16:57] these things a lot lot easier. So it can
+- [17:00] be useful for any technical or a less
+- [17:04] technical persona as well. So to that
+- [17:07] aspect we have a built-in playground. So
+- [17:10] on this UI you can see there is an
+- [17:12] option to try this prompt in a
+- [17:14] playground. All I have to do is click
+- [17:17] that button and what it will do is
+- [17:19] retain that exact state. And now this
+- [17:23] will give me this playground view where
+- [17:25] first and foremost you can notice on the
+- [17:28] right I have these different options
+- [17:31] where I can now change the number of
+- [17:33] tokens, play around with the
+- [17:35] temperatures, make any of these changes.
+- [17:38] Additionally, I can also add a different
+- [17:42] comparison model where I can add as many
+- [17:45] views as I want. And now what I can do
+- [17:48] is maybe let's say swap out my model. So
+- [17:51] in this case I might want to use OpenAI.
+- [17:54] In the other scenario I might want to
+- [17:56] use a different model. You can also use
+- [17:59] your own custom LLM. As you can see in
+- [18:02] this case we fine-tuned a Lama model and
+- [18:05] published that through O Lama. I can
+- [18:08] interact with that model as well. Or you
+- [18:11] can quickly or easily add in your own
+- [18:13] custom provider. So it's very easy. All
+- [18:16] you need to do is enter in those
+- [18:18] credentials, the base URLs, and you're
+- [18:21] pretty much good to go. You can now
+- [18:24] start interacting with your own custom
+- [18:26] models. In this case, uh let's say for
+- [18:30] the purposes of this demo, I am fine
+- [18:32] with GPT41 mini. And now I want to see
+- [18:37] if I can make any change in my user
+- [18:40] prompt that will actually change the
+- [18:42] output of the hallucination from true to
+- [18:46] false. So let's say let me try editing
+- [18:49] this. First and foremost let's say I
+- [18:52] would want my response in JSON. So I can
+- [18:54] do that and then also ask my LLM uh to
+- [18:58] respond in JSON. Please output in JSON.
+- [19:02] And now let's see what's happening in
+- [19:04] this scenario. So in this case we are
+- [19:08] hiring for a strategic account executive
+- [19:11] role in the US. And here's are some of
+- [19:14] the key responsibilities some details
+- [19:16] around it. And now if we look at the job
+- [19:20] application the person that applied for
+- [19:23] this job actually has more experience as
+- [19:26] an account executive but in the federal
+- [19:29] space. And that's where you can see the
+- [19:31] preferred work location is Washington
+- [19:33] DC. But now let's see what the final
+- [19:36] output is. I can also see this person
+- [19:39] has done some good work, closed some
+- [19:42] good deals. So let's look at the final
+- [19:44] output where the output was we should
+- [19:47] not move ahead with an interview. And if
+- [19:50] I look at the reasoning, it does say
+- [19:53] that there is a misalignment in the job
+- [19:56] expectation where this person has more
+- [19:58] experience for the federal space whereas
+- [20:01] the role that we are hiring for is more
+- [20:03] in the commercial space. And then it
+- [20:05] also mentions uh there is a difference
+- [20:09] or the preferred work location does not
+- [20:12] match where I think it was more
+- [20:14] preferred in Washington DC whereas there
+- [20:17] was an expectation in San Francisco
+- [20:19] which does make sense but then if I look
+- [20:22] at this next explanation that actually
+- [20:25] does not seem to make a lot of sense
+- [20:28] where it's talking about expected salary
+- [20:30] and misalignment. Maybe I might want to
+- [20:34] remove this and instead add or stress on
+- [20:38] the difference between these two roles.
+- [20:40] So I can mention that the candidate has
+- [20:44] more experience in the federal space
+- [20:49] and not much
+- [20:52] experience in the commercial
+- [20:57] space. Cool. So let's see if making this
+- [21:01] change actually changes our LLM
+- [21:04] response. So once I've made these edits,
+- [21:08] what I can do is just hit retry. So now
+- [21:12] this again goes back to my GPT41 model
+- [21:15] and I can see it's already starting to
+- [21:17] generate its own response and the thing
+- [21:19] I care the most about is the final
+- [21:22] column on hallucination and that
+- [21:25] actually did it. So making that change
+- [21:28] actually changed our hallucination from
+- [21:31] true to false. So this is again a easier
+- [21:34] way for any annotator any PM to come in
+- [21:38] make those changes and now start to play
+- [21:41] around uh improve that particular
+- [21:43] application. So now what I can do is I
+- [21:46] can go back make that as a preferred
+- [21:50] change and then rerun my next set of
+- [21:52] iterations. And in doing so, I can
+- [21:55] actually eliminate the number of times a
+- [21:57] human is actually involved and make my
+- [22:00] AI agent a lot more robust. So now with
+- [22:04] weights and biases we've it was very
+- [22:07] easy to see exactly what was happening
+- [22:10] to understand why there was a
+- [22:12] hallucination the exact root cause of it
+- [22:15] and then how you can make changes to
+- [22:18] avoid that. Typically this is where
+- [22:21] weights and biases or an observability
+- [22:23] tool can help you. Without weights and
+- [22:26] biases vaf it's very very difficult to
+- [22:29] actually know what's happening happening
+- [22:32] in this particular dynamic agentic
+- [22:35] workflow. And again this was a very
+- [22:38] simple few steps workflow like as your
+- [22:41] applications start to get more and more
+- [22:43] complex without weights and biases weave
+- [22:46] it becomes very very difficult or almost
+- [22:49] impossible to know what's happening and
+- [22:51] why that is happening whereas here with
+- [22:54] a simple oneline integration with the
+- [22:57] decorator or with uh like hotel MCP you
+- [23:02] have complete visibility into your
+- [23:04] entire chain of thoughts at not just an
+- [23:07] input and output level but also at sub
+- [23:10] levels. So you can now play around with
+- [23:12] this. Now in order to extend it further,
+- [23:16] what I can also do is maybe have a new
+- [23:19] data set. And so let's say if I go back
+- [23:22] to my traces view, all of those
+- [23:24] scenarios where I actually see an eye
+- [23:27] icon, I can again filter it down. I can
+- [23:30] select those scenarios and now I can add
+- [23:33] them to my data set and create a new
+- [23:36] data set based on that. So in this case
+- [23:39] let's say I had my evaluation data set.
+- [23:42] I can simply replace my application or
+- [23:46] uh oops or my output interview with the
+- [23:49] expert annotator decision and then the
+- [23:53] output reason with the expert annotator
+- [23:56] reasoning and that's that can be a new
+- [23:59] data set on which my next iteration can
+- [24:02] happen and this is where you can
+- [24:04] continuously run uh like an iterate
+- [24:07] again and again and have those robust
+- [24:10] evaluations. So this is something my
+- [24:12] colleague Nico will talk into more
+- [24:15] details on how you can extend this
+- [24:17] tracing and run more rigorous
+- [24:19] evaluations to actually get um like or
+- [24:24] actually have the confidence to ship
+- [24:26] your application in production. So with
+- [24:29] that over to you Nico.
+- [24:31] Yes. So as Karen said, now that we have
+- [24:33] tracing and monitoring of our Agentic
+- [24:35] applications done, one of the key
+- [24:38] challenges that we have is how do we
+- [24:40] evaluate the agent? And I think that's
+- [24:42] one of the key challenges that most of
+- [24:44] our customers and prospects have when it
+- [24:46] comes to bringing agents into
+- [24:47] production. So the first question is if
+- [24:50] we go back to a report here, we can see
+- [24:52] that this was our system and the key
+- [24:55] question, the first question of course
+- [24:56] is what parts of it should I evaluate?
+- [24:59] So the first thing here is that I have
+- [25:01] is the system. So I could evaluate the
+- [25:03] whole system in terms of there is my
+- [25:05] resume and job openings that come in as
+- [25:08] PDFs and then I have my output here
+- [25:10] binary decision yes or no and then a
+- [25:12] reason for it. So I could evaluate that
+- [25:14] as a system. Then again I could also
+- [25:17] evaluate my guart rail model my
+- [25:19] comparison model or the extraction of
+- [25:21] the text from the PDFs. Uh now there are
+- [25:24] a bunch of things and ideally I do all
+- [25:25] of this. Today we're going to focus on
+- [25:28] how can I create a system evaluation
+- [25:30] here for the whole and then specifically
+- [25:32] focusing on the decision- making part of
+- [25:34] it, the comparison model that we also
+- [25:37] fine-tuned. Um, and so now this is what
+- [25:40] we're going to to focus on for the
+- [25:41] second part of of the tutorial. So if we
+- [25:44] if we click here now back into the
+- [25:46] project, we can first of all see you
+- [25:49] know back into traces here what we've
+- [25:51] seen before that we have another tab
+- [25:53] here.
+- [25:54] Uh and in Evals first of all looks
+- [25:57] pretty similar to traces. We have
+- [25:59] different views that allow me to save
+- [26:02] and persist specific filters or um
+- [26:05] column selections and expose them to
+- [26:07] specific stakeholders. For now, we just
+- [26:09] have a new EELS overview here that
+- [26:12] filters down on a specific last version
+- [26:15] of our evaluation. And why that's
+- [26:17] important, I'm going to explain to you
+- [26:18] at the end as well. Now what as I said
+- [26:21] what the focus of this evaluation is is
+- [26:24] we have a GBD40 mini baseline and we
+- [26:28] want to compare a prompt engineered
+- [26:30] version and a fine-tuned and prompt
+- [26:32] engineered version of the comparison
+- [26:34] model with each other and basically just
+- [26:37] see how the system how the decision-m
+- [26:39] changes and if it actually improves. Now
+- [26:42] this is a pretty yeah standard view
+- [26:44] here. It's similar to tracing. you have
+- [26:46] inputs and you have outputs only that in
+- [26:49] this case the inputs are different
+- [26:51] versions of the model of the system that
+- [26:53] I'm evaluating and also different
+- [26:56] versions of the evaluation itself. Uh
+- [26:59] and then as an output I get whatever
+- [27:02] kind of columns I want to specify what
+- [27:04] metrics I want to specify. So I have two
+- [27:06] different categories here the decision
+- [27:08] itself which is a binary classification.
+- [27:11] So in this case something like precision
+- [27:13] recall and then for the reason which is
+- [27:15] uh the judge which is really the text
+- [27:18] where we have in this case five
+- [27:20] different specific uh metrics that an
+- [27:23] LLM judge compares the predicted reason
+- [27:26] with the target reason and tries to
+- [27:29] score the predicted reason based on
+- [27:31] these um specific uh categories. And
+- [27:34] then of course for each of these you can
+- [27:36] see who uh locked this and when it was
+- [27:39] the number of tokens the cost of of all
+- [27:41] of it and then uh the latency. Now in
+- [27:45] this case I was really interested in
+- [27:47] three main uh metrics that I just pinned
+- [27:49] here on the right hand side being the F1
+- [27:52] for the decision and then for the reason
+- [27:54] score the pass rate that means how many
+- [27:57] of the reasons were generally viewed as
+- [28:00] as valid and then the average score. So
+- [28:03] from these five different um dimensions
+- [28:06] what's the the average score that um the
+- [28:09] specific reasoning hiring agent gives
+- [28:11] here. Cool. Um so now with that set up
+- [28:15] the the first thing that is important to
+- [28:17] understand is what do you need to
+- [28:18] actually create this evaluation. So we
+- [28:20] have as I said two different aspects
+- [28:22] here. The first one is the model. If we
+- [28:24] click on it, everything is automatically
+- [28:26] versioned as Karen said and we've we can
+- [28:28] see different parameters here that we
+- [28:31] have yeah saved in our code. So whenever
+- [28:33] I change anything in my code, this will
+- [28:35] be automatically created as a new
+- [28:37] version. In this case, I have three main
+- [28:39] models. The extraction comparison
+- [28:41] guardrail model uh and then a couple of
+- [28:43] prompts here. Uh and now what I can do
+- [28:46] is I first of all I can see where was
+- [28:48] this model used. So I could go ahead and
+- [28:50] actually look at all the the predict
+- [28:52] calls to my specific um uh version of
+- [28:56] hiring agent. So this is this is
+- [28:58] actually the code. But you know if we go
+- [29:00] back here and and actually look at the
+- [29:01] calls here we can see these are all the
+- [29:04] calls where my hiring agent predict
+- [29:06] function was called. Uh now what we
+- [29:08] really want to see now is we want to
+- [29:11] maybe for example compare it to
+- [29:13] different versions. Right? So we have 21
+- [29:16] versions here. In this case, let's have
+- [29:18] a look at for example these these three
+- [29:20] ones here. Um, and this first of all
+- [29:24] just gives me a sideby-side comparison
+- [29:26] of all the different arguments that that
+- [29:28] were saved. And if I diff only, we we
+- [29:30] can see that what we're looking at here
+- [29:32] really is two different attributes being
+- [29:35] um worked on. So there's one one the
+- [29:38] comparison model itself that's being
+- [29:40] changed and then the prompt. And so the
+- [29:43] prompt in this case changes from 16 to
+- [29:46] 17. We can see that there's a bunch more
+- [29:48] details being added here to the prompt.
+- [29:50] And then from 17 to 18, the prompt stays
+- [29:54] the same, but the model changes changed
+- [29:56] from a baseline model to a fine-tuned
+- [29:58] one. Um, now if we go back, uh, the
+- [30:02] other part of the evaluation here is is
+- [30:04] the object itself, right? The evaluation
+- [30:07] object. And that really consists of, you
+- [30:09] know, two main components. There's a
+- [30:11] data set and scores. A data set really
+- [30:14] is in this case consists of uh a PDF, a
+- [30:18] local path in this case, the extracted
+- [30:20] target extracted text, the same thing
+- [30:23] for the application and then the target
+- [30:26] um decision and the target reason. Uh
+- [30:28] there's different versions of this. I'll
+- [30:30] go into this in more detail at the end
+- [30:32] of this this section. But the other
+- [30:34] piece for an evaluation is are the
+- [30:37] scores. And that's really what
+- [30:38] calculates the scores at the end. So you
+- [30:40] have the decision decision score and the
+- [30:42] reasoning score which again I I'll go
+- [30:44] into more detail uh at the end of this
+- [30:47] this section. Now the first thing that
+- [30:49] we really want to do is we really just
+- [30:51] want to compare these right and so
+- [30:52] looking at these numbers is great but
+- [30:55] ideally I could have some kind of visual
+- [30:57] report and that's exactly what happens
+- [30:59] if I compare for example a couple of
+- [31:01] these and now you can see more visually
+- [31:04] systematically compared how different
+- [31:07] versions of my hiring agent perform on
+- [31:09] these metrics. So I have a lot of these.
+- [31:12] Let's actually only look at uh the F1 as
+- [31:15] I said the uh pass rate generally of the
+- [31:19] reason the score of the reason and then
+- [31:21] maybe latency and tokens. And now you
+- [31:24] can see on the first hand here you can
+- [31:26] see how the surface area of these
+- [31:29] different versions actually increases
+- [31:30] which is generally good right in blue
+- [31:33] the lowest one and then kind of
+- [31:34] increases with the versions. I can look
+- [31:36] into more detail for each of these
+- [31:38] categories here. Generally speaking for
+- [31:40] this you can see that the F1 is pretty
+- [31:44] much the same. So we might need to work
+- [31:46] a bit on the the data set make it more
+- [31:47] challenging maybe or balance it more but
+- [31:50] they're all pretty good. But when we
+- [31:52] when we come to the reason itself to the
+- [31:54] generation of the reason you can see
+- [31:55] that the difference is quite big
+- [31:57] actually right so there's only like
+- [31:59] 0.017 017 performance here uh from my
+- [32:03] baseline model but then it goes up to to
+- [32:05] 36% and then 83% when I'm prompt
+- [32:08] engineering and finetuning and so why is
+- [32:10] that we can have a look at that going
+- [32:12] down you can first of all see the
+- [32:14] differences uh so if we un toggle this
+- [32:19] you can see as I said before these are
+- [32:21] all the different parameters right
+- [32:23] arguments of each version and then to
+- [32:26] see the difference I can just diff and
+- [32:28] now I see that There's the prompt that
+- [32:30] changes from zero to three and then
+- [32:32] there's the model that changes from mini
+- [32:34] to this fine-tuned version of the mini
+- [32:36] one. uh I can go down further and just
+- [32:39] see first of all you know just the
+- [32:40] numbers quantitatively all right how
+- [32:43] does the decision compare how does the
+- [32:45] you know different metrics compare that
+- [32:46] I've selected here uh and then at some
+- [32:49] point once I have an understanding of
+- [32:51] quantitatively how they compare I want
+- [32:53] to drill down and understand how does it
+- [32:56] really look like qualitatively on
+- [32:58] specific examples and that's where it's
+- [33:00] really handy to click here on the data
+- [33:02] set results where you can actually see
+- [33:04] the data set itself right? The the
+- [33:06] specific offer, PDF, and and text and
+- [33:08] application, and then target, interview,
+- [33:10] and reason. And then I can also just
+- [33:13] look at specific examples here, right? I
+- [33:15] could go through all of these different
+- [33:18] uh rows here and see what exactly was
+- [33:20] the input, uh what exactly was the
+- [33:23] decision, how exactly did the reason
+- [33:25] look like, and what were the scores.
+- [33:27] Again, if I go ahead and expand this for
+- [33:29] a second, you can see that, you know,
+- [33:31] this is really a great view to to drill
+- [33:33] down into all my samples here, my
+- [33:35] examples, and really just understand why
+- [33:39] am I seeing the the quantitative
+- [33:41] evaluation results that I'm seeing. And
+- [33:43] now what we did here, for example, is we
+- [33:45] actually because we only have 20 samples
+- [33:47] here, we ran three trials to make it,
+- [33:50] you know, statistically more significant
+- [33:53] and just ran evaluations three times. So
+- [33:56] that's you know 60 examples for each of
+- [33:58] these and now you can see each of these
+- [34:01] runs here and then the aggregated
+- [34:03] performance uh here on the left hand
+- [34:05] side. Now this is great but what if you
+- [34:07] have a big data set right big
+- [34:09] evaluations hundreds thousands of
+- [34:11] different samples and you just really
+- [34:12] want to pin down and look at the ones
+- [34:15] the samples that have high signal and
+- [34:17] tell you what you want to change. And
+- [34:19] you can do that if for example we go
+- [34:21] back here and let's say it's clear that
+- [34:24] the baselon is not the best but we
+- [34:26] really want to find out why is the
+- [34:27] finetune model better than my prompt
+- [34:30] engineer one because that's an expensive
+- [34:32] thing to do. Maybe we can just do prompt
+- [34:34] engineering. So let's remove this from
+- [34:36] our comparison. Same view as before but
+- [34:39] now we have since we only have a
+- [34:41] sidebyside comparison we have these
+- [34:43] additional selectors. And so now what we
+- [34:45] can do is we can actually look at all of
+- [34:48] our metrics here and decide for example
+- [34:50] let's have a look at uh the samples
+- [34:53] where the the reason wasn't good because
+- [34:56] the experience analysis of it wasn't the
+- [35:00] the score was low right so we can click
+- [35:02] on it so this is basically the metric
+- [35:04] where the the reason uh of the hiring
+- [35:08] agent lacks
+- [35:10] exper lacks a good analysis of the
+- [35:12] experience of a candidate and so we You
+- [35:14] can see that there's a challenger model
+- [35:16] here. That's the finetuned one and the
+- [35:18] prompt engineered one. And then there's
+- [35:19] the baseline here which is only prompt
+- [35:21] engineered. And so if you select for
+- [35:23] example these two here, we they have
+- [35:25] scored a four and only a two two and a
+- [35:28] half for the the base model. And now
+- [35:30] furthermore, we can even narrow it down
+- [35:32] even more and say we want to have a look
+- [35:35] at uh the examples where the experience
+- [35:38] an analysis wasn't good because there
+- [35:41] wasn't enough evidence. Right? And so
+- [35:43] this is another score that we added
+- [35:44] which is a score that tells us how good
+- [35:47] how much evidence was provided by uh the
+- [35:50] hiring agent. And so now we can go ahead
+- [35:52] and select this single example here
+- [35:54] where you see that the the challenger
+- [35:56] model has much more evidence apparently
+- [36:00] than my baseline for the analysis of the
+- [36:03] experience of the candidate. Now there's
+- [36:05] there's a single one left here. So we
+- [36:07] could go ahead and select this one.
+- [36:09] expanded and now we can actually go down
+- [36:11] and understand you know why why is that
+- [36:13] what evidence lacked there how was the
+- [36:16] uh analysis of the experience not good
+- [36:18] so first of all this is a customer
+- [36:20] support engineer Tokyo um that that's
+- [36:23] the that's the offer then we can see
+- [36:25] both of them said we should definitely
+- [36:28] invite this person to the interview and
+- [36:30] first of all you can see that the reason
+- [36:32] here is actually much shorter so it's
+- [36:34] this is you know the first baseline and
+- [36:36] then for the finetune one I
+- [36:38] nice categories here, you know, nicely
+- [36:41] structured. But, you know, first of all,
+- [36:43] nicely structured doesn't have to mean
+- [36:45] it's it's much better. But now, if we go
+- [36:47] ahead and look at this in more detail,
+- [36:49] we can see this mentions, okay, so it's
+- [36:51] a good fit because the person has skills
+- [36:53] in in Python and TypeScript. So, it
+- [36:55] names specific languages here. If we go
+- [36:58] down to the experience analysis here
+- [37:00] though, we can see that you know it
+- [37:03] mentions an internship um and then even
+- [37:06] tensorflow and and carers and pytorch as
+- [37:09] specific frameworks right not only
+- [37:11] python or um or typescript but also
+- [37:15] specific frameworks in python. So
+- [37:17] clearly you can see that this has just
+- [37:19] much more detail, more structure and and
+- [37:22] really sightspecific experience that
+- [37:25] this candidate has in in in different uh
+- [37:27] yeah different experiences the person
+- [37:29] did in the past. So you can kind of
+- [37:31] understand okay so you know the the fine
+- [37:34] to one clearly gets the structure and
+- [37:36] more detail better than the just the
+- [37:38] prompt engineer one. And so this would
+- [37:39] be then you know where you could decide
+- [37:41] okay let's actually fine-tune on a
+- [37:43] bigger data set or improve the the model
+- [37:45] further. Generally speaking, I think
+- [37:47] this um workflow where you start off
+- [37:50] looking at quantitative comparisons
+- [37:52] here, quantitative metrics and drilling
+- [37:54] down into high signal examples to
+- [37:57] qualitatively assess is really something
+- [37:59] that we've seen people do very often.
+- [38:02] And we've really helps you to make this
+- [38:05] process very easy. you know, you don't
+- [38:07] have to search for logs, go somewhere
+- [38:09] and try to look through print statements
+- [38:12] or, you know, other other tools that
+- [38:14] make this quite cumbersome. Um, now if
+- [38:17] we go back to EVELs, what I said before,
+- [38:21] um, there's always two main things we
+- [38:24] have to focus on when creating evals.
+- [38:25] The first one, of course, is to improve
+- [38:27] the main agent. The second one is to
+- [38:29] improve the actual evaluation. And
+- [38:32] that's because it has to be
+- [38:33] representative of course for my user
+- [38:36] group and for my use case. Uh and that's
+- [38:38] that's important because ultimately that
+- [38:40] is what gives me confidence to deploy my
+- [38:42] my agent. And so typically oftent times
+- [38:45] people just struggle creating these
+- [38:47] evaluations uh or updating them. And so
+- [38:50] uh I just want to show you how you know
+- [38:52] you can do these things in in weave. So
+- [38:54] as I said an evaluation generally
+- [38:56] consists of a data set and scores. So
+- [38:59] the first thing I have to do is I have
+- [39:00] to create a data set. Now if we go here
+- [39:03] into our data set, we have a bunch of,
+- [39:05] you know, different tabs here. We have
+- [39:07] one that's called data sets. And if we
+- [39:10] click on it, you can see all of my
+- [39:12] different data sets and their versions.
+- [39:14] So now I can do a lot of things to just
+- [39:17] either I just upload a data set as a CSV
+- [39:20] or any kind of other file as a baseline.
+- [39:24] Then experts or you know specific people
+- [39:26] could come in view this data set decide
+- [39:30] to actually edit this data set go into
+- [39:32] here maybe update the reason for example
+- [39:34] make it more specific publish it as a
+- [39:37] new version. You know this would be
+- [39:39] automatically saved as a new version in
+- [39:41] here or what we see quite often is once
+- [39:43] you have a baseline and you have
+- [39:45] something in production or in some
+- [39:47] testing environment you want to update
+- [39:49] it continuously with production data.
+- [39:52] And so that's something that's very easy
+- [39:53] to do too in in in Weave is you can go
+- [39:55] into traces here. Uh and then you can
+- [39:58] for example just you know in this case
+- [40:01] select the the trace view for expert
+- [40:05] annotation. And that could be something
+- [40:07] where you set a filter on whether an
+- [40:10] annotation has been given or not. And so
+- [40:12] in this case we can see there's uh these
+- [40:14] six traces here where we had you know a
+- [40:17] specific case where at the end an expert
+- [40:20] actually gave a review uh and so this
+- [40:22] was through the stream application in
+- [40:24] this case could come either you know
+- [40:26] through the application itself or people
+- [40:28] could come in and actually manually
+- [40:30] annotate this through through weave and
+- [40:33] that's where these annotation views are
+- [40:36] specifically also especially uh
+- [40:38] important. But once you have these
+- [40:40] annotations, what you can do is you can,
+- [40:42] you know, select, for example, a couple
+- [40:44] of these where self-reflection didn't
+- [40:46] work. It couldn't selfheal and people
+- [40:48] had to annotate. And then you add them
+- [40:50] here to the data set. You can select add
+- [40:53] them to the data set. Let's say the
+- [40:55] evaluation data set in this case. And
+- [40:58] then you see these are the columns. And
+- [41:00] this is where I'm mapping parts of the
+- [41:02] production trace and annotation to my
+- [41:05] new data set. So in this case, you know,
+- [41:08] I I want to have the expert uh
+- [41:10] annotation for the decision and I also
+- [41:12] want to have the uh expert reason. And
+- [41:15] so the cool thing here is I can directly
+- [41:17] feed back production traces and
+- [41:20] annotations into a data set to just
+- [41:22] update it regularly and then run it
+- [41:25] again as a new version for example. The
+- [41:28] second piece of an evaluation that you
+- [41:30] have to update is the scores. So if we
+- [41:34] go back into our version here, we're
+- [41:36] clear on the data set now. And this is
+- [41:38] good because it has to be representative
+- [41:39] for my user group. Now scores are
+- [41:42] important to give me signal right about
+- [41:44] what how is my my model performing, what
+- [41:47] use case am I looking at and so what
+- [41:49] metrics should I be looking at. Now in
+- [41:51] this case the decision score is quite
+- [41:53] easy. It's just comparing binary
+- [41:55] classification true equals true or false
+- [41:58] equals true false and so on. Um, and so
+- [42:01] there's no change that I did here, but
+- [42:03] the reason score is much more
+- [42:05] complicated. So in this case, you can
+- [42:06] see I have six versions of this. If I
+- [42:09] click on it, uh, you can see the same
+- [42:12] thing as before because everything is
+- [42:13] versioned in in weave, I have, you know,
+- [42:15] different versions of my score. And for
+- [42:17] example, the if we compare the last two
+- [42:20] ones here, since this is a judge, um, it
+- [42:24] was actually quite hard to make it um,
+- [42:26] very specific, right? very specific in
+- [42:29] judging how good the reason is. And so
+- [42:31] what what what you see here is for
+- [42:32] example I had to update the prompt of
+- [42:36] the judge quite quite a lot to make it
+- [42:38] much more specific here like explain
+- [42:40] exactly how it should analyze whether
+- [42:42] the position fit was correctly analyzed
+- [42:45] whether the experience was correctly
+- [42:47] analyzed and then I had to make some
+- [42:49] some adjustments to the actual scoring
+- [42:52] function as well and this is important
+- [42:54] because for example in the first case
+- [42:55] here uh my all of the different models
+- [42:58] I've shown you before I actually just
+- [43:00] scored 100%. So that means even the
+- [43:02] baseline was already saturating uh this
+- [43:06] benchmark and so it's hard for me to
+- [43:07] actually improve my model and make and
+- [43:09] gain confidence in its performance in
+- [43:12] production. Uh and so this is just
+- [43:14] showing you uh both of these components
+- [43:16] right that ultimately uh come together
+- [43:19] in this evaluation object uh are very
+- [43:22] important to to iterate on both the data
+- [43:25] set uh and the scores the scoring
+- [43:27] functions and uh both of these is is
+- [43:30] actually quite easy to do and we've as
+- [43:32] I've hopefully shown you now and with
+- [43:34] that I would say yeah we covered a lot
+- [43:36] of ground here we had a look at system
+- [43:38] evaluation evaluation of the the
+- [43:40] decision um component of the of the
+- [43:43] hiring agent. We compared different
+- [43:46] version of these. We had a look at the
+- [43:47] difference in the version. We had a look
+- [43:49] at quantitative evaluation. Drill down
+- [43:51] into qualitative samples. And then in
+- [43:54] the second part of this uh of the
+- [43:56] session, we actually had a look at how
+- [43:58] to improve and update the evaluation
+- [44:01] object, the data set and the scores
+- [44:03] themselves. With that, I would say
+- [44:05] thanks a lot for listening. I would
+- [44:07] greatly encourage you to actually have a
+- [44:09] look at this report. Everything that I'm
+- [44:11] sh that we have shown you here is public
+- [44:14] including um the code here. Uh and we
+- [44:17] have actually also have a detailed white
+- [44:20] paper here that explains also from a
+- [44:22] compliance perspective but also
+- [44:24] productivity point of view how to
+- [44:26] actually create such an hiring agent
+- [44:27] with weights and biases models the
+- [44:29] fine-tuning and weights and biases weave
+- [44:31] the agent building and evaluation piece.
+- [44:34] And with that happy tracing and
+- [44:36] evaluation reach out if you have any
+- [44:38] questions and have a good day.
+- [44:41] [Music]

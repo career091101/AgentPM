@@ -1,0 +1,596 @@
+---
+title: "Transcript: TXVyxJdlzQs"
+video_id: "TXVyxJdlzQs"
+video_url: "https://www.youtube.com/watch?v=TXVyxJdlzQs"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:18:58"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TXVyxJdlzQs
+
+- URL: https://www.youtube.com/watch?v=TXVyxJdlzQs
+- Retrieved at: 2025-12-30T10:57:22+09:00
+
+## Text
+
+- [00:00] Voice AI platforms like Vappy,
+- [00:03] Synthflow, and Bland.ai are good for
+- [00:05] getting you started, but they come with
+- [00:07] their trade-offs. And honestly, I've
+- [00:09] regretted using them for use cases in
+- [00:12] the past. I've talked to businesses
+- [00:13] before that have specifically switched
+- [00:16] from Vappy to a custom solution because
+- [00:18] you run into problems with these tools.
+- [00:21] You don't run your own infrastructure.
+- [00:23] Your tool calls are slow. You're paying
+- [00:25] per minute rates that are premium. and
+- [00:27] it's really hard to truly customize your
+- [00:30] agents when it comes down to it. I
+- [00:32] respect these platforms for being easy
+- [00:34] to use and pretty powerful overall, but
+- [00:36] it is just a big black box. Luckily
+- [00:40] though, LiveKit is different. LiveKit is
+- [00:43] an open-source Python framework for
+- [00:45] building your agents with code. So, it
+- [00:47] gives you full customization, control
+- [00:49] over your conversation logic, direct
+- [00:52] integrations with your tools and MCP
+- [00:54] servers, and you can actually self-host
+- [00:56] everything or deploy your agents to the
+- [00:59] LiveKit cloud. It's fast, it's reliable,
+- [01:02] it's very scalable, and I know you're
+- [01:04] probably thinking it's going to be a lot
+- [01:05] more complex than something like Vappy
+- [01:07] or Bland, but it actually isn't. It's
+- [01:09] really easy to build agents with
+- [01:10] LiveKit. And that's what I'm going to
+- [01:11] show you super quickly in this video.
+- [01:14] How easy it is to get started building
+- [01:16] simple agents where you can customize
+- [01:18] your tools and the different models for
+- [01:20] text to speech and speech to text. I'll
+- [01:22] show you how we can build a voice agent
+- [01:24] locally and then even deploy it to the
+- [01:26] cloud and interact with it in our
+- [01:28] browser. So this GitHub repository that
+- [01:30] we're looking at right here, I will have
+- [01:31] linked in the description. It is a great
+- [01:33] place to get started. And a lot of what
+- [01:35] I'm going to be guiding you through
+- [01:36] today is based on the examples that they
+- [01:38] have here. So we have this first quick
+- [01:40] start and also scrolling down they have
+- [01:41] a lot of different examples. You can
+- [01:43] explore the different kinds of voice
+- [01:45] agents that we can build with live kits.
+- [01:47] They got a basic starter one that can
+- [01:49] deal with background audio like having
+- [01:51] that play as the agent is talking,
+- [01:53] dynamic tool creation, building an
+- [01:55] outbound caller and they have a lot of
+- [01:57] cool integrations with things like
+- [01:58] Twilio. We have MCP support. I'll show
+- [02:01] you that later as well. Video avatars.
+- [02:04] There's so many things that they offer.
+- [02:05] But right now, I want to cover building
+- [02:08] the most basic version of a LiveKit
+- [02:10] agent. Then we'll build on top of that
+- [02:12] over time so you can see how to really
+- [02:14] customize it. Building the kind of thing
+- [02:16] that we aren't going to be able to do
+- [02:17] with an out-of-the-box tool like Bland,
+- [02:20] Vappy, or Synthflow. So, I will have
+- [02:22] this repository linked in the
+- [02:23] description as well. This is where we'll
+- [02:25] be building the agents live that I have
+- [02:27] for you today. What you can take as a
+- [02:29] foundation and build on top of to create
+- [02:31] really anything that you want. And if
+- [02:33] you want to read through this whole
+- [02:34] readme, I've got setup instructions for
+- [02:36] everything. But right now, I just want
+- [02:38] to dive right in and build with you. So,
+- [02:40] let's open up our first basic agent. I'm
+- [02:42] going to actually create this section by
+- [02:45] section from scratch to show you how
+- [02:47] easy it is. The first thing we need to
+- [02:49] do in Python is import all the
+- [02:52] dependencies that we have from LiveKit.
+- [02:54] You can see some different providers
+- [02:56] here for part of our voice pipeline.
+- [02:58] More on that in a little bit. We're
+- [02:59] going to load our environment variables
+- [03:01] including things like our OpenAI API
+- [03:03] key. And then we're going to create a
+- [03:05] agent class. So we're calling it
+- [03:07] assistant. It's based on the agent class
+- [03:09] that we're importing from LiveKit.
+- [03:11] Everything that we build going forward
+- [03:13] is going to be within this assistant
+- [03:15] class. And so we create up our agent and
+- [03:17] then we use this class to connect to
+- [03:19] LiveKit either self-hosted or in the
+- [03:22] cloud. And I'll show you at the end of
+- [03:23] this guide as well. And so first we have
+- [03:26] our init function. And this is where we
+- [03:27] get to specify the system prompt for our
+- [03:30] voice agent. I'm just keeping it very
+- [03:32] very basic here. And then we have our
+- [03:34] entry point. So this is what is called
+- [03:36] when we are trying to use our agent for
+- [03:39] the first time when a user calls into
+- [03:41] it. However, we are invoking it. And so
+- [03:43] we create what is called an agent
+- [03:45] session. And there's a lot of different
+- [03:46] parameters that we can set here to tweak
+- [03:49] our agent. A few of the most important
+- [03:51] ones that I have here is all about
+- [03:53] creating what is called the voice
+- [03:55] pipeline because the way that it works
+- [03:57] with LiveKit is you have your
+- [03:59] speechtoext model that sits at the front
+- [04:02] and then it goes to the large language
+- [04:04] model. So whatever speech it transcribes
+- [04:06] into text it goes to the LLM to get the
+- [04:09] response and then the response goes
+- [04:11] through a texttospech model so that we
+- [04:13] have the voice come out the other end
+- [04:15] for us as the end user. And there are
+- [04:17] also voicetovoice options with the
+- [04:19] OpenAI real-time API for example. So
+- [04:22] there's quite a few different things
+- [04:23] that you can set up in LiveKit if you
+- [04:25] wanted to use Enthropic for the LLM
+- [04:27] instead or Cartisia for speech to text.
+- [04:29] There's a lot of different providers
+- [04:30] that are available if you want to check
+- [04:32] that out in the LiveKit documentation.
+- [04:35] But this is our session where we define
+- [04:37] our voice pipeline. And now we get to
+- [04:39] start the session. So in the entry point
+- [04:41] we're invoking our agent. Now we're
+- [04:43] starting the session creating a room.
+- [04:45] This is where we maintain the
+- [04:46] conversation history between the user
+- [04:49] and the voice agent. And we're just
+- [04:50] passing in our agent because obviously
+- [04:52] that's what we want to use for this room
+- [04:54] session. And then the other thing that
+- [04:57] we're going to do is generate an initial
+- [04:59] greeting. And so at any point in our
+- [05:02] agent code, we're able to generate
+- [05:04] replies. That's one of the more
+- [05:06] customizable components we have to live
+- [05:08] kit that we don't have with something
+- [05:09] else. like in our Python code anywhere
+- [05:11] we want. We can just inject it to say
+- [05:14] something based on the instructions that
+- [05:16] we give it. And so when we kick off the
+- [05:17] session, the user doesn't actually have
+- [05:19] to be the first one to talk. We can have
+- [05:21] it generate something. And so we're
+- [05:22] telling it at a high level, this is
+- [05:24] literally just a prompt to an LLM.
+- [05:26] Basically, we're telling it to greet the
+- [05:27] user warmly in some way. And you can
+- [05:29] tweak this however you want. And then
+- [05:31] this is the very last thing that we have
+- [05:33] to do. All we have to do when we start
+- [05:35] this script here, the LiveKit basic
+- [05:37] agent.py, Pi is we're calling the
+- [05:39] CLI.run app and then we're passing in
+- [05:42] this entry point where we have the whole
+- [05:44] agent session and room and greeting set
+- [05:46] up. That is it. 52 lines of code.
+- [05:48] Congratulations. You've already created
+- [05:50] your first live kit agent. It is that
+- [05:53] easy. And so let's test it out right
+- [05:54] now. Then I'll show you how you can
+- [05:56] start to really add in the fun stuff.
+- [05:57] All right, so back over to the Remi cuz
+- [05:59] I have instructions for running
+- [06:00] everything. If it is your first time
+- [06:02] executing this LiveKit agent, you do
+- [06:04] need to download the model files for it.
+- [06:06] I already have that run. So I'm going to
+- [06:07] go right to running the console command.
+- [06:09] So whenever we invoke a LiveKit agent
+- [06:11] through a Python script, there's a few
+- [06:13] different options that we have as these
+- [06:15] commands that we have as just like the
+- [06:16] last argument here. Console is how we
+- [06:18] get to use our agent in the command
+- [06:21] line. So let's go ahead and run this and
+- [06:23] listen to this conversation here. It'll
+- [06:24] even start by giving us a greeting. So
+- [06:27] here we go.
+- [06:27] >> Hi there. How can I assist you today?
+- [06:30] >> Hey, in five words, tell me what is so
+- [06:32] cool about LiveKit. scalable, real time,
+- [06:35] open-source video.
+- [06:37] >> All right, it sounds really, really
+- [06:39] good. Cool. Okay, so I'm going to go
+- [06:40] ahead and close out of this here. Things
+- [06:42] are working perfectly. So that is our
+- [06:44] super basic test. There's nothing fancy
+- [06:46] with our voice agent at this point
+- [06:48] because we haven't given it anything
+- [06:49] special through tools. So now let's go
+- [06:51] ahead and add a tool to our agent. And
+- [06:54] watch this because if you blink, you're
+- [06:56] going to miss it. There we go. All
+- [06:57] right, we have now added a tool to our
+- [07:00] LiveKit agent. It is as easy as creating
+- [07:02] any Python function and then adding the
+- [07:05] at@ function tool decorator. So when we
+- [07:08] create a function within the agent
+- [07:10] class, like I said, everything we're
+- [07:12] adding is just within the agent class
+- [07:13] here. And we add this decorator, we're
+- [07:15] telling the LiveKit agent, here is a
+- [07:17] capability that you have. And the dock
+- [07:20] string, this comment that we have at the
+- [07:22] top of the function is going to tell the
+- [07:24] agent when and how to use this tool. So
+- [07:26] we can do things like specify the
+- [07:28] arguments that we have here. So it's
+- [07:30] exactly the same as when we add tools
+- [07:32] into our agents with pedantic AI or crew
+- [07:35] AI. It works in just the same way.
+- [07:36] LiveKit really is just another AI agent
+- [07:39] framework, but for building voice agents
+- [07:41] in particular. It's very very cool. And
+- [07:43] so this function is just a basic one in
+- [07:45] general to get the current date and time
+- [07:47] because large language models due to
+- [07:49] their training cutoff don't actually
+- [07:50] have that by default. And so I'm going
+- [07:52] to go ahead and save this agent. Go back
+- [07:54] over to my terminal and let's invoke it
+- [07:56] again and this time ask it what the
+- [07:58] current time is. Can you tell me what
+- [07:59] the current time is, please?
+- [08:01] >> Current time is 4:21 p.m. on October
+- [08:04] 3rd, 2025. Is there anything?
+- [08:07] >> All right, that is looking really good.
+- [08:08] And you can see that it used the get
+- [08:10] current date and time function just like
+- [08:12] we have defined in our Python code. And
+- [08:14] then just for fun, let's add a couple
+- [08:16] more tools to this agent. So, I'm going
+- [08:18] to turn it into an Airbnb assistant that
+- [08:21] can help me with searching and booking.
+- [08:23] And so, to keep it simple, I'll have
+- [08:24] mock data for a bunch of available
+- [08:26] Airbnbs. And then I'll create one tool
+- [08:29] to search for Airbnbs. And so the
+- [08:31] parameter here is the city that we're
+- [08:33] searching in. So the LLM will actually
+- [08:35] decide this parameter when it decides to
+- [08:37] invoke the search Airbnbs tool. And we
+- [08:40] specify the arguments in this dock
+- [08:42] string as well because that is included
+- [08:44] as a part of the prompt to our LiveKit
+- [08:46] agent. And again, this is just using a
+- [08:48] bunch of mock data here. And then I'll
+- [08:50] just add another tool so that we can
+- [08:52] actually book the Airbnb. And if any of
+- [08:54] these arguments it doesn't actually know
+- [08:56] yet from our conversation, then it will
+- [08:58] clarify with us. So cool. I'm going to
+- [09:00] go ahead and save this, go back over
+- [09:02] into our terminal, and let's invoke our
+- [09:04] agent for the third time.
+- [09:05] >> Hi, welcome. How can I assist you with
+- [09:07] your Airbnb plans today?
+- [09:09] >> All right, tell me the top Airbnb in San
+- [09:11] Francisco. Really quickly here,
+- [09:12] >> here are three top Airbnbs in San
+- [09:15] Francisco. One, Cozy Downtown Loft, $150
+- [09:19] per night.
+- [09:20] >> Okay, cool. I am sold on the Cozy
+- [09:22] Downtown Loft already. I want to go
+- [09:23] ahead and book that right now.
+- [09:25] >> Great choice. Could you please provide
+- [09:27] thee with your name and the check-in and
+- [09:29] checkout dates for your stay?
+- [09:31] >> Cole, I'll go ahead and check in on
+- [09:32] November 1st and I'll check out on
+- [09:34] December 30th.
+- [09:35] >> You're booking for the cozy downtown
+- [09:37] loft from November 1st to December 30th
+- [09:39] is confirmed. Cole,
+- [09:41] >> you'll get a Let's go. Cool. All right,
+- [09:42] I'm going to go edit in this ear.
+- [09:44] Looking really good. So, there we go. We
+- [09:46] have some mock data here for Airbnb. So,
+- [09:48] it's not really a voice agent that's
+- [09:50] doing something for us, but if we were
+- [09:51] really using the Airbnb API, this would
+- [09:54] be a super solid voice agent that can
+- [09:55] help us find our Airbnbs. Pretty cool.
+- [09:58] Now, I thought it would be fun to
+- [09:59] actually show you using the real Airbnb
+- [10:02] API in the LiveKit agent. This is a bit
+- [10:05] off the cuff, so I'm not going to dive
+- [10:06] super deep into this right now. I do
+- [10:08] actually have a video coming out next
+- [10:10] week on the Docker MCP catalog, so check
+- [10:13] that out. Stay tuned for that because
+- [10:14] that's how we're going to get quick
+- [10:16] access to the Airbnb MCP server. And so
+- [10:20] this won't actually book an Airbnb for
+- [10:22] us. I want to be really clear on that.
+- [10:24] It's probably a good thing. We don't
+- [10:24] want our agent to book on our behalf,
+- [10:26] but it's actually real search finding
+- [10:28] real Airbnbs for me now instead of using
+- [10:31] the mock data. So I've got this added to
+- [10:33] my servers here. And then I am running
+- [10:36] the MCP gateway from Docker so that I
+- [10:39] have this ready to be connected to from
+- [10:41] my LiveKit agent. And I'm going to be
+- [10:43] covering all of this in the Wednesday
+- [10:44] video on the Docker MCP catalog. So
+- [10:46] again, stay tuned for that. So it's
+- [10:48] running the streamable HTTP protocol on
+- [10:51] port 8089. So you'll see given that how
+- [10:54] we connect to it in LiveKit in just a
+- [10:56] little bit here. So I have a second
+- [10:59] agent where I have this MCP integration.
+- [11:02] And there are some differences between
+- [11:05] this script and the last basic agent
+- [11:08] even besides the MCP stuff. I was just
+- [11:10] playing around with more features in
+- [11:11] LiveKit. Just showing you some things
+- [11:13] like we can fire off certain events
+- [11:15] within the whole conversation flow like
+- [11:17] when the user starts speaking or stops
+- [11:19] speaking. We can have custom logic built
+- [11:21] in. So just trying to give you a little
+- [11:23] bit of an idea of how we can continue to
+- [11:25] extend and customize LiveKit agents even
+- [11:27] more. Like it definitely is a lot more
+- [11:30] you can than what you can do with other
+- [11:31] platforms like Vappy. And then we have
+- [11:33] the MCP servers. Literally all we have
+- [11:35] to do it's so easy. We have our agent
+- [11:38] session here defined in pretty much the
+- [11:40] same way with our whole voice pipeline.
+- [11:42] And then all I have to do is add the MCP
+- [11:45] servers. This is just a list of all the
+- [11:47] servers that I want to connect to. So we
+- [11:49] have streamable HTTP for the Docker MCP
+- [11:52] gateway that I have running. And all I
+- [11:54] have to do because this is just running
+- [11:55] locally. There's no authentication. I
+- [11:57] just have to give the URL to my MCP
+- [12:00] server. It is that easy. And then boom,
+- [12:02] this agent is now connected. Let's go
+- [12:03] ahead and run it and use the real Airbnb
+- [12:06] API. All right, back in the terminal,
+- [12:08] let's run a very similar command, but
+- [12:10] this time for our MCP agent instead of
+- [12:12] our basic one.
+- [12:13] >> Hello. How can I assist you today?
+- [12:15] >> Uh, I want you to search for Airbnbs
+- [12:18] around Minneapolis, Minnesota that I can
+- [12:19] book for this week. Just give me the top
+- [12:21] one really quickly here.
+- [12:22] >> The top Airbnb listing in Minneapolis
+- [12:24] for this week is a studio in historic
+- [12:27] Brownstone, downtown MLS. It has one
+- [12:30] bedroom with one queen bed, a rating of
+- [12:33] 4.79.
+- [12:34] >> Really, really good. Cool. I'm going to
+- [12:35] stop it here. So perfect. We are now
+- [12:37] using a real Airbnb API call to get that
+- [12:40] Airbnb. So cool. That's everything that
+- [12:42] I have for you for building LiveKit
+- [12:44] agents. It really is easy and powerful.
+- [12:47] And the last thing that I want to show
+- [12:48] you is how we can take our LiveKit agent
+- [12:50] that we've been running locally and
+- [12:52] actually deploy it to the cloud. So we
+- [12:54] can interact with it in the browser. And
+- [12:57] I'll even speak to how you can set up a
+- [12:58] phone integration so you can actually
+- [13:00] have a phone number with your LiveKit
+- [13:02] agent behind it. Now, before we get into
+- [13:05] that, the last thing that I want to say
+- [13:06] as far as building agents and the tools
+- [13:09] that we have for this, there's a
+- [13:11] workshop that I did in the Dynamis
+- [13:12] community where I built a more advanced
+- [13:14] LiveKit agent also with the help of
+- [13:16] Archon that has a complete rag
+- [13:19] implementation behind it. And so,
+- [13:21] definitely come check out dynamis.ai if
+- [13:23] you're interested in workshops like
+- [13:24] this. The recording for this is
+- [13:26] available for you immediately when you
+- [13:27] join the community. And there's a ton of
+- [13:29] other resources that we have in here for
+- [13:32] building AI agents and working with AI
+- [13:34] coding assistants. So I just want to
+- [13:35] mention that really quick because I have
+- [13:36] already covered LiveKit in the Dinest
+- [13:38] community. But with that, let's go ahead
+- [13:40] and take our basic agent that we have
+- [13:42] here and now deploy it to the cloud. Now
+- [13:46] I've got custom instructions in the
+- [13:48] readme to make the deployment to the
+- [13:50] cloud as simple as possible. But it is
+- [13:52] all based on the voice AI quickart that
+- [13:55] we have here in the live kit docs. This
+- [13:57] is a little bit more complex because it
+- [13:59] assumes you don't have an agent yet. We
+- [14:02] already have one. So that's why I have
+- [14:03] my own instructions for you. And so
+- [14:06] following this, we can either deploy to
+- [14:08] the LiveKit cloud, which is what we're
+- [14:10] going to be doing just because it's the
+- [14:11] fastest and most convenient, but you can
+- [14:14] also self-host because LiveKit is free
+- [14:16] open source. You can run all of the
+- [14:18] infrastructure if you want complete
+- [14:20] control for your voice agents. Now
+- [14:23] LiveKit is not sponsoring this video or
+- [14:25] anything. I just want to deploy to my
+- [14:27] cloud platform here because it is the
+- [14:28] easiest to show you how to get started.
+- [14:30] And so you can host your first agent
+- [14:32] completely for free. I'm not paying for
+- [14:34] anything for LiveKit or for Deepgram in
+- [14:37] this video. Literally just my OpenAI API
+- [14:39] key is the only thing that I have to pay
+- [14:40] a single scent for. So that's what we
+- [14:43] got going on here. Going back to the
+- [14:45] read me here. Let's go down to the
+- [14:47] instructions that I've got once we
+- [14:48] actually want to do our deployment. And
+- [14:51] so first thing you have to sign up,
+- [14:53] create your LiveKit cloud account. I got
+- [14:55] the link right here. And then you have
+- [14:57] to install the LiveKit CLI. So based on
+- [14:59] your operating system, there's a
+- [15:01] different command. I'm on Windows. And
+- [15:03] so in my terminal, I've already run this
+- [15:05] windget command. And then you need to
+- [15:07] authenticate with the LiveKit cloud. So
+- [15:10] you just run LK cloud off. So all of our
+- [15:13] CLI commands with LiveKit now is just
+- [15:15] going to be the LK command. And so it'll
+- [15:17] walk you through authenticating in the
+- [15:18] browser. and then you'll be good to go.
+- [15:21] Now, the next thing that you need to do
+- [15:23] is set up your environments. And this is
+- [15:25] where I'll actually go and show you
+- [15:27] running these commands alongside. So,
+- [15:29] I'll go in here, minimize this a little
+- [15:31] bit, and I will do lkapp env.
+- [15:34] What this is going to do is we just
+- [15:37] enter in all of the different
+- [15:38] environment variables that I have in
+- [15:40] thev.example
+- [15:42] for you. So we specify our openi API
+- [15:45] key. We specify our deepgram API key and
+- [15:48] then the large language model that we
+- [15:50] want to use for that part of our voice
+- [15:52] pipeline. And then just a couple of
+- [15:53] development settings. And so the live
+- [15:55] kit command will actually recognize the
+- [15:57] values we have in thev.ample and it'll
+- [16:00] set all of those with us. And then these
+- [16:02] three at the top for our live kit
+- [16:04] authentication. It actually does that
+- [16:06] automatically under the hood because we
+- [16:08] already did our authentication.
+- [16:10] And so I'm going to set these values off
+- [16:13] camerara. Like you can see I just like
+- [16:14] set this and then I set my deep API key.
+- [16:16] I'll set all of these off camera and
+- [16:18] I'll come back once that is done. All
+- [16:20] right, all my environment variables are
+- [16:21] entered. We are good to go. This will
+- [16:23] create av.local
+- [16:25] file. Just make sure that you rename it
+- [16:27] to env. And then moving on, the next
+- [16:30] thing that we can do is start our agent.
+- [16:33] So we have to run the start command
+- [16:35] first before we can run the deploy
+- [16:37] command because this sets up some
+- [16:38] configuration under the hood. So, I'm
+- [16:40] going to go ahead and copy this command.
+- [16:42] Go back into my terminal here and
+- [16:44] execute it. There we go. And so, once we
+- [16:46] run this start and it loads everything,
+- [16:48] then we can immediately exit out here.
+- [16:50] So, just control or command C to exit
+- [16:53] out in the terminal. And then we can go
+- [16:55] to create our agent. So, last time back
+- [16:58] into our terminal here, I deleted my
+- [17:00] previous agent because on the free tier
+- [17:02] I can only have one. So, I'll do lk
+- [17:03] agent create. There we go. So, it'll
+- [17:06] have us use the org that we
+- [17:08] authenticated with. We can select our
+- [17:10] ENV file for our secrets. And we will
+- [17:12] select the agent that we want to deploy,
+- [17:14] which I'm going to do the basic agent in
+- [17:16] this case with just all the mock tool
+- [17:17] calls because we can't use the MCP
+- [17:19] server remotely. And there we go. Now,
+- [17:20] it's going to go ahead and create the
+- [17:22] Docker file and deploy everything to the
+- [17:25] LiveKit cloud and will be immediately
+- [17:27] usable for us. So, I'll pause and come
+- [17:29] back again once we have that ready to
+- [17:30] go. All right, our agent is now deployed
+- [17:33] and we can also see it within our cloud
+- [17:35] dashboard as well. And now going into
+- [17:37] our playground, which I'll link to this
+- [17:39] in the description as well. We can
+- [17:40] immediately test talking to our LiveKit
+- [17:42] agent in the browser. So we just have to
+- [17:44] select our organization and it
+- [17:46] automatically connects us to the agent
+- [17:48] that we just deployed through the CLI.
+- [17:50] Take a look at this.
+- [17:51] >> I can assist you with Airbnb related
+- [17:53] request.
+- [17:53] >> Go ahead and find me the top Airbnb in
+- [17:56] San Francisco.
+- [17:57] >> The top Airbnbs in San Francisco are one
+- [18:01] cozy downtown loft.
+- [18:03] >> Stop it here. We obviously got the same
+- [18:05] answer that we did running things
+- [18:06] locally. So we now have our agent pretty
+- [18:09] much in a production environment and you
+- [18:11] can even go so far as to take advantage
+- [18:14] of their telephone integrations. You can
+- [18:16] have a phone number for your agent and
+- [18:18] that really is the end goal for most
+- [18:20] voice agents. Not going to cover it
+- [18:22] here, but let me know if you'd want me
+- [18:23] to do a separate video covering this
+- [18:25] integration for LiveKit. Really taking
+- [18:27] it further. There's a lot of other
+- [18:29] things that I could cover as well, like
+- [18:30] multi- aent workflows within LiveKit,
+- [18:33] advanced tool integrations, so many more
+- [18:35] ideas that I have. So, let me know in
+- [18:36] the comments what you'd want me to cover
+- [18:38] for LiveKit next. I definitely want to
+- [18:39] do more content for LiveKit because I'm
+- [18:42] just blown away everything we're able to
+- [18:44] build so easily and customize things
+- [18:46] because it is all Python code. So, if
+- [18:49] you appreciate this video and you're
+- [18:50] looking forward to more things on voice
+- [18:52] agents and AI agents in general, I would
+- [18:55] really appreciate a like and a
+- [18:56] subscribe. And with that, I will see you
+- [18:58] in the next

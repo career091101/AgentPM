@@ -1,0 +1,308 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=rMO_P4nnATI"
+video_id: "rMO_P4nnATI"
+video_url: "https://www.youtube.com/watch?v=rMO_P4nnATI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["marketing", "AI", "machine_learning", "growth"]
+topics: ["成長戦略", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=rMO_P4nnATI
+  - Retrieved at: 2025-12-30T16:27:12+09:00
+  - [00:00] We've all heard of Nan. It's an
+key_points:
+  - "- [03:19] account. To get started, you need to pay"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: rMO_P4nnATI
+
+- URL: https://www.youtube.com/watch?v=rMO_P4nnATI
+- Retrieved at: 2025-12-30T16:27:12+09:00
+
+## Text
+
+- [00:00] We've all heard of Nan. It's an
+- [00:02] open-source AI agent, an automation
+- [00:05] platform that lets you build and deploy
+- [00:07] agents locally to automate almost
+- [00:09] anything from sending out emails to
+- [00:12] creating digital employees that can act
+- [00:14] as a PM, software engineer, and so many
+- [00:16] other roles. The challenge with NE
+- [00:19] though is that it can feel quite
+- [00:20] intimidating for new users. There are a
+- [00:23] lot of components to actually manage and
+- [00:25] translating an idea into a workflow
+- [00:27] often requires deep awareness with the
+- [00:30] tool. That's where Deep Agent comes in.
+- [00:32] Deep Agent is a general AI super agent
+- [00:35] that can practically do it all. It's an
+- [00:37] all-in-one AI agent, but now they
+- [00:39] introduced a new N style visual workflow
+- [00:42] builder that dynamically is easier to
+- [00:45] use because it's powered by natural
+- [00:47] language prompts and an agentic
+- [00:49] reasoning layer using state-of-the-art
+- [00:51] models. So instead of just manually
+- [00:53] wiring every step with the visual
+- [00:55] builder, Heap Agent is going to let you
+- [00:57] generate, adapt, and optimize workflows
+- [01:00] based on the goals, constraints, and
+- [01:02] real [music] world inputs. The workflow
+- [01:04] acts as the execution engine while the
+- [01:06] AI model serves as the planner, the
+- [01:09] decision maker, and bringing the AGI
+- [01:11] narrative into real practical business
+- [01:14] automation. You can obviously get
+- [01:15] started with the low code workflow
+- [01:17] builder where you can use it to drag and
+- [01:20] drop different nodes to build out your
+- [01:22] automation or you can use the natural
+- [01:24] language workflow which I just mentioned
+- [01:26] where you simply describe the outcome
+- [01:27] you want and deep agent builds the
+- [01:29] entire pipeline then reviews it
+- [01:31] refineses it so that it is ready to use.
+- [01:34] Just take a look at this example where
+- [01:36] DP agent automatically creates a
+- [01:38] multi-step workflow. And this is an
+- [01:40] automation to automate data extraction
+- [01:43] and also creating a report based off of
+- [01:45] the various sorts of files that you
+- [01:47] upload. You can see that it meticulously
+- [01:49] creates a pretty intricate workflow that
+- [01:52] has different sorts of functionalities
+- [01:54] where it calculates the growth, the year
+- [01:57] uh growth calculation, the profit margin
+- [01:59] and so many other KPIs and it then
+- [02:01] organizes the data into structured
+- [02:03] financial outputs with various sorts of
+- [02:06] metrics and you can see that it's able
+- [02:08] to end up creating a clear auditable
+- [02:10] pipeline as well as a report and this
+- [02:13] overall automates the process of data
+- [02:15] entry as well as data extraction. and
+- [02:17] then creating an analysis on top of it.
+- [02:20] Here is another workflow that was built
+- [02:22] off of a natural language prompt that
+- [02:24] was sent in. And the purpose of this
+- [02:26] workflow is to extract various sorts of
+- [02:28] leads and then have an AI agent work on
+- [02:31] the outreach on tackling those new leads
+- [02:34] that it had found. And you can see that
+- [02:36] it's able to draft up different emails
+- [02:38] and it's able to even send out those
+- [02:40] emails for you. And what you can also do
+- [02:42] is have a follow-up agent directly built
+- [02:46] based off of the natural language prompt
+- [02:47] that you send in to Abacus's AI's deep
+- [02:50] agent, which will work on tackling each
+- [02:52] and every component of your workflow. So
+- [02:54] you can edit and configure each node
+- [02:57] based off of the prompt that you send
+- [02:58] in. And this way you can automate a
+- [03:00] simple task like this. And you can even
+- [03:02] have it so that you can automate this
+- [03:04] task of reaching out to new brands to
+- [03:07] maybe secure new clients. But thanks to
+- [03:09] Abacus AI for sponsoring today's video.
+- [03:12] And to get started, you can use the link
+- [03:13] in the description below and you can
+- [03:15] head over to this page where you can
+- [03:17] simply get started if you do not have an
+- [03:19] account. To get started, you need to pay
+- [03:21] approximately $10 per user build
+- [03:23] monthly. But that is going to get you
+- [03:25] access to obviously the agent which not
+- [03:27] only has the capability to use the AI
+- [03:30] workflow feature, but you can create
+- [03:32] chat bots, create powerpoints, automate
+- [03:34] browser based tasks, and so much more.
+- [03:36] And not just that, you get access to
+- [03:38] various sorts of abacus AI suite of
+- [03:40] tools like chat LM where you can chat
+- [03:42] with state-of-the-art models like Claude
+- [03:44] 4.5 Sonnet or something like Gemini
+- [03:47] directly in one unified chatbot. You can
+- [03:50] also use their state-of-the-art abacus
+- [03:52] AI desktop agent which is a coding agent
+- [03:54] and editor built within and you can get
+- [03:57] a lot out of that. I've already made
+- [03:59] multiple videos on it so you can take a
+- [04:00] look at it from my channel. But now
+- [04:02] let's go ahead and click on get started.
+- [04:04] Before we get started, I just want to
+- [04:06] mention that you should definitely go
+- [04:07] ahead and subscribe to the world of AI
+- [04:09] newsletter. I'm constantly posting
+- [04:11] different newsletters on a weekly basis.
+- [04:14] So, this is where you can easily get
+- [04:16] up-to-date knowledge about what is
+- [04:18] happening in the AI space. So,
+- [04:20] definitely go ahead and subscribe as
+- [04:21] this is completely for free. Then once
+- [04:24] you have created an account or logged
+- [04:26] in, you can then head over to deep agent
+- [04:28] and this is where you can start working
+- [04:30] with the new AI workflow feature. This
+- [04:33] is where you can either upload files or
+- [04:35] you can use a fast mode to generate your
+- [04:37] workflow. But since I want to have it
+- [04:39] meticulously create my workflow, I'm
+- [04:41] going to add it a descriptive prompt as
+- [04:44] to what I wanted to create. This is
+- [04:46] where I am creating an agentic lead
+- [04:48] extraction workflow that accepts
+- [04:50] different sorts of inputs like the demo
+- [04:52] one. But in this case I wanted to have
+- [04:54] it so that it then creates a full
+- [04:57] detailed report a summary report which
+- [04:59] is ensuring all the data is traceable to
+- [05:02] sources and logging it for step-by-step
+- [05:05] audibility. So it is going to then work
+- [05:08] on refining it before it works on
+- [05:10] creating it. So you can specify the
+- [05:13] clarification that it's requesting. And
+- [05:15] after providing the additional
+- [05:16] information, you can see that it is
+- [05:18] going to then execute the code to then
+- [05:21] develop this workflow. And you can see
+- [05:23] that it does a great job and it details
+- [05:26] out each and every step. And you'll see
+- [05:29] this when it finishes coding out this
+- [05:31] workflow. You can then access it and
+- [05:34] you're going to be able to visualize the
+- [05:35] workflow to see what it actually built.
+- [05:38] And once it finishes generating the
+- [05:40] workflow, you can then access it
+- [05:41] directly by testing and editing the
+- [05:44] actual visual workflow. And this is
+- [05:46] where it'll display the nodes condensed
+- [05:49] down for the lead extraction and scoring
+- [05:51] pipeline. You can then also test it out
+- [05:54] directly where you can click on test
+- [05:56] workflow and you can see what you can
+- [05:58] actually extract with this workflow. So
+- [06:00] you have the option of either providing
+- [06:02] a URL, plain text, email content, or
+- [06:06] priority roles that you want to have it
+- [06:08] extract. In this case, I am going to
+- [06:10] attach a demo leads uh file. And
+- [06:13] essentially, we're going to have it
+- [06:14] extract the contents that we're looking
+- [06:16] for. You can simply go ahead and click
+- [06:18] submit. And now the AI is going to work
+- [06:21] towards these multiple steps to extract
+- [06:23] everything for us. And once it finishes
+- [06:26] extracting the contents, you'll see that
+- [06:28] it is going to then create a complete
+- [06:30] leads list. Now, in this demo, I didn't
+- [06:33] provide all of the details because
+- [06:35] YouTube doesn't like it when I showcase
+- [06:37] emails or phone numbers. But in this
+- [06:39] case, it was able to extract the website
+- [06:41] contents, the company name, as well as
+- [06:44] the URL. And then if it is related to
+- [06:47] whatever we're looking to extract, like
+- [06:50] the high intent leads, then it will
+- [06:52] display it over here based off of the
+- [06:54] scoring. And then it can even generate
+- [06:56] an audit. Uh it will also generate an
+- [06:59] executive summary report which we can
+- [07:01] actually take a look at. This is where
+- [07:03] it will describe how many types of A
+- [07:07] tier, Btier, Ctier leads it had found.
+- [07:10] And you can see that this is uh giving
+- [07:13] us a low priority because it does not
+- [07:15] fit our scoring here that we had
+- [07:17] created. And it provides us the
+- [07:19] executive summary of the performance of
+- [07:21] the leads that it caught. Here is
+- [07:24] another demo where I simply just
+- [07:25] requested it to create a an Aentic
+- [07:28] invoice data extraction workflow. And
+- [07:30] this is where it extracts different
+- [07:32] sorts of contents from various sorts of
+- [07:34] file types. And then it creates a
+- [07:36] summary off of that as well. But here
+- [07:39] within the workflow builder, you have
+- [07:41] the ability to craft up your own
+- [07:43] workflow. So rather than relying on the
+- [07:45] AI to build out all your components, you
+- [07:47] can add in different sorts of nodes. And
+- [07:49] these are basic function nodes that make
+- [07:52] your automation truly what it is. So you
+- [07:55] can add in a tool or you can add in a
+- [07:57] decision which is where you can add a
+- [08:00] condition which is only executing when a
+- [08:02] certain condition is met or based off of
+- [08:06] whenever you get an email or something
+- [08:08] like looping the node so that it works
+- [08:10] in a continuous loop. There's so many
+- [08:12] different types of nodes within these
+- [08:14] four primary templates. But you also
+- [08:17] have the ability to create a custom node
+- [08:19] where you can describe the AI that you
+- [08:22] want to configure the node with and it
+- [08:24] is then going to create a node for that.
+- [08:26] So in this case I had created a Python
+- [08:29] execution node and you can then connect
+- [08:31] it to either an input or so that you can
+- [08:35] have it so that it outputs something and
+- [08:38] then delivers it to whoever is accessing
+- [08:40] it. But just take a look at it live in
+- [08:42] action. This is where you can upload
+- [08:44] your PDF of an invoice and then it's
+- [08:46] going to work on extracting the key uh
+- [08:49] components that we're looking for like
+- [08:51] the tax, total amount, currency, and
+- [08:53] then it will validate tools against line
+- [08:55] items. It'll flag inconsistencies and
+- [08:58] then it's going to structure all of the
+- [09:00] results into an output. That is where it
+- [09:03] will also combine a combined invoice
+- [09:05] table and a summary report. So you can
+- [09:08] upload multiple invoices in this case
+- [09:10] and it is going to extract the key
+- [09:12] components that we're looking for. And
+- [09:14] you can see that it was able to extract
+- [09:15] the contents based off of that single
+- [09:17] invoice that was provided. It passed the
+- [09:19] validation as well. And it was able to
+- [09:22] extract all of the components from this
+- [09:24] sample PDF. And you can see that it was
+- [09:26] able to get everything correctly which
+- [09:28] is great to see. And it is also going to
+- [09:31] generate the JSON export so that you can
+- [09:33] use it for whatever purpose you're
+- [09:35] looking to use it for. automations truly
+- [09:37] got a lot more easier with this new
+- [09:40] workflow feature. And I highly recommend
+- [09:42] that you start using this with the links
+- [09:43] in the description below because not
+- [09:45] only do you get access to the workflow
+- [09:47] builder, which you can easily create
+- [09:49] with a simple prompt, but you get access
+- [09:51] to so many other cool things like the
+- [09:53] ability to create chat bots, different
+- [09:56] sorts of powerpoints, videos, and so
+- [09:58] much more. I'll leave all these links in
+- [10:00] the description below. But with that
+- [10:01] thought, guys, thank you guys so much
+- [10:02] for watching. Make sure you go ahead and
+- [10:04] subscribe to the second channel, join
+- [10:05] the newsletter, join our Discord, follow
+- [10:07] me on Twitter, and lastly, make sure you
+- [10:09] guys subscribe, turn on notification
+- [10:10] bell, like this video, and please take a
+- [10:12] look at our previous videos because
+- [10:13] there is a lot of content that you will
+- [10:15] truly benefit from. But with that
+- [10:16] thought, guys, have an amazing day,
+- [10:18] spread positivity, and I'll see you guys
+- [10:20] fairly shortly. He suffers.

@@ -1,0 +1,376 @@
+---
+title: "YouTube Video: 4OOS96i2gfI"
+video_id: "4OOS96i2gfI"
+video_url: "https://www.youtube.com/watch?v=4OOS96i2gfI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Tutorial"
+summary: |
+  So, I've built hundreds of AI agents and AI workflows, which means I've made hundreds of mistakes building my AI agents and my AI workflows. So, in this video, I'm going to be talking about the four d...
+key_points:
+  - "top. And really the most important thing"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 4OOS96i2gfI
+
+- URL: https://www.youtube.com/watch?v=4OOS96i2gfI
+- Retrieved at: 2025-12-30T09:34:27+09:00
+
+## Text
+
+- [00:00] So, I've built hundreds of AI agents and
+- [00:01] AI workflows, which means I've made
+- [00:03] hundreds of mistakes building my AI
+- [00:05] agents and my AI workflows. So, in this
+- [00:07] video, I'm going to be talking about the
+- [00:08] four different layers of the AI systems
+- [00:10] pyramid. And for each layer, I'll talk
+- [00:12] about when you would actually use it and
+- [00:13] a real example that I either use or have
+- [00:16] built in the past. I also teach and
+- [00:18] coach thousands of people who are
+- [00:19] building AI systems for businesses. So,
+- [00:21] this isn't just a gut feeling. This is
+- [00:23] actually what I'm seeing in the space as
+- [00:25] one of the most common issues. So, I
+- [00:27] don't want to waste any time. Let's get
+- [00:28] straight into the video. So here is the
+- [00:30] pyramid that I was referring to where
+- [00:31] you can see we have four different
+- [00:32] layers. We have custom GPTs or cloud
+- [00:34] projects or things similar to those at
+- [00:37] the bottom as the foundation and we move
+- [00:39] all the way up to the top with our AI
+- [00:40] agents. And as we move up the pyramid we
+- [00:43] increase in complexity, cost and
+- [00:45] maintenance. So we've got the custom
+- [00:47] GPTs, we've got simple workflow
+- [00:49] automation with no AI, we have AI
+- [00:51] workflows and then we have AI agents up
+- [00:53] top. And really the most important thing
+- [00:55] to understand is that all of these are
+- [00:57] great and they have their use cases, but
+- [00:59] it just kind of comes back to this idea
+- [01:00] of becoming a problem solver, not an AI
+- [01:03] agent builder. And this is something
+- [01:04] that I talk about a lot in my plus
+- [01:06] community. If you want to check it out,
+- [01:08] the link for that is down in the
+- [01:09] description. A lot of times people will
+- [01:10] come to you and they think they need AI
+- [01:13] or they know they need to start using
+- [01:14] AI, but they don't know exactly how. And
+- [01:16] they'll tell you what's going on. But
+- [01:18] your job isn't to say, "Here's what I
+- [01:20] will do with AI." Your job is to say,
+- [01:21] okay, let's actually understand the root
+- [01:23] of this problem and what is the most
+- [01:25] efficient solution that we can implement
+- [01:27] right away that will give you quick win
+- [01:29] that will, you know, keep your cost low
+- [01:31] and keep everything simple. And a lot of
+- [01:33] times the answer could just be a simple
+- [01:35] automation or a cloud project or maybe a
+- [01:38] SAS product that already exists out
+- [01:40] there. All right, so let's go ahead and
+- [01:41] start with this bottom layer. What
+- [01:43] actually is this bottom layer? Well, a
+- [01:46] custom GPT or project or gym is a
+- [01:49] conversational AI assistant that you're
+- [01:51] able to preconfigure with your own
+- [01:53] specific instructions, knowledge base,
+- [01:54] and voice. So, you can almost think of
+- [01:56] it as an intern who knows your company
+- [01:59] because you give it a prompt, you give
+- [02:01] it data, and then you ask it to help you
+- [02:03] out with things. And the defining
+- [02:04] characteristic here is that it's
+- [02:06] entirely reactive, meaning it doesn't
+- [02:08] scale a ton because it only actually
+- [02:10] works when you trigger it or when you
+- [02:12] initiate a conversation with it. And so
+- [02:14] there's a lot of use cases where people
+- [02:16] are telling me about how they do
+- [02:17] something manually and typically they
+- [02:18] will be triggered by a certain event and
+- [02:20] they will need to do something and they
+- [02:22] might need some sort of like back and
+- [02:23] forth loop or the ability to iterate. So
+- [02:26] for example with me every time I make an
+- [02:27] end YouTube tutorial if you guys have
+- [02:29] seen those in the past and I drop my
+- [02:31] templates in the community I typically
+- [02:32] have a sticky note in there that's like
+- [02:34] a setup guide. And this is a super
+- [02:36] repetitive process because it happens
+- [02:37] every time I post a YouTube video. So I
+- [02:39] needed to make some sort of system to
+- [02:41] help me do this quicker. But if I built
+- [02:43] an automation for it, it could
+- [02:44] effectively do the same thing, but I
+- [02:46] would still end up doing a lot of
+- [02:47] revision and it might be more manual
+- [02:49] than if I just set up a custom GPT and I
+- [02:52] gave it instructions about how to do the
+- [02:54] setup guide and different links that I
+- [02:55] like to use and things like that. And
+- [02:56] then if I need revisions, I'm already in
+- [02:58] that interface and I can just tweak it
+- [03:00] until I get something. And now that
+- [03:02] process for me is super quick and easy.
+- [03:04] All right, moving on to the second
+- [03:05] layer. This is simple workflow
+- [03:07] automation. So this is when you have a
+- [03:09] series of steps connected together that
+- [03:11] run automatically on some sort of
+- [03:13] trigger that follow pure if then
+- [03:15] conditional logic with zero AI
+- [03:18] intelligence. The defining
+- [03:19] characteristic here is that it's
+- [03:20] completely predictable. It's got the
+- [03:22] same trigger. It's got the same sequence
+- [03:23] and you have basically the same output.
+- [03:25] So it's a very deterministic flow with a
+- [03:27] predictable input and predictable
+- [03:29] sequence of steps and then predictable
+- [03:31] output. Now that doesn't mean we can't
+- [03:33] have something intelligent in here like
+- [03:35] polling. But once again, that polling
+- [03:36] check right here is based on did it
+- [03:38] either succeed or error. And that's
+- [03:41] black and white. There's no element of
+- [03:42] reasoning in there. And these are a step
+- [03:44] up from a custom GBT because these can
+- [03:47] run in the background while you sleep.
+- [03:49] It could be triggered when a meeting
+- [03:50] recording has been finished or it could
+- [03:52] be triggered every morning at 6 a.m.
+- [03:54] Things like that. Now, just one more
+- [03:56] step up from that is an AI workflow,
+- [03:58] which basically holds the same principle
+- [04:00] of a set amount of steps or a set
+- [04:03] sequence of steps in the same order
+- [04:05] every single time. But now we're able to
+- [04:07] use AI in there for a little bit of
+- [04:09] reasoning or output. So even though
+- [04:12] there's AI to do some planning and to do
+- [04:14] some writing and editing, it still
+- [04:16] happens in the same order where it goes
+- [04:17] 1 2 3 4 5 6 7 8 9 10. Now, another use
+- [04:22] case of adding AI into a workflow is
+- [04:23] maybe you need AI to understand which
+- [04:26] way to switch. So, like in this example,
+- [04:28] and here's another quick little setup
+- [04:29] guide. You can see that the AI right
+- [04:32] here classifies the incoming email and
+- [04:34] decides if it is going to be support or
+- [04:36] finance or priority or promotion. And
+- [04:39] that is because it would be really hard
+- [04:40] for traditional logic or code to be able
+- [04:43] to read the body of an email and the
+- [04:44] subject and then push it down one of
+- [04:47] these paths. It would really only be
+- [04:49] able to do that if it was looking for a
+- [04:50] specific keyword to trigger it. But in
+- [04:52] this case, we actually need AI to read
+- [04:54] and understand and then shoot it off in
+- [04:56] the right direction. But this is still a
+- [04:58] workflow because there's no full
+- [05:00] autonomy and decision-m. It's basically
+- [05:02] just one very narrow use case of AI and
+- [05:05] then we go right back into our
+- [05:06] traditional sequence of steps. So the
+- [05:08] defining characteristic here is fixed
+- [05:10] path with intelligent decisions. The
+- [05:12] workflow always follows the same
+- [05:13] structure, but AI makes contextawware
+- [05:15] choices within that structure. And
+- [05:17] actually, what I've seen when we've
+- [05:19] worked with businesses and when we've
+- [05:20] helped people work with businesses is
+- [05:22] that the majority of automations can be
+- [05:24] simple and they don't even need any AI.
+- [05:27] And I'm talking like 50% of automations
+- [05:29] that you could go in and build for a
+- [05:31] business right away. But then you start
+- [05:34] to get a little bit more complex or
+- [05:35] maybe on your traditional automations,
+- [05:37] you want to make them a little bit more,
+- [05:39] you know, increase the functionality.
+- [05:40] And that's where you may just need to
+- [05:41] add a little AI step at the end or in
+- [05:44] the beginning or something like that.
+- [05:45] But when you're just getting started
+- [05:46] with a business and you're helping them
+- [05:48] get more automation ready, the AI agent
+- [05:51] is almost never the right call to start
+- [05:53] off with right away. And even just
+- [05:55] helping teams integrate custom GPTs and
+- [05:57] Gemini gems and things like that into
+- [05:58] their daily workflow will also drive a
+- [06:00] ton of efficiency. So finally, let's
+- [06:02] take a look at an AI agent example. So
+- [06:05] what this actually is is an autonomous
+- [06:07] system that can work toward a goal by
+- [06:09] perceiving its environment, making
+- [06:10] decisions, calling tools, handling
+- [06:12] exceptions, and adapting its approach
+- [06:14] because it is basically fully autonomous
+- [06:16] here. So as you can see with the
+- [06:18] defining characteristic, true agency and
+- [06:20] autonomy. You give it a goal and it
+- [06:22] figures out I have these five tools,
+- [06:24] which ones do I use and in what order do
+- [06:26] I use them to achieve said goal? So in
+- [06:29] this case, this was a marketing team
+- [06:30] that I did for a YouTube video. And you
+- [06:32] can see that it got a request from a
+- [06:34] human via Telegram and it used its brain
+- [06:36] to understand, okay, I have these three
+- [06:38] content creation tools. I have these two
+- [06:40] image creation tools and I have this
+- [06:42] database tool. Which ones do I need to
+- [06:44] use? And it had full autonomy based on
+- [06:46] its system prompt and input to help it
+- [06:48] work towards its end goal. But it's
+- [06:50] actually interesting if you were paying
+- [06:51] attention. this create image tool or
+- [06:53] maybe it was the edit image tool is
+- [06:55] actually this one right here where we
+- [06:57] hooked it up to call on this tool. And
+- [06:59] the reason why I'm saying that it's
+- [07:00] interesting is because even though we
+- [07:02] give the agent autonomy to call on its
+- [07:04] tools once it chose the right path we
+- [07:06] basically wanted it to stay super
+- [07:09] predictable and that helped with the
+- [07:10] agents performance a lot more because
+- [07:12] its tools are workflows or AI workflows.
+- [07:15] the way that I architected that to have
+- [07:17] all of these be fixed. This almost makes
+- [07:19] it seem a little bit more like an AI
+- [07:21] workflow here where the AI does the
+- [07:23] reasoning and then shoots it down a
+- [07:24] fixed path. But the only difference is
+- [07:26] after it would go down this path, it's
+- [07:28] done. But in this example, it could go
+- [07:30] back and forth as many times as it
+- [07:31] wanted. So I know it can be a little
+- [07:32] overwhelming. So I made this really
+- [07:34] simple diagram to help you understand
+- [07:37] what should you actually be looking to
+- [07:38] build based on your problem at hand. So
+- [07:40] the first question would be, do I need
+- [07:42] to be in the loop every time? If yes,
+- [07:45] custom GPT is the answer. If no, move on
+- [07:48] to question two, which is, are the steps
+- [07:50] 100% logic- based? Meaning, could I have
+- [07:53] a simple filter or a simple code? Or is
+- [07:55] there a very explicit black and white
+- [07:57] thing that tells me which way to go? If
+- [07:59] yes, build a workflow? If no, then come
+- [08:02] down here to question three, which is,
+- [08:03] is the order of operations fixed? Is it
+- [08:05] predictable? If yes, you're going to go
+- [08:07] with an AI workflow. If no, if you need
+- [08:09] some more autonomy and decision-m and
+- [08:11] flexibility, then you want to go with an
+- [08:13] AI agent. Now, I wanted to end off with
+- [08:15] one example of maybe even a time where
+- [08:17] you would come down to question three
+- [08:19] and your answer would be yes, but you
+- [08:21] still might want an AI agent instead.
+- [08:23] And so, here's a really simple example
+- [08:25] where we have a customer support agent
+- [08:27] or customer support flow. And what
+- [08:28] happens is it receives an email and it
+- [08:30] has to use its brain to understand,
+- [08:32] okay, here's the email I have. I have a
+- [08:34] database I can look through and then I
+- [08:36] need to reply to the incoming email with
+- [08:38] accurate information. And so when I
+- [08:40] think about that process as far as like
+- [08:42] how would I do that manually, I would
+- [08:44] one read the email, I would two check
+- [08:46] the knowledge base and then I would
+- [08:48] three write a response. And it really
+- [08:50] should happen in that sequence every
+- [08:51] single time. Which is why this could
+- [08:53] also be a workflow where we read the
+- [08:55] email, we search the knowledge base. We
+- [08:56] even do something fancy here where we
+- [08:58] filter to keep just the best responses.
+- [09:00] But anyways, then we write the email and
+- [09:02] then we respond to it. But the
+- [09:04] difference here is sometimes you may not
+- [09:05] need to search the knowledge base. In
+- [09:06] that case, you would just be wasting
+- [09:08] time and tokens where you could just
+- [09:09] reply right away. Or sometimes you need
+- [09:11] to search the knowledge base three or
+- [09:13] four or five times before you're
+- [09:15] confident. And in that case, the agent
+- [09:16] up here would be better as well. The
+- [09:18] point I'm trying to make is that it's
+- [09:19] never just a clear black and white logic
+- [09:22] flowchart like this. It depends on the
+- [09:25] situation and it depends on how you
+- [09:27] would want the manual process to be
+- [09:29] done. And then the other tough pill to
+- [09:31] swallow at times is just the fact that
+- [09:33] you don't know what you don't know.
+- [09:34] Sometimes all the signs might be
+- [09:36] pointing to using a custom GPT, but then
+- [09:38] you might have to just scale up after a
+- [09:40] few months of usage to an AI workflow.
+- [09:42] Or you might have an AI agent and then
+- [09:43] realize later you have to scale that
+- [09:44] down after you've actually had time to
+- [09:47] let it get some runs and let it collect
+- [09:48] some feedback. But once again, if you
+- [09:50] have that problem solving mindset, it
+- [09:52] shouldn't be an issue. And if you love
+- [09:54] to think about solving problems and
+- [09:56] wanting to understand what is the best
+- [09:58] ways to solve these problems, then like
+- [10:00] I said, I talk about this kind of stuff
+- [10:01] a lot in my plus community, the link for
+- [10:03] that is down in the description. We've
+- [10:04] got a great community of over 3,000
+- [10:06] members who are building businesses and
+- [10:08] automations with Naden every single day.
+- [10:10] And we have a classroom section where we
+- [10:12] break down lots of other stuff. Agent
+- [10:14] zero 10 hours to 10 seconds, one person
+- [10:16] agency course. We've got a lot of
+- [10:17] projects in here which are like live NAM
+- [10:20] builds and things like that. Um, and we
+- [10:22] also do a live call per week. So, I
+- [10:23] would love to see you guys in those
+- [10:25] calls in the community. But that's going
+- [10:26] to do it for today. So, if you enjoyed
+- [10:28] the video or you learned something new,
+- [10:29] then please give it a like. It
+- [10:30] definitely helps me out a ton. And as
+- [10:32] always, I appreciate you guys making it
+- [10:33] to the end of the video. I'll see you on
+- [10:35] the next one. Thanks, everyone.

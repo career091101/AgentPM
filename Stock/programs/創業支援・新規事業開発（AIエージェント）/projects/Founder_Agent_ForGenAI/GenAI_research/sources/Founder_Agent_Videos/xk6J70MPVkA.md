@@ -1,0 +1,583 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=xk6J70MPVkA"
+video_id: "xk6J70MPVkA"
+video_url: "https://www.youtube.com/watch?v=xk6J70MPVkA"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "PMF", "AI", "team_building", "product_development"]
+topics: ["プロダクト開発", "組織構築", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=xk6J70MPVkA
+  - Retrieved at: 2025-12-30T16:42:43+09:00
+  - [00:00] Chat GPT introduced AI agents about a
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=xk6J70MPVkA"
+  - "- Retrieved at: 2025-12-30T16:42:43+09:00"
+  - "- [00:00] Chat GPT introduced AI agents about a"
+  - "- [00:02] week ago and AI agents are basically"
+  - "- [00:05] intended to do things for you on the"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: xk6J70MPVkA
+
+- URL: https://www.youtube.com/watch?v=xk6J70MPVkA
+- Retrieved at: 2025-12-30T16:42:43+09:00
+
+## Text
+
+- [00:00] Chat GPT introduced AI agents about a
+- [00:02] week ago and AI agents are basically
+- [00:05] intended to do things for you on the
+- [00:08] internet. So they could take over a
+- [00:10] virtual computer. They could think, they
+- [00:12] could reason, and they could do deep
+- [00:14] research and then combine that with the
+- [00:16] power of the agent to actually click
+- [00:18] things, fill out boxes. All of that
+- [00:21] sounded good. So, I spent about a week
+- [00:24] trying to make a video to show you all
+- [00:26] kinds of different useful ways to use
+- [00:28] chat GPT agents. And I got to be honest,
+- [00:31] after trying all kinds of different
+- [00:33] things, sitting through all kinds of
+- [00:35] long waits, I only have maybe a couple
+- [00:38] of different things that I could
+- [00:40] recommend where chat GPT agents make
+- [00:42] sense. Right? So, the whole point of
+- [00:44] this channel is I show you practical
+- [00:46] applications for using different AI
+- [00:48] tools. Chat GPT agents might be one of
+- [00:52] the most disappointing updates that I've
+- [00:54] ever seen come out of chat GPT. They
+- [00:56] usually really blow me away by their
+- [00:58] updates. This is not one of them.
+- [01:00] There's a couple of things that's
+- [01:02] interesting about it, but let me demo it
+- [01:04] for you and then you could judge for
+- [01:05] yourself. Okay, so if you have a Chat
+- [01:07] GPT pro account, you definitely have AI
+- [01:09] agents, but couple of days ago, they
+- [01:12] started rolling it out to plus and teams
+- [01:14] members, too. So, if you have a paid
+- [01:16] account, there's a good chance that if
+- [01:18] you click on tools, you'll see this
+- [01:20] agent mode over here. Now, here's one of
+- [01:23] my favorite parts of this agent mode.
+- [01:25] You usually, if you haven't used any
+- [01:27] type of AI agent platform, you're not
+- [01:29] really sure what AI agents can actually
+- [01:32] do. I've made ton of videos about AI
+- [01:34] agents. I cover ton of different useful
+- [01:36] AI agent platforms. NHN, Lindy, Make,
+- [01:39] Zapier, there's ton of other ones, too.
+- [01:42] But let's see what AI agents inside of
+- [01:45] Chat GPT could do. So they broke it down
+- [01:47] into these five categories, right? The
+- [01:50] suggested categories just give you some
+- [01:51] options over here. It could also create
+- [01:54] reports for you. It could take actions
+- [01:56] for you on websites. Like for example,
+- [01:58] this one says, "Review and prioritize my
+- [02:00] inbox after vacation." They could create
+- [02:03] spreadsheets for you. So that's another
+- [02:06] thing an AI agent could do. And they
+- [02:08] could do presentations and give you a
+- [02:10] PowerPoint output. Okay. So, I'm going
+- [02:12] to show you some examples. I ran a ton
+- [02:14] of different examples, some of these
+- [02:16] suggestions, some on my own. So, just to
+- [02:20] simplify what agents are in this case
+- [02:23] and how they came together. Chat GPT, if
+- [02:26] I click over here, they have something
+- [02:28] called deep research. Now, deep research
+- [02:30] inside of ChatGpt and other AI apps like
+- [02:33] Google Gemini have this too, is one of
+- [02:35] my all-time favorite AI updates. He goes
+- [02:38] and searches dozens, sometimes hundreds
+- [02:41] of websites and it gives you a really
+- [02:43] solid answer after 10, 12 minutes
+- [02:46] sometimes, right? Great. In text format.
+- [02:49] Well, then they had something called
+- [02:51] chat GPT operator which I covered in a
+- [02:54] different video. I was also very
+- [02:55] disappointed in that too. That gave it
+- [02:58] computer use. It could go and launch a
+- [03:01] browser on chat GPT and you could input
+- [03:04] things. you could take over, but it
+- [03:05] would by itself go do things for you,
+- [03:08] find flights for you or find a pair of
+- [03:10] pants for you and things like that.
+- [03:12] Well, agent mode combines deep research,
+- [03:14] which you could still use by itself, and
+- [03:16] operator, which just got rolled into
+- [03:18] this agent mode. Okay, so now agent mode
+- [03:21] could think and it could reason and it
+- [03:23] could do deep research and it could take
+- [03:25] actions, right? That's the promise at
+- [03:27] least right now. So, let's go through
+- [03:29] some of these examples. Now, this one is
+- [03:31] from one of the suggestions down here.
+- [03:34] It's basically asking to research the
+- [03:36] process of forming an LLC, right? A lot
+- [03:38] of people use this for work and
+- [03:40] business. So, I'm going to give you a
+- [03:41] lot of business use cases. For some
+- [03:43] reason, in their demo, they had a very
+- [03:45] personal use case for finding you like a
+- [03:47] pair of pants for a wedding, which uh I
+- [03:50] think I could do that without an agent
+- [03:51] right now. So, it was a little bit
+- [03:53] glorified of an example. They waited
+- [03:55] like 15 minutes for it to not find a
+- [03:57] good pair of pants. But, okay, let's say
+- [03:59] this is the example and I have the agent
+- [04:01] selected here. I'm going to go ahead and
+- [04:02] send this out. Now, this works a little
+- [04:05] bit differently than anything you've
+- [04:06] seen. So, it's thinking right now. Then,
+- [04:08] it sets up my desktop. So, it sets up a
+- [04:11] computer, a virtual computer that it
+- [04:13] could launch a browser on, and it will
+- [04:15] launch a browser in the background, and
+- [04:18] it will actually go do things for you.
+- [04:19] So, you could kind of see what it's
+- [04:21] doing. This is kind of the preview of
+- [04:23] what it's doing. In this case, it looked
+- [04:25] like it pretty much googled what I gave
+- [04:28] it, and it's going to this reading mode.
+- [04:30] So, it's reading different pages and
+- [04:33] it's trying to come up with an answer.
+- [04:34] And then when this is done, you could
+- [04:36] actually review all the different steps
+- [04:38] that it took. If you press the three
+- [04:40] dots at any time, you could stop it or
+- [04:42] you could take over. So, a lot of times
+- [04:43] it's going to ask you to take over to
+- [04:45] log into something, for example, or
+- [04:47] enter payment information. We're going
+- [04:49] to get into that in a second. You could
+- [04:51] take over just using this option and it
+- [04:53] will give you a popup. So, you could
+- [04:54] manually take over and then you use this
+- [04:56] browser. I'll show you an example in a
+- [04:58] second. Okay. So after about six
+- [04:59] minutes, this is the output that he gave
+- [05:02] me in text format. This is the output
+- [05:04] and it pulled all this information from
+- [05:07] Legal Zoom and it just kind of gave me
+- [05:09] this formatting of here's a bunch of
+- [05:11] different states you could do this in
+- [05:13] and it created a spreadsheet for me,
+- [05:15] right? And all the sources came from one
+- [05:17] website because my prompt specifically
+- [05:19] said to look for Legal Zoom. If I didn't
+- [05:21] say that, it would do the deep research
+- [05:23] format. Now, here's the funny part about
+- [05:26] this, right? That seems like okay that
+- [05:27] that could be cool. I went to chat GPT
+- [05:30] just a regular chat GPT. I used the same
+- [05:32] exact prompt. Okay, I'm going to use it
+- [05:34] right now. Doing a web search. I didn't
+- [05:37] do anything else, right? It took two
+- [05:39] seconds. And let me just go down. Look
+- [05:41] at this. It created this table for me
+- [05:44] with all the information I need in two
+- [05:47] seconds. Right, the agent took six
+- [05:50] minutes. Did not format it at all in a
+- [05:52] way I wanted. And I basically had to
+- [05:55] figure out how to format the spreadsheet
+- [05:57] to look something like this. This is
+- [05:59] with zero follow-up prompt. So you see
+- [06:01] my point here. It's just like a
+- [06:04] glorified version of what chatt could do
+- [06:07] with just like a nice UI and I could see
+- [06:09] what it's doing with his search and with
+- [06:11] clicking around on different websites.
+- [06:13] This is already doing that almost
+- [06:15] instantly. So that is one example of why
+- [06:19] I did not think this was worth the
+- [06:21] upgrade at all. Okay, the next example I
+- [06:23] wanted to show you is under the actions,
+- [06:25] right? So, with actions, you could book
+- [06:27] things. You could order banana cream pie
+- [06:30] ingredients on Instacart. You could
+- [06:32] order food from Door Dash. And these are
+- [06:34] all the different options that he gave
+- [06:36] you as a suggestion, but pretty much
+- [06:37] anything you want, you could go ahead
+- [06:39] and paste that as a prompt. So, book a
+- [06:41] four-star hotel from hotels.com. Now, I
+- [06:44] use this because it narrows it down even
+- [06:46] more. If you take out hotel.com, it
+- [06:49] takes even longer. I told her the date.
+- [06:51] I told her how much I want to spend. I
+- [06:53] want to have indoor pool, right? This is
+- [06:55] actually one of the prompts they use
+- [06:57] then as as example, too. So, let's send
+- [07:00] this out. This is a little bit more
+- [07:02] interesting because now it's going to be
+- [07:04] able to do search and it's going to be
+- [07:06] able to do the action that it takes to
+- [07:09] book the hotel. Right? This is what the
+- [07:12] operator was supposed to do before it
+- [07:14] got turned into chat GPT agent. Okay?
+- [07:17] So, it went to hotels.com on a Chrome
+- [07:19] tab. And right here, it actually shows
+- [07:21] you what it's doing. It's kind of
+- [07:22] showing you how it's thinking through
+- [07:25] it. So, I do like that a lot of the
+- [07:27] times when you use kind of the
+- [07:29] step-by-step thinking mode and you could
+- [07:30] kind of expand that out to get a
+- [07:32] overview of how it's thinking in the
+- [07:34] background. And I ran this one across
+- [07:37] multiple different things like this,
+- [07:38] like ordering things online and anything
+- [07:41] that required a specific website search.
+- [07:44] But I'll show you what we come up with.
+- [07:46] Okay, so 25 minutes later,
+- [07:50] I got a hotel that he found for me. And
+- [07:53] here's a link. And this is where the
+- [07:56] link takes me. 25 minutes it took that.
+- [07:59] I went on hotel.com myself, did the
+- [08:01] exact same thing in exactly 45 seconds,
+- [08:04] by the way, just using the filters on
+- [08:06] the left side. So, I I really don't
+- [08:10] understand why anyone in their right
+- [08:12] mind would do this on tasks that
+- [08:16] take like a minute to do. And then at
+- [08:19] the end of it, it says, "I got this page
+- [08:21] for you." But again, the link did not
+- [08:23] work.
+- [08:25] But literally, these are all the
+- [08:26] different steps that you had to go
+- [08:28] through after 25 minutes to get to this
+- [08:30] checkout page. Now, at this point, I
+- [08:32] have to manually take over, right? So, I
+- [08:35] could just take over the browser here
+- [08:38] and I could then put in my payment
+- [08:40] information, which brings up this next
+- [08:42] point. Okay? And I'll show you with
+- [08:44] another example, too. You see this right
+- [08:46] here? This may put your data at risk.
+- [08:50] Signing Chat GPT into websites can
+- [08:52] expose your data to malicious sites.
+- [08:56] Well,
+- [08:58] I mean, I usually am the first person to
+- [09:02] to test out new things. I'm all about
+- [09:04] that. But that's kind of crazy. Why
+- [09:07] would I go
+- [09:09] put in my credit card information and
+- [09:11] then give this agent access to it if it
+- [09:14] gives me this kind of warning,
+- [09:17] right? This is a virtual browser. This
+- [09:19] is not literally on my computer. This is
+- [09:21] the browser that's on their computer and
+- [09:22] it's highly delayed. I'm going to just
+- [09:24] going to press continue to show you
+- [09:26] this. At least every time I've used it,
+- [09:29] this is not restoring the computer
+- [09:30] because this is a little bit of an older
+- [09:32] chat here. Okay. Okay. And this one, I
+- [09:33] guess, is not able to restore this older
+- [09:35] chat. So, I'll let this one go. I'll do
+- [09:38] it on the next one, though. I'm going to
+- [09:39] take over the computer. I got a good
+- [09:40] example on the next one. Okay. Here's a
+- [09:42] really cool use case. Do an audit of my
+- [09:44] Google calendar for the last six months
+- [09:47] and tell me how I've spent my time.
+- [09:49] Right? It could do things with your
+- [09:51] calendar, with your Gmail, pretty much
+- [09:53] anything you could give it access to. It
+- [09:55] could do that. But let me show you what
+- [09:57] ends up happening here. Okay? Okay, it
+- [09:59] says, "I'll start by accessing your
+- [10:01] Google calendar to review your events
+- [10:03] for the last six months, categorize it
+- [10:05] based on time spent, and I'll give you a
+- [10:07] clear summary of key takeaways, right?
+- [10:09] Most of us could use something like
+- [10:10] this, but this is what you have to do in
+- [10:12] order for this to work." Okay, in my
+- [10:15] very first attempt, it went toample.com
+- [10:18] and it says I ran into a snag and it
+- [10:21] wasn't able to do it. So, we'll go ahead
+- [10:23] and try again. Now, when it did work,
+- [10:26] this is what it was able to give me
+- [10:28] here. So, it did a kind of a Google
+- [10:31] search to try to figure out how to get
+- [10:33] to Google Calendar for for a while. And
+- [10:37] then when it did find it, it looked up
+- [10:38] how to export your Google calendar again
+- [10:42] using a Google search. Okay? And then it
+- [10:44] brings you to this page where you need
+- [10:46] to take over. So, it gives you an option
+- [10:47] here. And then you could also hover over
+- [10:49] your screen here and take over from
+- [10:51] here. Okay. For some reason, when I took
+- [10:53] over, it just redirected to Wikipedia
+- [10:56] for some reason. But I could come up
+- [10:58] here and go to Google and press sign in,
+- [11:01] I guess. Okay. Now, I have to trust this
+- [11:05] and give it my Google credential to log
+- [11:08] into my Google account. Now, I don't
+- [11:11] know about you, but I have everything
+- [11:13] tied into my Google account, right?
+- [11:16] Okay. Well, I guess for this example,
+- [11:17] I'll give it a try. But remember the big
+- [11:19] popup that he gave us that this could
+- [11:23] actually put your data at risk. So I
+- [11:26] would not recommend anyone do this part.
+- [11:28] This is the most useful part because it
+- [11:30] connects to your own data. But the risk
+- [11:34] is kind of not worth it. Okay. So I did
+- [11:36] log in. I'm going to say finish
+- [11:39] controlling. Now let's see if this
+- [11:41] figures out how to redirect because it
+- [11:43] took us out of Google and to Wikipedia.
+- [11:45] So I manually went to Google. Let's see
+- [11:47] if it could figure out how to get there
+- [11:49] again. Okay, it's inside of my Google
+- [11:51] calendar now. It's going to the settings
+- [11:53] tab over here. And let's see if it could
+- [11:56] figure it out. Now, I just gave it one
+- [11:58] of my other not main accounts here
+- [12:01] again, just for security reasons, but it
+- [12:03] is a Google account I do use. Okay, this
+- [12:06] is interesting. It actually load up a
+- [12:08] terminal and it's parsing a zip file
+- [12:11] that it got from Google Calendar. So,
+- [12:14] let's see what it comes up with after
+- [12:15] it's done. Okay, so I'm going to blur
+- [12:18] out some of this information here, but
+- [12:19] it looks like it did do a good job and
+- [12:22] for the most part, it did put it inside
+- [12:24] of different categories and it did find
+- [12:26] the right date range and pretty much all
+- [12:29] the events I had on this one specific
+- [12:31] calendar. And it did give me a good
+- [12:33] breakdown and suggestions on exactly
+- [12:36] what I need to do. So, couple of snags
+- [12:38] in the beginning of it, but this so far
+- [12:40] is one of the better use cases that I
+- [12:43] found that actually worked, right? This
+- [12:45] is something that would be kind of hard
+- [12:47] for me to even figure out how to do. It
+- [12:50] was one of the suggested prompts and
+- [12:52] everyone's trying to optimize their
+- [12:54] time. Great way to go and look at your
+- [12:57] time for the last 3 months, 6 months,
+- [12:59] see where you spend it if you do use a
+- [13:00] calendar like this and get a big picture
+- [13:03] overview where you could save more time.
+- [13:04] Okay, let me show you the presentation
+- [13:06] option because pretty much all of us
+- [13:08] have to at some point make a
+- [13:10] presentation and having chat GPT agent
+- [13:12] do it for you. That's great. Okay, this
+- [13:14] prompt is good. Develop a go-to market
+- [13:16] presentation for luxury hospitality
+- [13:18] brand entering a new international
+- [13:21] market and then it gives it a little bit
+- [13:23] more context on what we're looking for.
+- [13:24] So, let me send this out. Now, you could
+- [13:26] already do this with chat GPT and ask
+- [13:29] for a PowerPoint and combine it with
+- [13:31] deep research. So the agent part I'm
+- [13:35] really not sure where it comes to play
+- [13:37] because I did exactly the same thing
+- [13:39] using deep research without agent and I
+- [13:43] got a very similar result. So I'll just
+- [13:45] show you the results here in a minute.
+- [13:47] Okay, so it took about 15 minutes and
+- [13:49] that's not too long. Deep research
+- [13:51] sometimes takes about that long anyway,
+- [13:54] but it did go through it using this kind
+- [13:57] of visual interface too. This is what I
+- [13:59] got. So this is the presentation. Let me
+- [14:01] just make it full screen here so you see
+- [14:03] what it looks like. So, typical
+- [14:05] PowerPoint presentation and the
+- [14:07] information is pretty good. The design
+- [14:10] is pretty bad though. And you could
+- [14:12] actually play it as a slideshow if you
+- [14:14] click this. So, it looks like a real
+- [14:16] nice PowerPoint presentation, right?
+- [14:18] Just not with good design. But I'm still
+- [14:21] going to count this as one of the useful
+- [14:23] options of just Chat GPT in general.
+- [14:26] Even though it doesn't really know how
+- [14:28] to design good slides, it does the
+- [14:30] research for you. But I can't give
+- [14:33] credit to AI agent mode because I just
+- [14:37] did the exact same thing with deep
+- [14:38] research. Now, here's where this gets
+- [14:40] really interesting and this is one of my
+- [14:42] favorite workflows even with deep
+- [14:44] research. I usually create my slideshows
+- [14:46] like that. I then edit them in
+- [14:49] PowerPoint and reexport them or save
+- [14:51] them out again inside of PowerPoint so
+- [14:53] it has my finishing touch to it. Then I
+- [14:56] bring it inside of gamma.app and I use
+- [14:58] this option right here, import a file.
+- [15:00] This lets me import that PowerPoint
+- [15:03] which I got directly out of chat GPT.
+- [15:05] ChatgPT does create this PPTX PowerPoint
+- [15:08] format and you have two options. Okay,
+- [15:12] if you don't really wanted to change the
+- [15:14] PowerPoint all that much, so keep kind
+- [15:16] of the visual design but make it a lot
+- [15:19] more professional looking, this is a
+- [15:21] good option. Visual import, polishing
+- [15:24] your slides, preserving text and images,
+- [15:26] and adapting the layout to gamma format.
+- [15:29] I'm going to show you this next, but
+- [15:30] this is my favorite one, transform
+- [15:32] content. But a lot of people don't want
+- [15:34] to change it that much, and this ends up
+- [15:36] being too much for them. So, the visual
+- [15:37] import option lets you pick a theme.
+- [15:39] Let's say I just picked this theme. I'm
+- [15:41] just going to press continue, and it's
+- [15:43] going to put the original slide and the
+- [15:46] new slide side by side here. And it's
+- [15:48] I'm just doing this in real time without
+- [15:49] the edit. This is the slide out of chat
+- [15:51] GPT from the chat GPT agent. And here's
+- [15:54] the slide it's going to make for you.
+- [15:56] And it's going to do that with the
+- [15:57] entire slideshow. Now, depending on the
+- [16:00] plan, if you have the free plan, you're
+- [16:01] going to be limited on how many slides.
+- [16:03] But with the paid plan, you could get a
+- [16:04] lot more slides here. So, you could see
+- [16:06] same kind of layout, just looks a whole
+- [16:09] lot better, right? And it looks like you
+- [16:11] actually did not import the bar chart
+- [16:14] and recreated it in a different way,
+- [16:16] right? So sometimes it's going to have
+- [16:17] issues with this option that you might
+- [16:19] have to redo. But overall, yeah, this
+- [16:21] one it pulled in, made the table again.
+- [16:24] And this is in gamma format and it's
+- [16:26] happening pretty quickly. Couple
+- [16:27] minutes, right? And you could go ahead
+- [16:29] and continue this. You could publish
+- [16:30] this on the web. You could download it
+- [16:32] as a PowerPoint. You could also present
+- [16:34] it this way just directly from this page
+- [16:36] over here. You could delete slides and
+- [16:38] everything is customizable. And you
+- [16:40] could change images. So that's great.
+- [16:42] But let me show you that other option
+- [16:43] inside of Gamma. If you choose transform
+- [16:46] content, this gets a lot more
+- [16:48] interesting. Let me just press continue
+- [16:50] here. As a presentation, it lets you
+- [16:52] decide if you want minimal, detailed,
+- [16:54] concise, or extensive type. You could
+- [16:57] give it more information here. You could
+- [16:59] choose image styles here. It's going to
+- [17:01] create AI generated images. I'm going to
+- [17:03] press generate here to show you what we
+- [17:06] get. Now, it creates an entirely new
+- [17:08] slideshow for you. Okay. So, the title
+- [17:12] screen looks about the same. But these
+- [17:14] other screens usually look a whole lot
+- [17:17] better. So, I'm going to let this finish
+- [17:18] up. And if it's too much text for you on
+- [17:20] the screen, again, I recommend the more
+- [17:23] concise options. It won't do as much
+- [17:25] writing as this one does. And if I just
+- [17:28] kind of scroll through now that it's
+- [17:29] done, you could see it's created these
+- [17:31] images for us. A lot of times these are
+- [17:33] AI generated, but you can import your
+- [17:35] own. This uses some of the top AI image
+- [17:38] models inside of Gamma here. So really
+- [17:40] nice results that we got out of this
+- [17:43] one. Okay. So if you're willing to
+- [17:44] experiment, you could see there's couple
+- [17:46] of things here that we can use AI agents
+- [17:49] for. But as I mentioned, a lot of that
+- [17:51] is just from deep research. So you don't
+- [17:54] really need the agent part. The agent
+- [17:56] part comes in with the operator section
+- [17:58] of it where it takes over the computer
+- [18:00] and it could input things. But you have
+- [18:04] to be okay with the issues when it comes
+- [18:06] to mailware and whatever they warned us
+- [18:09] about in that popup. Let me show you
+- [18:11] what Sam Alman said in their own demo.
+- [18:14] And this is why I'm just not willing to
+- [18:15] give a credit card information and let
+- [18:17] it buy things for me or even log into
+- [18:20] things like my main Google account.
+- [18:23] >> As Casey mentioned, although this is an
+- [18:24] extremely exciting new technology, there
+- [18:26] are new risks. uh people learned how to
+- [18:29] use the internet generally pretty
+- [18:30] safely, although of course there are
+- [18:32] still scammers and other attacks. People
+- [18:34] are going to need to learn to use AI
+- [18:35] agents uh and societyy's going to need
+- [18:37] to learn to build up defenses against
+- [18:39] attacks on AI agents as well. So we're
+- [18:41] starting with a very robust system, lots
+- [18:43] of warnings. We will relax that over
+- [18:45] time as people get more comfortable with
+- [18:46] it. But we do want people to treat this
+- [18:48] as a new technology and a new risk
+- [18:51] surface and use all of the caution that
+- [18:53] Casey talked about.
+- [18:54] >> Okay. I've been covering Chachi PT since
+- [18:56] December of 2022.
+- [18:59] And I got to tell you, this is one of
+- [19:00] the most disappointing upgrades. And
+- [19:02] then on top of that, they rolled this
+- [19:04] out into a $200 plan that a lot of
+- [19:07] people got just for this option. And
+- [19:10] it's the most beta product that I've
+- [19:12] ever seen with potential security risk.
+- [19:15] So, I just feel like these type of
+- [19:18] things when they come out, you're really
+- [19:20] excited about it and then sometimes they
+- [19:23] get really hyped up and then you sign up
+- [19:25] for a $200 plan or even the $20 or the
+- [19:27] $30 plan, right? You pay for it thinking
+- [19:30] it's going to change your workflow and
+- [19:32] this is literally done nothing for me
+- [19:34] but but waste about a week of time
+- [19:36] trying to figure out useful ways to use
+- [19:38] it. So, again, I like to keep these
+- [19:40] videos as transparent as I can. When I
+- [19:42] find something I really like, I like to
+- [19:45] make a video about it and I'm usually
+- [19:46] overly excited about it. A lot of times
+- [19:49] those are chat GPT updates. This one is
+- [19:51] not one of them and I wanted to make
+- [19:53] this video. So you see it in action
+- [19:56] without me editing anything out. I just
+- [19:58] showed you the result that I'm getting
+- [19:59] out of the agent mode and this is what
+- [20:02] I'm getting. So I'm sure they're going
+- [20:04] to make it better. Operator, by the way,
+- [20:06] never got better. It just kind of got
+- [20:07] rebranded to AI agent. So, that was also
+- [20:09] part of the $200 plan that was kind of
+- [20:12] doing that uh takeover mode. Didn't
+- [20:15] really work. So, I get why they have to
+- [20:17] release things in kind of beta mode, but
+- [20:19] this is just
+- [20:22] I don't know. Anyway, let me let me know
+- [20:25] what you think of it in the comments
+- [20:27] section. Hopefully, this sheds some
+- [20:28] light on it for you. I'll see you in the
+- [20:30] next video.

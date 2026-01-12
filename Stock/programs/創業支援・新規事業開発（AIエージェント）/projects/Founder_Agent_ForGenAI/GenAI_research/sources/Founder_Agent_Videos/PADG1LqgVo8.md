@@ -1,0 +1,929 @@
+---
+title: "And the surprising thing is 68% of enterprise companies say they've adopted Agentic AI."
+video_id: "PADG1LqgVo8"
+video_url: "https://www.youtube.com/watch?v=PADG1LqgVo8"
+speaker: "good"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  And the surprising thing is 68% of enterprise companies say they've adopted Agentic AI
+  So the vast majority have adopted this
+  >> New Relic they were seeing like I I think it was 30% month-on-month growth of you know these these agents going into production
+key_points:
+  - "first point is that agents are actually going into production"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:45:45+09:00"
+---
+
+# Transcript: PADG1LqgVo8
+
+- URL: https://www.youtube.com/watch?v=PADG1LqgVo8
+- Retrieved at: 2025-12-30T10:45:45+09:00
+
+## Text
+
+- [00:00] And the surprising thing is 68% of
+- [00:02] enterprise companies say they've adopted
+- [00:04] Agentic AI. So the vast majority have
+- [00:07] adopted this.
+- [00:08] >> New Relic they were seeing like I I
+- [00:10] think it was 30% month-on-month growth
+- [00:13] of you know these these agents going
+- [00:15] into production.
+- [00:21] [Music]
+- [00:23] >> Morning Sam. How are you?
+- [00:25] >> Morning Matt. I'm good. Congratulations
+- [00:27] on the event last week. It was really
+- [00:29] awesome.
+- [00:30] >> Yes, we're talking about venturebeat
+- [00:32] transform which happens every every
+- [00:35] summer. It's really focused on the
+- [00:37] enterprise companies. They're actually
+- [00:40] doing real things deploying AI. What are
+- [00:43] the lessons that these these decision
+- [00:45] makers, right? But the audience or the
+- [00:46] peers, the the enterprise folks coming
+- [00:48] to learn how to build AI. And Sam, it
+- [00:51] was your first event. What did you
+- [00:53] think?
+- [00:54] >> Definitely it was really interesting
+- [00:55] event. Um, you got I got to say, you
+- [00:58] know, congratulations on the quality of
+- [00:59] the people that you had uh, you know, at
+- [01:01] on stage and stuff like that. I think it
+- [01:03] was really interesting to see not just
+- [01:06] sort of tech people from from sort of
+- [01:09] the San Francisco Bay area, but also
+- [01:11] like CTO's from uh, big companies like,
+- [01:14] you know, American Express, like a bunch
+- [01:16] of healthcare companies. I and for me
+- [01:19] that was probably the most interesting
+- [01:21] part was was seeing what they were
+- [01:23] interested in seeing what what you know
+- [01:25] how they were starting to look at agents
+- [01:28] how they're looking at you know this
+- [01:29] whole AI road map of where things are
+- [01:32] going I and I think like it's rare that
+- [01:35] you get uh that many people on stage
+- [01:38] with that kind of experience to actually
+- [01:40] talk about these things so that's what
+- [01:42] you know one of the big reasons I I said
+- [01:43] congratulations was just that you know
+- [01:46] for me that was in many ways a lot more
+- [01:48] interesting than some of the events that
+- [01:51] we've covered in the past for the big
+- [01:53] companies where they're hyping up their
+- [01:54] products or or that stuff. This was more
+- [01:57] like okay looking at their customers uh
+- [01:59] and seeing okay what is it that they
+- [02:01] actually want to do. Sam that was the
+- [02:03] whole intent right let's cut through the
+- [02:05] noise. There's a lot of events, you
+- [02:06] know, from the from the big hyperscalers
+- [02:08] that have all the glossy, you know, nice
+- [02:10] stories to tell, but this is, you know,
+- [02:12] independent place and we had 65 speakers
+- [02:15] just really focused on these case
+- [02:17] studies. So, you know, let's go through
+- [02:19] those lessons. I think the big first
+- [02:21] first point is that agents are actually
+- [02:25] going into production. Again, we're not
+- [02:26] into hype here. Uh but a venturebe AI
+- [02:31] survey which we do al every year right
+- [02:33] running into the event we asked 2,000
+- [02:36] folks from our audience and we collated
+- [02:40] according to who was you know we
+- [02:41] actually got data from them who are
+- [02:44] actually enterprise respondents for
+- [02:46] companies working at a thousand
+- [02:48] employees or more and we asked them had
+- [02:51] they adopted agentic AI and the
+- [02:54] surprising thing is 68% of enterprise
+- [02:56] companies say they've adopted Agentic
+- [02:58] AI. So the vast majority have adopted
+- [03:01] this. Now I got to you know disclose
+- [03:04] that you know venture beats readership
+- [03:05] is a little different from say KPMMG
+- [03:08] right which did a similar survey in June
+- [03:10] and found that only 11%
+- [03:12] uh of of of the enterprise companies
+- [03:15] surveyed are in deployment. So there is
+- [03:17] a big difference depending on your your
+- [03:19] base here. But the the fact that um of
+- [03:23] those 67% even of those that the the the
+- [03:28] biggest number were actually in advanced
+- [03:31] stages of that deployment. In other
+- [03:33] words, external facing applications
+- [03:35] instead of just uh agentic applications
+- [03:37] that were internal um where you can
+- [03:39] sandbox things a little bit more. I just
+- [03:42] thought I thought that was interesting.
+- [03:43] But boy, you know, our team is tired,
+- [03:45] Sam, right? We I think we've got like 40
+- [03:48] stories already on our site kind of with
+- [03:50] these case studies if everyone wants to
+- [03:52] read and has like five hours to go
+- [03:54] through it. Uh you know but case like in
+- [03:57] it capital one LinkedIn high mark health
+- [04:01] right or case all companies that have
+- [04:03] actually instituted this agentic stuff.
+- [04:05] Did anything stand out for you?
+- [04:07] >> Yeah definitely there were there were a
+- [04:09] couple really interesting things. So uh
+- [04:11] one of the early speakers was from BCG
+- [04:14] who uh who was talking about you know he
+- [04:17] he talked about very nice uh talk about
+- [04:18] where sort of agents were where they
+- [04:20] were going. One of the interesting
+- [04:22] things he said was that it was too early
+- [04:24] to sort of see in P&L statements like
+- [04:27] the effect of these things like were
+- [04:28] they actually being deployed but then
+- [04:30] later that day you know I interviewed
+- [04:33] Ashan the CEO of New Relic and so for
+- [04:36] those people who don't know they
+- [04:38] basically uh are a monitoring company so
+- [04:41] they and they really just monitor things
+- [04:42] in production and they were seeing like
+- [04:45] I think it was 30% month-on-month growth
+- [04:48] of you know these these agents going
+- [04:50] into production. So, you know, while we
+- [04:53] may be a little bit early to see, you
+- [04:55] know, the the sort of monetary effects
+- [04:57] of these things, we clearly are seeing
+- [05:00] that lots of companies are are putting
+- [05:02] these things into production. And for
+- [05:04] me, that that was like uh really
+- [05:06] fascinating conversation talking with
+- [05:08] Aan of just sort of what they were
+- [05:10] seeing and then also what they were
+- [05:12] doing themselves. I but these themes
+- [05:15] came up you know both later that day and
+- [05:18] the next day like you said we had lots
+- [05:20] of people talking about that they were
+- [05:21] starting to put things uh you know not
+- [05:23] just uh internal tools but you know
+- [05:27] customerf facing stuff as well. Yeah, I
+- [05:29] mean we we could go into some of some of
+- [05:31] the the these enduser big brands like
+- [05:33] you said uh you know into it AMX uh and
+- [05:36] Highark Health um details but you know
+- [05:40] there there's good examples even from
+- [05:42] the the the big LLM provider companies
+- [05:44] that were at the event as well right
+- [05:46] Scott White from Anthropic yes he's a
+- [05:48] provider yes there's an incentive to
+- [05:50] talk about how great these solutions are
+- [05:52] but it was really a a genuine
+- [05:54] conversation with this guy you know you
+- [05:57] relatively early in his career not a
+- [05:59] professional programmer but talking
+- [06:01] about how you know excited he was
+- [06:03] building productionready software
+- [06:05] features himself right building a
+- [06:07] workable prototype on his staging server
+- [06:10] and then showing his team internally h
+- [06:12] how how it works right this wasn't
+- [06:14] possible six months ago uh you know just
+- [06:17] using clawed code which we again you
+- [06:19] know many people are um and and and and
+- [06:22] I thought I thought that was interesting
+- [06:23] and you know and similarly we had
+- [06:25] openai's head of product Olivier
+- [06:29] right uh who who's responsible for the a
+- [06:31] API platform but talked about how they
+- [06:33] built their responses API their agents
+- [06:35] SDK to help these multi- aent systems
+- [06:38] you and I have been talking about this
+- [06:39] we've been reporting about it but you
+- [06:41] know customers like Stripe and Box are
+- [06:43] using these these frameworks and
+- [06:45] actually implementing these things for
+- [06:46] real as well
+- [06:47] >> it it certainly was interesting even uh
+- [06:50] you know I think the event kicked off
+- [06:52] with Verun from from Windsurf uh and and
+- [06:56] uh both him and others did talk about
+- [06:59] that you know you they need to be
+- [07:01] thinking for the future of where people
+- [07:03] who are making apps who are making you
+- [07:06] know are the sort of the makers uh in a
+- [07:08] company are not necessarily going to be
+- [07:10] coders uh they're they're going to be
+- [07:12] people with ideas with sort of you know
+- [07:14] a clarity of what they want uh and then
+- [07:17] being able to run run that out you know
+- [07:19] even Ashan from New Relic talked about
+- [07:22] that they they are starting to think
+- [07:23] about how do they create observability
+- [07:26] tools for those people to help those
+- [07:28] people see sort of what's working,
+- [07:30] what's not working. So yeah, that was
+- [07:32] definitely a theme. I I I don't think we
+- [07:35] were really surprised by that. Like
+- [07:36] that's something that we talked about,
+- [07:38] you know, going back to even when we
+- [07:40] started last year that, you know,
+- [07:42] Microsoft was trying to put a lot of
+- [07:43] this stuff into co-pilot really because
+- [07:45] a lot of the people using it were not
+- [07:48] uh, you know, coders, right? That this
+- [07:50] is the whole idea of these agent builder
+- [07:52] apps. But yeah, it is very interesting
+- [07:54] to have both sort of you know frontier
+- [07:57] labs like uh you know open AI like
+- [08:01] anthropic talk about this stuff and and
+- [08:04] see where where they're seeing things
+- [08:06] going as well as their customers like
+- [08:08] Windsurf and where they're they're think
+- [08:09] seeing it going as well. I want to come
+- [08:12] back to to to to the Mohan talk of you
+- [08:14] know the windsurf CEO uh I don't I don't
+- [08:16] know point number four but let's let's
+- [08:18] go to point number two right which is
+- [08:20] that that that that there's no real
+- [08:22] winners among the hyperscalers in the
+- [08:25] sense of model dominance right in across
+- [08:29] the the event we heard that just like
+- [08:32] everyone wants to support every single
+- [08:35] model that there's more infrastructure
+- [08:38] being built by the day to allow allow
+- [08:41] this to happen, right? I I thought, you
+- [08:43] know, IBM's gateway, right, which is
+- [08:46] taking things to the next level, like a
+- [08:47] single API that allows any company to
+- [08:49] take any model to work into their
+- [08:51] infrastructure. I thought that was
+- [08:53] really interesting. Um, you know, we
+- [08:55] we've heard of these efforts before and
+- [08:57] this is not a new story that, you know,
+- [08:59] people are using multiple LLMs, small
+- [09:01] LLMs, customized, fine-tuned LLMs all
+- [09:05] over the place. But it just hit home
+- [09:07] that like there's no real winner.
+- [09:09] >> It it certainly did. and and that you
+- [09:11] know uh that was the person that I ended
+- [09:13] up doing a fireside chat on day two with
+- [09:15] was Aman Ruiz who's uh at IBM uh working
+- [09:19] on I working on AI there been there for
+- [09:22] a long time um it was fascinating sort
+- [09:24] of hearing him talk about that yeah the
+- [09:27] the the model gateway thing wasn't
+- [09:29] something like oh yeah we need to build
+- [09:31] this that was in reaction to customers
+- [09:34] and that was in reaction to initially
+- [09:37] you know IBM looking at doing their own
+- [09:39] models mod then realizing oh we should
+- [09:41] support open source because everyone
+- [09:43] wants open source then realizing that ah
+- [09:45] but also people want the proprietary
+- [09:46] models in the end they realized that
+- [09:48] they had to support everything and I
+- [09:51] thought you know I thought that was
+- [09:52] fascinating of like how there was a
+- [09:55] progression there of getting to that
+- [09:56] that wasn't sort of like a a a decision
+- [10:00] made by them you know you know that that
+- [10:02] was that was re in reaction to customers
+- [10:05] um another really interesting one was
+- [10:07] the the CTO of Zoom
+- [10:09] uh talking about how they were having to
+- [10:13] sort of you know do I I I sort of took
+- [10:15] it away as like three levels of models
+- [10:17] of where you know one they they've got
+- [10:20] proprietary models that they're
+- [10:21] supporting if people want to use those
+- [10:23] two they've got the zoom model which is
+- [10:26] their model that's sort of trained uh
+- [10:29] you know specific for for uh the the
+- [10:32] kinds of conversations I guess in zoom
+- [10:34] and then that doesn't leak any model you
+- [10:37] know sorry that doesn't leak any data
+- [10:38] outside of Zoom, but then they also
+- [10:42] allow customers to be able to take that
+- [10:44] and fine-tune a version of that just for
+- [10:46] their organization. And that model is
+- [10:49] like can't be used by anyone else
+- [10:51] outside of, you know, their org. I So
+- [10:55] that's for me was fantastic and and
+- [10:57] really interesting of how they've got
+- [10:59] this sort of three levels or these three
+- [11:01] tiers that they're supporting. I and it
+- [11:05] seems that customers want that. That's
+- [11:06] the interesting thing is that customers
+- [11:08] are not falling into just a one-sizefits
+- [11:11] all. They're not going all going for
+- [11:14] open AI like perhaps this time last
+- [11:16] year. That's probably what most of the
+- [11:17] customers were trying to do. I I think
+- [11:20] we've seen it, you know, radically
+- [11:22] change now. And yeah, the the the clear,
+- [11:25] you know, lesson from this is there
+- [11:27] aren't any winners at the moment when it
+- [11:28] comes to models. Some people like
+- [11:30] Anthropic, some people like Gemini, some
+- [11:33] people, you know, like the OpenAI ones,
+- [11:35] some people are liking the the whole,
+- [11:37] you know, open open weights models and
+- [11:39] and where that's going. So, this is
+- [11:41] definitely going to be interesting to
+- [11:42] see how it plays out. Go going back to
+- [11:44] that the hyperscaler conversation Sam
+- [11:47] you know there there was a conversation
+- [11:49] between you know Dylan Patel who uh
+- [11:52] who's who's one of the leading analysts
+- [11:54] out out there on on hardware and and how
+- [11:58] some of these these um chip you know
+- [12:00] chip providers right
+- [12:03] Nvidia Cerebrris Gro are stacking up and
+- [12:07] we and so we had the the co-founder of
+- [12:09] Cerebrus uh we had Gro's CEO Jonathan
+- [12:12] Ross I I think you listened to that
+- [12:14] session. Any any takeaways there on and
+- [12:16] like which hyperscaler is winning and
+- [12:18] what the um what the dynam the dynamics
+- [12:20] are there?
+- [12:21] >> So one of the fascinating takeaways
+- [12:24] around that for me was not so much about
+- [12:27] the hyperscalers. It was more about the
+- [12:30] customers of the hyperscalers, the ones
+- [12:32] that we're seeing like the manacers of
+- [12:33] the world, you know, some of these uh
+- [12:36] automated assistants, how that really
+- [12:39] they're not making much profit because,
+- [12:41] you know, they're just buying so many
+- [12:42] tokens and then every time the token
+- [12:45] cost goes down, it's that's that doesn't
+- [12:48] become suddenly their profit margin.
+- [12:50] They just buy more tokens in trying to
+- [12:52] get their products to be better to be,
+- [12:54] you know, have higher levels of
+- [12:55] accuracy. that I found fascinating
+- [12:58] because at some point, you know, we've
+- [13:00] got so much uh VC money flowing around
+- [13:03] in these companies. Now, at some point,
+- [13:06] the VCs want to see a return. And to get
+- [13:09] that return, these companies are going
+- [13:11] to have to use less tokens. So, they
+- [13:14] either need better models, which, you
+- [13:16] know, maybe are coming, you know, over
+- [13:18] the next few months from the rumors that
+- [13:19] we hear here, uh, or, you know, they
+- [13:22] have to find they have to get those the
+- [13:24] current models for a lot lot cheaper. uh
+- [13:26] and then not just sort of use more
+- [13:28] tokens, you know, I thought that was a
+- [13:30] fascinating takeaway.
+- [13:31] >> Yeah. Yeah. A lot there we could we
+- [13:34] could dive into. I want to keep moving
+- [13:35] in you to to the third point which is
+- [13:38] that you know if it feels to me uh you
+- [13:42] and I think this is kind of like the
+- [13:43] unspoken truth of Silicon Valley, right?
+- [13:46] Is you know Mark Zuckerberg of of Meta,
+- [13:49] Sam Alman of OpenAI, right? Dario from
+- [13:52] from anthropic they're all talking about
+- [13:54] the super intelligences nigh right
+- [13:57] they've you know you know meta has just
+- [13:59] been scrambling to get these you know
+- [14:01] super smart researchers and I think you
+- [14:04] know poaching eight people over the last
+- [14:06] two weeks from open AI a big a big kind
+- [14:10] of you know big conversational um vision
+- [14:13] conversation here around AGI but it was
+- [14:17] like that that world is is is is tired
+- [14:20] right to to the real practitioners who
+- [14:22] don't really they're not really
+- [14:24] listening to that. They're they're
+- [14:25] really focused on solutions. Um we don't
+- [14:29] care about super, you know, come on that
+- [14:31] super intelligence is not an eye that
+- [14:33] that's kind of like a hype story to hire
+- [14:35] really good people and we get we get why
+- [14:37] you're doing it. Go ahead and do that.
+- [14:39] We're focused on real solutions, right?
+- [14:42] And that that see that seemed to come up
+- [14:44] in in subtle ways. U yeah the way the
+- [14:48] way I would put it I you know I I had a
+- [14:51] fascinating conversation with Hillary
+- [14:53] the CTO from American Express and I and
+- [14:58] I won't go into details too much but but
+- [15:00] the sort of key takeaway from her
+- [15:02] conversation as well as multiple others
+- [15:04] like this over the two days was that
+- [15:07] it's not necessarily that people you
+- [15:09] know feel that like okay AGI there's no
+- [15:12] way AGI is coming or that kind of thing.
+- [15:14] Okay, may you for me the general
+- [15:16] consensus seems to be maybe, maybe not,
+- [15:19] right? But everyone's sort of looking at
+- [15:21] these LLMs as being a tool and being a
+- [15:26] really useful tool that you can use to
+- [15:28] do lots of different things. And so
+- [15:30] really what they're focused on is how do
+- [15:32] we use the current technology to get
+- [15:35] value out of it for both our internally
+- [15:38] for our making our employees better and
+- [15:40] then also for you know doing things for
+- [15:42] customers. uh making things easier for
+- [15:45] customers. And I think that's the the
+- [15:47] sort of fascination. You're totally
+- [15:48] right that in the Bay Area, everyone
+- [15:51] gets caught up in the whole sort of AGI
+- [15:53] hype. Uh you know, the the sort of
+- [15:56] politics of who's fighting which which
+- [15:58] frontier model is you company is
+- [16:00] fighting the other one at this week and
+- [16:02] who's poaching from who. Uh but but it
+- [16:06] was really fascinating to see that these
+- [16:07] these other companies are much more
+- [16:09] focused on okay how do I make something
+- [16:13] with this how do I use this and that's
+- [16:15] both for the LLM and for you know
+- [16:18] agentic use of LLM so agents sort of
+- [16:21] stuff um I thought there were lots of
+- [16:22] good examples of that and it was really
+- [16:24] interesting to sort of see who you know
+- [16:27] sometimes even in it seems to me
+- [16:28] sometimes even in the same company
+- [16:31] you've got you know maybe the sort of
+- [16:33] hype people. And then you've got maybe
+- [16:36] more, you know, like if we're looking at
+- [16:38] Google, you got, you know, Will Granis
+- [16:40] who clearly is heavily, he's the CTO of
+- [16:43] Google Cloud, heavily rooted in helping,
+- [16:46] you know, some of these companies uh
+- [16:48] achieve new things that perhaps they
+- [16:50] didn't even know were possible with
+- [16:51] LLMs. Will Granis was of Google was
+- [16:54] talking with Highark Health, a a
+- [16:57] customer of theirs that had been doing
+- [16:59] some really interesting things with AI.
+- [17:01] Did you have any takeaways on that
+- [17:02] specifically? Um so I yeah my biggest
+- [17:05] takeaway from that was just literally
+- [17:07] there were a few things. one uh that he
+- [17:10] made some really good points about how
+- [17:11] companies really need to realize that
+- [17:13] this is not an overnight thing that they
+- [17:16] need to have the data they need to have
+- [17:18] the systems built sometimes that that's
+- [17:21] going to take you know a couple of years
+- [17:23] for some of those things I and but once
+- [17:27] they've got those things suddenly they
+- [17:29] can deploy them you know in in many
+- [17:31] different ways than they expected so you
+- [17:33] know I thought it was really interesting
+- [17:34] that high mark health was using uh you
+- [17:37] using a lot of these LLMs to basically
+- [17:40] do multilingual stuff so that they could
+- [17:42] contact their customers who don't speak
+- [17:44] English. Now, that that's such a simple
+- [17:46] thing, but it's such a huge thing as
+- [17:49] well, right? That that you know, if
+- [17:51] you're trying to if you're the one
+- [17:53] provider who can speak all different
+- [17:55] languages and your competitors can only
+- [17:57] speak English, you you know, even in
+- [18:00] countries like America, you're going to
+- [18:01] get a lot of extra customers from that,
+- [18:03] >> right? Yeah. That was Richard Clark,
+- [18:05] SVP, chief data officer. You know, I the
+- [18:07] other thing I I noticed, you talked
+- [18:09] about Will Grants's point about, you
+- [18:11] know, taking time getting the data set
+- [18:13] set up. Um the the companies that really
+- [18:16] started this early, they're really
+- [18:18] coming into their own, right? I'm
+- [18:19] thinking about, you know, the init
+- [18:21] capital one, you know, LinkedIn, and I
+- [18:24] think these provided really good cases
+- [18:25] for the rest of the audience to see how
+- [18:27] what you could do. you it's really
+- [18:28] interesting how you know Capital One or
+- [18:31] into it they're basically setting these
+- [18:32] agents that are essentially reflecting
+- [18:35] real functions right that maybe
+- [18:37] individuals were doing before but
+- [18:38] they're really discreet functions maybe
+- [18:40] part of what you know the mundane things
+- [18:42] of what people were doing so for example
+- [18:43] Capital One has a a an agent for
+- [18:46] evaluating risk as as another agent for
+- [18:49] auditing another agent that basically
+- [18:51] evaluates each one of those agents and
+- [18:54] it keeps going and basically
+- [18:55] constructing a gentic system that
+- [18:58] reflects the org, right? Again, a point
+- [19:00] underscoring they're doing real work,
+- [19:02] really focused on on solutions. So, you
+- [19:05] have this team of agents they talked
+- [19:06] about helping, you know, this is Capital
+- [19:08] One, right? Helping their dealership,
+- [19:10] car dealership clients, uh setting up
+- [19:13] agents, right? So, they could then help
+- [19:15] their customers find the right car or
+- [19:17] car loans, right? In it doing the same
+- [19:19] thing with invoice generation, uh right,
+- [19:21] with an invoice generation agent, right?
+- [19:24] working with a reminder agent, right, in
+- [19:26] QuickBooks, right, their there's their
+- [19:28] their solution for accountants, right,
+- [19:30] where business and and and they said,
+- [19:31] you know, they've tracked now the
+- [19:32] results and businesses are getting paid
+- [19:34] five days faster, right, from from these
+- [19:37] these clients on average, right? You 10%
+- [19:40] more likely to be paid fully uh on time.
+- [19:45] So uh
+- [19:46] >> both you like yeah those companies that
+- [19:48] you mentioned there were very early
+- [19:51] adopters of machine learning and using
+- [19:54] you know the these kind of uh data tools
+- [19:57] going back sort of you know six eight
+- [19:59] years ago even for some of them um that
+- [20:02] that was fascinating to sort of see and
+- [20:04] I do think you're right that those
+- [20:05] people have got a kind of lead you know
+- [20:08] on doing some of these things. was also
+- [20:10] really interesting to sort of see some
+- [20:12] of the companies like you know I think
+- [20:14] you had one panel with Expedia and Kayak
+- [20:17] the CTO's from both both those companies
+- [20:19] talking about you know the challenges
+- [20:21] that they were facing in in sort of
+- [20:24] competing against you know there there
+- [20:26] was a really interesting uh comment
+- [20:28] about you know if someone's searching
+- [20:30] for a for a hotel in chat GBT they can
+- [20:33] say hey I want one with an infinity pool
+- [20:36] but searching on their platforms at the
+- [20:37] moment they can't do that and so how
+- [20:39] they're having to sort of, you know,
+- [20:41] pivot or quickly adapt to like, okay,
+- [20:44] how do we, you know, how do we sort of
+- [20:46] incorporate new kinds of search, new
+- [20:48] kinds of discovery, uh, for their
+- [20:51] clients? And that how they have to be
+- [20:53] able to do that at scale. That was
+- [20:54] another fascinating thing I guess going
+- [20:56] back to uh Dylan's talk was just that
+- [21:00] how while it's quite easy for you know
+- [21:04] you to basically sign up for an account
+- [21:05] at OpenAI and get a small number of
+- [21:08] tokens if you need like millions or even
+- [21:12] billions of tokens for your particular
+- [21:15] you know or or your CTO is on on the
+- [21:18] call or your vice presidents are on the
+- [21:20] call to you know OpenAI begging for
+- [21:22] tokens that sounded really, you know,
+- [21:24] the like uh troubling that a lot of
+- [21:27] these these companies are trying to sort
+- [21:30] of work out, okay, where do we get, you
+- [21:32] know, so many tokens and I think that
+- [21:33] that going back, you know, this even
+- [21:35] ties into the model gateway from IBM.
+- [21:37] Again, you know, this is where companies
+- [21:39] are starting to realize, well, maybe we
+- [21:40] don't need the best models for
+- [21:42] everything. We can, you know, we can get
+- [21:43] extra tokens by running open weights
+- [21:46] models ourselves and doing this kind of
+- [21:48] thing. S Sam la last point on on this
+- [21:51] this this big point of you know
+- [21:53] companies just really focused on real
+- [21:56] solutions. Stanford, right? Great
+- [21:58] example. Again, we had on stage the um
+- [22:01] CTO of their hospital, Michael Feffer,
+- [22:05] uh who who who talked about how they
+- [22:08] didn't need a chief AI officer. And this
+- [22:11] this actually became kind of a sub
+- [22:12] conversation at at the event, right?
+- [22:14] Like, thank goodness you don't have I
+- [22:16] think it was Alli Miller, right? Who who
+- [22:18] who talked about you don't need a chief
+- [22:20] AI officer anymore. It's it's like
+- [22:22] having a a chief mobile officer during
+- [22:25] the mobile revolution, right? Is it's
+- [22:26] like it should basically infuse
+- [22:28] everything. So basically Stanford
+- [22:30] realized, hey, we we're getting our
+- [22:31] practitioners together, right? You got
+- [22:33] the technologists, you know, the
+- [22:34] engineers, the domain experts um and
+- [22:37] they came together and created the
+- [22:39] essentially what look appears to be the
+- [22:41] first EHR, right? Electronic health
+- [22:44] record that can talk with an LM LM can
+- [22:48] you can ask questions of it. very
+- [22:50] simple, but it's just surprising how
+- [22:52] difficult it had been for hospital
+- [22:53] systems to actually create something
+- [22:55] that was HIPPA compliant. And they did
+- [22:57] this. It was actually proposed, you
+- [22:59] know, a while back by a student, right,
+- [23:01] in in in a practice area. And that just
+- [23:05] shows the accessibility, you know, of
+- [23:07] of, you know, what what this this, you
+- [23:09] know, we'll get get back to the builder
+- [23:10] point, but um I thought I thought it was
+- [23:13] interesting again uh that, you know,
+- [23:15] there's this this a shoeing of kind of
+- [23:17] the formality of kind of this this this
+- [23:19] ivory tower of an AI AGI team, right, is
+- [23:24] is just getting down to work. So, so
+- [23:26] Sam, let's let's move to the the fourth
+- [23:28] and kind of final takeaway, which I
+- [23:31] think is a big one, right? Which is the
+- [23:33] team in the age of AI agents. We've
+- [23:36] touched on this a little bit, right?
+- [23:38] Verun mohan, the CEO of Windsurf, as you
+- [23:42] said, kicked off the event with, I
+- [23:43] think, a really interesting point that
+- [23:45] resonated. He he he's looking at teams
+- [23:47] of like three to four, you know, squads
+- [23:50] of three to four people of engineers
+- [23:53] each focused and able to move really
+- [23:55] quickly because if you have a team
+- [23:57] that's bigger than that, there there's a
+- [23:59] you just really slow down. This has
+- [24:01] become a conversation in Silicon Valley,
+- [24:03] right? This is the way, you know, Elon
+- [24:05] Musk works, right? Small teams. And so
+- [24:07] then the question was, well, well,
+- [24:09] you're you're hiring like crazy. How how
+- [24:11] does that you how does that match? And
+- [24:13] he said, "Well, basically, yeah, you
+- [24:14] you're you're basically these teams of
+- [24:17] three to four that are basically working
+- [24:19] on discrete projects and you got to kind
+- [24:21] of manage them, bring them all together,
+- [24:22] but it's basically that that basic
+- [24:24] unit." Um, you said everyone's a builder
+- [24:27] to to your point, right? Any any other
+- [24:29] takeaways from you on on the team point
+- [24:31] and and
+- [24:32] >> so so yeah, like I think um I think I do
+- [24:34] think everyone's a builder now that that
+- [24:37] it was clear, you know, that we kind of
+- [24:38] talked about that before. Um, another
+- [24:40] takeaway I've seen actually this week
+- [24:42] from a big company here as well, uh,
+- [24:45] talking to them is not only is everyone
+- [24:48] uh, a builder, everyone's a manager now
+- [24:50] because they're managing agents, right?
+- [24:53] And I I you know I I heard a very
+- [24:56] interesting thing this week of where you
+- [24:58] know uh one guy who managed an
+- [25:00] engineering team was saying that like
+- [25:02] you know all his his coders or you know
+- [25:04] all the engineers on his team were
+- [25:06] really frustrated with their agents for
+- [25:08] the same things that he was frustrated
+- [25:10] with them right so you know he was sort
+- [25:13] of saying well you need to articulate
+- [25:14] what you want better you need to you
+- [25:16] know like all these sorts of things that
+- [25:18] I I guess managers you know sort of pick
+- [25:21] up over over time people are now
+- [25:23] starting to realize, oh, if I want to be
+- [25:25] good at managing multiple agents here
+- [25:27] and getting them to do things where it's
+- [25:30] not just a repetition kind of loop, then
+- [25:33] I need to get good at these skills. So
+- [25:35] yeah, definitely the whole idea of small
+- [25:36] teams is is something that you're just
+- [25:38] seeing, you know, more and more and
+- [25:40] more. Like I, you know, I think I
+- [25:44] talking to some people that, you know,
+- [25:46] undergrads sort of that are just
+- [25:48] starting to graduate or or looking for
+- [25:50] internships and stuff like that are
+- [25:52] finding it really hard because people
+- [25:54] are just not hiring as much for those
+- [25:56] low-level jobs at the moment. Uh, you
+- [25:59] know, let's see where that goes. But
+- [26:01] that's certainly an interesting thing
+- [26:03] and it's basically because a lot of
+- [26:05] these people don't need lots of people
+- [26:07] now. They can just use this have small
+- [26:10] teams. The small team can achieve what a
+- [26:13] lot of other people could do. And the
+- [26:15] cool thing with with the small teams is
+- [26:16] you get a much better sort of uh clarity
+- [26:19] of outcome where you know if you've only
+- [26:22] got a few humans and they're instructing
+- [26:24] agents then ideally everyone should be
+- [26:27] on track probably a lot better than say
+- [26:30] a team of 20 people where some people
+- [26:32] are going left right up down kind of
+- [26:34] thing
+- [26:34] >> right I I think you know it's github at
+- [26:37] lassian we're talking about teaching
+- [26:39] engineers to become managers of agency
+- [26:41] right so that was the conversation
+- [26:43] throughout Um, you had a workshop, Sam.
+- [26:46] I mean, you you moderated a couple
+- [26:47] conversations. You actually had a
+- [26:49] workshop, how to build agents. Any
+- [26:50] takeaways there? It sounded like some of
+- [26:52] your your audiences were getting into
+- [26:53] the nitty-gritty of of how
+- [26:55] >> that Yeah, that was really fascinating.
+- [26:57] Like, you know, the probably about 10%
+- [27:00] of the people there were engineers. Um,
+- [27:04] the rest weren't. A lot of a lot of
+- [27:06] people in sort of uh senior management
+- [27:09] which kind of surprised me that you know
+- [27:11] some of these people from senior
+- [27:13] management wanted to come to a workshop
+- [27:14] about building agents and had very
+- [27:17] specific sort of questions like that
+- [27:20] related to their org uh and you know had
+- [27:22] really clear sort of ideas of hey we
+- [27:25] want to do this is this possible or
+- [27:28] we've started doing you know we're going
+- [27:30] this down this road uh what should we
+- [27:32] expect um yeah that was really
+- [27:34] interesting to sort of see like okay uh
+- [27:37] who who was there. Um also very
+- [27:40] interesting later on to see just who
+- [27:41] added me on LinkedIn that was there that
+- [27:44] were from big companies that you would
+- [27:45] think maybe do know how to do agents but
+- [27:48] like some of their questions were
+- [27:50] showing that like okay you know they're
+- [27:52] also still trying to work it out. So I
+- [27:54] don't think it's you know one of the key
+- [27:56] takeaways I I think is that it's not
+- [27:58] like you know everyone's worked this out
+- [28:01] now. If if your company hasn't gotten
+- [28:03] into uh this yet, you should be jumping
+- [28:06] in. You should be trying to do these,
+- [28:08] you know, at least experiment. Get some
+- [28:10] some projects going. Try try it out. Get
+- [28:13] your stuff learning how to do this kind
+- [28:15] of stuff,
+- [28:15] >> right? Yeah. So, so two other two other
+- [28:17] points I wanted to make sure we fit in
+- [28:19] here. It's like Andrew Inc., right? one
+- [28:20] of one of the the big names in AI spoke
+- [28:23] and uh one of the big points that kind
+- [28:25] of again reverberated as a result of his
+- [28:27] comments on the first day that we came
+- [28:29] back on was this idea of leaving safety
+- [28:33] governance observability to the end
+- [28:36] right there this big question mark from
+- [28:37] folks like you mentioned HD Huang for
+- [28:40] all right the CTO of Zoom you mention he
+- [28:43] was there at the event talking about how
+- [28:44] can we move faster he want he wants to
+- [28:46] really get his his his agents into place
+- [28:49] um and and Andrew basically providing
+- [28:52] the response. It's like, you know, you
+- [28:54] just got to leave, you know, you just
+- [28:55] got to really sandbox that that kept
+- [28:57] coming up. Have a sandbox. This is the
+- [28:59] kind of the the best practice and and
+- [29:01] build within that and and and and make
+- [29:03] sure you get a solution that works
+- [29:05] because all that safety, governance, you
+- [29:06] know, observability and and things will
+- [29:08] slow you down and nothing gets done.
+- [29:11] that now that receives some critic I
+- [29:13] mean criticism from some folks because
+- [29:15] some folks from bigger companies um
+- [29:18] saying well that may not be realistic if
+- [29:20] everything you do has to be laced right
+- [29:22] with with some of these things but I
+- [29:24] thought that was an interesting
+- [29:25] conversation in terms of just the way
+- [29:27] these teams and organizations are
+- [29:29] changing I think the other point was we
+- [29:31] saw this in our survey it was another
+- [29:33] question the AI survey that we do
+- [29:35] annually that 10% of organizations have
+- [29:39] no dedicated AI high safety team, right?
+- [29:42] And and this is sometimes even in cases
+- [29:44] where they've deployed agents even
+- [29:46] externally uh to to to to customers. So
+- [29:48] I I thought that there there was also a
+- [29:50] lack of consensus around how to measure
+- [29:53] ROI. Um but it's also true that this can
+- [29:56] depend on the industry or or specific
+- [29:58] company case. So that maybe not too
+- [30:01] surprising. So that you know that that's
+- [30:04] basically you know the the four
+- [30:05] takeaways. am any any big, you know,
+- [30:08] kind of parting notes that we haven't
+- [30:11] maybe touched on or or wrap ups in ter
+- [30:13] terms of what you you took away?
+- [30:15] >> I look on the whole, you know, I thought
+- [30:18] it was fascinating to just sort of see,
+- [30:20] okay, how far along some of these
+- [30:23] companies are. I so, you know, it really
+- [30:26] is a competitive edge to be able to do
+- [30:29] do this kind of thing. And you know I I
+- [30:32] felt very vindicated that I've been
+- [30:33] saying this for quite a long time and
+- [30:36] but when you talk to your CTOs of some
+- [30:38] of these really big orgs and they're
+- [30:40] like oh yeah this is definitely a
+- [30:42] competitive edge we have to move fast
+- [30:44] like you just mentioned CTO of Zoom I
+- [30:47] you know and a number of the you know
+- [30:49] the other ones but lot lot it really is
+- [30:51] sort of the people who get it are are
+- [30:53] moving quickly and I I wonder for the pe
+- [30:57] you know the orgs that weren't there you
+- [30:59] know are they going to be the
+- [31:00] blockbusters of, you know, three years
+- [31:04] from now when we look back, are we
+- [31:06] they're the ones that we're going, gee,
+- [31:07] they were such a big company, why didn't
+- [31:09] they sort of get on the AI train and and
+- [31:12] realize that this was going to be
+- [31:13] something that they needed to do? Um,
+- [31:15] the other thing too, just really
+- [31:17] fascinating different use cases of
+- [31:20] agents, stuff that you would never think
+- [31:22] about as being a sort of, you know,
+- [31:24] developer talking to, you know, people
+- [31:26] using these things for real world, you
+- [31:28] know, of really wide variety of
+- [31:31] different things. Um, you know, I I
+- [31:33] think that's something that as with all
+- [31:36] technology, it it when when people sort
+- [31:39] of work out how to use it, they end up
+- [31:42] using it totally different than than
+- [31:44] originally planned or than, you know,
+- [31:46] than than sort of what the the sort of
+- [31:48] creators of that technology thought. And
+- [31:50] I think we're definitely seeing that
+- [31:51] with LLMs. I, you know, I'm constantly
+- [31:53] fascinated by meeting with startups
+- [31:55] here, meeting with people here that you
+- [31:58] you find that they're they're doing
+- [32:00] using LLM for stuff that you just never
+- [32:02] would have thought of in the past. And I
+- [32:04] think a lot of those companies are still
+- [32:06] in, you know, quite a number of them
+- [32:07] still in stealth for the startups, you
+- [32:10] know, as they come out. I think we're
+- [32:11] going to see this sort of this explosion
+- [32:13] is happening.
+- [32:15] And for me, VB transform really
+- [32:18] confirmed that like we talked about, not
+- [32:20] from just the hype side, but from the
+- [32:22] real world use side. That's my big
+- [32:24] takeaway.
+- [32:25] >> Yeah. Yeah. So, the explosion is
+- [32:27] happening. And you know, if I would add
+- [32:28] one one last takeaway, um it's it's how
+- [32:32] it's happening that is that that is
+- [32:34] amazing as well, right? When Satcha
+- [32:36] Nadell, I can't remember when it was
+- [32:37] like six months to a year ago. He was
+- [32:39] talking about the great rewiring of the
+- [32:41] company, right? This is essentially kind
+- [32:43] of like an OS change, right? Operating
+- [32:46] system change. Um that it was it was
+- [32:48] high level, right? When he when he
+- [32:50] talked about it at first, okay, you can
+- [32:52] get it. Yeah, makes sense. Um but at
+- [32:56] Transform last week, you saw it from
+- [32:59] essentially 60 companies, right? Talking
+- [33:02] about every level, right? The rewiring
+- [33:04] at the infrastructure level, right?
+- [33:06] where you're talking about needing new
+- [33:08] memory and and and and um storage
+- [33:11] solutions connected with with your your
+- [33:13] G GPUs and some companies can't get them
+- [33:16] some companies can in terms of GPUs
+- [33:18] right everything's unique and and then
+- [33:21] you know all you know up to the the the
+- [33:22] the application layer to to the way the
+- [33:25] orchestration happens to management team
+- [33:28] size uh everything's being changed right
+- [33:32] now and to your point you you and
+- [33:34] Microsoft gone on it fast they've moved
+- [33:35] and I I think they're ahead of the
+- [33:36] curve. Uh they saw it coming and I think
+- [33:38] this is where a lot of other companies
+- [33:40] need need to get with the program. So
+- [33:41] it'll be really interesting to follow
+- [33:43] the story. So thanks Sam for for being
+- [33:46] there and joining us at the last
+- [33:47] transform. We we'll have uh I think the
+- [33:49] next one scheduled what is it July 15th
+- [33:53] next year? But uh hope hopefully
+- [33:54] everyone can make it uh next year and
+- [33:57] we'll we'll um we'll see you then.
+- [34:05] [Music]

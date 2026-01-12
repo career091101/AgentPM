@@ -1,0 +1,447 @@
+---
+title: "hello world it's siraj and we're gonna build a dating app using chat GPT that makes money in this vi..."
+video_id: "hL2hLFUwuqQ"
+video_url: "https://www.youtube.com/watch?v=hL2hLFUwuqQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "LLM"
+  - "OpenAI"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Startup"
+  - "Product Development"
+summary: |
+  hello world it's siraj and we're gonna
+  build a dating app using chat GPT that
+  makes money in this video and I want to
+key_points:
+  - "makes money in this video and I want to"
+  - "show you a demo first as you can see I'm"
+  - "that this is where she lives and here's"
+  - "should take her to okay so this is just"
+  - "sales with this from friends just for a"
+  - "test demo but you can see here that the"
+  - "name of the app the first step is to"
+  - "purchase this app it hitches an AI"
+category: "Startup & Entrepreneurship"
+confidence_level: "high"
+---
+
+# Transcript: hL2hLFUwuqQ
+
+- URL: https://www.youtube.com/watch?v=hL2hLFUwuqQ
+- Language: en
+- Retrieved at: 2025-12-30T13:09:38+09:00
+
+## Text
+
+- [00:00] hello world it's siraj and we're gonna
+- [00:02] build a dating app using chat GPT that
+- [00:04] makes money in this video and I want to
+- [00:07] show you a demo first as you can see I'm
+- [00:09] asking it about a girl that I like that
+- [00:12] likes different things rock and roll
+- [00:14] anime gaming and it gives me some
+- [00:15] examples of gifts to give her I also say
+- [00:17] that this is where she lives and here's
+- [00:19] the type of food she likes and it
+- [00:21] suggests a type of restaurant that I
+- [00:22] should take her to okay so this is just
+- [00:24] a very simple example I've already made
+- [00:26] sales with this from friends just for a
+- [00:28] test demo but you can see here that the
+- [00:31] first step it's called hitch that's the
+- [00:33] name of the app the first step is to
+- [00:34] purchase this app it hitches an AI
+- [00:36] powered dating coach that offers
+- [00:38] on-demand private coaching for singles
+- [00:40] let's purchase this for a dollar just
+- [00:42] for test purposes and then you can see
+- [00:44] here it is with stripe I can enter my
+- [00:46] details I can pay for it let me just do
+- [00:49] that once I pay the details it's going
+- [00:51] to give me a phone number that I can
+- [00:54] then text here's the number save the
+- [00:56] number you can text or call anytime and
+- [00:58] this was paid it's recorded in my stripe
+- [01:01] dashboard I've already made some other
+- [01:03] sales from friends already here's the
+- [01:05] third sale that I made we can see in the
+- [01:07] twilio dashboard all of the SMS texting
+- [01:10] I'm going to go through each of these so
+- [01:12] there are three parts to this tutorial
+- [01:13] the demo the tools used and let's build
+- [01:16] the MVP so I've already showed you the
+- [01:18] demo so let's go right into the tools
+- [01:21] that are used the first one is obviously
+- [01:22] open ai's API for GPT 3. the second in
+- [01:27] chat GPT as well the second one is
+- [01:29] twilio and that's for SMS texting the
+- [01:31] third one is node.js and that's a
+- [01:34] JavaScript runtime environment the next
+- [01:37] one is react and react creates
+- [01:39] responsive interfaces for JavaScript
+- [01:41] applications then we have next.js
+- [01:44] next.js is built on top of react and it
+- [01:47] allows us to use building blocks to
+- [01:49] build web Frameworks then we have stripe
+- [01:52] for payments and stripe is accepted in
+- [01:54] most countries now and for deployment we
+- [01:56] have fly.io it allows us to deploy a
+- [01:59] node JS app instantly and scale it as
+- [02:01] much as we want and I think it's built
+- [02:03] off of gcp Google Cloud then we have
+- [02:06] durable durable is a one-click landing
+- [02:08] page it's how I built this landing page
+- [02:10] right here and then we have brand Mark
+- [02:12] and brandmark generates logos for us
+- [02:14] using AI in real time so if we go to the
+- [02:17] architecture of the DAP we can see how
+- [02:19] it works I as a user will first pay
+- [02:21] stripe okay so that's going to be a
+- [02:23] payment and once I pay stripe then I can
+- [02:26] send a text to A number that is given to
+- [02:28] me with the twilio API and I'll send
+- [02:31] that number a text what gift should I
+- [02:33] get a gamer girl it's going to then send
+- [02:35] that query to the fly.io server that's
+- [02:38] running the app and the app is running
+- [02:40] in a JavaScript runtime environment
+- [02:42] that's using node.js on top of that
+- [02:45] there's react to interact with
+- [02:47] responsive web elements and then next.js
+- [02:50] on top of that for web interactivity and
+- [02:52] performance now next.js and routing by
+- [02:55] the way it's also going to do routing
+- [02:56] next i.js is going to call the openaiipi
+- [02:59] with that query get the result return it
+- [03:01] back to the user very simply so that's
+- [03:03] kind of the architecture and overview of
+- [03:05] how the app works and now let's get to
+- [03:07] the third part which is building it and
+- [03:09] so by the way which version of GPT am I
+- [03:12] using here that's a really good question
+- [03:14] I want to have an answer for you the
+- [03:16] answer is gpt3 because chat GPT it is
+- [03:20] actually not allowed to use that
+- [03:21] publicly openai has not publicly
+- [03:24] released their API for that so we're
+- [03:26] going to use chat GPT as our co-founder
+- [03:28] to build this MVP and then we're going
+- [03:31] to use gpt3 as the actual chat engine
+- [03:34] underneath so let's go into this and
+- [03:36] start building so the first step we're
+- [03:38] going to do is we're going to ask it
+- [03:39] what are some of the use cases of you to
+- [03:41] make money so let's ask it that I want
+- [03:43] to make money with
+- [03:46] um chat GPT what are some ways to do
+- [03:50] that
+- [03:52] and it's going to give us some it's
+- [03:54] going to give us some great examples
+- [03:55] it's going to say we can use it to offer
+- [03:57] businesses a chat bot service for a
+- [03:59] customer communication or you know more
+- [04:02] information we could sell templates we
+- [04:04] could use it to promote products we
+- [04:05] could generate leads for sales all these
+- [04:07] things so what we're going to do is
+- [04:09] we're going to pick the first one we're
+- [04:10] going to offer chat bot services to
+- [04:12] businesses and those businesses would be
+- [04:14] like you know dating services
+- [04:16] consultancies and this could be a tool
+- [04:18] to help them you know just help people
+- [04:20] more often at scale so how do we build
+- [04:22] this thanks GPT for the suggestion on
+- [04:24] what to build now how to build it and
+- [04:27] believe it or not Chad gbt can tell us
+- [04:29] how to build something as well so I
+- [04:31] asked it for example
+- [04:33] um these are all the things that I've
+- [04:34] asked it I was like how do I add a
+- [04:36] simple user login signup flow to a react
+- [04:38] application here's like it's like here's
+- [04:40] step by step how to do it with the code
+- [04:42] everything oh my God okay so super
+- [04:44] simple stuff but more than that I
+- [04:46] thought it was what was really cool was
+- [04:48] I asked it literally show me a five-step
+- [04:50] tutorial on how to deploy an AI dating
+- [04:52] coach that charges ten dollars a month
+- [04:54] to access open ai's gpt3 twilio stripe
+- [04:57] node.js react.js and next.js and it's
+- [05:00] like here it is the five-step tutorial
+- [05:02] so we're going to follow the five-step
+- [05:04] tutorial that chat topt our co-founder
+- [05:06] asked us to do so let's do that
+- [05:09] um the first step for us to do is we're
+- [05:11] going to go to this GitHub repository
+- [05:14] and I'm going to Fork it so that we all
+- [05:16] have access to it I'm going to call it
+- [05:18] um
+- [05:19] chat GPT
+- [05:21] demo
+- [05:23] or let's call it GPT demo
+- [05:26] and so you're going to find this
+- [05:28] repository here it's called gbt demo in
+- [05:30] my GitHub repository in the video
+- [05:31] description so it was made by the
+- [05:33] promptable guys so good job promptable
+- [05:35] guys so we're going to start with this
+- [05:37] thing and so what this is is it's a
+- [05:38] react application if you've never coded
+- [05:41] in JavaScript that's okay just follow
+- [05:43] along with me we're going to do this all
+- [05:45] together so the first step is we're
+- [05:46] going to download this code the GPT demo
+- [05:49] let's download it and once it's
+- [05:51] downloaded we're going to see what are
+- [05:53] the dependencies that we need here okay
+- [05:54] we need node it's already installed we
+- [05:57] need a twilio account we need a
+- [05:59] ngrok which we don't actually need and
+- [06:02] some optional things so let's forget
+- [06:03] about all that all we need is node.js so
+- [06:06] we've downloaded our application and now
+- [06:08] we're going to go into that directory
+- [06:12] okay so we're in it and now we're going
+- [06:14] to do whatever it says so it says the
+- [06:16] first thing we need to do is create a
+- [06:18] twilio phone number so let's go to
+- [06:20] twilio and twilio is great I used to
+- [06:22] work at twilio as a developer educator
+- [06:24] so they have amazing I know that they
+- [06:26] have amazing solutions for developers
+- [06:28] like us
+- [06:29] if we go to the console what twilio is
+- [06:31] going to do we're going to have to sign
+- [06:32] up for an account and it's going to give
+- [06:33] us a free 15 promo to sign up so it's
+- [06:35] actually free to use
+- [06:37] um then we have to pay to remove the
+- [06:39] trial of stuff so right now this is a
+- [06:42] you know free trial account I actually
+- [06:44] paid 20 just to remove the trial logos
+- [06:48] on the text messages but it's free you
+- [06:50] can do this for free so if we go to
+- [06:52] phone numbers it's going to ask us to
+- [06:54] generate a phone number so we can go to
+- [06:56] phone numbers we can go to buy a number
+- [06:59] and you know if you start off you get a
+- [07:02] phone number for free so I already have
+- [07:03] a number and then we'll go to overview
+- [07:05] and you can see already that there's a
+- [07:07] bunch of messages that my friends users
+- [07:09] have already sent from different numbers
+- [07:10] and you can see that
+- [07:13] um that's all we have to do and so once
+- [07:15] we have a twilio phone number
+- [07:17] then we're going to go back to this and
+- [07:21] we're going to update our uh twilio
+- [07:23] phone number but we need to twilio's
+- [07:25] command line interface installed and we
+- [07:27] just don't want to do that so all we
+- [07:29] have to do is install our dependencies
+- [07:31] with npm the node package manager one of
+- [07:34] the most ubiquitous package managers in
+- [07:37] the developer tooling ecosystem now once
+- [07:40] we've done that we're going to copy our
+- [07:41] environment variables boom one click
+- [07:43] done that now we have to fill in our
+- [07:46] twilio and open AI Keys into my personal
+- [07:48] phone number okay so in dot end so we'll
+- [07:52] go to Nano dot end we'll see that there
+- [07:54] are four values here that we have to
+- [07:55] fill in the account said the auth token
+- [07:58] the phone number and the API key how do
+- [08:00] we do all of this so if we go to twilio
+- [08:03] we go to the
+- [08:04] um
+- [08:05] account we're going to see our API keys
+- [08:09] and tokens
+- [08:11] I'm gonna have to verify
+- [08:17] and I have my credentials here and then
+- [08:19] I also what else do I need I need my
+- [08:21] phone number so I'm going to add my
+- [08:23] phone number and then my openai API key
+- [08:26] that's super important
+- [08:29] so if you go to the openai website we
+- [08:31] can get access to our API key we'll go
+- [08:33] to view API keys or get a secret key
+- [08:36] we'll we'll you know create a new secret
+- [08:38] key and copy it and we'll go back here
+- [08:41] and we'll paste it in okay
+- [08:48] foreign
+- [08:53] variable then we're going to compile the
+- [08:57] typescript to JavaScript with npm run
+- [08:59] build
+- [09:00] okay we did that and finally
+- [09:04] we can run the project with npm start
+- [09:07] okay
+- [09:08] so this address is in use so we're going
+- [09:10] to have to
+- [09:16] okay so now the server is listening on
+- [09:18] localhost and if we go to localhost 3000
+- [09:21] we can see it's a 200 okay so it
+- [09:22] understands us but where we want to go
+- [09:24] is messages messages are going to
+- [09:26] require a post request not a get request
+- [09:28] so let's open up this code and see what
+- [09:32] it looks like
+- [09:35] so here's the app and if we go into it
+- [09:37] we can see under the messages.ts file in
+- [09:39] the routes folder what it's doing is
+- [09:41] it's going to send a message a query
+- [09:43] that we send to it a user sends to it
+- [09:45] via SMS it's going to encode that using
+- [09:47] twiml and twiml is twilio's markup
+- [09:50] language it's a way to encode data so
+- [09:53] that it interacts well with twilio's SMS
+- [09:57] service and we can see that right here
+- [10:01] it's all happening right here you send
+- [10:02] the request send it to twilio Returns
+- [10:04] the response with open ai's API and uh
+- [10:07] that's where the reply is gotten from
+- [10:10] asynchronously
+- [10:11] so that's that and uh now we can go back
+- [10:15] to our repository here if we want to
+- [10:18] expose the local server uh publicly we
+- [10:20] can use ngrok we don't want to do that
+- [10:22] we just want to go directly to deploying
+- [10:24] it with fly.io and um before we deploy
+- [10:27] it let's make sure and test that it
+- [10:28] works and you can see that it works
+- [10:30] because every time someone sends a
+- [10:33] message uh to this chat bot it's going
+- [10:37] to reply and you can see it here and
+- [10:39] here's the open AI parameters the max
+- [10:42] number of tokens uh the temperature the
+- [10:44] stop the ID the object and you know we
+- [10:47] can choose how many tokens we want to
+- [10:48] generate but remember that we are
+- [10:50] charged on a you know token by token
+- [10:52] basis at open AI so we don't want to
+- [10:53] charge too much
+- [10:55] so we have that and uh it works now we
+- [10:58] want to deploy it to fly.io so what is
+- [11:00] fly.io fly.io is a way to deploy our app
+- [11:05] servers close to our users very cool
+- [11:07] full stack apps and they've got servers
+- [11:10] all over the world I love it it's really
+- [11:12] simple to deploy to as well so
+- [11:14] fly launch
+- [11:17] okay
+- [11:20] here's the server we want to deploy it
+- [11:22] to
+- [11:24] and now we have our app here it is
+- [11:26] running in the cloud on fly.io we can
+- [11:28] see all the texts we can see all the
+- [11:31] metrics all that stuff
+- [11:33] um and all that stuff so okay so we have
+- [11:35] our app it's running in the cloud but
+- [11:38] how do how does a user pay for it right
+- [11:41] that's the next question how does a user
+- [11:43] actually pay for this service because
+- [11:44] right now they just text a number and
+- [11:47] the number is going to for free give
+- [11:50] them this AI service right using gpt3
+- [11:52] that chat GPT helped us build but we
+- [11:55] want to have them pay for it so how do
+- [11:56] we do that so the way to do that is to
+- [11:58] go to durable and I found this great
+- [12:00] one-click website to create a landing
+- [12:02] page really quickly so let's do it let's
+- [12:03] generate our website using AI what type
+- [12:06] of business let's say it's a dating
+- [12:08] coach
+- [12:09] um and it's a you know it's called hitch
+- [12:12] and then it's going to use those
+- [12:14] keywords it's going to use NLP to design
+- [12:16] the website based on what we like so you
+- [12:20] can see it's using semantic similarity
+- [12:21] to suggest similar words like find love
+- [12:23] in this City it's literally generating
+- [12:25] customer testimonials it's generating
+- [12:28] related text descriptions paragraphs
+- [12:32] about our business from scratch and it's
+- [12:33] ready we're already so it's ready and we
+- [12:35] can share it already in one click here's
+- [12:38] our website boom it's live okay so what
+- [12:40] do we want to do we want to create a
+- [12:41] landing page on this website and it's
+- [12:44] just a one-click link on the website
+- [12:45] using stripe and then once they click on
+- [12:48] the link they have to pay and once they
+- [12:50] pay the receipt is going to give them
+- [12:51] the number that's going to give them
+- [12:53] access to our openai gpt3 but on the
+- [12:57] phone okay so how do we do that we're
+- [13:00] going to
+- [13:02] go back to this we're going to restyle
+- [13:05] it
+- [13:07] we're going to customize it and we're
+- [13:08] going to add a stripe landing page so if
+- [13:11] we go to stripe
+- [13:15] if we go to payments payment links we
+- [13:20] can create a new payment link so this is
+- [13:22] a now this is a single page with stripe
+- [13:24] that allows us to you know create a
+- [13:26] product so I'm going to say it's you
+- [13:28] know one dollar you know I'll create a
+- [13:29] new product let's create a new product
+- [13:31] it's a recurring payment AI dating coach
+- [13:34] fun the price is going to be a hundred
+- [13:37] dollars a month recurring billing period
+- [13:40] is monthly and we'll add the product
+- [13:44] and it's there we'll create the link
+- [13:47] here's a link
+- [13:49] one click link right here boom hundred
+- [13:51] dollars a month automatically charged so
+- [13:53] what do I need to do we need to go back
+- [13:55] to our page and we just need to add it
+- [13:57] in it's that simple
+- [13:58] just add it in right there in the link
+- [14:00] right here boom
+- [14:02] just like that cool so now we have our
+- [14:05] landing page we have our stripe
+- [14:08] integration we have our twilio
+- [14:09] integration we have our fly.io app
+- [14:12] integration so our app is living in the
+- [14:14] cloud now we have everything going on
+- [14:15] for us
+- [14:16] um now we just need users so we can just
+- [14:18] take this website and we can share it
+- [14:20] with our friends we can say hey check
+- [14:22] this out
+- [14:24] here's a link to it and if we wanted to
+- [14:25] we could get an actual custom link on
+- [14:27] this durable by the way super simple and
+- [14:30] that's our app code is going to be in
+- [14:31] the video description I hope you use it
+- [14:33] to build your own AI startup with chat
+- [14:35] GPT or this GPT Suite of apis I'm so
+- [14:39] proud of all of you Wizards for who have
+- [14:41] been here for years and are continually
+- [14:43] improving your careers and making
+- [14:45] amazing positive impact in the world and
+- [14:47] the coding challenge for this week is to
+- [14:48] make your first sale with openai's API
+- [14:52] whoever does that submit your GitHub
+- [14:53] Link in the comments section below and
+- [14:55] I'll announce the winner next week until
+- [14:57] then Happy learning and if you make it
+- [15:00] to the end I'm gonna wrap with lyrics
+- [15:01] generated by chatgpt GPT the AI That's
+- [15:05] always on top it's language skills they
+- [15:08] never stop generating text that's almost
+- [15:11] real GPT the AI that we feel

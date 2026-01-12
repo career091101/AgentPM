@@ -1,0 +1,5511 @@
+---
+title: "Hey guys, Google just released their new agent framework called Agent Development Kit and it is exploding in popularity."
+video_id: "P4VFL9nIaIA"
+video_url: "https://www.youtube.com/watch?v=P4VFL9nIaIA"
+speaker: "Brennan"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  Hey guys, Google just released their new agent framework called Agent Development Kit and it is exploding in popularity
+  And in this ADK crash course, I'm going to take you from beginner to expert so that you can go off and build your own AI agents, automate your workflows, and add AI agents to your own applications
+  And if you're new to the channel, my name is Brennan Hancock and I've helped hundreds of thousands of developers learn how to build AI agents through my crash courses on Langchain and Crew AI
+key_points:
+  - "link in the description below so you can download the 12 examples and kickstart your 80k journey"
+  - "agent, which is a single agent, so you can understand the core principles of creating agents inside of ADK"
+  - "you're going to see how we can make sure our agents spit out structured outputs"
+  - "to make sure our agents spit out, you know, specific JSON structures so that we can pass it over to other APIs and tools"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:45:01+09:00"
+---
+
+# Transcript: P4VFL9nIaIA
+
+- URL: https://www.youtube.com/watch?v=P4VFL9nIaIA
+- Retrieved at: 2025-12-30T10:45:01+09:00
+
+## Text
+
+- [00:00] Hey guys, Google just released their new
+- [00:02] agent framework called Agent Development
+- [00:04] Kit and it is exploding in popularity.
+- [00:07] And in this ADK crash course, I'm going
+- [00:09] to take you from beginner to expert so
+- [00:12] that you can go off and build your own
+- [00:14] AI agents, automate your workflows, and
+- [00:17] add AI agents to your own applications.
+- [00:19] And if you're new to the channel, my
+- [00:21] name is Brennan Hancock and I've helped
+- [00:23] hundreds of thousands of developers
+- [00:24] learn how to build AI agents through my
+- [00:27] crash courses on Langchain and Crew AI.
+- [00:29] So, I'm super confident that I'll be
+- [00:31] able to help you guys as well when it
+- [00:32] comes to building AI agents with ADK.
+- [00:35] And to help you master ADK as quickly as
+- [00:38] possible, I've created 12 different
+- [00:39] examples that we're going to walk
+- [00:41] through in this crash course. And you're
+- [00:42] going to see that we're going to start
+- [00:44] off with the absolute basics of building
+- [00:45] an individual agent and gradually add in
+- [00:48] more advanced features until you're
+- [00:50] building multi- aent workflows with tool
+- [00:52] callings and much more. And because I
+- [00:54] want this crash course to be as beginner
+- [00:56] friendly as possible, we're going to
+- [00:57] walk through every example step by step
+- [01:00] so that we stay on the same page and so
+- [01:02] you can see just how easy it is to
+- [01:03] actually create AI agents with ADK. And
+- [01:06] to make things even easier for you, I'm
+- [01:08] giving away all the source code for all
+- [01:09] the examples you're going to see today
+- [01:11] completely for free. Just click that
+- [01:13] first link in the description below so
+- [01:14] you can download the 12 examples and
+- [01:16] kickstart your 80k journey. But enough
+- [01:18] talk. Let's go ahead and cover the 12
+- [01:20] different examples that we're going to
+- [01:21] be building together today and then dive
+- [01:23] into creating our first agent together.
+- [01:25] So here are the 12 different examples
+- [01:27] that we're going to be building together
+- [01:28] today inside of this crash course. And
+- [01:30] as promised, we're going to start off by
+- [01:32] building the absolute basics, and then
+- [01:34] we're going to gradually add in more
+- [01:36] complexity and features until you're
+- [01:37] building some really cool multi- aent
+- [01:40] workflows. Super excited to dive into
+- [01:41] this. So, let's go ahead and cover these
+- [01:43] one by one so you know exactly what
+- [01:45] we're going to be building throughout
+- [01:46] today. To start off, we're going to
+- [01:47] create our first agent, which is a
+- [01:49] single agent, so you can understand the
+- [01:51] core principles of creating agents
+- [01:53] inside of ADK. From there, I'm going to
+- [01:55] show you guys how you can add tools to
+- [01:58] provide different and more functionality
+- [01:59] to the agents you create and how you can
+- [02:02] access some of the pre-built tools that
+- [02:04] Google provides you. From there, I'm
+- [02:06] going to show you how you can bring in
+- [02:07] other models to ADK, such as bringing in
+- [02:10] OpenAI and anthropic models, so you're
+- [02:13] not just stuck using Gemini. Super
+- [02:15] excited that ADK allows for this
+- [02:17] functionality. Next, you're going to see
+- [02:18] how we can make sure our agents spit out
+- [02:21] structured outputs. This is super
+- [02:23] important to make sure our agents spit
+- [02:25] out, you know, specific JSON structures
+- [02:27] so that we can pass it over to other
+- [02:29] APIs and tools. Then you're going to see
+- [02:32] how we can update and make our agents
+- [02:35] have session and memory so that they can
+- [02:37] remember things between different
+- [02:38] conversations. After that, you're going
+- [02:40] to see how we can make our agents save
+- [02:43] data, specifically save their session
+- [02:45] and memory so that when we close out of
+- [02:47] the application and open it back up,
+- [02:49] these agents still have access to things
+- [02:51] we talked about earlier. So, this is
+- [02:52] where we're going to start adding in
+- [02:53] some database functionality. After that,
+- [02:55] things are going to start to get fun
+- [02:57] because we're going to start working on
+- [02:58] creating some multi- aent solutions
+- [03:00] where we're going to have our agents
+- [03:02] working together and we're going to
+- [03:03] start off with the basics and then
+- [03:05] you're going to after that start to
+- [03:06] learn how we can add in, you know, some
+- [03:08] session and memory to our multi- aent
+- [03:10] solutions so they can remember things as
+- [03:12] they're talking and working together.
+- [03:13] Finally, what we're going to do after
+- [03:15] that is add in the ability to add in
+- [03:17] callbacks. And simply put, when it comes
+- [03:19] to callbacks, agents have a certain life
+- [03:22] cycle of things that they do before they
+- [03:24] run, after they run, and while they're
+- [03:25] running. And call backs allow you to
+- [03:27] control every part of the agent life
+- [03:29] cycle. Really excited to showcase this
+- [03:31] functionality. And then finally, what
+- [03:33] we're going to work on is talking about
+- [03:35] different workflows that you can access
+- [03:38] inside of ADK. So, we're going to start
+- [03:40] off with working on sequential agents
+- [03:42] where we make sure agents always work in
+- [03:44] a specific order. agent one, two, then
+- [03:46] three. They always work left to right.
+- [03:48] Next, you're going to see how we can
+- [03:50] make our agents work in parallel to our
+- [03:52] agents. We're going to have three or
+- [03:53] four agents working on task in parallel.
+- [03:55] And then when they're done, they're all
+- [03:56] going to come together and combine their
+- [03:58] answer. And then finally, you're going
+- [04:00] to see how we can add in loops to our
+- [04:02] agents where our agents are going to
+- [04:04] continually work over and over and over
+- [04:06] until they achieve a desired output.
+- [04:08] Super excited. So, you guys are going to
+- [04:09] go from a complete beginner to an
+- [04:12] absolute pro after going through all
+- [04:13] these different examples. So, let's go
+- [04:15] ahead and dive into our first example of
+- [04:16] building your first agent with ADK. So,
+- [04:18] welcome to the first example inside the
+- [04:20] ADK crash course where we're going to
+- [04:23] focus on building and running your first
+- [04:25] single agent. And inside of this first
+- [04:28] example, we're going to walk through
+- [04:29] five steps together. First, I'm going to
+- [04:31] cover the core attributes of building
+- [04:33] your agent so you can understand how all
+- [04:35] the different properties work together
+- [04:37] in order to run your agent. Next, we're
+- [04:39] going to cover the folder structure of
+- [04:41] creating your agent. And this is super
+- [04:43] important because ADK requires a
+- [04:46] particular format in order for you to
+- [04:48] run your agents. Third, I'm going to
+- [04:49] walk you through the process of
+- [04:51] installing your proper dependencies in
+- [04:54] order to run all the agents that you're
+- [04:56] going to see in this crash course today.
+- [04:57] The fourth thing I'm going to show you
+- [04:58] how to do is access and download an API
+- [05:02] key just like this so you can run your
+- [05:04] agents. And then the fifth thing that
+- [05:06] we're going to cover today is running
+- [05:08] your agents. So, this is where we're
+- [05:09] going to kick things off so you can
+- [05:10] begin to chat with your agents and see
+- [05:12] just how effective they are at following
+- [05:13] instructions and just how easy it is to
+- [05:15] run inside ADK. So, without further ado,
+- [05:17] let's go ahead and cover our first agent
+- [05:19] together. So, when it comes to creating
+- [05:20] your first agent inside of ADK, let's
+- [05:23] walk through each of the core
+- [05:24] components. So, first things first,
+- [05:26] inside of ADK, you need to make sure you
+- [05:28] have at least one root agent. This is
+- [05:31] the entry point to all the requests that
+- [05:33] you're going to start sending over to
+- [05:35] all of your agents. So you need to make
+- [05:37] sure that you have a root agent. From
+- [05:39] there, when it comes to your agents,
+- [05:40] there's a few core properties that
+- [05:42] you're going to use over and over and
+- [05:43] over. The first one is going to be the
+- [05:45] name of the agent. As we run the agent
+- [05:48] later on, you're going to see this name
+- [05:50] pops up so we can say who's actually
+- [05:52] taking responsibility and generating the
+- [05:54] results for each of the requests we send
+- [05:56] in. It's super important that the name
+- [05:58] of this agent, greeting agent, matches
+- [06:01] the agent name over here. So you can see
+- [06:04] greeting agent inside of our folder
+- [06:05] structure. It must match this name right
+- [06:08] here. If they don't match, ADK is going
+- [06:10] to throw a fit and say, "Hey, I don't
+- [06:12] recognize this. I don't see it
+- [06:13] anywhere." So, let's make sure they
+- [06:14] match. The next thing that you're going
+- [06:16] to need to put in all of your agents is
+- [06:19] a model. Now, as I mentioned earlier,
+- [06:22] you can use any model from any
+- [06:23] framework. We'll talk more about this
+- [06:25] later on. So, you can bring in your
+- [06:26] Claude or OpenAI, but the easiest models
+- [06:28] to use are going to be your Gemini
+- [06:30] models. Now, for this tutorial, we're
+- [06:32] going to use Gemini 2.0 no flash for
+- [06:33] everything. But if you want to see all
+- [06:35] the other models that ADK or
+- [06:37] specifically Google has to offer, you
+- [06:40] can click this link right here and it'll
+- [06:41] take you over to their model dashboard
+- [06:43] right here. So you can see there are a
+- [06:45] few core models that they offer.
+- [06:47] Everything from Gemini 2.5 Pro, which is
+- [06:50] their smartest, most powerful model.
+- [06:52] They also have the 2.0 Flash, which is a
+- [06:54] toned down version of it. It's not as
+- [06:56] smart, but it's still really fast. Or
+- [06:57] they have their 2.0 no flash model which
+- [07:00] has access to all of the multimodal
+- [07:02] features such as images, audio,
+- [07:04] everything else. So, this is the one
+- [07:06] we're going to be using throughout the
+- [07:07] rest of this crash course. But what you
+- [07:10] could also see if you want to check out
+- [07:12] on pricing, you can come down one tab
+- [07:14] right here and review the pricing for
+- [07:16] each of the models. So, you can see in
+- [07:18] our case, we are using Gemini 2.0 no
+- [07:20] flash. And you can see when it comes to
+- [07:22] pricing for this model, it cost about 10
+- [07:25] cent per million tokens, which is wild
+- [07:27] how cheap it is, for how smart this
+- [07:29] model is. And then when it comes to
+- [07:30] output prices, you can see it cost 40.
+- [07:33] So all around, this is a super super
+- [07:35] affordable model. And it's insanely
+- [07:37] capable as well. And it has a 1 million
+- [07:39] token context window, which is insane
+- [07:41] for how much information we can pass
+- [07:43] into this model. Okay, enough about the
+- [07:45] model though. Let's go go go back and
+- [07:47] cover the two other properties that
+- [07:49] you're going to see in every agent going
+- [07:50] forward. So, the next property is going
+- [07:52] to be the description. Now, the
+- [07:54] description will come more in play as we
+- [07:56] create our multi- aent solutions. But
+- [07:59] basically, when we're working with
+- [08:00] multi- aent solutions, the root agent is
+- [08:03] always looking to say, hm, I'm trying to
+- [08:05] work on this task. What other agents do
+- [08:08] I have access to that would do a better
+- [08:10] job at working on this task? So this
+- [08:13] description is a highle basically job
+- [08:15] overview of like hey I am this agent and
+- [08:18] here's what I specialize in doing and if
+- [08:21] you know if it was a copywriting agent
+- [08:23] so someone who specialized in writing
+- [08:24] the agent would go oh I'm working on a
+- [08:26] writing task right now cool I need to
+- [08:28] delegate to this other agent long story
+- [08:30] short it is to help agents figure out
+- [08:32] who they should delegate work to in a
+- [08:34] single agent though there's no
+- [08:35] delegation so we wouldn't need it okay
+- [08:37] now the final one and the most important
+- [08:39] one is going to be the instructions and
+- [08:41] the instructions are just like it sounds
+- [08:43] like. These are the instructions for
+- [08:44] telling the agent what it should do and
+- [08:46] how it should do it. So, you're going to
+- [08:48] see as we go out throughout the rest of
+- [08:49] this tutorial how we add in some really
+- [08:51] complicated instructions and Gemini 2.0
+- [08:54] Flash is just going to handle it like an
+- [08:56] absolute charm. So, now that you've seen
+- [08:57] the core attributes of an agent, let's
+- [09:00] go ahead and start talking about the
+- [09:02] folder structure and why things are set
+- [09:04] up the way they are. So, here's
+- [09:05] everything you need to know about the
+- [09:07] folder structure of working with agents
+- [09:09] inside of ADK. So, first things first,
+- [09:11] inside of every project we work on,
+- [09:13] we're going to put our agents in folders
+- [09:17] just like this. And we are going to have
+- [09:19] a few core components in each one. We're
+- [09:22] going to have an init.py file and we're
+- [09:24] going to have av and we're going to have
+- [09:26] an agent. So, let's walk through what
+- [09:28] each one of these does at a high level.
+- [09:30] When it comes to our init.py file, this
+- [09:33] is basically telling Python, hey, I have
+- [09:35] some important information in here that
+- [09:37] you need to look out. In the case of our
+- [09:39] ADK agents, we're saying, "Hey, in this
+- [09:43] folder, that's what the dot means. I
+- [09:44] have an agent that you need to work on
+- [09:47] importing." So, this agent is basically
+- [09:49] pointing at this agent.py right here.
+- [09:51] Okay. So, that's the important thing. An
+- [09:53] ADK, it needs to know what agents it has
+- [09:55] access to. All right. The next one that
+- [09:57] you need to look at is thev file. Thev
+- [10:00] file is where you're going to store all
+- [10:02] your environment variables for your
+- [10:04] agents and all the other projects you
+- [10:06] work on. Now, what's important to note
+- [10:08] is you only need to have one EMV file
+- [10:11] and you need to keep it inside of your
+- [10:13] root agent. And in this case, we only
+- [10:15] have one agent. So, we only have to put
+- [10:17] it one place. Basically, it just goes in
+- [10:19] the root agent. However, later on,
+- [10:21] you'll see whenever we start to work on
+- [10:22] multi-agent solutions, we're going to
+- [10:24] have a bunch of agents and you don't
+- [10:26] need to put a&b in all of them. You just
+- [10:28] need to keep it in the root one. So,
+- [10:29] hopefully that makes sense. And then
+- [10:30] finally, the other thing is you need to
+- [10:33] have your agent.py file. And a quick
+- [10:35] reminder, you need to make sure that the
+- [10:38] name of this agent matches the folder.
+- [10:40] It has to be 1:1 or else it's going to
+- [10:43] throw some errors at you. And to make
+- [10:44] your life easier, speaking of a while
+- [10:46] back when I was showing thev file is
+- [10:48] I've created example for you. So when
+- [10:51] you're working on this on your own,
+- [10:52] you're just going to rename this toenv
+- [10:55] instead of example and then you're going
+- [10:58] to paste your API key here. Yeah. So
+- [11:00] that is the folder structure at a
+- [11:02] nutshell. Now, what I want to do is walk
+- [11:04] you through how you can install all the
+- [11:06] dependencies to actually run this agent.
+- [11:09] So, in order to do that, let me show you
+- [11:11] all the different commands you need to
+- [11:12] run. And I've got some source code and
+- [11:14] instructions to help make this even
+- [11:15] easier for you guys. So, when it comes
+- [11:17] to installing all the dependencies in
+- [11:19] order to run this crash course, I've
+- [11:21] tried to make it as easy as possible for
+- [11:22] you guys. So, first things first, there
+- [11:24] is a
+- [11:25] requirements.txt file. And basically all
+- [11:27] this does is it calls out the different
+- [11:30] packages that we want to install. The
+- [11:32] most important one is obviously Google
+- [11:33] ADK because this is what's going to give
+- [11:36] us access to the agent development
+- [11:37] framework. From there, I have a few
+- [11:39] other different libraries and
+- [11:41] dependencies that you guys are going to
+- [11:43] need. And you don't need them all now,
+- [11:45] but I've tried to set it up so that you
+- [11:46] guys only have to run the install
+- [11:48] command once and then you're good for
+- [11:50] the rest of the project. Okay. So, what
+- [11:52] we need to do is follow some
+- [11:54] instructions that I have set up for you
+- [11:55] guys to create an environment. Now, if
+- [11:58] you're very new to programming,
+- [11:59] basically when it comes to working with
+- [12:02] Python, every time you work on a
+- [12:03] project, you want to create an
+- [12:05] environment. That environment is going
+- [12:06] to install and contain all of the
+- [12:09] different libraries and dependencies you
+- [12:11] need. The reason why you want to do this
+- [12:13] is because each project has its own
+- [12:14] requirements, and you don't want to
+- [12:16] accidentally install all the
+- [12:17] requirements from project A, B, and C
+- [12:19] into one environment because it's going
+- [12:20] to just cause a ton of errors. So, we're
+- [12:22] going to create a single environment for
+- [12:24] this. install all the required
+- [12:26] dependencies and then we're good to run
+- [12:28] everything. So, here are the
+- [12:29] step-by-step instructions to create your
+- [12:31] virtual environment. And you can find
+- [12:32] these by looking inside of the root
+- [12:34] folder of the crash course. I have a
+- [12:36] read me right here for you guys. So,
+- [12:37] here are the commands we're going to run
+- [12:39] together one at a time. So, the first
+- [12:40] one is we are going to create a virtual
+- [12:43] environment inside the root directory of
+- [12:44] your project. though you can open up
+- [12:47] your terminal and type in the command
+- [12:48] right here. Python make a virtual
+- [12:51] environment and then put the virtual
+- [12:53] environment in thevnb folder. So I'm
+- [12:56] going to run this and I'm going to show
+- [12:57] you what it does. So it just ran and now
+- [12:59] you can see in the top left corner of
+- [13:02] your file explorer you can see we have a
+- [13:03] new folder. It's a blank virtual
+- [13:05] environment that has a few key
+- [13:07] components of what's necessary to run a
+- [13:10] Python environment. Now from there what
+- [13:11] we can do is we need to activate this
+- [13:14] new environment. So I'm on a Mac so I'm
+- [13:17] going to run this command but if you're
+- [13:19] on Windows you can run these commands
+- [13:21] right here. So let's go ahead and paste
+- [13:22] it in. And what this will do is it will
+- [13:24] now say hey you are now working with
+- [13:27] this virtual environment right here. And
+- [13:29] this is where what's going to allow you
+- [13:31] to install all of your dependencies. I
+- [13:33] actually just really quickly need to get
+- [13:35] out of another environment. Deactivate.
+- [13:38] You don't need to run that command. I
+- [13:39] just needed it. I was uh in a weird
+- [13:40] state. Okay, cool. So, now that we have
+- [13:42] everything set up, what you can do is
+- [13:45] install all of the dependencies. And
+- [13:47] what this will do is it will install all
+- [13:49] the dependencies and put them inside
+- [13:50] your virtual environment. So, you can
+- [13:52] see right now we barely have any
+- [13:54] packages in here. But when I run this
+- [13:56] command, what it's going to do is it's
+- [13:57] going to install everything that we
+- [13:59] called out right here, all of these. And
+- [14:02] you will see in just a second, this
+- [14:03] virtual environment is going to include
+- [14:05] a ton more packages. everything from
+- [14:07] Google ADK, some stuff to look up
+- [14:09] finance stocks that we're going to do
+- [14:10] later on, and yeah, tada. It now has a
+- [14:12] ton of additional packages. Okay, great.
+- [14:15] So, that is pretty much set up. And now
+- [14:17] what we can do is we are officially done
+- [14:20] with installing all of our different
+- [14:21] Python requirement packages in order to
+- [14:24] run this project. So, tada, everything
+- [14:26] is done. So, now we can move on to step
+- [14:28] four, which is where I'm going to show
+- [14:30] you how you can access an API key to run
+- [14:33] everything that we're going to be
+- [14:34] working on today. So, let me quickly
+- [14:36] walk you through how you can create your
+- [14:37] own API key. So, what we can do is
+- [14:40] follow the rest of the readme
+- [14:41] instructions and we're going to walk
+- [14:43] through these steps right here. So,
+- [14:45] first things first is we need to go over
+- [14:48] to Google Cloud and create an account.
+- [14:50] So, what you'll do is hop over to Google
+- [14:53] Cloud just like this and you'll need to
+- [14:55] sign up and create account if you
+- [14:57] haven't. Once you do create account,
+- [14:58] you'll click console. And this will take
+- [15:01] you to this page right here where you're
+- [15:03] basically in your root dashboard. And
+- [15:05] what we want to do is click in the top
+- [15:07] lefthand corner because we're trying to
+- [15:08] create a project. We want one project to
+- [15:10] run all these examples. So we'll click
+- [15:13] create new project. And I will call this
+- [15:16] we'll call it YouTube ADK crash course
+- [15:21] just like this. And what I can do from
+- [15:23] there crash course. And then what you
+- [15:25] can do from there is you might not have
+- [15:27] a billing account set up. You will need
+- [15:29] to create one and this is what will be
+- [15:32] charged to as you create your own
+- [15:34] request inside of this examples cuz if
+- [15:37] you remember Gemini Flash 2.0 costs like
+- [15:39] 10 cent per million tokens. So it's
+- [15:42] going to like you might get charged a
+- [15:43] penny by running all this project. But
+- [15:45] you need to create a billing account.
+- [15:47] Now if this is your first time creating
+- [15:48] a Google Cloud Platform account, you'll
+- [15:50] probably get a bunch of free credits. So
+- [15:51] you might not have to go through this
+- [15:52] process. But I still just want to show
+- [15:54] it to you. So once you're done, you're
+- [15:55] going to click create. And then tada,
+- [15:58] it's going to create all of your project
+- [16:01] and all the necessary underlying assets
+- [16:03] for it. And you can see once it's fully
+- [16:05] done, you can click select project. And
+- [16:07] what this will do is in the top lefthand
+- [16:09] corner, you can now see that you are
+- [16:11] working on the project you just created.
+- [16:13] Great. So let's head back over to our
+- [16:15] instructions because we just checked off
+- [16:17] one and two. And now we want to create
+- [16:20] an API key. So we're going to go to this
+- [16:21] link. So, I'm going to go ahead and
+- [16:22] paste it in and it will take us to a
+- [16:24] page just like this. Now, you might have
+- [16:26] to sign up for AI Studio. It's a little
+- [16:28] weird. I can't remember if you have to
+- [16:29] sign up for Google Cloud and both. So,
+- [16:30] you might have to do an extra sign up
+- [16:31] step. But the important thing is you can
+- [16:33] now click the create API key button. So,
+- [16:36] we're going to click this create API
+- [16:38] key. And we are going to type in the
+- [16:40] name of our project, which is YouTube
+- [16:42] ADK crash course. Once this is done,
+- [16:44] it's going to say create API key. And it
+- [16:47] should take just a few seconds to create
+- [16:49] that API key, but you need to copy it.
+- [16:51] So great, we're going to copy it. And
+- [16:53] please don't share this with anyone
+- [16:55] else. I'm going to delete mine right
+- [16:56] after the video, but click copy. And you
+- [16:58] are going to go over to your VNV file.
+- [17:02] So basics agent, greeting agent, and
+- [17:05] paste it right in here. So this is how
+- [17:07] you're going to set up your agent and
+- [17:09] and actually have it access your API
+- [17:12] keys that you just set up. Fantastic.
+- [17:14] So, we're now good. And you can refresh
+- [17:16] just to make sure it all worked.
+- [17:18] Fantastic. So, now if you look at mine,
+- [17:20] it's going to say YouTube ADK crash
+- [17:22] course. And mine was already hooked up
+- [17:24] to a billing plan cuz you just walked
+- [17:26] through that with me as well. So, you
+- [17:27] are good. Things are great. You can now
+- [17:29] start to use this API key to make
+- [17:31] request. So, now we're at the final
+- [17:33] step, which is going off and and running
+- [17:36] the actual agent itself. So, you can see
+- [17:38] it in action. So, let me show you how
+- [17:40] you can start to do that. And the first
+- [17:42] things first is we are going to clear
+- [17:44] out our terminal so that we can run our
+- [17:46] special commands to get everything
+- [17:47] working. So in order to run this agent,
+- [17:49] the first thing we need to do is change
+- [17:51] directory to make sure we are inside the
+- [17:54] basic agent folder. So you're going to
+- [17:56] cd and go into the basic agent folder.
+- [17:58] Great. So if we look in here, yep, we
+- [18:00] can see we have our greeting agent.
+- [18:01] Things are looking good. Now the special
+- [18:03] command that we are trying to run is
+- [18:05] called ADK. This is the CLI, command
+- [18:09] line interface tool for using agent
+- [18:11] development kit. So if you just type in
+- [18:13] ADK by itself, it's going to show you
+- [18:15] all the different options that you can
+- [18:17] run. So you can run these all of these
+- [18:20] right here. Now let's walk through them
+- [18:21] and then I'm going to show you the one
+- [18:22] we're going to use. So first things
+- [18:23] first, you could run the API server. And
+- [18:26] basically what this will do is it will
+- [18:28] create a endpoint so you can start to
+- [18:31] make API requests to your agent. So
+- [18:33] you'll be able to do like a quick
+- [18:35] request to like localhost slash API
+- [18:39] slash and then make a request to your
+- [18:41] agents. So that's what you could do
+- [18:42] there. The next one is you could run
+- [18:44] adkreate and this would create an agent
+- [18:47] folder for you. We have already have
+- [18:49] everything set up so you don't need to
+- [18:50] run create. Then it has a few extra
+- [18:52] commands you can run such as deploy
+- [18:54] which will deploy your agents to the
+- [18:56] cloud. I have a full tutorial on that.
+- [18:57] Definitely recommend checking that on my
+- [18:59] channel. Then you have eval which is
+- [19:00] basically like running test against your
+- [19:02] agent. a little outside the scope of
+- [19:04] this tutorial, but I'll have one coming
+- [19:05] up later. The next one is run, which
+- [19:08] will run the agents inside your
+- [19:11] terminal. So, you would be typing inside
+- [19:13] of your terminal right here to chat with
+- [19:14] your agents. And the best one that we're
+- [19:16] going to be using is ADK web. And this
+- [19:18] will spin up a really nice looking
+- [19:20] website for us to chat with our agents
+- [19:22] and give us access to seeing a lot of
+- [19:24] the underlying events and state and
+- [19:26] everything else that's going on inside
+- [19:28] of our agents. So, let me show you how
+- [19:30] you can run this. So, we're going to
+- [19:32] type in ADK web. And what this will do
+- [19:35] is spin everything up. And you can now
+- [19:37] see, all right, great. Your web server
+- [19:40] has started. You can go to this link to
+- [19:42] access the agents. So, we're going to
+- [19:44] hop over to our browser. Go over and you
+- [19:48] can now see that we have our web server
+- [19:50] up and running and we have access to our
+- [19:52] agents. So, let me give you a quick
+- [19:53] overview of what's happening and then
+- [19:55] we're going to start chatting with it.
+- [19:56] So up in the top lefthand corner, you
+- [19:58] have the ability to pick which agent you
+- [20:00] want to talk to. In our case, we only
+- [20:02] have a single agent. So it auto picks,
+- [20:04] oh, you're trying to chat with the
+- [20:06] greeting agent. Now, we're going to talk
+- [20:07] about a lot of these later on, but just
+- [20:10] know events are as we chat with our
+- [20:12] agent, you're going to be able to see
+- [20:14] like, oh, event one happened where we
+- [20:15] were trying to figure out who to work
+- [20:16] with and we made a response and you can
+- [20:18] see in real time all the events that
+- [20:20] happen. State, this is where we are
+- [20:23] going to store information with our
+- [20:25] agents. We're going to hop on to this in
+- [20:27] module five. Artifacts outside the scope
+- [20:30] of this tutorial. A session. A session
+- [20:31] is nothing more than a series of
+- [20:33] messages between us and the agent. So,
+- [20:36] you know, we can create multiple
+- [20:37] sessions to where we can have multiple
+- [20:38] different chats with the agent. And then
+- [20:41] the final one is vows, but we're not
+- [20:42] working on that in in here. Okay. So,
+- [20:44] let's go ahead and start testing out
+- [20:46] this agent. And as a quick reminder,
+- [20:49] this agent, we have told it to follow
+- [20:51] these instructions. you are a helpful
+- [20:53] assistant that greets the user. Ask the
+- [20:55] user's name and greet them by their
+- [20:57] name. So what we can do is say, hey, how
+- [21:00] are you? And then we can see the agent
+- [21:02] follows these instructions. To make
+- [21:04] things a little bit more personal,
+- [21:05] what's your name? My name is Brandon.
+- [21:08] And from there, the agent will go, hey,
+- [21:10] Brandon. It's greeting me by name. And
+- [21:12] you can see it actually working and
+- [21:14] following these instructions. Now,
+- [21:16] speaking of what I was talking about
+- [21:17] earlier is events. So every time I made
+- [21:20] a request, you could see these events in
+- [21:22] real time. And this is one of my
+- [21:24] favorite parts of ADK is their the ADK
+- [21:27] web feature because it allows you to
+- [21:29] explore what's happening with the agents
+- [21:31] in a super interactive fashion. So you
+- [21:33] can now see all right for our first
+- [21:35] event, we only had one agent up and
+- [21:38] running. And you can see the message
+- [21:40] that was passed into it. Sorry, you can
+- [21:42] see the response from the agent. And if
+- [21:44] you were to dig deeper into the event,
+- [21:46] you can see the request and the
+- [21:49] response. In the request, you can see
+- [21:51] the a few things. You can see the
+- [21:53] initial instructions. So this is were
+- [21:56] the initial instructions that we passed
+- [21:58] in. And it also adds the description of
+- [22:02] the agent as well. So basically, it's
+- [22:04] taking this information right here, the
+- [22:06] description and instruction, and putting
+- [22:08] it all into the system instructions.
+- [22:11] That's what it's doing under the hood.
+- [22:12] And then you can see the initial message
+- [22:14] we gave it. So, hey, how are you? That's
+- [22:16] what's popping up right here. And then
+- [22:17] finally, you can see in the response, it
+- [22:20] generates the response. So, yeah, that's
+- [22:22] everything that you need to know when it
+- [22:23] comes to creating and running your first
+- [22:26] agent. And just as a quick reminder, you
+- [22:28] guys are now a pro at understanding how
+- [22:32] to create an agent, the core properties.
+- [22:34] You're also a pro at understanding the
+- [22:36] folder structure of why we need to set
+- [22:38] up things the way we need to do. you
+- [22:40] know how to get your API keys and you
+- [22:43] know how to run your agents. So, what
+- [22:45] we're going to do next is hop over to
+- [22:46] the second example where you're going to
+- [22:48] start to see how we can add in some tool
+- [22:50] functionality and access some of the
+- [22:52] cool pre-built tools that Google gives
+- [22:54] us. Super excited so you could see this
+- [22:56] in action and start leveling up your
+- [22:57] agents. Let's go ahead and hop over to
+- [22:58] example number two. Hey guys, and
+- [23:00] welcome to example number two where
+- [23:02] we're going to look at adding tools to
+- [23:04] your agents so that you can add in
+- [23:06] additional functionality and supercharge
+- [23:08] your agents. And in this example, we're
+- [23:10] going to walk through four different
+- [23:12] items. First, we're going to cover the
+- [23:14] different types of tools you can use
+- [23:16] with your agent because ADK is super
+- [23:18] flexible. Next, I'm going to show you
+- [23:20] how you can actually add these tools to
+- [23:22] your agents. Third, we're going to cover
+- [23:24] some of the best practices that you need
+- [23:26] to know about when building your custom
+- [23:27] tools. And then, we're going to also
+- [23:29] cover a few limitations that you need to
+- [23:31] know about when building tools. And then
+- [23:33] fourth, we're going to go off and run
+- [23:35] one of these agents with some tools so
+- [23:37] you can see everything in action. So
+- [23:38] let's go ahead and quickly cover the
+- [23:40] three different types of tools you can
+- [23:42] use inside ADK. So the three different
+- [23:44] types of tools you can use inside ADK
+- [23:46] are function calling tools, you can use
+- [23:48] some built-in tools provided by Google,
+- [23:50] and then you can use thirdparty tools.
+- [23:52] So let's walk through each one of these
+- [23:53] one at a time. So when it comes to
+- [23:55] function tools, this is what you're
+- [23:56] going to be using 99% of the time. This
+- [23:58] is where you create a Python function
+- [24:00] that you then pass over to your agent.
+- [24:02] So you can say, "Hey, like go find the
+- [24:05] weather, go look up stocks, whatever you
+- [24:07] want to do." This is what you're going
+- [24:08] to be doing most of the time where you
+- [24:10] create your own custom Python functions.
+- [24:12] Now, you could also use agents as tools.
+- [24:15] This one is a little bit more
+- [24:16] complicated and you'll see it in action
+- [24:18] later on when we work on multi-agent
+- [24:20] solutions, but there is a scenario when
+- [24:22] you'd want to wrap an agent as a tool.
+- [24:24] We'll talk about that later. Then there
+- [24:25] are longunning function tools. This is a
+- [24:28] little out of scope of this crash course
+- [24:29] cuz it gets a little bit more
+- [24:30] complicated, but just know it is
+- [24:32] possible. The next thing that you can do
+- [24:34] is use some of the pre-built tools
+- [24:36] Google provided such as Google search
+- [24:38] code execution and then rag. In this
+- [24:41] example, we're actually going to look at
+- [24:43] how you can use Google search inside of
+- [24:45] your tools, which is super powerful that
+- [24:46] you get it out of the box. A few
+- [24:49] important things to note before we dive
+- [24:50] in. Built-in tools only work with Gemini
+- [24:53] models. So, if you're using OpenAI or
+- [24:55] Claude, any of those, these built-in
+- [24:57] tools will not work. I had to find that
+- [24:59] out the hard way. And the third option
+- [25:01] is to use thirdparty tools. So if you've
+- [25:03] used the lang chain or crew AI, you can
+- [25:06] easily add in some of the tools in the
+- [25:08] libraries for these different frameworks
+- [25:11] and bring them over to ADK. A little
+- [25:13] outside the scope of this, but just know
+- [25:15] it is possible. And basically ADK is
+- [25:17] trying to make it as open as possible to
+- [25:20] all the models and tools that you could
+- [25:21] ever want so you can easily build agents
+- [25:23] and get them up and running. So, now
+- [25:24] that you've seen the different types of
+- [25:25] tools we can use, let's hop over to the
+- [25:27] code so you can see how you can start to
+- [25:29] add tools to your agents. So, let's go
+- [25:31] ahead and hop back over to the code.
+- [25:33] Okay, so here is a super simple example
+- [25:35] of an agent using the Google search
+- [25:37] tool. Now, I do want to call out a few
+- [25:39] things just because we are still working
+- [25:41] our way up on becoming an ADK pro. So,
+- [25:44] per usual, we are inside of a agent
+- [25:47] folder. This one's called tool agent.
+- [25:49] So, that's why we call this tool agent.
+- [25:51] They must match. Like we said earlier,
+- [25:53] we've picked the model and we've given a
+- [25:55] description just like we normally do.
+- [25:56] And the main change that you're going to
+- [25:58] notice now is we've created a new
+- [26:00] property and added it called tools. This
+- [26:03] is going to be a list of all the
+- [26:06] different tools you want to use with
+- [26:08] your agent. And in this case, we are
+- [26:10] going to use the pre-built tool from
+- [26:12] Google search. And as mentioned just a
+- [26:14] second ago, there are some additional
+- [26:16] built-in tools that you could use. So
+- [26:19] there is the Vertex AI search. So if
+- [26:21] you're going to be doing any rag
+- [26:23] queries, you can do this as well. And
+- [26:24] there's also the built-in code execution
+- [26:27] tool. Now it is important to note that
+- [26:29] when using agents just like this, you
+- [26:32] can only pass in one built-in tool at a
+- [26:35] time. So you could not do the Vertex AI
+- [26:38] search capabilities plus the code
+- [26:40] execution capabilities. You can only use
+- [26:42] one built-in tool at a time. So that's
+- [26:44] super important to note as you're
+- [26:45] creating these agents and working with
+- [26:47] built-in tools. So, now that you've seen
+- [26:49] a built-in tool, I want to go ahead and
+- [26:51] show you how you can also add in some
+- [26:54] additional tools as well. So, one of the
+- [26:56] other types, the first type that we
+- [26:58] talked about was adding in your own
+- [27:00] Python code as functions. So, let me
+- [27:02] show you what that looks like. So, what
+- [27:04] you could do is create a function called
+- [27:07] get current time. And let me walk
+- [27:08] through a few of the important things so
+- [27:10] we can get this up and running. So, we
+- [27:12] can do let me get all the imports
+- [27:14] working so you guys can see it in
+- [27:15] action. Fantastic. So here is another
+- [27:18] example of a tool and this is why I like
+- [27:21] this one so much. So you can see in
+- [27:24] order to create your own custom Python
+- [27:26] tool, all you need to do is make a
+- [27:28] function. You need to specify a few
+- [27:31] other things. You need to specify the
+- [27:34] return type. You need to specify a dock
+- [27:37] string. A dock string, just in case
+- [27:38] you're not familiar with it, this is how
+- [27:40] the agent determines what the function
+- [27:42] does and if it should call it. So if we
+- [27:45] give it a command saying, hey, please
+- [27:47] fetch the current time. Well, the agent
+- [27:50] will look through all the available
+- [27:52] tools that we have down here and it will
+- [27:55] see like, oh, I can see right now that I
+- [27:57] have access to the get current time
+- [27:59] tool. So I know because I have access to
+- [28:01] this tool and I know what this tool
+- [28:03] does. Yes, this is the tool I need to
+- [28:05] use to solve this problem. Now, there
+- [28:07] are a few other things when it comes to
+- [28:09] best practices that you need to know
+- [28:10] when creating tools. First things first,
+- [28:14] whenever you are returning the results
+- [28:16] of a tool, the agent framework wants you
+- [28:20] to be as specific and as instructional
+- [28:24] as possible. And sorry if that's not a
+- [28:26] word, but what I mean by that is it's
+- [28:28] super common for a lot of the time when
+- [28:29] people want to return stuff is they'll
+- [28:31] just go, "Oh, okay. I'm just going to
+- [28:33] return the results." Well, you don't
+- [28:36] want to do this because when the result
+- [28:39] gets passed back to the agent, it's not
+- [28:41] going to know like, well, what is this?
+- [28:42] Like, did you give me the current time?
+- [28:44] What what is this? So, when you are
+- [28:46] returning results back to your agent so
+- [28:48] that it can read the results and use the
+- [28:51] results in the answer it generates, you
+- [28:53] want to make sure the dictionary you
+- [28:55] create is as robust as possible. And if
+- [28:58] for whatever reason you do return
+- [29:00] something, just say like this for
+- [29:02] example, let's just say you return
+- [29:03] hello. What ADK is going to do under the
+- [29:06] hood is it is going to wrap the return
+- [29:09] statement into a to something like this
+- [29:12] where it's going to do result and then
+- [29:14] it's going to do hello. So ADK is going
+- [29:16] to do its best to wrap the results and
+- [29:18] it's always going to convert it to a
+- [29:20] dictionary just like this. So we want to
+- [29:22] be as helpful as possible and instead of
+- [29:25] ADK having to do the work and just
+- [29:26] saying generic result, we want to say
+- [29:29] no, this is actually the current time.
+- [29:31] This is the key and this is going to be
+- [29:32] the value. Now a few other things that
+- [29:34] didn't show in this example is sometimes
+- [29:37] you want to pass in variables. So
+- [29:40] whenever you want to pass in variables
+- [29:42] what you can do is just say I want to do
+- [29:45] format and then what you can do is pass
+- [29:49] in the type of it. So in this case we
+- [29:51] want to do a string. Now what you can
+- [29:54] notice is my current time function now
+- [29:57] includes a default value. This is what a
+- [29:59] default value looks like. It's when you
+- [30:01] have a property or a parameter and then
+- [30:04] you pass in some values after it.
+- [30:06] Default properties do not work inside
+- [30:08] ADK at the time of this recording. So
+- [30:11] never add in default values. They won't
+- [30:13] work and things will break. So instead,
+- [30:15] what you want to do is just pass in your
+- [30:18] properties with the types just like this
+- [30:20] and use them however you want. Okay,
+- [30:22] cool. So you've now seen how to create a
+- [30:24] tool and you've seen how easy it is to
+- [30:27] add tools to your agents. The only other
+- [30:30] thing I want to mention when it comes to
+- [30:32] some limitations is ADK when it comes to
+- [30:35] built-in tools is super particular.
+- [30:38] Meaning, if you wanted this tool to
+- [30:40] search to use Google search, great. That
+- [30:42] could work. If you wanted to work with
+- [30:45] current time and add in a few extra
+- [30:47] custom functions, great, you can do
+- [30:49] that. But what you can't do is add in
+- [30:52] built-in tools with custom tools. ADK
+- [30:55] breaks whenever you do that. So, I just
+- [30:57] wanted to call out this before we
+- [30:59] actually used it so that you could
+- [31:01] understand some of the limitations cuz
+- [31:02] when I was playing around with ADK for
+- [31:04] the first time and this was breaking on
+- [31:05] me, I could not understand why it was
+- [31:07] breaking. So, hopefully that saved you
+- [31:09] some heartache. So, now that we've
+- [31:10] covered some of the best practices on
+- [31:12] creating tools and you've seen how to
+- [31:15] add tools to your agents, let's go off
+- [31:18] and run these different agents with the
+- [31:21] different tools so you can see them in
+- [31:22] action. And to start off, we're going to
+- [31:24] start with Google search and then we're
+- [31:25] going to test it again using the current
+- [31:27] time so you can see it you can see it
+- [31:28] working. So let's get this up and
+- [31:30] running so we can work with Google
+- [31:31] search. We're going to head over to our
+- [31:32] terminal and start running it. So the
+- [31:34] first thing we need to do is open up our
+- [31:36] terminal. And what we want to do is make
+- [31:38] sure two things are happening. One, you
+- [31:40] want to make sure you've activated your
+- [31:42] virtual environment. Head back to the
+- [31:43] beginning of the video to check out
+- [31:45] instructions for to do that. And the
+- [31:47] second thing is you want to make sure
+- [31:48] you change directory to the tool agent
+- [31:51] folder. So this one right here. Once you
+- [31:52] have that set up, you can run ad web and
+- [31:55] this will once again spin up a website
+- [31:58] that allows you to interact with your
+- [32:00] agents. Now you can see that we have an
+- [32:02] updated agent here which is the tool
+- [32:04] agent. So I can say hey do you have any
+- [32:08] news about Tesla this week? And what
+- [32:11] this will do is go off search the
+- [32:13] internet using the Google search tool.
+- [32:16] So you'll see in just a second you can
+- [32:18] see yeah right here. So you can see the
+- [32:20] tool we called. So it's the Google
+- [32:22] search and it looked up specifically
+- [32:24] this query Tesla news this week. And
+- [32:27] from there it generated a basically a
+- [32:30] nice result that we can ask questions
+- [32:31] about. So you can see like oh the stock
+- [32:34] did this. Here's what happened for the
+- [32:35] Q1 results. Basically everything that
+- [32:37] happened this week in Tesla. And what's
+- [32:39] so cool is you can dive into all the
+- [32:42] different events that happened to see
+- [32:43] what was going on under the hood. So per
+- [32:45] usual, click on the event and you can
+- [32:48] see the tool agent now has new
+- [32:51] functionality. So the tool agent now has
+- [32:53] access to the Google search tool. And
+- [32:55] when you look inside of it, you can see
+- [32:58] per usual, you can see the instructions
+- [33:00] we gave it. And you can see the query we
+- [33:02] passed in. And when you look at the
+- [33:04] response, you can see when we scroll
+- [33:06] down just a little bit, you can see, oh,
+- [33:09] it went off and searched all these
+- [33:11] different websites for us. scraped all
+- [33:12] the information from a Google search and
+- [33:14] then gave it back to us. So, this is
+- [33:16] when we're starting to see the power of
+- [33:17] using tools inside of our agents. So,
+- [33:20] this one worked pretty well. What we're
+- [33:21] going to do now, I'm going to close out
+- [33:22] of this and we are going to change up
+- [33:25] the agent to start using the get current
+- [33:27] time tool. So, you can see this one in
+- [33:29] action. So, we're going to do get
+- [33:30] current time. We are going to keep this
+- [33:33] one just how it is. And now what we're
+- [33:35] going to do, close the kill the server.
+- [33:37] Try it again. ADK web. This will
+- [33:40] recreate the server once again. So we
+- [33:42] can check out our website. We'll open it
+- [33:44] up. So we still have a tool agent. And
+- [33:45] now we can say, hey, what is the current
+- [33:50] time? And when we run this one, we'll
+- [33:52] see a different type of function
+- [33:54] calling. So the last one was a built-in
+- [33:56] tool call. And now what we're doing is
+- [33:58] we're triggering our custom tools. So
+- [34:00] you can see we sent an event to get
+- [34:02] current time and then we got back a
+- [34:04] result from get current time. And the
+- [34:06] final answer was formatted and sent back
+- [34:08] to us. So all around super super nice,
+- [34:11] super helpful. And per usual, we can
+- [34:13] check out the events to see exactly what
+- [34:14] went down. So we can see in the first
+- [34:17] event, our tool agent now has new tools,
+- [34:20] in this case, get current time. And we
+- [34:22] can look at the request. We can see our
+- [34:24] updated request. We can see the message
+- [34:26] we sent over. And then we can check out
+- [34:28] the response. And this time you can say,
+- [34:30] hey, I'd like to do a function call to
+- [34:32] what function? Oh, the get current time
+- [34:34] function, the one that we just passed
+- [34:36] in. And we can step our way through the
+- [34:38] different events to see what's going on.
+- [34:40] So in the second event, you can see
+- [34:42] we're waiting for tool calls to happen.
+- [34:44] So this is basically yeah, it's making a
+- [34:46] call. And then the third event, you can
+- [34:48] see, okay, I got the result from current
+- [34:50] time. And you can see here what is the
+- [34:52] final result. So yeah, that is tool
+- [34:54] calling in a nutshell. And don't worry,
+- [34:56] we're going to be adding in a lot more
+- [34:57] tools throughout the rest of this
+- [35:00] examples inside this crash course. But
+- [35:02] to start off, I just want you guys to
+- [35:03] see the basics so you can see how
+- [35:05] everything works together, how to use
+- [35:07] built-in tools, custom tools, everything
+- [35:08] else. So, you now have leveled up as an
+- [35:10] ADK developer. And now we're going to
+- [35:13] move over to example number three, where
+- [35:15] you're going to learn how you can bring
+- [35:16] in OpenAI models and models from Claude
+- [35:19] inside of ADK. So, let's hop over to
+- [35:21] example number three. Welcome to example
+- [35:23] number three, where you're going to
+- [35:25] learn how to connect your ADK agents to
+- [35:27] other models like OpenAI and Claude. And
+- [35:30] in this example, we're going to first
+- [35:33] walk through a few of the core
+- [35:34] technologies you need to support this
+- [35:36] functionality. So, we're going to head
+- [35:38] over to light LLM and open router to
+- [35:40] understand what they are and how we need
+- [35:42] to use them. From there, we're going to
+- [35:43] dive into the code so you can see how
+- [35:45] you can configure everything up. And
+- [35:47] then finally, we're going to run the
+- [35:49] agents using these new models so you can
+- [35:51] see how everything works together. So,
+- [35:52] let's go ahead and head over to looking
+- [35:54] at Open Router and Light LLM. All right.
+- [35:56] So, the first technology we're going to
+- [35:58] be using to connect our ADK agents to
+- [36:00] all sorts of different models is Light
+- [36:02] LLM. And in case you haven't heard of
+- [36:04] Light LM before, it is a free library
+- [36:07] that you can use that handles all the
+- [36:09] complexities of working with different
+- [36:11] models like OpenAI, Claude, Llama. It
+- [36:14] handles all the complexities with each
+- [36:16] one of them and gives us one nice
+- [36:18] library to interface with all of these
+- [36:20] different models. So, here's just a
+- [36:22] quick example of what it looks like to
+- [36:24] work with Light LLM. So as you can see
+- [36:27] like I said it is a package but under
+- [36:29] the hood all it's doing is you pass in a
+- [36:32] model. So OpenAI claude whatever model
+- [36:35] you want to use you pass it in right
+- [36:36] here and then you just pass in a
+- [36:38] message. That's basically how light LLM
+- [36:40] works and under the hood it is handling
+- [36:43] all the different connections and all
+- [36:44] the different types and functions to
+- [36:46] make your life as easy as possible. So
+- [36:48] that's the first technology we're going
+- [36:49] to be using cuz ADK actually imports
+- [36:52] light LLM. you're going to see in just a
+- [36:53] second and it makes it even easier than
+- [36:55] what you see right here. The next
+- [36:56] technology we're going to use is Open
+- [36:58] Router. Now, Open Router is a tool that
+- [37:02] allows us to purchase tokens that can be
+- [37:05] used for any model. So, it is basically
+- [37:08] one tool that allows you to connect to
+- [37:10] OpenAI Claude and these are actually to
+- [37:13] make requests over to the different
+- [37:14] servers. So, you can look up any model
+- [37:16] that you want. So, we can look up OpenAI
+- [37:19] 04 Mini and you can see, yep, I have
+- [37:21] access to this model. Here's some
+- [37:23] information about this model. It is
+- [37:26] currently working. And here's how fast
+- [37:28] we're getting for tokens per second
+- [37:29] right now. And it carries some cost.
+- [37:31] Now, Open Router is not a free tool. It
+- [37:34] does cost money to use. And what you can
+- [37:37] notice whenever you sign up for an Open
+- [37:38] Router account because you need to do
+- [37:40] it. So, you'll just head over to Open
+- [37:41] Router, sign in, and what you'll do is
+- [37:44] you will buy credits. And whenever you
+- [37:46] buy credits, there's like a 3% or 5%
+- [37:49] increase on the cost to use credits. And
+- [37:52] outside of that, you can just use these
+- [37:54] tokens and credits to make requests to
+- [37:56] Gemini, OpenAI, Claude, whatever you
+- [37:59] want to do. So, make sure you go ahead
+- [38:01] and add in some credits here. So, just
+- [38:03] add credits. Once you're done, what
+- [38:05] you'll do is you will create an API key.
+- [38:07] This API key is going to allow you to
+- [38:10] have one key that you can use to access
+- [38:12] every model which is the beauty of using
+- [38:14] open router. So what we can do is click
+- [38:17] create key and we will call this ADK
+- [38:20] crash course and we'll click create. And
+- [38:23] now we will get an API key. So copy this
+- [38:25] API key and you will want to head back
+- [38:28] to your code and we are in project
+- [38:31] number three. So you'll want to go down
+- [38:33] to yourv and you will paste in this open
+- [38:36] router key. And that's all you need to
+- [38:38] do in order to get things up and
+- [38:40] running. So now that we've covered the
+- [38:41] core technologies and we have you a open
+- [38:44] router key, let's go in and actually
+- [38:46] look at the agent so you can see what we
+- [38:48] need to do in order to start
+- [38:50] communicating with these different
+- [38:51] models. So let's hop over to the agent.
+- [38:52] All right, so we just opened up our
+- [38:54] agent.py that's using light lm. So I
+- [38:57] want to cover a few of the core changes
+- [38:59] that we're making in order to start
+- [39:01] working with other models. So first
+- [39:03] things first, we need to make a import
+- [39:06] to use light LLM. And we can see we're
+- [39:09] importing this from Google ADK. And then
+- [39:12] specifically when it comes to the model
+- [39:13] we want to use, we are using light LLM
+- [39:15] because light LLM is one interface that
+- [39:18] allows us to communicate with all the
+- [39:20] different model providers out there.
+- [39:22] Now, when it comes to using light LLM,
+- [39:24] there's pretty much for most
+- [39:26] technologies and models out there, you
+- [39:28] only need to provide two pieces of
+- [39:30] information. The model and the API key.
+- [39:33] So, let's look at the model first. When
+- [39:35] working with light LLM, what you need to
+- [39:37] do is first define the provider. So,
+- [39:40] since we are using open router, we need
+- [39:42] to define the provider first. So, open
+- [39:44] router check. The next piece of
+- [39:46] information we need to define is the
+- [39:49] model family. So in our case, we're
+- [39:51] wanting to check out OpenAI. So we want
+- [39:53] to put OpenAI here. If we were wanting
+- [39:55] to use Claude, we would put Anthropic
+- [39:57] here. And then once you're finally done,
+- [39:59] you want to put in the specific model
+- [40:02] that you're using. So in this case, what
+- [40:04] we're saying is, hey, I would like to
+- [40:05] use the new model from GPT 4.1. And
+- [40:08] we're wrapping it all inside of this
+- [40:10] class. And what's so nice is all we have
+- [40:13] to do is pass this model we create into
+- [40:16] our agent. And that's all we need to do
+- [40:18] to get it to work. Now the other piece
+- [40:19] of information that you'll notice in
+- [40:21] here is we are saying hey I would like
+- [40:23] to look at my operating system and I
+- [40:26] would like to get a specific environment
+- [40:28] variable. In this case I would like to
+- [40:29] get the open router API key. So if you
+- [40:32] look in thev file that we created just a
+- [40:34] second ago that's exactly what we're
+- [40:36] doing. We're just pulling out this API
+- [40:38] key to use in our agent. Great. So let's
+- [40:41] look at what we're trying to do with
+- [40:43] this new model so we can run it and see
+- [40:45] in action. So in our case, we are
+- [40:46] creating a dad joke agent. So dad joke,
+- [40:49] dad joke. And we're saying, hey, you are
+- [40:52] a helpful assistant that tells dad
+- [40:54] jokes. Please only use the tool get dad
+- [40:57] jokes to tell a joke. So here's the
+- [40:59] custom function that we've created. It's
+- [41:01] a list of jokes. Just basically like
+- [41:04] knock-knock jokes. And we're saying,
+- [41:05] hey, please randomly pick a joke from
+- [41:09] this list. That's all it's doing. So
+- [41:11] what we can do is start running this
+- [41:13] agent so you can see it in action. So
+- [41:15] per usual, we are going to open up our
+- [41:17] terminal. We need to change directory to
+- [41:20] the proper project. So we're in example
+- [41:22] number three and then we can run adk
+- [41:25] web. ADK web will spin up our terminal
+- [41:28] or basically our web interface so that
+- [41:30] we can check out our new agent in
+- [41:32] action. So you can see great we have dad
+- [41:34] joke agent and we can say hey please
+- [41:38] tell me a joke and this will go off and
+- [41:41] do exactly what we did in the previous
+- [41:43] tool calls where we went off and made a
+- [41:45] a request to get the dad joke. We got
+- [41:47] the dad joke back and then finally it
+- [41:49] returned the dad joke from our tool
+- [41:51] call. So all around this is awesome. And
+- [41:52] the crazy part is we're not using Gemini
+- [41:54] for this. We're using Open AI. And as a
+- [41:57] quick extra note because I want to be as
+- [41:59] helpful as possible for you guys. If you
+- [42:02] want to see all the different compatible
+- [42:04] models for open router, I have a link
+- [42:06] that you can see in the source code. So,
+- [42:08] let me show this for you real fast. But
+- [42:10] this link right here will take you to
+- [42:13] light LLM docs. So, you can see how to
+- [42:15] connect to Open Router. And here's a
+- [42:17] list of some of the most popular models
+- [42:19] you can chat with. So, you can see
+- [42:21] everything from OpenAI. You can see we
+- [42:23] have our cloud models down here. But if
+- [42:26] you want to check out the full list of
+- [42:28] compatible Open Router models, you can
+- [42:30] click here in the docs and it'll take
+- [42:32] you over to Open Router. We looked at
+- [42:34] this earlier, but you can type in any
+- [42:36] model you want. So, if you wanted to use
+- [42:38] something from llama, you can type in,
+- [42:41] let's just say we wanted to do llama 4.
+- [42:44] So, what we can do here is you can see,
+- [42:47] okay, cool. I'd like to use this one. So
+- [42:49] if we wanted to use this model, what we
+- [42:52] would type in is we would go okay, I
+- [42:54] would like to use open router open
+- [42:58] router for slash and then I would type
+- [43:00] in meta llama/ the name of the model. So
+- [43:03] just know before you use any of these
+- [43:05] models right here, you always need to
+- [43:07] add open router before it to properly
+- [43:09] use it in your agents. Yeah, you have
+- [43:11] access to all models that are available.
+- [43:14] And if you just want to experiment, you
+- [43:16] can click on the rankings in Open Router
+- [43:18] and see what models are absolutely
+- [43:20] crushing it. So you can try them out for
+- [43:22] your own. So yeah, all around Light LLM
+- [43:25] plus open router is a huge cheat code
+- [43:26] when trying to interface with all sorts
+- [43:28] of models to really expand the
+- [43:30] capabilities of working inside of agent
+- [43:32] development kit. So yeah, that's a wrap
+- [43:34] for example number three. And now we're
+- [43:36] going to move over to our next examples
+- [43:39] which is focused on structure outputs to
+- [43:41] make sure our agents generate the proper
+- [43:43] type of data we wanted to spit out. So
+- [43:45] let's go ahead and hop over to example
+- [43:46] number four. Hey guys and welcome to
+- [43:48] example number four where we are going
+- [43:50] to look at the different ways we can
+- [43:52] make sure our agents generate the proper
+- [43:55] structured data. And this is going to be
+- [43:57] super important as you build larger and
+- [44:00] larger agent workflows because you want
+- [44:02] to make sure agent A is producing the
+- [44:04] correct information in the right format
+- [44:05] for agent B or so you can take the
+- [44:07] information from agent A and pass it
+- [44:09] over to an API, another tool or whatever
+- [44:11] you want to do. So structured outputs
+- [44:13] are super important. So what we're going
+- [44:15] to do is first look at the docs to see
+- [44:16] what options we have available to us.
+- [44:18] And then second, we're going to look at
+- [44:20] a pre-built agent I've created for you
+- [44:21] guys so you can see the structured
+- [44:23] outputs in action and see what we have
+- [44:26] to do to get it up and running. And then
+- [44:27] finally, we're going to run the code so
+- [44:29] you can see everything in action. So
+- [44:30] let's go ahead and check out the docs.
+- [44:32] Okay, guys. So let's dive into the
+- [44:34] structuring data docs when it comes to
+- [44:36] ADK. Now, we're going to walk through
+- [44:38] the three different options real fast
+- [44:40] and I'll give you my feedback on all of
+- [44:42] them and just to give you guys a brief
+- [44:43] overview before we dive into the code
+- [44:45] and see these guys in action. So the
+- [44:47] first option you have is to define input
+- [44:49] schema. I personally dislike this one
+- [44:52] because it's very easy to fail. For
+- [44:54] example, if a the previous agent is
+- [44:57] saying, "Hey, I need to give you this
+- [45:00] information." And we say, "Cool. I'm
+- [45:02] expecting this other type of
+- [45:03] information." Things are going to break.
+- [45:04] So this one's a little bit too rigid. So
+- [45:06] I usually try to stay away from this
+- [45:08] one. But there is another format that
+- [45:10] you're going to be using all the time,
+- [45:12] which is going to be output schema. And
+- [45:15] basically what output schema does is it
+- [45:17] says okay AI agent I would like you to
+- [45:20] create and generate an output that looks
+- [45:22] like a specific class. So for example
+- [45:25] they have a great demo down here where
+- [45:27] you can say okay agent I would like you
+- [45:31] to please generate a output in the form
+- [45:34] of a capital output. So this is a class
+- [45:37] we define and you can see up here when
+- [45:40] it comes to the model it is a base model
+- [45:42] imported from pedantic. That's exactly
+- [45:44] what the doc said. And what you can see
+- [45:46] inside of it is we go, "Oh, okay. I want
+- [45:48] this agent to return a JSON object that
+- [45:51] has a single property in inside of it, a
+- [45:54] capital. This capital will have a
+- [45:56] string." And I know that basically some
+- [45:59] additional information to help the agent
+- [46:01] figure out what it should put here is a
+- [46:03] description of it. So I can see oh okay
+- [46:05] the agent is going to whenever we ask it
+- [46:08] a question return a object that has a
+- [46:10] capital and the capital always needs to
+- [46:13] be the capital of a country. So that's
+- [46:15] basically output schema in a nutshell.
+- [46:18] There is one quick constraint. So this
+- [46:20] is something you need to know before
+- [46:21] using this in the wild. It is you cannot
+- [46:24] use output schema when using tools or
+- [46:27] transferring information to other
+- [46:29] agents. So later on, don't worry. What
+- [46:31] we'll do is we'll have agent one, we'll
+- [46:34] just have agent one do all the complex
+- [46:35] thinking, pass the raw results over to
+- [46:37] agent two, and then agent 2 will be the
+- [46:39] one responsible for making sure the
+- [46:41] output schema is met. Okay. Now, here's
+- [46:43] the final thing. When it comes to output
+- [46:45] key, this is a special name we can give
+- [46:49] to say, hey, I would like to store all
+- [46:51] the information you generate from here
+- [46:53] to a specific spot in state. Now, we
+- [46:56] haven't talked about state yet. We will
+- [46:57] more in the next section, but just think
+- [46:59] of state as memory that all of your
+- [47:01] agents can access. So what you can say
+- [47:03] is, okay, great. This agent is going to
+- [47:06] find the capital. It's going to make
+- [47:08] sure the output looks like this. It's
+- [47:10] going to be an object that stores a
+- [47:12] capital name. And what it's going to do
+- [47:14] is it's going to save the capital to
+- [47:17] state. So what we could do is eventually
+- [47:20] look up state.found capital. And when we
+- [47:23] look up the found capital, we will be
+- [47:25] able to see the result that was
+- [47:27] generated here. And our other agents
+- [47:28] will be able to access this information.
+- [47:30] And this is one of the best ways to
+- [47:32] help, you know, agent one generate
+- [47:34] information and agent two look up what
+- [47:36] the previous agent did use that
+- [47:38] information for the next. So this is how
+- [47:39] we get to basically start having one
+- [47:42] shared area with all of our information
+- [47:44] and all of our agents can access it. And
+- [47:46] it's very structured so we make sure
+- [47:48] that our agents always have access to
+- [47:50] the information they need. So that was a
+- [47:52] ton. So let's actually look at a real
+- [47:53] world example so you can see this in
+- [47:55] action. So let's hop over to the code.
+- [47:57] Okay, so now we're in the code when it
+- [47:58] comes to working with structured
+- [47:59] outputs. And I promise a lot of those
+- [48:01] initial concepts we talked about are
+- [48:02] going to come together and make sense.
+- [48:04] So as you saw earlier, there was a few
+- [48:06] important things that we needed to add
+- [48:09] to our agent to get structured outputs
+- [48:11] working. The two most important ones
+- [48:14] were output schema. So this is what's
+- [48:16] going to define yes you need to return a
+- [48:19] object of this class type and you can
+- [48:22] see for this agent we defined our email
+- [48:24] content up here. So just a quick bit of
+- [48:26] background in this example we're trying
+- [48:28] to say hey agent it is your job to take
+- [48:30] in some text I give you and convert it
+- [48:32] into an email that has two options or
+- [48:34] two properties. It has to have a subject
+- [48:36] line and it has to have a body. So every
+- [48:39] time we give the agent information it
+- [48:41] will always return this type of
+- [48:43] structured data. Now, so a few other
+- [48:46] things that are important to note before
+- [48:48] we dive too deep into the instructions.
+- [48:50] You must for best results when working
+- [48:52] with agents. Whenever you're using an
+- [48:55] output schema like this, you need to do
+- [48:58] a good job of defining what the schema
+- [49:01] is beforehand. So, for example, in the
+- [49:03] instructions, you need to do a good job
+- [49:05] of saying, "Yep, I would like you to
+- [49:08] return JSON matching this structure
+- [49:10] subject and body." That's exactly what
+- [49:12] we defined up here, but we need to put
+- [49:14] it in our instructions as well. The
+- [49:16] reason why we need to do this is if we
+- [49:18] don't tell the agent what type of data
+- [49:20] it needs to return whenever the agent
+- [49:22] generates its draft of like, yeah, I
+- [49:24] think I need to return this information.
+- [49:26] Well, whenever it gets to the final step
+- [49:28] and it goes, okay, here's my raw data.
+- [49:30] I'm going to try and, you know,
+- [49:31] basically change it to fit this output
+- [49:33] schema. If it doesn't able, if it's not
+- [49:35] able to make that match, things will
+- [49:36] just fail and it's going to say, hey, I
+- [49:38] was unable to generate this output
+- [49:39] schema and things just crash. So the
+- [49:41] better job you can do when defining the
+- [49:43] output schema in here, the more likely
+- [49:44] your agents will do at succeeding at
+- [49:46] generating this this information
+- [49:48] properly. Okay, cool. So that was super
+- [49:50] important to note. Now let's just
+- [49:51] quickly look at the instructions and
+- [49:53] then we're going to run it so you can
+- [49:54] see how I was talking about state
+- [49:55] earlier with output keys. Yes, state
+- [49:58] with output keys. You're going to see
+- [49:59] how the email we generate actually gets
+- [50:01] saved to state using the email as the
+- [50:04] word the keyword and you're going to see
+- [50:05] the email it generates as the value. So,
+- [50:07] you'll see this in action in just a
+- [50:08] second, but let's quickly look at the
+- [50:10] instructions so you can see exactly what
+- [50:11] we're doing. We're saying, "Hey, you are
+- [50:13] an email generation assistant. You
+- [50:15] always write professional emails based
+- [50:17] on the user's request, and here are some
+- [50:19] guidelines when you're writing a email.
+- [50:21] You need to make sure that you always
+- [50:22] create a concise and relevant subject
+- [50:24] line. And then the body of the email
+- [50:26] needs to be pretty professional with a
+- [50:28] greeting. And then finally, what you
+- [50:30] want to do is make sure the tone is
+- [50:32] businessfriendly, formal, keep it
+- [50:34] concise, but complete. And then as we
+- [50:36] said earlier as a must, please, please,
+- [50:38] please make sure you include the JSON
+- [50:40] structure for best results. Okay, great.
+- [50:43] That's everything that we need to do. So
+- [50:45] let's run the agent so we can see this
+- [50:47] in action. So we are in the proper
+- [50:49] folder structured outputs. We have our
+- [50:51] virtual environment created. So we can
+- [50:54] now run ADK web. This is going to spin
+- [50:56] up our website that you normally see.
+- [50:57] And I'm super excited to show you guys
+- [50:59] this in action because as you build your
+- [51:01] own agents, you will see quickly how
+- [51:04] powerful and how important this is in
+- [51:06] order to build bigger, more complex
+- [51:08] workflows. So we can say, "Hey, please
+- [51:11] write a email to my wife
+- [51:16] Carly to see if she is available for
+- [51:21] coffee tomorrow morning." So what it's
+- [51:24] going to do is take in that input that
+- [51:26] we gave it and you can see the agent
+- [51:29] returned the two pieces of information
+- [51:31] we wanted the subject it also returned
+- [51:33] the body cuz that's exactly what we
+- [51:35] defined in the schema. Now digging even
+- [51:38] deeper you can see inside a state we now
+- [51:41] are saving the email we generated in the
+- [51:44] exact format that we said. So in our
+- [51:47] case, we said, "Hey, I would like you to
+- [51:48] save the email using the key email and
+- [51:52] then the body like whatever response you
+- [51:54] generate, you need to save it in here."
+- [51:56] And the reason we can see this is
+- [51:57] because if you hop back over here at our
+- [52:00] agent, you can see, yep, the output key
+- [52:02] was email. It's right here. And then the
+- [52:05] generated result is spit out right here.
+- [52:07] Now, just to show you guys something
+- [52:08] else is if we were to write another
+- [52:11] email, it will override this state. So
+- [52:13] you can say great see great we'll say
+- [52:17] write another email to see if Nate is
+- [52:22] free for pickle
+- [52:24] ball tomorrow night. Now this will
+- [52:27] create another email and it will save
+- [52:30] the result once again to state. So you
+- [52:32] can see new subject line new body but
+- [52:35] it's all saved under the same key. So
+- [52:37] that is working with structured outputs
+- [52:39] in a nutshell to where you now have
+- [52:41] total control of making sure your agents
+- [52:43] always generate the proper output schema
+- [52:45] and save the information exactly where
+- [52:47] you want in state so other agents can
+- [52:49] use it or you can pass that information
+- [52:51] over to other tools and APIs. So that
+- [52:53] one was a little bit more complex.
+- [52:54] Hopefully the explanation made sense.
+- [52:56] And now we're going to move over towards
+- [52:59] our next example where we are going to
+- [53:02] start to look at some of the core
+- [53:03] underlying pieces and concepts inside of
+- [53:06] ADK which are going to be session and
+- [53:08] memory. So let's hop over to example
+- [53:10] number five. So welcome to example
+- [53:13] number five where we're now going to
+- [53:14] look at some of the core components you
+- [53:16] need to use in order to run your agents.
+- [53:19] So in this example we're going to look
+- [53:21] at sessions, state, and runners. And to
+- [53:24] make this all super easy to digest, what
+- [53:26] we're going to do is break this up into
+- [53:28] three phases. Part one, we're going to
+- [53:29] hop over to a whiteboard so you can see
+- [53:31] how all these core components work
+- [53:33] together and what they do so you have a
+- [53:35] good understanding of it. And once we
+- [53:36] have a highle understanding of what
+- [53:38] these components are, we're going to
+- [53:39] dive into code in phase two where you're
+- [53:42] going to see, okay, I understand what a
+- [53:43] runner is now, but how do I actually
+- [53:45] create it in code? Well, that's what
+- [53:46] we're going to be doing in phase two.
+- [53:48] And then part three, we're going to kick
+- [53:49] off the code that we run so you can see
+- [53:51] how it actually works and so you can
+- [53:53] see, you know, some of the outputs of
+- [53:55] everything running together. So let's go
+- [53:57] ahead and hop over to the whiteboard so
+- [53:58] we can deep dive into some of these core
+- [54:00] components. So welcome to the whiteboard
+- [54:02] time, guys, where we're going to start
+- [54:03] diving deep into understanding what is
+- [54:05] session, state, and runners and how do
+- [54:07] they all work together. And the good
+- [54:09] news is you've already been using each
+- [54:11] one of these different technologies and
+- [54:12] core concepts whenever you've been
+- [54:14] running ADK web. So far, every time we
+- [54:16] run ADK web, it handled all the
+- [54:18] complexity of spinning up all the
+- [54:20] back-end code that created sessions for
+- [54:22] us. So, as you can see, you know, every
+- [54:24] time we were working and chatting with
+- [54:26] our agent, it created a unique session
+- [54:27] for us. We'll explain that more in just
+- [54:29] a little bit. You can also see that it
+- [54:31] had state for us. And then every time we
+- [54:33] were chatting with our agent, we were
+- [54:36] really passing our inputs and questions
+- [54:38] over to a runner who was connecting
+- [54:40] everything together for us. So, enough
+- [54:42] like highle talk. Let's actually see
+- [54:44] what these different components are. And
+- [54:46] what I would like to do first is talk
+- [54:48] about sessions. Once we talk about
+- [54:49] sessions, we're then going to talk about
+- [54:51] runners. So you can see how these
+- [54:53] different core concepts work together.
+- [54:54] Okay. So a session inside of ADK is
+- [54:58] nothing more than really two major
+- [55:01] pieces of information. A session has a
+- [55:04] state. So a state is where you can store
+- [55:06] all sorts of information in a dictionary
+- [55:09] where you have keys and values. So keys
+- [55:11] could be like username and the value of
+- [55:13] username would be Brandon. So that's
+- [55:16] what we're storing in state. Outside of
+- [55:17] that, inside of a session, we have
+- [55:19] events. And think of events normally
+- [55:22] just like a message history between us
+- [55:24] and the agent. But there's actually a
+- [55:27] little bit more to it than just
+- [55:28] messages. There is also tool calling and
+- [55:31] agent responses. And the event history
+- [55:34] is just a list of everything that
+- [55:36] happens between us and the agents. And
+- [55:39] it's a nice way to store all the
+- [55:40] information so that every time we add a
+- [55:43] new message to the bottom, it can look
+- [55:45] back at everything we said so far and
+- [55:47] understand, oh, okay, I see we've been
+- [55:49] talking about this topic. So, if you ask
+- [55:51] for more information, you want me to
+- [55:53] provide more information on the
+- [55:54] conversation we were just talking about.
+- [55:55] So, sessions at a high level so far,
+- [55:58] state and events where events are
+- [56:00] messages between us and the agent.
+- [56:02] Outside of that, sessions have a few
+- [56:04] additional pieces of information.
+- [56:07] sessions have ids, app names, user ID,
+- [56:10] and last update time. So, let's talk
+- [56:12] about what each one of these is at a
+- [56:13] high level really quickly. So, as you
+- [56:15] begin to build larger agent workflows,
+- [56:18] you eventually we want to be able to
+- [56:21] look up sessions. So, you'll want to
+- [56:23] say, "Oh, for user Bob, I want to see
+- [56:25] all the different conversations he's had
+- [56:28] between him and the agents that we've
+- [56:30] created." And in order to look that up,
+- [56:32] what we'd want to do is go, "Oh, okay.
+- [56:34] I'm working in this app and I'm trying
+- [56:36] to look up the conversation that user
+- [56:39] Bob had with it. Oh, okay. By looking up
+- [56:41] that information, I can see Bob was in
+- [56:44] session 123. So now I can easily pull
+- [56:47] out that session and allow Bob to
+- [56:49] continue to chat with that session. So
+- [56:52] think of think of sessions really as
+- [56:53] just a stateful chat history. That is
+- [56:56] the best way to think of sessions. Okay,
+- [56:58] so that's sessions at a high level. Now
+- [57:00] to uh add in a little bit of complexity
+- [57:03] there are multiple types of sessions. So
+- [57:05] there is in-memory session which is
+- [57:08] where we are saving all the conversation
+- [57:10] histories that we're having with each
+- [57:12] one of our agents and we're saving in
+- [57:14] memory which means as soon as we close
+- [57:17] out of the application everything in
+- [57:18] memory is gone and we lose access to all
+- [57:21] the conversations that we had. The next
+- [57:22] option is to do a database session and
+- [57:24] we're going to do database session in
+- [57:26] example six the example right after
+- [57:28] this. But basically, every time we have
+- [57:30] a conversation with our agent, we're
+- [57:31] going to store it to a database, which
+- [57:33] is nice because when we close out of the
+- [57:34] application, all the information is
+- [57:36] still saved. And when we reload the
+- [57:38] application, it'll go, "Oh, great. I can
+- [57:40] pull out all the existing conversations
+- [57:42] between Bob, all the our other users, I
+- [57:44] can pull them out." And that way,
+- [57:45] whenever they want to continue the
+- [57:47] conversation, they can. Then what the
+- [57:49] third option you can do is to save these
+- [57:52] sessions to Vertex AI. Vertex AI is
+- [57:56] Google Cloud's AI platform. It is
+- [57:58] amazing. I actually have an entire
+- [58:00] tutorial teaching you how to deploy your
+- [58:01] agents to App Engine on Vert.Ex AI. But
+- [58:05] just know if you want to store your
+- [58:06] sessions in the cloud and not on your
+- [58:08] local computer, Vert.Ex AI is the
+- [58:10] easiest way to do it. It's out of the
+- [58:11] scope for this tutorial. And but I just
+- [58:13] want you to know you have multiple
+- [58:15] options. Save it in memory to where it
+- [58:16] goes away. Save it to a database to
+- [58:18] where you get to keep it on your local
+- [58:19] computer or option three, save it to the
+- [58:21] cloud with Vert.Ex AI. Okay, great. So
+- [58:24] we've seen sessions at a high level. I
+- [58:27] want to show you what a code snippet
+- [58:28] looks like of creating a session. So, as
+- [58:31] we decided just a second ago, you have
+- [58:33] to pick where do you want to save your
+- [58:35] sessions. So, we are going to import our
+- [58:37] sessions and use the in-memory one cuz
+- [58:39] we're not trying to connect it to
+- [58:40] anywhere fancy right now. So, we're
+- [58:41] going to say all right, I would like a
+- [58:43] in-memory session. And then what we can
+- [58:45] do from there is go I would like to
+- [58:47] create a session because I want to be
+- [58:50] able in this case my example user to be
+- [58:53] able to begin talking with my agents.
+- [58:56] And then you can pass in some additional
+- [58:57] information like the app name. It is
+- [58:59] required but just know you know we're
+- [59:02] we're not really building apps right
+- [59:03] now. We're just mostly focused on
+- [59:04] talking with our agents. So yeah just
+- [59:06] know you have to give an app name. You
+- [59:07] have to give it a user ID. And then from
+- [59:09] there the other option you have is to
+- [59:11] give state. State is optional, but this
+- [59:14] is where you can pass in all sorts of
+- [59:16] user preferences or whatever agentic
+- [59:18] workflow you're building. It's usually
+- [59:19] helpful to build pass in state to allow
+- [59:21] the agent to have some additional
+- [59:23] context instead of just the instructions
+- [59:25] we give it. Okay. Then once you create a
+- [59:28] session, what you can see is when you
+- [59:31] log what's in the example session, you
+- [59:33] can see it has all of the different
+- [59:35] properties that we called out right
+- [59:36] here. So we have an ID, the application
+- [59:38] name, the user ID, state. We have events
+- [59:41] which were nothing more than the events
+- [59:44] between us and the agent, specifically
+- [59:46] the messages, tool calls, and agent
+- [59:49] responses. That's what you're going to
+- [59:50] see inside the event list. And then
+- [59:52] finally, every time we make a request,
+- [59:54] it also updates the last update time. So
+- [59:56] you can just see like, oh yeah, we've
+- [59:57] been using this agent super recently, or
+- [59:59] no, we haven't touched this agent in a
+- [60:01] week. Okay, great. So that's session at
+- [60:03] a high level. And just the core takeaway
+- [60:05] from this is sessions are just stateful
+- [60:07] message histories. That's the core thing
+- [60:09] to take away from this. Okay, great. So
+- [60:12] now we're going to hop over to well now
+- [60:15] that I know what a session is, how do we
+- [60:16] actually like get agents to run? Like
+- [60:18] there's a lot of moving parts. How do
+- [60:20] they all connect? Well, everything
+- [60:22] connects inside of a runner. And a
+- [60:24] runner is I'm going to walk you through
+- [60:26] what you need to provide to a runner
+- [60:28] first and then we're going to go through
+- [60:29] an example life cycle. So a runner is
+- [60:32] nothing more than a collection of two
+- [60:34] pieces of information. Your agents and
+- [60:37] your sessions. So let's walk through why
+- [60:40] we have to put this in an agent or
+- [60:41] inside of a runner. So inside of a
+- [60:43] runner, we need to give it agents so
+- [60:45] that the runner knows every time it gets
+- [60:48] a request. Well, what agents do I have
+- [60:50] available to take and handle this
+- [60:52] request? For example, if we were working
+- [60:54] with a frequently asked question agent,
+- [60:57] well, we would see, oh, okay, I have a a
+- [61:00] question and answer agent. So, every
+- [61:02] time I get a request, I know I can give
+- [61:04] it to that agent to to be the starting
+- [61:06] point to handle answering the question.
+- [61:08] Also, we need to have a session because,
+- [61:10] as we just discussed a second ago, we
+- [61:12] need to have somewhere to store our
+- [61:14] message history and our state. So, these
+- [61:16] are the core components that you need in
+- [61:18] order to create a runner. So, let's walk
+- [61:20] through a quick example of how us
+- [61:23] chatting with the runner actually works
+- [61:26] step by step. So, let's say going back
+- [61:28] to our frequently asked question agent,
+- [61:30] let's walk through it. So, let's say our
+- [61:32] user says, "Hey, what is my name?" Or we
+- [61:35] can say, "Hey, what is the return policy
+- [61:38] for this business?" We'll go with that
+- [61:40] example. Well, first thing that it's
+- [61:42] going to do is the runner is going to
+- [61:43] go, "Okay, you are user Brandon and I
+- [61:47] can see you are asking this question."
+- [61:49] So, first thing I'm going to do is look
+- [61:51] through our session. I can see you have
+- [61:53] a user ID of 1 2 3. So, I'm going to
+- [61:56] look through all the sessions I have
+- [61:57] available and I'm going to see, okay, I
+- [61:59] see you have a message history and you
+- [62:02] are currently have this state. Great.
+- [62:04] From there, it's going to pass over all
+- [62:06] the context it provides and finds to an
+- [62:09] agent. And this FAQ agent is going to
+- [62:12] go, okay, I can see user Brandon likes
+- [62:14] these things. He's purchased these
+- [62:16] products from us. And now that I'm
+- [62:18] working with the frequently asked
+- [62:19] question agent, I can now begin to
+- [62:22] generate a response. And this agent is
+- [62:24] going to go, okay, in my workflow, I am
+- [62:26] a single agent. I don't have five sub
+- [62:29] agents, something we'll talk later about
+- [62:31] more later on, but I can see that I have
+- [62:33] one agent. So I am now trying to figure
+- [62:36] out which agent is going to handle this
+- [62:37] response. And since there is only one
+- [62:39] agent in here, I'm going to pass the
+- [62:41] query you gave me plus all the session
+- [62:44] information I have about you to the
+- [62:46] agent who's responsible for handling
+- [62:48] this request. In this case, there's only
+- [62:50] one agent. So that's the agent that gets
+- [62:51] picked. From there, that agent makes a
+- [62:54] few extra calls. If we have tools
+- [62:57] provided to the agent, the agent will go
+- [62:58] off and maybe search the internet. It
+- [63:00] might go off and search our database.
+- [63:02] Whatever we need to do, it will make the
+- [63:04] necessary tool calls. And then from
+- [63:06] there it'll pass in an a request over to
+- [63:09] our large language model. So Gemini. So
+- [63:11] it's going to pass the results from the
+- [63:12] tool call into the large language model
+- [63:14] and go, "Oh, okay. I can see you were
+- [63:17] trying to make a request about our
+- [63:19] return policy. I can see you've ordered
+- [63:21] this product. Yep. I looked it up. It
+- [63:23] looks great. It looks like you can
+- [63:25] return that item within 30 days and it's
+- [63:27] only been 20. So you can return that
+- [63:30] item." From there, what'll happen is on
+- [63:34] the way back to the user, we will update
+- [63:36] our session by adding in new events
+- [63:39] because if you remember from above,
+- [63:41] sessions have two pieces of information.
+- [63:43] They have state and they have events.
+- [63:45] And these events can also include the
+- [63:47] agent response. So, we're going to add
+- [63:49] in the agent response where we're going
+- [63:51] to say, "Yep, you can return the item
+- [63:53] you're talking about." So, that's us
+- [63:56] updating session. And then finally, the
+- [63:58] runner is going to spit back the result
+- [64:00] to the user and say, "Yep, looks good.
+- [64:02] You can return the item. Everything's
+- [64:04] happy." So this is the core loop in a
+- [64:07] nutshell of working with basically all
+- [64:10] the core concepts we just talked about,
+- [64:11] which are going to be runners, sessions,
+- [64:14] and state. So hopefully that makes
+- [64:16] sense. The core lesson here is sessions.
+- [64:19] Just one more time, sessions are
+- [64:20] stateful message histories and runner is
+- [64:22] nothing more than just a combination of
+- [64:24] all the raw ingredients needed to
+- [64:27] generate responses for our users. And
+- [64:29] when I say raw ingredients, just a list
+- [64:31] of our agents and the current session
+- [64:33] we're working with. It combines them
+- [64:35] together to help generate intelligent
+- [64:37] responses. So hopefully that all makes
+- [64:39] sense. And don't worry, we're going to
+- [64:41] dive into a code example next so you can
+- [64:42] see all of these different core
+- [64:44] components working together so you can
+- [64:46] see them in action. So, let's go ahead
+- [64:47] and hop over to the code so you can see
+- [64:49] everything running. So, now it's time to
+- [64:51] look at the code when it comes to
+- [64:52] combining all of our session, state, and
+- [64:54] runners into one area so we can begin to
+- [64:57] chat with our agents. And the core
+- [64:58] takeaway that I want you to have inside
+- [65:01] of this code example is we are having to
+- [65:03] build all the core functionality that
+- [65:06] ADK web command normally handles for us.
+- [65:08] We're having to build it here. And this
+- [65:11] is super important as you want to go off
+- [65:13] and create more complex agents where you
+- [65:15] don't want to just chat with them inside
+- [65:17] ADK web. Let's say you want to start
+- [65:19] incorporating agents inside of your
+- [65:21] applications. This is how you would go
+- [65:23] about doing it where you would yourself
+- [65:25] manage the memory, the sessions and the
+- [65:28] runners. This is what you would be
+- [65:29] responsible for doing in your own
+- [65:31] applications. So let's go through this
+- [65:32] part by part where I'm going to explain
+- [65:34] everything that's happening so you can
+- [65:36] you know hopefully master everything as
+- [65:37] well. Okay. So what are we doing first?
+- [65:39] Well, first thing we're going to do is
+- [65:41] we are going to load our environment
+- [65:43] variables. The reason why is inside of
+- [65:46] all of our other projects, we would keep
+- [65:49] our environment variables with our
+- [65:50] agents. But now that we're managing
+- [65:53] everything ourselves, we need to keep
+- [65:55] our environment variables at the root
+- [65:57] level of our folder because we're not
+- [65:59] running ADK web, which is going to
+- [66:01] handle and pull out all the environment
+- [66:02] variables inside of our agents. The
+- [66:03] environment variables now need to leave
+- [66:05] live at the top level of our folders.
+- [66:08] And per usual, our environment variables
+- [66:10] just have our API key and everything
+- [66:12] else that we need to make requests.
+- [66:13] Okay, great. So now let's start looking
+- [66:15] at some of the core concepts that we are
+- [66:17] trying to do here. So the first thing
+- [66:19] that we decided is we need to pick which
+- [66:22] memory service we're going to use. We
+- [66:24] can do database inmemory or vertex AI.
+- [66:27] We just want to run everything locally
+- [66:29] for this example so you can get a you
+- [66:31] know a quick overview of seeing this in
+- [66:32] action. So we're going to create an
+- [66:34] in-memory service where the second we
+- [66:36] close the application all of our
+- [66:38] sessions disappear. Okay. The next thing
+- [66:41] that we are going to do is we are going
+- [66:43] to create initial state. As I said
+- [66:46] earlier initial state is nothing more
+- [66:48] than a dictionary. So you can see we are
+- [66:50] creating a dictionary right here and we
+- [66:52] are giving it two keys. We are giving it
+- [66:54] a username and user preferences. These
+- [66:57] are the two different keys we are
+- [66:58] passing in our dictionary. So we can
+- [67:00] ideally in this frequently asked
+- [67:03] question agent called Brandonbot what we
+- [67:06] can do is answer questions about
+- [67:08] Brandon. That's what we're trying to do
+- [67:09] here. So that's why we want to pass in
+- [67:10] initial state. Great. So now we are
+- [67:14] going to create a session. And if you
+- [67:16] remember what you have to do is inside
+- [67:18] of whatever memory service you pick, you
+- [67:20] can then say I'd like to create a
+- [67:22] session using this service, this session
+- [67:24] service. So in our case, we need to
+- [67:26] create a session and pass in all the
+- [67:28] values necessary in order to create it.
+- [67:31] You saw this just a second ago when we
+- [67:32] were looking at the Google example, but
+- [67:34] you can see we need to pass in the app
+- [67:36] name. In our case, Brandonbot. From
+- [67:38] there, we need to come up with a user
+- [67:40] ID. We're just going to call it Brandon
+- [67:42] Hancock. And then we need to pass in a
+- [67:44] session ID. And we're just going to do
+- [67:47] this right here which is called a
+- [67:49] universal uniquely identifiable key
+- [67:52] basically which is just it's just going
+- [67:54] to make a super long random character
+- [67:56] that you know are very unique. And then
+- [67:58] finally what we're going to do in our
+- [68:00] session is we are going to provide
+- [68:01] initial state. So that's everything you
+- [68:03] need to do to create a session. Awesome.
+- [68:06] So now that we've created our session
+- [68:08] what we're trying to do is if you
+- [68:09] remember when it comes to raw
+- [68:11] ingredients to making a runner there was
+- [68:13] two. For a runner, we need to have in
+- [68:16] our case, we need to have our agent and
+- [68:18] then we need to have our session. So, we
+- [68:20] just created our session check. And the
+- [68:23] next thing we need to do is pass in our
+- [68:25] agents. So, where the heck do our agents
+- [68:27] live? Well, in our case, we've created a
+- [68:30] folder where our questionans answering
+- [68:33] agent lives. So, you can see it's all in
+- [68:35] the same folder. And if you open up your
+- [68:37] questionans answering agent folder, you
+- [68:39] can see it looks just like the rest of
+- [68:41] them. And if you open up agent.py, Pi,
+- [68:43] you can see, hey, you are a helpful
+- [68:45] assistant and the job of you as a
+- [68:47] helpful assistant is just to answer
+- [68:49] questions about the user's preferences.
+- [68:51] And this is where we're starting to get
+- [68:52] a little fancy because in order for you
+- [68:55] to access state, you can use begin to
+- [68:57] use it's called string interpolation,
+- [69:00] which is really just a fancy word for
+- [69:02] putting the key you want inside of
+- [69:04] brackets. So going back, let's do a side
+- [69:07] by side so you can see it. So inside of
+- [69:10] our basic session right here you can see
+- [69:13] in our initial state we had items such
+- [69:16] as our basically our username and you
+- [69:19] can see that right here we can access
+- [69:21] our username. So this is how you access
+- [69:23] state inside of your agents. You just
+- [69:27] pass in the key that you want from over
+- [69:28] here and you can pass it in here. So
+- [69:30] that is how you can access state inside
+- [69:33] of your agents. super helpful and you're
+- [69:35] going to do it a ton as you work more
+- [69:36] and more with your agents. Okay, great.
+- [69:38] So, now that we understand what the
+- [69:39] agent can do, let's hop back over to our
+- [69:42] runner because our runner was
+- [69:44] responsible for taking in our agent that
+- [69:47] I just showed you and responsible for
+- [69:49] taking in our session service because
+- [69:51] once it has those two core pieces of
+- [69:53] information, we can now begin to ask
+- [69:55] questions and send in messages to our
+- [69:58] runner. Now in order to create a message
+- [70:00] the raw way to do it inside of ADK is to
+- [70:03] create a message that looks just like
+- [70:05] this where you say hey I would like to
+- [70:07] make a message and the way you do that
+- [70:09] is through there's a library called
+- [70:11] types. So from Google's generative AI
+- [70:14] library that you have installed inside
+- [70:17] of whenever we created our Python
+- [70:19] environment. What we did is uh we
+- [70:21] imported generative AI from Google. Now
+- [70:23] what we can do is create a new piece of
+- [70:25] content which is basically just a
+- [70:26] message is the best way I like to think
+- [70:27] of it. And with a content, you want to
+- [70:29] pass in two pieces of information. The
+- [70:31] role. So the role is going to be either
+- [70:34] the user or the agent. So who's
+- [70:36] responsible for sending this message,
+- [70:38] role or user. And then from there, you
+- [70:40] have parts. Think of parts just as the
+- [70:42] raw piece of text that you want to pass
+- [70:44] over to the agent as your query. In this
+- [70:47] case, we're going to say, "Hey, what is
+- [70:48] Brandon's favorite TV show?" This is the
+- [70:50] message we want to send to the agent. So
+- [70:53] what we can do is go all right now that
+- [70:55] I have everything set up and ready to
+- [70:57] run I can say all right runner I would
+- [71:00] like you to run everything that I've
+- [71:02] given you so far for the user ID and the
+- [71:06] session ID and I would like you to
+- [71:08] process this new message. From there the
+- [71:11] runner is going to go off and process
+- [71:15] everything that we just talked about in
+- [71:16] the life cycle earlier where it's going
+- [71:18] to look at the agents it has available.
+- [71:20] It's going to pull information from
+- [71:21] state by looking through our sessions.
+- [71:23] Pass all that information over to the
+- [71:25] relevant agent. There's only one this
+- [71:26] time. So, it's just going to pass all
+- [71:28] that context to that one agent. That
+- [71:30] agent is then going to say, "Hey, do I
+- [71:32] have any tools I can call?" Nope, I
+- [71:33] don't. So, all I'm going to do is pass
+- [71:36] all this information over to the Gemini
+- [71:39] LLM. And the reason I say Gemini LLM is
+- [71:41] because that's the only LLM that we have
+- [71:43] attached to this agent. From there, it's
+- [71:46] going to generate a response. And that
+- [71:48] response is going to get saved as an
+- [71:50] event to our session. So that's why we
+- [71:53] are going to look through our session
+- [71:55] and say, is this the final response from
+- [71:57] this run? If it is, what I would like
+- [71:59] you to do is please show me the content
+- [72:02] from this final event so I can log it so
+- [72:05] I can see it. And if you remember
+- [72:07] earlier, every event, that's what we're
+- [72:09] looking at. An event has content. That's
+- [72:11] why this is like type.content. So, we're
+- [72:13] just basically in short, in summary,
+- [72:16] just looking for the message that was
+- [72:18] responded and sent back by the agent.
+- [72:20] So, that was a lot of talking. What I
+- [72:23] would like to do is run this for you
+- [72:24] guys so you can see it in action. So,
+- [72:26] let's go ahead and run this. So, let's
+- [72:28] clean things up. And a few things. First
+- [72:30] off, we need to make sure that you are
+- [72:32] in example number five and you do have
+- [72:35] your current Python environment
+- [72:36] activated. And what you can do now is
+- [72:38] run Python and then run basic stateful
+- [72:41] session. And if you remember what this
+- [72:43] is trying to do is it's going to answer
+- [72:45] the question, what is Brandon's favorite
+- [72:47] TV show? And then we are going to log
+- [72:49] two pieces of information. We are going
+- [72:51] to first log the final response. Then we
+- [72:55] are going to grab the current session
+- [72:57] and we are going to show the session
+- [72:59] state. That's what we're trying to do in
+- [73:00] this quick example. So you can see
+- [73:02] everything working together. So, it
+- [73:04] takes a second to run and you can see
+- [73:06] great, we created a new session with a
+- [73:09] unique session ID and you can see it
+- [73:11] answered the question super easily
+- [73:13] because it looked through the state we
+- [73:14] passed in. So, you can see, oh yeah,
+- [73:16] Brandon's favorite TV show is Game of
+- [73:18] Thrones currently re-watching it as we
+- [73:19] speak. From there, what you can see is
+- [73:22] we're doing a session event exploration
+- [73:24] where we're just trying to look at the
+- [73:25] final state. And once again, you can see
+- [73:28] this initial state that we passed in.
+- [73:30] You can see that we have access to all
+- [73:31] of it right here. And this is how it was
+- [73:33] able to answer the question of what is
+- [73:35] Brandon's favorite TV show. So yeah,
+- [73:38] that is sessions, state, and runners in
+- [73:41] a nutshell. This was definitely a little
+- [73:44] bit more codeheavy than running ADK web,
+- [73:46] but these are the core components you
+- [73:49] need to run your agents, especially if
+- [73:51] you want to start adding them over to
+- [73:52] your applications and you know, in order
+- [73:55] to run your agents. So, what we're going
+- [73:57] to look at next is we're going to head
+- [73:58] over to example six. So, you can see how
+- [74:00] we can connect up our sessions to a
+- [74:03] database. So, it doesn't matter when we
+- [74:05] close out of the application. When we
+- [74:06] reopen it, we're going to have access to
+- [74:08] all of our sessions. Let's go over to
+- [74:10] example number six. Hey guys, and
+- [74:11] welcome to example number six, where
+- [74:13] you're going to learn how to store your
+- [74:16] sessions and state to a local database
+- [74:19] so that when you close out of your
+- [74:20] application and reopen it, it's going to
+- [74:22] be able to pull in all that existing
+- [74:24] information and you're going to be able
+- [74:25] to pick up the conversation right where
+- [74:27] you left it off. And in this example,
+- [74:29] we're going to break it down into two
+- [74:30] parts. First, we're going to review the
+- [74:32] entire code part by part so you can
+- [74:34] understand exactly how we can pull out
+- [74:36] existing sessions, how we can save
+- [74:39] sessions to a database. We're going to
+- [74:40] cover everything step by step. And then
+- [74:42] part two, we're going to run the example
+- [74:45] so you can see everything in action. And
+- [74:47] this is by far one of my favorite
+- [74:48] examples in the whole crash course
+- [74:50] because this is where everything should
+- [74:52] click and you go, "Oh, I now understand
+- [74:54] how everything works together." And as a
+- [74:56] quick note, if you haven't watched the
+- [74:58] beginning of example number five where I
+- [75:00] break down the core components of
+- [75:02] sessions, state, and runners, definitely
+- [75:04] recommend checking that out again before
+- [75:06] watching this one. But without further
+- [75:08] ado, let's go ahead and hop over to the
+- [75:09] code. So now it's time to look at the
+- [75:11] code for how we can start to save our
+- [75:14] sessions to a database. So when we close
+- [75:16] out of an application and restart it, we
+- [75:18] can still access all of our previous
+- [75:20] messages. Okay, so let's walk through
+- [75:22] the five different highle parts of this
+- [75:24] code so that we can be on the same page.
+- [75:26] So first things first, our whole goal is
+- [75:28] we want to begin to save sessions to a
+- [75:30] database. So what we need to do is we
+- [75:33] need to say hey I would like to save all
+- [75:36] my sessions to a specific database file.
+- [75:39] In this case we're saying I would like
+- [75:41] to save it to a SQLite file which is
+- [75:44] basically just a SQL database that's
+- [75:46] just super easy to work with. And I want
+- [75:48] the file to be called my agent data
+- [75:51] database. Now you can see over here in
+- [75:53] our folder structure I already have an
+- [75:55] existing database. So you can see
+- [75:57] whenever we run this code in just a
+- [75:58] little bit, it's going to create a
+- [76:01] database file just like this inside of
+- [76:03] example number six. So that's what it's
+- [76:05] going to do. Now we can say, all right,
+- [76:07] when it comes to which sessions I would
+- [76:09] like to use, well, if you remember in
+- [76:10] the last example, we were using the
+- [76:13] inmemory session service. Well, this
+- [76:15] time we're using the database session
+- [76:17] service. And quick pro tip, you can save
+- [76:20] these sessions locally, like these
+- [76:22] database sessions locally, or if you
+- [76:24] have a database running in the cloud
+- [76:27] somewhere hosted like on Google Cloud
+- [76:28] Platform or another database hosting
+- [76:30] services, you could point it there as
+- [76:32] well. But for this example, we're just
+- [76:34] saving everything locally. All right.
+- [76:35] Next, what we want to do is define some
+- [76:37] initial state because what we are trying
+- [76:39] to do in this example is to create a
+- [76:42] reminder agent who will take in
+- [76:44] reminders from us, save these reminders
+- [76:46] to a list and then when we are done with
+- [76:48] those reminders, it should remove the
+- [76:51] reminders from our list. That's exactly
+- [76:52] what we're trying to build inside this
+- [76:54] agentic workflow. So, we need to update
+- [76:56] our initial state to say our name and
+- [76:58] start off with a blank empty list of
+- [77:00] reminders. From there, what we're trying
+- [77:02] to do is begin the process of working
+- [77:06] with existing sessions and creating new
+- [77:08] ones. So, imagine if we start creating a
+- [77:11] new conversation with our agents and
+- [77:13] it's the first time we're working with
+- [77:15] them, it should create a new session. If
+- [77:17] it is the, you know, we've been talking
+- [77:19] to this agent over and over and over, we
+- [77:21] should pull out our existing session.
+- [77:22] So, let me show you how we're doing
+- [77:24] this. Well, first things first, we need
+- [77:26] to give our app an application and pass
+- [77:29] in a user ID. So, we need to have these.
+- [77:31] And then with inside of our session
+- [77:33] service, which is going to be our
+- [77:34] database session service that stored all
+- [77:37] of our previous conversations in this
+- [77:39] file, we're going to run the command
+- [77:41] list sessions. And what this will do is
+- [77:44] it will look up for this specific
+- [77:45] application and this specific user. It
+- [77:48] will look up all existing sessions that
+- [77:50] we've already had with this agent. From
+- [77:52] there, we're going to do a quick check.
+- [77:55] So in option number one, we're going to
+- [77:57] say, hey, did this existing session
+- [77:59] already exist? And does it have a length
+- [78:02] over zero? Meaning like there's there is
+- [78:04] a session because obviously if there if
+- [78:06] it exists, the number will be one and
+- [78:08] greater than zero. And if that's the
+- [78:10] case, what we're going to do is pull out
+- [78:12] the session ID from that existing
+- [78:14] session. So that's how we're going to
+- [78:15] get our session ID. If this is the first
+- [78:18] time we've began to chat with this
+- [78:20] session, what we want to do instead of
+- [78:22] using the existing one is we want to
+- [78:25] create a new session. And if that's the
+- [78:27] case, what we want to do is pass in the
+- [78:29] app name, the user ID, and initial
+- [78:31] state. So either way, we're going to be
+- [78:33] in a great situation where we have a
+- [78:35] session ID that we can begin to
+- [78:37] communicate with. Great. So now that we
+- [78:39] have that session ID, what we can do is
+- [78:42] begin to start to set up our runner just
+- [78:44] like we did in example number five. And
+- [78:46] if you remember the core ingredients of
+- [78:47] a runner was our agent who's going to be
+- [78:50] responsible for handling all the
+- [78:52] requests and has all the instructions
+- [78:53] and tools and agents everything inside
+- [78:54] of it. So we want to pass in the root
+- [78:56] agent and we also need to pass in the
+- [78:59] specific session service that we've been
+- [79:01] working with. So in our case remember
+- [79:03] the session service is nothing more than
+- [79:05] the initial database session service
+- [79:07] that we set up from the get- go. Okay
+- [79:10] great. So now that we have our runner
+- [79:12] set up, we are set up to start a
+- [79:14] interactive conversation loop. And this
+- [79:17] is where we are going to go through the
+- [79:19] following where we are going to work
+- [79:20] with a memory agent chat that will
+- [79:22] remember reminders for us. And whenever
+- [79:24] we're done chatting with it, we can type
+- [79:26] in exit or quit and it will kill the
+- [79:28] conversation for us. So what I would
+- [79:30] like to do is do a quick run through of
+- [79:32] this and actually run the agent so you
+- [79:35] can see in action. And two things I want
+- [79:37] to do before running it is I want to go
+- [79:39] clean things up. So, I want to delete
+- [79:41] our database so that we're running from
+- [79:44] a clean slate. So, we're deleting the
+- [79:46] database. And then I want to show you
+- [79:48] how we're handling each request. So,
+- [79:50] each user input that we get when we're
+- [79:52] chatting with it, I want to show you how
+- [79:53] we handle it. And that's all inside of
+- [79:55] the call agent async function. I put
+- [79:57] this in a separate file called
+- [79:59] utils.py. So, you'll notice in the
+- [80:02] example 6 folder, I have a utils.py file
+- [80:05] for you. And this has a few different
+- [80:07] functions to help make your life
+- [80:08] simpler. And we as good programmers want
+- [80:11] to keep our code clean in our main file.
+- [80:14] So let's walk through this really
+- [80:15] quickly so you can understand what's
+- [80:16] going on. So first things first, we're
+- [80:18] passing in a few different pieces of
+- [80:20] information. We're passing in the runner
+- [80:22] that has access to our sessions and it
+- [80:25] has access to our agent. From there, we
+- [80:27] want to pass in the user ID. So who's
+- [80:29] making the request in which session are
+- [80:31] we working with? And then finally, we
+- [80:33] want to pass in the raw query, which is
+- [80:35] like, oh, what did Brandon ask? From
+- [80:37] there, we need to convert the query we
+- [80:40] get into a piece of content. And if you
+- [80:42] remember from example five, a content is
+- [80:44] nothing more than just a message we want
+- [80:46] to send over to our agent. From there,
+- [80:48] what we're going to do is log it. And I
+- [80:52] have set up a bunch of print statements
+- [80:54] to make our lives a lot easier so we can
+- [80:56] inspect what's going on. You'll see this
+- [80:58] in just a second when we run it. But the
+- [80:59] core thing that you'll notice is once
+- [81:01] again we are going to for that runner
+- [81:03] we're going to call run. Last time we
+- [81:05] did runner.run and this time we're going
+- [81:07] to do runner.async. Google ADK
+- [81:09] recommends to always use runner async
+- [81:12] and to only use
+- [81:14] runner.run when you're testing locally.
+- [81:16] So if you're doing any real world
+- [81:18] application always use run async. Now
+- [81:20] once we have that set up for our runner
+- [81:22] we pass in all the information that
+- [81:24] we've been working with. So who's making
+- [81:25] the call? What are the previous messages
+- [81:28] that we have been using and talking
+- [81:30] about with this specific user and
+- [81:32] between them and the agent? And then
+- [81:33] finally, what is the new message that
+- [81:35] you want me to work on? From there, the
+- [81:37] runner is going to go through that life
+- [81:38] cycle that we talked about last time and
+- [81:41] we are going to process the agent
+- [81:43] response. So, let me show you what that
+- [81:44] looks like. And basically, what we're
+- [81:46] going to do is iterate through all the
+- [81:48] different pieces of content that we get.
+- [81:51] And what the main thing that you want to
+- [81:53] care about is we're going to log the
+- [81:56] final response. So if it is the final
+- [81:58] response, we're going to log it. And so
+- [82:01] you can see, oh yeah, this is what the
+- [82:02] agent said. Don't worry, it doesn't
+- [82:04] matter. A lot of this complex code is
+- [82:06] all around just printing statements. So
+- [82:08] you don't really need to to worry about
+- [82:09] a lot of it. Okay, great. So once we
+- [82:12] process the agent response and we have
+- [82:14] it, we log the final response text right
+- [82:16] here. So we just return the final
+- [82:18] response. So that's it in a nutshell. I
+- [82:20] know that was a little bit more
+- [82:21] complicated, but don't worry. I'm going
+- [82:22] to run it and it will all make sense.
+- [82:24] So, let's clear everything out and run
+- [82:27] the agent so you can see it all in
+- [82:28] action. And we're going to do two
+- [82:30] different runs. The first run, we're
+- [82:32] going to start out with a blank database
+- [82:33] where it doesn't exist. So, we're going
+- [82:35] to have ADK create the database file for
+- [82:38] us. Then, we're going to ask a question
+- [82:39] or two, create a reminders, and then
+- [82:41] we're going to close out of the
+- [82:42] application and restart it so you can
+- [82:44] see everything in action. So, let's
+- [82:46] start the fun. So, we are going to
+- [82:47] inside of file 6 with our virtual
+- [82:50] environment activated, we are going to
+- [82:51] run python main.py. And this will allow
+- [82:55] us to uh it'll spin everything up. In
+- [82:57] just a second, we should see it created
+- [82:59] a database file for us. From there, we
+- [83:02] can now start to add reminders. And I'm
+- [83:04] going to make this really big so you can
+- [83:07] see what's going on. So, we're going to
+- [83:09] say, "Hey, please set a reminder for me
+- [83:14] to take out the trash tomorrow at 5:00
+- [83:19] p.m." From there, the agent is going to
+- [83:22] take in that request. And from there,
+- [83:25] the agent is going to respond, "I've
+- [83:26] added your reminder to take out the
+- [83:27] trash tomorrow at 5:00 p.m." And yeah,
+- [83:30] so that's what it's saying. And now, as
+- [83:32] an extra bonus for you guys, I log the
+- [83:35] state before and after every request.
+- [83:38] So, you can see the state before
+- [83:40] processing this message was none. We had
+- [83:42] zero reminders, but afterwards, the
+- [83:45] agent created a new reminder for us.
+- [83:48] Now, how the heck did it do this? How
+- [83:50] did this agent save a reminder? Well, we
+- [83:53] didn't fully show this off initially,
+- [83:55] but if you go to your agent.py pi file.
+- [83:57] You can see we created I'm going to
+- [83:59] minimize these so you can see in action.
+- [84:02] One second. So what you can see is we
+- [84:04] now have a new memory agent. This memory
+- [84:08] agent takes in a few core pieces of
+- [84:11] information. It has a description and it
+- [84:13] has instructions. And when it comes to
+- [84:15] instructions, we say, "Hey, you're a
+- [84:16] friendly reminder assistant. You are
+- [84:18] working with this shared state
+- [84:19] information. Specifically, you have
+- [84:21] access to the person's username and a
+- [84:23] list of reminders. From there, what I
+- [84:25] want you to do is you have the following
+- [84:27] capabilities. You can add new reminders,
+- [84:29] view existing, update them, delete them,
+- [84:31] or update the user's username. From
+- [84:33] there, I give it some extra specific
+- [84:35] instructions telling it how it should
+- [84:37] handle the process. The basic CRUD,
+- [84:39] which stands for create, read, update,
+- [84:41] and delete. I walk it through the basic
+- [84:43] operations for creating and working with
+- [84:45] updating our our different reminders.
+- [84:48] Now, how do we actually update state and
+- [84:51] our reminders? Well, the way we do that
+- [84:53] is through our tools. So, we have added
+- [84:56] multiple tools to this agent. So,
+- [84:59] everything from adding, viewing,
+- [85:01] updating, deleting, and the basic CRUD
+- [85:03] operations. So, that's why we have all
+- [85:05] these tools up here. Now, later on when
+- [85:07] we get to tool context management, we'll
+- [85:10] work on this more. But the main thing I
+- [85:12] want you to know is when you are working
+- [85:14] with state inside of your tool calls,
+- [85:16] which we'll touch on a lot more when we
+- [85:18] get to callbacks, what you'll notice is
+- [85:20] there is this new tool context parameter
+- [85:23] that we give to tools. Now, what the
+- [85:24] heck does this mean? Well, basically
+- [85:26] what's going on is you can pass in
+- [85:28] whatever parameters you want that you
+- [85:29] would normally give to a tool and then
+- [85:31] at the very very end you can pass in
+- [85:33] tool context and tool context will have
+- [85:36] access to all sorts of different
+- [85:38] attributes and specifically it's going
+- [85:40] to have access to the state. So it has
+- [85:43] access to all sorts of information. So
+- [85:46] what we're doing is we're going hey tool
+- [85:48] context I would like you to give me
+- [85:51] access to the current state object and I
+- [85:53] would like you to get all the current
+- [85:55] reminders. Once I have access to the
+- [85:57] reminders I would like you to add a new
+- [85:59] reminder to the list. Once I have that
+- [86:01] new reminder I want to save it back to
+- [86:04] state. So this is how you add
+- [86:06] information to state. You just call
+- [86:08] state have the key and then pass in the
+- [86:10] new value. And then from there, what
+- [86:12] we're doing with our tool call, cuz
+- [86:13] earlier in our example number two, when
+- [86:15] we learned about tools, you learned that
+- [86:18] you want to make sure your tool return
+- [86:20] statements are as informative as
+- [86:21] possible. So in our case, we're
+- [86:23] returning the fact the action. We're
+- [86:26] passing back the reminder, and we're
+- [86:28] passing back a message saying, "Hey, I
+- [86:29] successfully added this reminder." And
+- [86:31] this is the exact same flow we follow
+- [86:33] for all of our different tool calls. So
+- [86:35] when it comes to viewing our reminders,
+- [86:37] all we need to do is inside a tool
+- [86:40] context, we just need to access the tool
+- [86:43] state. We want to get reminders and then
+- [86:46] return them. And it's the exact same
+- [86:48] thing for all the rest of the different
+- [86:49] tools. We just pass in some variables,
+- [86:52] pass in the tool context, pull out what
+- [86:54] we need, and then save it back to state.
+- [86:56] So that's exactly what's going on. So
+- [86:58] we've kind of gone a little bit in the
+- [86:59] weeds, but what I want to do is add in
+- [87:01] one more reminder. Then we're going to
+- [87:03] close out of the application, rerun it.
+- [87:05] So you can see that yes, it is properly
+- [87:07] saving things to our database. So let's
+- [87:09] also say also remind me to mow the grass
+- [87:15] this weekend. From there, it's going to
+- [87:17] update and add a new reminder using
+- [87:20] those tools that you just saw. So life's
+- [87:22] good. So what we're going to do now is
+- [87:24] we are going to kill the application. So
+- [87:26] you can do that just by typing quit.
+- [87:28] This will end the conversation. Life's
+- [87:30] good. Your data has already been saved
+- [87:31] to the database. We didn't have to do
+- [87:33] anything extra. ADK new by providing
+- [87:36] that initial sorry let me minimize this
+- [87:38] for you guys. ADK new by providing in
+- [87:42] that initial database service it would
+- [87:44] automatically save everything to the
+- [87:45] database. So let's have some fun and see
+- [87:48] what was saved to our database. So when
+- [87:49] you click in the database if you're
+- [87:51] using cursor you should be able to see a
+- [87:53] database viewer just like this. And what
+- [87:55] you can see is it saved all sorts of
+- [87:57] information to session. It saved app
+- [88:00] state, raw events, sessions, and user
+- [88:03] state. So if I open up sessions and
+- [88:06] double click on it, you can see that we
+- [88:08] have a session state between the user AI
+- [88:11] with Brandon. We have a session ID and
+- [88:13] you can see the state of where we left
+- [88:16] off. And if you look in the state right
+- [88:18] now, you can see it includes everything
+- [88:20] that we just added a second ago. So my
+- [88:22] username and the list of reminders,
+- [88:24] which are take out the trash and mow the
+- [88:26] grass. So you can see it's all being
+- [88:27] saved to a database now. And if you want
+- [88:30] as well, you can click inside of events
+- [88:32] and you can see all of the raw events
+- [88:35] that happened inside of your
+- [88:36] application. As you get larger
+- [88:38] applications, it wouldn't just show for
+- [88:40] a specific user, it would show for all
+- [88:42] users. So this is a really nice way to
+- [88:44] see what's happening inside of your
+- [88:45] agentic workflows. And like we talked
+- [88:47] about earlier, there are two different
+- [88:49] types of messages. And in this case,
+- [88:52] there are, you know, agent messages and
+- [88:54] then user messages. If we and we should
+- [88:56] also probably start to see some tool
+- [88:58] calls. Yep. Just like this. So you can
+- [89:00] see some messages like a user request
+- [89:02] from me which is hey please do this. You
+- [89:05] can see that it involves a function call
+- [89:08] which is hey please go save. If we just
+- [89:10] click in it you can see it's calling
+- [89:12] doing a function call to the add
+- [89:16] reminder function and from there it's
+- [89:18] passing in the raw text of what the tool
+- [89:20] needs to do. From there you can see the
+- [89:23] function response included the exact
+- [89:26] response that we wanted. So the function
+- [89:28] response now includes that message we
+- [89:31] said that was very verbose which
+- [89:33] included the raw action. It included the
+- [89:35] renew reminder and a message about the
+- [89:38] action that just occurred. So you can
+- [89:39] see this is all getting saved to a
+- [89:41] database. All around absolutely love it.
+- [89:43] So what we're going to do next is let's
+- [89:45] close out of our database. We're going
+- [89:47] to clear things out and rerun the same
+- [89:49] command. So now when we begin to talk
+- [89:52] with our memory agent again I can say
+- [89:55] hey what are my current reminders. From
+- [89:59] there it's going to access our state per
+- [90:02] usual and it's going to say all right
+- [90:04] Brandon here are your current reminders.
+- [90:06] And at this point it's showing the
+- [90:08] reminders we already had saved to our
+- [90:10] session and which our session was saved
+- [90:12] to a database. So all around, I hope you
+- [90:14] guys are like freaking out and saying
+- [90:16] like, "Oh my gosh, I now understand how
+- [90:18] everything works when it comes to
+- [90:20] session. I understand what runners do. I
+- [90:21] understand how sessions can be saved to
+- [90:23] memory or to a database and kind of see
+- [90:25] how it all clicks together." I know we
+- [90:27] did talk on a few additional topics like
+- [90:29] I didn't really mean to talk about tool
+- [90:31] context, but hopefully it was helpful to
+- [90:32] see how tools can access state so you
+- [90:35] could see how we were altering the state
+- [90:37] as we were starting to make tool calls
+- [90:38] with our agents. So, I know that was a
+- [90:40] little bit of a side quest, but
+- [90:41] hopefully it was super helpful to see.
+- [90:43] And don't worry, as we begin to work
+- [90:45] with callbacks, you're going to see a
+- [90:46] lot more on that. Okay, great. Well,
+- [90:48] give yourself a pat on the back. We are
+- [90:50] halfway done with you mastering ADK. And
+- [90:52] now we're going to move on to our next
+- [90:54] example. So, I'll see you guys in the
+- [90:55] next one. Hey guys, and welcome to
+- [90:57] example number seven where we're going
+- [90:59] to look at our first multi- aent system.
+- [91:01] So excited for this one. And what we're
+- [91:04] going to do is break this up into three
+- [91:05] different parts. First, we're going to
+- [91:07] head over to the whiteboard so you can
+- [91:08] understand how multi- aent systems work
+- [91:11] inside of ADK because it's completely
+- [91:13] different from what you would expect to
+- [91:15] see in Crew AI or Langchain. From there,
+- [91:17] once we understand how things work,
+- [91:19] we're going to look at a simple code
+- [91:20] example of our first multi- aent system.
+- [91:23] And then finally, in part three, we're
+- [91:24] going to run it so you can see
+- [91:25] everything in action. So, let's go ahead
+- [91:26] and head over to the whiteboard so we
+- [91:28] can break down some of the core patterns
+- [91:30] and behaviors of multi- aent and ADK.
+- [91:32] All right, so let's start investigating
+- [91:35] how the heck do multi- aent systems work
+- [91:38] inside of ADK. Now, what I want to do in
+- [91:40] this first example is give you a brief
+- [91:42] overview of an example agent. So, let's
+- [91:46] imagine we have a root agent because you
+- [91:48] always have to have a root agent inside
+- [91:51] of your ADK setups. This root agent is
+- [91:54] usually considered the delegator or the
+- [91:57] manager or usually this agent is
+- [91:59] responsible for delegating work to other
+- [92:01] agents. That's usually the entry point
+- [92:03] to everything inside of your
+- [92:04] application. Now, here is where ADK is
+- [92:07] different than other frameworks compared
+- [92:09] to like Crew AI and link chain. What
+- [92:12] happens inside of ADK is whenever you
+- [92:15] send a request into the framework and
+- [92:19] specifically to your agent, what this
+- [92:20] agent is looking to do is answer the
+- [92:23] query as quickly as possible. So, let me
+- [92:25] give you an example and then walk you
+- [92:26] through why it's different than other
+- [92:28] solutions. So if you pass in a query
+- [92:31] such as, hey, what is the weather today?
+- [92:33] This agent is going to look at the
+- [92:36] description of all of its sub agents and
+- [92:39] figure out which one is the best suited
+- [92:42] to answer the query. Once it knows who
+- [92:45] to pass the work to, the root agent is
+- [92:47] out of the picture. It delegates all the
+- [92:50] responsibilities to this sub agent who
+- [92:52] takes control and handles it from there.
+- [92:55] From there, this weather agent then
+- [92:57] determines based on the query, well, it
+- [92:59] determines, well, what tool calls should
+- [93:02] I make in order to answer the question.
+- [93:04] So then it goes, oh, it looks like you
+- [93:06] want to know the weather today. Well, I
+- [93:08] will look up the weather in Atlanta,
+- [93:10] Georgia. From there, once it gets the
+- [93:11] answer, the weather agent will then
+- [93:13] know, okay, I know the results from the
+- [93:15] tool call. I can now generate a result
+- [93:17] and the weather agent will return the
+- [93:19] final response. Now this is totally
+- [93:21] different than other frameworks like
+- [93:23] Crew AI because in Crew AI what normally
+- [93:26] happens is you have one task and then
+- [93:29] for that task you usually have multiple
+- [93:31] agents trying to work on it. So in crew
+- [93:34] AI you would expect to see something
+- [93:35] like this where you have get weather and
+- [93:39] what you would expect to see is you
+- [93:41] would have multiple agents working on
+- [93:42] it. So you'd have a weather agent, you
+- [93:44] would have a research agent, and then
+- [93:47] you would have someone else and together
+- [93:50] these agents would work together to
+- [93:53] answer the question and collaborate to
+- [93:56] answer it. That is not the case in ADK.
+- [93:58] It is all about delegation and single
+- [94:01] answers. There is no at least not yet.
+- [94:04] We haven't worked on workflows, but at
+- [94:06] at a basic example of working with
+- [94:08] agents, it is all about delegating and
+- [94:10] immediately answering the question. This
+- [94:12] was something that confused me a ton
+- [94:13] when I started out with ADK and I just
+- [94:16] wanted to make sure you guys understand
+- [94:17] this core principle. So key takeaways,
+- [94:20] we focus on delegation inside ADK and
+- [94:23] whoever is the best suited to answer the
+- [94:25] question, they get to work on it and
+- [94:26] they get to generate the result. There's
+- [94:28] no multi-iterating over and over and
+- [94:31] over at the basic examples of ADK. We'll
+- [94:33] get to workflows later on, but just know
+- [94:35] at a basic level there's no no looping
+- [94:37] multiple attempts. Whenever you set up
+- [94:39] your basic multi-agent systems, they
+- [94:41] just answer the question as quickly as
+- [94:42] they can to get you an answer. Okay,
+- [94:44] cool. Now, we need to look at some of
+- [94:46] the core limitations of working with
+- [94:48] ADK. So, whenever you create agents,
+- [94:52] sometimes you want to use all the cool
+- [94:54] new built-in tools that ADK creates for
+- [94:57] you. However, when you look at the
+- [94:59] documentation for working with these
+- [95:01] agents, it specifically says that, hey,
+- [95:04] you cannot use built-in tools within a
+- [95:06] sub agent. This tripped me up because I
+- [95:08] was like, why doesn't this work? Why
+- [95:09] doesn't this work? Well, don't worry. It
+- [95:11] is because you cannot use built-in tools
+- [95:14] with sub agents. So, for example, this
+- [95:16] would break if you had a root agent who
+- [95:19] was just a general researcher agent who
+- [95:22] was responsible for delegating out to uh
+- [95:24] sorry, it was a manager agent who's
+- [95:26] responsible for delegating out work. If
+- [95:28] you had a random request of like, hey,
+- [95:30] what's going on in the news today? Well,
+- [95:32] this would fall under the search agent
+- [95:34] and this search agent would try to call
+- [95:36] the built-in Google search tool. This
+- [95:38] would break. You're going to get a huge
+- [95:40] error saying you can't do this and it's
+- [95:41] not the most clear error and you it's up
+- [95:44] to you to know that this limitation
+- [95:46] exists. Now, there is a workaround to
+- [95:48] get this to work and let me steal the
+- [95:50] ball over here and walk you through it.
+- [95:53] So, there is a workaround. If you did
+- [95:55] want to look up a generic search request
+- [95:56] of like, hey, what is going on in the
+- [95:59] news today? What you can do is use the
+- [96:02] command agent as tool. And what this
+- [96:05] will do is it will treat your agents as
+- [96:07] a tool call. So this is the only way to
+- [96:10] work around it to use if you wanted to
+- [96:12] use tools like Google search in a sub
+- [96:14] agent, you have to use this agent as
+- [96:16] tool. Don't worry, you're going to see
+- [96:17] this in the code in just just a second.
+- [96:20] But just know whenever you do this
+- [96:21] setup, what happens is the root agent
+- [96:23] goes, "Oh, okay. Well, what I'll do
+- [96:26] because I want to look up the weather is
+- [96:28] I will or look up what's happening in
+- [96:30] the news. I will call this pathway like
+- [96:34] a normal tool where I pass in parameters
+- [96:36] and everything else to get an answer and
+- [96:38] then this will work. But this is just a
+- [96:40] weird workaround. If you want to use any
+- [96:41] built-in tools like Google search, if
+- [96:43] you want to use the vector search AI or
+- [96:45] the code execution tool built in from
+- [96:47] Google, this is the path you have to do.
+- [96:49] Now, I did mention a while ago that hey,
+- [96:52] there are a few different workarounds.
+- [96:54] So if you don't want the behavior of the
+- [96:56] agents, you know, just doing a single
+- [96:58] shot where they're delegating the work
+- [97:00] to let the other agents handle all the
+- [97:02] requests, what you can do is work with
+- [97:05] these different types of workflow agents
+- [97:07] that we're going to cover in examples
+- [97:09] 10, 11, and 12 where we focus on
+- [97:11] parallel. I got to spell correctly for
+- [97:13] this to work. Parallel agents,
+- [97:15] sequential agents, and loop agents. This
+- [97:17] is where we can start to have agents
+- [97:18] take multiple attempts at solving
+- [97:20] answer. And don't worry, we're going to
+- [97:21] look at these at the very end. So, I
+- [97:23] just want to clear up a few different
+- [97:24] things because multi- aent systems in
+- [97:26] ADK are different than anything else
+- [97:28] you've ever seen. But I want to go ahead
+- [97:30] and walk you through the core lessons
+- [97:32] which were everything gets delegated.
+- [97:34] You cannot use built-in tools and sub
+- [97:36] aents. If you do want to, you need to
+- [97:39] use the agent as tool wrapper. All
+- [97:41] right, now you've seen all the highlevel
+- [97:43] lessons. Let's dive into the code so you
+- [97:45] can see everything in action. See you in
+- [97:47] just a second. Okay, so now it's time
+- [97:49] for us to look at the code for our first
+- [97:51] multi- aent system. We're getting
+- [97:54] advanced, guys. We've gone from a single
+- [97:55] to multiple. So, here is a brief
+- [97:58] overview before we dive in of everything
+- [98:00] that's going on. So, first things first,
+- [98:02] we are creating a new agent just like we
+- [98:04] have this whole time. The name needs to
+- [98:06] match our folder name because we are
+- [98:08] right now in example number seven. From
+- [98:10] there, we're going to give it a model
+- [98:11] just like we normally do. And then we
+- [98:14] are going to give our agent
+- [98:15] instructions. So we're going to say hey
+- [98:18] you are a manager agent just to be very
+- [98:20] clear that your job is to delegate and
+- [98:23] you always want to delegate the task to
+- [98:25] the appropriate agent. Here are the
+- [98:28] different basically task you are allowed
+- [98:30] to delegate to other agents. So we're
+- [98:32] saying you have two agents. The stock
+- [98:34] analysis agent and then a funny nerd
+- [98:37] agent who tells this joke. And then to
+- [98:38] help give you guys some additional
+- [98:40] examples we're also providing this
+- [98:42] manager agent some tools. So, if these
+- [98:45] agents can't handle it, we're going to
+- [98:47] pass it along to these tools. Now, here
+- [98:50] are the big changes that you're going to
+- [98:52] notice inside of multi-agent solutions.
+- [98:55] So, the first one is we now have a sub
+- [98:57] agent property, which is a list, and we
+- [99:00] can pass in additional agents in here.
+- [99:03] And as you remember from the whiteboard
+- [99:05] session, anytime we answer a question,
+- [99:08] if one of these agents is fit best to do
+- [99:10] the task, we pass the task over to these
+- [99:13] agents and they handle managing the
+- [99:15] response and doing all the work. Now,
+- [99:17] how do we actually get these agents
+- [99:19] inside of our main root agent? Well,
+- [99:21] super easy. What we do is we import
+- [99:24] these agents from our sub agent folder.
+- [99:27] So, inside our sub aent folder, this is
+- [99:30] where we have pretty much everything
+- [99:31] that you would expect to see. We have
+- [99:33] our funny nerd and we have our stock
+- [99:35] analyst and we have our news analyst.
+- [99:37] More on the news analyst in a second
+- [99:39] when we start to talk about agent tools.
+- [99:41] But what you'll notice is inside of each
+- [99:43] of these sub agents, it's the exact same
+- [99:46] folder structure that you've seen for
+- [99:47] everything so far where you have a
+- [99:49] folder. In the folder, you have an
+- [99:51] agent. That agent needs to have a name
+- [99:54] that matches the name here. So, rinse
+- [99:56] and repeat. Same thing you guys have
+- [99:58] been doing this whole time. Now, what we
+- [100:00] can do is look at how do you import
+- [100:02] these? Well, up top in the root of your
+- [100:05] root agent folder, you'll just import
+- [100:07] from the sub agent folder, call out the
+- [100:10] package right here. So, this is the
+- [100:11] funny nerd package and we want to grab
+- [100:13] the agent folder. Once we grab the the
+- [100:16] agent file, sorry, what we want to do is
+- [100:18] inside the agent file, we want to import
+- [100:20] the funny nerd agent. So, that's exactly
+- [100:23] why these imports look just like they
+- [100:25] do. Okay. Now, what we're going to do,
+- [100:28] just so we're on the same page, I'm
+- [100:29] going to give you a brief overview of
+- [100:31] each one of these agents and then we're
+- [100:33] going to dive into the tools so you can
+- [100:35] see how this agent as tool functionality
+- [100:38] works as well. So, let's first go look
+- [100:39] at our stock agent. Super
+- [100:41] straightforward agent. The important
+- [100:43] thing to note here is when it comes to
+- [100:45] multi- aent systems, in order for the
+- [100:48] root agent to know what each of its sub
+- [100:51] agents can do is it looks at the
+- [100:53] description. This description decides
+- [100:56] and tells the parent agent, hey, here's
+- [100:58] what I can do and here's how I can help.
+- [101:00] So, if anyone asks a question around
+- [101:02] looking up stock prices or looking at
+- [101:04] them over time, I can do that. That is
+- [101:06] my core functionality and I can help
+- [101:07] with it. And then this agent is has a
+- [101:10] singular function where all it does is
+- [101:12] it gets a stock price for a current
+- [101:14] ticker. So, it just gets the yeah gets
+- [101:16] current stock price. The other agent
+- [101:18] that we have is our funny nerd. our
+- [101:20] funny nerd. Once again, same model, same
+- [101:23] name as the parent. And what it does is
+- [101:26] it says this agent tells funny nerdy
+- [101:29] jokes. So anytime we want a joke, this
+- [101:30] model will get picked. And from there,
+- [101:33] the final thing that we're going to do
+- [101:34] is now that you've seen these agents in
+- [101:36] action, let's quickly look at our news
+- [101:39] agent because this agent does it breaks
+- [101:42] one of our rules because this agent
+- [101:45] imports one of the built-in tools from
+- [101:47] ADK. And because this agent imports
+- [101:50] Google search, we can no longer call
+- [101:54] this agent as a sub agent. For example,
+- [101:56] if we did this, this would break. I'll
+- [101:58] show it to you that it does break in a
+- [101:59] little bit in case you do run into the
+- [102:00] same error. But the important thing is
+- [102:02] we have to wrap it as agent tool. Now,
+- [102:04] why do we have to do this and what's the
+- [102:06] difference when we do this? Well, if you
+- [102:07] head over to the core docs inside of
+- [102:10] what agent development has and you look
+- [102:12] at the key differences of working with
+- [102:14] sub aents, here's what's happening.
+- [102:16] Whenever you do agent as a tool,
+- [102:18] whenever the parent agent calls the
+- [102:21] child agent as a tool, basically what
+- [102:23] happens is the result from agent of the
+- [102:25] child agent gets passed back to the
+- [102:28] parent agent and then the parent agent
+- [102:30] uses that answer to generate a response.
+- [102:34] So basically the child gets called. This
+- [102:36] child agent which is agent A in this
+- [102:38] case does all the work calls all its
+- [102:40] tools in our case the built-in tool and
+- [102:42] then it returns the answer back to the
+- [102:43] parent and then the parent uses that to
+- [102:45] respond. Whereas with sub agents, it
+- [102:47] does exactly like we said earlier, which
+- [102:49] is when a parent agent delegates to a
+- [102:51] sub agent, the responsibility of
+- [102:53] answering is completely transferred to
+- [102:55] the child agent where agent A is out of
+- [102:57] the loop going forward. So that is going
+- [103:00] back to the key principle earlier of
+- [103:01] everything gets delegated in multi- aent
+- [103:03] systems. All right. So, now that you've
+- [103:05] kind of seen this in action, what is
+- [103:07] this news analyst or or sorry, you
+- [103:09] already saw the news analyst and the way
+- [103:11] we use this news analyst to not break is
+- [103:13] we wrap it inside of agent tool and you
+- [103:16] can import agent tool just like this.
+- [103:19] So, this is how you do it. Google ADK
+- [103:21] tools agent tool and we want to put
+- [103:23] agent tool and that's how you wrap your
+- [103:24] agents to make them tools. Pretty
+- [103:26] straightforward. Okay. So, now that
+- [103:28] you've seen this at a high level, what I
+- [103:29] would like to do is start to run the
+- [103:32] code. and you're going to see how it
+- [103:34] works at a high level. We're going to
+- [103:35] look at events state, how it all gets
+- [103:37] updated. And then finally, what we're
+- [103:39] going to do afterwards is I'm going to
+- [103:40] break the program where I'm going to not
+- [103:43] wrap this inside agent tool just so you
+- [103:45] can see the type of errors you would get
+- [103:46] in case you ever accidentally make this
+- [103:48] mistake yourself. So, what are we going
+- [103:49] to do? We are going to make sure we
+- [103:52] first off are in the right folder,
+- [103:54] multi- aent, and we've activated our
+- [103:56] virtual environment. Now, we're going to
+- [103:57] run it. Once we run it, it's going to
+- [104:00] spin up our web interface that we've
+- [104:01] seen a thousand times that looks just
+- [104:04] like this. And now what we can do is
+- [104:06] start to interface with our agents. So
+- [104:08] up in the top, let's actually make this
+- [104:09] a little bit bigger for you guys. So
+- [104:12] even a little bit bigger. Great. So what
+- [104:14] you'll notice is there's only one agent
+- [104:16] because our we only have one root agent.
+- [104:18] So now what we can do is say, please
+- [104:21] tell me a funny joke. And what we would
+- [104:24] expect to happen is the root agent would
+- [104:27] transfer over to the joke agent and the
+- [104:31] joke agent would then generate the
+- [104:33] response. So here we can actually look
+- [104:35] at the series of events that triggered
+- [104:37] this. So transfer to agent, we can start
+- [104:39] to see a little bit of an overview.
+- [104:41] Yeah, it's just starting to get a little
+- [104:42] bit bigger. So you what you can see is
+- [104:44] the manager agent goes, okay, I have
+- [104:47] these different agents and tools at my
+- [104:50] disposal. Now I've been asked to
+- [104:52] generate a funny joke. So we are going
+- [104:55] to now do it make a function call to
+- [104:58] pass over this query to the funny nerd
+- [105:00] and we are going to transfer over to
+- [105:02] this agent. So if we go over to the next
+- [105:05] event we should start to see that the
+- [105:08] yeah sorry if we go over to the next
+- [105:09] event you should start to see that the
+- [105:10] funny nerd is now responsible for
+- [105:13] handling this request. And you can see
+- [105:15] that the funny nerd is like the code
+- [105:18] told it to do is ask what it would like
+- [105:20] to to generate a joke around. So if you
+- [105:22] per usual go and look at the what the
+- [105:25] code is, it put together the prompt and
+- [105:27] basically well I'm not going to go too
+- [105:28] deep into that. That's too beginner for
+- [105:30] you guys. But the important thing now is
+- [105:33] you can say all right what would you
+- [105:34] like a joke about? Would you want to
+- [105:35] hear about Python, JavaScript, whatever
+- [105:37] you'd like. So we'll say we'll do a joke
+- [105:38] on Python. And then now what we should
+- [105:40] see is we have quite a few more events.
+- [105:43] So if we start to look at them, you can
+- [105:45] see now that we've asked to get a
+- [105:46] specific joke for a specific tool. It's
+- [105:49] going to call the get nerd joke for the
+- [105:52] topic Python. And now it's going to
+- [105:54] return a nerdy joke around Python. So
+- [105:57] yeah, that's exactly what it did. Okay,
+- [105:59] cool. Well, what other tools do we have
+- [106:01] access to? So let's quickly look really
+- [106:03] quick and see. All right, the other one
+- [106:05] we could do is stocks. So tell me the
+- [106:08] current stock price of Microsoft because
+- [106:12] it shot up
+- [106:13] today. Now what this is going to go do
+- [106:16] is oh see so now we are still currently
+- [106:19] in the funny nerd joke. So what we could
+- [106:22] do is we would normally want to so now
+- [106:25] that we've been delegated from the root
+- [106:27] manager to the funny nerd we are now
+- [106:30] stuck with the funny nerd. So usually
+- [106:32] you can sometimes get delegated out of
+- [106:34] this. So what we can do is mention the
+- [106:36] word delegate. So
+- [106:38] delegate gate to the root agent then
+- [106:43] tell me the current stock price of
+- [106:45] Microsoft. Sometimes this will work.
+- [106:47] Yeah. So if you're already in an agent
+- [106:49] that is like a funny nerd, it doesn't
+- [106:51] always do the best job of delegating. So
+- [106:54] sometimes you have to mention, hey, you
+- [106:55] need to refer me to another agent. Now
+- [106:58] what we can do is you can now see that
+- [106:59] we were transferred from the funny nerd
+- [107:02] back to the manager and once we were in
+- [107:05] the manager we eventually get
+- [107:07] transferred over to the stock analyst.
+- [107:09] So what you can see now is the stock
+- [107:11] analyst called the proper tool and the
+- [107:13] tool returned the current price of
+- [107:15] Microsoft which is as of today $424.
+- [107:19] This was a weird quirk. This probably
+- [107:22] has happened to me one out of 10 times.
+- [107:24] Normally if an agent is over its TED it
+- [107:27] just automatically does this rerouting
+- [107:29] for you. So that's probably something
+- [107:31] that we should have updated the prompt
+- [107:33] to say like hey if you get a request
+- [107:36] that you are not comfortable answering
+- [107:38] delegate back to the parent. So that was
+- [107:40] just a weak prompting on my part. Now
+- [107:42] what we can do so you can just see a few
+- [107:44] other things. Let's just say what is the
+- [107:48] news for today. And what this should do
+- [107:51] is yeah, so we need to say delegate
+- [107:54] again. So yeah, I just should have
+- [107:55] improved the prompting to say if you
+- [107:57] can't handle the request, delegate to
+- [107:58] the manager. Delegate to the manager,
+- [108:02] then tell me the news. Now, this will,
+- [108:05] per usual, transfer transfer. And now
+- [108:07] we're going to go over to the news
+- [108:08] analyst. The news analyst is going to
+- [108:10] use the Google search tool to find it
+- [108:12] and then give me a summary of today.
+- [108:14] Okay, great. So, you've now seen how we
+- [108:16] can start to work in multi- aent
+- [108:18] systems. Now, what I want to do is break
+- [108:20] things because that is fun. So, let's
+- [108:22] what we can do is get the news analyst
+- [108:25] out of here. We're going to move the
+- [108:27] news analyst here just so you can see
+- [108:29] what the error would be. So, if we
+- [108:31] respin up our server, what you'll notice
+- [108:34] now whenever I go to type into our
+- [108:36] editor. So, if I do I'll just show you.
+- [108:39] So, I can say get the current time. So I
+- [108:42] can show you it still works unless we
+- [108:44] call the the bad agent. So get the
+- [108:46] current time. So this will get the
+- [108:48] current time call the tool. Everything
+- [108:50] looks great. But if I now say please
+- [108:52] look up the current news for today, this
+- [108:58] will break and it'll say, "Oops, this
+- [109:00] tool is being used with function calling
+- [109:03] that's unsupported." Which is a bad way
+- [109:05] of saying, "Hey, you're being silly.
+- [109:08] you're trying to call a tool that you're
+- [109:11] not allowed to. So, you're trying to use
+- [109:13] an agent that is not that is supposed to
+- [109:15] be wrapped in agent as tool. So, I just
+- [109:17] wanted to show you guys that because
+- [109:19] that when that broke the first time for
+- [109:20] me, I was like, what's going wrong? So,
+- [109:21] I just wanted you guys to see the error.
+- [109:23] And then quick other thing I did want to
+- [109:25] mention so you guys can see what I was
+- [109:27] talking about earlier. What we should
+- [109:29] have said over in our other prompts to
+- [109:31] say like if the user asks about anything
+- [109:36] else, what you should say is you
+- [109:39] should
+- [109:41] delegate get the task to the manager
+- [109:44] agent. So if we just run it again just
+- [109:46] to show you guys all this. This is a
+- [109:48] little bit of live debugging so you get
+- [109:49] to see behind the scenes a little bit.
+- [109:51] So what happens now is we'll ask to get
+- [109:53] a funny joke and then we'll ask to get
+- [109:55] the news just so you can see that it
+- [109:57] does delegate properly. So we have to be
+- [109:59] hyper specific with these agents because
+- [110:01] they don't they only act on what
+- [110:03] information we give them. Great. So it's
+- [110:04] up and running again. So now we can say
+- [110:07] tell me a funny joke. Now this will go
+- [110:11] find a funny joke. We've been
+- [110:13] transferred over to the proper agent now
+- [110:16] which is going to be yeah the funny
+- [110:17] agent. Yeah. So now we're talking with
+- [110:19] the funny nerd. And now we can say
+- [110:21] actually get me the current news for
+- [110:26] today. And then now it should delegate
+- [110:29] us properly over to the proper agent.
+- [110:31] Great. So now we're getting delegated.
+- [110:33] We're transferred over to the the funny.
+- [110:36] Yeah, sorry. It's it's struggling to
+- [110:39] Yeah, it's ending up in a awkward loop.
+- [110:41] So we can actually kill it and sometimes
+- [110:44] Yes. So it's like stuck in a loop right
+- [110:46] now going back and forth. So yeah. So
+- [110:47] sometime sometimes it is not the most
+- [110:49] reliable on delegating. So what we can
+- [110:52] do because it's it's actually struggling
+- [110:54] really hard. No joke anymore. Just give
+- [110:59] me the
+- [111:00] news for
+- [111:02] today. Great. So you can see now it's
+- [111:05] transferring. Yeah. So it was just
+- [111:06] because it was in a weird state between
+- [111:08] the two, but now we're properly getting
+- [111:09] delegated to the news and now it's
+- [111:11] there. So, long story short, what we
+- [111:13] could have done is just been more
+- [111:15] instructive inside of our agent in
+- [111:17] descriptions and just said, "Hey, only
+- [111:19] answer questions. If anything ever goes
+- [111:21] wrong that you can't help, always just
+- [111:22] delegate back to the root agent." And
+- [111:24] that would have solved the problem. So,
+- [111:25] hopefully you guys got to see some of
+- [111:27] the cool parts of multi- aents. You got
+- [111:29] to see the limitations of why we have to
+- [111:32] use agent tool calls. You saw how we
+- [111:34] could improve our agent descriptions in
+- [111:37] case anything goes wrong to say delegate
+- [111:39] to the manager agent to help with
+- [111:40] delegation processes and you got to see
+- [111:42] a little bit of debugging along the way.
+- [111:44] So, what we're going to move on next is
+- [111:46] we're going to hop over to working with
+- [111:48] our multi- aent solution, but we're
+- [111:49] going to now start working with shared
+- [111:51] state that we are going to share between
+- [111:53] our agents just so you can see that in
+- [111:54] action. So, let's hop over to example
+- [111:56] number eight. And if you have any
+- [111:58] questions on anything so far, feel free
+- [112:00] drop a comment down below and I will
+- [112:01] happily help out. Thanks, guys. Talk to
+- [112:02] you in the next one. Hey guys, and
+- [112:03] welcome to example number eight where
+- [112:05] we're going to focus on building a
+- [112:07] multi- aent system that starts to
+- [112:09] interact with state. And so excited for
+- [112:11] you guys to see this one because this is
+- [112:12] where we start to add in some additional
+- [112:14] complexity and really start to allow our
+- [112:16] agents to solve complex problems. And
+- [112:18] I'm so pumped for you guys to see this
+- [112:20] agent workflow in action because we're
+- [112:22] going to be building a customer service
+- [112:24] agent that has multiple sub agents that
+- [112:27] basically allow us to handle all
+- [112:29] customer support for a course. That's
+- [112:31] basically the demo that we're going to
+- [112:33] be focusing on. So, let's break down the
+- [112:35] three different parts of this example.
+- [112:37] First things first, we're going to head
+- [112:38] over to our whiteboard where we're going
+- [112:40] to break down how all these agents work
+- [112:42] together in order to handle all parts of
+- [112:44] customer service for a course that we're
+- [112:46] selling. From there, after we understand
+- [112:48] the high level of what's going on, we're
+- [112:49] going to dive into the code so you can
+- [112:51] see exactly how everything works
+- [112:52] together. And then finally, we're going
+- [112:54] to run this agent so you can see it in
+- [112:56] action. So, let's hop over to the
+- [112:57] whiteboard so we understand what's going
+- [112:58] on and how we're going to build a multi-
+- [113:00] aent system to handle our course sales.
+- [113:02] All right, so let's look at the multi-
+- [113:05] aent system that we're building that's
+- [113:07] going to help us with all sorts of
+- [113:08] customer service for a course that we're
+- [113:11] selling. So, at a high level, what we're
+- [113:12] doing is we've created a customer
+- [113:14] service root agent that has four
+- [113:17] different sub agents in that it can work
+- [113:19] with. Now, let's do a quick overview of
+- [113:21] what each one of these agents can do.
+- [113:23] So, first things first is we have a
+- [113:25] policy agent that just gives some
+- [113:27] general information about the policy for
+- [113:29] the AI developer accelerator course that
+- [113:31] we're selling and it can answer all
+- [113:33] sorts of questions, refund questions,
+- [113:35] anything you know related to just
+- [113:37] general questions answering that our
+- [113:38] customers might have. From there,
+- [113:40] anytime someone wants to purchase a
+- [113:42] course, they're going to be directed to
+- [113:43] our sales agent. And the sales agent is
+- [113:46] there to give people a little bit of
+- [113:47] information about what's in the course,
+- [113:49] get them excited about what we're doing.
+- [113:51] And then if they do want the course,
+- [113:53] it's going to allow them to buy it. And
+- [113:55] when they buy it, this is where we're
+- [113:57] going to start to actually start to
+- [113:59] interact with state. So whenever a
+- [114:01] customer does purchase a course, this is
+- [114:04] where we are going to update the state.
+- [114:07] So let's look at what's in state first
+- [114:08] and then we're going to come back to
+- [114:09] purchase course. So at a high level what
+- [114:12] we have inside a state are three
+- [114:13] different keys. So we have username so
+- [114:15] you know who's working and who we're
+- [114:17] talking to. From there we have purchase
+- [114:19] course. So this is where we can see what
+- [114:21] courses the person has already accessed.
+- [114:23] And a purchase course will always appear
+- [114:26] in this structure where we have the
+- [114:28] course ID. So this is going to be like
+- [114:30] oh you've bought course number one or
+- [114:32] course number two. And then also the
+- [114:34] purchase date. The purchase date is
+- [114:36] super important because if the person
+- [114:37] wants a refund, we can will 100% honor
+- [114:40] that if it's been less than 30 days. So,
+- [114:42] let's go back to the purchase course.
+- [114:43] So, if someone does try to purchase a
+- [114:46] course, what we'll do is go, okay,
+- [114:48] great. You want to buy this course?
+- [114:50] Well, what we'll do is it looks like you
+- [114:51] do not have any purchase courses in
+- [114:53] state. So, I will happily buy this for
+- [114:55] you, charge you the the $150, and then
+- [114:58] from there, I will update the state so I
+- [115:00] know in the future if you have any
+- [115:02] questions that you have access to this
+- [115:04] course. If we for whatever reason
+- [115:06] already have access to this course, like
+- [115:08] we bought it in the past, the agent's
+- [115:09] going to go, "Oh, it looks like you
+- [115:11] already own this. You can't buy it
+- [115:12] again." So, just uh we're gonna have
+- [115:14] some nice logic in our prompts to help
+- [115:15] make that happen. Now, from there, what
+- [115:17] we have is our course support agent. Our
+- [115:19] course support agent always looks to see
+- [115:22] which purchase courses we've made so far
+- [115:24] and then it can answer questions about
+- [115:26] them. So, for example, once you buy the
+- [115:28] course, it's going to say, "Okay, I can
+- [115:31] now help you answer any questions about
+- [115:33] any of the modules inside the course."
+- [115:35] We don't want to give away too much
+- [115:36] information about like what's happening
+- [115:38] in every single lesson and module inside
+- [115:41] of the course until people buy it. So,
+- [115:43] that's why this agent checks to see,
+- [115:45] hey, have you bought it? If so, great. I
+- [115:47] can answer any question and help you
+- [115:49] through any problem inside the course.
+- [115:51] So, this is a pretty cool one. And then
+- [115:53] finally, if people do uh want to get a
+- [115:55] refund, they'll be directed over to the
+- [115:57] order agent. And the order agent has one
+- [116:00] job, which is to allow people to get
+- [116:02] refunds on their courses. So, whenever
+- [116:04] someone does want a refund, what'll
+- [116:05] happen is we'll check to see if they
+- [116:07] first own the course. And if they do,
+- [116:09] great. If they uh what we'll do is we
+- [116:12] will refund them, send them their money
+- [116:13] back, and we will drop the purchase
+- [116:15] course from state. So, this is kind of
+- [116:18] how multi-state systems work to where
+- [116:20] just a quick recap of why this is so
+- [116:22] awesome is we're now sharing state
+- [116:25] between all of our different agents and
+- [116:27] depending on the state, these agents
+- [116:29] behave differently. So, quick recap.
+- [116:31] Sales agent will buy the course if it's
+- [116:34] brand new. If they don't already own it,
+- [116:36] if they do own it, we'll say, "Nope, you
+- [116:37] can't buy it again." The course support
+- [116:39] agent is going to go, "Hey, do you have
+- [116:42] access to this agent?" Great. I can
+- [116:44] answer questions. Do you not purchase
+- [116:46] this course already? Great. I will not
+- [116:47] be able to answer those questions yet,
+- [116:49] but if you would like to purchase it,
+- [116:51] great. I'll refer you over to the sales
+- [116:53] agent. And then finally, the order agent
+- [116:55] will say, "Hey, you have access to this
+- [116:57] course. I can refund it to you." Or
+- [116:59] it'll say, "Hey, you don't have access
+- [117:01] to this course. You haven't bought it. I
+- [117:02] cannot give you a refund." Okay, that is
+- [117:04] our first multi- aent system at a high
+- [117:07] level. Hope this kind of makes sense.
+- [117:09] But what we'll do is we're now going to
+- [117:10] dive into the code so you can see how
+- [117:12] each one of these agents is actually
+- [117:14] interfacing with state, making changes
+- [117:17] to state, and you're going to see some
+- [117:18] more prompt engineering to get all of
+- [117:20] these different agents working properly,
+- [117:23] specifically when it comes to using
+- [117:24] tools to manage state. So, let's hop in
+- [117:26] so you can see all of this in action
+- [117:28] inside of our code. All right, so now
+- [117:29] it's time for us to dive into the code
+- [117:31] portion of our multi- aent system. And
+- [117:34] what we're going to do in this second
+- [117:36] part is walk through everything step by
+- [117:38] step because I want to make this as easy
+- [117:40] as follow as possible. So first things
+- [117:42] first, we're going to look at our
+- [117:43] main.py because this is where we have
+- [117:45] all of our core logic for creating our
+- [117:47] sessions, creating our runner and then
+- [117:49] actually handling user queries. And once
+- [117:51] we understand quick recap of all of
+- [117:53] that, we're going to dive into looking
+- [117:55] at the core agents that are running
+- [117:57] everything inside of our application.
+- [117:59] So, we're going to look at our root
+- [118:00] agent and we're going to look at all the
+- [118:02] sub aents with their prompts and tools
+- [118:04] so you can understand how everything is
+- [118:05] working together when it comes to
+- [118:07] answering user queries, updating state
+- [118:09] so that you can master multi- aent
+- [118:11] systems. So, we're going to speed
+- [118:12] through the main.py because a lot of
+- [118:14] this is just a recap from what you've
+- [118:15] seen before and we're going to focus
+- [118:17] most of our time inside of these sub
+- [118:19] aents. So first things first is we are
+- [118:21] going to create an in-memory session
+- [118:23] service like we've done to where we're
+- [118:24] going to save state just locally on our
+- [118:26] computer just for testing purposes.
+- [118:29] We're going to create our initial state
+- [118:31] where we're going to say hey you are
+- [118:32] working with user Brandon Hancock. He
+- [118:35] hasn't purchased any courses yet and he
+- [118:37] hasn't made any conversations yet. We're
+- [118:39] just starting from scratch. From there
+- [118:41] we are going to create a new session
+- [118:43] where we're going to say you are a part
+- [118:45] of the app name customer support and
+- [118:48] this conversation you're working on
+- [118:49] belongs to user ID AI with Brandon and
+- [118:53] we're going to pass in the initial
+- [118:54] state. From there we are going to create
+- [118:57] our runner like we've done multiple
+- [118:58] times in the past where we pass in two
+- [119:00] raw ingredients the agent and then the
+- [119:03] session service. And then once we have
+- [119:06] our runner created, we're now ready to
+- [119:08] start interacting with our users. And
+- [119:10] this is just a simple everything from
+- [119:13] this part onward is basically us
+- [119:15] allowing our users to type in a request
+- [119:17] to us, us capture that request, and then
+- [119:20] send it to our runner. That's pretty
+- [119:21] much everything that's happening here.
+- [119:23] And outside of that, there's just a
+- [119:24] bunch of logs. So most of the code
+- [119:26] you're seeing after this point is just
+- [119:28] adding a ton of logs to show off to our
+- [119:30] final users of what's actually happening
+- [119:32] inside the application. So long story
+- [119:34] short, we're saying great, give me your
+- [119:37] input. I will take in that input and I
+- [119:40] will pass it over to the agent. Once I
+- [119:43] pass it over to the agent, what I'm
+- [119:45] trying to do is just most of this is
+- [119:46] logs. So most of this is not necessary.
+- [119:49] I just wanted to make it super easy for
+- [119:50] you to see everything that's happening
+- [119:52] once we start to run the code. But the
+- [119:54] most important part is right here where
+- [119:56] we're going to go, okay, great. I now
+- [119:59] have the new message you gave me and I'm
+- [120:01] going to basically call run async where
+- [120:04] run async goes all right I now have the
+- [120:07] user I know the session and the new
+- [120:09] message I'm going to pass everything
+- [120:10] over to the agent so that it can
+- [120:12] understand what response it needs to
+- [120:14] generate who the agent needs to delegate
+- [120:16] work to in order to give us a proper
+- [120:18] response from there we're going to
+- [120:20] process the agent response which is
+- [120:23] mostly once again just logging
+- [120:24] statements where we're going okay great
+- [120:26] I know what the agent agent said and I
+- [120:29] like I said 99% of this is just log
+- [120:32] statements because most of the actual
+- [120:34] work is already being handled when you
+- [120:36] called run async. So we're just trying
+- [120:37] to like hey is this the final response?
+- [120:40] Great. I will happily log everything so
+- [120:42] it's easy to view. So I'm going to skip
+- [120:45] through most of this because most of it
+- [120:47] you've already seen in the past. So
+- [120:48] let's actually dive over to looking at
+- [120:50] our core agent which is in the root
+- [120:52] folder of our customer service folder.
+- [120:55] And you can see we have a root customer
+- [120:57] service agent. So let's walk through
+- [120:58] what's going on in this agent and how
+- [121:00] it's delegating work to its sub agent.
+- [121:02] So at a high level we're need to give it
+- [121:04] a description so it understands what
+- [121:06] this agent does. And basically it's just
+- [121:08] the root customer service agent for the
+- [121:10] community I'm building. And from there
+- [121:12] what you can see is it has core
+- [121:14] instructions. And most of the questions
+- [121:17] that this is supposed to help with is to
+- [121:19] help the user with any questions and
+- [121:22] then always direct them over to the
+- [121:24] specialized agent who can handle this
+- [121:26] response. So the core things that you
+- [121:28] should be doing are you know
+- [121:30] understanding what the user asks and
+- [121:32] then route them to this appropriate
+- [121:34] user. And to help the root agent better
+- [121:37] understand what the current state of the
+- [121:39] application is is we are going to pass
+- [121:42] in the three different state values that
+- [121:45] we have where we're going to say hey the
+- [121:47] username is username. Here's all the
+- [121:50] courses they've purchased so far and
+- [121:53] outside of that here are all the core
+- [121:55] events that have happened when working
+- [121:57] with this agent. Now, now that you have
+- [121:59] access to all that information, here's
+- [122:01] how you can access and pass along over
+- [122:04] to the appropriate agents that you have
+- [122:06] access to. So, first things first, you
+- [122:08] have access to the policy agent. And
+- [122:10] here's what the policy agent is good
+- [122:12] for. Mostly just answering questions
+- [122:14] about customer support, course policy,
+- [122:16] and refunds. The sales agent is for
+- [122:19] answering any questions about making
+- [122:21] purchases. And you can see the current
+- [122:23] price of it. Finally, if someone has a
+- [122:25] question about a specific topic within a
+- [122:29] course, you're going to send them to the
+- [122:30] course support agent. And you can only
+- [122:32] do this if the user has purchased the
+- [122:35] course. And what's great is because up
+- [122:38] top, we've already told the agent what
+- [122:40] courses the person has purchased. It's
+- [122:42] obviously going to know, oh yeah, I
+- [122:43] can't even direct a user over to this
+- [122:46] agent if they haven't purchased a
+- [122:47] course. And then finally, what we're
+- [122:49] going to do is if anyone has any
+- [122:51] questions about purchase history or
+- [122:52] refunds, we'll send them over to the
+- [122:54] order agent. So, as you can see, most of
+- [122:56] the instructions at the root level are
+- [122:58] all about delegation and briefly
+- [123:00] explaining what all the underlying
+- [123:02] agents do and when we should call on
+- [123:04] them. So, it's a lot of instruction
+- [123:05] giving. From there, the core part that
+- [123:08] you'll notice is we've just given it
+- [123:09] access to the four sub agents that it
+- [123:11] has access to. So, let's dive through
+- [123:13] each one of these one at a time. So,
+- [123:15] first things first, we're going to look
+- [123:16] at the policy agent. And think of this
+- [123:18] one as almost like a rag agent to where
+- [123:20] it's basically just like, "Hey, you have
+- [123:22] a question? Cool. I'll look at the
+- [123:23] policies we have and generate an
+- [123:24] answer." So, you can see it's just a ton
+- [123:27] of policy questions of like, "No
+- [123:29] self-promotion, here's the behavior you
+- [123:31] need to have, here's some policy on
+- [123:33] refunds, here are access to, you know,
+- [123:36] course access." It's basically just a
+- [123:38] bunch of like general Q&A questions. So,
+- [123:40] this is super helpful. definitely
+- [123:41] recommend you stealing inspiration for
+- [123:42] this as you go off and build your own
+- [123:44] real world agents. Now, let's go look at
+- [123:46] the sales agent because this is where
+- [123:47] things start to get fun where we begin
+- [123:49] to allow agents to update state and
+- [123:52] start to purchase courses. So, the sales
+- [123:55] agent, you know, hey, you are a sales
+- [123:57] agent. Here is all the current
+- [123:59] information about the current user. And
+- [124:01] here is the course that you are trying
+- [124:03] to sell. It is a full stack AI marketing
+- [124:05] course. It's
+- [124:06] $150. Here's what's included in the
+- [124:08] course. And here's what the user will
+- [124:10] learn when interacting with the user.
+- [124:13] You know, please check to see if they
+- [124:15] already own the course. If they do own
+- [124:17] it, remind them they have access to it.
+- [124:19] If they don't have access to the course,
+- [124:21] just briefly explain the value
+- [124:23] proposition of the course and ask them
+- [124:25] if they want to purchase it. Then after
+- [124:27] they have purchased the course, what
+- [124:29] you'll do is track the interaction. So
+- [124:32] we'll update event history and then
+- [124:34] basically be ready to hand off the
+- [124:35] course to support because once they
+- [124:37] purchase the course we need to be able
+- [124:38] to answer questions about it. So that's
+- [124:40] this at a high level. And if the user
+- [124:42] does want to purchase a course here is
+- [124:44] what will happen. So first things first
+- [124:46] is we have to pass in tool context
+- [124:48] because in order for our tool to update
+- [124:51] state we need to pass in tool context.
+- [124:54] And what we can do is first look at to
+- [124:57] see all right what inside of state what
+- [125:01] courses has this user purchased and we
+- [125:04] need to pass in a default value. So in
+- [125:05] case for whatever reason this value in
+- [125:07] state is blank. You always want to have
+- [125:09] a fallback value. So this could if if we
+- [125:12] were working with something else this
+- [125:13] could be a blank like no courses but in
+- [125:16] our case we're we're storing all of our
+- [125:18] courses in a list. So that's why we're
+- [125:20] putting it in a list. From there, what
+- [125:21] we're doing is some simple Python logic
+- [125:23] to say, okay, I would like to iterate
+- [125:25] through all of the different courses
+- [125:28] that the user has purchased to check to
+- [125:30] see if the course ID basically I'm just
+- [125:33] trying to get all the course IDs. And
+- [125:35] then from there, what I'm trying to
+- [125:36] check to see is like, okay, has the user
+- [125:39] purchased this course ID? So, we're
+- [125:40] saying if this course ID is in the list
+- [125:44] of course IDs we have, what we're going
+- [125:46] to do is say, hey, you already own this
+- [125:48] course. You can't buy it again. So
+- [125:50] that's what that logic says. Then what
+- [125:52] we're trying to do next is we're going
+- [125:54] to go great. So we've made it this far.
+- [125:56] We know they don't have access to the
+- [125:57] course. So now what we're going to do is
+- [125:59] purchase the course. So what we're going
+- [126:01] to do is we're making a new list where
+- [126:04] we're going to iterate through all their
+- [126:05] existing courses and continually add the
+- [126:08] existing courses to the list. And then
+- [126:11] finally, what we're going to do is add
+- [126:12] the new course we've just purchased for
+- [126:14] them to the list. And then once we have
+- [126:17] the new state up and ready, we're going
+- [126:19] to save it to the state that's shared
+- [126:21] amongst all the agents. So quick recap,
+- [126:24] what we're doing in this logic right
+- [126:26] here is saying, great, I'm updating your
+- [126:30] list of courses you own with a new one.
+- [126:32] And once we have the proper updated list
+- [126:35] of all the courses you've bought, we're
+- [126:37] then going to save the updated list to
+- [126:40] state. That's all we're doing right
+- [126:41] here. And we're also going to update
+- [126:43] your interaction history to say, hey,
+- [126:46] you purchased this course at this
+- [126:48] timestamp so that we have a history of
+- [126:51] all key events when working with this
+- [126:54] agent and specifically so that when
+- [126:56] other agents are looking at what's
+- [126:57] happened so far, they can easily look at
+- [126:59] the interaction history. All right.
+- [127:01] Finally, from there, we are going to
+- [127:02] follow tool best practices where we are
+- [127:05] going to update and return state. So
+- [127:08] state instead of just saying, "Hey,
+- [127:10] true, we purchased it." No, we follow
+- [127:12] best practices where we give status, we
+- [127:14] give a message, and we properly say,
+- [127:16] "Here's what you bought in at this time
+- [127:18] stamp." So that was a little bit of a
+- [127:19] deep dive, but hopefully you got to see
+- [127:21] a lot of the core principles of how
+- [127:22] we're passing in state dynamically, how
+- [127:24] we are following best practices and
+- [127:27] allowing our tools to access state
+- [127:30] through tool context, and how we are
+- [127:32] reading from state. And then from there,
+- [127:35] you're seeing how we are saving back to
+- [127:38] state. So you're seeing, you know,
+- [127:39] you're becoming a master of all the core
+- [127:41] components of working with multi- aent
+- [127:43] systems and following best practices
+- [127:45] with tool calls. Okay, we are almost
+- [127:47] done reviewing this. So let's look at
+- [127:49] the core support agent and we'll speed
+- [127:51] through these cuz the rest of these are
+- [127:52] pretty much just instruction heavy. So
+- [127:54] at this point, per usual, we're passing
+- [127:56] in state into this agent so it knows
+- [127:59] exactly what's going on. And then based
+- [128:01] on what courses the person has
+- [128:03] purchased, we then can answer questions
+- [128:07] appropriately. So if the user owns the
+- [128:09] course, great. What we'll do is help
+- [128:12] them with the course. Cuz if they own
+- [128:14] it, we can answer questions about it. If
+- [128:15] they don't own the course, we're going
+- [128:17] to direct them over to the sales agent.
+- [128:18] So the sales agent can say, "Hey, you
+- [128:20] don't own this, but it looks like you're
+- [128:21] interested in it. I'd be happy to answer
+- [128:23] questions. you just got to buy it first.
+- [128:25] So then what I do is then just give a
+- [128:27] ton of information about the course. So
+- [128:29] I say, "Hey, in section one, here's what
+- [128:30] you learn. In section two, here's what
+- [128:32] you learn." And I just keep going
+- [128:33] throughout the rest of the course so
+- [128:35] that there's some highle overview of
+- [128:37] what's being included in the course.
+- [128:39] Finally, the last agent is the order
+- [128:41] agent. And the whole purpose of the
+- [128:43] order agent is to allow persons to ask
+- [128:46] questions about the purchase history and
+- [128:47] process refunds. So what we're doing is
+- [128:50] giving all the state per usual.
+- [128:52] Hopefully, you're starting to see the
+- [128:53] core principles seeing used over and
+- [128:55] over and over again. And then what we're
+- [128:57] trying to do here is just say, "Hey, if
+- [128:58] they ask about the purchases, just let
+- [129:00] them know what they've purchased. If
+- [129:02] they want to refund, what you need to
+- [129:04] do, verify that they own it, and then
+- [129:06] from there, if they do own it, give them
+- [129:08] a refund if it's been under 30 days. So,
+- [129:10] yeah, that's pretty much all we're doing
+- [129:12] inside of our agents. And if they do get
+- [129:16] a refund and things go through
+- [129:17] successfully, what we're trying to do,
+- [129:19] per usual, the exact same thing what we
+- [129:21] did with the order call a second ago,
+- [129:23] the order tool call, but now we're just
+- [129:25] undoing it. So undoing it follows the
+- [129:27] exact same process at a high level. You
+- [129:30] get state, you check just to confirm to
+- [129:32] make sure they own it. If they do own
+- [129:34] it, what we're going to do is remove the
+- [129:37] course from the list. Once we've removed
+- [129:39] the course from the purchased course
+- [129:42] list, we're going to update state. We're
+- [129:44] going to update our interaction history
+- [129:46] to say great, it looks like we did get a
+- [129:50] refund. So that's what we're updating
+- [129:51] our interaction history with, saying
+- [129:53] they refunded the course at this time.
+- [129:55] And we're saving it back to state. And
+- [129:57] then we're returning the tool call to
+- [129:59] say, yep, this was a success. They
+- [130:01] refunded the course and here's some
+- [130:03] additional information. Okay, so you now
+- [130:05] got to see all the core parts of this in
+- [130:07] action. So what we're going to do is now
+- [130:09] that you've gone through and seen
+- [130:10] everything, understand part by part from
+- [130:13] prompts to tool calls to tools updating
+- [130:15] state. So what we're going to see now is
+- [130:17] we're going to go off and run this so
+- [130:19] you can see exactly how all of these
+- [130:22] works together. So let's kick everything
+- [130:23] off and start running the demo. All
+- [130:25] right, so now let's dive into the fun
+- [130:26] stuff where we're going to run our
+- [130:28] agents. And as a quick reminder, you
+- [130:30] need to be in folder number eight so you
+- [130:32] can run this example and you need to
+- [130:34] have your virtual environment activated.
+- [130:36] Once you've done both of those, we can
+- [130:37] run everything. So, type in Python
+- [130:39] main.py and this will create your
+- [130:41] session. It'll get everything set up and
+- [130:43] ready to run. So, we can now say, "Hey,
+- [130:46] what courses do you have for sale?" Now,
+- [130:50] what this will do is spit out a ton of
+- [130:52] logs so you can see everything that's
+- [130:53] happening. So, you can see we always
+- [130:55] have a before state and an after state
+- [130:57] so you can see exactly what's happening.
+- [131:00] And right here in the blue in the
+- [131:02] middle, you can see the agent response.
+- [131:04] So you can see it goes okay great I have
+- [131:06] a course available it's priced at this
+- [131:08] amount of money and you can see that the
+- [131:10] customer service agent gave us this
+- [131:11] response so we can say yes I would like
+- [131:14] to purchase that
+- [131:17] purchase that course from there what
+- [131:20] will happen is we will be sent over to
+- [131:22] the sales agent who's responsible for
+- [131:24] closing the sale and we goes great I can
+- [131:26] help with that here's the course it's a
+- [131:27] sixe program the price is this would you
+- [131:29] like to proceed with the purchase yes
+- [131:32] please purchase
+- [131:34] the course. From there, what will happen
+- [131:37] is you can start to see we make some
+- [131:38] state changes. So, before saying I'd
+- [131:41] like to buy the course, we didn't have
+- [131:43] access to it. Afterwards, though, you
+- [131:44] can see the agent said, great, you
+- [131:46] successfully bought it. You're enrolled.
+- [131:48] Would you like to start learning? And
+- [131:49] you can see that our state after running
+- [131:52] this request now has the course. So,
+- [131:54] awesome. We now have our agents managing
+- [131:56] our state through tools. Really cool. So
+- [132:00] now we can say yes, what are all the
+- [132:03] modules inside of the program? From
+- [132:06] there, what will happen is we should be
+- [132:08] directed over to the course support
+- [132:10] agent. Yep. Course support agent. And
+- [132:13] the agent will say, "Okay, yep. Because
+- [132:15] you have access to all of the because
+- [132:18] you've purchased this course, I can give
+- [132:19] you answers now. You bought it on this
+- [132:21] date and here are all the different
+- [132:23] modules. Do you have any questions about
+- [132:24] anything in particular?" And we could
+- [132:26] dive in. But in our case, we're going to
+- [132:27] say, "No, I'm good. I don't want the
+- [132:32] course any more. Give me a full refund."
+- [132:36] And what this should do is move us over
+- [132:39] to our support agent. So, what you can
+- [132:42] see here is our before state shows that
+- [132:45] we have access to the course. Then, we
+- [132:48] should get delegated over to the proper
+- [132:50] agent. In our case, it's going to be the
+- [132:52] order agent. and it'll go great I have
+- [132:55] refunded your course completely the
+- [132:58] money will be sent back to your account
+- [132:59] in three to five days and you've been
+- [133:01] remove the course has been removed from
+- [133:02] your account and what's awesome is you
+- [133:04] can now see our course has been removed
+- [133:06] from state so our order agent properly
+- [133:08] removed the course so yeah so this was a
+- [133:10] quick overview guys of showing you how
+- [133:12] multi- aent systems can work together
+- [133:14] and they can be more intelligent by
+- [133:16] sharing state because when they share
+- [133:17] state they can know exactly what you
+- [133:19] have access to don't have access to and
+- [133:21] respond appropriately so hopefully You
+- [133:23] guys found this example super helpful
+- [133:25] and now it's time for us to move over to
+- [133:26] example number nine where we're going to
+- [133:28] dive into callbacks so you can learn how
+- [133:30] we can manage all sorts of interactions
+- [133:33] between agents and LLN and have full
+- [133:35] control over our agent workflows. So
+- [133:36] let's hop over to example number nine.
+- [133:38] Hey guys and welcome to example number
+- [133:40] nine where you're going to learn about
+- [133:41] the six different types of callbacks
+- [133:43] that you can add to your agent workflows
+- [133:45] to help you control every part of your
+- [133:47] agentic systems. And there are six
+- [133:50] different types of callbacks that we're
+- [133:51] going to cover here throughout this
+- [133:53] example. So the before and after agent
+- [133:55] call back, the before and after model
+- [133:58] call back, and the before and after tool
+- [134:00] call back. So what we're going to do in
+- [134:02] this example is first head over to the
+- [134:04] doc so you can see what each one of
+- [134:06] these different types of callbacks do
+- [134:07] and some of the best practices. And then
+- [134:09] from there, we're going to quickly cover
+- [134:11] each of these different examples I
+- [134:12] prepared for you guys and run them. So
+- [134:14] this one's going to be a little bit more
+- [134:15] interactive than the other examples. So
+- [134:16] let's go ahead and hop over to the docs.
+- [134:18] you can understand everything you need
+- [134:19] to know about callbacks. All right, so
+- [134:21] the first thing I want to show you guys
+- [134:22] is this highle overview of when each of
+- [134:25] the callbacks gets triggered inside of
+- [134:27] ADK. So the first two callbacks that
+- [134:30] you're going to see in use are going to
+- [134:31] be the before and after agent call back.
+- [134:34] These are going to be before any logic
+- [134:37] happens inside of your AI solution. So
+- [134:39] this is right when things get kicked
+- [134:41] off. What do you want to do? And then
+- [134:43] once everything is done being processed
+- [134:45] with your agent, what do you want to do
+- [134:47] with the information that you now have?
+- [134:49] So that's the before and after callback.
+- [134:51] And you're going to see some more
+- [134:52] examples of these in just a minute. The
+- [134:53] next callbacks I want to show you are
+- [134:55] the model callbacks. So the before and
+- [134:58] after model callbacks are going to be
+- [135:00] used before you pass information over to
+- [135:02] Gemini or OpenAI or Claude. What do you
+- [135:05] want to do with the request you're
+- [135:07] sending over to these models? So you can
+- [135:09] do a little bit of pre-processing and
+- [135:10] adding some information and you can do
+- [135:12] some like validation or some checking
+- [135:14] afterwards. Then finally we have before
+- [135:16] and after tool call backs because our
+- [135:19] agent has the ability to call tools such
+- [135:21] as get the weather, get the stocks and
+- [135:23] sometimes what you can do with these is
+- [135:25] maybe add in some validation and add in
+- [135:28] some additional information and then
+- [135:30] once you get back results from the tool,
+- [135:32] you can process it to make sure it
+- [135:34] included the proper information. So,
+- [135:35] these are the six different callbacks
+- [135:37] we're going to be diving into. So, let's
+- [135:38] head over to the doc so you can see some
+- [135:41] of the core principles that ADK tells us
+- [135:44] when and why we should use each one of
+- [135:46] these callbacks. All right, so I've
+- [135:47] zoomed everything in so we can easily
+- [135:49] walk through the six different callbacks
+- [135:51] and cover when and why you would want to
+- [135:53] use these callbacks. So, to start off,
+- [135:55] let's look at the before agent call
+- [135:57] back. And this is the one I use the most
+- [135:59] and you'll most likely use the most as
+- [136:01] well as you work with ADK. And you know,
+- [136:04] you saw the before agent call back is
+- [136:07] triggered before anything gets called
+- [136:09] inside of our agentic system. And the
+- [136:12] main reason you'll want to use this
+- [136:14] different callback is to set up
+- [136:16] resources and state before the agent
+- [136:20] runs. So this is where I like to do some
+- [136:23] state hydration, which is just a fancy
+- [136:25] word to say, hey, before this agent
+- [136:27] runs, let's go fetch some information
+- [136:28] about the user. So let's grab their
+- [136:30] current order history. Let's go grab
+- [136:33] whatever subscription they have and
+- [136:35] let's just give all that information to
+- [136:37] the agent so when it's running it has
+- [136:38] everything it needs to know. So main
+- [136:40] reason to use this one is for setup.
+- [136:42] State setup is when I like to use this
+- [136:45] one. Okay. Now the next one you're going
+- [136:48] to be using is the after agent callback.
+- [136:51] And this one runs after everything is
+- [136:53] done. So you've you've made all the
+- [136:55] requests to the LLM, you've done all the
+- [136:57] tool calls, the agent's done running.
+- [137:00] then the agent call back is triggered.
+- [137:03] Now when and why would you want to use
+- [137:05] this one? So their main options are for
+- [137:08] postexecution validation and logging.
+- [137:10] Those are the main ones I like to use.
+- [137:12] So after the agent's done running, you
+- [137:14] can just make some logs to if you have
+- [137:16] this application running in production,
+- [137:18] you can just make some additional logs
+- [137:19] of like, hey, I gave the user this
+- [137:22] information. So you can just really just
+- [137:24] save it. That's the main one I like to
+- [137:25] use it for. And if you want to modify
+- [137:28] any state, so if you want to keep up
+- [137:29] with the number of requests the user has
+- [137:32] made, this is a great place to modify
+- [137:34] state afterwards. Okay, the next one
+- [137:36] we're going to look at is the before
+- [137:38] model call back. Now the before model
+- [137:40] call back, just remember this is before
+- [137:42] we trigger OpenAI, Gemini, Claude,
+- [137:46] whatever model we're working with, we
+- [137:47] trigger this before we send the request
+- [137:50] over to the large language model. Now,
+- [137:53] when and why do we want to use this?
+- [137:55] Well, a few different examples that ADK
+- [137:58] recommends is for adding additional
+- [138:00] dynamic instructions or injecting some
+- [138:03] examples based on state or model
+- [138:05] configurations. Now, I don't really use
+- [138:07] this one that much, but what you could
+- [138:09] do is also add in some guard rails. And
+- [138:12] you'll see this in an example that we're
+- [138:13] going to work on together, but you can
+- [138:15] use Python to review the request we're
+- [138:17] sending over to the large language model
+- [138:19] to say like, hey, are they using any
+- [138:21] profanity or are they doing anything
+- [138:23] that's, you know, they shouldn't be
+- [138:24] asking inside of our agent? And you can
+- [138:26] just do a quick check to say, oh, they
+- [138:28] are. Okay, I'm not going to allow the
+- [138:30] user to send this request to the large
+- [138:32] language model. This is not allowed. So
+- [138:34] that's what we're going to be working on
+- [138:35] together. And you're going to see later
+- [138:37] in a second how you can, you know, quit
+- [138:41] the the loop if the user tries to ask
+- [138:43] for something that they're not allowed
+- [138:44] to. So you can either yeah skip it
+- [138:46] basically. So you're going to see that
+- [138:47] in a second. Then the next one you can
+- [138:49] see is after model call back. So once
+- [138:53] Gemini or OpenAI gives us an answer,
+- [138:55] what we can do is alter the information
+- [138:58] given back to us. So that's one of the
+- [139:00] main reasons I like to use the
+- [139:02] aftermodel callback. it is to reformat
+- [139:05] the response. So if there's any certain
+- [139:06] words you don't want the agent to use,
+- [139:09] you can actually replace keywords. You
+- [139:11] can log anything you want or you can
+- [139:13] censor or blur out information. So for
+- [139:16] example, if the agent returned something
+- [139:18] it wasn't supposed to, like maybe the
+- [139:19] user's ID or anything like that, you
+- [139:21] could actually blur it out so the user
+- [139:23] can't see it. All right, the next two
+- [139:26] that we're going to look at are going to
+- [139:27] be tool execution callback methods,
+- [139:30] specifically the before and after. So
+- [139:32] the before tool callback, it does
+- [139:34] exactly what it it says. It gets
+- [139:36] triggered before the tool gets called.
+- [139:37] And the main reason I like to use this
+- [139:39] one are to basically inspect and modify
+- [139:42] the tool arguments or perform
+- [139:45] authorization. So, for example, if the
+- [139:47] user was going to make a request to,
+- [139:50] let's say, add an additional item or
+- [139:52] purchase it, we could make sure that the
+- [139:54] user ID that was making the request
+- [139:57] actually matches the account that we're
+- [139:58] working with to make sure nothing
+- [140:00] weird's happening or they're not trying
+- [140:02] to trick the LLM to make a tool call
+- [140:03] they weren't supposed to. So, this is
+- [140:05] when it comes down to authorization
+- [140:07] checks. So, the other one that we can
+- [140:09] start to work on is the after tool call
+- [140:11] back. And the reason most of the time
+- [140:13] people use this one is to really just
+- [140:15] inspect, modify, and log the tour
+- [140:18] results. So those are the main reasons
+- [140:20] people use this one. So, but this one,
+- [140:22] like I said, yeah, this one's not the
+- [140:24] craziest. Or you could save information
+- [140:26] to state. So these are all the six
+- [140:28] different types of callbacks that you
+- [140:29] can use highle purposes. But now what I
+- [140:32] want to do is dive into the three
+- [140:34] different examples I've set up for you
+- [140:36] guys so you can see each one of these
+- [140:38] callbacks in action at a high level and
+- [140:41] understand how you can use them in your
+- [140:43] code. So let's hop over to our cursor
+- [140:45] and start seeing these callbacks in
+- [140:47] action. All right, so now it's time to
+- [140:48] get our hands dirty and dive into some
+- [140:50] code. And we're going to walk through
+- [140:52] each type of callbacks one at a time.
+- [140:54] So, we're going to look at the code, run
+- [140:56] it so you can see everything in action,
+- [140:57] and we're going to iterate for each of
+- [140:58] the different types before the agent
+- [141:01] ones, the model ones, and the tool ones.
+- [141:02] Let's go ahead and dive in to our before
+- [141:04] and after agent callbacks. So, we're
+- [141:07] going to open up our agent.py file for
+- [141:09] this quick example. So, you can see the
+- [141:11] before and after agent callbacks in
+- [141:13] action. So, in order to add callbacks to
+- [141:16] your agents, what you can do is update
+- [141:20] the before and after agent callback.
+- [141:21] like they make this so clear when it
+- [141:23] comes to naming. And what you want to do
+- [141:25] is for each one of these callbacks, you
+- [141:27] want to point to a function. Now,
+- [141:29] there's a few core things you need to
+- [141:31] know about these functions before you
+- [141:33] start to work with them. So, the first
+- [141:35] thing is you need in order for callbacks
+- [141:37] to work appropriately is you need to
+- [141:39] pass in the callback context. This is
+- [141:41] what's going to allow the agent to
+- [141:43] access state and all the other necessary
+- [141:44] information it needs to properly handle
+- [141:46] what's going on. From there, you want to
+- [141:49] make sure the return type is optional
+- [141:51] and returning content. Now, what why why
+- [141:54] are we doing this? Well, you'll see in
+- [141:55] just a second. If you want the agent to
+- [141:58] continue as normal, you return none. So,
+- [142:01] that's why it's optional because we're
+- [142:02] going to return none if everything's
+- [142:03] okay. If for whatever reason the user
+- [142:05] did something we didn't like, we would
+- [142:08] return a message saying, "Hey, I'm
+- [142:10] skipping this because of whatever
+- [142:12] reason." So, you return none if things
+- [142:14] go good. you return messages if you want
+- [142:17] to skip what's happening. So that's uh
+- [142:19] something that was a little weird to me
+- [142:20] when I saw this for the first time. But
+- [142:22] let's dive into this before and after
+- [142:23] agent call back so you can see exactly
+- [142:25] what we can do with these different
+- [142:27] callbacks. So if you remember what we
+- [142:29] want to do with the main reason we want
+- [142:31] to use before agent callbacks is to log
+- [142:33] and to hydrate state. So what you can
+- [142:36] see is we're taking in the callback
+- [142:38] context and the first thing we're doing
+- [142:40] is we are grabbing state with state.
+- [142:43] What we're doing is just to test out
+- [142:45] some initial information is we are going
+- [142:47] to say all right state do you have agent
+- [142:50] name as a key if not I'm going to update
+- [142:53] state to include the name and then from
+- [142:54] there what we're going to do is we're
+- [142:56] going to keep track of our request
+- [142:58] counter so you can see hey does request
+- [143:00] counter exist in state if not this is
+- [143:03] obviously our first request otherwise
+- [143:04] we're going to increase the state
+- [143:06] request counter outside of that we're
+- [143:08] going to add a third key to state where
+- [143:11] we're going to keep track of the request
+- [143:13] start time because in the after callback
+- [143:16] agent we're going to see okay well you
+- [143:18] started at this time and then you
+- [143:20] finished at this time great I know it
+- [143:22] took about 10 seconds 2 seconds 1 second
+- [143:25] to generate this entire response outside
+- [143:27] of that we're just going to do some
+- [143:28] logging so we can see and keep track of
+- [143:31] things as we run it awesome from there
+- [143:33] you can see we have an after agent call
+- [143:35] back who accesses the same call back
+- [143:37] state and we're doing pretty much the
+- [143:39] exact same thing so now we're going to
+- [143:41] grab state Now, we're going to get the
+- [143:43] current time. And then from there, we're
+- [143:45] going to look at, okay, we're going to
+- [143:47] grab the start time, and we're going to
+- [143:49] subtract the current time from the
+- [143:52] current time from the start time. And
+- [143:54] this is how we get, oh, it took you 2
+- [143:56] seconds to run this entire request. And
+- [143:58] we're just going to log this all out.
+- [144:00] So, enough talking about this at a high
+- [144:02] level. Let's go ahead and run this root
+- [144:04] agent so you can see it in action. So,
+- [144:07] let's clear things out. Let's make sure
+- [144:08] we are in example number nine. And if
+- [144:11] you look in example number nine, there
+- [144:12] are multiple folders and we want to go
+- [144:15] to the before and after agent. So cd
+- [144:18] before after agent. Great. Once we're
+- [144:20] here, we can now run everything. So
+- [144:22] we're going to type in adk web. And this
+- [144:24] will trigger out the, you know, the web
+- [144:26] interface that you're used to. And we'll
+- [144:28] open it up. And what we can do here,
+- [144:32] let's get everything running. So select
+- [144:34] an agent. I think I did something wrong.
+- [144:37] One second. So I made a quick mistake.
+- [144:39] We should not have cded all the way into
+- [144:42] these agents. We should just run the
+- [144:43] program from the highle folder. So what
+- [144:46] you need to do is just run adk web here.
+- [144:48] And this will get everything kicked off
+- [144:50] and going properly. So now you can see
+- [144:53] it gives you the ability to select an
+- [144:54] agent. And we're going to run the before
+- [144:56] and after agent. So what we can do is
+- [144:58] say
+- [144:59] hey how are you doing? And this is just
+- [145:03] going to showcase a few of the core
+- [145:04] components that we have. So hey I'm
+- [145:07] doing well. From there, we can say it's
+- [145:09] doing well. And then if we dive into
+- [145:11] state, you can see it saved all the
+- [145:13] important information that we asked it
+- [145:14] to do when it came to running an agent.
+- [145:17] And we can say, what is your name? And
+- [145:20] what we would expect this to do is to
+- [145:22] update the request counter and the the
+- [145:24] start time. And if we close out of this
+- [145:26] session and hop back to our logs, you
+- [145:29] can see because we had a bunch of logs,
+- [145:31] you can see, oh, the second request took
+- [145:33] 60 seconds. And I can see if I go even
+- [145:37] further up uh to call back number one,
+- [145:39] you can see the first request took
+- [145:41] almost 2 seconds. So you can see that
+- [145:43] it's working and it's properly logging
+- [145:45] everything that we showed. So now what
+- [145:47] we're going to do is quit everything and
+- [145:49] we are going to move over to the next
+- [145:51] callbacks which are before and after
+- [145:53] model. Okay, so now it's time for us to
+- [145:55] look at the before and after model
+- [145:57] callback example. So this is the
+- [146:00] agent.py inside of this folder right
+- [146:02] here. So, what we're trying to do inside
+- [146:04] of this agent is showcase how you can
+- [146:06] filter content. So, someone gives you a
+- [146:08] request that you don't want, you can
+- [146:10] quit and say, "Hey, that was a bad
+- [146:12] request." And we're going to log
+- [146:13] everything. Now, before we dive into
+- [146:15] looking at these two different
+- [146:16] callbacks, I want to show you guys how
+- [146:18] easy it is to add them into your your
+- [146:20] agents. So, instead of doing the before
+- [146:23] and after agent callback, we now just
+- [146:26] say before and after model call back. As
+- [146:28] simple as that. And per usual, we just
+- [146:31] pass in the callback function we want to
+- [146:32] trigger. Now, here's what's different in
+- [146:35] these new callbacks. Instead of only
+- [146:38] providing the callback context, you also
+- [146:40] need to provide the LM request where the
+- [146:43] LLM request is going to include the
+- [146:45] message that we are trying to send over
+- [146:47] to Gemini or OpenAI. So, what you can
+- [146:50] see is we can do exactly what we did
+- [146:52] last time. we can pull out the state,
+- [146:55] grab our agent name, and then from
+- [146:57] there, what we're going to do is extract
+- [146:59] the user's last message. And the reason
+- [147:01] why we're trying to do that is we want
+- [147:04] to iterate through all the message
+- [147:06] content that was sent to us and we're
+- [147:08] reversing the list so we can get the
+- [147:09] newest item that's from the user. And
+- [147:12] once we have that latest message from
+- [147:14] the user, we're going to save it here.
+- [147:16] Then what we're going to do is showcase
+- [147:19] that. We're going to say if we have that
+- [147:22] user message, what we want to do is just
+- [147:24] showcase it. Then from there, what we're
+- [147:27] going to do is say, all right, does that
+- [147:30] latest user message include a bad word?
+- [147:32] So, we're going to say, hey, does it
+- [147:33] include the word sucks? If so, what
+- [147:36] we're going to do is throw a bunch of
+- [147:38] logs saying, hey, inappropriate content
+- [147:40] was detected. And this is where we can
+- [147:43] start to alter the life cycle of our
+- [147:46] agents and our LLMs. So instead of
+- [147:49] returning none, we're going to return an
+- [147:52] LLM response. And this LLM response is
+- [147:54] going to go, hey, you tried to make a
+- [147:57] request and we're going to say, hey, I
+- [148:00] cannot return like we're going to
+- [148:01] basically instead of the LLM responding,
+- [148:03] we're going to respond for it. So we're
+- [148:05] going to say, hey, this model, we're
+- [148:07] going to say, I cannot respond to this
+- [148:09] message because it includes
+- [148:10] inappropriate language. Please rephrase
+- [148:12] your request without words like this.
+- [148:14] Now, that was only if the message
+- [148:17] included a bad word. If it did not
+- [148:19] include a bad word, what we're going to
+- [148:20] do is just return none because returning
+- [148:24] with none just continues with the normal
+- [148:26] life cycle. Then finally, what we're
+- [148:28] going to do is with the other option,
+- [148:31] which is the after model callback, all
+- [148:33] we're going to do is do some simple
+- [148:36] replacements. So, if the LLM responded
+- [148:39] with something, we can actually change
+- [148:40] the response. So, I'm going to scroll
+- [148:42] down just so you guys can see it. So, if
+- [148:45] for whatever reason the LLM responded
+- [148:46] with an empty response, we're just going
+- [148:48] to skip it. Otherwise, if the LLM does
+- [148:50] include some text, we're going to say,
+- [148:53] okay, what I would like to do is iterate
+- [148:56] through all the words you said. And if
+- [148:59] you included a word like problem or
+- [149:01] difficult, I want to change the word
+- [149:03] with challenge or complex. And then what
+- [149:06] you can do is you go through the
+- [149:08] original you go through the original
+- [149:10] response that they gave us and we're
+- [149:12] going to save it to modified text. So a
+- [149:14] new variable and we're going to iterate
+- [149:16] through each one of the words that we
+- [149:19] want to replace. And we're going to
+- [149:21] replace them inside of our text. And we
+- [149:24] are going to return if if any of the
+- [149:26] words included in our case problem or
+- [149:29] difficult we are going to replace them.
+- [149:32] And we are going to return our modified
+- [149:35] answer. So if we replace something,
+- [149:37] we're going to say modified true. And so
+- [149:39] if we modified, we're going to say,
+- [149:40] "Hey, I definitely did change something,
+- [149:43] and I'm now going to return that LLM
+- [149:46] response." That's all we're doing. If it
+- [149:48] did not include a word we were trying to
+- [149:50] replace, we're going to return none. So
+- [149:52] that's all we're doing inside here. And
+- [149:54] inside the readme, I actually have a few
+- [149:56] different examples that you can test
+- [149:58] things out with. So let's see. Down
+- [150:00] here, I have some examples that you can
+- [150:02] run. Let me show you guys really
+- [150:05] quickly. Yeah. So to test model
+- [150:06] callbacks, you can say this website
+- [150:09] sucks. Can you help me fix it? So let's
+- [150:11] go run everything so you can see these
+- [150:12] in action. So let's run it again. So
+- [150:16] we're going to do ADK web. This will
+- [150:18] trigger our website to spin up. Now we
+- [150:21] can go to the before and after model
+- [150:23] session and we can type in this message.
+- [150:25] This website sucks. Can you help me fix
+- [150:27] it? And now the model's instantly going
+- [150:29] to say, "Hey, I cannot respond to
+- [150:31] messages when using words like suck." So
+- [150:34] this is pretty much just exactly what we
+- [150:36] told it to do. So if you were to hop
+- [150:38] back over to our code, you can see this
+- [150:41] is the exact message we said to do right
+- [150:43] here. I cannot use respond with messages
+- [150:45] like that. Okay, cool. So now let's try
+- [150:47] out the other one. So we can say, what's
+- [150:49] the biggest problem with machine
+- [150:50] learning today? So we can now try this
+- [150:53] example. So, we're going to open it up
+- [150:55] and we would expect it to replace the
+- [150:56] word like we told it to. We would expect
+- [150:59] it to replace phrases like problem with
+- [151:02] challenge. So, let's open everything up.
+- [151:04] And now inside the before and after
+- [151:07] model call back, if I was to send this
+- [151:09] request in, instead of it saying
+- [151:11] challenge, it will get replaced. And I
+- [151:14] believe we can. Yeah. So, we can dig in
+- [151:17] to the response. So, one of the biggest
+- [151:19] So, this is what the model responded to.
+- [151:21] It responded with one of the biggest
+- [151:23] challenges or one of the biggest
+- [151:25] problems with machine learning is that
+- [151:27] it's data bias. But what you'll notice
+- [151:29] is the LLM responded with the word
+- [151:31] problem, but because we updated the
+- [151:34] model after callback, we said, "Hey, use
+- [151:36] the word challenge here." So you can see
+- [151:38] it is it's working in real time. So this
+- [151:39] is a cool way if you want to like make
+- [151:41] sure you speak always in a certain way,
+- [151:43] you can alter the response or filter out
+- [151:45] something. If they give you an API key
+- [151:46] or something that you shouldn't show
+- [151:47] back to the user, you can always filter
+- [151:49] it out. Okay, cool. So you now got to
+- [151:51] see before and after model call backs in
+- [151:54] action. So now what we can do is go over
+- [151:56] to the final call back which is the tool
+- [151:59] before and after callbacks. So let's hop
+- [152:01] over there so you can see this one in
+- [152:02] action. Okay, so it's time for us to
+- [152:04] look at our final example which is going
+- [152:06] to be the before and after tool
+- [152:08] callbacks. And for this example, we are
+- [152:11] building an agent that looks up the
+- [152:12] capital cities of different countries.
+- [152:14] And because we're working with the
+- [152:16] before and after tool callback, well, we
+- [152:18] obviously need to have a tool that we're
+- [152:21] trying to alter the functionality of for
+- [152:23] these before and after capabilities. So,
+- [152:26] what I'd like to do is first just show
+- [152:27] you the tool we're trying to use and
+- [152:29] then we're going to walk through what
+- [152:30] we're trying to alter in these
+- [152:31] callbacks. Okay. So, what tool are we
+- [152:33] trying to use? Well, we're creating a
+- [152:35] tool that takes in a country and once it
+- [152:37] takes in a country, it looks up to see
+- [152:40] does that country exist in here? And if
+- [152:42] so, I'm going to return the capital
+- [152:44] city. So yeah, that's what the tool is
+- [152:46] trying to do at a high level. Super
+- [152:48] straightforward. But now let's first
+- [152:50] dive into the before tool call back so
+- [152:52] you can see it in action. So the before
+- [152:54] tool call back has a few key parameters
+- [152:57] you have to pass in. The first is the
+- [152:59] tool. What tool are we trying to use?
+- [153:01] From there, we need to know what
+- [153:03] arguments we're passing into that tool.
+- [153:05] And then finally, the tool context. So
+- [153:07] this is how we access state like in all
+- [153:09] the previous examples. So in this
+- [153:11] example, we're trying to do two
+- [153:12] different things. First, if the user
+- [153:15] gives us uses the tool get capital city
+- [153:19] and they pass in an argument such as
+- [153:21] America, we want to alter that argument
+- [153:25] to say United States. So we're basically
+- [153:27] correcting the arguments that a user
+- [153:29] passes to us. And we're going to return
+- [153:32] none because return none just means
+- [153:33] proceed as you normally would. But the
+- [153:35] kick is we have altered an argument
+- [153:38] passed in. Another option is if the user
+- [153:42] calls get capital city tool and the
+- [153:44] country they pass in is restricted. What
+- [153:47] I want to do is alter this tool call to
+- [153:51] return this result. So we're not going
+- [153:53] to call the tool. We're canceling the
+- [153:55] tool call before it happens and just
+- [153:56] returning this result. So that's exactly
+- [153:59] what we're trying to do with the before
+- [154:00] tool call back. So what we can do is run
+- [154:03] this so we can see it in action. So
+- [154:05] let's get everything ready. So we are
+- [154:07] going to do ADK web and we are going to
+- [154:10] open up our before and after tool and we
+- [154:14] can say what is the capital of America
+- [154:18] and what it'll do is it will get the
+- [154:21] capital city and it will return the
+- [154:23] capital city and it'll say oh it was
+- [154:25] Washington DC. Now if you look here what
+- [154:29] happened though is we actually made some
+- [154:31] changes and you can't see the changes
+- [154:33] inside ADK web. you have to hop back to
+- [154:36] our terminal and inside of our terminal
+- [154:38] we had some raw logs set. So you can see
+- [154:42] the user passed in what's the capital
+- [154:44] city of America but then before the tool
+- [154:47] got called right here. So function call
+- [154:49] you can see we updated the arguments to
+- [154:52] now say United States and because
+- [154:54] normally it would have just passed in
+- [154:56] America but we altered it to pass in
+- [154:58] United States. So pretty cool that it
+- [155:01] did that. Now let's go try the other
+- [155:03] example. So in our case, the other
+- [155:05] example we wanted to try was if they
+- [155:07] asked about restricted. So let's open
+- [155:09] this up and we can say on our before and
+- [155:12] after tool call, what is the capital of
+- [155:15] restricted? And in this case, it's going
+- [155:18] to return like, hey, I can't fulfill
+- [155:20] that request. You know, not valid.
+- [155:21] Please return a valid country. But if we
+- [155:24] were to do a normal country, so like
+- [155:25] what is
+- [155:27] the capital of let's just do France,
+- [155:31] this would work nor like normal like it
+- [155:33] was supposed to do and it would go off
+- [155:36] and say, "Yep, the country is France.
+- [155:38] I'm calling this tool and then I got
+- [155:40] back the answer which is Paris." So
+- [155:41] yeah, we have the before functionality
+- [155:43] working like a champ. So now let's
+- [155:46] quickly review the after call toolback.
+- [155:49] So when it comes to the after tool call
+- [155:52] back, this is where we can alter the
+- [155:54] tool response. That's the main
+- [155:55] functionality of altering the tool call
+- [155:58] back. So what you can see is we're just
+- [156:00] doing a bunch of logs to say like, hey,
+- [156:02] what tool got called? What were the
+- [156:03] initial arguments passed in? And what
+- [156:05] was the original response of the tool?
+- [156:08] Then from there, what we can do is make
+- [156:11] some changes. Oh, and before we do that,
+- [156:12] I do just want to call out the
+- [156:14] properties. you do need to pass in the
+- [156:16] tool that's getting used, the arguments
+- [156:17] that were passed to the tool and then
+- [156:19] tool context and tool response. These
+- [156:22] are the main ones. So the only one that
+- [156:23] got added new was the tool response
+- [156:25] because obviously the tool generated a
+- [156:26] result. So we now have the opportunity
+- [156:28] to alter it. So what we're going to do
+- [156:30] is we're going to say all right if the
+- [156:32] user basically passed in so if the tool
+- [156:35] let me restate this if the tool get
+- [156:38] capital city was called and Washington
+- [156:40] DC was in the original result what we
+- [156:43] want to do is alter that response to say
+- [156:47] okay I want the modified result that I'm
+- [156:51] storing here to say okay the answer was
+- [156:54] Washington DC and then we're going to
+- [156:56] add this fancy little note at the end so
+- [156:57] we have a nice little emoji So that's
+- [156:59] all we're doing. We're just long story
+- [157:01] short for all of this code right here is
+- [157:03] we're just altering the original
+- [157:05] response that was given to us to include
+- [157:07] the original result and then add in some
+- [157:09] additional text at the end. So let's try
+- [157:11] this out. So let's do we're going to run
+- [157:14] it again and this time we're going to
+- [157:16] say what is the capital of USA. Let's go
+- [157:19] ahead and open this up and we're going
+- [157:21] to select the before and after tool and
+- [157:23] we're going to say what is
+- [157:25] the capital of USA? And now what it'll
+- [157:29] do is it will return the original result
+- [157:32] which was just Washington DC but then
+- [157:34] it's adding that fancy note at the end
+- [157:36] that we told it to. So you've officially
+- [157:38] altered the tool response using the
+- [157:40] after tool call back. Okay, you guys are
+- [157:43] now officially pros when it comes to all
+- [157:46] six different types of callbacks that
+- [157:48] you can use inside your agents. Super
+- [157:51] excited for you guys to wrap that one up
+- [157:53] because those are super helpful and
+- [157:54] you're actually going to see us use the
+- [157:56] before agent call back. numerous times
+- [157:58] going forward because it's a super handy
+- [158:00] one to use. So, now that we've knocked
+- [158:02] that out of the way, we're going to
+- [158:03] start diving over to our workflows,
+- [158:05] which are going to include the
+- [158:07] sequential, parallel, and loop agents.
+- [158:09] So, let's hop over to example number 10
+- [158:11] so we can start working on sequential
+- [158:13] workflows. Hey guys, and welcome to
+- [158:14] example number 10, where we're
+- [158:16] officially starting to work on our first
+- [158:18] type of workflow agent. And in this
+- [158:21] example, we're going to focus on the
+- [158:23] sequential workflow where agents work on
+- [158:25] a task one after another. So what we're
+- [158:28] going to do in this example is first hop
+- [158:30] over to the docs, look exactly at what
+- [158:32] ADK says about these workflow agents,
+- [158:34] and then we're going to look at this
+- [158:36] lead qualification pipeline example that
+- [158:39] I've created for you guys where we have
+- [158:41] validator agents that then pass the
+- [158:42] results to a score agent which then
+- [158:44] passes the result to a recommendation
+- [158:46] agent. And then in part two, we're going
+- [158:47] to look at this code that I've set up
+- [158:49] for you guys so you can see a working
+- [158:50] example. And in part three, we're going
+- [158:51] to run it. So let's hop over to the doc
+- [158:53] so you can see everything in action. All
+- [158:54] right, so we're in the sequential agent
+- [158:56] docs. So let's quickly cover what they
+- [158:58] are, how they work together, and when we
+- [159:00] should use them. Okay, so sequential
+- [159:02] agents, basically it's a type of
+- [159:04] workflow agent, which means our agents
+- [159:06] are going to work in a particular
+- [159:07] pattern. And in our case when working
+- [159:09] with sequential agents all the sub aents
+- [159:12] you provide to a rootle agent are going
+- [159:14] to work in the order that you specify.
+- [159:17] So the most important thing to note is
+- [159:19] when you look at the code agents will
+- [159:22] work in the order that you pass them in
+- [159:23] in the sub agent list. So if you have
+- [159:25] agent 1 2 3 it will always run agent
+- [159:28] 123. So execution occurs from first to
+- [159:31] last. Okay. So here's an example of why
+- [159:33] you would want to use a sequential
+- [159:35] agent. Let's imagine you were building
+- [159:36] an agent that could summarize any web
+- [159:38] page using two tools. It first wanted to
+- [159:41] get the page content and then summarize
+- [159:42] the page. Well, because you can't
+- [159:45] summarize a page until you have the page
+- [159:47] content. This would make for a great use
+- [159:50] case to start using sequential agents
+- [159:52] where first you would always get the
+- [159:54] page content and once we've grabbed the
+- [159:56] page content, we would then go over to
+- [159:59] option agent number two where you would
+- [160:01] then summarize it. So that is a
+- [160:02] sequential agent in a nutshell. So
+- [160:05] here's just a quick example of what it
+- [160:06] looks like inside a sequential agent.
+- [160:08] You'll see that you always provide sub
+- [160:10] agents where this agent will always be
+- [160:12] triggered before this agent. And the
+- [160:15] important thing to note is that you are
+- [160:17] not, you know, passing state like this
+- [160:19] arrow does not mean you're passing
+- [160:21] information from agent A to agent B. You
+- [160:23] have to use shared state like we've been
+- [160:26] doing throughout the rest of these
+- [160:27] examples here together today. So if you
+- [160:30] wanted agent two to have information
+- [160:32] that agent one generated, you would need
+- [160:34] to, you know, write that to state and
+- [160:37] then sub agent 2 would pull that down.
+- [160:39] So that's super important to note. So
+- [160:41] what we can do is we're going to hop
+- [160:43] over to the code example I've created
+- [160:44] for you guys, walk through it step by
+- [160:46] step so you can see how you can create
+- [160:48] these agents, share state between them,
+- [160:50] and work together on building, you know,
+- [160:52] your multi- aent systems that work in a
+- [160:53] nice workflow. So let's hop over to the
+- [160:55] code. All right, so let's start to look
+- [160:57] at how you can start to use sequential
+- [160:59] agents with inside of ADK. Thankfully,
+- [161:01] it's a super simple change. So, right
+- [161:03] now we are inside of the lead
+- [161:05] qualification folder and we are in the
+- [161:07] lead qualification agent. And in order
+- [161:10] to start working with sequential agents,
+- [161:12] all you need to do is import sequential
+- [161:15] agent from here. Normally, what you
+- [161:17] would do is import agent. So, if you
+- [161:19] look at all of our other multi- aent
+- [161:21] solutions, every time we're importing
+- [161:24] our regular agent, but this time instead
+- [161:26] of importing just a plain old agent,
+- [161:28] we're saying, "All right, ADK, you are
+- [161:30] now working with a sequential agent."
+- [161:32] And inside of a sequential agent, I
+- [161:34] first want you to, you know, trigger
+- [161:36] this this sub agent. So, the lead
+- [161:38] validator agent, the lead score agent,
+- [161:40] and then the action recommener agent. So
+- [161:43] in this example, what we're trying to do
+- [161:45] is create a lead qualification pipeline
+- [161:47] where I can give some information to
+- [161:50] this sequential agent and it will save
+- [161:53] the result for me so I can figure out
+- [161:54] should I work with this customer or
+- [161:56] should I not. So what we're going to do
+- [161:58] is first walk through each one of these
+- [162:00] agents at a high level so you can see
+- [162:01] what they do and understand how we're
+- [162:03] saving the result of each of these
+- [162:05] agents so that the result from agent one
+- [162:08] gets passed to agent two and the result
+- [162:11] from agent two gets passed to agent 3.
+- [162:13] So let's look at how we can do that. So
+- [162:15] first things first, we are now looking
+- [162:17] at the lead validator agent and here's
+- [162:20] all we have to do. We are going to give
+- [162:23] this lead validator some instructions
+- [162:25] saying, "Hey, you're here to validate
+- [162:28] different clients that I give to you.
+- [162:30] So, I'm going to give you lead
+- [162:31] information and what this lead
+- [162:34] information should include to verify
+- [162:36] that it's a complete qualification.
+- [162:38] Basically, to make sure that we're given
+- [162:40] all the information we need, you're
+- [162:41] going to get their contact information,
+- [162:43] what they're interested in, what they
+- [162:45] need, and some information about the
+- [162:47] company that they currently work for. If
+- [162:49] they're if they give us all the
+- [162:50] information we need as a valid contact,
+- [162:53] we're going to say valid. Otherwise,
+- [162:54] you're going to return invalid. That's
+- [162:56] all you need to do. And what we're going
+- [162:58] to do is save the result of this entire
+- [163:01] agent to the output key. So, if you
+- [163:04] remember from way back when we were
+- [163:05] working on initially using agents to
+- [163:08] save the results to state, this is going
+- [163:10] to save valid or invalid to this key
+- [163:14] inside of state. So, validation status
+- [163:16] will either say valid or invalid. Okay,
+- [163:18] cool. So, now that we've understand what
+- [163:20] agent one can do, let's go look at the
+- [163:22] lead score agent, which is going to
+- [163:24] score the lead that we are given to
+- [163:26] determine if they're a good fit for us.
+- [163:28] So, we're going to say, okay, your job
+- [163:30] is to score. And what you need to do is
+- [163:32] look at the information that is given to
+- [163:34] us and score the lead from 1 to 10. And
+- [163:37] I want you to score based off of how
+- [163:40] urgent the problem is, if the person is
+- [163:42] a decision maker, if they have time and
+- [163:45] budget. From there, what I want you to
+- [163:47] do is just give me back a numeric score
+- [163:50] and a one-s sentence justification of
+- [163:52] why you think we should work with them.
+- [163:53] So, here's some example outputs. So, we
+- [163:56] could say eight, which is like, hey,
+- [163:57] they're a good decision maker, clear
+- [163:59] budget, the great contact. Or three, we
+- [164:01] could say, hey, you know, they're not
+- [164:03] really interested, no timeline, no
+- [164:04] budget, so they're not a great contact.
+- [164:06] And once again, we are going to save the
+- [164:08] output of this to the lead score key so
+- [164:12] that the result like one of these will
+- [164:14] be saved to state. Okay, great. So,
+- [164:16] we're all just building up towards
+- [164:17] working towards the final step in our
+- [164:19] sequential workflow, which is all going
+- [164:22] to be inside the action recommener
+- [164:24] agent. Now, what this agent is going to
+- [164:26] do is it is going to take in all the
+- [164:29] information that we've built so far from
+- [164:31] our previous steps inside of our
+- [164:33] sequential workflow. So, we're going to
+- [164:35] pass in the keys right here. And if you
+- [164:37] just notice the lead score key, this is
+- [164:40] exactly what is mentioned here. So lead
+- [164:43] score key. This is exactly what we have
+- [164:46] in our recommener. So this is where
+- [164:48] those keys that we were saving, the key
+- [164:49] values we were saving to state, this is
+- [164:51] where we're now getting access to them.
+- [164:53] So we can start to share state between
+- [164:54] our agents. And from there, we're going
+- [164:56] to say, all right, using the information
+- [164:57] that I've just given you, I want you to
+- [165:00] create a recommendation on what next
+- [165:03] steps we should take for this agent. So
+- [165:06] if the lead score is invalid, just say
+- [165:09] what additional information we need.
+- [165:11] then based on the other types of score
+- [165:14] like if it's a bad score, a good score
+- [165:16] or a great score suggest what we need to
+- [165:18] do next. So this is sequential workflow
+- [165:21] in a nutshell. So what we can do now is
+- [165:23] we'll hop back to our root agent so we
+- [165:26] can kick everything off so you can see
+- [165:28] it all in action. So what we're going to
+- [165:30] do is we're going to make sure that we
+- [165:32] are inside of our sequential agent
+- [165:34] workflow. And I'm going to first open up
+- [165:37] in the readme I have some examples that
+- [165:39] you can test here. So we'll first try an
+- [165:42] unqualified lead. So let's run this. So
+- [165:45] ADK web and what we'll do is this will
+- [165:48] trigger our interactive session so we
+- [165:50] can start chatting with it. So now we
+- [165:52] can pass in a lead. And if you notice to
+- [165:55] start there's nothing in state. But if I
+- [165:57] pass in a lead for John Doe and he's a
+- [166:00] bad lead, we can watch what happens. So
+- [166:03] agent one would trigger then agent two
+- [166:05] would trigger then agent three. So all
+- [166:08] of these agents right here are getting
+- [166:10] wrapped up inside of a sequential
+- [166:12] workflow. So sequential workflow really
+- [166:14] is nothing more than just a wrapper
+- [166:16] around all the three agents that you
+- [166:18] want to do all the work for you. And
+- [166:20] what you would notice is as we were
+- [166:22] running the agent in real time, it was
+- [166:24] saving the results to state. So agent
+- [166:27] one spit out the if it was valid or not.
+- [166:30] Agent two, the score was, you know,
+- [166:32] printing out the quality of the lead and
+- [166:34] a justification of why they got that low
+- [166:36] score. And then the final agent, our
+- [166:38] third agent was saying, "Hey, based on
+- [166:41] the two previous pieces of information,
+- [166:43] I recommend that John Doe is not a good
+- [166:46] client for us to work with. I recommend
+- [166:48] just continue doing some education to
+- [166:50] see if he better understands what's
+- [166:51] going on and if we can work with him."
+- [166:53] So, that's option one. But what we could
+- [166:55] do is let us hop back over to our
+- [166:58] examples that we have set up. And in
+- [167:01] this time, we're going to pass in a
+- [167:02] qualified lead. So, let's scroll back up
+- [167:05] to where things got kicked off a second
+- [167:07] ago. And now we can do another message
+- [167:10] and this time do it for a great client.
+- [167:12] So, Sarah is a great client, great
+- [167:14] budget, leadership position, all around
+- [167:17] great spot. So, you can see that's
+- [167:18] exactly what the agent said, too. This
+- [167:20] is the valid lead. This is a high score.
+- [167:22] She's a CTO. She's trying to, you know,
+- [167:25] she has a budget and a timeline. And the
+- [167:27] recommendation is that Sarah's trying to
+- [167:29] switch away from a competitor. What I
+- [167:31] recommend to do is schedule a demo with
+- [167:33] her and prepare a proposal. Yeah, you
+- [167:34] can see it did exactly what it was
+- [167:36] supposed to do and it saved everything
+- [167:38] to state and that's how it was able to
+- [167:39] come up with this awesome response right
+- [167:41] here. So yeah, that was sequential
+- [167:43] workflows in a nutshell. Hopefully that
+- [167:45] made sense because if you're familiar
+- [167:47] with working with tools like Crew AI,
+- [167:50] this is probably more of what you're
+- [167:52] used to to where you have different
+- [167:54] agents all working on one task. So
+- [167:57] definitely sequential workflows are
+- [167:58] amazing and we're now going to move on
+- [168:01] to the next example where you're going
+- [168:03] to start to see how we can actually
+- [168:04] trigger multiple agents to go work in
+- [168:07] parallel and then combine the answers.
+- [168:08] So let's hop over to example number 11.
+- [168:10] All right, welcome to example number 11
+- [168:12] where you're going to start to work with
+- [168:14] parallel agents. Now in this example,
+- [168:16] we're first going to head over to the
+- [168:18] Google doc so you can see why they
+- [168:20] recommend to use these agents, when to
+- [168:22] use them. From there, I have a pretty
+- [168:24] cool code example where we're going to
+- [168:26] monitor all of our computer analytics
+- [168:28] and, you know, use parallel agents to
+- [168:30] quickly go off and find all the
+- [168:31] information about our computer and give
+- [168:33] us a nice little report. And then in the
+- [168:35] third example, we're going to run this
+- [168:37] code that I've created for you guys. So,
+- [168:38] let's hop over to the docs so you can
+- [168:40] see all the core information you need to
+- [168:42] know. Okay, so let's dive into what are
+- [168:44] parallel agents, when you should use
+- [168:46] them, and then a quick example of how
+- [168:48] they all work. So first things first, a
+- [168:49] parallel agent, it's another type of
+- [168:51] workflow agent where we are structuring
+- [168:53] our agents in a particular format to go
+- [168:55] off and do work. Now in the the case of
+- [168:58] parallel agents, instead of agents, you
+- [169:00] know, being triggered one after another,
+- [169:02] which is usually slow because you have
+- [169:04] to wait for agent one to finish, then
+- [169:05] agent two, then agent three. Well, with
+- [169:07] parallel agents, what we're doing
+- [169:09] instead is we are going to do things in
+- [169:11] parallel. So where all of our agents are
+- [169:14] going to generate and do work all in
+- [169:16] parallel, so it's much faster. And then
+- [169:18] afterwards once all the work's done is
+- [169:20] we can use all the information that they
+- [169:23] saved to state and then in the final
+- [169:25] agent take all that raw information and
+- [169:27] spit out a nice report. That's the usual
+- [169:29] type of workflow for a parallel agent.
+- [169:31] So whenever you want to focus on speed,
+- [169:34] this is the agent workflow for you,
+- [169:36] especially when you need a lot of work
+- [169:37] to get done. So let's look at a few
+- [169:41] quick examples of what they recommend.
+- [169:43] So in this case, if you wanted to do a
+- [169:45] parallel agent that you know, let's
+- [169:48] imagine you just wanted to do a lot of
+- [169:49] work. Most basic example is just agent
+- [169:51] one does work, agent two does work,
+- [169:53] agent three does work, and they all
+- [169:54] create outputs. Now, this is handy and
+- [169:56] helpful cuz you're going to get a lot
+- [169:57] done really quickly. But like I
+- [169:59] mentioned earlier, most of the time you
+- [170:01] want to combine all of these results
+- [170:03] into something that the final agent can
+- [170:05] look at and generate a super nice report
+- [170:08] that you can start to look at. That's
+- [170:09] usually what you want to do with
+- [170:10] parallel workflows. So now you've seen a
+- [170:12] high-level overview of what the agents
+- [170:14] look like. Let's hop over to the code
+- [170:16] example where this will make so much
+- [170:17] sense cuz it's actually super easy to
+- [170:19] use. So let's hop over to the code so
+- [170:20] you can see all this in action. Okay, so
+- [170:22] it's now officially time for us to get
+- [170:23] our hands dirty working with parallel
+- [170:25] agents. Now in this example, we're
+- [170:28] actually using sequential agents and
+- [170:29] parallel agents. So don't let it confuse
+- [170:31] you, but I'm going to walk you through
+- [170:32] everything step by step. Okay, so first
+- [170:35] off, what we need to do is look at our
+- [170:38] root agent. And what I want to call out
+- [170:40] is our root agent has two sub agents. So
+- [170:43] what's happening is the first agent is a
+- [170:46] parallel agent. This parallel agent, we
+- [170:49] import it just like we do with
+- [170:50] everything else. Parallel agents up
+- [170:52] here, sequential agents, regular agents,
+- [170:53] we all import it from the same place.
+- [170:55] Now, but here's what's happening under
+- [170:56] the hood. We are generating multiple
+- [170:59] agents to go off and do work. So the
+- [171:01] first agent is going to be the CPU
+- [171:02] agent. So it's going to do work. We have
+- [171:05] a memory agent which goes off and looks
+- [171:06] at how much memory we have available on
+- [171:07] our computer. And the final agent looks
+- [171:09] up how much hard drive space we have on
+- [171:11] our computer. And all of these agents
+- [171:13] are going to get wrapped in a sequential
+- [171:15] workflow. That's exactly what the system
+- [171:18] information gatherer parallel agent is
+- [171:20] doing. So when you see this right here
+- [171:22] in your head, you should be thinking,
+- [171:24] okay, I have three agents running in
+- [171:26] parallel and they're just wrapped in one
+- [171:28] parallel agent. Great. Now going back to
+- [171:32] our sequential agent, you can see the
+- [171:34] second item that we have is a system
+- [171:37] report synthesizer. So what this is
+- [171:39] going to do is it's going to take all
+- [171:40] the information that these agents are
+- [171:43] saving to state. So they're all saving
+- [171:44] to state and this system report
+- [171:47] generator is going to then say great I
+- [171:49] understand everything that you've done.
+- [171:50] I'm going to put it in nice report. So
+- [171:52] the like final result is you're going to
+- [171:53] have just a quick repeat is you're going
+- [171:55] to have parallel workflow that's going
+- [171:57] to have three agents and then you're
+- [171:58] going to have one final agent that's
+- [172:01] going to work and all of this is going
+- [172:02] to live inside of this sequential agent
+- [172:05] right here. So sequential agent is
+- [172:07] running the parallel agent first and
+- [172:09] it's going to pass their final results
+- [172:10] over to the system report synthesizer.
+- [172:12] So hopefully that makes sense and
+- [172:13] hopefully you're starting to see like oh
+- [172:14] wow I can start to chain together
+- [172:16] parallel agents within sequential
+- [172:18] agents. Like the world is your oyster.
+- [172:19] You can do whatever you want. So, what
+- [172:20] I'd like to do is first walk through
+- [172:22] what each one of these agents does at a
+- [172:24] high level because I think it's pretty
+- [172:25] cool. And then you'll see how we start
+- [172:27] to save each one of the results from
+- [172:29] these to state and then access all the
+- [172:31] saved information and make a nice
+- [172:32] report. So, let's dive into the CPU
+- [172:34] agent first. And when it comes to best
+- [172:36] practices, what you'll start to know as
+- [172:38] you build larger and larger agent
+- [172:40] workflows is within each agent to keep
+- [172:43] things nice and tidy, you'll first want
+- [172:45] to create your agent.py. And then if
+- [172:47] there's any particular tools that you
+- [172:49] want this agent to use, you usually
+- [172:51] break them out into tools.py file to
+- [172:53] where eventually each folder is going to
+- [172:55] have its own agent.py and its own
+- [172:57] tools.py. So it just keeps things very
+- [172:59] very clean and it keeps your files very
+- [173:01] lightweight. So let's dive into looking
+- [173:03] at the CPU agent where basically what
+- [173:05] it's going to do is all it really is
+- [173:08] going to do is call the get CPU data
+- [173:11] function and this is going to call the
+- [173:14] psutils library. So, this is a library
+- [173:16] that we've already installed and what
+- [173:18] it's going to do is it's going to see
+- [173:19] how many CPUs you have and it's going to
+- [173:22] put all this in a nice dictionary that
+- [173:24] we can return to our agent. So, you can
+- [173:26] see this this is a huge bit of
+- [173:29] information we're going to return. So,
+- [173:30] we're going to turn the CPU stats, we're
+- [173:31] going to return all the cores, we're
+- [173:34] going to return all sorts of information
+- [173:35] back to our agent. And the most
+- [173:37] important thing is let's get out of
+- [173:38] tools. All of that information that we
+- [173:40] get from our tool call is going to get
+- [173:41] saved to CPU information. Great. So now
+- [173:44] let's go look at our next agent which is
+- [173:46] going to be the memory info agent. Now
+- [173:48] our memory info agent once again is
+- [173:51] going to have instructions for like hey
+- [173:52] your job is to go get anything related
+- [173:54] to memory when it comes to the computer
+- [173:56] and you're going to report back usage if
+- [173:58] you know if they're using a ton of
+- [173:59] memory. And in our case we're going to
+- [174:01] have another tool once again going to
+- [174:03] use the psutil library. And we're just
+- [174:06] trying to put as much information in
+- [174:08] this tool call as we possibly can and
+- [174:10] return it in a dictionary because that's
+- [174:12] what ADK likes. It wants our tools to
+- [174:14] return dictionaries with as much
+- [174:16] information as we possibly can for the
+- [174:18] agent to easily read through it. Per
+- [174:20] usual, we're going to save the results
+- [174:21] to an output key so that it gets saved
+- [174:23] to state. And then finally, what we're
+- [174:25] going to do is go over to our disk
+- [174:27] information agent. And what we're going
+- [174:28] to do with our disk information agent,
+- [174:30] pretty much same thing that you've seen
+- [174:31] for everything else. We're going to look
+- [174:32] at what we have saved to our disk. If we
+- [174:35] have too much information saved to our
+- [174:36] disc, we're going to say, "Hey, it's
+- [174:38] high usage." Then finally, we're once
+- [174:40] again calling the PS utils library where
+- [174:43] we're going to check and basically make
+- [174:44] a few requests to see what disk we have
+- [174:46] available and how much we are using for
+- [174:49] each device we have on our computer. So
+- [174:51] all in all, pretty cool code and we're
+- [174:53] going to return all the information. So
+- [174:54] that's everything at a high level for
+- [174:57] all of our parallel agents that are
+- [174:59] going to go work separately because
+- [175:00] there's no reason there's no reason for
+- [175:02] us to do agent one then wait a few
+- [175:05] minutes or a few seconds then call agent
+- [175:07] two then call agent three afterwards
+- [175:09] like all of these can be done in
+- [175:11] parallel to save time. So that's why
+- [175:13] we're doing this. And then finally, once
+- [175:15] all of these agents have gone off and
+- [175:17] saved everything to state, we're then
+- [175:19] going to use the system report
+- [175:21] synthesizer to access all that saved
+- [175:23] information and make a nice report. So
+- [175:25] this is where you can start to see how
+- [175:26] everything comes together. So you can
+- [175:28] say, great, you are here to generate a
+- [175:30] nice report on my system. Here's all the
+- [175:32] raw information you need to know. You
+- [175:34] have access to CPU information that's
+- [175:36] saved to state. You have access to
+- [175:38] memory and disk information that are
+- [175:40] also saved to state. and I want you to
+- [175:42] make a well formatted report is
+- [175:45] basically in markdown that you can then
+- [175:47] show to me. So that's exactly what we're
+- [175:48] doing. So let's run this bad boy so you
+- [175:51] guys can see it in action. So we need to
+- [175:53] go over to our example number 11 for
+- [175:55] parallel agents. And now we can run ADK
+- [175:58] web. When we run ADK web, it's going to
+- [176:01] kick off our server. And you can see it
+- [176:04] already shows us the root agent. And
+- [176:06] just a quick reminder that root agent
+- [176:08] has a parallel workflow for the first
+- [176:10] agent and then the second agent is going
+- [176:12] to be that system report. This is all
+- [176:14] handled under our a sequential agent
+- [176:17] that has a parallel agent and a regular
+- [176:19] one. Okay, great. So what we can say is
+- [176:21] say please get the stats for my
+- [176:24] computer. Now what this will do is it
+- [176:26] will trigger all sorts of states. So we
+- [176:28] should start to see each one of these
+- [176:29] get triggered in parallel. I mean that
+- [176:31] happens so fast it's it's it's hard to
+- [176:32] keep up. See that's the power of
+- [176:33] parallel. But you can see at the same
+- [176:35] time we made requests to each tool where
+- [176:39] normally if we were to not use parallel
+- [176:41] workflows it would have been okay step
+- [176:43] one call get CPU great I got the answer
+- [176:47] now I'll move on to the next one great I
+- [176:49] got the answer cool now I'll go to the
+- [176:51] third one got the answer so as you can
+- [176:53] see this was so much faster from there
+- [176:55] in real time we were getting back all of
+- [176:58] the information in a nice little report
+- [177:00] so each agent was spitting out the
+- [177:02] results so you can see when I click
+- [177:03] Click on this agent. You can see the
+- [177:05] memory. Oh, this is pretty cool. I'll
+- [177:07] I'll zoom out so you guys can see it.
+- [177:08] So, you can see in our parallel
+- [177:09] workflow, we have access to three
+- [177:12] different agents. And you can see when I
+- [177:13] click on each agent, like it just so
+- [177:15] happened that agent two finished before
+- [177:17] agent one because in in parallel
+- [177:19] workflows, order is not guaranteed and
+- [177:21] it doesn't matter because it's all
+- [177:22] happening in parallel. But you can see
+- [177:24] this agent was able to report back how
+- [177:26] much memory I have available, usage, and
+- [177:28] so forth. The next I can see my CPU
+- [177:30] agent said, "Hey, your system has 10
+- [177:32] cores. you're using not a ton. Great.
+- [177:34] And then finally for my disc agent, you
+- [177:36] can see I have like external hard drives
+- [177:38] and everything hooked up. So everything
+- [177:40] looks good. And then finally, when it
+- [177:42] comes to the final report, you can see
+- [177:44] uh cuz these were all wrapped in a
+- [177:45] sequential workflow. So this one was
+- [177:47] step one and this one was step two. So
+- [177:50] you can see step two looked at all of
+- [177:52] the state information. So I can actually
+- [177:54] scoot over here. So you can see in
+- [177:56] example number two, it was given access
+- [177:58] to I can actually go in here and show
+- [178:00] you guys. Yeah. So your job is to be a
+- [178:03] system report information. And then
+- [178:06] right here for CPU information, we
+- [178:08] actually passed in all the information
+- [178:10] from report number one. And then when it
+- [178:12] comes to memory information, we passed
+- [178:14] in everything from report number two. So
+- [178:16] all this got passed in a prompt and then
+- [178:18] it generated this super nice looking
+- [178:19] report for us. So we can get a good
+- [178:21] understanding of what's going on in our
+- [178:23] computer and if we need to do anything
+- [178:25] else. And overall, thank god my
+- [178:26] computer's in good condition. I'd be
+- [178:28] hosed if it wasn't. I wouldn't be upset
+- [178:30] if I got a new computer, though. And uh
+- [178:31] yeah, you can see everything is looking
+- [178:33] great. So this is parallel agents in
+- [178:36] action. And just quick reminder, you
+- [178:38] want to use parallel agents whenever you
+- [178:40] want to do a lot of work at the same
+- [178:42] time. All right, great. So now we are
+- [178:45] almost done, guys. We can now go to our
+- [178:47] final example, which is loop agents,
+- [178:49] which is going to be one of the most
+- [178:51] powerful workflow tools available inside
+- [178:53] ADK. So let's hop over to our final
+- [178:55] example, example number 12. All right,
+- [178:57] give yourself a pat on the back cuz
+- [178:58] you've officially made it to the final
+- [179:00] example inside this ADK crash course.
+- [179:03] And in example number 12, we're going to
+- [179:05] focus on adding in loop agents workflows
+- [179:09] to our toolkit. Now, what we're going to
+- [179:11] focus on in this one is you're going to
+- [179:13] see how you can begin to use loop agents
+- [179:15] to have your agents iterate on a problem
+- [179:17] over and over and over again to solve a
+- [179:19] specific problem until they get an
+- [179:21] answer. This is one of the most powerful
+- [179:23] features in my opinion and it feels a
+- [179:25] lot like how crew AI in lane chain will
+- [179:28] use agents in the react format which
+- [179:30] stands for reason and act where agents
+- [179:32] will continually think about a problem
+- [179:34] and work on it over and over and over
+- [179:36] again until they get an answer. So this
+- [179:37] is a super powerful pattern and in this
+- [179:40] example breakdown we're first going to
+- [179:41] head over to the docs look at what ADK
+- [179:44] recommends then we're going to dive into
+- [179:45] the code and then we're going to run
+- [179:46] this bad boy. So let's hop over to the
+- [179:48] code so you can see everything you need
+- [179:49] to know. Okay, so when it comes to loop
+- [179:52] agents, the main thing you need to know
+- [179:54] is loop agents are basically sequential
+- [179:57] agents but on steroids. And what I mean
+- [179:59] by that is loop agents will continually
+- [180:02] run until we've run out of iterations.
+- [180:05] So like, hey, only try to solve this
+- [180:07] problem five times. So it'll run
+- [180:09] multiple times or until a specific
+- [180:11] condition is met. So we can say, "Hey,
+- [180:13] please continue to search the internet
+- [180:15] until you find five resources that I can
+- [180:18] use for my report." So that's
+- [180:20] continually solving the problem over and
+- [180:22] over and over again until we meet one of
+- [180:24] these criteria. A max iterations or
+- [180:26] until we meet a specific condition that
+- [180:28] we specify. So here's a quick example of
+- [180:30] what ADK recommends. So let's say you
+- [180:33] want to build an agent that can generate
+- [180:35] images of food, but sometimes when you
+- [180:36] generate a specific number of items,
+- [180:38] like five banana, it generates a
+- [180:39] different number of those items in the
+- [180:41] image. So because you have two tools in
+- [180:44] your agent, you know, option one could
+- [180:46] generate the image and then option or
+- [180:48] sorry agent two could count the food and
+- [180:50] basically you would have those agents
+- [180:52] continue to go and work over and over
+- [180:55] and over again until it generated an
+- [180:58] image that you know had the right
+- [181:00] quantity. So that's exactly what you
+- [181:01] would want to do when working with loop
+- [181:03] agents. And they're actually super super
+- [181:05] easy to use, but there is a little bit
+- [181:07] of trickiness when it comes to exiting a
+- [181:10] loop. So that's exactly what we're going
+- [181:12] to cover now in the code. So you can see
+- [181:14] all this in action. So let's hop over to
+- [181:15] the code. Okay. So it's now time to look
+- [181:18] at our final code. So in this example,
+- [181:20] we are focusing on creating a loop
+- [181:23] agent. And if you remember the core
+- [181:25] things to know about loop agents is that
+- [181:28] they exit when one of two things
+- [181:30] happens. First, whenever we hit max
+- [181:33] iterations or whenever we meet a certain
+- [181:36] condition that says we're good, we're
+- [181:38] done. We don't want to work anymore. And
+- [181:40] now it's time to quit. And you'll see
+- [181:42] how we can do that in just a second
+- [181:44] inside of our sub agents. And the other
+- [181:46] thing, the core reminder to note is in
+- [181:49] our sub agents, what happens is we
+- [181:51] always first do this one. We always do
+- [181:54] the first one first and then we always
+- [181:56] go to the second and we just continue
+- [181:57] the cycle over and over and over and
+- [181:59] over again. So what we're also going to
+- [182:01] do is inside of this agent is we
+- [182:04] actually have two parts to it. So part
+- [182:06] one is we are going to create an initial
+- [182:09] LinkedIn post and then part two is going
+- [182:11] to be the loop where the loop is exactly
+- [182:13] what you just saw where we have one
+- [182:15] agent that reviews it and then we have
+- [182:17] one agent that actually implements the
+- [182:19] changes. So that's exactly what we have
+- [182:21] going on in here. So if we were to draw
+- [182:23] this out, step one is generate post and
+- [182:26] then step two is we have our loop agents
+- [182:29] where our first agent is going to review
+- [182:32] and the next one's going to refine and
+- [182:34] it's just going to go in a workflow just
+- [182:36] like this over and over and over again
+- [182:39] until we get that beautiful LinkedIn
+- [182:40] post. So let's start to look at each one
+- [182:43] of these step by step so you can see how
+- [182:45] state is shared amongst all of these
+- [182:47] different agents from our sequential
+- [182:49] agents all the way to our loop agents.
+- [182:51] So let's hop into our initial post
+- [182:53] generator so you can see exactly what
+- [182:55] it's doing. So in this case we're saying
+- [182:57] all right you are a LinkedIn post
+- [182:59] generator and what I would like you to
+- [183:01] do is to create a LinkedIn post about
+- [183:04] agent development kit uh from the
+- [183:06] tutorial that I'm creating for you guys.
+- [183:08] So this is uh hey if you want to take a
+- [183:10] moment to share the post that we're
+- [183:11] going to create mean the world to me and
+- [183:13] also like and subscribe all the
+- [183:15] goodness. And here are the requirements
+- [183:17] for this post. You need to talk about
+- [183:19] how you are excited. here's everything
+- [183:21] that we covered in this tutorial so that
+- [183:23] there are, you know, the agent knows
+- [183:24] exactly what we've worked on together.
+- [183:26] We're also saying here's the style
+- [183:28] requirements, no emojis, no hashtags.
+- [183:30] And then finally, what I want you to do
+- [183:32] is only return the post. Don't do any
+- [183:35] additional commentary, and don't do any
+- [183:37] formatting markers. Just give me the
+- [183:39] post, nothing else. And per usual,
+- [183:40] because we want to save the output of
+- [183:43] this agent to state so that the next
+- [183:45] agents can use it. And that's where
+- [183:47] we're going to use our output key once
+- [183:48] again to save it to state under current
+- [183:50] post. Great. So now let's look at uh the
+- [183:53] agents with inside of our loop agent. So
+- [183:56] our loop agent, the first one that we
+- [183:58] always are going to do and trigger is
+- [183:59] going to be the post reviewer. So the
+- [184:02] post reviewer, let's walk through these
+- [184:04] instructions carefully. First things
+- [184:06] first, we specified that the post we're
+- [184:09] generating needs to be within a,00 to
+- [184:12] 1500 characters. So you need to use the
+- [184:15] character count tool to make sure and
+- [184:17] check the post length. If it's too big,
+- [184:19] too small, we need to do another
+- [184:20] iteration. So this is where we're just
+- [184:22] giving instructions on what to do if the
+- [184:24] length is too big or too small. From
+- [184:26] there, if the length is correct, we then
+- [184:29] want to make sure that our post meets
+- [184:31] all of these criteria. So you want to
+- [184:33] say it mentions my name, it has a clear
+- [184:34] call to action, shows genuine
+- [184:36] excitement, and once again, we want to
+- [184:38] make sure that all of these different
+- [184:40] style requirements are met. If any of
+- [184:42] them don't pass, we need to say, "Hey,
+- [184:45] something went wrong." And if something
+- [184:46] does go wrong for any specific reason,
+- [184:48] you need to return a concise
+- [184:51] instructions on what went wrong. And
+- [184:53] then for whatever reason, if all of the
+- [184:55] requirements are met, if things go well,
+- [184:58] I want you to call the exit loop
+- [185:00] function. And this exit loop function is
+- [185:02] the special case where we can actually
+- [185:05] have our agent break out of the loop.
+- [185:07] So, what I want to do first is look at
+- [185:10] how we're going to count characters.
+- [185:12] Then we're going to look at the exit
+- [185:13] loop so you can see how you can actually
+- [185:15] have your agents quit the loop. And then
+- [185:17] the only other thing I was going to
+- [185:18] mention is obviously in order for us to
+- [185:20] review the agent, we need to access our
+- [185:22] current post in state. Okay, so let's go
+- [185:24] look at our character count tool first.
+- [185:26] And as I mentioned a while ago, as you
+- [185:29] begin to build bigger and bigger agents,
+- [185:31] you want to start to save your tools
+- [185:33] next to your agents in one nice tidy
+- [185:36] folder. So let's look at this. So in
+- [185:37] this case, we're saying, all right, when
+- [185:39] it comes to the count character tool, I
+- [185:41] want you to give me the text and I want
+- [185:44] the tool context. When it comes to, you
+- [185:47] know, looking at if the post is too big,
+- [185:50] we're first just going to call length.
+- [185:53] This is a built-in Python function, and
+- [185:55] we're going to look at the length of the
+- [185:56] entire post. If the length is too short,
+- [186:00] we're going to return a result saying,
+- [186:02] "Hey, I sorry, we're going to say I
+- [186:05] failed." And the reason why is because
+- [186:07] my character count is too tiny. Here's
+- [186:09] the current one. I need you add in an
+- [186:11] additional 20 characters. And then we're
+- [186:13] going to have a nice little message that
+- [186:14] puts it all together where it says,
+- [186:16] "Hey, post is too short. Add this many
+- [186:18] characters. The minimum length is this."
+- [186:19] So, we're just reminding the agent what
+- [186:21] it needs to do. If it was too big, what
+- [186:24] we're going to do is say, "Hey, you
+- [186:26] know, you need to the post is too long.
+- [186:28] Remove this many characters. Here's the
+- [186:30] max length." So, that's all this tool
+- [186:32] does. And outside of that, we're just
+- [186:34] updating the review status to fail if
+- [186:36] any of these requirements aren't
+- [186:38] validated. Finally, if the post is not
+- [186:40] too big or too small, we're going to say
+- [186:42] everything was a pass. And we're going
+- [186:44] to have this tool return a a message
+- [186:46] that says, "Yep, everything passed.
+- [186:48] Here's the character count, and
+- [186:50] everything looked great." So that's what
+- [186:52] the character count tool is going to do.
+- [186:55] Now, we get to dive into the exit loop
+- [186:57] functionality. And this is where you are
+- [187:00] going to have your agents say, "Life's
+- [187:02] good. I'm happy with the result." Quit
+- [187:04] iterating and going over and over in the
+- [187:06] loop. So this is exactly what you need
+- [187:08] to do. All you have to do is accessing
+- [187:11] the tool context that you can pass into
+- [187:14] your tool calls. You are going to say
+- [187:16] tool context actions escalate. And
+- [187:18] escalate, all it does is it exits the
+- [187:20] current loop. Super simple to use. And
+- [187:22] then you just return none. That's all
+- [187:24] you got to do. All right, great. So now
+- [187:26] that you've seen how we can review a
+- [187:28] post, let's look at what happens if
+- [187:30] there is feedback. So we're now going to
+- [187:32] go over to the post refiner agent who's
+- [187:34] responsible for taking in the input and
+- [187:37] acting on it. So we're going to say, all
+- [187:39] right, you are the LinkedIn post
+- [187:41] refiner. Your job is to refine the
+- [187:43] LinkedIn post based on feedback I give
+- [187:45] you. Here's the current post saved to
+- [187:48] state. And what I want you to do is look
+- [187:50] at the feedback that I've given you from
+- [187:53] the previous agent. Because if you
+- [187:55] remember everything's getting saved to
+- [187:57] review feedback. So that's what we're
+- [187:58] accessing right here. Now what we're
+- [188:00] saying when it comes to the actual task
+- [188:01] for this you know hey please apply the
+- [188:04] feedback appropriately to improve the
+- [188:06] post. You know don't get wild don't
+- [188:08] change everything. Keep it as you know
+- [188:10] similar as possible. Here's the
+- [188:11] requirements one more time as you're
+- [188:13] making the feedback changes and then go
+- [188:15] from there. And the job is once it's
+- [188:17] done. So here's like where the loop
+- [188:19] happens. It's going to save the changes
+- [188:21] it makes to current post. So what's
+- [188:23] happening is like first what's happening
+- [188:25] is like we generate the post from there
+- [188:28] we are reviewing the post and then
+- [188:30] refining it and then I don't know why
+- [188:31] it's dropping away like that but once we
+- [188:34] refine the post we're saving the results
+- [188:36] back to current post so that when we go
+- [188:38] to review it again we know exactly where
+- [188:40] to look. Okay great hopefully this makes
+- [188:42] sense. So now that we've seen it all in
+- [188:44] the instructions let's run this bad boy
+- [188:46] so you can see it in action. So let's
+- [188:48] clear everything out. We're going to
+- [188:50] make sure we change directories over to
+- [188:53] the proper folder. So you need to be in
+- [188:55] the final example and you need to make
+- [188:57] sure our environment is activated. And
+- [188:59] now we can run it. So we can just type
+- [189:00] in adk web and this will generate a post
+- [189:04] for us or sorry this will open up the
+- [189:05] browser so that we can generate a post.
+- [189:08] So I'm going to say please generate a
+- [189:11] post saying that this was the best ADK
+- [189:16] tutorial I've ever watched.
+- [189:19] Now, what this is going to do, let's
+- [189:21] make this a little bit bigger for you
+- [189:22] guys. Now, we're going to generate this.
+- [189:25] From there, what we would expect to see
+- [189:26] is our initial
+- [189:28] postgenerator agent go off and run. And
+- [189:31] this is where it will make a initial
+- [189:33] rough draft of saying, "Hey, AI with
+- [189:35] Brandon did an awesome job. I learned a
+- [189:38] ton." But you can see I'm going to let
+- [189:40] it run cuz it's it's doing its loop
+- [189:41] thing. Yeah. Okay. So, now we can start
+- [189:43] to look at it. So, you can see it took
+- [189:45] its first attempt. It did a pretty good
+- [189:47] job. like this is a really nice looking
+- [189:49] rough draft. Then we had our second
+- [189:52] agent start to go through and count
+- [189:55] characters. So you can see at this point
+- [189:57] what's happening is we're at this step.
+- [189:59] So the initial post generator sorry yeah
+- [190:01] the initial post generator already ran
+- [190:03] right here and now we are already in
+- [190:06] post refinement specifically we are
+- [190:08] looking at the post reviewer and the
+- [190:10] post reviewer always counts characters
+- [190:12] and we can see oh it looks like this
+- [190:14] post is too short. you need to add more
+- [190:16] details to meet the minimum length. From
+- [190:19] there, the refiner agent takes in all
+- [190:22] the information and generates a much
+- [190:24] longer post. Except this time, it went
+- [190:27] way too hard. So, you can now see in the
+- [190:28] count character tool, you know, hey,
+- [190:30] this post is way too long. You need to
+- [190:32] remove like almost half the characters.
+- [190:34] This is crazy. So, then it does it again
+- [190:37] where this time it does a pretty much a
+- [190:39] lot better job. And this time, you can
+- [190:41] see it counted the characters. Things
+- [190:43] are looking great. Now we are in a state
+- [190:47] to where this post now basically this
+- [190:50] post reviewer so this is the output from
+- [190:52] post reviewer it says this post mentions
+- [190:54] Brandon it talks about everything it
+- [190:56] needed to and then because everything
+- [190:58] looked good we can now exit the loop so
+- [191:01] we should be able to see our final state
+- [191:03] in here so if we go to state this is the
+- [191:07] final output of our agent where this
+- [191:10] post has all the core requirements where
+- [191:12] it's not too long it's not too short and
+- [191:15] everything looks great. So you can see,
+- [191:17] yep, this is so excited. It talks about
+- [191:19] everything, you know, I've been
+- [191:21] brainstorming. Yeah, everything about
+- [191:22] this post is just like what you would
+- [191:24] need to do because it meets all our
+- [191:25] criteria. So yeah, that is our loop
+- [191:28] agents in a nutshell. And just a core
+- [191:30] quick core reminder, the way it worked.
+- [191:32] So you remember the core lessons is loop
+- [191:35] agents will continually work until one
+- [191:37] of two things happens. First, it will
+- [191:40] exit if we iterate too many times and
+- [191:41] it'll say, "Hey, I was unable to get you
+- [191:43] the answer you wanted." Or option two is
+- [191:46] when the agent it does everything it was
+- [191:48] supposed to and we call exit loop where
+- [191:51] all we do is escalate to say escalate
+- [191:53] true and we'll break out of the loop.
+- [191:55] But yeah, you guys are now officially
+- [191:57] experts at working with all sorts of the
+- [191:59] different workflows and everything else
+- [192:01] when it comes to creating ADK agents.
+- [192:03] And just a few quick reminders, you can
+- [192:05] download all the source code that you
+- [192:06] saw today completely for free. Just
+- [192:08] click the link down the description
+- [192:09] below. Also, if you have any questions,
+- [192:12] you can either drop a comment down
+- [192:13] below, or you can head over to the free
+- [192:15] school community I created for AI
+- [192:17] developers just like you, where you can
+- [192:18] hop on our weekly free coaching calls
+- [192:20] and get direct feedback from me so we
+- [192:22] can get you unstuck and moving forward.
+- [192:24] But that's for this video, guys, today.
+- [192:26] And I have a ton of other AI related
+- [192:28] content on this channel and a bunch more
+- [192:30] tutorials coming out for more ADK
+- [192:32] content. Definitely recommend checking
+- [192:34] out all the other videos I have and
+- [192:35] whichever videos are popping up right
+- [192:36] now on the screen. But until the next
+- [192:38] one, can't wait to see you guys. Have a
+- [192:39] good one. Bye.

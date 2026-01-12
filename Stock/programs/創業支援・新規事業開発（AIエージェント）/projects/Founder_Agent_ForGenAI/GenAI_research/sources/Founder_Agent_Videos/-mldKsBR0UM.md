@@ -1,0 +1,245 @@
+---
+title: "YouTube Video: -mldKsBR0UM"
+video_id: "-mldKsBR0UM"
+video_url: "https://www.youtube.com/watch?v=-mldKsBR0UM"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  Agentic AI using large language models or generative AI is a powerful architecture, no question, uh, but large language models have well- known issues and ... and constraints. And so if you want to so...
+key_points:
+  - "conversation. So first and foremost, I'm going to need some kind of chat agent that they can talk"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: -mldKsBR0UM
+
+- URL: https://www.youtube.com/watch?v=-mldKsBR0UM
+- Retrieved at: 2025-12-30T09:16:46+09:00
+
+## Text
+
+- [00:00] Agentic AI using large language models or generative AI is a powerful architecture, no
+- [00:06] question, uh, but large language models have well- known issues and ... and constraints. And so if you want
+- [00:12] to solve complex problems, you're going to want to adopt what's called multi-method agentic AI,
+- [00:18] which combines large language models with other kinds of proven automation technologies so that
+- [00:24] you can build more adaptable, more transparent systems that are much more likely to survive
+- [00:29] regulatory scrutiny. So, as we said, large language models are a great tool right there. They're a
+- [00:34] wonderful tool in your toolbox, but they need to be not the only tool in your toolbox. You need to
+- [00:39] be able to combine them with things like workflow, to manage state or uh, decisions and business rules
+- [00:46] so that you can give explicit instructions to uh, to your agents. You need to be able to provide
+- [00:52] machine learning and other kinds of analytics so that you can build a robust solution that solves
+- [00:59] complex problems inside your agentic framework. So to illustrate this, I'm going to pick a complex
+- [01:06] problem, in this case, how does a bank decide to lend you money. So I have a bank, and it's got
+- [01:12] money that it wants to lend people. How does it decide that a particular person, that someone I'm
+- [01:17] going to have borrow money, is n ... a suitable person to lend the money to? So let's think about that
+- [01:24] in an agentic AI framework. So, the customer now doesn't want to use traditional systems anymore. They
+- [01:30] don't want to sit in front of a long form and forget all these details. They want to have a
+- [01:34] conversation. So first and foremost, I'm going to need some kind of chat agent that they can talk
+- [01:38] to. Now, our chat agent is a classic use case for large language models. They work great. They're
+- [01:44] really good at understanding what you're saying and ... and your intent and the voice you use and speak
+- [01:48] different languages and so on. Now, these are going to be there for large language model agents. So as
+- [01:53] chat agents are going to be a large language model agent. And in this particular case, I'm going
+- [01:57] to assume that I'm going to configure this agent not to try and have a whole conversation with you,
+- [02:01] but just to try and figure out what it is you're asking. And generally, you're going to either ask a
+- [02:06] question or you're going to ask ... tell the bank you want to ... to do something. These are the two things
+- [02:10] you're likely to do. So this chat agent is going to be prompted, configured so that it attempts to
+- [02:15] take your inputs and turn them into something that it can, uh, you know, pass on to the bank's
+- [02:22] agentic AI framework to say, this is what this person wants us to do, or this is the question
+- [02:26] this person is trying to answer. So, uh, let's take this particular person now. Let's say they want to
+- [02:32] borrow money, but they want to borrow money for a boat. So, what they want to do is they want to buy
+- [02:36] themselves a nice new boat. And so they have a question, which is can they borrow money for this
+- [02:42] boat? So this is a question. So now the chat agent takes their text which might be misspelled or
+- [02:47] mistyped or long-winded and says, oh, this person's asking the question about loan policy. What will
+- [02:52] we lend money for? And so it's going to pass that on into the system. Now, the next agent in this
+- [02:59] network needs to decide what to do. And so generally what that means is it's going to look
+- [03:04] to find another agent that can act for you. So these are often called orchestration agents. So we
+- [03:10] call this an orchestration agent. It's also going to use a large language model. All the large
+- [03:14] language models are in green. And that large language model is going to go look in some kind
+- [03:18] of registry where it's got a list of all the available agents uh, defined so that it can say, okay,
+- [03:25] go look in the registry, see if you can find an agent that seems to deal with whatever this
+- [03:29] question is. Uh, and then that a ... registry will also have some kind of standard definition for how to talk
+- [03:35] to these other agents. So now my orchestration agent can take the request about loan policy and
+- [03:40] say, okay, I need to look in the registry and find an agent that can deal with loan policy. So, in
+- [03:45] this case it's going to go say, okay, look, there's a ... there is in fact a loan policy agent. Now this
+- [03:51] is another large language model. And this one's using uh, this is sort of going to be to ... to take the
+- [03:55] bank's documents, and tell you what they say in some more intelligible fashion, rather than
+- [04:00] reading the whole set of documents. And these are generally going to be using what's called
+- [04:04] retrieval augmented generation, RAG. So I've got lots of documents and these might be product
+- [04:08] descriptions, they might be uh, risk policies, they might be uh, marketing materials, all sorts of
+- [04:14] different things. They've got this large volume of ... of uh, material, all these documents. And I'm going to use it
+- [04:20] to power an answer to you that's more helpful than just giving you the document itself. Now,
+- [04:25] these documents in most large systems are going to be stored in some kind of file management
+- [04:29] system ... And that file management system enables me to take different collections of ... of documents,
+- [04:36] because I'm going to have huge numbers of these documents potentially, different collections of
+- [04:40] these documents, and vectorize them, put them in a vector database and deliver them to different
+- [04:45] agents that you're going to use RAG to answer different questions. So I've got one set of
+- [04:48] documents designed to answer the ... the loan policy question, but I might have several other agents
+- [04:54] answering different kinds of policy questions that use different subsets of my documents. And
+- [04:59] all my documents are going to be kept up to date using the sort of normal file management kind of
+- [05:03] stuff. Documents come in, they get added to the repository, they get updated, they get removed from
+- [05:08] the repository. And so, I ... I've got an automated process that keeps all my policy agents up to
+- [05:13] date, revitalizes the database, resubmits them, retrains them so that at any given time, I've got a
+- [05:19] collection of policy agents that can answer policy questions. So now the orchestration agent
+- [05:23] says I've got this loan policy question, I've got a loan policy agent, I'll pass the question on, and
+- [05:28] it gets back an answer which explains in natural language with references to these documents how uh,
+- [05:35] the bank reviews lending money for powerboats. And so now I can pass that on to all the way back up
+- [05:40] my chain and tell ... tell the customer. So now I said to the customer, great, um, yes, this is our
+- [05:46] policy, this is when we lend money, this is the kind of boats we lend money on, how much we land,
+- [05:50] all those kind of questions. So this is all so far, so good. Now, so far, I've only needed to use large
+- [05:55] language models because I'm really just interacting with the customer, chatting with the
+- [05:58] customer. But now the customer says, okay, how do I ... I want to apply for this loan. How do I apply for a
+- [06:04] loan? So now they want to do something. They want us to not just uh, tell them about it, and they want
+- [06:10] us to actually sell them a loan. They want ... yeah ... and we want our agents to get to handle this. We don't
+- [06:15] want the agents to have to say stop at this point and say, oh, you want us to do something, you have
+- [06:19] to talk to somebody. We want our agents to be able to sell on our behalf. We want them to be able to
+- [06:23] act, do something concrete, in this case, fulfill a loan. Okay, so now this ... this question goes through
+- [06:29] our chat agent and again goes back to the orchestration agent. And the orchestration agent says, okay, I've
+- [06:34] got a loan application agent. I bet that's what I need. So it goes and finds this loan application
+- [06:38] agent. Now, the loan app is a more complex agent. So think about loan
+- [06:45] applications. There's lots of ... lots of steps, lots of data I have to collect. The likelihood is
+- [06:49] you're not going to complete it in one sitting. Yeah, you might have to go look for a document, you
+- [06:53] might have to go pick up the kids from school. Any number of reasons you might get interrupted. So, a
+- [06:58] loan application agent has got to remember state. It's got to remember how far you've got, what the
+- [07:02] next step is. It's got to understand how all this works. And LLMs generally are not very good at
+- [07:08] this kind of stuff. So what we're going to use is ... is an agent based on a workflow technology, a
+- [07:13] workflow platform. Now, workflow platforms are software infrastructure that manages, you know,
+- [07:18] processes, workflows. They typically have a definition of the flow in a visual model like
+- [07:23] business process model and notation BPMN that lays out the steps in the process. And then they g ...
+- [07:29] have a database where they create an instance every time a customer starts a process, so they
+- [07:34] can keep track of how far each customer has got through the process from start to completion or
+- [07:39] abandonment. And so they manage this state for us and give us a way, therefore, to know exactly how
+- [07:44] far you've got and let you restart and ... and reengage the process. And then they can throw out ones that
+- [07:49] get too old and all those good things. So now I have an agent, but it's going to be built on a
+- [07:54] workflow technology. Uh, and then almost certainly we're going to use something like MCP, the model
+- [07:58] contact protocol, to expose that workflow technology as an agent so that I can consume it
+- [08:03] as an agent. So now, the orchestration says, okay, um, what you need to do is ... is start this loan
+- [08:09] application agent. So it's going to go ahead and start it, and then it's going to respond to
+- [08:13] whatever the loan application tells it to do next, and pass it on to the customer and interact with the
+- [08:17] customer. Now ... so this is our first agent that doesn't need a large language model; this needs a
+- [08:21] workflow technology. Now this workflow is going to have a set of steps in it. And one of the first
+- [08:26] things it's going to want to do is determine if this customer is eligible for a loan. Now we have
+- [08:31] obviously, um, you know, we've told the customer what the policy is, but what we haven't done
+- [08:38] is establish that this customer is actually eligible for a loan. We haven't applied the policy
+- [08:44] to this customer. And this is uh, typically a decision agent. Now, a decision agent uh, is also generally
+- [08:50] not a good candidate for large language models, because if you're in any kind of uh, serious
+- [08:55] organization, you want to always make decisions consistently, right? You want to apply the same
+- [09:01] logic to each customer. You don't have to make the same ... give each customer the same answer, but you
+- [09:05] have to follow the same logic when you come up with an answer for each customer. You've often got
+- [09:09] to be transparent about this, you've got to be able to explain it to regulators, to auditors, to
+- [09:14] people who run the business. And large language models are not good at either of these things. So
+- [09:19] generally, we're going to use a business rules management system or a decision platform uh, that
+- [09:23] enables us to uh, manage all the logic behind one of these and again, deploy it at services that we can
+- [09:29] map in MCP and make available to our agent. So this eligibili ... eligibility agent is going to
+- [09:35] take a set of data from the workflow and say given that set of data, is this person eligible or
+- [09:41] not. So the workflow agent is going to have to access data. Now it might get that data from the
+- [09:47] chat conversation you've had with the chat agent and so on. But it may almost, almost certainly have
+- [09:52] to look up additional data. So it's going to go get customer data, uh, data from your internal systems.
+- [09:56] And again uh, that's going to use data technology exposed through MCP. So you have a data agent. So
+- [10:02] now the loan app goes and gets that data, passes it to the eligibility and gets a response back. So
+- [10:06] now I've got a sense that you are in fact eligible for this loan. Good news, you're eligible, chatbot
+- [10:11] is having a nice conversation with you. And it feels like a natural conversation to the
+- [10:15] customer. But behind the scenes, it's being managed in a very concrete, reliable way. So now, you're
+- [10:22] eligible and you say, great, um, you know, then you keep going through the process and the loan
+- [10:27] application process, you know, it might be talking to the orchestration agent, but more likely it's
+- [10:31] got a concrete definition for all these pieces. And the next piece in the process is going to be
+- [10:37] to actually decide if it's going to loan you the money or not, the ... the ... the origination decision as
+- [10:42] it's called. So, you know, you're eligible for a loan. Now you have to tell me exactly what you
+- [10:48] want the loan for. And I'll tell you if I'll lend you money and on what terms I'm going to lend you
+- [10:53] money. Now, that loan decision, what are the critical things it needs to know is ... uh, you know,
+- [11:00] your credit bureau data. It needs to know what asset you want and so on. So there are other data
+- [11:04] elements. So we might get another data agent to go get your credit bureau data, for instance. Um, we're
+- [11:09] going to pass all this data to the loan. But we need to know the asset. What are you borrowing
+- [11:14] money for? What is it you want to buy? And so, uh, the orchestration agent uh, needs to find that out. And so
+- [11:21] it's going to ask the customer do you have an ... an asset you want to buy. And the customer says, yes, I
+- [11:25] have this boat. But the orchestration agent's now got two choices. They can either ask you to fill
+- [11:29] in a whole bunch of forms or chat in ... interminably about this boat, but it recognizes that it's got
+- [11:35] another kind of agent—it's got an ingestion agent. And the document ingestion
+- [11:42] agent's job is to take a document and turn it into data we can process. And so it says, well, do
+- [11:47] you have a document describing this boat. And in fact, I do. I have a brochure and this brochure has a
+- [11:53] ... has a little picture of the boat. Yes, it's got a little picture of the boat and it's got a bunch
+- [11:57] of information about the boat— how old the boat is, how big it is, what it weighs. And uh, it's got a sort
+- [12:01] of handwritten uh, number on it, which is the price the guy at the dealership gave me. And perhaps his
+- [12:05] business card is stapled to it. Um, so it's got all the information I need. And so the agent says,
+- [12:11] great, go ahead and take a photo of that, scan it or whatever and pass it to my document ingestion
+- [12:16] agent. And now what the document ingestion agent is going to do is it's going to take the requirement—
+- [12:21] What does the loan application agent need to know about an asset? And then it's going to look at the
+- [12:27] document and see how much of that information it can find. Now large language models are
+- [12:32] tremendously good at this. It doesn't matter if the brochure was printed on a cheap printer and I
+- [12:36] p ... pulled it out too fast so the back page is a bit blurry, and then I've stapled a business card to
+- [12:41] it and he's handwritten the number to it. It will work through all of that complexity and extract
+- [12:47] data from it. They're remarkably good at this. So this ingestion agent sucks all the data out of
+- [12:51] the brochure and says, great, you know, here's what I found. And it passes that on to the ... to the rest ... back to
+- [12:57] the loan application. And that says, okay, that's the complete definition of the asset. I know what
+- [13:03] kind of boat it is, how old it is, how much it costs and which it weighs, what size it is. And
+- [13:07] that was the set of data I needed about the boat. So now I'm good. I've got the credit bureau data
+- [13:12] from the credit bureau, I've got your uh, bank data from you as a customer, and I've got this brochure
+- [13:17] about the asset. Now I can go ahead and make a decision for you. So, uh, I'm using large language
+- [13:23] models to find out what you want, I'm using large language models to help me get data in very
+- [13:28] quickly, but I'm relying on workflow and decision agents and data agents to do the sort of heavy
+- [13:32] lifting of the decision in the background. There's another use case for large language models. So
+- [13:38] when I start getting into uh, human interaction again. So let's say that uh, the answer comes back from the
+- [13:44] loan decision that we're not 100% sure we want to lend you the money. Uh, lots of decision agents are
+- [13:51] like this. They have a yes, no, maybe kind of cadence. Yes, we will; no, we won't; maybe we will. But
+- [13:56] we have to clarify. So the loan application comes back and says, hey, customer, we're going to need
+- [14:01] you to talk to a customer service rep, uh, someone in our call center and resolve some
+- [14:06] inconsistencies or some issues that are in your application. And the customer says, you know, I'm
+- [14:10] too busy, I gotta, I gotta go, um, I'll check back in. And they leave. They leave the chat, they leave the
+- [14:16] conversation. Now this is okay, right? Because remember we're using a stateful loan application
+- [14:21] so we know how far they got. We know what the next step is. And so when they come back later and say,
+- [14:26] hey, I'm back, uh, can I restart my loan application, the chat app, the chat can say, okay, they want to
+- [14:32] restart a loan application. orchestration agent knows, it goes, talk to the loan application
+- [14:37] and the loan application agent says, yep, I got a loan application process in flight for that
+- [14:41] customer. Uh, once you've authenticated them, I'll tell you where we got to. And where we got to is
+- [14:45] they have to talk to the call center. So they say, fine, I'm ready this time. So now we have a call
+- [14:49] center rep. Now they work for the bank, and their job is to resolve whatever this issue was. And
+- [14:56] two more use cases for large language models occur at this point. The first is what you might
+- [15:01] call a ... a companion, um, agent. You know, we used to call these copilots, but obviously Microsoft made
+- [15:08] that a bit more complicated. Uh, so we have these companion agents, and their job is to help this
+- [15:12] person. And the reason they need one is that by this point, a lot of information about you—there's
+- [15:18] all your bank records, there's your credit bureau records, there's the application you find, there's
+- [15:22] the information about the boat ... There's all this information about you and about your application, and
+- [15:26] this, um, agent needs to be able to quickly answer questions about that information, access
+- [15:33] information. So it's a classic large language model looking at this collection of information
+- [15:38] about you, some in documents, some in databases, and making sure it knows how to answer. That may also
+- [15:43] refer to some of the policy documents, uh, access the ... the policy agent. So it ... it's got access to the rest of
+- [15:50] the sort of corpus that you have as a bank. And one of the other large language models is going
+- [15:54] to immediately talk to is what we call an explainer agent. So decision agents, one of the
+- [16:00] reasons we use decision technology to build decision agents is that they are good at
+- [16:06] explaining, documenting how they made the decision. So unlike a large language model, which can be a
+- [16:10] bit black box, uh, a decision agent is going to be built on a decision platform that very explicitly
+- [16:16] records exactly how it came up with the answer it came up with So in this case, I have a log of
+- [16:22] exactly why we said maybe to this customer, but it's an internal log. It's designed f ... for the
+- [16:28] bank to understand why you got to. Maybe it's not necessarily going to mean anything to the
+- [16:33] customer. You might talk about a loan policy that you're in breach of or something, but it's going
+- [16:37] to use internal terminology for this stuff. So what an explainer does is basically turn that
+- [16:42] into a natural language explanation for the call center rep. So here's what that log means, so that
+- [16:49] when you talk to the customer, you can explain aah, the problem here is that your credit bureau
+- [16:53] says this. But the W-2 you sent us says that, right. And so they ... they ... they can get a natural language
+- [16:58] explanation of what the issue is. So they ... they then work with the customer, they're adding new data to
+- [17:04] the system, they're working with their companion agent, they eventually resolve all of this. And
+- [17:09] then, uh, they don't approve the loan; what they do is they resolve the issue. Once they resolve the
+- [17:15] issue, they tell the loan application agent I resolved the issue, and it retries the decision
+- [17:20] again. That's how the process is set up. You resolve the issue, I resubmit it to the loan
+- [17:25] application. This time it says yes. And lo and behold, now you get the money so you can go off
+- [17:31] and buy your boat.

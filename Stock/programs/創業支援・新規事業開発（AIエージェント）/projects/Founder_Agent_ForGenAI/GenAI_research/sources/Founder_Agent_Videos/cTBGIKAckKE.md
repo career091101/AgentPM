@@ -1,0 +1,1288 @@
+---
+title: "Everyone is building AI agents nowadays but most of them remain stuck in prototyping phase. If you w..."
+video_id: "cTBGIKAckKE"
+video_url: "https://www.youtube.com/watch?v=cTBGIKAckKE"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Anthropic"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Product Development"
+summary: |
+  Everyone is building AI agents nowadays
+  but most of them remain stuck in
+  prototyping phase. If you want to unlock
+key_points:
+  - "Everyone is building AI agents nowadays"
+  - "scale. And there is one platform that"
+  - "name of that platform is Amazon Badrock"
+  - "Agent Core. In this beginner-friendly"
+  - "tutorial, we are going to first build"
+  - "customer care AI agent using Langchen"
+  - "and Langraph. Then we will deploy it and"
+  - "core environment. We are going to cover"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: cTBGIKAckKE
+
+- URL: https://www.youtube.com/watch?v=cTBGIKAckKE
+- Retrieved at: 2025-12-30T11:38:40+09:00
+
+## Text
+
+- [00:00] Everyone is building AI agents nowadays
+- [00:02] but most of them remain stuck in
+- [00:04] prototyping phase. If you want to unlock
+- [00:06] a real business value out of it, you
+- [00:09] need to deploy them to production at
+- [00:11] scale. And there is one platform that
+- [00:14] allows you to build, deploy and operate
+- [00:16] these AI agents in a secure manner. The
+- [00:19] name of that platform is Amazon Badrock
+- [00:22] Agent Core. In this beginner-friendly
+- [00:24] tutorial, we are going to first build
+- [00:26] customer care AI agent using Langchen
+- [00:29] and Langraph. Then we will deploy it and
+- [00:32] operate it from Amazon Bedrock Asian
+- [00:34] core environment. We are going to cover
+- [00:36] all the essential features of this
+- [00:38] platform and in the end we are going to
+- [00:41] announce one challenge. The top 20
+- [00:43] winners of this challenge will get $250
+- [00:46] of AWS credit. All right, let's get
+- [00:49] started. Let's look at the problem
+- [00:51] statement of our project. There is this
+- [00:53] company called Loki phones which is in a
+- [00:55] wireless calling business similar to
+- [00:57] Verizon or Reliance Jio and they want to
+- [01:00] build an AI agent that can answer the
+- [01:03] customer's questions. So right now they
+- [01:06] have this uh CSV file with questions and
+- [01:08] answers. So right now the human agents
+- [01:11] that they have whenever customer is
+- [01:13] calling uh the call center and when they
+- [01:16] ask any question they refer to this CSV
+- [01:18] file. So this is their knowledge base.
+- [01:20] Okay. So we are going to use this
+- [01:22] knowledge base to build an agent in
+- [01:25] langraph using rag agentic rag actually
+- [01:29] and once that agent is built we will
+- [01:32] deploy it and operate it using agent
+- [01:34] core environment. This diagram
+- [01:37] highlights the main capabilities of this
+- [01:39] platform. You will first build an agent
+- [01:42] using any framework of your choice
+- [01:45] langraph crewi etc. So you are
+- [01:48] essentially writing the code in any of
+- [01:50] these frameworks.
+- [01:52] Then you will use some of these
+- [01:55] capabilities to build the agent. For
+- [01:57] example, you need memory for your agent.
+- [02:00] Then you use this memory feature of
+- [02:02] agent core platform. You can also use
+- [02:06] code interpreter browser which are the
+- [02:09] built-in tools.
+- [02:11] You may want to call external rest API
+- [02:14] or MCP server. And for that you can use
+- [02:18] gateways. For inbound and outbound
+- [02:21] authorization you will use identity.
+- [02:25] And you don't want to run your agents
+- [02:28] without setting up the proper
+- [02:30] boundaries. For example, if a customer
+- [02:32] is issuing a refund beyond certain
+- [02:35] threshold, then you want to stop there.
+- [02:39] And to do that, you will use policies.
+- [02:42] So you can have a policy which will say
+- [02:44] that do not allow to issue refund beyond
+- [02:48] certain threshold. So these are the
+- [02:49] resources you will use along with the
+- [02:52] code which is written in any of the
+- [02:54] frameworks to build an agent and then
+- [02:57] you will deploy it using runtime. Once
+- [03:00] the agent is deployed when you want to
+- [03:02] monitor it you will use the
+- [03:04] observability feature. So here you can
+- [03:06] monitor and debug your agent. You can
+- [03:09] also use this evaluation feature here.
+- [03:11] By using pre-built evaluators and custom
+- [03:14] evaluators, you can figure out how good
+- [03:17] your agent is. So there are three
+- [03:20] essential highlights here. The first one
+- [03:23] is time to value. See, you are just
+- [03:25] focusing on the business value that your
+- [03:29] AI agent is delivering. You don't have
+- [03:31] to worry about your infrastructures and
+- [03:34] operational headaches. Okay. So you know
+- [03:37] that AWS platform is very popular
+- [03:39] because uh in general it helps you avoid
+- [03:43] those operational and infrastructure
+- [03:45] headaches for your regular software
+- [03:48] developments. Similarly agent core will
+- [03:51] help you remove the headache of
+- [03:53] infrastructure and op management for
+- [03:56] your AI agent. The second key highlight
+- [03:59] here is it is very flexible. You can
+- [04:02] create your AI agent using any framework
+- [04:05] or model. And the third one is it is
+- [04:08] trusted. Okay, there are uh security
+- [04:11] guardrails. There is AM authentication.
+- [04:15] You can deploy them. They can scale
+- [04:18] well, right? In the end, it's AWS. So
+- [04:20] you can scale them in a reliable manner.
+- [04:23] We are going to explore all these
+- [04:25] features when we build, deploy, and
+- [04:29] operate our AI agent. All right. So as
+- [04:31] the next step we are going to now do the
+- [04:33] gro setup, hugging face setup and we
+- [04:36] will start building the agent in
+- [04:38] langraph. Hugging face is a platform
+- [04:41] that allows you to access variety of
+- [04:43] models and data sets for free. We are
+- [04:46] going to be creating an account by
+- [04:48] clicking on this sign up link and having
+- [04:51] this account created will give you the
+- [04:53] HF token and we can use HF token later
+- [04:56] on in this video. I have given my email
+- [04:59] id and password. Let's click on next and
+- [05:03] here
+- [05:04] just give your name right full name
+- [05:09] uh you can give other details if needed
+- [05:12] and then create an account you'll go
+- [05:14] through some verification some more
+- [05:17] verification and success okay now check
+- [05:21] your email so I'm going to open my email
+- [05:26] in another link
+- [05:29] and
+- [05:31] copy paste that particular link which I
+- [05:34] got from my got in my email and your
+- [05:37] address has been verified. Now here you
+- [05:41] can go to access tokens and create a new
+- [05:44] token.
+- [05:46] So it has three type of tokens. We are
+- [05:48] going to be using read because we'll be
+- [05:50] using the the read operation mainly. So
+- [05:53] just give a token name. You can say
+- [05:56] agent code tutorial
+- [05:59] whatever just just just say something
+- [06:02] and then copy that and save it at a safe
+- [06:05] place. For LLM we are going to be using
+- [06:08] this Gro platform. It's a free cloud
+- [06:11] platform that allows you to use all
+- [06:13] these amazing models. Look at this
+- [06:15] GPTOSS Lama all of that. Creating an
+- [06:19] account is pretty straightforward. You
+- [06:20] can use Google or your email and just
+- [06:24] create an account. Once the account is
+- [06:26] created, go to API keys and create a new
+- [06:29] API key and note down that API key at
+- [06:32] some secret place. This is like your
+- [06:34] password and we will be using that API
+- [06:37] key later on. While we are going to use
+- [06:39] Grock for this learning project, many
+- [06:42] companies which are in AWS ecosystem
+- [06:45] prefers Amazon Badrock for LLMs. Bedrock
+- [06:49] provides so many different LLMs. So you
+- [06:52] can click on this and you will see see
+- [06:56] all these models. You have Claude Opus,
+- [06:58] Amazon Nova, Quain you have so many
+- [07:03] different models that you can choose
+- [07:05] from and for enterprise setup staying in
+- [07:08] same ecosystem makes so many things
+- [07:11] easier for your project. Let's create a
+- [07:13] folder to store our code. So here I will
+- [07:18] create a folder called agent core
+- [07:22] tutorial.
+- [07:23] Okay. And we are going to provide you
+- [07:26] all the code of uh this uh complete
+- [07:30] video and that code is in agent course
+- [07:33] uh crash course. So if you check the
+- [07:35] video description below you'll be able
+- [07:37] to download this entire directory and
+- [07:40] from this I want you to copy pi
+- [07:43] project.toml toml file and also loi qna
+- [07:47] csv file. Okay. So let's Ctrl C these
+- [07:50] two file. Actually the third file is
+- [07:52] sample env. Ctrl C and put this here.
+- [07:59] Then launch the ID of your choice. I
+- [08:02] like PyCharm. And in PyCharm I'm going
+- [08:05] to open that project. So that project is
+- [08:08] where it is in C code directory. It is
+- [08:13] called agent core tutorial. So I'm
+- [08:16] selecting that folder. I'm going to open
+- [08:19] it. Okay. So I have this different code
+- [08:22] window. So I'll move it here. And then
+- [08:27] this is the project where I'll be doing
+- [08:30] my work. So we're going to first create
+- [08:32] the local agent. Okay. And we will be
+- [08:36] using UV as a package manager for
+- [08:39] Python. Now UV is a alternative of pip.
+- [08:43] Okay. It allows you to install the
+- [08:45] packages and so on. So go to their
+- [08:48] website if you have not already
+- [08:51] installed it. You can go to their
+- [08:53] website and you can install it. See I'm
+- [08:55] in Windows. So I'll go to my PowerShell.
+- [08:57] Okay. So you can open your PowerShell
+- [09:01] power shell from your command prompt and
+- [09:04] in that PowerShell just copy paste this
+- [09:07] this command and it will install it.
+- [09:10] Okay. So UV is installed for me and now
+- [09:13] I will go to terminal and in this
+- [09:16] particular folder I will call it UV in
+- [09:19] it. Okay. So here project is already
+- [09:23] initialized in this. Okay. So this file
+- [09:26] is already exist because this toml file
+- [09:28] exist. It will say okay this project is
+- [09:31] initialized. Okay. So that is fine. Now
+- [09:33] you will say uv sync. So what this will
+- [09:36] do is so let me open pi project toml. So
+- [09:39] see here I have specified all the
+- [09:41] dependencies for this project you know
+- [09:43] all the modules we need lang chain lang
+- [09:45] graph sentence transformer and so on. So
+- [09:48] when you say uv sync it will read that
+- [09:51] pi project toml file okay and it will
+- [09:54] install all of it. If you want to add
+- [09:56] any additional package, right? Like you
+- [09:58] can just say whatever.
+- [10:01] For example, let me just let me just
+- [10:04] type the same thing like lang for
+- [10:06] example
+- [10:10] and see. So this way it will initialize
+- [10:14] the environment for you and it will uh
+- [10:18] install essentially all these
+- [10:20] dependencies for you. The next thing you
+- [10:22] will do is look at this sample env file.
+- [10:25] Okay. So, Ctrl Ctrl +V you will copy it
+- [10:30] as env file and in this file put your HF
+- [10:35] token and grow KPI key. We already got
+- [10:38] the values of these two. Okay. So, just
+- [10:39] copy paste the token and API key. Okay.
+- [10:42] So, I set those things up. Now, let's go
+- [10:45] to agent core crash course directory and
+- [10:48] copy this 00 langraph agent.py pile.
+- [10:51] Okay. So, we are going to copy this here
+- [10:56] and then I will go open this file. Now,
+- [11:00] see this is the simple agent that we
+- [11:03] have created and what this agent is
+- [11:05] doing is a pretty simple thing. We have
+- [11:08] this Loki Q&A CSV file, right? So, let
+- [11:11] me open it in a Excel so that it's uh
+- [11:14] there is a better visibility of it. It
+- [11:17] is just a question and answer pairs for
+- [11:20] this particular company. Okay. Any
+- [11:22] customer department in any company will
+- [11:25] have this kind of FAQ. Okay. If customer
+- [11:27] ask question how long does activation
+- [11:29] take? Okay. Give this answer. Okay. So
+- [11:32] we have this particular file here and we
+- [11:37] are reading that file. See load faqsv.
+- [11:41] So we are reading that file by calling
+- [11:44] this uh load faqsv function. See here we
+- [11:48] are loading that this particular file.
+- [11:50] Then we are using hugging face embedding
+- [11:54] sentence transformers. Okay we are also
+- [11:56] using this rag approach. Now if you
+- [11:58] don't know how rag works we have many
+- [12:00] other tutorials. I'm going to provide
+- [12:02] you a link. So the purpose of this video
+- [12:04] is not to explain you rag. Okay. We want
+- [12:06] to move to agent core quickly. That's
+- [12:08] why
+- [12:09] uh I'm just keeping things uh really uh
+- [12:12] quick and you are loading dot
+- [12:14] environment through which you will load
+- [12:16] those environment variables and here we
+- [12:19] are creating a chat group using the GPT
+- [12:23] OSS uh model okay and then as a next
+- [12:27] step what you're doing is by the way
+- [12:29] even if you don't do this it's okay
+- [12:30] because we have done the load
+- [12:33] environment okay and we are using
+- [12:36] creating this agent
+- [12:37] create agent which will take our model
+- [12:40] GPTOSS model and tools. Okay, what are
+- [12:43] the tools? Well, that we have two tools.
+- [12:45] Okay, so first tool is search FAQ. For a
+- [12:48] given query, it will do rag approach. So
+- [12:52] in rag, you will retrieve the
+- [12:54] semantically matching text blocks from
+- [12:57] your vector database. Okay, so vector
+- [12:59] database is phase from Facebook and then
+- [13:03] we pass that to our context uh in the
+- [13:06] llm and let's say if you want to
+- [13:08] reformulate the query you use these two
+- [13:10] tools okay so we essentially have these
+- [13:12] two tools folks look at this code it's
+- [13:15] pretty straightforward as I said if you
+- [13:17] don't know rack fundamentals I'm going
+- [13:18] to provide you another tutorial link
+- [13:20] okay so we have created this agent which
+- [13:23] has a model which has bunch of tools and
+- [13:24] we are asking these questions okay
+- [13:26] explain roaming activations So now let's
+- [13:29] right click and run it. And before you
+- [13:31] run it, you need to set your system
+- [13:34] interpreter properly. So interpreter.
+- [13:38] Okay. So what is my interpreter? So here
+- [13:42] my interpreter as you can see is
+- [13:46] agent core tutorial in which you have v
+- [13:49] environment script python. Make sure
+- [13:51] this setting is set up. Okay? Otherwise
+- [13:53] you can add a local interpreter. Let's
+- [13:55] say if this is set up to a different
+- [13:56] value, you can add a local interpreter.
+- [13:59] You can say select existing and you can
+- [14:02] go to your directory uh agent code
+- [14:06] tutorial
+- [14:07] v environment scripts and here here
+- [14:11] select python. Okay. And which is what I
+- [14:14] have already. So I don't need to make
+- [14:16] any change. Okay. And then right click
+- [14:19] and run the project. So now it's using
+- [14:23] that particular virtual environment and
+- [14:25] it is running my agent. It took some
+- [14:27] time but here is the answer. I asked the
+- [14:30] question on okay roaming related
+- [14:32] question and it provided me this answer.
+- [14:34] Okay. So my local agent is now built and
+- [14:38] ready to be deployed to agent core.
+- [14:40] Agent core runs within AWS. So obviously
+- [14:43] we have to set up AWS account which is
+- [14:45] something we are going to do next. If
+- [14:47] you already have the account created
+- [14:49] then skip this section folks. We will be
+- [14:51] using AWS in the upcoming chapters. So
+- [14:54] let's first set up the account. You can
+- [14:56] Google create AWS account and click on
+- [14:59] this link here. Click on create a free
+- [15:03] account link. If you already have an
+- [15:06] account then you can skip this video.
+- [15:08] You can log into your account. But if
+- [15:10] you don't then
+- [15:13] sign up for AWS and here provide your
+- [15:16] email address. Okay. And then you can
+- [15:18] provide some AWS account name. I'm going
+- [15:21] to say code basics double whatever uh
+- [15:24] account name doesn't matter that much.
+- [15:26] But here you can provide your Gmail ID.
+- [15:29] Once you do that, it will send an email
+- [15:31] to your email ID to verify. So I have
+- [15:35] done the verification and now I can uh
+- [15:39] provide my password.
+- [15:42] So just provide a password and proceed
+- [15:45] further. Okay. At some point uh it will
+- [15:48] ask you for selecting your plan. So I'm
+- [15:50] going to say okay free 6 month plan.
+- [15:53] Okay. So let's select that. And uh you
+- [15:57] can provide all the details here.
+- [16:05] So see in the previous screen it asked
+- [16:08] me for my credit card. It is not going
+- [16:10] to charge actually they just do this
+- [16:12] credit card verification. So you will
+- [16:14] get some free credits. Okay. So you can
+- [16:17] provide your credit card details etc.
+- [16:20] And then it will um ask you for this SMS
+- [16:24] just for another verification. So here
+- [16:26] it send a code on my phone. So I'm just
+- [16:29] confirming my identity. See it will
+- [16:31] require multiple step of verification.
+- [16:35] Okay. So now see my AWS account is set
+- [16:38] up. At any step if you're feeling stuck
+- [16:41] folks use common sense. You have to use
+- [16:43] common sense. Take help of chat GPT.
+- [16:46] Setting up an AWS account should not be
+- [16:48] a rocket science. You should be able to
+- [16:49] figure it out folks. Okay? So please do
+- [16:51] that. And now I can go to AWS console
+- [16:55] where I'll be able to kind of see
+- [16:58] different offerings and different
+- [17:00] options that AWS has. Let's now install
+- [17:04] AWS CLI version v2. So just Google it
+- [17:08] and you will uh go on this particular
+- [17:11] page. AWS CLI is a way to access your
+- [17:15] AWS environment via command line
+- [17:18] interface. Now based on the OS you have
+- [17:21] you can click on one of these. So I have
+- [17:23] Windows. So I'm going to click on this
+- [17:25] and I will install it. So you can
+- [17:26] install it via MSI. So if you click on
+- [17:28] it you know you can just execute this
+- [17:32] and install it. The other way is you can
+- [17:34] use a command line. So I'm going to use
+- [17:36] command line. So just copy this thing
+- [17:38] and in Windows start the Windows
+- [17:42] PowerShell. Okay. So type in Windows
+- [17:44] PowerShell
+- [17:45] and you will get this and
+- [17:50] hit this and it will come up with this
+- [17:54] uh thing. Okay. So it will install it.
+- [17:57] It will take some time. Just follow your
+- [18:00] common sense uh steps to finish the
+- [18:02] installation.
+- [18:06] Okay. So for me installation is going on
+- [18:08] and I'll be back when this is complete.
+- [18:11] It installed after few minutes it was
+- [18:13] actually slow and when you run AWS
+- [18:16] version I can see AWS CLA version 2. I'm
+- [18:19] into my AWS management console where you
+- [18:22] can see different services. So here you
+- [18:24] can click and search for S3 for example.
+- [18:28] So S3 is a service within AWS
+- [18:30] environment that lets you store objects
+- [18:33] and people use it for data lake and
+- [18:35] variety of other purposes. You will also
+- [18:37] see agent core. Okay. So bedrock agent
+- [18:41] core you will see all kind of services
+- [18:44] and whatever service you have used
+- [18:45] recently they will be visible here. Now
+- [18:48] one of the important services is
+- [18:51] identity and access management. So we
+- [18:54] will go here and we will create a new
+- [18:57] user because see right now you are
+- [18:59] logged in as a root user which has all
+- [19:02] kind of access. We want to create a user
+- [19:05] with some limited access.
+- [19:08] So let's call it agent core user.
+- [19:12] I will give it my name. Okay, double
+- [19:15] and provide access to AWS management
+- [19:18] console. Which means this user will be
+- [19:21] able to login into this account, right?
+- [19:23] This particular account that I have and
+- [19:25] they will have access to this management
+- [19:28] console. Okay. So autogenerated password
+- [19:31] is good. User must create a new
+- [19:33] password. Okay. We can uncheck it. It's
+- [19:35] a learning tutorial. Then you go next.
+- [19:39] Add user to a group. Okay. So I will
+- [19:43] create a new group. I will call it agent
+- [19:48] core
+- [19:50] group. Um let's say I'm in the AI team.
+- [19:54] Okay. See these groups are used to group
+- [19:56] the users. So let's say you are working
+- [19:58] in a company. There is a data analysis
+- [20:01] team, there is AI team, there is data
+- [20:03] engineering team. So you'll create three
+- [20:05] groups, right? AI, DE, DA, those kind of
+- [20:09] groups. And here you are going to give
+- [20:12] certain accesses. So I'm going to give
+- [20:14] it administrator access. Okay. Then I
+- [20:18] will also give the Bedrock full access.
+- [20:22] So let's search
+- [20:24] Bedrock. Amazon Bedrock full access.
+- [20:28] Okay. So let's do this. and then uh code
+- [20:34] build. So AWS code build admin access
+- [20:39] and the fourth one is bedro
+- [20:43] agent core full access
+- [20:47] and say create a user group. So
+- [20:50] essentially I have created a user group
+- [20:52] who has access to all these
+- [20:55] capabilities. Okay. So what are the
+- [20:56] capabilities? Okay. They can access
+- [20:59] bedrock. they can access agent core you
+- [21:02] can give access to S3 and so on then you
+- [21:05] select this so the user that I'm
+- [21:07] creating I want it to be part of this
+- [21:09] particular group click on next I think
+- [21:13] default options all okay everything is
+- [21:16] good create a user and when it creates a
+- [21:20] user it will give you the console sign
+- [21:23] in okay so let's say whenever you want
+- [21:26] to login as this user you will use this
+- [21:29] sign
+- [21:29] this username and this particular
+- [21:32] password. So you can note it down
+- [21:33] somewhere in a safe location. You can
+- [21:36] also download the CSV file which will
+- [21:39] contain those credentials. So that CSV
+- [21:42] file that I downloaded has this username
+- [21:44] console signin URL and the password.
+- [21:48] Okay. So now let's return to the user
+- [21:52] list. So I have that CSV save. You also
+- [21:55] save that CSV file to a safe location.
+- [21:58] Now let's go to that user. Click on this
+- [22:01] user and click on create access key.
+- [22:06] Click on command line interface. Okay, I
+- [22:09] understand the above recommendation. So
+- [22:11] right now what I'm doing is
+- [22:13] for this user I'm creating an access key
+- [22:16] which I will supply to AWS CLI. Okay.
+- [22:20] And that way from CLI which is a command
+- [22:24] line interface. command line interface I
+- [22:26] will be able to access this account as
+- [22:28] that particular user. Okay, as we as we
+- [22:32] work on this tutorial you will
+- [22:33] understand what I'm trying to do here.
+- [22:35] Just say create access key. Now it has
+- [22:37] created access key and secret access
+- [22:39] key. So now go to your PowerShell and
+- [22:43] say AWS configure. So you have AWS CLI.
+- [22:49] It will configure the default account.
+- [22:52] And what is my default account? Well, it
+- [22:54] is this particular user agent core user
+- [22:56] dual and for this you need agent AWS
+- [23:00] access key ID. So AWS access key is
+- [23:02] this. So let's type in this. Okay. And
+- [23:07] then the password. So copy this.
+- [23:16] Default region is US East one. I will
+- [23:19] keep it default. If you are in Asia
+- [23:22] something provide your region okay and
+- [23:24] you can Google you can use chat GPT and
+- [23:26] you can say okay I'm in Delhi whatever
+- [23:28] Mumbai what region I should provide or
+- [23:31] sometimes you know you can you can see
+- [23:33] your region here like from the drop down
+- [23:35] so use your common sense figure out I
+- [23:37] live in US east coast so I'm going to
+- [23:40] say US east one the default output
+- [23:43] format I will say it is JSON
+- [23:47] and that's it now I want to make sure
+- [23:49] that This configuration is okay. So
+- [23:51] let's type in this command. AWS STS get
+- [23:53] caller identity and I see my user ID my
+- [24:00] account right so my user ID so if I go
+- [24:05] to let's click on done. You haven't
+- [24:08] viewed or downloaded a secret key. Oh I
+- [24:11] see. So I will also download this secret
+- [24:13] key somewhere. Okay. So it's in another
+- [24:16] CSV file. Okay. We had initial CSV file
+- [24:20] for my user credential. This one is the
+- [24:23] user's access key. So two CSV file.
+- [24:25] Okay. So let's make sure you have copied
+- [24:27] it to a safe location. I will click on
+- [24:31] done and see here when I say STS get
+- [24:35] caller ID my ARN which is Amazon
+- [24:38] resource number right it's see resource
+- [24:40] name is this user agent core user double
+- [24:44] see so it has configured it properly.
+- [24:47] You can also run this command where you
+- [24:49] say AWS S3 LS. So it will list down the
+- [24:52] buckets that you have. Okay. So in my
+- [24:55] account here, see it is showing me all
+- [24:57] these buckets. Sportsbar DP sales double
+- [25:00] SF1. And when I go to my S3 service
+- [25:04] here, let's go to S3. And if I look at
+- [25:08] my buckets, see I'm finding all those
+- [25:10] buckets. You see sports bar, sales, DF,
+- [25:13] stocks, daily data. So this means my AWS
+- [25:18] C cli so CLI I'm running on my local
+- [25:21] computer via Windows PowerShell it is
+- [25:23] having now access to my AWS account on
+- [25:25] cloud. So now using this command now I
+- [25:28] can perform different operations on my
+- [25:30] cloud account. Now comes the most
+- [25:32] interesting part which is running agent
+- [25:35] in the Amazon badro agent core
+- [25:38] environment. So here
+- [25:40] type in badrog agent core. Okay, click
+- [25:44] on it. So, it will show you the page for
+- [25:48] badro agent core. And it has different
+- [25:50] capabilities or or different services
+- [25:52] such as runtime, identity, gateways,
+- [25:56] memory, observability and so on. Right
+- [26:00] now, we are going to use runtime to run
+- [26:03] our agent which we ran locally
+- [26:05] previously into agent core environment.
+- [26:09] So let's go to our code and here let's
+- [26:13] create a new file. Okay. Or maybe I can
+- [26:17] just copy paste this. Ctrl Ctrl +V and
+- [26:20] let's call this agent core runtime.py.
+- [26:24] Okay.
+- [26:26] So this is the file I have and this is
+- [26:28] the agent that we ran previously. So we
+- [26:31] know it is working. So now we are going
+- [26:34] to import
+- [26:36] some library here. So let's uh import
+- [26:40] this bedrock agent core runtime. From
+- [26:43] that you are importing bedro agent core
+- [26:45] app and you are creating an instance of
+- [26:49] this app. Okay. And then you will write
+- [26:53] an entry function. So let me show you
+- [26:56] that entry function. So that entry
+- [26:59] function is going to be let me see here
+- [27:04] is the system prompt
+- [27:07] agent let me put it here.
+- [27:10] Okay. So whenever we call this
+- [27:13] particular agent from the agent core
+- [27:15] environment
+- [27:17] due to this annotation it will invoke
+- [27:20] this particular function and it has
+- [27:23] payload and context. Okay. So what what
+- [27:26] you get from payload and and context is
+- [27:30] payload is used to pass information such
+- [27:33] as prompt. So it's a dictionary. It will
+- [27:36] have different elements. One of the
+- [27:38] important elements will be prompt. So
+- [27:41] when you invoke this agent, you will
+- [27:43] supply this prompt and it will come in
+- [27:45] payload uh variable
+- [27:49] and then you will invoke it. Okay. So
+- [27:52] once you have a query of course you will
+- [27:56] the same agent object that you use you
+- [27:57] will invoke it then you will have uh the
+- [28:01] result here we are just printing all of
+- [28:03] that for our verification and you return
+- [28:06] this uh result in your main file you
+- [28:10] will just say app.run run. All right. So
+- [28:13] now we have made our agent such that it
+- [28:16] can run in the agent core environment
+- [28:18] and you you saw that this API is so good
+- [28:20] that we have to make only few lines of
+- [28:22] code change, right? We just added these
+- [28:24] two lines and we created this invocation
+- [28:27] function. So in a few line of code
+- [28:29] change now your agent is ready to run on
+- [28:32] agent core environment.
+- [28:35] Now let me okay let me use this
+- [28:37] terminal. Okay. So in my PyCharm I am in
+- [28:40] this particular terminal
+- [28:43] and let me just move it on the right. So
+- [28:46] move to
+- [28:48] right
+- [28:50] right top that way I can show you things
+- [28:53] side by side and here I am going to run
+- [28:56] this command agent core help. Now I got
+- [29:00] this command because in pyro.tml TML
+- [29:05] toml file if you remember we have
+- [29:06] installed all the necessary libraries.
+- [29:09] Okay. So the help shows couple of
+- [29:13] functions. So the first function that we
+- [29:16] are going to use is agent core
+- [29:19] configure. Okay. So let's do this. So I
+- [29:22] will say agent core configure-
+- [29:27] e and then see in this directory right
+- [29:30] agent core tutorial directory I have a
+- [29:34] file called zero
+- [29:38] agent core runtime this is the file
+- [29:41] right this is the file we created so
+- [29:44] agent core
+- [29:46] runtime dopy
+- [29:50] let's see what this will do and then
+- [29:52] I'll explain the the purpose of it. So
+- [29:54] here I'm running this command and it is
+- [29:57] asking me bunch of information. So
+- [30:00] essentially I am creating a YAML file
+- [30:03] which will contain all the necessary
+- [30:05] information for agent core to run this
+- [30:09] particular agent. So first it is asking
+- [30:11] me for the name of the agent. Okay. So
+- [30:15] let's provide name of the agent
+- [30:18] then.
+- [30:20] Okay. Dependency file is pi
+- [30:22] project.toml. Yes, exactly. Let's do
+- [30:26] this. Execute role ARN name. Press enter
+- [30:29] to autocreate. So I will just say enter.
+- [30:31] It knows. Remember we configured AWS
+- [30:34] configur. We configured everything. So
+- [30:36] it will know which ARN to take. ECR is
+- [30:39] Amazon's uh elastic container
+- [30:43] repository. Okay. So it will use that.
+- [30:46] We are going to provide it as a default.
+- [30:48] And also by the way deployment
+- [30:49] configuration we have used container uh
+- [30:53] deployment type as container. So
+- [30:55] container is a dockerbased deployment.
+- [30:57] So it will create a docker and use the
+- [30:59] docker for the deployment. So ECR press
+- [31:02] enter to take whatever is the default.
+- [31:05] Configure o by default it uses AM. Okay.
+- [31:09] I want to use IM. I don't want to use O.
+- [31:11] So let's say no here. And then configure
+- [31:15] request
+- [31:16] allow head. Okay, hit enter using
+- [31:20] default and then u here memory manager
+- [31:25] initialization for no existing memory
+- [31:28] resources found. Press enter to create
+- [31:30] new memory. Type s to skip memory setup.
+- [31:33] So I'm going to skip the memory setup.
+- [31:35] So press s enter and that's it. Okay.
+- [31:40] Now what this did is it has created this
+- [31:44] bedrock agent core yamel file which I'm
+- [31:48] going to open.
+- [31:50] So our agent is not deployed yet. Okay.
+- [31:53] Uh all it did so far is created this yl
+- [31:58] file and it's a configuration file
+- [32:00] right. It says okay platform is this
+- [32:02] deployment type is runtime your entry
+- [32:04] point is this particular file your
+- [32:07] source path is this. uh it is showing me
+- [32:10] all the all my AWS my AWS account ID all
+- [32:14] of that okay so you can you can explore
+- [32:16] this file now the next step is to use
+- [32:19] launch so agent core launch and here we
+- [32:23] are going to supply the environment
+- [32:25] variable because our environment
+- [32:28] variables are stored in environment
+- [32:32] I'm going to supply so I will say that
+- [32:37] uh here grock
+- [32:46] API key is equal to I will supply my
+- [32:49] key. Okay. So I have supplied my key.
+- [32:51] Hit enter. And now it is launching this
+- [32:56] a agent. Right. So it is launching as in
+- [32:59] it is uh deploying this agent to the
+- [33:02] Asian core environment. After some wait
+- [33:05] looks like it worked. Okay.
+- [33:07] I see only green boxes. There is no
+- [33:09] error etc. And now we are ready to
+- [33:14] invoke our agent. So we can just say
+- [33:18] agent core invoke and type in your
+- [33:21] question. So now this is going to call
+- [33:23] the agent and I will get my response. So
+- [33:25] I had some issue with the formatting
+- [33:27] which I fixed. So I am passing double
+- [33:29] quote outside and single quote inside.
+- [33:32] So it called the agent core in the cloud
+- [33:36] environment. So my agent is now running
+- [33:38] in agent core AWS cloud environment and
+- [33:42] when I said invoke this it sent this
+- [33:45] request to that agent and then I got
+- [33:49] this response back here and when I go to
+- [33:52] bedrock you see my agent is ready. So
+- [33:55] when I actually launched it at that time
+- [33:58] this agent was ready. Make sure you are
+- [34:00] passing the correct region. Okay, so I
+- [34:02] was having east two. East two doesn't
+- [34:04] have anything.
+- [34:06] But remember we used east one as a
+- [34:08] region. So it has this also you get this
+- [34:12] jai dashboard. So if you click on it, I
+- [34:16] will get this link where I don't see
+- [34:18] anything. But let me change my region to
+- [34:20] two. So ES2.
+- [34:24] And here let's see what it is showing. I
+- [34:27] think it's not showing anything because
+- [34:29] there are two things like you need to
+- [34:30] wait for 10 minutes or so and it also
+- [34:34] requires span injection. So we can
+- [34:35] ignore this for now. One additional
+- [34:37] thing I want to mention is this page
+- [34:40] that mentions AWS capabilities by
+- [34:43] region. So if you say start exploring
+- [34:46] and let's say you want to figure out a
+- [34:48] specific capability whether that is
+- [34:51] available in a specific region or not.
+- [34:53] In that case, let's say we want to know
+- [34:57] Asian core where is it available. So
+- [34:59] right now I'm in US East one and it is
+- [35:03] available there. But here you can choose
+- [35:05] different regions. Okay. So let's say
+- [35:07] Tokyo for example.
+- [35:10] So in Tokyo, let's see if I remove it.
+- [35:13] Yes, it is available.
+- [35:16] And
+- [35:18] let's look at Hyderabad here.
+- [35:21] So let's remove here. So see Hyderabad
+- [35:24] it's coming in 2026 Q3. So this way you
+- [35:30] have awareness on which service is
+- [35:34] available in what region and you can
+- [35:36] make architectural and design decisions
+- [35:39] accordingly. But see here you can see
+- [35:41] that this particular agent is running.
+- [35:45] Okay. You can see like a different you
+- [35:48] know like the observability runtime
+- [35:49] sessions runtime throttle rate all of
+- [35:52] that. Uh you can see all those
+- [35:55] observability parameters here. You can
+- [35:58] also monitor the logs. So it has
+- [36:00] something called log insight. So if you
+- [36:03] click on this log insight. Okay let me
+- [36:05] open that. And you want to see the logs
+- [36:10] which are you know in last few seconds
+- [36:12] whatever logs came by you want to see
+- [36:14] it. So you will say so let me just do it
+- [36:17] in a different way. I will click on view
+- [36:19] in logs insights here so that I can see
+- [36:21] it easily. Run query and when I run it
+- [36:25] see I see those logs. Uh the context the
+- [36:28] prompt the payload right now remember we
+- [36:32] put that code for the payload. So the
+- [36:35] payload is nothing
+- [36:37] but in this particular file we had the
+- [36:41] print statement received payload and
+- [36:44] context. See received payload and
+- [36:45] context and that is what you are seeing
+- [36:47] here. Received payload payload has just
+- [36:50] prompt that's it. And the context has
+- [36:55] this session ID and a request header.
+- [36:58] Now let me clear this out. Okay. And let
+- [37:03] me ask a different question. So I will
+- [37:07] say activate it for Dubai. Okay, I asked
+- [37:11] question on the roaming. And now I'm
+- [37:15] asking a follow-up question. Activate it
+- [37:17] for Dubai. See it doesn't have memory.
+- [37:19] So it doesn't know the previous
+- [37:21] question. So it is just giving general
+- [37:22] answer. Activating your service for
+- [37:24] Dubai. Let me type in a better question.
+- [37:27] I can say which country am I talking
+- [37:31] about? It should say UAE right because
+- [37:33] Dubai is in UAE but it doesn't have any
+- [37:37] memory. So it is saying I'm not sure
+- [37:39] which country you are referring to. So
+- [37:42] as a next step we will look into the
+- [37:44] memory. To set up the memory let's click
+- [37:47] on memory option here and click on
+- [37:51] create memory. Here you can specify for
+- [37:54] how many days you want to keep your
+- [37:57] short-term memory. I will say 99 days.
+- [38:01] Okay. And you can give some memory name.
+- [38:04] You can say that agent core
+- [38:07] or let's say customer care agent memory.
+- [38:12] And here in the built-in strategies,
+- [38:15] there are couple of strategies here. I'm
+- [38:17] going to click on the first two which is
+- [38:19] summarization. This will summarize
+- [38:21] interaction to preserve critical context
+- [38:23] and key insights. So this is a strategy
+- [38:26] to extract long-term memories from raw
+- [38:30] interactions. See as a human also we do
+- [38:33] all the raw interactions but our brain
+- [38:36] somehow keeps the key points from those
+- [38:39] interactions so that we can recall.
+- [38:41] Similarly here you are summarizing the
+- [38:44] interactions to preserve critical
+- [38:46] context and key insights. Okay. So it's
+- [38:48] some kind of strategy. Then second one
+- [38:52] is semantic memory. So we are going to
+- [38:53] click on that too. So this will extract
+- [38:55] general factual knowledge, concepts and
+- [38:58] meaning from raw conversations. Okay.
+- [39:00] Now agent core is a brand new platform.
+- [39:03] It is evolving. We are seeing new and
+- [39:05] new options being added. So if you see
+- [39:07] new options either in memory or anywhere
+- [39:10] else, don't be surprised. Okay, they're
+- [39:12] making it better and better day by day.
+- [39:15] All right. I think built-in strategy
+- [39:18] with overhead. Let's say if you want to
+- [39:19] add your own strategy for memory
+- [39:21] management, you can click on add
+- [39:23] strategy here. Okay. And this one is
+- [39:27] self-manage. Anyways, for this project,
+- [39:29] uh this much setup is enough. And when
+- [39:32] you say create memory, see this type of
+- [39:35] memory is created. So now when I go to
+- [39:40] memory, see here I will see this memory.
+- [39:43] It is still creating it. Okay. So here
+- [39:47] this is the memory ID. So now in your
+- [39:50] agent when you specify this memory ID,
+- [39:53] it will use this particular object in
+- [39:55] AWS environment to store that memory.
+- [39:58] Now folks please open the folder of the
+- [40:02] code that I have given to you. Okay? And
+- [40:04] in that copy this file agent core
+- [40:07] memory. Copy this file to your agent
+- [40:10] core tutorial folder. Okay. So I have
+- [40:13] copied it. And now I will be able to see
+- [40:17] it here.
+- [40:20] Now see here in this code I have added
+- [40:23] the memory management. So my region I
+- [40:26] will say US East one. So update the
+- [40:30] region here. Okay. Whatever is the
+- [40:32] region for your AWS account you should
+- [40:34] have that region here. And also the
+- [40:38] memory memory ID. Okay. Copy it from
+- [40:40] here and put it here.
+- [40:44] So this is your memory ID
+- [40:47] and remaining things are as it is. So
+- [40:50] what I'm going to do is first uh deploy
+- [40:53] this new agent and then I will go over
+- [40:56] the code and I will explain you know how
+- [40:57] this thing works. So first let's see the
+- [41:00] final impact and then I will explain. So
+- [41:03] here what we are going to do is now we
+- [41:07] will uh use this particular file. Okay,
+- [41:10] this particular invocation function from
+- [41:12] this new file to build our agent. So
+- [41:15] what are the steps? Well, first is agent
+- [41:17] core config. Okay, so you will say agent
+- [41:20] core config and in that config you will
+- [41:25] add the name of this new file which is
+- [41:28] 02 aent core memory.py. Okay, so let's
+- [41:32] run this. So here you need to give the
+- [41:37] agent name. So I will just say inferred
+- [41:40] agent name is this. Okay, I'll just keep
+- [41:43] it like this. Agent core memory invalid
+- [41:46] agent name. Okay, the agent name is
+- [41:48] invalid. Okay, it should start with a
+- [41:51] letter. So let's call it agent core with
+- [41:55] me or just simple right like agent with
+- [42:00] memory.
+- [42:01] Okay, pi project toml file. In case if
+- [42:04] you have a requirement txt file, you can
+- [42:06] change it. Okay, you can specify what
+- [42:08] file you want to use it as a dependency.
+- [42:10] And for container, we are going to use
+- [42:12] the dockerbased container environment.
+- [42:15] We want it to infer the AR name. ECR
+- [42:18] repository is whatever is a default. So
+- [42:20] just hit enter. Here you will say no.
+- [42:24] Here configure request header no. And
+- [42:28] then now this is amazing. See it
+- [42:32] detected that you have this memory
+- [42:36] object called customer care agent
+- [42:38] memory. So simply just hit one. So one
+- [42:42] is the ID. Let's say if you have
+- [42:44] multiple memory objects, it will show 1
+- [42:46] 2 3 etc. And you have to give the ID. So
+- [42:48] right now we have just one. So I will
+- [42:50] say one. Enter. And now what it did is
+- [42:54] it configured this new agent using this
+- [42:57] new file. The agent name is agent with
+- [42:59] memory. and it used that memory object
+- [43:02] that we created in the agent core. Now
+- [43:05] the second step is the launch. Okay. So
+- [43:09] let me run launch launch and you'll
+- [43:12] specify your grog key. Okay. So let's
+- [43:15] hit enter here. After some wait my agent
+- [43:19] is now ready in my agent core
+- [43:21] environment. So if I go to my agent core
+- [43:24] page here I will see this. See agent
+- [43:28] with memory. It is ready. At this stage,
+- [43:30] we can make some invocation. Okay. So,
+- [43:33] let's
+- [43:34] invoke by asking that basic question.
+- [43:36] Tell me about roaming activations.
+- [43:40] And see, it fetched that answer. Okay.
+- [43:43] Now, I will ask the other question which
+- [43:46] is activated for Dubai. And now it
+- [43:50] should remember that uh previous
+- [43:52] question. See activating roaming for.
+- [43:55] See it knows that previously I was
+- [43:57] talking about the roaming and here let
+- [44:02] me ask one more question which is which
+- [44:05] country was I referring to. Now due to
+- [44:07] the memory it should know that see
+- [44:11] previously you are referring to Dubai
+- [44:12] which is United Arab Amirat. All right
+- [44:16] look at this. This is so amazing. my uh
+- [44:19] agent is now having this memory due to
+- [44:22] which it is able to remember the
+- [44:24] previous context just like chat GPD. Now
+- [44:26] I want to point out few things. See when
+- [44:28] we did agent configure with that second
+- [44:30] agent if you have noticed our YAML file
+- [44:33] in YML file see previously we had this
+- [44:36] one agent but now it added this another
+- [44:38] agent agent with memory and you can see
+- [44:41] all this configuration. So I I encourage
+- [44:43] you to look at it so that you can get an
+- [44:45] idea on what's happening under the hood.
+- [44:48] Now let's look at our code for this
+- [44:51] agent core memory. Right? We have not
+- [44:53] understood this code yet. So here in
+- [44:55] this particular code, this is the main
+- [44:58] statement. Okay. When you create an
+- [45:00] agent at that time, you can specify the
+- [45:02] memory. Now we added these three new
+- [45:06] parameters. So checkpointer and store
+- [45:09] are basically your short-term memory and
+- [45:12] your long-term memory. So checkpointer
+- [45:14] is a short-term memory. Short-term
+- [45:17] memory means for this session for this
+- [45:20] conversation. Okay. If I go to check GPD
+- [45:23] and if I start asking all these
+- [45:24] questions during that particular
+- [45:26] session, it will remember the previous
+- [45:29] context. So that is short-term memory
+- [45:31] and it is specified by checkpointer.
+- [45:34] Long-term memory is something that it
+- [45:36] will remember between the threads. So
+- [45:39] you might have noticed that you log off
+- [45:41] your computer right and after 2 days if
+- [45:43] you ask something it would have
+- [45:45] remembered uh your personality your way
+- [45:48] of asking all of that. So that is
+- [45:50] long-term memory and that is something
+- [45:51] that you specify using this store
+- [45:53] object. Okay. So if you uh look at the
+- [45:56] documentation for lang chain okay for
+- [46:01] this create agent function here you will
+- [46:06] find that the store right the store and
+- [46:09] checkpointer so optional checkpointter
+- [46:11] saver object used for persisting the
+- [46:13] state of the graph for a single thread
+- [46:16] meaning single conversation whereas
+- [46:18] store is used for multiple conversation
+- [46:22] across the threads. Okay, so just to
+- [46:24] summarize, this is short-term memory.
+- [46:25] This is long-term memory. We also
+- [46:27] specified the third argument which is
+- [46:31] middleware. Okay, so what exactly is
+- [46:33] middleware? So let's look at it. So if
+- [46:35] you look at the documentation here, a
+- [46:38] sequence of middleware instances to
+- [46:40] apply to your agent. And if you look at
+- [46:42] the documentation for middleware,
+- [46:45] it is essentially a hook, you know, pre
+- [46:47] hook and post hook before you make a
+- [46:49] call to LLM if you want to add
+- [46:51] something. So usually what happens is
+- [46:54] the way memory works is you before you
+- [46:56] make a call to LLM in your prompt you
+- [46:59] will add the previous context and after
+- [47:02] the call is made after you get the
+- [47:05] response you might want to add the new
+- [47:08] question to your memory or you want to
+- [47:11] do something related to telemetry right
+- [47:13] all of that can be done by middleware
+- [47:15] okay so the plain call without middle
+- [47:18] aware will look something like this
+- [47:19] right request model tools whatever
+- [47:22] And with middleware it will look
+- [47:24] something like this. See before model
+- [47:26] after model. So you are basically having
+- [47:29] this hooks. So let me show you what kind
+- [47:31] of hooks we have. So first of all let me
+- [47:34] show you the checkpointer and store
+- [47:35] object. So if you click on checkpointter
+- [47:37] see we have imported this classes from
+- [47:40] lang graph. Now we have another langraph
+- [47:42] video. If you go watch it on our channel
+- [47:44] we have talked about checkpointer. So
+- [47:46] checkpo pointer is a way to store your
+- [47:48] conversation your memory in langraph.
+- [47:50] Right. So from lang graph you're
+- [47:52] importing agent core memory saver. Agent
+- [47:55] core memory store. Memory saver is a
+- [47:58] short-term memory. This is a long-term
+- [47:59] memory. So we created these two using
+- [48:02] the memory ID. Right? Memory ID is
+- [48:04] something that we created in our agent
+- [48:06] core environment. And then the
+- [48:08] middleware. Okay. So let's look at how
+- [48:10] we have set up the middleware. See
+- [48:12] middleware is nothing but a class. See
+- [48:13] if you look at middleware here it is a
+- [48:17] class and the class has this pre hook
+- [48:20] and post hook. So in prehook what you're
+- [48:22] doing is essentially you are getting
+- [48:25] this store object in the function right
+- [48:27] and if you look at the store object is
+- [48:29] derived from base class base store class
+- [48:32] and if you look at all these classes
+- [48:34] right see this class if you look at it
+- [48:37] it is eventually derived from base
+- [48:40] store. So you you can trace back uh all
+- [48:42] that and you can confirm it. Okay. So
+- [48:45] let's go to middleware now. So here from
+- [48:48] your store from your memory store right
+- [48:51] from your memory store premodel hook. So
+- [48:53] in premodel hook see you will first get
+- [48:56] the agent state. So in lang graph it's a
+- [48:59] graph and you get the state and from
+- [49:01] state you are getting the messages and
+- [49:04] that message you first put into your
+- [49:06] store. Okay. And then save the last
+- [49:09] human message to long-term memory
+- [49:11] essentially.
+- [49:13] And you want to do the search uh in your
+- [49:17] store semantic search right retrieve
+- [49:19] user preference from long-term memory
+- [49:21] search across all the sessions. And
+- [49:23] previously whatever question I asked
+- [49:25] right do by whatever it will retrieve
+- [49:28] that from the store. So these are the
+- [49:30] preferences and that you will add to
+- [49:33] your memory context so that it knows
+- [49:36] that previously I was talking about
+- [49:37] Dubai and in the post model hook let's
+- [49:40] say you got the response from your uh
+- [49:43] LLM and after that if you want to do
+- [49:46] something with your response you will do
+- [49:48] that. So one thing you want to do is
+- [49:49] save the last AI message to your store.
+- [49:51] See this is your memory store and you
+- [49:53] are saving it here. All right so that
+- [49:54] was a quick information on how this
+- [49:56] memory class works. We are glad that now
+- [49:58] the memory feature is working for our
+- [50:00] agent. Let's explore few more features.
+- [50:02] We will look at observability. So if you
+- [50:05] click here, you will go to the
+- [50:08] observability page where you will see
+- [50:11] different agents that you have running.
+- [50:13] So right now the agents are loading and
+- [50:16] it shows me this three agent. So it
+- [50:20] shows two agent with memory because I
+- [50:23] had created multiple agents with agent
+- [50:26] with memory. Okay. To introduce some
+- [50:28] error scenarios and you can see some
+- [50:29] errors here. Okay. So what you can do is
+- [50:34] you can click on this default and go to
+- [50:36] the dashboard for that agent. Okay. So
+- [50:39] let me go there. This is the new agent
+- [50:42] that I created. So if I click on default
+- [50:45] here, it will show you all the traces
+- [50:48] for that agent. Okay. So if I click on
+- [50:50] this, see I made like those three
+- [50:53] invocations. Correct? And I can click on
+- [50:55] this and it will show me the trace. See
+- [50:58] here it says invocation completed
+- [50:59] successfully. It will show you the
+- [51:01] timing, the breakdown of all the calls.
+- [51:04] You can look at the trajectory, right?
+- [51:07] See, it will show you the the visual
+- [51:09] like graphical representation of all the
+- [51:13] calls which were being made. You can
+- [51:15] also look at the JSON object here. See,
+- [51:17] now once I had an error where I gave a
+- [51:20] wrong memory ID. Okay. So I I gave this
+- [51:23] and I built that agent and that is the
+- [51:25] second agent that you are seeing. Okay.
+- [51:29] And that resulted into this error. See
+- [51:31] and when you look at the trace
+- [51:34] I was able to find out what was the
+- [51:36] issue. See resource not found exception
+- [51:39] customer see C is missing. So I
+- [51:41] purposefully introduced that error and
+- [51:43] when I ran that agent you know through
+- [51:45] this observability platform I was able
+- [51:48] to find the exit error. You can also go
+- [51:51] to runtime by the way and look at any
+- [51:53] agent and here see you can go to the
+- [51:56] logs or dashboard. So let's look at the
+- [51:59] dashboard. You will find the same UI
+- [52:01] that we have right. So here you have
+- [52:03] overview you have sessions. So how many
+- [52:06] sessions did we run with that particular
+- [52:09] agent. So see here we just had one
+- [52:11] session correct? See we have these three
+- [52:13] traces. There is this one session. Uh
+- [52:16] folks I will encourage you to explore
+- [52:19] this. You'll you'll be able to see all
+- [52:21] the CPU
+- [52:23] consumption, memory consumption. Here it
+- [52:26] shows you the KPIs, you know, like
+- [52:28] client errors, throttles and so on.
+- [52:30] Let's explore a few more features.
+- [52:33] Identity is used for authentication. So
+- [52:36] for example, you can use oath. Let's say
+- [52:38] using your Google credentials or using
+- [52:41] your Facebook credentials, you can
+- [52:44] authenticate yourself. Okay. So here
+- [52:47] there is inbound O. So as you can see in
+- [52:49] the picture, let's say you are creating
+- [52:51] this uh customer service AI agent. So
+- [52:55] the caller will call and it will do the
+- [52:58] authentication at this level. And there
+- [53:00] is outbound authentication. So the
+- [53:03] hosted agent can access some of the
+- [53:05] resources in AWS environment. For that
+- [53:08] there is this outbound authentication as
+- [53:11] well. Then there are built-in tools. So
+- [53:13] you know that in agent that we created
+- [53:17] we passed the tools which were just
+- [53:19] Python function right. So if you look at
+- [53:22] our agent here the tools that we used
+- [53:25] actually see these were the two tools
+- [53:28] and they were customdefined Python
+- [53:30] function. But let's say you want to use
+- [53:33] a browser. So in that case you can use
+- [53:35] this particular built-in tool. So you
+- [53:38] can create a browser and you can
+- [53:39] configure it. You can also use code
+- [53:42] interpreter. In some of the use cases,
+- [53:44] you might use code interpreter as one of
+- [53:47] your tools. Then we have this agent
+- [53:51] sandbox. So let's say you created an
+- [53:53] agent and you want to test it. So you
+- [53:55] can test it here. So let me copy input
+- [53:58] payload here. Right? So this is my agent
+- [54:00] with memory. Okay. Endpoint is whatever
+- [54:02] is the default. And when I run it here,
+- [54:06] you see the response. So in the sandbox
+- [54:08] environment if you want to test it uh
+- [54:11] this feature becomes pretty handy.
+- [54:13] Observability is something we have
+- [54:15] looked at it. Evaluation is very
+- [54:17] important. These agents are
+- [54:19] nondeterministic in nature. They they
+- [54:21] are generative. They generate different
+- [54:23] answers. So it is very essential that we
+- [54:26] use evaluation feature here to evaluate
+- [54:29] them. Okay. There's a way to create the
+- [54:31] evaluation configuration uh custom
+- [54:34] evaluator and view results in agent core
+- [54:37] observability. In the agent that we
+- [54:39] created, we are using Python functions
+- [54:42] as tools. So these are the Python
+- [54:44] functions that we define in our
+- [54:45] codebase. But sometimes you may want to
+- [54:48] use the built-in tools which we already
+- [54:51] saw in our agent code platform. These
+- [54:53] built-in tools are browser, code
+- [54:55] interpreter and so on. And on some other
+- [54:57] occasion you might need external tools
+- [55:00] such as calling some MCP server or rest
+- [55:02] API. So now Python function is something
+- [55:06] we already tackled. Built-in tool is
+- [55:08] something that agent code platform
+- [55:09] provides. But how do you exactly call
+- [55:11] MCP server or rest API? For this we have
+- [55:15] a feature called gateways. See gateways
+- [55:18] they allow you to use external tools
+- [55:21] within your agents in a secure way. So
+- [55:24] when you create a gateway you can do all
+- [55:26] the configuration and you can specify
+- [55:28] what is your target whether it's MCP
+- [55:30] server it can be a lambda function it
+- [55:33] can be rest API okay it can be any of
+- [55:36] these four types of target there is also
+- [55:38] this option of policy where you can
+- [55:41] create a policy engine which is a
+- [55:43] collection of policies that will
+- [55:45] evaluate and authorize agent tool calls.
+- [55:48] Let's assume you have this customer care
+- [55:51] AI agent and the person who is smiling
+- [55:53] right now is asking for a refund to this
+- [55:56] AI agent. Now let's say you have this
+- [56:00] rest API. This rest API is called refund
+- [56:04] right like or issue refund. So that is
+- [56:07] the function call that you have and you
+- [56:09] want to create a policy where if the
+- [56:12] refund is above certain threshold you
+- [56:14] don't want to allow it. In that case in
+- [56:17] this policy engine you can put your
+- [56:19] policies right you can create like bunch
+- [56:20] of policies. One of the policies is that
+- [56:23] if the refund amount is greater than
+- [56:25] certain threshold right if it is more
+- [56:27] than certain threshold then don't allow
+- [56:29] it. So this way you can establish
+- [56:32] necessary restrictions which are
+- [56:34] necessary for your business operation.
+- [56:37] As they have mentioned it here, when you
+- [56:39] associate it with a gateway, it will
+- [56:42] intercept all the agent request and
+- [56:45] determines whether to allow or deny
+- [56:48] based on the policy. That's it folks.
+- [56:50] Now, let's talk about competition. Check
+- [56:52] video description. You will find a PDF
+- [56:54] file that contains the exact problem
+- [56:56] statement and how do you exactly
+- [56:58] participate and submit your solution in
+- [57:01] order to become a winner in this
+- [57:03] competition. The first 20 winners, each
+- [57:05] of them will get $250 of AWS credit. So,
+- [57:10] please check it out. We want to thank
+- [57:13] Amazon Bedrock Agent Core team for
+- [57:15] providing this uh credit course and also
+- [57:18] for sponsoring this video. If you have
+- [57:20] any questions, there is a comment box
+- [57:22] below. Thank you for watching.

@@ -1,0 +1,314 @@
+---
+title: "Transcript: VEpQvHyAUa0"
+video_id: "VEpQvHyAUa0"
+video_url: "https://www.youtube.com/watch?v=VEpQvHyAUa0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:10:11"
+tags:
+  - "AI"
+  - "Agents"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Product Development"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: VEpQvHyAUa0
+
+- URL: https://www.youtube.com/watch?v=VEpQvHyAUa0
+- Retrieved at: 2025-12-30T11:08:37+09:00
+
+## Text
+
+- [00:00] On this channel, I have showcased both
+- [00:02] of Google's incredible AI coding agents.
+- [00:04] Stitch, which is an incredible UI and UX
+- [00:07] design tool that can easily build out
+- [00:10] front-end code for your mobile and web
+- [00:12] apps, as well as Jules, the asynchronous
+- [00:15] coding agent. It's an agentic coding
+- [00:17] assistant that can basically read your
+- [00:19] entire project context and autonomously
+- [00:22] write test, fix bugs, as well as build
+- [00:25] features for you. Now, what if I was to
+- [00:27] tell you that there is a new way for you
+- [00:29] to combine both of these capabilities
+- [00:31] into one streamlined pipeline? You can
+- [00:34] use Stitch to generate your front-end
+- [00:35] code and complete the backend with
+- [00:38] Jules, which takes over the logic, the
+- [00:41] integrations, the testing, as well as
+- [00:44] the debugging process so that you can
+- [00:45] push your product to production. This is
+- [00:48] shaping up to be a fullon AI software
+- [00:51] assembly line and it's something that
+- [00:53] you can easily get started with
+- [00:54] completely for free which is the best
+- [00:56] thing associated with these two
+- [00:58] streamlined together [music] and I kid
+- [01:00] you not it's super easy. For example,
+- [01:02] this is an Airbnb clone that I had
+- [01:04] created with Stitch. It created all the
+- [01:06] components based off of the image that I
+- [01:08] had provided. I simply got this off of
+- [01:11] Google images and I told it to replicate
+- [01:13] it and it was able to do a great job in
+- [01:15] replicating all the components. Now the
+- [01:18] great thing is is that the code is
+- [01:19] available for the front end. But say if
+- [01:22] I want to create the back end. Now what
+- [01:23] we can do is click on these three dots
+- [01:25] and you can export this to Jules. If you
+- [01:27] click on this you have the ability to
+- [01:29] directly integrate it into Jules where
+- [01:31] you can select the repository that you
+- [01:33] want to work within and you can help
+- [01:35] build the components out like the
+- [01:37] backend structure, the logic or even
+- [01:40] debug certain components that you wanted
+- [01:42] to iterate on further. This is the
+- [01:44] capability of Stitch and Jules with this
+- [01:46] new feature to streamline the process of
+- [01:49] building full stack apps. And like I
+- [01:51] said, you can also export this as a zip
+- [01:54] file. And you may ask, why would you do
+- [01:55] this? Well, you can use that zip file
+- [01:58] within Google AI studio build mode,
+- [02:00] which is another AI coding agent. This
+- [02:03] won't perform as good as Jules, but you
+- [02:06] can use the limits over here to build
+- [02:09] out any sort of integration backing
+- [02:11] component by simply attaching the file
+- [02:13] and then describing what you want it to
+- [02:15] build on. But by having jewels and
+- [02:18] stitch combined, you're going to be able
+- [02:19] to get some incredible outputs. This is
+- [02:22] not something that you would expect from
+- [02:24] any sort of AI model. You can see that
+- [02:26] there isn't just a front end that was
+- [02:28] generated. It has backend components
+- [02:30] that was also integrated into this app.
+- [02:33] But before we dive in, let me introduce
+- [02:35] today's video sponsor, Scalekit. The O
+- [02:38] stack built specifically for AI
+- [02:40] applications. If you're building a B2B
+- [02:43] AI product, authentication can get
+- [02:45] messy. Scalekit gives you complete O
+- [02:49] infrastructure where you can
+- [02:50] authenticate AI agents, secure your MCP
+- [02:53] servers and APIs with the drop-in oath
+- [02:57] layer and protect human users with a
+- [02:59] passwordless flow [music] like magic
+- [03:01] links or pass keys or go upmarket with
+- [03:04] enterprise SSO and scrim. And here's the
+- [03:07] kicker. You don't have to switch your
+- [03:09] entire O provider already on O0 or an
+- [03:12] open- source solution. Well, no problem.
+- [03:15] Scale Kit's modular design lets you add
+- [03:17] enterprise level identity or Asian
+- [03:20] identity features without rewriting your
+- [03:22] stack. That flexibility is really their
+- [03:24] secret sauce. So, if you want to secure
+- [03:27] every layer of your AI app and scale
+- [03:30] without headaches, take a look at Scale
+- [03:32] Kit with the link in the description
+- [03:34] below and start building smarter
+- [03:36] authentication today. To get started,
+- [03:38] you can easily go ahead and create an
+- [03:40] account completely for free as long as
+- [03:42] you have a Google account with both
+- [03:44] Jules as well as Stitch. But now we can
+- [03:46] use Stitch its AI coding capabilities to
+- [03:49] fully generate the UI components for our
+- [03:52] front end of our project. We can simply
+- [03:54] describe what we wanted to build,
+- [03:55] whether it's an app or a web app, and we
+- [03:58] can have it designed in the experimental
+- [04:00] mode or the standard mode. The
+- [04:02] experimental mode will use the Gemini
+- [04:04] 2.5 Pro fully free to develop any sort
+- [04:07] of UI component that you describe. You
+- [04:09] just need to simply describe it in
+- [04:11] natural language. You can even upload
+- [04:12] wireframes, mockups, as well as sketches
+- [04:15] for it to reference and build out. In
+- [04:17] this case, what I want Stitch to work on
+- [04:19] is building out all the components of a
+- [04:21] crypto trading platform. I'm telling it
+- [04:24] to basically develop the UI components
+- [04:26] like the real-time order book, the live
+- [04:28] price feed, the candlestick chart, and a
+- [04:31] lot more. And I'm adding this chart over
+- [04:33] here, which I found off of Google, and
+- [04:36] I'm going to be requesting it to mimic
+- [04:37] it. So now, what we can do is send in
+- [04:40] this prompt, and it is going to be
+- [04:41] executed by the Gemini 2.5 Pro. It's
+- [04:44] going to first start off by planning out
+- [04:46] all the steps as to how it will tackle
+- [04:48] it. And within the canvas, it's going to
+- [04:50] display all the components that it will
+- [04:52] generate.
+- [04:53] And there we go. I kid you not, in 40
+- [04:56] seconds, it was able to develop this
+- [04:58] crypto trading exchange that mimics the
+- [05:01] photo that I had provided. And it did a
+- [05:03] great job in adding all the components
+- [05:05] that we had requested like the live
+- [05:08] chart, the candlestick chart. You also
+- [05:10] have the order book which is being
+- [05:12] displayed. And it did a great job in
+- [05:14] structuring it like how we wanted it to
+- [05:16] structure based off the wireframe. And
+- [05:19] now what you can also do is iterate on
+- [05:21] this further by requesting other
+- [05:22] details. You can even generate multiple
+- [05:25] options as well. So if you click on this
+- [05:27] button, you can generate more options of
+- [05:29] this so that you can get different
+- [05:31] variants for it to code out. And I did
+- [05:33] that right now. I have select three
+- [05:35] variants for it to actually generate.
+- [05:37] and it will generate three more of these
+- [05:39] copies in different formats and
+- [05:41] different uh components within this
+- [05:43] canvas. And you also have the ability to
+- [05:45] annotate to edit. So if you click on
+- [05:47] this, you can select a certain component
+- [05:49] for it to iterate on further. You also
+- [05:52] have the ability to adjust the theme. So
+- [05:54] if there's a particular theme that you
+- [05:55] want to change it to, like green, you
+- [05:57] can do that. You can change it to light
+- [05:59] mode. You can also generate multiple
+- [06:01] copies directly from the canvas. And you
+- [06:04] can even regenerate it, download it, and
+- [06:06] then actually view the code that was
+- [06:08] actually generated. You can export this
+- [06:10] to Figma as well, which is a capability
+- [06:12] that Stitch provides. And all of this is
+- [06:14] being accomplished fully free. And I
+- [06:17] will say it's not the best generation
+- [06:19] with these new variants. Like you see
+- [06:20] over here, this does not look like a
+- [06:22] full-on crypto exchange. Uh the gradient
+- [06:25] doesn't make sense at all over here. But
+- [06:27] in this case, the formatting is not
+- [06:29] correct with this trading dashboard. But
+- [06:31] the last one that we've got looks pretty
+- [06:33] good. And in my opinion, these two
+- [06:35] options look the best. I personally
+- [06:37] would like to go forward with this due
+- [06:39] to the structure. And we can tell the
+- [06:41] jewels agent to actually fix all the
+- [06:43] components that are messed up in this
+- [06:45] case. So now what we can do is if we
+- [06:48] highlight this canvas itself by clicking
+- [06:50] on the select button, you can then click
+- [06:53] on these three dots. And what you can
+- [06:54] also do is you can attach multiple
+- [06:56] variants. So if I want to select both of
+- [06:59] them, you can click on shift and then
+- [07:01] you can click on these three dots and
+- [07:02] you can export it to jewels. In this
+- [07:04] case, what we can say is we can describe
+- [07:07] it to build on further for this crypto
+- [07:10] exchange. This is where I can describe
+- [07:12] jewels to basically focus on the next
+- [07:14] component where I wanted to build out
+- [07:16] the back end and I wanted to polish
+- [07:18] these components for the front end. I
+- [07:20] wanted to also fix and expand the app
+- [07:23] itself. And obviously if there's a
+- [07:25] component issue that you want to fix,
+- [07:26] you can iterate within Stitch, but I'm
+- [07:28] going to have Jules now work on the next
+- [07:30] component which will work on building
+- [07:32] out the overall task. Now I'm going to
+- [07:34] choose a repository for it to work on.
+- [07:36] And then once you're ready, you can then
+- [07:38] go ahead and click on create task. And
+- [07:40] you can see now it is working on
+- [07:42] tackling the backend task where it's
+- [07:44] going to fully code out every component
+- [07:46] so that our app is fully functional. And
+- [07:49] thanks to Stitch developing the
+- [07:51] front-end components, it will now work
+- [07:53] on building out the backend components
+- [07:55] and making sure that it is going to be
+- [07:57] able to connect perfectly with the front
+- [07:59] end. And there we go. We now have it so
+- [08:01] that Jules is now working on the backend
+- [08:04] component of building out our crypto
+- [08:06] exchange. You can see it is working on
+- [08:08] the plan process. And once you approve
+- [08:10] this plan, you can click on the plan
+- [08:12] approved button which will start working
+- [08:14] on executing this task. And you can see
+- [08:17] now it is working on tackling the
+- [08:19] backend task where it's going to fully
+- [08:21] code out every component so that our app
+- [08:23] is fully functional. And thanks to
+- [08:25] Stitch developing the front-end
+- [08:27] components, it will now work on building
+- [08:29] out the backend components and making
+- [08:31] sure that it is going to be able to
+- [08:33] connect perfectly with the front end.
+- [08:37] And there we go guys. I have finally
+- [08:39] opened up whatever it had created. and
+- [08:42] it was able to fully develop this with
+- [08:44] the live order book which you see on the
+- [08:46] left hand side and it made sure all the
+- [08:48] components are functional just how we
+- [08:50] had requested it to be. It added all of
+- [08:53] the positions which we saw within that
+- [08:56] image. It was able to fully build the
+- [08:58] live trades being placed. You can also
+- [09:00] even place down any sort of limit order
+- [09:03] or even a market order if needed by
+- [09:05] pressing the buy long or short button.
+- [09:08] But essentially, it was able to fully
+- [09:10] build this out based off of the free
+- [09:12] tier that is available with Stitch as
+- [09:14] well as with Jules. And this is why I
+- [09:17] believe this is one of the best tools
+- [09:18] available. If you like this video and
+- [09:20] would love to support the channel, you
+- [09:22] can consider donating to my channel
+- [09:24] through the super thanks option below.
+- [09:26] Or you can consider joining our private
+- [09:28] Discord where you can access multiple
+- [09:30] subscriptions to different AI tools for
+- [09:32] free on a monthly basis plus daily AI
+- [09:35] news and exclusive content plus a lot
+- [09:38] more. But that's how you can build
+- [09:40] almost anything with these two combined.
+- [09:42] This is the capability of Google Labs
+- [09:45] impressive new coding agents and I
+- [09:47] highly recommend that you take a look at
+- [09:48] all of them with the links in the
+- [09:50] description below. But with that thought
+- [09:52] guys, thank you guys so much for
+- [09:52] watching. Make sure you go ahead and
+- [09:54] subscribe to the second channel, join
+- [09:55] the newsletter, join our private
+- [09:57] Discord, follow me on Twitter, and
+- [09:59] lastly, make sure you guys subscribe,
+- [10:00] turn on notification bell, like this
+- [10:02] video, and please take a look at our
+- [10:03] previous videos cuz there is a lot of
+- [10:04] content that you will truly benefit
+- [10:06] from. But with that thought, guys, have
+- [10:07] an amazing day. Spread positivity, and
+- [10:09] I'll see you guys really shortly. He
+- [10:11] suffers.

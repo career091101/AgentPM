@@ -1,0 +1,572 @@
+---
+title: "Transcript: TlbcAphLGSc"
+video_id: "TlbcAphLGSc"
+video_url: "https://www.youtube.com/watch?v=TlbcAphLGSc"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:17:58"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TlbcAphLGSc
+
+- URL: https://www.youtube.com/watch?v=TlbcAphLGSc
+- Retrieved at: 2025-12-30T10:59:25+09:00
+
+## Text
+
+- [00:00] The internet is filled with information
+- [00:02] for us to learn what AI agents are and
+- [00:04] how to build them effectively. But
+- [00:06] there's just so much information out
+- [00:07] there that it's actually pretty
+- [00:09] overwhelming. And so the three top and
+- [00:11] most overarching resources that I have
+- [00:13] found that explained agents very clearly
+- [00:16] is this agent white paper by Google,
+- [00:19] this article on building effective
+- [00:20] agents from Anthropic, and then this
+- [00:22] agent guide from OpenAI. Now, these
+- [00:25] articles themselves are pretty long
+- [00:27] though. In fact, I did a word count.
+- [00:29] It's over 14,000 words when you combine
+- [00:32] all of these articles together. And so
+- [00:34] it's not the kind of thing that you or I
+- [00:36] would just want to go through in a
+- [00:37] single sitting. And so what I have done
+- [00:39] for you is I have combined all these
+- [00:41] articles together. And I've spent hours
+- [00:43] with the help of AI, of course,
+- [00:45] synthesizing all of this information
+- [00:48] into a less than 20 minute presentation.
+- [00:50] So you can basically get everything you
+- [00:52] need out of these resources for building
+- [00:54] AI agents in just 20 minutes. And pay
+- [00:58] attention to this because if you master
+- [00:59] the fundamentals for agents that are
+- [01:01] laid out here, you're going to be ahead
+- [01:03] of 99% of people and it's going to be
+- [01:05] that much easier for you to build any
+- [01:07] agent that you want to tackle in the
+- [01:08] future. And so, let's just dive right
+- [01:10] into it. So, all three of these guides,
+- [01:13] they start out by defining for us what
+- [01:15] an agent is. And to summarize all of
+- [01:17] that, an agent is a system that uses a
+- [01:19] large language model to reason like GPT,
+- [01:22] Gemini, or Claude. And as it is
+- [01:25] reasoning, it will decide to take
+- [01:26] actions to do things on our behalf like
+- [01:29] summarize a Slack conversation, send an
+- [01:31] email, write or execute code. And then
+- [01:34] when it takes those actions, it's going
+- [01:36] to observe what happened. And so we have
+- [01:38] this reasoning loop where the LLM will
+- [01:40] decide to do things. So it'll take
+- [01:41] actions. It'll figure out what happened
+- [01:43] when it took that action to potentially
+- [01:45] then take more actions as a follow-up or
+- [01:48] to just continue its process. And we
+- [01:50] don't know how many actions the agent is
+- [01:53] going to take. Sometimes it might take
+- [01:54] zero actions and just answer our
+- [01:56] question right away. Other times it'll
+- [01:57] take two. Sometimes it'll take five.
+- [01:59] We're giving it that flexibility,
+- [02:01] leveraging its reasoning power to figure
+- [02:03] out how many actions to take. And just
+- [02:05] to show you what that looks like in each
+- [02:07] of these guides really quickly. Within
+- [02:09] the Google paper, they say that an agent
+- [02:11] can be defined as an application that
+- [02:13] attempts to achieve a goal by observing
+- [02:16] the world and acting upon it. And then
+- [02:17] within the anthropic article, an agent
+- [02:20] is a system where the LLM dynamically
+- [02:22] directs their own processes and tool
+- [02:25] usage. So very very similar. And then
+- [02:28] within our OpenAI guide, they have an
+- [02:30] even shorter definition. Agents are
+- [02:31] systems that independently accomplish
+- [02:34] tasks on your behalf. And then after
+- [02:36] each of these guides explain what an
+- [02:38] agent is, they do something that I
+- [02:40] respect a lot because they cover then
+- [02:42] when you should build an AI agent versus
+- [02:44] when it is actually overengineering
+- [02:46] because there are a lot of automations
+- [02:48] that make sense to just build a
+- [02:49] traditional workflow, maybe including a
+- [02:52] large language model in the mix, but not
+- [02:54] actually building an agent. Agents are
+- [02:56] powerful because of their extra
+- [02:57] reasoning capability, but because we're
+- [02:59] giving so much responsibility to them,
+- [03:01] it's more dangerous and it makes our
+- [03:03] systems more unpredictable. And so I'll
+- [03:05] actually show you an example of this. So
+- [03:07] I have N8N just as a tool here to help
+- [03:09] us visualize a workflow versus an actual
+- [03:13] AI agent. And so in this first example
+- [03:15] that we have here, this is just a linear
+- [03:18] workflow. We're using a large language
+- [03:20] model to create a post for X and then
+- [03:22] one for LinkedIn and then another one
+- [03:24] for our blog. In this case, we are using
+- [03:26] large language models, but it's not like
+- [03:28] we have an agent that can make decisions
+- [03:30] on our behalf. We are always going to
+- [03:31] generate one expost, one LinkedIn post,
+- [03:34] and one blog post using LLMs. It's not
+- [03:36] interacting with our environment in ways
+- [03:38] that is based on its own reasoning. It's
+- [03:40] just a linear process. On the other
+- [03:43] hand, this is an AI agent. This is one
+- [03:45] that I built earlier on my channel
+- [03:46] before where it's able to interact with
+- [03:48] GitHub repositories, look at all the
+- [03:50] files that are there, and analyze
+- [03:51] individual files. And this tool that we
+- [03:53] give it, it can decide to look at three
+- [03:55] files or zero or 10. It has that
+- [03:58] reasoning capability to figure out when
+- [04:00] it should interact with its environment
+- [04:02] and how much. So that makes it an agent,
+- [04:05] but it's going to be more unpredictable
+- [04:07] because maybe it shouldn't look at a
+- [04:09] file, but it decides to anyway or we
+- [04:11] want it to analyze a file and it skips
+- [04:13] that. That's the kind of mistakes that
+- [04:16] agents can make that we wouldn't make in
+- [04:18] a traditional workflow. Like it's never
+- [04:19] going to accidentally skip creating the
+- [04:21] expost because that is hardwired into
+- [04:24] this linear process. So I hope that
+- [04:26] makes sense. So you want to build agents
+- [04:29] when you need that complex decision-m
+- [04:31] around the tools that it is using to
+- [04:34] interact with our environment. And you
+- [04:36] also want to build agents when brittle
+- [04:38] logic is present. And what I mean by
+- [04:39] that is sometimes the rules in your
+- [04:42] system is a bunch of gray area. And so
+- [04:45] when you present situations to an agent,
+- [04:48] you want it to kind of deploy its extra
+- [04:50] reasoning capability to understand how
+- [04:52] to navigate the situations that you
+- [04:54] presented. But if your automations are
+- [04:57] very predictable and stable logic is
+- [04:59] enough, like just regular code or
+- [05:02] regular workflow automation, then you
+- [05:03] don't want to overengineer for an agent.
+- [05:06] Next up, we have the four components
+- [05:08] that go into any AI agent. And that is
+- [05:11] our large language model. That's the
+- [05:13] brain that gives us all of our reasoning
+- [05:15] power. We have the tools for it to
+- [05:16] interact with our environment. We have
+- [05:18] the instructions, usually known as the
+- [05:20] system prompt, where we instruct the
+- [05:22] behavior and tone for our agent. And
+- [05:24] then last we have our memory. This is
+- [05:26] going to be both for short-term memory,
+- [05:28] conversation history, and long-term
+- [05:30] memory. So our agent can remember our
+- [05:32] goals and preferences and instructions
+- [05:34] between conversations. And going back to
+- [05:37] our guides, Google definitely explains
+- [05:39] this the best in my opinion. You can see
+- [05:41] they lay out the four different
+- [05:42] components very well here for our
+- [05:44] instructions, memory, our LLM, and then
+- [05:46] the tools. And then Enthropic, it's
+- [05:49] almost as good. They have all the
+- [05:50] components here except they don't
+- [05:52] explicitly call out the system prompt
+- [05:53] which is really crucial for our agent.
+- [05:56] And then OpenAI has the model tools and
+- [05:58] instructions, but they don't have the
+- [06:00] memory here. And so that's why I think
+- [06:02] Google explains this the best. These
+- [06:03] four components are so crucial. And
+- [06:06] whenever you have an issue with your
+- [06:07] agent in general, it's always going to
+- [06:09] be one of these four things. And so it's
+- [06:11] worth thinking to yourself, is this the
+- [06:13] LLM reasoning not being good enough? Do
+- [06:16] I need to give better tools, implement
+- [06:18] better memory, maybe refine my system
+- [06:20] prompt? It's going to be one of those
+- [06:22] things. And so that's why it's so
+- [06:23] powerful for you to understand these
+- [06:25] four components that go into building
+- [06:26] any AI agent. Next, we have the
+- [06:29] different reasoning patterns for AI
+- [06:30] agents. So, first we have react. This is
+- [06:33] reason, then act, then observe. This is
+- [06:35] the main one that we'll focus on in a
+- [06:37] little bit. Then we have chain of
+- [06:38] thought. So, stepby-step logic. This is
+- [06:41] your classic telling an LLM to think
+- [06:43] through a problem step by step. And that
+- [06:45] generally does give us better results.
+- [06:47] And then last, this is the most
+- [06:49] technical one that none of these guys
+- [06:51] really focus on too much is the whole
+- [06:53] idea of tree of thought. Letting our AI
+- [06:55] agent explore many different
+- [06:56] possibilities and outcomes in parallel.
+- [06:59] But React is the primary one. And this
+- [07:01] is called out in the Google paper that
+- [07:03] this is the one that is really standard
+- [07:05] for most agents. This is what they
+- [07:07] really spend a lot of time focusing on.
+- [07:09] And so like with everything else, I've
+- [07:10] got a beautiful diagram here showing us
+- [07:12] what that looks like. And this should
+- [07:13] look very similar to our other diagram
+- [07:15] just showing agents in general because
+- [07:17] they really follow this react cycle of
+- [07:20] reasoning about what they should do,
+- [07:22] taking that action, observing on what
+- [07:24] happened when they took that action, and
+- [07:25] then reflecting to adjust their
+- [07:27] strategy, take additional actions,
+- [07:29] whatever might be necessary. The sponsor
+- [07:31] of today's video is Augment Code. It's
+- [07:33] the coding agent that actually
+- [07:35] understands your code base. Because one
+- [07:37] of the biggest problems that we have
+- [07:38] with AI coding assistants in general
+- [07:40] right now is they start to completely
+- [07:42] fall apart when your projects get
+- [07:44] bigger. I'm sure you've seen that for
+- [07:46] yourself and Augment Code is the
+- [07:48] solution for that. I've been playing
+- [07:50] around with it recently. I've been very
+- [07:51] impressed and a lot of you have been
+- [07:53] trying it yourself and specifically
+- [07:55] asking me to cover it both on my YouTube
+- [07:57] channel and in the Dynamis community.
+- [07:59] And so that's what I'm doing for you
+- [08:00] right now. So Augment is an extension
+- [08:02] that you can get for a lot of different
+- [08:03] IDEs. Like in this case, I have it for
+- [08:05] Visual Studio Code. And when you first
+- [08:07] open up a project with Augment, it'll
+- [08:10] have you index the codebase. This is
+- [08:12] their way to take your codebase and turn
+- [08:14] it into a knowledge base for the AI
+- [08:16] coding assistant. It's very, very
+- [08:18] powerful. And look at how fast that was.
+- [08:21] So, so fast. And I know that there are
+- [08:24] other AIDes that index your codebase
+- [08:26] under the hood like Cursor and Windsurf,
+- [08:28] but they don't have this super powerful
+- [08:30] explicit process like we have with
+- [08:32] Augment. And with their new agent mode,
+- [08:34] you can work with your code
+- [08:34] automatically. Have the agent make
+- [08:36] changes just like you would in cursor
+- [08:38] and windsurf. But just to show you
+- [08:40] really quickly how well this agent
+- [08:41] understands my codebase. First, look at
+- [08:43] these questions. Like you can tell that
+- [08:45] it has a deep knowledge of my codebase
+- [08:48] just in the suggested questions. And I
+- [08:49] can ask one of these like what does my
+- [08:51] authentication flow look like both with
+- [08:53] Ozero and how I integrate that with
+- [08:55] Superbase. It calls out different
+- [08:56] components, gives me the necessary code
+- [08:59] to understand what's going on. like this
+- [09:00] is the perfect answer. So, I'll have a
+- [09:03] link in the description to Augment Code.
+- [09:04] You can sign up for a free 14-day trial
+- [09:06] to see all this power for yourself. I
+- [09:09] would highly recommend checking it out
+- [09:10] if you want to use AI to work with
+- [09:12] larger projects and production
+- [09:13] applications. And then the next
+- [09:15] component I could definitely spend an
+- [09:17] entire video series covering because we
+- [09:19] have common patterns for building agents
+- [09:22] and multi- aent workflows. So, we have
+- [09:25] prompt chaining which is having multiple
+- [09:27] agents just running sequentially. We
+- [09:29] have routing where we use one LLM to
+- [09:31] route the request to specialized agents.
+- [09:34] We have tool use which we've seen
+- [09:36] already. We have evaluator loops where
+- [09:38] we have an LLM produce some output and
+- [09:40] then we have another LLM evaluate it
+- [09:42] have a loop of selfcorrection if
+- [09:44] necessary. Then we have the orchestrator
+- [09:46] and worker flow where we have one
+- [09:48] primary agent that is managing many
+- [09:50] other agents taking the task and
+- [09:52] splitting it up. And then we have
+- [09:53] autonomous loops. This is the most
+- [09:55] dangerous one but this is where an AI
+- [09:57] agent decides everything. We don't have
+- [09:59] the human involved in any kind of way.
+- [10:01] The agents manage their own inputs and
+- [10:03] outputs for basically the entire
+- [10:05] process. And the best guide to dive into
+- [10:07] for all these patterns is definitely the
+- [10:09] one from anthropic on building effective
+- [10:11] agents because they have these diagrams
+- [10:13] that show us very clearly what these
+- [10:15] different processes look like. So for
+- [10:16] prompt chaining for example, we have
+- [10:18] this example here. For routing, we have
+- [10:22] parallelization. We have the whole idea
+- [10:24] of the orchestrator and worker pattern
+- [10:25] that I mentioned earlier. And then we
+- [10:27] have the evaluator and optimizer. And so
+- [10:29] definitely read through these different
+- [10:31] examples in this article if you're
+- [10:33] curious on these different patterns.
+- [10:34] Basically any agent that you're going to
+- [10:36] be building or any multi- aent workflow
+- [10:38] is going to follow one of these. And
+- [10:40] then a special note here from the OpenAI
+- [10:42] guide. They talk about building a single
+- [10:44] agent system versus multi- aent. And
+- [10:46] typically what it comes down to is you
+- [10:48] want to use a single agent system as
+- [10:50] much as possible because it is the
+- [10:52] simplest. But then you'll start to run
+- [10:54] into issues like tool overload where
+- [10:57] there's just so much given to one agent.
+- [10:59] Usually you don't want more than 10 to
+- [11:01] 15 tools for one agent. Once you get to
+- [11:03] that point, you want to split your
+- [11:05] process into multiple different agents
+- [11:07] with something like the orchestrator and
+- [11:09] worker architecture. And when you have
+- [11:11] more complex logic, it's the same kind
+- [11:13] of deal. That's when you want to go into
+- [11:15] multi- aent systems where you have agent
+- [11:17] handoffs and manager agents like the
+- [11:19] orchestrators or decentralized where you
+- [11:22] just have a lot of different agents that
+- [11:23] are operating together to tackle a
+- [11:25] problem in tandem. So that's just a
+- [11:27] really important note to go along with
+- [11:28] these patterns that we have here because
+- [11:30] a lot of them do apply to multi- aent
+- [11:32] workflows. Then that brings us to the
+- [11:34] allimportant safety and guard rails
+- [11:36] because here's the thing, no matter how
+- [11:38] powerful of an LLM you are using, it is
+- [11:41] going to hallucinate. And so making sure
+- [11:43] those hallucinations don't affect our AI
+- [11:45] system as a whole is all based around
+- [11:47] how good our guard rails are. So we can
+- [11:50] limit certain actions for our agent like
+- [11:52] if it's interacting with our database
+- [11:53] maybe only making sure it can use
+- [11:55] readonly tools. We have human review. So
+- [11:58] adding in humanly in the loop to approve
+- [12:00] actions and allow for our feedback to
+- [12:03] direct the agent filtering certain
+- [12:05] outputs. And then also the important
+- [12:07] thing that these guys call out is that
+- [12:09] you always want to test your agents in a
+- [12:10] safe environment before deploying them
+- [12:12] to production. Making sure that there
+- [12:14] aren't situations where your agent
+- [12:15] completely falls apart and your
+- [12:17] guardrails don't help. And I do want to
+- [12:18] call out here that the OpenAI guide
+- [12:21] specifically covers guardrails the best
+- [12:23] in my opinion. And they even talk about
+- [12:24] the different types of guardrails here
+- [12:26] on page 26. Definitely worth reading
+- [12:28] into this if you have a system where for
+- [12:30] example you have to filter out PII or
+- [12:34] maybe you just want relevance
+- [12:35] classifiers for your rag application to
+- [12:37] make sure that the answer that it's
+- [12:39] giving based on the chunks it retrieved
+- [12:40] from rag is actually relevant and that
+- [12:42] it is answering the user's question.
+- [12:44] Those are the kind of things that you
+- [12:45] want to implement as guardrails. And
+- [12:47] within one of my previous videos on my
+- [12:50] channel, one of my more recent ones, I
+- [12:52] even showed you an example here where we
+- [12:54] have an AI agent that produces some
+- [12:56] output and then that goes to this critic
+- [12:58] node. This is a guardrail that's going
+- [13:00] to evaluate. Did the output of this
+- [13:02] agent match the expectations that I have
+- [13:05] for this process? And then if it
+- [13:06] doesn't, it's going to retry. So we have
+- [13:08] this whole idea of the guardrail looping
+- [13:11] back. It's kind of like the evaluator
+- [13:13] and optimizer pattern that we saw within
+- [13:15] anthropic here. So it'll loop back to
+- [13:17] then correct itself and do this any
+- [13:19] number of times until we have the
+- [13:21] accepted output. So very very important.
+- [13:23] Guardrails are the way to make sure that
+- [13:24] your systems are reliable. And then the
+- [13:26] last few things I have here are pretty
+- [13:28] simple. So we'll get through them pretty
+- [13:30] quickly. Starting with what it looks
+- [13:31] like to have an effective AI
+- [13:34] implementation. And so just like with
+- [13:35] any automation, you want to start really
+- [13:37] simple. But then what you want to do
+- [13:39] specific to agents is have visibility
+- [13:41] into the agents reasoning so that you
+- [13:43] can see into what it is deciding to do.
+- [13:46] How many times is deciding to use
+- [13:48] different tools for a given question
+- [13:50] that you asked it. You also want clear
+- [13:52] instructions. This is both for your
+- [13:54] system prompt and then also for the
+- [13:56] descriptions that you give the agent for
+- [13:57] your tools so it knows how to leverage
+- [13:59] those effectively and when to use them
+- [14:01] at the right time. And then also these
+- [14:03] guides, they focus so much on the
+- [14:06] importance of evaluating your agents. In
+- [14:08] fact, I've heard it before that building
+- [14:10] AI agents is 25% coding or automating
+- [14:13] and then 75% evaluating because it's
+- [14:16] easy to get to that first 90% for your
+- [14:18] agent as far as performance. That's when
+- [14:20] it's good. But to really make your agent
+- [14:22] great, you have to evaluate constantly
+- [14:25] and you have to constantly be tweaking
+- [14:26] your tools and your fine-tuning and your
+- [14:28] system prompt and your knowledge base.
+- [14:30] So crucial. And then also maintaining
+- [14:32] human oversight, things like human in
+- [14:35] the loop to make sure we are a part of
+- [14:36] the more crucial decisions that our
+- [14:38] agents are making because you don't want
+- [14:39] to trust them 100% for a lot of
+- [14:42] different use cases. And these guys
+- [14:43] focus a lot on real world use cases as
+- [14:46] well. And so I want to cover some of
+- [14:48] these that they call out really quickly
+- [14:49] because these are the kind of things
+- [14:51] that you can implement as quick wins for
+- [14:53] your business or just automations for
+- [14:54] yourself like customer service,
+- [14:56] classifying and responding to queries,
+- [14:58] general business operations like
+- [15:00] approving refunds, reviewing documents,
+- [15:02] automatically organizing files in your
+- [15:04] SharePoint or emails that you have in
+- [15:06] your Outlook or Gmail, whatever that
+- [15:08] might be. LLM are great at research
+- [15:10] tasks in general, too. And then we have
+- [15:12] our development tools. I mean, we know
+- [15:14] things like AI coding assistants are
+- [15:16] just so so powerful. And then last but
+- [15:18] not least is just general scheduling
+- [15:20] tasks like managing our calendar,
+- [15:22] planning invites and sending meetings,
+- [15:24] doing a lot of inbox management and also
+- [15:26] AI agents can be really useful for
+- [15:28] managing things within our task
+- [15:30] management softwares as well like
+- [15:31] ClickUp or ASA. So yeah, so many
+- [15:34] different use cases that we can build
+- [15:35] agents for that they call out. A lot of
+- [15:37] this is that lowhanging fruit for us to
+- [15:39] get those quick wins. And then I wanted
+- [15:41] to remain very framework agnostic with
+- [15:44] this guide. So not focusing on specific
+- [15:46] tools or frameworks, but there are some
+- [15:48] that are mentioned within these
+- [15:49] different resources that I want to call
+- [15:51] out really quickly. So Google talks a
+- [15:53] lot about different prompt templates in
+- [15:55] their agent white paper. They also cover
+- [15:57] Vertex AI. That's their cloud offering
+- [15:59] that gives you a lot of powerful agent
+- [16:01] capabilities right out of the box. They
+- [16:03] cover tools like Langchain. And then
+- [16:05] OpenAI talks a lot about their agents
+- [16:07] SDK and they have a lot of code examples
+- [16:09] in their guide based on the agents SDK.
+- [16:12] There are a lot of other really great
+- [16:14] frameworks as well like Langraph which I
+- [16:16] love. Agno Crew AI small agents from
+- [16:19] Hugging Face, Pideantic AI which is my
+- [16:21] favorite AI agent framework. So a lot of
+- [16:23] different ones to look into pros and
+- [16:25] cons for each. And then the very last
+- [16:27] final thought that I have to share with
+- [16:29] you is that when you're building agents,
+- [16:31] really any automations in general, but
+- [16:33] this applies especially to agents, you
+- [16:35] want to focus on outcomes, not
+- [16:37] complexity. When you're building fancy
+- [16:39] agents and multi-agent architecture and
+- [16:42] you're adding in your guard rails and
+- [16:43] you're doing all this crazy stuff with
+- [16:45] your system prompting, it can be very
+- [16:47] tempting to focus on the complexity. And
+- [16:50] as you're building things for your
+- [16:51] company or yourself or your clients, you
+- [16:53] might present this as like, "Oh, look at
+- [16:55] how complex this was. Look at how much
+- [16:57] work I put into this." But really, they
+- [16:59] just care and you should just care about
+- [17:01] the results that you get from
+- [17:02] implementing this agent into your
+- [17:04] systems. That is the most important
+- [17:06] thing. And so, don't fall for the
+- [17:08] temptation of focusing on complexity
+- [17:10] just because there are so many cool ways
+- [17:12] that we can do really fancy things with
+- [17:14] agents. It still just comes down to what
+- [17:16] is your return on investment when you
+- [17:18] invest monetarily or with your time into
+- [17:20] building an agent. So there you have it.
+- [17:23] That is Google's agent white paper,
+- [17:24] OpenAI's practical guide to agents and
+- [17:27] building effective agents from
+- [17:28] Anthropic, all condensed down into 20
+- [17:31] minutes for you. And if you want to dive
+- [17:32] deeper into these topics and building
+- [17:34] good AI agents, definitely check out
+- [17:37] Dynamis.ai. It's my community that I
+- [17:39] started recently of early AI adopters
+- [17:41] like yourself. So, if you want to
+- [17:43] transform your career and business with
+- [17:45] AI, definitely give it a look. And I'll
+- [17:48] keep putting out more content on my
+- [17:49] YouTube channel for these topics as
+- [17:51] well. So, if you appreciated this
+- [17:53] content, you're looking forward to more
+- [17:54] things AI agents, I would really
+- [17:56] appreciate a like and a subscribe. And
+- [17:58] with that, I will see you in the next

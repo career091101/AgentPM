@@ -1,0 +1,330 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=oowzvdpH_2o"
+video_id: "oowzvdpH_2o"
+video_url: "https://www.youtube.com/watch?v=oowzvdpH_2o"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=oowzvdpH_2o
+  - Retrieved at: 2025-12-30T16:18:39+09:00
+  - [00:00] So, OpenAI just launched CHBD pulse and
+key_points:
+  - "- [01:14] important to you. So, basically, when"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: oowzvdpH_2o
+
+- URL: https://www.youtube.com/watch?v=oowzvdpH_2o
+- Retrieved at: 2025-12-30T16:18:39+09:00
+
+## Text
+
+- [00:00] So, OpenAI just launched CHBD pulse and
+- [00:02] it's actually insane. Well, it's a brand
+- [00:04] new AI agent that works for you every
+- [00:07] single day completely autonomously.
+- [00:09] Basically, it turns CHBT from a passive
+- [00:12] chatbot to an AI agent that's actually
+- [00:15] proactive. In this video, I'll show you
+- [00:17] what it does, how it works, and whether
+- [00:19] it is worth the $200 a month. So, as of
+- [00:22] today, Palace is only available on
+- [00:24] mobile. So, make sure you install Chat
+- [00:26] GBD on your phone. Now, when you open
+- [00:27] the app, you can already see that in the
+- [00:29] middle it says today's pulse. So,
+- [00:31] they're really pushing this feature and
+- [00:33] this is going to be one of the main
+- [00:34] features inside of CH GBT. That is my
+- [00:36] prediction. But you can also open it by
+- [00:38] going to the left and clicking on pulse.
+- [00:40] And this opens up your CHB pulse
+- [00:42] overview for that day. Now, here is the
+- [00:44] official announcement tweet from Sam
+- [00:46] Ultman, the CEO of OpenAI. And by the
+- [00:48] way, he does say that this is his
+- [00:50] favorite feature of CHGBT. And I don't
+- [00:52] think it's lying because this feature
+- [00:54] it's really good. You'll see what I mean
+- [00:56] in a bit. Anyways, Pulse works for you
+- [00:58] overnight and keeps thinking about your
+- [01:00] interests, your connected data, your
+- [01:02] recent chats, and more. Every morning,
+- [01:03] you get a custom generated set of stuff
+- [01:05] you might be interested in. And let me
+- [01:07] tell you, this is an understatement
+- [01:08] because it really feels like pulse can
+- [01:10] read your mind. It performs super well
+- [01:12] if you tell CHBD more about what's
+- [01:14] important to you. So, basically, when
+- [01:16] chatting with it, tell it your current
+- [01:17] goals. Tell it what problems you're
+- [01:19] facing in your business or your life,
+- [01:20] and it will use all of that context to
+- [01:22] make pulse as good as possible. Here's
+- [01:25] the next part of Sam Alman's tweet.
+- [01:26] Think of treating Chad GBD like a super
+- [01:28] competent personal assistant. Sometimes
+- [01:30] you ask for things you need in the
+- [01:32] moment, but if you share general
+- [01:33] preferences, it will do a good job for
+- [01:35] you proactively. And this is the main
+- [01:37] thing, the first feature in the world
+- [01:39] that's actually proactive, which means
+- [01:41] it does stuff for you without you having
+- [01:43] to ask. This also points to what I
+- [01:45] believe is the future of CHIGBT, a shift
+- [01:47] from being all reactive to being
+- [01:50] significantly proactive and extremely
+- [01:52] personalized. Let me show you an actual
+- [01:54] example that kind of blew my mind. So
+- [01:56] for context, few days ago, I asked JGBT
+- [01:58] about which cities in Europe would be
+- [02:00] the best to establish an in-person
+- [02:02] office for vector, my startup. And it
+- [02:05] was just a single chat. And look what
+- [02:07] Pulse did with that information. So as
+- [02:09] it says, you'll find this useful as
+- [02:10] context when dealing with tech teams in
+- [02:12] Poland. So Warso, the capital of Poland,
+- [02:14] was one of the main cities I was
+- [02:16] considering. and it used that context to
+- [02:18] do detailed, deep research on what it's
+- [02:22] like to hire in Poland and build a deaf
+- [02:24] team. I didn't give it the instruction
+- [02:26] to search for this. Now, I cannot stress
+- [02:28] this enough. It might not seem
+- [02:30] impressive to you because this is not
+- [02:31] your problem. This is not something
+- [02:32] you're thinking about, but this is hyper
+- [02:34] relevant to me. So, when I read this, I
+- [02:36] was like, "Wow, it literally predicted
+- [02:38] what I was about to like search up or
+- [02:40] research ahead of time." And by the way,
+- [02:42] if you are a junior developer from
+- [02:44] Europe and you might be interesting in
+- [02:45] joining our Warsaw office, make sure to
+- [02:47] apply. The link is going to be below the
+- [02:49] video. Now, when I first saw this, the
+- [02:50] first thought into my mind was how could
+- [02:52] I build my own pulse? How could we build
+- [02:55] a system like this? And actually
+- [02:57] building something like change pulse is
+- [02:59] much more doable than you think. The
+- [03:00] biggest problem really is giving your AI
+- [03:02] agent access to operate on the website
+- [03:05] so that it can do the agentic proactive
+- [03:07] behavior that you want it to do.
+- [03:08] However, there's a solution that lets
+- [03:10] you automate any actions in the browser
+- [03:13] and give those powers to your AI agents.
+- [03:15] And that solution is browserbased.
+- [03:17] Browserbase lets you automate any
+- [03:18] actions in the browser using natural
+- [03:20] language. And it does so with stage
+- [03:22] hand, which is their browser automation
+- [03:24] framework. For example, you can run a
+- [03:26] research agent to automate a task like
+- [03:28] buy me a concert tickets for this artist
+- [03:31] or you can use authenticated agent to
+- [03:33] approve your teammates's pull requests
+- [03:35] on GitHub. Now, creating these
+- [03:36] automations is much easier than you
+- [03:38] think because we can use director.ai to
+- [03:40] do it for us. So, for example, I can
+- [03:41] tell it, I want you to find me skilled
+- [03:43] video editors on YouTube.co, navigate to
+- [03:46] the talent section and filter categories
+- [03:48] to video editors. So, this is an agentic
+- [03:50] task and you can even watch it do the
+- [03:52] automation for you. Like look at this.
+- [03:54] It's opening the talent page, then it's
+- [03:56] filtering by the categories, and you can
+- [03:58] watch it work. Now, any automation you
+- [03:59] create, just open it in playground, and
+- [04:01] you can easily add it to your own
+- [04:02] codebase. And on the left you can see
+- [04:04] its thinking process. I notice I'm
+- [04:06] currently on Google's homepage, not on
+- [04:07] YouTube.co. Then it went to the website.
+- [04:09] It clicked on the talent link and you
+- [04:11] can see the reasoning it did after that.
+- [04:13] Then it clicked on all categories and
+- [04:15] it's creating the automation like that.
+- [04:16] AI agent browsing the web in real time.
+- [04:19] I mean the amount of potential startups
+- [04:21] you can build with this is literally
+- [04:23] endless. To try browser base yourself,
+- [04:24] just use the link below the video. Thank
+- [04:26] you to Browserbase for sponsoring this
+- [04:28] video. All right, so let's look a bit
+- [04:29] deeper on how Pulse actually works.
+- [04:31] First off, it analyzes all of your
+- [04:33] recent chats. So, if I had to guess,
+- [04:34] probably like the re most recent 30 to
+- [04:36] 60 days of your chbd conversations. Then
+- [04:40] it groups that into five to seven most
+- [04:43] important topics that you actually care
+- [04:44] about. This could be your goals,
+- [04:46] problems, things you are currently
+- [04:48] learning, some things you might just be
+- [04:50] interested in. And then it does
+- [04:51] extensive deep research on those topics,
+- [04:54] searching how to solve those problems,
+- [04:56] best practices, any recent news.
+- [04:58] Basically, it does a bunch of work for
+- [05:00] you. Now, to give it even more context,
+- [05:02] you can also connect apps like email and
+- [05:04] calendar, which if you think into
+- [05:06] future, it's going to be able to do
+- [05:08] those actions, not just, you know, get
+- [05:11] your calendar to see what you have for
+- [05:12] the week. It's going to be able to
+- [05:14] schedule slots, respond to emails. Yeah,
+- [05:16] this could get real crazy real soon, but
+- [05:18] more on that later. And then every
+- [05:20] morning inside of your mobile app, you
+- [05:22] will receive your pulse, you know, your
+- [05:24] summary for the day with five to eight
+- [05:26] personalized mini articles that are
+- [05:29] hyper relevant to you. I really cannot
+- [05:31] emphasize that enough. Pulse only really
+- [05:33] is useful if you use CHP every day and
+- [05:35] if you give it enough context. Now, why
+- [05:38] did OpenAI put this on the CH GBD Pro
+- [05:40] plan which cost $200 a month? And the
+- [05:43] reason is JBD pulse burns a lot of
+- [05:46] tokens both on reasoning about your
+- [05:48] goals, your recent chats, your interests
+- [05:51] and on the deep research part and
+- [05:52] processing all those tokens from the
+- [05:54] research. And this is exactly why it
+- [05:57] feels so relevant to you. Like it
+- [05:59] literally feels like it can read your
+- [06:01] mind because it does so much reasoning
+- [06:03] and so much thinking, so many tokens it
+- [06:05] processes and all of that costs actual
+- [06:08] money, right? Openi has to run the GPUs
+- [06:10] and that cost them money. So, I do not
+- [06:12] think this is just a ploy to get more
+- [06:14] people to upgrade to the most expensive
+- [06:16] plan. I actually think that currently
+- [06:18] they cannot make it any cheaper. But
+- [06:20] they did say, however, that they are
+- [06:22] soon going to release it for the $20 a
+- [06:24] month plan. Maybe it won't be as
+- [06:26] expensive. But hey, if you have JBD
+- [06:28] Plus, something to be excited for. Okay,
+- [06:31] so let me actually show you what this
+- [06:32] looks like in the app. So today, 26th
+- [06:34] September, we have it in here. And you
+- [06:36] can see it's a series of mini articles
+- [06:39] with AI generated images which are
+- [06:41] nicely complementing the article.
+- [06:43] They're hyper relevant to me. So the
+- [06:45] first one is fast flexible task
+- [06:46] ordering. Right? I'm building a task
+- [06:48] management application vectal and this
+- [06:50] is highly relevant. Next up persistent
+- [06:53] memory for AI agents. This is probably
+- [06:54] something I researched recently. And
+- [06:56] then after like three articles it asks
+- [06:58] you for feedback and this is really the
+- [07:00] true power of it, right? Because in
+- [07:02] order for this to be useful every single
+- [07:04] day, it needs to keep getting context
+- [07:06] from your brain. So it's asking you
+- [07:08] decide what shows up here. What's on
+- [07:10] your mind lately? I'll remember it for
+- [07:11] tomorrow's update. And you can tell it
+- [07:13] anything, right? So like I'm trying to
+- [07:15] scale my startup faster and this is my
+- [07:17] bottleneck. Or I'm trying to lose weight
+- [07:19] and I need to help building a diet. Or
+- [07:21] I'm trying to hire a person for this
+- [07:23] position. Whatever your goal is,
+- [07:24] whatever problem you're facing in life,
+- [07:26] give it that context and you'll be
+- [07:28] surprised how much work it does behind
+- [07:30] the scenes. So if I scroll deeper, we
+- [07:31] can see more articles. Here's a way to
+- [07:33] make strategy progress clearer for
+- [07:34] teammates. So I was thinking of how to
+- [07:37] scale my team and how to organize tasks.
+- [07:39] Then I was asking something about
+- [07:41] mermaid diagrams. So let me actually
+- [07:43] click on this article to get more
+- [07:44] details. And you can see these are like
+- [07:45] hyper relevant articles based on your
+- [07:48] recent searches. Consider this database
+- [07:50] upgrade only if you're ready to test and
+- [07:52] benchmark. So it gives you these like
+- [07:54] summaries or actionable tips. It's not
+- [07:57] just like bloat where it, you know,
+- [07:58] browses the web and gives you like
+- [08:00] irrelevant article. All of this is hyper
+- [08:02] relevant to my recent search queries and
+- [08:04] there's another input field. So, they're
+- [08:06] really trying hard to get your faults
+- [08:07] and really fine-tune how good this is.
+- [08:09] Which of these software development
+- [08:11] practices do you want more updates on
+- [08:12] database performance, code review tools,
+- [08:14] system design diagrams? I'm going to go
+- [08:16] with system design. So, I clicked on
+- [08:18] that and now it's it's sent out as a
+- [08:21] feedback and ch response. Got it. Thanks
+- [08:24] for letting me know. I'll bring more
+- [08:25] focus on system designs for upcoming
+- [08:26] updates. And this is how they ensure
+- [08:28] it's useful every single day because if
+- [08:30] you're not using CHBD daily, if you're
+- [08:32] not giving it enough info, it has
+- [08:34] nothing to reason about. Let's talk
+- [08:35] resilience. Why relying on just one AI
+- [08:37] model might be risky. Another article.
+- [08:40] Here's a simple offline doc. So this is
+- [08:41] interesting. I was on a flight recently
+- [08:43] from Europe to Dubai and I was setting
+- [08:46] up offline dogs for Python because I
+- [08:47] wanted to program on the plane and
+- [08:49] clearly I asked JGB about it and now it
+- [08:52] tells me a simple way to set up local
+- [08:54] dogs with PI do. I mean I just
+- [08:56] downloaded the whole Python
+- [08:58] documentation in HTML but that's fine.
+- [09:00] And when you scroll down to the bottom
+- [09:01] you can see that's all for today.
+- [09:02] Thinking ahead what do you want to see?
+- [09:03] And again you can provide more feedback
+- [09:06] to CHVD pulse to make it even more
+- [09:08] relevant. Now, this is just the
+- [09:10] beginning because soon proactive AI
+- [09:12] agents like this will be everywhere and
+- [09:14] they'll become mega useful for your
+- [09:16] calendar, for your email, for your
+- [09:18] entire life because there will be more
+- [09:20] and more integrations, right? More MCP
+- [09:22] style tools, more protocols, more
+- [09:24] frameworks that will enable the AI
+- [09:26] agents to do even more stuff than they
+- [09:28] can do today. The main bottleneck really
+- [09:30] will be the connectors, the software
+- [09:32] that makes all of this possible, the
+- [09:34] glue, if you will, that allows the AI
+- [09:35] agents to operate. And the exciting part
+- [09:37] is that it's up to us, people like you
+- [09:40] and me, to build this and to invent this
+- [09:42] technology so that AI agents can really
+- [09:44] change the world. Hopefully, you found
+- [09:46] this video useful. If you did, make sure
+- [09:47] to subscribe. And with that being said,
+- [09:49] I wish you a wonderful, productive week.
+- [09:50] See you.

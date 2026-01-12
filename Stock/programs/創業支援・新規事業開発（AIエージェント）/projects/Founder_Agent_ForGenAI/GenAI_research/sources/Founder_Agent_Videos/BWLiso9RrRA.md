@@ -1,0 +1,504 @@
+---
+title: "YouTube Video: BWLiso9RrRA"
+video_id: "BWLiso9RrRA"
+video_url: "https://www.youtube.com/watch?v=BWLiso9RrRA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  Hi everyone, my name is Francis, co-founder of AHA. Over the past few months, we've been building something a little bit crazy. An AI employee for Amazon marketing that works around the clock 247 from...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: BWLiso9RrRA
+
+- URL: https://www.youtube.com/watch?v=BWLiso9RrRA
+- Retrieved at: 2025-12-30T10:03:33+09:00
+
+## Text
+
+- [00:01] Hi everyone, my name is Francis,
+- [00:03] co-founder of AHA. Over the past few
+- [00:05] months, we've been building something a
+- [00:07] little bit crazy. An AI employee for
+- [00:09] Amazon marketing that works around the
+- [00:11] clock 247
+- [00:13] from finding the right influencers and
+- [00:15] reaching out to negotiating the price,
+- [00:17] setting down contracts, and even
+- [00:19] handling payments. It can run the entire
+- [00:21] infant marketing for you. The same one
+- [00:24] that used to be long, messy, and
+- [00:26] painfully repetitive. I'm guessing some
+- [00:29] of you might be wondering right now, can
+- [00:32] we really trust AI for MS marketing? I
+- [00:35] know that sounds almost like would you
+- [00:37] trust AI to help you fall in love?
+- [00:40] Because Amazon marketing has been always
+- [00:43] about people, feelings, relationships,
+- [00:46] and those sparks that happen in a
+- [00:48] negotiation.
+- [00:49] Every message, every quote, every vision
+- [00:52] is built on countless people and
+- [00:54] countless hours of work.
+- [00:57] I don't know how many of you have gone
+- [00:59] through the pain of finding the right
+- [01:01] creators or agencies or you finally
+- [01:04] discover some like a good fit but you
+- [01:06] can't agree on pricing
+- [01:09] and you are never sure how much room
+- [01:10] there is to negotiate or maybe you
+- [01:13] finally agree on the price and budget
+- [01:16] and start moving forward. But then even
+- [01:19] more time you spend on back and forth
+- [01:21] communications about contracting and
+- [01:23] everything pushing tiny details for
+- [01:25] days.
+- [01:27] All those little steps and follow-ups,
+- [01:30] they can honestly drive you crazy. But
+- [01:33] what what if I tell you you can hand
+- [01:35] that to AHA? Sounds tempting, doesn't
+- [01:38] it? But today, I'm not here to tell you
+- [01:41] how smart AA is. I want to tell you I
+- [01:44] want to show you that what happens when
+- [01:48] it's really working.
+- [01:50] Over the four months, we've been working
+- [01:52] with over 300 brands making a real part
+- [01:56] of their infrastru
+- [01:59] we turn their like real experience into
+- [02:01] a video as well. Now picture this a real
+- [02:05] test of speed and outcome for Amazon
+- [02:08] marketing. So on on one side there are
+- [02:10] five experts for Amazon marketing for
+- [02:12] years and on the other a junior marketer
+- [02:15] with his partner AI partner Aha. Same
+- [02:19] brief same budget and same goal. What
+- [02:23] who would you trust to win?
+- [02:26] Before we begin, I'd like to invite
+- [02:28] everyone to watch the screen and scan
+- [02:30] the QR code. Grab your phone and vote
+- [02:33] for the team you trust.
+- [02:36] This isn't just a vote.
+- [02:38] It's a small it's a small act of
+- [02:40] imagination for all of us of the future
+- [02:43] we all want to build.
+- [02:46] And of course, no matter which side
+- [02:48] you're on, everyone who votes and enter
+- [02:51] a valid email will receive a trust
+- [02:53] reward from us. Don't forget to check
+- [02:55] your email after the session.
+- [02:58] We've also prepared 150
+- [03:03] limited edition big orange bag for you.
+- [03:07] So don't forget to get it um at a booth
+- [03:10] and for after the session.
+- [03:12] From the moment you vote, you'll not
+- [03:15] only see where the majority stands, but
+- [03:17] also see how close technology is to
+- [03:19] crossing the line from making ideas to
+- [03:22] real world impact. And today, each one
+- [03:25] of you is helping to bring that moment a
+- [03:27] little bit closer.
+- [03:29] Ready? Let's begin.
+- [03:34] For decades, influencer marketing has
+- [03:37] been powered by instinct, by networks,
+- [03:40] and human negotiation. But what happens
+- [03:43] when one AI claims it can do it all
+- [03:46] faster, smarter, and at scale? Six
+- [03:50] marketers accepted the $1 million
+- [03:52] challenge. The first group, five elite
+- [03:55] veterans, marketers from top agencies.
+- [03:57] And the other, Sam, 25. He'll be working
+- [04:01] with Aha, the marketing AI agent.
+- [04:09] >> Let the challenge begin in three, two,
+- [04:14] one.
+- [04:17] >> All right, we've got the three. Let's
+- [04:18] break it down into keywords
+- [04:19] [clears throat] and start using that
+- [04:20] tool that you use to find influencers.
+- [04:22] Let's do 200 per person per day.
+- [04:25] >> Sounds good. If we each pull 200 a day,
+- [04:27] in about 5 days, we'll have our first
+- [04:30] pool of influencers.
+- [04:31] >> Once we've got them, each of us replies
+- [04:32] to the ones they found, handle the
+- [04:34] conversation and pricing until
+- [04:35] everything's confirmed.
+- [04:36] >> I'm with you.
+- [04:47] >> Campaign launched. Estimated influencer
+- [04:49] delivery 24 to 48 hours.
+- [04:52] >> Hi guys, good news. I just reached out
+- [04:54] to two influencers we've worked with
+- [04:55] before. They'll join this campaign, too.
+- [04:58] We got this.
+- [05:01] Okay.
+- [05:11] Oh, please, please.
+- [05:14] >> Match complete. 5,080 qualified asterisk
+- [05:18] influencers found. 128 confirmed
+- [05:21] asterisk partnerships established.
+- [05:23] >> Unbelievable. Let's go.
+- [05:27] >> What? How did Sam jump to 128? [music] I
+- [05:30] mean, I don't think that's reasonable.
+- [05:31] Did they even check to see if the
+- [05:33] influencers fit or did they just pull
+- [05:34] them from social media?
+- [05:35] >> How could they negotiate pricing with
+- [05:37] that many people in such a short time?
+- [05:39] >> We're raising an objection. They'll need
+- [05:41] to verify those results. There's no way
+- [05:43] those numbers are real. How could one
+- [05:45] guy in AI get that? We need content
+- [05:49] ready ASAP. Could you deliver by Friday?
+- [06:00] >> Warning issued. Credit system review
+- [06:03] initiated. Payment safeguarded.
+- [06:07] Delivery completed.
+- [06:09] >> We value your work, but the timeline is
+- [06:11] fixed. Let's make it happen.
+- [06:14] >> I promise it.
+- [06:15] >> [laughter]
+- [06:21] >> Reports delivered.
+- [06:26] >> Congratulations to you, the human
+- [06:29] marketing team. Your presence today
+- [06:31] proves one thing. Experience matters.
+- [06:35] And as for you, Sam, at first everyone
+- [06:38] doubted those 128 influencers, but after
+- [06:41] the audit, every one of them checked
+- [06:43] out. All relevant, all verified with
+- [06:46] AHA. You've created something
+- [06:49] remarkable.
+- [06:50] >> I never [music] thought I could do all
+- [06:51] this. Just Just me and AI.
+- [06:54] >> You made that and that's what you
+- [06:56] deserve.
+- [07:04] All right. Actually, the win isn't just
+- [07:07] about what happened in the video on
+- [07:09] stage. In the real world, AHA has helped
+- [07:12] more than 300 brands win their markets.
+- [07:15] From AI, SAS, application companies to
+- [07:17] fast growing DTC brands, making tens of
+- [07:20] millions in annual revenue. They've all
+- [07:23] made a ha part of their influence
+- [07:25] marketing team working alongside the
+- [07:27] team all the time. And these early
+- [07:29] clients are share something in common.
+- [07:32] They are techdriven, result oriented and
+- [07:35] bold enough to try new stuff.
+- [07:38] The reason why a hab became part of
+- [07:39] their workflow so quickly is because we
+- [07:42] understand the group and we are this
+- [07:45] group. We know what they need, what they
+- [07:47] fear and we know they have zero
+- [07:50] tolerance for wasting time.
+- [07:53] Let me share some real uh uh use cases.
+- [07:56] So the first one is only office. Oni
+- [07:59] office is open source office software
+- [08:02] company from Europe with a global team
+- [08:04] of about 100 people around 30 countries.
+- [08:08] Their product is powerful but they feel
+- [08:10] like their marketing workflow need an
+- [08:12] upgrade manual creator screening and as
+- [08:15] back and forth communications slow
+- [08:17] feedback and long campaign cycles. After
+- [08:21] working with AHA, the system
+- [08:22] automatically handled creator matching,
+- [08:25] pricing, brief generation, and
+- [08:26] performance tracking. In just a few
+- [08:29] weeks, their content reach professional
+- [08:31] audience around the globe.
+- [08:34] So, here are their results. Over
+- [08:36] 400,000K
+- [08:38] or 400K um views at around CPC 70 cents
+- [08:43] and campaign cycles shorten from months
+- [08:45] to just weeks.
+- [08:47] When brands really see results faster,
+- [08:50] they can find their growth direction
+- [08:52] faster. What a hot deal for only office
+- [08:55] isn't more marketing. It was turning
+- [08:58] every campaign into a clear piece of
+- [09:00] market feedback.
+- [09:03] Next use case, Metagbt.
+- [09:05] So Metagbt is a global leader in AI
+- [09:08] innovation. They've been asking a simple
+- [09:11] but powerful question. if AI can really
+- [09:15] code and build applications for people.
+- [09:18] After a influence marketing looked like
+- [09:21] most other tech companies, lots of heavy
+- [09:24] lifting, manual work. It was slow, full
+- [09:26] of trial and error and every direction
+- [09:28] took forever
+- [09:30] after working with AHA. Everything
+- [09:32] changed
+- [09:34] for creator selection and matching. So
+- [09:36] AI automatically identify the most
+- [09:38] relevant creators from a pool of over 5
+- [09:40] million. and for pricing and budget
+- [09:42] optimization. So the system calculate
+- [09:44] the estim CPM and dynamically adjust it
+- [09:47] based on demand and supply
+- [09:48] relationships. And last but not least
+- [09:51] execution and communications.
+- [09:53] So the system AI generated brief monitor
+- [09:57] content pre performance and
+- [09:59] automatically handle the payment. The
+- [10:01] entire campaign from concept to launch
+- [10:03] just took two weeks and here are their u
+- [10:07] results. So they shorten campaign from
+- [10:09] several months to two weeks and reach
+- [10:12] impression at 1 million over 1 million
+- [10:15] and their CPC was only about 50 cents.
+- [10:19] For companies like Meta GBT which are
+- [10:21] extremely sensitive to efficiency and
+- [10:23] results AI isn't just about automating a
+- [10:26] few tasks. It's about making the entire
+- [10:29] emphasis marketing process controllable,
+- [10:31] measurable and scalable. And that's the
+- [10:34] new trend. We are seeing us seeing a
+- [10:37] shift from human managing humans to AI
+- [10:40] managing growth
+- [10:43] from gut feeling decisions to continue
+- [10:45] the cycle of datadriven optimization.
+- [10:49] Third case, collab. Collab is an
+- [10:51] innovative DIY brand making rock uh like
+- [10:56] making rock toughing gun. So anyone like
+- [10:59] creators um like a hobbyist even
+- [11:02] teachers can make rocks right from home.
+- [11:04] Before using AHA things were tough. Out
+- [11:08] of every 50 outreach emails they got
+- [11:10] just one reply and it took a nearly 50
+- [11:13] days from first contact to video going
+- [11:16] live and there was plenty exposure but
+- [11:19] very few conversions. Data was scattered
+- [11:22] everywhere. Then a heart stepped in. It
+- [11:26] took everything from creators
+- [11:28] negotiating prices, tracking results all
+- [11:30] automatically.
+- [11:32] So what we did first automatic matching
+- [11:35] we precisely targeted creators in DIY
+- [11:37] and home living niches. Automated
+- [11:40] communication and pricing. So we
+- [11:42] minimize back and forth delays for the
+- [11:45] team and real-time talking which is also
+- [11:47] very important. Campaign data is visible
+- [11:49] to the team instantly.
+- [11:53] So their final results are were
+- [11:55] dramatic. So they reduced their time 82%
+- [11:59] and reach a CPC at only 50 cents.
+- [12:03] The team was freed from endless
+- [12:05] coordination and reporting and their
+- [12:07] product went viral in the DIY community.
+- [12:10] Their team told us the biggest
+- [12:11] improvement is efficiency. Now that our
+- [12:14] videos go live within two weeks, we can
+- [12:17] finally focus on product itself.
+- [12:20] And this is only the beginning. When AI
+- [12:23] becomes accountable for real results,
+- [12:25] the rules of infant broking are
+- [12:26] rewritten.
+- [12:28] Now let's take a look at how a actually
+- [12:30] makes that happen.
+- [12:33] So uh let's take a quick quiz. So for
+- [12:38] which one do you think would perform
+- [12:39] better for promoting an AI product? A is
+- [12:42] a creator who regularly posts AI news
+- [12:44] and B is one who mostly reviews smart
+- [12:47] hardware and only mentions AI
+- [12:49] occasionally.
+- [12:50] So raise your hand if you think it's A.
+- [12:56] Actually the answer was B.
+- [13:02] Surprisingly the W winner was B. The
+- [13:05] hardware reviewer that campaign
+- [13:07] collaborating collaborating with the
+- [13:09] hardware reviewer blew up. Why? Because
+- [13:13] the HA algorithm doesn't just look at
+- [13:15] who talks about AI. It it looks at whose
+- [13:18] audience would actually resonate by that
+- [13:20] product message. We call it profile
+- [13:23] package mapping algorithm. It doesn't
+- [13:26] rely on service level attacks. It relies
+- [13:28] on semantic understanding and audience
+- [13:30] reasoning.
+- [13:32] Traditional information marketing works
+- [13:34] by tags. The brain says find AI
+- [13:36] creators. So the team searches for the
+- [13:38] AI tag. So everyone ends up finding the
+- [13:40] same people popular, expensive, and
+- [13:42] overused.
+- [13:44] But variety doesn't come from feelings.
+- [13:47] It come from testing. And infant
+- [13:49] marketing is a numbers game. You need
+- [13:51] diversity and volume to discover those
+- [13:53] unexpected combinations. The ones that
+- [13:56] don't look obvious but perform the best.
+- [14:00] That campaign worked exactly like this.
+- [14:02] AI news creators went viral only when
+- [14:04] the product was brand new. But that
+- [14:07] hardware reviewer broke down the
+- [14:08] functions, show real case use case uh
+- [14:10] real real use cases and help this
+- [14:12] audience his audience understand why
+- [14:15] this tool mattered to them. A hus model
+- [14:18] doesn't just decide which creator fits
+- [14:20] best. It also analyze which content
+- [14:22] style fits the campaign. It asks itself
+- [14:26] can this content structure integrate the
+- [14:28] brand message naturally?
+- [14:30] Will this way of explaining things spark
+- [14:32] real impact?
+- [14:34] And the result AI picked the right
+- [14:37] creator with the right kind of content.
+- [14:42] A house model doesn't just look at
+- [14:44] people. It evaluates content. It
+- [14:46] understand brand goals, creator styles,
+- [14:48] audience semantics and content foot and
+- [14:51] what it makes judgments like a real
+- [14:53] marketing expert.
+- [14:56] It figure out what combination of
+- [14:58] audience and content has the highest
+- [14:59] potential to go viral. We spent a full
+- [15:02] year rewriting more than 10 versions to
+- [15:05] build what we call agentled reasoning
+- [15:08] matching system.
+- [15:10] It achieves over 90% accuracy cuts CPM
+- [15:14] cost by 1.5 times and ses times over
+- [15:16] 70%.
+- [15:18] So what you're here what you're seeing
+- [15:20] here isn't just an algorithm. It's a AI
+- [15:23] matching agent that thinks like
+- [15:25] strategist
+- [15:27] cast like a director and tells the right
+- [15:29] story to your right audience.
+- [15:33] Let's play another game. So imagine you
+- [15:35] are a brand looking for a creator to
+- [15:37] make a video. The creator costs 10,000
+- [15:40] and how much do you think the brand will
+- [15:42] end up paying?
+- [15:44] There are four options. A less than 10
+- [15:46] thou 10,000. B exactly 10,000. C a bit
+- [15:49] more around 15,000. And D a lot more
+- [15:52] over 20,000.
+- [15:55] So the actual answer is all the why
+- [15:59] because
+- [16:01] there's no right answer right now.
+- [16:03] Everyone has their own logic and
+- [16:05] reasoning for pricing in market
+- [16:06] influencers
+- [16:08] price are never fixed and transparent.
+- [16:11] They are the result of feelings and
+- [16:13] negotiations.
+- [16:15] Some brands negotiate them down. Some
+- [16:17] got markup. Some prices balloon because
+- [16:20] of multi- layers of agency fees. Some
+- [16:23] creators overpriced themselves and of
+- [16:25] course some undervalued.
+- [16:28] No one really knows the fair prices and
+- [16:32] that's exactly the problem.
+- [16:35] The entire industry still runs on
+- [16:36] negotiations, connections and god
+- [16:39] feelings. Every single day deal feels
+- [16:42] like a beating at an auction.
+- [16:44] So at a wei decided to disrupt that
+- [16:47] disrupt the status quo. We turn pricing
+- [16:50] from human negotiations and hidden fees
+- [16:53] into an algorithm
+- [16:55] system. That's our dynamic pricing
+- [16:58] engine, an algorithm driven market
+- [17:00] economy that reacts to the market
+- [17:02] changes in real time and automatically
+- [17:04] finds the optimal price for you.
+- [17:07] It's an intelligent agent that
+- [17:09] understands economics. It consider three
+- [17:13] key factors.
+- [17:14] The first factor is audience value for
+- [17:17] the brand and past performance of the
+- [17:19] creators. The second is brand goals and
+- [17:21] budget. And third is market signals
+- [17:24] which is supply and demand relationship.
+- [17:28] When a certain calory heats up the
+- [17:30] system automatically adjust prices and
+- [17:33] what when the market cools down or
+- [17:34] budget tighten, it optimize ROI in real
+- [17:37] time.
+- [17:40] And that means for the first time
+- [17:43] pricing infant marketing has shifted
+- [17:45] from human negotiation to equivalent
+- [17:49] algorithm. By embedding market mechanism
+- [17:52] into algorithm itself, we've built a
+- [17:54] pricing system that's transparent,
+- [17:56] predictable and economically structured.
+- [18:01] So one large question, what percentage
+- [18:03] of marketing managers have ever
+- [18:05] experienced this like paid but never
+- [18:08] received any content from the creator?
+- [18:10] And what percentage of creators posted
+- [18:12] the content but never got paid? A is 5%,
+- [18:17] B is 20%, C is 40% and D is more than
+- [18:21] 70%.
+- [18:28] And the answer is actually D. More than
+- [18:31] 70% of brands and creators have been
+- [18:33] hurting a system that's not like
+- [18:36] regulated and transparent.
+- [18:39] Everyone relies on spreadsheets,
+- [18:42] screenshots, and waiting.
+- [18:45] Brands don't trust creators. Creators
+- [18:47] don't trust brands. So, we ask ourselves
+- [18:50] in the case AI can make pricing
+- [18:52] transparent and matching standardized.
+- [18:55] Can it also make trust automatic?
+- [18:58] At AHA, every collaboration is fully
+- [19:01] tracked by the system. Algorithm based
+- [19:04] pricing, automatic contract generation,
+- [19:07] real-time progress tracking and resolver
+- [19:09] verification of auto and auto payment.
+- [19:12] If the content isn't delivered, false
+- [19:14] review, and the data is fake, you don't
+- [19:17] have to pay. There's no payment. But
+- [19:20] once it passes, payment happens
+- [19:22] instantly for you. For the first time,
+- [19:24] in marketing finally has a true closed
+- [19:26] loop of results.
+- [19:29] In the past, trust depends on people and
+- [19:32] it was fragile. At AHA, we're making
+- [19:35] trust systematic,
+- [19:37] stable, transparent, and built to last.
+- [19:42] This is what we want to prove. AI isn't
+- [19:45] just another tool. It's a mayor. It's a
+- [19:47] new layer of business infrastructure
+- [19:49] that we are transforming traditional
+- [19:51] infant marketing from something complex,
+- [19:54] manual, inefficient and stable
+- [19:58] and unstable into a system that's
+- [20:00] transparent, efficient and intelligent.
+- [20:03] In the next decade, almost every
+- [20:05] industry will move from the mode human
+- [20:08] plus SAS to AI that directly delivers
+- [20:11] results. the most advanced products on
+- [20:14] those who provide you more tools.
+- [20:17] They're the ones that deliver real
+- [20:18] results for you. When AI takes on the
+- [20:21] messy, exhausting, and repetitive work
+- [20:24] of influencer marketing, humans gain
+- [20:26] true freedom to think, to create, and to
+- [20:29] inspire. And we always save the true aha
+- [20:32] moment for you. That's all. Thank you
+- [20:34] for your time.

@@ -1,0 +1,815 @@
+---
+title: "Today we are replacing our marketing team with AI agents that we created on a noode tool called NAN...."
+video_id: "iLtU0wQvCBU"
+video_url: "https://www.youtube.com/watch?v=iLtU0wQvCBU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "OpenAI"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Startup"
+summary: |
+  Today we are replacing our marketing
+  team with AI agents that we created on a
+  noode tool called NAN. And we even built
+key_points:
+  - "Today we are replacing our marketing"
+  - "this chief marketing officer that can"
+  - "the end of the video, you will get a"
+  - "glimpse into how AI will replace many"
+  - "jobs in the economy. But you will also"
+  - "controls other AI agents. So I can tell"
+  - "it to do a thing and the AI agent will"
+  - "officer. Let me show you how this works."
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: iLtU0wQvCBU
+
+- URL: https://www.youtube.com/watch?v=iLtU0wQvCBU
+- Retrieved at: 2025-12-30T15:54:04+09:00
+
+## Text
+
+- [00:00] Today we are replacing our marketing
+- [00:03] team with AI agents that we created on a
+- [00:05] noode tool called NAN. And we even built
+- [00:08] an app that lets us communicate with
+- [00:11] this chief marketing officer that can
+- [00:13] delegate tasks to other AI agents. By
+- [00:16] the end of the video, you will get a
+- [00:17] glimpse into how AI will replace many
+- [00:21] jobs in the economy. But you will also
+- [00:23] understand how to effectively use AI and
+- [00:25] automate tasks and how you can
+- [00:27] communicate with those agents to be more
+- [00:29] productive. Let's dive in. Over the past
+- [00:31] 2 days, we created an AI agent that
+- [00:34] controls other AI agents. So I can tell
+- [00:37] it to do a thing and the AI agent will
+- [00:40] decide which AI agent of which we
+- [00:42] created to use for the task. We're
+- [00:45] trying to replace the chief marketing
+- [00:46] officer. Let me show you how this works.
+- [00:48] Please do some research on the latest
+- [00:51] about Google's
+- [00:53] uh new CLI tool. It's a competitor to
+- [00:57] cloud code. I want to create some
+- [00:58] content around this tool and I want to
+- [01:04] make some tweets about this. So please
+- [01:06] scrape the internet find some tweets
+- [01:08] about it and create three posts um on
+- [01:13] Buffer for this. Actually for the third
+- [01:16] one instead of scraping it generate an
+- [01:18] image of someone using a developer tool
+- [01:22] that is called Google CLI. So generate
+- [01:25] an image for that one. So we should have
+- [01:26] three total posts. So, we're going to
+- [01:29] send that in to our app that we vibe
+- [01:32] coded and it's going to send that
+- [01:34] information into this agent. Now, this
+- [01:36] agent is reasoning. It's like, okay,
+- [01:38] which AI agent should we use right now?
+- [01:40] It's using the research agent. It's not
+- [01:42] going to show where it where it is in
+- [01:44] the research agent, but this is what
+- [01:46] it's using, right? We have access to the
+- [01:48] news. We have access to um Appify.
+- [01:52] Ampify has about over 4,000 different
+- [01:55] APIs you can hit in order to scrape the
+- [01:58] web, scrape the internet, and most
+- [02:00] importantly, scrape social media. That
+- [02:03] traditionally is super hard to do on
+- [02:05] your own. And with just one API key, you
+- [02:08] can do all of that. So, like basically
+- [02:09] this is one integration that we set up
+- [02:11] and if you were to go to a uh aifi or
+- [02:14] appi, however it's pronounced, you can
+- [02:16] have it set it up to Reddit, I'm pretty
+- [02:18] sure, Instagram, Tik Tok, pull a bunch
+- [02:21] of useful data and um yeah, that's it's
+- [02:24] able to gather relevant context for the
+- [02:26] post that it's about to post. You can
+- [02:28] get one API, but we went ahead and
+- [02:30] connected the MCP, which now has access
+- [02:33] to all 4,000 different APIs. So it may
+- [02:36] spend a lot of time on this research
+- [02:39] step which is good, right? We're already
+- [02:42] saving a ton of time. We want this to
+- [02:44] upload it to Buffer. So Buffer is the
+- [02:46] tool that we use to manage our social
+- [02:48] media. And in Buffer, you can create
+- [02:52] ideas, right? And this is like the CMO
+- [02:54] group. And this is where the agent puts
+- [02:56] all of the the posts. So it'll go there
+- [02:58] once it's done. We have no idea which
+- [03:00] direction it's going to go. Like this is
+- [03:02] I mean it makes its own plan and then
+- [03:03] ends that plan. Yeah. literally has a
+- [03:05] step in here. It's called think. And so
+- [03:08] it will literally spend time thinking
+- [03:10] after each step. Does it hit this every
+- [03:12] time or does it hit it sometimes? If it
+- [03:14] needs Whenever it needs to think, it'll
+- [03:15] think. Yeah, that's great.
+- [03:19] H also the research agent also has
+- [03:22] think. So now there's two thinkers.
+- [03:24] Wait, is there think? Oh wow, you can
+- [03:25] think. Okay, so Oh, okay. So here it's
+- [03:30] now thinking again. I swear if it starts
+- [03:32] researching again. There we go. Now
+- [03:35] we're on to the media step. So it's
+- [03:36] either um hopefully it's both generating
+- [03:40] an image using FAL workflow. Okay, it's
+- [03:42] done with the link. Now it should go to
+- [03:45] poster. It might go back to media to
+- [03:47] make the other ones. Okay, let's see
+- [03:50] what it does. It's thinking, oh no, back
+- [03:52] to poster. Must have gotten all the
+- [03:54] information it needed. And now it is
+- [03:57] posting them as an idea on Buffer.
+- [04:02] And this is where you can schedule posts
+- [04:04] on social media. Makes it very easy. As
+- [04:06] you can see here, it just completed.
+- [04:10] Wow. The execution took seven minutes.
+- [04:12] Have you seen one that long before? No,
+- [04:15] that's the longest one I've seen. That's
+- [04:16] crazy. If we go to buffer, we should see
+- [04:20] those posts. So, as we can see here, and
+- [04:23] it used emojis. I have not set up the
+- [04:24] examples that well, but it created a
+- [04:26] post. This is what the future of coding
+- [04:28] looks like. It did get this I think from
+- [04:30] the notion database. Yeah. Um as an
+- [04:32] example because this is what the future
+- [04:34] of coding looks like is one of the hooks
+- [04:36] that I have literally used before word
+- [04:38] for word. Yeah. Um and here it has this
+- [04:42] post that it generated from on FAO. So I
+- [04:47] feel like we maybe want to upgrade the
+- [04:49] model, but I mean that's fine. It's you
+- [04:51] know someone using a Google CLI. You
+- [04:54] know it looks like a not bad. Yeah. Um,
+- [04:57] and then it for these ones, it actually
+- [05:00] scraped them. Scraped the image off the
+- [05:02] internet. No idea where it got this.
+- [05:04] That's okay. Um, yeah. And so it created
+- [05:06] these three social posts. Okay. So now
+- [05:10] what I want to do is I actually really
+- [05:11] want to break down what's going on here.
+- [05:13] Right. This is a chief marketing officer
+- [05:15] agent, right? And obviously it's not
+- [05:18] fully complete, but it will be. I
+- [05:20] guarantee you by the end of the year we
+- [05:21] are going to create an AI agent that
+- [05:23] replaces you know 20 workers that we can
+- [05:26] do um a lot of really interesting um
+- [05:30] interesting things like generate full
+- [05:32] content videos, generate ads, like we're
+- [05:34] seeing all of that technology come on
+- [05:36] the scene right now. What I want to do
+- [05:38] is break down kind of how we're doing
+- [05:40] this now. So this is the master agent
+- [05:42] whenever we send data from the app that
+- [05:44] we're creating, right? We have the vap
+- [05:46] that we vibecoded that sends the data
+- [05:50] from the app into the web hook, right?
+- [05:52] That is what makes it a vap. It is a
+- [05:53] vibecoded agentic application, right?
+- [05:56] And it's just any app that you create
+- [05:58] that has an agent. Doesn't need to be a
+- [06:00] mobile app, but in this case, it is. So,
+- [06:03] this agent has access to these tools,
+- [06:05] right? It can do it can uh, you know,
+- [06:07] send information. It can do research. It
+- [06:10] can generate or find media. It can post
+- [06:12] things on social media. That's really
+- [06:14] cool. And we're going to break down
+- [06:17] these individual tools. And so the first
+- [06:20] one that I want to break down is
+- [06:22] actually the biggest one, which is
+- [06:24] Helper 2.0. And Muhammad, why don't you
+- [06:27] break down this bohemoth of a tool?
+- [06:30] Yeah, this thing is huge because this is
+- [06:32] just another layer on the onion because
+- [06:34] right under this, it calls in three
+- [06:37] other agents. So let's break it down.
+- [06:40] The helper has access to the email agent
+- [06:43] which basically controls your entire
+- [06:45] Gmail. So it can mark um unread, create
+- [06:48] a draft, send, label, reply, get labels
+- [06:52] and get all the emails. Can also update,
+- [06:56] delete, get, create and invite people to
+- [06:59] your calendars.
+- [07:01] And then the other tool that has the
+- [07:03] other tool that it has, the contact
+- [07:05] agent controls your entire Slack. Um, so
+- [07:08] it can get your users, get Slack
+- [07:10] channels, open messages, message user,
+- [07:13] and get channel history. That's insane.
+- [07:15] So like it can basically fully control
+- [07:17] your email, fully control your calendar,
+- [07:19] and fully control your Slack. Yeah. And
+- [07:21] so if we go over to my screen, what we
+- [07:24] can do here is we can actually test this
+- [07:26] out. So we're going to do a simple
+- [07:28] request in this giant thing right here.
+- [07:31] Right. So we can hit test on n after you
+- [07:34] create any sort of workflow. if you're
+- [07:37] using the web hook URL that's right
+- [07:40] here, make sure that you put it on test
+- [07:42] mode. Um, and like make sure you press
+- [07:44] this button or else it won't send it
+- [07:45] through. So now we're going to send it
+- [07:47] through on our VAP. And by the way, by
+- [07:50] the way, in order to message this master
+- [07:53] CMO, all you have to do is add in new
+- [07:55] web hooks and we named them, right? So
+- [07:57] this is master test and we can uh we can
+- [08:00] very easily hit this um URL um by adding
+- [08:05] new ones and you can do that by pressing
+- [08:06] settings and we're actually going to
+- [08:08] create this app on the app store that
+- [08:10] you can use but you can also create your
+- [08:12] own vaps. But anyway um let's go ahead
+- [08:15] and test this. So, I'm going to say,
+- [08:19] "Please uh schedule an appointment um
+- [08:24] tomorrow morning at 9:00 a.m. to film
+- [08:27] the uh short form content with Muhammad
+- [08:30] and also send Muhammad a message on
+- [08:33] Slack reminding him of this."
+- [08:39] And you're going to see it
+- [08:41] start here. Now the agent is thinking,
+- [08:44] right? It sent it through the web hook.
+- [08:45] Enthropic is thinking. Now helper is
+- [08:48] working. It's not going to light up
+- [08:50] here, but it is going through this
+- [08:51] entire process. So we have basically an
+- [08:54] agent handed it off to another agent
+- [08:58] that is now thinking and it's going to
+- [08:59] delegate it to two other agents. And
+- [09:02] that can go on in theory like for as
+- [09:04] long as you want. Yeah. Yeah. That's
+- [09:06] insane.
+- [09:09] And um Yeah. And so this one won't take
+- [09:11] as long. Um, but if we go back to
+- [09:14] Muhammad's screen,
+- [09:17] we can await his message.
+- [09:26] It said hi. Wait, why did it just
+- [09:30] message me hi? It just messaged him hi.
+- [09:33] But it's still working. It's still
+- [09:34] working though. But is that just mean
+- [09:35] it's doing the calendar event? Um,
+- [09:39] maybe. I don't know. Maybe it wants to
+- [09:40] see uh what I'm up to. So in the
+- [09:42] instructions, wait, so why did it
+- [09:44] message hi? Like so in the user message,
+- [09:46] I actually just told itself to message
+- [09:48] myself. Hi. Oh, you were doing testing.
+- [09:50] Okay, you forgot to fix. Okay. Yeah. And
+- [09:53] so when you actually make these, you
+- [09:55] want them to be JSON variables so that
+- [09:58] other AI agents can talk to each other.
+- [09:59] And it's okay. Yeah. Yeah. Yeah. Yeah.
+- [10:02] That makes sense. Yeah. And we actually
+- [10:04] did that a little bit in the last video.
+- [10:05] So if you want to learn more about that,
+- [10:06] you can check that one out. But right,
+- [10:08] um, should we test it again? Yeah. Yeah,
+- [10:11] let's try it again. Okay, so we're going
+- [10:12] to test this workflow again on my screen
+- [10:15] here. And what we're going to do is, all
+- [10:18] right, tomorrow
+- [10:20] uh, at 12:00 p.m. I want to film some
+- [10:24] short form content with Muhammad. So,
+- [10:26] please schedule that on my calendar and
+- [10:28] then um, message Muhammad
+- [10:31] um, letting him know on Slack.
+- [10:35] And you can see here our agent was sent
+- [10:39] this information from our app that we've
+- [10:41] created, the VAP that we created. And
+- [10:44] now the helper is now going to work. So
+- [10:46] it's doing all these things. And we can
+- [10:48] actually go ahead and watch Muhammad's
+- [10:50] screen. Hopefully he gets the correct
+- [10:52] Slack message this time. If you go to
+- [10:55] Slack.
+- [10:57] All right, I got the message. Hi
+- [10:58] Muhammad. Just wanted to remind you
+- [11:00] about our scheduled meeting tomorrow at
+- [11:01] 12:00 p.m. for filming short form
+- [11:04] content together. Amazing. Looking
+- [11:05] forward to collaborating with you. Let
+- [11:08] me know if you have any questions or
+- [11:09] need to make any adjustments to the
+- [11:11] schedule. Lovely. And if I did, you can
+- [11:15] also go back to the master CMO and and
+- [11:18] ask it what did Muhammad say about my
+- [11:20] meeting and it would know because it
+- [11:21] gets the messages. Wait, what do you
+- [11:23] mean? Like on on here? Yeah. Wait, it
+- [11:27] gets previous messages. Yeah. Well, you
+- [11:29] can tell it, hey, go to Slack. Check
+- [11:31] what Muhammad said. Oh, I see. I see. I
+- [11:33] see. Oh, amazing. Okay, so as we can see
+- [11:36] here on the app, it said perfect. I've
+- [11:39] taken care of both of those tasks for
+- [11:40] you. Um,
+- [11:43] and that's really cool, right? And um,
+- [11:47] yeah, so that's kind of the basic
+- [11:49] essence. Oh yeah, I forgot to check the
+- [11:50] calendar. So if we go to calendar,
+- [11:54] uh, we can see here on calendar, it
+- [11:57] should be scheduled for 12:00 p.m. Look
+- [12:00] at that. Short form content filming with
+- [12:02] Muhammad. And it even spelled your name
+- [12:04] correctly cuz it it did the Slack part
+- [12:06] first and it even invited me. Oh, and it
+- [12:08] invited uh it invited Muhammad uh to the
+- [12:12] event. That's awesome. So, okay. So,
+- [12:15] that is the basic essence of like the
+- [12:18] communication side of it, right? That is
+- [12:20] the first tool, right? Based on whatever
+- [12:22] we put in, it has access to our
+- [12:24] calendar, it has access to email, and it
+- [12:26] also has access to Slack. That's pretty
+- [12:29] cool. But, you know, we might not just
+- [12:31] want to communicate with people. We
+- [12:33] might also want to do some research,
+- [12:34] right? We might also want access to
+- [12:36] news. We might want to scrape the
+- [12:37] internet. We might want some of that.
+- [12:39] Um, we might want to use some of that in
+- [12:42] a longer workflow. Uh, you want to break
+- [12:44] down this tool real quick? Yeah. So,
+- [12:46] yeah, the research tool is just another
+- [12:48] AI agent that has um access to the news
+- [12:52] API. Um, so it can just gather all the
+- [12:55] news for today or a month or the last
+- [12:58] year. um SER API just for basic Google
+- [13:01] searches. But what I'm really excited
+- [13:04] about and honestly which I found out
+- [13:06] about today and I'm gonna deep dive on
+- [13:08] it all day today um is the Appify MCP.
+- [13:13] So Ampify
+- [13:15] is
+- [13:17] they host over 4,000 different APIs you
+- [13:20] can use and mostly for scraping the web
+- [13:23] and maybe social media. Um, and they
+- [13:25] just released released an MCP server.
+- [13:28] And so what's crazy about this tool is
+- [13:31] like MCP is like really hard to set up.
+- [13:34] And so this is like and when you create
+- [13:36] uh when you create these workflows, even
+- [13:38] on N8N, it's really annoying because you
+- [13:40] have to put in your own credentials and
+- [13:41] API keys to use all of it. You have to
+- [13:43] set up billing on all of them. There's
+- [13:45] only one portal for billing. So you can
+- [13:46] use all these different tools with one
+- [13:48] singular key, which is like your
+- [13:50] personal password or account. Yeah.
+- [13:52] Yeah. And that makes it super easy. Um,
+- [13:54] and if I go ahead and open the node, you
+- [13:56] can see how super simple it is. It's
+- [13:58] just the SSE endpoint, my O, and you get
+- [14:02] that on the Appify site. Okay. And it's
+- [14:04] you just sign up and you get one. And
+- [14:06] they also have a free tier as well.
+- [14:07] Amazing. And so like this this agent
+- [14:09] that our agent has access to is kind of
+- [14:12] like it gathers context. You can kind of
+- [14:14] think of it as like a little MCP or it
+- [14:16] serves that kind of function of
+- [14:18] gathering relevant context because for
+- [14:20] marketing again context is so important
+- [14:22] in marketing. It's actually the most
+- [14:24] important thing. A lot of people don't
+- [14:26] don't focus on it enough. And so why
+- [14:29] don't we try and give this a go on our
+- [14:32] on our um VAP here. And so what we can
+- [14:38] do here is we can say uh please search
+- [14:41] the internet um and find the latest news
+- [14:46] regarding
+- [14:48] Cluey and their recent fund raise. And
+- [14:52] then um yeah, please use the SER API for
+- [14:56] that. And then I want you to um message
+- [15:00] uh Muhammad and let him know what
+- [15:03] research you found, please.
+- [15:06] And so what we're doing here, right, we
+- [15:08] sent that data from our VAP to our
+- [15:11] master agent, which will then do some
+- [15:13] research. And then after it's done
+- [15:15] researching, it should indeed go to the
+- [15:19] helper agent to then send the message to
+- [15:22] Muhammad. And again, this is just a
+- [15:26] glimpse into the future of AI agents,
+- [15:28] right? Right now, you do have to do a
+- [15:30] lot of manual work and that that is just
+- [15:32] kind of how it works. Now, if you want
+- [15:34] the edge in anything in AI, like you do
+- [15:36] have to do a lot of extra work to get
+- [15:38] things to be like to be able to automate
+- [15:41] things. And I think the best people I've
+- [15:44] seen at creating apps that allow for,
+- [15:47] you know, highquality automations or
+- [15:49] high quality agents are the people who
+- [15:50] have like a deep attention to detail.
+- [15:52] They're willing to fail over and over
+- [15:53] again so that they can just like
+- [15:55] automate a bunch of these boring tasks.
+- [15:57] Yeah. How long do you think it'll take
+- [15:58] before someone automates an entire
+- [16:00] company? I mean, I bet you it's already
+- [16:03] happening. I bet you it's already
+- [16:04] happening at like a small scale like
+- [16:06] little e-commerce companies. Yeah. Um,
+- [16:09] but like until someone were to automate
+- [16:11] like if it was one person doing like
+- [16:13] raising money in a startup. I mean,
+- [16:14] there's literally a startup that raised
+- [16:16] money to all they do is buy businesses
+- [16:19] and then replace all the employees with
+- [16:21] AI agents. I forget what it's called.
+- [16:23] What? Okay, wait. So, it's done
+- [16:25] researching here. And now that it's done
+- [16:28] researching, it should send that
+- [16:30] information back to Helper. Yep. So now
+- [16:34] it is in Helper. And if we go to
+- [16:36] Muhammad's screen, you can see that he's
+- [16:38] on Slack. Let's see if he gets it.
+- [16:42] Oh, okay. All right. So, what does it
+- [16:45] say? Muhammad just got a message.
+- [16:47] Complete research on Cluey with a K.
+- [16:50] Recent fundraising activities. Here are
+- [16:53] the key findings. But it did raise um
+- [16:54] $15 million. That's true. All right. So,
+- [16:57] it did research on Cluey, use the SER
+- [16:59] API, and it sent it over. And so, that
+- [17:02] what I'm trying to show here is you can
+- [17:04] specify what you want it to do. And then
+- [17:06] the agent will decide that if it needs
+- [17:07] to use multiple tools, it can do them in
+- [17:10] different orders. And so, like what kind
+- [17:11] of like allows for all of this to run
+- [17:14] smoothly, it's actually something in the
+- [17:16] master CMO agent that has access to all
+- [17:18] these other agents. And that is the
+- [17:21] system instructions. And I think we've
+- [17:23] we've done a pretty simple system
+- [17:25] instructions, but do you want to break
+- [17:26] this down real quick? For sure. Yeah.
+- [17:28] So, one of the most important parts of a
+- [17:30] system prompt is how you set up the
+- [17:33] agents mindset. So, that would be right
+- [17:35] in the beginning. And so, I said you're
+- [17:37] a master CMO agent that will have
+- [17:39] control over other agents, right? You're
+- [17:42] current you currently have access to
+- [17:43] four agents. And then, so we break it
+- [17:46] down for for the um the orchestrator
+- [17:49] agent, the master agent. Yeah. Um, and
+- [17:52] so we basically just say, you know, what
+- [17:55] the agent does at a high level and sort
+- [17:58] of the tools it uses because this isn't
+- [18:00] really going to do any of the work. It
+- [18:01] just has to know the context of what
+- [18:03] that agent can do. And so let's say that
+- [18:06] um the user asks, you know, I want
+- [18:08] something in notion or I want to message
+- [18:10] someone on Slack, it can point to the
+- [18:12] right agent that has access to Slack. It
+- [18:14] doesn't actually have to do any of that.
+- [18:16] It just Totally. And if you go to my
+- [18:18] screen real quick, one other thing like
+- [18:21] when you're thinking about this, right,
+- [18:23] one thing that's really important is
+- [18:25] access to notion. So if you can see here
+- [18:28] on the poster agent, right, it has
+- [18:31] access to notion. Here is where we have
+- [18:34] our SOPs like get content SOPs. These
+- [18:38] are basically like I have a list of all
+- [18:40] the good hooks I've used. I have a list
+- [18:42] of how I do my podcast research. I have
+- [18:44] a list of how I do long form, short form
+- [18:48] tweets. It has access to all of that
+- [18:50] information. And so if I ask for a
+- [18:51] tweet, I want it to look at this and be
+- [18:55] like, "Okay, how does this guy write?"
+- [18:57] So as the the AI in the posting step,
+- [19:01] right, it should know to do this. And
+- [19:03] you could actually do this in two
+- [19:04] places, right? Um you could put that in
+- [19:06] the master instructions or you could put
+- [19:08] that in the instructions that are part
+- [19:10] of this, right? you can you have a
+- [19:12] system message for each individual
+- [19:14] agent. And I'm sure that's actually
+- [19:15] where you put a lot of the information.
+- [19:17] Um, and so you don't have to put
+- [19:19] everything in this main master agent
+- [19:23] instructions. It just needs to know to
+- [19:24] send it to that agent because once you
+- [19:26] send it to that information, it needs to
+- [19:27] know what information to give it. Yeah.
+- [19:29] Right. It needs to give it all the
+- [19:30] information, but you're basically
+- [19:31] delegating it to this new agent that has
+- [19:33] a more um in-depth and uh a more
+- [19:37] specific agent instructions. Yeah. Yeah.
+- [19:39] Yeah, I mean, if you think about it,
+- [19:40] it's kind of exactly how a company
+- [19:42] works. You know, the CMO, his main job
+- [19:45] is to delegate labor to other more
+- [19:48] skilled workers. And so, and if you
+- [19:51] delegate it wrong, that's when things
+- [19:53] can go bad. So, it's really important to
+- [19:54] make sure that you tell the master agent
+- [19:58] exactly what does what and what
+- [20:00] information comes back. Yeah. Yeah. It's
+- [20:02] like it's more you have to be able to
+- [20:03] send full instructions, right? If you're
+- [20:05] like if we're sending information down
+- [20:06] to the engineering team like of a new
+- [20:08] feature we want, we don't have to know
+- [20:10] how to implement it. We just know have
+- [20:11] to like, hey, I want this feature that
+- [20:12] does this because this user said that we
+- [20:14] should add it and these 10 other users
+- [20:16] said that we needed to have it and I
+- [20:18] think it should look like this, this,
+- [20:19] and this, right? But I don't need to
+- [20:21] send them full instructions because
+- [20:22] that's what they know how to do. Yeah.
+- [20:23] And that is how this is becoming this
+- [20:26] like agent army that you can create.
+- [20:28] Yeah. And we just created the front-end
+- [20:30] interface and you watched the last video
+- [20:32] that we created. Um, we're actually
+- [20:34] adding on the Vibe Code app, we're
+- [20:36] adding the ability to integrate directly
+- [20:39] uh into N8N. So when you create an app,
+- [20:42] you can just press the N integration and
+- [20:44] plug in your master web hook and you can
+- [20:46] immediately hit that agent and it will
+- [20:48] actually generate your app for you in a
+- [20:51] in a format that will work with N. Yeah.
+- [20:54] Yeah. So that's really cool. You should
+- [20:55] do that. Um like you can sign up um I'll
+- [20:58] put the link in the description for
+- [20:59] that. It's a really easy way to do it.
+- [21:01] Let's go ahead and move on to the third
+- [21:03] agent here, which um this is the one I
+- [21:06] think we've talked about the least, the
+- [21:08] media agent. Yeah, the media agent.
+- [21:10] Let's talk about that. All right, so the
+- [21:11] media agent um it has four separate FAL
+- [21:17] workflows to generate media. Um so, and
+- [21:21] it also has two different inputs as
+- [21:23] well. It can take in just text or image
+- [21:26] and text. And when we add the the on the
+- [21:28] Vive Code app, you it'll automatically
+- [21:31] work out of the box. So you'll be able
+- [21:33] to input images and text. Yeah. So it'll
+- [21:35] just send you an image URL and then the
+- [21:37] agent knows what to do and where to send
+- [21:39] it. Amazing. So it'll just work. That's
+- [21:40] awesome. Um so with those four we can go
+- [21:42] text to video, text to image, image and
+- [21:45] text to video or image. And then we also
+- [21:48] have again the Aify MCP, but
+- [21:51] specifically we're using this to scrape
+- [21:55] images off the web. So if we wanted like
+- [21:56] a real specific image, um it would
+- [22:00] scrape it from Google images and send it
+- [22:02] back to the agent. Amazing. Yes. And
+- [22:04] that that I think is really important. I
+- [22:06] actually really like the ability to like
+- [22:09] get specific images. I think it makes
+- [22:11] any text output more fun if you have an
+- [22:13] image there. I think Perplexity was one
+- [22:15] of the first ones to render images in
+- [22:17] its response. Obviously, OpenAI renders
+- [22:19] images in their responses now. So it's
+- [22:21] like that's why Perplexity has to kind
+- [22:23] of pivot right now. They're in a tough
+- [22:25] spot. But I think it's really important
+- [22:26] in your outputs to have images and why
+- [22:28] not just like pull them from the
+- [22:29] internet. Yeah. So what we can do now
+- [22:31] now let's do a mixture of step three
+- [22:35] which is this um the media agent and
+- [22:37] then let's go back to helper. So what we
+- [22:39] can do here is I am going to give this a
+- [22:42] test on my phone here and we can say um
+- [22:48] uh please generate an image of a man
+- [22:53] staring at the camera holding his phone
+- [22:57] and have some uh text on the screen
+- [22:59] saying, "Oh my god, this is insane."
+- [23:03] And
+- [23:05] um I want you to generate that image and
+- [23:07] I want you to do that three times,
+- [23:08] right? I want to have multiple um
+- [23:11] attempts at this. And uh please make
+- [23:14] sure you send these to Muhammad after. I
+- [23:17] want you to send these image to Muhammad
+- [23:18] in Slack. So please do that.
+- [23:25] Okay. So we're sending this workflow.
+- [23:27] Can't wait to see those. Hopefully it
+- [23:28] spelled my name right. Hopefully it
+- [23:30] Yeah, we got it. No, that's good.
+- [23:32] Amazing. All right. Okay. So now, as you
+- [23:34] can see, the master agent has passed it
+- [23:37] to the media agent. Now, the media agent
+- [23:39] is going to work. Media agent. And one
+- [23:42] thing I want to do in the future for the
+- [23:44] media agent is upload really good uh
+- [23:46] examples of um like if we we could
+- [23:49] actually add a glyph workflow, that
+- [23:50] would be really useful because I've
+- [23:52] mastered my um I have a um YouTube
+- [23:56] thumbnail workflow that's really good
+- [23:58] and it uses my own image. Yeah. every
+- [24:00] time. That would be really cool to add.
+- [24:02] I mean, anything with an API can be hit
+- [24:04] with these. Yeah, that's really cool.
+- [24:06] And so, we can we can really get
+- [24:08] granular about YouTube thumbnail ideas,
+- [24:11] Instagram story thumbnail uh ideas, and
+- [24:13] we can put all of our brand assets in
+- [24:15] there so it keeps the colors correct.
+- [24:17] Yeah. Um because right now it's using a
+- [24:18] pretty simple workflow on FAL. We
+- [24:21] haven't really gotten into that yet, but
+- [24:23] as you can see, it's done actually no,
+- [24:25] it's done two of the image generations.
+- [24:26] Now, it's going in for the third. Um,
+- [24:29] and then it should go to the helper
+- [24:33] agent to message you. Yeah. And every
+- [24:35] time it generates an image, it stores it
+- [24:37] in that memory. And then once it has
+- [24:39] those three images, it knows it's done
+- [24:41] generating. And then it'll go to the
+- [24:42] helper and send it to me. Amazing.
+- [24:45] And so it's done three. Hopefully that's
+- [24:48] the last one it hits. Hopefully the next
+- [24:50] one is helper. Come on, baby.
+- [24:53] Oh, it's go. Amazing.
+- [24:56] Agentic. And so now it is on helper. And
+- [24:59] if we go to Muhammad's screen here,
+- [25:04] boom, look at that. On Muhammad's
+- [25:07] screen, you have three links here. Oh,
+- [25:09] and they rendered in here. Yeah.
+- [25:11] Amazing. And so we created these images.
+- [25:14] Oh my god, this is insane. Yeah, this is
+- [25:16] insane. And you know what? We're using
+- [25:18] the uh flux context Yeah. model here.
+- [25:22] And Flux Context is actually much better
+- [25:24] at editing than it is um than it is
+- [25:27] generating images from scratch. But
+- [25:29] that's not bad. And um I think if we um
+- [25:33] wanted to dive into the details here, we
+- [25:35] could make sure that if we say
+- [25:36] thumbnail, it would do horizontal
+- [25:38] orientation. Yeah. But that's something
+- [25:39] we could include in the system
+- [25:41] instructions in the media agent. Yeah.
+- [25:44] Yeah. And so yeah, that is tool number
+- [25:46] three. generates images and you can
+- [25:48] create. This is one that we, you know,
+- [25:50] we've probably put in 30 minutes of work
+- [25:53] creating these workflows. We could
+- [25:54] easily put in a full day, get all the
+- [25:56] brand assets, and that's one thing we
+- [25:58] might do in a future video. Yeah. Okay.
+- [26:00] And so the final one that we can dive
+- [26:03] into, final tool, um, is the poster
+- [26:07] agent, right? And so let's go ahead and
+- [26:09] let's try to do one. Um,
+- [26:14] I have an idea here. And one thing I
+- [26:15] built into the vap on Vibe Code is you
+- [26:17] can actually just press this text button
+- [26:19] here and you can actually just type into
+- [26:22] and so what I want to do is I want to
+- [26:24] generate an image and then I want to
+- [26:25] turn that image into a video. So we only
+- [26:27] need one agent for that. If you remember
+- [26:30] here we have this image
+- [26:33] and text to video. Yeah, which is super
+- [26:35] cool. And then I want to take that
+- [26:38] whatever that output is. I want to post
+- [26:39] it on social media using the poster
+- [26:41] agent which will actually just post it
+- [26:43] to Buffer. It'll basically allow us to
+- [26:45] schedule it with one click and then I
+- [26:47] want to let you know when I've done
+- [26:49] that. It'll send you a message on Slack.
+- [26:51] So, let's see if we can do that all in
+- [26:52] one little message here. So, I'm going
+- [26:55] to say, "Please create an image of a man
+- [27:02] on a unicycle
+- [27:05] with an orange
+- [27:09] shirt
+- [27:11] that says download Vive Code."
+- [27:18] Um,
+- [27:20] then turn it
+- [27:23] into a video.
+- [27:26] Then post to buffer. Then uh message mu
+- [27:33] hammed
+- [27:35] when you are done. So we can use text to
+- [27:39] type that in. And we're going to hit
+- [27:40] send.
+- [27:43] And as you can see here, it gets sent to
+- [27:45] our master agent. It should be sent
+- [27:47] here. Now it is likely generating an
+- [27:50] image and then generating a video. Then
+- [27:52] it will go here. So let's see. And this
+- [27:55] is using three separate agents. Three
+- [27:58] separate agents. It's going to use this
+- [27:59] agent, this agent, and this agent. Well,
+- [28:02] four technically because this five.
+- [28:06] Yeah. Wait, six if you include Zapier.
+- [28:08] Oh yeah. Yeah. With workflows here. Oh
+- [28:12] man, this is insane. There's so many
+- [28:14] layers of this onion. Yeah. And it's
+- [28:16] only
+- [28:17] We're It's We're gonna This is only the
+- [28:19] beginning. This is only the beginning,
+- [28:20] too. Like, we're going to make this a
+- [28:22] lot more refined, too. Did it already go
+- [28:23] to the poster agent?
+- [28:25] Okay. So, it's hit this twice. So, it
+- [28:27] hit the media agent twice. And now, it's
+- [28:30] going to the poster agent. Perfect.
+- [28:32] Okay. It is done with the poster agent
+- [28:35] here. And so, as you can see, it is now
+- [28:38] going up to helper. So, it's in theory,
+- [28:41] it should have posted it to buffer. And
+- [28:43] now, it's going to tell Muhammad all
+- [28:45] about it. Wait, did I tell it to include
+- [28:47] the video? I think you just said Well,
+- [28:50] let's see what it does. You said tell me
+- [28:51] about it. I I don't think I specified to
+- [28:55] tell uh to send you the video, but we'll
+- [28:57] see if it does because it should just be
+- [28:58] a link to the video, right? That' be
+- [28:59] awesome. Yeah. Yeah.
+- [29:02] So, if we go to Muhammad's screen, we'll
+- [29:03] see what the agent says and then we'll
+- [29:06] check and see if it was posted on
+- [29:07] social.
+- [29:12] It came in. Hi, Muhammad. have completed
+- [29:14] your tasks that you requested. An image
+- [29:16] of a man on a unicycle with an orange
+- [29:18] shirt that says download vibe code
+- [29:19] converted to a video and post it on
+- [29:20] buffer and social media. Everything is
+- [29:23] ready to go. That is incredible. Um and
+- [29:26] helper still running for whatever
+- [29:28] reason. Maybe it's just checking its
+- [29:30] work or something like that. Workflow
+- [29:32] successfully executed. If we go to
+- [29:35] buffer, we see that we got this. Uh oh.
+- [29:39] What is this? We even watch this. Let's
+- [29:42] see.
+- [29:43] What is this? Okay, so I see the Vibe
+- [29:46] Code lo or the Vibe Code colors.
+- [29:47] Download Vibe Code. And it's using V2.
+- [29:51] It's not using VO3 because V2 is just
+- [29:53] insanely expensive to run. But we have
+- [29:56] this little video of a guy riding a
+- [29:57] unicycle. And as you can see, it
+- [30:00] generated the video. It did all the
+- [30:01] steps and it messaged Muhammad. I could
+- [30:04] have updated it to message the link to
+- [30:06] the video because it is represented with
+- [30:08] a link, but that is just some things
+- [30:11] that we could refine with the agent. And
+- [30:13] not going to lie, we made this today. We
+- [30:16] made basically most of this flow today.
+- [30:18] Yeah. And in the next video, like we're
+- [30:21] going to really I think we should make a
+- [30:23] really refined workflow for something
+- [30:25] that we do because we I use a lot of AI
+- [30:28] um workflows for like YouTube
+- [30:30] thumbnails, uh research reports. I think
+- [30:32] we could include some of the actual
+- [30:34] workflows I use and like really build it
+- [30:36] out. Yeah. Yeah. Anyway, so if you guys
+- [30:39] have any ideas, let us know. Hell yeah.
+- [30:42] Well, we'll see you in the next one.
+- [30:49] [Music]

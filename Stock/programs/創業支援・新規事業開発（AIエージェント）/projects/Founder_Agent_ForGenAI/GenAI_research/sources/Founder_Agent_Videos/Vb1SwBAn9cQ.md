@@ -1,0 +1,832 @@
+---
+title: "Transcript: Vb1SwBAn9cQ"
+video_id: "Vb1SwBAn9cQ"
+video_url: "https://www.youtube.com/watch?v=Vb1SwBAn9cQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:24:09"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: Vb1SwBAn9cQ
+
+- URL: https://www.youtube.com/watch?v=Vb1SwBAn9cQ
+- Retrieved at: 2025-12-30T11:09:25+09:00
+
+## Text
+
+- [00:00] Google just dropped Gemini 3 and there
+- [00:02] are some big claims about this model
+- [00:03] already. On the official release blog,
+- [00:05] it says a new era of intelligence and
+- [00:07] that Gemini 3 is our most intelligent
+- [00:09] model that helps you bring any idea to
+- [00:11] life. So you can go ahead and read
+- [00:12] through this and you can get some
+- [00:13] information about the model, the deep
+- [00:15] think and some of these benchmarks, but
+- [00:16] I'm going to be going over a lot of this
+- [00:18] stuff with you guys today. So I've been
+- [00:20] seeing some crazy demos all morning
+- [00:21] where people have been coming over here
+- [00:22] to the Google AI studio and using Gemini
+- [00:25] 3 Pro preview for completely free. Right
+- [00:27] now, it's only actually over the API
+- [00:29] that you have to pay for Gemini 3
+- [00:30] Preview. And that is where you get this
+- [00:32] input and output cost per million
+- [00:34] tokens. But like I said, I've played
+- [00:36] around with it a bit in here and I've
+- [00:37] seen some really crazy demos of people
+- [00:39] actually building things because what
+- [00:40] you can do is you can describe your idea
+- [00:42] right in here. It almost looks like a
+- [00:43] lovable or a base 44 type of interface.
+- [00:45] And so once you actually fill in a
+- [00:47] prompt of what you want to build, it can
+- [00:48] do tons of crazy things. You can make
+- [00:51] games, apps, landing pages, all that
+- [00:53] sort of stuff. And so if you just look
+- [00:54] at some of these examples that have been
+- [00:56] built with Gemini 3 Pro, they look
+- [00:58] absolutely incredible. Gemini 3 is
+- [01:00] really, really good with like the whole
+- [01:01] UI design, but also with all of the code
+- [01:04] that actually goes into the back end of
+- [01:05] all of these different landing pages.
+- [01:07] And you can also see those ideas can be
+- [01:09] turned into games. So right here we've
+- [01:11] got a runner game. Right here we've got
+- [01:12] some sort of pilot game. You've got all
+- [01:14] these different interactive examples of
+- [01:16] games that you can build just because of
+- [01:18] how good Gemini is at reasoning and
+- [01:20] coding. So, I'm sure all over X and
+- [01:22] LinkedIn and YouTube, you're going to
+- [01:23] see some crazy examples of what people
+- [01:25] are able to build with Gemini 3 Pro. But
+- [01:28] today, what we're focused on is actually
+- [01:29] using it over API and how we can
+- [01:31] actually integrate Gemini 3 Pro with
+- [01:33] Nitn to power our AI automations and
+- [01:35] make our AI agents faster, smarter,
+- [01:38] everything like that. So, I've done some
+- [01:40] playing around with it myself, but I
+- [01:41] wanted to do a live experiment with you
+- [01:43] guys where we're connecting to Gemini 3
+- [01:45] Pro in editen. We're then going to test
+- [01:47] its ability to understand images. We're
+- [01:49] going to run a massive amount of context
+- [01:50] through it and ask it some pretty tough
+- [01:51] questions and see how it can handle
+- [01:53] them. And we're going to have Gemini
+- [01:54] itself actually build NN workflows for
+- [01:57] us and see how well it does. And
+- [01:58] throughout these three experiments,
+- [02:00] we're actually going to be comparing
+- [02:01] Gemini's results to different chat
+- [02:03] models so we can see how much better it
+- [02:05] really is for the price. So before we
+- [02:07] actually hop into Anadan and start
+- [02:08] experimenting, I just wanted to real
+- [02:10] quick go over some release info as well
+- [02:12] as those benchmarks that we saw on that
+- [02:14] release blog. So today is November 18th
+- [02:16] and Google just dropped the model today.
+- [02:18] Right now it is being called Gemini 3
+- [02:20] Pro preview. So this is available in the
+- [02:22] Google AI studio like we just saw and
+- [02:24] it's also available through developer
+- [02:26] platforms. So if you go to Gemini API
+- [02:28] documentation, you can see we have a
+- [02:30] Gemini 3 developer guide and it will
+- [02:32] walk through what it is, how you can use
+- [02:34] it. It also does some pricing and
+- [02:35] context window information and some API
+- [02:37] features about Gemini 3. And I wanted to
+- [02:40] real quick zoom out and show you guys a
+- [02:41] comparison between Gemini 3 and then
+- [02:44] sort of the 2.5 family where we had
+- [02:46] Flashlight, Flash, and Pro. Now, you can
+- [02:48] see they roughly all have the same in
+- [02:50] andout context window, meaning they can
+- [02:52] take in about a million tokens and
+- [02:54] output 64,000 tokens. But the pricing is
+- [02:57] where things get interesting. So,
+- [02:58] starting with Flashlight, we've got 10
+- [03:00] cents and 40. And this is across a
+- [03:03] million input or output tokens. For 2.5
+- [03:05] Flash, we've got 30 cents and $2.50. And
+- [03:08] then for 2.5 Pro and 3 Pro, we have, you
+- [03:11] know, it's a little more expensive, but
+- [03:12] it's also adjusted if the tokens go over
+- [03:15] 200,000. But what you can see is that
+- [03:16] Gemini 3 is going to be more expensive
+- [03:19] than Gemini 2.5 Pro. But I think that's
+- [03:21] going to be justified because it's going
+- [03:23] to be the most advanced, the best
+- [03:24] reasoning, and it's truly multimodal.
+- [03:26] So, here are those benchmark statistics
+- [03:28] that we saw on that release blog. And
+- [03:29] I'm just going to dive into a few of
+- [03:30] them here, but we're comparing Gemini 3
+- [03:33] Pro, Gemini 2.5 Pro, Claude Sonnet 4.5,
+- [03:36] and GBT 5.1. So, what we're comparing
+- [03:39] here are kind of the best and latest top
+- [03:41] tier closed source chat models. And so,
+- [03:43] for every benchmark, whatever is in bold
+- [03:45] is the one that won across that
+- [03:47] category. And if you look through all of
+- [03:48] these, I mean, Gemini 3 Pro is basically
+- [03:50] leading every single category. Some just
+- [03:53] by a little bit, but some like the
+- [03:55] screen spot pro is leading by pretty
+- [03:58] much double the next one which was
+- [03:59] Claude Sona 4.5. And this just means the
+- [04:01] chat model's ability to look at
+- [04:03] something like an image and understand
+- [04:04] it. And then this is just that second
+- [04:06] half bottom section of this the same
+- [04:08] image, the same benchmark statistics.
+- [04:11] And we've got some different ones to
+- [04:12] look at here. And honestly, one of them
+- [04:13] that I think is the most interesting is
+- [04:14] this vending bench 2 benchmark, which if
+- [04:17] you guys haven't heard of this, it's
+- [04:18] actually kind of a cool experiment they
+- [04:19] do. They have these AI models basically
+- [04:22] run a virtual vending machine business
+- [04:24] where the AI model would be in charge of
+- [04:26] ordering more inventory, adjusting
+- [04:28] prices, things like that. And the idea
+- [04:30] is that AI right now is typically really
+- [04:33] really good at sort of like one-off
+- [04:34] tasks and short-term objectives. But
+- [04:37] when you start to give it a long-term
+- [04:38] goal that it needs to sort of accomplish
+- [04:40] and iterate upon over months, that's
+- [04:42] where they start to fall off a bit. But
+- [04:45] seeing that the leader before this was
+- [04:46] Claude Sonnet 4.5 with about 3.9K net
+- [04:49] worth on their vending machine, you can
+- [04:51] see Gemini 3 Pro came in with almost
+- [04:53] 5.5K. So it's really cool to see that
+- [04:55] these AI models are moving more towards
+- [04:57] being able to actually take on long
+- [04:59] horizon agentic tasks. So anyways,
+- [05:01] that's enough of these boring slides.
+- [05:03] Let's hop into Nitn and just start
+- [05:04] playing around with the model and seeing
+- [05:06] how it actually works. All right, so I
+- [05:07] told you guys we had some different
+- [05:08] experiments that I have prepared. But
+- [05:10] first, what I want to do is just show
+- [05:11] you guys if you've never connected to
+- [05:14] Gemini before, how do you do it in
+- [05:15] Nitin? And there's a few different ways.
+- [05:17] So the first way is you go ahead and
+- [05:19] just type in Gemini and you can pull up
+- [05:20] the Google Gemini node itself. And now
+- [05:23] what's cool about this is you have
+- [05:24] different types of actions. You can
+- [05:25] analyze audio, you can analyze a
+- [05:27] document, you can upload files, you can
+- [05:29] analyze images, you can analyze videos
+- [05:31] or generate videos, and then also just
+- [05:33] send a message to the model. And so if
+- [05:35] you choose one of these operations, what
+- [05:36] it's going to ask you to do is create a
+- [05:39] credential where you would basically
+- [05:40] need to go get a Gemini API key. And so
+- [05:43] if you go to the Gemini API
+- [05:44] documentation here, and you can just
+- [05:46] type in like Google API, whatever, you
+- [05:48] can see up in the top section right
+- [05:50] here, you have a button called get API
+- [05:51] key. And this will take you to Google AI
+- [05:53] Studio where you can go ahead and create
+- [05:54] a key and just put in your billing
+- [05:56] information right here. And so what
+- [05:57] that's going to do is it's going to give
+- [05:58] you an API key that looks like this. and
+- [06:00] you would just need to copy that and
+- [06:02] then go ahead and throw that right here
+- [06:03] into nit in and that's really cool
+- [06:05] because if you look at a different node
+- [06:07] like for example an open AI node it
+- [06:10] doesn't have the ability to analyze a
+- [06:12] document so this one has more power but
+- [06:14] you can also take the chat model
+- [06:16] approach so let's say we're throwing in
+- [06:18] an AI agent and when you have an AI
+- [06:20] agent of course you have to give it an
+- [06:22] AI model to use as a brain and so when I
+- [06:24] click on chat model you could go ahead
+- [06:26] and grab Google Gemini chat and this is
+- [06:28] actually going to be the exact same API
+- [06:30] I key and credential that you already
+- [06:31] set up here. So if you did this there,
+- [06:33] you'll have this all configured already
+- [06:34] as well. But if you're like me and you'd
+- [06:36] rather use open router, you can
+- [06:38] certainly do that as well. And open
+- [06:40] router is basically a connection that
+- [06:42] lets you route to tons of different chat
+- [06:44] models. So this is what it looks like
+- [06:45] when you go to the page openouter.ai and
+- [06:47] you click on models. And you can see
+- [06:49] we've got Google Gemini 3 Pro, but we
+- [06:51] also have tons and tons of other types
+- [06:53] of models. And so the reason I like this
+- [06:55] is because I can just keep all of my
+- [06:56] billing information in one spot rather
+- [06:58] than having a Google key, an open AAI
+- [07:00] key, an Enthropic key, all these other
+- [07:02] keys. So once again, you'd go ahead and
+- [07:03] sign up and then you'd be able to get an
+- [07:05] API key for open router. Add your
+- [07:06] billing information and then once you
+- [07:08] have that connected, you could go ahead
+- [07:09] and search for Gemini 3 Pro, which is
+- [07:12] right here, Gemini 3 Pro preview, and
+- [07:14] then you'd be connected in NIN. So
+- [07:17] fundamentally what's going on with all
+- [07:18] three of these methods is we're using
+- [07:20] Gemini 3 over API because we're talking
+- [07:22] to it from Naden. And so when you're
+- [07:24] using a model over API, there are a few
+- [07:26] settings that you can look at. So before
+- [07:27] I show you guys what I mean by that, if
+- [07:29] we go back into the Gemini 3 API
+- [07:31] developer guide, you can see that we
+- [07:33] have new API features in Gemini 3. The
+- [07:36] first one is thinking level. We also
+- [07:38] have media resolution. We have
+- [07:39] temperature. We have thought signatures.
+- [07:41] Things like this. So, the reason that I
+- [07:43] wanted to bring this up is because if
+- [07:45] you want to look at tweaking the model
+- [07:46] behavior a little bit, you have to
+- [07:48] adjust the settings. And thinking level
+- [07:50] might be one of those settings that you
+- [07:51] want to adjust. And what you'll notice
+- [07:52] here is that right now we have low,
+- [07:54] which minimizes latency and cost. And
+- [07:56] sometimes you might want to use Gemini
+- [07:57] 3, but not have to pay for all that
+- [07:59] reasoning and time. And high is the
+- [08:02] default setting. It looks like medium is
+- [08:04] coming soon, but right now it's not
+- [08:05] supported. But if you go in here and
+- [08:07] you've got an AI agent and let's say
+- [08:08] you've connected it to Gemini 3 Pro here
+- [08:10] and you want to make the thinking level
+- [08:12] low, you would probably think you could
+- [08:14] go here in the settings and change that,
+- [08:16] but that's not there. What we have is
+- [08:18] max number of tokens. We have
+- [08:19] temperature, top K, and top P, and we
+- [08:21] have safety settings. And then you
+- [08:23] think, okay, well, maybe if I connect to
+- [08:25] Gemini 3 Pro and open router, I'll be
+- [08:26] able to change that. Well, in open
+- [08:28] router, if we're connected to Gemini 3
+- [08:30] Pro, we have a few different options and
+- [08:32] a few extras, but we still don't yet
+- [08:34] have the thinking level. And I'm sure
+- [08:36] what's going to happen is it will come
+- [08:37] to this node over here, but right now
+- [08:39] it's not there. And then you might
+- [08:41] think, okay, well, let's just try the
+- [08:42] native LLM call here to Gemini 3 Pro.
+- [08:44] We're going to choose the right model
+- [08:46] and add options down here. We have a few
+- [08:48] other ones now. We have a thinking
+- [08:50] budget, but that is not explicitly the
+- [08:51] same thing as setting a thinking level.
+- [08:54] So, the way that you would want to
+- [08:55] actually be able to control that and
+- [08:56] know for a fact that you're changing
+- [08:57] that parameter is you would want to set
+- [08:59] up your own HTTP request directly to
+- [09:03] Gemini. And so, of course, you would go
+- [09:05] to the Gemini documentation and you
+- [09:06] would basically figure out how you can
+- [09:08] set up that request. And the way that I
+- [09:10] got there was I took a look at this
+- [09:11] documentation and I see if we have high
+- [09:13] thinking, this is our curl request. But
+- [09:15] if we go to low thinking, it changes
+- [09:17] that curl request and it adds this
+- [09:19] little section down here where we can
+- [09:20] now customize the thinking level. So,
+- [09:22] that's exactly what I did in this HTTP
+- [09:24] request right here. Same thing. We have
+- [09:26] our URL that it gives us, we put in our
+- [09:28] API key. And then down here, not only
+- [09:30] are we sending over a text message for
+- [09:31] Gemini 3 Pro to look at and answer to,
+- [09:34] but we have the thinking level down
+- [09:35] here, which is low. And so, you can see
+- [09:37] I can go ahead and run this. And it's
+- [09:38] going to do the exact same thing as any
+- [09:40] of these other nodes are doing, whether
+- [09:41] we go here or whether we go here or
+- [09:43] here, except for now, we know for a fact
+- [09:46] that we had our thinking level turned to
+- [09:48] low. But anyways, now that we've looked
+- [09:50] at the different ways that you can go
+- [09:51] ahead and connect to Gemini 3 Pro and
+- [09:52] Nitn, let's take a look at the different
+- [09:54] examples and evaluations that we have
+- [09:56] set up today. All right, so we're going
+- [09:58] to go ahead and start with image
+- [09:59] analysis. I'm going to upload an image
+- [10:01] and we're going to have OpenAI analyze
+- [10:02] it as well as Google analyze it and we
+- [10:04] will compare the results. So I'll kick
+- [10:06] off this workflow. I'm going to drag in
+- [10:08] this criminal justice process flowchart.
+- [10:11] And what I wanted to show you guys real
+- [10:12] quick is the prompt for both of these
+- [10:14] nodes. I'm saying in both of them
+- [10:16] describe the process in the image and
+- [10:17] that's it. All right. So, OpenAI said
+- [10:20] this image illustrates the criminal
+- [10:22] justice process from the point of an
+- [10:23] incident to sentencing outlining the
+- [10:25] decision-making steps and possible
+- [10:27] outcomes. So, it says you start with
+- [10:28] incident or alleged crime. And this is
+- [10:30] where law enforcement investigates and
+- [10:31] determines if there is probable cause.
+- [10:33] It says number two is felony referrals
+- [10:35] or charging and filing. Then we've got
+- [10:37] summons bond hearing. We've got case
+- [10:39] processing and resolutions. And from
+- [10:41] there, there are several possible paths.
+- [10:43] Okay. Okay, so it understands the
+- [10:44] structure but not super detailed. Now,
+- [10:46] if we take a look at Google's answer, we
+- [10:48] have a little bit more detail here and
+- [10:50] it's the same type of flow. We start
+- [10:51] with incident and initial charges. The
+- [10:53] process begins here. Then the path
+- [10:55] splits into misdemeanor or felonies. The
+- [10:58] next would be first appearance. If the
+- [10:59] case is filed, either misdemeanor or
+- [11:01] felony, it moves into the summons bond
+- [11:03] hearing. And then it actually goes into
+- [11:05] detail down here about all the different
+- [11:06] paths from there. So, I know that was
+- [11:08] just a really quick use case, but
+- [11:09] hopefully you can see from here how good
+- [11:11] Gemini is at actually understanding the
+- [11:13] structure of these flowcharts, but
+- [11:15] anyways, depending on your use case, it
+- [11:17] might be different the way that you need
+- [11:18] an image analysis or video analysis in
+- [11:20] your workflow. So, let's say maybe you
+- [11:22] want to automatically scan in certain
+- [11:24] maintenance tickets or types of requests
+- [11:25] like that, or maybe you rent out cars,
+- [11:27] whatever it is. So, let me just go ahead
+- [11:29] and do a few more examples. This first
+- [11:31] one is me sending in a picture of some
+- [11:32] wall damage. So maybe you are um a
+- [11:34] landlord or something like that. And
+- [11:37] we're going to have OpenAI and Google
+- [11:38] once again tell us what they're seeing
+- [11:40] in the types of damage. Okay. So here's
+- [11:42] the image I just submitted. And here's
+- [11:44] OpenAI's answer, which is that the image
+- [11:46] shows visible water damage along the
+- [11:47] lower section of the interior wall near
+- [11:49] the floor. The wall has a large
+- [11:51] irregular brown stain indicating water
+- [11:53] intrusion. There's also peeling and
+- [11:55] bubbling, so the paint has bubbled and
+- [11:56] peeled away from the wall in numerous
+- [11:58] spots. And there's potentially mild mold
+- [12:00] or mildew. So that's what we got from
+- [12:01] OpenAI. Now, here is Google's answer. It
+- [12:04] says similar things. There's water or
+- [12:06] moisture damage. There's severe peeling
+- [12:07] and flaking paint. There's water
+- [12:09] staining and discoloration. So, the
+- [12:11] overall diagnosis is that because of all
+- [12:13] this damage that we can see here,
+- [12:14] there's probably a leak from behind the
+- [12:16] wall or previous flooding where water
+- [12:18] wicked up from the floor. All right. So,
+- [12:20] just as another example, let's do a car
+- [12:22] scratch. And it's going to be very minor
+- [12:23] and maybe even a little tough to see.
+- [12:25] So, we'll see if maybe there's a
+- [12:26] difference here between OpenAI and
+- [12:28] Google. All right. All right, we got the
+- [12:30] image on the left and you can see a
+- [12:31] little bit of scratching down here. And
+- [12:32] here is OpenAI's response. So, we see
+- [12:35] scratches and paint damage. Noticeable
+- [12:36] surface scratches are present on the
+- [12:38] lower part of the rear passenger door,
+- [12:40] just above the side skirt. A minor dent
+- [12:42] along the lower rear edge of the rear
+- [12:44] passenger door, which I guess it looks
+- [12:45] like there is a little bit of a dent,
+- [12:47] but not super visible. Now, if we go
+- [12:49] look at Google's response, we have
+- [12:50] damage located the rear passenger side
+- [12:52] of the vehicle. There's wheel arc or dog
+- [12:54] leg area, which is the most severe
+- [12:56] damage. We've got paint damage and rust,
+- [12:58] which that definitely looks to be true.
+- [13:00] And the summary is that the vehicle
+- [13:01] appears to have sideswiped an abrasive
+- [13:03] object like a low wall or a pillar, and
+- [13:05] this resulted in long scuffs on the door
+- [13:07] and a deeper impact near the wheel well
+- [13:09] that has since began to rust. Okay, so
+- [13:12] the point here is that honestly, both of
+- [13:14] these models are doing a good job at
+- [13:15] analyzing these images. But with the
+- [13:17] actual benchmarks showing that Gemini 3
+- [13:19] Pro is significantly better than all the
+- [13:21] other models at it, then I would
+- [13:23] definitely be using Gemini 3 Pro for
+- [13:25] your automations where you need some
+- [13:27] image analysis. So, we know that Gemini
+- [13:29] 3 has a context window of a million
+- [13:30] tokens that it can take in and its
+- [13:32] knowledge cutoff is January of 2025. So,
+- [13:35] a lot of times you're going to have to
+- [13:36] give it access to like a vector database
+- [13:37] or just put knowledge in its context
+- [13:39] window in order for it to actually give
+- [13:41] you accurate results. So, what we're
+- [13:43] going to do here is take this 121page
+- [13:45] PDF, which is a 10K of Apple, and I'm
+- [13:48] just going to copy all of this text, and
+- [13:50] we're going to go ahead and put it in
+- [13:52] the system prompt of this AI agent right
+- [13:53] here.
+- [13:56] And so now, all 121 pages of the PDF
+- [13:59] live in the system prompt, which the AI
+- [14:01] agent will look at every time it needs
+- [14:03] to answer a question. And so, what we're
+- [14:05] going to do here is run an NN evaluation
+- [14:07] where we're going to pass through these
+- [14:08] 10 questions with 10 correct answers.
+- [14:11] And then we're going to have GPT
+- [14:13] evaluate how close the answers are to
+- [14:15] the correct answers. So in our chat
+- [14:17] model, we have Gemini 3 Pro preview. And
+- [14:20] if I switch over to evaluations, you can
+- [14:22] see that this is being ran right now. So
+- [14:24] I'll check back in with you guys after
+- [14:25] all 10 of the questions have been
+- [14:26] answered by Gemini 3 Pro. And we will
+- [14:28] see what the correctness score is. And
+- [14:31] while we're waiting for this, if you
+- [14:32] don't fully understand the end
+- [14:33] evaluations feature and how that works,
+- [14:35] I made a full video. I will tag that
+- [14:36] right up here if you want to give that a
+- [14:38] watch. All right, so this run just
+- [14:39] finished up and you can see that we have
+- [14:41] a correctness score of 4.6 and that's
+- [14:44] out of five. So that's pretty high. The
+- [14:45] other thing to notice is that for total
+- [14:47] tokens on average of all 10 runs, it was
+- [14:50] under 100,000. It was coming in at
+- [14:51] around 98,000 tokens. And so that just
+- [14:54] goes to show with a model like this that
+- [14:55] has a context window of a million
+- [14:56] tokens, a 121page PDF like this one is
+- [15:00] not even a tenth of the way to
+- [15:02] fulfilling that entire context window
+- [15:04] limit. So we got 4.6 here as the
+- [15:06] correctness. I'm going to go ahead and
+- [15:08] switch this to a different chat model,
+- [15:09] and we're going to see how correct it
+- [15:11] gets it from there. All right, so Gemini
+- [15:14] 2.5 Flash came back with a 4.5
+- [15:16] correctness. So, still pretty good, but
+- [15:18] not as good. But what we do see is that
+- [15:20] it was much cheaper and much quicker.
+- [15:23] So, in your scenario, if speed and cost
+- [15:24] are a huge factor, then you would
+- [15:26] probably want to experiment more with a
+- [15:28] Gemini 2.5 flash for this use case. But
+- [15:30] keep in mind, this is like a very, very
+- [15:32] simple example just so we can actually
+- [15:34] run a few evaluations. So, I went ahead
+- [15:36] and ran one more evaluation with GBT 5
+- [15:38] mini, and you can see it actually did
+- [15:40] score a 4.6 as well. But really, the
+- [15:42] point I'm trying to make here is that 10
+- [15:44] of these examples is really not enough
+- [15:46] to know which of these models is the
+- [15:48] best. And it's not as simple as like
+- [15:49] which model is best. It's which model is
+- [15:51] best for this specific use case. And
+- [15:53] that's how you can get in here with your
+- [15:55] evaluations to understand that. All
+- [15:57] right. Now, moving on to this final
+- [15:58] section down here. We're going to have
+- [16:00] Google Gemini 3 Pro actually build us an
+- [16:03] NN workflow. And I'm not going to
+- [16:04] explain exactly how this flow is
+- [16:06] actually working. If you want to see the
+- [16:08] full video, I will attach that right up
+- [16:10] there if you want to check it out. But
+- [16:11] let me just go ahead and ask this
+- [16:13] workflow to build something for us.
+- [16:14] Right. So, I just shot that off. I
+- [16:15] basically asked it to create an
+- [16:17] automation that will take my Fireflies
+- [16:19] call recording transcripts and analyze
+- [16:20] it. It will look up the person that I
+- [16:22] had a call with and do research about
+- [16:23] them and their business and give me an
+- [16:25] internal brief about what I can actually
+- [16:27] do to help them. Sort of like a informal
+- [16:29] AI audit discovery roadmap. So this
+- [16:32] Gemini 3 Pro Nadm builder right now is
+- [16:35] going to create the JSON. And the reason
+- [16:37] why I wanted to try this is because we
+- [16:38] saw some really cool benchmarks with
+- [16:40] Gemini 3 Pro about coding. And so it'll
+- [16:43] be thinking about how to actually
+- [16:44] structure this workflow but also
+- [16:46] building it for us. And then it will
+- [16:47] create that end flow. And we'll go ahead
+- [16:49] and look at it and see how good it is.
+- [16:51] So I'm just going to open up this link
+- [16:52] real quick that it provides us. And this
+- [16:54] should load up hopefully a workflow that
+- [16:56] is pretty robust. Okay. So, the only
+- [16:59] thing that really messed up here on
+- [17:00] first glance was the chat model. And
+- [17:02] that's simply because this is kind of an
+- [17:04] outdated um prompt that I was using. So,
+- [17:06] let's just say it threw in an open
+- [17:07] router model and we're connected. What
+- [17:09] we've got here is the web hook. We would
+- [17:11] configure to Fireflies to immediately
+- [17:13] send a transcript to us. We would then
+- [17:15] feed that transcript information into
+- [17:17] this AI agent. And this one is prompt to
+- [17:20] analyze the transcript, use the research
+- [17:22] tool, find specific pain points,
+- [17:24] synthesize the transcript, and generate
+- [17:26] an internal brief. And the brief must
+- [17:28] have a prospect profile, meeting
+- [17:29] summary, pain points, and AI audit
+- [17:31] discovery. We can also see for the
+- [17:33] research tool, this is supposed to be
+- [17:34] using Tavi, and it's already filled out
+- [17:36] this whole request for us. So, we've got
+- [17:38] Tavi there. We also have the actual body
+- [17:41] setup besides our Tavly API key. And
+- [17:43] it's actually interesting because this
+- [17:44] is using an outdated version of the HTTP
+- [17:47] request. As you can see, it's using 1.1,
+- [17:49] which has been deprecated. But once
+- [17:51] again, the reason why it's doing that is
+- [17:52] because I fed in some knowledge about
+- [17:54] Naden and it's using some older versions
+- [17:56] of models. But after it makes that
+- [17:58] brief, it would go ahead and shoot that
+- [17:59] off to us in an email. As you can see,
+- [18:02] I'm just going to try one more before we
+- [18:03] wrap up here. Okay, so I just shot off
+- [18:05] another one that says, "Create me a
+- [18:07] daily newsletter that will search
+- [18:08] sources like Google and Perplexity every
+- [18:09] day and try to find new discounts on AI
+- [18:12] tools. If it finds good ones, it just
+- [18:14] shoot me an email. Otherwise, it has to
+- [18:15] do nothing. But all of the results every
+- [18:17] day should be logged in a Google sheet.
+- [18:18] So, I'll check back in with you guys
+- [18:20] when this is done and we'll take a look
+- [18:21] at the workflow. All right, that just
+- [18:23] finished up. Let's go ahead and click
+- [18:24] into this link and see what we got for
+- [18:26] this workflow.
+- [18:29] Okay, pretty cool. So, we've got our
+- [18:31] daily schedule. We've got our AI deal
+- [18:33] scout and it also tells us what
+- [18:34] configuration is still required and the
+- [18:36] logic flow. Now, keep in mind that the
+- [18:38] actual agent does not have live data. It
+- [18:40] has static data about NIN docs which is
+- [18:42] why it was probably unable to pull
+- [18:44] perplexity and SER API or something like
+- [18:47] that. but it does know tabially. So, it
+- [18:48] pulled that and it tells us that we
+- [18:50] still have to configure a few things
+- [18:51] here. Now, the agent itself has a user
+- [18:53] message saying, "Hey, here's today's
+- [18:54] date. Search the internet. Find
+- [18:56] results." And if you did find deals, set
+- [18:58] discounts found to true. And here's what
+- [19:00] you do if you don't find any. And then
+- [19:01] in the system message, it says that you
+- [19:03] are a deal hunter bot. Your goal is to
+- [19:04] save the user money on AI software. Be
+- [19:06] skeptical and only report active
+- [19:08] verified offers. But from there, you can
+- [19:10] see it also has a structured output
+- [19:11] parser and it's outputting discounts
+- [19:13] found as true or false. And it's also
+- [19:15] going to output the log summary. And if
+- [19:17] there are deals found, it will also
+- [19:19] output an email subject and an email
+- [19:21] body. Then it's going to link all of
+- [19:23] that to a Google sheet, which we would
+- [19:25] have to set up here. But it will submit
+- [19:26] the date, the status, and the summary.
+- [19:30] And then based on that status, it will
+- [19:31] check over here if deals were found. And
+- [19:33] if they were, it would actually send us
+- [19:35] that email notification. All right,
+- [19:37] guys. So, there is one more piece that I
+- [19:38] felt obligated to tell you guys about,
+- [19:40] and that is when you want to use an
+- [19:41] agent with Gemini 3 Pro and you want
+- [19:44] that agent to be able to call tools. It
+- [19:46] doesn't really quite work yet. And it
+- [19:48] does, but it doesn't. And let me just
+- [19:49] show you what I mean by that. So, if
+- [19:51] we're looking at the documentation for
+- [19:53] the Gemini 3 API, we can see something
+- [19:55] here called thought signatures. It says,
+- [19:57] "Gemini uses thought signatures to
+- [19:59] maintain reasoning context across API
+- [20:01] calls. These signatures are encrypted
+- [20:03] representations of the model's internal
+- [20:05] thought process. To ensure that the
+- [20:07] model maintains its reasoning
+- [20:08] capabilities, you must have these
+- [20:10] signatures be sent back to the model
+- [20:12] with tool calling in order for it to
+- [20:14] actually work. So basically the flow
+- [20:16] here is let's say I ask this agent to
+- [20:17] send an email. It's going to go to the
+- [20:19] chat model, understand what to do. It's
+- [20:21] going to go back to the agent. It's
+- [20:22] going to go to the tool and send that
+- [20:24] email. And then all of that's going to
+- [20:26] come back to the chat model so it can
+- [20:27] respond to us and say, "I sent the email
+- [20:29] to X and here's what I said." And so
+- [20:31] that's where we get the error is on that
+- [20:33] second time we go back to the model. And
+- [20:34] I'll just show you guys what I mean by
+- [20:36] that. What I'm going to do is send off
+- [20:37] this message that says send an email to
+- [20:39] nateample.com asking if he wants to get
+- [20:41] lunch this weekend. And what you just
+- [20:42] saw happen is exactly what I said. The
+- [20:45] brain calls the tool. The tool works
+- [20:47] correctly. So if we go to the email,
+- [20:49] we'll actually see that this did get
+- [20:50] sent. But then what happens here is we
+- [20:53] get an error. And when I open this up,
+- [20:54] it says bad request. Error fetching from
+- [20:57] this URL because function call is
+- [20:59] missing a thought signature in the
+- [21:00] function call parts. This is required
+- [21:02] for tools to work correctly and missing
+- [21:04] thought signature may lead to degraded
+- [21:06] model performance. Now the issue is when
+- [21:09] we make this request to Gemini through
+- [21:11] this native integration, we don't
+- [21:13] actually have the ability to add in that
+- [21:15] thought signature or change any of those
+- [21:17] parameters. And the way that this
+- [21:18] documentation shows how we should be
+- [21:20] doing this is, you know, if you went
+- [21:21] through Python or some other custom way
+- [21:24] that you can send off these requests
+- [21:26] with tool calling, you would be able to
+- [21:27] add that stuff in there. And so, first I
+- [21:29] thought, okay, maybe it's just a
+- [21:30] limitation of this Gemini node. Maybe we
+- [21:33] could do that through Open Router. I
+- [21:34] have my 3 Pro preview. I don't see
+- [21:36] anything in here about um thought
+- [21:38] signatures, but let's just try it again.
+- [21:39] So, I'm going to shoot off that same
+- [21:41] message. We hit the model. We're going
+- [21:43] to hit the tool. It's going to
+- [21:44] successfully send. And then we're going
+- [21:45] to get another error over here. once
+- [21:47] again. And this time it just says that
+- [21:49] the provider returned an error. So it's
+- [21:50] the exact same error going on. And real
+- [21:52] quick, just wanted to prove to you guys
+- [21:54] that all of these are being sent. So
+- [21:55] right here, we're getting obviously a
+- [21:57] message because it's a fake email, but
+- [21:58] the agent actually is sending the email
+- [22:00] about wanting to grab lunch. So we know
+- [22:02] that the tool is working. It's just
+- [22:04] about the context of what just happened
+- [22:06] in this tool being fed back into the
+- [22:07] model so it can actually respond. So
+- [22:09] like I said, I was doing research on
+- [22:10] this. I was reading through GitHub forms
+- [22:12] and edit in forums and it seems like
+- [22:14] right now this is the simplest way to
+- [22:16] put it. It's not working in NIDAN
+- [22:17] because the tool calling feature of
+- [22:18] Gemini 3 requires a special thought
+- [22:20] signature field in each function call.
+- [22:22] But nitn's built-in nodes do not add or
+- [22:25] keep this field when talking to Gemini.
+- [22:27] For it to work, NIN needs to update its
+- [22:29] Gemini nodes or workflows so that we can
+- [22:31] actually include and pass the thought
+- [22:33] signature each time that a tool is
+- [22:35] called. And then also just real quick,
+- [22:37] what is a thought signature? It's an
+- [22:39] encrypted code from Gemini that saves
+- [22:40] what the AI was thinking when it made a
+- [22:42] function call. Then that data gets sent
+- [22:44] back so it can once again communicate
+- [22:46] what it actually just did. And so I just
+- [22:48] wanted to save you guys all the headache
+- [22:49] of if you've gone through all this other
+- [22:50] stuff and you've played around with
+- [22:51] Gemini and you're loving it and then you
+- [22:53] decide, okay, I'm going to go ahead and
+- [22:54] plug in Gemini 3 Pro to all of my other
+- [22:56] agents that I have that are calling
+- [22:57] tools. I don't come from like a super
+- [22:59] technical background. So if I completely
+- [23:01] just messed up and misinformed everyone,
+- [23:03] then please in the comments if you know
+- [23:05] what's going on here and you know how to
+- [23:06] fix it, let me know. But to the best of
+- [23:08] my ability, that's what I know. So
+- [23:10] anyways, I don't want this video to go
+- [23:11] too long, but if you guys want to play
+- [23:12] around with this exact workflow so you
+- [23:14] can just test out some things, then I
+- [23:15] will leave it in my free school
+- [23:17] community, which you guys can go access
+- [23:18] and download for completely free.
+- [23:20] That'll be linked in the description.
+- [23:21] And if you want to take your learning a
+- [23:22] little bit further and be supported by
+- [23:24] over 200 members who are building with
+- [23:26] NADN and building businesses with NAND,
+- [23:28] then check out the plus community that
+- [23:29] will also be linked in the description.
+- [23:31] We've got full four courses in here.
+- [23:32] Here we have agent zero as the
+- [23:33] foundations for beginners for AI
+- [23:35] automation. 10 hours to 10 seconds where
+- [23:37] you learn how to identify, design and
+- [23:38] build time-saving automations. And then
+- [23:40] for our premium members, we have one
+- [23:42] person AI agency where you learn how to
+- [23:44] lay the foundation for a scalable AI
+- [23:45] automation business. And then we have
+- [23:47] subs to sales which is kind of my
+- [23:48] framework for how I was able to grow a
+- [23:50] YouTube channel in the AI automation
+- [23:52] niche and use that to power my
+- [23:54] businesses. We've also got one live call
+- [23:56] per week in here. So I'd love to see you
+- [23:58] guys in those calls in the communities.
+- [23:59] But that's going to do it for today. So,
+- [24:01] I hope you guys enjoyed the video. If
+- [24:02] you did or if you learned something new,
+- [24:04] please give it a like. It definitely
+- [24:05] helps me out a ton. And as always, I
+- [24:06] appreciate you guys making it to the end
+- [24:07] of the video. I'll see you on the next
+- [24:09] one. Thanks so much everyone.

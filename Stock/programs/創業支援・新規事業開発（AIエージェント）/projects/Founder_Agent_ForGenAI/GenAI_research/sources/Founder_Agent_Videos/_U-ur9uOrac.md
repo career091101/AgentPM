@@ -1,0 +1,1179 @@
+---
+title: "uh you know you should be fine. Uh if in doubt uh please uh reach out to us and we'll uh we'll u um ..."
+video_id: "_U-ur9uOrac"
+video_url: "https://www.youtube.com/watch?v=_U-ur9uOrac"
+speaker: "Ali"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  uh you know you should be fine. Uh if in
+  doubt uh please uh reach out to us and
+  we'll uh we'll u um help you. Uh sorry
+key_points:
+  - "uh you know you should be fine. Uh if in"
+  - "Can you guys hear me? Yes. Yes. Okay. So"
+  - "Ali will be monitoring to them and"
+  - "like this is a oneway thing. um there's"
+  - "a webinar but my request is that just"
+  - "everybody can see my screen. Ali, if you"
+  - "can see my screen then most people can."
+  - "Um all right so we are here to talk"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: _U-ur9uOrac
+
+- URL: https://www.youtube.com/watch?v=_U-ur9uOrac
+- Retrieved at: 2025-12-30T11:28:58+09:00
+
+## Text
+
+- [00:00] uh you know you should be fine. Uh if in
+- [00:03] doubt uh please uh reach out to us and
+- [00:05] we'll uh we'll u um help you. Uh sorry
+- [00:09] Hamza and Ali um we didn't mean to but
+- [00:14] how's everything going with both of you?
+- [00:18] Can you guys hear me? Yes. Yes. Okay. So
+- [00:22] over to you. Thank you so much.
+- [00:26] All right. Um hi everyone. Um Raja and
+- [00:31] uh data science dojo team thank you so
+- [00:33] much for having us. Um we want to keep
+- [00:36] it a quite a collaborative conversation.
+- [00:39] So please keep the questions running in
+- [00:41] the in the open questions. Both me and
+- [00:43] Ali will be monitoring to them and
+- [00:45] trying to answer. I know most of you
+- [00:48] like this is a oneway thing. um there's
+- [00:50] a webinar but my request is that just
+- [00:54] please reach out um ask questions and
+- [00:56] then we'll pause you know t take a break
+- [00:58] to try to answer any questions that you
+- [01:00] may have for us. All right, having said
+- [01:03] that let let me switch to my screen
+- [01:06] where we have everything set up and uh
+- [01:10] give me one second. All right, I hope
+- [01:13] everybody can see my screen. Ali, if you
+- [01:15] can see my screen then most people can.
+- [01:17] Um all right so we are here to talk
+- [01:20] about uh vertical AI agents a guide to
+- [01:22] building agents that deliver results.
+- [01:25] Now most of you have been going through
+- [01:26] you know when joined through yesterday
+- [01:28] or um uh you know you have had the
+- [01:32] opportunity to go through different
+- [01:33] modules of the talks but uh what we're
+- [01:36] going to try to do is try to cover a
+- [01:38] little bit more into agents and our you
+- [01:40] know one of the things that we want to
+- [01:42] focus on is talking about vertical AI
+- [01:45] agents more than uh the general purpose
+- [01:48] agents and we'll go in deeper into
+- [01:50] examples of what they are and how they
+- [01:52] they are built out. So without further
+- [01:55] ado, uh want to introduce myself. My
+- [01:57] name is Hamza. I'm the founder and CEO
+- [01:59] of a company called Traversal.ai. I was
+- [02:01] previously at Google. Um and before that
+- [02:03] I was at Walmart. I have you know 15
+- [02:06] years experience in machine learning and
+- [02:08] I'm an adjunk professor at Stanford in
+- [02:10] UCLA. Um what we do at traversal
+- [02:13] basically in traversal uh we have built
+- [02:16] a um our company has the capability to
+- [02:19] build individualized agents that do one
+- [02:22] thing at a time. So instead of having a
+- [02:24] general purpose tool which is basically
+- [02:27] hey I'm just going to I'm going to do
+- [02:28] every single thing on earth what we try
+- [02:30] to do is we try to build an agent that
+- [02:32] uh sort of provides help with one
+- [02:35] specific thing and we believe it reduce
+- [02:37] the the
+- [02:40] uh it reduces the
+- [02:43] u the option of having hallucination or
+- [02:47] error it reduces the overall error error
+- [02:50] um in the dependency of LLMs
+- [02:53] Um and we work with a ton of customers
+- [02:56] um across the board, you know, um across
+- [02:58] the US and we've been trying to help
+- [03:01] build them um enterprise um agents that
+- [03:04] can solve different different problems
+- [03:06] for them and that's what we're doing.
+- [03:08] Joining me is Ali. Uh Ali, do you want
+- [03:10] to give a quick
+- [03:12] uh overview about yourself?
+- [03:15] Uh thank you Hamza. So my name is Ali
+- [03:18] Shafi. I'm a PhD candidate at the cancer
+- [03:20] state university. Uh I recently
+- [03:23] completed my internship with traversal
+- [03:25] uh
+- [03:26] last December and now I'm working as a
+- [03:30] research fellow with traversal AI. I'm
+- [03:32] working on couple of projects. Uh last
+- [03:34] year I got a chance to uh apply and work
+- [03:38] with Meta AI accelerator competition
+- [03:41] with Hamza which we won actually. It was
+- [03:44] a pretty amazing experience and also
+- [03:46] last year in the summer I also got the
+- [03:48] chance to be a TA uh on Oxford machine
+- [03:51] learning summer school. So my research
+- [03:54] area is about LLM deployments LLMs for
+- [03:58] HPC and agents. So over to you. All
+- [04:02] right awesome. Okay.
+- [04:07] So, so basically if you guys have heard
+- [04:09] about agents and you know we we'll try
+- [04:11] to demystify all about agents today.
+- [04:14] um agents have taken over the news
+- [04:17] lately and we see a ton of news coming
+- [04:21] through our LinkedIn feed and different
+- [04:22] things that you know what people are
+- [04:24] saying and you know um and with every
+- [04:26] news that there's a there's a meme
+- [04:28] there's a meme following that happens
+- [04:30] that you know explaining about um how
+- [04:33] agents have just been around and people
+- [04:35] have been talking about it non-stop. Uh
+- [04:37] the funny thing is they all started out
+- [04:39] late last year. It's not that agents
+- [04:40] have been there before before that or in
+- [04:43] the form that we know of today but you
+- [04:45] know every company in the world is
+- [04:47] trying to jump onto it and you know be
+- [04:48] AI front and center and trying to build
+- [04:51] things uh based on
+- [04:52] that but I think the major question is
+- [04:55] and uh this is something that I want to
+- [04:57] identify
+- [04:59] is what on earth are agents you know we
+- [05:02] keep hearing about agent uh yesterday we
+- [05:04] also had a conversation about how do we
+- [05:05] define agents and no two people have the
+- [05:07] same definition some people have a
+- [05:08] scientific definition. Some people have
+- [05:10] a basic definition. So let's start with
+- [05:12] a very scientific example uh definition.
+- [05:14] An artificial intelligence agent is a
+- [05:17] software program that can interact
+- [05:18] within an environment, collect data and
+- [05:20] use the data to perform self-determined
+- [05:22] tasks to meet predetermined goals.
+- [05:24] Right? So this is basically how we
+- [05:27] define an agent in a scientific term,
+- [05:30] right? And this is taken from from
+- [05:33] Wikipedia and this is a pretty standard
+- [05:34] example of an agent.
+- [05:37] Now this is great but how about most of
+- [05:40] us who were like dude I know what this
+- [05:43] says but I don't know what it means. So
+- [05:45] for that to explain let's let's let's
+- [05:48] explain something you know explain me
+- [05:50] like M5. So what we do currently is that
+- [05:54] we uh we use chat GPT everybody I think
+- [05:56] everybody is aware of of chat GPT and
+- [05:58] how chhat GPT is used. So in in chat GPT
+- [06:03] basically what you do is you write a
+- [06:04] question and you know it generates a uh
+- [06:07] you know um an email chain for you or
+- [06:09] something and what you have is basically
+- [06:11] a really nice good look look
+- [06:14] good-looking email that has been
+- [06:15] generated by chart GBT for by you and
+- [06:17] you use that to send it out to everybody
+- [06:21] else. Now there's a second part to it.
+- [06:24] Most of you or some of you you know use
+- [06:27] charge for coding also. And what you do
+- [06:29] is that currently uh you know you
+- [06:31] generate something in code uh through
+- [06:34] through chat gpt and you put that into a
+- [06:37] python compiler.
+- [06:39] Now that's a very standard process you
+- [06:41] know that people follow you uh you use
+- [06:43] chant GPD or you there are different
+- [06:46] tools available but you basically use
+- [06:47] these tools to generate code for you and
+- [06:50] then you have a python compiler where
+- [06:53] such as VS code or even cursor for that
+- [06:55] matter you use that you output that and
+- [06:57] uh there you have you know you're you're
+- [06:59] copy pasting now what if you don't copy
+- [07:02] paste and you are like someone who is
+- [07:04] very lazy like me you're like I don't
+- [07:05] even want to copy paste all I want to do
+- [07:07] is write one prompt
+- [07:09] And it should generate the entire code
+- [07:11] for you. And once it has generated the
+- [07:14] entire code for you, it should basically
+- [07:17] execute. The code should execute on its
+- [07:19] own. I don't want to write anything
+- [07:22] beyond the wipe code. Um, and that's
+- [07:24] what you know some people have a
+- [07:25] question. Why do we need to learn about
+- [07:27] Python when we have low code or no code
+- [07:29] platforms to build agents? I think that
+- [07:31] that that's what I'm trying to answer is
+- [07:32] that we have this capability that you
+- [07:34] know like I am just writing a prompt.
+- [07:36] the prompt the prompt is writing you
+- [07:38] know generating code for me and now what
+- [07:41] I want to do further is that I don't
+- [07:43] even want to copy paste that code I just
+- [07:44] want to be able to have it execute for
+- [07:47] me u um so if you were to put all of
+- [07:51] that to together you know if you were to
+- [07:53] equate a um a prompt that generates a
+- [07:57] response and it is compiled for you in
+- [08:01] real time automatically that is what an
+- [08:04] LLM agent
+- [08:06] So in reality what an LLM agent is doing
+- [08:09] is that it's it's connected to a
+- [08:11] software basically which is a
+- [08:16] compiler the LLM agent itself and I I
+- [08:19] want to really emphasize on this you
+- [08:20] know to answer to answer the the the
+- [08:23] question uh or the disambiguity on what
+- [08:26] agents are versus not agents are is that
+- [08:30] agents are nothing but LLMs that are
+- [08:32] connected to different devices and
+- [08:34] different uh different tools and we'll
+- [08:36] explore them in detail over here but
+- [08:39] basically when you have when you're
+- [08:40] writing a prompt and you're basically
+- [08:42] generating uh the code for it and then
+- [08:45] that is compiled automatic for for you
+- [08:48] that is what uh basically the AI data
+- [08:50] scientist of 21st century is uh which
+- [08:53] you have which where you have just wipe
+- [08:55] coded your way through through those
+- [08:57] things right so if you were to expand
+- [09:01] this into a a little more. What are
+- [09:04] agents? Agents are LLMs with access to
+- [09:06] tools and memory task with planning and
+- [09:08] executing goals. Um, and unlike LLM,
+- [09:12] today's AI agents are an engineering
+- [09:13] innovation, not an AI innovation. Now,
+- [09:16] if you were to take nothing from this
+- [09:19] session, but just one thing, just
+- [09:21] remember
+- [09:22] this.
+- [09:24] LLMs are uh unlike LLMs, AI agents are
+- [09:29] engineering innovation, not an AI
+- [09:31] innovation. What that means is that AI
+- [09:36] agents are just connected to you have an
+- [09:39] agent which has an LLM running in the
+- [09:41] background. The LLM only generates an
+- [09:43] output much like it would do in chat GPT
+- [09:46] but we have connected different output
+- [09:49] functions to it. So basically it
+- [09:52] generates a JSON output which says I
+- [09:54] will call this particular function and
+- [09:56] if we have time we'll show you an
+- [09:57] example of that of how we've built that.
+- [09:59] But that's the idea behind the scenes
+- [10:01] that that's what we use to uh use an LLM
+- [10:04] behind the scenes to generate an
+- [10:07] output. And there are there are
+- [10:09] different levels of AI agents is level
+- [10:11] one, level two, level three and level
+- [10:12] four. So we'll talk about the first two
+- [10:13] levels. The first level is an LLM. You
+- [10:17] just have an LLM that is like chbd
+- [10:19] creating an output for you that is or
+- [10:21] generating output that is level one
+- [10:23] agent. Level two agent is an agent which
+- [10:26] has access to different tools. So for
+- [10:28] instance, if you have um you know you
+- [10:31] have a calculator tool, you have a code
+- [10:32] interpreter tool. Um there are different
+- [10:34] examples of internet search and rack
+- [10:36] tools. Uh if you're connected to those
+- [10:39] tools that is basically um um level two
+- [10:44] agent that
+- [10:46] has connected to different architectures
+- [10:48] and it is able to um it is able to
+- [10:52] generate uh responses for you on that or
+- [10:55] on your behalf.
+- [10:58] And then once we have uh most of these
+- [11:02] things are one direction which means is
+- [11:04] that when you have an LLM or when you
+- [11:06] have charg it does not have the ability
+- [11:08] to think back and sort of uh reason with
+- [11:11] the tools. Right now they're reasoning
+- [11:13] models that only reasons with the answer
+- [11:16] it's
+- [11:17] generating through its own ability to
+- [11:19] generate text. it's not actually looking
+- [11:22] at the tools or interacting with the
+- [11:25] tools. In order for an agent to really
+- [11:28] work well, we we need to create
+- [11:31] something which is a React
+- [11:33] agent. What is a React agent? A React
+- [11:35] agent is an AI agent that uses reasoning
+- [11:38] and acting react framework with the
+- [11:40] chain of thought to connect to different
+- [11:43] tools. So when you think about how do I
+- [11:47] connect to uh different things uh so for
+- [11:49] example somebody is saying how can I
+- [11:51] create affiliate marketing automated
+- [11:53] with AI agents what you have is
+- [11:56] basically an LLM in the
+- [11:57] center the LLM in the center is
+- [12:00] connected to different
+- [12:02] tools and the LLM when you say hey I
+- [12:05] would like to create an affiliate
+- [12:07] marketing for this product that I'm
+- [12:08] selling uh this product is for mark it's
+- [12:12] a it's a marketing tool and I should be
+- [12:14] able to sell it to marketing agencies.
+- [12:16] The affiliate program um you know will
+- [12:19] release the links to the affiliate
+- [12:21] program. So whoever posted they we can
+- [12:25] we should identify the best people we
+- [12:26] should launch for affiliate marketing
+- [12:29] marketing and then once we have launched
+- [12:30] those product um um we should be able to
+- [12:33] get feedback on how well those people
+- [12:35] are performing. Now there are multiple
+- [12:37] ways there are any number of ways to go
+- [12:38] through it. the LLM when we feed that
+- [12:41] request to an LLM it reasons with what
+- [12:44] is the best way to move forward and it
+- [12:47] we have identified the tools that it has
+- [12:49] access to. the tools that it has access
+- [12:52] to generate a set of results which are
+- [12:56] then sent back to the LLM for it to
+- [12:59] think that oh I think I've gotten the
+- [13:01] answer of what I'm looking
+- [13:03] for and having that information it is
+- [13:07] able to generate a bunch of uh you know
+- [13:10] it's able to generate a workflow plan
+- [13:12] for you. So that is basically what react
+- [13:15] agents are and that's what react agents
+- [13:17] are being used um um in the current
+- [13:20] world or they're being we try to utilize
+- [13:22] them to show the benefit of these tools.
+- [13:25] That's what we have behind the scenes uh
+- [13:27] when we talk about agents or react
+- [13:29] agents that have the power to reason and
+- [13:32] act right and that's when we approach
+- [13:36] approve when we are approaching that
+- [13:38] level that is what we call something as
+- [13:40] level three agents. Level three agents
+- [13:43] are those agents which have reason and
+- [13:45] acting capability. So just to recap, we
+- [13:47] have level one agents
+- [13:50] um which are just level one is just an
+- [13:52] LLM agent or speaking to you. Level two
+- [13:55] is an LLM which is connected to
+- [13:57] different tools but it does not have the
+- [14:00] reasoning capability. It it it's only a
+- [14:02] forward-looking direction. So if
+- [14:05] somebody asks what is agentic system
+- [14:07] versus agents? This is an agentic
+- [14:10] system. The agentic system has the
+- [14:13] capability to understand that it has
+- [14:15] access to tools and it creates a
+- [14:18] workflow. Level three or react agents
+- [14:21] have the ability to rethink and have
+- [14:24] memory associated with it so that it has
+- [14:27] it is more nuance and have a stronger
+- [14:30] capability of being able to deliver
+- [14:33] responses.
+- [14:35] So that's the power behind the scenes uh
+- [14:37] of how we have built out or how would
+- [14:40] you use agent architectures um of level
+- [14:43] three which has the ability to
+- [14:45] understand what you have just said and
+- [14:48] be able to react u uh based on the
+- [14:51] planet action. And last but not least is
+- [14:54] level four where you basically have
+- [14:56] multiple agents that have react
+- [14:58] capability and they are speaking to each
+- [15:00] other. That's the that's the sort of the
+- [15:02] major idea or the major major definition
+- [15:05] uh that sort of runs behind the scenes
+- [15:07] um in in this uh scenario. So we'll take
+- [15:10] a couple of seconds here to try to
+- [15:12] answer some questions that people have.
+- [15:14] What is the scope of agentic AI in
+- [15:16] compliance industry where hallucinations
+- [15:18] can lead to penalties for example from
+- [15:20] IRS. So the idea is that in compliance
+- [15:23] industry, you know, when you try to
+- [15:24] build something, we have to sort of do
+- [15:26] two things. We have to have either LLM
+- [15:28] as a judge or a human in in the loop.
+- [15:31] The human in the loop's ability is to
+- [15:35] actually evaluate whatever output is
+- [15:37] coming and be able to move move it
+- [15:40] forward. So in anything which is very
+- [15:43] highly regulatory or it is very
+- [15:45] important such as healthcare or finance
+- [15:47] or compliance we need to have an LL a
+- [15:50] human in the loop which sort of makes a
+- [15:52] decision who gets the you know a lot of
+- [15:55] things put together for them and their
+- [15:56] job is to evaluate the performance of
+- [15:59] the agent and sort of give feedback to
+- [16:02] say hey this this looks good and I would
+- [16:04] like to move move ahead with this. So
+- [16:07] that's the that's a very general basic
+- [16:09] idea uh that that you can use you you
+- [16:12] can utilize to sort of uh create that
+- [16:16] output. Uh second question was how to
+- [16:18] make AI agents more semantic in terms of
+- [16:20] identifying synonymous word for example
+- [16:22] in any unstructured document we made. So
+- [16:25] basically what you need to do um in in
+- [16:28] that form this is the second question
+- [16:30] how to make AI agents more semantic I
+- [16:32] think that's not what you need to do
+- [16:34] with the agents that's what you need to
+- [16:36] work on your rag and make your rag to be
+- [16:39] more agentic so there's a difference rag
+- [16:43] being agentic means that you have a rag
+- [16:46] which is connected to different tools
+- [16:48] but the agent is calling multiple rags
+- [16:53] right so the agentic rag is a simple
+- [16:56] tool that exists. You can have multiple
+- [16:57] rag a rags that exist. So one could be
+- [17:01] summary, one could be you know or
+- [17:02] related to one department. Uh you have
+- [17:05] five departments, you can have five
+- [17:06] different rag architectures. The agent's
+- [17:09] job is to just call those rags and fetch
+- [17:12] information related to that. We should
+- [17:15] not focus our time on building agentic
+- [17:18] AI rags that are all in one. we should
+- [17:22] focus on building vertical agents or one
+- [17:25] agents whose job is to just call
+- [17:27] something the other agents. So if you
+- [17:29] see over here what I've identified is
+- [17:31] that something called traversal pro rag
+- [17:33] which is which we built in our company
+- [17:35] the traversal pro rag tool what it does
+- [17:37] is that it just bas it's an independent
+- [17:40] agentic rag on its own all we do is pass
+- [17:44] information from the from the agent
+- [17:46] original agent to say hey can you help
+- [17:48] me find information about x y and z and
+- [17:51] it sort of works through
+- [17:53] that. Uh one more question is can I make
+- [17:56] my affiliate marketing automated by AI
+- [17:58] agents? Yes you can. We actually um uh
+- [18:01] believe it or not um we actually
+- [18:04] building customer outreach program
+- [18:06] through our AI agents. So we tried a lot
+- [18:10] of different products in in in in in the
+- [18:12] market and what we found out is that
+- [18:14] it's very difficult to actually build
+- [18:16] agents uh or uh it's it's very difficult
+- [18:19] to build the right agents for your uh uh
+- [18:22] or or find you know there's a lot of
+- [18:25] money that is needed to sort of build
+- [18:27] those things uh because you know you
+- [18:29] have to pay you have to pay a company
+- [18:31] that that works on it. So what we did is
+- [18:33] and let me share my screen again.
+- [18:36] So what we did is that we built our own
+- [18:38] AI agent. So as as I said before we we
+- [18:42] our product is a data science agent.
+- [18:44] What we have identified is that we built
+- [18:46] our own AI agent that identifies this is
+- [18:49] a real company and this is something
+- [18:50] that I get every every day in my inbox.
+- [18:53] So this is a company which is a decision
+- [18:55] science digital analytics startups. It's
+- [18:57] called house. Um what does the company
+- [19:00] do? What are their data needs? What are
+- [19:03] the specific challenges they are they
+- [19:05] have?
+- [19:06] why the why our agents can work for
+- [19:09] them, what is the recommended pitch that
+- [19:12] we can give them and what are the key
+- [19:13] talking points and these are some of the
+- [19:16] some of the job postings. So we can even
+- [19:18] evaluate the job posting that they have
+- [19:20] built out. So this is a really really
+- [19:23] powerful tool agent that we actually
+- [19:25] built uh we actually built in literally
+- [19:28] one day right and we have been able to
+- [19:32] build this because of our understanding
+- [19:34] on how verticalized AI agents work and
+- [19:37] this is something that you know that you
+- [19:38] know you can reach out to us we can we
+- [19:41] can help you build them but the idea is
+- [19:42] that it's not very difficult to build
+- [19:45] these things anymore so imagine in 24
+- [19:47] hours just 24 hours I'm not saying any
+- [19:49] more than that I spend 24 hours trying
+- [19:52] to build uh on this agent that basically
+- [19:56] gets me the right customers in my inbox
+- [19:59] every single day. Uh I get 20 to to 25
+- [20:02] of them in my inbox and I can make it to
+- [20:03] 50. But I get these u directed agents on
+- [20:08] why we are important to them and
+- [20:12] why what is the need that we are trying
+- [20:14] to address them. All right. And this is
+- [20:17] you can look up this company. it's a
+- [20:19] real company with real real jobs and
+- [20:21] everything. So that's the idea and it
+- [20:23] also tells you the likely people that we
+- [20:25] should reach out
+- [20:27] to. So that's that's something that you
+- [20:29] know that you can sort of work on and
+- [20:31] sort of um builds
+- [20:34] it. All right. So now moving on to the
+- [20:37] part of our of our overview. So this is
+- [20:41] basically a very cleaner or you know
+- [20:43] more visual friendly outlook of how
+- [20:45] agents are working. you have a tool in
+- [20:47] the center and the um sorry you have an
+- [20:50] agent in the center based on a user
+- [20:52] input the the react agent sort of goes
+- [20:54] through in a loop trying to find out
+- [20:56] answers uh using different tools and
+- [20:58] once the final answers is is uh is
+- [21:01] achieved it is able to generate a
+- [21:03] response based on
+- [21:05] that now there are different companies
+- [21:08] that have been promising that you know
+- [21:09] we build really good agents and you know
+- [21:11] we do we do you know something really
+- [21:13] good on that we built amazing tools uh
+- [21:15] there's a tool name is manus AI. This
+- [21:18] manus AI tool is basically you know it
+- [21:20] has so many different things attached to
+- [21:22] it. It has a code editor, it has a
+- [21:25] multi modality, it has autonomous, it
+- [21:28] has analysis. So it has so many
+- [21:30] different things and they raised I think
+- [21:32] a ton of money you know just on the fact
+- [21:34] that you know that they built something
+- [21:35] something like that. Now it's all good
+- [21:38] you know like this is a great product
+- [21:39] but within a week of releasing releasing
+- [21:42] this product somebody was able to look
+- [21:44] into look in under the hood and say oh
+- [21:48] so this is basically clawed with 29
+- [21:52] tools and it uses something called
+- [21:54] browser use um so those of you don't
+- [21:57] know what browser uses brow browser use
+- [21:59] is the ability for MCP
+- [22:02] so that's all there is to this tool so
+- [22:05] basically it's a wrapper over
+- [22:07] up and that's what happens you know when
+- [22:10] we are trying to move like I just want
+- [22:13] to identify that you know a lot a lot of
+- [22:14] us live in a FOMO constant FOMO that we
+- [22:17] don't know what's happening in the world
+- [22:19] the world is moving at a very fast pace
+- [22:21] and everyone is building something so
+- [22:23] fancy so amazing everybody's trying to
+- [22:25] raise millions of dollars and some of
+- [22:27] them have done really good job I just
+- [22:29] want you to know behind the scenes is a
+- [22:31] lot of wrappering wrapping around of
+- [22:33] things it is not just you know creating
+- [22:36] something just uh out of the box. It is
+- [22:40] literally a big wrapper that sort of
+- [22:43] just um uh that sort of just exists and
+- [22:47] it um this is manus AI they just built a
+- [22:51] w the set of rappers on top of that and
+- [22:53] once they have built um those rappers on
+- [22:57] top of it they're able to show you know
+- [22:59] put together um you know a front end
+- [23:01] that sort of uh drives a value or sort
+- [23:04] of um
+- [23:05] uh build that Right. So that's that's
+- [23:10] the idea you know that that that can be
+- [23:13] done and at the end of the day this
+- [23:22] um what happened to
+- [23:25] my Can you guys hear me? Sorry I think I
+- [23:29] lost you all. Yes we can. Can you hear
+- [23:31] me?
+- [23:34] Yes we can. All right. Sorry I I don't
+- [23:35] know what happened. Um yeah. Okay. All
+- [23:38] right. So the the agent uh so coming
+- [23:41] back from the browser look from the
+- [23:43] browser use of manis it all comes back
+- [23:45] to the same architecture that people
+- [23:46] have been looking into that we have
+- [23:49] different tools that are created and
+- [23:50] then once we connect those tools we
+- [23:52] basically have an outlook that sort of
+- [23:54] combines all of them together. All
+- [23:56] right. So imagine a world where we
+- [24:00] didn't need to write code and this is
+- [24:01] where we think that you know where we
+- [24:02] feel the world is heading towards that
+- [24:04] we don't need to write code. we can you
+- [24:06] know we can just wipe code our way
+- [24:07] through it. So what is VIP code? VIP
+- [24:10] code is this amazing capability. Some of
+- [24:12] you might have seen this tool. We have
+- [24:13] spoken about this tool over and over
+- [24:14] again in the past two days. Lovable uh
+- [24:18] this is a tool that sort of you know it
+- [24:20] can create code in real time you know
+- [24:22] just like right there and there it
+- [24:24] generates code for you and you're able
+- [24:27] to everything is done for you. So why do
+- [24:29] you even need to do anything?
+- [24:32] So my answer to all of this is why do we
+- [24:35] even why do we ever need to cook at
+- [24:37] home? We we can always go out and get
+- [24:40] food, right? We can always go out and
+- [24:42] get food, but most often we don't know
+- [24:45] what's in that food also. So the thing
+- [24:48] with Y coding is
+- [24:51] is it's really good and you know like a
+- [24:55] lot of people right now are like, "Oh my
+- [24:57] god, this is amazing. I'm you know, I
+- [24:59] don't need to write code ever.
+- [25:02] I don't think that's true. You need to
+- [25:03] write, you still need to write code, but
+- [25:05] you need to write code a little
+- [25:07] differently. Now, so let's say you are
+- [25:08] in this phase that you've just
+- [25:10] identified something called VIP coding,
+- [25:12] which is, you know, just W V W V W V W V
+- [25:13] W V W V W V W V W V W V W agent
+- [25:14] creation, V W coding, V W uh VIP
+- [25:17] architectures, you've built all of them
+- [25:19] and you're like, I'm never going to hire
+- [25:20] a single data scientist or single, you
+- [25:23] know, front-end developer. I can do all
+- [25:25] of this
+- [25:26] myself, right? And this is the feeling
+- [25:29] that most people have. you know, they're
+- [25:30] like, "Okay." And they're looking at a
+- [25:31] product and they're like, "Okay, you
+- [25:33] know, it's game over. I don't need to
+- [25:34] hire hire
+- [25:36] people." But the problem is with great
+- [25:39] power comes Haw that was never intended.
+- [25:41] And this is a Harry Potter reference.
+- [25:44] Basically, what happens at the end of
+- [25:46] the day is that, you know, uh, when you
+- [25:49] put VIP coding in in pro
+- [25:52] production, things happen which you
+- [25:54] don't know, you don't even know where
+- [25:56] it's going to happen from, right? And it
+- [25:59] just makes things go makes you go, you
+- [26:02] know, you're trying to think about it
+- [26:03] like, hey, how can I even answer this
+- [26:05] question? How can I like or how can I
+- [26:08] what happened? Where did something
+- [26:09] break? You don't know where things are
+- [26:12] breaking for you. You don't know where
+- [26:14] where anything is working out for you.
+- [26:16] You're like, okay, somewhere something
+- [26:18] is working. I don't know what's
+- [26:20] happening. So, in order to prevent you
+- [26:22] from that, you have to build vertical AI
+- [26:24] agents. And one of the best examples
+- [26:26] that I have you know over here is is is
+- [26:29] of this one. This is a vertical AI agent
+- [26:32] which has been which I mean we as a
+- [26:35] startup we don't have a lot of money to
+- [26:38] hire people or to reach out to you know
+- [26:41] like agencies or you know get get money
+- [26:43] to you know raise a we don't have a lot
+- [26:45] of money to hire the people who can get
+- [26:48] and re make reach out for us. This is a
+- [26:51] tool that we built internally for us and
+- [26:54] you know you can see this came out 19
+- [26:55] hours ago for me. This is a tool that we
+- [26:58] built. So this is an example of a
+- [26:59] vertical AI agent. It just do it only
+- [27:03] does one thing. It finds me the right
+- [27:06] people or the right companies that our
+- [27:08] company should
+- [27:10] target to build uh to to reach out. It
+- [27:13] doesn't do more that doesn't do it does
+- [27:15] not schedule interviews for me. It does
+- [27:17] not makes a reach out you know like this
+- [27:20] is the people you should email even it
+- [27:22] all it does is that it gives us a
+- [27:24] direction and if we get 50 now we are
+- [27:26] reaching out to 50 customers that we
+- [27:29] know might be looking for a tool that we
+- [27:31] have to offer right that's the power
+- [27:34] that's the power that happens in in this
+- [27:37] way and that's what we are focused on as
+- [27:39] a company is that how can we build
+- [27:41] smaller tools I'll show you another
+- [27:42] example I'm giving you inside to my uh
+- [27:44] to my inbox but let me let me give you
+- [27:46] Another example, this is an example of
+- [27:49] human in the loop. Now me as a LinkedIn
+- [27:52] u you know person who posts a lot on on
+- [27:54] on on LinkedIn. Basically what happens
+- [27:57] is that I I have to post a lot on
+- [28:00] LinkedIn. Now I hate the fact that I
+- [28:02] have to write a lot of post every day.
+- [28:04] So what I did is that I I created an AI
+- [28:07] agent which basically creates um like
+- [28:12] fetch runs through the internet finds a
+- [28:15] good article for me that I can post for
+- [28:18] that day. So this is something that ran
+- [28:20] 11 hours ago. It's basically says hey
+- [28:23] this is this is an this is a this is a
+- [28:26] post. Now I can change some of the text
+- [28:27] over here but this is a post that I
+- [28:29] have. there is an article that it has
+- [28:32] linked
+- [28:32] to and now it's more interesting if I
+- [28:36] hit
+- [28:36] approve it will post on my
+- [28:40] LinkedIn so that's the definition of
+- [28:43] vertical
+- [28:44] agents I just want you all to focus on
+- [28:47] the definition of these things is the
+- [28:49] what is the vertical agent the vertical
+- [28:51] agent does one thing for you it
+- [28:54] automates and makes it see here you
+- [28:57] might say oh I don't I don't care I
+- [28:59] don't need to I don't need to do
+- [29:00] research like I can do my own research
+- [29:02] and find out the best but then when you
+- [29:05] have a busy life and you have 600 things
+- [29:07] to do see I have to run a company where
+- [29:09] I have to make sure that we are getting
+- [29:11] the right customers in our inbox we are
+- [29:14] getting the right uh we are making the
+- [29:16] right uh proposals we are writing the
+- [29:18] right post I'm doing the research um so
+- [29:21] my time is very conf like divided and I
+- [29:24] don't have a lot of time to do
+- [29:25] everything so what I do is that I use We
+- [29:29] build these vertical AI agents that does
+- [29:32] the job for
+- [29:34] us and they are connected it's connected
+- [29:37] to my inbox. So I get an email directly
+- [29:39] from my inbox to my inbox from a system
+- [29:42] that says hey and if I approve it in
+- [29:45] fact there is a human in the loop
+- [29:46] concept also where we are working on is
+- [29:48] that if I don't like this article it
+- [29:51] will send it back to my agent and it
+- [29:53] will look I will say make it less chat
+- [29:55] GPT and make it more personalized or
+- [29:57] something something like this. It
+- [30:00] basically helps you
+- [30:02] um it basically helps you to build this
+- [30:06] right. That's that's the focus that I
+- [30:09] have. This just saved me maybe 30
+- [30:12] minutes of my of my day. And if I save
+- [30:15] 30 minutes every day if I make 20 posts
+- [30:17] a day. So 30 minutes a day, I have saved
+- [30:21] 600
+- [30:23] minutes. 600 minutes is 10 hours, right?
+- [30:26] So I've just saved 10 hours of my entire
+- [30:28] month to do something
+- [30:30] else. That is my friends what you need
+- [30:33] to do or be focused on what vertical AI
+- [30:36] agents
+- [30:37] are that will help you build something
+- [30:40] better that will help you build uh tools
+- [30:43] and you know architectures that can be
+- [30:46] that can be built out. Now I know you
+- [30:49] know understandably a lot of you are
+- [30:50] excited about this you know like or
+- [30:52] you're like okay u we we would like to
+- [30:54] see how this is done. Um I would say all
+- [30:57] I would say is that you know reach out
+- [30:59] to me on LinkedIn, connect with us. We
+- [31:01] we also do a lot of speaker sessions or
+- [31:04] you know or or open courses. So you can
+- [31:06] uh like something we do for free. You
+- [31:09] guys can
+- [31:10] um reach out to us on LinkedIn and we
+- [31:13] will share our our our in information
+- [31:15] also. But the idea
+- [31:17] is it's possible and I am actually
+- [31:20] saving time to do a bunch of things. All
+- [31:24] right. So I think we have 20 more
+- [31:26] minutes. Um uh data science team uh data
+- [31:29] science we have 20 minutes left. Uh you
+- [31:32] have uh yes uh 20 more minutes. Okay. So
+- [31:35] what do I want to do is that I want to
+- [31:37] go a little fast through I mean this is
+- [31:40] a data analyst that we built like a lot
+- [31:42] of people are not very interested in
+- [31:44] data science agents but all I want to
+- [31:47] show you guys is the ROI that we are
+- [31:49] seeing with building vertical agents.
+- [31:52] There's 80% reduction in data analysis
+- [31:54] time because a lot of there's a heavy
+- [31:58] lifting is being done for us and it's
+- [32:00] saving us time to to to make sure that
+- [32:03] we do not have to spend a lot of time
+- [32:05] getting through you know doing things
+- [32:06] ourself. 20% lower operation cost for
+- [32:09] on-prem. You know we work with
+- [32:11] enterprises and you know those
+- [32:12] enterprises you know they we help work
+- [32:14] with them. We understand what needs to
+- [32:16] be done. So it 20% lower in operation
+- [32:19] cost and 30 to 40% in inventory waste.
+- [32:22] So the reason I we put it over here is
+- [32:25] that we work with supply chain
+- [32:26] companies. They have a lot of inventory
+- [32:28] that they that they create with AI
+- [32:31] agents that helps with forecasting. And
+- [32:33] I'll show you an example of our
+- [32:34] forecasting model. But the forecasting
+- [32:37] model basically what it does is that um
+- [32:40] you know it basically generates um you
+- [32:43] know you just basically give it a prompt
+- [32:45] and the prompt is then used to generate
+- [32:47] an entire output for you that sort of
+- [32:50] looks into what what we're trying to
+- [32:52] identify um and it generates a code for
+- [32:54] you um and it runs. So Ian this is data
+- [32:58] sciences dojo event uh we're talking
+- [33:01] about data sciences but I think a lot of
+- [33:03] our focus has been on vertical AI agents
+- [33:05] and you know how um how we can utilize
+- [33:08] them to to to build things from there.
+- [33:11] All right. So what I want to do is I'm
+- [33:13] going to try to take five minutes to
+- [33:15] answer questions. This is our LinkedIn
+- [33:18] uh uh URLs. You guys can you know use
+- [33:21] these tags to reach out to us. I'll give
+- [33:22] you uh three minutes on this and then
+- [33:25] Ali will switch gears to for you to show
+- [33:28] some b some basic code. Right. So I'm
+- [33:32] going to scroll up and trying to answer
+- [33:34] what's the difference in agent
+- [33:35] performance if you use a SLM versus an
+- [33:38] LLM. I think the the difference Alex to
+- [33:41] Alex question a small language model
+- [33:43] versus large language model. I think
+- [33:45] small language models have a higher cap
+- [33:47] probability of hallucinating. So when
+- [33:49] you're building a very important
+- [33:51] ecosystem which requires you to make
+- [33:53] sure that things don't fail, using an
+- [33:56] LLM might be a better job. Right? What
+- [33:59] accuracy using single LLM agent or
+- [34:01] multiple agents? Um I would say to Ind's
+- [34:04] [Music]
+- [34:05] question having multiple agents in one
+- [34:09] ecosystem means that the the point of
+- [34:11] failures are very high. So again if you
+- [34:14] see this code right if you see this
+- [34:16] output this is literally doing one thing
+- [34:19] and there's there is very low
+- [34:21] possibility of error at at at your end.
+- [34:24] Why? Because you know it will not error
+- [34:26] out. Of course it might hallucinate but
+- [34:28] the level of issues it creates for you
+- [34:31] is not that big for you to be concerned.
+- [34:34] So you have to build
+- [34:36] tools that work like this.
+- [34:39] You have to build tools that are so
+- [34:41] independent that if they screw up, it
+- [34:44] does not trample and destroy anything
+- [34:46] ahead of for you, right? It does not do
+- [34:50] anything uh that sort of creates an
+- [34:52] ecosystem for you that you're like, "Oh
+- [34:53] my god, you know, everything fell
+- [34:55] apart." This is what I'm trying to
+- [34:56] prevent you from. You should use
+- [34:58] vertical AI agents. You should use
+- [35:00] agents that do one thing for you, but
+- [35:02] you should use them in a way that you
+- [35:05] are not struggling to see where things
+- [35:07] have fallen apart for you, right? Uh how
+- [35:11] long is the information in memory
+- [35:12] preserved? Um so then to your question,
+- [35:15] there's long-term and short-term
+- [35:16] memories uh that can be used over here.
+- [35:19] We have an example uh that we use. Just
+- [35:23] going to go fast through that. Um
+- [35:26] basically what we have a short-term
+- [35:27] memory and a long-term memory. The
+- [35:29] short-term memory is very transient.
+- [35:30] It's just ephemeral. Um it's just there
+- [35:33] for the time being that you're using it.
+- [35:35] However, the long-term memory is what's
+- [35:37] stored in your e ecosystem that exists.
+- [35:40] And with that, what I would love to do
+- [35:41] is just show you give you guys an
+- [35:43] example of um github.com um agent
+- [35:47] pro agent pro I can't spell my own
+- [35:51] company. All right, here we are. So this
+- [35:54] is something what what we have built
+- [35:55] which is agent pro which is our own
+- [35:59] infrastructure. There are ton of people
+- [36:01] who are building agents frameworks. The
+- [36:03] reason we built one is because we didn't
+- [36:06] want to depend on langin and llama
+- [36:07] index. We just wanted to build something
+- [36:09] ourselves. So that's where that's what
+- [36:11] we have built ourselves you know so that
+- [36:13] we can um uh we we are working on it. Uh
+- [36:18] all right Ali uh do you want to take
+- [36:20] over and show some of the code on just
+- [36:22] basic examples?
+- [36:25] Sure. Let me share my screen.
+- [36:42] Okay. Can you see my screen?
+- [36:45] Yes. Uh perfect.
+- [36:53] So, so this is a demo of agent pro and
+- [36:57] this is kind of my favorite part of the
+- [36:59] session because now we are going to see
+- [37:00] how the agent pro works. we will see
+- [37:03] some kind of things in action and
+- [37:07] uh it's a stream app and just for this
+- [37:10] thing if I minimize this so it's going
+- [37:14] to use uh a GP4 as a LLM and then these
+- [37:18] are the tools I have connected with this
+- [37:20] agent react agent pro one is the
+- [37:24] calculate tool the Yahoo finance tool
+- [37:26] the slide generation the Aries internet
+- [37:29] and the traverser pro ra tool
+- [37:32] And it's very easy just couple of lines
+- [37:34] and it will set
+- [37:36] up with the rack tool. You actually need
+- [37:39] to pass the document because it helps
+- [37:41] the agent to know when to go to the rack
+- [37:44] tool. If if the question is related to
+- [37:46] the traversal employee handbook, it will
+- [37:49] go to the rack tool. And this is
+- [37:52] interesting thing that if let's suppose
+- [37:54] if this if this tool break or something
+- [37:57] or if the Yahoo finance tool we observe
+- [38:00] that we run we asked for some Yahoo
+- [38:03] finance related things and it says that
+- [38:06] your rake limit you the there is a
+- [38:09] limitation with your rate. So it
+- [38:12] automatic automatically reason and move
+- [38:14] to the internet tool. So if any tool
+- [38:17] just break because of any reason
+- [38:21] uh agent pro actually do reasoning and
+- [38:24] try to fetch the answer from other tools
+- [38:26] as
+- [38:28] well. So let's let's try some
+- [38:32] prompts maybe how about this
+- [38:35] prompt and this is a screen
+- [38:39] uh uh UI. So let's ask this question
+- [38:43] that can you tell me about the future of
+- [38:45] data and AI the agentic AI conference
+- [38:48] 2025 by data science
+- [38:52] dojo. So once I run
+- [38:55] this so in the terminal I can see that
+- [38:58] this is a system
+- [39:01] prompt and then it calls in a tool and
+- [39:05] then it fetch the final answer. So let's
+- [39:07] this thing in in a better way. So this
+- [39:10] is the thought process by the
+- [39:12] LLM. So to get this information it needs
+- [39:15] to search on the internet. So it use
+- [39:18] this tool Aries internet search and
+- [39:21] search about this. It gets some answers
+- [39:24] which is the observation from the tool
+- [39:27] and then LLM is pretty satisfied with
+- [39:30] the observation and it is the generated
+- [39:33] answer about
+- [39:35] the agentic AI conference.
+- [39:41] So, let's try something
+- [39:43] else, something more interesting. How
+- [39:46] about a rack
+- [39:52] tool? So, this is a question
+- [39:56] about can you tell me about the PTO
+- [40:00] policies at the traversal employee
+- [40:03] book? Now, hopefully he's going to run
+- [40:05] the rack.
+- [40:08] and the embeddings and the chunking
+- [40:10] everything has already been done on the
+- [40:12] on the uh pro traversal AI
+- [40:16] website. So it actually call the tool
+- [40:20] ask for the PTO policies get some
+- [40:22] observation and it generate the final
+- [40:24] answer for you. So it means you don't
+- [40:27] need to read 300 pages of book. You just
+- [40:30] need to make a rad tool
+- [40:33] and you just need to prompt and get the
+- [40:36] answers out of the document. Out of the
+- [40:40] documents and how about we can try this
+- [40:54] thing. Can we make PowerPoint slides uh
+- [40:58] and compare the Amazon and Tesla? Let's
+- [41:00] see if if the agent pro can use multiple
+- [41:04] tools, fetch multiple information uh
+- [41:08] from about Amazon and Tesla and try to
+- [41:11] make PowerPoint slides for
+- [41:16] us. So the whole thought process is
+- [41:20] going on.
+- [41:25] So looks like it has it went to the
+- [41:28] Aries internet for the Amazon. Now it is
+- [41:32] going for again to the internet for
+- [41:35] the
+- [41:38] Tesla. Probably it compile the slides
+- [41:43] for us and let's see if it works or not.
+- [41:50] So this was the whole thought process
+- [41:52] and for that it needs to gather the
+- [41:55] information for both companies. First it
+- [41:57] get so this is a very interesting thing
+- [42:00] I was trying out last night I guess. So
+- [42:03] because this tool did not work for
+- [42:06] um for the agent because of too many
+- [42:09] requests. I really do not should not do
+- [42:12] that last night. So with the thought
+- [42:16] process it it actually rely on the Aries
+- [42:18] tool. So first it fetch the information
+- [42:21] about the Amazon and then it fetch the
+- [42:24] information about
+- [42:25] Tesla and then he gather the information
+- [42:28] and use the tool of PowerPoint and make
+- [42:31] the slides for us and this is where we
+- [42:35] have the slides. Let's see how it looks
+- [42:40] like. Difference between Amazon and
+- [42:43] Tesla. This is the introduction, some
+- [42:46] financial performance, strategic
+- [42:49] priorities and the market
+- [42:52] position. So it does it has done some
+- [42:56] pretty well job for us.
+- [43:02] So is there any prompt uh uh we will you
+- [43:06] um we should try something and there are
+- [43:09] also one more option about the custom
+- [43:11] tool. So it's not only the default tools
+- [43:14] available. You can also create your own
+- [43:16] custom tool with the agent pro and you
+- [43:19] can run those custom tools
+- [43:23] and it it's it's a very easy plug and
+- [43:26] play kind of a thing and it's an open
+- [43:28] source so you can definitely uh work
+- [43:31] with that and if I can show you a system
+- [43:37] prompt. So this is just a system prompt
+- [43:40] where
+- [43:41] [Music]
+- [43:42] uh it ask for the react and reasoning
+- [43:46] and acting pattern. It has these
+- [43:48] following tool
+- [43:50] accessibility and this is how it
+- [43:52] generate a JSON uh format for us and we
+- [43:56] just extract this JSON format call the
+- [43:59] function return the observation and keep
+- [44:02] doing that until it get the final answer
+- [44:05] and give us the final answer. They do a
+- [44:09] chain of thought process and
+- [44:13] um this is all about the agent pro.
+- [44:17] Hamza, do you have anything to um to
+- [44:20] share some prompt for us or so I think
+- [44:24] what we can do is we can use this time
+- [44:25] to answer questions for people. So Ali,
+- [44:28] first of all, thank you for this. Can
+- [44:29] you put the link for agent pro in the in
+- [44:31] the in the chat so people want to if
+- [44:33] they want to check it out, they can
+- [44:35] check check it out. Uh I'm going to try
+- [44:37] to go from the back from the from the
+- [44:39] bottom up and try to answer answer
+- [44:41] questions.
+- [44:43] Um basically um Chad GPD can also create
+- [44:47] PPD. Curious to know the main difference
+- [44:49] between your agent and charge GPD. So
+- [44:51] well I think the main difference between
+- [44:52] chity and our agent is that we have
+- [44:54] built completely everything open source.
+- [44:56] So you can see and build things as you
+- [44:59] go. Our ideology is that we don't want
+- [45:02] to be reliant on any any framework. So
+- [45:05] it's one of the most lightweight tools
+- [45:07] that exist over here. You can deploy it
+- [45:10] completely on your onrem. So you can't
+- [45:13] deploy chat GPD on prem. So this is a
+- [45:15] system that you can deploy on prem. You
+- [45:17] can use open source LLM. So some people
+- [45:19] were asking that how can I protect my
+- [45:21] customer data from uh from this. It's
+- [45:24] very simple. If you deploy this for
+- [45:27] example you take agent pro and you
+- [45:28] deploy it on your ecosystem. you can
+- [45:30] connect it to Oola Lama and once you
+- [45:34] connect to Olama everything is just
+- [45:35] running on your prem you're not using
+- [45:37] anything on the outside world right so
+- [45:40] that sort of answers the question on how
+- [45:42] can we util utilize this thing um um uh
+- [45:46] you know to see um uh to to to use this
+- [45:52] uh Sai you had a question if we want to
+- [45:53] run agent pro in our system do we need
+- [45:55] open AI API key actually you just we we
+- [45:58] support light LLM
+- [46:00] Which basically means that if you use
+- [46:01] light LLM, you can use any LLM. Which
+- [46:05] means that if you have an LLM that you
+- [46:07] have hosted on your ecosystem, if you
+- [46:08] use open router, you can use any one of
+- [46:11] them to uh to to work on that. Uh how
+- [46:15] does agent pro compare with LAN graph? I
+- [46:17] think the simple thing is we are not
+- [46:19] dependent on Lion or we we're very
+- [46:21] simple framework. So you can open the
+- [46:23] hood and build things as you go. So the
+- [46:26] learning curve is very small for you.
+- [46:29] it you just need to be able to work with
+- [46:31] chat GPT or you know some of the things
+- [46:33] over there and once you you get that up
+- [46:36] and running I don't think you need to um
+- [46:39] you need to focus on anything
+- [46:41] else all right so how is this different
+- [46:44] than notebook LLM notebook LLM is an
+- [46:46] audio creator we don't have audio
+- [46:49] creation we just create an output which
+- [46:50] is uh based on the search that we have
+- [46:52] done or you know the agent the job of
+- [46:54] the agent of what it built up um how do
+- [46:58] to check the performance of agent in
+- [47:00] production environment. So there so this
+- [47:03] is a good question. The reason is
+- [47:06] because you basically the way you check
+- [47:09] agent is not through one call. You check
+- [47:13] agents through um you check your agents
+- [47:17] uh performance through 10 times run. So
+- [47:18] you basically run something 10 times and
+- [47:21] then you look for the ground answer and
+- [47:23] you see that if the agent was able to
+- [47:25] deliver you on that ground answer. So I
+- [47:27] just want to emphasize on this that
+- [47:30] agents agent uh the way we evaluate
+- [47:33] agents is not the same way we evaluate
+- [47:35] LLM or LLMs. We evaluate agents by
+- [47:40] running them 10 times. Um and this is
+- [47:42] called pass estric or pass cap k that's
+- [47:45] the thing that we use to test out these
+- [47:48] these tools. It's it's some it's
+- [47:51] something like you know you'll be like
+- [47:52] okay what the hell is that? If you if
+- [47:54] you look for it, if you like sort of
+- [47:56] Google that you should be able to find
+- [47:57] information and that's something that we
+- [47:59] are doing with data science benchmark
+- [48:01] agents. So if you were to so this is the
+- [48:05] link that I want to share. Um we're
+- [48:08] doing research work. Um if you're a
+- [48:10] researcher um research research for data
+- [48:15] science um agents if you're a data if
+- [48:18] you're a data scientist and you've
+- [48:19] worked on agents or you like to work on
+- [48:22] agents and try to understand how agents
+- [48:24] work in terms

@@ -1,0 +1,665 @@
+---
+title: "You probably already know that Claude Code is by far the best coding agent in the world."
+video_id: "OdtGN27LchE"
+video_url: "https://www.youtube.com/watch?v=OdtGN27LchE"
+speaker: "probably"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  You probably already know that Claude Code is by far the best coding agent in the world
+  It can create entire apps from a simple prompt both front end and backend
+  It can blow your mind in terms of the design of that app
+key_points:
+  - "thing that you could be studying right now"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:41:23+09:00"
+---
+
+# Transcript: OdtGN27LchE
+
+- URL: https://www.youtube.com/watch?v=OdtGN27LchE
+- Retrieved at: 2025-12-30T10:41:23+09:00
+
+## Text
+
+- [00:00] You probably already know that Claude
+- [00:01] Code is by far the best coding agent in
+- [00:04] the world. It can create entire apps
+- [00:06] from a simple prompt both front end and
+- [00:08] backend. It can blow your mind in terms
+- [00:11] of the design of that app. But what you
+- [00:13] might not know is you can actually use
+- [00:15] Claude Code as a general agent. And
+- [00:18] Anthropic released something really
+- [00:20] interesting a few weeks ago. they
+- [00:21] released what is called Claude skills
+- [00:25] which is just a special type of markdown
+- [00:27] file which allows you to surround claude
+- [00:31] code with relevant skills. So if you
+- [00:34] wished that you had an AI agent that had
+- [00:36] relevant skills, I believe that this is
+- [00:38] probably the most important thing that
+- [00:40] you could be studying right now. And so
+- [00:43] in this video, we're going to talk about
+- [00:44] how to set up Claude skills. We're also
+- [00:47] going to talk about how to use Claude
+- [00:48] code as a general agent. And we're going
+- [00:50] to talk about how you need to set up
+- [00:52] your skill.md file and what folders. And
+- [00:55] I'm going to show you how to just use AI
+- [00:58] to create these skills. Let's talk about
+- [01:00] building a general agent with relevant
+- [01:02] skills for your business. Whether you're
+- [01:03] a content creator, business owner,
+- [01:05] aspiring entrepreneur, we're going to
+- [01:07] build an agent with relevant skills to
+- [01:10] you and we're going to use that agent.
+- [01:11] Let's dive in. Okay. So, we're going to
+- [01:14] start off by talking about what is a
+- [01:15] coding agent. You may have heard of
+- [01:17] lovable and this video is not about
+- [01:19] lovable. We're not even going to use
+- [01:20] lovable. I just wanted to make a point
+- [01:22] real quick. So many people are talking
+- [01:24] about vibe coding. You can use tools
+- [01:25] like lovable, replet, vibe code. These
+- [01:28] are coding agents that you can use to
+- [01:30] build apps. And whenever I go to lovable
+- [01:34] and type in uh make a landing
+- [01:37] landing page about pizza
+- [01:41] right now, what it's doing is it's
+- [01:43] spinning up a sandbox which is basically
+- [01:46] a virtual computer and it's going to run
+- [01:49] an AI agent or an AI coding agent on the
+- [01:52] side. Now, it's going to generate a
+- [01:54] bunch of files within a directory or
+- [01:57] codebase, and those files are going to
+- [02:01] make an app. And so, this is an AI
+- [02:04] coding agent at work building an app.
+- [02:07] Okay, so it's done. The lovable coding
+- [02:09] agent took my prompt, make a landing
+- [02:12] page about pizza. It generated all of
+- [02:14] the files. This coding agent decided
+- [02:16] what files it needed to generate. it
+- [02:18] generated them and then it probably
+- [02:21] reviewed those files and then it ran the
+- [02:24] program in a virtual computer somewhere
+- [02:26] so I can see it on my uh browser because
+- [02:30] this is within a web browser and so this
+- [02:32] is an example of an agent made
+- [02:34] specifically for creating simple
+- [02:36] applications a very narrow agent
+- [02:39] experience where it's made specifically
+- [02:41] for creating certain types of apps with
+- [02:44] certain stacks and we could do this same
+- [02:46] thing on our computer, right? We could
+- [02:49] do the same thing on our computer. If we
+- [02:51] were to go to Finder, we can just go
+- [02:54] straight into our downloads, right? We
+- [02:56] can go straight into our downloads and
+- [02:57] we could go new folder. We can go like
+- [03:00] this. We can say using quad code, right?
+- [03:04] So, we don't even need any IDE or
+- [03:07] something like cursor or lovable. I can
+- [03:10] open a terminal window. I can open a new
+- [03:13] terminal at this folder and we can just
+- [03:16] run claude. So now we're running claude
+- [03:19] code in this empty folder called using
+- [03:22] claude code which is an empty folder and
+- [03:25] I can just say please build a beautiful
+- [03:27] amazing landing page for my pizza shop
+- [03:31] Riley's Pizza Shop. Make it in the style
+- [03:34] of neo brutalism mixed with a friendly
+- [03:37] pizza energy. So just like lovable, we
+- [03:41] can run this and claude code in this
+- [03:43] empty folder is going to create the
+- [03:46] application right here. Okay, check this
+- [03:48] out. It just generated an index.html
+- [03:51] file. And there we go. It created a file
+- [03:55] the same way that Lovable is creating
+- [03:58] all the different files and putting them
+- [03:59] in a folder in some virtual machine.
+- [04:02] It's just a virtual computer. We're
+- [04:04] doing this on our computer. It's doing
+- [04:06] the same exact thing Lovable is doing.
+- [04:08] And the point I want to make here, you
+- [04:10] can just use these coding models on your
+- [04:13] computer and coding files, right? This
+- [04:16] is an HTML file and this is a CSS file.
+- [04:19] This is not the only type of file you
+- [04:22] can create with cloud code. You can
+- [04:24] create any type of file. So it is done.
+- [04:27] And if we just copy this link right here
+- [04:29] and we paste in localhost80,
+- [04:32] we can run this on our computer. This is
+- [04:35] running locally on our computer. where
+- [04:37] Lovable in Lovable's case, it just
+- [04:39] created a virtual machine and it ran it
+- [04:41] on that computer and it showed you what
+- [04:44] it created on the browser. Now, we're
+- [04:47] running this fully on our computer and
+- [04:49] we didn't use any like software in
+- [04:52] between. We generated the code files
+- [04:54] with an AI coding agent on our computer.
+- [04:57] It used an AI model from anthropic
+- [05:00] servers to create those files. So that's
+- [05:02] where it costs money, but we didn't use
+- [05:04] any other software other than getting
+- [05:07] Claude to generate all the files. And
+- [05:09] we're running it on our MacBook Pro. And
+- [05:12] this is the website that it created. And
+- [05:14] you'll notice that in my opinion, I've
+- [05:17] tested every single one of these coding
+- [05:19] agents. Just raw Claude code is the best
+- [05:23] in the world. So Replet and lovable,
+- [05:25] they have their own coding agents.
+- [05:26] Claude Code out of the box is better
+- [05:28] than all of them. And so what I want to
+- [05:31] explain now is how you can use this as a
+- [05:35] general agent. So this right here is
+- [05:38] Obsidian. And this is just a basic notes
+- [05:41] app where every file instead of the
+- [05:44] files uh being an HTML file or a
+- [05:47] JavaScript file or a CSS file which
+- [05:50] ultimately created this uh application
+- [05:52] that we can use. Instead of it being one
+- [05:56] of those types of files, these are all
+- [05:57] markdown files. So the way that I use
+- [05:59] general agents is I actually use claude
+- [06:02] code at the same location as my notes
+- [06:07] like this is my agent workspace. This is
+- [06:10] kind of how I think about this. This is
+- [06:11] a notebook and Riley Brown uses this as
+- [06:14] his personal notebook so that he can be
+- [06:16] a better CMO and co-founder of the Vibe
+- [06:18] Code app. And I basically state all of
+- [06:20] my goals. Why am I stating this? I I
+- [06:23] know my goals. Why am I writing this?
+- [06:25] because I don't use this by myself. I
+- [06:28] use this with my general agent which is
+- [06:30] Claude Code. And what I can do here is I
+- [06:32] can actually click on this or I can
+- [06:35] rightclick on this and hit reveal in
+- [06:37] Finder. So here we can see Riley content
+- [06:40] creation. That's basically what I called
+- [06:42] this file. And you'll see here all of
+- [06:45] these different files here. Um like this
+- [06:49] is just a wrapper of these files that
+- [06:51] are showing up on my computer, right?
+- [06:53] This is just in my computer. And so the
+- [06:56] same way that I ran claude code in a new
+- [06:59] folder, I can run claude code in this
+- [07:02] folder. So I can reveal this in finder.
+- [07:04] What I'm going to do is I'm going to
+- [07:05] rightclick services, new terminal at
+- [07:09] folder, right? New terminal at folder.
+- [07:12] Now you can see here that it is running.
+- [07:14] So we're in this folder right here,
+- [07:16] which is the same folder where all of
+- [07:17] this is located. And now we can run uh
+- [07:20] claude. And so now we have cloud code
+- [07:23] running in the folder that has all of my
+- [07:28] notes. And so I can use it with cloud
+- [07:29] code. So I could go into tasks, right?
+- [07:32] And and this is how I keep track of my
+- [07:34] tasks. I could go into Q. Um let's say
+- [07:36] these are both done, right? This is
+- [07:38] these are the things that I want to do.
+- [07:40] Um and so in my queue, one thing that I
+- [07:42] do want to do, and I can just drag this
+- [07:44] in here. One thing that I do want to do
+- [07:46] is I want to explain Claude skills to my
+- [07:51] audience and make a video. Right? This
+- [07:54] is one thing I really want to do. Um I
+- [07:56] want to um share the file structure um
+- [07:59] with of Claude skills. And then I want
+- [08:01] to take my notebook and examine what
+- [08:04] Claude skills would be useful for me to
+- [08:07] create. And I'm I'm uh do this on this
+- [08:09] page. Don't create or edit any other
+- [08:12] files. Just make a plan and do it. Okay.
+- [08:14] So, we just created this markdown file
+- [08:16] of this thing that I want to do. The
+- [08:18] cool thing is I can just ask Claude Code
+- [08:19] to do it. I can just say, "Do what's in
+- [08:22] my queue." Right? That's all I need to
+- [08:24] say. I can say, "Yo, do what's in my
+- [08:26] queue." And because the first thing that
+- [08:29] this agent's going to do is analyze the
+- [08:30] readme file. It's going to see how it's
+- [08:33] organized, right? It's going to know
+- [08:34] that there's tasks. It's going to know
+- [08:36] what the queue is, draft tasks. So, it's
+- [08:39] just going to know to check the queue.
+- [08:41] And because Claude Code is such a
+- [08:42] powerful agent and it's really good at
+- [08:45] looking through the code base, in this
+- [08:47] case, which is just a bunch of my notes,
+- [08:49] it's going to find the right location.
+- [08:51] It's really smart. And it's going to
+- [08:53] find this page, and it's just going to
+- [08:54] do what I want it to do. And we'll just
+- [08:56] wait for Cloud Code to do that. And
+- [08:58] you'll see here that we never said to
+- [09:00] look at this file. It doesn't know that
+- [09:02] I have this file open. It just found
+- [09:04] what's in my queue. And you can see here
+- [09:06] it's examining notebook for skill ideas.
+- [09:09] It found the right file and now it's
+- [09:10] creating the relevant things. Allow it
+- [09:12] to edit this session. Boom. Look at
+- [09:15] that. So, it just added all of this. It
+- [09:19] added all of this
+- [09:22] to this document. It told us what skills
+- [09:25] are, right? And it told us that uh from
+- [09:29] the anthropic skills repo, it it
+- [09:31] basically did research. It found uh the
+- [09:34] clawed skills repo. And now it is
+- [09:37] telling us that you can create within
+- [09:39] the claude.md file. You can create a
+- [09:43] skill by creating a folder with the
+- [09:45] skill name. And inside that folder, it
+- [09:48] needs to have a claude or a skill.md
+- [09:51] file. And then you can put optional uh
+- [09:54] resources within that folder. And so you
+- [09:56] can even put assets, references, etc.
+- [09:59] And I'll get to that in just a second.
+- [10:00] The point I wanted to make is the same
+- [10:03] way lovable was a coding specific
+- [10:06] example of using an agent. This is a
+- [10:09] notes specific example for using an
+- [10:11] agent. So I promise you we are we're
+- [10:14] working our way up to creating claude
+- [10:16] skills. I just wanted to illustrate the
+- [10:18] point. I wanted to talk about what a
+- [10:20] domain specific agent was like the
+- [10:21] lovable agent that can create apps. Then
+- [10:23] I showed you a note takingaking example
+- [10:25] where you can use claude code as a
+- [10:27] general agent. Now, we're going to use
+- [10:29] it in a wide openen world within cursor.
+- [10:33] And we can do literally whatever we
+- [10:35] want. I like to use cursor because it's
+- [10:38] just the best in my opinion for quickly
+- [10:40] using claude code. And it's ironic
+- [10:42] because I use we can just say claude
+- [10:45] code skills. So, what uh we're going to
+- [10:50] be creating claude skills in this
+- [10:52] project. So, I'll just name it that. And
+- [10:55] now it is opening up this directory in
+- [10:58] an IDE. So cloud uh a cursor is just an
+- [11:02] IDE like VS Code where you can view all
+- [11:05] the files. And so the way that I vibe
+- [11:07] code is I'm just going to come in here
+- [11:08] and the first thing that I'm going to do
+- [11:10] is hit command J. We're going to open up
+- [11:11] the terminal and we're going to type
+- [11:12] claude. Then we're going to press this
+- [11:15] right here to open up the side panel.
+- [11:18] And so now we have Claude code on the
+- [11:21] left or on the right. controlling this
+- [11:25] directory which is claude code skills
+- [11:28] and what we're going to do here is I'm
+- [11:30] going to say please take a look at this
+- [11:34] direct or at this repo and I'm going to
+- [11:37] paste this GitHub uh to the anthropic
+- [11:39] skills right here please create one
+- [11:43] simple skill in the right format so that
+- [11:48] you will use this skill when you need
+- [11:53] to. Okay. So, right now it's creating an
+- [11:55] example skill. What it's going to do is
+- [11:58] it's going to create a cloud file. It's
+- [12:01] going to create a cloud file. As you can
+- [12:04] see here, it's created this.cloud file.
+- [12:07] It's also going to create a skills
+- [12:09] folder as you'll see in just a second.
+- [12:11] Okay, there you go. It created a folder
+- [12:15] called.cloud
+- [12:17] and then it created a skills folder
+- [12:19] within that. And then it has other
+- [12:22] folders beneath it. So it created this
+- [12:24] summarized folder with a skill MD.
+- [12:26] That's all you need to create a skill.
+- [12:28] You just need to put in the docloud
+- [12:30] folder because cloud code knows to look
+- [12:31] in thecloud folder for certain things
+- [12:33] like sub aents and now skills. We're not
+- [12:36] talking about sub aents in this video.
+- [12:37] We're just talking about skills. So we
+- [12:39] created the skills folder. And within
+- [12:41] this folder, right, we see this
+- [12:42] skill.md.
+- [12:44] And every single skill.mmd file should
+- [12:47] be formatted with the name and
+- [12:49] description. Right? It should have a
+- [12:52] name and description. You can see here
+- [12:54] that this one that I've created is
+- [12:56] called brand voice, which is skill
+- [12:59] number one. And then there is a name and
+- [13:01] description. And so the name is just a
+- [13:03] human-friendly title. It can be
+- [13:04] anything. But the crucial part is this
+- [13:07] description because it tells Claude code
+- [13:09] when to use this skill. And so we're
+- [13:13] reaching a point where you can get
+- [13:14] agents to do things with a simple
+- [13:15] markdown file. But what you need to do
+- [13:18] is you need to make sure that you format
+- [13:19] it correctly so Cloud Code knows when to
+- [13:22] follow your instructions. Because
+- [13:24] basically all skills are the way that I
+- [13:27] think about them is they are just SOPs
+- [13:30] or standard operating procedures. SOPs
+- [13:34] for agents. And so right these are
+- [13:37] instructions on what to do in certain
+- [13:39] scenarios. And if you put a high quality
+- [13:42] description, it'll know what instruction
+- [13:45] manual or SOP to use when it needs to do
+- [13:49] a specific task. And so I don't really
+- [13:52] want to use this summarize skill. I
+- [13:54] actually want to create a skill that's
+- [13:56] much more relevant to me. Okay. So I
+- [13:58] just want to show you what I've been
+- [13:59] doing. I've been annotating. I've been
+- [14:02] annotating my Twitter posts because I
+- [14:04] can give these to Claude. I can put
+- [14:07] these in Claude skills so that the agent
+- [14:09] knows how I post. And so I can say short
+- [14:12] video attached to this photo. This is a
+- [14:16] Twitter account that I run by the way
+- [14:18] that helps me grow Vibe Code. And I can
+- [14:20] say um uh senior vibe coder
+- [14:26] is ragebait
+- [14:28] and works. I don't do this often, right?
+- [14:32] Okay. And I just put this directly on
+- [14:34] the image. And it helps me kind of
+- [14:36] annotate my images here. And I'm just
+- [14:39] going to hit I'm just going to exit out.
+- [14:41] Hit save. And we can save all these. And
+- [14:44] so what we can do here is we can just
+- [14:45] take all of these files. We can drag
+- [14:47] them in here. And what I'm going to do
+- [14:49] is I'm just going to put a new skill
+- [14:52] here. And what we can do is we can just
+- [14:55] drag these images in here. Now we're
+- [14:57] going to go to cloud code. I want you to
+- [15:00] replace this uh summarize skill. And
+- [15:03] because this is a folder, right? Uh I
+- [15:07] can just type at summarize, right? I can
+- [15:10] say replace this summarize skill. Uh
+- [15:13] this skill, the whole summarize skill uh
+- [15:16] should be replaced with a Twitter post X
+- [15:20] post skill. This skill should allow the
+- [15:23] agent to create tweets in my style and
+- [15:26] use the images that are in the at new in
+- [15:30] the new skill here folder as a
+- [15:32] reference. So please create that skill
+- [15:37] now. So we're basically going to tell
+- [15:39] cloud code to analyze these images. It's
+- [15:41] going to look for patterns in how I
+- [15:43] speak. And actually one thing I can
+- [15:45] mention, I just hit the backspace.
+- [15:48] Just know the red text in these images
+- [15:53] are annotations. So that's not part of
+- [15:56] the post. These are my annotations to
+- [15:57] you on why I did certain things. So take
+- [15:59] that into consideration when
+- [16:00] constructing this skill, right? So I
+- [16:02] annotated why I did what I did. So this
+- [16:05] gives some extra context to Cloud Code
+- [16:07] and it's going to packages it package it
+- [16:08] as a skill. And so in theory whenever I
+- [16:10] ask for a Twitter post to claude code in
+- [16:12] the future uh within this repo it should
+- [16:15] be able to do it in my style because
+- [16:18] I've given it relevant context. Okay. So
+- [16:20] there you go. It created this skill.md
+- [16:23] file and all it did was analyze all of
+- [16:26] those images. It converted them into
+- [16:29] these uh markdown formats and it
+- [16:32] converted it into a skill. What it
+- [16:35] didn't do is I didn't specify this. Uh
+- [16:38] that was just a temporary folder. Please
+- [16:40] remove that folder, but add those images
+- [16:42] into that skill folder as references
+- [16:45] because this doesn't need to be here.
+- [16:47] This can just go into the skill and
+- [16:50] right. So right now we have two skills.
+- [16:52] We're going to add another skill in just
+- [16:54] a second. So we have one skill and every
+- [16:56] skill needs a claw.md file. So it just
+- [16:59] created this and now it has these
+- [17:01] references that it can use right here.
+- [17:03] What we can do if we want references
+- [17:07] uh to posts
+- [17:10] and we can select all of these and we
+- [17:12] can just like move them in here.
+- [17:14] So we have references and then the
+- [17:17] skill.md file. You need this skill.md
+- [17:19] file, right? And so what we can do, I
+- [17:22] want you to create a markdown file in
+- [17:28] the root. And when I say in the root, I
+- [17:32] mean right there's the the folder that
+- [17:35] we opened up originally which is claude
+- [17:37] code skills. This is the root folder. So
+- [17:39] it should put it in below thecloud
+- [17:42] folder. The dotcloud folder is also in
+- [17:44] the root. The skills folder is in the
+- [17:46] do.cloud folder. Thus not in the root.
+- [17:48] Just wanted to be clear. uh in the root
+- [17:51] and come up with 10
+- [17:55] ideas for the Twitter copy based on my
+- [18:01] last video where I explained Claude
+- [18:07] skills
+- [18:08] should match and then I can uh give it
+- [18:11] that GitHub repo link I mentioned skills
+- [18:16] and explained why it's important.
+- [18:19] important for general use cases for like
+- [18:25] marketing
+- [18:26] and as general agent. Okay. So, let's
+- [18:30] say I made this video because I'm making
+- [18:32] this video right now. What I would
+- [18:33] probably do is feed in the transcript of
+- [18:35] this video and then it would generate 10
+- [18:37] options. So, it would have more context
+- [18:39] of the video we're creating. But since
+- [18:41] I'm making the video right now, I can't
+- [18:43] give it the transcript. Um, but that's
+- [18:45] okay. It's going to create a markdown
+- [18:47] file in the root and it's going to use
+- [18:49] this skill. Okay, so it is done. Okay,
+- [18:52] you'll see that when you see this green
+- [18:55] dot and it shows expost right here. When
+- [18:57] you see this green dot and it has
+- [18:59] expost, that means it's using that
+- [19:02] skill, right? It is using the expost
+- [19:06] skill.
+- [19:08] And we're going to allow it to create
+- [19:09] these files. And boom, Twitter ideas.
+- [19:13] So, here we go. Cloud Code just became a
+- [19:16] general agent, not a chatbot, an agent
+- [19:19] that does your workflows. Enthropic just
+- [19:22] released skills, reusable prompt
+- [19:24] templates, invoke with slash commands,
+- [19:26] marketing teams. Okay, so this is really
+- [19:28] good. Oh my, this shouldn't be possible.
+- [19:31] I turned Claude into my personal
+- [19:33] marketing team. Social media copy on
+- [19:36] demand, email sequences in seconds,
+- [19:38] brand voice locked in permanently. Zero
+- [19:41] prompting every time. How Claude skills
+- [19:44] one markdown file infinite workflows.
+- [19:47] This is very good. So it wrote this in
+- [19:51] my voice using this skill. But it gets
+- [19:54] much cooler than this. So if we were to
+- [19:57] go to um let's go to arc. So we're going
+- [20:01] to go to typefully.com. And in typefully
+- [20:05] we can go to settings and we could go to
+- [20:10] API and we can hit new API key. And so
+- [20:15] this is going to be test key
+- [20:18] for me. Create API key. I'm going to
+- [20:22] delete this right after this video. And
+- [20:25] then what I'm going to do is I'm going
+- [20:26] to click on this docs. And this explains
+- [20:29] exactly how to use this API key. So,
+- [20:31] what I'm trying to do here is I don't
+- [20:33] want it to just come up with ideas. I
+- [20:34] want them to draft them in this tool
+- [20:37] where I can post directly to social
+- [20:39] media. So, in theory, I could have an
+- [20:41] agent uh come up with tweets uh and
+- [20:44] automatically
+- [20:46] draft them within Titefully because
+- [20:48] that's what you can do here on this
+- [20:49] platform, right? We could have it
+- [20:51] directly post this as a um a draft here,
+- [20:56] right? It can schedule a new draft. And
+- [20:58] so, that's exactly what I'm going to
+- [20:59] tell it. So I want you to add to our
+- [21:05] x post skill. I'm using the software
+- [21:09] typley and I want you to instead of
+- [21:11] basically instead of putting these in a
+- [21:12] document, I want you to actually
+- [21:13] directly schedule these as a draft on
+- [21:15] tightfully. And so I am going to give it
+- [21:17] these docs to the API. Here are the docs
+- [21:19] to read. Here is my API key. It is in a
+- [21:22] text file, right? So I don't want to
+- [21:24] expose it. What I'm going to do is I'm
+- [21:26] just going to go I'm going to go key.txt
+- [21:28] txt. I'm going to paste my key right
+- [21:31] here. So, I pasted my key in this file
+- [21:33] and I can just go at key.txt.
+- [21:37] It is here. Please add to the skill
+- [21:41] using claude skills. And I'm going to
+- [21:44] mention this link right here. Please
+- [21:46] make this skill such that it schedules
+- [21:51] it as a draft to this typefully account.
+- [21:57] It should not post or schedule. Okay,
+- [22:01] now we're going to wait for the skill
+- [22:04] called expost to be uh messed with.
+- [22:08] Okay, so it is done. And here we can see
+- [22:11] that your accounts available is Riley
+- [22:15] Brown vibe code vibe coding explained.
+- [22:17] Okay, so this works. Maybe maybe uh
+- [22:21] please test this by um drafting
+- [22:26] one of the items in the list
+- [22:31] that we generated in and then we can
+- [22:35] just go claude skills Twitter ideas.
+- [22:38] Okay. Okay. It looks like it is done. If
+- [22:41] we come back here. Okay. It created
+- [22:44] this, right? It created this on vibe
+- [22:46] coding explained. Okay. Now on the Riley
+- [22:50] Brown account, draft a post that says,
+- [22:56] "Hi, this is a test." Okay, so it's
+- [23:00] done. If we go back to Arc, we go to
+- [23:03] Riley.
+- [23:05] Here we go. We see, "Hi, this is a test.
+- [23:07] This was 34 seconds ago." So that's
+- [23:10] pretty cool. We can have it draft posts.
+- [23:14] I'm going to just reset the context
+- [23:16] here. Um, so we're opening up a new
+- [23:19] cloud instance to reset it, right? We're
+- [23:22] resetting it uh so that there's no
+- [23:24] context in here. And I'm going to say, I
+- [23:27] just created a tightfully
+- [23:30] video that explains how I created a
+- [23:34] Claude code skill in order to uh post on
+- [23:38] all my Twitter accounts via Typefully. I
+- [23:41] want you to draft up three exposts and
+- [23:44] draft them on Typefully on the Vibe
+- [23:46] Coding Explained account. Oops, I
+- [23:48] misspelled it. Typefully
+- [23:52] is the app.
+- [23:55] Okay, so we interrupted it, but it was
+- [23:57] using the Expost skill. It should go
+- [23:58] back to using the Expost skill. Okay, do
+- [24:02] I want to proceed? Yes. Okay, so the
+- [24:06] drafts were created. Oo, it has a link
+- [24:09] associated with it. Wait, what happens
+- [24:11] if we just go to this link? Wow,
+- [24:15] skills repo. It even included that repo.
+- [24:17] No way. You can build custom skills for
+- [24:19] cloud code, automate repetitive
+- [24:21] workflows, create one-click commands,
+- [24:23] share skills across projects. Zero
+- [24:25] coding required. Just dropped a full
+- [24:28] walkth through how to do this. Wow.
+- [24:30] Okay, so it created these posts using
+- [24:33] the typefully or the expost skill and in
+- [24:38] this skill.md file, it has access to
+- [24:42] this code, right? You can it has this
+- [24:44] code that I can that the claude code can
+- [24:46] use to post this on social media. And
+- [24:51] what I need to do now is I need to
+- [24:52] delete my API key because I probably
+- [24:54] exposed it. All right, so there you go.
+- [24:56] We just created a general agent and we
+- [24:59] gave it a skill. And you know what? I
+- [25:01] think that's enough for you to get
+- [25:03] started. I don't want to like go crazy
+- [25:05] and create like an agent swarm or an
+- [25:08] agent with a ton of different skills,
+- [25:10] but we just created a we used claude
+- [25:13] within cursor to create an agent. And
+- [25:15] then we just created one simple skill.
+- [25:17] And this is enough for you to get
+- [25:19] started because as you saw, I just gave
+- [25:21] it the link which I'll put in the
+- [25:23] description to the Claude code skills.
+- [25:25] So claude code can make your skills for
+- [25:27] you and remember you just create you
+- [25:30] know you have the root folder right and
+- [25:32] then within your project you just have
+- [25:34] aclad pro uh folder then you have
+- [25:38] another folder uh which is your skills
+- [25:41] folder and then within that you just
+- [25:44] have the skill name. So this is just
+- [25:46] skill uh skill-1 folder and then in here
+- [25:51] you have a uh a skill
+- [25:55] md file and within that file it will
+- [25:58] have a name and description and cloud
+- [26:02] code will do that for you. Just make
+- [26:03] sure that when you create these skills
+- [26:05] right because you can create many of
+- [26:07] these. You can create skill one which we
+- [26:09] did um and we didn't create more than
+- [26:11] one skill right you can create as many
+- [26:13] skills as you want. I wouldn't go
+- [26:15] overboard, but if you want to create a
+- [26:18] general purpose agent and use Cloud
+- [26:19] Code, this is how you can do it. And you
+- [26:21] can create a bunch of different skills.
+- [26:24] And so, in the description down below
+- [26:25] this video, you'll find a link to a
+- [26:27] webinar. I'm just going to do like a big
+- [26:29] live stream where we're going to create
+- [26:32] a really cool uh agent interface with a
+- [26:35] ton of different skills. We're going to
+- [26:36] do it live. It's going to be like 3 to
+- [26:38] four hours long. And so, if you want to
+- [26:40] sign up for that, that's in the
+- [26:42] description. It's going to be sick. But
+- [26:44] uh yeah, this is just part two of my
+- [26:46] general agent series. I made part one on
+- [26:49] Obsidian and I'm just going to continue
+- [26:50] this because I'm becoming much more
+- [26:52] interested in creating agents with
+- [26:56] skills. And in the future, we're going
+- [26:58] to mix agent skills with also apps.
+- [27:02] We're going to create a little interface
+- [27:04] where we can alternate between using an
+- [27:05] app that we create and the agent and we
+- [27:08] can create things that both me and the
+- [27:10] agent can use. It's going to be like an
+- [27:11] agent interface or an agent workspace.
+- [27:14] And that's what we're going to talk
+- [27:15] about in the next video. Uh so thank you
+- [27:17] guys for watching.

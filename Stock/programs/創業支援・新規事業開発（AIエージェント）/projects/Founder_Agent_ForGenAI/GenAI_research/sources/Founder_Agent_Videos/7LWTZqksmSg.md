@@ -1,0 +1,690 @@
+---
+title: "YouTube Video: 7LWTZqksmSg"
+video_id: "7LWTZqksmSg"
+video_url: "https://www.youtube.com/watch?v=7LWTZqksmSg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  one question that I got asked a lot is can the AI agent gets better and better over time to learn from its past mistake and interactions if the agent you are building is similar to the structure that ...
+key_points:
+  - "running for the first time versus a 100"
+  - "importantly after we deplo AI agents in"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 7LWTZqksmSg
+
+- URL: https://www.youtube.com/watch?v=7LWTZqksmSg
+- Retrieved at: 2025-12-30T09:44:19+09:00
+
+## Text
+
+- [00:00] one question that I got asked a lot is
+- [00:01] can the AI agent gets better and better
+- [00:04] over time to learn from its past mistake
+- [00:06] and interactions if the agent you are
+- [00:08] building is similar to the structure
+- [00:10] that I show here the answer to this
+- [00:12] question at default is no because most
+- [00:14] of the time the agents we're building
+- [00:15] today is dataless which means there's no
+- [00:18] real difference between the agent
+- [00:19] running for the first time versus a 100
+- [00:21] times because it has zero contact about
+- [00:24] what has happened in any other session
+- [00:26] and this kind of sucks if they had some
+- [00:28] past conversation with user where user
+- [00:30] already expressed certain preference
+- [00:32] like I don't eat fish the next time the
+- [00:34] user talk to this agent they expect the
+- [00:37] agent remember the preference that they
+- [00:39] give before and it is really bad
+- [00:40] experience when agent forgot every time
+- [00:42] when we talk to agent it is almost feel
+- [00:44] like start from scratch and that also
+- [00:46] means it is quite hard for you to train
+- [00:48] agent on the specific standard procedure
+- [00:50] for different type of tasks for example
+- [00:52] if the user ask agent to give a summary
+- [00:54] of news and this particular user don't
+- [00:56] really like a specific data source like
+- [00:58] CNN even though the user give very
+- [01:01] explicit instructions the next time when
+- [01:03] it get agent to do similar task it still
+- [01:06] need to give this instruction again
+- [01:08] again cuz agent want really to learn
+- [01:09] about this specific sop and most
+- [01:11] importantly after we deplo AI agents in
+- [01:14] real world there will be millions of
+- [01:15] different edge cases for example I was
+- [01:17] building a meeting schedule agent who
+- [01:19] can coordinate time and book meeting for
+- [01:21] the user and I was expecting user input
+- [01:23] to be like how about next Tuesday 9 a.m.
+- [01:25] C but after deploying real world people
+- [01:28] were prompting the agent in many
+- [01:30] different ways and there were so many
+- [01:31] complex scenario that we didn't expect
+- [01:33] before like the user can be in multiple
+- [01:35] different time zones across a period of
+- [01:36] time if all those iterations are rely on
+- [01:39] human to come in and make adjustments
+- [01:41] this human driven agent iterations is
+- [01:44] almost become a bottleneck for the agent
+- [01:45] to deliver great performance but what if
+- [01:48] we can actually get agent to learn from
+- [01:50] his past interaction remember users's
+- [01:53] preference and even update his own
+- [01:55] system prompt and workflow that can
+- [01:57] deliver pretty amazing results cuz
+- [01:59] imagine you can build a marketing or
+- [02:00] sales agent who can even run AB tasks by
+- [02:03] itself with different prompt style and
+- [02:05] based on external or human feedback to
+- [02:07] automically reflect and improve its
+- [02:09] workflow and prompts so the ability to
+- [02:12] have long-term memory and learn from
+- [02:14] those memories is really powerful and
+- [02:16] what's really fascinating is this
+- [02:18] exactly how human learn as well so
+- [02:20] people normally learn new skills and
+- [02:22] knowledge through this stre that process
+- [02:24] it first require us to pay attention to
+- [02:26] the specific things that we want to
+- [02:28] learn and after we pay attention to
+- [02:30] specific data that we receive then we
+- [02:31] will go through a process where we will
+- [02:33] encode this data into our brain and
+- [02:35] replace this data many many times
+- [02:37] through a process called consolidation
+- [02:39] and at the end of this this piece of
+- [02:41] information became a long-term memory
+- [02:43] that store in our brain but there's one
+- [02:45] cavier if there's some knowledge in your
+- [02:47] memory that you haven't really retrieved
+- [02:49] or used for a very long time those
+- [02:51] information will fade away from your
+- [02:53] long-term knowledge this is where AI
+- [02:54] agent became really interesting because
+- [02:56] this won't be a problem for AI agents
+- [02:58] the data will always be stored there and
+- [03:00] they can be retrieved for the agent
+- [03:01] anytime and this means the amount of
+- [03:03] skills the agent can handle can grow
+- [03:05] exceptionally more than human so instead
+- [03:07] of just a simple conversation between
+- [03:09] the user and agent we can add a new
+- [03:11] workflow to replicate the process of
+- [03:14] creating storing and retrieving
+- [03:16] long-term knowledge so you can have a
+- [03:17] new agent maybe called knowledge agent
+- [03:19] where it will be looking at the
+- [03:21] conversation between the user and agent
+- [03:23] and try to decide is there any
+- [03:25] interesting information that should be
+- [03:26] stored for later retrieval and then this
+- [03:28] knowledge agent can summarize and
+- [03:30] extract specific information store in a
+- [03:33] vector database so that the next time
+- [03:35] when this agent have similar situation
+- [03:37] it can try to do a vector search and
+- [03:39] retrieve relevant information as a
+- [03:41] simple example if there's a conversation
+- [03:43] between the user and agent where the
+- [03:44] user SP said my name is Jason and I
+- [03:47] don't really eat a fish apart from the
+- [03:48] agent answering the question there could
+- [03:50] be a knowledge agent behind the scenes
+- [03:52] look at this conversation and first they
+- [03:54] ask is there any information in the
+- [03:56] message that is worth saving as
+- [03:57] knowledge and if yes it can trigger the
+- [03:59] second tool or process to abstract
+- [04:01] learning and save that as a knowledge
+- [04:03] into our database so it can call a
+- [04:05] function called create knowledge where
+- [04:07] it can pass on the knowledge type to be
+- [04:09] a diary requirement and detail is no
+- [04:11] fish so that next time when the user
+- [04:13] come again to say hey prepare some meal
+- [04:16] plan for me the next week it will be
+- [04:17] able to retrieve relevant knowledge and
+- [04:20] then append this knowledge together with
+- [04:21] the user query pretty much like a rack
+- [04:24] so that the real agent will receive a
+- [04:26] message says the user says prepare the
+- [04:28] meal plan for me and here some some past
+- [04:30] contacts where I don't really eat fish
+- [04:32] so that this time the agent will be able
+- [04:34] to respond with this preference in mind
+- [04:36] and this at high level how you can build
+- [04:38] long-term memory for your agent system
+- [04:40] and this probably a oversimplified
+- [04:42] version and behind the scenes there a
+- [04:43] huge amount of optimization that need to
+- [04:45] happen to make this production ready for
+- [04:47] example it probably take a lot of time
+- [04:49] to do this process for every single
+- [04:51] message come in and you don't really
+- [04:53] want to add too much latency to the user
+- [04:55] experience so that you can add
+- [04:56] optimization have a cheaper and faster
+- [04:59] model to firstly check is there anything
+- [05:01] interesting that wordss to convert into
+- [05:03] knowledge if no then skip this knowledge
+- [05:05] process if yes then go through this
+- [05:07] process and same thing when the agent
+- [05:09] receive a new query from user it can
+- [05:11] also have a cheaper and faster model
+- [05:14] like hiu or mro to quickly check is
+- [05:17] there any relevant information that
+- [05:19] require a retrieval this time if yes
+- [05:21] then do a PO rack if no then just answer
+- [05:23] the question right away and as the user
+- [05:25] has more and more interactions this
+- [05:27] knowledge base will became huge too so
+- [05:29] we can do additional optimization like
+- [05:31] if the knowledge and data is not used
+- [05:33] much for the past 6 months then move
+- [05:35] that to a co- storage so you can reduce
+- [05:37] the vector database cost and those are
+- [05:39] just some simple implementations there
+- [05:41] was one project last year called MIM GPT
+- [05:44] which represent for memory GPT so prompt
+- [05:47] token of large langage model in M GPT
+- [05:50] will be break down into three parts one
+- [05:52] is a system instruction which is like
+- [05:54] system prompt that don't really change
+- [05:56] the second is working contact is where
+- [05:58] they will retrieve from the L longterm
+- [06:00] memory which they call archive storage
+- [06:02] and they have a Q manager to achieve
+- [06:04] some sophisticated prioritization about
+- [06:06] what information to be put into the
+- [06:07] prompt token for example in a
+- [06:09] conversation like this where the agent
+- [06:11] asked how was your day today and the
+- [06:13] user said my boyfriend jams baked me a
+- [06:15] birthday kick then the agent will
+- [06:17] trigger a function to adding some
+- [06:19] working contacts which is birthday is
+- [06:21] February 7th and boyfriend name is gems
+- [06:24] and in later conversation where the
+- [06:26] agent asked did you do anything else to
+- [06:28] celebrate your birthday and the user
+- [06:30] says yeah we went to Six Flags then
+- [06:32] agent will try to retrieve past
+- [06:34] conversation that is related to Six Flag
+- [06:36] where the user actually mentioned Jims
+- [06:39] which is their boyfriend and I actually
+- [06:41] first met at Six Flags then agent will
+- [06:43] be able to generate response said did
+- [06:45] you go with gems it's so cute how both
+- [06:47] you met there and if a couple months
+- [06:49] later where the agent was asking how
+- [06:51] gems doing any special plan today and
+- [06:53] the user respond actually James and I
+- [06:56] broke up then this agent will start
+- [06:58] updating it knowledge based
+- [07:00] where update gems as X brend instead of
+- [07:03] brend so you can see how this longterm
+- [07:05] memory really change experience for the
+- [07:07] user and this similar setup is also
+- [07:09] introduced in chat GPT for some beta
+- [07:11] user where they also have very simple
+- [07:13] and basic memory management and this
+- [07:15] also much more than just remember
+- [07:17] users's preference I was using similar
+- [07:19] method for enhancing the customer
+- [07:21] support agent so if you ever build
+- [07:23] customer support agent One Challenge is
+- [07:25] that in real world the question user
+- [07:27] asks can often require knowledge that
+- [07:28] not exist list in the original data sets
+- [07:31] so what I did was Implement a process
+- [07:34] where if a user ask a question their
+- [07:35] customer support agent can't answer at
+- [07:37] the beginning it can escalate to the
+- [07:39] manager which is human and the human can
+- [07:41] give instruction back to agent and
+- [07:43] support agent will be able to answer
+- [07:45] users questions but behind the scenes it
+- [07:47] will also try to extract this new
+- [07:49] knowledge and update into their own
+- [07:51] knowledge base so that next time when
+- [07:53] something similar happen it can retrieve
+- [07:55] this knowledge to answer the question
+- [07:56] and on the other hand I remember I saw a
+- [07:59] part last year where they showcase a
+- [08:01] truly self-evolving agent system it is
+- [08:03] project that has short name called c n
+- [08:06] which represents continuously learning
+- [08:08] language agent so they put agent into a
+- [08:11] simulated environment where an item in
+- [08:14] this world actually follows the real
+- [08:15] world science and physics and the AI
+- [08:17] agent in this world can interact with
+- [08:19] different item like if you put a fire on
+- [08:21] the wood then it will fire up but if you
+- [08:23] put a pot of water on this firewood then
+- [08:26] the water will boil so it's simulation
+- [08:28] environment for the AG to interact with
+- [08:30] the word and the goal of this project is
+- [08:32] they want to build a agent system who
+- [08:34] can continuously learn about this word
+- [08:37] by interact with it CU once you can
+- [08:38] build such continuously learning agent
+- [08:41] system you can just put that into any
+- [08:43] digital simulation world like in a
+- [08:44] totally different game like Minecraft or
+- [08:46] GTA you can just start learning by
+- [08:48] interacting with the world and what I
+- [08:50] found really interesting is the way they
+- [08:52] set it up so this agent will be given
+- [08:54] different type of tasks like it might be
+- [08:56] given a task called grow and orange then
+- [08:58] the agent will start doing this task by
+- [09:00] bringing down into different actions
+- [09:02] they can take observing results and
+- [09:04] decide next step and even though in the
+- [09:06] end for the first try the agent didn't
+- [09:08] really complete this task but there are
+- [09:10] certain progress it made for example
+- [09:11] when it went to Kitchen it actually
+- [09:13] found a seed which is necessary to
+- [09:15] Growing orange then it will try to
+- [09:17] reflect in the end of this trial and get
+- [09:19] a learning that going to Kitchen may be
+- [09:21] necessary to find the seats and this
+- [09:23] information will be fair to agent the
+- [09:24] next time it tried to complete the same
+- [09:26] task so this time it will retrieve
+- [09:28] knowledge that going to Kitchen may be
+- [09:30] necessary to find a seed so that it go
+- [09:32] to kitchen right away and in the end in
+- [09:34] the second trial it actually complete
+- [09:36] task and again it will try to reflect
+- [09:38] gener knowledge this time it find not
+- [09:40] only going to Kitchen may be necessary
+- [09:42] to find seeds but also moving seeds to
+- [09:44] the pot may be necessary for planting
+- [09:46] the seeds and with this new knowledge it
+- [09:48] can complete the task even faster next
+- [09:50] time and with similar methods the agent
+- [09:52] will try to complete similar task to
+- [09:54] many different environments for multiple
+- [09:56] times you will look at all the session
+- [09:58] it have every down and Abstract General
+- [10:01] learnings that can be adopt across
+- [10:03] different task and different
+- [10:04] environments for example it might get
+- [10:06] learning from different sessions
+- [10:07] initially using a lighter on the metal
+- [10:10] pot should be necessary to heat the
+- [10:12] water in the pot in a different trial in
+- [10:14] my find turning on the stove should be
+- [10:16] necessary to create a heat source and
+- [10:18] with those two learnings it will try to
+- [10:20] generalize a new learning that using a
+- [10:22] heat Source like stove or lighter on the
+- [10:24] container should be necessary to heat a
+- [10:27] substance so with this process you can
+- [10:29] see see that agents start really
+- [10:30] developing an understanding of how the
+- [10:32] world works as well as abstract learning
+- [10:35] that can be used across multiple
+- [10:36] different task and different
+- [10:37] environments so we have talked a lot
+- [10:39] about different concepts and methods in
+- [10:42] term of creating agent long-term memory
+- [10:43] I'm going to show you a quick example of
+- [10:46] how can you create long-term memory into
+- [10:47] your agents in just 10 minutes but
+- [10:49] before I dive into this I think most of
+- [10:52] us here believe AI going to
+- [10:53] fundamentally change how we use software
+- [10:56] but actually design a good AI native
+- [10:58] product is really hard one of the
+- [10:59] platform that have the best AI native
+- [11:01] experience in my opinion is gamma so
+- [11:03] gamma is an AI native slide deck and
+- [11:06] website builder where they resin the
+- [11:07] whole workflow of building slide deck
+- [11:09] and website and big AI into every part
+- [11:12] of the journey the part I love the most
+- [11:14] is how they design experience where the
+- [11:16] AI agent and human actually collaborate
+- [11:18] together here is a quick example so you
+- [11:20] can visit gamma. apppp to create account
+- [11:22] for free and let's say I want to create
+- [11:23] slide deck about history of large
+- [11:25] langage model I can just click on this
+- [11:27] create with AI button select generate
+- [11:29] select the presentation but you can also
+- [11:31] choose website or documents and type in
+- [11:33] the history of large language model and
+- [11:36] click generate outline so instead of
+- [11:38] getting the AI to creating the whole
+- [11:39] slide deck autonomously they introduce a
+- [11:42] aligning stage where the AI will firstly
+- [11:44] propose a list of outline of the slide
+- [11:46] deck and the user can just come here and
+- [11:48] make Chang then you can also set up how
+- [11:50] text Heavy it should be as well as the
+- [11:52] image source you can even click on
+- [11:54] advanced mode where you will have a lot
+- [11:55] more control like voice and tones as
+- [11:58] well as additional prompts that you want
+- [11:59] to add in if everything looks right I
+- [12:01] can click on continue choose a same then
+- [12:03] you start getting to this amazing
+- [12:04] experience where the AI is actually
+- [12:06] creating the whole slide deck in front
+- [12:08] of your life where it will draft the
+- [12:09] whole content and also insert image and
+- [12:12] you can see the content here is not just
+- [12:13] simple placeholder it actually write
+- [12:15] content based on the instruction it was
+- [12:17] given and in just 10 seconds a
+- [12:19] beautifully designed slide deck is
+- [12:20] already created and if I want to make
+- [12:22] change I can either do it manually or I
+- [12:24] can click on this addit with AI button
+- [12:26] where they have this co-pilot build in
+- [12:29] for them slide that I want to make
+- [12:30] change and then say I want to turn this
+- [12:33] into a timeline view and add a bit more
+- [12:37] details then boom it became a timeline
+- [12:39] view that is beautifully deled as well
+- [12:42] and you might also want to update some
+- [12:43] image where I can just click on image
+- [12:45] and click on edit I can just change the
+- [12:46] promt that I want or I can just search
+- [12:48] cross web and same same for the tax as
+- [12:50] well if the taex here is a bit too
+- [12:52] technical I can just say rewrite this
+- [12:54] slide content for a 5-year-old and now
+- [12:57] all the content is much easier to
+- [12:58] understand with a lot of analogy so I
+- [13:00] think gamma set a really good example of
+- [13:03] how a AI native experience should look
+- [13:05] like I definitely recommend you go and
+- [13:07] check out you can click on the link
+- [13:08] below to try out gamma for free now
+- [13:10] let's dive into how can we Implement
+- [13:12] longterm memory into your agents the
+- [13:14] good thing is it's actually very easy
+- [13:16] there are many different ways you can
+- [13:17] Implement long-term memory into your
+- [13:19] agent in less than 10 minutes including
+- [13:21] some open source version and I'm going
+- [13:23] to quickly show you so they are host
+- [13:25] solution like zap which you can
+- [13:26] basically use their API and point SDK to
+- [13:29] store the long-term memory and they
+- [13:31] really optimize for Speed and memory
+- [13:33] index to improve the memory retrieval
+- [13:35] accuracy but there are some cost coming
+- [13:37] with using zap if your volume become
+- [13:39] bigger and bigger on the other hand
+- [13:41] there are video from deploying AI which
+- [13:43] is not AI YouTube channel where he
+- [13:45] showcase a very detailed how to create a
+- [13:47] memory agent from scratch where the
+- [13:49] agent can just have his long-term memory
+- [13:51] about users's preference so I definitely
+- [13:53] recommend go ahead watch if you want to
+- [13:55] implement from scratch but if you're
+- [13:57] using framework like Auto already this
+- [14:00] extremely easy way for you to add La
+- [14:02] memory to your agent because they
+- [14:03] introduce a concept of teachable Agents
+- [14:06] which is very similar set part to what
+- [14:07] we have discussed so far basically it a
+- [14:09] special ability that you can add to any
+- [14:11] autogen agent and there will be a tax
+- [14:14] analyzer agent who can review the
+- [14:16] conversation extrapolate knowledge and
+- [14:18] save to the vector database as I
+- [14:20] mentioned the setup extremely easy I'm
+- [14:22] going to show you how can you add
+- [14:23] longterm memory to your auto agent in
+- [14:25] just 5 minutes so I open Visual Studio
+- [14:28] code and then add a new file called oi
+- [14:30] config list inside I will just paste in
+- [14:32] gbd4 model so if you're using autogen
+- [14:35] and you have a list of different models
+- [14:36] you can just save your model
+- [14:37] configuration here to be reused and then
+- [14:39] I will also create a file called EMV
+- [14:42] this is where we're going to save the
+- [14:43] environmental variable like open AI API
+- [14:46] keys so I will put open AI API key here
+- [14:48] and also I'm going to add another one
+- [14:50] called tokenizer parallelism to be false
+- [14:53] so this is something we're going to use
+- [14:54] later for those teachable agent to
+- [14:56] remove some noise in the conversation
+- [14:58] and after after doing this I create
+- [15:00] another file called app.py so first
+- [15:02] let's making sure you install the
+- [15:04] teacher B which is a new ability that
+- [15:05] you can add to your agent for longterm
+- [15:07] memory so I'll do pip install teachable
+- [15:10] and after I finish I can close this our
+- [15:12] first to import a few different
+- [15:14] libraries we're going to use from
+- [15:15] autogen and one of them is this one
+- [15:17] called ability and this new ability that
+- [15:19] they add for longterm memory and if you
+- [15:21] are seeing something similar like M
+- [15:23] which is showing some arrow for the
+- [15:25] package we're importing that means you
+- [15:27] probably are on the wrong environment
+- [15:29] and if you're on Mac you can do command
+- [15:31] shift p and do select interpretor and
+- [15:34] choose right one you're using for me it
+- [15:36] will be this user local being python
+- [15:37] stre after you choose the right
+- [15:39] environment then this warning will go
+- [15:40] away and also I'm going to load Dov and
+- [15:44] this will basically rate the environment
+- [15:45] variables that we save inmv file and
+- [15:48] next I'm going to load the large Lage
+- [15:50] model config so that we can Define the
+- [15:52] model for the agent to use and next step
+- [15:54] is I will create an agent called
+- [15:56] teachable agent and as you can see here
+- [15:59] this is just normal conversible agent
+- [16:01] teachability is an ability that you can
+- [16:03] add to any agent so I'm going to
+- [16:05] instance a teachability object so t
+- [16:07] equal to teachability which is the one
+- [16:09] that we import from this new auto
+- [16:12] library and reset DB to be false this
+- [16:15] means every time we will reuse the
+- [16:16] existing knowledge database that we
+- [16:18] created before and then this is passed
+- [16:20] to the knowledge database then I try to
+- [16:22] add this teachability to the teachable
+- [16:24] agent that we created before and that's
+- [16:26] pretty much it now we can add a user
+- [16:28] proxy agent and start the conversation
+- [16:30] okay looks like we have some Arrow
+- [16:32] because at default it is running on
+- [16:34] Docker and we didn't have Docker running
+- [16:36] so you can either open Docker if you
+- [16:38] already have the installed or we can go
+- [16:40] back to Dov file and then set autogen
+- [16:43] use Docker equal to false and save this
+- [16:45] and then let's run again python app.py
+- [16:48] okay great so you can see they ask for
+- [16:51] my information and also create a new
+- [16:53] file called tempt which inside here it
+- [16:55] has a chroma Vector database created
+- [16:58] temp this is where it will create a
+- [17:00] vector database for us to store the
+- [17:02] longterm memory so I will say Jason I
+- [17:05] don't eat fish and as you can see here a
+- [17:07] database actually has been created it
+- [17:09] says I have noticed that you don't eat
+- [17:11] fish I remember this information for
+- [17:13] future interactions especially doing me
+- [17:16] stretches and if I exit and then try to
+- [17:18] run again python f.y this time I'm going
+- [17:21] to ask give me the mail plan for the
+- [17:23] next week and you can see so it generate
+- [17:25] a mail plan for the whole week and I
+- [17:28] double checked this no fish involved in
+- [17:30] this smil plan which is pretty good and
+- [17:32] I can even ask why there is no fish so
+- [17:35] it remember my name I didn't mention my
+- [17:38] name in this conversation at all and
+- [17:40] then it says I didn't include any fish
+- [17:42] in the mail plant because you previous
+- [17:43] mentioned that you don't eat fish so
+- [17:45] here we go we got this agent working in
+- [17:48] just 5 minutes that actually remember
+- [17:49] your preference and can learn from the
+- [17:51] past interactions and we can learn more
+- [17:53] about how it work exactly by command and
+- [17:56] click teachability so you can see this's
+- [17:58] one class called teachability and if you
+- [18:00] scroll down there are a few different
+- [18:01] components and if you command click memo
+- [18:04] store you will see that memo store is a
+- [18:06] class that it created for the agent to
+- [18:08] interact with the memory knowledge base
+- [18:10] which database it pack a few different
+- [18:12] functions for updating retrieving
+- [18:15] creating the database and at default it
+- [18:17] is using the chroma if you want to use
+- [18:19] different type of DB you can create a
+- [18:21] sub class for this store if you scroll
+- [18:23] down you can also see that it create a
+- [18:25] text analyzer agent if you command click
+- [18:28] on that you will see that this text
+- [18:30] agent is a subass of conversible agent
+- [18:32] so the user will give it a text to
+- [18:34] analyze instructions and please follow
+- [18:36] instruction and give the result back so
+- [18:38] this is pretty much it does it will be
+- [18:40] given some an instruction and it will
+- [18:42] try to analyze return the result based
+- [18:44] on so I'm going to close this and get
+- [18:46] back to teachability and you can see
+- [18:48] that it also add a new system prompt to
+- [18:50] the agent that says you've been given
+- [18:53] special ability to remember user
+- [18:55] teachings from PR conversations there's
+- [18:57] one function called storage so this a
+- [19:00] function that will be triggered at the
+- [19:02] end of each agent session where we will
+- [19:04] pass on every single message line by
+- [19:06] line to this function to decide if a
+- [19:08] message contain any interesting
+- [19:10] information that should be stored into
+- [19:12] our knowledge database so it refers to
+- [19:14] send the message to the text analyzer
+- [19:17] and ask is there any part of text that
+- [19:19] ask agent to perform a task or solve a
+- [19:22] problem just return yes or no if the
+- [19:24] answer is yes then ask text analyzer to
+- [19:27] now briefly copy any advice from the
+- [19:30] text that may be used for similar but
+- [19:32] different task in future if no advice
+- [19:35] present just return no if the response
+- [19:37] is n which means it actually has advice
+- [19:39] and it will ask text analyzer again to
+- [19:42] briefly copy just a task from text then
+- [19:45] stop don't solve it just include any
+- [19:46] advice so this will basically extract
+- [19:48] actual advice and they also try to ask
+- [19:51] test analyzer to figure out what type of
+- [19:53] task it is because in the end it
+- [19:55] actually want to generate task advice or
+- [19:57] problem solution pair in the vector
+- [19:59] database so this one is about generating
+- [20:02] the title or name of task itself then it
+- [20:05] will save this pair to our database and
+- [20:07] on the other hand it'll also try to
+- [20:08] check if there are any facts or
+- [20:10] information that need to be learned to
+- [20:12] our database so it will do something
+- [20:14] very similar but different prompt this
+- [20:15] time it will ask does the text contain
+- [20:17] any information that could be committed
+- [20:19] to memory answer just one word yes or no
+- [20:22] and if yes imagine that user forgot
+- [20:24] about this information in the text how
+- [20:26] would you ask for this information so
+- [20:28] this will B B come up with a question
+- [20:29] that we're going to store in the
+- [20:31] database and then it will ask a text
+- [20:33] analyzer to generate the answer itself
+- [20:35] in the end save this question answer
+- [20:36] pair into our database so this is
+- [20:39] storage and this function is pretty
+- [20:41] heavy as you can see CU it called the
+- [20:43] text analyzer agent multiple times but
+- [20:45] it only be wrong once in the end of
+- [20:47] conversation and this is a function that
+- [20:49] actually will be called every time to
+- [20:51] check if there's any information that
+- [20:53] need to be retrieved and sent to agent
+- [20:55] as part of context so again it will sent
+- [20:57] to text analyis to check does this user
+- [20:59] query ask agent to perform task or solve
+- [21:02] problem if yes then it will try to
+- [21:04] extract the actual task context and also
+- [21:07] quite interesting it were asked to come
+- [21:09] up with a generalized task title because
+- [21:11] we're going to do a knowledge retrieval
+- [21:13] so a more generalized task title can
+- [21:15] lead to more accurate retrieval result
+- [21:17] and then it will call this retrieve
+- [21:18] relevant memos and append this results
+- [21:21] after the user query as part of context
+- [21:23] so this is basically how it achieve this
+- [21:25] teachable with longterm memory it has
+- [21:27] few quite interesting abstraction about
+- [21:30] how to do this retrieval and how to
+- [21:32] decide whether this new knowledge to be
+- [21:34] saved if you're interested you can even
+- [21:36] customize this class a little bit based
+- [21:38] on your own needs for example as we
+- [21:40] mentioned before you can actually do a
+- [21:41] lot of optimization to reduce the
+- [21:43] latency and saving the cost but this is
+- [21:45] how easy you add long-term memory into
+- [21:47] your agent today as you can see I
+- [21:49] definitely think this long-term memory
+- [21:51] is ability that we should start more
+- [21:53] agent Builder should include into your
+- [21:55] agent stack and very interesting to see
+- [21:57] if this actually start any new
+- [21:59] interesting use case I'm going to
+- [22:01] continue posting interesting AI I'm
+- [22:03] doing especially with AI agents so
+- [22:05] please comment and subscribe if you want
+- [22:07] to get updates thank you and I see you
+- [22:09] next time

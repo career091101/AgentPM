@@ -1,0 +1,1891 @@
+---
+title: "Today, my partner Jordan and I have a special episode of Unsupervised Learning, a crossover with one of our favorite AI"
+video_id: "P6y0gr-W2-k"
+video_url: "https://www.youtube.com/watch?v=P6y0gr-W2-k"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Today, my partner Jordan and I have a special episode of Unsupervised Learning, a crossover with one of our favorite AI podcasts, Latace
+  If you're not already a listener, Laton Space is a technical newsletter and podcasts by and for AI engineers
+  It had over 2 million downloads in 2024, and it's become a go-to resource for anyone who wants to understand the cutting edge of AI infrastructure, tooling, and product
+key_points:
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:45:12+09:00"
+---
+
+# Transcript: P6y0gr-W2-k
+
+- URL: https://www.youtube.com/watch?v=P6y0gr-W2-k
+- Retrieved at: 2025-12-30T10:45:12+09:00
+
+## Text
+
+- [00:00] Today, my partner Jordan and I have a
+- [00:01] special episode of Unsupervised
+- [00:02] Learning, a crossover with one of our
+- [00:04] favorite AI podcasts, Latace. If you're
+- [00:06] not already a listener, Laton Space is a
+- [00:08] technical newsletter and podcasts by and
+- [00:10] for AI engineers. It had over 2 million
+- [00:13] downloads in 2024, and it's become a
+- [00:14] go-to resource for anyone who wants to
+- [00:16] understand the cutting edge of AI
+- [00:17] infrastructure, tooling, and product. If
+- [00:19] you like this show, it's definitely
+- [00:20] worth checking out. Given we've all
+- [00:22] spent a lot of time talking to some of
+- [00:23] the sharpest minds in AI, we thought
+- [00:25] it'd be fun to interview each other. In
+- [00:27] this episode, we dig into the questions
+- [00:28] we're constantly thinking about. What
+- [00:30] surprised us most last year, what we're
+- [00:31] paying most attention to right now, how
+- [00:33] we think about defensibility at the app
+- [00:35] layer, and which public companies we're
+- [00:36] long or short on. It's a different kind
+- [00:38] of episode, and I think you'll really
+- [00:40] enjoy it. Now, here's my conversation
+- [00:41] with Swix and Allesio from Late in
+- [00:43] Space.
+- [00:45] Well, thanks so much for doing this,
+- [00:46] guys. I feel like we've uh we've been
+- [00:47] excited to do a collab uh for a while. I
+- [00:49] love crossovers. Yeah, this this is
+- [00:51] great. Like the ultimate meta about just
+- [00:53] podcasters talking to other podcasters.
+- [00:55] Yeah. So, podcast all the way up. I
+- [00:57] figured we'd have a pretty freeranging
+- [00:58] conversation today. Um, but brought a
+- [01:00] few conversation starters to to to kick
+- [01:02] us off and so I figured one interesting
+- [01:04] place to start is uh, you know,
+- [01:06] obviously it feels like this world is
+- [01:07] changing like every few months.
+- [01:08] Wondering as you guys reflect past on
+- [01:10] the past year like what surprised you
+- [01:12] the most? I think definitely recently
+- [01:14] models we kind of on the on the right
+- [01:16] year. We're like oh that well I I think
+- [01:19] there's there's like the what surprised
+- [01:20] us in a good way may maybe in a in a bad
+- [01:23] way. I would say in a good way recently
+- [01:25] models and um I think the release of
+- [01:27] them right after the new rep's skilling
+- [01:29] is dead talk by Ilia. I think there was
+- [01:31] maybe like a a little it's so over and
+- [01:34] then we're so back in like such a short
+- [01:36] short periuitous timing like right as
+- [01:38] pre-training died. I mean obviously I'm
+- [01:39] sure within the labs they knew
+- [01:41] pre-training was dying and had to find
+- [01:42] uh something but you know from the
+- [01:44] outside it was uh it felt like one right
+- [01:46] into the other. Yeah. Yeah. Exactly. So
+- [01:48] that that was a good surprise. I would
+- [01:50] say if you want to make that comment
+- [01:51] about timing, I think it's suspiciously
+- [01:53] neat that like because we know that
+- [01:56] Strawberry was being worked on for like
+- [01:57] two yearsish. Um like we know exactly
+- [01:59] when Gnome joined OpenAI and that was
+- [02:01] obviously a big strategic bet by OpenAI.
+- [02:04] Um so like for it to transition so
+- [02:07] transition so nicely when like
+- [02:08] pre-training is kind of tapped out to
+- [02:10] into like oh now inference time is is
+- [02:12] the new scaling law is like con very
+- [02:15] convenient. I I I like if there were an
+- [02:17] Illuminati, this would be what they
+- [02:19] planned or a simulation or something.
+- [02:23] Yeah. Then you said open source as well.
+- [02:25] Yeah. Well, no, I I think like open
+- [02:26] source. Yeah. We're discussing this on
+- [02:28] the negative. I would say the relevance
+- [02:30] of open source. I was specifically open
+- [02:32] models. Yeah. I was surprised by the
+- [02:34] lack um by the lack of adoption and I
+- [02:37] mean people use it obviously, but I
+- [02:39] would say nobody's really like a huge
+- [02:41] fanboy, you know. I think the local
+- [02:42] llama community and some of the more
+- [02:44] hobbyist use cases really like it, but
+- [02:46] when we talk to like enterprise folks,
+- [02:48] it's like it's cool, you know, and I
+- [02:50] think people love to argue about
+- [02:52] licenses and all of that, but the
+- [02:54] reality is that it this didn't really
+- [02:55] change the adoption path of of AI. So
+- [02:59] yeah, the specific stat that I got from
+- [03:01] Anker from Brain Trust in one of the
+- [03:03] episodes that we did was I think he
+- [03:05] estimated that open- source model usage
+- [03:08] in work in enterprises is at like 5% and
+- [03:11] going down. I it feels like you're
+- [03:12] basically all these enterprises are in
+- [03:14] like use case discovery mode where it's
+- [03:15] like let's just take what we think is
+- [03:16] the most powerful model and figure out
+- [03:18] if we can find anything that works and
+- [03:19] you know so much of of of it feels like
+- [03:21] discovery of that and then right as
+- [03:22] you've discovered something a new
+- [03:24] generation of models are out and so you
+- [03:25] have to go do discovery with those and
+- [03:27] um you know I think obviously we're
+- [03:28] probably optimistic that the uh that the
+- [03:30] open source uh models increase in
+- [03:32] uptake. It's funny I was going to say my
+- [03:33] biggest surprise in the last year was
+- [03:34] open source related but it was just how
+- [03:36] fast open source caught up on the reason
+- [03:37] models. It was kind of unclear to me
+- [03:39] like over time whether there would be
+- [03:41] you know a compounding advantage for
+- [03:43] some of the closed source models where
+- [03:44] in okay in the early days of of scaling
+- [03:46] um you know there was a tight time loop
+- [03:48] but over time you know would uh would
+- [03:50] the gap increase and if anything it
+- [03:52] feels like trunk um you know and I think
+- [03:54] uh deepse specifically was just really
+- [03:56] surprising and how you know in many ways
+- [03:58] if the value of these model companies is
+- [04:00] like you have a model for a period of
+- [04:01] time and you're the only one that can
+- [04:02] build products on top of that model
+- [04:04] while you have it like god that time
+- [04:05] period is a lot shorter than uh than I
+- [04:07] thought it was going to be a year ago.
+- [04:08] Yeah. Um I mean again I I don't like
+- [04:11] this label of how fast open source
+- [04:13] caught up because it's really how fast
+- [04:14] Deep Seek caught up, right? And now we
+- [04:16] have like I think some evidence that
+- [04:18] DeepC is basically going to stop open
+- [04:19] sourcing models. So like there's no team
+- [04:22] open source. There's just different
+- [04:24] companies and they choose to open source
+- [04:25] or not. And um we got lucky with Deep
+- [04:28] Seek releasing something and then
+- [04:30] everyone else is basically distilling
+- [04:32] from DeepSeek and that those are
+- [04:33] distillations catching up is such an
+- [04:36] easier lower bar than like actually
+- [04:38] catching up which is like you you like
+- [04:40] from scratch you're training something
+- [04:42] that like is competitive on that front.
+- [04:44] I don't know if that's happening like
+- [04:45] basically the only player right now is
+- [04:46] we're waiting for llama 4. I mean it's
+- [04:48] always an order of magnitude cheaper to
+- [04:50] replicate what's already been done than
+- [04:52] to create something fundamentally new.
+- [04:54] And so that's why I think DeepSk overall
+- [04:55] was overhyped, right? I mean, obviously
+- [04:57] it's a good open- source new entrant,
+- [04:59] but at the same time, there's nothing
+- [05:00] new fundamentally there other than sort
+- [05:02] of doing it, executing what's already
+- [05:04] been done really well. Yeah. Right. So,
+- [05:06] well, but I think the traces is is like
+- [05:08] maybe the biggest thing. I think most
+- [05:10] previous open models is like the same
+- [05:12] model just a little worse and cheaper.
+- [05:15] Yeah. Like R1 is like the first model
+- [05:17] that had the full traces. So, I think
+- [05:19] that's like a net unique thing in open
+- [05:21] source. But yeah, I think like we talked
+- [05:22] about deepseek in the our end of year
+- [05:25] 2023 recap and we're mostly focused on
+- [05:28] um cheaper inference like we didn't
+- [05:30] really have deep v3 was out then and we
+- [05:32] were like there was already like talking
+- [05:34] about fine green uh makeshift experts
+- [05:36] and all that. Like that's a great
+- [05:36] receipt to have to be like yeah end of
+- [05:38] year. Yeah, that's a that's that's an
+- [05:41] impressive one. You follow the right
+- [05:42] whale believers on Twitter. It's it's
+- [05:45] like pretty obvious. I actually had like
+- [05:47] uh so you know I used to be in finance
+- [05:48] and and a lot of my hedge fund and PE
+- [05:51] friends called me up. They were like why
+- [05:52] didn't you tip us off on DeepSeek? And
+- [05:54] I'm like well I mean it's been there.
+- [05:57] It's actually like kind of surprising
+- [05:58] that like Nvidia like fell like what 15%
+- [06:01] in one day uh because Deepseek and uh I
+- [06:04] I think it's just like whatever the
+- [06:05] market public market narrative decides
+- [06:08] is a story becomes the story. But really
+- [06:10] like the technical movements are usually
+- [06:11] one to two years in the making before
+- [06:13] that. Basically, these people were
+- [06:14] telling on themselves that they didn't
+- [06:15] listen to your podcast. They've been on
+- [06:17] the end of year 20. No, no, no. Like,
+- [06:19] yeah, we weren't we weren't like banging
+- [06:20] the drum. So, like it's also on us to be
+- [06:22] like, "No, like this this is an actual
+- [06:24] tipping point." And I think I like as
+- [06:26] people who are like our function as
+- [06:28] podcasters and industry analysts is to
+- [06:31] raise the bar or focus attention on
+- [06:33] things that you think matter and
+- [06:34] sometimes we're too passive about it.
+- [06:35] And I think I was too passive there. I'd
+- [06:38] be happy to own up on No, I feel like
+- [06:39] over time uh you guys have moved into
+- [06:41] this more interesting role of like
+- [06:42] taking stances of things that are or
+- [06:44] aren't important and you know uh now I
+- [06:46] feel like you've done that with MCP of
+- [06:47] late and a bunch of things. Yeah. Uh so
+- [06:49] like the general push is AI engineering
+- [06:50] you know like got to got to rep the
+- [06:52] shirt. Um and MCP is part of that but
+- [06:54] like the the general movement is what
+- [06:56] can engineers do uh above the model
+- [06:58] layer to uh augment model capabilities.
+- [07:01] And it turns out it's a lot. And turns
+- [07:03] out we went from like making fun of GPT
+- [07:05] rappers to now I think the overwhelming
+- [07:07] consensus GPT rappers is the only thing
+- [07:08] that's interesting. Yeah. I remember
+- [07:11] like Arvin from Perplexity came on our
+- [07:12] podcast and he was like I'm proudly a
+- [07:14] rapper. Like you know it's like anyone
+- [07:15] that's like talking about like you know
+- [07:17] differentiation like pre-product market
+- [07:19] fit is like a ridiculous thing to to say
+- [07:21] like build something people want and
+- [07:22] then over time you can kind of worry
+- [07:24] about that. Yeah. I I interviewed him in
+- [07:25] 2023 and I think he may have been the
+- [07:27] first person on our podcast to like
+- [07:28] probably be a GPT rapper. Yeah. And um
+- [07:31] yeah, obviously he's built a huge
+- [07:32] business on that. Totally. Now, now we
+- [07:34] uh now we all can't get enough of it. I
+- [07:35] have another one for uh so that was
+- [07:37] Allesio's one and we we prepped
+- [07:39] individual answers just to be
+- [07:40] interesting in the same Uber on the way
+- [07:42] up. You just like in in different I was
+- [07:44] driving too. So it was like actually I
+- [07:46] mean it was a test mostly.
+- [07:49] Uh mine was actually it's interesting
+- [07:51] that low code builders did not capture
+- [07:53] the AI builder market, right? AI
+- [07:55] builders being B lovable, local builders
+- [07:57] being Zapier, Air Table, Retool, Notion,
+- [08:01] any of those like when you're not
+- [08:03] technical, you can build software. Yeah.
+- [08:04] Uh somehow not all of them missed it.
+- [08:07] Why?
+- [08:09] It's bizarre. Like they should have the
+- [08:11] DNA. I don't know. They should have they
+- [08:13] already have the reach. They already
+- [08:14] have the the distribution. Like why? I
+- [08:16] have no idea. The ability to fast follow
+- [08:18] too. Like I'm surprised. Yeah. There's
+- [08:20] just nothing. Yeah. What do you make of
+- [08:22] that? uh I it seems and you know not to
+- [08:25] come back to the AI engineering pitch
+- [08:27] like it takes a a certain kind of uh
+- [08:30] founder mindset or AI engineer mindset
+- [08:33] to be like we will build this from whole
+- [08:35] cloth and not be tied to existing
+- [08:37] paradigms I think cuz I like if I was if
+- [08:40] I'm to you know you know way or u who's
+- [08:43] who's the zapier person that you know
+- [08:45] Mike Mike um who has left the zapier
+- [08:48] person who's the yeah like uh you know
+- [08:52] Zapier when they decided to do Zapier
+- [08:54] AI, they were like, "Oh, you can use
+- [08:55] natural language to make Zapier actions,
+- [08:57] right?" when notion decided to do notion
+- [08:59] AI they're like oh you can like you know
+- [09:01] uh write documents or you know fill in
+- [09:04] tables with with AI like they didn't do
+- [09:06] the the the next step because they
+- [09:09] already had their base and they were
+- [09:10] like let's improve our baseline and the
+- [09:13] other people who actually tried to to
+- [09:15] create it from cloth were like we we got
+- [09:17] no prior preconceptions like let's see
+- [09:20] what we can what kind of software people
+- [09:21] can build with like from scratch
+- [09:23] basically I don't know that that's my
+- [09:25] explanation I don't know if you guys
+- [09:26] have any retros on the AI builders.
+- [09:28] Yeah. Or or or did they kind of get
+- [09:29] lucky getting, you know, uh starting
+- [09:32] that product journey like right as the
+- [09:33] models were reaching the inflection
+- [09:35] point? There's the timing issue. Yeah.
+- [09:36] Yeah. Yeah. Yeah. Um Yeah. I don't know.
+- [09:39] Like I to some extent I think the only
+- [09:41] reason you and I are talking about it is
+- [09:43] that they both of them have reported
+- [09:45] like ridiculous numbers uh like 0 to 20
+- [09:48] million in 3 months basically both of
+- [09:49] them. Jordan, did you have a big
+- [09:51] surprise? Uh yeah, I mean some of what's
+- [09:53] already been discussed. I guess the only
+- [09:54] other thing would be uh on the Apple
+- [09:56] side in particular, I think I think uh
+- [09:59] you know for the last text message
+- [10:00] summaries like but they're funny.
+- [10:02] They're funny and how great and how
+- [10:04] often they are. Very viral. Yeah. I mean
+- [10:06] so like for the last couple years we've
+- [10:07] seen so many companies that are trying
+- [10:09] to do personal assistance like all these
+- [10:11] various consumer things and one of the
+- [10:12] things we've always asked is well Apple
+- [10:14] is in prime position to do all this and
+- [10:16] then with Apple intelligence they just
+- [10:19] totally messed up in so many different
+- [10:20] ways. And then the whole BBC thing uh
+- [10:23] saying that the guy shot himself when he
+- [10:25] didn't and just like there's just so
+- [10:26] many things at this point that I would
+- [10:28] have thought that they would have ironed
+- [10:30] up their their AI products better but
+- [10:32] just didn't really catch on. You know,
+- [10:34] second on this list of of generally
+- [10:35] overly broad opening questions would be
+- [10:38] anything that you guys think is kind of
+- [10:39] like overhyped or underhyped uh in the
+- [10:41] AI world right now. Um overhyped agents
+- [10:43] framework. Sorry, not naming any
+- [10:45] particular ones. I'm sorry. Not not
+- [10:47] Yeah, exactly. It's not I would say
+- [10:49] they're just overall a chase to try and
+- [10:53] be the framework when the workloads are
+- [10:55] like in such flux that I just think it's
+- [10:58] like so hard to reconcile the two. I
+- [11:00] think what Harrison and Langchain has
+- [11:02] done so amazingly is like uh product
+- [11:04] velocity like you know the initial
+- [11:06] abstractions were maybe not the ending
+- [11:09] obstruction but like they were just
+- [11:10] releasing stuff every day trying to be
+- [11:12] on top of it but I think now we're like
+- [11:14] past that like what people are looking
+- [11:16] for now is like something that they can
+- [11:18] actually build on and stay on for the
+- [11:22] next couple of years and we talked about
+- [11:23] this with Brett Taylor on our episode
+- [11:25] and it feels like it's like the jQuery
+- [11:28] era of like agents NLMs it's like it's
+- [11:30] kind of like you know single file big
+- [11:32] frameworks kind of like a lot of helpers
+- [11:34] but maybe we need react and I think
+- [11:36] people are just trying to build still
+- [11:38] jQuery like I don't really see a lot of
+- [11:40] people doing react like yeah um maybe
+- [11:44] the only modification I made about that
+- [11:46] is maybe it's too early even for
+- [11:48] frameworks at all and the thing do you
+- [11:50] think there's enough stability uh in the
+- [11:52] underlying model layer and and patterns
+- [11:53] to to have this the thing is the
+- [11:55] protocol not the framework yeah u
+- [11:57] because frameworks inherently embed
+- [11:58] protocols but if you focus on the
+- [12:00] protocol maybe that works and obviously
+- [12:01] MCP is the current leading uh area and
+- [12:05] you know I think the comparison there
+- [12:06] would be instead of just jQuery it is
+- [12:08] XML HTTP requests which is like the the
+- [12:10] thing that enabled Ajax um and that was
+- [12:13] the the the the sort of inciting
+- [12:14] incident for JavaScript's uh being
+- [12:17] popular as a language. I would largely
+- [12:19] agree with that. I mean I think on the
+- [12:21] the React side of things I think we're
+- [12:22] starting to see more frameworks sort of
+- [12:24] go after more of that. I guess like
+- [12:26] Mastra is sort of like on the TypeScript
+- [12:28] side and more of like a sort of master.
+- [12:30] Yeah. Yeah. Yeah. The traction is really
+- [12:31] impressive there. And so I think um
+- [12:34] we're starting to see more surface
+- [12:36] there, but I think there's still a big
+- [12:37] opportunity. What do you have for uh for
+- [12:39] an over or underhyped on the underhyped
+- [12:41] side? Um you know, I actually I know I
+- [12:44] mentioned Apple already, but I think the
+- [12:45] private cloud compute side with PCC, I
+- [12:47] actually think that could be really big.
+- [12:48] It's under the radar right now, but in
+- [12:51] terms of basically bringing the ondevice
+- [12:54] sort of security to the cloud, um
+- [12:56] they've done a lot of architecturally
+- [12:57] interesting things there. Who's they?
+- [12:59] Apple. Oh, okay. um on the PCC side and
+- [13:02] so I actually think that see negative on
+- [13:04] Apple intelligence but on Apple cloud on
+- [13:06] the more of the local device uh sort of
+- [13:09] I think there will be a lot of workloads
+- [13:11] still on device but when you need to
+- [13:13] speak to the cloud for larger LLMs I
+- [13:15] think that Apple has done really
+- [13:16] interesting thing on the privacy side
+- [13:18] yeah we did the seat of a company that
+- [13:20] does that so yeah especially as things
+- [13:21] become purpose so that felt like a
+- [13:23] perfect yeah know I was like let's go
+- [13:27] Jordan before this So tell me about that
+- [13:30] company after. Yeah, we'll chat after.
+- [13:33] But but yes, I I think that's like the
+- [13:34] unique um the thing about LLM workflows.
+- [13:37] It's like you just cannot have
+- [13:38] everything be single tenant because you
+- [13:41] just cannot get enough GPUs. Like even
+- [13:43] like large enterprises are used to
+- [13:44] having VPCs and like everything runs
+- [13:46] privately, but now you just cannot get
+- [13:48] enough GPUs to run in a VPC. So I think
+- [13:50] you're going to need to be in a
+- [13:51] multi-tenant architecture and you need
+- [13:55] like you said like single tenant
+- [13:56] guarantees in multi-tenant environments.
+- [13:58] So um yeah it's a interesting space.
+- [14:01] Yeah. What about you?
+- [14:03] underhyped I want to say memory um just
+- [14:06] like stateful AI
+- [14:09] um as part of my keynote on on uh for
+- [14:13] it's like every every conference I do I
+- [14:15] do a keynote and uh I tried to do the
+- [14:18] task of like define an agent you know
+- [14:21] obvious
+- [14:23] um but I did it in a in a way that was
+- [14:26] like um I think like a what a researcher
+- [14:29] would do like you you survey what people
+- [14:30] say and then you sort of categorize and
+- [14:32] and go like okay this is the the uh what
+- [14:34] everyone calls agents and here are the
+- [14:36] groups of def definitions pick and
+- [14:37] choose right um and then it was very
+- [14:40] interesting that the week after that
+- [14:41] openi launched their agents SDK um and
+- [14:46] uh kind of formalized what they think
+- [14:47] agents are call also did the same with
+- [14:49] us um and uh none of them have memory
+- [14:54] it's very strange um the pretty much
+- [14:57] like the only big lab obviously there
+- [15:00] there's conversation memory But there's
+- [15:02] not memory memory like in like a like a
+- [15:04] let's store a knowledge graph of fact
+- [15:06] about you and like you know exceed the
+- [15:07] the context length. Um and here if you
+- [15:11] if you're look if you look closely
+- [15:13] enough there's a really good
+- [15:14] implementation of memory inside of MCP
+- [15:16] when they launched uh with the initial
+- [15:18] set of servers they had a memory server
+- [15:19] in there which I I would recommend as
+- [15:21] like that's where you start with memory.
+- [15:22] I think like um if there was um a better
+- [15:28] uh memory abstraction then a lot of our
+- [15:30] agents would be smarter and could learn
+- [15:32] on on the job which is something that we
+- [15:34] all want and for some reason um we've
+- [15:37] all just like ignored that because it's
+- [15:40] just convenient to do you feel like it's
+- [15:42] being ignored or it's just a really hard
+- [15:43] problem and like lots of I feel like
+- [15:44] lots of people are working on it um just
+- [15:46] feels like it's it's proven more
+- [15:48] challenging uh yeah yeah yeah so so
+- [15:50] Harrison has lang which I think now he's
+- [15:52] like, you know, relaunched again. And
+- [15:54] then we had Leta come speak at our our
+- [15:56] conference. Um I don't know, Zep. I
+- [15:59] think there's a bunch of other memory
+- [16:01] guys, but like something like this, I
+- [16:03] think should be normal in the stack. And
+- [16:04] basically, um I think anything stateful
+- [16:07] should be interesting to VCs, uh because
+- [16:09] it's databases and you know, we know how
+- [16:11] those things make money. I think on the
+- [16:12] overhype side, the only thing I'd add is
+- [16:14] like I'm I'm still surprised how many
+- [16:16] new companies there are training models.
+- [16:17] I thought we were kind of like past
+- [16:18] that. Um, and I would say they died the
+- [16:21] end of last year and now now they've
+- [16:22] resurfaced. I mean, that's one of the
+- [16:23] questions you had down there of like is
+- [16:26] there an opportunity for net new model
+- [16:27] players? Uh, I wouldn't say no. Um, I
+- [16:29] don't know what you guys think. I I
+- [16:31] don't have a reason to say no, but I
+- [16:33] also don't have a reason to say this is
+- [16:35] what is missing and you should have a
+- [16:37] new model company do it. But again, I'm
+- [16:39] an all these guys want to pursue AGI,
+- [16:41] you know, they all want to be like, oh,
+- [16:43] we'll like hit, you know, sort of on all
+- [16:44] the benchmarks and like they can't all
+- [16:46] do it. Yeah. I mean, look, I don't know
+- [16:48] if I has the secret uh secret approach
+- [16:50] up his sleeve of uh of something beyond
+- [16:52] testime time compute, but it was funny.
+- [16:53] I we had um Nome Shazer on the podcast
+- [16:56] last week. I was asking him like, you
+- [16:57] know, is is there like some sort of
+- [16:58] other algorithmic breakthrough? Would
+- [16:59] you make a Villia? And he's like, look,
+- [17:01] I think what he implicitly said was test
+- [17:03] time comput will get to the point where
+- [17:04] these models are doing AI engineering
+- [17:06] for us. And so, you know, at that point,
+- [17:08] they'll figure out the next algorithmic
+- [17:09] breakthrough. Uh which I thought was uh
+- [17:11] was pretty interesting. I agree with
+- [17:12] you. I think that um we're most
+- [17:15] interested at least from our side and
+- [17:16] like you know foundation models for
+- [17:18] specific use cases and more specialized
+- [17:19] use cases. I guess the broader point is
+- [17:21] if there is something like that that
+- [17:23] these companies can latch on to and
+- [17:25] being their sort of known for being the
+- [17:27] best at maybe there's a case for that.
+- [17:29] Largely though I do agree with you that
+- [17:31] I don't think there should be at this
+- [17:32] point more model companies. I think it's
+- [17:34] like these unique data sets right I mean
+- [17:35] obviously robotics has been an area
+- [17:36] we've been really interested in which is
+- [17:38] an entirely different set of uh data
+- [17:40] that's required you know on top of like
+- [17:41] a good BLM and then you know biology
+- [17:44] material science more the specific use
+- [17:45] cases yeah but also specific like a lot
+- [17:48] of these models are super generalizable
+- [17:49] but like you know uh finding
+- [17:51] opportunities to you know where you know
+- [17:53] for a lot of these bio companies they
+- [17:54] have wet labs like they're like running
+- [17:55] a ton of experiments or um you know same
+- [17:57] on the material sciences side and so I
+- [17:59] still feel like there's some some
+- [18:00] opportunities there but uh the core kind
+- [18:02] of like LLM agent space is uh it's tough
+- [18:04] tough to compete with the big ones.
+- [18:06] Yeah, agree. Yeah, but they're moving
+- [18:07] more into product. So, I think that's
+- [18:09] the question is like if they could do
+- [18:11] better vertical models, why not do that
+- [18:13] instead of trying to do deep research
+- [18:16] and operator and these different things.
+- [18:18] I think that's what I'm in my mind
+- [18:21] coming up too. Well, yeah. In my mind,
+- [18:23] it's like financial pressure like they
+- [18:24] need to monetize in a much shorter time
+- [18:26] frame because the costs are so high. Um
+- [18:29] but maybe it's like it's not that easy
+- [18:31] to do. you think they would be that it
+- [18:33] would be a better business model to like
+- [18:35] do a it's more like why wouldn't they
+- [18:37] you know like you make less enemies if
+- [18:39] you're like a model builder right like
+- [18:41] like now with deep research and like
+- [18:43] search now perplexity is like an enemy
+- [18:45] and like you know Gemini deep research
+- [18:47] is like more of an enemy uh versus if
+- [18:50] they were doing a finance model you know
+- [18:53] or whatever like they would just enable
+- [18:55] so many more companies and they always
+- [18:57] have like they had Abia as one of the
+- [18:59] customer case studies for GBD search but
+- [19:02] they're not building a finance-based
+- [19:04] model for them. So, is it because it's
+- [19:05] super hard and somebody should do it or
+- [19:07] is it because the new models are going
+- [19:10] to be so much better that like the
+- [19:11] vertical models are useless anyways?
+- [19:13] Like exactly. It still seems to be a
+- [19:15] somewhat outstanding question. I'd say
+- [19:16] like all the signs of the last few years
+- [19:18] seem to be like a general purpose model
+- [19:19] is like the way to go. Um and you know,
+- [19:22] you know, tail like training a
+- [19:23] hyperspecific model in a in a domain is
+- [19:25] like you know, maybe it's cheaper and
+- [19:27] faster, but it's not going to be like
+- [19:28] higher quality. But also like I think
+- [19:29] it's still I mean we were talking to to
+- [19:31] uh Gnome and Jack Ray from Google last
+- [19:33] week and they were like yeah this is
+- [19:34] still an outstanding like we we check
+- [19:36] this every time we have a new model like
+- [19:37] whether there's uh you know that still
+- [19:39] seems to be holding. Um, I remember like
+- [19:41] a few years ago it felt like all the
+- [19:42] rage was like it was the Bloomberg GBT
+- [19:44] model came out and everyone was like,
+- [19:45] "Oh, you got to
+- [19:46] like GPFI Bloomberg uh present on that."
+- [19:50] That must be a really interesting
+- [19:51] episode to go back on because I feel
+- [19:52] like like very shortly there after the
+- [19:54] next Open AI model came out and just
+- [19:55] like beat it on all sorts of uh uh No,
+- [19:57] it was a talk. We haven't released it
+- [19:58] yet, but yeah, I mean it's uh basically
+- [20:00] they concluded that the the closed
+- [20:02] models were better so they just stop it
+- [20:04] out. Interesting. Sounds like that's
+- [20:05] been the uh uh but he's uh I I would be
+- [20:08] he's very insistent that the work that
+- [20:10] they did, the team he assembled, the
+- [20:12] data that they collected is actually
+- [20:13] useful for more than just the model. So
+- [20:15] like basically everything but the model
+- [20:16] survived. What are the other things? Uh
+- [20:18] the data pipeline, the team that they
+- [20:21] they assembled to for like fine-tuning
+- [20:22] and implementing uh whatever models they
+- [20:25] they ended up picking. Um yeah, it seems
+- [20:28] like they are happy with that and
+- [20:30] they're running with that. uh he runs
+- [20:31] like 12 13 teams at Bloomberg just
+- [20:35] working geni across the company. I mean
+- [20:37] I guess we've we've all kind of been
+- [20:38] alluding it to it right now but I guess
+- [20:39] because it's a natural transition you
+- [20:41] know the other broad opening I had was
+- [20:42] just what are we paying most attention
+- [20:43] to right now and I think back on this
+- [20:45] like you know the model companies coming
+- [20:46] into the product area. I mean, I think
+- [20:47] that's going to be like I'm fascinated
+- [20:48] to see how that plays out over the next
+- [20:50] year and kind of these like friendnemy
+- [20:51] dynamics and it feels like it's going to
+- [20:53] first boil up on like cursor anthropic
+- [20:55] and like the way that plays out over the
+- [20:57] next 6 months I think will be what is
+- [20:59] cursor anthropic? You mean cursor versus
+- [21:02] enthropic or yeah I assume you know over
+- [21:04] time anthropic wants to get more into
+- [21:06] the application side of coding um and
+- [21:09] you know I assume over time cursor will
+- [21:11] want to diversify off of you know just
+- [21:13] using anthropic model. It's interesting
+- [21:14] that now cursor is now worth like 10
+- [21:16] billion n 10 billion. Yeah. Um and like
+- [21:20] they've made themselves hard to acquire
+- [21:22] like I would have said like you should
+- [21:23] just get yourself to five six billion
+- [21:26] and join open AAI and like all the
+- [21:28] training data goes to open AI and that's
+- [21:29] how they train their coding model. Uh
+- [21:31] now this now it's complicated. Now they
+- [21:32] need to be an independent company.
+- [21:34] Increasingly it seems that the model
+- [21:35] companies want to get into the product
+- [21:36] layer and so seeing over the next six 12
+- [21:38] months does having the best model you
+- [21:40] know uh let you kind of start from a
+- [21:42] cold start on the product side and and
+- [21:43] get something in market or are the you
+- [21:45] know companies with the best products
+- [21:46] even if they eventually have to switch
+- [21:48] to a somewhat worse tiny bit worse model
+- [21:51] does it not you know where do the
+- [21:52] developers ultimately choose to go I
+- [21:53] think that'll be super interesting yeah
+- [21:55] but don't you think that Devon is more
+- [21:56] in trouble than cursor I I feel like
+- [21:59] entropic if anything wants to move more
+- [22:01] towards I don't think they want to build
+- [22:02] ID Like if I think about coding, it's
+- [22:04] like kind of like, you know, you look at
+- [22:06] it like a cube. It's like the ID is like
+- [22:07] one way to look at the code and then the
+- [22:09] agent is like the other side. Yeah. I
+- [22:11] feel like Entropic wants more be on the
+- [22:13] agent side and then hand you off the
+- [22:15] cursor when you want to go in depth
+- [22:17] versus like trying to build the cloud
+- [22:20] IDE. I think that's not I would say I
+- [22:22] don't know how you think the existence
+- [22:23] of cloud code doesn't show doesn't
+- [22:27] support what you say like maybe they
+- [22:28] would but I assume like I assume both
+- [22:31] just converge eventually where you want
+- [22:32] to have uh well you'll be able to do
+- [22:34] both so so in order to be uh so we're
+- [22:37] talking about coding agents whether it's
+- [22:39] sort of um what is it inner loop versus
+- [22:41] outloop right like inner loop is inside
+- [22:43] cursor inside your ID between uh inside
+- [22:46] of a git commit and outloop is between
+- [22:48] git commits on on the cloud um And I
+- [22:50] think like to be an outer loop coding
+- [22:52] agent, you have to be more of a like we
+- [22:55] will integrate with your codebase. We'll
+- [22:56] sign your whatever you know security
+- [22:58] thing that you need to sign that kind of
+- [23:00] schle. Uh I don't think the model labs
+- [23:02] want to do that shleep. They just want
+- [23:03] to provide models. So that that that's
+- [23:06] that would be my argument against like
+- [23:07] why cognition should still uh have have
+- [23:12] some moat against enthropic just simply
+- [23:14] because they cognition will do the schle
+- [23:16] and the bisdev and the infra that
+- [23:18] anthropic doesn't really care about. I
+- [23:20] know the schlle is pretty sticky though
+- [23:21] once you do it it's very sticky. Yeah.
+- [23:23] Yeah. Um I mean it's it's it's
+- [23:25] interesting like I I think the natural
+- [23:26] winner of that should be source. Um but
+- [23:28] like there's another unprompted
+- [23:31] mention. Nice. Yeah. Yeah, I mean
+- [23:33] they're they're big supporters. Uh like
+- [23:35] I'm very friendly with both Quinn and
+- [23:37] Viang and uh they've uh they've done a
+- [23:40] lot of work with Cody, but like no not
+- [23:42] much work on the outer loop stuff yet.
+- [23:44] But like any company where like they
+- [23:46] have already had like we've been around
+- [23:48] for 10 years. We we like have all the
+- [23:50] enterprise contracts. You already trust
+- [23:51] us to your code base. Why would you go
+- [23:53] trust like factory or cognition as like
+- [23:55] you know 2-year-old startups who like
+- [23:57] just came out of MIT? Like I don't know.
+- [24:00] I guess switching gears to the uh to the
+- [24:02] application side. Um I'm curious uh for
+- [24:04] both of you like how do you kind of
+- [24:06] characterize what has genuine product
+- [24:08] market fit in AI today and uh I guess
+- [24:10] Allessia more on your side on the
+- [24:11] investing side like more interesting to
+- [24:13] invest in that category of the stuff
+- [24:14] that works today or uh kind of where the
+- [24:16] capabilities are going long term.
+- [24:20] That's to do my job. you you were like,
+- [24:22] "Man, that's a easy that's a layout."
+- [24:24] Tell us all your investing.
+- [24:26] I would say we all Well, we only really
+- [24:28] do mostly seed investing. So, it's hard
+- [24:31] to invest in things that already work
+- [24:32] because it means they're already late.
+- [24:34] So, we try to but but we try to be at
+- [24:37] the cusp of like, you know, usually the
+- [24:39] investments we like to make there's like
+- [24:41] really not that much market risk. It's
+- [24:42] like if this works, obviously people are
+- [24:44] going to use it, but like it's unclear
+- [24:46] whether or not it's going to work. So,
+- [24:47] that's kind of more what we skew
+- [24:49] towards. We try not to chase as many
+- [24:51] trends and I don't know, you know, I was
+- [24:53] a founder myself and sometimes I feel
+- [24:56] like it's easy to just jump in and do
+- [24:58] the thing that is hot, but like becoming
+- [25:01] a founder to do something that's like
+- [25:02] underappreciated or like doesn't yet
+- [25:04] work shows some level of like grit and
+- [25:07] self like you you actually really
+- [25:09] believe in the thing. So that alone for
+- [25:11] me is like kind of makes me skew more
+- [25:13] towards that. And you do a lot of angel
+- [25:15] investing too. So I'm curious how um
+- [25:17] yeah but I don't regard I don't have I
+- [25:21] don't use put put that in my mental
+- [25:22] framework of things like um I come at
+- [25:24] this much more as a content creator or
+- [25:26] market analyst of like yeah it really
+- [25:29] does matter to me what has product
+- [25:30] market fit because people I have to
+- [25:32] answer the question of what is working
+- [25:34] now when when people ask me do you feel
+- [25:36] like relative to the the obviously the
+- [25:38] hype and discourse out there like you
+- [25:39] know do you feel like there's a lot of
+- [25:40] things that have product market fit or
+- [25:42] like a few things like where few things
+- [25:44] yeah um so I I have a list of like uh um
+- [25:48] two years ago we I wrote the anatomy of
+- [25:51] autonomy post where it was like the the
+- [25:53] first like what's going on in agents and
+- [25:55] and um and and and what is actually
+- [25:58] making money because I think there's a
+- [26:00] lot of geni skeptics out there that are
+- [26:02] like these these things are toys they're
+- [26:03] not reliable and you know why why why
+- [26:06] are you dedicating your life to these
+- [26:07] things um and I think for me the product
+- [26:10] market fit bar at the time was $100
+- [26:12] million right like what use cases can
+- [26:15] reasonably fit $100 million and uh at
+- [26:17] the time it was like co-pilot um it was
+- [26:20] Jasper no longer but you know in that
+- [26:22] category of like help you write yeah
+- [26:24] which I think was was helpful and then
+- [26:26] um uh and cursor I think was on there uh
+- [26:28] as as a as as as like a coding agent uh
+- [26:31] plus um I think that list will just grow
+- [26:35] over time of like the form factors that
+- [26:36] we know to work and then we can just
+- [26:38] adapt the form factors to a bunch of
+- [26:39] other things. So like the the one that's
+- [26:42] the most recently added to this is deep
+- [26:43] research. Yeah. Right. Uh where anything
+- [26:46] that looks like a deep research uh
+- [26:48] whether it's a Grock version, Gemini
+- [26:50] version, Plexity version, whatever. Um
+- [26:52] he has an investment that uh that he
+- [26:54] likes called Brightwave that is
+- [26:55] basically deep research for finance. Um
+- [26:56] and anything where like all right, it's
+- [26:58] like long-term agentic reporting um and
+- [27:01] is starting to take more and more of the
+- [27:03] job away from you and and just give you
+- [27:06] a much more reason to report. I think
+- [27:07] it's going to work and um that has some
+- [27:09] PMF. think obviously has PMF like I I
+- [27:12] would say um it's I I went through this
+- [27:15] exercise of trying to handicap how much
+- [27:16] money openi made from launching openi
+- [27:20] deep research I think it's billions um
+- [27:23] like the the the sheer upgrade from like
+- [27:25] $20 to 200 um it has to be billions in
+- [27:28] maybe not all them will stick around but
+- [27:31] like that is some amount of PMF that is
+- [27:34] didn't they have to immediately drop it
+- [27:35] down to the $20 tier they expanded
+- [27:36] access I don't I wouldn't say which I
+- [27:38] thought was really telling of the market
+- [27:39] right it's like you have a um you know I
+- [27:42] think it's going to be so interesting to
+- [27:43] see what they're actually able to get in
+- [27:45] that $200 or $2,000 tier which we all
+- [27:47] think is is you know has a ton of
+- [27:48] potential but I thought it was
+- [27:49] fascinating. I don't know whether it was
+- [27:50] just to get more people exposure to it
+- [27:52] or the fact that like Google had a
+- [27:54] similar product obviously and and other
+- [27:55] folks did too but it was really
+- [27:57] interesting how quickly they dropped it
+- [27:58] down. I don't I think that's just a more
+- [28:00] general policy of no matter what they
+- [28:02] have at the top tier they always want to
+- [28:04] have smaller versions of that in the in
+- [28:06] the lower tiers. Yeah. Just get people
+- [28:07] exposure to it. Just Yeah. just get
+- [28:09] exposure. The brand of being first to
+- [28:12] market and and like the default choice
+- [28:14] is paramount to open AI though. I
+- [28:16] thought that whole thing was fascinating
+- [28:17] because Google had the first product,
+- [28:18] right? Yeah. And no, like you know, we
+- [28:21] interviewed them. I I I straight up to
+- [28:23] their faces. I was like open mogged you
+- [28:25] and they were like, "Yeah." Well, I
+- [28:26] actually curious what's it this is
+- [28:28] totally off topic, but whatever. Like
+- [28:29] what is it going to take for Google just
+- [28:31] released some great models like a few
+- [28:33] weeks ago? Um like I feel like the stuff
+- [28:35] they're shipping is really cool. Um
+- [28:37] yeah, but I I also I feel like at least
+- [28:39] in the you know broader discourse it's
+- [28:41] still like a drop in the bucket relative
+- [28:42] to Yeah. Um I mean I can riff fun on
+- [28:46] this. I but I I think it's happening. I
+- [28:48] think it takes some time but uh I am
+- [28:50] like my Gemini usage is up like I I use
+- [28:53] I use it uh a lot more for uh anything
+- [28:56] from like summarizing YouTube videos to
+- [28:59] the native image generation that they
+- [29:00] just launched to like flashing. Um multi
+- [29:02] model stuff's great. Yeah, I run, you
+- [29:04] know, and I run like a daily sort of
+- [29:06] news recap uh called AI news that is uh
+- [29:09] 99% generated by models and I do a bake
+- [29:11] off between all the frontier models
+- [29:13] every day. Um and it's every day you
+- [29:16] does it switch I manual yes it does
+- [29:17] switch uh and I man I manually do it and
+- [29:21] uh flash is flash wins most days. Um so
+- [29:24] so like I think it's happening. I think
+- [29:26] I was thinking I was thinking about
+- [29:27] tracking myself um like number of opens
+- [29:30] of Chad BT versus Gemini and at some
+- [29:32] point it will cross. I think that uh
+- [29:34] Gemini will be my main um and uh I I
+- [29:38] like that will slowly happen for a bunch
+- [29:40] of people and and then that that will
+- [29:42] shift. I I think that's that's a really
+- [29:44] interesting for developers. This a
+- [29:45] different question. It's Google getting
+- [29:47] over itself of having Google Cloud
+- [29:50] versus Vert.ex was AI studio all these
+- [29:52] like five different brands slowly
+- [29:54] consolidating it. Um it'll happen just
+- [29:56] slowly I guess. Yeah. Yeah. I mean
+- [29:59] another good example is like you cannot
+- [30:01] use uh the thinking models in cursor and
+- [30:04] I know Logan Kilpadrick said they're
+- [30:06] working on it. But um I think there's
+- [30:08] all these small things where like if I
+- [30:10] cannot easily use it, I'm really not
+- [30:12] going to go out of my way to do it. But
+- [30:14] I do agree that when you do use them,
+- [30:16] their models are are great. So yeah,
+- [30:18] they just need better better bridges.
+- [30:20] You had one of the questions in the
+- [30:21] prep. What public company are you long
+- [30:23] and short? And mine is Google versus
+- [30:25] versus Apple.
+- [30:28] My combo. I I feel like Yeah. I mean it
+- [30:30] does feel like Google's really cooking
+- [30:31] right now. Yeah. Um so okay coming back
+- [30:34] to what has product market fit. Um now
+- [30:36] now that we come back to my complete
+- [30:37] total sidetrack
+- [30:40] uh there's also customer support. Uh we
+- [30:41] were talking on the car about Dekugan
+- [30:43] and Sierra. Obviously, Brett Brett
+- [30:44] Taylor is founder of Sierra and uh yeah,
+- [30:48] it seems like there's just this these
+- [30:50] layers of agents that'll like I think
+- [30:51] you just look at like the income
+- [30:53] statement or like the the org chart of
+- [30:55] any large scaled company and you start
+- [30:57] picking them off one by one. Uh what
+- [30:59] like is interesting knowledge work um
+- [31:01] and it'll just kind of eat things slowly
+- [31:03] from the outside in. That makes sense. I
+- [31:05] I mean the episode we did with Brett,
+- [31:08] he's so passionate about developer tools
+- [31:10] and yeah, he did not do a developer
+- [31:12] tools conf. We spent like two hours
+- [31:14] talking about developer tools and like
+- [31:16] all all that stuff and he's like are
+- [31:18] they a customer support company? I'm
+- [31:20] like man that says something. You know
+- [31:21] what I mean? It's like when you have
+- [31:22] somebody like him who can like raise any
+- [31:24] amount of money from anybody to do
+- [31:26] anything. Yeah. To pick customer support
+- [31:29] as the market to go after while also
+- [31:30] being the chairman of OpenAI. Like that
+- [31:34] shows you that like these things have
+- [31:36] modes and have long-standing like
+- [31:38] they're going to stick around, you know,
+- [31:40] otherwise he's smarter than that. So um
+- [31:43] yeah that's a that's a space where maybe
+- [31:45] initially you know I would have said I
+- [31:48] don't know if it's like the most
+- [31:49] exciting thing to to jump into but then
+- [31:51] if you really look at the shape of like
+- [31:53] how the workforce are structured and
+- [31:55] like how the cost centers of like the
+- [31:56] business really end up especially for
+- [31:58] more consumerf facing businesses like a
+- [32:00] lot of it goes into customer support all
+- [32:02] the AI story of the last two years has
+- [32:04] been cost cutting I think now we're
+- [32:06] going to switch more towards growth
+- [32:07] revenue you know like you've seen Jensen
+- [32:10] like last year GTC was saying the more
+- [32:12] you buy the more you save. This year
+- [32:13] said the more you buy the more you make.
+- [32:15] So uh we're hot off the press. We were
+- [32:18] there. We were there. Yeah. I do think
+- [32:20] that's one of the most interesting
+- [32:21] things about this first wave of apps
+- [32:22] where it's like almost the easiest thing
+- [32:23] that you could um you could get real
+- [32:25] traction with was stuff that you know
+- [32:27] for lack of a better way to frame it
+- [32:28] like stuff that people had already been
+- [32:30] comfortable outsourcing to BPOS or
+- [32:31] something and kind of implicitly said
+- [32:32] like hey this is a cost center like we
+- [32:34] are willing to take some performance cut
+- [32:36] for cost in the past. you know, the the
+- [32:39] irony of that or what I'm really curious
+- [32:41] to see how it plays out is, you know,
+- [32:42] you could imagine that is the area where
+- [32:44] price competition is going to be most
+- [32:46] fierce because it's already stuff that
+- [32:48] uh you know, that people have said, hey,
+- [32:49] we don't need the like 100% best version
+- [32:51] of that. And I wonder, you know, this
+- [32:54] next wave of apps may prove actually
+- [32:56] even more defensible as you get these
+- [32:57] capabilities that actually are, you
+- [32:59] know, increased topline or whatnot where
+- [33:00] you're like, you take AI go to market
+- [33:02] for example, like you're you pay like
+- [33:04] twice as much for something that brought
+- [33:06] like cuz there's just a kind of very
+- [33:07] clean ROI story to it. Um, and so I
+- [33:10] wonder ultimately whether like this next
+- [33:12] set of apps um actually ends up being
+- [33:14] more interesting than the than the first
+- [33:15] wave. Yeah, I think a lot of the voice
+- [33:17] AI ones are interesting too because you
+- [33:19] don't need 100% precision recall to
+- [33:21] actually, you know, have a great
+- [33:23] product. And so, for example, we looked
+- [33:24] into a bunch of um, you know, scheduling
+- [33:26] intake companies, for example, like home
+- [33:28] services, right, for electricians and
+- [33:30] stuff like that. Today, they miss 50% of
+- [33:32] their calls. So, even if the AI is only
+- [33:35] effective, say 75% of the time, yeah,
+- [33:37] it's crazy, right? So, if it's effective
+- [33:39] 75% of the time, that's totally fine
+- [33:41] because that's still a ton of increased
+- [33:42] revenue for the customer, right? And so
+- [33:44] you don't need that 100% accuracy. And
+- [33:46] so as the models and the reliability of
+- [33:49] these agents are getting better, it's
+- [33:51] totally fine because you're still
+- [33:52] getting a ton of value in the meantime.
+- [33:53] Yeah. Uh one, this is I don't know how
+- [33:56] related this is, but one of my favorite
+- [33:57] meetings at it is related.
+- [34:01] One of my favorite meetings at the
+- [34:03] engineer summit because like like I do
+- [34:04] these our first one in New York and I I
+- [34:06] just like met the different crew than
+- [34:07] than you meet here. Like everyone here
+- [34:09] is loves developer tools, loves infra
+- [34:11] over there. They're actually more
+- [34:12] interested in applications. which is
+- [34:13] kind of cool. I met this like bootstrap
+- [34:15] team that like they're only doing
+- [34:16] appointment scheduling for vets. They
+- [34:20] and like they're like this is a this
+- [34:21] anomaly. We don't usually come to
+- [34:23] engineering summits cuz we usually go to
+- [34:24] vet summits and like talk to the they're
+- [34:27] like you know they're they're literally
+- [34:29] the I'm sure it's a massive pain point.
+- [34:30] They're willing to pay a lot of money.
+- [34:33] But but but this is like my point about
+- [34:35] saving versus making more. It's like if
+- [34:37] an electrician takes 2x more calls, do
+- [34:40] they have the bandwidth to actually do
+- [34:42] 2x more inhouse? Is it well? Yeah,
+- [34:45] exactly. That's the thing is like I
+- [34:46] don't think today most businesses are
+- [34:47] like structured to just like overnight
+- [34:50] two 3x demand, you know. I think that's
+- [34:52] like a startup thing like mo most
+- [34:54] businesses can make a electrician agent.
+- [34:56] Well, no, totally. So, how do you do how
+- [34:58] do you do recruiting agent for
+- [35:01] electrician or like electrician train?
+- [35:04] How do you do lambda school for
+- [35:05] electrician? I don't know whack-a-ole
+- [35:07] for the bottlenecks in these businesses
+- [35:09] like as oh now we have a ton of demand
+- [35:11] like cool like where do we go? Yeah. So
+- [35:13] uh just to round out the the the PMF
+- [35:16] thing um I think this is relevant in a
+- [35:17] in a sense of like it's pretty obvious
+- [35:19] that the killer agents are coding
+- [35:21] agents, support agents, deep research,
+- [35:22] right? Roughly, right? We've covered all
+- [35:24] those three already. Then then then you
+- [35:26] have to sort of be go turn to offense
+- [35:28] and go like okay what's next? And like
+- [35:30] what about I mean I also just like
+- [35:31] summarization of of voice and
+- [35:33] conversation. We actually had that on
+- [35:35] there. I just I didn't put it as agent
+- [35:37] because seems less agentic you know but
+- [35:39] yes still a good AI use case. Uh so that
+- [35:42] one I I've seen uh I would mention
+- [35:44] granola and what's the other one? U
+- [35:47] Monteray. I think a bridge was mention
+- [35:49] bridge. Bridge. Okay. So I'll just I'll
+- [35:52] call out what I had on my slides for for
+- [35:54] the agent engineering thing. Um so it
+- [35:56] was screen sharing which I think is
+- [35:58] actually kind of kind of underrated like
+- [36:00] people like and yeah watching you as you
+- [36:02] do your work and just like offering
+- [36:03] assistance. Um outbound sales so instead
+- [36:06] of support just being more outbound
+- [36:07] hiring. You say outbound sales has
+- [36:09] product market fit. No, it it it will
+- [36:11] it's coming on the comp. Yeah, I totally
+- [36:12] agree with that. Yeah. Yeah. Um hiring
+- [36:14] um like the recruiting side. Uh
+- [36:16] education like the the sort of like
+- [36:18] personalized teaching I think. Um I'm
+- [36:20] kind of shocked we haven't seen more
+- [36:22] there. Yeah. I don't know if that's like
+- [36:24] Dualingo is the thing. Kamigo. Yeah. I
+- [36:27] mean speak and some of these like you
+- [36:28] know practice. Yeah. Interesting. Um and
+- [36:31] then uh finance there's there's a ton of
+- [36:33] finance cases that we can talk about
+- [36:35] that. Uh, and then personal AI, which
+- [36:37] um, we also had a little bit of that,
+- [36:38] but I think personal AI is a harder to
+- [36:40] monetize, but I think those would be
+- [36:42] like what I would say is up and coming
+- [36:44] in terms of like that's what I'm
+- [36:46] currently focusing on. I feel this
+- [36:47] question has been asked a few different
+- [36:48] ways. Uh, but I'm I'm curious what you
+- [36:51] guys think. It's like is it like if we
+- [36:53] just froze model capabilities today,
+- [36:54] like is there, you know, trillions of
+- [36:56] dollars of application value to be
+- [36:57] unlocked? like like AI education like if
+- [36:59] we just stopped today all model
+- [37:01] development like with this current
+- [37:03] generation of models we could probably
+- [37:04] build some pretty amazing education apps
+- [37:06] um or like how much of this how much of
+- [37:08] of all this is like contingent upon just
+- [37:10] like okay people have had two years with
+- [37:11] GBT4 and like you know I don't know 6
+- [37:13] months with the reasoning models like
+- [37:15] how much is contingent upon it just
+- [37:16] being more time with these things versus
+- [37:18] like the models actually have to get
+- [37:19] better. I don't know it's a hard
+- [37:20] question so I'm going to just throw it
+- [37:21] to you. Yeah. Well, I think the societal
+- [37:24] thing is maybe harder, especially in
+- [37:26] education, you know, like can you
+- [37:28] basically like doge the education
+- [37:31] system? Probably you should, but like
+- [37:34] can you I I think it's more of a human,
+- [37:36] but people pay for all sorts of like get
+- [37:38] ahead things outside of class and you
+- [37:39] know certainly in other countries
+- [37:40] there's a ton of consumer spend and educ
+- [37:42] it feels like the market opportunity is
+- [37:44] there. Yeah. And in private education I
+- [37:46] think u yeah public is very different.
+- [37:49] One of my most interesting quests from
+- [37:51] last year was kind of reforming
+- [37:52] Singapore's education system to be more
+- [37:55] sort of AI native. Just what you were
+- [37:56] doing on the side while you're Yes.
+- [38:00] That's a great side quest. Uh my stated
+- [38:03] goal is for Singapore to be the first
+- [38:04] country that has Python as a first
+- [38:06] language as a as a national language. Um
+- [38:09] anyway, so but uh the the the the
+- [38:11] defense the push back I got from
+- [38:13] Ministry of Education was that the
+- [38:14] teachers would be unprepared to do it. M
+- [38:16] so it's like it was like the def the
+- [38:18] like the uh it was really interesting
+- [38:20] like immediate push back was that the de
+- [38:22] facto teachers union being like
+- [38:24] resistant to change and like okay that
+- [38:26] that's part for the course. Um anyway so
+- [38:28] not not to not to dwell too much on that
+- [38:29] but like uh yeah I mean like I I think
+- [38:32] like education is one of these things
+- [38:34] that everyone like has strong opinions
+- [38:36] on because they all have kids all been
+- [38:37] through the education system. Um, but
+- [38:39] like I think it's going to be like the
+- [38:41] the domain specific like like speak like
+- [38:43] such an amazing example of like top down
+- [38:47] like we will go through the idea maze
+- [38:48] and we'll go to Korea and teach them
+- [38:50] English like it's like what the hell um
+- [38:53] and uh I would love to see more examples
+- [38:55] of that like just like really focused
+- [38:56] like don't try to solve everything just
+- [38:58] just do your thing really really well.
+- [39:00] on this trend of uh of difficult
+- [39:02] questions that come up. I'm gonna just
+- [39:03] ask you the one that my partners like to
+- [39:04] ask me every single Monday, which is uh
+- [39:06] how do you think about defensibility at
+- [39:07] the uh at the app layer? Oh yeah, that's
+- [39:09] great. Just give me an answer I can copy
+- [39:12] paste and just like you know auto auto
+- [39:14] response. Honestly like network effects
+- [39:16] I think people don't prioritize those
+- [39:20] enough because they're trying to make
+- [39:22] the single player experience good, but
+- [39:26] then then they neglect the multiplayer
+- [39:27] experience. I think one of the um I
+- [39:29] always think about like loadbearing
+- [39:30] episodes like you know as as podcast you
+- [39:32] do one a week and like you know some of
+- [39:34] those you don't really talk about ever
+- [39:35] again and others you keep mentioning
+- [39:36] every single podcast and this is
+- [39:38] obviously going to be the last
+- [39:41] I think the recap episodes for us are
+- [39:43] pretty low bearing like we we refer to
+- [39:44] them every 3 months or so um and like uh
+- [39:47] one of them I think for for us is Chai
+- [39:49] for me is Chai research u even though
+- [39:51] that wasn't like a super popular one
+- [39:53] among the broader community outside of
+- [39:55] Chai the Chai community uh for those who
+- [39:57] don't know Chai research is basically a
+- [39:59] character AI competitor. Yeah. Right.
+- [40:00] They were uh bootstrapped. They were
+- [40:02] founded at the same time and they have
+- [40:03] out outlasted character de facto. Right.
+- [40:06] Um it's funny like I I would love to ask
+- [40:09] a bit more about like the whole
+- [40:10] character thing. But good luck getting
+- [40:11] past the Google.
+- [40:14] Um but like so he like he like he
+- [40:18] doesn't have his own models basically.
+- [40:19] He has his own network of people
+- [40:21] submitting models to be run. And I think
+- [40:24] like that is like short-term going to be
+- [40:27] hurting him because he doesn't have
+- [40:29] proprietary IP, but long-term he has the
+- [40:31] network network effect to make him
+- [40:33] robust to any changes in the future. And
+- [40:35] I think like I want to see more of that
+- [40:37] where like he's basically looking at
+- [40:39] himself as kind of a marketplace and
+- [40:41] he's identified the choke point which is
+- [40:42] built the app or the the sort of
+- [40:44] protocol layer that um interfaces
+- [40:47] between the users and the model
+- [40:48] providers and then make sure that the
+- [40:50] money kind of flows through and that
+- [40:53] works. I I wish that more AI builders or
+- [40:56] AI founders emphasize network effects
+- [40:59] because that that's the only thing that
+- [41:00] you're going to have at the end of the
+- [41:01] day and like brand leads into network
+- [41:03] effects. Yeah. I guess you know harder
+- [41:06] uh in the enterprise context, right? But
+- [41:07] I mean I feel it's funny we do this
+- [41:09] exercise and I feel like we talk a lot
+- [41:10] about like you know obviously there's
+- [41:12] you know uh kind of the velocity and the
+- [41:14] breath you're able to kind of build um
+- [41:16] of product surface area. There's just
+- [41:17] like the ability to become a brand in a
+- [41:18] space like I'm shocked like even in like
+- [41:20] six nine months how an individual
+- [41:21] company can become synonymous with like
+- [41:23] an entire category and like then they're
+- [41:24] in every room for customers and like all
+- [41:27] the other startups are like clawing
+- [41:28] their way to try and get in like one you
+- [41:30] know 20th of those rooms. There's a
+- [41:31] bunch of categories where we talk about
+- [41:33] an IC and it's like oh pricing
+- [41:35] compression is going to happen not as
+- [41:37] defensible and so ACVs are going to go
+- [41:39] down over time. In actuality some of
+- [41:41] these the ACVs have doubled we've seen
+- [41:43] and the reason for that is just you know
+- [41:45] people go to them and pay for that
+- [41:47] premium of being that brand. Yeah. I
+- [41:48] mean what I'm struck by is there's been
+- [41:50] there was such a head fake in the early
+- [41:51] days of of AI apps where people were
+- [41:52] like we want this amazing defensibility
+- [41:54] story and then what's the easiest
+- [41:55] defensibility story? It's like, oh, like
+- [41:57] totally unique data set or like train
+- [41:58] your own model or something. And I feel
+- [41:59] like that was just like a total head
+- [42:00] fake where I don't think that's actually
+- [42:02] useful at all. It's the much less you
+- [42:04] sound much less articulate when you're
+- [42:05] like, well, the defensibility here is
+- [42:06] like the thousand small things that this
+- [42:08] company does to make like the user
+- [42:10] experience, design, everything just like
+- [42:12] delightful and just like the speed at
+- [42:14] which they move to kind of both create a
+- [42:16] really broad product, but then also
+- [42:17] every 3 six months when a new model
+- [42:19] comes out is kind of an existential
+- [42:20] event for like any company because if
+- [42:21] you're not the first to like figure out
+- [42:23] how to use it, someone else will. So
+- [42:24] velocity really matters there. And it's
+- [42:26] funny in kind of our internal
+- [42:28] discussions, we've been like, man, that
+- [42:29] sounds pretty similar to like how we
+- [42:30] thought about like application SAS
+- [42:31] companies. Um that there isn't some like
+- [42:33] revolutionary reason. You don't sound
+- [42:35] like a genius when you're like, here's
+- [42:36] applications why application SAS company
+- [42:38] A is so much better than B. Um but it's
+- [42:40] like a lot of little things that
+- [42:42] compound over time. What about the
+- [42:43] infrastructure space, guys? Like I'm
+- [42:44] curious, uh you know, how do you guys
+- [42:46] think about where the interesting
+- [42:47] categories are here today? And you know
+- [42:50] like where where where do you want to
+- [42:51] see more startups or or where do you
+- [42:53] think there are too many? Yeah. Yeah. We
+- [42:55] call it kind of the LLM OS. Um but I
+- [42:57] would say no we I mean Andre Andre calls
+- [42:59] it LMOS. Well but yeah we well we have
+- [43:03] our Andre the three of you call it the
+- [43:05] LM. Well we have this like four words of
+- [43:07] AI uh framework that we use and LLM OS
+- [43:10] is one of them. But um yeah I mean code
+- [43:12] execution is one we've been banging the
+- [43:14] drum. Everybody now knows we're
+- [43:16] investors in E2P. Uh memory, you know,
+- [43:19] is one that uh we kind of touched on
+- [43:21] before. Um super interesting search uh
+- [43:24] we talked about. Um I I think those are
+- [43:26] more not traditional infra not like the
+- [43:29] bare metal infra. It's more like the
+- [43:31] infra around model, you know. Uh which I
+- [43:34] think is where a lot of the value is
+- [43:36] going to be. Um the security ones. Yeah.
+- [43:38] Yeah. and cyber security. I mean um
+- [43:40] there's so much uh to be done there and
+- [43:42] it's more like basically any area where
+- [43:44] AI is being used by the offense AI needs
+- [43:48] to be applied on the defense side like
+- [43:50] email security you know identity like
+- [43:53] all these different things. Um, so we've
+- [43:55] been doing a lot there as well as, you
+- [43:57] know, how do you rethink things that
+- [43:58] used to be costly like red teaming and
+- [44:00] maybe used to be a checkbox in the past.
+- [44:03] Today they can be actually helpful uh to
+- [44:05] make you secure your app. And there's
+- [44:07] this whole idea of like semantics,
+- [44:09] right, that not the models can be good
+- [44:10] at. Um, you know, in the past everything
+- [44:13] is about syntax. It's kind of like very
+- [44:14] basic, you know, constraint rules. I
+- [44:17] think now you can start to infer
+- [44:19] semantics from things that are beyond
+- [44:21] just like simple recognition to like
+- [44:23] understanding why certain things are
+- [44:25] happening a certain way. So in the
+- [44:27] security space we're seeing that with um
+- [44:30] binary inspection for example like
+- [44:32] there's kind of like the syntax but then
+- [44:33] there are like semantics of like
+- [44:36] understanding what is this code overall
+- [44:38] really trying to do even though this
+- [44:40] individual syntax is like saying
+- [44:42] something specific. Not to get too
+- [44:44] technical, but um yeah, I think Infra
+- [44:46] overall is like a super interesting
+- [44:49] place if you're making use of the model.
+- [44:51] If you're just I'm less bullish, not not
+- [44:54] that it's not a great business, but I
+- [44:56] think it's a very capital intensive
+- [44:57] business, which is like serving the
+- [44:59] models. I think that in like great
+- [45:01] people will make money, but um yeah, I I
+- [45:04] don't think there's as much of a um
+- [45:07] interest from from us at least. How how
+- [45:09] do you guys think about what OpenAI and
+- [45:11] the big research labs will encompass as
+- [45:13] part of the developer and infra
+- [45:14] category? Yeah, that that's why I I
+- [45:16] would say
+- [45:18] um search is the first example of one of
+- [45:21] the things we used to mention on you
+- [45:24] know we had X on the podcast and
+- [45:25] perplexity obviously as a as an API. The
+- [45:27] basic idea is uh if you go into like the
+- [45:29] chat GPT custom GPT builder like what
+- [45:31] are the check boxes each of them is a
+- [45:33] startup. Yeah. Yeah. And and now they're
+- [45:35] also APIs. So now search is also an API.
+- [45:38] Um we'll see what the adoption is.
+- [45:40] There's the you know in traditional
+- [45:42] inference like everybody wants to be
+- [45:43] multicloud. So maybe we'll see the same
+- [45:46] where um chupd search or openi search
+- [45:50] API is like great with the openi models
+- [45:53] because you get it all bundled in but
+- [45:54] their price is very high. If you compare
+- [45:56] it to like, you know, AXA, I think it's
+- [45:58] like five times the the price for the
+- [46:01] same amount of research, which makes
+- [46:03] sense if you have a big open contract,
+- [46:04] but maybe if you're just like picking
+- [46:06] best and breed, you want to compare
+- [46:08] different ones. Yeah. Um, yeah, they
+- [46:10] don't have a code execution one. I'm
+- [46:11] sure they'll release one soon. Um, so
+- [46:14] they want to own that, too. But, um,
+- [46:16] yeah, same question we were talking
+- [46:18] about before, right? Do they want to be
+- [46:19] an API company or a product company? Do
+- [46:21] you make more money building tragedy
+- [46:23] search or selling search API? Yeah, the
+- [46:25] the broader lesson instead of like going
+- [46:27] we did applications just now and then
+- [46:29] what do you think is interesting
+- [46:30] infrastructure like it's not 50/50 it's
+- [46:32] not like equal weighted like it it's
+- [46:33] just very clearly the application layer
+- [46:35] has like been way more interesting
+- [46:38] like yes there there's interesting
+- [46:40] infrastructure plays and I even want to
+- [46:42] like push back on like the the the whole
+- [46:43] GPU serving thing because like together
+- [46:46] AI is doing well fireworks I was say
+- [46:48] it's like data centers and inference
+- [46:49] providers you know I think it's all like
+- [46:52] the capital I see I see for for again
+- [46:55] capital much larger fonts. So you I'm
+- [46:58] sure you have GPU clouds. Yeah. So um
+- [47:01] that's that that is one thing I have
+- [47:03] been learning in in that um you know I
+- [47:05] think I have historically had a dev
+- [47:07] tools and infra bias and so is he and
+- [47:10] we've had to learn that applications
+- [47:12] actually are very interesting and also
+- [47:14] maybe kind of the killer application of
+- [47:17] models in the sense that you can charge
+- [47:18] for utility and not for cost. Right.
+- [47:21] Which where like most infrastructure
+- [47:23] reduces to cost plus. Yeah. Right. So,
+- [47:26] and like that's not where you want to be
+- [47:27] for AI. Um, so that's that's interesting
+- [47:30] for for me. Um, I I thought it would be
+- [47:32] interesting for me to be the only non-VC
+- [47:34] in the room to be saying what is not
+- [47:36] investable cuz like then I then you know
+- [47:38] you can uh I I won't be cancelled for
+- [47:40] saying like your your whole category
+- [47:43] like this thing is not investable and
+- [47:44] then like 3 months later we're
+- [47:45] desperately chasing so you don't want to
+- [47:47] be on the record. It changes so fast.
+- [47:49] It's like you got every opinion you hold
+- [47:50] you have to like hold it quite loosely.
+- [47:52] I'm happy to be wrong in public you
+- [47:53] know. I think that's how you learn the
+- [47:54] most. Right. So like finetuning
+- [47:56] companies is just something I struggled
+- [47:57] with and still like I don't see how this
+- [48:00] becomes a big thing like um you kind of
+- [48:03] have to wrap it up in a broader broader
+- [48:06] um enterprise AI company like services
+- [48:10] company like a writer AI where like they
+- [48:12] will find you and it's part of the
+- [48:13] overall offering but like that's not
+- [48:15] where you spike. Um yeah it's kind of
+- [48:18] interesting and then I I'll just kind of
+- [48:20] AI DevOps and like there's a lot of AI s
+- [48:22] out there. um seems like there's a lot
+- [48:24] of data out there that that should be
+- [48:26] able to be plugged into your codebase or
+- [48:28] or or your app to it's going to selfheal
+- [48:30] or whatever. It's just I don't know if
+- [48:33] that's like been a thing yet and you
+- [48:34] guys can correct me if if I'm wrong. And
+- [48:35] then the the last thing I'll mention is
+- [48:37] voice realtime infra. Um again like very
+- [48:40] interesting, very very hot, but again
+- [48:42] how big is it? Those are the the main
+- [48:43] three that I'm thinking about for things
+- [48:46] I'm struggling with. Yeah, I guess a
+- [48:48] couple comments on the AISR side. I
+- [48:50] actually disagree with that one. Um, I
+- [48:52] think that the reason they haven't sort
+- [48:54] of taken off yet is because the tech is
+- [48:56] just not there quite yet. And so it goes
+- [48:58] back to the earlier question, do we
+- [49:00] think about investing towards where the
+- [49:02] companies will be when the models
+- [49:03] improve versus now? I think that's going
+- [49:05] to be in short term we'll get there, but
+- [49:08] it's just not there just yet. But I
+- [49:09] think it's an interesting opportunity
+- [49:10] overall. Yeah, it's um my push back to
+- [49:14] you is well, it's monitoring a lot of
+- [49:15] logs, right? And it's basically anomaly
+- [49:18] detection rather than um like there's
+- [49:21] there's a whole bunch of like stuff that
+- [49:23] can happen after you detect the anomaly,
+- [49:24] but it's really just an anomaly
+- [49:25] detection. And we've always had that,
+- [49:27] you know, like it's this is like not a
+- [49:29] transformers LLM use case. This is just
+- [49:31] regular anomaly detection. It's more in
+- [49:33] terms of like it's not going to be an
+- [49:35] autonomous S for a while. And so the
+- [49:37] question is how how much can the latest
+- [49:40] sort of AI advancements increase the
+- [49:41] efficacy of going bringing your MTR
+- [49:43] down? Yeah. And I see even if it's 10%
+- [49:46] uh improvement on beforehand, that's
+- [49:48] still potentially a lot of revenue.
+- [49:50] Okay, that's the way at least I think I
+- [49:52] would think about it now and then, you
+- [49:54] know, a few years from now if it's
+- [49:56] actually an autonomous s suring
+- [49:58] altogether, then that's a totally
+- [50:00] different thing.
+- [50:01] Cool. I look off for it. Yeah. Yeah. Um,
+- [50:04] you know, I guess, uh, switching back to
+- [50:06] overly broad questions like what do you
+- [50:08] feel like is the biggest unanswered
+- [50:09] question, um, in AI today, you know,
+- [50:11] that has and, you know, large
+- [50:13] implications for the ecosystem. Um,
+- [50:15] yeah, I I've been banging the drum on RL
+- [50:17] and I think it's clear that you can do
+- [50:19] RL successfully on verifiable domains.
+- [50:22] Um, I would say whether or not we can
+- [50:23] figure out how to do that in
+- [50:25] nonverifiable one. So law is a great
+- [50:28] example of like can you do RL on
+- [50:31] contracts and documents? uh marketing
+- [50:33] sales going back to outbound sales like
+- [50:36] can you do RL to like simulate what an
+- [50:39] outbound and and kind of like the
+- [50:40] conversation leads to. Um yeah, it's
+- [50:43] unclear. If not, then I think we'll be
+- [50:46] stuck with like you're going to have
+- [50:47] agents in the more verifiable domains
+- [50:49] and then you'll just kind of have
+- [50:50] co-pilots in the non-verifiable ones
+- [50:52] because you'll still need a person to be
+- [50:54] the taste maker. I have the exact same
+- [50:56] thing. I feel it's like the qu I just
+- [50:58] I'm trying to think of the implications
+- [50:59] where if it doesn't work like the world
+- [51:00] could be weird where like you have like
+- [51:02] fully autonomous AI coders and like you
+- [51:04] know no one does any software or math or
+- [51:06] even like you know some areas of science
+- [51:07] but then like to write the most basic
+- [51:09] sales email is still
+- [51:11] like it just it's always so hard to
+- [51:13] predict how the world like that is such
+- [51:15] a weird of all the sci-fi that was
+- [51:17] written you know 50 years ago I don't
+- [51:18] think anybody foresaw that future like
+- [51:19] that is a really weird future. Did
+- [51:21] either of you have a different one for
+- [51:22] that? Uh well yeah no we we'll go back
+- [51:25] and forth.
+- [51:26] Um, biggest unanswered question, I
+- [51:28] guess.
+- [51:29] Um, I don't know if there's a good
+- [51:31] answer, but you know, Bob Mcgru we had
+- [51:34] on the podcast and he was talking about
+- [51:35] like the rule of nines they have at
+- [51:36] OpenAI where to go from 90% reliability
+- [51:39] to 99, it's an order of magnitude
+- [51:41] increase in compute and then 99 to 99.9,
+- [51:44] order of magnitude increase and that
+- [51:45] happens every 2 to 3 years. And so I
+- [51:48] think how are we going to scale sort of
+- [51:51] accordingly um this sort of next part? I
+- [51:54] think there's a lot of unanswered
+- [51:55] questions just like from a hardware
+- [51:56] perspective and then I think as part of
+- [51:58] that from the availability perspective
+- [52:00] like is Nvidia just going to continue to
+- [52:03] be dominant like obviously AWS is going
+- [52:05] hard um into uh what's there chips I'm
+- [52:10] blank on that thank you um and so I
+- [52:13] think like there's a big ecosystem
+- [52:15] around CUDA that's obviously allowed
+- [52:17] Nvidia to remain dominant but just
+- [52:19] what's going to happen and is there
+- [52:21] anyone is going is there anyone that's
+- [52:23] going to come sort of combat that to
+- [52:25] increase the availability of GPUs or are
+- [52:27] we just going to be constrained going
+- [52:28] forward when we actually need way more
+- [52:30] compute going forward? Yeah, my quick
+- [52:33] thoughts. Uh I've I've been uh I'm the
+- [52:36] only individual named as an investor in
+- [52:39] Medex. Uh which is kind of like really
+- [52:41] funny cuz everyone else was funds and
+- [52:43] then it was just me. uh and and it's
+- [52:46] it's it's there's there's an interest
+- [52:48] like all these like Nvidia startups like
+- [52:49] sorry uh dedicated silicon startups that
+- [52:52] are coming up and and uh trying to
+- [52:53] challenge that and the simple answer is
+- [52:56] um like these GPUs are the most general
+- [52:58] things possible by by design that's why
+- [53:00] they do gaming and crypto and AI and uh
+- [53:03] I think as long as the architecture
+- [53:05] seems seems stable it seems like there's
+- [53:07] a case to be made for uh for that um the
+- [53:10] only question is who will win that and
+- [53:12] obviously there's a whole bunch of
+- [53:13] competitors including I think AMD is
+- [53:15] trying to, you know, to to make a play
+- [53:17] for it, but so will AWS and so will, you
+- [53:19] know, every other like Microsoft has a
+- [53:21] chip, Facebook has a chip. Um, so who
+- [53:23] knows who will win that. Um, it's just
+- [53:25] it's very interesting that like this
+- [53:29] seems to be such a valuable prize. Like
+- [53:30] it's freaking Nvidia that you're
+- [53:32] competing with and no one has really
+- [53:35] made a real dent there yet.
+- [53:38] But so I I kind I kind of agree with
+- [53:40] you, but like I think that basically
+- [53:41] it's all about stability of workload and
+- [53:43] as long as it's a bet on like the depth
+- [53:46] of transformers basically. Um and if
+- [53:48] you're fine with that like even uh and I
+- [53:50] think like the even a state-based model
+- [53:52] people would agree that like it wouldn't
+- [53:54] really change that much. Um and probably
+- [53:57] uh I think the the overall consensus is
+- [53:59] that you don't even use state-based
+- [54:01] models in individually like you would
+- [54:03] use them in a mixture with transformers
+- [54:05] anyway. Um so then like yeah just go bet
+- [54:08] on transformers bake it into the chip
+- [54:10] and you will have much way more uh you
+- [54:12] know you basically A6 like for
+- [54:14] transformers and that's fine and and um
+- [54:16] so like prima fussy there should be a
+- [54:18] company that wins that I don't know who
+- [54:20] will win. Yeah I wish we win now.
+- [54:23] I I think that I think anyone you have
+- [54:25] to start basically after 2019 or 2020
+- [54:29] because anyone started before that will
+- [54:31] still be too general like because you
+- [54:33] transformers hadn't won yet one at the
+- [54:35] time. I have one more the I think that
+- [54:37] the most emergent one that came out of
+- [54:39] the New York conference that I did was a
+- [54:41] agent authentication. Um I think
+- [54:44] literally the like the information just
+- [54:45] published that like this is something
+- [54:46] that they're worried about which is um
+- [54:48] when operator or whoever accesses your
+- [54:51] website on behalf of you, how does it
+- [54:53] indicate that it's not you but it's it's
+- [54:55] an agent of you and I think like um my
+- [54:58] general philosophy on agent experience
+- [55:00] or any of the sort of like reinvention
+- [55:02] of every part of the stack for agents is
+- [55:04] that all not not necessary except for
+- [55:06] this agent off thing like we we really
+- [55:08] need uh to to be able to like new SSO
+- [55:12] effectively. four agents. Is it going to
+- [55:13] be crypto? But crypto people are really
+- [55:15] amped about the uh you know like it
+- [55:17] really it's really frustrating when
+- [55:19] Samman is right. But like maybe you have
+- [55:21] to scan your eyeballs like you just have
+- [55:23] to you just like maybe he saw this like
+- [55:26] 5 years ago and he was like you got to
+- [55:28] scan your eyeballs and like the rest of
+- [55:29] us are just behind him as usual.
+- [55:33] I love it. Well, okay. Now I'll move to
+- [55:35] the quickfire round. Um where we'll
+- [55:36] we'll go around the horn and get uh get
+- [55:38] quick takes on things. So the first is
+- [55:40] going to be uh dream podcast guest John
+- [55:43] Carmarmac. Yeah. Uh he's six John is
+- [55:47] like six steps away from solving AGI
+- [55:49] apparently. So we just ask him how long
+- [55:50] before uh for us it's Andre. For me it's
+- [55:53] Andre. Um he had he's a listener and
+- [55:56] supporter of the pod and like basically
+- [55:58] when I launched the the whole AI
+- [56:00] engineer push that we that we have he
+- [56:02] was the basically the first one to
+- [56:03] legitimize it. He was like you know
+- [56:05] there will be more AI engineers than ML
+- [56:06] engineers. And I think that made
+- [56:08] everyone else pay attention. So like
+- [56:10] lens space only exists because you know
+- [56:12] he he helps he and other people helped
+- [56:14] to promote it. Yeah. I also had Andrea.
+- [56:16] So you guys were thinking the same thing
+- [56:18] there. I basically mine is a little bit
+- [56:20] cheating but I think at some point there
+- [56:22] will like they're writing a book about
+- [56:23] OpenAI now. And at some point like
+- [56:25] somebody probably acquired we'll get to
+- [56:26] do the acquired OpenAI episode but if
+- [56:28] Unsupervised Learning could like there's
+- [56:30] just like so many amazing stories of
+- [56:32] like the last five six years. Um so do
+- [56:35] you know about doomers? Uh, it's a play.
+- [56:38] I'm actually going to it this Saturday.
+- [56:40] Uh, yeah. They they they someone made a
+- [56:42] play about the board drama of last year.
+- [56:44] Really? Of Yeah. Wow. That's cool. I
+- [56:47] don't know how it is. Yeah. Let us know.
+- [56:49] There will be that on the podcast.
+- [56:52] No, I I think it's a lot of fanfiction
+- [56:54] basically, but like someone will write
+- [56:56] the accounts and and it will be
+- [56:58] interesting and fascinating and a lot of
+- [56:59] a lot of it will be fake because it's a
+- [57:01] complex beast, right? You're just
+- [57:03] getting an oral history of what
+- [57:04] happened. Yeah. Yeah. Yeah. Um, all
+- [57:07] right. For the next one, I figured you
+- [57:08] could shout out either like a new source
+- [57:10] you use to stay up to date or a startup
+- [57:12] that's that you're not invested in that
+- [57:13] you're excited about. Oh, or you can do
+- [57:16] um my new sources. Sean, that's what I
+- [57:19] was going to say. I literally wrote his
+- [57:21] Twitter. So, in our in our disc, we have
+- [57:23] a lat space. We have a laten space
+- [57:25] discord. Any link that ever matters on
+- [57:28] the internet, Sean is going to post it
+- [57:30] in the discord. So all I do I open
+- [57:32] Discord and and we have like you know 40
+- [57:36] 50 different channels by topic. Very
+- [57:38] true. I open Discord and I'm like okay
+- [57:40] AI then I go developer tools then I go
+- [57:44] creator economy then I go stock and
+- [57:45] macro then I go and they're all there.
+- [57:47] So thank you. We actually met because of
+- [57:49] the discord. Uh it was like a co thing
+- [57:51] cuz everyone's at home and just started
+- [57:53] the discord and yeah that was the origin
+- [57:55] of space just chatting on the discord.
+- [57:57] It used to be called dev/invest. Yeah.
+- [57:59] So it was all about developer tools
+- [58:01] investing. Um and then we were at OpenAI
+- [58:04] in October of 2022. We're like maybe we
+- [58:06] should do a podcast and then OpenAI was
+- [58:08] the first. Yeah. Yeah. Yeah. Um I uh I
+- [58:13] was not prepared about the the new
+- [58:14] sources thing. Uh I think
+- [58:18] maybe it's hard it's really shitty to
+- [58:21] say but like just inerson conversations.
+- [58:23] Yeah. Um, and uh, I think the reason I
+- [58:27] have to be here in SF is because I make
+- [58:30] friends with people who know things and
+- [58:31] are smarter than me and we go for chats
+- [58:34] and they're nice enough to share some
+- [58:35] stuff. And so sometimes I wish I I worry
+- [58:39] that I am being used in order to put
+- [58:42] things out there that are maybe not
+- [58:44] true, but you know, so I have to
+- [58:47] exercise my own judgment as to what I
+- [58:49] think one of the cool things about the
+- [58:50] podcast in general is just like the
+- [58:51] opportunity to take these conversations
+- [58:52] that happen in like closed rooms and and
+- [58:54] try and bring them on to to the airways.
+- [58:56] I'm curious like how much of what you
+- [58:58] how how much do you feel like the
+- [59:00] private discourse is similar to the to
+- [59:01] the public discourse in in many ways
+- [59:04] they it is uh surprisingly similar.
+- [59:07] Yeah. Uh as in people at OpenAI learn
+- [59:11] about things about OpenAI from us which
+- [59:14] is interesting. Uh and then there are
+- [59:16] some ways in which is drastically not uh
+- [59:18] drastically dissimilar and those are the
+- [59:20] things I just cannot repeat until it's
+- [59:22] public. This has been super fun. I
+- [59:23] thought it lived up to we were looking
+- [59:24] forward to this for a while. We want to
+- [59:26] make sure uh everyone around the horn
+- [59:28] gets an opportunity to plug whatever
+- [59:29] they want to plug. Um so we'll leave the
+- [59:31] last word to uh to all of us I guess. Um
+- [59:34] where can folks go to learn more about
+- [59:35] Leen Space and all the exciting things
+- [59:37] you do. Um want to make sure our
+- [59:38] listeners have a good sense of
+- [59:40] everything. Yes. So we have a substack
+- [59:42] leaden.space is the website and then
+- [59:45] please subscribe on YouTube. Uh we're
+- [59:47] doing a lot on YouTube. We're trying to
+- [59:49] do better video and all that. So we set
+- [59:51] our OKRs and uh it's it's basically all
+- [59:53] YouTube. Come come watch us on YouTube.
+- [59:55] It's very important for me personally.
+- [59:57] So even if you don't care, just
+- [59:59] open ours. We have to increase our
+- [60:01] production value. Look at this. I know.
+- [60:04] I know. We only have three cameras. Um
+- [60:07] Yeah. And then um Sean does a lot of the
+- [60:10] writing outside of the podcast on the
+- [60:11] newsletter. So um yeah. So it's like
+- [60:14] trying to be uh newsletter and community
+- [60:18] and podcast and whatever else that we
+- [60:21] do. Um yeah. So, uh I guess for for me I
+- [60:25] guess there's the inspace, but then
+- [60:26] there's also the other big piece which
+- [60:28] is the the conference that I run. Um and
+- [60:30] the idea is that I think sometimes you
+- [60:33] just get the the good stuff from people
+- [60:35] if you just put them in front of a lot
+- [60:36] of people. Uh and that's really like I'm
+- [60:39] mining people for content and sometimes
+- [60:41] you put a mic in front of them and they
+- [60:42] yap for an hour. Other other times you
+- [60:45] have to put them in front of like a
+- [60:46] prestigious conference and then they
+- [60:47] drop some alpha. And so the next one for
+- [60:50] us is going to be June. It's uh the AI
+- [60:52] engineer world's fair. Um and it should
+- [60:54] be the largest technical conference uh
+- [60:57] for AI and ours is simple just uh we we
+- [61:00] just run a humble podcast. So uh
+- [61:02] subscribe to Unsupervised Learning on
+- [61:04] YouTube. Um folks, thanks so much. This
+- [61:06] was uh this was awesome. Thanks for
+- [61:07] having us. Good to see you guys. Thanks
+- [61:08] for coming on. Hey guys, this is Jacob.
+- [61:10] Just one more thing before you take off.
+- [61:12] If you enjoy that conversation, please
+- [61:14] consider leaving a fivestar rating on
+- [61:15] the show. Doing so helps the podcast
+- [61:17] reach more listeners and helps us bring
+- [61:18] on the best guests. This has been an
+- [61:20] episode of Unsupervised Learning, an AI
+- [61:22] podcast by Redpoint Ventures, where we
+- [61:24] probe the sharpest minds in AI about
+- [61:26] what's real today, what's going to be
+- [61:27] real in the future, and what it means
+- [61:29] for businesses in the world. With the
+- [61:30] fast-moving pace of AI, we aim to help
+- [61:32] you deconstruct and understand the most
+- [61:34] important breakthroughs and see a
+- [61:36] clearer picture of reality. Thank you
+- [61:38] for listening, and see you next episode.
+- [61:41] [Music]

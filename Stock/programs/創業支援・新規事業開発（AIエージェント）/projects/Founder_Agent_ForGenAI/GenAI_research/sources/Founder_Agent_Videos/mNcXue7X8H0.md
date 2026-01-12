@@ -1,0 +1,4535 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=mNcXue7X8H0"
+video_id: "mNcXue7X8H0"
+video_url: "https://www.youtube.com/watch?v=mNcXue7X8H0"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "marketing", "PMF", "AI", "investment", "funding", "team_building", "product_development", "growth"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=mNcXue7X8H0
+  - Retrieved at: 2025-12-30T16:09:43+09:00
+  - [00:00] Welcome to the video that I have put the
+key_points:
+  - "- [00:09] into everything you need to know about"
+  - "- [00:15] important for you no matter what you are"
+  - "- [00:28] way. I have everything that you need to"
+  - "- [01:12] should you care about it? Why do I"
+  - "- [03:15] that you need to take this master class"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: mNcXue7X8H0
+
+- URL: https://www.youtube.com/watch?v=mNcXue7X8H0
+- Retrieved at: 2025-12-30T16:09:43+09:00
+
+## Text
+
+- [00:00] Welcome to the video that I have put the
+- [00:02] most effort into creating by far on my
+- [00:04] channel to date. This is the local AI
+- [00:08] master class and we're going to dive
+- [00:09] into everything you need to know about
+- [00:12] local AI. What it is, why it's so
+- [00:15] important for you no matter what you are
+- [00:16] building with AI. How you can run your
+- [00:18] own large language models and self-host
+- [00:20] your own infrastructure. How you can
+- [00:22] build 100% private and offline AI agents
+- [00:26] and deploy them to the cloud in a secure
+- [00:28] way. I have everything that you need to
+- [00:31] get started here even if you haven't
+- [00:32] done anything with local AI before and I
+- [00:35] take things pretty far. There is a lot
+- [00:36] of value packed into this for you. So,
+- [00:38] buckle up, enjoy the ride and follow
+- [00:40] along as well. So, first things first,
+- [00:43] let's start with an agenda for the
+- [00:44] master class. There are so many things
+- [00:46] that I cannot wait to share with you.
+- [00:49] And I have very detailed chapters for
+- [00:51] this YouTube video so you can easily
+- [00:53] navigate between everything that I'm
+- [00:55] going to show you. I just want to make
+- [00:56] it super easy for you to get exactly
+- [00:58] what you want out of this master class.
+- [01:00] Nothing more, nothing less. We'll start
+- [01:03] by diving into what is local AI and I
+- [01:06] have a quick demo to make this very,
+- [01:07] very hands-on. And then with that, we'll
+- [01:10] get into the why. Why local AI? Why
+- [01:12] should you care about it? Why do I
+- [01:14] believe so firmly that it is the future
+- [01:16] of AI? I'll dive into all my reasoning
+- [01:18] there. And then we'll get into hardware
+- [01:20] requirements because these local LLMs
+- [01:22] are beasts and you have to have specific
+- [01:24] hardware to be able to run them. So I'll
+- [01:26] dive into all that based on different
+- [01:28] large language models and some
+- [01:29] alternatives as well. Then we'll get
+- [01:32] into all of the tricky stuff. There are
+- [01:34] a few things that are usually pretty
+- [01:35] daunting for people. So I want to break
+- [01:37] down those barriers just to make you
+- [01:39] super confident running your own local
+- [01:41] LLMs and infrastructure. And then with
+- [01:43] that, we'll get into how you can use
+- [01:45] local AI anywhere. Because Olama and
+- [01:48] other solutions for running your own
+- [01:50] large language models, they are OpenAI
+- [01:52] API compatible. I'll get into what that
+- [01:54] means when we get to this point. But
+- [01:56] basically, any agents that you already
+- [01:58] have running with Python or N8N,
+- [02:00] whatever. If you're using OpenAI or
+- [02:02] Gemini or Enthropic, you can very easily
+- [02:04] swap them to use local AI instead. So
+- [02:07] you can turn your existing agents into
+- [02:09] ones that are 100% offline, free, and
+- [02:13] private. And then with that, we will get
+- [02:15] into the local AI package. This is a set
+- [02:18] of services that I've curated for you to
+- [02:20] run your entire local AI infrastructure
+- [02:22] like your UI, your database, your large
+- [02:25] language models, and a lot more. This is
+- [02:27] where we really start to build out our
+- [02:28] full infrastructure. I'll walk you
+- [02:30] through setting up the local AI package,
+- [02:32] getting into the nitty-gritty details to
+- [02:33] make sure that you have everything set
+- [02:35] up at this point. And then once we have
+- [02:37] that set up, we can dive into building a
+- [02:40] fully local AI agent with N8N. And then
+- [02:43] we'll transition that same agent into
+- [02:44] Python as well. So that you'll see once
+- [02:47] we have the local AI package set up, how
+- [02:49] you can build a 100% offline and private
+- [02:51] agent both with no code and with code.
+- [02:54] And then we'll take those agents and
+- [02:56] deploy them to the cloud, specifically
+- [02:58] on the Digital Ocean platform. But I'll
+- [03:00] walk you through a process that you can
+- [03:02] use no matter the cloud provider that
+- [03:04] you are using. and we'll deploy things
+- [03:05] in a very secure way both for the
+- [03:07] package for our infrastructure and the
+- [03:09] AI agent itself. And then last, I want
+- [03:12] to end with some additional resources
+- [03:14] just to make sure you have everything
+- [03:15] that you need to take this master class
+- [03:17] forward and really use this to build any
+- [03:19] AI agent that you could possibly want
+- [03:21] 100% local. And also, if you are
+- [03:24] interested in mastering more than just
+- [03:26] local AI, but building entire AI agents
+- [03:29] in a local AI environment or even with
+- [03:31] cloud AI, definitely check out
+- [03:33] dynamis.ai. AI. This is my community for
+- [03:35] early AI adopters just like yourself.
+- [03:38] And a big part of this community is the
+- [03:40] AI agent mastery course where I dive
+- [03:43] super deep into my full process for
+- [03:45] building AI agents. I'm talking planning
+- [03:48] and prototyping and coding and using AI
+- [03:50] coding assistance and building full
+- [03:53] frontends for our AI agents and securing
+- [03:55] things and deploying things. There's a
+- [03:56] lot more coming soon for this course as
+- [03:59] well. I'm very actively working on it.
+- [04:00] And a big part of this course is the
+- [04:03] complete agent that I build throughout
+- [04:05] it. I build both with cloud AI and local
+- [04:07] AI. And so this master class will help
+- [04:10] you get very very comfortable with local
+- [04:11] AI. But when it comes to building
+- [04:13] complex agents and really getting deep
+- [04:15] into building out agents, then you
+- [04:17] definitely want to check out the AI
+- [04:19] agent mastery course here in Dynamis.AI.
+- [04:21] So with that, let's get back to the
+- [04:23] master class, diving into what local AI
+- [04:25] is all about. Let's start by laying the
+- [04:28] foundation. What is local AI in the
+- [04:30] first place? Well, very simply put,
+- [04:32] local AI is running your own large
+- [04:34] language models and infrastructure like
+- [04:36] your database and your UI entirely on
+- [04:38] your own machine 100% offline. So when
+- [04:42] you think about when you typically want
+- [04:43] to build an AI agent, you need a large
+- [04:46] language model maybe like GPT4.1
+- [04:49] or Claude 4 and then you need something
+- [04:51] like your database like Superbase and
+- [04:53] you need a way to create a user
+- [04:54] interface. you have all these different
+- [04:56] components for your agent and typically
+- [04:58] you're using APIs to access things that
+- [05:01] are hosted on your behalf. But with
+- [05:03] local AI, we can take all of these
+- [05:05] things completely in our own control
+- [05:07] running them ourselves. So this is
+- [05:09] possible through open-source large
+- [05:11] language models and software. So
+- [05:14] everything is running on your own
+- [05:15] hardware instead of you paying for APIs.
+- [05:18] So we run the large language model
+- [05:20] ourself on our own machine instead of
+- [05:22] paying for the OpenAI API for example.
+- [05:24] And so for large language models, there
+- [05:27] are thousands of different open source
+- [05:29] large language models available for us
+- [05:31] to use in a lot of different ways. And
+- [05:32] some of these you've probably heard of
+- [05:34] before, like Deepseek R1, Quen 3,
+- [05:37] Mistral 3.1, Llama 4. These are just a
+- [05:40] couple of examples of the most popular
+- [05:41] ones that you've probably heard of
+- [05:42] before. We'll be tinkering around with
+- [05:44] using some of these in this master
+- [05:46] class. And then we also have open-source
+- [05:48] software. So all of our infrastructure
+- [05:50] that goes along with our agents and
+- [05:52] LLMs, things like Olama for running our
+- [05:55] LLMs, Superbase for our database, N8N
+- [05:58] for our no/ lowode workflow automations,
+- [06:01] and open web UI to have a nice user
+- [06:04] interface to talk to our agents and
+- [06:06] LLMs. And we'll dive into using all of
+- [06:07] these as well. Now, because local AI
+- [06:10] means running large language models on
+- [06:12] our own computer, it's not as easy as
+- [06:14] just going to claw.ai AI or chatgbt.com
+- [06:18] and typing in a prompt. We have to
+- [06:19] actually install something, but it still
+- [06:22] is very easy to get started. So, let me
+- [06:24] show you right now with a hands-on
+- [06:25] example. So, here we are within the
+- [06:27] website for Olama. This is just.com.
+- [06:30] I'll have a link to this in the
+- [06:31] description of the video. This is one of
+- [06:33] the open- source platforms that allows
+- [06:35] us to very easily download and run local
+- [06:38] large language models. And so, you just
+- [06:40] have to go to their homepage here and
+- [06:42] click on this nice big download button.
+- [06:43] You can install it for Windows, Mac or
+- [06:45] Linux. It really works for any operating
+- [06:47] system. Then once you have it up and
+- [06:49] running on your machine, you can open up
+- [06:51] any terminal. Like I'm on Windows here,
+- [06:53] so I'm in a PowerShell session and I can
+- [06:56] run Olama commands now to do things like
+- [06:58] view the models that I have available on
+- [07:00] my machine. I can download models and I
+- [07:03] can run them as well. And the way that I
+- [07:05] know how to pull and run specific models
+- [07:08] is I can just go to this models tab in
+- [07:10] their navigation and I can browse and
+- [07:12] filter through all of the open source
+- [07:14] LLMs that are available to me like
+- [07:16] DeepSeek R1. Almost everyone is familiar
+- [07:18] with DeepSeek. It just totally blew up
+- [07:20] back in February and March. We have
+- [07:22] Gemma 3, Quen 3, Llama 4, a few of them
+- [07:25] that I mentioned earlier when we had the
+- [07:28] presentation up. And so we can click
+- [07:30] into any one of these like I can go into
+- [07:32] DeepSeek R1 for example and then I have
+- [07:34] the command right here that I can copy
+- [07:36] to download and run this specific model
+- [07:39] in my terminal. And there are a lot of
+- [07:41] different model variants of DeepSeek R1.
+- [07:44] So we'll get into different sizes and
+- [07:46] hardware requirements and what that all
+- [07:47] means in a little bit, but I'll just
+- [07:49] take one of them and run it as an
+- [07:50] example. So I'll just do a really small
+- [07:52] one right now. I'll do a 1.5 billion
+- [07:54] parameter large language model. And
+- [07:56] again, I'll explain what that means in a
+- [07:58] little bit. I can copy this command.
+- [07:59] It's just lama run and then the unique
+- [08:01] ID of this large language model. So I'll
+- [08:04] go back into my terminal. I'll clear it
+- [08:06] here and then paste in this command. And
+- [08:08] so first it's going to have to pull this
+- [08:09] large language model. And the total size
+- [08:12] for this is 1.1 GB. And so it'll have to
+- [08:15] download it. And then because I used the
+- [08:17] run command, it will immediately get me
+- [08:20] into a chat interface with the model
+- [08:22] once it's downloaded. Also, if you don't
+- [08:24] want to run it right right away, you
+- [08:25] just want to install it, you can do
+- [08:27] Olama pull instead of Olama run. And
+- [08:30] then again, to view the models that you
+- [08:32] have available to you installed already,
+- [08:34] you can just do the Olama list command
+- [08:36] like I did earlier. And so, right now,
+- [08:38] I'll pause and come back once it's
+- [08:39] installed in about 30 seconds. All
+- [08:41] right, it is now installed. And now I
+- [08:43] can just send in a message like hello.
+- [08:45] And then boom, we are now talking to a
+- [08:47] large language model. But instead of it
+- [08:48] being hosted somewhere else and we're
+- [08:50] just using a website, this is running on
+- [08:52] my own infrastructure, the large
+- [08:54] language model and all the billions of
+- [08:56] parameters are getting loaded onto my
+- [08:59] graphics card and running the inference.
+- [09:01] That's what it's called when we're
+- [09:02] generating a response from the LLM
+- [09:04] directly within this terminal here. And
+- [09:06] so I can ask another question like um
+- [09:08] what is the best GPU right now? We'll
+- [09:13] see what it says. So it's thinking
+- [09:14] first. This is actually a thinking
+- [09:16] model. Deepseek R1 is a reasoning LLM.
+- [09:18] And then it gives us an answer. It's top
+- [09:20] GPU models today. 3080 RX6700.
+- [09:25] Obviously, we have a training cutoff for
+- [09:27] local large language models just like we
+- [09:28] do with ones in the cloud like GPT. And
+- [09:30] so the information is a little outdated
+- [09:32] here, but yeah, this is a good answer.
+- [09:34] So we have a large language model that
+- [09:36] we're talking to directly on our
+- [09:38] machine. And then to close out of this,
+- [09:40] I can just do control D or command D on
+- [09:42] Mac. And if I do list, we have all the
+- [09:45] other models that you saw earlier, plus
+- [09:47] now this one that I just installed. So
+- [09:48] these are all available for me to run
+- [09:50] again just with that Olama run command.
+- [09:53] And it won't have to reinstall if you
+- [09:54] already have it installed. Run just
+- [09:56] installs it if you don't have it yet
+- [09:58] already. So that is just a quick demo of
+- [10:01] using Olama. We'll dive a lot more into
+- [10:03] Olama later, like how we can actually
+- [10:05] use it within our Python code and within
+- [10:07] our N8N workflows. This is just our
+- [10:09] quick way to try it out within the
+- [10:11] terminal. Now, to really get into why we
+- [10:13] should care about local AI now that we
+- [10:15] know what it is, I want to cover the
+- [10:17] pros and cons of local AI and what I
+- [10:19] like to call cloud AI. That's just when
+- [10:21] you're paying for things to be hosted
+- [10:23] for you, like using Claude or Gemini or
+- [10:25] using the cloud version of N8N instead
+- [10:28] of hosting it yourself. And I also want
+- [10:30] to cover the advantages of each because
+- [10:32] I don't want to sugarcoat things and
+- [10:33] just hype up this master class by
+- [10:35] telling you that you should always use
+- [10:37] local AI. That is certainly not the
+- [10:39] case. There is a time and place for both
+- [10:41] of these categories here, but there are
+- [10:43] so many use cases where local AI is
+- [10:46] absolutely crucial. You have no idea how
+- [10:50] many businesses I have talked to that
+- [10:52] are willing to put tens of thousands of
+- [10:54] dollars into running their own LLMs and
+- [10:55] infrastructure because privacy and
+- [10:58] security is so crucial for the things
+- [11:00] that they're building with AI. And that
+- [11:02] actually gets into the first advantage
+- [11:03] here of local AI, which is privacy and
+- [11:06] security. You can run things 100%
+- [11:09] offline. The data that you're giving to
+- [11:11] your LLMs as prompts, it now doesn't
+- [11:13] leave your hardware. It stays entirely
+- [11:16] within your own control. And for a lot
+- [11:17] of businesses, that is 100% crucial,
+- [11:20] especially when they're in highly
+- [11:22] regulated industries like the health
+- [11:24] industry, finance, uh even real estate.
+- [11:26] Like there's so many use cases where
+- [11:28] you're working with intellectual
+- [11:30] property or just really sensitive
+- [11:32] information. You don't want to be
+- [11:34] sending your data off to an LLM provider
+- [11:36] like Google or OpenAI or Enthropic. And
+- [11:39] so as a business owner, you should
+- [11:41] definitely be paying attention to this
+- [11:43] if you are working with automation use
+- [11:45] cases where you're dealing with any kind
+- [11:46] of sensitive data. And then also if
+- [11:48] you're a freelancer, you're starting an
+- [11:50] AI automation agency, anything where
+- [11:52] you're building for other businesses,
+- [11:54] you are going to have so many
+- [11:55] opportunities open up to you when you're
+- [11:57] able to work with local AI because you
+- [11:59] can handle those use cases now where
+- [12:01] they need to work with sensitive data
+- [12:03] and you can't just go and use the OpenAI
+- [12:05] API. And that is the main advantage of
+- [12:08] local AI. It is a very big deal. But
+- [12:10] there are a few other things that are
+- [12:11] worth focusing on as well. Starting with
+- [12:14] model fine-tuning, you can take any
+- [12:16] open- source large language model and
+- [12:18] add additional training on top with your
+- [12:20] own data. Basically making it a domain
+- [12:22] expert on your business or the problem
+- [12:24] that you are solving. It's so so
+- [12:27] powerful. You can make models through
+- [12:29] fine-tuning more powerful than the best
+- [12:31] of the best in the cloud depending on
+- [12:33] what you are able to fine-tune with
+- [12:36] depending on the data that you have. And
+- [12:38] you can do fine-tuning with some cloud
+- [12:40] models like with GPT, but your options
+- [12:42] are pretty limited and it can be quite
+- [12:44] expensive. And so it definitely is a
+- [12:46] huge advantage to local AI. And local AI
+- [12:49] in general can be very coste effective,
+- [12:52] including the infrastructure as well. So
+- [12:54] your LLMs and your infrastructure. You
+- [12:56] run it all yourself and you pay for
+- [12:58] nothing besides the electricity bill if
+- [13:00] it's running on your computer at your
+- [13:02] house or if you have some private server
+- [13:04] in the cloud. You just have to pay for
+- [13:06] that server and that's it. There's no
+- [13:07] N8N bill, no Superbase bill, no OpenAI
+- [13:11] bill. You can save a lot of money. It's
+- [13:13] really, really nice. And on top of that,
+- [13:15] when everything is running on your own
+- [13:17] infrastructure, the agents that you
+- [13:19] create can run on the same server, the
+- [13:22] same place as your infrastructure. And
+- [13:24] so it can actually be faster because you
+- [13:26] don't have network delays calling APIs
+- [13:28] for all your different services for your
+- [13:30] LLMs and your database and things like
+- [13:32] that. And then with that, we can now get
+- [13:34] into the advantages of cloud AI.
+- [13:36] Starting with it's a lot easier to set
+- [13:38] up. There's a reason why I have to have
+- [13:40] this master class for you in the first
+- [13:42] place. There are some initial hurdles
+- [13:44] that we have to jump over to really have
+- [13:47] everything fully set up for our local
+- [13:49] LLMs and infrastructure. And you just
+- [13:51] don't have that with cloud AI because
+- [13:52] you can very simply call into these
+- [13:54] APIs. You just have to sign up and get
+- [13:56] an API key and that's about it. So, it
+- [13:58] certainly is easier to get up and
+- [14:00] running and there's less maintenance
+- [14:02] overall because they are hosting things
+- [14:04] for you. Superbase is hosting the
+- [14:05] database for you. OpenAI is hosting the
+- [14:08] LLM for you. So, you don't have to
+- [14:09] manage things on your own hardware. With
+- [14:11] Local AI, you have to apply patches and
+- [14:13] updates if you have a private server in
+- [14:15] the cloud. You have to manage your own
+- [14:17] hardware if you're running on your own
+- [14:18] computer, making sure that it's on 24/7,
+- [14:20] if you want your database on 24/7, that
+- [14:23] kind of thing. It's just less
+- [14:24] maintenance with cloud AI. And then
+- [14:26] probably the biggest advantage of cloud
+- [14:28] AI overall is that you have better
+- [14:31] models available to you. Claude 4 sonnet
+- [14:34] or opus for example is more powerful
+- [14:37] than any local AI that you could run. So
+- [14:40] we have this gap here and this gap was a
+- [14:43] lot bigger at one point even a year ago.
+- [14:45] The best local LLMs absolutely crushed
+- [14:48] the best local LLMs and that gap is
+- [14:50] starting to diminish. And so I really
+- [14:53] see a future where that gap is
+- [14:55] diminished entirely and all the best
+- [14:57] local LLMs are actually on par with the
+- [14:59] best cloud ones. That's the future I
+- [15:01] see. That's why I think that cloud
+- [15:03] that's why I think that local AI is such
+- [15:05] a big deal because the advantages of
+- [15:07] local AI, those are just going to get
+- [15:10] more prevalent over time when businesses
+- [15:12] realize they really want private and
+- [15:13] secure solutions. And then the
+- [15:15] advantages of cloud AI, I think those
+- [15:17] are actually going to diminish over
+- [15:19] time. That's the key. minimal setup,
+- [15:22] less maintenance. Well, those advantages
+- [15:24] are going to go away as we have
+- [15:25] platforms and better instructions and
+- [15:28] solutions to make the setup and
+- [15:30] maintenance easier for local AI and we
+- [15:32] have the gap that's continuing to
+- [15:34] diminish between the power of these
+- [15:35] LLMs. All these advantages are going to
+- [15:37] actually go away and then it'll just
+- [15:39] completely make sense to use local AI
+- [15:41] honestly probably for like every single
+- [15:43] solution in the future. That's really
+- [15:45] what I see us heading towards. And then
+- [15:47] the last advantage to cloud AI which
+- [15:49] also I think will go away over time is
+- [15:51] that you have some features out of the
+- [15:53] box like you have memory that's built
+- [15:55] directly into chat GPT. Gemini has web
+- [15:58] search baked in even when you use it
+- [15:59] through the API like these kind of
+- [16:01] capabilities that are out of the box
+- [16:02] that you have to implement yourself with
+- [16:04] local AI maybe as tools for your agent
+- [16:07] and you can definitely do that but it is
+- [16:09] nice that these things are out of the
+- [16:10] box for cloud AI. So those are the pros
+- [16:13] and cons between the two. I hope that
+- [16:15] this makes it very clear for you to pick
+- [16:17] right now for your own use case. Should
+- [16:19] I implement local AI or cloud AI? A lot
+- [16:22] of it comes down to the security and
+- [16:24] privacy requirements for your use case.
+- [16:26] Now, the next big thing that we need to
+- [16:28] talk about for local AI is hardware
+- [16:30] requirements. Cuz here's the thing,
+- [16:33] large language models are very resource
+- [16:36] inensive. You can't just run any LLM on
+- [16:39] any computer. And the reason for that is
+- [16:41] large language models are made up of
+- [16:43] billions or even trillions of numbers
+- [16:46] called parameters. And they're all
+- [16:47] connected together in a web that looks
+- [16:49] kind of like this. This is a very
+- [16:51] simplified view with just a few
+- [16:52] parameters here. But each of the
+- [16:54] parameters are nodes and they're
+- [16:56] connected together. The input layer is
+- [16:58] where our prompt comes in and our prompt
+- [17:00] is fed through all these hidden layers
+- [17:02] and then we have the output at the end.
+- [17:03] This is the response we get back from
+- [17:05] the LLM. But like I said, this is a very
+- [17:07] simplified view. GPT4, for example, like
+- [17:10] you can see on the right hand side, is
+- [17:12] estimated to have 1.4 trillion
+- [17:15] parameters. And so, if you want to fit
+- [17:17] an entire large language model into your
+- [17:20] graphics card, you have to store all of
+- [17:22] these numbers. And even though we can
+- [17:25] handle gigabytes at a time in our
+- [17:26] graphics cards through what is called
+- [17:28] VRAMm, storing billions or trillions of
+- [17:31] numbers is absolutely insane. And so
+- [17:34] that's why large language models, you
+- [17:36] actually have to have a pretty good
+- [17:37] graphics card if you want to run some of
+- [17:40] the best ones. And so looking at Olama
+- [17:42] here, when we see these different sizes,
+- [17:44] going back to their model list, like 1.5
+- [17:46] billion parameters or 27 billion
+- [17:49] parameters, there are different sizes
+- [17:51] for the local LLMs. Obviously, the
+- [17:54] larger a local LM that you are running,
+- [17:56] the more performance you are going to
+- [17:57] get, but you are going to be limited to
+- [17:59] what you are capable of running with
+- [18:01] your graphics card or your hardware. So,
+- [18:04] with that in mind, I now want to dive
+- [18:05] into the nitty-gritty details with you
+- [18:07] so you know exactly the kind of models
+- [18:09] that you can run, the kind of speeds you
+- [18:11] can expect depending on your hardware.
+- [18:14] And if you want to invest in new
+- [18:15] hardware to run local AI, I've got some
+- [18:17] recommendations as well. So there are
+- [18:19] generally four primary size ranges for
+- [18:23] large language models based on the speed
+- [18:25] and the power that you are looking for.
+- [18:27] You have models that are around seven or
+- [18:29] 8 billion parameters. Those are
+- [18:31] generally the smallest that I'd
+- [18:33] recommend trying to run. There are a lot
+- [18:35] of smaller LLMs available like 1 billion
+- [18:37] parameters or three billion parameters,
+- [18:39] but I'm so unimpressed when I use those
+- [18:41] LLMs that I don't really want to focus
+- [18:43] on them here. 7 billion parameters is
+- [18:45] still tiny compared to the large cloud
+- [18:48] AI models like Claude or GBT, but you
+- [18:51] can get pretty good results with them
+- [18:53] for just simple chat use cases. And so
+- [18:55] for these models, assuming a Q4
+- [18:58] quantization, which I'll get into
+- [18:59] quantization in a little bit, it's
+- [19:01] basically just a way to make the LLM a
+- [19:02] lot smaller without hurting performance
+- [19:04] that much, a 7 billion parameter model
+- [19:06] will need about four to 5 GB of VRAM on
+- [19:10] your graphics card. And so if you have
+- [19:11] something like a 3060 Ti from Nvidia
+- [19:14] with 8 GB of VRAM, you can very
+- [19:16] comfortably run a 7 billion parameter
+- [19:18] model and you can expect to get very
+- [19:20] roughly around 25 to 35 tokens per
+- [19:24] second. A token is roughly equivalent to
+- [19:26] a word. And so your local large language
+- [19:29] model at 7 billion parameters with this
+- [19:31] graphics card will get about 25 to 35
+- [19:35] words per second out on the screen to
+- [19:37] you being streamed out. And then if you
+- [19:39] use much more powerful hardware like a
+- [19:42] 3090 to run a 7 billion parameter model
+- [19:44] then you'll just jack up the speed a lot
+- [19:47] more. So that's 7 billion or 8 billion
+- [19:49] parameters. Another very common size is
+- [19:51] something around 14 billion parameters.
+- [19:54] This will take about 8 to 10 GB of VRAM.
+- [19:56] And so just a couple of options for
+- [19:58] this. You have the 4070Ti which is
+- [20:01] usually 16 GB of VRAM or you could go as
+- [20:04] low as 12 GB of VRAM with the 3080 Ti.
+- [20:08] And you could expect to get about 15 to
+- [20:10] 25 words per second. And then this is
+- [20:12] where you start to get into basic tool
+- [20:14] calling. So I find that when you are
+- [20:16] building with a 7 billion parameter
+- [20:19] model, they don't do tool calling very
+- [20:21] well. So you can't really build that
+- [20:22] powerful of agents around a 7 billion
+- [20:25] parameter model. But once you get to
+- [20:26] something around 14 billion parameters,
+- [20:29] that's when I see agents being able to
+- [20:31] really accept instructions well around
+- [20:33] tools and system prompts and leveraging
+- [20:36] tools to do things on our behalf. That's
+- [20:37] when we can really start to use LLMs to
+- [20:39] make things that are agentic.
+- [20:42] And then the next big category of LLMs
+- [20:44] is somewhere between 30 and 34 billion
+- [20:47] parameters. You see a lot of LM that
+- [20:49] fall in that size range. This will
+- [20:51] typically need 16 to 20 gigabyt of VRAM.
+- [20:55] And so a 3090 is a really good example
+- [20:57] of a graphics card that can run this. It
+- [20:59] has 24 GB of VRAM. I actually have two
+- [21:03] 3090s myself. And I'll have a link to my
+- [21:05] exact PC that I built for running local
+- [21:08] AI in the description of this video. So
+- [21:10] I have two 3090s, which we'll need in a
+- [21:12] second for a 70 billion parameter, but
+- [21:14] one is enough for a 32 billion parameter
+- [21:16] model. And then also Macs with their new
+- [21:20] M4 chips are very powerful with their
+- [21:22] unified memory architecture. So if you
+- [21:24] get a Mac M4 Pro with 24 GB of unified
+- [21:27] memory, you can also run 32 billion
+- [21:30] parameter models. Now the speed isn't
+- [21:32] going to be the best necessarily, and
+- [21:33] again, this does depend a lot on your
+- [21:36] computer overall, but you can expect
+- [21:37] something around 10 to 15, maybe up to
+- [21:40] 20 tokens per second. and 32 billion
+- [21:43] parameters is when you really start to
+- [21:46] see LLMs that are actually pretty
+- [21:48] impressive. Like 7 billion and 14
+- [21:50] billion, they are disappointing quite a
+- [21:52] bit. I'll be totally honest. Especially
+- [21:54] when you try to use them with more
+- [21:55] complicated agentic tasks. 32 billion
+- [21:58] when you start to get into this range is
+- [22:00] when I I'm actually genuinely impressed.
+- [22:02] I'm like, "Oh, this is actually pretty
+- [22:04] close to the performance of some of the
+- [22:05] best cloud AI." And then 70 billion
+- [22:08] parameters. This is going to take about
+- [22:10] 35 to 40 GB of VRAM for most consumer
+- [22:14] GPUs like 3090s and 4090s even 5090s.
+- [22:18] It's not actually enough VRAM. And so
+- [22:20] this is when you have to start to split
+- [22:22] a large language model across multiple
+- [22:25] GPUs which solutions like Olama will
+- [22:28] actually help you do this right out of
+- [22:29] the box. So it's not this insane setup
+- [22:31] even though it might feel kind of
+- [22:33] daunting like oh I have to split the
+- [22:35] layers of my LLM between GPUs. It's not
+- [22:37] actually that complicated. And so
+- [22:38] 23090s, 24090s, that will be necessary.
+- [22:42] Um, or you could have more of like an
+- [22:44] enterprisegrade GPU like an H100. So
+- [22:47] Nvidia has a lot of these non-consumer
+- [22:49] grade GPUs that have a lot more VRAMm to
+- [22:52] handle things like 70 billion parameter
+- [22:53] models. And the speed won't be the best
+- [22:55] if you're using something like 23090s,
+- [22:58] especially because performance is hurt
+- [23:00] when you have to split an LM between
+- [23:01] GPUs. You could expect something like 8
+- [23:03] to 12 tokens per second. And this is
+- [23:06] obviously if you have the most complex
+- [23:07] agents that you're really trying to
+- [23:09] match the performance of cloud AI as
+- [23:11] much as possible, that's when you'd want
+- [23:13] to use a 7 billion parameter model. And
+- [23:15] then if you're investing in hardware to
+- [23:16] run local AI, I have a couple of quick
+- [23:18] recommendations here. And a lot of this
+- [23:20] depends on the size of the model that's
+- [23:23] going to be good enough for your use
+- [23:24] case. And so I'll dive into some
+- [23:26] alternatives for running local AI
+- [23:28] directly if you want to do testing
+- [23:30] before you buy infrastructure. I'll get
+- [23:32] into that in a little bit, but
+- [23:33] recommended builds. If you want to spend
+- [23:35] around $800 to build a PC, I'd recommend
+- [23:38] getting a 4060Ti graphics card and then
+- [23:41] 32 GB of RAM. If you want to spend
+- [23:44] $2,000, I'd recommend either getting a
+- [23:47] PC with a 3090 and 64 GB of RAM or
+- [23:50] getting that Mac M4 Pro with 24 GB of
+- [23:53] unified memory. And then lastly, if you
+- [23:56] want to spend $4,000, which is about
+- [23:58] what I spent for my PC, then I'd
+- [24:00] recommend getting two 3090 graphics
+- [24:02] cards, and I got both of mine used for
+- [24:04] around $700 each. Um, and then also
+- [24:07] getting 128 GB of RAM, or you can get a
+- [24:11] Mac M4 Max with 64 GB of unified memory.
+- [24:15] So, I wanted to really get into the
+- [24:17] nitty-gritty details there. So, I know I
+- [24:19] spent a good amount of time diving into
+- [24:20] super specific numbers, but I hope this
+- [24:22] is really helpful for you. No matter the
+- [24:24] large language model or your hardware,
+- [24:26] you now know generally where you're at
+- [24:28] for what you can run. So, to go along
+- [24:30] with that information overload, I want
+- [24:32] to give you some specifics, individual
+- [24:34] LLMs that you can try right now based on
+- [24:36] the size range that you know will work
+- [24:38] for your hardware. So, just a couple of
+- [24:41] recommendations here. The first one that
+- [24:42] I want to focus on is Deepseek R1. This
+- [24:44] is the most popular local LLM ever. It
+- [24:47] completely blew up a few months ago. And
+- [24:49] the best part about DeepSeek R1 is they
+- [24:52] have an option that fits into each of
+- [24:54] the size ranges that I just covered in
+- [24:56] that chart. So they have a 7 billion
+- [24:57] parameter, 14, 32, and 70. The exact
+- [25:00] numbers that I mentioned earlier. And
+- [25:02] then there is also the full real version
+- [25:05] of R1, which is 671 billion parameters.
+- [25:08] I'm sorry though, you probably don't
+- [25:10] have the hardware to run that unless
+- [25:11] you're spending tens of thousands on
+- [25:13] your infrastructure. So, probably stick
+- [25:14] with one of these based on your graphics
+- [25:16] card or if you have a Mac computer, pick
+- [25:18] the one that'll work for you and just
+- [25:19] try it out. You can click on any one of
+- [25:21] these sizes here. And then here's your
+- [25:23] command to download and run it. And this
+- [25:25] is defaulting to a Q4 quantization,
+- [25:28] which is what I was assuming in the
+- [25:29] chart earlier. And again, I will cover
+- [25:31] what that actually means in a little bit
+- [25:33] here. The other one that I want to focus
+- [25:35] on here is Quen 3. This is a lot newer.
+- [25:38] Quen 3 is so good. And they don't have a
+- [25:41] 70 billion parameter option, but they do
+- [25:43] have all the other um sizes that fit
+- [25:45] into those ranges that I mentioned
+- [25:47] earlier. Like they got 8 billion, 14
+- [25:49] billion, and 32 billion parameters. And
+- [25:51] the same kind of deal where you click on
+- [25:52] the size that you want and you've got
+- [25:54] your command to install it here. And
+- [25:55] this is a reasoning LLM just like
+- [25:58] DeepSeek R1. And then the other one that
+- [26:01] I want to mention here is Mistral Small.
+- [26:03] I've had really good results with this
+- [26:05] as well. There are less options here,
+- [26:06] but you've got 22 or 24 billion
+- [26:08] parameters, which is going to work well
+- [26:10] with a 3090 graphics card or if you have
+- [26:12] a Mac M4 Pro with 24 GB of unified
+- [26:16] memory. Really, really good model. And
+- [26:18] then also, there is a version of it that
+- [26:20] is fine-tuned for coding specifically
+- [26:22] called Devstrol, which is a another
+- [26:24] really cool LLM worth checking out as
+- [26:26] well if you have the hardware to run it.
+- [26:28] So, that is everything for just general
+- [26:30] recommendations for local LMS to try
+- [26:32] right now. This is the part of the
+- [26:34] master class that is going to become
+- [26:35] outdated the fastest because there are
+- [26:38] new local LMS coming out every single
+- [26:40] month. I don't really know how long my
+- [26:42] recommendations will last for. But in
+- [26:44] general, you can just go to the model
+- [26:45] list in Olama, search for the ones,
+- [26:47] finds one that has the size that works
+- [26:49] with your graphics card and just give it
+- [26:51] a shot. You can install it and run it
+- [26:52] very easily with Olama. And the other
+- [26:55] thing that I want to mention here is you
+- [26:57] don't always have to run open- source
+- [26:59] large language models yourself. You can
+- [27:01] use a platform like Open Router. You can
+- [27:03] just go to open router.ai, sign up, add
+- [27:05] in some API credits. You can try these
+- [27:08] open source LLM yourself. Maybe if you
+- [27:10] want to see what's powerful enough for
+- [27:12] your agents before you invest in
+- [27:15] hardware to actually run them yourself.
+- [27:17] And so within Open Router, I can just
+- [27:18] search for Quen here. And I can go down
+- [27:20] to Quen and I can go to 32 billion. They
+- [27:23] have a free offering as well that
+- [27:25] doesn't have the best rate limits. So
+- [27:26] I'll just go to this one right here,
+- [27:28] Quen 3 32B. So I can try the model out
+- [27:31] through open router. They actually host
+- [27:33] it for me. So it's an open- source
+- [27:35] non-local version, but now I can try it
+- [27:37] in my agents to see if this is good. And
+- [27:39] then if it's good, it's like, okay, now
+- [27:40] I want to buy a 3090 graphics card so
+- [27:43] that I can install it directly through
+- [27:45] um Olama instead. And so the 32 billion
+- [27:47] quen 3 is exactly what we're seeing here
+- [27:50] in open router. And there are other
+- [27:51] platforms like Grock as well where you
+- [27:53] can run these open source large language
+- [27:55] models um not on your own infrastructure
+- [27:57] if you just want to do some testing
+- [27:58] before beforehand or whatever that might
+- [28:00] be. So I wanted to call that out as an
+- [28:01] alternative as well. But yeah, that's
+- [28:03] everything for my general
+- [28:04] recommendations for LLMs to try and use
+- [28:06] in your agents. All right, it is time to
+- [28:09] take a quick breather. This is
+- [28:10] everything that we've covered already in
+- [28:12] our master class. What is local AI? Why
+- [28:15] we care about it? Why it's the future
+- [28:17] and hardware requirements. And I really
+- [28:19] wanted to dive deep into this stuff
+- [28:20] because it sets the stage for everything
+- [28:22] that we do when we actually build agents
+- [28:24] and deploy our infrastructure. And so
+- [28:27] the last thing that I want to do with
+- [28:28] you before we really start to get into
+- [28:31] building agents and setting up our
+- [28:32] package is I want to talk about some of
+- [28:35] the tricky stuff that is usually pretty
+- [28:37] daunting for anyone getting into local
+- [28:39] AI. I'm talking things like offloading
+- [28:42] models, quantization, environment
+- [28:44] variables to handle things like uh flash
+- [28:47] attention, all the stuff that is really
+- [28:50] important that I want to break down
+- [28:51] simply for you so you can feel confident
+- [28:53] that you have everything set up right,
+- [28:55] that you know what goes into using local
+- [28:57] LLMs. The first big concept to focus on
+- [29:00] here is quantization. And this is
+- [29:02] crucial. It's how we can make large
+- [29:04] language models a lot smaller so they
+- [29:07] can fit on our GPUs without hurting
+- [29:10] performance too much. We are lowering
+- [29:12] the model precision here. And so what
+- [29:14] basically what that means is we have
+- [29:16] each of our parameters, all of our
+- [29:18] numbers for our LLMs that are 16 bits
+- [29:20] with the full size, but we can lower the
+- [29:23] precision of each of those parameters to
+- [29:25] 8, four, or two bits. Don't worry if you
+- [29:28] don't understand the technicalities of
+- [29:29] that. Basically, it comes down to LLMs
+- [29:31] are just billions of numbers. That's the
+- [29:33] parameters that we already covered. And
+- [29:35] we can make these numbers less precise
+- [29:37] or smaller without losing much
+- [29:40] performance. So, we can fit larger LLMs
+- [29:42] within a GPU that normally wouldn't even
+- [29:45] be close to running the full-size model.
+- [29:47] Like with 32 billion parameter LLMs, for
+- [29:50] example, I was assuming a Q4
+- [29:52] quantization like four bit per parameter
+- [29:55] in that diagram earlier. If you had the
+- [29:57] full 16 bit parameter for the 32 billion
+- [30:00] parameter LLM, there's no way it could
+- [30:02] fit on your Mac or your 3090 GPU, but we
+- [30:06] can use quantization to make it
+- [30:08] possible. It's like rounding a number
+- [30:10] that has a long decimal to something
+- [30:13] like 10.44 instead of this thing that
+- [30:15] has like 10 decimal points, but we're
+- [30:17] doing it for each of the billions of
+- [30:19] parameters, those numbers that we have.
+- [30:21] And so just to give you a visual
+- [30:23] representation of this, you can also
+- [30:25] quantize images just like you can
+- [30:27] quantize LLMs. And so we have our full
+- [30:29] scale image on the lefth hand side here
+- [30:31] comparing it to different levels of
+- [30:33] quantization. We have 16 bit, 8 bit, and
+- [30:35] 4bit. And you can see that at first with
+- [30:38] a 16- bit quantization, it almost looks
+- [30:40] the same. But then once we go down to
+- [30:42] 4bit, you can very much see that we have
+- [30:44] a huge loss in quality for the image.
+- [30:47] Now with images, it's more extreme than
+- [30:49] LLMs. when we do a 8 bit or a 4bit
+- [30:51] quantization, we don't actually lose
+- [30:54] that much performance like we lose a lot
+- [30:56] of quality with images. And so that's
+- [30:58] why it's so useful for us. And so I have
+- [31:00] a table just to kind of describe what
+- [31:01] this looks like. So FP16, that's the
+- [31:04] 16bit precision that all LMS have as a
+- [31:07] base. That is the full size. The speed
+- [31:10] is obviously going to be very slow
+- [31:11] because the model is a lot bigger, but
+- [31:13] your quality is perfect compared to what
+- [31:16] it could be. I mean, obviously that
+- [31:17] doesn't mean that you're going to get
+- [31:18] perfect answers all the time. I'm just
+- [31:19] saying it's it's the 100% results from
+- [31:22] this LLM. And then going down to a Q8
+- [31:25] precision, so it's half the size. The
+- [31:28] speed is going to be a lot better. And
+- [31:30] the quality is nearperfect. So it's not
+- [31:33] like performance is cut in half just
+- [31:35] because size is. You still have the same
+- [31:37] number of parameters. Each one is just a
+- [31:39] bit less precise. And so you're still
+- [31:42] going to get almost the same results.
+- [31:44] And then going down to a Q4 4bit, it's a
+- [31:47] fourth the size. It's going to be very
+- [31:49] fast compared to 16 bit. And the quality
+- [31:52] is still going to be great. Now, these
+- [31:54] numbers are very vague on purpose.
+- [31:57] There's not a huge way to for me to like
+- [32:00] qualify exactly the difference,
+- [32:01] especially because it changes per LLM
+- [32:03] and your hardware and everything like
+- [32:04] that. So, I'm just being very general
+- [32:06] here. And then once you get to Q2, um
+- [32:09] the size goes down a lot. It's going to
+- [32:11] be very very fast, but usually your
+- [32:13] performance starts to go down quite a
+- [32:15] bit once you go down to a Q2. And then
+- [32:17] like the note that I have in the bottom
+- [32:19] left here, a Q4 quantization is
+- [32:22] generally the best balance. And so when
+- [32:24] you are thinking to yourself, which
+- [32:26] large language model should I run? What
+- [32:28] size should I use? My rule of thumb is
+- [32:31] to pick the largest large language model
+- [32:34] that can work with your hardware with a
+- [32:36] Q4 quantization. That is why I assumed
+- [32:39] that in the table earlier. And then also
+- [32:42] like we saw in Olama earlier, it always
+- [32:44] defaults to a Q4 quantization because
+- [32:47] the 16 bit is just so big compared to Q4
+- [32:50] that most of the LLMs you couldn't even
+- [32:52] run yourself. And a Q4 of a 32 billion
+- [32:56] parameter model is still going to be a
+- [32:59] lot more powerful than the full 7
+- [33:01] billion parameter or 14 billion
+- [33:02] parameter because you don't actually
+- [33:04] lose that much performance. So that is
+- [33:07] quantization. So just to make this very
+- [33:09] practical for you, I'm back here in the
+- [33:11] model list for Quen 3. We have all these
+- [33:13] models that don't specify a
+- [33:15] quantization, but we can see that it
+- [33:18] defaults to Q4 because if I click on any
+- [33:20] one of them, the quantization right here
+- [33:23] is a Q4 KM. And don't worry about the
+- [33:26] KM. That's just a way to group
+- [33:27] parameters. You have KS, KM, and KL.
+- [33:30] It's kind of outside of the scope of
+- [33:31] what really matters for you. The big
+- [33:33] thing is the Q4 like the actual number
+- [33:35] here. So Q4 quantization is the default
+- [33:38] for Quen 332B and really any model in
+- [33:41] Olama. But if we want to see the other
+- [33:44] quantized variants and we want to run
+- [33:46] them, you can click on the view all.
+- [33:48] This is available no matter the LLM that
+- [33:50] you're seeing in Olama. Now we can
+- [33:52] scroll through and see all the levels of
+- [33:54] quantization for each of the parameter
+- [33:56] sizes for Quen 3. So, if I scroll all
+- [33:58] the way down, the absolute biggest
+- [34:01] version of Quenti that I can run is the
+- [34:03] full 16bit of the 235 billion parameter
+- [34:08] Quen 3. And it is a whopping 470 GB just
+- [34:12] to install this. And there is no way
+- [34:14] that you're ever going to lay hands on
+- [34:15] infrastructure to run this unless you're
+- [34:17] working for a very large enterprise. But
+- [34:19] I can go down here, let's say, to 14
+- [34:22] billion parameters and I can run the Q4
+- [34:25] like this. So, you can click on any one
+- [34:27] that you want to run. Like let's say I
+- [34:28] want to run Q8. I can click on this and
+- [34:30] then I have the command to pull and run
+- [34:32] this specific quantization of the 14
+- [34:35] billion parameter model. So each of the
+- [34:37] quantized variants they have a unique ID
+- [34:39] within Olama. So you can very
+- [34:41] specifically choose the one that you
+- [34:42] want. Again my general recommendation is
+- [34:45] just to go with also what Olama
+- [34:47] recommends which is just defaulting to
+- [34:49] Q4. Like if I go to DeepSec R1, you can
+- [34:51] see that also defaults to Q4 no matter
+- [34:54] the size that I pick. But if you do want
+- [34:56] to explore different quantizations, you
+- [34:59] want to try to run the absolute full
+- [35:00] model for maybe something smaller like 7
+- [35:02] billion or 14 billion, you can
+- [35:04] definitely do that through a lama and
+- [35:06] really any other provider of local LLMs.
+- [35:08] So that is everything for quantization.
+- [35:10] It's important to know how that works,
+- [35:12] but yes, generally stick with a Q4 of
+- [35:15] the largest LLM that you can run. The
+- [35:17] next concept that is very important to
+- [35:19] understand is offloading. All offloading
+- [35:21] is is splitting the layers for your
+- [35:24] large language model between your GPU
+- [35:26] and your CPU and RAM. It's kind of
+- [35:29] crazy, but large language models don't
+- [35:30] have to fit entirely in your GPU. All
+- [35:33] large language models can be split into
+- [35:36] layers, layers of the different weights,
+- [35:38] and you can have some of it running on
+- [35:40] your GPU. So, it's stored in your VRAM
+- [35:43] and computed by the GPU. And then some
+- [35:45] of the large language models stored in
+- [35:46] your RAM, computed by the CPU. Now, this
+- [35:50] does hurt performance a lot. And so,
+- [35:52] generally, you want to avoid offloading
+- [35:55] if you can. You want to be able to fit
+- [35:57] everything in your GPU, which by the
+- [35:59] way, the context, like your prompts for
+- [36:02] your local LLMs, that is also stored in
+- [36:04] VRAM. And so, sometimes you'll see what
+- [36:07] happens when you have very long
+- [36:08] conversations for a large language model
+- [36:10] that barely fit in your GPU. That'll
+- [36:12] actually tip it over the edge. So, it
+- [36:14] starts to offload some of it to the CPU
+- [36:16] and RAM. So keep that in mind when you
+- [36:18] have longer conversations and all of a
+- [36:19] sudden things get really slow, you know
+- [36:21] that offloading is happening. Sometimes
+- [36:24] this is necessary though as context
+- [36:26] grows. And if you're only offloading a
+- [36:28] little bit of the LLM or a little bit of
+- [36:30] the conversation, whatever to the CPU
+- [36:32] and RAM, it won't affect performance
+- [36:34] that much. And so sometimes if you're
+- [36:36] trying to squeeze the biggest size you
+- [36:38] can into your machine for an LLM, you
+- [36:40] can take advantage of offloading to run
+- [36:43] something bigger or have a much larger
+- [36:45] conversation. Just know that usually it
+- [36:48] kind of sucks. Like when I have
+- [36:49] offloading start to happen, my machine
+- [36:52] gets bogged down and the responses are a
+- [36:53] lot slower. It's really not fun, but it
+- [36:55] is possible. And fun fact, by the way,
+- [36:59] if your GPU is full and your CPU and RAM
+- [37:02] is full, you can actually offload to
+- [37:04] storage, like literally using your hard
+- [37:05] drive or SSD. That's when it's like
+- [37:07] incredibly slow and just terrible. But
+- [37:09] just fun fact, you can actually do that.
+- [37:11] Now, the very last thing that I want to
+- [37:13] cover before we dive into some code,
+- [37:15] setting up the local AI package, and
+- [37:18] building out some agents is a few very
+- [37:20] crucial parameters, environment
+- [37:23] variables for Olama. So, these are
+- [37:25] environment variables that you can set
+- [37:26] on your machine just like any other
+- [37:28] based on your operating system. And
+- [37:30] Olama does have an FAQ for setting up
+- [37:32] some of these things, which I'll link to
+- [37:34] in the description as well. But yeah,
+- [37:36] these are a bit more technical, so
+- [37:38] people skip past setting this stuff up a
+- [37:40] lot, but it's actually really, really
+- [37:42] important to make things very efficient
+- [37:44] when running local LLMs. So the first
+- [37:46] environment variable is flash attention.
+- [37:49] You want to set this to one or true.
+- [37:52] When you have this set to true, it's
+- [37:54] going to make the attention calculation
+- [37:57] a lot more efficient. It sounds fancy,
+- [37:59] but basically large language models when
+- [38:02] they are generating a response, they
+- [38:04] have to calculate which parts of your
+- [38:06] prompt to pay the most attention to.
+- [38:08] That's the calculation. And you can make
+- [38:09] it a lot more efficient without losing
+- [38:12] much performance at all by setting up
+- [38:14] the flash attention, setting that to
+- [38:16] true. And then for another optimization,
+- [38:19] just like we can quantize the LLM
+- [38:21] itself, you can also quantize or
+- [38:24] compress the context. So your system
+- [38:27] prompt, the tool descriptions, your
+- [38:29] prompt and conversation history, all
+- [38:31] that context that's being sent to your
+- [38:32] LLM, you can quantize that as well. So
+- [38:36] Q4 is my general recommendation for
+- [38:38] quantizing LLMs. Q8 is the general
+- [38:41] recommendation for quantizing the
+- [38:44] context memory. It's a very simplified
+- [38:46] explanation, but it's really, really
+- [38:48] useful because a long conversation can
+- [38:50] also take a lot of VRAM just like larger
+- [38:52] LLM. And so it's good to compress that.
+- [38:55] And then the third environment variable,
+- [38:57] this is actually probably the most
+- [38:58] crucial one to set up for Olama. There
+- [39:00] is this crazy thing. I don't know why
+- [39:02] Olama does it, but by default, they
+- [39:04] limit every single large language model
+- [39:07] to 2,000 tokens for the context limit,
+- [39:11] which is just tiny compared to, you
+- [39:13] know, Gemini being 1 million tokens and
+- [39:15] Claude being 200,000 tokens. Like, they
+- [39:17] handle very, very large prompts. And a
+- [39:19] lot of local large language models can
+- [39:21] also handle large prompts. But Olamo
+- [39:23] will limit you to default to 2,000
+- [39:25] tokens. And so you have to override that
+- [39:27] yourself with this environment variable.
+- [39:30] And so generally I recommend starting
+- [39:32] with about 8,000 tokens to start. You
+- [39:34] can move this all the way up to
+- [39:35] something like 32,000 tokens if your
+- [39:38] local large language model supports
+- [39:40] that. And if you view the model page on
+- [39:42] Alama, you can see the context link
+- [39:44] that's supported by the LLM. But you
+- [39:46] definitely want to, you know, jack this
+- [39:48] up more from just 2,000 because a lot of
+- [39:50] times when you have longer
+- [39:51] conversations, you're going to get past
+- [39:53] 2,000 tokens very, very quickly. So, do
+- [39:55] not miss this. If your large language
+- [39:57] model is starting to go completely off
+- [39:59] the rails and ignore your system prompt
+- [40:02] and forget that it has these tools that
+- [40:04] you gave it, it's probably because you
+- [40:06] reached the context length. And so, just
+- [40:08] keep that in mind. I see people miss
+- [40:10] this a lot. And then the very last
+- [40:12] environment variable, uh, probably the
+- [40:14] least important out of all these four,
+- [40:16] but if you're running a lot of different
+- [40:18] large language models at once and you're
+- [40:20] trying to shove them all in your GPU, a
+- [40:22] lot of times you can have issues. And so
+- [40:23] in Olama, you can limit the number of
+- [40:25] models that are allowed to be in your
+- [40:27] memory at a single time. With this one,
+- [40:29] typically you want to set this to either
+- [40:30] one or two. Definitely set this to just
+- [40:33] one if you are using large language
+- [40:35] models that are basically fit for your
+- [40:36] GPU. like it's going to fit exactly into
+- [40:39] your VRAM and you're not going to have
+- [40:41] room for another large language model.
+- [40:43] But if you are running more smaller ones
+- [40:44] and maybe you could actually fit two on
+- [40:46] your GPU with the VRAM that you have,
+- [40:48] you can set this to two. So again, more
+- [40:50] technical overall, but it's very
+- [40:52] important to have these right. And we'll
+- [40:53] get into the local AI package where I
+- [40:55] already have these set up in the
+- [40:56] configuration. And then by the way, this
+- [40:58] is the Olama FAQ that I referenced a
+- [41:01] minute ago that I'll have linked in the
+- [41:02] description. And so there's actually a
+- [41:04] lot of good things to read into here. um
+- [41:06] like being able to verify that your GPU
+- [41:08] is compatible with Olama. How can you
+- [41:10] tell if the model's actually loaded on
+- [41:11] your GPU? So, a lot of like sanity check
+- [41:13] things that they walk you through in the
+- [41:14] FAQ as well. Also talking about
+- [41:17] environment variables, which I just
+- [41:18] covered. And so, they've got some
+- [41:20] instructions here depending on your OS
+- [41:21] how to get those set up. So, if there's
+- [41:23] anything that's confusing to you, this
+- [41:24] is a very good resource to start with.
+- [41:26] So, I'm trying to make it possible for
+- [41:28] you to look into things further if
+- [41:30] there's anything that doesn't quite make
+- [41:31] sense for what I explained here. And of
+- [41:33] course, always let me know in the
+- [41:34] comments if you have any questions on
+- [41:35] this stuff as well, especially the more
+- [41:37] technical stuff that I just got to cover
+- [41:39] because it's so important even though I
+- [41:41] know we really want to dive into the
+- [41:42] meat of things, which we are actually
+- [41:44] going to do now. All right, here is
+- [41:46] everything that we have covered at this
+- [41:48] point. And congratulations if you have
+- [41:50] made it this far because I covered all
+- [41:53] the tricky stuff with quantization and
+- [41:55] the hardware requirements and offloading
+- [41:57] and some of our little configuration and
+- [41:59] parameters. So, if you got all of that,
+- [42:01] the rest of it is going to be a walk in
+- [42:03] the park as we start to dive into code,
+- [42:05] getting all of our local AI set up and
+- [42:07] building out some agents. You understand
+- [42:09] the foundation now that we're going to
+- [42:10] build on top of to make some cool stuff.
+- [42:13] And so, now the next thing that we're
+- [42:14] going to do is talk about how we can use
+- [42:17] local AI anywhere. We're going to dive
+- [42:19] into OpenAI compatibility and I'll show
+- [42:21] you an example. We can take something
+- [42:23] that is using OpenAI right now,
+- [42:25] transform it into something that is
+- [42:26] using OAMA and local LLM. So, we'll
+- [42:29] actually dive into some code here. And
+- [42:31] I've got my fair share of no code stuff
+- [42:32] in this master class as well, but I want
+- [42:34] to focus on both because I think it's
+- [42:36] really important to use both code and no
+- [42:38] code whenever applicable. And that
+- [42:40] applies to local AI just like building
+- [42:42] agents in general. So, I've already
+- [42:44] promised a couple of times that I would
+- [42:45] dive into OpenAI API compatibility, what
+- [42:48] it is, and why it's so important. And
+- [42:50] we're going to dive into this now so you
+- [42:52] can really start to see how you can take
+- [42:54] existing agents and transform them into
+- [42:56] being 100% local with local large
+- [42:59] language models without really having to
+- [43:01] touch the code or your workflow at all.
+- [43:03] It is a beautiful thing because OpenAI
+- [43:07] has created a standard for exposing
+- [43:10] large language models through an API.
+- [43:12] It's called the chat completions API.
+- [43:14] It's kind of like how model context
+- [43:16] protocol MCP is a standard for
+- [43:19] connecting agents to tools. The chat
+- [43:21] completions API is a standard for
+- [43:23] exposing large language models over an
+- [43:25] API. So you have this common endpoint
+- [43:28] /v1/hatcompletions
+- [43:31] along with a few other ones that all of
+- [43:33] these providers implement. This is the
+- [43:35] way to access the large language model
+- [43:37] to get a response based on some
+- [43:39] conversation history that you pass in.
+- [43:41] So, Olama is implementing this as of
+- [43:43] February. We have other providers like
+- [43:45] Gemini is OpenAI compatible. Uh, Grock
+- [43:49] is Open Router, which we saw earlier.
+- [43:51] Almost every single provider is OpenAI
+- [43:53] API compatible. And so, not only is it
+- [43:55] very easy to swap between large language
+- [43:57] models within a specific provider, it's
+- [44:00] also very easy to swap between providers
+- [44:02] entirely. You can go from Gemini to
+- [44:04] OpenAI or OpenAI to O Lama or OpenAI to
+- [44:09] Grock just with changing basically one
+- [44:11] piece of configuration pointing to a
+- [44:13] different base URL as it is called. So
+- [44:16] you can access that provider and then
+- [44:18] the actual API endpoint that you hit
+- [44:20] once you are connected to that specific
+- [44:22] provider is always the exact same and
+- [44:24] the response that you get back is also
+- [44:26] always the exact same. And so Olama has
+- [44:29] this implemented now. And I'll link to
+- [44:31] this article in the description as well
+- [44:32] if you want to read through this because
+- [44:33] they have a really neat Python example.
+- [44:35] It shows where we create an OpenAI
+- [44:37] client and the only thing we have to do
+- [44:39] to connect to Olama instead of OpenAI is
+- [44:42] change this base URL. So now we are
+- [44:44] pointing to Olama that is hosted locally
+- [44:47] instead of pointing to the URL for
+- [44:49] OpenAI. So we'd reach out to them over
+- [44:51] the internet and talk to their LLMs. And
+- [44:53] then with Olama, you don't actually need
+- [44:55] an API key because everything's running
+- [44:57] locally. So you just need some
+- [44:58] placeholder value here. But there is no
+- [45:00] authentication that is going on. You can
+- [45:02] set that up. I'm not going to dive into
+- [45:04] that right now. But by default, because
+- [45:05] it's all just running locally, you don't
+- [45:07] even need an API key to connect to
+- [45:09] Olama. And then once we have our OpenAI
+- [45:11] client set up that is actually talking
+- [45:13] to Olama, not OpenAI, we can use it in
+- [45:16] exactly the same way. But now we can
+- [45:18] specify a model that we have downloaded
+- [45:20] locally already through Lama. We pass in
+- [45:22] our conversation history in the same way
+- [45:24] and we access the response like the
+- [45:27] content the AI produced the token usage
+- [45:29] like all those things that we get back
+- [45:30] from the response in the same way.
+- [45:32] They've got a JavaScript example as
+- [45:34] well. They have a couple of examples
+- [45:36] using different frameworks like the
+- [45:38] Versell AI SDK and Autogen. Really any
+- [45:41] AI agent framework can work with OpenAI
+- [45:44] API compatibility to make it very easy
+- [45:46] to swap between these different
+- [45:47] providers. like Pyantic AI, my favorite
+- [45:50] AI agent framework, also supports OpenAI
+- [45:52] API compatibility. So you can easily
+- [45:54] within your Pantic AI agents swap
+- [45:57] between these different providers. And
+- [45:59] so what I have for you now is two code
+- [46:02] bases that I want to cover. The first
+- [46:04] one is the local AI package, which we'll
+- [46:07] dive into in a little bit. But right
+- [46:10] now, we have all of the agents that we
+- [46:13] are going to be creating in this master
+- [46:15] class. So I have a couple for N8N that
+- [46:17] are also available in this repository.
+- [46:20] And then a couple of scripts that I want
+- [46:21] to share with you as well. And so the
+- [46:24] very first thing that I want to show you
+- [46:25] is this simple script that I have called
+- [46:28] OpenAI compatible demo. And so you can
+- [46:31] download this repository. I'll have this
+- [46:33] linked in the description as well.
+- [46:34] There's instructions for downloading and
+- [46:36] setting up everything in here. And this
+- [46:38] is all 100% local AI. And so with that,
+- [46:41] I'm going to go over into my windsurf
+- [46:43] here where I have this OpenAI compatible
+- [46:45] demo set up. So I've got a comment at
+- [46:47] the top reminding us what the OpenAI API
+- [46:50] compatibility looks like. We set our
+- [46:52] base URL to point to Olama hosted
+- [46:55] locally and it's hosted on port 11434
+- [46:59] by default. So I can actually show you
+- [47:00] this. I have Ola running in a Docker
+- [47:02] container, which we're going to dive
+- [47:04] into this when we set up the local AI
+- [47:05] package, but you can see that it is
+- [47:07] being exposed on port 11434.
+- [47:10] And by the way, you can see the
+- [47:12] 127.0.0.1
+- [47:14] in that URL that I have highlighted
+- [47:16] here, that is synonymous with localhost.
+- [47:19] And so this right here, you could also
+- [47:21] replace with 127.0.0.1.
+- [47:23] Just a little tidbit there. It's not
+- [47:25] super important. I just typically leave
+- [47:26] it as localhost. And then you can change
+- [47:28] the port as well. I'm just sticking to
+- [47:30] what the default is. And then again, we
+- [47:32] don't need to set our API key. We can
+- [47:34] just set it to any value that we want
+- [47:36] here. We just need some placeholder even
+- [47:38] though there is no authentication with a
+- [47:39] llama for real unless you configure
+- [47:41] that. So that's OpenAI compatibility.
+- [47:43] And the important thing with this script
+- [47:45] here is I have two different
+- [47:47] configurations here. I have one for
+- [47:49] talking to OpenAI and then one for
+- [47:51] OALMA. So with OpenAI, we set our base
+- [47:53] URL to point to api.openai.com.
+- [47:57] We have our OpenAI API key set in our
+- [48:00] environment variables. So you can just
+- [48:01] set all your environment variables here
+- [48:02] and then rename this to env. I've got
+- [48:04] instructions for that in the readme of
+- [48:06] course. And then going back to the
+- [48:08] script, we are using GPT4.1 nano for our
+- [48:11] large language model. There's something
+- [48:13] super fast and cheap. And then for our
+- [48:16] Lama configuration, we are setting the
+- [48:17] base URL here, localhost1434
+- [48:20] or just whatever we have set in our
+- [48:22] environment variables. Same thing for
+- [48:24] the API key. And then same thing for our
+- [48:26] large language model. And what I'm going
+- [48:28] to be using in this case is Quen 314B.
+- [48:31] That is one of the large language models
+- [48:32] that I showed you within the Olama
+- [48:34] website. Definitely a smaller one
+- [48:36] compared to what I could run, but I just
+- [48:38] want to run something fast. And very
+- [48:40] small large language models are great
+- [48:41] for simple tasks like summarization or
+- [48:44] just basic chat. And that's what I'm
+- [48:45] going to be using here just for a simple
+- [48:47] demo. And so whether it's enabled or
+- [48:49] not, this configuration is just based on
+- [48:51] what we have set for our environment
+- [48:53] variables. And the important thing here
+- [48:56] is the code that runs for each of these
+- [48:59] configurations just as we go through
+- [49:00] this demo is exactly the same. We are
+- [49:03] parameterizing the configuration for the
+- [49:05] base URL and API key. So we are setting
+- [49:08] up the exact same OpenAI client just
+- [49:11] like we saw in the Olama article but
+- [49:13] just changing the base URL and API key.
+- [49:15] And so then for example when we use it
+- [49:17] right here it's client.hat.comp
+- [49:19] completions.create create calling the
+- [49:22] exact same function no matter if we're
+- [49:24] using OpenAI or Olama. And then we're
+- [49:26] handling the response in the same way as
+- [49:28] well. And so I'll go back to my terminal
+- [49:31] now. And so I went through all the steps
+- [49:33] already to set up my virtual
+- [49:34] environment, install all of my
+- [49:35] dependencies. And so now I can run the
+- [49:37] command OpenAI compatible demo. And now
+- [49:40] it's going to present the two
+- [49:41] configuration options for me. And so I
+- [49:43] can run through OpenAI. So we'll go
+- [49:45] ahead and do that first. And these two
+- [49:46] demos are going to look exactly the
+- [49:48] same, but that is the point. And so we
+- [49:50] have our base URL here for OpenAI. We
+- [49:53] have a basic example of a completion
+- [49:54] with GPT4.1 Nano. There we go. So this
+- [49:57] is the model that was used. Here are the
+- [49:59] number of tokens. And this is our
+- [50:00] response. And then I can press enter to
+- [50:03] see a streaming response now as well. So
+- [50:05] we saw it type out our answer in real
+- [50:07] time. And then I can press enter one
+- [50:08] more time. This is the last part of the
+- [50:10] demo. Just say multi-turn conversation.
+- [50:12] So we got a couple of messages here in
+- [50:14] our conversation history. So very nice
+- [50:16] and simple. The point here is to now
+- [50:19] show you that I can run this and select
+- [50:21] Olama now instead and everything is
+- [50:23] going to look exactly the same and all
+- [50:24] of the code is the same as wallet. It is
+- [50:27] only our configuration that is
+- [50:29] different. And so it will take a little
+- [50:31] bit when you first run this because
+- [50:33] Olama has to load the large language
+- [50:36] model into your GPU. And so going to the
+- [50:39] logs for Olama, I can show you what this
+- [50:42] looks like here. And so when we first
+- [50:44] make a request when Quen 314B is not
+- [50:47] loaded into our GPU yet, you're going to
+- [50:49] see a lot of logs come in here and we'll
+- [50:52] and you'll have this container up and
+- [50:53] running when you have the local AI
+- [50:54] package which we'll cover in a little
+- [50:56] bit. So it shows all the metadata about
+- [50:57] our model like it's Quen 314b. Uh we can
+- [51:01] see here that uh we have a Q4 KM
+- [51:05] quantization like we saw in the Olama
+- [51:07] website. Uh what other information do we
+- [51:09] have here? There's just so much to to
+- [51:11] digest here. Um, yeah, another really
+- [51:14] important thing is we have the uh
+- [51:16] context link. I have that set to 8,192
+- [51:19] just like I recommended in the
+- [51:20] environment variables. And then we can
+- [51:22] see that we offloaded all of the layers
+- [51:24] to the GPU. So I don't have to do any
+- [51:26] offloading to the CPU or the RAM. I can
+- [51:28] keep everything in the GPU, which is
+- [51:30] certainly ideal, like I said, to make
+- [51:32] sure this is actually fast. And then
+- [51:34] when we get a response from quen 314b,
+- [51:38] we are calling the v1/hatcompletions
+- [51:41] endpoint because it is openi API
+- [51:44] compatible. So that exact endpoint that
+- [51:46] we hit for openai is the one that we are
+- [51:48] hitting here with a large language model
+- [51:50] that is running entirely on our computer
+- [51:52] in Olama. And so the response I get
+- [51:54] back, it's actually a reasoning LLM as
+- [51:56] well. So we even have the thinking
+- [51:58] tokens here, which is super cool. And so
+- [52:00] we got our response. It's just printing
+- [52:02] out the first part of it here just to
+- [52:03] keep it short. And then I can press
+- [52:04] enter. And we can see a streaming demo
+- [52:06] as well. And it's going to be a lot
+- [52:08] faster this time because we do already
+- [52:09] have the model loaded into our GPU. And
+- [52:11] so that first request when it first has
+- [52:13] to load a model is always the slower
+- [52:15] one. And then it's faster going forward
+- [52:17] once that model is already loaded in our
+- [52:19] GPU. And then as long as we don't swap
+- [52:21] to another large language model and use
+- [52:24] that one, then it will remain in our GPU
+- [52:27] for some time. And so then all of our
+- [52:28] responses after are faster. And then we
+- [52:31] just have the last part of our demo here
+- [52:32] with a multi-turn conversation. So we
+- [52:35] can see conversation history in action
+- [52:37] as well, just not with streaming here.
+- [52:39] Um, and and everything's a bit slower
+- [52:40] with this large language model because
+- [52:42] it is a reasoning one. And so you can
+- [52:43] certainly if you want faster uh
+- [52:45] inference, you can always use a
+- [52:46] non-reasoning local LLM like Mistl or
+- [52:49] Gemma for example. So that is our very
+- [52:52] simple demo showing how this works. I
+- [52:54] hope that you can see with this and
+- [52:55] again this works with other AI agent
+- [52:57] frameworks like eggno or pideantic AI or
+- [52:59] crew AI as well like they all work in
+- [53:01] this way where you can use openAI API
+- [53:03] compatibility to swap between providers
+- [53:06] so easily so you don't have to recreate
+- [53:08] things to use local AI and that's
+- [53:10] something so important that I want to
+- [53:11] communicate with you because if I'm the
+- [53:13] one introducing you to local AI I also
+- [53:15] want to show you how it can very easily
+- [53:16] fit into your existing systems and
+- [53:19] automations. All right. Now, we have
+- [53:21] gotten to the part of the local AI
+- [53:23] master class that I'm actually the most
+- [53:25] excited for because over the past
+- [53:27] months, I have very much been pouring my
+- [53:29] heart and soul into building up
+- [53:31] something to make it infinitely easier
+- [53:33] for you to get everything up and running
+- [53:35] for local AI. And that is the local AI
+- [53:38] package. And so, right now, we're going
+- [53:40] to walk through installing it step by
+- [53:42] step. I don't want you to miss anything
+- [53:44] here because it's so important to get
+- [53:45] this up and running, get it all working
+- [53:47] well. Because if you have the local AI
+- [53:49] package running on your machine and
+- [53:50] everything is working, you don't need
+- [53:53] anything else to start building AI
+- [53:55] agents running 100% offline and
+- [53:57] completely private. And so here's the
+- [53:59] thing. At this point, we've been
+- [54:01] focusing mostly on Olama and running our
+- [54:04] local large language models. But there's
+- [54:06] the whole other component to local AI
+- [54:08] that I introduced at the start of the
+- [54:10] master class for our infrastructure.
+- [54:13] things like our database and local and
+- [54:15] private web search, our user interface,
+- [54:18] agent monitoring. We have all these
+- [54:20] other open-source platforms that we also
+- [54:22] want to run along with our large
+- [54:25] language models and the local AI package
+- [54:27] is the solution to bring all of that
+- [54:29] together curated for you to install in
+- [54:32] just a few steps. So, here is the GitHub
+- [54:35] repository for the local AI package.
+- [54:37] I'll have this linked in the description
+- [54:39] below. Just to be very clear, there are
+- [54:41] two GitHub repos for this master class.
+- [54:43] We have this one that we covered
+- [54:45] earlier. This has our N8N and Python
+- [54:47] agents that we'll cover in a bit, as
+- [54:49] well as the OpenAI compatible demo that
+- [54:51] we saw earlier. So, you want to have
+- [54:53] this cloned and the local AI package as
+- [54:55] well. Very easy to get both up and
+- [54:57] running. And if you scroll down in the
+- [54:59] local AI package, I have very
+- [55:02] comprehensive instructions for setting
+- [55:04] up everything, including how to deploy
+- [55:06] it to a private server in the cloud,
+- [55:08] which we'll get into at the end of this
+- [55:10] master class, and a troubleshooting
+- [55:11] section at the bottom. So, everything
+- [55:13] that I'm about to walk you through here,
+- [55:15] there's instructions in the readme as
+- [55:17] well if you just want to circle back to
+- [55:19] clarify anything. Also, I dive into all
+- [55:21] of the platforms that are included in
+- [55:23] the local AI package. And this is very
+- [55:26] important because like I said, when you
+- [55:27] want to build a 100% offline and private
+- [55:30] AI agent, it's a lot more than just the
+- [55:33] large language model. You have all of
+- [55:35] the accompanying infrastructure like
+- [55:37] your database and your UI. And so I have
+- [55:39] all that included. First of all, I have
+- [55:41] N8N that is our low/noodeode workflow
+- [55:44] automation platform. We'll be building
+- [55:46] an agent with N8N in the local AI
+- [55:48] package in a little bit once we have it
+- [55:50] set up. We have Superbase for our open-
+- [55:52] source database. We have Olama. Of
+- [55:55] course, we want to have this in the
+- [55:56] package as well for our LLMs. Open Web
+- [55:58] UI, which gives us a chat GPT like
+- [56:01] interface for us to talk to our LLMs and
+- [56:04] have things like conversation history.
+- [56:06] Very, very nice. So, we're looking at
+- [56:07] this right here. This is included in the
+- [56:09] package. Then we have Flowwise. It's
+- [56:11] similar to N8N. It's another really good
+- [56:13] tool to build AI agents with no slash
+- [56:16] low code. Quadrant, which is an open-
+- [56:18] source vector database. Neo4j which is a
+- [56:22] knowledge graph engine and then seir xng
+- [56:25] for open-source completely free and
+- [56:28] private web search caddy which this is
+- [56:31] going to be very important for us once
+- [56:32] we deploy the local AI package to the
+- [56:35] cloud and we actually want to have
+- [56:36] domains for our different services like
+- [56:38] nn and open web UI and then the last
+- [56:40] thing is langfuse this is an open-
+- [56:42] source LLM engineering platform it helps
+- [56:45] us with agent observability now some of
+- [56:47] these services are outside of the scope
+- [56:50] for this local AI master class. I don't
+- [56:52] want to spend a half hour on every
+- [56:54] single one of these services and make
+- [56:56] this a 10-hour video. I will be focusing
+- [56:58] in this video on N8N, Superbase, Olama,
+- [57:02] Open WebUI, CRXNG, and then Caddy once
+- [57:06] we deploy everything to the cloud. So, I
+- [57:08] do cover like half of these services.
+- [57:10] And the other thing that I want to touch
+- [57:12] on here is that there are quite a few
+- [57:14] things included here. And so you do need
+- [57:16] about 8 GB of RAM on your machine or
+- [57:19] your cloud server to run everything. It
+- [57:21] is pretty big overall. And so you can
+- [57:24] remove certain things like if you don't
+- [57:26] want Quadrant and Langfuse for example,
+- [57:28] you can take those out of the package.
+- [57:30] More on that later. It doesn't have to
+- [57:32] be super bloated, you can whittle this
+- [57:34] down to what you need. But yeah, there's
+- [57:35] a lot of different things that go into
+- [57:37] building AI agents. And so I have all of
+- [57:38] these services here so that no matter
+- [57:40] what you need, I've got you covered. And
+- [57:42] so with that, we can now move on to
+- [57:44] installing the local AI package. And
+- [57:46] these instructions will work for you on
+- [57:48] any operating system, any computer. Even
+- [57:50] if you don't have a really good GPU to
+- [57:52] run local large language models, you
+- [57:54] still could always use OpenAI or
+- [57:56] Anthropic, something like that, and then
+- [57:58] run everything else locally to save on
+- [58:00] costs or just to have everything running
+- [58:01] on your computer. And so there are a
+- [58:04] couple of prerequisites that you have to
+- [58:06] have before you can do the instructions
+- [58:08] below. You need Python so you can run
+- [58:10] the start script that boots everything
+- [58:12] up. Git or GitHub desktop so you can
+- [58:15] clone this GitHub repository, bring it
+- [58:16] all onto your own machine. And then you
+- [58:18] want Docker or Docker Desktop. And so
+- [58:21] I've got links for all of these. Docker
+- [58:23] and Docker Desktop we need because all
+- [58:25] of these local AI services that I've
+- [58:27] curated for you, they all run as
+- [58:29] individual Docker containers that are
+- [58:31] all combined together in a stack. And so
+- [58:34] I'll actually show you this is the end
+- [58:35] result once we have everything up and
+- [58:36] running within your docker desktop. You
+- [58:39] have this local AI docker compos stack
+- [58:41] that has all of the services running in
+- [58:43] tandem like superbase and reddus and
+- [58:45] nitn and flowwise caddy neo4j. All of
+- [58:48] these are running within this stack.
+- [58:50] That is what we're working towards right
+- [58:52] now. And so make sure you have all these
+- [58:54] things installed. I've got links that'll
+- [58:55] take you to installing no matter your
+- [58:57] operating system. Very easy to get all
+- [58:59] of this up and running on your machine.
+- [59:01] Then we can move on to our first command
+- [59:03] here, which is to clone this GitHub
+- [59:05] repository, bringing all of this code on
+- [59:08] your machine so you can get everything
+- [59:10] running. And so you want to open up a
+- [59:13] new terminal. So I've got a new
+- [59:14] PowerShell session open here. Going to
+- [59:16] paste in this command. And I'm going to
+- [59:18] be doing this completely from scratch
+- [59:20] with you. So you clone the repo and then
+- [59:22] I'm just going to change my directory
+- [59:24] into local AI package, which was just
+- [59:26] created from this get clone command. So
+- [59:29] those are the first two steps. The next
+- [59:31] thing is we have to configure all of our
+- [59:34] environment variables. And believe it or
+- [59:36] not, this is actually the longest part
+- [59:38] of the process. And once we have this
+- [59:41] taken care of, it's a breeze getting the
+- [59:43] rest of this up and running. But there's
+- [59:44] a lot of configuration that we have to
+- [59:46] set up for our different services like
+- [59:49] credentials for logging into our
+- [59:51] Superbase dashboard or Neo4j. Uh things
+- [59:54] like our Superbase um anonymous key and
+- [59:57] private key. All these things we have to
+- [59:59] configure. And so within our terminal
+- [60:01] here, you can do code dot to open this
+- [60:04] within VS code or windsurf. Open this in
+- [60:08] windsurf. You just want to open up this
+- [60:09] folder within your IDE and the specific
+- [60:12] IDE that you use. Really doesn't matter.
+- [60:14] You just want to get to this.env.example
+- [60:17] here. I'm going to copy it and then I'm
+- [60:20] going to paste it. And then I'm going to
+- [60:22] rename this toenv.
+- [60:24] So we're taking the example.
+- [60:27] example, turning it into av file. So,
+- [60:30] you want to make sure that you copy it
+- [60:31] and rename it like this. Then we can go
+- [60:34] ahead and start setting all of our
+- [60:36] configuration. And I'll even zoom in on
+- [60:37] this just so that it's very easy for you
+- [60:39] to see everything that we are setting up
+- [60:42] here. So, first up, we have a couple of
+- [60:44] credentials for N8N. We have our
+- [60:46] encryption key and our JWT secret. And
+- [60:49] it's very easy to generate these. In
+- [60:51] fact, we'll be doing this a couple of
+- [60:53] times, but we'll use this open SSL
+- [60:55] command to generate a random 32
+- [60:58] character alpha numeric string that
+- [61:00] we're going to use for things like our
+- [61:02] encryption key and JWT secret. And so,
+- [61:05] OpenSSL is a command that is available
+- [61:08] for you by default on Linux and Macs.
+- [61:10] You can just open up any terminal and
+- [61:12] run this command and it'll spit out a
+- [61:14] long string that you can then just paste
+- [61:16] in for this value. For Windows, you
+- [61:19] can't just open up any terminal and use
+- [61:20] OpenSSL, but you can use Git Bash, which
+- [61:23] is going to come with GitHub Desktop
+- [61:26] when you install it. And so, I'll go
+- [61:28] ahead and just search for that. If you
+- [61:29] just go to your search bar on your
+- [61:30] bottom left on Windows and search for
+- [61:32] Git Bash, it's going to open up this
+- [61:35] terminal like this. And so, I can go
+- [61:37] ahead and copy this command, go in here,
+- [61:40] and paste it in. And then I can run it.
+- [61:42] And then, boom, there we go. This is I
+- [61:43] know it's really small for you to see
+- [61:45] right now. I'm going to go ahead and
+- [61:46] copy this because this is now the value
+- [61:48] that I can use for my encryption key.
+- [61:51] And then you want to do the exact same
+- [61:52] thing to generate a JWT secret. And then
+- [61:56] the other way that you can do this if
+- [61:57] you don't want to install git bash or
+- [61:59] it's not working for whatever reason,
+- [62:01] you can use Python to generate this as
+- [62:03] well. So I can just copy this command
+- [62:05] and then I can go into the terminal here
+- [62:08] and I can just paste this in. And so
+- [62:10] it's going to just like with OpenSSL
+- [62:12] generate this random 32 character string
+- [62:14] that I can copy and then use for my JWT
+- [62:18] secret. There we go. And so I am going
+- [62:20] to get in the weeds a little bit here
+- [62:22] with each of these different parameters,
+- [62:24] but I really want to make sure that I'm
+- [62:25] clear on how to set up everything for
+- [62:27] you so you can really walk through this
+- [62:29] step by step with me. And like I said,
+- [62:31] setting up the environment variables is
+- [62:33] the longest part by far for getting the
+- [62:35] local AI package set up. So if you bear
+- [62:37] with me on this, you get through this
+- [62:38] configuration, you will have everything
+- [62:41] running that you need for local AI for
+- [62:43] the LLMs and your infrastructure. So
+- [62:45] that's everything for N8N. Now we have
+- [62:47] some secrets for Superbase. And there
+- [62:51] are some instructions in the Superbase
+- [62:53] documentation for how to get some of
+- [62:55] these values. So it's this link right
+- [62:57] here, which I have open up on my
+- [63:00] browser. So we'll we'll reference this
+- [63:01] in a little bit here. But first, we can
+- [63:03] set up a couple of other things. The
+- [63:05] first thing we need to define is our
+- [63:08] Postgress password. So, Supphabase uses
+- [63:11] Postgress under the hood for the
+- [63:12] database. And so, we want to set a
+- [63:14] password here that we'll use to connect
+- [63:16] to Postgress within N8N or a connection
+- [63:19] string that we have for our Python code,
+- [63:21] whatever that might be. And this value
+- [63:23] can be really anything that you want.
+- [63:25] Just note that you have to be very
+- [63:26] careful at using special characters like
+- [63:29] percent symbols. So if you ever have any
+- [63:31] issues with Postgress, it's probably
+- [63:34] because you have special characters that
+- [63:36] are throwing it off. U that's something
+- [63:37] that I've seen happen quite a few times.
+- [63:39] And so like I said, I want to mention
+- [63:41] troubleshooting steps and things to make
+- [63:42] sure that it is very clear for you. So
+- [63:44] for this Postgress password here, I'm
+- [63:47] just going to say test Postgress pass.
+- [63:50] I'm just going to give some kind of
+- [63:51] random value here. Just end with a
+- [63:52] couple of numbers. I don't care that I'm
+- [63:54] exposing this information to you because
+- [63:56] this is a local AI package. These
+- [63:58] passwords are for services that never
+- [64:00] leave my computer. So, it's not like you
+- [64:02] could hack me by connecting to anything
+- [64:04] here. And then we have a JWT secret. And
+- [64:08] this is where we get into this link
+- [64:11] right here in the Superbase docs. And so
+- [64:13] they walk you through generating a JWT
+- [64:16] secret and then using that to create
+- [64:18] both your anonymous and your service
+- [64:20] role keys. If you're familiar with
+- [64:22] Superbase at all, we need both of these
+- [64:24] pieces of information. The anonymous key
+- [64:26] is what we share to our front end. This
+- [64:28] is our public key. And then the service
+- [64:30] role key has all permissions for
+- [64:32] Superbase. We'll use this in our
+- [64:33] backends for things like our agents. And
+- [64:36] so you can just go ahead and copy. You
+- [64:38] can go ahead and copy this JWT secret.
+- [64:42] And then you can paste this in right
+- [64:43] here. This is 32 characters long just
+- [64:45] like the things that we generated with
+- [64:47] OpenSSL. I'm just going to be using
+- [64:49] exactly what Superbase tells me to. And
+- [64:52] then what you can do with this is you
+- [64:54] can select the anonymous key. Click on
+- [64:56] generate JWT and then I can copy this
+- [64:59] value and then I will paste this for my
+- [65:02] anonymous token. And so I'm just
+- [65:04] replacing the default value there for
+- [65:06] the anonymous key. And then going back
+- [65:08] and selecting the service key, I'm going
+- [65:10] to generate that one as well. So it
+- [65:12] looks very similar. They'll always start
+- [65:13] with ey, but these values are different
+- [65:16] if you go towards the end. And so I'll
+- [65:18] go ahead and paste this for my service
+- [65:20] ro key. Boom. There we go. All right.
+- [65:22] And then for the Superbase dashboard
+- [65:25] that we'll log into to see our tables
+- [65:27] and our SQL editor and authentication
+- [65:29] and everything like that, we have our
+- [65:31] username here, which I'm just going to
+- [65:32] keep as superbase. And then for the
+- [65:34] password, I can just say test superbase
+- [65:37] pass. I'll just kind of use that as my
+- [65:39] common nomenclature here for my
+- [65:41] passwords cuz I don't really care what
+- [65:42] that is right now. And then the last
+- [65:43] thing that we have to set up is our
+- [65:45] pooler tenant ID. And it's not really
+- [65:47] important to dive into what exactly this
+- [65:49] means. Just know that you can set this
+- [65:50] to really anything that you want. Like I
+- [65:52] typically will just choose four digits
+- [65:54] here like 1,00 for my pooler tenant ID.
+- [65:57] So that is everything that we need for
+- [66:00] superbase. And actually most of the
+- [66:01] configuration is for superbase. Then we
+- [66:04] have Neo4j. This is really simple. You
+- [66:06] can leave Neo4j for the username and
+- [66:09] then I'll just say test Neo4j pass for
+- [66:11] my password here. So you just set the
+- [66:13] password for knowledger graph and even
+- [66:15] if you're not using Neo4j you still have
+- [66:17] to set this but yeah it just takes two
+- [66:19] seconds. Then we have langfuse. This is
+- [66:21] for agent observability. We have a few
+- [66:23] secrets that we need here. And for these
+- [66:26] values they can really just be whatever
+- [66:28] you want. It doesn't matter because
+- [66:29] these are just passwords just like we
+- [66:31] had passwords for things like Neoforj.
+- [66:33] So I can just say test click house pass.
+- [66:35] Um and then I can do test mo pass. And
+- [66:41] um I mean it really doesn't matter here.
+- [66:43] Random Langfuse salt. I'm just doing
+- [66:45] completely whack values here. You
+- [66:47] probably want something more secure in
+- [66:49] this case, but um I'm just doing
+- [66:51] something as a placeholder for now. Um
+- [66:54] yeah, that there we go. Okay, good. And
+- [66:56] then then the last thing that we need
+- [66:57] for Langfuse is an encryption key. And
+- [66:59] this is also generated with OpenSSL like
+- [67:02] we did for the N8N credentials. And so
+- [67:04] I'll go back to my git bash terminal.
+- [67:07] And again, you can do this with Python
+- [67:08] as well. I'll just run the exact same
+- [67:10] command. I'll get a different value this
+- [67:12] time. And so I'll go ahead and copy
+- [67:14] that. You could technically use the same
+- [67:16] value over and over if you wanted to,
+- [67:18] but obviously it's way more secure to
+- [67:20] use a different value for each of the
+- [67:22] encryption keys that you generate with
+- [67:24] OpenSSL. So there we go. That is our
+- [67:26] encryption key. And that is actually
+- [67:28] everything that we have to set up for
+- [67:30] our environment variables when we are
+- [67:32] just running the local AI package on our
+- [67:34] computer. Once we deploy it to the cloud
+- [67:37] and we actually want domains for our
+- [67:39] different services like open web UI and
+- [67:41] N8N then we'll have to set up caddy. So
+- [67:44] this is where we'll dive into domains
+- [67:45] and we'll get into this at the end of
+- [67:46] the master class here. But everything
+- [67:49] past this point for environment
+- [67:52] variables is completely optional. You
+- [67:54] can leave all of this exactly as it is
+- [67:57] and everything will work. Most of this
+- [67:59] is just extra configuration for
+- [68:02] superbase. So, Superbase is definitely
+- [68:03] the biggest service that's included in
+- [68:06] this list of, you know, curated services
+- [68:08] for you. And so, there's a lot of
+- [68:09] different configuration things you can
+- [68:11] play around with if you want to dive
+- [68:12] more into this. You can definitely look
+- [68:15] at the same documentation page that we
+- [68:17] were using for the Superbase Secrets.
+- [68:19] And so, you can scroll through this if
+- [68:20] you want to learn more um like setting
+- [68:22] up email authentication or Google
+- [68:25] authentication. um diving more into all
+- [68:27] of those different configuration things
+- [68:29] for Superbase if you want to dive more
+- [68:32] into that. I'm not going to get into all
+- [68:33] of this right now because the core of
+- [68:36] getting Superbase up and running we
+- [68:38] already have taken care of with the
+- [68:40] credentials that we set up at the top um
+- [68:42] right here. And so that these are these
+- [68:44] are just the base things and so that's
+- [68:46] what we'll stick to right now. So that
+- [68:47] is everything for our environment
+- [68:49] variables. So then going back to our
+- [68:51] readme now which I have open directly in
+- [68:53] windsurf now instead of my browser we
+- [68:55] have finished our configuration and I do
+- [68:58] have a note here that you want to set
+- [68:59] things up for caddy if you're deploying
+- [69:01] to production. Obviously we're doing
+- [69:03] that later not right now like I said and
+- [69:05] so with that we are good to start
+- [69:07] everything. Now before we spin up the
+- [69:09] entire local AI package there is one
+- [69:12] thing that I want to cover. It's
+- [69:13] important to cover this before we run
+- [69:14] things. If you don't want to run
+- [69:17] everything in the package cuz it is a
+- [69:19] lot like maybe you only want to use half
+- [69:21] of these services and you don't want
+- [69:22] Neo4j and Langfuse and Flowwise right
+- [69:26] now. There are two options that you
+- [69:28] have. The easiest one right now is to go
+- [69:31] into the docker compose file. This is
+- [69:33] the main file where all of the services
+- [69:36] are curated together and you can just
+- [69:38] remove the services that you don't want
+- [69:40] to include. So, for example, if you
+- [69:42] don't want Quadrant right now, cuz it is
+- [69:44] actually one of the larger services.
+- [69:46] It's like 600 u megabytes of RAM just
+- [69:48] having this running, you can search for
+- [69:50] Quadrant, and you can just go ahead and
+- [69:53] delete this service from the stack like
+- [69:54] that. Boom. Now I don't have Quadrant.
+- [69:57] It won't spin up as a part of the stack
+- [69:58] anymore. And then also I have a volume
+- [70:02] for Quadrant. So, you can remove that as
+- [70:03] well. Volumes, by the way, is how we are
+- [70:06] able to persist data for these
+- [70:08] containers. So if we tear down
+- [70:10] everything and then we spin it back up,
+- [70:12] we still are going to have our open web
+- [70:14] UI conversations and our N8N workflows,
+- [70:17] everything in Superbase, like all that
+- [70:19] is still going to be saved because we're
+- [70:21] storing it all in volumes. So we can do
+- [70:23] whatever the heck we want with these
+- [70:25] containers. We can tear them down. We
+- [70:26] can update them, which I'll show you how
+- [70:28] to do later. We can spin it back up. And
+- [70:30] all of our data will always be
+- [70:32] persisted. So you don't have to worry
+- [70:33] about losing information. And you can
+- [70:35] always back things up if you want to be
+- [70:37] really secure, but I've never done that
+- [70:39] before and I've been updating this
+- [70:41] package for months and months and months
+- [70:42] and all of my workflows from 6 months
+- [70:44] ago are still there. I haven't lost
+- [70:46] anything. And so that's just a quick
+- [70:48] caveat there for how you can remove
+- [70:50] services if you want. And then another
+- [70:52] thing that we don't have available yet,
+- [70:54] but I'm very excited to, you know, kind
+- [70:56] of talk about this right now. It's in
+- [70:58] beta right now. We are creating me and
+- [71:01] one other guy uh that's actually on my
+- [71:03] Dynamist team. Um Thomas, he's got a
+- [71:05] YouTube channel as well. He's a great
+- [71:07] guy. We're working together on this.
+- [71:08] He's actually been putting in most of
+- [71:09] the work creating a front-end
+- [71:11] application for us to manage our local
+- [71:13] AI package. And one of the big things
+- [71:15] with this is that we're going to make it
+- [71:17] possible for you to toggle on and off
+- [71:20] the services that you want to have
+- [71:22] within your local AI package. So you can
+- [71:25] very much customize the package to the
+- [71:27] services that you want to run. So you
+- [71:29] can keep it lightweight just to the
+- [71:30] things you care about. Also, we'll be
+- [71:32] able to manage environment variables and
+- [71:34] monitor the containers. Not all of this
+- [71:36] is up and running at this point, but
+- [71:38] this is in beta. We're working on it.
+- [71:39] I'm really excited for this. So, not
+- [71:41] available yet, but at once this is
+- [71:42] available, this will be a really good
+- [71:44] way for you to customize the package to
+- [71:46] your needs. So, you don't have to go and
+- [71:47] edit the docker compose file directly.
+- [71:50] So, that's something that I just wanted
+- [71:51] to get out of the way now. But, we can
+- [71:54] start and actually execute our package
+- [71:57] now. Get all these containers up and
+- [71:59] running. So the command that you run to
+- [72:02] start the local AI package is different
+- [72:05] depending on your operating system and
+- [72:07] the hardware that you have. So for
+- [72:10] example, if you are an Nvidia GPU user,
+- [72:13] you want to run this start services.py
+- [72:16] script. This boots up all of the
+- [72:18] containers and you want to specifically
+- [72:20] pass in the profile of GPU NVIDIA. This
+- [72:23] is going to start Ola in a way where the
+- [72:26] Olama container is able to leverage your
+- [72:29] GPU automatically. And then if you are
+- [72:31] using an AMD GPU and you're on Linux,
+- [72:34] then you can run it this way. Which by
+- [72:36] the way, unfortunately, if you have an
+- [72:38] AMD GPU on Windows, you aren't able to
+- [72:42] run O Lama in a container. And it's the
+- [72:46] same thing with Mac computers.
+- [72:47] Unfortunately, like you see right here,
+- [72:49] you cannot expose your GPU to the Docker
+- [72:52] instance. And so if you are an AMD GPU
+- [72:55] on Windows or running on Mac, you cannot
+- [72:58] run Olama in the local AI package. You
+- [73:01] just have to install it on your own
+- [73:02] machine like I already showed you in
+- [73:04] this master class and then you'll just
+- [73:06] run everything else through the local AI
+- [73:08] package and they can actually go out to
+- [73:10] your machine and communicate to Olama
+- [73:12] directly. So just a small limitation for
+- [73:14] Mac and AMD on Windows. But if you're
+- [73:17] running on Linux or an Nvidia GPU on
+- [73:19] Windows like I'm using, then you can go
+- [73:21] ahead and run this command right here.
+- [73:24] So if you can't run a GPU in the Olama
+- [73:27] container, then you can always just
+- [73:29] start in CPU mode or you can run with a
+- [73:32] profile of none. This will actually make
+- [73:34] it so that Olama never starts in the
+- [73:36] local AI package. So you can just
+- [73:38] leverage the Olama that you have already
+- [73:40] running on your computer like I showed
+- [73:41] you how to install already. So, just a
+- [73:43] couple of small caveats that I really
+- [73:45] want to hit on there. I need to make
+- [73:46] sure that you're using the right
+- [73:48] command. And so, in my case, I'm Nvidia
+- [73:51] on Windows. So, I'm going to copy this
+- [73:53] command. Go back over into my terminal.
+- [73:55] I'll just clear it here. So, we have a
+- [73:57] blank slate. And I'll paste in this
+- [73:59] command. And so, it's going to do quite
+- [74:01] a few things initially. First, it's
+- [74:02] going to clone the Superbase repository
+- [74:04] because Superbase actually manages the
+- [74:07] stack in a separate place. And so, we
+- [74:09] have to pull that in. Then there's some
+- [74:10] configuration for CRXNG for our uh local
+- [74:14] and private web search. And then I have
+- [74:16] a couple of warnings here saying that
+- [74:18] the Flowwise username and password are
+- [74:20] not set, which by the way for that if
+- [74:22] you want to set the Flow Wise username
+- [74:24] and password, it's optional, but you can
+- [74:26] do that if I scroll down right here. So
+- [74:29] you can set these values, those will
+- [74:30] actually make those warnings go away,
+- [74:32] but you can also ignore them, too. So
+- [74:34] anyway, I just wanted to mention that
+- [74:35] really quickly. But now what's happening
+- [74:37] here is it starts by running all of the
+- [74:39] Superbase containers. And so there's
+- [74:42] quite a bit that goes into Superbase,
+- [74:44] like I said. So we're running all of
+- [74:45] that. It's getting all that spun up. And
+- [74:47] then once we run all of these, it's
+- [74:49] going to move on to deploying the rest
+- [74:51] of our stack. And if you're running this
+- [74:53] for the very first time, it will take a
+- [74:55] while to download all of these images.
+- [74:57] They're not super small. There's a lot
+- [74:59] of infrastructure that we're starting up
+- [75:01] here. And so it'll take a bit. You just
+- [75:02] have to be patient. maybe go grab your
+- [75:04] coffee or make your next meal, whatever
+- [75:06] that is. And then everything will be up
+- [75:08] and running once you are back. And so
+- [75:09] yeah, now you can see that we are
+- [75:11] running the rest of the containers here.
+- [75:12] Um, and so we'll just wait for that to
+- [75:14] be done. And then I'll show you what
+- [75:16] that looks like in Docker Desktop as
+- [75:18] well. And so I'll give it a second here
+- [75:19] just to finish. Uh, looks like my
+- [75:22] terminal glitched a little bit. Like I
+- [75:24] was scrolling and so it kind of broke it
+- [75:25] a bit. But anyway, everything is up and
+- [75:27] running now. It'll look like this where
+- [75:28] it'll say all of the containers are
+- [75:30] healthy or running or started. And then
+- [75:32] if I go into Docker Desktop and I expand
+- [75:34] the local AI compost stack, you want to
+- [75:37] make sure that you have a green dot for
+- [75:39] everything except for the Olama pull and
+- [75:43] N8N import. These just run once
+- [75:45] initially and then they go down because
+- [75:47] they're responsible for pulling some
+- [75:49] things for our local AI package. And so
+- [75:51] yeah, I've got green dots for everything
+- [75:53] except for two right here. Now I'm
+- [75:55] leaving this in here intentionally
+- [75:57] actually because there is a bug with
+- [75:59] Superbase specifically if you are on
+- [76:02] Windows. So you'll see this issue where
+- [76:05] the Superbase pooler is constantly
+- [76:08] restarting and that also affects N8N
+- [76:10] because N8N relies on the Superbase
+- [76:12] pooler. So it's constantly restarting as
+- [76:14] well. If you see this problem, I
+- [76:17] actually talk about this in the
+- [76:18] troubleshooting section of the readme.
+- [76:21] If you scroll all the way down, if the
+- [76:22] Superbase pooler is restarting, you can
+- [76:24] check out this GitHub issue. And so I
+- [76:26] linked to this right here, and he tells
+- [76:29] you exactly which file you want to
+- [76:31] change. It's this one right here. So
+- [76:32] it's docker volumes poolerpooler.exs.
+- [76:36] And you need to change the file to end
+- [76:39] in lf. And so I'll show you what I mean
+- [76:42] by that. I'll show you exactly how to do
+- [76:43] this. It's like a super tiny random
+- [76:45] thing, but this has tripped up so many
+- [76:47] people. So I want to include this
+- [76:49] explicitly in the master class here. So
+- [76:51] you want to go within the superbase
+- [76:53] folder within docker volumes and then
+- [76:56] it's within pooler and then we have
+- [76:58] pooler.exs
+- [77:00] and basically no matter your IDE you can
+- [77:03] see the crlf in the bottom right here.
+- [77:06] You want to click on this and then
+- [77:08] change it to lf and then make sure that
+- [77:10] you save this file. Very easy to fix
+- [77:13] that. And then what you can do is you
+- [77:16] can run the exact same command to spin
+- [77:19] everything up again. And so I'm going to
+- [77:20] do this now. It's going to go through
+- [77:22] all the same steps. It'll be faster this
+- [77:24] time because you already have everything
+- [77:25] pulled. And this, by the way, is how you
+- [77:27] can just restart everything really
+- [77:28] quickly if you want to enforce new
+- [77:30] environment variables or anything like
+- [77:31] that. So I want to include that
+- [77:33] explicitly um for that reason as well.
+- [77:35] And I'll go ahead and close out of this.
+- [77:36] And and while this is all restarting,
+- [77:39] the other thing that I want to show you
+- [77:40] in the readme is I also have
+- [77:42] instructions for upgrading the
+- [77:44] containers in the local AI package. So
+- [77:46] when N8N has an update or Superbase has
+- [77:49] an update, it is your responsibility
+- [77:51] because you're managing the
+- [77:53] infrastructure to update things
+- [77:54] yourself. And so you very simply just
+- [77:56] have to run these three commands to
+- [77:58] update everything. You want to tear down
+- [78:01] all of the containers and make sure you
+- [78:02] specify your profile like GPU Nvidia and
+- [78:07] then you want to pull all of the latest
+- [78:09] containers and again specifying your
+- [78:11] profile. And then once you do those two
+- [78:13] things, you'll have the most up-to-date
+- [78:15] versions of the containers downloaded.
+- [78:17] So you can go ahead and run the start
+- [78:18] services with your profile just like we
+- [78:20] just did to restart things. Very easy to
+- [78:23] update everything. And even though we
+- [78:25] are completely tearing down our
+- [78:27] containers here before we upgrade them,
+- [78:29] we aren't losing any information because
+- [78:31] we are persisting things in the volumes
+- [78:33] that we have set up at the top of our
+- [78:36] Docker Compose stack. And so this is
+- [78:37] where we store all of our data in our
+- [78:39] database and and workflows. All these
+- [78:41] things are persisted. So we don't have
+- [78:43] to worry about losing them. Very easy to
+- [78:45] upgrade things and you still get to keep
+- [78:47] everything. You don't have to make
+- [78:48] backups and things like that unless you
+- [78:50] just want to be ultra ultra safe. So now
+- [78:54] we can go back to our Docker desktop and
+- [78:57] we've got green dots for everything now
+- [79:00] since we fixed that pooler.exs issue.
+- [79:02] The only thing that we don't have green
+- [79:04] dots for is the N8N import and then we
+- [79:06] have our Olama pull as well because like
+- [79:08] I said those are the two things that
+- [79:09] just have to run at the beginning and
+- [79:11] then they aren't ongoing processes like
+- [79:13] the rest of our services. So, we have
+- [79:16] everything up and running. And if there
+- [79:19] is anything that is a white dot besides
+- [79:22] Olama pull or n import or if there's
+- [79:25] anything that is constantly restarting,
+- [79:27] just feel free to post a comment and
+- [79:29] I'll definitely be sure to help you out.
+- [79:31] And then also check out the
+- [79:32] troubleshooting section as well. One
+- [79:34] thing that I'll mention really quick is
+- [79:35] sometimes your N8N will constantly
+- [79:37] restart and it'll say something like the
+- [79:40] N8N encryption key doesn't match what
+- [79:42] you have in the config. And the big
+- [79:44] thing to keep in mind for that is you
+- [79:46] want to make sure that you set this
+- [79:48] value for the encryption key before you
+- [79:50] ever run it for the first time.
+- [79:52] Otherwise, it's going to generate some
+- [79:53] random default value and then if you
+- [79:55] change this later, it won't match with
+- [79:56] what it expects. And so, yeah, my big
+- [79:58] recommendation is like make sure you
+- [79:59] have everything set up in your
+- [80:01] environment variables before you ever
+- [80:03] run the start services for the first
+- [80:05] time. This should be run once you have
+- [80:08] your environment variables set up.
+- [80:09] Otherwise, you risk any of these
+- [80:11] services creating default values that
+- [80:12] then wouldn't match with the keys and
+- [80:14] things that you set up later. And so
+- [80:16] with that, we can now go into our
+- [80:18] browser and actually explore all of
+- [80:21] these local AI services that we have
+- [80:22] running on our computer now. Now over in
+- [80:24] our browser, we can start visiting the
+- [80:26] different services that we have spun up.
+- [80:28] Like here is N8N. You just have to go to
+- [80:30] localhost port 5678. It'll have you
+- [80:33] create a local account when you first
+- [80:35] visit it. And then you'll have this
+- [80:36] workflow view that should look very
+- [80:38] familiar to you. if you have used NAND
+- [80:40] in the past. And then we have open web
+- [80:41] UI localhost port 8080. This is our chat
+- [80:45] GPT like interface where we can directly
+- [80:47] talk to all of the models that we have
+- [80:50] pulled in our Olama container. Really,
+- [80:52] really neat. And then we have local host
+- [80:54] port 8000 for our Superbase dashboard.
+- [80:57] The signin definitely isn't pretty
+- [80:59] compared to the managed version of
+- [81:00] Superbase. But once you enter in your
+- [81:02] username and password that you have set
+- [81:04] for the environment variables for the
+- [81:05] dashboard, then you have the very
+- [81:07] typical view where we have our tables
+- [81:09] and we've got our SQL editor. Everything
+- [81:11] that you're familiar with with
+- [81:13] Superbase. And that's the key thing with
+- [81:14] all these different services. They all
+- [81:16] will look the exact same for you pretty
+- [81:18] much. Um like another one for example,
+- [81:20] if I go to localhost um port 3000, we
+- [81:24] have languages. This is for agent
+- [81:26] observability and monitoring. And this
+- [81:28] is something I'm not going to dive into
+- [81:29] in this master class. Like I said, I'm
+- [81:31] not covering all the services. But yeah,
+- [81:33] I just want to show that like every
+- [81:34] single one of these pretty much you can
+- [81:35] access in your browser. And by the way,
+- [81:39] the way that we know the specific port
+- [81:40] to access for each of these services is
+- [81:43] by taking a look at either what it tells
+- [81:46] us in Docker Desktop. So like we can see
+- [81:48] that Neo4j is um let's see, we have port
+- [81:51] 7474.
+- [81:53] For uh CR XNG, it's port 8081. For
+- [81:57] Flowwise, it's port 3001. What's one
+- [81:59] that we've seen already? Um, let me
+- [82:01] Yeah, like Open Web UI is port 8080. So,
+- [82:03] the port on the left is the one that we
+- [82:06] access in our browser. And then the port
+- [82:09] on the right is what's mapped on the
+- [82:11] container. So, when we visit port 8080
+- [82:13] on our computer, that goes into port
+- [82:16] 8080 on the container. And that's what
+- [82:18] we have exposed. The other way that you
+- [82:21] can see the port that you need to use is
+- [82:23] just by taking a look at this docker
+- [82:24] compose file. And you don't need to have
+- [82:27] like a super good understanding of this
+- [82:28] docker compose file. But if you want to
+- [82:30] customize your stack or even help me by
+- [82:33] making contributions to local AI
+- [82:34] package, this is the main place to make
+- [82:36] changes. And so for example, I can go
+- [82:39] down to flowwise and I can see that the
+- [82:41] port is 3001.
+- [82:43] Or if I go down to let's say N8N, we can
+- [82:46] see that the port is 5678.
+- [82:49] And so the port is always going to be
+- [82:50] there somewhere in the service that you
+- [82:52] have set up. Like for the Langfuse
+- [82:54] worker, it's 3030. That's more of a
+- [82:56] behind-the-scenes kind of service. But
+- [82:57] let me just find one more example for
+- [82:59] you here. Um yeah, like Reddus for
+- [83:01] example is 6379. So you can see the
+- [83:04] ports in the Docker Compose as well. I
+- [83:06] just want to call it out just to at
+- [83:07] least get you a little bit comfortable
+- [83:09] and familiar with the Docker Compose
+- [83:11] file in case you want to customize
+- [83:12] things. But the main thing is just
+- [83:14] leveraging what you see here in Docker
+- [83:15] Desktop. Last thing in Docker Desktop
+- [83:18] really quickly, if you want to bring
+- [83:19] more local large language models into
+- [83:21] the mix, you can do it without having to
+- [83:23] restart anything. You just have to find
+- [83:25] the Olama container in the Docker
+- [83:27] Compose stack. Head on over to the exec
+- [83:29] tab. And now here we can run any
+- [83:31] commands that we'd want. We're directly
+- [83:33] within the container here. And we can
+- [83:34] use Lama commands just like we did
+- [83:36] earlier on our host machine. And so for
+- [83:38] example, I ran Lama list already. So I
+- [83:40] can see the large language models that
+- [83:42] have already been pulled in my Olama
+- [83:43] container. If I want to pull more, I can
+- [83:46] just do Olama pull and then find that ID
+- [83:48] for the model I want to use on the Olama
+- [83:51] website. And like I said, you don't have
+- [83:52] to restart anything. If I pull it here,
+- [83:54] it's now in the container and I can
+- [83:56] immediately start using it in Open Web
+- [83:58] UI or N8N. We'll see that in a little
+- [84:00] bit. And so that's just really important
+- [84:02] because a lot of times you're going to
+- [84:03] want to start to use different large
+- [84:04] language models and you don't want to
+- [84:06] have to restart anything. The ones that
+- [84:07] are brought into the machine by default
+- [84:11] is it's determined by this line right
+- [84:13] here. So if you want to change the ones
+- [84:15] that are pulled by default, I just have
+- [84:17] Quinn 2.57B instructs like a really
+- [84:20] small lightweight one that I have
+- [84:21] brought into your Lama container by
+- [84:23] default. Uh if you want to add in
+- [84:25] different ones, you can just update this
+- [84:27] line right here to include multiple
+- [84:29] Olama pulls. And so that way you can
+- [84:32] bring in Quen 3 or Mistral 3.1 small,
+- [84:34] whatever you want. This is just the one
+- [84:36] I have by default. And then all the
+- [84:37] other ones that you saw in my list here,
+- [84:40] I've pulled myself. All right. Now that
+- [84:43] we have the local AI package up and
+- [84:45] running, it is time to build some
+- [84:47] agents. Now, we get to use our local AI
+- [84:50] package to actually build out an
+- [84:51] application. And so, I'm going to start
+- [84:53] by introducing you to Open Web UI, and
+- [84:55] we'll use it to talk to our Olama LLM.
+- [84:58] So, we have an application kind of right
+- [85:00] out of the box for us. Then I'll dive
+- [85:02] into building a local AI agent with N8N,
+- [85:06] even connecting it to Open Web UI. So we
+- [85:08] have this custom agent that we built in
+- [85:10] N8N and then we immediately have a
+- [85:12] really nice UI to chat with it. And then
+- [85:14] we'll transition to Python building the
+- [85:16] exact same agent in Python as well. Like
+- [85:18] I said, I want to focus on both no code
+- [85:21] and code to really make this a complete
+- [85:23] master class so that whether you want to
+- [85:24] build with N8N or Python, you can see
+- [85:26] how to connect to our different services
+- [85:28] that we have running locally like
+- [85:29] Superbase and CRXNG and Open Web UI. So,
+- [85:32] we'll cover all of that and then I'll
+- [85:34] get into deployments after this. But
+- [85:36] yeah, let's go ahead right now focus on
+- [85:38] open web UI and building out some
+- [85:40] agents. So, back over in Open Web UI,
+- [85:43] remember this is localhost port 8080.
+- [85:45] You want to set up your connection to
+- [85:47] Olama so we can start talking with our
+- [85:49] local LLMs in this nice interface. And
+- [85:51] so bottom left, go to the admin panel,
+- [85:54] then go to settings and then the
+- [85:56] connections tab. Here we can set up our
+- [85:58] connections both to OpenAI with our API
+- [86:01] key, which we're not going to do right
+- [86:02] now, but then also the Olama API. This
+- [86:04] is what we want to set up. Now, usually
+- [86:07] by default, this value is just
+- [86:09] localhost. And this is actually wrong.
+- [86:12] This is something that is so important
+- [86:14] to understand. And this will apply when
+- [86:16] we set up credentials in N8N and Python
+- [86:18] as well. When you are within a
+- [86:20] container, localhost means that you are
+- [86:23] referencing still within the container.
+- [86:26] Open web UI needs to reach out to the
+- [86:29] Olama container, not itself. So
+- [86:32] localhost is not correct here. This is
+- [86:34] generally the default just because open
+- [86:36] web UI assumes that you're running on
+- [86:37] your machine and so then you would also
+- [86:39] have Lama running on your machine. So
+- [86:41] local host usually works when you're
+- [86:42] outside of containers. But here we have
+- [86:44] to change this. This is super important
+- [86:47] to get right. And so there are two
+- [86:49] options we have. If you are running on a
+- [86:51] Mac or AMD on Windows and you want to
+- [86:54] use Lama running on your machine not
+- [86:56] within a container, then you want to do
+- [86:58] host.doccker.in.
+- [87:00] This is the way in docker to tell the
+- [87:03] container to look outside to the host
+- [87:06] machine where you're running the
+- [87:07] containers and you're running
+- [87:09] separately. Very important to know that.
+- [87:11] And then if you are running Olama in the
+- [87:14] container like I am doing. I have Ola
+- [87:16] running in my Docker desktop. You want
+- [87:18] to change this to Olama, you're
+- [87:21] specifically calling out the service
+- [87:23] that is running the Olama container in
+- [87:26] your Docker Compose stack. And the way
+- [87:28] that we know that this is the name
+- [87:30] specifically is because we just go back
+- [87:32] to our allimportant Docker Compose file.
+- [87:35] Olama. So whenever there's an X and a
+- [87:38] dash, you just ignore that. It's just
+- [87:40] the thing after it. So, ola is the name
+- [87:42] of our service running the container.
+- [87:45] And then if we wanted to connect to
+- [87:46] something else like flow-wise, flow-wise
+- [87:49] is the name of the service. Open WebUI,
+- [87:51] it's open- web UI. All of these tople
+- [87:54] keywords, these are the names when we
+- [87:57] want our containers to be talking to
+- [87:59] each other. And all of this is possible
+- [88:00] because they are within the same Docker
+- [88:03] network. And so I'll just show you that
+- [88:05] so you know what I'm talking about here.
+- [88:06] If I go back to Docker Desktop, we have
+- [88:08] this local AI compos stack. All of these
+- [88:11] containers can now communicate
+- [88:12] internally with each other by
+- [88:14] referencing the names like Reddus or
+- [88:17] CRXNG. So, we'll be seeing that a lot
+- [88:19] when we're building out our agents as
+- [88:20] well. So, I wanted to spend a couple
+- [88:22] minutes to focus on that. And so, you
+- [88:24] can go ahead and click on save in the
+- [88:25] very bottom right. I know my face is
+- [88:27] covering this right now, but you have a
+- [88:28] save button here. Make sure you actually
+- [88:30] do that. Um, and for this API key, I
+- [88:32] don't know why it's asking me to fill it
+- [88:33] out. I don't really care about
+- [88:34] connecting to open AI. So I'll just put
+- [88:36] some random value there and click save.
+- [88:37] And then boom, there we go. We are good.
+- [88:39] And then a lot of times with open web
+- [88:40] UI, it also helps to refresh otherwise
+- [88:42] it doesn't load the models for some
+- [88:43] reason. So I just did a refresh of the
+- [88:46] site here. Control F5. And then now we
+- [88:49] can select all of the local LLMs that we
+- [88:51] have pulled in our Olama container. And
+- [88:53] so for example, I can do Quinn 2.57B.
+- [88:56] That's the one that I just have by
+- [88:57] default. I can say hello. And it's going
+- [89:00] to take a little bit cuz it has to load
+- [89:02] this model onto my GPU just like we saw
+- [89:04] with quen 3 earlier. But then in a
+- [89:06] second here we'll get a response. And
+- [89:08] there are actually multiple calls that
+- [89:10] are being done here. We have one to get
+- [89:11] our response, one to get a title for our
+- [89:15] conversation on the lefth hand side. And
+- [89:16] then also if you click on the three dots
+- [89:19] here, you can see that it created a
+- [89:20] couple of tags for this conversation. So
+- [89:23] couple of things that are fired off all
+- [89:24] at once there. And I can test
+- [89:26] conversation history. What did I just
+- [89:28] say? So yeah, I mean everything's
+- [89:30] working really well here. We have chat
+- [89:32] history, conversation history on the
+- [89:34] lefth hand side. There's so much that we
+- [89:35] get out of the box. And so I wanted to
+- [89:37] show you this really quickly. Now we can
+- [89:39] move on to building an agent in N8N. And
+- [89:41] I'll even show you how to connect it to
+- [89:44] Open Web UI as well through this N8N
+- [89:46] agent connector. Really exciting stuff.
+- [89:48] So let's get right into it. So I'm going
+- [89:49] to start really simple here by building
+- [89:51] a basic agent. The main thing that I
+- [89:53] want to focus on is just connecting to
+- [89:55] our different local AI services. So I am
+- [89:57] going to assume that you have a basic
+- [89:59] knowledge of N8N here because this is
+- [90:01] not an N8N master class. And so I'm
+- [90:03] starting with a chat trigger so we can
+- [90:04] talk to our agent directly in the UI.
+- [90:06] We'll connect this to open web UI in a
+- [90:08] bit as well. And then I want to connect
+- [90:10] an AI agent node. And so what we want to
+- [90:14] do is connect for the chat model and
+- [90:16] then local superbase for our
+- [90:18] conversation history, our agent memory.
+- [90:20] And so for the chat model I'm going to
+- [90:22] do lama chat model. I'm going to create
+- [90:24] brand new credentials. You can see me do
+- [90:26] this from scratch. The URL that you want
+- [90:28] for the base URL is exactly the same as
+- [90:32] what we just entered into open web UI.
+- [90:34] And so if you are running Olama on your
+- [90:35] host machine like an AMD on Windows or
+- [90:39] you are running on a Mac or you just
+- [90:40] don't want to run the Olama container,
+- [90:42] then it is host.doccker.in.
+- [90:46] And then if you are referencing the
+- [90:47] Olama container, we just reference
+- [90:49] Olama. That's the name of the service
+- [90:51] running the Olama container in our
+- [90:53] stack. And then the port is 11434 by
+- [90:56] default. And you can test this
+- [90:57] connection. So it'll do a quick ping to
+- [90:59] the container to make sure that we are
+- [91:01] good to go. And I'll even show you what
+- [91:02] that looks like. So right here in my
+- [91:04] Olama container, I have the logs up. And
+- [91:07] the last two requests were just a simple
+- [91:09] get request to the root endpoint. We
+- [91:10] have two of those right here. And if I
+- [91:13] click on retry and I go back to the
+- [91:15] logs, boom, we are at three now. So it
+- [91:18] made three requests. So it's just making
+- [91:20] that simple ping each time to make sure
+- [91:22] the container is available. And so I'm
+- [91:24] going to go ahead and click on save and
+- [91:26] then close out. So now we have our
+- [91:28] credentials and then we can
+- [91:29] automatically select the model that we
+- [91:31] have loaded now in our container. And so
+- [91:33] just to keep things really lightweight,
+- [91:34] I'm going to go with the 7 billion
+- [91:36] parameter model right now from Quen 2.5.
+- [91:38] Cool. All right. So that is everything
+- [91:40] that we need to connect Olama. It is
+- [91:42] that easy. And then we could even test
+- [91:44] it right now. So, I'm going to go ahead
+- [91:46] and save this workflow. And I'm going to
+- [91:47] just say hello. And uh we don't need the
+- [91:50] conversation history or tools or
+- [91:52] anything at this point. We're already
+- [91:53] getting a response here from the LLM.
+- [91:54] It's working on loading the model into
+- [91:57] my GPU as we speak. And so there we go.
+- [91:59] We got our answer looking really good.
+- [92:01] Cool. So now we can add memory as well.
+- [92:04] So I'm going to add Postgress because
+- [92:06] remember Superbase uses Postgress under
+- [92:08] the hood. And then I'm going to create
+- [92:10] brand new credentials here. And this is
+- [92:12] actually probably the hardest one to set
+- [92:14] up out of all of the credentials for
+- [92:16] connecting to our local AI service. And
+- [92:18] so I'm going to show you what the Docker
+- [92:20] Compose file looks like just that it's
+- [92:22] clear how I'm getting these different
+- [92:24] values. And so I'll point out all of
+- [92:26] them. So the first one for our host it
+- [92:28] is DB because this is the name of the
+- [92:32] specific Superbase service that we have
+- [92:35] that is the underlying Postgress
+- [92:37] database. And I can show you how I got
+- [92:38] that really quick. If you go to the
+- [92:40] superbase folder that we pull when we
+- [92:42] run that start services script, I go to
+- [92:45] docker and then docker compose. If I
+- [92:47] search for db and there's quite a few
+- [92:50] dependencies on db here. So let me find
+- [92:53] the actual reference to it. Where is db?
+- [92:56] Here we go. So yeah, it's really short.
+- [92:58] Uh db is the name of our service that
+- [93:00] actually is the superbase DB. So this is
+- [93:02] the container name that this is what
+- [93:04] you'll see in docker desktop. But then
+- [93:07] this is the underlying service that we
+- [93:08] want to reference when we have our
+- [93:10] containers communicating with each
+- [93:11] other. Like in this case we have our N8N
+- [93:14] container talking to our superbase
+- [93:16] database container. And then the
+- [93:18] database and username are both going to
+- [93:20] be Postgress. Those are the values that
+- [93:22] we have by default. If you scroll down a
+- [93:24] bit in thev you can see these right
+- [93:26] here. The Postgress database is
+- [93:28] Postgress and the user is also
+- [93:29] Postgress. And you can customize these
+- [93:31] things but these are some of the
+- [93:33] optional parameters that I didn't touch
+- [93:34] in the setup with you. And so you can
+- [93:36] just leave those as is. Now the
+- [93:39] Postgress password, this is one of them
+- [93:40] that we set. That was the first
+- [93:42] superbase value that we set there. Make
+- [93:44] sure you have that from what you have in
+- [93:46] thev.
+- [93:48] And then everything else you can kind of
+- [93:49] leave as the defaults here. The port is
+- [93:51] going to be 5432. So that is everything
+- [93:53] for setting up our connection to
+- [93:55] Postgress. You can test this connection
+- [93:57] as well. And then we can move on to
+- [94:00] adding in some tools and things like
+- [94:01] that as well. But yeah, this is like the
+- [94:03] very first basic version of the agent
+- [94:06] that I wanted to show you. And hopefully
+- [94:08] with this you can see how no matter the
+- [94:10] service that you have running in the
+- [94:11] local AI package. It's very easy to
+- [94:13] figure out how to connect to it both
+- [94:15] with the help of N8N because N8N always
+- [94:17] makes it really easy to connect to
+- [94:18] things. Then also just knowing that like
+- [94:20] you just have to reference that service
+- [94:22] name that we have for the container in
+- [94:25] the Docker Compose stack. That's how we
+- [94:27] can talk to it. So you could add in
+- [94:28] quadrant or you could add in language.
+- [94:30] Like you can connect anything that you
+- [94:31] want into our agent here. And so now we
+- [94:33] have conversation history. Next up, I
+- [94:36] want to show you how to build a bit more
+- [94:37] of a complicated agent with N8N using
+- [94:40] some tools. And then also I'm going to
+- [94:42] show you how to connect it to Open Web
+- [94:44] UI. And so right now this is a live
+- [94:46] demo. Instead of connecting to one of
+- [94:47] the Olama LLMs, I'm going straight to
+- [94:50] N8N. I have this custom N8N agent
+- [94:53] connector. And so we are talking to this
+- [94:56] agent that I'll show you how to build in
+- [94:57] a little bit. This one has a tool to use
+- [94:59] CRXNG for local and private web search.
+- [95:02] This is one of the platforms that we
+- [95:04] have included in the local AI package.
+- [95:06] And so this response is going to take a
+- [95:08] little bit here because it has to search
+- [95:10] the web. And the response that it
+- [95:12] generates with this question is pretty
+- [95:13] long. Like there we go. Okay. So we got
+- [95:14] the answer. It's pretty long. But yeah,
+- [95:16] we are able to search the internet now
+- [95:18] with a local agent. N8N connected to
+- [95:21] open web UI. We're getting pretty fancy
+- [95:22] here. And we also have the title that
+- [95:25] was generated on the left. And then we
+- [95:26] have the tags here as well. And so the
+- [95:30] way that this all works, I'm going to
+- [95:31] start by explaining how we can connect
+- [95:33] N8N to Open Web UI. And this is just
+- [95:35] crucial. Makes it so easy for us to test
+- [95:37] agents locally as we are developing
+- [95:39] them. And so if you go to the settings
+- [95:42] and the admin panel in the bottom left
+- [95:44] and go to functions, open web UI has
+- [95:47] this thing called functions which gives
+- [95:49] us the ability to add in custom
+- [95:51] functionality kind of as like custom
+- [95:54] models that we can then use like you saw
+- [95:56] with the N8N agent connector. And so
+- [95:59] what I have here is this thing that I
+- [96:02] call the N8N pipe. And I'll have a link
+- [96:04] to this in the description as well. I
+- [96:05] created this myself and I uploaded it to
+- [96:08] the open web UI directory of functions.
+- [96:10] And so you can go to this link right
+- [96:12] here. You can even just Google the N8N
+- [96:14] pipe for open web UI. And then you click
+- [96:17] on this get button. It'll just have you
+- [96:19] enter in the URL for your open web UI.
+- [96:21] So I can just like paste in this right
+- [96:23] here. Click on import to open web UI and
+- [96:26] it'll automatically redirect you to your
+- [96:28] open web UI instance. So you'll have
+- [96:30] this function now. And we don't have to
+- [96:33] dive into the code for all how how all
+- [96:34] of this works. I worked pretty hard to
+- [96:36] create this for you. Uh actually quite a
+- [96:38] while ago I made this. And the thing
+- [96:40] that we need to care about is
+- [96:41] configuring this to talk to our N8N
+- [96:44] agent. And so if you click on the
+- [96:47] valves, the setting icon in the top
+- [96:49] right, there are a few values that we
+- [96:51] have to set. And so now I'm going to go
+- [96:54] over to showing you how to build things
+- [96:55] in N8N. Then all of this will click and
+- [96:57] it'll make sense. I right now looking at
+- [96:59] these values, you're probably like, how
+- [97:00] the heck do I get all of these? But
+- [97:01] don't worry, we'll dive into all of
+- [97:02] that. But first, let's go into our N8N
+- [97:05] agent. I'll explain how all of this
+- [97:07] works. So, first of all, we have our
+- [97:10] chat trigger that gives us the ability
+- [97:12] to communicate with our agent very
+- [97:13] easily in the workflow. We have a new
+- [97:16] trigger now for the web hook. And so,
+- [97:18] this is turning our agent into an API
+- [97:22] endpoint. So, we're able to talk to it
+- [97:25] with other services like open web UI.
+- [97:27] And so to configure the web hook here,
+- [97:29] you want to make sure that it is a post
+- [97:31] request type. And then you can define a
+- [97:33] custom path here. Whatever you set here
+- [97:35] is going to determine what our URL is.
+- [97:38] So we have our test URL. And then also
+- [97:40] if you toggle the workflow to active,
+- [97:42] this is really important. The workflow
+- [97:44] in N does have to be active. Then you
+- [97:46] have access to this production URL. And
+- [97:49] this is actually the first value that we
+- [97:51] need to set within the valves for this
+- [97:54] open web UI function. We have our N8N
+- [97:56] URL. And because this is a container
+- [97:59] talking to another container, we don't
+- [98:01] actually want to use this localhost
+- [98:03] value that it has here for us. We want
+- [98:05] to specify N8N because N8N again is the
+- [98:08] name of the service running the N8N
+- [98:11] container in our Docker Compose stack.
+- [98:13] So N8N port 5678. And then this is the
+- [98:16] custom URL that we can determine based
+- [98:18] on this. And then the other thing that
+- [98:20] we want to do is set up header
+- [98:22] authentication. We don't want to expose
+- [98:26] this endpoint without any kind of
+- [98:27] security. And so we want to set up some
+- [98:29] authentication. And so you can select
+- [98:31] header off from the authentication
+- [98:32] dropdown. And then for the credentials
+- [98:34] here, I'll just create brand new ones to
+- [98:36] show you what this looks like. The name
+- [98:38] needs to be authorization with a capital
+- [98:41] A. This has to be very specific. The
+- [98:43] name in the top left and the name of
+- [98:45] your credentials. This can be whatever
+- [98:46] you want, but this has to be
+- [98:48] authorization. And then the value here,
+- [98:51] the way that we want to format this is
+- [98:53] it's going to be bearer and then the and
+- [98:55] then a space and then whatever you want
+- [98:57] your bearer token to be. So this is what
+- [99:00] you get to define, but it needs to start
+- [99:02] with a bearer capital B and a space. And
+- [99:05] then whatever you type after bearer
+- [99:07] space, this goes in as the NAN bearer
+- [99:09] token. So you don't include a bearer
+- [99:11] space here because that it's just
+- [99:13] assumed that it's going to be like that.
+- [99:14] It's going to be prefixed with that. So
+- [99:16] you just type in like test off is what I
+- [99:18] have. So my bearer token is bearer test
+- [99:21] off like that. And then this is what I
+- [99:22] enter in for this field. Now I already
+- [99:24] have mine set up. So I'm just going to
+- [99:26] go ahead and close out of this. And then
+- [99:27] the last thing that we have to set up
+- [99:28] for the web hook. And don't worry, this
+- [99:30] is the node that we spend the most time
+- [99:31] with. You want to go to the drop down
+- [99:33] here and change this to respond using
+- [99:36] the respond to web hook node. very
+- [99:38] important because then at the end of our
+- [99:39] workflow and we get the response from
+- [99:40] our agent, we're going to send that back
+- [99:42] to whatever requested our API which is
+- [99:45] going to be open web UI in this case.
+- [99:47] And so that's everything for our
+- [99:48] configuration for the web hook. Now the
+- [99:50] next thing that we have to do is we have
+- [99:53] to determine is open web UI sending in a
+- [99:56] request to get a response for our main
+- [99:58] agent or is it just looking to generate
+- [100:00] that conversation title or the tags for
+- [100:03] our conversation? Because like we were
+- [100:05] looking at earlier, I'm going to close
+- [100:06] out of this for now and go back to a
+- [100:08] conversation, our last conversation
+- [100:10] here. We get our main response, but then
+- [100:13] also there is a request to an LLM to
+- [100:15] create a very simple title for our
+- [100:17] conversation and the tags that we can
+- [100:18] see in the top right. And so our N8
+- [100:21] workflow actually gets invoked three
+- [100:24] separate times for just the first
+- [100:26] message in a new conversation. And so we
+- [100:30] need to determine, are we getting a main
+- [100:32] response? Like should we go to our main
+- [100:34] agent or should we just go to a simple
+- [100:37] LLM that I have set up here to help
+- [100:39] generate the tags or title? And so the
+- [100:42] way that we can determine that is
+- [100:44] whenever Open Web UI is requesting
+- [100:46] something like a title for a
+- [100:47] conversation, it always prefixes the
+- [100:50] prompt with three pound symbols, a
+- [100:53] space, and then the word task. And so we
+- [100:56] can key off of this. If the prompt
+- [100:58] starts with this, and that prompt just
+- [100:59] is coming in from our web hook here. If
+- [101:02] it does start with it, then we're just
+- [101:04] going to go to this simple LLM, we're
+- [101:06] just going to be using Quen 2.514b
+- [101:08] instruct. We have no tools, no memory or
+- [101:11] anything like our main agent because
+- [101:12] we're just very simply going to generate
+- [101:14] that title or the tags. And I can even
+- [101:16] show you in the execution history what
+- [101:19] that looks like. So in this case, we
+- [101:21] have our web hook that comes in. The
+- [101:22] chat input starts with the triple pound
+- [101:25] and task. And so sure enough, we are
+- [101:28] deeming it to be a metadata request is
+- [101:30] what I'm calling it. And so then it then
+- [101:32] goes down to this LLM that is just
+- [101:34] generating some text here. We just have
+- [101:36] this JSON response with the tags for the
+- [101:39] conversation, technology, hardware, and
+- [101:41] gaming. So we're asking about the price
+- [101:43] of the 5090 GPU. And then we do the
+- [101:45] exact same thing to also generate the
+- [101:48] title GPU specs. And so exactly what we
+- [101:50] see here is the title of this last
+- [101:53] conversation. So I hope that makes
+- [101:55] sense. And then if it doesn't start with
+- [101:57] task and the triple pound and so it's
+- [101:59] actually our request. Then we go to our
+- [102:01] main agent. We don't want our main agent
+- [102:03] to have to handle those super simple
+- [102:04] tasks. You can also just use a really
+- [102:06] tiny LLM. Like this would be the perfect
+- [102:08] case to actually use a super tiny LLM
+- [102:11] like um even like DeepSec R1 1.5B. You
+- [102:14] could because it's just such a simple
+- [102:15] task. Otherwise though we are going to
+- [102:17] go to our main agent. And so I'm not
+- [102:20] going to dive into like all these nodes
+- [102:21] in a ton of detail, but basically we are
+- [102:24] are expecting the chat input to contain
+- [102:27] the prompt for our agent. And the way
+- [102:30] that we know to expect chat input
+- [102:32] specifically is because going back to
+- [102:35] the settings for the function here with
+- [102:36] the valves, we are saying right here
+- [102:38] chat input. So you want to make sure
+- [102:40] that the value that you put in here for
+- [102:42] input matches exactly with what you are
+- [102:45] expecting from our web hook. And so chat
+- [102:48] input is the one that I have by default.
+- [102:49] So you can just copy me if you want.
+- [102:51] Then we go into our agent where we're
+- [102:53] hooked into Olama and we've got our
+- [102:55] local superbase. I already showed you
+- [102:56] how to connect up all this and that
+- [102:58] looks exactly the same. The only thing
+- [102:59] that is different now is we have a
+- [103:01] single tool to search the web with
+- [103:04] CRXNG. So it's a web search tool. I have
+- [103:07] a description here just telling it what
+- [103:09] is going to get back from using this
+- [103:11] tool. And then for the workflow ID, this
+- [103:14] is if I go to add a node here and I just
+- [103:16] go for uh workflow tools, call N8N
+- [103:21] workflow tool. So this is basically
+- [103:23] taking an N8N workflow and using it as a
+- [103:26] tool for our agent. So this is the node
+- [103:28] that we have right here. But then I'm
+- [103:29] referencing the ID of this N8N workflow.
+- [103:32] So this ID because I'm going to just
+- [103:35] call the subworkflow that I have defined
+- [103:37] below. And again, I don't want to dive
+- [103:38] into all the details of NAN right now
+- [103:40] and how this all works, but the agent is
+- [103:42] going to decide the query. What should I
+- [103:44] search the web with? It decides that and
+- [103:46] then it invokes this sub workflow here
+- [103:49] where we have our call to CR XNG. So the
+- [103:53] name of the container service in our
+- [103:54] docker and compost stack is just CR XNG
+- [103:56] and it runs on port 8080. And then if
+- [103:59] you look at the CXNG documentation, you
+- [104:01] can look at how to invoke their API and
+- [104:03] things like this. So I'm just doing a
+- [104:04] simple search here and then there are a
+- [104:07] few different nodes because what I want
+- [104:08] to do is I want to split out the search
+- [104:10] and actually I can show you this by
+- [104:12] going to an execution history where
+- [104:14] we're actually using this tool. So take
+- [104:16] a look at this. So in this case the LLM
+- [104:18] decided to invoke this tool and the
+- [104:21] query that it decided is current price
+- [104:23] of the 5090 GPU. So this is going along
+- [104:26] with the conversation that we had last
+- [104:28] in open web UI. we get some results from
+- [104:30] CRXNG, which is just going to be a bunch
+- [104:33] of different websites. And so, we don't
+- [104:35] have the answer quite yet. We just have
+- [104:37] a bunch of resources that can help us
+- [104:39] get there. And so, I'm going to split
+- [104:41] out. So, we have a bunch of different
+- [104:42] websites. We're going to now limit to
+- [104:45] just one. I just want to pull one
+- [104:47] website right now just to keep it
+- [104:48] really, really simple because now we're
+- [104:50] going to actually visit that website.
+- [104:52] I'm going to make an HTTP request to
+- [104:55] this website, which yeah, I mean, if
+- [104:57] it's literally an Nvidia official site
+- [104:59] for the 5090, like this definitely has
+- [105:01] the information that we need. We're
+- [105:03] going to make a request to it, and then
+- [105:04] we're also going to use this HTML node
+- [105:06] to make sure that we are only selecting
+- [105:08] the body of the site. So, we take out
+- [105:10] all the footers and headers and all that
+- [105:12] junk. So, we just have the key
+- [105:13] information. And then that is what we
+- [105:15] aggregate and then return back to our AI
+- [105:18] agent. So it now has the content, the
+- [105:19] core content of this website to get us
+- [105:22] that answer. That is how we invoke our
+- [105:24] web search tool. And then at the very
+- [105:27] end, we're just going to set this output
+- [105:29] field. And that's going to be the
+- [105:30] response that we got back either from
+- [105:32] like generating a title or calling our
+- [105:35] main agent. And this is really
+- [105:37] important. the output field specifically
+- [105:39] whatever we call it here we have to make
+- [105:41] sure that that is corresponding to this
+- [105:43] value as the last thing we have to set
+- [105:46] for the settings for our open web UI
+- [105:48] function. So output here has to match
+- [105:50] with output here because that is what
+- [105:52] we're going to return in this respond to
+- [105:54] web hook. Whatever open web UI gets back
+- [105:57] it's getting back from what we return
+- [105:59] right here. So that is everything for
+- [106:01] our agent. I could probably dive in
+- [106:03] quite a bit more into explaining how
+- [106:04] this all works and building out a lot
+- [106:06] more complex agents, which I definitely
+- [106:08] do with local AI in the Dynamis AI agent
+- [106:10] mastery course. So check that out if you
+- [106:12] are interested. I just wanted to give
+- [106:13] you a simple example here showing how we
+- [106:15] can talk to our different services like
+- [106:17] Olama, Superbase, and Seir XNG. And then
+- [106:20] also open web UI as well. So once you
+- [106:22] have all these settings set, make sure
+- [106:24] of course that you click on save. It's
+- [106:26] very, very important. These two things
+- [106:28] at the bottom don't really matter, by
+- [106:29] the way. But yeah, click on save once
+- [106:30] you have all of the settings there. And
+- [106:32] then you can go ahead and have a
+- [106:34] conversation with your agent just like I
+- [106:36] did when I was demoing things before we
+- [106:38] dove into the workflow. And by the way,
+- [106:40] this NAN agent that works with Open Web
+- [106:42] UI, I have as a template for you. You
+- [106:44] can go ahead and download that in this
+- [106:46] GitHub repository where I'm storing all
+- [106:48] the agents for this masterass. So we
+- [106:50] have the JSON for it right here. You can
+- [106:52] go ahead and download this file. Go into
+- [106:54] your N8N instance. Click on the three
+- [106:57] dots in the top right once you've
+- [106:58] created a new workflow. Import from file
+- [107:01] and then you can bring in that JSON
+- [107:02] workflow. You'll just have to set up all
+- [107:03] your own credentials for things like
+- [107:05] Lama and Superbase and CRXNG. But then
+- [107:07] you'll be good to go and you can just go
+- [107:09] through the same process that I did
+- [107:11] setting up the function in open web UI
+- [107:13] and it'll be with like 15 minutes you'll
+- [107:15] have everything up and running to talk
+- [107:16] to N8N in open web UI. Next up I want to
+- [107:20] create now the Python version of our
+- [107:22] local AI agent. And so this is going to
+- [107:25] be a onetoone translation. Exactly what
+- [107:27] we built here in NN, we are now going to
+- [107:30] do in Python. So I can show you how to
+- [107:31] work with both noode and code with our
+- [107:34] local AI package. And so this GitHub
+- [107:36] repo that has the N workflow we were
+- [107:39] just looking at and that OpenAI
+- [107:40] compatible demo we saw earlier, this has
+- [107:43] pretty much everything for the agent. So
+- [107:44] most of this repository is for this
+- [107:46] agent that we're about to dive into now
+- [107:48] with Python. And in this readme here, I
+- [107:50] have very detailed instructions for
+- [107:52] setting up everything. And a lot of what
+- [107:54] we do with the Python agent, especially
+- [107:55] when we are configuring our environment
+- [107:57] variables, it's going to look very
+- [107:59] similar to a lot of those values that we
+- [108:00] set in N8N. Like we have our base URL
+- [108:03] here, which you'd want to set to
+- [108:05] something, you know, like HTTP lama port
+- [108:08] 11434.
+- [108:09] We just need to add this /view one,
+- [108:11] which I guess is a little bit different,
+- [108:12] but yeah, I've got instructions here for
+- [108:14] setting up all of our environment
+- [108:16] variables, our API key, which you can
+- [108:18] actually use OpenAI or Open Router as
+- [108:21] well with this agent, taking advantage
+- [108:22] of the OpenAI API compatibility. This is
+- [108:25] a live example of this because you can
+- [108:27] change the base URL, API key, and the
+- [108:29] LLM choice to something from Open Router
+- [108:31] or OpenAI, and then you're good to go
+- [108:33] immediately. It's really, really easy.
+- [108:35] We will be using Olama in this case, of
+- [108:37] course, though. And then you want to set
+- [108:39] your superb basease URL and service key.
+- [108:41] You can get that from your environment
+- [108:42] variables. Same thing with CRXNG with
+- [108:44] that base URL. We'll set that just like
+- [108:47] we did in N8N. We have our bearer token
+- [108:49] like in our case was test off. It's just
+- [108:51] whatever comes after the bearer and the
+- [108:53] space. And then the OpenAI API key you
+- [108:55] can ignore. That's just for the
+- [108:57] compatible demo that we saw earlier.
+- [108:58] This is everything that we need for our
+- [109:00] main agent now. And so we're using a
+- [109:02] Python library called fast API to turn
+- [109:05] our AI agent into an API endpoint just
+- [109:09] like we did in N8N. And so fast API is
+- [109:12] kind of what gives us this web hook both
+- [109:13] with the entry point and the exit for
+- [109:15] our agent and then everything in between
+- [109:17] is going to be the logic where we are
+- [109:19] using our agent. And I'm going to be
+- [109:21] using paidantic AI. It's my favorite AI
+- [109:23] agent framework with Python right now.
+- [109:25] Makes it really easy to set up agents
+- [109:27] and we'll so we'll dive into that here.
+- [109:28] And I don't want to get into the
+- [109:30] nitty-gritty of the Python code here
+- [109:32] because this isn't a master class on
+- [109:34] specifically building agents. I really
+- [109:36] just want to show you how we can be
+- [109:38] connecting to our local AI services.
+- [109:40] This agent is 100% offline. Like I could
+- [109:43] cut the internet to my machine and still
+- [109:46] use everything here. So we create our
+- [109:48] Superbase client and the instance of our
+- [109:50] fast API endpoint. I have some models
+- [109:52] here that define the the requests coming
+- [109:55] in, the response going out. So we have
+- [109:57] the chat input and the session ID just
+- [109:59] like we saw in N8N. And then the output
+- [110:02] is going to be this output field. And so
+- [110:04] that corresponds to exactly what we're
+- [110:06] expecting with those settings that we
+- [110:07] set up in the function in open web UI.
+- [110:09] So this Python agent is also going to
+- [110:11] work directly with open web UI. And then
+- [110:14] we have some dependencies for our Pantic
+- [110:16] AI agent because it needs to have an
+- [110:18] HTTP client and the CRXNG base URL to
+- [110:21] make those requests for the web search
+- [110:23] tool. And then we're setting up our
+- [110:25] model here. It's an OpenAI model, but we
+- [110:27] can override the base URL and API key to
+- [110:29] communicate with Olama or Open Router as
+- [110:32] well like we will be doing. And then we
+- [110:34] create our Pantic AI agent just getting
+- [110:36] that model based on our environment
+- [110:38] variables. I've got a very simple system
+- [110:41] prompt and then the dependencies here
+- [110:43] because we need that HTTP client to talk
+- [110:45] to CR XNG. And then I'm just allowing it
+- [110:48] to retry twice. So if there's any kind
+- [110:50] of error that comes up, the agent can re
+- [110:51] retry automatically, which is one of the
+- [110:53] really awesome things that we have in
+- [110:55] Pyantic AI. And then I'm also creating a
+- [110:58] second agent here. This is the agent
+- [111:01] that is going to be responsible like we
+- [111:03] have in NADM for handling the metadata
+- [111:05] for open web UI like conversation titles
+- [111:07] and tags for our conversation. And so
+- [111:10] it's an entirely separate Asian because
+- [111:12] we just have a another system prompt. In
+- [111:14] this case, I'm just doing something
+- [111:15] really simple here. Uh we don't have any
+- [111:18] dependencies for this agent because it's
+- [111:20] not going to be using the web search
+- [111:21] tool. And then for the model, I'm just
+- [111:24] using the exact same model that we have
+- [111:25] for our primary agent. But like I shared
+- [111:28] with N8N, you could make it so that this
+- [111:30] is like a much smaller model, like a one
+- [111:31] or three billion parameter model because
+- [111:33] the task is just so basic or maybe like
+- [111:36] a 7 billion parameter model. So you can
+- [111:38] tweak that if you want. Just for
+- [111:39] simplicity sake, I'm using the same LLM
+- [111:41] for both of these agents.
+- [111:44] And then we get to our web search tool.
+- [111:46] So in Pantic AI, the way that you give a
+- [111:48] tool to your agent is you do at@ and
+- [111:51] then the name of your agent and then
+- [111:54] tool and then the function that you
+- [111:55] define below this is now going to be
+- [111:58] given as a tool to the agent. And then
+- [112:00] this description that we have in the doc
+- [112:02] string here that is given as a part of
+- [112:04] the prompt to your agent. So it knows
+- [112:06] when and how to use this tool. And so
+- [112:09] the exact, you know, details of how
+- [112:11] we're using CRX and G here, I won't dive
+- [112:13] into, but it is the exact same as what
+- [112:15] we did in N8N where we make that request
+- [112:17] to the search endpoint of CRX andG. We
+- [112:20] go through the page results here. We
+- [112:22] limit to just the top three results or I
+- [112:24] could even change this to make it even
+- [112:26] simpler and just the top result. So we
+- [112:28] have the smallest prompt possible to the
+- [112:30] LLM. And then we get the the content of
+- [112:32] that page specifically. And then we
+- [112:34] return that to our AI agent with some
+- [112:37] JSON here. So now once it invokes this
+- [112:40] tool, it has a full page back with
+- [112:42] information to help answer the question
+- [112:44] from the user. It has that web search
+- [112:45] complete now. And then we have some
+- [112:47] security here to make sure that the
+- [112:49] bearer token matches what we get into
+- [112:50] our API endpoint. So that's that header
+- [112:53] authentication that we set up in N8N. So
+- [112:55] this part right here where we're
+- [112:56] verifying the header authentication that
+- [112:59] corresponds to this verify token
+- [113:01] function. And then we have a function to
+- [113:03] fetch conversation history to store a
+- [113:06] new message in conversation history. So
+- [113:08] both of these are just making requests
+- [113:10] to our locally hosted superbase using
+- [113:12] that superbase client that we created
+- [113:14] above. And then we have the definition
+- [113:16] for our actual API endpoint. And so in
+- [113:20] N8N we were using invoke N8N agent for
+- [113:23] our path to our agent. So this was our
+- [113:26] production URL. In this fast API
+- [113:29] endpoint, our endpoint is slashinvoke
+- [113:32] python agent. And then we're
+- [113:34] specifically expecting the chat input
+- [113:36] and session ID. So that is our um chat
+- [113:39] request request type right here. And
+- [113:41] then sorry I highlighted the wrong
+- [113:43] thing. We have our response model here
+- [113:44] that has the output field. So we're
+- [113:46] defining the exact types for the inputs
+- [113:48] and the outputs for this API endpoint.
+- [113:50] And then we're also using this verify
+- [113:52] token to protect our endpoint at the
+- [113:55] start. And then the key thing here, if
+- [113:57] the chat input starts with that task,
+- [113:59] then we're going to call our metadata
+- [114:01] agent. And so it's just going to spit
+- [114:02] out the title or the tags, whatever that
+- [114:04] might be. Otherwise, we're going to
+- [114:06] fetch the conversation history, format
+- [114:08] that for Pyantic AI, store the user's
+- [114:11] message so that we have that
+- [114:13] conversation history stored, create our
+- [114:15] dependencies so that we can communicate
+- [114:17] with CRXNG, and then we'll just do
+- [114:20] agent.run. We'll pass in the latest
+- [114:22] message from the user, the past
+- [114:24] conversation history and the
+- [114:25] dependencies that we created. So it can
+- [114:27] use those when it invokes the web search
+- [114:29] tool and then we just get the response
+- [114:31] back from the agent and we'll you can
+- [114:33] print that out in the terminal as well
+- [114:34] and then we'll just store it in
+- [114:36] superbase and then return the output
+- [114:38] field. So I'm going kind of fast here. I
+- [114:40] there definitely a lot more videos on my
+- [114:42] channel where I break down in more
+- [114:43] detail building out agents with podantic
+- [114:45] AI and turning them into API endpoints
+- [114:47] and things like that. Um but yeah, just
+- [114:49] going a little bit faster here. here.
+- [114:50] And then the last thing is with any kind
+- [114:52] of exception that we encounter, we're
+- [114:54] just going to return a response to the
+- [114:55] front end saying that there was an issue
+- [114:57] and then specifying what that is. And
+- [114:59] then we are using Ubicorn to host our
+- [115:02] API endpoint specifically on port 8055.
+- [115:06] So that is everything for our Python
+- [115:08] agent exactly the same as what we set up
+- [115:11] in N8N. And now going to the readme
+- [115:14] here, I'll open up the preview. The way
+- [115:16] that we can run this agent, we just have
+- [115:18] to open up a terminal just like we did
+- [115:20] with the OpenAI compatible demo. I've
+- [115:23] got instructions here for um setting up
+- [115:25] the database table, which this is using
+- [115:27] the same table as the one in N8N and N8N
+- [115:30] creates it automatically. So, if you
+- [115:31] have already been using the N8N agent,
+- [115:34] you don't actually have to run this SQL
+- [115:36] here. Um, and then you want to obviously
+- [115:38] set up your environment variables like
+- [115:39] we covered. Uh, open your virtual
+- [115:42] environment and install the requirements
+- [115:44] there. And then you can go ahead and run
+- [115:46] the command python main.py.
+- [115:50] And so this will start the API endpoint.
+- [115:52] So it'll just be hanging here because
+- [115:54] now it's waiting for requests to come in
+- [115:56] on a port 8055. And so what I can do is
+- [115:59] I can go back to open web UI. I can go
+- [116:03] to the admin panel functions. Go to the
+- [116:05] settings. I can now change this URL. So
+- [116:08] everything else is the same. I have my
+- [116:09] bearer token, the input field, and the
+- [116:11] output field the same as N8N. The only
+- [116:13] thing I have to change now is my URL.
+- [116:16] And so I know this is an N8N pipe and I
+- [116:18] have N8N in the name everywhere, but
+- [116:20] this does work with just any API
+- [116:21] endpoint that we have created with this
+- [116:23] format here. And so I'm going to say for
+- [116:25] my URL, it's actually going to be
+- [116:27] host.doccker.in
+- [116:29] because I have my API endpoint for
+- [116:31] Python running outside on my host
+- [116:33] machine. So I need my open web UI
+- [116:35] container to go outside to my host
+- [116:38] machine. And then specifically the port
+- [116:40] is going to be 8055.
+- [116:43] And then the endpoint here, I'm going to
+- [116:44] delete this web hook here because it's
+- [116:46] invoke-python-
+- [116:48] agent. Take a look at that. All right.
+- [116:50] Boom. So I'm going to go ahead and save
+- [116:52] this. And then I can go over to my chat.
+- [116:54] And it says n agent connector here
+- [116:56] still. But this is actually talking to
+- [116:58] my Python agent now. So I'll go ahead
+- [117:00] and start by asking it the exact same
+- [117:02] question that I asked the N8N agent. And
+- [117:05] I do have this pipe set up to always say
+- [117:07] that it's calling nan, but this is
+- [117:08] indeed calling our Python API endpoint.
+- [117:11] And we can see that now. So there we go.
+- [117:12] We got all the requests coming in, the
+- [117:14] response from the agent, and then also
+- [117:16] the metadata for the title and the tags
+- [117:18] for the conversation. Take a look at
+- [117:20] that. So we got our title here. We have
+- [117:22] our tags, and then we have our answer.
+- [117:24] It's a starting price of $2,000, which
+- [117:26] it's a lot more right now. The starting
+- [117:28] point, the starting price is kind of
+- [117:30] misleading, but like yeah, this is a
+- [117:32] good answer. and it did use CRXNG to do
+- [117:34] that web search for us. This is really,
+- [117:36] really neat. Now, the last thing that we
+- [117:38] want to do for our Python agent before
+- [117:40] we can work on deploying things to the
+- [117:42] cloud, to a private server in the cloud,
+- [117:45] is we want to containerize it. Now, the
+- [117:48] reason that we want to do this, and this
+- [117:49] is the Docker file that I have set up to
+- [117:51] turn our Python agent into a container,
+- [117:53] just like our local AI services, is if
+- [117:55] we have our agent containerized, then we
+- [117:59] can have it communicate within the
+- [118:01] Docker network just like we have our
+- [118:03] different local AI services
+- [118:05] communicating with each other. Because
+- [118:07] right now running directly with Python
+- [118:10] to communicate with Olama, for example,
+- [118:12] we need our URL to be localhost, not
+- [118:15] Olama. Remember, you can only use the
+- [118:18] specific name of the container service
+- [118:21] when you are within the docker compose
+- [118:23] stack. And so we'd have to actually say
+- [118:25] localhost right now. But if we add the
+- [118:28] container for the agent into the stack
+- [118:30] as well, then we can communicate
+- [118:32] directly within the private network.
+- [118:33] Like I can say lama and then for sir xng
+- [118:36] I could use this URL instead. Right now
+- [118:38] we have to actually use localhost port
+- [118:40] 8081. And so it's really nice for
+- [118:44] security reasons and just to make your
+- [118:46] deployment um in a nice package to have
+- [118:49] the agents that you're running in the
+- [118:51] same network as your infrastructure. And
+- [118:53] so that's what we're going to do right
+- [118:54] now. And so within the read me that I
+- [118:57] have for instructions on setting up
+- [118:59] everything. I have the instructions that
+- [119:00] we follow to run things with Python. I
+- [119:02] also have the instructions to run it
+- [119:04] with Docker. And so all you want to do
+- [119:07] is run this single command. It's
+- [119:09] actually very easy because I have this
+- [119:11] Docker file set up to turn our agent
+- [119:13] into a container and I've got security
+- [119:15] and everything taken care of. We're
+- [119:17] running it on port 8055 just like we did
+- [119:19] with Python. And then I have this very
+- [119:21] simple Docker Compose file. It's just a
+- [119:24] single service that we're going to tack
+- [119:26] on to all of the other services that we
+- [119:28] already have running for the local AI
+- [119:30] package. And I'm calling this one the
+- [119:32] Python local AI agent. And so we're
+- [119:34] using all of our environment variables
+- [119:36] from our ENV just like we did with the
+- [119:38] local AI package. And then what I have
+- [119:40] at the top here is I am including the
+- [119:42] docker compose file for the local AI
+- [119:45] package. So that just kind of solidifies
+- [119:47] the connection there. Otherwise, you'll
+- [119:48] get this kind of weird error that says
+- [119:50] there are orphaned containers when you
+- [119:52] run this, even though they aren't
+- [119:53] actually. And so this is optional.
+- [119:55] You'll just get an orphan container
+- [119:56] warning that you can ignore. But if you
+- [119:58] don't want to have that warning, you can
+- [120:00] include this right here. You just have
+- [120:01] to make sure that this path corresponds
+- [120:03] to the path to your docker compose in
+- [120:06] the local AI package. So in my case, I
+- [120:08] just had to go up to directories and
+- [120:10] then go into the local AI package
+- [120:12] folder. So yeah, you this is optional,
+- [120:13] but I want to include this here just to
+- [120:15] make things in tiptop shape for you. So
+- [120:18] yeah, this is the docker compose. And
+- [120:19] then what we can do now is I'll go back
+- [120:21] over to my terminal and I will paste in
+- [120:23] this command. And what this will do is
+- [120:25] it will start or restart my Python local
+- [120:28] AI agent container. And make sure that
+- [120:31] you specify this here because if you
+- [120:33] don't then it's going to try to rebuild
+- [120:35] the entire local AI package because we
+- [120:36] have this include. So very important you
+- [120:38] want to just rebuild or build for the
+- [120:41] first time this agent container. And so
+- [120:43] I'll go ahead and run this and it's
+- [120:45] going to give me those flow-wise
+- [120:47] warnings. So I don't have my username
+- [120:48] and password set, but remember we can
+- [120:49] ignore those. But anyway, it's going to
+- [120:51] build the Python local AI agent
+- [120:52] container here. And there's a couple of
+- [120:54] steps that it has to do. It has to
+- [120:56] update some internal packages and then
+- [120:57] also install all of the pit packages we
+- [121:00] have for our Python requirements for
+- [121:02] things like fast API and Pantic AI. So
+- [121:04] it'll take a little bit to complete,
+- [121:06] usually just a minute or two. And so
+- [121:07] I'll go ahead and pause and come back
+- [121:09] once this is done. And there we go. Your
+- [121:11] output should look something like this.
+- [121:12] It goes through all the build steps and
+- [121:14] then it says that the container is
+- [121:15] started at the bottom. And this is now
+- [121:18] in our local AI Docker Compose stack. So
+- [121:20] going back over to Docker Desktop. It'll
+- [121:23] take a little bit to find it here
+- [121:24] because there are so many services that
+- [121:26] we have here. But if we scroll down,
+- [121:27] okay, there we go. At the bottom here,
+- [121:28] we have our Python local AI agent
+- [121:31] waiting on port 8055 just like when we
+- [121:34] ran it directly with Python, but now it
+- [121:36] is within a container that is directly
+- [121:38] within our stack. And so now, like I was
+- [121:40] saying, this is super important, so I'm
+- [121:41] hitting on it again. Now when we set up
+- [121:43] our environment variables for our
+- [121:45] container, we are going to be
+- [121:47] referencing the service names of our
+- [121:49] different local AI services like circ or
+- [121:52] lama instead of localhost. And so this
+- [121:55] whole like localhost versus
+- [121:56] host.docer.ernal
+- [121:58] versus using the service name, that's
+- [122:00] the thing I see people get tripped up on
+- [122:01] the most when they're configuring
+- [122:03] different things in a Docker environment
+- [122:04] like the local AI package. That's why
+- [122:06] I'm spending a good amount of time
+- [122:08] really hammering that in because I want
+- [122:09] you to get it right. And of course, if
+- [122:11] you have any issues that come up with
+- [122:12] this, just let me know. I'd love to help
+- [122:14] walk you through what exactly your
+- [122:16] configuration should look like. And so,
+- [122:18] we have our agent now up and running in
+- [122:20] a container. And I'm not going to go and
+- [122:21] demo this again right now because the
+- [122:23] next thing that we're going to move into
+- [122:24] doing and then I'll give a final demo
+- [122:26] here is deploying everything to a
+- [122:28] private server that we have in the
+- [122:30] cloud. All right. So, we have really
+- [122:32] gotten through all of the hard stuff
+- [122:34] already. So, if you have made it this
+- [122:36] far, congratulations. you really have
+- [122:38] what it takes to start building AI
+- [122:40] agents with local AI now and the sky is
+- [122:43] the limit for what you can accomplish.
+- [122:44] And so the last thing that I want to
+- [122:46] really focus on here in this master
+- [122:48] class is taking everything that we've
+- [122:50] been building on our own computer with
+- [122:52] our infrastructure and our agents and
+- [122:54] deploying it to a private machine in the
+- [122:57] cloud because then we can have our
+- [122:59] entire infrastructure and agents running
+- [123:00] 24/7. We don't have to rely on having
+- [123:02] our own computer up all the time. It's
+- [123:04] really nice to have it there because
+- [123:05] then we can also share it with other
+- [123:07] people as well. So local AI is still
+- [123:10] considered local as long as it's running
+- [123:12] on a machine in the cloud that you
+- [123:14] control. And so this is not just going
+- [123:17] to open AAI or Superbase and paying for
+- [123:18] their API. This is still us running
+- [123:20] everything ourselves on a private
+- [123:22] server. That's what I'm going to show
+- [123:23] you how to do right now. And this
+- [123:25] process that I cover with you is going
+- [123:27] to work no matter the cloud provider
+- [123:29] that you end up choosing. And there are
+- [123:30] some caveats to that that I'll explain
+- [123:32] in a little bit. But yeah, you can pick
+- [123:34] from a lot of different options. So the
+- [123:36] cloud platform that we will be deploying
+- [123:38] to today is Digital Ocean. I use Digital
+- [123:41] Ocean a lot. It's where I deploy most of
+- [123:44] my AI agents. So I highly recommend it.
+- [123:46] And the best part about Digital Ocean is
+- [123:48] they have both GPU machines if you need
+- [123:51] to have a lot of power for your local
+- [123:52] LLMs and they have very affordable CPU
+- [123:56] instances. If you want to deploy
+- [123:58] everything for the local AI package
+- [124:00] except Olama, you can definitely go a
+- [124:02] more hybrid route if you don't want to
+- [124:03] pay a lot because these GPU instances in
+- [124:05] the cloud can be pretty expensive like
+- [124:07] one, two, even $5 per hour. So, what you
+- [124:10] can do with a hybrid setup is deploy
+- [124:12] everything in the local AI package. So,
+- [124:14] at least you have all that locally and
+- [124:16] you're not paying for those
+- [124:17] subscriptions. But then you could still
+- [124:19] use something like OpenAI, Open Router
+- [124:21] or Anthropic for your LLMs. So, Digital
+- [124:23] Ocean gives us the ability to do both,
+- [124:25] and we'll dive into that when we set
+- [124:27] things up. Another really good option
+- [124:29] for GPU instances is Tensor Do. Tensor
+- [124:33] Do is not as nice looking to me as
+- [124:36] Digital Ocean. I generally feel like I
+- [124:37] have a better experience with Digital
+- [124:39] Ocean, but I have deployed the local AI
+- [124:40] package to Tensor Do before on a 4090
+- [124:43] GPU that they offer for 37 cents an
+- [124:46] hour. It's very affordable for GPU
+- [124:48] instances. And so, this is a good
+- [124:49] platform as well. And then also if
+- [124:52] you're okay with not running Olama on a
+- [124:55] GPU instance, like you just want a very
+- [124:57] affordable way to host everything in a
+- [124:59] local AI package except the LLMs, then
+- [125:02] you can use Hostinger. Hostinger is
+- [125:03] another really really good option. super
+- [125:06] super affordable like $7 a month for a
+- [125:08] KBM2 which I'd recommend getting if you
+- [125:11] want to deploy everything except Olama
+- [125:14] because the requirement for the local AI
+- [125:15] package except for running the more
+- [125:17] resource intense local LLMs is you have
+- [125:20] to have 8 GB of RAM. So don't get a
+- [125:23] cloud machine that has four or 2 GB. You
+- [125:25] want to have 8 GB of RAM then you'll be
+- [125:27] good to go. So you can literally do it
+- [125:28] for $7 a month through Hostinger and
+- [125:30] it's going to be something like $28 a
+- [125:32] month through Digital Ocean unless you
+- [125:34] want a GPU instance. So I just want to
+- [125:37] spend a couple minutes talking about
+- [125:39] different platform options. The one
+- [125:40] thing I will say is that the local AI
+- [125:43] package runs as a bunch of Docker
+- [125:45] containers, right? And so what you have
+- [125:47] to avoid is using a platform like
+- [125:50] RunPod. So RunPod is a platform for
+- [125:54] running local AI. The problem is when
+- [125:56] you pay for a GPU instance, you don't
+- [125:59] actually get the underlying machine.
+- [126:02] You're just sshing into a container. So,
+- [126:05] you're accessing a container. And I'll
+- [126:08] just save you the pain right now. It is
+- [126:09] so hard and basically impossible to run
+- [126:13] Docker containers within Docker
+- [126:15] containers. So, you really can't run the
+- [126:17] local AI package on RunPod. There are
+- [126:20] other platforms as well like Lambda Labs
+- [126:22] is another one that I've used before.
+- [126:25] not for the local AI package for other
+- [126:26] things but this also runs containers
+- [126:28] like you're accessing a container so you
+- [126:30] can't do the local AI package vast.ai AI
+- [126:34] is another option, but this also is
+- [126:37] you're renting a GPU, but it's you're
+- [126:39] accessing a container. So, you again
+- [126:41] can't run the local AI package. And so,
+- [126:43] based on the platform that you choose,
+- [126:45] you have to make sure that you are
+- [126:47] accessing the underlying machine when
+- [126:49] you rent a GPU instance like Digital
+- [126:51] Ocean is the one that I will be using.
+- [126:53] You could use a GPU instance through the
+- [126:56] Google cloud or Azure or AWS if you want
+- [126:58] to go more enterprise. Those all give
+- [127:00] you access to the underlying machine.
+- [127:02] It's your own private server just like
+- [127:04] we have in Digital Ocean. So you can use
+- [127:05] that to deploy the local AI package and
+- [127:07] the agent that we built with Python. So
+- [127:09] that's what we're going to do right now.
+- [127:11] So once you are signed into Digital
+- [127:13] Ocean and you have your profile and
+- [127:14] billing set up and you have a project
+- [127:16] created or you can just use the default
+- [127:18] one, now we can go ahead and create our
+- [127:20] private server in the cloud to host the
+- [127:22] local AI package and our agent. And so
+- [127:24] you can click on create in the top
+- [127:25] right. And there are two options here.
+- [127:27] If you want a CPU instance, so that
+- [127:29] hybrid approach where you're hosting
+- [127:31] everything except for the LLMs, you can
+- [127:34] select a droplet. Otherwise, what we're
+- [127:36] going to be doing right now so I can
+- [127:37] demo the full full thing is we will
+- [127:40] create a GPU droplet. Now, these are
+- [127:42] going to be more expensive. Like I said,
+- [127:44] like running an H100 GPU is $3.40 an
+- [127:48] hour. It's pretty expensive. But like I
+- [127:50] said at the start of this master class,
+- [127:52] I know so many businesses that are
+- [127:54] willing to put tens of thousands of
+- [127:56] dollars per year into running their own
+- [127:58] infrastructure and LLMs. And that
+- [127:59] biggest cost that contributes to that
+- [128:01] being tens of thousands of dollars is
+- [128:03] having a GPU droplet that is running 247
+- [128:07] in the cloud. So the hybrid approach I
+- [128:09] definitely recommend if you don't want
+- [128:10] to pay more, you could go as low as $7 a
+- [128:12] month with Hostinger. So, there's a very
+- [128:14] wide range of options for you depending
+- [128:16] on what you want to pay hosting the
+- [128:18] package, LLMs, and your agents. And the
+- [128:21] other thing I will say is that if you
+- [128:23] want to, you could just create this
+- [128:25] instance for a day and poke around with
+- [128:27] things and then tear it down. So, you
+- [128:29] only have to pay, you know, like 20
+- [128:30] bucks or something like that. So,
+- [128:31] there's a lot of different options for
+- [128:32] flexibility here. And so, I'm going to
+- [128:35] pick the Toronto data center because
+- [128:36] there's more options for GPUs available
+- [128:38] here and it's relatively close to me.
+- [128:40] And then for the image, I'll select
+- [128:42] AI/ML ready and it's recommended because
+- [128:45] you get the Linux bundled with all the
+- [128:47] required GPU drivers and it does run the
+- [128:49] Ubuntu distribution of Linux. And so
+- [128:52] this process that I'm going to walk you
+- [128:54] through for deploying local AI package
+- [128:55] to the cloud is going to work for any
+- [128:57] Ubuntu instance that you have running on
+- [129:00] AWS or Hostinger or Tensor Do. It's just
+- [129:03] a very standard distribution of Linux.
+- [129:05] And then for the GPU, there are a couple
+- [129:08] of different options that we have here
+- [129:09] with Digital Ocean. H100 is an absolute
+- [129:12] beast. 80 GB of VRAM, so it could easily
+- [129:15] run Q4 large language models, over a 100
+- [129:18] billion parameters, even 240 GB of RAM.
+- [129:21] So, I'm not going to run this one. I'm
+- [129:22] just kind of pointing out that this is
+- [129:24] an absolute beast. I think the one that
+- [129:25] I'm going to choose here is going to be
+- [129:27] the RTX 6000 ADA. So, it's 48 GB of
+- [129:31] VRAM. So, this is enough to run 70
+- [129:34] billion parameters or smaller of LLMs at
+- [129:36] a Q4 quantization and it comes with 64
+- [129:40] GB of RAM and it's going to be about
+- [129:42] $1.90 per hour. So, I'm going to select
+- [129:45] this and then I have an SSH key that is
+- [129:48] created already. If you don't have an
+- [129:50] SSH key, then you can click on this
+- [129:52] button to add one. And then you can
+- [129:54] follow the instructions on the right
+- [129:55] hand side here. No matter your OS, they
+- [129:57] got instructions to help you out. You
+- [129:58] just have to paste in your public key
+- [130:00] and then give it a name. So, I've got
+- [130:01] mine added already. And then the only
+- [130:03] other thing that I really have to select
+- [130:05] here is a unique name. So, I'll just say
+- [130:07] local AI package. And I'll just say GPU
+- [130:10] because I already have the regular
+- [130:11] version just deployed on a CPU instance.
+- [130:14] And then for my project, I will select
+- [130:16] Dynamis. I can add it along with my
+- [130:18] other instance that I've got up and
+- [130:19] running. And there we go. So now I can
+- [130:20] go ahead and just click on create GPU
+- [130:22] droplet. It is that easy to get our
+- [130:25] instance ready for us to access it and
+- [130:27] start installing everything and getting
+- [130:29] everything up and running just like we
+- [130:30] did on our computer. And so I'll go
+- [130:32] ahead and pause and come back once our
+- [130:34] machine is created in just a few
+- [130:35] minutes. And boom, there we go. Just
+- [130:37] after a minute, we have our GPU droplet
+- [130:39] up and running. And so the one thing I
+- [130:42] will say is I had to request access to
+- [130:44] create a GPU instance on the Digital
+- [130:46] Ocean platform. However, they approved
+- [130:48] it in less than 24 hours. So, it's very
+- [130:50] easy to get that if you do want to
+- [130:51] create a GPU instance. Otherwise, you
+- [130:53] can just create one of their normal
+- [130:55] droplets, one of their CPU instances.
+- [130:58] Now, before we connect to this machine,
+- [130:59] the one thing that you want to take note
+- [131:01] of is the public IPv4 address. We'll use
+- [131:04] this to set up subdomains in a little
+- [131:06] bit. And so, this is how we get to it
+- [131:08] for a GPU droplet. For a CPU droplet, it
+- [131:12] looks a little bit different. You'll
+- [131:13] usually see the IPv4 somewhere at the
+- [131:15] top right here. And so, take note of
+- [131:16] that. Save it for later. We'll be using
+- [131:18] that in a little bit. And then to
+- [131:20] connect to our droplet, we can either do
+- [131:22] it through SSH with our IPv4 and the SSH
+- [131:25] key that we set up when we configured
+- [131:27] this instance or we can access the web
+- [131:29] console. For a CPU instance, usually you
+- [131:31] go to like an access tab and then you
+- [131:33] can launch the web console. For the GPU
+- [131:35] instance, I can just click this to
+- [131:37] launch it right here. So we have a
+- [131:38] separate window that comes up and boom,
+- [131:40] we now have access to our instance. It
+- [131:42] is that easy to get connected. And now
+- [131:45] we can go through the same process that
+- [131:46] we did on our computer to install the
+- [131:48] local AI package. Now there are some
+- [131:51] different steps that we have to take and
+- [131:53] that's why I'm including this at the end
+- [131:55] of the master class especially. Um so if
+- [131:57] you scroll down in the read me here
+- [131:59] there are some specific instructions for
+- [132:01] deploying to the cloud. And so you have
+- [132:03] to make sure that you have a Linux
+- [132:05] machine preferably on the Ubuntu
+- [132:07] distribution which is that is what we
+- [132:09] are using. And then there are a couple
+- [132:11] of extra steps. And so the first thing
+- [132:13] that we have to set up is our firewall.
+- [132:15] We have to open up a couple of ports so
+- [132:17] that we can access our machine from the
+- [132:20] internet. Set up our subdomains for
+- [132:22] things like N8N and Open Web UI. And so
+- [132:24] you want to take this command UFW
+- [132:26] enable. I'll just go ahead and paste it
+- [132:28] in. And so we are going to and you can
+- [132:31] just type Y to continue here. It's going
+- [132:33] to disrupt SSH connections, but we don't
+- [132:34] really care. So UFW enable. So we're
+- [132:36] enabling the firewall. And then you want
+- [132:38] to copy this command to allow both ports
+- [132:41] 80 and 443. And so 80 is HTTP and then
+- [132:45] 443 is HTTPS. And then you can just do
+- [132:48] the last command here, UFW reload. So
+- [132:52] now we have those ports available for us
+- [132:54] to communicate with all of our services.
+- [132:56] And so this is the entry point to Caddy.
+- [132:59] Caddy is the service in the local AI
+- [133:01] package that is going to allow us to set
+- [133:03] up subdomains for all of our services.
+- [133:06] is and so any kind of communication to
+- [133:08] our droplet is going to go through caddy
+- [133:11] and then caddy will distribute to our
+- [133:13] different services based on the port or
+- [133:15] the subdomain that we are using. So this
+- [133:17] is called a reverse proxy. You've
+- [133:19] probably heard of like EngineX or
+- [133:21] traffic before. Caddy is something very
+- [133:23] much like that. And it also makes it so
+- [133:25] that we can get HTTPS so we can have
+- [133:27] secure endpoints set up automatically
+- [133:29] and it manages that encryption for us.
+- [133:31] It's a very beautiful platform. So, let
+- [133:33] me scroll back down to the specific
+- [133:35] steps for deploying to the cloud. There
+- [133:36] is a quick warning here about how Docker
+- [133:38] manages ports and things, but this is as
+- [133:40] secure as we possibly can make it. So,
+- [133:42] trust me, we've put a lot of effort and
+- [133:43] I actually had someone from the Dynamis
+- [133:46] community, um, Benny right here. He
+- [133:48] actually helped me a lot with security
+- [133:50] for the local AI package. So, thank you,
+- [133:53] Benny, for helping out with that. We're
+- [133:54] really making sure that because local AI
+- [133:56] like the whole thing is like you want to
+- [133:58] be private and secure and so we're
+- [133:59] making sure that this package handles
+- [134:00] all the best practices for that. So very
+- [134:03] much top of mind for us. Um and then we
+- [134:05] can go ahead and go through the usual
+- [134:07] steps for setting up the local AI
+- [134:10] package. The only other thing we have to
+- [134:11] do that's unique for cloud is we have to
+- [134:13] set up a records for our DNS provider so
+- [134:16] we can have our subdomain set up for our
+- [134:18] different services. So we'll get into
+- [134:20] that in a little bit. But first I just
+- [134:22] want to get the local AI package up and
+- [134:24] running. And so I'm going to go ahead
+- [134:26] and paste this command here to clone the
+- [134:28] repository. Git comes automatically
+- [134:30] installed with our GPU droplets. And
+- [134:33] then I can change my directory into the
+- [134:35] local AI package. And let me zoom in on
+- [134:38] this a little bit here so it's very easy
+- [134:39] for you to see because now then what I
+- [134:41] want to do is I want to copy
+- [134:43] the.env.ample
+- [134:45] file to a new file called. So then if I
+- [134:48] do an ls command so we can see all the
+- [134:50] files that are available in our
+- [134:51] directory. We I guess it doesn't show um
+- [134:54] I do ls- a there. Now we can see the
+- [134:56] env.env.example.
+- [134:58] example. And so now I can do nano.env.
+- [135:02] This is going to give us a basically a
+- [135:05] text editor directly in the terminal
+- [135:06] here so that we can set all of our
+- [135:08] environment variables just like we did
+- [135:10] with the local AI package on our
+- [135:12] computer. So this time I'm not going to
+- [135:14] go into the nitty-gritty details of
+- [135:15] setting up all these environment
+- [135:16] variables because it is the exact same
+- [135:19] process. In fact, you can literally
+- [135:21] reuse all of the secrets that you
+- [135:23] already set up when you hosted it on
+- [135:25] your own computer as long as those are
+- [135:27] actually secure. Like I know a lot of
+- [135:28] times you might just do some kind of
+- [135:29] placeholder stuff when it's just running
+- [135:31] on your computer and then you want it
+- [135:32] more secure in the cloud. So make sure
+- [135:34] you have real values for everything, but
+- [135:36] yeah, you can reuse a lot of the same
+- [135:37] things. Um though for best security
+- [135:39] practice, you probably do want to make
+- [135:41] everything different. But yeah, the one
+- [135:42] thing that I want to focus on with you
+- [135:44] here that does change is our
+- [135:46] configuration for Caddy. Now that we are
+- [135:48] deploying to the cloud, we want to have
+- [135:50] subdomains for our different services.
+- [135:52] And so like NN for example, we want to
+- [135:54] set the host name for that. You want to
+- [135:56] do the same thing for N8N open web UI
+- [135:59] superbase and then your let's encrypt
+- [136:02] email. Obviously you want to uncomment
+- [136:04] that as well because this is the email
+- [136:05] that you want to set for your SSL
+- [136:08] encryption. And so I'm just going to do
+- [136:10] coal dynamis.ai.
+- [136:13] And you can just set this to whatever
+- [136:14] email that you want to use. And so
+- [136:16] basically what you want to do here is
+- [136:18] just uncomment the line for each of the
+- [136:21] services that you want to have
+- [136:23] subdomains created for. So, if you're
+- [136:25] also using Flowwise, which I'm just not
+- [136:26] in this master class here, but if you
+- [136:29] are, then you want to uncomment this
+- [136:30] line as well. If you're using Langfuse,
+- [136:32] then you uncomment this line. I'm going
+- [136:34] to leave them commented right now just
+- [136:36] for simplicity sake. The two that I
+- [136:38] would generally recommend not
+- [136:39] uncommenting ever is Olama and CRXNG. We
+- [136:42] don't really want to expose them through
+- [136:44] a subdomain because we're just going to
+- [136:45] use them as internal tooling for our
+- [136:48] agents and applications that we have
+- [136:49] running on this server. So, we want to
+- [136:51] keep those nice and private. But for
+- [136:53] everything that we do want to expose
+- [136:54] that is protected with a username and
+- [136:56] password like N8N open web UI and
+- [136:58] superbase we can uncomment those. And so
+- [137:01] we got that set up now. But we have to
+- [137:03] obviously provide real values for them
+- [137:05] as well. And so for example I'm just
+- [137:08] going to say nyt
+- [137:09] for YouTube
+- [137:11] dynamis and then I'll do. So you want to
+- [137:15] define your exact URL that you want to
+- [137:17] have for this domain. Obviously, it has
+- [137:19] to be a domain that you control because
+- [137:21] we'll go and we'll set up the records in
+- [137:22] the DNS in a little bit. And so, I'll do
+- [137:25] the exact same thing for open web UI.
+- [137:27] So, it's open web UI and I'm just doing
+- [137:28] YT because I already have the local AI
+- [137:31] package hosted on my domain. And so, I
+- [137:33] can't do just open web UI because it's
+- [137:35] already taken. So, open web
+- [137:36] UIT.dynamis.ai.
+- [137:39] And then finally, for Superbase, it'll
+- [137:41] be superbaseyt.dynamis.ai.
+- [137:44] Boom. All right. There we go. So, go
+- [137:45] ahead and take care of this. set up the
+- [137:47] rest of your environment variables and
+- [137:49] then we can go ahead and move on. And
+- [137:51] the way that you exit out of this and
+- [137:52] save your changes is you do controll X
+- [137:55] or command X on Mac, type Y and then hit
+- [137:59] enter. So again that is controll X then
+- [138:03] type Y then press enter. That is how you
+- [138:05] exit out. And so now if I do a cat of
+- [138:08] the env this is how you can print it out
+- [138:09] in the terminal. So we can verify that
+- [138:11] the changes that we made like everything
+- [138:13] for caddy is indeed made. So do that.
+- [138:16] Also change all the other environment
+- [138:17] variables as well. I'm going to do that
+- [138:18] off camera and come back once that is
+- [138:20] taken care of. All right. So my
+- [138:22] environment variables are all set. Now
+- [138:24] the very last thing we have to do before
+- [138:26] we start all of our services is we need
+- [138:29] to set up DNS. And so remember, copy
+- [138:32] your IPv4 address and then head on over
+- [138:36] to your DNS provider. And so this
+- [138:38] process is going to look very similar no
+- [138:40] matter the DNS provider that you have.
+- [138:42] Like I'm using NameCheep here. A lot of
+- [138:44] people use Hostinger or Bluehost. You
+- [138:47] are able to with all these providers go
+- [138:48] to something that is usually called like
+- [138:50] advanced DNS or manage DNS and then you
+- [138:53] can set up custom A records here which
+- [138:55] we're going to do to set up a connection
+- [138:57] for all of our subdomains to the IPv4 of
+- [139:01] our digital ocean droplet or whatever
+- [139:03] cloud provider you are using. And so I'm
+- [139:05] going to go ahead and click on add new
+- [139:06] record. It's going to be an A record for
+- [139:09] the host. It's going to be the subdomain
+- [139:11] that I want. So, N8NYT for example. And
+- [139:14] then for the IP address, I just paste in
+- [139:16] the IPv4 of my Digital Ocean GPU
+- [139:19] droplet. And then I'll go ahead and
+- [139:21] click on the check here to save changes.
+- [139:23] And then I'll just go ahead and do the
+- [139:24] same thing for open web UIT.
+- [139:28] I can't forget the YT. There we go. And
+- [139:31] then for you, it might be more than just
+- [139:33] three, but for me, the only other one
+- [139:34] that I have here right now is Superbase
+- [139:36] because I'm just keeping it very, very
+- [139:38] simple. So, superbase yt and then paste
+- [139:41] in the IP again. Okay, there we go.
+- [139:43] Boom. All right, so we have all of our
+- [139:45] records set up. And it's very important
+- [139:47] to do this before you run things for the
+- [139:48] first time because otherwise Caddy gets
+- [139:50] very confused. It tries to use these
+- [139:52] subdomains that you don't actually have
+- [139:54] set up yet. And so take care of that.
+- [139:57] Then we can go back into our instance
+- [139:59] here and run the last command. And so
+- [140:01] going back to the readme here, if I
+- [140:04] scroll all the way down to deploying to
+- [140:06] the cloud, there is a specific parameter
+- [140:09] that you want to add. This is very
+- [140:11] important for deploying to the cloud
+- [140:13] because when you select the environment
+- [140:15] of public, it's going to close off a lot
+- [140:17] more ports to make this very very
+- [140:20] secure. So any of the services that you
+- [140:22] access from outside of the droplet, it
+- [140:25] has to go through caddy. So we use the
+- [140:27] reverse proxy as the only entry point
+- [140:30] into any of our local AI services. This
+- [140:32] is how we can make things as airtight as
+- [140:34] possible. We have security in mind like
+- [140:37] I said. And so make sure that you run
+- [140:39] this command with the environment
+- [140:40] specified. We didn't do this locally
+- [140:42] because when we are running things
+- [140:44] locally, we don't care about security as
+- [140:45] much because it's not like our machine
+- [140:47] is accessible to the internet like a
+- [140:49] cloud server is. And so it defaults to
+- [140:51] the environment of private which just
+- [140:54] doesn't do as much security stuff. And
+- [140:55] so go ahead and run this. And then of
+- [140:57] course make sure that you're using the
+- [140:59] correct profile. So if you're using just
+- [141:01] a CPU instance with a regular droplet or
+- [141:04] hostinger or whatever, you'd want to
+- [141:05] change this to CPU instead of GPU
+- [141:08] Nvidia. But in our case, because we are
+- [141:10] paying the $2 an hour for a killer GPU
+- [141:14] droplet. I can go ahead and run this
+- [141:16] command with the profile of GPU Nvidia.
+- [141:18] Now, I left this error in here
+- [141:20] intentionally because I want to show you
+- [141:22] what it looks like. If you get unknown
+- [141:24] shorthand flag p-p, that means that you
+- [141:27] don't actually have docker compose
+- [141:29] installed. And this happens for some
+- [141:30] cloud providers. And there's a very easy
+- [141:32] fix for this that I want to walk you
+- [141:34] through. So you can even test this. Just
+- [141:35] docker compose. It'll say that compose
+- [141:38] is not a docker command. And so going
+- [141:40] back to the readme here, I have a couple
+- [141:42] of commands that you just have to run if
+- [141:44] this happens to you. This is at the
+- [141:45] bottom of the deploying to the cloud
+- [141:47] section of the readme. So you can just
+- [141:49] copy these one at a time, bring them
+- [141:51] into your droplet or your machine,
+- [141:53] wherever you're hosting it, and go ahead
+- [141:55] and run them. And so I'm just going to
+- [141:56] do this off camera really quickly. I'm
+- [141:58] just going to copy each of these into my
+- [142:00] droplet. It's very easy. You can just
+- [142:02] run all of these. They're really fast as
+- [142:04] well. So none of them are going to take
+- [142:06] very long. This is just going to get
+- [142:08] everything ready for you so that Docker
+- [142:10] Compose is a valid command. So you can
+- [142:12] then run the start services script. So
+- [142:14] there we go. All right. I went ahead and
+- [142:16] ran all of those. I'll clear my terminal
+- [142:18] again and then go back to the main
+- [142:20] command here to start our services.
+- [142:23] Boom. All right. So now we pulled
+- [142:24] everything from Superbase, set up our
+- [142:26] CRXNG config. Now we are pulling our
+- [142:29] Superbase containers. So again, same
+- [142:31] process is running on our computer where
+- [142:33] it'll pull Superbase, it'll run
+- [142:34] everything for Superbase, then it'll
+- [142:36] pull and run everything for the rest of
+- [142:38] our services. So I'll pause and come
+- [142:40] back once this is all complete. And
+- [142:42] boom, there we go. We have all of our
+- [142:44] services up and running. You should see
+- [142:46] green check marks across the board like
+- [142:48] this. We are good to go. And we don't
+- [142:51] have Docker Desktop, so it's not as easy
+- [142:53] to dive into the logs for our
+- [142:55] containers. But one quick sanity check
+- [142:57] that you can do just in the terminal is
+- [142:58] run the command docker ps- a. This will
+- [143:01] give you a list of all of our containers
+- [143:03] that are running here. We can make sure
+- [143:04] that all of them are running, that we
+- [143:06] don't see any that are constantly
+- [143:08] restarting or ones that are down. So we
+- [143:10] do have two that are exited, but these
+- [143:12] are Nit and import and the Olama pull.
+- [143:14] These are the two that we know should be
+- [143:15] exited. Just make sure that everything
+- [143:17] is good to go. Then we can head on over
+- [143:20] to our browser. And because we have DNS
+- [143:22] set up already, we configure Caddy. We
+- [143:24] can now navigate to our different
+- [143:25] services. Like I can go to
+- [143:27] nadnyt.dynamus.ai.
+- [143:30] And boom, there we go. It's having us
+- [143:31] set up our owner account or um we can
+- [143:34] just go to open web ui yt.dynamis.ai.
+- [143:39] Boom. And there is our open web UI. All
+- [143:41] right. So I'll go ahead and get started.
+- [143:43] Uh, we'll have to create our account.
+- [143:45] I'll do this off camerara, but yeah, you
+- [143:46] just create your first-time accounts for
+- [143:48] everything. And then we'll do the same
+- [143:49] thing for let's do
+- [143:50] superbaseyt.dynamus.ai.
+- [143:53] And boom, there we go. So, all of our
+- [143:55] services are up and running. And so now
+- [143:57] we can log into these and create our
+- [143:59] accounts and we can interact with our
+- [144:01] agents and bring them in. We can work
+- [144:02] with Llama in the same way. And so,
+- [144:04] let's go ahead and do that. I'll just go
+- [144:06] ahead and create these accounts off
+- [144:07] camera. So, I've got my accounts created
+- [144:09] for N8N and then also open WebUI. And
+- [144:12] you can do the same for all the other
+- [144:13] accounts you might have to create for
+- [144:14] things like Langfuse as well. And then
+- [144:16] within Open Web UI, we'll go to the
+- [144:18] admin panel, settings, connections. Make
+- [144:21] sure that your Olama API is set
+- [144:23] correctly to reference the service
+- [144:25] Olama. Usually this will default to
+- [144:27] localhost or host.docer.in internal. So
+- [144:30] you can get that there. You have to set
+- [144:31] the OpenAI API key as well, just to any
+- [144:34] kind of random value. It's just a little
+- [144:35] bug in open web UI. Then click on save
+- [144:38] and then you can go back and your models
+- [144:40] will be loaded. Now, now, one thing I
+- [144:41] found with Open Web UI, after you change
+- [144:43] the Olama base URL, you have to do a
+- [144:46] full refresh of the website. Otherwise,
+- [144:47] you'll get an error when you use the
+- [144:49] LLM. So, just a really small tangent
+- [144:51] there, a little tidbit there, but yeah,
+- [144:52] we'll go ahead and select the model
+- [144:54] that's pulled by default. And you can
+- [144:55] pull other ones into your Llama
+- [144:56] container as well, like we already
+- [144:57] covered. You don't have to restart
+- [144:59] things. So, let's run a little test.
+- [145:00] I'll just say hello, and we'll see if we
+- [145:02] can load the model now. And boom, look
+- [145:04] at how fast that was, because we have a
+- [145:06] killer GPU instance right now. I could
+- [145:08] run much larger LLMs if I wanted to. Um,
+- [145:11] so yeah, let's see. What did I just say?
+- [145:14] All right, we'll do another test here.
+- [145:15] And yeah, look at how fast that is. It's
+- [145:17] blazing fast because everything is
+- [145:18] running locally on the same
+- [145:20] infrastructure. There's no network
+- [145:21] delays. And so we have a powerful GPU,
+- [145:24] no network delays. We get some blazing
+- [145:26] fast responses from these LLMs right
+- [145:28] now. And so I don't want to go and test
+- [145:32] everything with N8N again. But what I do
+- [145:34] want to show you how to do right now is
+- [145:36] take the Python agent that we have in
+- [145:39] this repository and deploy this onto the
+- [145:42] cloud as well. Adding it into the local
+- [145:44] AI Docker Compose stack just like we did
+- [145:46] on our computer, but now hosting it all
+- [145:48] in the cloud. So that's the very last
+- [145:50] thing that I want to cover with you for
+- [145:52] our cloud deployment. And so just like
+- [145:54] with the local AI package, we can follow
+- [145:56] the instructions here in the readme to
+- [145:58] get everything up and running on our
+- [145:59] machine. And so the first thing we have
+- [146:01] to do is we need to clone our
+- [146:03] repository. And so I'm going to copy
+- [146:05] this command, go back over into my
+- [146:07] terminal here for my instance. And I
+- [146:09] step back one directory level by the
+- [146:11] way. So I'm now at the same place where
+- [146:12] I have the local AI package so we can
+- [146:14] run them side by side. So I'll paste
+- [146:16] this command to clone automator agents.
+- [146:18] And then I can cd into it. And then I
+- [146:21] also want to change my directory within
+- [146:22] the Python local AI agent specifically.
+- [146:25] And so now doing an ls- a we can see the
+- [146:28] enenv.ample. So I'm going to just like
+- [146:31] we did before copy this and turn it into
+- [146:33] aenv. And then I can do nano.env.
+- [146:37] And there we can edit all of our
+- [146:39] environment variables. And so because
+- [146:40] we're running this in the docker
+- [146:42] container attaching it to the local AI
+- [146:44] stack. The way that I referenced was
+- [146:46] going to be just calling out the service
+- [146:48] name. So port 111434
+- [146:51] /v1. And then the API key. It's just
+- [146:54] that placeholder there for lama for the
+- [146:56] LLM choice. If I want to get the exact
+- [146:58] ID of one that I already had pulled,
+- [147:00] I'll actually show you how to do this
+- [147:01] really quick. So, I'm going to do
+- [147:03] controlx y enter to save and exit. And
+- [147:06] then the way that you can execute a
+- [147:08] container, it's docker exec-it
+- [147:12] and then the name of our container which
+- [147:13] is lama. We already have this running.
+- [147:15] And then /bin/bash.
+- [147:17] And so what this is going to do is now
+- [147:20] instead of being within our machine, we
+- [147:22] are within our Olama container. And so
+- [147:25] now I can run the command Olama list and
+- [147:28] then I can see the LLMs that I have
+- [147:30] available to me. So I have Quen 2.57B.
+- [147:33] So I'm going to go ahead and copy this
+- [147:35] ID. I don't have it memorized. So this
+- [147:37] is my way to go and reference it really
+- [147:39] quickly. And then this is also how you
+- [147:41] can access each of your containers when
+- [147:43] you don't have Docker Desktop. You just
+- [147:44] do docker exec-it the name of your
+- [147:47] container and then bin /bash. So kind of
+- [147:50] like how we had that exec tab in docker
+- [147:52] desktop. And then once I'm done in here,
+- [147:53] I can just do exit. And now I'm back
+- [147:56] within my host machine, my GPU droplet.
+- [147:58] So that's another little tidbit, another
+- [148:00] golden nugget I wanted to give you
+- [148:02] there. But yeah, we'll go back into our
+- [148:04] environment variables here. And I have
+- [148:05] that ID for quen 2.57b copied. So I'll
+- [148:09] paste that in. And boom, there we go.
+- [148:12] And then for our superbase URL, it's
+- [148:14] going to be http col back slashbackslash
+- [148:17] and then it is kong. So I guess that I
+- [148:20] should have been more clear on this when
+- [148:21] I set things up locally. So I'll be sure
+- [148:23] to update the documentation for this,
+- [148:24] but it's going to be Kong port 8000
+- [148:26] because Kong is the service that we have
+- [148:29] in Superbase specifically for the
+- [148:31] dashboard. And then the service key,
+- [148:33] well, I'm just going to go ahead and get
+- [148:34] that from my local AI package because I
+- [148:37] have this set up in environment
+- [148:38] variables. And so I just have to go and
+- [148:40] reference my environment variables here
+- [148:42] to get my service ro key. And boom,
+- [148:46] there we go. Okay. So I'm going to go
+- [148:47] ahead and paste this in. And um now I'm
+- [148:49] just going to delete this instance
+- [148:50] after. I don't really care that I'm
+- [148:51] exposing this right now. And then for
+- [148:53] the CRNG base URL, HTTP CRXNG
+- [148:57] 8080. And then for my bearer token, I
+- [149:00] just have it set to test off. And then
+- [149:01] we don't need to set the OpenAI API key
+- [149:03] because that was just for the OpenAI
+- [149:05] compatible demo earlier. So that is all
+- [149:07] of my configuration for this container.
+- [149:09] I got to be really clear on this. I'll
+- [149:11] update the docs for this. But uh
+- [149:12] otherwise we are looking good for our
+- [149:14] environment variables. So controll x y
+- [149:17] enter to save. You can do a cat.env just
+- [149:20] for that sanity check to make sure that
+- [149:22] everything's saved. We are looking good.
+- [149:25] All right. And so now within the readme
+- [149:27] here, so I'll go back to the
+- [149:28] instructions. We did all this already.
+- [149:30] We changed our directory. We set up our
+- [149:31] environment variables and configured
+- [149:33] them. Now we need to run this stuff in
+- [149:36] our SQL editor in Superbase. This is how
+- [149:38] we can get our table set up because we
+- [149:40] haven't run things with N8N first. So we
+- [149:42] don't have this table created already.
+- [149:44] And so now I just have to sign into
+- [149:47] Superbase here. So I've got my username
+- [149:49] which is Superbase. And then I'm just
+- [149:51] copy and pasting the username and
+- [149:52] password that I have um that I have set
+- [149:55] here in my environment variables. And so
+- [149:57] I'll go to my SQL editor and go back
+- [150:00] here. I know I'm moving kind of quick
+- [150:01] here, but I got these instructions laid
+- [150:03] out in the readme. I'm going to paste
+- [150:05] this like that and go ahead and click on
+- [150:08] run. And then boom, there we go. So now
+- [150:10] if I go into tables and search for NN,
+- [150:12] we have NN chat histories, a new
+- [150:14] currently empty table. All right,
+- [150:16] looking good. And then going back after
+- [150:18] we do that, now we can run the agent. So
+- [150:20] I just have to take this command right
+- [150:22] here and then I'll go back to my
+- [150:24] droplet. And the one thing that I
+- [150:26] mentioned earlier, but I want to cover
+- [150:28] again. If I go into the uh hold on, I
+- [150:31] need to change my directory back. So,
+- [150:33] automator agents and then python local
+- [150:35] AI. If I go into my docker compose, you
+- [150:38] have to make sure that the include path
+- [150:40] is correct. And so, I'm going to update
+- [150:42] this by the time you get your hands on
+- [150:43] it here where it's just going to be
+- [150:44] going two levels back. That's what we
+- [150:46] need to do. So, make sure that we
+- [150:47] reference the right path to the local AI
+- [150:49] package on our machine and then crl + x
+- [150:52] y enter to save. That's because we have
+- [150:54] to go back from Python local AI agent,
+- [150:57] then back from the automator agents
+- [150:58] directory, and then within that same
+- [151:00] directory, we have the local AI package.
+- [151:02] So, we're good to go. Now, I can go
+- [151:04] ahead and paste in the command here to
+- [151:06] build our agent and include it in the
+- [151:08] local AI stack. And so, it's going to
+- [151:10] have to build everything. Takes a minute
+- [151:11] like we saw already. So, I'll pause and
+- [151:13] come back once this is done. And all
+- [151:15] right, there we go. About 30 seconds
+- [151:16] later and we are good to go. So, now I
+- [151:18] can do the docker ps- a again. And this
+- [151:21] time if I look through this list very
+- [151:23] carefully, take a little bit here, I
+- [151:25] should be able to see my Python agent.
+- [151:28] There we go. Local AI, Python, local AI
+- [151:30] agent. And it starts with local AI
+- [151:32] because it is a part of that docker
+- [151:34] compose stack. And by the way, I can do
+- [151:36] docker exec-it.
+- [151:39] And then I can do python-lo
+- [151:42] agent bin bash. I can I can run this as
+- [151:46] well. And then what I can do is if I do
+- [151:48] a print env command, I can see all the
+- [151:51] environment variables that are set
+- [151:53] within this container. That's everything
+- [151:54] that we set up in the env. So I'm being
+- [151:57] very comprehensive with this master
+- [151:59] class, showing you how you can tinker
+- [152:00] around with different things like
+- [152:02] accessing your containers and seeing the
+- [152:03] environment variables, making sure that
+- [152:05] everything that we specified in thev is
+- [152:08] actually taking effect here. And sure
+- [152:09] enough, it is. So we are looking good.
+- [152:11] So I'll go ahead and exit. We're back in
+- [152:13] our root machine now. We have our
+- [152:15] container up and running and also it's
+- [152:18] running on port 8055. And so now we can
+- [152:20] go back to open web UI within uh open
+- [152:23] webyt.dynamus.ai
+- [152:26] and we can set up our pipe. And so I'm
+- [152:28] going to go to the admin panel
+- [152:30] functions. We don't have a function
+- [152:32] here. So I have to import it. And so
+- [152:33] what I can do I'll actually do this
+- [152:35] here. I'll just Google you can literally
+- [152:36] Google np pipe open web UI. And it'll
+- [152:38] bring you to the one that I have here.
+- [152:40] You just have to sign into open web UI.
+- [152:42] I'll click on get. And then this time
+- [152:44] for my URL instead of being something on
+- [152:47] local host, I'm going to copy my actual
+- [152:49] subdomain here. So import to open web UI
+- [152:52] and then boom, we have our pipe. So I'll
+- [152:53] click on save, confirm, and then within
+- [152:56] the valves here, I can set all of my
+- [152:59] values. So I'll just click on default
+- [153:00] for all of these so I can get a starting
+- [153:02] point here. And then yeah chat input is
+- [153:05] good output is good the bearer token is
+- [153:07] test off and then for my URL it's going
+- [153:11] to be http
+- [153:14] colon and then it's going to be uh the
+- [153:17] name of my service python local aai
+- [153:21] agent port 8055.
+- [153:24] Let me get that right. 8055 and then
+- [153:26] slashinvoke- python- agent. I believe I
+- [153:30] have this memorized. I think we are good
+- [153:32] there. So I'm going back if I clear this
+- [153:34] and run a docker ps- a it is indeed
+- [153:37] called um python local AI agent that is
+- [153:40] the name of our service so open web UI
+- [153:42] is able to connect to the agent directly
+- [153:44] with this name because we are deploying
+- [153:46] it in the same docker network and so I
+- [153:49] think we are looking good all right so
+- [153:51] I'm going to go ahead and click on save
+- [153:54] all right and then go back and start a
+- [153:56] new chat and then also like I said a lot
+- [153:58] of times it helps just to refresh open
+- [154:00] UI completely open web UI completely
+- [154:02] completely. All right, there we go. And
+- [154:03] then now instead of Oh, I have to
+- [154:05] actually enable. Let me go back to the
+- [154:07] admin panel. Functions, you have to make
+- [154:08] sure this is ticked on. Um, so that we
+- [154:11] have the pipe enabled. Now going back
+- [154:13] here and I'll refresh as well. We've got
+- [154:15] our pipe selected. And now I can say
+- [154:17] hello. And there we go. Super super
+- [154:20] fast. We got a response from our Python
+- [154:23] agent. Take a look at that. And then
+- [154:26] also going into my database here, you
+- [154:27] can see that I have all these messages
+- [154:29] in the NAN chat histories table. We'll
+- [154:31] take a look at that. All right. And then
+- [154:33] we can also ask it to do web search. I
+- [154:34] can say like what is the latest LLM from
+- [154:38] um Anthropic for example. So it has to
+- [154:41] do a quick Seir XNG search leveraging
+- [154:44] that. Uh latest is Claude Opus 4. All
+- [154:47] right. And man that was so fast. We have
+- [154:49] no network delays now because everything
+- [154:51] is running on the same network and we
+- [154:53] have an absolute killer GPU. So this is
+- [154:54] so cool. Also, one thing that I want to
+- [154:56] mention is sometimes depending on your
+- [154:59] cloud provider, CRXNG will not start
+- [155:02] successfully. There's one thing you have
+- [155:03] to do. It's just a really small tidbit.
+- [155:05] If you run into this issue where the
+- [155:07] CRXNG container is constantly
+- [155:09] restarting, what you want to do is go to
+- [155:11] your local AI package and then run the
+- [155:14] command chmod 755 SER XNG. That's the
+- [155:18] Seir XNG folder. And so the CRXNG folder
+- [155:22] is responsible for storing the
+- [155:23] configuration that we have for CRXNG by
+- [155:26] default. Sometimes you don't have
+- [155:27] permissions to write this file and it
+- [155:29] needs to do so. So I'm going to update
+- [155:30] the troubleshooting to include this. But
+- [155:33] yeah, just a small tidbit. And then you
+- [155:34] can just go ahead and run the command to
+- [155:37] start everything again. Um, obviously
+- [155:39] you have to go back one directory then
+- [155:41] you can run this um and restart
+- [155:42] everything. That easy to restart things
+- [155:45] to make changes take effect for your
+- [155:48] package and then you'll be good to go.
+- [155:49] So yeah, we have everything working
+- [155:51] here. So this is pretty much it for the
+- [155:54] master class. Now we have our local AI
+- [155:56] package up and running with an agent and
+- [155:58] the network as well. We're communicating
+- [156:00] to it within Open Web UI directly. There
+- [156:02] is so much that we have gotten through
+- [156:05] now. So congratulations for making it
+- [156:07] this far.
+- [156:09] All right, I'm going to be totally
+- [156:10] honest. This was very hard to make this
+- [156:12] master class, but it was so worth it.
+- [156:14] And I hope that you got a lot out of
+- [156:16] this. We really covered it all. All the
+- [156:18] way from starting with what is local AI
+- [156:21] and why we should care about it to
+- [156:23] deploying it on our machine, building
+- [156:24] agents, deploying it to the cloud, and
+- [156:26] configuring everything with DNS. Like
+- [156:28] man, we basically did everything you
+- [156:30] could possibly need to get the
+- [156:32] foundation laid out to build anything
+- [156:34] that you want with local AI and local AI
+- [156:36] agents. And so the very last thing that
+- [156:38] I want to cover here is just a couple of
+- [156:40] additional resources that I have for you
+- [156:42] now that you know how local AI works and
+- [156:45] how to get it set up. You want to dive
+- [156:47] into building more complex agents with
+- [156:48] it now. And so there's a few things that
+- [156:50] I want to call out for you. So starting
+- [156:52] with my YouTube channel, I have a lot of
+- [156:54] videos on my channel diving more
+- [156:56] specifically into building more complex
+- [156:58] AI agents with local AI. And the main
+- [157:00] resource that I want to point you to
+- [157:02] right now if you really want to go
+- [157:03] deeper into building agents with local
+- [157:04] AI is the ultimate N8N rag AI agent
+- [157:08] template local AI edition. And so this
+- [157:11] is using the local AI package and I dive
+- [157:13] really deep into rag and local AI which
+- [157:15] was outside of the scope of this master
+- [157:17] class because that's more about building
+- [157:18] agents versus setting up local AI. But
+- [157:21] this is a great video to dive into. Um,
+- [157:23] and then also I got to call out the
+- [157:25] Dynamus community again because man, I
+- [157:27] put so much effort into building local
+- [157:29] AI into a core part of this course here.
+- [157:32] And so, like I said at the start of this
+- [157:34] master class, when I build the full
+- [157:36] agent out throughout the AI agent
+- [157:38] mastery course, local AI is an option
+- [157:41] the entire time and I show exactly how
+- [157:42] to set up everything for local AI using
+- [157:45] the local AI package. Like, I really
+- [157:47] have this ingrained into everything in
+- [157:49] Dynamus and in my YouTube channel. This
+- [157:51] local AI package is the core of
+- [157:53] everything that I do with local AI. So
+- [157:56] great resources for you. With that, that
+- [157:59] is everything that I have for this
+- [158:01] master class. So I know this is my third
+- [158:03] time saying it, but congratulations if
+- [158:05] you made it this far. You now have what
+- [158:07] it takes to really build anything that
+- [158:08] you want with local AI and you can use
+- [158:10] these additional resources to go much
+- [158:12] further as well. So I hope to see you in
+- [158:14] the Dynamist community. Let me know in
+- [158:15] the comments if you have any questions
+- [158:17] on anything that I dove into here
+- [158:18] because I know that it is a lot a lot to
+- [158:21] digest, but I'm trying my best to make
+- [158:22] it as digestible as I possibly can. So,
+- [158:25] with that, if you appreciated this
+- [158:27] master class and you're looking forward
+- [158:29] to more things local AI or AI agents,
+- [158:32] I'd really appreciate a like and a
+- [158:33] subscribe. And with that, I will see you
+- [158:35] in the next

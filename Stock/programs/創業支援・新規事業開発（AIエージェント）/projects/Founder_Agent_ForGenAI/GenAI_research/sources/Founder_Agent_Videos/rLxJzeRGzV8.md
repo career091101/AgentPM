@@ -1,0 +1,1275 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=rLxJzeRGzV8"
+video_id: "rLxJzeRGzV8"
+video_url: "https://www.youtube.com/watch?v=rLxJzeRGzV8"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=rLxJzeRGzV8
+  - Retrieved at: 2025-12-30T16:26:51+09:00
+  - [00:00] Over the course of those first few
+key_points:
+  - "- [01:49] the strategy should be around it. But I"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: rLxJzeRGzV8
+
+- URL: https://www.youtube.com/watch?v=rLxJzeRGzV8
+- Retrieved at: 2025-12-30T16:26:51+09:00
+
+## Text
+
+- [00:00] Over the course of those first few
+- [00:01] months there, we went from zero users to
+- [00:03] 250,000 users. There was actually a
+- [00:05] little bit of a competitive angle to it
+- [00:06] when your neighbor has it and you don't.
+- [00:08] And I think that gamification was
+- [00:10] actually helpful to turbocharge the the
+- [00:12] adoption. Today, one in two JP Morgan
+- [00:15] employees around the world use it nearly
+- [00:17] every day.
+- [00:20] This is Venture Beats Beyond the Pilot
+- [00:23] Enterprise AI in action. I'm Samine. I'm
+- [00:26] Matt Marshall. Today's episode is
+- [00:28] presented by Outshift by Cisco, Cisco's
+- [00:31] emerging tech incubation engine and
+- [00:33] [music] driver of Aentic AI quantum
+- [00:35] nextgen infra and beyond.
+- [00:39] Today we're talking with Derek Waldron.
+- [00:41] Derek is the chief analytics officer at
+- [00:43] JP Morgan Chase. While many enterprises
+- [00:46] are just starting their AI journey, JP
+- [00:48] Morgan began building their internal
+- [00:50] platform LLM suite over two and a half
+- [00:53] years ago. That's long before most
+- [00:55] people had even heard of chat GPT. The
+- [00:58] result is one of the largest enterprise
+- [01:00] AI rollouts in the world with one in
+- [01:03] every two employees using their tools
+- [01:05] daily. For us, what makes the story so
+- [01:08] compelling is their early contrarian
+- [01:11] insight that the models themselves would
+- [01:14] become a commodity and that the real
+- [01:17] challenge and the defensible moat is in
+- [01:19] the connectivity around the system.
+- [01:22] Welcome to Beyond the Pilot, Derek.
+- [01:23] >> Thank you very much. Nice to be here.
+- [01:25] >> You started this journey two and a half
+- [01:27] years ago. What were some of the core
+- [01:29] insights that made you focus on building
+- [01:32] this unified internal platform instead
+- [01:34] of just sort of waiting for vendor
+- [01:37] solutions to come along?
+- [01:38] >> Yeah. So, it was certainly early days
+- [01:41] and I think like everyone we were also
+- [01:43] trying to figure out exactly how this
+- [01:46] technology was was going to be used,
+- [01:47] where it was going to have impact, what
+- [01:49] the strategy should be around it. But I
+- [01:51] think very early on we had three
+- [01:54] insights which became principles of our
+- [01:57] our strategy. One of the principles
+- [01:59] which I think many people have realized
+- [02:01] now is that we have to actually
+- [02:03] distribute the technology into the hands
+- [02:05] of the employee base at large. Uh it's a
+- [02:08] general purpose technology. It's uh very
+- [02:12] uh useful in a wide variety of of of
+- [02:14] situations but unless people get access
+- [02:16] to it, you're squanding the opportunity.
+- [02:18] The second insight we had was that no
+- [02:21] two job functions in a large enterprise
+- [02:25] are exactly the same. Even within a team
+- [02:28] like operations or like with sales, the
+- [02:31] day-to-day things you do are different
+- [02:34] than what your neighbor is doing. And
+- [02:36] that can't be solutioned from the
+- [02:38] center. If the center an an AI team is
+- [02:42] trying to build out uh individual
+- [02:44] solutions for the for the organization,
+- [02:46] they just can't scale quickly enough.
+- [02:48] And therefore, the only way to to to
+- [02:49] crack that is to be able to give very
+- [02:51] powerful reusable building blocks and
+- [02:53] capabilities that then the individuals
+- [02:56] around the firm can be used to build
+- [02:57] solutions themselves. And the third
+- [02:59] principle was the realization that the
+- [03:01] actual long-term bottleneck for driving
+- [03:05] maximum value from this technology was
+- [03:08] not going to be about the model. It was
+- [03:09] going to be about how the the technology
+- [03:11] connects into the technology estate and
+- [03:15] data and process estate of an
+- [03:17] enterprise. While there was an arms race
+- [03:19] and new models were coming out and there
+- [03:21] was a lot of speculation as to what
+- [03:24] model was going to be best and who was
+- [03:25] going to win, we dissociated from that
+- [03:27] ourselves from that and said it's sort
+- [03:30] of irrelevant. Somebody's going to win
+- [03:31] or multiple people are going to win.
+- [03:33] There's going to be great models out
+- [03:34] there. So, let's have a thought
+- [03:36] experiment at some point.
+- [03:39] a very powerful model, call it super
+- [03:41] intelligence, is going to show up on the
+- [03:43] on the doorstep. And then the problem
+- [03:44] statement is how do you use it? How do
+- [03:46] you put it to use? And the realization
+- [03:48] was that even if super intelligence were
+- [03:51] to show up tomorrow, there's no value
+- [03:54] that can be um optimally extracted from
+- [03:56] it, if that super intelligence can't
+- [03:58] connect into the systems, the data, the
+- [04:02] tools, the knowledge, the processes that
+- [04:05] exist within the enterprise. And that's
+- [04:07] actually a long pole in the tent that
+- [04:08] needs to be solved for. So all of those
+- [04:10] three principles was what gave rise then
+- [04:12] that said, okay, we're going to build a
+- [04:13] platform to solve all three of these
+- [04:15] things. We want to get the technology on
+- [04:17] the hands of of the population. We want
+- [04:20] to turn the tap into the incredible uh
+- [04:23] innovative culture that JP Morgan has
+- [04:26] and and tap into the innovation that the
+- [04:28] employee base can can bring. And then
+- [04:30] third, we want to solve in a very very
+- [04:33] uh strategic way connectivity across the
+- [04:35] enterprise to super to supercharge all
+- [04:37] of this. I'm really curious like what
+- [04:39] was the hardest part of that cell back
+- [04:42] two and a half years ago and especially
+- [04:44] the concept of sort of like oh we should
+- [04:46] give these models our data right like a
+- [04:49] lot of people were like ain't no way
+- [04:50] we're going to let any of our data touch
+- [04:52] you know any other sort of AI model. How
+- [04:54] did you go about selling that? You know,
+- [04:57] uh where was that difficult in the
+- [04:59] organization? Was that easier with
+- [05:01] client advisor and harder with, you
+- [05:04] know, other parts of the organization,
+- [05:06] etc.
+- [05:06] >> Yeah. Well, first of all, we didn't give
+- [05:08] our datas to large language models. Data
+- [05:11] privacy was the first and foremost
+- [05:13] consideration in in all of this. So part
+- [05:16] of also the reason that we wanted to
+- [05:18] build a platform ourselves was that we
+- [05:20] understood then the lineage of all of
+- [05:22] the data because security was was the
+- [05:24] the the the primary concern at the time.
+- [05:27] And then in terms of how we sold it to
+- [05:28] the organization, we didn't actually at
+- [05:30] the time share the the long-term vision.
+- [05:32] It would have been maybe too much to to
+- [05:34] digest and too much to sell given the
+- [05:36] the nence of the technology. This was
+- [05:38] the strategy we had in mind. But what we
+- [05:40] did uh sell first of all was just the
+- [05:42] first of those principles getting the
+- [05:45] tools in the hands of the population. We
+- [05:47] didn't force it on anybody. We built a a
+- [05:50] a great P platform. It had great
+- [05:51] capabilities and then we invited people.
+- [05:54] What we saw over the per first few
+- [05:56] months of launching it was it uh turned
+- [05:59] into a a viral uptake. So people wanted
+- [06:03] to get access to it. It was cool to have
+- [06:04] access to it. there was actually a
+- [06:06] little bit of a competitive angle to it
+- [06:07] when your neighbor has it and you don't
+- [06:09] and I think that gamification was also
+- [06:12] um just like we see in so many other
+- [06:14] technologies actually helpful helpful to
+- [06:17] um to turbocharge the the adoption in
+- [06:19] addition we had a lot of um a lot of
+- [06:22] marketing education around it so you
+- [06:24] couldn't help but walk in in in some of
+- [06:26] our headquarter offices and see uh
+- [06:29] advertising campaigns around what the AI
+- [06:31] can do for you and how to use it and new
+- [06:33] features we would regularly be talking
+- [06:34] about it in town halls, some of our CEOs
+- [06:37] would be would be promoting the use of
+- [06:39] it. So, it was really a sort of a
+- [06:40] fullcourt um change management effort.
+- [06:43] But, uh over the course of those those
+- [06:45] first few months there, we went from
+- [06:47] zero users to 250,000 users. And as you
+- [06:50] as you pointed out, now today um one in
+- [06:52] two JP Morgan employees around the world
+- [06:55] use it nearly every day.
+- [06:56] >> Derek, uh I want to go into your own
+- [06:59] background. You have PhD in
+- [07:01] computational physics. You you spent
+- [07:04] time at McKenzie I think for what 10 12
+- [07:07] years focused on strategy
+- [07:10] transformational strategy and then you
+- [07:13] joined JP Morgan and and it was quickly
+- [07:16] focused on strategy you in the CEO's
+- [07:18] office my understanding can you walk
+- [07:20] through how your experience was brought
+- [07:24] to bear on this key fundamental insight
+- [07:27] that you shared right which is assume
+- [07:30] super intelligence shows up on your
+- [07:31] doorstep and then everything flowed from
+- [07:33] there. Can you take us back to to that
+- [07:35] experience that you you you brought?
+- [07:38] >> Yeah, I I do think that at this moment
+- [07:40] in time given that AI is is um deeply
+- [07:44] technical uh in nature, but in order to
+- [07:47] gain the value of it, there's also this
+- [07:49] very significant portion around
+- [07:52] organizational change management and
+- [07:54] transformation of processes. I do think
+- [07:57] that this actually now draws from the
+- [07:58] breadth of experience that I that I had.
+- [08:00] Obviously with a with a PhD in um in
+- [08:03] physics, I have the technical depth to
+- [08:05] be able to to understand how the how the
+- [08:06] technology works and how solutions are
+- [08:08] made. But my time at McKenzie and my
+- [08:10] time in strategy was also where the bulk
+- [08:12] of my career has been spent was I think
+- [08:14] very helpful because it also taught me
+- [08:17] how you lead change and transformation
+- [08:20] in an organization and that includes all
+- [08:23] aspect of thinking about re-engineering
+- [08:25] platform builds the change management
+- [08:28] aspects of it the organizational uh
+- [08:30] change aspects of it and so I think
+- [08:32] that's just made it um particularly
+- [08:34] helpful then when we started this this
+- [08:35] generative AI journey at JP Morgan there
+- [08:38] was some certain pattern recognition
+- [08:39] that then allowed me to probably make
+- [08:41] some some helpful helpful choices of of
+- [08:42] of of how to go about this.
+- [08:44] >> So, let's talk about the platform LLM
+- [08:46] suite. It got some great publicity,
+- [08:48] right? It it vaulted you to I think the
+- [08:51] top of the AI evident index uh which
+- [08:54] which tracks innovation and AI across
+- [08:57] all banks. So, you're number one. You
+- [08:59] got a big write up in in the Wall Street
+- [09:00] Journal in in in February of this year
+- [09:03] talking about that success. You [snorts]
+- [09:05] started by identifying common patterns
+- [09:07] like rag and summarization as part of
+- [09:09] this suite. How did it evolve from a
+- [09:12] suite of tools into what you now call
+- [09:14] that this connected ecosystem?
+- [09:17] >> Yeah, the way so the way that it started
+- [09:19] was basically solving for the the
+- [09:22] distribution of just large language
+- [09:25] model technology to basically get it
+- [09:27] anchored on on everybody's desktop
+- [09:30] within a within a hosted platform. Then
+- [09:32] that became the the landing ground. But
+- [09:34] what we're also beginning to identify is
+- [09:36] we in early 2023
+- [09:38] we we did countless ideiation workshops
+- [09:42] with businesses with operations with
+- [09:44] technology with with probably thousands
+- [09:46] of people around the bank where we were
+- [09:48] demoing the technology and brainstorming
+- [09:51] what how could this how could this be
+- [09:53] used? What type of novel solutions could
+- [09:54] this be used? And what we very quickly
+- [09:56] realized was that first of all there was
+- [09:58] a ton of different ideas. You you
+- [10:00] couldn't go into another meeting without
+- [10:02] another dozen ideas coming out. But in
+- [10:03] addition they ended up being very very
+- [10:07] largely restatements of the same type of
+- [10:09] solutions again and again and again. So
+- [10:11] one of them was rag as you said people
+- [10:14] had knowledge uh and knowledge can be
+- [10:16] represented as policies. It can also be
+- [10:18] represented as a document that may sit
+- [10:21] in a in a deal room team if you're
+- [10:23] investment banking or maybe a repository
+- [10:25] of of past information from sales.
+- [10:28] everyone has their own knowledge uh
+- [10:31] expressed in in in digital form and
+- [10:33] people we be want to be able to use AI
+- [10:35] to query that and analyze that. So that
+- [10:37] was one one pattern. Another pattern
+- [10:40] that emerged was being able to bring
+- [10:41] conversational questioning to structured
+- [10:44] databases. So text to SQL and there's
+- [10:48] commercial offerings for that but um
+- [10:50] basically uh automating the process of
+- [10:52] traditional database uh querying and
+- [10:55] then there's other patterns that exist
+- [10:56] where especially in a bank so many um
+- [11:00] people deal with documents all day. Some
+- [11:02] of those documents are very marketing
+- [11:03] style. Some of them are technical
+- [11:05] reports, research reports. Some of them
+- [11:07] are are are pitch books. But having a
+- [11:11] very very powerful capability to be able
+- [11:13] to document
+- [11:15] ingestion, analytics, comparison, these
+- [11:18] types of things also was recognized as a
+- [11:20] pattern. So we identified maybe half a
+- [11:22] dozen of the most prominent patterns and
+- [11:25] we started to solve those. And then that
+- [11:28] began to to to allow us to move beyond
+- [11:31] just an an LLM on people's desktop to
+- [11:34] now we've actually got packaged very
+- [11:36] flexible reusable reusable components
+- [11:38] which people then can configure in their
+- [11:41] own way to bring solutions to life and
+- [11:43] that's what really turbocharged then a
+- [11:45] lot of innovation because people started
+- [11:47] to be creating AI AI assistants to do
+- [11:50] all sorts of things uh around the bank
+- [11:52] far more at scale than what we ever
+- [11:54] could have done centrally by trying to
+- [11:56] build out these solutions.
+- [11:57] from a central team
+- [11:59] >> the connectivity right you know rag is
+- [12:01] only as good as your data that you put
+- [12:03] into it how did you sort of decide what
+- [12:05] data that goes into it and and and my
+- [12:08] guess is that that was a progression
+- [12:10] like you we're talking about something
+- [12:11] that's taken you two and a half years
+- [12:14] how has that evolved over time
+- [12:15] >> yeah so so the the journey was was was
+- [12:18] like this once we started to solve some
+- [12:20] of the fundamental patterns and a lot of
+- [12:22] the patterns were about helping people
+- [12:24] to do um question and answers, summary
+- [12:29] activities, etc. Then once that problem
+- [12:32] was solved, then people began we began
+- [12:35] to encourage people to to think about
+- [12:36] it, but also people began to to realize,
+- [12:38] well, I don't just want to solve this
+- [12:40] part of of of the of a process. I want
+- [12:43] to be able to solve the whole process.
+- [12:44] And if you take a look at the types of
+- [12:46] things that people would do in a bank,
+- [12:48] an investment banker, for example, would
+- [12:51] regularly go to for a particular client,
+- [12:54] go to news, check the earnings release,
+- [12:56] do web research, pull from research
+- [12:59] about a particular client, and then do a
+- [13:01] briefing note. A risk professional may
+- [13:04] do something for the same client, but it
+- [13:06] would look a little different there.
+- [13:07] They might look at news and earnings and
+- [13:08] look at um scraping for troubled warning
+- [13:11] signs, but then they'll go to their risk
+- [13:13] data analyt analytics database and start
+- [13:15] doing exposures and analytics etc. And
+- [13:17] so what happens is is that when you
+- [13:19] realize what the processes that people
+- [13:22] do within a bank, you've got to take a
+- [13:24] longitudinal lens. And more than often
+- [13:26] what that means is interacting with
+- [13:28] multiple different systems. That's
+- [13:30] especially the case in a bank, any bank
+- [13:32] where you have a lot of different um uh
+- [13:35] a large tech tech data state because of
+- [13:38] of of how the banks banks grew up. And
+- [13:39] therefore, you have to connect the AI
+- [13:42] into all of these systems. And so the
+- [13:45] connection problem is not just about
+- [13:47] bringing the data to your LLM or or or
+- [13:51] um or connecting it with a knowledge
+- [13:52] base. It we we we we realized we need to
+- [13:55] take this in a very holistic way. So we
+- [13:57] talk about the AI connected enterprise
+- [14:00] as being one where we put AI in the
+- [14:03] center and over time that AI will just
+- [14:05] become more and more and more powerful.
+- [14:07] It needs to be hosted at the center of a
+- [14:09] platform but then that platform needs to
+- [14:11] have ubiquitous connections where pe
+- [14:13] people can interact with it um directly
+- [14:17] with very sophisticated documents. It
+- [14:19] can be connected into knowledge stores
+- [14:21] that are provided. It can be connected
+- [14:23] into firmwide structured data systems.
+- [14:25] It could be connected into applications
+- [14:28] like CRM systems or uh HR systems or uh
+- [14:32] other types of systems like that. And
+- [14:33] then it needs to be equipped with its
+- [14:35] own tools to help analysis and and and
+- [14:38] preparation material. Once you've got
+- [14:39] that that that AI connected ecosystem at
+- [14:43] scale, now you you you you have the the
+- [14:47] basic ingredients that almost any type
+- [14:50] of job function if they really think
+- [14:51] about what they do on a day-to-day basis
+- [14:54] in a longitudinal process lens. They
+- [14:57] they they can they can leverage the AI
+- [15:00] platform to be able to to to to to run
+- [15:03] these types of processes. And that's the
+- [15:04] vision where where we're going. So we
+- [15:06] had that realization um uh a couple of a
+- [15:09] couple of years ago and we um we we we
+- [15:11] we built the the platform around the
+- [15:14] concept of of this type of ubiquitous
+- [15:16] connectivity and then in particular the
+- [15:18] last year has been very much about then
+- [15:21] hydrating that with connections across
+- [15:23] the system. So we have connections into
+- [15:25] our trading systems, our finance
+- [15:26] systems, our risk systems today and we
+- [15:29] continue to just add more and more
+- [15:31] connection con connections now by the
+- [15:32] month. This series is presented by
+- [15:35] Outshift, Cisco's emerging tech
+- [15:37] incubation engine [music] and driver of
+- [15:39] the internet of agents, an open
+- [15:42] interoperable internet for
+- [15:43] agent-to-agent collaboration. Learn more
+- [15:46] about the internet of agents and explore
+- [15:48] how agentic systems are the future at
+- [15:51] outshift.isco.com.
+- [15:54] From a technical point of view, I I can
+- [15:56] understand that you've got these sort of
+- [15:58] real time search things to get, you
+- [16:00] know, specific news or something like
+- [16:02] that. But what about the data that you
+- [16:04] had to sort of reformat perhaps for
+- [16:06] vector stores or knowledge graphs,
+- [16:09] right? You know, my guess is that JP
+- [16:11] Morgan probably didn't have a lot of use
+- [16:12] for vector stores before rag, right? Is
+- [16:15] that something that like you consciously
+- [16:18] decide okay all these knowledge bases
+- [16:21] we're going to turn them into vector
+- [16:22] stores and this these ones we're going
+- [16:24] to go for a knowledge graph once you
+- [16:26] sort of just you test that sort of out.
+- [16:28] I'm very curious to hear that side of
+- [16:29] it.
+- [16:29] >> Yeah. So we didn't make those decisions
+- [16:31] centrally. We built the capabilities. So
+- [16:33] the the workhorse was a was a was a rag
+- [16:36] system. We're actually in our fourth
+- [16:37] generation now of of a rag system. So
+- [16:39] it's continued to uplift in the
+- [16:41] capabilities to do more and more. We
+- [16:42] made that capability available and then
+- [16:44] we invited uh the the whole population
+- [16:47] of JP Morgan to identify the knowledge
+- [16:49] assets that they thought were most
+- [16:52] helpful and then they would then uh
+- [16:54] connect those and all of the mechanics
+- [16:56] behind the scenes were were made
+- [16:58] invisible to them.
+- [16:59] >> So you've got four generations. What
+- [17:01] changed? Can you give us sort of some
+- [17:02] insight into what changed along the way?
+- [17:04] >> Yeah. Yeah, exactly. So the very first
+- [17:05] the first release was maybe the the most
+- [17:08] basic of of just your your rag pipeline
+- [17:11] um in in a in a vector store that was
+- [17:14] largely a an AI pipeline which needed to
+- [17:16] be to be deployed in applications. The
+- [17:19] second generation was then where we we
+- [17:21] democratized it. We we federated uh
+- [17:24] available to the entire firm so that now
+- [17:26] people could contribute their own
+- [17:28] knowledge stores and set various um
+- [17:30] access provisions around around that. uh
+- [17:33] we called that knowledgebased connect.
+- [17:34] The third generation was when we we ran
+- [17:37] began to realize that not all knowledge
+- [17:39] is is actually created created equal. So
+- [17:43] a business may have a set of documents
+- [17:45] that hosts a lot of the knowledge that
+- [17:47] that that it has. But actually the types
+- [17:50] of questions that that people ask, we
+- [17:52] realize that there's hierarchies of
+- [17:53] information. There's some information
+- [17:56] where you actually don't want to go to
+- [17:57] an underlined source. You want a
+- [17:58] scripted answer, a frequently asked
+- [18:00] question. You want a verbatim that's
+- [18:02] very important if it if if the language
+- [18:04] matters. You don't want any degree of
+- [18:06] freedom. So that needs to be now at the
+- [18:07] top of the hierarchy. There's a second
+- [18:09] hierarchy of information needs to be
+- [18:11] evergreen. So you don't want to take
+- [18:13] that from just a vector score because
+- [18:14] then you're putting the burden on a
+- [18:16] knowledge mana store manager to make
+- [18:18] sure it's perennial. So you want to be
+- [18:20] able to carve out a pipeline that goes
+- [18:21] to the authoritative real-time sources.
+- [18:24] Then next in your hierarchy are sort of
+- [18:27] um uh knowledge and information that's
+- [18:30] contained in documents that stands the
+- [18:32] test of time. And then your your your
+- [18:34] your your last of your your your your um
+- [18:37] your sort of your hierarchy is
+- [18:39] information that may um may be more
+- [18:42] temporal temporal. So it uh becomes less
+- [18:45] relevant as as time goes on. And you
+- [18:47] have to bring that lens to it. And if
+- [18:49] you actually think about it, like that's
+- [18:50] a hierarchy, meaning that when a
+- [18:52] question is asked, what you know, you
+- [18:54] want to do is start from top top to to
+- [18:56] top to bottom. So that required quite an
+- [18:58] uplift in the in the pipeline. And we we
+- [19:00] figured that out by working with with
+- [19:03] with teams around the bank and
+- [19:05] understanding what they were trying to
+- [19:06] do and what they were unable to do and
+- [19:07] where they were having challenges. So
+- [19:09] that was the the third the third
+- [19:10] generation. The fourth generation was
+- [19:12] much more around multimodality. Most um
+- [19:15] rag pipelines started out as just
+- [19:16] texton. But if you think about so many
+- [19:19] of the information that exists within
+- [19:21] financial services, reports with graphs
+- [19:24] or company pitch books that are very
+- [19:26] marketing like you need a visual
+- [19:27] pipeline to that. So that's now where
+- [19:28] where we are with that. But we have a
+- [19:30] pipeline. It will continue to get more
+- [19:32] and more and more and more powerful. A
+- [19:34] very very sophisticated document
+- [19:36] ingestion and analytics pipeline is
+- [19:38] table stakes to bring AI to life in in
+- [19:41] the context of a of an enterprise
+- [19:43] especially a bank.
+- [19:45] >> Derek you you talked about focusing on
+- [19:48] two core models uh open AI and anthropic
+- [19:52] right as a way of of simplifying and
+- [19:54] it's it's also reflective of your
+- [19:56] philosophy. Hey, it's not the model,
+- [19:58] right? A lot of companies we've talked
+- [19:59] with have a leaderboard of 50 models and
+- [20:01] they've got a a sophisticated router and
+- [20:03] they're you're [snorts] using different
+- [20:05] models for different use cases. Can you
+- [20:07] can you walk us through why you know
+- [20:09] that was so critical to focusing on this
+- [20:12] this bigger problem of connections and
+- [20:14] then maybe you know just a a followup on
+- [20:16] the ramifications of that. You you have
+- [20:18] something called doc LLM, right? Which
+- [20:21] is this layout generative model designed
+- [20:23] for multimodal document understanding,
+- [20:25] you know, special specialized or
+- [20:27] customized to your workflows. How do you
+- [20:30] avoid with your kind of your homegrown
+- [20:32] solutions being kind of behind the
+- [20:34] curve, right? And and not being able to
+- [20:36] say use Google's uh pretty sophisticated
+- [20:39] Google aare I mean document aare
+- [20:43] technologies.
+- [20:44] >> Yeah. Yeah. Well, first of all, um I
+- [20:47] think over time we'll we'll we'll um
+- [20:49] we'll bring more models uh in in into
+- [20:51] the estate. Um it's uh diversification
+- [20:54] is important. Some models are good for
+- [20:56] some things, some are for others. So cho
+- [20:58] choice is nice because then people can
+- [21:00] can pick the best that they that they
+- [21:01] that they um for for the for the task at
+- [21:04] hand. But generally speaking, um you
+- [21:07] know, if you just have a sort of a
+- [21:08] smaller set of the most powerful models,
+- [21:10] then um that's good enough. And then
+- [21:13] more of the solutioning as we've we've
+- [21:14] already described is really about the
+- [21:16] connect connections and and and how it
+- [21:18] works together in the ecosystem. We um
+- [21:20] we've always had a hybrid approach from
+- [21:22] the day one of both uh both buy and
+- [21:26] build. So the platform that we built was
+- [21:28] an aggregation concept where what we
+- [21:31] wanted to do was we said we want to be
+- [21:32] able to build it with innovations that
+- [21:34] we have and hydrate it but if there's
+- [21:35] good capabilities that exist out there
+- [21:37] in the industry we'll bring them on on
+- [21:40] board. And today it's a it's it's a
+- [21:41] blend. Uh DOC LLM was an innovation that
+- [21:44] came out of our our our research team.
+- [21:46] It was a really nice innovation because
+- [21:48] it applied transformer technology to uh
+- [21:51] visual visual forms. Think like a a
+- [21:54] check or something like that where now
+- [21:56] you have spatial awareness. That was a
+- [21:58] problem that was very particular to
+- [22:00] financial services and we didn't expect
+- [22:03] that a third party would come and um and
+- [22:05] solve that anytime soon at the the level
+- [22:08] of rigor that that we needed. So, so
+- [22:10] that's why we uh we we made that and
+- [22:12] then capabilities like that get getting
+- [22:13] integrated in but building capabilities
+- [22:16] and maintaining it also of course costs
+- [22:18] ongoing time and so we're always taking
+- [22:20] a critical lens recognizing at some
+- [22:22] point we will just shift to third party
+- [22:24] solutions at the time that makes that
+- [22:26] makes sense. you've had this surprising
+- [22:28] viral moment uh that that hasn't really
+- [22:31] been as as well reported, right, when
+- [22:33] you launched the personal assistance and
+- [22:35] and kind of allowed individuals with the
+- [22:38] org to build these agents, which you
+- [22:40] were calling personal assistance, I
+- [22:41] think, right? 30,000 of of these things
+- [22:44] have have kind of bloomed. What was it
+- [22:47] about empowering individuals to build
+- [22:49] their own tools that tapped into this
+- [22:51] entrepreneurial spirit and created this
+- [22:54] this blossoming? Yeah, it um so it it
+- [22:58] it's correct. A few months ago, we
+- [23:00] launched the capability of of personal
+- [23:02] assistants to really empower the
+- [23:04] individual users to be able to customize
+- [23:07] an assistant with a persona instructions
+- [23:10] and and roles and available tools and
+- [23:12] available knowledge. It was largely what
+- [23:14] we thought was going to be a convenience
+- [23:15] feature because so much innovation was
+- [23:18] already happening around the the the
+- [23:19] bank where people were were um building
+- [23:22] good prompts effectively what what they
+- [23:24] were doing and but we wanted to give
+- [23:26] them a little more power and convenience
+- [23:27] rather than have to have to maintain
+- [23:29] prompts and a prompt library.
+- [23:32] um we wanted to said let's give them a
+- [23:33] nice uh uh capability just to to to sort
+- [23:36] of em um en encapsulate it as a more a
+- [23:40] more friendly thing which we'll call an
+- [23:41] assistant and we'll give them a little
+- [23:43] more flexibility that's not just about
+- [23:44] the prompt but some other aspects of how
+- [23:47] it's how it how it's used. Uh and we've
+- [23:49] we've built that out over over time as
+- [23:50] well. There's more and more capabilities
+- [23:52] of of things that assistants can do but
+- [23:54] largely it started out as just a
+- [23:55] convenience pattern. We what we were
+- [23:57] surprised by was just how viral it was
+- [24:01] because the organization now interpreted
+- [24:04] um that uh all of a sudden they this
+- [24:07] they weren't just designing prompts.
+- [24:09] They were building assets. They were
+- [24:11] building assistance. People were sharing
+- [24:14] the assistance they built. almost within
+- [24:16] just a few days, many of our lines of
+- [24:19] business started to create uh assistant
+- [24:22] web pages where people could post and uh
+- [24:25] and share some of the the really uh um
+- [24:27] the the biggest innovations. Uh and so
+- [24:31] uh that was really then I think eye
+- [24:32] opening for us that there is this the
+- [24:34] deep deep um rooted uh uh innovative
+- [24:39] population with JP Morgan that if we can
+- [24:41] uh if we can continue to equip with
+- [24:43] really easy to use really um uh really
+- [24:46] powerful capabilities. They can they can
+- [24:48] probably turbocharge the next the next
+- [24:51] evolution of this uh of of of this
+- [24:53] journey. If someone's building that, is
+- [24:55] that more than just a prompt? Like can
+- [24:57] they select what sources of data can be
+- [25:00] pulled in by a rag? Uh do they have
+- [25:02] tools? Can this be hooked up to an email
+- [25:04] sort of system to automatically send
+- [25:06] emails or things like that? Can you give
+- [25:09] us perhaps some sort of tangible
+- [25:11] examples of those? You know what? And
+- [25:14] and then also it sounds fascinating that
+- [25:15] you've sort of built this almost like we
+- [25:17] would perhaps refer to it as an agent
+- [25:19] economy right in there or an assistant
+- [25:21] economy in there. I you know is this
+- [25:24] sort of like a trading system almost of
+- [25:26] like okay we we'll develop this and I'm
+- [25:30] curious for for as you leading this AI
+- [25:32] team what do you learn from all of those
+- [25:34] things as well?
+- [25:35] >> Yeah. So um so it is more than than just
+- [25:38] just a just a prompt. um you can attach
+- [25:40] to it connections to systems which are
+- [25:43] already within the platform, connection
+- [25:45] to knowledge within the platforms and
+- [25:46] then there are um tools that are
+- [25:48] available like data analysis and um
+- [25:51] pitchbook creation and and these types
+- [25:53] of things. So whatever is available in
+- [25:55] the system is available provided you're
+- [25:57] entitled to it. And that's a very
+- [25:58] important point which is that you
+- [26:00] because we we we built all of this from
+- [26:02] the the ground up we were also able to
+- [26:04] build it in a way that was very um very
+- [26:08] integrated and compatible with our core
+- [26:11] entitlement systems and other good good
+- [26:13] governance mechanisms and that's a very
+- [26:14] important important part of it. So um
+- [26:17] when an when an employee wants to to to
+- [26:19] build something they are only available
+- [26:21] to use what they're already uh entitled
+- [26:23] for. Uh but within that they they have
+- [26:25] flexibility. The second thing that I
+- [26:27] would note is that we call these
+- [26:28] personal assistants because these are
+- [26:30] for individual use only. But we do have
+- [26:32] the means by which then a great personal
+- [26:34] assistant can be created into more of a
+- [26:37] a team or a firmwide uh solution. But
+- [26:40] that does then go through other types of
+- [26:42] governance mechanisms. Um and we have a
+- [26:44] very we've always had a very robust
+- [26:45] framework by which AI solutions go from
+- [26:48] uh ideiation through uh in into
+- [26:50] production along with all of the uh the
+- [26:53] requisite uh risk reviews and uh that
+- [26:56] necessary. So we have the means for
+- [26:57] that. And so what what personal
+- [27:00] assistance I think has done is it's
+- [27:01] really um expanded the the front end of
+- [27:06] this innovation pipeline where now the
+- [27:08] these these assistants are are being
+- [27:10] built. There's a lot of excitement
+- [27:11] around it. people are comparing the best
+- [27:13] of them are also being identified and
+- [27:16] those that that are going to be promoted
+- [27:18] then into more robust scaled uh
+- [27:20] solutions that are available within the
+- [27:22] firm and and all of this I I think is uh
+- [27:25] your your last question was around what
+- [27:27] what role are sort of we playing how are
+- [27:29] we interacting with this I think that
+- [27:31] what we've we've observed in the in in
+- [27:33] particular in 2025 is that we've landed
+- [27:35] on a sort of an innovation flywheel uh
+- [27:38] if you will where what happens is now is
+- [27:40] is individuals around the bank um uh
+- [27:43] have have access to very powerful
+- [27:45] capabilities and building blocks and
+- [27:46] that gives them ideas of things that
+- [27:48] they want to do from there. They come
+- [27:50] and try and build them and some of them
+- [27:51] flourish and and scale. Some of them
+- [27:54] highlight that there's actually gaps
+- [27:56] inside the maybe the connections that
+- [27:58] are available. We have a team that
+- [28:01] surveills all of this and surfaces up
+- [28:03] what those gaps are and then we have a a
+- [28:06] process to triage those so that we can
+- [28:08] solve them centrally. when we solve them
+- [28:10] centrally, we not only solve those
+- [28:12] particular um individuals problems, but
+- [28:14] we also then expand the capabilities
+- [28:16] which then creates more ideas and we're
+- [28:18] in this flywheel effect. I think the
+- [28:20] earliest days of that um even even as
+- [28:23] much as a a year and a half ago to two
+- [28:25] years ago, I had a realization for my
+- [28:28] myself
+- [28:29] which was that when I found myself um
+- [28:33] calling someone for some information or
+- [28:35] ask them a question or emailing someone,
+- [28:37] I would immediately pause and stop and
+- [28:40] say, "Hang on, what's missing from my
+- [28:42] own personal AI assistant ecosystem that
+- [28:45] means that I can't ask an AI assistant
+- [28:47] to do And that's actually helped
+- [28:48] turbocharge and identify a lot of the
+- [28:50] the various gaps. Now that mindset is
+- [28:53] trying to be uh scaled across JP Morgan.
+- [28:56] >> It sounds almost like this is like your
+- [28:58] ultimate R&D department in many ways
+- [29:00] that they test things out uh and sort of
+- [29:03] work out what at least what they want
+- [29:05] maybe not how to actually sort of do it.
+- [29:07] Are you seeing things like from that
+- [29:10] sort of personal AI assistance that
+- [29:12] suddenly now tools like RPA or things
+- [29:16] like that that were perhaps you know
+- [29:18] being promoted five years ago are kind
+- [29:20] of null and void now because people know
+- [29:22] exactly what they want exactly what
+- [29:24] connectors they want exactly what tools
+- [29:26] they want.
+- [29:27] >> Yeah. Well definitely generative AI uh
+- [29:30] certainly pushes the horizons of
+- [29:31] traditional RP RPA. the the mindset of
+- [29:34] RPA is which is that look at a
+- [29:36] discipline process and which part can we
+- [29:38] automate through rules that's still a
+- [29:41] very uh important important skill set
+- [29:44] but what generative AI has done is now
+- [29:47] where RPA sort of capped out because it
+- [29:50] ultimately couldn't be done through
+- [29:52] through rules or automations required a
+- [29:54] human now you can insert an an AI agent
+- [29:57] to bring the intelligence or the
+- [29:58] cognition to to to to complete that that
+- [30:00] part of the puzzle and so that's what's
+- [30:02] now allowing I think everyone to take a
+- [30:05] look at their endto-end processes with a
+- [30:07] whole fresh lens and um it taps into a
+- [30:11] new opportunity set that that that
+- [30:12] wasn't uh available before.
+- [30:15] >> Derek, I'm curious on on this agent
+- [30:18] economy. Um obviously it's I think it's
+- [30:21] it's become the envy of of of the
+- [30:23] industry, right? It's it sounds like all
+- [30:24] all banks are now trying to to emulate
+- [30:27] this. How far are you allowing employees
+- [30:31] to go with this? Right. So, you talk
+- [30:33] obviously about um in in internal
+- [30:35] governance, they have the permissions
+- [30:37] that they should have, but are are they
+- [30:40] allowed to go externally and pull in
+- [30:43] Bloomberg through some sort of MCP,
+- [30:47] bring information in? How do how do you
+- [30:49] how do you where are the guardrails?
+- [30:51] What are the limits?
+- [30:53] >> Yeah. So, there's multiple levels of
+- [30:54] guard guardrails. at the lowest level is
+- [30:56] the guardrails around the platform
+- [30:58] itself and it's it's been constructed as
+- [31:00] quite a well-governed uh platform such
+- [31:03] that what can be done in the platform is
+- [31:05] is is uh is safe within the platform so
+- [31:08] we don't allow for example anyone to
+- [31:10] come and just call an MCP server a MCP
+- [31:13] server would need to be onboarded into
+- [31:15] the platform and made available and the
+- [31:18] prerequisites for that would be security
+- [31:20] testing making sure that legal
+- [31:22] agreements are in use because third
+- [31:24] party data also has legal legal
+- [31:26] provisions around how data can be used
+- [31:27] with generative AI. So all of those
+- [31:29] things need to be checked but then once
+- [31:31] it gets onboarded that's a very powerful
+- [31:34] step because now centrally that
+- [31:35] onboarding has basically um onboarded a
+- [31:39] new capability for the whole firm at
+- [31:42] scale and then provided that people are
+- [31:44] entitled to it and not all services or
+- [31:46] data solutions have firmwide data
+- [31:49] subscriptions. Some of them do, some of
+- [31:50] them don't. But again, whatever it is
+- [31:52] employees entitled to can then can then
+- [31:54] be can then be used um in uh in in in a
+- [31:58] variety of different ways.
+- [31:59] >> So let's let's move into to adoption uh
+- [32:02] Derek. Right. So so again you you've
+- [32:05] reached incredible scale uh with I think
+- [32:07] roughly one and two employees 200,000 or
+- [32:11] so of 400,000 using these tools daily.
+- [32:15] But you you mentioned initially getting
+- [32:16] to about 30% with your early adopters.
+- [32:20] So you know what did the fullcourt press
+- [32:22] from CEO town halls to social proof? I
+- [32:25] know you worked on this stuff you're
+- [32:26] working on this stuff yourself uh look
+- [32:28] like to get over the 50% mark.
+- [32:31] >> Yeah. So um we saw an interesting human
+- [32:34] phenomenon as we were as we were
+- [32:36] initially rolling it out. So when new
+- [32:39] groups of users were being given access,
+- [32:42] uh what we noticed was that it didn't
+- [32:44] matter what team you were, whether you
+- [32:46] were sales, finance, technology,
+- [32:48] operations, it didn't matter. About 25
+- [32:51] to 30% of people just got busy using it
+- [32:54] right away. At that point, I sort of I
+- [32:56] reflect and I said, "Ah, that must be
+- [32:58] your your early adopter uh population
+- [33:00] that you see in in the technology." So
+- [33:03] getting to sort of 25 to 30% of the firm
+- [33:07] using it actually came quite easily
+- [33:09] because they just they just used it once
+- [33:11] they had available. What we the the
+- [33:14] journey then from 25 to 30% to where we
+- [33:16] are now which I think is a little north
+- [33:18] of 60% or so is has been um a consistent
+- [33:22] journey almost week on week. We continue
+- [33:24] to see growing levels of adoption of
+- [33:26] use, but it's it's been a different a
+- [33:28] different slope uh in that growth. And I
+- [33:31] think what's going on here is that this
+- [33:32] is really your sort of your fast
+- [33:34] follower population. And so they're sort
+- [33:36] of seeing their neighbors using it.
+- [33:37] They're hearing stories about it. Also,
+- [33:38] the capabilities and the solutions
+- [33:41] available are becoming more powerful.
+- [33:43] And so they're they're they're following
+- [33:44] and using it. We are still on this
+- [33:46] trajectory where week after week this
+- [33:48] this grows. And I I I do think over time
+- [33:51] we we will eventually be seeing 100% of
+- [33:54] of the firm use it. It did take a full
+- [33:56] full court press to uh make make sure
+- [34:00] that people were and and are
+- [34:02] continuously aware of the new types of
+- [34:03] capabilities that that that are
+- [34:05] available. When we first launched, um,
+- [34:07] our HR team was was a terrific partner
+- [34:10] and they helped build for us what was
+- [34:12] also, I think, a very a fairly advanced
+- [34:14] and pioneering training program designed
+- [34:18] for the employee base at large with the
+- [34:21] objective of making them aware on how to
+- [34:23] make the best of their AI tools that
+- [34:25] were available. It was branded AI made
+- [34:27] easy and uh we had tens of thousands of
+- [34:30] people uh take that in the in the first
+- [34:32] few months and that was the basics of
+- [34:33] just what AI can do for you, what it
+- [34:36] can't do for you, how to how to use it
+- [34:38] in basic ways, but all the way up to
+- [34:39] even more sophisticated advanced
+- [34:42] concepts like roleplaying where you can
+- [34:45] use it to create but then you can pivot
+- [34:47] a personality to to then to critique it.
+- [34:49] Those are fairly advanced advanced
+- [34:51] methods and then we've kept that
+- [34:52] training alive so that as capabilities
+- [34:55] grow we just continue to stack on so
+- [34:57] people are are are always being made
+- [34:59] aware of uh how to make the most of
+- [35:01] these things but then there's we we we
+- [35:03] tried within JP Morgan to just use every
+- [35:06] angle to get to the employee base. So
+- [35:08] CEOs would talk about it in town halls.
+- [35:10] I personally spent a lot of time in
+- [35:13] senior leader um off sites and things
+- [35:15] like that giving demos talking about
+- [35:17] what I could do. We have a solutions
+- [35:19] team that in that engages teams to
+- [35:21] educate and ideulate. We you could show
+- [35:23] up and you'd see on the screens in many
+- [35:25] of our headquarter offices campaigns of
+- [35:27] what could be done. Our JP Morgan
+- [35:29] internal newsletter would be featuring
+- [35:31] stories, user stories. We would feature
+- [35:33] user stories about great stories on what
+- [35:36] people have done with it and how they're
+- [35:37] using about it because we found that
+- [35:39] type of peer uh insight is what really
+- [35:41] really captivates the the the attention
+- [35:43] of people. Uh so I think all of these
+- [35:45] things have been very effective in
+- [35:47] helping drive forward the uh the
+- [35:50] awareness and and innovation.
+- [35:51] >> Do you think uh as you go along and you
+- [35:54] get to sort of maybe the last 30% last
+- [35:57] 20% of people, what's going to convince
+- [35:59] those people, right? Like it's it sounds
+- [36:01] like you've done a very much a top- down
+- [36:03] kind of fullcourt press, but is it going
+- [36:05] to be the people seeing the person next
+- [36:07] to them and realizing, oh, this is not
+- [36:09] intimidating? This is something that can
+- [36:11] actually help me. I'm curious like how
+- [36:13] do you deal with the lites right of of
+- [36:17] people who who are resistant to this and
+- [36:20] there's definitely a section of the
+- [36:21] population it seems in every
+- [36:23] organization that is resistant to this
+- [36:25] but I actually think that that we'll get
+- [36:27] to 100%. And the fundamental reason is
+- [36:30] first of all JP Morgan is a has a
+- [36:32] culture of sort of wanting to be the
+- [36:34] best and wanting to be on the the
+- [36:36] frontier of everything. And so when and
+- [36:38] if you give people good tools that just
+- [36:41] obviously make their life easier and
+- [36:44] better, I think people are naturally
+- [36:45] going to be attracted to that. I think
+- [36:47] that sort of last 20% you you recording
+- [36:49] are probably people who are still a
+- [36:51] little bit um nervous about it. They
+- [36:54] don't necessarily know how to do it.
+- [36:55] Maybe they they feel they're going to
+- [36:56] fail trying. But I think that as their
+- [36:59] colleagues around them do begin to use
+- [37:01] it and it becomes more and more the
+- [37:02] norm. I think you'll just see that
+- [37:04] everybody be begins to to embrace it. I
+- [37:07] would also add as well that from where
+- [37:08] I'm focusing, it's not necessarily just
+- [37:10] the number of users. It's interesting if
+- [37:13] you take a take a look at the usage
+- [37:16] across the population. It's also worth
+- [37:18] taking a look at those initial 25% of
+- [37:21] the people to see what what's what's
+- [37:22] become of them. And it turns out that
+- [37:24] they're basically become the power
+- [37:25] users. So they're not just users, but
+- [37:27] they're using it multiples more than the
+- [37:30] average. And that's also an interesting
+- [37:32] population to pay attention to and tap
+- [37:34] into because they're are the hopeful
+- [37:37] solution developers that we want to tap
+- [37:38] into that they can build great relevant
+- [37:40] solutions for the rest of the
+- [37:42] population.
+- [37:44] Do you see that being any particular
+- [37:46] groups like a client advisor all over
+- [37:49] this because it makes their job easier
+- [37:50] and perhaps back office people less or
+- [37:53] something like that? Is there are they
+- [37:54] patterns like that? It's all it's all
+- [37:56] over. It's all over. And um uh you know
+- [37:59] they tend to they tend to be um
+- [38:01] individuals who are just a little more
+- [38:03] comfortable with innovation, a little
+- [38:04] more comfortable try trying things, a
+- [38:06] little more um push wanting to push the
+- [38:08] frontier of things. Um but we we are
+- [38:11] identifying that and that in itself has
+- [38:14] become a community that we've tapped
+- [38:16] into. Uh so for example, when we're
+- [38:18] trying out new new beta features and
+- [38:20] releases, we tap into those those
+- [38:22] communities uh to to give us feedback.
+- [38:24] Um and then we want to give th that that
+- [38:26] that uh community tools as well that
+- [38:29] they can use to um uh share their share
+- [38:32] their innovations.
+- [38:33] >> Derek, when we're talking with other
+- [38:34] enterprise companies, they've hit a
+- [38:36] wall, right? That that there is this
+- [38:38] kind of known wall in the industry,
+- [38:40] right? You hit this 25 to 30% wall.
+- [38:43] Sounds like, you know, you kind of hit
+- [38:44] that first first wall. Uh maybe you
+- [38:47] don't call it a wall because, you know,
+- [38:48] you you you continue to see that that
+- [38:50] that growth, but it was it was a a
+- [38:53] different slope. Is there anything else
+- [38:56] that your your tech builders, right,
+- [38:59] your your your the builders of these
+- [39:02] these AI agents are doing to help this
+- [39:06] adoption? Is there something around the
+- [39:09] interface?
+- [39:11] Other things that you've seen working or
+- [39:13] is this culture is this just cultural,
+- [39:16] you know, beat them with a stick over
+- [39:18] the head to get them get them using
+- [39:20] this? We are here to solve business
+- [39:23] problems, not here to build great tech.
+- [39:26] And
+- [39:28] importantly, the way that that
+- [39:29] manifested in terms of our product
+- [39:31] development cycles is that we don't
+- [39:33] start a new feature, a new product
+- [39:35] unless we have line of sight to five
+- [39:39] different teams who know that that
+- [39:41] capability will solve a problem. And
+- [39:44] that turns out to be a really important
+- [39:46] north star for for everything because
+- [39:49] then as we're designing the experience,
+- [39:53] as we're building the the underlying
+- [39:54] tech components, as we're testing it,
+- [39:58] we're always making sure that it's
+- [40:00] solving the problem. But we also make
+- [40:02] sure that's not solving only that
+- [40:04] problem. It's being solved in a general
+- [40:06] enough way that it can solve other
+- [40:07] problems. But at least then we know that
+- [40:09] when we launch something new, it will
+- [40:11] solve those problems. And I think that
+- [40:13] that's been really very helpful because
+- [40:15] then when we also launch a new
+- [40:16] capability, it doesn't just become a
+- [40:19] capability in isolation. We immediately
+- [40:20] attach it going back to some of the
+- [40:22] change management and communications and
+- [40:23] campaigns and news stories. We
+- [40:26] immediately can then say here's how some
+- [40:28] of the new capabilities are actually
+- [40:30] being used in the businesses to solve
+- [40:32] problems.
+- [40:32] >> I was struck by your personal anecdote
+- [40:34] that you shared with us earlier before
+- [40:36] sending an email. you pause, you know,
+- [40:38] an in email to say ask
+- [40:41] what's the vac vacation policy at JP
+- [40:44] Morgan or you know how much vacation do
+- [40:46] I have or name your other process
+- [40:48] question you you say what's missing from
+- [40:51] my AI ecosystem my my knowledge base um
+- [40:55] that forces me to do this and and so how
+- [40:58] how are you trying to in inculcate that
+- [41:00] sort of mindset right where you're
+- [41:02] actually pausing before you're asking a
+- [41:03] colleague a question and actually seeing
+- [41:05] if you can get it from the AI system
+- [41:07] first.
+- [41:07] >> Yeah, I developed that forced myself to
+- [41:09] develop that n mindset um about a year
+- [41:12] and a half to to two years ago. By the
+- [41:14] way, the reason that I I sort of did
+- [41:16] that was it was um a reflection 25 years
+- [41:19] ago when I first was exposed to Google
+- [41:20] and I remember at that time I said ah I
+- [41:23] said you know today people are satisfied
+- [41:25] by just being being in a bar and asking
+- [41:27] a question and not knowing the answer to
+- [41:28] it. I said at some point that's probably
+- [41:30] going to change where that's going to
+- [41:31] become not tolerable. everyone will
+- [41:32] immediately go to the internet and ask
+- [41:34] the question and what I observed was
+- [41:36] that actually played out but it took I
+- [41:38] think about two or three years for that
+- [41:40] sort of cultural uh transformation and
+- [41:43] so I witnessed the pattern here again
+- [41:45] and I said well I don't want this to be
+- [41:46] two or three years let's just do it
+- [41:48] right now so that was when I when I set
+- [41:50] the mindset but then what I did was I I
+- [41:51] I promoted that mindset so when I do my
+- [41:55] senior leader meetings and town halls
+- [41:58] first of all I share the anecdote but
+- [42:00] then one of the last departing thoughts
+- [42:02] that I leave with a group is what would
+- [42:06] your ideal AI assistant do for you?
+- [42:09] Because that's the mindset that you have
+- [42:11] to have. If someone can't articulate
+- [42:13] that, then it's very difficult for AI to
+- [42:16] help them. They've got to be able to
+- [42:18] articulate what would AI what would they
+- [42:20] like AI to do do for that. Then you can
+- [42:22] have a structured conversation once that
+- [42:24] is articulated. What's the data? What's
+- [42:26] the techniques? What's the what's the
+- [42:27] connections etc. and begin to unpack it?
+- [42:30] And so that's the very very first step
+- [42:32] of tapping into this into this flywheel.
+- [42:34] >> So Derek, so you've got this agent
+- [42:36] economy. Uh you're clearly have some
+- [42:39] momentum. I'm kind of curious what's
+- [42:42] next? Where do you take this budget?
+- [42:45] Where is that budget going? Can you fill
+- [42:47] us in?
+- [42:48] >> Within JP Morgan, um we talk
+- [42:50] strategically
+- [42:52] about a top- down strategy and a
+- [42:54] bottom-up strategy. And the bottom-up
+- [42:55] strategy is really everything that we've
+- [42:57] talked about today. So building
+- [42:59] incredibly powerful platform
+- [43:01] capabilities that have this connections
+- [43:03] and have the knowledge and have the
+- [43:05] capabilities that will just grow and
+- [43:07] scale over time enable and enable more
+- [43:10] and more and more. That trajectory I
+- [43:12] think is is is quite clear how that will
+- [43:15] play out over the next year and and and
+- [43:17] two years and it will just allow us to
+- [43:19] do more and more and more especially as
+- [43:21] the models just continue to get even
+- [43:23] even more powerful. But I think what's
+- [43:25] also now been been been realized is that
+- [43:28] this this bottom-up innovation, as great
+- [43:30] as it is and exciting as it is, won't
+- [43:33] actually fully transform a company on
+- [43:35] its own. Business is run on on on long
+- [43:38] processes that cross multiple different
+- [43:40] types of teams. And so if we want to be
+- [43:42] able to really move the needle on those
+- [43:44] processes, think reducing the endtoend
+- [43:46] time to disperse credit or reducing the
+- [43:50] end toend time to onboard a new
+- [43:52] employee. these types of things. There
+- [43:54] also has to be a little more of a
+- [43:56] strategic element to actually rethink
+- [43:58] what the process itself will need to
+- [44:01] look like in a world of AI and in a
+- [44:03] world of AI agents. And so that's be a
+- [44:06] piece now where we're beginning to also
+- [44:08] revisit with a lot more in intensity and
+- [44:10] it complements what's going on bot
+- [44:12] bottom up. So, as we can begin to
+- [44:15] rethink these endto-end processes and
+- [44:17] what's possible, leveraging many of the
+- [44:18] the componentry that that's available,
+- [44:21] that's I think how we at JP Morgan think
+- [44:23] we'll be able to really really transform
+- [44:24] the enterprise.
+- [44:25] >> Final question. What what's the one
+- [44:27] thing that you want to do with AI that
+- [44:29] you can't do yet?
+- [44:30] >> Yeah, that's a good question. The things
+- [44:32] that I'd really love to be able to do
+- [44:35] would be to to throw vast amounts of
+- [44:38] documentation. and think about like an
+- [44:40] investment banking deal or something
+- [44:41] like that and really have AI be able to
+- [44:46] analyze that and and and eat just just
+- [44:48] eat eat all of that content insight. And
+- [44:51] we can certainly do a great job on that
+- [44:53] with with powerful ingestion pipelines
+- [44:56] and and and building specialized agents
+- [44:58] to do things, but typically typically
+- [45:00] speaking when we try new things, we're
+- [45:02] still sort of running up into some of
+- [45:05] the some of just the capability limits
+- [45:08] of today's current models. But boy,
+- [45:09] they're getting they're getting better.
+- [45:11] you know what you can do now with the
+- [45:12] the the latest the latest models and
+- [45:14] their very long context window and
+- [45:16] multimodality are things that we
+- [45:18] couldn't do six months or or a year ago.
+- [45:20] Having having a system that can [music]
+- [45:23] that can just just use that with a
+- [45:24] superhuman judgment would probably be a
+- [45:26] pretty big unlock. Derek, it's been
+- [45:28] wonderful having you on on the show.
+- [45:30] Really interesting to hear what you're
+- [45:31] doing at JP Morgan. Sounds like you've
+- [45:33] got a you know, you're very well along
+- [45:35] the road, but it sounds like you've
+- [45:36] still got plenty more things coming. So,
+- [45:39] we look forward to talking to you again
+- [45:40] in the future.
+- [45:41] >> Thank you very much. Appreciate it.
+- [45:43] >> Thank you, Jere.
+- [45:44] >> And special thanks to our presenting
+- [45:46] sponsor, Outshift by Cisco. You can
+- [45:48] learn more about their work on the
+- [45:50] internet of agents via their Linux
+- [45:51] Foundation project, agnttcy.org.
+- [45:55] This open-source project enables agents
+- [45:58] to work at scale across any vendor or
+- [46:00] framework with trusted and secure
+- [46:02] discovery, [music]
+- [46:03] identity access, and observability.
+- [46:06] For more stories about the AI
+- [46:08] revolution, like and subscribe to the
+- [46:10] podcast and check out venturebeat.com to
+- [46:13] sign up for our newsletters.
+- [46:17] [music]

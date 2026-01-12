@@ -1,0 +1,1100 @@
+---
+title: "Claude Code is not only the most powerful coding agent in the world, but it's also the most powerful..."
+video_id: "dk97zcYaq_o"
+video_url: "https://www.youtube.com/watch?v=dk97zcYaq_o"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Claude Code is not only the most
+  powerful coding agent in the world, but
+  it's also the most powerful all-purpose
+key_points:
+  - "Claude Code is not only the most"
+  - "agent that can control your computer"
+  - "through the terminal. You can do"
+  - "research, you can build websites, you"
+  - "can build web apps, you can build mobile"
+  - "your business. So, in this video, we are"
+  - "you're going to do is you're going to,"
+  - "So, you can just open this up. And what"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: dk97zcYaq_o
+
+- URL: https://www.youtube.com/watch?v=dk97zcYaq_o
+- Retrieved at: 2025-12-30T11:44:55+09:00
+
+## Text
+
+- [00:00] Claude Code is not only the most
+- [00:01] powerful coding agent in the world, but
+- [00:03] it's also the most powerful all-purpose
+- [00:05] agent that can control your computer
+- [00:07] through the terminal. You can do
+- [00:08] research, you can build websites, you
+- [00:10] can build web apps, you can build mobile
+- [00:12] apps, and even automate many parts of
+- [00:14] your business. So, in this video, we are
+- [00:16] going to do a complete deep dive into
+- [00:19] Cloud Code. We're going to first install
+- [00:21] Cloud Code. Then, we're going to use
+- [00:22] Cloud Code to create some basic files
+- [00:25] and do research and create content.
+- [00:27] We're also going to create a landing
+- [00:29] page. We're going to create a web app
+- [00:30] and then we're going to add
+- [00:31] authentication and database to that web
+- [00:34] app as well as add a few AI features.
+- [00:36] And you don't need to have any coding
+- [00:38] experience to use the most powerful AI
+- [00:40] agent in the world. Let's just dive in.
+- [00:43] Let's get started. The first thing that
+- [00:45] you're going to do is you're going to,
+- [00:47] if you haven't already, download NodeJS.
+- [00:50] So, you can just open this up. And what
+- [00:52] you're going to do is you're actually
+- [00:54] just going to download for MacOSS. You
+- [00:57] can click this button and basically
+- [00:59] follow the instructions, but just
+- [01:00] download it on your computer. And then
+- [01:02] what you're going to do is you are going
+- [01:04] to copy this right here. Then we're
+- [01:08] going to do something really, really
+- [01:10] scary. What we're going to do is we're
+- [01:12] going to open up terminal.
+- [01:16] And I'm going to open up a new terminal
+- [01:18] window. And it's going to look like
+- [01:19] this. And you've likely seen terminal
+- [01:21] pop up on your computer. And you
+- [01:24] probably got a little bit scared. And
+- [01:26] what you need to do is you need to
+- [01:27] download uh Anthropic Cloud Code. I've
+- [01:31] already downloaded Anthropic Cloud Code,
+- [01:33] so it's already on my computer. After
+- [01:36] you do this, it's going to prompt you
+- [01:37] with your login. What you can do is you
+- [01:39] can just get a Claude monthly account
+- [01:42] and then it'll ask you to sign in
+- [01:44] through that method and then you will
+- [01:46] have Claude code on your computer. Once
+- [01:48] you have Claude on your computer, open
+- [01:50] up a new terminal and then you can just
+- [01:52] type in Claude at any time and then
+- [01:54] press enter. And now Claude, this
+- [01:58] magical uh computer system on your
+- [02:01] computer, if we make it full screen
+- [02:03] right here, this is Claude Code, right?
+- [02:07] This is the terminal. And in this video,
+- [02:10] we're going to be talking about
+- [02:12] everything, right? So this is clawed
+- [02:13] code and it connects it is in your
+- [02:18] terminal. It is a CLI
+- [02:21] and this is the best AI coding tool in
+- [02:25] the world. And we're going to be talking
+- [02:26] about how to get started. We're going to
+- [02:28] talk about what a CLI is. We're going to
+- [02:29] talk about what a terminal is, what a
+- [02:31] directory is. And then we're going to
+- [02:32] talk about how to do stuff, right? We're
+- [02:34] going to make some files on your
+- [02:35] computer. We're going to build a landing
+- [02:37] page. We're going to talk about how to
+- [02:38] build a web app. how to deploy your app
+- [02:40] on the internet and get your own domain.
+- [02:43] And we're going to talk about how to add
+- [02:45] off and database. And this is going to
+- [02:48] allow you to create any app you want,
+- [02:50] but more importantly understand AI
+- [02:53] agents because if we go to if we go to
+- [02:56] Twitter here, the head of developer
+- [02:59] relations at Anthropic, he recently said
+- [03:02] it's becoming more and more clear that
+- [03:04] Claude code is becoming the everything
+- [03:07] agent. It is the everything agent and I
+- [03:10] totally believe that. And by the end of
+- [03:12] this video, you'll understand why this
+- [03:14] is the most powerful AI agent that's
+- [03:16] accessible to people like you and I in
+- [03:19] the world because we can have it do
+- [03:20] anything, right? We've already talked a
+- [03:23] little bit about getting started. Um,
+- [03:26] and before we dive into like what a CLI
+- [03:29] is, I kind of want to just show you an
+- [03:32] example. A CLI is just basically just is
+- [03:35] exactly what we're doing right now. It
+- [03:36] is a command line interface and I'm just
+- [03:38] going to show you what it does. So here
+- [03:40] what we can do what we can do here is we
+- [03:42] can say create a folder in my downloads
+- [03:48] folder call it project one and this has
+- [03:54] control over my computer's files which
+- [03:56] is really cool. And so you see here it
+- [03:58] created this project one in my
+- [04:00] downloads, right? And what we could do
+- [04:03] here is we could say I'm going to click
+- [04:06] into this project one folder. Now we're
+- [04:08] in this project one folder. Please
+- [04:10] create a text file that says hi.
+- [04:18] And we're going to give it the approval.
+- [04:23] There you go. Now we have this text file
+- [04:25] that literally just says hi. And this is
+- [04:29] one of the reasons why we have uh why it
+- [04:32] feels like an agent, why people are
+- [04:34] saying it's the everything agent because
+- [04:35] it could actually just create things,
+- [04:37] right? If we were to say um create uh
+- [04:40] three folders uh one for ideas, one for
+- [04:46] examples,
+- [04:48] um one for final drafts
+- [04:53] in the ideas folder. This is where I'll
+- [04:56] put simple text files for my ideas or
+- [04:58] any type of file for my ideas. And so I
+- [05:00] want you to put three sample ideas, very
+- [05:02] small text files in there. And for the
+- [05:04] examples, what this is going to do is
+- [05:06] this is going to be a place where you're
+- [05:09] always whenever you're tasked to create
+- [05:11] content, you're basically going to take
+- [05:12] my ideas, look at highquality examples.
+- [05:15] You're going to do whatever research you
+- [05:17] need to do to create a final draft about
+- [05:19] the topic of my idea, but in the style
+- [05:21] and tone of my examples. Don't create
+- [05:24] any examples or final drafts. Right now,
+- [05:26] what I want you to do is create a readme
+- [05:28] file that you can read to uh always
+- [05:31] anytime you get asked to create content.
+- [05:33] I want this to be something that you
+- [05:34] read every time so that we can keep this
+- [05:37] consistent. So, if you don't fully
+- [05:39] understand
+- [05:41] what I just did here, and by the way, I
+- [05:43] just used a voice to text tool called
+- [05:45] Whisper Flow. So, when getting started,
+- [05:48] just know that if you want to use voice,
+- [05:50] you should use something called Whisper
+- [05:53] Flow. Um, this is super useful. Um, but
+- [05:59] what we're doing here is the app that
+- [06:01] we're kind of creating right now or this
+- [06:03] agent that we're creating is one that
+- [06:06] has access to three different folders.
+- [06:08] One is the ideas um two is the um two is
+- [06:15] the examples and three we it has access
+- [06:19] to a final drafts. So from idea
+- [06:23] to example
+- [06:27] to final draft and that's where it's
+- [06:29] going to put them kind of just like
+- [06:30] that. And so we're going to give it some
+- [06:33] more permissions. Yes. Yes. So now it's
+- [06:36] creating three sample ideas in the ideas
+- [06:39] folder. And we can see productivity
+- [06:41] tips, common challenges with people face
+- [06:44] working from home, etc., etc. And here
+- [06:46] it created a readme file. And so this I
+- [06:51] remember I just with my voice explained
+- [06:53] what I want this agent to do every
+- [06:55] single time. And what's really cool and
+- [06:57] what opened my eyes a lot to this is a
+- [07:01] tool called Obsidian. I saw a video by
+- [07:04] McKay Wrigley and what this tool will
+- [07:08] allow us to do is what we can do is we
+- [07:10] can actually go to settings
+- [07:13] and yeah. So, we're going to create a
+- [07:14] new vault. And let's actually call these
+- [07:16] Riley's Notes. And we're going to pick a
+- [07:18] location. And we're going to choose the
+- [07:20] downloads folder for now. You can put
+- [07:22] them anywhere. And we're just going to
+- [07:23] create Riley's notes in that location.
+- [07:26] And so now we have this blank notebook
+- [07:28] that if we were to create a folder,
+- [07:31] right, this or a test
+- [07:33] uh hello there. This all this is doing
+- [07:36] is creating, right? If we go hit back
+- [07:39] here, we see Riley's notes. We see one
+- [07:41] test MD that says hello there. And so
+- [07:44] what we could do in claude code is we
+- [07:46] could say please um move everything
+- [07:50] that's in project one uh in that folder
+- [07:53] into Riley's notes which is also in the
+- [07:56] downloads folder. I just created it.
+- [07:57] Just move everything there
+- [08:00] and convert everything into a markdown
+- [08:02] file.
+- [08:05] And what Obsidian is is just basically
+- [08:08] like it takes all your folders and it
+- [08:10] makes them look nicer. But this should
+- [08:12] move everything to Riley's Notes. And
+- [08:13] then everything that we've created in
+- [08:15] Project 1 will actually go into
+- [08:18] Obsidian. And so now we're going to be
+- [08:20] able to um in a nice interface, a lot of
+- [08:23] people like to write in Obsidian. We're
+- [08:25] creating this AI agent that can now
+- [08:27] write in our note-taking app, which is
+- [08:29] incredibly useful. And so as we speak,
+- [08:34] right, this is all um going into
+- [08:37] Obsidian, which is just a uh Obsidian,
+- [08:40] which is a free local uh note
+- [08:44] takingaking app. It's kind of like an
+- [08:46] IDE if you're into coding uh like cursor
+- [08:50] for writing. And uh we can just keep
+- [08:54] saying um
+- [08:57] yes,
+- [08:59] here you go. You can see here that the
+- [09:02] notes are coming in, right? So all these
+- [09:04] notes are here. We have that readme
+- [09:06] file. We can actually just delete this
+- [09:10] test
+- [09:11] uh one because we don't need that. We
+- [09:13] have this readme folder. We can get rid
+- [09:15] of the uh welcome folder. And here we
+- [09:17] have project one which we can delete. Uh
+- [09:21] and so we have ideas, final drafts and
+- [09:23] examples.
+- [09:25] And so just really quickly on Obsidian,
+- [09:28] it's very simple, right? All right. You
+- [09:29] can create a folder, which I actually
+- [09:30] don't want to do, but we could also
+- [09:32] create um a clawed long form outline.
+- [09:37] And these are this is the outline that I
+- [09:39] create for my long form videos. I think
+- [09:41] you'll actually get value from this if
+- [09:43] you like to create content. Um but this
+- [09:46] is basically my prevideo questions. By
+- [09:48] the end of the video, you will uh the
+- [09:51] purpose of this video is to and so these
+- [09:53] are things that I um really like to do.
+- [09:56] And so I can add in any information um
+- [09:58] in the readme. I could include it in the
+- [10:01] readme um which is um we could just go
+- [10:04] uh example types if we want to include
+- [10:08] something. So then here we have long
+- [10:10] form
+- [10:12] um long form outlines
+- [10:16] and the uh we could say these
+- [10:20] are very simple concise outlines
+- [10:25] uh very similar to and then what we can
+- [10:29] do is we can actually tag things right
+- [10:31] clawed long form outline if you add
+- [10:33] these like double brackets around it
+- [10:35] it's super easy and so now the AI kind
+- [10:38] of understands that whenever I want a
+- [10:40] long form outline um I want to create a
+- [10:43] video on whatever the video is about
+- [10:45] which is like claude code and so now we
+- [10:48] now we have one example actually we need
+- [10:51] to move this into examples so now we
+- [10:53] have claude long form outline which is
+- [10:55] in the examples now we can create a
+- [10:57] final draft about my ideas and so on
+- [11:00] chrome or comet I'm now using comet
+- [11:03] browser what we could do here is we
+- [11:05] could actually search up let's say we
+- [11:08] come across a um new AI tool. Um what
+- [11:12] are people using? We could actually just
+- [11:14] do comet Comet Perplexity.
+- [11:18] And let's say when I'm scrolling, I come
+- [11:20] across an idea and I'm like, you know
+- [11:21] what? I want to make a video about
+- [11:25] Comet. And
+- [11:29] we can find a really interesting post.
+- [11:35] You can actually download a Chrome
+- [11:37] extension. And so what we can do is we
+- [11:39] can actually save this here. We can
+- [11:40] actually add this to Obsidian.
+- [11:45] It added it to this clippings folder,
+- [11:48] which is fine. What we can do is by
+- [11:50] default it wants to add it to this
+- [11:52] clippings folder. And so instead of
+- [11:54] ideas just in the readme, all we need to
+- [11:56] do is go back to cloud code and say,
+- [11:58] "Okay, combine the ideas folder and the
+- [12:04] clippings folder. I want you to combine
+- [12:07] these and make it called clippings. Just
+- [12:09] use that with the capital C clippings
+- [12:11] and then change the read me to update
+- [12:13] all um mentions of the ideas." Uh should
+- [12:18] just be called clippings. These are my
+- [12:20] ideas
+- [12:21] and web clips are just a place where you
+- [12:23] can like save the things that you find
+- [12:25] on the internet. That's how I create a
+- [12:26] lot of my content. We can save it to
+- [12:28] obsidian. And now we have and it saves
+- [12:31] everything along with the images as
+- [12:33] well. And it gets even the conversation
+- [12:35] beneath it. And the point is here is now
+- [12:38] with cloud code we can actually say I
+- [12:42] want you to um create a video on comet
+- [12:48] slashplexity.
+- [12:50] Uh this is a long form outline.
+- [12:55] Uh please create it um using the ideas
+- [13:00] that I've saved.
+- [13:04] And what it should do since I said it's
+- [13:06] a long form outline, this AI agent
+- [13:08] should actually look at my clippings,
+- [13:11] which are my ideas. Um, and now it's
+- [13:14] going to first read the read me to
+- [13:15] understand content creation workflow,
+- [13:17] which is exactly what we want it to do.
+- [13:19] We want it to review the clippings
+- [13:20] folder for perplexity related/comtreated
+- [13:24] ideas. Study examples folder to
+- [13:27] understand the preferred style and then
+- [13:28] create the long form outline for comet
+- [13:31] and perplexity video which is very cool.
+- [13:34] A quick break to tell you about the app
+- [13:36] that vibe codes mobile apps in just
+- [13:38] seconds. You just type your app idea and
+- [13:40] it will build a native mobile app right
+- [13:42] on your phone. It connects with cursor
+- [13:43] or any other IDE. You can create games,
+- [13:46] AI powered productivity apps, and we
+- [13:47] even have an N8N integration that lets
+- [13:50] you build apps powered by AI agents. You
+- [13:52] can download the app at vibecodeapp.com
+- [13:54] or use the link in the description. It
+- [13:56] is a literal agent, right? It is going
+- [13:58] through the to-do list as if I assigned
+- [14:00] it to my personal content researcher.
+- [14:03] Okay, so it says it's done. It created a
+- [14:05] long form outline. Let's go ahead and go
+- [14:07] into the final drafts. We can see comet
+- [14:10] perplexity long form outline. And look
+- [14:12] at that. It's in the exact format that I
+- [14:15] put it in. So, it's like know what
+- [14:16] perplexity comet is, how it works, use
+- [14:18] Comet to automate complex web tasks. Set
+- [14:21] up Comet for trading analysis and chart
+- [14:23] reading. And look at that. It created
+- [14:27] this outline exactly how I would want
+- [14:30] it. This is what I send to my thumbnail
+- [14:32] editor. And this is what I send to my
+- [14:34] video editor so that they can begin
+- [14:35] working on assets beforehand. Because if
+- [14:38] you've watched my videos, at the
+- [14:39] beginning of my videos, we have a lot of
+- [14:41] assets pop up on the screen. And that's
+- [14:43] just kind of the format that I like to
+- [14:45] work in, right? And it helps me think
+- [14:47] about the end viewer, right? We can do
+- [14:50] this on virtually anything. I can say um
+- [14:52] create another
+- [14:55] uh another one on um on claude's builtin
+- [15:01] integrations
+- [15:04] uh slashmcp
+- [15:06] on claude uh web app and the web app and
+- [15:11] the uh desktop
+- [15:15] app. uh search internet first and add to
+- [15:20] clippings
+- [15:22] um before beginning.
+- [15:26] I want the most uptodate
+- [15:30] uh topics, right? And so now we can send
+- [15:33] it off and now instead of us having to
+- [15:35] do the clipping, it can kind of just
+- [15:37] save its clips there, right? It's going
+- [15:38] to search the internet for the latest on
+- [15:40] Claude MCP and integration information,
+- [15:42] create new clippings from research,
+- [15:44] study existing examples for reference,
+- [15:46] and then create a long- form outline for
+- [15:48] Claude MCP integration video. Exactly
+- [15:51] what I wanted to uh wanted it to do. And
+- [15:55] because we're staying really organized,
+- [15:56] and by really organized I mean just
+- [15:58] keeping everything in very clear
+- [15:59] folders, we have examples, final drafts,
+- [16:01] and clippings, which are like ideas, and
+- [16:04] then a very clear readme, which I
+- [16:05] haven't even read yet, but I know that
+- [16:07] Claude Code creates really good reads,
+- [16:09] and it's clearly following instructions.
+- [16:12] We're creating this agent that does very
+- [16:14] predictable things, but it's very free
+- [16:16] flowing. It doesn't need to go in a
+- [16:17] specific order. It's not an automation.
+- [16:19] This is an agent that I can just tell to
+- [16:21] do something. It creates the to-do list.
+- [16:24] And what we'll talk about later when we
+- [16:26] start building apps is we can actually
+- [16:27] change it to plan mode, right? We can we
+- [16:29] can change it. We can change the mode
+- [16:31] that it uses to plan. And so it won't
+- [16:34] actually just begin. It'll just tell us
+- [16:36] the plan and then we can approve the
+- [16:37] plan. And there's all these different
+- [16:40] types of ways that you can have better
+- [16:41] control over cloud code, which we'll get
+- [16:43] into later in the video. And it is done.
+- [16:46] And you can see here it created this
+- [16:47] Claude MCP integration. Same exact
+- [16:50] format. uh know what cloud MCP is.
+- [16:52] Install and use desktop extensions.
+- [16:54] Connect to cloud to tools like Jira,
+- [16:56] Slack, Zapier. Yep, those are the latest
+- [16:58] tools. Use advanced research mode across
+- [17:00] connected platform setup. And Yep.
+- [17:03] Amazing. Right. Then this is uh the
+- [17:06] outline for the video. And this would
+- [17:08] just be a great place for me to start.
+- [17:09] And then I can continue. Right. I could
+- [17:12] say please add a section uh below this
+- [17:16] called script. Uh this should be a 10
+- [17:22] paragraph script for each section in the
+- [17:27] outline. Um concise though. Uh five
+- [17:31] sentences
+- [17:33] max per paragraph.
+- [17:37] And so now remember like obviously we
+- [17:40] created this pretty cool workflow but we
+- [17:42] can go off the beaten path. So now it is
+- [17:44] reading this file right here and it is
+- [17:47] coming up with a plan. And if we scroll
+- [17:49] down, okay, it's done. So it basically
+- [17:52] took all that research, took all the
+- [17:54] context because it did gather a context
+- [17:56] and it still has access to these
+- [17:58] clippings. So it's saving these
+- [17:59] clippings and so we're building up
+- [18:01] valuable context um for later. Maybe it
+- [18:04] will use this information later in a
+- [18:06] future skip script that we create. And
+- [18:09] yeah, we have this kind of this general
+- [18:11] agent here. We're using it within
+- [18:13] Obsidian. So, we use it directly within
+- [18:15] our note-taking app. And so, that's kind
+- [18:18] of the first part of this video, which
+- [18:20] is like getting started. And so, we've
+- [18:23] logged into Cloud Code. We're using the
+- [18:25] terminal. The terminal, right? This
+- [18:27] terminal uh clearly has access to your
+- [18:30] files, right? It can do things on your
+- [18:32] computer. It can create any type of
+- [18:34] file. It could create index html. It
+- [18:38] could create Python scripts. It could
+- [18:40] create markdown files, text files, all
+- [18:43] these different things on your computer.
+- [18:45] It can do all these things. And now, you
+- [18:48] know, developers when they're working
+- [18:50] with a project, right, they don't call
+- [18:52] them folders, they call them
+- [18:53] directories. And so, what we can do is
+- [18:56] we can actually begin not just using it
+- [18:59] as this general agent, which you can,
+- [19:00] which we used it to do research, create
+- [19:02] content, follow examples, um, to kind of
+- [19:04] go through this workflow. we can
+- [19:06] actually go through a different workflow
+- [19:08] which is which is building apps.
+- [19:13] And so what we're going to do here is
+- [19:14] we're going to build apps. And the first
+- [19:16] step that we need to do is we can create
+- [19:18] a directory which is literally the same
+- [19:20] thing. You're going to create a folder.
+- [19:22] I'm going to show you exactly how to do
+- [19:23] this right within a directory. If you
+- [19:26] build if you create files like an HTML
+- [19:28] file or etc etc you can create a landing
+- [19:31] page which we're going to do. And then
+- [19:32] we're going to move our way up in
+- [19:34] difficulty. So, as we go down this the
+- [19:36] rest of this video, we're going to go
+- [19:38] from easy, right? We're going to start
+- [19:39] off with a little bit easy uh like the
+- [19:42] landing page and then we're going to add
+- [19:43] like a database to um to a web app,
+- [19:48] right? We're going to create a web app.
+- [19:49] We might even add some uh we might even
+- [19:52] add some AI features
+- [19:54] um and whatever I really want to do. I
+- [19:57] haven't really planned out what we're
+- [19:58] going to do for the rest of the video,
+- [19:59] but I know that it is going to go from
+- [20:01] easy to hard. we're going to deploy onto
+- [20:04] the internet. So, the apps or websites
+- [20:07] that I create right now with Cloud Code,
+- [20:09] you're going to be able to see on the
+- [20:10] internet. And um yeah, we're going to
+- [20:13] kind of go through the rest of the video
+- [20:15] uh with this plan right here. Okay. So,
+- [20:17] I'm done with this context. I don't want
+- [20:19] to use this anymore. All I need to do is
+- [20:20] hit slashclear. And what you can you can
+- [20:24] see here, it says clear conversation
+- [20:25] history and free up context. So, now
+- [20:28] anything that comes up before this
+- [20:30] doesn't really matter. Um, again I can
+- [20:33] terminate the terminal and I can open up
+- [20:36] a new terminal instance. I do want to go
+- [20:39] over really quickly a different way to
+- [20:41] open it up slightly different. Let's say
+- [20:43] for example we are in the documents
+- [20:45] folder and I want to create a new folder
+- [20:47] directly in here and I want to call this
+- [20:50] Riley's app
+- [20:53] and I wanted to just kind of open it up
+- [20:57] from this location. What I can do is I
+- [21:00] can rightclick on it right here and we
+- [21:02] can go down to services and we can say
+- [21:04] new terminal at folder. So now it
+- [21:07] already knows exactly where it's putting
+- [21:09] files. Very similar to if you've used
+- [21:11] cursor before, right? If you go uh if
+- [21:14] you've used cursor and you uh like start
+- [21:16] a new project, you're starting at a
+- [21:18] specific folder, right? Your code files
+- [21:21] are a specific folder on your computer.
+- [21:23] This may seem obvious to those of you
+- [21:24] who are more technical, but this is
+- [21:26] something that's not as obvious to
+- [21:27] someone who just wants to vibe code like
+- [21:29] me. Um, and so here again, we're just
+- [21:32] going to type in quad. And so we are now
+- [21:35] using claude code in this location on
+- [21:37] your computer. And what I'm going to do
+- [21:40] actually is I'm actually just going to
+- [21:41] hit no exit. What I want to do is I'm
+- [21:44] going to do claude.
+- [21:47] And what? Yeah, we're going to go claude
+- [21:49] dash dangerously
+- [21:52] dash skip-ash
+- [21:55] permissions. So, this is a different
+- [21:57] type of claude code that will basically
+- [22:00] bypass all permissions and they make it
+- [22:03] intentionally hard to kind of use this
+- [22:06] mode because they think it's dangerous.
+- [22:08] I have no idea if it's dangerous. So,
+- [22:09] use this at your own peril. I'm not here
+- [22:12] to talk about safety. Um, I bought uh a
+- [22:16] new laptop and my old laptop is going to
+- [22:18] be the one that I use Cloud Code on and
+- [22:20] I'm going to try and get it to run
+- [22:21] autonomously and um I'm definitely
+- [22:24] taking the repercussions. I I I don't
+- [22:26] keep anything really sensitive on this
+- [22:29] computer, but let's keep going. So,
+- [22:33] we've opened up Cloud Code. Now, instead
+- [22:35] of asking us permission for a bunch of
+- [22:37] things, it's just going to bypass those
+- [22:39] permissions, which is really cool. Now
+- [22:41] what we can do is we can actually just
+- [22:43] create an app because we are in Riley's
+- [22:45] app because we opened it at this page.
+- [22:48] It's going to know exactly where to put
+- [22:50] things. Like if you remember last time
+- [22:51] it says go uh create a folder in uh my
+- [22:55] downloads and then create it. That's how
+- [22:56] I basically had to tell it where to put
+- [22:58] the files. But since we opened it at
+- [23:00] this location, it's going to know
+- [23:02] automatically. So, I can just say here,
+- [23:05] search the internet, find out about
+- [23:09] Riley Brown, um, Riley Brown AI, and I
+- [23:15] want you to create a landing page for
+- [23:16] him, almost like a link in bio, but with
+- [23:19] no like components or squares or
+- [23:21] rectangles around anything. I want this
+- [23:23] to look like a document, except I want
+- [23:25] you to make the headings for this or
+- [23:28] like the links uh, that should take me
+- [23:30] to a new page. You're going to create
+- [23:31] many new pages here. So, this means
+- [23:33] you're going to need to do research on
+- [23:34] him. And I want you to find out about
+- [23:36] all about him, his videos specifically,
+- [23:38] and his company. And I want you to make
+- [23:41] uh the headings just underlined. And
+- [23:44] when I hover over those underlines, it
+- [23:46] should like highlight it really quickly
+- [23:48] back and forth that it make it like look
+- [23:51] really cool when I hover over it so that
+- [23:53] you clearly know it is a button. And
+- [23:55] when I press it, have a cool animation
+- [23:56] that takes me to that next page. And
+- [23:58] again, this is hyper minimalist, right?
+- [24:00] creating this landing page and with all
+- [24:03] these other files and then I want you to
+- [24:04] run it locally so I can use it um in my
+- [24:07] browser. So just run it in the browser
+- [24:14] and yeah so we just typed in all of this
+- [24:18] information. We used the um whisper
+- [24:22] flow, right? If I type in whisperflow,
+- [24:25] this is the app that I use to turn my
+- [24:27] voice into text. There is a very
+- [24:30] generous free plan. At least there was a
+- [24:32] month ago and you can use it for free
+- [24:34] for a very long time. And yeah, it has
+- [24:37] created a plan and now it's off to the
+- [24:39] races. And so while I'm waiting, I'm
+- [24:41] going to open up Riley's app here and we
+- [24:44] can kind of just await the files to show
+- [24:46] up. Okay, so it is done. If we paste
+- [24:49] this in right here, we now have this. So
+- [24:52] if we can look at our files, right,
+- [24:54] these are the files that were created in
+- [24:56] Riley's app, as you can see right here.
+- [24:59] And this is the site that it created.
+- [25:01] And so it created an Oh, look at that.
+- [25:04] That's kind of nice. Look at this.
+- [25:08] So we can click on vibe code. It has a
+- [25:10] nice little animation when you click on
+- [25:12] it.
+- [25:14] Real Riley Brown. That is my Instagram.
+- [25:19] Uhoh.
+- [25:22] Uh vibe coding. There we go. So we
+- [25:25] created this uh website. It is running
+- [25:29] locally on our computer, but it's not
+- [25:31] yet on the internet. In order to do
+- [25:33] this, right, in order to do this, we are
+- [25:35] going to put it on GitHub. And GitHub is
+- [25:38] a place where nerds put their code. And
+- [25:41] I mean nerds in a positive sense, right?
+- [25:43] I am a nerd now. I use GitHub, which is
+- [25:46] great. And so, you can kind of save and
+- [25:48] update uh you can save and update your
+- [25:51] work on GitHub. And um that is the first
+- [25:55] step that we're going to do. So, we're
+- [25:56] going to save our work. We're going to
+- [25:57] uh up update our code onto GitHub, which
+- [26:02] they call committing. It's confusing. I
+- [26:04] don't get it, but that's okay. What
+- [26:07] you're going to do once you want to put
+- [26:08] this on the internet, what you should
+- [26:09] first do is save this, right? You want
+- [26:11] to take this code and you want to commit
+- [26:13] this to a place where you can always
+- [26:14] revert it back to this location. And
+- [26:17] this video is not going to be an
+- [26:19] in-depth deep dive breakdown of GitHub,
+- [26:22] but I want to talk about the main things
+- [26:24] that you can do on GitHub. But what I
+- [26:25] want to focus on right now is just
+- [26:26] creating an account. So you'll come
+- [26:28] here, you'll create an account. You'll
+- [26:29] see your account right here. And you'll
+- [26:31] have repositories. Repositories
+- [26:35] like what is a repository.
+- [26:39] Repository in context of GitHub.
+- [26:42] Repository is a repo storage location
+- [26:44] for software project that contains all
+- [26:45] the projects files. Right? So you have a
+- [26:47] folder, then you have um a uh directory,
+- [26:52] and then also a repository. The uh the
+- [26:56] difference between them, maybe I'm just
+- [26:57] dumb, but I don't fully understand the
+- [26:59] difference between them, but whatever.
+- [27:00] It doesn't matter. So we could just call
+- [27:02] this like Riley's landing page of
+- [27:07] himself. Doesn't matter what you name
+- [27:09] it, I don't think. And so what you can
+- [27:10] do is you can create this repository and
+- [27:13] this will give you this link. And so
+- [27:15] this link, you can think of this like a
+- [27:17] Google Drive link except it's GitHub.
+- [27:19] And now we're going to tell Cloud Code
+- [27:21] to put everything into that Google Drive
+- [27:23] link sort of. And we're just going to
+- [27:26] say I created this repo on GitHub. And
+- [27:32] uh and and if you've never done this
+- [27:34] before, you're going to actually need to
+- [27:36] connect or you need to like somehow what
+- [27:39] even if you just type this exact prompt
+- [27:41] in, it's actually going to use the
+- [27:43] GitHub CLI and have you sign in to your
+- [27:45] GitHub. But Claude Code will actually
+- [27:48] guide you through this. Like literally
+- [27:49] ask it like, I want to connect GitHub,
+- [27:51] my GitHub account to Claude Code. How do
+- [27:53] I do this? And it will literally take
+- [27:55] you through it, take you to the page.
+- [27:57] It's very easy to set up. I've just
+- [27:58] already done it. So now once you've
+- [28:00] actually connected them, all you have to
+- [28:01] do is say I've created this GitHub uh
+- [28:03] repo uh and I want you to push uh or I
+- [28:09] want you to commit this code that we've
+- [28:15] created
+- [28:17] in and you can just say in Riley's app
+- [28:23] uh to
+- [28:25] this repo
+- [28:27] and paste the repo link. And now what
+- [28:30] it's going to do is it's actually just
+- [28:31] going to push the code here. Right? So
+- [28:33] right now it's just this like link.
+- [28:35] There's nothing here. But you'll notice
+- [28:38] that in just a second I'm going to
+- [28:39] refresh it and we're going to see all of
+- [28:40] our files. So as you can see here, it's
+- [28:43] going through all these different steps.
+- [28:44] It has completed add all files to get
+- [28:47] staging create initial commit. And so it
+- [28:50] created the commit. Don't fully know
+- [28:52] what that means, but that's okay. Uh
+- [28:55] push to GitHub repo. It is done. So, if
+- [28:57] we hit commandR to refresh, we should
+- [29:00] see all of our files right here. So, in
+- [29:02] Riley's landing page of himself, I told
+- [29:04] Claude Code to put it here, and it did
+- [29:06] indeed, right? And we can actually um
+- [29:09] make changes to this. We could say, uh,
+- [29:12] if we go back to home on here, we could
+- [29:15] say, uh, change, and it got this, this
+- [29:18] is old from LinkedIn. uh change the area
+- [29:22] from
+- [29:24] Seattle to S uh San Fran
+- [29:30] and it should make the changes in the
+- [29:32] code, right? It just changed this really
+- [29:34] quickly to San Francisco Bay and I don't
+- [29:38] know if Okay,
+- [29:43] here we go.
+- [29:45] It's updating everything. Done. Okay.
+- [29:48] Now,
+- [29:50] uh, push these changes to the same
+- [29:55] GitHub
+- [29:57] repo. I still don't fully know the the
+- [30:00] proper lingo like push commit. I think
+- [30:03] commit. I I don't I I don't know. I just
+- [30:05] kind of use it. It knows what I mean.
+- [30:07] And you'll see it kind of like update
+- [30:10] here.
+- [30:13] Um,
+- [30:15] and then yeah, so it is done. And if we
+- [30:18] hit about.html, we can actually see here
+- [30:21] that update location from Seattle to San
+- [30:24] Francisco. And so you see that the
+- [30:25] changes are just being made. So it's
+- [30:27] just like pushing these changes to
+- [30:29] GitHub, which is really cool. And now
+- [30:31] what we we can do here is if we go to
+- [30:33] here. So what we've done is we've we've
+- [30:36] uh put this on GitHub, which is really
+- [30:38] cool. This is what we've done. Um, and
+- [30:40] in order to make it a web app, we
+- [30:42] actually need to do kind of like deploy.
+- [30:43] We need to put it on the internet. And
+- [30:45] so what we're going to do for this,
+- [30:47] right, um, for deploying or to put it on
+- [30:52] the internet,
+- [30:54] we are going to use Verscell.
+- [30:58] And Versell is very similar in uh as
+- [31:03] GitHub in that you can just do it from
+- [31:05] the terminal or you can do it from cloud
+- [31:08] code. And I can just say please deploy
+- [31:11] this to Versel.
+- [31:14] I want
+- [31:16] to have it on the internet.
+- [31:20] And this is going to do the same
+- [31:23] process. It is going to do it in
+- [31:24] Verscell again. Again, Verscell is a And
+- [31:28] remember, it's bypassing all the
+- [31:29] permissions. So, you're going to have to
+- [31:30] like press yes a bunch of times here.
+- [31:33] And again, this is something that you
+- [31:34] need to set up. But if you go to uh
+- [31:36] versel.com
+- [31:38] and create an account, versel.com
+- [31:43] and create an account. Um
+- [31:47] when you do this process or ask it to do
+- [31:50] what I just did, it'll say you need to
+- [31:52] sign in and you're going to be able to
+- [31:53] do it directly from here. If it doesn't
+- [31:56] allow you, just say please use the
+- [31:57] Verscel CLI to allow me to connect my
+- [32:01] account. Look at that. It is already
+- [32:03] done. So it says live URL. So we can
+- [32:06] actually highlight this URL right here.
+- [32:08] We can paste this and there we go. This
+- [32:12] is on the internet. I just did this in
+- [32:14] front of you. You could go to this link
+- [32:15] right here and it will take you to this
+- [32:17] page. As you can see the San Francisco
+- [32:20] Bay area. This is indeed up updated.
+- [32:24] Okay. So this is what we've created.
+- [32:27] This is on the internet right now. And
+- [32:30] what I want to do is I'm actually just
+- [32:31] going to hit clear. So, this clears all
+- [32:34] of the context from the chat and we are
+- [32:37] still in Riley's app. So, it's still
+- [32:39] going to be it is still a terminal about
+- [32:41] these files right here. Now, what I want
+- [32:44] to do is we're going to move on to
+- [32:45] something a little bit more challenging.
+- [32:48] And what we're going to do here is we
+- [32:50] are going to turn this into an app that
+- [32:53] has signin. I actually don't know what
+- [32:57] language it's going to want to make
+- [32:59] this, right? Um, but I'm going to let
+- [33:02] Claude decide. So, I want to add an AI
+- [33:07] chat, meaning chat with Riley. So, put
+- [33:12] his info in the system prompt
+- [33:18] for the AI chat. The AI chat should be
+- [33:22] its own page.
+- [33:25] And in order to get access to the AI
+- [33:30] chat, users should have to sign in. I
+- [33:36] want to use uh the open AI a uh API to
+- [33:41] do this. And I will give you uh the key
+- [33:48] for the open AI API. What I want to do
+- [33:52] here is don't generate any code. Just
+- [33:58] outline your plan and tell me how you
+- [34:03] want to accomplish
+- [34:06] this. We are going to be using Google
+- [34:11] Firebase
+- [34:12] just as a little bit of a refresher. So
+- [34:15] right here we're going to wake a web
+- [34:17] app. And the way that I distinguish web
+- [34:19] app and a landing page, it's all blurry.
+- [34:20] I don't really know the difference. I
+- [34:22] just think of it as just this is one
+- [34:24] with um with uh one of two things. So it
+- [34:28] has off so you can like sign in and then
+- [34:31] a database where like stuff is stored
+- [34:35] and that's kind of what I want. And also
+- [34:38] we should add one other feature. So,
+- [34:40] Google Firebase users should sign in and
+- [34:44] at the bottom of the homepage,
+- [34:48] users should be able to add a comment
+- [34:53] and like each other's comments and
+- [34:58] stuff. Please outline how we should do
+- [35:03] this. Here are all the keys. So I need
+- [35:06] to give a uh Firebase keys and then uh
+- [35:12] open AI keys. So what we're going to do
+- [35:15] is we're going to go to a comment. We're
+- [35:17] going to go to firebase.google.com.
+- [35:21] And what we are going to do here is we
+- [35:23] are going to go to console and we're
+- [35:26] going to create a new project. We're
+- [35:28] going to call this Riley's app and we're
+- [35:30] going to hit continue. We're going to
+- [35:31] turn off Google Analytics for now. This
+- [35:34] is just something you have to do. And
+- [35:35] I'm pretty sure some of this can be done
+- [35:37] by cloud code. I just haven't learned
+- [35:38] that yet. Um, and we also need to go to
+- [35:41] the openai
+- [35:43] um uh.com.
+- [35:46] We're going to go to open aai um openai
+- [35:50] dashboard
+- [35:52] API key. So, we can just search this.
+- [35:55] Create an API key. Ideally, I'm already
+- [35:58] signed in. There we go. So, it's pla
+- [36:00] platform.openai.com openai.com/appi
+- [36:03] keys and we're going to create our new
+- [36:04] API key. I want to keep this private so
+- [36:06] I'm going to pause the video and so
+- [36:08] we're going to create a web app on
+- [36:11] Firebase and I'm just going to call this
+- [36:13] Riley.
+- [36:15] We're going to register this app here
+- [36:18] and this is going to give us API keys.
+- [36:20] I'm going to keep this secret um or I'm
+- [36:23] going to delete this project after but
+- [36:24] you should keep these keys secret I
+- [36:27] think. And then all we need to do is
+- [36:28] actually just go back to uh claude code
+- [36:31] and for the Firebase keys I'm going to
+- [36:33] paste my Firebase key right here. I'm
+- [36:37] going to paste my API key right here.
+- [36:42] Okay. So this is what I've typed in. I'm
+- [36:44] going to now run this hiding my API key.
+- [36:48] And now we are running it. And now it
+- [36:51] should be planning the app that we're
+- [36:53] going to create. So here's the um
+- [36:57] analysis right here. It says plan
+- [36:59] Firebase authentication integration. So
+- [37:01] implementation plan convert from static
+- [37:05] HTML to modern framework react next.js
+- [37:07] recommended
+- [37:09] um yeah so database schema. So it's
+- [37:12] going to have users with the email
+- [37:14] display name uh last login at oh yeah
+- [37:17] and then another thing that we need to
+- [37:18] do is we actually need to create the
+- [37:19] database. So, we need to go to Fire
+- [37:22] Store database on Google Firebase and
+- [37:25] we're just going to create a database.
+- [37:27] This is not as hard. It's not hard at
+- [37:29] all. Um, all you need to do is just
+- [37:32] create this database. What you want to
+- [37:33] make sure is you're doing it in test
+- [37:34] mode. Um, when you're getting started
+- [37:37] before you actually deploy it on the
+- [37:39] internet for others to use, make sure
+- [37:41] you look into production mode. This is
+- [37:43] just a easier way to get started.
+- [37:45] Um, and then now that we have our
+- [37:47] database, we're done with that. All we
+- [37:49] need to do is authentication. So, we
+- [37:51] want people to be able to sign in uh we
+- [37:54] want people to be able to sign in uh
+- [37:57] with their Google uh provider. So, we
+- [37:59] can enable this and we can choose our uh
+- [38:02] email here. And I believe that is
+- [38:05] literally all that we need to do. Um and
+- [38:08] I yeah, that's basically everything that
+- [38:10] we need to do. And we now have our files
+- [38:13] open. And I'm gonna say yes, looks good.
+- [38:18] Do next.js.
+- [38:22] Also, please do um also please do only
+- [38:27] Google sign in. And yeah, go.
+- [38:32] Now it's going to actually build the
+- [38:34] app. And so now it has all these to-dos.
+- [38:36] Set up Nex.js JS project file structure,
+- [38:39] install and configure Firebase SDK, all
+- [38:42] these things that you don't really need
+- [38:44] to fully understand and uh we'll kind of
+- [38:46] wait to see how it does. Here you can
+- [38:49] see it created the package.json next
+- [38:51] config tsconfig. It just created
+- [38:53] tailwind config post css config.js
+- [38:57] created this source folder. We can click
+- [38:59] into the source folder. Created apps
+- [39:02] create a component folder.
+- [39:04] If we wait for this, I'm sure it'll add
+- [39:06] things to the component folder here. Um,
+- [39:09] hooks lib. And it's just creating all of
+- [39:13] the folders that we need to basically
+- [39:16] and it I created an env.local file,
+- [39:18] which is where it's going to be storing
+- [39:20] our API keys. Okay, it is done. It says
+- [39:23] the app is now running on localhost
+- [39:25] 3000. So, I'm going to just copy this
+- [39:27] link. Sometimes it doesn't work right
+- [39:30] away. We will open up Comet.
+- [39:32] Let's go ahead and paste this in right
+- [39:34] here. It says site cannot be reached.
+- [39:37] I'm just going to paste this in right
+- [39:38] here. Let me check the development
+- [39:41] server and restart it. Let me test it
+- [39:43] again.
+- [39:47] Okay,
+- [39:48] it looks like it definitely looks worse.
+- [39:53] Um, I don't sign in to leave a comment.
+- [39:56] I don't see the sign in option. Okay,
+- [39:59] it's running. I don't
+- [40:02] see the sign in option.
+- [40:08] I'm trying to think if I forgot to do
+- [40:10] anything. I don't believe I forgot to do
+- [40:13] anything.
+- [40:14] Okay. Uh let me see. Okay. So, there is
+- [40:18] the sign in with Google button. Let's
+- [40:20] see if this works. Okay. Now, we can
+- [40:22] sign in with my email. Let's see if this
+- [40:25] works.
+- [40:27] Let's see if we sign in. Okay. This is
+- [40:29] kind of ugly up here, but that's okay.
+- [40:32] Can we leave a comment? Hello,
+- [40:34] Riley.
+- [40:36] Post the comment. There we go. We now
+- [40:39] have someone. Oh, I can even like my own
+- [40:41] comment. That's pretty cool. Nice. So,
+- [40:44] we are now commenting. And if I were to
+- [40:48] uh sign out, I can sign in with a
+- [40:50] different account. Let me see if this
+- [40:52] will work. If we sign in with a
+- [40:54] different email
+- [40:56] here,
+- [40:58] um, we can see that Riley Brown, other
+- [41:01] Riley, we can see my comments from my
+- [41:03] other one. And you can see their
+- [41:04] different profile pictures. And so we
+- [41:06] can sign in. I can like other people's
+- [41:09] comments. They are persistent. And there
+- [41:11] we go. Chat with Riley. Let me see if
+- [41:14] this works. We are getting one issue.
+- [41:17] Um, let's see. Let's see if it works.
+- [41:20] Hello there, Riley.
+- [41:24] Okay. Uh
+- [41:27] the chat is not working. Please fix the
+- [41:32] uh Google sign in for comments.
+- [41:36] Uh works very well though. Okay, so it's
+- [41:40] running locally again. Let me see here.
+- [41:43] Uh if we go to chat with Riley, it
+- [41:46] hasn't been working. Hello there. What
+- [41:49] is up?
+- [41:51] Okay, hopefully it works here. Um, hello
+- [41:55] there. I'm currently working on some new
+- [41:57] features for Vive Code. How can I assist
+- [41:59] you today? Okay, so now I can chat with
+- [42:01] Riley. Obviously, it's ugly. Obviously,
+- [42:04] we could change it to make it look
+- [42:05] better. Um, but we can actually sign
+- [42:07] out, right? We can sign in with a
+- [42:09] different Google account. And so, we've
+- [42:11] actually created an app that I could
+- [42:13] give to my followers. You know, a small
+- [42:15] group of 50 people on social media could
+- [42:17] sign in. We can make it a small little
+- [42:19] social app, a community app, however you
+- [42:22] want to look at it. We can create apps
+- [42:24] like this. And that's kind of what we
+- [42:26] did today. And um if we go back to our
+- [42:29] drawing here, um yeah, we deployed our
+- [42:33] landing page. And so yeah, okay, that's
+- [42:34] a good thing that we could do here is we
+- [42:36] could go to our terminal. I'm just going
+- [42:38] to hit uh clear.
+- [42:40] Okay, so I'm going to paste in GitHub.
+- [42:43] uh please update this repo uh with the
+- [42:48] current
+- [42:49] app and push it and then uh make uh this
+- [42:56] on Versell deploy it and we're going to
+- [43:01] do that same process again which is
+- [43:03] basically um we're deploying it to
+- [43:06] Verscell we added a DB and then after
+- [43:10] this you can very easily add a custom
+- [43:12] domain And I'll just show you um once
+- [43:14] it's on Verscell, I'll show you exactly
+- [43:16] where you can do that. And by the way,
+- [43:19] once you get your app on to Verscell,
+- [43:21] like once Cloud Code pushes it to
+- [43:23] Versell after uploading it to GitHub, um
+- [43:27] in order to give it your own domain, all
+- [43:28] you need to do is go to domains and then
+- [43:31] you just click add domain and then
+- [43:33] literally just ask cloud code what to do
+- [43:35] after you buy an app um or add a domain
+- [43:38] on namecheep. like you can literally buy
+- [43:40] a domain and then you're going to go to
+- [43:42] advanced DNS settings on namecheep and
+- [43:46] literally just ask cloud code what to
+- [43:47] put in and that's how I created an app
+- [43:50] uh like I created photo monkey in 20
+- [43:52] minutes a few days ago and I just bought
+- [43:54] the domain photomon.app app and it's
+- [43:57] very easy to do on Versell cuz you can
+- [44:00] see here on photo monkey if we hit
+- [44:02] settings domains you can see that I just
+- [44:04] pasted it in here and it'll give you
+- [44:07] some codes that you need to paste in and
+- [44:08] it's super easy and I know I kind of u
+- [44:12] might have gone a little fast here at
+- [44:14] the end um and I'm going to be doing a
+- [44:15] lot more builds and actually talking
+- [44:18] about how to build full-on web apps. So,
+- [44:20] if you like this type of content, I'm
+- [44:22] going to go way deeper in creating um
+- [44:24] full web apps and mobile apps um in the
+- [44:28] future. So, if you like this type of
+- [44:30] content, make sure to hit like and
+- [44:32] subscribe and I will see you here for
+- [44:34] the next one.

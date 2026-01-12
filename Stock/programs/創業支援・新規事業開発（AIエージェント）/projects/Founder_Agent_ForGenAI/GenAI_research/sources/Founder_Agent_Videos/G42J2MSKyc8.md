@@ -1,0 +1,1608 @@
+---
+title: "Crew AI is one of the leading agentic AI framework that is being used by some of the top companies such as Oracle, Deoid"
+video_id: "G42J2MSKyc8"
+video_url: "https://www.youtube.com/watch?v=G42J2MSKyc8"
+speaker: "their"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development", "Data Science"]
+summary: |
+  Crew AI is one of the leading agentic AI framework that is being used by some of the top companies such as Oracle, Deoid, Accenture etc
+  Having Crew AI on your resume can give you a significant career boost
+  In this crash course, we are going to go over some theory first
+key_points:
+  - "we need to understand what is agent"
+  - "searched for few flights"
+  - "Covers startup concepts and applications"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:14:13+09:00"
+---
+
+# Transcript: G42J2MSKyc8
+
+- URL: https://www.youtube.com/watch?v=G42J2MSKyc8
+- Retrieved at: 2025-12-30T10:14:13+09:00
+
+## Text
+
+- [00:00] Crew AI is one of the leading agentic AI
+- [00:02] framework that is being used by some of
+- [00:04] the top companies such as Oracle, Deoid,
+- [00:07] Accenture etc. Having Crew AI on your
+- [00:09] resume can give you a significant career
+- [00:11] boost. In this crash course, we are
+- [00:14] going to go over some theory first. Then
+- [00:16] we will start building agents in crew AI
+- [00:19] and we will also build end to end
+- [00:21] project to create a marketing crew. Let
+- [00:24] us begin with some theoretical
+- [00:26] foundation. This is their website. They
+- [00:28] market it as multi- aent platform. Crew
+- [00:31] means you have multiple agents working
+- [00:34] together. They have a way to create crew
+- [00:37] and agents through some UI. They call it
+- [00:39] UI studio. We are mainly going to be
+- [00:42] focusing on the framework which is by
+- [00:44] writing code. We will be creating the
+- [00:46] crews. They have around 30,000 stars on
+- [00:50] GitHub which is pretty good. So now
+- [00:53] since it is a multi- aent platform first
+- [00:55] we need to understand what is agent. Uh
+- [00:58] so let's spend few minutes understanding
+- [00:59] what is agent and agentic AI and if you
+- [01:02] already know this fundamentals then you
+- [01:03] can skip this section and move to coding
+- [01:05] part. So what exactly is agent and
+- [01:07] agentic AI when you're using chat GPT
+- [01:10] behind the scene you have LLM as your
+- [01:13] main component. This LLM can be GPT
+- [01:17] claude Gemini anything. when you ask a
+- [01:20] question, it will generate answer based
+- [01:23] on the pre-trained knowledge that it
+- [01:25] has. That is why it's called generative
+- [01:26] AI. But let's say if you ask a question,
+- [01:29] what is the price of Emirates flight
+- [01:30] from place A to B tomorrow? It won't be
+- [01:34] able to answer because it has a
+- [01:35] knowledge cutff. Okay. So this is
+- [01:38] generative AI with only LLM GPT4 claude
+- [01:43] whatever model you are using it will
+- [01:44] have knowledge cutff that it's trained
+- [01:46] until that point of time and any event
+- [01:49] that happen afterwards it won't have the
+- [01:51] knowledge but you can give it an access
+- [01:54] to some external API let's say if you
+- [01:57] give uh it an access to Xedia API or
+- [02:01] make my trip API okay some travel API
+- [02:04] then it will be able to call that API
+- [02:06] and pull the latest price. Okay, you can
+- [02:10] have a different question such as book
+- [02:12] me cheapest flight from New York to
+- [02:14] Delhi. And now if LLM has access to
+- [02:16] Xedia, it will call Expedia for that you
+- [02:19] know source A to source destination,
+- [02:22] source to destination and given date. It
+- [02:25] will then search for the flights. It
+- [02:27] will decide which is the cheapest one
+- [02:29] and then it will also book it. So here
+- [02:32] it's not like chat GPT like simple
+- [02:34] question and answer. It is actually
+- [02:36] taking action for you. Okay. And it will
+- [02:38] say okay flight booked. So this is
+- [02:40] called AI agent. Okay. AI agent is a
+- [02:43] program that takes inputs, thinks about
+- [02:45] it. It acts to complete a task using
+- [02:49] tools, memory and knowledge. The API
+- [02:51] that we are using Expedia is called
+- [02:52] tool. Okay. And it is autonomous.
+- [02:56] Autonomous means it is taking action for
+- [02:59] you but narrow task. Okay. So here see
+- [03:02] it's just simple flight booking. So it's
+- [03:05] a very narrow task. So if you think
+- [03:07] about it, it first searched for few
+- [03:11] flights. Let's say it found five
+- [03:13] flights. Then it decided which is the
+- [03:15] cheapest one. Let's say this is the
+- [03:16] cheapest one. So it decided that in
+- [03:19] autonomous fashion. Okay, it did not ask
+- [03:21] you. It decided that hey this is the
+- [03:23] cheapest flight and it also booked it.
+- [03:25] You see? So that is why we are saying it
+- [03:28] is autonomous. Okay. So that is your AI
+- [03:31] agent. Now you can expand this further
+- [03:33] and you can say book me a flight for my
+- [03:35] 7-day trip to New Delhi in May and I
+- [03:39] personally like sunny weather. So I also
+- [03:42] have a requirement that the weather
+- [03:44] should be sunny all the days and flight
+- [03:46] budget is this no layover. Now LLM can
+- [03:49] take help of Xedia API for the flight
+- [03:53] information but it also wants to know
+- [03:55] the weather. So maybe for weather it
+- [03:57] calls acue weather or weather.com
+- [03:59] whatever API right Google weather etc
+- [04:02] and it will pull that information. So
+- [04:04] this llm can have access to multiple
+- [04:06] tools. Okay. So it is checking the
+- [04:08] weather first to find seven consecutive
+- [04:11] days in May where the weather is sunny
+- [04:13] and for those days it is comparing the
+- [04:15] airlines and finding a flight which is
+- [04:19] in your budget. And not only that, it
+- [04:23] can also go one step further and give
+- [04:25] you suggestions for hotel and airport
+- [04:27] taxi. If you have booked a flight from
+- [04:30] make my trip or Expedia, you will find
+- [04:32] this, right? They will also give
+- [04:33] suggestions. So then it will say okay
+- [04:36] flight booked from this date to this
+- [04:39] date, weather is sunny, I also have good
+- [04:42] suggestion. Okay, so this is a flight
+- [04:44] booking AI agent. You can also have a
+- [04:48] system with multiple agents. For
+- [04:50] example, you have flight booking agent
+- [04:53] but if you are not let's say if you're
+- [04:55] traveling to India, if you're not Indian
+- [04:57] citizen, you have to take visa, right?
+- [04:59] So you can have immigration AI agent
+- [05:02] which you can connect to your one drive.
+- [05:04] You can have your passport, your
+- [05:06] immigration document there and this LLM
+- [05:09] can access it and it can tell you that
+- [05:11] hey you don't need have a visa. Okay,
+- [05:13] forget about uh booking the flight
+- [05:15] ticket. You first need to get the visa.
+- [05:18] So the this system consists of multiple
+- [05:22] agents. It is doing multi-step
+- [05:24] reasoning. It has a multi-turn approach
+- [05:26] where it is calling multiple agents.
+- [05:28] Maybe agents are being called multiple
+- [05:30] times too. And it is multi-step
+- [05:33] planning. It is working on a complex
+- [05:34] goal autonomously. Okay, you just giving
+- [05:36] it a goal that okay book a flight
+- [05:38] ticket. But the system is checking your
+- [05:41] visa. It's like if you call a agent,
+- [05:44] right, travel agent, they will do all of
+- [05:45] this. So this is similar system and this
+- [05:48] is called agentic AI. Agentic AI is a
+- [05:50] system where one or more see one or more
+- [05:54] AI agents work autonomously often over
+- [05:57] long task. They might call LLM multiple
+- [05:59] times making decision using tools and
+- [06:03] calling even other agents to reach a
+- [06:06] goal and crew AI helps you build AI
+- [06:09] agents especially multi- aent system.
+- [06:12] Now there are a lot of other frameworks
+- [06:14] right Google ADK lang graph crew AI so
+- [06:16] what is the difference when should I use
+- [06:18] what if you're building lightweight fast
+- [06:21] agent let's say if you want a agent
+- [06:22] which performs really fast and if you
+- [06:24] want to build it quickly agno is the
+- [06:26] framework Google you will use if you
+- [06:28] want tight GCP integration okay let's
+- [06:31] say your company is in Google ecosystem
+- [06:34] and and you want to leverage Gemini and
+- [06:36] all that other ecosystem Google is good
+- [06:38] if you want graph-based stateful
+- [06:42] orchestration which is highly
+- [06:44] customizable, highly reliable agents
+- [06:46] then you use langraph and crewi is used
+- [06:48] for role based orchestration simple and
+- [06:51] less customization. Okay, as we write
+- [06:53] code you will know more you know the the
+- [06:56] power of all these different frameworks
+- [06:59] we have separate tutorials for agno lang
+- [07:01] graph etc. So you can try it out and one
+- [07:04] of the frameworks can work the best for
+- [07:06] your given use case. We are going to use
+- [07:07] PyCharm code editor. So you can install
+- [07:10] it for free by going to their website.
+- [07:12] By default is it is free forever and you
+- [07:15] also get one month pro included. Click
+- [07:18] on download all the common sense steps.
+- [07:22] The second thing you will install is UV
+- [07:24] package manager. This is an alternate to
+- [07:26] pip and it is very fast. Uh I love it.
+- [07:30] So just Google UV package manager and
+- [07:33] here I'm I'm having Windows. So on your
+- [07:37] Windows PowerShell just copy okay copy
+- [07:40] this command and run it. So you can just
+- [07:42] say powershell
+- [07:45] windows powershell okay and that command
+- [07:49] is copied and you can just run enter and
+- [07:52] it will install UV for you. The next
+- [07:54] step is to get Google Gemini key. We are
+- [07:57] using Gemini model throughout this uh
+- [08:00] video. If you want to use any other
+- [08:02] model APO, OpenAI etc feel free in
+- [08:05] Google just search get Gemini API key
+- [08:08] and when you go to this page you can
+- [08:11] click on go to Google studio get API key
+- [08:15] and create API key. It will ask you to
+- [08:18] pick a Google cloud project. So you all
+- [08:22] have probably Gmail ID using that you
+- [08:24] log in and create a Google cloud
+- [08:26] project. Okay. So just Google Google
+- [08:28] cloud project and go to the projects
+- [08:30] page and here you can create a project
+- [08:34] okay you can create a project it might
+- [08:37] ask you for billing details it won't
+- [08:38] charge you money I think it has certain
+- [08:40] free limits so don't worry and once you
+- [08:43] have created that project when you say
+- [08:44] create API key you will select that
+- [08:47] project and then it will generate the
+- [08:49] API key in that project and you will
+- [08:52] save that API key for your usage in in
+- [08:56] this crew AI tutorial Let's do project
+- [08:58] setup. I am in my command prompt. I
+- [09:00] usually store my code in C code
+- [09:01] directory. Here I will say UV in it and
+- [09:05] name of the folder. It can be anything.
+- [09:07] I will say let's say crew AI tutorial.
+- [09:11] Okay. And see it created that project.
+- [09:15] So here if you look at crew AI tutorial,
+- [09:18] it created the basic skeleton which I'm
+- [09:20] going to open in my PyCharm. So PyCharm
+- [09:22] is open. Uh we have different project
+- [09:25] open right now. But let me just say open
+- [09:28] and see core crew AI tutorial. Right. So
+- [09:33] select a folder and open it in a new
+- [09:37] window. A quick shout out to Bright Data
+- [09:39] for sponsoring this video. In agent AI
+- [09:41] systems, data is everything but
+- [09:43] accessing data on web can be
+- [09:44] challenging. IP blogs, dynamic pages,
+- [09:47] capt. That's where bright data MCP comes
+- [09:50] in. Their MCP empowers your AI agents to
+- [09:53] discover content on the web, access
+- [09:55] complex or protected websites, extract
+- [09:58] realtime structured data, interact with
+- [10:00] JavaScript heavy pages just like a human
+- [10:02] would. There MCP unlocks the web and
+- [10:05] dynamically select the best part to
+- [10:08] collect the data that you need. If
+- [10:09] you're building with QAI, Bride Data is
+- [10:11] a perfect data engine for your agents.
+- [10:14] find a direct link of their MCP on
+- [10:16] GitHub and get $15 credit and start
+- [10:19] building today. Links are given in the
+- [10:21] video description below. Back to the
+- [10:23] course now. So, let me move this thing
+- [10:26] on side
+- [10:28] and here you can see the empty project.
+- [10:33] Okay, so it created the virtual
+- [10:35] environment. It also has this pi project
+- [10:38] toml file. Okay. So the way it works is
+- [10:40] if you want to install any new package,
+- [10:44] usually you do like pip install
+- [10:46] something, right? But here you will do
+- [10:49] let's say UV add crew
+- [10:53] AI tools. So we are going to use this
+- [10:57] module crew AI tools for later usage. So
+- [11:00] I'll just say UV add and see it is Rust
+- [11:03] based framework. It is so fast. So it
+- [11:05] will resolve all the dependencies and it
+- [11:08] will add all those packages in your
+- [11:11] local environment. So that virtual
+- [11:12] environment that you you're seeing see
+- [11:14] it added all of this and it also updated
+- [11:16] this pi project toml file. See I did not
+- [11:18] update it automatically updated it and
+- [11:20] it has added now if you look at it see
+- [11:23] all this package are kind of added and
+- [11:26] you can see them in UV just in case if
+- [11:28] you are curious right in uv.log log file
+- [11:31] you will be able to see all those uh
+- [11:34] packages. Okay, you also need to
+- [11:37] configure your interpreter. So here um
+- [11:42] for this project okay let me just open I
+- [11:47] think here it's indexing uh you you see
+- [11:49] it is kind of indexing everything and
+- [11:51] you will get a chance to configure your
+- [11:54] interpreter here. One thing you want to
+- [11:56] make sure is that your Python
+- [11:57] interpreter is from this v environment
+- [12:00] directory here. If you go to scripts,
+- [12:03] you will see a file called python.exe
+- [12:06] and that should be your current
+- [12:07] interpreter. So if you go to settings
+- [12:09] here and if you just type python
+- [12:12] interpreter here, you see I have that
+- [12:14] particular file. If you expand this,
+- [12:16] this is crew tutorial v environment
+- [12:19] scripts python.exe. And if that is not
+- [12:22] the case, you can add a local
+- [12:23] interpreter and you can add it there.
+- [12:25] Okay. By default, it will do it
+- [12:26] automatically, I'm assuming. Now, we are
+- [12:29] going to build our first agent. So,
+- [12:32] let's create a Jupyter notebook here.
+- [12:35] And we will build an agent that can help
+- [12:38] you uh write better professional emails.
+- [12:42] Okay. So, we'll call it email agent.
+- [12:46] And here you will uh use Gemini API key.
+- [12:50] So you need to create this dot
+- [12:51] environment file. So just right click
+- [12:54] save file and just say dot environment.
+- [12:57] Okay. And when you have created that
+- [12:59] file you will specify your Gemini API
+- [13:02] key. So whatever your key is just copy
+- [13:04] paste it here. And then to load that API
+- [13:06] key you will use the environment Python
+- [13:09] module. So from
+- [13:12] dot environment
+- [13:14] import load dot environment and just
+- [13:17] call that function. Okay. and control
+- [13:19] hit enter and it will run it. Then you
+- [13:21] will import lm. So from crew AI import
+- [13:26] lm. Let's just do basic testing if you
+- [13:28] are able to call simple llm here or not.
+- [13:32] So this llm is going to be let me just
+- [13:35] copy paste code to save some time here.
+- [13:38] So you're using gemini model temperature
+- [13:41] is that creativity parameter and you're
+- [13:43] asking simple question okay who invented
+- [13:46] transcendental meditation? Now I have
+- [13:48] seen that the first call usually takes
+- [13:51] long time. I don't know what is the
+- [13:53] reason but if it takes even like 20 30
+- [13:56] seconds just just have patience and see
+- [13:59] our basic setup of API key etc is okay
+- [14:02] because you are able to call Gemini and
+- [14:04] get the answer. Now let's use crew AI to
+- [14:07] build an agent. So from crew AI you will
+- [14:10] import agent you will also import task
+- [14:15] and crew. So in crew you have to always
+- [14:19] create the crew. You can't just build an
+- [14:22] agent and run it. Okay. So that's the
+- [14:24] design of this uh particular framework
+- [14:28] and the email assistant. Okay. I will
+- [14:31] call it email assistant agent.
+- [14:34] So this expects couple of parameter.
+- [14:37] First one is role. Okay.
+- [14:40] Then comes the goal like what is the
+- [14:43] goal of this email assistant? And then
+- [14:47] comes backstory.
+- [14:49] Okay. Now you might have noticed in
+- [14:51] order to use chat GPT effectively
+- [14:53] sometimes you give backtory that hey you
+- [14:56] are an experienced mental therapist help
+- [14:58] me with this question. Hey you are an
+- [15:00] experienced data analyst help with this
+- [15:02] question. Okay. So you specify all those
+- [15:04] parameters here. So you'll say a highly
+- [15:08] experienced communication expert skilled
+- [15:11] in professional email writing. The goal
+- [15:14] is to improve emails and make them sound
+- [15:16] professional and clear. Okay. So this is
+- [15:18] your prompt engineering part folks. By
+- [15:20] providing these three parameters you're
+- [15:22] giving lot of details what role it
+- [15:25] should assume, what is the goal of this
+- [15:28] particular agent and what is their
+- [15:30] context that their backstory. You're
+- [15:31] specifying all of that. Okay. and then
+- [15:34] verbose true which means it will show
+- [15:36] you the detail calls and llm we are
+- [15:38] using this llm object that we created
+- [15:41] here. Okay. So this is how you create an
+- [15:44] email assistant. Now let's say you have
+- [15:47] this particular email that you want to
+- [15:49] improve. See this is very rough email.
+- [15:51] Hey team just wanted to tell you you see
+- [15:54] it's like rough email even everything is
+- [15:56] in a small case and and there are
+- [15:59] abbreviation like okay WIP
+- [16:02] you can't send this kind of email to
+- [16:04] your client so you have to add some
+- [16:07] professionalism to this email and for
+- [16:09] this you're going to specify a task now
+- [16:13] okay so first you specify agent then you
+- [16:16] specify task then you specify your crew
+- [16:20] so email task. Let me just create
+- [16:22] directly here. So you're using this task
+- [16:24] object and here uh okay here you will
+- [16:31] specify what agent. So for this task you
+- [16:34] want to use the email agent that you
+- [16:35] created and the description is that take
+- [16:38] the following rough email and rewrite it
+- [16:40] in a professional and polished version
+- [16:43] and also expand abbreviation. You can
+- [16:45] give extra instructions like wip is work
+- [16:48] in progress. Okay. And you're using
+- [16:50] Python format string. So you are
+- [16:51] specifying the actual email as well. And
+- [16:54] expected output says that a professional
+- [16:56] written output. So this is the
+- [16:57] instruction on what kind of output.
+- [17:00] Sometimes you want output to be in a
+- [17:01] JSON format in a table format. Okay. So
+- [17:04] that's just the expected uh output
+- [17:07] instruction. Once the task is specified,
+- [17:11] you will create a crew. You will say
+- [17:14] okay this is my crew.
+- [17:17] And see a crew can have multiple agents.
+- [17:20] Right now we have only one agent which
+- [17:22] is this which is fine. And then you will
+- [17:26] specify task. You can have multiple task
+- [17:29] by the way. You know you can have
+- [17:31] multiple task 1 2 3. If you want to do
+- [17:33] it in sequence you specify task one task
+- [17:35] two etc. In our case just one task. So
+- [17:40] let's specify that. And verbose is true
+- [17:42] which means it will print more output.
+- [17:45] And then you will just say crew dot
+- [17:49] kickoff
+- [17:53] and whatever result you are getting
+- [17:57] you will print the result. Okay. So
+- [17:59] let's run this cell. So see it started
+- [18:02] the execution and the task is this.
+- [18:05] Okay. And here is the final answer. Look
+- [18:09] at this email looks much more
+- [18:10] professional. Dear team, I'm writing
+- [18:13] whatever and it expanded on WIP
+- [18:16] abbreviation. Okay, work in progress.
+- [18:18] See, we gave that instruction remember
+- [18:21] expand abbreviation. So, it did that.
+- [18:24] Okay, so task completion
+- [18:26] and this is the output. All right,
+- [18:29] hooray. We just created our first basic
+- [18:33] agent in Crew AI. Now, let's add tool
+- [18:36] usage in this agent. The agent is
+- [18:39] working fine for common abbreviations
+- [18:41] like this. But sometimes you have
+- [18:45] company specific abbreviation. We have
+- [18:47] this AI services company called Atlique
+- [18:49] Technologies. And in my company uh we
+- [18:52] have different teams, different client
+- [18:54] projects and per project or per
+- [18:58] technical architecture there might be
+- [18:59] abbreviation that people use such as TAS
+- [19:03] technical architecture ST DBX you know
+- [19:06] all these abbreviations are very private
+- [19:09] to this organization. So general LLM
+- [19:11] which is trained on internet data will
+- [19:13] not have any idea on uh what this means.
+- [19:17] So let's say if you have an email that
+- [19:21] looks something like this. So original
+- [19:22] email is looping in Priya TS and PRX
+- [19:25] updates are in the DAC ETA whatever. I
+- [19:28] mean if you want to expand it you have
+- [19:30] to provide this company specific
+- [19:32] abbreviations uh as a tool to your LLM.
+- [19:36] So we are going to build that custom
+- [19:38] tool. Okay. So just copy paste Ctrl Ctrl
+- [19:41] + V uh this particular notebook and
+- [19:45] let's call it
+- [19:47] email agent with tool
+- [19:51] and here I'll just run this code I think
+- [19:55] this cell is not needed so let's delete
+- [19:57] it and the original email here will be
+- [20:01] this
+- [20:04] okay so this is the email well we need
+- [20:08] that LLM code actually. So here I'm
+- [20:11] going to add
+- [20:15] in the code I will add this. So let's
+- [20:18] create an LLM at least. And once LLM is
+- [20:21] created, you are creating email
+- [20:23] assistant.
+- [20:24] Then you have email task and so on. Now
+- [20:26] let me take this email into a cell here
+- [20:31] and I'm going to build a tool. Okay. So
+- [20:36] we have to build a custom tool because
+- [20:38] readyate tool cannot be used here. So
+- [20:40] from crew AI
+- [20:44] import
+- [20:45] something called base tool. Actually
+- [20:47] it's from crew AI dot tools. Okay. And
+- [20:52] you are creating a class which is
+- [20:55] basically replacing your jargon. You
+- [20:56] know all these abbreviations are jargon.
+- [20:58] And even Elon Musk I think once he sent
+- [21:01] an email to all his Tesla employees that
+- [21:02] don't use jargon. Don't use abbreviation
+- [21:05] try to expand it. So in that spirit we
+- [21:08] are creating a replace jargon tool which
+- [21:12] is derived based from a base tool. So
+- [21:15] this is how you create a tool that can
+- [21:19] replace all those jargon and in this you
+- [21:22] have to provide a name of the tool
+- [21:24] right. So name and if you want to
+- [21:26] provide type in you can just say str
+- [21:29] then description which is replace jargon
+- [21:32] with more specific items and here you
+- [21:35] can see that see it it is autocomp
+- [21:36] completing because of the AI assistant
+- [21:39] that you have. So here if you not
+- [21:42] enabled AI assistant you can click and
+- [21:44] enable it you get uh 1 month free by
+- [21:47] default. Okay. So in the tool that I'm
+- [21:50] creating, we will have name description
+- [21:53] and we will have a function called run.
+- [21:57] Okay. So you are taking the body of the
+- [22:00] email as as an input and the output.
+- [22:04] This is how you specify the output
+- [22:06] string, right? The other uh string, the
+- [22:09] formatted email. So the jargon that we
+- [22:12] have, I'm going to specify them as this
+- [22:15] dictionary. Okay. So in this dictionary
+- [22:19] you have the expansion of all the jargon
+- [22:22] and I'm I'll just copy paste the code
+- [22:24] folks. So I I'll just say okay in the
+- [22:28] email essentially what you're doing is
+- [22:30] you're converting email to lower case
+- [22:32] and then uh in the email whenever you
+- [22:35] are finding that particular jargon you
+- [22:38] are just replacing you're saying
+- [22:40] consider replacing this jargon with this
+- [22:42] replacement. Okay. So it's a simple for
+- [22:45] loop that we wrote. And in order to test
+- [22:48] this uh what you can do is uh let's
+- [22:53] create
+- [22:58] the jargon tool
+- [23:01] and then JT dot I think you you can just
+- [23:04] say JT.
+- [23:06] And original email.
+- [23:08] Okay. Just I'm just testing the tool
+- [23:10] before I use it in my agent. So let's
+- [23:14] execute this cell. Control enter.
+- [23:18] See here it is saying consider replacing
+- [23:21] PRX with this. Consider replacing TAS
+- [23:24] with this. So the tool is working. Okay.
+- [23:27] And now all you need to do is specify
+- [23:30] the tool in your email assistant. You
+- [23:33] can specify it in task also. But here
+- [23:37] there is an argument called tools. And
+- [23:40] in tools you will specify JT because
+- [23:42] that is your uh tool. Okay. So take the
+- [23:46] following. I think we are good to go
+- [23:48] now. We can run this code. So once again
+- [23:51] we are taking professional email writing
+- [23:53] help and we want to improve this email
+- [23:56] and we are using all this abbreviation
+- [23:59] expansion which is very specific private
+- [24:01] data to my organization.
+- [24:03] All right let's see. So it is running
+- [24:06] and look at this agent tool execution.
+- [24:09] So when it realize that it needs to use
+- [24:12] this tool, it will use it. So it will
+- [24:15] use its sense of judgment. It's not like
+- [24:16] it uses this tool all the time. It knows
+- [24:19] that now I'm expanding this email and
+- [24:22] there are abbreviation and for
+- [24:24] abbreviations I can take help of this
+- [24:26] particular tool. So it calls that
+- [24:29] particular tool and see this is the tool
+- [24:33] input. So tool input is the email tool
+- [24:36] output is this. So now you got this text
+- [24:39] uh as an output from tool. That text
+- [24:42] goes back to your LLM and LLM will use
+- [24:46] that help to formalize the email. Okay.
+- [24:50] So see it will look something like this.
+- [24:54] So you have your
+- [24:57] uh LLM here correct? So this is your LLM
+- [25:01] and LLM is having access to this jargon
+- [25:05] tool. Right? So this is jargon tool.
+- [25:09] Now when you provide this email
+- [25:13] it will say okay T means this WIP means
+- [25:17] this etc. And LLM will take this input
+- [25:21] and it will use it to write a
+- [25:24] professional email. It's not like it's
+- [25:26] just copy pasting dumping it here. LLM
+- [25:28] is smart. So it is consuming it and
+- [25:31] understanding it and then writing the
+- [25:33] email. Okay. So this is the output it
+- [25:35] got and then now look at the final email
+- [25:39] including Priya in this email updates on
+- [25:41] technical architecture stack and project
+- [25:43] phonics. See what was my original email?
+- [25:46] Well my original email this TAS and PRX
+- [25:50] but it expanded it to that. So just
+- [25:54] folks run it. This is so beautiful. We
+- [25:57] just created our own custom tool by
+- [26:02] following this. Now this is the
+- [26:03] convention that they have right you have
+- [26:05] to derive a class based on base tool and
+- [26:09] then you need to have the name
+- [26:11] description and run is the main function
+- [26:13] that it will execute while making that
+- [26:15] tool call. Let us now work on building
+- [26:17] multiple agents and a crew. The problem
+- [26:20] statement we are going to look at is say
+- [26:24] you are writing a blog. Okay. Usually
+- [26:27] what happens is there is one person who
+- [26:30] is a researcher.
+- [26:32] So let's say there is this person who is
+- [26:34] a researcher. So they will go to
+- [26:37] internet okay internet do all the
+- [26:40] research and let's say the topic on
+- [26:42] which you are writing a blog is the
+- [26:44] future of EV vehicles okay future of EV
+- [26:50] vehicles.
+- [26:51] So let's say you are in Times of India,
+- [26:54] CNN, you are writing this blog. Usually
+- [26:57] in that company there will be a
+- [26:59] researcher who will go through internet,
+- [27:01] who will go through some private
+- [27:03] sources, who will interview people and
+- [27:05] get all the research done. So they will
+- [27:08] have all the research document. Let's
+- [27:11] say they create this research document.
+- [27:13] Then there is a second person who is a
+- [27:16] creative writer. So they will consume
+- [27:19] all this row research and write a very
+- [27:22] beautiful article you know beautiful
+- [27:26] user consumable article. So we are going
+- [27:29] to create one agent for researcher one
+- [27:31] agent for writer then this will be a
+- [27:34] crew. Okay. So my crew will be my
+- [27:38] research agent and creative writer and
+- [27:41] then we will give it a topic and it will
+- [27:43] write a blog. So let's create a Jupyter
+- [27:47] notebook here and let's say you call it
+- [27:51] a crew and here I will do some copy
+- [27:55] paste business because copy paste is the
+- [27:59] very very powerful skill or a weapon
+- [28:03] that you can have and uh okay use same
+- [28:06] Gemini model and then from crew this is
+- [28:10] like pretty much same agent task and
+- [28:14] crew from crew AI right you're importing
+- [28:19] this and just to save one time I will
+- [28:22] just do copy paste here so the first
+- [28:24] agent is research specialist you provide
+- [28:27] it goal okay research interesting facts
+- [28:30] about the topic and when you want topic
+- [28:33] to be dynamic you specify in a angle
+- [28:36] bracket like this and when you do crew
+- [28:38] do kickoff to give the actual task at
+- [28:41] that time you'll be able to specify the
+- [28:42] topic we will see how it works Okay,
+- [28:45] remaining things are kind of same. Then
+- [28:47] the writer agent, you are specifying
+- [28:49] these three things are important
+- [28:50] basically. Okay, you are creative
+- [28:52] writer, writer s blog, whatever you are
+- [28:54] skilled at writing this. Okay, so let's
+- [28:56] execute this. This is done. Now you
+- [28:59] specify your task. So you have two
+- [29:01] tasks, right? One is research task which
+- [29:02] you'll give to research agent. Second
+- [29:05] one is creative writing task which you
+- [29:07] will give it to uh creative writer. So
+- [29:09] let's uh do those tasks. So task one
+- [29:12] description find three to five
+- [29:14] interesting articles about this a bullet
+- [29:17] list of three to five facts. So you're
+- [29:20] just getting a bullet list of facts and
+- [29:22] then you're writing a 100word blog post
+- [29:24] about whatever and see here agent is
+- [29:27] research agent. Okay, here is agent is
+- [29:31] writer agent and in the context you can
+- [29:33] specify task one. So for context
+- [29:36] basically task two is dependent on task
+- [29:38] one. So that's why you are specifying
+- [29:39] this as a context and then crew is going
+- [29:43] to be the crew. You you notice that yeah
+- [29:47] assistant it just completed it knew what
+- [29:49] what I need to type in and it just did
+- [29:51] it for me. And then crew dot kickoff.
+- [29:57] Now here in the inputs you can specify a
+- [30:00] dictionary where you can say what is the
+- [30:03] topic
+- [30:05] and the topic is the future of uh
+- [30:08] electrical vehicles. So let's say
+- [30:11] control enter and run it. So agent
+- [30:13] started see research specialist it is
+- [30:15] running and it is finding the 3 to five
+- [30:17] interesting facts. So it found
+- [30:20] interesting facts based on his
+- [30:21] pre-trained knowledge. So you see data
+- [30:23] from 2023 2022 we are in 2025 by the way
+- [30:28] but we understand it doesn't have access
+- [30:30] to internet so whatever it is doing is
+- [30:32] is okay I mean it is up to our
+- [30:34] expectation and then it found five
+- [30:36] effects right 1 2 3 4 5 and that it will
+- [30:39] give it to the second agent which is
+- [30:40] creative writer and creative writer is
+- [30:44] writing 100 word blog out of it see so
+- [30:49] this is the
+- [30:51] final answer So this is the blog that
+- [30:54] you got. But as I said the problem here
+- [30:56] is uh we don't have the latest internet
+- [31:02] data
+- [31:04] and for that we can use one of the
+- [31:06] readym made tools in crew AI. Giving
+- [31:08] your crew an access to internet is
+- [31:11] actually very easy. Crew AI comes up
+- [31:14] with lot of readymade tools. Okay. Okay.
+- [31:16] So if you click on available QBI tools,
+- [31:18] see these are all the tools that it has
+- [31:22] and it has this ser dev tool which is um
+- [31:27] going to help it search the internet.
+- [31:30] Okay. So we are going to use that
+- [31:33] particular tool. So we just just just
+- [31:35] copy paste this code. But before that,
+- [31:37] let me just copy paste copy and create a
+- [31:40] copy of this and call it uh crew with
+- [31:46] with tools.
+- [31:48] Okay. And here we are going to import
+- [31:53] from crew AI tools serpool.
+- [31:58] Okay. Now, okay. Serper.
+- [32:02] So Serper is a platform that allows you
+- [32:05] to do Google search. So you need to get
+- [32:07] the API key for that. So just say serp
+- [32:12] I'm going to sign in with my Google
+- [32:14] account and they provide a certain
+- [32:17] access basically. So I created my own
+- [32:20] API key here. So just just create an API
+- [32:23] key and copy paste this key into your
+- [32:25] environment file. All right. So in your
+- [32:27] environment file you will say server API
+- [32:29] key. You mention your key here. your key
+- [32:32] whatever the key and Gemini API key is
+- [32:34] also your key. Okay, once this is done,
+- [32:37] you want to provide access of this to
+- [32:39] your research agent, right? Because
+- [32:40] research agent is searching the
+- [32:43] internet. So, tools serv tool. Okay, now
+- [32:47] let's run the code and see what happens.
+- [32:49] So, control entertrl
+- [32:51] entertuning.
+- [32:59] So here maybe in the description I will
+- [33:01] say uh find interesting recent facts uh
+- [33:04] as of the year 2025. Okay. So let me uh
+- [33:10] do this now. And you see now agent tool
+- [33:14] execution it is searching the internet
+- [33:16] with server. So that is what I wanted
+- [33:18] that it should search the internet and
+- [33:20] in the tool output it is finding all
+- [33:22] these parameters. See uh it is going
+- [33:24] through internet and it is looking at
+- [33:26] some articles. So let's say look at this
+- [33:28] particular article. Okay. So if you look
+- [33:30] at this particular article, it is just
+- [33:32] doing Google search and this article is
+- [33:37] June 2025, right? It's like I think last
+- [33:39] month only right now in July June. So
+- [33:42] it's going through internet scrapping
+- [33:44] internet
+- [33:46] scrapping all those articles and
+- [33:48] providing this tool output to LLM. Now
+- [33:52] llm in our crew see the the execution is
+- [33:56] something like this. Let me just uh show
+- [33:59] you. So you have your research agent
+- [34:03] right? So you have your
+- [34:06] research
+- [34:08] agent. It is accessing internet and
+- [34:11] serer tool is giving it some kind of
+- [34:15] block text block with all the latest
+- [34:17] article. Okay. then it will consume it
+- [34:22] and it will process it and it will pass
+- [34:24] that processed information
+- [34:26] back to the second agent which is writer
+- [34:32] agent. Now writer has all that latest
+- [34:34] information and it will be able to write
+- [34:37] a beautiful blog. Okay. So here this
+- [34:41] tool output is here. It went to your
+- [34:44] research specialist and the final answer
+- [34:48] is this. I think the and so see this is
+- [34:51] the final answer from research
+- [34:54] specialist. So it is this this
+- [34:57] particular block. It is not the final
+- [34:59] final answer. Okay. Is it agent's final
+- [35:01] answer? Then it gives it to the second
+- [35:04] agent which is creative writer and
+- [35:07] creative writer will write. Okay. The
+- [35:10] electric exchange with see 10.49 keer
+- [35:14] 16.2 say 16.2 all that information that
+- [35:18] research agent accumulated it is using
+- [35:21] it to write the final blog. How cool is
+- [35:24] that right? So just access a crew AI for
+- [35:27] all the available tools here and it
+- [35:30] makes writing agents uh so easy. Let's
+- [35:33] think what can make a tool a good tool.
+- [35:37] So in order for tool to be a good tool,
+- [35:42] it should use caching whenever needed.
+- [35:46] So let's say you have an LLM,
+- [35:48] it is calling a tool and this tool is
+- [35:51] retrieving records from a database. Now
+- [35:54] let's say if this records are static, if
+- [35:57] it can use some cache like a radius
+- [36:00] cache or something, then it doesn't have
+- [36:03] to hit the database or API too often. So
+- [36:06] that way performance can be improved.
+- [36:08] Okay. So caching is one good quality of
+- [36:11] a tool. Second, it should be fault
+- [36:14] tolerant. Fall tolerant means let's say
+- [36:17] it doesn't have access to this database.
+- [36:19] It should know where to fall back. It
+- [36:23] should have some good error handling.
+- [36:25] Okay. Let's say it goes to some backup
+- [36:27] database and and gives you the records.
+- [36:30] It should have some retry mechanism. It
+- [36:32] should not be like okay it just crashes
+- [36:35] or it just gives like a random error
+- [36:37] response. Third thing it should be
+- [36:39] versatile. Versatile as in LLM gives
+- [36:42] input in different formats you know in
+- [36:44] challenging formats. Tool should be able
+- [36:46] to handle those. So whoever is writing
+- [36:49] the tool you have to take care of all
+- [36:52] these parameters. Then the question
+- [36:54] comes okay what makes an agent a good
+- [36:58] agent right? So
+- [37:01] if you want to build a good agent then
+- [37:06] the first thing is role play. See we are
+- [37:09] specifying this roleplay parameter. So
+- [37:12] now you can say okay you are an expert
+- [37:15] analyst. You can say you are a data
+- [37:18] analyst. See let's say you're doing some
+- [37:20] data analysis task.
+- [37:22] You can say you are a data analyst or
+- [37:24] you can say you are a senior data
+- [37:26] analyst with expertise in PowerBI.
+- [37:30] See these two things will make a big
+- [37:32] difference actually because you are
+- [37:34] setting the context right. You are
+- [37:36] asking it to assume a certain role.
+- [37:39] Second thing is which makes agents
+- [37:42] powerful and capable is tools. Once you
+- [37:44] provide it an access of tools which
+- [37:47] satisfies those three criterias that we
+- [37:49] specified agents become more powerful.
+- [37:53] Then comes memory. Okay. Memory is like
+- [37:55] you are having chat GPD like
+- [37:56] conversation. It's able to remember like
+- [37:58] short-term memory, long-term memory.
+- [38:00] That makes tool more powerful because it
+- [38:03] knows the context. It knows your
+- [38:04] preference. It knows you know what you
+- [38:06] have asked before. Then guard rails. So
+- [38:10] agents are like monkeys. You can't give
+- [38:12] them a password of your bank. You have
+- [38:14] to put certain guardies. Okay. So let's
+- [38:16] say if this is my agent, it needs to
+- [38:19] have certain boundary. It can manure
+- [38:22] around in this boundaries but it should
+- [38:24] not be able to go out. So those guard
+- [38:26] rails we need to uh specify. And then
+- [38:30] comes collaboration. Okay. See crew AI
+- [38:32] is a orchestration framework. They
+- [38:34] encourage creating multiple agents. Each
+- [38:37] agent focusing on a specific task.
+- [38:40] Therefore, if you can collaborate well
+- [38:41] with other agents, overall output is
+- [38:44] going to be better. So, these are the
+- [38:46] five characteristics
+- [38:48] uh that makes any agent a good agent.
+- [38:50] Okay. Now, so far you might have
+- [38:53] realized when we write this code, there
+- [38:56] is lot of prompt engineering. See, we
+- [38:59] are providing all these instructions,
+- [39:00] right? Ro, goal, backstory. Then in the
+- [39:03] task also description expect there is
+- [39:06] lot of text lot of instructions lot of
+- [39:08] guiding that you're doing for LLM
+- [39:11] wouldn't it be uh good if we can specify
+- [39:16] see if you can move all these
+- [39:18] instructions out of this code into some
+- [39:20] configuration file and then code is just
+- [39:22] writing code code should not have all
+- [39:24] this prompt engineering so if you move
+- [39:26] it in a different file the benefit you
+- [39:28] get it is whenever you want to change
+- [39:30] your prompt you change it from that file
+- [39:32] you you don't have to modify your code
+- [39:34] and that way you're doing loose coupling
+- [39:36] which will be creating less bugs in the
+- [39:38] future. Luckily, Crew AI provides an
+- [39:41] amazing way of specifying all these uh
+- [39:45] instructions in a YAML file. Okay, so
+- [39:48] the way it works is you create a
+- [39:50] directory. Okay, let's call it config.
+- [39:53] In that you create a file called
+- [39:57] agentsy.
+- [40:00] YL is a file format by the way. uh if
+- [40:02] you have done programming you'll know
+- [40:04] and then you can also create another
+- [40:06] file called tasksy
+- [40:10] and here essentially I I'll just copy
+- [40:13] paste you'll understand what I mean here
+- [40:15] see research agent whatever you are
+- [40:17] doing in research agent you specify all
+- [40:20] of that in this format so research agent
+- [40:23] is an agent colon then in the second one
+- [40:26] you specify which llm you want to use
+- [40:28] right so see here we were specifying llm
+- [40:31] here but in agents you just specify it
+- [40:35] here then roll so these are same
+- [40:37] instruction folks so ro whatever I have
+- [40:39] here is the same thing then goal this
+- [40:42] exact same thing I have here okay same
+- [40:46] way for writer agent and then for taskl
+- [40:50] again same thing see in task what were
+- [40:53] you specifying you were specifying
+- [40:55] description and expected output and the
+- [40:57] agent so here see description same thing
+- [41:01] expected output an agent will specify
+- [41:03] while we write the code. So now I'm
+- [41:06] going to create a new I'll create a
+- [41:09] regular file Python file and call it um
+- [41:13] let's say just YAML okay for the lake of
+- [41:16] uh better words
+- [41:18] and in this code u you will specify
+- [41:24] you will just import all this code right
+- [41:26] like crewi import this then crewi.
+- [41:30] We need this crew base class to
+- [41:33] read that YAML configuration
+- [41:36] and then from the tools you can import
+- [41:38] whatever tool is needed. Now here you
+- [41:41] will say at crew basease.
+- [41:44] So you are deriving a class from this
+- [41:46] crew base and you will say class blog
+- [41:52] crew and you will create class level of
+- [41:55] variables to declare agent config. So
+- [41:58] agent config is inside config directory
+- [42:00] agent.mml. Okay, this is the syntax
+- [42:03] folks. And then whatever agent you are
+- [42:05] creating you will annotate it with
+- [42:07] agent. Okay. So what is this agent?
+- [42:10] Well, this is researcher and the output
+- [42:14] of that is agent. Okay. So return agent
+- [42:18] and then you will specify your config
+- [42:21] file. So here the config is self dot
+- [42:24] aents config. Correct? self do.config.
+- [42:27] agents config and here you will specify
+- [42:31] the name of your research agent. Now if
+- [42:34] you're a Python programmer you'll be
+- [42:35] like okay this is an error because
+- [42:36] self.agentconfig Agent config is a
+- [42:38] string in that string you can't treat it
+- [42:42] like dictionary right and because of
+- [42:44] this annotations and because of the way
+- [42:47] this thing is designed this is going to
+- [42:48] work now there is an error uh that it is
+- [42:51] pointing and if you want to remove the
+- [42:52] error you can just put this so that way
+- [42:54] that error is gone but trust me this
+- [42:56] code is going to work okay and for the
+- [42:58] tools you are specifying servo tool and
+- [43:02] llm I think I you don't need to specify
+- [43:04] because because of this config See you
+- [43:07] specified llm here. So when you do this
+- [43:10] it will kind of get it. I think you can
+- [43:12] specify tools also but anyways I'm just
+- [43:15] feeling lazy not to move it there. And
+- [43:18] verbose is equal to true. Okay in
+- [43:21] similar fashion you can also write your
+- [43:24] other agent. Okay. So let's say that is
+- [43:28] your writer agent and in the agent
+- [43:30] config this writer agent is nothing but
+- [43:32] this.
+- [43:35] Similarly, specify the task as well. So,
+- [43:38] let me just specify the task
+- [43:44] research task, right? And it returns
+- [43:49] the task
+- [43:53] and the config is equal to self dot
+- [43:58] task config. And what is the task for
+- [44:02] research?
+- [44:03] Well, it is this task and your agent
+- [44:08] is self dot researcher. Make sure you're
+- [44:11] putting this brackets. Okay. So, and to
+- [44:15] remove this
+- [44:18] this this kind of you know error like
+- [44:21] when you put it you see this there was
+- [44:23] like a line uh which went away. Okay.
+- [44:27] Research task and block task you can
+- [44:29] specify in a similar fashion. Okay. Now
+- [44:34] you can specify your crew.
+- [44:37] So this is my crew and crew is nothing
+- [44:39] but you have two agents researcher and
+- [44:42] writer and you have two tasks research
+- [44:44] task and this task. Okay. Now
+- [44:48] let's do our main function. So blog crew
+- [44:52] is this and blog crew dot crew. Okay dot
+- [44:57] crew should be this dot kickoff. In the
+- [45:01] kickoff you will have inputs which is
+- [45:05] nothing but a topic and your topic is
+- [45:10] uh not Python the future of
+- [45:15] electrical
+- [45:16] vehicle. Okay. So let's right click run
+- [45:19] this.
+- [45:21] See it started and it called the tool.
+- [45:26] the tool or return the response
+- [45:30] and
+- [45:31] then there's a tool output that might
+- [45:34] take multiple return as well and a
+- [45:37] resource specialist final answer is this
+- [45:40] then it will start creative writer and
+- [45:43] then agent's final answer is this see it
+- [45:47] wrote this blog so essentially a coding
+- [45:50] wise see the final outcome is same it's
+- [45:53] just that we moved all that prompt
+- [45:56] engineering stuff into our sort of like
+- [45:59] configuration file. So tomorrow, let's
+- [46:01] say if you want to change this model,
+- [46:03] you just change it here. You don't have
+- [46:04] to update your code. And if you're done
+- [46:07] programming, you will know that when you
+- [46:10] do loose coupling like this where you're
+- [46:12] keeping instructions and configureration
+- [46:14] in a separate file and you're not
+- [46:17] modifying a code, you will have less
+- [46:20] bugs, more maintainable code. And this
+- [46:22] is the amazing beautiful feature that
+- [46:24] Crew AI offers. Folks, so far whatever
+- [46:27] we have learned, we will use it to build
+- [46:30] a complete project using Crew AI. Let's
+- [46:33] imagine you are a SAS company which has
+- [46:36] built this product called Autoheet IQ
+- [46:39] which is an AI powered Excel automation
+- [46:41] tool. Okay, so it's a new startup. They
+- [46:43] are building this AI powered Excel
+- [46:45] automation tool and you are part of
+- [46:47] their marketing team, marketing and
+- [46:49] social media team and you want to
+- [46:51] promote this product on social media,
+- [46:53] blogs etc because it's a new product so
+- [46:55] you want to create a buzz in social
+- [46:56] media so that you can sell your license.
+- [46:59] Now there is a similar company called
+- [47:01] quadratic and if you look at their
+- [47:03] LinkedIn they will be making LinkedIn
+- [47:04] post they will be making Twitter post
+- [47:08] they will be creating shorts reals you
+- [47:10] know nowadays if you want to promote
+- [47:11] your product you have to cover all kind
+- [47:14] of social media and as part of this plan
+- [47:17] you want to build a social media or
+- [47:20] let's say marketing strategy so a head
+- [47:23] of marketing who is working for this uh
+- [47:25] startup will conduct a market research
+- [47:28] okay who are the competitors,
+- [47:31] who is our target audience, you know,
+- [47:32] where we should post uh and then they
+- [47:35] will build a marketing strategy.
+- [47:36] Sometimes if you're targeting Zenzi uh
+- [47:39] youngsters, you you have to go to
+- [47:41] Twitter uh or I think Instagram and uh
+- [47:46] Tik Tok, if you are targeting let's say
+- [47:49] 45 plus age group, maybe you target
+- [47:51] Facebook. So you based on who is your
+- [47:54] target audience, you have to carefully
+- [47:57] design your marketing strategy and then
+- [47:59] you build something called a content
+- [48:01] calendar. Content calendar is nothing.
+- [48:03] It's a calendar of what kind of post you
+- [48:06] will make when. So let's say on 7:22 at
+- [48:08] 10 I will make a post on LinkedIn. This
+- [48:10] is the topic you know and these are the
+- [48:12] key themes. So you have to build this
+- [48:14] kind of content calendar. In my own
+- [48:16] company code basics we also do this. We
+- [48:19] do market research. We build a content
+- [48:21] calendar. Then we use tools to automate
+- [48:23] the content and this task is done by
+- [48:26] marketing head. So let's say in our auto
+- [48:28] sheet IQ company marketing head is
+- [48:31] Reena. Okay, this person is our
+- [48:33] marketing head. She will do market
+- [48:35] research. Then she will uh build a
+- [48:38] market strategy and then she will create
+- [48:41] content calendar using a help of some
+- [48:44] some of her team member and then you
+- [48:47] will uh post drafts on LinkedIn,
+- [48:50] Twitter, wherever you want to post it.
+- [48:52] Okay. And you will also create uh
+- [48:55] scripts for reals and shorts. Okay. And
+- [48:59] this is done by content writer. uh
+- [49:02] usually in companies I have seen there
+- [49:04] is a separate content writer for social
+- [49:06] media and a different content writer for
+- [49:08] blog because blog is like a long form
+- [49:10] content. Okay. So let's say uh here he's
+- [49:14] Tony. Tony is the content writer
+- [49:16] especially for social media. So he's
+- [49:19] taking care of posting drafts. He's
+- [49:21] taking care of this and he's also
+- [49:22] actually helping Reena with the content
+- [49:24] calendar. And then comes content
+- [49:26] research for blogs because blogs is
+- [49:29] needed for SEO. SEO means search engine
+- [49:32] optimization. If someone is searching AI
+- [49:34] powered Excel, uh you want Google to
+- [49:36] promote your product, right? And for
+- [49:38] that you have to write lot of blogs. If
+- [49:40] you worked in SEO, you will understand
+- [49:42] and then you will draft the blogs. Okay?
+- [49:45] So let's say this work is done by Nancy.
+- [49:48] Nancy is a content writers specifically
+- [49:51] for blogs. Eventually you want to do SEO
+- [49:55] optimization and usually for SEO you
+- [49:57] have a person. So let's say we have Vun
+- [50:00] who is SEO specialist working in our
+- [50:03] company and his job is to optimize all
+- [50:08] the content for SEO and one of the thing
+- [50:11] that they do is they do keyword
+- [50:13] optimization. So they will figure out
+- [50:14] okay for our product which keywords are
+- [50:18] in hot demand. They will look at Google
+- [50:20] trends they will use many other tools to
+- [50:22] figure out all these uh keywords right.
+- [50:25] So see all these keywords and they put
+- [50:28] these keywords in their website as part
+- [50:31] of their SEO optimization. So if someone
+- [50:33] is searching for let's say GPTXL maybe
+- [50:36] your our auto sheet IQ website will pop
+- [50:41] up. They sometimes use the competitor's
+- [50:43] name as well. So if you're competitor
+- [50:45] you put it so that when someone is
+- [50:47] searching for competitor actually your
+- [50:48] website shows up. So this is all part of
+- [50:50] the uh SEO science. So to summarize in
+- [50:55] our crew when we are building a crew we
+- [50:58] will have four agents right marketing
+- [50:59] head content writer for social media
+- [51:03] content writer for blog and SEO
+- [51:05] specialist and we are going to perform
+- [51:06] all these task in a sequence okay
+- [51:09] eventually we will generate the draft
+- [51:11] for different posts. So see we have
+- [51:14] draft for email campaign we have a
+- [51:16] Facebook post, Instagram post, LinkedIn.
+- [51:19] Folks this is going to be intense. We
+- [51:21] are going to generate lot of post and we
+- [51:23] will also generate some other things for
+- [51:25] example keyword.txt
+- [51:27] then market research marketing strategy.
+- [51:29] This is going to be amazing uh complete
+- [51:32] project. Uh so I hope you got an idea on
+- [51:35] the problem statement. Let's start
+- [51:36] coding now. Let's create a separate
+- [51:38] folder here for our project. We are
+- [51:42] going to call it marketing
+- [51:46] crew. In this folder, I will also create
+- [51:49] another folder called config where we
+- [51:53] will put our agents.ml and task.ml.
+- [51:57] Okay, so let's create agents.ml
+- [52:03] and also task.ml task.ml.
+- [52:08] Now I can go ahead and write all my
+- [52:12] prompt for next 15 minutes or 20 minutes
+- [52:15] in front of you or I can use the power
+- [52:17] of copy paste. Okay. So I'm going to
+- [52:20] save your time and use the power of copy
+- [52:23] paste. So here uh the agent is basically
+- [52:29] we have four agents right like these
+- [52:31] four agents that we talked about. Who
+- [52:33] are the four agents by the way? these
+- [52:36] four marketing head content writer for
+- [52:39] social media for blog and SEO
+- [52:42] specialist. So see head of marketing,
+- [52:44] content writer for social media, for
+- [52:46] blog and SEO specialist and rest of the
+- [52:49] things is something we have done before
+- [52:50] right you specify your LLM what is the
+- [52:52] role head of marketing goal lead the
+- [52:55] marketing team to achieve specific goals
+- [52:58] whatever blah blah blah long text and
+- [53:01] you are an experienced marketing
+- [53:02] professional with a track record of
+- [53:04] leading successful marketing campaign
+- [53:06] see all these prompts are going to
+- [53:08] matter because LLM will derive context
+- [53:10] it will assume this role Right? Use a
+- [53:13] head of marketing. So all these things
+- [53:15] that specify is going to make an impact
+- [53:17] on your final output. Then content
+- [53:20] creator for social media. Right? You can
+- [53:22] read through it folks. Uh and you can
+- [53:24] modify it. Okay. For SEO specialist you
+- [53:27] have optimized the blogs and content for
+- [53:29] search engine blah blah blah. And for
+- [53:32] task we are going to have 1 2 3 4 5 6 7
+- [53:37] eight different task folks. And once
+- [53:40] again I'm going to use the power of copy
+- [53:42] paste here. So the first task is market
+- [53:45] research. You see the market research.
+- [53:49] Okay. So what do you do in market
+- [53:50] research? Well conduct market research
+- [53:53] to identify trends, opportunities and
+- [53:55] challenges in the industry. Focus on
+- [53:57] customer needs, competitive strategies
+- [54:00] and market dynamics to inform marketing
+- [54:02] decisions. So this is how you can make
+- [54:05] your product name description dynamic.
+- [54:07] Okay. Here you have specified it sort of
+- [54:09] like a variable and also you will say
+- [54:12] current date in bracket current date. So
+- [54:16] it will perform market research as of
+- [54:19] the current date that you're running.
+- [54:20] And we will see in the code you know how
+- [54:22] you kind of tie these things together.
+- [54:25] Expected output is comprehensive market
+- [54:27] research report that includes this this
+- [54:29] this. Okay. Then you're building a
+- [54:31] marketing strategy for whatever product.
+- [54:35] And then you're building a content
+- [54:36] calendar. See here content calendar. And
+- [54:40] then you're preparing post draft and so
+- [54:42] on. Okay. So once again look through it.
+- [54:45] There is lot of text, lot of prompt
+- [54:47] engineering you have to do. Usually you
+- [54:49] will perform one task, run it, you will
+- [54:52] see it. But if I try to do that here,
+- [54:54] this is going to be 5 hour tutorial. So
+- [54:56] I'm just trying to save your time. Now
+- [54:59] let's create our crew.ai file. So crew
+- [55:04] dopy file. Okay. And here we'll do our
+- [55:08] initialization whatever we have done
+- [55:10] before. And here you can see that other
+- [55:12] than serp tool which is internet search
+- [55:15] we are importing some other tools also.
+- [55:17] Uh this tool scrap website tool will go
+- [55:19] and scrap any website. This will help
+- [55:22] you read a directory on your local disk.
+- [55:25] then this will help you read and write
+- [55:27] files etc. Okay,
+- [55:31] now let's create our crew class. So how
+- [55:35] do you create it? You have to derive it
+- [55:37] based on crew base, right? And then just
+- [55:40] specify your agents and taskm pretty uh
+- [55:45] obvious stuff. And then you specify your
+- [55:49] agent for your marketing manager, a head
+- [55:53] of marketing. So head of marketing is
+- [55:55] agents config head of marketing. So this
+- [55:58] thing is this right? Head of marketing
+- [56:01] this these strings should match and they
+- [56:05] are using Google because they have to do
+- [56:08] mark internet research. So they will use
+- [56:10] sererdev tool to search internet. Uh
+- [56:13] they will scrap websites. And then for
+- [56:15] directory read tool what we are going to
+- [56:17] do is see when this crew runs you will
+- [56:19] see a directory called resources. And
+- [56:22] resources will have another sub folder
+- [56:24] called drafts and those drafts will
+- [56:28] contain your LinkedIn post res and so
+- [56:31] on. Okay. So directory read tool helps
+- [56:34] you read that particular directory and
+- [56:37] file writer and file read tool will help
+- [56:38] you write and read files locally.
+- [56:42] Reasoning is equal to true which means
+- [56:43] it will act in a react like reasoning
+- [56:47] and action. Okay. And then inject that
+- [56:50] true means it will inject the current
+- [56:52] date. So see this current date that you
+- [56:54] are seeing it will inject that current
+- [56:57] date due to this parameter whether to
+- [56:59] automatically inject the current date
+- [57:01] into task. See that is the purpose of
+- [57:04] that particular parameter and reasoning
+- [57:06] is whether the engine should reflect and
+- [57:07] create a plan before executing the task.
+- [57:10] So when you run this crew what will
+- [57:11] happen is if reasoning is true it will
+- [57:14] first run the planning agent. So it will
+- [57:16] plan it will not just react. I mean this
+- [57:20] this term by the way is sometimes
+- [57:21] confusing. So let me explain. Um there
+- [57:24] are there are actually two terms. Uh
+- [57:27] reactive.
+- [57:29] See reactive is what? Reactive is
+- [57:33] let's say you're going and something
+- [57:35] comes up. You will just move your head.
+- [57:37] It's very reactive, right? You're not
+- [57:39] thinking much. Very natural instinct.
+- [57:41] Whereas react.
+- [57:44] So you're reasoning. Okay. Thinking and
+- [57:48] then acting. So you take a pause. You
+- [57:50] think let's say you want to get married.
+- [57:52] You don't you don't just say yes. You
+- [57:54] reason. You think and then you act. So
+- [57:56] for react you have to use this
+- [58:00] parameter. Allow delegation means this
+- [58:02] agent can give task to other. See you
+- [58:05] are head of marketing. You can give task
+- [58:06] to social media agent and other agents.
+- [58:09] If you say false then this cannot assign
+- [58:11] task to other agents when they are
+- [58:13] working in a crew. And max RPM is max
+- [58:17] request per minute. So we are throttling
+- [58:19] it because we don't want our API usage
+- [58:22] to go very high. So
+- [58:25] uh this you might have Gemini free
+- [58:27] account and they will have some
+- [58:29] limitation. So using this you can limit
+- [58:32] I have a paid account so I'm going to
+- [58:35] just run uh you might run out of tokens
+- [58:39] etc but at least you'll be able to watch
+- [58:42] what I'm doing here. Okay. And similarly
+- [58:44] folks um I will create other agents.
+- [58:48] Once again this is mostly copy paste
+- [58:50] business with uh some fine tuning. See
+- [58:54] when you are specifying YAML most of the
+- [58:56] instructions are specified in YAML only.
+- [58:59] So code wise is like actually similar.
+- [59:01] See content creator social media right
+- [59:05] it's kind of similar everything is
+- [59:07] similar. is just that you're changing
+- [59:08] this configuration and maybe tool might
+- [59:10] be different and iterations you know you
+- [59:13] might want to control the iterations see
+- [59:15] maximum iterations for an agent to
+- [59:17] execute because like if you don't have
+- [59:19] upper cap on iterations since this is a
+- [59:22] reasoning agent it might make 1 million
+- [59:24] calls to your Gemini API and you will be
+- [59:26] like uh you might think that it's better
+- [59:30] to hire a human social media writer
+- [59:32] rather than writing this crew program
+- [59:35] because you're billing
+- [59:37] your Gemini OpenAI billing will just go
+- [59:39] so high. So you have to put some control
+- [59:41] through maximum iteration and similarly
+- [59:44] content writer for blog then SEO
+- [59:46] specialist
+- [59:48] and whatn not. Then you will write your
+- [59:51] first task. So your task is market
+- [59:54] research. Once again this is all kind of
+- [59:57] there is not much code. It's all you
+- [59:59] know what we're going to write. See in
+- [60:01] market research you will assign your
+- [60:03] head of marketing as your agent, right?
+- [60:05] So head of marketing if you look at it
+- [60:06] it's this. So this is the agent that
+- [60:09] will work on market research and the
+- [60:11] config is from task market research
+- [60:13] right. So what is market research? Well
+- [60:16] market research means do this and these
+- [60:18] are the parameters you are going to
+- [60:20] take. Okay. Uh similarly I will just
+- [60:23] copy paste remaining I think eight or
+- [60:25] nine task all those tasks. Okay. Now in
+- [60:30] terms of output you want some kind of
+- [60:33] formatted output right in a JSON format.
+- [60:36] So in task you can specify your output
+- [60:39] JSON format and output JSON format you
+- [60:43] can specify using a pentic model. So if
+- [60:47] you have used pyic before it helps you
+- [60:49] define schema. So in our case we are
+- [60:53] going to create this content class which
+- [60:55] is a pyic model and it looks something
+- [60:58] like this. So the output that you want
+- [61:01] is okay content type what is my content
+- [61:03] type blog post social media and so on.
+- [61:05] What is the topic? What is the target
+- [61:07] audience? Okay what is the actual
+- [61:08] content? So that's what you want as an
+- [61:12] output JSON in your task. Okay and then
+- [61:16] comes the crew. So let's define a crew
+- [61:20] now. So crew
+- [61:23] is this marketing crew and agents you
+- [61:29] are saying self dot agents. Now you
+- [61:30] might be like okay in this class see we
+- [61:32] don't have agents variable do we? No
+- [61:34] right agent config but internally
+- [61:38] crew AI because it's derived from this
+- [61:40] and due to the library design when you
+- [61:43] say self.t agents it will take all the
+- [61:46] agents in your ML file. Similarly, when
+- [61:49] you say self task, it will take all the
+- [61:51] task in your ML file and it will execute
+- [61:53] them in sequence. See when you say
+- [61:55] process process dosequential,
+- [61:57] it will execute in sequence. You can
+- [61:59] also have it in hierarchy like sometimes
+- [62:01] see right now we are executing
+- [62:03] everything in a sequence but sometimes
+- [62:06] you might want to have hierarchy. So it
+- [62:09] is for that planning is equal to true.
+- [62:12] planning llm is that and maximum request
+- [62:15] per minute is this. Okay. So now let's
+- [62:18] write our main code. So main code is
+- [62:22] this and then the input that we want to
+- [62:26] provide. So my product name is see in
+- [62:31] agents and event task you're specifying
+- [62:33] product name description see this
+- [62:35] product name product description target
+- [62:37] audience and budget. So my product name
+- [62:39] is AI powered Excel automation tool auto
+- [62:42] sheet IQ. My target is small and medium
+- [62:45] enterprises. I'm not looking for like
+- [62:46] big enterprises like Walmart or Tata
+- [62:50] etc. because they are already in
+- [62:52] Microsoft or some other ecosystem. I
+- [62:54] want to address the small and medium
+- [62:56] scale businesses and product description
+- [62:58] is whatever. And my budget by the way as
+- [63:01] a marketing manager Reena got only
+- [63:03] 50,000 rupees as her budget. So if she
+- [63:06] wants to promote ads or whatever she
+- [63:08] wants to do, this is her budget. I know
+- [63:10] this is very less actually but whatever.
+- [63:13] I just put some number and then current
+- [63:15] date is this. Okay. So now you are just
+- [63:19] kicking off. Okay. So I'm going to run
+- [63:22] this code and let's see if we have any
+- [63:26] other setup ready. I think we need
+- [63:28] environment file and all that but I
+- [63:30] think in the directory we already have
+- [63:32] it. So let me just just try it out and
+- [63:36] see if this works. Now folks, this is
+- [63:39] going to take a lot of time. I know you
+- [63:42] might have a free plan of Google Gemini
+- [63:45] for running this project. You can
+- [63:46] consider upgrading it. If not, u you can
+- [63:50] just watch you know what I'm doing. Uh
+- [63:52] and I got some error. Object has no
+- [63:55] attribute. Content writer social media.
+- [63:57] Content creator social media. Oh, I
+- [64:00] think there is a mismatch. So I fixed
+- [64:02] all those uh typos and now the crew is
+- [64:05] running. Okay. So you will see that it
+- [64:08] will first run a you know we had that
+- [64:12] reasoning true. So it will create a
+- [64:14] reasoning plan. So it will understand
+- [64:17] the task. It will perform key steps and
+- [64:20] so on. See there there's lot of text it
+- [64:22] is generating lot of tokens is going to
+- [64:24] consume. I am ready to execute the task.
+- [64:26] Then the first agent starts. Okay. So
+- [64:30] you can understand that when in the crew
+- [64:33] when you have planning turned on it will
+- [64:36] first plan everything and then from self
+- [64:39] agencies it will call the first agent
+- [64:41] which is your head of marketing. So they
+- [64:44] will perform research okay using the
+- [64:46] internet tools and so on and you will
+- [64:50] see I think tool calls too see agent
+- [64:53] tool serp right so it is searching using
+- [64:57] AI excel automation tool and it is
+- [64:59] finding all these articles see Microsoft
+- [65:02] whatever so it is doing the real
+- [65:04] internet research folks as if you are
+- [65:05] head of marketing going to internet
+- [65:07] looking for all the tools it is doing
+- [65:08] that okay and then you have Uh let's see
+- [65:13] agent tool again I think it might make
+- [65:16] multiple calls to internet by the way
+- [65:18] see it search for best excel automation
+- [65:21] software
+- [65:23] this is where agent can get crazy cuz it
+- [65:26] might take multiple turn approach and it
+- [65:29] might you know take time see if they
+- [65:31] found all this competitor Microsoft
+- [65:32] power automate zapier numerous AI all
+- [65:35] this now they are using a tool output
+- [65:40] and let's see what else it is Okay, then
+- [65:43] reasoning plan folks you will see lot of
+- [65:45] trace and by the way this code will run
+- [65:47] for I don't know 15 20 minutes or so in
+- [65:50] my case uh it it ran for a long time it
+- [65:53] is still running so let's see let's look
+- [65:57] at our directory actually and see what
+- [65:59] it produced okay config I don't know I
+- [66:03] need to create that folder I think
+- [66:06] resources and let me create it because
+- [66:08] it might not save I'm not sure if it's
+- [66:11] going to save.
+- [66:13] So let me just create a directory
+- [66:16] manually
+- [66:18] resources
+- [66:20] and drafts
+- [66:24] and in the draft you will see the actual
+- [66:26] content uh that it will put right. So
+- [66:29] here it is still working on it. But
+- [66:31] while it is still working on it, let me
+- [66:34] show you the actual output because I ran
+- [66:38] it before and the code is on GitHub. So
+- [66:41] you can find it. So if you go to
+- [66:42] resources, there is a directory called
+- [66:44] saved drafts and saved draft which I
+- [66:47] have generated. So look at this folks.
+- [66:50] Uh the content calendar first of all
+- [66:52] this is actually generated by QI. Okay,
+- [66:54] so it generated a content calendar for
+- [66:57] all these post. Okay. So on this date
+- [67:00] 10:00 LinkedIn five way is to transform
+- [67:02] this. So that is my LinkedIn post and
+- [67:05] then in the post you have first LinkedIn
+- [67:08] post. So topic is see this is the JSON
+- [67:12] format folks that we got. Let me show
+- [67:15] you. You remember that pending class
+- [67:16] that we created content type topic
+- [67:19] target audience. So that's what it is.
+- [67:22] Content type topic target audience. See
+- [67:25] these are the tags Excel automation and
+- [67:27] this is the actual content that you will
+- [67:29] post on LinkedIn um unlock precedent
+- [67:32] power of whatever
+- [67:34] and and you might provide some links
+- [67:36] okay then for Facebook or let's say
+- [67:40] Twitter you will have a small post right
+- [67:43] so your content topic is this stay
+- [67:45] updated whatever see so you can
+- [67:48] fine-tune it and kind of u refine it
+- [67:52] further but this creates It's a very
+- [67:55] solid plan for your team, marketing
+- [67:58] team. Something that they can start
+- [67:59] using.
+- [68:01] Competitor pricing. See, competitor
+- [68:03] pricing is it is doing working
+- [68:06] autonomously and putting all these
+- [68:08] details in the files that your marketing
+- [68:10] team needs. Then it has I think
+- [68:14] keywords. So keywords that you need for
+- [68:16] your SEO. See it generated. Now see it
+- [68:19] generated M6 365 copilot zapier. Why?
+- [68:22] Because these are the competitors,
+- [68:23] right? And when someone is searching for
+- [68:25] competitor, you want to have your name
+- [68:28] here. See, if I if I search for Zapier,
+- [68:32] right? What happens is along with
+- [68:35] Zapier, you will find some other
+- [68:37] sometimes you you you find all this. See
+- [68:40] people search for hotspot and so on. So
+- [68:42] that is the essence of it. And then you
+- [68:45] have budget allocation. So 55,000 rupees
+- [68:48] are given. Uh what this agent is saying
+- [68:51] is for keyword search spend this much
+- [68:54] for competitor analysis just giving you
+- [68:56] a rough uh breakdown. Then you also have
+- [69:00] your marketing strategy that it
+- [69:03] generated. Wow. See executive summary,
+- [69:06] target audience, value proposition,
+- [69:08] marketing channel, budget allocation.
+- [69:11] Usually a marketing head will come up
+- [69:13] with this kind of strategy but here it's
+- [69:16] generated by crew. Uh and then reals for
+- [69:20] reals you will have a post
+- [69:23] right like see content visual for a real
+- [69:26] it is also showing see you will show a
+- [69:28] visual of person looking stress whatever
+- [69:30] then you will have audio just look at
+- [69:33] this content folks it's doing amazing
+- [69:35] job I I think it's in my opinion it is
+- [69:38] impressive all right folks so that's
+- [69:40] what we have for the project sometimes I
+- [69:43] have seen that this LLM behaves
+- [69:45] unpredictably it can give error in that
+- [69:47] case you might have to rerun run it
+- [69:49] again. Um but uh the code everything is
+- [69:53] given. Please try it out. Uh and in
+- [69:56] terms of other extra features for Crew
+- [69:59] AI, see they have a lot of features,
+- [70:02] right? So one of the things I wanted to
+- [70:03] cover is memory. But in the interest of
+- [70:05] time, I'll just briefly mention it. So
+- [70:08] to enable memory, all you have to do is
+- [70:10] memory equal to true in your crew. Very
+- [70:13] simple. By default, it will use OpenAI
+- [70:16] embedding. But let's say if you want to
+- [70:18] use Google then for Google you will say
+- [70:21] memory true and you have to provide your
+- [70:22] embedder. Okay. So when you're storing
+- [70:26] things in memory it will convert text to
+- [70:28] vectors. So that's why you need this
+- [70:29] embedding models etc. It also has human
+- [70:34] in the loop CLI. It has a visual
+- [70:36] interface where you can create agents
+- [70:38] using no code low code approach. It has
+- [70:41] supports for MCP and so on. Maybe we'll
+- [70:43] create a follow-up tutorial to cover
+- [70:46] that all all. All right, I hope you like
+- [70:48] this video. If you did, please give it a
+- [70:50] thumbs up. If you have question, post in
+- [70:53] the comment box below. Check video
+- [70:54] description for code and other
+- [70:56] resources. Thank you very much for
+- [70:58] watching.
+- [71:01] [Music]

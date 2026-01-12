@@ -1,0 +1,576 @@
+---
+title: "Transcript: XgKs0aw8ssg"
+video_id: "XgKs0aw8ssg"
+video_url: "https://www.youtube.com/watch?v=XgKs0aw8ssg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:20:16"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: XgKs0aw8ssg
+
+- URL: https://www.youtube.com/watch?v=XgKs0aw8ssg
+- Retrieved at: 2025-12-30T11:17:10+09:00
+
+## Text
+
+- [00:00] Our next discussion uh is with two folks
+- [00:03] from LinkedIn about scaling their AI
+- [00:05] hiring assistant uh with multi- aent LLM
+- [00:08] systems. Please welcome Tis and Deepak
+- [00:11] from LinkedIn. Okay, thank you all.
+- [00:13] Thank you for being here. So I am Deepak
+- [00:16] Agarwal. I'm the chief AI officer at
+- [00:19] LinkedIn and I'm here with my colleague
+- [00:21] Tis and we are going to talk about how
+- [00:25] AI is powering the largest professional
+- [00:27] network on the internet.
+- [00:32] So first before uh before we begin here
+- [00:36] is the agenda. So we're going to talk
+- [00:37] about how we use AI to power LinkedIn.
+- [00:41] As I talked about, we're going to give
+- [00:42] you a brief introduction of agent two
+- [00:44] agents and in particular, we're going to
+- [00:47] dive deeper into one agent which we're
+- [00:49] calling LinkedIn hiring as assistant and
+- [00:52] then the is going to end by telling you
+- [00:54] how we have platformized
+- [00:57] the art and science of building agents
+- [00:59] on the entire platform.
+- [01:01] Right. So
+- [01:03] before I begin I want to start with the
+- [01:05] vision of LinkedIn which is to create
+- [01:07] economic opportunity for every member of
+- [01:09] the global workforce. Now a lot of
+- [01:11] things have changed in the world. We are
+- [01:13] in the age of AI where every job is
+- [01:15] getting transformed. New jobs are being
+- [01:18] created but one thing that has not
+- [01:21] changed since LinkedIn was created in
+- [01:23] early 2000 is our vision. We believe we
+- [01:27] were always building AI and technology
+- [01:31] to transform the future of work. We are
+- [01:33] doing that and we will continue to do
+- [01:35] that and that's what we're going to talk
+- [01:36] about today.
+- [01:39] So again, how do we do that? How do we
+- [01:41] actually transform the future of work?
+- [01:43] So first of all, there are three main
+- [01:46] dimensions to do that. Number one is
+- [01:48] what we're calling the talent dimension.
+- [01:50] So we we enable every member to get the
+- [01:53] job that they deserve that they're
+- [01:55] qualified for. Similarly, every hiring
+- [01:57] manager gets to hire people who are most
+- [02:00] qualified for the job. The next thing is
+- [02:04] connecting every professional to the
+- [02:06] knowledge that helps them do their jobs
+- [02:09] better every single day. And this is
+- [02:12] knowledge that they create that they get
+- [02:14] from their network. Network intelligence
+- [02:17] is the foundation of everything that we
+- [02:20] do. They can also go to LinkedIn
+- [02:22] learning and increase their expertise in
+- [02:25] different areas if they if they need
+- [02:28] that to do their jobs better. And
+- [02:29] finally, every single decision maker,
+- [02:32] every single business is on the platform
+- [02:35] to connect to services and product that
+- [02:37] will help them make their jobs better.
+- [02:39] So this is really how we create economic
+- [02:42] opportunity for the global workforce.
+- [02:45] When you distill it down to the
+- [02:46] technology pieces,
+- [02:48] I like to distill it down into three
+- [02:51] distinct technology pieces. They are
+- [02:53] different but it's a continuum. Do not
+- [02:54] think of these as discrete pieces of
+- [02:56] technology. One is what we call
+- [02:58] recommendations. Again, this is
+- [02:59] something that have been done for 25
+- [03:01] years now. The whole idea here is you
+- [03:04] don't have an explicit query. The use
+- [03:06] user is not coming to the platform
+- [03:08] giving you an explicit prompt. You have
+- [03:10] to figure out from their implicit signal
+- [03:12] how you help the user. Good examples are
+- [03:15] people connection. Who are who should I
+- [03:17] help you connect with so that you can
+- [03:19] actually get the maximum benefit out of
+- [03:21] the platform? If you're on the news
+- [03:23] feed, what kind of content should you
+- [03:25] consume on the news? So these are all
+- [03:27] examples of recommener systems that we
+- [03:29] have been doing for 25 years. We very
+- [03:31] good at it. We are well known for it.
+- [03:33] Next is search. AI powered search. You
+- [03:36] all may have already seen we just
+- [03:38] launched what we call AI powered job
+- [03:40] search. The future of search is
+- [03:42] transforming on LinkedIn. No longer uh
+- [03:45] do you have to talk to the platform in
+- [03:47] keywords. You can actually talk to the
+- [03:49] uh to the platform in natural language
+- [03:50] and it's going to answer you back. It's
+- [03:52] going to have a conversation with you.
+- [03:54] So that's all about search. And then of
+- [03:56] course agent which is going to be the
+- [03:58] focus of today's talk. It goes further,
+- [04:01] right? It is not just about
+- [04:02] conversation. is about helping you
+- [04:04] accomplish your job in a better and more
+- [04:07] efficient way so that you have time to
+- [04:09] do what you really love to do.
+- [04:13] Okay. And before I talk about any
+- [04:15] technology pieces, just want to make
+- [04:17] sure we emphasize this. This is the
+- [04:20] heart of everything that we do, which is
+- [04:22] adhering to our responsible AI
+- [04:24] principles. And not only do we adhere to
+- [04:26] it, it is woven into the very fabric of
+- [04:29] how we build technology. right from the
+- [04:32] right from the beginning. It's not an
+- [04:33] afterthought in terms of how we build
+- [04:35] technology and you're going to see some
+- [04:36] examples of it later in the talk as
+- [04:38] well. Right? So, okay, let's dive into
+- [04:41] agents in particular the LinkedIn hiring
+- [04:43] assistant so that you kind of get a good
+- [04:44] example. Of course, we are all living in
+- [04:46] the agentic era. I just want to lay out
+- [04:48] some of the principles that we use to
+- [04:50] build our agentic around our agentic
+- [04:52] approach. Of course, we are all we
+- [04:54] always believe in human first. Agents
+- [04:56] work with you. You are always in
+- [04:59] control.
+- [05:00] Again, trust and responsibility is the
+- [05:02] foundation of everything we build. We
+- [05:04] have built solutions that deeply
+- [05:06] personalize your experience. It adapts
+- [05:09] to your preferences. It learns from your
+- [05:12] behavior and it evolves and it keeps
+- [05:15] getting better as you use the product.
+- [05:16] And finally, we build agents so that it
+- [05:18] has real life impact.
+- [05:22] Right? These are how this these are the
+- [05:24] stages that we actually have when we're
+- [05:26] developing our product. incubation,
+- [05:28] experimentation. So once you have
+- [05:30] incubated, you test it out on a small
+- [05:32] traffic to see whether the idea is a
+- [05:34] good one. Then we go on to scale the
+- [05:37] idea, maybe launch it to 10% traffic.
+- [05:40] And then once we have scaled and we have
+- [05:41] found good ROI, then we figure out how
+- [05:44] to operate it at scale.
+- [05:47] Right? So again, now I'm going to dive
+- [05:49] deeper into one particular agentic
+- [05:51] product that we have. We rolled it out
+- [05:53] in 2024.
+- [05:55] Uh
+- [05:57] again I'm going to show you just a quick
+- [05:59] demo of the product. So here you can see
+- [06:01] this is going to go very fast but the
+- [06:02] whole idea is you're not giving input to
+- [06:05] the system through a query right you can
+- [06:07] actually point it to a profile you can
+- [06:08] point it to a job description you can
+- [06:10] point it to a word document it takes
+- [06:12] that in intake and then it comes back to
+- [06:15] a with to the hiring manager with a set
+- [06:17] of qualification it believes you need in
+- [06:20] a candidate then you can collaborate
+- [06:22] with it right you can modify it so
+- [06:24] that's why like our agents are human in
+- [06:26] the loop they're collaborative once you
+- [06:28] have collaborated in this case Alice and
+- [06:30] collaborates with the agent to refine
+- [06:32] the qualification. Then it goes out and
+- [06:34] starts sourcing the candidate. Once it
+- [06:35] comes up with the sourcing of the
+- [06:36] candidate, tells you why a candidate is
+- [06:39] appropriate for the job that you're
+- [06:41] hiring for. And then based on that, it
+- [06:44] then starts working for you 24 by7 both
+- [06:47] synchronously and asynchronously
+- [06:49] sourcing candidates for you. And as you
+- [06:51] find amazing candidates, actually does
+- [06:53] the outreach for for you automatically.
+- [06:56] Right? So that's the flow of the agent
+- [06:58] that we're talking about here. Again,
+- [07:01] this is not a demo product. This is
+- [07:03] live. It's being used by several of our
+- [07:06] charter customers. Uh the feedback has
+- [07:08] been overwhelmingly positive so far. It
+- [07:11] is saving a lot of toil for the
+- [07:14] recruiters so that they can actually
+- [07:16] spend their time doing what they really
+- [07:17] love to do, which is nurturing
+- [07:18] candidates and hiring the best talent
+- [07:20] for the best job.
+- [07:23] All right. So now a brief overview of
+- [07:26] the technical stack. I cannot describe
+- [07:28] the whole technical stack but we'll kind
+- [07:30] of provide you with the overview. So
+- [07:32] this is what the hiring uh assistant
+- [07:34] tech stack looks like. So as you can see
+- [07:36] we are taking a multi- aent approach to
+- [07:39] solving this problem. Right? So you have
+- [07:40] a supervisor agent intake. I'm going to
+- [07:43] describe what these are but like think
+- [07:45] of it as a collection of agents that are
+- [07:47] collaborating with each other to get the
+- [07:49] job done. And all of this is built on a
+- [07:53] very strong platform and foundation with
+- [07:55] pages is going to talk about later in
+- [07:57] the talk of data annotation, evaluation,
+- [07:59] responsible AI, inference training. This
+- [08:02] is something that we used to build all
+- [08:03] LinkedIn products whether it's
+- [08:05] recommendations, search or agents. And
+- [08:08] without this foundation, none of what
+- [08:09] I'm talking about would be even
+- [08:11] possible.
+- [08:13] All right. So, so this is what the so we
+- [08:17] although we are taking a multi- aent
+- [08:19] approach we have uh we have imposed a
+- [08:21] strong opinion in terms of how our text
+- [08:23] app work and this is the most important
+- [08:26] assumptions that we made we are going to
+- [08:27] have one supervisor agent that is
+- [08:30] orchestrating all the task among other
+- [08:32] agents every other agent whether it's
+- [08:35] the input intake agent sourcing agent
+- [08:37] they are good at one and only one job
+- [08:39] they don't communicate with each other
+- [08:41] all communication happens through just
+- [08:43] one agent which is what we are calling
+- [08:44] the supervisor agent. That supervisor
+- [08:47] agent has global context across the
+- [08:49] entire ecosystem and it orchestrates all
+- [08:52] the work across different agents that we
+- [08:54] have on the slide. So this is how we do
+- [08:56] this federated computation to scale the
+- [08:59] agentic experience that I showed you
+- [09:02] before.
+- [09:04] Right? So this this is an again an
+- [09:06] example of a particular agent. In this
+- [09:08] case it's the sourcing agent. As you can
+- [09:09] see once the supervisor agent takes the
+- [09:12] input from the user and creates those
+- [09:14] role qualification it then provides that
+- [09:16] context to the sourcing agent. The
+- [09:18] sourcing agent goes and calls this
+- [09:20] recruiter search stack sources the ca uh
+- [09:23] sources the candidates along with
+- [09:25] descriptions on why they are really good
+- [09:27] for the job and then it returns it back
+- [09:30] to the supervisor agent and that's where
+- [09:31] the user starts interacting. So this is
+- [09:33] an example of a standalone agent that is
+- [09:36] good at one and only one job which is
+- [09:38] sourcing right and again it's all
+- [09:40] supervised by the supervisor agent. So
+- [09:43] obviously because it's supervised by the
+- [09:45] supervisor agent, the supervisor agent
+- [09:46] is a special agent. It needs to it needs
+- [09:49] to be intelligent, right? And this is
+- [09:51] the intelligent layer that we have built
+- [09:52] in the supervisor agent that is
+- [09:55] different from other agents that we
+- [09:56] talked about, right? So in particular,
+- [09:58] the supervisor agent can reason about
+- [10:00] things by using frontier LLM. We have
+- [10:02] also built our own LLM on top of those
+- [10:04] things using rein reinforcement learning
+- [10:07] and continuous user feedback. It also
+- [10:10] knows when to delegate the task to what
+- [10:12] agent, how to collect feedback and
+- [10:14] display it to the user and so on so
+- [10:16] forth. So this is all intelligence
+- [10:18] that's built into the supervisor agent.
+- [10:20] The agent also has what we call memory,
+- [10:22] exponential uh memory. So it can keep
+- [10:26] the memory of the recent dialogue you're
+- [10:28] having. It can also preserve long-term
+- [10:30] memory about your preference about the
+- [10:34] important uh discussions you have had in
+- [10:36] the past that might be important for you
+- [10:38] to recall later in the process and so on
+- [10:41] so forth. So this experiential memory
+- [10:44] along with global context and
+- [10:46] intelligent routing is what is the heart
+- [10:50] of the supervisor agent and it keeps
+- [10:52] getting better and better through
+- [10:53] reinforcement learning as you've seen
+- [10:55] the picture here. Okay, so with that I'm
+- [10:58] going to now hand it over to Tis who's
+- [11:00] going to now talk about how we actually
+- [11:03] platformize these solution. It's not
+- [11:04] good enough to build oneoff agent the
+- [11:07] way I described. This is of course a
+- [11:08] great example. It is running in
+- [11:11] production. It is in the hands of
+- [11:13] customers. They're finding value. But we
+- [11:15] have democratized the process of
+- [11:17] building agentic experience on LinkedIn.
+- [11:19] There are many other teams at LinkedIn
+- [11:20] also building other agents like sales
+- [11:22] prospecting agent, learning agent and
+- [11:25] whatnot. But it's in order to do that at
+- [11:27] scale it is important to platformize the
+- [11:30] solution and so that's what the is going
+- [11:32] to talk about next. Yeah thanks Deepak.
+- [11:34] Hi this is Tjas and I'll be going
+- [11:36] through the process of how we've
+- [11:38] platformized agent development for
+- [11:40] scale. Now here scale means has two
+- [11:43] different meaning. First is like when
+- [11:45] you say scale, can the agents that we
+- [11:47] build cater to all our members and
+- [11:49] customers? And the second is how can we
+- [11:52] build agents within LinkedIn for
+- [11:54] different products faster. Here our
+- [11:57] focus is going to be on how we can
+- [12:00] consistently fast and reliable fashion
+- [12:03] focusing on developer productivity and
+- [12:05] while enforcing responsible AI and trust
+- [12:09] and compliance uh logics within our
+- [12:12] product development.
+- [12:17] Okay. Yeah. Sorry. So this like this is
+- [12:19] a brief overview of like the Genai
+- [12:21] platform. Think of these as like Lego
+- [12:23] blocks that an AI developer can plug and
+- [12:26] play. The abstraction are such that that
+- [12:28] these the you can pick and choose based
+- [12:30] on your product and based on what you
+- [12:33] want to build, which pieces you want to
+- [12:34] connect. Most of them are needed. Some
+- [12:36] of them can be like based on your need
+- [12:38] can be used or not used. uh again like
+- [12:42] these the focus here is how we
+- [12:44] standardize the development of agent at
+- [12:46] LinkedIn so that in a consistent fashion
+- [12:49] you can like build these again and again
+- [12:52] try different hypothesis build different
+- [12:54] agents so that we can best serve our
+- [12:55] customers I'm now going to go deeper
+- [12:58] into some of these platform components
+- [13:00] that you see here
+- [13:03] so let's say models right how do we
+- [13:06] choose our LLMs how should someone
+- [13:08] determine so as Deepak mentioned earl In
+- [13:10] our agent development life cycle, we
+- [13:12] have that incubate phase. During that
+- [13:14] phase, we have a budget and we let
+- [13:16] engineers like focus on MVP using
+- [13:19] state-of-the-art LLMs and determine like
+- [13:22] hey, does this idea work? Does this
+- [13:24] agent work? And then when it comes to
+- [13:26] scale, we have uh we talked about the uh
+- [13:29] the sub agents who are intelligent at
+- [13:32] one and only one task. During that
+- [13:34] process, we focus on fine-tuning and
+- [13:37] making that agent or model uh efficient
+- [13:40] for just one task and thereby making the
+- [13:43] model smaller and efficient which helps
+- [13:45] us with reliability. We want to give our
+- [13:48] customers the best experience. So
+- [13:49] latency has to be on point. We want to
+- [13:51] beforehand know how much QPS would this
+- [13:55] uh model be able to support and how many
+- [13:57] GPUs would we need. So that's where we
+- [13:59] decide high scale components when we
+- [14:01] want to give it to a lot of customers.
+- [14:02] we decide to like fine-tune domain
+- [14:04] adapted models uh and make them smaller,
+- [14:08] smarter and better for our tasks.
+- [14:11] Now for these purposes, how do we go
+- [14:13] about this? This is like a training and
+- [14:15] inference platformization. Like a lot of
+- [14:18] these things for different task and
+- [14:20] different projects or different work are
+- [14:22] standardized. the the engineers can
+- [14:25] focus on the data and the loss function,
+- [14:28] reward function and the optimizations
+- [14:29] that they want or how they want the
+- [14:31] model to become better and not on the
+- [14:33] recipe or the infra. So different
+- [14:35] algorithm like based on reinforcement
+- [14:37] learning, supervised fine-tuning,
+- [14:38] pruning, quantization, distillation are
+- [14:40] given as recipes which engineers can
+- [14:42] leverage out of the box without worrying
+- [14:45] about like GPU optimization without the
+- [14:47] flops. So you get like best uh framework
+- [14:51] to run your algorithms and training
+- [14:52] going but like once the training is done
+- [14:54] you need to run evals you need to run
+- [14:56] inference and eval are done offline to
+- [14:59] give us the quality like how well this
+- [15:00] model is doing but then when you try to
+- [15:02] productionize due to some mismatch in
+- [15:04] settings the production model would run
+- [15:06] differently than the eval models. So
+- [15:08] that's why the inference platformization
+- [15:10] before we serve the model we know like
+- [15:12] the latency the QPS the time to first
+- [15:15] token would it be a streaming model or
+- [15:17] would it be like the response would be
+- [15:19] like how much time the user has to wait
+- [15:22] uh before you get the response so that
+- [15:24] we can influence the UI based on that.
+- [15:26] So these information we can get by just
+- [15:28] benchmarking using inform inference
+- [15:30] platformization and you get to know like
+- [15:32] the quality and way beforehand you get
+- [15:34] to know what the users will experience
+- [15:37] before we even ship and this will be
+- [15:39] consistent over time.
+- [15:43] Next up like we have our own the data
+- [15:46] sets like each we've platformized our
+- [15:48] data annotation and eval platform where
+- [15:50] like engineers can build their own data
+- [15:53] set synthetic data set with either LLMs
+- [15:56] or build data set with gold standard
+- [15:58] using human in the loop you can get
+- [16:00] insights about your data set. So this
+- [16:02] these data sets can be used for like
+- [16:04] benchmarking so safety metrics for like
+- [16:08] uh eval on particular task or
+- [16:10] adversarial task like how do we protect
+- [16:11] oursel in different scenarios so it
+- [16:13] helps us mitigate all these scenarios
+- [16:15] and also like build bigger data sets for
+- [16:17] training as well. So this is our data
+- [16:20] annotation platform.
+- [16:22] Next up I'm going to go a little deeper
+- [16:24] into our like risk assessment. every
+- [16:26] time we want to be very careful on how
+- [16:28] we launch and be diligent in what model
+- [16:31] and what agents go out to our customers.
+- [16:34] So for that we have like a risk
+- [16:36] mitigation plan. We have like different
+- [16:38] layered assessment like we would first
+- [16:39] assess the model that we've built like
+- [16:42] how is it doing against all our safety
+- [16:44] metrics then like model and the system
+- [16:46] prompt what happens at the interaction
+- [16:49] layer and test it like unit testing and
+- [16:51] then in the agentic setup you want to
+- [16:53] see the whole scenario of how different
+- [16:56] interaction would come together and does
+- [16:58] it align with our policy and how we want
+- [17:00] the agent to behave. Uh so this is the
+- [17:04] unit testing and then like how does the
+- [17:06] red teaming look at scale? I talked
+- [17:08] about the data annotation platform. We
+- [17:10] would build like synthetic prompts that
+- [17:13] simulate what a real world scenario
+- [17:15] would look like at different
+- [17:16] difficulties like you can and how does
+- [17:19] that respect our system prompts and
+- [17:21] system prompt constraints. We would run
+- [17:23] this through our unit test and then we
+- [17:26] have our auto evaluator that would align
+- [17:28] that to LinkedIn's policy and then score
+- [17:30] the output whether it's safe or not safe
+- [17:32] or does need investigation and these are
+- [17:35] continuously evaluated with a human in
+- [17:37] the loop to assess like how if the
+- [17:39] agents are performing up to our
+- [17:41] expectation or does need investigation.
+- [17:43] So all these components that I talked
+- [17:45] about come together in our agent
+- [17:47] development life cycle and we have
+- [17:49] standardized them in order for us to
+- [17:51] make sure that every engineer that
+- [17:52] develops has a similar pattern
+- [17:54] consistent way of developing and they
+- [17:56] can repeat this on different hypothesis
+- [17:57] for us to succeed towards serving our
+- [18:00] customer.
+- [18:02] Key takeaways like when we when you
+- [18:05] build this at scale you need to focus on
+- [18:07] reliability. The users need to know that
+- [18:10] or like we need to know that users will
+- [18:13] get a consistent uh output and they
+- [18:16] won't get derailed in their function. We
+- [18:17] want to provide more value to the user
+- [18:19] to do their job better and do things
+- [18:22] that bring them happiness like hire
+- [18:24] recruiters want to focus on sourcing the
+- [18:26] right candidate not spending time on
+- [18:28] searches. Latency you like with some of
+- [18:31] these larger models the latency can be
+- [18:34] con like pretty high and you'll have to
+- [18:36] wait for the response. We we want these
+- [18:38] models to be faster and that's why the
+- [18:40] sub agents they do that task better and
+- [18:42] they're really fast at doing that.
+- [18:44] trust. You want to continuously believe
+- [18:46] that kind of agents that we are building
+- [18:48] that will you can rely on them and
+- [18:50] privacy like uh these two handinand that
+- [18:54] you can consistently know that your work
+- [18:56] is secure with us and personalization
+- [18:58] you want to continuously know that your
+- [19:01] past interaction are being used to
+- [19:03] personalize the responses for you and
+- [19:05] that's where the memory piece comes in
+- [19:07] and the cost you don't want to pay a lot
+- [19:09] of large amount of money on these you
+- [19:11] want to like make revenue all right So
+- [19:13] but like for all of this like the work
+- [19:15] that we presented today is like takes
+- [19:18] like a huge amount of effort from
+- [19:20] different teams across LinkedIn whether
+- [19:22] it's AI infra product engineering to
+- [19:24] come together to orchestrate this
+- [19:26] platform which all of us use to make
+- [19:28] agents better for us and there are a
+- [19:30] bunch of other aspects like the evals
+- [19:32] you want to make sure that you're
+- [19:33] simulating the right thing and the
+- [19:35] agents are doing well on their scenarios
+- [19:37] that you're expected them to work uh
+- [19:40] APIs the models get better the new
+- [19:42] toolings keep coming right. So you want
+- [19:44] to make sure that the abstraction
+- [19:45] between these components are very well
+- [19:47] defined. So when you come newer
+- [19:49] technologies come you can swap them out
+- [19:51] and change them without affecting your
+- [19:53] current uh flow. So migration should be
+- [19:56] like cost effective as well as very low
+- [19:59] effort and then human in the loop as
+- [20:01] Deepak mentioned we want the agent to
+- [20:03] work with you and augment your work not
+- [20:05] replace so you can you know your job the
+- [20:07] best our agents will help you do that
+- [20:09] better and then like as you mentioned
+- [20:11] like we are not just building AI tools
+- [20:13] we're building an ecosystem that works
+- [20:16] well together using LLM and LRM thank

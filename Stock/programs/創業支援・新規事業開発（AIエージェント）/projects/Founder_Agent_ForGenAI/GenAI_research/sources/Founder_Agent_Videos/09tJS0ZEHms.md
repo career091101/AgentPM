@@ -1,0 +1,313 @@
+---
+title: "YouTube Video: 09tJS0ZEHms"
+video_id: "09tJS0ZEHms"
+video_url: "https://www.youtube.com/watch?v=09tJS0ZEHms"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  So let's check the position now. So if you open up this, you can see we are 12.7% up on the Solana short 20x leverage uh position we we made here. So maybe 40x is a bit too much. Let's do a 20x uh ins...
+key_points:
+  - "but the most important ones are kind of"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 09tJS0ZEHms
+
+- URL: https://www.youtube.com/watch?v=09tJS0ZEHms
+- Retrieved at: 2025-12-30T09:17:25+09:00
+
+## Text
+
+- [00:00] So let's check the position now. So if
+- [00:01] you open up this, you can see we are
+- [00:03] 12.7%
+- [00:04] up on the Solana short 20x leverage uh
+- [00:08] position we we made here. So maybe 40x
+- [00:12] is a bit too much. Let's do a 20x uh
+- [00:15] instead. So you can see here place order
+- [00:18] bitcoin is true uh is by true leverage
+- [00:21] 20 size. Okay, here we are $2 up. So I
+- [00:24] want to close this 2.9% up. Perfect.
+- [00:28] Okay, so lately there's been a lot of
+- [00:29] talk about using these LLMs to make uh
+- [00:32] trading in crypto. And you can see this
+- [00:35] post, Quen makes 51% profit compared to
+- [00:37] other models. So if you try to zoom in a
+- [00:40] bit here, you can see it started out
+- [00:42] with $10,000 and it ended up with
+- [00:45] 15,000. So it made a 50%
+- [00:48] uh gain here on trading for about a
+- [00:52] week, I think, or something. So that was
+- [00:55] pretty impressive. So today uh I made an
+- [00:57] account on hyperlquid. So let me go
+- [01:00] there. So this is the same platform that
+- [01:02] they used in the experiment I think and
+- [01:05] they have an API. So that is what we
+- [01:07] going to use. Uh I have already created
+- [01:09] this. So I wanted to do this by if you
+- [01:12] go here we go to cloud. Uh I wanted to
+- [01:14] try to use MCP servers for this. So we
+- [01:17] can be inside our claw agent here when
+- [01:20] we actually do the trading. I thought
+- [01:21] that could be pretty fun. So I created a
+- [01:23] hyperlquid MCP and if you look at the
+- [01:26] tools we have here we have an get
+- [01:28] account info we can get market data open
+- [01:31] positions we have we can place an order
+- [01:34] close a position and set leverage and
+- [01:37] some other stuff uh we just created here
+- [01:39] but the most important ones are kind of
+- [01:42] finding the positions placing the orders
+- [01:44] and we can do uh get account info right
+- [01:48] something like that and this should
+- [01:50] trigger the hyperlquid MCP just to see
+- [01:52] how much money we have in our account at
+- [01:55] this moment in time. So, you can see
+- [01:58] here we grab the account information. We
+- [02:00] have 93.97,
+- [02:03] right? And you can see we have one
+- [02:05] position open as I showed you in the
+- [02:07] intro. And yeah, you can kind of see
+- [02:09] that. So, let's do that. So, let's get
+- [02:11] position
+- [02:13] positions. So, we can get the open
+- [02:15] positions we have. You kind of
+- [02:17] understand how the MCP works. We can do
+- [02:18] everything here from our terminal and
+- [02:22] with the MCP tools. I think this is
+- [02:23] pretty cool and we can do some Yeah,
+- [02:26] terminal trading here. Yeah, you can see
+- [02:28] the position we have here. This is a
+- [02:30] short in Solana and we are $1 up. So
+- [02:33] today I just wanted to show you kind of
+- [02:35] how I a simple setup how we did this and
+- [02:38] kind of how it works and how we can
+- [02:39] place trades, how we can monitor trades
+- [02:41] and yeah, just a fun project I had uh
+- [02:44] this morning. So uh I don't think I have
+- [02:46] a time in this video to kind of go
+- [02:47] through every single detail in the MCP
+- [02:49] server. But I want to do one example uh
+- [02:52] how this works now. So you can see uh
+- [02:55] here on the cursor under servers we have
+- [02:58] the hyperlquid MCP server that is local.
+- [03:01] This is not something that we connect to
+- [03:03] on the web. Everything is running
+- [03:05] locally here. Right? So we have the
+- [03:07] hyperlquid server. We have the index.py
+- [03:10] and under the list of tools here we have
+- [03:12] a tool called place order. Right. And
+- [03:15] here is the actual function we are
+- [03:17] using. So this is the place order
+- [03:19] function. This is the function that is
+- [03:22] executing the request from the
+- [03:25] hyperlquid server here on the tool place
+- [03:28] order. Right. So I'm not going to go
+- [03:31] much more into detail but uh what I want
+- [03:34] to mention is if you want to build your
+- [03:35] own MCP servers, Hyperlid has a pretty
+- [03:38] good documentation.
+- [03:40] So you can see as context here uh when I
+- [03:43] built this I collected 4,000 lines of uh
+- [03:46] documentation for the hyperlquid
+- [03:49] platform. So that is basically all I
+- [03:51] needed to build my MCP server. Now let
+- [03:54] me show you uh a couple of ways we can
+- [03:56] make trades here now using the MCP
+- [03:58] server. So uh I just logged into code in
+- [04:00] again. So I have created a custom
+- [04:03] command that's called crypto bro. This
+- [04:06] is more like an automated way of uh
+- [04:09] doing trading. So I set up this uh I'm
+- [04:12] going to show you this later, but I set
+- [04:13] up this uh workflow here in my/ commands
+- [04:17] that has like a stepbystep way of uh
+- [04:20] placing a trade, but let's try to do
+- [04:22] this manually now just by using the
+- [04:24] tools. So uh I'm going to start off with
+- [04:26] a prompt here. I want to do uh I want to
+- [04:29] place a trade on a cryptocoin. So I can
+- [04:31] do uh I want to place a trade on crypto.
+- [04:33] Can you start by checking my balance? So
+- [04:35] hopefully now with the description we
+- [04:36] have this is going to understand that it
+- [04:38] has to call the get account tool and
+- [04:40] just bring up our $93
+- [04:43] balance here, right? Yeah, that was
+- [04:45] perfect. So that works good. So we need
+- [04:47] some prices. So I'm just going to do
+- [04:50] something like
+- [04:52] let's just pick four coins. Let's do get
+- [04:54] latest pricing for Bitcoin, Ethereum,
+- [04:56] Sana, and BNB. So let's just uh do
+- [04:59] those. Hopefully now Claude understands
+- [05:01] that it needs to do some parallel tool
+- [05:02] calling. Perfect. So we use the get
+- [05:05] market data uh tooling here to grab all
+- [05:08] the information. We have the prices
+- [05:10] current price on ether uh Solana and
+- [05:13] BNB. Perfect. So now we have the
+- [05:16] pricing. We can start thinking about uh
+- [05:18] what coin looks the best for making a
+- [05:21] trade. So we can just do what coin look
+- [05:23] the best for making a trade on at the
+- [05:25] moment. So then we are triggering the
+- [05:27] analyze funding opportunity. We are
+- [05:29] picking BNB. Okay. So let's run that.
+- [05:31] And it says BNB is the most interesting
+- [05:33] here with a 7 uh minus 747 APR funding
+- [05:38] shorts paying long. Okay, but it doesn't
+- [05:40] hit the official signal yet. Yeah, we
+- [05:43] have some kind of signal we set up. But
+- [05:44] just ignore that for now. So you can see
+- [05:46] it asked me, do you want to scan all
+- [05:48] tradable coins? So I can say yes, do
+- [05:50] that. Let's see what happens. Do the
+- [05:53] let's do that. Let's trade uh check all
+- [05:55] the tradable coins if we can find
+- [05:57] something else. So, one of the
+- [05:59] suggestion is a 40x leverage trade on
+- [06:02] Bitcoin long. So, I'm just going to do
+- [06:04] give me all the details on the 40x uh
+- [06:06] trade. So, maybe 40x is a bit too much.
+- [06:09] Let's do a 20x uh instead. Uh we don't
+- [06:13] need a 40x trade. So, let's do a 20x bet
+- [06:15] on Bitcoin uh long here. So, what I
+- [06:18] think is pretty cool if you have some
+- [06:20] questions like you're pretty new to
+- [06:22] this, you can always ask, right? So, we
+- [06:24] are not trading CFDs. So let me let's
+- [06:27] give an explanation of what we are
+- [06:29] trading here. So let's just explain
+- [06:31] simply what uh per trading is. So this
+- [06:34] is a bit different from CFD. So you can
+- [06:37] see we get the explanation here. What
+- [06:39] are uh perpetual futures? So we can do
+- [06:42] long, short and we can leverage this and
+- [06:44] yeah, you kind of get the point here. So
+- [06:46] yeah, you can also ask some questions.
+- [06:48] So yes, do the trade and let's just
+- [06:52] [music]
+- [06:53] t let's do the trade. And now we're
+- [06:55] going to call up our MCP that's going to
+- [06:56] place a position. So you can see here
+- [06:59] place order Bitcoin is through is by
+- [07:02] true leverage 20 size. Okay, perfect.
+- [07:04] That was placed. Let's check our
+- [07:06] dashboard on Hyperlquid.
+- [07:09] And you can see here we have our Bitcoin
+- [07:12] 20x long. And now we can kind of monitor
+- [07:16] this by clicking here. You can see we
+- [07:18] are already 0.2% up. And we can monitor
+- [07:22] this here. And you can see we made 21
+- [07:24] cents already. So this is pretty snappy,
+- [07:26] right? So it's pretty fun to play around
+- [07:28] with. And we can close this whenever you
+- [07:30] want. And we can kind of set up a
+- [07:33] monitor and we can do something like so
+- [07:36] we can do a 2 minute sleep and then go
+- [07:38] get position. Okay. So you can see we
+- [07:40] are running the 120 sleep and after this
+- [07:43] is counted down, we're going to get our
+- [07:44] position, right? So let's just wait for
+- [07:47] that. Okay. So you can see the 2 minutes
+- [07:49] are up. Now it's going to trigger kind
+- [07:51] of the get position hopefully. I think
+- [07:54] so. Yeah, we are reading the shell
+- [07:56] output. Hopefully, we're going to get
+- [07:57] the position. Perfect. And you can see,
+- [08:01] okay, we are doing pretty well on the
+- [08:03] Bitcoin. I think if we look here, we are
+- [08:05] $2 up. So, I want to close this 2.9% up.
+- [08:10] Perfect. Uh, close the BTC post for
+- [08:15] profit. Right, you can see 228 up. Close
+- [08:19] the position 100%. Boom. We got it. And
+- [08:24] we can do a control O. We can read here.
+- [08:27] You can see kind of the JSON formatting
+- [08:29] here. And yeah, we took the profit. And
+- [08:32] now we can get our balance again, right?
+- [08:34] Let's see how much we have now. Okay, so
+- [08:37] we made a dollar. Perfect. Something
+- [08:39] like that. Or at least we have $94 now.
+- [08:42] So yeah, that was like a full cycle. Um,
+- [08:45] I also have my automated setup. I can
+- [08:49] just show you that, but I don't think
+- [08:50] we're going to do any more trades now.
+- [08:52] So, to do that, it's pretty
+- [08:53] straightforward. We can just do
+- [08:55] /cryptobro. And now kind of everything
+- [08:57] is set up. This should be running
+- [09:00] autonomously, right? We are checking the
+- [09:02] bag first. That's okay. That was a bit
+- [09:06] Yeah. Uh yeah, you can see we are
+- [09:08] checking our position. We check for our
+- [09:10] open positions. We have the Solana
+- [09:12] short. That means we have one position
+- [09:14] left because we maximum can have two
+- [09:16] open at the same time. So, we just keep
+- [09:18] on continuing. And this is more like an
+- [09:20] automated setup and we look for a trade
+- [09:23] and we can decide if we want to pick
+- [09:25] that or not. Right? So, yeah, I'm just
+- [09:28] going to let this run through and see
+- [09:30] what kind of suggestion we end up with
+- [09:31] here. So, you can see uh next trade
+- [09:33] lineup, BNB long. Um, yeah, let's do a
+- [09:38] BNB long trade. So, we can let that run
+- [09:40] for a while. That's fine. We're going to
+- [09:42] do an $80 margin and yeah, that's fine.
+- [09:46] 10x size.
+- [09:48] Uh, run both. Okay. So, you can see
+- [09:51] we're going to place this. Nice. And
+- [09:53] yeah, that was it. If we go back here
+- [09:55] now and we do a refresh, you can see we
+- [09:58] have our BNB long trade. Perfect. Uh,
+- [10:02] okay. So, yeah, I don't really care what
+- [10:04] way this goes, but uh, that was the
+- [10:05] point just to show you how this works.
+- [10:08] And yeah, pretty simple. So, what I
+- [10:09] think is good about this is it's a way
+- [10:11] nice way to learn about this because you
+- [10:13] can always ask questions on the way. I
+- [10:15] do very small positions just to learn
+- [10:18] how this works. Uh there's not much edge
+- [10:20] in this now, but I was thinking maybe in
+- [10:24] the future we can try to add more edge
+- [10:25] here. We can give more context and stuff
+- [10:27] like that. So there are definitely
+- [10:29] opportunities here. And I just had a lot
+- [10:32] of fun with this project, setting it up,
+- [10:34] playing around. It's so responsive,
+- [10:36] right? It's so quick and you can Yeah,
+- [10:39] you can see we can make this pretty cool
+- [10:41] things here. Here we can do some social
+- [10:42] posting on this and it's just a fun
+- [10:45] thing to play around with. So you kind
+- [10:47] of learn about NCPs while you have some
+- [10:49] fun trading some crypto if you're into
+- [10:52] that and you just learn about stuff and
+- [10:55] ask questions on the run here. So yeah,
+- [10:58] had a lot of fun with this. So I
+- [11:00] definitely recommend going uh to check
+- [11:02] it out.

@@ -1,0 +1,389 @@
+---
+title: "Hi. So, thanks everyone for joining me today. Uh, so as Hen said, uh, today I'll"
+video_id: "Dc1y_pulshw"
+video_url: "https://www.youtube.com/watch?v=Dc1y_pulshw"
+speaker: "the"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  So, thanks everyone for joining me today
+  Uh, so as Hen said, uh, today I'll talk about so retrieval augmented generation
+  I think a lot of you have seen like claims on social media for a while that that rag is dead
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:10:27+09:00"
+---
+
+# Transcript: Dc1y_pulshw
+
+- URL: https://www.youtube.com/watch?v=Dc1y_pulshw
+- Retrieved at: 2025-12-30T10:10:27+09:00
+
+## Text
+
+- [00:00] Hi. So, thanks everyone for joining me
+- [00:04] today. Uh, so as Hen said, uh, today
+- [00:08] I'll talk about so retrieval augmented
+- [00:10] generation. I think a lot of you have
+- [00:12] seen like claims on social media for a
+- [00:14] while that that rag is dead. Uh, so
+- [00:17] today we'll be discussing this. Is it
+- [00:19] dead? Is it alive? Um, and in general
+- [00:23] how retrieval is uh going on in the age
+- [00:27] of agents. Uh so yeah I worked at
+- [00:30] Leighton uh where we build enter an
+- [00:33] enterprise copilot which is meant to
+- [00:35] make it easier to search in the
+- [00:37] documents and stuff like this. So this
+- [00:39] is the context for the talk and let's
+- [00:41] start with a beautiful hype cycle of the
+- [00:44] life and maybe death of rag. So it all
+- [00:48] started in May 2020. I think uh a lot of
+- [00:51] you may find this surprising that rag
+- [00:54] was actually this old. uh it came out
+- [00:56] yeah with a Facebook paper that claimed
+- [00:59] that uh this was a technique to bring
+- [01:01] nonparametric memory to the work the
+- [01:04] workhorse of NLP sorry which was sectose
+- [01:07] models uh so yeah that didn't quite age
+- [01:10] well but uh yeah I think most of you
+- [01:14] know that yeah in November 2002 CHP came
+- [01:17] out that brought a lot of hype to well
+- [01:20] LLMs and genai in general and so with
+- [01:23] this in The early to mid 2023 came the
+- [01:28] the explosion of Rag with every headline
+- [01:31] being about how rag was amazing going to
+- [01:34] solve a lot of AI issues,
+- [01:36] hallucinations, a lot of things. It was
+- [01:38] going to be like the one thing that yeah
+- [01:40] is super useful for everyone and this
+- [01:43] led to the creation of a lot of
+- [01:45] companies centered around rack. A lot of
+- [01:47] them are there today actually which is
+- [01:49] very cool. And um but already in May
+- [01:53] 2023 uh some clouds appeared in the blue
+- [01:57] blue skies of rag with the release of uh
+- [02:01] I think it was the v1.5 version of
+- [02:04] clothes that has a 100k context length.
+- [02:07] And even back then uh some doubts
+- [02:10] started to rise with like okay but now
+- [02:13] we we have 100k tokens. Do we really
+- [02:16] need rags still?
+- [02:18] This continued to go downhill because in
+- [02:21] February 2024, Gemini came out with 1
+- [02:25] million context length and yeah, this
+- [02:27] was for sure rag is dead. We don't need
+- [02:29] retrieval anymore. We can just dump
+- [02:31] everything in context and uh it's fine.
+- [02:35] Then stuff continued to go even worse
+- [02:38] because um in November 2024, Anthropic
+- [02:42] released MCP. And so so for some reason
+- [02:46] people are are thinking that MCP killed
+- [02:49] rag. In my opinion, this makes the R in
+- [02:52] rag cry because R is for retrieval and
+- [02:56] MCP is just one way to retrieve context.
+- [02:58] It's just a different way to get it. But
+- [03:01] yeah and uh then earlier this year cl
+- [03:05] code released and with it I think a lot
+- [03:09] of you may have some experience playing
+- [03:10] a bit with this kind of agents uh so it
+- [03:13] doesn't use vector search or anything it
+- [03:15] just has access to globe and gp and with
+- [03:18] this it can uh get some idea of what
+- [03:21] documents it's looking for and use grap
+- [03:23] to find them and put them in context and
+- [03:25] this was I think kind of the nail in the
+- [03:27] com coffin for at least vector search
+- [03:30] with people saying uh that uh yeah
+- [03:34] vector search is dead. Uh some people
+- [03:36] confusing rag and vector search saying
+- [03:38] that hence rag is mega mega dead because
+- [03:40] it was already killed by context
+- [03:42] anyways. But yeah and that's where we
+- [03:45] are right now where I think we can
+- [03:48] hopefully get started towards the slope
+- [03:50] of enlightenment and uh accept that rag
+- [03:54] is a great policy for attention.
+- [03:57] But so before we discuss this, let's
+- [04:00] talk about the first allegations of
+- [04:02] Rag's death, which is did long context
+- [04:05] really kill Rag? And for this, I'd like
+- [04:08] to introduce an analogy that I think
+- [04:10] will resonate with with some people here
+- [04:12] because I think we've all met that
+- [04:14] person that has a single simple question
+- [04:18] and instead of trying to find who can
+- [04:21] answer them, they just set up a meeting
+- [04:23] with 10 people and and just like uh ask
+- [04:28] a question in a meeting, which results
+- [04:31] with a meeting room with a lot of people
+- [04:33] being bored and wondering why they're
+- [04:35] here. and uh it's not a very efficient
+- [04:38] way to to ask questions. Well, long
+- [04:41] context are are large meetings
+- [04:42] essentially. So, when you invite 10
+- [04:45] people with one person having the answer
+- [04:47] and nine being completely irrelevant, uh
+- [04:50] you're essentially like producing adding
+- [04:53] extra noise because well, at best the B
+- [04:56] people will be quiet, at worst they will
+- [04:58] chat among themselves or say irrelevant
+- [05:01] stuff. It might be uh so your signal
+- [05:04] will be lost in noise and of course it
+- [05:06] will cost a lot of money because you
+- [05:07] have to pay engineering time to put them
+- [05:09] in meeting which is a shame. Then
+- [05:12] instead if you ask the right person uh
+- [05:15] your signal is much clearer and it's of
+- [05:18] course much cheaper because you only
+- [05:20] take the time of this one person.
+- [05:23] Your AI system is exactly the same. So
+- [05:26] if you have one million context window
+- [05:28] in which you stuff all of your knowledge
+- [05:30] space, you will most likely have a bunch
+- [05:32] of it being completely irrelevant only a
+- [05:35] few token actually containing the answer
+- [05:37] you're interested in which dilutes your
+- [05:40] context completely dilutes your signal
+- [05:42] and is more expensive. Whereas rag with
+- [05:46] proper search uh be it vector or as we
+- [05:48] see later on maybe grip as well uh you
+- [05:52] can actually focus your attention on
+- [05:54] only the relevant tokens uh and lower
+- [05:56] the cost. So you may be wondering now
+- [06:00] which is at least what I've wondered
+- [06:01] when I was preparing this talk why is
+- [06:04] more expensive and and what is cheaper
+- [06:07] and I got incredibly frustrated because
+- [06:09] I couldn't find online any hard facts on
+- [06:12] this actually only people being very
+- [06:14] vague about it saying it's slower it's
+- [06:16] more expensive uh so I decided to yeah
+- [06:19] be the change I wanted to see and build
+- [06:21] a calculator uh if you look at the
+- [06:24] slides later on the link is actually
+- [06:26] clickable and everything is deployed.
+- [06:29] Um, essentially this lets you play with
+- [06:32] like actually how much cost through
+- [06:34] context and uh assuming like some
+- [06:38] uristics. So for example that we have
+- [06:40] a,000 pages in your knowledge base you
+- [06:42] can play with that number uh seeing some
+- [06:45] numbers actually of how much stuff
+- [06:47] costs. So if we assume that we have 1,00
+- [06:50] pages of typical documents that amounts
+- [06:52] to something like 600,000 tokens and if
+- [06:55] we you just try to brute force long
+- [06:58] context without cash or anything this
+- [07:00] ends up being extremely expensive in a
+- [07:04] month. If you're a bit smarter and you
+- [07:06] use context which a lot of model
+- [07:09] providers are making available nowadays
+- [07:11] so anthropic gemini at least uh you can
+- [07:14] lower the cost by quite a a lot like a
+- [07:16] factor 10 almost but this also makes it
+- [07:19] a bit trickier because you need to
+- [07:20] manage the cache uh keep in mind this is
+- [07:23] long context so you're putting all of
+- [07:24] your knowledge base in a single prompt
+- [07:27] so if you have even just one line
+- [07:29] changing you need to change your cache
+- [07:31] again which can be a pain
+- [07:34] But if you actually take the time to set
+- [07:36] up a proper uh rack system with a with a
+- [07:39] nice vector search, you can end up
+- [07:42] making stuff yet again factor 10
+- [07:44] cheaper. And that's assuming that you're
+- [07:46] paying for your vector database, which
+- [07:48] may not be the case, but yeah. And of
+- [07:51] course, it's also much cheaper if you're
+- [07:53] using sorry, much faster um because uh
+- [07:58] shorter queries are much faster to treat
+- [08:01] by LMS. So yeah and that's assuming that
+- [08:05] long context works but as I think a lot
+- [08:08] of you know long context doesn't really
+- [08:11] work anyways because uh as you know
+- [08:15] capacity does not mean comprehension we
+- [08:17] have a lot of studies with like needle
+- [08:18] in a haststack and even more realistic
+- [08:20] benchmarks where people try to do
+- [08:22] actually like what we're doing now which
+- [08:24] is saying you have like a long document
+- [08:26] with one part relevant and the rest are
+- [08:29] kind of related but not really and uh
+- [08:32] you find that the performances of the
+- [08:33] model vary widely model to model. It
+- [08:36] varies a lot also depending on where
+- [08:38] your relevant information is in your
+- [08:40] context which you do not control if
+- [08:42] you're doing long context. And uh it's
+- [08:45] even worse uh I think the plot the the
+- [08:49] caption may be a bit small but the lower
+- [08:51] plot is for uh multimodel ingestion. So
+- [08:55] assuming your documents have some images
+- [08:57] uh it gets even worse. And also how much
+- [09:01] really is 1 million context? As we saw
+- [09:03] in the slide before, even a thousand
+- [09:06] pages of documents is something like
+- [09:08] 600,000 tokens. That's really not that
+- [09:10] much. And if you look at some popular
+- [09:13] GitHub repos in machine learning, you
+- [09:16] find that almost all of them are
+- [09:17] completely like smashing that 1 million
+- [09:20] uh tokens contact length. And for last
+- [09:23] uh oh yeah, and that's also just for
+- [09:25] text. Code is text. uh if you add images
+- [09:28] it makes stuff even trickier because
+- [09:31] images are very token hungry and as a
+- [09:34] last like order of magnitude uh so if
+- [09:38] considering the Lords of the rings books
+- [09:40] so the first book itself is about 250k
+- [09:43] tokens if you take the full trilogy
+- [09:45] that's about 700k tokens and if you
+- [09:49] consider only a single movie and try to
+- [09:52] like assume 24 fps that would be
+- [09:55] something like 170 million tokens. So
+- [09:58] yeah, 1 million context length really
+- [10:00] isn't that much. So I hope that by now
+- [10:03] I've convinced you that yeah, long
+- [10:05] context didn't kill rag. Retrieval is
+- [10:07] still very relevant nowadays. Uh but you
+- [10:10] may be wondering like what about gp? Do
+- [10:12] do I need to bother still with building
+- [10:14] like vector search and indexing
+- [10:16] everything and and stuff? And the answer
+- [10:19] is uh gp is actually great in a lot of
+- [10:24] cases. uh if your documents are mostly
+- [10:26] text which is the case if you're
+- [10:28] handling code then grap is great uh like
+- [10:31] lexical search is a very strong baseline
+- [10:33] in a lot of cases though it can be
+- [10:36] actually uh more expensive and slower
+- [10:39] than proper uh vector search because if
+- [10:43] your system has to retry multiple times
+- [10:45] then it gets slower and slower and more
+- [10:47] and more expensive. Um but
+- [10:52] in a lot of cases for enterprise
+- [10:53] documents you will have inevitably a lot
+- [10:56] of visual contents with the answer to
+- [10:59] your question being contained in
+- [11:00] diagrams or uh plots and for this
+- [11:04] multimodel retrieval is still the mode.
+- [11:07] It's something that well grabb cannot do
+- [11:09] and uh it's in my import in my opinion a
+- [11:12] very important line for future research
+- [11:14] along with the multimodel reranking
+- [11:17] because as I said uh images make like
+- [11:20] context dilution even worse than text.
+- [11:23] So it's important to make sure that you
+- [11:25] fit to the VLM afterwards only the the
+- [11:28] relevant images.
+- [11:31] So rag is alive. Uh but how do we do
+- [11:34] today in 2025 a smarter rag than what we
+- [11:38] were doing in 2023. Uh to me the answer
+- [11:41] is uh instead of having basically a
+- [11:44] fixed pipeline where we just said okay
+- [11:46] we take a query we retrieve we generate
+- [11:48] which was what we were doing in 20 23 uh
+- [11:52] we make a a pipeline that has a lot of
+- [11:54] conditional decisions. So starting from
+- [11:57] a user query, we first decide uh with
+- [12:00] tool routing if we need to do retrieval.
+- [12:03] So going back to that meeting analogy,
+- [12:05] it's basically wondering do do we
+- [12:06] actually need need a meeting here or can
+- [12:08] we just DM some people here and there
+- [12:10] and be fine with it. Uh this will
+- [12:13] obviously depends on the query type. If
+- [12:15] it's like touching relevant uh sorry
+- [12:18] recent information that may not be in
+- [12:20] the knowledge base and stuff like this
+- [12:23] then we need to decide what are we
+- [12:25] actually retrieving. So what's the topic
+- [12:28] of our meeting today? Uh this can be
+- [12:32] like rewriting the query depending on
+- [12:34] the context that's around but also maybe
+- [12:36] generating some filters which can be
+- [12:39] used to improve retrieval afterwards.
+- [12:41] Then we're deciding where and how we
+- [12:44] actually do retrieval. Um so as I said
+- [12:47] it may be that your your your knowledge
+- [12:49] base is very very textual in which case
+- [12:51] you may want to use lexical search
+- [12:53] rather than vector search. It may be
+- [12:56] that your your knowledge base is very
+- [12:58] very uh image based in which case you
+- [13:01] want to use multimodel search rather
+- [13:03] than just text based or like you may
+- [13:05] want to do some hybrids. You may have
+- [13:07] multiple collections. So you need to
+- [13:09] decide in which you're going to look and
+- [13:12] for this I think stuff like meta data
+- [13:15] describing your collections and offline
+- [13:18] premputee is extremely important to make
+- [13:20] sure you have at the time of quering all
+- [13:23] the information needed to do the routing
+- [13:26] without like yeah making your system
+- [13:28] extremely slow for no reason and finally
+- [13:31] we generate the answer
+- [13:34] and uh my final slide today was to say
+- [13:37] that uh uh evas are more important than
+- [13:42] ever. I think this was already mentioned
+- [13:44] a little bit today. Uh but yeah,
+- [13:47] with pipelines becoming more complex,
+- [13:49] having a lot of extra decisions, we need
+- [13:52] to make sure that we evaluate everything
+- [13:54] and that we evaluate stuff in a modular
+- [13:56] fashion so that you don't just get lost
+- [13:59] with like oh it broke but I have no idea
+- [14:01] why. Uh so yeah you can evaluate tool
+- [14:04] routing with metrics such as F1 based on
+- [14:06] the Oracle and also the latency and cost
+- [14:11] of your overall query because if you're
+- [14:13] using like two expensive tools compared
+- [14:16] to like for very simple query that's
+- [14:18] obviously not good. You then also to
+- [14:21] evaluate tool argument writing. So again
+- [14:23] if you generate right filters uh if your
+- [14:26] writing actually improves retrieval
+- [14:28] performances and stuff like this uh
+- [14:31] evaluate also retrieval and reranking
+- [14:34] and finally only as a final step you may
+- [14:38] evaluate the quality of the answer but I
+- [14:40] find that a lot of people are just doing
+- [14:43] this eval and kind of skipping all the
+- [14:45] rest whereas I think all the rest is the
+- [14:47] most important uh part of evaluating and
+- [14:51] uh of course I think A lot of you
+- [14:52] recognize this as wave plots because
+- [14:55] yeah whiff makes it very simple to
+- [14:58] actually build this type of modular
+- [14:59] evaluation which is why we love it later
+- [15:02] on. So yeah in conclusion since 2023
+- [15:06] right didn't die but it definitely grew.
+- [15:09] Uh so from 2023 where it was just like a
+- [15:13] single pipeline that was going to save
+- [15:14] the world uh to like through a big
+- [15:17] crisis well last year but also this year
+- [15:20] to be honest where it was uh told that
+- [15:23] it was dead many many times uh to
+- [15:26] finally in 2025 an intelligent way to do
+- [15:29] rack where it really becomes an
+- [15:31] attention policy to say this is the part
+- [15:34] where you should be uh focusing on and
+- [15:38] where it's also became very important to
+- [15:41] yeah decided do we retrieve do we need
+- [15:43] it yes or no uh do we retrieve in the
+- [15:46] correct collection and uh are we
+- [15:49] actually monitoring everything measuring
+- [15:51] everything to make sure that uh we know
+- [15:55] if and when our system is failing. Thank
+- [15:58] you for your attention.

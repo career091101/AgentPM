@@ -1,0 +1,237 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=yKPAwTF1SGY"
+video_id: "yKPAwTF1SGY"
+video_url: "https://www.youtube.com/watch?v=yKPAwTF1SGY"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "AI", "machine_learning", "team_building"]
+topics: ["組織構築", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=yKPAwTF1SGY
+  - Retrieved at: 2025-12-30T16:44:17+09:00
+  - [00:00] Today, artificial intelligence is everywhere. And if you're working in IT or you're a developer, uh
+key_points:
+  - "- [00:12] involved in some projects uh, with AI. And I, I think it's very important that we take a m"
+  - "- [00:30] plan of the human brain,uh, it's going to give us some hints about how we need to evolve o"
+  - "- [01:53] the internet. Um, and when we think about our, our organization, you know, we have um, imp"
+  - "- [02:58] are happening in this style. Okay? And so, what we, what we really probably need to get"
+  - "- [03:05] to is uh, a world where, we need to get"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: yKPAwTF1SGY
+
+- URL: https://www.youtube.com/watch?v=yKPAwTF1SGY
+- Retrieved at: 2025-12-30T16:44:17+09:00
+
+## Text
+
+- [00:00] Today, artificial intelligence is everywhere. And if you're working in IT or you're a developer, uh
+- [00:07] you've probably either already come into contact with AI, or you may very soon find yourself to be
+- [00:12] involved in some projects uh, with AI. And I, I think it's very important that we take a minute and
+- [00:19] understand that AI is, is a launching off uh, of the human brain. And so, if we take a moment to
+- [00:26] think about where we've come from with AI uh, and look at the architecture and the plan and the
+- [00:30] plan of the human brain,uh, it's going to give us some hints about how we need to evolve our IT
+- [00:35] architecture to be more AI-ready uh, across our technology. And so,uh, you know, here's a really little
+- [00:41] cartoon summary. Um, so when we think about AI today, we have the
+- [00:48] internet, and the internet's got tons and tons of data. And, and so really where, you know,
+- [00:55] where the current uh, GPT-driven large language models and the sort of new paradigm of, of AI that
+- [01:02] we're in today has, has real heavy overlap with the internet. Because basically,
+- [01:09] you know, the, the GPT models kind of swallow the internet and process it and then create these,
+- [01:15] these large models uh, that have a really uh, good understanding of text and images and these, and
+- [01:21] these new applications, okay? So, this first paradigm is sort of AI swallows the internet, right?
+- [01:27] Um, and so, when we think about this, this, uh, this framing, this is not really useful
+- [01:34] for us inside an organization. Um, when we're inside an organization,um, we care a lot
+- [01:40] about specific things that are applicable to our organization. So, you know, the data that we
+- [01:47] care about inside uh, an organization is very different than all the data that's on, that's in
+- [01:53] the internet. Um, and when we think about our, our organization, you know, we have um, important, you know,
+- [01:59] applications and, and maybe some of that is, is SaaS and maybe some of that are things that we've
+- [02:04] developed internally. But we've got kind of this, this executive functioning layer of our
+- [02:09] applications. And then of course, uh, we have networking uh, that kind of connects everything
+- [02:15] together. Um, but the, the challenge that we have with this sort of existing IT infrastructure in AI
+- [02:22] is that, you know, now we're, we're in a paradigm today where we're in this kind of like plus AI
+- [02:29] paradigm. So, it's kinda like, this is what we've got. You know, we've got data and apps and SaaS and
+- [02:33] networking, and we're in this sort of like now we're trying to have sort of AI swallow the
+- [02:38] enterprise, right? So, AI swallowed the internet, and now we're trying to kind of jam AI into the, into
+- [02:44] the existing, um, enterprise. And the, and the problem, the problem with this, okay, the problem that
+- [02:51] with this is that we're seeing 90% plus failure of AI initiatives that
+- [02:58] are happening in this style. Okay? And so, what we, what we really probably need to get
+- [03:05] to is uh, a world where, we need to get
+- [03:12] to a world where our AI, okay, is a plus, but we need to get to a world where, where
+- [03:18] we've got a little bit more organization and separation of kind of what our, what our data,
+- [03:25] what our data sources are and what our tools and executive capabilities are, and then how that's
+- [03:31] going to interact uh, with AI. And of course, the goal here is to kind of reverse uh, what's happening
+- [03:38] down here, you know, and let's try to get to um, 80% plus success rates in our AI
+- [03:45] initiatives. So we've talked a little bit about where we came from and kind of where we're at. And
+- [03:51] let's take a step back now and let's talk about, you know, what are we trying to mimic. You
+- [03:58] know, when we're, when we're talking about artificial intelligence, you know, what we're
+- [04:02] really trying to do is we're trying to mimic human intelligence. And so, all animals, okay, all
+- [04:07] biological animals have a body plan. And a body plan is kind of a biologist's way of saying an
+- [04:12] architecture, right? An IT person would say an architecture, biologist says body plan. So here we
+- [04:18] have a, a brain and we have, you know, this main region in the top where most of the action is,
+- [04:24] right, um, uh, which is the cerebrum. And then we've got this, this sort of midbrain area.
+- [04:31] And we've got a, a little thing back here called the cerebellum, which is, which is Latin for uh, small
+- [04:37] brain. Um, and then you've got this nerve cord, right? So, this is your nerve cord and it runs
+- [04:44] down your backbrone, backbone, right? So, so, so vertebrates have their nerve cord running down a
+- [04:49] backbone and invertebrates have their nerve cord not running down a backbone. But what we're, what we're
+- [04:54] basically, this body plan is basically designed to sort of process data, right?
+- [05:01] So we're processing data from the environment and we're sort of, um,
+- [05:07] generating responses,okay? So we're getting data here, you know,
+- [05:14] from all of our, when our body touches things and feels things, um, you know, we're getting data
+- [05:20] coming in here through our ear. Uh, we're getting data uh, coming in here through our, um, olfactory area
+- [05:27] with the nose and the mouth. And the reality is that your eye is a little bit down from here, but
+- [05:31] basically, you're getting in data here from smelling and tasting. You're getting data from
+- [05:35] hearing, which is auditory. You've got a big uh, you've got a big you know, data center coming in from, from optical
+- [05:42] data when you're looking at things. And so, you've got all this data coming in and,
+- [05:48] and the brain is basically organized into, into three parts, sort of three regions.
+- [05:55] Um, you've got the, you've got the uh, the lower brain, you've got the
+- [06:02] midbrain, and then you've got this upper, upper brain area, right? And so, in the, in the lower
+- [06:08] brain,uh, what you're doing is you're processing really primitive data and really primitive
+- [06:14] responses, right? So in the lower and a little bit into this midbrain area, we're monitoring the
+- [06:19] temperature, we know if we're hot and cold, we know if we're, you know, we know if we're, if we're being uh, eh,
+- [06:25] if, if something is hitting us or punching us or biting us. As we move up into the, into the
+- [06:30] midbrain, so the lower brain is like is like really, um,
+- [06:37] primitive. Uh, the midbrain starts to be about connectivity.
+- [06:44] So the midbrain is handling a lot of data exchange; what gets ignored, what gets stored in
+- [06:50] memory, what gets moved around um, to different parts of the brain. And if you look at this picture from
+- [06:56] the top, most people know that there's a left and a right hemisphere to the brain. So we're like
+- [07:00] bi, bilaterally symmetrical. You've got this left and right brain, and right here in the midbrain as
+- [07:05] well, you've got this very important structure that connects and allows for communication across
+- [07:10] those two hemispheres. So really midbrain is, is about connectivity, lower brain is kind of primitive
+- [07:16] functioning. And then if you look at this, you know look, at look at all of this real estate that we
+- [07:21] have. We've got a huge amount of real estate left over up here. Um, and if you go and, and look at the
+- [07:27] literature,this, this really big region up here in the upper brain is oftentimes described as being
+- [07:33] in like four parts, you know, so there's kind of like four parts of this thing. And this frontal
+- [07:39] part, the frontal area is where we're really getting our executive functioning, okay?
+- [07:46] So, this, this is really the pilot. So, when you're, when you get up and,
+- [07:53] and whatever you're deciding to do next right now—if you decide to pause this video—it's this
+- [07:58] frontal brain area that's integrating all, everything that you're experiencing and kind of deciding
+- [08:04] what to do next. Right? We've got these, we've got these sensorial areas,okay, that deal with uh,
+- [08:11] processing auditory uh, data that's coming in through our ears. We've got a big optical area towards the
+- [08:17] back of the, of the upper part of the brain. And we've got this, and we've got these upper regions uh,
+- [08:23] that allow us to, to, to, to integrate and do really long-term strategic thinking. So one of the great
+- [08:29] things a brain does is, is really, you know,the, themillion, the million-dollar, uh, you know, thing that
+- [08:36] the brain does that we can't,uh, that we, that we have a hard time figuring out how to
+- [08:42] replicate is the brain is like really amazing at integration, right.
+- [08:49] So it's really good at integrating. So, when you're asked about a memory of like, hey, you were at the
+- [08:54] beach last summer. Um, when you, when you think about that moment, you may be remembering salt
+- [08:59] smells, you may be remembering the sound of the waves, you might remember the taste of some really
+- [09:04] great uh, crab cakes that you had while you were there. Um, and you may even remember stepping on a
+- [09:09] sharp shell, you know, and cutting your foot and experiencing pain and having to go get stitches. But,
+- [09:13] but the thing that's amazing about the brain, right, is this ability to, to integrate and kind of
+- [09:18] know when to take,uh, when to take bits of all these different senses and, and all of this different data.
+- [09:25] Now,the, the last thing I'll say about the brain that I think is, is, is, is foretelling about when we
+- [09:31] think about artificial intelligence and the enterprise is the brain ignores almost everything
+- [09:38] that it experiences. So, what's amazing is that we, we completely ignore about
+- [09:44] 99.8% of all the data that we, that we come into contact with. And so, if you think about your drive
+- [09:49] to work this morning, okay, you're, you're not you know, that there were other cars on the road, but
+- [09:54] your brain knows to ignore the, the sequence of colors of different cars, or the make and models of
+- [09:59] different cars. Now, if you, if a Ferrari went zooming past you, you might remember that cuz
+- [10:04] it's really, it's kinda really out of the ordinary. Um, but, but the brain is incredibly good at
+- [10:09] ignoring, um, like almost everything that you're coming into contact with. And it's very good at
+- [10:15] storing things that really stand out, that are, that are likely to be important in the future.
+- [10:20] Okay. So now let's, let's talk a minute about where we're at with, uh, with, with our enterprise sort of
+- [10:27] IT architecture. We're going to keep this super simple. Um, so we're going to keep this in three
+- [10:31] categories, okay. We're going to talk about applications, okay? So, akli, applications
+- [10:37] you know, are you know,are, are things that do things, right? So it's kind of like
+- [10:43] executive functioning applications.Two, um, is data. So, all different types
+- [10:50] of data that we're storing. And three will be network, okay?
+- [10:57] So network, network again is kind of how we connect things, it's our communication plan. Okay.
+- [11:02] So, when we, when we sort of start looking at our applications, let's put just a couple of these
+- [11:09] over here, um, you know, maybe we have like a, a CRM type of a system. Uh, maybe we have a
+- [11:16] human, a human resources information system. Maybe we have a sort of financial,
+- [11:23] you know, financial accounting type of system here. And, you know, maybe we've got, uh, you know, maybe
+- [11:29] we've got something that holds. that's sort of a legal system that holds contracts or other kinds
+- [11:34] of documents that might be of a legal nature. So here, here are applications. Um, and then typically,
+- [11:41] you know, we're going to have uh, some, some type of data layer, okay? And so I'm going to write the
+- [11:48] word uh, data lake right here. And, you know, don't be offended by data lakes,
+- [11:55] you know.Um, I know that uh, some data lakes are constructed uh, to where we feel like everything is
+- [12:00] just kind of dumping into them,um, and other data lakes have, have been uh, carefully constructed so
+- [12:06] that you've got some really nice logical layers, and they're really useful, right? But whether, whether
+- [12:10] your data lake is a, is a swamp or whether it's really useful, the idea is that we've got
+- [12:15] these applications, the applications themselves have, have data and have users and have executive
+- [12:22] functioning,uh, and we typically connect them uh, and sorta dump data into, into something that might
+- [12:28] look like a data lake.Now, in the past, when we're trying to uh, when we're trying to
+- [12:35] do things across these applications, we end up in, in sort of a bad, what I would call a kind of a
+- [12:41] star structure, right? So I've got my, you know, my CRM, my HR, my financial,
+- [12:48] you know, my CLM. And, you know, this may have been, you know, this is something else. Um, but what we, what we
+- [12:55] typically do is we use an API type of paradigm. So we use kind of an API
+- [13:02] paradigm here. And we say, well, you know,the, the HR system, you know, needs to go grab some information
+- [13:08] from that system, and the CLM system uh, needs to push something to the, to the financial system. And the s,
+- [13:14] the financial system also needs to talk to this other system over here. And so we kind of end up
+- [13:19] in this, we kind of end up in this, in this connected world where we're relying heavily on
+- [13:24] APIs and we're relying really heavily on very structured, um, types of integrations that do very, very
+- [13:31] specific things. So, when we're building this type of architecture, you know, we really can't
+- [13:37] leave much to chance. If we leave much to chance over here, things start to break. Okay?
+- [13:44] So, the, the, the big question is how do we move uh, from this paradigm where we've got
+- [13:51] kind of uh, AI kind of being jammed into the picture,uh, into a paradigm where this type of
+- [13:58] picture becomes more AI-ready. Okay? And, and so let's take a shot at that. The first thing that
+- [14:05] we're going to need to do is we're going to need to, we're going to need to scotch uh, this API
+- [14:12] as the, as the dominant interface, because we're going to need to introduce a new character into
+- [14:17] our story. Uh, we're going to need two new characters. We're going to need a new
+- [14:24] orchestration layer, and the orchestration layer is going to
+- [14:30] spawn armies of AI agents. So, we're going
+- [14:37] to have lots of, lots of different AI agents that are going to be able to be spawned out of
+- [14:44] this orchestration layer. Now, what good is the orchestration layer right now if it's not
+- [14:50] interconnected to uh, the rest of this world? And you know, what good is it if we're kind of up in this
+- [14:57] type of a world where everything is kind of already connected in very specific ways?
+- [15:02] Well, without, without interrupting how we're operating today, we can start to do some new things,
+- [15:09] which is to make sure that each of these applications
+- [15:15] gets an MCP
+- [15:22] service. So, MCP service stands for Model Context Protocol. And if we, I'll just put an M
+- [15:28] here. So for each of these applications that we're using and for the different
+- [15:35] areas in our data lake, maybe we partition our data lake a little bit and um,and,
+- [15:41] and chop it up and organize it so that these things can start to become MCP. Um, we can have
+- [15:48] MCP hosts that are providing MPC service to our agents. Okay?
+- [15:55] And so, when we, when we, when we add orchestration and when we transform our
+- [16:01] applications into now being able to be MCP services,um, what the, what
+- [16:08] that's doing is it's exposing these applications um, as basically sets of, of tools.
+- [16:15] Tools is like, what can I do? And data sources, which is like what do I know? So,
+- [16:21] tools are what can I do, data sources is what do I know about. Okay? And when we start to look at
+- [16:28] having MCP services kind of distributed here and, and where we can communicate and, and
+- [16:34] ask and go, go, go ask agents to go do specific actions across this
+- [16:41] infrastructure, we're kinda eking in the direction of looking more like this picture, okay?
+- [16:47] Because the, the ability to orchestrate, you can almost look at, you know, these different applications
+- [16:52] kind of as different organs in the brain. So maybe the CRM is kind of like my ears and my auditory
+- [16:57] center. My HRIS system might be kind of like my olfactory, you know, nose and mouth.
+- [17:04] My financial and accounting system, you know, might start to look more like my upper kind of
+- [17:08] strategic part of my brain. My CLM system, you know, might be, might be back here in the rear as part
+- [17:14] of motor coordination or something. But, but ultimately, we start to have sort of organs who, who
+- [17:20] are, which remain specialized. But by putting in the MCP and expressing themselves as tools and
+- [17:27] data, and by breaking into this data lake and creating you know what we call an AI-ready
+- [17:33] data layer, okay?
+- [17:41] When we get to an AI-ready data layer instead of a data lake, and when we. and when we and we get
+- [17:46] these executive functioning uh, applications able to interact with MCP, then we can send lots of
+- [17:53] agents out, and these agents almost start to be like synapses. Um, synapses are the, are the,
+- [18:00] are the structure that connect neurons in the brain. And so, what the, what the brain is
+- [18:06] able to do is when you want to do something super complicated,your, your forebrain, this executive uh,
+- [18:12] functioning frontal area in here—I'm going to try to use a different color—so when you're, when you
+- [18:18] go to do something complicated, you're activating this integration in this, in this executive
+- [18:23] functioning here in this forebrain. Well, what, what's going to happen is that's going to be, that's
+- [18:27] going to be this orchestration layer over here. So when we want to do something complicated, we're
+- [18:31] going to want to activate this orchestration. And then what we're going to do is we're going to
+- [18:36] know, are we calling on hearing or are we calling on our olfactory senses. Are we
+- [18:43] calling on, you know, some really higher-level strategic functioning? Is, is the, is the task needing
+- [18:48] to call on, you know, motor coordination? And we can start to develop a very, a very strategic approach
+- [18:55] to doing very complicated things. Now over here, that's what this architecture starts to look like
+- [19:00] cuz you've got sort of your orchestration is kind of your frontal lobe. It can, it can, you know,
+- [19:05] it can basically look at, in the agent framework, it can basically say, look, let, let's talk about goals
+- [19:11] we're trying to achieve and then outcomes that are going to be acceptable. Okay? And
+- [19:18] so, goals and outcomes start to kind of be more the way we work in the, in the human brain. We can
+- [19:23] use the orchestration layer and we can light up, you know, we can light up all these agents, kind of
+- [19:28] like synapses, to go out across all these different, um, functional executive functioning
+- [19:34] parts of the, of the application layer. And that they can also, the agents can also—let's go back
+- [19:40] to our agent color. The agents can also come down and jump into areas of
+- [19:47] the data layer as well. And so, the, the goal of this, the goal of this conversation,uh,
+- [19:54] you know, was to kinda use a little bit of a cartoon and have some fun.Um, but it is to remind
+- [19:59] everybody that artificial intelligence is literally trying to replicate the kind of, the
+- [20:05] kind of uh, incredibly integrated functioning that we have uh, in the human brain with biologic
+- [20:11] intelligence. And so, if we take a look at the human brain and we look at how integrated it is,
+- [20:16] we look at how compartmentalized it is,um, we look at,uh, you know, how organized it is, we look at th, its
+- [20:23] compact nature, we look at the fact that it runs uh, on very low power, um, and, and
+- [20:29] then we can start to see sort of where we, where we maybe want to go with the enterprise IT um, so
+- [20:36] that we can be more AI-ready across the enterprise.

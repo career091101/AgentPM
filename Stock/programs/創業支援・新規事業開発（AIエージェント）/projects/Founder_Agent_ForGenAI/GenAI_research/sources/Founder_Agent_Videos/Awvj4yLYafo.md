@@ -1,0 +1,1429 @@
+---
+title: "YouTube Video: Awvj4yLYafo"
+video_id: "Awvj4yLYafo"
+video_url: "https://www.youtube.com/watch?v=Awvj4yLYafo"
+speaker: "Jacob Efron"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  new tools for building agents. I'm Jacob Efron and today on Unsupervised Learning, we had a really wide-ranging discussion. We talked about how developers should think about where these agents do and ...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: Awvj4yLYafo
+
+- URL: https://www.youtube.com/watch?v=Awvj4yLYafo
+- Retrieved at: 2025-12-30T09:58:39+09:00
+
+## Text
+
+- [00:00] new tools for building agents. I'm Jacob
+- [00:02] Efron and today on Unsupervised
+- [00:03] Learning, we had a really wide-ranging
+- [00:05] discussion. We talked about how
+- [00:06] developers should think about where
+- [00:08] these agents do and don't work, as well
+- [00:09] as computer use models and how those are
+- [00:11] being used. We talked about how
+- [00:12] enterprises should be building for this
+- [00:14] agentic future, as well as what will
+- [00:16] differentiate application builders who
+- [00:17] are building on top of these models. And
+- [00:18] we hit on AI infrastructure, what the
+- [00:20] needs are still for developers, and
+- [00:22] where there's still room for startups to
+- [00:23] compete. This was a ton of fun to do
+- [00:25] this right after a really compelling
+- [00:26] release from OpenAI. I think folks will
+- [00:28] really enjoy this. Without further ado,
+- [00:30] here's our episode.
+- [00:33] Well, thank you both so much for uh for
+- [00:34] coming on the podcast. Really appreciate
+- [00:35] it. Yeah, good to be here. Awesome to be
+- [00:37] here. Yeah. I mean, congratulations. Uh
+- [00:39] never never a dull moment of opening
+- [00:40] eye, but I feel like the last month has
+- [00:41] been like an even even crazy by your
+- [00:43] standards, the amount you've shipped.
+- [00:44] Yeah. Yeah. It's been it's been quite a
+- [00:46] quite a journey, hasn't it?
+- [00:49] I can certainly imagine. Well, I feel
+- [00:50] like there's a ton of things we'll want
+- [00:52] to dig into in in all the stuff you've
+- [00:53] released lately. Uh but maybe to start
+- [00:55] just at the highest level, I'd love to
+- [00:56] hear kind of your long-term vision for
+- [00:58] how we as consumers will like interact
+- [01:01] with agents in like you know the next 5
+- [01:02] 10 years. Yeah, I mean right now we see
+- [01:04] it all happening uh in in surfaces like
+- [01:07] chat GBD, you've got deep research,
+- [01:10] you've got operator, people are like
+- [01:11] specifically going to this spot. I think
+- [01:13] the most exciting thing about releasing
+- [01:15] models and APIs that are underlying
+- [01:17] these agentic products is that we're
+- [01:20] going to see them in more and more
+- [01:21] products across the web. So computer use
+- [01:23] coming to you know a browser that you
+- [01:25] like to use or operator automating like
+- [01:28] a task that you do dayto-day at work uh
+- [01:31] and and doing all the clicking and and
+- [01:33] filling out forms and all the research
+- [01:34] for you. Uh I think it's just going to
+- [01:36] become more and more deeply embedded um
+- [01:40] into products that you use today uh
+- [01:42] dayto-day and that's what we're most
+- [01:44] excited about at least in the API
+- [01:46] platform is to like just like disperse
+- [01:48] this thing and have it be everywhere.
+- [01:49] Yeah. I think one of the cool things
+- [01:50] about working on the API platform is you
+- [01:52] actually don't know what people are
+- [01:53] going to want to build. It's very
+- [01:54] verticalized, right? So like on chatbt
+- [01:56] first party, we kind of have an idea of
+- [01:58] what people will want to do, but in the
+- [01:59] API it's just like they people know
+- [02:01] their domains way better than we ever
+- [02:02] could, right? And so it'll be really
+- [02:04] interesting to see yeah how these
+- [02:05] products like and these model
+- [02:06] capabilities make their way into
+- [02:08] verticals. There particular like agent
+- [02:11] that you'd be like you're like waiting
+- [02:12] for like god I just can't wait until I
+- [02:14] have you know everyone always likes the
+- [02:15] travel agent for some reason. I don't
+- [02:17] know if there's uh there's one that's
+- [02:18] top of mind for you guys. Mine my top
+- [02:22] one is an API designing agent. Like the
+- [02:25] amount of time like Steve and I back and
+- [02:28] forth. Yeah. We're just like going
+- [02:29] through every single parameter name that
+- [02:31] we can think of and pram config or
+- [02:34] config param. Yeah.
+- [02:36] Um yeah, that would be amazing. We have
+- [02:38] like some deep research like thing that
+- [02:40] looks at like the best uh API design
+- [02:42] things and gets really good. Yeah, we
+- [02:44] could like just be fine-tuning it on all
+- [02:46] the APIs that we really like. That's
+- [02:47] actually a really good idea. Yeah. I
+- [02:48] hope someone takes your API and then
+- [02:49] gives you a product back that uh you
+- [02:52] would love that. That's the dream,
+- [02:53] right? Yeah, exactly. I guess, you know,
+- [02:55] a question a lot of folks are asking is,
+- [02:58] you know, we're obviously in the very
+- [02:59] early innings of these agents and
+- [03:00] they're kind of accessing the web and
+- [03:01] communicating with each other in ways
+- [03:02] that have been built for, you know, this
+- [03:03] previous paradigm. There's all sorts of
+- [03:05] futuristic ways that uh that folks think
+- [03:07] about how these agents may access the
+- [03:08] web and kind of communicate with each
+- [03:10] other. There was even that viral YC demo
+- [03:11] where agent realizes talking to an agent
+- [03:13] and they switch to something that's
+- [03:14] easier to exchange information. Like how
+- [03:16] do you guys think about how this
+- [03:17] evolves? And obviously I'm sure the
+- [03:18] developers will take you in all sorts of
+- [03:19] directions, but any early inklings of of
+- [03:21] how this might work? Yeah, for sure. I
+- [03:23] think on um agents communicating or or
+- [03:26] getting information from the web, we've
+- [03:27] already seen a big change. We've gone
+- [03:30] from this world where an agent would do
+- [03:32] a single turn, decide whether it wants
+- [03:34] to search the web or not, get
+- [03:35] information from the web, and synthesize
+- [03:37] a response. That was like what I think
+- [03:40] 2024 was about. 2025 is already about
+- [03:44] products like deep research where the
+- [03:46] model is like getting information from
+- [03:48] the web, thinking about what it got,
+- [03:50] reconsidering its stance, getting
+- [03:52] something else from the web, opening
+- [03:54] multiple web pages in parallel to like
+- [03:57] try to try to save time. And this whole
+- [04:00] like chain of thought tool calling or
+- [04:03] calling tools in the reasoning process
+- [04:06] is like a significant shift in terms of
+- [04:08] like how agents access information from
+- [04:10] the web. And you can totally imagine
+- [04:12] some of these web page extraction
+- [04:15] details being replaced by other agents
+- [04:18] um in the near future where I don't even
+- [04:21] know if like this agent needs to know
+- [04:22] that it's talking to an AI agent on the
+- [04:24] other end. It's just like an endpoint
+- [04:27] that it calls and it's like, oh, it got
+- [04:29] some very useful information that it
+- [04:30] uses to make its decision or backtrack
+- [04:33] or do something completely different.
+- [04:34] So, yeah, the I think it's all going to
+- [04:36] be pretty seamlessly embedded in this
+- [04:38] like chain of thought process where tool
+- [04:41] calling is just happening uh between
+- [04:42] both the internet and your your private
+- [04:45] data and your private agents. Um, so
+- [04:48] that's what that's where I see it going
+- [04:49] like pretty much like in the coming
+- [04:51] months. Is this something that you think
+- [04:52] companies like should be because
+- [04:53] obviously one version of the world is
+- [04:54] they can you know just wait for agents
+- [04:56] to start accessing their um you know
+- [04:58] sites. Another version is like they
+- [04:59] should be building actively toward this
+- [05:00] and like you know create the agent
+- [05:02] themselves that makes it easier for uh
+- [05:03] consumer agent to hit it. Like how
+- [05:05] should folks that are you know running
+- [05:06] these uh you know running products at
+- [05:08] some of these companies be thinking
+- [05:09] about this? I think the the developers
+- [05:12] are already doing this. So we we put out
+- [05:14] the agents SDK for this very reason
+- [05:15] because people are creating these multi-
+- [05:18] aent uh like swarms of multiple agents
+- [05:22] to solve these business problems. So if
+- [05:24] you look at like a customer support
+- [05:26] automation problem, you have one agent
+- [05:28] that's like looking after your refunds,
+- [05:30] another that's sort of looking after
+- [05:31] billing and shipping information,
+- [05:33] something else that sort of makes a
+- [05:34] decision on like pulling the FAQ or
+- [05:37] escalating to a human. And so we we
+- [05:40] already see this like multi-agent
+- [05:41] architecture uh be very popular uh and
+- [05:45] and we want to make it much easier for
+- [05:47] developers to to build on it and that's
+- [05:49] why we built the agents SDK. Now when do
+- [05:51] you start exposing these agents to the
+- [05:54] public internet and how that becomes
+- [05:56] useful is is going to be very
+- [05:58] interesting. I I don't think we've seen
+- [06:00] too much of that but it makes so much
+- [06:02] sense that that will happen at some
+- [06:04] point. Um my advice to companies or and
+- [06:07] products would be like just like build
+- [06:09] these AI agents internally to to solve
+- [06:11] real problems that your company is
+- [06:13] facing today. And whenever it sort of
+- [06:15] like becomes apparent that like exposing
+- [06:17] this to the internet for someone else to
+- [06:19] communicate with you makes sense. Uh you
+- [06:21] know that that'll just happen and uh I
+- [06:24] don't think we're too far from it but uh
+- [06:26] yeah that I think it'll just happen uh
+- [06:28] in the coming months. Yeah totally. I
+- [06:30] think what's really interesting too is
+- [06:32] that like you know before we've seen
+- [06:34] most of the data that a model is seeing
+- [06:35] is is is either your your your own data
+- [06:37] chat history file search and I think
+- [06:39] like what's really interesting
+- [06:40] especially with these tools that are
+- [06:41] much more connected to the web is that
+- [06:43] we'll see a lot more model a lot more
+- [06:46] data going into the model that's
+- [06:47] actually from around the web and not
+- [06:48] just data that you're providing which is
+- [06:50] really interesting as developers are
+- [06:51] thinking about incorporating you know
+- [06:53] and using these APIs what heristuristics
+- [06:55] do you guys use for where like agents do
+- [06:57] and don't work today and and how would
+- [06:58] you kind of advise folks let's like take
+- [07:00] a step little bit of a step back. So
+- [07:02] 2024 what most agentic products looked
+- [07:05] like was uh a very like clearly defined
+- [07:09] workflow with about you know less than
+- [07:12] 10 tools. Uh so like about a dozen tools
+- [07:14] mo at most and this like very well
+- [07:17] orchestrated go from here to there to
+- [07:19] there to there. Uh and that's how a lot
+- [07:21] of companies like built a bunch of
+- [07:23] really cool coding agents, built a bunch
+- [07:25] of really cool customer support
+- [07:26] automation projects, deep research
+- [07:28] projects, etc. Um in 2025 we've gone to
+- [07:32] this model where everything is happening
+- [07:34] in this chain of thought. It's like the
+- [07:36] model is in its reasoning process is
+- [07:38] clearly smart enough to figure out how
+- [07:41] it should call multiple tools and then
+- [07:42] also like figure out that it's going
+- [07:44] down the wrong path take a U-turn and
+- [07:46] then try something else. And I think
+- [07:48] you've gone away from the whole
+- [07:50] deterministic workflow building process.
+- [07:53] Um and OpenAI has like been working on
+- [07:55] on tools like reinforcement fine-tuning
+- [07:57] etc to like make this something that
+- [07:59] developers can use uh themselves and I
+- [08:02] think the next step after this is going
+- [08:05] to be how can you get rid of that you
+- [08:07] know 10 to 15 tool constraint that you
+- [08:10] have like how could you just expose this
+- [08:12] thing to hundreds of tools have it like
+- [08:14] figure out which is the right one to
+- [08:16] call and then make use of uh make use of
+- [08:19] those tools I think that's like really
+- [08:20] the next unlock and then this thing
+- [08:22] becomes because it's it's like it has
+- [08:24] all the superpower it needs. It it has
+- [08:26] the compute. It has uh the way of like
+- [08:29] uh like reasoning about different tool
+- [08:31] trajectories. Uh and it has access to a
+- [08:34] lot of tools. So that's what I'm like
+- [08:35] really excited about in the coming
+- [08:36] months is uh removing the number of
+- [08:38] tools constraint. Um but yeah, that it
+- [08:42] kind it's kind of hard to make that work
+- [08:43] with today's models, but I think that's
+- [08:45] going to change. Yeah. Yeah. Yeah. I
+- [08:47] think also just like increasing the
+- [08:49] available runtime that these models have
+- [08:50] to go off and like do what they need to
+- [08:52] do. I mean, if you're a human, you can
+- [08:54] go off and like work on something for a
+- [08:55] day and use as many tools as you need to
+- [08:57] get the job done. And I think now, like
+- [08:58] we've seen run times that for models,
+- [09:00] especially like deep research that are
+- [09:02] in the minutes, but you know, being able
+- [09:03] to get these things to go into the hours
+- [09:05] and into the days is going to yield some
+- [09:06] really powerful results. Last year, you
+- [09:08] had to put like such specific guardrails
+- [09:10] and chain things so closely together
+- [09:12] because you couldn't let things go off
+- [09:13] the rails. It seems like now you, you
+- [09:14] know, you're even more flexible in what
+- [09:16] you can allow. And then obviously the
+- [09:17] dream is just like, yeah, go off. Here's
+- [09:18] like the hundreds of tools that you
+- [09:20] could use across every task, you know,
+- [09:21] go go figure it out. Yeah, exactly.
+- [09:23] Totally. I think it's not a like let's
+- [09:25] see how the the next generation of
+- [09:27] models generalize to uh like all of the
+- [09:31] use cases that developers are going to
+- [09:33] have. There's also this sort of
+- [09:35] reinforcement fine-tuning technique
+- [09:36] where you're creating these tasks and
+- [09:38] graders. And if developers can create
+- [09:41] their their own tasks and graders and
+- [09:43] get the model to find the right path,
+- [09:46] the right tool calling path to solving a
+- [09:48] particular problem that's very unique to
+- [09:49] that developer's domain. That would be
+- [09:52] amazing. So, um I'm really excited about
+- [09:54] the next series of models that are going
+- [09:56] to come out and like our early like
+- [09:58] results from reinforcement fine-tuning.
+- [10:01] All that comes together to make like
+- [10:03] agents that are actually very useful and
+- [10:04] reliable. Yeah. The really cool thing
+- [10:06] about that is you're really steering the
+- [10:07] model in its chain of thought and you're
+- [10:09] kind of teaching it how to think about
+- [10:10] your domain, which is just like a really
+- [10:12] powerful kind of mental model when you
+- [10:14] think about it. You're like, okay, how
+- [10:15] do I think about like how do you how do
+- [10:17] you basically like train a model to be
+- [10:18] like a legal scholar essentially or
+- [10:20] train it to be like a medical doctor or
+- [10:21] anything like this really like training
+- [10:23] the way that it thinks in the same way
+- [10:24] that you know four years of university
+- [10:26] would train you to think in a specific
+- [10:27] way. Like I think the reinforcement fine
+- [10:29] tuning thing is a great example of like
+- [10:31] where you're going to see like really
+- [10:32] interesting verticalization for these
+- [10:35] models. Yeah. And for that I mean how
+- [10:36] have you thought about I feel like one
+- [10:37] of the classic problems or people talk
+- [10:38] about there is you know you can provide
+- [10:40] uh I'm sure folks want something like
+- [10:42] offtheshelf that makes it easy to do the
+- [10:44] kind of like grading and evaluation. Um
+- [10:46] and at the same time like some of these
+- [10:47] domains you know are so hyper specific
+- [10:49] in their own you know problems. How have
+- [10:50] you thought about at like the
+- [10:51] infrastructure level the right level of
+- [10:53] tooling to provide to folks that are
+- [10:54] doing that kind of fine-tuning in like a
+- [10:55] domain like legal or healthcare? Yeah,
+- [10:57] I'd say it's like still a work in
+- [10:58] progress. You know, we're like I think
+- [11:00] right now the things we're exposing is
+- [11:02] basically um we're allow we're kind of
+- [11:04] giving developers a way to build their
+- [11:07] own graders. So for example, if you are
+- [11:10] if you have an eval that you show does
+- [11:13] 50% on a medical task, right? you can
+- [11:16] build these graders, let's say, that um
+- [11:19] can cross reference a model's train of
+- [11:21] thought or something else that it's
+- [11:22] outputting based on like a uh some sort
+- [11:25] of like known ground truth like a
+- [11:27] medical textbook or something like this,
+- [11:29] right? And so over the course of
+- [11:31] fine-tuning, you can sort of like steer
+- [11:32] the model in those d in the direction to
+- [11:34] be able to produce like better and
+- [11:35] better outputs and just yeah, just kind
+- [11:38] of be able to just steer it in that way.
+- [11:40] And so we're kind of providing the the
+- [11:41] basic building blocks. Um really mostly
+- [11:43] just like these these really flexible
+- [11:45] graders that allow you to like take a
+- [11:47] model output and then grade it against
+- [11:48] some sort of ground truth or execute
+- [11:50] some sort of code to pro prove like oh
+- [11:52] yeah this is ma mathematically correct.
+- [11:54] We're not just you know checking that
+- [11:56] this string equals this string right
+- [11:57] where there's actually some like
+- [11:58] mathematical correctness to it. Yeah. I
+- [11:59] mean it feels like the biggest question
+- [12:00] across the board in so many aspects of
+- [12:01] AI right now is like what actually can
+- [12:03] be graded. I mean I feel like it's the
+- [12:04] big question in like test comput and
+- [12:05] what you can scale like um and obviously
+- [12:07] I think you know if you take healthare
+- [12:08] and law for example you know one
+- [12:10] critique of of some of these evals is
+- [12:12] like well cool like you know being a
+- [12:13] lawyer is not passing the bar like being
+- [12:14] a doctor is not like passing these
+- [12:16] medical exams. Anything like you've seen
+- [12:18] folks on the ground doing that you feel
+- [12:20] like is a creative way to actually like
+- [12:21] best use uh this type of approach. M
+- [12:24] honestly like after having talked to the
+- [12:26] folks who are who who built uh things
+- [12:29] things around operator and deep research
+- [12:31] internally like it's it's pretty
+- [12:33] challenging right now to do this stuff
+- [12:35] and takes a lot of iteration. I I don't
+- [12:37] think I've seen anything out there
+- [12:40] that's like productized grading and task
+- [12:43] generation in a way that just like nails
+- [12:46] it for your domain. I think this is like
+- [12:48] the biggest problem to be solved this
+- [12:51] year and and if not like it might even
+- [12:52] go into like next year like the
+- [12:54] technique is going to come out but how
+- [12:56] are you going to actually build really
+- [12:59] good tasks and graders is is something
+- [13:01] that's going to be pretty challenging.
+- [13:03] Um yeah I I know it's possible now these
+- [13:06] these products exist so you like know
+- [13:08] that like it's possible to build
+- [13:09] something like deep research. There's
+- [13:10] been some replications of that around
+- [13:13] the internet as well. So you like have
+- [13:14] enough proof over here. Uh it's just
+- [13:17] about how do you productize it so that
+- [13:18] like almost anyone can make use of it.
+- [13:20] That's going to be hard. What about um
+- [13:22] computer use? Like how do you classify
+- [13:23] for developers today like you know how
+- [13:25] they should think about using that where
+- [13:26] it works where it doesn't? Computer use
+- [13:28] been like surprisingly a lot of uh like
+- [13:31] cool use cases. uh you know initially we
+- [13:34] thought that a lot of computer use use
+- [13:36] cases will be around legacy applications
+- [13:38] that don't have APIs and people have
+- [13:41] been trying to like automate this thing
+- [13:42] for ages and they haven't been able to
+- [13:44] and that's definitely the case like we
+- [13:46] we definitely have had a couple of
+- [13:47] customers try it out in sort of the
+- [13:50] medical domain where you have these like
+- [13:51] super manual tasks that people are just
+- [13:53] like clicking through across three or
+- [13:55] four different applications to to to do
+- [13:57] things. uh and that works really well.
+- [14:00] But you've also seen we've also seen uh
+- [14:02] examples of companies that are using it
+- [14:05] to do like research on Google maps. So
+- [14:08] um I think uh UniFi GTM is one of the
+- [14:12] companies that uh had used it earlier uh
+- [14:14] during our alpha phase and they
+- [14:16] basically uh they would have like
+- [14:18] climate tech startups ask questions like
+- [14:21] has this company uh expanded its
+- [14:24] charging network? And so what the agent
+- [14:26] would do is like open up Google Maps,
+- [14:28] turn on street view, and like go to
+- [14:30] places and see whether they're like more
+- [14:31] chargers or not, and then
+- [14:35] like and like I'm like, okay, Google
+- [14:37] Maps does have an API. I actually don't
+- [14:39] know if Street View has an API, but it's
+- [14:41] probably really hard to like figure out
+- [14:43] which exact location, which direction to
+- [14:45] look at maybe. Um, and so all of these
+- [14:48] like you can pretty much automate
+- [14:50] anything. It was kind of cool, right? So
+- [14:52] you could start there and then you could
+- [14:54] maybe think about a API approach after
+- [14:56] that. Totally. I mean there's a whole
+- [14:57] like many many domains like don't map to
+- [14:59] JSON, right? Like you can't serve them
+- [15:01] over the web in plain text. So like
+- [15:03] these kind of use cases where you need
+- [15:04] some sort of a combination between like
+- [15:06] vision and text ingestion like I think
+- [15:09] are really really well suited for for
+- [15:10] KUA. Yeah, that's a really interesting
+- [15:12] example. I didn't Yeah, the Unifi is
+- [15:13] fascinating. Cool. I was struck by
+- [15:15] obviously you really you had a bunch of
+- [15:16] alpha testers and whatnot and so you
+- [15:18] released this and then the next day like
+- [15:19] I feel like every big company was like
+- [15:20] this is an awesome thing we built with
+- [15:22] like this API but any particular f you
+- [15:24] know even just in the in the week or so
+- [15:25] since it's been out like any particular
+- [15:26] favorites that like you didn't expect or
+- [15:28] or kind of cool ways people have been
+- [15:29] using these? Oo that's a good one. Uh
+- [15:31] postal alpha let's think. Well the
+- [15:33] computer use ones are the coolest. I
+- [15:35] think you you have I I really am excited
+- [15:38] about the the platform players on
+- [15:41] computer use as well. Like if you think
+- [15:42] about the other tools that we have. So
+- [15:44] we have web search, we have file search
+- [15:46] and we have computer use. Web search you
+- [15:48] have a bunch of companies that provide
+- [15:50] APIs for people to be able to uh get
+- [15:52] data from the web put it into the models
+- [15:54] context. File search is like pretty
+- [15:56] mature honestly. You have the vector
+- [15:58] database industry and in computer use
+- [16:00] like I think things are super early. Um
+- [16:04] the main thing people want to do or
+- [16:05] businesses want to do is like take these
+- [16:08] uh like docker containers or these uh
+- [16:11] VMs in the cloud and then like put their
+- [16:15] software in it put their authentication
+- [16:16] into it so that they can go and automate
+- [16:18] things and there are a couple of really
+- [16:20] cool one there's browser base that that
+- [16:22] provides this like service there's like
+- [16:23] a YC startup called scrappy barara that
+- [16:26] has I think one of the better developer
+- [16:28] experiences around um making computer
+- [16:32] use models work really well with hosted
+- [16:34] virtual machines. Uh, and you know, I'm
+- [16:37] I'm like a developer platform person.
+- [16:39] So, for me, it's like looking at those
+- [16:41] platform plays and like all right, like
+- [16:43] what's the thing that people are going
+- [16:44] to build on top of that is is very
+- [16:46] exciting. And so, yeah, I'd say like
+- [16:49] those are my top two. Um, Browser Base
+- [16:51] and Scrappy Bar. I'm pretty excited to
+- [16:52] see what they do. Yeah, I thought I
+- [16:54] thought too Arc was doing some pretty
+- [16:55] cool stuff. like they were they were
+- [16:57] basically building a a tool where they
+- [16:59] were going to have basically you could
+- [17:00] just like open a tab and give it an
+- [17:01] instruction and then it kind of goes and
+- [17:02] does something in the background. I
+- [17:03] think it's it's very much an operator
+- [17:05] like use case, but it's really baked
+- [17:06] into the product. I mean it's just a web
+- [17:08] browser. You you're using it, right?
+- [17:10] It's not like uh necessarily like baked
+- [17:12] into a tab in your web browser. It's
+- [17:13] really just like part of the browser
+- [17:14] itself. I thought that was that sort of
+- [17:15] native integration was really cool.
+- [17:17] Yeah, I think they're calling it DIA or
+- [17:18] something, right? That was there. Super
+- [17:20] cool. Yeah, that's awesome. Is there
+- [17:21] anything you kind of noticed so far that
+- [17:23] like maybe some of the most
+- [17:24] sophisticated users are doing with the
+- [17:25] APIs that you're like, "God, I wish like
+- [17:26] we could just disseminate this more
+- [17:28] broadly." Uh if only we were on a
+- [17:29] podcast and we could tell the world uh
+- [17:31] this is a good way to use the some of
+- [17:33] these things. But I think you've noticed
+- [17:35] uh patterns that some of the most
+- [17:36] sophisticated folks are using. Yeah. For
+- [17:37] for the tools like it still feels like
+- [17:39] pretty early. I think during the alpha
+- [17:41] phase, we definitely found folks who
+- [17:44] were you know, they try to get the model
+- [17:47] and the tool to do the thing that
+- [17:48] they're they're trying to get it to do.
+- [17:50] And if that doesn't work, they try a
+- [17:51] bunch of prompt engineering and then
+- [17:53] that doesn't work, they make this a step
+- [17:55] in the workflow. And I think like by
+- [17:58] going through those like steps, they
+- [18:00] typically get what they want. Uh it's
+- [18:02] like, hey, web search, the tool is not
+- [18:05] giving me exactly what I need, but can I
+- [18:07] make it part of my workflow where this
+- [18:09] is just one of the steps that gets
+- [18:10] information from the web and then like I
+- [18:12] pass it on to something else, either
+- [18:14] deterministic or another LLM step. Um
+- [18:16] but on net, I'd say it's pretty early
+- [18:19] right now. uh and uh we're going to
+- [18:21] discover a lot of this in the coming
+- [18:22] weeks. Yeah. I think one to invert the
+- [18:24] question a little bit like one thing
+- [18:25] that I'm really glad that like we were
+- [18:27] able to ship is sort of like in the
+- [18:28] agents SDK this idea that we're going to
+- [18:30] sort of split the concerns of what your
+- [18:33] job is or what your task is across many
+- [18:35] different agents. It's very much
+- [18:36] analogous to sort of like the single
+- [18:38] processor computer versus the
+- [18:39] multipprocessor computer, right? Like
+- [18:41] you just allow each agent to focus on
+- [18:43] one task and you give it all the context
+- [18:44] and then your efficacy on those tasks
+- [18:47] goes way up, right? because you're not
+- [18:49] trying to prompt engineer one agent to
+- [18:51] do 100 different things, right? You're
+- [18:53] kind of just like spreading that across.
+- [18:54] So, I was really glad to see us sort of
+- [18:56] like I'm not sure if we invented that
+- [18:58] paradigm or not. I'm assuming we didn't,
+- [18:59] but like just to just like shift that as
+- [19:01] a really first class pattern. I was
+- [19:02] really I thought that was really cool.
+- [19:04] Yeah. No, it's so interesting because I
+- [19:05] feel like um you alluded to the fact
+- [19:07] that like hey if it's not working you
+- [19:08] can kind of just like add it as a step
+- [19:10] and I feel like one interesting uh you
+- [19:12] know quandry that we have on the
+- [19:12] investing side is like it feels like you
+- [19:15] know a lot of people whatever the
+- [19:16] current capabilities of the model are
+- [19:17] they kind of build whatever scaffolding
+- [19:19] they need to make them work and
+- [19:20] sometimes you're like well that that
+- [19:21] gets you the product in the market now
+- [19:22] and gives you a product that is valuable
+- [19:24] at the same time if you went to a beach
+- [19:25] and waited three six months for the
+- [19:26] models to get better uh they may just be
+- [19:28] able to do it right uh with with your
+- [19:30] you know hundred tools to one thing
+- [19:31] versus like chaining the steps together
+- [19:32] and so you I'm curious like how you
+- [19:35] think about like you know the kind of
+- [19:37] steps that people are building around
+- [19:38] the models like does that all get
+- [19:40] obviated over time or is like some of
+- [19:42] that useful? I think that this is the
+- [19:45] most like agent or agent and tool
+- [19:47] orchestration is like the most important
+- [19:50] thing right now
+- [19:52] because my opinion is that the models
+- [19:55] are much further than where most AI
+- [19:58] applications are like making use of of
+- [20:00] things and uh like there's so much value
+- [20:04] to be extracted from these models that
+- [20:07] building things around models to make
+- [20:09] them work really well is an is an
+- [20:11] extremely important thing that AI
+- [20:13] startups should be doing and products
+- [20:15] should be doing. Um yeah, it's like seen
+- [20:18] it time and time again where uh even on
+- [20:21] customer support automation which has
+- [20:22] like been a thing that's been around as
+- [20:25] a concept for a while. We we had a
+- [20:27] couple of companies like really crack it
+- [20:29] in late 2023 and 2020 early 2024 and and
+- [20:34] the adoption has been like kind of slow,
+- [20:36] you know, like you don't see that many
+- [20:38] companies move as fast as the first like
+- [20:41] 10, 15, 20 companies moved. And it just
+- [20:44] shows like how important it is to be
+- [20:46] good at orchestrating, to be meticulous
+- [20:48] about like looking at your traces, uh
+- [20:51] figuring out how to prompt engineer,
+- [20:53] having like an eval set so that your
+- [20:55] prompt doesn't degrade something else.
+- [20:57] Like this is so hard today. It's crazy
+- [20:59] how hard it is. Uh and so I would I
+- [21:02] would tell people like that's the exact
+- [21:04] thing to be focusing on is how to make
+- [21:05] these models work. Yeah, 100%. And I
+- [21:08] think too like you know just the just
+- [21:10] the idea of splitting up your task among
+- [21:13] many different agents is like just makes
+- [21:15] debugging the whole workflow way easier
+- [21:16] right because if you have a really
+- [21:18] capable model and it has 100
+- [21:20] instructions and you change a few tokens
+- [21:22] right it might drastically change the
+- [21:23] outcome of your email right but if you
+- [21:25] just have one you know handoff agent you
+- [21:27] have one triage agent you have one this
+- [21:29] like tweaking each one of those becomes
+- [21:31] a lot more isolated where you're not you
+- [21:33] know the blast radius is much smaller as
+- [21:35] you're sort of like hill climbing on
+- [21:37] your eval I think when you were on
+- [21:38] latent space, you mentioned that you
+- [21:39] like, you know, over the time want to
+- [21:41] add more knobs to make, you know, things
+- [21:42] more customizable for developers. What
+- [21:44] do you think that like looks like over
+- [21:45] time and you know, how do you think
+- [21:46] about this kind of tension of providing
+- [21:47] something that's like relatively easy to
+- [21:49] use out of the box versus like the
+- [21:50] ultimate amount of customizability?
+- [21:52] Yeah, totally. I mean, this sort of like
+- [21:54] idea of like APIs as ladders is really
+- [21:56] something that we took from first
+- [21:57] principles when we were designing the
+- [21:58] responses API. And I think it really
+- [22:01] comes down to, you know, a couple
+- [22:03] things, right? Like you want to give a
+- [22:05] lot of power out of the box. You want to
+- [22:06] make doing the the simple thing really
+- [22:09] easy and then you want people people to
+- [22:11] be able to get a little bit more reward
+- [22:12] for every effort, every amount of effort
+- [22:14] that they put in. And so for us, this
+- [22:15] looks like a great example I think
+- [22:16] actually is file search where it's
+- [22:18] actually really easy to use just out of
+- [22:20] the box. You upload some documents, you
+- [22:21] don't even have to do it in the API. You
+- [22:22] can just do it in the website. You pop
+- [22:24] in your vector store ID and it just
+- [22:27] works, right? And now let's say, okay,
+- [22:29] well, this actually isn't quite working
+- [22:30] for my use case. Well, okay, now I
+- [22:32] actually have knobs to go in and tweak
+- [22:33] the chunk size, right? The default is
+- [22:35] 400. Maybe I want it to be 200. Maybe I
+- [22:37] want it to be a thousand. Right? So I
+- [22:38] have those knobs. They have sensible
+- [22:39] defaults, right? And so I can go in a
+- [22:42] little bit deeper and get a little bit
+- [22:43] more reward for everything I'm putting
+- [22:45] in. And you know, it goes way deeper
+- [22:47] than that in the file search example,
+- [22:48] right? You have metadata filtering, you
+- [22:50] have uh the ability to customize the
+- [22:52] re-ranker, right? But this stuff isn't
+- [22:54] we don't force you to set all those
+- [22:55] things right up front, right? We kind of
+- [22:57] like give those things to you and expose
+- [22:58] them. They're in the docs. You can find
+- [23:00] them. But if you're just kicking the
+- [23:01] tires with the API, you don't want to
+- [23:02] think about you're like, "What the
+- [23:03] heck's a reranker, right?" you know. So,
+- [23:06] um, yeah, that's kind of what we think
+- [23:07] about it is like make it as simple as
+- [23:09] possible. I think we actually spend a
+- [23:10] pretty long time trying to get the quick
+- [23:12] start for calling the API down to like
+- [23:13] four lines of code of curl. And we were
+- [23:16] like really obsessing over that like it
+- [23:18] should be this simple. But then there's
+- [23:20] also 50 more pamps that you can set if
+- [23:23] you want to and they'll have like
+- [23:24] reasonable defaults over time. Like what
+- [23:25] other uh knobs might you want to add?
+- [23:28] That's a good question. Oh yeah. I mean
+- [23:30] for for tools like for web search you
+- [23:32] want to basically add uh site filtering
+- [23:35] that's been a big ask right now you just
+- [23:37] have to search the whole internet or you
+- [23:39] can prompt your way into it specific
+- [23:41] location too on um on web search where
+- [23:44] now you can set the city you can set the
+- [23:46] country but like actually setting down
+- [23:47] to like the block or the even court
+- [23:49] which is like super important for for
+- [23:51] weather for events type of queries
+- [23:54] especially SF microclimates right yeah
+- [23:56] seriously yeah actually like one of the
+- [23:58] things we're really excit excited about
+- [24:00] doing with responses API is building all
+- [24:03] the features into it that we had in the
+- [24:05] assistance API but not forcing users
+- [24:08] into it. So we released the assistance
+- [24:10] API I think November 2023. It had this
+- [24:13] like full concept of storing your
+- [24:15] conversations storing your like model
+- [24:18] configurations in a in a assistant
+- [24:20] object etc. And we found that like the
+- [24:23] the the hill to climb to like get
+- [24:25] started was was a lot. With responses,
+- [24:27] we're taking the the other approach
+- [24:29] where you're starting off with like a
+- [24:30] single API call in a single endpoint and
+- [24:32] one concept you have to learn and then
+- [24:35] maybe you want to store your
+- [24:36] conversation with us. So you can opt
+- [24:38] into using like the equivalent of the
+- [24:40] threads object and maybe you want to
+- [24:41] store your model configuration with us.
+- [24:43] So like you opt into like an assistant
+- [24:45] type of object and those things you just
+- [24:46] like plug in like it's just one
+- [24:48] parameter you configure. Um, and that's
+- [24:51] a knob that you have to to like, you
+- [24:53] know, have OpenAI host the thing for
+- [24:55] you. Um, so yeah, I I think that's
+- [24:58] another set of knobs we like in the
+- [25:00] short term we really want to get to.
+- [25:02] Yeah, exactly. Reflecting back on some
+- [25:03] of the previous APIs you've released,
+- [25:05] like obviously these ones are meant
+- [25:06] largely to supplant those. Like any
+- [25:08] learnings or like things you like, hey,
+- [25:09] we got that really right or actually we
+- [25:11] kind of missed the mark on that and
+- [25:12] we've kind of fixed it in in this
+- [25:13] current iteration. Yeah, totally. I
+- [25:15] mean, I think the thing that we really
+- [25:16] got right with the assistance API
+- [25:17] especially is tool use. You know, that's
+- [25:20] where we really figured out like we saw
+- [25:21] a ton of usage, especially with the file
+- [25:23] search tool. That's where the API really
+- [25:25] found market fit, right? Was people
+- [25:26] wanting to bring their own data to the
+- [25:28] API and have the model search over it.
+- [25:30] But what we got wrong is a lot of the
+- [25:31] things that that Nun said really it was
+- [25:33] just too hard to use, right? You had
+- [25:34] didn't have you no way to opt out of the
+- [25:36] context. A lot of people didn't like the
+- [25:38] context storage. They wanted more of a
+- [25:39] chat completions interface where they
+- [25:41] were able to provide their own context
+- [25:42] on each turn of the model. Um, but also
+- [25:45] the ch completions uh interface is is
+- [25:47] quite limiting, right? the the API can
+- [25:49] only output one thing and the model does
+- [25:51] many things, right? And so you want it
+- [25:52] to be able to do a bunch of stuff in the
+- [25:54] background and then kind of give you the
+- [25:55] results of all of its all of its
+- [25:56] thinking and all of its doing. Um, and
+- [25:59] so, you know, we really tried to like
+- [26:01] take the best parts of assistance API
+- [26:03] sort of the tool use and the like
+- [26:05] multiple outputs and all of that stuff
+- [26:06] and the really the ease of use of track
+- [26:08] completions and bring those things
+- [26:09] together. Makes a ton of sense. How
+- [26:10] should developers think about like this
+- [26:12] kind of suite of of developer tools now
+- [26:14] and like you know the MCP landscape?
+- [26:15] Yeah, I think they're like they're
+- [26:17] probably solving different problems,
+- [26:19] right? Like u so the the responses API
+- [26:23] is focused on making these multi-turn
+- [26:27] interactions with models really good. U
+- [26:31] so a model should be able we're
+- [26:33] providing a foundation for the model to
+- [26:35] be able to uh uh call itself multiple
+- [26:38] times. So have multiple model turns and
+- [26:41] call tools multiple times. So have
+- [26:42] multiple tool turns to get to a final
+- [26:45] answer. So that's like the we've we've
+- [26:48] set the building block which is the
+- [26:50] responses API. Um MCP is sort of like
+- [26:53] how you use tools and bring tools to
+- [26:55] models. And I think uh these things are
+- [26:58] honestly pretty complimentary in some
+- [27:00] sense. Uh and and we have to figure out
+- [27:03] what what what we do on the tools
+- [27:05] registry and the uh the tools ecosystem
+- [27:07] side. But you know MCP is super cool and
+- [27:10] uh that's that's yeah that's that's
+- [27:13] something we have to like figure out uh
+- [27:14] in terms of how we bring that to our
+- [27:16] ecosystem as well. You know, one thing
+- [27:17] I'm I'm struck by is obviously like I
+- [27:19] feel like in the, you know, uh, first
+- [27:20] years post chat GBT, there was a lot of
+- [27:22] AI infrastructure companies that popped
+- [27:23] up that were trying to do, you know,
+- [27:25] aspects of what you're, you know, you've
+- [27:26] released now, Asian orchestration,
+- [27:27] vector databases. How do you think about
+- [27:29] kind of like the opportunity for
+- [27:31] standalone AI infrastructure companies
+- [27:32] and like where, you know, where it makes
+- [27:34] sense for those to exist, uh, on top of
+- [27:36] what you guys are building and where it
+- [27:37] might not make as much sense? Mhm. Yeah.
+- [27:38] I think on on our our side like you know
+- [27:41] we're working with our users and
+- [27:42] listening to what their asks are and
+- [27:44] they want like a one-stop shop for you
+- [27:48] know uh the things that they want the
+- [27:49] LLMs to do. They wanted to be able to
+- [27:52] search their data and search the
+- [27:53] internet and so we've taken a step in
+- [27:55] that direction. That being said, I feel
+- [27:58] like the AI infra companies are building
+- [28:01] uh like low-level very powerful APIs
+- [28:04] that are uh you know infinitely flexible
+- [28:07] and and there's always going to be like
+- [28:09] a a big market for that kind of stuff.
+- [28:12] Um and uh I think we just got to build
+- [28:14] the thing that our users are asking for
+- [28:16] which are these like more out ofthe-box
+- [28:18] tools. uh and we're taking a different
+- [28:20] approach to this uh this whole space but
+- [28:23] there'll be vertical specific AI
+- [28:25] infrastructure companies I think there's
+- [28:26] certain companies that build like VMs
+- [28:29] just for the coding startups coding AI
+- [28:32] startups out there so that they can like
+- [28:33] test their code and like spin down the
+- [28:35] VM as quickly as possible uh I think
+- [28:37] they call run loop or or something I've
+- [28:40] heard of them totally there's going to
+- [28:41] be like verticalized AI infra which is
+- [28:44] like seems like it makes a lot of sense
+- [28:45] to keep doing that totally yeah it's
+- [28:47] like stuff that that we're not is going
+- [28:48] to want to be in the business of doing,
+- [28:49] right? I think too there's like a whole
+- [28:51] class of like LLM ops companies that are
+- [28:53] like doing some like really interesting
+- [28:54] things like helping you like manage your
+- [28:56] prompts and helping you like manage your
+- [28:57] billing and understanding like where
+- [28:59] your usage is going. And I think that
+- [29:00] that sort of stuff is like um really
+- [29:02] cool too. It's not necessarily like
+- [29:04] low-level infrastructure, but it's still
+- [29:05] stuff that developers care about. Yeah.
+- [29:07] In a multimodel fashion, multi-provider
+- [29:09] and all that. Exactly. Yeah. Open
+- [29:10] router, things like that. Yeah. Yeah. I
+- [29:12] mean, and obviously, you know, it sounds
+- [29:14] you guys spend probably most of your
+- [29:15] days talking to developers and getting
+- [29:16] their wish list. I'm sure you it sounds
+- [29:18] like you got a lot of it into this uh
+- [29:19] this current generation of APIs, but I'm
+- [29:21] sure there's always more to do. Like how
+- [29:22] do you think about uh you were kind of
+- [29:24] talking about eval earlier as like the
+- [29:25] problem, but like how do you kind of
+- [29:26] think about the stack ranked problems
+- [29:28] that are like still left uh that that
+- [29:30] are that make working with these models
+- [29:31] painful today uh you know for developers
+- [29:33] and and kind of what some of the most
+- [29:35] important things to be solved are? Yeah,
+- [29:36] I think like tools tools is definitely a
+- [29:39] a very big thing for us to figure out.
+- [29:42] Um we have the foundational building
+- [29:43] block. We need to build the tools
+- [29:45] ecosystem on top of it. Uh there's
+- [29:47] obviously great work on the MCP side
+- [29:49] over here and like that is like top of
+- [29:51] mind for us to to figure out what what
+- [29:53] we do on that front. Um we also have um
+- [29:57] you know like the computer use VM space
+- [30:00] is pretty early and I think that that's
+- [30:02] another big one. uh like how do you get
+- [30:05] enterprises to like securely and
+- [30:07] reliably deploy these virtual machines
+- [30:10] in their own infrastructure
+- [30:12] uh and and observe them and all the
+- [30:14] things that the computer use models are
+- [30:15] doing on top of that. I feel like these
+- [30:18] models these computer use models are
+- [30:20] going to get so good so quickly uh cuz
+- [30:22] we're just at like the GPD one or two of
+- [30:24] of that of that paradigm and um this
+- [30:28] thing is going to be incredibly useful.
+- [30:29] So I'm like very curious to see how the
+- [30:32] infra on that front takes off.
+- [30:35] I I mean I think that one of the things
+- [30:37] that was really interesting to me during
+- [30:38] the alpha period was like all the
+- [30:39] different environments that people
+- [30:40] wanted to try out the computer use tool
+- [30:42] in like we saw folks it the model works
+- [30:44] best in a browser environment right it's
+- [30:46] kind of like what it was trained on but
+- [30:47] people were trying to use it with iPhone
+- [30:49] screenshots in Android and I was like
+- [30:50] wow that's so interesting even thought
+- [30:52] about doing that and so I think that
+- [30:53] like you know the sky is going to be the
+- [30:55] limit on like what people will want like
+- [30:58] are is there going to be a company that
+- [31:00] just does sort of like iPhone VMs or
+- [31:02] like sort of like a you know, like a um
+- [31:06] there was a company that used to do just
+- [31:07] like testing frameworks for like iOS
+- [31:09] things like that, but just now it's for
+- [31:10] AI models, like stuff that's like really
+- [31:12] interesting. Um because like you know,
+- [31:15] different flavors of Ubuntu, you know,
+- [31:17] all of that stuff. It's really just a
+- [31:18] huge amount of fragmentation and so it's
+- [31:20] going to be really interesting to see
+- [31:21] how the community kind of like steps up
+- [31:22] to fill the gaps there. Yeah. Yeah. Also
+- [31:25] like you're also seeing people doing all
+- [31:27] like I think this startup trying to do
+- [31:29] cyber security work. So trying to find
+- [31:31] vulnerabilities in other sites and
+- [31:34] surfaces using computer use poke around
+- [31:36] for 30 minutes which is uh super
+- [31:39] interesting. Yeah. Yeah. It's really
+- [31:41] interesting. I mean I guess obviously
+- [31:42] one of the fun parts of your job must be
+- [31:44] uh you're obviously probably really
+- [31:45] tightly integrated with the research
+- [31:46] team see the models as they come through
+- [31:48] like any things that you're looking out
+- [31:50] for on the model side like I'm sure you
+- [31:52] you get the next computer used model or
+- [31:53] the next you know uh models that are
+- [31:54] used for agents like any milestones or
+- [31:56] capabilities that you're like god when
+- [31:58] we can do x like anytime I get the new
+- [31:59] model I try x and if we could do that
+- [32:01] like that would be so gamechanging for
+- [32:02] our developers. Mhm. Yeah. Uh that's an
+- [32:05] interesting one. I actually have a bunch
+- [32:07] of prompts that I've gotten from a bunch
+- [32:10] of YC startups and they always like this
+- [32:13] thing never works and I actually like
+- [32:15] have them saved as like what we call
+- [32:18] presets or prompts in the open dashboard
+- [32:20] and each time something new comes I like
+- [32:22] try like three or four of them. They
+- [32:24] they're all like pretty much focused on
+- [32:27] like agentic tool use and there's like
+- [32:30] six or seven different tools that are
+- [32:33] pretty straightforward and uh um I'm
+- [32:36] just like looking for these like
+- [32:37] reliable executions of them from turn to
+- [32:40] turn. Uh and uh I'm pretty optimistic
+- [32:43] like with our next series of models, but
+- [32:45] uh uh there's certain there's certain of
+- [32:47] them that like it just doesn't get
+- [32:49] right. Um I'm I'm also like really keen
+- [32:53] on finding much smaller and much faster
+- [32:56] models uh like faster than than for many
+- [32:59] for sure uh that that are like pretty
+- [33:02] good at these tool use things. So if you
+- [33:03] think about you know the the workhorse
+- [33:05] models or the supporting models that sit
+- [33:07] around the 01s of the world that can
+- [33:10] like do these like really quick
+- [33:11] classifications and guardrailing and all
+- [33:13] I think that there's a lot of room for
+- [33:15] improvement uh on those type of things
+- [33:18] and um yeah just like the fastest
+- [33:20] smallest classifier would be really
+- [33:22] really cool to like work on. Totally.
+- [33:24] Especially cuz they're so fine tunable.
+- [33:25] Yes. Right. And you can just like really
+- [33:27] tailor those things like to your heart's
+- [33:29] content on like a specific use case. So
+- [33:31] yeah, that would be really cool having a
+- [33:32] fleet of those. For me, it's diffs. I
+- [33:35] just want the model to be able to spit
+- [33:36] out a diff that I can apply cleanly to
+- [33:38] my code and it'll just work and I don't
+- [33:41] have to fudge it to get it to That's
+- [33:43] going to be huge. That's going to be
+- [33:44] really really huge. The models don't
+- [33:46] really like to they don't really
+- [33:48] understand line numbers that well. What
+- [33:49] was your reaction? Obviously there there
+- [33:51] was some really uh impressive agent work
+- [33:52] out of China recently and I think that
+- [33:54] like you know it kind of always seemed
+- [33:56] that the most cutting edge agents would
+- [33:58] go alongside the most cutting edge
+- [33:59] models but obviously and I mean you know
+- [34:01] I think they're using uh anthropic
+- [34:02] models and whatnot but I feel like it
+- [34:04] might have challenged that paradigm a
+- [34:05] little bit and so I'm curious kind of
+- [34:06] your reaction to to some of those demos.
+- [34:09] My reaction was like this is what we've
+- [34:10] been saying internally is that like the
+- [34:12] capabilities are there in the models but
+- [34:14] like so few people are able to make use
+- [34:17] out of it. Uh I think it's it's crazy
+- [34:20] that like it's still like this. Um we we
+- [34:24] need to make it easier for developers
+- [34:25] and everyone to be able to build more
+- [34:28] powerful things with the models without
+- [34:29] like being you know like in yeah like
+- [34:33] exceptional AI uh and ML people. Uh, and
+- [34:37] so I just feel like it validates the
+- [34:40] fact that give people the right tools,
+- [34:42] uh, give people the right models, um,
+- [34:45] help them put them together with things
+- [34:47] like the agents SDK, make these things
+- [34:49] observable so that more and more people
+- [34:52] can build things like uh what we saw
+- [34:54] come out of China. Um, yeah, that's
+- [34:56] that's my take on it. I think just
+- [34:58] making the flywheel spin way faster from
+- [35:01] you know eval to production to
+- [35:03] fine-tuning and back again like that is
+- [35:05] such a powerful loop that we just need
+- [35:06] to make way way simpler. Yeah. Yeah.
+- [35:08] What what do you like think are the key
+- [35:09] things to make that simpler?
+- [35:12] I think the biggest thing to figure out
+- [35:13] honestly like we got to if we have a
+- [35:15] good answer on that. Yeah. Yeah. I mean
+- [35:18] the research team does it at OpenAI all
+- [35:19] the time like the the model is getting
+- [35:21] better at chat. It's getting better at
+- [35:23] like doing all the deep research things.
+- [35:25] uh the next operator model is going to
+- [35:27] be so much more powerful at doing
+- [35:28] computer use things. How do you
+- [35:30] productize that is like the the thing
+- [35:33] that we need to figure out obviously
+- [35:34] like with a lot of toil and like really
+- [35:37] closely observing your traces and like
+- [35:40] creating the right
+- [35:42] eval it works for sure. We just have to
+- [35:46] productize this and and we need to
+- [35:47] figure out how to make this easy. It
+- [35:50] needs to be about 10 times easier than
+- [35:51] it is today. It's definitely doable. you
+- [35:53] know, you can you can create an eval,
+- [35:54] but it's hard a lot of work to create an
+- [35:55] eval. And so I think that's the biggest
+- [35:57] thing for me is just like how do we make
+- [35:58] that process of evaling your task, your
+- [36:01] workflow a lot easier. No, I mean it's
+- [36:02] it's funny. I am struck by it feels like
+- [36:04] we have a new model and people spend
+- [36:05] like, you know, six, nine months trying
+- [36:06] to discover the use cases. They probably
+- [36:08] discover what 1% of like what these
+- [36:09] models can actually do and then it's
+- [36:10] like on to the next one. And so it's uh
+- [36:13] it's pretty wild. I mean obviously you
+- [36:14] know I think we we all kind of feel like
+- [36:16] we're on the precipice of this like
+- [36:17] super large change and you know it feels
+- [36:18] like uh you know we're going you know
+- [36:21] especially as you make these tools
+- [36:22] easier you know agents are going to be
+- [36:23] increasingly ubiquitous if I'm just like
+- [36:25] a normal you know enterprise or consumer
+- [36:28] CEO today um and I haven't really
+- [36:30] thought about this so much like what
+- [36:32] would you be doing in in in those
+- [36:33] people's shoes um if you're running a
+- [36:35] company that like you know probably in
+- [36:37] this agentic future has some way of
+- [36:38] interacting with these models it's got
+- [36:40] to build it's got to start like start
+- [36:42] with start exploring these frontier
+- [36:44] models, start exploring the the computer
+- [36:46] use models. Uh take a couple of
+- [36:49] workflows internally and try to like get
+- [36:52] a feel from like for for building these
+- [36:54] multi-agent architectures to to automate
+- [36:57] things end to end. Um, I feel like
+- [36:59] that's the the most actionable and
+- [37:01] actual thing that you can do right now
+- [37:03] on the tools side. Like figure out which
+- [37:05] of your your your uh like manual
+- [37:08] workflows need uh a tool interface and
+- [37:11] and start uh doing that. Like I feel
+- [37:14] like like the the whole like digital
+- [37:17] transformation and automation thing that
+- [37:20] that had its like uh thing during the
+- [37:23] cloud days is like coming back right
+- [37:24] now. And so sometimes I talk to users
+- [37:27] who are like we want to automate this
+- [37:28] whole thing. Uh but 90% of the work to
+- [37:32] be done is to like figure out how to get
+- [37:34] programmatic access to certain tools
+- [37:36] that you're using and like the LLM
+- [37:38] portion is just like tiny in the middle
+- [37:40] and I'm like this is this is a very
+- [37:43] different problem for us and like yeah
+- [37:44] you can like solve it with computer use
+- [37:46] right now and and try to like get get it
+- [37:48] uh to production but really just like
+- [37:51] finding ways to like automate your your
+- [37:53] applications. uh trying out the frontier
+- [37:56] models is probably uh like the main
+- [37:58] thing I'd recommend. Yeah, I think it's
+- [37:59] like really interesting being a
+- [38:00] developer in this era because you know
+- [38:02] for a long time like we have as
+- [38:05] developers been constantly automating
+- [38:06] away the bottom 20% of our job whether
+- [38:08] it's through better frameworks or better
+- [38:10] programming languages or what have you.
+- [38:11] And so I think that like for me if I
+- [38:13] were running a company I would just be
+- [38:15] asking my employees like what's your
+- [38:17] least favorite thing that you do on a
+- [38:18] day-to-day basis and like let's try to
+- [38:20] figure out ways to automate that that's
+- [38:21] going to make like everybody happy. It's
+- [38:22] going to, you know, increase
+- [38:24] productivity of course and so yeah,
+- [38:25] that's how I would think about it. Yeah.
+- [38:26] Have you guys done that? No. Well, I'm
+- [38:28] not so busy. My pay grade, but yeah,
+- [38:34] I love that. I mean, look, a fascinating
+- [38:36] conversation. We always like to end with
+- [38:37] kind of a quick fire round where we
+- [38:38] stuck a bunch of overly broad questions
+- [38:40] into the last five minutes. Uh, and so
+- [38:42] maybe to to start, um, I'd love your
+- [38:44] take on like one thing that's overhyped
+- [38:46] and one thing that's underhyped, uh, in
+- [38:47] the AI world today. Yeah. My my answer
+- [38:50] Yeah. My answer is like uh agents are
+- [38:53] both overhyped and underhyped. Uh we've
+- [38:56] been talking about agents for like a
+- [38:58] couple of years now. We got through like
+- [38:59] two full hype cycles. Exactly. Yeah. At
+- [39:01] the same time like underhyped because
+- [39:03] like hey the companies that actually
+- [39:05] figure it out and build deep research
+- [39:06] like things or fully automate like some
+- [39:09] really manual task are are able to just
+- [39:12] do so much. Uh so yeah that's my take on
+- [39:14] it. Yeah. I mean obviously you guys are
+- [39:16] so close to the cutting edge here.
+- [39:18] curious like what's one thing you've
+- [39:19] changed your mind on in the AI world in
+- [39:21] the last year? I think it's the for for
+- [39:23] me it's definitely the the power of
+- [39:26] these reasoning models has been like I I
+- [39:29] don't like they were always we were
+- [39:31] always like aware of this reasoning
+- [39:33] thing coming and I I did not appreciate
+- [39:37] how that combined with tool use is going
+- [39:39] to create things like operator and deep
+- [39:41] research and just seeing that it's
+- [39:44] possible to like move away from this
+- [39:46] workflow like setup that every company
+- [39:49] was doing to this complete completely
+- [39:51] agentic product that figures out to use
+- [39:53] in its train of thought and actually
+- [39:55] delivers like really really powerful uh
+- [39:58] results. It that that's been like the
+- [40:00] biggest like shift for me and then like
+- [40:02] seeing early results of our
+- [40:04] reinforcement fine-tuning um alpha those
+- [40:07] are you know that that's been like the
+- [40:10] biggest shift for me in terms of like
+- [40:11] how it's possible to do this. Yeah, for
+- [40:13] me it's just fine-tuning broadly. You
+- [40:14] know, I just like the power of being
+- [40:15] able to like I kind of thought that all
+- [40:17] the knowledge that you could put in a
+- [40:18] model is kind of like baked in when it
+- [40:20] when it comes off of the off of the GPUs
+- [40:22] and but being able to like really add a
+- [40:24] bunch of your own custom information and
+- [40:25] seeing how much that moves the needle
+- [40:27] for a specific task is pretty
+- [40:28] impressive. What do you think will be
+- [40:29] like the biggest differentiator of of
+- [40:31] application builders long term? I think
+- [40:32] it's like the question in venture. Is it
+- [40:34] like you know uh kind of deep knowledge
+- [40:35] of the models and like how to you know
+- [40:37] how to really build these agents? Is it
+- [40:38] just like knowing a domain super well so
+- [40:40] you know what to build? Like what do you
+- [40:42] guys think of that? I think it's kind of
+- [40:44] a combination. And then there's this
+- [40:45] idea of like if you have whatever
+- [40:48] special sauce it takes to be able to
+- [40:49] really bring the AGI out of the models
+- [40:51] that like we think is in there. I don't
+- [40:53] know what what it is if it's prompt
+- [40:54] engineering or workflow orchestration or
+- [40:56] something else, right? Like I think that
+- [40:58] is going to be like a huge
+- [40:59] differentiator. Yeah. For me, it's like
+- [41:02] being really good at orchestrating like
+- [41:04] I feel like that's going to be the
+- [41:05] biggest. Yeah. What what do you mean
+- [41:07] exactly by that? like bringing together
+- [41:08] your tools and data with a bunch of
+- [41:11] model calls um with a bunch of models
+- [41:15] either in the fashion of it being
+- [41:17] reinforce and fine-tuning and like
+- [41:19] calling these tools in the chain of
+- [41:20] thought or in terms of like chaining
+- [41:22] together multiple LLMs and being really
+- [41:24] good at like doing that quickly,
+- [41:26] evaluating and improving it. I think
+- [41:28] that's like the biggest skill that that
+- [41:31] would move people forward uh like in the
+- [41:33] next year or two. Awesome. What do you
+- [41:35] think are some of the most like
+- [41:36] underexplored applications uh of these
+- [41:38] models today? Like seen anything crazy
+- [41:41] on the scientific research side? I think
+- [41:43] that would be really like when the O
+- [41:45] series model started like that was the
+- [41:47] the main hope and expectation was that
+- [41:50] there'll be a step change in how quickly
+- [41:52] scientific research happens and I think
+- [41:55] we've heard we've seen some like early
+- [41:56] reports around that but very curious to
+- [41:59] see how how that changes. I think that
+- [42:02] like so much of so much criticism about
+- [42:04] like the AI industry as a whole as a
+- [42:06] whole has been that the interfaces are
+- [42:07] not quite right yet. And I think like
+- [42:08] especially for a a space like academia,
+- [42:11] you know, where everything is kind of
+- [42:13] the same way it's been for a long time.
+- [42:14] I think like finding the right interface
+- [42:15] for that is going to be really key and
+- [42:17] really drive a lot of adoption there.
+- [42:19] Yeah, robotics too maybe. Yeah, I think
+- [42:21] it's probably time for something big to
+- [42:24] happen. The origins of open good old
+- [42:27] Rubik's cube. Do you think model
+- [42:29] progress will be more the less more less
+- [42:31] or the same uh as last year this year?
+- [42:33] Oh, it's going to be more. I think it's
+- [42:34] got to be more. Yeah. Especially as like
+- [42:36] I mean it's a it's a feedback loop,
+- [42:38] right? Especially as like we the models
+- [42:39] are kind of teaching us how to how to
+- [42:41] like improve them with better data and
+- [42:43] and things like that. It's like
+- [42:44] something we we do a lot on the research
+- [42:46] side. Which AI startup are like
+- [42:47] categories are you most excited about
+- [42:48] right now? Like outside of OpenAI? I
+- [42:51] came from a travel background. Uh I was
+- [42:52] doing a travel company right before I
+- [42:54] joined OpenAI. So, I'm just like really
+- [42:55] excited to see sort of like somebody
+- [42:57] really crack that. I think the travel
+- [42:58] industry is like super entrenched and
+- [43:00] there's only a handful of like big
+- [43:01] players and so I'm really excited to see
+- [43:03] who builds the actual AI travel agent.
+- [43:06] Um I think everyone's favorite demo for
+- [43:07] agents. Exactly. Yeah. But like nobody
+- [43:10] It's not like a there's not a product
+- [43:11] that people are using there. So, I'm
+- [43:12] really excited. Yeah. Why doesn't it
+- [43:13] work yet? I I don't know. I'm going to
+- [43:16] go figure that out right after this.
+- [43:20] Uh I use I use granola a lot. That's
+- [43:23] Have you heard of that one? Yeah. Yeah.
+- [43:25] It's uh that's my favorite like AI tool
+- [43:28] these days and I every meeting I'm in
+- [43:31] like a very meeting heavy role so it
+- [43:33] helps a lot. Yeah. Yeah. No, great
+- [43:35] product. Well, look, I mean I think
+- [43:36] there's a ton of interesting threads for
+- [43:38] folks to pull on. Obviously a ton of
+- [43:39] great stuff that you guys recently
+- [43:40] shipped. I want to leave the last word
+- [43:41] to you. Uh where can our listeners go to
+- [43:43] learn more about the uh the APIs about
+- [43:45] really any place you want to point them?
+- [43:47] Uh the floor is yours. Yep. Um our docs
+- [43:50] uh platform.open.com/doc
+- [43:52] openair.com/doccks. Uh and uh also like
+- [43:56] the open devs channel uh on on Twitter
+- [43:58] or the account on Twitter places. And
+- [44:00] the community forum is always a great
+- [44:02] place to check out. I don't know the
+- [44:03] domain of that one. Is it forum
+- [44:05] forum.com? Community.openai.com. One of
+- [44:07] those. Google open community forum.
+- [44:09] You'll probably find it. Yeah. Or ask
+- [44:11] chatbt for or ask.
+- [44:13] Awesome. Well, thank you both so much.
+- [44:14] This has been a ton of fun. Awesome.
+- [44:16] Thanks so much. Hey guys, this is Jacob.
+- [44:18] Just one more thing before you take off.
+- [44:19] If you enjoy that conversation, please
+- [44:21] consider leaving a five-star rating on
+- [44:22] the show. Doing so helps the podcast
+- [44:24] reach more listeners and helps us bring
+- [44:26] on the best guests. This has been an
+- [44:28] episode of Unsupervised Learning, an AI
+- [44:30] podcast by Redpoint Ventures, where we
+- [44:31] probe the sharpest minds in AI about
+- [44:33] what's real today, what's going to be
+- [44:35] real in the future, and what it means
+- [44:36] for businesses in the world. With the
+- [44:38] fast-moving pace of AI, we aim to help
+- [44:40] you deconstruct and understand the most
+- [44:42] important breakthroughs and see a
+- [44:43] clearer picture of reality. Thank you
+- [44:45] for listening and see you next episode.

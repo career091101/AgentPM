@@ -1,0 +1,404 @@
+---
+title: "mCP has really exploded past few weeks if you want to learn what mCP actually is there are probably ..."
+video_id: "fJgFZRGO9AQ"
+video_url: "https://www.youtube.com/watch?v=fJgFZRGO9AQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Startup"
+summary: |
+  mCP has really exploded past few weeks
+  if you want to learn what mCP actually
+  is there are probably tall videos and
+key_points:
+  - "is there are probably tall videos and"
+  - "tweets that you can go through already"
+  - "opportunity I saw with this mCP"
+  - "process of how can you build a mCP"
+  - "distribute to others and at extremely"
+  - "assistance as example a few weeks ago I"
+  - "post this video about how I use all"
+  - "AI you probably wondering how is this"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: fJgFZRGO9AQ
+
+- URL: https://www.youtube.com/watch?v=fJgFZRGO9AQ
+- Retrieved at: 2025-12-30T14:33:45+09:00
+
+## Text
+
+- [00:03] mCP has really exploded past few weeks
+- [00:05] if you want to learn what mCP actually
+- [00:08] is there are probably tall videos and
+- [00:10] tweets that you can go through already
+- [00:12] so I wouldn't dive too deep into that
+- [00:13] but today what I really want to talk
+- [00:15] about is what kind of startup
+- [00:16] opportunity I saw with this mCP
+- [00:19] ecosystem blooming and also a stepbystep
+- [00:21] process of how can you build a mCP
+- [00:24] server from scratch po play and
+- [00:25] distribute to others and at extremely
+- [00:28] high level mCP basically provides a
+- [00:30] unified way for your AI agents or AI
+- [00:32] application to access external
+- [00:34] assistance as example a few weeks ago I
+- [00:36] post this video about how I use all
+- [00:38] sorts different mCP in my AI coding
+- [00:40] workflow that made AI coding agents a
+- [00:42] lot better and if you have been building
+- [00:44] AI you probably wondering how is this
+- [00:47] mCP different from T call which is
+- [00:49] something introduced by open AI almost
+- [00:51] two years ago that also allow AI agents
+- [00:53] and large L models to take actions
+- [00:55] external assistance where the key thing
+- [00:57] here is a standard even though large L
+- [00:59] model can already take actions in real
+- [01:01] world through function calling but each
+- [01:03] one of those large L model provider has
+- [01:05] different format like open a will
+- [01:07] support a two core format looks like
+- [01:09] this with name arguments and become part
+- [01:12] of conversation history while claw have
+- [01:14] a totally different Json format same for
+- [01:16] Gemini and llama so each one of those
+- [01:18] large L model provider have different
+- [01:20] default ways of interacting with
+- [01:22] external system but mCP provide a
+- [01:24] unified format of how two code should be
+- [01:26] communicated if you want to draw some
+- [01:28] analogy this somewhat similar to the
+- [01:30] early days of Internet there's a portol
+- [01:32] called tcpip where before TCP IP each
+- [01:35] company has its own standard about how
+- [01:37] different device should communicate each
+- [01:39] other like IBM have their own protocol
+- [01:41] called sna and even Apple has their own
+- [01:43] thing called Apple talk they allow
+- [01:45] macing touchbased Network to talk to
+- [01:47] each other but if you want to build
+- [01:49] something that integrate across
+- [01:50] different device that means you need to
+- [01:51] build custom things for every single
+- [01:53] standard but with introduction of
+- [01:55] standard like TCP IP everything became
+- [01:58] unified which means if you're raer you
+- [02:00] just need to build once with this
+- [02:02] protocol standard and it allow you to
+- [02:04] build for the whole internet and this
+- [02:06] changed the value dramatically new
+- [02:07] protocol like worldwide web https all
+- [02:10] came out and enable business like ncape
+- [02:13] yaho Google and internet eventually
+- [02:15] became where it is now and this also
+- [02:17] part of the reason why I found mCP is so
+- [02:19] exciting and we should pay a lot of
+- [02:21] attention to it because there will be
+- [02:23] lots of opportunities and companies to
+- [02:25] be built around this ecosystem for
+- [02:26] example with unified protocol like mCP
+- [02:29] the entry point for building new AI
+- [02:31] agent clients like cursor Wing serve
+- [02:33] Manu becomes lower and lower because you
+- [02:35] don't need to build all the Integrations
+- [02:37] yourself you can just connect to
+- [02:38] existing mcps and this kind of draw the
+- [02:41] analogy in my mind would be similar to
+- [02:43] iPhone windows or even browser like
+- [02:45] nascap that directly interact with end
+- [02:47] user and those AI agent clients will be
+- [02:49] the main driver of adoption for all
+- [02:52] sorts different mcps for example this
+- [02:53] concept mCP isn't new is introduced
+- [02:56] almost 6 months ago but only exploded
+- [02:58] recently because with finally have
+- [03:00] killer AI agent use case like cursor and
+- [03:03] Wing surve which is just one type of use
+- [03:05] case like coding agents but with more
+- [03:08] vertical AI agents show up like sales
+- [03:10] agents customer support agents or even
+- [03:12] general purpose agents there will be
+- [03:15] needs and requirements for different mCP
+- [03:16] servers and on the other hand there also
+- [03:18] a lot of opportunity for creating a
+- [03:20] Marketplace for mcps there already
+- [03:22] existing website like GL and Smith where
+- [03:26] they help people to discover what type
+- [03:28] of mcps are out there and a lot of hard
+- [03:30] work in terms of testing and curating
+- [03:32] those mcps it's kind of similar to how
+- [03:35] those existing ecosystem has app store
+- [03:37] or early days of Yahoo has index page
+- [03:40] for people to find the interesting
+- [03:41] websites but the most important one is
+- [03:43] mCP itself they kind of like apps in app
+- [03:46] stores the any iPhone and Android users
+- [03:49] can go and access to enhance their
+- [03:51] experience and even though at moment mCP
+- [03:53] is like a wi web where everything seems
+- [03:55] open source and still quite difficult to
+- [03:57] use but there are already companies like
+- [03:59] 20 First Step introduce new products
+- [04:01] that is the mCP the existing in clients
+- [04:04] like cursor Wing surf that enhance their
+- [04:06] coding experience specialized in helping
+- [04:09] AI agent to get more context of how to
+- [04:11] build beautiful UI and they add G
+- [04:13] monetization for those mcps so I
+- [04:16] actually expect a lot of new business to
+- [04:18] come up that just building mCP and
+- [04:20] distribute to All Sorts different users
+- [04:22] and to monetize from that that's why
+- [04:23] today I want to show you how can you
+- [04:25] build a mCP from scratch so that you can
+- [04:28] either build mCP for yourself to enhance
+- [04:30] your own experience or you can
+- [04:33] distribute that to others and even try
+- [04:35] out building a mCP based business and
+- [04:38] the good thing is that it is not hard
+- [04:39] it's actually pretty simple and
+- [04:41] straightforward I'll take you through
+- [04:42] example of how did I build a figma mCP
+- [04:45] from scratch and list down those
+- [04:47] Marketplace like glama and symetry but
+- [04:49] before I dive into this if you are
+- [04:50] launching your own mCP or any type of
+- [04:53] product building the product itself just
+- [04:55] half the work after the product is built
+- [04:57] the next challenge is how to get your
+- [04:58] product to the market Market
+- [04:59] successfully nine out of 10 business
+- [05:01] venture fail and 10% don't even make the
+- [05:03] first year and the key difference here
+- [05:05] is often how solid your go-to Market
+- [05:07] strategy is especially when launching
+- [05:09] new prodot type like mCP that's why I
+- [05:11] want to introduce you to this free goto
+- [05:14] Market playbook for launching new
+- [05:15] products then made by hosital they
+- [05:17] interview top experts from successful
+- [05:19] startups about their best practice
+- [05:21] process on PCT launch it covers
+- [05:23] step-by-step process of how can you
+- [05:25] design a lunch blueprint between Market
+- [05:27] product and distribution Channel then
+- [05:29] where and how should you go find signals
+- [05:31] of the market that your product is
+- [05:33] targeting at how to craft the perfect
+- [05:35] Market story and step-by-step process to
+- [05:37] build your viral tweet it even including
+- [05:39] ready to use metric dashboard to track
+- [05:41] your new product launch with real world
+- [05:43] insights from goto Market experts giving
+- [05:45] Hands-On guidance I learned a lot from
+- [05:47] this package and I highly recommend you
+- [05:49] go and try out if you're planning to
+- [05:51] launch a product I put a link in the
+- [05:53] description below for you to download
+- [05:55] for free now let's get back to how to
+- [05:56] build your own mCP so entropic actually
+- [05:59] provide specific SDK for python
+- [06:01] typescript Java codling so you can use
+- [06:04] the language that you are most familiar
+- [06:05] with and for me I will be using python
+- [06:07] SDK so if you take a look at GitHub here
+- [06:10] I'll do pip install mCP so our open
+- [06:12] Terminal and just do pip install mCP we
+- [06:14] can create a new file called test mCP
+- [06:17] dopy so they provide a class called Fast
+- [06:20] mCP we can just call this fast mCP class
+- [06:23] to initiate a new mCP server with this
+- [06:25] one we can just do a decorator mCP do
+- [06:28] tool and then Define function here and
+- [06:30] when writing the function you can give a
+- [06:31] description about what does the function
+- [06:33] do as well as what kind of inputs does
+- [06:35] it expect and the output to give large L
+- [06:37] mod or more context and you can save
+- [06:40] this and this mCP is already working we
+- [06:42] can quickly go to your mCP settings in
+- [06:45] cursor we will right click this file and
+- [06:47] copy past and I will just add a new mCP
+- [06:50] here I give name my mCP and command will
+- [06:53] be mCP run and pasting the pass here and
+- [06:56] click add and after it is running you
+- [06:58] can see this my mCP has been added
+- [07:01] already with the function we defined
+- [07:03] here so with this turn on I can already
+- [07:05] open the chat and then prompt the cursor
+- [07:06] agent help me calculate my bmi where I'm
+- [07:09] 70 kg with
+- [07:12] 173 CM height you can see here it call
+- [07:15] the calculate BMI function pass on this
+- [07:18] two variables and then get result back
+- [07:21] so this is how easy it is to actually
+- [07:22] set up your mCP server and to practice
+- [07:25] this further let's try to build a figma
+- [07:27] mCP where can read your figma file and
+- [07:29] also convert Your figma Design into hity
+- [07:32] react page so first let's take a look at
+- [07:35] the figma API so figma actually only
+- [07:37] have four end points for you to get data
+- [07:39] out one is get file which will return
+- [07:42] everything in your specific project file
+- [07:44] and get file node allow you to specify a
+- [07:47] very specific node ID so in figma every
+- [07:50] single UI components you see here on the
+- [07:52] left side is a note and you can actually
+- [07:55] copy the link to selection and if you
+- [07:57] paste the link here you can see that it
+- [07:59] also has node ID that point to that
+- [08:01] specific frame so this endpoint will
+- [08:03] allow to get a very specific component
+- [08:05] or page out of figma file as well as get
+- [08:08] image and get image will return the
+- [08:10] image screenshot of the mup but
+- [08:12] unfortunately AI coding agents like
+- [08:14] cursor or Wing serve can't really take
+- [08:16] image response from mCP yet but with the
+- [08:18] first two endpoint we can already do a
+- [08:20] lot of cool stuff so I will be using
+- [08:22] this endpoint of get file notes to
+- [08:24] return the details of specific frame so
+- [08:26] I'll create a new EMV and go to my figma
+- [08:29] click settings security and click
+- [08:31] generate new token given name test and
+- [08:34] generate it so you can copy this token
+- [08:36] over and paste in here so I go back to
+- [08:38] our test mCP file and add a few new
+- [08:41] Imports and our load the DMV and load
+- [08:44] the figma API token first they create a
+- [08:46] helper function called Fetch figma nodes
+- [08:49] where it will pass on the file key and
+- [08:51] node ID and calling this endpoint which
+- [08:54] is what do we see here and then we will
+- [08:56] do mCP do2 create function called G Noe
+- [08:59] where where we pass on file key and node
+- [09:01] ID and our add some descriptions here
+- [09:03] that it is to get specific node from
+- [09:05] figma file and I will also pass on a bit
+- [09:07] of information about what's the file key
+- [09:09] and what's node ID and its format and
+- [09:11] then our Define function where our Cod
+- [09:13] API and point return the response so we
+- [09:16] can quickly test out I'm going to copy
+- [09:18] the link paste in here and extract file
+- [09:21] key and node ID so I'll do python test
+- [09:25] mcpi cool and you can see it return uh a
+- [09:28] Blog of Json of how does that mup look
+- [09:31] like great so this function is working
+- [09:32] and all we need to do now just go back
+- [09:34] to cursor mCP and if we refresh a little
+- [09:38] bit you can see a new function called G
+- [09:40] node is showing up here and just to test
+- [09:42] this out I can add a new agent and I
+- [09:44] will just copy the link and here I have
+- [09:47] extremely basic mop so I just right
+- [09:50] click copy the link to selection and go
+- [09:53] back here and give Implement UI like
+- [09:55] figma mop here in Pixel Perfect manner
+- [09:57] in index.html you can see it called
+- [09:59] again note mcp2 and it return whole
+- [10:02] bunch of information about this UI that
+- [10:04] we Define in figma then start creating
+- [10:06] this HTML page cool so now if we open
+- [10:09] this webs page you can see this is Page
+- [10:11] generated it kind of get most part right
+- [10:14] but some part is looks a bit off and you
+- [10:17] might be wondering why and the key
+- [10:18] reason here is because if you look at
+- [10:21] response in return including whole bunch
+- [10:23] of information that is not relevant or
+- [10:26] very complicated for large L model to
+- [10:28] understand like the color is rgba format
+- [10:31] which you can probably communicate in a
+- [10:33] lot less token so what we want to do is
+- [10:35] we want to clean up the information a
+- [10:37] little bit more and this is exactly what
+- [10:39] I did so I have a new file called clean
+- [10:41] node. py and in here I have a whole
+- [10:44] bunch of helper function that can help
+- [10:46] you return more clean information and I
+- [10:48] actually got a lot of Inspirations from
+- [10:50] another mCP server created by Graham but
+- [10:52] basically do a whole bunch of clean up
+- [10:54] of the information and I can load those
+- [10:57] functions from clean node in transform
+- [10:59] fig adjacent and come back here at a
+- [11:03] clean response equal to this and return
+- [11:06] clean response and go to mCP and refresh
+- [11:09] again and now let me try this
+- [11:11] again and now you can see the UI looks
+- [11:14] exactly like the UI we present in figma
+- [11:16] file so this how you can build a new mCP
+- [11:19] from scratch that's running on locally
+- [11:21] but you can also distribute to others
+- [11:23] the next thing you want to do is
+- [11:24] probably distribute your awesome mCP
+- [11:26] server to others and there platforms
+- [11:27] like GL or Myster they're providing
+- [11:30] existing repository of mcps for you to
+- [11:33] distribute to others so all you need to
+- [11:35] do just write down a doc with all
+- [11:37] dependencies and read me so other people
+- [11:39] know how to run this and cursor is
+- [11:41] actually pretty good at it so you can
+- [11:42] just give a prompt I have this mCP
+- [11:44] server implemented help me write the
+- [11:46] required. dxt and read me and once it's
+- [11:48] done you can upload this project to
+- [11:50] GitHub and then go back to like GL click
+- [11:52] on ADD server given name description as
+- [11:55] well as your GitHub Ripple once you add
+- [11:57] that it will go through a process of
+- [11:59] reviewing and if everything passed then
+- [12:01] other people will be able to search and
+- [12:04] install the server directly and I have
+- [12:06] already put my figma mCP on glama and
+- [12:08] Smith Tre where you can just go and
+- [12:09] download and for the figma mCP I will
+- [12:12] continue to improve that I already added
+- [12:13] new functionalities like get components
+- [12:16] so that it can extract all the reusable
+- [12:17] components in your figma file as well as
+- [12:20] workflow so it can get the figma protype
+- [12:22] workflow to better understand the use
+- [12:24] flow if you have any feedback or
+- [12:25] question about mCP feel free to DM me on
+- [12:28] Twitter or you can join my AI Builder
+- [12:30] Club Community where I will continue
+- [12:32] sharing interesting mCP and AI coding
+- [12:34] workflows that I'm experimenting with
+- [12:36] detailed breakdown of some my favorite
+- [12:38] mCP that I use day-to-day as well as
+- [12:40] more in depth course and tutorial about
+- [12:42] AI coding and building production agents
+- [12:45] but most importantly we have this
+- [12:46] community of top AI Builders who might
+- [12:48] already experience a problem that you
+- [12:50] are facing right now as a solopreneur so
+- [12:52] you can come and ask any question you
+- [12:54] have to get support I have put the link
+- [12:56] to join the community in the description
+- [12:58] below I hope you enjoyed this video
+- [13:00] please comment about what type of mcps
+- [13:02] that you are building or you really want
+- [13:04] others to build thank you and I'll see
+- [13:05] you next time

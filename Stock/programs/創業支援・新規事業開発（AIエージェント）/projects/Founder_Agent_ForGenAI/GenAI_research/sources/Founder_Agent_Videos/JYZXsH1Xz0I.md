@@ -1,0 +1,517 @@
+---
+title: "algorithms context, right? Think about XG boost spend time feature engineering."
+video_id: "JYZXsH1Xz0I"
+video_url: "https://www.youtube.com/watch?v=JYZXsH1Xz0I"
+speaker: "the"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Think about XG boost spend time feature engineering
+  If you're working with BERT, you have to think about the max sequence length
+  We've always had this tension between the latest algorithms and working with the context
+key_points:
+  - "we'll end with some cool stuff around multi- aent systems where now we need these agents to collaborate and work together"
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:25:47+09:00"
+---
+
+# Transcript: JYZXsH1Xz0I
+
+- URL: https://www.youtube.com/watch?v=JYZXsH1Xz0I
+- Retrieved at: 2025-12-30T10:25:47+09:00
+
+## Text
+
+- [00:07] algorithms
+- [00:09] context,
+- [00:11] right? Think about XG boost spend time
+- [00:15] feature engineering.
+- [00:17] If you're working with BERT, you have to
+- [00:19] think about the max sequence length.
+- [00:22] We've always had this tension between
+- [00:24] the latest algorithms and working with
+- [00:27] the context. So what I want to do is
+- [00:30] we're going to go through a journey here
+- [00:32] today
+- [00:33] around this. Now for background, I'm the
+- [00:36] chief evangelist at Contextual. I like
+- [00:38] to play around with AI. I like to talk
+- [00:40] about it. So they gave me the the chief
+- [00:42] evangelist title. I also like to make
+- [00:44] videos as well in my spare time. So some
+- [00:46] of you have seen me on like Instagram or
+- [00:48] Tik Tok as well. Um but what I want to
+- [00:51] do today is we're going to walk through
+- [00:53] the role of context. And we'll start
+- [00:55] simple with traditional rag where we
+- [00:58] have static context. We'll spend some
+- [01:00] time on how we engineer context to be
+- [01:03] able to get better performing rag
+- [01:05] systems. Then we'll move into some of
+- [01:07] the newer innovations with the latest
+- [01:09] models where we can now have dynamic con
+- [01:12] context because the models can make
+- [01:14] these decisions. And then finally we'll
+- [01:15] end with some cool stuff around multi-
+- [01:17] aent systems where now we need these
+- [01:19] agents to collaborate and work together.
+- [01:24] Now, I think as a starting point, we all
+- [01:26] know that LLMs have the knowledge of
+- [01:30] everything, right? They've been trained
+- [01:32] on everything. They know everything. I
+- [01:34] think we can all agree on that.
+- [01:36] Hopefully, you guys don't agree on that,
+- [01:38] right? We know they don't have
+- [01:39] everything, right? Like, we have to
+- [01:41] inject information into the LMS into
+- [01:45] context windows as a starting point. For
+- [01:47] those of us who work in enterprises who
+- [01:49] have existing information documents,
+- [01:52] this is where rag comes about where we
+- [01:55] take all the knowledge we have, we chunk
+- [01:57] it into little pieces so that way we can
+- [01:59] cram it into large language models and
+- [02:02] use them. And my guess is many of you
+- [02:04] have right played with the lang chamba
+- [02:06] indexes and built your own simple demo
+- [02:09] rag systems and it's very easy and
+- [02:11] trivial to do that. But as you try to
+- [02:15] scale that up, you want to move that
+- [02:17] into production. All of a sudden then
+- [02:18] it's like uh like how do you get the
+- [02:21] accurate chunks, the accurate context
+- [02:24] you need or you end up with so many
+- [02:27] chunks, so much context that your
+- [02:29] latency goes up that all of a sudden the
+- [02:32] cost of this has skyrocketed.
+- [02:35] Not only that, you got to think about
+- [02:37] the infrastructure. It's one thing when
+- [02:38] you work with a hundred documents in a
+- [02:40] demo. It's another thing when you scale
+- [02:42] this up to tens of thousands of
+- [02:44] documents, millions of pages.
+- [02:47] And then in an enterprise, there's the
+- [02:49] context that you also have to worry
+- [02:50] about that not everybody has access to
+- [02:53] every document. You have to think about
+- [02:55] building entitlements in as well. So
+- [02:58] this is like the reality of it. But when
+- [03:01] we talk about context and context
+- [03:03] engineering, even in the case of rag,
+- [03:06] there's a ton of different tools and
+- [03:07] mechanisms that come into place. So
+- [03:10] think about a simple query where you're
+- [03:12] going between that query and answer.
+- [03:14] Well, you have to think about what is
+- [03:16] that query getting reformulated. What
+- [03:18] are the prompts that are you being used?
+- [03:20] What are you how are you handling memory
+- [03:22] chunking? All of these are the tools
+- [03:25] that we're going to use inside of
+- [03:27] context engineering to build stuff. Now
+- [03:30] at contextual AI, we've been working on
+- [03:31] this for a while. Our founder was wrote
+- [03:33] the original rag paper. And I want you
+- [03:36] to all think about all of these pieces
+- [03:38] not as a single model but you really
+- [03:40] have to build a system whether it's
+- [03:42] bringing in that information and
+- [03:44] ingesting it whether it's quering it
+- [03:46] whether it's retrieving it generating
+- [03:48] the answer it takes a lot of engineering
+- [03:52] effort to build this. So this is the
+- [03:54] first part I want to focus on is how we
+- [03:57] can engineer this context to get more
+- [04:00] out of it. And there's a lot here. This
+- [04:03] is where after the thing you can come to
+- [04:04] my booth. I can go through all of the
+- [04:06] stuff. But for today, I'm just going to
+- [04:08] focus a little bit on this retrieval
+- [04:10] because there's a lot of confusion. I
+- [04:12] see a lot of different directions on
+- [04:14] this piece. And we talked about that
+- [04:17] pendulum going back and forth. I want to
+- [04:18] talk about three different types of
+- [04:20] algorithms. BM25
+- [04:23] language models and then the newer
+- [04:25] language models where we can now do a
+- [04:27] gentic search for them. So we'll start
+- [04:30] with the basics. BM25, which stands for
+- [04:34] best match. It's a lexical technique. I
+- [04:37] like to think of it as you get all of
+- [04:39] your documents, you build this inverted
+- [04:41] index. So, we take all the words that
+- [04:43] are in your documents, figure out what
+- [04:45] what or figure out what documents they
+- [04:48] point to. So, if I have a new word that
+- [04:50] comes in, butterfly, I can kind of
+- [04:52] figure out which document is most likely
+- [04:54] like that using a probabilistic approach
+- [04:57] like that. The other thing this
+- [04:59] algorithm should give you hope for is
+- [05:01] for those of you who write temp 1, temp
+- [05:03] 2, temp 3 in your notebooks, they got to
+- [05:06] 25 and then they got something good. Now
+- [05:09] the performance of BM25
+- [05:12] is really good. It's really fast. It's
+- [05:15] very efficient at scale. We see it
+- [05:17] widely used. Most of you are probably
+- [05:18] familiar with it. However, we know this
+- [05:22] type of algorithm has a failure.
+- [05:25] If I'm asking for physician but the
+- [05:28] document has the word doctor in it,
+- [05:31] there's not a lexical overlap. The
+- [05:33] algorithm is going to fail here.
+- [05:35] International business machines and IBM.
+- [05:39] So that's one of the limitations of
+- [05:40] this. But despite that, this is a strong
+- [05:43] baseline. I think most of us will use
+- [05:45] lexical search.
+- [05:47] So it has these limitations.
+- [05:50] But we've got better algorithms. So this
+- [05:53] is where language models came into place
+- [05:55] where now we have models that have been
+- [05:57] trained on vast sorts of information
+- [06:00] language that understand the subtleties
+- [06:02] of language and we can convert use that
+- [06:06] and with the language models what we
+- [06:07] find is that now that same problem I had
+- [06:10] with doctor and physician all of a
+- [06:12] sudden for the language model these
+- [06:14] things are similar to each other they're
+- [06:16] in the similar latent space or
+- [06:18] international business machines and IBM
+- [06:20] so this is the power right that we have
+- [06:22] a better algorithm now that can better
+- [06:25] squeeze information out of this and we
+- [06:26] apply this right away to rag. We take
+- [06:29] the query that comes in, we create an
+- [06:31] embedding of it. We take the content
+- [06:33] that we had, we create embeddings of
+- [06:35] that because now we can use this power
+- [06:37] to do this. Now, of course, there's a
+- [06:39] ton of embedding models out there and
+- [06:41] this is where you can go out and pick
+- [06:42] based on what you're looking for in
+- [06:44] terms of retrieval performance, what
+- [06:46] you're looking for in terms of latency
+- [06:47] and CPU costs to do that. But what I
+- [06:51] want to do is show you one thing kind of
+- [06:53] to move on a little bit beyond that. So
+- [06:56] the embedding model focuses on one
+- [06:58] aspect of that context. So typically you
+- [07:02] bring your documents, you bring that in
+- [07:03] the embedding model.
+- [07:05] But what if we want to look at both the
+- [07:07] embedding models and the query? Say we
+- [07:11] want to cross those cross encoder. This
+- [07:14] is what a reranker does. does a it more
+- [07:18] it's a more complicated relationship
+- [07:21] between the two takes a little bit of
+- [07:22] time but it gives us a better
+- [07:25] understanding of the relationships of
+- [07:26] those and so in a common engineered rag
+- [07:30] system what you'll find is we'll add a
+- [07:32] second stage where that initial stage
+- [07:34] the embedding models but then we'll
+- [07:36] rerank it with this improved model like
+- [07:39] that so this is one way we kind of can
+- [07:42] engineer out the the improvement and I
+- [07:45] tried this myself like contextual has a
+- [07:48] reranker model. I can try the
+- [07:50] performance with the re-ranker without
+- [07:52] the reranker and I can see I can get a
+- [07:54] boost in retrieval performance like
+- [07:56] that.
+- [07:58] Now beyond that
+- [08:01] the re-ranker algorithm we can also use
+- [08:03] it as a language model even make it
+- [08:05] promptable.
+- [08:07] So we've added the ability to do
+- [08:09] instruction instruction following with
+- [08:11] our reranker. So I can ask for what is
+- [08:14] the most recent information, give me the
+- [08:16] professional information. So this allows
+- [08:18] us again like these are the knobs we
+- [08:20] have to better engineer the context and
+- [08:23] improve the performance for what we're
+- [08:25] doing. And of course, right, like you
+- [08:27] can always grab all these techniques,
+- [08:28] shove them together as another way to
+- [08:31] engineer it to improve it. And we see
+- [08:33] this all the way at the top at where
+- [08:35] like the Kaggle competitions where there
+- [08:38] literally will cascade multiple
+- [08:40] re-rankers in order to kind of squeeze
+- [08:42] out the performance. So this is where
+- [08:44] you can kind of make your decisions for
+- [08:46] how you want to do this. Now
+- [08:49] that's a little bit over the top for me.
+- [08:51] I think this is a better kind of
+- [08:52] baseline for everybody that's out there
+- [08:54] building these things is you use that
+- [08:57] combination of semantic and lexical
+- [08:59] search is a good starting point like
+- [09:01] that using a reranker and so when people
+- [09:04] ask me about their rag systems this is I
+- [09:06] think a widely held is like a good
+- [09:08] baseline to start with but
+- [09:13] like sometimes your queries aren't very
+- [09:16] clear sometimes maybe you are shoving
+- [09:19] too much into a query
+- [09:20] And these systems don't work as well for
+- [09:22] that. But we've got more. Right? This is
+- [09:25] where the dynamic context comes along
+- [09:28] where now what we can do is move to an
+- [09:31] agentic approach where instead of single
+- [09:33] shot I can do multiple types of queries
+- [09:36] to be able to get at this.
+- [09:40] Now this comes about because we've had
+- [09:42] the latest generation of large language
+- [09:44] models now has the ability to use
+- [09:46] reasoning to use tools. They can use
+- [09:49] this reasoning to dynamically retrieve
+- [09:52] the content we want. They can change the
+- [09:54] queries, identify information that
+- [09:56] should be pulled in through that.
+- [10:00] Now, just to put this side by side, the
+- [10:02] oldfashioned rag was you'd ask a
+- [10:04] question, it goes kind of straight
+- [10:06] through the piece. Now, we have an
+- [10:08] agentic flow that can loop back in,
+- [10:12] double check, hey, was this answer
+- [10:14] complete? Am I missing something here?
+- [10:16] Maybe I should look for it. physician
+- [10:18] notes instead of doctor's notes. It can
+- [10:21] make that change and look for
+- [10:22] information in that way.
+- [10:26] Now, I always run these things on our
+- [10:28] platform myself to kind of be able to
+- [10:29] run this. Oh, this is
+- [10:33] sorry, too far ahead of myself here. Um,
+- [10:36] so this is what that looks like when you
+- [10:38] run the results through. If you're using
+- [10:40] an aentic approach where you're going to
+- [10:42] have a model that's thinking about what
+- [10:44] it's going to do, it's going to grab
+- [10:46] different search tools along the way.
+- [10:49] You can then see what those tools are
+- [10:51] doing. What types of searches, what are
+- [10:53] they pulling out, what are the results
+- [10:54] that are coming out, but then what you
+- [10:56] care about is the final output. A much
+- [10:58] better cohesive output by using this.
+- [11:03] Now,
+- [11:04] I always have to kind of try these
+- [11:06] things out for myself. So one of the
+- [11:08] things I found was this great Wix QA
+- [11:10] data set which is a public data set
+- [11:12] that's available that's on technical
+- [11:14] support questions from Wix. they
+- [11:16] released it and made it available out
+- [11:18] there and if I try just traditional kind
+- [11:20] of singleshot rag I get like 76% on
+- [11:24] their kind of factuity benchmarks like
+- [11:26] okay not great but as I hooked it up to
+- [11:29] the agentic rag where I hooked it up to
+- [11:31] the LMS where it could do repeated
+- [11:33] queries like that like the performance
+- [11:35] just shot up out of the roof and I I
+- [11:37] have not spent any time trying to like
+- [11:39] improve this this is just like straight
+- [11:41] out of the box kind of things now
+- [11:44] do you get everything for free in life?
+- [11:46] No, I mean there is a latency penalty
+- [11:48] here. So this is where you have to as
+- [11:51] developer decide on your trade-offs like
+- [11:53] that.
+- [11:55] So then I got intrigued by this. I
+- [11:58] looked and I found this bright data set.
+- [12:00] And so this is a data set that's built
+- [12:02] around retrieval reasoning. It doesn't
+- [12:05] have the simple kind of questions that
+- [12:07] if you synthetically generated your own
+- [12:08] data set like it's got really deep
+- [12:10] reasoning questions to have that. So I
+- [12:13] reran my all my tests kind of or no I
+- [12:16] didn't reran these this is from the
+- [12:17] paper they share some results here so if
+- [12:21] you look over on the right side here
+- [12:23] this is quen so this is an embedding
+- [12:25] model they used they used the quen
+- [12:27] embedding model and you can see they do
+- [12:29] the best there with the quenba embedding
+- [12:31] model with gpt4 and right it makes sense
+- [12:34] like that's a pretty good model but take
+- [12:38] one look look at this other thing on the
+- [12:40] graph here look look over here what is
+- [12:42] this What is this? That whole boring
+- [12:46] BM25 thing I brought up in the beginning
+- [12:48] that you guys rolling your eyes. Look at
+- [12:50] that. You get better performance using
+- [12:53] that lexical approach with GPT4
+- [12:57] than using an embedding model.
+- [13:00] Like this was kind of mindblowing to me
+- [13:03] like that. So I went out and kind of
+- [13:05] tried this out myself just again really
+- [13:07] quickly on our platform.
+- [13:10] Tried it out on two different data sets.
+- [13:11] I use that Wix data set, but I also we
+- [13:14] have another financial internal data set
+- [13:15] of 10Ks like that. And you can see like
+- [13:19] look like I can get pretty much the same
+- [13:21] performance just using BM25
+- [13:25] and one of those state-of-the-art LLMs.
+- [13:27] Like I mean wait till big Vector sees
+- [13:29] this, right? Like you don't need to have
+- [13:31] an embedding model to get really good
+- [13:33] results like this.
+- [13:36] Now we see people in doing this. You see
+- [13:39] this already for code which was never a
+- [13:41] great place for embedding models but I
+- [13:43] think then there's some ear earlier
+- [13:44] talks that talked about this too right
+- [13:46] if you use things like cloud code
+- [13:48] they'll use rep search for being able to
+- [13:50] do everything where you're taking
+- [13:51] advantage of these models to do that so
+- [13:55] this is great but here's the thing as
+- [13:59] you do this right like we have one model
+- [14:01] working like you're loading the model
+- [14:03] with all these search tool calls and
+- [14:05] you're filling this context as you're
+- [14:07] doing the search what's going to happen,
+- [14:08] right? The model is going to get bigger
+- [14:10] and bigger and bigger and it's going to
+- [14:12] not be able to kind of handle that load.
+- [14:15] And so this is where we move to the
+- [14:17] final chapter here where we talk about
+- [14:20] multi- aents and kind of collaborating
+- [14:23] and spreading out the load because it's
+- [14:25] been shown when we go to multiple agent
+- [14:28] systems, they can perform better when
+- [14:30] we're hitting all of these limits from
+- [14:32] these single agent systems.
+- [14:35] Now, multi- aent systems, I think we
+- [14:38] they started getting really big this
+- [14:40] last year. I think Anthropic, they've
+- [14:42] written a blog post about everything
+- [14:44] kind of has a nice blog post on it. And
+- [14:46] if you look at the example here, kind of
+- [14:48] right, if people are like, is this
+- [14:49] multi- aent just a bunch of extra tech
+- [14:51] stuff that we're selling? No. Like,
+- [14:53] think about a query like this, like
+- [14:55] identify all the board members of the
+- [14:57] companies in the information technology
+- [14:58] S&P 500, right? Like if you think about
+- [15:01] that like if you have one intern working
+- [15:03] on that versus 10 interns, right? The 10
+- [15:05] interns are going to be able to do it
+- [15:07] much faster. It's a easily a task that
+- [15:09] you can parallelize out in that way. And
+- [15:12] that's kind of the way we can think
+- [15:14] about using agents to be able to do this
+- [15:16] sort of work.
+- [15:19] And we're seeing early results from
+- [15:20] people using these multi-agent systems.
+- [15:23] So this was a recent paper where they
+- [15:25] broke down the work where they had
+- [15:27] different agents for the generator for
+- [15:29] the trajectory for insights and they
+- [15:31] were able to in this case generate
+- [15:33] better prompts better utilize memory
+- [15:36] through this approach.
+- [15:39] Not only there, so Capital One kind of
+- [15:42] recently shared they did a they did a um
+- [15:45] a talk at the NVIDIA conference where
+- [15:47] they talked about their conversational
+- [15:49] AI system where they had an
+- [15:51] understanding agent, a planner agent,
+- [15:53] and an evaluator agent all working
+- [15:55] together to be able to solve things.
+- [15:58] Now, at contextual, we've also kind of
+- [16:00] tackled this problem as well where we
+- [16:03] focused on log analysis. We have a lot
+- [16:05] of customers that have kind of like
+- [16:08] Qualcomm that has lots and lots of data
+- [16:11] uh lots and lots of log data. They their
+- [16:13] folks spend a lot of time going through
+- [16:15] that data looking doing root cause
+- [16:17] analysis. And we figured out like if we
+- [16:20] break up this task into different parts,
+- [16:22] we can actually solve it much better
+- [16:24] where we have different units that work
+- [16:27] on parsing out the files versus
+- [16:30] something else that does root cause
+- [16:31] analysis that looks for multiple
+- [16:34] hypotheses along the way. And so this is
+- [16:37] kind of an active area. I don't have
+- [16:38] like huge insights to kind of share upon
+- [16:41] you but I think this is where us and
+- [16:43] others are doing this cutting edge where
+- [16:45] we have multiple agents working and
+- [16:47] collaborating together with each other
+- [16:50] and I mean some of the things that have
+- [16:52] have we've real realized already in
+- [16:55] doing this is like with multiple agents
+- [16:57] for example we can ingest a lot more
+- [17:00] documents a lot quicker we can
+- [17:01] parallelize out a lot of that workload
+- [17:04] around that
+- [17:06] we can also when we're doing that root
+- [17:08] cause analysis thinking through like how
+- [17:10] best to solve the problem. Well, this is
+- [17:13] another great area where we could have
+- [17:15] different sub agents that each take
+- [17:18] their own hypothesis and kind of look
+- [17:20] for the answer. And of course, right,
+- [17:22] this is modern AI. We can all trace all
+- [17:24] this stuff and follow this. So, it's a
+- [17:26] very effective co-pilot for people to
+- [17:28] help improve and do their analysis as
+- [17:31] well. So, lots of cool exciting stuff um
+- [17:34] going on here. Okay. I wanted to put as
+- [17:38] much as I could into this. So hopefully
+- [17:41] here I've kind of at least re-energized
+- [17:43] you thinking as much as we hear about
+- [17:45] all the latest algorithms, all the
+- [17:46] pieces that are going on, but we also
+- [17:49] remember we have to think about the
+- [17:50] context, right? That's all the pieces
+- [17:52] there that we can feed that can make the
+- [17:54] most effective use out of this. And
+- [17:57] whether it's your traditional static
+- [17:59] rag, whether it's taking time to
+- [18:01] engineer engineer your rag using the
+- [18:04] latest models like I think agentic
+- [18:06] search, we're already seeing it really
+- [18:08] take up I'm I'm guessing you know six
+- [18:11] months from now most of our customers
+- [18:13] will be using a gentic search for most
+- [18:15] of their use cases like that. Um it's
+- [18:17] just so powerful in that way. And then
+- [18:20] right I think multi- aent systems we're
+- [18:22] all going to see like where the best
+- [18:24] value is out of these like where the
+- [18:26] best use cases are for this but it's an
+- [18:28] exciting time that we can kind of use
+- [18:30] these different techniques like this. So
+- [18:32] thank you all. I know it was a crowded
+- [18:34] room. Thank you all for kind of sitting
+- [18:35] and listening um to me. I'm I love
+- [18:38] Weights and Biases. I'll be around all
+- [18:40] day today to answer questions. I will we
+- [18:42] have a booth and I'll be headed back
+- [18:43] there if you want to ask more questions
+- [18:45] as well as if you want to see demos of
+- [18:47] the platform or any of that. So, thank
+- [18:49] you all.
+- [18:50] >> Thanks a lot.

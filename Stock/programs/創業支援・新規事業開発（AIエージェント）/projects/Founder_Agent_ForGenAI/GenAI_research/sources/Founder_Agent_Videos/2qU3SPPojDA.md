@@ -1,0 +1,3086 @@
+---
+title: "YouTube Video: 2qU3SPPojDA"
+video_id: "2qU3SPPojDA"
+video_url: "https://www.youtube.com/watch?v=2qU3SPPojDA"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  hey guys in today's video I'm going to show you how you can use vzer cursor and Claw to crank out Nexus applications just like this one in no time at all and to help you properly use these tools I'm g...
+key_points:
+  - "stress to you enough how important it is"
+  - "and this is so important because it"
+  - "important to land this Tech stack let's"
+  - "code stack all right so first things"
+  - "first when it comes to our three-step"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2qU3SPPojDA
+
+- URL: https://www.youtube.com/watch?v=2qU3SPPojDA
+- Retrieved at: 2025-12-30T09:28:08+09:00
+
+## Text
+
+- [00:00] hey guys in today's video I'm going to
+- [00:01] show you how you can use vzer cursor and
+- [00:04] Claw to crank out Nexus applications
+- [00:06] just like this one in no time at all and
+- [00:09] to help you properly use these tools I'm
+- [00:11] going to be sharing my three-step
+- [00:12] process I use to help me go from idea to
+- [00:15] app in no time so if you're an AI
+- [00:17] developer looking to launch an AI
+- [00:19] startup or you're an AI freelancer
+- [00:21] looking to land more clients I cannot
+- [00:23] stress to you enough how important it is
+- [00:25] for you to learn this teex deack because
+- [00:27] it helps you put Working Solutions in
+- [00:29] front of your clients 10 times faster
+- [00:31] and this is so important because it
+- [00:33] allows you to start getting feedback
+- [00:34] which helps you build better apps which
+- [00:36] eventually helps you get more customers
+- [00:38] so with all that out of the way and
+- [00:40] hopefully you understand why it's so
+- [00:41] important to land this Tech stack let's
+- [00:43] go ahead and dive into what is the
+- [00:44] three-step process and how the heck do I
+- [00:46] start using cursor Claude and
+- [00:48] VZ all right guys let's quickly cover
+- [00:50] what the heck is this three-step process
+- [00:52] and how does it work with our new AI
+- [00:54] code stack all right so first things
+- [00:56] first when it comes to our three-step
+- [00:57] process our first goal based one is to
+- [01:00] do a brain dump so what we're trying to
+- [01:02] do is get all the ideas out of our head
+- [01:04] about the application we want to build
+- [01:06] and we need to do this in Two Steps step
+- [01:08] one we're going to use Claude to ask us
+- [01:11] a bunch of questions about what we're
+- [01:12] trying to build and ultimately build up
+- [01:14] a large text document of like how the
+- [01:16] entire application works that's part one
+- [01:19] we're going to get text part two we're
+- [01:20] going to use some sort of drawing tool
+- [01:22] like excal draw or you can use eraser or
+- [01:25] just an actual pen and paper to go off
+- [01:27] and write out and draw out like yeah I
+- [01:29] want to have this page that's going to
+- [01:31] have like a list of items when you click
+- [01:32] on an item it's going to take you to
+- [01:34] like a detail view where you can see
+- [01:35] some more information about that item
+- [01:37] that's a second step so we're going to
+- [01:38] end end up getting a large text document
+- [01:41] and a drawing of all the different pages
+- [01:43] of our application this is going to set
+- [01:44] the foundation for everything that we're
+- [01:46] going to do which is in step two we're
+- [01:49] going to go off and actually start
+- [01:50] stubbing out the entire application
+- [01:52] using a combination of Claude and v0 now
+- [01:56] here's why Claude is great at
+- [01:58] understanding like what's going on High
+- [01:59] level but VZ is phenomenal at cranking
+- [02:02] out nextjs code so when it comes to
+- [02:05] building out your pages your service
+- [02:06] side components client side components
+- [02:08] v0 does a phenomenal job of
+- [02:11] understanding how this framework works
+- [02:13] and how to turn the text and images that
+- [02:16] we pass into it into actable usable code
+- [02:19] so we're going to start stubbing out the
+- [02:20] entire UI using vzero then once we have
+- [02:24] all the core Pages kind of stubbed out
+- [02:26] looking nice then what we're going to do
+- [02:28] is dive deep into phase three where
+- [02:31] we're actually going to start adding in
+- [02:32] functionality and in phase three we're
+- [02:34] going to use a combination of v0 once
+- [02:36] again and cursor now here's how I like
+- [02:39] to think about phase three cuz this is
+- [02:40] where things actually like you know they
+- [02:41] go from looking nice to actually usable
+- [02:44] so in phase three what we're going to do
+- [02:46] V is going to help us dive deep into
+- [02:48] like actually setting up you know our
+- [02:50] functions inside of our code but even
+- [02:53] though it's great at getting things like
+- [02:55] 90% there we still need a little bit
+- [02:57] more help so that's where cursor is
+- [02:59] going to come in and it's basically
+- [03:00] going to help smooth out any errors we
+- [03:02] run into help us generate some like
+- [03:04] synthetic data whenever we need to and
+- [03:06] basically just like ultimately make it
+- [03:08] to where as programmers we're not having
+- [03:10] to code anymore we're just typing out
+- [03:12] like hey this is broke fix it or hey add
+- [03:15] this button make it look nice so at the
+- [03:16] end of this that's exactly what you guys
+- [03:18] are going be able to do really just talk
+- [03:19] to your computer using this text deack
+- [03:21] pretty much zero code and crank out a
+- [03:23] beautiful application that you can start
+- [03:25] showcasing to your potential customers
+- [03:27] so with all that out of the way let's go
+- [03:28] ahead and start hopping over to phase
+- [03:30] one and actually start building out an
+- [03:32] application together using this process
+- [03:34] right here all right guys welcome to
+- [03:36] phase one where we're going to start
+- [03:37] getting the ideas out of our head over
+- [03:39] into images and into text files so in
+- [03:41] this part we're going to focus on
+- [03:42] getting the ideas out of our head into
+- [03:44] our initial drawings for what we want
+- [03:46] our end application to look like so
+- [03:48] here's some core lessons that you need
+- [03:50] to know when building out your UI so
+- [03:52] first things first we just need to keep
+- [03:54] things super high level for right now so
+- [03:56] think what are the pages I want to have
+- [03:58] in my application and what do I want to
+- [04:01] do inside of these different pages so
+- [04:03] right now there's really only two pages
+- [04:06] that I need so the first one just going
+- [04:07] to be an offer list page to where I can
+- [04:09] view a list of all of my offers I can
+- [04:12] click new this will pop up a modal and
+- [04:14] then once I go ahead and type in the
+- [04:16] person's name and address in here it'll
+- [04:19] allow me to go over to the offer detail
+- [04:21] page which is the second page so as you
+- [04:23] can see I'm keeping things very high
+- [04:25] level I'm going to have a list of items
+- [04:27] when you click this it does this so very
+- [04:29] high level not much detail just here's
+- [04:31] what the buttons are and then over here
+- [04:33] in the detail page once again high level
+- [04:35] what are the things the core things I
+- [04:37] want to do well I want real estate
+- [04:40] agents to be able to chat and update the
+- [04:42] offer instead of manually doing it so
+- [04:44] just like hey update the price hey make
+- [04:46] sure the terms say this and let AI do
+- [04:49] all the heavy lifting and updating the
+- [04:50] document and everything like that over
+- [04:52] there speaking of the offer this is
+- [04:54] where in real time the agent can view
+- [04:56] their offer and see the changes being
+- [04:58] applied in real time with AI super cool
+- [05:01] for you guys to actually see this in
+- [05:02] action and then finally the biggest
+- [05:04] power lift of AI is I want there to be
+- [05:06] some sort of file upload section as you
+- [05:09] can see very high level once again where
+- [05:11] we're going to allow the agent to upload
+- [05:13] files such as text files and emails so
+- [05:17] that we can have our AI parse through
+- [05:20] all those different conversations and go
+- [05:21] oh the price of the house is this they
+- [05:23] want to buy this property here's the
+- [05:25] buyer here's the seller it's going to
+- [05:27] parse all the information from the
+- [05:28] different conversations we've had with
+- [05:30] our client and other agent and actually
+- [05:32] go off and fully update this offer so
+- [05:34] once again AI is going to power all of
+- [05:37] this and update our offer to make our
+- [05:39] life easier for real estate agents so as
+- [05:42] you can see this is a perfect highlevel
+- [05:44] overview of what we want to build for an
+- [05:46] initial MVP inside of our application
+- [05:49] and I'm so excited for in the next
+- [05:50] section where you actually see like
+- [05:51] we're going to use a vzer to take this
+- [05:54] highle drawing to an actable UI so that
+- [05:57] we can actually eventually start showing
+- [05:58] it to our clients to once again seal
+- [06:00] more deals make more money as AI
+- [06:02] developers so now that you have a high
+- [06:04] level understanding of like what we need
+- [06:05] to do visually when it comes to the
+- [06:07] planning out stage let's hop over so you
+- [06:09] can see how we're going to use Claude to
+- [06:11] help us extract all the ideas out of our
+- [06:13] head and into our computer so let's hop
+- [06:14] over to that real fast all right so now
+- [06:16] it's time for us to start focusing on
+- [06:18] getting the ideas out of our head and
+- [06:20] into a text format for Claude to
+- [06:22] understand what the heck's going on so
+- [06:23] what you can see right now on my screen
+- [06:25] is I have passed in a special template
+- [06:27] that's focused on making Claude a
+- [06:30] professional developer who is going to
+- [06:32] extract all the core ideas from our head
+- [06:35] about what application we're trying to
+- [06:37] build now I have this actual template
+- [06:39] for free down below you guys can click
+- [06:40] it and use it yourselves it's the same
+- [06:42] template that I used in the last claw
+- [06:45] tutorial I used so if you already have
+- [06:47] it this is the same one to use but what
+- [06:49] you can see what we're trying to do is
+- [06:50] say all right Claude your professional
+- [06:52] developer start asking me questions in a
+- [06:54] conversational manner about what the
+- [06:56] heck am I trying to build so that you
+- [06:58] gain a full understanding of what I'm
+- [07:00] trying to do the reason I like this
+- [07:02] approach is because instead of me having
+- [07:03] to type out everything and making sure
+- [07:05] I'm being proactive about providing
+- [07:07] information we're going to go no Claude
+- [07:09] you be proactive and ask me the
+- [07:11] questions so instead of watching me type
+- [07:13] this up what I want to do is just like
+- [07:14] show you an actual conversation I had
+- [07:16] with Claude so that we can kind of speed
+- [07:18] through this and see how we get our
+- [07:20] master plan which is the text document
+- [07:22] that we're ultimately after because that
+- [07:23] text Document Plus our images is going
+- [07:25] to help vzer work some magic and crank
+- [07:28] out some beautiful nextjs code for us so
+- [07:31] let's uh see what this actually looks
+- [07:32] like so we're going to start the
+- [07:33] conversation so you can see it goes
+- [07:36] hello super excited to help you plan out
+- [07:37] your app what would you basically like
+- [07:39] to build and this is the perfect
+- [07:41] opportunity to once again pass in those
+- [07:44] highlevel images of what we just created
+- [07:47] over inside the last section inside of
+- [07:49] excal draw we can kind of pass those in
+- [07:51] here as well to help Claude understand
+- [07:53] what we're trying to build and then
+- [07:54] outside of that we can just do an actual
+- [07:56] brain dump as if you were trying to tell
+- [07:59] a fellow co-founder what you're trying
+- [08:00] to build so here's a little bit about
+- [08:02] how I approach this so that you can use
+- [08:04] it on your own when you're trying to
+- [08:06] build your own applications so right out
+- [08:08] the gate what do I like to do first
+- [08:09] things first I want to go ahead and say
+- [08:12] hey I'm basically just trying to make a
+- [08:13] real estate application that makes it
+- [08:15] easier for real estate agents to create
+- [08:17] offers there are two pages inside of
+- [08:20] this application there's going to be the
+- [08:23] list View and the detail view just like
+- [08:25] we talked about and just like we
+- [08:27] uploaded then I just do a brain dump
+- [08:29] inside of Claud saying here's what's
+- [08:32] going to happen in each page just so it
+- [08:34] fully understands exactly what should be
+- [08:36] going the list view needs to have this
+- [08:39] there's a button when you click the
+- [08:40] button it does this basically just walk
+- [08:42] through each one of the core parts of
+- [08:44] this so that the AI knows what you want
+- [08:46] to build and just is a quick cheat so
+- [08:48] you can go off and do it on your own
+- [08:50] what I usually like to do whenever I'm
+- [08:52] making these brain dumps is on my Mac
+- [08:54] you can set up a keyboard shortcut ask
+- [08:57] chbt how to do it for your system but I
+- [08:59] can hit command twice then it will allow
+- [09:01] me to start talking to my computer
+- [09:04] basically so I can come in here and say
+- [09:05] like hey when it comes to the offer list
+- [09:07] view I want to make sure that we have a
+- [09:09] list of all offers I want to have a
+- [09:11] button in the top right hand corner that
+- [09:13] when you click it it allows me to do a
+- [09:14] modal so that I can go ahead and create
+- [09:16] a new offer so as you can see like yes
+- [09:19] this is a little bit overwhelming
+- [09:20] writing this all out but don't worry
+- [09:22] we're not writing we're talking to our
+- [09:23] computer so that our computer can turn
+- [09:25] our ideas our voice into actual text
+- [09:28] that AI specifically vzero will go off
+- [09:30] and use to create beautiful applications
+- [09:33] so I hope this makes sense so let's
+- [09:34] quickly speed through a little bit more
+- [09:36] about what's going on we just going to
+- [09:37] say hey for the detail page you're going
+- [09:39] to allow a chat section a file upload
+- [09:41] section and an offer section here's what
+- [09:43] should be happening each one of these so
+- [09:45] as you're off on your own just think if
+- [09:47] you were a user playing with your
+- [09:48] application what do you want it to do so
+- [09:50] yeah just basically make a wish list of
+- [09:52] what you want to happen and then finally
+- [09:53] the way I like to wrap things up just
+- [09:55] coming from more experienced developer I
+- [09:57] just go ahead and specifically say I'm
+- [09:59] using these Technologies I'm going to be
+- [10:01] using these other tools for my database
+- [10:04] in our case we're going to be using
+- [10:05] vercell postgress and I'm going to be
+- [10:06] using drizzle as our om and I'm going to
+- [10:09] be using clerk for authentication so I
+- [10:12] just go ahead and dump out all the
+- [10:13] different ideas of what I'm going to do
+- [10:15] and also if you don't know hey doesn't
+- [10:17] matter the way the AI is set up is it
+- [10:19] will ask you and provide you suggestions
+- [10:20] of like oh you didn't talk about
+- [10:21] authentication would you like me to add
+- [10:23] in some sort of authentication so super
+- [10:26] excited for this to kind of give you
+- [10:27] guys some guide rails to help get all
+- [10:28] the ideas out of your head in a
+- [10:31] eventually a master plan that we can
+- [10:32] share with AI so I'm going to speed
+- [10:33] through the rest of it real fast so we
+- [10:34] can hop over to phase two where we're
+- [10:36] actually going to start coding but as
+- [10:37] you can see it's just going to ask us a
+- [10:39] bunch of questions to help gain Clarity
+- [10:41] around what we're trying to build so hey
+- [10:43] what's the primary goal you know you're
+- [10:45] suggesting to use AI well what do you
+- [10:47] mean by that oh you want to use 40 so
+- [10:49] that's basically what we're trying to do
+- [10:51] even though we have a good understanding
+- [10:52] we need the AI to have a good
+- [10:54] understanding of what we're trying to
+- [10:54] build so we just go back and forth back
+- [10:56] and forth till eventually we end up with
+- [10:59] a master plan so finally we just say hey
+- [11:01] I'm done generate my master plan so that
+- [11:03] I can have a nice markdown file of
+- [11:06] exactly what I want to build so as you
+- [11:08] can see this is a huge document kind of
+- [11:10] outlining everything we've talked about
+- [11:12] and what's beautiful about this is once
+- [11:13] we're over in v0 we can say like hey I'm
+- [11:16] working on the offer detail Page look at
+- [11:18] the master plan to see what the heck
+- [11:19] this is going to do so hopefully you're
+- [11:21] understanding like why this all matters
+- [11:22] and why it works together and sets
+- [11:24] ourselves up for success as we go off to
+- [11:26] Builder application so let's go ahead
+- [11:28] make sure you download this file and now
+- [11:29] we're going to head over to VZ so we can
+- [11:31] start cranking out the initial UI of our
+- [11:33] application using our master
+- [11:35] plan all right guys welcome to phase two
+- [11:38] where we're going to start focusing on
+- [11:40] using vzer to turn our master plan plus
+- [11:43] our initial images into an actual
+- [11:45] stubbed out website that we can start
+- [11:47] playing around in so what we're going to
+- [11:49] do first in this section is upload all
+- [11:52] the ideas and content that we've created
+- [11:54] so far so we're right now over let me
+- [11:57] show you the website we're over in
+- [12:00] v.d chat and I'll have a link to it down
+- [12:02] the description below so you can go
+- [12:03] ahead and head over to this website on
+- [12:04] your own but first things first what we
+- [12:06] want to do is come in here and we are
+- [12:08] going to upload all the information that
+- [12:10] we have added so far so our master plan
+- [12:13] and then I went ahead and took a few
+- [12:15] different screenshots of the different
+- [12:17] pages in our application so the front
+- [12:19] end the back end what we want the you
+- [12:21] know the list view to look like the
+- [12:22] detail view all those I just went ahead
+- [12:24] and take a screenshot from excal passed
+- [12:26] it in so that we can start working with
+- [12:27] it so I'm going to go ahead and add all
+- [12:28] those in sorry let's actually take out a
+- [12:31] few of those master plan front end I
+- [12:33] think I added in a back end there we go
+- [12:35] that's all we need right there great so
+- [12:37] now that we're uploading everything what
+- [12:38] I want to do is show you how you can go
+- [12:41] and actually start going speed mode and
+- [12:42] cranking out an initial UI and just to
+- [12:44] put some additional context and what's
+- [12:46] about to happen we are focusing on
+- [12:48] stubbing out the UI so make sure
+- [12:50] whenever you're talking to vzer to say
+- [12:52] like Hey we're keeping things very high
+- [12:54] level I just want to focus on creating
+- [12:56] the pages and to make sure that they
+- [12:57] look nice first because eventually we're
+- [13:00] going to dive into actually building out
+- [13:01] the functionality so here's how I would
+- [13:03] go about working on this if I was you so
+- [13:05] first things first I would say I need
+- [13:07] your help creating a MVP for a real
+- [13:10] estate offer application that I'm
+- [13:13] working on and I would like your help to
+- [13:16] initially build out the UI for the offer
+- [13:19] list View and the offer detail view that
+- [13:22] I have provided you once we have focused
+- [13:25] on building out the UI and actually have
+- [13:27] it looking nice we will will later come
+- [13:29] back and start adding in functionality
+- [13:32] to actually make the application work
+- [13:35] period do you have any questions before
+- [13:37] we begin so that should work and then
+- [13:39] what we're going to do is go ahead and
+- [13:40] send it off and make sure I what I
+- [13:42] always like to do pro tip always ask the
+- [13:44] AI do you have any questions just
+- [13:46] because sometimes it might have a single
+- [13:48] clarification question or two before it
+- [13:51] goes off and build your application
+- [13:52] which could lead to a much better result
+- [13:54] so give it that opportunity to go off
+- [13:56] and actually make it so as you can see
+- [13:58] it's going to go ahead and actually
+- [13:59] start going ahead and cranking out your
+- [14:01] code and actually doing a pretty good
+- [14:03] job so let me walk you through how you
+- [14:05] can handle this as it's basically making
+- [14:07] all the different parts of your
+- [14:08] application so to start we're working on
+- [14:10] the offers page which is our offers list
+- [14:12] view so it's taking in you know the
+- [14:14] title that new button we talked about
+- [14:16] but right now it didn't have that create
+- [14:19] offer modal so it eventually made it so
+- [14:21] if we head back up we're going to say
+- [14:22] fix with vzer and this is probably one
+- [14:24] of my favorite Parts about VZ is like it
+- [14:26] knows what's breaks says hey I can go
+- [14:28] build it and it'll fix it for you so
+- [14:31] basically let the AI work and solve its
+- [14:32] own problems and it's going to
+- [14:33] continually think so let me just show
+- [14:35] you a few other things outside of that
+- [14:37] you can see like hey we have an offers
+- [14:39] page oh this is so exciting let me just
+- [14:40] walk you through it real fast once it's
+- [14:41] done generating so high level what VZ
+- [14:44] just did for us is it made a page this
+- [14:47] page is going to be inside of nextjs
+- [14:50] this is going to be a serers side
+- [14:51] component and this is one of the things
+- [14:53] that's so beautiful about working with
+- [14:54] VZ is it fully understands the nextjs
+- [14:57] framework if you were to try to do this
+- [14:58] with claw right now it would kind of
+- [15:00] like generate a page it might try to do
+- [15:03] the page routers approach and basically
+- [15:05] if that doesn't make sense don't worry
+- [15:07] it's just another way of working with
+- [15:08] nextjs but just know Claude does not use
+- [15:11] nextjs to its fullest vzer knows exactly
+- [15:15] how nextjs works and can crank out
+- [15:17] beautiful code that's stubbed out
+- [15:18] properly and that's exactly what just
+- [15:21] happened it made a offers page that has
+- [15:23] an offers list view which this offer
+- [15:25] list view is going to be the client side
+- [15:28] component so this is exactly what you
+- [15:29] would want to expect to see so this is
+- [15:32] looking beautiful and then when it comes
+- [15:34] over to our create offer modal for
+- [15:36] whatever reason yeah the modal is not
+- [15:37] going to pop up yet because this value
+- [15:39] to open is not true so you're not going
+- [15:40] to see it right now but like it's
+- [15:42] starting to actually crank out some code
+- [15:44] so let's go ahead and start working to
+- [15:46] see if some of these extra pages aren't
+- [15:48] made let's see if we can keep going
+- [15:50] together it's looking nice for whatever
+- [15:52] reason that modal isn't working but we
+- [15:54] can actually go ahead and start working
+- [15:56] out on slowly iterating through each one
+- [15:58] of these Pages specifically the list
+- [16:00] section first we're going to focus on
+- [16:02] the list then we're going to hop over to
+- [16:03] the detail so let's work on cleaning
+- [16:05] these up super fast and sometimes VZ
+- [16:07] doesn't do the best with things like
+- [16:08] moduls and actually you know integrating
+- [16:11] some of the different components it's
+- [16:12] creating which is why it's great to have
+- [16:14] VZ on one screen and your code editor in
+- [16:17] the other so that you can kind of copy
+- [16:18] what VZ does and add it over to your
+- [16:20] application so let me show you this
+- [16:21] actually in action so what I've done is
+- [16:23] I went ahead and created a nextjs
+- [16:25] application that is hooked up using
+- [16:27] Tailwind CSS and and it's using Shad
+- [16:30] scen I basically just followed all the
+- [16:31] quick start guides to get to this exact
+- [16:33] step that you're about to see right here
+- [16:34] when I run the application you see the
+- [16:36] typical nextjs startup screen that you
+- [16:38] would normally see Okay cool so here's
+- [16:40] what we're going to do we're going to
+- [16:41] start copying the code from b0 over to
+- [16:43] our editor so we can actually see it get
+- [16:45] built in real time because this is it's
+- [16:47] beautiful once you see it in action so
+- [16:48] what we're going to do come over here
+- [16:50] well you can actually do two things I'll
+- [16:51] show you some magic here in a second so
+- [16:52] you can go ahead and let's just copy
+- [16:54] their initial page so in our case you
+- [16:55] can see app offers page okay that's
+- [16:58] important so we're going to do copy it
+- [17:00] and then what we're going to do go over
+- [17:02] make our folder so app offers and then
+- [17:05] what we'll do new file and then page.
+- [17:08] TSX paste it awesome looks great and I
+- [17:11] did want to make sure that we spelled
+- [17:13] things right offers plural fantastic
+- [17:15] okay so that's one component and we can
+- [17:17] actually start viewing it once we import
+- [17:19] some of these missing components and
+- [17:20] this is where the cheat code comes in so
+- [17:22] let me show you how you can actually go
+- [17:24] ahead and start working on implementing
+- [17:26] some of these missing components that
+- [17:27] are Shad CN components
+- [17:29] that we haven't added yet but we need to
+- [17:31] so here's how we can do it if you come
+- [17:32] up here inside of vzer make a little
+- [17:35] bigger for you guys and you see this
+- [17:37] like little terminal button you can
+- [17:38] click this add to codebase button what
+- [17:40] it's going to do is it's going to use
+- [17:41] Shad CN to add certain components over
+- [17:44] to your project so let me show you this
+- [17:46] cuz it's basically magic so copied that
+- [17:49] back over in our code let's open up a
+- [17:50] new terminal so you can see things in
+- [17:52] action so what we're going to do now is
+- [17:53] go okay I would like to add and then
+- [17:57] what do I want to add well the
+- [17:58] components that we just created so I'm
+- [18:00] going to run it and what it's going to
+- [18:01] do is it's going to go off and say hm
+- [18:03] let me check to see what's out there let
+- [18:04] me install some dependencies and then
+- [18:07] what it's going to do is add in the
+- [18:09] missing components so it added in the
+- [18:11] app offers page for us which is exactly
+- [18:13] the page you can see right here it added
+- [18:15] as a component technically we don't need
+- [18:17] this one because uh we actually have
+- [18:19] like a full-blown you know page right
+- [18:21] here so we can actually we'll delete
+- [18:23] this one don't need it but the important
+- [18:25] thing is we needed a button inside of
+- [18:27] our code right here and it adds it for
+- [18:29] us which is so cool so we have to do a
+- [18:31] little bit of dancing with VZ because
+- [18:33] like sometimes it'll add it as a
+- [18:34] component when it needs to be a page and
+- [18:36] vice versa but let me show you now that
+- [18:38] we've kind of seen the initial part of
+- [18:39] it working let's go ahead and import
+- [18:41] these two other components so you can
+- [18:43] actually see it working inside of nextjs
+- [18:46] so then once you see like the initial
+- [18:47] Parts working we're going to start going
+- [18:49] speed mode and actually getting this
+- [18:50] really cranked out so what was the other
+- [18:52] part of our code that we're missing well
+- [18:54] it was the offers list head over here
+- [18:56] what are we going to do we're going to
+- [18:58] copy our codebase button add it come
+- [19:01] back over here we're going to paste it
+- [19:02] in this should add our offer list View
+- [19:05] and while that's running let's come over
+- [19:06] here and speed mode through and grab our
+- [19:09] offer modal great so that added the
+- [19:12] proper component and it just spelled it
+- [19:15] a little bit differently so what we'll
+- [19:16] do is we'll come back and add that in in
+- [19:18] a second and then what we'll do yeah
+- [19:20] create offer modal let's go ahead and
+- [19:22] add these part at part so what you can
+- [19:24] do is you can go ahead and start trying
+- [19:26] to import these in just a second and
+- [19:28] then we'll go ahead and actually add in
+- [19:30] our missing component so what you'll see
+- [19:31] now is we are missing a few different
+- [19:34] pieces of code so what we can do is
+- [19:36] actually hop back over to our component
+- [19:38] section and start saying hm all right I
+- [19:40] want to add in our modal so you can see
+- [19:43] this is called our create offer modal
+- [19:45] component so just a slight different
+- [19:47] name so we can just copy that over here
+- [19:49] update and now what we can do is go
+- [19:51] ahead and say yeah add in that piece of
+- [19:53] code that we needed same for offer list
+- [19:55] what we can do come back over here offer
+- [19:57] list component paste it in
+- [19:59] update our Imports great now what should
+- [20:02] happen now that we have this all working
+- [20:04] is we should be able to start seeing our
+- [20:05] application run we do have a few more
+- [20:07] Imports to clean up it looks like our
+- [20:08] offer modal had some additional things
+- [20:10] that needed to import so we'll let it
+- [20:12] finish running up and then it should
+- [20:14] work cool so we have just actually coded
+- [20:16] out a page and a component and two other
+- [20:19] components which is crazy so now let's
+- [20:21] hop over to our application so we can
+- [20:23] see it running so we'll go to for/
+- [20:25] offers and this should show us our list
+- [20:27] view on my gosh it's actually fully
+- [20:30] working so now we have the ability to
+- [20:31] see like hey these are the different
+- [20:33] offers they're obviously not fully
+- [20:35] working right now but you can actually
+- [20:36] see it's all working we have a section
+- [20:38] when I click new it's going to pop up an
+- [20:40] offer confirmation that will actually
+- [20:42] allow us to actually start putting in
+- [20:44] our users you know their name and their
+- [20:47] address so we now have like the initial
+- [20:49] part of this working so what I'm going
+- [20:50] to do because the whole part right now
+- [20:52] is to get things working visually so
+- [20:54] let's clean up the list view a little
+- [20:56] bit more and then we're going to hop
+- [20:56] over to the detail page so let me show
+- [20:58] you how we can do this back over inside
+- [21:01] of VZ just by strictly talking to our
+- [21:04] editor and our chat and let AI do all
+- [21:06] the magic for us and at this stage when
+- [21:08] it comes to cleaning up there's really
+- [21:10] two main things that I can think of that
+- [21:11] we need to focus on fixing one we're
+- [21:14] missing a nav bar which is huge so what
+- [21:16] we need to do is kind of copy some hey
+- [21:18] here's our current state of our
+- [21:20] application over to v0 so it understands
+- [21:22] where we're at and then we can say like
+- [21:23] hey I was trying to add that navigation
+- [21:25] bar inside of the initial drawings I
+- [21:27] passed you but you're missing it so I
+- [21:28] need you to go in and update the layout
+- [21:30] to include a navigation bar additionally
+- [21:32] when it comes to this list view I was
+- [21:34] hoping that you were going to put this a
+- [21:37] little bit differently specifically we
+- [21:39] want to put the person's name then a
+- [21:42] dash and then the actual address that
+- [21:44] they're trying to work at so as you can
+- [21:46] see these are just like high level
+- [21:47] things that we want to be different but
+- [21:49] we need our application to go off and
+- [21:51] Implement so this is where we're going
+- [21:52] to hop back over and start pasting in
+- [21:54] necessary code that we want to update
+- [21:56] along with our verbal changes so here's
+- [21:58] how do it first what we want to do is we
+- [22:00] said we wanted to add a navigation bar
+- [22:02] so where you want to add a navigation
+- [22:03] bar is usually in your layout component
+- [22:06] so this is where what we're going to do
+- [22:07] just like grab our layout and say like
+- [22:09] hey you're going to be adding the nav
+- [22:10] bar here so I'm just going to paste our
+- [22:12] layout come back over here so what you
+- [22:14] can do is you can add three back ticks
+- [22:16] paste in your code and this will add it
+- [22:18] as a code snippet into b0 and we'll say
+- [22:21] hey I would like you to add in a
+- [22:23] navigation bar that you can see inside
+- [22:26] of the initial drawings that I passed up
+- [22:29] where it's going to say AI offers in the
+- [22:31] top leftand corner and then it's going
+- [22:33] to have a navigation for offers and that
+- [22:35] navigation link is going to be in the
+- [22:37] far right hand corner and directly next
+- [22:39] to that navigation link over to the
+- [22:40] right we want to show the users current
+- [22:43] authentication profile and that's going
+- [22:45] to come from clerk great so that's all
+- [22:48] we need to go ahead and set up our
+- [22:50] basically set up our navigation bar and
+- [22:52] the other piece of code is we wanted to
+- [22:54] update our offer list view so you can
+- [22:57] see right now it's kind of passing stuff
+- [22:58] is like offer name and offer address and
+- [23:00] we actually want to put these side by
+- [23:02] side so what we can do is say hey we
+- [23:04] need to update this code so what we're
+- [23:06] going to do hop back over here and
+- [23:07] because this code is already in v0 we
+- [23:09] don't have to worry about updating it
+- [23:11] additionally when it comes to working on
+- [23:13] the offer list component you are not
+- [23:16] properly displaying the information that
+- [23:18] I was envisioning period eventually
+- [23:20] going forward an offer model is going to
+- [23:23] have a client name and a client address
+- [23:29] period when you are generating the UI
+- [23:32] cards for me to be able to click on an
+- [23:35] individual offer I would like you to
+- [23:37] show the client name then add a dash and
+- [23:41] then show the address to the right of it
+- [23:44] and make it look visually appealing and
+- [23:47] the other thing that we can do guys is
+- [23:49] let's just go ahead and set some basic
+- [23:50] functionality just like Hey whenever you
+- [23:52] click on this it should take us over to
+- [23:53] the offer detail page because oh no it
+- [23:55] already does it see that's how good it
+- [23:57] is it already added in know that this is
+- [23:59] a link so see it's already one step
+- [24:00] ahead of us being proactive because in
+- [24:03] our master plan which we passed up we
+- [24:05] already said exactly for that
+- [24:06] functionality to happen so hopefully
+- [24:07] it's come in Full Circle for you to see
+- [24:09] like oh yeah that is why we add a master
+- [24:11] plan because it's kind of our guiding
+- [24:12] North Star so the AI knows yeah this is
+- [24:14] how things should connect so we didn't
+- [24:16] have to say that we wanted to it just
+- [24:17] did it so let's go ahead run it it'll go
+- [24:19] off and actually start implementing our
+- [24:21] feedback right now and it'll start
+- [24:23] generating updated codes that we can
+- [24:25] start adding back into our code so first
+- [24:28] things first first it's going to go
+- [24:29] ahead and update our layout this one's
+- [24:31] simple we'll just be able to copy and
+- [24:32] paste this over to our application cuz
+- [24:34] layouts really aren't even viewable
+- [24:35] anyway so um and you might notice
+- [24:37] there's a few things when it comes to
+- [24:39] clerk in here I did use clerk for
+- [24:41] authentication but hey once again I
+- [24:43] strictly followed the quick start guides
+- [24:45] for Clerk and went ahead and just copied
+- [24:47] and paste the code over into our layout
+- [24:49] great layouts are done so you can just
+- [24:51] click the copy button in the top right
+- [24:53] come back over to our layout paste it
+- [24:55] okay now it's going to it should throw
+- [24:57] yeah so it went ahead and made our
+- [24:59] navigation bar for us so cool then what
+- [25:02] we can do come down here when it comes
+- [25:04] to our offer list view you can see that
+- [25:06] yeah it's actually starting to do this
+- [25:08] pretty well however it's adding some
+- [25:09] weird spacing so we can fix this really
+- [25:11] fast but as you can see the power of V
+- [25:13] Zer it's like as we're creating
+- [25:15] different components and the code for it
+- [25:18] what it's doing is it's going to go
+- [25:19] ahead and show us a preview and this
+- [25:21] preview is so powerful because we can
+- [25:22] just quickly come in here and say like
+- [25:24] no here's what I want to change this
+- [25:26] list view is looking pretty good how
+- [25:28] ever the one thing I dislike is that the
+- [25:30] names are on the left and then the
+- [25:32] addresses on the far right there doesn't
+- [25:34] need to be this justify between
+- [25:36] attribute I actually want these
+- [25:38] components pretty close to each other
+- [25:41] great so we're going to go ahead and run
+- [25:42] that off and then what we can do is
+- [25:43] start preparing to start working on the
+- [25:45] next step which is the offer detail view
+- [25:48] so what we'll do is we'll give VZ the
+- [25:50] thumbs up of like hey I'm liking what
+- [25:52] you're doing with the list view now
+- [25:53] let's start moving over to finishing
+- [25:55] stubbing out the detail view yeah much
+- [25:57] better we're start working on stubbing
+- [25:59] out the detail view so that that way we
+- [26:01] can be done with phase two which is you
+- [26:03] know the initial UI stub out so let's go
+- [26:05] ahead this code looks great to me copy
+- [26:08] you got to love a good old copy paste so
+- [26:10] then we're going to come back over here
+- [26:11] to our offered list view paste it things
+- [26:13] look great later we could actually work
+- [26:15] on adding in real data but hey future us
+- [26:17] so let's see let's go ahead and go ahead
+- [26:19] and refresh the component oop on didn't
+- [26:22] recognize the server component ah we
+- [26:25] should have update this real fast let me
+- [26:27] fix this for you guys real fast
+- [26:29] so update this View and just to show you
+- [26:32] guys what I'm doing and it's weird cuz
+- [26:33] it actually changes variables so this is
+- [26:35] one of things I dislike about b z is it
+- [26:37] sometimes changes the names so you can
+- [26:38] see it now change it back to offer list
+- [26:40] view so we'll just change it back to
+- [26:41] component that way it'll work back over
+- [26:43] here cool so as you guys can see there
+- [26:46] are some weird Oddities of working with
+- [26:49] these different you know AI tooling
+- [26:51] they're not perfect but they help us
+- [26:52] move really fast for cranking out MVP
+- [26:54] all right this is beautiful when we come
+- [26:56] back over here looks great so we're now
+- [26:58] making progress when we click new we go
+- [27:00] ahead and do this oh what we can do we
+- [27:02] can also update the Modo super fast to
+- [27:03] where it should allow us to say the
+- [27:05] client name and client address so once
+- [27:07] again we can hop back over and uh while
+- [27:09] we're in it I just want to like show you
+- [27:10] guys some like additional thoughts on
+- [27:12] like how I use this tool because like I
+- [27:14] said we're need to make a bunch of
+- [27:16] progress in this very quickly so here's
+- [27:17] how we do it so step one I'm going to
+- [27:19] update that confirmation model and step
+- [27:21] two I'm going to go off and update that
+- [27:24] we should update our primary colors and
+- [27:26] our Global CSS so that by def fault our
+- [27:28] buttons are orange you know cuz like
+- [27:30] right now we had to make the na bar
+- [27:31] orange but that should just be our
+- [27:33] primary color so what we're going to do
+- [27:35] two things update confirmation modal
+- [27:37] second update Global CSS so hopefully
+- [27:39] you can see like we're able to quickly
+- [27:40] speed through this the confir
+- [27:43] confirmation model does look really
+- [27:45] great however there needs to be two
+- [27:47] input Fields the first input field needs
+- [27:49] to be the client name and the second
+- [27:54] input field needs to be the client
+- [27:56] address so I should say offer needs to
+- [27:59] be the offer name and the offer offer
+- [28:01] client name so yeah as you guys can see
+- [28:04] it's nice because you can just like
+- [28:05] quickly add in and talk to it once you
+- [28:07] make that change we also need to make
+- [28:09] some additional changes to our Global
+- [28:10] CSS period what I would like you to do
+- [28:13] is make the global primary color orange
+- [28:17] 500 so once I give you the global CSS
+- [28:20] file please update the hsl values to
+- [28:24] appropriately use this color and it's
+- [28:28] also important to mention when it comes
+- [28:30] to the rest of the color scheme please
+- [28:32] look at my master plan where I describe
+- [28:34] that the color scheme needs to be orange
+- [28:36] gray white and black and please update
+- [28:39] those values accordingly inside of my
+- [28:41] Global CSS so I know that might have
+- [28:44] seemed like a lot if you're not super
+- [28:45] familiar with a global CSS but basically
+- [28:47] it is your one place where you're going
+- [28:49] to store all of your different variables
+- [28:52] for like yeah this is my primary color
+- [28:54] as you can see right now this is
+- [28:55] basically black and we want that to be
+- [28:57] orange so you can go ahead come back
+- [28:59] over here paste in your Global CSS and
+- [29:01] then let VZ do the work so as you can
+- [29:03] see we have a direction we're trying to
+- [29:05] go and we're just helping iterate very
+- [29:08] very quickly through a bunch of
+- [29:09] different like UI changes and ux changes
+- [29:12] so UI we're making things more colorful
+- [29:13] we're adding and missing input fields
+- [29:15] and basically making everything look
+- [29:17] like our initial drawings that we did in
+- [29:19] excal draw so what you can see went
+- [29:21] ahead and made our modal let's go ahead
+- [29:24] copy paste that code over to our modal
+- [29:28] looks great then what we can do let's
+- [29:31] just make sure it didn't change the name
+- [29:32] yeah it did change the name once again
+- [29:34] we'll change it back to component looks
+- [29:36] good and then we'll fix that over here
+- [29:39] as well so one downfall of working with
+- [29:41] v0 if we had more times we could tell it
+- [29:43] not to make that change anymore but I
+- [29:44] just want to move fast for you guys and
+- [29:46] then finally when it comes to our Global
+- [29:48] CSS you can see now it updated our
+- [29:50] primary color and the rest of them
+- [29:52] accordingly so let me just show you how
+- [29:54] cool this is cuz this would have been a
+- [29:56] pain in the butt like what the heck is
+- [29:58] orange 500 in hsl like what is this
+- [30:01] what's going on and I'll show you why
+- [30:03] this is important a second but we'll
+- [30:04] save it and then you can see
+- [30:05] automatically our button is now orange
+- [30:07] so and throughout the rest of the
+- [30:09] application when we do our new one this
+- [30:10] is orange that's orange so as you can
+- [30:12] see we updated our Global variable in
+- [30:14] one place and it made the rest of our
+- [30:15] application look beautiful elsewhere and
+- [30:17] this is a perk of using Shad CN because
+- [30:20] just to give you guys a quick background
+- [30:21] inside of Shad CN inside of our
+- [30:23] components UI this is where we're adding
+- [30:25] all the Shad CN components you can see
+- [30:26] all of these are using background
+- [30:28] primary and if you actually if it'll pop
+- [30:30] up real fast you can see I might not do
+- [30:33] it here I'll have to go back over here
+- [30:35] you can see if we were to do something
+- [30:36] like
+- [30:38] primary background primary you can see
+- [30:40] it's the hsl so that's a way to do like
+- [30:44] you know there's hex rgba and hsl then
+- [30:46] we want to look at the primary the
+- [30:48] variable that's primary and that's
+- [30:49] coming from our Global CSS So Okay cool
+- [30:51] so you can see it's all coming together
+- [30:52] it's all looking awesome and as you saw
+- [30:54] earlier we now have client name and
+- [30:56] address perfect this is everything that
+- [30:58] we need in order to go off and actually
+- [31:00] start working on the detail page so
+- [31:02] let's go ahead next and start talking
+- [31:04] back over to our vzer to start hey
+- [31:07] saying hey now it's time to crank out
+- [31:08] our detail
+- [31:10] page so here we go all right so now I
+- [31:14] would like your help working on the
+- [31:16] offer detail page and as you could see
+- [31:19] in the master plan and the drawings that
+- [31:22] I passed up there were three major
+- [31:24] components to this page the first
+- [31:27] component was going going to be the chat
+- [31:30] window which kind of feels like how when
+- [31:33] you conversate with chat GPT where you
+- [31:35] can pass messages back and forth that's
+- [31:38] what we want the chat component to feel
+- [31:39] like and look like below that we had our
+- [31:43] file upload section where users and
+- [31:45] specifically real estate agents can
+- [31:47] upload conversations that they've had
+- [31:49] between themselves and their clients
+- [31:52] about the specific offer that they're
+- [31:54] trying to put a bid in on and that
+- [31:57] should allow people to upload text files
+- [32:01] and HTML files and what we should do is
+- [32:04] just store those inputs locally and
+- [32:07] we'll work on handling them later but it
+- [32:09] would be nice whenever we do upload
+- [32:11] files if you could go ahead and show the
+- [32:13] name of the uploaded files third over on
+- [32:16] the right hand side of it missed it real
+- [32:18] fast third we'll say the right hand side
+- [32:22] of the screen we have a offer section
+- [32:26] where the real estate agent can view the
+- [32:28] offer that we're working on in real time
+- [32:31] this offer is going to be updated by Ai
+- [32:34] and it's important that you show this
+- [32:37] offer in a markdown viewer because all
+- [32:40] of the offer that we create is going to
+- [32:43] be in markdown so we want it to look
+- [32:45] nice and inside of this View and finally
+- [32:48] it is important to mention that I would
+- [32:50] like you to break each one of these big
+- [32:52] items up into their own components just
+- [32:54] so we can keep our code clean period do
+- [32:57] you have any questions before we dive
+- [32:58] into building this out also it is super
+- [33:01] important that you keep everything high
+- [33:03] level and focused on the visuals first
+- [33:05] and later we're going to come back in
+- [33:07] and add in the
+- [33:08] functionality I almost didn't add that
+- [33:10] last part which would have uh thrown off
+- [33:11] our Phase 2 plans so as you can see now
+- [33:13] it's going to go off and what it should
+- [33:15] do hopefully KN on what it should
+- [33:17] generate a page that page should then
+- [33:19] have a few different components inside
+- [33:21] of it so our check component file
+- [33:22] component and our offer component so it
+- [33:25] understands everything that we're trying
+- [33:26] to do so yeah as you can see now it's
+- [33:27] going to make that page this is a server
+- [33:29] side page that's going to go off and say
+- [33:31] like hey offers detail page then what do
+- [33:33] we expect to happen well we're going to
+- [33:36] have a chat window we're going to have a
+- [33:39] over here we're going to have a file
+- [33:40] upload section so as you can see we can
+- [33:41] start previewing some of these pretty
+- [33:43] darn cool if you ask me and then yeah
+- [33:46] chat section beautiful do you know how
+- [33:47] long this would have normally taken to
+- [33:48] code up it just cranked it up for us
+- [33:50] this is sick I love this and for our
+- [33:53] offer section yeah you can see it's
+- [33:55] already doing a pretty good job cuz I
+- [33:56] uploaded like what a blank offer should
+- [33:58] look like so it's already getting there
+- [33:59] pretty well it even gave us a few things
+- [34:01] to install so what I'm going to do we're
+- [34:03] going to go ahead and copy these inp
+- [34:04] install head back over to our
+- [34:06] application go ahead and install it once
+- [34:09] we do that what we can start doing is
+- [34:10] actually applying some of these changes
+- [34:13] however this is where you as a
+- [34:15] experienced developer can provide some
+- [34:17] feedback to the UI before it goes off
+- [34:20] and actually we start copying this
+- [34:22] specifically I see there's going to be a
+- [34:24] problem between the parent page and all
+- [34:28] the children component specifically in
+- [34:31] the end version of our application we
+- [34:33] need the ability for whenever we upload
+- [34:36] a file for that to go update the offer
+- [34:39] viewer so basically we need this
+- [34:42] component to be able to like say hey
+- [34:44] here's the updated offer show it and the
+- [34:47] issue that's happening is we're missing
+- [34:48] a client component so I'll just go ahead
+- [34:50] and tell V hey you're missing this and
+- [34:53] this is kind of where you get promoted
+- [34:54] as a software developer from like a doer
+- [34:56] to more of a software manager to where
+- [34:58] you get to make sure yeah software that
+- [34:59] you're building it's clean and it's
+- [35:01] going to work as you would expect so
+- [35:02] let's go ahead and say what changes we'd
+- [35:04] like to see all of that looks absolutely
+- [35:07] perfect exclamation mark I love the way
+- [35:09] everything is looking visually however
+- [35:11] we need to take a step back and add in
+- [35:14] one additional component which is going
+- [35:16] to be the offer detail client component
+- [35:19] this offer detail client component needs
+- [35:21] to receive the offer from the offer
+- [35:25] detail page which is a server side
+- [35:26] component and what what we want to do
+- [35:28] inside of our offer detail client
+- [35:30] component is share a offer between the
+- [35:35] file upload component that you've
+- [35:37] created and the offer viewer component
+- [35:41] as well additionally we are going to be
+- [35:43] sharing the offer with the chat window
+- [35:46] so basically this one object is going to
+- [35:47] get shared to the three children which
+- [35:49] is why it needs to be a client component
+- [35:51] because we're going to be using state so
+- [35:54] as you can see it kind of needs you as a
+- [35:56] software developer need to to know how
+- [35:58] to speak the language of software
+- [35:59] development this is a perfect time to
+- [36:01] mention uh two different things while
+- [36:03] codes generating it I just launched a
+- [36:05] full stack AI developer master class
+- [36:07] over inside my school community and just
+- [36:09] to give you a heads up it is a in toin
+- [36:12] project where you'll get to build a real
+- [36:13] world full stack application that
+- [36:16] focuses on AI automation people have
+- [36:18] been loving the course I can't wait for
+- [36:19] you to take it but if some of the things
+- [36:21] that I'm saying are overwhelming
+- [36:22] definitely recommend checking that out
+- [36:23] cuz I really focus on going deep with
+- [36:25] you guys building out a fullstack applic
+- [36:28] using nextjs that where you go from step
+- [36:30] by step to learning like server side
+- [36:32] component client component oh this is
+- [36:34] how you use for sell AI SDK like
+- [36:35] everything that we're doing here I go
+- [36:37] super deep so if you're looking to like
+- [36:39] really freshen up as a AI software
+- [36:41] developer cannot recommend that course
+- [36:43] enough hundreds of people have already
+- [36:44] joined they're absolutely loving it
+- [36:45] would love for you to be a part of the
+- [36:47] course as well but enough of that let's
+- [36:48] hop back so you can actually see what's
+- [36:50] going on so you can see now we have a
+- [36:52] client component then we have a server
+- [36:55] component then we have a yeah basically
+- [36:58] did exactly what we wanted it to do so
+- [37:00] what are we going to do well we're going
+- [37:01] to do our best at copying and pasting
+- [37:03] things over so what we can do is come
+- [37:05] over here we're going to just start
+- [37:07] doing the same thing with our codebase
+- [37:08] and we're going to start actually
+- [37:10] pasting in all of the different
+- [37:12] components that it's asking us to
+- [37:14] implement so we'll start off with the
+- [37:16] client component which will create the
+- [37:18] component offer detail client makes it
+- [37:20] right there then what we're going to do
+- [37:22] the page one we're going to have to
+- [37:23] manually add ourselves no worries we're
+- [37:26] just going to make a new let's see
+- [37:28] offers ID page so you can see new offers
+- [37:31] we'll make a folder ID and then inside
+- [37:34] the ID we'll make a page and this is
+- [37:36] just using nextjs route based pathing so
+- [37:39] paste it there awesome cruising and then
+- [37:41] we can go ahead and add in the final
+- [37:43] three missing components so what we're
+- [37:45] going to do just keep got to love this
+- [37:47] the fact that we can just copy and paste
+- [37:48] and literally just build code instantly
+- [37:50] inside of our application so we're going
+- [37:52] to add in our chat window next this
+- [37:54] should probably go ahead and ask us if
+- [37:56] we want to add a button no we already
+- [37:58] have one do we want to add in the input
+- [38:00] nope great so it went ahead and added in
+- [38:03] a scroll area for us and made that new
+- [38:05] component and then finally we're going
+- [38:07] to keep chugging along to add in our
+- [38:09] file upload section great copy that so
+- [38:13] as you can see we've now like we are
+- [38:14] speeding through we built an entire list
+- [38:17] View and now we're cranking through a
+- [38:18] detail View at Lightning Fast speeds and
+- [38:21] you pretty much just have to watch this
+- [38:23] to make sure that we're adding in the
+- [38:24] appropriate components at different
+- [38:26] times and then same for our off review
+- [38:29] now for some reason this one's having a
+- [38:31] little bit of a hard time reading
+- [38:33] content and we'll work on adding that in
+- [38:35] later basically it's just making a modal
+- [38:38] basically just like making an offer
+- [38:40] object and saying it should have a
+- [38:41] Content but we'll come back to that
+- [38:42] later because it's right now saying it
+- [38:43] didn't get it but we'll go ahead and add
+- [38:45] it into our project as well and that way
+- [38:48] once we've added in all the components
+- [38:49] we can hop back over and actually see
+- [38:51] hey what the heck does this detail view
+- [38:52] look like so once again no we already
+- [38:55] have all the proper components great so
+- [38:57] things are looking awesome so we are
+- [38:59] importing all the important parts and
+- [39:02] what we can do is go ahead and say what
+- [39:05] do we want to happen so let's see for
+- [39:07] some reason that component there it
+- [39:11] looks like our page didn't get fully
+- [39:12] pasted in let's copy and paste that yeah
+- [39:15] it just didn't fully get pasted in all
+- [39:17] right so let's work on fixing this
+- [39:18] together and getting everything working
+- [39:20] so first things first the offer detail
+- [39:22] client is not being imported well what
+- [39:25] do we need to do we need to head over to
+- [39:27] to our file explorer and look for our
+- [39:29] offer detail client and you can see in
+- [39:31] here it's once again client component so
+- [39:33] this is a big pain in the butt that it
+- [39:35] takes component great so now we have our
+- [39:39] page pretty much working we can update
+- [39:41] our initial offer we'll make that
+- [39:43] Anonymous and we're basically just
+- [39:44] cleaning up bugs for right now that are
+- [39:47] basically getting passed in whenever
+- [39:49] we're stubbing things out so totally
+- [39:51] doesn't matter we can console.log the ID
+- [39:54] and like I said guys I'm just trying to
+- [39:55] speed through so you can see the power
+- [39:57] of going from idea to actually real
+- [39:59] world application and show you some of
+- [40:00] the common problems you're going to run
+- [40:01] into along the way now what do we need
+- [40:03] to do right now it's trying to import a
+- [40:04] bunch of things that don't exist so what
+- [40:07] do we do well we're going to come down
+- [40:08] here and actually try importing them now
+- [40:11] I'm going to cheat for you guys and show
+- [40:12] you a little bit of how you can use
+- [40:13] cursor to solve some of these errors so
+- [40:16] one thing that you can do cuz like this
+- [40:17] is kind of a pain what you can do is say
+- [40:20] command a to select everything and then
+- [40:23] you can do command l or control L on
+- [40:24] Windows and what you can do is just have
+- [40:27] check PBT solve this issue but the core
+- [40:29] issue is we need to allow this to
+- [40:32] understand where all of our components
+- [40:34] are at so what you can do is do at and
+- [40:37] then press down to go to folders and
+- [40:39] then over to components perfect that's
+- [40:41] all you need to do and this is using
+- [40:42] cursor Pro so now we can say hey I am
+- [40:45] having trouble importing the proper chat
+- [40:48] file and offer viewer components can you
+- [40:51] please look at the names in my
+- [40:53] components folder and help me update my
+- [40:55] imports as well as help me update the
+- [40:59] names of the components I'm adding in
+- [41:01] adding in and just to give you a quick
+- [41:03] heads up whenever I'm building out
+- [41:04] components like this if I'm solving a
+- [41:06] problem that involves a little bit of
+- [41:07] thinking I always use 40 if I'm doing
+- [41:09] something that's like a quick like hey
+- [41:11] just add this text I go off and actually
+- [41:14] add in the ability to do basically I do
+- [41:16] 40 mini so what you can see check your
+- [41:18] components directory I guess it did like
+- [41:21] it for whatever
+- [41:22] reason it's saying it should work so hey
+- [41:26] sometimes it fails sometimes it doesn't
+- [41:27] but in our case what we'll do is
+- [41:29] basically was the component issue we'll
+- [41:31] come back to v0 later or sorry cursor
+- [41:33] which when it's actually working but
+- [41:34] you'll see it in a minute it is super
+- [41:36] powerful when it works cool so now this
+- [41:40] is a happy component life's looking good
+- [41:42] everything else is looking good so what
+- [41:44] we can do head over to our application
+- [41:46] and what we need to do is just go over
+- [41:47] to a random offers page so we'll go to
+- [41:50] offers one 23 and now you can see that
+- [41:53] holy crap we have a full-blown offers
+- [41:56] detail page up up and running we're
+- [41:58] saying like hey can I help your offer we
+- [42:00] could probably let's see if we can type
+- [42:01] in here we'll work on this together oh
+- [42:03] my goodness we can even type in here and
+- [42:04] add messages it'll looks sick eventually
+- [42:07] what we're going to do in The Next Step
+- [42:08] we're going to start adding
+- [42:09] functionality we're going to have it to
+- [42:10] where it's going to make some open AI
+- [42:12] calls and actually go off and start
+- [42:14] updating the offer over here in real
+- [42:15] time similarly when it comes to the file
+- [42:17] upload let's see if this will work let's
+- [42:20] see if Shad CN and b0 work for us oh my
+- [42:24] goodness it works there as well that is
+- [42:26] so cool guys so now that we have the
+- [42:28] basic entire application working to
+- [42:31] where we can actually hop around to
+- [42:33] different pages we can go ahead and hop
+- [42:35] over we'll see if one of these list
+- [42:37] views oh my goodness it fully works so
+- [42:39] what we're going to do next is we're
+- [42:40] going to hop over to the detail portion
+- [42:42] of this in phase three where we're
+- [42:44] actually going to start adding in
+- [42:45] functionality and this is where you're
+- [42:46] going to see a lot more of vzer working
+- [42:49] with cursor to rough out some of the
+- [42:51] errors that we're going to see when it
+- [42:52] comes to implementation so let's go
+- [42:54] ahead hop over to phase three so we can
+- [42:55] start cranking out the rest of this this
+- [42:58] application all right guys welcome to
+- [43:00] phase three where we're going to start
+- [43:01] adding in functionality to all of the
+- [43:03] different components that we just
+- [43:05] stubbed out in the last phase so you're
+- [43:06] going to see us using v0 and cursor to
+- [43:09] their full potential I'm so excited for
+- [43:10] you to see this and just as a quick
+- [43:12] overview of where we're going together
+- [43:14] first we're going to go off and add in
+- [43:16] functionality to our offer list view so
+- [43:18] right now if we head over to our offer
+- [43:20] list view let's go back for a second all
+- [43:22] the data in here is static meaning you
+- [43:24] know nothing about this is changing and
+- [43:26] when we click new it's not actually
+- [43:27] adding a new offer so we're going to
+- [43:29] make this actually Dynamic and hooked up
+- [43:31] to a database so we can save stuff and
+- [43:33] all of it works then in the next section
+- [43:36] we're going to go off and actually is go
+- [43:38] off and set up this chat to actually
+- [43:41] update the offer in real time so this is
+- [43:42] where we're going to actually start
+- [43:43] integrating some AI so you can actually
+- [43:45] see like this all working together and
+- [43:47] actually adding out modern AI
+- [43:49] functionality to applications using vzer
+- [43:52] and cursor so excited for you guys to
+- [43:53] get to see this and as a quick
+- [43:55] background I did just want to mention
+- [43:56] for to make things super quick in this
+- [43:58] video I went ahead and added in the fact
+- [44:01] that we're using versell postgress so I
+- [44:03] basically I I hooked up a database to
+- [44:04] our application and I did this by going
+- [44:07] and hooking up and creating a postgress
+- [44:09] database inverell and then I ended up
+- [44:12] standing up and setting up drizzle to
+- [44:14] work inside of our local application so
+- [44:16] basically this file right here saying
+- [44:17] yep I'm using drizzle here's how we
+- [44:20] connect to our database and I went ahead
+- [44:22] and created an offers schema just so we
+- [44:24] can move fast so in this you can just
+- [44:26] see we have everything that we need to
+- [44:28] know about an offer that we're creating
+- [44:29] for application such as who made it what
+- [44:31] user what's the name of the client and
+- [44:33] where is the address of the house we're
+- [44:34] trying to buy cool so now that we're on
+- [44:36] the same page we can actually hop over
+- [44:38] back to vzero and start implementing
+- [44:39] some of the offer list features that we
+- [44:41] just talked about and as a quick
+- [44:42] overview I did want to mention if any of
+- [44:44] this is confusing don't worry there's a
+- [44:46] bunch of different options a if you head
+- [44:47] over to my free AI developer School
+- [44:49] Community feel free to go over there ask
+- [44:51] some questions if you want a little bit
+- [44:52] more help I am going to convert this
+- [44:54] entire course into a much longer Mini
+- [44:57] module over inside of my AI developer
+- [44:59] accelerator Pro program so in there I'll
+- [45:02] actually show you guys setting up the
+- [45:03] database setting up clerk setting things
+- [45:05] up in to end and adding out some
+- [45:07] additional features such as like working
+- [45:09] with the file upload section so you can
+- [45:10] kind of see even more functionality if
+- [45:13] you want that and then finally if you're
+- [45:14] like man a lot of this full stack
+- [45:15] development is way over my head don't
+- [45:17] worry I just launched like I said a full
+- [45:19] stack AI marketing platform course where
+- [45:21] I teach you from in to end how to build
+- [45:23] a modern AI fullstack application but
+- [45:25] with all that out of the way let's go
+- [45:26] ahead and hop back over to v0 so we can
+- [45:28] start cranking out some of the new
+- [45:29] features that we just talked about so
+- [45:31] first things first when it comes to the
+- [45:32] offer list view what we're going to do
+- [45:34] is go ahead and grab that schema that I
+- [45:37] went ahead and created for you guys come
+- [45:39] back over here and what we're going to
+- [45:40] do paste in our schema just so that VZ
+- [45:43] knows the type of models that we're
+- [45:45] working with so as we go off and say
+- [45:46] like hey I want you to use the offers
+- [45:48] model it will know exactly what it's
+- [45:50] working with so what we're going to do
+- [45:52] now is go ahead and describe what
+- [45:54] Behavior we want inside of our
+- [45:56] application and just as a quick
+- [45:58] refresher sometimes vzer isn't the best
+- [46:01] at keeping track of what your previous
+- [46:03] models were or your previous Pages were
+- [46:05] so what I also like to do is come in
+- [46:07] here and in our case it was having
+- [46:09] trouble with the offers page so I'm
+- [46:11] going to add that in as well just put it
+- [46:13] in three quotes that way it knows what
+- [46:15] it is and also the offer list view
+- [46:18] component it seemed to have trouble with
+- [46:20] that one earlier so I'm going to also
+- [46:21] drop this in three quotes great so now
+- [46:24] that we've given VZ an updated version
+- [46:26] of our application what we can do is go
+- [46:28] ahead and describe exactly what we're
+- [46:29] looking for so uh here's what we can say
+- [46:31] I need your help in building out the
+- [46:34] offer list view portion of the
+- [46:37] application so here's what I would like
+- [46:38] you to do first I would like you to
+- [46:41] start using and creating a new queries.
+- [46:45] TS file that goes off and pulls records
+- [46:50] from the offers table for our specific
+- [46:53] user so basically whenever we want to go
+- [46:56] ahead and fetch all the offers for our
+- [46:58] current user in the list view you should
+- [47:00] use this queries file where you're going
+- [47:02] to add in all of your queries to get
+- [47:04] offers for the current user outside of
+- [47:07] that what I want you to do is update the
+- [47:09] offers page on load to go off on the
+- [47:13] server side component and fetch the
+- [47:16] current offers for the current user and
+- [47:19] pass those fetched offers down to the
+- [47:23] client side offers component period do
+- [47:26] you have any questions before you go off
+- [47:28] and update these pages and components
+- [47:31] and create the new query so I know that
+- [47:34] was a mouthful but what I wanted to do
+- [47:35] just so you can see how I'm thinking
+- [47:37] about this and hopefully this behind the
+- [47:38] scenes helps so when you're out building
+- [47:40] your own pages and components and own
+- [47:42] applications you know exactly what to
+- [47:43] say basically what I'm trying to do is
+- [47:45] think programmatically of like what are
+- [47:46] the key actions that I want to occur so
+- [47:48] that's why I stated them at the end and
+- [47:50] then what I like to do is as you begin
+- [47:53] to use nextjs more and more you'll kind
+- [47:54] of recognize like oh yeah this is a
+- [47:56] serers side comp component this is a
+- [47:57] client side component here's the
+- [47:59] functionality and the flow that I would
+- [48:01] normally code out myself but I can just
+- [48:02] have v0 do it for me so as you can see
+- [48:04] it went off and created a new queries
+- [48:07] for us which is sick this is exactly
+- [48:09] what we want where you can see we're now
+- [48:10] going to grab from our database our
+- [48:13] offers that are all for the current user
+- [48:15] this is exactly what we wanted and it
+- [48:17] went off and it looks like updated our
+- [48:19] two other tables or our page in our
+- [48:21] table two so you can see now it's
+- [48:22] getting it and then it's passing it in O
+- [48:24] looks awesome and then over here when it
+- [48:27] comes to our offer list view component
+- [48:28] you can actually see that yeah we're
+- [48:30] getting State and adding it oh this is
+- [48:32] exactly what we want so what we can do
+- [48:34] we can grab each one of these and
+- [48:36] actually add them over to our code so we
+- [48:38] can start trying it out so what we're
+- [48:40] going to do go over to our server and
+- [48:43] here we're going to make a queries. TS
+- [48:45] file and this is going to be where we
+- [48:47] can actually add in support for our
+- [48:49] queries so what I like to do whenever
+- [48:52] there's import issues that's usually
+- [48:53] just cuz VZ doesn't know what our local
+- [48:56] application using like import pathwise
+- [48:58] so you can just usually come in here and
+- [49:00] press command period on a Mac or alt
+- [49:02] period on Windows and import all the
+- [49:04] missing dependencies so import from our
+- [49:07] DB file grab it from our offers table
+- [49:10] perfect this is exactly what we want now
+- [49:12] we can head back over to our offers page
+- [49:14] so we're in the offers page now go ahead
+- [49:16] grab that component paste it over here
+- [49:20] looking awesome now what you're going to
+- [49:22] notice is we broke something and that's
+- [49:23] because initial offers is a new thing
+- [49:25] that we just added and and if we come
+- [49:27] over here you'll notice in our offers
+- [49:29] list view component we are now passing
+- [49:31] it in as a prop and that's exactly what
+- [49:32] we would expect to happen so if I come
+- [49:34] over here paste it great and now we're
+- [49:36] no longer using mock data we're going to
+- [49:39] go ahead and create the real deal so
+- [49:41] this is looking great guys so let's make
+- [49:43] sure everything's working things looking
+- [49:45] good and when it comes to our queries we
+- [49:47] need to update to make sure we get them
+- [49:49] from our server folder that we set up
+- [49:51] just a second ago awesome so now if we
+- [49:54] refresh the page what we should start
+- [49:56] seeing in a second is all this working
+- [49:58] so right now it's saying the offers
+- [49:59] table isn't working this is a quick
+- [50:01] schema issue so what we can do whenever
+- [50:03] you're using drizzle to make a DB change
+- [50:06] I just never pushed my changes you can
+- [50:08] run npx drizzle kit push it'll push your
+- [50:11] local changes to the database so you can
+- [50:13] see it's going to go off and actually
+- [50:15] make everything look nice and then let's
+- [50:17] see create a column this was uh my my
+- [50:20] bad I think we have to run it one more
+- [50:22] time sometimes there's always a quick
+- [50:23] little issue yeah now things are working
+- [50:25] so now when we go back over to our
+- [50:26] application and refresh what we'll start
+- [50:29] to see is like yes we actually have
+- [50:30] offers now so it's pulling it just so
+- [50:32] happens that we don't have any offers
+- [50:34] from our database yet so we could
+- [50:37] manually create one but we're not going
+- [50:38] to do that we're going to actually get
+- [50:39] everything set up to support this new
+- [50:41] button functionality so that's what
+- [50:43] we're going to work on next whenever I
+- [50:44] click this and actually come in here and
+- [50:46] create a new offer it should add it to
+- [50:48] our database so let's hop back over to
+- [50:50] v0 and start stubbing this out so what
+- [50:51] we're first going to do is hop back over
+- [50:53] and just quickly look at what our create
+- [50:56] offer modal looks like so we can see
+- [50:58] what's missing and right now it just
+- [51:00] looks like handle create isn't actually
+- [51:03] doing anything so that's the main thing
+- [51:06] like handle create should probably go
+- [51:07] off and actually create a new endpoint
+- [51:10] and then inside of our list view what
+- [51:11] you'll notice is we're not really doing
+- [51:13] anything with the basically with it so
+- [51:15] we're just offer sorry the yeah the
+- [51:18] create offer modal component should go
+- [51:20] off and actually do something so what we
+- [51:22] need to do is tell we're going to just
+- [51:24] copy it over here we're going to hop
+- [51:26] back over to v0 and start telling VZ how
+- [51:28] it should properly handle working with
+- [51:31] this client to go off and actually
+- [51:32] create a new basically a new offer and
+- [51:35] this is where we're going to start
+- [51:36] setting up some endpoints so I'm excited
+- [51:37] for you guys to see this can you please
+- [51:39] help me add in functionality so that
+- [51:42] whenever I create a new offer it
+- [51:45] actually goes off and makes a request to
+- [51:48] a backend endpoint to handle the
+- [51:51] creation of a new offer so breaking this
+- [51:53] down you need to use the axios package
+- [51:57] to create and send off a post request to
+- [52:01] a backend endpoint such as API offers
+- [52:06] and I think that should be a great
+- [52:07] endpoint to use right now then what I
+- [52:09] would like you to do inside of that
+- [52:10] backend endpoint is create a nextjs app
+- [52:15] router post endpoint that should accept
+- [52:19] and handle us passing over the client
+- [52:22] name and the address of the offer that
+- [52:25] we're going to go off and put a bid on
+- [52:29] and once we go off and actually send
+- [52:31] that request the post endpoint should
+- [52:33] handle the creation of this new offer in
+- [52:37] our drizzle postgress database and then
+- [52:41] return the newly created offer back to
+- [52:44] the front end period do you have any
+- [52:46] questions before you go off and set up
+- [52:48] this new API route and handle all the
+- [52:52] functionality in the create offer
+- [52:55] locally so this is a great first stb so
+- [52:57] as a software developer I'm trying to
+- [52:59] think like core functionality first and
+- [53:01] then few things that I'm also thinking
+- [53:02] about is like hm is VZ going to add in
+- [53:04] some nice UI so back over here whenever
+- [53:07] I click create is it going to do a
+- [53:08] loader for us so these are just things
+- [53:09] that I think about as bz's going off
+- [53:12] working for us is like I try and like
+- [53:13] think of like next steps and I usually
+- [53:15] like to add them while it's working so
+- [53:16] this way like I'm working faster so I
+- [53:18] can see like loading while
+- [53:21] creating what else can I do like I said
+- [53:23] I just try and think proactively while
+- [53:25] it's working so I'm stand sharp and B I
+- [53:28] can just note down all the things that
+- [53:30] we need to add in eventually and let VZ
+- [53:32] do the heavy lifting for us and in a
+- [53:34] little bit I promise we're going to get
+- [53:35] over to cursor implementing some of the
+- [53:36] more fine level details it's just right
+- [53:38] now this highle code v0 just does so
+- [53:40] well that it's actually hard to need
+- [53:42] anything else okay so what we can see in
+- [53:44] the create offer modal it definitely
+- [53:46] added oh my gosh it did it for us it
+- [53:48] added in is loading beautiful so you can
+- [53:51] see now what it's going to go off and do
+- [53:53] is make a post request to our offers
+- [53:55] endpoint passing up all the information
+- [53:57] we need looks great yeah this is exactly
+- [54:00] what we want it is refreshing the page
+- [54:03] we'll work on that and we can use cursor
+- [54:04] for that but what we can do now is copy
+- [54:06] this head back over to our create offer
+- [54:08] modal paste in here get rid of all that
+- [54:11] now what you're going to notice is it
+- [54:12] doesn't have axios so what we can do is
+- [54:15] come down into our terminal npmi axios
+- [54:19] we're going to install the missing
+- [54:20] package which will set us up for success
+- [54:22] to go off and send request to our back
+- [54:23] end and while we're here what we can do
+- [54:26] is say we'll start using cursor so what
+- [54:28] you can do highlight the text that you
+- [54:30] want to and then you can hit command L
+- [54:33] and then what it'll do windows check you
+- [54:35] might have a different key but what we
+- [54:36] can say is like hey I actually don't
+- [54:38] want to refresh I want to navigate over
+- [54:41] to the other page so here's what we can
+- [54:42] do can you please update this code to
+- [54:45] pull out the offer that gets sent back
+- [54:48] in the response and then we want to use
+- [54:51] react nav navigation to redirect us over
+- [54:55] to the offers page and that offers page
+- [55:00] is going to include the ID of the new
+- [55:02] offer so we'll just go ahead and stub it
+- [55:05] out for us so we'll do offers and then
+- [55:07] we'll just do offer
+- [55:08] ID perfect so this will go off and
+- [55:10] actually get the right code working for
+- [55:12] us so you can see now it's doing router
+- [55:13] push we can apply that and for whatever
+- [55:16] reason it didn't add in next navigation
+- [55:18] but we'll work on that in a second so
+- [55:20] you can see all of that looks great
+- [55:22] looks great and then router use router
+- [55:25] this is just yeah perfect this is
+- [55:26] exactly what we wanted Okay cool so now
+- [55:28] whenever we create a new offer it should
+- [55:30] a make an entry in the database once we
+- [55:33] update our API and then it'll redirect
+- [55:35] us over to the detail page this is
+- [55:37] coming along great guys we're cruising
+- [55:39] all right so what was the final thing
+- [55:41] that we wanted to do we wanted to set up
+- [55:42] our API offers route so what can we do
+- [55:45] well what we can do open up our file
+- [55:46] explorer and then in our app folder what
+- [55:49] we can do is create a new folder called
+- [55:52] API and then they said API offers route
+- [55:55] so as exactly what we're going to do
+- [55:58] API offers and then we're going to make
+- [56:00] a route. TS route. TS great and then
+- [56:05] we'll just paste in our sorry wrong code
+- [56:07] paste in our offers route code looks
+- [56:10] great paste it in here and we should be
+- [56:12] getting some sort of a post request and
+- [56:14] per usual we got to clean up some of the
+- [56:16] Imports just cuz it doesn't know exactly
+- [56:19] what our local file structure looks like
+- [56:21] and our offers tables sick and this
+- [56:23] looks great guys and let me just quickly
+- [56:25] walk you through what's happening we're
+- [56:26] going to use clerk to get our current
+- [56:28] user ID if they're not logged in throw
+- [56:30] an error outside of that we're going to
+- [56:31] get and check basically check to see
+- [56:34] that the User submitted the client name
+- [56:35] and address make sure that we got that
+- [56:37] information if we didn't do some
+- [56:38] validation then we're going to use
+- [56:41] drizzle to go off and insert a new offer
+- [56:45] into our offers table the content field
+- [56:48] is where we're eventually going to store
+- [56:49] the offer but for right now we'll just
+- [56:50] set it to en and returning is going to
+- [56:52] give us back the newly created offer so
+- [56:54] this is how we're going to return the
+- [56:55] offer back to our front end so now let's
+- [56:57] take this for a spin to see if it works
+- [56:59] so let's refresh the page looks great so
+- [57:01] let's go ahead and click new and let's
+- [57:03] just do
+- [57:04] Brandon and let's just do 3 2 one
+- [57:07] Atlanta Georgia and let's see should
+- [57:10] create it go off and then it should
+- [57:12] redirect us over to the offers detail
+- [57:15] page which it exactly did looks sick
+- [57:17] guys so now if I go back and actually
+- [57:19] just update the URL real fast to go back
+- [57:21] to regular offers I should now see the
+- [57:24] newly created offer because when you
+- [57:26] know this is now a part of our database
+- [57:28] so you can see that our endpoint did
+- [57:29] successfully add it to our backend
+- [57:32] database and the API sent back a
+- [57:34] response of the new offer so that we
+- [57:36] could redirect over to the offers detail
+- [57:38] page this is awesome so now that we got
+- [57:40] our basically got this initial part
+- [57:42] working what we can do is head over and
+- [57:44] start working on the offers detail page
+- [57:47] and this is where we're going to get our
+- [57:48] hands a little bit dirtier and getting
+- [57:49] this chat functionality to work to where
+- [57:51] this chat will update this offer it's
+- [57:54] going to be a little bit more in the
+- [57:54] weeds but I'm super excited for you guys
+- [57:55] to see it in action so let's go ahead
+- [57:57] and we're going to hop back over to b0
+- [57:59] and start cranking this out and actually
+- [58:00] real fast before we hop over to b0 I
+- [58:02] think this is a perfect opportunity to
+- [58:03] show how you can start using cursor to
+- [58:06] implement some of these features so what
+- [58:08] we're going to do this time is we're
+- [58:09] going to hop over to the versel AI STK
+- [58:12] docs I'll have a link to this down the
+- [58:14] description below but you can see right
+- [58:16] now we're in the chat box section so
+- [58:18] what we're going to start working on is
+- [58:20] implementing their examples for setting
+- [58:23] up a page a client side component to go
+- [58:26] go off and start chatting with versel AI
+- [58:29] SDK tools so this is how we can start
+- [58:31] actually chatting over here and actually
+- [58:32] start sending a request over to an open
+- [58:34] AI llm to actually send us back a
+- [58:36] response an AI response so what are we
+- [58:38] going to do well the cool way to do this
+- [58:41] is on a Mac you can just go ahead and
+- [58:43] copy this URL so I copied the URL now
+- [58:46] what we're going to do we're going to
+- [58:47] hop back over to our code and this is
+- [58:49] where we can start leaning on cursor to
+- [58:51] start doing some extra implementation
+- [58:53] for us so you can see right now I'm in
+- [58:55] the chat at window TSX file what we're
+- [58:58] going to do is I'm going to open up a
+- [59:00] sidebar and the first thing I'm going to
+- [59:02] do is I'm going to add a reference to
+- [59:06] those docs so I can hit at and then what
+- [59:09] I can do is go down to docs now once I'm
+- [59:12] in docs I can add new docs so in this
+- [59:14] case I'm going to paste the URL of the
+- [59:17] documents we were just looking at
+- [59:18] awesome and then I can just call this AI
+- [59:22] SDK chatbot great so now it's going to
+- [59:25] go off it's going to parse all the
+- [59:26] information from those docs and now what
+- [59:28] I can do whenever we come back over to
+- [59:31] our code is I can say basically hey
+- [59:33] please help me update this and add in
+- [59:36] the support for a new chat API endpoint
+- [59:39] so here's how I can do it and for bigger
+- [59:41] request like this I always use 40 cuz
+- [59:44] there we need to do some thinking can
+- [59:45] you please help me update my chat window
+- [59:48] to allow me to start using the versel AI
+- [59:51] SDK functionality of chatting with
+- [59:55] basically basically the AI and in
+- [59:57] addition to that can you help me also
+- [59:59] set up an API chat endpoint that will
+- [60:04] work with this new chat functionality
+- [60:06] that we're working on setting up
+- [60:07] together great and let me just go ahead
+- [60:09] and fix this versell AI
+- [60:13] SDK Oh wrong one verel versel AI SDK
+- [60:19] great so this is going to go off read
+- [60:20] those docs and then what it's going to
+- [60:21] do I'll zoom out just a little bit so we
+- [60:23] can kind of see it so first it's going
+- [60:24] to say he you'll need to update this to
+- [60:26] start using chat so that was the hook
+- [60:28] that's being recommended and then it's
+- [60:29] going to go ahead and show us exactly
+- [60:31] the changes we need to implement in our
+- [60:33] system so Step One update our code step
+- [60:36] two go create that endpoint so we're
+- [60:37] going to just click apply to make this
+- [60:39] magic happen so we're going to go ahead
+- [60:40] and start importing these so we're going
+- [60:42] to say yes then what we're going to do
+- [60:45] is now it's going to cause a few
+- [60:46] different issues but what we can do is
+- [60:49] start actually importing these so we can
+- [60:51] ask a follow-up question how can I
+- [60:53] install AI react
+- [60:58] and the other
+- [60:59] dependencies needed for the chat bot
+- [61:03] this one might not work but hey we'll
+- [61:05] try it together cuz like sometimes the
+- [61:06] docs don't have all of it so but right
+- [61:08] now it looks like it does and we're
+- [61:09] using npm so let's see if this works npm
+- [61:12] install that should hopefully go off and
+- [61:15] work things are looking great so this
+- [61:17] should hopefully get rid of that in just
+- [61:19] a second if not we might need to install
+- [61:21] yep no perfect so it worked now what
+- [61:23] you're going to notice is it had a few
+- [61:26] different small issues with sending off
+- [61:30] our request so like I said it's not
+- [61:32] perfect and it's also not handling our
+- [61:35] current offer and updated offer so what
+- [61:38] we can do and this is where you can
+- [61:39] start using some of the magic of AI what
+- [61:41] we're going to do is we're going to get
+- [61:42] this working then we're going to go set
+- [61:43] up our backend API endpoint so here's
+- [61:46] what I want to do as you can see in this
+- [61:48] file we're not using offer or update
+- [61:51] offer and what I would like you to do is
+- [61:54] start using these different props as
+- [61:58] local state variables like we were doing
+- [62:00] at the beginning of this code change so
+- [62:03] here's what I would like to happen as
+- [62:06] you go off and make changes to the code
+- [62:12] what I want to do is sorry whenever you
+- [62:14] go off to send a chat message I also
+- [62:16] want you to pass along the current offer
+- [62:20] as well in addition to that I'm noticing
+- [62:23] that Onkey press is deprecating
+- [62:26] inside of the input tag inside of the
+- [62:30] code you just created now some of this
+- [62:33] is going to be a little out of place
+- [62:35] just because right now we only are going
+- [62:37] to set up chatting but in the next part
+- [62:39] we're going to set up chatting with some
+- [62:40] tool calling so that's why we need to
+- [62:42] start handling and working with offer
+- [62:45] and update offer so you can see it's
+- [62:47] going to go ahead and start going down
+- [62:49] the right path yeah this is exactly what
+- [62:51] we want so we're going to implement it
+- [62:52] and once we start actually going off
+- [62:54] yeah accept so accept all
+- [62:56] looking great so yeah in just a second
+- [62:58] we're going to go off and actually start
+- [63:00] implementing some tool functionality to
+- [63:02] handle offer change so this is perfect
+- [63:04] for right now then what we can do is go
+- [63:06] off and actually add in that API code I
+- [63:10] can't remember what it is so we can just
+- [63:11] say hey can you please show me that API
+- [63:14] chat code again so that's just me being
+- [63:16] hyper lazy but while it's going up and
+- [63:19] loading we can go ahead and create a new
+- [63:21] file to support this so it was chat
+- [63:24] route. TS great then what we can do is
+- [63:27] add in their code right here so let's go
+- [63:30] ahead and apply it into our new route
+- [63:32] continue and it'll go off and actually
+- [63:34] add it looking great and then what we
+- [63:36] can do is say like Hey how do I import
+- [63:38] this so once again how do I install the
+- [63:41] AI SDK open AI then it'll go ahead and
+- [63:44] give us the proper command that we need
+- [63:46] to install on our local machine to get
+- [63:48] all this working so it's asking us to do
+- [63:51] open Ai and AI I don't know if those are
+- [63:53] right and this is where sometimes like
+- [63:54] cursor falls apart art when it's kind of
+- [63:57] new knowledge cursor is great at solving
+- [64:00] existing problems but when it comes to
+- [64:02] like like I said new problems that are
+- [64:04] like specific to what we're what we're
+- [64:06] trying to do sometimes it kind of falls
+- [64:08] apart so in our case let me go ahead and
+- [64:10] find the package free guys real fast
+- [64:11] yeah it actually was just a super quick
+- [64:12] fix all we have to do is come down here
+- [64:14] and paste in open AI SDK and sorry let
+- [64:18] me move this out of the way so you can
+- [64:19] see it so we can do
+- [64:21] npmi then paste in the name and that
+- [64:23] should go ahead and get that working
+- [64:25] okay so once it properly shows that
+- [64:27] we've installed the proper package which
+- [64:30] it's done now what we can do let's hop
+- [64:32] back over to our code let's comment this
+- [64:34] out for now and what we're going to do
+- [64:35] is going to start trying to make sure
+- [64:36] that it is working and what we can do I
+- [64:40] don't think that'll cause any errors
+- [64:41] we'll leave it how it is right now so
+- [64:43] what we can do now is we'll start
+- [64:45] actually asking questions in our chat to
+- [64:47] make sure that it's properly handling
+- [64:49] and showing all the different messages
+- [64:52] so you can see right here messages just
+- [64:54] to give you a little bit background all
+- [64:56] of this like these messages the input
+- [64:58] the handle input change all of that's
+- [64:59] coming from used chat so that's the hook
+- [65:02] that we've basically by using the
+- [65:04] versell AI SDK that's how we're going to
+- [65:06] be able to access all these nice
+- [65:08] functions that make our life super easy
+- [65:10] for interfacing with the AI so what we
+- [65:12] can do now is if we hop back over to our
+- [65:14] code we can start asking questions so
+- [65:16] let's go back over here to our chat
+- [65:18] refresh the page and one thing is super
+- [65:20] important to mention you will need to
+- [65:22] add your open AI API key into your EMV
+- [65:25] file so over here you know you'll need
+- [65:28] to add in your open AI key to thatv file
+- [65:31] so that it can actually like have a
+- [65:33] proper key to go off and do it so now we
+- [65:34] can actually start asking questions so
+- [65:36] we can start say like let's smoke test
+- [65:38] this together hello who was the first
+- [65:40] president of America and if it's working
+- [65:43] it should actually come back to us with
+- [65:45] an llm answer so this is like obviously
+- [65:47] we now have our front end hooked up to
+- [65:49] our backend so that we can start making
+- [65:50] AI requests now this is obviously we
+- [65:53] want this to start working for Real
+- [65:55] Estate offer so what we're going to dive
+- [65:56] into next is start working with versel
+- [66:00] AI SDK tool calling so now we're going
+- [66:03] to start working on adding a tool call
+- [66:05] to update our offer on the right hand of
+- [66:07] the screen so talk about it on the left
+- [66:10] and then see the changes happen on the
+- [66:11] right so I'm super excited for you guys
+- [66:12] to see it so let's hop back over here
+- [66:14] and we're going to start hopping over to
+- [66:16] some Doc so I can show you exactly what
+- [66:17] we need to change and we're going to get
+- [66:19] everything set up so let's head back
+- [66:20] over to the docs and as you can see when
+- [66:22] we hop over to chatbot with tools there
+- [66:25] is a specific way that we can go off
+- [66:28] inside of our backend chat route
+- [66:31] function that we just set up that will
+- [66:33] execute code on the server so this is
+- [66:36] exactly what we want to do in our case
+- [66:38] what we're going to do is not have a get
+- [66:41] weather information in our case we're
+- [66:43] going to have an update offer tool and
+- [66:46] that Tool's sole job is to take in an
+- [66:49] offer take in some feedback from the
+- [66:52] agent and go off and actually create a
+- [66:56] new updated offer so that's all we're
+- [66:58] trying to do so this is where we're
+- [66:59] going to start actually like getting in
+- [67:00] the weeds of you know going back and
+- [67:02] forth with open Ai and actually getting
+- [67:05] things working now I will say for this
+- [67:07] I'm going to hop over back to vzer just
+- [67:10] so you can kind of see VZ back at work
+- [67:13] cuz awesome tool so that means we're
+- [67:14] going to need to pass in our updated
+- [67:15] code but I think you guys will really
+- [67:17] like it like I said I just want to
+- [67:18] showcase how these different tools can
+- [67:20] work so what we'll do we'll go ahead and
+- [67:22] actually paste pretty much you can just
+- [67:24] paste this entire code right here uh
+- [67:27] let's grab that awesome so now we can
+- [67:29] head back over to v0 and our case right
+- [67:32] here real estate offer great so now
+- [67:34] we're going to say let's just make sure
+- [67:36] on the same page here is a new document
+- [67:41] I want us to follow so go ahead and just
+- [67:44] paste it in it might actually if it's
+- [67:46] too long go ahead and paste it as a
+- [67:47] snippet that's fine and then we're can
+- [67:49] say here is my updated code by the way
+- [67:53] and in here what we can do is paste in
+- [67:55] our new backend route and we can paste
+- [67:57] in our new basically past in our new
+- [68:00] updated chat window so paste in our chat
+- [68:03] window great and then we can paste in
+- [68:05] our route and the reason why we're doing
+- [68:06] this is because now we're going to start
+- [68:08] actually implementing the server side
+- [68:09] changes and we're going to be updating
+- [68:11] what's happening on the client and
+- [68:12] what's ha happening on our backend route
+- [68:14] at the same time so let's go ahead and
+- [68:17] start telling the code what we want to
+- [68:20] do so here's how we can do it I need
+- [68:22] your help updating this backend chat
+- [68:25] route to start supporting tool calling
+- [68:29] so I would like to add in a new tool
+- [68:32] call that is called update offer and
+- [68:36] what this tool is going to accept as
+- [68:38] parameters are the current offer and in
+- [68:42] addition to that it's going to take in
+- [68:44] feedback this feedback is going to
+- [68:47] describe changes that we need to make to
+- [68:49] the offer in order for it to adhere to
+- [68:53] what the real estate agent wants once
+- [68:55] once we accept those parameters what I
+- [68:57] want you to do is call AI so in our case
+- [69:02] versel AI to once again use open AI chat
+- [69:06] GPT 4 in order to combine that feedback
+- [69:12] and the current offer and generate a new
+- [69:16] offer it is super important that you
+- [69:19] generate this offer in a markdown format
+- [69:23] and it's super important that you make
+- [69:25] sure that the offer that gets returned
+- [69:28] to us doesn't include any additional
+- [69:30] commentary it only includes the updated
+- [69:34] offer period do you have any questions
+- [69:36] before you go off and incorporate this
+- [69:40] new tool calling functionality inside of
+- [69:42] our backend route so as you can see
+- [69:45] we're definitely going to go a little
+- [69:46] bit deeper in this one we're starting to
+- [69:48] you know really put our hats on when it
+- [69:49] comes to working with some of these
+- [69:51] modern tools but I know a lot of
+- [69:52] tutorials just show a bunch of like
+- [69:53] flashy stuff I want to show you guys a
+- [69:55] lot of actual functionality that you can
+- [69:58] actually crank out using these tools so
+- [70:00] you can see it did a great job of
+- [70:02] creating a you know basically updating
+- [70:04] our chat route to include a new tool
+- [70:06] this is exactly what we wanted current
+- [70:08] offer feedback yes this is exactly what
+- [70:11] we're looking for perfect I love the way
+- [70:14] that this looks so we can go ahead and
+- [70:16] paste this over here into our code great
+- [70:20] makes our life so much easier and what
+- [70:22] we can do now is you can see it's not
+- [70:24] actually doing anything with the offer
+- [70:28] not a big fan of that right now but I
+- [70:31] think that is totally fine cuz later
+- [70:33] we'll actually start working on that
+- [70:35] let's see if there's anything else I
+- [70:36] want to change let me look at this real
+- [70:37] fast for you guys yeah the only thing
+- [70:39] that I think we should change is adding
+- [70:40] in some sort of system message before we
+- [70:44] go off and just accepting anything so
+- [70:46] you can see there's a system output or
+- [70:48] property right here so what we can do is
+- [70:50] just add it to do and just tell AI to
+- [70:52] work on it for us so whenever we went to
+- [70:54] like start telling basically to spin up
+- [70:56] a new conversation you can just hit
+- [70:58] command L again and then actually have
+- [71:00] it start incorporating feedback so in
+- [71:02] our case we're just going to say hey
+- [71:03] I've added a to-do to the system
+- [71:06] property inside of the stream text
+- [71:08] function and basically I would like for
+- [71:10] you to add a prompt saying that hey
+- [71:12] you're a helpful assistant who's helping
+- [71:14] real estate agents create offer you're
+- [71:16] going to go off and provide a quick
+- [71:19] summary of the changes that you've made
+- [71:21] to the offer without repeating the
+- [71:23] entire offer and here is what the
+- [71:26] current offer looks like and what you're
+- [71:28] going to do is you add in some string
+- [71:29] interpolation that's going to take in
+- [71:32] the offer that was passed in during the
+- [71:35] initial request Json so what we're
+- [71:37] trying to do guys just so we're both on
+- [71:39] the same page is whenever we go off and
+- [71:41] start working with updating our offers
+- [71:43] so let me just show you whenever we
+- [71:45] start updating these offers what we want
+- [71:46] to do is go like hey please update this
+- [71:49] to $300,000 so two things need to happen
+- [71:51] at once a we need to call the tool which
+- [71:54] is going to generate the updated offer
+- [71:56] and part two is we need to generate a
+- [71:58] response that we can show to our user
+- [72:00] and in order to do that we need to start
+- [72:01] taking actions and listen to what the
+- [72:03] heck this initial offer was in the first
+- [72:05] place so this it looks perfect so we can
+- [72:08] just apply it great now we're going to
+- [72:10] actually use the offer that was passed
+- [72:12] in at least we should be offer let's get
+- [72:15] rid of that there we go now things are
+- [72:18] looking great and for some reason this
+- [72:20] is not using the proper version of
+- [72:23] actually chat completions so once again
+- [72:25] this is where working with these updated
+- [72:27] models doesn't work properly so what you
+- [72:30] can do is say hey there's basically a
+- [72:32] better way to do this in our case it's
+- [72:34] going to be using let me just show you
+- [72:36] generate text yeah perfect so what we
+- [72:39] can do is come down here and say we'll
+- [72:41] just actually get this fixed so you can
+- [72:42] select the code and you're going to hit
+- [72:44] command L and we're going to talk about
+- [72:45] it so we're going to say hey this is
+- [72:47] actually not the proper way to use open
+- [72:50] AI to go off and generate text summaries
+- [72:54] you need to use the generate text
+- [72:56] function from the AI Library which will
+- [72:59] take in a model and a prompt and it will
+- [73:02] turn a response so in our case it's
+- [73:05] going to be the updated offer do you
+- [73:08] have any questions before you return the
+- [73:11] updated code so that'll go off and it
+- [73:14] should go ahead and update our yep code
+- [73:16] looks great let's accept it looks great
+- [73:19] now it's just trying to call updated
+- [73:20] offer but what we're trying to do in our
+- [73:23] case is we don't want to return just do
+- [73:25] trim which is this is you know updated
+- [73:27] offer is actually a it's a full-on
+- [73:29] response so you can see this is like a
+- [73:31] generated text response so in our case
+- [73:33] that's not what we want in our case what
+- [73:34] we want to do is like hey I want to grab
+- [73:36] the text out of this generated text and
+- [73:38] now I just want to return the updated
+- [73:40] offer so now we're returning just text
+- [73:41] back to our users this is exactly what
+- [73:43] we want okay so we just did a lot and
+- [73:45] I'm going to give a quick recap of what
+- [73:47] we did we made a new tool that is an
+- [73:49] updated offer what it's going to do is
+- [73:51] it's going to take in the current offer
+- [73:53] plus feedback and it's going to spit
+- [73:56] back out an updated offer now from there
+- [73:59] what it's going to do is we're going to
+- [74:01] take all of that there's the updated
+- [74:03] prompt we're going to add that in to a
+- [74:05] new open AI generate text we're going to
+- [74:08] go off and actually take action on it
+- [74:09] let AI work its magic incorporating
+- [74:11] feedback in the offer and from there
+- [74:13] what we're going to do is go ahead and
+- [74:15] return that offer back to the front end
+- [74:18] so this looks great now it's up to us on
+- [74:21] the front end to start handling working
+- [74:24] with this basically uh start working
+- [74:26] with this return data and I like to keep
+- [74:28] things a little bit structured so what
+- [74:30] we can do is to actually like make this
+- [74:33] a little bit better because right now
+- [74:34] we're just going to return text but I'd
+- [74:36] like to actually return a object so what
+- [74:38] we can do is once again select this
+- [74:41] command L and then we can say can you
+- [74:43] please convert this over to an object
+- [74:45] that has two properties a confirmation
+- [74:49] which just says Hey I've updated the
+- [74:51] offer to incorporate your feedback and
+- [74:54] then an updated offer property which
+- [74:57] will actually be the updated offer that
+- [74:59] was just
+- [75:00] generated so now what we can do is on
+- [75:02] the front in we whenever we get back
+- [75:04] this tool call we can actually dig into
+- [75:07] the updated offer so you can see this is
+- [75:09] exactly what we wanted great this is
+- [75:11] exactly what we want so now we're going
+- [75:12] to get an object back on the front end
+- [75:14] when it comes to dealing with our tool
+- [75:15] calls okay so that was a lot don't worry
+- [75:17] if tool calls were a little weird once
+- [75:19] you actually see this in action you're
+- [75:20] going to be like wow that is so powerful
+- [75:22] I now in my open AI calls can go off and
+- [75:24] add a bunch of tools so hopefully this
+- [75:26] was pretty eye opening to see how we're
+- [75:27] starting to use AI to help automate
+- [75:30] things and start working with some
+- [75:31] cooler new technologies so now that
+- [75:32] we've done this we can actually head
+- [75:34] back over to chat over here and actually
+- [75:36] start incorporating some of this
+- [75:37] feedback so we can actually you know
+- [75:39] once we start making request over to API
+- [75:42] chat with our offers we can actually
+- [75:44] start actually getting back the offer
+- [75:46] and start updating our offer modal so
+- [75:47] let's go ahead and start working on that
+- [75:48] next so first things first what we're
+- [75:50] going to do we're going to hop back over
+- [75:51] to our docs which include all the
+- [75:54] information that we need when it comes
+- [75:55] to actually pulling out these tool
+- [75:57] results so let me show you what is
+- [75:59] happening and explain why I'm about to
+- [76:01] go off and tell VZ what it needs to do
+- [76:04] so you can see whenever we're looking at
+- [76:06] a tool call um so this is just a chat
+- [76:08] component you can see that there is a
+- [76:11] what they're doing is handling like an a
+- [76:13] local client side tool call we're not
+- [76:15] worrying about that the thing that we
+- [76:16] are worried about is when ever we notice
+- [76:20] one of our messages that we received
+- [76:22] back from open aai includes some sort of
+- [76:25] a tool call in our case what we want to
+- [76:28] do is go ahead and say oh that tool call
+- [76:31] included an updated offer great let me
+- [76:34] go grab the result so let me grab the
+- [76:37] result and go ahead and actually add it
+- [76:40] over to our offer component over to the
+- [76:43] side so basically hey was a tool called
+- [76:45] in one of our messages great I'm going
+- [76:47] to grab that latest updated offer and
+- [76:50] add it over here okay so what we're
+- [76:52] going to do let's go ahead and actually
+- [76:53] tell open AI sorry v0 how to do all this
+- [76:57] so first things first whenever you're
+- [76:58] working with something like this I just
+- [76:59] like to go ahead and grab the example so
+- [77:01] that you and the AI are on the same page
+- [77:04] so I'm going to go ahead and paste it in
+- [77:05] here and explain what we want to get
+- [77:07] done so we're just going to say like
+- [77:08] this is the example code and then one
+- [77:11] more time we're just going to hop back
+- [77:12] over and give it our code just to make
+- [77:15] sure that we're on the same page and go
+- [77:17] ahead and start telling it what it needs
+- [77:19] to do so let's start walking through it
+- [77:21] together I just set up the functionality
+- [77:25] that you just created for updating an
+- [77:27] offer inside of our chat route so I set
+- [77:31] up that open aai tool call and now what
+- [77:34] I want to do is start handling getting
+- [77:36] back tool call results on our front- end
+- [77:40] code so as you can see in the example
+- [77:43] that I just gave you they are iterating
+- [77:46] through each of the messages that open
+- [77:48] AI gives them back and whenever they
+- [77:51] recognize that a specific tool was
+- [77:53] called they add that result to start
+- [77:56] working with inside of their code
+- [77:57] example now what we need to do inside of
+- [78:01] our code is we want to go off sorry I
+- [78:04] was lagging for a second and we want to
+- [78:07] go off and extract that tool call result
+- [78:11] which should be a update offer and with
+- [78:16] that update offer we want to actually
+- [78:19] update the offer that is being passed To
+- [78:21] Us by our parent component because
+- [78:24] ultimately what we're trying to do is
+- [78:26] update the offer in our chat window pass
+- [78:28] the updated offer to our parent which
+- [78:30] will then eventually be passed back over
+- [78:32] and the offer component that we created
+- [78:35] earlier period do you have any questions
+- [78:37] before you go off and Implement all of
+- [78:40] these
+- [78:41] changes so that was a that was a gnarly
+- [78:44] one guys so I hope you can uh let me
+- [78:45] just like walk you through what was
+- [78:46] happening so whenever I was saying like
+- [78:48] hey we are working in a chat component
+- [78:51] that's going to be getting you know
+- [78:52] messages and eventually one of these is
+- [78:54] going to be like a tool call well
+- [78:56] whenever you get the tool call what we
+- [78:58] want to happen is to actually go ahead
+- [79:00] and say cool pass it up to our parent so
+- [79:03] this offer detail because this offer
+- [79:05] detail is what has the offer that's
+- [79:08] being shared between both of our
+- [79:11] different components because the offer
+- [79:13] that same offer is getting shared into
+- [79:15] here and it's getting shared over into
+- [79:18] this so we want to make changes here
+- [79:21] then actually share send it back up to
+- [79:22] our parent because our parents going to
+- [79:24] send it back down over to our sibling
+- [79:26] component so this is just more standard
+- [79:28] nextjs in react sharing State between
+- [79:30] different components so let's see how
+- [79:33] it's handling it so I understand the
+- [79:34] requirements we need to update this
+- [79:36] component to handle update offer tool
+- [79:38] calls and update both of them okay so
+- [79:41] what does the updated code look like so
+- [79:44] let's just go a and copy paste it come
+- [79:45] over here paste it and start seeing what
+- [79:48] the damage is guys so you can see we're
+- [79:50] now passing up sorry we're still
+- [79:53] chatting we're now going to start
+- [79:55] passing a body which is going to be our
+- [79:56] local offer then what we're going to do
+- [80:00] is anytime we finish we're going to
+- [80:02] handle a tool call so what does handle
+- [80:05] tool call do well in our case we're
+- [80:06] going to say if message was you know a
+- [80:08] tool invitation we want to check to see
+- [80:11] if it was the update offer because if it
+- [80:13] was we want to grab that result which is
+- [80:16] the new offer content and we want to set
+- [80:19] the local offer now here's where things
+- [80:21] get a little bit tricky and this is
+- [80:23] where we can use v0 the glue because
+- [80:25] that's how I sorry how we can use cursor
+- [80:27] as the glue so what I like to do is go
+- [80:30] inside of our backend route we're
+- [80:32] returning a inside of our chat you can
+- [80:34] see we're returning back an object like
+- [80:37] a confirmation update offer so what we
+- [80:39] can see is like hey I would like you to
+- [80:42] look at this file to see what we're
+- [80:43] returning and actually make sure that
+- [80:45] we're handling it appr appropriately so
+- [80:48] you can do command L to chat about a
+- [80:50] specific piece of code and then you can
+- [80:52] do at and talk about the specific file
+- [80:55] that you want to so in our case it's the
+- [80:56] chat route and we can say when you look
+- [80:59] at the return of our chat endpoint
+- [81:02] whenever we're doing the tool update
+- [81:05] offer call you'll notice that we're
+- [81:07] returning an object period however
+- [81:09] inside the handle tool calls function
+- [81:11] when we're working with update offer
+- [81:13] we're just grabbing out the text can you
+- [81:15] please update handle tool calls to
+- [81:18] properly grab the offer from our backend
+- [81:22] endpoint so fingers crossed I we know
+- [81:24] we're just trying this together but you
+- [81:25] can see it should be grabbing it yes and
+- [81:28] that is awesome and it's extracting all
+- [81:30] the proper information that's exactly
+- [81:31] what we would want awesome so you can
+- [81:33] see like it is the glue that goes yeah
+- [81:35] look over here now fix this here I love
+- [81:37] I love cursor for that this looks great
+- [81:40] now what we can do is just to make sure
+- [81:42] that this is working to we can go ahead
+- [81:44] and do a log as well and yeah oh another
+- [81:47] thing that I like to do with cursor is
+- [81:50] i' like to use it to add logs because
+- [81:52] adding logs is it's just timec consuming
+- [81:54] so I always hop over to mini and then I
+- [81:56] just say hey can you please add a bunch
+- [81:58] of logs to this
+- [82:01] function so it'll go off and just you
+- [82:03] see how fast it is it's just cranking
+- [82:04] out all of them so normally that would
+- [82:06] have taken you and I a bunch of time to
+- [82:07] code out but hey there's no reason for
+- [82:09] that so hopefully that's another helpful
+- [82:10] tip as you guys go off and start using
+- [82:12] this technology all right so what we can
+- [82:14] do now is we can start saying and we're
+- [82:16] going to be doing some troubleshooting
+- [82:17] here just to set expectations so we're
+- [82:19] going to go ahead and open up our
+- [82:20] inspector hop over to console and we're
+- [82:22] going to go ahead and try start to
+- [82:24] actually make some changes to our offer
+- [82:27] over here to the side so we're going to
+- [82:29] say hey can you please update the
+- [82:31] current offer from $500,000 to 300,000
+- [82:36] now this should go off and actually
+- [82:37] start doing some tool calling and
+- [82:39] hopefully give us back some actual
+- [82:41] answers so we can also come over here
+- [82:43] into our code and actually see what's
+- [82:46] going on so you can see right now we're
+- [82:49] calling everything yeah we're calling
+- [82:51] the offers endpoint the offer was
+- [82:53] updated and you can see when we look at
+- [82:56] our code that we got a received message
+- [83:00] and the purchase price has been off
+- [83:02] offered and this is where things start
+- [83:04] to actually kind of fall apart when it
+- [83:06] comes to working with some of the
+- [83:08] updated docs because you can see it said
+- [83:11] hey no tool call was found but we
+- [83:14] actually did you know call a tool so
+- [83:17] this actually has to do with the fact
+- [83:19] that our I'll just show you the actual
+- [83:20] issue real fast and how we can fix it so
+- [83:23] if you come back over to the chat window
+- [83:25] so the current issue is onfinish only to
+- [83:29] text messages it doesn't actually
+- [83:31] officially handle when tools get called
+- [83:33] it only handles raw messages so you and
+- [83:36] I need to go in and add a new function
+- [83:40] called handle new message and that
+- [83:42] handle new message is basically just
+- [83:44] going to actually scrape through all the
+- [83:45] messages and once it finds a tool call
+- [83:48] then we'll go and update it so let me
+- [83:49] show you exactly what I mean and how we
+- [83:51] can fix this together so we're going to
+- [83:52] head back over to VZ Z and have it
+- [83:55] actually work well first off what we're
+- [83:57] going to do is paste in our code cuz you
+- [83:58] know things kind of get out of state
+- [84:00] whenever we make some changes with
+- [84:01] cursor and then eventually go back over
+- [84:03] and make some changes with vzer so we
+- [84:05] need to keep them on the same page so
+- [84:07] that's why I pasted in now here's what
+- [84:08] we can say to v0 to hopefully get it to
+- [84:11] start recognizing the problem and how we
+- [84:13] can fix it so this is where you as a
+- [84:15] software developer like can't always
+- [84:16] 100% lean on AI solving the problem for
+- [84:18] you sometimes you have to like do some
+- [84:20] digging and that's what I had to do is
+- [84:22] figure like why the heck are our tool
+- [84:24] callings not showing up in onfinish and
+- [84:27] then I looked and I was like oh anything
+- [84:28] that is a tool call never appears inside
+- [84:31] of an onfinish so I think it's just
+- [84:34] because tool calls are intermediate
+- [84:36] steps before a final answer so it
+- [84:38] doesn't show intermediate steps is
+- [84:39] actually what I've kind of deduced so
+- [84:41] here's how we can do this together guys
+- [84:43] so what we can do is say onfinish is not
+- [84:46] properly detecting on tool calls so what
+- [84:49] I would like you to do instead is create
+- [84:52] a new use effect that monitors all of
+- [84:55] the messages inside of use chat and what
+- [84:59] I would like you to do inside of that
+- [85:01] use effect is call a function named
+- [85:04] handle new message and what this handle
+- [85:07] new message function should do is look
+- [85:11] for the latest messages coming from the
+- [85:14] assistant specifically where that
+- [85:17] message is a tool invitation and if it's
+- [85:20] a tool invitation that called updated
+- [85:23] offer and has a result you need to go
+- [85:26] ahead and call handle update offer which
+- [85:30] should update the offer that is shown in
+- [85:33] the offer component over to the side and
+- [85:36] it's important to note that we don't
+- [85:38] want to cause any weird issues and what
+- [85:42] I mean by that is I don't want to
+- [85:44] iterate from our first message to our
+- [85:47] newest message because there's a world
+- [85:49] to where there was actually three or
+- [85:50] four different tool calls in there so
+- [85:53] what you should do is work from bottom
+- [85:55] up and what I mean by that is you should
+- [85:58] look at the oldest newest messages first
+- [86:02] and if you happen to find a tool call
+- [86:04] break out of this handle message Loop
+- [86:07] until a new message comes in do you have
+- [86:10] any questions before you start
+- [86:11] implementing this new updated logic all
+- [86:14] right so while that's generating let me
+- [86:15] just quickly explain to you guys what
+- [86:16] actually the heck I just mentioned so
+- [86:18] what I was trying to tell the AI is
+- [86:20] basically in case v0 is we want to as
+- [86:23] you can see there's an updated offer
+- [86:25] here well there's a chance that they did
+- [86:27] another offer right here to say hey it
+- [86:29] needs to be $1 million well in that case
+- [86:32] it wouldn't make sense to start handling
+- [86:34] things like this way to where we like oh
+- [86:36] I found an offer quick update over here
+- [86:39] oh I found another offer cool let's
+- [86:40] update the offer modal again because in
+- [86:43] one conversation every time we add a new
+- [86:45] message it'll start from the top and
+- [86:47] like ding yep update ding update and
+- [86:50] that's just going to cause some weird
+- [86:51] glitching and flickering so us trying to
+- [86:53] be a little bit proactive we go put our
+- [86:55] problem solving hats on and go oh I want
+- [86:57] to look from bottom up so newest to
+- [87:00] oldest and the second I find anything
+- [87:04] that has an offer updated like this I
+- [87:06] will stop going back up the chain
+- [87:09] because there's no reason to update the
+- [87:10] offer with older offers so hopefully
+- [87:12] that makes sense so let's keep going
+- [87:14] back over to v0 and see what they're
+- [87:17] adding for us so we removed it great
+- [87:19] that's what we asked added a call back
+- [87:21] handle a new message all of this is
+- [87:23] looking great so let's actually come in
+- [87:25] here and see what code they have set up
+- [87:28] for us so let's copy paste it and run
+- [87:31] through it together so you can now see
+- [87:33] what's happening is well first they did
+- [87:36] they missed some dependencies so this is
+- [87:38] a quick dependency issue this is a react
+- [87:40] issue specifically let me walk you
+- [87:42] through what just happened so right now
+- [87:44] we have handle new message but handle
+- [87:46] new message is outside of this use
+- [87:48] effect so the quick answer is to just go
+- [87:50] ahead and paste it in here and to get
+- [87:52] rid of it and then we can update
+- [87:54] basically we're just going to run into
+- [87:55] some dependency issues with like hey
+- [87:57] this use effect needs things that don't
+- [87:59] exist so what we can do is go ahead and
+- [88:02] update the dependency and then now what
+- [88:04] we're going to do is like hey I'm
+- [88:06] getting this error cool shift command e
+- [88:09] like it says and I'll do it again shift
+- [88:11] command e and it'll go ahead and tell us
+- [88:13] how to fix it which is to put it in a
+- [88:14] use call back and that's exactly what
+- [88:16] it's going to do for us oh this is so
+- [88:18] cool normally this would have taken a
+- [88:20] little bit just to wrap up but you got
+- [88:21] to love AI doing it for us so except
+- [88:24] it went ahead and update our Imports for
+- [88:26] us guys and then outside of that down
+- [88:28] here it made a call back and the only
+- [88:30] other thing that we need to do is move
+- [88:32] that call back above our use effect
+- [88:35] looks great now what we can do that
+- [88:38] looks great now this one's going to have
+- [88:40] a quick issue so handle update offer
+- [88:44] Also let's see how many times we're
+- [88:45] calling this yeah same thing we just
+- [88:47] need to also fix this one so it's shift
+- [88:50] command shift command e we'll fix this
+- [88:53] one as well by putting it in a call back
+- [88:54] so as you can see we are using cursor as
+- [88:56] the like hey just fix this and I love it
+- [88:59] for that so let's apply the update
+- [89:02] accept accept now all we have to do is
+- [89:05] just move this function right up top all
+- [89:08] right great guys this is looking awesome
+- [89:10] so no more errors and what we can do now
+- [89:13] is I would like to add some logs in here
+- [89:15] so we can prove that yes when an update
+- [89:17] offer does come in we accept it so per
+- [89:20] usual come in here command L inside a
+- [89:23] mini going to say hey can you please add
+- [89:26] in some logs whenever we actually do
+- [89:29] receive a tool invitation for update
+- [89:31] offers so this is going to go off and
+- [89:33] get that working for us and then let's
+- [89:36] go ahead and that looks great apply it
+- [89:39] added the logs awesome now what I want
+- [89:42] to do is go ahead and save it so we're
+- [89:44] going to run it just so we're on the
+- [89:45] same page we're going to run it to make
+- [89:46] sure that we are properly you know
+- [89:48] receiving and doing an updated tool inv
+- [89:50] vacation and then what we're going to do
+- [89:52] afterwards is hop over and actually
+- [89:54] start finishing up to make sure
+- [89:56] basically our offers component over here
+- [89:58] it's actually going to start viewing
+- [90:00] data because right now it's not showing
+- [90:01] anything that's updated it's just static
+- [90:03] static text so all right so first things
+- [90:06] first let's make sure this is working so
+- [90:08] we're going to come over here and say
+- [90:10] can you please update the current
+- [90:13] listing price of the offer to
+- [90:18] $415,000 so we're g to send it then what
+- [90:20] we're going to do is we would expect for
+- [90:22] it to go off do its thing and then we
+- [90:24] should expect it to do some sort of like
+- [90:26] yep uh tool is getting called and once
+- [90:29] it's done doing its tool call what we
+- [90:31] should expect to see is an offer update
+- [90:33] log but for whatever reason it didn't
+- [90:36] fully call it so what we can do is come
+- [90:38] back and check and do a little bit more
+- [90:39] live debugging together to figure like
+- [90:41] huh why did it not officially update the
+- [90:43] offer so let's hop back over here and
+- [90:45] look at this together all right so after
+- [90:47] some digging I went off and figured out
+- [90:49] what was going weird so few things that
+- [90:51] we need to change thing one if you
+- [90:53] actually look at our code what we're
+- [90:55] doing is we're passing in a single
+- [90:57] message so whatever the latest message
+- [90:59] we're passing that in to our handle new
+- [91:00] message the issue is is whenever it
+- [91:03] comes to Tool calling inside of open AI
+- [91:06] what's actually happening under the hood
+- [91:08] is if you actually look you'll see that
+- [91:11] a tool invocation has a tool name and
+- [91:14] outside of that it has a tool State and
+- [91:17] what was happening is that state was not
+- [91:20] going that tool invocation state was not
+- [91:22] ever result it was at calling so it's
+- [91:25] like calling the function waiting for
+- [91:26] result so it was getting stuck so that
+- [91:28] was the first issue so what we need to
+- [91:30] do is we can come in here and we're
+- [91:31] going to start using cursor to help us
+- [91:34] figure out some of these issues so
+- [91:35] instead of passing in the latest message
+- [91:37] we're just going to pass in all the
+- [91:39] messages now that's going to cause an
+- [91:40] issue because our code is set up to
+- [91:44] handle only a single message so we're
+- [91:46] going to turn this into an array and
+- [91:47] then we're going to leave it up to
+- [91:49] cursor to get this working for us so
+- [91:51] we've added this in and now we're going
+- [91:53] to zoom out and use 40 to say hey can
+- [91:56] you please refactor this code it was
+- [91:58] initially set up to handle a single
+- [92:00] message but now I want you to iterate
+- [92:02] through all of the messages starting
+- [92:05] with the latest messages and then work
+- [92:08] back to the beginning great so that's
+- [92:11] how we're going to work backwards and
+- [92:12] iterate through all of them awesome so
+- [92:14] we can go ahead and apply that now
+- [92:16] there's also some additional changes
+- [92:18] that we need to make uh and we're going
+- [92:20] to use cursor for that so I noticed as I
+- [92:23] was doing a little bit of research when
+- [92:25] it comes to our actual offer what we're
+- [92:27] doing is we're passing around an object
+- [92:29] of like the offer and then content but
+- [92:31] that's really not what we want all we
+- [92:33] really want going forward is for all of
+- [92:35] our offers to be a string so what we're
+- [92:38] going to do now for a very light edits
+- [92:40] we're just going to say hey update offer
+- [92:42] to be just a string hey can you please
+- [92:44] change my code to handle the change
+- [92:47] where I just made offer in the props of
+- [92:50] string and update that throughout the
+- [92:52] rest of my codebase so basically just
+- [92:54] drop content offer. content cool so this
+- [92:57] will go off and apply all the changes
+- [92:59] for us so you can see it's adding it
+- [93:00] everywhere apply apply great that looks
+- [93:03] great but now what's happening is
+- [93:05] there's going to be an issue in the
+- [93:06] parent so what we can do is say all
+- [93:09] right offer we're no longer going to
+- [93:11] worry about this because that was prior
+- [93:13] to us going off and making the offer in
+- [93:15] our schema so what we can do now is
+- [93:17] actually start using our offer from our
+- [93:20] schema awesome and then what we can do
+- [93:23] is actually just look look inside of
+- [93:24] these different components and figure
+- [93:26] out what the heck we're passing in so
+- [93:27] offer is a string so all we have to do
+- [93:30] now is up here in the parent pass around
+- [93:32] basically the content cuz what I was
+- [93:34] trying to get at is there's actually no
+- [93:35] reason for us to pass around the entire
+- [93:38] offer and everything else we can
+- [93:39] actually just pass along the current one
+- [93:41] okay so uh let's go into each one of
+- [93:44] these different sections and actually
+- [93:46] update it and more specifically guys uh
+- [93:49] well yeah we'll go into each one of
+- [93:50] these and show it how fix it real fast
+- [93:52] and really what we can do do is make
+- [93:54] this even more clear because what we
+- [93:57] really are trying to pass around is the
+- [93:58] offer content and set the offer content
+- [94:01] so what we can do is pass in initial
+- [94:04] offer. content but that could be null so
+- [94:07] what we need to do is have some sort of
+- [94:09] default read me or basically some
+- [94:11] default offer so this is what we're
+- [94:13] going to work on together we're going to
+- [94:14] make a new constants file right here and
+- [94:17] inside of that constants file we're
+- [94:19] going to pass in an offer so this is
+- [94:21] like our template that we're going to be
+- [94:22] actually filling in together perfect so
+- [94:24] what we can do now is say all right I
+- [94:26] want my initial offer content to be if
+- [94:29] we already have content saved show that
+- [94:32] otherwise what I want to do is do the
+- [94:34] offer markdown great so now we're going
+- [94:36] to have to import that and we're going
+- [94:38] to have to update this to be a string
+- [94:41] now what we can do is actually go off
+- [94:43] and set everything to work so there we
+- [94:46] go so what we can do is just come in
+- [94:48] here and say I just updated my code to
+- [94:50] start using offer content instead of
+- [94:53] offer so can you please update my
+- [94:55] functions and passing things into my
+- [94:57] children components properly so this
+- [95:00] will go off and hopefully like I said
+- [95:02] now we just get to talk to our code and
+- [95:04] things just happen that are beautiful so
+- [95:05] apply let's go ahead and apply things
+- [95:08] look great guys now there are a few
+- [95:10] small issues whenever it comes to that
+- [95:13] we need to go off and fix so such as in
+- [95:16] these two other CH uh children component
+- [95:18] it's still looking for that offer modal
+- [95:20] so what we can do is go over to our file
+- [95:23] upload component and in here this is
+- [95:25] what I love about using cursor now what
+- [95:28] we can do is say like hey I have this
+- [95:31] chat component that is set up properly
+- [95:33] can you please look at those changes and
+- [95:35] apply them here so this is exactly what
+- [95:36] we're going to do please look at the at
+- [95:39] chat
+- [95:41] component and in that chat component
+- [95:43] you'll see that we're passing in the
+- [95:45] offer content as a string can you please
+- [95:48] look at how we're applying and passing
+- [95:51] in that offer content prop and apply
+- [95:54] those same changes here so this will go
+- [95:57] off look what we were doing make the
+- [95:59] changes here and hopefully actually get
+- [96:01] everything working great and what you'll
+- [96:03] see is like it didn't fully do it so
+- [96:05] we'll actually change the model and now
+- [96:07] that it's struggling we'll up the ante
+- [96:09] and say Hey you actually didn't update
+- [96:12] my file upload props to start using the
+- [96:16] appropriate offer prop so once again go
+- [96:20] look at the chat component and see what
+- [96:22] we're doing over there and apply those
+- [96:24] same offer props to this file please let
+- [96:27] me know if you have any questions and
+- [96:28] then per usual we can just add in our
+- [96:30] chat so great so now fingers crossed
+- [96:33] this one should work and for whatever
+- [96:34] reason guys it's still not 100% adding
+- [96:37] it in uh I think it's just trying to get
+- [96:38] a we're trying to get a little too fancy
+- [96:40] with it so all we need to do is just say
+- [96:41] string and then now we can say as you
+- [96:44] can see I've just changed the offer to
+- [96:45] be a string please update the issues
+- [96:48] accordingly so now it should go off and
+- [96:51] actually get things working properly so
+- [96:52] you can see now whenever we're working
+- [96:54] with offer it's just offer content so
+- [96:56] like I said I was trying to be a little
+- [96:57] fancy there for you guys sometimes it
+- [96:58] works sometimes it doesn't but hey
+- [97:00] that's just the the nature of it and
+- [97:01] then same with offer viewer this one's
+- [97:03] just going to be a string looks great
+- [97:07] and then this one's going to be a string
+- [97:10] okay great so now that we have this all
+- [97:12] set up let's hop back over to our code
+- [97:14] and actually try running it and look at
+- [97:16] our logs to make sure that the offer is
+- [97:17] getting updated properly and then we'll
+- [97:19] close this up by making sure that our
+- [97:21] offer viewer is properly showing the
+- [97:24] updated offer that we got generated from
+- [97:25] open AI so let's hop over to our code
+- [97:28] and what we can do is say update the
+- [97:31] price of the house to we'll say 600k and
+- [97:36] now this should go off start calling the
+- [97:37] appropriate tools and we should start to
+- [97:39] see that like yes a tool call is being
+- [97:42] made so that's a little dot great tool
+- [97:44] call is being made and you can see tool
+- [97:46] invocation now saying State call but
+- [97:49] then you can see received offer update
+- [97:51] tool invocation with the result and you
+- [97:53] can see that like now we have the
+- [97:54] updated offer which is exactly what we
+- [97:57] wanted and now what we're going to start
+- [97:59] doing is actually going off in getting
+- [98:01] this rightand section of the code to
+- [98:04] work and what the first thing that we
+- [98:06] need to do is actually make sure we're
+- [98:07] grabbing the current offer because
+- [98:10] nowhere in our code have we said
+- [98:11] recently hey I'm working on 123 Main
+- [98:14] Street this is not what we've been
+- [98:15] working on so if you actually head back
+- [98:17] over to our code and go over to our page
+- [98:20] what you'll notice is we have this get
+- [98:22] initial offer which is not what we
+- [98:24] wanted to do at all what we wanted to do
+- [98:26] was to get our current offer and then
+- [98:28] pass it down to our children so we're
+- [98:30] actually just in a weird state from the
+- [98:32] get-go so this is what we're going to do
+- [98:34] we're going to actually go off and fetch
+- [98:36] our offer from our back end and how are
+- [98:39] we going to do this well this is a
+- [98:40] perfect time to start using v0 to make
+- [98:42] another query because this is a serers
+- [98:45] side component to fetch this specific
+- [98:47] offer so let me show you how we can
+- [98:48] start doing that in v0 so we can head
+- [98:50] back over here and we can say let's
+- [98:53] actually C copy all of our code and
+- [98:54] paste it in and we can start telling it
+- [98:56] what did it do wrong hey can you please
+- [98:59] help me update my offer page which is a
+- [99:03] serers side component which is supposed
+- [99:05] to be fetching the current offer based
+- [99:08] off of the ID we are passing in so what
+- [99:11] I would like for you to do is in our
+- [99:13] queries. TS file can you create a new
+- [99:16] query which will get an offer by its ID
+- [99:19] and pass it back to us and once you find
+- [99:21] that offer can you please then pass it
+- [99:23] down into our child offer detail
+- [99:26] component so what we would expect this
+- [99:29] to go do is make a new query for us and
+- [99:31] clean up our code so let's see if v0 can
+- [99:33] pull through in this final test so
+- [99:36] fingers crossed it does does all the
+- [99:37] work for us and I'm going to go ahead
+- [99:39] and open up our queries page so that we
+- [99:41] can go ahead and prepare to go ahead and
+- [99:43] paste in our proper code so you can see
+- [99:45] we now have get offer by ID it's exactly
+- [99:48] what we would want and then outside of
+- [99:50] that what we can do is say like all
+- [99:51] right is our server set code calling it
+- [99:54] now well it should be so when we head
+- [99:56] back over here and paste in our code you
+- [99:58] can see that now it's trying to call
+- [100:01] that function and we can import it like
+- [100:03] we have been looks great let me make
+- [100:05] that a little bit bigger for you guys
+- [100:07] looks great and now what we can do is go
+- [100:09] ahead and start trying to run it one
+- [100:12] more time and see what's going to happen
+- [100:13] so this is exactly what we would expect
+- [100:15] to happen first of all like it's a blank
+- [100:17] template now that's exactly what we'd
+- [100:19] want so let's uh let's make sure let's
+- [100:21] try one more time to make sure it's
+- [100:23] working and then we can later come in
+- [100:24] and actually go ahead and make sure
+- [100:26] changes over here propagate to over here
+- [100:28] so can you please update the offer
+- [100:32] letter to show a purchase price of and
+- [100:37] then 400k so what they should do go off
+- [100:40] get the tool result per usual we'll go
+- [100:42] ahead and open up the logs so you can
+- [100:44] see what the heck's actually happening
+- [100:47] and let's go ahead and see for whatever
+- [100:49] reason handling new message takes a few
+- [100:52] seconds tool indication getting kicked
+- [100:53] off and then we're going to start
+- [100:55] getting back the results which should
+- [100:57] include our updated price so for
+- [100:59] whatever reason it always just takes a
+- [101:00] little bit sometimes working with these
+- [101:02] open AI tools great so now you can see
+- [101:05] that whenever we got back an updated
+- [101:07] $400,000 purchase price this is exactly
+- [101:10] what we were trying to do and then let's
+- [101:12] go even deeper cuz this is so cool and
+- [101:13] I'm so excited that we got here together
+- [101:15] can you please update the buyers's name
+- [101:17] to Brandon Hancock and the seller name
+- [101:20] to Jon Snow and then when it comes to
+- [101:24] loan type make that conventional and
+- [101:26] make the loan term 30 years fixed so
+- [101:29] this is a much larger request that we're
+- [101:32] trying to do because now we're updating
+- [101:34] multiple variables so what should be
+- [101:37] happening is now our tool call will take
+- [101:38] in our feedback that's a lot more
+- [101:40] complicated and it will go off and
+- [101:43] hopefully update our code so let's see
+- [101:45] what's going on over here so it should
+- [101:48] take a few seconds to handle new message
+- [101:51] and eventually come back to us like I
+- [101:52] said it it was just taking a second yeah
+- [101:54] so it's it's making the call now we just
+- [101:57] got to wait for it to actually come back
+- [101:58] and do its thing and there are ways to
+- [102:00] make this faster right now we're using
+- [102:02] CH uh cat GPT 4 Turbo you could easily
+- [102:05] change this to GPT 4 o mini and it would
+- [102:07] work a lot faster but we just right now
+- [102:10] for uh we're just testing everything out
+- [102:12] so great offer updated so now what we
+- [102:14] should hopefully see is things slowly
+- [102:16] start getting updated yeah and for
+- [102:18] whatever reason it didn't grab it so
+- [102:19] let's quickly dive in to figure out like
+- [102:21] why the first change was applied but not
+- [102:23] the second so this will be the final
+- [102:25] debugging that we do together before we
+- [102:27] wrap things up all right guys so welcome
+- [102:29] back after some digging around I figured
+- [102:30] out what the heck the issue was and we
+- [102:32] got to blame AI for it so the small
+- [102:35] issue was whenever we did the quick
+- [102:37] refactor to change this from a single
+- [102:41] for Loop where we were iterating through
+- [102:43] each message to whenever we started to
+- [102:45] iterate through all messages now here
+- [102:47] was the issue when we break out of this
+- [102:50] for Loop it just breaks out of this for
+- [102:52] Loop it doesn't stop us from going
+- [102:54] through the rest of our messages so as a
+- [102:57] result what was happening is we had you
+- [103:00] know so this was a tool call tool call
+- [103:03] tool call so this was like our latest
+- [103:05] one and then this one was our earliest
+- [103:08] so what was happening is like okay even
+- [103:10] though we agreed that you know we were
+- [103:12] going to start doing even though we
+- [103:13] agreed that we were going to start going
+- [103:15] and only looking at the latest tool call
+- [103:18] what was happening is it was actually
+- [103:19] still taking us all the way back up and
+- [103:22] going all right update the latest one
+- [103:24] ooh there's another tool call let's get
+- [103:26] the previous one so it was going back
+- [103:27] and actually even though we were
+- [103:29] properly generating the right
+- [103:30] information it was just going back and
+- [103:32] setting all the way to the earliest tool
+- [103:33] call which is not what we wanted so the
+- [103:36] Quick Fix is just to change this to a
+- [103:38] return which will completely break out
+- [103:39] of this Loop entirely so now let me show
+- [103:42] you this in action so we're going to say
+- [103:44] hey can you please in the wrong so we're
+- [103:46] say hey can you please update the price
+- [103:50] to you know 430k
+- [103:53] and the buyer to Brandon now this should
+- [103:57] go off and go ahead and start changing
+- [103:59] our buyer to my name and then the next
+- [104:02] one's going to hopefully be our property
+- [104:04] you know and then change the price as
+- [104:05] well and I'm going to go ahead and start
+- [104:06] typing up another one just so we have it
+- [104:08] cued and ready to go so we're going to
+- [104:10] say
+- [104:11] actually the price was
+- [104:15] 455k and then so you can see
+- [104:17] automatically it changed the buyer name
+- [104:19] to Brandon and the purchase price to 430
+- [104:21] so now it's up to us to make it even
+- [104:22] more complex to make sure things are
+- [104:24] working so we're going to say can you
+- [104:27] actually update the loan term to 30
+- [104:29] years fixed and the seller to John S
+- [104:31] snow now what's going to happen is it's
+- [104:33] actually going to go off and still do
+- [104:35] the tool call properly like it was doing
+- [104:37] except now we have updated our code to
+- [104:40] properly check for the latest tool call
+- [104:42] that was the fix so it was a simple
+- [104:44] simple programming error and it happened
+- [104:46] just because we used AI to quickly add
+- [104:49] in a fix and we weren't careful about
+- [104:51] the actual repercussions so that's one
+- [104:52] of the the best parts of these tools
+- [104:53] they're fast but you got to be careful
+- [104:55] but yeah now you can see Jon Snow is
+- [104:57] properly updated and you can see that
+- [105:00] the L term has been updated to 30 years
+- [105:02] fixed so this is perfect it's actually
+- [105:04] working in to end and once again guys I
+- [105:07] know that was like kind of a quick run
+- [105:08] through I just wanted to Showcase how
+- [105:10] you can use vzer and our three-phase
+- [105:12] approach and how you can start using
+- [105:14] yeah vzer Claud and cursor all together
+- [105:17] to like really crank out an app very
+- [105:18] quickly that was very fast that we did
+- [105:20] that but if you want to take things even
+- [105:22] further and actually dive deep into
+- [105:24] building out this application that we've
+- [105:25] kind of worked on together I am
+- [105:27] uploading it over to my AI developer
+- [105:30] accelerator Pro I'll have a entire subm
+- [105:32] module where I walk you guys through
+- [105:33] more some of the things that we sped
+- [105:34] through such as setting up the database
+- [105:36] and I'll take you guys a little bit
+- [105:38] further over into actually like setting
+- [105:40] things up so you can see here's like a
+- [105:42] final version of what you'll see in the
+- [105:45] the mini crash course so you'll see hey
+- [105:47] can you please update the buyer name to
+- [105:50] Brandon Hancock number two
+- [105:53] and the seller to Jon Snow 2 as well as
+- [105:57] change the loan type to FHA so what you
+- [106:01] can see now is we have nice loading
+- [106:02] screens we have loading screens here
+- [106:04] that's all awesome and then outside of
+- [106:06] that what you can see is we're also
+- [106:07] going to give the ability to upload
+- [106:09] files so this is like in the final
+- [106:11] complete version of the application this
+- [106:13] is what you'll see in the mini course
+- [106:15] and I think you already saw the yeah so
+- [106:17] it's all working FHA number two John
+- [106:19] snow it's all working and we added in
+- [106:22] the ab ability let me just show you real
+- [106:23] fast final thing just cuz I think this
+- [106:25] is so cool what we can have is our
+- [106:29] conversations autogenerate and once
+- [106:31] again go off autogenerate all the code
+- [106:33] and a few things that we left out in
+- [106:34] this quick module were the fact that it
+- [106:36] didn't go off and actually save and
+- [106:38] Export the code so we can work on that
+- [106:40] together so now we can save it come back
+- [106:42] over to our list view which in our case
+- [106:45] is Right Here and Now what you can see
+- [106:48] is like yep we generated AI content for
+- [106:51] this specific client hop back over and
+- [106:53] you can see yep that's exactly what we
+- [106:54] were doing so all around super cool this
+- [106:56] is in the subm module of the AI
+- [106:58] developer accelerator Pro program so
+- [107:00] definitely check that out I have a link
+- [107:01] down description below all right guys
+- [107:02] and that's a wrap for this video I hope
+- [107:04] you guys are psyched to start using
+- [107:06] Claude v0 and cursor inside of your own
+- [107:09] applications I can't wait to see what
+- [107:11] you guys go off and build using this
+- [107:12] super cool AI Tech stack I also wanted
+- [107:15] to share a few different links with you
+- [107:16] guys just as a quick reminder if you're
+- [107:18] looking for some additional help and you
+- [107:20] just want to meet some additional
+- [107:21] like-minded AI develop ERS I have that
+- [107:23] free school Community down below I think
+- [107:25] you guys will love it and we have our
+- [107:26] free coaching calls every Tuesday
+- [107:28] outside of that if you're looking for
+- [107:29] some additional support to master AI
+- [107:31] development I just launched a fullstack
+- [107:34] AI development course that teaches you
+- [107:35] how to use Ai and fullstack development
+- [107:38] to automate workflows definitely love it
+- [107:40] a ton of great reviews on it definitely
+- [107:42] check that out inside the free school
+- [107:43] community and also if you want to see
+- [107:45] the code behind this application for the
+- [107:47] full stack real estate agent I actually
+- [107:49] have that over in my AI developer
+- [107:51] accelerator Pro community over in school
+- [107:53] but I have links to everything down
+- [107:54] below if anything was confusing and I
+- [107:56] can't wait to see you guys in the next
+- [107:58] video I have a ton of other free YouTube
+- [108:00] related AI content right here on this
+- [108:02] channel so I can't wait to see you guys
+- [108:03] in the next video have a great one see
+- [108:05] you

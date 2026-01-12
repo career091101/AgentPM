@@ -1,0 +1,421 @@
+---
+title: "YouTube Video: 6B0p9rCN_p0"
+video_id: "6B0p9rCN_p0"
+video_url: "https://www.youtube.com/watch?v=6B0p9rCN_p0"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Technical"
+topics:
+  - "Technical"
+summary: |
+  Okay, so this week OpenAI released their GPA 5 codec and for the last few days I've been testing it out uh in of course codeex CLI and I got to say I'm pretty impressed by this. So I just wanted to ma...
+key_points:
+  - "to give my first impressions on this."
+category: "AI Technical"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 6B0p9rCN_p0
+
+- URL: https://www.youtube.com/watch?v=6B0p9rCN_p0
+- Retrieved at: 2025-12-30T09:40:19+09:00
+
+## Text
+
+- [00:00] Okay, so this week OpenAI released their
+- [00:02] GPA 5 codec and for the last few days
+- [00:05] I've been testing it out uh in of course
+- [00:08] codeex CLI and I got to say I'm pretty
+- [00:11] impressed by this. So I just wanted to
+- [00:12] make a short video where I try to do a
+- [00:14] change in my setup I have that I built
+- [00:17] for the last video and just see how it
+- [00:19] works out. Uh because we have an issue
+- [00:22] we want to try to uh switch a model. Uh,
+- [00:25] so I want to try to use the new GP5
+- [00:27] codeex for that today. And I just want
+- [00:29] to give my first impressions on this.
+- [00:31] What I like, what I don't like, and what
+- [00:33] I think, yeah, you can use this for if
+- [00:36] you, yeah, thinking about switching from
+- [00:38] cloud code or if you just want to try
+- [00:40] this out if you have like a chachet
+- [00:43] subscription. I'm just on the the pro
+- [00:46] version now. That's a $20 subscription
+- [00:48] on Chachet. Uh, so I am using uh logging
+- [00:52] into Codex CLI using that. So, I had a
+- [00:54] look at a few of like the benchmarks
+- [00:56] they did here, but I'm not going to
+- [00:58] focus too much on that today. Uh, I just
+- [01:00] want to try it out and see what we can
+- [01:02] do with it. So, you can see from the SWE
+- [01:04] bench, uh, they have a small bump here.
+- [01:06] So, that's uh, I think it's around the
+- [01:08] same uh, that like Opus 4.1 is on and
+- [01:12] other models, right? So, yeah, pretty
+- [01:15] good. It's a bit better on GP5. Uh, but
+- [01:17] I think uh, what I enjoyed most about
+- [01:19] Codex, uh, I'm going to kind of explain
+- [01:21] it soon. So yeah, just let get into the
+- [01:24] project and let's see what we can do
+- [01:26] with this. So in my previous video, we
+- [01:28] generated this uh setup in codeex where
+- [01:30] we use MCP servers to generate videos.
+- [01:34] So I'm not going to play this with
+- [01:35] sound, but this is like an avatar of me
+- [01:37] just created from one image. You can go
+- [01:38] back and watch the previous video. So
+- [01:40] you can see we are changing up the
+- [01:41] angles here. We are using like an AI
+- [01:43] avatar model and we are combining this
+- [01:46] with a bunch of MCP servers like 11 Labs
+- [01:49] and Nano Banana to create these types of
+- [01:51] videos. Uh but lately I had some issues
+- [01:54] this week with the Omnihuman model. So I
+- [01:57] thought we can use the new GI5 codeex to
+- [01:59] just try to switch to the cling version
+- [02:01] of this AI avatar model and just see how
+- [02:04] smooth this is going to be just to swap
+- [02:05] it over. So the way I want to do this is
+- [02:09] uh I want to go into my repo here. Here
+- [02:11] I just want to type codeex. I have
+- [02:12] updated all of this now. And if we do
+- [02:15] like a /mod now, you can see we are on
+- [02:18] the codeex medium. I'm just going to
+- [02:20] keep it at that. We could of course
+- [02:21] switch to high or low, but I'm just
+- [02:23] going to stay at medium now for now. Uh
+- [02:26] so what I want to do is uh I want to
+- [02:28] give some instructions here that we want
+- [02:30] to switch to this um cling AI avatar. So
+- [02:35] what I'm going to do first is I'm going
+- [02:37] to go grab some documentation here from
+- [02:39] the API.
+- [02:41] So, I'm just going to grab all the
+- [02:42] documentation here from this uh model,
+- [02:45] right? And I'm just going to create uh
+- [02:48] yeah, a documentation here. I'm just
+- [02:50] going to call it something like cling
+- [02:54] uh avatar.md or something from fal. So,
+- [02:57] this is the same provider. So, we
+- [02:59] already have the API key here. Uh, and
+- [03:02] now I'm just going to try to instruct
+- [03:05] uh with codeex here to switch up these
+- [03:07] two models from the omni one to the one
+- [03:09] from cling and see how smooth this goes.
+- [03:13] So let's just start by reading the new
+- [03:14] documentation. Uh, so did we call it
+- [03:16] cling avatar, right? So let's just do
+- [03:18] that. So uh I want to do a few comments
+- [03:21] on what I have liked so far and I think
+- [03:24] this new dynamic tinking uh this makes
+- [03:27] the new codeex model fit a much more
+- [03:29] responsive. You can see how quick this
+- [03:30] was, right? Uh so what I have noticed is
+- [03:33] the speed improvements have been great.
+- [03:35] Uh they had this thing about like I said
+- [03:38] dynamic thinking. So they tried to not
+- [03:40] use so many tokens or reasoning on this
+- [03:44] uh what it classifies as simpler task
+- [03:47] and then it's going to spend more time
+- [03:48] on complex task. So I don't think we
+- [03:52] have like uh uh perfect control over
+- [03:55] this. Uh but for my testing so far it
+- [03:57] seems to work pretty good. Like if I
+- [03:59] say, "Hey, uh, this response should be
+- [04:01] pretty quick, right?" You can see that.
+- [04:04] Uh, but if I do like a complex request,
+- [04:05] this should take longer. And I think
+- [04:07] they do did a pretty good job so far
+- [04:09] from my testing. Uh, but let let's get
+- [04:12] into what we wanted to do now. So, we
+- [04:14] read this uh, uh, documentation here
+- [04:17] from the new model. And I'm just going
+- [04:18] to write a prompt here. So, I think
+- [04:21] we're just going to do uh, we are having
+- [04:22] some issues with the avatar MCP server
+- [04:24] and the omni model, right? Uh, it's not
+- [04:27] working at the moment. So I want to
+- [04:28] switch to the cling AI avatar model for
+- [04:30] the MCP server. Can you help me execute
+- [04:32] this test please? So we're just going to
+- [04:34] run this and I just want to see how
+- [04:36] smooth this operation uh is going to be.
+- [04:39] Okay. So you can see here now we are
+- [04:41] kind of exploring all this. So uh one
+- [04:42] thing I noticed about codeex instead of
+- [04:44] like using cloud code is it tends to do
+- [04:46] all the tool calling up front. Uh I
+- [04:49] guess that's fine. I don't see any
+- [04:50] issues with this and I don't think we
+- [04:51] would have any problems. try to fix this
+- [04:54] problem using uh clo code or the older
+- [04:56] version of codec. I think we should have
+- [04:58] been fine. But uh I feel like there's a
+- [05:01] bit of a more smooth experience.
+- [05:04] So what did we uh change up here? You
+- [05:07] can see we just switched out the model.
+- [05:08] This is kind of what I want to see. We
+- [05:10] did a diff here. We moved the omnihuman
+- [05:12] model. We put in this. Yeah, looks good.
+- [05:15] And we still have the same input
+- [05:17] arguments. We have the image URLs and
+- [05:19] the audio URLs and the file key. Yeah,
+- [05:21] this is kind of what I expected. So,
+- [05:23] that looks pretty good. So, one thing
+- [05:25] I've noticed uh that I kind of prefer
+- [05:28] cloud code for still is kind of using
+- [05:30] the how to set up MCP servers. Uh I
+- [05:33] found the experience a bit smoother on
+- [05:35] using cloud code. Uh but that could be
+- [05:38] me, right? The way I have been working
+- [05:39] with this for a while now since I
+- [05:41] haven't used codec so much. Uh but for
+- [05:43] me so far, I think the MCPS servers
+- [05:46] experience has been a bit easier for me
+- [05:48] at least in cloud code. Uh, but I'm
+- [05:51] going to spend more time in codeex here
+- [05:52] trying it out. So, yeah, we are just
+- [05:55] going to do some changes here in the
+- [05:57] documentation. I didn't ask for that,
+- [05:58] but I guess it's fine. And uh, one more
+- [06:02] thing I like to see here is kind of the
+- [06:04] summarization at the end. I kind of like
+- [06:06] this. They're not using so many tokens.
+- [06:08] I kind of like that they are kind of on
+- [06:10] the point here and they have references,
+- [06:12] right? So, avatar MCP service now
+- [06:14] subscribes to this new model, the new
+- [06:16] endpoint. uh help post cleaning API path
+- [06:19] when calling and integration guide some
+- [06:22] new documentation in avatar.md right
+- [06:26] testing we're going to do this and next
+- [06:29] steps right
+- [06:31] so uh I kind of like this next step
+- [06:34] thing here because one thing we can do
+- [06:35] is just do can you execute the next step
+- [06:39] uh I don't want kind of want to set the
+- [06:41] f uh fal key here so I kind of wanted
+- [06:45] the fal key to be loaded from the
+- [06:47] environ ment variables but uh yeah let's
+- [06:49] see what we can do here so here I just
+- [06:51] said uh I want to load the file key from
+- [06:53] the env check this and build update if
+- [06:56] needed so I think that should work
+- [06:58] pretty good right we wanted to I don't
+- [07:00] want to set this in the environment I
+- [07:02] just want to load it from our env
+- [07:07] uh let's just see how this goes and when
+- [07:09] we have implemented this I kind of want
+- [07:11] to run a few full rundown of this new
+- [07:14] MCP server and try to build like uh the
+- [07:18] same video as we had in this start here.
+- [07:21] But of course, this is going to be with
+- [07:22] a new MP3 file here that I just grabbed
+- [07:24] from a news article. Uh then we're going
+- [07:27] to test to see if this implementation
+- [07:30] was good, right? Uh drop your file key
+- [07:33] in this. So this is the next step. Uh
+- [07:36] yeah, it already is or I meant to say it
+- [07:40] already is. Uh it's in here, right?
+- [07:42] Because we have our file key set in the
+- [07:44] server/env file. That should be good.
+- [07:48] Uh, okay. So, all should be set. So,
+- [07:50] what I think we need to do now is just
+- [07:52] do like a restart. So, we can quit
+- [07:54] codeex/mcp.
+- [07:56] Let's see. Do we have the avatar model
+- [07:59] up and running here? Yeah. So, what
+- [08:00] we're going to do now is try to just run
+- [08:02] a full uh rundown of the workflow and
+- [08:05] see if everything works. Uh, I kind of
+- [08:08] want to check the time out on this
+- [08:09] because
+- [08:11] uh the the execution part of the model
+- [08:14] could be some time. So I'm just going to
+- [08:15] quickly check the time out of this MCP
+- [08:18] server here and then we're going to run
+- [08:20] a few full execution on this. Okay, so
+- [08:23] we set the time out to 10 minutes. That
+- [08:25] should be enough to execute the video.
+- [08:27] So what we want to do now is just check
+- [08:29] our workflow because I have a workflow
+- [08:30] for this. So basically what this says is
+- [08:34] everything we need to do. So the first
+- [08:36] thing we're going to provide an image.
+- [08:37] So we have a source image here, right?
+- [08:39] That's going to be the PNG file. So if
+- [08:41] we go here, you can see this is going to
+- [08:44] be the PNG file we're going to feed into
+- [08:47] every nano banana angle, right? This is
+- [08:50] just a girl here. So this is going to be
+- [08:52] our source file. And the next step is
+- [08:54] going to be to provide the audio file.
+- [08:55] We have an 18 second clip here from a
+- [08:58] news article I read yesterday. So we
+- [09:00] have that already pre-prepared. Then
+- [09:02] we're just going to do some ffmpeg.
+- [09:04] Create chunks of 5 seconds. If you
+- [09:06] watched the last video, you would know
+- [09:07] this. Then we're going to use this list
+- [09:09] here. So we have these different camera
+- [09:11] angles. We're going to run to the source
+- [09:12] image with Nana Banana. So we have the
+- [09:15] the source image inside a coffee shop on
+- [09:17] the streets of New York outside a car
+- [09:19] inside a car, right? You will see that.
+- [09:21] Then we're going to try to merge this
+- [09:22] and hopefully end up with like a video
+- [09:24] as we have here. Right. So what I went
+- [09:27] ahead and did now is I started this. So
+- [09:29] I just said something simple like uh
+- [09:32] read the workflow, right? That was
+- [09:34] pretty quick. We read the workflow. So
+- [09:36] we're going to capture this camera
+- [09:37] angles. Then I said execute the workflow
+- [09:40] and we started working here. Right? So
+- [09:42] you can see we created all the chunks.
+- [09:44] That's perfect. Now we are running the
+- [09:46] MCP tool. So nana banana edit. We feed
+- [09:48] in the source image. We feed in the
+- [09:50] prompt POE inside a car person talking
+- [09:53] to a camera. And that's going to be our
+- [09:54] first input image. And then we're going
+- [09:56] to continue down here and hopefully
+- [09:58] start with the new video model. So we'll
+- [10:00] see that. So if we go in here, we can
+- [10:03] kind of check out some of the images. We
+- [10:06] have this right. That's inside the car
+- [10:10] on the side. Probably outside the car
+- [10:13] and on the streets. Yeah, perfect. So,
+- [10:15] that looks pretty good. So, I'm just
+- [10:17] going to take you back now when uh
+- [10:19] hopefully the video starts here. So, I'm
+- [10:22] going to It's not using the MCP server
+- [10:24] here. So, I'm going to try to fix that.
+- [10:25] Uh but I will take you back. Okay. So,
+- [10:27] you can see we ran the avatar generate
+- [10:29] outer video tool here using the MCP
+- [10:32] server. And we put in the arguments, the
+- [10:34] trunk and the image. We got the segment
+- [10:38] MP4 out. Perfect. So yeah, we don't have
+- [10:41] to play the sound now. But you can see
+- [10:42] this is working. We have the lip sync
+- [10:44] and everything. So that seems to been
+- [10:46] working good. We switched the model from
+- [10:48] the omni to the new model from cling.
+- [10:51] And you can see we generated all the
+- [10:54] chunks. Uh we turn them into these MP4
+- [10:56] files with the correct uh audio inputs
+- [10:59] or arguments. And we run this four times
+- [11:02] to create those four clips. And then we
+- [11:05] just merged everything together.
+- [11:07] Perfect. We ended up with like a final
+- [11:09] video. And I wanted to kind of add
+- [11:12] something else to this. So I just went
+- [11:14] over to 11 Labs. I created some
+- [11:17] background noise for this. And you can
+- [11:19] see at the end here, we just merged that
+- [11:21] in with like a 5% volume or like 15% I
+- [11:25] guess. So I think I think that worked
+- [11:27] pretty good. So let's just watch the
+- [11:29] final uh clip here. Uh it wasn't
+- [11:32] perfect. We should have done some
+- [11:33] editing on this because the sound kind
+- [11:35] of cuts in the middle of the sentence
+- [11:37] and stuff, but just as an test here for
+- [11:39] codeex, I think it works pretty good.
+- [11:41] So, let's just watch the final result
+- [11:43] and I'm going to do kind of my
+- [11:44] conclusion and what I'm going to do
+- [11:46] continuous uh with this project and
+- [11:48] codeex gypt.
+- [11:51] Okay, so here we can kind of see the
+- [11:53] video, right? And I think we're just
+- [11:55] going to play it. It's like 18 seconds.
+- [11:57] As President Trump arrives in Britain
+- [11:58] for a rare second state visit, protests
+- [12:01] flare outside Windsor Castle. Overnight,
+- [12:04] activists projected images linking Trump
+- [12:06] and the late Jeffrey Epstein onto the
+- [12:08] royal walls. Police detained four people
+- [12:11] on suspicion of communications, calling
+- [12:13] it an unauthorized public.
+- [12:15] >> Yeah, you can see that was not perfect,
+- [12:16] right? But uh the model worked and it
+- [12:19] switched uh was pretty successful if you
+- [12:21] ask me. Uh but uh I want to kind of
+- [12:24] conclude on the
+- [12:27] testing out the codeex the last few days
+- [12:29] and I think it's been pretty good. Uh
+- [12:31] what I like about it mostly is kind of
+- [12:33] the speed I feel has changed and I think
+- [12:35] it works. The kind of switching between
+- [12:38] using the simple request like hello and
+- [12:41] the more complex requests like when
+- [12:43] you're diving into some code or you have
+- [12:44] like a deeper problem seems to work
+- [12:47] pretty good. Uh, but I haven't really
+- [12:49] had enough time yet to warrant like a
+- [12:52] switch. Uh, I have actually
+- [12:55] uh set up my claw uh back from the Mac
+- [12:59] subscription now to the pro subscription
+- [13:01] because I want to see if I want to
+- [13:02] upgrade to GPD5 or open it either pro
+- [13:06] subscription using codeex or if I'm
+- [13:08] going to go back to the max subscription
+- [13:10] using cloud code. So now I'm in kind of
+- [13:13] in between. So I'm going to keep testing
+- [13:15] and see what I land on here. Should I go
+- [13:17] to uh go to the $200 subscription for
+- [13:21] OpenAI? I'm not quite sure yet. So, I'm
+- [13:23] just going to wait a while and see what
+- [13:25] I do. But so far, I've been pretty happy
+- [13:27] with Codeex. Uh I think they still have
+- [13:29] some work to do on kind of the CLI tool
+- [13:32] compared to Cloud Code. Uh and even I
+- [13:34] think even Antropic has admitted that
+- [13:36] they had a lot of issues lately with the
+- [13:39] models over on Yeah. on Antropic with uh
+- [13:42] the Sonnet and the Opus models. So,
+- [13:45] yeah. Uh there's no point staying like
+- [13:47] loyal to any company. Just pick the ones
+- [13:50] that has the best model at this time uh
+- [13:53] at this moment in time and yeah just
+- [13:55] switch it up because you always can
+- [13:58] cancel. So I wouldn't re recommend
+- [14:00] anybody buying like a full year of uh
+- [14:03] like uh buying like a yearly
+- [14:05] subscription. Uh I just want to swap
+- [14:07] around and be on the model that is best.
+- [14:10] if we get like Gemini Ultra in the last
+- [14:12] next weeks, maybe want everyone to swap
+- [14:15] to that and maybe the Gemini CLI. So,
+- [14:17] let's just see. Uh, but yeah, that's
+- [14:19] kind of my initial impression of the
+- [14:21] GPD5 codex models. I've been really
+- [14:23] happy with them and I haven't really one
+- [14:26] thing I haven't played around with
+- [14:28] enough is trying to switch between low,
+- [14:30] medium, and high. Uh, I might try out
+- [14:33] the high a bit more. I'm not sure yet,
+- [14:36] but for now, I've been just sticking
+- [14:37] kind of on the medium and it seems to
+- [14:39] work pretty good for me. So, yeah, thank
+- [14:42] you for tuning in and uh let me know in
+- [14:44] the comments what you are going to do.
+- [14:45] Are you going to switch to CL from Cloud
+- [14:47] Code to Codeex or are you just going to
+- [14:49] stay on Clo? Maybe try out Gemini if the
+- [14:52] tree model comes out the next few weeks.
+- [14:55] Uh but yeah, thank you for tuning in and
+- [14:57] have a great

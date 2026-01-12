@@ -1,0 +1,345 @@
+---
+title: "Today you're going to learn about a workflow that I personally use when building out apps that no one's going to talk ab"
+video_id: "JgMA92GXVmU"
+video_url: "https://www.youtube.com/watch?v=JgMA92GXVmU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "Technology", "Tutorial", "Development"]
+summary: |
+  Today you're going to learn about a workflow that I personally use when building out apps that no one's going to talk about
+  And the reason no one's going to talk about it is because of the fact that I created the workflow and I use the workflow
+  And the workflow's name is very simple, main, and grunty
+key_points:
+  - "off, we got to make sure that the agent knows what's incurring"
+  - "one and we got the second one"
+  - "one here, we have a higher level model"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:29:06+09:00"
+---
+
+# Transcript: JgMA92GXVmU
+
+- URL: https://www.youtube.com/watch?v=JgMA92GXVmU
+- Retrieved at: 2025-12-30T10:29:06+09:00
+
+## Text
+
+- [00:00] Today you're going to learn about a
+- [00:01] workflow that I personally use when
+- [00:03] building out apps that no one's going to
+- [00:04] talk about. And the reason no one's
+- [00:05] going to talk about it is because of the
+- [00:06] fact that I created the workflow and I
+- [00:08] use the workflow. And the workflow's
+- [00:10] name is very simple, main, and grunty.
+- [00:12] Let's jump in. So, if you didn't know or
+- [00:14] you living under a rock right now,
+- [00:16] agents can run in parallel. What I mean
+- [00:18] by that is that we can set up workflows
+- [00:20] where we have multiple agents working on
+- [00:23] your application at once. When you're in
+- [00:25] the beginning stages of creating out an
+- [00:26] app, this can get a lot of fun, right?
+- [00:28] We could run five or six agents running
+- [00:30] in parallel at the exact same time.
+- [00:32] Build out a bunch of cool stuff such as
+- [00:33] like, yo, I got a new app. Build out the
+- [00:35] landing page. Build out the login page.
+- [00:37] Build out the signup page. All of this.
+- [00:39] But at a certain point, after this
+- [00:41] massive like we have five, six agents
+- [00:43] running at the same time. At a certain
+- [00:44] point, this becomes ineffective. And the
+- [00:45] reason this becomes ineffective is
+- [00:47] because of the fact that as you add more
+- [00:48] files, as you add more code, things get
+- [00:50] more complex. So once we transition from
+- [00:52] the build build suggestions phase, if
+- [00:54] you know if you know, we got to do a
+- [00:55] different method. And the method I
+- [00:57] personally like is what I like to call
+- [00:59] main and grunty. I used to call it mane
+- [01:01] and grunt. And then over on my ex,
+- [01:02] people were like, "No, Corbin, don't
+- [01:03] call it grunt. Call it grunty. We're
+- [01:05] calling it grunty." Also, if you want to
+- [01:06] follow me on X, description down below,
+- [01:07] second link. So, let me show you this
+- [01:08] method. How do we cook up and start this
+- [01:09] method? Well, first off, we got to make
+- [01:11] sure that the agent knows what's
+- [01:12] incurring. So, what I like to do, and
+- [01:14] you can start doing this as well, is I
+- [01:15] will choose a higher level model for
+- [01:17] main. And what I'm going to do is this.
+- [01:19] I'm just going to use the simple prompt
+- [01:20] here of read my entire repo and
+- [01:21] understand my app. I'm going to switch
+- [01:22] to ask and shoot it off. I'm going to
+- [01:24] copy this prompt though. We shoot it
+- [01:25] off. Also, make sure that you have
+- [01:26] browser mode on. Google Chrome browser
+- [01:29] tab. Put on browser tab. Make sure you
+- [01:30] have the application running. Hit new
+- [01:32] agent here. I'm going to put the exact
+- [01:33] same command, but we can switch to
+- [01:34] something like auto with this. Hit enter
+- [01:36] again. So now we have two different
+- [01:39] chats here. We got this first one and we
+- [01:41] got the second one. Some of youall
+- [01:42] already know where this is probably
+- [01:43] going, but let's do it. First one here,
+- [01:45] we have a higher level model. Therefore,
+- [01:46] we are going to rename this to main.
+- [01:49] Enter. Nice. Second one, we have auto.
+- [01:52] So we use lower level models, but we
+- [01:54] want to expediate code workflows. So
+- [01:55] we're going to rename this to grunty. We
+- [01:57] got main and grunty here. So what do we
+- [01:59] do, Corbin? Maine is where we're going
+- [02:01] to offshoot a reasoning task or task
+- [02:03] that I know is going to take a lot more
+- [02:05] time to complete. Grunty is where we do
+- [02:08] the very fast stuff. The type of stuff
+- [02:09] that we could have coded ourselves, but
+- [02:11] why code when we can just tell it what
+- [02:13] to do now type of task. So let's do an
+- [02:14] example of this. Each chat has been
+- [02:16] pre-loaded to understand my repo. Now,
+- [02:18] if you were specifically working on a
+- [02:20] very specific page, for example, the
+- [02:22] value page of an app. So, this right
+- [02:23] here, this is a this is thumbnail.com,
+- [02:25] best thumbnail editor in the world. If I
+- [02:27] was working on this specific page and
+- [02:28] I'm about to shoot off main, instead of
+- [02:30] having it having a general idea of the
+- [02:32] entire app, I don't really care. I
+- [02:33] wanted to have a very specific idea of
+- [02:35] everything and all the code that's
+- [02:36] incurring on this page, my value point.
+- [02:39] So one way we can do this to make it
+- [02:40] very easy in our lives is if you've set
+- [02:42] up routing studios SSS little sandbox
+- [02:46] like this situation I can copy this and
+- [02:47] I can be like okay understand all the
+- [02:49] code rendered on this page hit enter
+- [02:51] here and then what this is going to do
+- [02:52] is going to see all the components
+- [02:53] rendered here and just understand the
+- [02:55] code just get context and for anyone
+- [02:57] that's wondering or just found my
+- [02:58] channel and they're like what is thumbio
+- [02:59] how did you build this Corbin oh you're
+- [03:01] in luck there's a whole playlist
+- [03:02] dedicated to this so check it out I
+- [03:04] might leave in the description down
+- [03:04] below we're talking 10 12 episodes by
+- [03:06] the end of it it's hour long episodes I
+- [03:08] show you how to genuinely build out an
+- [03:09] app with zero coding experience. So once
+- [03:11] I would do something like that, I
+- [03:12] already know I put a big task here. So
+- [03:14] here's what I'll do next. All right, so
+- [03:15] we have a cool little folder system. I'm
+- [03:17] able to, you know, drag my amazing image
+- [03:19] here and I can create more projects.
+- [03:21] This is all cool. But maybe with this
+- [03:22] folder system, I'm like, you know what?
+- [03:24] I want to add a little bit of little bit
+- [03:25] of color. I want to make it fun. So
+- [03:27] right now, my studio sandbox, I come
+- [03:28] over here. I'm like, oh, I can change
+- [03:29] the color palette. Yeah. Oh, change
+- [03:31] lead. Nice. I want to change the color
+- [03:33] of my folder. So to shoot off a task
+- [03:34] like this, what you can do is
+- [03:36] screenshot, give context. I put in the
+- [03:38] chat here and do this. I'm going to do
+- [03:39] this in a very vibe cody way. You see my
+- [03:40] folder icon. I want it so that the user
+- [03:42] can click the icon and change the color
+- [03:43] of the folder. Hit enter. I gave image
+- [03:45] context. I gave specifically the action
+- [03:46] I want to incur. I am in ask mode. I'm
+- [03:48] not in agent mode. And first let's just
+- [03:50] come to common ground. Me and main. Now
+- [03:52] what can happen here is as it's getting
+- [03:53] context is I can come over to Grunty.
+- [03:55] What Grunty can do is I can be looking
+- [03:57] through my app while I'm waiting for
+- [03:58] this to be done and I can find little
+- [04:00] things. I'm just like let's change that.
+- [04:01] So scrolling down here I'm like this
+- [04:03] looks good. This looks good. You know
+- [04:04] what? Actually, let's do this. 10 hay
+- [04:06] bells equals one lead image screenshot.
+- [04:08] And then I give that to Grunty and I'm
+- [04:09] like, "Oh, wait, wait. Oh, Maine's
+- [04:10] done." Okay, so I don't care about that
+- [04:11] right now. Let's go back to Maine. And
+- [04:12] this is what Maine says. It's like,
+- [04:14] okay, summary. Clicking the folder icon
+- [04:15] opens a color picker. Preset colors and
+- [04:17] custom color input. You know what? I
+- [04:19] just want preset colors. I don't want it
+- [04:21] to get too complex. Just let them choose
+- [04:22] a couple. Let's say six colors. So, this
+- [04:24] is the planning mode. I've done another
+- [04:26] video on this. You can check out on this
+- [04:27] channel, but this is the planning mode
+- [04:28] where we want to get on the same ground
+- [04:30] of what we want to accomplish together.
+- [04:31] So, once that's done, okay, we got six
+- [04:33] colors. This looks good. I'll switch to
+- [04:35] plan mode and be like make the plan.
+- [04:36] While that's going, I jump back over to
+- [04:38] Grunty and I'm like, you know what? You
+- [04:39] see these numbers? Add a highlight. And
+- [04:41] then what we're referencing here is 10
+- [04:43] and one. Enter. Go Grunty. Go. Notice
+- [04:46] with Grunty, I am just straight up in
+- [04:47] agent mode because I know these are
+- [04:49] extremely simple tasks that I could have
+- [04:50] personally done. With Maine, I am not in
+- [04:52] agent mode right away because I'm doing
+- [04:54] more complex workflows. I want to create
+- [04:56] plans around the workflow. And then I
+- [04:57] want to hit build. Now the agent's
+- [04:59] running. Now, Maine's going to take a
+- [05:01] couple minutes, five, 10 minutes, maybe
+- [05:03] shorter, maybe longer. But while Maine
+- [05:05] is building out very complex workflows,
+- [05:07] I am over here in Grunty like, "Hey, we
+- [05:09] got to get going here." Now, Grunty's
+- [05:10] being really dumb right now. I can't
+- [05:12] edit images directly. Oh no, Grunty. So,
+- [05:14] what I'm going to do is uh instead of
+- [05:16] auto, we'll wait it up to sun at 4.5 and
+- [05:18] say, "Try again, Grunty. I know you can
+- [05:20] do it, Grunty. Maybe Grunty was a little
+- [05:21] too dumb and it'll know what to do
+- [05:23] then." I might have to give a little
+- [05:24] more context to Grunty, but let me see.
+- [05:26] Look at this. Maine's going. Maine's
+- [05:27] just shooting off. Let Maine go while
+- [05:29] Maine's going. You know, the application
+- [05:31] might come in and out. I don't care.
+- [05:32] Grunties in progress now. Grunty
+- [05:34] understands what's happening. Boom.
+- [05:35] Boom. Boom. Now, from here, if you're
+- [05:36] more advanced, you could add more
+- [05:37] Grunties. But what I suggest you do when
+- [05:39] your codebase gets pretty big is I like
+- [05:41] this flip-flop workflow where any
+- [05:42] downtime that I have while main is
+- [05:44] going, I can kind of focus with grunty
+- [05:46] little like fast things. Boom, boom,
+- [05:48] boom, boom. I don't have time to
+- [05:49] necessarily create two mains because the
+- [05:51] amount of mental capacity is you want to
+- [05:53] really focus all your energy mentally
+- [05:56] towards main. Grunty is more of like I
+- [05:58] have downtime and instead of scrolling
+- [06:00] on IG or scrolling on TikTok, you're
+- [06:02] actively working and pushing your
+- [06:03] project forward. So # Main and Grunty
+- [06:06] made by yours truly, Corbin. Let's see
+- [06:08] if this works. So Grunty is done. I'll
+- [06:09] be like, "Okay, this looks amazing.
+- [06:10] Grunty, what are we doing Grunty?" Let's
+- [06:12] go to the homepage and let's go to the
+- [06:15] landing page. Come down here. And there
+- [06:17] you go. It added a nice little round
+- [06:19] rectangle before it. I actually do like
+- [06:21] that a lot. That's actually really nice.
+- [06:22] So that looks good. I love it. I would
+- [06:24] hit keep all behind me. and Grunty, you
+- [06:26] are off to your next task. And then I'll
+- [06:27] jump around. Coming over to Maine, I
+- [06:29] would be like, "Oh, looks like Maine's
+- [06:30] finished." Let's see if Maine worked.
+- [06:32] Now, what you need to understand is that
+- [06:34] especially when doing more complex task,
+- [06:35] it might not be a one-shot go. That's
+- [06:37] part of the reason why we give Maine
+- [06:39] such a higher level model so we can
+- [06:40] handle this logic. But if I click this,
+- [06:42] it works. So, it did add the custom
+- [06:43] color, but I can request it not to be
+- [06:45] done. But I'm like, you know what? I
+- [06:46] want pink. Make my folder pink. Apply.
+- [06:48] And it's not working. So, we're going to
+- [06:49] make it work. So, what I'll do is I'm
+- [06:50] trying to click here. Huh, it's not
+- [06:52] working. Uh when I click this, I'm just
+- [06:54] not getting the ability to change the
+- [06:55] color of the folder. So what I'll do is
+- [06:56] I'll screenshot and then I'll be like
+- [06:58] pop-up works, but when I click it is not
+- [07:01] saving or changing color. Also, no
+- [07:04] custom color option. Enter. And then
+- [07:05] when that's going, I noticed with
+- [07:07] Grunty, what I'm about to show you right
+- [07:08] now, if you if you develop, you're going
+- [07:09] to be like, Corbin, you could have
+- [07:10] edited that. I know. Okay, I know this
+- [07:12] is extremely simple, but one lead image
+- [07:14] edit. I'm going to be like, you know
+- [07:15] what? Let's do lead edit. We don't need
+- [07:17] to add image. There's enough context.
+- [07:18] This is a thumbnail platform. The user
+- [07:20] doesn't need to have image edit because
+- [07:21] it knows through thumbnails it's going
+- [07:23] to inherently be an edit. So now look at
+- [07:25] that. 10 hay bales equals one lead image
+- [07:28] edit or just one lead edit. I like it.
+- [07:30] Coming back over to main. It is going
+- [07:31] still. So let's see. So we're back over
+- [07:32] here to main. I click this folder. Click
+- [07:34] this. I'm like, you know what? Let's do
+- [07:36] this. Seems like it's not working still.
+- [07:37] Let me do a hard reload. Sometimes you
+- [07:39] want to do that on the front end. So do
+- [07:40] that. Try again. Click. Doesn't seem
+- [07:42] like it's working. Maybe it wants me to
+- [07:44] do this. Okay. So still not working. I'm
+- [07:46] going to open up the console log here.
+- [07:48] See if any errors are occurring. And
+- [07:49] look at that y'all. This is the debug
+- [07:50] flow. Oh, something seems to be
+- [07:52] happening. I'm just going to copy all
+- [07:53] this and act like I have no clue what it
+- [07:55] means. Then I'm going to paste it here
+- [07:56] and hit enter. This is the workflow.
+- [07:58] When you tackle bigger task, use main.
+- [08:00] Smaller task, you hit grunty. Let's see
+- [08:01] main work. So, after I let the agent go
+- [08:04] off for a little bit here, I went ahead
+- [08:05] and fixed it. Over here, select this
+- [08:07] color. Nice. This color. Nice. Maybe I
+- [08:11] want pink. Pink. Now, one thing I want
+- [08:12] to point out is that if you're running
+- [08:14] into an error or there seems to be an
+- [08:15] issue where you are attacking something
+- [08:18] in the main agent for too long, switch
+- [08:20] the model. I actually had to do that.
+- [08:22] For some reason, composer one was just
+- [08:23] cooking itself. So, I switched to GBT
+- [08:25] Codex High and it was able to get it
+- [08:27] done in the first shot. There you go.
+- [08:29] There's Maine and Grunty. The best
+- [08:30] method ever created to optimize your
+- [08:32] time when developing in this way. So, as
+- [08:34] you already know with these style
+- [08:35] videos, make sure you leave a like. It's
+- [08:36] completely free. I'll see you in the
+- [08:38] next Main Grunty. Main Grunty. Oh, it's
+- [08:40] Maine. It's grunty backup camera. It's
+- [08:43] main grunty man. Grunty man grunty type
+- [08:46] of video.

@@ -1,0 +1,697 @@
+---
+title: "Transcript: Y4B4QuDxCos"
+video_id: "Y4B4QuDxCos"
+video_url: "https://www.youtube.com/watch?v=Y4B4QuDxCos"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:22:40"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Technology"
+confidence_level: "high"
+---
+
+# Transcript: Y4B4QuDxCos
+
+- URL: https://www.youtube.com/watch?v=Y4B4QuDxCos
+- Retrieved at: 2025-12-30T11:18:05+09:00
+
+## Text
+
+- [00:00] an entire book called Barry Solder and
+- [00:02] the Magician's Rock, all about child
+- [00:04] wizards. Let's build an AI agent to
+- [00:06] write an entire book from scratch. Now,
+- [00:09] I'm not talking about a short report or
+- [00:11] like a children's book. I'm talking
+- [00:13] about an entire novel from start to
+- [00:16] finish in any genre that you can
+- [00:18] imagine. By the end of this video, we'll
+- [00:19] have an entire book that's 10 chapters
+- [00:21] long, has an entire story arc from start
+- [00:24] to finish, and is hopefully actually
+- [00:26] enjoyable to read.
+- [00:28] You simply input a book title and a
+- [00:30] genre, and it completely does everything
+- [00:32] else for you. To do this, we're going to
+- [00:35] use an automation tool called Mind
+- [00:37] Studio, the sponsor of today's video.
+- [00:39] Now, before we totally dive into the
+- [00:40] step-by-step process of how to build
+- [00:42] this thing, I do want to make a quick
+- [00:44] disclaimer. I don't actually think
+- [00:46] people should completely write books
+- [00:48] this way. If anything, you can use
+- [00:50] something like this to create the first
+- [00:51] draft, and then you should probably read
+- [00:54] through it and add your own human touch
+- [00:56] to it. But I still think there's
+- [00:57] something kind of special about a book
+- [00:59] that we know a human poured their heart
+- [01:01] and soul into. I don't know if we'll
+- [01:04] feel that same love from a book that we
+- [01:06] know AI wrote for us, at least not for a
+- [01:09] while. So, this video is designed to
+- [01:11] demonstrate what an AI agent workflow
+- [01:13] could be and to ideally get your wheels
+- [01:16] spinning on what you can create yourself
+- [01:18] with this technology. It's not meant to
+- [01:20] be a tutorial on how to put AI slot
+- [01:23] books out into the world. So, like I
+- [01:24] mentioned, we're going to use Mind
+- [01:26] Studio to build this. If you're not
+- [01:27] familiar with Mind Studio, it's this AI
+- [01:30] automation workflow with like these
+- [01:32] nodes, and each of these nodes could
+- [01:34] connect to like a different AI model.
+- [01:36] So, you can have a node where somebody
+- [01:38] inputs some text, and then the next node
+- [01:40] goes and talks to Perplexity and has
+- [01:42] Perplexity give information based on the
+- [01:44] earlier inputed text, and then it could
+- [01:46] go to another node and use GPT5, and
+- [01:48] then another node and use clot if you
+- [01:50] want. So, it's a really cool way to
+- [01:51] build this sort of linear workflow that
+- [01:54] could branch off into different areas
+- [01:56] and every step in the workflow could
+- [01:58] sort of tap a different AI model. I'm
+- [02:02] going to head over to mine studio.ai
+- [02:03] here. I'm going to click on my
+- [02:05] workspace. I'm already logged in here.
+- [02:07] If you don't have an account, go ahead
+- [02:09] and uh create one and log in. And I'm
+- [02:11] going to build a new agent. When we get
+- [02:13] in here, we can see that we basically
+- [02:15] just have a start node and an end node.
+- [02:17] There's really nothing in between yet.
+- [02:19] What we need to do to build out this
+- [02:21] automation is start adding all of our
+- [02:23] little nodes in between. I'm going to
+- [02:24] actually delete the end node for now and
+- [02:27] we'll add it back in later. But we do
+- [02:28] need to collect some text input. I want
+- [02:31] the user to give a title and a genre for
+- [02:35] what this book is going to be about. And
+- [02:36] then also an optional description. We're
+- [02:38] going to use some logic. So if they
+- [02:40] leave the description blank, AI will
+- [02:42] write a description of the book for
+- [02:44] them. And if they write their own
+- [02:46] description, then it will use the
+- [02:48] description they wrote to sort of write
+- [02:50] the book for them. We're going to go
+- [02:52] ahead and rightclick new block. And
+- [02:54] we'll start with a user input block
+- [02:56] here. Once we add this user input block,
+- [02:58] we can start to add some user inputs. I
+- [03:00] will click on this little plus here. And
+- [03:02] we will create a new user input. Our
+- [03:04] first user input is going to be the book
+- [03:07] title. So I'll select short text for the
+- [03:09] type. the variable. This is sort of the
+- [03:11] little code you're going to call upon
+- [03:13] later to pull in this text that they
+- [03:15] entered. I'm going to call this book
+- [03:17] title for label text. This is what
+- [03:19] they're going to see above the text box.
+- [03:21] So, we'll just put book title here as
+- [03:23] well. And then everything else we can
+- [03:25] pretty much leave. So, now I'm going to
+- [03:27] come back to my main flow here. Click on
+- [03:30] user input again. And we can see we have
+- [03:32] the book title user input. Now, I want
+- [03:34] them to enter a genre. So, I'm going to
+- [03:36] click plus, create new short text
+- [03:39] variable, book genre. You'll see what we
+- [03:42] do with these variables in just a
+- [03:43] minute, so don't get too hung up on this
+- [03:45] yet. And then for our label text, once
+- [03:47] again, we'll put book genre. And I want
+- [03:49] to leave this as a short text field. If
+- [03:52] I wanted, I could use a drop down and
+- [03:54] have them select a genre, but I want it
+- [03:57] to be sort of open-ended. If somebody
+- [03:58] wants to put like horror, sci-fi, they
+- [04:01] can, right? If you want to put a sort of
+- [04:03] blend of genres, I want you to be able
+- [04:05] to type that in instead of being limited
+- [04:07] to just a drop-down of genres. I'll come
+- [04:10] back to our main flow. You can see we've
+- [04:11] got our book title, our book genre. Both
+- [04:13] are set as required because we will want
+- [04:15] both of those to generate everything.
+- [04:17] And then the final thing we'll do is a
+- [04:19] book description. And this one I will
+- [04:21] leave as long text so that they can type
+- [04:23] as much as they want into the book
+- [04:25] description variable. We'll call it book
+- [04:27] description. And then label text book
+- [04:30] description. All right. Now, we go back
+- [04:32] to our main flow. And I actually don't
+- [04:34] want the book description to be
+- [04:36] required. So, I'm going to make this
+- [04:37] optional. That way, if you leave it
+- [04:39] blank, we're going to make AI write the
+- [04:41] description for you. So, now we'll go
+- [04:43] ahead and connect our nodes. All I have
+- [04:45] to do is click on one of these dots
+- [04:47] here, drag it to the other node. Now,
+- [04:49] these nodes are connected. So, this will
+- [04:51] be the first step in our workflow. If I
+- [04:53] click on publish here at the top, I can
+- [04:55] open my AI agent. And we can see that we
+- [04:58] have a simple form that it created for
+- [05:00] us. book title, book genre, book
+- [05:02] description. Let's put the title Matt's
+- [05:04] book, book genre. Fun. And I'll click
+- [05:07] next. And our workflow just ends because
+- [05:09] we haven't put any other steps in after
+- [05:10] that. Now, I want to make it so if they
+- [05:12] don't enter a description into the book,
+- [05:14] then AI will write the description for
+- [05:17] them. I'm going to rightclick, new
+- [05:18] block, and for this one, we're going to
+- [05:20] generate text. So, we have our generate
+- [05:22] text node here. And then we can enter a
+- [05:24] prompt right here. And this prompt you
+- [05:26] can enter just like you would enter into
+- [05:28] any other large language model like chat
+- [05:30] GPT or whatever. You can also select
+- [05:32] from any model you want. So check this
+- [05:34] out. If I open up the models, they
+- [05:36] pretty much have like every large
+- [05:38] language model you could possibly want
+- [05:40] to use. But right now for what we're
+- [05:43] doing when it comes to writing, I think
+- [05:45] I'm going to stick with GPT5. So we'll
+- [05:47] come to OpenAI down here and we will
+- [05:49] select GPT5 as the model that we're
+- [05:51] going to use. And then we're going to
+- [05:53] write our prompt. And for this, we want
+- [05:55] it to write a description of what this
+- [05:58] book's going to be about. So we'll go
+- [05:59] ahead and put write a book description
+- [06:03] for a book called. And this is where
+- [06:06] we're going to call upon those variables
+- [06:07] that we created earlier. So if I do the
+- [06:09] little curly brackets and I do two of
+- [06:11] them like this, it will actually show
+- [06:13] the variables that we had somebody fill
+- [06:15] in in that input earlier. Write a book
+- [06:17] description for a book called book
+- [06:19] title. And we'll pull that in. And then
+- [06:21] we also want it to pull in the genre.
+- [06:22] So, we'll put in the genre of and I'll
+- [06:26] put two curly brackets and we'll pull in
+- [06:28] book genre. I do want to give it a
+- [06:30] little bit of a guardrail. I don't want
+- [06:31] it to go too long on the description.
+- [06:32] So, we'll just say make the description
+- [06:35] three paragraphs long. And this is the
+- [06:38] prompt we're going to send a GPT5 after
+- [06:40] somebody uses this input form. Now, I
+- [06:43] don't want it to display the description
+- [06:45] to me. I actually want this description
+- [06:47] to go on to the next step where it
+- [06:49] actually starts to write the book. So
+- [06:50] for the output behavior here, instead of
+- [06:52] displaying it back to me, I want it to
+- [06:54] save to a variable. And this will be
+- [06:56] another variable that we can call just
+- [06:58] like we called on these variables
+- [07:00] earlier. So we'll go ahead and call this
+- [07:01] book description. So now that we've got
+- [07:04] this variable created where it will
+- [07:05] generate a book description if we don't
+- [07:07] have one, we need to tell our little
+- [07:09] tool here when to use that and when not
+- [07:11] to. I'm not going to connect this node
+- [07:13] yet. I'm going to add a new block here.
+- [07:15] We're going to come to view all blocks
+- [07:17] and then I'm going to use the logic
+- [07:19] block here. So we'll pull in the logic
+- [07:21] block right after the user input block.
+- [07:23] We'll connect the logic block here. And
+- [07:25] then here you basically just describe
+- [07:28] what you want to happen. There's no
+- [07:29] coding, no extra crazy stuff here. You
+- [07:31] just tell it what you want. For the
+- [07:32] context, we're going to tell it to look
+- [07:34] at book description. So we're telling it
+- [07:37] to look at the user input a book
+- [07:38] description and decide if it's blank or
+- [07:43] has a description already. So we're
+- [07:46] basically telling it what this logic
+- [07:47] block is going to do. And then condition
+- [07:50] one is book description is left blank
+- [07:54] and then it says select destination. So
+- [07:56] if the book description is left blank,
+- [07:58] we'll select our destination. We'll
+- [08:00] select generate text. So now if that
+- [08:02] book description was left blank. The
+- [08:04] logic will see oh it was left blank. We
+- [08:06] need to send it to the generate text box
+- [08:08] and write a description for it. For our
+- [08:10] second condition down here, we'll go
+- [08:12] ahead and put there is already a written
+- [08:14] description for book description. If you
+- [08:16] entered a description here, it will go
+- [08:18] on to condition two, but we don't have
+- [08:20] anywhere for it to go yet. So the next
+- [08:22] thing I want this to do is I wanted to
+- [08:23] write a table of contents for our book
+- [08:26] based on our either description that the
+- [08:28] user input or the one that was generated
+- [08:30] here. So, we'll go ahead and click new
+- [08:31] block. Generate text. I'm going to use
+- [08:34] GPT5 again for this one. And I'm going
+- [08:36] to give it this prompt. Come up with 10
+- [08:37] chapters for the book titled. And then
+- [08:39] we pull in the book title in the genre
+- [08:41] of book genre. Here's the description.
+- [08:44] The description that was either
+- [08:45] generated here or the user input. The
+- [08:48] output should just be a list of 10
+- [08:49] chapters with their number. And then
+- [08:51] here's an example of what I want the
+- [08:52] output to look like. And then for output
+- [08:54] behavior, once again, we want to save it
+- [08:56] to a variable cuz I want it to pass the
+- [08:57] chapters to the next step. I don't want
+- [08:59] it to display to me yet. And for our
+- [09:01] variable name, we'll just call it book
+- [09:03] TOC for table of contents. Then we can
+- [09:05] go ahead and connect our node here. So
+- [09:08] once it writes a description, it comes
+- [09:10] down here and writes us a table of
+- [09:12] contents based on the book description.
+- [09:14] And then we'll go back to our logic
+- [09:16] block. And if there is already a book
+- [09:18] description written in the user input,
+- [09:20] we'll go ahead and just go right here
+- [09:22] and bypass our AI generated book
+- [09:25] description. I'm going to use a lot of
+- [09:26] generate text blocks. So just to keep it
+- [09:28] simple in my mind, I'm going to rename
+- [09:30] them as I go. So if I right click here,
+- [09:32] click rename. I'll call this one
+- [09:34] generate TOC. And I will rename this one
+- [09:38] generate description. So now we know
+- [09:41] what each node does if we're just
+- [09:42] looking at this page at a glance. And
+- [09:44] one thing I like to do at this point is
+- [09:46] sort of pause and make sure things are
+- [09:48] working. So I will create a new block
+- [09:50] here and then do display content.
+- [09:52] Connect our last node to our display
+- [09:54] content. And then in the actual message,
+- [09:57] I will just put book title like that.
+- [09:59] I'm putting the hashtag so it sort of
+- [10:01] bolds it and makes it like a header.
+- [10:03] We'll put table of contents. And then
+- [10:06] we'll pull in the table of contents that
+- [10:08] it just generated. Book TOC was the
+- [10:11] variable we used. And then we'll just go
+- [10:13] ahead and pull in the description as
+- [10:15] well. So we can read the description if
+- [10:17] an AI generated one. And we'll go ahead
+- [10:19] and put book description like that. And
+- [10:21] this one I will do display to user.
+- [10:22] We're going to actually delete this
+- [10:24] node. We're just kind of checking that
+- [10:25] everything's working. So, I'll click
+- [10:27] publish. We'll go ahead and open the
+- [10:28] agent here. And now I'll put book title,
+- [10:31] The Wolf in the Woods. Book genre,
+- [10:35] fantasy, sci-fi. And then we'll leave
+- [10:38] the book description blank because we'll
+- [10:39] let AI generate it. So, I'll click next.
+- [10:42] And it's just going to go off and do the
+- [10:43] work. And we'll actually see right now
+- [10:44] it's already on the generate description
+- [10:46] step. It used the logic to realize that
+- [10:49] it didn't have a description. Now, it's
+- [10:51] moved on to the table of contents step.
+- [10:52] So, it's generating a table of contents
+- [10:54] based on everything we gave it. And then
+- [10:56] it sends us to a page with the title,
+- [10:58] The Wolf in the Woods. It did give us a
+- [11:00] table of contents. It didn't format it
+- [11:02] exactly the way I wanted, but that's
+- [11:03] okay cuz we're actually passing it as a
+- [11:05] variable where we don't actually have to
+- [11:07] see it like this, but you can see the
+- [11:09] ragged edge of Thornwood is chapter 1.
+- [11:12] Chapter 2, Trail of Drowned
+- [11:14] Constellations, etc. And then we have
+- [11:16] our book description here. So, we know
+- [11:18] everything is working so far. Let's do
+- [11:20] one last test and actually give it a
+- [11:22] description. So this time I'm going to
+- [11:24] do book title Charlie's War and then
+- [11:27] we'll call it action war. And then for
+- [11:30] the description I'm just going to put a
+- [11:32] guy named Charlie is going off to war
+- [11:38] and he's ready for battle. I just want
+- [11:40] to check that the logic does the right
+- [11:42] thing. So, if I click next, we'll see,
+- [11:44] look, it skipped the generate
+- [11:45] description and went straight to
+- [11:47] generating a table of contents because
+- [11:48] it saw there was a description already.
+- [11:50] Perfect. And then here's our
+- [11:52] description. Charlie's War, the table of
+- [11:54] contents it generated, and then the
+- [11:56] description we originally wrote in.
+- [11:57] Everything's working great so far. Let's
+- [11:59] go ahead and delete this display content
+- [12:01] module. That was just a test to make
+- [12:03] sure everything was working. Now, what I
+- [12:04] want it to do is because we've got a
+- [12:06] table of contents, I want it to write
+- [12:07] the whole story. But I don't want, you
+- [12:09] know, a whole 70,000word book yet. I
+- [12:12] just want it to write a description of
+- [12:14] every single chapter so that when we go
+- [12:16] back through and write it chapter by
+- [12:18] chapter, it knows the full story arc.
+- [12:20] So, I'm going to go ahead and do a new
+- [12:22] block, generate text. I'll rename this
+- [12:25] generate story arc. And then over here
+- [12:27] in the prompt, I'm using the prompt I'm
+- [12:29] writing a book called and then our book
+- [12:31] title in the book genre genre. Here is
+- [12:33] the description of the book. Here are
+- [12:35] the chapters and their titles. So, I'm
+- [12:37] feeding it back the table of contents
+- [12:38] that we just created. Please write a
+- [12:40] description for each chapter. Be
+- [12:42] thorough with the description of each
+- [12:43] chapter. Include character names,
+- [12:44] locations, and what happens in each
+- [12:45] chapter. It should fully form into a
+- [12:48] complete story that has a clear
+- [12:49] beginning, middle, and end. You should
+- [12:51] be able to understand the whole story
+- [12:52] and how each chapter connects to the
+- [12:54] next by reading each chapter
+- [12:56] description. And each chapter should
+- [12:57] flow into the next. And then I give it a
+- [12:59] little description of what I want the
+- [13:01] output to look like. Each chapter
+- [13:02] description should be on a new line. I
+- [13:04] want it to understand the entire story,
+- [13:06] the characters, locations they're in,
+- [13:07] and all of the plot points of the story
+- [13:09] by reading the chapter descriptions. The
+- [13:11] idea here is that we build out all 10
+- [13:14] chapters and a synopsis of all 10
+- [13:16] chapters. And then when I have it write
+- [13:17] chapter 1, it knows the whole story arc
+- [13:19] as it's writing chapter 1. And then as
+- [13:21] it writes chapter 2, it knows the whole
+- [13:23] story arc. So as it's writing each
+- [13:24] chapter, it knows where the whole story
+- [13:27] came from and where it's going. Output
+- [13:29] behavior, save it to a variable. We'll
+- [13:31] call this chapter descriptions. And then
+- [13:34] I'm going to use GPT5. We'll connect
+- [13:37] this. And so now after it writes the
+- [13:38] table of contents, it's going to go on
+- [13:40] to basically write the whole story arc
+- [13:43] based on everything we've put in so far.
+- [13:45] Title, genre, description, and table of
+- [13:47] contents. Once it's got the whole story
+- [13:49] arc, then we're going to have it start
+- [13:50] writing every single chapter one by one.
+- [13:53] And we want this to be a big book. Like
+- [13:54] I want it to be a 200page like novel
+- [13:57] type book. So I'm going to go ahead and
+- [13:58] put new block here. We're going to
+- [14:00] generate text and I'm going to rename
+- [14:02] this one chapter 1. And then for the
+- [14:05] prompt of chapter 1, I'm going to give
+- [14:06] it this description. We're writing a
+- [14:08] book called book title in the book genre
+- [14:10] genre. Here are the chapters and the
+- [14:12] description of each chapter. So I just
+- [14:14] pulled in the chapter descriptions that
+- [14:15] we created here. I don't need to pull in
+- [14:17] the full table of contents again because
+- [14:19] it's also going to be worked into the
+- [14:21] chapter descriptions. And then I put
+- [14:23] write chapter 1 in its entirety. The
+- [14:25] chapter should be a minimum of 2,000
+- [14:26] words and no longer than 5,000 words.
+- [14:29] Ensure the book is formatted properly
+- [14:31] and tells just the portion of the book
+- [14:33] from this chapter. Output behavior saved
+- [14:35] a variable variable chapter 1. And then
+- [14:38] under model settings, I'm going to stick
+- [14:40] with GPT5. We'll use this model. And
+- [14:42] then max response size. I'm going to
+- [14:44] crank that up a little bit. I want to
+- [14:45] make sure that it has enough room to
+- [14:47] write a big long chapter. Now, this is
+- [14:49] probably way more than we need, but
+- [14:51] that'll be fine. And then we can connect
+- [14:53] our story arc to chapter 1. So, this
+- [14:55] will be the next step in our process
+- [14:58] here. And then I'm going to create
+- [14:59] chapter 2. We're going to pretty much do
+- [15:01] the same thing. I'm going to make a few
+- [15:02] slight tweaks to the prompt here. Uh I'm
+- [15:04] going to rename this chapter 2. Connect
+- [15:06] it over. And then under chapter 2, some
+- [15:09] slight variations. Pretty much the same
+- [15:11] beginning. We're writing a book. Here's
+- [15:13] the chapter descriptions. Everything we
+- [15:14] wrote. Write chapter 2 in its entirety.
+- [15:16] 2,000 to 5,000 words. But then down
+- [15:19] here, I put here's chapter 1 in its
+- [15:21] entirety so you can continue the story
+- [15:23] from where it left off. And then I
+- [15:25] brought in chapter 1 that we just wrote
+- [15:27] here. So when it writes chapter 2, it
+- [15:30] has the entire story line right here in
+- [15:32] the chapter description, but it also has
+- [15:34] chapter 1. So it knows exactly where
+- [15:36] chapter 1 left off before it starts
+- [15:38] writing chapter 2. Once again, save to
+- [15:40] variable. We'll call this chapter 1.
+- [15:43] We'll use GPT5. And crank up our max
+- [15:46] response size a little bit. And now it's
+- [15:48] a matter of just copying and pasting for
+- [15:50] the next eight chapters. So, if I click
+- [15:52] on chapter 2 here, rightclick, copy, and
+- [15:56] then commandV, I could paste this in
+- [15:58] here, rename this one to chapter 3,
+- [16:01] connect our nodes, and then down here, I
+- [16:03] just need to change a few things. And
+- [16:05] I'm just going to do that for the rest.
+- [16:06] Now, I'm not going to make you watch me
+- [16:08] copy and paste seven more chapters. I'm
+- [16:10] just going to use some editing magic.
+- [16:12] And we've got all 10 chapters here.
+- [16:14] Chapter 4, chapter 5, chapter 6, chapter
+- [16:16] 7, chapter 8, chapter 9. Don't forget to
+- [16:19] change your variable name on each one
+- [16:21] here. And finally, chapter 10. I did
+- [16:23] make a slight tweak to the prompt here.
+- [16:25] Everything's the same for the most part.
+- [16:27] But then down here where I wrote write
+- [16:29] chapter 10, I put this is the final
+- [16:30] chapter of the book. So it should bring
+- [16:32] the book to its conclusion. I'm also
+- [16:34] going to do a little bit of rearranging
+- [16:35] just to kind of keep things on the
+- [16:37] screen a little bit. I'll bring chapter
+- [16:38] 1 down here like this. And let me just
+- [16:41] zoom out. And then we'll just kind of
+- [16:43] have it sort of weave back and forth so
+- [16:45] we can kind of see everything going on
+- [16:46] on the screen. I just think it's a
+- [16:48] little bit cleaner and easier to keep
+- [16:49] track of. We'll zoom back in and now we
+- [16:51] can see our full workflow here. So
+- [16:53] start, this is where the user inputs
+- [16:56] their information. Do we need to write a
+- [16:58] description? Yes or no. Then it
+- [16:59] generates a table of contents. Then it
+- [17:01] generates the entire story arc. Once all
+- [17:03] of that is generated, it goes on and
+- [17:04] writes chapter 1 all the way through
+- [17:06] chapter 10. And the only step we need
+- [17:08] now after it does all of this is just to
+- [17:10] present the book back to us. And to do
+- [17:13] that, I'm going to make a new block and
+- [17:15] we're going to display content. We'll
+- [17:17] connect our chapter 10. And this time we
+- [17:20] will keep it on display to user. For my
+- [17:23] message here, I'm just going to plug in
+- [17:25] our book title. I put this hashtag here
+- [17:27] so that it will make it like a heading.
+- [17:29] I'm going to pull in our full table of
+- [17:30] contents. This is our original table of
+- [17:32] contents that we created here, not the
+- [17:34] one with the entire story arc. And then
+- [17:35] I just put chapter 1. Pulled in our
+- [17:37] variable for chapter 1. Chapter 2 pulled
+- [17:39] in our variable for chapter 2 all the
+- [17:41] way down to chapter 10. So it's just
+- [17:43] going to pull in title, table of
+- [17:45] contents, and all of the chapters. And
+- [17:47] then under display type, you have some
+- [17:49] options. What I found to work with
+- [17:51] something this big is to give it back to
+- [17:53] me as a Word document. And then I'm
+- [17:55] going to put a new block, view all
+- [17:57] blocks, and I'm going to tell it this is
+- [18:00] where it ends. I'll put our little end
+- [18:01] block here to let it know that this is
+- [18:03] the finale of our workflow. And it's
+- [18:06] done. The whole thing is built. Now, we
+- [18:08] can simply click publish, open up our AI
+- [18:10] agent here, and we can plug in a book
+- [18:12] title, a book genre, and if we want a
+- [18:15] book description for a book title, let's
+- [18:17] do the winds of winter. If you're not
+- [18:20] familiar, that's what the next book in
+- [18:22] the Game of Thrones series is supposed
+- [18:24] to be called. Let's get it to write it
+- [18:26] for us. For book genre, we'll go
+- [18:28] fantasy. And then I'll leave the book
+- [18:30] description blank. Let the AI come up
+- [18:32] with the book description for us. And
+- [18:33] then we'll click next. and hands off. We
+- [18:36] just let it go. We can see exactly what
+- [18:38] step it's on. We could watch it work
+- [18:40] through the workflow if we want. It will
+- [18:42] take a few minutes. I mean, each one of
+- [18:44] these times it is generating a step.
+- [18:47] It's going to take a minute or so. So,
+- [18:48] this whole thing could take a good 10
+- [18:50] minutes to run. Luckily, we have the
+- [18:52] power of editing. And here's what our
+- [18:54] output looks like. The winds of winter,
+- [18:56] our full 10 chapter table of contents,
+- [18:59] and then chapter 1, the first black
+- [19:01] gale. And then here's our entire chapter
+- [19:04] 1. Look at this. It's got a pretty long
+- [19:08] chapter here. I'm still looking for
+- [19:09] chapter 2. All right. Finally, here's
+- [19:12] chapter 2. Chapter 2, Brand of the Sky
+- [19:14] Trader. And when I actually open this up
+- [19:16] in a Word doc, here's what it looks
+- [19:18] like. And down at the bottom, we can see
+- [19:20] it's 205 pages and 70,000 words. It
+- [19:24] wrote a full novel for us. Let's write
+- [19:26] one called The Wolf of Fire Wall Street.
+- [19:29] And we'll make this one science fiction.
+- [19:32] We'll click next. And it will go off and
+- [19:34] write our book for us. That's what
+- [19:36] agents do. You tell it what you want.
+- [19:38] And it just goes and does the thing. And
+- [19:40] here's the output. We have a 10 chapter
+- [19:42] book called The Wolf of Firewall Street.
+- [19:45] Chapter 1, The Opening Bell Blackout.
+- [19:47] And we can see we've got some pretty
+- [19:50] solid long chapters with some good
+- [19:52] dialogue. And I mean, I read through
+- [19:54] some of this and it's a very, very
+- [19:56] readable, decent book. Let's do one
+- [19:58] called Barry Solder and the Magician's
+- [20:01] Rock. And for book genre, again, you
+- [20:04] could put whatever you want here. So,
+- [20:06] let's put young adult fantasy about
+- [20:09] child wizards. And let's see what we get
+- [20:11] out of this. Here we go. An entire book
+- [20:13] called Barry Solder and the Magician's
+- [20:15] Rock. All about child wizards. And
+- [20:18] ideally, it's a little bit easier to
+- [20:19] read cuz it's written for young adults.
+- [20:22] Barry Solder can tell what time it was
+- [20:24] by the timber of the city. The first
+- [20:26] whistle blew low and tired. When the
+- [20:27] mills woke, the noon bell was relieved,
+- [20:30] etc., etc. I mean, it's definitely a
+- [20:33] lower reading level than the previous
+- [20:35] books we wrote because we told it it's
+- [20:36] for young adults. And so, that is the
+- [20:39] entire workflow where you could build an
+- [20:41] automation that can write an entire book
+- [20:44] for you from scratch. Again, I don't
+- [20:47] think people should be going out and
+- [20:49] writing books like this. This was more
+- [20:51] of me wanting to experiment with Mine
+- [20:53] Studio to see if I could do it. This is
+- [20:55] more so you can be inspired and see the
+- [20:57] types of workflows that you can go build
+- [21:00] with Mind Studio if you want. One last
+- [21:02] thing we can do is when we're inside of
+- [21:05] this workflow, if I click up on the top
+- [21:07] here, we can name this novel writing
+- [21:10] agent. We'll publish the change up here.
+- [21:13] And then when we go back to our various
+- [21:15] agents here, we will actually know what
+- [21:18] this one is called. The sky is the limit
+- [21:20] to the types of automations you can
+- [21:22] build with this. This is one of my
+- [21:24] favorite things about AI. Now, whatever
+- [21:27] type of work you do, you can create
+- [21:29] agents and automations and workflows and
+- [21:31] just really cool things to make it so
+- [21:33] that whatever you're doing becomes a
+- [21:35] heck of a lot easier. It just cuts out
+- [21:37] some of the steps for you. That's what I
+- [21:39] love about Vibe Coding. That's what I
+- [21:40] love about these agent workflow
+- [21:42] builders. I can find little bottlenecks
+- [21:44] in my own business and life and build
+- [21:46] little agents to make those things
+- [21:48] easier and faster for me. And Mind
+- [21:50] Studio is perfect for that kind of
+- [21:51] stuff. So, I want to thank them again
+- [21:53] for sponsoring this video. And hopefully
+- [21:55] you got some ideas, some inspiration of
+- [21:57] what else you can do with Mine Studio.
+- [21:59] Thank you so much for tuning in and
+- [22:01] nerding out with me. This is kind of
+- [22:02] more of that like old school tutorial
+- [22:04] that I used to make more of. Hoping to
+- [22:05] do this type of video more often as
+- [22:07] well. So, if you like this kind of
+- [22:08] video, you want to see more automations
+- [22:10] and workflows and how to build this kind
+- [22:11] of stuff, let me know in the comments
+- [22:13] and uh I'll be happy to make this kind
+- [22:15] of stuff cuz this is a blast for me. So,
+- [22:16] thanks again for hanging out. Thanks for
+- [22:18] nerding out. Really, really appreciate
+- [22:19] you. Hopefully, I'll see you in the next
+- [22:21] one. Bye-bye. Thank you so much for
+- [22:23] nerding out with me today. If you like
+- [22:24] videos like this, make sure to give it a
+- [22:26] thumbs up and subscribe to this channel.
+- [22:28] I'll make sure more videos like this
+- [22:29] show up in your YouTube feed. And if you
+- [22:31] haven't already, check out
+- [22:32] futuretools.io where I share all the
+- [22:34] coolest AI tools and all the latest AI
+- [22:37] news. And there's an awesome free
+- [22:38] newsletter. Thanks again. Really
+- [22:40] appreciate you. See you in the next one.

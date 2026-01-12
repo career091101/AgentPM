@@ -1,0 +1,657 @@
+---
+title: "Hello all, my name is Krishna and welcome to my YouTube channel."
+video_id: "ObAFqcuX9MA"
+video_url: "https://www.youtube.com/watch?v=ObAFqcuX9MA"
+speaker: "Krishna"
+channel: "YouTube"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "Technology", "Tutorial", "Development"]
+summary: |
+  Hello all, my name is Krishna and welcome to my YouTube channel
+  So guys, in this specific video, we are going to discuss about this amazing ID which is called as stray AI and uh if I talk about Trey AI, this is an amazing ID for collaborative development and intelligence automation
+  uh I have been using a lot of different ids and uh you know I have really found out this particular ID recently and it's quite amazing uh because I'll be talking about the recent announcement that they have specifically made and uh how this uh ID is super amazing in terms of wipe coding in terms of uh implementing any kind of projects and uh not only that it has a lot of features like agents custom agents it also has features wherein you can specifically use MCP integrated with any kind of services
+key_points:
+  - "of all let me talk about some of the very important features that it actually has"
+  - "features that it actually has"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:41:11+09:00"
+---
+
+# Transcript: ObAFqcuX9MA
+
+- URL: https://www.youtube.com/watch?v=ObAFqcuX9MA
+- Retrieved at: 2025-12-30T10:41:11+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] in this specific video, we are going to
+- [00:06] discuss about this amazing ID which is
+- [00:07] called as stray AI and uh if I talk
+- [00:10] about Trey AI, this is an amazing ID for
+- [00:12] collaborative development and
+- [00:14] intelligence automation. uh I have been
+- [00:17] using a lot of different ids and uh you
+- [00:20] know I have really found out this
+- [00:21] particular ID recently and it's quite
+- [00:24] amazing uh because I'll be talking about
+- [00:26] the recent announcement that they have
+- [00:27] specifically made and uh how this uh ID
+- [00:31] is super amazing in terms of wipe coding
+- [00:34] in terms of uh implementing any kind of
+- [00:36] projects and uh not only that it has a
+- [00:40] lot of features like agents custom
+- [00:41] agents it also has features wherein you
+- [00:44] can specifically use MCP integrated with
+- [00:46] any kind of services. Um along with that
+- [00:49] you can also create your own custom
+- [00:50] agents and many more things. So all
+- [00:52] these things will be discussed in this
+- [00:54] specific video. We'll break down it.
+- [00:56] We'll be implementing some amazing end
+- [00:58] to-end solutions. I'll be doing that
+- [01:00] kind of wipe coding in front of you and
+- [01:02] I'll be showing you how we can probably
+- [01:03] use this specific ID. Uh please make
+- [01:06] sure that you watch this video till the
+- [01:07] end because it'll be quite amazing uh
+- [01:09] just by seeing the features of this
+- [01:10] particular uh ID. So here uh you can see
+- [01:14] that as soon as you open or you go to
+- [01:16] Trey AI wra
+- [01:19] uh here it is basically written
+- [01:20] collaborate with intelligence uh this TA
+- [01:23] ID integrate seamlessly into your
+- [01:25] workflow collaborating with you to
+- [01:27] maximum performance and efficiency. Now
+- [01:29] first of all let me talk about some of
+- [01:31] the very important features that it
+- [01:32] actually has. Okay. So if you probably
+- [01:35] go ahead and see you'll be able to see
+- [01:37] that TAI enables natural conversation to
+- [01:40] unlock uh possibilities for human AI
+- [01:43] collaboration. Here you can just use
+- [01:45] agents add the rate agents hash context
+- [01:48] and Trey will get your work done. Uh why
+- [01:51] this we will be using add the rate agent
+- [01:53] basically means if you're creating your
+- [01:54] own custom agents you want to
+- [01:55] specifically perform any kind of task at
+- [01:58] that point of time you can just directly
+- [01:59] use this. If you want to provide context
+- [02:01] different kind of context let's say the
+- [02:03] context of your code repository any
+- [02:05] documents any files uh you just need to
+- [02:08] probably use hash context again I will
+- [02:10] be showing you everything this uh once I
+- [02:12] do the coding part okay so one of the
+- [02:15] most important feature here you can see
+- [02:16] that uh here you'll be able to customize
+- [02:18] your own AI agent uh it introduces a
+- [02:21] powerful configurable agent system
+- [02:23] design for openness here you can just
+- [02:25] see some of the examples as soon as you
+- [02:26] select a particular agent you'll be able
+- [02:28] to perform any kind of task and you'll
+- [02:30] be uh like having a kind of conversation
+- [02:33] so that that agent specifically does
+- [02:34] that particular task. Uh similarly here
+- [02:37] you also have more tools and more
+- [02:38] capabilities uh again uh due to and as
+- [02:42] you all know how MCP is becoming popular
+- [02:44] here you can probably go ahead and add
+- [02:46] any MCP which will be using any kind of
+- [02:48] other external tools or services that is
+- [02:50] provided by any company and you can
+- [02:52] integrate it very much easily in your
+- [02:54] entire code repository uh whichever
+- [02:57] applications you are specifically
+- [02:58] developing. So here uh I will be showing
+- [03:00] you how this can also be done as we go
+- [03:02] ahead. Okay. Along with this uh um the
+- [03:06] most amazing part that I probably saw in
+- [03:09] this ID is that you'll be able to
+- [03:11] provide context from workspace from
+- [03:13] folders files code web even if you want
+- [03:16] like uh external data right or external
+- [03:19] uh information that is available in the
+- [03:20] web that also you can actually provide
+- [03:22] while we are doing the coding right
+- [03:24] along with that you can also integrate
+- [03:25] with documents and many more things. So
+- [03:27] the first thing uh what we'll do is that
+- [03:29] we'll just go ahead and download this uh
+- [03:31] for downloading you just need to go
+- [03:32] ahead and click on download trade tray
+- [03:35] and u this tray id you know once you
+- [03:38] probably download here you can see that
+- [03:41] it will be downloading an exe file all
+- [03:43] you have to do is that once the download
+- [03:44] is completed just double click just
+- [03:47] click on next next and automatically
+- [03:49] like how you probably go ahead and
+- [03:50] install the other ids like VS code or
+- [03:52] cursor you can also do the installation
+- [03:54] right once you do this uh what I have
+- [03:57] actually done is that I have already
+- [03:58] created a basic uh project folder or
+- [04:02] workspace uh and here you can see on the
+- [04:05] left hand side uh this is how it looks
+- [04:07] like uh just to be more precise here is
+- [04:10] your workspace uh here is what you'll be
+- [04:13] specifically writing let's say if there
+- [04:14] is av file here you'll be having this
+- [04:17] this is your venv virtual environment
+- [04:19] that I've already created um any kind of
+- [04:22] coding that you're basically doing
+- [04:23] you'll be able to see it over here uh
+- [04:26] this is the most amazing part uh with
+- [04:28] respect to all the functionalities that
+- [04:30] I shown you right right through the in
+- [04:31] the web browser of Trey AI uh all those
+- [04:34] functionalities you'll be able to see
+- [04:35] over here you'll be able to add an agent
+- [04:37] you'll be able to add context images
+- [04:39] anything along with this here you'll be
+- [04:41] able to see lot different models so
+- [04:43] first of all let me talk about the
+- [04:44] agenda like first of all we are just
+- [04:46] going to go ahead and do the
+- [04:47] installation and set up the project then
+- [04:49] we are going to go ahead and build some
+- [04:50] amazing lang chain AI chatbot assistant
+- [04:53] then we'll be working with inbuilt and
+- [04:55] custom agents Then we'll be seeing how
+- [04:57] we can enable MCP for deep integration
+- [04:59] with some external services or tools.
+- [05:02] Then uh we'll also understand that how
+- [05:04] we can provide code repositories and
+- [05:05] external data uh as an context you know
+- [05:08] when we are specifically working with
+- [05:10] the agent. So all those things will be
+- [05:12] probably discussed over here. Uh here
+- [05:15] you can see that you can add your agent,
+- [05:16] you can also add your custom agent.
+- [05:18] Everything I'll be showing you step by
+- [05:19] step as we go ahead. Okay. Now the first
+- [05:21] thing over here is that uh as soon as
+- [05:23] you create a virtual environment uh what
+- [05:25] I will do is that I will just go ahead
+- [05:27] and ask any questions over here right
+- [05:30] I'll just say that hey uh build me a
+- [05:34] streamllet streamllet lang
+- [05:37] chain chatbot assistant let's
+- [05:40] say chatbot assistant a simple
+- [05:44] streamlate langchain chatbot assistant
+- [05:48] with with grock
+- [05:51] Quen model. Okay, I'll just use quen
+- [05:54] model. Quen model. Uh, and I'll just say
+- [05:57] that hey, just go ahead and probably
+- [05:58] create this. Let's see. Uh, it's just
+- [06:00] like I'm trying to probably do a wipe
+- [06:02] coding over here. So, I've just asked
+- [06:03] this specific question. And again, here
+- [06:06] you have multiple options like you can
+- [06:07] select any of this built-in models. You
+- [06:09] can go ahead with cloudy 3.7 on it. You
+- [06:11] can go with 3.5. You want to probably go
+- [06:14] ahead and use Germany 2.5, you can
+- [06:16] basically do it. uh let's say that I'll
+- [06:18] just go ahead with the cloud a 3.7s on
+- [06:20] it and I'll just go ahead and press
+- [06:21] enter. Now what will happen is that uh
+- [06:23] as soon as I press enter uh this really
+- [06:25] gives you a kind of like a wipe coding
+- [06:27] because it knows the entire context uh
+- [06:29] whatever I have actually created over
+- [06:31] here and all right so here you can see I
+- [06:33] need to check if there is an env file
+- [06:35] see all this entire code repository it
+- [06:37] is able to take it as a context and
+- [06:39] it'll be able to probably see and
+- [06:41] probably find out our patterns code
+- [06:43] understand what we have actually done
+- [06:45] the development till now but still you
+- [06:47] can see requirement txt file is not
+- [06:49] created it'll tell you that hey you need
+- [06:51] to probably go ahead and create it and
+- [06:52] all many more things. So here you can
+- [06:54] see all the steps has been done. Um here
+- [06:57] they have created a virtual environment
+- [06:59] which I have already done it. So I don't
+- [07:00] have to probably do it. Uh install
+- [07:02] required packages like let's say
+- [07:03] streamlate there's this langin grock and
+- [07:06] python.env then you have env file where
+- [07:09] you have your grock uh then you create
+- [07:12] the app. py file with all the code that
+- [07:14] is basically written over here. So all
+- [07:16] these things are basically done. So
+- [07:18] let's just go ahead and do the step by
+- [07:19] step. So first of all, I need to
+- [07:21] probably go ahead and just create this
+- [07:22] app. py. So I'll just go ahead and click
+- [07:24] on apply. Right. So once we do it, I'll
+- [07:26] go ahead and accept it. So this is my
+- [07:28] code that is entirely written. You can
+- [07:30] see that I have probably created a quen
+- [07:32] chatbot. You can also go ahead and
+- [07:34] verify whether we are just going to use
+- [07:35] any quen model or not. Okay. So in order
+- [07:38] to just confirm this, what I will do is
+- [07:39] that I'll just go to my
+- [07:43] console.grock.com. Right. So I'll just
+- [07:45] go to this uh sorry this was a spelling
+- [07:48] mistake. No worries. I'll just go to
+- [07:51] console.grog.com. I will go to my
+- [07:53] playground and let's select any model.
+- [07:55] So let's say I will just go ahead and
+- [07:56] use this quen qw 32 billion parameter.
+- [07:59] We need to just verify this. Okay. So
+- [08:01] quen 2 32
+- [08:05] billion and it should be it should be qw
+- [08:11] right I guess. Let's see see let's see
+- [08:12] the name. Quen qw 32 billion. Okay. So
+- [08:16] it should be QWQ 32 billion. So I'm just
+- [08:20] going to specifically use this
+- [08:21] particular model. I'm using Chad Gro uh
+- [08:23] that is with respect to lang chain and
+- [08:25] all the information is over here. Uh the
+- [08:28] next thing is that I need to also go
+- [08:29] ahead and create my env file with this
+- [08:31] name. So I'll just go ahead and apply it
+- [08:33] over here. You can also go ahead and
+- [08:35] directly apply it. So here you can see
+- [08:36] that uh you just need to go ahead and
+- [08:40] accept it. Here again you need to just
+- [08:42] go ahead and mention your API key,
+- [08:44] right? and API key. I hope everybody
+- [08:46] knows how to probably go ahead and
+- [08:47] create it. So in one of my project, you
+- [08:50] know, uh I had probably just copied the
+- [08:52] API key. Let me just go ahead and open
+- [08:55] it just quickly. So here what I'm
+- [08:58] actually going to do is that I'll just
+- [09:00] go ahead and uh copy my API key. Okay,
+- [09:04] again I don't want to show you the API
+- [09:06] key itself. So quickly I will just go
+- [09:08] ahead and copy it and I'll save it.
+- [09:10] Okay. So this is my API key which is
+- [09:12] done and uh my API key is also ready.
+- [09:15] Okay. Then uh you can see that uh here
+- [09:18] uh it is saying menu install the
+- [09:19] required packages. What I will do? I'll
+- [09:21] just go ahead and copy this and you can
+- [09:23] also give the instruction. You can say
+- [09:24] hey go ahead and probably create a
+- [09:25] requirement.txt file but I will do it
+- [09:28] manually because I like to write some
+- [09:30] amount of code instead of completely
+- [09:32] depending on the wipe coding part you
+- [09:35] know. So here uh you can see that I
+- [09:37] required streaml then you have langen
+- [09:39] langen gro python.env VNV and I'm just
+- [09:42] going to go ahead and save the file.
+- [09:43] Right? So almost everything is done. All
+- [09:46] you have to do is that just go ahead and
+- [09:47] write this particular code. And before
+- [09:49] that let's activate the VNV. So I will
+- [09:51] say hey activate Venv. Okay. And then I
+- [09:56] am just going to go ahead and do the
+- [09:58] installation. So pip install minus r
+- [10:02] requirement.txt because it will already
+- [10:04] it'll tell you see over here it'll tell
+- [10:06] you to probably go ahead and do the
+- [10:08] installation each and everything. So if
+- [10:10] you are a coder right I don't had to
+- [10:11] write much lines of code because I've
+- [10:14] already done this kind of task. So it
+- [10:15] becomes very much easy for me to
+- [10:18] probably just go ahead and explore
+- [10:19] things try to see that what things are
+- [10:21] basically going and the best part over
+- [10:22] here is that over here the code is with
+- [10:24] respect to the recent things right so if
+- [10:26] I'm using cloudy 3.7
+- [10:28] uh it is a very good platform with
+- [10:30] respect to coding and all right so here
+- [10:32] you'll be able to see that I'm able to
+- [10:33] have this conversation buffer memory
+- [10:35] which is available as a feature in
+- [10:37] langin and all right I'm using the gro
+- [10:39] API key and I'm probably using this kind
+- [10:42] of stuff right now uh after this you
+- [10:45] know once Once the installation
+- [10:46] basically happens, I can probably go
+- [10:47] ahead and do the installation. We have
+- [10:50] spoken till now all this about this
+- [10:51] particular built-in models. Here you
+- [10:53] also have let's say that you want to go
+- [10:54] ahead and add your own custom or any
+- [10:57] other model. So you can just go ahead
+- [10:58] and click on add model. You can choose a
+- [11:00] provider. Let's say I want to probably
+- [11:02] go ahead with Alibaba cloud. I want to
+- [11:04] go ahead and select the model. Just
+- [11:05] provide the API key and you'll be able
+- [11:07] to add the model. Let's say any of the
+- [11:08] model that is not available. Uh right,
+- [11:11] you can also go ahead and add it from
+- [11:13] here. Right? Let's say I want to go
+- [11:14] ahead and use anthropic. I want to use
+- [11:16] any other model like let's say cloud for
+- [11:18] it. I just need to provide my API key
+- [11:19] over here and add the model. Right?
+- [11:21] Inbuilt model is also available. And
+- [11:23] here you'll also be able to see that
+- [11:24] these are my built-in models and this
+- [11:26] are your custom models which you can
+- [11:28] basically go ahead and add it. Now this
+- [11:30] is a very good thing. Now you can see
+- [11:31] that entire installation is basically
+- [11:33] done. Now all I have to do is that just
+- [11:35] go ahead and run it and let's see
+- [11:37] whether something will get executed or
+- [11:38] not. So I'm just going to go ahead and
+- [11:40] write u streamlun app. py and let's see
+- [11:44] whether it will get opened or not.
+- [11:46] Right? So here I did not even work so
+- [11:49] hard related to this. Now here you can
+- [11:51] see yeah my entire chatbot is over here.
+- [11:54] Now you can probably do any kind of
+- [11:55] conversation and you can probably
+- [11:57] execute your code right. Uh once this is
+- [12:00] done you know so let's say that now let
+- [12:02] me just go ahead and show you like we
+- [12:03] have already discussed about the
+- [12:05] context. Now let's go ahead and create
+- [12:06] our own custom agent right. So here you
+- [12:09] have this agent right and in agent you
+- [12:12] can just directly go ahead and use uh
+- [12:14] the inbuilt agents like built-in agents
+- [12:16] are over here you can also go ahead and
+- [12:18] build with MCP now when you're building
+- [12:21] with MCP here you have lot of inbuilt
+- [12:23] tools and you can also add an MCP tool
+- [12:26] right so uh inbuilt tools I've already
+- [12:29] shown you that we can use web search we
+- [12:32] can probably use terminal web search is
+- [12:33] just like an external search engine
+- [12:35] right and you can also use the file
+- [12:36] system so first of all let me just go
+- [12:38] ahead and show you with respect to uh
+- [12:40] create building with MCP when we try to
+- [12:43] use this MCP tools itself right so here
+- [12:45] uh let's say that I want to go ahead and
+- [12:47] add more tools so here uh let's say one
+- [12:49] of the tool that I really want to add uh
+- [12:52] is like duck duck go search right so
+- [12:54] duck go search if you don't know guys it
+- [12:56] actually helps us to probably do an
+- [12:59] internet search uh and get the
+- [13:01] information which is the recent
+- [13:02] information that is available in the
+- [13:04] internet so once you probably let's say
+- [13:06] that you want to probably go ahead and
+- [13:07] use duck go search Along with that if
+- [13:08] you just go ahead and see there are a
+- [13:10] lot of different different MCP
+- [13:12] integrations that is already available
+- [13:14] from Google drive to radius to brave
+- [13:16] search to get file system fetch blender
+- [13:20] file crawl playrite everything you
+- [13:23] basically have. So it really supports a
+- [13:26] huge number of different kind of MCP
+- [13:28] servers where you can directly integrate
+- [13:30] with your coding solutions right when
+- [13:32] you are probably doing that and this
+- [13:34] gives you the right kind of feeling for
+- [13:35] the wipe coding right I don't have to
+- [13:37] probably go ahead and see uh about
+- [13:39] different different uh MCP servers and
+- [13:41] how to probably integrate it let's say
+- [13:42] that I want to go ahead and use duck dug
+- [13:44] go search you can also use tavly API if
+- [13:46] you really want to go ahead now here you
+- [13:49] can see that you will be able to see
+- [13:50] that hey we just we need to go ahead and
+- [13:52] add this particular code once we add
+- [13:54] this coder then we will be able to
+- [13:56] integrate with the duckgo search. If you
+- [13:58] also want to probably see that hey I
+- [13:59] want to probably go ahead and see to the
+- [14:01] introduction page about the duck go
+- [14:03] search MCV server so I can just go ahead
+- [14:05] and click over here and here you can see
+- [14:07] that amazingly like how we serve in the
+- [14:10] web browser right all the information is
+- [14:11] also visible over here and if you go
+- [14:13] down here uh here you can see that
+- [14:15] you'll be also able to get the MCP
+- [14:17] server itself right so that is the same
+- [14:19] information that is available this is
+- [14:21] with respect to uvx if you go down
+- [14:23] you'll be also able to see with respect
+- [14:24] to uh npx and all so how that is a basic
+- [14:28] way of integrating MCP servers right so
+- [14:30] what I will do I'll just go ahead and
+- [14:32] use this and I'll just go ahead and
+- [14:33] confirm it now before confirming it is
+- [14:36] always necessary that you just go you
+- [14:38] have to go ahead and paste this right so
+- [14:39] I'll just go to this introduction page
+- [14:41] if I go down I will be able to see
+- [14:44] somewhere uh about the npx or uvx so
+- [14:46] here you can see I have the information
+- [14:48] about uvx I'll just go ahead and paste
+- [14:51] it over here right and I'll just go
+- [14:53] ahead and confirm it if there is an API
+- [14:54] key that is required you can also go
+- [14:56] ahead and add the API key you have to
+- [14:57] create the API key. Let's say for Tavi
+- [14:59] you can create an API key by going to
+- [15:01] the Tavi API website. Then I can just go
+- [15:03] ahead and click on I understand and your
+- [15:05] duck go search has got integrated. Right
+- [15:08] now if I go back over here uh when I'm
+- [15:11] building with MCP so now here you'll be
+- [15:14] able to see that I have this duck go
+- [15:15] search. I also have one more tool that I
+- [15:18] have already integrated that is called
+- [15:19] as perpeter. So if you probably go ahead
+- [15:21] and see uh what exactly perpetrator is
+- [15:23] all about here you'll be able to see
+- [15:24] that this all functionality it'll be
+- [15:26] able to do. If you see about duck duck
+- [15:28] go search here you'll be able to search
+- [15:30] and fetch the content right so what you
+- [15:32] can do is that after going ahead over
+- [15:34] here so after going over here what we
+- [15:36] are basically going to do is that I'll
+- [15:37] just go ahead and ask for some questions
+- [15:39] and already inside this builder with MCP
+- [15:42] if I just go ahead and click you can see
+- [15:43] that duck go search is also there right
+- [15:45] as a tool in MCP along with that it also
+- [15:48] has a built-in web search we will but we
+- [15:50] will try to specifically use this duckgo
+- [15:53] search MCP tool so I'll say hey uh
+- [15:56] provide
+- [15:58] me the recent AI news. uh use doug duggo
+- [16:05] search for the retrieval or use doug dug
+- [16:08] so go search for the web search itself
+- [16:10] or I'll just say use doug duggo search
+- [16:13] that's it so let's see whether it'll be
+- [16:15] able to analyze and it'll be able to
+- [16:17] call the right MCP tool uh out there
+- [16:20] right so automatically here you can see
+- [16:22] now this dug go search is being called
+- [16:24] and it is basically showing that hey
+- [16:26] query latest artificial news
+- [16:28] breakthrough development and it is
+- [16:30] asking me for a permission
+- [16:31] I'll just go ahead and click on run and
+- [16:33] automatically it should be able to give
+- [16:36] you this entire response out here right
+- [16:39] and again it is asking me uh let's get
+- [16:42] more detailed information of science
+- [16:44] daily article so it is basically going
+- [16:45] and retrieving or scrapping the data or
+- [16:48] searching the data from this particular
+- [16:49] website and automatically it is planning
+- [16:51] the next step and here you can see all
+- [16:54] the information is basically getting
+- [16:55] displayed so specifically in builder
+- [16:58] with MCP right uh here we have
+- [17:00] integrated ed with one NCP that is
+- [17:02] called as duck go search and here we are
+- [17:04] also able to probably go ahead and uh
+- [17:07] you know specifically call this MCP
+- [17:10] server out here and you'll be able to
+- [17:11] probably get the
+- [17:13] information so guys now what we are
+- [17:15] basically going to do is that we will
+- [17:16] use this context okay now see uh this is
+- [17:19] an amazing feature out there uh that is
+- [17:22] available in treeai let's say that we go
+- [17:24] ahead and select this context in this
+- [17:26] context we can add code as a context we
+- [17:28] can add file as a context we can add
+- [17:30] folder as a context we can add workspace
+- [17:32] doc and web so this web will be nothing
+- [17:34] but chat based on web search right let's
+- [17:37] say I go ahead and use code and in this
+- [17:39] specific code u there are some functions
+- [17:42] uh that has been seen over here and this
+- [17:44] functions is basically coming from this
+- [17:46] app py let's say that I go ahead and
+- [17:49] probably use this function get llama
+- [17:51] response okay so uh this get llama
+- [17:54] response is a context that I'm
+- [17:56] specifically giving over here and I'll
+- [17:57] say that hey uh please explain contain
+- [18:00] me the entire code uh for this function
+- [18:05] and also
+- [18:06] provide also provide suggestions. So
+- [18:10] once I write this and I press enter you
+- [18:12] know so here you'll be able to see that
+- [18:14] it will be able to retrieve the context
+- [18:16] from this app.py py file and now it will
+- [18:19] be even able to provide us the entire
+- [18:22] information about these functions the
+- [18:24] explanation out here and it'll also
+- [18:26] provide some of the good suggestions
+- [18:27] that it has you know like error handling
+- [18:30] you can see over here as model
+- [18:32] selections you know and there are many
+- [18:34] more information that you'll be able to
+- [18:36] see over here and this information is
+- [18:38] just like validating with the help of uh
+- [18:41] the features that are available with
+- [18:43] respect to context and again here you
+- [18:45] are using the default agent to do that
+- [18:46] Right? Uh an amazing feature out there.
+- [18:49] Similarly, you can go ahead and provide
+- [18:51] context with respect to files, folders,
+- [18:53] workspace, uh doc anymore as such.
+- [18:56] Right? And again, you can go ahead and
+- [18:57] try out with different different
+- [18:58] built-in models also like cloudy 3.7
+- [19:01] senator 3.5 sonnet or cloud for set
+- [19:05] itself. Now, the next step is that we'll
+- [19:07] just go ahead and go ahead and create
+- [19:08] our own custom agent. Right? So, right
+- [19:10] now when we clicked on agent, one was
+- [19:12] like the built-in tools that you have,
+- [19:15] right? One is builder with MCP. Right
+- [19:18] now let's say that I want to go ahead
+- [19:19] and create my own custom agent. Now this
+- [19:20] custom agent I want to probably go ahead
+- [19:22] and say hey this should be a web search
+- [19:24] or it can be calculator. Here you can
+- [19:26] probably go ahead and write a prompt.
+- [19:28] I'll say that hey um you are an
+- [19:34] assistant who will
+- [19:39] perform web search and provide a
+- [19:44] summary. Okay, provide a summary. Let's
+- [19:46] say that this is what is my prompt,
+- [19:49] right? And here you can see that what
+- [19:50] all tools it has. So let's say that I
+- [19:53] don't want to use this web search. I I
+- [19:55] don't want to use any terminal or file
+- [19:57] system. I just want to go ahead and use
+- [19:58] this duck go search, right? So I will
+- [20:00] just go ahead and click on create and
+- [20:03] I'll say the agent is created the
+- [20:05] creation successfully. Add the rate
+- [20:06] agent in the conversation to use it. So
+- [20:09] I'll just say use now. Now see add the
+- [20:11] rate web search. If you just go ahead
+- [20:12] and write add the rate web search, you
+- [20:14] should be able to get it. So I want to
+- [20:15] probably go ahead and directly do the
+- [20:16] web search and I'll ask hey u what
+- [20:20] is the agentic AI right? So this is my
+- [20:24] question that I basically asking. Now
+- [20:25] what is basically going to happen it is
+- [20:27] just going to go ahead and probably tell
+- [20:29] me to okay we are making a query to dug
+- [20:32] go search. So it'll ask for the human
+- [20:34] being like uh obviously uh the approval
+- [20:37] of human right that is me uh whether we
+- [20:40] should run this or not and always make
+- [20:41] sure that you have to always uh see if
+- [20:44] you just go ahead and auto run the
+- [20:45] command with MCP tool if you just enable
+- [20:47] it it'll not even ask you the permission
+- [20:48] but don't do that it is necessary that
+- [20:51] human should also give a permission to
+- [20:52] this right so that it does not run by
+- [20:55] its own you know so once I go ahead and
+- [20:57] click on run now it is just going to go
+- [20:59] ahead with the next step and it is
+- [21:00] probably going to provide you the entire
+- [21:02] that information. So this is how you
+- [21:05] also go ahead and create a custom agent.
+- [21:06] You can go ahead and do that. Uh as said
+- [21:09] you can also go ahead and add your model
+- [21:11] your own custom model. Just select the
+- [21:12] provider, provide the API key and you
+- [21:14] should be able to use it. Right? So we
+- [21:16] have spoken about uh agents and now here
+- [21:19] you can see that automatically in the
+- [21:21] auto run also you can just set it up so
+- [21:23] that you will be able to run your agent
+- [21:25] automatically. Right? Uh here also you
+- [21:27] have models. So if I probably go ahead
+- [21:28] and see with respect to this you know we
+- [21:30] have almost done each and everything we
+- [21:32] built a lang chain AI assistant you can
+- [21:34] build any kind of AI assistant
+- [21:36] applications whatever along with front
+- [21:38] end you could see that I did not
+- [21:40] probably do much right you can also make
+- [21:42] those changes uh you have an option of
+- [21:44] this inbuilt and custom agents also we
+- [21:47] have also seen how we can enable MCP
+- [21:49] code repositories external data can how
+- [21:51] it can also be provided in a context um
+- [21:54] as we had probably created custom agents
+- [21:57] with respect to the web search and all.
+- [21:59] So yeah, I hope you like this particular
+- [22:01] video and uh I definitely liked Treyai.
+- [22:03] Again, thank you for sponsoring this
+- [22:06] particular video. Definitely bringing it
+- [22:07] in front of the entire people out there.
+- [22:10] Definitely go ahead and try it out. All
+- [22:11] the information regarding this will be
+- [22:12] given in the description of this
+- [22:14] particular video. This was it from my
+- [22:15] side. I will see you in the next video.
+- [22:17] Thank you. Take care. Bye-bye.

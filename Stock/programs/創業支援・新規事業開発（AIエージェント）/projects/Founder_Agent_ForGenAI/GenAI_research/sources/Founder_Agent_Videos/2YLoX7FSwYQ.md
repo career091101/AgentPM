@@ -1,0 +1,393 @@
+---
+title: "YouTube Video: 2YLoX7FSwYQ"
+video_id: "2YLoX7FSwYQ"
+video_url: "https://www.youtube.com/watch?v=2YLoX7FSwYQ"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Technical"
+topics:
+  - "Technical"
+summary: |
+  [music in polymorphism. The next thing we're going to talk about is operator overloading. And to understand that, let me just go back here and create a new file. And I will say this is oper py. Just w...
+key_points:
+  - "done that in the first video or maybe on"
+category: "AI Technical"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2YLoX7FSwYQ
+
+- URL: https://www.youtube.com/watch?v=2YLoX7FSwYQ
+- Retrieved at: 2025-12-30T09:24:15+09:00
+
+## Text
+
+- [00:01] [music]
+- [00:03] in polymorphism. The next thing we're
+- [00:04] going to talk about is operator
+- [00:07] overloading. And to understand that, let
+- [00:08] me just go back here and create a new
+- [00:11] file. And I will say this is oper py.
+- [00:15] Just wanted to have some small names for
+- [00:16] the file so that I can type it easily.
+- [00:18] So what we're going to do is very
+- [00:19] simple. We'll create two variables.
+- [00:21] Let's say a is 5 and b is 6. And then we
+- [00:24] are going to add them which is a + b.
+- [00:27] And then you'll be saying hey we have
+- [00:28] done that in the first video or maybe on
+- [00:31] the earlier videos why we are talking
+- [00:33] about this uh I will get to it but
+- [00:36] before that I will going to print C and
+- [00:38] let's move to that folder o clear it and
+- [00:42] let's run this now so python oper py and
+- [00:46] once we got the output you can see we
+- [00:48] got 11 and that's what I was expecting
+- [00:50] but the question arise how exactly this
+- [00:51] plus is working now plus behaves
+- [00:54] differently in different scenarios
+- [00:56] example when you say a plus b when both
+- [00:58] are integers it's basically adding them
+- [01:01] but let's say if I make this as a string
+- [01:05] now both are string and then still we
+- [01:07] can use plus here and let's see what is
+- [01:09] the output now when we use them as
+- [01:12] integers we were getting 11 but now when
+- [01:15] I use them as a string we are getting 56
+- [01:18] so something is different right so we
+- [01:21] got the same operator but as the
+- [01:23] operants are changing the type of the
+- [01:25] operants changes is it changes the
+- [01:27] behavior. Now that is what is called
+- [01:30] operator overloading. So based on its
+- [01:33] operance the behavior changes right? So
+- [01:35] that is polymorphic. So it's one thing
+- [01:37] but behaving differently right. So one
+- [01:39] thing many forms that's polymorphism
+- [01:41] right? Okay but then let's understand
+- [01:44] how it is working how that plus is
+- [01:46] behaving differently. Now what happens
+- [01:48] is when you try to add two numbers this
+- [01:51] five and six both are objects right?
+- [01:53] Yeah, we know it's in type but they are
+- [01:56] of type integer class or int class and
+- [02:00] we have seen that before. So if I try to
+- [02:01] print the type of this A, it will be
+- [02:04] saying class type int. So what is
+- [02:06] happening behind the scene now? Since
+- [02:08] it's a class, what I can do is I can
+- [02:10] just comment this part and let's rewrite
+- [02:12] the C again. But this time I'm going to
+- [02:14] use int as a class and you can see on
+- [02:16] this screen it says class int. Now it's
+- [02:19] a class so it will have some methods to
+- [02:21] work with. And when I say underscore
+- [02:23] underscore, there are a lot of magic
+- [02:24] methods here. So all these underscore
+- [02:25] methods are magic methods. Uh and we got
+- [02:28] one of the method here is called add. So
+- [02:31] if I use this add method which takes two
+- [02:34] parameters because of course if you want
+- [02:35] to add two things you have to pass as a
+- [02:38] as as two parameters. So I'm going to
+- [02:40] pass a and b and let's see what it does.
+- [02:43] Let's run this. And it again gives you
+- [02:45] 11. So even if you do this operation or
+- [02:49] if you do this way both are giving the
+- [02:51] same output is because both are same you
+- [02:55] will say hey they are not same we are
+- [02:57] using plus here and then we got add here
+- [03:00] that's a method how why you're saying it
+- [03:02] is same they are same is because even if
+- [03:04] you say plus behind the scene python
+- [03:07] will do this okay that is your syntactic
+- [03:10] sugar this is what you want to do but
+- [03:12] you do this just to make it more
+- [03:14] readable otherwise if this was
+- [03:16] compulsory then lot of people would have
+- [03:19] left Python for some other languages
+- [03:20] right so this is what we use but this is
+- [03:22] what is happening behind the scene now
+- [03:24] going forward if you're thinking hey we
+- [03:25] are going to use this every time you
+- [03:27] want to add please don't do that you are
+- [03:28] messing up with the readability of the
+- [03:30] code so this is what you have to do I'm
+- [03:32] just trying to make you understand this
+- [03:33] is what it is working with now if you
+- [03:35] click on add you can see it takes two
+- [03:38] parameters one is the self and second is
+- [03:40] the value now in this a is the self and
+- [03:44] b is the value that means You can also
+- [03:46] write this statement something like
+- [03:47] this. You can say a dot
+- [03:51] add and you can pass b. And we have
+- [03:54] talked about this before when we are
+- [03:55] working with computer class where you
+- [03:57] can call a method with a class by saying
+- [04:00] class dot method name and then you can
+- [04:02] pass the object or you can use the
+- [04:04] object name to call the method. Both are
+- [04:07] same right. So this is what it is doing.
+- [04:09] So once we understand this, let's try to
+- [04:12] write our own class and see if we can do
+- [04:15] that. Can we just do this operator
+- [04:17] overloading on our own class object
+- [04:19] because we are using int class which is
+- [04:21] inbuilt. So what I can do is I can
+- [04:22] create a class called account which is
+- [04:24] like a bank account. So in a bank
+- [04:26] account you'll be having multiple fields
+- [04:28] like your username, your name, uh your
+- [04:30] bank account number, your balance, the
+- [04:32] type of account and location, multiple
+- [04:34] things, right? To simplify I will go
+- [04:36] with two things. The name and the
+- [04:38] balance. Just keep it simple and to do
+- [04:39] that I'm going to create the init method
+- [04:41] so that I can define those variables and
+- [04:43] this is going to be instance method. So
+- [04:45] I will say self and I'm going to create
+- [04:46] two variables one is the name and second
+- [04:49] is the balance but I want to assign the
+- [04:52] values to it when I create the object.
+- [04:54] So of course I have to accept it here
+- [04:57] name and balance and let's assign name
+- [05:00] and let's assign balance. whatever you
+- [05:02] get from the uh object creation. What
+- [05:05] I'm saying is when you create the
+- [05:06] object, let's say the first user, I will
+- [05:08] say user one. The first user has an
+- [05:11] account. Now we have to pass two things
+- [05:13] here. One is a name. So let's say it's
+- [05:16] my account and then let's say the
+- [05:18] balance in my account is 1,000. Now this
+- [05:20] can be rupees, dollars or bitcoins.
+- [05:23] Imagine thousand bitcoins anyway. So
+- [05:26] user two and then we'll create account.
+- [05:28] Now this is for my wife. So I'm going to
+- [05:30] say Kiran and let's say this is 2,000.
+- [05:33] So that's the balance in my in our
+- [05:35] account. Okay. So we got two accounts
+- [05:38] here. One for Naven, one for Kiran. And
+- [05:40] now let's do the operations. First of
+- [05:42] all, I want to do one more thing before
+- [05:44] I talk about add. So let me print user
+- [05:47] one. Now you tell me what will happen.
+- [05:48] In fact, I'm not just just going to
+- [05:50] print user one. I'm going to print the
+- [05:52] user two as well. Now when you do this,
+- [05:54] when you try to print the users, this is
+- [05:57] what it will do. It will say the type of
+- [05:59] the object which is account type. So
+- [06:01] account object at this location and
+- [06:03] account object at this location. So we
+- [06:05] got two object on different locations.
+- [06:07] My intention was to print the values not
+- [06:10] the address. How do I print the values?
+- [06:13] You can do that. You can say user one
+- [06:15] dot uh name user one dot balance. You
+- [06:18] can do this. But if you just want to
+- [06:20] print the object and you're expecting it
+- [06:22] will give you the values. We can do one
+- [06:24] thing to understand this. Let's go back
+- [06:26] up. And now here if you take this
+- [06:29] variable A and when you try to print the
+- [06:32] value of A, will it print the object
+- [06:36] something like this by saying int object
+- [06:38] at a location? Let's see if you run this
+- [06:42] it actually prints the value. It's not
+- [06:44] printing object at this location and it
+- [06:47] thinks an object, right? It's an object.
+- [06:50] Still it is printing value. How it is
+- [06:52] printing value? Because by default every
+- [06:55] time you try to print the value it calls
+- [06:59] a method which is inbuilt method which
+- [07:01] is called str. This is the method which
+- [07:04] is getting called and that's why you are
+- [07:06] getting that value. So even if I write
+- [07:07] that method and run you will get the
+- [07:09] same output. So my I'm proving my point
+- [07:12] that even if you call a it is going to
+- [07:14] call this method. Now what this str
+- [07:16] method does is it's like a string method
+- [07:18] which returns the value of that object.
+- [07:20] So when you say click here it's an
+- [07:22] inbuilt method but we can't say the
+- [07:24] definition but it returns the value of
+- [07:26] integer. So what if I come back here
+- [07:29] user one dot and if you say str you can
+- [07:32] see we we do have this method in build
+- [07:34] and the way you can check that is by
+- [07:35] running it no error that means yes this
+- [07:38] method is in build even if you don't
+- [07:39] mention that here it's there from where
+- [07:42] you are getting this method you're
+- [07:43] getting this method from the object
+- [07:44] class and the default behavior of the
+- [07:47] object class is to print this I don't
+- [07:50] want to print this I want to print the
+- [07:52] values so what you can do is you can do
+- [07:54] something called method overriding which
+- [07:56] we're going to see in the next video and
+- [07:58] I'm going to say str this is going to be
+- [08:00] an instance method. I don't know why I
+- [08:01] said static. So this is the instance
+- [08:03] method and what we going to return is
+- [08:05] the value right and I want to print that
+- [08:07] in a particular format. So I'm going to
+- [08:09] use f and if you want to print a
+- [08:11] particular format you can use f but then
+- [08:13] in the single code you have to define
+- [08:15] your variables in the curly brackets. So
+- [08:18] the variables I have is uh self dot name
+- [08:21] and then you can give a space and again
+- [08:24] you can put
+- [08:26] self dot balance. If you want you can
+- [08:29] give a colon in between so that you can
+- [08:31] differentiate them. Now what we are
+- [08:33] doing is we are defining our own str and
+- [08:36] run. You can see we got the values. So
+- [08:38] for the user one I'm actually calling
+- [08:40] str. So it makes sense to print this.
+- [08:43] But for the user two I'm not even saying
+- [08:45] call str. But as I mentioned before,
+- [08:47] every time you try to print the object,
+- [08:48] it will call the str method. And for
+- [08:51] user one also, I don't want to do that
+- [08:53] now. It should call automatically. Clear
+- [08:55] run and it works. Perfect. Uh so let me
+- [09:00] just comment this part now and also
+- [09:03] comment this. Let's focus only on the
+- [09:06] account now. So what we are doing is we
+- [09:08] are overriding the behavior of str. But
+- [09:11] the video is not about overriding. The
+- [09:13] video is about operate overloading. So
+- [09:15] what I'm going to do is let's say I want
+- [09:17] to know what is our combined balance. So
+- [09:19] I will say combined equal to I want to
+- [09:22] say user 1 plus user 2. Maybe we want to
+- [09:24] buy something and we are not sure if
+- [09:26] will it be enough. So we'll combine both
+- [09:28] the balance to see can we really afford
+- [09:30] it. So we'll say combine equal to user 1
+- [09:32] plus user two. And I want to print the
+- [09:35] combined. And the type of data which you
+- [09:37] should get from combined is the account
+- [09:39] object. Right? But if you do this it
+- [09:42] will give you an error. It says you
+- [09:44] can't use plus here because these are
+- [09:46] these are objects. But we have used plus
+- [09:48] here and these were the objects. So you
+- [09:51] think what can be done when we said plus
+- [09:53] we were actually calling add method and
+- [09:55] it's not there in our class. That's the
+- [09:57] issue. It's not even there in the object
+- [09:59] class. So what we can do is we can
+- [10:00] create a method called add which will
+- [10:03] take two parameters. One is self for
+- [10:04] sure. The second one is we can name it
+- [10:06] as other or you can say value your
+- [10:08] choice but self other makes sense. Me
+- [10:11] you right? I mean we can do that it's me
+- [10:15] and you and then we can return the type
+- [10:18] of account by passing two data one is
+- [10:22] the name of the account I will say this
+- [10:23] is a combined account or join account
+- [10:25] and then the value is the addition of
+- [10:28] our both of the balance so I can say me
+- [10:31] dot balance plus u dotbalance and that
+- [10:35] should work right let's try it out and
+- [10:39] it worked okay so what we are doing is
+- [10:42] when you say Plus here it is going to
+- [10:43] call the add method. Earlier it was not
+- [10:46] there. Now we have it which will take
+- [10:48] two parameters. One is this, one is
+- [10:50] this. Now why this is me is because I am
+- [10:53] adding my balance with the user two. So
+- [10:56] that becomes you. Uh but then this is
+- [10:58] not a good names to use. We can we
+- [10:59] should say self and other because this
+- [11:01] is what you will see on the internet. So
+- [11:04] I don't want to confuse you with those
+- [11:05] names me and you. But self and other
+- [11:07] makes sense and with those variables it
+- [11:09] still works. Okay, that's what is called
+- [11:11] the operator overloading. The same
+- [11:13] operator but behaves differently based
+- [11:15] on what operants you pass. So that is
+- [11:17] operator overloading comes under
+- [11:18] polymorphism. Uh but we can do one more
+- [11:20] thing. Let's say we are going for a
+- [11:23] dinner and uh who should pay for the
+- [11:26] dinner? So if I want I don't want to pay
+- [11:28] I will basically go to wash my hands,
+- [11:31] right? But nowadays in restaurants they
+- [11:33] give you the bowl where you can wash
+- [11:35] your hands. Uh it's tricky. But let's
+- [11:37] say we'll decide on that particular day
+- [11:39] on that particular moment whoever has a
+- [11:41] good balance or greater balance they
+- [11:43] will pay for the bill or they will pay
+- [11:45] the bill. So I can check if user one is
+- [11:47] greater than user two. Now this is
+- [11:49] tricky because you're not comparing the
+- [11:51] balance. What could be easier is by
+- [11:53] saying user 1 do.balance is greater than
+- [11:55] user 2.balance. It will be much easier
+- [11:57] because you're comparing the numbers and
+- [11:59] you can compare the numbers using
+- [12:00] greater than symbol. We have seen that
+- [12:01] before. But now what I'm doing is I'm
+- [12:03] actually comparing the objects. Let's
+- [12:06] see if this works. Uh if this works, it
+- [12:08] should print Naven pays the bill. If
+- [12:13] not, else
+- [12:15] Kiran pays the bill. Okay, but if you do
+- [12:19] this, it will give you an error because
+- [12:21] you can't compare two objects. How do I
+- [12:24] do it? Now, in this case, we have to
+- [12:26] overload this particular operator. And
+- [12:28] you can do this. So, in the integer as
+- [12:30] well, we got different functions.
+- [12:32] Example, if I unccomment this, I'm
+- [12:33] uncommenting a so many times. I should
+- [12:35] have unc commented it before. Uh you can
+- [12:37] see we got all these magic methods right
+- [12:39] we got add and so on and few methods are
+- [12:42] like equal greater than equal to this is
+- [12:44] greater than gt then we got le e which
+- [12:47] is less than equal to lt which is less
+- [12:50] than. So we can use all this we can also
+- [12:51] got multiplication and so on. There's so
+- [12:53] many so many methods here. So what we
+- [12:55] can do is we can overload one of the
+- [12:57] method which is defaf gt which is
+- [12:59] greater than and this will take again
+- [13:01] two parameters self and other and you
+- [13:03] just have to return self do.balance
+- [13:05] balance is greater than others do
+- [13:08] balance then whoever has a bigger
+- [13:10] balance will return true is self is
+- [13:11] greater it will return true then that
+- [13:13] means nin pays the bill if it is false
+- [13:16] kitten pays the bills or pays the bill
+- [13:18] yeah let's try and the answer is kitten
+- [13:21] pays the bill but let's say I got some
+- [13:23] amount from somewhere let's say 4,000 my
+- [13:26] account balance updated and now you can
+- [13:28] see it says nin pays the bill so that is
+- [13:31] your operator overloading in Python same
+- [13:35] operator but depend upon what are the
+- [13:37] operants it will behave differently. So
+- [13:39] that's it. See you in the next part.
+- [13:51] [music]

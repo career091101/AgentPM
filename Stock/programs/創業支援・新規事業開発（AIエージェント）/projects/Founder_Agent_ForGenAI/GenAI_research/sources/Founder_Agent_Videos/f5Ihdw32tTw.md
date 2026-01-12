@@ -1,0 +1,2013 @@
+---
+title: "What's up everybody? Adele here. In today's video, we're going to walk you through how to build AI a..."
+video_id: "f5Ihdw32tTw"
+video_url: "https://www.youtube.com/watch?v=f5Ihdw32tTw"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  What's up everybody? Adele here. In
+  today's video, we're going to walk you
+  through how to build AI agents with the
+key_points:
+  - "will walk you through the fundamentals"
+  - "you enjoyed this video, make sure to"
+  - "up? In this tutorial, we're going to be"
+  - "Now, this is the best time to get"
+  - "and this will really get us ahead of the"
+  - "curve. If you are ready to go on this"
+  - "ADK, I will see you in the tutorial. All"
+  - "stuff to cover in this 1 hour to 1 and"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: f5Ihdw32tTw
+
+- URL: https://www.youtube.com/watch?v=f5Ihdw32tTw
+- Retrieved at: 2025-12-30T14:30:00+09:00
+
+## Text
+
+- [00:00] What's up everybody? Adele here. In
+- [00:02] today's video, we're going to walk you
+- [00:04] through how to build AI agents with the
+- [00:06] Google ADK package. Our instructor VB
+- [00:09] will walk you through the fundamentals
+- [00:11] of building AI agents with Google ADK,
+- [00:13] how to set it up on your own environment
+- [00:16] and building more complex agents that
+- [00:18] require tools, functions, and more. If
+- [00:21] you enjoyed this video, make sure to
+- [00:23] check out our course on building AI
+- [00:25] agents with Google ADK. And with that
+- [00:27] said, happy learning. Hey guys, what's
+- [00:30] up? In this tutorial, we're going to be
+- [00:32] learning all about Google ADK, the brand
+- [00:34] new Aentic development kit by Google.
+- [00:36] Now, this is the best time to get
+- [00:38] started because, well, it's brand new
+- [00:41] and this will really get us ahead of the
+- [00:42] curve. If you are ready to go on this
+- [00:44] journey with me and learn about Google
+- [00:46] ADK, I will see you in the tutorial. All
+- [00:49] right, guys. So, we have a bunch of
+- [00:51] stuff to cover in this 1 hour to 1 and
+- [00:53] 1/2 hour tutorial. So, let's get started
+- [00:56] with just the introduction. I want to
+- [00:59] start off by asking you what even is
+- [01:01] Google ADK? Well, to simply put, Google
+- [01:05] ADK is an open-source code first Python
+- [01:08] toolkit for building, evaluating, and
+- [01:10] deploying sophisticated AI agents with
+- [01:13] flexibility and control. Unlike other
+- [01:15] agentic frameworks like Langraph, Crew
+- [01:17] AI, Langchain, and so on, ADK gives you
+- [01:20] fine grain control when building
+- [01:22] advanced AI agents that are tightly
+- [01:24] integrated with services in Google
+- [01:27] Cloud. So in simple words, it allows us
+- [01:29] to define agent behavior, orchestration,
+- [01:32] and tools used directly in code,
+- [01:34] enabling robust debugging, versioning,
+- [01:36] and deployment anywhere. So what makes
+- [01:39] it different to well other agentic
+- [01:41] frameworks? Well, Google ADK stands out
+- [01:44] here in several key ways. Number one,
+- [01:47] Google Cloud is native. Unlike
+- [01:49] Langchain, Crew AI, Autogen, the list
+- [01:52] goes on. ADK is specifically designed
+- [01:55] for tight integration with Google cloud
+- [01:57] services specifically vertex AI cloud
+- [02:00] run etc. Number two, code first
+- [02:03] approach. While Langra focuses on
+- [02:05] graph-based workflow and Crew AI
+- [02:08] emphasizes role based agent, ADK
+- [02:10] prioritizes this direct Python code and
+- [02:14] agentic behavior and orchestration.
+- [02:16] Number three, deployment ready. ADK
+- [02:19] includes built-in deployment
+- [02:20] capabilities to Google Cloud like I said
+- [02:22] before and this is quite beneficial
+- [02:25] because others require additional
+- [02:27] infrastructure setup. And number four,
+- [02:29] it's simpler architecture. Compared to
+- [02:31] Langchain's complex chains and Origin's
+- [02:34] multi- aent conversations, ADK offers a
+- [02:37] cleaner, more straightforward approach
+- [02:39] to building agents. Now, if you noticed,
+- [02:42] I've said agents quite a lot of times,
+- [02:44] but what exactly even is an agent? Well,
+- [02:47] this is a beautiful diagram by Google
+- [02:49] themselves in the documentation. Uh as
+- [02:52] you can see I took the image take uh
+- [02:53] from Google but it's quite a good image
+- [02:56] because it clearly shows what type of
+- [02:58] agents Google ADK provides. So if we
+- [03:01] look closely we can see there are three
+- [03:03] main types of agents. LLM based workflow
+- [03:06] agent and custom logic. All of these
+- [03:08] agents inherit from this one base agent
+- [03:11] class. And you can see in the diagram
+- [03:13] there are arrows pointing from the base
+- [03:15] agent saying extended by. Now what do
+- [03:18] agents have in common? Some agents have
+- [03:21] looping functionalities, some could have
+- [03:23] reasoning abilities, some can execute
+- [03:25] tasks alongside other agents, and some
+- [03:27] have access to tools. But the most
+- [03:30] important thing here to note is that
+- [03:32] these agents extend the base agent class
+- [03:36] like I just mentioned. Like I said,
+- [03:38] there are three subcategories. Now, I
+- [03:39] want to go a bit in depth about each of
+- [03:42] these slightly, but it will make more
+- [03:44] sense once we get into the code. Number
+- [03:46] one, LLM based agents. You can write
+- [03:48] these as LLM agent or agent in the code
+- [03:51] and these essentially use LLMs as the
+- [03:53] base model for natural language
+- [03:55] understanding and reasoning. Number two,
+- [03:58] the workflow agent as defined here.
+- [04:00] Workflow agents include things like
+- [04:02] sequential agent, parallel agent, loop
+- [04:04] agents, the list goes on, but these
+- [04:07] really are controlled execution flow of
+- [04:10] other agents in predefined patterns. And
+- [04:12] number three, custom agents. Now, what
+- [04:15] if these two agent types don't really
+- [04:18] help us? And number three, custom
+- [04:21] agents. Now, what if these two type of
+- [04:23] agents don't really satisfy our needs?
+- [04:25] And that's where custom agents aka this
+- [04:27] section with custom logic comes in. We
+- [04:30] can build by extending base agent for
+- [04:32] unique, more tailored implementations
+- [04:34] specific to us. Now, if you want more
+- [04:37] documentation and details about these,
+- [04:40] you can go into these links I provided
+- [04:41] in the documentation. All of this code,
+- [04:44] remember, will be provided on GitHub.
+- [04:45] Now, we've covered a little bit of
+- [04:47] theory already. So, how do we even get
+- [04:49] started? Well, here's the steps. Number
+- [04:52] one, you need to go to Google Cloud
+- [04:54] Console and create a new project. The
+- [04:56] window will look something like this.
+- [04:59] You can see that I've created a new
+- [05:00] project here called ADK Data Cam Crash
+- [05:02] Course and just simply create. It should
+- [05:05] look something like this window. So you
+- [05:07] can see that this is my Google cloud
+- [05:09] console and I've selected the ADK data
+- [05:12] cam crash course. Here is my user
+- [05:14] profile and here's the rest of the
+- [05:15] details. Then number two, you have to
+- [05:18] select this project in our console. Most
+- [05:20] likely when you're first getting
+- [05:21] started, you wouldn't have selected this
+- [05:23] project. So it is vital that you go onto
+- [05:25] the notifications part and you select
+- [05:27] this project. To confirm that you are
+- [05:30] working on this project, it should say
+- [05:32] you are working in and the name of your
+- [05:33] project. In my case, ADK data cam crash
+- [05:36] course. Number three, head over to
+- [05:38] Google AI Studio. It should look
+- [05:40] something like this. And then you have
+- [05:42] to go and create an API key. So to do
+- [05:45] that, you need to go to this screen.
+- [05:46] This is my Google AI studio page. You
+- [05:49] can see I've already signed into my
+- [05:50] account. And I have to get the API key
+- [05:53] here and create an API key.
+- [05:58] And then I have to type in my Google
+- [06:00] Cloud project. Now this is very
+- [06:02] important step. Make sure to select the
+- [06:05] right Google cloud project. Otherwise,
+- [06:07] well, you wouldn't be able to use this.
+- [06:09] Once you've created your API key and
+- [06:11] you've saved it in your project, you
+- [06:13] need to save this in your env file as
+- [06:15] stated in step five. Now, don't worry.
+- [06:18] This API key, although mine is shown, I
+- [06:20] will delete this after the tutorial
+- [06:22] because otherwise hugger bankrupt. The
+- [06:24] next step once you've done all of that
+- [06:26] is you have to clone this GitHub
+- [06:27] repository. And lastly, you need to pip
+- [06:30] install the requirements.txt file. Once
+- [06:33] you've done that and you are successful,
+- [06:35] you're all set to go and I'll see you in
+- [06:38] the next section where we build our very
+- [06:40] first agent. All right, people. So,
+- [06:42] welcome to the very first agent we will
+- [06:44] be building. And I like to call it the
+- [06:47] welcome agent. This is the first agent
+- [06:49] we'll be building. And to get started, I
+- [06:51] want to go with a little bit of theory,
+- [06:53] but this will be brief, I promise. So
+- [06:55] the most important thing in Google ADK
+- [06:58] especially when you're using something
+- [07:00] called ADK web and ADK CLI we'll be
+- [07:02] covering this in just a bit is the
+- [07:04] folder structure. Now you can see in
+- [07:07] this readme file which I've written here
+- [07:09] you can see that this is quite important
+- [07:11] and this is a lot more important in
+- [07:14] Google ADK than compared to other
+- [07:15] agentic frameworks. So the following
+- [07:18] folder structure you have to preserve at
+- [07:20] all costs. So this folder structure
+- [07:23] helps you set up the basic organization
+- [07:25] for your agent project. It creates a
+- [07:27] folder named multi-tool agent as you can
+- [07:30] see here and adds three files inside it.
+- [07:34] The init py the agent py and the env. I
+- [07:38] want to take just a few seconds defining
+- [07:40] what each of these files do. Number two
+- [07:43] agent. py. This is where our main logic
+- [07:46] and the code for our agent will be. And
+- [07:48] number three is the env file. And again,
+- [07:51] this is a hidden file for storing
+- [07:53] environment variables such as API keys
+- [07:55] or configuration settings that your
+- [07:57] agent might need. Now, make sure to have
+- [08:00] this structure because this is
+- [08:01] essential. Otherwise, well, it won't
+- [08:03] work. And this will also make it easier
+- [08:06] to maintain and build our agents. Now, I
+- [08:09] just want to quickly show you what the
+- [08:11] ENV file should look like. So, this is
+- [08:13] how the ENV file should look like. For
+- [08:15] the first few agents, you only need two
+- [08:17] keys here. Number one, you need to
+- [08:19] specify Google Gen AI use vertex AI is
+- [08:22] false. The reason this is false is one,
+- [08:24] this is beyond the scope of this video.
+- [08:26] And if you're a little bit interested,
+- [08:27] number two, Vert.ex AI is really used to
+- [08:30] deploy stuff to the cloud, which is a
+- [08:33] slightly beyond the scope of this video.
+- [08:35] And then you need to have your Google
+- [08:36] API key, which you got from the Google
+- [08:39] AI studio at the introduction of this
+- [08:41] tutorial.
+- [08:45] Perfect. So now that we've covered that,
+- [08:47] we'll now jump into the code and talk
+- [08:49] about it a little bit more.
+- [08:53] Okay, so this is the welcome agents
+- [08:55] Python file. Now you can see that I've
+- [08:57] imported two main things. Number one,
+- [08:59] from Google.k.agents
+- [09:01] import agent and number two from
+- [09:04] Google.ai import types. Now I'll be
+- [09:06] talking about this one in just a second.
+- [09:08] But for starters, this now one more
+- [09:11] thing to note. You should have no errors
+- [09:14] when install when defining these
+- [09:16] variables. If you have set everything up
+- [09:18] correctly in the introduction, this
+- [09:19] should work flawlessly. If you haven't,
+- [09:21] make sure to pip install the
+- [09:23] requirements.txt file. That is a common
+- [09:25] mistake and I certainly have made that
+- [09:27] mistake quite a lot of times. So, back
+- [09:29] into this first line. Remember when I
+- [09:32] said there are three types of agents?
+- [09:33] Well, there is the base class which is
+- [09:35] agent itself. Now, because we're using
+- [09:37] an LLM under the hood, we could have
+- [09:40] written LLM agent here or agent. You can
+- [09:42] see even in the hint, it says agent is
+- [09:44] equal to LLM agent. So, if I write LLM
+- [09:47] agent here or just agent, it doesn't
+- [09:49] really matter. The code will still work
+- [09:51] regardless. Every time we define an
+- [09:53] agent in Google ADK and we are going to
+- [09:56] be using ADK web and ADK CLI, there are
+- [09:59] a lot of things you need to keep in
+- [10:01] mind. Number one, the name of the agent.
+- [10:04] In this case, I've kept this as welcome
+- [10:06] agent. And you can see in the comment,
+- [10:07] it says name of our AI agent. This is
+- [10:10] also important to define each agent's
+- [10:12] identity. Number two is the model
+- [10:15] itself. If it's an LLM based agent or
+- [10:17] agent in general, you will have an LLM
+- [10:20] as the baseline model. In this case,
+- [10:22] because of the Gemini API we copied,
+- [10:24] we're going to be using Gemini 2.0
+- [10:26] Flash. Now, don't worry. This is
+- [10:29] completely free because all of this code
+- [10:30] will run in the free tier. You should
+- [10:32] have also noticed when you were in the
+- [10:34] introduction section that it didn't
+- [10:35] really ask for your credit card or any
+- [10:37] band details. So don't worry you it
+- [10:40] won't cost you a thing. Okay. Number
+- [10:42] three, a description. So this is like
+- [10:44] stated in the parameter. It's a brief
+- [10:46] description of the agent. And we're just
+- [10:48] going to say it's a simple greeting
+- [10:50] agent. And number four, the instruction.
+- [10:52] Now this is one of the more important
+- [10:54] parts. This parameter you have to
+- [10:56] clearly define what the agent's action
+- [10:59] are. So detail thing the agent has to
+- [11:02] do. These are really the four main
+- [11:04] things you need to look out for. But
+- [11:06] there are some more things you can
+- [11:08] change and that's where this line comes
+- [11:10] in. You can see that in the comments I
+- [11:12] written for further configuration
+- [11:13] controls. Now what exactly does that
+- [11:15] mean? Well, if you're building slightly
+- [11:17] more complicated AI agents, you might
+- [11:20] want to have more control over the agent
+- [11:22] itself. And if you've used OpenAI models
+- [11:25] before or come from any other agent
+- [11:27] framework, you might have seen for
+- [11:28] example the top P parameter, top K
+- [11:31] parameter, temperature etc. And you can
+- [11:33] do something similar in Google ADK as
+- [11:36] well. So if I press this hint here, you
+- [11:38] will see that it says the additional
+- [11:40] content generation configurations. So
+- [11:43] for example, I have created two main
+- [11:45] parameters here. Temperature and max
+- [11:48] output tokens. Now max output tokens is
+- [11:50] kind of obvious what it will be. The
+- [11:52] agent can only output at a max of 250
+- [11:55] tokens. If you don't know what tokens
+- [11:57] are, don't worry. Think of them as a
+- [11:59] subword for example and temperature I
+- [12:01] have set to 0.2. Now temperature is
+- [12:04] something which defines the creativity
+- [12:06] of the agent's output. So the closer you
+- [12:08] are to zero, the more deterministic
+- [12:10] output it will be. And the final thing
+- [12:12] which I need you to understand is that
+- [12:14] when you're using Google ADK, especially
+- [12:17] the CLI and the web version, you have to
+- [12:20] define a root agent. Now, you will see
+- [12:23] why in just a second, but you might be
+- [12:25] confused here. What even is Google ADK
+- [12:28] CLI and Google ADK web? Well, that's
+- [12:30] what we're about to do now. If I quickly
+- [12:32] activate my
+- [12:34] virtual environment
+- [12:37] like such. Okay. So if I type in ADK,
+- [12:42] you should see something like this. This
+- [12:44] is a clear indication that everything
+- [12:46] you've installed is correct. Now you can
+- [12:48] see there's a little bit of information
+- [12:50] as to what ADK is. There is API server
+- [12:53] create and so on. The two main things
+- [12:55] we'll be looking at in this tutorial
+- [12:57] will be run and web. So let's get
+- [13:00] started with running it on the command
+- [13:02] line interface or in your terminal. So
+- [13:04] how do you run this in your terminal or
+- [13:06] your command line interface? Well, you
+- [13:08] write the ADK run and then you need to
+- [13:11] specify something and that is the name
+- [13:14] of the folder. So the name of the folder
+- [13:16] here was welcome agent. So I need to
+- [13:18] type welcome agent and if I run that
+- [13:24] you can see that I get this screen. Now
+- [13:26] it's saying user is equal to this. So
+- [13:29] now it's prompting me to enter
+- [13:30] something. So let's say hi
+- [13:34] and as you can see welcome agent has
+- [13:36] specified hello there how can I help you
+- [13:38] today. Now please note that we didn't
+- [13:41] specifically ask this conversation
+- [13:42] history like this user welcome agent. We
+- [13:45] didn't specify that anywhere in this
+- [13:47] code. Google ADK internally did that. So
+- [13:50] that's quite awesome. Now if you want to
+- [13:53] confirm this is Google ADK itself. Let
+- [13:55] me just clear aborted and clear this.
+- [13:58] And let me specify something fun like
+- [14:00] talk to me in a pirate manner.
+- [14:06] Perfect. Now again I'm putting this in
+- [14:08] the instruction because this is how the
+- [14:09] agent should speak or a particular
+- [14:11] action it should perform. So if I run
+- [14:14] this code again
+- [14:18] and I ask it h who made you and I press
+- [14:23] enter you can see that the reply is in
+- [14:26] well pirate language. Oh matey gone so
+- [14:29] on so on so on and you can also see it's
+- [14:31] specified Google meaning this is Gemini
+- [14:33] model we are using so remember one thing
+- [14:36] which I said earlier about root agent
+- [14:38] well I want to prove that root agent the
+- [14:41] name itself is quite important so if I
+- [14:43] clear this
+- [14:46] and I change this to something like Bob
+- [14:48] agent something completely random and I
+- [14:51] go back to this screen and I type in ADK
+- [14:55] run welcome agent remember it's not the
+- [14:57] name of this agent, it's the name of the
+- [14:59] folder. And I press enter.
+- [15:03] You can see that I've got an error and
+- [15:06] it says module welcome agent.agent has
+- [15:08] no attribute root agent. So this clearly
+- [15:11] specifies that we need a root agent. So
+- [15:14] if I write root root agent here, clear
+- [15:17] this and run this again, this will work
+- [15:20] once more. So let's try that. Hi, how
+- [15:24] are you doing?
+- [15:26] over mat and so on and so on. Perfect.
+- [15:30] Now what was the second thing I said?
+- [15:32] ADK web. Now ADK web is quite awesome.
+- [15:35] So if I type in ADK web and this time I
+- [15:38] don't need to specify any particular
+- [15:40] agent
+- [15:41] and I press enter.
+- [15:44] We'll see that this appears. Now I have
+- [15:46] to go on to HTTP localhost 8000 and I
+- [15:49] press it and we get to this screen. Now
+- [15:52] this screen is quite awesome. So you can
+- [15:54] select your agents. In your case, if
+- [15:56] you're coding this from complete
+- [15:57] scratch, you won't see anything like
+- [15:59] this. This is just my virtual
+- [16:01] environment, but all of these are agents
+- [16:03] we will be covering. So don't worry.
+- [16:04] Now, what was the agents called? The
+- [16:06] folders name we were working on. That
+- [16:08] was the welcome agent. So we select
+- [16:09] welcome agent. And wow, this was
+- [16:12] automatically created. Now we can enable
+- [16:14] token streaming or on and off, but we'll
+- [16:17] keep it on cuz it's better. And you will
+- [16:19] see there's a lot of stuff to take in.
+- [16:21] There's events, state, artifacts,
+- [16:23] sessions, eval session ID. What is going
+- [16:26] on? Don't worry, throughout this
+- [16:28] tutorial, it will make more sense. But
+- [16:30] for now, I want to keep a conversation
+- [16:32] going. So again, I'll say, "Hi, how are
+- [16:34] you?" and try to guess what it will say.
+- [16:37] Well, something similar what it will
+- [16:39] say. Of course, you can't guess what
+- [16:40] it's actually going to say probably, but
+- [16:43] again, the key answer I wanted was the
+- [16:45] pirate theme cuz remember, we didn't
+- [16:47] change the instruction at all. So this
+- [16:49] is the same underlying model as we ran
+- [16:51] in the command line interface. Now I
+- [16:53] know I'm going a bit slow but this is
+- [16:55] important. It's important to note what
+- [16:57] your base model is. What's going on with
+- [17:00] the agent flow? Because when we go on to
+- [17:02] build more complicated agent things tend
+- [17:04] to get messy. So that's why we're going
+- [17:06] step by step. Now if you look on the
+- [17:08] left hand side there's events state
+- [17:10] artifact sessions and eval. Now
+- [17:12] artifacts and eval are beyond the scope
+- [17:14] of this video but events you can see
+- [17:16] that as soon as this came up with an
+- [17:17] answer this was created. So let's take a
+- [17:20] look at what this is. If we select this
+- [17:23] we can see that we have a welcome agent
+- [17:25] and it has the respective parts aka the
+- [17:28] output and you can see this was the role
+- [17:30] by the model aka the underlying agent
+- [17:33] welcome agent. The thing I love most
+- [17:35] about this ADK web is its clean
+- [17:37] interface and I hope you like it more
+- [17:39] and more as the tutorial goes on because
+- [17:41] it becomes especially helpful when you
+- [17:44] have more than one agent running. Now if
+- [17:47] we go into the request part, this was
+- [17:48] what the instructions are. Remember I
+- [17:51] wrote you're a helpful assistant that
+- [17:53] greets the user. Talk to me in a pirate
+- [17:55] manner. This was the instruction by me.
+- [17:57] But Google ADK internally gives us this
+- [18:00] message as well. Adds this to the
+- [18:02] instruction. you're an agent, your
+- [18:04] internal name is welcome agent and so on
+- [18:05] and so on. And you can see that the
+- [18:07] contents was hi, how are you role user
+- [18:11] and this was the request. So all of this
+- [18:13] makes up the request. So the underlying
+- [18:15] model, the system instruction, the
+- [18:17] temperature, max output tokens, the my
+- [18:19] actual request and my role are all the
+- [18:22] request in this Google E ADK framework.
+- [18:25] And the response, well, you guessed it,
+- [18:27] it will be this. As you can see, aoy
+- [18:30] matey, that's the response. and the role
+- [18:32] was model and this was an event. Now I
+- [18:35] want to talk a bit more about this. So
+- [18:37] let's go back into the theory. Perfect.
+- [18:39] So we covered until this point but we
+- [18:42] just went through ADK run and ADK web.
+- [18:44] So let's just quickly look into that a
+- [18:46] bit more. So ADK run like you just saw
+- [18:49] was the primary command line tool to run
+- [18:52] our agents locally. It instantly
+- [18:54] launches our agent for direct
+- [18:55] interaction in our terminal. and we
+- [18:58] created the pirate mode where we uh were
+- [19:01] able to have the agent speak in a pirate
+- [19:03] themed language. Now, ADK web on the
+- [19:06] other hand spinned up a web interface
+- [19:08] for our agent. It lets us chat with our
+- [19:10] agent in a modern web browser UI. The
+- [19:13] web browser UI, the underlying API which
+- [19:16] we're using is Flask. The modern web
+- [19:18] browser UI is provided by the underlying
+- [19:21] API Flask API and is really great for
+- [19:24] demos, sharing or more visual
+- [19:26] experience. Now I'm going to go back to
+- [19:28] the ADK web section. And I'm back here.
+- [19:31] And now I'm going to ask it, tell me a
+- [19:35] joke.
+- [19:36] Now there's a reason I'm doing this.
+- [19:39] And there we go. Some rubbish joke. But
+- [19:42] now I'm going to ask it, what did I just
+- [19:44] ask you? And if this runs,
+- [19:49] Shiver me timbers, you just asked this
+- [19:52] whatever a joke to tickle your funny
+- [19:54] bone. So in a pirate theme language,
+- [19:56] it's clearly saying that I just asked it
+- [19:58] to tell a joke. Now there's two things I
+- [20:00] want you to notice here. Number one, I
+- [20:03] never created any conversational
+- [20:05] history. That means Google ADK has
+- [20:07] inbuilt conversational memory, which is
+- [20:09] quite awesome because in other
+- [20:11] frameworks, I need to specifically build
+- [20:13] this especially in Langraph if you come
+- [20:15] from a langraph uh base. Number two,
+- [20:18] notice how every time I send a request,
+- [20:20] it creates an event here. So this was
+- [20:24] the the treasure joke here. And if I go
+- [20:27] to event three, it was shiver me
+- [20:29] timbers. What I asked? What did I just
+- [20:31] ask you? This part. So you can go
+- [20:34] through and flip through all of these
+- [20:36] events. And again, it's highlighted
+- [20:38] green, the welcome agent, because well,
+- [20:39] this is the underlying agent we're
+- [20:41] using. And if you go on to the request
+- [20:43] and response, you can see it also
+- [20:45] changes based on what the request and
+- [20:47] response were respectively. So have a
+- [20:49] play at this. It's quite cool. But going
+- [20:52] back to the theory, you can see that
+- [20:53] I've created an inbuilt conversational
+- [20:55] memory. And like I said, the agent
+- [20:57] automatically remembers the previous
+- [20:58] messages in the section, provides
+- [21:00] context to the AI, making conversations
+- [21:02] more coherent and context aware, and no
+- [21:04] extra setup needed like I mentioned. But
+- [21:06] there are two things which we haven't
+- [21:08] really discussed in depth. And this will
+- [21:10] become more clearer as we go into the
+- [21:12] tutorial. But just to really get them
+- [21:15] started, session is a series of messages
+- [21:18] exchanged between the user and the AI
+- [21:20] agent. And each session maintains its
+- [21:23] own conversational context. An event are
+- [21:26] activities or actions that have occurred
+- [21:28] during a session. So they're useful for
+- [21:30] tracking, logging, or triggering
+- [21:32] specific behaviors. So that my friends
+- [21:35] was the first agent, the welcome agent.
+- [21:38] We're now going into our second agent.
+- [21:40] So our second agent will contain
+- [21:43] something known as tools. Now again if
+- [21:45] you come from an agentic framework
+- [21:47] background you know how important tools
+- [21:49] are but if you don't let's quickly
+- [21:51] define what a tool is. So a tool is a
+- [21:53] modular component that extends an AI
+- [21:55] agents capabilities beyond just simple
+- [21:58] text generation. So tools enable agents
+- [22:01] to perform specific actions, interact
+- [22:02] with external systems and process real
+- [22:05] world data dynamically. For example, it
+- [22:08] could check the weather, search the web,
+- [22:10] do math calculations, booking a flight,
+- [22:12] etc. Now, one thing to note here is that
+- [22:15] the LLM coupled with a tool, that's what
+- [22:18] really makes an agent. That is a very
+- [22:20] very basic, naive definition, but you
+- [22:22] can think of an agent as that way. If I
+- [22:25] if I gave my LLM a task to check the
+- [22:28] weather, well, it wouldn't be able to do
+- [22:29] it. It will probably hallucinate and get
+- [22:31] it completely wrong because it doesn't
+- [22:33] have the real world data update. So what
+- [22:36] are the characteristics of tools? Number
+- [22:38] one, it has to be actionorientated.
+- [22:41] Tools execute predefined tasks such as
+- [22:43] retrieving data like the weather report,
+- [22:45] stock prices I just mentioned. Number
+- [22:47] two, it extends the agents
+- [22:49] functionality. Agents leverage tools to
+- [22:52] overcome limitations of static training
+- [22:54] data by accessing live information.
+- [22:57] Again, going back to the weather tool I
+- [22:58] just gave, it had it would have no idea
+- [23:00] what the current weather is without the
+- [23:02] tool because it would just hallucinate.
+- [23:04] And number three and this is quite
+- [23:05] important the deterministic execution.
+- [23:08] Tools follow strict logic defined by us
+- [23:11] developers unlike the agents LLM which
+- [23:14] handles reasoning. Now this doesn't mean
+- [23:16] you can't have LLMs baked into tools. Of
+- [23:18] course you can. But tools should give a
+- [23:21] more deterministic output. So what are
+- [23:23] the benefits of using tools in the first
+- [23:25] place? Well realtime data access, task
+- [23:28] automation and scalability. Now there
+- [23:31] are different types of tools here and if
+- [23:33] you want a full comprehensive detailed
+- [23:35] list you can go onto the official ADK
+- [23:37] tool documentation but there are three
+- [23:39] main tools to look out for. Function
+- [23:41] tools these are custom tools defined by
+- [23:43] us developers. Built-in tools which are
+- [23:45] predefined tools for common tasks such
+- [23:48] as web search code execution. Now these
+- [23:50] are tools which are provided by Google
+- [23:52] themselves which we can use in our code.
+- [23:55] So these are plug-and-play tools. And
+- [23:57] number three third party tools. These
+- [23:59] are integrations with external services
+- [24:01] such as Slack. Now, that was a lot of
+- [24:04] theory. So, let's go into the code.
+- [24:06] Again, you can see that I've defined the
+- [24:07] tool agent folder as the file, the
+- [24:10] folder structure I mentioned in the
+- [24:12] introduction. This is very, very
+- [24:13] important, especially if you're using
+- [24:15] ADK CLI and ADK web. Okay, so this is
+- [24:18] the code. And right off the bat, you can
+- [24:20] see I've imported the same line again.
+- [24:22] Now, forget this comment for now. This
+- [24:23] is a custom tool we'll get into shortly.
+- [24:26] But if we go down here, you can see that
+- [24:28] I imported Google search. Now, just
+- [24:31] before in the theory, I mentioned Google
+- [24:33] search was an in-built tool. So, we can
+- [24:35] really just use this and well, plug and
+- [24:37] play with it. So, just to quickly go
+- [24:40] over all of the root agents parameters
+- [24:42] again, we have the name basic search
+- [24:43] agent, the same underlying model, what
+- [24:46] this agent can do, a description of it,
+- [24:48] and in the instruction, I can answer
+- [24:50] your questions by searching the
+- [24:51] internet. Just ask me anything. And
+- [24:53] again, Google search is a pre-built tool
+- [24:55] which allows the agent to perform Google
+- [24:57] searches. And this is a new parameter
+- [25:00] tools is equal to Google search. And
+- [25:02] Google search, you can see, is the exact
+- [25:04] tool we just imported. So now let's run
+- [25:07] ADK web again by closing. Oh, we don't
+- [25:10] need to close this actually. Let's go to
+- [25:12] ADK web. Now I can create a new session
+- [25:14] here. New session. You can see all the
+- [25:16] events, the state, artifacts, everything
+- [25:18] is cleared. And these are the two
+- [25:20] sessions. If I want to go back to the
+- [25:21] previous section session, I can just go
+- [25:23] back like this. Now going back to here,
+- [25:26] we need to select the tool agent, which
+- [25:28] is this. So let's say, hi, who are you?
+- [25:34] I'm an agent designed to answer your
+- [25:35] questions using Google sub. My internal
+- [25:37] name is basic search, the exact name we
+- [25:39] just gave it. So let's ask it something
+- [25:42] like,
+- [25:43] uh, tell me the current stock price of
+- [25:49] Apple. A cliche example, I know, but you
+- [25:51] can see what what was going to happen.
+- [25:53] As of July 13, 2025, which is today's
+- [25:56] date, and again, the LLM, if it was just
+- [25:58] the LLM without a tool, it would have no
+- [26:00] clue what the current date is and the
+- [26:02] current stock price. And you can see
+- [26:04] it's the $211.16.
+- [26:06] So, this is obviously right. But the
+- [26:08] thing to note here is if I go into the
+- [26:10] event, which is this, you can see that
+- [26:13] the event the agent has changed. It's
+- [26:16] basic search agent and Google search.
+- [26:19] Now I can scroll through the events
+- [26:21] here. So this was the initial message.
+- [26:24] Hi, who are you? And then this was for
+- [26:26] tell me the current stock price of
+- [26:27] Apple. You can see the events are
+- [26:30] chronological.
+- [26:31] Now there is one caveat here. Remember
+- [26:34] Google ADK is still developing. So if
+- [26:37] you selected a tool, this should ideally
+- [26:40] go green. But sometimes it doesn't.
+- [26:42] Google search this inbuilt tool
+- [26:44] especially sometimes doesn't go green.
+- [26:45] If it goes green, it means that it is
+- [26:47] using that agent or tool just for your
+- [26:50] reference. But this is still correct.
+- [26:52] And I'll prove this to you why this is
+- [26:53] correct. If I go back to the code and I
+- [26:56] don't give it this tool and I press save
+- [26:59] and I go back to ADK web
+- [27:02] and I refresh
+- [27:06] and I clear this screen and I press ADK
+- [27:09] web
+- [27:15] and I select tool agent again. I can now
+- [27:17] ask it what is the current stock price
+- [27:21] of Apple? same question but take a look
+- [27:23] at this.
+- [27:25] You can see that instead of giving me
+- [27:27] the actual output, it gave me Python
+- [27:30] code and you can see that I don't have
+- [27:32] any tool provided here. So that's why
+- [27:35] under the hood although it didn't go
+- [27:37] green here the Google search if I don't
+- [27:39] provide a Google search it doesn't know
+- [27:40] how to execute it properly. So that's
+- [27:43] one thing to note. Going back to the
+- [27:44] code here now. I'm going to comment this
+- [27:47] bit out
+- [27:50] and I'm going to uncomment this out.
+- [27:52] Okay. So now this is a custom tool I've
+- [27:55] created. Get contact. Now there are a
+- [27:58] lot of things to note here. So let's go
+- [28:00] them go through one by one. This is the
+- [28:02] parameter. It must take a person's name
+- [28:04] and it has to be in the format of a
+- [28:06] string and it should output the answer
+- [28:08] or return whatever as a dictionary. And
+- [28:11] you can see specifying the return type.
+- [28:13] Now, here's the most important part when
+- [28:15] it comes to custom tools, the dock
+- [28:17] string. And the dock string is what the
+- [28:19] agent determines what the function does.
+- [28:22] So, in this case, the get contact tool
+- [28:24] gets the contact details of the chosen
+- [28:26] person. Its arguments are person, which
+- [28:28] is a string, and that's the name of the
+- [28:30] person whose contact you want, and it
+- [28:32] returns a dictionary. Now, this is the
+- [28:35] industry standard of creating dock
+- [28:36] strings. You will see this quite often
+- [28:38] in all of documentation and tutorials.
+- [28:40] So it's good practice to start writing
+- [28:42] your dock strings as this.
+- [28:45] And lastly, we have to return it. So it
+- [28:47] has to be return contact person's number
+- [28:49] is 1 2 3 4 5. I have hardcoded the
+- [28:51] number here. I could have also specified
+- [28:53] another parameter, but we're keeping
+- [28:55] things simple. Now you can see that the
+- [28:57] description has changed tool agent and
+- [28:59] this is tool custom agent. So the name
+- [29:01] has changed, but it's still under the
+- [29:02] same file. I've commented the rest out
+- [29:05] and the tool I've specified is get
+- [29:07] contact. So now if I refresh ADK web and
+- [29:10] now I type in hi what is your name?
+- [29:16] You can see that it says I'm a tool
+- [29:18] agent which was the name we gave it. Now
+- [29:21] we can ask it something like
+- [29:24] could you tell me what Tom's number is
+- [29:30] please?
+- [29:32] So now hopefully it should use the
+- [29:33] custom tool and there you go. It used
+- [29:36] the get contact tool and Tom's number is
+- [29:38] 1 2 3 4 5. I mean, everyone's number is
+- [29:40] 1 2 3 4 5, but you get the point. Now,
+- [29:42] here's the cool part. If I go into
+- [29:44] events, which is here, starting with the
+- [29:47] first event, so this was event number
+- [29:49] one. What was your name and it gave us
+- [29:52] I'm a tool agent. Again, it's green here
+- [29:55] because that's all it used. It didn't
+- [29:56] use a tool here. If I go to number
+- [29:58] second event, you can see that after I
+- [30:00] asked it what Tom's number is, please,
+- [30:02] it did use get contact the tool which we
+- [30:05] defined earlier. And we can scroll to
+- [30:07] event three. You can see how the arrow
+- [30:09] is changing as well. So this was from
+- [30:11] agent to tool and this was from the
+- [30:13] tool's response back to the agent and
+- [30:17] the event four which was the output
+- [30:18] where it doesn't need the tool anymore.
+- [30:20] It gives us the final answer which was
+- [30:22] Tom's number is 1 2 3 4 5. And that's
+- [30:24] what we saw here and that's what we saw
+- [30:26] in the web. So this is why AK web is
+- [30:29] quite awesome because well when it is
+- [30:31] working it clearly gives us the it gives
+- [30:34] us a visualization of what is going
+- [30:36] under the hood. Super super awesome and
+- [30:38] super easy to get up and running. And
+- [30:41] that people was the second agent we've
+- [30:43] built. So we've already built two
+- [30:44] agents. So well done. We're now going to
+- [30:46] be moving into a third agent, something
+- [30:48] known as structured outputs. So
+- [30:51] structured outputs, what are they? Well,
+- [30:54] normally a language model might reply
+- [30:55] with text like John's numbers 1 2 3 4 5.
+- [30:58] But what if we want something more
+- [31:01] cleaner like name John, contact 1 2 3 4
+- [31:04] 5. It's more cleaner, more structured.
+- [31:07] Structured is the key word here. Now,
+- [31:09] there are many reasons why we would want
+- [31:10] this such as it being used in code and
+- [31:13] making it more readable and structured.
+- [31:14] We want we might need to save it in a
+- [31:16] database. We might need to pass it
+- [31:18] between agents. So Google ADK lets us
+- [31:21] force the agent to reply in this clean
+- [31:23] format using something known as output
+- [31:26] schema. Now there are two types of
+- [31:28] schemas in most agentic frameworks and
+- [31:30] also in Google ADK. The input and the
+- [31:33] output schema. So the input schema is
+- [31:35] what the user AK and me must send. So it
+- [31:38] should be a particular format. And
+- [31:40] number two the output schema. This
+- [31:42] forces the agent to output in a
+- [31:45] particular structure. It could be
+- [31:47] something like this. for example.
+- [31:50] Now we define these using pyantic
+- [31:53] models. Now if you don't know what
+- [31:54] pyantic is that is completely fine. It
+- [31:56] doesn't matter. Just think of pyantic as
+- [31:59] a library under the hood which allows us
+- [32:02] to build these schematics. If you want
+- [32:04] to see a tutorial about padantic, leave
+- [32:06] a comment down in below. So you can see
+- [32:08] from pyantic import base model field and
+- [32:11] the input format should be like this and
+- [32:13] the output format should be like this.
+- [32:14] Now we'll talk a bit more about this
+- [32:16] pyantic code in well in the code. So
+- [32:19] I'll see you there. Okay. So this is the
+- [32:21] code for our third agent and we're going
+- [32:23] to be mainly specifying about output
+- [32:25] schema cuz that's what's really commonly
+- [32:27] used. So here the new line which we've
+- [32:30] imported and what we just saw in the
+- [32:32] introduction of this section was this
+- [32:33] pantic line and again it's a library to
+- [32:36] define the schematics. So to define the
+- [32:38] output structure we have to have the
+- [32:40] class inheriting the base model. You
+- [32:43] don't really need to know what it is.
+- [32:44] The main line which you do need to know
+- [32:46] is this greeting colon string. So this
+- [32:49] means that the structured output must
+- [32:51] have a greeting which is under a string
+- [32:54] and this is a type field and it will
+- [32:56] have a description. Each of these
+- [32:58] parameters will have a short description
+- [33:00] which will tell what the tell the LLM
+- [33:02] what it's about. So this is just a
+- [33:04] simple greeting message to the person.
+- [33:06] So the root agent has been defined like
+- [33:08] normally. There is no such uh tool
+- [33:11] needed here. But there are two new
+- [33:13] parameters. Output schema which is
+- [33:15] greeting output. And this makes sure
+- [33:18] that this is outputed as a structured
+- [33:20] output which is defined by this pyantic
+- [33:22] structure and the output key final
+- [33:24] greeting. We'll talk more about this uh
+- [33:27] parameter in just a bit. But if you look
+- [33:29] at the instruction, it says give a
+- [33:30] person's name respond with a JSON output
+- [33:32] like this. Now, it's really sometimes
+- [33:35] helpful to also give in the instruction
+- [33:39] some more uh information about how we
+- [33:41] want the output to be. Yes, we've got
+- [33:44] the structured output, but this
+- [33:46] sometimes really helps it and completely
+- [33:48] enforces the LLM to output it in this
+- [33:50] way. So, that's just a helpful tip. Now
+- [33:52] if I go and run ADK web again using ADK
+- [33:55] web and I select the structured output
+- [33:59] agent here and allow token streaming we
+- [34:02] can say something like hey nice to meet
+- [34:06] you Tom and if we press enter it should
+- [34:09] give us in the structured output like we
+- [34:11] wanted greeting hello Tom now there's
+- [34:14] nowhere I wrote hello Tom it
+- [34:16] automatically gave it like the
+- [34:18] structured output like we wanted now
+- [34:20] this was obviously a simple example but
+- [34:22] hopefully you can see how important
+- [34:23] structured outputs are, especially when
+- [34:25] we're saving it to a database or saving
+- [34:27] the result and passing it to another
+- [34:29] agent or a tool. So structured outputs
+- [34:32] are quite important. If we go into the
+- [34:34] event, we can see that this is exactly
+- [34:36] what we want here and there is no such
+- [34:39] tool here because well the structured
+- [34:40] output or the pyantic base class we
+- [34:43] created that's not a tool is a
+- [34:45] schematic. So that's completely
+- [34:46] different from a tool. But if I go back
+- [34:48] to the code now, remember I mentioned
+- [34:50] this line output key is equal to final
+- [34:52] greeting. Well, what was this about? If
+- [34:55] I go back to the ADK web folder, the ADK
+- [34:58] web file, and I go into state, you can
+- [35:00] see that I've saved this in the state.
+- [35:03] Now, we'll be talking what state is in
+- [35:05] just a bit, but that is how you can save
+- [35:07] things into a state, making your agent
+- [35:10] stateful. Now, we will cover the state
+- [35:12] in slightly more depth in just a second,
+- [35:15] but that's really it for this section.
+- [35:18] Short brief section, but I hopefully
+- [35:21] you've understood how important
+- [35:22] structured outputs are. Now, I'll see
+- [35:24] you in the fourth section. Now, this
+- [35:26] will be a very simple agent, but with
+- [35:28] slightly different perspective. We're
+- [35:30] going to be using other LLM providers,
+- [35:32] specifically OpenAI. Now, you can use
+- [35:35] whatever LLM provider you want. If you
+- [35:37] go onto the documentation here, you can
+- [35:39] find a list of models you can use. The
+- [35:41] most common models I've seen when
+- [35:43] developers are developing using Google
+- [35:44] ADK, although remember this is still
+- [35:46] quite new is really OpenAI and anthropic
+- [35:49] models. I'll be going for the OpenAI
+- [35:51] model here, but you can also go for
+- [35:52] anthropic as well. Okay, so to do this,
+- [35:55] if you had installed the requirements or
+- [35:56] .txt file, you should not need to do
+- [35:58] this. But if you didn't, you just need
+- [36:00] to pip install light LLM, which is just
+- [36:03] a module in uh Google ADK, which allows
+- [36:06] us to talk to other LLM providers. If
+- [36:08] you want to get access to OpenAI, you
+- [36:10] need to create an OpenAI API key. And to
+- [36:13] do this, you need to go into the OpenAI
+- [36:15] platform and create a new secret key.
+- [36:17] Now, this will cost you money. I think
+- [36:19] the minimum error amount is $5, but if
+- [36:22] you don't want to, you can just simply
+- [36:23] watch this video and keep this in the
+- [36:25] back of your mind. So, but this will be
+- [36:27] quite quick. So if you go to the code
+- [36:29] now which is this the only new thing
+- [36:32] which I've added was is this line from
+- [36:35] Google ADK models.lm import lightn. Now
+- [36:38] one thing to note is the openi API key
+- [36:41] or the anthropic API key must go into
+- [36:43] your uh env file as well. I'm not going
+- [36:46] to show you the env file otherwise my
+- [36:48] API key will be exposed and again I will
+- [36:50] go bankrupt. Now defining the light LLM
+- [36:53] models you have to structure it like
+- [36:55] this. So you write lightm and then the
+- [36:58] model. So your model name provider in
+- [37:00] this case I'm open and the name of the
+- [37:03] model GPD4 mini. You can't simply write
+- [37:06] GPD4 mini or GBD4. It wouldn't work.
+- [37:08] It'll throw you an error. Similarly, if
+- [37:10] you were using claude, it would be
+- [37:11] anthropic/cl
+- [37:14] for example. Now the root agent is again
+- [37:18] quite simple. We're going to again talk
+- [37:20] like a pirate and we will generate a
+- [37:22] social media post about it. We're going
+- [37:24] to keep it concise, relevant, and easy
+- [37:26] to understand. Actually, if it's easy to
+- [37:28] understand, we shouldn't be talking to
+- [37:29] like a pirate. But the main thing here
+- [37:32] is now we've specified the model to be a
+- [37:35] light lm model. So this time, let's run
+- [37:37] it in our command line. So we can do ADK
+- [37:40] run and the name of the folder. In this
+- [37:43] case, the name of the folder is OpenAI
+- [37:45] agent. So open AI agent. And I press
+- [37:48] enter.
+- [37:50] And now we can talk to our open AI
+- [37:52] model. So we can say hi who made you.
+- [37:55] Let's say who made you
+- [37:58] and you can see the light agent is using
+- [38:01] GPT4 mini provider OpenAI and it says hi
+- [38:04] there I was created by a team of
+- [38:06] researchers at OpenAI. Now this
+- [38:08] obviously shows that it's not Google
+- [38:10] because Google wouldn't say this, right?
+- [38:12] But this was a very short subsection to
+- [38:14] really show you that you can use other
+- [38:16] models as well. So yeah, that was the
+- [38:19] end and I'll see you in the next
+- [38:21] section. Okay, so now we're getting into
+- [38:23] slightly more complicated territory and
+- [38:26] we're going to start this off with
+- [38:27] sequential agents. Now, this will be the
+- [38:29] very first time we get to build multiple
+- [38:31] agents in one go. So, what are
+- [38:33] sequential agents? Well, they're agents
+- [38:36] that work in a chain one after another.
+- [38:38] So, how do they work? Well, each agent
+- [38:41] passes its output to the next agent. And
+- [38:43] why do we use them? Well, break complex
+- [38:46] task into simple, more manageable steps.
+- [38:48] Each of these simpler, more manageable
+- [38:50] steps will be completed by one agent
+- [38:52] respectively. So an example we'll be
+- [38:54] coding up is the recipe. So we'll have
+- [38:56] three agents. One will be the research
+- [38:59] agent which finds ingredients and the
+- [39:00] methods and we will give it the Google
+- [39:03] search tool. Number two will be the
+- [39:04] creator agent which writes the recipe
+- [39:06] and number three will be the enhancement
+- [39:08] agent which adds tips and variations to
+- [39:11] this. So it'll be quite a cool agentic
+- [39:13] system we're about to build. So the
+- [39:15] result should be a really detailed
+- [39:17] sophisticated output than what a single
+- [39:20] agent would have completed in one trial.
+- [39:23] So this is a diagram which I created and
+- [39:26] you can see that there are three agents
+- [39:27] agent 1, 2 and three. And it's not
+- [39:29] necessary that the agents have the same
+- [39:32] tools. They could have different tools.
+- [39:34] They might not need a tool. So this
+- [39:36] diagram hopefully tells you that the
+- [39:38] number of tools is unique to each and
+- [39:40] every agent. it doesn't influence the
+- [39:43] other agents output unless if there's an
+- [39:45] error obviously but TLDDLR you can think
+- [39:47] of this as a chain of agents. So let's
+- [39:50] now go into the code. It looks like
+- [39:51] there's a lot of code here but in
+- [39:53] reality it's just the instructions
+- [39:54] inflating the amount of code lines there
+- [39:56] are. So don't get don't panic here. So
+- [39:59] like I just mentioned we need to create
+- [40:01] a recipe research agent which finds
+- [40:03] ingredients and the cooking methods. So
+- [40:06] we've given it the name the tool Google
+- [40:08] search because remember it should be
+- [40:09] able to access the internet to give it
+- [40:11] as some good recipes. Um and this is
+- [40:15] just an instruction culinary researcher
+- [40:17] etc. You get the point. And the output
+- [40:19] key we want to save it to our state as
+- [40:22] re recipe research. The second agent we
+- [40:24] want to create is the recipe creator
+- [40:26] agent which actually creates the recipe
+- [40:29] itself. Now again this will use the same
+- [40:32] model as we have before the same
+- [40:34] underlying LLM and we've given it a name
+- [40:37] and its respective instructions
+- [40:38] description and the output key aka state
+- [40:41] uh parameter it's going to save as and
+- [40:44] the third agent which we wanted to
+- [40:45] create was a recipe enhancement agent
+- [40:48] again using the same LLM as the uh
+- [40:50] background model and these instructions
+- [40:53] and everything but you can see that we
+- [40:55] have now given it a context variable
+- [40:57] this thing in yellow and curly brackets.
+- [41:00] We'll talk more about context variables
+- [41:02] in just a second. But uh for but for
+- [41:07] reference, you can think of context
+- [41:09] variables as like an input which needs
+- [41:11] to be passed to this agent's
+- [41:13] instructions and this will obviously
+- [41:15] come from the previous uh agent and the
+- [41:17] previous agent was a recipe creator
+- [41:19] agent. So to create a sequential agent
+- [41:23] system, you you need to use the
+- [41:25] sequential agent part and I've named it
+- [41:27] recipe development system and a simple
+- [41:30] system that researches, creates and
+- [41:31] enhances recipes. A short description,
+- [41:33] you don't need to provide an instruction
+- [41:35] here. It's completely fine. But this
+- [41:37] parameter is sub aents. Remember how we
+- [41:40] created tools? Well, sub aents kind of
+- [41:42] work like that. You need to specify all
+- [41:44] the sub aents you have in order. So,
+- [41:46] recipe research agent, recipe creator
+- [41:48] agent, recipe enhancement agent in
+- [41:50] sequence. Now, let's run this in ADK
+- [41:52] web. So, I'll quickly write ADK web here
+- [41:55] and I'll again press token streaming and
+- [41:58] go into sequential agent. Okay. Now,
+- [42:01] let's say hi, I want to
+- [42:05] create a recipe regarding chicken
+- [42:10] pasta sauce. You can tell I'm a
+- [42:13] professional chef. and some other
+- [42:15] ingredients.
+- [42:17] Recommend me something.
+- [42:19] All right, let's see what the agent
+- [42:22] says. So, here's a breakdown of popular
+- [42:24] chicken pasta recipes. And you can see
+- [42:26] the chicken preparation and everything
+- [42:29] which is happening. That's event one and
+- [42:31] event two. Okay, based on the research
+- [42:34] uh research for creamy tuskcen chicken
+- [42:36] pasta and number three, this is the
+- [42:39] final recipe. So we're as soon as this
+- [42:41] output finishes, we will talk about this
+- [42:44] in slightly more depth. Wow, that's a
+- [42:46] lot. And that's the end of the request.
+- [42:48] Okay, let's go back here. This is the
+- [42:51] first output and the first output was
+- [42:53] provided by our first agent. If we go
+- [42:55] onto the event zero or the first event
+- [42:57] and press it, you can see that we have
+- [43:00] the recipe development system and we
+- [43:03] have the three agents, recipe research
+- [43:05] agent, recipe creator agent and recipe
+- [43:06] enhancement agent. And you can also see
+- [43:08] that the recipe research agent has the
+- [43:10] Google search tool with it. And because
+- [43:12] this is green, we use the Google search
+- [43:15] tool to come up with a recipe or to find
+- [43:17] a recipe. And the recipe it found based
+- [43:20] on all of the parameters and ingredients
+- [43:23] I told it to. It came up with creamy
+- [43:25] tuskcen chicken pasta. Now we go on to
+- [43:28] the second agent which was this
+- [43:30] response. So this was the first response
+- [43:32] and now this is the second response. And
+- [43:33] you can also see okay based on the
+- [43:35] research which was provided by the
+- [43:36] research agent. Now if I press the next
+- [43:39] agent you can see that it's gone green
+- [43:43] here. It doesn't have any tool cuz we
+- [43:44] didn't give it access to any tools. And
+- [43:46] this was its output which is the exact
+- [43:48] same as here. You can see okay based on
+- [43:51] okay based on the research here's a
+- [43:53] recipe and this the same thing as we can
+- [43:55] see here. And again if we go into the
+- [43:57] third one we can go into event three and
+- [43:59] this is highlighted as green meaning
+- [44:01] that this is the agent which is running
+- [44:02] here and this gives us the final thing
+- [44:04] with cooking tips and variations as well
+- [44:07] and some more suggestions as well. So
+- [44:10] last thing which I want to show you in
+- [44:12] this example is the state and you can
+- [44:16] see that every time an agent completed
+- [44:18] its task I also told it to save it as a
+- [44:21] state. So the recipe researchers final
+- [44:23] answer was here. The final recipe is
+- [44:26] here as well. So the research and the
+- [44:30] final recipe is all being uh recorded in
+- [44:32] the state. And this allows us to create
+- [44:34] stateful agents. And we can use this in
+- [44:36] further conversations. And this state
+- [44:39] will come especially useful when we use
+- [44:42] in-memory service and persistent
+- [44:44] storage. These two terms we will be
+- [44:46] going into shortly. But just remember we
+- [44:48] have now saved this as state. You should
+- [44:50] now know how uh sequential agents work,
+- [44:53] how they look like, how they're
+- [44:54] visualized. You should also find that
+- [44:56] it's really simple to create these
+- [44:58] sequential agents in Google ADK. I mean,
+- [45:00] if we go back to the code and I close
+- [45:02] this, you can see that all I had to do
+- [45:04] was define the um agents like this and
+- [45:08] just write the sub agents and well, we
+- [45:10] created a sequential agent. Now, what's
+- [45:12] the opposite of a sequential agent?
+- [45:14] Well, the opposite of a sequence, well,
+- [45:16] it's parallel. So is there a way we can
+- [45:19] run these agents parallelly or at the
+- [45:21] same time? Well, that's what we will be
+- [45:23] exploring in the next section. Okay, so
+- [45:26] now let's talk about parallel agents.
+- [45:28] What exactly are they? Well, simply put,
+- [45:30] they're agents that work simultaneously
+- [45:33] all at the same time. So how do they
+- [45:35] work? They run in parallel, hence the
+- [45:37] name. But the crucial thing to note is
+- [45:39] that they complete their tasks
+- [45:41] independently. But why do we use them?
+- [45:43] Well, that's also quite obvious. we it
+- [45:46] speeds up complicated tasks by doing
+- [45:48] multiple things at once. So the example
+- [45:51] we'll be coding in this time uh will be
+- [45:54] a travel planning system and it will
+- [45:56] contain three agents. Number one, it
+- [45:58] will contain a hotel agent which will
+- [46:00] search for accommodation options, the
+- [46:03] restaurant agent which will find dining
+- [46:05] experiences and the activities agent
+- [46:07] which discovers things to do. The result
+- [46:10] should be hopefully a system which
+- [46:12] produces faster completion and more
+- [46:14] comprehensive results from multiple
+- [46:16] sources. Now, TLDDR, if you uh want to
+- [46:20] skip, it's just think of them as agents
+- [46:22] working side by side. And I created a
+- [46:24] diagram here to hopefully illustrate
+- [46:26] that. You have your first agent or it
+- [46:28] could be an input query by the user. And
+- [46:31] you have your parallel agents working at
+- [46:33] the same time independently. And they
+- [46:35] can have uh one tool, two tools, no
+- [46:38] tools, it doesn't it doesn't matter.
+- [46:40] They're completing tasks independently.
+- [46:42] Meaning their tool allocation or the
+- [46:44] number of tools they each have is
+- [46:46] independent. All right. So, I'll see you
+- [46:48] in the code. Okay. So, here's the code.
+- [46:51] Honestly, once we go through it, you
+- [46:53] will see that it's largely the same as
+- [46:55] the sequential agent which we covered in
+- [46:56] the last section. The only key
+- [46:58] difference here is this keyword, which
+- [47:00] is a parallel agent. We swapped it out
+- [47:02] for the sequential agent keyword. But
+- [47:05] you will see that there's these two
+- [47:06] lines input OS and this open telemetry
+- [47:09] package. The reason I've included this
+- [47:11] here is because I was personally having
+- [47:13] quite some trouble running this on ADK
+- [47:16] web. It runs completely fine on ADK CLI.
+- [47:18] It also runs fine on ADK web except the
+- [47:21] interface part where it shows which
+- [47:23] agent is running at once. That is a bit
+- [47:26] buggy. So that's I did some research.
+- [47:29] It's to do with something called open
+- [47:31] telemetry. It's not really to do with um
+- [47:33] Google ADK. It's the internal asyncio
+- [47:35] package. So even if you run this in CLI,
+- [47:38] you don't need to use it. I just put a
+- [47:40] rotor here because some of you might use
+- [47:42] this on ADK web and it might not work.
+- [47:45] So that's why I've included this here.
+- [47:46] Remember Google ADK is still a library
+- [47:49] which is under development and its
+- [47:50] updates are happening daily. So be
+- [47:52] cautious about that. But let's continue
+- [47:54] with the code now. So remember I
+- [47:57] mentioned that there will be three
+- [47:58] agents. The first agent is the hotel
+- [48:00] search agent which is has a name, the
+- [48:02] model and the tools. Each of these tools
+- [48:05] each of these agents will have one tool
+- [48:06] which is Google search. The description
+- [48:08] is as follows and you can see the
+- [48:09] instruction as well. The output key I
+- [48:12] want to save it in the state hotel
+- [48:13] options. Similarly, the restaurant agent
+- [48:16] is quite similar as well. Almost exactly
+- [48:18] the same. It's just it's specific to
+- [48:20] restaurants. And again, the same thing
+- [48:22] with activities. Now, the main
+- [48:25] difference between the previous sections
+- [48:26] code is here. Rather than coding it as a
+- [48:29] sequential agent system, we've got it as
+- [48:31] a parallel agent system. And the sub
+- [48:33] agents are these three. We've got a
+- [48:36] short description of what's happening,
+- [48:37] what this system is supposed to do and
+- [48:39] we've got the name of the system as
+- [48:41] travel planning system. Now if you run
+- [48:43] this on ADK uh CLI or command line
+- [48:46] interface, I've already run it for you
+- [48:48] to like save some time and here you can
+- [48:50] see that I have written hi can you give
+- [48:52] me recommendations for your respective
+- [48:54] things for my trip to London. So I'm
+- [48:56] planning a trip to London. I want this
+- [48:58] travel planning system which is this
+- [49:00] entire system of parallel agents to be
+- [49:03] able to provide me with hotels
+- [49:05] activities and restaurants. So if you
+- [49:08] look closely you can see that this is
+- [49:10] the restaurant search agents response.
+- [49:13] So you can see here is a summary of
+- [49:14] dining recommendations for your trip to
+- [49:16] London. And notice how all of this is
+- [49:18] specific to restaurants. it's not
+- [49:21] conflicting with the hotel outputs or
+- [49:23] activity outputs because all of these
+- [49:25] tasks run independently. Similarly, once
+- [49:28] that's done, then we have the hotel
+- [49:30] search agent which also ran at the same
+- [49:32] time and this was specific to hotels.
+- [49:35] And lastly, you can see that there is
+- [49:37] the activity search agent uh which has
+- [49:40] produced some activities such as going
+- [49:41] to Buckingham Palace, some outdoor
+- [49:43] activities and all of these agents use
+- [49:45] the Google search tool internally. So
+- [49:48] that was the final output.
+- [49:50] Now this was quite simple and really to
+- [49:53] build upon this I have a little bit of a
+- [49:55] homework task for you. Okay homework. So
+- [49:58] to really consolidate this I want you to
+- [50:00] take our parallel agent system which you
+- [50:02] can get on GitHub again and then add
+- [50:04] another agent at the end of it so that
+- [50:06] it takes all of the three inputs and
+- [50:08] summarizes everything to the user. It
+- [50:10] should look something like this diagram
+- [50:11] which I've made. Now why do I want a
+- [50:13] summary agent? Well, if you just saw
+- [50:15] this was well a lot of information and
+- [50:18] if you have more than three agents for
+- [50:20] example, it could get quite overwhelming
+- [50:22] quite quickly. So your task is to create
+- [50:25] this sort of uh agentic system. The user
+- [50:28] will request something like I did about
+- [50:30] the London thing which I requested
+- [50:33] uh here
+- [50:35] something similar to that and then the
+- [50:37] three agents will run parallelly. they
+- [50:38] will all have uh their Google search
+- [50:41] internal tool and all of their outputs
+- [50:43] will be then passed to the summary
+- [50:44] agent. So this is the agentic system you
+- [50:47] need to make as the homework. Once
+- [50:48] you've done that, I will see you in the
+- [50:50] next section. So in this section, we'll
+- [50:52] be talking about session agents. Now
+- [50:54] here's where we start moving towards
+- [50:56] memory. This is going to be quite
+- [50:58] complicated and this is quite advanced
+- [51:00] as well. So it's fun, but be prepared.
+- [51:03] Ready? Here we go. So before we dive in,
+- [51:06] two quick notes. Number one, sessions
+- [51:08] are quite important. We've mentioned
+- [51:10] sessions quite a lot of times already,
+- [51:11] but now we'll actually define it. And
+- [51:14] number two, we won't always be using ADK
+- [51:16] web and ADK run and ADK CLI, especially
+- [51:19] not in production. So let's try to come
+- [51:21] up with a way which we can run our
+- [51:23] agents without having to use the ADK web
+- [51:26] or ADK run package. So let's define
+- [51:28] session. Honestly, you can think of a
+- [51:30] session as a conversational thread
+- [51:32] attached to a specific user. And a
+- [51:35] state, which is also something we've
+- [51:36] mentioned before, is a Python dictionary
+- [51:39] representing session memory or the bot's
+- [51:41] context. So at the create time, we
+- [51:44] initialize values the agent might need
+- [51:46] and it includes temporary flags, user
+- [51:48] preferences, conversion steps, etc. All
+- [51:50] of these are things which the state
+- [51:52] might include. Here we talk about three
+- [51:54] more uh components and I've tried to
+- [51:56] give it as a chef analogy. So hopefully
+- [51:59] it starts to make sense. Number one is
+- [52:02] the agent. And in this analogy, you can
+- [52:04] think of it as the chef. The agent wraps
+- [52:06] our language model with a prompt
+- [52:08] template. So you can think of the chef
+- [52:10] who follows a recipe with blanks.
+- [52:12] Example, username, favorite color that
+- [52:14] gets filled in at runtime. Here,
+- [52:16] username and favorite color are context
+- [52:18] variables in our example code which
+- [52:20] we're about to see. And the crucial
+- [52:23] thing is the chef never forgets to read
+- [52:25] the recipe before cooking. So remember
+- [52:27] that point. Next thing which I want to
+- [52:28] talk about is the session service and
+- [52:30] this is the notepad in our analogy. So
+- [52:34] it stores per user per session state aka
+- [52:37] memory. So it acts like a notepad where
+- [52:40] you jot down each user's preference
+- [52:42] counters or other context which might be
+- [52:44] important. And before every response the
+- [52:47] chef aka the agent it glances at the
+- [52:50] notepad to know what ingredients to use.
+- [52:52] The final thing which we need to talk
+- [52:54] about is the runner. And in this
+- [52:56] analogy, the the it's been represented
+- [52:58] as a waiter. So it orchestrates the
+- [53:00] entire flow. When the user sends a
+- [53:02] message, it grabs the correct notepad,
+- [53:04] hands it, and the users's order to the
+- [53:06] chef, and then brings back the chef's
+- [53:08] answer. You can think of it as kind of
+- [53:10] like a messenger, and it ensures that
+- [53:12] the chef always works with the freshest
+- [53:14] information. Now, this might not mean
+- [53:16] much to you, but I promise you in the
+- [53:18] code, it will make a lot more sense. But
+- [53:20] visually speaking, a runner can honestly
+- [53:22] be viewed as this. It's really just a
+- [53:25] fusion of the session and the agent
+- [53:27] combined into one and it passes the
+- [53:29] information between the chef and the
+- [53:31] notepad aka the session service. Now
+- [53:34] going back to the session service, this
+- [53:36] is the most crucial point in Google ADK.
+- [53:39] There are three main types of session
+- [53:40] services. The first is in-memory session
+- [53:43] service. Now this stores all session
+- [53:45] data directly in the application's
+- [53:47] memory. So it has no persistence. Now
+- [53:50] what does persistence mean? Well, it
+- [53:51] means that data is lost as soon as the
+- [53:53] application is closed. So, let's say if
+- [53:55] I'm having a conversation with my agent
+- [53:57] and I just close the application, it
+- [54:00] won't remember what I just talked about
+- [54:02] if I reload the application because it's
+- [54:04] non-persistent. The data is lost. So, to
+- [54:07] combat that and to have persistent
+- [54:08] storage, there's two other methods. The
+- [54:11] Vertex AI session service which uses
+- [54:13] Google Cloud's Vert.ex X AI
+- [54:15] infrastructure and we can communicate
+- [54:16] this with via API calls and this is used
+- [54:19] for session management and is
+- [54:21] persistent. So it's best for scalable
+- [54:23] production applications deployed on
+- [54:25] Google cloud. Now this is slightly out
+- [54:27] of scope for this tutorial. But the
+- [54:30] third one is what we'll be also using in
+- [54:32] the next section and that is database
+- [54:34] session service. So that connects to a
+- [54:36] relational database example these
+- [54:38] databases and they store session data
+- [54:40] persistently in tables. Now, it's best
+- [54:44] used for applications needing reliable
+- [54:46] persistent storage that crucially you
+- [54:48] manage yourself. Now, the above
+- [54:50] information was all taken from this
+- [54:52] documentation. So, if you want, you can
+- [54:54] click on this link and you can uh read
+- [54:56] more in depth about it. But I built this
+- [54:58] visualization to try to help clear some
+- [55:00] doubts about what a session service is,
+- [55:02] especially if this is your first time
+- [55:03] hearing about it. Imagine I am having a
+- [55:05] conversation with my agent. So, this is
+- [55:08] me. I sent it a message and it needed to
+- [55:10] uh produce a use a tool and then it
+- [55:12] outputed. Then I sent another message
+- [55:14] and then it uh responded again and so on
+- [55:16] and so on. This entire thing this state
+- [55:19] plus this conversation it counts as a
+- [55:21] session. Now you see this this is the
+- [55:24] unique identifier for the session. How
+- [55:26] did I get this number or a string? I
+- [55:28] honestly just uh spam my keyboard. But
+- [55:31] that's not the important part. The
+- [55:32] important part here is the session
+- [55:34] consists of the state and the
+- [55:36] conversation. Now events are things like
+- [55:38] the user message tools agent responses
+- [55:41] and all of these user message tools and
+- [55:43] agent responses you see I just didn't
+- [55:45] draw arrows to all of them because then
+- [55:47] the diagram would become cluttered
+- [55:49] similarly you can see that another
+- [55:51] session has happened here and again what
+- [55:53] did we define a session as. If we scroll
+- [55:55] up, we said session is a conversational
+- [55:57] thread attached to a specific user.
+- [56:00] Meaning that within our app, this could
+- [56:03] be one user, let's say person A, and
+- [56:06] then person B could be having a separate
+- [56:08] conversation conversational thread aka
+- [56:10] separate session with our agent. And all
+- [56:13] of this in is encompassed by the session
+- [56:16] service, which are these three session
+- [56:18] services we have available. This is a
+- [56:20] little bit more description of how it
+- [56:22] works. We've already gone uh through it,
+- [56:24] but now let's jump into the code and see
+- [56:26] how this actually plays out. So now in
+- [56:29] this uh subsection, we're going to be
+- [56:31] using the in-memory session service. But
+- [56:33] let's quickly look at all the imports
+- [56:34] we've done. Number one, UU ID. This is a
+- [56:38] library which is used to generate a
+- [56:39] unique session ID. Remember the uh the
+- [56:42] string which you saw where I span my
+- [56:44] keyboard. That's what this library does
+- [56:46] for us. So the second line is from
+- [56:49] Google.k.essions sessions import this
+- [56:51] service and again inmemory service is
+- [56:55] something which stores the user data
+- [56:56] it's one of the three session services
+- [56:58] we looked at then we already know what
+- [57:00] an agent is we discuss what a runner is
+- [57:02] these are the types and this is our envo
+- [57:05] API keys here perfect now we define our
+- [57:07] agent and I've called it chef to stay
+- [57:10] true to our analogy here and I've called
+- [57:13] it information agent and it's going to
+- [57:15] use Gemini as the underlying LLM but why
+- [57:17] have they called it information agent
+- [57:19] the main task of this agent is to have
+- [57:21] the instruction as the user's favorite
+- [57:23] color is this, their name is this and
+- [57:26] their favorite subject is this and then
+- [57:28] I have to the agent has to answer
+- [57:29] questions about it. So it's quite a
+- [57:31] simple agent uh but it proves why these
+- [57:34] session services are quite important. So
+- [57:37] again, this instruction which you saw
+- [57:40] here is a prompt template with
+- [57:42] placeholders also known as context
+- [57:44] variables filled using session state
+- [57:46] before each invocation. To actually
+- [57:48] instantiate the session service, we use
+- [57:50] this inmemory. Session service is a
+- [57:53] session backend that stores
+- [57:55] conversational state in memory. So you
+- [57:57] saw the diagram which we just saw where
+- [57:59] we were having conversation with our
+- [58:01] agent. Uh that's what this will store
+- [58:04] but it's non-persistent. So as soon as
+- [58:06] we close up the application, it will
+- [58:08] just go and disappear. Now we generate
+- [58:09] the unique session ID and we use that
+- [58:11] UYU ID library which we imported the
+- [58:14] first line. Now we create the session.
+- [58:16] So we instantiated the service but now
+- [58:19] we actually create the new session for
+- [58:21] this user. So the app name we'll call it
+- [58:24] information app. Uh we'll say the user
+- [58:26] ID is my name Vev. the session ID which
+- [58:29] we got from this and the state and this
+- [58:33] state will be passed to the agent via
+- [58:35] our runner and it will the agent will
+- [58:38] know okay this is the favorite color
+- [58:40] this is the user's name and this is
+- [58:42] their favorite subject so the runner aka
+- [58:44] which we have defined here is the
+- [58:46] manager that coordinates between the
+- [58:48] chef and the notebook hopefully things
+- [58:50] are starting to make sense but if it's
+- [58:52] not it's fine we'll proceed slower now
+- [58:54] we send a message aka the user message
+- [58:57] as you can see by here ro user and we've
+- [59:00] asked it what is my name and what color
+- [59:02] do I like so based on this it should
+- [59:05] really say the name is this and their
+- [59:07] favorite color is green okay and now
+- [59:10] here is this piece of code for EV and
+- [59:13] waiter run this is what the wait uh the
+- [59:16] waiter performs so let's talk a bit more
+- [59:18] about this so as soon as this for loop
+- [59:21] is executed the runner basically
+- [59:23] retrieves the session by user ID and
+- [59:25] session ID now Why? Because in this line
+- [59:28] you can see here waiter.run user id is
+- [59:32] passed the session ID is passed and the
+- [59:33] new message which is this is also
+- [59:36] passed. So that checks out. Then
+- [59:38] internally the placeholders aka these
+- [59:42] context variables which you saw here
+- [59:46] are filled out with the state which
+- [59:48] we've passed which is these okay and
+- [59:52] then the Gemini uh Gemini which is our
+- [59:54] base LM which we define in the agent uh
+- [59:56] that gets called and then the final
+- [59:58] output is respond is outputed and we see
+- [60:00] the message once that's all executed we
+- [60:04] now manually fetch that session from
+- [60:06] memory so we can inspect its state and
+- [60:08] then we print the updated state. So
+- [60:10] let's take a look at how this works. To
+- [60:12] run this, I will just press the run
+- [60:14] button
+- [60:17] and we've got our output. So you can see
+- [60:19] the final session state is correct. It's
+- [60:21] green. It's my name and it's mathematics
+- [60:23] which I passed. Where did I pass this
+- [60:25] again? You can see hey favorite color
+- [60:27] was green. This was my name and my
+- [60:28] favorite subject is maths. Now this
+- [60:31] piece of code here was executed based on
+- [60:35] here for event in writeer.run. So let's
+- [60:39] walk through this a bit cuz this is
+- [60:40] going to be the part which might confuse
+- [60:42] you. So here you can see that there is
+- [60:45] the part here. Let me actually clear
+- [60:47] this up. One second. Clear and run
+- [60:50] again.
+- [60:52] You can see that the text is your name
+- [60:55] is Vera and you like the color green.
+- [60:58] But who came up with this? Well, that
+- [61:00] was the underlying Gemini model. As you
+- [61:02] can see, Gemini is called and we got our
+- [61:04] output. Now, why is there only a single
+- [61:07] iteration here? You can see that I
+- [61:09] printed this dash line to say when the
+- [61:12] final response is outputed. But
+- [61:13] realistically, there was only a single
+- [61:15] event which happened. Why? Because all I
+- [61:18] asked it to do was tell me what my name
+- [61:21] is and what my favorite color is. That
+- [61:23] still only counts as one event. But here
+- [61:26] we've printed the final response. And if
+- [61:28] that has content, which it does, which
+- [61:31] the content being this, we output that
+- [61:33] and we print it. And this line here is
+- [61:36] what you can see here. Your name is V of
+- [61:38] MER and you like the color green. Now
+- [61:40] for this final session state, it was
+- [61:42] printed through this for loop. There
+- [61:44] were three uh print statements. Uh there
+- [61:47] were three key value pairs which were
+- [61:50] favorite color, name, and favorite
+- [61:51] subject. And that's what's being printed
+- [61:53] here. So that's all well and good, but
+- [61:56] here's a problem. So, let me clear this
+- [61:58] screen and let me go here and let me
+- [62:01] change my user message. Now, let's say,
+- [62:04] can you also change my favorite color to
+- [62:09] red? Okay, still quite a basic question,
+- [62:12] but watch what happens after I run this.
+- [62:15] You can see from the response that it
+- [62:17] says, however, I cannot change your
+- [62:18] preferences. I can only remember and use
+- [62:20] the information you provide. You're free
+- [62:22] to like whatever color you want. Uh so
+- [62:25] quite unhelpful uh response and you can
+- [62:27] see that the final session state is
+- [62:29] still the exact same original sessions
+- [62:32] uh the original state we provided. So
+- [62:34] that's a problem. Uh and we've learned
+- [62:37] something at least which is that the
+- [62:38] model can't modify the state by itself.
+- [62:41] So we need a different way to be able to
+- [62:43] parse it. So how do we do that? Well,
+- [62:47] let's brainstorm and go to the drawing
+- [62:49] board. Things we can potentially do.
+- [62:51] one, we can manually update the state
+- [62:53] ourselves using something like this
+- [62:55] pseudo code which I've provided. But
+- [62:57] here's a problem. If we have many
+- [62:59] different context variables, we're going
+- [63:01] to have to do this for every single one
+- [63:02] of them. And this will be quite long and
+- [63:05] it will be prone to human errors. So the
+- [63:07] second option is we use the LLM, just
+- [63:09] the LLM to return structured output, aka
+- [63:12] to return something which we can use and
+- [63:15] pass to something else something like
+- [63:18] this. But there's a problem with this as
+- [63:20] well that this could be problematic
+- [63:22] because the LM outputs are stocastic and
+- [63:25] we would prefer something which is
+- [63:26] completely deterministic. So the third
+- [63:29] way is to use ADK tool calling or using
+- [63:32] tools. But this could be quite
+- [63:34] complicated to integrate. Wouldn't it be
+- [63:35] better if we had something simpler? So
+- [63:37] the final option is using structured
+- [63:40] outputs where we can go for this since
+- [63:42] it's good practice and we're building on
+- [63:44] top of what we've learned in a previous
+- [63:45] section. To be honest, we'll be using
+- [63:47] quite a lot of this anyway. To be
+- [63:50] honest, we'll be using a little bit of
+- [63:51] each of them anyway. So, you'll see what
+- [63:53] I mean in the code. So, if we go to the
+- [63:55] code now, the code here is largely the
+- [63:58] same except now we're using Pyantic
+- [64:00] again to be able to create our
+- [64:02] structured outputs. Remember, if you
+- [64:04] don't know about Pyantic, it's
+- [64:06] completely fine. You don't need to know
+- [64:07] Pyante. But there will be a future
+- [64:09] tutorial on data cam on this channel, so
+- [64:11] you can watch that if you want to. But
+- [64:14] going uh forwards we're creating the
+- [64:16] same agents but this time with a better
+- [64:18] instruction having some slight nudges to
+- [64:21] get what sort of output we want. And
+- [64:24] this is the output schema we've asked
+- [64:26] for. So the state output which is a
+- [64:27] schematic using panantic. We're setting
+- [64:29] up the in-memory session service again
+- [64:32] and we're providing the session ID and
+- [64:34] now we create the session once more with
+- [64:36] the original state. We created the same
+- [64:38] runner. We've now changed the message
+- [64:41] which we want. We're going straight for
+- [64:43] please change my favorite color to red
+- [64:44] and please change my favorite subject to
+- [64:46] computer science. This model or this
+- [64:48] architecture should also be smart enough
+- [64:50] to know that it should not change the
+- [64:52] name or modify it at all. We uh run the
+- [64:54] agent and capture the raw outputs and we
+- [64:57] grab the updated session and let's just
+- [64:59] see what actually came out. So this was
+- [65:02] the output and you can see that the this
+- [65:05] is the final state which is read my name
+- [65:08] and computer science. It's done what we
+- [65:10] wanted it to. The favorite color was
+- [65:12] red. The favorite subject was computer
+- [65:14] science. And the name has been
+- [65:15] completely preserved. So this is a way
+- [65:17] you can use structured outputs to be
+- [65:20] able to change your state. Now there is
+- [65:23] one more way to change the state and
+- [65:25] this is the proper way and that's
+- [65:27] something called tool context which
+- [65:29] we're about to cover in the next
+- [65:30] section. In the next section also we'll
+- [65:33] be covering the persistent storage which
+- [65:35] we've been discussing. So I'll see you
+- [65:37] there. So this is the final section for
+- [65:39] this tutorial and it's quite a big one
+- [65:41] because everything will start hopefully
+- [65:43] clicking now. So persistent agents, what
+- [65:46] are they? Well, they are uh agents that
+- [65:48] remember our data and progress even
+- [65:50] after we close and reopen the app. We've
+- [65:52] already discussed this before, but what
+- [65:54] are we going to be coding in this
+- [65:55] section? Well, we I've decided to build
+- [65:58] a habit tracking agent. When we start
+- [66:00] the app, it should be able to check if
+- [66:02] we already have a session. If we have
+- [66:04] already got a session, it should be able
+- [66:06] to load that session. Or if we have
+- [66:09] never created a session before, i.e.
+- [66:11] this is the first time the user is using
+- [66:13] the session, then it should be able to
+- [66:15] create it automatically for us. It
+- [66:16] should have three tools. It should be
+- [66:18] able to add habits, view habits, and
+- [66:20] delete habits. And it should all of
+- [66:22] these changes should be saved to a local
+- [66:24] database. That way, our data is safe and
+- [66:26] persistent. So that's the goal. And the
+- [66:29] thing which I mentioned briefly in the
+- [66:31] end of last section was tool context. So
+- [66:34] tool context just it's a bit of an
+- [66:36] advanced topic. It's slightly beyond the
+- [66:38] scope of this video. I've chose to
+- [66:39] include it because I'm think you can uh
+- [66:41] understand it. But in the most simplest
+- [66:44] term possible, it's really just a way
+- [66:47] for uh giving our tools direct access to
+- [66:50] the current session state. So we can
+- [66:52] read and update the habits
+- [66:53] automatically. And we do this by using
+- [66:56] tool context. So you'll see that in the
+- [66:58] code. So TLDDR, think of persistent
+- [67:02] agents as our personal memory keepers.
+- [67:04] They make sure our progress and
+- [67:06] preferences are always remembered. So
+- [67:08] let's go build this habit tracking
+- [67:10] agent. Right off the bat, you can see
+- [67:11] that we've imported the database session
+- [67:13] service. And this is instead of the
+- [67:15] in-memory session service which we
+- [67:17] imported in the previous section. We now
+- [67:19] load our API keys and these three
+- [67:22] constants are created. So this is the
+- [67:25] persistent storage file aka where the
+- [67:26] database is located. This is the name of
+- [67:29] our app which is habit tracker and this
+- [67:31] is the user ID which is me and this will
+- [67:33] identify the user. We'll be modifying
+- [67:35] the user ID in just a bit as well. Now
+- [67:38] it comes to the tools. Now you don't
+- [67:39] need to understand the internal
+- [67:40] mechanics of these tools. That's not
+- [67:42] what this section is for. The reason
+- [67:44] this section was created was to help
+- [67:47] click things about sessions, events,
+- [67:49] runners, agent, all of that stuff. So
+- [67:51] just briefly looking at the tools you
+- [67:54] will see that we've got our dock string
+- [67:56] and we've got tool context here. So what
+- [67:58] happens is that the tool context first
+- [68:01] retrieves the state aka the habits and
+- [68:04] at first the habits is obviously going
+- [68:06] to be an empty list. It then appends the
+- [68:08] habit to this list and then it prints
+- [68:11] yep added habit and it returns the
+- [68:13] action and that we fact that we've added
+- [68:15] it. If this fails aka if there's no tool
+- [68:18] context provided somehow I've also
+- [68:20] written a short script which is uh where
+- [68:22] we manually update the session that's
+- [68:24] only as a fail safe mechanism. If we go
+- [68:26] to the view habit, it's something
+- [68:28] similar. Rather than appending the
+- [68:30] habit, all we need to do is view the
+- [68:31] habit. And that can be simply done by
+- [68:34] just using get. And again, I've created
+- [68:36] a simple fail save mechanism here as
+- [68:38] well if tool context is not provided.
+- [68:41] And lastly, for deleting habits, we're
+- [68:43] going to be getting the habits and we're
+- [68:45] going to be popping aka removing that
+- [68:47] habit from the state. And again, a fail
+- [68:50] safe mechanism here, which you don't
+- [68:52] really need to worry about. Here is
+- [68:53] where we've defined our agent. So I've
+- [68:56] got the name of the agent, the
+- [68:57] underlying model description, and what
+- [68:59] tools to use. And these are the list of
+- [69:01] tools it it has access to. Perfect. Now
+- [69:05] we create the session state. So we've
+- [69:07] used the database session service. And
+- [69:08] we've passed in the parameter of
+- [69:10] database URL as you can see here. And
+- [69:12] this is the initial state. So the
+- [69:14] username, which is my name, and the
+- [69:16] habits is nothing cuz we don't have any
+- [69:18] habits to begin with. Right now, here's
+- [69:20] the most important part of this code.
+- [69:22] this if statement here, it checks if
+- [69:24] we've already got a pre-existing
+- [69:26] session. If we have a pre-existing
+- [69:28] session before, aka the user has already
+- [69:30] got a conversational thread going on
+- [69:32] with the agent, then it loads that
+- [69:34] session ID using this. But if it doesn't
+- [69:37] and this is the first time that user is
+- [69:39] talking with the uh agent, then we use
+- [69:41] this session ID. We create it. Then we
+- [69:43] create the runner. And this is just for
+- [69:45] debugging purposes, which I've put
+- [69:47] honestly. We can just comment it out. Uh
+- [69:49] but if you want once you if you do run
+- [69:51] this code you can put it to keep track
+- [69:53] of the flow. Then we use this function
+- [69:55] to ask the agent we uh run it for every
+- [69:58] single event and we only print the final
+- [70:00] response cuz there will be four events
+- [70:03] which will happen per request. You'll
+- [70:04] see what I mean in just a second. And
+- [70:06] this is the main function where we keep
+- [70:09] on continuously call ask the agent by
+- [70:12] this while loop. That was quite a lot.
+- [70:14] Yeah. Let's actually run this now.
+- [70:17] You will see that there should be a
+- [70:19] database appearing here soon.
+- [70:22] There it is. Habit database. So let's
+- [70:23] quickly inspect it. So if we go here,
+- [70:26] you should see that in terms of events,
+- [70:29] there's no event. But in terms of
+- [70:30] session, there's already one session
+- [70:32] which is created which is my name. Why?
+- [70:35] Cuz we already manually created the
+- [70:37] session here which was over here cuz we
+- [70:40] didn't have a session before. So it
+- [70:42] automatically created the session for
+- [70:43] us. Now let's actually ask some things
+- [70:45] for uh for the agent to do. So say hey
+- [70:49] can you add the habit of me having to
+- [70:52] run 5k every day for example
+- [70:56] and these are the habits and it says hey
+- [70:59] I've added the run 5k every day to your
+- [71:01] habits. So if we go into the database
+- [71:03] and check the sessions and check the
+- [71:05] state parameter you will see that under
+- [71:08] my username we have a new habit run 5k
+- [71:11] every day. But in terms of events now
+- [71:14] there's four events. But why is there
+- [71:16] four events for one single request? Well
+- [71:19] for starters this if we go into the
+- [71:21] content p you can see this was my
+- [71:23] request. Hey can you add the habit of me
+- [71:25] running 5K every day. Then the second
+- [71:27] event was actually calling the tool. So
+- [71:30] in this case we have you internal model
+- [71:32] has used add habit. You can see it's the
+- [71:34] model because the role is model. And the
+- [71:36] third event is the tool response and it
+- [71:39] was add habit run 5K every day showing
+- [71:42] that it was successful. And then the
+- [71:44] final was the event of the agent
+- [71:46] actually outputting back to us which was
+- [71:48] hey I've added this habit to your
+- [71:50] habits. So that's why for every single
+- [71:52] request there will be four events which
+- [71:54] will be happening if we proceed. Let's
+- [71:56] say if we want to create another habit,
+- [71:58] say, can you also add the habit of me
+- [72:03] learning
+- [72:05] Spanish every week? And it looks like
+- [72:09] it's also done that as well. If we check
+- [72:11] the database, you can see
+- [72:14] that the number of sessions, it's still
+- [72:16] one because I'm the only person who's
+- [72:18] used this app so far under this user ID.
+- [72:21] If I go into events, you will see that
+- [72:24] now there's eight events because we've
+- [72:26] got we've sent two requests. And if we
+- [72:29] go back to the session and look at the
+- [72:30] state, you will see that there are both
+- [72:32] of our habits now. Perfect. So, this is
+- [72:35] working. The add habit tool at least is
+- [72:37] working. Now, let's say I want to delete
+- [72:39] uh the run 5K everyday habit. So, I want
+- [72:42] to delete the run 5K everyday habit. And
+- [72:47] you can see we've got this to delete one
+- [72:49] 5k every day which is habit number one
+- [72:51] say delete one. Now why did it ask this?
+- [72:54] Because in the code I had mentioned it
+- [72:56] to give the index as well. So we can say
+- [73:00] delete run 5k every day which is habit
+- [73:04] one. And this should work now.
+- [73:09] Perfect. It does look like it. No
+- [73:10] problem. I've deleted habit one. So if
+- [73:13] we go here relaunch this database
+- [73:17] you will see in terms of the state that
+- [73:20] that is gone. So we only are left with
+- [73:23] this. Now if I close this now and clear
+- [73:26] everything. And now I'm going to change
+- [73:29] one thing which is the user ID. So let's
+- [73:31] say the user ID is Bob for example. And
+- [73:33] let's also change the name of this as
+- [73:35] well. Now if I run this, what do you
+- [73:37] think will happen? This is the most
+- [73:39] important part of this whole tutorial.
+- [73:40] If you get this, then you've understood.
+- [73:42] So, let's say I say, "Hey, can you add
+- [73:45] the habit of me
+- [73:48] cooking or something every day?" Not
+- [73:50] much of a habit, I know, but it's still
+- [73:52] there for Oh, there we go. Uh, hey, I've
+- [73:55] Hey, Bob, I've added cooking every day
+- [73:57] to your habit list. Now, if we go to the
+- [73:59] database and look at the sessions. Now,
+- [74:02] here's the most crucial point. You can
+- [74:04] see there's two different sessions which
+- [74:06] have been created. My personal one and
+- [74:08] then Bob who's another agent. So under
+- [74:10] the exact same app name we've now two
+- [74:12] sessions aka two conversational threads
+- [74:14] going on. If we look at the events you
+- [74:17] can see all the different events which
+- [74:18] were occurring. So if we look at the
+- [74:21] user ID these are all the events which I
+- [74:23] did and these are all the events which
+- [74:25] Bob did. And that is the end of this
+- [74:27] tutorial. I hope you learned a lot. It
+- [74:29] was quite intensive especially near to
+- [74:31] the end. But with a little bit of
+- [74:33] practice and doing the homework
+- [74:34] exercises I provided him you should be
+- [74:36] able to master Google ADK soon. To
+- [74:39] summarize what we've learned, you can
+- [74:40] see all of the different agents we
+- [74:42] created here. And if you want to build
+- [74:44] yourself to another level, to a further
+- [74:46] level, then I highly recommend checking
+- [74:48] out the course down below on data camp.
+- [74:50] It will take you to an even more
+- [74:52] advanced level than we already are at.
+- [74:54] If you have any comments, feedback,
+- [74:56] criticism, or any questions in general,
+- [74:58] then feel free to comment them down in
+- [75:00] the comment section below. And I will
+- [75:02] see you in another tutorial. Bye for
+- [75:05] now.
+- [75:09] [Music]

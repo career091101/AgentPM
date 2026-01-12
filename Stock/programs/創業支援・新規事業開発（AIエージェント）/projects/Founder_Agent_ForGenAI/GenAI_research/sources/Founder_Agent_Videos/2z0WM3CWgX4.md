@@ -1,0 +1,1103 @@
+---
+title: "YouTube Video: 2z0WM3CWgX4"
+video_id: "2z0WM3CWgX4"
+video_url: "https://www.youtube.com/watch?v=2z0WM3CWgX4"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Business Strategy"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Business Strategy"
+summary: |
+  We have to talk about the ads. >> Oh, here we go. Okay, straight in. Let's go. >> So, yes. Okay, >> for those of you who don't know, you all had to get up here by going up an escalator and there's the...
+key_points:
+  - ">> I would say first of all thank you very"
+  - "leads from that. So first thank you. Um,"
+  - "secondly, I would say AI in its current"
+category: "Business"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2z0WM3CWgX4
+
+- URL: https://www.youtube.com/watch?v=2z0WM3CWgX4
+- Retrieved at: 2025-12-30T09:28:20+09:00
+
+## Text
+
+- [00:03] We have to talk about the ads.
+- [00:04] >> Oh, here we go. Okay, straight in. Let's
+- [00:07] go.
+- [00:07] >> So, yes. Okay,
+- [00:08] >> for those of you who don't know, you all
+- [00:10] had to get up here by going up an
+- [00:12] escalator and there's the big activation
+- [00:15] that says, "Stop hiring humans." That's
+- [00:17] Jasper's company. Yeah.
+- [00:19] >> And earlier this week, Bernie Sanders
+- [00:21] posted an ad and asked, "How will those
+- [00:24] displaced workers survive when there are
+- [00:26] no jobs or income for them?"
+- [00:27] >> He actually also said, "Great idea." So
+- [00:29] [laughter] let's we look at the balance.
+- [00:31] >> I think he might have been sarcastic but
+- [00:33] but what would you say to him in
+- [00:35] response?
+- [00:36] >> I would say first of all thank you very
+- [00:38] much for the free sponsored post. That
+- [00:39] was very kind. We got a lot of a lot of
+- [00:41] leads from that. So first thank you. Um,
+- [00:45] secondly, I would say AI in its current
+- [00:48] state, as much as we say stop hiring
+- [00:50] humans and we have very dramatic
+- [00:51] advertising, if it continues on the part
+- [00:54] that's on now, I actually think could
+- [00:56] create more jobs than it would take,
+- [00:57] unless there's some significant
+- [00:58] advancement in AI that likely isn't an
+- [01:01] LLM, I do think it's going to be like a
+- [01:04] singledigit multiple of productivity and
+- [01:06] going to be taking over the mundane
+- [01:08] repetitive work that humans don't enjoy
+- [01:09] doing. Um, so the messaging I would say
+- [01:12] is it's shock value.
+- [01:14] >> Yeah.
+- [01:14] >> Yeah. Yeah.
+- [01:15] >> Yeah. And Sarah, you're approaching the
+- [01:19] question of AI agents from more of an HR
+- [01:23] perspective. So, what's your reaction
+- [01:25] when you see ads and discussions like
+- [01:27] that?
+- [01:28] >> She can't say anything positive because
+- [01:29] that would ruin them. [laughter]
+- [01:32] >> No. I mean, as former CMO of Salesforce,
+- [01:34] I have deep respect for great marketing
+- [01:36] and provocative marketing. And so to be
+- [01:38] at the epicenter of relevance is always
+- [01:41] going to be controversial. So it's you
+- [01:44] know you get people's attention and
+- [01:45] that's um that's really great for for
+- [01:48] marketing. On the topic though uh at
+- [01:51] Lattis we do deeply believe in the
+- [01:53] opportunity that AI brings for people
+- [01:56] and really ampl amplifying us uh not
+- [02:00] really talking about the co-pilot but
+- [02:01] more like from the HR lens scaling
+- [02:04] ourselves in a way that we can have
+- [02:06] better understanding remove biases and
+- [02:10] yes remove the wrote mundane but also
+- [02:13] scale us in a way that uh it just wasn't
+- [02:16] possible for AI to know as much as we
+- [02:19] can because AI can distill everything
+- [02:21] down for us in a way that can give us
+- [02:23] better understanding to have more human
+- [02:26] conversations.
+- [02:27] >> Yeah. And I saw that you wrote in a blog
+- [02:29] post last year that of three decades in
+- [02:33] the tech industry, the AI boom is the
+- [02:36] most dramatic shift you've seen. So I
+- [02:38] wanted to dig a bit deeper on that and
+- [02:41] like what was the moment that you knew
+- [02:42] that this was such an impactful moment?
+- [02:45] Yeah, I mean I've been around I'd like
+- [02:48] to think I'm younger than I am,
+- [02:50] [laughter]
+- [02:50] but um you have
+- [02:51] >> a very cool dress.
+- [02:52] >> Oh, thank you. You know, the dress and
+- [02:53] the shoes got to have the the pink
+- [02:55] velvet pumps, right?
+- [02:56] >> Um
+- [02:58] >> so
+- [02:59] I've seen the shifts. I've seen uh
+- [03:02] cloud, social, mobile, and AI is more
+- [03:06] transformative because it's not just um
+- [03:09] a technology. It's transforming the way
+- [03:11] we work. And it is so happening so fast.
+- [03:16] And so that's a thing where it's yes
+- [03:18] it's a technology transformation but
+- [03:20] more than ever more so it's a people
+- [03:23] transformation. It's a change management
+- [03:25] and it's happening so fast in a way that
+- [03:28] we need to be very diligent in paying
+- [03:30] attention to not just how it can be
+- [03:32] helpful but how it can be hurtful. Um
+- [03:35] you look at some of those trends like I
+- [03:37] mentioned social and mobile. two
+- [03:39] technologies that were incredibly
+- [03:41] transformational. Um, democratizing
+- [03:43] voice, democratizing access to
+- [03:45] information. Um,
+- [03:48] but it we didn't ask ourselves like is
+- [03:51] this going to make us anxious? Is it
+- [03:53] going to make us addicted to our
+- [03:54] devices? And it took us like a decade to
+- [03:57] even put controls in place. So being so
+- [03:59] transformative, it's important that we
+- [04:01] also take this moment right now to ask
+- [04:04] ourselves those questions so we can do
+- [04:05] it responsibly.
+- [04:08] Do you think that like I feel like the
+- [04:11] conversation around AI like everyone has
+- [04:13] a really really strong opinion. Jasper's
+- [04:15] very much leaning into that strong
+- [04:16] opinion to drive marketing. Um do you
+- [04:19] think that people have such a strong
+- [04:21] reaction because we've seen how within
+- [04:24] our lifetimes like social media has
+- [04:26] changed, smartphones have changed, like
+- [04:30] things are totally different within a
+- [04:31] span of like 20 years.
+- [04:34] >> Short answer, yes. Um the longer answer
+- [04:37] is this remains the same that the fear
+- [04:41] the uncertainty and the doubt is very
+- [04:43] prevalent in us as humans and marketing
+- [04:47] you know that says don't hire humans it
+- [04:48] does it it creates that like whoa what's
+- [04:51] happening am I not going to be relevant
+- [04:54] um but it's a wakeup call to all of us
+- [04:56] it's an opportunity right now because we
+- [04:59] are all on the same starting line we are
+- [05:01] all learning this now and so I look at
+- [05:04] this also Alo is an opportunity for
+- [05:06] potentially equalizing things because
+- [05:09] whether you're a woman, whether you're a
+- [05:11] man, no matter where you live, it's an
+- [05:14] opportunity for us to all learn now. No
+- [05:15] matter our age, you know, it's an
+- [05:17] opportunity for us to all learn and be
+- [05:20] part of this new transformation that
+- [05:22] we're seeing uh in in the industry.
+- [05:26] >> Yeah. And something I've been thinking
+- [05:27] about throughout disrupt is that like
+- [05:30] last year, the year before, I also
+- [05:32] moderated panels related to AI and just
+- [05:36] the amount of like what's theoretical
+- [05:38] and what's tangible shifts so much year
+- [05:40] to year. And it's such like just a time
+- [05:43] capsule of where we are yeartoear. And
+- [05:46] so on the topic of hiring AI agents, I
+- [05:50] feel like last year that's something
+- [05:51] that like didn't seem as possible, but
+- [05:53] now it's seeming a bit more possible.
+- [05:56] like how do you think that this has
+- [05:58] evolved recently?
+- [06:00] >> Yeah, I can I can jump in there. So, a
+- [06:02] year ago, the models were so early and
+- [06:05] the capabilities were so early and
+- [06:07] everyone was racing to build products
+- [06:10] and racing to build different types of
+- [06:11] agents and different app AI companies.
+- [06:14] But you could see that the majority of
+- [06:16] the time it wasn't working well. Like
+- [06:18] even even our product a year ago did not
+- [06:20] perform particularly well. like we were
+- [06:21] trying to to manipulate the models into
+- [06:24] creating a good a strong output for
+- [06:25] sales, but it was extremely difficult at
+- [06:28] the time. We've really had an inflection
+- [06:30] point in customer outcomes and in the
+- [06:32] ability for Ava, our AIBDR, like
+- [06:35] outbound sales rep agent, to actually
+- [06:37] drive real results this year and
+- [06:39] especially in the past six months.
+- [06:41] there's been this, it's not that there's
+- [06:43] been dramatic improvements, it's that
+- [06:44] there's been improvements in the areas
+- [06:45] that were really strongly lacking and
+- [06:47] strongly holding back companies like us
+- [06:49] from creating these real AI agents that
+- [06:52] can actually do productive work for you.
+- [06:54] So I think we're going to continue to
+- [06:55] see that shift over the next couple
+- [06:56] years where even if there's not dramatic
+- [06:58] improvements and dramatic leaps forward
+- [07:00] even with incremental improvements we're
+- [07:02] reaching a point where a lot of use
+- [07:04] cases and a lot of more simple mundane
+- [07:06] roses repetitive junior roles are able
+- [07:09] to be automated and able to be augmented
+- [07:11] with AI whereas before they they weren't
+- [07:13] as much as people were trying to.
+- [07:16] >> It's interesting when you think what a
+- [07:17] difference a year makes. So about a year
+- [07:19] ago uh last year at Lattis we actually
+- [07:23] uh had some innovation within our
+- [07:25] product to document uh digital workers
+- [07:28] as employees and we shared that
+- [07:30] innovation. A very simple LinkedIn post,
+- [07:33] no marketing dollars behind it. Um it
+- [07:36] went viral, people went bananas and I
+- [07:39] got all kinds of lashing because this
+- [07:41] idea of putting an AI in the org chart,
+- [07:44] they're like that girl is crazy. I don't
+- [07:46] know what she's talking about. I got
+- [07:48] clown emoji, all the things, [laughter]
+- [07:51] >> right? It wasn't 67 then yet. It was
+- [07:55] Anyways, but um
+- [07:56] >> yeah,
+- [07:57] >> I'm not that cool. [laughter]
+- [07:59] >> But
+- [08:00] I got like a visceral reaction. People
+- [08:04] said, "You're making AI human." And it
+- [08:07] was not the intent at all. It was a big
+- [08:08] misunderstanding was what we saw was we
+- [08:11] saw what was coming and we said, "This
+- [08:14] is going to happen and we need to be
+- [08:16] ahead of this." But a year ago, people
+- [08:18] were not willing to understand that AI
+- [08:20] could be an employee. But now, I mean,
+- [08:23] it's all the marketing and it's what
+- [08:25] everybody's looking for is how can I
+- [08:27] have AI employees?
+- [08:28] >> Yeah.
+- [08:29] >> And work together with my people and how
+- [08:31] can it really help me be successful as a
+- [08:33] company?
+- [08:34] >> Yeah, that makes sense. We we still get
+- [08:36] a lot of backlash as you can imagine
+- [08:37] with our we I kind of we kind of deserve
+- [08:39] it with our marketing, but uh there's
+- [08:41] definitely a good portion of people who
+- [08:43] don't love the idea of AI employees and
+- [08:45] and the the tagline that we have. We get
+- [08:47] some really interesting submissions on
+- [08:48] our website inquiries form. Yeah.
+- [08:51] >> Yeah. But that's the thing was that
+- [08:53] having AI employees, what is important
+- [08:56] is that we don't do this irresponsibly.
+- [08:59] So when you bring in any entity into
+- [09:02] your organization, there's rules like
+- [09:05] we're going to abide by our company
+- [09:07] values. We're going to mind our
+- [09:09] confidentiality. We're going to have
+- [09:11] goals that are aligned to the company
+- [09:13] goals. and you need to perform based on
+- [09:16] those goals. And if you're not
+- [09:17] performant, well, then we can, you know,
+- [09:20] part ways. And when you part ways, you
+- [09:22] agree to not take any company
+- [09:24] confidential information with you. And
+- [09:26] those processes
+- [09:28] need to be applied to humans, but they
+- [09:31] also need to be applied to any entity
+- [09:33] which you bring into your organization.
+- [09:36] And so that is the thing is that um
+- [09:40] there is yet to be full education. This
+- [09:43] group here is very educated, but the
+- [09:46] majority of people don't fully
+- [09:48] understand that the agents are being
+- [09:49] given access to your data systems to act
+- [09:53] on your behalf autonomously. That means
+- [09:55] they're not given a, you know, decision
+- [09:57] tree, a binary set of rules. And so that
+- [10:01] requires us to have a lot of thinking
+- [10:03] not just from a cyber security
+- [10:04] standpoint but really from a access
+- [10:07] control and governance of what these
+- [10:08] agents are allowed to do and have that
+- [10:10] documentation of when the agents acting
+- [10:13] um versus yourself.
+- [10:16] >> Yeah. And I also wanted to ask you about
+- [10:18] like related to AI employees being part
+- [10:21] of the org chart. Like as a manager,
+- [10:24] there are very concrete skills that a
+- [10:26] manager can learn about how to manage
+- [10:29] humans and just navigating being a good
+- [10:33] manager to your employees. How does that
+- [10:36] change? Like is there something that
+- [10:37] people need to learn about managing AI
+- [10:40] employees as well?
+- [10:42] >> There's a ton [laughter] to learn,
+- [10:44] right? Um, but here's I'll actually flip
+- [10:46] that a little bit because here's what I
+- [10:48] think is so interesting and powerful is
+- [10:50] that whether you're a manager or an
+- [10:52] individual individual contributor or an
+- [10:54] executive, you're just an employee at a
+- [10:56] company. Um, you want to come to work
+- [10:58] and know that what you're doing has
+- [11:00] purpose. You want to know why you're
+- [11:02] doing it, how you're doing at it, and
+- [11:04] you know if if there's any feedback
+- [11:05] about it. And this is something which
+- [11:09] has been very hard at work because we
+- [11:13] have so much information that comes at
+- [11:15] us. Um it's interesting when you think
+- [11:17] of all of our systems, all of technology
+- [11:20] that we've built has been around how you
+- [11:22] manage information. And information
+- [11:25] itself is um really there's only four
+- [11:28] commands used to to manage information.
+- [11:30] You know, you create, read, update,
+- [11:32] delete, you know, CRUD. And you think
+- [11:35] about
+- [11:37] how we as people have been put into
+- [11:40] these systems. Like think email for
+- [11:41] example. If I send you an email and you
+- [11:44] read it as a person, it doesn't mean
+- [11:48] that you've heard what I was saying. It
+- [11:50] doesn't mean that you have listened to
+- [11:53] the message. Doesn't mean that you are
+- [11:55] going to necessarily remember it. Not
+- [11:58] guarantee you're going to take action
+- [11:59] from it. And if you do take action, is
+- [12:02] that action what I wanted you to do or
+- [12:04] not? And that's because as humans, we
+- [12:07] are emotional. We are not programmable.
+- [12:10] We are imperfect. We are very different
+- [12:13] than information.
+- [12:15] And because I don't think any human
+- [12:16] would say, "Yeah, I can be run by four
+- [12:18] simple commands." Right? So when you
+- [12:21] look at the idea of managing people or
+- [12:23] managing AI agents, we're fundamentally
+- [12:26] different. And so managing people AI can
+- [12:29] help us understand more nuance and un
+- [12:33] information but the AI is going to be
+- [12:37] very much around the information and
+- [12:40] looking at it very differently in how
+- [12:42] you would um manage it.
+- [12:46] >> Yeah. Um I think for the vast majority
+- [12:49] of use cases probably all we're not
+- [12:52] quite at a point where you actually have
+- [12:53] to manage an AI employee yet. Like for
+- [12:55] example, our product is Ava. She's an
+- [12:57] outbound sales rep. Does like the BDR
+- [13:00] workflow.
+- [13:01] >> She's also a model in your ads.
+- [13:02] >> She she is. Yeah, she's she's famous
+- [13:04] now. [laughter] Uh you have limited
+- [13:07] inputs that you can give to AA. So like
+- [13:09] there's there's different structures
+- [13:10] that go into creating the message. You
+- [13:11] can choose the pain point she's bringing
+- [13:12] up. You can choose the proof points. You
+- [13:14] can choose the inputs to to create the
+- [13:16] emails. You can add coaching. So you can
+- [13:19] say write the emails like this. Don't
+- [13:20] write write them like this. So follow
+- [13:22] these guidelines. But there's not a
+- [13:24] broad set of inputs that you can give to
+- [13:26] Ava yet. We're working on a 2.0 version
+- [13:29] of Ava, which we're going to be
+- [13:30] launching at the at the end of Q1 next
+- [13:31] year. That product will be more like a
+- [13:34] real AI employee where you'll be able to
+- [13:35] talk to her on Slack and you'll be able
+- [13:37] to say, "Okay, I want you to spin up a
+- [13:38] campaign, that kind of thing, where
+- [13:39] you'll actually be managing them more
+- [13:40] proactively like you would a human
+- [13:42] employee. But for all use cases where
+- [13:44] you have agents right now, like things
+- [13:46] like Claude Code, um any of the category
+- [13:50] leaders, they're not yet at a point
+- [13:52] where you need to manage them. But I
+- [13:53] think we'll we'll see that over the next
+- [13:54] couple of years.
+- [13:56] >> Do you think you'd ever have an issue
+- [13:57] with like if like would the AI like talk
+- [14:00] back like as like in like will will the
+- [14:02] AI have sick days? Like what what
+- [14:04] happens if
+- [14:05] >> she did she did speak back to me the
+- [14:06] other day like [laughter] I requested a
+- [14:08] sample email from the the thing in our
+- [14:10] booth and she sent an email to me saying
+- [14:12] this is not a realistic scenario because
+- [14:13] you're the CEO of this company and I'm
+- [14:15] not selling the product to a CEO. This
+- [14:16] seems to be some kind of demo situation.
+- [14:18] >> Oh my god. [laughter] that that would
+- [14:20] happen in practice for the majority of
+- [14:22] people, but if you don't build in guard
+- [14:24] rails, then the model can talk back. Um,
+- [14:27] but yeah, that it's not going to be
+- [14:28] doing anything as bad as a human would
+- [14:30] do. Like we we just put up some some bus
+- [14:32] shelters. One of them was like artisans
+- [14:34] won't get caught on the kiss cam with
+- [14:35] the head of HR. AA's never going to do
+- [14:37] that. She's never going to get into a
+- [14:38] scandal. But
+- [14:39] >> yeah,
+- [14:40] >> I mean I I mean I guess you could argue
+- [14:41] she has been and like she she a lot of
+- [14:44] >> That's my fault. [laughter]
+- [14:45] Her fault.
+- [14:45] >> Yeah, you're taking the fall.
+- [14:47] >> Yeah. Um,
+- [14:48] >> but that is that is the also some of the
+- [14:51] things is that you don't know exactly
+- [14:53] what they're going to do. So when you
+- [14:55] have agents having conversations with
+- [14:58] your employees or with your customers,
+- [15:01] you need to have them grounded in your
+- [15:04] data in the context. And so the context
+- [15:07] is so important. And so just having an
+- [15:11] LLM that you put out in the wild without
+- [15:14] grounding it securely with the right
+- [15:16] context is it is dangerous.
+- [15:17] >> Yeah, you're going to get some crazy
+- [15:20] >> and there's also um there was a study
+- [15:21] that just came out I think yesterday um
+- [15:23] around the imper the the how confidently
+- [15:28] the AI will say something which is not
+- [15:30] correct. And so that accuracy it comes
+- [15:34] when you don't have the good data
+- [15:37] grounding it. And so
+- [15:40] yes, the internet is is one place where
+- [15:42] you can say that data is not always
+- [15:44] correct. Hopefully within your
+- [15:46] enterprise, you're in a world where you
+- [15:47] have more correct data. But it's still
+- [15:50] the same issue is that I mean raise your
+- [15:53] hand if your data at your company is
+- [15:55] perfect and [laughter]
+- [15:57] you know 100% accurate. Um just kidding.
+- [16:01] I don't know.
+- [16:02] >> Good. I'm so [laughter] impressed.
+- [16:03] >> I
+- [16:05] don't deal with the data. I don't know
+- [16:06] what's going on.
+- [16:07] >> [laughter]
+- [16:07] >> But this is what we just have to we can
+- [16:09] get very excited also from a security
+- [16:11] standpoint. There's a lot of pressure
+- [16:13] right now from people like ourselves,
+- [16:15] CEOs going to their companies and
+- [16:17] saying, "Put in AI. I want some AIB
+- [16:19] BDRs. I want this efficiency. I want
+- [16:22] this now." And people's like, "Okay,
+- [16:24] yes." And then they do it and they'll
+- [16:26] miss some steps, you know, putting in
+- [16:27] passwords like 1 2 3 4 5 6 and things
+- [16:30] like that. Which
+- [16:31] >> humans do that a lot.
+- [16:33] >> Yes. Right. And so we just have to be
+- [16:36] very mindful um in what it can do
+- [16:41] because it could put yourself in a bad
+- [16:44] situation if it does have a bad
+- [16:46] conversation with an employee or a
+- [16:47] customer.
+- [16:48] >> Yeah. And that was also something that
+- [16:50] you had brought up when we talked about
+- [16:52] before about how there's certain things
+- [16:53] that AI absolutely should never do like
+- [16:57] giving employees performance reviews
+- [16:59] because we know that an AI has to be
+- [17:02] trained on something. what it's being
+- [17:03] trained on reflects the biases of the
+- [17:06] broader world and there are biases and
+- [17:09] prejudices in the broader world
+- [17:10] unfortunately. So like how do you think
+- [17:12] about like making sure that a workplace
+- [17:15] remains equitable even with an AI that
+- [17:18] might have like certain biases.
+- [17:22] >> So this is where I think there's
+- [17:24] opportunity because we as humans we all
+- [17:26] have unconscious bias. It's not just
+- [17:29] race or gender. It's location,
+- [17:31] proximity, language we speak. There's uh
+- [17:33] recency bias. There's so many types of
+- [17:36] biases. And our human minds are not
+- [17:39] capable of absorbing all of the
+- [17:41] information that surrounds people and
+- [17:44] situations and um everything the context
+- [17:48] that we would need to know to make as
+- [17:51] objective decisions as we can and
+- [17:54] especially when it comes down to
+- [17:55] somebody's performance. And so the
+- [17:59] opportunity is that and this what we're
+- [18:01] doing at Lattis is that I mean who here
+- [18:03] enjoys writing performance reviews
+- [18:06] no hands go up right um it's something
+- [18:09] which is looking in the rear view maybe
+- [18:12] six months people have to be dragged
+- [18:14] down to you know reminded five times to
+- [18:17] go and hunt and peck through all of the
+- [18:19] information to write a review where the
+- [18:22] AI can bring it to you have all that
+- [18:25] context for you summarize it for you and
+- [18:28] then you can apply your human judgment
+- [18:30] in a way that is much more fair, much
+- [18:33] more grounded in context, much more
+- [18:36] understanding and we can have more human
+- [18:38] conversations which today
+- [18:42] time zones alone are hard you know to
+- [18:46] manage employees globally and so this is
+- [18:49] something which I'm excited about but I
+- [18:52] do think that yes when the AI brings you
+- [18:54] all this information it can even draft
+- [18:56] things for you. But as a human, we
+- [18:58] should be making human decisions about
+- [19:00] somebody's performance or their pay.
+- [19:04] >> Yeah. And Jasper, you had also mentioned
+- [19:06] that you wouldn't advise someone to use
+- [19:09] an AI agent unless if they're 100%
+- [19:11] confident that the AI won't hallucinate.
+- [19:14] >> Yeah.
+- [19:14] >> How do you evaluate that 100%
+- [19:16] confidence? I would say you don't want
+- [19:18] to use AI for any task where you need
+- [19:21] 100% confidence because you're you're
+- [19:22] never going to get 100% of the time the
+- [19:25] exact output that you want because LLMs
+- [19:27] are ndeterministic. Um so but but use
+- [19:30] cases like humans are also a lot of the
+- [19:32] time wrong. Like humans are definitely
+- [19:33] not
+- [19:33] >> I've never been wrong in my life.
+- [19:35] [laughter]
+- [19:35] >> That's fair. That's fair. That's same.
+- [19:37] Uh uh but if you're in a lowrisk
+- [19:42] situation and you're doing something
+- [19:43] where maybe 99.99% accuracy is good
+- [19:46] enough, then it makes sense to have an
+- [19:47] agent. If you're like dealing with the
+- [19:49] nuclear launch codes, maybe don't put an
+- [19:51] AI agent in charge of them. But yeah, I
+- [19:53] think that's pretty self-ex.
+- [19:55] >> Yeah. Yeah. And then I wanted to go back
+- [19:58] a bit to um just the general attitudes
+- [20:01] around AI agents and how like I'm sure
+- [20:04] all of us in this room would love to
+- [20:07] have jobs and like have a secure income.
+- [20:11] And something interesting that Venard
+- [20:13] Kosla said on stage yesterday was that
+- [20:16] as like if we approach AGI
+- [20:20] >> um that the US government should take a
+- [20:22] 10% stake in public companies to soften
+- [20:26] the blow and redistribute that money. Do
+- [20:28] you think that's a good idea?
+- [20:30] >> Would you rather have a job or get your
+- [20:32] salary without having a job? I would
+- [20:34] rather get my salary without having a
+- [20:35] job, but then I also would [laughter]
+- [20:36] worry that like
+- [20:39] >> I mean there there's just so many
+- [20:41] questions about like how would that be
+- [20:42] enforced? Like would companies agree to
+- [20:44] do that? Um
+- [20:46] >> would like
+- [20:47] >> I don't [clears throat] know. I mean
+- [20:48] there's the the question of like
+- [20:51] I mean I know there's this is why people
+- [20:53] are doing studies on UBI but
+- [20:56] >> I think in the abstract scenario where
+- [20:58] we actually did achieve AGI um which is
+- [21:01] kind of what our ads ads insinuate. It's
+- [21:03] like that's what people think when they
+- [21:05] see our ads like oh no everyone's going
+- [21:06] to lose their jobs. Um which isn't
+- [21:08] realistic with with current technologies
+- [21:10] like we're just not getting close to
+- [21:12] that really right now. But in the
+- [21:13] hypothetical scenario where we did have
+- [21:15] AGI, inherently that would mean that we
+- [21:17] would need UBI because there's no way
+- [21:19] that you could have a handful of people
+- [21:21] controlling 99.9 recurring percent of
+- [21:24] productivity in the world. Like it's not
+- [21:25] a realistic a realistic scenario for for
+- [21:27] the global economy. So I do think if we
+- [21:30] were to have AGI, you do need UBI
+- [21:33] alongside that, but we're far away from
+- [21:35] that right now. Yeah,
+- [21:38] >> I would add maybe contra contradictory
+- [21:42] perspective but I have this conversation
+- [21:45] very often especially when you think
+- [21:47] about life and you think about the
+- [21:50] purpose that we the purpose of life um
+- [21:54] you know last year I lost uh my parents
+- [21:57] and things like that make you really
+- [21:59] think like okay what's what is the
+- [22:00] purpose and meaning for being here you
+- [22:03] why do I do this all day and work is
+- [22:05] deeply personal
+- [22:06] Many of our identities are intertwined
+- [22:10] with our work. Does it mean we should be
+- [22:12] burned out? No. But does it mean that I
+- [22:15] want to sit and like have my brain rot
+- [22:17] because I'm not doing anything? Like
+- [22:18] that's also no. And so this is what's an
+- [22:22] interesting thing is that if it can be
+- [22:25] something where whether there's UBI or
+- [22:27] not um a lot of people are choosing the
+- [22:30] whole you know touch grass like be more
+- [22:33] human be more present and there's a lot
+- [22:35] of value into the humanto human
+- [22:38] engagement. So maybe a lot of the wrote
+- [22:40] pieces are done for us but we can then
+- [22:44] spend time having you know better human
+- [22:46] experiences like think customer service
+- [22:49] for example. It's a common thing that
+- [22:50] they want to you automate the customer
+- [22:53] care. But if I want to go shopping and I
+- [22:56] have a I can have a concierge level
+- [22:59] onetoone human experience with somebody.
+- [23:02] >> Yeah,
+- [23:02] >> that sounds incredible. But companies
+- [23:04] can't afford that today because they
+- [23:07] still have to have the people doing
+- [23:08] other other things. So I think there's
+- [23:10] going to be a shift. It's going to take
+- [23:12] time. Um, I'm more optimistic that we
+- [23:16] will have purpose as people and I don't
+- [23:20] think we want to not have
+- [23:23] >> Yeah.
+- [23:23] >> jobs.
+- [23:24] >> Yeah, I agree. I think inherently humans
+- [23:25] are always going to find some way to
+- [23:27] have purpose. Like if we look at the
+- [23:29] jobs 100 years ago versus today, if they
+- [23:31] saw what we were doing sat here like
+- [23:32] tapping on these magical screens
+- [23:34] [laughter] like doing like HR, like that
+- [23:36] that's just like a a an extraordinary
+- [23:38] concept to tell like someone who was a
+- [23:40] farmer near a village. Um, and I think
+- [23:42] we're gonna see another shift like that
+- [23:43] where the the labor that we're doing in
+- [23:44] a hundred years we would now maybe see
+- [23:46] as fake work, but it feels real in that
+- [23:50] in that
+- [23:50] >> my youngest um who's now 21, but I
+- [23:53] remember uh one day I came in and she
+- [23:55] was this is when you had like the DVD
+- [23:57] things to watch movies and she was
+- [23:59] sitting on their DVD and I was like,
+- [24:01] "What are you doing?" She's like, "I'm
+- [24:03] working."
+- [24:04] [laughter] Like, "What are you working
+- [24:05] at?" She's like, "I'm working watching
+- [24:07] Sleeping Beauty." I was like, "That's
+- [24:09] not working. Mommy does work. She's
+- [24:11] like, "No, you're working, too." And but
+- [24:13] that perception of Yeah. like like
+- [24:16] you're tap tap tap tap tap. It doesn't
+- [24:18] [laughter]
+- [24:18] >> It's not like I'm out there like digging
+- [24:20] ditches or
+- [24:21] >> you know and some of those things. Yeah.
+- [24:24] Um and some of the you know simplest
+- [24:27] things are are the we thought might be
+- [24:30] automatable. They're they're not. You
+- [24:32] know that there's a lot of
+- [24:34] infrastructure type of work which is
+- [24:36] very much like human. Also, you could
+- [24:38] never really automate art, for example,
+- [24:40] because art is inherently human. Like,
+- [24:42] if a if a robot does art, then it's not
+- [24:43] worth anything because the value comes
+- [24:45] from the story behind it. And I think
+- [24:47] there's a lot of things like that that
+- [24:48] will emerge that are just impossible to
+- [24:50] automate.
+- [24:51] >> Yeah.
+- [24:52] >> Yeah. And then getting more toward like
+- [24:54] things that founders might be thinking
+- [24:56] of right now with um hiring, knowing
+- [24:59] when to hire AI and that humanness.
+- [25:04] I feel like something that founders
+- [25:06] really love is being in the room with
+- [25:09] your team and like working on something
+- [25:11] from the beginning and like all just
+- [25:14] kind of like coming together. And do you
+- [25:16] think that people would feel lonely if
+- [25:19] it's like them and like three AI agents?
+- [25:22] >> I don't think it's really any different
+- [25:24] in practice right now to just like using
+- [25:25] some SAS platforms. Like it's just like
+- [25:27] a a SAS platform that will do work for
+- [25:29] you autonomously. like you're still
+- [25:30] going to need a human team for the roles
+- [25:32] that that aren't possible to automate
+- [25:35] yet. Like for example, uh one of our
+- [25:38] users, they have like six different AI
+- [25:40] agents doing different things for them.
+- [25:41] Ava manages all of their outbound. They
+- [25:43] use qualified for like their inbound
+- [25:44] sales. They use another agent for their
+- [25:46] customer support. So they they have this
+- [25:48] team of AI agents that are managing a
+- [25:50] lot of the org, but they still have an
+- [25:52] office where they go into every day
+- [25:53] where they all are together and just
+- [25:54] like they they have the agents working
+- [25:56] inside their computer. So I I don't
+- [25:57] think it's it's not a binary you have to
+- [26:00] have agents or you have to have humans.
+- [26:01] Like inherently you're going to need
+- [26:03] humans. And you can just you can speed
+- [26:05] up your time to value. You can speed up
+- [26:07] the time to to achieve product market
+- [26:08] fit. You can grow faster. You can
+- [26:10] achieve more if you build an AI first
+- [26:13] organ if people are focusing first on
+- [26:16] finding a way to automate something
+- [26:17] before doing it manually themselves. And
+- [26:19] I think this will be a much more healthy
+- [26:22] workplace because I was sharing earlier
+- [26:24] we are drowning in information as humans
+- [26:27] when we go to work. And we think that
+- [26:29] that is
+- [26:31] we we've somehow led ourselves to
+- [26:33] believe that this is the right way we
+- [26:35] should come to work. We should come to
+- [26:36] work with a full inbox, tons of Slack
+- [26:38] messages, notifications on our phone and
+- [26:42] supposed to like go and understand
+- [26:44] what's happening. And so all this
+- [26:47] information is not how we as humans
+- [26:50] thrive. So when you can have something
+- [26:53] sorting through the information getting
+- [26:54] it there you can come and you can have
+- [26:56] like a conversation you can know what
+- [26:59] you should focus on and you can be
+- [27:00] present and the humans then have a much
+- [27:03] better experience because we're not sick
+- [27:06] from like too much information like
+- [27:08] we're not information diabetic you know
+- [27:10] we are we are healthy and present and
+- [27:13] able to have those conversations and
+- [27:17] enjoy what we do.
+- [27:18] >> Yeah. Um I have one more question and
+- [27:21] then we have time for a Q&A. So if
+- [27:24] people want to start lining up at those
+- [27:26] microphones then we will get to that.
+- [27:29] But um my final question is I was
+- [27:32] thinking about how last year Sam Alman
+- [27:36] said that he has a group chat of CEO
+- [27:39] friends which one dying to know what
+- [27:41] that group chat is called but um
+- [27:44] apparently they have a bet going of when
+- [27:47] the first solo unicorn will be like when
+- [27:49] is it just one person who with AI scales
+- [27:54] a company to be a unicorn. Do you think
+- [27:57] that's possible? And if so, what would
+- [27:59] your bet be?
+- [28:01] >> Yeah.
+- [28:01] >> Who wants to go first?
+- [28:02] >> I can I can jump. So, let's say someone
+- [28:05] wants to build a unicorn. Say they're in
+- [28:06] like a really hypy space, they can maybe
+- [28:09] get like a 50 to 100x ARR multiple. So,
+- [28:13] then they need to get to like 20 maybe
+- [28:16] even with 10 million AR they could
+- [28:17] hypothetically get there. I don't see
+- [28:20] any reason why you couldn't with with
+- [28:22] the direction that first of all coding
+- [28:24] tools are moving in. I think the person
+- [28:25] would need to be technical because they
+- [28:26] need to be able to understand how to use
+- [28:28] cla code and to manage it effectively.
+- [28:30] The person would need to be also good at
+- [28:33] marketing because even if you're using
+- [28:34] tools like Artisan and you're using
+- [28:36] other products to to automate some of
+- [28:37] your marketing, you need to manage it.
+- [28:39] But I don't see a reason why one person
+- [28:41] couldn't build a product that's got some
+- [28:43] sense of product market fit and then
+- [28:45] market it to achieve 10 to 20 million AR
+- [28:47] and then raise a unicorn valuation in
+- [28:48] the next like 12 to 18 months.
+- [28:51] >> Yeah.
+- [28:52] >> Interesting. I would agree. I agree. Um
+- [28:56] I just go back to uh we as humans work
+- [29:00] better when we have ideas from each
+- [29:02] other and I think it I think it would be
+- [29:04] lonely. Um I'm an introvert myself so I
+- [29:07] do you know not pretend that everyone
+- [29:09] may want that but um I do think that the
+- [29:14] the possibility is there in the current
+- [29:17] time frame.
+- [29:18] >> Yeah. Okay. So let's move to Q&A. We
+- [29:21] have about 10 minutes and we want to
+- [29:23] make sure that as many people as
+- [29:25] possible can get their questions
+- [29:26] answered. So try to be as brief as you
+- [29:29] can and we'll start on this side and
+- [29:31] then we'll go back and forth.
+- [29:33] >> So you first.
+- [29:34] >> Hi, I'm Meera. Um I I had a question
+- [29:37] regarding uh assessing confidence in
+- [29:39] agents. We talked a little bit about uh
+- [29:42] you know assessing risk in like whether
+- [29:44] you can deploy them in such and such
+- [29:45] scenario. Uh, I wonder have have either
+- [29:48] of you or your teams or are you Yeah.
+- [29:50] Have your teams worked on like
+- [29:53] confidence score determination of what
+- [29:56] LLMs do and like using that in the
+- [30:00] workflows? Yeah, I mean we we we do
+- [30:02] measure accuracy and we do um which is
+- [30:05] different than confidence I would guess,
+- [30:07] but we do um ourselves make sure that um
+- [30:10] we have the accuracy measures there and
+- [30:13] we also have the back stops where people
+- [30:15] on the back end can look through all
+- [30:17] responses and just audit them I would
+- [30:19] say.
+- [30:20] >> Yeah. Um so our product like I mentioned
+- [30:23] is is an AI outbound sales rep. So the
+- [30:26] the output is very measurable like did
+- [30:28] you get positive responses? is what's
+- [30:30] the cost per lead you're achieving? Is
+- [30:32] it higher or lower than what you were
+- [30:33] getting with a human team? So, we just
+- [30:35] look at that as a benchmark and compare
+- [30:36] to the humans.
+- [30:38] >> Cool. Okay. So, that's an accuracy
+- [30:40] metric.
+- [30:41] >> Uh no, just like a a comparison of
+- [30:43] benchmarks, I guess.
+- [30:44] >> Okay. Thanks.
+- [30:46] >> Great. So, we'll go to the side.
+- [30:49] >> Hey, um my name is Gus. Uh this is for
+- [30:51] Jasper. Um, as a serial chief revenue
+- [30:56] officer in early stage technology
+- [30:58] companies, I I think you're on to
+- [30:59] something super fascinating. Um, because
+- [31:02] managing BDRs and SDRs nowadays with the
+- [31:04] science you need behind them uh to do
+- [31:07] things, I think you're just going to
+- [31:08] accelerate all of that. So, I think it's
+- [31:11] it's it's a very exciting space to be
+- [31:13] in. My question for you though is how
+- [31:15] can I join your company?
+- [31:17] >> What was the question? Sorry.
+- [31:18] >> How can I join your company?
+- [31:20] >> How can you join? Oh, well, [laughter]
+- [31:22] uh, we only hire AI agents. I don't know
+- [31:24] if you saw the ads.
+- [31:26] >> Unfortunately, we're full of humans
+- [31:27] right now. [laughter]
+- [31:30] >> I'll I'll speak to Walker.
+- [31:34] >> Okay. And we'll [snorts] go to this
+- [31:36] side.
+- [31:36] >> U Yeah, thank you very much. I uh such a
+- [31:40] great uh discussion. So my question is
+- [31:42] about an article that BBC wrote about a
+- [31:46] rogue AI that turned into being
+- [31:49] manipulative as we see. Let me put a
+- [31:52] context into it. Uh are you building
+- [31:55] everything from the engine ground up
+- [31:59] based on your own infrastructure or you
+- [32:03] are buying some other spaces from other
+- [32:07] differences? The reason as to why I'm
+- [32:09] asking this is number one, how will your
+- [32:11] agents handle competition in making sure
+- [32:13] that an employee does not ship some
+- [32:17] secrets uh to outsider? That's number
+- [32:20] one. Number two, how will you handle the
+- [32:21] friction because the friction brought in
+- [32:24] the manipulation AI actually manipulated
+- [32:26] the system engineer and told the
+- [32:29] engineer if you try to shut me down, I
+- [32:31] will send an email and say that you are
+- [32:33] dating the HR and the engineer was
+- [32:36] confused. Yeah, that's
+- [32:39] >> Yeah. So, we don't build models. We just
+- [32:41] work with Anthropic and Google and Open
+- [32:43] AI. That's really them. You're gonna
+- [32:45] have to ask Sam Alman. I can't answer
+- [32:46] that. [laughter]
+- [32:51] >> Yeah.
+- [32:51] >> Okay. Um, let's go to this side.
+- [32:53] >> Okay. Hi, I'm Joe.
+- [32:56] I have a thought and I'm just wondering
+- [32:58] about your reaction, what your thoughts
+- [33:01] are. So, this is really about AI
+- [33:02] displacing human workers. My thinking is
+- [33:07] that um you know in previous
+- [33:10] technological upheavalss there have been
+- [33:13] accompanied a similar effort to develop
+- [33:15] new jobs or types of work um that would
+- [33:19] better leverage whatever the new
+- [33:20] technology is. Obviously um the AI
+- [33:24] technological upheaval is of much
+- [33:26] greater and you know at more broader
+- [33:29] scale but so is the challenge to do that
+- [33:32] development to to create those jobs that
+- [33:35] better leverage the technology. So my
+- [33:38] question is um do you see such efforts
+- [33:41] starting emerging somewhere in the
+- [33:43] timeline you yourself being involved
+- [33:46] what you would like to see let's hear
+- [33:48] your thoughts both of you.
+- [33:51] Yes. So I think the question is around
+- [33:52] just general like what we're seeing with
+- [33:54] the human transition that we're seeing
+- [33:58] um compared to other technology shifts
+- [34:00] whether it was cloud or manufacturing
+- [34:02] automation etc. So yes technology has
+- [34:05] always bred more job opportunity uh in
+- [34:08] our history. Right now it's the time
+- [34:10] period is so compressed and we saw
+- [34:14] trends happen. for example, uh um
+- [34:18] college graduates, you know, are having
+- [34:20] a harder time getting jobs. Um and it's
+- [34:23] because at companies when you're looking
+- [34:24] at, okay, I need to change my workforce,
+- [34:28] the easiest people to, you know, lay off
+- [34:32] are the people that I haven't hired yet.
+- [34:34] So, it's it's much easier to say, okay,
+- [34:36] we're just going to pause that.
+- [34:38] And that was so fast that we felt that
+- [34:41] in the system. you know, my kid's
+- [34:43] graduating college this coming year and
+- [34:45] like I'm like, you need to be on top of
+- [34:46] this, right? But these people are the
+- [34:50] most digitally native, the most AI
+- [34:53] comfortable, the most um malleable, the
+- [34:56] least calcified in thought, and they are
+- [34:59] the cheapest as well coming out of
+- [35:01] college. So, I think that's temporary,
+- [35:04] and I think that we're going to see that
+- [35:06] adjustment because now people have said,
+- [35:07] "Okay, there was a shock into the
+- [35:08] system. We need to adjust. Now, we've
+- [35:11] got to normalize and we need to figure
+- [35:13] out where people are going to go. But
+- [35:16] historically, we've seen job creation.
+- [35:18] I'm an optimist. I do think that will
+- [35:20] continue. I do think that it won't be
+- [35:22] tomorrow that we'll have um AI agents
+- [35:24] doing all of our jobs. But it does not
+- [35:27] remove the urgency for everyone to go
+- [35:31] and make themselves not just
+- [35:33] understanding at a high level but
+- [35:36] well-versed and um uh not just literate
+- [35:40] but fluent in AI.
+- [35:43] >> Yeah, I agree. I think the the bar is
+- [35:45] higher for graduates. Like you can't
+- [35:46] just go to college, not do any
+- [35:48] internships and expect to get a job
+- [35:49] without any real world experience. Like
+- [35:51] you need to put yourself out there. You
+- [35:53] need to proactively learn how to do
+- [35:55] things that are unique that AI can't do
+- [35:58] and upskill yourself so that you can
+- [36:00] more easily get a job.
+- [36:03] >> Let's go back to this side of the room.
+- [36:07] >> Hi, uh my name is Alec Haya. I I had a
+- [36:10] question about um we talk a lot about
+- [36:13] what AI can do um but there's a lot that
+- [36:16] it still struggles with. um what are the
+- [36:18] things that you guys are actively
+- [36:20] working to make better in the process?
+- [36:22] What do you think the biggest weaknesses
+- [36:25] are, especially the weaknesses that are
+- [36:27] here today and are somewhat temporary?
+- [36:30] Um and then the weaknesses that you
+- [36:31] think might hang around and be a little
+- [36:33] bit harder to kind of weed out.
+- [36:36] >> Yeah. So, I think the one of the biggest
+- [36:37] weaknesses is the nondeterministic
+- [36:39] nature of AI. Like we're and that that's
+- [36:41] not going to change with LLM. It's very
+- [36:42] very unlikely that will change and you
+- [36:44] can build evaluations and you can do a
+- [36:46] bunch of things to minimize the error
+- [36:47] rate of models but you from what we can
+- [36:49] see you're always going to have that
+- [36:51] until we have some major leap in in the
+- [36:53] technology. Um, but more practically
+- [36:56] with [clears throat] the way we're
+- [36:57] implementing LLMs now,
+- [36:59] cost is a huge barrier. Like you you
+- [37:01] can't use an advanced model for a lot of
+- [37:03] different use cases because it's too
+- [37:05] expensive and people aren't willing to
+- [37:06] pay that much for the work output and it
+- [37:09] would be cheaper maybe to get someone in
+- [37:10] Asia to do it for you than to than to
+- [37:12] get AI to do it for you. So that's going
+- [37:14] to be one big barrier until the cost of
+- [37:15] tokens continues to come down. Um,
+- [37:18] there's a lot of use cases that aren't
+- [37:19] yet solved. One that we're trying to
+- [37:21] solve right now that we're working with
+- [37:22] Anthropic on is handling back and forth
+- [37:24] communication between a human and an
+- [37:26] agent and consistently holding that
+- [37:28] conversation all the way through from a
+- [37:30] response to an outbound sales email to
+- [37:32] having a meeting booked in because
+- [37:33] there's this tree of infinite paths that
+- [37:35] the conversation can go down and they
+- [37:37] can ask like what's your dog called and
+- [37:38] then the AI needs to know what to say
+- [37:39] and can't just lie and say like toto or
+- [37:41] whatever. So you need to you need to
+- [37:43] have a lot of infrastructure in place to
+- [37:45] make it effective in these kind of use
+- [37:47] cases. And there's so many areas in
+- [37:49] which AI cannot achieve specific job
+- [37:53] functions that we're just going to
+- [37:54] continue to to try and evolve and and
+- [37:56] and be able to do.
+- [37:57] >> Yeah, the the context is so important
+- [37:59] and that's also what we're doing and
+- [38:02] this is like a sales use case. ours is
+- [38:04] in HR and that contextual grounding for
+- [38:07] the prompt is the behind-the-scenes work
+- [38:10] that a lot of the applications are
+- [38:11] putting into place and so without being
+- [38:14] able to have those um ongoing
+- [38:16] conversations the context gets lost but
+- [38:18] as humans that's the thing is like as
+- [38:20] humans I can meet you right now I can
+- [38:23] have a great conversation and then can
+- [38:25] go off do five other things and if I saw
+- [38:27] you on the street later I could remember
+- [38:29] it right but if I was an AI if I've
+- [38:33] stoped that conversation when I pick it
+- [38:34] back up, I'm not going to remember it.
+- [38:36] That context is lost. And then you feel
+- [38:37] like this was a meaningless conversation
+- [38:39] because you haven't remembered me.
+- [38:41] >> And so that is a that's a big
+- [38:43] opportunity. And it requires on the back
+- [38:46] end for us as technology providers to
+- [38:49] build that infrastructure so the context
+- [38:51] can be um maintained and also um
+- [38:56] appropriate and respecting permissions
+- [38:58] and and all those things. So that's
+- [39:00] that's the value ad that we can um
+- [39:03] provide and the the large language
+- [39:06] models. It's just like when Amazon made
+- [39:08] EC2 and S3 um it it made it easier to
+- [39:11] have you know computing infrastructure
+- [39:14] anybody could go build an application
+- [39:16] but they just made it easier to do that
+- [39:18] work on the back end. in the LLMs like
+- [39:20] we're not I'm not building a large model
+- [39:22] have a small model around like employee
+- [39:24] health similar to like how Aura makes
+- [39:26] like a health but not a large language
+- [39:29] model.
+- [39:30] >> Yeah, same.
+- [39:31] >> Thank you.
+- [39:32] >> We are out of time but thank you both
+- [39:34] for fast. I know it always goes by
+- [39:37] faster than you think and I hope this
+- [39:39] was helpful for I hope this was helpful
+- [39:41] for the audience and thank you for
+- [39:43] coming to disrupt.
+- [39:44] >> Thank you everyone. Hi Ava. [laughter]

@@ -1,0 +1,312 @@
+---
+title: "YouTube Video: 1HHZdB2O2tI"
+video_id: "1HHZdB2O2tI"
+video_url: "https://www.youtube.com/watch?v=1HHZdB2O2tI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+topics:
+  - "AI Agent"
+  - "LLM"
+summary: |
+  So AI is truly changing everything. The way we create, the way we shop, even the way we think. This week, Google dropped VO 3.1, an incremental but important step toward making AI video more controlla...
+key_points:
+  - "VO 3.1, an incremental but important"
+  - "key pieces to make AI agents truly"
+  - "All right, so first off, we have Google"
+  - "the first time, they're also bringing"
+  - "by any means, but it's an important one"
+category: "General"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 1HHZdB2O2tI
+
+- URL: https://www.youtube.com/watch?v=1HHZdB2O2tI
+- Retrieved at: 2025-12-30T09:18:06+09:00
+
+## Text
+
+- [00:00] So AI is truly changing everything. The
+- [00:03] way we create, the way we shop, even the
+- [00:07] way we think. This week, Google dropped
+- [00:10] VO 3.1, an incremental but important
+- [00:13] step toward making AI video more
+- [00:15] controllable and realistic. ChachiBT's
+- [00:18] moving into retail with instant
+- [00:20] checkout. And legendary AI researcher
+- [00:23] Andre Carpathy says we're still missing
+- [00:26] key pieces to make AI agents truly
+- [00:29] useful. But Elon Musk has a few things
+- [00:32] to say about that. Let's get into it.
+- [00:34] All right, so first off, we have Google
+- [00:37] introducing VO3.1 and advanced
+- [00:39] capabilities in Flow. In Flow, Google's
+- [00:42] AI filmmaking tool, they're rolling out
+- [00:44] enhanced creative capabilities to edit
+- [00:47] your clips, giving you more granular
+- [00:49] control over your final scene. And for
+- [00:51] the first time, they're also bringing
+- [00:53] audio to existing capabilities like
+- [00:56] ingredients to video, frames to video,
+- [00:59] and extend. Along with this, they're
+- [01:01] introducing VO 3.1, which they say
+- [01:04] brings richer audio, more narrative
+- [01:06] control, and enhanced realism that
+- [01:08] captures true-to-life textures. So, more
+- [01:11] control, especially when it comes to
+- [01:13] audio generation within scenes, and
+- [01:15] better realism. It's not a massive leap
+- [01:18] by any means, but it's an important one
+- [01:20] because it shows where we're heading.
+- [01:22] We're moving beyond just improving
+- [01:24] quality and realism and toward more
+- [01:26] control and personalization. And
+- [01:28] honestly, it feels like we're only a few
+- [01:30] years away from what people call the
+- [01:33] dead internet theory, if we're not there
+- [01:35] already. I mean, just look at this.
+- [01:37] According to new research from graphite,
+- [01:40] more articles are now written by AI than
+- [01:43] by humans. You've probably seen this
+- [01:45] chart all over X. Since Chachib launched
+- [01:48] at the end of 2022, it took less than 2
+- [01:51] years for machine written content to
+- [01:53] overtake us. And interestingly, since
+- [01:56] these lines converged, the amount of
+- [01:58] both AI written and human written
+- [02:01] articles has more or less been stagnant.
+- [02:03] I think the same thing is going to
+- [02:05] happen with video. Right now, AI
+- [02:07] generated clips are skyrocketing,
+- [02:10] especially across social media. And as
+- [02:12] the quality improves, we're only going
+- [02:14] to see more. Eventually, it'll probably
+- [02:17] balance out just like articles did, but
+- [02:19] at what point? And what will it do to
+- [02:22] social media as well as the internet in
+- [02:25] general? Meanwhile, over in Google's
+- [02:27] science division, a Gemma model helped
+- [02:29] discover a new potential cancer therapy.
+- [02:32] I actually made an entire video breaking
+- [02:34] this one down because it's insane.
+- [02:36] Definitely check that out if you haven't
+- [02:38] already. But here's the short version.
+- [02:40] Google and Yale University trained a 27
+- [02:43] million parameter model called celltos
+- [02:46] sentence scale or just C2S scale to
+- [02:49] understand the language of individual
+- [02:51] cells. Using that, the model generated a
+- [02:54] brand new hypothesis about how certain
+- [02:56] tumor cells behave, which scientists
+- [02:59] then tested in real living cells and
+- [03:02] confirmed it was right. Essentially, it
+- [03:04] predicted a new drug combination that
+- [03:07] makes cold tumors, the kind your immune
+- [03:09] system can't see, more visible to the
+- [03:12] body, which can make amunotherapy far
+- [03:14] more effective. In lab tests, the
+- [03:16] combination boosted antigen presentation
+- [03:18] by roughly 50%. Meaning the AI literally
+- [03:22] found a new way to help the immune
+- [03:24] system recognize cancer. Google admits
+- [03:27] it's early stage research. But still,
+- [03:29] this isn't just AI writing articles or
+- [03:32] generating videos anymore. It's starting
+- [03:34] to generate actual scientific
+- [03:36] discoveries. And as if curing cancer
+- [03:39] wasn't ambitious enough, Google Deep
+- [03:41] Mind also announced a new partnership
+- [03:43] with CFS Energy to help accelerate
+- [03:46] nuclear fusion. They're training AI
+- [03:48] models to predict and stabilize plasma
+- [03:51] inside reactors. Basically using machine
+- [03:53] learning to control miniature suns. So
+- [03:56] within a single week, Google's AI helped
+- [03:59] push forward art, biology, and energy,
+- [04:03] which is kind of terrifyingly
+- [04:05] impressive. Now, in other AI news,
+- [04:07] Anthropic dropped Claude 4.5 Haiku this
+- [04:10] week. There's not really much to say
+- [04:12] about this model. It's basically just a
+- [04:14] faster and cheaper version of Claude 4.5
+- [04:17] Sonnet with a small trade-off in
+- [04:19] performance. So, if you're already using
+- [04:21] Sonnet 4.5, this is definitely a model
+- [04:24] worth experimenting with, especially if
+- [04:26] you need speed over raw power. But now,
+- [04:29] here's something I think a lot of people
+- [04:31] missed. OpenAI announced this week that
+- [04:34] Chachib can now automatically manage
+- [04:36] your saved memories. No more memory
+- [04:39] full. You can also search, sort, and
+- [04:42] even rep prioritize memories in settings
+- [04:44] while the model decides on its own
+- [04:46] what's worth remembering contextually.
+- [04:48] So, this is actually a much bigger deal
+- [04:50] than it looks because what OpenAI is
+- [04:53] really building here isn't just better
+- [04:55] recall. It's the foundation of a login
+- [04:58] with OpenAI system. Think about it. Your
+- [05:01] AI account that already remembers you
+- [05:03] could soon work across apps, websites,
+- [05:06] and maybe even payments, like how you
+- [05:09] log in with Google or Apple ID. But this
+- [05:11] one doesn't just identify you. It
+- [05:14] actually knows you. It remembers your
+- [05:16] preferences, your writing style, your
+- [05:18] purchase history, basically everything
+- [05:20] you've ever told it, and can then act on
+- [05:23] that information wherever it's
+- [05:25] integrated. Which brings us to this.
+- [05:27] Open AAI just partnered with Walmart to
+- [05:30] test chatbt powered instant checkout.
+- [05:33] You'll essentially be able to describe
+- [05:34] what you want. For example, two packs of
+- [05:37] pasta and almond milk and Chachib will
+- [05:39] handle the cart payment and confirmation
+- [05:42] automatically all directly inside of
+- [05:45] Chachib. So, not only is Chachibbt
+- [05:47] becoming more integrated with thirdparty
+- [05:50] apps or thirdparty apps with it, but
+- [05:53] it's also becoming more capable of
+- [05:55] actually performing actions on your
+- [05:56] behalf using your context, your memory,
+- [05:59] and well, your data. Now, this brings us
+- [06:02] to something co-founder and former
+- [06:04] OpenAI and Tesla researcher Andre
+- [06:06] Carpathy talked about recently. What
+- [06:08] it'll actually take to make these AI
+- [06:10] agents useful co-workers instead of just
+- [06:13] helpful tools. In this clip, he breaks
+- [06:16] down the missing pieces. Things like
+- [06:18] persistent memory, multimodality, and
+- [06:21] the ability to learn continuously in
+- [06:23] real time. All the things you need for
+- [06:26] an agent that can actually think and
+- [06:28] improve alongside you. He even gives a
+- [06:30] prediction for when we might get there.
+- [06:33] Check this out.
+- [06:33] >> Well, um, actually make it work. So in
+- [06:36] my mind, I mean, when you're talking
+- [06:36] about an agent, I guess or what the labs
+- [06:38] have in mind and what maybe I have in
+- [06:40] mind as well is it's you should think of
+- [06:41] it almost like an employee or like an
+- [06:42] intern that you would hire to work with
+- [06:44] you. Uh so for example, you work with
+- [06:45] some employees here.
+- [06:47] >> When would you prefer to have an agent
+- [06:49] like Cloud or Codeex do that work? Like
+- [06:50] currently, of course, they can't. What
+- [06:52] would it take for them to be able to do
+- [06:53] that? Why don't you do it today?
+- [06:55] >> And the reason you don't do it today is
+- [06:56] because they just don't work. So uh like
+- [06:58] they don't have enough intelligence.
+- [06:59] They're not multimodal enough. They
+- [07:00] can't do computer use and all this kind
+- [07:02] of stuff. and they don't do a lot of the
+- [07:04] things that you've alluded to earlier.
+- [07:05] You know, they don't have continual
+- [07:06] learning. You can't just tell them
+- [07:07] something and they'll remember it. And
+- [07:09] they're just cognitively lacking and
+- [07:11] it's just not working. And I just think
+- [07:12] that it will take about a decade to work
+- [07:14] through all of those issues.
+- [07:15] >> Interesting. So, as a professional
+- [07:16] podcaster and a
+- [07:19] a viewer of AI from afar, it's sort easy
+- [07:22] to identify for me like, oh, here's
+- [07:24] what's lacking. Continual learning is
+- [07:26] lacking or multiodality is lacking. But
+- [07:28] I don't really have a good way of trying
+- [07:31] to put a timeline on it. Like if
+- [07:33] somebody's like how long will continue
+- [07:34] learning take? I there's no like prior I
+- [07:36] have about like this is a project that
+- [07:38] should take 5 years, 10 years, 50 years.
+- [07:40] >> Why a decade? Why not one year? Why not
+- [07:42] 50 years?
+- [07:44] >> Yeah. I guess this is where you get into
+- [07:45] like a bit of I guess my own intuition a
+- [07:47] little bit and also just kind of doing a
+- [07:49] bit of an extrapolation of with respect
+- [07:51] to my own experience in the field,
+- [07:53] right? So I guess I've been in AI for
+- [07:54] almost two decades. I mean it's going to
+- [07:56] be maybe 15 years or so. not that long.
+- [07:58] You had Richard Sutton here who was
+- [07:59] around of course for much longer. But I
+- [08:01] do have about 15 years of experience of
+- [08:03] people making predictions of seeing how
+- [08:04] they actually turned out and also I was
+- [08:06] in the industry for a while and I was in
+- [08:08] research and I worked in the industry
+- [08:09] for a while. So I guess I kind of have
+- [08:11] just a general intuition that I have
+- [08:13] left from that. Uh and I feel like the
+- [08:16] problems are tractable. They're
+- [08:18] surmountable but uh they're still
+- [08:20] difficult and if I just average it out
+- [08:22] it just kind of feels like a ticket I
+- [08:23] guess to me.
+- [08:24] >> This is actually quite interesting. So
+- [08:25] yeah, that's the vision. Agents that can
+- [08:28] actually learn, adapt, and work with us,
+- [08:31] not just for us. But right after that
+- [08:34] clip started making the rounds, Elon
+- [08:36] Musk jumped in, taking a jab at Carpathy
+- [08:39] for calling AI engineering research. And
+- [08:42] of course, he followed it up with an AGI
+- [08:44] prediction of his own, claiming that AI
+- [08:47] capable of doing anything a human with a
+- [08:49] computer can do, but not smarter than
+- [08:52] all humans and computers combined, is
+- [08:54] probably just 3 to 5 years away, not 10.
+- [08:58] He also revealed that Gro 5 will feature
+- [09:00] dynamic reinforcement learning, meaning
+- [09:02] it'll keep learning and updating after
+- [09:04] deployment, which sounds a lot like the
+- [09:07] kind of continuous learning Karpathy
+- [09:09] says is still missing. And honestly,
+- [09:11] this is the first time I've ever even
+- [09:13] heard of dynamic RL, so maybe they're
+- [09:16] actually on to something here. Now,
+- [09:17] finally, to wrap things up, here's a
+- [09:20] robot that can shave your face. This
+- [09:23] demo comes from a Chinese embodied AI
+- [09:25] startup called No Matrix, which just
+- [09:28] raised a massive Alibaba funding round
+- [09:31] to scale robots just like this. The
+- [09:33] robots powered by an embodied large
+- [09:35] language model that adjusts its
+- [09:37] movements in real time. So, when the
+- [09:39] person moves, the AI instantly
+- [09:41] recalculates pressure and position to
+- [09:43] keep shaving safely. It's quite
+- [09:45] impressive, but also quite terrifying. I
+- [09:48] don't think I would volunteer to do this
+- [09:50] just yet. Let me know if you would. But
+- [09:53] it's also kind of the perfect metaphor
+- [09:55] for where we are right now. Machines
+- [09:57] learning to handle increasingly human
+- [09:59] tasks. Tasks that actually have weight
+- [10:02] to them, like making purchases or
+- [10:05] dragging a blade across someone's face.
+- [10:07] Anyways, that's all for this week's
+- [10:09] recap. Thanks for watching. If you made
+- [10:11] it this far, drop a like, hit that
+- [10:14] subscribe button, and as always, I'll be
+- [10:16] catching you guys in the next

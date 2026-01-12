@@ -1,0 +1,520 @@
+---
+title: "Hello all, my name is Krishna and welcome to my YouTube channel. So guys, I hope everybody's followi..."
+video_id: "abppwF3MCG0"
+video_url: "https://www.youtube.com/watch?v=abppwF3MCG0"
+speaker: "Krishna"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Tool Integration"
+  - "Workflow Automation"
+  - "Product Development"
+summary: |
+  Hello all, my name is Krishna and
+  welcome to my YouTube channel. So guys,
+  I hope everybody's following my langraph
+key_points:
+  - "Hello all, my name is Krishna and"
+  - "langraph crash course is uploaded where"
+  - "in all this specific stuff you know uh"
+  - "before I thought before I record this"
+  - "part two you know I have to make this"
+  - "video uh that is uh what kind of"
+  - "projects you should definitely make uh"
+  - "if you are trying to get into generative"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: abppwF3MCG0
+
+- URL: https://www.youtube.com/watch?v=abppwF3MCG0
+- Retrieved at: 2025-12-30T11:33:00+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] I hope everybody's following my langraph
+- [00:06] crash course. Already part one of the
+- [00:08] langraph crash course is uploaded where
+- [00:10] we covered various topics um wherein we
+- [00:14] need to understand about langraph
+- [00:15] fundamentals. We built a applications.
+- [00:18] We learned about MCP techniques, how to
+- [00:19] build MCP server from scratch, you know,
+- [00:22] how to work with multiple tools, how to
+- [00:24] add memory, how to add human feedback in
+- [00:26] the loop and many more things. Right now
+- [00:28] in all this specific stuff you know uh
+- [00:31] that was basically covered in part one.
+- [00:33] Now in part two we had to probably go
+- [00:35] ahead and learn about workflow and
+- [00:36] agents multi- aent functional API and I
+- [00:38] was about to do the recording. Okay. Now
+- [00:41] before I thought before I record this
+- [00:44] part two you know I have to make this
+- [00:46] video uh that is uh what kind of
+- [00:49] projects you should definitely make uh
+- [00:52] if you are trying to get into generative
+- [00:54] AI field you know and uh this question
+- [00:56] is important because generative AI is
+- [00:59] for every every every domain it is for
+- [01:03] every kind of job roles a front-end
+- [01:05] engineer wants to learn it a backend
+- [01:07] engineer wants to learn it a data
+- [01:08] scientist wants to learn it a AI
+- [01:10] engineer wants to learn it. An ML
+- [01:12] engineer wants to learn it because there
+- [01:14] is a lot of scope in building
+- [01:16] applications in a much more efficient
+- [01:17] way because at the end of the day you
+- [01:19] are integrating your applications with
+- [01:20] LLM. You're integrating your application
+- [01:22] with some external tools. You are
+- [01:24] creating AI agents that will be able to
+- [01:26] automate most of your task. Considering
+- [01:29] this I thought of making this particular
+- [01:31] video because after this video we will
+- [01:33] continue the part two and then we will
+- [01:35] try to link why I have why I'm trying to
+- [01:37] cover all the specific topics and how uh
+- [01:40] we will probably when we move to part
+- [01:42] three how this will actually help you in
+- [01:44] LLMOS pipeline deployments LLM
+- [01:46] evaluation metrics and many more things.
+- [01:48] Okay.
+- [01:49] So let's say that uh you know you are
+- [01:52] learning about generative AI you know
+- [01:53] one thing is that once you specifically
+- [01:55] learn what kind of projects you really
+- [01:56] need to build at least to put in your
+- [01:58] resume so that your interview process is
+- [02:02] pretty much it goes in a much more
+- [02:04] positive way you know because at the end
+- [02:05] of the day what I've seen in most of the
+- [02:07] interviews they focus on different kind
+- [02:09] of project use cases and definitely with
+- [02:12] the project use cases that you have
+- [02:14] implemented right you can definitely
+- [02:15] impress if you follow these things that
+- [02:18] is happening This is from the recent
+- [02:20] conversation that I've been having with
+- [02:22] so many engineers out there who are
+- [02:24] currently working as generative AI
+- [02:25] engineers who are working in the agenti
+- [02:27] field and many more things. Okay. And I
+- [02:29] do communicate with a lot of people as
+- [02:31] we do and parally we are also running
+- [02:33] our own consultancy business you know
+- [02:35] where we are talking with clients what
+- [02:36] things they really want to implement
+- [02:38] specifically in the field of generative
+- [02:40] AI and agent engineering. Okay. So to
+- [02:43] start with you know u let me just go
+- [02:45] ahead like what kind of projects you
+- [02:46] really need to build. If I talk one year
+- [02:48] back, you know, agent uh generative AI
+- [02:51] started becoming very popular, right? So
+- [02:53] here I will go ahead and write ch AI.
+- [02:56] Here I am going to probably go ahead and
+- [02:58] write a right now with respect to
+- [03:01] generative AI whenever we talk about you
+- [03:04] know here obviously can create your
+- [03:06] genai applications
+- [03:09] right you can create traditional rags
+- [03:13] which is really important use cases and
+- [03:16] trust me guys right now most of the
+- [03:18] companies you know they're focusing on
+- [03:21] developing rag chat bots Okay,
+- [03:26] rack chatbots like 80%age of the use
+- [03:30] cases. Yeah, there are also many many
+- [03:32] use cases that uh that are with respect
+- [03:34] to computer vision and LP and all but
+- [03:36] most of the companies are focusing on
+- [03:38] this because this implementation in any
+- [03:40] application gives a wow factor in the
+- [03:42] application because recently I was just
+- [03:44] talking to one of my client who is
+- [03:46] running a business who is working with
+- [03:48] some amazing automo companies you know
+- [03:50] and they provide actual support to them
+- [03:53] you know with respect to building their
+- [03:54] own CRM they're just saying that kish
+- [03:57] can you probably come and build some
+- [03:58] kind of rack chat bots So that you know
+- [04:01] we give a kind of amazing experience for
+- [04:03] our end users in the automo company for
+- [04:06] the client so that they can directly go
+- [04:07] ahead and communicate with the chatbot
+- [04:09] and get information out there. Okay. So
+- [04:11] this is the kind of use cases and this
+- [04:13] is use cases were just being built to
+- [04:16] you know um at the end of the day they
+- [04:18] really want to charge more to the
+- [04:20] client. This is just a scenario by
+- [04:22] providing the specific feature because
+- [04:24] this is an additional feature. So
+- [04:26] companies are thinking how they can
+- [04:27] expand and provide that wow factor to
+- [04:29] their product product so that they can
+- [04:31] build more new things for them. Right?
+- [04:33] So here when I talk about generative AI
+- [04:35] applications you know building a basic
+- [04:37] generative AI applications when you have
+- [04:38] LLM solving a specific use cases that is
+- [04:41] already there that was very popular last
+- [04:43] year you know everybody was trying to
+- [04:44] build everybody was also trying to build
+- [04:46] some traditional rags right now if I see
+- [04:50] in many companies now they are moving
+- [04:51] from traditional rags to agentic rags
+- [04:54] right and why they are moving because
+- [04:56] now you have frameworks wherein you are
+- [04:59] able to build agentic AI application so
+- [05:01] right now guys if you are planning to
+- [05:03] move into generative AI applications. If
+- [05:05] you're learning, I know many of you are
+- [05:07] specifically learning, you really need
+- [05:08] to focus on this two modules, right?
+- [05:10] Generative AI, a genetic AI, right? When
+- [05:12] I talk about generative AI, you should
+- [05:14] know how to work with LLM models. You
+- [05:15] should know how to work with how to
+- [05:18] integrate uh LLM models with respect to
+- [05:20] generative AI application. How to work
+- [05:22] with external tools, right? External
+- [05:25] tools over here, right?
+- [05:27] how to work with external tools, how to
+- [05:29] bind them, how to work with pyic module,
+- [05:32] right? Pidantic
+- [05:34] pyic modules and all right and this is
+- [05:37] becoming very much popular. I'm just
+- [05:38] talking about some of the fundamental
+- [05:40] things then I'll move towards what kind
+- [05:41] of projects you should really build.
+- [05:43] Okay. Then when you go to agentic AI in
+- [05:46] agentic AI here the main aim is that to
+- [05:49] create multi- multi-
+- [05:53] AI agents right multiA agents right here
+- [05:56] what is basically happening AI agents
+- [05:58] are specifically communicating with each
+- [06:01] other it's just like you are you have a
+- [06:03] complex workflow of task and you're
+- [06:05] dividing those task between agents and
+- [06:08] agents are working together to solve
+- [06:10] that particular uh workflow or task to
+- [06:12] achieve that goal Right. So that is why
+- [06:14] agentic AI applications become very very
+- [06:16] much famous. You have lot of uh lot of
+- [06:20] libraries like langraph CUI you know you
+- [06:23] have uh applications like let's say
+- [06:26] langraph CUI you also have Agno you have
+- [06:29] so many different different frameworks
+- [06:30] that are actually helping you in this.
+- [06:32] So guys now let's talk about what kind
+- [06:34] of projects you really need to build.
+- [06:35] Okay. And I definitely want to see this
+- [06:39] kind of projects in your resume. At
+- [06:40] least you should have that kind of
+- [06:41] resume uh projects in your resume. So
+- [06:43] that your interviewer definitely will be
+- [06:45] impressed. The first project as I said
+- [06:47] more than 90% 80% of your use cases
+- [06:50] focus on rags in any company right now
+- [06:53] rag basically means
+- [06:55] retrieval
+- [06:58] augmented generation right
+- [07:02] retrieval augmented generation and just
+- [07:05] to give you an idea I'm also building a
+- [07:07] specific product with rag soon uh in my
+- [07:09] company we had started doing a lot of
+- [07:11] research on this uh we are trying to
+- [07:13] create a generic framework wherein from
+- [07:15] data parsing to you know data injection
+- [07:18] to probably converting that into vector
+- [07:20] stores uh you know storing it in some
+- [07:23] kind of databases and you providing a
+- [07:24] specific kind of response or getting a
+- [07:26] specific kind of response becomes much
+- [07:28] more accurate. So that kind of product
+- [07:30] uh we are specifically working. Now with
+- [07:33] respect to rags there are two things see
+- [07:35] one is with respect to different kind of
+- [07:39] data right your data may be in txt
+- [07:41] format it can be in pdf format it can be
+- [07:43] in some website format right so in the
+- [07:47] racks if you are specifically writing in
+- [07:49] your resume like what all things you
+- [07:51] basically did in rags okay so in rags
+- [07:53] definitely there are some components one
+- [07:57] is data parsing since I said that in
+- [08:00] rags whenever you implement any use
+- [08:02] cases your data will be in different
+- [08:04] different kind of uh in in a different
+- [08:06] different data source I'll consider this
+- [08:07] as my data source now from this data
+- [08:09] source how you are specifically doing
+- [08:11] the data parsing how in which format you
+- [08:14] are basically converting this how you
+- [08:16] adding all the metadata and how
+- [08:18] accurately you are adding all the
+- [08:20] metadata that is really important right
+- [08:22] now many companies are focusing on
+- [08:23] implementing good good data parsing
+- [08:25] modules you know and they are serving it
+- [08:27] to the client second thing is that after
+- [08:30] implementing data parsing you already
+- [08:32] have text embedding techniques for this
+- [08:35] already. They are so amazing LLMA model.
+- [08:37] So here uh you can directly use this
+- [08:40] text embedding techniques from the LLM.
+- [08:42] Let's say for example you have OpenAI,
+- [08:44] you have Google Germany and all you can
+- [08:46] use directly from this right you have
+- [08:48] various models. Third, which vector
+- [08:51] databases you are specifically using and
+- [08:53] how you're using it. Right now, client
+- [08:57] or interviewer at the end, right, will
+- [08:59] definitely be interested like see it's
+- [09:01] not like you just create a vector
+- [09:02] database in the um in the cloud and just
+- [09:06] try to use it, give an input, get an
+- [09:08] output. No, in vector databases also
+- [09:11] there is a concept of categorization.
+- [09:13] Why do we specifically use
+- [09:14] categorization? you know um if I really
+- [09:17] want to have a efficient retrieval
+- [09:20] system how do I probably go ahead and do
+- [09:22] this you know everything should be
+- [09:24] implemented in this once you
+- [09:26] specifically have the knowledge of this
+- [09:28] you will be able to talk about it
+- [09:30] because at the end of the day you need
+- [09:31] to talk about projects itself then
+- [09:33] coming to the fourth important thing
+- [09:35] right if I talk about vector databases
+- [09:37] I've understood you have understood that
+- [09:39] okay these all things are there then the
+- [09:41] next thing is that how you are able to
+- [09:44] create a persist consistent memory over
+- [09:46] here whenever you are creating this rag
+- [09:48] system. Right? Now when I talk about
+- [09:50] rag, they have different varieties of
+- [09:52] rag. There is corrective rag, there is
+- [09:54] adaptive rag, you know, and obviously
+- [09:56] now everybody should move from
+- [09:58] traditional rag to agentic rag, you
+- [10:00] know, adaptive rag, there is agentic
+- [10:02] rag. So start exploring multiple
+- [10:05] different kind of rags and how memory is
+- [10:08] managed in this kind of rags. That is
+- [10:11] important because in interviewers they
+- [10:12] will focus on this kind of questions.
+- [10:14] Okay. So this is really really much
+- [10:16] important and everybody if you do not
+- [10:19] have a rag project in your resume trust
+- [10:22] me it will be difficult to crack any job
+- [10:24] interview because companies are directly
+- [10:26] interested in this. Okay. Then comes in
+- [10:30] uh like in this kind of projects. The
+- [10:31] second thing that I really want to talk
+- [10:33] about is rags is definitely there right.
+- [10:36] Second there should be projects wherein
+- [10:38] you should focus on creating AI agents.
+- [10:41] Okay, AI agents, it can be a single AI
+- [10:44] agent. It can be multiple AI agents,
+- [10:47] right? So, multiple AI agents or agentic
+- [10:50] AI applications, you should start
+- [10:52] building
+- [10:54] agentic AI applications. Now the best
+- [10:56] thing about this agentic application is
+- [10:58] that any normal process let's say for
+- [11:02] solving a use case you know so in in
+- [11:06] recently you know one of the hackathon
+- [11:08] that we conducted in our last agentic AI
+- [11:10] batch we told that hey for the software
+- [11:13] development life cycle right see
+- [11:15] whenever how do we solve a software
+- [11:17] development life cycle with the help of
+- [11:18] AI from business gathering to
+- [11:20] requirement gathering you know to like
+- [11:22] how a business analyst work how a
+- [11:24] product manager work you
+- [11:26] uh how that requirement gathering is
+- [11:27] basically taken converted into a report.
+- [11:29] How the coding is basically done, how
+- [11:31] the unit testing is done. We tried to
+- [11:33] automate the entire HDLC by building an
+- [11:36] agentic AI application and the best part
+- [11:38] was that so many people were able to
+- [11:41] develop this and here we also integrated
+- [11:45] with human feedback. This is just one
+- [11:47] example, right? So companies are also
+- [11:51] looking for building this kind of
+- [11:52] agentic AI application. At the end of
+- [11:54] the day here you are trying to just
+- [11:57] solve a comic uh your complex workflow
+- [12:00] right and this complex workflow is just
+- [12:02] to solve a uh real world problem
+- [12:04] statement right just for an example
+- [12:07] let's say I want to probably say this
+- [12:09] scenario I had in my previous use cases
+- [12:11] also and I usually say this particular
+- [12:13] scenario to everyone even in my classes
+- [12:15] and all I want to convert my YouTube
+- [12:18] video into a blog right so for this I
+- [12:22] had to probably work with two uh I had
+- [12:25] to hire two interns to do this specific
+- [12:27] work. Now I've converted this into an
+- [12:29] agentic AI application which is being
+- [12:32] able to do this entire process in a much
+- [12:34] more easier way. Right? And this is the
+- [12:36] best thing about agentic AI
+- [12:38] applications. You know you here you try
+- [12:40] to automate things because LLM has that
+- [12:42] capability for doing this text part,
+- [12:45] coding part, uh reporting part, document
+- [12:48] analysis part, many more things as such.
+- [12:50] Right? So you can automate definitely by
+- [12:52] creating an agent application. Right? Uh
+- [12:54] so you should definitely focus on this
+- [12:56] right now. Whenever you are trying to
+- [12:58] create this agent AI application, my one
+- [13:00] very important topic that you should
+- [13:02] learn is about MCP servers. You should
+- [13:04] know how to build MCP servers from
+- [13:06] scratch. You should basically know how
+- [13:08] to uh use MCP servers with various
+- [13:10] various frameworks. As you know, MCP is
+- [13:13] basically come up by anthropic, right?
+- [13:15] And many many companies are now focusing
+- [13:17] on building their own MCP server so that
+- [13:19] you can integrate it easily with their
+- [13:21] application and at the end of the day
+- [13:23] you'll be able to charge them uh you
+- [13:25] know and obviously the companies will
+- [13:26] also be able to earn much more money
+- [13:28] right so there are different different
+- [13:29] MCP servers from tab to do go searchers
+- [13:32] there are more than 300 400 plus MCP
+- [13:34] servers the reason why I'm telling you
+- [13:36] to probably integrate all these things
+- [13:38] in your project because this will be
+- [13:40] very much helpful in answering a lot of
+- [13:42] questions and definitely the interviewer
+- [13:44] will be very much impressed by you with
+- [13:46] respect to the kind of work that you
+- [13:47] have done. If you are covering this two
+- [13:49] main thing that will be more than
+- [13:51] sufficient. Now comes to the next two
+- [13:53] block why you have created this
+- [13:54] particular next two blocks. Right? This
+- [13:57] block is basically for two important
+- [13:58] things. One is debugging and monitoring.
+- [14:02] Debugging and monitoring
+- [14:05] and the third one is specifically with
+- [14:07] respect to deployments.
+- [14:09] Okay. Now debugging and monitoring means
+- [14:12] what? See whenever we try to create this
+- [14:14] complex workflows you know you should
+- [14:16] have techniques of debugging things
+- [14:18] right some of the platform that I would
+- [14:20] like to mention is like lang right lang
+- [14:22] is a tool that is provided uh it is like
+- [14:24] a cloud platform that is provided by
+- [14:26] langraph where you can specifically do
+- [14:28] debugging if you want to go ahead and
+- [14:29] much more open source then I hope
+- [14:31] everybody has heard about mlflow right
+- [14:33] with mlflow you will be able to do
+- [14:35] amazing things you'll be able to uh
+- [14:37] specifically do the tracing you'll be
+- [14:40] able to do the tracking uh which API
+- [14:42] call is basically made, how much tokens
+- [14:44] has been generated. The same thing you
+- [14:45] can also do it with lang. But you know
+- [14:47] lang when you are specifically working
+- [14:49] with the enterprises right that time
+- [14:51] there will be some kind kind of charges
+- [14:53] based on the request but MLflow you can
+- [14:55] deploy it in any kind of clouds like EC2
+- [14:57] instance and all and you can
+- [14:58] specifically use for doing this tracing
+- [15:00] and tracking right and whenever we talk
+- [15:02] about deployments there is also one more
+- [15:04] very important thing which is called as
+- [15:06] LLM evaluation metrics
+- [15:09] evaluation metrics. So once you have
+- [15:11] this LLM evaluation metrics, you know,
+- [15:13] there are nine different evaluation
+- [15:16] metrics that we can specifically use. I
+- [15:19] hope many people did not know this but
+- [15:21] don't worry in the part two you know I
+- [15:24] will start talking about debug and
+- [15:26] monitoring and I'll also make a video on
+- [15:28] LLM evaluation metrics with the help of
+- [15:31] MLflow.
+- [15:33] Okay, with the help of MLflow and you
+- [15:35] will be like wow this is amazing. We'll
+- [15:37] try to use all the nine important
+- [15:39] metrics to do that you know and this
+- [15:41] this important experience if you add it
+- [15:44] in your resume like I know how to
+- [15:46] probably go ahead and do debugging and
+- [15:47] monitoring let's say in lansmith there
+- [15:49] is something called as langraph studio
+- [15:51] okay lang graph studio and with the help
+- [15:53] of langraph studio you will be able to
+- [15:54] see the entire workflow in action right
+- [15:57] which is really really much amazing
+- [15:59] right so we will be focusing even on
+- [16:01] debugging and monitoring along with that
+- [16:03] LLM evaluation metrics and finally we'll
+- [16:05] try to see some of the deployment
+- [16:06] techniques again here we are going to
+- [16:08] use the CI/CD pipeline this two part
+- [16:11] that you'll be able to see it's more
+- [16:12] towards LLM ops right LLM ops so
+- [16:16] initially it was MLOps but since we are
+- [16:19] now working with LLM models it is termed
+- [16:22] as LLM ops which is also one of the
+- [16:24] major requirement see at the end of the
+- [16:26] day why I'm specifically creating all
+- [16:28] these things because people just focus
+- [16:29] on this two modules most of the time
+- [16:31] they don't focus on this again focusing
+- [16:34] on these two specific modules will give
+- [16:35] you an upper hand when compared to the
+- [16:37] other people out there right so it is
+- [16:39] necessary you start creating this and at
+- [16:40] least have this two kind of projects
+- [16:42] where you are creating about AI agents
+- [16:44] and all and also make sure while you're
+- [16:46] creating chat bots at the end of the day
+- [16:48] you'll be creating chat bots right in
+- [16:50] the chat bots how do you manage memory
+- [16:52] that is also really really much
+- [16:53] important so I hope you like this
+- [16:55] particular video this was the video that
+- [16:57] I really wanted to create before I
+- [16:58] upload part two so that it gives you an
+- [17:00] idea what all kind of projects you
+- [17:02] should definitely have in your resume
+- [17:04] for generative AI so yes this was it for
+- [17:06] my side. I'll see you in the next video.
+- [17:07] Thank you.

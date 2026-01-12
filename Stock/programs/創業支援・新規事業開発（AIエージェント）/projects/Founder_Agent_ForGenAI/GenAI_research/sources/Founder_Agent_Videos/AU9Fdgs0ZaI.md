@@ -1,0 +1,1339 @@
+---
+title: "YouTube Video: AU9Fdgs0ZaI"
+video_id: "AU9Fdgs0ZaI"
+video_url: "https://www.youtube.com/watch?v=AU9Fdgs0ZaI"
+speaker: "Jacob Efron"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  what's one thing you changed your mind on like in the AI world in the last year this is such a good question and uh are we going to get exceptionally good at coding and math but still not be able to l...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: AU9Fdgs0ZaI
+
+- URL: https://www.youtube.com/watch?v=AU9Fdgs0ZaI
+- Retrieved at: 2025-12-30T09:57:37+09:00
+
+## Text
+
+- [00:00] what's one thing you changed your mind
+- [00:01] on like in the AI world in the last year
+- [00:02] this is such a good question and uh are
+- [00:05] we going to get exceptionally good at
+- [00:06] coding and math but still not be able to
+- [00:08] like tell a joke or something this is a
+- [00:09] great topic to debate I have a very
+- [00:11] strong view a strong view what like
+- [00:13] Milestones are meaningful to you in the
+- [00:14] agent space the main Milestone I'm
+- [00:16] looking for in the agent space is David
+- [00:19] luan's the head of the agf lab at Amazon
+- [00:22] he was previously the co-founder and CEO
+- [00:23] of a de a company that raised over $400
+- [00:25] million to build AI agents and he was
+- [00:27] the VP of engineering at open AI during
+- [00:29] a lot of their IAL breakthroughs I'm
+- [00:31] Jacob Efron and today on unsupervised
+- [00:32] learning David and I H a bunch of
+- [00:34] different interesting topics including
+- [00:36] his reaction to Deep seek and his
+- [00:37] predictions for the future progress of
+- [00:39] models we talked about the state of
+- [00:40] Agents today and what's required to make
+- [00:42] them reliable and when they'll be
+- [00:43] ubiquitous and he shared some really
+- [00:44] interesting stories from the early days
+- [00:46] of open Ai and what made the culture
+- [00:47] there so special this was a really fun
+- [00:49] one as David and I have been friends for
+- [00:51] a long time I think folks really enjoy
+- [00:53] it without further Ado here's
+- [00:56] David David thanks so much for uh coming
+- [00:58] on the podcast yeah thanks for me this
+- [01:00] is going to be a lot of fun cuz we've
+- [01:01] known each other for what like more than
+- [01:03] 10 years now you know I remember when
+- [01:05] you uh originally joined open Ai and I
+- [01:07] was like that seems interesting but I
+- [01:09] wonder like you know a cool career move
+- [01:10] and then uh obviously you were as always
+- [01:12] prant uh long long before everyone else
+- [01:14] I got really lucky you know just uh I
+- [01:17] always was into Robotics and the biggest
+- [01:19] constraint for robotics was how smart
+- [01:21] the underlying algorithms were so I
+- [01:22] started working in Ai and um it's it's
+- [01:25] just been so cool to see that this stuff
+- [01:27] is working in our lifetimes well there's
+- [01:28] a bunch of things I want to hit with
+- [01:29] with you today um I thought I'd just
+- [01:31] start first topical um you know
+- [01:34] obviously there's there was this huge
+- [01:35] reaction to Deep seek over the last you
+- [01:37] know few weeks um you know obvious the
+- [01:40] Nvidia stock crash people were saying it
+- [01:42] was bad for open ey and anthropic I feel
+- [01:43] like now there's been kind of a a coming
+- [01:45] back to you know less freaking out but
+- [01:48] I'm curious like what people got right
+- [01:50] about the implications of this and maybe
+- [01:51] what they got wrong in the broader
+- [01:52] discourse yeah so um I still remember
+- [01:55] the morning uh that everybody started
+- [01:57] waking up to deep seek news um I woke up
+- [02:00] I looked at my phone I had like five
+- [02:02] Miss calls I was like what is going on
+- [02:04] and the last time something like that
+- [02:06] happened was when SBB collapsed CU all
+- [02:08] my investors were calling me to get our
+- [02:09] funds out from like SBB and and uh and
+- [02:12] First Republic and all that stuff and so
+- [02:14] I was like something really bad must be
+- [02:16] happening and I checked the news and
+- [02:17] it's like stocks are crashing Because
+- [02:18] deep seek R1 is out and all that stuff
+- [02:21] um I instantly was like Wow people have
+- [02:24] really missed the memo on what actually
+- [02:26] happened here um deep seek I think was
+- [02:28] incredibly good work from I have so many
+- [02:31] thoughts on like team culture and
+- [02:32] composition and all that other stuff we
+- [02:33] can get to later but um it was it was
+- [02:35] just really incredible work but it's
+- [02:37] part of this broader uh uh like story
+- [02:40] arc of we figure first out how to make
+- [02:42] new ml systems smarter and then we
+- [02:44] figure out how to make them more
+- [02:45] efficient and so this was like the the
+- [02:46] the talk to the tick of 01 really and
+- [02:50] what everybody got wrong was just
+- [02:52] because you could make more intelligence
+- [02:54] happen at a Le lesser price doesn't mean
+- [02:56] that you stop consuming more
+- [02:57] intelligence if anything you consume
+- [02:58] even more of it so um once I think the
+- [03:01] market woke up to that now we're back to
+- [03:03] sanity given that obviously some of the
+- [03:04] at least base model there seems to have
+- [03:06] been trained on outputs of of open Ai
+- [03:08] and you know I guess you can get the the
+- [03:10] base deeps model to say that it's chat
+- [03:11] GPT in in various ways do you think
+- [03:13] going forward you know given what's
+- [03:15] happening with distillation that open AI
+- [03:17] anthropic maybe stop releasing some of
+- [03:18] these models more publicly you know I
+- [03:20] think what's going to happen is that um
+- [03:23] is that people want to build the
+- [03:25] smartest models possible but that
+- [03:27] sometimes it's not always inference
+- [03:29] efficient so I think what we're going to
+- [03:30] start seeing more and more of is whether
+- [03:32] people talk explicitly about this or not
+- [03:34] people are going to train these
+- [03:35] humongous teacher models on as much
+- [03:37] computer as they can get their hands on
+- [03:38] and then they're going to try to figure
+- [03:39] out internally in their own Labs how to
+- [03:41] render it down to something that runs
+- [03:43] really fast and is like efficient for
+- [03:44] customers like the biggest thing I'm
+- [03:46] seeing right now is that is that you
+- [03:49] know every I kind of think about AI use
+- [03:51] cases and concentric circles of uh
+- [03:54] complexity right so like maybe at the
+- [03:55] very very like Inner Circle of
+- [03:58] complexity will be something like just
+- [04:00] having a good old chat conversation with
+- [04:01] a Bas llm right like we were able to do
+- [04:03] that back in jupy 2 pretty competently
+- [04:05] and every incremental circle of
+- [04:06] intelligence maybe it's like uh being
+- [04:08] able to do mental math or coding or like
+- [04:10] later on agents or later on like drug
+- [04:12] Discovery or whatever require smarter
+- [04:14] and smarter models but every previous
+- [04:16] ring of intelligence becomes almost so
+- [04:18] cheap as to be commoditized kind of goes
+- [04:20] into obviously you know I feel like
+- [04:21] there's been this massive test time
+- [04:22] compete wave seems like a really
+- [04:24] exciting path forward for coding for
+- [04:25] math for these you know easily
+- [04:27] verifiable domains um how far does this
+- [04:30] kind of Paradigm get us so um there's
+- [04:32] actually an interesting uh paper trail
+- [04:34] and podcast trail of me talking about
+- [04:36] the recipe for how to build AGI that's
+- [04:38] like years old at this point um I let's
+- [04:40] contribute to that trail yeah so so now
+- [04:42] we get to this is like a this is a a
+- [04:45] proof that we talked about this
+- [04:46] conversation at this point in time but
+- [04:48] like back in even back in 2020 right um
+- [04:51] we always said um you know at the time
+- [04:54] we were starting to see gpt2 had come
+- [04:56] out gpt3 I think was cooking or maybe
+- [04:58] done by then we were starting to think
+- [05:00] about four we were living in this world
+- [05:02] where um people were not sure whether or
+- [05:05] not all you needed was next token
+- [05:08] prediction to solve all of AGI and uh my
+- [05:11] view in a couple view views of people
+- [05:12] around me was actually like the answer
+- [05:15] would be no and the reason why the
+- [05:16] answer was no is because an llm trained
+- [05:18] to do next token prediction by
+- [05:20] definition is penalized for discovering
+- [05:22] new knowledge because new knowledge was
+- [05:23] not part of the training set and as a
+- [05:25] result what we needed to do was we
+- [05:27] needed to go look at what are the other
+- [05:29] ml parad we know can actually discover
+- [05:31] new knowledge and we know RL can do RL
+- [05:33] and search can do that right has ear
+- [05:35] like this is such a long trail but even
+- [05:37] Alpha go right was maybe the first like
+- [05:38] time it went to public Consciousness
+- [05:40] that we could discover new knowledge
+- [05:41] using RL and the question always was
+- [05:44] when we were going to combine llms with
+- [05:46] RL to get systems that had all of the
+- [05:48] knowledge of what Humanity already knew
+- [05:51] and the ability to go build upon it like
+- [05:53] the reason why the the initial Deep Mind
+- [05:55] path of just doing RL alone didn't work
+- [05:58] was because it was initialized randomly
+- [06:00] those models that were playing you know
+- [06:02] at tar incredible result or whatever
+- [06:05] like the amount of time it would take
+- [06:07] something that knew nothing about the
+- [06:08] world and then ReDiscover human language
+- [06:10] and ReDiscover how to coordinate and
+- [06:12] like learn details about how to file
+- [06:13] your taxes would take forever if done
+- [06:16] purely in an RL setting um and so now I
+- [06:19] think that philosophy has really been
+- [06:21] borne out by seeing how successful these
+- [06:23] like um models that combine both these
+- [06:24] paradigms are yeah and do you think I
+- [06:26] mean like for domains that aren't as
+- [06:28] easily verifiable let's take you know
+- [06:29] Healthcare or law like do these you know
+- [06:32] does following this kind of test time
+- [06:33] compute Paradigm get us to models that
+- [06:34] can can do that or like are we going to
+- [06:36] get exceptionally good at coding in math
+- [06:38] but still not be able to like you know
+- [06:39] tell a joke or something this is a great
+- [06:40] topic of debate I have a very strong
+- [06:42] view the strong view the answer is that
+- [06:45] these models are better at generalizing
+- [06:47] than you think um everybody's like ah
+- [06:49] you know like I played with 01 and it
+- [06:51] seems like it's a little better from for
+- [06:53] math but the wait for it to think and it
+- [06:55] kind of like maybe it's a little bit
+- [06:56] worse that chat or whatever I think
+- [06:58] those are just blips on the way to glory
+- [07:01] for how these things are built um today
+- [07:04] um like we already have signs that uh
+- [07:06] getting better through uh uh problems
+- [07:10] where you have an explicit ability to
+- [07:12] test whether or not the models correctly
+- [07:13] solved it which is what we've seen from
+- [07:15] Deep seek yeah um does lead to transfer
+- [07:18] on some slightly fuzzier problems that
+- [07:19] seem in a similar domain and um and I
+- [07:23] think the field is like working hard
+- [07:24] like my team others they're just working
+- [07:26] so hard to figure out how to learn um
+- [07:29] like human preferences around these much
+- [07:31] more complicated tasks and then just do
+- [07:33] RL to go satisfy those right and you
+- [07:35] have to be able to build like a model to
+- [07:37] essentially verify like the you know hey
+- [07:39] that output is like good law or that
+- [07:41] output is like you know uh a good
+- [07:43] Healthcare diagnosis like obviously a
+- [07:45] much harder problem than like you know
+- [07:47] uh verifying a math proof or you know
+- [07:49] did that code run the fundamental thing
+- [07:51] that I view we are arbitraging is this
+- [07:54] um is this gap between how good these
+- [07:56] models are the same set of neural the
+- [07:58] same set of neural network way
+- [08:00] how good they are at at determining
+- [08:02] whether or did a good job compared to
+- [08:03] generating the right answer it's we've
+- [08:05] always see that these models are better
+- [08:07] at determining whether they've done a
+- [08:08] good job and they are generating the
+- [08:09] answer and to some extent what we're
+- [08:11] doing with all this RL stuff is
+- [08:12] exploiting that to force it to try over
+- [08:15] and over and over again to satisfy its
+- [08:16] own sense of whether or not it did a
+- [08:17] good job talk to me a little bit about
+- [08:19] like the research problems that needed
+- [08:20] to be solved to actually get a model
+- [08:22] like this out there are just so many um
+- [08:25] but you know the the well where do we
+- [08:27] even start I think the f um in no
+- [08:29] particular order and I'm only probably
+- [08:30] going to itemize like three of the
+- [08:32] problems that we've had to solve I think
+- [08:34] one of the first ones is just figuring
+- [08:36] out uh how you can even build an
+- [08:40] organization and a process to be able to
+- [08:42] reliably TR out models like one of the
+- [08:44] things that I always um that I always
+- [08:46] say to my team and um and people that um
+- [08:48] that that I collaborate with is that
+- [08:51] today if you run a modern AI lab your
+- [08:54] job isn't to build models your job is to
+- [08:56] build a factory that reliably turns out
+- [08:58] models uh and if you think about like
+- [09:01] how you think about that totally changes
+- [09:03] what you invest in right and so um until
+- [09:06] there was repeatability here I there was
+- [09:08] not a lot in my view there was not a lot
+- [09:09] of forward momentum like we've just gone
+- [09:12] through this Arc over the last couple
+- [09:14] years of like going from Alchemy to like
+- [09:16] industrialization in terms of how these
+- [09:18] things have been built um and without
+- [09:20] that there was no substrate for these
+- [09:21] things to work um I think the next part
+- [09:24] uh so like all these cories right like
+- [09:26] again this is a space where you have to
+- [09:27] go slow to go fast um but so I think
+- [09:30] that was um that was one of the first
+- [09:32] Parts um I continually believe that um
+- [09:37] the the thing that people always
+- [09:40] gravitate to because they think it's
+- [09:41] cool and sexy are the algorithms um but
+- [09:45] if we look at what actually drove a lot
+- [09:46] of this stuff it's solving the
+- [09:48] engineering right like how do you do
+- [09:50] giant like massive clusters uh that you
+- [09:52] can reliably keep up for long enough and
+- [09:54] if a node goes down you don't like end
+- [09:56] up wasting a bunch of time in your job
+- [09:57] right to be able to push the frontier a
+- [09:59] scale now with this whole RL thing we're
+- [10:01] going to be quickly moving to a world
+- [10:03] where there will be lots and lots of
+- [10:04] data centers Each of which are going to
+- [10:06] be doing actually a lot of inference on
+- [10:08] the base model and maybe testing it on
+- [10:10] new environments maybe um that uh that a
+- [10:13] customer has brought to the to to to
+- [10:15] Bear to like learn how to improve the
+- [10:16] model and sending those new knowledge
+- [10:18] back to a centralized place where the
+- [10:19] model can learn how to be smarter um
+- [10:22] there actually a lot of really tough
+- [10:23] engineering problems as well have be
+- [10:24] solved yeah there's been folks like Yan
+- [10:26] laon that have had some interesting like
+- [10:27] recent and recurring criticisms of of of
+- [10:29] like the limitations of LMS I wonder if
+- [10:31] you could kind of just like summarize
+- [10:33] that critique for our listeners and then
+- [10:35] you know what are your kind of thoughts
+- [10:36] on on folks that say look it's going to
+- [10:38] be hard for these uh LM to ever have
+- [10:40] real original thinking I I think we just
+- [10:42] have counter examples I Alpha go was
+- [10:44] original thinking um we watch um if you
+- [10:47] go back even to the old open AI work
+- [10:49] where we were using RL to play uh flash
+- [10:53] games right if you're if you're of a
+- [10:54] certain age you probably remember like
+- [10:56] mini clip and stuff like that um great
+- [10:58] great great syns of time in in middle
+- [11:00] school but um but it's so funny to watch
+- [11:03] that become the substrate of AI uh and
+- [11:05] we were working on uh we were working on
+- [11:07] you know just like using our algorithms
+- [11:09] to try to solve many of those games at
+- [11:10] once and you just you learn that they
+- [11:12] they learn really quickly how to
+- [11:14] discover often times like speedrun
+- [11:16] techniques by like glitching through
+- [11:17] walls and stuff to solve uh to to solve
+- [11:20] platformer levels that's stuff that
+- [11:22] humans have never done before and on the
+- [11:23] verification side is it mostly just you
+- [11:25] know uh it it's obviously just finding
+- [11:27] clever ways I guess to figure out
+- [11:28] verification some of these different
+- [11:30] domains you uh I think you use the model
+- [11:34] I love it I guess you know I'd love to
+- [11:35] shift to kind of the world of agents and
+- [11:36] obviously you know you worked on
+- [11:37] computer use models uh at Adept um how
+- [11:40] do you kind of characterize where we are
+- [11:42] today with these models okay so I'm
+- [11:45] super excited about I remain super
+- [11:47] excited about agents I still go back to
+- [11:49] um you know 2020 2021 when uh the first
+- [11:53] wave of like truly powerful llms like
+- [11:55] jt4 were coming out you'd go play with
+- [11:58] them and you're like wow there's so much
+- [11:59] PR promise like it's it's made me a
+- [12:00] great rap song um it's like uh it's it
+- [12:03] does great roasts sometimes it does
+- [12:05] three-digit addition acceptably and
+- [12:07] you're like please order me a pizza and
+- [12:09] it just cosplays being like a Domino's
+- [12:12] Pizza rep like it just can't do it it's
+- [12:14] obviously a major it's a major Gap right
+- [12:16] in the utility of these systems so uh
+- [12:19] even since then um you know I I was
+- [12:21] pretty sure that we had to go solve the
+- [12:24] we had to go solve the agent problem and
+- [12:26] so um we started working when I was at
+- [12:28] Google on um problems that that actually
+- [12:31] still are called tool use right like how
+- [12:32] do you expose affordances to the llm to
+- [12:35] decide when it should go should go do
+- [12:37] something um and back then um I think
+- [12:41] well the orl literature had always
+- [12:43] called it agents but I think the general
+- [12:44] public didn't yet have a word for it so
+- [12:46] we tried to come up with a new term
+- [12:47] called a large action model instead of a
+- [12:49] large language model and that kind of
+- [12:51] had a little bit of traction and then
+- [12:52] the world decided that it was going to
+- [12:53] be called an agent and now everything's
+- [12:54] an agent and doesn't mean anything
+- [12:55] anymore uh which is very sad but um but
+- [12:59] it does it was really cool to be um the
+- [13:01] first uh you know uh first modern agent
+- [13:03] company and when we started Adept you
+- [13:06] know um there was the best open source
+- [13:09] llms were not good um so we we were like
+- [13:12] we have to train our own model because
+- [13:13] there was also no multimodal llms like
+- [13:16] uh like image input llms like GPT 4V
+- [13:18] came so much later and so we did we had
+- [13:21] to do everything end to end from scratch
+- [13:23] it's kind of like starting an airnet
+- [13:24] company in like 2000 and having to go
+- [13:27] like uh call tsmc to build your own chip
+- [13:29] like it's just insane um and so so along
+- [13:33] the way what we learned was that um
+- [13:36] really early on what we learned was that
+- [13:38] llms out of the box without any of the
+- [13:41] new RL stuff we're doing today um
+- [13:44] they're they they're behavioral cloners
+- [13:47] right they they kind of do what they've
+- [13:48] seen in the training data and that means
+- [13:50] that they're really liable to go off the
+- [13:52] rails because the moment they end up in
+- [13:54] a situation they've never seen before
+- [13:56] the generalization tends to be bad and
+- [13:58] itn't
+- [13:59] it does something unpredictable and so
+- [14:02] um so at Adept you know we were always
+- [14:04] focused on useful intelligence and so
+- [14:06] what did utility mean it wasn't ship a
+- [14:08] cool demo that went viral on Twitter it
+- [14:10] was uh put this in the hands of someone
+- [14:12] so they don't have to do the like
+- [14:14] Shuffle things around in your computer
+- [14:16] grunt work that uh most knowledge
+- [14:18] workers have to do and so those
+- [14:20] knowledge workers care about reliability
+- [14:22] so one of our early use cases was uh can
+- [14:25] we go do invoice processing for people
+- [14:27] right and everyone loves invoice process
+- [14:29] in for these gentic models feels like a
+- [14:31] natural place to start it's a great
+- [14:32] hello world uh and so at the time you
+- [14:34] know nobody had really done these things
+- [14:35] before so like let's choose an obvious
+- [14:37] hello world so we chose we like that was
+- [14:38] one of them we did Excel some other ones
+- [14:41] um but uh but you know if uh if this
+- [14:44] thing uh ends up deleting a third of
+- [14:46] your QuickBooks entries one in seven
+- [14:48] times you'll never use it again and
+- [14:51] reliability remains an issue like even
+- [14:52] today like operator is like super
+- [14:54] impressive right um and seems to be a
+- [14:57] cut cinamon Cut Above uh Cloud computer
+- [14:59] used so far but like you look at both of
+- [15:01] those things that are already out and
+- [15:03] the biggest challenge is that they've
+- [15:05] both focused on endtoend task
+- [15:07] performance right like go in there and
+- [15:08] you type like hey um I'd like for you to
+- [15:11] uh uh find me five five vacation sites
+- [15:13] that I could go to this weekend right
+- [15:14] and'll go do an approximation of that
+- [15:17] but the end to end uh reliability of
+- [15:19] that is super super low requires lots of
+- [15:22] interventions right it's we're still not
+- [15:24] at a point where you know the real value
+- [15:27] of this is when business is and really
+- [15:29] trust it in a fire and forget way that's
+- [15:31] what we got to solve maybe explain for
+- [15:32] our listeners like what do you actually
+- [15:34] have to do if you take a base multimodal
+- [15:35] model that's out there um to turn it
+- [15:37] into like a large action model like what
+- [15:39] is actually the work that's happening
+- [15:40] behind the scenes to make that happen so
+- [15:42] I can talk at a high level about it but
+- [15:44] um basically there's two things you have
+- [15:46] to do one is an engineering problem the
+- [15:49] engineering problem is how do you expose
+- [15:52] uh in a model legible way uh uh what it
+- [15:55] can do right um so you know here are the
+- [15:58] API you can call here's uh here's the UI
+- [16:01] elements you can call let's go teach you
+- [16:02] a little bit about how expedia.com works
+- [16:04] or how sap works right that's kind of um
+- [16:07] it's a little bit of research engering
+- [16:08] that's kind of Step One is giving it
+- [16:10] like a sense of what it can can and
+- [16:12] can't do and basic abilities to go to go
+- [16:14] do stuff the interesting part happens in
+- [16:18] the second uh uh component which is how
+- [16:21] do you teach it to plan and reason and
+- [16:23] repan and um and follow user
+- [16:26] instructions and um uh later on actually
+- [16:29] even be able to infer what the user
+- [16:31] actually meant and go and go do that for
+- [16:33] them right that's a huge huge research
+- [16:36] problem and it differs a lot from
+- [16:38] regular old llm work because regular LM
+- [16:41] work is like let's go generate piece of
+- [16:42] text even the reasoning work we're
+- [16:44] seeing today with math problems right
+- [16:46] there's an answer at the end so it's
+- [16:48] like a single step even if it's like
+- [16:50] thinking for bajillion chains of thought
+- [16:52] like it's it's a it's really taking it's
+- [16:55] really taking one step for you which is
+- [16:56] like I've given you the answer with this
+- [16:59] it's this whole multi-step
+- [17:00] decision-making process um that involves
+- [17:03] backtracking and involves trying to
+- [17:05] predict the consequences of an action
+- [17:06] you take um for the future and realizing
+- [17:09] hey the delete button is probably
+- [17:10] dangerous uh that you have to do all the
+- [17:13] work to teach the model that in a basic
+- [17:16] setting right and then you set it uh in
+- [17:19] sandboxes set it loose in sandboxes to
+- [17:22] learn um on its own terms right like the
+- [17:26] best analogy for this by the way that
+- [17:27] I'll Jam in um I forgot I think I think
+- [17:30] it was Andre kathi wrote this on the
+- [17:32] Internet or something is like is like uh
+- [17:34] a modern uh AI uh training is kind of
+- [17:38] like how a textbook is organized right
+- [17:39] so first you have um all of the
+- [17:41] exposition I'm just cripping this from
+- [17:43] him but like all of the exposition um of
+- [17:46] uh of some physical process and then
+- [17:48] you've got some sample problems so the
+- [17:50] first part is pre-training the sample
+- [17:51] problems a supervised fine tuning and
+- [17:53] then the RL step happens when you have
+- [17:55] the open-ended problems at the back that
+- [17:56] maybe have an answer in the back of the
+- [17:58] textbook it's like we we're just
+- [17:59] following that process yeah I guess you
+- [18:01] know you've obviously thought a lot
+- [18:02] about how this these you know agents
+- [18:04] will actually get brought into the world
+- [18:05] so I guess a few questions around that
+- [18:07] the first is you mentioned obviously
+- [18:08] part of this is is kind of this
+- [18:09] engineering challenge of just letting
+- [18:11] the models know what they have access to
+- [18:12] like how do you think over time models
+- [18:14] will interact with like browsers and
+- [18:15] programs like is going to be similar to
+- [18:17] how humans do is it just going to be via
+- [18:19] code like other approaches that you've
+- [18:21] seen if I were to ding the field right
+- [18:23] now on one thing it is that there has
+- [18:25] been a massive lack of creativity on how
+- [18:27] people interface with increasingly smart
+- [18:30] llms and agents like we are in the um do
+- [18:34] you know like you remember like when the
+- [18:35] iPhone came out the App Store came out
+- [18:38] um people started making all of these
+- [18:39] apps like um hit this button to make the
+- [18:41] burp noise and here's a beer that you
+- [18:43] can pour into your mouth by tilting the
+- [18:45] by tilting the phone um like our
+- [18:48] interfaces today feel like that and that
+- [18:50] is so sad because chat is a super
+- [18:54] limiting like low bandwidth way to go
+- [18:58] get things done C ways it's it's easy
+- [18:59] but in many other ways right like I
+- [19:01] don't want to have a seven turn
+- [19:02] conversation uh to decide what toppings
+- [19:04] I'm going to have on my pizza right like
+- [19:06] that uh and I think that um the lack of
+- [19:09] creativity there has been really bugging
+- [19:10] me and I think part of the reason why is
+- [19:12] that the uh amazing product designers
+- [19:15] that could be helping us figure the
+- [19:16] stuff out a lot of them don't yet like
+- [19:18] deeply understand the limitations of the
+- [19:20] models that people work this is changing
+- [19:22] quickly right but um and then conversely
+- [19:25] um so far the people who have been able
+- [19:27] to advance the technology have have
+- [19:28] always just thought about it as like I'm
+- [19:30] here to go deliver a black box and not
+- [19:32] I'm here to go deliver an end to end
+- [19:33] experience so when that changes I'm
+- [19:35] excited to see things like um I'm
+- [19:38] excited to see things like uh like uh
+- [19:40] systems where when you interact with the
+- [19:42] agent like it is actually itself
+- [19:44] synthesizing this like multimodal user
+- [19:46] interface for you to like for it to best
+- [19:49] elicit what it needs from you right and
+- [19:50] to have like shared context between the
+- [19:53] human and the AI like instead of like
+- [19:56] the current Paradigm is like you're
+- [19:57] chatting to each other it's like you are
+- [20:00] doing something together on your
+- [20:01] computer and looking at the screen more
+- [20:03] like parallel rather than perpendicular
+- [20:04] I guess you you mentioned obviously
+- [20:06] operator kind of works sometimes doesn't
+- [20:08] you know what like when do you think we
+- [20:10] actually get you know reliable agents I
+- [20:12] mean I think operator is super
+- [20:14] impressive by the way um it's just that
+- [20:15] right now the whole field is like
+- [20:17] missing that last chunk right it's it's
+- [20:21] it's like self-driving right I forgot
+- [20:22] how many was it must been over a decade
+- [20:25] maybe even 15 years ago we had uh
+- [20:27] amazing demo videos I think well having
+- [20:29] done the self-driving podcast yesterday
+- [20:30] I think it was 95 where they did the
+- [20:32] ride they drove across the country like
+- [20:34] 99% offly yeah yeah yeah so so like
+- [20:37] that's uh so are we going to wait are we
+- [20:38] going to have to wait 30 years for no no
+- [20:40] I don't think so because I think we
+- [20:41] actually have the the right Tools in our
+- [20:43] toolbox now um and I think that um yeah
+- [20:48] I think this recipe for how to build a
+- [20:51] build a a level agent um will work
+- [20:55] pretty well I guess what like Milestones
+- [20:56] are meaningful to you in the agent space
+- [20:58] like what do you think the next you know
+- [21:00] the the next thing you're looking out
+- [21:01] for okay the main Milestone I'm looking
+- [21:03] for in the asan space is I can give
+- [21:06] during training time right like I work
+- [21:08] at one of these main Labs I can I have
+- [21:11] like the Milestone I'm looking for is I
+- [21:12] have a recipe where I can hand this
+- [21:16] agent in training any task and come back
+- [21:19] end days later and it's 100% to it yeah
+- [21:21] like 100% at it like not just like you
+- [21:24] know humans have given us like another
+- [21:26] you know uh 5% points more reliability
+- [21:29] but like the agent has figured out how
+- [21:31] to solve the thing you know to your
+- [21:32] point you started a depth like before
+- [21:34] there was you know really any open
+- [21:35] source models and certainly like a
+- [21:37] multimodal open source model and and I
+- [21:39] think as a result had to train a lot of
+- [21:40] things from
+- [21:41] scratch do you think like you know if
+- [21:43] someone was starting in ad Dept like
+- [21:44] company today like could a startup be
+- [21:46] successful here or is it going to be the
+- [21:48] foundation model companies and
+- [21:49] hyperscalers that like you know uh
+- [21:51] ultimately like move the move the ball
+- [21:53] forward here so I actually have a huge
+- [21:54] amount of uncertainty on this one but um
+- [21:57] but my current view uh is that is that
+- [22:03] so I I personally think AGI is really
+- [22:05] not super far away and at the same when
+- [22:09] you say AI like how do you define it the
+- [22:10] model that can do anything useful that a
+- [22:13] human does on a computer um that's one
+- [22:16] part of the definition the other part uh
+- [22:17] that I also like is that is that it's a
+- [22:20] model that can learn how to do that
+- [22:22] thing as fast as a human Ken like a
+- [22:24] generalist human Ken uh and I think um I
+- [22:28] think either of those are really not
+- [22:30] that far away but I also don't think
+- [22:32] that it's going to be uh I think it's
+- [22:34] going to be deeply transformational but
+- [22:36] I don't think it's going to diffuse
+- [22:37] through Society really quickly because
+- [22:40] um most uh you know as we know through
+- [22:42] AMD doll's law right like like once you
+- [22:45] really speed up one particular thing
+- [22:46] something else becomes a bottleneck and
+- [22:48] your overall amount of speed up is is
+- [22:50] less than you think so um I think what's
+- [22:53] going to happen is that we'll have the
+- [22:54] tech but there will be those massive um
+- [22:57] a lot of my colleagues call it a
+- [22:58] capability overhang right um massive
+- [23:01] capability overhang where um society's
+- [23:03] ability to actually use these things
+- [23:04] productively will lag quite a while yeah
+- [23:06] do you have any like early thoughts on
+- [23:07] what the gaining Factor might be once we
+- [23:09] do have these capabilities I think it's
+- [23:10] people I think it's all it's it's people
+- [23:12] processes it's figuring out how to uh
+- [23:15] how to co-design the interface with um
+- [23:18] with um the decisions that startups are
+- [23:20] making on how to use the models um it's
+- [23:22] going to be like social acceptance right
+- [23:24] like imagine you have this model that
+- [23:26] pops out tomorrow and says hey uh I have
+- [23:30] uh uh I have invented a brand new way of
+- [23:32] doing X like everybody should go use
+- [23:34] this thing um humans have to go make
+- [23:37] their peace with it and decide like hey
+- [23:38] is this actually a better solution
+- [23:40] that's going to not be as fast as we
+- [23:41] think right and I guess to you know to
+- [23:44] your point there might actually be an
+- [23:44] opportunity you know even if the labs
+- [23:46] are the first place to get to these
+- [23:47] models that can do this there may be an
+- [23:49] opportunity for startups to actually be
+- [23:50] the ones to bridge the gap between these
+- [23:52] model capabilities and something that
+- [23:53] the end users actually want to interact
+- [23:55] with I'm actually pretty sure that's
+- [23:56] what's going to happen is that um is I'm
+- [23:58] obviously biased I want that to happen
+- [24:01] that's a good point well I think I think
+- [24:02] I think that's a good bet because um
+- [24:05] because at the end of the day I actually
+- [24:07] still really believe that um even a
+- [24:09] world with AGI Human Relationships
+- [24:11] really matter and um and at and uh
+- [24:15] knowing and owning your customer and
+- [24:17] being more in tune with them about what
+- [24:19] they need is going to be more important
+- [24:21] than simply controlling this artifact
+- [24:23] that actually many other labs will have
+- [24:25] what do you think it's going to look
+- [24:26] like for like how am I going to use my
+- [24:27] computer in years when all these models
+- [24:29] are you know we've gotten to your
+- [24:30] definition of AGI like am I going to
+- [24:32] ever sit down at the computer or like
+- [24:33] what is what is your vision for like the
+- [24:35] way Humanity interacts with these things
+- [24:37] uh I think that we'll just get new
+- [24:40] Quivers in or rather tools in the
+- [24:43] toolbox for how we interface with
+- [24:45] computers yeah I think today right I
+- [24:47] mean we've got people still use the
+- [24:49] command line right like people that's a
+- [24:51] really important part of people's
+- [24:52] productivity people still use the gooey
+- [24:54] in the future people will still use
+- [24:56] voice interfaces but then Al I think
+- [24:57] also will use more ambient Computing as
+- [25:00] well and also they'll um uh they'll uh
+- [25:05] uh they'll like have the standard of UI
+- [25:07] thing we were talking about earlier but
+- [25:08] I think the metric we should be looking
+- [25:10] at is just what is the amount of
+- [25:12] Leverage per unit energy a human spend
+- [25:14] with Computing and I think that is going
+- [25:16] to continue to go up and to the right
+- [25:18] with these systems yeah maybe talk
+- [25:19] through a little bit like this this
+- [25:21] future world of models and whether we
+- [25:23] end up with anything domain specific
+- [25:24] let's take the the the hypothetical
+- [25:26] legal specialist um you probably want
+- [25:29] the hypothetical legal specialist to
+- [25:30] know some basic facts about the world
+- [25:32] yeah make people go do a general college
+- [25:34] degree before before law school exactly
+- [25:36] exactly so I think like I I do think
+- [25:39] there will be specialized models um but
+- [25:41] I don't want to bury the lead by just
+- [25:43] saying there will be specialized models
+- [25:44] I think they'll be specialized models
+- [25:45] not for technical reasons but for policy
+- [25:47] reasons that's juicy what what what's
+- [25:49] that mean oh yeah it's just like you
+- [25:51] know you have a couple companies who
+- [25:52] just really don't ever want their data
+- [25:54] comingled with each other yeah or uh
+- [25:56] you've got you've got like some like a
+- [25:58] you know imagine you're a big bank right
+- [26:00] and you've got your sales and trading
+- [26:02] division you've got your investment
+- [26:03] banking division uh the the uh AI
+- [26:07] employees or llms that power the stuff
+- [26:10] just like how those employees today
+- [26:11] can't share information should not be
+- [26:12] able to share information even remotely
+- [26:15] uh uh uh even remotely through its
+- [26:17] weights right do you think about the key
+- [26:19] problems that still need to be solved in
+- [26:20] models I mean it seems like you have a
+- [26:21] lot of confidence that if we kind of
+- [26:22] just scale up compute in these
+- [26:23] approaches like we're we're going to get
+- [26:24] pretty close to solving what we need to
+- [26:26] solve but you know are there any kind of
+- [26:28] like big technical challenge you see
+- [26:30] ahead in in continuing to scale model IQ
+- [26:33] so I actually um I actually don't
+- [26:36] believe that we take what we have today
+- [26:40] exactly and then we just like um uh pull
+- [26:43] ahead the cluster from two years from
+- [26:45] now and everything will magically work
+- [26:47] um I do think it's going to be a major
+- [26:49] scale is going to be a major factor but
+- [26:51] my confidence actually comes from uh
+- [26:54] looking at what are the maining main
+- [26:56] remaining open problems and trying to
+- [26:58] have an estimate for for for how hard
+- [27:01] they are and I think that um if a uh
+- [27:05] like a super hard thing like you know we
+- [27:07] need to go uh we need to go uh uh we
+- [27:11] need to go uh replace gradient descent
+- [27:14] right or like we need to go uh we only
+- [27:17] can only do AGI with a quantum computer
+- [27:19] or something like that I don't think
+- [27:21] that's in the cards what do you do when
+- [27:23] new models come out like how do you you
+- [27:25] know do you look at the evals do you
+- [27:26] Vibe check them with a few like go to
+- [27:28] questions like how do you get a sense of
+- [27:29] how good these new models are so there's
+- [27:31] two things that I do one of them is
+- [27:33] that what I've learned is that and this
+- [27:37] is what's so cool about this field
+- [27:39] sometimes you just look at a result and
+- [27:41] you look at um especially if there is a
+- [27:43] methodology that gets published with it
+- [27:44] which is rare now you just look at how
+- [27:46] they did it and you're like wow this is
+- [27:48] actually simpler than how we used to do
+- [27:50] this and the results are better when
+- [27:51] that happens it almost always becomes
+- [27:53] part of the deep learning Canon um and
+- [27:56] so and then you just have this moment
+- [27:58] you're like this is actually really
+- [27:59] beautiful uh I think that's the main one
+- [28:02] uh then the other ones like you know
+- [28:03] benchmarks
+- [28:05] are part of the hype of the field has
+- [28:08] been that has been that a lot of
+- [28:10] benchmarks that um uh are good um but
+- [28:15] really like not that aligned with what
+- [28:18] people need from these models have just
+- [28:20] become uh so important in people's
+- [28:23] development processes so they're all
+- [28:25] kind of gamed um I actually think I
+- [28:28] think that like evaluations are so hard
+- [28:31] measurement is so hard uh way more
+- [28:34] Prestige and attention should go to that
+- [28:37] uh than actually in fact many other
+- [28:38] things that we're doing right now yeah
+- [28:40] and it seems like everyone kind of has
+- [28:41] their own internal evals that they don't
+- [28:42] release publicly they like they trust
+- [28:44] way more and it's like You' see
+- [28:46] something like an open AI model perform
+- [28:47] better on like a lot of the coding
+- [28:48] benchmarks But like everyone used the
+- [28:50] anthropic models anyway because they
+- [28:51] know they're better um and so it's
+- [28:53] interesting to see that that landscape
+- [28:54] uh evolve well I'm curious to they s you
+- [28:56] can talk about it like I'd love to hear
+- [28:57] you know what up to at Amazon these days
+- [28:59] uh how you think about Amazon's role in
+- [29:00] the broad EOS system yeah Amazon's a
+- [29:02] super interesting place actually I I
+- [29:04] felt like I've learned so much in a
+- [29:05] short amount of time there um Amazon is
+- [29:07] super serious about building generally
+- [29:09] intelligent systems especially generally
+- [29:11] intelligent agents and what I think is
+- [29:13] really cool about it is that I think
+- [29:15] everybody at Amazon understands that
+- [29:18] Computing itself is changing um from uh
+- [29:22] uh you know The Primitives that we all
+- [29:24] know and love to um a call to a large
+- [29:27] model or a large agent being probably
+- [29:29] the most important uh compute primitive
+- [29:32] in the future um and so people really
+- [29:34] care which is awesome uh and I think
+- [29:37] what's uh what's interesting about is
+- [29:38] about Amazon now I I cover agents um and
+- [29:42] what's been really cool is you get to
+- [29:43] see just the breadth of uh the breadth
+- [29:46] of everything that um that that agents
+- [29:49] touches in in a company as big as Amazon
+- [29:51] yeah um and what's also awesome is that
+- [29:54] you know peterel and I have started this
+- [29:56] uh new San Francisco based resar search
+- [29:58] lab for Amazon um and uh a lot of that
+- [30:01] was because um uh folks uh uh folks in
+- [30:04] the highest levels of Amazon I think
+- [30:06] really believe that we have to make new
+- [30:07] research breakthroughs to solve those
+- [30:09] remaining problems we were talking about
+- [30:10] earlier on the path to AGI do you pay
+- [30:13] attention to like any of these like
+- [30:14] alternative architectures that folks are
+- [30:16] are trying or like you know what what
+- [30:18] other areas of of like maybe more out
+- [30:20] there research do you kind of keep your
+- [30:22] your eyes on let's see so I always pay
+- [30:25] attention to things that are that look
+- [30:28] like they might help us better map um
+- [30:32] model learning to compute can we use
+- [30:34] more compute more efficiently right they
+- [30:35] just gives us a huge multiplier over uh
+- [30:38] over uh over what what what we can do
+- [30:41] but um I honestly actually spend more of
+- [30:43] my time looking at data centers and
+- [30:44] chips yeah uh because I just I just find
+- [30:47] it so fascinating it's so cool so cool
+- [30:49] uh and there's some interesting plays
+- [30:51] being made there now it seems like a big
+- [30:53] part of what drove uh this last progress
+- [30:56] in in models was like data and like
+- [30:58] obviously all the labs were spending
+- [31:00] tons of money on that is that still
+- [31:02] relevant like in this test time compute
+- [31:03] Paradigm like how do how do you think
+- [31:05] about that I think there's two different
+- [31:07] jobs uh that have to be solved from data
+- [31:10] labeling there may be more but the two
+- [31:12] that come to mind for me first is um
+- [31:15] teaching the
+- [31:17] model teaching the model the very basics
+- [31:19] of how to do a task by cloning human
+- [31:22] behavior and if you have like super high
+- [31:24] quality data then you can like use that
+- [31:25] to better elicit something you already
+- [31:27] see during uh Loosely during
+- [31:29] pre-training and then I think the second
+- [31:31] job uh is to teach the model what good
+- [31:34] and bad looks like for tasks that are
+- [31:37] fuzzy and I think the I think both both
+- [31:40] of those will remain really important
+- [31:41] but I think this middle chunk of just
+- [31:44] spamming human data labels to uh
+- [31:47] marginally improve models already can
+- [31:48] kind of do a thing like that's going to
+- [31:50] be that's going to be the job of ourl
+- [31:52] you've obviously been on the frontier of
+- [31:54] this space for uh for you know decades
+- [31:57] uh what's one thing you changed your
+- [31:58] mind on like in the AI world in the last
+- [31:59] year you know the one that I actually
+- [32:02] keep on coming back to is uh the
+- [32:06] importance of
+- [32:08] building the team culture in the right
+- [32:11] way like um I think we've always kind of
+- [32:14] known it but I've become even more
+- [32:16] convinced that hiring really smart
+- [32:19] energetic intrinsically motivated people
+- [32:22] earlier on in their careers um is
+- [32:25] actually like one of the best engines
+- [32:26] for for for prodct like I feel like this
+- [32:28] in this field like every couple years
+- [32:30] the um oh actually uh yeah the every
+- [32:34] couple years uh uh the the optimal
+- [32:37] Playbook changes and so if people are
+- [32:39] too overfit to the previous optimal
+- [32:40] Playbook they actually slow you down uh
+- [32:43] and so I think it's a lot better to bet
+- [32:45] on new folks coming in than I had
+- [32:46] previously thought um but the other one
+- [32:49] actually that I've changed my mind on um
+- [32:51] I used to think that uh uh building AI
+- [32:56] would actually have real long-term
+- [32:59] technical differentiation that you can
+- [33:00] Compound on um I used to think you know
+- [33:03] all right like if you get really good at
+- [33:05] text modeling it'll help you uh you
+- [33:07] should obviously just become the winner
+- [33:09] in multimodal if you're good at
+- [33:10] multimodal you should obviously become
+- [33:11] the winner in reasoning and in agents
+- [33:13] right uh dot dot dot and these things
+- [33:14] should compound in practice I've seen
+- [33:16] like so little compounding I think
+- [33:18] people are all trying relatively similar
+- [33:21] ideas and I guess implicit in what
+- [33:22] you're saying is like just because you
+- [33:24] were the first to break through a
+- [33:26] doesn't actually mean that that that
+- [33:27] puts you in such an advantage position
+- [33:29] to get to like you know breakthrough
+- [33:30] beat like basically like if you're ahead
+- [33:32] in llm and then we're talking about the
+- [33:33] reasoning side I mean it was open ey
+- [33:35] that happened to be ahead in both but
+- [33:36] it's like almost like that reasoning
+- [33:37] breakthrough could have come out of any
+- [33:38] of the labs and just because they were
+- [33:40] first to you know kind of a gp4 level
+- [33:42] model didn't necessarily mean they
+- [33:43] wouldn't evitably be the ones to have
+- [33:45] the you know one breakthrough I mean
+- [33:46] it's definitely correlated um but uh but
+- [33:49] I it's not like it's not like
+- [33:51] deterministically true that you will
+- [33:53] then obviously win the the next change
+- [33:56] well I I want to hit on your you know
+- [33:57] you obviously got into space originally
+- [33:58] Through Your Love of Robotics um and so
+- [34:00] I am curious like what do you think of
+- [34:03] where we are in the AI robotics space
+- [34:04] today similarly to like my belief about
+- [34:06] digital agents um I think that we have a
+- [34:09] lot of the raw materials and I think
+- [34:11] interestingly enough digital agents
+- [34:13] gives us an opportunity to drisk some of
+- [34:15] the uh hard problems in physical agents
+- [34:18] before you have to do all the costly
+- [34:19] stuff of like real world uh real world
+- [34:22] items say more about that so like
+- [34:23] basically solving the reliability
+- [34:25] problem on the digital agent side well
+- [34:26] you know how does that actually end up
+- [34:28] leading into the the physical agent side
+- [34:30] simple example toy example um let's say
+- [34:32] you have a warehouse you're trying to
+- [34:34] rearrange um and you have a physical
+- [34:37] agent and you're asking hey like figure
+- [34:40] out the optimal plan for rein's
+- [34:41] warehouse right um if you were doing
+- [34:43] that by learning in the physical world
+- [34:45] or even learning in robotic SIM for that
+- [34:47] that's kind of hard but if you could do
+- [34:49] that in the digital space already and
+- [34:51] you have all of the training recipes and
+- [34:53] the knowhow you've tuned the algorithms
+- [34:55] to be able to learn from simulated data
+- [34:56] on that um it's it's just you you you've
+- [34:59] done the training wheels version of this
+- [35:01] already and so it's funny I feel like
+- [35:02] there's there's uh you know these polar
+- [35:04] extremes when people think about
+- [35:05] robotics some people look at it and
+- [35:06] they're like oh like the same kind of
+- [35:07] scaling laws we found in in LMS we'll
+- [35:09] find in the robotic side and you know
+- [35:11] we're on the precipice of this massive
+- [35:12] change you hear Jensen talking about it
+- [35:14] a lot and uh then there's other folks
+- [35:15] that are like we're where we were in '95
+- [35:17] with self-driving cars where like it's a
+- [35:19] great demo but like it's going to take
+- [35:21] quite some time to to actually work
+- [35:23] where do you fall on that on that
+- [35:25] Spectrum I just go back to um I just go
+- [35:28] back to uh the thing that gives me would
+- [35:31] give me the most confidence is our
+- [35:32] ability to build training recipes that
+- [35:34] let us 100% tasks if we can do that in
+- [35:37] the digital space I think that it will
+- [35:40] be a challenge but it will transfer over
+- [35:42] ultimately to the physical space too
+- [35:44] what's your timeline for when we have
+- [35:45] like you know robots in our house oh
+- [35:47] gosh well I think that's actually it
+- [35:48] goes back to the thing I was saying
+- [35:49] earlier I think some problems actually a
+- [35:52] lot of problems the bottleneck is not
+- [35:54] the modeling it is the diffusion of the
+- [35:56] modeling what about like uh video models
+- [35:58] um you know obviously there's been a
+- [35:59] bunch of folks going into that space
+- [36:01] like you know it seems like the next
+- [36:02] Frontier around that is really kind of
+- [36:04] like a world model and like
+- [36:05] understanding of of of physics to to
+- [36:07] allow for more open-ended exploration
+- [36:09] there um maybe just comment a little bit
+- [36:11] about what you've seen there and and
+- [36:12] your thoughts on that space yeah I'm
+- [36:14] really excited about it I think it
+- [36:15] solves one of the major remaining
+- [36:17] problems which is you know we talked
+- [36:19] earlier about about how today we're able
+- [36:21] to make RL work on problems where you
+- [36:23] have a verifier right like theorem
+- [36:25] proving or something like that and then
+- [36:27] we talked about how to generalize that
+- [36:28] to the digital agent space where you
+- [36:30] have problems where you don't have a
+- [36:32] verifier but you might have a solid
+- [36:34] simulator because I can go boot up my uh
+- [36:37] uh staging environment for um insert app
+- [36:40] here and teach the agent how to try to
+- [36:42] use that um but I think one of the major
+- [36:44] problems left is what happens when you
+- [36:46] don't have a uh a explicit uh verifier
+- [36:50] or an explicit simulator I think world
+- [36:52] modeling is how we uh how we answer that
+- [36:54] question yeah awesome I I want to shift
+- [36:57] gears a little bit to to open Ai and
+- [36:58] your time there I mean obviously you
+- [37:00] were part of this like very special time
+- [37:02] in the in the company and and you know
+- [37:04] uh played a kind of semal role in a lot
+- [37:06] of the advances there you know I feel
+- [37:08] like at some point we're going to get
+- [37:09] this like Deluge of thought pieces about
+- [37:11] what made like open AI culture so
+- [37:13] special in this like era that developed
+- [37:15] you know the the uh you know gpt1
+- [37:17] through through through four uh what do
+- [37:19] you think those pieces will say like
+- [37:21] what what made you know what made the
+- [37:22] organization work oh I mean I'm not sure
+- [37:24] those pieces will get it right because
+- [37:26] I'm already seeing
+- [37:28] bad hot takes about why open AI
+- [37:30] succeeded during that period um I think
+- [37:32] what it is is uh you know so when I
+- [37:34] joined um I was uh because the research
+- [37:37] Community was really small back in 2017
+- [37:39] I think open I was was a little over a
+- [37:41] year old um and um I I knew a bunch of
+- [37:44] people on the founding team and some of
+- [37:45] the early employees and they were
+- [37:47] looking for someone uh to to to to and
+- [37:49] one of the things I love about open a
+- [37:51] they got right from the very beginning
+- [37:52] is blurring the lines between research
+- [37:54] and engineering and um they were looking
+- [37:56] for someone to run run that
+- [37:57] um and so it was super fortunate I
+- [37:59] joined him it was 35 people incredible
+- [38:01] folks on the team like John Schulman and
+- [38:04] uh uh uh uh Chris burner who did a lot
+- [38:06] of our superc Computing stuff and void
+- [38:08] check and there's so many people that I
+- [38:10] um um that I uh that I could name who
+- [38:12] were just incredible folks around the
+- [38:14] table back then um and uh and you know
+- [38:18] interestingly at the beginning it was
+- [38:20] helping open AI just build a lot of the
+- [38:22] infrastructure of how to uh how to scale
+- [38:25] out beside Beyond like a like like a
+- [38:27] team that all fit one room right so a
+- [38:29] lot of basic Engineering Management
+- [38:31] stuff but then it started morphing into
+- [38:33] like how do we Define a differentiated
+- [38:35] research strategy um that would enable
+- [38:37] us uh basically to to take the right
+- [38:39] bets for this period of ml um and um I
+- [38:43] think what that really boiled down to
+- [38:44] was I think we realized earlier than
+- [38:46] everybody else that the um previous way
+- [38:50] research worked of like you and your
+- [38:51] three best friends write a research
+- [38:53] paper that changes the world like that
+- [38:54] era was over and that we really need to
+- [38:56] be thinking about this new New Era where
+- [38:58] um where uh we thought about like major
+- [39:01] scientific goals and tried to solve them
+- [39:03] with bigger teams of combined
+- [39:05] researchers and Engineers regardless of
+- [39:07] whether or not the solution was quote
+- [39:08] unquote novel as defined by Academia
+- [39:11] yeah and we would take the flag for that
+- [39:12] sometimes like people when gpt2 first
+- [39:14] came out people said well this looks
+- [39:15] like a Transformer like yes it is a
+- [39:17] Transformer um and uh and that was
+- [39:19] something to be proud of yeah yeah what
+- [39:21] did you think you were signing up for
+- [39:23] like when you joined open a oh I mean I
+- [39:24] was just so stoked because um I wanted
+- [39:26] to be at the frontier research at the
+- [39:28] time it was open AI or deep mind yeah
+- [39:31] and uh and or I guess or also Google
+- [39:33] brain but I think um I wanted to do
+- [39:35] something a little more speculative it
+- [39:37] same lesson as I said earlier
+- [39:40] about betting on really Mo intrinsically
+- [39:44] motivated uh folks who could be earlier
+- [39:47] in their career uh was just such a
+- [39:49] winning recipe right incredible people
+- [39:51] like Alec Radford like a d rsh who
+- [39:54] invented doly um like again like long
+- [39:57] list of incredible folks I can name who
+- [39:59] um did like field defining things during
+- [40:01] that period who did not have phds um did
+- [40:05] not have a bajillion years of experience
+- [40:07] what like common traits have you noticed
+- [40:08] and like what makes these people so good
+- [40:09] I mean you you're one of the great AI
+- [40:11] research you worked with a lot of the
+- [40:12] great AI researchers like what have you
+- [40:14] know what traits make these individuals
+- [40:15] so good and then what have you learned
+- [40:16] about bringing them together like into
+- [40:17] teams to accomplish like what they were
+- [40:19] able to so much of it is is intrinsic
+- [40:21] motivation and intellectual flexibility
+- [40:23] I'll leave this person unnamed but this
+- [40:25] person was so motivated and excited
+- [40:26] about what the research they were doing
+- [40:27] on on my team that about a month and a
+- [40:30] half I remember having a one-on-one with
+- [40:31] him and he just like just let drop that
+- [40:35] he um had never bothered setting up
+- [40:38] Wi-Fi or electricity for his apartment
+- [40:40] uh he had just moved to the bay to join
+- [40:41] us uh and and it and I was like how is
+- [40:45] this completely okay and it turned out
+- [40:47] he just spent all of his time at the
+- [40:49] office just like running experiments and
+- [40:50] it didn't matter that's that's quite the
+- [40:51] level of uh of passion I mean I've heard
+- [40:53] you talk before about how it's kind of
+- [40:55] somewhat shocking that Google didn't
+- [40:56] have the gbt breakthrough just given the
+- [40:58] Transformer was invented there how
+- [41:00] obvious at the time was it you know how
+- [41:02] game-changing the technology was and you
+- [41:04] know I think you talked basically that
+- [41:05] like it was hard for Google to coales as
+- [41:07] a full organization around this versus
+- [41:09] other research but maybe just comment a
+- [41:10] bit about that I mean credit to Ilia I
+- [41:12] remember Ilia was like we got to go uh
+- [41:15] so Ilia um was our scientific leader for
+- [41:19] especially for the the basic research
+- [41:21] part which ended up spawning gbt clip in
+- [41:23] Dolly um and I just remember him going
+- [41:26] going to work and being like dude I
+- [41:27] think this paper is really important and
+- [41:29] poking people to try experiments they
+- [41:31] were running with other architectures
+- [41:32] with Transformer I mean you think
+- [41:33] there's a risk that obviously like now
+- [41:35] the foundation model companies are doing
+- [41:36] so many different things right at the
+- [41:37] same time it almost feels like you that
+- [41:39] that there's right for another recipe
+- [41:41] maybe at some point uh I think I think
+- [41:44] losing focus is really dangerous you
+- [41:46] might be of like the biggest fan of
+- [41:48] Nvidia and Jensen of like most people I
+- [41:50] I have in my life and so I'm curious
+- [41:52] there's obviously so much love in the
+- [41:53] ecosystem now for everything that that
+- [41:55] that Jensen and the team have
+- [41:56] accomplished what are some of the things
+- [41:58] that nvidia's done that you feel like
+- [41:59] aren't talked about a ton but like are
+- [42:00] actually a huge part of like what makes
+- [42:02] that company so impressive I love Jensen
+- [42:05] uh what a complete Legend um yeah I feel
+- [42:08] like he's he's just made a bunch of
+- [42:10] calls here correctly over over such a
+- [42:12] long period of time um I think people
+- [42:14] know this now actually but uh uh I feel
+- [42:18] like the um especially for the last
+- [42:20] couple years I really paid off for them
+- [42:22] but um but bringing interconnect in
+- [42:24] house and uh choosing to orient their
+- [42:28] business around systems was a really
+- [42:30] good move I think uh well we always like
+- [42:32] to interview with end our interviews
+- [42:33] with a just a quick quick fire round and
+- [42:35] so get your thoughts on some questions
+- [42:37] um I feel like I know how you're going
+- [42:38] to answer this one but do you think
+- [42:39] model progress this year will be more or
+- [42:41] lesser the same as last year I think
+- [42:43] visibly it'll look probably about the
+- [42:45] same but I think actually it'll be more
+- [42:47] what's one thing you think's overhyped
+- [42:48] and one thing you think's underhyped in
+- [42:50] the ad world today overhyped is
+- [42:54] uh uh scale is dead you know we're
+- [42:58] totally screwed let's not buy any more
+- [43:00] chips um underhyped I think I think
+- [43:04] underhyped is uh how do we actually
+- [43:07] solve extremely large scale simulation
+- [43:09] for these models to learn from David
+- [43:11] this has been a fascinating conversation
+- [43:12] um I'm sure folks will want to learn
+- [43:14] more about you and some of the exciting
+- [43:15] work you're doing at Amazon uh where can
+- [43:17] folks go to to learn more about that
+- [43:18] yeah so for uh for Amazon I would look
+- [43:20] up the amazon SF lab um and I actually
+- [43:24] don't use a lot of Twitter but I plan to
+- [43:25] get back on it so you can follow me me
+- [43:27] at Jon hey guys this is Jacob just one
+- [43:30] more thing before you take off if you
+- [43:31] enjoy that conversation please consider
+- [43:33] leaving a fivestar rating on the show
+- [43:35] doing so helps the podcast reach more
+- [43:36] listeners and helps us bring on the best
+- [43:38] guests this has been an episode of
+- [43:40] unsupervised learning an AI podcast by
+- [43:42] redpoint Ventures where we probe the
+- [43:43] sharpest Minds in AI about what's real
+- [43:45] today what's going to be real in the
+- [43:47] future and what it means for businesses
+- [43:48] in the world with the fast moving pace
+- [43:50] of AI we aim to help you deconstruct and
+- [43:53] understand the most important
+- [43:54] breakthroughs and see a clearer picture
+- [43:56] of reality thank you for listening and
+- [43:58] see you next episode

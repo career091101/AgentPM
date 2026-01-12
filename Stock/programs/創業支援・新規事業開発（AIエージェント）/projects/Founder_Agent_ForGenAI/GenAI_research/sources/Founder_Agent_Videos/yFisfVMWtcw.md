@@ -1,0 +1,476 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=yFisfVMWtcw"
+video_id: "yFisfVMWtcw"
+video_url: "https://www.youtube.com/watch?v=yFisfVMWtcw"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "marketing", "PMF", "AI", "investment", "funding", "team_building", "product_development", "growth"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=yFisfVMWtcw
+  - Retrieved at: 2025-12-30T16:44:04+09:00
+  - [00:06] thanks for joining today's last session
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=yFisfVMWtcw"
+  - "- Retrieved at: 2025-12-30T16:44:04+09:00"
+  - "- [00:06] thanks for joining today's last session"
+  - "- [00:08] and uh and thanks for staying with me"
+  - "- [00:10] before all the parties wines and drinks"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: yFisfVMWtcw
+
+- URL: https://www.youtube.com/watch?v=yFisfVMWtcw
+- Retrieved at: 2025-12-30T16:44:04+09:00
+
+## Text
+
+- [00:06] thanks for joining today's last session
+- [00:08] and uh and thanks for staying with me
+- [00:10] before all the parties wines and drinks
+- [00:14] yeah um and uh uh we know that ji is
+- [00:19] reshipping everything inside of your
+- [00:22] organization and yes it's happening
+- [00:24] inside of snowflake too um I'm here to
+- [00:27] talk about how this Advanced technique
+- [00:30] is making a big difference here in
+- [00:32] Snowflake hope you can get inspired so
+- [00:34] that you can find similar opportunities
+- [00:36] in your organization and for those who
+- [00:39] are not familiar with snowflake have
+- [00:41] have you ever used snowflake please
+- [00:42] raise a hand oh nice nice nice for those
+- [00:46] who are not familiar with snowflake uh
+- [00:48] we are a data Cloud platform that uh
+- [00:51] help organizations to run large scale
+- [00:54] analytics uh create custom applications
+- [00:57] and also uh build a native AI Solutions
+- [01:01] and uh and my name is Ean I'm the data
+- [01:04] scientist uh in sales analytics team and
+- [01:08] my role is all about helping sales
+- [01:10] people leverage data um to help them to
+- [01:13] work smarter and more efficiently and
+- [01:16] also another big shout out to my
+- [01:18] colleague we H uh who is currently on
+- [01:21] vacation so no complain there so she's
+- [01:24] missing out this phone party she's also
+- [01:26] played a big part in on today's topic
+- [01:30] okay let's get started so what I'm going
+- [01:32] to talk about today um basically we're
+- [01:35] going to talk about a tool is called
+- [01:37] sales data assistant that we build for
+- [01:40] sales team to for them to interactive
+- [01:42] with their data basically chat with
+- [01:45] their data um so uh they can get access
+- [01:48] to customer related metrics or some
+- [01:51] business performance data and also it
+- [01:54] has another cool features is it can help
+- [01:57] Sal people to handle certain task and I
+- [02:00] will going to show some like video demos
+- [02:03] at the end of the presentation so that
+- [02:05] you can know uh what look
+- [02:07] like Okay cool so for uh today's agenda
+- [02:11] first we will talk about uh how we start
+- [02:15] why we build this tool what's our goal
+- [02:17] and second I will work you through some
+- [02:20] uh requirements both Technical and
+- [02:22] non-technical before when we start
+- [02:25] building the app and next I will talk
+- [02:28] about the high level archit architecture
+- [02:30] and how we structured everything
+- [02:32] together and second is I will show you
+- [02:35] guys how it looks and we will for sure
+- [02:37] leave some time for Q&A um but if just
+- [02:41] in case we're running shorter time I'm
+- [02:43] happy to answer any questions after
+- [02:45] today's
+- [02:46] session cool let's get started so but
+- [02:49] before we dive in let's take a step back
+- [02:52] to talk about how we started and why we
+- [02:54] need this tool um and here and our goal
+- [02:57] is to democratize data basically to make
+- [03:01] data easy to access for everyone in
+- [03:03] sales organization and sometimes um not
+- [03:06] sometimes we always find that for those
+- [03:09] people who make the decisions are the
+- [03:11] people not actually the data expert so
+- [03:15] that as a result we will see that they
+- [03:17] may uh do not have access to the data or
+- [03:21] they uh they don't know how to write
+- [03:22] write query or SQL to pull the data or
+- [03:26] they just spend a lot of time navigating
+- [03:28] through different Dash board to find the
+- [03:30] metric that think that that they think
+- [03:32] is correct so that is where our tool
+- [03:35] comes in um and we want to make sure
+- [03:38] that um the whole process can be quicker
+- [03:41] and faster so for salese they don't need
+- [03:44] actual steps to get the data they need
+- [03:47] so with the tool we hope that um it can
+- [03:51] they can chat with the data they can ask
+- [03:53] any question they want for example about
+- [03:55] their customers or about their
+- [03:57] territories or even their teams
+- [04:00] performance and uh things doesn't stop
+- [04:03] there uh we also hope that this uh
+- [04:05] chatbot this data assistant can help uh
+- [04:09] and help them with some like everyday
+- [04:11] simple task for example uh when sales
+- [04:13] people want to update something directly
+- [04:16] to Salesforce in this case they don't
+- [04:18] need to jump into different system they
+- [04:20] can just interactive with the DAT
+- [04:22] assistant and then assistant can help
+- [04:24] them to finish this workflow so at the
+- [04:27] end of day it's all about helping salese
+- [04:31] to get data easily and streamlining
+- [04:34] their work so that they can focus on
+- [04:36] what really matters uh for example close
+- [04:39] the deal or manage the customer
+- [04:41] relationship right and uh here are I'm
+- [04:45] going to show you like some uh
+- [04:48] requirements both Technical and
+- [04:49] non-technical when we start building the
+- [04:52] app um first let's look at it from the
+- [04:55] uh users perspective uh let's think what
+- [04:58] kind of tool do you want to use every
+- [05:00] day um in our opinion I think it should
+- [05:02] be easy to use fast accurate and secure
+- [05:06] um so and those are the four M pillars
+- [05:08] that gued at when we're developing the
+- [05:11] tool and on the other hand is the
+- [05:14] technical building blocks those are the
+- [05:16] key building blocks we're focused on
+- [05:18] when we developing the tool first is the
+- [05:21] text to SQL cuz uh uh we are a data
+- [05:25] platform and all the informations are
+- [05:26] stored in Snowflake database so when
+- [05:29] need to leverage and using LM to uh
+- [05:32] query the data and then send uh the
+- [05:35] correct data to our non- technical users
+- [05:38] and um to be honest the T to sqle is a
+- [05:41] really big one for us uh and we spend a
+- [05:44] lot of time on this and the second
+- [05:47] building block is data to text what does
+- [05:50] this mean is after we get a query um and
+- [05:53] we will run a query it will give us
+- [05:55] output basically is the data and we also
+- [05:58] want to find a way to translate the data
+- [06:00] into a natural Language summary so that
+- [06:02] the non-technical uh users can uh can
+- [06:06] understand it more easily with a simple
+- [06:08] and clear taex response so that's the
+- [06:11] data to text and uh the the last
+- [06:15] building block here is the AI agent uh
+- [06:18] we want to use the agent to help us to
+- [06:21] handle the task completion functionality
+- [06:24] by using LM and uh once user send us a
+- [06:28] request it can go into our set of tools
+- [06:31] and to select the right functions or the
+- [06:33] right tools to call for users request so
+- [06:38] that's uh that's uh all about the
+- [06:41] technical and non-technical requirements
+- [06:43] we focused
+- [06:45] on uh cool uh here is um how we put
+- [06:50] everything together how did we structure
+- [06:54] our data assistant uh first let's look
+- [06:57] at this uh this this part is our UI we
+- [07:00] we are using streamlet to build our user
+- [07:04] interface we want to provide a very uh a
+- [07:07] chity like experience for our users so
+- [07:10] they can easily ask questions and then
+- [07:12] get response and for those who are not
+- [07:15] familiar with streamlet uh streamlet is
+- [07:17] a opsource uh python uh framework that
+- [07:21] allow all the data teams to build an
+- [07:24] interactive app with just fuel Feliz of
+- [07:27] python code yeah and uh after the user
+- [07:32] uh ask a question we will first send it
+- [07:35] to the semantic clear uh what semantic
+- [07:38] clear you can think it as of knowledge
+- [07:41] base for our large language model it
+- [07:44] stored all the informations that we want
+- [07:48] the LM to know um for example the
+- [07:51] summary of the tables some correct
+- [07:54] textle examples and all the functions
+- [07:57] that can help the users to have handle
+- [07:59] the task or the useful useful tips and
+- [08:04] once user asks something the assistant
+- [08:07] will go to this semantic C and search
+- [08:09] for the most relevant information so it
+- [08:12] can be the top tables that related to
+- [08:14] the questions or some uh accurate good
+- [08:17] uh correct textle examples and after we
+- [08:21] get all the relevant information we will
+- [08:23] then combine it with the prompts uh
+- [08:26] where includes uh the system instr
+- [08:29] instuctions basically uh how we are
+- [08:32] guiding the the large language model to
+- [08:34] finish a Tex Tex to SQL task and also
+- [08:38] top table schema together with the chat
+- [08:40] history and combining um the the
+- [08:44] information with f from slear and
+- [08:47] prompts we will send it to our the large
+- [08:49] language
+- [08:50] model and the large language model will
+- [08:53] then give us a response the response is
+- [08:55] a SQL um and it comes to the the the the
+- [09:00] next step is called validation and in my
+- [09:03] opinion I think that's the most critical
+- [09:05] steps for our app uh because building a
+- [09:08] chot is very easy but building a
+- [09:11] reliable chot is a different story so in
+- [09:14] this steps uh we applied different
+- [09:17] approach here uh first we've allow the
+- [09:20] LM itself to validate the SQ qu it
+- [09:23] generates actually have been really
+- [09:26] helpful and additionally uh our team
+- [09:29] came together uh valid manually
+- [09:31] validated over uh thousands of tax to
+- [09:34] SQL response um and then we we polished
+- [09:38] the prompts uh based on the based on all
+- [09:42] the data we
+- [09:43] got and over the time those uh validated
+- [09:47] tax toq response has become our golden
+- [09:49] standard and now we're thinking to uh
+- [09:52] automate the whole validation process to
+- [09:55] Leverage The Golden standard data set we
+- [09:57] already have okay so after we get a
+- [10:00] validated uh C we will then do some
+- [10:03] testing and then send back to snowflake
+- [10:06] to execute the query which will give us
+- [10:09] a data basically a data frame as output
+- [10:13] and it comes finally come to the N the
+- [10:16] last step is uh convert the data to text
+- [10:20] we want to translate the data into a
+- [10:24] natural Language summary and here we're
+- [10:26] using snowflake cortex on
+- [10:30] um and uh here is a key that when you
+- [10:33] when we using CeX LM everything stays
+- [10:37] completely within snowflake U we're not
+- [10:40] sending all the data to the close Source
+- [10:42] model or no all everything is within
+- [10:45] Snowflake and everything is secure and
+- [10:48] well managed and once uh we got a
+- [10:51] response we will send it back to the
+- [10:53] Streamline app and the users will see
+- [10:56] the answers and the users are also able
+- [11:00] to give us some feedback and the
+- [11:02] feedback can also send back to us and
+- [11:04] we'll feed into the validation ongoing
+- [11:07] validation process so that we can uh
+- [11:10] always improving the whole systems and
+- [11:13] also we're uh tracking we're also
+- [11:15] tracking the user feedbacks because we
+- [11:17] want to understand uh the overall
+- [11:19] satisfication rate yeah hopefully that's
+- [11:23] not too much information on one slides
+- [11:26] yeah so I'm moving forward and here are
+- [11:30] some like snowflake uh features that EMP
+- [11:34] powering us to build a data assistant
+- [11:37] first uh is the streamlet just like I
+- [11:39] mentioned before uh streamlets provide a
+- [11:42] userfriendly front end for the users to
+- [11:45] easily interactive with our data
+- [11:48] assistant and on the other hand I think
+- [11:51] as a app developer it's also very user
+- [11:54] friendly CU When building an interactive
+- [11:58] app with streamlet there's only minimal
+- [12:00] set up low com low maintenance and it
+- [12:04] works perfectly with Snowflake and all
+- [12:07] the cool features that snowflake
+- [12:09] provides yeah that's the streamlet and
+- [12:11] also uh other components are one is the
+- [12:15] cortex
+- [12:17] LM uh for those who are not familiar
+- [12:19] with snowflake cortex LM so what's that
+- [12:22] uh snowfl cortex LM is a set of AI
+- [12:26] features that using large language model
+- [12:28] to help the users to understand their
+- [12:31] data uh answer questions or provide some
+- [12:35] smart assistance and with uh cortex LM
+- [12:39] uh everyone can easily get access to the
+- [12:41] industry leading large large language
+- [12:44] model like Mr Large llama uh Etc yeah
+- [12:48] and with uh snowfl CeX LM everything is
+- [12:52] uh culous what that this mean is as a
+- [12:55] user when you call the function you
+- [12:57] don't need to deal with all the complic
+- [12:59] ated infrastructure cuz snowflake
+- [13:01] already handled everything for you so
+- [13:03] that's uh cortex snowflake cortex LM and
+- [13:06] what we are using here is we are using
+- [13:09] complete function uh under the cortex LM
+- [13:12] uh which leverage the Mr Large language
+- [13:15] model for natural language understanding
+- [13:18] and response generation also the
+- [13:20] embedding model and under the cortex LM
+- [13:23] help us to build the uh knowledge the
+- [13:26] knowledge based semantic here there also
+- [13:29] help the assistant to Fat the most
+- [13:31] relevant information from the knowledge
+- [13:34] base okay so that's about the CeX LM and
+- [13:39] the last snow components is snow park
+- [13:43] UDF uh UDF stands for user defined
+- [13:46] function um and here what snow park UDF
+- [13:49] did is it uh it allow us to run and uh
+- [13:54] run and create a customed uh python code
+- [13:58] inside of snow
+- [14:00] maybe some of you know like uh you can
+- [14:02] write SQL in Snowflake but by using UDF
+- [14:05] you can write python in snowfl so it
+- [14:08] help us to automate some workflow like
+- [14:10] push some update directly to another
+- [14:12] system um and you can build all kinds of
+- [14:15] uh data workflow using snow park UDF so
+- [14:19] with streamlet cortex LM snow park Al
+- [14:23] together we we have everything we need
+- [14:26] to make the uh data assistant powerful
+- [14:30] uh fast and easy to
+- [14:34] use cool now let's take a look at how it
+- [14:38] looks in real life uh actually prior to
+- [14:41] the uh data assistant last year uh
+- [14:45] November we already launched our first
+- [14:48] tax to SQL applications for our sales
+- [14:51] team and which only uh allow users to
+- [14:55] ask one question at a time and com and
+- [14:59] finish the task tax to SQL and then
+- [15:02] after we get the results we can do some
+- [15:05] charts uh based on what kind of data we
+- [15:08] have yeah and this applications have
+- [15:11] been super popular among our sales team
+- [15:14] and we've received a lot of good
+- [15:17] feedbacks which uh motivate motivate us
+- [15:20] to keep moving and improving and some
+- [15:23] status I want to share is like since
+- [15:25] last year November U this uh application
+- [15:29] already answered over 10,000 questions
+- [15:32] and the adoption rate is very high over
+- [15:36] 80% of of our sales users they all come
+- [15:39] here to ask some questions to help them
+- [15:41] to with to ask any question related to
+- [15:44] their customers and also for the
+- [15:46] cerfication rate is it's over like
+- [15:50] 95% and moving forward it comes to uh
+- [15:54] this year this year we've start building
+- [15:56] the data assistant which basically uh we
+- [16:01] build something on top of the taex to
+- [16:04] SQL applications I just show you um by
+- [16:07] adding uh by adding a data to text uh
+- [16:11] building block and also adding the task
+- [16:15] completion functionality also create a
+- [16:18] more uh interactive Chabot for the users
+- [16:21] so as you can see here is like we're
+- [16:23] asking questions about their forecast
+- [16:26] numbers about their opportunities
+- [16:29] uh so on so forth and actually the the
+- [16:32] response time is is not that bad it's
+- [16:35] still enter developing and we hope we
+- [16:38] can uh move this um product into
+- [16:40] production next
+- [16:43] quarter okay moving forward uh like I
+- [16:47] mentioned before like another cool
+- [16:49] feature that our toour data system
+- [16:52] provide is um T it can help sales people
+- [16:56] to execute some task what do this mean
+- [16:59] is uh like let's think about you a
+- [17:02] salesperson and when you're interactive
+- [17:05] with our data assistant if you find some
+- [17:08] data is outdated or you need to update
+- [17:10] so at this time you can use the uh
+- [17:13] system to help you to update data and
+- [17:16] here what we're going what we're doing
+- [17:18] here we are trying to update uh an
+- [17:21] account uh Global 200 ranking uh and we
+- [17:24] want to push it directly to Salesforce
+- [17:27] and uh all the number here are dami data
+- [17:30] we just want to show you how it works so
+- [17:32] in the back end how it works is uh we
+- [17:35] will we stored a lot of a lot of tools
+- [17:37] that we collaborate with it team they
+- [17:40] they are like reverse CTL help you to
+- [17:43] push the update into different systems
+- [17:46] so when user ask a question the agent
+- [17:48] will help us to pick the most relevant
+- [17:52] tools and and then ROM that function now
+- [17:56] here is like uh it looks like it
+- [17:57] finished the task let's say how it looks
+- [18:00] like in Salesforce previously I think is
+- [18:03] minus two right now it should be minus
+- [18:05] one yeah so the you can see that we can
+- [18:08] use you don't need to bounce into
+- [18:10] different systems by by working with the
+- [18:13] assistant you can make any update you
+- [18:17] want okay so uh I think uh it's almost
+- [18:22] at the end of this session so for for
+- [18:25] what what's next I think the most
+- [18:27] important is accuracy accuracy and
+- [18:29] accuracy um like I said before building
+- [18:33] a childb easy but building accurate but
+- [18:35] reliable one is not and also another
+- [18:38] another requirements we're thinking
+- [18:40] right now is scalability because uh with
+- [18:42] a growing number of users and increasing
+- [18:45] data volumes we want we want to find a
+- [18:47] way can smoothly handle everything also
+- [18:50] we want to apply this this
+- [18:53] infrastructure into other teams data and
+- [18:58] uh with think that the future is super
+- [19:00] exciting because every day there's are
+- [19:01] new things coming out whenever it is new
+- [19:04] models new Frameworks or new tools and
+- [19:07] we're just ready to jump on to these
+- [19:09] opportunities and keep improving there's
+- [19:11] just so much potential ahead and we're
+- [19:13] just at the beginning uh and also uh
+- [19:17] last is a quick recap for today uh what
+- [19:20] we just talk about is like uh what's our
+- [19:23] goal our goal is to reimaging analytics
+- [19:25] with geni to make data easy to access
+- [19:28] for everyone and what the building
+- [19:30] blocks we we mentioned the non-technical
+- [19:32] and Technical non-technical includes
+- [19:34] easy to use fast secure and the
+- [19:38] technical side uh we think about like
+- [19:40] tax to SQL data to tax and AI agent also
+- [19:43] there's are a lot of uh there's are some
+- [19:46] cool snowflake features help us to build
+- [19:49] a tool like streamlet uh snow snowfl
+- [19:52] cortex and also Snow Park UDF and at the
+- [19:56] end uh we saw a few uh quick video on
+- [19:59] how it looks so like I said it's just
+- [20:01] beginning uh we're super excited to
+- [20:03] where we can take this next okay thank
+- [20:06] you so
+- [20:09] much thank you you for the presentation
+- [20:12] on empowering sales with LM powered um
+- [20:17] data Insight Data Insights and um
+- [20:20] workflow
+- [20:21] automation sorry and workflow automation
+- [20:24] excellent so we have time for a few
+- [20:26] questions we have uh
+- [20:29] shazar and kica in the
+- [20:34] back so they're they're going to so
+- [20:37] they're going to walk around with my
+- [20:42] microphones um yeah I was curious what
+- [20:45] were some of the questions that uh users
+- [20:48] would try to ask but the system like in
+- [20:51] the current state like really struggles
+- [20:52] with I think it depends on what kind of
+- [20:55] data we fit into the model uh right now
+- [20:58] now what we're uh what we are current
+- [21:01] testing is including customers
+- [21:03] consumption data uh their uh teams
+- [21:06] performance data and also use case data
+- [21:09] opportunity data yeah that's so right
+- [21:13] now the chat the data system only
+- [21:15] support those kind of topics and if
+- [21:18] they're asking any topic outside of this
+- [21:21] data sets uh the data syst are not able
+- [21:25] to answer a question but we we have a
+- [21:27] plan to unboard more more tables yeah

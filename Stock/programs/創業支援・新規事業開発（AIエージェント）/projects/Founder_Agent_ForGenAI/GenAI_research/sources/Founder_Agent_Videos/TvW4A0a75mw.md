@@ -1,0 +1,1607 @@
+---
+title: "Transcript: TvW4A0a75mw"
+video_id: "TvW4A0a75mw"
+video_url: "https://www.youtube.com/watch?v=TvW4A0a75mw"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:51:37"
+tags:
+  - "AI"
+  - "Agents"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: TvW4A0a75mw
+
+- URL: https://www.youtube.com/watch?v=TvW4A0a75mw
+- Retrieved at: 2025-12-30T11:00:02+09:00
+
+## Text
+
+- [00:00] Hey guys, in today's video you're going
+- [00:02] to be learning how to build your first
+- [00:04] rag agent using Google's new agent
+- [00:07] development kit. And this rag agent is
+- [00:09] amazing because it can answer any
+- [00:11] question about your documents inside of
+- [00:13] Google Drive. And it lets you add more
+- [00:15] documents to your agent to make it even
+- [00:17] smarter. And we're also going to be
+- [00:19] using Google's knowledgebased service to
+- [00:21] make the entire process so much easier
+- [00:23] for you guys. And if you're serious
+- [00:25] about becoming an AI developer, you want
+- [00:27] to pay super close attention to
+- [00:28] everything we're talking about in
+- [00:30] today's video because understanding Rag
+- [00:32] is crucial for building your real world
+- [00:34] AI applications. And don't worry if
+- [00:36] you're new to Agent Development Kit or
+- [00:38] to Google Cloud. I'm going to be walking
+- [00:40] you through everything step by step in
+- [00:42] today's video all the way from setting
+- [00:44] up your projects inside of Google Cloud
+- [00:46] all the way to connecting your agents to
+- [00:47] your knowledge base. And because you
+- [00:49] guys are awesome, I'm going to be giving
+- [00:51] away all the source code in today's
+- [00:52] video completely for free. Just click
+- [00:54] that first link in the description below
+- [00:55] to download everything. But without the
+- [00:57] way, let's go ahead and get started so
+- [00:58] you can see your new rag agent in
+- [01:00] action. Then we'll hop over to setting
+- [01:02] everything up so you can do it yourself.
+- [01:04] Oh, and real quick, if you're looking
+- [01:05] for help on your AI projects or if you
+- [01:08] would like to meet other like-minded AI
+- [01:09] developers, definitely recommend
+- [01:11] checking out the free school community
+- [01:12] I've created for you guys. We have over
+- [01:14] 7,000 members. We have free weekly
+- [01:15] coaching calls and a bunch of extra
+- [01:17] resources. definitely recommend checking
+- [01:19] out and joining down in the link in the
+- [01:20] description below. So, here's a quick
+- [01:22] overview of the rag agent that you guys
+- [01:24] are going to be building today with
+- [01:26] agent development kit. So, let's see
+- [01:27] what this bad boy can do. So, first
+- [01:28] things first, we can ask our agent to
+- [01:30] say, "Hey, what data sources are you
+- [01:33] connected to?" When we send off this
+- [01:34] request, our agent is going to start
+- [01:36] making tool requests to vertex AI rag
+- [01:39] service because that's what's
+- [01:41] responsible for hosting and storing all
+- [01:43] of the data and handling these rag
+- [01:44] requests. So you can see that our data
+- [01:47] source, we only have one right now
+- [01:48] called test corpus. They use the word
+- [01:50] corpus everywhere inside of Google
+- [01:52] cloud, but hey, that's what we just got
+- [01:53] to do. So now we can say what data
+- [01:56] sources do I have in that corpus? From
+- [02:00] there, the agent will now make a request
+- [02:02] using a different tool call to see,
+- [02:04] okay, well inside of this corpus, what
+- [02:07] information do I have? So, as you can
+- [02:09] see, I have uploaded four different
+- [02:11] documents inside of there to where these
+- [02:13] are all different PDFs and slideshows
+- [02:16] that I have created for the current
+- [02:18] accelerator that I'm running to help
+- [02:19] people run and build YouTube channels.
+- [02:21] So, you can now see I can ask questions
+- [02:23] about it. So, you can say, "What is a
+- [02:26] lead magnet and why do we need one for
+- [02:30] our channel?" So, you can see whenever
+- [02:33] we ask this question, we're now doing a
+- [02:35] actual rag query. So a rag query is
+- [02:38] where we make a request to the vector
+- [02:39] store. This request what happens is it
+- [02:42] finds all the relevant different pieces
+- [02:44] of information inside of our database
+- [02:47] and it grabs and you'll see later on the
+- [02:49] three closest pieces of information from
+- [02:50] the slides and then it goes, "Oh, okay.
+- [02:53] I understand why we want lead magnets
+- [02:55] for YouTube channels." It basically
+- [02:57] helps start a conversation, builds trust
+- [02:59] and uh from there it just helps you
+- [03:01] build out an email list. So it literally
+- [03:02] just walks you through everything that
+- [03:04] was a part of the slideshow. Now, what's
+- [03:06] also really cool about this agent that
+- [03:08] we're building together today is you can
+- [03:10] continually add new pieces of
+- [03:12] information to make the agent smarter
+- [03:13] and smarter each time. So, if I hop over
+- [03:16] to, in my case, over to a new Google
+- [03:19] Drive and I can see right here I have
+- [03:21] some slides. So, I can easily add this
+- [03:24] Google slide to my agent. So, you can
+- [03:26] see I copied a link and now I can say
+- [03:27] please add this doc as well. Now I can
+- [03:33] just paste in my document and from there
+- [03:35] the agent is now going to call a new
+- [03:37] tool which is going to be add data. And
+- [03:39] this would take the longest. But what's
+- [03:40] happening behind the scene is it's
+- [03:42] chunking all the individual pieces of
+- [03:44] data. It's embedding them and then
+- [03:46] storing it into our vector store. And
+- [03:48] now you can see great I have stored this
+- [03:50] new document. So we can ask one more
+- [03:52] time what documents do you have? And now
+- [03:55] it's going to make another tool request
+- [03:57] and it should show our new document this
+- [03:59] time that includes week five. So you can
+- [04:02] see at the bottom, yep, we week five. So
+- [04:04] you can now see what do we talk about in
+- [04:07] week five. So now it's going to make one
+- [04:11] more request with our new document to
+- [04:13] showcase that yes, I understand what's
+- [04:15] in this PDF cuz I've done all the
+- [04:16] chunking, embedding, and saving it. And
+- [04:18] now I can answer everything about this
+- [04:20] PowerPoint. So you can understand why
+- [04:22] building a YouTube channel, why
+- [04:23] newsjacking is so important, and some
+- [04:25] tools. And all this was covered in the
+- [04:27] PowerPoint that I uploaded. So yeah,
+- [04:29] this is the agent in a nutshell and
+- [04:32] you're going to understand in the rest
+- [04:33] of this video how to set up your
+- [04:34] environment, create everything in the
+- [04:36] cloud, how to build out the agent, and
+- [04:37] add in all these tools that you got to
+- [04:39] see today. So let's go ahead and dive
+- [04:41] in. Okay, so here's a three-step
+- [04:42] overview of everything we're going to be
+- [04:44] doing in the rest of the tutorial now
+- [04:45] that you know how awesome this rag agent
+- [04:48] is. So, first things first, we're going
+- [04:49] to hop over to Google Cloud where we're
+- [04:52] going to create a new project for you
+- [04:53] guys, and we're also going to enable all
+- [04:55] the necessary AI services inside of
+- [04:58] Vertex AI to make everything else work
+- [05:00] successfully. From there, I'm going to
+- [05:02] show you how you can set up the Google
+- [05:04] Cloud CLI on your local computer. And
+- [05:07] this is what's going to allow you to log
+- [05:09] in and start to use everything that was
+- [05:11] set up in Vertex AI. Once we have setup
+- [05:14] complete, it's then for the time for the
+- [05:16] fun stuff where we're going to overview
+- [05:18] and review all the code for agent
+- [05:20] development kit. And in this overview
+- [05:22] section, I'm going to walk you through
+- [05:23] how you can start to use ADK and set it
+- [05:26] up to use all these different tools in
+- [05:28] order to properly use the Rag service
+- [05:31] inside of Vert.Ex AI. And this is the
+- [05:33] best way for you to learn about all the
+- [05:35] different commands and functionality
+- [05:37] that are open to you guys in order to
+- [05:39] set up your Rag agents. So, let's dive
+- [05:40] in over to Google Cloud to kick things
+- [05:42] off. So, welcome to step number one
+- [05:44] where we're going to set up a Google
+- [05:45] Cloud project so that we can enable all
+- [05:48] of the AI services we need inside of
+- [05:50] Vertex AI to run our Rag agent. So,
+- [05:53] first thing you need to do, just go and
+- [05:54] search for Google Cloud and you'll want
+- [05:56] to click the first link that pops up.
+- [05:58] This will take you over to Google Cloud
+- [06:00] and you will need to sign up for an
+- [06:01] account if you've never done it before.
+- [06:03] Should be completely free to do. And
+- [06:04] once you sign up for an account, we then
+- [06:06] want to go to our console. Our console
+- [06:08] is basically our dashboard where we can
+- [06:10] manage all of our projects inside of
+- [06:12] Google Cloud. So, what you'll notice if
+- [06:14] this is your first time coming in here,
+- [06:16] you should have a workspace created
+- [06:18] which will house all of your different
+- [06:20] projects. So, you can see we're looking
+- [06:21] at one of my older projects right now
+- [06:23] from a previous video. But in our case,
+- [06:25] we want to create a new project for our
+- [06:26] rag agent. So, what we'll want to do is
+- [06:29] in the top lefthand corner is we want to
+- [06:31] click here and we will want to create a
+- [06:33] new project. So once you click new
+- [06:35] project, it's going to ask you what do
+- [06:37] you want to call it. So in my case, I
+- [06:38] want to call it ADK rag and then I'm
+- [06:41] going to call it YouTube because this is
+- [06:42] for YouTube. You can call it whatever
+- [06:44] you'd like though. From there, you'll be
+- [06:45] asked to connect billing account. The
+- [06:48] only billing that we're really going to
+- [06:50] get charged for are two different items.
+- [06:52] One, we're going to get charged for
+- [06:53] tokens. So as we chat, you know, we're
+- [06:56] going to get charged for using the
+- [06:57] Gemini Flash 2.5 model, which is
+- [07:00] basically like a penny. Like it's wild
+- [07:02] how cheap it is. And then inside of
+- [07:05] Google Cloud, every time you upload
+- [07:07] documents, you're going to also get
+- [07:09] charged for storage. I believe it's 20
+- [07:12] cent per gigabyte per month or 2 cent.
+- [07:14] Either way, it's really affordable and
+- [07:16] we're just going to be uploading a few
+- [07:17] megabytes. So, once again, it'll
+- [07:18] probably cost you another penny all in
+- [07:20] all to run this whole demo. So, two
+- [07:21] pennies and you are good to run this
+- [07:23] project. So, you want to connect your
+- [07:25] billing account. So, mine's my billing
+- [07:27] account and we are good to go. From
+- [07:29] there, it will create a new project for
+- [07:31] you guys. So you can see it has our name
+- [07:33] and it's going to take just a few
+- [07:34] seconds to create this whole project.
+- [07:36] Once it's done, you'll be able to select
+- [07:38] this project and it will change your
+- [07:40] current working project to the new one.
+- [07:42] So I'm going to click it and you can see
+- [07:43] it changes the project we're working
+- [07:45] with, which is awesome. Great. So what
+- [07:47] we can do now is we want to enable all
+- [07:50] of our AI services. So you want to click
+- [07:52] on Vertex AI. Vertex AI is basically the
+- [07:56] AI suite for Google Cloud. And we want
+- [07:58] to click enable all recommended APIs. So
+- [08:01] you're going to click this and this is
+- [08:03] what's going to set everything up for
+- [08:05] you guys to enable you to easily start
+- [08:07] to work with, you know, all of their
+- [08:08] models so you can easily chat with them
+- [08:10] more on that in the next lesson next
+- [08:12] step. And this is what's going to allow
+- [08:14] you to start working with their Vertex
+- [08:16] AI rag service. So you're going to give
+- [08:18] this just a little bit as it sets
+- [08:20] everything up, but we don't have to
+- [08:22] watch it go all the way through. we can
+- [08:23] actually head over to step number two,
+- [08:25] which is where we're going to start to
+- [08:26] set up Google Cloud, their CLI tool,
+- [08:29] which is basically their command line
+- [08:30] interface tool, which is how you can
+- [08:32] actually on your local computer connect
+- [08:34] to the cloud. So, let's go ahead and
+- [08:35] head over to step number two so you can
+- [08:36] get this all set up. So, welcome to step
+- [08:38] number two, where we're going to start
+- [08:40] setting up Google Cloud CLI and install
+- [08:42] it on our local computer, which is going
+- [08:44] to allow our local computer to talk to
+- [08:46] Vertex AI in the cloud. So, what do we
+- [08:49] need to do? Well, we are just following
+- [08:50] the installation instructions provided
+- [08:52] by Google. And the first thing we need
+- [08:55] to do is follow the instructions
+- [08:56] depending on which operating system
+- [08:58] we're using. So, I'm on a Mac, so these
+- [09:00] are the instructions I'm going to
+- [09:01] follow. Definitely recommend picking the
+- [09:02] one for your operating system. Now,
+- [09:04] there's a link in the readme that you
+- [09:06] can use to follow and find this link.
+- [09:08] So, if you just want to download the
+- [09:09] source code completely for free and
+- [09:11] follow these instructions along, link
+- [09:12] down the description below. All right,
+- [09:14] so let's keep on cruising. So, first
+- [09:15] things first, we need to download the
+- [09:17] appropriate package. So, in my case, I'm
+- [09:19] using Apple Silicon. So, I'm going to
+- [09:21] download this one. So, I'm going to
+- [09:23] click the link. And this should take
+- [09:25] just a second to install. Sometimes it's
+- [09:27] a little weird. I'm going to refresh and
+- [09:28] download it again. And there we go. So,
+- [09:30] now it is downloading. So, we're good.
+- [09:32] So, what I could do is I can hop over to
+- [09:35] my Finder. I'm going to doubleclick the
+- [09:38] package to basically unzip everything.
+- [09:41] And once it's done, we'll end up with a
+- [09:42] file just like this that says Google
+- [09:44] Cloud SDK. Inside of it, you can see
+- [09:47] there's a ton of different things, but
+- [09:49] most importantly, there is an
+- [09:51] installation.sh file. So, how do we use
+- [09:53] this? Well, we're going to hop over to a
+- [09:55] terminal and we're going to follow the
+- [09:56] rest of the instructions set up by
+- [09:59] Google. So, the next one it wants us to
+- [10:01] do is run the installation script. So,
+- [10:03] we're going to copy this command and
+- [10:04] we're going to paste it. You need to
+- [10:06] make sure you're in your downloads
+- [10:07] folder for this to work. So, we're going
+- [10:08] to paste it and run it. Now, this should
+- [10:11] take just a second and it's going to
+- [10:12] start walking us through a few
+- [10:13] questions. No, I don't want to send
+- [10:15] everything. So, wait, sorry. Then it's
+- [10:18] going to ask, do you want to update your
+- [10:19] path? And we're going to say yes. I do
+- [10:21] want you to set everything up for this.
+- [10:23] We're just going to hit enter. And this
+- [10:25] is going to update our path. And it's
+- [10:28] going to save everything to this. So,
+- [10:29] we're going to say yes. It's going to
+- [10:32] install the recommended modules. Yes.
+- [10:34] And then from there, we should be good
+- [10:36] to go. And now you should be able to run
+- [10:38] going back to their instructions, you
+- [10:40] should be able to check which version of
+- [10:42] Google Cloud you are using. So in my
+- [10:45] case I'm just going to check it by
+- [10:46] running Google Cloud version and I
+- [10:48] should now see that this is you know it
+- [10:50] is working. Google Cloud is good. So we
+- [10:52] can move on to the next step which is
+- [10:54] going to be initializing Google Cloud so
+- [10:57] that we can connect our project. Now, in
+- [11:00] our case, we're just going to run this
+- [11:02] command, Google Cloud innit, without all
+- [11:04] the extra fluff cuz we've already
+- [11:05] updated our path. So, I'm going to type
+- [11:07] in Google Cloud innit. And now, what
+- [11:10] this is going to do is take you through
+- [11:12] the process of picking your project.
+- [11:14] I've done this in the past, so I'm going
+- [11:16] to go through it new. So, I'm going to
+- [11:18] say one cuz I want to reinitialize this
+- [11:20] configuration. And then it's going to go
+- [11:22] through the whole process of setting
+- [11:23] everything up. So, first things first is
+- [11:26] it's going to ask you to say, "Hey, you
+- [11:28] must sign in. Do you want to?" I'm going
+- [11:30] to say yes, I would like to sign in.
+- [11:32] This will open up basically your local
+- [11:35] browser to let you log in. So, I was
+- [11:37] signed in on this email. And then you're
+- [11:40] going to say yes, I'd like to allow
+- [11:41] Google Cloud SDK to do everything. So,
+- [11:43] I'm going to say okay. Now, this should
+- [11:45] take just a second. You're
+- [11:46] authenticated. Life is good. You can
+- [11:48] start using Google Cloud CLI. Fantastic.
+- [11:51] Now it's going to say, "All right, you
+- [11:53] have a ton of projects. Which one do you
+- [11:55] want to use?" So the one I just created
+- [11:57] was ADK Rag YouTube. So I'm going to say
+- [12:02] two. Then it's going to say great,
+- [12:03] you're using this project. And in our
+- [12:06] case, do you want to configure a default
+- [12:07] compute region and zone? And we are
+- [12:10] going to say yes because the rag
+- [12:13] services only work in two locations. So
+- [12:16] in our case, the best one to pick is US
+- [12:18] Central 1. And it looks like there's
+- [12:22] multiple ones. Yeah. So we can pick any
+- [12:24] of these. So I'm going to say I'm going
+- [12:26] to say nine, which is going to be US
+- [12:28] Central 1A. So we're going to say nine.
+- [12:31] Fantastic. Then we should be good to go.
+- [12:34] So if you follow along with the rest of
+- [12:37] our instructions, in our case, we've
+- [12:39] already set up the credentials, but we
+- [12:41] can run it once again just to make sure
+- [12:43] everything is good. And yeah, so we're
+- [12:46] already good. We don't need to do this.
+- [12:47] Life is good. So, so now what we can do
+- [12:49] is move on to the next step now that we
+- [12:52] have set up Google Cloud on our
+- [12:54] computer, which is now actually hopping
+- [12:56] over to our Rag agent that we're going
+- [12:58] to be showing you guys for the rest of
+- [12:59] the tutorial where you're going to learn
+- [13:00] how you can have your agent start to
+- [13:02] work with the Rag service in Vertex AI.
+- [13:04] So, let's hop over to part number three.
+- [13:06] So, welcome to part number three where
+- [13:08] we're going to get our hands dirty and
+- [13:09] start working with the code. And in this
+- [13:11] part three, we're going to break it up
+- [13:12] into first, I'm going to show you how
+- [13:14] you can set up your local environment so
+- [13:16] you can install all the necessary
+- [13:18] packages to run everything. Second, I'm
+- [13:20] going to quickly show you how you can
+- [13:21] set up your file. This one's super
+- [13:24] simple. Then finally, we're going to
+- [13:25] dive into the agent and its tools. So,
+- [13:28] let's dive into getting our environment
+- [13:29] set up so we can run this and start
+- [13:31] doing our rag request. So, the first
+- [13:33] thing we're going to do is create a
+- [13:34] virtual environment for you guys so that
+- [13:36] we can install all the necessary
+- [13:38] dependencies inside of this project. And
+- [13:40] you can see all the dependencies for
+- [13:41] this project and our requirements.txt
+- [13:44] file where we're going to install Google
+- [13:46] agent development kit as well as all the
+- [13:48] Google Cloud libraries needed in order
+- [13:50] to run everything. So first thing we're
+- [13:52] going to do is run this command right
+- [13:54] here which is going to create our
+- [13:56] virtual environment. So I'm going to
+- [13:57] paste this in and this will create a
+- [13:59] virtual environment folder for us in the
+- [14:01] top left. Once we have this set up, what
+- [14:04] we can do is run this command if you're
+- [14:07] on a Mac, which is going to activate the
+- [14:08] virtual environment. And if you're on a
+- [14:10] Windows, you're going to want to run
+- [14:11] this. All right, so let's open
+- [14:12] everything back up in our terminal.
+- [14:14] Paste it in. Now, you can see it looks
+- [14:16] like, yep, we are inside of our virtual
+- [14:18] environment. Now, once we have that set
+- [14:20] up, we can move on to the next command,
+- [14:22] which is going to actually install all
+- [14:24] of those dependencies you saw inside the
+- [14:27] requirements.txt file. So paste this in
+- [14:29] and this is going to go through and just
+- [14:30] install everything needed to get
+- [14:32] everything running. So now while that's
+- [14:34] running because it's going to take a few
+- [14:35] seconds, we need to start working on
+- [14:36] setting up ourv file. And this is where
+- [14:38] we're storing all of our environment
+- [14:40] variables. The good news is we're
+- [14:42] actually not saving any API keys or
+- [14:44] credentials or anything like that. The
+- [14:46] reason why is cuz you set up Google
+- [14:48] Cloud CLI and you've already logged in.
+- [14:50] So your local computer automatically has
+- [14:52] the ability to work with Vertex AI. So
+- [14:54] no API key is needed. You already did
+- [14:56] all that hard work. So the only thing we
+- [14:57] have to do is just say hey which project
+- [14:59] are we working with whenever we're
+- [15:01] making requests to Vertex AI. So in our
+- [15:04] case yes we're using Vertex AI. When it
+- [15:06] comes to the cloud location just go
+- [15:08] ahead and put central 1. That's just the
+- [15:10] easiest way. And then finally we have to
+- [15:12] say what is our project ID. So you can
+- [15:14] find your project ID if you head back
+- [15:16] over to Google Cloud Console and you can
+- [15:19] find it right here. The main thing is
+- [15:21] you need to make sure you have the right
+- [15:23] project selected because you don't want
+- [15:25] to, you know, work with the wrong
+- [15:26] project. Okay. So, you're going to copy
+- [15:28] that ID and then come back and paste it
+- [15:30] right in here. And then you're set up
+- [15:31] and you're good to go. And at this
+- [15:33] point, you can run everything to make
+- [15:35] sure it's working. So, you need to make
+- [15:37] sure you're in the right folder. So,
+- [15:38] we're just in the root folder of the
+- [15:40] project you cloned. And you can now run
+- [15:42] ADK web. And this will spin up the
+- [15:45] server and the website. So, now you can
+- [15:46] come in here and start to chat with it.
+- [15:48] So, you can say, "Who are you?" And at
+- [15:50] this point it will should answer like I
+- [15:52] am Gemini a model by Google. Yeah. So
+- [15:54] exactly perfect. So you are now cooking.
+- [15:56] If anything went wrong at to this point
+- [15:58] feel free drop a comment down below or
+- [15:59] hop over to my school. Happy to help you
+- [16:01] out on either place. All right great. So
+- [16:03] now we can move over to the next part
+- [16:04] where I'm going to walk you through the
+- [16:05] agent. Then we're going to move on to
+- [16:06] tools. So now it's time to look at our
+- [16:09] rag agent which is going to handle all
+- [16:10] of our requests, connect all of our
+- [16:12] tools, send them off to our knowledge
+- [16:14] base, do everything for us. Now one of
+- [16:16] the things I do want to mention before
+- [16:18] we dive in. First off, if any of this
+- [16:19] looks foreign, always hop over to my ADK
+- [16:22] crash course where you can learn more
+- [16:23] about setting up agents and all the
+- [16:25] course structures. For example, when
+- [16:27] we're creating a rag agent, we need to
+- [16:29] set up a folder or really just an agent
+- [16:31] in general. Sorry. Whenever we're
+- [16:32] creating a new agent, you need to have
+- [16:33] it in a folder. You then need to have an
+- [16:35] agent.py and you need to have a root
+- [16:37] agent. All this covered inside the crash
+- [16:39] course. Definitely recommend checking it
+- [16:40] out. So, let's dive into the core parts
+- [16:42] of this agent. So, the first things
+- [16:43] first, we have to pick a model from
+- [16:46] Google to make this work. You could use
+- [16:48] a different model. You could bring in
+- [16:49] OpenAI claw. You can bring in any model,
+- [16:51] but we're going to be using this Gemini
+- [16:52] 2.5 flash model. Reason why it's super
+- [16:55] smart and it's super fast. You can go
+- [16:57] over to Google's AI developer docs to
+- [17:00] see all the models they have, see what
+- [17:02] they're good for, and you can also see
+- [17:05] how much they cost. This one cost
+- [17:06] pennies to run, so that's why we're
+- [17:08] using this one as well. Fantastic. From
+- [17:10] this point, we now get to pass in all of
+- [17:12] the different tools we want to add to
+- [17:14] our rag model. In this case, we're
+- [17:17] showing all the different tools that you
+- [17:19] saw earlier. Everything from creating,
+- [17:21] adding, deleting, listing. We have
+- [17:23] everything mentioned right here. Now, I
+- [17:25] do want to start walking you through all
+- [17:27] of the descriptions first because in the
+- [17:29] next section, we're going to go through
+- [17:31] each tool one by one, but I do want you
+- [17:33] to see some of the core instructions for
+- [17:34] this agent. So, when you're off on your
+- [17:36] own working on making your own rag
+- [17:38] agents, you'll know what to do. So, what
+- [17:40] we're doing inside the instruction
+- [17:41] section is just telling the agent it
+- [17:43] exactly what it needs to do. At the end
+- [17:45] of the day, we're working with agents.
+- [17:46] Agents need context about what's going
+- [17:48] on and they also need to understand what
+- [17:51] actions they can take to better support
+- [17:53] users. So, we give it some context to
+- [17:55] basically say, "Hey, you are a rag
+- [17:57] agent. You're going to be working with a
+- [17:59] document store. Inside this document
+- [18:02] store, you have access to a ton of
+- [18:04] different commands that you can run to
+- [18:05] help answer specific questions. So,
+- [18:07] we're just giving it a high level
+- [18:08] overview. From there, we dive deeper
+- [18:10] into its core capabilities. So when it
+- [18:13] comes to quering documents, you can
+- [18:14] answer questions by retrieving the
+- [18:16] relevant information. You can list them
+- [18:18] out, create new corpus, you can delete
+- [18:20] them, whatever you want to do, it's
+- [18:21] pretty much called out right here. Then
+- [18:23] we start to give it instructions on how
+- [18:24] to, you know, interact with the user. So
+- [18:27] you can ask them what they want to do
+- [18:29] and then we give it basic classification
+- [18:32] instructions. So if they're asking
+- [18:34] questions about a knowledge base, we
+- [18:36] pretty much want to do a rag query. If
+- [18:38] they're asking what corpuses are
+- [18:40] available, list them and so forth and so
+- [18:42] forth. So basically, this is just
+- [18:44] classify the request, call a tool.
+- [18:46] Classify the request, call a tool.
+- [18:48] That's what all we're doing here. Then
+- [18:50] for each tool to have the best results,
+- [18:52] what I recommend and what is in the
+- [18:54] Google docs is basically to for each
+- [18:57] tool, you can kind of list out the
+- [18:59] different parameters and provide even
+- [19:01] additional information around what
+- [19:03] information needs to get passed into
+- [19:04] them. So if you have any special
+- [19:05] instructions too for these, you can feel
+- [19:07] free to add it here for your tool calls.
+- [19:09] So yeah, we just have parameters and
+- [19:11] tool calls left and right. Then finally,
+- [19:13] I've just added some additional
+- [19:15] information so that it provides for a
+- [19:17] better experience. So hey, these are all
+- [19:19] internal technical implementation
+- [19:21] details. Do not show any of this
+- [19:23] information to the user when answering
+- [19:25] questions. For example, you'll see later
+- [19:27] on we're going to track which current
+- [19:29] corpus we're working with inside of
+- [19:31] state to say like, oh, we were asking
+- [19:33] questions about this knowledge base. Now
+- [19:35] we're asking questions about this
+- [19:36] knowledge base. So, we're going to keep
+- [19:37] track of that. And basically, you know,
+- [19:39] we're just giving it some additional
+- [19:40] instructions on how to use the tool
+- [19:41] calls. Cuz if you don't have this right
+- [19:43] here specifically to say this is not
+- [19:45] userfacing information, it will repeat
+- [19:47] to the user a lot of the underlying
+- [19:48] things like, okay, cool. Now, I'm going
+- [19:50] to call this tool command and do this
+- [19:52] for you. And like, no, I don't they
+- [19:54] don't need to know that. they just need
+- [19:55] to get their questions answered.
+- [19:56] Finally, we're just giving it some
+- [19:58] additional communication guidelines. So,
+- [20:00] just be clear, you know, explain what
+- [20:02] actions you've taked and so forth and so
+- [20:03] forth. So, definitely if you have any
+- [20:05] questions, dig deeper into the
+- [20:06] instructions because this is in my
+- [20:09] opinion the best way to make robust
+- [20:11] agents. So, now that we got that out of
+- [20:12] the way, we're going to start going
+- [20:14] through each one of the tools one by one
+- [20:16] for multiple reasons. a so you can
+- [20:18] understand what they do and I think
+- [20:20] analyzing these tools is the best way
+- [20:22] for you to understand how to start
+- [20:24] interfacing with Vertex AI's rag
+- [20:26] service. So you're going to start to see
+- [20:28] from creating new ones to how we can add
+- [20:30] information check what corpuses we have
+- [20:33] make queries to them. You're going to
+- [20:34] understand all of it by looking at these
+- [20:35] tools. So let's start on the first one
+- [20:37] which is where we're going to create our
+- [20:39] first knowledge store and then we're
+- [20:40] going to keep going from there. So let's
+- [20:42] hop over to our first tool. So, welcome
+- [20:43] to the first tool inside of our rag
+- [20:46] agent, which is going to allow us to
+- [20:47] create new knowledge stores inside of
+- [20:50] Vert.Ex AI. So, this is specifically the
+- [20:52] create corpus tool call. And I want to
+- [20:55] walk you through the core components of
+- [20:57] this tool call so you can understand
+- [20:58] exactly what's going on. So, I'm going
+- [21:00] to scroll down because all the code's
+- [21:02] not necessary, just a few certain parts.
+- [21:05] So the main things that you need to add
+- [21:08] when creating a new knowledge store
+- [21:10] inside of Vertex AI is first you need a
+- [21:13] name for the data store. So if you want
+- [21:16] to have multiple knowledge stores, one
+- [21:18] for answering personal questions, work
+- [21:20] questions, other questions, you would
+- [21:22] want to create a corpus for each one and
+- [21:24] you can give them a name. We just want
+- [21:25] to make sure that this name follows
+- [21:27] their naming schema. So we just don't
+- [21:29] want to put like spaces. We're going to
+- [21:31] use underscores and so forth. Great. So
+- [21:33] once we have a nice clean name that we
+- [21:35] can use to showcase, what we want to do
+- [21:37] next is start to create some of the
+- [21:40] model configurations we need in order to
+- [21:43] create our corpus. Cuz if you look, this
+- [21:45] is the most important command right here
+- [21:47] to where you can see in order to create
+- [21:49] a new corpus, we need to give a display
+- [21:51] name. And then for the vector database
+- [21:53] we're creating, we need to say, hey,
+- [21:55] which embedding model configuration do
+- [21:57] you want to use? Now, if you've never
+- [21:59] seen embedding configurations before,
+- [22:01] here's just like a 10-second crash
+- [22:03] course of everything related to doing
+- [22:06] basically rag. And the long story short
+- [22:08] is when doing rag request, there's it's
+- [22:10] got kind of a two-sided problem. Over
+- [22:12] here on the left hand side is adding
+- [22:14] data to your vector store and then the
+- [22:17] right hand side is asking questions
+- [22:19] about it. So, here's your crash course.
+- [22:21] When you're adding information to your
+- [22:24] vector store, what you can do is say,
+- [22:26] "Hey, I want to add this document." This
+- [22:28] document gets chunked up into a bunch of
+- [22:30] small little pieces to where it's easier
+- [22:31] to digest. From there, we eventually get
+- [22:34] to the rag corpus, which is what we're
+- [22:36] creating right now. And we have to pick
+- [22:38] which embedding model do we want to use
+- [22:40] for everything. The embedding model is
+- [22:42] what takes human language and then
+- [22:44] converts it to a bunch of ones and
+- [22:45] zeros. So the computer can fully
+- [22:47] understand exactly like, oh, when you
+- [22:49] talking about this question, it's also
+- [22:51] super similar to this phrase. So it can
+- [22:53] just basically compare numbers to
+- [22:55] numbers cuz that's what computers are
+- [22:57] good at. Computers are not good at
+- [22:58] comparing words to words. All right, so
+- [23:00] we're picking a embedding model. Now,
+- [23:02] you can kind of see it right here.
+- [23:04] There's some that come from Google. So
+- [23:06] we're just going to be using Google's
+- [23:07] models for this. So their Google model,
+- [23:09] it's their text embedding model version
+- [23:11] five. And just in case you have
+- [23:13] questions about pricing, this model for
+- [23:15] a 100page book, if you were to embed all
+- [23:18] of it, it would cost you 40% of a penny.
+- [23:22] Meaning like it's not even one penny,
+- [23:23] it's like 40% of a penny. So a 100page
+- [23:26] book less than a penny, which is wild.
+- [23:28] So this model is insanely cost effective
+- [23:30] to use. So definitely recommend using
+- [23:32] this one. And that is what we're going
+- [23:33] to be using today. And then finally,
+- [23:35] whenever we eventually ask questions
+- [23:36] later, so you'll learn more about this
+- [23:38] later. Whenever we ask questions, our
+- [23:40] questions are going to become embedded
+- [23:42] as well. And then once they're embedded,
+- [23:44] we can compare what embeddings we have
+- [23:46] in the vector store compared to the
+- [23:48] query that's being passed in. So long
+- [23:49] story short, we need to have one
+- [23:51] consistent embedding used for in loading
+- [23:54] data into the knowledge store. And then
+- [23:55] when we're asking questions to the
+- [23:57] knowledge store, we need one shared
+- [23:58] embedding to make everything, you know,
+- [24:00] standard. So what do we need to do now?
+- [24:02] So in our case, we're saying, okay, I
+- [24:04] understand that I need to provide a
+- [24:06] embedding model. So what we're doing is
+- [24:08] we have a configuration file and in that
+- [24:11] configuration file we're just saying hey
+- [24:13] I want to use that embedding model that
+- [24:15] I just showed you on the whiteboard and
+- [24:16] I want to use that one. Fantastic. From
+- [24:18] there all we're doing after we make the
+- [24:20] request and this one will take roughly
+- [24:22] about 1 to 2 minutes creating it just
+- [24:24] takes a while. What'll happen is it will
+- [24:27] then we're going to start to update our
+- [24:28] state inside of our agent development
+- [24:30] kit. And our state is just basically a
+- [24:32] way we can keep up with information
+- [24:35] across multiple calls. So, we're going
+- [24:37] to say, hey, I made a new corpus. This
+- [24:39] exists. Here's the name of it. Also,
+- [24:41] this is the current corpus I'm working
+- [24:42] with. Cuz obviously, if you just created
+- [24:43] one, you probably want to work with it.
+- [24:45] Finally, we're just going to return if
+- [24:46] everything works well. Hey, this was
+- [24:48] created properly. Here's the name of it.
+- [24:50] Here's the and there's two different
+- [24:51] names. There's a display name, which
+- [24:53] you're going to add, which is like just
+- [24:55] like the human readable one of like
+- [24:57] personal knowledge base. But then under
+- [24:59] the hood, there's a more official name
+- [25:01] which is going to be like, you'll see
+- [25:03] this later on, but it has a bunch of
+- [25:04] forward slashes and it's it's more of
+- [25:06] like the unique identifier of the
+- [25:07] knowledge store. So, we're just
+- [25:08] returning both so that our agent knows
+- [25:11] exactly what information was created.
+- [25:12] And if anything goes wrong, we're just
+- [25:14] going to return an error so that the
+- [25:15] agent can understand what went wrong.
+- [25:16] So, let's see this in action. Over here,
+- [25:19] I've already have agent development kit
+- [25:20] running. If this is your first time
+- [25:22] running agent development kit, what you
+- [25:24] can do just type in adk web and this
+- [25:26] will spin up a web server to where you
+- [25:28] can start chatting with your agents. So
+- [25:29] let me refresh this. Great. So I would
+- [25:31] say I would like to create a new
+- [25:36] knowledge store called personal.
+- [25:39] Actually I wanted to call this one
+- [25:40] business. Then what it's going to do is
+- [25:43] say great I'm going to make the corpus
+- [25:45] and we can analyze. If you click on the
+- [25:47] tool call, you can see exactly what
+- [25:49] information was passed to our function
+- [25:51] call. So in our case, you can see our
+- [25:53] rag agent made a call to create corpus.
+- [25:56] And in this request, what it did, let's
+- [25:58] scroll down. Some of these are tricky.
+- [26:01] It kind of jumps around for you. So I
+- [26:02] think this is request two. Some of the
+- [26:04] times, yeah, so we're going to click
+- [26:06] here. Ah, sorry. It just didn't load the
+- [26:07] picture. It moved out of the way. So you
+- [26:09] can see we called the create corpus
+- [26:11] function. And you can see this is the
+- [26:13] response. Sorry, there's so much
+- [26:15] happening in here which is good. Oh
+- [26:17] yeah, so you can see we made a call to
+- [26:19] create corpus when it came to passing in
+- [26:22] parameters. You can see we wanted the
+- [26:23] name of it to be business and then you
+- [26:25] can see it took a second and then
+- [26:27] finally returned. So you can see let's
+- [26:29] just look at the response in the next
+- [26:31] tab right here. Let's see create corpus.
+- [26:34] Great. So you can see it returned all of
+- [26:36] that information that we showed at the
+- [26:38] end of our code. All this right here.
+- [26:40] Sorry, too many windows guys. There we
+- [26:42] go. So you can see right down here we
+- [26:45] said return this if it works properly.
+- [26:46] And you can see that's exactly what
+- [26:48] returned. Success. Successfully created
+- [26:50] the corpus called business. Here's the
+- [26:52] project name that I was talking about
+- [26:53] earlier where it has all the unique
+- [26:55] identifiers, the location and the actual
+- [26:58] ID of that rag corpus and it has the
+- [27:00] display name. So it created it. It
+- [27:02] created it perfectly. So now what I want
+- [27:04] to do just to show you guys that this
+- [27:05] does exist. We're going to move over to
+- [27:07] the list corpus example where we can see
+- [27:09] all the different corpuses we've created
+- [27:11] so far. and so we can see which ones
+- [27:13] exist and we should hope to see our new
+- [27:15] business one. So, let's hop over to tool
+- [27:16] number two. So, welcome to tool number
+- [27:18] two where I'm going to show you guys how
+- [27:19] you can start to list all the corpora
+- [27:21] that you guys have created so far. I
+- [27:23] know I'm butchering the plurality of
+- [27:24] this word, so I apologize, but the main
+- [27:26] thing we're going to do is just list all
+- [27:28] the different rag stoages that we've
+- [27:29] created so far. You can notice we're not
+- [27:31] passing in any parameters into this one
+- [27:34] because there's no need to. We just want
+- [27:35] to see everything we've ever created.
+- [27:37] And let me show you how we can do it.
+- [27:38] And in this case, there's really only
+- [27:40] one core command we need to run. Got to
+- [27:42] love Google for making this so
+- [27:44] straightforward. But basically on the
+- [27:46] rag import from vertex AI, what we're
+- [27:49] going to do is call the list grappora.
+- [27:51] What this is going to do is then just
+- [27:53] return all of the different instances
+- [27:56] that we've created so far. So we're
+- [27:58] going to get back a list in here which
+- [28:00] is going to be of type. You can see it
+- [28:01] right here. Let's see right here. Yeah,
+- [28:03] the return type is going to be I keep
+- [28:05] jumping away. But it is a list. Yeah. So
+- [28:06] it's a list of rag corporate pagers and
+- [28:09] what this means is we can now iterate
+- [28:11] through each one we get back and we can
+- [28:13] pull out the specific information we
+- [28:15] want. So in our case we're going to pull
+- [28:16] out the resource name which was like the
+- [28:18] really complex one with page project
+- [28:20] number you know the location all the
+- [28:22] extra information. We just want the
+- [28:24] display name which was the human
+- [28:25] readable one and some additional
+- [28:26] information about when we create it.
+- [28:28] Once we have all of that ready we're
+- [28:29] just going to return it to our front-end
+- [28:31] users so that they can see exactly what
+- [28:33] they have available. So to show you that
+- [28:35] this is working is I'm going to rerun
+- [28:37] this. So you can now see I'm back in our
+- [28:40] agent. I'm in a new session and I can
+- [28:42] say what
+- [28:43] corpora do I
+- [28:45] have? Let's see. And from there this
+- [28:47] agent is going to make a tool call to
+- [28:49] list corpora. And what this will do same
+- [28:52] thing as earlier is it's going to make a
+- [28:54] tool call. And now you can see that we
+- [28:56] have one created which is called
+- [28:58] business which is exactly what we did in
+- [29:00] the previous step. So now that you have
+- [29:01] seen that all of this is working, we're
+- [29:03] now going to start moving to the next
+- [29:04] step where we're going to add
+- [29:06] information to our vector store so that
+- [29:09] we can later start to ask questions
+- [29:10] about it. So let's hop over to tool
+- [29:12] number three which is going to be add
+- [29:13] data. So welcome to tool number three
+- [29:15] where you're going to learn how you can
+- [29:16] start to add data specifically files
+- [29:18] from your Google Drive such as your
+- [29:20] Google Docs, Slides, and so forth as
+- [29:22] well as items from cloud storage. Now in
+- [29:25] this tool I'm going to walk you through
+- [29:27] all the main important parts. So first
+- [29:29] things first is whenever we want to add
+- [29:32] data, we need to specify which corpus do
+- [29:34] you want to add information to. When it
+- [29:36] comes to paths, we need to say
+- [29:37] basically, hey, what are the different
+- [29:39] links to all the different resources you
+- [29:41] want me to chunk, embed, and then put
+- [29:43] into the vector store. And finally,
+- [29:44] we're going to work with tool context,
+- [29:46] which is just something unique to agent
+- [29:47] development kit to where we can update
+- [29:48] state. So let's look at what we want to
+- [29:51] do. And I do think it's important to
+- [29:52] mention that there are only a few
+- [29:54] supported formats when it comes to
+- [29:56] saving data. So if you just provided a
+- [29:59] random link, this is going to break. You
+- [30:00] specifically need to provide a link from
+- [30:03] Google Drive, Google or Google Docs or
+- [30:05] Google Cloud Storage. And you can see
+- [30:07] the supported file formats right here.
+- [30:10] Now let's go through this part by part
+- [30:12] so you can understand what we're trying
+- [30:14] to do in this tool and understand some
+- [30:16] best practices as well. So first thing,
+- [30:18] whenever we start to run this tool, we
+- [30:20] just want to confirm that hey, you asked
+- [30:23] to make a request to save data to this
+- [30:26] corpus. does it exist? So, we have a
+- [30:28] nice utility checker that will make a
+- [30:31] request over to Google to say, "Hey,
+- [30:33] does this exist? If it doesn't, you
+- [30:36] know, so it's going to get all of them.
+- [30:37] It's going to check the list and it's
+- [30:39] going to say, hey, you know, for
+- [30:40] whatever reason, this one was not in
+- [30:42] there. Therefore, you can't do this."
+- [30:44] So, we're just going to check first
+- [30:45] before just assuming everything works.
+- [30:47] So, it's good to have some validation.
+- [30:49] Then, what we're going to do next is
+- [30:50] just to make sure that all the different
+- [30:53] inputs that were passed to us are
+- [30:55] actually valid. So, we just want to make
+- [30:56] sure that everything that gets passed to
+- [30:58] us is going to be a path or a string.
+- [31:01] So, what we can do next is start to now
+- [31:04] that we've checked the different types
+- [31:05] to make sure that they're valid, what we
+- [31:07] can start to do next is to make sure
+- [31:08] that these URLs are actually in the
+- [31:12] right format. Meaning, they need to
+- [31:14] either be the Google Docs, Sheets, or
+- [31:16] Slide style, which is this style right
+- [31:18] here, where it has the unique file ID.
+- [31:21] Option two is it needs to follow the
+- [31:23] Google Drive format where it looks like
+- [31:26] a link like this. Or finally, it needs
+- [31:28] to be a Google Cloud Storage link. And
+- [31:31] that's good. We're going to continue. If
+- [31:32] anything else goes wrong, we're going to
+- [31:35] add to the fact that, hey, this link was
+- [31:37] invalid. So once again, we're just doing
+- [31:39] a little bit of extra validation so that
+- [31:41] our agent can, you know, roll with the
+- [31:43] punches and knows that it's only working
+- [31:45] with valid data if it gets to certain
+- [31:46] points. Fantastic. So now we're at the
+- [31:48] part to where we're going to say hey I
+- [31:51] have valid data that I would like to
+- [31:53] pass to my vector store. So what we're
+- [31:56] going to do is go great here's the
+- [31:58] display name which is going to be
+- [31:59] business. I want to get that full
+- [32:01] resource name. Once I get the full
+- [32:03] resource name I then want to start
+- [32:05] setting up some of my chunking
+- [32:07] configurations. And I can show you what
+- [32:09] this means real fast. So back over to
+- [32:11] our handydandy whiteboard. When we get a
+- [32:13] huge document like let's say we get a
+- [32:15] 100page document. Well, we can't just
+- [32:17] put the whole 100page document into the
+- [32:18] vector store. What we ideally want to do
+- [32:20] is chunk it up based on paragraphs or,
+- [32:23] you know, a character count. There's a
+- [32:24] bunch of different strategies, but the
+- [32:26] main two that you'll use 99% of the time
+- [32:28] are going to be chunk size and chunk
+- [32:29] overlap. So, here's what that means.
+- [32:31] Chunk size is how many tokens do you
+- [32:33] want to include in each different chunk.
+- [32:37] So, do you want to include a,000
+- [32:39] characters, 500 characters, do you want
+- [32:40] to include 10,000? Whatever you want to
+- [32:42] do, you can set here. And then chunk
+- [32:44] overlap is the next one. So, let's just
+- [32:46] imagine just so you can kind of see this
+- [32:47] in action. Let's imagine that this was
+- [32:49] chunk one. Well, if you wanted chunk
+- [32:50] overlap to be a little bit or or zero,
+- [32:53] what would happen is after the last
+- [32:55] word, we would just make a brand new
+- [32:56] chunk. But if you did want there to be
+- [32:58] chunk overlap, which does really help
+- [33:01] when returning more contextual
+- [33:03] responses, what'll happen is there will
+- [33:05] actually be a little bit of an overlap
+- [33:07] where this area right here will include
+- [33:09] some text from the the last sentence,
+- [33:10] which is great cuz like all the time
+- [33:12] when you're breaking up and looking at
+- [33:13] chunks, there's a good chance some
+- [33:15] information was in part one, some
+- [33:16] information was part two. So adding a
+- [33:18] little bit overlap helps generate better
+- [33:19] results. It does increase the size of
+- [33:21] your vector store, but it does result in
+- [33:23] better funnel embeddings. So here's what
+- [33:25] we're going to pass in. So, we're going
+- [33:26] to say I would like a default chunk size
+- [33:28] of 512. And then when it comes to chunk
+- [33:30] overlap, I want about a 20% overlap,
+- [33:33] which is these are pretty standard
+- [33:34] numbers. Definitely recommend starting
+- [33:36] here. Fantastic. So, once we have said,
+- [33:38] okay, great. Here's what my all my
+- [33:40] chunking configurations should be. What
+- [33:43] we can do is start to run this command,
+- [33:45] which is the most important one, which
+- [33:46] is where we're going to start to import
+- [33:48] our files into our vector store. So,
+- [33:50] this is where we're going to go. Great.
+- [33:51] Here's the actual full name of our
+- [33:54] business vector store. Here are the
+- [33:56] valid paths. So, here's the Google
+- [33:58] Drive. Here's the other Google Cloud
+- [34:00] Storage links. From there, we're going
+- [34:02] to pass in our transformation. So, how
+- [34:04] do we want to chunk things? And then
+- [34:06] finally, we're going to pass in another
+- [34:08] field, which is max embeddings request
+- [34:10] per minute. And basically, we just don't
+- [34:11] want to blow things out of the water. I
+- [34:14] believe this one is Yeah, this one. You
+- [34:16] don't even have to have this one. It
+- [34:18] defaults to a,000. So you could drop
+- [34:19] this one if you want, but you can see
+- [34:21] what it does. If you dig in just a
+- [34:23] little bit more, you can see, let's see,
+- [34:25] I just want to read it to you guys so
+- [34:26] you can see exactly what it does. Yeah.
+- [34:27] So it's optional, but it's the max
+- [34:29] number of queries per minute that this
+- [34:30] job's allowed to make. This volume
+- [34:33] basically it just makes sure you stay
+- [34:34] compliant with Google's quotas. So
+- [34:36] that's all we're trying to do here is
+- [34:37] just to make sure we don't go over any
+- [34:39] quotas. Okay, great. So what we're going
+- [34:41] to do after we import all the different
+- [34:43] files into our vector store, we're
+- [34:45] golden. So, at this point, we can say,
+- [34:48] "Great. We're going to reset our current
+- [34:49] corpus just in case for whatever reason
+- [34:51] that got out of sync." And then from
+- [34:53] there, we're going to start to build up
+- [34:55] a nice message that we can send back to
+- [34:57] the user saying, "Hey, I went off and
+- [34:59] included all of these Google drives and
+- [35:02] URLs into your vector store." And what
+- [35:04] we're going to do is just showcase the
+- [35:06] number of files that were imported as
+- [35:08] well as where they went. So, that is
+- [35:10] everything that you need to do when it
+- [35:12] comes to adding data to your vector
+- [35:14] store. So, now let me show you how to do
+- [35:15] it. So, I am over now inside of Google
+- [35:18] Drive. And if you want to add a document
+- [35:21] to your vector store, you can click any
+- [35:23] of these documents right here. You're
+- [35:25] going to I need to just only click one
+- [35:27] more actions. I'm going to refresh real
+- [35:29] fast. For some reason, it tried to
+- [35:30] select two. Yeah. So, I can click the
+- [35:32] one I want. From there, I can click
+- [35:33] share. At this point, what you want to
+- [35:35] do, just to make it super easy, click
+- [35:37] share again. And at this point, you can
+- [35:40] say, "Hey, anyone with this link can
+- [35:42] access the contents in it, which is all
+- [35:44] we need for right now." Click copy link.
+- [35:46] And now what we can do is start to run
+- [35:48] this. So let's hop back over to our case
+- [35:50] a new session. Well, we'll actually stay
+- [35:53] in this one. So you can say I would like
+- [35:55] to add the following doc to my
+- [36:01] business corpus and then we can just
+- [36:04] paste in the link. Now what this will do
+- [36:06] is it will pass this information in. So
+- [36:10] it's going to call the add data function
+- [36:11] that we just created. for some reason.
+- [36:13] Uh, don't trust the visuals in ADK.
+- [36:16] They're working on that. But yeah, so
+- [36:17] right now you can see it's pulling the
+- [36:19] wrong one. So it's still delayed. It
+- [36:21] won't update until after the whole tool
+- [36:23] calls run. But right now what it's doing
+- [36:24] is it's taking in that Google slide that
+- [36:26] was like 60 slides. There was a ton of
+- [36:28] information into it. And what it's doing
+- [36:30] is it's now chunking it up into small
+- [36:32] pieces. After it chunks it up, it's then
+- [36:34] passing all the embeddings over to the
+- [36:36] vector store. So you can see that this
+- [36:38] information has now been successfully
+- [36:40] added to your corpus. Awesome. So now
+- [36:42] we're going to move on to the next step
+- [36:43] to where we should be able to say, "All
+- [36:45] right, Corpus, you said that you saved
+- [36:48] this document there, but can you
+- [36:50] actually show me which document you
+- [36:51] saved just to have proof that everything
+- [36:53] worked?" So now we're going to hop over
+- [36:54] to the next tool. So now it's time for
+- [36:56] us to look at our get corpus information
+- [36:58] function. And the whole point of this
+- [37:00] function is to say, hey, I want to know
+- [37:02] for the specific knowledge store that
+- [37:04] I'm working with, which documents are
+- [37:06] inside of it. That's all we're trying to
+- [37:07] do. So here's how we can run this. First
+- [37:10] things we need to pass in the corpus. So
+- [37:11] the agent's going to do that. Then it's
+- [37:13] going to just check, hey, is this an
+- [37:15] actual valid corpus name just as a quick
+- [37:17] test. If it's not, we're going to exit
+- [37:19] early. So it's more good validation and
+- [37:21] agent best practices. From there, we're
+- [37:24] going to get the corpus official name.
+- [37:26] So that's the more long one. From there,
+- [37:28] what we're going to do is say, all
+- [37:30] right, from vertex AI, I want to get the
+- [37:32] rag class, and I want to call list
+- [37:35] functions on this specific corpus that
+- [37:37] we're trying to work with. From there,
+- [37:39] we're going to get back a list of all
+- [37:40] the different rag files inside of that
+- [37:43] corpus. And then we can start to iterate
+- [37:45] through each one of them. And ideally,
+- [37:47] what we're trying to do is just extract
+- [37:49] all the information we want to return.
+- [37:51] So, in our case, we're going to pull out
+- [37:53] the file ID, the display name, the
+- [37:55] unique resource identifier, when it was
+- [37:57] created, and the last time it was
+- [37:59] updated. That's all the information
+- [38:00] we're going to return. And we're just
+- [38:02] going to iterate through each one, put
+- [38:04] it in one huge file detail list. And
+- [38:07] once we're done processing all of them,
+- [38:09] we are going to return them back to our
+- [38:11] agent saying, "Hey, things were a
+- [38:13] success. I can now see all the
+- [38:15] information inside of this corpus.
+- [38:17] Here's the name of it. Here's the
+- [38:18] display name. Here's how many files and
+- [38:21] here's a list of details of all the
+- [38:22] files." So, let's see this in action.
+- [38:24] So, I've opened up a new session because
+- [38:26] I didn't want to, you know, get things
+- [38:28] confusing. So we can say what corpus do
+- [38:30] I have just cuz we need to know what
+- [38:32] we're working with. So you can see our
+- [38:34] old one's working. Great. So we have
+- [38:36] that one. So I can say what documents
+- [38:39] what docs are in the business corpus.
+- [38:42] And this should return back to us. Hey,
+- [38:44] it looks like you just called look like
+- [38:46] you just uploaded a document called week
+- [38:48] one cuz that's exactly what I did a
+- [38:50] second ago over here. Yeah, week one. So
+- [38:52] you can see it was uploaded and yeah,
+- [38:54] there's only one document in there.
+- [38:56] Great. So now what we can do is move
+- [38:58] over to our rag query tool. And this is
+- [39:02] where things are going to get
+- [39:02] interesting because this is where you're
+- [39:03] going to be able to see us start to make
+- [39:06] requests about what's inside of this
+- [39:08] document. So let's hop over to the next
+- [39:09] tool. So you can see the rag fully in
+- [39:11] action. So now it's time to dive into
+- [39:13] the rag query tool, which is my favorite
+- [39:15] one out of everything that we've done so
+- [39:17] far because this is where we've actually
+- [39:19] all the dots are going to connect and
+- [39:20] you're going to see our agent start to
+- [39:22] answer question about our documents. So
+- [39:24] what do we need to do in order to run
+- [39:26] this tool? We need to say hey which
+- [39:28] corpus are we working with and what
+- [39:29] question or query do you have about it
+- [39:32] from there more validation make sure the
+- [39:34] corpus exists if not return. From there
+- [39:36] we're going to start working on the
+- [39:37] specific retrieval parameters. Now in
+- [39:40] the case of making requests to a vector
+- [39:43] store the two most common types of
+- [39:45] configurations that you're pretty much
+- [39:47] always going to see in all vector stores
+- [39:49] are top k and filter. So let me explain
+- [39:52] each one of these really quickly. Top K
+- [39:54] means great. Out of all of the different
+- [39:57] data that's close to this query, how
+- [39:59] many do you want to return back to? So,
+- [40:01] if I find 10 pieces of data that are
+- [40:03] pretty similar, obviously I'm going to
+- [40:05] return the closest ones first, but how
+- [40:06] many do you want me to return back to in
+- [40:08] general? In our case, we're going to
+- [40:09] say, hey, I only want the top three
+- [40:11] closest to answer questions. Okay,
+- [40:13] great. Next, what I want to do is then
+- [40:16] pass in a filter, meaning, okay, well,
+- [40:18] we have a vector store with a ton of
+- [40:20] different information. How close does
+- [40:23] the data that you're asking a question
+- [40:24] about versus what's in the data store
+- [40:26] need to be similar to each other? And
+- [40:28] this is where something called a
+- [40:30] distance threshold comes in. So, let me
+- [40:32] just show this one cuz this one's so
+- [40:33] much easier to understand visually. So,
+- [40:35] let's imagine all the blue dots are our
+- [40:37] different embeddings that we have saved
+- [40:39] in our vector store. And we ask the
+- [40:42] question in our case of like we just ask
+- [40:44] a question. And it just so happens
+- [40:46] there's a few dots right next to us.
+- [40:49] There's some that are like kind of
+- [40:50] close, but then there's some that are
+- [40:51] really far away. So, here is what it
+- [40:54] would look like whenever you want to do
+- [40:56] your default vector distance threshold.
+- [40:59] So, let's just say to start off, we pick
+- [41:01] a number that is super high. So, it goes
+- [41:03] between zero. It goes really depending
+- [41:05] on the platform between negative 1 and
+- [41:07] one, but usually I think it's between
+- [41:08] zero and one. So, one means it's
+- [41:11] identical
+- [41:12] basically.8 means like, hey, it's pretty
+- [41:14] darn close. Five is like, eh, like they
+- [41:16] talk about the same thing. 0.1 is pretty
+- [41:17] much just like, hey, give me anything.
+- [41:19] So, here's what this would look like.
+- [41:20] So, if we were like, hey, I want to do a
+- [41:23] vector distance score of 0.9. Well, what
+- [41:26] that could mean is I want to do anything
+- [41:29] that's really close to me, which would
+- [41:30] mean, oh, okay. So, here's all the
+- [41:33] information that's really close to you.
+- [41:34] So, in this case, what would happen is
+- [41:36] we would just get back two pieces of
+- [41:37] information. Whatever they are, great.
+- [41:40] That's up to you to understand and deal
+- [41:41] with answering the question. But, I'm
+- [41:43] just my sole goal is to give you
+- [41:45] relevant information. Now if we were to
+- [41:47] bump this up to say okay actually what I
+- [41:50] wanted to do is like a 0.5. Oh a 0.5
+- [41:53] gives me this information. So in this
+- [41:56] case oh you get more data. However some
+- [41:59] of it is not as similar aka this is very
+- [42:03] similar. This is not so similar. So at
+- [42:05] this point we're getting more
+- [42:06] information in but it just might not be
+- [42:08] hyper relevant. So hopefully that little
+- [42:10] crash course on distance thresholds
+- [42:12] matter. And there's a bunch of other
+- [42:13] types, but this is the most common one
+- [42:15] that you want to use. Great. So, at this
+- [42:17] point, we now understand, hey, whenever
+- [42:19] I'm making a rag retrieval request, I
+- [42:22] understand the default configurations I
+- [42:23] want to pass in. I want to get back
+- [42:25] three pieces of data and I want to get
+- [42:28] back eh just closeish data 0.5
+- [42:31] close-ish. So, from there, what we can
+- [42:34] do is make our rag retrieval query. So
+- [42:36] in our query, the main pieces that you
+- [42:39] need to pass in specifically are like,
+- [42:40] "Hey, which vector stores do you want to
+- [42:42] work with? In our case, we're just going
+- [42:44] to work with one. Later on, you can
+- [42:46] maybe update this tool to work with
+- [42:47] multiple, but for right now, we're just
+- [42:48] going to do one." And then we're going
+- [42:49] to pass in the name of it. From there,
+- [42:51] we're going to pass in the text. So if
+- [42:53] we were to say like, "Hey, what is the
+- [42:56] topic of this document?" It would go off
+- [42:58] and answer that question. And then our
+- [43:00] configurations. Now it is important to
+- [43:02] note this piece of information right
+- [43:04] here. The query is raw text. This piece
+- [43:07] of information will get embedded before
+- [43:10] getting passed in to the vector store.
+- [43:12] It's basically what allows the vector
+- [43:13] store to go oh here's the numeric
+- [43:15] representation of your query and here's
+- [43:17] all the numeric pieces of information in
+- [43:19] the vector store. So I can see oh these
+- [43:21] two are very similar. So just know this
+- [43:23] query that is text will get converted
+- [43:25] over to an embedding. Fantastic. From
+- [43:27] this we're going to get a response. This
+- [43:29] response is just going to have a ton of
+- [43:30] different context like pieces of context
+- [43:32] which are basically just you know hey
+- [43:34] here's what was found and what we're
+- [43:36] going to return back to our agent is the
+- [43:39] unique resource identifier the name of
+- [43:41] the source. We're also going to return
+- [43:43] the text. So like the raw piece of
+- [43:45] information. So like oh on slide five it
+- [43:47] said you know this program is about
+- [43:49] helping people make YouTube cuz that's
+- [43:51] what the slide was about. And then
+- [43:53] finally the score. So how similar was
+- [43:55] this embedding compared to the query?
+- [43:58] Was it really close or was it pretty far
+- [43:59] away? So, we're going to return all of
+- [44:01] those results, put them in our list, and
+- [44:03] that's what's going to get returned back
+- [44:04] to the to the viewer down here. So, yep,
+- [44:07] things went great. Here's how many, you
+- [44:09] know, we successfully queried this
+- [44:10] vector store. Here was the query. Here
+- [44:13] were the results. Here's how many
+- [44:14] results we got back. So, let's see this
+- [44:16] one action cuz this one is my favorite
+- [44:17] part. And I think it might be helpful as
+- [44:19] well to just open up the document real
+- [44:22] fast so you can kind of see what's
+- [44:23] inside of it. So, this was for a program
+- [44:25] I was launching. So, yeah. So you can
+- [44:28] let's just ask this question. What are
+- [44:30] what do we talk about in phase one? So
+- [44:32] that's what we're going to talk about
+- [44:33] and see if it gives us information back.
+- [44:35] So let's hop back over to our agent and
+- [44:37] then we can say what do we talk about in
+- [44:40] phase one. Now what this should do is
+- [44:42] make a request to our vector store a rag
+- [44:45] query. So you can see it's well man it's
+- [44:48] going so fast. That's the whole the hard
+- [44:49] problem. So you can see this is pretty
+- [44:51] cool guys. So you can see oh in this
+- [44:53] document in phase one here's what we
+- [44:56] talked about. We talked about
+- [44:58] understanding your content engine and
+- [44:59] all the core components. And if I hop
+- [45:01] back over to the slides really fast, you
+- [45:03] can see that's exactly that was what was
+- [45:05] called out in slide one. So all around
+- [45:07] it like found everything. It found the
+- [45:10] right page. It found the right piece of
+- [45:11] information and it helped return an
+- [45:13] answer too. So yeah, this was this is
+- [45:15] crazy that it was able to do that. And
+- [45:17] yeah, so that's the power of your rag
+- [45:18] agent. So, now that we've covered pretty
+- [45:20] much connect all the dots, I want to
+- [45:22] show you a few additional tools that you
+- [45:24] have at your disposal, which are going
+- [45:26] to be everything around, you know,
+- [45:28] deleting and a few other tools. Let's go
+- [45:30] ahead and hop over to the next one. So,
+- [45:32] now we're into the delete tools part of
+- [45:34] this and I'm just going to show you how
+- [45:35] you can delete a document. So, if you
+- [45:37] accidentally uploaded something and you
+- [45:38] don't want it to be there anymore, or if
+- [45:40] you just have an updated version, I'm
+- [45:41] going to show you how you can delete it.
+- [45:42] And then after this, we're going to talk
+- [45:44] about how you can delete the corpus as a
+- [45:45] whole. So, let's dive into this one real
+- [45:47] fast because it's super straightforward.
+- [45:48] So, all we need to do is know the corpus
+- [45:50] name and the document ID. So, you need
+- [45:53] to know like, oh, I'm trying to delete
+- [45:54] the lead magnet or the uh not the lead
+- [45:57] magnet, but the PowerPoint that we just
+- [45:58] looked at week one. I'm going to show
+- [46:00] you how to delete it. So, we need that
+- [46:02] document ID. So, here's how we can do
+- [46:04] it. So, first things first, we're always
+- [46:06] going to check to make sure that we're
+- [46:07] in a valid corpus. From there, what's
+- [46:09] different about this one is we need to
+- [46:11] find the document ID. Now, at this
+- [46:14] point, we would probably couldn't just
+- [46:16] run this query right out the gate. we
+- [46:18] would have to at least do some sort of
+- [46:20] list documents first, then it could run
+- [46:22] it. Or the agent's usually pretty smart
+- [46:24] to where if you ask to delete this
+- [46:25] document, it'll go, "Hey, I don't have
+- [46:27] that information. Let me call list, then
+- [46:29] I'll run it." So the agent's actually
+- [46:30] pretty smart and can plan through steps
+- [46:32] like that. But long story short, we're
+- [46:33] just trying to get the document ID. Once
+- [46:35] we have that document ID, we can build
+- [46:36] up a full-on rag path, which has the
+- [46:39] like corpus name, files, document ID,
+- [46:41] cuz this is what we actually need to run
+- [46:43] delete. Once we call delete, what it
+- [46:45] will do is it will call delete file and
+- [46:48] it'll delete it. And it's pretty much
+- [46:50] straightforward as that. If we don't get
+- [46:52] back anything, we just know, yeah, if no
+- [46:54] errors were thrown, we know it deleted
+- [46:56] properly. So, let me show you this one
+- [46:58] in action. So, if we hop back over here,
+- [47:00] let me show you this. So, we're going to
+- [47:01] say, in our case, I'm going to say
+- [47:03] delete that
+- [47:05] document. And this will call the now
+- [47:08] delete document tool. And you can see it
+- [47:11] called it. it called specifically the
+- [47:13] document ID cuz it already had it which
+- [47:15] is pretty darn cool. So what I'm going
+- [47:17] to do just so you guys can see this tool
+- [47:18] in action. I'm going to add a new
+- [47:21] document and then we're going to go to a
+- [47:23] different page. So let's add that one
+- [47:25] back in. We're going to do copy link. So
+- [47:28] I'm going to start a new one. So I'm
+- [47:30] just going to show you this. So I'm
+- [47:31] going to say add in this document. And
+- [47:33] then what we're going to do oh sorry add
+- [47:35] in this document. So now what I'm going
+- [47:38] to do I'm going to let it add that
+- [47:39] document. We're gonna go over to a new
+- [47:41] session where it has no idea what we're
+- [47:43] talking about. And I'm gonna say delete
+- [47:44] the week one slide and see if it can
+- [47:46] handle it because, you know, maybe it
+- [47:48] can, maybe it can't, but I just want to
+- [47:49] show you guys the power of this agent.
+- [47:51] So adding data does take the longest. So
+- [47:52] I'm going to give it a second to create
+- [47:54] and once it's done adding data, I'm
+- [47:57] going to go ahead and type out the
+- [47:57] message so you can see it. So I'm going
+- [47:58] to say delete the week one
+- [48:02] presentation. So great, I have that
+- [48:05] ready. Great. It was saved to the right
+- [48:06] corpus. So I'm going to do a new
+- [48:08] session. So, we're going to say open the
+- [48:12] week one corpus because we have to be in
+- [48:14] the right corpus first. Sorry. Open my
+- [48:17] bad. Open
+- [48:19] the business corpus. My bad. From there,
+- [48:23] once that's selected, I can now say
+- [48:26] great. I can now say delete this
+- [48:28] information. And once we have that, I
+- [48:30] can run it. Yeah. So, it already had the
+- [48:32] ID. So, sometimes it gets a little too
+- [48:34] smart. We can try it again if you want.
+- [48:36] We'll try it again. We're hanging out
+- [48:37] together. So, I can just type in delete
+- [48:39] what one presentation. This time it'll
+- [48:41] probably throw an error because it's
+- [48:42] going to go, hey, which corpus the
+- [48:44] business
+- [48:46] does. And now it's going to go okay.
+- [48:48] Well, now that I know which corpus
+- [48:50] you've told me, I'm going to then start
+- [48:52] to plan out how I can do
+- [48:54] this it up by calling list
+- [49:00] documents. So, yeah. So, sometimes the
+- [49:02] agents are smart, sometimes agents
+- [49:04] aren't. You know, we could add and add
+- [49:05] in way more functionality to make this
+- [49:07] agent smarter to add in additional
+- [49:09] calls, but for right now, don't want to
+- [49:10] go too deep. So, you can see now it
+- [49:12] called the list, then it called the
+- [49:13] documents, then once it gets the corpus
+- [49:16] information, it now will have the ID.
+- [49:18] Now that it has the ID, it can delete
+- [49:19] it. So, you can see like the agent's
+- [49:21] actually thinking through the problem.
+- [49:22] So, hopefully that was a pretty cool
+- [49:23] demo of seeing that tool in action. So,
+- [49:26] now let's hop over to the final one
+- [49:27] where you're going to learn how to
+- [49:28] delete your corpus and not get charged
+- [49:29] for just existing random data staying in
+- [49:31] your vector store forever. So, here's
+- [49:33] the final tool that we're going to be
+- [49:34] showing for our rag agent today. And
+- [49:36] this one is pretty straightforward. All
+- [49:38] we're going to do is pass in the name of
+- [49:41] the corpus, a confirmation of like, yes,
+- [49:43] do you want to delete this document? And
+- [49:45] this one is super straightforward
+- [49:47] because all we need to do, like we've
+- [49:49] done every time, get the corpus name.
+- [49:51] Once we have the corpus name, we just
+- [49:52] call delete on it. And if things work
+- [49:54] great, we're just going to return things
+- [49:56] look great. We're also going to update
+- [49:57] our state to say, hey, this corpus no
+- [50:00] longer exists. So, we're just going to
+- [50:01] drop it from state and say, yep, that it
+- [50:04] is false, meaning it does not exist
+- [50:05] anymore. So, that is pretty much a super
+- [50:08] straightforward tool call. Now, I'd like
+- [50:09] to show you this in action. So, we're
+- [50:11] going to say delete the
+- [50:13] corpus. And at this point, what will
+- [50:16] happen is it will probably ask us for a
+- [50:19] question. Yeah. So, here's the one you
+- [50:20] want to delete. Do you want to confirm?
+- [50:23] Type in yes. So, I'm going to say yes.
+- [50:25] delete the
+- [50:27] corpus business corpus and from there it
+- [50:30] now that it has the confirmation it's
+- [50:32] going to go okay great I can now delete
+- [50:34] it it's going to call delete and it says
+- [50:36] it's done so if I rerun it and say hey
+- [50:39] what corpus do I have at this point we
+- [50:42] should expect the answer to be none
+- [50:44] because there are no longer anything in
+- [50:46] our vector stores so great so you guys
+- [50:48] have now mastered all the core
+- [50:50] functionalities of working with our
+- [50:52] different vector stores using vertex X
+- [50:54] AI. So, you're now a master of using
+- [50:56] their rag service. So, just as a recap,
+- [50:58] you guys are now experts at building rag
+- [51:01] agents with agent development kit. So,
+- [51:03] give yourself a pat on the back. And as
+- [51:04] a few quick reminders, you can download
+- [51:06] all the source code from today's video
+- [51:08] completely for free, click that link
+- [51:09] down description below. And if you need
+- [51:11] help on your AI projects or just have
+- [51:13] questions in general, definitely
+- [51:14] recommend checking out that free school
+- [51:15] community I've created for you guys as
+- [51:16] well. Also, if you're looking for more
+- [51:18] AI content just like this, I have a ton
+- [51:21] of amazing resources right here on this
+- [51:23] channel. Everything from an ADK crash
+- [51:25] course, lang chain crash course, crew AI
+- [51:27] crash course. If you need it, I pretty
+- [51:28] much have it right here on this channel
+- [51:29] and I definitely recommend checking it
+- [51:30] out. And I also recommend checking out
+- [51:32] whatever video is popping up right now
+- [51:34] from YouTube. But until the next time,
+- [51:35] can't wait to see you guys. Have a great
+- [51:37] day. See you.

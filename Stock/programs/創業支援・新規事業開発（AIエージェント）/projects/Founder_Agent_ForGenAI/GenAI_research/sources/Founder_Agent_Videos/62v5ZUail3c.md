@@ -1,0 +1,440 @@
+---
+title: "YouTube Video: 62v5ZUail3c"
+video_id: "62v5ZUail3c"
+video_url: "https://www.youtube.com/watch?v=62v5ZUail3c"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Technical"
+topics:
+  - "AI Agent"
+  - "Technical"
+summary: |
+  Looks like things are finally settling in and we're getting a much clearer picture of the new models that was just recently released like Google's Gemini 3.0 Pro and Enthropic Slade 4.5 Opus. Both are...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "AI Technical"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 62v5ZUail3c
+
+- URL: https://www.youtube.com/watch?v=62v5ZUail3c
+- Retrieved at: 2025-12-30T09:40:10+09:00
+
+## Text
+
+- [00:00] Looks like things are finally settling
+- [00:02] in and we're getting a much clearer
+- [00:04] picture of the new models that was just
+- [00:06] recently released like Google's Gemini
+- [00:08] 3.0 Pro and Enthropic Slade 4.5 Opus.
+- [00:12] Both are insanely powerful across a huge
+- [00:15] range of benchmarks. The Gemini 3.0 Pro
+- [00:18] by Google is their most intelligent
+- [00:20] model yet, and it's designed for complex
+- [00:22] reasoning, advanced multimodal tasks, as
+- [00:25] well as bringing creative concepts to
+- [00:27] life. It delivers state-of-the-art
+- [00:29] agentic coding performances as well as
+- [00:31] incredible results on terminal bench,
+- [00:33] live codebench, and various other coding
+- [00:36] benchmarks. It is paired with the 1
+- [00:38] million context window, and you've got a
+- [00:40] model that can handle a massive code
+- [00:42] base with ease with deep understanding,
+- [00:45] long context, reasoning, as well as
+- [00:47] strong coding capabilities all in one.
+- [00:50] But right after the Gemini 3.0 Pro
+- [00:52] release, Entropic fired back with a
+- [00:54] curveball with the launch of Cloud 4.5
+- [00:56] Opus, arguably the best coding model in
+- [00:59] the world right now. This thing is a
+- [01:01] monster for coding agents and rural
+- [01:03] computer use. It's also significantly
+- [01:05] better at everyday tasks like deep
+- [01:07] research, document analysis, working
+- [01:10] with spreadsheets, and creating polished
+- [01:12] slide decks thanks to its agenda
+- [01:13] capabilities. And the numbers speak for
+- [01:15] themselves. It hit a state-of-the-art
+- [01:18] 80.9 percentage on the Swaybench
+- [01:20] verified, which is just insane. But
+- [01:23] here's the interesting thing. Even
+- [01:24] though both Gemini 3.0 Pro and Cloud 4.5
+- [01:28] Opus are incredible, they lack something
+- [01:30] that the other model nails. To
+- [01:32] illustrate this, just take a look at
+- [01:34] this comparison test. A benchmark across
+- [01:36] three different coding challenges where
+- [01:38] it tested Gemini 3.0 versus the Cloud
+- [01:40] 4.5 Opus inside Kilo Code. This is a
+- [01:44] Python rate limiter prompt which is a
+- [01:47] strict prompt adurance. It's a test that
+- [01:50] had 10 rigged requirements. Exact class
+- [01:52] names, exact error messages, exact
+- [01:55] method signatures, zero creativity
+- [01:57] allowed. And the results showed that the
+- [02:00] Gemini 3.0 Pro followed the prompt
+- [02:02] literally. It was clean, minimal,
+- [02:05] correct with its implementation. There
+- [02:07] was no extra features, no supplements,
+- [02:09] no assumptions, and it delivered exactly
+- [02:12] what was asked for. nothing more and
+- [02:14] nothing less. It scored the highest for
+- [02:16] the strict prompt adherance. Now, if you
+- [02:18] were to compare the results of the Opus
+- [02:21] 4.5, it stayed close to the spec with
+- [02:24] clean code and better documentation,
+- [02:26] slightly more verbose than Gemini, but
+- [02:29] it lost the point due to a tiny naming
+- [02:31] mismatch with the tokens as well as the
+- [02:33] current tokens. It came second place
+- [02:36] very close behind Gemini in this
+- [02:38] particular case, and it costed a bit
+- [02:40] more. The takeaway with this clear
+- [02:42] comparison was that if you want just to
+- [02:45] get the exact instructions, Gemini is
+- [02:47] the most obedient model you can use. If
+- [02:49] you want to follow the instructions but
+- [02:51] write it nicely, Opus gives a more
+- [02:54] polished code that was generated in this
+- [02:56] case. The second comparison test was a
+- [02:58] TypeScript API refrarator. It was
+- [03:01] provided a 365 line messy legacy API
+- [03:05] with vulnerabilities, inconsistent
+- [03:07] naming, missing validation, and unsafe
+- [03:10] queries. The task was to refractor
+- [03:12] completely, fix everything, and
+- [03:14] implement 10 architectural
+- [03:17] requirements. And in this case, the
+- [03:19] cloud 4.5 opus was perfect where it
+- [03:22] scored a 10 out of 10. The only model to
+- [03:25] actually catch all the required fixes.
+- [03:27] It was the only one to actually
+- [03:29] implement the rate limiting which was
+- [03:31] explicitly required. It used environment
+- [03:33] variables for secrets, added prompt and
+- [03:36] proper error hierarchies. It also
+- [03:39] included every architectural component
+- [03:41] that was asked for and it was the most
+- [03:43] complete refrator that was seen in this
+- [03:46] particular case. But if you were to
+- [03:48] compare it with the Gemini 3.0 Pro, it
+- [03:50] was solid but missed deeper issues and
+- [03:52] it scored an 8 out of 10 with its
+- [03:55] overall score. It was a clean output but
+- [03:57] minimal interpretation. Missed some
+- [04:00] deeper vulnerabilities and architectural
+- [04:02] flaws and it understood the transactions
+- [04:04] that were needed but didn't actually
+- [04:06] implement them which was surprising and
+- [04:08] it didn't implement rate limiting at all
+- [04:10] which was a cure requirement that was
+- [04:12] set. But overall it is good at surface
+- [04:15] level refratoring but weaker on full
+- [04:18] system corrections. Gemini is great for
+- [04:21] fast, clean rewrites and Claude is in
+- [04:24] this case far better at deeper
+- [04:26] architecture, security and complete
+- [04:28] implementation. And the last test is
+- [04:30] focused on notification systems and
+- [04:33] understanding the actual system feature
+- [04:36] buildout. This is where it was provided
+- [04:38] 400 lines of code with web hooks and SMS
+- [04:42] support and it asked the models to first
+- [04:44] explain the existing architecture with
+- [04:46] the ask mode and then the second
+- [04:48] requirement was to add a full email
+- [04:51] handler with the code mode. This tests
+- [04:53] the system comprehension plus the
+- [04:55] ability to extend the existing
+- [04:57] architecture and the results were pretty
+- [05:00] expected where the cloud 4.5 opus
+- [05:03] focused on the fastest and most complete
+- [05:05] output where it finished it in one
+- [05:07] minute with the most thorough
+- [05:08] implementation and it added templates
+- [05:10] for all seven notification events. It
+- [05:13] delivered the runtime template
+- [05:14] management error hierarchies as well as
+- [05:17] fully aligning architecture. It was
+- [05:19] extremely high with its system awareness
+- [05:21] and with the comparison to the Gemini
+- [05:23] 3.0 Pro, it was minimal but it was
+- [05:26] functional and it performed the task a
+- [05:28] bit uh cheaper. It was able to actually
+- [05:31] add a working email handler which was
+- [05:34] simpler which is better than the output
+- [05:36] that we saw from the cloud opus 4.5. No
+- [05:39] attachments, no CC or BCC. It assumed
+- [05:42] the payload always contains the email
+- [05:44] and the only implementation template for
+- [05:47] few lines of code. Now overall it did
+- [05:52] seem like Gemini produced the minimal
+- [05:54] workable version but Claude was able to
+- [05:56] produce a complete production ready
+- [05:58] fully featured system. In short this is
+- [06:01] just a small test that will extensively
+- [06:03] test these two models on different
+- [06:05] domains. And yes, Gemini also does
+- [06:08] better at front-end tasks, especially
+- [06:10] when the goal is clean UI, but you were
+- [06:13] able to see that Claude 4.5 does really
+- [06:16] good for egentic workflows inside real
+- [06:18] coding environments. It's best for full
+- [06:21] system reasoning and end-to-end feature
+- [06:23] builds. It doesn't have more verbose or
+- [06:26] it doesn't add any extra abstractions
+- [06:28] like Gemini does, but it is something
+- [06:30] that's strong in different domains like
+- [06:32] refractoring as well as security
+- [06:34] awareness. Now, the Gemini 3.0 Pro, on
+- [06:37] the other hand, is extremely fast. It's
+- [06:39] minimal and it's precise. It follows
+- [06:41] instructions word to word. It's cheaper
+- [06:43] than the Cloud Opus 4.5. It's great for
+- [06:45] front-end and clean implementation, but
+- [06:47] it misses deeper architecture. It often
+- [06:50] produces just enough solutions, and it
+- [06:52] doesn't go over and beyond. But what if
+- [06:55] you were to combine these two together?
+- [06:58] Inside Kilo Code, you can actually
+- [06:59] combine the Gemini 3.0 Pro as well as
+- [07:02] Cloud 4.5 Opus into a single workflow,
+- [07:05] letting each model handle the task it's
+- [07:08] best at. Because when you pair Gemini's
+- [07:10] fast, clean front-end generation with
+- [07:12] Claude's deep back-end reasoning and
+- [07:14] architecture, you're essentially
+- [07:16] building a dual engine coding system
+- [07:18] that produces higher quality apps,
+- [07:21] higher quality code than either model
+- [07:23] could do alone. Now let's break down
+- [07:26] exactly what we can actually do by
+- [07:28] combining these two within Kilo code and
+- [07:30] how both of them be can become a
+- [07:32] specialized engineer that you can work
+- [07:34] with in one single environment. Now to
+- [07:37] get started you can simply go ahead and
+- [07:39] open up VS Code. I particularly like
+- [07:42] using Kilo code cuz it is an open-source
+- [07:45] better alternative than Klein and it
+- [07:47] functions a lot better and you can
+- [07:49] easily get started completely for free
+- [07:51] cuz they also offer free credits. So you
+- [07:53] can install it for whatever ID you want
+- [07:55] and you can just simply install it from
+- [07:57] the extension store by simply going
+- [07:59] ahead and searching up Kilo and then you
+- [08:02] can go ahead and install this and then
+- [08:04] you will be able to access it on the
+- [08:06] left hand panel. What you can do next is
+- [08:08] select the model of your choice. Now, in
+- [08:11] this case, what I'm going to be doing to
+- [08:13] showcase the best optimal coding
+- [08:15] experience is having Cloud 4.5 Opus for
+- [08:19] all planning and architecture needs. So,
+- [08:22] what you want to do first is head over
+- [08:23] to settings. And the reason why is cuz
+- [08:26] we're going to be setting up the
+- [08:27] ultimate workflow where you can use
+- [08:29] these two models in different cases when
+- [08:32] you're working with Kilo Code, the AI
+- [08:34] agent. What you want to do first is
+- [08:36] configure your first profile. You want
+- [08:38] to click on add profile. You can give it
+- [08:40] a name. I'm going to be naming this
+- [08:42] opus. We're going to create that
+- [08:43] profile. And what we want to do is
+- [08:46] obviously select the provider that you
+- [08:47] want to use. I'm using kilo. And then I
+- [08:50] want to select the opus 4.5. And now
+- [08:53] what you want to do is also enable
+- [08:55] reasoning and change the verbosity to
+- [08:58] high. Then in the same manner you want
+- [09:00] to add another profile for the Gemini
+- [09:02] model. You want to create this profile.
+- [09:04] Then provide your API provider and then
+- [09:06] select the Gemini 3 Pro preview. Then
+- [09:09] you want to change the reasoning effort
+- [09:11] to high and then you are basically set
+- [09:14] and ready to go. You can then click
+- [09:16] save. And now we can work with the kilo
+- [09:18] code agent. In essence, you want to
+- [09:20] first select the architect mode, the
+- [09:23] planning mode. This is a specific mode
+- [09:25] built within kilo code which is going to
+- [09:27] help you plan and design better with the
+- [09:30] cloud 4.5 opus. So you want to select
+- [09:32] the opus profile that we have already
+- [09:34] set where we're going to be using it for
+- [09:37] all planning and architecture needs
+- [09:39] because it's going to break down tasks
+- [09:41] designs for systems catching errors
+- [09:44] issues and thinking long term cuz it
+- [09:46] does that better than the Gemini model.
+- [09:48] Then when it comes to coding we can then
+- [09:50] switch over to the coding mode and then
+- [09:52] we can choose the Gemini profile. This
+- [09:55] is where the Gemini model will be uh
+- [09:58] essentially the coding executor because
+- [10:00] it follows instructions perfectly. It
+- [10:02] writes minimal and clean code, handles
+- [10:04] front end and UI task extremely well and
+- [10:07] we can have it so that both of these two
+- [10:09] different profiles can work together and
+- [10:11] it can work on building out the best
+- [10:14] outcome for the code that you're looking
+- [10:16] for. So I can start off by giving the
+- [10:18] system prompt for the plan that I want
+- [10:21] the cloud model to actually generate for
+- [10:24] this app that I'm trying to create,
+- [10:25] which is a task manager with a smart
+- [10:28] prioritization feature where you can add
+- [10:30] tasks, upload documents, and use an AI
+- [10:33] to extract key tasks and priorities. We
+- [10:36] wanted to work on building out the
+- [10:38] back-end system and then have Gemini
+- [10:40] work on building the code. So now what I
+- [10:43] can do is select the architect mode and
+- [10:45] then select the opus profile and then
+- [10:47] have it work on generating the actual
+- [10:50] plan. So you can see that it is going to
+- [10:52] rapidly work on thoroughly building out
+- [10:54] the plan structure. And this is
+- [10:56] something that Claude does best at.
+- [10:58] Looks like it has finished developing
+- [11:00] the plan. And what we can also do is we
+- [11:03] can even use the opus model in certain
+- [11:05] cases to code functions for our app.
+- [11:07] It's just a bit more expensive, but it
+- [11:10] does a better job in using tools better
+- [11:12] than previous models. And now you can
+- [11:15] switch over to the code mode. And then
+- [11:16] you can select the Gemini profile. And
+- [11:19] you can give it the prompt to now
+- [11:20] implement the overall plan that Claude
+- [11:23] had generated. And it is going to work
+- [11:25] systematically to work on implementing
+- [11:28] that plan using the code generation
+- [11:30] capabilities of the Gemini model. So you
+- [11:32] can send in this prompt and it's going
+- [11:33] to work on building out that overall
+- [11:35] component of the AI task manager with
+- [11:37] the plan that was built. Now what you
+- [11:40] can also do is switch between different
+- [11:42] profiles. You can actually set this up
+- [11:44] within the settings so that it could
+- [11:45] actually switch profiles so that it
+- [11:48] could use the capabilities of both
+- [11:50] profiles in certain cases based off the
+- [11:52] prompt that you sent in cuz both models
+- [11:55] have their own benefits and we want
+- [11:58] Gemini to be used for implementation and
+- [12:00] cloud to be used for reviewing as well
+- [12:02] as debugging. So you can have it so that
+- [12:05] it could work on the debugging process
+- [12:07] and use its code generation capabilities
+- [12:10] for that particular use case. And there
+- [12:13] we go. Just take a look at this. It was
+- [12:15] able to implement that full plan that
+- [12:17] the Opus architect mode was able to
+- [12:20] generate and the Gemini model was able
+- [12:22] to code out all the components that was
+- [12:24] necessary for this app to be functional.
+- [12:27] And it took approximately $2 to do this.
+- [12:29] So you can see it is drastically cheaper
+- [12:31] than having Gemini just work on the
+- [12:33] whole process on its own. And it
+- [12:35] definitely looks a lot better than
+- [12:36] having Opus generate all the components
+- [12:38] cuz this is the UI of the task
+- [12:41] management app. You can see that it is
+- [12:44] something that it built and it is a way
+- [12:47] for you to prioritize smarter where you
+- [12:50] can add, edit and delete different
+- [12:52] tasks. You can add in any of your tasks
+- [12:55] like adding a homepage and then you can
+- [12:58] add a priority, add a tag. So we can say
+- [13:01] something like coding here and then add
+- [13:04] a description for the task and you can
+- [13:05] create it. And this is the overall task
+- [13:08] that has been generated. Here is the
+- [13:10] functional uh canban board that has been
+- [13:13] generated. You can edit these
+- [13:14] components. You have different board
+- [13:17] views as well. You have your profile.
+- [13:19] But one thing you can also do is you can
+- [13:21] start smart extraction which is an AI
+- [13:24] feature I had told it to generate. So
+- [13:27] I'm going to go ahead and upload a file.
+- [13:29] So I've gone ahead. I have uploaded a
+- [13:32] large file and I can have it extract all
+- [13:34] the tasks. So it is analyzing it and it
+- [13:38] is something that's powered by the
+- [13:39] Gemini AI model and it is going to then
+- [13:43] analyze all those tasks and display it
+- [13:45] on our task board. So you can see that
+- [13:48] it was able to review the data scraping
+- [13:50] reliability task, the investigating the
+- [13:53] missing company analysis as well as
+- [13:56] fixing the summary report generation
+- [13:58] input. It also gave it a tag and added
+- [14:01] the description. This is a simple app
+- [14:03] that it was able to generate, but it is
+- [14:05] something that has zero flaws, zero
+- [14:08] bugs, cuz it was able to thoroughly
+- [14:09] debug it and code out all the components
+- [14:12] that we had the Opus model implement.
+- [14:14] With this combination, we were able to
+- [14:16] get one of the most cheapest and best
+- [14:19] generations with this combination. If
+- [14:21] you like this video and would love to
+- [14:23] support the channel, you can consider
+- [14:25] donating to my channel through the super
+- [14:27] thanks option below. Or you can consider
+- [14:29] joining our private Discord where you
+- [14:31] can access multiple subscriptions to
+- [14:33] different AI tools for free on a monthly
+- [14:36] basis, plus daily AI news and exclusive
+- [14:39] content, plus a lot more. This is the
+- [14:41] capability of Claude Opus 4.5 being
+- [14:44] combined with Gemini 3 Pro and you're
+- [14:46] going to be able to get a dual model
+- [14:49] workflow that's perfect for coding
+- [14:51] purposes. I'll leave all these links in
+- [14:53] the description below so that you get a
+- [14:54] better understanding of how they
+- [14:57] benchmark these two models in different
+- [14:59] cases as well as how you can easily get
+- [15:01] started with Kilo Code with these two
+- [15:03] amazing models. This is something that I
+- [15:05] highly recommend and it's something that
+- [15:07] you should even try out just to see if
+- [15:09] it fits your needs and it's something if
+- [15:12] could get you uh definitely elevating
+- [15:15] your workflow if you were to implement.
+- [15:17] But with that thought guys, thank you
+- [15:18] guys so much for watching. Make sure you
+- [15:19] go ahead and subscribe to the second
+- [15:21] channel. Make sure you go ahead and join
+- [15:23] the newsletter, join our Discord, follow
+- [15:25] me on Twitter. Lastly, make sure you
+- [15:26] guys subscribe, turn on notification
+- [15:27] bell, like this video, and please take a
+- [15:29] look at our previous videos cuz there's
+- [15:30] a lot of content that you will truly
+- [15:32] benefit from. But with that thought,
+- [15:33] guys, have an amazing day. Spread
+- [15:35] positivity and I'll see you guys really
+- [15:36] shortly.

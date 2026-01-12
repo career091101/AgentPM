@@ -1,0 +1,410 @@
+---
+title: "YouTube Video: -WB0T0XmDrY"
+video_id: "-WB0T0XmDrY"
+video_url: "https://www.youtube.com/watch?v=-WB0T0XmDrY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Startup"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  This video is brought to you by Squarespace. What if you could integrate GPT4 right into your Python app and make it aware of your business logic, your data, and your models? Today, I'll show you exac...
+key_points:
+  - "Let's dive in. First, what is Pyantic"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: -WB0T0XmDrY
+
+- URL: https://www.youtube.com/watch?v=-WB0T0XmDrY
+- Retrieved at: 2025-12-30T09:16:12+09:00
+
+## Text
+
+- [00:00] This video is brought to you by
+- [00:02] Squarespace. What if you could integrate
+- [00:04] GPT4 right into your Python app and make
+- [00:08] it aware of your business logic, your
+- [00:10] data, and your models? Today, I'll show
+- [00:12] you exactly how to do this with Pantic
+- [00:15] AI, a really nice toolkit that connects
+- [00:18] AI with real Python code. And don't
+- [00:20] worry, it's not just theoretical. I'll
+- [00:22] walk you through an actual example.
+- [00:24] Let's dive in. First, what is Pyantic
+- [00:26] AI? It's basically an extension of
+- [00:28] paidantic that helps you build AI
+- [00:31] powered agents. These agents can use
+- [00:34] your domain data models. They can access
+- [00:37] dependencies like databases or APIs and
+- [00:40] they can return structured outputs with
+- [00:43] validation. Thus, the Pantic extension.
+- [00:46] So, an agent in that sense is an LLM
+- [00:48] that's aware of your business context.
+- [00:51] And Pentic AI integrates with popular
+- [00:54] models including GPT4. Why is this
+- [00:56] helpful? Well, if you're just using a
+- [00:58] chatbot directly, then you're going to
+- [01:00] get unstructured text back, which is
+- [01:03] going to be hard to deal with in
+- [01:05] production systems. And what Pedantici
+- [01:07] adds is that you have type safe outputs
+- [01:10] that are validated by Pantic. You have a
+- [01:12] clean way to inject uh contextual
+- [01:14] dependencies like a database for
+- [01:17] example, and you also have the ability
+- [01:19] to define tools, custom functions that
+- [01:21] the agent can call. And this helps you
+- [01:24] build AI systems that go beyond just
+- [01:26] being simple chat bots. So let's take a
+- [01:28] look at a concrete example in
+- [01:30] healthcare. That being said, I'm not a
+- [01:32] doctor. I don't recommend you actually
+- [01:34] start using this in your hospital, but
+- [01:37] theoretically this is possible. Let's
+- [01:39] say you're building a triage system that
+- [01:42] helps nurses respond to patient
+- [01:45] questions. So here is the starting point
+- [01:47] of this example. It doesn't use any AI.
+- [01:50] So as you can see, I'm using async.io
+- [01:52] because well why not it's helpful if
+- [01:54] we're sending requests to an API I'm
+- [01:57] using a data class to uh represent a
+- [01:59] mock database I'm importing environment
+- [02:02] variables from aend file in this case
+- [02:04] this contains my open AAI API key I'm
+- [02:07] not going to show you that file but then
+- [02:09] I have a simple mock database very basic
+- [02:12] it has a patient class using a data
+- [02:14] class for that one a patient has an ID a
+- [02:17] name and vital which is a dictionary of
+- [02:20] strings to whatever. I'm not saying that
+- [02:23] this is how you should model patients,
+- [02:24] but it's a simple example. Then I have
+- [02:26] my database, which is nothing more than
+- [02:30] a dictionary that has two patients with
+- [02:33] uh each an ID, a name, and some vitals.
+- [02:36] Then I have a helper class that helps me
+- [02:38] access some of that data. So here, given
+- [02:41] an ID, this is going to give me the name
+- [02:43] of the patient, and this method gives
+- [02:45] the latest vital of a patient by ID.
+- [02:49] Extremely basic, of course. If you have
+- [02:51] an actual database, you would fill this
+- [02:53] with way more information. You'd have
+- [02:55] way more capabilities here. It's just a
+- [02:56] basic example. And the only thing I have
+- [02:58] now is a main function that creates a
+- [03:00] database connection and gets a patient
+- [03:03] name and vitals and then prints that.
+- [03:06] So when I run this, then this is what we
+- [03:08] get. Very basic, right? So now as the
+- [03:10] first step, let's set up a bit of
+- [03:12] scaffolding for our agent. One thing
+- [03:15] that we're going to need is some class
+- [03:17] that represents the things that the the
+- [03:19] agent depends on. Let's call that triage
+- [03:22] dependencies.
+- [03:25] And for simplicity, I'm going to use a
+- [03:27] data platform.
+- [03:30] And what we're going to need is a
+- [03:33] patient ID. And we're also going to need
+- [03:36] a database connection, right? So that
+- [03:38] for any patient, we can access then the
+- [03:42] database and do something with it. So
+- [03:44] that's what the agent is going to be
+- [03:46] dependent on. Next, we're also going to
+- [03:49] need to decide what the output of the
+- [03:50] agent should look like. So that's going
+- [03:53] to be triage output. Not sure why it's
+- [03:57] indented here. And since we're using
+- [03:59] Pyantic AI, this is where we should rely
+- [04:02] on Pyantics base model.
+- [04:09] And of course, we're going to need to
+- [04:11] import that. So what the output is going
+- [04:13] to be actually AI already sort of
+- [04:16] indicates that here is that we're going
+- [04:18] to have a response text from the chat
+- [04:20] agent. We also need a boolean indicating
+- [04:24] whether or not this should be escalated
+- [04:26] and we're going to need to indicate the
+- [04:28] urgency as a number between 1 and 10. So
+- [04:31] these are the three things that we are
+- [04:34] going to need and we're going to use a
+- [04:36] field to give a bit more information
+- [04:39] about this. So in this case, the
+- [04:41] response text is going to be a field
+- [04:44] with a description
+- [04:47] and that's the response text for the
+- [04:49] triage. And maybe we can actually write
+- [04:51] that a bit clearer by saying this is a
+- [04:53] message to the actual patient
+- [04:56] like so. And then we can do the same
+- [04:59] thing for escalate and for urgency. So
+- [05:01] whether we should escalate this case and
+- [05:03] what the urgency level of this case is
+- [05:06] to a human nurse. Don't forget about the
+- [05:09] humans. AI. So now we have created our
+- [05:12] sort of context for the agent. So this
+- [05:14] is what the agent depends on which is
+- [05:16] the patient ID and a reference to a
+- [05:18] database connection and we defined what
+- [05:21] the agent should output response text
+- [05:23] whether to escalate and what the urgency
+- [05:25] is. Now before I show you how to create
+- [05:27] an agent, first want to take a minute to
+- [05:29] talk about today's sponsor, Squarespace.
+- [05:32] Squarespace is an all-in-one website
+- [05:34] platform designed to help you stand out
+- [05:36] and succeed online. Whether you're just
+- [05:38] starting out or scaling your business,
+- [05:40] it gives you everything you need to
+- [05:42] claim your domain, build a professional
+- [05:44] site, grow your brand, and get paid all
+- [05:46] in one place. I've used Squarespace
+- [05:48] myself to launch websites for my
+- [05:50] businesses. And as someone who builds
+- [05:52] software and teaches software design, I
+- [05:54] really appreciate tools that are
+- [05:55] thoughtfully designed and just work.
+- [05:58] It's really easy to get started by using
+- [06:00] Blueprint AI, which generates a fully
+- [06:02] custom website based on just a few
+- [06:04] prompts. There are a ton of templates
+- [06:06] that all look really good. After that,
+- [06:08] it's trivial to add sections or change
+- [06:10] the appearance to your liking and boom,
+- [06:12] you have a full professional website.
+- [06:15] Squarespace comes with integrated SEO
+- [06:17] tools, so you don't need to worry about
+- [06:19] optimizing meta descriptions or
+- [06:21] generating site maps. It handles all of
+- [06:23] that automatically. If you ever try to
+- [06:26] get a new dev blog or documentation site
+- [06:29] index properly, you know how frustrating
+- [06:31] that can be. With Squarespace, it's
+- [06:34] baked in. And with the built-in
+- [06:37] analytics dashboard, you can track
+- [06:39] traffic, engagement, and even revenue if
+- [06:41] you're selling something, or you can use
+- [06:43] to figure out what landing pages are
+- [06:45] working and what needs to be improved.
+- [06:48] Whether you're building a site to
+- [06:49] showcase your portfolio or launch a
+- [06:51] software as a service that you just
+- [06:53] vioded, Squarespace makes it incredibly
+- [06:56] easy. Head over to
+- [06:57] squarespace.com/ircodes
+- [07:00] for a free trial. And when you're ready
+- [07:01] to launch, use offer code iron codes to
+- [07:04] save 10% off your first purchase of a
+- [07:07] website or domain. Now, back to the
+- [07:10] video. Now, next thing that we're going
+- [07:12] to do is define an agent that uses GPT4
+- [07:15] that takes our dependencies and then
+- [07:17] returns a structured output. And we also
+- [07:21] need to supply it with a system prompt
+- [07:23] that explains the role of this
+- [07:24] particular agent, which is a triage
+- [07:26] assistant. So I'm going to create a
+- [07:29] triage agent
+- [07:33] which is an agent and that is actually
+- [07:35] something that we're going to need to
+- [07:36] import from paidantic AI.
+- [07:43] going to import the agent and then the
+- [07:46] agent is going to use the open AI GPT
+- [07:52] 40 model.
+- [07:57] We're going to need to supply the
+- [07:59] dependencies which is triage
+- [08:01] dependencies. We're going to need to
+- [08:03] specify the output type which is triage
+- [08:06] output and we're going to supply
+- [08:12] a system prompt.
+- [08:17] You are a triage assistant helping
+- [08:22] patients.
+- [08:25] I still can't type
+- [08:28] there.
+- [08:30] provide
+- [08:32] clear advice and assess urgency. There
+- [08:37] we go. That's our system prompts.
+- [08:40] I'm missing closing parenthesis. Oh
+- [08:44] yeah. Wow. Copilot even corrects my
+- [08:47] spelling. Very helpful. Okay. So, this
+- [08:49] is my agent. And now what you can do,
+- [08:52] let's change this main function here, is
+- [08:56] we can create the dependencies. So,
+- [08:58] we're going to do that for patient 42.
+- [09:01] And we have a database connection. And
+- [09:04] then we're going to get a result
+- [09:08] from the triage agent.
+- [09:13] And we can then specify a prompt supply
+- [09:18] dependencies. There we go.
+- [09:21] And then we can print the result.put.
+- [09:27] Something went wrong here with the
+- [09:28] parenthesis. I know if you also have
+- [09:30] that problem if you have these kind of
+- [09:32] editing AI kind of tools that they
+- [09:35] always screw up my parenthesis for some
+- [09:37] reason. Not sure why that happens. Okay,
+- [09:39] so now we're actually running the agent.
+- [09:42] And let's see what happens if we run the
+- [09:45] file again. So now you see we get back
+- [09:48] an object with a response text. We have
+- [09:51] escalate is false, urgency is two, which
+- [09:54] is probably right in this particular
+- [09:57] case. Seems like it's not very urgent,
+- [10:00] right? But the thing is, of course,
+- [10:02] that's it's not really using any of the
+- [10:05] patient information. Right? Now, before
+- [10:07] I show you how to make this more patient
+- [10:09] dependent, if you're enjoying this
+- [10:10] video, give it a like and subscribe to
+- [10:13] the channel. This is a small thing, but
+- [10:15] really helps and lets me keep making
+- [10:17] these types of videos. Now let's say we
+- [10:19] want to personalize this more to the
+- [10:22] patient instead of this very generic uh
+- [10:25] thing that we get here as a response. So
+- [10:28] what you can do then with the pyantic AI
+- [10:31] agents is you can add things like for
+- [10:34] example you can add a system prompt
+- [10:37] triage agent dot system prompt. So I'm
+- [10:41] going to use
+- [10:44] the system prompt decorator
+- [10:49] and then we're going to add the patient
+- [10:52] name and prompts in pantic AI they're
+- [10:54] going to get a context. So in this case
+- [10:56] that is a run context which well we need
+- [11:00] to import that from a pyantic AI
+- [11:05] like so. And run context is a generic
+- [11:08] type
+- [11:10] that gets dependencies like so.
+- [11:15] And this is going to return a name
+- [11:16] because we want the patient name of
+- [11:18] course.
+- [11:20] So then we get the patient name from the
+- [11:23] database providing the patient ID and
+- [11:26] then we can do is simply write the
+- [11:28] patient name.
+- [11:33] Patient name is like so. Now this is
+- [11:36] going to add this particular system
+- [11:38] prompt to our agent which is nice. And
+- [11:42] then what we can do in the agent for
+- [11:43] example is to also indicate always
+- [11:47] mention
+- [11:48] the patient name when available like so.
+- [11:51] So it's more personalized. So we're
+- [11:53] going to get generic advice but at least
+- [11:55] it's going to be uh personalized to you.
+- [11:58] So when I run this let's see what the
+- [12:00] response text is.
+- [12:03] There you go. John for your symptoms etc
+- [12:06] etc. So now it's personalized to the
+- [12:08] patient name because it uses the uh
+- [12:11] system prompt and adds it to my agent.
+- [12:14] So that's a really helpful tool. You can
+- [12:15] of course add more of these prompts if
+- [12:17] that's helpful and get uh useful
+- [12:20] information from the dependencies. Now
+- [12:22] instead of just getting data, you can
+- [12:24] also add tools. For example, calling a
+- [12:26] function that does something. So in this
+- [12:29] case, I'm going to keep it really simple
+- [12:32] and I'm just going to add a tool to get
+- [12:35] the latest vitals for a patient. Now
+- [12:37] this is simply a database request, but
+- [12:39] you can also imagine that the tool is
+- [12:41] actually I don't know augmenting some
+- [12:43] patient information in a database or or
+- [12:46] do basically whatever you want. But here
+- [12:48] I'm just going to get the latest vitals.
+- [12:51] So now when I run this again,
+- [12:54] it's going to take the latest vitals
+- [12:56] into account when creating the response.
+- [13:00] So as you can see, it now mentions the
+- [13:02] vital signs and the blood pressure.
+- [13:06] And if I change these things, so in this
+- [13:08] case, we're talking about John. Let's
+- [13:10] say I'm going to give John a heart rate
+- [13:13] of 30. It's not very high. and also like
+- [13:17] a very low blood pressure like so not
+- [13:22] sure if this is even realistic but just
+- [13:24] to see how it influences the result. So
+- [13:26] now you see that whereas in the previous
+- [13:28] responses we got uh escalate is false
+- [13:32] right we got that here and we got a
+- [13:34] pretty low urgency now even though the
+- [13:37] patient is saying the same thing it uses
+- [13:39] the information to actually change these
+- [13:41] values so now escalate is true so a
+- [13:44] nurse should take a look at this and the
+- [13:46] urgency is also higher so what's really
+- [13:48] cool about this is that you can combine
+- [13:50] LM reasoning with your domain knowledge
+- [13:54] the outputs you get are validated by
+- [13:58] Pyantic and they're structured so you
+- [14:00] can trust them and use them in other
+- [14:01] parts of your application. You can
+- [14:03] extend this agent by adding more tools
+- [14:05] or prompts or anything you like. And in
+- [14:08] my opinion, this is a big step in
+- [14:09] incorporating AI in your Python
+- [14:11] applications in a more useful way. Now,
+- [14:14] predentic AI's other possibilities as
+- [14:16] well. on particular graphs are kind of
+- [14:18] interesting. Although they say in the
+- [14:21] documentation themselves that well don't
+- [14:23] use it if you don't really need it
+- [14:24] because of course graphs can potentially
+- [14:27] complicate things. But they do mention
+- [14:29] different ways of organizing your agent
+- [14:32] workflows. So the one that I showed you
+- [14:34] today was a single agent workflow.
+- [14:36] That's also what most of the
+- [14:38] documentation shows. But you can also
+- [14:41] combine agents. For example, you could
+- [14:42] have one agent that then defines a tool
+- [14:46] that uses another agent. You can have an
+- [14:49] agent run something and then the
+- [14:51] application code could do something with
+- [14:54] the data or call another agent. Or you
+- [14:56] could go full on graph uh based control
+- [15:00] and then you can define these graphs
+- [15:02] with nodes and edges and make like a
+- [15:04] really complicated setup. But only do
+- [15:07] that if it actually uh adds something to
+- [15:09] your application. If you can use one of
+- [15:11] the simpler methods I mentioned just
+- [15:13] now, I think that overall is better. But
+- [15:16] I'd like to know what you think. Do you
+- [15:18] use pideantic AI? Could you see yourself
+- [15:20] using it in your own projects? Maybe in
+- [15:23] finance, healthcare, or something
+- [15:25] completely different. Let me know in the
+- [15:27] comments. Now, there are, of course,
+- [15:29] next to Pyantic AI a bunch of other
+- [15:32] libraries that are incredibly helpful to
+- [15:34] building stuff in Python. You probably
+- [15:36] already know quite a few of them like
+- [15:37] pandas or fast API. Now, if you want to
+- [15:40] learn about more libraries that are
+- [15:41] really helpful, but only few developers
+- [15:44] know about, check out this video next.

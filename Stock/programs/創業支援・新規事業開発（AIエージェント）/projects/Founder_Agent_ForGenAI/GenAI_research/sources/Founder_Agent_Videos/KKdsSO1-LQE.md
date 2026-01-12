@@ -1,0 +1,315 @@
+---
+title: "Okay, so OpenAI has just had their launch for ChatGpt Atlas and this is basically their launch of a browser or rather th"
+video_id: "KKdsSO1-LQE"
+video_url: "https://www.youtube.com/watch?v=KKdsSO1-LQE"
+speaker: "basically"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "LLM", "Technology", "Development"]
+topics: ["AI", "Agents", "LLM", "Technology", "Development"]
+summary: |
+  Okay, so OpenAI has just had their launch for ChatGpt Atlas and this is basically their launch of a browser or rather their reskinning of the Chromium browser from Google
+  They're not the first ones to do this
+  Earlier in the year, we had Perplexity do the same thing with Comet and they basically launched a browser with almost identical features to what we've seen come out today from OpenAI
+key_points:
+  - "thing with all of these is that they realize the power of a browser"
+  - "features that they basically put in here"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:29:37+09:00"
+---
+
+# Transcript: KKdsSO1-LQE
+
+- URL: https://www.youtube.com/watch?v=KKdsSO1-LQE
+- Retrieved at: 2025-12-30T10:29:37+09:00
+
+## Text
+
+- [00:00] Okay, so OpenAI has just had their
+- [00:03] launch for ChatGpt Atlas and this is
+- [00:07] basically their launch of a browser or
+- [00:10] rather their reskinning of the Chromium
+- [00:13] browser from Google. They're not the
+- [00:15] first ones to do this. Earlier in the
+- [00:18] year, we had Perplexity do the same
+- [00:20] thing with Comet and they basically
+- [00:21] launched a browser with almost identical
+- [00:24] features to what we've seen come out
+- [00:27] today from OpenAI. And I got to be
+- [00:30] honest that if anything I think perhaps
+- [00:32] the perplexity one is a little bit more
+- [00:35] interesting of where they're going and
+- [00:37] the kind of things that they're doing.
+- [00:39] But OpenAI is also following on from
+- [00:42] Anthropic launching as a Chrome
+- [00:45] extension about a month and a half ago.
+- [00:47] Now the key thing with all of these is
+- [00:50] that they realize the power of a
+- [00:51] browser. And don't be mistaken, we're
+- [00:54] seeing a battle for getting people to
+- [00:57] change their browser. And if you're
+- [00:59] going to get significant market share in
+- [01:01] this answer engine game, you need to
+- [01:04] have your own browser. You don't want to
+- [01:06] be having your users constantly
+- [01:08] accessing all your services through a
+- [01:11] Google Chrome browser. So both
+- [01:14] Perplexity and Chat Gvt have gone the
+- [01:17] way of using Chromium which makes the
+- [01:20] most sense rather than having to develop
+- [01:22] a browser from scratch. It gives them
+- [01:24] whole platform that they can make use of
+- [01:27] already. They can import all your
+- [01:28] bookmarks. They can do all that kind of
+- [01:30] thing. So let's go through the key
+- [01:32] features that they basically put in
+- [01:34] here. So the first thing is this now
+- [01:36] just becomes your default way to
+- [01:38] interact with chat GBT that it's there
+- [01:41] rather than you having to open a
+- [01:42] separate app or a tab in your browser.
+- [01:46] You've got this where you can actually
+- [01:47] use this. But more than this, they've
+- [01:50] rolled out what they're calling ask chat
+- [01:52] GPT. And this is where you can have a
+- [01:56] side popin where you can chat about the
+- [01:59] content that you've got on the page.
+- [02:01] Basically, it's just pulling in the
+- [02:03] content of the page as context. You can
+- [02:06] then just chat with it. This is not
+- [02:09] really that new. People have done Chrome
+- [02:11] extensions that have done this kind of
+- [02:13] thing. You can actually do more fancy
+- [02:15] stuff if you're doing a Chrome extension
+- [02:17] where you could have it customize
+- [02:19] exactly like what you want. You go to a
+- [02:21] page, it just automatically summarizes
+- [02:23] stuff. And I think that the sort of
+- [02:25] whole idea where this is going to really
+- [02:28] get some traction is around browser
+- [02:32] memory that if they've been watching you
+- [02:35] go to a whole bunch of different sites,
+- [02:37] they'll be able to remind you when you
+- [02:39] ask things like what was the site I was
+- [02:41] looking at yesterday that had an article
+- [02:43] like this. That's the kind of thing
+- [02:45] where this ask chat GBT and the browser
+- [02:48] memory stuff is going to become really
+- [02:50] powerful. The other big feature that
+- [02:52] they've introduced, similar to what
+- [02:55] Perplexity has done, is the whole idea
+- [02:57] of having an agent running for you. You
+- [03:00] can see in this example here that when
+- [03:03] you put it into agent mode, it has the
+- [03:05] ability to go off and find things for
+- [03:08] you and do tasks for you as well. Now,
+- [03:12] in my experience of testing it, I've
+- [03:14] found this to be sort of mixed on both
+- [03:17] ChatBT Atlas and Comet. Not to mention
+- [03:21] that on all of these services, this ends
+- [03:23] up being really slow and tedious if
+- [03:27] you're actually sitting there watching
+- [03:29] it do something. The last main feature
+- [03:31] that ChatgBT Atlas has actually launched
+- [03:34] with is this ability to just insert uh
+- [03:38] text wherever you are. They're calling
+- [03:40] this cursor chat. And this is basically
+- [03:43] inline text generation where you could
+- [03:45] say, "Okay, here's my email. please
+- [03:48] reply to this email for me. And I think
+- [03:50] this is something that a lot of people
+- [03:52] will like and actually could end up
+- [03:54] being the killer feature of this is that
+- [03:57] it's often a pain to copy something
+- [04:00] across to Chachi BT or Claude or Gemini,
+- [04:04] get the answer, and then copy it back.
+- [04:06] So having this very quick inline text
+- [04:09] generation where you can say, "Hey,
+- [04:11] write me a response to this email is
+- [04:14] probably going to be one of the key sort
+- [04:15] of features for this." Now, they do make
+- [04:18] the point that they've got a lot of
+- [04:20] security and privacy controls in here.
+- [04:24] So that you can allow Chachi PT to see
+- [04:27] things. You can actually run the agent
+- [04:29] tasks either logged in or not logged in.
+- [04:32] I do like that feature a lot. It does
+- [04:34] seem to be a cool thing they've added.
+- [04:36] My guess is that is probably enough to
+- [04:38] at least get people trying this out. So,
+- [04:41] you can see here they're constantly
+- [04:42] trying to reassure people that you're in
+- [04:44] control. You're the one who actually
+- [04:46] does this. So, like I mentioned, the
+- [04:48] browser itself is good. I did find it
+- [04:51] funny watching the launch that Samman
+- [04:54] talked about that this is just a great
+- [04:56] browser all round. It's smooth. It's
+- [04:58] very quick and nice to use. Well, that's
+- [05:02] not surprising because it basically is
+- [05:04] Chromium, right? It's the same core
+- [05:07] engine and system that is being used for
+- [05:11] most the browsers that are out there
+- [05:13] nowadays. Anyway, let's jump in and look
+- [05:16] at how you can get set up with this and
+- [05:17] have a quick play with it.
+- [05:20] Okay, to get started with Atlas, you can
+- [05:23] just come over to chatgpt.com/atlas
+- [05:27] and you'll be able to see here where you
+- [05:29] can download it. This is currently only
+- [05:31] available for MacOSS.
+- [05:34] It it's not available for Windows yet,
+- [05:36] but my guess is that we'll see it come
+- [05:38] along very soon. And it's also going to
+- [05:40] be really interesting to see how long
+- [05:41] before they have a mobile version of
+- [05:44] this as well. So in here, we can see the
+- [05:47] actual features. Agent is one of the big
+- [05:50] things that they're pushing in here.
+- [05:52] This seems to be using their same setup
+- [05:56] that they've done for agents before,
+- [05:59] like the computer use agents before,
+- [06:01] except now it's running locally on your
+- [06:04] machine as opposed to running on a
+- [06:06] machine in the cloud. Actually turns out
+- [06:08] to be a lot cheaper for OpenAI to do
+- [06:10] that. So that makes a lot of sense.
+- [06:12] Okay. Once you've got it installed, it's
+- [06:14] going to ask you, do you want to import
+- [06:16] data from another browser? I'm going to
+- [06:18] skip this. I don't want OpenAI sucking
+- [06:21] up all my browser information.
+- [06:25] And we can see that this is where the
+- [06:27] memory feature is really coming in,
+- [06:28] right? They're going to have things like
+- [06:30] where you can turn on browser memories,
+- [06:32] make your cursor a collaborator. I'm not
+- [06:35] going to set it as my default. It's
+- [06:36] interesting that if you do set it as
+- [06:38] your default browser, you boost your
+- [06:40] Chat GBT limits. As you can see, I'm now
+- [06:44] done. It's telling me I joined Chatyppt
+- [06:47] 1,200 days ago, which I think is more
+- [06:49] than 3 years and it's only been out for
+- [06:51] that. And I joined Atlas 2 minutes ago.
+- [06:54] All right, let's jump in and have a play
+- [06:56] with it. You can see that we could just
+- [06:58] do the normal sort of things of go to
+- [07:01] amazon.com.
+- [07:03] Here I'm going to have Amazon not liking
+- [07:06] the fact that I'm using a chat GPT
+- [07:07] browser. And then you can see I've got
+- [07:10] access to the sort of inline chatgpt
+- [07:13] here. I can ask it, okay, go and
+- [07:15] actually find something for me. Now, I
+- [07:19] didn't turn on the agent. So, you can
+- [07:21] see it's thinking about what to do. So,
+- [07:24] now it's asking me, okay, would I like
+- [07:26] to start using the agent? I'll say yes.
+- [07:28] And then now I've got this agent mode
+- [07:31] may introduce risks. This is obviously a
+- [07:33] key part of this. I'm going to start as
+- [07:35] logged out. Now, it's taking over my
+- [07:38] browser and using it in agent mode. And
+- [07:41] we can see that this because it's kind
+- [07:42] of running over the top of the actual
+- [07:45] browser as well. At any point I can take
+- [07:47] control or stop it. That said, I'd still
+- [07:51] be quite reluctant to use this with my
+- [07:53] credit card logged in etc. So one of the
+- [07:56] things with many of the agent browser or
+- [08:00] technically these are called sort of
+- [08:01] computer use agents is that they're very
+- [08:04] slow, right? You're sort of sitting
+- [08:06] around waiting for ages for them to be
+- [08:09] able to run things. So they're really
+- [08:11] the kind of thing that you want to just
+- [08:13] run in the background and then leave it.
+- [08:16] So we can see that it's gone off. It's
+- [08:18] found some stuff. Interestingly, it
+- [08:21] hasn't changed my browser window. So I
+- [08:24] can't see what it's actually found. And
+- [08:27] it doesn't look like I can click into
+- [08:30] the product or anything like that. Has
+- [08:32] it given me a new tab? No, it's just
+- [08:34] given me another Amazon tab. That one I
+- [08:37] would say is a bit of a fail. So you can
+- [08:39] see when we click into agent mode, we've
+- [08:42] got the ability to run that logged in or
+- [08:44] logged out. I do think that's a really
+- [08:46] cool thing they've put in here. On the
+- [08:48] whole, this is just more of the same
+- [08:52] stuff that we've seen. I'm not seeing
+- [08:54] anything hugely interesting. Okay, so
+- [08:56] I'm running it now in agent mode. I'm
+- [08:59] asking it to go and find out about the
+- [09:01] new James Bond movie. I'm curious to see
+- [09:03] like what can it actually find? Where
+- [09:05] does it look? That kind of thing. Don't
+- [09:07] forget there are a lot of sites now that
+- [09:10] are blocking OpenAI. So, how is that
+- [09:13] going to work? If you're using the
+- [09:15] OpenAI browser and you're trying to go
+- [09:19] to some of these sites, are we going to
+- [09:21] see that this browser is just not going
+- [09:24] to work on certain sites or not? Okay,
+- [09:28] we can see that it went off and did some
+- [09:30] stuff. Now, I didn't actually see where
+- [09:32] it went. So, it's come back with
+- [09:34] information. The information I think is
+- [09:37] probably okay. We've got some nice
+- [09:39] different citations. Really no different
+- [09:42] than what we would have in chatgpt.com.
+- [09:45] That is interesting. We can see if we
+- [09:48] click here the different search results.
+- [09:50] We can see different images really
+- [09:53] trying to basically just sort of become
+- [09:55] I guess a search engine in here. It is
+- [09:58] kind of funny that for videos everything
+- [10:00] seems to be pretty much YouTube most of
+- [10:01] the time. And we can see that, okay,
+- [10:04] they've gone and gotten some news
+- [10:07] results that relate to this in some way.
+- [10:09] So, just to finish up, this is clearly
+- [10:12] still very much early days with Atlas.
+- [10:15] I'm actually kind of surprised that they
+- [10:17] rush this out, but my guess is that over
+- [10:19] time we will see this get a lot better.
+- [10:22] If you don't have access to something
+- [10:24] like Claude Chrome or you don't have
+- [10:27] access to perplexity, etc. I know they
+- [10:30] were tightly controlling access. This is
+- [10:33] now open to pretty much everyone. And
+- [10:36] the agent stuff I think you need to have
+- [10:37] a paid account, but everything else you
+- [10:39] can use for free. It's going to be
+- [10:41] interesting to see, do people adopt this
+- [10:44] or not? And it's also going to be
+- [10:46] interesting to see between now and the
+- [10:48] end of the year, what is going to be
+- [10:50] Google's sort of answer to this. Are we
+- [10:53] going to see a lot of these kind of
+- [10:54] features just be automatically
+- [10:56] integrated into Chrome? Google obviously
+- [10:59] doesn't have the antitrust issues around
+- [11:02] Chrome now that they did perhaps a
+- [11:04] couple of months ago. So, let me know in
+- [11:06] the comments what you think. I'm kind of
+- [11:08] on the fence. I'm not sure I necessarily
+- [11:10] would be using this as my main browser
+- [11:12] dayto-day. I would like to see what else
+- [11:14] they're going to add to this to actually
+- [11:16] sort of empower it. It could be
+- [11:18] interesting to see how the computer use
+- [11:20] agents in this are actually working and
+- [11:23] be able to get a sense of what they're
+- [11:26] doing in there. if you're trying to
+- [11:27] build agents yourself, etc. Anyway, as
+- [11:30] always, if you found the video useful,
+- [11:32] please click like and subscribe, and I
+- [11:34] will talk to you in the next video. Bye
+- [11:35] for now.

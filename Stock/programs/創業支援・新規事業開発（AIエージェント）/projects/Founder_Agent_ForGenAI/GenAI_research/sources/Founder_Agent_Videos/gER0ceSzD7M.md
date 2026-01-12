@@ -1,0 +1,432 @@
+---
+title: "Hello all, my name is Krishna and welcome to my YouTube channel. So guys, uh just a day back OpenAI ..."
+video_id: "gER0ceSzD7M"
+video_url: "https://www.youtube.com/watch?v=gER0ceSzD7M"
+speaker: "Krishna"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Hello all, my name is Krishna and
+  welcome to my YouTube channel. So guys,
+  uh just a day back OpenAI has definitely
+key_points:
+  - "Hello all, my name is Krishna and"
+  - "recently and uh in this specific video"
+  - "open AI toolkit. Uh now in this specific"
+  - "of OpenAI toolkit we can create agents,"
+  - "we can automate workflows also. Okay. So"
+  - "please make sure that you watch this"
+  - "video till the end. Uh because this is"
+  - "that is the reason why I'm making this"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: gER0ceSzD7M
+
+- URL: https://www.youtube.com/watch?v=gER0ceSzD7M
+- Retrieved at: 2025-12-30T14:38:56+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] uh just a day back OpenAI has definitely
+- [00:08] made some of the amazing announcements
+- [00:10] recently and uh in this specific video
+- [00:13] I'm going to talk about that particular
+- [00:14] announcements along with that uh one
+- [00:17] specific announcement was related to
+- [00:19] open AI toolkit. Uh now in this specific
+- [00:22] video we'll see like how with the help
+- [00:24] of OpenAI toolkit we can create agents,
+- [00:27] we can automate workflows also. Okay. So
+- [00:30] please make sure that you watch this
+- [00:31] video till the end. Uh because this is
+- [00:33] something really good announcement. So
+- [00:35] that is the reason why I'm making this
+- [00:36] specific video. So over here recently
+- [00:39] you can see that open has also come up
+- [00:41] with Sora 2. U here some of the demos
+- [00:43] that I have actually seen along with
+- [00:46] audios and videos. It is far much better
+- [00:48] than Sora 1. Along with that open is
+- [00:51] also coming up with something called as
+- [00:53] introducing apps in chat GPT. Uh that
+- [00:56] basically means uh if you're using chat
+- [00:58] GPT you can use different kind of apps
+- [01:01] uh apps such as uh you know booking.com
+- [01:04] or Spotify or canva or figma and uh you
+- [01:07] can directly communicate with that
+- [01:08] particular app within your chat GPT
+- [01:10] itself right and this is also one
+- [01:13] amazing feature uh the best part about
+- [01:15] this particular feature will be that in
+- [01:16] the future let's say that if you are
+- [01:18] creating your app and you really want to
+- [01:20] integrate this in the chat GPT you also
+- [01:23] get some kind of revenue sharing so this
+- [01:25] is really really amazing in terms of
+- [01:27] earning uh definitely for companies and
+- [01:30] because at the end of the day you are
+- [01:32] able to integrate even with chat GPT and
+- [01:34] people are also using it in a very easy
+- [01:36] way. Uh there are some very basic
+- [01:38] guidelines how to create this particular
+- [01:40] apps and all which you can definitely go
+- [01:42] ahead and refer from the documentation.
+- [01:44] Okay. So this was the another
+- [01:46] announcements that you could see over
+- [01:47] here. Uh as I said the most amazing
+- [01:50] announcement was about uh agent toolkit.
+- [01:54] Um now how do you go ahead and access
+- [01:56] the agent toolkit with the help of agent
+- [01:58] builder. So open AAI has actually come
+- [02:00] up with something called as uh agent
+- [02:02] builder. So if you go ahead and search
+- [02:03] for open AI agent toolkit so here you'll
+- [02:07] be able to see that uh today we are
+- [02:09] launching agent kit a complete set of
+- [02:11] tools for developers and enterprise to
+- [02:13] build deploy and optimize agents. Okay,
+- [02:16] until now building agents meant juggling
+- [02:18] frame fragmented tools, complex
+- [02:20] orchestration with versioning, custom
+- [02:22] connectors, manual eval pipelines, there
+- [02:25] were so many things. But now with the
+- [02:27] help of this agent toolkit, uh agent
+- [02:29] kit, uh you should be very much easy to
+- [02:32] probably create the entire workflow. So
+- [02:34] I was just saying agent toolkit, it
+- [02:36] should be agent kit. Okay. So let me go
+- [02:38] ahead and show you some kind of demo for
+- [02:39] this. So I will go ahead and click on
+- [02:41] open agent builder. So this is uh what
+- [02:43] is the agent builder looks like. Uh here
+- [02:45] you can just go ahead and do drag and
+- [02:47] drop and you can actually go ahead and
+- [02:49] create it. There are also some templates
+- [02:51] that are available which you can
+- [02:52] actually directly use it like internal
+- [02:54] knowledge assistant. So let me just show
+- [02:56] you this uh it may be internal knowledge
+- [02:58] assistant document comparison structured
+- [03:00] data planner helper customer service and
+- [03:02] all. But here uh just to give you a
+- [03:04] brief idea I will try to create
+- [03:06] everything from scratch. So this is how
+- [03:08] the agent workflow looks like. I have
+- [03:11] start I have agent. So if once I click
+- [03:13] on this particular agent you can see
+- [03:15] that hey uh this is what my agent looks
+- [03:17] like you know um here you have some kind
+- [03:19] of prompts which you can give you can
+- [03:20] give the model which needs to use
+- [03:23] reasoning effort you can also go ahead
+- [03:24] and add tools output format like how do
+- [03:26] you want the output and here you still
+- [03:29] have more parameters like verbosity and
+- [03:31] all which you can actually play with it.
+- [03:32] Okay so here uh let's say that I'm going
+- [03:35] to probably go ahead and uh create a
+- [03:37] basic use case. So let's say this is my
+- [03:39] query classifier. So let's say that if
+- [03:41] I'm saying hey write a blog on this
+- [03:44] particular topic right so definitely I'm
+- [03:46] saying that I really require a blog
+- [03:48] right so I want to probably create a
+- [03:50] blog if I go ahead and write write a
+- [03:52] article on this specific topic then that
+- [03:55] group should be or that classification
+- [03:57] should be with respect to the article
+- [03:58] right so here what I'm doing is that
+- [04:00] I'll just say hey I'll give this name as
+- [04:02] this agent as my query classifier I'll
+- [04:04] say you are a helpful uh assistant and
+- [04:07] then I will go ahead and give some kind
+- [04:09] of prompt over here you need to classify
+- [04:11] the query query whatever query that I'm
+- [04:14] actually specifically getting as blog or
+- [04:16] article right now the thing is that how
+- [04:18] do I go ahead and add the context
+- [04:20] because the query if I see from this
+- [04:22] start button it is basically coming in
+- [04:24] input
+- [04:26] test so can I go ahead and ask add this
+- [04:29] as a context so here you have an option
+- [04:31] of adding a context you can go ahead and
+- [04:33] just add this over here okay so I will
+- [04:37] just go ahead and do this and I will go
+- [04:38] ahead and write something like this as
+- [04:40] blog or article right so I'm just saying
+- [04:41] that hey you need to classify this
+- [04:43] particular query that we have given
+- [04:45] right as blog or article because if I
+- [04:48] say hey write a blog on this particular
+- [04:50] topic then automatically this should
+- [04:51] happen right so this is there and I
+- [04:54] think uh this is also working fine over
+- [04:56] here otherwise if you don't want to go
+- [04:57] ahead and write it you can also remove
+- [04:59] it because since this two nodes are
+- [05:01] interconnected it should work fine then
+- [05:04] I have selected the model GPD5 let this
+- [05:06] keep as a basic thing I don't have to
+- [05:09] probably make any changes. Okay. So this
+- [05:11] is my first agent that I' have actually
+- [05:13] created. Now the thing is that uh from
+- [05:16] this I know either I will be getting
+- [05:17] blog or article. So if it is a blog I
+- [05:20] need to probably go ahead and create a
+- [05:21] different agent which can do that
+- [05:22] specific task. So here you'll be able to
+- [05:24] see in the left hand side you have lot
+- [05:26] of logics kind of conditions which you
+- [05:29] can apply in this right. So let's say if
+- [05:31] I want to go ahead and use if else right
+- [05:33] now inside this if else you know I will
+- [05:35] just go ahead and write over here
+- [05:37] something like query classifier. So
+- [05:38] let's say this is my field name. I'm
+- [05:40] providing it. I'm saying that hey inside
+- [05:42] this if the input text is double equal
+- [05:45] to okay if if it is double equal to blog
+- [05:48] because uh sorry it should not be input
+- [05:50] text it should be output text. Okay so
+- [05:52] output text of this. So let me first of
+- [05:54] all connect this. Okay so here what I
+- [05:56] will do I will connect this to this.
+- [05:58] Okay now once I connect this that
+- [06:01] basically means this output is basically
+- [06:02] coming over here. Now I can probably go
+- [06:05] ahead and write a condition. Now what
+- [06:07] condition? I will specifically write
+- [06:08] over here. You just think over it. Okay.
+- [06:10] Uh so do I need to probably go ahead and
+- [06:13] say input? See here you can see output
+- [06:16] text and input as a text. This output
+- [06:18] text is basically coming from the query
+- [06:20] classifier. Right? And workflow input is
+- [06:22] basically coming over here. So I will go
+- [06:23] ahead and put this particular condition
+- [06:25] if input.output text is double equal to
+- [06:28] and I'll go ahead and write blog. Right?
+- [06:30] So this is a simple condition that I
+- [06:31] have given over here. Right? So once I
+- [06:34] write this particular condition so now
+- [06:35] what I'm doing is that for this
+- [06:37] particular condition I will go ahead and
+- [06:38] add this particular agent and I'll
+- [06:40] connect this to this. So saying that if
+- [06:42] this is true then it should basically be
+- [06:44] handled by this particular agent. Now
+- [06:46] this agent I can go ahead and write it
+- [06:47] as blog agent right and inside this I
+- [06:50] can go ahead and write my own condition
+- [06:52] saying that hey um you are a helpful
+- [06:55] assistant let's say helpful assistant
+- [06:59] okay write a detailed
+- [07:04] thousand words blog
+- [07:08] for the topic
+- [07:10] for the topic and here I can go ahead
+- [07:13] and add my own context my context text
+- [07:15] will be specifically like workflow as
+- [07:18] input as the text. So I can basically go
+- [07:20] it go and give it over here. Right? Now
+- [07:23] once I add this particular context that
+- [07:24] basically means this is basically being
+- [07:26] handled by blog agent itself. Right? So
+- [07:28] automatically it'll be able to create a
+- [07:31] thousand words blog for this particular
+- [07:33] topic and this topic context is
+- [07:35] basically given over here. Right? I also
+- [07:37] have options that if I want to go ahead
+- [07:39] and just uh if I go ahead and click on
+- [07:41] the tools right I have an option saying
+- [07:43] that hey do we need to probably connect
+- [07:45] to any MCP server or do you want to also
+- [07:48] do a web search we can also do that so
+- [07:50] here I will just go ahead and click on
+- [07:51] add so that basically means this agent
+- [07:53] also has the access of the web search
+- [07:55] right now in the else condition what
+- [07:57] will happen if it is a article I will go
+- [07:59] ahead and create my another agent and
+- [08:01] this will be connected to this and here
+- [08:03] I will go ahead and write something like
+- [08:05] this this is my article agent Right now
+- [08:07] inside this article agent I can again go
+- [08:10] ahead and give my prompt saying that hey
+- [08:12] something like this you are a helpful
+- [08:14] assistant write a detailed 100,000 words
+- [08:18] article for the topic and the topic is
+- [08:20] basically given over here which is
+- [08:21] basically coming from the input text
+- [08:23] from the start right so this is what
+- [08:25] from where it is basically coming so
+- [08:26] this is my article agent and here also I
+- [08:29] can go ahead and add any kind of tools
+- [08:30] like web search and I can actually go
+- [08:33] ahead and do this and here you can see
+- [08:34] that my output format also I can change
+- [08:36] it to something like JSON widget right
+- [08:38] we'll talk more about this but here you
+- [08:41] have different different um JSON outputs
+- [08:43] also you can select it right so so
+- [08:45] finally guys let's go ahead and uh
+- [08:48] execute this uh so I'll go ahead and
+- [08:50] click on preview and now I'll say write
+- [08:53] me a blog on AI engineering okay now
+- [08:59] let's see whether this flow will go
+- [09:01] ahead so it went to the query classifier
+- [09:03] I need to classify the user query it has
+- [09:05] been classified I to blog. Now this blog
+- [09:08] agent will definitely go ahead and
+- [09:09] create the article uh or sorry the blog
+- [09:12] that is required. Okay, I'm noticing
+- [09:15] there is a conflict. I want to keep the
+- [09:16] blog concern while aiming for the target
+- [09:18] of thousand words. Uh it'll be round. So
+- [09:21] this is my entire blog that is basically
+- [09:23] getting created. Okay. Now similarly I
+- [09:26] can also go ahead and ask for uh article
+- [09:30] uh which I can also definitely use it.
+- [09:32] Right. So here what I will do I will
+- [09:33] quickly once this gets executed you can
+- [09:35] see the entire blog has been basically
+- [09:37] created. Yeah.
+- [09:41] So here you have then let me go ahead
+- [09:43] and write write me an article
+- [09:47] for article on AI engineering. Okay the
+- [09:54] same thing now you can see it went to
+- [09:56] the query classifier. Now it is going to
+- [09:57] classify it as article. Okay. Okay, then
+- [10:00] based on the if else condition article
+- [10:02] agent is basically getting called and
+- [10:04] now my entire article is should be
+- [10:07] displayed over here. But let's see
+- [10:08] whether I have uh written the correct
+- [10:11] instruction. You are a helpful
+- [10:12] assistant. Write a detailed thousand
+- [10:15] words article for the topic. Okay.
+- [10:19] Write an article on AI engineering. So
+- [10:24] you can go ahead and try out with
+- [10:26] different different prompts and see that
+- [10:29] you're getting thinking you're able to
+- [10:31] get the output or not. Okay. So you
+- [10:33] really need to play and based on this.
+- [10:35] So here you can see the entire things
+- [10:37] are basically coming up. So I'm I need
+- [10:39] to make sure I follow the instruction to
+- [10:40] classify the query telling me to write a
+- [10:43] detailed blog article on AI engineering
+- [10:45] which seems to conflict with the
+- [10:46] classification requirement. I'm thinking
+- [10:48] about instruction has high priority. The
+- [10:50] system message about classification.
+- [10:52] Okay. So this is what it is doing is
+- [10:54] that based on this query classifier
+- [10:55] right it is not able to take that
+- [10:57] particular decision like blog agent okay
+- [10:59] then you can go ahead and just play with
+- [11:01] the prompt and write a better prompt to
+- [11:03] probably you know write a detailed
+- [11:05] thousandword article for the topic
+- [11:07] whatever topic you're basically getting
+- [11:09] um you know out out from there okay or
+- [11:12] or instead of writing like this thousand
+- [11:14] words and here I can go ahead and give
+- [11:17] my another context my another context
+- [11:20] will be something like output text
+- [11:22] Right. So here 1 th00and words something
+- [11:26] like this. Right now let's see write me
+- [11:30] an article on AI engineering. You can go
+- [11:34] ahead and play with it. Right? So
+- [11:37] overall uh this way you should be able
+- [11:39] to see that this entire workflow is
+- [11:41] getting executed. Now uh one more
+- [11:44] amazing thing about this particular
+- [11:45] workflow let me just show you. Okay I
+- [11:47] will close this preview. You can also go
+- [11:49] ahead and publish this workflow. So
+- [11:50] let's say this is my blog
+- [11:54] blog or
+- [11:58] article generator, right? I can go ahead
+- [12:01] and publish it. Once you publish it, you
+- [12:04] should be able to even see the workflow
+- [12:07] ID. You can also add an allowed domain
+- [12:09] to use chat chatkit. So let's say that
+- [12:12] you have any domain like you can
+- [12:14] actually go ahead and uh add it and
+- [12:17] generate a key over there. Along with
+- [12:19] that if you really want to go ahead and
+- [12:21] use along with an agent SDK. So here
+- [12:23] also you can see in Typescript you have
+- [12:24] this code in Python you have this
+- [12:27] particular code how you can actually use
+- [12:28] it right and all this particular code is
+- [12:31] basically given over here. Not only that
+- [12:33] here also you can actually see this
+- [12:34] entire information right in different
+- [12:38] different language like chcript python
+- [12:40] and all which you can directly use it in
+- [12:42] your code and you can run this entire
+- [12:44] workflow itself. Here you have the
+- [12:46] workflow ID, you have agent builder,
+- [12:48] each and every information, right? Along
+- [12:50] with this, you also has options of MCP.
+- [12:53] MCP is just like you can go ahead and
+- [12:55] connect with any kind of MCP. Um, I'm
+- [12:58] also developing a product where I will
+- [12:59] also be developing an MCP server. Um,
+- [13:02] that also I will try to add it over here
+- [13:04] and see at the end of the day whatever
+- [13:06] things you are actually developing can
+- [13:08] be integrated as an MCP server in your
+- [13:10] VS code or anywhere that you like.
+- [13:11] Right? So here that option is also there
+- [13:14] by OpenAI. This option is there by other
+- [13:16] developers. This option is there. All
+- [13:17] the things are basically there. And you
+- [13:20] also have something like guardrails. Now
+- [13:21] in this side the guardrails you can also
+- [13:23] integrate this inside a workflow so that
+- [13:26] you'll be able to apply all this
+- [13:28] moderation, jailbreak, hallucination
+- [13:30] condition and all right even on the LLM
+- [13:32] models which will be able to do that. Uh
+- [13:35] you also have this file search option
+- [13:36] here. You can go ahead and create your
+- [13:38] own vector store ID in the openi itself.
+- [13:40] You can create it over here. You can
+- [13:42] directly upload it or if you want to go
+- [13:45] ahead and just create something like
+- [13:46] this. You can add a files over here.
+- [13:48] Automatically it'll create the vector
+- [13:50] store and you can integrate that over
+- [13:51] here and you can also create a rack
+- [13:53] pipeline. So everything is definitely
+- [13:56] possible out here over here. Um this was
+- [13:59] the recent announcements and uh I think
+- [14:02] it has lot of promises. So that is the
+- [14:04] reason why I'm making this specific
+- [14:05] video. I hope you like this particular
+- [14:07] video. This was it from my side. I'll
+- [14:08] see you in the next video. Thank you.
+- [14:10] Take care. Bye-bye.

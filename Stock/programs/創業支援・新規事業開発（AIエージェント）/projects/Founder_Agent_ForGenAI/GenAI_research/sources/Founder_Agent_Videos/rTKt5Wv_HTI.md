@@ -1,0 +1,2252 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=rTKt5Wv_HTI"
+video_id: "rTKt5Wv_HTI"
+video_url: "https://www.youtube.com/watch?v=rTKt5Wv_HTI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "startup", "PMF", "AI", "investment", "funding", "team_building", "product_development"]
+topics: ["資金調達", "組織構築", "プロダクト開発", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=rTKt5Wv_HTI
+  - Retrieved at: 2025-12-30T16:27:26+09:00
+  - [00:04] Hello everyone. Welcome to again to
+key_points:
+  - "- [01:19] important and that's a thing that has"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: rTKt5Wv_HTI
+
+- URL: https://www.youtube.com/watch?v=rTKt5Wv_HTI
+- Retrieved at: 2025-12-30T16:27:26+09:00
+
+## Text
+
+- [00:04] Hello everyone. Welcome to again to
+- [00:06] another tutorial session by Eric. Um
+- [00:08] Eric is a
+- [00:12] >> excuse me.
+- [00:14] So um today um Eric will be talking
+- [00:16] about um building um LMM agent made
+- [00:19] simple. So it's a very very interesting
+- [00:23] um tutorial session and Eric um he's a
+- [00:25] um senior principal data scientist at
+- [00:28] Mina um less he leads the um data
+- [00:31] science and research team to accelerate
+- [00:33] science to speed up to speed up um the
+- [00:37] um medical um development. So um you
+- [00:41] pick uh pay um kind of um ke attention
+- [00:44] and if there's anything that you need
+- [00:46] maybe questions you can like you know
+- [00:48] it's interactive session so yep. All
+- [00:50] right so um let's start the session.
+- [00:52] Thank you.
+- [00:53] >> Thanks a lot.
+- [00:54] >> Thank you very much.
+- [00:56] >> Okay. Thanks everybody for coming. Um
+- [00:59] how are we doing with the audio? All
+- [01:01] good. All sounds good. Uh thanks
+- [01:03] everyone for coming. It's my pleasure to
+- [01:05] come here and share how you know how to
+- [01:07] build LM agents and done in a slightly
+- [01:10] more simpler fashion. My goal for the
+- [01:12] tutorial is to have everybody leave with
+- [01:14] a mental framework more so than anything
+- [01:15] else tools and tools. But the way you
+- [01:18] think about agents is actually more
+- [01:19] important and that's a thing that has
+- [01:21] borne out true uh shown to be true in
+- [01:25] application after application after
+- [01:26] application that I've seen being
+- [01:28] developed at work and you know from
+- [01:30] hearing other stories as well. So before
+- [01:33] we go on and before I continue
+- [01:34] blabbering, I'm going to have everybody
+- [01:37] uh try to get set up because the setup
+- [01:40] is a few clicks with no command line
+- [01:43] instructions. Nothing runs locally. So I
+- [01:46] took a I took a lesson from my friend
+- [01:49] Ari who brought a laptop at another
+- [01:51] conference that couldn't install
+- [01:52] absolutely anything. And so for today's
+- [01:54] tutorial, I have decided we're going to
+- [01:56] run everything in the cloud as much as
+- [01:58] possible. So I would like to have
+- [02:00] everybody run through the instructions.
+- [02:02] Um uh once again for those who have run
+- [02:04] through the instructions at the tables
+- [02:06] could you just raise your hands please?
+- [02:08] Right. These are the people you can uh
+- [02:10] who have graciously agreed to uh be a
+- [02:13] resource person for someone else for
+- [02:15] right they are a resource for my MCP
+- [02:17] server. Um if you need any help with uh
+- [02:20] any of these things um uh with with
+- [02:22] respect to installation please look
+- [02:24] through look to them. Meanwhile, I'm
+- [02:25] going to just quickly run through them
+- [02:27] instructions first just so that
+- [02:29] everybody can see what's supposed to
+- [02:31] happen. [snorts]
+- [02:32] So, first off, if you go to the PI data
+- [02:35] conference schedule page and then you
+- [02:37] click on the tutorial session, you'll
+- [02:40] notice there is a link down here and it
+- [02:43] goes to my username, llama, and then
+- [02:45] some tutorial folder underneath. We open
+- [02:48] up the link there. And you'll notice
+- [02:50] there is a green shield button over
+- [02:53] there called open in Moab.
+- [02:58] And if you could just click on that, the
+- [03:00] source code for today's tutorial
+- [03:02] notebook will show up. Once you're done
+- [03:05] with that, click run in MOLAB. Now, in
+- [03:08] my case, I'm already signed into Moab,
+- [03:10] so it'll jump straight to there. And
+- [03:12] I'll just do that right now. For some of
+- [03:15] you who may not have heard of what Moab
+- [03:17] is, it's like Google Collab, but for
+- [03:20] Mimo notebooks. The entire suite of this
+- [03:23] this entire tutorial is going to be run
+- [03:25] inside a MIMO notebook. I'm a fan of
+- [03:27] Mimo. They're not sponsoring um my
+- [03:30] presence here. So, this is from the from
+- [03:33] the from the bottom of my heart. I do
+- [03:34] love what the project has been doing. Uh
+- [03:37] what the developers of MIMO have been
+- [03:38] doing. Uh and so I decided to write the
+- [03:40] tutorial in ao notebook. MOLAB is Collab
+- [03:43] for MIMO. Uh in your case, you wouldn't
+- [03:46] necessarily jump straight to here. You
+- [03:48] might have a popup that asks you to sign
+- [03:50] up for MOLAB. Go ahead, sign up. It's
+- [03:52] free. There's uh two one-click options.
+- [03:56] One is through GitHub, one is through
+- [03:58] Google. Go through the authentication
+- [04:00] process. You will then possibly go to
+- [04:03] that page where you're asked to run in
+- [04:04] Moab. And the first time around, you're
+- [04:06] going to get possibly an error. And
+- [04:08] that's I've seen play out over multiple
+- [04:10] times for different people. Um uh what
+- [04:13] you do is you just go back to
+- [04:16] this page again
+- [04:20] and you click on open in Moab one more
+- [04:22] time. Just walk through the walk through
+- [04:23] the whole flow. That's the simplest way
+- [04:24] to solve the problem. And then the
+- [04:26] second time around you should have no
+- [04:28] issues. Once you're inside the notebook,
+- [04:31] the first thing that I want you to do is
+- [04:34] to actually click the bottom right hand
+- [04:36] button which is the play button down
+- [04:38] here. that will kickstart the
+- [04:42] installation process for any other
+- [04:44] dependencies that uh couldn't be
+- [04:46] specified directly. Um so you'll notice
+- [04:50] it's asking me to install Llabot and PDF
+- [04:52] to image as well as installing uh
+- [04:54] popular utils through some Python code.
+- [04:57] I'm going to hit install and that will
+- [04:59] do the trick. Okay, so I'm just going to
+- [05:01] have everybody walk through that um
+- [05:04] while then now I finally go and
+- [05:06] introduce myself a little bit more.
+- [05:10] Um, so I just wanted to kickstart this
+- [05:11] in the background because I know it may
+- [05:13] take a little bit of time. All right, so
+- [05:15] yes, my name is Eric. I work at MADNA.
+- [05:18] Um, well, by day I work at Madna. By
+- [05:21] night, I hobby code all sorts of stuff
+- [05:23] in the open source world. Llabot is one
+- [05:25] of them. Um, there are a few other
+- [05:27] projects that I've been involved with.
+- [05:29] Uh, I got my start in the open source
+- [05:31] world through the Mattplot Lib project
+- [05:33] and it was a wonderful journey back in
+- [05:34] 2015. I'm very al I'm always grateful to
+- [05:37] the Mattplot Lib devs for coaching me
+- [05:39] through a lot of what I know for
+- [05:42] software development back in 2015 at a
+- [05:44] sci-fi conference sprint. And so th
+- [05:47] those were those were great days. Um all
+- [05:50] right. Uh if you're curious to know a
+- [05:53] little bit more about me, I maintain my
+- [05:55] own website. Its URL is that
+- [05:58] ricmj.github.io
+- [05:59] io or you can just search for my name on
+- [06:01] Google um or uh search my name plus
+- [06:04] Maderna. There are multiple people who
+- [06:06] have the same name as I do. Um and then
+- [06:08] you should come to this uh somewhat
+- [06:10] nerdy looking website. Um and uh yeah,
+- [06:14] so I I'm at Madna. I used to work at
+- [06:16] Nyber. I've I'm always doing uh my
+- [06:20] personal uh you know prof sorry
+- [06:23] professional mission in life is how can
+- [06:25] we make science run at the speed of
+- [06:26] thought because if we can make science
+- [06:28] run at the speed of thought we can
+- [06:29] discover medicines at the speed of
+- [06:30] thought and then more people uh can be
+- [06:33] spared the suffering of whatever
+- [06:35] diseases that they might be going
+- [06:36] through. Um
+- [06:38] yeah so so that's that's a little bit
+- [06:40] about myself and LLMs for me represent
+- [06:43] another step on that journey to making
+- [06:46] science run at the speed of thought.
+- [06:47] There are things that LLM can do much
+- [06:49] faster than what humans would be able to
+- [06:51] do. Um and so uh back in I think it was
+- [06:56] 2023
+- [06:58] when LLM really started becoming hot and
+- [07:00] there were APIs being developed for LMS
+- [07:03] or being released sorry for LM LM
+- [07:05] access. I started developing the project
+- [07:08] uh llamabot which is what you'll be
+- [07:10] using today. Um unlike lang chain maybe
+- [07:14] uh other uh you know AISDK etc which
+- [07:17] have a huge community. This one for me
+- [07:20] represents a teaching tool and an a
+- [07:23] thought tool. So I I build stuff to help
+- [07:25] me think clearly about a particular
+- [07:28] topic. And so Llamabot represents that.
+- [07:31] Um, it's been re it as a result of my
+- [07:34] understanding about the LLM world
+- [07:36] changing over time, it's actually been
+- [07:38] re been rewritten three or four times in
+- [07:40] its entirety over over this over the uh
+- [07:43] intervening two years. Um, uh, but I do
+- [07:47] maintain it as open source software. So
+- [07:49] in case anybody chooses to use it, you
+- [07:51] know, it's it's available for you to
+- [07:52] use. Um, I do uh put want to put fair
+- [07:56] warning. uh it evolves pretty
+- [07:58] drastically uh at times because of
+- [08:01] different ways and how I'm thinking. So
+- [08:04] just watch out for the release notes.
+- [08:05] They are all AI generated release notes
+- [08:07] and you we you can you can yeah they are
+- [08:10] AI generated release notes based on the
+- [08:12] diff that describe exactly what was
+- [08:13] changed. Uh I've made it fully automated
+- [08:16] so I don't have to write any release
+- [08:17] notes but pay attention to the release
+- [08:19] notes because that will help you
+- [08:20] understand what what's changed, what's
+- [08:22] breaking, what's not. Okay, cool. Um, so
+- [08:27] quick show of hands. How many of you
+- [08:29] have
+- [08:30] successfully set up the notebook like
+- [08:33] it's running and you should only see one
+- [08:35] error in the notebook? [snorts] The only
+- [08:38] error should come from a file not being
+- [08:40] present and that's by design. [snorts]
+- [08:44] So, uh, sorry, I just wanted to double
+- [08:46] check again how many people have it
+- [08:48] running. Okay. So, for those of you who
+- [08:50] don't yet have uh have things running,
+- [08:52] please go and uh ping a neighbor who has
+- [08:57] uh successfully run this uh run the
+- [08:59] setup instructions. And then um while
+- [09:02] you all are doing that, I'm going to
+- [09:04] introduce a little bit of today's
+- [09:07] tutorial um so that we can just let
+- [09:09] people catch up as well. So today's
+- [09:12] tutorial is basically about how to build
+- [09:16] LM agents and maybe a little bit by
+- [09:18] extension how to build LM workflows. How
+- [09:20] many of you are aware of what the
+- [09:22] difference between the two are
+- [09:26] Sebastian?
+- [09:27] Oh wait wait wait sorry for the for the
+- [09:30] recording audio
+- [09:33] >> I guess the answer will depend a bit on
+- [09:35] how you exactly define it because
+- [09:36] different people have different ideas
+- [09:37] but the way I would understand it is
+- [09:39] that an agent is an LLM that can call
+- [09:41] tools whereas a workflow is a sequence
+- [09:43] of multiple agents that get called in
+- [09:45] sequence.
+- [09:45] >> Yep. Okay. That's a good definition. I
+- [09:47] like that. Anyone else?
+- [09:50] >> Any other volunteers? I thought I saw
+- [09:53] another hand over here. Okay. the AI
+- [09:55] enthusiasts seem to get disabled.
+- [09:57] >> So my view is like agents are like more
+- [10:00] open-ended. So that's like what you like
+- [10:03] a code or cloud code. You just basically
+- [10:04] have a conversation
+- [10:06] >> and the workflows it's very focused. I
+- [10:08] mean I build a lot of those. It's
+- [10:10] something that uh reads your Gmail sees
+- [10:13] with invoices like tracks the packages.
+- [10:15] So that would be workflow.
+- [10:16] >> Yep. Okay. And I think back there we had
+- [10:17] one thing autonomous versus more
+- [10:20] defined.
+- [10:20] >> Yeah. Okay. I think that's a good that's
+- [10:22] a good working definition. uh you would
+- [10:24] call workflows
+- [10:28] uh sorry LLM powered workflows any
+- [10:32] program computer program that you write
+- [10:35] that involves an LLM call in the middle
+- [10:37] that isn't involved in either um forking
+- [10:43] and branching of the logic or as
+- [10:46] Sebastian mentioned isn't involved in
+- [10:48] some kind of uh autonomous decision
+- [10:50] making to call call on a separate tool
+- [10:54] that then returns back.
+- [10:55] >> Yes,
+- [10:58] >> I just I guess reassessed my
+- [11:00] understanding. So would workflows be
+- [11:02] something. So agent is like the user
+- [11:04] goes and initiates the conversation and
+- [11:06] talks right and workflows it just sits
+- [11:08] there and it could be triggered by some
+- [11:11] external events and it goes to user and
+- [11:14] maybe multiple users and
+- [11:16] >> interactivity is definitely part of the
+- [11:18] equation as well. Um so some some people
+- [11:21] may say may argue that agents
+- [11:25] um agents are a thing that involves
+- [11:29] interaction with users and I'm very
+- [11:31] careful that definition because uh
+- [11:35] agents are not necessarily chat bots.
+- [11:37] You can have interactions with users
+- [11:39] that are not chat mediated. Think about
+- [11:41] email agents, email based agents just as
+- [11:44] a you know the simplest analogy for what
+- [11:47] you might think right? It's not a
+- [11:48] chatbot, but it is something that and uh
+- [11:51] it can you can interact with. Okay.
+- [11:53] Okay. So, when it comes to today's
+- [11:56] tutorial, we're actually going to build
+- [11:58] a hybrid based on that definition. We're
+- [12:00] going to be building three things. We're
+- [12:02] actually going to be building out two
+- [12:04] workflows and then orchestrating those
+- [12:06] workflows with an agent. And of course,
+- [12:08] everybody builds a chatbot. So, just to
+- [12:11] make things a little bit more
+- [12:12] accessible, we're going to implement
+- [12:13] this agent as a chatbot. But you should
+- [12:16] know that there are other ways to do
+- [12:18] this. And I've chosen to do it as a
+- [12:20] receipt processor and invoice writer
+- [12:22] [clears throat] as the example just to
+- [12:23] make it really accessible, right? Like
+- [12:25] if I were to choose something from the
+- [12:26] sciences, I would lose half the crowd
+- [12:28] immediately. So let's do something
+- [12:30] accessible. Let's work with receipts and
+- [12:33] invoices. One is extraction of data from
+- [12:37] uh receipts and then the other is
+- [12:38] generating a document. Those are m what
+- [12:41] we're going to have here are like very
+- [12:43] minimal um implementations of of those
+- [12:46] those ideas, but those actually
+- [12:48] represent like what I've seen to be 70
+- [12:50] to 80% of the value that you can get
+- [12:52] from an LLM. Um cool. So uh
+- [12:58] as I have mentioned also this entire
+- [13:02] tutorial is written inside a maro
+- [13:03] notebook. Uh the way that you know that
+- [13:05] the Marrimo notebook is running
+- [13:06] correctly is you've hit the play button
+- [13:08] on the bottom right hand side and it's
+- [13:09] run from top to bottom and you've only
+- [13:10] got one error, right? And if you scroll
+- [13:12] all the way to the bottom, you'll see
+- [13:14] some of the outputs already there. But
+- [13:16] don't worry, I've taken advantage of the
+- [13:18] reactivity and figured out a way to get
+- [13:21] people coding in this room as well. So
+- [13:23] you're not just going to listen to me
+- [13:24] blabber for an hour and a half. That's
+- [13:25] that would be way too boring.
+- [13:28] Okay. Um
+- [13:31] final thing before we go on. Uh you may
+- [13:34] be wondering also like how the heck am I
+- [13:36] going to access an LLM?
+- [13:40] >> Because uh as I've learned from the past
+- [13:43] year and a half, two years of teaching
+- [13:44] LLM tutorials, access to an LLM is the
+- [13:46] hardest thing ever. You can choose to do
+- [13:48] it locally or in my case, what I've done
+- [13:52] is I've just so happened to have $500 in
+- [13:55] modal credits and so I hosted Oama up
+- [13:58] there. Everybody will be able to access
+- [14:00] that thing. Please help me burn down the
+- [14:02] $500. All right. So that is how you're
+- [14:05] going to access a wide variety of Olama
+- [14:07] hosted modal models. It's not the most
+- [14:10] pretty implementation. It's uh way
+- [14:13] overpowered. Like I have a H100 hosting
+- [14:15] Gemma 3N. But don't do that. Okay. Like
+- [14:18] Gemma 3N is three billion parameters.
+- [14:20] H100s have 80 gigabytes of RAM. The
+- [14:22] disconnect there is too huge. I'm going
+- [14:24] to uh make that on on Wednesday. the the
+- [14:27] talk that I will do possibly will be uh
+- [14:30] live improving that endpoint with AI
+- [14:32] assisted coding in front of everybody.
+- [14:35] So we'll see whether that works. Okay.
+- [14:37] Uh meanwhile just know that that's how
+- [14:39] we're going to access LLMs. Uh while I
+- [14:42] still have the $500 or you know more
+- [14:44] than 30 more than zero dollars of
+- [14:46] credits, you're free to use it. Uh but
+- [14:47] once I hit zero, I'm going to shut down
+- [14:49] that endpoint, right? Because I don't
+- [14:50] have a credit card attached to that
+- [14:51] modal account. All right. Are we good
+- [14:55] with respect to the tutorial notebooks?
+- [14:58] Can I just double check and confirm?
+- [15:00] Yes.
+- [15:00] >> For whatever reason, I'm getting a lot
+- [15:02] of errors at package not found. I don't
+- [15:03] know.
+- [15:04] >> Maybe I I'm installing it. But
+- [15:06] >> me too, for what it's worth.
+- [15:07] >> Yeah.
+- [15:08] >> What did you expect that it will be in
+- [15:11] pre-installed or
+- [15:12] >> uh if the package is not found, you
+- [15:14] should you should have
+- [15:15] >> get like
+- [15:16] >> the the installation popup shows up as
+- [15:18] well
+- [15:20] >> and and it's still showing errors. Is
+- [15:22] that right? Then it worked.
+- [15:24] >> Now it works.
+- [15:25] >> Then it worked. Okay. Yes, that's that's
+- [15:27] also expected. So, uh, can I just double
+- [15:30] check now every like I hope to see 80%
+- [15:32] of the room good to go. Yes, we're about
+- [15:36] there. Any other final lingering issues?
+- [15:40] [clears throat]
+- [15:40] >> You said that. Oh, sorry. You were
+- [15:42] first.
+- [15:42] >> I have four errors that are related to
+- [15:45] the
+- [15:46] >> receipt not found. Yeah, that's those
+- [15:47] are that in my brain is one error. Yeah.
+- [15:50] Okay, cool. Any others?
+- [15:52] Okay, great. I think we're off to a
+- [15:53] great start. So, um, when it comes to
+- [15:56] building LLM powered applications, let's
+- [15:59] start with part one. When it comes to
+- [16:00] building LLM powered applications, first
+- [16:03] thing you want to do is you want to
+- [16:04] actually treat it like traditional
+- [16:06] automation at first, right? You do not
+- [16:08] want to go in thinking, I'm going to
+- [16:09] build a chatbot. No, no, no, no, no.
+- [16:11] First thing you want to do is you want
+- [16:12] to really go and isolate what are the
+- [16:14] workflows that you want automated. And
+- [16:16] this, by the way, came from an awesome
+- [16:18] this idea finally percolated for me from
+- [16:20] a from an awesome conversation I had
+- [16:22] with Sebastian at a pi data Boston
+- [16:25] meetup. So, he's an awesome guy. You
+- [16:27] should go talk with him. Um, and he'll
+- [16:29] give you a lot of hot takes on LinkedIn
+- [16:30] that are great uh that are also very
+- [16:33] insightful about the AI world. Um but it
+- [16:36] percolated that yeah you know you you
+- [16:38] want to start by thinking of what is the
+- [16:40] repeatable workflow that you do manually
+- [16:42] over and over that might have the
+- [16:44] potential to be automated. If we think
+- [16:46] about receipt processing it's a data
+- [16:49] entry problem. I have a receipt. I need
+- [16:51] to insert it into a table. So what can I
+- [16:54] do to help automate it? Well I might
+- [16:57] start with traditional OCR and then I
+- [16:59] might need to do uh some very like
+- [17:02] receipts have all sorts of shapes and
+- [17:04] sizes. I might need to like identify
+- [17:06] where um my receipt needs to be like
+- [17:09] processed in a certain way. I might have
+- [17:11] certain categories of code for different
+- [17:13] vendors and stuff like that. That's if
+- [17:15] you think about it from a traditional
+- [17:17] automation perspective. Now for a subset
+- [17:19] of workflows though you can add in the
+- [17:22] use of an LLM at at a very tasteful
+- [17:25] juncture at a at a very specific point
+- [17:28] where you need to do something that
+- [17:31] traditional code can't really do and
+- [17:34] that's where LLMs can help. So we know
+- [17:36] that vision language models have the
+- [17:37] capability to take text uh take images
+- [17:40] in and um output text and then LLM also
+- [17:45] have what we call structured generation
+- [17:47] which enable to take free text in and
+- [17:50] output structured text. So imagine now
+- [17:53] we've got a VLM enabled workflow that
+- [17:56] enables me to parse the text that's
+- [17:59] present um followed by a uh traditional
+- [18:03] uh sorry followed by an LLM powered
+- [18:05] workflow that lets me do structured um
+- [18:08] structuring it according to a schema
+- [18:09] that I predefined. That's actually part
+- [18:12] of what we're going to do in today's uh
+- [18:14] tutorial. Um so uh if you so really what
+- [18:20] we want to do is we want to start by
+- [18:21] mapping out the workflow. Now there
+- [18:23] there's always going to be a bajillion
+- [18:24] and one ways to solve every problem. Um
+- [18:28] sometimes there are two or three more
+- [18:30] obvious solutions and I'm going to just
+- [18:31] stick to the VLM plus LLM solution for
+- [18:35] this particular tutorial. However, you
+- [18:37] should know that I am not an LLM
+- [18:40] maximalist and I do not advocate for
+- [18:42] everyone to be an LLM or VLM maximalist
+- [18:45] either. Think what you can solve with
+- [18:47] traditional code first and then if you
+- [18:49] can't solve it with traditional code do
+- [18:51] it with an LLM or VLM. So
+- [18:55] that's that's the part for receipt
+- [18:57] extraction uh data extraction and then
+- [18:59] there's a part for say generating an
+- [19:02] invoice right you might need to basic
+- [19:05] which is an example of just form filling
+- [19:06] as well and so those are two workflows
+- [19:08] that are say manual in the life cycle of
+- [19:12] a a business of some kind that could
+- [19:15] benefit from like just a little bit more
+- [19:17] automation and we're going to show how
+- [19:18] to do this with LLMs and VLMs.
+- [19:21] Here we go.
+- [19:23] Let me
+- [19:25] scroll down a little bit to here. So if
+- [19:27] you think about then how you would
+- [19:29] integrate such a workflow right into
+- [19:32] into your broader set of systems. It's
+- [19:36] one thing to say I got a PDF and I
+- [19:38] extracted this Python object.
+- [19:40] But it being a Python object in memory
+- [19:42] is not particularly useful until you've
+- [19:45] got APIs that let you shle it out into a
+- [19:48] database for example, right? you can
+- [19:50] store that information and keep a
+- [19:52] continuous record over time or unless
+- [19:56] you've had uh additional systems that
+- [19:58] like pull from databases. Now, because
+- [19:59] of the nature of this being a very
+- [20:01] fast-paced one and a half hour long
+- [20:03] tutorial, I'm not going to touch on
+- [20:04] that, but I do want to make sure you all
+- [20:08] are aware that you need to think about
+- [20:10] these other more other parts of the
+- [20:12] problem as well. Um, in before you go in
+- [20:15] saying, "Hey, I'm going to build an LLM
+- [20:17] or VLM based solution." Think about the
+- [20:19] full life cycle of like what needs to
+- [20:21] happen with your data. You need to pull
+- [20:22] it from a source. Make sure you have
+- [20:24] access to that source. You need to store
+- [20:25] it in some destination. Make sure you
+- [20:27] have access to that destination, right?
+- [20:29] Access and that sort of thing. Okay. All
+- [20:31] right. Let's start with the receipt
+- [20:34] processor agent. So, um, what we're
+- [20:38] going to do is a two-step thing. As I
+- [20:41] just described, we do an OCR step and
+- [20:43] we're going to use DeepSseek OCR that is
+- [20:46] hosted on the Olama endpoint that I've
+- [20:48] got for [snorts] everybody. And then
+- [20:50] we're going to do a structuring step
+- [20:52] which is using structure generation take
+- [20:55] the output of OCR and turn it into a
+- [20:58] pyantic model object or something like
+- [21:01] that. So I'd like everybody to scroll
+- [21:03] down a little bit. Um [clears throat]
+- [21:06] the first part is what we have the the
+- [21:10] the implementation as you can see in
+- [21:12] llamabot is you have like llamabot
+- [21:14] simple bots or you have for for simple
+- [21:17] just vanilla text generation or you have
+- [21:19] structured bot you scroll down a little
+- [21:21] bit more
+- [21:23] p paired with a pyantic uh base model
+- [21:26] object um for uh creation of structured
+- [21:29] data models. And so what I'm going to
+- [21:32] have everybody do as part of the
+- [21:34] exercise here is if you look at the
+- [21:36] description up here, uh I would like you
+- [21:38] to define the receipt data schema. And
+- [21:42] in a moment you will actually take a
+- [21:43] receipt that I
+- [21:45] an actual one of my receipts
+- [21:50] and try to process it with uh this this
+- [21:53] bot that you've helped to create. And so
+- [21:56] the part that I would like you to do
+- [21:57] here is to fill in this piece over here.
+- [21:59] Uh gosh, I'd like you to fill in this
+- [22:02] piece over here. I [snorts] have defined
+- [22:04] already one field that is needed for
+- [22:07] this bot to succeed in what it's
+- [22:09] supposed to do. I would like you to fill
+- [22:11] it out with the rest of the things that
+- [22:13] we've listed up here. Date, amount,
+- [22:15] category, description. Um and so go
+- [22:18] ahead and do that. We'll give about 5
+- [22:20] minutes or so. Make sure you type it on
+- [22:21] your keyboard. Um, [snorts] and if you
+- [22:23] are genuinely feeling lazy, if you
+- [22:25] scroll all the way down to the bottom,
+- [22:28] there's the answers right there. I'm not
+- [22:30] going to stop anybody from uh typing
+- [22:32] speeds. I'm not going to let anybody's
+- [22:34] typing speed stop you from completing
+- [22:35] the tutorial. Meanwhile though, I will
+- [22:38] type it out live for everybody.
+- [22:44] English.
+- [23:03] >> The ellipsus mean automatic. the the
+- [23:05] ellipsus means it is a required field.
+- [23:09] [snorts]
+- [23:10] I think that is one little bug or error
+- [23:13] that might be present inside your
+- [23:14] notebook. So please change what was here
+- [23:16] originally was str. Please change that
+- [23:18] to ellipses triple dots
+- [23:23] [snorts]
+- [23:30] >> all of us
+- [23:32] >> separate parameters. Sorry. All All of
+- [23:35] us should make it ellipsies.
+- [23:37] >> Yes.
+- [23:37] >> Okay. Thank you.
+- [23:38] >> Yes. Please make them all ellipsies.
+- [24:00] >> It
+- [24:13] string
+- [24:15] of strings.
+- [24:25] [snorts]
+- [24:27] >> Okay,
+- [24:29] Eric, why are the descriptions
+- [24:31] important? Are they gonna play a role
+- [24:33] the role for LLM to help LLM or
+- [24:36] >> Yes, thank you for asking. So why why do
+- [24:39] we have this description here? Well, it
+- [24:41] turns out when you use structured
+- [24:43] generation, if you have a pyantic model
+- [24:45] and you compile that to just regular
+- [24:49] JSON string, the description field is
+- [24:51] also passed in as part of the context
+- [24:54] that the LLM receives. And so if you
+- [24:56] write a good description field, it's
+- [24:58] actually cont documentation. One, it's
+- [25:00] documentation for yourself as a human
+- [25:02] being. Two, it is also documentation for
+- [25:04] an LLM to do the right thing or to
+- [25:07] increase the odds that it's doing the
+- [25:08] right thing. Okay.
+- [25:16] What did I miss?
+- [25:19] Building field info.
+- [25:25] Well, okay. Let me let me cheat.
+- [25:30] H. Actually, turns out in the answers
+- [25:33] there's no fields. Um,
+- [25:35] [laughter]
+- [25:37] whoops.
+- [25:39] Should have should have caught that.
+- [25:40] Well, okay, you're allowed to cheat
+- [25:41] then. Um, if you'd like to let me come
+- [25:44] back here. I'll just take out I'll do
+- [25:46] that. But I do I I might just be missing
+- [25:49] what the syntax actually is for your
+- [25:51] fields. So, I'm gonna take that out for
+- [25:53] a moment. But do know that if you do put
+- [25:56] the description present, it'll it'll
+- [25:59] help things as well. [snorts]
+- [26:02] Oh,
+- [26:03] I see what the issue is.
+- [26:07] >> Uh, I'm going to change [clears throat]
+- [26:08] date to stir for the time being, but you
+- [26:11] should know that you can put actual
+- [26:13] dates uh in ISO 8601 format. Yd.
+- [26:20] Please do not write dates in any other
+- [26:22] format than ISO 8601. Thank you.
+- [26:26] >> Thank you for coming to my TED talk.
+- [26:28] [laughter] Okay. Um and if you would
+- [26:31] like to try out, you know, you know,
+- [26:34] [snorts] check that the the pyantic
+- [26:36] model was generated correctly, I would
+- [26:38] like to invite you to try to do this
+- [26:40] dummy receipt is equal to receipt data
+- [26:45] exercise.
+- [26:47] and we'll fill it in. Vendor is equal to
+- [26:51] PI data. Date is equal to
+- [26:55] 0251208.
+- [26:58] You'll notice a weakness over here
+- [27:00] because we're not using datetime date
+- [27:02] objects. It is possible for me to in
+- [27:05] enter something invalid for the date.
+- [27:08] So, if you can actually stick with
+- [27:09] actual pyantic uh and uh Python types,
+- [27:13] that's a that's to your advantage. Um,
+- [27:15] [snorts]
+- [27:16] we'll do
+- [27:18] amount
+- [27:20] uh $2,000. Category is equal to food and
+- [27:25] description equals lunch.
+- [27:28] >> And if I do dummy lunch,
+- [27:30] >> pardon me.
+- [27:31] >> That's an expensive lunch.
+- [27:32] >> That is a very expensive lunch. And if I
+- [27:35] were to do that
+- [27:36] >> without without currency.
+- [27:39] >> Yes, that's right. I supposed to be a
+- [27:42] float.
+- [27:43] >> Oh, you forgot the feel of how many
+- [27:45] people are machines.
+- [27:47] There we go. So, so if I did that, if I
+- [27:51] created dummy receipt and then evaluated
+- [27:53] dummy receipt right at the end, [snorts]
+- [27:55] you should see something that looks like
+- [27:56] this.
+- [27:58] You all see that?
+- [28:00] >> Yes, Ben.
+- [28:01] >> Yeah. Is that like just that display for
+- [28:05] >> Yes. Yes. So, I've coded the HTML
+- [28:08] display for the receipt uh data object.
+- [28:13] And you'll notice right at the bottom I
+- [28:15] have defined over here uh
+- [28:17] underscorerepper html
+- [28:20] and that is a protocol that's attached
+- [28:22] to Python objects that both Jupiter
+- [28:25] notebooks and MIMO notebooks will
+- [28:27] respect. So if you have an HTML object
+- [28:30] HTML that is embedded inside that is
+- [28:32] returned sorry an HTML string that is
+- [28:34] returned by repper HTML
+- [28:38] it will display and so you should see
+- [28:43] >> [snorts]
+- [28:43] >> wonky connection. You should see the
+- [28:45] objects that you see on your screens.
+- [28:46] Basically, this like green view, etc.,
+- [28:49] etc. All right. Are we all cool with
+- [28:51] that? So, what what what you just
+- [28:54] implemented was a pyantic model that
+- [28:56] represents the schema for what you want
+- [28:59] an LLM to uh generate. And it, as it
+- [29:03] turns out, structured generation is a
+- [29:06] hugely valuable thing that LLMs you can
+- [29:09] use with uh sorry, it's a hugely
+- [29:12] valuable thing that you can coers LLM to
+- [29:15] do because it allows you to coersse an
+- [29:17] LLM to generate
+- [29:20] uh type correct outputs and you can
+- [29:25] insert all sorts of validators on um a
+- [29:28] pyantic object to make sure that it is
+- [29:30] generating the output that you want
+- [29:32] correctly. So you can think about some
+- [29:34] of the potential downstream, right? One,
+- [29:36] you take uh completely unstructured
+- [29:40] textual information, you feed it into an
+- [29:42] LLM and you ask it to produce a database
+- [29:44] entry.
+- [29:46] I've done that for protein sequences
+- [29:49] where I've pars in taken literature and
+- [29:52] we ask it to extract a protein sequence
+- [29:54] but also some of the properties that are
+- [29:56] described inside there as a secondary
+- [29:58] nested JSON with a few free form fields
+- [30:01] right so those are all possibilities
+- [30:03] here this is a very powerful pattern and
+- [30:06] uh it's available in multiple LM
+- [30:08] frameworks as well like if you use
+- [30:10] instructor uh that is another very
+- [30:12] popular tool for doing structure
+- [30:14] generation if you use there's the focus
+- [30:16] out at um in France. I forgot what their
+- [30:18] name is. [snorts] Um TXT. They are a
+- [30:22] startup out in France and they have a
+- [30:23] very very powerful structure generation
+- [30:26] engine that you can pay for. It is very
+- [30:28] very cool. Um so I definitely encourage
+- [30:29] you all to check out some of what
+- [30:31] they're doing.
+- [30:32] >> Isn't Isn't there outlines from them? I
+- [30:34] thought that was
+- [30:35] >> open source. That's it. So outlands is
+- [30:37] the open source version and then they
+- [30:39] have some for very highly nested and
+- [30:43] highly complex data models that are
+- [30:45] exist in healthcare
+- [30:46] >> like fire.
+- [30:47] >> Yeah. Yeah. Exactly.
+- [30:51] Okay. So now that we're now that we've
+- [30:54] got that uh structured data model
+- [30:57] implemented, I would like you to go to
+- [31:00] the cell below and replace it replace
+- [31:03] the answer which is receipt data with
+- [31:06] receipt data exercise and that should
+- [31:08] work correctly as well. And if you would
+- [31:11] like to change things up and make things
+- [31:13] a little bit more fancy, you can
+- [31:15] actually feel free to change the data
+- [31:16] model yourself and see what it
+- [31:18] generates.
+- [31:20] So that's how we so we're going to so we
+- [31:22] use that chunk of code here to
+- [31:26] instantiate uh a structured bot and the
+- [31:29] structured bot in this case is going to
+- [31:32] be Gemma 3N. And so now let's put these
+- [31:34] bots to um let's put these bots to
+- [31:37] action. So first the first error that
+- [31:39] you should see is you couldn't find the
+- [31:41] receipt launch.pdf file, right? There's
+- [31:44] a way out of that. If you go back to the
+- [31:47] GitHub repository, receipt lunch.pdf
+- [31:50] exists.
+- [31:52] It is an actual receipt. Hit the
+- [31:54] download raw file button. Let it
+- [31:56] download to your local machine.
+- [32:00] And then come to the MIMO file browser.
+- [32:04] Click on that
+- [32:06] and upload p receipt.pdf.
+- [32:09] Receipt launch.pdf. I have it. I have it
+- [32:11] in my lambot repo already. So now it
+- [32:14] will show up over here. All right. It's
+- [32:17] been blocked by Chrome. Whatever. Cool.
+- [32:20] >> Everybody got that?
+- [32:22] >> No.
+- [32:23] >> Yes. No.
+- [32:24] >> I'm back just a little. Yep.
+- [32:26] >> Uh in the where we're defining the dummy
+- [32:29] receipt.
+- [32:29] >> Dummy receipt.
+- [32:30] >> I'm getting a validation error. Um
+- [32:33] wondering if that's something I'm
+- [32:34] supposed to be getting. [snorts]
+- [32:35] >> Um
+- [32:38] >> I don't know. That's
+- [32:39] >> Oh, scrolling up here.
+- [32:40] >> You define dummy receipt so I can copy.
+- [32:43] Yes. Yes. Can do. Not a problem. So,
+- [32:45] make sure make sure you are putting in
+- [32:48] correct data types. Just now I had
+- [32:53] made amount a string
+- [32:56] >> whereas actually it's supposed to be a
+- [32:58] float and that is one possible error
+- [33:00] mode with structured generation or like
+- [33:03] humans doing structured generations.
+- [33:05] You're going to insert in uh enter data
+- [33:07] as with the wrong data type.
+- [33:09] >> Okay.
+- [33:10] >> Okay. [snorts]
+- [33:12] Okay. So, if you get past
+- [33:14] >> receipt, where's that receipt file
+- [33:15] again? Sorry.
+- [33:17] >> Yep. So, if you come back to the
+- [33:19] llamabot repository
+- [33:23] Boston 2025 receipt lunch.pdf should be
+- [33:27] here
+- [33:27] >> and it's an act you you should be able
+- [33:29] to hit the download button uh download
+- [33:32] raw file on the top right hand corner of
+- [33:34] the um yeah top right hand corner over
+- [33:38] here. Everybody okay with that? So far
+- [33:41] so good. Yep. Cool. Upload it over here
+- [33:45] and then hit the play button.
+- [33:50] Should start cooking.
+- [33:53] See?
+- [33:55] So, first step is we convert PDF to
+- [33:58] images. The second step is over here
+- [34:01] where we're going to hit the Olama API
+- [34:04] that I stood up. And I should expect to
+- [34:06] see a a surge of um requests coming in.
+- [34:10] Yep, people are people are coming in.
+- [34:12] Okay, that's good. [cough]
+- [34:15] [clears throat] And in the output that
+- [34:18] you see down below, you should see a
+- [34:19] bunch of logging plus a bunch of you
+- [34:22] know just free text generation that is
+- [34:23] happening. That is what's happening over
+- [34:25] here. So basically the thing that's
+- [34:28] happening right now is first off we
+- [34:31] create uh we convert the PDF into images
+- [34:34] just to make things addable for vision
+- [34:36] language models. And then after that for
+- [34:39] each image path we have a prompt that
+- [34:43] says extract all text from this image.
+- [34:45] Man, the connection's really wonky
+- [34:47] today. Um, and then this line over here
+- [34:52] is where we actually call on the bot,
+- [34:54] right? The OCR bot is doing this step
+- [34:56] over here. And what we're passing in are
+- [34:59] two things, the prompt text and the
+- [35:01] image path. Okay, so that's a little bit
+- [35:04] of a walkthrough of what's happening
+- [35:06] over here. And then the OCR response is
+- [35:10] going to be just this, you know, uh,
+- [35:13] message object that has a content um,
+- [35:17] attribute. And so what we want to do is
+- [35:18] we want to put the OCR text um inside a
+- [35:21] list so that we can use it later. How
+- [35:24] are we doing so far? Everything okay?
+- [35:26] People are good. Okay, let's scroll down
+- [35:28] a little bit more.
+- [35:31] What happens next is we take then the
+- [35:35] OCR text, we concatenate them into one
+- [35:38] long string and then we pass that string
+- [35:41] into the receipt structuring bot which
+- [35:43] is the structured bot that we were just
+- [35:45] that we had just created which uses the
+- [35:47] pyantic model that everybody filled out.
+- [35:49] Okay, so far so good. And so if
+- [35:52] everything works out correctly, you
+- [35:54] should see this show up over there
+- [35:58] right now. Uh if my memory serves me
+- [36:01] right, this LLM is not doing exactly the
+- [36:04] right thing. I think it should be 1444
+- [36:08] in total but on unfortunately it didn't
+- [36:11] catch every single thing. And so that is
+- [36:14] where we touch on a separate topic which
+- [36:16] I will not go through today but it's
+- [36:18] called eval. If you don't do evals for
+- [36:20] LLMs, you're doing LLM application
+- [36:23] writing wrong. Okay? You must do evals,
+- [36:26] but I can't I don't have enough time
+- [36:28] today to touch on evals. I will say you
+- [36:30] must do your evals. Okay, any questions
+- [36:34] thus far about what we've done.
+- [36:36] >> So if we switch to another
+- [36:38] >> So let's let's do let's do the mic for
+- [36:39] questions.
+- [36:41] >> Just quick question. If we switch to a
+- [36:43] different OCR model, the performance
+- [36:45] will be better, right?
+- [36:46] >> Probably. Yes. Um in my own testing,
+- [36:48] I've used GPT 4.1 and GPT40. All no
+- [36:53] problems. 100% accuracy every single
+- [36:55] time I pass [snorts] in a variety of
+- [36:58] image receipts. So, and actually the
+- [37:01] only reason why I did this as a two-step
+- [37:02] thing is because for the open source
+- [37:05] models, the uh the model DeepS OCR, it
+- [37:09] does not support structured output. So,
+- [37:11] I need to do this intermediate step.
+- [37:13] Whereas, on the other hand, if I go to
+- [37:14] GP40 4.1,
+- [37:17] those models are vision language models
+- [37:19] that support structured output. So I
+- [37:21] could actually squash these two steps
+- [37:22] into one. And that's how I built it the
+- [37:24] first time around. I actually did it as
+- [37:26] a GPD4.1
+- [37:28] model uh that I was calling out to with
+- [37:31] a single step. And then I was like,
+- [37:32] well, I'm not going to get everybody at
+- [37:34] the tutorial to pony up their credit
+- [37:36] card to sign up for an OpenAI API key to
+- [37:38] then access GP4.1.
+- [37:41] So I needed to actually for economic
+- [37:43] reasons restructure the program as two
+- [37:46] separate bots.
+- [37:48] >> Okay, back there. I I just I just
+- [37:50] appreciate you choosing those two models
+- [37:52] because they can realistically run on
+- [37:55] new laptops.
+- [37:55] >> Yeah, exactly. Uh back there as well.
+- [37:58] >> Uh yeah, it's my um I'm running into bug
+- [38:02] here which says like debug messages when
+- [38:07] I extract the text I get errors
+- [38:10] processing message with RO system.
+- [38:13] >> Okay, that sounds like a very tough to
+- [38:15] debug live kind of error. uh you could
+- [38:18] follow along with Ben uh who is sitting
+- [38:21] right next to you. That would be that
+- [38:22] would be probably really helpful. Uh but
+- [38:24] we will we can talk afterwards.
+- [38:26] >> I have that as well, but I didn't think
+- [38:28] it was a problem.
+- [38:29] >> Sorry.
+- [38:30] >> I have that as well, but it
+- [38:32] >> it seems to be working. Okay. All right.
+- [38:34] >> We'll we'll we'll deal with that
+- [38:36] >> later then. Okay.
+- [38:41] >> All right, everybody. Let's move on.
+- [38:44] >> Question.
+- [38:44] >> More questions. Oops. Uh,
+- [38:46] >> so the
+- [38:47] >> let's do it ran. Oh, I'm sorry.
+- [38:49] >> So when it ran through processing the
+- [38:51] receipt, I get like a markdown rendering
+- [38:54] of the content,
+- [38:56] >> but then the actual OCR response.content
+- [39:00] which is appended into the OCR texts is
+- [39:03] a different thing.
+- [39:05] >> Yeah. Um let me just think here when you
+- [39:08] get a so you may get back a
+- [39:12] struct
+- [39:14] simple bot you will see the text get
+- [39:18] printed out at the
+- [39:20] >> screen in the screen.
+- [39:22] >> Um however
+- [39:25] when it comes into a Python string it's
+- [39:27] actually just like one long string. So,
+- [39:30] one of the things you might be able to
+- [39:31] do Ian is to hit print print that string
+- [39:34] and it should look the same as what
+- [39:35] you're seeing in the con in the console
+- [39:37] outputs. And if it doesn't, the other
+- [39:39] thing you could try is do MO. MIMO's
+- [39:42] already imported as MO.
+- [39:43] >> Yeah, that's what I've done.
+- [39:43] >> MoMD.
+- [39:44] >> That's what I've done.
+- [39:45] >> And that will render as well.
+- [39:47] >> I've already done those steps.
+- [39:48] >> Okay, cool. [laughter] Sounds good.
+- [39:49] Well, then that's for the benefit of
+- [39:50] others. Thank you.
+- [39:52] >> Any other questions or comments in the
+- [39:54] back? Can we get the microphone in the
+- [39:56] back, please?
+- [40:00] Uh I'm sorry. I know you didn't mean to
+- [40:03] uh go over the evals, but in this
+- [40:05] scenario where there's like OCR related
+- [40:08] thing, how would you even evaluate it?
+- [40:10] Like
+- [40:11] >> like if the model like drifts or
+- [40:14] something, how would you like detect
+- [40:15] that?
+- [40:16] >> Yeah. So the
+- [40:18] what so I took a course, paid a lot for
+- [40:21] it. Uh so I'll share what I learned from
+- [40:24] that course. [laughter]
+- [40:26] Um, you have to look at your data.
+- [40:30] There's there's no way out. You have to
+- [40:32] look at the outputs. You have to look at
+- [40:34] the traces of your your your LLM
+- [40:37] program. The traces being defined as
+- [40:39] what was input, what were the tools that
+- [40:42] were called and if there are any tools
+- [40:44] that were called, what were the outputs?
+- [40:46] Okay. So, you have to look at that that
+- [40:47] that is defined as the data. Um, there's
+- [40:51] no escaping. Yeah. And then there are
+- [40:55] situations, a subset of situations where
+- [40:59] you can go and try to uh steer a
+- [41:03] secondary LLM as a judge to help you
+- [41:05] automate some of this. But you always
+- [41:07] have to be careful because there will be
+- [41:09] an error rate associated with that LLM.
+- [41:12] So you can never really escape
+- [41:14] fundamentally looking at your data. All
+- [41:16] right, cool. Anything else
+- [41:20] over here?
+- [41:23] uh this is not a theme of the talk but
+- [41:25] wouldn't you be able to just directly uh
+- [41:28] read the PDF instead of convert it to an
+- [41:31] image than docr
+- [41:33] um I think so as I mentioned there's
+- [41:35] always a bajillion ways to solve the
+- [41:37] same problem um that might end up being
+- [41:41] perhaps more token efficient if you do
+- [41:44] the image if you do the PDF processing
+- [41:47] the right way. So for example, I could
+- [41:49] choose to instead of passing the PDF
+- [41:54] through an OCR model, I could just pass
+- [41:57] it through regular OCR like test for
+- [42:00] example
+- [42:01] >> and then do text extraction that way.
+- [42:03] Now of course I would have to check and
+- [42:05] eval treat that as an LLM step like an
+- [42:08] LLM step and evaluate how good
+- [42:11] processing of that that step was
+- [42:13] actually done. All right, cool. Thanks a
+- [42:16] lot.
+- [42:17] Cool.
+- [42:19] Let's move on. Um, I'm going to skip
+- [42:22] this blabbering about storing the
+- [42:24] structured data. Just know we're not
+- [42:26] dealing with that today. But you would
+- [42:28] want to have your access to your, you
+- [42:30] know, database access all set up in the
+- [42:32] likes.
+- [42:33] >> Sebastian, I was just going to make a
+- [42:35] small comment on the
+- [42:36] >> on the bug that you had with the 1350
+- [42:39] extracted. It's if you look at your
+- [42:41] system prompt, the amount says the total
+- [42:42] amount should be put there and the
+- [42:44] receipt actually says total credit. So
+- [42:46] that's why it's just taking you
+- [42:47] literally.
+- [42:48] >> That's right. Okay, cool. That's that's
+- [42:49] that's one way that you would debug
+- [42:51] what's going on. You actually have to
+- [42:52] look at both the system prompt and the
+- [42:54] the Python program itself. And so a lot
+- [42:57] of what I learned from building out just
+- [42:59] this tutorial set of agents as well was
+- [43:01] that a lot of the behavior of an of the
+- [43:04] LLM is steered through the system
+- [43:06] prompt. So if you can get a system
+- [43:07] prompt done really well, you can
+- [43:09] actually steer an LLM to do really
+- [43:11] powerful things. But you have to
+- [43:12] experiment. Okay. So I'm going to
+- [43:17] skip this section on storing the
+- [43:20] structured data. We're going to skip
+- [43:21] down to over here. I'm going to
+- [43:23] introduce you to this concept of a tool
+- [43:26] within Labot. It's got its own little
+- [43:28] implementation that you can think about
+- [43:31] where
+- [43:32] uh a tool basically exposes
+- [43:36] a a function a Python function that I
+- [43:38] define as a tool is capable of uh
+- [43:42] exposing what its dock string are as
+- [43:45] well as what its dock string is as like
+- [43:47] a description for an LM context for an
+- [43:49] LLM as well as what arguments it accepts
+- [43:53] and the types of those arguments as
+- [43:55] well. And so this all becomes part of
+- [43:57] the LM um LLM's ability to generate the
+- [44:01] right arguments. Now um what I've done
+- [44:05] here is essentially taken this LLM bot
+- [44:11] or actually these two LLM bots, right?
+- [44:14] We have structured we have uh the bot
+- [44:18] that does OCR
+- [44:21] inside called inside this function and
+- [44:23] we've got the receipt structuring bot
+- [44:25] also called inside this function. And so
+- [44:27] what we've done is we've basically said
+- [44:29] you two bots we know how we want you to
+- [44:32] behave. We know exactly the order of
+- [44:34] operations in which you need to behave.
+- [44:36] Now let me just wrap this up inside a
+- [44:38] function put a bow tie on it and say I'm
+- [44:40] going to give this to another agent at
+- [44:41] another time. Right? So that's all we're
+- [44:43] doing here. We're packaging up this
+- [44:45] workflow that we've defined in
+- [44:47] freestanding Python code and now we're
+- [44:50] just putting it inside a Python function
+- [44:52] that can be treated as a tool for
+- [44:55] another uh agent bot. Okay, that will
+- [44:58] come later. I'm not going to go too deep
+- [45:00] into what these three decorators do, but
+- [45:03] they they do help with what's going on.
+- [45:07] Um,
+- [45:08] any questions about
+- [45:11] Sorry. Uh let me think here. Yeah. Okay.
+- [45:15] So then if I were to try to do this one
+- [45:17] one more time, man, like that 1350
+- [45:20] became 1444. I wish money would just
+- [45:22] appear like that. Um so in any case,
+- [45:25] that that just that is just me testing
+- [45:27] this function as well. So um I do wanted
+- [45:30] to stop for a moment and ask if anybody
+- [45:32] had any questions thus far about the
+- [45:34] receipt processing side and [snorts]
+- [45:36] whether it's like sparked any other
+- [45:38] higher order thoughts.
+- [45:40] >> Do you need that 94 cents, man? Man, I
+- [45:42] got you. [laughter]
+- [45:45] I would love the percentage
+- [45:46] differential. [laughter]
+- [45:49] Uh Ben, back there.
+- [45:53] Let's pass the mic back, please.
+- [45:55] >> No, this is not MADNA where I can throw
+- [45:57] that mic around.
+- [45:58] >> Um so you had the definitions or we sort
+- [46:01] of gone over the definitions of agents
+- [46:03] and workflows before.
+- [46:04] >> We did the definitions of agents and
+- [46:05] workflows before, but
+- [46:06] >> yeah. What would you call these like
+- [46:08] different components? Are they
+- [46:09] individual agents or Yeah.
+- [46:12] >> Um [laughter]
+- [46:14] >> you know [snorts] what in this a day and
+- [46:15] age uh milk it you know just call
+- [46:18] everything an agent. No I'm just joking.
+- [46:20] Um workflows workflows are things that
+- [46:24] are that feel a little bit more static
+- [46:26] qualitatively and agents I think
+- [46:28] qualitatively feel a little bit more
+- [46:30] free form. You you you have a greater
+- [46:32] dynamic range of possibilities with an
+- [46:35] agent. With a workflow, it's kind of
+- [46:37] like I know I'm supposed to upload a PDF
+- [46:39] and I'm going to get back a database
+- [46:41] entry, right? Like that sort of thing.
+- [46:42] There's not very many ways that I can
+- [46:45] interact with that thing. And a
+- [46:47] workflow, another another way that I
+- [46:49] think about is a workflow is one which I
+- [46:50] can slap a UI on and it's just a
+- [46:52] deterministic set of steps that have
+- [46:54] have to be followed.
+- [46:56] Cool. Anything else? Get out front. One
+- [47:00] moment. Let's pass it.
+- [47:05] I guess the non-science crowd's going to
+- [47:08] lose me. So, what do you call this thing
+- [47:09] we just made couple of weeks ago? It
+- [47:11] sits in a lab. You scan the vial to it,
+- [47:14] right? It has
+- [47:15] >> It's a paper. I scan papers.
+- [47:17] >> No, no, no. That's a build. I'm just
+- [47:18] trying to describe what we built and
+- [47:20] what you call it. Is it workflow engine?
+- [47:22] Sorry.
+- [47:22] >> So, it's a gizmo. It's in a lab. You put
+- [47:24] your like vial next to it. It scans QR
+- [47:26] code on it. It asks you like parameters
+- [47:29] of it because you probably measured pH.
+- [47:31] You look the clarity and everything. And
+- [47:33] then it puts it in a limbs. Is it
+- [47:35] workflow or is it an agent?
+- [47:36] >> I would argue that's more like a
+- [47:39] workflow.
+- [47:40] >> Is it workflow?
+- [47:40] >> Yeah. And it has Yes, it has a human
+- [47:43] component where you're interacting but
+- [47:44] the human's one way
+- [47:46] >> feedback to the human for turn.
+- [47:48] >> There is because it actually if you
+- [47:51] >> said something wrong or I mean you can
+- [47:53] have conversation with it
+- [47:55] >> but very like very focused very very
+- [47:57] focus.
+- [47:57] >> Very constraint. Yeah.
+- [47:58] >> Yeah. That's where we're in the gray
+- [47:59] zone.
+- [48:00] >> Okay.
+- [48:01] >> Yeah. Yeah. I'm not exactly sure how I
+- [48:04] define that. Um,
+- [48:05] >> yeah, it's a premium.
+- [48:06] >> It's a what?
+- [48:08] >> It's a workflow premium.
+- [48:09] >> It's a workflow premium maybe, right?
+- [48:11] Yeah. Semantics at that point. Yeah. Um,
+- [48:14] really, you know, like if you're in an
+- [48:16] org that isn't maybe as up to date, just
+- [48:18] milk it and like call everything an
+- [48:20] agent, man. Seriously, I built an agent.
+- [48:22] It's just a work, but it's an agent. You
+- [48:24] know, I that's what I would do. Um, if
+- [48:27] you are in an or that's a little bit
+- [48:29] more savvy, I think people [snorts] will
+- [48:31] start to want to have these definitions
+- [48:33] clear. That's more a human problem than
+- [48:35] it is like really you're solving a
+- [48:37] business problem. That's the most
+- [48:38] important thing. Yeah. Cool. All right.
+- [48:42] Let's move on in the interest of time.
+- [48:44] Um,
+- [48:46] I am going to skip the bot spans as
+- [48:49] well. That was something I was
+- [48:50] implementing last night um within Llama.
+- [48:52] So, we don't have to go through that.
+- [48:54] It's not core to what we're doing here.
+- [48:56] We're going to actually do the exact
+- [48:57] same exercise for invoice data. So what
+- [49:00] we're going to do in both cases it is
+- [49:02] text in structured data out. Okay.
+- [49:05] However,
+- [49:06] in the first case it's text of any
+- [49:08] arbitrary size that just happens to come
+- [49:11] to you. It's not really text that's
+- [49:12] coming from a human per se, right? It
+- [49:14] could be a machine generated text and
+- [49:15] you just need to parse it out. Second
+- [49:17] one is an invoice writer. And really
+- [49:19] what we're trying to do here is say I
+- [49:21] want to write I want to command an LLM
+- [49:25] to produce the invoice for me from
+- [49:29] natural language prompting. That's all
+- [49:31] right. And I can choose to give as much
+- [49:32] or as little information as I decide to.
+- [49:36] Um if I give not enough information,
+- [49:40] you'll see what happens. And if I give
+- [49:42] enough information, you'll also see what
+- [49:43] happens. You can experiment with that
+- [49:44] [snorts] as it comes. So what I would
+- [49:46] like you to do now is to also help me
+- [49:49] implement invoice data exercise. So this
+- [49:53] is the second structure generation
+- [49:54] exercise that I' like everybody to go
+- [49:56] through. Um so go ahead and like um
+- [49:59] implement the
+- [50:02] um implement the pyantic model for
+- [50:05] yourself and again if you're feeling if
+- [50:06] you're not feeling it just scroll to the
+- [50:08] bottom copy and paste the answer and
+- [50:09] come back up. that will also work
+- [50:12] which actually in the interest of time
+- [50:13] that is what I am going to do but I am
+- [50:15] going to give people about three minutes
+- [50:17] four minutes to finish whatever they
+- [50:19] can.
+- [50:23] So I just finished filling out all the
+- [50:25] fields. Uh no expectation that you all
+- [50:28] did that if you all just like filled in
+- [50:30] if you just filled in like you know
+- [50:33] field plus the type that's good enough.
+- [50:36] Um I did that to pace myself so that I
+- [50:38] didn't like rush forward in the
+- [50:39] tutorial. Um
+- [50:42] if you could then take invoice data
+- [50:45] exercise as the pyantic data model that
+- [50:47] needs to be generated and pass that into
+- [50:51] structured bot.
+- [50:53] All right.
+- [50:56] You should have a cell that below that
+- [50:59] looks like this where the key line, the
+- [51:02] only line that you need to change is
+- [51:03] paidantic model equals invoice data
+- [51:06] exercise. Okay. [snorts]
+- [51:08] Um, so I just want to get a quick show
+- [51:09] of hands. How many of you have been able
+- [51:11] to make it to this point? Okay, cool.
+- [51:14] I'm going to wait a few more minutes for
+- [51:15] people to catch up.
+- [51:30] >> [snorts]
+- [51:37] >> question.
+- [51:38] >> Yes, question about Marrimo.
+- [51:41] >> Uh, so as you're adding descriptions to
+- [51:43] each field, I wanted to catch up. So, I
+- [51:45] copied it out of Mimo and into like
+- [51:47] cloud and had it I did one of them and
+- [51:49] had it do the rest of them so that my
+- [51:51] screen looks very close to yours but
+- [51:52] slightly AI.
+- [51:54] >> Is there a way for me to get like a VS
+- [51:56] Code AI editor inside of a notebook
+- [51:59] thing like
+- [52:00] >> MIMO does have a pretty
+- [52:03] uh wide range of AI capabilities. Um, if
+- [52:07] you run MIMO notebooks locally,
+- [52:12] you can add like you can do uvximo.
+- [52:15] Actually, I'm going to show people.
+- [52:17] >> I'll just show. I think it's better if I
+- [52:19] just show than tell.
+- [52:21] >> GitHub lambot
+- [52:24] tutorials
+- [52:26] I data Boston. [snorts] So, what I'm
+- [52:28] going to do here is I'm going to do
+- [52:31] uh new sabot. I'm going to do a T-mok
+- [52:33] session just so I can show things side
+- [52:35] by side. All right, I'm going to do uvx
+- [52:37] marrimo edit sandbox.
+- [52:40] Um, a back office.py, but I'm going to
+- [52:43] add two flags, a few flags. Watch MCP
+- [52:48] and uh no token.
+- [52:54] [snorts] That should work.
+- [52:56] Now on the right hand side I'm going to
+- [52:58] start claude.
+- [53:02] Okay. So that's running.
+- [53:04] I want you to edit back office.py
+- [53:10] by adding a new cell at the bottom that
+- [53:15] says
+- [53:16] hello Adam.
+- [53:21] So let me go to the bottom down here.
+- [53:25] It's going to do its thing.
+- [53:28] The watch flag is what makes the MIMO
+- [53:32] server continuously pull the file system
+- [53:34] for any new changes, they're showing up
+- [53:37] on the file system. And so if cloud code
+- [53:40] finishes
+- [53:42] at the bottom down here, we will see
+- [53:44] hello Adam showing up. Okay. different
+- [53:50] question about it is a way for the to
+- [53:52] get back there notebookation
+- [53:55] >> with MCP
+- [53:56] >> so there's a
+- [53:58] >> that is the the MCP flag will allow you
+- [54:00] to will allow cloud code to inspect
+- [54:02] notebook
+- [54:03] >> soc via CLI exactly and I I I primarily
+- [54:07] code in cursor so on my personal
+- [54:09] projects and github copilot for work and
+- [54:11] so I would add the mimo mcp server on
+- [54:15] whatever wherever it's running the no no
+- [54:16] token
+- [54:17] flag is important uh just to keep the
+- [54:20] URLs kind of clean, right? And so yes,
+- [54:24] so we've got that down there and hello
+- [54:27] Adam has shown up right there.
+- [54:29] >> Yeah.
+- [54:30] >> So that's that's that's but one way to
+- [54:32] use AI with MIMO, right? If you do
+- [54:34] command shift E
+- [54:36] on your or control shift E on your on
+- [54:38] your laptops, there's built-in uh
+- [54:41] capabilities and also uh agents. Where
+- [54:45] are you? Where are you? Right here. Chat
+- [54:47] and agents is also another option. If
+- [54:49] you have an API key out to OpenAI,
+- [54:52] Anthropic, Gemini, etc., you can use it
+- [54:54] in line here. I think one of the
+- [54:55] powerful things is you can actually add
+- [54:57] a particular variable or a function and
+- [54:59] that gives context
+- [55:01] >> of that function to the coding agent.
+- [55:03] >> I found if you choose Marimo models,
+- [55:05] they give you some free credits.
+- [55:08] >> Is that right? Oh,
+- [55:09] >> sure. Go try it.
+- [55:10] >> I didn't realize that. Okay. Uh
+- [55:13] >> oh,
+- [55:13] >> maybe I don't have it here. We can try
+- [55:15] after. Yeah, if if you have it on your
+- [55:17] side. Yeah. Yeah.
+- [55:18] >> Cool. So, I'm I'm just gonna uh uh So,
+- [55:21] that that's that's a few ways that you
+- [55:23] can interact with AI within MIMO, right?
+- [55:25] Hit. Okay. So, Okay. Cool. So,
+- [55:30] let us now
+- [55:33] test drive the invoice writer bot. I'm
+- [55:36] going to ask you all to add a new cell
+- [55:39] below.
+- [55:41] And I want you to call on it and just
+- [55:43] and and go like help me write an invoice
+- [55:46] to acme
+- [55:49] uh sorry to pi data for or numbum focus
+- [55:55] um at I don't know what what is it 135
+- [56:00] some street sum street New York City New
+- [56:05] York state um uh for
+- [56:11] $10,000. Jim's going to be sweating if I
+- [56:14] actually do this. [clears throat] Um,
+- [56:17] the organizers for $10,000 for services.
+- [56:20] Sorry. No, you know what? We'll be kind.
+- [56:22] $1 nominal service for pro bono
+- [56:27] uh consulting services. All right, let's
+- [56:30] see what happens.
+- [56:33] Okay. So, it's going to start generating
+- [56:36] and boom, our invoice should be
+- [56:38] generated, right? Do you all have have
+- [56:41] you all tried that for yourself and seen
+- [56:43] that it works?
+- [56:45] >> Still typing it. Okay. Go type your go
+- [56:47] type your invoice to num focus.
+- [56:50] >> Sorry. All we had to change for the
+- [56:52] invoice data exercise was uh just add
+- [56:54] those
+- [56:55] >> those fields. That's right.
+- [56:57] >> Add those fields.
+- [56:58] >> Change the name of a class
+- [56:59] >> and change the name of the class as
+- [57:00] well. Exactly. Uh because over here um
+- [57:03] thank you for for the reminder. Uh this
+- [57:06] line over here, you want to change it to
+- [57:07] invoice data exercise rather than just
+- [57:10] invoice data. But you know what? Like
+- [57:12] you can also choose to add more fields
+- [57:13] or like uh take out some fields if
+- [57:16] that's that's something that you need to
+- [57:18] you want to play around with. All right,
+- [57:20] [laughter] cool. All good. So that's
+- [57:23] that's again [clears throat] just to
+- [57:24] hammer home the point. Um, if this were
+- [57:27] an actual application, you would have an
+- [57:28] API call out that says like, "Okay." Or
+- [57:30] you bake it inside, you might perhaps
+- [57:33] bake it inside a uh a trip like a web
+- [57:36] app or something where you you you'll
+- [57:38] flash up the invoice. You'll get a
+- [57:40] confirmation. Is this correct or not? If
+- [57:41] it's not, go back and edit. If it's
+- [57:43] correct, then it will save inside the
+- [57:45] database and also maybe automate an
+- [57:47] email out to your clients for whatever
+- [57:49] is going on. Right? Sounds Sounds about
+- [57:51] right. So, like that would be the the
+- [57:53] thing that you would do, but we're
+- [57:55] skipping that obviously in this
+- [57:56] tutorial. Uh, question back there from
+- [57:58] Ben. Let's
+- [58:02] >> What do you think is the reason it chose
+- [58:04] 2024 for this invoice?
+- [58:07] >> Yes, it's because we didn't put any
+- [58:10] constraints and we didn't also steer the
+- [58:13] LLM to generate the invoice with a
+- [58:16] particular set of dates. Now if you look
+- [58:18] down below there will be a system prompt
+- [58:20] elsewhere um that actually constrains
+- [58:23] the issue date to be today the date of
+- [58:27] generation and the due date to be 30
+- [58:29] days from issue date
+- [58:31] >> but it's 2025
+- [58:33] >> exactly but that that wasn't part of the
+- [58:35] system prompt for this bot
+- [58:37] >> but a later bot down below has that as
+- [58:39] the system prompt right
+- [58:43] >> let's train
+- [58:47] Yes,
+- [58:48] >> they probably train that model in 24 and
+- [58:51] it's a lot of days of 24 and it just
+- [58:53] assumes like
+- [58:54] >> That's right. Yeah,
+- [58:55] >> that's right. It's going to reflect the
+- [58:57] so-called average of your training data
+- [58:59] if you don't if you don't steer it in a
+- [59:00] particular direction.
+- [59:02] >> Okay, any other questions so far? Okay,
+- [59:06] so let's get to the exciting part. Um,
+- [59:10] we've got a generate invoice thing. Yes,
+- [59:13] actually over here right down here is
+- [59:16] where I do add in additional constraints
+- [59:19] on the bot where part of the business
+- [59:22] logic here is that it must be the issue
+- [59:23] date must be today and I actually put
+- [59:25] today's date the due date must be the
+- [59:27] due date and we actually calculate the
+- [59:29] due date and then that is also steering
+- [59:31] the LLM. You don't have to do it this
+- [59:33] way by the way you can also get the LLM
+- [59:35] to output whatever and then you just add
+- [59:37] in the date on your own. That also works
+- [59:40] perfectly fine, right? So, like I was
+- [59:42] saying, there's always a multitude of
+- [59:44] ways to solve the exact same problem.
+- [59:46] I've chosen the LLM based way just to
+- [59:48] showcase a few um ways that you can use
+- [59:51] LLMs, but so so that you know it's
+- [59:54] actually not just generating strings,
+- [59:55] but you can actually generate other data
+- [59:57] types if you steer it the right way.
+- [59:59] However, um just know that there are
+- [60:02] mult multiple ways of solving this exact
+- [60:03] same problem. Okay, cool. So, just like
+- [60:07] before, we're going to wrap the generate
+- [60:09] invoice thing within a tool called write
+- [60:12] invoice. And what we're going to do
+- [60:14] finally,
+- [60:16] oh yeah, so if you if you continue
+- [60:17] scrolling down a little bit more, you'll
+- [60:19] see another example of another invoice
+- [60:21] that is, you know, generated over there.
+- [60:23] Um, we're going to skip all of that in
+- [60:25] the interest of time and actually talk a
+- [60:27] little bit about the agent part. So,
+- [60:29] let's let's zoom out a little bit. I
+- [60:30] know there's been a lot that we've
+- [60:32] talked [snorts] about. there is the
+- [60:35] receipt workflow that we coded up and we
+- [60:38] coded up uh in particular the data model
+- [60:40] the the data model for a receipt. Um
+- [60:43] then we did the same for an invoice
+- [60:45] where we have a data model for an
+- [60:46] invoice and you think about it you can
+- [60:48] actually start taking free text and
+- [60:50] templating documents and templating
+- [60:53] other you know it's it's a very general
+- [60:55] class of problems that you can solve
+- [60:57] that way. Um,
+- [60:59] how do we then bake in the interactivity
+- [61:02] pieces? No.
+- [61:05] [laughter]
+- [61:07] All right, I'm gonna have to rerun that
+- [61:08] entire notebook. That's fine. It's okay.
+- [61:11] Um, so how do we bake in the
+- [61:13] interactivity? Then this is where we
+- [61:15] come into this like agent loop. Now, if
+- [61:17] you go to Sebastian's talk on tomorrow,
+- [61:20] Wednesday, tomorrow,
+- [61:21] >> tomorrow,
+- [61:22] >> tomorrow, he'll talk about the only two
+- [61:24] loops that you have to worry about as a
+- [61:27] um as a uh a developer of an LLM. And
+- [61:31] I'm not going to spoil your talk because
+- [61:32] that's your talk. Um so, go listen to
+- [61:34] his talk. Meanwhile, um within agent
+- [61:38] within Lambabot, I've like rewritten the
+- [61:40] agent harness like four or five times as
+- [61:43] my understanding evolves on it as well.
+- [61:46] And um ultimately it does come back down
+- [61:49] to I have a an LLM that is making
+- [61:53] choices about what to do next
+- [61:55] autonomously, but it is being steered
+- [61:57] very heavily by how the system prompt
+- [61:59] works. And you'll see that I've actually
+- [62:01] collapsed the system prompt in the MIMO
+- [62:04] notebook because it is very very long,
+- [62:06] very very prescriptive. And turns out
+- [62:09] that's uh a a common pattern that you'll
+- [62:12] see for the development of agents. All
+- [62:15] right, let me just hit play. Let it run
+- [62:18] through all of that. And I'm going to go
+- [62:19] to the mini map on the right hand side
+- [62:21] if I can find it there. Let's scroll
+- [62:24] down to [snorts]
+- [62:29] install that. Let me scroll back down to
+- [62:31] the [snorts] coordinator agent. We're
+- [62:33] gonna Come on.
+- [62:36] There we go.
+- [62:38] So, what I one of the things that I
+- [62:40] wanted to
+- [62:42] do here was to be Oh, man. There's a lot
+- [62:45] that's not going to work [snorts] um
+- [62:47] until Llamabot is fully installed. One
+- [62:49] of the things that I wanted to to do
+- [62:51] here was to showcase a little bit of um
+- [62:54] the showcase two patterns when working
+- [62:56] with building with agents. Um [snorts]
+- [62:58] this one is uh going to be a little bit
+- [63:00] more of me demoing, but you can follow
+- [63:02] along pretty easily. Um the first is to
+- [63:06] look at this function called chat turn.
+- [63:11] It's down here slightly obscured by uh
+- [63:14] the window uh right there. And so the
+- [63:17] way that it works is um you have
+- [63:21] when you're building a chatbot type of
+- [63:23] agent, you have to think in terms of
+- [63:24] chat turns like a human initiates a
+- [63:27] message and then an a bot responds. A
+- [63:29] human initiates a message, another
+- [63:31] message and then the bot responds. And
+- [63:33] so there's this um this concept of a
+- [63:36] chat turn that you want to keep in mind.
+- [63:38] And so the way that
+- [63:42] most with with MIMO's chat UI uh
+- [63:45] functionality, what you'll end up doing
+- [63:47] is you'll actually taking you'll end up
+- [63:49] taking the chat uh message, you know,
+- [63:53] the say for example, the latest chat
+- [63:55] message that was sent by the bot by the
+- [63:58] human and then passing that in. you end
+- [64:01] up passing that into oh man this is
+- [64:05] you end up passing that into the LLM bot
+- [64:08] itself. [snorts]
+- [64:10] And so um if I were to come down here
+- [64:15] and wow I just have to I just have to
+- [64:17] wait for a moment for this to finish
+- [64:19] installing. [snorts] Um
+- [64:22] >> yes it's it's Is it going is it done? Oh
+- [64:25] it's done. Okay. Amazing. Great. Thank
+- [64:26] you.
+- [64:28] Let's zoom back in. So, one of the
+- [64:31] things that we've done here is with the
+- [64:32] code, I'm not going to go uh overly I'm
+- [64:35] not going to overly
+- [64:37] uh emphasize too much about it, but it
+- [64:39] does enable like file upload
+- [64:40] capabilities. So, for example, you could
+- [64:43] upload, for example, like a receipt for
+- [64:46] coffee, which is what I'm doing, and
+- [64:48] then do something with the chat turn
+- [64:51] pattern over here that allows you to
+- [64:55] actually interact with that bot with the
+- [64:57] file in memory, right? Like, it's
+- [64:59] something that I've tried to enable or
+- [65:02] or show a pattern for how this might
+- [65:04] work. Um, and the way that it works
+- [65:06] here, you might say, for example, uh,
+- [65:09] take one of the pre-baked prompts over
+- [65:10] here and go process the receipt file I
+- [65:13] uploaded using the file widget above,
+- [65:15] extract all the structured data from it,
+- [65:17] hit enter, and let's pray that it works
+- [65:20] because this doesn't always work exactly
+- [65:23] the way you think it uh, you would want
+- [65:25] it to work. Um, and this is something
+- [65:27] that I also want. So, first off, two two
+- [65:30] points while this is cooking in the
+- [65:32] background. Uh, does this sound like the
+- [65:36] kind of prompt that a human would write?
+- [65:38] No. Absolutely not. Absolutely not. You
+- [65:42] th this is placing two this kind of
+- [65:45] prompt places a very high like expecting
+- [65:47] this kind of prompt to come from a user
+- [65:49] places a very high burden on the user
+- [65:52] for a chat agent, right? Um, if we think
+- [65:55] about the savviness of users, not
+- [65:57] everybody is going to be savvy enough to
+- [66:00] know how to prompt an LLM to do very
+- [66:02] specific things to be extremely precise
+- [66:04] and uh verbose. So that's that is going
+- [66:07] to be an issue, but I still have it.
+- [66:10] Why? Any guesses?
+- [66:14] >> Workflow.
+- [66:15] >> Workflow workflow.
+- [66:17] >> Building workflow library. Uh, this
+- [66:21] looks more like a system prompt and user
+- [66:23] would upload it to widget and this would
+- [66:26] fire up anyway.
+- [66:27] >> Yeah. Okay. Okay. You're you're getting
+- [66:29] there. Any other any other guesses?
+- [66:36] >> Okay. I'm going to reveal why. When
+- [66:39] you're in the early days of building out
+- [66:42] an agent, because it's a castastic
+- [66:44] system, because there are so many prompt
+- [66:46] uh so many moving parts, you actually
+- [66:48] want to have what I would call a perfect
+- [66:50] prompt handy that is fully prescriptive
+- [66:54] and has the entire set of behavior that
+- [66:57] you would expect to come from uh that
+- [66:59] you would expect uh in an idealized
+- [67:02] world. And this helps you eliminate many
+- [67:05] many sources of failure modes or
+- [67:07] variations in the earlier days in the
+- [67:10] earliest days of like building out the
+- [67:12] agent. So imagine if like every time I
+- [67:14] tested the agent I had a variation of
+- [67:16] like hey
+- [67:18] [laughter]
+- [67:19] and then process that right like how is
+- [67:22] that helpful for building out the agent?
+- [67:24] It's much more helpful if I have a very
+- [67:26] controlled uh suite of prompts. In my
+- [67:29] case, I'm only showing one per task that
+- [67:33] I expect the agent to do. I I have this
+- [67:36] one this suite of perfect prompts that
+- [67:38] allow me to steer the agents in a very
+- [67:41] particular direction. And those
+- [67:43] represent the best of what an LM should
+- [67:45] be able to do and your expectations
+- [67:47] should be in the wild. You're going to
+- [67:50] get really really wacky um uh inputs
+- [67:55] coming in. And this I saw live. the guy
+- [67:58] who's responsible for helping to helping
+- [68:01] with AI adoption at MADNA. Um, I built
+- [68:05] like this stats agent that like does,
+- [68:07] you know, fitting of GLM behind the
+- [68:09] scenes in memory. I can I can take in
+- [68:11] CSVs and like have it output plots and
+- [68:14] stuff. He walked in and he just went
+- [68:15] like, hey, [laughter]
+- [68:17] I'm like, dude, that's not what you
+- [68:19] that's not what you is that how you talk
+- [68:21] with a statistician? No. Right. So he is
+- [68:23] not even a laboratory scientist. So he's
+- [68:26] not tuned. But that's that's what will
+- [68:28] happen in the real world for any of your
+- [68:31] applications that you build if you build
+- [68:33] it especially as a chat system that
+- [68:36] accepts natural language. So you might
+- [68:38] start to get a sense of my own
+- [68:39] preferences. I really don't advocate
+- [68:41] that you build chat systems. [laughter]
+- [68:44] You should build more things that look
+- [68:47] more like workflows because they have
+- [68:48] very very high value. But in the case
+- [68:51] where you do need to have chat
+- [68:53] orchestration [clears throat] happening.
+- [68:55] It is possible. And so let me peel back
+- [68:58] a little bit about how this got done.
+- [69:03] Need to come back up to here
+- [69:06] where
+- [69:08] we defined
+- [69:12] the agent bot.
+- [69:14] Agentbot is another bot within the llama
+- [69:16] bot family that accepts Python functions
+- [69:20] that have been decorated correctly.
+- [69:24] It accepts these functions as tools that
+- [69:26] it can call on. And it also comes with a
+- [69:28] suite of default tools like check
+- [69:30] today's date or respond to user or
+- [69:33] because it's running in a Python
+- [69:34] runtime, you can actually return a
+- [69:36] Python object to user, right? So those
+- [69:38] are all possible things that can be done
+- [69:40] by with the with the bot. Um,
+- [69:44] and the model name that you have there
+- [69:47] is the so-called agentically trained
+- [69:51] mode, the tool calling model that is
+- [69:53] capable of autonomously deciding based
+- [69:55] on the request and the system prompt
+- [69:57] what tool should I call on next. And
+- [70:00] these tools
+- [70:02] [snorts] in addition to the default
+- [70:04] tools that are provided are part of that
+- [70:06] toolkit. Right now, if you were to use
+- [70:08] like langraph or other agentic, you
+- [70:11] know, uh SDKs, it's the same concept as
+- [70:14] well, right? You would want to define
+- [70:15] tools either through MCP servers or by
+- [70:19] Python functions that um that uh are are
+- [70:22] passed in. And just notice over here as
+- [70:24] well,
+- [70:26] write invoice and process receipt, those
+- [70:29] are LLM enabled workflows. So bots can
+- [70:31] be tools for other bots, right? So
+- [70:34] there's nothing stopping you from from
+- [70:35] adopting that design pattern. You do not
+- [70:38] have to have like this maximalist one
+- [70:40] big bot that does everything. You're
+- [70:42] allowed to have like it's it's
+- [70:44] equivalent to the sub agent uh design
+- [70:46] pattern, right?
+- [70:48] I thought I saw some
+- [70:51] hands. Okay. Yes, Vlad. [snorts]
+- [70:54] >> I actually find the value for all the
+- [70:57] bots to respond to the hey. like you
+- [70:59] just have a little system prompt because
+- [71:01] that's natural reaction for fiber buy
+- [71:04] because and I noticed it's not only me
+- [71:06] the cloud code if I launch it I always
+- [71:08] say hello and what it does it reads the
+- [71:10] cloud MD and all the like whatever
+- [71:12] commits like it actually responds to
+- [71:14] hello like
+- [71:15] >> yes yes that's that is good right like
+- [71:17] to be able to to deal with the the
+- [71:19] variety of like requests and actually
+- [71:21] part of what you want a design pattern
+- [71:23] that you may want have want to have here
+- [71:26] is that if you get a request that is out
+- [71:28] of bounds
+- [71:29] for what an agent is supposed to do. You
+- [71:31] actually have instructions to the bot
+- [71:32] how to steer the conversation back.
+- [71:36] >> Yeah. And it's a little thing to add to
+- [71:38] it. So if you actually ever send the
+- [71:39] email before, right? So that SMTP
+- [71:41] protocol, the very first it says to the
+- [71:43] other send server, it actually says
+- [71:45] hello.
+- [71:46] >> Oh yeah, that's right. Yeah, that's
+- [71:48] right. That's right. I I think we got
+- [71:49] one back there.
+- [71:50] >> Oh, you have your hand. Yeah. Um, I was
+- [71:53] basically going to say for a lot of like
+- [71:56] customer service bots that I think are
+- [71:58] already out there and probably use some
+- [72:00] sort of LLM, the chat windows don't
+- [72:02] always let you, you know, type whatever.
+- [72:04] They have like predefined message blocks
+- [72:06] and it seems like it's
+- [72:07] >> Amazon Amazon does that. That's so
+- [72:10] irritating because I always want to just
+- [72:11] talk with a human
+- [72:12] >> and even on like the phone, but
+- [72:14] >> and if you do spam it, I don't know, my
+- [72:16] tactic is always just yell operator at
+- [72:18] it until I get to a human.
+- [72:20] >> It doesn't handle.
+- [72:21] >> Yeah, that's right. That's right. Cool.
+- [72:24] Do you have something? No. Okay. Cool.
+- [72:26] All right.
+- [72:26] >> You should try normal instructions.
+- [72:28] >> Yeah.
+- [72:29] >> Okay. Um, one of the things that doesn't
+- [72:32] always show up, but if you try it for
+- [72:34] yourself, I'd like to invite you to try
+- [72:35] it out is [clears throat]
+- [72:37] to
+- [72:39] come to the chat window and try either
+- [72:41] the first or the second prompt.
+- [72:44] Sometimes, but not always. So this is
+- [72:47] not a reliably this I have not yet
+- [72:49] figured out how to make this completely
+- [72:51] reliable but some if you remember we had
+- [72:55] this rich HTML display.
+- [72:58] MIMO I know it went blank. MIMO has
+- [73:01] MIO's chat UI has the ability to display
+- [73:03] rich HTML. So if we're lucky Oh look at
+- [73:07] that.
+- [73:08] >> Boom. You can actually have like the
+- [73:10] rich HTML display show up. So that's
+- [73:13] pretty cool. Um, I just wanted to make a
+- [73:15] quick plug for that. Um, if you look at
+- [73:17] the architecture of what the agent bot
+- [73:20] is actually like, um, you can evaluate
+- [73:23] coordinator bot and it will show you a
+- [73:26] MIRMO diagram,
+- [73:28] uh, sorry, mermaid diagram within the
+- [73:30] MIMO, uh, UI of what tools are available
+- [73:34] to it. You'll notice we provided write
+- [73:36] invoice, process, receipt, and list
+- [73:39] uploaded files. But above there's also
+- [73:42] today's date, respond to user, return
+- [73:45] object to user which was just called. So
+- [73:47] which is why we can return that HTML
+- [73:50] displayed object to user as well as
+- [73:52] inspect globals which allows me to look
+- [73:54] at what what objects are available in
+- [73:56] Python memory right now. Those were
+- [73:58] tricks that took me like multiple weeks
+- [74:00] to figure out even with AI assistance.
+- [74:02] It's not you have to kind of do some
+- [74:04] kind of weird meta programming looking
+- [74:05] with inside looking inside the exact
+- [74:07] runtime and then manipulating the
+- [74:09] runtime environment with Python as well.
+- [74:12] So it was pretty fun to to try to code
+- [74:14] this up. I [snorts] don't I I don't
+- [74:17] recommend anybody try that. Like it'll
+- [74:18] be a security nightmare. Your cyber
+- [74:20] security folks will comeounding on you.
+- [74:22] So you should you end up just having to
+- [74:24] run everything inside a container. So
+- [74:26] that's that's just how it ends up being.
+- [74:29] Okay. Um,
+- [74:32] cool stuff. How are folks doing? All
+- [74:35] right. So, I'm going to I'm going to I'm
+- [74:37] going to Let's go down. Let's go down.
+- [74:40] Let's go down. Um,
+- [74:43] I wanted to leave everybody We're going
+- [74:45] to wrap up now uh before and then I'll
+- [74:47] leave some time for Q&A. Um, but wanted
+- [74:49] to um my hope from this tutorial was
+- [74:53] that it demystifies how you go about
+- [74:55] building agents. Um really you'd want to
+- [74:58] pick an agent SDK. You don't have to use
+- [75:00] Llama. You can use any agent SDK you
+- [75:02] want. But you do want to define what are
+- [75:04] the uh specific things that this agent
+- [75:07] can do, right? Like I build a stats
+- [75:10] agents. I'm not expecting it to do like
+- [75:13] receipt processing for example. And
+- [75:15] likewise if I build a receipt processing
+- [75:17] agent or back office agent for example,
+- [75:20] I'm not expecting it to do design of
+- [75:22] experiments and like critique of
+- [75:24] experiment designs for me. You want to
+- [75:25] define first what you expect your agent
+- [75:27] to do. Um, and then give it the
+- [75:29] appropriate tools. And even those tools
+- [75:31] themselves can be LLM enabled tools
+- [75:34] themselves, right? You don't have to
+- [75:36] tools do not have to just be pure Python
+- [75:38] code. You can call out on anything that
+- [75:40] looks like an API. And if it's backed by
+- [75:43] if it's backed by um uh another LLM,
+- [75:47] then so be it. It gets the job done. Uh,
+- [75:50] another example uh, uh, sorry, another
+- [75:52] um, thing that I'm hoping everybody took
+- [75:53] away from today was the utility of
+- [75:56] structured generation. We did like two
+- [75:58] or three different two examples of
+- [76:00] structured generation. One where we're
+- [76:01] generating the receipt with its
+- [76:03] particular schema. The other where we're
+- [76:05] generating an invoice with its
+- [76:06] particular schema.
+- [76:08] A lot of your applications where you
+- [76:11] work will be structured generation. I
+- [76:13] can guarantee you that because where you
+- [76:16] need natural language input into a
+- [76:18] structured database, that's exactly
+- [76:20] where LLMs are going to find its value.
+- [76:22] Um, cool. And the final thing that I
+- [76:27] think I want to leave everyone with is
+- [76:29] that you can actually do, we did a lot
+- [76:31] of this, we did all of this with models
+- [76:34] that in theory can work on a laptop that
+- [76:37] has like 32 to 64 GB of RAM. And if
+- [76:40] you're judicious about your model
+- [76:42] choice, um you can actually bring it
+- [76:44] down to fit on laptops that work that
+- [76:47] have only 16 gigs of RAM. Um so I'd
+- [76:50] really encourage you all like go
+- [76:51] experiment with uh the variety of models
+- [76:54] that are out there. Also check out Ian's
+- [76:56] talk because he's or tutorial, right?
+- [76:58] It's today after
+- [77:00] >> yes, this after right after this uh on
+- [77:02] how you can do um uh local LLMs that fit
+- [77:06] on your local laptop, right? So with
+- [77:09] that I'm going to end the tutorial here.
+- [77:12] Um like to thank everybody for coming
+- [77:14] and I'm also maybe for the recording it
+- [77:17] would if you'd like to have like a
+- [77:19] discussion you know I'm happy to uh
+- [77:21] continue by mic but if otherwise uh feel
+- [77:24] free to go get some beverages some
+- [77:26] refreshment and the likes and enjoy the
+- [77:27] rest of the conference. Thanks a lot.
+- [77:31] [applause]
+- [77:33] Okay. So, if you'd like to stay around
+- [77:35] for discussion, I'm happy to do so until
+- [77:37] 3 PM.
+- [77:40] >> Yeah, back there. Let's let's I think
+- [77:42] we'll we'll we'll we'll continue on
+- [77:44] record so that it's all on the on the on
+- [77:46] the recording.
+- [77:48] >> Hey, Eric, great talk. Thank you. I just
+- [77:50] have a more general question on the
+- [77:51] framework. So, you wrote Llama bot. Yes.
+- [77:54] Right. I'm just curious like what prompt
+- [77:55] you to do that as opposed to using like
+- [77:57] what's available like lane chain or
+- [77:59] llama because this sounds like a lot of
+- [78:01] work and that's amazing. Yeah. Um,
+- [78:05] don't first off don't use llama bot and
+- [78:06] produ [laughter]
+- [78:09] because that'll give a lot of pressure
+- [78:11] on me. Um, no, but jokes aside, jokes
+- [78:13] aside, uh, I don't understand something
+- [78:15] until I build it. So, I built Llamabot
+- [78:18] to help me understand the LLM ecosystem
+- [78:20] a little bit better. So, you'll actually
+- [78:22] see that Llamabot does have a lot of,
+- [78:23] uh, it's it's like LM capabilities. It's
+- [78:26] got a ragged frontier. it it doesn't do
+- [78:28] everything that you might expect from a
+- [78:30] framework, but that's also reflective of
+- [78:33] like where I have done my exploration of
+- [78:35] LLM stuff. It also does some things that
+- [78:38] you don't find in other frameworks. Like
+- [78:39] for example, runtime execution of Python
+- [78:41] code. I wrote that inside Llama. So I
+- [78:44] actually can get an LLM to generate code
+- [78:46] within a Marimo notebook runtime and
+- [78:48] then run that code inside that same
+- [78:50] runtime, which is very dangerous. Don't
+- [78:52] do it. [laughter]
+- [78:54] But if you do it, it does expose some
+- [78:56] really cool capabilities. Like I can get
+- [78:58] a thing to I can get it to uh write GLM
+- [79:02] code live with [snorts] the right syntax
+- [79:05] and I don't have to template out the
+- [79:07] code. It just writes the code for itself
+- [79:09] and then it returns an object and then
+- [79:11] it actually manipulates the global
+- [79:13] dictionary of Python to insert back the
+- [79:16] objects that were created into memory.
+- [79:18] And I have prompts inside inside that
+- [79:20] tool to help help steer the LM to do
+- [79:22] that. So, a lot of it's uh Llamabot was
+- [79:25] written to help me understand LLM's
+- [79:28] better. If you use it for your hobbies,
+- [79:30] I'd be really honored like that that
+- [79:31] would be awesome. Uh and if you do have
+- [79:33] u maybe more seriously, if you do have
+- [79:35] like ideas on how to make it better, I
+- [79:37] I'd be open to listen as well. Um yeah,
+- [79:40] that that that was the main reason why.
+- [79:42] >> Thanks.
+- [79:43] >> Any other questions?
+- [79:45] >> Uh yeah, so I mean as you've talked
+- [79:48] about wanting to develop this further,
+- [79:50] you also mentioned evaluation.
+- [79:51] >> Yeah. Have you built any evaluation
+- [79:53] capabilities into this yet? Or have you
+- [79:55] thought about even like LLM as a judge
+- [79:58] type of evaluation in a system like this
+- [80:00] where you know after I've created my
+- [80:02] invoice, there's something else that's
+- [80:04] cross-checking to make sure my invoice
+- [80:06] is right and I'm not missing 94 cents,
+- [80:08] right? Something like that. [laughter]
+- [80:10] >> Yeah, that's uh that's a good one. So So
+- [80:12] I took a course
+- [80:14] >> that was very expensive. [laughter]
+- [80:17] Um and what I learned about LM as a
+- [80:19] judge in that course actually was that
+- [80:22] um it can be cast as a structured
+- [80:25] generation problem
+- [80:27] >> where you have uh the
+- [80:30] inputs to the first bot and the output
+- [80:35] of the first bot as a uh as joint inputs
+- [80:41] to the judgebot. And I think you have um
+- [80:44] if you do not have a Python function
+- [80:46] that you can write to write a plus minus
+- [80:49] on whether on that criteria it was done
+- [80:51] correctly or not then you can use an LM
+- [80:53] as a you can use structured bot to then
+- [80:56] do the evaluation. You would want to
+- [80:57] have however a powerful enough model for
+- [80:59] that. you kind of generally want to rely
+- [81:01] on more powerful models for LM as a
+- [81:04] judge
+- [81:05] >> until you've done the further leg work
+- [81:08] like where it makes sense economically
+- [81:10] you've done the further leg work to then
+- [81:13] uh evaluate the judge so there's always
+- [81:16] the problem of who's going to evaluate
+- [81:18] the evaluator right who's going to
+- [81:19] evaluate the judge and and that's why
+- [81:22] when it comes to eval ultimately there's
+- [81:26] no way to escape looking at the data so
+- [81:29] And um and and every every LM as a judge
+- [81:34] will have an error rate that you have to
+- [81:37] accept which is why periodically you
+- [81:39] just have to keep looking at both the
+- [81:41] data that you're look that you're
+- [81:42] evaluating with a judge as well as the
+- [81:44] judge output against ground truth to
+- [81:46] make sure it's correct. So then how then
+- [81:50] do we look at that data? So then there's
+- [81:52] this notion of traces and where you want
+- [81:55] to put logging into the mix. There was
+- [81:57] this span. You may have noticed the
+- [81:59] spans code inside the notebook. That was
+- [82:01] all developed within the past four days.
+- [82:03] And it was me trying to figure out like
+- [82:05] what are the right and what are the most
+- [82:07] ergonomic patterns for logging. Um and
+- [82:11] and how do we keep track of very highly
+- [82:15] nested behavior, right? Um if you take a
+- [82:18] look at the tools that are out there,
+- [82:20] they're great ones. I don't I don't I
+- [82:22] didn't write this to replace those
+- [82:23] tools. I wrote it to understand them.
+- [82:26] Um, pideantic logfire I think. What is
+- [82:28] it? Lang Smith or Langfuse.
+- [82:32] >> Both.
+- [82:32] >> Both of them. Okay. Yeah. There's so
+- [82:34] many of them.
+- [82:35] >> Favorite one.
+- [82:36] >> Um, at Madna, one of my colleagues stood
+- [82:38] up uh, Langfuse.
+- [82:40] >> So, we use it
+- [82:41] >> and I think it's uh, in in my opinion,
+- [82:44] it is a what works kind of situation.
+- [82:47] Um, and what works for the economics
+- [82:49] that you have at your company. like
+- [82:51] we're we're too cheap to pay for
+- [82:52] software
+- [82:54] in certain ang in certain parts of the
+- [82:55] company. We're too cheap to pay for
+- [82:56] software. So, you know, we stand up open
+- [82:58] source stuff and we work we work we
+- [83:01] learn how to work with it.
+- [83:02] >> Um but in other places, that's not
+- [83:04] that's not always the case.
+- [83:06] >> Yeah. If you use data bricks or data
+- [83:08] dog, I think they have their native
+- [83:09] tracing products as well.
+- [83:10] >> Yes. Yes. Exactly. Exactly.
+- [83:12] >> All right. I think we got a question
+- [83:13] back there.
+- [83:16] >> Um so, we had this problem of we didn't
+- [83:18] provide a date for the invoice. Yeah.
+- [83:20] >> How can I teach the bot to tell me there
+- [83:23] is no invoice date, I can't create the
+- [83:25] invoice?
+- [83:25] >> Yes. Yes. Yes. That's great. Um, so if
+- [83:28] you look if you tried to do the perfect
+- [83:30] prompt um in the in the agent bot uh
+- [83:34] chat window, you deleted the date, you
+- [83:38] might observe that the agent bot will
+- [83:39] come back and ask you for additional
+- [83:41] information. And that was actually uh
+- [83:44] put inside the system prompt for the
+- [83:47] agent bot bot. So I again I hid the
+- [83:50] system prompt for everybody because that
+- [83:52] thing was just like very very very long
+- [83:55] but the system prompt really governs a
+- [83:58] lot of the behavior right.
+- [84:00] >> Yeah. So if there's not enough
+- [84:03] information uh available then you want
+- [84:07] to kind of rely on the system prompt but
+- [84:10] then also at the same time you might set
+- [84:12] up your Python program slightly
+- [84:13] differently where instead of requesting
+- [84:17] an LLM to fill out the dates you
+- [84:20] actually make them a required argument
+- [84:21] to the function um or you uh sorry you
+- [84:24] make them a required argument
+- [84:27] uh that needs to be passed in by the
+- [84:29] user. So let's say we we we've moved
+- [84:31] away from a chat system and now we're
+- [84:33] inside like a form filling situation,
+- [84:35] right? You make that a field that needs
+- [84:37] to be um uh filled in by a user and if
+- [84:40] they don't fill it in, it just can't you
+- [84:42] just can't proceed, right? A required
+- [84:43] field. So that that's there there
+- [84:45] multiple ways to solve that problem. I
+- [84:47] would avoid being chatbot maximalists
+- [84:50] and I would also avoid being LLM
+- [84:52] maximalists. try to solve as much as you
+- [84:54] can using traditional programming until
+- [84:56] you hit the point where it's like either
+- [84:59] the the gains are so ergonomically good
+- [85:01] that you want to use an LLM or the
+- [85:04] there's absolutely no way that you can
+- [85:06] solve whatever problem you have with
+- [85:08] traditional programming and you need to
+- [85:10] use an LLM.
+- [85:12] >> Um a second question in the same
+- [85:15] direction we missed 94 cents. Is there
+- [85:17] any way for the chatbot to come back
+- [85:21] with I'm very sure about this is the
+- [85:23] right amount or I I think it's this
+- [85:26] amount and you better check.
+- [85:29] >> I I do not trust model output
+- [85:32] uncertainty scores. So you have to you
+- [85:35] have to look at your data like people
+- [85:37] have suggested yes you can put a
+- [85:39] confidence you can get the LLM to output
+- [85:41] a confidence score. That is folklore.
+- [85:43] Please do not do it. Right.
+- [85:45] >> Yeah. today. Today, right? You're
+- [85:47] absolutely right.
+- [85:48] >> You're absolutely you're absolutely
+- [85:51] right. Yes.
+- [85:53] >> Cool. Uh I think Sebastian. Yes.
+- [85:57] >> Yes. More of a comment than a question
+- [85:59] since we talked about structured
+- [86:01] generation. I think there's one thing
+- [86:03] that a lot of people are not necessarily
+- [86:05] aware of which is that the order in
+- [86:08] which you put parameters into your
+- [86:09] podantic model actually matters. Because
+- [86:12] like for Python it doesn't matter like
+- [86:13] you can put any order you can query it
+- [86:15] off we goes. for dictionaries it doesn't
+- [86:16] matter for JSON it's fine but LLMs
+- [86:19] generate stuff in sequence
+- [86:20] >> yes
+- [86:20] >> so if you have a pedantic model for
+- [86:22] example like in your first example with
+- [86:23] the receipt thing if you generate the
+- [86:25] description first like you ask for that
+- [86:27] one first it's more detailed than the
+- [86:29] summary of the category and then ask for
+- [86:31] the category suddenly your accuracy for
+- [86:33] the category will go up
+- [86:34] >> yes
+- [86:35] >> so that's a cool trick that a lot of
+- [86:36] people miss it's really hard to Google
+- [86:38] and to figure out that it works but it's
+- [86:40] actually a thing so it's I just wanted
+- [86:41] to point that out
+- [86:42] >> that's great that's the kind of folk
+- [86:43] knowledge that doesn't get written down
+- [86:45] We need to have more of that kind of
+- [86:46] sharing.
+- [86:48] >> The the order in which you specify
+- [86:50] parameters in your padantic model
+- [86:51] matters because LLM's generate basically
+- [86:54] text from top to bottom. They always
+- [86:55] just next token, next token, next token,
+- [86:57] next token. Right. So whatever you ask
+- [86:58] to generate first will be generated
+- [87:00] first.
+- [87:01] >> Yeah. The context is context value is
+- [87:04] not uniformly distributed.
+- [87:05] >> That's right.
+- [87:07] >> That's right.
+- [87:07] >> That's right.
+- [87:08] >> I've seen inconsistencies of that with
+- [87:10] your system prompting too. So it does
+- [87:12] matter what order you put stuff in.
+- [87:14] >> Yes,
+- [87:15] >> it's the classic example of if you
+- [87:16] wanted to do a math problem and you just
+- [87:17] ask it to like what's the answer and it
+- [87:19] just puts the answer, it will just
+- [87:20] guess. But if you ask it to explain step
+- [87:22] by step, it'll walk you through the
+- [87:23] steps and suddenly you get a much better
+- [87:24] more accurate answer because it writes
+- [87:26] out the steps first and then it has less
+- [87:28] to guess.
+- [87:28] >> Exactly. That very complex conditional
+- [87:30] probability turns out to be better
+- [87:33] steered by having more more more context
+- [87:35] being generated first.
+- [87:38] >> Anything else? We're at 3 PM. So, thank
+- [87:42] you everybody for coming. Really enjoyed
+- [87:44] the presentation. [applause]
+- [87:46] Hopefully, it's useful for you.

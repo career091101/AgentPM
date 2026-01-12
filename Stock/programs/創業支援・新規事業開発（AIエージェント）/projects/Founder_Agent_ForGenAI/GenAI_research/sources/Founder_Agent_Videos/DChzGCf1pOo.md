@@ -1,0 +1,862 @@
+---
+title: "So this final panel will review engineering around autonomous AI agents for next level customer experiences."
+video_id: "DChzGCf1pOo"
+video_url: "https://www.youtube.com/watch?v=DChzGCf1pOo"
+speaker: "super"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  So this final panel will review engineering around autonomous AI agents for next level customer experiences
+  Please join me in welcoming Shawn from Rocket Companies, Shalish from Senbird, Thiece from Cognagi, and Joanne from Foundation Capital
+  Um well, I'm super excited to be here um because we're going to talk about the future, which is how are we engineering autonomous AI agents
+key_points:
+  - "level customer experiences"
+  - "I'll ask each of you guys to maybe introduce yourselves and uh give a bit of background on what you're working on"
+  - "step and actually started bringing agentic experiences to really bring conversational AI into much more of a forefront"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T15:07:00+09:00"
+---
+
+# Transcript: DChzGCf1pOo
+
+- URL: https://www.youtube.com/watch?v=DChzGCf1pOo
+- Language: en
+- Retrieved at: 2025-12-30T15:07:00+09:00
+
+## Text
+
+- [00:00] So this final panel will review
+- [00:02] engineering around autonomous AI agents
+- [00:05] for next level customer experiences.
+- [00:08] Please join me in welcoming Shawn from
+- [00:10] Rocket Companies, Shalish from Senbird,
+- [00:13] Thiece from Cognagi, and Joanne from
+- [00:15] Foundation Capital. Um well, I'm super
+- [00:18] excited to be here um because we're
+- [00:20] going to talk about the future, which is
+- [00:22] how are we engineering autonomous AI
+- [00:25] agents. um super excited to have Sean
+- [00:28] Shalesh and Ty here who are going to
+- [00:30] talk about what they're actually
+- [00:32] building in their organizations. Uh
+- [00:34] we'll discuss some of the challenges
+- [00:37] with building these agents, how do we
+- [00:39] measure performance and also what's to
+- [00:42] come in the future. Um first I'll ask
+- [00:45] each of you guys to maybe introduce
+- [00:47] yourselves and uh give a bit of
+- [00:49] background on what you're working on.
+- [00:51] Maybe starting with you Sean. Sure. So
+- [00:53] thank you. Uh so I'm Sham Alhotra, the
+- [00:56] CTO for Rocket Companies. Uh at Rocket,
+- [00:58] our mission, we like to say, is to help
+- [01:00] everyone home. Uh we do that by
+- [01:02] facilitating home search, getting your
+- [01:05] mortgage, getting your title, servicing
+- [01:07] your mortgage. So the whole home
+- [01:08] ownership journey. Um, and as you can
+- [01:11] imagine, uh, AI agents are pretty
+- [01:13] helpful through many of that process,
+- [01:15] whether it's our agent-based, uh, chat
+- [01:18] to help you answer questions about
+- [01:19] listings or questions about mortgage
+- [01:21] products. Um, or on the back end using
+- [01:24] agents to help with mortgage
+- [01:25] underwriting. Um, there's a lot of
+- [01:27] manual steps, a lot of document
+- [01:29] processing. Um, so it's a great fit for
+- [01:31] it. So, we're very excited about where
+- [01:32] the technology has gone. Awesome. Can't
+- [01:34] wait to hear more.
+- [01:36] Hi everyone, my name is uh Shalesh
+- [01:38] Nalawadi, head of product for Sunbird.
+- [01:41] Uh Sunbird actually builds um uh AI
+- [01:44] agentic experiences for customer service
+- [01:46] use cases on behalf of customers in a
+- [01:50] couple of different verticals including
+- [01:52] um on demand and food delivery, retail,
+- [01:54] financial services, healthcare and
+- [01:56] travel. And um you know we've been on uh
+- [02:00] the company is actually 10 years old um
+- [02:02] and for most of its time we were a
+- [02:04] developer API company that allowed apps
+- [02:06] like you know do dash and hinge to
+- [02:08] create conversational experiences and
+- [02:10] it's only been in the last two years
+- [02:12] that we've taken that to the next step
+- [02:13] and actually started bringing agentic
+- [02:15] experiences to really bring
+- [02:17] conversational AI into much more of a
+- [02:20] forefront.
+- [02:23] And Ty. All right. Yeah. Everyone my
+- [02:24] name is Ty Vanders. I'm senior vice
+- [02:27] president of AI transformation at Cogni.
+- [02:29] Um, similar to Senbird in the sense that
+- [02:31] we are all about customer service and
+- [02:34] customer experience automation. We have
+- [02:37] a uh an amazing platform in which you
+- [02:39] can build AI agents that can really
+- [02:41] integrate with with contact centers in
+- [02:43] particular. We see that in the
+- [02:44] enterprise space larger contact center
+- [02:47] deployments typically run on partially
+- [02:50] onrem software, right? So, it's a
+- [02:52] different different approach. Not
+- [02:53] everything is uh super modern per se in
+- [02:56] terms of ecosystem and that's where we
+- [02:58] really excel like fitting in there very
+- [03:00] flexible deployment and uh automating
+- [03:03] customer experience at scale. Great.
+- [03:06] Well, we have folks who have a lot of
+- [03:08] perspective both inside their companies
+- [03:10] as well as working with with clients.
+- [03:12] So, this is going to be a great
+- [03:13] conversation. Um maybe we can start off
+- [03:15] with how do we think about success?
+- [03:17] What's like the ROI of of these agents?
+- [03:20] uh and you know for for us we're early
+- [03:22] stage investors investing in a lot of
+- [03:24] agentic um AI companies and that's
+- [03:27] usually one of the questions like is
+- [03:29] this a cost elimination is this a
+- [03:31] revenue generation and how do you even
+- [03:33] think about it so perhaps we can start
+- [03:35] the conversation there um maybe we'll
+- [03:38] start with Ty today sure yeah I guess
+- [03:41] that you know from a customer service
+- [03:43] point of view it's pretty
+- [03:44] straightforward right you have your cost
+- [03:47] per call your cost per interaction if
+- [03:49] you can use AI AI agents to automate
+- [03:52] parts of those calls. You can reduce the
+- [03:54] average handling time of a call. You
+- [03:56] could maybe fully automate a call,
+- [03:59] right? And therefore increase the
+- [04:00] containment rate. So those are very
+- [04:01] common KPIs that we see. Um if you
+- [04:04] however look at the potential of AI
+- [04:06] agents in customer experience, you you
+- [04:09] look at revenue generation use cases,
+- [04:11] abandoned shopping baskets, uh outbound
+- [04:13] calling, following up with people,
+- [04:15] right? Those KPIs are um are they're
+- [04:18] different, right? They're more about
+- [04:19] revenue generation, seesat, converting
+- [04:21] customers, conversion rates. Uh, and
+- [04:23] that's what we're seeing. It's like
+- [04:25] shifting from pure customer service to a
+- [04:27] much broader approach, more holistic
+- [04:29] approach where you have the entire
+- [04:30] customer journey, including the post
+- [04:33] sales, the the follow-ups, keeping in
+- [04:35] touch and building out that
+- [04:36] relationship. Yeah, makes sense. How
+- [04:38] about you, Sean at Rocket? Yes, look,
+- [04:40] I'd echo that. I think that these are
+- [04:42] really powerful tools. They can help you
+- [04:44] on both sides, whether it's revenue
+- [04:45] generation or, you know, containing
+- [04:47] expense. Um, you know, to touch on
+- [04:49] something that Tyson just said,
+- [04:51] conversion matters a lot to us. Uh, and
+- [04:53] we found that with our agent-based
+- [04:55] experience, the conversational
+- [04:57] experience on the website, uh, clients
+- [04:59] are three times more likely to convert
+- [05:01] when they come through that channel,
+- [05:02] right? So, they're they're having a good
+- [05:03] experience. They're getting the
+- [05:04] questions they they need answered and
+- [05:06] therefore converting at higher rates. Um
+- [05:08] but we also see you know just the other
+- [05:10] day we had uh an engineer in about two
+- [05:13] days of work was able to build a simple
+- [05:15] agent to handle a very niche problem
+- [05:17] called transfer tax calculations in uh
+- [05:20] in in the the mortgage underwriting um
+- [05:22] uh part of the process and that two days
+- [05:25] of effort saved us a million dollars a
+- [05:27] year in expense. Um, and so we see a
+- [05:29] whole bunch of last year, I think the
+- [05:30] stat that we have is in 2024,
+- [05:33] we save over a million team member hours
+- [05:36] mostly off the back of our AI solutions.
+- [05:38] So that's that's not just saving
+- [05:39] expense, it's also allowing our our team
+- [05:42] members to focus their time on people
+- [05:44] making what is often the largest
+- [05:46] financial transaction of their life. And
+- [05:47] so they do a better job at that. Makes
+- [05:49] sense. And how about you Shalish? Yeah.
+- [05:53] And I am going to echo largely what has
+- [05:55] already been said which is the initial
+- [05:57] attraction of any of these deployments
+- [05:59] for AI agents tends to be around um
+- [06:02] saving human capital. Uh and the the
+- [06:05] math is pretty straightforward. However,
+- [06:07] I think that undersells the
+- [06:08] transformational capability that you get
+- [06:10] with AI agents. Um Tai mentioned
+- [06:13] something in passing which is outbound
+- [06:14] calling. Um, our version of that is we
+- [06:17] we call it, you know, proactive customer
+- [06:19] service, which is the ability to detect
+- [06:20] that you have a problem and actually
+- [06:23] reach out and uh and have an AI agent
+- [06:25] initiate the conversation saying, "Hey,
+- [06:27] we noticed that your food order is
+- [06:28] running late. We're aware of it and
+- [06:30] here's and we're here to maybe uh handle
+- [06:33] any remediation if required." Those
+- [06:35] kinds of experiences were not possible
+- [06:38] under kind of the old um way of thinking
+- [06:40] about customer success. So definitely
+- [06:43] short-term costs but long-term you know
+- [06:45] uh the revenue potential uh from AI
+- [06:47] agent experiences. This brings me to a
+- [06:50] question which a lot of um a lot of uh
+- [06:53] our our our um customers or our
+- [06:55] portfolio companies customers are asking
+- [06:57] which is uh you guys are saving a lot of
+- [07:00] money right you you mentioned a million
+- [07:02] dollars in in human capital. So then how
+- [07:04] do you think about perhaps the
+- [07:06] relationship between the human workers
+- [07:09] in a company and these agents? Is there
+- [07:13] you know actually cost cutting that's
+- [07:15] happening? Yeah. Look, I think for us
+- [07:17] the way we think about it is we're
+- [07:19] supercharging our our team members,
+- [07:21] right? So that million hours saved isn't
+- [07:23] the entirety of someone's job, you know,
+- [07:26] replicated many times. It's fractions of
+- [07:28] the job that frankly are the things they
+- [07:29] didn't want to do and that weren't
+- [07:31] adding value to the client. So that
+- [07:33] million hours saved is basically giving
+- [07:35] us capacity to handle more business. So
+- [07:37] I think you know the stat we had was
+- [07:39] that it was uh some of our team members
+- [07:41] were able to handle 50% more clients
+- [07:43] last year than they were the year
+- [07:44] before. So it means we can have higher
+- [07:46] throughput um drive more business and
+- [07:48] and again we see higher conversion rates
+- [07:50] because they're spending the time
+- [07:52] understanding deeply the client need
+- [07:53] versus doing a lot of the more rope work
+- [07:55] that the AI can do. Now makes sense. Um
+- [07:58] let's talk about engineering for a
+- [08:00] moment. Right. These are complicated um
+- [08:03] architectures uh new infrastructures
+- [08:05] that we're all adopting. Uh what are
+- [08:08] some of the biggest challenges for you
+- [08:09] guys when you're building these agents
+- [08:12] and and how do you think about the
+- [08:14] technologies are available today and
+- [08:17] what might be here tomorrow since some
+- [08:19] of this is changing so so quickly?
+- [08:22] Perhaps we'll start with sh this time.
+- [08:24] Yeah, I'll say that u the most
+- [08:27] interesting thing that I've come to to
+- [08:28] realize in in actually using um large
+- [08:31] language models as part of an
+- [08:32] application um is that it's different
+- [08:34] from how um first of all it's different
+- [08:36] from how search works and it's different
+- [08:38] from how a lot of us today are using
+- [08:40] chat GPT which is you ask a question and
+- [08:43] you get a response right maybe you ask a
+- [08:45] follow-up question you get a response uh
+- [08:47] but in the process of constructing an AI
+- [08:50] agent response to a customer query it's
+- [08:52] actually not even one uh call that goes
+- [08:54] out to a launch language model. It's
+- [08:56] actually multiple calls that go out and
+- [08:58] they are pipelined together in a
+- [08:59] sequence. And that complexity um is
+- [09:02] something that it wasn't apparent. Uh
+- [09:04] and actually it increases over time as
+- [09:06] you realize like oh I forgot like I
+- [09:08] should you know have this uh thing done
+- [09:10] before I have a response. Maybe I should
+- [09:12] apply a guardrail and that's another uh
+- [09:14] call to a large language model. So what
+- [09:16] we've seen um in is a typical response
+- [09:19] from an AI agent actually involves
+- [09:21] something like seven to 10 calls to a
+- [09:23] large language model and often these are
+- [09:26] different large language models
+- [09:27] optimized for different purposes. So
+- [09:29] that's been uh very interesting to learn
+- [09:31] and actually I suspect as we get more
+- [09:34] experience it will actually get larger
+- [09:36] the number of calls will get larger the
+- [09:37] number of specialized large language
+- [09:39] models used to construct a response is
+- [09:41] actually going to increase over time.
+- [09:43] actually had a follow-up question and
+- [09:44] we'll we'll ask Ty uh this question as
+- [09:46] well. Um did you did you train people
+- [09:50] internally to to solve some of this or
+- [09:53] was there kind of uh different hiring
+- [09:55] protocols that that you guys uh thought
+- [09:57] about? So um this is something that
+- [10:01] we've actually discovered through uh
+- [10:03] through trial and error right and and so
+- [10:05] part of the journey for our engineering
+- [10:07] team is moving from the mindset of
+- [10:09] software engineering write once you know
+- [10:11] and and and test it and it runs and
+- [10:13] gives the same answer a thousand times
+- [10:15] to the more probabilistic approach which
+- [10:17] is you uh ask the same thing to a large
+- [10:19] language model and it gives different
+- [10:21] answers through some probability. uh
+- [10:24] that requires a mind shift change and uh
+- [10:26] honestly there isn't uh anyone that has
+- [10:29] that thinking already. So a lot of it
+- [10:30] has been kind of bringing people along
+- [10:33] uh not just not just software engineers
+- [10:35] but product managers, UX designers,
+- [10:37] everyone has to think slightly
+- [10:39] differently given the probabilistic
+- [10:40] nature of large language models. How
+- [10:43] about for you Ty? What were some of the
+- [10:44] maybe biggest challenges and how are you
+- [10:46] guys thinking about the architecture of
+- [10:47] all this? Yeah, I mean what what
+- [10:49] challenge what you mentioned totally
+- [10:50] resonates like we've we've really had to
+- [10:53] go through a lot of trial and error. I
+- [10:55] will say that what really helped is that
+- [10:57] the LLMs have come a long way, right? If
+- [10:59] we like if we would build something
+- [11:01] let's say one and a half two years ago,
+- [11:03] you'd really have to pick the right
+- [11:04] model, right? You'd have a different you
+- [11:06] pick a different model and it would not
+- [11:08] perform the way you would expect it to
+- [11:10] perform. uh we're now in a what a stage
+- [11:13] where most of the mainstream models
+- [11:15] behave really well and they're more
+- [11:17] predictable, right? So uh but
+- [11:19] nonetheless your point like you you need
+- [11:21] to combine models, right? And then
+- [11:23] there's the latency challenge if you do
+- [11:25] voice automation, right? Like you have
+- [11:27] you need to be super responsive. People
+- [11:29] don't want to wait, you know, 3 to 5
+- [11:30] seconds for an answer. So that's that's
+- [11:33] you know that's all about orchestrating
+- [11:35] the right models and the right sequence.
+- [11:37] um weaving in the the right data and
+- [11:40] that's been a huge challenge honestly
+- [11:41] because we have we have customers that
+- [11:43] you know push tens of millions of conver
+- [11:44] of conversations per year right so if
+- [11:46] you automate let's say 30 million
+- [11:48] conversations per year how does that
+- [11:50] scale in the LLM world right that's
+- [11:52] that's all stuff that we had to discover
+- [11:54] um simple stuff from even getting the
+- [11:57] like model availability with the cloud
+- [11:59] providers like having enough quota with
+- [12:01] a with a with a chat GPT model for
+- [12:04] example those are all learnings that
+- [12:06] that we had to go through and and and
+- [12:08] and our customers as well, right?
+- [12:09] Because it's a brand new world in that
+- [12:11] regard. We'll love to hear from you,
+- [12:13] Sean, about your experience. Yeah, look,
+- [12:15] I I think some of the same things that
+- [12:16] have been mentioned here. The one I'll
+- [12:18] add is kind of a layer above
+- [12:19] orchestrating the LLM calls is
+- [12:21] orchestrating a network of agents. And
+- [12:23] so when you when you come to our our
+- [12:26] site, go to the conversational
+- [12:27] experience, under the hood, there's a
+- [12:29] network of agents. And so the
+- [12:31] orchestrator is deciding which agent do
+- [12:33] I farm the request out to? And I think
+- [12:35] many are at the stage right now where we
+- [12:37] have a a handful of agents assisting you
+- [12:39] with with what you need. But if you play
+- [12:41] that forward and think about having
+- [12:43] hundreds or thousands of agents who are
+- [12:45] capable of different things, um that
+- [12:48] challenge of how do I decide who to
+- [12:50] delegate to? Do I delegate to multiple
+- [12:52] of them? Do they all kind of have to
+- [12:55] vote for which problem they can solve? I
+- [12:56] think you get some really interesting
+- [12:57] technical problems to solve. So it's
+- [12:59] becoming a bigger problem because
+- [13:00] latency and and time matters. But I
+- [13:03] think that agent routing I think is
+- [13:05] going to be a very interesting problem
+- [13:06] to solve over the coming years. And
+- [13:07] we're seeing this in some of our
+- [13:09] companies too. Um so for example we were
+- [13:12] seed investors in a company called
+- [13:13] Jasper which was you know one of the
+- [13:15] first kind of you know LLM based um AI
+- [13:18] marketing companies. Jasper had to build
+- [13:20] all of the infrastructure right for
+- [13:22] model selection and routing and and
+- [13:25] testing etc because there was nothing
+- [13:27] available from a vendor standpoint. But
+- [13:29] today I think there's you know multiple
+- [13:31] options to help companies do this. Uh we
+- [13:34] have a company called Arise which is you
+- [13:36] know effectively in the AI ops space
+- [13:38] which is trying to do pieces of this
+- [13:40] from evaluation you know to to to
+- [13:42] routing to to uh monitoring etc. Uh I'm
+- [13:46] curious how do you guys think about
+- [13:47] building this infrastructure inhouse as
+- [13:50] things get more complex uh versus
+- [13:53] working with vendors and if you are
+- [13:55] working with vendors how do you select
+- [13:58] these vendors? Yeah, look, I think from
+- [14:00] my perspective, um, our our development
+- [14:03] resources, our product design team,
+- [14:05] they're the most valuable resources we
+- [14:07] have. And so part of my role is to make
+- [14:09] sure that we're deploying them on where
+- [14:11] we aim to differentiate and create
+- [14:13] value, right? How do we help people
+- [14:14] home? How do we kind of really further
+- [14:15] that mission? Um, and it's not in
+- [14:17] building, you know, generic LLM
+- [14:20] infrastructure or AI infrastructure. So,
+- [14:22] we absolutely want to partner with
+- [14:24] vendors. And when we look at selection
+- [14:25] in my seat, what I care most about is
+- [14:28] not just the initial build, but the
+- [14:30] ability to debug and iterate and improve
+- [14:32] on what's been built, right? It's
+- [14:33] usually the maintenance cost that kills
+- [14:35] you. Um, not the V1. Um, so we try to
+- [14:38] look for for partners who help us really
+- [14:39] maintain the software and grow it and
+- [14:41] improve it. Um, and look, we're we're
+- [14:43] trying to move fast and so there's times
+- [14:44] where we have had to build
+- [14:46] infrastructure ourselves because it
+- [14:47] didn't exist. Um but I want to quickly
+- [14:49] follow and swap that out for a vendor
+- [14:51] once it's available because I don't want
+- [14:53] to maintain that infrastructure. Makes
+- [14:55] sense.
+- [14:57] Uh so Sendird is often the vendor uh in
+- [15:00] in these relationships and we are going
+- [15:03] out and and meeting companies.
+- [15:05] Interestingly, you know, Redfin, which
+- [15:06] is now a rocket, uh, portfolio company,
+- [15:09] was a customer of ours or is a customer
+- [15:11] of ours. And, uh, often we find the most
+- [15:15] successful, um, conversations that we
+- [15:17] have with prospective customers tends to
+- [15:18] be someone who's already built something
+- [15:20] inhouse. To your point, quickly realize
+- [15:23] that getting to a 1.0 was okay. But then
+- [15:25] as the world evolves and as the
+- [15:27] infrastructure evolves and as they need
+- [15:29] to swap out technology for something
+- [15:31] that's new, they don't have uh the
+- [15:34] ability to kind of orchestrate all of
+- [15:35] these things. And so one of our uh one
+- [15:38] of our many many of our um conversations
+- [15:41] involve do you have an eval
+- [15:42] infrastructure? Can we build one for
+- [15:44] you? Have you thought about what happens
+- [15:46] when a model changes and there's a new
+- [15:48] version? Uh how are you going to go back
+- [15:50] and test all of your existing workflows?
+- [15:52] Well, we've thought about it because
+- [15:53] we've been a vendor and and that's some
+- [15:55] of the value that we give. And so that's
+- [15:57] an area that I think increasingly folks
+- [15:59] that have built u in-house are starting
+- [16:01] to realize that they would um benefit
+- [16:04] from a perspective of of a of a vendor.
+- [16:06] Is there um one or two customers that
+- [16:09] you can share that are kind of maybe the
+- [16:10] most successful working with you?
+- [16:13] um many of them are are just now getting
+- [16:16] started in terms of their uh production
+- [16:18] deployment. But we have um a couple of
+- [16:21] companies in in South Korea that really
+- [16:23] pushed the boundaries. There's a
+- [16:24] furniture company that has been
+- [16:26] evaluating us in terms of asking um
+- [16:28] customers asking questions about
+- [16:30] delivery and as well um refunds and
+- [16:33] exchanges. Um we also have um uh many
+- [16:37] customers in on demand and food
+- [16:39] delivery. that's been part of uh
+- [16:40] Sunbird's core vertical that are now
+- [16:43] experimenting with agentic experiences
+- [16:44] because you can imagine the most common
+- [16:47] uh customer service enquiry in uh in
+- [16:49] food delivery
+- [16:51] is where's my food and it it's that
+- [16:54] something that's actually eminently
+- [16:55] solvable uh with AI agents. So uh we've
+- [16:58] seen successes in in in those uh initial
+- [17:01] success in those verticals. Got it. Um
+- [17:04] Taius would love to hear from your
+- [17:05] experience. Yeah, it's very similar
+- [17:08] again, right? So, so we're not as big in
+- [17:09] the in the food vertical, but retail is
+- [17:12] huge for us, right? Whismo, where's my
+- [17:15] order? It's a very common one. We work
+- [17:16] we work with the with the top sports
+- [17:18] brands in the world, for example, right?
+- [17:20] They have millions of requests just
+- [17:22] people asking where their orders are. Um
+- [17:24] what we see with with customers, airline
+- [17:27] being another vertical, very high
+- [17:28] volumes, repetitive questions of course,
+- [17:30] is that they are they are um they're
+- [17:33] often starting with a hybrid, right? So
+- [17:35] they might have some um they might have
+- [17:38] bots in place uh they might have
+- [17:41] knowledge bases right they have their
+- [17:42] CRM so some some basic foundation is in
+- [17:45] place and then they want to add egentic
+- [17:47] AI on top of that to help solve problems
+- [17:49] better but not for everything right if
+- [17:51] you have a refund process maybe you want
+- [17:54] to have a stricter workflow that guides
+- [17:55] you through a refund pro process or a
+- [17:57] complaints process so what we really see
+- [17:59] is that egentic AI is is booming
+- [18:02] everyone is switching to it including
+- [18:04] our customer base, right? We have an
+- [18:05] amazing platform for it. So, the
+- [18:07] technology is there. It's it's very much
+- [18:09] a matter of mapping the right use cases
+- [18:11] to the right technology right now. Um,
+- [18:13] again, especially in an enterprise
+- [18:15] setting with very high volume cuz I'll
+- [18:18] add like the cost aspect is also
+- [18:20] something to I mean, you mentioned 10 10
+- [18:22] API calls for one user input, right?
+- [18:25] It's maybe not always the case if you do
+- [18:27] voice, but nonetheless, like these
+- [18:29] things, they do they do add up. Yeah. Um
+- [18:31] are you guys seeing that this is a board
+- [18:33] level priority for some of your
+- [18:34] customers that you know you must adopt a
+- [18:37] gentic technology or or die? I mean
+- [18:40] we're seeing this across I mean even you
+- [18:42] know Salesforce they change everything
+- [18:43] to agent force for example. Um because
+- [18:46] the system of records are uh in possibly
+- [18:49] a lot of trouble right as as some of
+- [18:51] these new architectures are coming out.
+- [18:52] Uh so curious what's like the priority
+- [18:54] level for some of the customers you're
+- [18:55] working with? So I can take that. Um so
+- [18:59] yes absolutely it's a board level
+- [19:01] priority for um for some obvious reasons
+- [19:04] which is hey there's this is
+- [19:06] transformational there's you know
+- [19:07] everyone's seeing u a big win in terms
+- [19:09] of gross mar gross margin but also I
+- [19:12] think there's um the underlying thing is
+- [19:14] that you need to start playing with this
+- [19:16] technology and getting comfortable. It's
+- [19:19] okay if your first few implementations
+- [19:21] don't turn out to be quite as good, but
+- [19:22] you're going to learn from the
+- [19:23] experience. You're going to learn from
+- [19:25] talking to vendors. Uh and and if you
+- [19:28] don't do that, you're going to fall
+- [19:29] behind much more rapidly. So, it's
+- [19:31] really about like, you know, it is a
+- [19:33] board priority some often driven by
+- [19:35] financials, but it's really also about
+- [19:37] uh the experience and and having the
+- [19:40] organization gain the experience in
+- [19:41] operating uh in with large language
+- [19:44] models. I want to come back to something
+- [19:46] that Sean said earlier which is uh today
+- [19:49] the agents are relatively simple right
+- [19:52] they're doing usually one task maybe
+- [19:55] it's it's you know it's a complex
+- [19:57] workflow uh and perhaps each company's
+- [20:00] adopting a handful of them right and
+- [20:02] these usually these agents are somewhat
+- [20:04] independent uh in their work now if you
+- [20:07] fast forward um in what's theoretically
+- [20:09] possible you mentioned that they can be
+- [20:11] there could be hundreds of them in an
+- [20:13] organization
+- [20:15] um and perhaps they are learning from
+- [20:17] each other. They're taking data from
+- [20:19] each other and feeding it back to um to
+- [20:22] to each other to to learn new things.
+- [20:24] And in that world, the number of things
+- [20:27] that could happen just explodes, right?
+- [20:29] The complexity explodes. How do you
+- [20:31] think about that future? And what are
+- [20:33] you guys doing today to kind of solve
+- [20:36] for that? You know, it's interesting. I
+- [20:38] think that a lot of the early fears
+- [20:41] questions with AI um exist with every
+- [20:43] technology right if you look at you even
+- [20:46] the term AI agent has a loose definition
+- [20:48] in terms of how you define it but I
+- [20:50] think what's happening is it just means
+- [20:52] that the checks and balances you have in
+- [20:53] your system will get stressed more so
+- [20:55] you just have to do the things you've
+- [20:57] always been doing which is make sure
+- [20:58] that for for something that's like a
+- [21:00] regulatory process that you have a human
+- [21:02] in the loop to make sure that someone is
+- [21:03] signing off on this and making sure that
+- [21:05] it's still okay for critical internal
+- [21:07] processes or data access for instance do
+- [21:09] you have observability do you have the
+- [21:11] right alerting and monitoring so that if
+- [21:12] something goes wrong you know that it's
+- [21:14] going wrong but I think trying to not
+- [21:16] lean into it and trying to basically say
+- [21:18] I'll avoid the problem by having less
+- [21:22] stuff happening feels like a losing
+- [21:24] strategy so I think it's just really
+- [21:25] doubling down on your detection
+- [21:28] understanding where you need human in
+- [21:29] the loop um and then trusting that those
+- [21:31] processes are going to catch if
+- [21:32] something does go wrong um but just the
+- [21:34] power it unlocks you have to do it And
+- [21:37] how about you guys for the next you know
+- [21:38] 18 to 24 months uh Shalesh and and Ty
+- [21:41] how do you plan perhaps your product
+- [21:43] roadmap or is that primarily driven by
+- [21:46] by the customers?
+- [21:48] Uh in our case um it's it's a half and
+- [21:51] half. A lot of it is driven by customers
+- [21:53] coming to us with innovative use cases
+- [21:54] and saying is this even possible? Um and
+- [21:57] and that's an interesting conversation
+- [21:59] because it helps us kind of work with
+- [22:00] them to build out uh experiences. I had
+- [22:03] previously mentioned the concept of
+- [22:04] proactive customer service, reaching out
+- [22:06] before they realize that they have a
+- [22:08] problem that came about from a
+- [22:09] conversation with uh with our customers
+- [22:11] in food delivery. They already know when
+- [22:14] an order is going to be late and rather
+- [22:16] than waiting for the customer to get
+- [22:17] upset and call them, they realize that
+- [22:19] there was an opportunity to get ahead of
+- [22:20] it. Uh so that I think is the exciting
+- [22:23] part uh is that once the cost
+- [22:26] conversation is is completed and out of
+- [22:28] the way is you now you get to the really
+- [22:30] fun part which is the things that you
+- [22:32] could not possibly do uh that you can
+- [22:34] now do because you have an agentic
+- [22:36] infrastructure in place. So a lot of it
+- [22:38] is really customer conversations as far
+- [22:40] as future-looking stuff. What is what is
+- [22:42] maybe the most demanding out of the
+- [22:45] requests that you're seeing from
+- [22:46] customers?
+- [22:48] uh for us I think it's um it's the um
+- [22:52] how can I have confidence that this is
+- [22:54] not going to give the wrong answer and
+- [22:57] how am I confident that this is not
+- [22:59] going to give the wrong answer as I
+- [23:00] continue to evolve the infrastructure
+- [23:03] add in a new LLM uh add in a new stage
+- [23:06] right so that part uh is actually really
+- [23:09] difficult um you know if you haven't
+- [23:11] thought about in the beginning and the
+- [23:12] short answer is before you even start
+- [23:14] building it is you should have an eval
+- [23:16] infrastructure in place Right. I think
+- [23:18] it's been we've talking about it here.
+- [23:20] It has come up in previous conversations
+- [23:21] as well. Um before you start, make sure
+- [23:24] you have a rigorous environment in which
+- [23:26] you know what good looks like uh from an
+- [23:29] AI agent and that you have this test
+- [23:31] set. Uh and then you keep referring back
+- [23:33] to it as you make improvements. I mean
+- [23:35] all of us used to be software engineers.
+- [23:37] No one deploys to production without
+- [23:38] running unit tests. And I think a a very
+- [23:41] simplistic way of thinking about eval is
+- [23:43] is is that it's the unit test for your
+- [23:45] agentic system. Awesome. Tus, any
+- [23:48] thoughts? Yeah, we we have uh um we do a
+- [23:51] lot of red teaming, right? We also work
+- [23:53] with partners to do that. Um and we have
+- [23:55] a uh a feature that we're releasing soon
+- [23:58] that is about simulating potential
+- [24:00] conversations, right? So, it's
+- [24:01] essentially AI agents testing AI agents.
+- [24:03] Now, especially in the customer
+- [24:04] experience space, it's all about
+- [24:06] customer demographics, right? How does
+- [24:08] the AI agent react to someone that is
+- [24:11] annoyed, has very little time, right?
+- [24:13] How does it react to a very young person
+- [24:16] that uses slang maybe, right? How does
+- [24:18] it react to different languages? So
+- [24:19] simulating those conversations at scale
+- [24:22] in the platform that's that's a huge
+- [24:24] thing that a lot of our customers are
+- [24:26] are asking for because the problem is
+- [24:28] it's nondeterministic. So you don't
+- [24:30] really know what you don't know, right?
+- [24:31] And and I mean unit testing super
+- [24:34] important. Um but the biggest challenge
+- [24:36] is you you you don't know what you don't
+- [24:38] know. Like how does it react to anything
+- [24:41] that anyone could come up with? it will
+- [24:43] react. These are completion models,
+- [24:45] right? They're amazing. And and the
+- [24:47] trick is making sure that they don't
+- [24:48] react in a in a way that we don't want
+- [24:50] them to react. And so that's that's you
+- [24:52] can only find it out by simulating
+- [24:54] conversations by really pushing it
+- [24:56] under, you know, thousands of different
+- [24:58] scenarios and then analyze how how it
+- [25:01] holds and how it how they react. Yeah,
+- [25:02] makes makes a lot of sense. Um, we're
+- [25:05] seeing definitely a lot of observability
+- [25:07] uh demands, right? and a lot of new
+- [25:10] approaches everything from you know labs
+- [25:13] labs at Stanford and thinking about
+- [25:14] different approaches to uh you know a
+- [25:16] lot more pressure in observability
+- [25:18] companies to just give shed more light
+- [25:21] um in terms of what's actually going on.
+- [25:23] Um maybe we'll we'll we'll end this with
+- [25:26] one last question from everybody. Um
+- [25:28] curious what is your biggest prediction
+- [25:31] of how this is going to evolve? Um and
+- [25:34] maybe we'll start with with with Sean.
+- [25:36] Look, I think predictions in this space
+- [25:38] are are tough because you you're you're
+- [25:39] proven wrong a month later, which is
+- [25:41] what's so fun about it. But I think
+- [25:42] there's been a lot of talk about MCP and
+- [25:44] protocols like ADA for agents to
+- [25:46] communicate with one another. Um the
+- [25:48] thing that really excites me is whether
+- [25:51] you're running a large organization or
+- [25:53] whether you're trying to work between
+- [25:54] organizations, the problem of discovery
+- [25:56] is real, right? And so one of the
+- [25:58] problems I have to face is trying to
+- [25:59] make sure that if one part of my team
+- [26:01] builds something really valuable, does
+- [26:03] everyone else know about it and will
+- [26:05] they reuse that API, that endpoint
+- [26:06] that's just been created? And so you can
+- [26:08] try API catalogs and ways of solving
+- [26:10] this. But what I love is if you if you
+- [26:12] play forward what MCP and what some of
+- [26:14] these things will evolve to and you look
+- [26:15] at like the sampling part of the
+- [26:17] protocol, this world where I built
+- [26:19] something cool and an agent that
+- [26:21] understands its goal and what it's
+- [26:22] trying to solve realizes that tool can
+- [26:25] help me solve my problem. So like
+- [26:27] automating the the discovery and
+- [26:29] utilization of a new tool to me is just
+- [26:31] like the it's the API economy just 10x
+- [26:36] and that's really exciting to me because
+- [26:38] that is where that just the exchange of
+- [26:39] value and the pace of innovation is
+- [26:41] going to hit a whole new level. Makes a
+- [26:43] lot of sense. How about you challenge?
+- [26:46] I mean it's it's humbling this industry
+- [26:49] and the pace at which it moves and so I
+- [26:51] feel very circumspect about making you
+- [26:53] know uh predictions. Um, so I'm going to
+- [26:56] restrict myself to something that I see
+- [26:57] is more likely to happen in the next 3
+- [26:59] to 12 months. Uh, which I think is
+- [27:01] voice, right? Uh, voice is a lagging
+- [27:04] modality in terms of interactions with
+- [27:05] large language models. Uh, but very much
+- [27:08] something that's a big win in customer
+- [27:10] experience. And so you're going to see
+- [27:12] increasingly you will see in your
+- [27:14] day-to-day life many more of these voice
+- [27:17] related uh, conversational experiences
+- [27:19] rolling out. lots of our customers are
+- [27:22] experimenting with it and some some of
+- [27:24] those experiments are now going to turn
+- [27:25] into experiences that you will see uh
+- [27:27] and and experience yourself. So that's
+- [27:29] coming very very soon. Yeah, agreed. Um
+- [27:34] maybe a different insight uh wouldn't
+- [27:36] call it a prediction. I I do see that
+- [27:38] there's a there's almost like a battle
+- [27:40] of orchestration going on, right? So to
+- [27:42] Sean's point, you will not have 10 or
+- [27:44] 100, you have thousands of these agents
+- [27:46] working together through MCP A2A, right?
+- [27:49] Someone needs to keep an eye on that and
+- [27:51] orchestrate all of that. And so the
+- [27:53] question we get a lot from our customers
+- [27:55] is do I put everything in one big
+- [27:56] ecosystem? You have the the obvious
+- [27:58] vendors there, right? Or should I go for
+- [28:01] more of a best of breed approach? My
+- [28:02] prediction is you you you have to go for
+- [28:05] a best of breed approach simply because
+- [28:07] all of the tools, everything your
+- [28:08] company does from an IT point of view
+- [28:11] will at some point have an AI agent
+- [28:14] element to it, right? and uh it's almost
+- [28:17] impossible to put that in one in one
+- [28:18] ecosystem. So orchestrating all of that
+- [28:20] and being clever about how you
+- [28:21] orchestrate that and get value from
+- [28:23] that. I think that's that's going to be
+- [28:25] super important in the coming period.
+- [28:26] Awesome. And I'll just I'll just end
+- [28:28] with one thought which is we are seeing
+- [28:30] over the last couple years um companies
+- [28:33] sell outcomes for the first time, right?
+- [28:35] Selling work, selling outcomes the way
+- [28:37] that humans are selling themselves um as
+- [28:40] as employees. And that's driven a ton of
+- [28:43] velocity. So for example, one of my
+- [28:44] companies, Tenor, which is doing
+- [28:46] healthcare back office automation, went
+- [28:49] from, you know, pre-revenues, no
+- [28:50] customers two years ago at the seed
+- [28:52] stage to, you know, raising a series C
+- [28:54] just a couple days ago at 600 million
+- [28:55] post. And that is kind of unprecedented
+- [28:58] with with this without this technology.
+- [29:00] I suspect we're going to see a shift in
+- [29:03] paradigm um going from humans prompting
+- [29:07] machines to machines prompting humans.
+- [29:10] And that's going to play out probably
+- [29:12] sooner than we think. So, thank you guys
+- [29:14] so much for being here. Really enjoyed
+- [29:16] the conversation and we'll see you soon.
+- [29:19] Thank you.

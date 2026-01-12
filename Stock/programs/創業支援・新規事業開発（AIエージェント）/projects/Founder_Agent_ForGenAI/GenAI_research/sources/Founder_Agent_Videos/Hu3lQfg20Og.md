@@ -1,0 +1,319 @@
+---
+title: "Just a month ago, Google had introduced its very own computer use model that's built on top of the Gemini 2."
+video_id: "Hu3lQfg20Og"
+video_url: "https://www.youtube.com/watch?v=Hu3lQfg20Og"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "Development"]
+topics: ["AI", "Agents", "RAG", "Development"]
+summary: |
+  Just a month ago, Google had introduced its very own computer use model that's built on top of the Gemini 2.5 Pro
+  This specialized model leverages Gemini's advanced visual understanding and reasoning capabilities to power agents that can directly interact with user interfaces both on the web and mobile
+  In benchmarks for web and mobile control, it already outperformed computing models all while running at low latency with the Gemini 2.5 Pro
+key_points:
+  - "overall, providing to be both the most accurate and fastest model when measured by speed per task"
+  - "it opens up a system that logs in just like a human would"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:22:15+09:00"
+---
+
+# Transcript: Hu3lQfg20Og
+
+- URL: https://www.youtube.com/watch?v=Hu3lQfg20Og
+- Retrieved at: 2025-12-30T10:22:15+09:00
+
+## Text
+
+- [00:00] Just a month ago, Google had introduced
+- [00:02] its very own computer use model that's
+- [00:04] built on top of the Gemini 2.5 Pro. This
+- [00:07] specialized model leverages Gemini's
+- [00:09] advanced visual understanding and
+- [00:11] reasoning capabilities to power agents
+- [00:13] that can directly interact with user
+- [00:15] interfaces both on the web and mobile.
+- [00:18] In benchmarks for web and mobile
+- [00:20] control, it already outperformed
+- [00:22] computing models all while running at
+- [00:24] low latency with the Gemini 2.5 Pro. But
+- [00:27] ever since Gemini has taken things
+- [00:29] further with the launch of two new
+- [00:31] models under the Gemini 3.0 series, it
+- [00:34] has drastically improved the computer
+- [00:36] use agent and the results are honestly
+- [00:38] insane. Gemini 3.0 is exceptionally
+- [00:41] strong at computer use task as well as
+- [00:43] UI automation. For example, the Gemini
+- [00:46] 3.0 Flash scores an 81.2 2 percentage on
+- [00:49] the MMU Pro, a leading multimodal
+- [00:52] understanding benchmark, and a 69.1
+- [00:55] percentage on the screen understanding
+- [00:56] benchmark, putting it ahead of many top
+- [00:59] tier proprietary models. On stage hands
+- [01:02] evaluation, it ranks first overall,
+- [01:04] providing to be both the most accurate
+- [01:07] and fastest model when measured by speed
+- [01:09] per task. Just take a look at the
+- [01:11] computer use agent in action. This is
+- [01:13] where the agent is starting off by
+- [01:15] navigating to an intake form and
+- [01:18] visually understanding the layout of
+- [01:19] this page of the CRM dashboard. It is
+- [01:22] able to read the form fields, extract
+- [01:24] all the relevant pet and owner details,
+- [01:27] and applies logical filtering to
+- [01:29] identify only pets with California
+- [01:31] residency. Next, it opens up a system
+- [01:34] that logs in just like a human would. It
+- [01:37] maps the extracted information to the
+- [01:39] correct CRM fields. It creates the new
+- [01:42] guest profiles and it verifies that each
+- [01:44] record is successfully added and you can
+- [01:47] see that it is doing it quite fast on a
+- [01:49] local computer with the Gemini 3.0
+- [01:52] powering it. Once the guests have been
+- [01:54] created, the agent moves to scheduling
+- [01:56] interfaces and it selects the correct
+- [01:58] specialist, finds the available time
+- [02:00] slots and it schedules a follow-up
+- [02:02] meeting using the same treatment details
+- [02:04] originally requested. All of this
+- [02:06] happens end to end through the user
+- [02:08] interface with no APIs, no custom
+- [02:10] integration, and it's something that you
+- [02:12] can access completely for free. But
+- [02:14] before we get started, allow me to
+- [02:16] introduce today's video sponsor, Zapier.
+- [02:18] As we wrap up this year, the biggest
+- [02:20] advantage you can give yourself for 2026
+- [02:23] isn't working harder, it's building
+- [02:25] better systems. One Zapier workflow I'm
+- [02:28] setting up right now is my 2026 planning
+- [02:31] and execution system. Every form
+- [02:33] submission, email click or inbound
+- [02:36] request gets captured automatically,
+- [02:38] enriched and qualified and Zapier
+- [02:41] orchestrates what happens next. For
+- [02:43] example, inside Slack, Zapier can
+- [02:45] automatically create support tickets,
+- [02:47] route them to the right team, and even
+- [02:50] resolve them using AI agents end to end
+- [02:52] without manual handoffs. And this is
+- [02:54] thanks to Zapier workflows. This is what
+- [02:57] AI orchestration actually looks like.
+- [02:59] With 8,000 plus integrations, Zapier
+- [03:02] connects the tools you already use and
+- [03:04] runs logic reliably at scale. So, if you
+- [03:07] want to start 2026 with systems that
+- [03:10] actually run your work for you, build it
+- [03:12] with Zapier. Use the links in the
+- [03:14] description below and start automating
+- [03:16] today. Here is another demo where the
+- [03:19] agent opens up a shared digital
+- [03:21] whiteboard and visually scans all the
+- [03:23] sticky notes. It understands the text on
+- [03:25] each note, reasons about each task, what
+- [03:28] they represent, and matches it to the
+- [03:30] correct category where it categorizes it
+- [03:32] in three different categories like
+- [03:34] promotion, setup, and volunteers. If any
+- [03:37] notes are out of place, the agent will
+- [03:39] physically drag and drop them in the
+- [03:41] correct spot, reorganizing the board in
+- [03:43] real time. By the end, you're going to
+- [03:45] see that it has done a great job in
+- [03:47] keeping a refined workspace that is
+- [03:49] clean, structured, and ready to use. All
+- [03:52] done autonomously. thanks to the
+- [03:54] computer use agent. So to access these
+- [03:56] models, you can do so in a couple of
+- [03:58] ways. You can use it through browserbase
+- [04:01] which is an AI browser automation
+- [04:03] framework and essentially Google has a
+- [04:05] partnership where they have their models
+- [04:08] hosted within the Gemini browser
+- [04:10] supported by the browserbased framework
+- [04:12] where you can use the Gemini 3.0 flash
+- [04:14] completely for free to automate
+- [04:16] web-based tasks. You can deploy this
+- [04:18] locally and access it through your API.
+- [04:21] Another way is through using it through
+- [04:23] the Google AI studio. And lastly, you
+- [04:25] can use it through Google's
+- [04:27] anti-gravity. This is Google's IDE,
+- [04:30] which uses the computer use agent that's
+- [04:33] powered by the Gemini 3.0 Flash. You can
+- [04:35] have it powered by Gemini 3.0 Pro, but
+- [04:37] it's better with the Flash. And this is
+- [04:39] where it's going to bring faster, more
+- [04:41] accurate UI automation directly within
+- [04:44] the editor. To showcase this new
+- [04:46] computer use model in action, you can
+- [04:48] have it review a pull request on GitHub
+- [04:51] and you'll see how fast this model is
+- [04:53] and how accurate it is. In this case, it
+- [04:56] is requested to find the most recent
+- [04:58] opened non-draft PR on GitHub of the
+- [05:01] browserbased stage hand project. And it
+- [05:03] is requested to make sure that the
+- [05:05] combination evolves in the PR validation
+- [05:07] is passed. So you can see that all of
+- [05:10] the actions will be performed and it's
+- [05:12] going to log all of them like clicking
+- [05:15] uh one of the add focus map to preserve
+- [05:17] semantic elements. it is uh performing a
+- [05:21] tool call like accessing a certain
+- [05:23] section going through the checks and it
+- [05:25] will validate and make sure that it is
+- [05:28] something that has the combination
+- [05:30] evolves in the PR validation that is
+- [05:33] passed and once it has approved that you
+- [05:36] can see that it completes the task quite
+- [05:38] quickly and this is something that it
+- [05:40] did really quick thanks to the Gemini
+- [05:42] 3.0 flash powering the computer use
+- [05:44] model. Here's another prompt where I'm
+- [05:46] going to tell it to go over to my
+- [05:47] YouTube channel and find me the most
+- [05:49] popular video on it. So, you can see
+- [05:52] that once you send in the prompt, it is
+- [05:54] going to deploy the computer use agent
+- [05:55] and it will navigate to my website
+- [05:58] really quickly. This is something that I
+- [06:00] ran with the other computer use model
+- [06:02] and it took a long time to even get to
+- [06:05] this stage. In this case, it took only
+- [06:07] approximately 10 seconds to get there.
+- [06:09] And now it is going to navigate and find
+- [06:11] the most popular model within the video
+- [06:14] section tab. And it is smart enough to
+- [06:16] click the popular tab whereas the other
+- [06:18] models weren't. And you can see that it
+- [06:20] has found that the Gemini 3.5 model is
+- [06:23] the most popular video. Now this
+- [06:25] framework that is powered by the Gemini
+- [06:27] 3.0 computer use can be deployed locally
+- [06:29] as well with the browserbased framework.
+- [06:32] This is one of the ways or you can use
+- [06:34] stage hand which is their open- source
+- [06:36] tool that uses the Gemini computer use
+- [06:38] as well. Another way you can access it
+- [06:40] is simply just heading over to the
+- [06:43] Google AI studio and using it through
+- [06:45] the build mode or through the studio
+- [06:47] itself where you're going to be able to
+- [06:49] have it used and use its computer use
+- [06:52] capabilities whenever you're working
+- [06:54] with certain tasks that require it to
+- [06:56] use computer use. Another way to use the
+- [06:59] computer use model with the Gemini 3.0
+- [07:01] Flash is within anti-gravity, which is
+- [07:03] Google's free IDE. You can send in any
+- [07:06] sort of prompt within the agent manager,
+- [07:09] and it will showcase a live preview of
+- [07:11] what it's actually doing. In this case,
+- [07:13] I'm having it extract contents off of a
+- [07:16] website such as Wikipedia, and you can
+- [07:18] actually allow it to open up certain
+- [07:20] things like a browser. And in this case,
+- [07:23] you can see that it is going to showcase
+- [07:25] a live preview of what it's doing.
+- [07:27] heading over to the Wikipedia page and
+- [07:29] it will actually showcase where is
+- [07:31] actually clicking and you can
+- [07:32] communicate with it live in action. So
+- [07:35] in this case you can work with it to see
+- [07:37] if it's actually doing the correct thing
+- [07:39] but if it isn't you can tell it that I
+- [07:41] want it to work in a certain way. I want
+- [07:43] you to actually focus on clicking or
+- [07:46] automating a certain section of the
+- [07:47] computer. So, here's a task that I'm
+- [07:50] going to complete within the agent
+- [07:52] manager of anti-gravity where I'm
+- [07:53] telling it to go over to any public
+- [07:56] university website and find all upcoming
+- [07:59] AI related events happening in the next
+- [08:01] 60 days. For each event, collect the
+- [08:04] title, the date, time, location, and
+- [08:06] virtual link. And essentially what we're
+- [08:08] going to do is have it so that once the
+- [08:11] information is extracted, it is going to
+- [08:13] then open up and extract the details and
+- [08:16] organize them into a clean open table
+- [08:19] sorted by the date as well. So this way
+- [08:21] you're going to have it sort through all
+- [08:24] of the contents of different dates for
+- [08:26] events and it's going to categorize it
+- [08:28] from the closest time it is going to
+- [08:31] actually happen. and you're going to be
+- [08:33] able to see it live in action as it
+- [08:35] scrapes and finds all the contents. And
+- [08:38] what's nice is that it will actually
+- [08:40] showcase what it's talking about live in
+- [08:42] preview. So you can view the screenshot
+- [08:45] of where it's at and you can confirm if
+- [08:48] it should continue with that step.
+- [08:52] So if you see currently it is requiring
+- [08:54] multi-page navigation and you can see
+- [08:56] that thanks to the computer use agent
+- [08:59] it's able to navigate and it's able to
+- [09:01] use its capabilities to find the correct
+- [09:04] uh contents that we're looking for. It
+- [09:06] will also use semantic reasoning to
+- [09:08] decide what counts as AI related
+- [09:11] workflows or events and it can even
+- [09:13] handle PDFs event pages as well as
+- [09:16] calendars. Now what's crazy is that it
+- [09:19] has now saved all the events in a JSON
+- [09:22] format and not just only that it has
+- [09:24] created an HTML which will showcase all
+- [09:27] the events and I believe it is debugging
+- [09:29] this currently to load the correct JSON
+- [09:32] format for the data directly within this
+- [09:34] HTML file. And there we go. It looks
+- [09:37] like it is still working on it, but it
+- [09:39] has now saved all of the most recent
+- [09:42] events that are happening at that
+- [09:44] university like the Jarvis challenge,
+- [09:46] which is probably the most closest one,
+- [09:48] January 5th, 2026. Right now, it is the
+- [09:51] 27th of 2025. But you can see the
+- [09:54] quality of output of this computer use
+- [09:57] agent directly built within
+- [09:58] anti-gravity. So, you have a lot of
+- [10:00] means to access all of these different
+- [10:01] tools completely for free and get the
+- [10:04] best automation out of it. Or you can
+- [10:06] consider joining our private Discord
+- [10:08] where you can access multiple
+- [10:10] subscriptions to different AI tools for
+- [10:12] free on a monthly basis, plus daily AI
+- [10:15] news and exclusive content, plus a lot
+- [10:17] more. If you like this video and would
+- [10:19] love to support the channel, you can
+- [10:21] consider donating to my channel through
+- [10:23] the super thanks option below. But
+- [10:25] that's basically guys for today's video
+- [10:27] on the new Gemini computer use. I'll
+- [10:29] leave all these links in the description
+- [10:31] below so that you can easily get
+- [10:32] started. But with that thought guys,
+- [10:34] thank you guys so much for watching.
+- [10:35] Make sure you subscribe to the second
+- [10:36] channel if you haven't already. Join the
+- [10:38] newsletter, join the Discord, follow me
+- [10:40] on Twitter, and lastly, make sure you
+- [10:42] guys subscribe, turn on notification
+- [10:43] bell, like this video, and please take a
+- [10:44] look at our previous videos because
+- [10:46] there is a lot of content that you will
+- [10:47] truly benefit from. But with that
+- [10:49] thought, guys, have an amazing day,
+- [10:50] spread positivity, and I'll see you guys
+- [10:52] really shortly. He suffers.

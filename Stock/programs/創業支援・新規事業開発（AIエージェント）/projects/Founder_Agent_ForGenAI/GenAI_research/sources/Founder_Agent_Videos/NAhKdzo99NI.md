@@ -1,0 +1,1899 @@
+---
+title: "Thanks to NAN, the fastest growing AI tool, people like me with no coding experience can build AI agent workflows that c"
+video_id: "NAhKdzo99NI"
+video_url: "https://www.youtube.com/watch?v=NAhKdzo99NI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Thanks to NAN, the fastest growing AI tool, people like me with no coding experience can build AI agent workflows that can replace entire teams all without writing a single line of code
+  But more than that, you can also create custom interfaces for those agentic workflows and you can sell them to businesses or you can use them to grow yours
+  This video is the most complete guide to NAN and creating AI agents without writing a single line of code and also how to turn these NAN workflows into your own customized vibecoded agentic applications
+key_points:
+  - "talk about the great agentic opportunity and how software is changing"
+  - "we're going to talk about templates that you can download that will help you get started much faster"
+  - "tool ever to allow people who've never written a line of code like me"
+  - "visual builder of AI agents"
+  - "things to understand with N8N"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:37:00+09:00"
+---
+
+# Transcript: NAhKdzo99NI
+
+- URL: https://www.youtube.com/watch?v=NAhKdzo99NI
+- Retrieved at: 2025-12-30T10:37:00+09:00
+
+## Text
+
+- [00:00] Thanks to NAN, the fastest growing AI
+- [00:02] tool, people like me with no coding
+- [00:04] experience can build AI agent workflows
+- [00:08] that can replace entire teams all
+- [00:10] without writing a single line of code.
+- [00:12] But more than that, you can also create
+- [00:15] custom interfaces for those agentic
+- [00:18] workflows and you can sell them to
+- [00:19] businesses or you can use them to grow
+- [00:22] yours. This video is the most complete
+- [00:25] guide to NAN and creating AI agents
+- [00:28] without writing a single line of code
+- [00:30] and also how to turn these NAN workflows
+- [00:33] into your own customized vibecoded
+- [00:35] agentic applications. In this video,
+- [00:38] we're going to cover it all. We're going
+- [00:40] to first talk about the great agentic
+- [00:42] opportunity and how software is
+- [00:43] changing. We're then going to talk about
+- [00:45] the four most important things to
+- [00:47] understand with N8N. We're going to do
+- [00:48] an initial setup of an NAN workflow and
+- [00:51] go through the basics. We're also going
+- [00:53] to talk about the built-in tools, APIs,
+- [00:55] and HTTP requests. Then, we're going to
+- [00:58] dive into some more detail with AI
+- [01:00] agents and go through a lot of examples.
+- [01:02] We're also going to talk about a better
+- [01:04] interface for AI agents. Then, we're
+- [01:06] going to put it all together. And at the
+- [01:08] end, we're going to show you our full
+- [01:10] examples of our vibecoded agentic
+- [01:12] applications. and we're going to show
+- [01:14] you our master chief marketing officer
+- [01:16] that is an AI agent that has access to
+- [01:19] AI agents. And then at the end, we're
+- [01:21] going to talk about how Vibecoded
+- [01:23] agentic applications are going to get
+- [01:25] better as the years go on. And finally,
+- [01:27] we're going to talk about templates that
+- [01:28] you can download that will help you get
+- [01:30] started much faster. If videos like
+- [01:32] these excite you, we're going to be
+- [01:34] doing these basically every single day
+- [01:36] for the next 10 years straight. So, make
+- [01:39] sure to hit the subscribe and like
+- [01:41] button. Let's dive into the video.
+- [01:44] Before we dive into N8N, I want to talk
+- [01:47] about the opportunity that is in front
+- [01:50] of us. Literally the length of tasks
+- [01:53] that AI can do is doubling every 7
+- [01:57] months. And so we are seeing correctly
+- [02:00] we are seeing a rapid growth in
+- [02:03] popularity of N8N which is the first
+- [02:05] tool ever to allow people who've never
+- [02:08] written a line of code like me. I know
+- [02:09] you're very technical and so it's
+- [02:11] actually easier for you to pick it up.
+- [02:12] But people like me, we can build agentic
+- [02:14] workflows because it is the first visual
+- [02:17] builder of AI agents. And as you can see
+- [02:20] here, NAN is actually more I don't know
+- [02:22] how this is even possible becoming more
+- [02:24] popular than the term AI agents. Yeah.
+- [02:26] And I think part of the reason is
+- [02:28] there's a lot of people on YouTube who
+- [02:30] are shilling n and as a way of making
+- [02:33] money they're selling these templates
+- [02:35] doing all these things and it feels like
+- [02:37] there's some sort of scam going on and I
+- [02:39] can't speak to those creators but that
+- [02:41] doesn't mean that n is super powerful.
+- [02:44] It is incredibly powerful. So at my
+- [02:46] previous startup that I founded I had to
+- [02:48] make my own AI agent and I can tell you
+- [02:51] how it went. eight hours of coding
+- [02:54] minimum just to get like the bare bones
+- [02:56] just basic agent and you need a lot of
+- [02:59] experience to know it. You can't just go
+- [03:01] ahead and start typing it up or you
+- [03:02] can't even vibe code it. It would take
+- [03:03] too long. And yeah, and if you wanted to
+- [03:05] add any features, you got to spend
+- [03:07] another eight hours fixing that, trying
+- [03:09] to make it work. And that's just the
+- [03:12] back end. This has no like interaction
+- [03:14] with the front end. This is just how the
+- [03:15] AI works and nothing works. And you'll
+- [03:19] probably uh look something like that
+- [03:21] right towards the end. And that's how I
+- [03:22] looked. I think I was actually blowing
+- [03:23] steam out of my nose. Yeah, exactly. Um,
+- [03:26] but since like the past two weeks we've
+- [03:28] been working on nan, it's been glorious.
+- [03:31] 20 minutes just to get the agent set up.
+- [03:33] You can start immediately. You need no
+- [03:36] years of experience. You can start and
+- [03:38] they have a bunch of tools and things
+- [03:40] you can add to it that we'll explain
+- [03:42] later to make it just as powerful. One
+- [03:44] thing I will add is like it is a little
+- [03:47] bit intimidating at first because
+- [03:49] there's a lot of inputs and outputs.
+- [03:51] Right? There's some coding adjacent
+- [03:54] things you need to understand like JSON
+- [03:56] is is useful to understand how uh
+- [03:59] different AI models can output in
+- [04:00] different formats I feel like is a
+- [04:02] really important thing and then just
+- [04:03] having like a general understanding of
+- [04:04] software is useful. Yeah. But yeah,
+- [04:06] basically anyone who's just like
+- [04:08] interested in technology can learn it
+- [04:09] and we'll go over that today and we're
+- [04:11] going over you just do it maybe two or
+- [04:13] three times. We'll show you how to do it
+- [04:14] and then you got it. It's super simple
+- [04:16] and you'll look something like that.
+- [04:18] Amazing. You'll be happy. Yeah. Okay.
+- [04:21] So, we're going to talk about a lot of
+- [04:22] things today. N8N has a lot of different
+- [04:24] features, but the four most important
+- [04:26] things that we need to understand. What
+- [04:28] what are these four biggest things that
+- [04:30] we really need to understand about NAN?
+- [04:32] The first thing you should understand is
+- [04:34] the workflow. So, this entire thing
+- [04:36] right here is a workflow. And every
+- [04:39] workflow has actions. And so, they have
+- [04:42] it's like a sequence of actions. A
+- [04:44] sequence of actions. And every workflow
+- [04:46] starts with a trigger. Every workflow
+- [04:48] starts with a trigger. And then from
+- [04:50] there it hits those actions. In this
+- [04:52] case, we're just using a schedule
+- [04:53] trigger. So it just triggers every 15
+- [04:56] minutes and then it goes through the
+- [04:58] sequence of actions in which this case
+- [05:00] this workflow just takes a file from my
+- [05:02] Dropbox, adds some captions and then
+- [05:05] returns it in my Dropbox. Yeah. And so
+- [05:07] basically every period of time in this
+- [05:09] case you have it set for 15 minutes.
+- [05:10] That's if you want to use AI to like
+- [05:12] actually make decisions. Yeah. So the
+- [05:14] third most important thing to understand
+- [05:15] about N is their new node AI agents. And
+- [05:19] if you can see here, it's not linear at
+- [05:21] all. It has a trigger of course. But
+- [05:24] then you can see here that the AI agent
+- [05:26] has different tools which are
+- [05:28] essentially actions that you saw before
+- [05:30] that the AI agent chooses when to use if
+- [05:33] necessary. So that's the key difference,
+- [05:36] right? Linear workflows, those are
+- [05:38] actions, right? But AI agents, these are
+- [05:40] kind of like tools they can use if it
+- [05:43] basically needs to, right? You have it's
+- [05:44] like a super smart AI model that can
+- [05:47] decide when to use the tools. That's the
+- [05:48] key distinction. So the difference,
+- [05:50] yeah, for example, the difference here
+- [05:52] is it'll it'll always get the files in
+- [05:54] my Dropbox in this linear workflow. In
+- [05:57] this AI agent workflow, maybe it doesn't
+- [05:59] need to use a Slack, but we have it here
+- [06:01] just in case we need it, right? And so
+- [06:03] that brings us to our fourth most
+- [06:05] important thing about NAN is these new
+- [06:07] interfaces that people are making to
+- [06:09] connect these AI agents with them. And
+- [06:11] so I have one set up right here. We'll
+- [06:13] go over how to make all of this in just
+- [06:15] a second. But I'll go ahead and show you
+- [06:17] how it works. So we'll just go ahead and
+- [06:19] send this message saying tell Riley I
+- [06:21] like his studio and to make a new
+- [06:23] calendar event for a meeting I have.
+- [06:25] We'll go ahead and send that. And then
+- [06:26] you can see, wow, the app triggered the
+- [06:29] workflow that's now using an AI agent
+- [06:31] that has access to tools. Yeah. Amazing.
+- [06:34] And so it sent me a message on Slack.
+- [06:37] Yeah. And then it's going to ideally
+- [06:40] schedule an appointment. So it added
+- [06:41] something to the to-do list, which is
+- [06:43] very cool. Yeah. And that's exactly what
+- [06:45] I wanted. And then so it sent you a
+- [06:47] Slack message. One of the things that
+- [06:48] can happen is things can fail. As you
+- [06:51] can see here, the whenever you have a
+- [06:54] web hook trigger, uh, basically the AI
+- [06:57] agent's going to respond back to that
+- [06:58] web hook. And it actually wasn't able to
+- [07:01] schedule the appointment. It was able to
+- [07:03] send me a message, but it wasn't able to
+- [07:05] schedule the appointment. And so the AI
+- [07:07] agent realized that and sent that back
+- [07:10] through the web hook. So the VAP
+- [07:11] actually, so now when you're using this
+- [07:13] vibecoded agentic application, which
+- [07:15] we'll talk about later, you actually
+- [07:16] know exactly what went wrong. And one
+- [07:19] key part of N, right, if there was a the
+- [07:23] fifth thing that you really need to
+- [07:24] understand is you need to understand how
+- [07:26] to fix problems when they go wrong cuz
+- [07:28] let's let's figure this out. Yeah. So if
+- [07:30] we open the calendar, it says forbidden.
+- [07:32] Perhaps check your credentials. So he
+- [07:34] didn't set up credentials. We're going
+- [07:35] to talk about credentials a little bit
+- [07:37] later. He chose the wrong account. Yeah.
+- [07:39] Um and I don't know if you I think I
+- [07:41] probably mislabeled it or something,
+- [07:44] right? And it happens. And it happens.
+- [07:46] And so the key is once you set this up
+- [07:49] correctly the first time, you then have
+- [07:51] access to these AI agents. So it's very
+- [07:53] important that you are very detail
+- [07:55] oriented when you're first setting these
+- [07:56] up so that at any time you can use an AI
+- [07:59] agent that has access to all these
+- [08:00] different tools. And I think that's a
+- [08:01] benefit of AI agents is that it'll tell
+- [08:03] you exactly what went wrong and how to
+- [08:05] fix it. Whereas if it was a linear
+- [08:08] workflow like this, it would just
+- [08:09] silently fail and you wouldn't really
+- [08:11] get any feedback on what what failed and
+- [08:13] how. Amazing. Okay, let's actually build
+- [08:15] one of these workflows. And so anytime
+- [08:18] that you use NAD, it just it looks like
+- [08:19] this. Yeah, this is how it looks. It's a
+- [08:21] canvas that's blank. And your first step
+- [08:24] will be those trigger nodes that we
+- [08:25] talked about. And they have a bunch of
+- [08:27] them. They have, you know, if you send
+- [08:29] something to notion or Telegram, it'll
+- [08:31] automatically trigger. You can do web
+- [08:32] hooks, which we'll talk about, but for
+- [08:34] now, we'll just do a schedule one. So,
+- [08:36] let's set this trigger to trigger every
+- [08:39] 15 minutes. So, every 15 minutes, what
+- [08:41] do we want it to do? So every 15 minutes
+- [08:44] um what we can do is let's do that uh
+- [08:47] workflow that you showed with the
+- [08:48] Dropbox. Awesome. So let's see what
+- [08:51] happens next. Do action and app. And
+- [08:54] they have over 400 different
+- [08:56] applications with their integration.
+- [08:57] They have a bunch of them and you can
+- [08:59] search for your own. I'll just search
+- [09:00] for Dropbox. Very cool. And then we will
+- [09:04] list a folder. List a folder. Yeah. I
+- [09:07] don't I wouldn't know what that me means
+- [09:09] honestly. Um, well, if you go here, it
+- [09:11] says return the files and folders in a
+- [09:14] given folder. Oh, it lists the files
+- [09:16] within a folder. Got it. Yeah, got it.
+- [09:20] And so, we'll do that. And we can return
+- [09:21] all of the files. And the folder path is
+- [09:25] I have Dropbox open right here. It's
+- [09:27] just raw for like raw videos. So, we'll
+- [09:29] just put raw here. Raw. That's the name
+- [09:31] of it. That's the name of the folder.
+- [09:33] Okay. So, whatever you name the folder,
+- [09:35] but if that's a subfolder within your
+- [09:36] thing, it's going to be a different
+- [09:37] path. Yeah. Yeah. Yeah, it'll be a
+- [09:39] different path. And then say it was like
+- [09:40] raw and then in that folder there was
+- [09:42] another one that said videos. You just
+- [09:44] add another slash and it'd be videos.
+- [09:46] Yes. And if you get confused, just ask
+- [09:47] chat GPT. It'll always tell you. You can
+- [09:49] ask chat GPT also. Yeah. Raw. And then
+- [09:53] each input area has like this little
+- [09:55] question mark that you can hover over
+- [09:56] and it'll tell you the path of which to
+- [09:59] list the content. Amazing. Awesome. And
+- [10:02] then also another resource is this AI
+- [10:04] tool that N has built in. they can
+- [10:07] actually read your workflow and give you
+- [10:09] feedback on it. Amazing. Awesome. So,
+- [10:11] after we list the Dropbox folders, go
+- [10:14] ahead and get the video that we want.
+- [10:17] So, if it finds a video, it'll get that
+- [10:19] video. And let's see if it can download
+- [10:21] a file. Awesome. Download file path. And
+- [10:24] this is where things get interesting.
+- [10:26] instead of just putting like a set file
+- [10:29] path or folder path like you just saw me
+- [10:31] like I could do raw but the file name
+- [10:35] could always be different. It will
+- [10:36] always be different. It will always be
+- [10:38] different. So we don't want to do that.
+- [10:39] So what we want to do is use the output
+- [10:42] the result of the previous Dropbox. So
+- [10:44] when it lists all the files we want to
+- [10:46] use whatever it lists into this file
+- [10:48] path. Absolutely. Actually go back go
+- [10:50] back to the the the list here. So, so
+- [10:53] one of the things to understand with any
+- [10:54] workflow builder, can you go to the just
+- [10:55] the out? So, like as you see, there's a
+- [10:58] trigger. Every 15 minutes, it's going to
+- [11:00] look in a folder and it's going to get a
+- [11:03] list, right? It is basically going to
+- [11:04] pull a list of um of files, all of which
+- [11:09] will have an ID of some kind. Yeah. And
+- [11:11] that's one thing you need to train your
+- [11:13] brain as you use nan. You need to start
+- [11:15] thinking about what are the inputs and
+- [11:17] the outputs of each one. Right. Once you
+- [11:18] train your brain to always think that,
+- [11:20] then you'll always realize that you need
+- [11:22] to correctly connect the output of the
+- [11:26] previous action into the input of the
+- [11:27] current action. Yeah. And here uh every
+- [11:30] single time it's going to be different
+- [11:32] because the end result of this will move
+- [11:34] those files out of this. So every single
+- [11:37] time it's going to be new. So it needs
+- [11:38] to be dynamic. So each one is kind of
+- [11:40] like a variable. So if it finds a list
+- [11:42] of folders, each one will have a new
+- [11:44] number. We're using all those numbers in
+- [11:46] the flow anyway. Yeah. And so in order
+- [11:48] to do that, if you look on the left side
+- [11:50] of when you open a node or an action,
+- [11:52] you will have these variables here. And
+- [11:54] so what we want to look for is name. And
+- [11:57] so you can just drag the name just into
+- [12:01] there. And now you'll see the little
+- [12:03] brackets around it. And that means it's
+- [12:05] dynamic. It'll change every time. Yeah.
+- [12:07] And it's an expression. And then what do
+- [12:10] we want that file name to be inside of
+- [12:12] nan? We'll just say video because that
+- [12:14] just makes things simpler. And let's
+- [12:16] rename this action node so we can keep
+- [12:19] track. That's great. All right. Now, how
+- [12:21] are we going to add captions to our
+- [12:22] video? I don't know. You're telling me.
+- [12:24] Yeah. We're going to use a service
+- [12:26] called uh ZapCap. And I'm sure maybe
+- [12:28] some of you have heard of it. And I just
+- [12:30] wanted to show you this is because we
+- [12:32] can connect any API to NAN. And so this
+- [12:36] is not a built-in integration, is it?
+- [12:38] No. And by built-in integration, right,
+- [12:40] like you want to add in another action.
+- [12:41] Obviously, there's hundreds of these,
+- [12:43] but they're not always there. Not all of
+- [12:45] them are there. There's unlimited
+- [12:47] actions that you could uh create with
+- [12:50] all of the tools on the internet. And
+- [12:51] that's thanks to the HTTP request, which
+- [12:54] is one that I I need I need you to like
+- [12:56] kind of help me on this because these
+- [12:58] are the harder ones to set up. So yeah,
+- [13:00] let's explain what an HTTP request is
+- [13:02] and like what even is an API. The way I
+- [13:05] think of it is an HTTP is like the
+- [13:08] common language that is spoken between
+- [13:10] different software and machines over the
+- [13:13] internet. This is a customer service
+- [13:15] bot, okay? Um, they're not Open AI, but
+- [13:18] they use Open AI to make their bots,
+- [13:21] right? And so, let's say a customer
+- [13:24] comes in with a request. Maybe he wants
+- [13:26] some help with something. He's shopping.
+- [13:28] Something broke. Okay, he comes in with
+- [13:29] that request. This customer service bot
+- [13:31] looks at the request and he's like, "Oo,
+- [13:33] I need to talk to Open AI about this."
+- [13:35] But Open AAI doesn't know this has
+- [13:37] happened yet. So, he's chilling. He
+- [13:39] doesn't know what's happening. So yeah,
+- [13:40] he sends a request over to OpenAI with
+- [13:43] everything that he knows and then Open
+- [13:45] AI has this link right here and that's
+- [13:48] where this information would be sent.
+- [13:50] Amazing. Yeah. And so basically so
+- [13:53] there's just one way of saying like hey
+- [13:54] I need information and then on the way
+- [13:56] back it's just like here's the
+- [13:57] information that you need and sometimes
+- [13:59] there's a charge associated with that.
+- [14:01] Open a that's how OpenAI makes a lot of
+- [14:02] their money is they charge people for
+- [14:05] these requests for these requests. And
+- [14:06] in the case of N for all the built-in
+- [14:08] integrations, it has an open router
+- [14:11] integration, right? It basically just
+- [14:13] sets up the HTTP requests for you so
+- [14:15] that you don't have to do this. Yeah.
+- [14:17] But if you want to actually build
+- [14:19] agents, build workflows that are unique
+- [14:22] and useful, something that people would
+- [14:24] pay for and you and like you don't want
+- [14:26] to be limited by the built-in
+- [14:28] integrations, you have to be able to to
+- [14:31] build your own HTTP requests and set it
+- [14:33] up so that you can use any external
+- [14:36] Exactly. Yeah. So, and and will usually
+- [14:37] set this um conversation up for you. Um
+- [14:41] in which case they don't Yeah. We would
+- [14:42] have to set this up on our own. And it's
+- [14:44] also it's very simple. Once you just do
+- [14:45] one or two, you got it. Yeah. Um and so
+- [14:48] yeah, so let's basically go over exactly
+- [14:50] how this works. So let's say again
+- [14:54] customer server spot send something to
+- [14:56] OpenAI start, right? And the first thing
+- [14:58] that happens is is the a API endpoint um
+- [15:02] even there? Is it even real? Is this
+- [15:04] right here? Right? So let's say it's
+- [15:06] mistyped or it's old or doesn't exist
+- [15:08] anymore. This thing will shoot its shot
+- [15:11] completely miss and it'll return like
+- [15:15] yeah return error endpoint not available
+- [15:17] and usually you get that 404 error that
+- [15:19] everyone has seen when they've been onto
+- [15:21] like a page that didn't if it succeeds
+- [15:24] it sends the HTTP request and then that
+- [15:26] reaches open AI and then it goes in
+- [15:28] through another step. What type of HTTP
+- [15:32] request? So there's four main ones, but
+- [15:34] usually you'll only use two, which would
+- [15:37] be get and post. And we'll explain that.
+- [15:39] And they're pretty simple. One method is
+- [15:41] get, which is just retrieving data from
+- [15:45] the uh it's just retrieving data. So
+- [15:47] that would just be like getting
+- [15:48] information back. So what that would
+- [15:51] look like is Open AI would just send
+- [15:53] information back. And so if if OpenAI
+- [15:56] generates something that is a get like
+- [15:58] like if in the case of the the um
+- [16:01] customer service bot in the case of the
+- [16:04] customer service bot it would send
+- [16:06] information to Open AI and then they
+- [16:09] both receive information and so that
+- [16:11] would be a post where it sends data and
+- [16:14] so you can think of posts as get and put
+- [16:17] which put would just be putting data
+- [16:20] into Open AI and then Open AI wouldn't
+- [16:23] send any data it back. Got it. Okay.
+- [16:25] Okay. And then the next one is delete,
+- [16:28] which would probably wouldn't happen in
+- [16:30] this scenario, but you would just delete
+- [16:31] something from OpenAI. Makes sense.
+- [16:33] Yeah. Okay. And so, so get means
+- [16:36] retrieve, post means send. Yeah. Put
+- [16:39] means update a field. And then delete
+- [16:42] means remove data. Yeah. So the method
+- [16:44] right here be delete, get, and you don't
+- [16:47] got to worry about. And what are we
+- [16:48] doing on this step? So the first step we
+- [16:50] would be sending the video to Zapcap and
+- [16:54] then getting the ID of their upload
+- [16:58] back. So what are we putting here for
+- [16:59] that? We're using post. We're using both
+- [17:02] getting and receiving information.
+- [17:03] Amazing. Yeah. And so what happens after
+- [17:06] that? Is the request successful? Do you
+- [17:08] have, you know, proper authorization?
+- [17:11] Are you allowed to make that request? Um
+- [17:13] did the request go through or was there
+- [17:15] an error?
+- [17:17] um if it's no then it will fail and then
+- [17:20] if if in the case of nan if it is no
+- [17:23] then the the actions are done you're not
+- [17:25] going to be able to keep moving along
+- [17:27] right and so that's why it's so
+- [17:28] important to make sure that things are
+- [17:30] successful and they are robust in a
+- [17:33] sense they are um able to take in
+- [17:35] multiple files right because if it tries
+- [17:36] to get a file and then it ends up being
+- [17:38] a image right then like is it everything
+- [17:41] going to fail or like that these are all
+- [17:43] the things that you need to think about
+- [17:44] because as soon as one step fails
+- [17:47] like the whole chain is done. Yeah. And
+- [17:49] so you got to make sure everything is
+- [17:50] set up. Yeah. And you can sort of handle
+- [17:52] errors sometimes, but in the case of N,
+- [17:55] it usually won't work. And that's how
+- [17:57] you get, you know, an error of 500 or
+- [17:59] something about that that you may see.
+- [18:01] And that's that's actually what makes
+- [18:02] agents so interesting is because like if
+- [18:04] you've used agents on NAN, it one of the
+- [18:07] HTTP requests could fail and then it
+- [18:10] might actually try another method, which
+- [18:11] is super cool. it ends up um so because
+- [18:14] like just like you and I like if we're
+- [18:15] setting up our presentation and we fail
+- [18:17] we don't just say like error and then
+- [18:19] quit we just try something else and so
+- [18:22] agents are beginning to do that which is
+- [18:23] super cool. Yeah. And you can also set
+- [18:26] something up where like if it fails you
+- [18:28] can make it search the web and find an
+- [18:30] answer and then try again and that's
+- [18:31] what makes it agentic. So what happens
+- [18:33] when it succeeds? If it succeeds,
+- [18:35] receive response with data and you would
+- [18:37] process the response and then you
+- [18:38] usually get 200. Um, which is like a
+- [18:41] code that you get, which is okay. So,
+- [18:43] you want 200, you don't want 400. Yeah.
+- [18:45] You don't want four or five, you want
+- [18:46] two. Amazing. And so, actually, if you
+- [18:48] go into that workflow, go back to the
+- [18:50] HTTP request, there's going to be an
+- [18:52] output, right? On the left side of these
+- [18:54] settings, you have the input and the
+- [18:55] right side, you have the output. That's
+- [18:57] what you're sending to the next note.
+- [18:58] And it's important to set these up
+- [19:00] correctly. So yeah, let's set up our
+- [19:02] first HTTP request. So our method is
+- [19:05] post because we're both getting and
+- [19:07] receiving information. And the URL is
+- [19:09] that endpoint that we talked about. So
+- [19:11] in this case, API super cool service.
+- [19:15] Zapcap's case, let's go over to their
+- [19:17] docs. Their URL would be https/
+- [19:22] API. All right, so the first thing that
+- [19:25] we need is the URL and the endpoint.
+- [19:27] Going back to the diagram, uh it is this
+- [19:30] thing right here, the endpoint. This
+- [19:32] endpoint like where where do we find
+- [19:35] this endoint? In our case using zap cap,
+- [19:37] we're just going to search up zip zap
+- [19:39] cap docs, but you could do that for
+- [19:41] anything. So you can so like no matter
+- [19:43] what step we are setting up. So let's
+- [19:44] say we were setting up access to
+- [19:46] perplexity, which I don't think they
+- [19:47] have a tool within n, we would look up
+- [19:50] perplexity docs or documentation and
+- [19:53] there we will find this magical endpoint
+- [19:56] link. So you'll find the post and then
+- [19:58] the endpoint link. And in this case, it
+- [20:00] looks like that. And so we'll go over.
+- [20:02] So we'll get that URL and then we'll go
+- [20:04] back to nan and just paste that there.
+- [20:07] Okay, perfect. Cool. Authentication.
+- [20:09] Let's go back to the docs. So in order
+- [20:12] to use this URL, we're going to need to
+- [20:15] give in some sort of password because we
+- [20:17] do have to pay for these tools most of
+- [20:18] the time, right? There's some open APIs
+- [20:20] that you can use up to a certain amount
+- [20:22] for free, you know? Um but there most of
+- [20:26] the good ones are ones you have to pay
+- [20:28] for. Yeah. And so we need to like set up
+- [20:29] some sort of account here. Yeah. So
+- [20:32] yeah, you will sign up for an account
+- [20:34] and then you'll get what's called an API
+- [20:36] key which is just a randomized, you
+- [20:38] know, numbers and letters. That's your
+- [20:40] password like the the little the auto
+- [20:42] passwords Apple sets up for you. Yeah.
+- [20:45] Those annoying things. Yes. Um and so
+- [20:47] here you need an API key. And so we'll
+- [20:49] just Google Zapcap API key and you'll
+- [20:52] get one. Zapcap API.
+- [20:55] So when you hear API key, just think
+- [20:57] unique password that you need to keep
+- [20:59] secret. Do not share it with anyone
+- [21:00] because then someone else could use all
+- [21:02] your credits in whatever tool it is.
+- [21:04] Yeah. So here in the docs, you'll see
+- [21:07] you can get your API key from ZapCap
+- [21:09] dashboard. Right. So we'll go ahead over
+- [21:11] there. I already have an account. You
+- [21:13] just sign up. And here's your API key.
+- [21:15] Amazing. You don't need to view it. You
+- [21:17] can just copy. Copy that. Yeah. And then
+- [21:21] we'll go over back to NAN and
+- [21:23] authentication. We'll just go. It's a
+- [21:25] generic type.
+- [21:27] Go into headers.
+- [21:29] Yeah. So, I already set up Zapcap, but
+- [21:31] in case you have it, um I can show you
+- [21:34] how to do that. So, we'll just create a
+- [21:35] new credential. And you can call it
+- [21:37] Zapcap 2. Yeah, we'll just call that
+- [21:40] Zapcap 2.
+- [21:42] And so, um, basically it would be really
+- [21:45] annoying if all of the time, every
+- [21:46] single time you set up one with Zapcap,
+- [21:49] you had to go and get copy your API key
+- [21:51] and paste it back in. A credential is
+- [21:53] basically a saved password uh and or API
+- [21:57] key with a certain name so you can use
+- [21:59] it at any time. So, you definitely want
+- [22:01] to label those. And so, we'll call it
+- [22:03] like what? Zapcap. Uh, we just call it
+- [22:05] Zapcap 2. this name right here. We can
+- [22:08] go back to the docs
+- [22:11] cuz that is also important. We have to
+- [22:13] name it
+- [22:15] right here. You have to name it X uh-
+- [22:18] API- key. Oh, you have to name it
+- [22:21] exactly. Okay. Yeah. And that's what it
+- [22:22] expects. So, um Zapcap will be looking
+- [22:25] for the name that looks like that and
+- [22:28] then a valid API key. So, we'll make
+- [22:30] sure that is exactly how it looks. So
+- [22:32] that would be X dash API- key. And then
+- [22:36] that API key you can just paste in right
+- [22:38] there. Cool. And then we'll hit save.
+- [22:40] Now you're all set up. And now when
+- [22:43] you're in here, it automatically loads.
+- [22:45] And now anytime you're setting up
+- [22:46] Zapcap, um, not only can you save this
+- [22:49] entire node, right, you can actually
+- [22:51] copy and paste this entire node and use
+- [22:52] it later. If you ever want to use
+- [22:54] Zapcap, you just look for it under
+- [22:56] header off. Yeah. Right. Cool. Awesome.
+- [22:59] And now we have to send information to
+- [23:01] Zapcap. So in this case, we'll be
+- [23:02] sending the video. So we're going to
+- [23:04] send a body. Okay. And let's see what it
+- [23:07] expects. So it expects a multi-art form
+- [23:11] data. We'll go back. Instead of JSON, we
+- [23:14] have form data. And if you remember back
+- [23:18] to when we downloaded the video, we just
+- [23:20] named it video. Amazing. So
+- [23:23] we'll just go video as the name
+- [23:28] and the value is also video. So it's
+- [23:30] always going to be named video. Yeah.
+- [23:32] Okay. So you can just put that in
+- [23:34] deterministically. That makes sense. And
+- [23:36] then we'll rename this to send video to
+- [23:40] zap cap. Great.
+- [23:43] Awesome. Now let's see if we got
+- [23:46] everything. Yeah, we got everything.
+- [23:48] Cool. Is there any way at this point we
+- [23:50] could test this? Yeah. So we can upload
+- [23:55] a file to Dropbox, test it out, and see
+- [23:57] if it sends a video to Zapcap. But it
+- [24:00] triggers every 15 minutes. It also isn't
+- [24:03] scheduled for 15 minutes, but once I
+- [24:04] flick this to activate
+- [24:07] in production, it will. Okay, we'll get
+- [24:09] to that later. Okay. Okay, this is good.
+- [24:12] Awesome. So, let's drop a video in here.
+- [24:16] So, this is the folder it will always be
+- [24:19] looking at. And so, it's very important
+- [24:20] to just keep testing things. So, we're
+- [24:22] uploading a video
+- [24:24] and and raw. So now when you hit test it
+- [24:27] searches and there's an error. It failed
+- [24:29] on download workflow. That's okay,
+- [24:32] right? That's going to happen. And so
+- [24:34] let's talk let's dig in. Let's talk
+- [24:35] about this. So why did it fail? Okay,
+- [24:37] let's see what it said. Please check
+- [24:39] your parameters. Error in call files
+- [24:42] download
+- [24:45] match pattern. Let's check the error
+- [24:47] from Dropbox. error in call to API
+- [24:52] function file download
+- [24:54] did not match. So I think I see what the
+- [24:56] problem is. Um so nan tried downloading
+- [24:59] a video from just video playback.mpp4
+- [25:03] but
+- [25:05] video playback.mpp4 is in folder raw.
+- [25:08] And so if you look here this other
+- [25:10] variable called path lower has raw/v
+- [25:14] video playback. I see. And so let's
+- [25:17] remove this.
+- [25:19] And we can just drag and drop this one
+- [25:20] in here. And so now Dropbox will look
+- [25:24] for um video playback in the folder raw.
+- [25:27] Got it. Okay. So let's go ahead and test
+- [25:29] that again.
+- [25:33] Yep. Okay. Now it's sending to ver. So
+- [25:36] now there's another error. That's okay.
+- [25:41] Let's go ahead and look at it. And
+- [25:43] remember, let's say you have no uh
+- [25:45] technical experience. Go ahead and copy
+- [25:47] that real quick. The request. Yeah, just
+- [25:49] yeah, copy that whole thing. And then
+- [25:51] what I would do is you can open up chat
+- [25:53] GBT
+- [25:54] at any time. Obviously, you could ask um
+- [25:58] nan, but you can just paste that in here
+- [26:00] and I or you could literally give no
+- [26:03] prompt and it'll it'll still understand
+- [26:05] what you're doing. like it'll be like
+- [26:08] um bad request um um attach an actual
+- [26:12] file stream. So it's not actually a file
+- [26:15] stream. No. Okay. Um and now let's say
+- [26:19] you don't understand that. Say can you
+- [26:20] please expl that this is an nan
+- [26:22] workflow.
+- [26:26] Uh can you please explain this in simple
+- [26:28] terms if I don't understand this? And
+- [26:31] you can do this all the time. Like if
+- [26:32] you're not doing this all the time,
+- [26:35] you're not pushing yourself enough in
+- [26:36] whatever it is that you're doing. Like I
+- [26:38] do this 20 times a day because I'm
+- [26:40] always trying to figure out some new
+- [26:41] thing um to make my workflows better.
+- [26:44] And so here it's like in an um use node
+- [26:47] read binary file. Ah is that the issue?
+- [26:51] That is the issue. It it's expecting the
+- [26:54] string. It's expecting um the text video
+- [26:58] instead. We want it to upload the file.
+- [27:01] Okay. name video, not just the words
+- [27:03] video. So, we'll go over to parameter
+- [27:05] type and instead of just form data,
+- [27:08] which is basically just words, we'll do
+- [27:10] n binary file, which would be um the
+- [27:14] actual video file. And so, we can just
+- [27:16] name this video.
+- [27:18] Let's test it again. So, we can test the
+- [27:20] full workflow again. Test workflow.
+- [27:23] Trigger files, video, send video to
+- [27:26] Zapcap.
+- [27:28] Yay. Success. Success. Okay. Now, where
+- [27:31] is it? We don't have it. We don't have
+- [27:33] it. Let's go ahead and let's keep going
+- [27:35] in the docs. Amazing. Yeah, that's So,
+- [27:37] we went down option A. Now, let's go to
+- [27:39] step two. Get available templates. Um,
+- [27:43] and so Zapcap just has different
+- [27:45] templates for like different types of
+- [27:47] captions that you want that you might
+- [27:49] want to have in your video. So, this is
+- [27:52] actually a really hard workflow. Um, you
+- [27:55] want to show them the one that you made?
+- [27:56] Like, show them how long it is. Yeah.
+- [27:58] Like, so it's actually really long, but
+- [28:00] we actually We we started with a really
+- [28:03] hard workflow on purpose because what we
+- [28:05] want to show you is the fact that
+- [28:06] everything in N and one of the reasons
+- [28:08] it's gone so popular is uh influencers
+- [28:11] are actually selling workflows. Luckily
+- [28:13] for you, we're just giving everything
+- [28:15] away for free. You can copy and paste
+- [28:17] everything. So in the description, you
+- [28:19] can find a link to this page. Yeah. And
+- [28:22] this is uh we have four templates here.
+- [28:25] Um we'll add more. Um and we're going to
+- [28:28] organize them. We're going to give them
+- [28:29] tags. We're going to organize them
+- [28:30] depending on why you might want to use
+- [28:32] them. But here we have this audio video
+- [28:34] or auto video caption which uses zapcap.
+- [28:37] Yeah. And then so you just go over here.
+- [28:39] It's actually just one long JSON. Um but
+- [28:42] you'll just go ahead and copy that. And
+- [28:44] so every template within n is just a
+- [28:47] JSON. So like if you go back to n
+- [28:50] this nodebased system is basically just
+- [28:53] a wrapper on a JSON, right? it JSON. If
+- [28:57] you don't know what JSON is, it's just
+- [28:59] this like formatting uh text in a way
+- [29:02] that makes sense in computers. If that's
+- [29:04] not technically true, screw you. I'm
+- [29:07] using that definition. And so um and go
+- [29:10] and so what you can copy, you can
+- [29:12] literally select and copy it. Don't do
+- [29:14] that because we already copied the other
+- [29:15] one. You can paste the whole flow right
+- [29:17] here. Yeah. So let's just command V.
+- [29:20] Yep. Boom. We have the entire flow that
+- [29:22] was um from the other page as well. But
+- [29:25] yeah, just copy the JSON, commandV, and
+- [29:28] it's all here. So now you have that
+- [29:30] entire flow and you can create it. Now,
+- [29:33] since we're kind of going over all of
+- [29:34] these individual nodes, you can go in
+- [29:36] and customize them. Yeah. Uh you can
+- [29:37] make sure that the credentials are set
+- [29:39] up correctly for your own account, but
+- [29:41] we have this uh workflow that should
+- [29:44] work out of the box, right? Yeah. Yeah,
+- [29:46] it will. And if you wanted to um maybe
+- [29:49] instead of sending it to Dropbox, maybe
+- [29:51] send it to your Discord channel or
+- [29:53] Telegram, you can you can just edit
+- [29:55] this. And so you want to go ahead and uh
+- [29:56] you want to see if we can test these?
+- [29:58] Yeah. So we still have that video in our
+- [30:03] Dropbox. But is it going to be the same
+- [30:05] folder since you copied it? It'll be the
+- [30:07] same folder. Oh, wow. Yeah. Okay. Um
+- [30:10] Yeah. So let's go ahead and test it. And
+- [30:13] so it gets the folder, the file, and it
+- [30:15] sends it to Zapcap.
+- [30:18] And I think one of the reasons why we
+- [30:20] went through each individual node before
+- [30:21] this and talked about the docs is like
+- [30:24] you may still need some of that
+- [30:25] information if you want to veer off in
+- [30:27] any direction. Yeah. Right. And you can
+- [30:29] always use AI. You can always copy the
+- [30:31] docs for Zapcap and ask questions and
+- [30:33] figure out how to do it. And you can
+- [30:34] even ask for the JSON the same way you
+- [30:36] just copied our template. You can ask AI
+- [30:39] to generate the JSON and it will
+- [30:41] actually generate sometimes it'll be 98%
+- [30:44] right. Um we want to get it to 100. It
+- [30:47] would be really cool if it was 100%
+- [30:49] correct every time. I think that would
+- [30:50] be a lot more fun, a lot easier for most
+- [30:52] people. Yeah. Um and then this step is
+- [30:54] literally wait one minute. One minute as
+- [30:57] we wait for Zapcap to finish up. Okay,
+- [30:59] cool. Um yeah, and then it's just going
+- [31:02] to use get, if you remember that, to get
+- [31:05] the video. Amazing. So, it's done
+- [31:08] getting the video. All right. So, now
+- [31:10] it's downloading some file. Okay.
+- [31:14] Now, it's uploading it back into the
+- [31:18] Dropbox, but it's a different folder
+- [31:19] this time. Yeah, it's a different
+- [31:20] folder. Got it.
+- [31:23] Okay. So, and so if anyone else
+- [31:25] downloads this template, they're going
+- [31:26] to need to specify their own Dropbox
+- [31:28] folder. Um, and so they they might name
+- [31:31] it something else. Yeah. So you'd have a
+- [31:33] kind of a a pre edited folder and then
+- [31:37] post edited folder. You can name them
+- [31:39] that as well. Okay. So workflow executed
+- [31:41] successfully. Do you want to check?
+- [31:43] Yeah, let's go ahead and check that. So
+- [31:44] this is the upload folder. And now the
+- [31:46] download folder. We have a new one. I
+- [31:48] named it just W. W. Let's play it.
+- [31:56] And that's a 20-year-old video that just
+- [31:58] got automated.
+- [32:05] Yeah, we get the point. Amazing. Okay,
+- [32:07] so this is a workflow and you can just
+- [32:10] download this template and now what you
+- [32:12] can do is you could actually make this
+- [32:14] whole thing a tool and give it access to
+- [32:17] an agent in theory, right? Like this
+- [32:18] could be one tool. Yeah, that could be
+- [32:21] one tool. So as we transition, right? So
+- [32:24] this is a linear workflow and like what
+- [32:26] did we learn? Let's think about what we
+- [32:28] learned for this. Like throughout this
+- [32:29] process, we learned what an HTTP request
+- [32:31] is. Yeah. And if you're struggling
+- [32:32] through HTTP requests, I struggled with
+- [32:35] it for a week or more. It just takes
+- [32:37] some time to understand, but like we
+- [32:39] went over the basic parts of it. We did
+- [32:41] a really hard example, but what's cool
+- [32:45] is that there's templates all over the
+- [32:47] internet that you can find that allows
+- [32:48] you to just copy and paste them directly
+- [32:50] in on top of ours. Right? I'm not
+- [32:52] suggesting you need our template
+- [32:54] database by any means, right? There's
+- [32:56] actually whole GitHub repos. and we'll
+- [32:58] also paste that below. Uh, two massive N
+- [33:01] templates that you can find on the
+- [33:03] internet. And you do not need to pay for
+- [33:06] anyone's NAN templates. That's just an
+- [33:08] insane thing to do. They It's free on
+- [33:10] the internet. This only works, right?
+- [33:12] This will only work while you're testing
+- [33:14] it until you publish it. Yeah. Here you
+- [33:17] Now we published it. Now it'll work
+- [33:19] every every 15 minutes. It'll check your
+- [33:21] Dropbox. So, if you have 20 shorts that
+- [33:24] you're done with for the day, you can
+- [33:25] drag all of them into Dropbox and they
+- [33:27] will all be triggered, right? Amazing.
+- [33:30] But now I think it's time to bring in
+- [33:32] the AI agents. So, this is what an N AI
+- [33:35] agent would look like. Um, so compared
+- [33:37] to the linear flow, it's not linear.
+- [33:40] This is more three-dimensional,
+- [33:42] two-dimensional, whatever. Yeah. Yeah.
+- [33:44] And I always think of these these little
+- [33:46] little things sticking out of the agent,
+- [33:48] you know, they they're not they're no
+- [33:50] longer nodes in a path, right? They're
+- [33:52] no longer steps in a path. They are they
+- [33:54] are optional tools that can be used
+- [33:57] except for the model. So like before we
+- [33:59] need a trigger node, right? Um in this
+- [34:02] case, we'll use web hooks and we'll get
+- [34:04] into that in a bit on how we can
+- [34:05] integrate that further on, but let's
+- [34:08] just start off with a web hook. Boom.
+- [34:10] We'll work on that later. Now, let's
+- [34:12] bring in the AI agents. And just know
+- [34:14] that this web hook is basically just
+- [34:15] going to send in text. And we're going
+- [34:17] to show you exactly how this is, but the
+- [34:19] web hook is super magical because it
+- [34:21] allows you to hook up your whole entire
+- [34:26] flow, which will include the agent into
+- [34:28] an external app of your choice. Yeah,
+- [34:30] you can vibe code an app and have it
+- [34:32] communicate with this AI agent workflow.
+- [34:35] And we we'll get to that in a second,
+- [34:36] but let's move to the agent first. Yeah.
+- [34:39] So I went ahead and added an agent. And
+- [34:41] so this is the screen you'll be brought
+- [34:43] up into. Source for prompt. So
+- [34:47] there's a source for prompt. And then
+- [34:49] you're also going to add a system
+- [34:50] prompt. What are those two? So inside
+- [34:53] the AI agent, there's two different
+- [34:55] prompts that you can use. So there's the
+- [34:57] user prompt and system message. The user
+- [34:59] prompt would be something like, what's
+- [35:01] on my calendar today? Can you do this?
+- [35:04] Can you do that? And this is going to be
+- [35:05] what comes in through the web hook.
+- [35:07] whatever we send into it, this it would
+- [35:09] go right here and that's what the user
+- [35:11] message is. The system message is just
+- [35:14] for the AI agent. It's and it's going to
+- [35:16] stake the same. Yeah, that is all the
+- [35:19] same. So, yeah. So, the user message
+- [35:20] would change every time. System message,
+- [35:23] that's what it gets hit with all the
+- [35:24] time. And that's the same thing if you
+- [35:26] were setting up a chat GPT uh custom GPT
+- [35:29] or a clawed project. You set the system
+- [35:32] instructions, right? This is the it
+- [35:34] gives it kind of grounds it in the right
+- [35:36] context or it tells it exactly what it's
+- [35:38] going to do every time to make it more
+- [35:39] predictable. And with agents, I would
+- [35:41] say with agents, the system instructions
+- [35:43] is actually much more important because
+- [35:46] if you give it access to a bunch of
+- [35:47] tools and you don't specify what you
+- [35:49] want the agent to do with it, you're
+- [35:51] going to be in a world of hurt. Yeah.
+- [35:53] You basically want to put it in the
+- [35:54] right headsp space if that makes sense.
+- [35:56] You're going to give it like, you know,
+- [35:57] maybe you can even give it a title. You
+- [35:59] are a master designer. In this case, you
+- [36:01] are an idea generator. you have the
+- [36:03] abilities to XYZ and those abilities
+- [36:06] would be the tools. So in this case, you
+- [36:08] know, you have the ability to read
+- [36:10] notion
+- [36:11] um and use buffer which we'll get into
+- [36:13] later. Um and it's also if you run into
+- [36:16] like any errors, you can be like
+- [36:18] important. We're not using a chat
+- [36:19] trigger node. We're using a web hook. So
+- [36:21] we'll define below. We can also just
+- [36:24] like set like for for testing this is
+- [36:26] important. You can be like hi and this
+- [36:28] is just like the user message. You could
+- [36:30] be like, you know, whatever you want.
+- [36:33] Whatever you want. And so you can
+- [36:34] actually have two different triggers,
+- [36:36] right? A web hook would be coming in
+- [36:37] from your own external tool or you could
+- [36:40] set up another trigger that would be
+- [36:41] like um chat. Yeah. Yeah. On a chat
+- [36:44] input field. And so this allows you to
+- [36:46] like really test it within this app
+- [36:49] because if you once you connect this,
+- [36:51] right, you can connect this in and then
+- [36:53] there's going to be the option to open
+- [36:55] up a chat interface at some point. Oh
+- [36:57] yeah. Oh yeah, yeah, yeah. So yeah, open
+- [36:58] chat and then we can say hello send.
+- [37:03] Nothing's going to happen probably
+- [37:04] because we haven't set up. Yeah, we
+- [37:06] haven't set up the agent. Yeah,
+- [37:09] one of the predefined options is connect
+- [37:12] uh with the chat trigger node which we
+- [37:14] just set up. Yeah. So, and it has no Oh,
+- [37:16] yeah. I guess it would it respond or do
+- [37:18] we have to give it an AI model? We have
+- [37:19] to give it an AI model. So, um, in the
+- [37:22] chat model, it'll open up this menu and
+- [37:24] there's a bunch of different, um,
+- [37:26] providers to choose from. And then for
+- [37:28] the model, we'll just use Cloud Sonnet
+- [37:31] 4. That's the best agentic model out
+- [37:34] right now. Um, so at this point, I think
+- [37:37] the AI agent could actually just respond
+- [37:40] to a simple how are you doing? Right.
+- [37:43] This is an agent, but it just doesn't
+- [37:45] have any access access to any tools.
+- [37:47] Yeah. So, it should just respond, right?
+- [37:49] CL responded with what did it say? I'm
+- [37:53] doing well. Thanks for asking. It
+- [37:55] responded, but like it's not interesting
+- [37:56] because it doesn't have access to
+- [37:57] anything. Yeah. Right. So what we could
+- [38:00] do is we could actually give it access
+- [38:02] to other things. Yeah. And so there's a
+- [38:05] bunch of different tools that you could
+- [38:06] choose. Um and so let's go ahead and
+- [38:09] give it access to notion because that's
+- [38:12] where we keep all of our content. So on
+- [38:15] notion, I use notion now specifically
+- [38:18] for AI agents because it's notion has a
+- [38:21] really good for whatever reason their
+- [38:23] builtin features that allows agents or
+- [38:27] AIs to basically index their their
+- [38:29] databases. It makes it easy to find
+- [38:31] things that it just gives really good
+- [38:33] context to the AI agent. Yeah, let's go
+- [38:35] ahead and do that. Yeah, let's go ahead.
+- [38:38] And what do you want it to give access
+- [38:40] to in notion? So I will give it access
+- [38:43] to let's give it access to a database
+- [38:46] right a database for those of you who
+- [38:48] use notion that's basically a list of
+- [38:52] database entries or wait can you click
+- [38:54] on that database thing again it's a list
+- [38:55] of pages and so we're giving it access
+- [38:58] to all of the pages within the database
+- [39:01] and I have a specific one which we can
+- [39:03] find here um we wanted to get a database
+- [39:06] we'll get a specific database and I
+- [39:07] think we can choose it from a list here
+- [39:10] it should be the one like if you just
+- [39:11] type in SOP, it should have one that's
+- [39:14] called how to create content SOPs. This
+- [39:17] is how I create all my content, right?
+- [39:20] And so now we should be good to go. We
+- [39:22] could ask the AI agent something right
+- [39:24] now. We could say how what are five long
+- [39:27] form hooks I could use when explaining
+- [39:30] AI agents and how they're going to
+- [39:33] change the world. And so go ahead and
+- [39:35] run this. And so what it's going to do
+- [39:37] now is it won't just run the chat thing
+- [39:40] and say check mark and then respond. It
+- [39:42] is actually going to go to the notion
+- [39:44] node think.
+- [39:48] Okay. Why didn't it go to the notion
+- [39:51] node? Because we didn't set up the
+- [39:54] instructions to tell it, right? And so
+- [39:57] the reason why we did this to is to
+- [39:59] illustrate the fact that if you don't
+- [40:00] set up your instructions, your AI agent
+- [40:02] is going to operate in an unpredictable
+- [40:04] way. But now if we give the agent good
+- [40:07] instructions and we say that it has
+- [40:09] access to my content then it will use
+- [40:12] the tool because it never used the
+- [40:14] notion tool. And that is the key
+- [40:15] distinction. In the last example we
+- [40:17] showed you a linear workflow where
+- [40:19] things happen automatically. Now they
+- [40:21] happen optionally but you need to make
+- [40:23] sure the agent knows what it has access
+- [40:25] to. Okay. So you are a helpful
+- [40:27] assistant. Um your job is to make the
+- [40:30] best content.
+- [40:34] You have access to a bunch of notion
+- [40:36] tools that will assist you in making
+- [40:39] content. Anytime you are asked to be to
+- [40:42] write content, you need to look for
+- [40:44] either short form hooks or long form
+- [40:47] hooks
+- [40:49] or good tweets. These are all pages in
+- [40:52] the notion database that you'll have
+- [40:54] access to to use as examples for your
+- [40:57] style and tone.
+- [41:03] Yeah, that's good. So, let's exit out of
+- [41:05] this. Now, what we should do is we
+- [41:08] should probably give it access to some
+- [41:09] more notion pages, more notion tools.
+- [41:11] They have a bunch of different p um
+- [41:14] different tools that the AI agent can
+- [41:16] use. So, let's let it get many pages in
+- [41:19] a database. Great. Um from the same
+- [41:22] content SOP,
+- [41:26] I want to Yeah, same one. Return all and
+- [41:28] let's just keep it how it is.
+- [41:31] Now let's add more
+- [41:34] notion. Let's see. Yeah, let's let it
+- [41:36] search and let's let it choose its own
+- [41:38] search. Um yeah, we'll let it search.
+- [41:39] And then um what you can say is so now
+- [41:42] you're giving it freedom to search
+- [41:43] through all this whole team space which
+- [41:45] I think is like a 100 databases. And
+- [41:47] let's go back to the system prompt here.
+- [41:49] I always wanted to start off with
+- [41:51] content SOPs. So let's spec just go into
+- [41:53] uh make a new paragraph at the bottom
+- [41:55] and say when asked to create content
+- [41:58] just use the uh creating content SOPs
+- [42:02] page that you have access to with a tool
+- [42:06] or like that you have access to but if
+- [42:08] asked a more open question you may
+- [42:10] search the database for help.
+- [42:14] Yeah, that's good. Okay, awesome. Um,
+- [42:19] yeah, let's let it search. And then this
+- [42:22] little button right here lets the AI put
+- [42:24] in its own search text. This is how cool
+- [42:26] it is. As AI agents get smarter, AI
+- [42:29] agents can just put it in like they can
+- [42:31] use these tools. The AI will decide what
+- [42:34] to put in here. Yeah. So, we're giving
+- [42:35] it access to this massive database and
+- [42:37] we're giving it the ability to search
+- [42:39] and so that means we're giving it some
+- [42:40] level of autonomy and it can go out and
+- [42:43] just search through it. It can decide
+- [42:45] what search text, right? the search text
+- [42:48] is not going to be deterministic. It
+- [42:50] will decide what it wants to search
+- [42:51] which is so cool. Yeah. So now we
+- [42:54] actually need to add another tool which
+- [42:56] is get block which is basically the
+- [42:59] things beneath the page or whatever's in
+- [43:01] the page, right? And and we can make
+- [43:02] this AI. AI can decide. Yeah. Um so you
+- [43:06] want to just select Yeah. We'll just let
+- [43:07] the AI choose the URL. Yeah. And then um
+- [43:11] Yeah. Return all. Awesome. Now, let's go
+- [43:14] ahead and try and get short form hooks
+- [43:16] because I have a list of 60 or probably
+- [43:19] like 40 of them that have been very high
+- [43:22] performing in previous videos of mine.
+- [43:25] And if we tell it to get short form
+- [43:26] hooks, it should just do that. Awesome.
+- [43:29] You want me to read them? Yeah. What was
+- [43:30] the first one? Today I realized that AI
+- [43:32] agents aren't just fancy chat bots
+- [43:34] anymore. They're digital employees that
+- [43:36] work 24/7 without breaks. Yeah. And so
+- [43:39] here, go ahead and open up the link that
+- [43:40] I just texted you. Yeah. So, if you open
+- [43:43] the link that I just texted you, what it
+- [43:45] had access to was this right here. And
+- [43:48] you notice today I realized that. Yeah.
+- [43:50] And that's the one that it used. What
+- [43:52] was the next one that it used? You're
+- [43:54] not going to believe what I just found
+- [43:55] about AI agents. So, if you fi do
+- [43:58] command F, you're not going to believe,
+- [44:01] right? You're not going to believe what
+- [44:03] I just did slashfound out. So now here
+- [44:06] like you can decide what is high quality
+- [44:09] and then you can say before an AI agent
+- [44:12] does something like creating content
+- [44:15] script it will look at a bunch of good
+- [44:17] examples so you know that you're going
+- [44:18] to get at least something that's like
+- [44:20] pretty good. AI is going to have context
+- [44:22] over what you think is high quality,
+- [44:24] which I think there's one thing you
+- [44:25] could take away from this video when it
+- [44:27] comes to AI agents is context is king.
+- [44:30] And this is a really great way to do it
+- [44:32] is to give it access to your database,
+- [44:34] whether it's Docs, Google Docs, Notion.
+- [44:37] In this example, we're just using
+- [44:38] Notion. Um, but giving context is king.
+- [44:42] So, we just made this agent. Um, and you
+- [44:45] know, here are some things that you
+- [44:46] might need to know when you're making
+- [44:48] one. Um, if you remember, we ran into a
+- [44:50] few hiccups, um, and little errors. Um,
+- [44:53] so let's go ahead go to executions and
+- [44:55] we can see past executions. Every single
+- [44:58] time that you use the agent, it create
+- [45:01] it's it's an execution. Yeah. Got it.
+- [45:03] Yeah. And then you can go back in time
+- [45:04] and see the successes or the errors. And
+- [45:08] some of the successes can be errors
+- [45:10] because it success just means it
+- [45:12] finished. Yeah. It doesn't necessarily
+- [45:14] mean that you're happy with it, right?
+- [45:15] Yeah. So let's go to the middle where we
+- [45:19] can see let's open it up and then we can
+- [45:22] go ahead and hit the logs to make it
+- [45:24] look better. And here we can see each
+- [45:27] step the AI agent took in order to
+- [45:29] complete its task. Previously you could
+- [45:32] kind of do something like this in the
+- [45:33] linear paths right by clicking on it you
+- [45:36] can see the inputs and the outputs. Here
+- [45:38] it's just steps because again it's not
+- [45:40] linear. So it actually lists all of the
+- [45:42] things that it does and so you can keep
+- [45:44] track. And part of prompt engineering or
+- [45:47] AI agent engineering is making sure that
+- [45:50] you you look closely at the steps. If it
+- [45:52] doesn't look like the way you want it to
+- [45:54] look, you need to adjust the prompt. You
+- [45:56] need to adjust the tools. It's all about
+- [45:58] like seeing what it does and then
+- [46:00] adjusting. Seeing what it does and
+- [46:02] adjusting and that's how you end up
+- [46:04] building the best AI agent system,
+- [46:06] right? Yeah. Uh, so if you run into any
+- [46:08] errors like that, um, me and Riley were
+- [46:10] making like a messaging agent and a lot
+- [46:13] of the times when you said message
+- [46:15] Muhammad, um, it would spell it
+- [46:17] differently. Yeah, I'm the one on the
+- [46:19] bottom. I'm with the U. Sometimes it
+- [46:20] would do O. Yes. And the AI agent would
+- [46:23] be like, well, there is no Muhammad with
+- [46:24] an O, so I'm not going to send him a
+- [46:25] message. Even though you did mean me.
+- [46:28] Um, and in this case, you want it to be
+- [46:30] less like a perfectionist and be like,
+- [46:32] if there is one Muhammad, it's probably
+- [46:34] me. Yeah. Yeah. And so to fix that, like
+- [46:36] what you said, just change the system
+- [46:39] prompt. Change the system prompt. Be
+- [46:40] like, get the closest one. All right.
+- [46:41] So, back to our AI agent. So, like we're
+- [46:45] only interacting with it in N by opening
+- [46:47] this chat. But it's like it'd be super
+- [46:50] super annoying if every time you wanted
+- [46:52] to use this AI agent uh to have to go
+- [46:55] into N8N and uh open up the chat and
+- [46:58] type to it. Yeah. So, one thing that I
+- [47:01] like to do and the thing that I've been
+- [47:03] working on as a side project is creating
+- [47:05] a group chat with AI agents. And the way
+- [47:07] that you do that is the web hook. So, we
+- [47:11] can actually go ahead and delete the
+- [47:12] chat input. And we can use the uh web
+- [47:17] hook feature right here. And so, if you
+- [47:20] click on this web hook feature, yeah,
+- [47:23] you have this URL right here. And that's
+- [47:25] kind of like what we talked about your
+- [47:27] own endpoint that you can hit wherever
+- [47:29] you are. Um, so and there's two types of
+- [47:33] them. We talk about the two types. So
+- [47:35] the first type is they have this test
+- [47:36] URL which you can use, right? So if you
+- [47:39] exit out of this and hit test
+- [47:42] while it's testing, if you hit the test
+- [47:44] URL, it'll work. If you're not pressing
+- [47:46] test actively, it will it won't work.
+- [47:49] But this is nice because as you'll see
+- [47:51] in a second, we can see exactly where
+- [47:53] the agent is as we're testing it. Yeah.
+- [47:55] And so let's go ahead and do that real
+- [47:57] quick. Let's set up this web hook a
+- [47:58] little more though. Uh we want this to
+- [48:00] be a post method because we're both
+- [48:03] sending information and receiving
+- [48:04] information back. Okay. Yeah. Yeah.
+- [48:06] Yeah. As we talked about earlier. Yeah.
+- [48:07] And we can edit this jumbled mess of a
+- [48:10] path and just say
+- [48:12] content agents. And so now you your URL
+- [48:16] looks a little nicer. Amazing. Awesome.
+- [48:18] and then respond. So whenever the AI
+- [48:21] agent is done, um it'll tell you what
+- [48:24] what happened and you can see that
+- [48:26] information which will show you uh
+- [48:28] respond immediately. No, we want to
+- [48:29] respond when last node finishes or when
+- [48:32] it's done. Yes. Awesome. Okay. All
+- [48:35] right. That looks good. So I'm going to
+- [48:37] bring up my app that I vibe coded and
+- [48:40] then let's go ahead and add that URL
+- [48:43] that I just copied. So, this is an app
+- [48:45] that we vibe coded on the Vibe Code app
+- [48:48] and it actually has an N8N integration
+- [48:50] built into it. And so, this is if you
+- [48:52] want to hit one single web hook, but
+- [48:54] this app allows you, the app that we
+- [48:56] created allows you to hit as many web
+- [48:59] hooks as you want, you can just add
+- [49:00] them. And so, right now, we're creating
+- [49:02] this is like content agent test. And
+- [49:04] when we deploy it so that we can hit it
+- [49:07] over and over again, we're going to just
+- [49:08] going to call it content agent. And
+- [49:10] we're going to make sure that it's
+- [49:11] active. in order to create an agent like
+- [49:13] this. In our previous video, we built
+- [49:14] one of these vaps and we actually
+- [49:16] started a a website and community around
+- [49:19] creating vaps. So, if you want to learn
+- [49:21] more about that, you can see that down
+- [49:22] below. Just know that you could create
+- [49:24] this with one prompt on uh the Vibe Code
+- [49:27] app or any Vibe coding tool uh just by
+- [49:29] saying create an app that allows me to
+- [49:31] interact with a web hook and send data
+- [49:33] to a web hook and await its response.
+- [49:35] And what's really cool about this and
+- [49:38] why I'm so excited about this type of
+- [49:41] vibe coding, which is like the vibecoded
+- [49:44] agentic application, is it simplifies
+- [49:47] really long workflows down to a single
+- [49:50] interaction, single web hook, right? You
+- [49:52] send a web hook in and you await its
+- [49:55] response. That's what it's doing. Which
+- [49:57] means that you can change all of this,
+- [50:00] as we'll get to later. All of this, you
+- [50:03] could add a hundred different tools with
+- [50:04] this right now and as long as you keep
+- [50:07] this the same. Nothing about the code
+- [50:10] needs to change, right? And so this
+- [50:12] allows you to set up these basic apps
+- [50:14] and then add backend complexity, backend
+- [50:17] functionality without it ruining your
+- [50:20] front end. And it that is one of the
+- [50:22] biggest problems. I've been deep in the
+- [50:23] vibe coding space, people trying to
+- [50:25] build apps with AI, and the part they
+- [50:27] struggle with is when they're trying to
+- [50:28] adjust the back end, their front-end
+- [50:30] code gets messed up. when you only want
+- [50:32] to be editing the backend flow. And it's
+- [50:34] also hard to have a mental model of your
+- [50:37] backend, like if you're trying to
+- [50:39] actually create an AI agent, which is
+- [50:40] impossible. This allows you to just hook
+- [50:42] it up to an AI agent. You can and then
+- [50:45] you can build the front end, interact
+- [50:47] with it, and then if you want to make
+- [50:48] changes to the agent, all you do is add
+- [50:50] nodes or you can give the AI agent
+- [50:53] access to other AI agents as we'll show
+- [50:55] you in a second to build out a better
+- [50:58] functionality and nothing about your
+- [50:59] front end will change and that is why I
+- [51:01] think it's so powerful. Let's see how it
+- [51:03] works. Um, yeah, I'll show you, but
+- [51:06] we're going to run into an error
+- [51:07] immediately and I'll show you why. So,
+- [51:09] let's go ahead and test. And let's just
+- [51:11] do high because it'll fail.
+- [51:17] And if you can see, the AI agent node
+- [51:18] failed. And that's because we kept it as
+- [51:21] the chat trigger node. And we don't have
+- [51:23] that anymore. We have the web hook. So,
+- [51:25] let's go define below. Let's scroll down
+- [51:27] to the web hook and see our text that
+- [51:30] says hi. Um, we'll just drag that in
+- [51:32] there. And yeah, and see it says hi. So
+- [51:35] notice that whatever you sent in, right?
+- [51:37] If you go to wherever it failed, you'll
+- [51:39] see you can look at all of the inputs,
+- [51:42] you want whatever variable is the thing
+- [51:45] that you said to be the thing that is in
+- [51:47] the input. Yeah. So that way whatever we
+- [51:49] put in next will be there. Yeah.
+- [51:52] Perfect. Now that it's all set up, let's
+- [51:54] try a real one. So, let's go ahead and
+- [51:57] test workflow and let's say
+- [52:00] give me five hook ideas
+- [52:05] um or
+- [52:08] um creating
+- [52:10] workflows
+- [52:12] with Zapier
+- [52:15] which is a competitor to NAN.
+- [52:18] Short form short form please.
+- [52:21] So now the AI agent was triggered by the
+- [52:25] app that we created with the Vibe code
+- [52:27] app N8N integration which is literally
+- [52:30] if you go to the Vibe code app um it
+- [52:33] will literally have the option to use
+- [52:36] the NN integration and you can just plug
+- [52:38] in your web hook. Yeah. And so as long
+- [52:39] as any workflow whether it's an agent or
+- [52:42] deterministic workflow you can just plug
+- [52:44] in your web hook and you can build a VAP
+- [52:46] a vibecoded agentic application. Yeah.
+- [52:49] And as AI agents get better over time,
+- [52:52] okay, you can see here that we got a
+- [52:53] response. So if you look at the phone,
+- [52:55] you see that we got a response. This
+- [52:57] feels illegal to know. This feels
+- [52:59] illegal to know to believe what I just
+- [53:00] built is in my hooks. If we search
+- [53:03] illegal,
+- [53:05] this feels illegal to know. So think
+- [53:07] about what we just did there. We
+- [53:08] basically um we created an app and this
+- [53:11] this app you can vibe code with the with
+- [53:13] the vibe code integration. You could
+- [53:15] create this in one prompt, right? Yeah.
+- [53:17] and you actually designed this N
+- [53:19] integration in the Vibe Code app. Um,
+- [53:21] and like we're working really hard to
+- [53:23] make this process seamless and we're
+- [53:26] going to build a tool that's probably
+- [53:27] better than N um to help these
+- [53:30] workflows. I still think is a little too
+- [53:31] hard, but for right now there's so much
+- [53:33] value in being first to understand this
+- [53:36] and actually create uh agents. And I
+- [53:38] know people who are selling these
+- [53:39] agentic apps or VAPs to companies and
+- [53:42] making a ton of money because they can
+- [53:45] actually work with their company data.
+- [53:47] It doesn't even need to go to the app
+- [53:48] store. You can share it amongst your
+- [53:50] peers without even publishing it to the
+- [53:52] app store, which is really cool. And on
+- [53:53] Cursor, you can create web apps that do
+- [53:56] the same exact thing. And we're going to
+- [53:57] be talking about that more in the future
+- [53:58] as well. What we just showed was the
+- [54:00] fact that you could create this sort of
+- [54:03] vibecoded agentic application just by
+- [54:06] connecting a web hook to an nan AI agent
+- [54:09] that has access to different tools.
+- [54:11] Right. Right. What if I told you that
+- [54:15] this process right here, which is an AI
+- [54:18] agent that has access to tools, can be
+- [54:20] turned into a tool that another AI agent
+- [54:25] has access to.
+- [54:27] Yeah, we can What if I told you that?
+- [54:30] That would be I would I would Yeah. No
+- [54:32] way. You wouldn't believe me. No
+- [54:33] freaking way that works. Well, that is
+- [54:37] 100% possible and that's what we're
+- [54:39] going to do right now. Yeah. Yeah. So,
+- [54:41] essentially, instead of just a normal
+- [54:44] tool call that will come back to the AI
+- [54:45] agent, we can connect another AI agent
+- [54:49] with other tool calls for the AI agent
+- [54:51] that we're going to connect. Uh which
+- [54:53] what what do you want to do?
+- [54:55] So, we get content idea. Oh, but we
+- [54:58] could connect our buffer agent to it.
+- [54:59] Let's connect our buffer agent to this
+- [55:01] for sure. Actually, let's do that. Let's
+- [55:03] do buffer. And let's also maybe we can
+- [55:06] add like image generation too. We can
+- [55:08] add multiple so it can get content idea,
+- [55:10] an image, and then send it to buffer
+- [55:12] through this process, right? Uh we're
+- [55:15] still going to be able to connect it
+- [55:16] like that phone, right? The phone that
+- [55:18] we have here, this is still going to be
+- [55:20] connected to the web hook. So, we're
+- [55:22] basically empowering our VAP. And
+- [55:24] remember the app that we coded that we
+- [55:27] vibe coded does not change. So we can
+- [55:29] literally add infinite levels of
+- [55:31] complexity which is never good for the
+- [55:33] sake of adding complexity. But if you
+- [55:35] want to make more powerful workflows you
+- [55:37] can edit the back end and this does not
+- [55:39] change the experience on the front end.
+- [55:40] So that's what we're going to do. Why
+- [55:41] don't we go ahead and do that on nan. So
+- [55:43] let's go ahead and implement that. So
+- [55:45] let's go to toolsing because we're going
+- [55:47] to add another AI agent. Yep. Um, and
+- [55:50] then if you actually it's at the top
+- [55:53] call nan workflow tool. And so this will
+- [55:56] basically just call another nan
+- [55:58] workflow. And essentially it doesn't
+- [56:00] even have to be another AI agent. It
+- [56:02] could just be you know the linear flow
+- [56:03] that we had in the beginning. Let's go
+- [56:05] ahead and add that. And so now we need
+- [56:07] to select which tool uh yeah which
+- [56:09] workflow. And so actually we already
+- [56:11] have uh an agent like that. And so let's
+- [56:14] go ahead and explain this. So the model
+- [56:17] that we use still cla um and in this
+- [56:20] case we gave it just simple memory so it
+- [56:22] can remember the user's first prompt and
+- [56:24] then come back to it if it ever forgets.
+- [56:26] And then we have actually five tools. So
+- [56:29] let's break that down even more. Um
+- [56:32] there are all HTTP requests if you
+- [56:34] remember what that is. Um and if you
+- [56:36] look inside it's an HTTP request to FAO
+- [56:40] um for text to video and returns the
+- [56:42] response via link to the media. Amazing.
+- [56:45] Um, so basically it just hits this FAL.
+- [56:47] Do you want to explain what FAL is? Yes.
+- [56:49] So FAL is a tool and do you have let's
+- [56:54] go ahead and go to their uh web page.
+- [56:56] They are basically a platform that
+- [56:59] allows you to get access to all the
+- [57:01] creative AI tools. You've heard of VO,
+- [57:03] you've heard of ChatGBT image generator.
+- [57:06] This tool has all of the popular APIs.
+- [57:09] And so you can actually chain these
+- [57:10] together or you can give uh n access to
+- [57:14] these APIs. So if if you want image
+- [57:17] generation to be part of your workflow,
+- [57:19] you can just give an agent access to
+- [57:21] these APIs. Yeah. But not only can you
+- [57:24] just use these APIs directly, you can
+- [57:26] actually create very similar to what
+- [57:28] we're doing with N8N, you can create
+- [57:30] flows. So there it will edit the image.
+- [57:33] So it might generate an image and then
+- [57:35] you might have an edit step which would
+- [57:37] edit the image that it just generated
+- [57:39] and then you'll have another step beyond
+- [57:41] that which might add text to it and then
+- [57:44] it will and then it gets sent through
+- [57:47] the API. So the same way that you can
+- [57:50] take a full agent that we are that like
+- [57:53] we're doing on N and turn it into a
+- [57:54] single tool, we're taking a workflow on
+- [57:57] FAL and turning it into one single API
+- [58:00] endpoint. And it looks like this. If you
+- [58:01] go back to n right this whole workflow
+- [58:04] which is multiple steps just looks like
+- [58:07] one single uh HTTP request on n right
+- [58:12] yeah and so what we can do is we can
+- [58:14] just turn those into tools that we can
+- [58:16] use on n and that's what we've done and
+- [58:18] so we can actually pull up the app here
+- [58:19] I'll help him with this right you pull
+- [58:21] up the vibe code app here on the right
+- [58:23] side of the screen you can see the vibe
+- [58:25] code app so this is another one um that
+- [58:29] Muhammad created and So you and so show
+- [58:32] the web hook. So here the same thing
+- [58:35] that we did um for the last uh vibecoded
+- [58:38] agentic application that we created. We
+- [58:40] connected to a web hook, but you've
+- [58:42] already done that because they get saved
+- [58:43] into the app that you create. Yeah. So
+- [58:45] let's go ahead and uh test this.
+- [58:49] So,
+- [58:51] generate an image
+- [58:55] of a cat with a sombrero and yeah, then
+- [59:02] turn it into a video
+- [59:06] where it
+- [59:08] rides. No, dances. Yeah. Let's test the
+- [59:12] web flow. Send it to the web hook.
+- [59:14] Amazing.
+- [59:16] Let's see how the web flow work.
+- [59:19] Yeah, it's going to the text image.
+- [59:20] Amazing. And so you can see here like
+- [59:23] normal the AI agent thinks now it's
+- [59:25] using the tool in which case one of the
+- [59:26] tools is a workflow on FAL. Right. Yeah.
+- [59:30] And again we're experimenting with all
+- [59:33] these different things and we're using
+- [59:35] all these different external tools and
+- [59:37] connecting them and using the power of
+- [59:38] AI to actually know what to do in the
+- [59:40] moment. Um and this is how people are
+- [59:43] creating content at like automated
+- [59:45] content. So, it looks it looks like it
+- [59:46] made the it went text to image. So, it
+- [59:48] probably generated the cat. And then now
+- [59:51] it's turning that image and text to
+- [59:53] video. Right now, we it's we see a
+- [59:54] success. Success. Let's scroll down.
+- [59:57] That's our image of the cat with the
+- [59:59] sombrero. And then if we go to the
+- [60:01] right, let's watch it dance.
+- [60:04] Hey. Yeah. Oh, that is freaky. That's
+- [60:08] okay. I mean, now, wait, let me see it
+- [60:09] again. That's fire. All right. So, now
+- [60:11] we have this cat dancing. That's pretty
+- [60:13] sick. I guess that's as good as a cat
+- [60:15] could get. Yes, that's great. Also gave
+- [60:16] me the first image back. So that's cool.
+- [60:18] That's a cute cat. Love it. Awesome. Now
+- [60:21] connect it to the other agent. So to
+- [60:24] connect it to the other agent, we're
+- [60:25] going to want to add this other trigger
+- [60:27] note. And that's called when executed by
+- [60:29] another workflow. And to do that, you'll
+- [60:31] just click this plus add another
+- [60:33] trigger. And then it's right here when
+- [60:36] executed by another workflow. And when
+- [60:38] you open it, the input data mode should
+- [60:40] just accept all data. So whenever
+- [60:42] another AI agent like this one calls
+- [60:45] this other AI agent, the media AI agent,
+- [60:48] it'll take in all the data that it knows
+- [60:50] and then work with it. So really think
+- [60:52] about what we're doing here. So as you
+- [60:54] just saw, we sent in a request exactly
+- [60:58] to generate an image of a cat and then
+- [61:00] to turn it into a video. Yeah. And we
+- [61:03] could do that and we could set it up to
+- [61:04] an external app that you can vibe code.
+- [61:06] If you've been watching my content, you
+- [61:07] know how to vibe code at this point.
+- [61:09] Now, instead of using the web hook on
+- [61:11] this one, we just switched it to when
+- [61:13] executed by another workflow. If you go
+- [61:15] to the other workflow, the master
+- [61:17] workflow is what I call it. This agent
+- [61:19] is above it in authority. So now,
+- [61:21] instead of it being triggered by you,
+- [61:24] it's going to be triggered by another
+- [61:25] agent that is triggered by you. So now,
+- [61:29] like what we could do here is like we
+- [61:31] can now generate videos that are more
+- [61:33] relevant to us because it has access to
+- [61:35] all of my content in my notion. Yeah, I
+- [61:37] have an idea. So now we have this master
+- [61:39] agent set up that can create a video. Um
+- [61:44] it can create a video if it wants. Let's
+- [61:46] choose which one it was. We have a bunch
+- [61:48] of them. Media agent is the right one.
+- [61:50] Source database. That's fine. Let's give
+- [61:53] it a description on what the workflow
+- [61:55] does so the head agent knows what it
+- [61:58] does. Mhm. Um, this
+- [62:02] workflow
+- [62:04] uses an AI agent to generate
+- [62:09] different
+- [62:10] types of media because it can also
+- [62:12] generate photos and videos. And then
+- [62:14] let's rename it
+- [62:17] just media agent so we know. Cool. Okay.
+- [62:20] So, we just added this as a tool. So,
+- [62:22] would it work? Could we use it as a tool
+- [62:24] now? Yeah, let's try it. All right. So,
+- [62:26] now we have the VAP open. uh that same
+- [62:29] one that we made earlier. So we just
+- [62:30] added another AI agent to our AI agent.
+- [62:34] Amazing. Um and that's tool call. Yeah.
+- [62:37] Let's go add call nan workflow tool.
+- [62:41] Really cool. Um and let's make it post
+- [62:43] on buffer. All right. I think we made
+- [62:45] this agent um in another video. Yeah. So
+- [62:47] a few days ago we created an agent that
+- [62:49] has access to buffer which is the tool
+- [62:52] that we use to schedule social media
+- [62:53] posts. And so it's called the poster
+- [62:55] agent as you can see here. Yeah. We'll
+- [62:57] connect that and let's add a
+- [62:58] description. This workflow has an agent
+- [63:02] to post on buffer. And so now our master
+- [63:05] agent has context about what this
+- [63:07] workflow does and what to pass to it.
+- [63:11] Perfect. And now let's move that here.
+- [63:13] Let's rename it poster.
+- [63:16] Mr. Poster poster
+- [63:19] poker. Rename.
+- [63:23] Cool. All right. So now we have an agent
+- [63:25] that has access to four normal tools as
+- [63:28] well as two other agents which is an
+- [63:31] agent that has other tools within it.
+- [63:33] Yeah. And we set this up. So now we can
+- [63:35] try it on our vap. Wait, does the poster
+- [63:37] agent have a a trigger of use tool?
+- [63:40] Yeah. Uh yeah, when executed by another
+- [63:43] workflowing hit this. So we're ready to
+- [63:45] go. Cool. In fact, it actually also has
+- [63:49] get content SOP read SOP. Okay. So we
+- [63:52] could actually remove those. Let's go
+- [63:53] ahead and remove it. We don't need to
+- [63:54] save it for this one, but like right
+- [63:57] that outside of the scope of this one.
+- [63:59] Yeah. Um and there's no need to do
+- [64:02] things twice, you know. Yep. Okay. So
+- [64:05] now let's go ahead and Yeah. test
+- [64:08] workflow.
+- [64:10] I want you to please write a short form
+- [64:14] video using the short form hooks as an
+- [64:18] example about
+- [64:21] how tigers might go extinct. The post
+- [64:26] should be a short form script with an
+- [64:28] image of a tiger and then post it on
+- [64:30] social media through the buffer tool and
+- [64:33] that gets sent in to the agent. So now
+- [64:35] it needs to actually go to notion first
+- [64:38] probably. There we go. It searched the
+- [64:40] notion.
+- [64:41] Now it's thinking again.
+- [64:44] That's that's what we want, right? And
+- [64:45] now search. Now it got it searched for
+- [64:48] the right page and then it got the
+- [64:50] information from the page. Yep. And now
+- [64:52] it should go to the media agent. There
+- [64:54] it is. Now it's inside the media agent.
+- [64:56] Now it's generating an image. This might
+- [64:57] take 15 to 20 seconds here. Um and this
+- [65:02] will go to my buffer. Yeah.
+- [65:07] And so the media agent is done. So I'm
+- [65:09] sure it returned um the image the image
+- [65:13] that you wanted. And now the agent is
+- [65:15] thinking again what to do. And it went
+- [65:17] to poster. Now it's going to poster the
+- [65:20] poster agent. And I am just going to
+- [65:24] plug this into my screen right here.
+- [65:27] Other side. And and if we refresh
+- [65:30] buffer, here you go. We see the title.
+- [65:35] And so um
+- [65:38] This is awesome, right? We have this
+- [65:40] image of a generated tiger and we have a
+- [65:43] short form script right here from
+- [65:46] 100,000 to less than 4,000 tiger in just
+- [65:49] a century. And one of the hook templates
+- [65:52] is from X to Y in less than a certain
+- [65:54] period of time. So, it actually took a
+- [65:57] hook from my notion and but here's hope.
+- [66:00] And so, this is kind of it I feel like
+- [66:02] it's pulling this from my own voice. I
+- [66:04] do never use hashtags. So, this is
+- [66:06] something that I might want to change in
+- [66:07] the system prompt, too. You could do
+- [66:08] something like that. Yeah. And I also
+- [66:10] did an image post, so it might think
+- [66:11] that it was trying to do a tweet. Um,
+- [66:14] but this is really cool that it used the
+- [66:15] from X to Y uh hook format. Yeah. And
+- [66:19] Yeah. And we just threw this together
+- [66:21] last minute and it was able to go
+- [66:23] through all these different steps. Yeah.
+- [66:25] And it's sort of like Lego pieces, you
+- [66:27] know, you have different types of agents
+- [66:28] and if you want to make a whole new
+- [66:29] workflow, you just connect, you know,
+- [66:31] media poster, new agent,
+- [66:35] new brand new utility. And going on the
+- [66:37] Lego piece theme, like just realize that
+- [66:39] like at any time you can copy everything
+- [66:42] and you can paste them just like Lego
+- [66:44] pieces. If we started a new template,
+- [66:45] like you could create a new end page,
+- [66:48] you can copy it just by you mean you
+- [66:50] first of all you could duplicate the
+- [66:51] whole thing. Yeah. But you could also um
+- [66:54] just copy and paste parts of a workflow
+- [66:56] or the whole workflow and paste things
+- [66:59] together. And whenever you get stuck,
+- [67:01] just always remember to ask AI. Take
+- [67:03] screenshots of the page or just copy the
+- [67:06] full JSON. In fact, that's what you
+- [67:08] should probably do most of the time is
+- [67:09] just copy the JSON and paste it into
+- [67:11] chat GBT and ask questions to really um
+- [67:15] to really get through the tough parts.
+- [67:17] Like if you get stuck, and you will get
+- [67:19] stuck. It's almost guaranteed. So if you
+- [67:20] get stuck, you're not stupid. You're
+- [67:22] learning something that is actually
+- [67:24] valuable. And if you fight through it,
+- [67:26] you won't regret it. Yeah. And it's only
+- [67:29] going to get easier from here, too.
+- [67:30] Okay. We talked about a lot here. And I
+- [67:33] think I think we should just mentally
+- [67:34] recount what we talked about today. So
+- [67:36] we talked about today how AI agents are
+- [67:38] basically changing everything. The
+- [67:39] length of time that an AI agent or an AI
+- [67:43] chatbot can basically work is doubling
+- [67:47] every seven months. Yeah. And so we're
+- [67:49] at the point where an AI agent can just
+- [67:51] you can give it a request and it can
+- [67:52] work for over an hour. Yeah. Soon it
+- [67:54] will be over 24 hours. Soon it will be a
+- [67:56] week. And that's it's obvious. The trend
+- [67:58] is obvious. Like you work you're way
+- [68:00] deeper in the AI agent space. AI agents
+- [68:03] are getting more powerful. It's getting
+- [68:04] easier to connect them to tools. In
+- [68:06] future videos we'll talk about MCP which
+- [68:08] even makes it easier to communicate with
+- [68:10] tools. Yeah. We're heading towards a
+- [68:12] world, and correct me if I'm wrong here,
+- [68:14] where AI agents are just going to be
+- [68:16] freely roaming and just grabbing things
+- [68:18] and you're going to be able to give them
+- [68:20] money that there's startups that are
+- [68:22] working on giving uh like USDcoin or or
+- [68:26] uh crypto to these AI agents that can go
+- [68:29] out and if it needs to pay humans to do
+- [68:31] tasks. And so
+- [68:34] understanding
+- [68:36] that modern AI models like Gemini 2.5,
+- [68:40] like 03, like um Claude Opus, all these
+- [68:43] tools are built to use tools. They're
+- [68:45] built to be agents and it's only going
+- [68:47] to get better. And yeah, I mean, look at
+- [68:50] this chart. Yeah, I mean, if we start
+- [68:52] from the very beginning, Turochamp, the
+- [68:55] first AI chess, um the AI tech was not
+- [68:58] there and there's no adoption. Big
+- [69:00] Sleep. That was my first interaction
+- [69:01] with AI. It's like an image generator.
+- [69:04] First one of its kind. Complete trash.
+- [69:06] But again, is just that was just the
+- [69:09] beginning. 3.5 reasoning agents. And if
+- [69:12] you can see the AI tech is up here.
+- [69:15] Yeah. Yeah. Yeah. But the adoption
+- [69:16] really is not where it's supposed to be.
+- [69:18] And I think this area right here is an
+- [69:21] area for opportunity. Yeah. And I think
+- [69:23] I think that's why N uh is so popular is
+- [69:27] I think it's addressing this gap. Yeah,
+- [69:28] I think there's going to be a lot of
+- [69:30] other tools. And so, while we're talking
+- [69:31] about N, um, I think N is actually like
+- [69:34] annoyingly hard to use. I think for
+- [69:36] someone who's not technical, who doesn't
+- [69:38] really know the ins and outs of
+- [69:39] documentation, HTTP requests, it's
+- [69:41] really annoying. This is something that
+- [69:42] we're going to try and solve at some
+- [69:43] point. Just to be transparent and open
+- [69:45] about it, like we want to solve the N
+- [69:47] problem because I think the key to vibe
+- [69:49] coding is being able to vibe code
+- [69:50] backends and workflows and agents. I
+- [69:53] think that's where all the magic is. I
+- [69:54] think people are getting bored of making
+- [69:56] landing pages with uh vibe coding tools.
+- [69:58] No matter how like well the AI streams
+- [70:02] out, it's it's getting a little bit
+- [70:03] boring. And so I think the key to
+- [70:05] creating like really useful apps that
+- [70:07] anyone can build for any reason um the
+- [70:11] same way that like Cap Cut made it super
+- [70:13] easy for anyone to create content. Like
+- [70:14] I think all the magic of that happens in
+- [70:16] the back end being able to use these
+- [70:18] backend workflows. But this is like a
+- [70:20] two or threeear run. And so like right
+- [70:22] now you have this window where it's
+- [70:24] still hard to create these back-end
+- [70:26] workflows. That's a good thing. Anytime
+- [70:30] something is hard but just now possible
+- [70:33] are the things where you can make
+- [70:34] millions of dollars. And I don't mean
+- [70:36] that in like a selling you shovels way
+- [70:38] because I'm not trying to sell you
+- [70:39] anything. What I am trying to say is
+- [70:41] like
+- [70:43] I got into AI right as it became
+- [70:45] possible. people didn't really know what
+- [70:46] it was and the amount of opportunity in
+- [70:48] the a in just in the LLM space at the
+- [70:50] beginning was like so much so much
+- [70:53] opportunity and like right now I think
+- [70:55] AI agents is in that stage and so
+- [70:57] understanding AI agents is very
+- [70:59] important. I think NAN is the the best
+- [71:01] place to start and so thank you for
+- [71:03] watching this video. This has been a
+- [71:05] grind, a long one. Um but we're going to
+- [71:08] make some more videos in the future.
+- [71:09] Yeah, let us know what you guys want to
+- [71:11] see next. Amazing. See you guys later.

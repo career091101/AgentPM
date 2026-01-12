@@ -1,0 +1,1044 @@
+---
+title: "Wonderful. Thank you everybody. Bonjour. Hi. Welcome. Welcome. So, uh like the n"
+video_id: "Izm3TrJpwrY"
+video_url: "https://www.youtube.com/watch?v=Izm3TrJpwrY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "Technology", "Tutorial", "Development"]
+summary: |
+  Video transcript covering AI, Agents, Technology
+key_points:
+  - "session is about building agentic research assistant"
+  - "topic that Nishan thought it would be interesting to review"
+  - "Covers ai agents concepts and applications"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:23:52+09:00"
+---
+
+# Transcript: Izm3TrJpwrY
+
+- URL: https://www.youtube.com/watch?v=Izm3TrJpwrY
+- Retrieved at: 2025-12-30T10:23:52+09:00
+
+## Text
+
+- [00:00] Wonderful. Thank you everybody. Bonjour.
+- [00:02] Hi. Welcome. Welcome. So, uh like the
+- [00:05] next session is about building agentic
+- [00:08] research assistant. So, we'll be having
+- [00:10] fun uh showing the how to build an app
+- [00:15] smarter than just like a regular text
+- [00:18] generated app. Uh I have plenty of
+- [00:20] stuff. So, in um in the chat, uh Nishan
+- [00:23] is with me. He's also work at the Recon.
+- [00:26] In fact, he's way smarter than me. is
+- [00:28] part of the the tech team at RECA. So
+- [00:31] like part of the engineer really uh
+- [00:33] doing the the the work training the
+- [00:36] model and things like that. So if you
+- [00:38] have any questions as I'm going be
+- [00:40] afraid to drop it in the chat and Nishan
+- [00:42] can help. I will have uh a period at the
+- [00:45] end where I answer questions or like
+- [00:47] maybe review important topic that Nishan
+- [00:50] thought it would be interesting to
+- [00:51] review. But uh don't wait for the Q&A at
+- [00:54] the end. post it in the chat and Nishan
+- [00:56] will will uh will help you there. So I
+- [00:58] want to start with like a quick demo
+- [01:00] just to show you what we'll be working
+- [01:02] on today. After that I will I have a few
+- [01:05] slides obviously I need I need to do the
+- [01:08] due diligence. I will be talking about
+- [01:09] REA and like what it is the API and
+- [01:12] stuff like that and then we'll go really
+- [01:13] in the code and look how we do the
+- [01:16] things. And don't be afraid don't don't
+- [01:19] try to like clip the the URLs I have. I
+- [01:22] will share all the links, the docs, the
+- [01:25] code, everything at the end. I have
+- [01:27] URLs, everything is saved. So, uh
+- [01:30] without further ado, let's have a look
+- [01:32] to our demo. So, we'll do this and then
+- [01:36] we'll switch to my restaurant. I can I
+- [01:39] can do bigger. Voila. So,
+- [01:43] nothing crazy fancy if I would say. It's
+- [01:46] just like a restaurant finder.
+- [01:49] Very simple website. The goal was to
+- [01:52] focus on the tech, not on like what it
+- [01:55] can do. So, it's to give you ideas and
+- [01:57] how to do that. So, here we have a site.
+- [02:00] I already did the research because as
+- [02:02] you can see, it can take uh a little
+- [02:04] while to run a query. So, to save time,
+- [02:07] uh I know I can make 3 minutes of
+- [02:09] talking, but I was, you know, let's
+- [02:11] let's try to move forward quickly. So, I
+- [02:13] will do the the research ahead.
+- [02:16] So did search a restaurant in my area.
+- [02:20] In fact in my in Montreal area because
+- [02:23] in my area there's not a lot of
+- [02:24] restaurant and as you can see nowhere I
+- [02:29] ask about the location. Uh so the app
+- [02:33] find that pass it to the API uh and like
+- [02:37] return a formatted information. So it
+- [02:40] did found the top three restaurant
+- [02:43] provide the names, the addresses, the
+- [02:45] phone number, the website, a score uh
+- [02:49] and a priceable express in number of
+- [02:52] sign dollar sign. So one, two, three
+- [02:54] dollar sign. So that's pretty good. It's
+- [02:57] useful because there's a format and also
+- [03:00] what I really like is I have the
+- [03:02] reasoning.
+- [03:04] So particularity I will go into detail
+- [03:06] later of recise API is like provide all
+- [03:09] the details about how did it
+- [03:14] end up with that specific result. So you
+- [03:17] could go see the assistant. Let me just
+- [03:20] zoom here.
+- [03:22] Okay. Uh so like you will see like okay
+- [03:25] assistant it did a call. So okay best
+- [03:27] ramen restaurant in Montreal 2025.
+- [03:30] That's good. So, you know, it's not like
+- [03:32] in the 80s or whatever. Uh, and then we
+- [03:36] could see like, okay, it was it did call
+- [03:38] a tool. So, we could expand, look at the
+- [03:40] tool. It was a web search. So, we'll see
+- [03:44] like it did navigate and go through all
+- [03:47] those website, find information, then
+- [03:49] assistance try to cross reference and
+- [03:52] continue and like do this. So, the app
+- [03:56] is kind of like having an assistant
+- [03:58] doing web research for us. That's what
+- [04:01] the goal is. So yes, in this specific
+- [04:05] example is just finding restaurant, but
+- [04:08] you could imagine things that it could
+- [04:10] do for you because even doing this type
+- [04:13] of research
+- [04:15] will take a lot of time. Even if my wife
+- [04:18] pretend that she can do it in 2 minutes,
+- [04:19] I'm sure she can't. and like going
+- [04:22] through all those websites and reading
+- [04:25] it and finding all the information kind
+- [04:27] of copy paste it somewhere else. It will
+- [04:29] obviously take hours. So it's very
+- [04:33] useful to do that and we'll see how we
+- [04:36] build it in a few minutes. But before we
+- [04:38] do, I told you I need to talk a little
+- [04:40] bit more about Rea. So let's go back to
+- [04:42] the slides and we can continue. So Rea,
+- [04:46] who we are?
+- [04:48] So we are a model trainer uh with a
+- [04:51] particular a focus on uh multimodel
+- [04:54] efficiency. So very trying to make the
+- [04:57] multimodel and very focusing on
+- [04:59] efficiency and because we like open
+- [05:01] source sometime we do open different
+- [05:05] models or like share a lot in uh open
+- [05:08] source recently uh we um publish an
+- [05:11] open-source uh benchmark uh for deep
+- [05:14] research and and things like that. So
+- [05:16] like we do collaborate a lot in open
+- [05:18] source too.
+- [05:20] There's different APIs. Today the focus
+- [05:22] will be on research. So the the blue one
+- [05:25] uh I will mention vision because I think
+- [05:27] it's super cool but we didn't have half
+- [05:30] a day. We only had 40 minutes. So uh I'm
+- [05:34] I'm not demoing anything vision but it
+- [05:36] is very cool. And I will show you a
+- [05:37] place where you could play with that uh
+- [05:40] if you want to. uh we have an app that
+- [05:42] is available
+- [05:44] a website that you could uh go there and
+- [05:46] and have some fun with it. So it's
+- [05:48] already there to play with and an API is
+- [05:52] um coming up soon or was released soon
+- [05:55] like uh no vision vision API is
+- [05:57] released. Yeah. So you could uh
+- [05:58] definitely have a look there.
+- [06:01] So, REA research. So,
+- [06:05] it could so today I will be showing how
+- [06:08] to use it searching online web but it
+- [06:11] could also search into private document.
+- [06:13] So it could go through let's say you
+- [06:16] have like tons of rums and you're
+- [06:19] looking to fill the position and you
+- [06:21] could go and say okay you know what I'm
+- [06:23] looking for a candidate with three years
+- [06:26] of Python experience and uh maybe
+- [06:30] knowledge about u raven DB database or
+- [06:34] something like that. So you could go
+- [06:36] specific and uh give me the top three
+- [06:40] uh candidate and the the AI will the
+- [06:43] model will go look in all those document
+- [06:45] and return with the top candidate and
+- [06:49] again you will have all the reasoning.
+- [06:51] So like why Alex was not taken when
+- [06:54] Sophia was taken like the reason why and
+- [06:57] stuff like that. So you will have all
+- [06:58] the details of that. So I think it's
+- [07:00] pretty good. um the model excel in
+- [07:03] syntheitizing that's really hard for me
+- [07:05] that word to say so information coming
+- [07:09] from multiple information and make it
+- [07:11] like you know making current uh
+- [07:14] connection between those so really good
+- [07:16] at it uh and uh like we are very
+- [07:19] performant I will show you in a few
+- [07:21] slides uh dashboard bench benchmark that
+- [07:25] uh we we compare our model to others and
+- [07:30] um you'll see like the performance is
+- [07:32] really great, the the response are great
+- [07:35] and also like we are OpenAI compatible.
+- [07:38] So if you are already using an OpenAI
+- [07:40] API, you could just switch the URL and
+- [07:43] the model name and you could right away
+- [07:46] use REC API if you want. So that's
+- [07:48] pretty good.
+- [07:50] So like again just going quickly through
+- [07:53] the feature uh it's very lightweight. So
+- [07:56] like right now the way when we work with
+- [07:59] the um
+- [08:02] sorry I have like a little blank
+- [08:05] uh private file voila private file we
+- [08:08] work with Google drive so right now it's
+- [08:10] coming soon to the API
+- [08:13] um and again transparent grounded
+- [08:16] because you see why there's no
+- [08:19] fabulation we see every answer they are
+- [08:22] coming from the data you are looking for
+- [08:25] and you have all the explanation
+- [08:27] And it's optimized end to end because we
+- [08:29] are training it from scratch and
+- [08:31] building it. So it's really great for
+- [08:32] that. I kept that demo that uh diagram
+- [08:36] because I thought it was really cool. So
+- [08:38] hopefully you like the diagram like me
+- [08:40] because it was a comparison between a
+- [08:43] traditional search where you have like
+- [08:45] you ask a questions find me ramen
+- [08:50] uh information and then it will go
+- [08:52] search online and obviously find
+- [08:54] information because there's everything
+- [08:56] online right find information and then
+- [08:59] like pick the one that think it's the
+- [09:01] best by based on that research and
+- [09:04] return the result.
+- [09:07] Maybe the page that it was on didn't
+- [09:09] include the phone number,
+- [09:12] so you you won't have it, but you'll
+- [09:16] have the best restaurant of ramen
+- [09:17] compared to like a the multi-step search
+- [09:21] where it will go and I'm like here I
+- [09:23] said web because we'll be talking web,
+- [09:25] but obviously you could go also private
+- [09:28] file if you want, but it will it will be
+- [09:30] the same thing where it will do the
+- [09:31] research, get the information and then
+- [09:35] ask itself, okay, do I have all the
+- [09:36] information. Oh no, I'm missing the
+- [09:39] phone number. So go back again, do other
+- [09:42] research, maybe other source of
+- [09:45] information to find the phone number of
+- [09:47] those restaurant and then come back and
+- [09:50] loop like that as many time as it needs
+- [09:53] or limitation. We'll see that that we
+- [09:56] can control that looping later because
+- [09:59] obviously sometime we focus more on the
+- [10:02] time it takes than the end result like
+- [10:05] having all the details like we need
+- [10:08] those I don't care how long it takes. So
+- [10:10] depending where is the sweet spot we can
+- [10:12] adjust that and then we'll syntheize
+- [10:16] everything because now multipass multi
+- [10:18] documents it will synthetize everything
+- [10:21] and give us the answer with a structured
+- [10:24] output and that's extremely important
+- [10:27] because as human when I go in a chat and
+- [10:30] I ask hey give me a three best ramen in
+- [10:33] Montreal or New York or whatever I will
+- [10:36] have a blob of text I understand that
+- [10:39] you would understand that and maybe it's
+- [10:42] like a bullet point kind of like so dash
+- [10:44] a space probably the name of the
+- [10:47] restaurant and after that maybe it's the
+- [10:50] score the address and it's like best
+- [10:52] pizza in town or whatever I say ramen so
+- [10:55] best ramen in town something like that
+- [10:58] the second is dash the name of the
+- [11:00] restaurant again this time is a comment
+- [11:03] so like the format won't be the same but
+- [11:06] I will understand what it means but in a
+- [11:09] program in a system when you're trying
+- [11:11] to use that output somewhere then it's
+- [11:15] more complicated because you need to
+- [11:16] parse it sort it and everything. So when
+- [11:19] the format is spit out in a very
+- [11:22] specific format in a schema following a
+- [11:26] schema then it's better you have all the
+- [11:28] information it's respecting the type of
+- [11:33] uh that property you're you're asking
+- [11:37] for. So then you could use that and as
+- [11:39] we saw in the uh the website earlier
+- [11:41] displaying in a column or save it in
+- [11:44] database for later or do something
+- [11:46] without having to parse. So it's much
+- [11:48] faster more efficient to do it after
+- [11:51] sometime there's glitch I wouldn't lie
+- [11:53] that where when I was building that demo
+- [11:57] the score sometime it was a double
+- [11:59] sometime it was an integer and I had to
+- [12:01] you know tweak it a little bit. It was a
+- [12:03] demo so I kept I I think I end up
+- [12:06] putting a string just because to keep it
+- [12:08] simple
+- [12:10] but it's much easier that way.
+- [12:13] So like the flow if we remove all those
+- [12:17] diagram and arrows and stuff. So like
+- [12:19] you ask a question there's a lot
+- [12:21] happening it will be looping searching
+- [12:23] and that's when we can change the
+- [12:27] setting the properties and fine-tune
+- [12:29] that research to get a better response
+- [12:33] with all the explanation. So we'll be
+- [12:36] working in that square today.
+- [12:40] So here I was saying that uh the
+- [12:43] comparing to the benchmark. So simple QA
+- [12:46] popular benchmark that we can look at
+- [12:49] different model and recently REA built
+- [12:52] his own benchmark and put it all out
+- [12:54] there open source so you could use it
+- [12:57] also to compare it and we did scar very
+- [13:00] well. So pretty proud that's why I put
+- [13:03] that slide there.
+- [13:06] Visions is another API
+- [13:09] like I said I won't be talking about but
+- [13:11] I wanted to talk about it a little bit
+- [13:13] uh mention it sorry because I think it's
+- [13:16] super cool. So what you could do with
+- [13:17] vision is like vision will look through
+- [13:21] tons of hours and hours and hours of
+- [13:23] like let's say for example security
+- [13:25] footage and you could say hey when the
+- [13:28] FedEx truck pass and then it will go
+- [13:31] extract the exact timestamp and like
+- [13:33] part of the video where that comes from
+- [13:36] or maybe you want to know uh like in a
+- [13:39] you know you could do any kind of
+- [13:41] research. It could also look at uh in
+- [13:45] real time feed to uh for accident or
+- [13:48] aggress aggress sorry aggression
+- [13:50] detecting patterns that happen. So it's
+- [13:53] very useful to sort work on
+- [13:58] recording files. So a bunch of video
+- [14:01] files or a feed in real time. So really
+- [14:05] good for that. And if you want to know I
+- [14:07] put the URL here. uh if you want to play
+- [14:10] with it, I will share again that link
+- [14:12] later uh at the end, but uh at
+- [14:15] app.reka.ai/vision,
+- [14:19] that's where you have all the
+- [14:20] information of with vision.
+- [14:24] So now it's time for me to take a sip of
+- [14:27] water.
+- [14:30] I just end up I just finished a cold and
+- [14:33] my throat is still
+- [14:35] not being nice with me. Okay. So, let's
+- [14:38] go back to the demo and we'll be digging
+- [14:42] into uh the code.
+- [14:46] Uh should I No, let's go to the code.
+- [14:51] Let's go maximize that and we'll stop it
+- [14:56] and we'll just change branch.
+- [15:02] Cool.
+- [15:10] So this demo I did it uh currently the
+- [15:13] version we'll be playing with today is
+- [15:15] inn net. We have the same sample in
+- [15:17] Typescript. uh if you prefer uh we have
+- [15:22] we don't have this version in Python
+- [15:24] though we have other uh demo in Python
+- [15:27] but we try to do different demo in
+- [15:30] different languages and uh today I
+- [15:31] thought it would be fun to use C
+- [15:34] though I did not use any SDKs so it will
+- [15:38] be kind of like pure HTTP call so I
+- [15:41] thought that was good because in all
+- [15:43] languages HTTP call is they look the
+- [15:46] same in all different languages
+- [15:48] So I thought it would be interesting for
+- [15:50] that.
+- [15:51] So if we look at the code quickly uh so
+- [15:55] it's a blazer website. So blazer is just
+- [15:59] the way uh we write the thing. Um so
+- [16:04] it's a mix of HTML and uh C code.
+- [16:09] So this part is that little uh form that
+- [16:13] we fill. And then like I'm I'm showing
+- [16:16] this is my grid
+- [16:19] where I plug a list of restaurant and
+- [16:23] then for each property the name the
+- [16:25] address the phone number the website the
+- [16:28] score the price like I I share that
+- [16:31] information and after that I have
+- [16:33] another kind of a diff in a different
+- [16:35] tab I'm doing the same uh with the
+- [16:39] reasoning step it's a bit more complex
+- [16:42] because of like all the possibilities
+- [16:45] are possible like you know this
+- [16:47] different step and sometime it's a tool
+- [16:48] sometime it's an assistant and stuff
+- [16:50] like that but same kind of thing but
+- [16:53] today we'll be focusing on like the
+- [16:55] calling because this is just web thing
+- [16:59] um so like I said blazer it's part of
+- [17:03] like Code and after that you have
+- [17:08] uh sorry HTML code and C# code so now if
+- [17:11] we go in the I can make that big bigger
+- [17:13] also. Maybe it will be better this way.
+- [17:20] That's a little bit big. I cannot see a
+- [17:22] line. Okay. Uh so yeah. So when we click
+- [17:25] on that search without any surprise it
+- [17:29] will be calling search and what it does
+- [17:32] uh it locked the button uh it start a
+- [17:36] stopwatch because I was curious at some
+- [17:39] point uh to see um like this is kind of
+- [17:44] like a a tool like it's a playground
+- [17:46] right where we experiment different
+- [17:47] things so I did put more than uh
+- [17:51] expected or like what would be like a
+- [17:55] professional app if I would say just
+- [17:58] because you know if you're trying to
+- [18:01] fine-tune sometime it's nice to see like
+- [18:03] the call or see the saving the output so
+- [18:05] I have like a little bit extra in there
+- [18:09] so that's why I have the stopwatch thing
+- [18:11] here and after that this is where we
+- [18:13] call the service okay get restaurant
+- [18:16] reference and I'm cheating right now
+- [18:18] because in my area
+- [18:22] uh on my little island there's not a lot
+- [18:24] of restaurant and uh doing so
+- [18:29] uh like when I was trying to to to
+- [18:31] prepare for this session I was like well
+- [18:34] there's not except if I'm looking for
+- [18:36] pizza or like burger and and I'm
+- [18:39] expecting to have McDonald I won't have
+- [18:41] great result so that's why I say you
+- [18:43] know what like I will hardcode Montreal
+- [18:45] here but this app uh is just like trying
+- [18:49] to get running uh some JavaScript
+- [18:52] extract the location
+- [18:55] uh not the location but the um
+- [19:00] longitude uh coordinates of uh the
+- [19:03] browser from the browser and then find a
+- [19:06] CD close to that and that's the CD I
+- [19:08] sent. So it's working. I have the files
+- [19:11] there. We can try it later if you want
+- [19:13] but uh just to prove that it's really
+- [19:16] working. But uh like like I said, I was
+- [19:19] like it was disappointing to see the the
+- [19:22] result that I was having. So that's why
+- [19:24] I'm are coding Montreal here.
+- [19:27] So let's go in this uh service.
+- [19:33] And again
+- [19:35] as you saw earlier
+- [19:37] uh doing a research can take three
+- [19:40] minutes. So
+- [19:43] I I could have like make a change and
+- [19:46] then talk talk talk for three minutes
+- [19:48] while it's doing it. Sometime it's
+- [19:49] shorter though because we'll be
+- [19:50] optimizing but sometime it could take
+- [19:52] long time. So what I did is I catch all
+- [19:56] those answers and I'm running it
+- [19:58] locally. So it will be much faster for
+- [20:00] us just to kind of like play around. But
+- [20:04] uh obviously we could just run it
+- [20:07] directly through the API just like as
+- [20:09] I'm presenting and we are tight in time.
+- [20:12] I thought it would be more pleasant to
+- [20:14] uh to to use that.
+- [20:17] So
+- [20:19] and after that we have our query
+- [20:24] and we're preparing our buddy. So here
+- [20:28] we have our model. It's a classic API
+- [20:31] call, right? Open API call. I said it
+- [20:34] earlier. So we are following we have the
+- [20:36] same format than a open API
+- [20:39] um
+- [20:41] open AI query. So like it's the same
+- [20:43] thing. So you have your query, you
+- [20:45] specify your model, you specify your
+- [20:47] role, your user and stuff like that. And
+- [20:50] after that I comment everything because
+- [20:52] the last thing you want to see it's me
+- [20:53] doing typos because when I present
+- [20:56] there's always a bit of stress and I my
+- [20:58] fingers have their own main goals and
+- [21:01] make me look full. So that's why I
+- [21:03] comment instead of like writing.
+- [21:07] So that's what it do. So like we finish
+- [21:09] that. After that, sorry I scrolled way
+- [21:12] too fast here. After that we're passing
+- [21:16] our API key. By the way, API key uh we
+- [21:20] have a free tier. So you could have one
+- [21:22] today if you want. I want to show you
+- [21:24] before like in I wrap up this uh this
+- [21:26] session. I want to show you where you
+- [21:27] can get your free API key. So you could
+- [21:30] try it and have fun
+- [21:33] or experiment in a different app. Maybe
+- [21:35] your app you're already having is using
+- [21:37] an open AI uh API. So you could get your
+- [21:41] key and change it. You just have to use
+- [21:43] your key here and change your model and
+- [21:45] you have it. So there is it. There it
+- [21:48] is. So just like that, you send your
+- [21:51] request and you get your answer. And
+- [21:54] after that I'm just extracting it
+- [21:57] putting it uh des serializing it to uh
+- [22:00] have it in like strong type because C is
+- [22:03] strong type that was not necessarily I
+- [22:07] could have do like child and go with
+- [22:10] like the classic JSON query thing but
+- [22:13] since I was in C I thought it would be
+- [22:15] great to have classes
+- [22:21] uh if you are looking into the code all
+- [22:25] the classes are in domain.
+- [22:29] So they are all there. All those classes
+- [22:32] uh are are there. Um well the thing I
+- [22:36] want to show was
+- [22:40] so here that's the geolocation JSON that
+- [22:42] I like we we're having. So that's the
+- [22:44] name of the city I'm in and I was very
+- [22:46] disappointed when I I try it. So that's
+- [22:48] why I hardcoded uh the response sample.
+- [22:52] That's the full JSON that we get. That's
+- [22:55] where all those classes come from.
+- [22:58] So you get your status, did you stop it,
+- [23:02] did it fail, whatever. And then like in
+- [23:05] the message, you have your content. So
+- [23:07] that's the JSON that interest us, the
+- [23:10] list of restaurant. And then after that,
+- [23:13] you have all the reasoning step. So you
+- [23:15] have all that information. So, it's a
+- [23:17] it's a big obviously
+- [23:20] uh response with a lot of information in
+- [23:23] there.
+- [23:24] If you don't want the reasoning, there's
+- [23:26] a way also to cut it. There's uh like
+- [23:30] it's customizable obviously if you want
+- [23:32] to do it. But
+- [23:34] when you want to learn and you're doing
+- [23:36] multistep, it's very important to
+- [23:38] understand what's happening. So, and
+- [23:41] that's why today we are keeping it to
+- [23:43] show it. Okay.
+- [23:46] So that's the thing. That's the thing.
+- [23:48] Did I show everything? Can we start
+- [23:50] coding? I think I did show everything.
+- [23:55] Cool.
+- [24:01] So the first thing we want to do because
+- [24:04] we are using the output of our API into
+- [24:08] a model, I think the the best thing to
+- [24:10] do will be to add the format.
+- [24:13] So we can do this with the parameter
+- [24:16] here
+- [24:18] response format
+- [24:20] right. So this is very easy and if we go
+- [24:23] that function it's at the bottom of my
+- [24:26] page it's here. So get format you just
+- [24:30] create a JSON format. So depending on
+- [24:32] the language you're using you could be
+- [24:34] just like if you're already in
+- [24:36] JavaScript you could just go and put
+- [24:38] your schema there. If you're in Python,
+- [24:40] I saw there was I forgot the name of the
+- [24:43] the class. There's tools that help you
+- [24:45] extracting an object the class and then
+- [24:49] spit it out in a JSON document. In net
+- [24:53] you could just like use something like
+- [24:55] that. So here I'm just saying like hey I
+- [24:57] want a list of restaurant. It's a list
+- [24:59] of object restaurant like it's an array
+- [25:02] and I want those properties and I'm
+- [25:05] specifying here as you can see like
+- [25:07] price level. I want that to be expressed
+- [25:10] in $1 sign, $2 sign, whoops, and $3
+- [25:13] sign. That's what I'm expecting. I could
+- [25:16] have say heart. The score here could
+- [25:19] have been I could have specified, hey, I
+- [25:21] want minimal value to be between one and
+- [25:23] five or one and 100. Um, I could I it
+- [25:27] could be thumbs up depending on like
+- [25:29] what you want. So you specify it in
+- [25:34] your JSON and that's the model will do
+- [25:37] his best to fill it up. Maybe phone
+- [25:40] number.
+- [25:42] My daughter says nobody's calling anyone
+- [25:44] anywhere these days. So maybe the phone
+- [25:46] number is not used. Maybe it's not
+- [25:48] display on the restaurant. The old
+- [25:51] restaurant. Um maybe it will return
+- [25:54] blank because it didn't found the
+- [25:56] information.
+- [25:59] So going back again up. So that's in our
+- [26:02] payload right now. So we did now had a
+- [26:05] response. So we could try to run that.
+- [26:08] So we'll
+- [26:10] run it.
+- [26:19] So now
+- [26:21] we are in Montreal and uh we're just
+- [26:24] expecting
+- [26:26] uh a specific format without any format.
+- [26:29] I couldn't bind it to my grid because
+- [26:31] the grid is expecting a very specific
+- [26:34] format. So now I could just go let's say
+- [26:36] search for pizza.
+- [26:44] Voila. So I have three pizza.
+- [26:49] Found all the information. See the
+- [26:51] score.
+- [26:53] It's not present. It's possible. But it
+- [26:55] didn't create anything. It didn't have
+- [26:57] it. Didn't find enough information. So
+- [27:00] it just put nothing. Didn't have the
+- [27:04] information. But because it's an integer
+- [27:07] or when I did that, it was an integer.
+- [27:09] After now, if we look in the schema,
+- [27:11] it's a string. But when I did that, it's
+- [27:13] an integer. So that's why it's zero.
+- [27:15] There's no null. Uh and then the price.
+- [27:19] And if we look in the reasoning, we have
+- [27:20] all the reasoning. So search for pizza
+- [27:22] near Montreal tree restaurant matching
+- [27:24] the user request. Oh, one thing I didn't
+- [27:28] say is um it's looking for Montreal
+- [27:32] because we hardcoded the value.
+- [27:36] But if we go back into the code, uh,
+- [27:39] this way. If we go back to the code,
+- [27:42] let's stop it.
+- [27:47] Sorry. Under the floating zoom bar. Uh,
+- [27:52] one thing I didn't show was our query
+- [27:55] here is, okay, you are a restaurant uh,
+- [27:59] recommener. Uh, the user uh, asked for
+- [28:03] food in the specific moon. So we look
+- [28:05] for pizza that's not a mood, but I guess
+- [28:07] it could be a mood and provide the tree
+- [28:10] restaurant matching this mood in near
+- [28:13] city. So right now
+- [28:17] I'm injecting
+- [28:19] the location in my query
+- [28:24] because we'll we'll change that later.
+- [28:26] So right now that's what it is.
+- [28:30] I could also not have include that and
+- [28:32] let the user search at the top, but then
+- [28:35] like every time it's like, hey, do that
+- [28:37] near me. So like I think by default
+- [28:40] we're expecting to say, hey, I'm I'm
+- [28:42] looking for pizza near where I am, not
+- [28:44] where I will be. But like that could be
+- [28:46] cool.
+- [28:49] So this now we have a format. So that
+- [28:53] was great. Another thing that we can do
+- [28:56] is um sometime it could be very very
+- [29:00] long when you do research like I said it
+- [29:04] will search again we saw that it didn't
+- [29:06] have all the information for the number
+- [29:09] so we could specify the maximum of views
+- [29:13] we could go two three I think by default
+- [29:17] it's 10 so like when you don't specify
+- [29:20] anything it could take a lot of time
+- [29:22] because the model will really try hard
+- [29:25] and make up to 10 search web search and
+- [29:29] the different tools when you're looking
+- [29:30] at the the the list of the the the tool
+- [29:33] it will do that multiple time okay
+- [29:37] one thing also we could do looking at
+- [29:39] the time I see the time is flying so
+- [29:42] let's say we also add location so what
+- [29:46] you could do is pass the user location
+- [29:50] and then pass the city and there's more
+- [29:53] you could
+- [29:54] you you could pass the there's the city
+- [29:57] the uh time zone um there's the area and
+- [30:02] the country I think so there's multiple
+- [30:05] uh component but in our case you know if
+- [30:07] I say look for a restaurant in Canada
+- [30:11] not sure I will get in time to my table
+- [30:13] if it's in on the the west coast
+- [30:17] compared to Montreal assuming I'm in
+- [30:19] Montreal
+- [30:20] and now what I will do is I will change
+- [30:22] and use this new prompt.
+- [30:26] Well, I say okay, you are the first part
+- [30:29] stay the same. So, you are a restaurant
+- [30:31] recommener. Use the the user ask for the
+- [30:35] food in the specific mood. Provide three
+- [30:40] uh provide fine.
+- [30:43] Let's go. Provide three restaurant that
+- [30:46] match this food always response and
+- [30:48] adjacent that match the provided schema.
+- [30:51] But I'm not specifying anymore where
+- [30:54] because that's part that's passed sorry
+- [30:56] in the user location. Right?
+- [30:59] So if we try to execute this
+- [31:07] so now if we go here and let's go with
+- [31:10] sushi this time you know trying to uh
+- [31:14] put some varity here in the menu. So if
+- [31:17] I search
+- [31:22] So now we have different sushi
+- [31:24] restaurant uh and like we have the score
+- [31:28] do we have the low the price so
+- [31:31] different price coming up in the
+- [31:33] reasoning we'll we'll see like it should
+- [31:37] have maximum if we expand the tooling we
+- [31:39] should have a maximum of three web
+- [31:42] search because that was also part of my
+- [31:46] parameter that I Yes.
+- [31:50] Right. So, one was there. So, this is
+- [31:52] like it's this is a tool, but it's an
+- [31:54] analyze. So, we're still up to one and
+- [31:58] going there. It's again another analyze
+- [32:00] going tool. Oh, that's a web search. So,
+- [32:04] we are up to two now. And as the last
+- [32:06] one is and three. So, we have our three
+- [32:10] web search.
+- [32:12] So, you could limit this. It's great
+- [32:15] because when time is important, you want
+- [32:18] to limit the number of web search. But
+- [32:21] if you don't care about the time, maybe
+- [32:23] it's a longunning task or something like
+- [32:24] that. Say, you know what, like take your
+- [32:26] time, find everything, then you could,
+- [32:29] you know, turn it to the maximum.
+- [32:35] So that's cool. So we have this, we have
+- [32:37] the result. I said we didn't pass the
+- [32:39] location though. They are still all in
+- [32:41] Montreal.
+- [32:43] Oh no. provided source. Interesting. I
+- [32:47] didn't see that before.
+- [32:50] So, look like Oh, didn't find a lot of
+- [32:53] information on that restaurant.
+- [32:56] Interesting. No, it's good,
+- [32:59] but no phone number, no website, no
+- [33:04] that's weird. Anyway,
+- [33:07] then if I was in real life, I would
+- [33:09] probably jump into reasoning trying to
+- [33:11] understand like what's happening, why
+- [33:14] did he keep it uh sorry, why it keep it
+- [33:18] kept it
+- [33:20] uh in the list if like there's no
+- [33:22] information,
+- [33:24] but we are in a demo. So, we'll just say
+- [33:27] interesting.
+- [33:28] Okay, let's go back to the code because
+- [33:31] we're not done yet. I'll stop that
+- [33:33] again.
+- [33:38] So that's great. Say we are uh running
+- [33:43] uh online doing some research. So maybe
+- [33:47] uh you think that some website are more
+- [33:51] important
+- [33:53] than other. Maybe uh let's say you're
+- [33:57] building uh an MCP server using that
+- [34:01] information. you could go and specify
+- [34:05] uh specific domain. So like the the the
+- [34:08] the API calls will only do the research
+- [34:11] on that specific domain. In our case, a
+- [34:13] specific domain will be let's say trip
+- [34:16] advisor. So doing so if I'm running
+- [34:19] this, it limits
+- [34:23] so only the web search will only happen
+- [34:26] on trip advisor. I could put more if I
+- [34:29] want. So it's a it's an it's an array of
+- [34:31] strings. So I could put all the websites
+- [34:35] I want. So let's run that.
+- [34:46] If I look for let's say burger.
+- [34:54] So if we go so again found three
+- [34:56] burgers. We have all the information.
+- [34:58] Are they in Montreal? They are all in
+- [35:00] Montreal. And now if we go in the
+- [35:02] tooling, we should see a lot of trip
+- [35:05] advisor, trip advisor, trip advisor. So
+- [35:08] it'll be only trip advisors, right?
+- [35:10] Because I only allow
+- [35:14] research on that web search. So that's
+- [35:17] great because now yes you go online you
+- [35:21] specify the amount of like time spent
+- [35:23] researching you limit the uh you format
+- [35:28] your answer so it could be usable in
+- [35:30] your application
+- [35:32] and uh you
+- [35:36] and you pass the location so like your
+- [35:38] user doesn't have to do it right so now
+- [35:42] kind of like work perfectly
+- [35:44] you could do that
+- [35:47] another thing and like I can show it too
+- [35:50] though like you will have to take my
+- [35:52] word for it is sometime we
+- [35:56] sometime we don't like it's fine let's
+- [36:00] say I'm looking for hockey score or
+- [36:02] something like that or I'm looking for
+- [36:04] some information and uh you want the
+- [36:07] best restaurant or like you whatever say
+- [36:11] search online go everywhere but Maybe
+- [36:16] you don't want to specify here. I I just
+- [36:18] put Huber heat because that was one of
+- [36:20] the result coming. So I kind of like
+- [36:21] filter it out.
+- [36:24] But uh you can say you know what I'm
+- [36:26] looking for the best news about uh AI
+- [36:29] but you know what I don't want to see
+- [36:31] any Reddit page because people there
+- [36:33] sometime rent and even if like the
+- [36:36] information could be interesting, funny
+- [36:38] or whatever, I don't want to use that in
+- [36:40] my research. So you could like block
+- [36:43] some domain
+- [36:46] if and they are exclusive. So if you
+- [36:50] block a domain it means it's everything
+- [36:52] except those block domain and if you
+- [36:55] allow a domains or a list of domain it's
+- [36:58] only on those. So it make no sense to
+- [37:01] have two.
+- [37:03] Don't ask I know why.
+- [37:07] Trust me I totally tried both at the
+- [37:10] same time. I was like, "Yeah, you know
+- [37:11] what?
+- [37:13] It make no sense."
+- [37:15] But I was curious. And let's again look
+- [37:18] for burgers
+- [37:21] and we'll we'll see that. Uh I'm not
+- [37:24] sure like I forgot if the list is
+- [37:26] different.
+- [37:28] Uh I don't I forgot the to check the
+- [37:30] name, but it should be uh different
+- [37:34] website uh tooling. If I go
+- [37:38] triple advisor. Oh, that's Yeah. Okay.
+- [37:42] So, yeah. Trip adviser. Trip advisor.
+- [37:43] Trip advisor. I thought I had like a
+- [37:50] That's the same result.
+- [37:53] That's the same result.
+- [37:56] Uh I should do a search. I should go
+- [37:58] live and search without be say you know
+- [38:01] everything except Trip Advisor. uh and
+- [38:03] it will take a few minutes but uh you'll
+- [38:06] have you know you'll have to trust me or
+- [38:09] one thing you could do seeing the time
+- [38:12] flash I want to show you because promise
+- [38:14] I will do
+- [38:17] is uh did I before I jump
+- [38:20] I think I did show you everything right
+- [38:23] if I go back to the code let's close all
+- [38:25] those restaurant running a lot of
+- [38:28] instance of my restaurant running if I
+- [38:31] go back to the code and I stop it and I
+- [38:35] look at the code.
+- [38:37] Did I uncomment everything? Yes, I did.
+- [38:40] So, I'm using the location
+- [38:43] and we are playing I we didn't play this
+- [38:47] because honestly that's when you feel it
+- [38:49] when you're doing real query in a real
+- [38:51] world where you say okay like what
+- [38:52] happen if I put it to 10? What happened
+- [38:54] when I put it to one? the difference in
+- [38:57] term of quality of information and the
+- [39:00] time it took. Uh I want to show you how
+- [39:03] you could try it by yourself using the
+- [39:05] app or the code will be available so you
+- [39:08] could run it also uh in Typescript or or
+- [39:12] in C. Uh location we passed it. So yeah
+- [39:15] I passed everything there. Oh, one thing
+- [39:18] if you want to play locally, I kept the
+- [39:21] save to file so you could see the
+- [39:23] response after the fact and look into
+- [39:26] the details of the information. Uh, if
+- [39:28] you want to learn more, I did put that
+- [39:30] for you. So, let's say I'm done with
+- [39:33] this part. I want to show you the app
+- [39:35] where you could play. So, I say app,
+- [39:39] it's a website. So, it's app.rea.ai.
+- [39:42] And here you have like all the APIs
+- [39:44] available. So, you have vision, you have
+- [39:46] research. So research that's what we
+- [39:49] were playing with. Let's make it a
+- [39:51] little bit bigger. And if you want to
+- [39:53] play with those parameter not in code
+- [39:56] but just like with the very graphical
+- [39:58] interface you could do that. So you
+- [40:00] could do a multi multi-step web search.
+- [40:04] You could do also private document
+- [40:06] search. So if you have if you want to
+- [40:08] play we did have some samples. So you
+- [40:12] could totally use that to search for
+- [40:14] different rumi and stuff like that. So
+- [40:16] let's say you want some réumé. So now
+- [40:18] you have plenty of ré. So you could go
+- [40:21] and look for people here and you will
+- [40:24] see all the output.
+- [40:26] Or we could go search online and we
+- [40:29] could totally
+- [40:32] add source. Uh no that's not what I
+- [40:34] want. I want this here. So I want to do
+- [40:36] a web search. I want to specify domain.
+- [40:39] So I could specify specific domain I
+- [40:42] want. I don't want.
+- [40:44] So, I could say uh trip advisor. I don't
+- [40:47] want to do any typo.
+- [40:51] Show me the code. Let's go here. Do I
+- [40:54] have it
+- [40:56] close by?
+- [41:04] https.
+- [41:09] I don't want it to allow. No allow. So I
+- [41:12] could save.
+- [41:14] Uh oh. Do I have location here? So here
+- [41:18] I have the the search dep. So I could
+- [41:20] go. So by default I think it's 10. Could
+- [41:22] be I could be wrong but you could change
+- [41:24] it and say you know what like I want
+- [41:26] just one. Find three
+- [41:29] res uh
+- [41:32] running
+- [41:36] in English. Resto
+- [41:38] told you I was the king of typos, right?
+- [41:44] in Montreal with only one e usually.
+- [41:47] Voila. So now I could run this
+- [41:51] and just like before
+- [41:54] it will it will do the search
+- [41:58] behind the scene. This was happening in
+- [42:01] our app. What we do is we show Oh,
+- [42:05] why did it oh maybe found but it won't
+- [42:08] it won't search for it.
+- [42:11] It's not supposed to be using trip
+- [42:13] advisor. We see like different URL here
+- [42:15] and I could go search like have a look
+- [42:17] at everything he did look at. So it's
+- [42:20] analyzing and it will find a restaurant.
+- [42:23] You could play with that. Um it's pretty
+- [42:25] cool.
+- [42:27] I'm going to make sure we have time for
+- [42:29] question. So let's run it. It can take a
+- [42:33] few minutes anyway. So we'll let it
+- [42:35] search and we'll finish the session.
+- [42:39] So, let's just finish this. So, what's
+- [42:43] next? What's next? That's a question I
+- [42:45] have for you because now that you know
+- [42:48] that you could search online or in
+- [42:51] private file, what would you do with it?
+- [42:54] Like what feature is missing? Imagine
+- [42:57] searching in tons of files like I said
+- [42:59] like in C in resuming CVS CVs for your
+- [43:02] finding your next candidate filtering a
+- [43:05] little bit helping you finding the good
+- [43:06] candidate because like when you have
+- [43:08] like a thousand CVs it's really hard to
+- [43:11] read everything so you could use that to
+- [43:13] help you sort and pick up like a subset
+- [43:17] of a good candidate. Uh maybe you want
+- [43:20] to sort different website with different
+- [43:22] document so you could do that. Um, so
+- [43:26] here all the reference. So the first
+- [43:28] link is app.reca.ai. That was just the
+- [43:31] website where we're currently doing a
+- [43:33] search for the ramen. You could do that.
+- [43:36] Vision API is there too. There's the
+- [43:38] chat there too. So you could use that.
+- [43:40] The second link is GitHub where you will
+- [43:44] see let's say later today or tomorrow.
+- [43:46] Um like the link exists there simple but
+- [43:50] the the code I show you is not yet
+- [43:52] there. I just want to add some
+- [43:54] documentation so if someone miss this uh
+- [43:58] session they can still be able to uh to
+- [44:00] know what to do to execute it but the
+- [44:03] code will be there and if you go at
+- [44:05] GitHub Ricki and you look for API simple
+- [44:08] there's TypeScript also available and
+- [44:10] Python that is available and if you want
+- [44:13] to learn everything there's you can
+- [44:16] learn about the APIs go to the docs so
+- [44:18] ducks.reca.ai AI
+- [44:22] and with that I want to say a big thank
+- [44:24] you before I start answering question
+- [44:26] and we look at the remmen result big
+- [44:28] thank you I'm feros on most social so
+- [44:32] you can find me there usually DMs are
+- [44:35] open so you can ping me and ask
+- [44:36] questions and if you are interested to
+- [44:39] learn more about you could go at reka.ai
+- [44:41] AI
+- [44:43] and with that can stop this. Look if we
+- [44:46] found the if we have a result while we
+- [44:50] check for the Yeah. So we look look like
+- [44:54] we have a result.
+- [44:56] So tree ramen restaurant Montreal the
+- [44:59] source
+- [45:01] didn't use
+- [45:04] it didn't use um
+- [45:07] so it kept uh sorry I'm looking for my
+- [45:10] words here.
+- [45:11] I'm out of rent. Uh, it did respect that
+- [45:14] we didn't want to use Trip Advisor. VA,
+- [45:16] that's the word I was looking for. So,
+- [45:18] like, you know, it had plenty of code
+- [45:20] like of a suggestion to look at, but it
+- [45:23] didn't use Trip Advisor just like we
+- [45:25] asked it. So, very powerful tool.
+- [45:29] So, did Nishan answer all the questions
+- [45:33] or still have some?
+- [45:43] Um, Frank, I noticed that uh a few
+- [45:47] people have been asking for uh links and
+- [45:49] resources. Um, I was wondering if
+- [45:51] >> Yes, let me bring that back to the
+- [45:56] So, those are the the link.
+- [46:00] So, so like I said, the the first link
+- [46:02] here, the app.rea.api,
+- [46:05] API. That's the link of the app where
+- [46:08] you could try
+- [46:10] uh oh, one thing I didn't show. I didn't
+- [46:12] show how you could Well, like if you go
+- [46:13] there, the first thing it will you could
+- [46:15] sign in and if you sign in, you will be
+- [46:17] able to have your API key. Or if you go
+- [46:19] to docs.reka.ai,
+- [46:21] the last link here, you also have a link
+- [46:24] from there to get your API key. And like
+- [46:26] I said, it's free. You could use it
+- [46:28] right away
+- [46:30] >> and the code will be available. Uh if
+- [46:32] you don't mind maybe you can copy and
+- [46:34] paste this in uh in the chat window. So
+- [46:38] that way
+- [46:39] >> so I don't where is the
+- [46:42] >> in the chat window? Um maybe I can ask
+- [46:44] my team but
+- [46:46] >> I can I can paste it and because right
+- [46:48] now I only see the internal chat. I put
+- [46:52] it there.
+- [46:53] >> Oh, I see. Uh maybe if you can put it
+- [46:55] there. I mean we'll grab it from there.
+- [46:57] >> I I put it there. I just did it now.
+- [46:59] >> Okay. Um, okay. I got it.
+- [47:03] >> I I close many
+- [47:05] >> any windows when I start because
+- [47:08] >> Yeah. Yeah.
+- [47:08] >> I don't want to be uh
+- [47:11] >> and then I have posted it for everyone.
+- [47:15] Okay.
+- [47:16] >> Oh yeah. I should have pick Sorry.
+- [47:17] Should I have pick everyone?
+- [47:18] >> Yeah. Yeah. So I mean Zoom is not the
+- [47:20] best user experience. I think most of us
+- [47:23] agree would agree on that. Um so let's
+- [47:26] wait if we have any other questions
+- [47:28] otherwise. So,
+- [47:32] okay,
+- [47:32] >> stop sharing.
+- [47:34] >> Okay. Uh, thank you so much, Frank and
+- [47:36] Nishan. Um, it was great having you.
+- [47:40] >> It was a pleasure. It was fun.
+- [47:42] >> Likewise. Okay. Thank you.

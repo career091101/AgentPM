@@ -1,0 +1,733 @@
+---
+title: "YouTube Video: 2D72MYTqUbE"
+video_id: "2D72MYTqUbE"
+video_url: "https://www.youtube.com/watch?v=2D72MYTqUbE"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+  - "Tutorial"
+summary: |
+  Now, this is the type of week of AI releases that I personally enjoy the most. I'm going to be demoing and sharing a bunch of different categories of generative AI that you might not have even conside...
+key_points:
+  - "have things like the first genuine voice"
+  - "first to release this OpenAI's codec."
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 2D72MYTqUbE
+
+- URL: https://www.youtube.com/watch?v=2D72MYTqUbE
+- Retrieved at: 2025-12-30T09:19:49+09:00
+
+## Text
+
+- [00:00] Now, this is the type of week of AI
+- [00:02] releases that I personally enjoy the
+- [00:04] most. I'm going to be demoing and
+- [00:05] sharing a bunch of different categories
+- [00:08] of generative AI that you might not have
+- [00:09] even considered before. This week, we
+- [00:11] have things like the first genuine voice
+- [00:13] assistant that connects to other
+- [00:15] platforms and at least attempts aiming
+- [00:17] for this golden grail of this AI
+- [00:19] assistant that just gets you and does
+- [00:21] things for you. And we have Google
+- [00:23] coming out with a clot code competitor
+- [00:26] that has been taking over the developer
+- [00:27] space over the past weeks. And then we
+- [00:29] have Chachibd rolling out some of its
+- [00:31] most powerful features that were only
+- [00:33] available to select plans to almost all
+- [00:34] paid plans this week and peculiar
+- [00:36] categories like AI video generation
+- [00:39] agents. What is all that about? All of
+- [00:41] that and more in this week's episode of
+- [00:42] AI News, the show in which me and my
+- [00:44] team round up all of the AI releases of
+- [00:46] the week. Filter for the ones that you
+- [00:47] can use and that matter in our opinion.
+- [00:49] And then here I get to present the
+- [00:51] releases to you. And this week in
+- [00:52] particular, we'll be trying a bunch of
+- [00:54] these because almost everything we cover
+- [00:55] here is available today. That's the
+- [00:57] point of the show. So, let's get into
+- [00:59] this. Starting with this only real
+- [01:02] competing model when it comes to writing
+- [01:04] code and creating apps, Google's model.
+- [01:06] And now they have their cloud code
+- [01:07] competitor, Aentic open-source AI coder
+- [01:11] that uses Gemini 2.5 Pro under the hood.
+- [01:14] So, at this point, we have a aentic
+- [01:15] coder that runs in a command line from
+- [01:17] Enthropic with Cloud Code. They were the
+- [01:19] first to release this OpenAI's codec.
+- [01:22] That's different from their codecs in
+- [01:24] chat GPT. And now we have the Gemini CLI
+- [01:26] from Google. Now there's two big
+- [01:28] differentiating factors here except of
+- [01:30] the obvious fact that that this is using
+- [01:31] the Gemini model. OpenAI is using the
+- [01:33] OpenAI models and Claude is using the
+- [01:36] Claude models. One, this can generate
+- [01:38] images and video within and VO
+- [01:41] respectively in the command line. Not
+- [01:43] the biggest deal in the world. And
+- [01:45] secondly, and that's definitely the more
+- [01:47] important point here, you can try this
+- [01:49] for free right now on launch. They're
+- [01:51] running this promotion where you can do
+- [01:52] 60 requests per minute and thousand
+- [01:54] requests per day at no cost with a free
+- [01:58] Gemini code assist license. Now that
+- [02:00] sounds like a lot and it's not bad.
+- [02:02] These agentic system eat up a bunch of
+- [02:04] requests quickly, but this is by far the
+- [02:07] best offering in terms of cost on the
+- [02:09] market. I mean, it's free and yes, you
+- [02:10] get $5 of cloth code credits if you sign
+- [02:13] up for the API for the first time, but
+- [02:14] if you're a developer and still haven't
+- [02:16] tried any of these products, it's time.
+- [02:19] This is wild. I mean, I myself am using
+- [02:21] cloud code to generate little app on a
+- [02:23] weekly basis. Now, I replace my invoice
+- [02:25] generator. I built a whole transcription
+- [02:26] app that generates SOPs, summaries, and
+- [02:28] all kinds of things that I do with
+- [02:30] transcripts. And I'm even in the process
+- [02:31] of redesigning our entire website, which
+- [02:34] will be live soon, and I'll share with
+- [02:35] you too with a tool like this. And no, I
+- [02:38] don't write any code in the process. So,
+- [02:40] how is this going to perform in the real
+- [02:41] world? Well, I think a lot of it is
+- [02:43] going to come down to how the model is
+- [02:45] performing. The reason that Chachiby's
+- [02:47] product didn't really catch on is
+- [02:49] because generally speaking, developers
+- [02:51] agree that the OpenI models are not as
+- [02:53] good at writing code as the Claude and
+- [02:56] Google models. Concretely, Sonnet and
+- [02:58] Opus 4 and the new Gemini 2.5 Pro are
+- [03:01] the go-to models for any developer that
+- [03:03] you speak to. Now, sure, there's going
+- [03:04] to be a few people who make an argument
+- [03:06] for GPD 4.1 or 03, but generally
+- [03:09] speaking, this has been the trend. And
+- [03:11] that's also the reason that if you look
+- [03:13] across social media, all you see is
+- [03:15] people using Gemini 2.5 Pro incursor clo
+- [03:17] codes to build apps. And that's why this
+- [03:19] release is exciting because it's
+- [03:21] harnessing an already capable already
+- [03:23] proven model that the market has
+- [03:24] accepted in this agentic interface that
+- [03:26] doesn't really take a lot of
+- [03:28] technological knowledge to run. Now,
+- [03:30] what I want to do next is run a simple
+- [03:32] request for both Claude Code and Gemini
+- [03:34] and compare the results. And then I
+- [03:36] think in the future I'm going to dig a
+- [03:37] bit deeper and follow up with a separate
+- [03:39] video comparing these products from the
+- [03:42] point of view of somebody using these to
+- [03:43] build things from nothing as somebody
+- [03:46] who's not a full-time developer. Okay,
+- [03:48] so I installed Gemini CLI from the
+- [03:50] GitHub repository here. It was super
+- [03:51] simple. You just have to follow these
+- [03:53] two steps and then it connects to any
+- [03:55] Google account and you get to use the
+- [03:56] free credits right away. So what we're
+- [03:58] going to do is a quick little oneshot
+- [04:00] comparison between Gemini here and
+- [04:02] Claude Code here. And we'll be using
+- [04:05] this relatively simple prompt that
+- [04:07] includes a few components that would be
+- [04:09] interesting to compare. A single HTML
+- [04:11] file pomodoro timer with 25minut work
+- [04:14] sessions and 5 minute breaks. We want
+- [04:16] start pause reset buttons and a visual
+- [04:18] progress ring that depletes as time runs
+- [04:20] out. I'll run both of these in a brand
+- [04:22] new folder. And as it works, I'll just
+- [04:24] say yes to all the suggestions. I'm
+- [04:27] really curious to see the result once
+- [04:29] this is done running. But generally
+- [04:30] speaking, Claude has this property of
+- [04:32] being super over motivated and extremely
+- [04:34] good at just building things from
+- [04:36] scratch. Whereas my experience with
+- [04:37] Gemini has mostly been that it's
+- [04:39] excellent for coding but not really made
+- [04:41] to create these expansive apps. So let
+- [04:42] us just fast forward to once both these
+- [04:44] are done and review the result. Okay, so
+- [04:46] Gemini wrote about 200 lines of code.
+- [04:48] Claude wrote about 300. Claude took
+- [04:50] around 2 minutes and Gemini was done in
+- [04:52] around 20 seconds. And here we have the
+- [04:54] two files. So let's start by reviewing
+- [04:56] the one that Gemini created. Again, this
+- [04:58] is very simple. You can see that this is
+- [05:00] the Gemini test folder. And we can just
+- [05:02] start. Okay, that works. Obviously, this
+- [05:05] is a simple app, but even here the
+- [05:06] design, this should be centered, right?
+- [05:08] That's sort of obvious, but very simple
+- [05:10] progress works. The buttons work. What
+- [05:12] about clawed? Aha, look at that. I mean,
+- [05:15] design-wise, this is what I was talking
+- [05:17] about, and this is legitimately the
+- [05:18] first result. I'm not doing multiple
+- [05:20] takes and picking the ones that fit the
+- [05:22] thesis that I kind of put up in the
+- [05:23] beginning. This is sort of what I
+- [05:25] expected. The design is better. And is
+- [05:27] it functional? We can start it. Does the
+- [05:29] progress bar countdown? It's going to be
+- [05:31] interesting here in a second. Yeah,
+- [05:32] looks like that is moving already. I can
+- [05:35] pause it. I can restart it. There's some
+- [05:37] interface change there. And I could
+- [05:39] reset it. So, as you can see, even on
+- [05:41] this super simple example, you kind of
+- [05:43] see the inherent properties of these
+- [05:44] models show up in the page that it
+- [05:46] creates. And I'll keep using this over
+- [05:48] the following days and then follow up
+- [05:49] with a report on how it performs in
+- [05:51] other scenarios. But my intuition was
+- [05:53] that kickstarting projects, that's what
+- [05:54] Claude has always been best at. And
+- [05:56] while this Gemini agent might be free,
+- [05:58] the Gemini models have been designed for
+- [06:00] this, getting things off the ground. And
+- [06:01] as we saw from the example here too, I
+- [06:03] expect them to be the best at that
+- [06:05] moving forward. Even though this is a
+- [06:06] great release that you can use for many
+- [06:08] other things. Okay, let's move on. So
+- [06:10] next to me and the team covering all of
+- [06:11] these new stories for you, I'm also
+- [06:13] excited to share that we're doing
+- [06:14] something really fun this year. We're
+- [06:15] going to go on a AI advantage team
+- [06:17] retreat just like last year. But what I
+- [06:19] realized that it comes with a bunch of
+- [06:20] issues that do need to be solved.
+- [06:22] Coordinating 12 people's itineraries
+- [06:24] from all around the world is not the
+- [06:26] simplest task out there. And as you
+- [06:28] might know by now, I always look for
+- [06:29] ways to streamline the process. And at a
+- [06:32] certain point, I just decided enough is
+- [06:33] enough. I wanted to solve the project
+- [06:35] management issue here. And I'm going to
+- [06:36] use monday.com, the sponsor of today's
+- [06:38] video, to do exactly that. And if you're
+- [06:40] not familiar, you can think of it as
+- [06:41] operating system for your work and
+- [06:43] projects. It's one platform that gives
+- [06:45] you all the tools to organize anything,
+- [06:47] including your team. So, let me show you
+- [06:49] exactly what I mean. So as you sign up,
+- [06:50] there's a quick onboarding and that will
+- [06:52] set up your workspace. And in just a few
+- [06:54] steps that helps you to set up your very
+- [06:55] first project and voila, you have your
+- [06:57] custom dashboard where you can start
+- [06:59] working right away. And as you can see,
+- [07:00] it's really easy to expand. These
+- [07:02] customizable boards really allow you to
+- [07:03] plan anything, whether it's a trip, the
+- [07:05] content for your next month, or even
+- [07:07] your entire HR department. And if I want
+- [07:09] to see this as a calendar, it's as
+- [07:10] simply as adding a new view. Maybe a
+- [07:12] canban board would be better in this
+- [07:14] case. Ah, yes. Beautiful. Okay, so now
+- [07:16] let's get to the interesting part
+- [07:17] because this platform has so many
+- [07:19] automations and AI integrations that
+- [07:21] really bring this whole experience to
+- [07:23] the next level. And I think this is the
+- [07:24] most interesting part because you have
+- [07:25] these recommendations here of things
+- [07:27] that might immediately help you. A lot
+- [07:29] of them just live within Monday. But as
+- [07:31] you scroll down, you'll see that it
+- [07:32] connects Monday to all of these external
+- [07:34] apps as you might expect it to already.
+- [07:36] So for example, when a status changes,
+- [07:38] you can send that status change directly
+- [07:40] to Slack. And all of this is no code.
+- [07:42] And what I like about apps like this is
+- [07:44] that they don't force you to use some
+- [07:46] external platform to connect it all up.
+- [07:48] You don't need to be connecting your
+- [07:49] project management. Like some of the
+- [07:50] most useful automations are the ones
+- [07:52] that you can quickly activate rather
+- [07:54] than having to watch multiple tutorials
+- [07:56] to even make them happen. And that's
+- [07:57] what this exactly does. Most of the
+- [07:59] things you'll probably need are already
+- [08:00] in here. And there's all these presets,
+- [08:02] even a whole category of various
+- [08:03] automations that use AI in the middle
+- [08:05] that you can use with the click of a
+- [08:06] button. So now that I activated this,
+- [08:08] you can see the AI automation
+- [08:09] automatically running and populating the
+- [08:11] notes with the sentiment analysis. And I
+- [08:13] just think that's so much more powerful
+- [08:15] than having to link everything up and
+- [08:16] write the prompts yourself because in
+- [08:18] practice, you just won't be doing that
+- [08:19] every time. And here you have all the
+- [08:21] presets that you can use with no
+- [08:22] technical knowledge that's required
+- [08:24] whatsoever. And then beyond that, it
+- [08:25] integrates with all the apps as you
+- [08:27] would expect like Google Drive, Gmail,
+- [08:29] and so on. And there you go. If you have
+- [08:31] a complex project that is bothering you
+- [08:32] and you get it all down in a structured
+- [08:34] form like this with automations that do
+- [08:36] a part of the work for you, you'll
+- [08:37] instantly feel better about actually
+- [08:39] completing the project and focusing on
+- [08:41] what matters, which is your contribution
+- [08:42] to it, not the management. And that's
+- [08:44] just one of many ways you could be using
+- [08:46] monday.com. If this got you interested,
+- [08:48] my viewers can try monday.com for free
+- [08:50] by going to the link below. And with
+- [08:52] that being said, let's look at the next
+- [08:53] piece of AI news that you can use. 11
+- [08:56] AI. We've seen voice assistants before,
+- [08:58] but this one is aiming for what I would
+- [09:00] call the holy grail of these AI use
+- [09:03] cases. A smart voice assistant that
+- [09:05] knows you, gets you, and just connects
+- [09:07] you to different apps. So, as you can
+- [09:08] see, this is really going for this an AI
+- [09:10] assistant that just does things for you
+- [09:12] through this voice interface. Something
+- [09:14] that a lot of people expected out of
+- [09:15] Apple a while ago already, but this is
+- [09:17] the closest thing to it that I've seen
+- [09:19] yet. And when I just log in with my
+- [09:20] Level Labs account, we can start a call
+- [09:22] and we can add integrations. So, how
+- [09:24] about I give this one integration
+- [09:25] connection to my work calendar and see
+- [09:28] how this goes. Hey, what's up? I'm
+- [09:29] curious how you're going to behave,
+- [09:31] especially with the integration. So,
+- [09:33] what can you see on my calendar? All
+- [09:34] right, I can take a peek at your
+- [09:36] calendar. By default, I'll look at your
+- [09:38] primary calendar for events in the next
+- [09:39] few days. Okay, I've checked your
+- [09:41] calendar and here's a summary of what I
+- [09:43] found for the next week. You have AIA
+- [09:45] events meeting and AIA content meeting
+- [09:48] both on June 30th from 1600 to Yeah.
+- [09:51] Yeah. No, that's exactly right. So, what
+- [09:53] about this week? Is there any meetings
+- [09:54] or any thing that I need to be aware of
+- [09:56] that happens this week? I can definitely
+- [09:58] check for you. When you say this week,
+- [10:00] are you referring to the current week
+- [10:02] starting from today or the last seven
+- [10:04] days? Yeah. Um, it's Friday between
+- [10:07] Friday and Sunday. Got it. So, you want
+- [10:09] to know what meetings you have between
+- [10:11] today, June 27th, and Sunday, June 29th.
+- [10:14] Is that right? Yes. Looks like you're
+- [10:16] all clear.
+- [10:18] Okay. I checked your calendar for any
+- [10:20] meetings between today, June 27th and
+- [10:22] Sunday, June 29th, and it looks like you
+- [10:25] are free as a bird. There aren't any
+- [10:26] entries on your calendar for those days.
+- [10:28] Is there anything else I can help you
+- [10:30] with? True. No, no, no. That's very good
+- [10:31] news. So, let's say next Wednesday.
+- [10:34] What's going on next Wednesday in my
+- [10:35] calendar? Okay, let's see what's on the
+- [10:37] schedule for next Wednesday, which would
+- [10:39] be July 2nd. I'll pull up the events for
+- [10:41] that day now.
+- [10:45] So, I have to move it every time for
+- [10:47] now. It seems you have a free Wednesday
+- [10:49] next week. I didn't find any events on
+- [10:51] July 2nd. Anything else I can check?
+- [10:53] Amazing. Yeah. Yeah, I want to try one
+- [10:54] more thing. So, what if we scheduled an
+- [10:56] event? Um, on Sunday, I want to go kite
+- [10:59] surfing at 6 p.m. because the wind is
+- [11:01] good. All right, let's get that kite
+- [11:03] surfing event on your calendar. So,
+- [11:05] that's kite surfing on Sunday, June 29th
+- [11:07] at 1800. What time should I set as the
+- [11:10] end time for this event? Uh, schedule
+- [11:12] about 3 hours. Okay. I've got an event
+- [11:14] for kite surfing on Sunday, June 29th
+- [11:16] from 1,800 to 2100. What should I call
+- [11:19] this event? I don't know. Up to you.
+- [11:21] I'll call it Kite Surfing Adventure.
+- [11:23] I'll create the event now using your
+- [11:25] current time zone. All right. Kite
+- [11:27] Surfing Adventure is now on your
+- [11:29] calendar for Sunday, June 29th from
+- [11:31] 18800 to 2100. The event's been created.
+- [11:35] Is there anything else I can help you
+- [11:36] with at the moment? No, that's it for
+- [11:38] now. Wow. Okay, so that actually worked.
+- [11:41] This did appear on my calendar on Sunday
+- [11:42] at 6 p.m. And I got to say this was a
+- [11:44] better experience than some of the tools
+- [11:46] that I'm used to. For example, in chat,
+- [11:48] if you do this, even if you set up some
+- [11:50] of the connections, the voice assistant
+- [11:51] doesn't have this level of autonomy. The
+- [11:53] only annoying thing was the tool
+- [11:54] approval, but it said that in the
+- [11:56] settings I could turn that off. So yeah,
+- [11:58] right now it's on always ask. I could
+- [12:00] just go to no approval and then it would
+- [12:02] be smooth. God damn. I'm actually kind
+- [12:03] of impressed. Also, our team tested this
+- [12:05] with a few more connectors and their
+- [12:07] experience was identical with this. They
+- [12:10] reported that it sort of just worked.
+- [12:12] They didn't really encounter any errors.
+- [12:14] Now, 11 Labs does state that this is an
+- [12:16] experimental thing, but damn, with all
+- [12:17] of these integrations plus custom MCP
+- [12:20] servers and 11 Labs being
+- [12:22] state-of-the-art in terms of voice
+- [12:23] models, I mean, we featured a lot of
+- [12:25] them over the past weeks. They're really
+- [12:26] fantastic with interruption patterns,
+- [12:29] and of course, they sound human. They
+- [12:30] always have. Yeah, this is an
+- [12:32] interesting development to say the
+- [12:33] least. I think this future of you just
+- [12:35] waking up and sort of interacting with
+- [12:37] an AI assistant to manage your calendar,
+- [12:39] manage your emails, manage your messages
+- [12:42] is closer than most people might
+- [12:44] realize. And if you want to give this a
+- [12:45] shot yourself, then this is currently
+- [12:47] completely free to try. Impressive.
+- [12:49] Let's see what's next. So, next up, I
+- [12:51] want to talk about chat GPT record, a
+- [12:53] feature that came out a few weeks ago,
+- [12:55] but now has widely rolled out to most
+- [12:57] paid plans. And what this allows you to
+- [12:59] do is essentially record meetings and
+- [13:01] conversations with this built-in tool.
+- [13:03] When you have the desktop app open on a
+- [13:05] Mac, you can just click this record
+- [13:07] button. And yeah, now it's transcribing
+- [13:09] the entire thing. Now, I already did
+- [13:10] this in preparation for this segment.
+- [13:13] And what I did is record the research
+- [13:15] meeting that me and my team hold when we
+- [13:17] prepare for this video, looking at all
+- [13:19] the tools, discussing them, and deciding
+- [13:21] on what we want to test and how we do
+- [13:23] that. Now, I was particularly curious to
+- [13:25] see how OpenAI would implement something
+- [13:27] that we've seen across many apps now,
+- [13:29] which is this meeting transcription
+- [13:31] function. And particularly I was
+- [13:32] interested in how they would implement
+- [13:33] this in terms of the results. And what
+- [13:35] is actually different here from a lot of
+- [13:37] the competition is that they add these
+- [13:39] open questions. Now I always watch this
+- [13:41] closely because meeting analyzers are
+- [13:43] one of my personal favorite use cases.
+- [13:45] And one thing that at this point I've
+- [13:46] actually helped multiple companies
+- [13:48] implement intelligently because you can
+- [13:50] just do so much there. You can make him
+- [13:52] align with your road map. You can make
+- [13:54] sure no action item gets forgotten and
+- [13:56] so much more. And what's unconventional
+- [13:58] about OpenAI's approach here is just
+- [14:00] these open questions. This did surprise
+- [14:01] me a little bit. So basically it
+- [14:03] highlights different points in the
+- [14:05] conversation where a question was not
+- [14:07] answered and I really like that. So one
+- [14:09] of the questions was even relating to
+- [14:10] this chat record feature. Will it be
+- [14:12] available to plus users? Eventually I
+- [14:14] think so. As of right now, no it isn't.
+- [14:17] First it was only teams plan and now
+- [14:18] also pro edu and enterprise have this.
+- [14:20] But I just wanted to highlight this
+- [14:22] because I thought this was interesting.
+- [14:23] Plus, this is a fantastic backup for you
+- [14:26] to record your meetings because that can
+- [14:28] be such a valuable thing to have,
+- [14:30] especially if you're working with
+- [14:31] clients. It essentially gives you
+- [14:33] infinite memory and the attention of a
+- [14:35] dedicated assistant just listening for
+- [14:38] things that the participants might not
+- [14:40] think of. And I got to say, I'm just
+- [14:42] really glad I have this in chat GPT2
+- [14:44] because yes, we record each one of our
+- [14:46] team meetings and have an automation
+- [14:48] that actually processes that and puts it
+- [14:50] into notion database. And we do the same
+- [14:51] thing for each one of our community
+- [14:53] events now, too. We record them. We
+- [14:55] transcribe them. We run a custom set of
+- [14:56] prompts on them to extract potential
+- [14:58] ideas for future courses and workflow
+- [15:00] guides to create for the community,
+- [15:02] inspired by the community. It's genius.
+- [15:06] But I find myself on many calls where
+- [15:08] all of a sudden I'm in a Microsoft Teams
+- [15:10] call or I'm on Zoom or I'm in a Slack
+- [15:12] huddle. And I didn't pay for the
+- [15:14] transcription features in each one of
+- [15:15] those. But I do have chat GPT which can
+- [15:18] now act as a backup whenever I'm not in
+- [15:20] my company's Google meets. Yeah. So I
+- [15:22] wanted to take the time to highlight
+- [15:24] that this is here and it's something
+- [15:25] that I absolutely am adding to my lineup
+- [15:28] of apps that I use on a daily basis. And
+- [15:30] maybe some of the comments I made here
+- [15:31] will inspire you too on how you could be
+- [15:33] using meeting transcriptions to your
+- [15:35] advantage especially within
+- [15:37] organizations. And hey, if you happen to
+- [15:38] need help with implementing something
+- [15:40] like this, just shoot me email and we
+- [15:41] can talk. But yeah, transcripts, one of
+- [15:43] the most powerful pieces of context in
+- [15:45] the world. If you're enjoying this
+- [15:47] video, don't forget to hit that like
+- [15:48] button. It really helps the channel out
+- [15:50] and I truly appreciate it. Now, let's
+- [15:52] move on to the next piece of AI news
+- [15:53] that you can use. So, this next one is
+- [15:55] something I actually cannot wait to try.
+- [15:58] We've seen variations of this, but
+- [16:00] Miniaax is something they call a video
+- [16:02] agent. And while I think this is one of
+- [16:04] the cases where the term agent is a
+- [16:06] stretch, it essentially allows you to
+- [16:08] take these viral AI presets and
+- [16:11] customize them. And I've seen versions
+- [16:13] of this done before, but just looking at
+- [16:15] some of the presets they have here, this
+- [16:17] looks like my favorite yet, but I have
+- [16:19] yet to try it. So, we'll do that
+- [16:20] together now. But, as you can see,
+- [16:22] there's just these various videos that
+- [16:23] have been going viral over the past
+- [16:25] weeks, like these cats doing Olympic
+- [16:26] sports. I thought this one was funny.
+- [16:28] Local dishes destroying the respective
+- [16:30] cities. Or how about uploading a picture
+- [16:32] of your dog and seeing him prepare a
+- [16:34] burger at McDonald's? That's new. Okay,
+- [16:36] let's try some. How about starting with
+- [16:38] this little preset of a 3D Polaroid? So,
+- [16:40] all we need in theory is a image, which
+- [16:43] There you go. This headshot will do. And
+- [16:44] I just had to purchase credits for $10
+- [16:46] to even try this. So, this does not work
+- [16:48] on the free plan, but let's see if
+- [16:50] that's even worth it. Ah, so here's the
+- [16:51] gentic part, huh? I guess it's thinking
+- [16:53] and planning, but then it just moves to
+- [16:55] generation. Ah, and I see what's going
+- [16:57] on here. So, usually you would have to
+- [16:58] do this process manually. You create an
+- [17:00] image, edit that image, and then turn
+- [17:02] that into a video. Here, this agent
+- [17:05] essentially strings these multiple steps
+- [17:06] together for you. And looking at the
+- [17:08] credits, it looks like one of these
+- [17:10] generations will cost you about a
+- [17:11] dollar. So, definitely not the cheapest
+- [17:13] thing you can do. Let's see if it's
+- [17:14] worth it. Okay, that's it. That kind of
+- [17:16] looks like me. I mean, look at that. It
+- [17:18] created multiple videos. It edited the
+- [17:22] videos. That's pretty amazing. Okay, how
+- [17:24] many credits did this end up costing?
+- [17:26] Around 130. $10 got me a,000 credits.
+- [17:29] Honestly, that's pretty good. And I can
+- [17:31] even get it without the watermark. I'll
+- [17:32] download this right now and share this
+- [17:34] with my team. So, we can get this up on
+- [17:35] other social media channels, especially
+- [17:37] on LinkedIn. I can see little
+- [17:38] personalized fun things like this
+- [17:40] potentially doing well. So, yeah, if you
+- [17:42] ever wanted to recreate any one of these
+- [17:44] viral moments, I think Hyu did this
+- [17:46] really well, but it does cost some
+- [17:48] money, which in case of a product shot
+- [17:49] like this might even be worth the money.
+- [17:51] And the McDonald's dog might make a
+- [17:53] fantastic gift to a loved one. All
+- [17:54] right, let's look at what's next. Okay,
+- [17:56] in this week's quick hits, there's a lot
+- [17:58] of small but very interesting stories.
+- [17:59] Starting with MidJourney bolting on the
+- [18:02] ability to export gifts from their
+- [18:05] videos. I'm actually surprised that I
+- [18:07] haven't seen more of this in the AI
+- [18:08] space. We see all these image and video
+- [18:10] generators, but GIFs are such a thankful
+- [18:12] format. If you have a website, they take
+- [18:13] almost no time to load. You can add them
+- [18:15] to emails. They're amazing in messaging.
+- [18:17] They're great way to express humor and
+- [18:19] messaging. So, as we talked about last
+- [18:21] week, in the click of a button, you get
+- [18:22] to turn any midjourney image into a
+- [18:24] video. And with another click, you turn
+- [18:26] that video into a GIF. Super smooth and
+- [18:28] out now for everybody. And talking about
+- [18:30] Mourney video, we team member Dominique
+- [18:32] spin up a quick spec ad in about 30
+- [18:34] minutes, including the editing of this.
+- [18:36] So check this out.
+- [18:43] [Music]
+- [19:02] I mean, no way that it's this quick. He
+- [19:04] shared the details with me. He said he
+- [19:05] only used five prompts to create the
+- [19:07] images and then six video prompts and
+- [19:08] then just threw it into Cap Cut, added
+- [19:10] music from Suno and some preset titles
+- [19:13] and yeah, there you go. Quick product
+- [19:15] ad, no problem. Really impressive in my
+- [19:17] opinion. One minor but very interesting
+- [19:19] development this week has been that
+- [19:20] Enthropic upgraded their artifacts. Now
+- [19:23] the artifacts can actually use claw
+- [19:26] inside of the artifacts. If you're not
+- [19:27] familiar, artifacts allow you to build
+- [19:28] these little apps just in the chat
+- [19:30] interface. And not just that, you can
+- [19:32] build little apps, dashboards, websites,
+- [19:34] but you can also host them and share
+- [19:35] them with anybody even if they don't
+- [19:37] have an account. Now these apps and
+- [19:38] dashboards can actually include Claude.
+- [19:41] So you can build a little website with
+- [19:42] AI that uses AI and then share it with
+- [19:44] anybody. That's a first. Usually you
+- [19:46] have to link up your account and pay for
+- [19:47] that. I think this is a really cool
+- [19:49] release. It has literally never been
+- [19:50] easier to build an app with AI in it.
+- [19:52] And another thing from Enthropic which I
+- [19:54] really liked is that if you want to use
+- [19:56] MCPS inside of Claude Code Desktop. Now
+- [19:59] if you're confused by that sentence, let
+- [20:01] me explain. So Claude has a desktop app
+- [20:03] just like the chatbt app that we
+- [20:04] featured earlier in this video. And you
+- [20:06] can add these MCP servers to it and they
+- [20:09] can do specific things like move files
+- [20:10] around, connect to databases, connect to
+- [20:12] your Google calendar. At this point,
+- [20:14] they connect to anything, but
+- [20:15] implementing them has been a bit
+- [20:16] cumbersome. You needed to update these
+- [20:18] lines in a specific document. Now, you
+- [20:20] can just download a file, open it with
+- [20:22] claw desktop, and boom, the MCP server
+- [20:24] is installed. So, if you still haven't
+- [20:27] tried MCPS, it has never been easier.
+- [20:29] They've never been more powerful. Give
+- [20:30] it a shot. And in case you're wondering
+- [20:32] what MCP to try, well, I have a
+- [20:34] fantastic little thread for you where
+- [20:36] Jeff here asked best MCP you're actually
+- [20:38] using at least one times per day. And
+- [20:39] then people went ahead and shared their
+- [20:41] favorite MCPS. This one adds shorter
+- [20:43] memory. This adds any developer
+- [20:45] documentation to your chat super
+- [20:47] quickly. There's ones that connect to
+- [20:48] your WhatsApp, to your Instagram DMs,
+- [20:50] and more. You can just check out this
+- [20:51] thread for inspiration and links. And
+- [20:53] then this is not something you can
+- [20:54] really use, but I did want to highlight
+- [20:56] this, and that's an entropic research on
+- [20:58] AI's blackmailing individuals. You might
+- [21:00] have heard this story a few weeks ago
+- [21:01] and they basically wrote this super long
+- [21:03] article in which they tested models from
+- [21:05] various providers and basically created
+- [21:07] boundary conditions in which the LLM was
+- [21:09] forced into a corner and basically there
+- [21:11] was no other choice left than to let's
+- [21:13] say contact the authorities because of
+- [21:15] the users's illegal behavior. This is
+- [21:17] something that people discovered with
+- [21:18] the anthropic model and it went quite
+- [21:20] viral. But they simulated the same
+- [21:22] scenarios with all kinds of models and
+- [21:24] you can actually see that the Gemini
+- [21:25] models for example along with Opus 4
+- [21:28] were the ones who revolted the most.
+- [21:30] Actually Gemini was consistently the
+- [21:32] model that was the first to leak
+- [21:34] sensitive documents or contact the
+- [21:36] authorities if it disagreed with the
+- [21:37] user's behavior. And this is just a
+- [21:39] super interesting article with all the
+- [21:41] details in there. So, if you want to
+- [21:42] learn more about this behavior and how
+- [21:43] they actually force the models into a
+- [21:45] corner, well, all of this is out there
+- [21:46] and they even open source their work on
+- [21:48] this so other people can replicate it.
+- [21:50] Really interesting stuff. And that's
+- [21:51] pretty much everything we had for today.
+- [21:53] As I mentioned, a lot of practical apps
+- [21:55] that you can try right now and I hope
+- [21:56] you found some inspiration here. And
+- [21:58] with that being said, that's really
+- [21:59] everything I have for you this week. And
+- [22:01] I hope you have a wonderful

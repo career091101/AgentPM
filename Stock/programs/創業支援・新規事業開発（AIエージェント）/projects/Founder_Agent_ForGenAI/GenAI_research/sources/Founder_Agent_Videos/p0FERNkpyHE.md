@@ -1,0 +1,1137 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=p0FERNkpyHE"
+video_id: "p0FERNkpyHE"
+video_url: "https://www.youtube.com/watch?v=p0FERNkpyHE"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["machine_learning", "entrepreneurship", "startup", "PMF", "AI", "investment", "funding", "product_development"]
+topics: ["プロダクト開発", "起業", "資金調達", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=p0FERNkpyHE
+  - Retrieved at: 2025-12-30T16:19:01+09:00
+  - [00:00] Over the last couple of months, I have
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=p0FERNkpyHE"
+  - "- Retrieved at: 2025-12-30T16:19:01+09:00"
+  - "- [00:00] Over the last couple of months, I have"
+  - "- [00:01] been diving deep into basically all of"
+  - "- [00:04] the rag strategies under the sun. I just"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: p0FERNkpyHE
+
+- URL: https://www.youtube.com/watch?v=p0FERNkpyHE
+- Retrieved at: 2025-12-30T16:19:01+09:00
+
+## Text
+
+- [00:00] Over the last couple of months, I have
+- [00:01] been diving deep into basically all of
+- [00:04] the rag strategies under the sun. I just
+- [00:06] want to find the best way possible to
+- [00:08] give my AI agents the ability to search
+- [00:11] through my knowledge. And the two
+- [00:13] strategies that I keep going back to
+- [00:15] time and time again are agentic rag and
+- [00:18] knowledge graphs. That's why I've been
+- [00:20] covering them so much on my channel
+- [00:21] recently. And the best part is it's
+- [00:24] actually very easy to combine the two
+- [00:26] strategies together to create some
+- [00:28] extremely powerful knowledge retrieval
+- [00:30] systems for our AI agents. And that, my
+- [00:33] friend, is what we're going to be diving
+- [00:34] into today. So, buckle up because I've
+- [00:37] been pouring a lot of time into building
+- [00:39] the perfect neatly packaged agent
+- [00:42] template, showing you the power of using
+- [00:44] both vector databases and knowledge
+- [00:46] graphs for rag. So, in this video, we'll
+- [00:49] see how it works. We're going to kick
+- [00:50] things off with a demo right away. Then
+- [00:52] we'll dive into why Agentic Dragon
+- [00:54] knowledge graphs when it applies. I'll
+- [00:56] show you how the agent works and I'll
+- [00:58] even show you how I use cloud code to
+- [01:00] help me build this template for you. So
+- [01:02] with that, let's go ahead and dive right
+- [01:04] into it. So to show you the power of
+- [01:06] this agentic system very quickly, I have
+- [01:08] a demonstration here in the command
+- [01:10] line. So I built this simple command
+- [01:12] line interface talking to my agent that
+- [01:14] is hosted through an API endpoint. And
+- [01:16] this agentic rag agent has access to
+- [01:19] both a vector database and a knowledge
+- [01:22] graph through agent tools. So it can
+- [01:24] pick and choose how it explores the
+- [01:26] knowledge that I've ingested in my
+- [01:28] knowledge base. And I can show you what
+- [01:30] this looks like actually. So first of
+- [01:31] all I'm using Postgress for my vector
+- [01:34] database taking advantage of the PG
+- [01:36] vector extension. And so I'm using the
+- [01:38] neon platform for Postgress. Now this is
+- [01:41] a SQL database. It's a lot more than
+- [01:43] just a vector database, but I can use my
+- [01:45] PG vector extensions. You can see that I
+- [01:47] have the embeddings here for all of my
+- [01:49] document chunks like you would see with
+- [01:51] very traditional rag. And just for a
+- [01:53] super simple demonstration, I have a
+- [01:56] single document in my knowledge base.
+- [01:58] Right now, it's all about AI initiatives
+- [02:00] for big tech companies like OpenAI and
+- [02:02] Microsoft. And so I have this document
+- [02:05] chunked up and embedded and stored in my
+- [02:07] knowledge base in Neon. But then I also
+- [02:10] have it in my knowledge graph. So I'm
+- [02:12] representing information in a different
+- [02:14] way very relationally here to give the
+- [02:16] agent the ability to explore the
+- [02:18] knowledge in a different way. That is
+- [02:20] what agentic rag is all about. And so I
+- [02:22] can zoom in on this a little bit and we
+- [02:23] can see a couple of examples like Amazon
+- [02:26] relates to anthropic because Amazon has
+- [02:29] invested into anthropic. If you didn't
+- [02:31] know, all of the anthropic
+- [02:33] infrastructure runs on AWS. And I can go
+- [02:35] down, we can see some other examples
+- [02:36] here, like maybe how Microsoft and
+- [02:39] OpenAI are partnered together because
+- [02:41] OpenAI, it solely uses Azure for hosting
+- [02:44] OpenAI models. And so we can kind of see
+- [02:46] how these companies are coupled
+- [02:48] together. So, this is a really good
+- [02:49] example of when we'd want to use both a
+- [02:51] vector database and a knowledge graph
+- [02:53] because when we're thinking about AI
+- [02:55] initiatives for big companies, we want
+- [02:57] to look at how companies are doing
+- [02:59] things together like Amazon and
+- [03:01] Enthropic and OpenAI and Microsoft, but
+- [03:03] then also if we want to just look up
+- [03:05] individual information on specific
+- [03:07] companies, maybe it's better to go to
+- [03:09] the vector database. And this is the
+- [03:10] kind of reasoning that we want to allow
+- [03:12] our agent to perform as it is answering
+- [03:15] our questions. That is all available to
+- [03:17] it now. So we can ask a question like
+- [03:19] for example what are the AI initiatives
+- [03:22] for Google and this under the hood is
+- [03:24] going to search the vector database. It
+- [03:26] doesn't need to do the knowledge graph
+- [03:28] in this case and we'll actually see this
+- [03:29] here. I say the specific tools that the
+- [03:32] agent used. So in this case it just did
+- [03:34] a simple vector search querying for the
+- [03:36] Google AI initiatives. And here is our
+- [03:39] answer. This is looking really nice.
+- [03:40] Then for another example here I can ask
+- [03:42] a different kind of question seeing how
+- [03:44] two companies relate to each other. the
+- [03:46] kind of thing that would definitely call
+- [03:48] for a query to our knowledge graph. So,
+- [03:50] for example, I could say, how are OpenAI
+- [03:52] and Microsoft related? Kind of a silly
+- [03:55] question, but I just wanted to
+- [03:56] explicitly call out something that would
+- [03:57] cause it to search the knowledge graph.
+- [03:59] And so, this time it'll do that. There
+- [04:00] we go. We use the graph search with the
+- [04:02] query OpenAI Microsoft relationship
+- [04:05] instead of going to our vector database.
+- [04:07] And we got a good answer talking about
+- [04:09] Azure, how it's the sole provider for
+- [04:11] OpenAI models, just like we saw within
+- [04:13] our graph visualization in the Neo4j
+- [04:16] dashboard. And then just for one last
+- [04:17] example here, I can ask a kind of
+- [04:20] question that I would want to use both
+- [04:22] the vector database and the knowledge
+- [04:24] graph and then just see what it comes up
+- [04:25] with. So I could say like what are the
+- [04:27] initiatives for Microsoft? How does that
+- [04:31] relate to anthropic? And then I can say
+- [04:34] use both search types. And so I'm just
+- [04:37] explicitly calling it out here, but what
+- [04:39] you can do is in the system prompt for
+- [04:42] your agent, and we'll dive into this in
+- [04:43] a little bit. That's where you can be
+- [04:45] very clear when you'd want to use the
+- [04:47] different search strategies based on the
+- [04:49] specific data that you have in your
+- [04:51] knowledge base. And so there we go. We
+- [04:52] use both the vector search and the graph
+- [04:55] search. And so first, we are looking for
+- [04:57] just Microsoft AI initiatives. Once we
+- [05:00] have that information, we hone in more
+- [05:02] by doing a comparison between Microsoft
+- [05:04] and Anthropic, seeing maybe how their
+- [05:06] strategies relate. I'm not totally sure
+- [05:08] exactly. It's just kind of a example
+- [05:10] that I pulled out of my butt, but yeah,
+- [05:11] I just wanted to show you how we can
+- [05:13] watch it use these different strategies
+- [05:14] and I set up this CLI so that we can see
+- [05:17] the different tools that it's using in
+- [05:18] real time. This is all a part of the
+- [05:20] template that I have for you. And by the
+- [05:22] way, if you are curious, the tech stack
+- [05:24] that I use for building this knowledger
+- [05:26] graph agentic rag agent, I have
+- [05:28] everything listed at the top of the
+- [05:30] readme. These are all libraries and
+- [05:32] tools that I absolutely adore and I
+- [05:34] cover all these on my channel quite a
+- [05:36] bit. And then also in the Dynamis
+- [05:38] community. So podantic AI for my AI
+- [05:40] agent framework. That's really the core
+- [05:43] of this agent is podantic AI graffiti
+- [05:46] for our knowledger graph library working
+- [05:48] alongside Neo4j which is the underlying
+- [05:51] knowledge graph engine that's the user
+- [05:52] interface that we saw earlier with all
+- [05:54] of the nodes we got Postgress with the
+- [05:57] PG vector extension to essentially turn
+- [05:59] a SQL database into what can act as a
+- [06:02] vector database we have fast API for
+- [06:05] building our agent API in Python and
+- [06:07] then finally the AI coding assistant
+- [06:09] that I used to help me build This entire
+- [06:12] agent is claude code which is an
+- [06:14] absolute beast of an AI coding
+- [06:16] assistant. And you can also see a couple
+- [06:19] of files that I have in the repo here to
+- [06:21] give you a glimpse into how I was
+- [06:22] working alongside Claude code. And
+- [06:25] towards the end of the video, I will
+- [06:26] dive more into how I use cloud code to
+- [06:28] build this. So definitely stick around
+- [06:30] for that as well. So we will dive into
+- [06:32] the agent template that I have for you
+- [06:34] in a little bit, how you can get it up
+- [06:36] and running yourself as well. But before
+- [06:38] we do that, I want to dive more into a
+- [06:40] gentic rag with you. Hopefully through
+- [06:42] that demonstration, you already have a
+- [06:44] sense for how it works and why it's so
+- [06:46] powerful. But I still want to talk about
+- [06:48] how rag has evolved to this point and
+- [06:50] also how knowledge graphs play really
+- [06:52] well into this. Here we have an article
+- [06:54] from Weevate, which I've shown on my
+- [06:56] channel before because I've talked about
+- [06:58] aentic rag before. I'll link to this in
+- [07:00] the description of the video. They talk
+- [07:02] about traditional rag versus a gentic
+- [07:04] rag, making a very clear comparison. And
+- [07:06] I appreciate this article a lot and
+- [07:08] there are two main diagrams that I want
+- [07:10] to cover here. So the first one is what
+- [07:12] is called vanilla rag. Some people call
+- [07:14] it naive rag, classic rag. There's a lot
+- [07:17] of different names for it, but
+- [07:18] essentially this is a very simple
+- [07:19] process where you take your documents,
+- [07:22] you split them into bite-sized chunks
+- [07:24] for a large language model, and then you
+- [07:26] use what is called an embedding model to
+- [07:27] create the vector representation of all
+- [07:30] of your information. And then you store
+- [07:32] that in a vector database. Like in our
+- [07:34] case, we're using Postgress with the PG
+- [07:36] vector extension. So we can handle
+- [07:38] vectors, but this could also be quadrant
+- [07:40] or pine cone. It could be weave. There
+- [07:43] are a lot of different options for a
+- [07:44] vector database. And then what happens
+- [07:46] is when a user query comes into our AI
+- [07:48] agent, we feed that through the
+- [07:50] embedding model as well. So we can do a
+- [07:52] match in our vector database. Basically
+- [07:54] just retrieving the document chunks that
+- [07:57] are the most similar to the user's
+- [07:59] question. And then we feed that in as
+- [08:01] additional context to our AI agent. So
+- [08:04] it becomes a part of the prompt to our
+- [08:06] large language model. So it has that
+- [08:08] additional information to answer the
+- [08:10] user's question giving that final
+- [08:12] response that is augmented by this extra
+- [08:14] context. That's why it's called
+- [08:16] retrieval augmented generation. Now this
+- [08:18] seems all fine and dandy, but the reason
+- [08:20] why naive rag is almost never enough is
+- [08:23] because it is extremely inflexible. Take
+- [08:26] a look at the data flow here. The user
+- [08:28] query comes in, we embed it, we get the
+- [08:31] relevant context from the vector
+- [08:32] database, and then we feed that into the
+- [08:34] large language bottle. And now our agent
+- [08:36] has to use that context, whether it
+- [08:38] likes it or not, to answer the user's
+- [08:40] question. And that is bad because what
+- [08:42] if the agent wants to refine its search
+- [08:44] or do a deeper dive? What if it wants to
+- [08:47] think more about how it explores the
+- [08:49] knowledge? If we have something like
+- [08:50] multiple knowledge sources, it doesn't
+- [08:52] have the option to do any of that. It is
+- [08:55] extremely inflexible. And so that is
+- [08:57] where a gentic rag comes in. This is the
+- [08:59] second diagram from the weave article. A
+- [09:02] gentic rag is all about giving the agent
+- [09:05] the ability to reason about how it
+- [09:07] explores the knowledge base instead of
+- [09:09] always force-feeding that context as
+- [09:11] kind of a pre-processing step. And so we
+- [09:14] are able to define our queries like the
+- [09:16] agent can actually think about how it
+- [09:17] would formulate a query for rag. It can
+- [09:19] explore different vector databases for
+- [09:22] example. We can have other tools like
+- [09:24] web search to supplement what we get
+- [09:26] from our knowledge base. There's so much
+- [09:28] flexibility here and a lot of different
+- [09:29] ways that we can define an agentic rag
+- [09:31] system like what we are doing in our
+- [09:33] case with knowledge graphs is instead of
+- [09:35] having two different vector databases to
+- [09:38] compartmentalize our data. We're storing
+- [09:40] the same data in a vector database and
+- [09:43] then also in a knowledge graph
+- [09:44] representing it very differently. So the
+- [09:47] agent can reason to itself like, "Oh,
+- [09:49] this is a question where I should just
+- [09:51] do a lookup in the vector database just
+- [09:53] to find information on a single company
+- [09:55] like Google for example, like we saw
+- [09:57] when we were doing the demo earlier. But
+- [09:59] then if we want a more relational lookup
+- [10:01] like the user is asking about Microsoft
+- [10:03] and OpenAI, well then we want to go and
+- [10:06] explore a knowledge graph. We want to
+- [10:07] see how our entities and relationships
+- [10:09] are set up to really get the best answer
+- [10:11] for the user." And we're able to do that
+- [10:13] with a knowledge graph and with a gentic
+- [10:15] rag. Again, just giving our agent the
+- [10:17] ability to reason about how it explores
+- [10:19] our knowledge. It is such a powerful
+- [10:21] thing. So, that is what we've got set up
+- [10:23] here with both our vector database and
+- [10:26] our knowledge graph. Now, we can dive
+- [10:28] into getting this template set up. I'll
+- [10:29] show you how to get everything up and
+- [10:30] running yourself. Get some documents in
+- [10:33] our knowledge graph and vector database.
+- [10:34] It's actually pretty straightforward.
+- [10:35] So, let's dive into that. So, here is
+- [10:37] the agentic rag with knowledger graph
+- [10:40] agent that I'm super excited to bring to
+- [10:42] you right now. Trust me, I've been
+- [10:44] pouring a lot of time into building
+- [10:46] this. So, right now, I'll get you up and
+- [10:48] running with it super easily. So, you'll
+- [10:50] have the exact same agent and CLI set up
+- [10:52] that you saw in the demo earlier. So,
+- [10:54] I'll have a link to this GitHub repo in
+- [10:56] the description. You can follow along
+- [10:58] with this readme there to get it set up.
+- [11:00] Otherwise, I will walk you through it
+- [11:01] right now. It's pretty easy to get
+- [11:02] everything up and running. And so, as
+- [11:04] far as prerequisites go, what you have
+- [11:06] to have installed already, you just need
+- [11:08] Python. You need a Postgress database
+- [11:10] like we're using Neon in this case.
+- [11:13] You'll need a Neo4j database and there
+- [11:15] are a couple of options we have for that
+- [11:17] I'll cover in a second. And then you
+- [11:18] will also need your LLM provider API
+- [11:21] key. This agent is set up so you can use
+- [11:23] different OpenAI API compatible
+- [11:26] providers like OpenAI Olama for local
+- [11:29] LLMs. You can have this entire thing
+- [11:30] running entirely locally and you could
+- [11:33] also use another one like Gemini. So a
+- [11:35] lot of different options that I have for
+- [11:36] you there. So the first thing that you
+- [11:38] want to do, and I've already got this
+- [11:39] taken care of, so I'll just call these
+- [11:41] commands really quickly, is you in a
+- [11:43] terminal want to create a virtual
+- [11:45] environment like this, and then install
+- [11:47] all of your dependencies with pip. Next
+- [11:49] up, we want to get everything set up in
+- [11:51] our SQL database. So it is ready to act
+- [11:53] as our vector storage. And so we will be
+- [11:56] using Postgress, which is a SQL
+- [11:58] database, using the PG vector extension.
+- [12:01] So it can act as a vector database. I
+- [12:03] want to make that very clear. And so the
+- [12:05] way that you can get all of the SQL to
+- [12:07] run is you just have to go into the SQL
+- [12:09] folder and then I have a single file
+- [12:11] here where you can copy everything that
+- [12:13] you need. I just have a couple of
+- [12:15] caveats that I mention here. It's really
+- [12:16] important. If you're using a different
+- [12:18] embedding model than the default one
+- [12:20] that I'm using, which is text embed 3
+- [12:22] small from OpenAI, then you just have to
+- [12:24] make sure that wherever I reference the
+- [12:26] vector dimensions like 1536 right here,
+- [12:30] there are two other places. you just
+- [12:32] want to update that to whatever the
+- [12:33] dimensions is for your embedding model
+- [12:35] if you're using something else like
+- [12:36] Olama. And then the other quick caveat
+- [12:39] is that this is going to destroy your
+- [12:41] tables and recreate everything. And so I
+- [12:43] would recommend doing this in a new
+- [12:45] project like what I'm doing in Neon. I
+- [12:47] just have a new project created for this
+- [12:49] knowledge graph and a gentic rag agent.
+- [12:51] So go ahead and copy all of this SQL and
+- [12:53] then you can head on over to a Postgress
+- [12:55] database. Like in my case I am using
+- [12:57] Neon. And so you can just go to neon.te.
+- [13:00] They have a super generous free tier to
+- [13:02] get started with this, which is why I'd
+- [13:04] recommend using this as a Postgress
+- [13:06] platform. It's also really cool. Fun
+- [13:08] fact, one of the founders of Neon,
+- [13:10] Highkey, he's been actively contributing
+- [13:13] to Postgress because it is an open-
+- [13:15] source platform for over 20 years. So,
+- [13:18] they know what they're doing here with
+- [13:19] Neon. Super easy to get started. Just go
+- [13:21] ahead and create a project for free. And
+- [13:24] then you can go to the SQL editor tab
+- [13:26] and then just go ahead and paste in with
+- [13:28] controlV all the SQL that you copied
+- [13:31] from that file that we have in our IDE.
+- [13:33] And I'm actually going to do this with
+- [13:34] you here. So I'm going to run this and
+- [13:37] I'm going to have it recreate
+- [13:38] everything. And so I have all these
+- [13:40] warnings here, which is all good. You
+- [13:41] can ignore these. But it has dropped
+- [13:43] everything and recreated it all. So if I
+- [13:46] go back to my tables, I showed you
+- [13:47] earlier that I had some data, but now
+- [13:49] everything is empty because I'm going to
+- [13:51] walk you through setting up our
+- [13:53] knowledge base again. So that is
+- [13:55] everything for our SQL. Now we can move
+- [13:57] on to setting up our Neo4j. So there are
+- [14:01] two different ways for you to get Neo4j
+- [14:03] up and running that I would recommend.
+- [14:05] I'm not going to cover this in detail
+- [14:07] right now, especially because for option
+- [14:09] A, I already have covered this on my
+- [14:11] channel. And speaking of option A, that
+- [14:13] is using my local AI package. So I've
+- [14:16] curated a bunch of free-touse and
+- [14:18] open-source software together in a neat
+- [14:21] package for you to easily deploy to your
+- [14:23] local machine. And Neo4j, our knowledge
+- [14:26] graph engine, is one of those free and
+- [14:28] open-source services. And so I will link
+- [14:30] to my local AI master class right here
+- [14:33] specifically for the timestamp for
+- [14:34] setting up this package if you want to
+- [14:36] have Neo4j up and running through that.
+- [14:39] And then as a part of setting up your
+- [14:40] environment variables for that package,
+- [14:42] you can grab the username and password.
+- [14:44] And we'll set that up in this project in
+- [14:46] a little bit. And then the other option
+- [14:48] very simply is just to install Neo4j
+- [14:51] desktop following this link. It's very
+- [14:53] easy to get this up and running. And
+- [14:54] then you can get the connection details
+- [14:56] from the dashboard. So either way,
+- [14:58] you'll have Neo4j up and running. You'll
+- [15:00] get your username and password which
+- [15:02] you'll set in thev along with all of our
+- [15:05] other configuration. So we can dive into
+- [15:06] that now. So go ahead and make a copy of
+- [15:09] the enenv.example file and rename it to
+- [15:12] env. I'll just walk through all these
+- [15:14] values very quickly here. So the first
+- [15:17] thing is we need to set the database URL
+- [15:19] for Postgress. Now the way that you get
+- [15:21] this connection string is going to
+- [15:23] change depending on your platform, but
+- [15:25] most of the time they make it really
+- [15:27] easy for you. Specifically for Neon
+- [15:29] since that's what we're using right now.
+- [15:31] When you go to the dashboard tab for
+- [15:33] your project, you can just click on
+- [15:34] connect and then you can copy the
+- [15:36] connection string here. Just make sure
+- [15:37] that you show your password or you can
+- [15:39] manually replace the stars. But yeah,
+- [15:41] you just copy this connection string and
+- [15:43] that's going to be exactly what you
+- [15:44] paste in for your database URL. And then
+- [15:47] for Neo4j, by default, it's going to be
+- [15:50] this right here. So it's bolt and then
+- [15:52] localhostport 7687.
+- [15:55] And then you will have your username and
+- [15:56] password that you copied from the last
+- [15:58] step. Next, we have the configuration
+- [16:00] for our large language model. So, you
+- [16:03] want to set your provider and we can
+- [16:05] work with any provider that is OpenAI
+- [16:07] API compatible. So, that'll be OpenAI,
+- [16:10] Open Router, Olama, or Gemini for my
+- [16:13] favorite four options here. A lot of
+- [16:15] different ones that you can choose from.
+- [16:17] And then I have examples for what you'd
+- [16:19] have to do to set the base URL for each
+- [16:21] of these. And so, OpenAI is what I have
+- [16:24] by default for you. But if you want to
+- [16:26] do something entirely locally with
+- [16:27] Olama, for example, you can do that as
+- [16:29] well. And then you just have to set your
+- [16:31] API key, which for Olama, you can just
+- [16:33] type in Olama. Otherwise, you get your
+- [16:35] API key for the provider. And then you
+- [16:37] can pick the model that you want to use.
+- [16:39] By default, we're going to be using
+- [16:41] OpenAI with GPT4.1
+- [16:43] Mini. And then for the embedding
+- [16:45] provider, it's the same deal. So I've
+- [16:47] actually configured this in a way where
+- [16:48] you can use a different large language
+- [16:50] model provider compared to your
+- [16:52] embedding provider. And the biggest
+- [16:54] reason that I did this is because if you
+- [16:57] want to use a large language model from
+- [16:59] open router for example, they don't
+- [17:01] actually offer embedding models as well.
+- [17:03] So you can set open router for your LLM,
+- [17:06] but then for your embedding you could
+- [17:07] use something like OpenAI or Gemini. So
+- [17:09] I'm providing utmost flexibility to you
+- [17:12] here. That is the goal. So it's the same
+- [17:13] kind of deal for the provider for
+- [17:15] embeddings base URL API key and then the
+- [17:18] embedding model that you want to use.
+- [17:20] And then the very last thing is I allow
+- [17:22] you to choose a different large language
+- [17:24] model for the process that is going to
+- [17:26] take our documents and we'll get into
+- [17:28] this in a little bit and transform it
+- [17:30] into the knowledge for our knowledge
+- [17:32] graph and for our vector database. And
+- [17:36] so you can often go with a much more
+- [17:38] lightweight model like we are using GPT
+- [17:41] 4.1 nano in this case. So that is it.
+- [17:43] And then the rest of these environment
+- [17:45] variables you can tweak if you want, but
+- [17:47] I would just recommend leaving these as
+- [17:49] the default values. This is just little
+- [17:52] configuration things for our knowledge
+- [17:54] graph and ingesting documents, things
+- [17:56] like that. Everything starting from
+- [17:58] ingestion lm choice and above. That's
+- [18:01] what you have to configure to get things
+- [18:02] up and running yourself. So set all of
+- [18:04] that. Make sure you're doing it in av
+- [18:06] file, notv.ample.
+- [18:09] and then we can move on to the next step
+- [18:12] where we can actually start running
+- [18:13] things and getting our knowledge base
+- [18:16] set up with our quick start here. So,
+- [18:17] moving on to our knowledge base. Now, I
+- [18:20] don't have a super comprehensive rag
+- [18:22] pipeline or anything. This is just very
+- [18:24] basic. You want to make this documents
+- [18:26] folder, which I'm going to have this in
+- [18:28] the repo by default anyway. And then I
+- [18:30] have a bunch of sample documents that
+- [18:32] you can copy over or you can bring in
+- [18:34] your own markdown documents into this
+- [18:36] documents folder. Everything in here is
+- [18:38] going to be automatically ingested into
+- [18:40] both the knowledge graph and vector
+- [18:42] database when we run our ingestion
+- [18:44] script. If you are curious how to build
+- [18:46] a full rag pipeline in an AI agent
+- [18:49] around that where we're actually
+- [18:51] watching for files as they come in and
+- [18:53] are updated in Google Drive or local
+- [18:55] files, definitely check out the AI agent
+- [18:57] mastery course in Dynamis AI which is my
+- [19:00] community of other early AI adopters
+- [19:02] like yourself. I dive a lot deeper into
+- [19:05] rag, building up a full pipeline,
+- [19:07] creating a robust agent around that,
+- [19:09] even going as far as deploying it to
+- [19:10] production. So if you want to go a lot
+- [19:13] deeper, check out Dynamus. Right here
+- [19:15] though, we are starting nice and simple,
+- [19:16] just taking all these different markdown
+- [19:18] documents. And so everything that I have
+- [19:20] in this test folder here is just a bunch
+- [19:23] of sample documents talking about the
+- [19:25] big tech companies and their AI
+- [19:26] initiatives. So it is a use case that
+- [19:29] does work really well with both vector
+- [19:31] databases and knowledge graphs combining
+- [19:33] them together like we saw in the demo.
+- [19:35] So make sure that you have everything
+- [19:37] set up in your documents folder and then
+- [19:39] let me just go back to the readme here.
+- [19:42] I'll wait for a second for that to load.
+- [19:44] Scroll back down. I lost where I was cuz
+- [19:45] I was opening up those other markdown
+- [19:47] documents. So all right, here we are. So
+- [19:48] you got your documents folder set up.
+- [19:50] Now we can run basic ingestion. And so
+- [19:53] I'm going to go ahead and run the
+- [19:56] command python-m
+- [19:58] ingestion.est.
+- [20:00] And then I'd also recommend passing in
+- [20:02] the d-clean flag because this is going
+- [20:04] to wipe your knowledger graph and vector
+- [20:06] database tables um so that we can start
+- [20:09] from scratch. And so I'll go ahead and
+- [20:11] send this in. And it's going to
+- [20:12] initialize the connections to our
+- [20:14] database and then also our knowledge
+- [20:16] graph. So give it a second to do that.
+- [20:18] So it's initializing with graffiti. And
+- [20:20] then boom, there we go. So it created
+- [20:22] seven chunks and it inserted all those
+- [20:24] into our vector database. And then the
+- [20:26] next part is going to be working with
+- [20:29] OpenAI because we are going to be
+- [20:30] inserting things into our knowledge
+- [20:32] graph making a bunch of different
+- [20:34] embedding calls and chat completion
+- [20:37] calls as well. It's very computationally
+- [20:40] expensive to create our knowledge graph
+- [20:42] because we have to use large language
+- [20:43] models to define all of the entities and
+- [20:46] the relationships that we see. And so
+- [20:49] things in Neon for Postgress are really
+- [20:51] quick. Like I can go to the tables here.
+- [20:54] I can go into chunks. We have our seven
+- [20:56] chunks. We have our single document. And
+- [20:58] then when we go into Neo4j, if I run
+- [21:00] this query again, we have part of our
+- [21:02] knowledge graph built up now. But all of
+- [21:05] these different um episodes as they're
+- [21:07] called with graffiti, that's what we
+- [21:09] have with pink. And then the different
+- [21:10] entities and their relationships, all of
+- [21:12] this has to be defined by large language
+- [21:14] models. So you have to be patient when
+- [21:16] you are building up a knowledge graph. I
+- [21:18] optimized this as much as I could, but
+- [21:21] it still does take a while compared to
+- [21:24] just the couple of seconds that it took
+- [21:25] to insert into neon. And so that is why
+- [21:28] also I have this option here. If you
+- [21:31] want to um do no knowledge graph, you
+- [21:33] can do faster processing. Um that is an
+- [21:36] option as well. Um but yeah, I would
+- [21:38] recommend just being patient, letting
+- [21:40] this go for a while and then you'll have
+- [21:43] everything in your knowledge graph. Then
+- [21:44] the actual querying of the knowledge
+- [21:46] graph is very fast. It's just the
+- [21:47] inserting that takes a while. And so I'm
+- [21:49] going to go ahead and pause and come
+- [21:51] back once I have all of these graffiti
+- [21:53] episodes added to Neo4j. And there we
+- [21:56] go. It was only like 20 seconds later
+- [21:57] and it finished. So for this single
+- [21:59] document, it took a couple of minutes to
+- [22:02] process it. So a few seconds for the
+- [22:03] vector database and then 2 minutes for
+- [22:06] our knowledge graph. So we took this
+- [22:08] document right here talking about big
+- [22:10] tech AI initiatives and we now have that
+- [22:13] stored. And so now I can go back and I
+- [22:14] can re-query in Neo-4j. And then boom,
+- [22:17] we have the full knowledge graph created
+- [22:18] again like we saw at the start of this
+- [22:21] video. So we are good to go. So we have
+- [22:23] our knowledge ready. Now we can run our
+- [22:26] agent. So I got to do the same thing
+- [22:27] here. I'll go back to my readme, open up
+- [22:30] the preview, scroll down. Okay, so yep,
+- [22:33] we ran this step now. Um, so now the
+- [22:35] next thing that I want to mention before
+- [22:37] we actually run our agent API endpoint,
+- [22:40] I want to talk about configuring the
+- [22:42] agent behavior. So we want to allow the
+- [22:45] agent to reason about when it's going to
+- [22:47] use the vector database, when it's going
+- [22:49] to use the knowledge graph, when it
+- [22:51] might decide to search both as well. It
+- [22:53] is up to you to define this behavior. I
+- [22:57] can as much as I possibly can create a
+- [23:00] template that has a good generic prompt
+- [23:03] for the large language model, but based
+- [23:05] on your information that you're putting
+- [23:07] into your knowledge base for rag, you
+- [23:09] need to control when the agent is going
+- [23:11] to look in the different places. And so
+- [23:13] the way that you can do that, if you go
+- [23:14] into the agent folder, you have
+- [23:16] prompts.py.
+- [23:18] This is the primary system prompt that
+- [23:20] we are using for our agent. And
+- [23:22] everything that we include in here,
+- [23:24] these are the instructions that tell the
+- [23:26] agent when and how to use each of the
+- [23:28] different capabilities that we are
+- [23:29] giving it. So, we're telling it like you
+- [23:31] have the ability to search the vector
+- [23:32] database, the knowledge graph. There are
+- [23:34] a couple of other things that I don't
+- [23:36] want to dive into quite yet, but some
+- [23:38] other capabilities that I'm playing
+- [23:39] around with. And then towards the
+- [23:41] bottom, I tell it exactly how to use
+- [23:43] these different tools. So, for example,
+- [23:45] and this is just more of a getting
+- [23:48] started prompt. I think you could tweak
+- [23:49] this a lot. I say use the knowledge
+- [23:51] graph tool only when the user asks about
+- [23:54] two companies in the same question
+- [23:55] because then we want to analyze the
+- [23:57] relationship between two companies like
+- [23:59] we want to specifically pull out
+- [24:01] something like how Amazon and Anthropic
+- [24:04] are related together. Otherwise, let me
+- [24:07] scroll to the right here. Just use the
+- [24:09] vector store tool. And then I also say
+- [24:12] that combine both approaches only when
+- [24:15] you are asked to do so. Now, obviously
+- [24:18] that is mostly for demonstration
+- [24:20] purposes. Usually in the system prompt,
+- [24:22] you'd want to allow the agent to reason
+- [24:24] more behind the scenes. You wouldn't
+- [24:25] want the user to say like, "Please
+- [24:27] search the knowledge graph and the
+- [24:28] vector database." I mean, your end user
+- [24:30] probably doesn't even know that you have
+- [24:31] those two different data sources. But
+- [24:34] this is just what I have set up to make
+- [24:36] it very easy for me to demo things for
+- [24:37] you. So, make sure you tweak this system
+- [24:39] prompt to your needs based on the way
+- [24:41] that you want the agent to reason about
+- [24:43] how it explores your knowledge base. So
+- [24:45] change the system prompt optionally and
+- [24:47] then we can move on to starting our API
+- [24:50] server. So I'm going to go back to my
+- [24:51] terminal here. Um this is the what we
+- [24:54] just ran to create our knowledge base.
+- [24:56] I'll just clear everything. And then the
+- [24:59] command that I want to run is python-m
+- [25:02] agent.api. And by the way the directory
+- [25:06] that I am in is agentic rag knowledger
+- [25:09] graph. So that's what I have open in
+- [25:10] winerve here. So I'm at the root of this
+- [25:12] folder for this agentic rag agent and
+- [25:15] I'm running python-m agent.api
+- [25:18] and so we're first going to be
+- [25:19] connecting to our different knowledge
+- [25:21] sources again. So connecting to the
+- [25:23] database and then connecting to
+- [25:25] graffiti. You can ignore all these logs
+- [25:26] by the way. Um nothing's going wrong
+- [25:29] here. So yeah, we're connected to
+- [25:30] graffiti. The graph connection is
+- [25:32] successful and there we go. We are ready
+- [25:34] to start communicating with our agent.
+- [25:36] And there are two ways for us to
+- [25:38] communicate with our AI agent in the API
+- [25:41] endpoint. The first way that I'm not
+- [25:43] going to cover too much right now is we
+- [25:45] can make a direct HTTP request with a
+- [25:48] tool like curl to our API endpoint. So
+- [25:51] localhost port 8058. We can use the chat
+- [25:53] endpoint or if we want to see the tokens
+- [25:55] getting streamed out in real time
+- [25:57] through podantic AI, we can use
+- [25:59] /hatstream.
+- [26:01] But the better way to run our agent and
+- [26:02] what we saw in the demo is within the
+- [26:05] command line interface that I created.
+- [26:07] And so what you want to do is you want
+- [26:09] to have your terminal still running the
+- [26:11] agent API, but then you want to open up
+- [26:13] a second terminal. That's why I say
+- [26:15] terminal 2 in the readme here. And we
+- [26:17] want to go ahead and run Python and then
+- [26:19] CLI.py.
+- [26:21] You can also manually specify a portter
+- [26:23] URL if you change something in your
+- [26:25] environment variable configuration.
+- [26:26] Yeah, I'm just going to go ahead and run
+- [26:28] this and then we'll see that it connects
+- [26:29] to the API. It says that it's healthy
+- [26:31] and we are ready to go. And so now if I
+- [26:33] say something like hi, we can go over to
+- [26:35] our API and see that we have a request
+- [26:37] that was successful to / chat/stream.
+- [26:40] And then back over to our CLI, we've got
+- [26:43] our response. Now we can just like in
+- [26:45] the demo ask a question that it'll need
+- [26:47] to go out to our vector database for. So
+- [26:49] I can say something like what are the AI
+- [26:52] initiatives for Google? All right. So
+- [26:54] same kind of question that we asked
+- [26:56] before because I am using the exact same
+- [26:58] document for my demo here. There we go.
+- [27:00] Gives us a nice and solid answer and it
+- [27:03] used the vector search. And then same
+- [27:04] kind of deal. We can say how are Amazon
+- [27:07] and Anthropic related. Let's get a test
+- [27:10] here for the knowledge graph as well. Um
+- [27:13] so yep, they got a strategic
+- [27:15] partnership. We use the graph search.
+- [27:16] Cool. And then it decided to also use
+- [27:18] the vector search as well. Not totally
+- [27:21] sure why, but that's all about what
+- [27:23] we're doing here with a gentic rag is
+- [27:24] we're giving it the ability to reason
+- [27:27] about how it's going to look at the
+- [27:28] knowledge base. It's not going to be the
+- [27:29] same every single time because large
+- [27:32] language models are unpredictable. But
+- [27:33] as long as we get the right answer,
+- [27:34] which we did here, that is good. We
+- [27:36] allowed it to reason. It decided for
+- [27:38] whatever reason to search both our
+- [27:40] knowledge graph and our vector database.
+- [27:42] So this is looking really, really good.
+- [27:45] We are all set. So that is pretty much
+- [27:47] everything for the agent. And then the
+- [27:49] rest of the readme just talks about some
+- [27:51] different CLI commands that we have. Um,
+- [27:54] also just how everything works under the
+- [27:56] hood. And so you can read through the
+- [27:57] rest if you want here. I've got
+- [27:59] documentation for the API and
+- [28:00] everything, our whole structure. But um
+- [28:03] yeah, I mean we got some unit tests and
+- [28:05] things like that as well and a
+- [28:06] troubleshooting section. But that is
+- [28:08] pretty much it for our agentic rag with
+- [28:10] knowledger graph agent. So the last
+- [28:12] thing that I'm excited to share with you
+- [28:13] is how I use cloud code to build this
+- [28:16] pretty comprehensive agentic rag agent.
+- [28:20] Now using cloud code could definitely be
+- [28:22] a video entirely of its own. In fact,
+- [28:24] I'm almost certainly going to be doing
+- [28:25] that in the near future. So, let me know
+- [28:27] in the comments if you're interested in
+- [28:29] me doing a deep dive into how I use
+- [28:31] cloud code to get some insane results
+- [28:33] with AI coding. But I still want to, you
+- [28:36] know, at a high level here, show you how
+- [28:38] I use cloud code, especially to get
+- [28:40] started with this project because I do
+- [28:42] not condone vibe coding. I definitely
+- [28:44] encourage you to have the knowledge to
+- [28:46] validate the output from the AI coding
+- [28:48] assistant and to kind of, you know, add
+- [28:50] that last 10% at the end to really make
+- [28:52] everything working. But especially
+- [28:53] getting started, I use Cloud Code quite
+- [28:56] heavily for this project. And so I just
+- [28:58] want to kind of give you a sneak peek at
+- [29:00] my process here. Definitely will be
+- [29:02] diving into things more in the future.
+- [29:04] And so first thing, there are two MCP
+- [29:06] servers that I set up to help me build
+- [29:09] this all. The first one, and I'll just
+- [29:11] kind of show the commands really quickly
+- [29:12] that I use to add these. I have my crawl
+- [29:15] for rag MCP server. I have covered this
+- [29:19] a lot on my channel. I'll link to a
+- [29:20] video right here for this, but this is
+- [29:22] how I add external documentation through
+- [29:25] rag to my AI coding assistant. So, it
+- [29:28] knows how to build with things like
+- [29:29] pyantic AI. And then the other MCP
+- [29:32] server that I have here is I have Neon.
+- [29:34] So, Neon is the Postgress database
+- [29:36] platform that I've been using throughout
+- [29:38] this video and they have their own MCP
+- [29:41] server. And the beauty of this is that
+- [29:43] you can have the AI coding assistant
+- [29:46] create your project in Neon, run SQL
+- [29:49] queries, manage your tables, validate
+- [29:52] the output of, you know, running these
+- [29:54] schemas. It can do all of that
+- [29:55] automatically. So all of the database
+- [29:58] management you don't actually have to do
+- [30:00] yourself. It can do that throughout the
+- [30:02] process of creating your application,
+- [30:04] which is so important, especially
+- [30:06] because how agentic cloud code can be.
+- [30:09] It can do basically everything for you.
+- [30:11] It can help you plan and then it can go
+- [30:13] and start building a task list and then
+- [30:15] knocking those off one by one, setting
+- [30:17] things up in your database automatically
+- [30:19] thanks to Neon and then writing tests
+- [30:21] and iterating on those tests. It's this
+- [30:23] whole agentic process where it can
+- [30:26] literally run for 30 minutes to an hour
+- [30:28] just building everything for you. And so
+- [30:30] you definitely don't want to have to
+- [30:32] interject to actually set things up in
+- [30:34] the database yourself. And so you don't
+- [30:35] have to. It's so so powerful. In fact, I
+- [30:38] will tell you, we can go into Claude to
+- [30:40] get started here. I will tell you that
+- [30:42] when I initially built the first version
+- [30:45] of this agentic rag agent, I had Claude
+- [30:48] code running for literally 35 minutes.
+- [30:51] And the way that I was able to do it,
+- [30:53] give it that much work, is first I
+- [30:55] started in the new plan mode for Claude
+- [30:57] Code. And by the way, the way that you
+- [30:59] can get to that is you can just hit
+- [31:01] shift tab twice. And so let me do that
+- [31:03] right here. So shift tab. If you hit it
+- [31:05] once, that goes into auto accept mode.
+- [31:07] If you hit it again, then it goes into
+- [31:09] plan mode. So again, that is shift plus
+- [31:11] tab. You press that twice. The beauty of
+- [31:14] plan mode is that forces it to not write
+- [31:17] anything out to the file system yet.
+- [31:19] Because right now, what we want to do is
+- [31:20] create a comprehensive plan for the
+- [31:22] agent that we are building. And so my
+- [31:25] general recommendation for this is just
+- [31:27] to start spewing out a bunch of ideas
+- [31:28] for what you want to create and then ask
+- [31:31] it to ask you follow-up questions so it
+- [31:33] really starts to understand what you're
+- [31:35] looking to build and the kind of
+- [31:37] architecture that it should start
+- [31:38] putting in the planning.md and task.md
+- [31:42] documents. And so these are the three
+- [31:44] key documents that guide the entire AI
+- [31:47] coding process with cloud code. So let
+- [31:50] me actually go through these here. and
+- [31:52] you create the planning.md and the
+- [31:53] task.md in the planning mode in cloud
+- [31:56] code. That's why I'm covering this right
+- [31:57] now. So, first of all, we have claw.md.
+- [32:00] These are your global rules for your AI
+- [32:02] coding assistant. It's very similar to
+- [32:03] your cursor rules and your winds surf
+- [32:05] rules if you're familiar with using
+- [32:06] those other platforms that have been
+- [32:08] around for a lot longer. This is a
+- [32:10] markdown file that has our general
+- [32:12] instructions for our AI coding
+- [32:15] assistant, like telling it how to use
+- [32:17] the planning.md and task.md, telling it
+- [32:19] how to use MCP servers and how to work
+- [32:22] with unit testing. I have a video that
+- [32:24] I'll link to above right here as well
+- [32:26] showing my full process for using AI
+- [32:28] coding assistance. I cover global rules
+- [32:30] there and that's what this file actually
+- [32:32] came from. It's a resource that's
+- [32:34] available to you in that video. So that
+- [32:36] is claw.md. And then in planning mode,
+- [32:39] we have it create two other files. We
+- [32:41] have it create planning.md. This is the
+- [32:43] file that describes the project at a
+- [32:45] high level. So the architecture, the
+- [32:48] different core components that we need
+- [32:49] to build out and where they belong in
+- [32:51] our codebase. So we're actually
+- [32:53] referencing certain folder paths and
+- [32:55] things like that. We have the full
+- [32:57] technology stack, key libraries, the
+- [33:00] design principles. I mean, this gets
+- [33:02] pretty detailed here. It's pretty long
+- [33:04] and you just have Claude Code literally
+- [33:06] build this along with you as you're
+- [33:09] describing what you want made and as you
+- [33:10] are answering questions that it has. And
+- [33:13] then to go a bit more granular here, the
+- [33:15] other file is a list of tasks that you
+- [33:17] want Claude Code to knock off. And so
+- [33:19] it'll go through knock these off one by
+- [33:22] one and then it'll come in here and like
+- [33:23] add an X after it's done. And you can
+- [33:25] describe how you want it to do that
+- [33:27] again just going back to the claw.md for
+- [33:30] our global rules. And so you want to get
+- [33:32] a list of tasks at the end of your
+- [33:34] planning session as well because that is
+- [33:35] going to dictate the order of operations
+- [33:38] what it does as it is building out your
+- [33:40] project. And so back in the terminal
+- [33:42] here, you just want to have the
+- [33:43] conversation with claw code to generate
+- [33:45] all of that. Then once you have your
+- [33:47] claw.md, your planning.md, and your
+- [33:50] task.md, you can do shift tab again. I'm
+- [33:54] pressing the wrong button. Let me go
+- [33:55] back. Shift tab again. And now we are
+- [33:58] exiting out of planning mode. And now at
+- [34:01] this point, the prompt to kick
+- [34:03] everything off for our build is going to
+- [34:05] be pretty simple because we already did
+- [34:08] all of the leg work up front within
+- [34:10] these three files. So the AI coding
+- [34:13] assistant cloud code, it already knows
+- [34:15] what to do basically. So now I can just
+- [34:18] say um you know take a look at planning
+- [34:22] and task um markdown files. I don't even
+- [34:26] have to be grammatically correct here.
+- [34:29] um and execute that plan. I mean, it
+- [34:31] should already know based on my global
+- [34:32] rules to look here anyway, but like I'm
+- [34:34] just showing you like the starting
+- [34:35] prompt can be super super basic. And
+- [34:38] this kind of task because it has the
+- [34:40] full planning full tasks it knows
+- [34:42] everything that has to be done. Claude
+- [34:45] code will run for a very long time
+- [34:48] because it's going to do the full
+- [34:49] process here of coding and creating
+- [34:52] tests and then iterating on that using
+- [34:54] the MCP servers to do things like create
+- [34:56] our neon database. It's so so
+- [34:58] comprehensive and the only thing that
+- [35:00] you have to do is approve the different
+- [35:02] actions. Like boom, there we go. We are
+- [35:03] approving our first action. It's using
+- [35:05] the Neon MCP to create a new project
+- [35:08] because I explicitly told it to create a
+- [35:11] new project in Neon for this agent. And
+- [35:13] I'll go ahead and approve and say that
+- [35:15] for future uses of this MCP tool, you
+- [35:17] don't have to anymore. And now it's
+- [35:19] using my crawl for AI rag MCP server.
+- [35:22] And by the way, you can set these
+- [35:23] approvals up beforehand. I just want to
+- [35:25] show you the different actions that it's
+- [35:27] using here. So, we're getting all the
+- [35:28] available sources and then we'll
+- [35:31] probably see it look for some
+- [35:32] documentation on Pantic AI as well,
+- [35:34] maybe. I'm not totally sure the order of
+- [35:36] operations here. Um, yeah. So, it's
+- [35:38] updating the to-dos first. Okay. Yeah.
+- [35:40] So, the next step here is using the
+- [35:41] crawl for AI rag to get paid AI
+- [35:43] documentation. And so, we got the query
+- [35:45] here, uh, best practices and
+- [35:46] implementation patterns. And so, I'll go
+- [35:48] ahead let it do that. And so it'll
+- [35:50] search my rag knowledge base here and
+- [35:53] get some output. And so that'll aid it
+- [35:55] in the initial creation of the agent.
+- [35:57] And so I think that's enough my initial
+- [35:59] process for using cloud code here with
+- [36:01] my MCPS and my whole process for working
+- [36:04] with planning.md. Oh, looks like it's
+- [36:06] already running some SQL here. So I'll
+- [36:08] go ahead and improve that as well. This
+- [36:09] is just so neat. It created a brand new
+- [36:11] project, ran some SQL. This is just
+- [36:13] absolutely beautiful. And so what I'm
+- [36:15] going to do here is I'm just going to
+- [36:18] kind of end this demonstration. I don't
+- [36:20] think you have to see the end result for
+- [36:22] this because you already saw the end
+- [36:24] result of me doing this the first time
+- [36:26] when I have the full agent available for
+- [36:28] you in GitHub now. But yeah, it's just
+- [36:30] so amazing how easy it is to use cloud
+- [36:33] code to just like go through the entire
+- [36:36] process. It is absolutely powerful.
+- [36:38] Cloud code really does stand above other
+- [36:40] AI coding assistants right now just
+- [36:42] because of how agentic it is. the kind
+- [36:43] of thing that we're able to build in one
+- [36:45] shot is just insane now. And then the
+- [36:48] very last thing that I forgot to mention
+- [36:49] that is super important is also giving
+- [36:51] examples to Claude Code. And so yeah,
+- [36:54] you can see that it's gotten through a
+- [36:56] lot of the tasks since I paused the
+- [36:58] recording. So it's just chugging away
+- [37:00] building this agent. Things are looking
+- [37:01] really, really good. The other thing
+- [37:03] that I want to show you here is the
+- [37:04] examples. And so what I have done is in
+- [37:07] the examples folder, I've just added a
+- [37:10] bunch of different Python scripts from
+- [37:12] previous projects that I've built that I
+- [37:15] want it to reference just to take
+- [37:16] inspiration for the way that I've done
+- [37:18] certain things like set up graffiti for
+- [37:20] the knowledge graph or built my podantic
+- [37:22] AI agents to support different LLMs. I
+- [37:25] have all of these different examples.
+- [37:26] Some of these things that I have shared
+- [37:28] on my YouTube channel. A lot of this
+- [37:31] that is for the Dynamus community
+- [37:33] specifically. So I have all these
+- [37:35] examples that I provided and I told it
+- [37:37] within the planning to reference these
+- [37:39] as it is building the project so it
+- [37:41] knows best practices for things like
+- [37:42] podantic AI and graffiti. So examples is
+- [37:45] another very powerful thing and so yeah
+- [37:47] I'm not going to have the examples in
+- [37:48] source control but what I will have for
+- [37:50] you available in GitHub is the planning
+- [37:53] markdown the claw.md that I used and
+- [37:56] then also the task.md. So everything
+- [37:59] that I used for that initial planning
+- [38:02] and what I fed into cloud code, you can
+- [38:04] see in the GitHub repo. If you're
+- [38:05] curious, if you want to use this
+- [38:07] yourself and model some of your planning
+- [38:08] based off of this, you definitely can.
+- [38:11] And like I said, this was more of just a
+- [38:13] bonus end of this video. Definitely stay
+- [38:15] tuned for the full video on cloud code
+- [38:17] that I'm going to be putting out in the
+- [38:18] near future. Like I said, I definitely
+- [38:21] want to do that as well. So this is
+- [38:24] everything for Aentic rag and knowledge
+- [38:25] graphs and the agent that I built for
+- [38:27] you. Thank you very much to Neon for
+- [38:29] partnering with me to bring this video
+- [38:30] to you. And if you appreciated this, if
+- [38:33] you want to use this yourself, if you
+- [38:35] just got a lot out of this video, I
+- [38:36] would very much appreciate a like and a
+- [38:38] subscribe. And certainly stay tuned for
+- [38:41] more videos on Agentic Ragg knowledge
+- [38:43] graphs and claude code. And so with
+- [38:45] that, I will see you in the next

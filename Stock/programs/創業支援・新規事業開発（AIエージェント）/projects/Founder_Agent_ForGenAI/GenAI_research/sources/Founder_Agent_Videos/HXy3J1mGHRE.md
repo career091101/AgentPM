@@ -1,0 +1,1324 @@
+---
+title: "And this is, I think, the most important outcome that I've had from more than two decades of implementing those technolo"
+video_id: "HXy3J1mGHRE"
+video_url: "https://www.youtube.com/watch?v=HXy3J1mGHRE"
+speaker: "your"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  And this is, I think, the most important outcome that I've had from more than two decades of implementing those technologies is the companies that succeed are only the ones that put the people in the center of that transformation
+  Welcome to WorkLab, the podcast from Microsoft
+  On WorkLab, we talk to experts about AI and the future of work, from how the technology can supercharge human capabilities to how it can transform entire organizations
+key_points:
+  - "of all, what do we hear by that"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:21:27+09:00"
+---
+
+# Transcript: HXy3J1mGHRE
+
+- URL: https://www.youtube.com/watch?v=HXy3J1mGHRE
+- Retrieved at: 2025-12-30T10:21:27+09:00
+
+## Text
+
+- [00:00] And this is, I think,
+- [00:01] the most important outcome
+- [00:03] that I've had from
+- [00:04] more than two decades of implementing
+- [00:06] those technologies
+- [00:08] is the companies that succeed are
+- [00:10] only the ones that put the people
+- [00:12] in the center of that transformation.
+- [00:22] Welcome to WorkLab,
+- [00:23] the podcast from Microsoft.
+- [00:24] I'm your host, Molly Wood.
+- [00:25] On WorkLab, we talk to experts about AI
+- [00:28] and the future of work,
+- [00:29] from how the technology can supercharge
+- [00:31] human capabilities
+- [00:32] to how it can transform
+- [00:34] entire organizations.
+- [00:36] Our guest today is Pascal Bornet.
+- [00:38] Bornet is a globally recognized
+- [00:40] expert in artificial intelligence
+- [00:42] and intelligent automation.
+- [00:44] He's led AI transformations
+- [00:46] at McKinsey and EY,
+- [00:47] and he's written bestselling books on AI.
+- [00:50] Pascal is the coauthor of a new book
+- [00:52] called Agenetic Artificial Intelligence:
+- [00:55] Harnessing AI Agents
+- [00:56] to Reinvent Business, Work and Life.
+- [00:58] In short,
+- [00:59] Pascal has deep understanding
+- [01:01] of how AI can automate and elevate work.
+- [01:05] We're going to dig into
+- [01:06] how these intelligent agents,
+- [01:08] think of them like your digital coworkers,
+- [01:10] are poised to transform the workplace,
+- [01:13] and critically,
+- [01:14] how business leaders can harness them
+- [01:16] to hone their competitive edge.
+- [01:18] Pascal, welcome to WorkLab.
+- [01:20] Thank you.
+- [01:20] Thank you Molly. Excited to be with you.
+- [01:22] So happy to have you.
+- [01:23] So if you wouldn't mind, actually,
+- [01:25] let's sort of start on
+- [01:27] a bit of your journey.
+- [01:28] You have been focused on AI
+- [01:30] and automation for over two decades.
+- [01:32] And you have seen a lot change
+- [01:34] in that time.
+- [01:35] Give us a brief background, if you would.
+- [01:37] Yeah, definitely.
+- [01:38] So I'm coming from two decades
+- [01:40] of consulting experience,
+- [01:42] implementing automation, and building
+- [01:46] intelligent automation
+- [01:47] practices at EY and McKinsey.
+- [01:51] So basically
+- [01:52] implementing those technologies
+- [01:53] for corporates around the world
+- [01:55] and really around the world,
+- [01:56] because I used to live,
+- [01:58] I'm from France originally,
+- [02:00] you can hear from my accent.
+- [02:02] I lived in
+- [02:03] Asia for almost ten years
+- [02:05] and have been in the US for the last
+- [02:08] seven years now.
+- [02:09] So yeah, what I saw of,
+- [02:11] I mean, and in terms of
+- [02:13] experience of implementing those,
+- [02:15] intelligent automation transformations.
+- [02:18] So first of all, what do we hear by that?
+- [02:20] You've heard about
+- [02:21] robotic process automation
+- [02:23] I'm sure, script automations.
+- [02:26] So these are the
+- [02:28] old kind of agents, basically,
+- [02:30] that we used to have,
+- [02:32] that were acting autonomously,
+- [02:35] to perform actions for humans.
+- [02:38] Okay,
+- [02:39] and now we are-
+- [02:39] I’m sure we are going to talk about this,
+- [02:41] but we are going
+- We definitely are.
+- [02:42] to a new level of intelligence,
+- [02:45] thanks to large language models that,
+- [02:48] are converging
+- [02:49] with these automations
+- [02:50] that we used to do,
+- [02:51] and that are
+- [02:53] creating what we call AI agents.
+- [02:55] So basically entities that can help us,
+- [02:59] that can understand contexts,
+- [03:01] that can understand goals
+- [03:02] that can plan actions and that can learn
+- [03:06] from the outcome of those actions
+- [03:08] and improve themselves in time.
+- [03:11] And the big,
+- [03:12] the big
+- [03:12] and the big trigger has been,
+- [03:14] basically the large language models
+- [03:15] that came,
+- [03:17] in at the beginning of the 2020.
+- [03:19] Right.
+- [03:20] And I think you had-
+- [03:21] you have people now
+- [03:22] who understand what we mean
+- [03:23] when we say large language model.
+- [03:24] You, of course, are early,
+- [03:26] very early to the concept of agents,
+- [03:29] and now we are talking about agentic
+- [03:32] artificial intelligence.
+- [03:33] And some of these words just appeared
+- [03:35] and I think are a bit
+- [03:36] new for some people.
+- [03:37] I wonder how you define
+- [03:39] agentic, artificial,
+- [03:40] artificial intelligence
+- [03:41] or even just agents.
+- [03:43] Yes, yes yes. So,
+- [03:45] when I talk about
+- [03:46] large language models, I'm
+- [03:47] talking about generative
+- [03:49] AI in the form of ChatGPT, for example.
+- [03:52] So those chatbots that help,
+- [03:57] have, that have been trained on
+- [03:59] large amount of data
+- [04:01] that can answer questions,
+- [04:02] be creative, help us plan things.
+- [04:05] I mean, every one of us has tried them
+- [04:07] and what they are good at,
+- [04:10] those chat bots,
+- [04:11] they are good at planning,
+- [04:12] at answering our questions,
+- [04:15] and I'm sure you've tried it as well.
+- [04:17] Try to plan your weekend in New York.
+- [04:20] So you will ask:
+- [04:21] “I want great food experience,
+- [04:23] I want to do this, I want museums,
+- [04:25] I want that,
+- [04:26] I want this for my kids,” so on.
+- [04:28] And it's going to plan everything
+- [04:29] great for you.
+- [04:30] “Yeah, you will do this,
+- [04:31] you will go to this,
+- [04:33] great restaurant that nobody knows,
+- [04:35] it's gonna-” okay.
+- [04:36] And then you try to book them,
+- [04:39] because those kind of large language models
+- [04:41] can’t book for you.
+- [04:42] They can't do anything,
+- [04:43] they can just suggest things, okay?
+- [04:45] And when you try to book,
+- [04:46] you see that it's not available now,
+- [04:49] you need to book
+- [04:49] three months in advance,
+- [04:51] it's closed for renovation,
+- [04:52] and so on and so on, and you get upset,
+- [04:54] of course as always.
+- [04:56] So this is the generative AI
+- [04:58] large language model
+- [04:59] period that we've been since 2022,
+- [05:03] when ChatGPT was born.
+- [05:05] And the big frustration with that
+- [05:08] is that, first of all,
+- [05:09] we need to book everything.
+- [05:11] So basically the language model,
+- [05:14] that's the fun thing, it researches
+- [05:16] it finds great ideas,
+- [05:18] it is creative
+- [05:20] and gives everything
+- [05:21] to us, the plan to us,
+- [05:22] and then we need to book,
+- [05:23] we need to do everything
+- [05:24] that is the logistics
+- [05:25] that we don't like to do, that,
+- [05:27] no,
+- [05:28] we don't like
+- [05:29] we wouldn't like humans to do that.
+- [05:31] So that's the first thing,
+- [05:32] it's giving to us, all those
+- [05:35] crappy things to do.
+- [05:36] So we have information,
+- [05:37] but we still need action.
+- [05:38] Exactly.
+- [05:39] And information,
+- [05:42] when you think about it, information
+- [05:44] without action
+- [05:45] is very limited in the impact
+- [05:47] it can give you.
+- [05:48] So back to our example,
+- [05:50] if you- if you knew before
+- [05:52] that the hotel was closed
+- [05:53] for renovation, you would not
+- [05:55] you would have done something
+- [05:56] completely different.
+- [05:57] And this is an actionable, practical
+- [06:00] intelligence that we need
+- [06:01] in our human world.
+- [06:03] - Right. 
+- And so
+- [06:07] agents are giving us this capacity
+- [06:10] not only to suggest, but to act
+- [06:13] and to get to the impact
+- [06:14] that we are expecting.
+- [06:16] So I took the example
+- [06:17] of booking holidays, but easily
+- [06:19] you can think about,
+- [06:22] entering data, creating invoices,
+- [06:26] managing clients, relationships.
+- [06:29] I mean, you name it,
+- [06:31] the number of use cases is,
+- [06:35] unlimited. 
+- Staggering. Yeah.
+- [06:37] So I wonder, you have even said,
+- [06:40] you know,
+- [06:41] certainly the use cases are unlimited,
+- [06:43] the agents are coming,
+- [06:45] you have said soon there won't-
+- [06:46] we won't say there's an app for that,
+- [06:48] we will say there is an agent for that.
+- [06:51] - Yes.
+- And I wonder how soon you think that is.
+- [06:54] I think it was in 2007
+- [06:56] that the iPhone was launched
+- [07:00] with the first app store
+- [07:01] and the first apps, basically.
+- [07:05] So they transformed the
+- [07:05] way we accessed services
+- [07:07] and the agents are
+- [07:10] going to do something
+- [07:11] even more important than that.
+- [07:13] You know those apps,
+- [07:15] they require humans to learn
+- [07:17] how to use them.
+- [07:19] -True.
+- These agents,
+- [07:21] They will learn how to serve us.
+- [07:24] So basically,
+- [07:24] they will use those apps on our behalf.
+- [07:27] So instead of humans
+- [07:29] adapting to technology,
+- [07:30] that's a big paradigm shift, in my view.
+- [07:33] It is technology
+- [07:34] that is finally adapting to humans.
+- [07:36] So we are moving from a world where,
+- [07:40] you need dozens of different
+- [07:41] apps on your phone
+- [07:43] to a world
+- [07:43] where you just have
+- [07:45] one intelligent agent
+- [07:47] that can orchestrate everything for you
+- [07:50] just based on what you ask.
+- [07:52] So then let's take this to the business
+- [07:55] world.
+- Yes.
+- [07:56] And imagine, from a business leader’s
+- [07:59] perspective, why is this so crucial
+- [08:02] to the future of business?
+- [08:03] And let's keep exploring
+- [08:05] how it's different from the models
+- [08:06] that we've worked with in the past.
+- [08:08] So, I like to
+- [08:12] explain and define an agent,
+- [08:14] by the four key functions it works on.
+- [08:19] So first of all, an agent senses
+- [08:20] the environment so it can understand us,
+- [08:22] it can hear us
+- [08:24] basically, or it can see something.
+- [08:26] Based on what it sees,
+- [08:29] It's going to plan an action
+- [08:31] according to a goal that we need it to-
+- [08:33] that it needs to achieve.
+- [08:34] It will say, okay,
+- [08:35] the first step is to do this.
+- [08:36] The second is to do that.
+- [08:37] Then I will do this and this and that.
+- [08:39] Okay.
+- [08:39] Then it is going to act on the basis
+- [08:41] of this plan.
+- [08:43] And finally it's going to reflect.
+- [08:44] So basically it's going to see:
+- [08:46] “Okay, so my goal was to achieve
+- [08:49] this outcome,
+- [08:50] I have achieved that outcome.”
+- [08:52] So how different it is
+- [08:53] and what can I learn from it.
+- [08:56] And when you think about it, it's
+- [08:57] very similar to how we humans do.
+- [09:00] So when we, for example,
+- [09:02] you want to cook something,
+- [09:04] you want to cook pasta,
+- [09:05] you will say, “Okay,
+- [09:06] let me sense around me in my kitchen,
+- [09:08] what ingredients do I have?
+- [09:10] Oh I have pasta, I have tomato sauce.”
+- [09:12] That's the sense.
+- [09:14] Then you will say, “Okay, so I need
+- [09:15] first of all to boil my water,
+- [09:17] then to bring my pasta,
+- [09:19] then to-” okay, different steps.
+- [09:20] That's a recipe.
+- [09:21] So that's the plan.
+- [09:23] A is you, you act.
+- [09:25] So basically you do it.
+- [09:26] And finally, when you've done it,
+- [09:28] you've tasted it,
+- [09:29] you say, “Okay, next time
+- [09:31] I will cook it a bit longer,
+- [09:32] I will put a bit more salt,
+- [09:34] and do this differently.”
+- [09:36] So this is basically a framework
+- [09:39] that I really recommend to my clients,
+- [09:41] doing a lot of
+- [09:42] consulting in this space,
+- [09:45] that I call the SPAR framework,
+- [09:47] that helps leaders to understand
+- [09:50] better what agents can do,
+- [09:53] and when we design agents,
+- [09:55] it helps to understand
+- [09:57] holistically what you can do with them.
+- [10:00] From sensing,
+- [10:01] to planning, to acting, to reflecting.
+- [10:04] And when you compare different vendors
+- [10:06] or different technologies,
+- [10:08] you can also have a better view,
+- [10:11] a better framework, basically to understand.
+- [10:14] What are you seeing from
+- [10:15] the business leaders who have
+- [10:15] implemented this so far?
+- [10:17] Certainly,
+- [10:18] it sounds like you're really requiring
+- [10:20] a strategic onboarding,
+- [10:22] but have you seen examples of agentic AI
+- [10:25] in action that demonstrates the value?
+- [10:28] Oh yes, definitely.
+- [10:30] Can you can you share any of them?
+- [10:31] - Of course! Of course of course.
+- Or are those secret?
+- [10:33] Of course.
+- [10:35] I mean, my preferred ones are-
+- [10:38] I'm going to talk a lot about,
+- [10:40] Pets at Home, for example,
+- [10:41] Pets at Home is
+- [10:42] the UK's largest pet care company.
+- [10:46] They achieved a 99% accuracy
+- [10:50] in transcribing
+- [10:51] veterinary consultations
+- [10:54] with an ambient digital scribe.
+- [10:56] So basically an agent,
+- [10:58] that is here during the consultation
+- [11:00] and that can take notes
+- [11:02] of everything that is happening,
+- [11:04] perform all the transactional work
+- [11:08] that is behind, preparing,
+- [11:11] I mean, connecting with the
+- [11:12] patient's data.
+- [11:16] Yeah, doing all this logistic work that takes
+- [11:19] 80% of the veterinarian’s time.
+- [11:24] And so that this time can be refocused
+- [11:26] on the patient
+- [11:27] and the same company, Pets at Home,
+- [11:29] has created several agents.
+- [11:32] Another one is a fruit detection agent.
+- [11:34] So basically it puts patterns
+- [11:36] that humans can’t see.
+- [11:38] So for example,
+- [11:40] the same damaged package photo
+- [11:43] that can be used multiple times
+- [11:45] by people who are requesting a refund.
+- [11:47] It's going to match these and identify
+- [11:49] okay, that's a fraud.
+- [11:53] We don't- we won’t
+- [11:56] pay you back your money.
+- [11:58] They also have an insurance
+- [11:59] integration agent,
+- [12:00] basically an agent
+- [12:01] that automatically checks
+- [12:02] policy coverage
+- [12:04] in real time
+- [12:05] during veterinary, consultations.
+- [12:07] They have also a store colleague assistant
+- [12:09] that provides
+- [12:10] personalized guidance to staff
+- [12:12] based on their specificities.
+- [12:14] For example, the specialist in aquarium,
+- [12:17] will get relevant
+- [12:18] operating procedures
+- [12:19] to automatically do things.
+- [12:21] Well,
+- [12:22] - Meaningful. Meaningful.
+- So this use case is really-
+- [12:25] Yeah, definitely, definitely.
+- [12:26] You can imagine
+- [12:27] use cases really across the board.
+- [12:29] Top of my mind,
+- [12:31] agents that I'm working on currently,
+- [12:33] invoice to pay agents.
+- [12:34] So basically those agents that
+- [12:36] read the invoices
+- [12:37] that you receive that matches
+- [12:39] those invoices to the POs,
+- [12:41] to the purchase orders,
+- [12:43] that approve them
+- [12:44] and that can pay them based on
+- [12:46] certain conditions, recruitment agents
+- [12:49] that sources candidates, screens CVs,
+- [12:52] and schedules interviews.
+- [12:54] The learning agent that personalizes
+- [12:57] training path for employees
+- [12:58] based on on their performance
+- [13:00] and their role.
+- [13:01] The marketing campaign agent
+- [13:02] that designs, tests
+- [13:04] and optimizes multi-channel
+- [13:05] marketing campaigns in real time.
+- [13:07] Retention agent that detects
+- [13:09] turn risk of clients, and
+- [13:11] - It’s so amazing Pascal,
+- launches proactive retention offers.
+- [13:14] I have to- Clearly,
+- [13:15] what's amazing is that
+- [13:16] I think some business leaders
+- [13:17] are having a hard time
+- [13:18] imagining use cases,
+- [13:19] and you have an infinite list.
+- [13:22] That's that's really the magic.
+- [13:24] The magic of
+- [13:25] of these technology
+- [13:27] is that they can be applied
+- [13:29] to any function and any industry.
+- [13:33] - Yeah. 
+- Okay.
+- [13:34] Really across-
+- [13:34] it's really across the board and,
+- [13:36] and the out-
+- [13:37] I mean, just to give you a bit of,
+- [13:41] what you can expect from those,
+- [13:43] from implementing
+- [13:44] agentic artificial intelligence in your company,
+- [13:49] JPMorgan reduced fraud by 70%.
+- [13:53] McKinsey reduced
+- [13:55] client onboarding lead time by 90%.
+- [13:58] So just to give you a few
+- [13:59] a bit of examples of the impact,
+- [14:03] the business impact you can get.
+- [14:04] Wow.
+- [14:05] Okay, we are sold on the examples,
+- [14:07] now I wonder,
+- Yes.
+- [14:08] now I wonder about,
+- [14:12] as leaders are making these decisions.
+- [14:13] For example,
+- [14:14] Microsoft's latest Work Trend Index
+- [14:16] pointed out
+- [14:16] that more than 80% of leaders surveyed
+- [14:20] do plan to do this.
+- [14:21] They plan to use
+- [14:22] AI and agents to fill this capacity gap
+- [14:26] between their demands
+- [14:27] and what human employees can deliver.
+- [14:30] Do you feel like that number is accurate?
+- [14:32] Are you seeing 80% uptake?
+- [14:37] They plan to use, definitely.
+- [14:40] I mean I,
+- [14:42] we see a lot of traction,
+- [14:43] a lot of companies.
+- [14:44] I mean, I think all companies want
+- [14:47] want to implement.
+- [14:48] They all have the ambition to do that.
+- [14:51] Some of them are doing it.
+- [14:52] They are doing it the right way,
+- [14:54] and they are getting the
+- [14:55] the outcome that they expect.
+- [14:56] I talked about a few of them.
+- [14:58] Some others are trying it,
+- [15:00] they are not doing it the right way,
+- [15:01] so they fail.
+- [15:04] They, they fall into some
+- [15:06] some issues, like,
+- [15:08] agents that are built without
+- [15:11] having the proper design,
+- [15:13] and for example,
+- [15:16] not performing the actions
+- [15:17] and the processes,
+- [15:18] the right way.
+- [15:19] Or processing them,
+- [15:20] but not with the right security
+- [15:23] and the right guardrails
+- [15:24] that we would expect.
+- [15:28] See companies that are only focusing on
+- [15:30] one use case, one function,
+- [15:32] instead of bringing it to the whole-
+- [15:33] to different departments
+- [15:36] and increase the
+- [15:37] the scale of the impact
+- [15:38] and create
+- [15:39] economies of scale as well.
+- [15:41] So those are- and the list is very long,
+- [15:45] of critical success factors
+- [15:46] that need to be implemented.
+- [15:49] And because I've been repeating and
+- [15:53] and seeing those issues many times,
+- [15:56] in companies,
+- [15:57] I've told myself,
+- [15:58] why not put this into a book,
+- [16:00] so that
+- [16:01] I don't need to come to
+- [16:03] to this company's offices,
+- [16:05] - Right. 
+- to share all this.
+- [16:06] I'm here.
+- [16:07] Only me and my team.
+- [16:10] So that's why we we wrote the book,
+- [16:12] Agentic Artificial Intelligence,
+- [16:14] that was published a few months ago,
+- [16:17] and that talks about.
+- [16:20] Where are we with this technology?
+- [16:22] What are the critical success factors
+- [16:24] to get there?
+- [16:25] And that shares hands-on experience
+- [16:28] on how
+- [16:29] we get to business impact
+- [16:31] using this technology.
+- [16:32] - Congratulations, by the way.
+- Great, great potential.
+- [16:34] Thank you.
+- [16:35] Great, great potential.
+- [16:37] But needs to be done the right way.
+- [16:39] - Yep. Absolutely.
+- And I contributed enough,
+- [16:42] and this is, I think,
+- [16:44] the most important outcome
+- [16:45] that I've had from more than two decades
+- [16:48] of implementing those technologies is
+- [16:52] the companies that succeed
+- [16:53] are only the ones that put the people
+- [16:56] in the center
+- [16:57] of their transformation.
+- [16:59] So putting the people in the center, meaning
+- [17:03] informing them, what does it mean?
+- [17:05] What does it mean
+- [17:06] to have this technology in
+- [17:07] in the company?
+- [17:08] What does it mean
+- [17:08] to the roles of each of those people,
+- [17:11] being transparent,
+- [17:13] to them and, and specific to each people?
+- [17:16] What does it mean for your role,
+- [17:17] how it's going to transform?
+- [17:21] And after information, it's about educating,
+- [17:23] so basically giving the capacity
+- [17:25] to those people to understand
+- [17:27] what is this technology,
+- [17:28] what they can expect from it
+- [17:29] in terms of benefits,
+- [17:31] and how they will implement it
+- [17:33] in their own work.
+- [17:35] It's all so real and present to you,
+- [17:37] and I wonder how you're seeing it
+- [17:40] play out across different organizations.
+- [17:42] So at Microsoft
+- [17:43] we tend to talk about frontier firms,
+- [17:45] firms that are not necessarily
+- [17:46] having to add this
+- [17:47] after the fact and incorporate it
+- [17:49] into older systems.
+- [17:50] They are AI first
+- [17:52] - Yes.
+- who are struggling
+- [17:52] to do exactly what you said,
+- [17:54] pair their agents with their humans
+- [17:57] and unlock
+- [17:58] all of the efficiency and growth
+- [17:59] that they're capable of.
+- [18:00] Yes.
+- [18:01] Are you seeing those
+- [18:02] and can you talk about
+- [18:03] their competitive advantage?
+- [18:05] Definitely, I see those companies and
+- [18:10] and in my view,
+- [18:11] they share four key characteristics.
+- [18:14] The first one is
+- [18:15] they think beyond automation.
+- [18:17] So instead of asking
+- [18:19] “what can we automate”, they will ask,
+- [18:21] “how can we reimagine our business,
+- [18:23] so that
+- [18:24] by taking advantage of this technology.”
+- [18:27] okay, so it's not about
+- [18:28] copying and pasting
+- [18:29] what they are doing currently with humans
+- [18:31] and giving it to agents,
+- [18:32] but how can we reinvent
+- [18:34] the way we do things?
+- [18:36] So that's the first thing,
+- [18:38] improve before even automating.
+- [18:40] And think about the new ways of doing.
+- [18:45] The second is they invest in
+- [18:47] human technology collaboration.
+- [18:49] And they don't just deploy agents,
+- [18:50] they will redesign work
+- [18:51] to optimize the collaboration
+- [18:53] between human capabilities
+- [18:54] and agent capabilities.
+- [18:57] The third is they build agent ecosystems.
+- [19:00] So rather than just isolated
+- [19:02] point solutions, you know, that
+- [19:04] keep in silos and and doesn't deliver
+- [19:07] the high impact that we can expect,
+- [19:09] they will create networks
+- [19:10] of specialized agents
+- [19:11] that can collaborate
+- [19:12] and learn from the other,
+- [19:13] the one from the other.
+- [19:15] And finally,
+- [19:15] and I think that's the most important,
+- [19:17] and that's the reason why I think
+- [19:18] all companies,
+- [19:20] not only 80% but 100%, should be
+- [19:24] thinking about
+- [19:25] about those technologies
+- [19:26] for their business.
+- [19:27] It doesn't mean they need to implement it
+- [19:29] at scale and right away,
+- [19:30] but at least they need
+- [19:32] to start their journey.
+- [19:33] And we are talking here
+- [19:34] about a journey.
+- [19:35] It's not a one off transformation.
+- [19:37] It's really about an ongoing
+- [19:38] transformation that will never end,
+- [19:40] because those technologies will
+- [19:42] constantly sophisticate,
+- [19:43] and companies
+- [19:45] will be able to improve
+- [19:47] the automations that they built, in time.
+- [19:50] So this
+- [19:51] this one is about building
+- [19:53] what I call
+- [19:53] compounding intelligence advantages.
+- [19:56] So basically,
+- [19:57] unlike the traditional technologies
+- [19:59] that provide static benefits,
+- [20:01] those AI agents, they learn
+- [20:03] and they improve continuously.
+- [20:05] So they create compounding
+- [20:07] intelligence advantages.
+- [20:11] So basically early adopters
+- [20:12] don’t just get
+- [20:14] temporary benefits,
+- [20:15] the short term benefits
+- [20:16] they can get from those technologies,
+- [20:18] but they build also insurmountable
+- [20:21] learning gaps over competitors
+- [20:23] who are behind them.
+- [20:26] So basically
+- [20:26] the compound effect
+- [20:28] is that each
+- [20:29] agent interaction
+- [20:30] creates data that improves
+- [20:33] not just that specific agent,
+- [20:35] but potentially entire agent ecosystems.
+- [20:38] - Right.
+- And organizations
+- [20:40] that start early are building
+- [20:41] competitive moats,
+- [20:43] that become increasingly difficult
+- [20:44] to replicate.
+- [20:45] So basically it's
+- [20:46] learning what you learn by starting
+- [20:49] as soon as possible,
+- [20:50] this kind of transformation,
+- [20:52] not only by generating data
+- [20:56] through your agents, but also by
+- [20:58] getting your people accustomed,
+- [21:02] and learn
+- [21:03] how to work in hybrid digital teams,
+- [21:06] how to manage, orchestrate those agents.
+- [21:10] This is invaluable.
+- [21:11] And that's a great advantage.
+- [21:13] Absolutely.
+- [21:14] On the market.
+- [21:16] So, let's talk about
+- [21:17] the human side of that then
+- [21:18] for a minute,
+- [21:19] I want to ask you much more about
+- [21:22] agents and humans working in parallel,
+- [21:23] but in
+- [21:25] your other book,
+- [21:26] or one of your other books,
+- [21:27] - Yes.
+- Irreplaceable,
+- [21:28] you talk about this concept of “humics”,
+- [21:30] - Yes.
+- The kind of unique
+- [21:32] things that humans can do that
+- [21:33] machines cannot fully replicate.
+- [21:36] Give us some examples of those skills
+- [21:38] and talk about why they're
+- [21:39] they're so important now,
+- [21:40] because you mentioned that skepticism
+- [21:42] that some people may have.
+- [21:43] So the uniquely human abilities
+- [21:46] that I called the “humics”,
+- [21:49] are extremely important
+- [21:50] because we've seen
+- [21:52] over the last 50 years,
+- [21:55] that AI exist, that we always think
+- [21:59] that there are skills
+- [22:00] that AI will never take.
+- [22:03] And,
+- [22:04] and I think the last one was creativity.
+- [22:06] We thought
+- [22:08] AI would not be as creative as humans,
+- [22:10] and we see that those generative AI
+- [22:13] technologies are getting there.
+- [22:16] So what's remaining to us?
+- [22:18] What what makes us human,
+- [22:20] and how do we avoid being redundant
+- [22:22] basically with this technology?
+- [22:24] And that's the key question.
+- [22:25] So to avoid being redundant,
+- [22:27] we need to be as different as possible.
+- [22:30] We need to find what is the human edge.
+- [22:34] That technology will
+- [22:36] never be able to achieve
+- [22:37] as well as we do.
+- [22:39] And that from my research,
+- [22:42] I identified three uniquely human abilities
+- [22:45] through three abilities
+- [22:47] that, first of all,
+- [22:49] AI will never be able to achieve
+- [22:50] as well as we do.
+- [22:51] And secondly,
+- [22:52] that creates a
+- [22:53] true complementarity between us
+- [22:57] and the technology,
+- [22:59] avoiding the redundance.
+- [23:01] And I like to show it like this.
+- [23:03] If this is our capability,
+- [23:04] if this is AI capability,
+- [23:06] if there is an overlap here like this,
+- [23:08] we lose.
+- [23:10] The overall area that I cover is,
+- [23:13] is lost
+- [23:14] in this redundant area.
+- [23:17] But if we create something completely-
+- [23:20] If you only hear the audio,
+- [23:21] you should know that
+- [23:21] he's making sort of a
+- [23:23] hand-based Venn diagram.
+- [23:25] Yes.
+- [23:27] To avoid redundancy,
+- [23:29] to create maximum value.
+- [23:30] And, the uniquely human abilities,
+- [23:33] based on the research
+- [23:34] that I performed
+- [23:35] and that,
+- [23:35] that I present in the book
+- [23:37] irreplaceable are three.
+- [23:39] The first one is genuine creativity.
+- [23:41] So basically
+- [23:41] not just recombining existing ideas,
+- [23:45] like a large language model can do,
+- [23:47] but about generating
+- [23:48] truly original ideas, based on our
+- [23:53] uniquely human lived experience,
+- [23:56] emotions, and personalities.
+- [23:59] The second one is critical thinking,
+- [24:01] and this goes
+- [24:02] beyond data processing,
+- [24:04] that AI is very good at,
+- [24:06] it includes nuanced judgment,
+- [24:07] questioning assumptions.
+- [24:10] Basically, we need to be the kings of
+- [24:12] asking the right questions.
+- [24:13] It's about navigating
+- [24:14] also the ethical complexities,
+- [24:16] that only humans can understand
+- [24:19] because authentically, they are
+- [24:21] built by us.
+- [24:22] Only “us” can build ethical values.
+- [24:27] And the third one is social authenticity,
+- [24:30] which is about building
+- [24:32] deep and trust-based relationships
+- [24:34] through genuine empathy,
+- [24:37] communication, shared consciousness.
+- [24:40] So something that AI can simulate
+- [24:42] but will never be able
+- [24:43] to authentically replicate.
+- [24:46] So those three “humics”
+- [24:50] are the most important
+- [24:52] thing that we need to work on
+- [24:54] for a few reasons.
+- [24:55] The first one is
+- [24:56] we were all born with them.
+- [24:59] Okay.
+- [24:59] So if  you go into a
+- [25:03] in kindergarten,
+- [25:04] you'll see the kids playing together.
+- [25:06] They are playing,
+- [25:07] they are building a castle in the sand,
+- [25:10] so this is creativity in action.
+- [25:12] They will have
+- [25:14] they will discuss the rules of the game.
+- [25:15] No, you should not do this.
+- [25:16] You should not do that.
+- [25:17] No, that's okay.
+- [25:18] That's critical thinking in action.
+- [25:21] And finally, they will-
+- [25:24] When a newcomer is around,
+- [25:27] they will say, “okay, come,
+- [25:28] come and play with us!”
+- [25:28] That's social authenticity in action.
+- [25:30] So we were all born with them,
+- [25:32] those three uniquely human abilities.
+- [25:34] So we are all equal.
+- [25:36] That's the second point,
+- [25:37] we can all develop
+- [25:39] and build them to the highest extent.
+- [25:41] So those three uniquely human abilities
+- [25:43] have also as a characteristic
+- [25:45] that they can be built,
+- [25:47] and there is no limit
+- [25:49] to how much we can build,
+- [25:51] we can boost our creativity, critical
+- [25:53] thinking and social authenticity.
+- [25:55] So then what happens as we start
+- [25:57] to bring these two things together?
+- [25:58] You have humans with these unique skills
+- [26:00] that we will hopefully continue to develop,
+- [26:01] and then agents.
+- [26:03] And now they're on the same team
+- [26:04] literally within a business.
+- [26:06] What does that look like?
+- [26:07] So it means two things.
+- [26:10] First of all, to stay relevant,
+- [26:12] we, and our team members,
+- [26:15] need to build those humics,
+- [26:18] to the highest extent.
+- [26:19] because they-
+- [26:20] with those humics,
+- [26:21] we create the highest value with AI.
+- [26:24] So don't only invest in the agents,
+- [26:26] also invest in the training
+- [26:27] and building up the human skills
+- [26:29] - Exactly.
+- so you don't
+- [26:30] lose or disengage your employees.
+- [26:31] Exactly. Thank you for that Molly.
+- [26:33] That's exactly that.
+- [26:36] and as we've seen,
+- [26:37] this is also a way to create a value
+- [26:39] that differentiates
+- [26:42] your business from others.
+- [26:43] Because in a few years from now,
+- [26:46] AI will be a commodity.
+- [26:49] When everyone uses the same AI,
+- [26:52] everyone proposes the same services
+- [26:54] in a way
+- [26:55] and has the same capabilities,
+- [26:57] the ones that will differentiate
+- [26:58] from the others will be those
+- [27:00] who are able to combine the right way,
+- [27:02] those human capabilities
+- [27:04] and those agent capabilities.
+- [27:06] To create something that is different.
+- [27:08] What you're describing
+- [27:09] is also an interesting
+- [27:10] management question.
+- [27:12] So talk to me about the role of managers
+- [27:14] who may now have a digital employee
+- [27:17] and human employees
+- [27:18] and get the best out of their agents
+- [27:21] at the same time.
+- [27:22] I mean, everyone is now becoming
+- [27:26] a manager in a way.
+- [27:27] Here is what I think
+- [27:29] managers need to focus on.
+- [27:30] So the best collaboration happens
+- [27:32] when humans and agents have completely
+- [27:35] different responsibilities.
+- [27:38] And so humans focus on activities
+- [27:40] that are driving core values
+- [27:42] and requiring emotional intelligence
+- [27:44] while the agents
+- [27:45] handle research, routine tasks,
+- [27:48] and process coordination.
+- [27:50] So the managers
+- [27:51] become more orchestrators,
+- [27:52] you know, they,
+- [27:53] they design human agent workflows.
+- [27:57] So the focus shifts from
+- [27:59] task assignment,
+- [28:00] you do this,
+- [28:01] you should do that,
+- [28:02] to goal setting and boundary definition.
+- [28:05] So basically
+- [28:05] I give this work to this agent.
+- [28:07] And I want it to achieve it
+- [28:09] in these time constraints and these conditions.
+- [28:12] So it's-
+- [28:13] so now a key role of managers
+- [28:16] is about building the trust between
+- [28:19] their team members and the agents.
+- [28:23] And this is where the value is created.
+- [28:25] Basically, this is
+- [28:26] where they will get the highest value.
+- [28:29] How can they do that?
+- [28:29] They can do that by creating clarity.
+- [28:32] So clearly defining
+- [28:34] what is the role of people and agents
+- [28:37] and within people and agents
+- [28:40] the role of each of them.
+- [28:42] So the purpose here is to prevent
+- [28:45] overlap and confusion.
+- [28:47] Secondly, it's about
+- [28:49] being very transparent.
+- [28:50] So basically
+- [28:52] everyone needs to understand
+- [28:54] the capabilities
+- [28:54] and limitations of the others.
+- [28:56] Especially we as humans
+- [28:58] need to understand
+- [28:59] the capabilities
+- [29:00] and limitations
+- [29:01] of our digital colleagues.
+- [29:03] And we all know that trust is earned.
+- [29:06] It's not something
+- [29:07] that happens overnight.
+- [29:08] So something very important for leaders
+- [29:11] is through a gradual collaboration.
+- [29:14] Create this trust.
+- [29:16] So first of all, ask your team members to
+- [29:20] use an agent to do this specific task,
+- [29:23] which is a small task
+- [29:24] which is connect with clients.
+- [29:26] Then when your team member
+- [29:30] has built the trust and understands
+- [29:34] what the agent is doing
+- [29:35] and has been able to review
+- [29:36] what it has been doing,
+- [29:38] and understand that it is doing it well,
+- [29:41] then increase it to the next step.
+- [29:43] So not only
+- [29:44] you connect to the client,
+- [29:45] but you give it a document.
+- [29:47] Okay.
+- [29:47] So you gradually expand.
+- [29:50] Baby steps.
+- [29:51] Yeah. Baby steps.
+- [29:54] Exactly this.
+- [29:56] We as humans
+- [29:57] need this gradual approach
+- [29:59] in order to build trust.
+- [30:01] We do this,
+- [30:02] I mean, like, I have teenagers at home,
+- [30:05] one of them is turning 16,
+- [30:07] and she will want to drive my car.
+- [30:09] I will not give the key like this.
+- [30:11] Well, that's, that's okay.
+- [30:13] So it's really about,
+- [30:15] first of all,
+- [30:15] she will not drive on the highway.
+- [30:17] She will only drive around our home.
+- [30:20] She will do it,
+- [30:21] no more than one hour per day.
+- [30:23] And then when trust will be built,
+- [30:25] then I will,
+- [30:27] I will hand over more.
+- [30:29] And this is exactly what we need to do
+- [30:31] with our team members as leaders.
+- [30:33] It’s so-
+- [30:34] That's so tactical and I love it.
+- [30:35] And then you mentioned
+- [30:36] another kind of key point
+- [30:38] which is then measuring their success.
+- [30:41] And that is-
+- [30:42] I mean that is the key
+- [30:43] to good management.
+- [30:43] And I wonder how you think
+- [30:44] about envisioning,
+- [30:46] you know, KPIs and metrics for agents.
+- [30:49] Yes. So,
+- [30:52] I think we need a
+- [30:52] comprehensive review of the metrics
+- [30:55] for agents, but also for humans.
+- [30:57] We need to review the the metrics
+- [30:59] for humans
+- [31:00] in the context of working
+- [31:01] in the hybrid teams.
+- [31:04] For example,
+- [31:04] we want humans to incentivize them
+- [31:08] to test more,
+- [31:10] to try more, to fail more, basically,
+- [31:14] in using those different technologies,
+- [31:17] and spend more time trying them,
+- [31:19] observing what's happening,
+- [31:21] understanding what are the new opportunities
+- [31:23] that are given to them,
+- [31:25] automating part of their work,
+- [31:28] but also focusing on
+- [31:29] and building new skills,
+- [31:33] in judgment, in creativity,
+- [31:35] in I mean,
+- [31:36] the skills that we talked about
+- [31:37] that are uniquely human.
+- [31:39] So we need
+- [31:40] these metrics on the human side,
+- [31:42] on the the agent side, we need,
+- [31:46] we need to set up alerts.
+- [31:48] We need to collect user feedback,
+- [31:52] to understand if,
+- [31:52] if they are doing things
+- [31:54] well, we need to monitor
+- [31:55] the decision quality
+- [31:56] when they
+- [31:57] when they make a decision understand
+- [31:58] if they’ve done it the right way,
+- [32:00] audit that and make sure that it happens
+- [32:01] the right way.
+- [32:03] But then on an overall
+- [32:05] hybrid team metric,
+- [32:08] I think it's very important to combine
+- [32:11] qualitative and quantitative metrics.
+- [32:13] So, you know, we are very often,
+- [32:16] especially in the business context,
+- [32:18] likely to focus on,
+- [32:20] reducing cost, reducing time, reducing-
+- [32:23] efficiency, basically productivity.
+- [32:25] But we shouldn't keep out of sight.
+- [32:28] The improvement
+- [32:30] in customer experience,
+- [32:31] in employee experience.
+- [32:33] I mean, there's more
+- [32:33] the satisfaction aspect
+- [32:35] those more qualitative aspects.
+- [32:36] So it's-
+- [32:37] I think we need to have
+- [32:39] the right combination of those metrics
+- [32:41] with the qualitative and quantitative.
+- [32:43] It's very important to have.
+- [32:43] - It's funny
+- [32:44] because you're describing sort of,
+- [32:46] you know, we have agents
+- [32:47] and humans working side by side.
+- [32:49] And then we have machine type
+- [32:50] metrics and human type metrics
+- [32:52] side by side as well.
+- [32:53] - Exactly.
+- [32:54] - Let's talk about briefly
+- [32:55] the change management
+- [32:57] part of this and keeping up with
+- [33:00] the rate of change.
+- [33:00] It must be stressful
+- [33:01] for you to write a book,
+- [33:02] because so many things might change
+- [33:05] in the time that the book comes out.
+- [33:07] So how do leaders then
+- [33:09] approach managing the fact
+- [33:10] that the technology is changing
+- [33:13] as they are trying to implement it,
+- [33:15] almost out from under them?
+- [33:17] I think we
+- [33:19] we all need to build the three
+- [33:21] competencies of the future,
+- [33:23] the three competencies of the future
+- [33:24] we already discussed about one
+- [33:26] which is being human ready,
+- [33:27] which is about building the
+- [33:28] the uniquely human abilities.
+- [33:30] The two other ones are
+- [33:32] being change ready,
+- [33:34] it is all about that,
+- [33:36] the change the world-
+- [33:37] I mean the change in our world
+- [33:39] is accelerating. In magnitude, frequency,
+- [33:43] and it's it's going to be even more
+- [33:45] and more and more and we can feel it.
+- [33:46] I think we have more information
+- [33:48] coming to us,
+- [33:49] new models coming every day
+- [33:51] with new capabilities,
+- [33:52] new characteristics.
+- [33:53] So how do we identify the trivial
+- [33:55] from the important things?
+- [33:58] How do we filter this?
+- [34:02] The third of the
+- [34:04] three competencies
+- [34:06] of the future is being AI-Ready.
+- [34:09] And I think especially when we talk
+- [34:10] about those technologies
+- [34:11] and what they can bring to ourselves
+- [34:12] and to our businesses,
+- [34:14] it's about being able to identify
+- [34:17] those technologies
+- [34:19] that are worth being tested and used.
+- [34:22] So basically identifying the ones that
+- [34:25] could have meaning for me in my work
+- [34:28] and in my life,
+- [34:31] try them,
+- [34:33] and because there is no other way
+- [34:36] than to be hands-on
+- [34:37] and and trying them to understand
+- [34:39] really the benefits you can get.
+- [34:43] And what does it mean?
+- [34:44] It means that for us leaders, we need
+- [34:47] to give this time to our team members.
+- [34:49] So what I recommend is,
+- [34:51] give our team members
+- [34:52] about 20% of their working time to,
+- [34:56] to be aware of what's happening,
+- [35:00] what is coming out new in the AI world,
+- [35:03] identifying what makes sense to them,
+- [35:06] and then try those and fail, of course,
+- [35:08] but sometimes succeed.
+- [35:11] So- and it's not about any more-
+- [35:13] And I think this is the new type
+- [35:14] of education that we need
+- [35:15] to give our teams.
+- [35:17] It's not anymore
+- [35:18] school, classroom type of training where,
+- [35:22] as you said, anything that is true
+- [35:24] today is will change in any way.
+- [35:28] When the classroom program will
+- [35:31] be, will be released,
+- [35:32] it's going to be already outdated.
+- [35:34] It's an AI literacy,
+- [35:38] mindset that we need to give our teams
+- [35:39] - Yeah.
+mindset that we need to give our teams
+- [35:40] mindset that we need to give our teams
+- [35:41] and we need to give them this time,
+- [35:43] this capacity to do that.
+- [35:44] So basically they need to learn
+- [35:46] how to do that,
+- [35:47] and finally,
+- [35:48] we need to incentivize them on that,
+- [35:50] so basically reward them
+- [35:52] because they've failed
+- [35:53] because they've tried
+- [35:53] because they've spent time and sometimes
+- [35:56] and sometimes lost time
+- [35:59] doing something, but
+- [36:00] but it was worth trying it,
+- [36:02] and that was great.
+- [36:04] Right.
+- [36:04] So it sounds like what you're saying is
+- [36:06] start with your outcome.
+- [36:07] Don't necessarily chase every new tool
+- [36:09] that comes along.
+- [36:10] Start with your outcome in mind,
+- [36:12] but be willing to experiment
+- [36:13] as an organization,
+- [36:14] which is a really key point
+- [36:15] to build in that flexibility and
+- [36:17] and time.
+- [36:18] Exactly. Exactly.
+- [36:21] Okay.
+- [36:21] You are so tactical
+- [36:23] and specific, which I love,
+- [36:24] and so this is a great chance to ask you,
+- [36:28] let's say I'm a CEO,
+- [36:29] and I am sold on this,
+- [36:31] and I'm not sure how to get started.
+- [36:33] You've given us,
+- [36:34] you know, glimmers
+- [36:35] of what you might say here,
+- [36:36] but I wonder what is your
+- [36:37] what is your blueprint
+- [36:39] for starting this journey
+- [36:40] and then getting it right?
+- [36:42] First of all,
+- [36:43] I think
+- [36:44] I've never seen such
+- [36:45] a transformation succeed.
+- [36:47] If you don't have a clear
+- [36:49] view from the top.
+- [36:50] So the C-levels,
+- [36:51] the board of directors or managers
+- [36:54] of the company
+- [36:55] need to have a certain vision of what
+- [36:58] this technology will do
+- [37:00] to transform the company.
+- [37:01] And it's not here
+- [37:02] about adapting technology
+- [37:04] because of the sake of doing,
+- [37:07] of using the latest shiny technology,
+- [37:09] but really answering to use cases
+- [37:12] to business issues that we need to solve
+- [37:15] that is the first thing.
+- [37:16] The second is,
+- [37:18] investing in people and talents.
+- [37:20] So basically
+- [37:21] creating a- what I call
+- [37:23] a center of excellence or,
+- [37:24] or you can call it,
+- [37:26] an AI talent group, or whatever.
+- [37:30] It can be, first of all,
+- [37:31] one person who knows those technologies
+- [37:35] and who will launch this program,
+- [37:40] under the mandate
+- [37:41] from management and will help
+- [37:45] the different functions
+- [37:46] in the company to identify
+- [37:47] different use cases,
+- [37:49] collate all these together
+- [37:51] and get back to management to understand
+- [37:54] what is the level of
+- [37:56] investment we are ready to
+- [37:58] to give in the company
+- [37:59] and build the business case,
+- [38:01] basically to understand
+- [38:02] what will be the profits
+- [38:04] out of the transformation
+- [38:06] that we can expect.
+- [38:07] And finally,
+- [38:08] this person will start building
+- [38:10] the team of developers and technical
+- [38:14] people who we will need to build this
+- [38:17] and to implement this,
+- [38:18] this transformation.
+- [38:20] Investing in people is also,
+- [38:22] as I said before, informing the people,
+- [38:24] educating the people,
+- [38:25] incentivizing them, empowering them,
+- [38:27] by giving them
+- [38:28] access to the right tools.
+- [38:30] Yeah, I think those are the-
+- [38:31] - That's great, I mean, that is-
+- [38:34] - And I think
+- [38:34] start small, and
+- [38:36] but see big,
+- [38:38] so it's really about starting with
+- [38:42] a pilot that demonstrates
+- [38:44] the capability of the technology
+- [38:46] to serve the business
+- [38:47] impact on the company and,
+- [38:50] and give this enough visibility
+- [38:51] so that it really
+- [38:53] creates a dynamic in the company
+- [38:54] and everyone wants to
+- [38:57] to go with that.
+- [38:58] To be part of it. I love it.
+- [38:59] Thank you again to Pascal Bornet,
+- [39:01] author and AI expert,
+- [39:03] the coauthor of the recent book
+- [39:04] Agentic Artificial Intelligence:
+- [39:06] Harnessing AI Agents
+- [39:07] to Reinvent Business Work and Life.
+- [39:10] Pascal, thanks so much for the time.
+- [39:11] Thank you, Molly. Thanks a lot.
+- [39:14] I'm your host, Molly Wood.
+- [39:15] Thanks for listening to WorkLab.
+- [39:17] Learn more about the podcast
+- [39:18] at microsoft.com/WorkLab.
+- [39:21] If you've got a question or a comment,
+- [39:22] drop us an email
+- [39:24] at worklab@microsoft.com
+- [39:26] and check out
+- [39:27] Microsoft's Work Trend Indexes
+- [39:28] and the WorkLab digital publication,
+- [39:30] where you'll find all of our episodes,
+- [39:32] along with thoughtful stories
+- [39:33] that explore
+- [39:34] how business leaders are thriving
+- [39:36] in today's AI era.
+- [39:37] You can find all of that
+- [39:39] at microsoft.com/WorkLab.
+- [39:41] As for this podcast,
+- [39:42] rate us, review us,
+- [39:43] and follow us wherever you listen.
+- [39:45] It helps us out a ton.
+- [39:47] The WorkLab Podcast
+- [39:48] is a place for experts
+- [39:49] to share their insights and opinions.
+- [39:51] As students
+- [39:52] of the future of work,
+- [39:53] Microsoft values inputs
+- [39:54] from a diverse set of voices.
+- [39:56] That said, the opinions
+- [39:57] and findings of our guests are their own
+- [40:00] and they may not necessarily reflect
+- [40:01] Microsoft's own research or positions.
+- [40:04] WorkLab is produced by Microsoft
+- [40:06] with Trifilm.
+- [40:07] Sharon Kallander
+- [40:07] and Matthew Duncan produce the podcast
+- [40:09] with editorial support
+- [40:10] from Jon Eilenberg.
+- [40:12] Jessica Voelker is the WorkLab editor.

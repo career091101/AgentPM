@@ -1,0 +1,298 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=od5zckQpJRo"
+video_id: "od5zckQpJRo"
+video_url: "https://www.youtube.com/watch?v=od5zckQpJRo"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["AI", "machine_learning"]
+topics: ["AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=od5zckQpJRo
+  - Retrieved at: 2025-12-30T16:18:07+09:00
+  - [00:00] Hey chat GPT start computer use to
+key_points:
+  - "- [03:41] So, it found that. So, now it should"
+  - "- [03:52] should do open w with or open me here in"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: od5zckQpJRo
+
+- URL: https://www.youtube.com/watch?v=od5zckQpJRo
+- Retrieved at: 2025-12-30T16:18:07+09:00
+
+## Text
+
+- [00:00] Hey chat GPT start computer use to
+- [00:02] create GPT6.
+- [00:08] Google deep mind released a new Gemini
+- [00:11] 2.5 computer use model uh a few days ago
+- [00:15] maybe yesterday already I think so. So
+- [00:17] today uh I built an MCP server that is
+- [00:20] using this uh computer use model. So I
+- [00:23] have kind of two stages. One is browser
+- [00:26] use and one is controlling my Mac here.
+- [00:29] Right. So, uh it's pretty interesting
+- [00:31] and the MCP server is working great. So,
+- [00:33] today I just want to take you through a
+- [00:35] few different use cases uh how we can
+- [00:38] use this computer use model from Gemini
+- [00:41] to yeah control our computer or our
+- [00:44] browser. So, let's just get into it and
+- [00:47] I can show you a few things we can do
+- [00:48] with this. To show you this uh we are
+- [00:50] going to use cloud code. So, I'm just
+- [00:52] going to go to cloud code here. I'm
+- [00:54] going to do my I have a global one for
+- [00:56] this. So/MCP you can see computer use
+- [00:59] this the only one we have here and if
+- [01:01] you look at the tools now I kind of did
+- [01:03] this in two different um yeah I can
+- [01:06] quickly show you the code here but we
+- [01:08] have four tools for browser use and we
+- [01:11] have four tools for open Mac as u Mac OS
+- [01:14] app control app do a screenshot and
+- [01:17] actions and we have the same for browser
+- [01:19] use right screenshot and execute actions
+- [01:22] so if you look at the code here I'm not
+- [01:24] going to go through the code but you can
+- [01:25] see we have one uh TypeScript for
+- [01:27] browser and we have one for MacOSS right
+- [01:31] and in the index we kind of reference to
+- [01:33] both so we can control them uh yeah you
+- [01:36] can see some examples here uh but I
+- [01:39] don't want to spend too much time on
+- [01:40] this here's kind of our type definitions
+- [01:43] like I said X screenshot Mac screenshot
+- [01:46] browser and you kind of get the point uh
+- [01:49] if people want to dive deeper into this
+- [01:51] let me know if you are interested in the
+- [01:53] exact code here But the idea today is
+- [01:57] just show you how this work in practice
+- [01:59] and kind of how well this model performs
+- [02:02] in real use cases. So I think I want to
+- [02:05] start off with a MacOSS use case. Then
+- [02:08] we can do a browser use case and maybe
+- [02:10] finish with the favorite use case I
+- [02:12] created. Uh yeah, you will see that in
+- [02:14] the end of the video. So let's just
+- [02:16] start with something simple here for the
+- [02:19] the Mac OS app. So, uh, I think it was
+- [02:22] last week before the new Taylor Swift
+- [02:24] album, I asked Sunno to create like a
+- [02:27] new try to guess what the songs were
+- [02:30] going to be on that new album. And it
+- [02:33] created a song called Elizabeth. Yeah,
+- [02:35] it's an uh video file ismpp4.
+- [02:39] And we're going to ask the computer to
+- [02:41] find this uh on my Mac and rightclick
+- [02:44] the file and open it with a quick time
+- [02:46] player. So, I'm just going to hit enter
+- [02:49] now. And we're going to see the MCP
+- [02:51] server. Now do some yeah commands to
+- [02:54] this model. Right? If you wait a second,
+- [02:56] you can see tool use here. Find the file
+- [02:58] name uh here on the computer. Right
+- [03:00] click, open the quick time player. Max
+- [03:02] turns 15. So we have like a limit on
+- [03:05] turns here. So I'm just going to say
+- [03:07] yes. So now, of course, I'm hands off.
+- [03:10] You can see that. So this is going to
+- [03:12] try to use the tools we created with the
+- [03:14] MCP uh with the model now. Okay. So we
+- [03:17] got some errors here. So, it needs to
+- [03:18] maybe do a smaller screenshots. Let's
+- [03:20] try that again. Uh, okay. So, now you
+- [03:23] can see it went to the finder. It's
+- [03:25] probably going to do some kind of
+- [03:26] search. Let's see.
+- [03:29] Okay. So, it's clicked on search. That's
+- [03:30] good. So, let's see if it types in
+- [03:33] Elizabeth, I would say. I would guess
+- [03:35] would be the best the thing to do here.
+- [03:38] Yeah, it's doing Elizabeth MP4. Great.
+- [03:41] So, it found that. So, now it should
+- [03:43] just rightclick it and do open with
+- [03:46] QuickTime player.
+- [03:49] Okay, so it's going into archive. So it
+- [03:52] should do open w with or open me here in
+- [03:55] Norwegian and it should do quicktime
+- [03:57] player. So let's see if it finds that.
+- [04:00] Okay, so open with and we have quicktime
+- [04:03] player and hopefully that should open up
+- [04:05] the video. So you can see it's not very
+- [04:08] fast, but it is pretty good at actually
+- [04:10] finding the right pixels. Okay, good. So
+- [04:13] I don't know if it's going to click play
+- [04:14] here. Let's see.
+- [04:24] Okay. So, I would say that was task
+- [04:26] completed. So, you can see it found it,
+- [04:28] opened it, and played it. So, yeah, it's
+- [04:32] playing the content. Uh, so I think that
+- [04:34] was a pretty good job. Wasn't really
+- [04:36] fast. I would do it, of course, much
+- [04:38] faster, but I think it executed pretty
+- [04:40] well on controlling my computer here. So
+- [04:43] now let's go over to the browser use
+- [04:45] case and see if we can do that. Okay, so
+- [04:47] I wanted to see if we can do some uh
+- [04:49] filling out some forms. So we have this
+- [04:51] robo form here test. Yeah, something we
+- [04:54] can do here, right? We can test this to
+- [04:56] fill out forms. So I'm going to go to my
+- [04:58] MCP server. I have a big film uh form to
+- [05:01] fill out. I'm going to do the URL. Help
+- [05:04] me fill out all of this. Uh the
+- [05:06] assignment should is to role play as Neo
+- [05:08] from Matrix, right? So just make up
+- [05:11] something to fill out. So what happens
+- [05:12] when we run this now? So this is not
+- [05:15] going to be opened in Chrome now. This
+- [05:17] is going to be opened in um uh Chromium
+- [05:21] I guess. Play right. So you can see
+- [05:23] we're going to do the screenshot page or
+- [05:25] I'm not quite sure. Maybe you're going
+- [05:27] to do it something else. Uh I think it's
+- [05:29] just going to be the Chromium one,
+- [05:31] right? Yeah. So we go to this robo form
+- [05:34] filler here. We do a screenshot. And now
+- [05:36] I think we go back to computer use and
+- [05:39] planning out back to the cloud code
+- [05:42] agent to plan out what we're going to
+- [05:44] fill out. So we go back in again. Okay.
+- [05:47] So we did that extra evaluated. It's
+- [05:49] scrolled down just to see the full page.
+- [05:51] And now it's going to fill out the form
+- [05:53] as Nate Neo from Matrix. You can see
+- [05:55] here it's doing the plan. Okay. I'm
+- [05:58] going to say yes to that. Okay. So we go
+- [06:00] back to the robo form. Uh now I kind of
+- [06:02] want to see it start filling out this.
+- [06:04] Right. So, we should just press got it
+- [06:07] there on the cookies and start filling
+- [06:10] out uh because it has all the
+- [06:11] information it needs now, I think. Yeah,
+- [06:14] you can see we start with Mister and
+- [06:16] it's probably going to be Thomas, isn't
+- [06:18] that Thomas Anderson? Yeah. So, I'm just
+- [06:21] going to speed this up and I'll be back
+- [06:23] when uh let's see how far we can if we
+- [06:26] can do the full thing. I'm not quite
+- [06:27] sure because of the turns, but let's see
+- [06:29] how far we get here.
+- [06:32] Okay, as you probably saw, it closed
+- [06:34] down the page, but you can you kind of
+- [06:36] saw it filled out all the forms. So, not
+- [06:40] I think it stopped uh on a few last of
+- [06:42] the fields because we didn't have any
+- [06:43] more turns here. I could have up the max
+- [06:45] turns, but that's fine. Uh it did
+- [06:47] actually do what we asked for and I
+- [06:49] think it worked pretty good. So, uh I
+- [06:51] want to do a final test and that is
+- [06:52] going to be back on the MacOSS use and
+- [06:55] we're going to do some terminal stuff.
+- [06:56] So, let's see how that uh works. Okay,
+- [06:59] so the final thing I wanted to do was to
+- [07:01] use the computer, use MCP, open up
+- [07:03] cursor, create a file, uh, hello
+- [07:05] YouTube.py, add Python code to print
+- [07:08] hello YouTube, then execute this code.
+- [07:11] Uh, I'm just going to set the max turn
+- [07:13] to 15. So, let's just see what happens
+- [07:15] now. Are we going to go into cursor? Are
+- [07:17] we going to go open up a new version?
+- [07:19] Let's just see. I haven't tried this
+- [07:21] before. Okay, so I guess we went
+- [07:22] straight to cursor. Um, does it even
+- [07:25] know how to navigate this? I'm not quite
+- [07:28] sure. Okay, so we did a new file at
+- [07:30] least. So, let's see what happens now.
+- [07:32] It's probably going to screenshot this.
+- [07:35] And it should just be able to Where is
+- [07:37] that file? Is it this?
+- [07:40] Okay, so it's
+- [07:43] that's not going too well. Why is it
+- [07:45] writing so strangely? Maybe I should set
+- [07:48] that on a region European keyboard. I'm
+- [07:51] not quite sure. Okay, so now it's trying
+- [07:53] to save the file, I guess. So it's
+- [07:55] called it some kind of untitled Hello
+- [07:57] Python. Okay, that's it's not perfect,
+- [08:00] but I guess it's fine. Okay, so it is
+- [08:02] actually doing a fine job saving here, I
+- [08:05] guess. But we also need the code in this
+- [08:07] file. Okay, so now we have the Python
+- [08:09] here. Let's see if we can actually do
+- [08:11] the coding code here. Okay, so it looks
+- [08:13] like we did the correct code here. So
+- [08:15] it's print hello YouTube. That looks
+- [08:17] better. So now it has to save this
+- [08:19] before we can run it. Why is it doing a
+- [08:22] new agent? So, I'm not quite sure if
+- [08:25] it's just going to go to file or save or
+- [08:27] if it's just going to do control uh
+- [08:29] command s. Okay, so it did save it. So,
+- [08:32] it's going to Python hello YouTube.py
+- [08:34] can open it. No such file. Was it the
+- [08:37] wrong file? I did a plus sign. Okay, so
+- [08:41] let's see what it's going to do then.
+- [08:43] Okay, so it clicked on the split edit or
+- [08:45] why? Just click on the play now and we
+- [08:48] should be good to go. I don't know if it
+- [08:50] knows the keyboard layout. I'm not quite
+- [08:51] sure what's going on here now. It's
+- [08:53] trying to change the name of the file.
+- [08:55] Okay. Okay. So, it changed the name to
+- [08:58] hello.py.
+- [09:00] Okay. Why is it doing a new terminal
+- [09:03] now? It's so close now. It just has to
+- [09:06] run the Python code and we should be
+- [09:08] good to go here. Okay. So, why did it
+- [09:10] close the terminal now? That was very
+- [09:12] strange.
+- [09:14] Okay. So, it has the terminal now at
+- [09:15] least again.
+- [09:18] So all it has to do now is do python
+- [09:20] hello yt.py and we should be done here.
+- [09:24] Okay, so we're doing a screenshot.
+- [09:27] Okay, finally.
+- [09:29] That took forever. That was very
+- [09:32] unefficient, but we got there in the
+- [09:34] end. Okay, that's fine, I guess. Uh but
+- [09:38] uh yeah, that wasn't too impressive, but
+- [09:41] it was cool, but not very impressive.
+- [09:43] But overall, I think this new model is h
+- [09:45] quite exciting. Uh, I had a lot of fun
+- [09:47] with it setting up this MCP, trying out
+- [09:50] different stuff. Uh, there were some
+- [09:51] clips I didn't include. I tried to do
+- [09:54] some painting uh on paint and I did some
+- [09:57] other stuff with Yeah, maybe in another
+- [10:00] video. Uh, but there's a lot of fun
+- [10:01] things you can do with this. Is this
+- [10:03] perfect now? I don't think so. Uh, but
+- [10:06] it's getting incrementally better. It's
+- [10:08] much better than the first time I tried
+- [10:10] the cloud computer use. and it's just
+- [10:13] keep uh upping each other these
+- [10:15] different model providers. So, it is a
+- [10:17] step forward and it's going to be
+- [10:19] interesting to see where this part of
+- [10:21] the stack goes. And it's pretty
+- [10:23] interesting when you combine it with an
+- [10:25] MCP tool and you can just get access to
+- [10:28] more context and your context
+- [10:30] engineering can get like a bump up in
+- [10:32] level if you find the right use cases
+- [10:34] for it. Uh, I had a lot of fun playing
+- [10:36] around with my Mac computer uh,
+- [10:38] controls, but it's a bit risky, so I
+- [10:42] don't know if I recommend it. But go
+- [10:43] check it out. Gemini 2.5 computer use
+- [10:46] model. Thank you for tuning in. Have a
+- [10:48] great day, and I'll see you again soon.

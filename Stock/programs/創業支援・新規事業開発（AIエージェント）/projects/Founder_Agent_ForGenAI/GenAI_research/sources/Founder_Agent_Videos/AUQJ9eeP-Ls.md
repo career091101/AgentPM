@@ -1,0 +1,2232 @@
+---
+title: "YouTube Video: AUQJ9eeP-Ls"
+video_id: "AUQJ9eeP-Ls"
+video_url: "https://www.youtube.com/watch?v=AUQJ9eeP-Ls"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  In this video, I'll show you how to build an AI rag application in Python and how to get it ready to deploy to production. Now, I say that because I myself have made many AI projects on this channel. ...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: AUQJ9eeP-Ls
+
+- URL: https://www.youtube.com/watch?v=AUQJ9eeP-Ls
+- Retrieved at: 2025-12-30T09:58:08+09:00
+
+## Text
+
+- [00:00] In this video, I'll show you how to
+- [00:02] build an AI rag application in Python
+- [00:05] and how to get it ready to deploy to
+- [00:07] production. Now, I say that because I
+- [00:09] myself have made many AI projects on
+- [00:12] this channel. You've probably seen a few
+- [00:14] of them. And while those projects are
+- [00:16] super fun and cool and you can learn a
+- [00:18] lot, they're not ready to be deployed
+- [00:20] into the wild and used in a production
+- [00:22] environment. That's because they're
+- [00:23] missing observability, logging, retries,
+- [00:27] throttling, rate limiting, all of the
+- [00:29] things that you need for a real
+- [00:31] production-grade AI app. And in this
+- [00:33] video, I'm going to show you exactly how
+- [00:35] to get all of those things. And the good
+- [00:37] news is it's free. It's very easy to do,
+- [00:40] and I'm going to walk you through it
+- [00:42] step by step using something called
+- [00:44] Inest. Now, I want to give you a quick
+- [00:45] demo of what the finished application
+- [00:47] will look like. Then we're going to dive
+- [00:49] in, and we're going to start coding
+- [00:50] everything out. And to be clear, the
+- [00:52] stack that we're going to use in this
+- [00:53] video is going to be Python. That's
+- [00:55] where we're going to be writing all of
+- [00:56] our code. We're going to use Streamlit
+- [00:58] for the front end. We're going to use
+- [00:59] Quadrant, which is a specific vector
+- [01:01] database, which you can run locally,
+- [01:03] which I'm going to talk about when we
+- [01:04] get to that point. We're going to use
+- [01:05] Inest for all of the orchestration and
+- [01:08] observability. And then we're going to
+- [01:10] use things like Llama Index for
+- [01:12] ingesting PDFs. And we'll also use
+- [01:14] OpenAI for the AI components. I know
+- [01:16] that sounds like a lot, but don't worry,
+- [01:18] I will break it down and explain it step
+- [01:19] by step. Now let's have a quick look at
+- [01:22] a demo. Okay, so I'm on the computer and
+- [01:24] on the lefth hand side you can see a
+- [01:26] simple user interface that's built in
+- [01:28] streamlet. Now what you can do here is
+- [01:30] essentially just chat with various PDFs.
+- [01:32] This represents a very simple rag
+- [01:34] application which is retrieval augmented
+- [01:36] generation. If you're not familiar with
+- [01:38] that essentially what it means is you
+- [01:39] can upload any file that you want. It
+- [01:41] will get vectorized which means turned
+- [01:44] into a format that essentially can be
+- [01:46] really quickly searched and kind of
+- [01:47] pulled in by an LLM. And then we can ask
+- [01:49] a question. So I can say something like,
+- [01:51] "What does a road map engineer do?" This
+- [01:53] is actually in one of the contracts that
+- [01:56] I uploaded here for my program Dev
+- [01:58] Launch where we're hiring someone to
+- [01:59] help us build out road maps for students
+- [02:01] and their position is roadmap engineer.
+- [02:04] Anyways, we'll wait a second here. It
+- [02:05] should actually generate the answer for
+- [02:07] us and then it will give us that answer
+- [02:09] based on the document that was uploaded.
+- [02:11] So you can see it says a road map
+- [02:13] engineer is this and then it tells us it
+- [02:15] pulled it from this source. Now, in this
+- [02:17] case, four of them were the same sources
+- [02:18] because there's multiple information
+- [02:20] from the same source. And then the last
+- [02:22] one was this invoice 4, which obviously
+- [02:24] didn't give us any relevant data. Okay,
+- [02:26] so that's kind of the application we're
+- [02:27] going to build. But what you may notice
+- [02:29] is on the right hand side of my screen,
+- [02:30] I have this really interesting
+- [02:32] application open. Now, this is what
+- [02:34] ingest looks like. We're running the
+- [02:35] local development server and essentially
+- [02:38] this gives us insights into everything
+- [02:40] that's happening in our application. So,
+- [02:42] we can view our app. We can see that we
+- [02:44] have two inest functions here. So we
+- [02:46] have one for ingesting a PDF and then
+- [02:48] for querying the PDF we can look at
+- [02:50] them. We can actually manually invoke
+- [02:52] them directly from here if we want to
+- [02:53] test them out without a UI and then we
+- [02:55] can view all of the runs of these
+- [02:57] different functions. This is the most
+- [02:59] useful part in my opinion because for
+- [03:01] example I was testing this earlier and I
+- [03:03] had a run that failed. Now the way that
+- [03:05] I have this set up is that it's going to
+- [03:07] retry five times automatically and you
+- [03:10] can see that every retry it's telling us
+- [03:12] exactly how long it took to run. We can
+- [03:14] click into it. We can view the logs and
+- [03:16] see the error that occurred. I can copy
+- [03:17] it and kind of dive into that. And then
+- [03:19] I can actually rerun this particular
+- [03:22] step and test it again. Then we also
+- [03:24] have completed runs. So for example, we
+- [03:26] can see that we had multiple steps in
+- [03:28] this run right here where we had to do
+- [03:30] an embed and search come up with an LLM
+- [03:33] answer and we can see the results at
+- [03:35] every single step here. So we know
+- [03:37] exactly what's going on and we can
+- [03:39] really have deep observability into our
+- [03:41] application which is super important.
+- [03:43] Same thing with actually loading in a
+- [03:45] PDF. For example, you can see this whole
+- [03:46] thing took 3.4 seconds to load and
+- [03:49] chunk. It only took 74 milliseconds. To
+- [03:51] actually embed it took a little bit
+- [03:52] longer, 1.9 seconds. And then
+- [03:54] finalization, 1.2 seconds, where we
+- [03:57] returned the result. So that's a quick
+- [03:58] demo of the application. Don't worry,
+- [04:00] I'll make it all clear as we go through
+- [04:02] the tutorial. Now, let's hop over to the
+- [04:04] code editor and start building this
+- [04:06] project. So before we dive into the code
+- [04:08] here, I want to explain to you the
+- [04:10] architecture of this project at a high
+- [04:12] level and the different components that
+- [04:13] we're going to use and why we're going
+- [04:15] to use those. Now to do that, let's
+- [04:17] start by understanding what rag is. Now
+- [04:20] rag stands for retrieval augmented
+- [04:22] generation. Essentially, all that means
+- [04:24] is that rather than relying on the base
+- [04:26] model or the base training from
+- [04:28] something like, you know, OpenAI or GPT4
+- [04:31] to generate a response for us, we're
+- [04:33] going to augment that by actually
+- [04:35] passing in additional data to the
+- [04:37] prompt. This data is typically going to
+- [04:39] be information from like a PDF document
+- [04:41] or from our own knowledge store or
+- [04:43] something along those lines so that the
+- [04:45] LLM can reason based on data that's
+- [04:48] relevant to what we're asking it. So in
+- [04:50] this case, we're making a PDF rag
+- [04:52] application. So that means we'll be able
+- [04:53] to upload any PDF that we want and then
+- [04:55] we can ask questions about any of the
+- [04:57] information that's inside of those PDFs.
+- [05:00] What will happen is when we ask that
+- [05:02] question, we'll search in the vector
+- [05:04] database for relevant information. We'll
+- [05:06] then take that relevant information,
+- [05:08] give it to our model by just actually
+- [05:10] putting it inside of the prompt, and
+- [05:11] then we'll tell the model, hey, reason
+- [05:13] based on this information and give us an
+- [05:15] answer. So, for example, if we had some
+- [05:17] invoices or something and we ask, you
+- [05:19] know, how much did I pay Tim? We would
+- [05:21] go and we would look through all the
+- [05:22] invoices, we would take out the relevant
+- [05:24] information. We would pass it to the
+- [05:25] LLM. We would say, hey, LLM, use this
+- [05:27] information and answer the question, and
+- [05:28] then it would look at that and say,
+- [05:30] "Hey, you paid Tim $10 or whatever the
+- [05:32] amount is." Now, in order to do that,
+- [05:34] that involves having a vector database
+- [05:36] and some other components. Now, as I
+- [05:39] said, kind of the core of what I want to
+- [05:40] show you in this video is the fact that
+- [05:42] we can do this at a production level by
+- [05:45] using an orchestration tool called
+- [05:47] ingest. Now, this is very important
+- [05:49] because when we actually want to go to
+- [05:51] production, we need to be able to see
+- [05:52] what's happening. We need to have
+- [05:53] retries. We need to have throttling. We
+- [05:55] need to have rate limiting. We just have
+- [05:56] observability and logging into what's
+- [05:58] going on with our AI app. Now, I'm
+- [06:00] thrilled to say that Ingest has
+- [06:02] sponsored this video. Don't worry,
+- [06:03] they're completely open source. You do
+- [06:05] not need to pay for anything. You don't
+- [06:06] even need to make an account to be able
+- [06:08] to use this application. And that's
+- [06:10] exactly what we're going to do in this
+- [06:12] video. We're just going to use what's
+- [06:13] called their local dev server. Quickly
+- [06:15] going through it, you have all different
+- [06:16] kinds of ways that you can effectively
+- [06:18] run different steps. And this allows you
+- [06:20] to orchestrate, which just means kind of
+- [06:22] manage and organize all of the steps
+- [06:25] that are happening inside of your AI
+- [06:27] application. They have a Python SDK,
+- [06:29] which we're going to be using. They also
+- [06:30] have a TypeScript and JavaScript SDK,
+- [06:33] which is a little bit more popular. And
+- [06:34] you can see that this allows us to
+- [06:36] actually just have all of the
+- [06:38] orchestration immediately ready. So we
+- [06:40] can push this into production, see
+- [06:41] exactly what's happening, have it
+- [06:43] distributed across multiple servers.
+- [06:45] It's fault tolerant. We can see
+- [06:46] everything that's going on. And you'll
+- [06:48] see how much easier this actually makes
+- [06:50] development. Okay, that's ingest. That's
+- [06:52] the orchestration and the kind of you
+- [06:55] know production ready component. The
+- [06:57] next thing is we need a vector database.
+- [06:59] Now, a vector database is just something
+- [07:02] that's going to store all of our data in
+- [07:04] a vector format. Now, the way that this
+- [07:07] effectively works is we're going to
+- [07:08] convert textual data into this numeric
+- [07:10] vector and we'll be able to search these
+- [07:13] vectors extremely fast for similarity.
+- [07:16] So what that means if I type something
+- [07:18] like color, right, or you know, whatever
+- [07:20] some word that we would be able to turn
+- [07:22] that into a vector and then compare that
+- [07:24] vector similarity to all of the other
+- [07:26] vectors that we have in our database,
+- [07:28] which effectively just allows us to
+- [07:30] really quickly search through all of the
+- [07:32] documents that we're going to be
+- [07:33] uploading and find all of the relevant
+- [07:35] data so we can give it to the LLM. I'm
+- [07:37] not going to go into this in a ton of
+- [07:38] depth, but a vector database is just a
+- [07:40] really fast database specifically useful
+- [07:43] for use with LLMs that lets us search
+- [07:45] for similarity. That's typically what
+- [07:47] we're looking for uh in kind of
+- [07:49] documents or, you know, pieces of
+- [07:51] information so we can pull it out and
+- [07:52] give it to our LLM. Now, in order to use
+- [07:55] the vector database, we're also going to
+- [07:56] use something called llama index. This
+- [07:58] is going to allow us to actually load in
+- [08:00] a PDF and then to parse the PDF and
+- [08:02] essentially turn it into something that
+- [08:04] we can pass to Quadrant, which is the
+- [08:06] local vector database that we'll be
+- [08:07] using. And then the last piece of the
+- [08:09] puzzle is we're going to be using OpenAI
+- [08:11] for our LLM, so using something like
+- [08:13] GPT. We'll also use Streamlit for the
+- [08:16] front end, but we'll get to that later.
+- [08:19] Okay, so let's close all of that and
+- [08:21] let's go into PyCharm. And this is where
+- [08:23] I'm going to write all of the code. Now,
+- [08:24] you can use any editor that you want,
+- [08:25] but I typically do recommend PyCharm
+- [08:27] because it is just the best for
+- [08:29] Pythonheavy projects. I also do have a
+- [08:31] long-term partnership with PyCharm, so
+- [08:33] you guys can check it out. You can get a
+- [08:34] free trial, see if you like it, of the
+- [08:36] pro subscription by clicking the link
+- [08:38] down below, and you'll see through this
+- [08:40] video some of the features that it has
+- [08:41] that really does make it nice for these
+- [08:43] large projects. Okay, so first things
+- [08:45] first, I'm just going to go into full
+- [08:46] screen mode. So, let's enter full
+- [08:48] screen, and I'm going to start setting
+- [08:49] up my dependencies for my Python
+- [08:51] project. Now, what I'm going to do is
+- [08:53] I'm going to type UV innit and then dot
+- [08:56] and I'm going to just do this inside of
+- [08:58] a folder that I've opened. So, I've
+- [08:59] opened rag production app uvit dot hit
+- [09:03] enter. It's going to initialize a new UV
+- [09:04] project for me. All right. Now, we need
+- [09:06] a few dependencies here. So, what we're
+- [09:08] going to do is type UV add and I'm going
+- [09:10] to start listing them out. Now, first we
+- [09:12] need fast API. This is because we're
+- [09:14] going to write effectively an API that's
+- [09:16] going to be callable to do this kind of
+- [09:18] uh PDF ingestion and the querying of the
+- [09:21] PDF. essentially the rag application.
+- [09:23] We're going to bring in ingest. Like I
+- [09:25] said, this is what we're using for the
+- [09:27] orchestration. We're going to bring in
+- [09:29] llama-index
+- [09:31] and then dash core. We're also going to
+- [09:33] bring in llama-index
+- [09:35] dash and this is going to be
+- [09:37] readers-file.
+- [09:38] This is going to allow us to read in a
+- [09:40] PDF. We're going to bring in python-env.
+- [09:45] This is going to allow us to load
+- [09:46] environment variables. We're going to
+- [09:48] bring in quadrant. Okay, so let's spell
+- [09:51] quadrant correctly. D-client. This is
+- [09:54] going to allow us to connect to a
+- [09:56] quadrant vector database, which again we
+- [09:58] can run locally. Then we're going to
+- [10:00] bring in uicorn. This is going to let us
+- [10:02] run the fast API server. We're going to
+- [10:04] bring in Streamlit and we're going to
+- [10:06] bring in OpenAI. Okay, so these are all
+- [10:08] of the packages that we need. We're
+- [10:09] going to go ahead and hit on enter and
+- [10:11] then it should install all of those for
+- [10:13] us. Okay, so that's going to take a
+- [10:15] second. Now that is done. Perfect. Now,
+- [10:18] what I'm going to do from my application
+- [10:20] is I'm going to make a new file and I'm
+- [10:22] going to call this enenv. Now, this is
+- [10:25] where I'm going to put an environment
+- [10:26] variable for storing my OpenAI API key.
+- [10:29] That's because we're going to use OpenAI
+- [10:30] for this project. So, let's just get it
+- [10:32] set up right now. So, we're going to
+- [10:33] type OpenAI_API_key
+- [10:36] is equal to and then I'm going to go
+- [10:38] back to my browser. I'm going to go to
+- [10:40] platform.opai.com/api.
+- [10:44] This is where I can get an API key. In
+- [10:46] order to use this, you will need to have
+- [10:47] a a credit card on file with OpenAI. It
+- [10:50] should only cost you a few cents to do
+- [10:52] it with this project, but you also are
+- [10:53] welcome to use any other LLM that you
+- [10:55] want. Uh assuming you know how to do
+- [10:57] that, and I have many videos on my
+- [10:58] channel that showcase that. So, I'm
+- [11:00] going to go make new secret key. I'm
+- [11:02] just going to call this rag app and go
+- [11:05] create secret key. And then I'm going to
+- [11:07] copy this. And obviously, don't share it
+- [11:09] with anyone. That's not a key that you
+- [11:11] want to leak. So I'm going to paste that
+- [11:13] inside of my env file. I'm now going to
+- [11:16] close that. And now we are kind of good
+- [11:18] to continue. So first things first, I'm
+- [11:21] going to initialize my main.py file. Now
+- [11:24] inside of main.py, this is where I'm
+- [11:26] going to write the logic to create an
+- [11:28] API. Now what I'm going to do is use
+- [11:30] fast API to make a simple API
+- [11:32] essentially and then I'm going to serve
+- [11:34] some of those API endpoints with ingest.
+- [11:36] The way that ingest works for our
+- [11:38] orchestration is that any endpoint that
+- [11:41] we want to essentially have more control
+- [11:43] over have observability into that's
+- [11:46] typically dealing with some AI
+- [11:47] component. So not something basic like
+- [11:49] you know adding a event to a database
+- [11:51] but typically more for the AI operations
+- [11:53] that could take a long time or require
+- [11:54] the retries. We can wrap that endpoint
+- [11:57] in what's called a decorator. It's
+- [11:59] essentially just a line of Python code
+- [12:01] and then inest will automatically track
+- [12:03] everything that happens inside of that
+- [12:05] endpoint and give us kind of those logs
+- [12:07] that you saw earlier in the demo that I
+- [12:09] was showing. So right now it's not going
+- [12:10] to make a ton of sense because I need to
+- [12:12] set up a lot of stuff before we can see
+- [12:14] the benefit of it. But in the meantime,
+- [12:16] we're going to kind of write out or stub
+- [12:18] what the API might look like, some of
+- [12:20] the functions that we're going to have
+- [12:22] inside of here. And then I'll show you
+- [12:24] how we connect this to ingest. So while
+- [12:25] we're building this application, we can
+- [12:27] debug it a lot easier. Again, I know
+- [12:29] it's going to be a little bit confusing
+- [12:31] when we start. Uh it just requires a
+- [12:33] little bit of code before it can start
+- [12:35] to become useful. So bear with me here.
+- [12:36] So we're going to start writing our
+- [12:38] imports here. We're going to import the
+- [12:40] logging module. We're going to say from
+- [12:42] fast API, import fast API like that.
+- [12:47] We're then going to say import and this
+- [12:49] is going to be
+- [12:51] ingest. We're then going to import
+- [12:54] ingest.fast_appi.
+- [12:56] That's because it directly um kind of
+- [12:58] connects with fast API. We're going to
+- [13:00] say from enenv import
+- [13:04] load.env.
+- [13:05] Uh and that is almost everything that we
+- [13:07] need. We're also going to import uyuid.
+- [13:10] This is to create a unique ID. We're
+- [13:12] going to import os. We're going to
+- [13:15] import date time. And we're going to say
+- [13:18] from ingest.ex.
+- [13:21] experimental
+- [13:23] import AI. Okay. And we need to spell
+- [13:26] experimental correct. And we need to
+- [13:29] spell experimental correctly. So let's
+- [13:31] do that. And let's just put all the
+- [13:32] injust imports together so they're a
+- [13:34] little bit more organized. Okay. Now
+- [13:36] we're going to call the load.env
+- [13:37] function. What this is going to do is
+- [13:39] load the environment variables inside of
+- [13:41] this.env file. Now we're also going to
+- [13:44] start creating some of our clients. So
+- [13:46] we're going to say app is equal to fast
+- [13:47] API. And above that, we're going to say
+- [13:49] the ingest_client
+- [13:52] is equal to the ingest dot.est
+- [13:56] like that. Now, inside of here, we're
+- [13:58] going to give this an app ID. I'm going
+- [14:00] to explain all of this in a second, so
+- [14:02] bear with me. We're going to call this
+- [14:03] our rag application.
+- [14:05] We're going to say logging is equal to,
+- [14:08] and this is going to be logging.get
+- [14:11] uh and this is going to be logger. And
+- [14:13] for the logger, we're going to get the
+- [14:15] uvicorn logger because we're going to
+- [14:16] run this with uicorn. We're going to say
+- [14:19] is production is equal to false. This is
+- [14:22] really important when we're doing this
+- [14:23] in development mode. We need to make
+- [14:24] sure we disable the production because
+- [14:27] in production uh this is going to
+- [14:29] require us to have a little bit more
+- [14:30] security essentially to call these
+- [14:32] ingest functions which I will explain
+- [14:34] later. We're going to have serializer is
+- [14:37] equal to ingest.py
+- [14:40] dantic serializer. And that is because
+- [14:42] injest supports pyantic typing. And
+- [14:44] we're going to use some of those type
+- [14:46] hints and typing system here in this
+- [14:48] video. If you don't know what that is,
+- [14:50] essentially this is a really good typing
+- [14:51] system in Python that allows us to
+- [14:53] essentially define the types of
+- [14:55] different variables in this dynamically
+- [14:56] typed programming language. Okay. Now
+- [14:59] what we're going to do is down here
+- [15:02] we're going to serve the ingest
+- [15:04] endpoint. So we're going to say
+- [15:05] ingest.fast_appi
+- [15:09] and then this is going to be serve. And
+- [15:11] then what we're going to do is we're
+- [15:12] going to serve app and we're going to
+- [15:14] serve the ingest
+- [15:17] oops if we can type this correctly
+- [15:18] client. And then we're going to put a
+- [15:19] list and this list is going to include
+- [15:21] the functions from ingest that we want
+- [15:23] to serve. So like I was saying really
+- [15:26] what we're doing right now is we're just
+- [15:27] setting up kind of like a normal API
+- [15:29] using fast API. We could go here and we
+- [15:32] could say something like you know
+- [15:33] app.get get and we could just define the
+- [15:35] endpoint here, you know, get notes or
+- [15:37] something and just write like a normal
+- [15:38] standard fast API endpoint. We could run
+- [15:41] the application with unicorn like we
+- [15:43] normally would if you've ever used fast
+- [15:44] API before. If not, don't worry about it
+- [15:47] and it would just work. That's fine.
+- [15:49] However, when we have kind of AI heavy
+- [15:51] logic, we want that orchestration on top
+- [15:54] of it that I was showing you. So, if
+- [15:56] that's the case, then what we're going
+- [15:58] to do is we're going to create something
+- [15:59] called an ingest function. Now when we
+- [16:02] make an ingest function because we have
+- [16:04] this line right here, ingest will
+- [16:07] automatically kind of serve that
+- [16:09] function for us and it will connect to
+- [16:11] the ingest development server which I'm
+- [16:13] going to run for us in a minute and show
+- [16:15] you what that means. Effectively what
+- [16:17] will happen is we'll have this server
+- [16:18] that now is sitting between our API and
+- [16:21] our client. So let's say we have some
+- [16:23] front end, right? Someone wants to use
+- [16:24] the application. What they'll do is
+- [16:26] they'll say, "Okay, I want to upload a
+- [16:28] new PDF." Rather than directly sending a
+- [16:31] request to our API here, they're going
+- [16:33] to send a request to the ingest server.
+- [16:36] The ingest server is going to take that
+- [16:38] request and it's going to forward it in
+- [16:39] the correct format to our API. It's then
+- [16:42] going to call the ingest function that
+- [16:44] we're going to write in just 1 second
+- [16:46] and it's going to go through that
+- [16:47] process of logging it, making sure that
+- [16:50] it's retrying if possible, tracing all
+- [16:52] of the errors, and giving us all of
+- [16:54] those benefits. So let's look at a quick
+- [16:55] example of how we set up one of those
+- [16:58] functions. So we're going to say at and
+- [17:00] then this is going to be
+- [17:01] ingest_client.create
+- [17:06] function. Okay. Now when we make the
+- [17:08] function what we're going to do is we're
+- [17:10] going to say the function ID is equal to
+- [17:12] and then we just give this some human
+- [17:14] readable name. In this case I'm going to
+- [17:16] say rag and then ingest.
+- [17:19] Okay PDF like that. Now on the next
+- [17:23] line, we're going to specify the
+- [17:25] trigger. Now the way that a function is
+- [17:28] triggered or called is by some event
+- [17:31] being issued to the ingest server. Now
+- [17:34] that event can be triggered from a
+- [17:36] client, so something like a front end,
+- [17:38] or it could be triggered from another
+- [17:39] function. So like one of our functions
+- [17:41] could call another function and we could
+- [17:43] have kind of this large chain of events
+- [17:45] that are occurring. So we have an event.
+- [17:47] An event typically triggers one or more
+- [17:49] functions to run. And there's all kinds
+- [17:51] of advanced stuff that you can do with
+- [17:53] events and kind of with this flow that
+- [17:55] I'm going to show you. So we're going to
+- [17:56] say ingest.trigger
+- [17:59] event like that. For the event, we need
+- [18:02] to give this a name that we could call
+- [18:03] from code. So we're going to say rag
+- [18:05] slashingest
+- [18:07] pdf. And what I've just said is okay,
+- [18:10] whenever this event is sent or kind of
+- [18:13] yeah is triggered essentially, we're
+- [18:15] going to run this inest function. Okay,
+- [18:18] now that's all that we need for right
+- [18:20] now inside of this decorator, which is
+- [18:22] what this thing is called. Beneath here,
+- [18:24] we need to define the function. It's
+- [18:26] going to be async. So, we're going to
+- [18:27] say async define rag_ingest,
+- [18:31] and then this is going to be PDF. And
+- [18:33] then inside of here, we're going to take
+- [18:34] in some context. Now, the type of the
+- [18:36] context is going to be ingest.context.
+- [18:39] And what we're going to return for right
+- [18:41] now is nothing. Uh, but we will set the
+- [18:44] type later. And sorry, this needs to be
+- [18:45] inest with two ends. Okay, so now that
+- [18:48] we've done this, we've created this
+- [18:51] function that's going to be effectively
+- [18:52] controlled by ingest and the development
+- [18:54] server, which again I'm going to run in
+- [18:55] one second. When someone triggers this
+- [18:57] event, this function will run. We'll get
+- [19:00] the context of the event, which can be
+- [19:02] like parameters or data or values that
+- [19:04] we want to pass here. And then we can
+- [19:05] start doing whatever it is that we want
+- [19:07] to do using some of kind of the flow
+- [19:10] control inside of inest. So if I want to
+- [19:13] just make a really simple example, I can
+- [19:15] literally just do something like return
+- [19:17] hello world, right? I can just return
+- [19:20] pretty much anything that I want so long
+- [19:21] as it would be valid kind of JSON or a
+- [19:23] Python object that is uh what do you
+- [19:25] call it? Serializable. So I made this
+- [19:28] function now and when you call it, it
+- [19:30] just returns hello world. But because
+- [19:32] it's an inest function, we get the
+- [19:34] benefit of having the observability
+- [19:35] which I'm going to show you now. Okay,
+- [19:38] so I promise it's going to all start
+- [19:39] making sense in just one second. What
+- [19:41] we're going to do to start is we're
+- [19:43] going to run our Python API. So to do
+- [19:45] that, we're going to type uv run
+- [19:49] uicorn and then this is going to be main
+- [19:52] colon app. Now the reason why I'm doing
+- [19:54] that is because the name of our file is
+- [19:56] main.py and because the name of our fast
+- [19:59] API application is app. Okay, so I'm
+- [20:02] going to do that. Going to go ahead and
+- [20:03] press on run. And it says I got an
+- [20:06] unexpected keyword here of logging.
+- [20:09] Okay, so this should not say login. It
+- [20:11] should say logger for the ingest client.
+- [20:13] So let's just quickly fix that and rerun
+- [20:15] and hopefully we should be good to go.
+- [20:17] And there you go. We can see that our
+- [20:18] API is now running. Okay, so the API is
+- [20:21] running which means this function is
+- [20:23] technically available to be called.
+- [20:25] However, as I mentioned, what's going to
+- [20:27] happen is we're going to have something
+- [20:28] called the ingest server which is going
+- [20:30] to essentially control the invocation of
+- [20:33] this ingest function. So in order to
+- [20:35] have that server running, well, we need
+- [20:37] to run it. So what I'm going to do is
+- [20:39] run a command on my computer. You'll be
+- [20:40] able to run this as well that will run
+- [20:43] this local development server. And this
+- [20:45] is a huge advantage where this is open
+- [20:46] source. You can run it locally on your
+- [20:48] own computer. Of course, you can use
+- [20:49] their manage solution as well. And if
+- [20:50] you go into production, you're going to
+- [20:52] have to deploy some instance of the
+- [20:53] server. Uh but in this case, locally,
+- [20:55] it's very easy. So what we're going to
+- [20:56] do is make sure that we have Node.js
+- [20:58] installed on our computer. And we're
+- [20:59] going to type npx
+- [21:02] and then ingest
+- [21:04] client at latest. And then we're going
+- [21:07] to type dev- u and we're going to put
+- [21:11] essentially a link to our API. So if we
+- [21:14] go here, we can see that our API is
+- [21:16] running on port 8000. So what we're
+- [21:18] going to do is we're going to write
+- [21:19] that. We're going to go http
+- [21:22] slash and then we're going to go
+- [21:23] 127.0.0.1
+- [21:25] which is effectively localhost and then
+- [21:28] this is going to be port
+- [21:29] 8000/api/ingest.
+- [21:33] And then we're going to go d-n no dash
+- [21:36] discovery.
+- [21:38] Okay. Now what this is doing is it's
+- [21:40] going to run this development server for
+- [21:42] us. And it's going to tell the
+- [21:43] development server, hey, I want to
+- [21:45] connect to an application running on
+- [21:47] port 8000. And then I put / API/ingest,
+- [21:51] which is essentially this. Okay, so
+- [21:53] ingest will serve an endpoint at /
+- [21:55] API/ingest. And that endpoint will kind
+- [21:58] of control the ingest functions. So I'm
+- [22:00] going to go ahead and run that. And as
+- [22:02] soon as I do, it's going to just install
+- [22:04] that for me. And of course, I spelled it
+- [22:06] incorrectly. It should not be ingest
+- [22:07] client. It should be ingest CLI. I don't
+- [22:09] know why I put client there. Let's fix
+- [22:11] the command. npxingest-client.
+- [22:14] Excuse my dictation tool there. And
+- [22:16] sorry, not client- CLI. I keep saying
+- [22:18] client. Let's just look at it again cuz
+- [22:20] I want to make sure you guys know
+- [22:21] exactly what the command is. npxingest-
+- [22:24] CLI at latest dev-u. Nothing else
+- [22:28] changes other than the fact this is the
+- [22:30] CLI tool. And you can see that it's now
+- [22:32] running this and it tells us that this
+- [22:33] is running on port 8288.
+- [22:37] So what we're going to do is we're going
+- [22:38] to open up our browser here and we're
+- [22:40] going to go to localhost port and then
+- [22:43] we can copy this 8288.
+- [22:46] When we do that, you should see
+- [22:47] something that looks like this being
+- [22:49] served on your computer. This is the
+- [22:51] user interface for the ingest
+- [22:53] development server. And what we're able
+- [22:55] to do now is if we go to apps, we should
+- [22:57] be able to sync with this. However, it's
+- [22:58] telling us there's some error here. This
+- [23:00] is not synced properly. Uh so let's make
+- [23:03] sure that our API is running. Okay, we
+- [23:05] can see that we're getting a internal
+- [23:07] server error because we didn't actually
+- [23:09] put this function that we need to serve
+- [23:11] inside of this functions list. So,
+- [23:13] excuse me. Let's fix that. We're going
+- [23:14] to go rag ingest PDF. We're just going
+- [23:16] to put that inside of here and then
+- [23:18] save. And then what we can do is just
+- [23:20] shut this down and restart our API.
+- [23:23] Okay, so now we're actually serving this
+- [23:24] function. And now if we go back here,
+- [23:27] let's refresh this. And you can see,
+- [23:29] let's close this. We can delete this
+- [23:31] application that we have this rag app
+- [23:34] that is showing up as connected. Okay,
+- [23:36] under our apps and it has one function
+- [23:38] called rag ingest PDF. We can view the
+- [23:41] function. So if we go here, we can take
+- [23:42] a look at it. I can open it up and if I
+- [23:45] want to, I can invoke the function just
+- [23:47] by essentially calling it, right? Or
+- [23:49] passing this kind of event trigger. From
+- [23:51] invoke, I can pass any data that I want.
+- [23:53] In this case, we can just leave it
+- [23:55] empty. And then I can press sorry invoke
+- [23:57] function. When I do that, we see that a
+- [23:59] run now appears under runs. And if I
+- [24:01] click on this, we can see exactly what
+- [24:03] happens. So it says it took, you know,
+- [24:05] 35 milliseconds with a 2 millisecond
+- [24:07] delay. And if we look at this, we can
+- [24:08] see this was the input, right? So this
+- [24:10] is the ID. This is the name of the
+- [24:11] function. This is the data. So this is
+- [24:13] the function ID, you know, all of this
+- [24:15] kind of stuff. This is the timestamp.
+- [24:17] And if we look at the output, we can see
+- [24:19] that we got hello and then colon world.
+- [24:21] Okay. Okay. And then we could rerun this
+- [24:22] again if we want. Now we have another
+- [24:24] run that we can look at. We can see all
+- [24:26] of the information related to it. And
+- [24:28] this is extremely useful not just for
+- [24:30] debugging the application, but for if we
+- [24:32] actually put this into production. And
+- [24:34] then if we go to events here, you can
+- [24:36] see that this event occurred, right?
+- [24:37] Ingest function finished. And then we
+- [24:39] also had these functions that were
+- [24:41] triggered when we invoked a particular
+- [24:42] function. Okay. All right. So that is
+- [24:45] kind of a quick example of essentially
+- [24:48] how we connect inest. And now we just
+- [24:50] leave this development server running.
+- [24:52] So it's just going to keep running the
+- [24:53] whole time. And we can keep kind of
+- [24:55] turning on and off our API as we make
+- [24:58] changes to it. So what we're going to
+- [24:59] need to do now, we have this function.
+- [25:01] We kind of made the connection. We need
+- [25:03] to start actually implementing the rag
+- [25:05] features. All right. So let's move on to
+- [25:07] our vector database. Now as I said,
+- [25:09] we're going to be using quadrant for
+- [25:11] this database. and we need to write
+- [25:13] essentially kind of like a database
+- [25:15] client that's going to allow us to
+- [25:16] create the database, load data, search
+- [25:19] data, etc. So, in order to do that, what
+- [25:23] we need to do is we need to run Quadrant
+- [25:25] locally on our own computer. Now, in
+- [25:27] order for this step to work, you will
+- [25:28] need Docker installed on your machine. I
+- [25:30] would highly recommend just downloading
+- [25:32] Docker Desktop. Okay. Now what we're
+- [25:34] going to do is we're just going to make
+- [25:35] a new folder inside of our application
+- [25:38] here. And we're going to call this
+- [25:39] quadrant
+- [25:42] storage. Okay. And this is going to be
+- [25:43] the volume effectively where we store
+- [25:45] the vector database that we're going to
+- [25:47] use in our application. Now what I'm
+- [25:49] going to do is copy in a command and you
+- [25:52] can pause the video and you can type it
+- [25:53] out if you want. That's going to allow
+- [25:55] us to essentially run Quadrant locally
+- [25:58] on our own computer. Now what I'm doing
+- [26:01] is I'm saying docker run-d for damon.
+- [26:05] The name of the container is going to be
+- [26:07] quadrant. You can name this anything
+- [26:08] that you want. So if we want to go back,
+- [26:10] we can name it, you know, quadrant.
+- [26:13] Let's go here rag db or something.
+- [26:16] Doesn't matter. We're going to say the
+- [26:17] port that we're running on is 6333. This
+- [26:20] is the standard port. And then for the
+- [26:22] volume that we want to attach here,
+- [26:23] we're going to print the working
+- [26:24] directory. This is going to work only if
+- [26:27] you are on Windows. If you're on Mac or
+- [26:29] Linux, you're going to have to change
+- [26:30] this command slightly, which I'll talk
+- [26:31] about in a second. We're going to go /
+- [26:33] quadrant storage. This is the uh what do
+- [26:36] you call it folder that we're currently
+- [26:38] inside of. So that's why I'm doing that.
+- [26:39] And then / quadrant / storage. And then
+- [26:42] I'm saying quadrant quadrant, which is
+- [26:44] the uh what do you call it? Image that I
+- [26:46] want to run this container from. Okay, I
+- [26:49] know it's a little bit confusing. The
+- [26:50] reason why I have to do this print
+- [26:52] working directory thing here with the
+- [26:53] dollar sign is because for some reason
+- [26:55] in PowerShell this messes up a little
+- [26:57] bit and doesn't work locally for you.
+- [26:59] You should be able to just replace this
+- [27:01] with a dot slash which references the
+- [27:03] local directory. Worst case you can put
+- [27:05] the full path to where you want to have
+- [27:08] this storage and it doesn't need to be
+- [27:10] in the same directory as the
+- [27:11] application. So it's completely up to
+- [27:12] you. If you're on Windows again go with
+- [27:14] this. Okay. So, dollar sign and then
+- [27:17] pwd. And sorry, I think this needs to be
+- [27:19] inside of parenthesis, not braces. If
+- [27:22] you're a Mac or Linux, go with dot
+- [27:24] slash. And then again, make sure you
+- [27:26] have this quadrant storage uh created in
+- [27:29] this directory that you're referencing.
+- [27:30] Okay, so we're going to go ahead and run
+- [27:32] this. You shouldn't really see any
+- [27:34] output. You should just get some random
+- [27:35] string that kind of looks like a hash
+- [27:37] here. And then it should just be done.
+- [27:39] Now in the background if you open up
+- [27:41] docker desktop you should see that there
+- [27:43] is now a new container that is running.
+- [27:46] So let's wait for this to load for a
+- [27:48] second. Okay. And you can see sorry it
+- [27:49] just loaded. We have quadrant rag db
+- [27:51] it's running. We have the container ID.
+- [27:53] We have the image. We have the ports.
+- [27:54] And we can control that from here. Okay.
+- [27:57] And I'm just going to shut down this
+- [27:58] other container that I don't know why
+- [28:00] that's running because I don't need this
+- [28:03] active. So let's just delete that. Okay.
+- [28:06] Anyways, there we go. Now we have
+- [28:08] Quadrant running and we're able to
+- [28:10] connect to it from our uh code. So what
+- [28:13] we're going to do is we're going to make
+- [28:14] a new file here and we're just going to
+- [28:16] call this vector_db.
+- [28:19] py. Okay, we can add that to get. That's
+- [28:22] fine. And inside of here we're going to
+- [28:24] write the code that will allow us to
+- [28:25] connect to our quadrant database and to
+- [28:27] search something in the database. So,
+- [28:29] what we're going to do is we're going to
+- [28:30] say from quadrant,
+- [28:33] okay, if we can spell this correctly,
+- [28:35] underscoreclient. We're going to import
+- [28:37] the quadrant client. We're then going to
+- [28:40] say from the quadrant client dot models,
+- [28:45] we're going to import the vector params,
+- [28:48] the distance, and the point structure.
+- [28:52] Okay. And we're going to make a class.
+- [28:54] Now for the class, we're going to call
+- [28:55] this just quadrant
+- [28:59] storage. We're going to do an
+- [29:01] initialization. So we're going to say
+- [29:02] define a netit. We're going to take in
+- [29:04] self. We're going to take in some URL.
+- [29:07] And by default, the URL is going to be
+- [29:08] http/
+- [29:11] localhost col 6333.
+- [29:14] Then we're going to take in a
+- [29:16] collection. So for the collection, I'm
+- [29:18] going to call this documents. This is
+- [29:19] going to be the collection where we're
+- [29:21] storing the information essentially. and
+- [29:23] we're going to take in the dimensions or
+- [29:25] dim and this is going to be equal to
+- [29:27] 372.
+- [29:30] Okay, now there's a lot of stuff to
+- [29:31] explain when it comes to vector
+- [29:33] databases. Essentially with this
+- [29:35] quadrant database that we're using, it's
+- [29:37] very high performance and we can run it
+- [29:38] locally. However, realistically in
+- [29:40] production, you would actually deploy
+- [29:42] this database out and then you would
+- [29:43] probably end up changing this URL. So
+- [29:46] you're connecting to the deployed
+- [29:47] instance or you're using Quadrant's kind
+- [29:50] of managed service, right? Um, I don't
+- [29:52] really know exactly how that works, but
+- [29:53] they obviously have their own, you know,
+- [29:55] thing that they'll try to sell you. So,
+- [29:57] here we can go self.client
+- [30:00] is equal to and then we're going to
+- [30:02] bring in the quadrant client. We're
+- [30:03] going to pass the URL equal to URL and
+- [30:06] we're going to say the timeout is equal
+- [30:07] to 30 seconds. So that if we don't
+- [30:08] connect in 30 seconds, then we
+- [30:10] essentially crash this program. We're
+- [30:12] going to say self.colction
+- [30:14] is equal to collection. So, we store
+- [30:15] that as a variable. And then what we're
+- [30:17] going to do is we're going to create a
+- [30:19] new um collection in our vector database
+- [30:22] inside of this quadrant storage folder.
+- [30:25] You can see now we have this collections
+- [30:26] folder, right? We have these aliases, a
+- [30:28] few other pieces of data. So what we're
+- [30:30] going to do is say all right, do we
+- [30:31] already have a collection called docs?
+- [30:33] If we don't create one or sorry, yeah,
+- [30:36] if we don't create one, if we do, then
+- [30:37] we don't need to create one. So we're
+- [30:38] going to say if not, and this is going
+- [30:40] to be self.client client dot and this is
+- [30:43] going to be collection_exists
+- [30:46] and you can see the autocomplete coming
+- [30:48] here from PyCharm. We're going to put in
+- [30:49] the name self.colction. Then what we're
+- [30:52] going to do is say self.client.create
+- [30:56] collection and for the collection we're
+- [30:58] going to say the collection name is
+- [31:00] equal to self.colction
+- [31:03] and we're going to say the vector and
+- [31:04] this is going to be underscore config is
+- [31:07] equal to the vector params. The size of
+- [31:10] our vector is going to be the dimensions
+- [31:12] and we're going to say the distance is
+- [31:13] equal to distance doc cosine. This is
+- [31:15] the uh algorithm or formula or whatever
+- [31:17] you want to call it for calculating the
+- [31:19] distance between different points in our
+- [31:20] vector database. Again, without getting
+- [31:22] into any advanced linear algebra here,
+- [31:24] which is kind of the foundation of how
+- [31:26] vector databases work, what we're going
+- [31:28] to have is a certain number of
+- [31:30] dimensions. This is effectively kind of
+- [31:32] the number of values that we have inside
+- [31:34] of our vector. And we're going to kind
+- [31:37] of turn these text documents into
+- [31:40] vectors. We're then going to compare
+- [31:42] these vectors against each other using
+- [31:44] this distance formula. And vectors that
+- [31:46] are closer to each other in this vector
+- [31:48] space have kind of similarity. At least
+- [31:51] that's what we're hoping for. So we'll
+- [31:52] be able to really quickly find those
+- [31:54] vectors that are close to us, pull them
+- [31:56] out of the database, get their original
+- [31:58] text data, and pass that to our LLM. So
+- [32:01] that's what we're setting up here uh
+- [32:03] with this initialization. Now we're
+- [32:04] going to make a function here called
+- [32:06] upsert. This just means essentially
+- [32:07] insert and update. And we're going to
+- [32:09] say self ids vectors and payloads. And
+- [32:14] what we're going to do is say points is
+- [32:17] equal. And then we're going to have a
+- [32:19] new um what do you call it? List
+- [32:20] comprehension here. And we're going to
+- [32:22] say this is point strruct. And then this
+- [32:24] is going to be id equals id's i. vector
+- [32:30] equals vector and then i or vectors i
+- [32:34] sorry. And then we're going to have
+- [32:36] payload is equal to payloads i for i in
+- [32:43] range. And then this is going to be the
+- [32:45] len of ids. Now, what this is going to
+- [32:47] do is it's going to get all of the
+- [32:49] associate ids, vectors, and the payloads
+- [32:52] from these three uh lists effectively
+- [32:54] and create a point structure, which is
+- [32:56] what we need to create in order to
+- [32:58] insert this into our vector database.
+- [33:00] And then we're going to insert it. So,
+- [33:02] we're going to say self.client.upsert.
+- [33:06] Okay, we're going to upsert the what is
+- [33:09] it? Self.colction. So, let's type this
+- [33:13] correctly. Self.colction. And then we're
+- [33:15] going to say points is equal to points.
+- [33:19] Okay, so the idea here is that we're
+- [33:21] going to pass a series of ids, which is
+- [33:22] a list, a bunch of vectors, which is
+- [33:24] kind of the vectorzed version that's
+- [33:26] going to be in a dimension of 372, and
+- [33:29] then payloads. And payloads is going to
+- [33:31] be real data, data that's actually human
+- [33:33] readable. Um, that kind of represents
+- [33:35] the information that we've vectorized.
+- [33:37] We're going to convert all those three
+- [33:38] things into this point structure, which
+- [33:41] is just what's required for quadrant and
+- [33:43] the way that we're doing this. and we're
+- [33:44] going to insert that into the vector
+- [33:46] database. Okay, so that allows us to now
+- [33:50] add vectors effectively. And the more
+- [33:52] important thing is searching for
+- [33:54] vectors. So we're going to say define
+- [33:55] search. We're going to say self. We're
+- [33:58] going to say query
+- [34:00] vector
+- [34:02] like that. And we're going to say top k
+- [34:04] this is going to be an int. And by
+- [34:06] default it will be equal to five. Now
+- [34:08] we're going to say results is equal to
+- [34:11] self do.client client dot search and
+- [34:15] we're going to search the collection_ame
+- [34:19] equal to self.colction.
+- [34:21] We're going to say the query vector is
+- [34:23] the query vector. We're going to say
+- [34:25] with payload is true and we're going to
+- [34:28] say the limit is equal to top k. Now top
+- [34:32] k just means that we're looking for this
+- [34:35] many results from the vector database.
+- [34:37] So we're going to look for five results
+- [34:39] in this case. We could look for two. We
+- [34:40] could look for 10. could look for 20.
+- [34:42] Obviously, the more you look for, the
+- [34:43] longer this could potentially take, but
+- [34:45] it's still very, very fast. Okay, then
+- [34:47] we're going to say context is equal to
+- [34:49] an empty list. And sources is equal to
+- [34:52] an empty list. So, the reason we have
+- [34:53] these variables is because I need to get
+- [34:55] all of the context or information. I
+- [34:57] want to store that in one list. And then
+- [34:58] I want to get all the sources. So, the
+- [35:00] documents essentially that we pulled
+- [35:01] this information from. So I'm going to
+- [35:03] say for R in results I'm going to say
+- [35:07] payload is equal to get attribute or get
+- [35:11] adder this is going to be R payload or
+- [35:14] none and then or we're going to have
+- [35:17] this empty dictionary. We're going to
+- [35:19] say text is equal to payload.get
+- [35:23] and we're going to get text or we're
+- [35:25] going to get an empty string and we're
+- [35:27] going to say source is equal to
+- [35:29] payload.get get and we're going to say
+- [35:32] source or an empty string.
+- [35:35] Okay. Now, what we're going to do here
+- [35:37] is we're going to say if text. Okay. So,
+- [35:40] if there is text, we're going to say
+- [35:42] context.append text and sources.append
+- [35:46] source. And actually, this just reminds
+- [35:48] me I'm going to just convert the sources
+- [35:49] into a set because I don't want to keep
+- [35:51] adding the same source over and over
+- [35:53] again. So, we're going to say
+- [35:54] contextes.add and then rather than
+- [35:56] append, we're going to say add source.
+- [35:58] And then what we're going to do down
+- [35:59] here is we're going to return and we're
+- [36:02] going to say
+- [36:04] context and we're going to return the
+- [36:06] context and then the sources we're going
+- [36:07] to convert to a list and we're going to
+- [36:09] return the sources. So what this is
+- [36:11] going to do is it's going to search our
+- [36:12] vector database. It's going to get the
+- [36:14] relevant results based on this query
+- [36:16] vector which again we'll look at in a
+- [36:17] little bit and then we're going to pull
+- [36:19] out all of the sources and the context
+- [36:21] and return that. Okay, so that's that
+- [36:25] for the vector database. Now one thing
+- [36:28] to note the way that I've done this is
+- [36:29] that we are going to lose which context
+- [36:31] is associate with associated sorry with
+- [36:33] which source. So if we wanted to we
+- [36:35] could change it back and then we would
+- [36:36] have kind of the related data based on
+- [36:38] the indices. In this case I think it's
+- [36:40] fine just to have it as a set. So that's
+- [36:43] our vector database. The next thing that
+- [36:44] we need to do is have a way to
+- [36:46] essentially read in a PDF. So I'm going
+- [36:48] to make a new file and this new file is
+- [36:51] going to be called data_loadader.
+- [36:53] py. Now, this is where I'm going to use
+- [36:56] llama index to load in PDF documents and
+- [36:59] to embed them because what we just did
+- [37:02] is we made the vector database which
+- [37:03] will allow us to upload essentially
+- [37:05] vectors and search for vectors. But the
+- [37:07] thing is I still need to create the
+- [37:09] vectors. So let's do that now. So I'm
+- [37:12] going to say from OpenAI
+- [37:14] import openai. I'm going to say from
+- [37:17] llama index dot readers
+- [37:20] okay dotfile import the PDF and then
+- [37:24] reader I'm going to say from llama index
+- [37:27] docore dot node parser okay import the
+- [37:32] sentence splitter and then I'm going to
+- [37:35] say from
+- [37:37] enenv import load envoenv
+- [37:42] function again in here and I'm going to
+- [37:44] initialize an openai client So I'm going
+- [37:46] to say client is equal to open AAI. Now
+- [37:49] because we've defined this variable
+- [37:51] OpenAI API key inside of this file, we
+- [37:54] don't need to actually pass anything
+- [37:56] else to what is it here? This client, it
+- [37:58] will just automatically find and look
+- [37:59] for that variable. And because it
+- [38:01] exists, it will essentially allow us to
+- [38:03] use OpenAI. Now let me briefly discuss
+- [38:05] what we're about to do here. So we're
+- [38:07] going to effectively load in a PDF. Now
+- [38:10] when we load in a PDF, that could be
+- [38:12] very large. It might be, you know, a
+- [38:13] thousand pages long. We can't just embed
+- [38:16] the entire PDF. And by the way, embed
+- [38:18] means just effectively convert it to a
+- [38:20] vector so we can store it in the
+- [38:21] database. Instead, what we need to do is
+- [38:24] chunk it. Chunk it means we need to
+- [38:26] break it down into smaller pieces and
+- [38:28] then embed those smaller pieces. And the
+- [38:30] size of the pieces is relevant here. We
+- [38:33] don't want anything that's too big, but
+- [38:34] we don't want anything that's too small.
+- [38:36] So that we still have a lot of really
+- [38:37] relevant data, but we don't have, you
+- [38:39] know, massive amounts of data or really
+- [38:41] tiny pieces of data that are going to be
+- [38:43] hard to search for. So, what I'm doing
+- [38:45] here is I'm going to use Llama index to
+- [38:47] read in our PDF and then to split all of
+- [38:50] the sentences in that PDF into chunks.
+- [38:53] We're then going to take those chunks.
+- [38:54] We're going to embed them and then we're
+- [38:56] going to store that in the vector
+- [38:57] database. So, what we're going to say is
+- [38:59] our embedders model is equal to the text
+- [39:02] embedding and not this one. It's going
+- [39:04] to be -3-l large. There's all kinds of
+- [39:06] models that can embed text for you. In
+- [39:10] this case, we're using OpenAI. This is a
+- [39:11] pretty popular one. And we're going to
+- [39:13] say the embedders dimension is equal to
+- [39:16] 372. And we need to make sure that
+- [39:18] matches what we have inside of our
+- [39:20] vector database, which is 372.
+- [39:24] Okay, this is effectively how large the
+- [39:25] vector is for the text that we're
+- [39:27] embedding. Then we're going to say our
+- [39:29] splitter is equal to the sentence
+- [39:32] splitter. We're going to have a chunk
+- [39:33] size. I'm going to say chunk size is
+- [39:35] 1,000. And the chunk overlap. Now the
+- [39:38] chunk overlap is how much of the end of
+- [39:40] one chunk is included in the beginning
+- [39:42] of another chunk. The reason why you
+- [39:44] would have an overlap is because if you
+- [39:46] have a sentence like hello world, my
+- [39:48] name is Tim. Let's say we want to split
+- [39:50] this right into two chunks. Well, we
+- [39:52] might have one chunk that is hello
+- [39:54] world. We might have one where his name
+- [39:55] is Tim. Now what we would do if we had
+- [39:58] an overlap of let's say one or something
+- [40:00] and one represented a word is in the
+- [40:02] first chunk we would have hello my and
+- [40:03] then in the second one we would have my
+- [40:05] name is Tim where we would kind of
+- [40:07] duplicate the word at the end in the
+- [40:09] beginning of this chunk so we don't
+- [40:11] potentially lose a lot of relevant
+- [40:13] context. So in my case I'm going to go
+- [40:14] with a chunk overlap of 200. This
+- [40:17] represents characters by the way not
+- [40:19] words so that we're able to kind of
+- [40:21] split it properly. Okay. Okay. Now,
+- [40:23] anyways, that hopefully that makes sense
+- [40:24] in terms of how that's going to split,
+- [40:25] but it's just going to do essentially
+- [40:27] sentence splitting for us. Um, and
+- [40:29] create all of these chunks. We're then
+- [40:30] going to say define load and_chunk
+- [40:35] PDF. We're just going to take in a path
+- [40:37] to the PDF, which will be of type
+- [40:39] string. Now, we're going to say our
+- [40:41] documents are equal to the PDF reader.
+- [40:44] Data, and we're going to say the file is
+- [40:47] equal to the path. This is just going to
+- [40:49] look for the PDF and it's going to load
+- [40:52] it. We're then going to say text is
+- [40:54] equal to and we're just going to pull
+- [40:56] out the text. We're not looking at
+- [40:57] images or anything. And we're going to
+- [40:59] say d.ext
+- [41:00] for d which stands for uh what is it
+- [41:03] kind of data or document for d in docs
+- [41:06] if get adder dext
+- [41:11] none.
+- [41:12] So, what this is going to essentially
+- [41:14] say is, okay, we're going to get all of
+- [41:15] the text content for every single
+- [41:17] document inside our documents. All
+- [41:19] right, if this document uh has some text
+- [41:23] attribute, because we might have a PDF
+- [41:25] that only has images, for example, not
+- [41:27] text. We're then going to say chunks is
+- [41:29] equal to this. We're going to say 4T in
+- [41:33] text. And we're going to say
+- [41:34] chunks.extend.
+- [41:37] And then we're going to say splitter,
+- [41:40] okay? Text. and we're going to split
+- [41:42] this with t and then we're going to
+- [41:44] return
+- [41:46] our chunks. Okay, so this is the
+- [41:48] chunking process. Again, I don't want to
+- [41:50] break it down too much further than
+- [41:51] that. Effectively, we're taking the PDF,
+- [41:53] turning it into smaller pieces of
+- [41:55] textual data, and then we're going to
+- [41:56] embed each of those pieces of data. So,
+- [41:58] the next function we're going to have is
+- [42:00] embedders text.
+- [42:02] This is going to take in our text, which
+- [42:04] is going to be a list of type string.
+- [42:08] This is then going to return, I'll just
+- [42:10] type it manually here, a list of list of
+- [42:12] type float, which is effectively what
+- [42:14] our vectors are going to look like.
+- [42:16] We're going to say response is equal to
+- [42:18] client.bedings.create.
+- [42:21] We're going to pass the model, which is
+- [42:23] the embed model, and we're going to say
+- [42:25] the input is equal to text. We're then
+- [42:29] going to return iteming
+- [42:33] for item in response.
+- [42:37] Okay, so what this is going to do is
+- [42:39] it's going to send a request to OpenAI.
+- [42:40] It's going to pass all of the text uh
+- [42:42] which is all of the text that we've kind
+- [42:44] of chunked here already. It's going to
+- [42:46] embed them, which means convert it into
+- [42:47] a vector, which we can store in the
+- [42:49] vector database. We're then going to go
+- [42:50] through the result here. So,
+- [42:51] response.data, and we're just going to
+- [42:53] pull out the embedding itself. We don't
+- [42:54] care about any of the other metadata
+- [42:56] that's going to be included. So, that's
+- [42:57] our data loader. That's our vector
+- [42:59] database. And now, we're going to move
+- [43:01] over to main.py. Okay. Now, I want to be
+- [43:04] able to test the ingestion of a PDF
+- [43:06] first. So, I'm going to write this
+- [43:08] function by using some of the functions
+- [43:10] that we just wrote here, and then we'll
+- [43:12] kind of continue. And there's a bit more
+- [43:14] advanced stuff that we want to get into.
+- [43:17] Um, all right. So, let's start by
+- [43:18] importing some of the stuff that we just
+- [43:19] wrote. So, we're going to say from data
+- [43:22] loader, import the load and chunk PDF
+- [43:26] and import the embed text. We're then
+- [43:29] going to say from the vector database
+- [43:33] import.
+- [43:35] Okay, the quadrant storage like that.
+- [43:38] Now, quickly, I'm also just going to
+- [43:39] make a new file here. I forgot to do
+- [43:41] this where I'm going to create some
+- [43:42] custom Python types. So, I'm going to
+- [43:44] call this customtypes. py. The reason
+- [43:48] for this is that I want to have these
+- [43:49] types so that I can make my application
+- [43:51] a little bit more readable and I can
+- [43:52] import and use paidantic which is
+- [43:54] supported inest. So I'm going to say
+- [43:56] import pi dantic and I'm just going to
+- [43:59] write some really simple Python classes
+- [44:01] that represent some types that I'm going
+- [44:03] to use in my app. So I'm going to say
+- [44:04] class and I'm going to say rag chunk and
+- [44:09] src and this is going to be paidantic.
+- [44:13] Model and then what I'm going to do is
+- [44:15] say chunks and this is going to be a
+- [44:17] list of type string and I'm going to say
+- [44:20] the source ID string is equal to none.
+- [44:23] Now what this type is going to represent
+- [44:25] is essentially the result after we chunk
+- [44:27] and get the source for a particular PDF
+- [44:29] document. I'm then going to say class
+- [44:32] and this is going to be rag if we can
+- [44:35] spell this correctly upsert result. This
+- [44:39] is going to be the result after we
+- [44:40] upsert a document. So we're going to say
+- [44:43] pyantic dot base model and then we're
+- [44:46] just going to say ingested and this is
+- [44:49] going to be an int just representing how
+- [44:51] many um what is it things that we
+- [44:53] ingested. We're then going to say class
+- [44:55] and this is going to be rag search
+- [44:58] result. So you can guess what this one
+- [45:00] is when we're searching for some text.
+- [45:02] That's what we're going to have here.
+- [45:04] We're going to have pideantic.base base
+- [45:06] model and then we're going to have the
+- [45:08] context which is going to be a list of
+- [45:10] type string and we're going to have the
+- [45:12] sources
+- [45:14] which is going to be if we type this
+- [45:17] correctly a list of type string. Then
+- [45:20] we're going to have one more. This is
+- [45:21] going to be class rag
+- [45:24] query
+- [45:26] result. So this is different than the
+- [45:28] search result. This is the query that
+- [45:29] the user is actually sending uh what is
+- [45:32] it to the endpoint. So we're going to
+- [45:33] say pantic.base base model. We're going
+- [45:35] to say the answer is of type string.
+- [45:38] We're going to say the sources is list
+- [45:41] of string and we're going to say the
+- [45:43] number of context is an int. Okay, so I
+- [45:49] think that's all we need for our custom
+- [45:50] types. Let's go back to main. Let's now
+- [45:53] import these custom types and then we
+- [45:54] can use them in this first function.
+- [45:56] We'll test it and then we'll move on to
+- [45:57] the next one. So we're going to say
+- [45:59] actually from custom types import and
+- [46:04] then we need to import all of these. So
+- [46:05] what did we have? We had the rag query
+- [46:07] result. We had the rag search result. We
+- [46:09] had the rag upsert result and we had the
+- [46:11] rag chunk and source. Okay. So now let's
+- [46:15] go into this function that we wrote and
+- [46:16] let's start setting it up to actually
+- [46:18] utilize inest properly and to kind of
+- [46:20] perform the steps that we need. So first
+- [46:22] things first, what I'm going to do is
+- [46:25] kind of explain to you a little bit
+- [46:26] about how this works. when we actually
+- [46:28] run an ingest function. So as you saw,
+- [46:31] we kind of have a diagram that looks
+- [46:33] like this, right? We have ingest which
+- [46:35] is kind of the execution engine or the
+- [46:36] local server. We send a request to there
+- [46:39] that then sends request to our API
+- [46:41] endpoint. The API endpoint then goes to
+- [46:43] our ingest function and then inside of
+- [46:45] the function we can have these things
+- [46:47] called steps. Now each step is kind of
+- [46:49] an individual operation that we're going
+- [46:51] to track that we could retry if needed
+- [46:54] and that we're going to kind of observe,
+- [46:56] right? and get all of the logging and
+- [46:58] the information for. So if I just go
+- [46:59] quickly over to overview here, you can
+- [47:01] see right that there's kind of three
+- [47:03] main things in inest. We have the
+- [47:04] triggers which we've already kind of
+- [47:05] talked about where it's essentially
+- [47:07] events that can trigger something to
+- [47:09] run, right? It could be a web hook,
+- [47:10] could be a crown schedule, could be a
+- [47:11] manual trigger like in our case. We have
+- [47:14] flow control, which we're not really
+- [47:15] getting into right now, but we will talk
+- [47:17] about the concurrency, the throttling
+- [47:18] and all of that later on. And then we
+- [47:20] have steps. And steps are kind of how we
+- [47:23] convert a function into a workflow with
+- [47:26] multiple retryable checkpoints. So if
+- [47:29] you look at an example right here, we
+- [47:31] have this step, right? We're saying,
+- [47:32] okay, we're going to run step one, which
+- [47:34] is getting data. We're going to wait for
+- [47:35] that step to finish, and then we're
+- [47:37] going to save the data. Now by wrapping
+- [47:39] these different operations in these
+- [47:41] steps from ingest, this allows us again
+- [47:44] to have all those advantages of the step
+- [47:46] where we can retry it. We can wait for a
+- [47:48] step to finish and we can see kind of
+- [47:50] what the application's actually doing at
+- [47:52] each step. So we have kind of deep
+- [47:54] observability into our functions. So I'm
+- [47:57] going to show you how you make a step.
+- [47:59] But if we go here, you can see running
+- [48:00] retryable blocks, pausing execution,
+- [48:02] pause for an amount of time or wait for
+- [48:04] a specified amount of time. There's a
+- [48:06] crazy amount of stuff that you can do
+- [48:07] with the steps here, but what we're
+- [48:09] going to do is have two steps in our
+- [48:11] function. The first step is going to be
+- [48:12] for loading the PDF, and then the second
+- [48:15] step is going to be for embedding it and
+- [48:17] kind of chunking it or not chunking it,
+- [48:18] but adding it to the vector database.
+- [48:21] So, what I'm going to do is I'm going to
+- [48:23] write two internal functions. The first
+- [48:25] function is going to be load. And this
+- [48:27] is going to take in a ingest dot context
+- [48:32] and it's going to return a rag chunk and
+- [48:35] src result. Okay. And for now we're just
+- [48:38] going to go with pass. We're going to
+- [48:39] have another function and I'm going to
+- [48:41] call this upsert. Now this is going to
+- [48:44] take in chunks and what do you call it
+- [48:47] underscore src. This is going to be of
+- [48:50] type rag chunk and src. And it is going
+- [48:53] to return a rag upsert result. For now
+- [48:56] again we are going to pass. So the idea
+- [48:58] is I have these two individual steps
+- [49:01] that I want to run inside of this
+- [49:02] function. We need to load and then we
+- [49:04] need to add to the vector database. And
+- [49:06] we can make as many steps as we want. In
+- [49:08] this case it's kind of the logical thing
+- [49:10] to do. We could even make more steps if
+- [49:12] we want. And if we did that then we
+- [49:13] would have obviously an even more
+- [49:14] detailed function where we go through
+- [49:16] everything. We can see the timing all of
+- [49:18] that kind of stuff. So what I'm going to
+- [49:20] do down here is I'm going to say chunks
+- [49:21] and src is equal to and rather than just
+- [49:26] calling the load function directly which
+- [49:27] is what you would do if you're just
+- [49:28] working kind of standardly in Python is
+- [49:30] we're going to wrap this in a step. Now
+- [49:33] the way we do that is we say await and
+- [49:35] then this is going to be ctx.step.run
+- [49:39] and then we put the name of the step. So
+- [49:41] in this case we can just call this
+- [49:42] anything human readable that we want. So
+- [49:44] I'm going to say load and chunk and then
+- [49:46] we put the function that we want to
+- [49:48] call. Now, because we want to call these
+- [49:50] functions with arguments, what we're
+- [49:52] going to do is put a lambda, and we're
+- [49:53] going to say lambda, and then this is
+- [49:55] going to be underscore load. And then
+- [49:57] we're just going to pass ctx, which is
+- [49:59] this value essentially here, right into
+- [50:02] this load function. Now, we don't really
+- [50:03] need to pass it like this because we
+- [50:05] could just use this as a global variable
+- [50:06] inside of the function. But for now,
+- [50:08] that's how I'm going to do it. Now, we
+- [50:09] also have the ability here to specify
+- [50:11] the output type. So I can say the output
+- [50:13] type is rag chunk and src because like I
+- [50:16] said this now supports paidantic. All
+- [50:18] right. Now we're going to do the exact
+- [50:19] same thing for the next step. So what
+- [50:21] we're going to do is we're going to say
+- [50:23] inested
+- [50:25] is equal to await ctx.step.r
+- [50:29] run. This step is going to be called
+- [50:31] embed
+- [50:33] and upsert. And keep in mind like you
+- [50:35] can name these steps anything that you
+- [50:36] want. It's more for the logging to see
+- [50:38] it. We're going to say lambda
+- [50:41] and then this is going to be underscore
+- [50:44] upsert and then we're going to pass the
+- [50:46] result from the previous step chunks and
+- [50:48] src and we're going to put the output
+- [50:50] type equal to the rag and what is this
+- [50:53] upsert result okay so this is how we
+- [50:57] call the steps right and then what we
+- [50:59] could do is we could say return ingested
+- [51:02] dot and I'm going to go model dump what
+- [51:05] this does is it just takes our pyanti
+- [51:07] model and converts it into JSON or a
+- [51:09] Python object. So, kind of Python
+- [51:12] dictionary, sorry. Um, and allows us to
+- [51:14] return that because these functions need
+- [51:15] to return something that is what's known
+- [51:17] as serializable. So, we just model dump
+- [51:19] the uh what is it? Pantic object and
+- [51:22] we're good to go from there. So, that's
+- [51:24] kind of how we set up the steps, right?
+- [51:25] We're saying, okay, we're going to run
+- [51:26] this step. We're going to wait for it to
+- [51:27] finish. Then, we're going to run this
+- [51:29] step. Now, you could run these steps in
+- [51:31] parallel, right? You could run them at
+- [51:33] the exact same time. You don't need to
+- [51:34] wait for one to finish because we're
+- [51:35] doing these asynchronously. Um, so we
+- [51:38] could just remove the await, right? And
+- [51:39] we could just run them kind of one by
+- [51:41] one. So we could just remove the await.
+- [51:43] We could run them at the exact same
+- [51:44] time. We could run it in parallel. Like
+- [51:46] we can control the flow however we want.
+- [51:48] But in this case, I do want to wait for
+- [51:49] them to finish running because they will
+- [51:51] take, you know, a second and I need the
+- [51:52] result from this one before I can do the
+- [51:53] result here or before I can execute
+- [51:55] this. So let's write the context of the
+- [51:57] functions now. So I'm going to say
+- [51:59] inside of load, what we need to do is
+- [52:00] get our PD PDF path. So I'm going to say
+- [52:02] ctx.event
+- [52:04] event
+- [52:06] dot data and then I'm going to get the
+- [52:08] PDF path. I'm then going to say the
+- [52:10] source id is equal to ctx
+- [52:15] doevent dot data.get
+- [52:19] and I'm going to say source id and then
+- [52:22] I'm going to put pdf path here. Now this
+- [52:24] is because if I pass a source ID myself
+- [52:27] then I will use that. If not then we'll
+- [52:29] just use the pdf path as the source ID.
+- [52:32] We're going to say chunks is equal to
+- [52:34] load and chunk PDF. We're going to take
+- [52:37] the PDF path and what we're going to do
+- [52:40] is return rag chunk and src and we're
+- [52:44] going to say the chunks is equal to the
+- [52:47] chunks and the source ID is equal to the
+- [52:50] source ID. Okay, so that is loading.
+- [52:54] What we're doing right is we're just
+- [52:55] going to load and chunk the PDF and
+- [52:56] we're effectively going to return that
+- [52:57] result. Now upserting we're going to say
+- [52:59] chunks is equal to chunks and
+- [53:02] src.chunks.
+- [53:03] Right? The typing is nice here. We know
+- [53:05] what we're going to be getting from this
+- [53:06] object. We then are going to say the
+- [53:08] source ID is equal to chunks and src
+- [53:13] dots source ID. We're going to say the
+- [53:16] vectors is equal to and this is going to
+- [53:18] be the embed text. From the embed text,
+- [53:21] we're going to take in the chunks. And
+- [53:23] by the way, if we wanted to like we
+- [53:24] could convert this into a step. It's not
+- [53:26] necessary because it's already kind of a
+- [53:28] part of this and this is the long
+- [53:29] running operation anyways. But we can
+- [53:31] have you know other steps from one of
+- [53:33] these steps. We can also trigger another
+- [53:35] function from this ingest function and
+- [53:37] we can make it you know as complex as we
+- [53:38] want. So I'm going to embed that. I'm
+- [53:40] then going to say ids because I need to
+- [53:42] generate a unique ID for all of these
+- [53:44] vectors and I'm going to say this is
+- [53:46] string.
+- [53:48] And then we're going to say uyu ID
+- [53:50] doyuyu ID 4. This is going to create a
+- [53:51] unique identifier for us. And sorry,
+- [53:53] actually, UUID 5, not four. We're going
+- [53:56] to take UUID.namespace,
+- [53:58] and we're going to use namespace URL.
+- [54:01] Don't worry too much about exactly what
+- [54:03] this is. Just bear with me because this
+- [54:05] will identify or make a unique ID. We're
+- [54:07] going to say source ID. And this is
+- [54:10] going to be associated with I. And then
+- [54:14] we're going to go for i
+- [54:17] in range len of yes len of vex like
+- [54:25] that. Or actually rather than going vex
+- [54:27] let's just go len of chunks although it
+- [54:30] shouldn't really make a difference. Now
+- [54:32] that's the ids. The next thing that we
+- [54:33] need is the payloads because we've
+- [54:35] generated the vector but I need the ID
+- [54:37] for every vector. I need the payload for
+- [54:39] every vector. So I'm going to say
+- [54:40] payload is equal to and then this is
+- [54:42] going to be source. The source is going
+- [54:45] to be the source ID so we know where it
+- [54:46] came from. We're going to say the text
+- [54:49] is equal to chunk at i and then sorry
+- [54:52] this is chunks not chunk. So it's chunks
+- [54:55] i for i in range the len of chunks. So
+- [55:00] again what we're doing is we're kind of
+- [55:01] looping through all the chunks and we're
+- [55:03] getting uh what do you call it? All of
+- [55:05] the text and the source ID for that. So
+- [55:06] we can have that as a payload. So we
+- [55:08] have an ID, we have a payload, we have
+- [55:10] the vectors. Now we're able to actually
+- [55:12] pass this to the quadrant store so that
+- [55:14] we can store it there. So we're going to
+- [55:16] say quadrant storage. Okay, we're just
+- [55:18] going to initialize it. We're going to
+- [55:19] say upsert. And then we're going to pass
+- [55:21] our ids, our vectors, and our payloads.
+- [55:23] And we're going to return the rag upsert
+- [55:26] result. And for this, we're going to say
+- [55:28] ingested is equal to the length of and
+- [55:32] then this is going to be what did we
+- [55:33] have here? Chunks. Okay, so the number
+- [55:35] of chunks that we actually ended up
+- [55:36] ingesting. All right, so that's actually
+- [55:39] it for this function. You know, in
+- [55:41] theory, assuming I didn't make any
+- [55:42] mistakes, which is unlikely, this will
+- [55:44] run and we will be able to actually see
+- [55:46] the results running inside of Injest and
+- [55:49] we'll be able to upsert this into the
+- [55:50] Quadrant database. So, right now, let's
+- [55:52] look uh at what we have. We have the uh
+- [55:56] Injust server running. Our server is
+- [55:57] currently running, but we need to stop
+- [55:59] it and restart it because we made a
+- [56:00] change here and it's not in kind of
+- [56:02] debug mode right now or reload mode.
+- [56:04] It's going to take a second to load up
+- [56:06] here because it's connecting to the
+- [56:07] database. Okay, we can see that it's all
+- [56:09] good. What we're going to do now is
+- [56:11] we're going to go back to our
+- [56:13] development server. Now, we're going to
+- [56:14] go apps. We're just going to make sure
+- [56:16] it's connected. Looks like it is. Let's
+- [56:18] go to our our functions. Let's view
+- [56:19] that. And I actually want to test
+- [56:21] invoking this. So, in order to invoke
+- [56:24] this, I'm going to press on invoke. And
+- [56:26] for my data, I'm going to pass my PDF
+- [56:29] path.
+- [56:31] And I need to pass a valid PDF path. So,
+- [56:34] what I'm going to do is I'm going to go
+- [56:36] and get the absolute path to a PDF from
+- [56:38] my documents. And I'm just going to
+- [56:39] paste it inside of here. Let me do that
+- [56:41] now. Okay. So, I just have a path here.
+- [56:43] I had to escape the slashes because it's
+- [56:46] not going to allow me to do this in the
+- [56:47] string due to how like the slashes are
+- [56:49] how they escape the string essentially.
+- [56:51] Now, this is just a link to one of the
+- [56:53] resources that we actually have for dev
+- [56:55] launch where we have kind of like a DSA
+- [56:56] road map. And anyways, what I'll do is
+- [56:58] just go and press invoke function. When
+- [57:00] I do that, we see a new run is
+- [57:02] triggered. Now, it looks like it's just
+- [57:04] waiting for this to run. So, it says
+- [57:05] running. And then I guess there was an
+- [57:07] error. State finished. Okay. I don't
+- [57:10] know what that means. Uh, file not found
+- [57:12] error. Okay. So, you can see we had a
+- [57:14] file not found error. So, clearly I kind
+- [57:16] of made a mistake there. It's going to
+- [57:17] keep attempting this a few times based
+- [57:20] on how the default settings are set up.
+- [57:21] So, what I could do is just cancel that
+- [57:23] for now. And that's the whole point of
+- [57:24] having this, right? We could debug this.
+- [57:26] I'm going to go to functions, go back
+- [57:28] here, go to invoke, and I'm now just
+- [57:30] going to put a new file. And it looks
+- [57:33] like actually it wasn't two graphs, it
+- [57:34] was 12 graphs. I'm just looking in my
+- [57:36] file explorer. So, let's try it. Now, we
+- [57:39] have this new run. We can see a loadin
+- [57:41] chunk look to work pretty fast. 48
+- [57:43] milliseconds. We get two chunks here
+- [57:45] because of how much content was in this
+- [57:47] document. And then we have embed and
+- [57:49] upsert. And we can see that we ingested
+- [57:51] two documents. And that took a little
+- [57:53] bit longer to go in the vector database
+- [57:54] whereas loading and chunking was very
+- [57:56] fast, right? Where the embedding, you
+- [57:58] know, required us to call out to OpenAI.
+- [58:00] So it takes a second to get the result.
+- [58:01] And then we have finalization down here.
+- [58:04] Cool. So that's also just a really nice
+- [58:06] way to test this, right, from this UI
+- [58:08] rather than having to make the front
+- [58:09] end. So what I'm going to do now is I'm
+- [58:11] going to move on to the next function
+- [58:13] which is going to allow us to actually
+- [58:15] query our PDFs. Right? So let's make
+- [58:17] another ingest function. So here we're
+- [58:19] going to say at ingest and then this is
+- [58:22] going to be underscoreclient
+- [58:24] dotcreate
+- [58:27] function. For the function we're going
+- [58:29] to give this an ID. So we're going to
+- [58:30] say function ID is equal to and this is
+- [58:34] going to be rag. And then we'll go here.
+- [58:37] Query PDF.
+- [58:39] Okay, that can be the name. Then we're
+- [58:42] going to say the trigger is equal to
+- [58:45] ingest.t trigger event. For the trigger,
+- [58:48] we'll go rag query PDF AI because we're
+- [58:51] using AI to do this. We could do it
+- [58:53] without AI as well. We're then going to
+- [58:56] say async define rag_query
+- [59:00] pdf_ai.
+- [59:02] We're going to take in our context,
+- [59:04] which is the
+- [59:06] ingest
+- [59:07] dot context like that. And what we're
+- [59:11] going to do now is start setting up
+- [59:13] essentially everything that we need to
+- [59:14] do to query the PDF. Now, the first
+- [59:17] thing that we're going to do is have a
+- [59:18] function. Okay, I'm going to call this
+- [59:21] search. Now for search we're going to
+- [59:23] take in a question
+- [59:25] which is a string and we're going to
+- [59:27] take in the top k which by default will
+- [59:30] be equal to five and which will be an
+- [59:33] int.
+- [59:34] Okay. Now inside of here we're going to
+- [59:36] say our query vector is equal to embed
+- [59:41] text and we're going to pass a list with
+- [59:44] our question and then we're going to
+- [59:46] pull out index zero. The reason for this
+- [59:48] is that if I want to query my database,
+- [59:50] I need to do it with a vector. So
+- [59:52] whatever the question is that the user
+- [59:53] asked, I need to embed that so it's in
+- [59:56] the same format as everything in the
+- [59:57] vector database. Because this normally
+- [59:59] takes in a long list of text, we're just
+- [60:01] going to pass it as a list and then take
+- [60:02] out the first result. So we'll have this
+- [60:04] as our query vector. Then what we're
+- [60:06] going to do is we're going to say our
+- [60:07] store is equal to quadrant storage. And
+- [60:11] we're going to say found is equal to
+- [60:13] store.arch. We're going to pass our
+- [60:15] query vector and we're going to pass our
+- [60:17] top K. we don't need to pass it as the
+- [60:18] keyword parameter uh or name parameter
+- [60:21] whatever you want to call it and we're
+- [60:22] going to say found is equal to store
+- [60:23] search and we're going to search based
+- [60:24] on that query vector. We're then going
+- [60:26] to return our rag and this is going to
+- [60:29] be search result and we're going to say
+- [60:31] context is found and then context and
+- [60:34] sources is found and then sources and we
+- [60:37] can also just add the return value here
+- [60:40] which is the rag search result. Okay.
+- [60:43] Now, if we go down here, we've kind of
+- [60:45] built out the first step, but there is
+- [60:47] more that we need to do. So, first
+- [60:49] thing, we're going to get the question
+- [60:50] from our event data. So, we're going to
+- [60:52] say ctx.event.data,
+- [60:54] and we're going to pull out what the
+- [60:56] question is. We're also going to pull
+- [60:58] out the top k because this is something
+- [60:59] that will allow the user to pass. So,
+- [61:01] we're going to say ctx.event.data.get
+- [61:03] top k and then five. And we're also just
+- [61:05] going to convert this to an int in case
+- [61:07] they pass it as a string. Okay. Now
+- [61:09] we're going to say found is equal to and
+- [61:12] we're going to await ctx.step.tr
+- [61:16] run. We're going to run the step which
+- [61:18] we're going to call embed and search.
+- [61:21] And same thing as before, we're going to
+- [61:23] call this function. So we're going to
+- [61:24] say lambda
+- [61:26] search and we're going to pass the
+- [61:28] question and the top k and we're going
+- [61:30] to say that the output type. So let's
+- [61:34] specify that is equal to the rag search
+- [61:37] result. Okay. And I don't know why it's
+- [61:40] giving me that. I didn't want that
+- [61:41] autocomplete. All right. So we have the
+- [61:43] output type rag search result. Let's
+- [61:44] make this left side a little bit
+- [61:46] smaller. And we're running this now as a
+- [61:48] step. So again, it will be retriable and
+- [61:50] we'll have all of those benefits. Now
+- [61:51] I'm just going to copy in the prompt
+- [61:53] that I'm going to use for the LLM
+- [61:56] because now once we find the
+- [61:57] information, we need to pass this in a
+- [61:59] prompt. So what I'm going to do is say
+- [62:02] content block and I'm going to join all
+- [62:04] of the context. So all of the sentences
+- [62:07] essentially that I found uh like this
+- [62:09] where I have a dash and then I have the
+- [62:11] uh what do you call sentence 4C in
+- [62:13] contextes and I'm going to combine them
+- [62:15] with kind of two new line characters. I
+- [62:18] know this looks a little bit weird but
+- [62:19] I'm just taking all of the context in a
+- [62:20] list and converting it into a string.
+- [62:22] Then what I'm going to say is the user
+- [62:25] content. So this is essentially what I
+- [62:27] want to ask or kind of like the um yeah
+- [62:29] the the prompt is going to be use the
+- [62:31] following context to answer the
+- [62:32] question. Here's the context. Then
+- [62:34] here's the question. Answer concisely
+- [62:36] using the context above. Okay, that's
+- [62:38] the prompt that I want. Now what I'm
+- [62:40] going to do is I'm going to use an
+- [62:41] adapter here from uh what do you call
+- [62:43] ingest to actually call the AI model. So
+- [62:46] I'm going to say adapter is equal to AI.
+- [62:48] OpenAI dot adapter.
+- [62:51] Now for the adapter I need to pass my
+- [62:53] authorization key. This is going to be
+- [62:55] OS.get envai API key. I need to manually
+- [62:59] pass it here because we're not using the
+- [63:01] open A client now. We're using the
+- [63:03] adapter from uh what do you call it? Uh
+- [63:05] ingest. I'm going to say the model is
+- [63:09] equal to and then I'm going to pass
+- [63:11] GPT-40-
+- [63:14] MIDI. I'm just going to use a small one
+- [63:15] because I don't want it to be super
+- [63:17] expensive. And then I'm going to
+- [63:19] generate a response. Now, by using this
+- [63:21] AI adapter and generating a response
+- [63:23] here with the method you're going to see
+- [63:25] in a second, again, we get the same
+- [63:26] benefits like we do with the step
+- [63:28] function where it will automatically be
+- [63:30] retrieded. It will handle the
+- [63:31] throttling. It will handle the rate
+- [63:32] limiting. As you probably know, when you
+- [63:34] call these LM providers, there can be a
+- [63:36] lot of errors that pop up. So, we're
+- [63:38] going to say response or res is equal to
+- [63:40] await ctx.step.ai.infer.
+- [63:44] This is an AI inference. It has a
+- [63:46] special kind of syntax here inside of
+- [63:48] ingest. We're going to call this the LLM
+- [63:50] answer. So again, it will be observable
+- [63:52] to us. We're going to pass the adapter,
+- [63:55] which is equal to the adapter that we
+- [63:56] just wrote. We're going to pass the
+- [63:58] body, and for the body, this needs to be
+- [64:02] equal to. We're going to pass max tokens
+- [64:06] equal to 1,024.
+- [64:08] We're going to pass the temperature
+- [64:10] equal to 0.2. This is essentially how
+- [64:13] random the model is going to be. So, we
+- [64:15] want to be pretty low on temperature.
+- [64:17] Now, I'm spelling temperature completely
+- [64:19] incorrectly. So, let's fix that
+- [64:21] spelling. And then we're going to have a
+- [64:23] message. So, we're going to say messages
+- [64:26] actually is a list. And for the
+- [64:28] messages, the first thing that we're
+- [64:30] going to do is we're going to say roll.
+- [64:31] And this is system.
+- [64:34] And then the content, let's fix this
+- [64:37] typing here, is going to be equal to
+- [64:39] kind of a system message. And I'm just
+- [64:41] going to paste in a simple one here. You
+- [64:44] can make this as detailed as you want.
+- [64:46] I'm going to say you answer questions
+- [64:47] using only the provided context to make
+- [64:49] sure that it really is not kind of going
+- [64:51] crazy and it's just using what we
+- [64:52] provided. And then I'm going to say roll
+- [64:55] user and then content and then I'm going
+- [64:59] to pass to this again if we fix the
+- [65:02] typing the what did we call this up
+- [65:05] here? The user content.
+- [65:07] Okay. So that is going to now generate
+- [65:10] the response for us. Now after the
+- [65:12] response we need to get the answer. So
+- [65:14] we're going to say answer is equal to
+- [65:15] res. This is the default format from
+- [65:18] OpenAI. So we're going to say choices
+- [65:20] zero
+- [65:22] message and then content. Okay? Because
+- [65:26] you can pass multiple things. So this is
+- [65:28] kind of the way that we need to do it.
+- [65:29] And then we're going to say dot strip.
+- [65:30] So we're going to strip off any leading
+- [65:32] or trailing white spaces. Then what
+- [65:34] we're going to do is we are going to
+- [65:36] return and we're going to say answer is
+- [65:39] answer. We're going to say sources. And
+- [65:43] this needs to be as a string.
+- [65:46] So sources is going to be equal to found
+- [65:49] do.ources like that. And then we're
+- [65:51] going to say the num
+- [65:54] context. And then what we'll do is we'll
+- [65:56] just pass the number. So we're going to
+- [65:57] say len of found.context.
+- [66:00] Okay. So that should pretty much be it
+- [66:03] in terms of this function. Again, what
+- [66:05] we're doing is we have the search step
+- [66:07] where we're embedding the query, the
+- [66:08] thing the user asked essentially, and we
+- [66:10] are then searching for the results in
+- [66:12] the vector database. We are running that
+- [66:14] as a step. We're creating a simple
+- [66:16] prompt here to say, okay, here's the
+- [66:18] information. Here's the question. We're
+- [66:19] creating an AI adapter. We're passing
+- [66:21] that to the inference step with our
+- [66:24] messages and then we're just kind of
+- [66:25] parsing the response and returning it.
+- [66:27] It's really not too complex, but just
+- [66:28] because we're doing with ingest, I want
+- [66:30] to explain it a bit more in depth. Okay,
+- [66:32] now that we have that, we can restart
+- [66:35] the server again and we should be able
+- [66:37] to actually run this inference. So, if
+- [66:39] we go back, we can refresh. Okay. And we
+- [66:43] now know that we have one document that
+- [66:45] we added. I added it about graphs,
+- [66:47] right? And actually, let me open the PDF
+- [66:48] so you can kind of see what it looks
+- [66:49] like. Something like this, right? Where
+- [66:51] we have like some problems, leak code
+- [66:53] problems, um, you know, just like some
+- [66:55] basic information because we recommend
+- [66:57] people do, and there's, you know, a
+- [66:58] bunch more here. uh certain questions on
+- [67:00] leak code during certain days based on
+- [67:01] our DSA road mapap in dev launch. So
+- [67:04] what I'm going to ask it is something
+- [67:06] like you know what is the importance of
+- [67:08] graph I don't know we we'll come up with
+- [67:10] something right but if I go to functions
+- [67:11] now oh we only have one function okay so
+- [67:14] let's go back here my my apologies guys
+- [67:16] let's shut this down okay close that
+- [67:19] shut this down and let's add this
+- [67:22] function to the list so what do we call
+- [67:24] this uh rag query PDF AI because we need
+- [67:26] to serve the function so we got to add
+- [67:28] it into that list there okay let's rerun
+- [67:31] the application
+- [67:33] and apologies. Let's go back. Let's go
+- [67:36] here. Refresh. And now we see another
+- [67:39] function is appearing. So let's go to
+- [67:40] query PDF. Let's go to invoke.
+- [67:44] I think this time we just need to pass
+- [67:46] top K and questions.
+- [67:49] Okay. So we're going to say question and
+- [67:51] then the question can be like this. Oh,
+- [67:54] I'm going to ask it something like what
+- [67:56] is the importance of graph problems? And
+- [68:01] let's see. I don't know if that's going
+- [68:02] to give us an answer, but let's try it.
+- [68:04] Okay, so it's running and we can see
+- [68:06] that it says, you know, embed in search.
+- [68:08] It ran that step and then I did LLM
+- [68:10] answer and finalization and then it gave
+- [68:12] us the answer here. It said graph
+- [68:14] problems are important because they help
+- [68:15] build comfort with fundamental concepts
+- [68:16] such as modeling problems as graphs,
+- [68:18] performing DFS and BFS traversals and
+- [68:20] managing state and recursion. They also
+- [68:21] enhance blah blah blah. This is a direct
+- [68:23] quote out of that PDF that I showed you
+- [68:25] and it says that this is the kind of
+- [68:28] context that it looked at. You can see
+- [68:29] there's another document that I uploaded
+- [68:31] kind of as a test. Um although, you
+- [68:33] know, it didn't actually use anything
+- [68:35] from this. It just was pulling that
+- [68:36] context and then it pulled it out of
+- [68:38] graphs. And if we look through the other
+- [68:39] steps, you know, we can see all of the
+- [68:41] input output, everything that was going
+- [68:42] on and kind of the importance of that.
+- [68:45] Cool. Okay. So, that worked. We now have
+- [68:48] the two functions. And to be honest, at
+- [68:50] this point, like the application is
+- [68:51] pretty much done. We built a rag query
+- [68:54] application. But I do want to show you a
+- [68:56] few other kind of nice features that
+- [68:58] Injust has that we can take advantage
+- [68:59] of, as well as how we can add a custom
+- [69:02] front end to this. So for the front end,
+- [69:04] what I'm actually going to do is I'm not
+- [69:06] going to code it from scratch with you
+- [69:07] because it's going to take a little bit
+- [69:08] of time to do that. I'm going to leave a
+- [69:10] link in the description to all of the
+- [69:11] code in this video. In that uh link,
+- [69:14] you'll see a Streamlit file. It's going
+- [69:16] to be called Streamlit app. I'm going to
+- [69:18] write it in one second for you. You'll
+- [69:20] see it. And you can just copy that and
+- [69:21] paste it into this project and it will
+- [69:23] be a functioning frontend for you to use
+- [69:26] within this application. So let me show
+- [69:27] you what I mean. I'm going to make a new
+- [69:29] file. I'm going to call it
+- [69:30] streamllet_app.py.
+- [69:33] Now I'm just going to directly copy this
+- [69:35] from my other monitor because I wrote it
+- [69:36] before the video for the demo. Okay. So
+- [69:38] I'm just going to paste it directly
+- [69:40] inside of here. And you guys can find it
+- [69:41] from the link in the description in the
+- [69:43] GitHub link. Same thing. Literally just
+- [69:45] copy it and paste it inside of here. And
+- [69:47] I'll quickly step through some of the
+- [69:49] code in terms of calling our function so
+- [69:51] you see how that works. Uh and then this
+- [69:53] will just be a functioning front end.
+- [69:54] I'll show you how to run it. So
+- [69:56] effectively this is a stream
+- [69:57] application. Really nice UI. You can
+- [69:59] just build stuff in pure Python. You can
+- [70:02] see that we what do you call it? Import
+- [70:04] ingest here as well. We create an ingest
+- [70:07] client. It's really important that we
+- [70:08] specify the correct app ID and that we
+- [70:11] don't specify that this is in production
+- [70:13] because if it's in production, we need
+- [70:14] to pass something called an event key uh
+- [70:16] which you can generate on ingest which
+- [70:18] is a little bit more complicated if
+- [70:20] you're going to deploy this for security
+- [70:22] reasons. We have the ability to like
+- [70:23] save and upload a PDF. So we store it
+- [70:25] and we can upload it. And then we have
+- [70:27] things like send the rag ingest event.
+- [70:30] So, like I was saying, if you want to
+- [70:32] actually trigger one of the functions to
+- [70:33] run on ingest, all you have to do is get
+- [70:35] the client and then you just send an
+- [70:37] event. So, we send the event, which is,
+- [70:38] you know, rag ingest PDF just like we
+- [70:40] were kind of doing from the UI. We pass
+- [70:42] the PDF path and the source ID and
+- [70:45] that's it. And then it just triggers it
+- [70:46] and it runs and it ingests it. Right
+- [70:49] now, same thing for running the query
+- [70:51] event. When we run the query event,
+- [70:53] what's going to happen is it's going to
+- [70:54] return to us the event ID. Now, this is
+- [70:57] the thing that's a little bit tricky. If
+- [70:59] you want to get the result from an
+- [71:01] event, because this is not synchronous,
+- [71:03] you need to send a different request
+- [71:05] later. So what I mean by that is the
+- [71:06] result here is not actually going to be
+- [71:08] the result of the LLM call. What it's
+- [71:10] going to be instead is just kind of like
+- [71:12] some metadata about this event and how
+- [71:14] it ran. So what I do is I actually just
+- [71:17] return what's going to end up being here
+- [71:19] kind of the event ID. And then we have
+- [71:22] this code right here which fetches all
+- [71:24] of the event runs and then is able to
+- [71:26] search through this for the most recent
+- [71:29] event that matches the event ID that we
+- [71:31] had and then actually get what the
+- [71:33] result of that is because again an event
+- [71:35] might take you know a day a minute 10
+- [71:37] seconds. We don't know how long it's
+- [71:38] going to take to run. So what we do is
+- [71:40] we kind of run this loop where we're
+- [71:42] fetching the events. We're looking for
+- [71:44] this particular event ID right? So we're
+- [71:46] looking for that event ID and then any
+- [71:47] of the runs. We're getting the most
+- [71:49] recent run. We're checking its status.
+- [71:51] If the status is completed, succeeded,
+- [71:53] success, you know, finished, one of
+- [71:55] these things, then what we're going to
+- [71:56] do is we are going to return what the
+- [71:58] output of that is. Otherwise, if it's
+- [72:00] failed or canceled, we're going to raise
+- [72:02] an error. And if we go past the timeout,
+- [72:04] then we're going to say that there was a
+- [72:05] timeout. Then we're going to sleep in
+- [72:06] between. We're essentially pulling the
+- [72:08] endpoint to get the result. This is all
+- [72:10] documented extensively in the
+- [72:12] documentation for ingest. But
+- [72:14] essentially, we just send a request, do
+- [72:16] this endpoint. So we get the API base
+- [72:18] URL, we send a SLevents SLevent ID
+- [72:21] SLruns and then we're good to go. And
+- [72:23] this is what the uh base URL will be,
+- [72:25] right? Either in the environment
+- [72:26] variable or 8288/v1
+- [72:29] slash and then this. Okay, hopefully
+- [72:32] that makes sense. Again, I'm not going
+- [72:33] to explain the entire front end, but I
+- [72:35] just want to show you that, you know, we
+- [72:36] wrote it. We can use it. So if we go
+- [72:38] into another um terminal, we can type
+- [72:40] uvun streamlit run and then the name of
+- [72:44] this, which is streamllet app.p py when
+- [72:48] we do that it should open it up for us
+- [72:49] in the browser from here we can just use
+- [72:52] this UI right so I can ask a question
+- [72:54] like why or let's go this you know why
+- [72:57] are graphs
+- [73:00] important we can say okay we just want
+- [73:02] to retrieve maybe three chunks we can
+- [73:04] ask that it's then going to send the
+- [73:06] event and generate the answer if we go
+- [73:07] to ingest we can see we have a running
+- [73:09] event right now right because we sent
+- [73:11] that from the front end and then it's
+- [73:12] going to take a second because of the
+- [73:14] polling how we have it set up on a
+- [73:15] little bit of delay and we should get
+- [73:18] the result. Okay, so you can see we get
+- [73:20] the answer and it tells us kind of the
+- [73:22] uh what do you call it? The sources that
+- [73:24] it used to get that. Now if we upload a
+- [73:26] file, let me do this. Okay, so I just
+- [73:27] uploaded a resume here. This is actually
+- [73:29] one of our Dev Launch students résumés
+- [73:31] and uh we did that. You can see it says
+- [73:33] triggered ingestion. And if we go back
+- [73:34] here, this event just ran. It's very
+- [73:36] fast. Ingest PDF. And we can go through
+- [73:38] and we can kind of see what happened
+- [73:39] here. I don't want to expose this
+- [73:40] because it has some personal data in it.
+- [73:42] But the point is, you know, you get the
+- [73:44] idea. that we embedded, inserted, etc.
+- [73:46] In this case, it was just one chunk.
+- [73:48] Okay, so that's that. That's the front
+- [73:50] end and that's almost everything. The
+- [73:53] last thing that I will quickly go
+- [73:54] through is a few things that you can add
+- [73:56] to the functions for rate limiting and
+- [73:59] throttling and some more control. So,
+- [74:01] you can do a lot with this, right? I,
+- [74:03] you know, kind of barely scratched the
+- [74:04] surface of what's possible with this
+- [74:05] orchestration tool, but I want to
+- [74:07] quickly show you that a nice benefit of
+- [74:09] this is how easy it is to add like rate
+- [74:12] limiting. So for example if we go to
+- [74:16] what is it like overview here you can
+- [74:18] see that if we want to add throttling we
+- [74:20] can just go throttle is ingest throttle
+- [74:22] we can say you know count is two you
+- [74:24] know period daytime delta we could
+- [74:26] literally just like copy this right go
+- [74:28] back to pycharm
+- [74:30] let's add this in and now we have
+- [74:32] throttling automatically applied to this
+- [74:34] function right boom it's there it's
+- [74:36] going to work same thing if I go back
+- [74:38] here so I could go to flow control here
+- [74:41] I could implement concurrency Right. So
+- [74:43] you can see we can actually have just
+- [74:44] concurrency directly inside of here. We
+- [74:46] could add rate limiting. So for example,
+- [74:48] let me just copy one of these. Okay. So
+- [74:51] we'll just copy that and paste it inside
+- [74:54] of here. And you can see now that like
+- [74:55] I've just added rate limiting. And for
+- [74:57] the rate limiting, you're also able to
+- [74:59] add a key. So for something like
+- [75:01] ingesting the PDF, uh we may want to
+- [75:03] have a key that's actually relative to
+- [75:05] the source ID or something. So we could
+- [75:06] say key source ID. So now we're only
+- [75:09] going to apply that based on this key.
+- [75:11] And there's just all kinds of other
+- [75:12] things that you can add here to each of
+- [75:14] the functions. Then we would just shut
+- [75:15] the application down, rerun it, and now
+- [75:17] all of a sudden we have a rate limit.
+- [75:19] This would mean we can only run this one
+- [75:20] time every 4 hours for a given PDF
+- [75:23] document. That's it. That's kind of how
+- [75:25] this works to make sure that you're not
+- [75:26] abusing the functions. There's a lot of
+- [75:28] other stuff. Again, I'm not going to go
+- [75:29] through everything. We have priority to
+- [75:30] bouncing, you know, singleton pattern,
+- [75:32] concurrency, all of that kind of stuff,
+- [75:34] which is really interesting and makes
+- [75:35] this a very powerful tool. Okay, so with
+- [75:38] that said guys, that is going to wrap up
+- [75:40] this video. I think this is a really
+- [75:42] cool application. It goes above and
+- [75:44] beyond the kind of basic simple rag apps
+- [75:47] where we just do something locally. This
+- [75:49] is actually something that we now could
+- [75:51] deploy to production. In order to do
+- [75:53] that, I would suggest following along
+- [75:55] with the ingest documentation. They have
+- [75:57] some steps on deployment and essentially
+- [75:59] how you kind of configure security and
+- [76:02] different applications and how you set
+- [76:03] up the environments. It's not something
+- [76:05] that I have enough time to cover in this
+- [76:06] video, but if you guys do want a video
+- [76:08] on it, then definitely let me know and I
+- [76:10] can likely team up with INDS again to
+- [76:12] get that done. Anyways, that is it. I
+- [76:14] hope you guys enjoyed the video. If you
+- [76:15] did, make sure to leave a like,
+- [76:17] subscribe to the channel, and I will see
+- [76:18] you in the next one.
+- [76:24] [Music]

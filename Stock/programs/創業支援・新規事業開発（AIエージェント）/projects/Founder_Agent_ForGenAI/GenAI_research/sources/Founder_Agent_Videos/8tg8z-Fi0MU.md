@@ -1,0 +1,887 @@
+---
+title: "YouTube Video: 8tg8z-Fi0MU"
+video_id: "8tg8z-Fi0MU"
+video_url: "https://www.youtube.com/watch?v=8tg8z-Fi0MU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  Thank you everyone for coming. Um, [music today in this in this event. Uh, I know deep learning AI has done so much for educating the community at large. So awesome to see the energy here as people ar...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 8tg8z-Fi0MU
+
+- URL: https://www.youtube.com/watch?v=8tg8z-Fi0MU
+- Retrieved at: 2025-12-30T09:51:00+09:00
+
+## Text
+
+- [00:08] Thank you everyone for coming. Um,
+- [00:09] [music] super exciting to see the energy
+- [00:11] today in this in this event. Uh, I know
+- [00:14] deep learning AI has done so much for
+- [00:16] educating the community at large. So
+- [00:18] awesome to see the energy here as people
+- [00:19] are kind of just talking about the what
+- [00:21] they're going to be building in the next
+- [00:22] frontier of AI. Um, so just a brief
+- [00:25] overview of what we're going to be
+- [00:26] talking about today. We will be covering
+- [00:29] um an overview of uh our developer
+- [00:32] platform, some of the newer features
+- [00:33] such as the cloud agent SDK, um some of
+- [00:36] the new advancements in our most recent
+- [00:37] models. Um and I'll just say that like
+- [00:40] in a lot of these different topics we're
+- [00:42] going to be covering today, we could
+- [00:43] easily spend 30 minutes on just a single
+- [00:45] one, right? So, um we're going to try to
+- [00:48] give a a broad overview of our offerings
+- [00:51] and hopefully you all come away learning
+- [00:52] something you didn't know about Claude
+- [00:54] and our and our products before. Um, so
+- [00:57] before we jump into things, I'll give a
+- [00:58] quick introduction. Uh, my name is
+- [01:00] Stanvir. I'm part of the applied AI team
+- [01:02] here at Enthropic. So I spend most of my
+- [01:04] time working with our c some of our most
+- [01:06] strategic customers who are building
+- [01:08] stuff on top of uh our models and our
+- [01:11] infrastructure. Uh, specifically
+- [01:12] focusing in the healthcare life sciences
+- [01:13] domain and separately do some also
+- [01:15] internal product research work to
+- [01:17] improve our models at the domains we
+- [01:18] care about. Um, and other product
+- [01:20] launches such as our memory system in
+- [01:22] cloud AI or the MCP registry. Hi
+- [01:25] everybody, my name is Utkar. I work in
+- [01:27] infrastructure at Anthropic supporting
+- [01:29] both the product and research sides of
+- [01:31] the company.
+- [01:35] So let's get started. Um to kick us off,
+- [01:39] I want to take you all through the suite
+- [01:41] of products that Enthropical offers to
+- [01:44] give you a quick kind of summary of
+- [01:46] things. Um and I'm going to present this
+- [01:48] in the form of a stack because I think
+- [01:50] that's the most intuitive way to think
+- [01:52] about it. Um you know at the bottom
+- [01:55] layer obviously is um what enthropic
+- [01:58] focuses on a lot which is the models. Um
+- [02:01] you guys all know that we have three
+- [02:03] classes of models. We have haiku sonnet
+- [02:06] and opus. Haiku being kind of like our
+- [02:08] most costefficient models. Opus being
+- [02:10] the top of the line our biggest and most
+- [02:13] intelligence model and sonnet being kind
+- [02:15] of like your day-to-day workhorse where
+- [02:17] we really try to strike a balance
+- [02:19] between um intelligence and cost. But
+- [02:22] you know the models by themselves the
+- [02:24] intelligence by itself is not useful
+- [02:27] unless we build things and products to
+- [02:29] bring them to the users to the world and
+- [02:31] that's where we step into the upper
+- [02:33] layers of the stack. So one layer above
+- [02:36] is kind of where we try to build the
+- [02:39] build the kind of capabilities that uh
+- [02:42] can be used to build agentic
+- [02:44] applications uh more easily. So these
+- [02:47] are things like memory that lets um you
+- [02:50] know multiple conversations basically
+- [02:52] share the same context. Um these are
+- [02:55] things like web research um or sorry web
+- [02:58] search research and orchestration that
+- [03:00] basically lets claude do more
+- [03:02] complicated tasks or have multiple sub
+- [03:04] aents kind of working in parallel um
+- [03:07] towards a single uh goal. And then
+- [03:11] finally on top of that is where we have
+- [03:13] the entropics like top level platform
+- [03:16] which are things like cloud code, cloud
+- [03:18] AI, you guys all know these. Um and then
+- [03:21] the cloud developer platform which is
+- [03:23] what we are going to be uh spending most
+- [03:25] of our time on today. This is what you
+- [03:27] guys build on top of to build your own
+- [03:29] applications. Um and in the next slide
+- [03:32] I'm going to take you through the road
+- [03:34] map for uh the developer platform.
+- [03:38] And actually, let me go back for a
+- [03:39] second and make a quick call out um that
+- [03:42] we partner very deeply with AWS and
+- [03:45] Google. So if any of you guys have your
+- [03:47] applications or services deployed in
+- [03:49] those clouds, then you can use cloud's
+- [03:51] APIs via um bedrock and vertex in
+- [03:55] addition to cloud's firstparty API. Um
+- [03:58] obviously
+- [04:02] so speaking of cloud developer platform
+- [04:05] um I'm I kind of want to take you guys
+- [04:07] through the road map that we have here
+- [04:09] and we can really break it down into
+- [04:11] three sections. The first one is you
+- [04:15] know obviously enable all of you to
+- [04:16] build the best applications on top of
+- [04:18] cloud and this is our big impedus to
+- [04:22] build the features that I talked about
+- [04:23] before like memory orchestration web
+- [04:26] search and such. Um the next thing here
+- [04:30] is basically
+- [04:32] uh giving claude access to information
+- [04:35] and knowledge in your own domain. You
+- [04:37] guys all know that anthropic invented
+- [04:39] MCP model control protocol and that is a
+- [04:42] huge part of our strategy in this area.
+- [04:45] We want claude to be most helpful in the
+- [04:48] context your of your own applications.
+- [04:51] Then finally I want to call out that we
+- [04:53] want to make building agents and using
+- [04:56] AI intelligence more costefficient and
+- [04:59] faster and this is where prompt caching
+- [05:01] comes in. You guys all know that um you
+- [05:04] know with prompt caching you can
+- [05:06] basically have u a new prompt chain kind
+- [05:10] of resume from a the context that was
+- [05:13] built up in a previous prompt chain um
+- [05:15] if you're having a similar conversation
+- [05:17] with claude as before. So it basically
+- [05:20] lets you kind of skip the time and
+- [05:22] tokens that were used to get to that
+- [05:24] context saving you both time and money.
+- [05:30] I want to take you guys through some of
+- [05:32] the new capabilities that we have
+- [05:34] released in the cloud developer platform
+- [05:36] recently. There are so many of them I
+- [05:38] cannot go through all of them but I want
+- [05:40] to kind of talk about some key ones. Um
+- [05:43] first of all MCP connector which
+- [05:46] basically lets you use MCP without
+- [05:49] having to explicitly build an MCP
+- [05:51] client. So, you know, you can kind of
+- [05:53] just say in the con context of a single
+- [05:55] message to Claude, um, tell it to use an
+- [05:58] MCP server and we'll just do it in the
+- [06:00] background for you. Um, the next two
+- [06:03] things I want to call out are the new
+- [06:05] files API and our code execution tool.
+- [06:07] And those two really go hand inand
+- [06:09] really well. Um, files API basically
+- [06:11] lets you upload files and then have
+- [06:15] multiple conversations with Claude,
+- [06:17] reference those files so that you don't
+- [06:19] have to upload and tell Claude that
+- [06:21] context every single time in a new
+- [06:23] conversation. And our code execution
+- [06:25] tool that basically lets um Claude do
+- [06:29] more complicated analysis on get any
+- [06:32] given piece of data. You know, this
+- [06:33] could be a file that you uploaded using
+- [06:35] the files API um and generate new files.
+- [06:39] So you, for example, you could upload a
+- [06:40] CSV file and have Claude perform some
+- [06:43] complicated analysis and build a build
+- [06:46] some charts out of it. Maybe even build
+- [06:47] a presentation out of it. Um, and in
+- [06:50] addition to that, you can have Claude
+- [06:52] execute code in a sandbox environment.
+- [06:55] Um, so these are kind of really what
+- [06:57] make Cloud more powerful to do things in
+- [06:59] the real world.
+- [07:01] >> Next.
+- [07:03] >> Yeah. Um, and you know, that was the the
+- [07:06] suite of the developer platform, which
+- [07:07] we'll return to in a second. Um, now
+- [07:10] I'll focus a little bit more on some of
+- [07:12] the core research that actually goes
+- [07:13] into making cloud models great. So, I
+- [07:16] wanted to really focus specifically on
+- [07:18] um, our recent model we launched, Sonnet
+- [07:20] 45, which is our most intelligent model
+- [07:22] to date. Mostly highlighting just like
+- [07:24] specific areas in which we found massive
+- [07:27] improvements from the last generation of
+- [07:28] cloud models. Um and we hope this will
+- [07:30] be sort of telling as far as like what
+- [07:33] is on our mind in terms of research
+- [07:34] roadmap where the models are heading
+- [07:36] etc. So a lot of these sort of same
+- [07:38] advancements we're going to be talking
+- [07:39] about today should expect those sorts of
+- [07:41] capabilities to continue to improve in
+- [07:43] future releases of cloud models as well.
+- [07:46] Um so I like to break it down into four
+- [07:49] different categories albeit like the
+- [07:51] different advancements we make with one
+- [07:52] generation to another
+- [07:55] um can cover more than just these four.
+- [07:57] So these are just the four we'll be
+- [07:58] focusing on today. So we'll start with
+- [08:00] code generation. Um it's no secret if
+- [08:03] you guys are familiar with Claude and
+- [08:05] and and Anthropics products, we're
+- [08:07] mostly well known for um our lead in
+- [08:11] building the most intelligent capable
+- [08:13] agentic coding models. Right? If you use
+- [08:15] Claude Code before or products like
+- [08:17] Cursor, Windsor for others, um Claude is
+- [08:20] basically the go-to model for a lot of
+- [08:21] developers writing code in their
+- [08:22] day-to-day. Um and part of this is like
+- [08:25] shown in some of our like leading sweet
+- [08:26] bench scores of 80 plus percent. Um a
+- [08:29] lot of people also like look at these
+- [08:31] sorts of increases of you know two to 3%
+- [08:34] between models um and are kind of asking
+- [08:37] like why does this matter right I think
+- [08:39] SWEBench in particular is an interesting
+- [08:41] eval where the actual um metric range is
+- [08:45] actually like logarithmically scaled so
+- [08:47] as you get closer and closer to 100%
+- [08:49] even a 1% jump is actually a sub
+- [08:51] substantially larger jump than like
+- [08:53] maybe 5% at a lower end of the of the
+- [08:55] spectrum so that's like one thing
+- [08:57] interesting to highlight but the Second
+- [08:58] is like if you also think about the all
+- [09:00] the different types of capabilities that
+- [09:02] go into making a a good autonomous
+- [09:04] software engineer, it's not just about
+- [09:06] being able to read and understand and
+- [09:08] write code. It's also about other um
+- [09:11] very tangible things that you as a
+- [09:12] software engineer might do in your
+- [09:13] day-to-day, right? Being able to come up
+- [09:15] with a great PRD or plan for what you
+- [09:17] actually want to implement. How do you
+- [09:18] actually like keep track of what you're
+- [09:20] working on over a very very long coding
+- [09:22] task that requires changes to many many
+- [09:23] different files? um how do you actually
+- [09:26] like reason well such that if you make a
+- [09:27] wrong architectural decision you can
+- [09:29] actually reflect on that and course
+- [09:30] correct yourself right um there are all
+- [09:32] these different sorts of capabilities
+- [09:34] across reason context understanding
+- [09:36] instruction following etc that kind of
+- [09:38] come together to form uh claude's
+- [09:40] superiority in coding um so the big
+- [09:44] point here is that we see ourselves as
+- [09:47] like the best model for building agents
+- [09:49] period because it's sometimes not
+- [09:52] obvious how sometimes our superiority in
+- [09:55] coding can actually translate to
+- [09:56] building agents in so many other
+- [09:58] different domains. Um, which we're
+- [09:59] really really excited about. One example
+- [10:02] is how you can think about even the the
+- [10:04] role of code generation beyond just you
+- [10:07] know software development developer
+- [10:08] productivity right um many of you guys
+- [10:11] have been building agents in the sort of
+- [10:13] world that exists on the left here in
+- [10:15] this sort of vanilla tool calling world.
+- [10:17] So in this example, you have an agent
+- [10:19] where you task it to adjust some
+- [10:21] financial model based on, you know, the
+- [10:23] latest earnings and internal projections
+- [10:24] it might have access to, right? So you
+- [10:26] might have some MCP servers hooked up to
+- [10:27] it and what's going to happen is the
+- [10:29] model is just going to make a bunch of
+- [10:30] tool calls sequentially to gather the
+- [10:31] context it needs and and take the action
+- [10:34] that it requires, right? Versus
+- [10:37] um you know, as these models get more
+- [10:39] and more capable, especially with code
+- [10:41] and and tools like Bash, etc. Um, we're
+- [10:44] really really excited about this world
+- [10:45] where you can just continue to
+- [10:47] orchestrate tools through code instead.
+- [10:50] Right now, why is this so powerful? It
+- [10:53] means that the models can kind of follow
+- [10:54] their own patterns when completing tasks
+- [10:58] closer to almost how a human would
+- [10:59] operate. Let's say you're a data
+- [11:01] scientist, right? Operating in a Jupyter
+- [11:02] notebook or an R studio workbench, etc.
+- [11:05] your your process for typically like
+- [11:07] working on a new task is going to be
+- [11:09] like load in some data, print out a
+- [11:10] bunch of summary statistics, create
+- [11:12] visualizations, look at those charts,
+- [11:14] right, and like iterate. So you're
+- [11:17] allowing the model to basically have
+- [11:18] access to the sort of same reasoning
+- [11:20] capabilities that you almost as a
+- [11:22] software engineer or as a data scientist
+- [11:24] might have itself. Um, and another way I
+- [11:26] like to frame it, right, is like in the
+- [11:29] tool call vanilla tool calling world,
+- [11:31] um, your capabilities kind of scale
+- [11:33] linearly for your agents for every tool
+- [11:35] you add versus in the actual world where
+- [11:38] you're orchestrating these, you know,
+- [11:39] tools through code. Uh, your
+- [11:42] capabilities scale exponentially, right?
+- [11:44] Because you have access to do so much
+- [11:46] more with a computer through code, even
+- [11:48] through the access to the different
+- [11:49] packages you might give clot as well.
+- [11:53] Next we'll talk about longer
+- [11:54] trajectories. Now what do we mean by
+- [11:56] longer trajectories? Um we've been
+- [11:59] recently seeing that you know as these
+- [12:01] models get more intelligent right they
+- [12:03] can actually kind of work for longer on
+- [12:04] more complex tasks right similar reason
+- [12:07] as to why I mentioned our lead encoding
+- [12:09] right it's a summation of all these
+- [12:10] different capabilities coming together
+- [12:11] to to form this um but like most
+- [12:15] recently we've been seeing like you know
+- [12:17] um sonnet 45 being reported by our
+- [12:19] customers to be able to code for 30
+- [12:20] hours straight on building fullstack
+- [12:22] applications um versus what was you know
+- [12:25] reported to be seven hours by one of our
+- [12:27] customers back in Okay. Um, and I think
+- [12:29] the one capability that's like really
+- [12:31] worth highlighting and digging into that
+- [12:32] like unlocks this is memory, which has
+- [12:35] become a huge focus of ours at
+- [12:36] Anthropic. We believe that like memory
+- [12:39] truly is what's going to unlock um the
+- [12:41] sort of idea of infinite context. How do
+- [12:43] you let the model basically um search
+- [12:45] for what it needs at any given point in
+- [12:47] time to read read the right context in?
+- [12:50] Um, so the simplest form of of memory
+- [12:53] can be that you just give the model
+- [12:55] access to some file system and then as
+- [12:57] it works on a task, it's able to just
+- [12:59] like note down the most important
+- [13:00] details for future instances of that
+- [13:02] same agent and then it's also able to
+- [13:05] dynamically query and read that
+- [13:07] unstructured data and that file system
+- [13:08] to actually find the right context and
+- [13:10] needs for a given task at any given
+- [13:11] point in time. So we found that like
+- [13:13] recent models like such as Sonnet 45
+- [13:15] have gotten better in like both axes of
+- [13:18] like how do you actually use and utilize
+- [13:19] memory?
+- [13:21] Now a more tangible example that you
+- [13:23] guys might be more familiar with is
+- [13:25] Claude plays Pokemon. So u how many of
+- [13:28] you have seen the Twitch stream or have
+- [13:30] are familiar with the project? Okay, a
+- [13:32] couple of hands. So um if you're not
+- [13:34] familiar, you can just go to
+- [13:35] twitch.tv/cloudplays
+- [13:37] Pokemon. You can literally see a live
+- [13:39] stream running where you can actually
+- [13:40] see our models like playing Pokemon with
+- [13:42] the transcripts going live. Um, but one
+- [13:44] of the cool things that about this eval
+- [13:46] is like one, it started out as a as a
+- [13:48] side project by one of our engineers
+- [13:50] just like for fun, but we've actually
+- [13:52] learned so much about our models from
+- [13:54] just like how it plays Pokemon, which
+- [13:56] has been really really fascinating to
+- [13:57] see that sort of like feedback loop to
+- [13:59] research. So, one example here would be
+- [14:02] models before Cloud 4 models would
+- [14:05] typically actually like play a game of
+- [14:07] Pokemon Fire Red and it would basically
+- [14:10] create a monster single markdown file
+- [14:13] that contains all of its notes as it's
+- [14:15] like progressing through the game um for
+- [14:17] hours on end versus you know since
+- [14:20] Claude 4 models came out we've started
+- [14:22] to see that the model without with
+- [14:23] minimal prompting has started to like
+- [14:25] maintain a better structure of its
+- [14:27] memories right so it creates a single
+- [14:29] markdown file for each town it it
+- [14:30] traverses each Pokemon gym each puzzle
+- [14:33] each uh even route that it's like going
+- [14:36] through right and that's like the model
+- [14:38] just having a better sense of how do I
+- [14:39] structure my memory optimally for future
+- [14:42] instances of myself that it's able to do
+- [14:44] relatively unprompted um which is really
+- [14:47] really cool to see
+- [14:48] >> the next thing I want to call out here
+- [14:49] is computer use so one of the areas in
+- [14:53] which we see sonnet 4.5 having a large
+- [14:55] improvement from any of our previous
+- [14:57] models is actually computer use. What do
+- [14:59] I mean by that? It's basically anything
+- [15:02] that humans might do to interface with
+- [15:04] the computer. So something like take a
+- [15:06] screenshot, understand it, um see what's
+- [15:08] on the screen, click around, you know,
+- [15:10] actually uh use a web browser, basically
+- [15:13] effect any kind of actions onto a
+- [15:15] computer. And the reason I want to call
+- [15:17] this out is because it goes to show that
+- [15:19] Claude is not doesn't only have strength
+- [15:22] in basically being able to understand
+- [15:24] the context that that's given to it but
+- [15:26] actually go out in the world and do
+- [15:27] useful things.
+- [15:32] And the last thing here is domain
+- [15:33] intelligence. So you know we've already
+- [15:36] talked about claude strengths in coding
+- [15:38] computer use knowledge and search but
+- [15:41] some other areas that we see claude
+- [15:43] becoming more and more um useful for is
+- [15:46] things like um financial domains cyber
+- [15:48] security and this is an area in which we
+- [15:50] continue to make improvements and um you
+- [15:53] know are focusing on a lot. One of the
+- [15:55] things you guys some of you might have
+- [15:57] seen is cloud for life sciences released
+- [15:59] recently. Um that's an example of this
+- [16:01] and we plan to continue releasing more
+- [16:08] Sweet. Um, awesome. So, now we'll talk a
+- [16:12] little bit more about um building
+- [16:15] agentic products, right? I think we at
+- [16:17] Enthropic for the better part of the
+- [16:19] last two years have been working with um
+- [16:21] so many different companies and and uh
+- [16:23] and founders etc. from a v variety of
+- [16:26] different domains. everything from you
+- [16:28] know coding startups like lovable to um
+- [16:31] manufacturing life sciences companies
+- [16:34] like Novo Nordisk and and so many others
+- [16:36] right um so we've seen a lot of people
+- [16:40] building agents successfully and
+- [16:42] unsuccessfully so we'll we're kind of
+- [16:44] going to try to distill some best
+- [16:46] practices patterns that we've observed
+- [16:49] um and hopefully that will be helpful
+- [16:50] and telling to you as you guys are going
+- [16:52] off to build your own products as well
+- [16:54] um so just to start I'll just like do a
+- [16:58] broad definition of how we think about
+- [17:00] the like agents at large. Um just
+- [17:03] because I think it's always helpful for
+- [17:04] us to be operating on the same set of
+- [17:06] shared vocabulary. Um so I would say
+- [17:09] back when GP35 came out, GPD4 came out,
+- [17:12] um most people were building things on
+- [17:15] top of these models that we would call
+- [17:17] workflows. These are the this is the
+- [17:19] concept where you give the LLM access to
+- [17:22] some tools where it could go query some
+- [17:24] data or it could make some you know
+- [17:27] write access type call to anal system to
+- [17:29] to do something um and then what happens
+- [17:32] is you would chain uh LLMs and tools in
+- [17:35] some predefined paths um and that that
+- [17:38] would basically create a workflow and
+- [17:39] you know workflows can follow all sorts
+- [17:41] of different patterns everything from
+- [17:43] chaining five different prompts together
+- [17:45] or you know you classify an input and
+- [17:47] send it to one of five prompts, etc. And
+- [17:50] and workflows were really, really
+- [17:51] powerful and still are, by the way,
+- [17:53] because it was pretty awesome how you
+- [17:55] could just like take a business process
+- [17:56] that you really wanted to um optimize,
+- [17:59] right, and effectively turn it into
+- [18:01] English language and prompts and and
+- [18:03] kind of uh orchestrate it and optimize
+- [18:05] it much easier. And now since like Cloud
+- [18:08] Sonnet 3.5 came out, I think we started
+- [18:10] to see the emergence of agents. Um,
+- [18:12] agents are the idea that you give a
+- [18:15] model um, a set of tools and it's able
+- [18:18] to just use those tools in a loop with
+- [18:20] some feedback from the environment it's
+- [18:22] getting um, and it can take any number
+- [18:24] of steps that it need it itself
+- [18:27] autonomously decides to to actually
+- [18:28] complete a task. So a way you can think
+- [18:30] about it is um workflows are following
+- [18:34] like always what is a predefined like
+- [18:37] relatively deterministic path versus
+- [18:39] agents you're letting the model decide
+- [18:41] what is the path optimal path it should
+- [18:43] take to solve a problem. Um so you're
+- [18:45] really kind of leaning on the actual
+- [18:46] intelligence of the model to actually
+- [18:48] get the task that you want done. Um you
+- [18:51] can almost think of it like agents are
+- [18:52] LM with agency.
+- [18:55] Um, and like to break it down even
+- [18:57] further, I love to just like break uh to
+- [18:59] kind of just like break down how agents
+- [19:01] work in this concept of the agentic
+- [19:03] loop. The idea being you give an agent a
+- [19:06] task, it's going to reason about that
+- [19:08] task and build a plan of how to solve
+- [19:10] it, right? Um, and then it's going to
+- [19:13] take that plan and start to actually
+- [19:14] like, you know, take the concrete set
+- [19:16] set of actions it needs to to to carry
+- [19:18] it out. And that will be in the form of
+- [19:20] like making tool calls. And those tool
+- [19:22] calls can be querying some data, reading
+- [19:24] in some unstructured context. It can be
+- [19:26] uh making some critical API call to a
+- [19:28] control system to complete a task etc.
+- [19:31] And then the model is going to receive
+- [19:32] the results of those tool calls, right?
+- [19:35] Um see did it get the information it
+- [19:37] needed? Did it do something wrong etc.
+- [19:40] And then the models are able to kind of
+- [19:41] like reflect on the feedback that it's
+- [19:43] getting from those external systems to
+- [19:45] then figure out what is the next step
+- [19:47] repeating that that next part of the
+- [19:49] loop. Now, um before moving on, I think
+- [19:53] one thing that's always worth calling
+- [19:54] out is a lot of people design their
+- [19:56] agentic harnesses and their tools with
+- [19:59] the um full purpose of or with the idea
+- [20:03] of optimizing for this uh bucket or
+- [20:06] pillar of action more than anything
+- [20:07] else. But I think a lot of people also
+- [20:10] don't prioritize how do you build agents
+- [20:13] in a way such that they get the right
+- [20:14] feedback they need to reflect and
+- [20:16] self-correct themselves. Right? So if
+- [20:18] you think about it, um let's say you're
+- [20:21] working in front-end development, right?
+- [20:22] If you are using cloud code for
+- [20:24] front-end development, still pretty
+- [20:26] powerful tool, right? But it could it
+- [20:29] could spend like 20 minutes building you
+- [20:30] a react app and then you open it up and
+- [20:32] like the style is not great or like the
+- [20:34] layout could be like wrong, etc. So in
+- [20:37] that sort of scenario, how do you
+- [20:39] actually give the model the right
+- [20:40] context or the right feedback it needs
+- [20:42] to like self-correct itself? Um and that
+- [20:45] is would be like basically giving it
+- [20:47] some mechanism or MCP server in which it
+- [20:49] can look at the browser, take
+- [20:50] screenshots, identify some issues in its
+- [20:52] layout and then correct its code, right?
+- [20:55] Um and we also think that's like the one
+- [20:56] of the biggest unlocks for how do you
+- [20:58] actually build agents that can work for
+- [21:00] longer on more complex tasks.
+- [21:04] So we want to take you guys through a
+- [21:07] quick kind of summary of how do we
+- [21:09] actually build effective agents and
+- [21:11] we'll continue with the stack analogy
+- [21:13] here. Um obviously at the bottom is you
+- [21:16] know the most foundational layer of any
+- [21:18] agent which is a good model and sonnet
+- [21:21] and opus as you know for claw.
+- [21:25] The next step is where it starts to get
+- [21:26] more interesting. Um this is where you
+- [21:29] know the way we think about it is we
+- [21:31] want to provide building blocks. um and
+- [21:34] a layer to basically allow you to have
+- [21:38] reusable components to build on top of
+- [21:41] which we call the agentic harness. So
+- [21:43] the first set of things here is tools.
+- [21:46] Um these are things like MCP file system
+- [21:49] and the the purpose here is basically
+- [21:52] you know to let Claude exit out of just
+- [21:56] the LLM exit out of it its box and be
+- [21:59] able to discover things outside using
+- [22:01] MCP and maybe affect changes in the
+- [22:03] outside world again using MCP or using a
+- [22:06] file system read and write files um you
+- [22:08] know for memory for example.
+- [22:11] Now once you have access to these tools,
+- [22:14] you can build the most basic agent by
+- [22:17] literally just writing a simple loop
+- [22:19] which is a bunch of tool calls in a
+- [22:21] chain, right? It could be as simple as a
+- [22:23] basic while loop and there you go, you
+- [22:24] have an agent.
+- [22:29] The next thing here is prompts.
+- [22:32] The agent is kind of as good as the
+- [22:35] prompts you give it, right? And I'm not
+- [22:37] just talking about the initial prompt
+- [22:39] that you tell the agent. Obviously,
+- [22:40] you're going to give it some base
+- [22:42] context, what its goal is, what it's
+- [22:43] trying to achieve, but also the context
+- [22:46] that you give to its sub agents. You
+- [22:48] know, if it's a workflow running
+- [22:49] multiple agents or kind of any context
+- [22:51] you might give it along the way, um so
+- [22:54] that it can steer itself towards
+- [22:56] achieving its goal that you told it to
+- [22:58] do.
+- [23:00] >> Cool. And then next, once you kind of
+- [23:02] have those like foundational building
+- [23:04] blocks, right, um you can start to kind
+- [23:06] of think about how do you introduce like
+- [23:07] more advanced capabilities that yield
+- [23:09] you meaningful results and returns on
+- [23:11] your evaluations. Um so after that, um
+- [23:14] we're seeing an increasing pattern of
+- [23:15] agents where you give the model access
+- [23:17] to a file system that has a variety of
+- [23:19] benefits. Everything from the model
+- [23:21] being able to autonomously run bash
+- [23:22] commands and run code and have access to
+- [23:24] so many capabilities that a computer
+- [23:25] would have. Um, as well as having access
+- [23:28] to a file system means you basically
+- [23:29] have access to memory capabilities where
+- [23:31] the model can actually autonomously
+- [23:33] write context to retrieve for for future
+- [23:35] use, which is extraordinarily powerful.
+- [23:38] And most recently, we released something
+- [23:41] called skills. And we view skills as the
+- [23:43] way in which you can give models um
+- [23:47] specialized domain expertise to
+- [23:49] accomplish tasks that the that the
+- [23:51] models might not be good at out of the
+- [23:52] box. Um, now I want to just say that
+- [23:55] like we could probably spend 30 minutes
+- [23:57] straight on skills and there's um
+- [23:59] another talk that should be coming out
+- [24:00] hopefully next week u from one of my
+- [24:02] co-workers uh Barry Zang on um more
+- [24:06] details about skills. Uh but to kind of
+- [24:09] sum it up really quickly for you um
+- [24:11] skills is an open source framework that
+- [24:12] we released um where you're able to
+- [24:14] basically give the model a collection of
+- [24:16] files which would include like prompts,
+- [24:18] example scripts that it can use as tools
+- [24:20] etc. And this is a really really
+- [24:22] powerful like just simple file structure
+- [24:25] that's very opinionated because it
+- [24:28] skills give an agent you know general
+- [24:29] capabilities the model the model is not
+- [24:31] great at out of the box knowledge of an
+- [24:33] organization's best practices and we're
+- [24:35] really really excited about how this
+- [24:36] kind of sets the foundation for
+- [24:38] procedural memory where claude can
+- [24:40] complete a task once and then write its
+- [24:41] own skills in the future which is really
+- [24:43] really exciting.
+- [24:45] And then once you have like a lot of
+- [24:47] those like most basic building blocks,
+- [24:49] you can start to add like all sorts of
+- [24:50] different enhancements. Everything from
+- [24:52] sub aents to me to you know context
+- [24:54] window compaction to memory to research
+- [24:57] all these sorts of things. Now if I work
+- [25:02] at anthropic which I do I think I would
+- [25:05] have I would think to myself like where
+- [25:07] have I seen this before right? Um, and I
+- [25:10] would say I've seen this before in
+- [25:12] exactly the same backend that we've
+- [25:13] created for cloud code, right? Um, and
+- [25:17] that kind of led us to an epiphany which
+- [25:20] is that the actual backend, the agent
+- [25:22] harness around cloud code is so so
+- [25:24] powerful for things that are not just
+- [25:26] coding. So we have a lot of people in
+- [25:27] our at anthropic in our finance and
+- [25:30] legal and marketing teams who actually
+- [25:31] use cloud code in their day-to-day for
+- [25:33] their own related tasks as well. So um
+- [25:37] as a result that kind of led us to build
+- [25:39] the what we call the cloud agent SDK. Uh
+- [25:42] the idea here is this is the
+- [25:44] infrastructure on which we are actually
+- [25:47] building a lot of our new products and
+- [25:49] new features in the future. Uh that we
+- [25:51] want to give to all of you such that
+- [25:52] like you're able to build more easily on
+- [25:54] top of claud. And the idea is um the
+- [25:57] agent SDK is like an agent harness that
+- [25:59] we've designed around claude that's
+- [26:01] generally pretty useful and and well and
+- [26:03] like and there's you know a very tight
+- [26:05] product research uh feedback loop to
+- [26:07] kind of improve the harness and the
+- [26:09] models against it. Um, so the way we see
+- [26:13] it is like building on top of the cloud
+- [26:15] agent SDK means that you're building on
+- [26:17] the same infrastructure that Anthropic
+- [26:18] is using for their own products. And
+- [26:20] secondly, you don't have to focus on the
+- [26:23] same infrastructure that all your
+- [26:25] competitors might be focusing a lot of
+- [26:27] their time on. You should be focusing
+- [26:29] more on um where you can actually
+- [26:31] differentiate, right? The actual user
+- [26:33] experience, the domain workflows that
+- [26:35] actually are going to differentiate your
+- [26:36] product from others.
+- [26:39] And our last thing before we we leave
+- [26:41] you here today um is just kind of
+- [26:44] thinking about like the rate of change
+- [26:46] in this industry. It's been quite
+- [26:48] astounding to see. Um I think the last
+- [26:51] like two years Claude has moved from
+- [26:53] this sort of assistant category to an
+- [26:55] actual like collaborator who you're able
+- [26:57] to like delegate meaningful complex work
+- [26:59] to. Um, and we're really excited about
+- [27:02] like how what what will happen as both
+- [27:05] the product infrastructure around the
+- [27:06] models as well as the models themselves
+- [27:08] continue to improve. Um, where we hope
+- [27:10] eventually in the future Claude is able
+- [27:12] to kind of pioneer these breakthrough
+- [27:13] solutions to challenging problems that
+- [27:15] it otherwise would not be able to um out
+- [27:17] of the box. And the piece of advice I
+- [27:19] would leave you all here with today is
+- [27:22] um think about some of the most
+- [27:23] successful companies that you've seen
+- [27:25] today in the startup ecosystem. thing pe
+- [27:27] folks like Curser, Windsurf, Lovable,
+- [27:29] right? They built a lot of these their
+- [27:32] products back in like 2023, 2024 when
+- [27:35] these models were not that capable and
+- [27:37] the the products were like marginally
+- [27:38] useful, right? But what what was really
+- [27:41] really cool to see was that they
+- [27:43] effectively built a product that was
+- [27:47] actually much better when the models
+- [27:49] actually got better. So as the
+- [27:51] intelligence went exponential, so did
+- [27:54] their revenue, right? So we think that
+- [27:56] the most successful founders get their
+- [27:58] product developers etc are going to be
+- [28:00] the ones who actually are able to like
+- [28:02] look into the future effectively and
+- [28:04] build the infrastructure they need now
+- [28:05] to leverage frontier intelligence. Um so
+- [28:07] that's like the last piece of advice we
+- [28:09] would leave for you all. Um and with
+- [28:11] that um we'll conclude but thank you all
+- [28:13] for your time today.
+- [28:15] [applause]
+- [28:21] Thanks Tanvir and Utkar for a quick
+- [28:24] overview of how to bring clouds uh tools
+- [28:28] and features into AI products. We have
+- [28:30] time for one question.
+- [28:44] >> Hey guys, um thanks very much. That was
+- [28:45] a brilliant presentation. Um, I'm
+- [28:47] curious about something that you called
+- [28:49] out um when you were talking about
+- [28:51] moving from tool calling to like code
+- [28:54] generation and and the the code invokes
+- [28:57] the tools. It kind of seems to me like
+- [28:59] you're bucking the trend because it's
+- [29:01] it's sort of going backwards from where
+- [29:03] we were. And I think one of the problems
+- [29:05] that tool calling kind of solved was you
+- [29:08] got structured outputs that were
+- [29:10] consistent and you were able to um
+- [29:12] reliably invoke those tools. Why did you
+- [29:15] why why why why does Enanthropic feel
+- [29:17] like you want to to sort of go back to
+- [29:19] what we were doing earlier and what do
+- [29:21] you think is really the strength there
+- [29:22] and and sort of what's your thought
+- [29:24] behind that?
+- [29:25] >> Yeah. Um so the question to summarize it
+- [29:29] really quickly is um with code
+- [29:32] generation like the concern being that
+- [29:34] like the model um kind of doesn't have
+- [29:38] enough rails around it and can do more
+- [29:41] than you ask for it right effectively
+- [29:43] which is a fair concern. um our our I
+- [29:47] think we have an a philosophy internally
+- [29:49] anthropic which is do the simple thing
+- [29:51] that works which means you should build
+- [29:53] the simplest possible agent you can and
+- [29:55] then scale up complexity as it yields
+- [29:57] meaningful results in your evals right
+- [29:59] so in a lot of cases like yes tool
+- [30:01] calling is going to like work perfectly
+- [30:03] meaning that you're going to be getting
+- [30:04] near 100% on a lot of your evals if you
+- [30:06] just implement it that way and and you
+- [30:07] should continue to do so if so but we
+- [30:09] think there are a lot of use cases that
+- [30:11] will benefit meaningful like you know
+- [30:13] results in in evaluations in code
+- [30:15] generation especially um but to your
+- [30:18] kind of question on concerns right um
+- [30:20] there's all sorts of different
+- [30:21] infrastructure choices you might make in
+- [30:22] terms of how you actually enable the
+- [30:24] model to be able to like write and
+- [30:25] execute code um so I'll leave that to
+- [30:27] folks like Kash and and others to like
+- [30:29] kind of solve but I'll more focus on the
+- [30:31] actual like model itself which is um I I
+- [30:35] would say that you should expect that
+- [30:36] the model should continue to get better
+- [30:38] especially in the domain of instruction
+- [30:39] following meaning that they'll become
+- [30:41] more malleable such that they'll
+- [30:42] actually follow your instructions more
+- [30:43] precisely etc so if basically tell the
+- [30:45] model like that that you only have
+- [30:47] access to XYZ packages. You can only do
+- [30:49] ABC things, right? It should adhere to
+- [30:52] that better in the going going forward
+- [30:53] into the future, but you can also sort
+- [30:55] of enforce those sorts of things
+- [30:56] deterministically by just like
+- [30:58] restricting the access it has in the in
+- [31:00] the actual code execution environment as
+- [31:01] well. Um, so there are a couple like
+- [31:03] different levers you can pull. Uh, but I
+- [31:05] would argue that it's like a little
+- [31:06] combination to both infrastructure
+- [31:08] changes and how you prompt the model.
+- [31:11] And if you have anything else to add to
+- [31:12] add there,
+- [31:13] >> I think you basically got it. Maybe the
+- [31:15] only thing I'll add is that this goes to
+- [31:17] kind of the reflection piece that we was
+- [31:19] talking about where you can always go
+- [31:21] back and guide the model towards the
+- [31:23] goal you want. You know, if it did more
+- [31:24] or less, just go give it more prompts
+- [31:26] and guide it.

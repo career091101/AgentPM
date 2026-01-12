@@ -1,0 +1,377 @@
+---
+title: "Transcript: YOwDdwtNmPU"
+video_id: "YOwDdwtNmPU"
+video_url: "https://www.youtube.com/watch?v=YOwDdwtNmPU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:16:25"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: YOwDdwtNmPU
+
+- URL: https://www.youtube.com/watch?v=YOwDdwtNmPU
+- Retrieved at: 2025-12-30T11:18:57+09:00
+
+## Text
+
+- [00:00] Hi everyone. Uh bearing in mind that I'm
+- [00:02] the only thing between uh you and
+- [00:04] drinks. Let's get this going.
+- [00:07] If you cannot see my face uh directly,
+- [00:10] you can see my face in the slide. So I'm
+- [00:12] Retita. I work for Nvidia as a solution
+- [00:15] architect. Most of what I do connects to
+- [00:17] evaluations. I'm going to talk about
+- [00:20] agentic systems and evaluation, but feel
+- [00:21] free to find me outside of this room and
+- [00:23] ask me about what I think about the
+- [00:25] benchmarks that we currently use. My
+- [00:28] background is um space engineering. So
+- [00:30] also don't ask me um don't tell me that
+- [00:34] it's not rocket science because I really
+- [00:36] hate it.
+- [00:38] Everything is complex. Okay, especially
+- [00:41] re uh generative AI. So let's start from
+- [00:44] the beginning which is um the latest in
+- [00:47] artificial intelligence. I think you may
+- [00:49] have seen this or a similar slide today
+- [00:52] before but there have been many phases
+- [00:54] to generative AI. First we we had the
+- [00:58] LLM boom uh with CHP in 2022 and then
+- [01:01] the adoption of LLMs. Then we were
+- [01:05] talking about rack systems and we're
+- [01:07] still talking about Rex systems if my
+- [01:09] job has anything to say about it. And
+- [01:11] finally now we're going to be talking
+- [01:13] way more about agents. Um, it's not that
+- [01:17] we've solved the LLMs in rag system
+- [01:19] problems, but now we decided that beyond
+- [01:23] just connecting an LLM to a vector
+- [01:25] database, maybe we want to connect an
+- [01:28] LLM to a bunch of other different stuff
+- [01:31] with different protocols, which makes
+- [01:33] everything much more complex and makes
+- [01:36] all of our jobs much harder, but also
+- [01:38] hopefully our lives much better in the
+- [01:41] future. Okay. So, how do AI agents work?
+- [01:45] At a high level, what an agent does is
+- [01:47] use reasoning and planning to solve
+- [01:49] multi-step problems. And the way it
+- [01:52] works is through a few core components.
+- [01:54] One of them is what we call thinking.
+- [01:57] But of course, it's thinking like a
+- [01:58] machine can think. And that's mostly
+- [02:01] enabled by reasoning capabilities. So,
+- [02:03] the capabilities of an LLM to go through
+- [02:06] a chain of thought, stepbystep
+- [02:10] problem solving.
+- [02:12] Then we have of course prompting which
+- [02:15] starts from a user's goal or question
+- [02:17] and interpreting intent. And then we
+- [02:19] have what I mentioned before which is
+- [02:21] the tool use which is calling different
+- [02:23] APIs, calling the web, calling any kind
+- [02:26] of dashboards, computer use and memory
+- [02:29] of course which we may also want to to
+- [02:32] implement. And finally, we have
+- [02:34] collaboration as well, which means that
+- [02:36] we may want our LLMs to speak to each
+- [02:38] other. And again, speak is a very
+- [02:41] loosely used word here. So this is a
+- [02:44] good conceptual understanding of what
+- [02:45] agents can be, which basically means
+- [02:48] that we're taking an LLM and we're
+- [02:51] adding a lot of different tools and
+- [02:53] software on top of it basically to gain
+- [02:57] observability, monitoring, evaluation
+- [03:00] capabilities
+- [03:02] and for it to be um essentially an end
+- [03:05] toend scenario that users can use to
+- [03:10] develop their applications.
+- [03:12] So let's talk a bit more about the
+- [03:15] software that's necessary for agentic
+- [03:17] implementations. Um as as I'm
+- [03:21] representing Nvidia, I'm going to talk a
+- [03:23] bit about what Nvidia has for agentic
+- [03:26] systems and we tend to split this into
+- [03:29] three different components. The first
+- [03:31] one are the Nvidia Nims which are
+- [03:33] essentially models that are
+- [03:35] containerized in a micros service. um we
+- [03:39] have a lot of open-source models and
+- [03:41] also proprietary models uh in our NIMS.
+- [03:45] Then we have the AI blueprints and the
+- [03:47] blueprints and I'm going to do a demo by
+- [03:49] the end are our reference architectures
+- [03:52] for different AI pipelines. So for
+- [03:55] instance research agents, customer
+- [03:57] service agents etc. And by reference
+- [04:00] architecture I mean that it's an
+- [04:03] implementation using particular
+- [04:06] libraries and models but you can go and
+- [04:09] modularly change them out. So it's just
+- [04:12] a reference for developers to then
+- [04:14] improve upon. And finally, we have Nemo,
+- [04:17] which is a software suite composed of
+- [04:20] both SDKs and microservices whose goal
+- [04:23] is to basically serve all of the
+- [04:25] components of an AI pipeline from the
+- [04:28] data curation with Nemo curator
+- [04:31] to customization which is a post-raining
+- [04:34] library to evaluation and guardrails.
+- [04:37] Evaluation of course is to evaluate
+- [04:40] models with academic benchmarks or with
+- [04:43] user brought custom benchmarks or also
+- [04:45] with LLM as a judge and finally guard
+- [04:48] rails are to control basically the
+- [04:50] inputs and outputs of the LLM to
+- [04:53] whatever degree we want.
+- [04:56] Connecting all of these is our most
+- [04:58] recent agentic library which is what I'm
+- [05:00] going to be talking about here which is
+- [05:02] the Nemo agent toolkit. So Nemo agent
+- [05:05] toolkit is open source. So you're free
+- [05:07] to check it on GitHub or on our own
+- [05:10] website build.envidia.com.
+- [05:12] And the goal is to basically make aic
+- [05:15] implementation less complex. Um it
+- [05:18] includes everything that I've mentioned
+- [05:19] before from the monitoring tooling
+- [05:22] observability and also evaluator and
+- [05:26] guard rails. Uh and it is modular,
+- [05:29] flexible and also is integrated with
+- [05:32] very different uh components. One of
+- [05:34] them is weave.
+- [05:37] So the integration with uh weight
+- [05:40] weights and biases weave is what I'm
+- [05:42] talking about here today. Let's talk
+- [05:44] about it. Um so the weights and biases
+- [05:46] team has developed weep to make it easy
+- [05:49] for organizations building genai um end
+- [05:53] to end pipelines to monitor and evaluate
+- [05:56] and essentially have a continuous um eye
+- [06:01] into what's happening into an AI
+- [06:04] pipeline. And so the capabilities
+- [06:06] include tracing running and tracking
+- [06:08] evaluations
+- [06:10] and finally it's framework and LLM
+- [06:12] agnostics. So you can integrate any
+- [06:14] model with it. Uh and one of the reasons
+- [06:17] um I'm here today is because you can
+- [06:20] integrate it with an emo agent toolkit.
+- [06:23] So uh here is very small so I apologize
+- [06:27] for that. the typical workflow to build
+- [06:30] an agent. But in here, basically we just
+- [06:33] show uh all of the steps of monitoring
+- [06:35] and observability both on an automated
+- [06:38] side and on a manual side that you can
+- [06:40] also implement. And what Nemo agent
+- [06:43] toolkit does is it produces those
+- [06:45] traces.
+- [06:47] So it runs the agent logic. It collects
+- [06:50] events and defines exactly the metrics
+- [06:52] that you want to measure. And what we've
+- [06:54] does complementary
+- [06:56] is uh handle the logging, the
+- [06:59] visualization and experiment management.
+- [07:02] So basically we have Nemo agent toolkit
+- [07:05] as an instrumentation plus runtime for
+- [07:07] agents that you may want to implement
+- [07:09] and we've adds the observability and
+- [07:12] visualization layer.
+- [07:15] So here is an example of uh the
+- [07:18] integration you may have. Again maybe a
+- [07:20] bit small for you but essentially this
+- [07:22] is one of the dashboards that uh allows
+- [07:25] to you for you to check the evaluation
+- [07:29] uh for a particular Gentic application.
+- [07:34] So let's look at some examples. First
+- [07:36] one is one of the blueprints that we
+- [07:39] have uh internally and also uh on
+- [07:43] GitHub. So it's open source. It's called
+- [07:45] AIQ.
+- [07:47] Um this Agentic application is a
+- [07:50] research agent. So what it does is deep
+- [07:52] research and you may be familiar with
+- [07:54] this from Gemini deep research or JPT.
+- [07:58] Deep research. Deep research is
+- [08:00] basically um a name used everywhere for
+- [08:03] when you want to build uh when you want
+- [08:07] to do a lot of different searches and
+- [08:10] collate information into a very
+- [08:14] extensive let's say report and so this
+- [08:18] is an a blueprint which I've mentioned
+- [08:20] before is a reference architecture so
+- [08:22] you may when you use it you are free to
+- [08:25] basically change the LLMs change any
+- [08:28] kind of libraries and see if it makes
+- [08:30] more sense for your application.
+- [08:33] So, uh, the AIQ blueprint searches many
+- [08:36] different sources and the web uh, to
+- [08:39] synthesize hours of research into a
+- [08:41] concise report as I've mentioned and is
+- [08:43] currently the top ranked open agent on
+- [08:46] deep research bench in hugging face. So,
+- [08:48] feel free to try it out. And the one I'm
+- [08:52] going to speak about with my limited
+- [08:54] time mostly is the alert triage agent
+- [08:57] which is also one of our blueprints. And
+- [08:59] this one we have integrated with weave.
+- [09:02] We have a blog post about it that I
+- [09:04] recommend. It's very interesting. And
+- [09:06] the goal here was to automate uh the
+- [09:09] monitor and action of alerts in
+- [09:11] largecale environments. So uh this saves
+- [09:15] a lot of time in manual checks when you
+- [09:17] have a large scale implementation of a
+- [09:19] software um scenario where you have
+- [09:23] different fail points that you need to
+- [09:26] constantly check for problems um or any
+- [09:31] kind of corner or edge cases. So as an
+- [09:34] alert agent this requires a lot of
+- [09:37] diagnostics for hardware telemetry and
+- [09:40] service health and you can see them here
+- [09:43] also on this diagram if you are able to
+- [09:46] see a very small screen
+- [09:49] and um with Nemo agent toolkit you can
+- [09:52] implement and evaluate uh any custom
+- [09:56] metrics for this kind of application.
+- [09:59] So um here is also an example of the
+- [10:03] tracing and evaluating that you can do
+- [10:04] with weave here in these plots. But what
+- [10:07] I really want to get to is the demo
+- [10:11] which uh I'm not going to be speaking
+- [10:14] but there's going to be sound. This is
+- [10:16] about four minutes so please bear with
+- [10:19] me and it's going to be showing how the
+- [10:22] implementation of the alert triaging
+- [10:24] system works with weave.
+- [10:27] I'll demonstrate how to evaluate a data
+- [10:29] set of alerts using the alert triage
+- [10:32] agent example from the NVIDIA Nemo agent
+- [10:36] toolkit repository.
+- [10:39] Here's the configuration file for the
+- [10:41] alert triage agent workflow.
+- [10:44] I'll run two valuations, one using the
+- [10:47] llama 3.18b model and the other using
+- [10:51] llama 3.370B.
+- [10:55] We'll use weights and biases view to
+- [10:59] analyze the runs and view the evaluation
+- [11:02] results.
+- [11:04] Let's start the first evaluation with
+- [11:06] the lama 3.18b model.
+- [11:18] In the evaluation logs, you'll see the
+- [11:21] URL for the V dashboard.
+- [11:30] The first run is complete. Now launching
+- [11:33] the second evaluation using Llama
+- [11:35] 3.370B.
+- [11:57] Both runs are complete. Let's take a
+- [11:59] look at the results in the Weave
+- [12:01] dashboard.
+- [12:04] By default, the VE dashboard displays
+- [12:06] the trace logs for each run. I'll switch
+- [12:09] to the eval tab in the sidebar to view
+- [12:11] the evaluation results.
+- [12:16] There are several runs here from earlier
+- [12:18] experiments.
+- [12:21] I'll compare these two
+- [12:24] lama 3.1 and lama 3.3 results.
+- [12:30] We are evaluating two metrics
+- [12:33] classification accuracy
+- [12:36] a custom evaluator builds for the alert
+- [12:38] triage agent and rag accuracy which is
+- [12:41] the built-in raggas evaluator.
+- [12:44] Across both metrics we see an
+- [12:46] improvement in accuracy.
+- [12:48] In addition to accuracy, the summary tab
+- [12:52] displays key performance metrics such as
+- [12:54] the LLM latency,
+- [12:56] the P95 outflow runtime. This represents
+- [13:00] how long it takes to process a single
+- [13:02] entry,
+- [13:04] total runtime, the overall time to
+- [13:07] process all data set entries.
+- [13:11] As we're running the data set entries in
+- [13:13] parallel, we can see that the total
+- [13:15] runtime is close to the P95 outflow
+- [13:18] runtime.
+- [13:20] Total tokens. This is the token usage
+- [13:22] across the entire data set.
+- [13:25] Now let's go to the data set results
+- [13:27] tab.
+- [13:31] Here
+- [13:36] you can pick and plots any metric
+- [13:39] across different runs.
+- [13:48] You can also inspect details per entry
+- [13:50] results in the table below.
+- [14:01] In addition to these evaluation
+- [14:02] resource, you can view all the tools and
+- [14:05] MLM calls made by the workflow via the
+- [14:07] traces tab.
+- [14:11] You can pick an evaluation run here.
+- [14:15] To view the individual entries, you
+- [14:16] select the table of child calls.
+- [14:25] In this table, you can select a data set
+- [14:28] entry and view a detailed breakdown of
+- [14:31] all the calls made by the workflow.
+- [14:35] Uh hopefully it was useful. Uh
+- [14:37] essentially I realize I didn't speak a
+- [14:40] lot about evaluation because in this
+- [14:43] particular case you may choose your own
+- [14:46] evaluation metrics. The demo included
+- [14:49] classification accuracy and raggas
+- [14:51] metrics which are of course included in
+- [14:53] Nemo evaluator which is integrated into
+- [14:56] Neoentic toolkit. There's a lot of
+- [14:59] different metrics and benchmarks in Nemo
+- [15:03] in Nemo Evaluator as well um including
+- [15:06] tool calling metrics, agentic uh
+- [15:09] benchmarks and also the regular academic
+- [15:11] benchmarks that you know like a25
+- [15:14] I'm happy to talk about that after this
+- [15:16] talk but uh the key takeaways are
+- [15:19] essentially that Nemo agentic toolkit
+- [15:22] allows you to do a lot of the heavy
+- [15:24] lifting on creating agents especially
+- [15:28] regarding evaluation profiling and all
+- [15:31] of the tool calling
+- [15:33] and uh integrating with weights and
+- [15:36] biases we've allows you to have those
+- [15:38] dashboards and observability that are
+- [15:40] always necessary when implementing an
+- [15:43] end toend AI solution
+- [15:46] and uh if you want to know more because
+- [15:49] this is is this is only a 20inut
+- [15:51] conversation everything that we have
+- [15:54] presented here is open source so you're
+- [15:56] free to check GitHub for that. Uh, of
+- [15:59] course, models have to be deployed. Uh,
+- [16:02] for the AI deep research blueprint, you
+- [16:05] have here the QR code for the Nemo agent
+- [16:07] toolkit as well and for weave in the
+- [16:09] end, although I'm sure you have access
+- [16:11] to it very easily. Anything else you can
+- [16:14] find on the build.envidia.com website,
+- [16:16] which is a fairly fun website also to
+- [16:19] try out different LLMs. And that's it
+- [16:22] for my talk. I think right on time. So,
+- [16:25] thank you.

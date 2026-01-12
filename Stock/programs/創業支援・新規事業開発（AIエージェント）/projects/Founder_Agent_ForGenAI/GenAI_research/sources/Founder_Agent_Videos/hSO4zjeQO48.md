@@ -1,0 +1,264 @@
+---
+title: "Hello all, my name is Krishna and welcome to my YouTube channel. So guys, uh less than two months ar..."
+video_id: "hSO4zjeQO48"
+video_url: "https://www.youtube.com/watch?v=hSO4zjeQO48"
+speaker: "Krishna"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "Workflow Automation"
+  - "Startup"
+  - "Product Development"
+summary: |
+  Hello all, my name is Krishna and
+  welcome to my YouTube channel. So guys,
+  uh less than two months are left for the
+key_points:
+  - "Hello all, my name is Krishna and"
+  - "uh less than two months are left for the"
+  - "completion of 2025. Um this year has"
+  - "career transition specifically in the"
+  - "applications. uh uh how do I count this"
+  - "how much values we are able to add in"
+  - "that specific growth right uh in this"
+  - "and this is probably the last course for"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: hSO4zjeQO48
+
+- URL: https://www.youtube.com/watch?v=hSO4zjeQO48
+- Retrieved at: 2025-12-30T15:49:07+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] uh less than two months are left for the
+- [00:07] completion of 2025. Um this year has
+- [00:10] been quite amazing. Uh we were able to
+- [00:13] teach many many people out there. Uh
+- [00:15] many people were able to make successful
+- [00:17] career transition specifically in the
+- [00:19] field of generative AI, agentic AI. Uh
+- [00:21] many people have even started their own
+- [00:23] startups. They're doing some amazing
+- [00:25] work building specific agentic AI
+- [00:28] applications. uh uh how do I count this
+- [00:31] year as a successful because I feel that
+- [00:33] how much values we are able to add in
+- [00:36] others life right and uh through our
+- [00:38] courses through our Udemy courses
+- [00:41] through the things that we do in our
+- [00:42] YouTube channel uh we were able to see
+- [00:45] that specific growth right uh in this
+- [00:48] specific video I really want to talk
+- [00:50] about one amazing course announcement
+- [00:53] and this is probably the last course for
+- [00:56] this entire year uh this is the last
+- [00:58] course because anything that will be
+- [01:00] coming will be coming after January
+- [01:02] month the next uh next year January
+- [01:05] right so uh that was related to this
+- [01:08] specific announcements uh so I know some
+- [01:10] people will not be interested to hear
+- [01:12] about courses and all if you're not
+- [01:14] interested please go ahead close this
+- [01:17] video down you can go ahead and watch
+- [01:18] all my YouTube videos I have been
+- [01:20] continuously uploading over there but if
+- [01:23] you are really interested in
+- [01:24] understanding what this specific batch
+- [01:27] is all about This is the Agentic AI 3.0
+- [01:31] and I really want to name this batch as
+- [01:33] ultimate rag boot camp wherein we will
+- [01:35] build traditional to agentic systems
+- [01:38] with cloud deployment. So this is the
+- [01:40] course that we are specifically coming
+- [01:42] up with. Uh initially I had decided this
+- [01:45] course date to October 26th. Okay. But
+- [01:49] we are going to change this particular
+- [01:51] course date you know. So if I just go
+- [01:53] ahead and reload it, uh this course date
+- [01:55] will get changed to November 2, 2025.
+- [01:59] The reason why extending it to one more
+- [02:02] week because October 26th that will
+- [02:04] still be the festive season wherein we
+- [02:07] have the power. So I really want to
+- [02:09] people to enjoy that specific uh uh
+- [02:13] period of time you know the entire one
+- [02:15] week uh enjoy that time you know
+- [02:17] somewhere around uh if you see with
+- [02:19] respect to the calendar everybody will
+- [02:21] be busy uh from 18th 19 20 21 22 23 so I
+- [02:26] don't want to probably disturb this
+- [02:28] specific week you know so I definitely
+- [02:30] want you all to enjoy the poly with your
+- [02:32] family and all and uh from the first
+- [02:35] week of November that is on Sunday we
+- [02:37] will be starting ing this particular
+- [02:39] batch you know uh the main aim over here
+- [02:42] is to talk about how to build agentic
+- [02:44] rags system also talk about generative
+- [02:47] agentic AI in the specific batch itself
+- [02:50] um the reason why I'm making this
+- [02:52] particular batch it is very simple
+- [02:54] because nowadays every companies are
+- [02:56] focusing on building agentic AI system
+- [02:58] itself right um and uh when we talk
+- [03:01] about application wise rag is one of the
+- [03:04] most important use cases that
+- [03:05] everybody's building Okay. Now, uh in
+- [03:08] this particular batch, as I said, the
+- [03:10] start date is November 2, 2025. Uh
+- [03:13] timing will be Saturday and Sunday,
+- [03:15] every Saturday and Sunday from 9:00 a.m.
+- [03:17] ISTT to 12:00 p.m. 12:00 p.m. IST. 12
+- [03:20] p.m. basically means uh after this 12
+- [03:23] itself, you know. Uh so 3 hours of
+- [03:25] class. It will also include doubt
+- [03:27] clearing session. If doubt clearing
+- [03:29] session gets extended, we may extend
+- [03:31] this class till 1 p.m. Okay. Here we are
+- [03:33] going to build scalable and intelligent
+- [03:35] rag applications. Foundation of rag
+- [03:37] these all things are there. These all
+- [03:39] things we'll be learning right we'll be
+- [03:41] learning foundation of l ra ra ra ra ra
+- [03:42] ra ra ra ra ra ra ra ra ra ra ra ra ra
+- [03:42] ra rag, lang chain, llama index, hast
+- [03:44] tag, document parsing, lang graph, work
+- [03:47] workflow orchestration, enhanced rag
+- [03:49] techniques, multistructure and structure
+- [03:50] rag, multimodel and structure rag,
+- [03:52] conversational and contextual rag,
+- [03:54] agentic rag, cutting edge innovation,
+- [03:56] model context protocol, production and
+- [03:58] deployment and portfolio project. So we
+- [04:00] will be discussing about all the
+- [04:02] specific stuff. Okay. Now uh over here
+- [04:05] uh my entire team with respect to the
+- [04:07] mentors are this four main mentors that
+- [04:10] is Sunonny Savvita Mang Paul and myself.
+- [04:14] So either one of them will be coming and
+- [04:16] taking specific modules. We may be
+- [04:18] distributing between us. Whoever will be
+- [04:21] available with respect to this we will
+- [04:23] be taking up the session. Okay. So that
+- [04:25] is one very important announcement and
+- [04:27] till now the amazing feedback that we
+- [04:29] have got out of five we have an average
+- [04:32] feedback of 4.7 right so which is really
+- [04:34] really tremendously amazing you know
+- [04:37] from all the students that we have got
+- [04:38] from the previous cohort or boot camps
+- [04:41] now the other thing that I really want
+- [04:43] to mention over here is that till this
+- [04:45] particular December uh since we are
+- [04:47] starting this right and till December we
+- [04:49] will be completing all our previously
+- [04:51] launched boot camps only one boot camp
+- [04:53] will be remaining that is ultimate data
+- [04:55] science boot camp. We initially
+- [04:56] projected that it will be completing in
+- [04:58] 8 to 10 months but now I think it'll be
+- [05:01] going more than 12 months. The reason is
+- [05:03] that because there we are teaching
+- [05:04] everything from basics. Okay. So here
+- [05:06] are all the information. Now the price
+- [05:09] of this particular boot camp is 69.
+- [05:12] Right now since there is a festive
+- [05:14] season going on you know uh I would
+- [05:17] definitely like to give 20% off for you.
+- [05:19] So you can use AI20 as the coupon code.
+- [05:22] Now in order to enroll uh you should
+- [05:24] also be just go ahead and click on
+- [05:26] enroll now. So let's say if I go ahead
+- [05:28] and click on enroll now here you will be
+- [05:30] able to get all the information right.
+- [05:32] So here we are also providing dashboard
+- [05:34] access with 1.5 years free Udemy courses
+- [05:36] whenever the coupons are available. I
+- [05:38] keep on distributing free Udemy coupons.
+- [05:40] I have more than 12 to 13 courses and it
+- [05:43] covers almost each and everything. So
+- [05:45] whenever we get a free coupon we
+- [05:46] distribute it to our students
+- [05:48] specifically. Right. Then community chat
+- [05:50] forum for discussion, live doubt
+- [05:51] clearing session, hackathons with
+- [05:53] rewards, resume discussion, mock
+- [05:54] interview. So these all things we do. If
+- [05:56] you want to get to know about the
+- [05:58] detailed syllabus, so here is the
+- [06:00] detailed syllabus. Just click this
+- [06:01] specific link and the detailed syllabus
+- [06:03] will be available over here. You should
+- [06:05] be able to find out all the information
+- [06:07] like what all things we'll be covering.
+- [06:09] Module one foundation of rag module 2
+- [06:11] this one module three um module four
+- [06:15] module five there are so many different
+- [06:17] modules there are around 8 to 10 modules
+- [06:19] the duration will be somewhere around
+- [06:21] four to 5 months to complete this okay
+- [06:23] so the main aim is that to make you
+- [06:27] industry ready right and we are going to
+- [06:29] deep dive everything that is related to
+- [06:31] rag because one of the important use
+- [06:33] cases now people are working on is
+- [06:35] specifically rag right so go ahead With
+- [06:39] respect to this then along with this
+- [06:40] what you do is that you also get access
+- [06:42] to course dashboard. I've already
+- [06:44] uploaded some of the prerequisite videos
+- [06:46] in the course dashboard and along with
+- [06:48] that you also get a community chat forum
+- [06:50] right. So here you'll be able to even
+- [06:51] communicate with your peers right uh
+- [06:54] yeah this was more about the course and
+- [06:56] all uh over here at the end of the day
+- [06:59] uh our main aim is to teach you in such
+- [07:01] a way that that you should be able to
+- [07:03] understand everything uh and start
+- [07:06] implementing things in your companies
+- [07:09] right so that is the main thing here we
+- [07:10] are focus is on generative AI genic AI
+- [07:13] and more focus is basically given on rag
+- [07:16] um and all the previous batches that we
+- [07:19] have focused on We have given some good
+- [07:21] weightage on every of these topics but
+- [07:23] in this particular batch we are giving
+- [07:24] more weightage on rag because that is
+- [07:27] the one of the amazing use cases that
+- [07:29] every companies are specifically
+- [07:30] building right so all this information
+- [07:32] will be provided in the description of
+- [07:34] this particular video and along with
+- [07:36] this what we are also going to do is
+- [07:38] that I'm also going to give the
+- [07:39] counseling team number so if you have
+- [07:41] any kind of queries uh definitely go
+- [07:43] ahead and uh utilize those and again
+- [07:46] just a quick reminder guys this 20% off
+- [07:48] is only for the next 10 days I guess uh
+- [07:51] after this uh we will be closing down
+- [07:53] the coupon because we'll also be there
+- [07:55] there are very limited seats for this uh
+- [07:58] go ahead and utilize this particular
+- [07:59] opportunity and uh yeah uh this was it
+- [08:02] from my side just hit a like share with
+- [08:05] this particular video with everyone I'll
+- [08:07] see you all in the next video have a
+- [08:08] great day ahead thank you and all take
+- [08:09] care bye-bye

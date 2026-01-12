@@ -1,0 +1,589 @@
+---
+title: "Transcript: UZb0if-7wGE"
+video_id: "UZb0if-7wGE"
+video_url: "https://www.youtube.com/watch?v=UZb0if-7wGE"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:18:40"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: UZb0if-7wGE
+
+- URL: https://www.youtube.com/watch?v=UZb0if-7wGE
+- Retrieved at: 2025-12-30T11:03:00+09:00
+
+## Text
+
+- [00:03] For the past few weeks, I have
+- [00:04] completely switched from cursor to cloud
+- [00:06] code and learned a ton of things that
+- [00:08] made my cloud code super effective. And
+- [00:10] today, I will take you through how do I
+- [00:12] use cloud code, how did I bring hero
+- [00:14] type of specdriven demand process as
+- [00:16] well as tips and practical examples of
+- [00:19] how I use feature like hooks, custom
+- [00:21] commands, and list of tips that made
+- [00:23] myself much more effective. So, without
+- [00:25] further ado, let's get started. But
+- [00:27] before we dive into that, I know many of
+- [00:29] you are just getting started learning
+- [00:30] programming. And one question I got
+- [00:32] asked a lot is what does road map look
+- [00:35] like for learning code effectively.
+- [00:37] That's why I want to introduce you to
+- [00:38] this free ebook made by Google's
+- [00:40] principal analytics lead and data
+- [00:42] scientist where she wrote down all the
+- [00:44] secret tips and methodologies that she
+- [00:46] used to learn coding with claw and chatb
+- [00:49] especially how she get output
+- [00:51] personalized learning road map based on
+- [00:53] her specific situation. It also cover
+- [00:55] all the absolute fundamentals and basics
+- [00:57] of coding like how do you choose the
+- [00:59] right coding language to start with and
+- [01:02] best practice prompt for different
+- [01:03] coding scenario like debugging and
+- [01:05] optimizing the code as well detailed
+- [01:07] road map of how to master language like
+- [01:09] Python in just four months. There's even
+- [01:12] a custom GPT that has baking all the
+- [01:14] core knowledge of latest package and
+- [01:17] learning resource that you can talk to
+- [01:19] alongside detailed video tutorial
+- [01:20] showcasing her step-by-step work. So, I
+- [01:22] definitely recommend you go take a look
+- [01:24] if you're just getting started with your
+- [01:26] coding journey. I put a link in the
+- [01:28] description below for you to download
+- [01:29] for free and thanks HubSpot for sharing
+- [01:32] this awesome material with us. Now,
+- [01:34] let's get back to how do I use cloud
+- [01:35] code. So, first thing first, you want to
+- [01:37] install this cloud code extension and
+- [01:40] this will allow you to deeply integrate
+- [01:42] into your current ID like cursor, VS
+- [01:44] code or wingserf. So now I can click on
+- [01:46] this run cloud code button and it will
+- [01:49] automatically open cloud code in my
+- [01:50] current ID and on the bottom right you
+- [01:53] should see that it is detecting the
+- [01:54] specific file I'm in and if I select
+- [01:56] some lines it will also automatically
+- [01:57] detect it. You can still use the
+- [01:59] terminal here as well and you can just
+- [02:01] do / IDE to choose the specific ID that
+- [02:04] you wanted to connect to. Next the first
+- [02:06] thing before you do anything is that you
+- [02:08] should run this init command line. So
+- [02:11] what this in command line do is that it
+- [02:13] will get cloud start analyzing your
+- [02:15] codebase to learn about what already set
+- [02:17] up what are the kind of dependencies
+- [02:19] components that you should be using. It
+- [02:21] will also ask your permission to do
+- [02:23] something for those type of commands
+- [02:24] like cd I just don't care I will just
+- [02:26] click on always auto approve and you
+- [02:28] will see this thing is automatically
+- [02:30] saved as permissions. I know some of you
+- [02:32] actually want to get cloud code always
+- [02:34] automatically run tools and there's a
+- [02:36] way you can run that as well. You can do
+- [02:38] this dangerously skip permissions and
+- [02:41] this will show you that it is bypassing
+- [02:42] all the permissions. So now tool it will
+- [02:44] ask you for permission though I wouldn't
+- [02:46] actually recommend this because from my
+- [02:48] experience one of the key advantage of
+- [02:50] the cloud codes UX is that allow you to
+- [02:52] interact with cloud much better and I
+- [02:55] will explain what I mean. All right so
+- [02:56] after it scan finish it will try to
+- [02:58] create this cloud MD file. If you're
+- [03:00] using cursor, that's basically your
+- [03:01] cursor rules. And if we click inside,
+- [03:03] you can see that it automatically detect
+- [03:05] what are the kind of tax stack, what are
+- [03:08] the ROM build commands, the
+- [03:09] architecture, the project structure, all
+- [03:12] the useful stuff. So this give cloud a
+- [03:14] very good base to continue developing
+- [03:16] new things on top of this ripple. And
+- [03:18] this cloud MD as I mentioned before is
+- [03:20] pretty much the cursor rules. The only
+- [03:22] difference is that in cursor the rules
+- [03:24] are injected more programmatically. But
+- [03:26] for cloud is much easier. Basically
+- [03:28] every single run this text you define
+- [03:30] here is appended on top of system
+- [03:33] message and I know there are a lot of
+- [03:34] people have different sorts of like a
+- [03:36] cursor rules that to enhance the
+- [03:38] workflow. For me it normally is pretty
+- [03:40] simple. One prom I do add in is this
+- [03:42] plan and review mode. This basically
+- [03:44] tell cloud code that before we start
+- [03:46] working on the project always in the
+- [03:47] plan mode make a plan first. And for the
+- [03:49] plan we want to save to this docloud
+- [03:52] /task/taskname.md
+- [03:54] so that we can keep track that later.
+- [03:56] And inside this task, we should kind of
+- [03:57] break down into different tasks. While
+- [03:59] cloud code is doing its job, it should
+- [04:01] also update the plan as we go and append
+- [04:03] what it does into the doc. And this is
+- [04:05] really useful because it is almost
+- [04:07] always better to just align with cloud
+- [04:09] code what exactly do you want. And this
+- [04:11] kind of also similar to Amazon's new uh
+- [04:13] kro workflow as well where they call it
+- [04:16] like spec driven development. And what
+- [04:19] it does is kind of similar. Uh it will
+- [04:21] ask you to go through the requirements
+- [04:22] and also kind of go through the
+- [04:24] architecture design come up. It's
+- [04:26] basically same thing and obviously you
+- [04:28] can go as deep as like ko where you will
+- [04:30] break down this three steps process but
+- [04:33] I often found it's effective enough to
+- [04:35] just do one kind of prd. So I will save
+- [04:38] this and now we can get cloud code to
+- [04:39] start implementing our feature. Normally
+- [04:41] the first thing I would do is make a
+- [04:43] plan. So our give prompt we are building
+- [04:45] a beautiful online ID front end. help me
+- [04:47] break down into key components and put
+- [04:49] them together in the end. And here I'm
+- [04:51] going to do shift tab. It will firstly
+- [04:53] get into this auto accept edits mode,
+- [04:55] but you want to shift tab again into
+- [04:57] plan mode. So this plan mode is a really
+- [05:00] really useful feature. When the agent is
+- [05:02] in plan mode, it has this special system
+- [05:04] prompt and limit access to tools. So it
+- [05:07] will focus on doing things like web
+- [05:08] search to understand the latest like tax
+- [05:10] stack or documentations and also
+- [05:13] planning the architecture and in the end
+- [05:15] it will generate final reports and this
+- [05:17] planning sometimes will take a while for
+- [05:19] any feature that is semi complicated. I
+- [05:21] would always do this plan mode first
+- [05:23] back and forth a few times to align the
+- [05:25] plan with cloud code and only after I
+- [05:28] getting it start implementing the
+- [05:29] feature. So here you will see that it is
+- [05:31] showing task. When you see task it
+- [05:33] basically means cloud code is calling a
+- [05:35] sub aents that is specifically doing
+- [05:37] this planning and research. So at
+- [05:39] default cloud code has 17 different
+- [05:41] tools that can do things like run
+- [05:42] command line, read and find files, file
+- [05:45] operations and web search. And this task
+- [05:47] tool basically means it will launch a
+- [05:49] new agent for keywords and file search.
+- [05:51] When cloud code agent is calling this
+- [05:53] task tool, it basically is creating
+- [05:56] another agent that has almost all the
+- [05:57] tool except those planning related tools
+- [06:00] like task to-do and this agent will
+- [06:01] receive a well-defined tasks from the
+- [06:04] parent agent do a list of things and in
+- [06:05] the end say here are the findings. Only
+- [06:08] the last part which is summary of the
+- [06:10] findings will be sent back to the parent
+- [06:12] cloud code agent. And this is one
+- [06:14] message they have to really save the
+- [06:15] token consumption for the parent agent
+- [06:17] because otherwise the main agent might
+- [06:19] be flooded with all sorts of context.
+- [06:21] And knowing this, you can actually
+- [06:22] utilize this task to a lot better. For
+- [06:24] example, you can actually prompt cloud
+- [06:25] code to use task two to set up multiple
+- [06:28] parallel agent to do different task at
+- [06:30] the same time. But also if there's a
+- [06:32] task that you know already, it's going
+- [06:34] to read some very large files. Try to
+- [06:36] prompt cloud code to just use task two
+- [06:38] to do this because that will help you
+- [06:39] save the token a lot on the main agent.
+- [06:41] So now I finished the planning and come
+- [06:44] back with a plan about what are the
+- [06:46] layout system should look like file
+- [06:48] explorer which makes sense the code
+- [06:50] editor component it decide to use
+- [06:52] existing library and then it will break
+- [06:54] down into different phases. The phase
+- [06:56] one is just install everything and the
+- [06:58] phase two is implement file explorer
+- [07:00] code editor terminal integration and
+- [07:03] some advanced feature as well as the
+- [07:05] project directory plan. So this is a
+- [07:08] pretty good plan and obviously I can
+- [07:10] keep planning but here I can also ask it
+- [07:12] to start do this plan and next is that
+- [07:15] it will create this detailed
+- [07:16] implementation plan incloud/tasks
+- [07:19] and I will click yes. So it will create
+- [07:21] this task folder and create this online
+- [07:24] ID front end with a detailed plan and
+- [07:26] tasks. So now I can ask it to let's do
+- [07:29] phase one. It will create a to-do based
+- [07:31] on the phase one requirements. So while
+- [07:33] it is running I'm just going to quickly
+- [07:35] talk about this to-do. So I was quite
+- [07:37] curious how did cloud code actually
+- [07:39] handle this to-do. Do they handling to a
+- [07:42] different like planner agent to just
+- [07:44] specifically come up with plan and
+- [07:45] programmatically get the agent to do one
+- [07:48] task of another? So I did some
+- [07:49] investigation. What I found is the
+- [07:51] entropy team actually took the the
+- [07:53] simplest setup possible. Uh but it's
+- [07:55] really effective. It has this tool
+- [07:56] called to-do right description is
+- [07:58] basically use this tool to create and
+- [08:00] manage and structure task list. They
+- [08:02] have a very specific prompt talk about
+- [08:03] like when to use this tool, when to not
+- [08:05] use this tool, some example as well. So
+- [08:07] every time when agent run this tool, it
+- [08:09] will try to come up a list to-do and
+- [08:11] each to-do will have the content ID,
+- [08:13] priority and status. It is as simple as
+- [08:15] this. So now if we come back here it
+- [08:18] finish all the to-do it also going back
+- [08:21] to our doc and adding details about what
+- [08:24] it actually did. So it marked this as
+- [08:26] completed and also document all the
+- [08:28] things that it does. Cool. So it has
+- [08:30] this component implemented that it has
+- [08:32] this file explorer resizable. It has
+- [08:36] terminal. I can add multiple different
+- [08:37] terminal as well. Nice. Obviously you
+- [08:40] can see I can continue going because it
+- [08:42] already have trace of the overall plan.
+- [08:44] So every time it just need to focus on
+- [08:46] one specific piece of work and if there
+- [08:48] any time when the plan change we can
+- [08:50] just prompt it to update the stock. So
+- [08:52] this is kind my like doc or spec focused
+- [08:55] workflow with cloud code. But what's
+- [08:57] really cool about cloud code is that you
+- [08:58] can customize cloud code in very deep
+- [09:00] manner. So one super interesting feature
+- [09:02] is hooks. So hook is a feature that
+- [09:04] allow you to define things to happen
+- [09:07] programmatically when cloud code takes
+- [09:09] certain actions. One of the most basic
+- [09:11] and common hook that I use is this stop
+- [09:13] hook. So I can define a rule here when
+- [09:16] cloud code stop which means it finish
+- [09:17] the task it try to run this command
+- [09:20] which will basically play the system
+- [09:21] sound to notify me that the task has
+- [09:24] been completed. So with this one if I
+- [09:26] just send a message to cloud it'll play
+- [09:28] this notification sound after the task
+- [09:30] is finished. So this is basically simple
+- [09:31] concept of hook but interesting thing is
+- [09:34] that the customization here can go
+- [09:35] pretty deep. Cloud code allow you to
+- [09:36] define things to do before or after
+- [09:38] certain tool is wrong or when user try
+- [09:40] to send a new message to cloud code so
+- [09:43] that you can ingest some additional
+- [09:44] context in as well as when cloud try to
+- [09:47] compress the conversation history or
+- [09:49] when a sub agent finishes task and
+- [09:51] here's a more sophisticated example that
+- [09:53] I found actually pretty useful. So I can
+- [09:54] define this post to use hook that every
+- [09:57] time after cloud code run a edit
+- [09:59] multi-edit or write to which means it
+- [10:01] modify or create some new files. It will
+- [10:03] run this Python file I define here
+- [10:05] called type check. So this is a feature
+- [10:07] that I probably missed the most from
+- [10:08] cursor is that in cursor it has this
+- [10:10] automatic linked arrow detection and
+- [10:13] this is really useful context so that
+- [10:14] cursor can capture those errors even
+- [10:16] before you run the code and proactively
+- [10:19] fix issue. But for cloud it didn't have
+- [10:20] this and this hook will basically
+- [10:22] replicate that functionality directly.
+- [10:24] So inside this Python file it might look
+- [10:27] a bit complicated but I will quickly
+- [10:28] explain to you what that means. So we
+- [10:31] firstly try to get input data. Each hook
+- [10:33] comes with a list of different inputs
+- [10:35] that you can use. For example for the
+- [10:37] post to use input it will automatically
+- [10:39] give you a list data that you can use in
+- [10:40] this like which tool it is what are the
+- [10:42] input agent generate for this tool and
+- [10:44] what's the output of tool. And in our
+- [10:46] case, we want to get the file so we know
+- [10:47] which file agent just created or
+- [10:49] modified. Then we'll get a file pass.
+- [10:51] And if this file extension is ts or tsx,
+- [10:53] which means it's typescript, we will run
+- [10:55] the type check. And if this type check
+- [10:57] failed, this is a part where we can send
+- [10:59] feedback back to cloud code. So you will
+- [11:01] do the print and the file will be system
+- [11:03] std error. Here I define code to be two.
+- [11:06] So code two means that it is a blocking
+- [11:09] arrow and std arrow will be fed back to
+- [11:11] cloud code so that it can use that to
+- [11:13] define the next actions. But you can
+- [11:15] also define other asset code that will
+- [11:17] still send message back to cloud code
+- [11:19] but it won't blocking it from continue
+- [11:21] the next action. So with this hook if
+- [11:23] cloud code generates on files that has
+- [11:25] type errors it will automatically call
+- [11:27] the script and return back a error
+- [11:29] message if it has any type. So cloud
+- [11:32] code can try to proactively fix issue.
+- [11:34] So this is how hook works and there are
+- [11:35] a lot of potentials. For example, you
+- [11:37] can even define some critic agent. After
+- [11:39] cloud code write any code, it can write
+- [11:41] a test and validate it or if it write
+- [11:43] API doc, you can automatically update
+- [11:45] documentations. I have included a few
+- [11:47] common hooks that I use a lot in AI
+- [11:49] builder club. So you can go and grab. If
+- [11:51] you guys want a more deep dive or hook
+- [11:53] feature, please comment below, let me
+- [11:54] know. I'm happy to do another one. On
+- [11:56] the outside, cloud code also have this
+- [11:58] commands feature where they do come with
+- [12:00] a list of predefined command like check
+- [12:03] cost, set up MCP, memory, models and
+- [12:06] review PR commands even, but they also
+- [12:08] allow you to define custom slash
+- [12:10] commands. For example, I can create a
+- [12:12] commands folder under cloud and just
+- [12:14] create something called joke MD and make
+- [12:17] a joke in all caps. Once I did this, I
+- [12:21] can do slash and search for joke. Then
+- [12:23] this command I define here will be
+- [12:25] showing up. If I click on that, whatever
+- [12:27] you define here in this command will
+- [12:29] basically be sent to cloud code almost
+- [12:31] as a prompt. Network start behave based
+- [12:33] on the rules you define there. I have
+- [12:35] another video where I talk about
+- [12:37] different commands that I predefined
+- [12:39] that can help you extract specific
+- [12:41] styling from a screenshots as well as
+- [12:43] getting cloud code into design mode to
+- [12:45] design multiple different UI iterations.
+- [12:47] And you can even have a command to get a
+- [12:48] cloud code to set up multiple different
+- [12:50] git work tree to have sub agents working
+- [12:52] in parallel. So you can go check out
+- [12:54] this video if you want to learn more.
+- [12:55] And there's a one package I thought is
+- [12:57] pretty useful recently called
+- [12:58] supercloud. It's a open source package
+- [13:00] that comes with bunch of commands that
+- [13:03] they predefine and build. For example, I
+- [13:04] can do slash command SC analyze. This
+- [13:07] will trigger that command that take
+- [13:09] cloud into a much deeper code analyze
+- [13:12] mode. It will create list of to-do to
+- [13:14] look through the whole codebase and come
+- [13:15] back with a kind of architecture review.
+- [13:18] There are other useful things like you
+- [13:20] can run workflow to look at a PRD doc to
+- [13:23] get cloud into kind of step-by-step
+- [13:25] implementation process as well as build
+- [13:28] command that will help bundle and npm
+- [13:30] build your projects as well as
+- [13:32] troubleshoot if you have some weird bug
+- [13:33] that you don't know how to fix. So this
+- [13:35] is a really useful package even though
+- [13:37] the installation is not that
+- [13:38] straightforward. We need to open in a
+- [13:40] folder do uv in it first to set up a
+- [13:42] python project and then do uv as
+- [13:45] supercloud. This will add this
+- [13:46] supercloud package and in the end do UV
+- [13:48] run Python supercloud install then it
+- [13:51] will take you through the step-by-step
+- [13:52] installation process but once you
+- [13:54] install it will be installed at global
+- [13:55] level so you don't need to keep doing
+- [13:57] this and all the file will be basically
+- [13:59] saved to your docloud settings at user
+- [14:01] level if we open it it will basically
+- [14:03] add stuff into the cloud MD which link
+- [14:06] to all the different files that contain
+- [14:08] more details inside this command folder
+- [14:11] you can see all the commands that you
+- [14:12] define here so this kind of quick
+- [14:14] example of how far the customization you
+- [14:16] can do with just command feature.
+- [14:19] Meanwhile, the list of very useful
+- [14:20] feature and shortcuts that cloud code
+- [14:22] has that I didn't know initially.
+- [14:24] Firstly, I can do slash resume to
+- [14:26] jumping back to a past conversation
+- [14:28] history and continue the conversation
+- [14:30] there. This is kind of similar to cursor
+- [14:31] where you can choose a past
+- [14:33] conversation. But on the other hand,
+- [14:35] they also introduces export command. So
+- [14:37] this feature will allow you to copy the
+- [14:39] whole conversation history with cloud
+- [14:41] code. So you can jump between cloud
+- [14:42] code, cursor, werf or any other coding
+- [14:46] IDE because you just need to paste in
+- [14:48] conversation history and no need to
+- [14:49] worry that cursor don't have the context
+- [14:51] about what has been done and quite often
+- [14:53] I will also go to cloud where I have
+- [14:55] unlimited amount token to do some early
+- [14:58] exploration. Apart from that another
+- [14:59] really useful feature is that you can
+- [15:02] double tap exit and this will allow you
+- [15:03] to revert back conversation history to a
+- [15:06] past point. So you can just click that
+- [15:08] and continue the conversation from that
+- [15:10] point. This really good because
+- [15:11] sometimes cloud code will make a
+- [15:13] mistakes and this can avoid it. The only
+- [15:15] downside is that if you're in cursor
+- [15:17] when revert back to a past conversation
+- [15:19] it will automatically revert back all
+- [15:20] your files as well but cloud code didn't
+- [15:22] keep a snapshot. So you actually need to
+- [15:24] use some external package to do the
+- [15:27] snapshot and versioning. One of them is
+- [15:29] called CC undo. So this is a package
+- [15:31] that will automatically detect all the
+- [15:33] changes that cloud code has made to your
+- [15:35] file and allow it to roll back. So I can
+- [15:37] do CC undo and the list. This will list
+- [15:40] out all the change that your cloud code
+- [15:41] has been made and you can do CC undo
+- [15:43] preview to see the specific change that
+- [15:45] cloud code has been made and then once
+- [15:47] you confirm you can do CC undo undo and
+- [15:49] select a change you want to revert. So
+- [15:51] this package can work with cloud code
+- [15:52] handing pretty well. Though the command
+- [15:55] line might not be the best and easiest
+- [15:56] way for you to preview the work. There
+- [15:58] are more userfriendly version like yo-yo
+- [16:00] where it receive a snapshot and you can
+- [16:02] add some additional instructions to
+- [16:04] remember what the changes are. Another
+- [16:06] quite useful shortcut is that you can
+- [16:07] type in acceleration mark. And this will
+- [16:09] get the cloud code into bash mode. So
+- [16:11] bash mode allow you to run command
+- [16:13] directly without going outside cloud
+- [16:15] code. So I can do quickshot car like
+- [16:17] pmppm install or pmppm add certain
+- [16:19] package and it will just run the command
+- [16:21] directly here. So it is really fast but
+- [16:23] also the more important part is that
+- [16:25] this context will be part of
+- [16:26] conversation history so that cloud code
+- [16:28] will know what are the actions that
+- [16:30] you've been taken and similarly you can
+- [16:31] also do hashtag which will activate the
+- [16:34] memory mode. So here is where you can
+- [16:36] type in things that you want cloud code
+- [16:38] to memorize like I'm JSON we're building
+- [16:40] online ID using chassis and component
+- [16:42] and then it will ask you to choose where
+- [16:44] do you want to save this memory it can
+- [16:46] be per level or can be user level across
+- [16:48] all the projects and once you confirm it
+- [16:50] just save that information to the
+- [16:52] cloudme and the last part I also want to
+- [16:54] show you the easiest way for you to
+- [16:56] connect cloud code to kim K2 model if
+- [16:58] you don't know Kim K2 model is a new
+- [17:00] open-source coding model that has
+- [17:02] similar performance like cloud 3.5 to
+- [17:04] cloud four but 80% cheaper. So it is
+- [17:07] really good one to experiment if you run
+- [17:08] out of credits. And the easiest way to
+- [17:10] set up is that you can open terminal and
+- [17:12] do code open this zshrc file. If you're
+- [17:16] on Mac like me, you probably just do
+- [17:18] this. But if you're on Windows, you
+- [17:19] might need to change to bash. This will
+- [17:21] open a file like this. So this will
+- [17:23] basically control your terminal
+- [17:25] behavior. So here I will define Kimi API
+- [17:27] key. And don't worry, I already disabled
+- [17:28] this key. So it's not going to work for
+- [17:30] you guys anymore. And I can define kimi
+- [17:32] where it will export entropic base URL
+- [17:34] to moonshot using this API key and run
+- [17:37] cloud. So with this one I can just go to
+- [17:40] my any terminal and then do kimi. This
+- [17:42] will open cloud code with the special
+- [17:44] model that I defined there. So if I type
+- [17:46] in hi here it is actually going to talk
+- [17:48] to the kimi k2 model. And similarly you
+- [17:51] can also define things here like claw
+- [17:54] bash maintain per working directory to
+- [17:56] be one. What this will do is that
+- [17:58] basically every time when cloud is
+- [18:00] running, it will always append the
+- [18:01] current working directory into the
+- [18:03] prompt. So it will always remember where
+- [18:05] it is instead of running command in run
+- [18:08] place. So here's a quick overview of how
+- [18:10] I use cloud code. If you want to learn
+- [18:11] more, you can join AI builder club where
+- [18:13] we have weekly sessions to talk through
+- [18:15] the latest workflow and tips for AI
+- [18:17] coding and build large language models
+- [18:19] as well as all detailed rules, hooks and
+- [18:21] commands that I personally use. So you
+- [18:23] can copy paste directly. In upcoming
+- [18:25] weeks, we'll have more detailed
+- [18:26] breakdown of how does a cloud code
+- [18:28] actually work behind the scenes and try
+- [18:30] to rebuild cloud code from scratch so
+- [18:31] that we can learn the best practice of
+- [18:33] building effective AI coding agents. I
+- [18:35] put a link in the description below for
+- [18:37] you to join. I hope you enjoy this
+- [18:38] video. Thank you and I see you next
+- [18:40] time.

@@ -1,0 +1,638 @@
+---
+title: "I've been building AI agents since 2022, and in the grand scheme of things, that's not a lot of time..."
+video_id: "k-Cj6H6Zwos"
+video_url: "https://www.youtube.com/watch?v=k-Cj6H6Zwos"
+speaker: "Unknown"
+channel: "AI Tutorial Channel"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  I've been building AI agents since 2022,
+  and in the grand scheme of things,
+  that's not a lot of time, but for AI
+key_points:
+  - "agents, it certainly is. I was super"
+  - "right now with you is a clear and simple"
+  - "scratch. And I can guarantee that if you"
+  - "follow this, you will learn how to build"
+  - "no matter your experience level, you can"
+  - "into it. So, here is a bird's eyee view"
+  - "phase. So, it's not like there is a lot"
+  - "go through this process. In fact, even"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: k-Cj6H6Zwos
+
+- URL: https://www.youtube.com/watch?v=k-Cj6H6Zwos
+- Retrieved at: 2025-12-30T16:00:37+09:00
+
+## Text
+
+- [00:00] I've been building AI agents since 2022,
+- [00:02] and in the grand scheme of things,
+- [00:04] that's not a lot of time, but for AI
+- [00:06] agents, it certainly is. I was super
+- [00:08] early on building agents when Chat GBT
+- [00:11] was just getting popular. We didn't even
+- [00:13] have things like function calling or
+- [00:15] other competing LLMs like Claude or
+- [00:17] Gemini. And it's gotten to the point
+- [00:19] after a few years where I'm now very
+- [00:21] confident no matter the agent that I
+- [00:23] have to build. But it took a long time
+- [00:25] to get there and a lot of very hard
+- [00:27] lessons learned along the way. And so
+- [00:29] what I am super excited to dive into
+- [00:31] right now with you is a clear and simple
+- [00:34] process that I would follow today if I
+- [00:36] had to learn how to build AI agents from
+- [00:39] scratch. And I can guarantee that if you
+- [00:41] follow this, you will learn how to build
+- [00:43] AI agents 10 times faster than me
+- [00:45] skipping all of the hard lessons. And so
+- [00:48] no matter your experience level, you can
+- [00:50] feel confident building agents for
+- [00:52] yourself, your business, or other
+- [00:54] people. So with that, let's dive right
+- [00:56] into it. So, here is a bird's eyee view
+- [00:59] of the path that I would follow right
+- [01:01] now if I had to learn how to build AI
+- [01:02] agents from scratch. And I'm breaking it
+- [01:04] up into 10 different phases. And don't
+- [01:07] worry, I'm being quite specific in each
+- [01:09] phase. So, it's not like there is a lot
+- [01:11] of time that you would have to spend to
+- [01:12] go through this process. In fact, even
+- [01:15] if you are completely new to AI agents,
+- [01:17] you could easily get through everything
+- [01:18] here in just a couple of months. And I
+- [01:21] will stay pretty high level here as we
+- [01:22] go through the phases, but I will call
+- [01:24] out videos on my channel that apply to
+- [01:26] what we're talking about if you want to
+- [01:27] dive deeper into that specific subject.
+- [01:30] So with that, let's go ahead and dive
+- [01:31] into the first step, which is phase one,
+- [01:34] building out our foundation. And this is
+- [01:36] starting with the absolute basics like
+- [01:38] what is a large language model? Learning
+- [01:40] about the best ones out there right now
+- [01:42] like Claude or Gemini, GPT, even
+- [01:45] learning about local AI. These are large
+- [01:47] language models you can run on your own
+- [01:49] computer like Mistl or Quinn. And then
+- [01:51] also learning AI agents versus
+- [01:53] traditional automations. It's a whole
+- [01:55] paradigm shift when we add this extra
+- [01:58] reasoning into our automations through
+- [02:01] AI agents. There's a lot more power but
+- [02:03] also unpredictability that comes with
+- [02:05] this. And so I have a video right here
+- [02:07] where I dive into that. It's really
+- [02:09] important to understand that difference.
+- [02:11] And then also we get to effective
+- [02:13] prompting. learning how to talk to these
+- [02:16] large language models and agents. And I
+- [02:18] am specifically leaving out the phrase
+- [02:20] prompt engineering because I think that
+- [02:22] is overused and overhyped, but it still
+- [02:25] is really important for us to learn how
+- [02:26] to talk to these LLMs just like it's
+- [02:29] important for us to learn how to talk to
+- [02:31] other people. And then lastly,
+- [02:33] leveraging out ofthe-box tools. And so I
+- [02:35] want to talk about this right now, even
+- [02:36] though this is a path for building our
+- [02:38] own agents, because it's important for
+- [02:40] you to build an agent that's not just
+- [02:43] solving a problem that has already been
+- [02:45] solved. And I see this happen a lot
+- [02:47] where someone wants to build an AI
+- [02:49] agent. They want to automate something
+- [02:51] with an LLM, but there's an
+- [02:53] out-of-the-box solution that already
+- [02:54] does exactly what they need for like $5
+- [02:56] a month. So it's like, why invest the
+- [02:59] time into building that agent? And so do
+- [03:01] your due diligence before you build an
+- [03:03] agent, making sure there isn't something
+- [03:04] already out there that solves your
+- [03:06] problem completely or at least for the
+- [03:08] most part. So we have tools like chat
+- [03:10] GBT or cloud desktop for your chat
+- [03:12] applications. Things like MCP servers,
+- [03:15] which is a way to give capabilities very
+- [03:17] easily out of the box to our AI agents.
+- [03:20] I have a video here where I talk about
+- [03:22] that. I'll just show you really quickly
+- [03:23] a couple of the AI tools that I use out
+- [03:26] of the box. None of these platforms are
+- [03:28] sponsoring this video. So, I just want
+- [03:30] to show you at least a few of the tools
+- [03:31] that I use pretty much on a daily basis.
+- [03:34] Starting with Claude Desktop. This is my
+- [03:36] go-to application just to quickly have
+- [03:38] conversations with an LLM. Bounce ideas
+- [03:40] off. And they have support for MCP
+- [03:42] servers and other tool integrations to
+- [03:44] make it very easy to connect to my other
+- [03:46] AI agents. And then along with it, I
+- [03:48] like using this platform called Aqua
+- [03:50] Voice. So, you can see in the bottom
+- [03:52] middle that I'm speaking right now. And
+- [03:54] then it can take what I said and turn it
+- [03:56] into text in any text box on my entire
+- [04:00] computer. Take a look at this. It is
+- [04:02] just so powerful. I love using my voice
+- [04:04] to quickly communicate, especially to
+- [04:06] LLMs. And then also, I love this
+- [04:08] platform called MEM. This is my place to
+- [04:10] organize all my notes and things like
+- [04:12] scripts for my YouTube videos. And they
+- [04:14] have a great API to make it very easy to
+- [04:16] integrate with my other agents, pretty
+- [04:18] much just like Claude Desktop. And then
+- [04:20] the last one that I'll show right now is
+- [04:22] Perplexity. This is a deep research tool
+- [04:25] that I'll use all the time. When there
+- [04:26] are new AI tech that comes out, new LLMs
+- [04:29] or frameworks that I want to research, I
+- [04:31] will use Perplexity for that. So, those
+- [04:33] are just a few of the tools that I love
+- [04:35] using. The last thing that I'll say here
+- [04:37] for phase one is that you always need to
+- [04:40] remember capabilities over tools. And
+- [04:43] what I mean by that is you want to focus
+- [04:45] on what you're able to accomplish
+- [04:48] instead of getting into the nitty-gritty
+- [04:49] details of mastering specific tools. And
+- [04:52] it's so important. This applies to all
+- [04:54] the other phases going forward when we
+- [04:56] dive into other things like no code
+- [04:57] tools or AI coding assistance. You want
+- [04:59] to learn the high lever skills that will
+- [05:01] carry you far no matter the tool you end
+- [05:04] up using. You don't want to get caught
+- [05:05] in the weeds spending hours and hours
+- [05:07] and hours mastering very specific tools
+- [05:09] that might become irrelevant next month.
+- [05:11] And I've caught myself doing that all
+- [05:13] the time. This is really one of the
+- [05:14] biggest tips that I have for you in this
+- [05:16] entire video is capabilities over tools.
+- [05:19] And I have some very concrete examples
+- [05:21] of that going forward as well. And so
+- [05:23] that will take us now into the next
+- [05:25] phase, which is building AI agents with
+- [05:27] no code tools. It doesn't matter if
+- [05:30] you're brand new to automating or if you
+- [05:31] have a lot of coding experience. I would
+- [05:33] still highly recommend starting with
+- [05:35] these no code tools. When you learn for
+- [05:37] the first time how to build AI agents,
+- [05:39] and there are a lot of great platforms
+- [05:41] out there for this, like N8N or
+- [05:44] Flowwise, other ones like Voice Flow and
+- [05:46] Relevance AI. And I still use these
+- [05:48] tools all the time. Especially for
+- [05:50] prototyping for my AI agents because you
+- [05:52] can get your agents up and running so
+- [05:54] quickly with these tools. Even if you do
+- [05:56] have a lot of coding experience like me,
+- [05:58] it's worth using. And this is your time
+- [06:01] to learn how you can integrate tools
+- [06:03] with your agents so they can do things
+- [06:05] on your behalf and your services like
+- [06:06] Gmail and Slack and Outlook. Learning
+- [06:09] about retrieval augmented generation.
+- [06:11] This is a super important process to
+- [06:13] give external knowledge into your AI
+- [06:15] agents. is essentially making them
+- [06:17] domain experts on your documents. And I
+- [06:19] cover rag a lot on my channel. Here's a
+- [06:22] video specifically where I'm
+- [06:23] implementing rag within N8N, which that
+- [06:26] is my favorite noode agent builder. So
+- [06:28] definitely check that out if you're
+- [06:30] interested. Also, learning about basic
+- [06:32] agent memory is really important in this
+- [06:34] phase. We see it all the time with
+- [06:36] applications like chat GBT and Claude
+- [06:38] Desktop where the agent is able to
+- [06:40] remember the conversation and previous
+- [06:42] messages that we sent. But it's
+- [06:44] important for you to understand how that
+- [06:46] works and how that data is stored in our
+- [06:48] database. And lastly, I'm a very
+- [06:51] hands-on learner. And honestly, I
+- [06:52] believe pretty firmly that everyone is.
+- [06:55] You don't get a lot out of a college
+- [06:56] course, for example, when you just have
+- [06:58] to read through a textbook and take a
+- [07:00] bunch of tests. And I've been there,
+- [07:02] done that. I always learn a lot more
+- [07:03] when I actually do something. And so,
+- [07:05] I'm going to be calling this out in a
+- [07:06] lot of the different phases. You want to
+- [07:08] learn by doing. And for phase two, that
+- [07:10] means building agents with no code. So
+- [07:12] at least build one hopefully many
+- [07:14] different agents with tools like N8N and
+- [07:17] get that experience that comfortability
+- [07:19] before then moving on to our next step
+- [07:21] which is learning how to use AI coding
+- [07:23] assistance. If you are not using AI to
+- [07:25] help you code your applications and
+- [07:27] automations you are going to fall
+- [07:29] behind. Even anthropic the company that
+- [07:31] built claude 70% of the code that's
+- [07:34] written for their company is written by
+- [07:36] AI now. So this is not just hype. The
+- [07:39] future of creating software is
+- [07:41] definitely humans working alongside AI
+- [07:44] with these coding assistants. You have
+- [07:46] your AI idees like Windsurf, Cursor,
+- [07:48] Rue. These are on your computer
+- [07:51] operating in your development
+- [07:52] environment. Then you also have
+- [07:53] front-end specific builders like lovable
+- [07:56] or bolt.diy or bolt.new. These will run
+- [07:59] in your browser. It's also very
+- [08:01] important to learn how to prompt AI
+- [08:03] coding assistance. And so this goes back
+- [08:05] to phase one, prompt engineering,
+- [08:07] building effective prompts, but also
+- [08:09] there's a lot more specific things to be
+- [08:11] learned for working with AI coding
+- [08:13] assistants specifically. And then also
+- [08:15] leveraging MCP servers. I already
+- [08:17] mentioned this once, but giving these
+- [08:19] extra tools to our AI coding assistants
+- [08:21] so they can do things like manage our
+- [08:23] database or search the web for
+- [08:24] up-to-date documentation. I've got a
+- [08:27] video right here where I cover my full
+- [08:28] process for using AI coding assistants,
+- [08:31] including things like prompting and MCP
+- [08:33] servers and setting up global rules as
+- [08:35] well, so you can dictate the behavior of
+- [08:37] your AI coding assistants. And then as
+- [08:39] far as learning by doing, again, going
+- [08:41] back to getting very hands-on here,
+- [08:44] build out some simple automations and
+- [08:46] agents with code. Download one of these
+- [08:48] AI idees like Windsurf Cursor or Rue
+- [08:51] Code. Build out some simple things. just
+- [08:54] get comfortable with using these AI
+- [08:55] coding assistants before moving on to
+- [08:57] the next step here, which is using code
+- [09:00] to create our AI agents now instead of
+- [09:02] no code tools. And even if you don't
+- [09:05] have a lot of coding experience, I'd
+- [09:07] still highly recommend diving into this
+- [09:08] phase, especially because of what we had
+- [09:11] in the previous phase, using coding
+- [09:12] assistance to help in this process. And
+- [09:15] that's actually something I cover a lot
+- [09:16] in the AI agent mastery course that I
+- [09:18] have in the Dynamis community. So check
+- [09:20] that out if you're interested. More on
+- [09:22] that later. But yes, this phase is just
+- [09:24] so important because we can stick to no
+- [09:26] code tools like N8N. It's very easy to
+- [09:29] use. It gets us started so quickly. I
+- [09:31] love using them for prototyping. And you
+- [09:33] can take powerful tools like N8N pretty
+- [09:36] far. But still, in the end, when you
+- [09:38] want the most flexibility, control,
+- [09:39] speed, and performance. Generally, I
+- [09:41] want to move to building my agents with
+- [09:43] code, specifically with Python because
+- [09:46] most of our AI agent frameworks like the
+- [09:48] ones you see below are using Python.
+- [09:50] some JavaScript, mostly Python is the
+- [09:53] language for building AI agents. And I'm
+- [09:55] not a huge fan of vibe coding. I think
+- [09:57] it's important for us to still
+- [09:59] understand what is being created through
+- [10:01] the AI coding assistance. And so I would
+- [10:03] recommend learning the basics of Python
+- [10:05] still getting a grasp of programming and
+- [10:08] then moving on to picking your AI agent
+- [10:10] framework. Like we have Pyantic AI and
+- [10:12] Langraph. There are a couple of my
+- [10:13] favorites. We got the OpenAI agents SDK.
+- [10:16] We have Agno, Crew AI. There are so many
+- [10:18] good options out there. So explore, pick
+- [10:20] the ones that's right for you based on
+- [10:22] simplicity and performance and the
+- [10:24] different criteria that you have. But
+- [10:26] also do not overthink it. Remember
+- [10:28] capabilities not tools. We don't want to
+- [10:30] get super ingrained in a specific
+- [10:32] framework. We want to learn the higher
+- [10:34] leverage skills that will apply no
+- [10:36] matter the framework that we end up
+- [10:38] using because we don't know if maybe
+- [10:40] next month there's going to be some
+- [10:41] framework that comes out that just
+- [10:42] smashes all the rest of them. So focus
+- [10:44] on the higher level capabilities. And we
+- [10:47] can do that by applying phases two and
+- [10:49] three. Like you learned how to integrate
+- [10:50] tools with your agents already and
+- [10:52] short-term memory and retrieval augment
+- [10:54] generation and using AI coding
+- [10:56] assistance. Apply all of that here.
+- [10:58] Learn by doing by now moving one of the
+- [11:01] agents that you prototyped with a tool
+- [11:02] like N8N into a coded version of your
+- [11:05] agent using a framework like Pantic AI.
+- [11:08] So get that experience, get really
+- [11:10] comfortable coding agents and then we
+- [11:12] can move on to our next phase which is
+- [11:15] advanced architecture. Taking our AI
+- [11:17] agents to the next level. This is where
+- [11:19] we get into multi- aent workflows and
+- [11:21] different architecture patterns for
+- [11:23] that. It's just so important for us for
+- [11:25] more complex systems to distribute
+- [11:27] responsibility between agents just like
+- [11:29] it's powerful to distribute
+- [11:31] responsibility between people. There's
+- [11:33] an anthropic article that I'll link to
+- [11:35] below that dives into that. Definitely
+- [11:36] worth checking out. And then we also
+- [11:38] have other components like memory
+- [11:40] systems for long-term memory, guard
+- [11:42] rails for input and output, fallback
+- [11:45] mechanisms. I have a link to a video
+- [11:47] right here where I dive into these
+- [11:49] different components. Guardrails is
+- [11:51] probably one of the most important ones
+- [11:52] though because we have input guardrails,
+- [11:54] making sure that we don't have garbage
+- [11:56] that's sent to our agent. And then we
+- [11:58] have output guardrails, making sure that
+- [12:00] there's no garbage that is sent to the
+- [12:02] end user. These kind of things are what
+- [12:04] is so important to make our AI agents
+- [12:07] actually reliable because like I said at
+- [12:09] the start versus traditional
+- [12:11] automations, AI agents are more powerful
+- [12:13] but also a lot more unpredictable. And
+- [12:15] so we want to implement things like
+- [12:17] guardrails. And so learn by doing. Level
+- [12:20] up an agent that you coded in the last
+- [12:22] phase. Add in things like long-term
+- [12:24] memory or input guard rails. Maybe
+- [12:26] combine it with another agent and build
+- [12:28] out a multi- aent workflow. just get
+- [12:30] that experience, that comfortability,
+- [12:32] leveling up your agents to make them
+- [12:33] more reliable and more effective. And
+- [12:35] then once you get to that point, it is
+- [12:37] time to productionize our AI agents.
+- [12:40] That brings us to the next phase, which
+- [12:41] is deploying our AI agents. And the key
+- [12:44] for me for deploying my AI agents to
+- [12:47] production is to use a tool called
+- [12:49] Docker. This is where I can containerize
+- [12:51] my agents into an isolated environment
+- [12:53] that I can then deploy anywhere in the
+- [12:56] cloud, start getting users using my
+- [12:58] agent. There are a lot of cloud
+- [13:00] platforms available. So just do your
+- [13:02] research, find the one that's right for
+- [13:03] you. There are easy to use ones like
+- [13:05] Digital Ocean and Hostinger. If you're
+- [13:07] an enterprise shop, you'd probably want
+- [13:08] to use something more like Amazon Web
+- [13:10] Services or the Google Cloud Platform.
+- [13:12] If you need a GPU instance to run larger
+- [13:15] local large language models, then you
+- [13:17] could use something like Vast AI or
+- [13:19] RunPod. And I show what this process
+- [13:22] looks like in this video right here
+- [13:23] where I containerize my agent and then I
+- [13:25] deploy it to a platform called Render.
+- [13:28] And for you, it's going to look very
+- [13:29] similar pretty much no matter which
+- [13:30] cloud platform you end up using. And
+- [13:32] part of that is in thanks to using
+- [13:34] Docker to create a very good standard
+- [13:37] for deploying agents. And so learn by
+- [13:39] doing by taking this agent that you've
+- [13:41] built throughout these phases already
+- [13:42] and deploying it to the cloud. Get
+- [13:44] comfortable with one of these platforms.
+- [13:46] Learn what it takes to build your agent
+- [13:49] out. Deploy it, scale it, get it into an
+- [13:51] environment for other people to use it.
+- [13:53] But once your agent is running in the
+- [13:55] wild, it is very important to move on to
+- [13:57] the next phase, which is all about
+- [13:59] monitoring our agents. This is
+- [14:01] oftentimes called agent observability.
+- [14:03] It's our way to peer into our AI agent,
+- [14:06] which is especially important in
+- [14:07] production to see the requests coming in
+- [14:09] from our users, the decisions that our
+- [14:12] agent is making around tool calling, and
+- [14:14] then also the output that's given to our
+- [14:16] end users. And this is so crucial for us
+- [14:19] to detect any errors with our agents or
+- [14:22] just see opportunities to make our AI
+- [14:24] agent better. And we'll get into that in
+- [14:26] another phase, but being able to
+- [14:27] continuously improve our agents is so
+- [14:29] crucial. And there are a lot of good
+- [14:32] options for agent observability like
+- [14:33] Langfuse, Helicone, Langsmith, Logfire,
+- [14:36] Impidantic AI. I have this video that
+- [14:38] I'll link to right here where I dive
+- [14:40] into using Langfuse. It's not that hard
+- [14:42] to set up agent observability, but it'll
+- [14:44] take your AI agents very, very far. And
+- [14:47] like I call it right here, it is 100%
+- [14:49] necessary for production. And speaking
+- [14:52] of continuously improving our agents,
+- [14:54] this brings us on to phase 8, which is
+- [14:56] agent evaluation. There is a very
+- [14:59] interesting statistic that I've heard
+- [15:01] quite a few times recently, actually.
+- [15:03] When you are building AI agents, it's
+- [15:05] only 25% of the actual coding or
+- [15:07] automating. And then the rest of the 75%
+- [15:10] is evaluating your AI agent and making
+- [15:13] adjustments to improve your agent based
+- [15:15] on the evaluating. And this is so
+- [15:18] important and also different from
+- [15:20] testing. So when we are testing our
+- [15:22] agent or just our code in general, we
+- [15:24] are testing for general code
+- [15:26] correctness. Making sure that our
+- [15:28] application isn't going to completely
+- [15:30] crash or the end user would not get a
+- [15:32] result at all. But evaluating is
+- [15:34] different. It's all about agent behavior
+- [15:36] correctness. And so if an evaluation
+- [15:40] produces a negative result, it doesn't
+- [15:41] mean that there's an error or an
+- [15:43] application crashed, it just means that
+- [15:45] our agent is not giving an acceptable
+- [15:47] answer, whatever that might look like.
+- [15:49] And there are a lot of different ways to
+- [15:51] evaluate agents. We have the whole idea
+- [15:54] of LLM as a judge, like using another
+- [15:56] large language model to evaluate the
+- [15:58] output of our agent. We have task
+- [16:00] completion testing. This is more around
+- [16:02] tool calling like did the agent invoke
+- [16:04] the tools necessary based on this
+- [16:05] request to do something like update a
+- [16:08] task in a sauna or draft an email in
+- [16:10] Gmail whatever that might be. And then
+- [16:12] plain and simple we also have human
+- [16:15] evaluation having people like maybe
+- [16:17] these are our end users that fill out a
+- [16:19] survey after they use our platform and
+- [16:20] just trying out our agents seeing if the
+- [16:23] results are acceptable to them. And
+- [16:25] evaluating your agents is really what's
+- [16:27] going to take you far. All of the
+- [16:29] previous phases are all about building a
+- [16:31] reliable agent, building one that's
+- [16:33] effective, that does the job, but then
+- [16:35] evaluating is where we can make sure
+- [16:37] that all of that is actually giving us
+- [16:39] the results that we need for the system
+- [16:41] that we're trying to build or automate.
+- [16:43] And that brings us to the next phase,
+- [16:44] which is mastering AI with others. One
+- [16:47] of the biggest regrets that I have when
+- [16:50] I first started learning AI agents was
+- [16:52] not doing it with other people. I was
+- [16:54] learning pretty much alone and that did
+- [16:56] change eventually but it would have sped
+- [16:58] up my process for feeling confident
+- [17:00] building AI agents so much if I did it
+- [17:02] with other people because mastering AI
+- [17:05] agents is not easy. There's so much
+- [17:07] power that's given to us with these
+- [17:09] LLMs. But with great power comes great
+- [17:11] responsibility. There's all that
+- [17:13] unpredictability with agents that we
+- [17:15] have to deal with. That's why it's so
+- [17:16] important to find a community and learn
+- [17:18] and collaborate with other people. And
+- [17:20] this is just the perfect time for me to
+- [17:22] talk about my community, Dynamus AI
+- [17:25] Mastery. I've been pouring my heart and
+- [17:27] soul into Dynamus over the past month,
+- [17:29] making it the perfect place for you to
+- [17:32] master AI with other people and
+- [17:34] collaborate as well. And you know that I
+- [17:37] pour my heart and soul into YouTube as
+- [17:39] well. So, I'm doing the exact same
+- [17:41] thing, if not more, with Dynamis. And I
+- [17:43] have the AI agent mastery course which
+- [17:45] is where I go into my full process in
+- [17:48] detail for building AI agents from the
+- [17:50] planning phase to prototyping with N8N
+- [17:52] to building the agent in Python creating
+- [17:55] a full front-end application and
+- [17:56] deploying it my full process. So
+- [17:59] definitely check out dynamus.ai if that
+- [18:01] sounds interesting to you. And I already
+- [18:03] have hundreds of other early AI adopters
+- [18:05] in the community ready to collaborate
+- [18:07] with you. daily events like office hours
+- [18:09] and workshops and more. AI agent
+- [18:12] templates and resources that are
+- [18:13] immediately available to you once you
+- [18:15] join the community and daily support and
+- [18:17] idea sharing. So, so much to offer.
+- [18:19] Definitely check out dynamis.ai. And
+- [18:22] with that, that brings us to our last
+- [18:24] phase, which is leveraging your new
+- [18:26] skill set. Honestly, the thing I love
+- [18:28] the most about AI agents is just how
+- [18:30] versatile of opportunities you have once
+- [18:33] you get really good at building them.
+- [18:35] You can automate things in your own
+- [18:37] business or your own life. You can
+- [18:39] create and sell AI agent templates or
+- [18:41] frameworks. And that's a really powerful
+- [18:43] thing. By the way, creating systems
+- [18:44] around your AI agents, packaging up
+- [18:46] those and selling those is so lucrative.
+- [18:49] You can start an AI automation agency,
+- [18:51] which is kind of related to the thing
+- [18:53] above, but maybe making more bespoke
+- [18:54] solutions. You can build a SAS product
+- [18:57] powered by AI agents. You can become an
+- [18:59] AI consultant or adviser for different
+- [19:01] companies. You can join or start an AI
+- [19:03] focused company. Even at the enterprise
+- [19:06] level, this experience will just take
+- [19:07] you so far. You can teach others through
+- [19:10] content creation like I'm doing all the
+- [19:11] time. Contribute to open source AI agent
+- [19:14] projects. There are so many different
+- [19:16] ways that you can leverage this new
+- [19:17] expertise. It takes you so far. And it
+- [19:20] doesn't matter the industry or the
+- [19:21] niche. Everyone needs AI agents. And so
+- [19:24] if you go through this full process, you
+- [19:26] get to the point where you're confident
+- [19:27] building AI agents, you can do anything.
+- [19:30] like the world becomes your oyster. And
+- [19:32] that's why I'm just so excited every
+- [19:33] single day about AI agents. And I'm just
+- [19:36] so motivated to continue to put out
+- [19:38] things on my YouTube channel here,
+- [19:40] starting up Dynamis and building that
+- [19:42] out. Everything that I'm doing, I'm just
+- [19:44] so motivated because AI agents really is
+- [19:46] the future. That's why it's important to
+- [19:48] get on this now. So, there you have it.
+- [19:50] That's my full process for learning AI
+- [19:52] agents if I had to start over today. I
+- [19:55] hope you found this really helpful. No
+- [19:56] matter if you're a beginner or if you're
+- [19:58] already partially through the path and I
+- [20:00] just illuminated the next couple of
+- [20:01] steps for you. And if you think there's
+- [20:03] anything that I'm missing in this path,
+- [20:05] please let me know in the comments. I
+- [20:07] love to keep working on this because the
+- [20:09] most important thing for me is that the
+- [20:11] hard lessons that I had to learn and
+- [20:13] wasting my time learning things that
+- [20:14] weren't important, I want to make sure
+- [20:16] that you don't have to deal with that as
+- [20:18] well. So, I'm just trying to pass this
+- [20:19] on to you. So, if you appreciated this
+- [20:22] content, you're looking forward to more
+- [20:23] things AI and AI agents, I would really
+- [20:26] appreciate a like and a subscribe.

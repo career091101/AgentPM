@@ -1,0 +1,387 @@
+---
+title: "YouTube Video: 7SrkvlgIKFs"
+video_id: "7SrkvlgIKFs"
+video_url: "https://www.youtube.com/watch?v=7SrkvlgIKFs"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+summary: |
+  In July of 2013, a bizarre video game appeared online. It was called Kanye Quest 3030. And on the surface, it seemed like nothing more than a weird indie project made by a fan of hiphop. The premise w...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "AI Technical"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 7SrkvlgIKFs
+
+- URL: https://www.youtube.com/watch?v=7SrkvlgIKFs
+- Retrieved at: 2025-12-30T09:44:48+09:00
+
+## Text
+
+- [00:00] In July of 2013, a bizarre video game
+- [00:02] appeared online. It was called Kanye
+- [00:04] Quest 3030. And on the surface, it
+- [00:07] seemed like nothing more than a weird
+- [00:09] indie project made by a fan of hiphop.
+- [00:11] The premise was absurd. So, if you watch
+- [00:13] my videos for a while, you know I have
+- [00:16] last few years always trying to make
+- [00:18] this AI video production workflow work.
+- [00:20] And it's been with some success, but I
+- [00:23] think now we are really close to
+- [00:26] something perfect. Uh, I've been working
+- [00:28] on this over the weekend and it's just
+- [00:30] insane to be honest how good it's gotten
+- [00:32] since uh the last time I tried. So, I
+- [00:35] don't know if I'm going to go through
+- [00:36] all the steps here, but basically I can
+- [00:38] take this quick. So, this is the pool
+- [00:40] workflow. So, we have uh some source
+- [00:42] material and we're going to check the
+- [00:44] archive if we have done the story before
+- [00:46] just to check. Extract extract uh MP3s
+- [00:50] files from the MP4 files and transcribe
+- [00:52] them into text using whisper. generate
+- [00:55] the video script, the voiceover script,
+- [00:57] send it to 11 Labs and we're going to
+- [01:00] ret transanscribe the voice over to get
+- [01:01] timestamps that we can compare with uh
+- [01:05] the clips and for that we need to
+- [01:07] generate the timeline generate AI images
+- [01:10] to fill in gaps in our video that is
+- [01:12] missing clips for so that we using nanob
+- [01:15] pro for that and we're going to process
+- [01:17] the clips we're going to compose the
+- [01:19] video again with ffmpeg generate some
+- [01:22] thumbnails and some data if we need that
+- [01:24] And yeah, we're going to archive the
+- [01:26] story so we know that we have already
+- [01:28] done this story. That's the final clip.
+- [01:30] And then we have the video fully able.
+- [01:32] We also have some background music and
+- [01:34] stuff. So I just want to show you how
+- [01:36] this works. Oops. I just want to show
+- [01:38] you how this works now and how good it
+- [01:40] has become with the opus cloud code and
+- [01:44] all of the other bunch of tools that is
+- [01:46] new. So yeah, let me just walk you
+- [01:48] through like a full workflow of this and
+- [01:49] we're going to see what kind of video we
+- [01:51] can generate. So the way I have been
+- [01:53] using this is trying to create clips
+- [01:55] from my own videos. That has been my
+- [01:57] testing. But I wanted to show you a bit
+- [01:58] more interesting use case uh for the
+- [02:01] video. Yeah, because my videos are a bit
+- [02:03] boring for this. Uh I'm a big fan of the
+- [02:06] YouTube channel Chilling Scares. And he
+- [02:08] often has different stories inside his
+- [02:10] videos. So I just got a copy of his
+- [02:13] video here, Disturbing Internet
+- [02:15] Mysteries that has been solved. I really
+- [02:17] recommend checking that out. So, uh, I
+- [02:20] put that into my video folder here on
+- [02:22] cursor. And that is basically all I want
+- [02:24] to do. Usually, I just put my own videos
+- [02:26] here, but I just want to show you kind
+- [02:28] of how this work with a bit more of
+- [02:29] interesting story. Okay. So, what I can
+- [02:33] do now is I can go to claude and I can
+- [02:36] just do Yeah. Claude code. When I head
+- [02:39] into that, I am in my Yeah, cloud code
+- [02:42] here. I think you should see this. Maybe
+- [02:44] do this. Okay, perfect. So we have
+- [02:48] something called custom commands. So I
+- [02:51] have created a custom command for my
+- [02:54] workflow. So I can quickly show you how
+- [02:56] this looks. Now if we go to my custom
+- [02:59] command, you can see here we have all
+- [03:01] the steps. So your expert script writer
+- [03:04] writing exciting stories interesting to
+- [03:06] watch. Great hooks and pasting. And we
+- [03:09] have the step remember the image we had
+- [03:11] step 1 0 to 10. All of this is described
+- [03:15] in my slash command here in cloud code.
+- [03:19] So basically hopefully I can just press
+- [03:22] enter now and the full video workflow
+- [03:25] will be done autonomously. That's my
+- [03:27] goal. So let's see if we actually can do
+- [03:30] this now. So kind of what's going to
+- [03:32] happen now is uh this command is just
+- [03:35] going to follow everything we put into
+- [03:38] our instructions, right? So step zero to
+- [03:41] 10. So you can see now it's kind of
+- [03:44] looking for what videos do we have. You
+- [03:46] can see we found the disturbing
+- [03:48] mysteries video that we put in. Okay,
+- [03:51] let's do this. So we're going to probe
+- [03:52] it to see the length. We're also going
+- [03:54] to check out what stories we have done
+- [03:57] in our archive. Okay, we probe the
+- [04:01] video. We found the length of it and the
+- [04:03] source video is about 27 minutes long.
+- [04:06] Check the storage. Uh we haven't
+- [04:08] archived yet. Okay, that's good. So now
+- [04:10] we can just wait for that. So what we
+- [04:12] are doing now is we're taking the MP4
+- [04:14] file and extracting only the audio
+- [04:17] because we only want the MP3 file to run
+- [04:21] with Whisper here to get the full
+- [04:22] transcription with the timestamps. Uh
+- [04:25] I'm going to show you how that looks
+- [04:26] when this is complete. Okay. So you can
+- [04:28] see that was completed. Now we got 300
+- [04:30] segments of transcription and we're
+- [04:33] going to check it out. So if we go in
+- [04:35] here, you can see the transcription
+- [04:37] here. Now this is I can zoom in a bit.
+- [04:40] So the first uh from second three till 9
+- [04:44] we have this text on January 25th of
+- [04:47] January 2010 ready user ready user disco
+- [04:50] God godfather 692 made a post. So now we
+- [04:53] kind of get uh uh the start, the end and
+- [04:57] the text right. So this is important
+- [05:00] when we are going to select here what
+- [05:02] kind of stories we want to do or when we
+- [05:05] can find clips because these clips also
+- [05:07] relate to the audio and what kind of
+- [05:10] clips are in the video we can do a yeah
+- [05:14] a clip from. Okay. So you can see now uh
+- [05:17] we are looking at kind of what stories
+- [05:18] we're going to pick. This is going to
+- [05:20] pick the Kanye West Kanye quest 330
+- [05:24] story. Okay, this is what we're going to
+- [05:26] do. The source run from uh Okay, so
+- [05:29] we're going to look at the original
+- [05:31] video. So, we just want to get the one
+- [05:34] uh ARG cult mystery story in this video
+- [05:36] game. Okay, perfect. So let's see what's
+- [05:41] going to do next is actually we're going
+- [05:44] to generate a voice over script uh that
+- [05:46] we are going to send to 11 labs to
+- [05:48] actually get our full story here. So
+- [05:51] yeah yes I want to do that. Okay and
+- [05:54] here we have the full script. So it's
+- [05:55] nine
+- [05:57] uh how many seconds? 500 seconds that's
+- [06:00] about yeah you can see the full script
+- [06:02] here. So this is what we are sending to
+- [06:05] 11 labs. Perfect. generate voice over
+- [06:09] and we have like a set voice some
+- [06:11] generic voice I found and now we are
+- [06:14] running this script here Python code to
+- [06:16] actually generate the voiceover script
+- [06:18] we're going to do now when this script
+- [06:19] is over is that we need to retranscribed
+- [06:21] it if you remember this step here
+- [06:23] retranscribe voice over because we also
+- [06:26] need the timestamps
+- [06:29] uh for the new story right so it's 7
+- [06:32] minutes and 20 seconds and now we're
+- [06:34] going to transcribe this again to get
+- [06:36] the time stamp amps for our voice over.
+- [06:39] Okay, so that was done. So now you can
+- [06:41] see the next up uh we're going to
+- [06:42] actually create the visual timeline we
+- [06:44] talked about. So this is the timeline
+- [06:47] where we want to look at um how we
+- [06:50] should put the story together based on
+- [06:52] the clips and the timestamps. And we
+- [06:54] also going to generate some I see we can
+- [06:56] do three AI images here to fit in the
+- [06:59] gaps we maybe are missing in our story.
+- [07:01] Right? So we're going to do three
+- [07:03] images. Uh maybe that's at least three
+- [07:06] images. Okay. And these are going to be
+- [07:08] incorporated into the video. So yeah,
+- [07:11] let's just uh do this uh images and then
+- [07:14] we can move on. Okay. So our timeline is
+- [07:17] done. Uh we can look at how this looks
+- [07:19] now. So if we go in here, uh I think
+- [07:22] it's actually in uh so if you look at
+- [07:25] timeline now, you can see this is how
+- [07:27] we're going to do this.
+- [07:29] Um okay. So let me just check. Yeah,
+- [07:32] timeline. Okay.
+- [07:35] So you can see now we have our plan
+- [07:36] here. We have a clip and where it
+- [07:39] starts, what kind of clip it is and it's
+- [07:41] a hook, right? 35 seconds and perfect.
+- [07:46] So that is kind of our timeline. 13
+- [07:49] clips and four images.
+- [07:51] So now we're going to generate those
+- [07:52] images. Okay. So I think our images is
+- [07:55] done. Now if we go in here and check the
+- [07:57] image folder. Yeah, we have four
+- [08:00] different images that we are going to
+- [08:02] use in our video here. They all kind of
+- [08:05] look the same. Perfect. Kanye Quest
+- [08:07] 3030. Perfect. So now it's basically
+- [08:12] starting to processing the clips. Uh
+- [08:14] this is quite boring. So I'm going to
+- [08:16] This is just an FFmpeg operation in two
+- [08:19] parts. So I'm just going to skip this
+- [08:21] for you and take you back when Yeah,
+- [08:23] that should be basically our video done
+- [08:25] now. So I just wanted to bring you back
+- [08:27] uh because we are now uh coming into the
+- [08:29] final part. We have actually uh clipped
+- [08:32] everything together. Uh the video
+- [08:34] editing is done by the AI. So that
+- [08:36] should be finished. And you can see we
+- [08:38] are at 17 minutes. So fully autonomously
+- [08:43] we are at 17 minutes. This took from
+- [08:46] start to finish. That is pretty
+- [08:49] incredible. And when you see the results
+- [08:52] now, you will kind of see what I mean.
+- [08:54] And this has completely changed how I do
+- [08:57] clips from my videos, right? It just
+- [09:00] saves me so much time. It does the video
+- [09:02] editing. It does the planning. It comes
+- [09:05] up with a story. Uh so I can create
+- [09:07] different stories from my videos. Uh I
+- [09:10] create images to fill in the gaps we are
+- [09:12] missing. I can do background music as
+- [09:14] you will hear that I created soon.
+- [09:17] Uh I can get title suggestions. The
+- [09:20] video game that was actually a cult
+- [09:22] recruitment tool. Okay, that's pretty
+- [09:24] interesting. We can get thumbnails. What
+- [09:26] thumbnails did they come up with for
+- [09:28] this uh video type? We get a
+- [09:31] description. Uh, of course, this is an
+- [09:33] example, but for my video, this could be
+- [09:35] something else. So, these are the
+- [09:37] thumbnails it came up with. Uh, we have
+- [09:40] some Yeah, I don't like that. Do I like
+- [09:42] this thumbnail?
+- [09:44] I don't think so. What about uh this?
+- [09:46] Nah, not the best. Uh, okay, that wasn't
+- [09:50] too bad.
+- [09:52] Uh, yeah. Okay, so the thumbnails could
+- [09:54] have some work here, but basically you
+- [09:56] get the idea.
+- [09:58] And basically now I think all we have to
+- [10:01] do so we archive the story so we don't
+- [10:03] repeat this if uh I'm going to do some
+- [10:05] future videos uh on Yeah, of course not
+- [10:08] on this but on on my channel. So I think
+- [10:11] all we have to do now is just watch uh a
+- [10:13] minute or something of the completed
+- [10:15] video. Uh so you yeah know what Okay,
+- [10:19] perfect. So that was done. So, let's
+- [10:21] just watch a minute of it. And yeah, I
+- [10:24] think you're going to like it. So, if we
+- [10:26] go here now, you can find the final
+- [10:28] video here. Uh, okay. So, uh, I'm going
+- [10:32] to open this in like a separate, uh,
+- [10:35] player, and I'm going to play you like 1
+- [10:37] minute or something. Uh, I'm going to
+- [10:40] turn off my camera here. In July of
+- [10:42] 2013, a bizarre video game appeared
+- [10:44] online. It was called Kanye Quest 30030.
+- [10:47] And on the surface, it seemed like
+- [10:49] nothing more than a weird indie project
+- [10:51] made by a fan of hip hop. The premise
+- [10:53] was absurd. You played as Kanye West,
+- [10:55] who falls through a mysterious portal
+- [10:57] and wakes up in the year 3030. In this
+- [11:00] dystopian future, America is ruled by a
+- [11:02] clone of rapper Lil B, who believes
+- [11:04] himself to be a god. The world is filled
+- [11:06] with clones of other famous rappers.
+- [11:08] Tupac, Jay-Z, Eminem. Your mission as
+- [11:11] the player is to assemble a team of
+- [11:12] these legendary artists, defeat Lil B,
+- [11:15] and save the country. It was strange. It
+- [11:17] was kind of funny and for a while people
+- [11:19] played it, laughed about it and moved
+- [11:20] on. The game even caught the attention
+- [11:22] of Video Game Dunkey, one of the most
+- [11:24] respected reviewers on YouTube. But like
+- [11:26] most indie games from that era, it
+- [11:28] eventually faded into obscurity. No one
+- [11:31] gave it a second thought until January
+- [11:33] 2015 when someone discovered what the
+- [11:35] game was really hiding. An anonymous
+- [11:37] user made a post on 8chan detailing a
+- [11:40] shocking discovery. At one point in the
+- [11:42] game, an NPC asked the player a simple
+- [11:44] question. What do you want to do?
+- [11:46] There's a sixletter blank space where
+- [11:47] you can type your response. Most players
+- [11:50] typed random words and moved on, but
+- [11:52] this user decided to type something
+- [11:53] different. Ascend. The moment they hit
+- [11:55] enter, everything changed. The player
+- [11:58] >> Okay, so that was pretty good, right?
+- [12:00] Uh, I've been just so impressed over
+- [12:02] this weekend trying to figure out this
+- [12:04] pipeline. And I haven't really kind of
+- [12:08] comp comprehended what this really means
+- [12:09] for kind of my workflow yet. Uh, but I'm
+- [12:13] definitely going to keep exploring.
+- [12:14] Also, I just wanted to mention you can
+- [12:16] see uh for the thumbnails uh it we
+- [12:19] extracted some frames from the video
+- [12:22] that we tried to use in the thumbnails,
+- [12:24] right? And with Nano Banana Pro, we can
+- [12:26] kind of take this. Yeah, you can see we
+- [12:28] could have used this uh to a new level.
+- [12:32] But what this means for my workflow and
+- [12:34] how I do video automation, I haven't
+- [12:36] kind of comprehended yet. But basically
+- [12:39] this is going to be a huge change
+- [12:41] because Opus 4.5 especially in claw code
+- [12:44] is so good at actually creating the
+- [12:47] stories, putting everything together,
+- [12:48] not making mistakes and the videos I've
+- [12:52] been doing has been just so good.
+- [12:55] They've been like very good production
+- [12:57] and the story and the clipping has been
+- [12:59] very interesting because the because
+- [13:01] Claude here it doesn't only do the
+- [13:04] clipping, it also do the planning. So,
+- [13:06] it kind of has the context of what the
+- [13:08] video is about and from that it writes a
+- [13:11] script based on that and it selects
+- [13:14] clips it wants to put into this to
+- [13:16] create tell the story. So, what I'm
+- [13:19] going to try out the next few days is
+- [13:21] bring in like a bunch of different
+- [13:22] videos and try to create an interesting
+- [13:25] story uh based on a lot of different
+- [13:28] sources. That is going to be my next
+- [13:30] project. So, if a lot of people like
+- [13:32] this video, I'm going to do a follow-up
+- [13:34] how that went. So yeah, hopefully this
+- [13:36] gave you some inspiration uh what you
+- [13:38] can do with the new Opus or with other
+- [13:41] tools. Yeah, just go out there and do
+- [13:44] crazy stuff because this is really
+- [13:46] getting really interesting. And I have a
+- [13:48] bunch of other video ideas I want to
+- [13:50] share too with things I've been doing
+- [13:51] lately. Uh one of them has made me a
+- [13:54] good chunk of money actually. I might
+- [13:56] share that too. Uh but yeah, thank you
+- [13:58] for tuning in. Like I said, hope this
+- [14:00] gave you some inspiration and I see you
+- [14:02] again uh soon.

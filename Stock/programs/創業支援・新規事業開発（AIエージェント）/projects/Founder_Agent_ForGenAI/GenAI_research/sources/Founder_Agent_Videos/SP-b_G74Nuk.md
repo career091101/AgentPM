@@ -1,0 +1,1507 @@
+---
+title: "Transcript: SP-b_G74Nuk"
+video_id: "SP-b_G74Nuk"
+video_url: "https://www.youtube.com/watch?v=SP-b_G74Nuk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:67:34"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: SP-b_G74Nuk
+
+- URL: https://www.youtube.com/watch?v=SP-b_G74Nuk
+- Retrieved at: 2025-12-30T10:52:48+09:00
+
+## Text
+
+- [00:00] We are going to build AI software
+- [00:02] engineer today. You have heard about
+- [00:04] Devon AI and lovable where you just give
+- [00:07] a prompt and it will build a fully
+- [00:09] functional software application for you.
+- [00:11] In today's video, we will build this end
+- [00:14] to end agentic AI project where you just
+- [00:16] give a prompt such as create a
+- [00:18] calculator web application and it will
+- [00:20] generate that application for you along
+- [00:23] with all the code. You can say create a
+- [00:25] todo app and it will build the todo app
+- [00:27] for you. This project is going to look
+- [00:30] pretty solid on your resume if you are
+- [00:32] building agentic AI skills. I would like
+- [00:34] to thank Jet Brains for sponsoring this
+- [00:36] video. In Pycharm, they have released
+- [00:38] some amazing features such as AI
+- [00:40] playground, AI agentic debugger which is
+- [00:42] pretty useful when you're building
+- [00:44] agentic AI project. We will see them in
+- [00:46] action during our coding session. We are
+- [00:48] calling our project coder buddy and for
+- [00:51] text tech we are using langchain lang
+- [00:53] graph gpt open source model and crop
+- [00:56] cloud so that you can call llm for free
+- [00:59] and it will look something like lovable
+- [01:01] where you just give a prompt like this
+- [01:04] and it builds a fully functional app
+- [01:06] right so here if you look at this app it
+- [01:09] will allow you to you know create new
+- [01:12] projects uh it's like fully functional
+- [01:14] app and it gives you a code as well so
+- [01:17] ours is a learning project. So of course
+- [01:19] it it won't be as fancy as lovable. But
+- [01:22] this is one of the application that we
+- [01:23] created. So when you give a prompt
+- [01:26] create a to-do list, it will create
+- [01:28] this. You can mark to-do items as
+- [01:31] complete. You can delete uh the items.
+- [01:34] See you can modify the items and so on.
+- [01:38] If you say create a calculator web
+- [01:40] application, it will build a fully
+- [01:43] functional calculator where you can
+- [01:44] perform all these operations. So we are
+- [01:47] going to inject this prompt through a
+- [01:49] command line and it will generate this
+- [01:52] entire trace. We will look into the AI
+- [01:54] agent debugger as well and when that
+- [01:57] project is generated you know it will
+- [01:59] generate the entire codebase. So you
+- [02:01] have your HTML files, CSS files and
+- [02:03] everything else. Now folks we going to
+- [02:05] use lang graph. So in langraph we will
+- [02:07] generate some nodes. But before we
+- [02:09] discuss about the nodes, just think that
+- [02:12] when you are working on a software
+- [02:14] project, if you're a software engineer,
+- [02:15] if I ask you, okay, create a web
+- [02:17] application, what will you do? First,
+- [02:19] you will do planning, correct? So, first
+- [02:22] you are going to do planning.
+- [02:26] In the planning, you will list down all
+- [02:28] the features, correct? That okay, I need
+- [02:30] this XYZ feature, etc. Okay. So if uh I
+- [02:35] had to make it more concrete, you will
+- [02:38] have this planner node. So when you are
+- [02:40] creating a lang graph graph, it will
+- [02:44] have for planning, it will have a
+- [02:47] planner node. So you give your input
+- [02:50] here and it will do planning. It will uh
+- [02:53] come up with all the features. So for
+- [02:56] calculator web applications the features
+- [02:58] will be okay you need a clear and
+- [03:01] backspace functionality you need
+- [03:03] responsive design you need user-friendly
+- [03:06] interface with with basic operations so
+- [03:08] these are your Jiraa stories okay uh
+- [03:10] this is your task breakdown basically
+- [03:12] and if you're a software engineer you
+- [03:14] will understand what what I mean by Jira
+- [03:16] story so you do all of that you also in
+- [03:19] a planning phase you will figure out
+- [03:21] what is my text tech you want to use
+- [03:22] Python you want to use JavaScript etc
+- [03:25] and then description. You will also come
+- [03:27] up with rough file structure that okay I
+- [03:30] need index.html that should have HTML
+- [03:32] structure of the UI. You need style CSS
+- [03:35] where you should have the visual and
+- [03:38] look and feel of your calculator. Okay.
+- [03:41] App.js for JavaScript logic for handling
+- [03:44] input etc and so on. And after planning
+- [03:48] the next phase let's say you have
+- [03:50] planned everything you know if you're
+- [03:52] working on big project you will have
+- [03:54] this architect right so architect what
+- [03:57] they will do is let's say there are
+- [03:59] three features
+- [04:01] so architect uh and for these three
+- [04:03] features you have those files right
+- [04:05] index html
+- [04:07] whatever architect for those three
+- [04:10] features will give detailed guideline
+- [04:12] let's say you are working with a junior
+- [04:14] programmer This architect can be a
+- [04:16] senior programmer too. They will and
+- [04:19] let's say the third stage is coding
+- [04:21] right coding.
+- [04:23] So they will say okay index.html do this
+- [04:25] do that they will give the instructions
+- [04:27] for each of the files and coder will
+- [04:30] implement this code right. So they will
+- [04:33] actually write the code. So if you look
+- [04:35] at the lang graph
+- [04:37] graph that we have there will be a
+- [04:39] planner then there will be an architect
+- [04:43] and then there will be a coder who will
+- [04:46] do coding and then it will end. So this
+- [04:49] is going to be a simple graph in
+- [04:51] langraph and if I to show you more
+- [04:54] concrete details on architect they will
+- [04:57] take this file list okay this particular
+- [04:59] file list from a planner and they will
+- [05:01] add details. See here planner just said
+- [05:03] okay this is the UI but they will add
+- [05:06] more details such as as if you are spoon
+- [05:08] feeding a programmer who is sitting next
+- [05:10] to you usually it's not good but let's
+- [05:12] assume you're doing that you will say
+- [05:14] okay add this link the style set include
+- [05:17] the script at the end of the day you
+- [05:18] give all that details because here our
+- [05:21] programmer is AI you want to give a
+- [05:23] specific details to AI so that AI
+- [05:25] doesn't make mistake you know it doesn't
+- [05:27] go out of control and there is some kind
+- [05:30] of explanability you can trace you know
+- [05:32] what's going on. After architect comes
+- [05:34] the coder and coder will take these
+- [05:36] steps and convert it into actual code.
+- [05:39] So see here you are just giving
+- [05:41] instruction like okay do this do that
+- [05:43] but coder will write the actual
+- [05:45] index.html style dot CSS and so on. We
+- [05:49] will be using PyCharm as a code editor.
+- [05:51] You can install it for free. Just say
+- [05:53] install PyCharm and then download this
+- [05:56] version. It is a unified version which
+- [05:58] comes with 1 month of pro included. Now
+- [06:01] we are going to try some cool AI
+- [06:04] features including AI playground then AI
+- [06:08] agent debugger etc. So once you have
+- [06:11] installed PyCharm what you can do is you
+- [06:15] can go to settings and in the settings
+- [06:17] go to plugins and in plug-in type AI
+- [06:22] agents. So you see this AI agents
+- [06:25] debugger. I have already installed it
+- [06:27] but make sure you install it because
+- [06:29] this will help us in debugging and in
+- [06:32] building our code in a very smooth
+- [06:35] fashion. We will use gro cloud to call
+- [06:38] llm for free. So just go to
+- [06:41] console.gro.com
+- [06:43] and login using your Gmail ID etc. Then
+- [06:46] go to API keys and create a new API key.
+- [06:50] Note it down. This is the API key you
+- [06:53] will be using throughout the project.
+- [06:56] They offer variety of models. You can
+- [06:58] use any model actually. But we are going
+- [07:00] to use this GPT opensource model. To
+- [07:03] begin the project coding, I will create
+- [07:06] a folder for this project. I usually
+- [07:08] keep my code in C code directory. Here
+- [07:12] I'm creating a new folder called app
+- [07:16] builder. You can give it any name.
+- [07:19] And then I'm going to use UV as a Python
+- [07:21] package manager. Just Google install UV.
+- [07:25] You'll come here. This is a replacement
+- [07:28] for pip. Using UV, you can manage your
+- [07:31] project, install dependencies and so on.
+- [07:33] And it is super fast. Based on your
+- [07:34] operating system, you will pick a
+- [07:36] command. So I'm on Windows. So I will
+- [07:38] just copy this command. And on Windows,
+- [07:40] just launch Windows PowerShell. So I
+- [07:44] have launched PowerShell here. And here
+- [07:47] you can copy paste and install UV.
+- [07:49] Pretty straightforward process. Now go
+- [07:52] to your git bash. Okay. And here you can
+- [07:56] see that this folder is empty. I will
+- [07:59] run a command called uv in it which will
+- [08:03] do the basic UV initialization.
+- [08:06] So it has created main.py which is just
+- [08:08] a empty file you know with hello world
+- [08:12] program. And then you have pi
+- [08:15] project.comtoml. This is sort of like
+- [08:17] requirement.txt which will contain all
+- [08:19] the dependencies which Python version
+- [08:22] you are using and so on. Let's open this
+- [08:25] project in PyCharm. So I already have
+- [08:27] PyCharm open. So I will just open a new
+- [08:31] project called Code
+- [08:34] App Builder. Okay. Select a folder and I
+- [08:37] will open it in a new window. If you're
+- [08:39] launching PyCharm for the first time, it
+- [08:41] will show you that popup where you just
+- [08:43] select that particular project and here
+- [08:46] first thing you need to do is make sure
+- [08:49] your Python interpreter is correct. See
+- [08:51] here you see let me just show you uh
+- [08:54] read the tool tip Code app builder v
+- [08:58] environment script python.exe.
+- [09:01] Okay. So that is the interpreter that I
+- [09:03] want. Now I don't have v environment
+- [09:05] here. So for that let's uh first add the
+- [09:10] dependencies here and we're going to add
+- [09:12] the dependencies from our GitHub on
+- [09:14] GitHub I'm calling this project coder
+- [09:16] buddy you can call it anything and in pi
+- [09:20] project.comtoml see these are the
+- [09:22] dependencies so these are the python
+- [09:24] modules that you will use so control arr
+- [09:27] c and just copy paste that file and then
+- [09:32] run this command uv sync So what it will
+- [09:36] do is it will install all the
+- [09:38] dependencies which are mentioned in pi
+- [09:40] project.toml.
+- [09:42] So now if you look at our project it did
+- [09:44] two thing it created uv.loc which
+- [09:47] contains all the nested dependencies. So
+- [09:50] if you need grock a gro will also have
+- [09:53] further dependencies on like 10 other
+- [09:55] python modules. So u.lo lock is a
+- [09:58] aggregate like all the modules that it
+- [10:01] contains and then it also created this v
+- [10:03] environment and that is the interpreter
+- [10:06] you want to have in your project. Now
+- [10:08] let's say by default if you don't have
+- [10:11] that interpreter just say add new
+- [10:13] interpreter add local interpreter select
+- [10:16] existing and select that particular
+- [10:19] folder. So you will go to CC code app
+- [10:21] builder go to v environment scripts and
+- [10:25] select python okay and click on open. So
+- [10:28] that should be your default interpreter.
+- [10:31] For me it is selected that's why I'm
+- [10:32] just canceling out. But in your case you
+- [10:35] have to make sure that is your
+- [10:37] interpreter. See here my interpreter is
+- [10:39] so C code uh I think my interpreter is
+- [10:43] wrong it's auto auto builder actually no
+- [10:46] it's not wrong it's it is app builder v
+- [10:49] environment script python.exe exe okay
+- [10:53] and if you okay configure okay why is it
+- [10:56] saying this okay configure actually it
+- [10:58] should be okay somehow I I don't know
+- [11:01] why why it is doing this but let let me
+- [11:03] just select it so C code
+- [11:09] app builder v environment scripts and
+- [11:12] python this is the interpreter I want
+- [11:16] okay now it will take some time to
+- [11:19] update index and so on and then run it
+- [11:24] and see hello from app builder. So my
+- [11:27] basic project setup is done. I will also
+- [11:30] add env file because we need it for our
+- [11:34] API key. So just say
+- [11:38] env here
+- [11:40] and here you're going to specify
+- [11:45] your I have this key here. So let me
+- [11:47] just copy gro API key and here you will
+- [11:52] specify your key. Okay, this is like
+- [11:54] your password. So I'm assuming you have
+- [11:56] specified your key and just close this
+- [11:59] file. The way I'm going to structure my
+- [12:00] code is in main.py we will receive the
+- [12:03] user input on what kind of app they want
+- [12:05] to create and all the agent related code
+- [12:09] we will keep it in a directory called
+- [12:11] agent. So I have created that directory
+- [12:14] and let's create a file called graph. So
+- [12:16] remember we are using lang graph and the
+- [12:19] graph that we will create in lang graph
+- [12:21] will be maintained in this graph.py file
+- [12:25] and to begin with I will first test
+- [12:28] calling out llm. Let's see if the basic
+- [12:30] llm call works. So from langchain grog
+- [12:35] you will import chat grog and you will
+- [12:38] say llm is equal to chat gro and here
+- [12:45] you will specify your model which is
+- [12:48] your openi gpt oss 120 billion parameter
+- [12:54] model. This is an open source model from
+- [12:56] GPT and you can just simply say okay
+- [13:00] let's say llm dot invoke this is how you
+- [13:04] call llm and you can say who invented
+- [13:08] kria yoga answer in
+- [13:12] one
+- [13:15] sentence okay and you're getting a
+- [13:18] response
+- [13:20] and you can print
+- [13:23] the content of the response. Right
+- [13:27] click, run.
+- [13:29] Ah, see I need to do the uh loading of
+- [13:33] that API key. So I did not do that. So
+- [13:36] let's do this. So from
+- [13:39] uh dot environment import load
+- [13:41] environment. So I want to call this
+- [13:44] method. So what it will do is whatever
+- [13:46] keys are specified inv it will load it
+- [13:50] into the environment variable and see
+- [13:52] the beauty of PyCharm's AI assistant.
+- [13:56] When I imported the module immediately
+- [13:57] it is showing me this. So I just hit tab
+- [14:00] and it will call that method. Um using
+- [14:02] AI assistant you can boost up your
+- [14:05] productivity by 5x. Okay. So right click
+- [14:08] run this. See kria yoga was revealed by
+- [14:10] whatever right mahhat baba gi lahiri
+- [14:14] mahashai there's a famous book called
+- [14:16] autobiography of a yogi if you're
+- [14:18] interested in spirituality you should
+- [14:20] read it anyways so my basic wiring my
+- [14:23] basic llm call is working okay now let's
+- [14:26] assume I want to extract price and eps
+- [14:29] from Nvidia's quarterly report and I
+- [14:32] have just simple one line of report in
+- [14:34] this case I might want my output to be a
+- [14:37] dictionary or some kind of class you
+- [14:38] know like some properly formatted output
+- [14:41] which says EPS is 2.3 and price
+- [14:45] something like this you know I want this
+- [14:46] output to be in a structure format so
+- [14:49] that my downstream processing can
+- [14:52] consume it and can make good use of it
+- [14:56] okay so how do you do that because right
+- [15:00] now it's just printing this big text
+- [15:02] with with some content so in lang chain
+- [15:05] there is this method called structure ed
+- [15:08] output okay with structured output where
+- [15:11] you can specify your schema and if you
+- [15:13] specify this schema it will output it in
+- [15:16] this format so let's make use of that
+- [15:19] you will say llm with structured output
+- [15:23] okay with
+- [15:25] structured output
+- [15:27] and then dot invoke and here you are
+- [15:31] going to specify your schema okay so
+- [15:35] what is my schema the schema schema can
+- [15:38] be a class actually which you import
+- [15:42] from pientic base model. So schema is a
+- [15:46] class which is derived from pientic base
+- [15:49] model and it has these two elements
+- [15:52] price and eps both of them are float.
+- [15:54] Okay. And now
+- [15:58] let's see what is the output. So right
+- [16:00] click run. Now the output is structured.
+- [16:03] It is an object of this class. So you
+- [16:06] can right click debug it. That way you
+- [16:08] will see that the response is an object
+- [16:12] of class schema. See you see response is
+- [16:16] an object of class schema. It has a
+- [16:18] property called eps another property
+- [16:21] called price and so on. Now this way
+- [16:25] your output is in a well uh structure
+- [16:29] format. In our case, the user prompt is
+- [16:32] going to be like a okay create a simple
+- [16:37] calculator
+- [16:39] web application.
+- [16:41] This will be the user prompt. Okay. And
+- [16:44] what will happen is our first component
+- [16:47] will be planner. So planner will plan
+- [16:50] out the engineering project. So let's
+- [16:53] write a prompt for our planner. Okay. So
+- [16:56] our planner prompt is going to be this.
+- [17:00] You are the planner agent. Convert the
+- [17:03] user prompt into a complete engineering
+- [17:05] project plan. And user request is this.
+- [17:10] And then so you will have some kind of
+- [17:12] schema which you will call it a plan.
+- [17:15] Okay? And we are going to define this
+- [17:16] plan by the way. And that plan you will
+- [17:20] specify here. And here you will specify
+- [17:24] your prompt. Okay. Now what is going to
+- [17:28] be the structure of this plan? So for
+- [17:31] the structure I need to also import
+- [17:33] field
+- [17:35] and it will look something like this. So
+- [17:38] see here uh the plan contains the name
+- [17:42] of the app that we want to build. Then
+- [17:44] the description then the text tag which
+- [17:46] means which Python, JavaScript, React.
+- [17:49] Okay. what kind of text tag you want to
+- [17:51] use. Then the features, list of
+- [17:53] features. Okay, what are the features?
+- [17:55] User authentication, data visualization
+- [17:57] and so on. And a list of files to be
+- [18:00] created. Now, this file is another class
+- [18:03] that we have. So when you're writing
+- [18:05] code, right, in in your structure, you
+- [18:07] will have file and its purpose. So this
+- [18:11] is the file path and this is the
+- [18:12] purpose. Purpose of your file, your main
+- [18:14] application, front end, back end, what
+- [18:16] is it? Okay. So let's run it and then
+- [18:18] you will kind of get it. So we have
+- [18:22] specified plan and file and now I think
+- [18:26] I'm ready to run it but I'll just debug
+- [18:28] it so that you can see the class
+- [18:30] structure. So right click and debug.
+- [18:35] Okay. So let's debug it. Okay.
+- [18:38] So now look at the plan. Look at the
+- [18:40] response actually. So the response says
+- [18:44] that description. So response contains
+- [18:46] the the format in this which adhers to
+- [18:49] this schema right. So response name is a
+- [18:53] simple calculator description is a
+- [18:55] lightweight web application that
+- [18:57] provides basic calculator for performing
+- [18:59] addition subtraction look at this
+- [19:01] multiplication and so on and there are
+- [19:03] seven features. So you know when uh you
+- [19:07] are creating this kind of project you
+- [19:09] will create Jira stories. So these are
+- [19:11] individual programming task or Jiraa
+- [19:13] stories. First story is userfriendly UI
+- [19:16] with display screen whatever support for
+- [19:19] basic arithmetic operation at least in a
+- [19:20] calculator you want addition subtraction
+- [19:22] multiplication so on then clear and
+- [19:25] backspace functionality keyboard input
+- [19:26] and so on. See how beautifully it
+- [19:29] created all these features. Then the
+- [19:31] files. So in the files you want to have
+- [19:35] four files. The first file will be index
+- [19:39] html. See that is the path. So we
+- [19:41] specified path and purpose. So the path
+- [19:43] is index html. Purpose is main HTML
+- [19:46] structure. Then the second file is
+- [19:49] style. CSS which is for styling. You
+- [19:52] know if you have done web development
+- [19:53] you will know that you use this CSS for
+- [19:56] look and feel the colors and so on. And
+- [19:59] then there is the script which is core
+- [20:01] JavaScript logic which will handle
+- [20:03] button clicks and so on. And then there
+- [20:05] is a readme file for your Python
+- [20:08] whatever for your GitHub etc. And then
+- [20:11] your test file. See how beautiful this
+- [20:13] is. So this is the purpose of with
+- [20:16] structured output. Now folks, we have
+- [20:19] created this prompt for a planner uh
+- [20:23] just in graph.py file. But to write
+- [20:26] modularize code, let's create another
+- [20:30] file called prompts.py.
+- [20:33] Okay. And here we are going to keep that
+- [20:36] prompt. So that same prompt I'm going to
+- [20:38] keep it here so that you can take the
+- [20:42] user prompt which is build a calculator
+- [20:44] application as an input and using Python
+- [20:47] formatting string basically the same
+- [20:49] thing that we did here folks. Okay
+- [20:51] nothing different. So we are keeping it
+- [20:53] in prompt.py and then from graph we will
+- [20:56] import that thing whole thing from
+- [21:00] prompts we will import all the prompts
+- [21:02] you know we we going to write more
+- [21:04] prompts as well. So let's import it and
+- [21:07] then so we have imported that prompt
+- [21:10] here. So this prompt
+- [21:15] is going to be planner prompt and user
+- [21:19] prompt. Right? And I want to move all
+- [21:23] these classes into a separate file
+- [21:26] called states because these will be part
+- [21:29] of the langraph states. These are the
+- [21:31] schemas. So let's create another file
+- [21:35] called states.py
+- [21:38] and
+- [21:40] let's cut this out from here.
+- [21:44] Put them here. And you will have to
+- [21:47] import the modules as well. Okay, pretty
+- [21:51] straightforward stuff. And from state
+- [21:56] import this. So now this plan is already
+- [22:00] imported. See this plan is already
+- [22:04] imported. All right. So our the work for
+- [22:06] planner is almost complete. Now let me
+- [22:08] mention one important thing about model
+- [22:10] selection. We are using this free model
+- [22:13] from grock and that has some kind of
+- [22:16] token limit. When you are working on a
+- [22:18] industry grade aentki project you will
+- [22:21] be using some kind of paid model and
+- [22:23] many times your token limit will go very
+- [22:26] high and it will increase your bill. So
+- [22:28] at that point you might think okay I
+- [22:30] want to use some low cost model that way
+- [22:33] you can reduce your cost but then you
+- [22:36] might have concern what about accuracy
+- [22:37] you want to compare the accuracy of lowc
+- [22:39] cost model with your gold standard model
+- [22:42] such as GPD5 and to test that you can
+- [22:45] use AI playground so if you click on
+- [22:47] three dots you will get this AI
+- [22:50] playground option and you can just say
+- [22:54] create playground by the way here you
+- [22:55] can run local models with hola you and
+- [22:58] play with different models and so on. So
+- [23:01] I will just say create a playground and
+- [23:04] here you can add a model for comparison.
+- [23:06] Let's say GPD40 is my model and I can
+- [23:10] just type in you know who invented
+- [23:13] Priya Yoga
+- [23:16] and this will give you a response as if
+- [23:18] you know like chat GPT gives a response
+- [23:21] but you are interested in comparing the
+- [23:23] output with a different model. So for
+- [23:25] that you can say add model for
+- [23:27] comparison. Let's say 3.7. You want to
+- [23:30] compare GPT and enthropy cloud. Okay.
+- [23:34] Here you can specify your top P, your
+- [23:36] temperature. Higher temperature means
+- [23:38] higher creativity, your token limit and
+- [23:41] so on. Let's say you want to compare
+- [23:42] these two models for code writing. So
+- [23:45] you want to write a code to read a file
+- [23:47] and extract ticker and price. Now when
+- [23:49] you hit enter, it will call both the
+- [23:52] models simultaneously. You see? And you
+- [23:55] can compare the output. See this is
+- [23:57] pretty useful, right? So this way you
+- [23:59] can write sample prompt and compare the
+- [24:02] output from different models. You can
+- [24:04] also connect with a provider. Let's say
+- [24:06] you are connecting with Olama and and
+- [24:09] you can run Olama locally and taste that
+- [24:12] model as well. If you have OpenAI, of
+- [24:14] course, you have to provide the API key
+- [24:16] and so on. Now we are going to create a
+- [24:18] graph using langraph. And if you don't
+- [24:20] know the fundamentals of lang graph, I
+- [24:22] have this tutorial that you can follow.
+- [24:24] That way you will know the essential
+- [24:26] concepts. So here what we are going to
+- [24:28] do is we will create a graph which will
+- [24:33] uh take a state. Okay. So in a graph
+- [24:36] there is something called state and
+- [24:38] state will contain a user prompt. User
+- [24:42] prompt will be okay. Create a calculator
+- [24:45] application. Then we will have a node
+- [24:48] called planner.
+- [24:50] So the code for the planner is already
+- [24:52] ready. We are going to create another
+- [24:55] node in the future called architect.
+- [24:58] Okay, that will be the second node and
+- [25:01] the third node will be coder. So this
+- [25:05] will be a rough graph architecture and
+- [25:08] there will be like a loop because during
+- [25:10] coding you will go through multiple
+- [25:11] iterations and then there will be an
+- [25:15] end. Okay. So right now we will just
+- [25:18] create a simple graph with only planner
+- [25:21] node. Okay. So let's say you are taking
+- [25:23] a state with a user prompt. Okay. And
+- [25:28] then you have planner
+- [25:32] and that's it. This is your end. So
+- [25:35] we'll just create a simple graph with
+- [25:37] one node right now. And in order to do
+- [25:39] that I need to import some libraries
+- [25:43] which I'm going to import here.
+- [25:45] And then towards the bottom let's create
+- [25:50] a graph. So my graph is a state graph.
+- [25:55] And what is the structure of the state
+- [25:59] that we are passing? So state we can
+- [26:02] keep it very simple folks. We can keep
+- [26:04] it a dictionary.
+- [26:06] Okay. And once again if you don't know
+- [26:08] the state state graph etc. Watch that
+- [26:10] lang graph tutorial. and then graph dot
+- [26:14] add node. Okay, so the first node is
+- [26:17] planner
+- [26:19] and we will create a function called
+- [26:22] planner agent
+- [26:25] and that function will use some of the
+- [26:27] code that we have written before. Okay.
+- [26:29] And just to keep things simple, let me
+- [26:32] move this thing here
+- [26:35] so that way we get rid of one one
+- [26:37] variable. Okay. And planner agent is a
+- [26:42] function which will get state as an
+- [26:46] input. State is a dictionary
+- [26:48] and it will return dictionary as an
+- [26:51] output. And then you have this user
+- [26:54] prompt. So what is user prompt? User
+- [26:57] prompt is something you will get from
+- [26:59] the state. So whatever state we get,
+- [27:02] it's a dictionary folks. So dictionary
+- [27:04] will have user state. Okay. So it will
+- [27:07] look something like this. So state
+- [27:09] dictionary
+- [27:12] will look something like this. It will
+- [27:14] have
+- [27:16] user prompt. Then it will have plan.
+- [27:19] Okay. So plan will be the output of this
+- [27:21] thing. Correct? So this thing is simple.
+- [27:24] You are returning
+- [27:26] a plan
+- [27:29] which is your response.
+- [27:32] So when you pass state to planner agent,
+- [27:34] it has only user prompt. when it comes
+- [27:37] out of that node right see when it comes
+- [27:40] out of this here at this stage it will
+- [27:43] have state and plan both
+- [27:47] okay so this will have plan and later on
+- [27:50] we will add more keys to this particular
+- [27:53] state dictionary so I I hope you're
+- [27:55] getting it okay and then in a graph you
+- [27:59] need to set an entry point so your entry
+- [28:02] point will be a planner
+- [28:05] So my graph is I think kind of ready and
+- [28:10] you can say agent is equal to graph
+- [28:16] dot compile and let me move this here
+- [28:19] user prompt you can say agent do.invoke
+- [28:23] and in that you can pass this user
+- [28:25] prompt
+- [28:28] and this will be your result. You can
+- [28:31] print your result here. So right click
+- [28:35] run it and see you got your plan. So you
+- [28:38] got a dictionary with element called
+- [28:40] plan and that is your plan right? See if
+- [28:42] you look at this variable it's a
+- [28:44] complete plan that we saw before. The
+- [28:48] output of the planner should be in this
+- [28:50] format where it gives description text
+- [28:54] tag features which is a list of Jiraa
+- [28:56] stories and files. Now if you look at
+- [28:59] the output here in our debugger window
+- [29:02] it is exactly that. See we have
+- [29:03] description which is a simple web app
+- [29:06] based calculator that performs whatever.
+- [29:09] Then we have features. So these are the
+- [29:11] features. See 1 2 3 4 five actually. And
+- [29:16] it is kind of this. I mean it's a
+- [29:19] generative AI. So the exit features will
+- [29:21] be different but you get an idea that as
+- [29:23] a planner you made a plan on what task
+- [29:26] needs to be implemented. It's like your
+- [29:28] Jiraa stories right? So that is your
+- [29:31] features. Then you will have files where
+- [29:33] you will have okay file path. What is
+- [29:36] the purpose? So you have index html
+- [29:39] which is HTML structure for calculator
+- [29:41] UI and so on. Style dot CSS if you know
+- [29:43] web programming is used for visual look
+- [29:47] and feel and so on. So here if you look
+- [29:49] at files see that's what we getting. You
+- [29:52] have index.html whose purpose is HTML
+- [29:55] skeleton style. CSS styling script.js
+- [29:58] whatever. Okay. So now the next step is
+- [30:03] architect. So the idea that we have
+- [30:05] built this project around is the planner
+- [30:09] will give okay these are the task and
+- [30:12] these are the files and files purpose
+- [30:15] but now the architect will expand on
+- [30:17] this files purpose further and he will
+- [30:20] give you he or she will give you the
+- [30:22] implementation details. So architect
+- [30:25] will say okay for index.html HTML add
+- [30:28] dock type and whatever link the style
+- [30:30] state include see usually this is done
+- [30:33] by programmer but architect just just
+- [30:36] think about this programmer wants to do
+- [30:38] coding architect is giving you the exact
+- [30:40] steps that for this coding it's like
+- [30:42] spoon fitting okay you need to add dock
+- [30:44] type you need to link the stylesheet you
+- [30:46] need to include the script at the end of
+- [30:48] the body these are explicit steps and
+- [30:50] this will help just in case if our agent
+- [30:53] is failing misbehaving we have the exact
+- [30:56] thought process you know what is the
+- [30:57] thought process of writing this index
+- [30:59] html or style dot CSS or whatever code
+- [31:02] you're writing. So now let's add
+- [31:04] architect node in our state graph. Okay,
+- [31:06] so far we have this. Now we want to add
+- [31:09] this architect node in our graph and
+- [31:13] that should give all this task
+- [31:14] description.
+- [31:16] So we will stop this execution
+- [31:21] and then in the prompts.py Pi I will say
+- [31:27] I'm not going to write this long prompt
+- [31:29] in front of you. I have already written
+- [31:31] it previously. So I will just copy
+- [31:33] paste. It says you are architect agent
+- [31:37] given the project plan. So architect
+- [31:39] will get the project plan as an input.
+- [31:42] So see in this u lang graph what will
+- [31:46] happen is this is a state. So initially
+- [31:49] the state is having only user prompt
+- [31:53] where you are saying okay build a
+- [31:56] calculate application. Then once it goes
+- [31:58] to planner now the state has a plan and
+- [32:03] plans are all those features that we
+- [32:05] saw. Okay. So plan is nothing but all
+- [32:09] these features
+- [32:11] these features and the files. That's
+- [32:14] what we are saying given this project
+- [32:15] plan. Where is the project plan? well is
+- [32:17] python format string. So here we are
+- [32:19] going to supply project plan as an input
+- [32:21] to this function and based on that you
+- [32:24] need to create implementation task. So
+- [32:28] essentially the input is this. Okay,
+- [32:31] this is the input and you need to give
+- [32:34] create this as an output. It's like
+- [32:37] implementation task description. Okay,
+- [32:40] and you can read through it. I mean you
+- [32:41] can modify it as per your needs but I'm
+- [32:44] saying name of the variables should be
+- [32:46] defined mention how this task depends on
+- [32:48] whatever include integration details
+- [32:50] imports executive whatever you can
+- [32:52] fine-tune it as you experiment with this
+- [32:54] code and then in the states we will
+- [32:58] define so let's go to the states here I
+- [33:01] already defined the state so I will just
+- [33:04] write it here so see let's say each Jira
+- [33:06] story right each task has what it as
+- [33:10] file path and task description. Okay. So
+- [33:14] for that let's define this. This is
+- [33:18] implementation task for which file path
+- [33:20] is a string. Task description is a also
+- [33:23] a string. And then you have a list of
+- [33:27] them right? You don't have one task. You
+- [33:29] have multiple implementation steps. So
+- [33:32] you need to define the
+- [33:35] list another class which has so another
+- [33:39] class called task plan which has list of
+- [33:43] implementation task folks. It's as easy
+- [33:45] as that. Okay, it's essentially this
+- [33:48] particular table that you have modeled
+- [33:50] into your identic class and I will add
+- [33:52] one extra parameter here called model
+- [33:55] config and config dict we can
+- [34:00] import from here. And now you're like
+- [34:01] okay what what is model config? Well see
+- [34:06] when in pentic when you say config dict
+- [34:09] extra allow. See that's what we are
+- [34:11] saying right? Config dick extra allow.
+- [34:14] What this will do is it will allow
+- [34:18] additional element in the class although
+- [34:20] it's not defined in your class. So let's
+- [34:22] say task plan has implemented the steps
+- [34:24] right. So pentic is a model validation
+- [34:27] uh library. So if you create an object
+- [34:30] of task plan and let's say add for
+- [34:33] example
+- [34:34] if I create
+- [34:36] task plan and I can add implementation
+- [34:39] steps but if I say a.xyz XYZ
+- [34:44] it should fail. See if I don't have this
+- [34:46] this will fail actually it will not
+- [34:47] accept it. But when I do this I can add
+- [34:51] any extra element you know I can add any
+- [34:56] extra element. And why we are doing it I
+- [34:59] will show you in a minute. Just hold on.
+- [35:01] Okay just just wait for it. But the
+- [35:04] purpose of this is so that you can add
+- [35:06] extra elements into the object of this
+- [35:09] class. All right.
+- [35:12] Now this is done. Prompts is done. And
+- [35:14] we are going to now
+- [35:17] add another node called architect.
+- [35:22] So let's add architect node. Architect
+- [35:25] agent. And that will be a function that
+- [35:27] we will define here.
+- [35:30] See we will define this architect agent.
+- [35:33] And the signature is same right? It
+- [35:36] takes
+- [35:38] state as an input. See it takes state as
+- [35:41] an input and state as an output and that
+- [35:43] state is nothing but a dictionary. So
+- [35:45] now from this state dictionary you want
+- [35:49] to get this plan. See the previous nodes
+- [35:53] output is plan. So you want to get this
+- [35:55] plan.
+- [35:57] Okay. And if you want to define type in
+- [35:59] you can just say this is of type plan.
+- [36:02] And then you will say llm with
+- [36:05] structured output
+- [36:08] dot invoke
+- [36:10] architect prompt plan because this plan
+- [36:13] you need to give it to architect prompt
+- [36:16] and it will give you the detail enhance
+- [36:17] prompt. So that you get but what should
+- [36:21] be the schema of this output. Well the
+- [36:23] schema should be task plan and this is
+- [36:26] the response you are getting. And by the
+- [36:29] way, uh if response is none, you want to
+- [36:32] throw out an error. Okay, so uh this is
+- [36:36] the error for this. And here architect
+- [36:40] did not return a valid response. And
+- [36:43] then I want to return task plan. So this
+- [36:47] task plan is the response or task
+- [36:50] details. Now see just for maintaining
+- [36:54] the context. So if you have read the
+- [36:57] principles of context engineering, it is
+- [36:59] a good idea to maintain the whole
+- [37:01] context. So here the state will have
+- [37:04] only one element task plan. But I would
+- [37:06] like to keep the plan also the original
+- [37:08] plan which was the input. So the state
+- [37:10] will contain both input and output. So I
+- [37:12] will just say response.
+- [37:15] Now see now see I'm able to add this new
+- [37:17] element because here I have said model
+- [37:20] config is equal extra because response
+- [37:22] will be of type task plan. Okay. And
+- [37:25] since I have done this, I can add any
+- [37:27] element like I can add any element like
+- [37:30] XYZ, right? I can add for example XYZ
+- [37:33] any element I can add. So in plan I will
+- [37:38] have plan, right? Which was the input.
+- [37:40] So essentially in the dictionary you
+- [37:42] have the output and the output will have
+- [37:45] dot plan which is your your actual plan.
+- [37:47] All right. Now we have added the
+- [37:49] architect node. We need to add the age
+- [37:51] as well. So let's add the age between
+- [37:55] planner and architect. And now let's run
+- [37:59] this. Um I will debug it because it's
+- [38:03] easier to see the output in debug. So
+- [38:05] see now if you look at the result um
+- [38:10] result has a task plan which is
+- [38:14] implementation steps. So implementation
+- [38:17] steps are these. See so index.html HTML
+- [38:22] task description. Look at this.
+- [38:25] Create the root. Define this in the
+- [38:27] header. Look at this. Wonderful. It's
+- [38:29] giving you the exact details that in
+- [38:32] index.html you need to do this this this
+- [38:35] as if you are sitting with with with
+- [38:37] your junior programmer and as a senior
+- [38:39] programmer or architect you're
+- [38:41] explaining that when you write this code
+- [38:43] add this element add that element write
+- [38:46] this loop and so on.
+- [38:48] And you're doing it for index.html. Then
+- [38:51] style dot CSS. See style dot CSS.
+- [38:55] So this is the task description for
+- [38:56] style dot CSS. Then you're doing it for
+- [38:59] even read me file. See this is readme
+- [39:02] and readme. You're saying title and
+- [39:04] short description.
+- [39:06] See, so you are kind of expanding and
+- [39:09] creating this task plan. And then in the
+- [39:11] result which is a task plan. Now that
+- [39:14] you have your implementation steps, you
+- [39:18] are ready to add your third node which
+- [39:20] is your coder agent. I made a change
+- [39:22] where I created this main function and
+- [39:24] moved the main calling into the main
+- [39:28] function. Now when you run this code, it
+- [39:29] is printing this task plan which is good
+- [39:32] but one problem is you don't know what
+- [39:35] this agent is doing inside. It's like a
+- [39:37] black box for you. If you want to know
+- [39:39] the internal execution, the internal
+- [39:42] steps at each node right like at each
+- [39:45] node it is u having some state output
+- [39:49] and if you want to know what's going on
+- [39:51] inside then you can use this feature
+- [39:54] called AI agent debugger. Let me just
+- [39:57] open this and here when you run this
+- [39:59] code it will see waiting for events. It
+- [40:02] will capture all those events and it
+- [40:05] will show you the state live. See when
+- [40:08] the program was running it was actually
+- [40:10] showing the live internal state here the
+- [40:13] output for planner or let's say the
+- [40:15] input was create a simple calculator app
+- [40:18] right so that was the state and the
+- [40:20] output was a plan so now I can see the
+- [40:24] detailed plan here see how beautiful
+- [40:26] this is I can see all the steps
+- [40:28] basically all the features I can see the
+- [40:31] files see
+- [40:34] even after the execution is finished I
+- [40:36] am able to see all of that and then for
+- [40:38] architect the output of planner was an
+- [40:41] input. So see you have all the plan
+- [40:44] features everything and the output of
+- [40:48] the architect is the implementation
+- [40:50] steps. So here it is saying infoindex
+- [40:53] html create this it's kind of spoon
+- [40:56] feeding a programmer with the detailed
+- [40:58] instructions. You can also see a graph.
+- [41:02] So this is a lang graph. Okay. And in
+- [41:04] langraph you can see right now we have
+- [41:07] just the planner architect two nodes. We
+- [41:11] are going to add coder node here but
+- [41:14] this agent debugger is super super
+- [41:18] useful. Uh we will see in a bit when we
+- [41:21] add a coding agent we will have a lot of
+- [41:23] outputs and at that time agent debugger
+- [41:25] will be quite helpful in terms of
+- [41:27] looking at internally what's going on.
+- [41:30] We are also going to use these two
+- [41:32] functions set debug and set verbos which
+- [41:35] we have imported from lang chain
+- [41:37] globals. And when you set debug and
+- [41:39] verbos to be true this is what is going
+- [41:42] to happen in the output window also we
+- [41:46] will see some detailed traces. Okay. So
+- [41:50] these details traces can be helpful in
+- [41:52] terms of
+- [41:54] seeing you know what's what's happening
+- [41:56] inside your your token usage. uh it will
+- [41:59] show you a lot of details internal
+- [42:01] details which might be useful folks. Now
+- [42:04] it is the time to add coder agent.
+- [42:08] So here I will add graph dot add node
+- [42:14] coder and I will call coder agent.
+- [42:19] Okay. And let's create a function
+- [42:22] coder
+- [42:26] agent which will take state as an input.
+- [42:28] See every node in the graph takes state
+- [42:33] as an input and it will output state uh
+- [42:36] same state. Okay. Now here if you think
+- [42:38] about it if you look at our previous
+- [42:41] execution
+- [42:42] let me just show you in the previous
+- [42:44] execution
+- [42:46] the output of architect was
+- [42:48] implementation steps. Okay so output was
+- [42:51] task plan so task plan was part of the
+- [42:57] state correct. So here let me just write
+- [43:01] the code here. So state had task plan
+- [43:06] and that had see that had this variable
+- [43:10] implementation steps implementation
+- [43:14] steps
+- [43:17] and what coder agent is doing is it is
+- [43:20] performing all the implementation steps.
+- [43:22] These are like graph steps and based on
+- [43:24] each step it will write code. So based
+- [43:26] on this it will write code in
+- [43:27] index.html. Then based on these steps
+- [43:30] this task description it will write code
+- [43:32] in style dot CSS. Okay. So
+- [43:34] implementation steps is an array as you
+- [43:36] can see right now it's 11 elements and
+- [43:39] you need to run a for loop actually and
+- [43:42] for each step the coder agent will write
+- [43:46] code. So we will first implement the
+- [43:49] first step and we'll worry about for
+- [43:51] loop later on. Okay. So here I will
+- [43:54] define current step index
+- [43:59] and let's say it's zero. Okay.
+- [44:03] And these steps are stored here. So now
+- [44:07] in step
+- [44:09] current step index this will be your
+- [44:12] current task. So let's call it current
+- [44:15] task. Okay. So we are essentially taking
+- [44:18] the first task. That's it. Let's let's
+- [44:20] worry about other tasks later on. and
+- [44:22] that has file path and task description.
+- [44:25] So file path is basically you want to
+- [44:27] store your code in that file. Let's not
+- [44:31] worry about that too. Let's just take a
+- [44:33] task description and write code and
+- [44:35] output in our langraph state. So current
+- [44:39] task description will contain your
+- [44:43] actual task. All right. So I will say
+- [44:45] that my user prompt is this particular
+- [44:48] task. Okay. and the system prompt
+- [44:52] because see coder agent has a generic
+- [44:54] task. So I have already defined the
+- [44:55] prompt for it. So the system prompt for
+- [44:58] coder is you are a coder agent you are
+- [45:01] implementing a specific engine task. You
+- [45:03] are given task descripte
+- [45:05] code for it. So there is nothing like
+- [45:07] this python format string. Okay fix
+- [45:10] format and we are calling it a system
+- [45:13] prompt. I'll tell you why we define
+- [45:15] system and user prompt. Because see here
+- [45:17] we had just one common prompt, right? We
+- [45:19] did not have system and user prompt but
+- [45:21] here that that there is a reason you
+- [45:24] will see. So here I can just say system
+- [45:29] prompt is equal to coder system prompt
+- [45:33] and coder system prompt and user prompt
+- [45:37] we will just combine. Okay. So we will
+- [45:40] just say llm.invoke
+- [45:43] system pro prompt plus user prompt. So
+- [45:47] this way uh and this will be stored in a
+- [45:50] response right. So this way you get see
+- [45:54] what is this plus that right like these
+- [45:56] two what is it? So it is saying that you
+- [45:58] are coder agent implement a task and the
+- [46:01] task is this which is remember index dot
+- [46:04] this one index dot html and this is the
+- [46:09] task description. So imagine this coder
+- [46:12] prompt plus this particular task
+- [46:14] description. This whole task description
+- [46:17] that will be given to LLM. Okay. And
+- [46:20] we're not worrying about structured
+- [46:22] output etc. Let's keep things simple.
+- [46:24] And response.content will contain the
+- [46:27] actual code. So in a state I will just
+- [46:31] return a code and I will call it
+- [46:34] response.content.
+- [46:35] Why response.content? Because we are we
+- [46:37] are not using with structured output
+- [46:39] yet. We'll use it later on. Okay. And we
+- [46:41] are just returning it. And here we will
+- [46:45] add the coder node. And we will also add
+- [46:50] the age right from architect to coder
+- [46:55] age. And let's right click run it and
+- [46:59] let's see our agent debugger also. See
+- [47:01] you you see architect is in progress. So
+- [47:03] at each stage now coder is in progress.
+- [47:05] So coder is working on it. Okay. So here
+- [47:10] if you look at the output see
+- [47:14] in coder output we got this state and
+- [47:17] state is the complete code folks. See we
+- [47:20] got the complete code here and now what
+- [47:24] I will do is I will work on other steps
+- [47:26] and also I will store this in a file
+- [47:29] because we want to generate a file on a
+- [47:31] disk. Right now it's just outputting
+- [47:33] here but that's of no use. I want to
+- [47:36] store this code in a file. In order to
+- [47:38] save the code to a file, we need tools
+- [47:44] and for that I have this tools.py file.
+- [47:48] Now I'm not going to write all this code
+- [47:50] in front of you just to save time for
+- [47:52] this tutorial.
+- [47:54] But see it contains bunch of functions
+- [47:57] which helps you write content to a disk
+- [48:00] and also to read the content from the
+- [48:02] files on the disk. So if you look at
+- [48:04] write file, write file is nothing but
+- [48:07] you have path and content and you are
+- [48:09] just opening a file and just writing a
+- [48:12] content and there are some checks on the
+- [48:15] file directory etc. And what we want to
+- [48:17] do is we want to generate all our code
+- [48:20] in a folder called generated project.
+- [48:23] If uh the file is outside anywhere then
+- [48:28] we don't want to write it because you
+- [48:29] want to put some guardrails and control
+- [48:31] your agent. Therefore we are doing all
+- [48:34] these checks at the beginning where we
+- [48:37] are saying safe path for project means
+- [48:40] if the file is in generated project
+- [48:43] folder then only it is a safe path
+- [48:47] otherwise you are saying attempt to
+- [48:48] write outside project root. Okay. So you
+- [48:50] are raising the exception. We are going
+- [48:52] to give this code. You can look at it.
+- [48:54] It's pretty straightforward. Just Python
+- [48:56] file writing and reading functions.
+- [48:58] Okay. And therefore I don't want to
+- [49:00] write this in front of you otherwise
+- [49:01] this will become a very long tutorial.
+- [49:04] So we have tools and now we have
+- [49:08] imported all the tools in this file.
+- [49:10] Okay. How do you write this uh to your
+- [49:14] disk? So first of all I will create a
+- [49:17] variable called coder tools where I will
+- [49:21] mention all the functions. So in order
+- [49:24] for coder agent to write code it needs
+- [49:27] write file also to update the code it
+- [49:30] needs read file list files all these
+- [49:33] functions. So if you're a programmer
+- [49:34] just imagine if you're a programmer you
+- [49:36] need some way of reading a file writing
+- [49:38] a file seeing what files are present.
+- [49:41] See right now we are coding so we are
+- [49:43] able to see all the files list of files.
+- [49:44] So list of files we are able to read the
+- [49:47] file. So if I go to here say I'm able to
+- [49:50] read the file we should be able to write
+- [49:52] the file. See I'm writing the file. So
+- [49:54] all those tools you need to give it to
+- [49:57] your coder and then we are not going to
+- [50:00] simply call this llm.invoke.
+- [50:02] Instead of that we will use something
+- [50:05] called create react agent from lang
+- [50:09] chain. So this function so lang chain
+- [50:13] pre-build comes up with this functions
+- [50:16] where in this agent you can specify your
+- [50:18] llm and you can also specify your tools.
+- [50:22] So for example if you look at the
+- [50:24] detailed documentation in the create
+- [50:27] react agent you can give llms
+- [50:30] and you can also give your tools. So
+- [50:33] there should be a code here. See create
+- [50:35] react agent your model and your tools.
+- [50:40] So here let's create a react agent.
+- [50:43] Create react agent where you give lm and
+- [50:48] coder
+- [50:51] tools. Okay.
+- [50:54] And let's call this react agent.
+- [50:59] And then you can invoke the react agent.
+- [51:03] And the format for that is something
+- [51:06] like this. So we had system prompt and
+- [51:08] user prompt. We are just going to supply
+- [51:11] uh to that. And we are not uh returning
+- [51:14] code in in a state because we are
+- [51:16] writing right on a disk. So for now
+- [51:19] let's pass the empty state as an output
+- [51:22] and it will be writing the code here. It
+- [51:25] will create a generated code. It will
+- [51:27] create a generated code dictionary like
+- [51:30] this one generated code directory here
+- [51:32] in the current folder and it will write
+- [51:35] all the code to that and I'm going to
+- [51:39] now pass the path also. Right? So in the
+- [51:43] user prompt I will modify and I will
+- [51:45] give task as well as file path. Right?
+- [51:47] This is the file that you want to write
+- [51:49] to and you have to also modify
+- [51:52] your prompt. And in the prompt you will
+- [51:55] say you have access to tools to read and
+- [51:57] write file review all existing file
+- [51:58] whatever implement full file content.
+- [52:01] Okay. So you are telling it that you
+- [52:03] have access to tools which will help you
+- [52:06] read and write file. So make use of
+- [52:07] that. And then here uh the existing
+- [52:10] content is nothing but let's say you
+- [52:12] have current task right. So you have
+- [52:14] current task and whatever file path
+- [52:17] whatever file you have you provide that
+- [52:19] existing content to the coder. So that
+- [52:21] see we are going through implementation
+- [52:22] step. So there are five steps and in the
+- [52:24] second step it has return a file. In a
+- [52:26] third step it wants to modify the file.
+- [52:28] So it needs to read that file right. So
+- [52:30] for that you will give this read file
+- [52:33] access to it and you will say read
+- [52:35] file.run and it will take the file path
+- [52:37] and it will give you the current content
+- [52:40] of that file. Okay, I hope you're
+- [52:42] getting it. I'm going bit faster to just
+- [52:45] save your time. You are you will be
+- [52:48] given access to full code. So just read
+- [52:50] through it. You will understand it. It's
+- [52:51] not a rocket science. So let's now run
+- [52:55] the code. So we are running it and we
+- [52:58] can see it in agent debugger. See right
+- [53:00] now we are working on architect.
+- [53:01] Architect is done. So coder is doing the
+- [53:04] work. Coder is writing the code. See
+- [53:05] your agent is writing the code. Output
+- [53:08] will be blank of course. Let's see if it
+- [53:11] generated a code here.
+- [53:13] Ah look at this folks. Amazing.
+- [53:17] Generated project. And you got folks,
+- [53:21] isn't this beautiful? Your agent is
+- [53:23] writing code now. You got your
+- [53:25] index.html
+- [53:27] file. Amazing. So I'm going to just
+- [53:29] delete it. So we are done with the
+- [53:32] implementing the first step. But
+- [53:35] remember we have multiple steps. So now
+- [53:37] let's work on implementing those
+- [53:40] multiple steps. Now to implement all the
+- [53:42] steps we are going to have this kind of
+- [53:45] a loop in coder agent where the coder
+- [53:50] will maintain a state. Okay, it will be
+- [53:53] called coder state. So there will be a
+- [53:55] coder state which will have current task
+- [53:58] index. Right? So current task index
+- [54:01] initially it is zero. Then when you are
+- [54:03] done writing that file, this will
+- [54:05] increase to 1 2 3 and so on. And it will
+- [54:09] go all the way up till length of the
+- [54:13] steps. Length of the steps means which
+- [54:16] steps? Well, these steps, right? So in a
+- [54:20] coder, whatever input it got was the
+- [54:22] output of architect node. And these are
+- [54:24] the implementation steps. So whatever is
+- [54:26] the length, okay, this is generative AI.
+- [54:29] So every time you run, you will see
+- [54:30] different steps. Previously you were
+- [54:32] saying 11 but right now it's four. So
+- [54:35] length of implementation steps basically
+- [54:37] this this steps length of steps. Okay.
+- [54:39] So you will run this until it reaches
+- [54:43] the length of this step. So there will
+- [54:46] be some kind of conditional logic right
+- [54:48] you will say current state index is less
+- [54:50] than length of steps. And if you achieve
+- [54:53] that you will set the status as done. So
+- [54:57] when you say status done it will end it.
+- [54:59] Otherwise your state will be coder. So
+- [55:02] we will give some name to the state. It
+- [55:05] will be coder which means it will loop.
+- [55:06] Okay. So let me write the code so you
+- [55:09] get a better idea. So here I am going to
+- [55:13] see we will have to write this state. So
+- [55:17] the coder state will have task plan. So
+- [55:20] what is a task plan? Task plan is
+- [55:22] nothing but folks this one whatever it
+- [55:25] got as an input. Okay task plan. You see
+- [55:29] and then current step is what step you
+- [55:32] are in. Okay. So this coder
+- [55:34] see if you're a programmer right and you
+- [55:36] are writing code in three files you will
+- [55:38] have internal state. Okay I'm done
+- [55:40] writing first file I'm done writing
+- [55:42] second file. So that way current index
+- [55:44] will be updated and current file content
+- [55:47] is the content of the file which is
+- [55:49] currently being edited. Okay. So let's
+- [55:54] use that here. Okay. In the state that
+- [55:58] we get we will have coder state coder
+- [56:01] state and see initially in the first run
+- [56:05] it will be actually none right because
+- [56:08] see as a state what what do you receive
+- [56:10] as a state this one and in the previous
+- [56:12] one you just received a task plan
+- [56:15] correct see if you look at the state
+- [56:17] here
+- [56:18] coder agent received this as an input so
+- [56:20] in the state it has only task plan it
+- [56:23] doesn't have coder underscore rate. So
+- [56:26] it will be none. And when it is none,
+- [56:29] you set the very first coder stat will
+- [56:32] be see current step index will be zero,
+- [56:35] right? So let's remove it from here. We
+- [56:37] will set it in our class. And your task
+- [56:40] plan will be the state task plan. So now
+- [56:44] we are storing everything in the object
+- [56:46] of this particular class. We don't need
+- [56:49] to access our state now. Okay. Now by
+- [56:51] the way you can do this also but I will
+- [56:54] just use the class object. I will say
+- [56:57] this
+- [56:58] task plan dot implementation
+- [57:01] steps.
+- [57:03] Okay. And if coder stat current step
+- [57:08] index is greater than
+- [57:11] this see if it is greater than length of
+- [57:14] the steps it means we are done. So in
+- [57:16] that case what we will return in the
+- [57:18] state. See state is a lang graph state
+- [57:21] right you all know that state object
+- [57:24] there is a state object which is being
+- [57:26] passed from here here so here when
+- [57:30] you're done your state object will
+- [57:33] contain what coder state and status done
+- [57:37] right so it will contain it's a
+- [57:39] dictionary which will contain coder
+- [57:43] state is equal to something and status
+- [57:48] is equal to done. Okay. And this status
+- [57:54] done will help it exit the graph. So if
+- [57:57] it is done, we will go to end node.
+- [58:00] Okay. Let's set that. Here we are saying
+- [58:03] we are having a conditional age from
+- [58:05] coder to end. So see if the status is
+- [58:11] done then you move it to end. Okay. So
+- [58:15] we are kind of using this status. Okay.
+- [58:19] And let me just remove all this. So we
+- [58:22] are using this particular status. This
+- [58:26] status here we are using this state
+- [58:28] here. And we are saying conditional age.
+- [58:31] If this status is done then you move
+- [58:35] from coder to end. Otherwise you move to
+- [58:39] coder. Otherwise you move to coder.
+- [58:42] Right? So if you look at the else
+- [58:43] condition. So in the else condition you
+- [58:45] are saying coder which means you
+- [58:47] continue coding you go to the same node
+- [58:49] and continue your coding work. It's like
+- [58:52] you have a programmer it's like hey
+- [58:54] programmer is it done? Yes done okay go
+- [58:57] home. I'm talking about companies which
+- [58:59] will do micromanagement and if it is not
+- [59:02] done it's like you do coding. Okay so
+- [59:05] here that's what we wrote. So now here
+- [59:09] current step index everything you will
+- [59:11] get from coder state. So coder state
+- [59:14] current step index will give you the
+- [59:16] current task. Then existing content is
+- [59:18] same. All of this will remain same and
+- [59:21] we have to increase the step right. So
+- [59:25] coder step dot current step index is
+- [59:28] equal plus one. And you saw it autocomp
+- [59:30] completed it. It kind of it read my
+- [59:31] mind. This is the power of AI assistant
+- [59:34] in PyCharm. And at the end you will
+- [59:36] return whatever is the coder state you
+- [59:38] will return that. Okay. So let's run
+- [59:42] this code now. And folks, when you run
+- [59:44] this code, it is going to now take time
+- [59:47] because it will write many files. Uh and
+- [59:52] one more thing is if you're using grog,
+- [59:55] you might run out of tokens or you might
+- [59:58] uh run out of the limit number of calls
+- [60:00] you can make in a minute because this is
+- [60:02] agentic. Now see, it's just writing the
+- [60:05] code. See this coder and it will uh just
+- [60:08] take time. So if you want to finish the
+- [60:13] project and let's say if you are running
+- [60:14] into all these issues you have a couple
+- [60:16] of options you can use any model for
+- [60:19] which you have a paid plan. So let's say
+- [60:21] open AI or even Gemini you can use all
+- [60:26] those models right like here instead of
+- [60:28] lang gro you can say from lang chain
+- [60:32] chain gemini you know you you will
+- [60:35] import that gemini model or the other
+- [60:39] option is on gro you can opt for a paid
+- [60:43] plan and that paid plan will give you
+- [60:45] more tokens. Okay. So just be mindful
+- [60:47] that this is going to consume lot of
+- [60:49] tokens and you may run out of either the
+- [60:52] token or the sometimes you have enough
+- [60:56] tokens which are given by free plan of
+- [60:58] gro but you run out of the number of
+- [61:01] requests you can make in a minute. Okay.
+- [61:03] So they have various limits and if you
+- [61:05] hit that you have to opt for some kind
+- [61:08] of paid plan. It will not cost you much
+- [61:10] folks. I have a paid plan of gro and it
+- [61:13] hardly cost anything. So if you have to
+- [61:15] spend $1, $2 for learning, it's fine,
+- [61:17] right? Like don't complain. You're
+- [61:19] learning and you're building skills
+- [61:20] which will help you get a job or make a
+- [61:23] progress in your career. I was getting
+- [61:24] some error and I rer reran it and it
+- [61:27] worked. One change I made is in
+- [61:29] agent.invoke I set recursion limit
+- [61:32] because see you are running agent and it
+- [61:35] might just go in a loop and it might go
+- [61:37] in a recursion and that will be very
+- [61:39] bad, right? your LLM cost is going to go
+- [61:42] up and it might just go in the infinite
+- [61:45] loop. You want to prevent it. So you
+- [61:47] just have some kind of recursion limit
+- [61:49] here. When I rerun it, it worked. Okay.
+- [61:52] Uh and you can see ta ta generated
+- [61:57] project has all the files folks. See I
+- [62:00] have my all the files and when I click
+- [62:03] on it I get the calculator. Ta.
+- [62:08] Look at this beautiful calculator folks.
+- [62:10] You just wrote agentic program which can
+- [62:14] create software applications just like
+- [62:16] lovable. And see 9 into 4 is equal to
+- [62:20] 36. C 8 + 75. See it's a fully
+- [62:25] functional calculator.
+- [62:28] 21.2
+- [62:30] - 8. See, isn't this amazing?
+- [62:36] Okay, so your code is kind of ready. Now
+- [62:40] I will just make some couple of changes.
+- [62:42] So I will just let's just delete this
+- [62:44] directory and let's call everything from
+- [62:48] the main.py file. So here we have
+- [62:51] main.py file. And once again I'm not
+- [62:54] going to write all the code in front of
+- [62:56] you but essentially you are taking the
+- [63:01] user query from the argument arc parse
+- [63:04] you can also build streamllet UI pretty
+- [63:06] straightforward and then you have
+- [63:09] imported agent which is your agent.graph
+- [63:11] graph right pretty straightforward stuff
+- [63:12] and you're just invoking that with the
+- [63:14] same with that user query okay so let's
+- [63:18] uh run this code and by the way in the
+- [63:20] readme file I have given a bunch of uh
+- [63:26] prompts that you can use so let me just
+- [63:29] show you so in the readme file
+- [63:33] so let me use this prompt now we created
+- [63:35] calculator now let's create
+- [63:38] a todo app So right click
+- [63:42] run here
+- [63:44] and
+- [63:46] create a todo app. You can say okay use
+- [63:49] HTML you can specify your text tag and
+- [63:51] so on. And once again look at our agent
+- [63:53] debugger how beautiful this is. It is
+- [63:56] showing you the coder. See you have
+- [63:58] coder and then another coder is being
+- [64:00] called because you know you have
+- [64:02] multiple steps. And if you look at the
+- [64:04] graph
+- [64:06] see graph is having the complete coder
+- [64:08] node now. And let's look at the event.
+- [64:10] So in the event see it's going to take
+- [64:13] time. Sometimes it takes 10 minutes, 15
+- [64:15] minutes and so on. So we'll just wait.
+- [64:18] Okay, it is done. See you can see
+- [64:21] multiple coders state. You see coder
+- [64:23] coder coder and
+- [64:26] here here is the graph that you have.
+- [64:29] And in this coder um outputs will be
+- [64:33] different. See here coder status is
+- [64:35] done. But here if you look at coder
+- [64:38] state it is task plan and so on. See it
+- [64:41] has only task plan and you see coder
+- [64:45] state doesn't have I think output. Okay.
+- [64:49] So output will have status done here.
+- [64:51] The output
+- [64:53] has only coder state. So you can play
+- [64:56] with it in the agent debugger. Once
+- [64:57] again it's a very useful feature. And
+- [64:59] let's look at our code. So now the code
+- [65:03] is generated outside. So I don't want to
+- [65:05] create anything in the agent directory.
+- [65:06] So you see generated project and this is
+- [65:08] the code. So let me open that code here.
+- [65:11] So if you doubleclick on this you will
+- [65:14] open this code ah simple to-do app. So
+- [65:19] you can say grocery pickup from
+- [65:24] soprite right and then loan cleaning
+- [65:30] whatever right appointment for
+- [65:33] electrician
+- [65:35] and see you can mark them as done. This
+- [65:37] is done. You can also delete it right
+- [65:40] and when you say active it will show you
+- [65:43] all the active. When you say completed
+- [65:44] it shows you all the completed. See it
+- [65:47] created this beautiful app. when you
+- [65:48] said calculator, it created a
+- [65:50] calculator. Now you have all these
+- [65:52] powers of agenti using which you can
+- [65:54] create all kind of applications. Now
+- [65:56] remember that this is our first cut
+- [65:58] version. So it might have issues. You
+- [65:59] might have to do some prompt tuning. You
+- [66:01] might have to modify your code. But you
+- [66:04] get an idea. It's a learning project.
+- [66:06] You build a product like lovable folks.
+- [66:08] So congratulation. This is a project you
+- [66:11] can include in your resume and uh it's
+- [66:16] going to be really beneficial for you
+- [66:19] because it will be a very powerful
+- [66:21] project if you show this project during
+- [66:22] the interview. Just imagine I mean it's
+- [66:26] a very real project and we have given
+- [66:30] some pre-generated project. So just
+- [66:32] check this. I think this one is
+- [66:33] calculator this is a to-do app. So just
+- [66:36] play with it. All the code is available
+- [66:39] on GitHub folks. So just check this
+- [66:42] code. If you like this video, give it a
+- [66:44] thumbs up. Share uh everything all this
+- [66:48] video and this code with your friends.
+- [66:50] And by the way, when you generate a
+- [66:51] code, it is also creating a readme file.
+- [66:54] Isn't that amazing? So if I do
+- [66:56] calculator, see this readme file is this
+- [67:00] is written by agenti. See all the I did
+- [67:02] not create it. Don't you think this is
+- [67:04] beautiful? See it creates a proper
+- [67:07] readme file. So check the readmi file
+- [67:10] for todo app. Okay todo app I don't have
+- [67:12] it but here I have it. So let me open it
+- [67:16] in the in the project itself in the
+- [67:19] generated project. See readme file. So
+- [67:23] this is the this is the preview on the
+- [67:25] right hand side. You see the preview
+- [67:27] folks. This is so good. All right. Once
+- [67:30] again if you like this video give it a
+- [67:32] thumbs up. Thank you for watching and I
+- [67:34] will see you in the next video. Bye-bye.

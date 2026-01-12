@@ -1,0 +1,1347 @@
+---
+title: "Transcript: Q-qZyaN5sAU"
+video_id: "Q-qZyaN5sAU"
+video_url: "https://www.youtube.com/watch?v=Q-qZyaN5sAU"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:52:43"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: Q-qZyaN5sAU
+
+- URL: https://www.youtube.com/watch?v=Q-qZyaN5sAU
+- Retrieved at: 2025-12-30T10:46:55+09:00
+
+## Text
+
+- [00:00] [Music]
+- [00:04] Hey Martin, welcome to the show
+- [00:07] I mean I should say welcome back really.
+- [00:09] Obviously you've been a guest uh several
+- [00:10] times before for our annual uh data and
+- [00:13] AI trends uh episodes but here's your
+- [00:16] your first time hosting. So uh how does
+- [00:18] it feel to be in the hot seat? Very
+- [00:20] privileged I must say. Uh I feel a
+- [00:22] little bit like you. It's a way more
+- [00:24] comfortable uh position than and needing
+- [00:27] to want to be given predictions. Uh it's
+- [00:30] always like I'm scared for a whole year
+- [00:31] to see like how they play out. Uh
+- [00:33] absolutely. Yeah. So uh yeah, maybe we
+- [00:35] got a chance to review some of the
+- [00:36] things you were talking about in January
+- [00:37] as well today. Yes. Well, maybe I'm not
+- [00:41] sure how well I'm doing. Yeah. Uh all
+- [00:43] right, great. So uh for our first story
+- [00:45] today, uh we're going to be talking
+- [00:46] about a report from McKenzie's Quantum
+- [00:49] Blackout. So that's the AI arm of
+- [00:52] McKenzie. So they got a report called
+- [00:54] Seizing the Agentic AI advantage. very
+- [00:57] cool title for how do you actually make
+- [00:59] use of uh a AI agents or agentic AI in
+- [01:03] business and they make a case that
+- [01:06] there's been a lot of investment in
+- [01:08] genative AI but not many returns so far
+- [01:12] and uh the big uh idea is that most of
+- [01:16] the UK use cases at the moment it's been
+- [01:18] very much around uh what they call
+- [01:21] horizontal use cases so these are things
+- [01:23] that are suitable for a lot of uh the
+- [01:25] business or wide swave of of your uh
+- [01:28] department. So these are things like
+- [01:30] chat bots, co-pilots and they've scaled
+- [01:32] very well but they've only given like a
+- [01:35] small amount of value to each
+- [01:36] department. And what McKenzie suggests
+- [01:38] is that what you'd really want are
+- [01:40] vertical use cases. This is something
+- [01:41] that's u going to be large amount of
+- [01:43] benefit for just one department or just
+- [01:45] one team or maybe just a few individuals
+- [01:47] in the organization. So I think they're
+- [01:49] talking things about um like uh things
+- [01:52] specifically for HR. So you got uh like
+- [01:54] HR tooling for like better hiring or you
+- [01:56] got things for like legal for contract
+- [01:57] review all this kind of stuff but those
+- [01:59] have not been widely adopted and they're
+- [02:01] saying lots of organizational challenges
+- [02:02] like a lack of skills the technolog is
+- [02:04] maybe not quite ready yet and just uh
+- [02:07] the challenge of process re-engineering
+- [02:09] very time consuming and then they
+- [02:11] suggest maybe AI agents are going to
+- [02:13] solve all these problems because they
+- [02:15] can automate stuff and it's going to be
+- [02:17] brilliant. Now, I'm not sure whether
+- [02:19] this is just magical thinking. It's like
+- [02:20] it's the cool new toy that McKenzie want
+- [02:22] to talk about uh or whether this is
+- [02:24] going to be a real thing. So, uh Martin,
+- [02:26] do you have an opinion on this? Are AI
+- [02:27] agents going to save us all and make
+- [02:30] loads of money for businesses? Well,
+- [02:32] first of all, like I I think some
+- [02:33] businesses are making lots of money out
+- [02:35] of this uh device, the AI tools. Uh so,
+- [02:38] given all the use cases you mentioned, I
+- [02:40] think there's like an AI startup scale
+- [02:42] up a little bit for everything. And I
+- [02:44] recently read some data about like it's
+- [02:46] one of the uh fastest growing uh uh area
+- [02:50] of startups uh in terms like revenue
+- [02:53] that they uh bring in. Uh it's also a
+- [02:55] little bit of a different word I think
+- [02:56] world I think we came out of a world
+- [02:58] where lots of money was spent on
+- [03:00] building product and not that much focus
+- [03:02] on the business side. It seems that uh
+- [03:04] people have learned their lessons and
+- [03:06] actually quite a lot of these AI
+- [03:07] startups are making uh a decent amount
+- [03:10] of money. So the AI cash is going
+- [03:12] somewhere like somewhere is sneaky is
+- [03:15] money but I think what you really mean
+- [03:16] is like okay the ones who are buying all
+- [03:18] these toys are they uh uh are they see
+- [03:23] the gains um so I think it's it's a
+- [03:26] little bit underwhelming at the moment
+- [03:28] uh but I I think it's part of just of
+- [03:30] the hype curve I think that the benefit
+- [03:33] will still come um now recently had with
+- [03:37] some colleagues some discussions around
+- [03:38] this and then they're like different
+- [03:40] takes as well. Uh so so one of the
+- [03:42] things that one of my colleagues raised
+- [03:44] was uh uh the the the solo paradox or
+- [03:47] the productivity paradox like I needed
+- [03:50] to look it up as well but basically what
+- [03:52] it pointed out was that well there's
+- [03:55] actually slow there was like a slowdown
+- [03:57] in productivity growth in the US between
+- [03:59] the 70s and the 80s despite like okay
+- [04:02] like big promises because uh information
+- [04:05] technology computers were coming out and
+- [04:07] that was going to like boost
+- [04:09] productivity like it's never seen
+- [04:10] before. Um, so despite lots of companies
+- [04:14] spending a lot of money on computers and
+- [04:17] technology and expecting uh much more
+- [04:20] and better uh results and people getting
+- [04:23] faster at doing their jobs. There's like
+- [04:25] this argument that like okay actually
+- [04:27] it's not what we see if you look at
+- [04:29] productivity growth. Um it was a little
+- [04:31] bit of a long intro to like okay well I
+- [04:34] I think the the the productivity growth
+- [04:38] will come from AI and that it will start
+- [04:41] solving actual problems rather than like
+- [04:43] toy problems. Uh but at the same time
+- [04:46] like having that productivity paradox in
+- [04:49] mind like okay am I 100% confident like
+- [04:52] no not like that that's also like not
+- [04:56] the not the case. Um, but I I that it
+- [05:00] goes slower than people anticipate I
+- [05:03] think is a little bit normal I would
+- [05:06] say. Yeah. So it does seem fairly
+- [05:08] intuitive that you have to invest in
+- [05:10] stuff first and then you reap all the
+- [05:12] rewards, you get the money, the the
+- [05:14] increased productivity growth, the extra
+- [05:16] revenue generation, whatever, like a
+- [05:18] later on. I guess it's just a question
+- [05:20] of how patient you want to be about like
+- [05:22] waiting for that extra cash to come in.
+- [05:24] Yes. and like and and also like not
+- [05:26] every investment like turns out the way
+- [05:29] that you hope it uh to be in. So um I
+- [05:32] think there's uh also still a lot of
+- [05:35] like uncertainty around like okay what
+- [05:39] are the investments that make sense?
+- [05:40] What are the investments that don't make
+- [05:41] sense? Like AI seems to have product
+- [05:44] market fit in the marketing
+- [05:47] uh field. It seems to have product
+- [05:49] market fit in the uh in the software
+- [05:52] engineering field. If you think about
+- [05:53] cursor and like uh whisp uh sorry cursor
+- [05:57] um and uh how it's making like engineers
+- [06:01] more productive I'm more active on the
+- [06:03] marketing sales side and we see like
+- [06:05] okay how much more I can do um like so
+- [06:08] there's like true product market fit and
+- [06:10] maybe a little bit on the legal side um
+- [06:13] but then okay on the finance side you
+- [06:15] see at least I haven't seen that much
+- [06:17] yet so I think we're also trying to
+- [06:18] figure out like okay where where where
+- [06:21] does the Where does the most value sit?
+- [06:23] Where does the lowest angle of value
+- [06:25] sit? Um and in that process, well,
+- [06:29] investments get lost while you try to
+- [06:32] figure that out. Uh absolutely. Yeah. I
+- [06:34] mean, I think that's fairly natural.
+- [06:35] Like, uh not every investment is going
+- [06:36] to be a winner, but you need to figure
+- [06:38] out like what's what the sort of the
+- [06:39] good bets are going to be. Um now,
+- [06:41] there's one more thing I want to talk
+- [06:42] about in this um report. So, uh it's
+- [06:44] perhaps the most controversial bit. Um
+- [06:46] so uh the report is suggesting that the
+- [06:49] best use cases for agents are going to
+- [06:52] be just um automating business
+- [06:55] processes. This is a great way of saving
+- [06:57] money is you take your existing business
+- [06:59] processes and then you use a bit of
+- [07:00] software, a bit of AI to just automate
+- [07:04] away the bits so humans don't have to do
+- [07:05] them. Now uh a lot of this is really the
+- [07:08] AI is not that new or not that involved
+- [07:11] in it. It's just uh taking the sort of
+- [07:13] standard approach. It's been around for
+- [07:15] sort of at least the last decade of just
+- [07:18] using software to automate uh business
+- [07:20] processes and then maybe there's an LM
+- [07:22] an LLM in there somewhere but uh so
+- [07:26] there was some push back from this uh so
+- [07:28] uh it was uh Ethan Mllik so it was a
+- [07:30] renowned uh AI uh professor uh he was uh
+- [07:34] saying that well this is really missing
+- [07:36] a trick because a lot of the latest
+- [07:37] models that come out this year they're
+- [07:39] really good at reasoning you can do
+- [07:40] things that are a lot more complex than
+- [07:42] just you know summarizing bits of text
+- [07:44] or whatever. So, there's a kind of
+- [07:46] there's a disagreement about what the
+- [07:47] best use of AI agents are. Do you want
+- [07:50] really simple agents or do you want
+- [07:52] something fancier that's uh more akin to
+- [07:54] like a junior employee? I don't know
+- [07:57] whether you have an opinion on this. So,
+- [07:58] in the in the in the short term, I agree
+- [08:00] with the McKenzie report. In the long
+- [08:03] term, I agree with the Ethan Molik
+- [08:07] rebuttal, but for a different reason. Uh
+- [08:10] so um so I think where McKenzie is right
+- [08:14] in its report is in the fact that
+- [08:18] if you do this type of change in a
+- [08:20] company and I can only imagine like the
+- [08:22] larger the company the more difficult it
+- [08:24] is like there's a certain like inertia
+- [08:27] and because of that like okay you can
+- [08:29] come in and you can say like hey we're
+- [08:31] going to tackle like the biggest most
+- [08:33] complex process or product that we have
+- [08:36] and we're going to make it full AI and
+- [08:38] probably along the way like you lose
+- [08:41] everyone and uh your whole uh investment
+- [08:45] you're trying to do like falls flat. Um
+- [08:48] so from that perspective like starting
+- [08:50] simple which is like my distillation of
+- [08:52] like okay what they're saying it got it
+- [08:55] makes makes sense like in a pro in a in
+- [08:58] a world where you move more and more
+- [09:00] towards um um embedding AI in your
+- [09:04] organization. Um so so that's what I
+- [09:08] mean with a different reason. So, so my
+- [09:09] argument is okay why I agree with
+- [09:11] McKenzie paper is more from like okay
+- [09:12] organizational change perspective rather
+- [09:14] than the arguments that that they make
+- [09:17] because I think in the arguments
+- [09:19] arguments that they make and the way
+- [09:21] that Eimolik tries to um debunk them
+- [09:25] like I'm actually on the side of of of
+- [09:27] EMolik where okay he points out like the
+- [09:30] reference uh models uh that uh that are
+- [09:34] in the McKenzie report they're outdated
+- [09:36] um
+- [09:38] they make certain arguments around
+- [09:40] costs, but like what we've been seeing
+- [09:42] the last three years is that like cost
+- [09:45] has been declining rapidly. They're like
+- [09:47] hyperfocused. Mackenzie is hyperfocused
+- [09:49] on efficiency, but like they're then
+- [09:51] focused on efficiency from like
+- [09:52] yesterday's technology. And like when I
+- [09:54] wrapped that, I was thinking about like
+- [09:56] there's this um there's this famous
+- [09:58] quote by like Peter Ducker like he's a
+- [10:00] his management consultancy. I think
+- [10:03] maybe even like one of the the founding
+- [10:04] members of management consultancy like
+- [10:06] if there's a founding member team but
+- [10:08] it's like okay there's nothing so
+- [10:10] useless as doing like things efficiently
+- [10:12] that should not be done at all and like
+- [10:14] that that part like reminded me a little
+- [10:17] bit about it like why are we caring
+- [10:20] about efficiency of like the models that
+- [10:22] are already like obsolete it's like it's
+- [10:25] irrelevant so I think shortterm the way
+- [10:27] that McKenzie is positioning it and
+- [10:30] approaching it I think it makes sense
+- [10:32] but not necessarily like for the reasons
+- [10:34] that they say it makes sense and and
+- [10:38] there are more demol like does that
+- [10:40] resonate with you or do you feel like no
+- [10:42] totally off mark? It does. No. Um so I
+- [10:45] like the Peter Dooker quote and actually
+- [10:47] I was uh speaking to one of our
+- [10:49] customers the other week and so this is
+- [10:51] uh someone at a bank and they were
+- [10:52] saying they were really excited. like
+- [10:54] we've just been building all these
+- [10:56] agents to automate our fax workflows and
+- [11:00] I'm like I'm kind of conflicted about
+- [11:01] this cuz he's like why are we still
+- [11:04] using faxes like it's not been a
+- [11:06] sensible technology at any point in the
+- [11:08] century and so it's obviously completely
+- [11:11] crazy like it's just a technology fix
+- [11:13] over a really stupid process but
+- [11:16] obviously this is a smart person if they
+- [11:18] had any power to not use faxes they
+- [11:21] would have done that decades ago. Um, so
+- [11:25] maybe going back to my productivity
+- [11:27] paradox, like that's a little bit of the
+- [11:30] a little bit the point like they just
+- [11:31] they skipped out on the internet and it
+- [11:34] still worked out fine for them because I
+- [11:36] assume they're still a big bank. Like a
+- [11:37] bank is hard to run. So like they have
+- [11:40] something figured out. Uh, so yeah, it
+- [11:44] goes back to that that productivity
+- [11:45] paradox and like okay like what what is
+- [11:48] what increases will we actually see if
+- [11:51] any?
+- [11:52] Uh yeah, absolutely. So uh yeah, like
+- [11:56] after this they're going to call me an
+- [11:57] AI doomer, which I'm not. Uh
+- [12:01] for the sake of the argument, take the
+- [12:03] opposite side here. Uh yeah. Uh what is
+- [12:06] all this stupid AI? Why why are we
+- [12:08] bothering by getting any productivity
+- [12:10] out of it? Um no, so I I I think that
+- [12:12] this argument it comes back to
+- [12:13] strategists versus operationalists. So
+- [12:15] if you are doing um something where it's
+- [12:18] research, you're not quite sure what the
+- [12:20] answer's going to be, that's where you
+- [12:21] need like uh strong reasoning, you need
+- [12:23] like very flexible processes, and that's
+- [12:26] where these higher reasoning models come
+- [12:27] in and where you really want the the
+- [12:29] fancy agents to help you out. If you are
+- [12:31] focused on operations, you want really
+- [12:34] uh like more rigid processes that are
+- [12:36] streamlined and do the same thing over
+- [12:39] and over again at scale. And that's
+- [12:41] where you care about just having simple
+- [12:42] automated processes that are repeatable.
+- [12:45] So yeah, I think it just depends exactly
+- [12:47] like what you're doing. All right, so uh
+- [12:49] let's move on to the next story. Uh so
+- [12:51] uh before Martin, you mentioned uh about
+- [12:53] like the the people making money out of
+- [12:54] this seem to be like the the AI startups
+- [12:56] and scaleups. Uh and there's been some
+- [12:58] uh big purchase going on in this area.
+- [13:00] Do you want to tell us about them? Yeah,
+- [13:01] sure. So uh one of the one of the things
+- [13:04] that obviously was like big news in the
+- [13:06] in the last week was uh meta/ Facebook
+- [13:10] uh for those who are still with the the
+- [13:12] old name or like Mark Zuckerberg uh
+- [13:14] buying like scale AI well sorry he
+- [13:17] didn't buy scale AI uh he took his stake
+- [13:20] of I believe 49% in uh scale AI and he
+- [13:25] uh I guess he paid 15 uh billion uh
+- [13:28] dollars for that which is uh by any
+- [13:31] measure a lot of money. Um uh like okay
+- [13:34] for the listeners who who don't really
+- [13:35] know like what Scali does uh so um
+- [13:38] basically they they solve uh uh the data
+- [13:42] labeling problem. So um in short if you
+- [13:45] want to have like really powerful AI u
+- [13:47] you're going to need like enormous
+- [13:49] amounts of like high quality labeled
+- [13:51] data and uh creating high quality
+- [13:54] labeled data is something that's
+- [13:56] incredibly slow. It's very expensive.
+- [13:59] And uh what Scalai did is basically
+- [14:02] build a factory that produces this type
+- [14:04] of like high quality labelled data. So
+- [14:06] if you're like Tesla, you send like
+- [14:08] thousands of dollars of video feed to
+- [14:09] Scale AI. They go over it frame by frame
+- [14:11] and they say like, "Hey, this is a
+- [14:13] pedestrian and this is a tree and this
+- [14:15] is like uh a traffic light and so on and
+- [14:18] so on." Like if you're like open AI uh
+- [14:21] you have uh you are in need of like real
+- [14:24] people writing high quality questions
+- [14:26] and answers. uh you have a need for
+- [14:29] people that need to rate AI's responses
+- [14:32] uh responses telling like okay is this a
+- [14:34] good answer is this a bad answer and
+- [14:36] like all of that is basically done by uh
+- [14:40] scale AI uh which makes them enormously
+- [14:44] valuable because again like you need
+- [14:46] this type of like high quality labeled
+- [14:48] uh data
+- [14:50] um and then the question is like okay
+- [14:52] why why is
+- [14:56] metas has Mark Zuckerberg doing this. Uh
+- [15:00] lots of theories out there. Uh one is
+- [15:02] well okay he feels that the llama models
+- [15:05] are behind and if you look at the
+- [15:06] benchmarks like that seems to be the
+- [15:08] case and he feels the need to like uh do
+- [15:11] a catchup. Um and this type of like move
+- [15:15] allows him to do that because uh on the
+- [15:17] one hand well he kind of becomes
+- [15:20] exclusive owner of this high quality
+- [15:22] labeled data. um uh both Google and I
+- [15:25] believe OpenAI who were former customers
+- [15:27] of Scale AI already said like okay like
+- [15:30] we're canceling our contract. Um so okay
+- [15:33] he now owns this probably very valuable
+- [15:36] data set uh and process himself probably
+- [15:40] has now a little bit of insight in in
+- [15:42] how Google and OpenAI were training
+- [15:46] their models. Um uh so like that's
+- [15:49] beneficial. Um secondly like okay um
+- [15:53] there's uh the CEO of Scale AI is
+- [15:56] apparently like a very talented guy u
+- [15:58] the what he's built seems to be a good
+- [16:02] validation that he's a he's a pretty
+- [16:04] pretty pretty smart cookie um and he's
+- [16:07] going to lead up um Meta's new super
+- [16:12] intelligence division so the super
+- [16:13] intelligent division of Meta is
+- [16:16] basically okay Mark saying like okay we
+- [16:19] are falling behind mind. We need a new
+- [16:21] initiative. The next frontier is super
+- [16:23] intelligence. So, I'm going to put this
+- [16:25] super talented guy at the top of it. I'm
+- [16:29] paying $15 billion for being able to do
+- [16:31] that. And so, now I have that. So, okay,
+- [16:34] that's another theory like he needed
+- [16:36] talent and it's some very expensive
+- [16:38] acquire. Uh the uh first theory was
+- [16:41] like, okay, yes, he needs high quality
+- [16:43] data. He has that now. Um, another
+- [16:46] theory is like, well, maybe it's a
+- [16:48] competitive mood move like somebody
+- [16:51] described it as like, okay, he takes a
+- [16:52] chess piece of the board, but now that
+- [16:54] OpenAI and Google don't no longer have
+- [16:56] access to it, like, okay, is that going
+- [16:58] to hurt their own uh, model training?
+- [17:01] Um, and then the final one that uh, and
+- [17:05] I'll give it to to you, Richie, for some
+- [17:06] comments. The final one I found
+- [17:08] interesting was well uh somebody just
+- [17:11] that well it's actually like in Facebook
+- [17:13] terms like it's not a lot of money uh
+- [17:15] it's like like 1% of their like market
+- [17:20] value or something like that. So like
+- [17:21] it's a it's a blip uh for them. So uh
+- [17:25] from a risk perspective it's a it's a
+- [17:27] fairly low risk bet to get back into the
+- [17:30] game. Um, so yeah, like lots of
+- [17:33] interesting things happening there, like
+- [17:35] lots of gossip, intrigues, like, okay,
+- [17:37] who's going to win this? Will this put
+- [17:39] them uh back into the game? Um, but like
+- [17:42] definitely like a news worthy story um
+- [17:46] in uh in in AI world.
+- [17:50] Uh yeah. Uh so it's a good bit of sort
+- [17:52] of corporate gossip actually. um like
+- [17:54] the idea of just investing $15 billion
+- [17:56] in it being not very much very uh very
+- [17:59] foreign to me but uh yeah it's uh it's
+- [18:02] amazing the amount of money involved in
+- [18:04] the uh the AI game at the moment
+- [18:05] actually so I recently watched the movie
+- [18:07] mountain head it's kind of like the
+- [18:09] succession TV show but set in uh Silicon
+- [18:12] Valley. So, I learned a phrase about so
+- [18:14] to invest a billion dollars. They used
+- [18:16] the phrase to bust a bean-nut, which is
+- [18:18] it sounds kind of rude, but the idea of
+- [18:20] Yeah. Mark Zuckerberg busting 15 peanuts
+- [18:23] on on scale. It's very interesting. Uh,
+- [18:26] all right. Anyway, so uh yeah, you
+- [18:27] mentioned scale. We actually had uh
+- [18:30] guests from the scale's competitor SAM
+- [18:33] AI. So, it was Wendy Gonzalez, the CEO,
+- [18:35] and Duncan Curtis, one of the senior
+- [18:38] vice presidents talking about this. It's
+- [18:40] absolutely fascinating the idea that uh
+- [18:42] yeah, data is still perhaps the most
+- [18:45] important thing in order to get great
+- [18:47] quality uh AI. So uh we talk about AI
+- [18:50] being the big thing. Mustn't forget
+- [18:52] about the data because that's what's
+- [18:53] powering everything. And just uh like in
+- [18:56] terms of trying to get better quality
+- [18:57] AI, I mean you basically got a choice of
+- [18:59] four things. you've got um better data
+- [19:01] that we mentioned or you can invent new
+- [19:03] models but that's slow and it takes time
+- [19:05] because you got to do research and then
+- [19:07] you can either add more uh compute power
+- [19:09] during training but like the latest
+- [19:12] foundation models they're costing like
+- [19:13] upwards of $10 million or like a hundred
+- [19:16] million to create. So we're kind of
+- [19:19] reaching the limits of like how much you
+- [19:20] can spend to create new models and then
+- [19:23] you can also add like infern compute but
+- [19:25] that makes your models more expensive to
+- [19:26] run and uh it makes them slower as well.
+- [19:30] So then yeah that's a terrible user
+- [19:32] experience. So like better data really
+- [19:34] is like the the big solution for getting
+- [19:36] better AI at the moment. Yeah, better
+- [19:39] data and and um just a hypothesis, but
+- [19:42] like probably the the the talent that
+- [19:45] you have within the company is uh like
+- [19:49] plays a big role as well and it always
+- [19:51] plays a big role like like high quality
+- [19:53] people uh always make a difference.
+- [19:55] There was like this other um interview
+- [19:58] with S Alman uh where he basically said
+- [20:01] like okay Facebook has been trying to
+- [20:03] coach um some of our most talented
+- [20:05] people and they're offering them a $100
+- [20:07] million Simon bonus. Um which is when
+- [20:10] you hear the story is like well that
+- [20:12] sounds pretty crazy but then well one of
+- [20:15] the narratives in this whole acquisition
+- [20:16] story we just went over is well he
+- [20:20] wanted to have a really good head of his
+- [20:23] super intelligence division. He
+- [20:25] identified Alexander Wang, the founder
+- [20:27] of Scale AI as being that person and he
+- [20:30] wrote a check of 15 billion to own not
+- [20:33] even half of the company. Um, so like
+- [20:37] it's the data but then apparently like
+- [20:39] okay the the the the people and probably
+- [20:41] the the novelty of the ideas that they
+- [20:43] come up with like plays seems to be
+- [20:45] playing a big role as well. Uh, and
+- [20:48] maybe Mark is identifying one of the
+- [20:50] issues like I'd say Mark I'm definitely
+- [20:52] not on the first name basis with him. Uh
+- [20:54] uh it's uh uh maybe another thing is
+- [21:00] maybe one of the key things he he sees
+- [21:02] is why Llama is behind is because he
+- [21:04] does not have a talented enough team at
+- [21:07] the moment and probably already has a
+- [21:09] very talented team. Maybe the difference
+- [21:12] is is is uh is hard to grasp for us
+- [21:15] worlds uh on this topic. Yeah. Uh maybe
+- [21:19] I mean of course cuz like uh back in the
+- [21:21] day Mark Zuckerberg he became like the
+- [21:23] youngest ever like self-made
+- [21:24] billionaire. I think he was like 23 and
+- [21:27] then it was Alexander Wang from Scalair
+- [21:29] who broke that record. He became a
+- [21:30] billionaire when he was 21. So maybe
+- [21:32] that's
+- [21:34] uh that's part of the reason he he he
+- [21:36] wanted to hire him. Uh a little bit of
+- [21:38] envy. Yeah. Yeah. Something like that.
+- [21:40] Uh all right. So I think you had another
+- [21:43] story around uh hiring or or around
+- [21:45] buying things. Yeah. So, so another
+- [21:47] rumor that's going around is that uh
+- [21:49] Apple is is is
+- [21:52] considering or well it's a rumor that
+- [21:55] they would like to purchase perplexity
+- [21:57] and like the number that's been
+- [21:58] circulating is $20 billion. Um I'm not
+- [22:01] sure like okay to to what degree that's
+- [22:03] true. Um uh but um I think it speaks to
+- [22:10] the story of the fact that well Apple
+- [22:13] seems to be in a bit of a tough spot. uh
+- [22:16] with its AI plans. Uh so um I haven't
+- [22:20] met a lot of people that are happy with
+- [22:22] Apple intelligence um or the way that uh
+- [22:26] Siri is using uh AI. I think they made
+- [22:29] quite a lot of promises. Uh none of them
+- [22:32] fulfilled. Uh I think it's for the first
+- [22:35] uh first time in 10 years like so I'm on
+- [22:38] on a Google device. I use Android. So
+- [22:40] for 10 years I needed to listen about
+- [22:42] like okay why having an iPhone is so
+- [22:44] much better and uh why am I not
+- [22:47] switching to an iPhone and so on and so
+- [22:49] on and like now I actually have the
+- [22:51] better functionality. They're all locked
+- [22:54] into their little Apple ecosystem. Uh so
+- [22:57] maybe I eventually will have the last
+- [22:59] laugh. Um, but so yeah, but the point
+- [23:02] being like, okay, so Apple seems to be
+- [23:05] in a little bit of a at the moment in
+- [23:08] the losing spot on everything that has
+- [23:10] to do with AI and uh I think rumors like
+- [23:14] this are
+- [23:16] I like I don't know where where the
+- [23:19] origin is is like okay the question is
+- [23:20] like okay are they trying to fix it or
+- [23:22] not and trying do they try to fix it
+- [23:24] internally but then internally they have
+- [23:26] like lots of people switching job
+- [23:28] positions switching roles switching
+- [23:30] functions and so on. So, doesn't really
+- [23:32] like uh look like a like a stable
+- [23:35] environment. Like that said, like if you
+- [23:37] look back at OpenAI in the last 18
+- [23:39] months, you could probably make the same
+- [23:40] argument there and they kept shipping uh
+- [23:42] models. Um but like from the outside
+- [23:46] like it looks all a little bit weird and
+- [23:47] like are they going to need to buy it in
+- [23:49] and then uh some like perplexity
+- [23:53] um came around. Um
+- [23:57] now, yeah, I think I use Praxity once in
+- [24:01] a while. Um but uh it's obviously also
+- [24:04] not the biggest model out there. And
+- [24:06] Apple has a lot of cash and they have a
+- [24:10] lot of stock value. So you could even
+- [24:12] see them making like a even bigger
+- [24:14] acquisition if they really want to. But
+- [24:17] it seems like consensus is like, hey,
+- [24:18] they're going to need to do something uh
+- [24:21] because everyone isn't happy with that
+- [24:22] part of their product. So are they going
+- [24:24] to buy it in or are they going to
+- [24:25] develop it uh themsel? Well maybe a
+- [24:28] final thing on this is um
+- [24:31] there's like another angle to look at it
+- [24:34] and is that Google is paying them really
+- [24:36] a lot of money to
+- [24:38] have Google be the default search engine
+- [24:41] uh on their iPhone. Um I believe it's
+- [24:43] also like in these magnitude of 20
+- [24:45] billion uh dollars a year. Um,
+- [24:49] if you start to integrate AI more and
+- [24:52] more, uh, and you make that a central
+- [24:54] piece, well, you're losing $20 million
+- [24:57] in. It's probably basically pure profit.
+- [25:00] Yeah, lots of lots of hard and difficult
+- [25:02] problems. Uh, I think they're definitely
+- [25:04] like in the corner um where uh yeah,
+- [25:08] they're getting um yeah, hit from all
+- [25:11] different sides. Uh, so it's going to be
+- [25:13] interesting to see like how they get out
+- [25:15] of this and and if it will be with a
+- [25:17] with a big acquisition. There's actually
+- [25:19] and then I'll stop and let you react
+- [25:20] with you. There's actually like this I
+- [25:22] think the biggest uh acquisition Apple
+- [25:25] ever made was like Beats like you know
+- [25:27] like the Dr. Dre headphones
+- [25:30] um which is like from a totally
+- [25:32] different magnitude I believe it's like
+- [25:34] a billion something than what's being
+- [25:37] rumored today. Um, so yeah, that's like
+- [25:41] a little bit like so Apple for Pakist
+- [25:44] Richie, what do you think? Will they
+- [25:45] will they buy or will they build or
+- [25:47] Yeah, I mean, will they burn and go
+- [25:50] away?
+- [25:52] Uh, yeah, I think uh Apple disappearing
+- [25:54] completely that that's uh more of an
+- [25:57] outside chance, but certainly they
+- [25:59] really need to do something. Uh, and
+- [26:01] it's interesting is it like Beats is the
+- [26:03] biggest thing Apple's ever bought? like
+- [26:06] uh that's crazy cuz that's a tiny
+- [26:08] company compared to Apple uh when you
+- [26:11] compare it to something like uh
+- [26:12] Salesforce where you know they they
+- [26:14] bought Slack, they bought uh Tableau and
+- [26:16] it's like constantly acquiring things
+- [26:18] and then trying to uh fit them into the
+- [26:20] business. So yeah uh if Apple does buy
+- [26:23] something that big as big as Perplexity
+- [26:25] or even bigger then yeah it doesn't have
+- [26:29] the the reflexes to kind of fold new
+- [26:31] businesses uh into itself. So that's
+- [26:33] going to be an very interesting
+- [26:34] integration challenge. Yeah. And I think
+- [26:36] to to the to the to the point of scale
+- [26:39] AI and and and the point of talent like
+- [26:42] maybe that's what Apple needs like okay
+- [26:43] they need some true AI talent inside of
+- [26:47] Apple and okay what is it that they can
+- [26:50] buy to bring that talent in scale AI is
+- [26:53] off the market now like what else is out
+- [26:55] there um to uh to bring that in. I think
+- [27:00] uh Microsoft at some point bought one of
+- [27:02] the uh one of the companies there could
+- [27:04] bring in some uh some AI talent. So
+- [27:06] yeah, let's let's see what they do.
+- [27:09] Yeah, absolutely. I mean, oh, so on that
+- [27:11] note, there was the Google bought uh
+- [27:14] character.ai
+- [27:15] uh for it's a few billion dollars uh and
+- [27:17] that was basically just to hire back one
+- [27:19] of the executives had left the company
+- [27:22] previously. Maybe that was was one of
+- [27:23] the Yeah. Yeah, that's true. This
+- [27:25] character delay was founded by one of
+- [27:28] the people who wrote the original
+- [27:30] attention is all you need paper if I'm
+- [27:32] remember correctly. Yeah. All these like
+- [27:34] hirings for hundred millions of dollars.
+- [27:36] I'm I'm in the wrong game. Well, you
+- [27:38] should write a paper.
+- [27:41] Um all right, cool. Let's move on to the
+- [27:42] next story. Um I've got another report
+- [27:44] for you. Uh this is the EU generative AI
+- [27:47] outlook report. So it's a report to sort
+- [27:50] of inspire policy makers in the EU just
+- [27:52] on like what should they do around
+- [27:55] generative AI. So uh the big theme is
+- [27:58] that uh generative AI ought to be
+- [28:00] considered a strategic asset uh for
+- [28:02] European countries just in order to uh
+- [28:05] generate economic growth and uh increase
+- [28:07] employment increase productivity things
+- [28:09] like that. So uh there's a big worry uh
+- [28:12] in the uh report that the EU is lagging
+- [28:15] behind in comput capacity. So we're
+- [28:16] saying the total compute capacity uh of
+- [28:19] all these sort of GPU clusters, high
+- [28:21] performance computing clusters across
+- [28:23] Europe is less than the size of XAI's
+- [28:27] Colossus uh compute uh uh cluster. So uh
+- [28:31] the uh Colossus has got uh I think uh
+- [28:34] it's like 200,000 uh Nvidia GPUs in it.
+- [28:37] So it's a pretty amazing technological
+- [28:38] feat. This is uh based in Memphis. Uh
+- [28:41] but yeah, that's more than the whole EU
+- [28:43] combined. So uh the EU is lagging in uh
+- [28:47] AI infrastructure. Uh but then uh beyond
+- [28:50] that um there is uh the focus of the
+- [28:53] report is that um generative AI should
+- [28:56] uh be focused around small and medium
+- [28:58] enterprises. The focus is on small to
+- [29:01] medium enterprises because this
+- [29:02] constitutes 99% of all businesses within
+- [29:05] the EU. uh presumably that's I'm not
+- [29:06] sure whether it's by headcount or like
+- [29:08] total number of businesses certainly not
+- [29:10] by uh by revenue but um yeah uh think
+- [29:14] every business basically should have uh
+- [29:17] some sort of uh generative AI angle uh
+- [29:20] regardless of its size. Uh so um there
+- [29:24] were there were several uh sort of
+- [29:26] perceived challenges there. So one was
+- [29:28] the infrastructure thing I mentioned one
+- [29:30] was just going about uh process
+- [29:31] re-engineering the third one was the AI
+- [29:33] skills gaps. to spend a lot of time
+- [29:35] talking about well how do you make sure
+- [29:37] that people have the the right skills
+- [29:39] and so um the two things that everyone
+- [29:42] needs to have uh so basic AI literacy
+- [29:45] skills it's first of all just how do you
+- [29:46] go about using some of these uh AI tools
+- [29:49] but also do you understand what the
+- [29:50] implications of using AI so b so
+- [29:53] basically what is possible with AI what
+- [29:55] is not possible with AI what should you
+- [29:57] do with it like what are some sensible
+- [29:59] use cases and the other thing uh on this
+- [30:02] is that uh digital skills include
+- [30:04] including AI skills and now recognizes
+- [30:06] basic skills. So this is like a legal
+- [30:08] term which uh puts them alongside
+- [30:11] reading, mathematics and science. So
+- [30:14] these are things that basically everyone
+- [30:16] they think everyone should be taught
+- [30:17] from school age onwards. These are big
+- [30:19] implications just for uh childhood
+- [30:21] educational curriculums uh right through
+- [30:24] to adult learning.
+- [30:26] Um all right. So, uh, first of all, uh,
+- [30:28] Martin, do you, uh, this all sounds like
+- [30:30] a a sensible thing, making, uh, AI
+- [30:33] skills, uh, putting them on the same
+- [30:34] level as like breeding, uh, maths and
+- [30:37] and science? Yeah. Well, let me first
+- [30:41] say because you you you uh uh you you
+- [30:45] you definitely triggered me with your
+- [30:47] opening sentence around like uh
+- [30:49] inspiring policy makers to write
+- [30:51] policies or something along those lines.
+- [30:52] like I don't I don't I first of all I
+- [30:54] don't think that uh we should inspire
+- [30:56] policy makers uh to write AI rules uh
+- [31:00] for those who who who watched our talk
+- [31:03] at the start of the year uh around uh
+- [31:07] our predictions and and and the EUI act
+- [31:09] uh know that I'm not a not a super big
+- [31:11] fan uh of all of this. So, so, so this
+- [31:14] whole
+- [31:17] push towards like regulation writing
+- [31:20] policies around this is like it it feels
+- [31:24] a little it it feels it feels well it
+- [31:27] feels very European. Uh it feels very
+- [31:30] like um okay, we're we what we're good
+- [31:33] at is like we're good at writing rules
+- [31:34] and making policies and doing laws. Um
+- [31:39] it reminds me a little bit of that like
+- [31:40] that saying like okay it's like uh if
+- [31:42] you want to get started like you need to
+- [31:44] quit talking and like begin doing. Uh I
+- [31:46] think there's lots of talking, lots of
+- [31:48] writing. Uh very little uh doing like am
+- [31:52] I am I a am I a fan of all this we're
+- [31:56] going to let policy makers write good
+- [31:58] policies about AI? Like not really.
+- [32:01] Do I do I agree with what's been said on
+- [32:05] like okay yes we
+- [32:08] um
+- [32:10] AI probably like AI skills is probably
+- [32:12] going to be like a basic skill like
+- [32:15] reading and math and science. Uh like
+- [32:17] like yes. Um but
+- [32:21] does that like I I think that can like
+- [32:23] if you let if you let the people free if
+- [32:27] you let the citizens of the EU like go
+- [32:29] out themselves. I I I think I tend to
+- [32:32] believe that they'll figure this out
+- [32:33] themselves and like find their own path
+- [32:35] and then go at their own pace and
+- [32:37] they'll be supported from the private
+- [32:39] markets or will be pushed from the
+- [32:40] private markets like to their jobs um to
+- [32:44] do this like maybe maybe a very quick
+- [32:46] like data point on that probably I would
+- [32:49] take that I would take the bet that for
+- [32:51] the past three years if you would
+- [32:53] aggregate the data that the biggest
+- [32:55] users of chat GPT were students.
+- [32:59] Um, so if you think about like, okay,
+- [33:02] students, students are already adopting
+- [33:04] this skill like they don't need a policy
+- [33:07] for for for that. Like they're already
+- [33:09] like they're they're ahead of the people
+- [33:10] that write the policy. I would make I
+- [33:13] would guess. Um, so so this need for
+- [33:18] like writing all the rules about it. No,
+- [33:19] I think the market is fixing it
+- [33:21] themselves. Like our our children are
+- [33:24] taking the necessary steps uh to to do
+- [33:27] this. Um, so, um, like is it a common
+- [33:33] sense recommendation? Like, yes. It does
+- [33:37] it need to have everything around it?
+- [33:39] Like I don't think so. I think you like
+- [33:42] let let the people do what they're what
+- [33:45] what they seem best and it seems that if
+- [33:48] you let them do that then well with
+- [33:51] students as an example like that's
+- [33:52] already happening. Okay. Yeah. I want to
+- [33:55] argue with this. Uh so uh yeah I I agree
+- [33:59] that the market is going to solve many
+- [34:01] problems uh in a commercial sense but I
+- [34:04] also do think it's important for policy
+- [34:05] makers have uh that sort of AI literacy
+- [34:07] themselves. So having an understanding
+- [34:09] of like what the point of germ AI is uh
+- [34:12] in order that if they do write policies
+- [34:14] they're not going to do something
+- [34:15] stupid. I also think that um in uh
+- [34:19] non-commercial cases it's also like very
+- [34:21] useful to have some policy there. So for
+- [34:23] example, if you're designing a school
+- [34:25] curriculum, you want to know uh like
+- [34:27] what good guidance is. Well, the best
+- [34:30] way to avoid doing something stupid is
+- [34:32] not doing it. Uh so uh or not doing
+- [34:36] anything um like like yes should like
+- [34:40] schools think about like okay um how to
+- [34:43] incorporate like AI in their curriculum
+- [34:45] and like make it part of their of a
+- [34:48] basic skill like 100%. But but I think
+- [34:50] that's like I think my example of
+- [34:53] private market was not so like uh was
+- [34:57] not that well chosen because I think I
+- [34:59] equally think that like if you have a
+- [35:01] motivated educator teacher that they
+- [35:03] will bring this as well. I I I'm I'm
+- [35:06] actually fairly sure that in many
+- [35:07] classrooms today within Europe without
+- [35:09] any policies, they're handling
+- [35:12] um they're they're playing with AI in a
+- [35:15] very creative way and and and thinking
+- [35:18] about like, okay, how can we how can we
+- [35:20] use this? Yeah, maybe I'm a bit too much
+- [35:23] Ron Swanson from Life, Parks, and
+- [35:24] Recreation on this on this topic. Yeah,
+- [35:27] I I don't like rules.
+- [35:30] Yeah, I think it's just uh different
+- [35:32] levels of comfort with uh with the
+- [35:34] bureaucratic engine uh with a
+- [35:38] Okay. Uh All right. So, yeah, there's
+- [35:40] different ways of of making it work. Um
+- [35:42] All right. Uh let's move on to the next
+- [35:44] story. Uh you had something about uh an
+- [35:46] AI effort. Yeah. So um uh so uh I don't
+- [35:52] really follow basketball but like uh the
+- [35:55] the NBI NBA finals uh took took place
+- [35:58] and there was actually an AT uh that was
+- [36:03] um uh fully created by AI. Um, and so
+- [36:08] that was not the first one because like
+- [36:10] Coca-Cola like did it in the past and
+- [36:12] again like we referenced that in our uh
+- [36:15] in our start of the year uh podcast
+- [36:17] episode.
+- [36:19] Um, but uh the the crazy thing about
+- [36:22] this ad, it was by the way an ad of
+- [36:24] Gali, which is uh as far as I understand
+- [36:26] like a predictive batting uh kind of
+- [36:29] kind of company. Um, but the crazy thing
+- [36:31] about this ad was that um uh the the the
+- [36:37] creator and it was a single creative so
+- [36:39] creator so one person Mike wrote a blog
+- [36:41] post uh describing his workflow and
+- [36:44] that's what's crazy because again so
+- [36:46] this is an ad that goes in prime time
+- [36:49] during the NBA finals and he basically
+- [36:53] uh build it with Google Gemini um I
+- [36:57] think V3 he used like a little script,
+- [37:00] 10 lines, um, and then edited the clips
+- [37:04] like in some standard video editing
+- [37:05] software. Um, and it was done. So, it
+- [37:09] took him two days, um, to generate 30
+- [37:13] seconds of of content. Um, and if you
+- [37:16] look at the cost estimate, like if you
+- [37:19] would exclude like his time, uh, it was
+- [37:22] $600 to generate the content. So, I'm
+- [37:24] probably sure like our listeners have
+- [37:26] heard about the crazy amounts that are
+- [37:27] paid for advertisings during these top
+- [37:30] spots at uh the Super Bowl, at the NBA
+- [37:33] finals, and you look at these ads and
+- [37:35] they just look expensive. Um, if you
+- [37:38] look at this ad, it actually looks
+- [37:40] really good. And if you then realize
+- [37:42] like, hey, this is created in two days
+- [37:46] by a single person with a technology
+- [37:49] that's maybe two two and a half years
+- [37:51] like old between parenthesis mainstream.
+- [37:55] That's actually pretty like amazing. Um,
+- [37:59] so yeah, like you didn't need to pay a
+- [38:01] writer, you didn't need like any camera
+- [38:03] persons, like no actors needed. Uh, so
+- [38:06] yeah, pretty like uh um uh pretty
+- [38:10] fascinating like like uh yeah, Rachel, I
+- [38:12] don't know. Have you seen the ad? I have
+- [38:14] seen the ad and yeah uh I didn't get all
+- [38:16] the cultural references because again
+- [38:18] I'm not a basketball fan from Florida.
+- [38:22] So uh it was very odd. Um
+- [38:25] I I like the ad though. It it was it it
+- [38:28] was fun. There was some interesting
+- [38:30] things that I think were caused by
+- [38:31] technological limitations. So, for
+- [38:33] example, the um there's it's lots of
+- [38:36] very very short sections with quick
+- [38:38] camera cut. So, it's doing one or two
+- [38:40] seconds and this is just because AI
+- [38:41] can't retain consistency for very long.
+- [38:43] It also it's quirky and I think that's
+- [38:46] the only thing you can really get away
+- [38:48] with at the moment because like perfect
+- [38:51] realism of like movements and things
+- [38:53] like that is not really possible. So,
+- [38:56] having stuff that is weird and fast
+- [38:58] cutting is kind of the only tone you can
+- [39:00] go for at the moment. That's a nice
+- [39:03] explanation. Like I was actually like uh
+- [39:06] my take was like, "Oh I'm getting
+- [39:07] old because like this is way too flashy
+- [39:10] and switches like way too quickly." But
+- [39:13] uh I like your take more. Uh which is
+- [39:16] like Yeah, it by the way it makes it
+- [39:18] probably makes sense like what you're
+- [39:20] saying. Uh like you clearly see that
+- [39:22] they need to like switch between
+- [39:25] different scenes very quickly. Uh, and
+- [39:28] it's most likely now I was deliberately
+- [39:30] paying attention to it like during the
+- [39:32] first time that I saw the ad and I
+- [39:33] couldn't spot like any obvious like
+- [39:36] glitches like I I couldn't see like six
+- [39:39] fingers or like uh somebody with three
+- [39:42] lags or something like that. So, um, at
+- [39:45] least for me, like maybe if I look at it
+- [39:48] like a fifth or a sixth time, like I
+- [39:50] start looking at the glitch, but I don't
+- [39:51] think that many people look at an app
+- [39:53] like six times in a row. Um, so I I I
+- [39:58] did that. It's like, okay, in the first
+- [40:00] run I it's I didn't see that much wrong
+- [40:04] with it to besides like the Okay, it was
+- [40:06] very snappy. Yeah, I was just uh that's
+- [40:10] the other thing is like if you keep
+- [40:11] things uh moving quickly, then it
+- [40:13] distracts people from the fact that like
+- [40:15] maybe the the lighting or the shadows
+- [40:16] isn't quite right in the background or
+- [40:18] there's like uh an inconsistency with
+- [40:21] like I don't know where some background
+- [40:23] objects are placed. Um, so yeah, uh,
+- [40:26] keeping things moving quickly seem to be
+- [40:27] the the the secret for things, but I I
+- [40:30] agree like that a lot of the artifacts
+- [40:32] are disappearing pretty quickly. Um, it
+- [40:35] is getting much more much more realistic
+- [40:39] uh, very fast. Yeah, I'm intrigued to
+- [40:42] see what happens uh how this affects
+- [40:44] like creative industries though because
+- [40:45] I you mentioned here it was done by one
+- [40:48] person so you don't need a cameraman you
+- [40:50] don't need actors uh you don't need
+- [40:52] script writers we had two Hollywood
+- [40:55] strikes uh was it last year can't
+- [40:58] remember uh yeah last year so uh the
+- [41:00] screen actor strike and then the actors
+- [41:01] guild striking uh exactly because of
+- [41:04] this um and now okay uh everything that
+- [41:09] these people striking predicted are sort
+- [41:11] of coming to pass. Um real content going
+- [41:15] out of prime time is is being done by AI
+- [41:19] with no other people needed beyond one
+- [41:20] person in a prompt. Uh so how do you
+- [41:23] think this plays out uh in the real
+- [41:24] world? I think in phases uh and I and I
+- [41:27] think the phases are going to follow the
+- [41:30] um
+- [41:33] uh the length of the content. So, so, so
+- [41:35] going back to the clips point like okay,
+- [41:38] it's it's delivered like like little
+- [41:40] clips basically together because like
+- [41:42] creating a 30 second or a minute at
+- [41:45] that's like all in the same all at the
+- [41:48] same scene is going to is probably like
+- [41:50] too too hard or too glitch prone or or
+- [41:53] anything like that. So, I think what
+- [41:54] we'll see is like okay, so now we saw
+- [41:56] like a little ad. Maybe the next thing
+- [41:59] we see like a more consistent ad. Um,
+- [42:02] then we're going to see like a uh a
+- [42:04] 10-minute standup show by an AI. Uh, and
+- [42:08] then we might see like a a 20 minute uh
+- [42:11] sitcom uh existing out of five episodes
+- [42:14] and then like the next thing is maybe
+- [42:16] like a 70 minute children movie and then
+- [42:19] like okay we're at the twohour like
+- [42:21] trill. So
+- [42:23] I I think getting from that like 15
+- [42:26] second 10 15 second clip to like the 1
+- [42:29] hour and 30 minutes uh uh movie I I
+- [42:34] think that's actually like still a long
+- [42:35] way to go in art and and I don't think
+- [42:38] it's because of the creative part.
+- [42:41] I think people figure out like how to
+- [42:42] write the prompts, how to work with the
+- [42:44] camera perspectives. I think it's really
+- [42:46] going to I think there it's really going
+- [42:48] to be about the technology without
+- [42:50] having like any any insight on this like
+- [42:52] it's just we've seen massive improvement
+- [42:54] but like from a blind perspective it's
+- [42:56] not that we are we're still watching 15
+- [42:58] seconds but and the 15 seconds that look
+- [43:00] a lot better but they're not they're not
+- [43:03] like a minute or two minutes long. Yeah.
+- [43:06] So, um I've seen a few sort of uh
+- [43:09] videos. Um so, the Door Brothers do
+- [43:11] quite funny, satirical videos and
+- [43:14] they're kind of a couple of minutes long
+- [43:15] and that's like it's amazing, but that's
+- [43:17] the most I want to concentrate on on AI
+- [43:20] generated content at the moment. And
+- [43:21] part of me wonder is like at the moment
+- [43:23] it's very novel, but is that kind of
+- [43:27] quirky tone and all the fast cuts, is
+- [43:30] that going to get tedious quickly, do
+- [43:31] you think, or are we going to get past
+- [43:33] that and have like content that you can
+- [43:36] concentrate on for a bit longer? Well, I
+- [43:38] I think it's I think Well, I think we're
+- [43:40] going to need to get past that. Uh
+- [43:42] because I think it's this is a
+- [43:44] particular type of content and style
+- [43:48] that's not going to be like well suited
+- [43:50] for everyone. So, if you want to make
+- [43:51] this like a really imagine like your
+- [43:54] Netflix is full of like videos like this
+- [43:56] ads, like I wouldn't have a Netflix
+- [43:58] subscription. Uh, it's a it's too too
+- [44:01] much, too fast, uh, too loud. My my
+- [44:04] guess is like they will need to fix the
+- [44:07] this setting. Uh I'm trying to think
+- [44:09] like what are good examples like maybe
+- [44:11] well if you look at when Toy Story first
+- [44:14] came out versus like where we are today
+- [44:17] in um uh in in in 3D uh and
+- [44:23] computerenerated movies like it's also
+- [44:25] like a very big difference and that
+- [44:26] happened what is it in the last 20 years
+- [44:28] or something like that uh 20 25 years
+- [44:31] and so like we we'll my guess is we'll
+- [44:33] we'll get there uh but I do think
+- [44:36] there's still quite some hurdles to
+- [44:40] um to do like this is um and there's a
+- [44:44] story by Seinfeld who was like okay
+- [44:46] talking about like how do you become a
+- [44:48] good like stand-up comedian and it's
+- [44:50] like okay doing a five minute bit like
+- [44:52] that's how you start like doing like 20
+- [44:55] minute like is is is already difficult
+- [44:58] doing like a one hour like is extremely
+- [45:00] difficult and like an hour and 20
+- [45:02] minutes like that's insane and it's like
+- [45:04] like that's how you like that's how you
+- [45:07] separate like the average standup with
+- [45:09] from the top standup. I think it's going
+- [45:11] to when I talk about the time frames
+- [45:13] like that's a little bit the metaphor I
+- [45:14] have in my my mind like yes you can
+- [45:16] create a 30 second clips like it's it's
+- [45:18] hard but doable and it's getting more
+- [45:20] and more accessible but now we going to
+- [45:22] the 10 minutes and 20 minutes and like
+- [45:24] when will we be at that 1 hour 20 and
+- [45:27] what will it take? Absolutely. So, uh,
+- [45:29] maybe, uh, all these, uh, the
+- [45:30] screenwriters skilled, the actors guild,
+- [45:32] they've got a bit a bit more time to,
+- [45:34] uh, to figure things out before it
+- [45:35] starts going into like, okay, this is,
+- [45:37] uh, mainstream, um, TV stuff. Yeah. On
+- [45:40] the screenwriting, like I I think
+- [45:41] there's still a pretty good like
+- [45:42] somebody needs to write a prompt, so
+- [45:45] uh, they're probably good, I would
+- [45:47] guess.
+- [45:49] Uh, yeah, true. No. Um, okay. Uh, so
+- [45:52] actually uh, before we move on, uh, do
+- [45:54] you have a sense of how much this cost?
+- [45:55] Like how much? Yeah, I have no idea
+- [45:58] actually
+- [45:59] uh to to to be honest. Well, well, we
+- [46:01] got the benchmark like as I said like
+- [46:03] it's $600 to generate that video
+- [46:06] excluding like the the the cost of the
+- [46:08] person, but like on the I I I don't I
+- [46:12] have no idea on like the token cost like
+- [46:14] specifically like allegedly this one
+- [46:16] cost $600. All right. $600 of clips. So,
+- [46:19] this is like um for an individual it's
+- [46:21] something you got to think about a bit,
+- [46:23] but for a business that's that's just
+- [46:25] nothing. Yeah, indeed. Okay. All right.
+- [46:29] Cool. Uh, so, uh, last story, uh, quick
+- [46:32] one because we've been talking for a
+- [46:33] while. Uh, so, uh, I want to talk about
+- [46:35] the first, uh, benchmark for deep
+- [46:38] research tools. So, these deep research
+- [46:40] tools are, um, around, uh, you can ask
+- [46:43] more complicated questions of, uh,
+- [46:45] generative AI. They'll go away and think
+- [46:47] for 10 minutes and then come back with a
+- [46:49] report for you. This is, uh, this comes
+- [46:51] out of research from the University of
+- [46:52] Science and Technology of China.
+- [46:55] uh and uh they tested so tools from
+- [46:58] OpenAI, tools from Anthropic, uh Google
+- [47:01] uh XAI and Perplexity and so uh we have
+- [47:04] a few winners. Uh they they split into
+- [47:06] two categories actually. So uh the deep
+- [47:08] research agents are things that are
+- [47:10] specifically advertised at being uh able
+- [47:12] to use tools and are for uh deep
+- [47:15] research. So uh the the wins in this
+- [47:17] category is Gemini 2.5 Pro uh the deep
+- [47:20] research version of that. Uh and then
+- [47:22] second place was the open AAI deep
+- [47:24] research tool. So uh those those are the
+- [47:26] best ones if you want to try out
+- [47:27] different deep deep research tools. The
+- [47:29] second category it was just standard
+- [47:31] issue uh LLM with uh search uh tool
+- [47:35] capabilities. So in this case uh the
+- [47:37] winner was uh claude 3.7 set and second
+- [47:40] place was perplexity sonar reasoning. So
+- [47:44] most of them had a winner. XAI was the
+- [47:47] only one which uh which didn't have a
+- [47:48] winner in in either category but it
+- [47:50] seems like in general uh the tools that
+- [47:53] are specifically marketed as deep
+- [47:54] research tools do better at deep
+- [47:56] research which is a good thing. Um yeah
+- [48:00] uh the Irish are doing something rather
+- [48:02] than just a bit of branding on the
+- [48:04] benchmark. The interesting thing was
+- [48:05] that uh they took a load of like real
+- [48:06] world prompts. Uh and then the they had
+- [48:10] an LLM to judge whether or not these uh
+- [48:13] these agents were were working
+- [48:15] correctly. And to begin with the agents
+- [48:17] were being too too nice and they were
+- [48:19] giving everything a high score which is
+- [48:21] stupid because you want to be
+- [48:22] discriminatory about like what what's
+- [48:24] good and what's bad. So in the end they
+- [48:26] had to get humans who were experts to
+- [48:28] write reports and then they got the LMS
+- [48:32] to compare it to the human report. So
+- [48:34] there's uh some human uh benchmarking
+- [48:36] involved in this. Uh LLMs can't be
+- [48:38] trusted sort of by themselves at the
+- [48:39] moment. It also say that whatever the
+- [48:41] tool is, they're all still really bad at
+- [48:43] generating citations uh uh or at least
+- [48:46] accurate citations where the content of
+- [48:48] whatever they're linking to actually
+- [48:50] says what they they claim it does. So I
+- [48:52] think it's a known problem, something to
+- [48:53] watch out for you make use of these
+- [48:55] tools. Now uh Martin, I don't know, have
+- [48:57] you have you used any of the deep
+- [48:58] research tools? Have you found they work
+- [49:00] or not? So, I use them a little bit.
+- [49:04] Like, it's definitely like in the
+- [49:08] in in my AI workflow. It's um
+- [49:13] probably the one that I use the least.
+- [49:15] Uh I I I I'm not often having that that
+- [49:20] type of use case. Um but um let me give
+- [49:23] you an example. when I when I did use it
+- [49:25] like okay I I use this I needed to get
+- [49:28] some information out of like uh
+- [49:31] quarterly earnings reports uh from
+- [49:33] organizations and actually did a pretty
+- [49:35] good job there and what I noticed was
+- [49:38] like compared to when I used it in other
+- [49:41] instances is that uh because I had like
+- [49:44] bad experiences with it also and it was
+- [49:46] because the prompt that I provided was
+- [49:48] not specific enough um more anecdotal
+- [49:51] it's my own experiences like okay So
+- [49:54] what I've learned was that if I give it
+- [49:56] like research me on this earnings report
+- [49:59] for this particular company and I want
+- [50:01] to have this type of information and
+- [50:03] look back in the last like 24 months
+- [50:05] like it gave me actually really good
+- [50:07] insights when I would say give me
+- [50:11] everything of the S&P 500 and all the
+- [50:13] earnings and blah blah blah like again
+- [50:14] when it's too broad like it I got like
+- [50:16] some funky behavior maybe it's not
+- [50:19] writing the right prompt um maybe it's
+- [50:22] something on the tool but It's a little
+- [50:24] bit off-putting when you when you go
+- [50:25] through that experience. So, I actually
+- [50:28] haven't talked to anyone um and this is
+- [50:30] all this is on this is on me like it
+- [50:32] would actually be good to talk to a
+- [50:34] couple people who use deep research
+- [50:37] tools like on a daily basis and
+- [50:39] understand how are they using it? What
+- [50:40] are they what are they doing? Um because
+- [50:43] I have a good feel of like okay I I use
+- [50:46] JCPT I use Gemini models on a daily
+- [50:48] basis but I don't use a deep research
+- [50:50] like okay who is the equivalent of me
+- [50:52] who uses deep research the entire time
+- [50:55] um and and yes what what they think what
+- [50:58] they do so yeah yeah all right we have
+- [51:01] to get Adele back then I think he's a
+- [51:03] big fan of the deep research tools
+- [51:07] I I I agree that um I find the workflow
+- [51:10] incredibly frustrating because I'm um
+- [51:13] the models run for a few minutes. So,
+- [51:15] you have to get the prompt right up
+- [51:17] front and you're right that if you are
+- [51:20] more specific about what you want, it
+- [51:22] dramatically increases the chance of you
+- [51:23] getting things right. But that means
+- [51:25] that you've then got to do a lot of work
+- [51:26] up front in thinking, well, what do I
+- [51:29] actually want? And like which sites
+- [51:33] should this uh thing uh be looking at in
+- [51:35] order to pull the information from? What
+- [51:37] do I actually want out of it? And you
+- [51:39] have to do so much prep up front to get
+- [51:40] it right that you you've done half the
+- [51:42] research yourself. So, uh yeah, uh in
+- [51:45] order to get good results, you've really
+- [51:46] got to be good at that kind of prompt
+- [51:47] engineering and you've got to just take
+- [51:49] the time to think about what you want
+- [51:51] the answer to to be. Mhm. Yeah. Yeah.
+- [51:55] Totally. Uh yeah. So, uh it's uh the
+- [51:57] technologies kind of coming together
+- [51:59] again. It's like it's the process stuff
+- [52:01] that it's a little bit frustrating to to
+- [52:03] use at the moment. But uh yeah, if uh
+- [52:05] any of your any of your listeners have
+- [52:06] been making use of these deep research
+- [52:08] tools and you found success or you found
+- [52:09] some challenges, then uh please do uh
+- [52:12] hit us up on social media. Let us know
+- [52:14] what uh what you found. All right,
+- [52:15] wonderful. Uh well, it's been a pleasure
+- [52:17] chatting with you, Martin. Uh we have
+- [52:19] talked for way too long, so uh let us
+- [52:21] wrap up here. Uh have you enjoyed the
+- [52:23] experience of uh hosting data frames? Uh
+- [52:27] this was nice. Like it's amazing that
+- [52:29] you got paid for this. I would do this
+- [52:30] for free.
+- [52:33] Okay. Certainly not taking a salary cut
+- [52:34] to free.
+- [52:37] Okay, guys. No, it was really, really
+- [52:39] fun. Uh, and thanks for having me,
+- [52:40] Richie. All right. Cheers.
+- [52:43] [Music]

@@ -1,0 +1,1570 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=pecSfrcQZbI"
+video_id: "pecSfrcQZbI"
+video_url: "https://www.youtube.com/watch?v=pecSfrcQZbI"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=pecSfrcQZbI
+  - Retrieved at: 2025-12-30T16:20:52+09:00
+  - [00:07] Okay, cool. Let's go ahead and do some
+key_points:
+  - "- [02:18] what's important and interesting to the"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: pecSfrcQZbI
+
+- URL: https://www.youtube.com/watch?v=pecSfrcQZbI
+- Retrieved at: 2025-12-30T16:20:52+09:00
+
+## Text
+
+- [00:07] Okay, cool. Let's go ahead and do some
+- [00:10] really quick intros. Um, I guess, uh,
+- [00:13] yeah, Daniel, you want to start and then
+- [00:14] I'll go second?
+- [00:16] >> Sure. Hi, I'm Daniel. I've been, uh,
+- [00:18] working with a lot of our customers
+- [00:20] coming in from OpenPI, which was
+- [00:22] recently acquired by Coreweee and also
+- [00:25] under Weights and Biases. Um, I love
+- [00:28] working with a bunch of customers on
+- [00:30] developing these solutions. Again,
+- [00:32] you're not behind if you're just hearing
+- [00:34] about it for the first time. Uh, we're
+- [00:36] happy to help out and tell you all the
+- [00:38] great resources available to you. So,
+- [00:40] over to you, Kyle.
+- [00:41] >> Awesome. Yep. And I'm Kyle Corbett. Um,
+- [00:43] I'm one of the co-founders of Openpipe,
+- [00:46] which got acquired, excuse me, about a
+- [00:48] month and a half ago by uh by Cororeef.
+- [00:51] Um, working really closely with the
+- [00:52] weights and biases team, which was also
+- [00:54] acquired a bit earlier by Cororeef. So
+- [00:56] um I spend all my time thinking about
+- [00:58] reinforcement learning um spent a lot of
+- [01:00] time uh you know both on the research
+- [01:03] side and then also working with lots of
+- [01:04] customers on getting it productized. We
+- [01:06] work with a number of customers both
+- [01:07] large Fortune 500s um as well as small
+- [01:10] AI native startups on on getting models
+- [01:12] with RL actually deployed in production.
+- [01:14] So lots of sort of like battle scars and
+- [01:17] um lessons learned from that that I'm
+- [01:19] super excited uh to to chat with all of
+- [01:22] you on this call about. Yeah, we're
+- [01:24] going to keep this super informal. So,
+- [01:27] fellow Daniel, I see you have a great
+- [01:29] question already in the chat and we
+- [01:30] we'll get to that later. Um, but right
+- [01:33] now we're just going to do a little like
+- [01:35] fun almost like interview style about
+- [01:38] history of RL, at least in in our world.
+- [01:41] Uh, and then we'll get down to a broader
+- [01:43] Q&A. Uh, so so Kyle, do you mind just
+- [01:46] telling us a little bit about like Open
+- [01:49] Pipe's RL journey and and where we're at
+- [01:51] today?
+- [01:52] Yes, absolutely. Um, before I do that,
+- [01:55] I'll uh Well, actually, yeah, I could. I
+- [01:58] was going to kind of like talk about the
+- [01:59] posting questions. We can do that a
+- [02:00] little bit later.
+- [02:01] >> You can do that like if you upvote ones,
+- [02:04] then we'll have Yeah.
+- [02:06] >> Yes. So, so as we're going to have some
+- [02:08] some sort of like discussion and
+- [02:10] exposition sort of of what we found uh
+- [02:13] you know, at a high level here at the
+- [02:14] start, a lot of this is going to be
+- [02:17] question driven um based on kind of
+- [02:18] what's important and interesting to the
+- [02:20] audience. So, we have some great
+- [02:21] questions that are already going into
+- [02:23] the chat. Um, you know, Daniel asking
+- [02:25] about Carpathy's interview on RL. That's
+- [02:27] definitely something we can talk about.
+- [02:28] Um, and looks like some other ones. What
+- [02:30] I would ask is, um, if folks can, uh,
+- [02:35] review, if you have questions, please
+- [02:36] drop them in the chat as we're going.
+- [02:38] Don't wait till the end. Um, and then if
+- [02:40] you see as you're scrolling through a
+- [02:41] question that you're interested in, if
+- [02:42] you could just like react to it. Looks
+- [02:44] like we've organically started using
+- [02:46] >> the fire reacts. Go
+- [02:47] >> fire reaction. So yeah, why don't we go
+- [02:49] ahead and and use the fire reaction if
+- [02:52] it's a question you want answered and
+- [02:53] we'll try and sort of um in case we
+- [02:54] don't have time to get through all of
+- [02:55] them, we'll we'll try and prioritize the
+- [02:57] ones that have the most uh you know
+- [02:59] interest from the from the audience. So
+- [03:01] um anyway, go ahead and uh post your
+- [03:04] questions and and share them as we're
+- [03:05] going. All right. Um but yes, uh Daniel,
+- [03:08] you wanted to talk about sort of our RL
+- [03:11] um overview. So yeah, let me give a
+- [03:14] little bit more background. Um so prior
+- [03:16] to being acquired by coreweave uh we
+- [03:19] were working as an independent startup
+- [03:21] uh open pipe for about two years. The
+- [03:24] first year of that we were pretty
+- [03:25] focused on supervised fine tuning
+- [03:27] actually. Um and it was in late um
+- [03:32] really late 2024 um so coming up on
+- [03:34] almost a year ago now uh that we started
+- [03:36] going much more heavily towards RL. Um
+- [03:39] and the the reason behind that I think
+- [03:41] I'll I'll share a little bit just
+- [03:42] because I think it might be interesting
+- [03:43] and relevant to folks in the audience as
+- [03:46] you're you know evaluating these
+- [03:47] technologies. Um what we found was that
+- [03:51] SFT um you know I think there's there's
+- [03:54] places where it's a a really good fit
+- [03:55] and we still use it with some of our
+- [03:56] customers and we still have you know an
+- [03:58] active product um with actually a lot of
+- [04:00] customers on it that is sort of for
+- [04:02] self-service SFT. Um, the reason why we
+- [04:06] decided to spend more time focusing on
+- [04:07] RL is because SFT we found that the the
+- [04:10] problem it's best solving is if you have
+- [04:12] it's very good for like model
+- [04:14] distillation. So if you have like a
+- [04:16] large model um that you're using for a
+- [04:17] certain workflow, maybe it's an
+- [04:18] information extraction workflow,
+- [04:19] something like that um and you need to
+- [04:23] and and you have an issue where it's
+- [04:25] either too expensive to run um or
+- [04:28] alternatively uh you need lower latency.
+- [04:30] In either of those cases, it can often
+- [04:32] make sense to move to a smaller model.
+- [04:34] Um, and you can use SFT to basically
+- [04:36] take the
+- [04:38] excuse me, take the requests you're
+- [04:40] getting in, take the responses that that
+- [04:41] large model is giving you, and train a
+- [04:43] smaller model to imitate it. Um, and
+- [04:47] that can work well um, in certain
+- [04:49] circumstances. There's some downsides to
+- [04:51] that which make it perhaps less
+- [04:53] generalizable um, than we'd initially
+- [04:56] hoped. Um, one is you do have to have uh
+- [05:01] either a fairly stable kind of like set
+- [05:03] of tasks you're having the model do um
+- [05:05] or just like a large amount of diversity
+- [05:07] before you go through this process. And
+- [05:09] the reason why is because um SFT uh does
+- [05:14] not it's it's sort of it's it's it's a
+- [05:15] very heavyweight way um in the end of
+- [05:17] updating model weights. And as a result
+- [05:20] um it ends up sort of like clobbering uh
+- [05:23] behavior clobbering um uh the um the the
+- [05:29] sort of like ability of the model to do
+- [05:30] other stuff outside of what you're
+- [05:33] training on with the SFT. So in order to
+- [05:34] get like really high performance on your
+- [05:36] specific task with SFT, you have to
+- [05:38] update the model weights quite a lot. Um
+- [05:39] and that makes it generally speaking
+- [05:41] worse at things that are outside that
+- [05:42] domain. And so this is fine sometimes.
+- [05:46] Um, but if your task is changing over
+- [05:49] time or it's unpredictable or you know
+- [05:51] you're going to sign on a new customer
+- [05:53] and they've got sort of like a different
+- [05:54] use case, then this can be a bad
+- [05:57] property because you're actually um on
+- [05:59] on those new use cases that are coming
+- [06:01] in, you're going to be doing worse than
+- [06:03] on the um than than you would have just
+- [06:05] like with with the sort of like existing
+- [06:07] instruct model that you would have
+- [06:08] otherwise been using.
+- [06:09] So it makes it a little bit tricky in
+- [06:11] practice just from like a kind of like
+- [06:13] uh you know like model life cycle or
+- [06:16] product life cycle point of view. Um RL
+- [06:20] uh one there there's a couple reasons
+- [06:22] why RL um ends up in in a lot of cases
+- [06:25] working better um even for similar kinds
+- [06:27] of problems. Um, one is in practice just
+- [06:31] by the nature of how RL works, um, you
+- [06:34] end up updating like many fewer of the
+- [06:36] weights or or updating them much less um
+- [06:39] when you're doing RL than you are with
+- [06:40] SFT to get to the same performance on
+- [06:42] your task. Um, and that's a really cool
+- [06:44] thing um for a few different reasons. Uh
+- [06:47] one reason is because um you get much uh
+- [06:51] better performance or rather you get
+- [06:53] less performance degradation on things
+- [06:55] that are out of domain because you're
+- [06:56] you're sort of like shifting your model
+- [06:58] um changing your model's behavior much
+- [07:00] less overall uh than you are with SFT.
+- [07:04] So that's really cool. Um and uh and
+- [07:08] then the other reason is in practice and
+- [07:10] I think this is actually related to to
+- [07:12] sort of the you know the fact that we're
+- [07:14] updating fewer weights. Um in practice
+- [07:16] we find that uh the models trained with
+- [07:19] RL actually generalize better. So not
+- [07:21] only are you getting like not you know
+- [07:23] less degradation on stuff that's really
+- [07:24] out of domain but for things that are
+- [07:25] sort of like on the edge of your domain.
+- [07:27] So let's say um and let me make this
+- [07:29] very concrete. Let's say that you're um
+- [07:32] uh you're you're doing um you're you're
+- [07:35] selling a voice service where people can
+- [07:38] call in and buy stuff over the phone.
+- [07:40] Okay, we have we have a potential
+- [07:41] customer we're talking to in this kind
+- [07:42] of area. So, um, when, uh, if if that's
+- [07:48] a description of your product, then, um,
+- [07:51] let's say you train on like two
+- [07:52] customers that like have a very
+- [07:54] specific, you know, set of, um, you
+- [07:56] know, items that they sell over the
+- [07:58] phone. Um, and then you're onboarding a
+- [08:00] third customer. So with SFT you might
+- [08:03] find you actually have to retrain the
+- [08:04] model fully with data and example calls
+- [08:07] from that third customer included um in
+- [08:09] order to get good behavior or good
+- [08:11] performance with that third customer.
+- [08:13] Whereas with RL um you might find that
+- [08:15] the model that was just trained with RL
+- [08:16] on the first two customers all you have
+- [08:18] to do is sort of update the prompt with
+- [08:20] you know the explanation of hey these
+- [08:21] are the items available for the third
+- [08:23] customer and it'll actually be able to
+- [08:24] generalize better and and uh work with
+- [08:27] that third customer. So in practice um
+- [08:29] it works better. Um these are all just
+- [08:31] frankly sort of empirical findings and
+- [08:33] we can talk about kind of like why we
+- [08:35] think it's like that. Um but uh the um
+- [08:40] but the fact is that that's uh you know
+- [08:43] what we observe from from actually
+- [08:44] trying this. Um which which is pretty
+- [08:46] exciting. Okay. Sorry I kind of went off
+- [08:49] on a tangent there.
+- [08:50] >> That was great.
+- [08:52] I just flash like RD and maybe we can
+- [08:55] talk a little bit about that and ruler
+- [08:56] and then how this leads into serverless
+- [08:58] RL and then we'll get into the broader
+- [09:00] Q&A.
+- [09:02] >> Okay, awesome. So, um so yeah, this is I
+- [09:06] find it's you know it's a little hard in
+- [09:10] groups like this because we do have like
+- [09:11] quite a different quite quite a variable
+- [09:13] level of familiarity. So something that
+- [09:15] I think might be really helpful is is
+- [09:16] this slide that um that Daniel's got for
+- [09:18] us. Um, and we're going to talk about a
+- [09:20] very concrete example of a specific task
+- [09:23] um that we used RL for and got really
+- [09:26] good results as as an example of sort of
+- [09:29] like the kinds of um performance gains
+- [09:31] you can expect. So um this is uh this is
+- [09:34] a problem called uh art e um it is a
+- [09:38] basically like a research agent um or a
+- [09:41] question answering agent that that reads
+- [09:43] an email inbox. So you you connect it up
+- [09:45] to your email inbox. you can ask, hey,
+- [09:47] what time, you know, is the game on
+- [09:48] Friday? Um or what is the name of, you
+- [09:51] know, my my child's teacher or something
+- [09:52] like that? And it will go and like try
+- [09:54] and search through your email inbox. Um
+- [09:57] find the relevant context. Um you know,
+- [09:59] grab the correct email and then answer
+- [10:01] the question. So this is uh this sort of
+- [10:04] like agentic uh retrieval task is pretty
+- [10:06] common. We see this coming up a lot with
+- [10:08] different customers. Um we so what we
+- [10:12] did in this case is we first of all just
+- [10:14] used um off-the-shelf models uh as a
+- [10:17] comparison point and so you can see in
+- [10:20] that first chart um you know we
+- [10:21] benchmarked uh GPD4.1 Gemini 2.5 Pro 04
+- [10:24] mini and 03 this was before the 05 uh
+- [10:27] the um GPD5 release although the GPD5
+- [10:29] performed quite similar the 203 in our
+- [10:32] later testing um anyway we uh we went
+- [10:36] ahead and benchmarked the model all of
+- [10:39] those models and found that um you know
+- [10:41] in the best case with with these
+- [10:42] thinking models from OpenAI um it was
+- [10:45] able to about 90% of the time answer the
+- [10:47] question correctly go and find the right
+- [10:49] email read it and then give the right
+- [10:51] answer um which is uh decent but um you
+- [10:56] know but but not great honestly if like
+- [10:58] if if you think about this if you know
+- [10:59] from a product point of view um if 10%
+- [11:01] of the time you're getting an answer
+- [11:02] that's wrong um it's not going to be a
+- [11:05] particularly you know users may not
+- [11:08] trust the product all much. Um, so we
+- [11:10] then went ahead and used RL on this task
+- [11:13] and we used uh Quinn 2.5 14 bill like
+- [11:16] 14b. So it's it's a relatively small
+- [11:18] model. It's a 14 billion parameter
+- [11:19] model. Um, very cheap to run and we
+- [11:22] trained it to do the same task where we
+- [11:24] would give it a question, let it go out
+- [11:25] and search the email inbox and then come
+- [11:27] back and try and figure out um, you
+- [11:28] know, and and present an answer and then
+- [11:30] it was either graded yes, you did well,
+- [11:32] that was the right answer or no, you did
+- [11:34] poorly um, that was the wrong answer.
+- [11:36] And so after we went through this
+- [11:37] process, um we were able to take it. So
+- [11:40] so it actually started doing really
+- [11:41] poorly and and it doesn't show up that
+- [11:43] well in the graph, but you can see
+- [11:44] there's sort of like this um at the in
+- [11:48] the art e line on the first graph, you
+- [11:50] can see there's sort of like a more
+- [11:51] solid more golden bottom part. That's
+- [11:53] where it started. It was I think about
+- [11:54] 41% um of the time it was getting the
+- [11:57] right answer initially, which is which
+- [11:58] is really bad. But after it went through
+- [12:00] this training process where it saw a few
+- [12:02] hundred examples, tried the task, got it
+- [12:05] right or wrong, and then um got
+- [12:07] reinforced. So, you know, we we tweaked
+- [12:09] the weights every time to make it
+- [12:10] slightly more likely to give the right
+- [12:12] answer. It was able to get up to 96%. Um
+- [12:15] and this is huge. This is like, you
+- [12:17] know, 60% fewer errors than the best
+- [12:19] off-the-shelf model. Um which can make a
+- [12:22] huge difference in product experience.
+- [12:24] And then also if we look over to the
+- [12:25] graphs on the right side um these can
+- [12:27] also be really really significant as
+- [12:28] you're building your products um we were
+- [12:30] able to get it uh because it's a smaller
+- [12:33] model that is trained just you know a
+- [12:34] small model trained on this task the
+- [12:36] total latency and it also doesn't need
+- [12:38] to think because it's actually been
+- [12:39] trained to just directly create the
+- [12:41] responses opposed to say 03 or or mini
+- [12:44] which do some thinking ahead of time to
+- [12:45] get the really strong results they have.
+- [12:47] So um because of both those reasons,
+- [12:49] we're able to get it down to about 1
+- [12:51] second total latency for ask question to
+- [12:53] get the answer as opposed to 3 or 5
+- [12:54] seconds. Um and then the run cost again
+- [12:56] because it's a much smaller model and
+- [12:58] also producing fewer tokens, it's about
+- [13:00] an order of magnitude cheaper um than
+- [13:02] even O4 MIDI. So that's kind of the the
+- [13:05] sorts of advantages um that you can get
+- [13:08] from from doing RL. Um let me just look
+- [13:11] and see if there's any questions related
+- [13:13] to
+- [13:13] >> a lot of great questions. Okay.
+- [13:16] >> But um
+- [13:16] >> yeah, maybe Okay, Daniel, if you want to
+- [13:19] let me know if there's any questions
+- [13:21] like specific to what I'm talking about,
+- [13:24] I'd love to pause for some of those and
+- [13:26] then of course for the the rest of them,
+- [13:27] we'll we'll we'll take them at a chunk
+- [13:28] at the end.
+- [13:30] >> Yeah, I think we can keep going with
+- [13:32] with ruler if you want to talk about
+- [13:33] that.
+- [13:34] >> Okay. Um All right. So, okay. So, one
+- [13:40] more thing um that that uh we've
+- [13:43] released a few months ago that that I
+- [13:45] think is really cool, this uh this
+- [13:46] concept called ruler. So, um I need to
+- [13:50] lay the stage for everyone a little bit.
+- [13:52] Um I think at this point uh a lot of
+- [13:55] folks know how RL works, but but let me
+- [13:57] just give uh you know a very brief
+- [13:59] background. So basically what you're
+- [14:00] doing is um in order to train a model
+- [14:04] with RL or train an agent that uses you
+- [14:06] know is backed by a model with RL what
+- [14:09] you what it needs to do fundamentally is
+- [14:10] it needs to be able to go out it needs
+- [14:12] to go out and attempt to do the task. Um
+- [14:14] try really hard to to solve the problem
+- [14:16] whatever the the task is you know
+- [14:18] whatever the thing is this agent
+- [14:19] supposed to be doing once by the time
+- [14:20] it's done. And then at the end of that
+- [14:22] you have to be able to tell it yep you
+- [14:23] did a good job or no you did a bad job.
+- [14:26] Um, and the reason you need to do that
+- [14:28] is because, uh, you know, you want to
+- [14:31] slightly every single time you do this,
+- [14:33] you want to slightly adjust the weights
+- [14:35] of the model. So, it's slightly more
+- [14:36] likely to do the thing, um, that, you
+- [14:38] know, is is the right thing, the the
+- [14:40] actual like, you know, doing the task
+- [14:42] well, and less likely to do the thing,
+- [14:44] which is doing the task poorly.
+- [14:46] Um, there's a few big barriers to
+- [14:49] actually getting this set up. And
+- [14:51] frankly, these these barriers kind of
+- [14:52] logistical barriers um more so than kind
+- [14:55] of uh you know, fundamental technical or
+- [14:57] research barriers are um you need you
+- [15:00] you do need to be able to like
+- [15:01] consistently tell it, hey, did you do a
+- [15:03] good job or a bad job? Um and sometimes
+- [15:05] that's easy. You'll see a lot of the
+- [15:08] results that say academic labs put out
+- [15:10] um about RL are things like, hey, it can
+- [15:12] solve these really complex math problems
+- [15:14] um or it's really really good at writing
+- [15:17] code that passes, you know, these
+- [15:18] pre-existing tests. Um the reason or or
+- [15:22] one reason why that's been such a big
+- [15:24] focus is because those tasks are in a
+- [15:27] very convenient shape um for RL because
+- [15:29] it's very easy to know if you got the
+- [15:31] right result, right? Um you know for for
+- [15:33] a lot of these math problems it's like
+- [15:34] hey um you know you just you you need
+- [15:37] the final output hopefully is say you
+- [15:39] know whatever some integer between one
+- [15:41] and a thousand or something like that.
+- [15:42] Um and so you can very easily once it's
+- [15:45] done all its calculations and figured it
+- [15:46] out um it gets some final number. you
+- [15:48] can say, hey, is this the right number
+- [15:49] or the wrong number? Um, and then you
+- [15:52] can use that to tell, hey, you know, was
+- [15:53] all this thinking and calculations I did
+- [15:55] along the way correct or not? Okay, so
+- [15:59] um that's why math and and code
+- [16:01] especially specifically code that has
+- [16:03] kind of like unit tests that you can
+- [16:04] like run you know um similarly it
+- [16:07] generates the code you can run the test
+- [16:08] and say oh okay it passed the test or it
+- [16:10] failed the test. Um so that's why those
+- [16:11] have been very popular uh for RL. many
+- [16:15] real world tasks are not quite so cut
+- [16:17] and dry. In many cases, it's like, oh,
+- [16:19] if you're, you know, a customer
+- [16:21] assistance bot, it's like, okay, you
+- [16:23] know, you it's gone through it's done
+- [16:24] this whole interaction like did it
+- [16:26] succeed or not? I mean, it's kind of
+- [16:28] hard to know because you don't know
+- [16:29] going in necessarily what the customer
+- [16:30] is trying to accomplish and like what
+- [16:32] the correct outcome is. Um, which can be
+- [16:36] more challenging. And so, um,
+- [16:39] so, so that's been a big barrier to
+- [16:41] entry. ruler, which is what I'm about to
+- [16:43] talk about right now, is a very specific
+- [16:45] and and somewhat opinionated um way to
+- [16:48] solve that problem. Um, but it's one
+- [16:50] that I'm really excited about because
+- [16:52] we've tried it on a bunch of different
+- [16:54] customer tasks and a bunch of different,
+- [16:55] you know, of our own example tasks as
+- [16:56] well and gotten really good results. Um,
+- [16:59] so what it is, uh, ruler stands for, uh,
+- [17:02] relative, uh, universal LM elicited
+- [17:05] rewards. Um, that's the the backy. the
+- [17:08] um what it is it's it's a very specific
+- [17:11] kind of parameterized LMS judge. And so
+- [17:14] what you do if you want to use ruler is
+- [17:16] um you do have to be able to run the
+- [17:19] same task multiple times in parallel. Um
+- [17:21] that's an important constraint. That's
+- [17:23] also a constraint of um GRPO which is a
+- [17:25] very specific RL algorithm um that that
+- [17:28] we use typically when we can. Sorry,
+- [17:31] I've got something in my throat. Um and
+- [17:34] so uh what it does is once you've done
+- [17:36] well basically the way it works is you
+- [17:38] you go out and you try and do the task
+- [17:40] four times or whatever something like
+- [17:42] that. Um and uh and then you take all
+- [17:45] those results back and um it's ruler
+- [17:49] basically tries to in a very token
+- [17:51] efficient way say okay this is sort of
+- [17:52] the setup. They were all trying to do
+- [17:54] the same thing. These are kind of the
+- [17:55] four different outcomes we had and then
+- [17:58] give like relative ranked um scores to
+- [18:00] to these four different outcomes. And it
+- [18:02] turns out um there's a bunch of issues
+- [18:04] with LMS judge in general um but but
+- [18:08] when we when we put it in this framework
+- [18:10] in this constraint it works really well
+- [18:12] in practice. We found even compared to
+- [18:14] um using our own handwritten rewards um
+- [18:16] and using kind of like ground truth data
+- [18:18] we had um the the models that are
+- [18:21] trained with ruler um typically either
+- [18:24] match or exceed the performance of uh of
+- [18:27] models that are trained without ruler um
+- [18:29] that are that that require that manual
+- [18:31] work. So it's really cool. Um it's all
+- [18:33] open source. Uh you know we we also have
+- [18:34] a blog post about it which we can
+- [18:36] probably um share uh in the chat or
+- [18:38] share in an email after this. But um
+- [18:40] basically it lets us um you know it it
+- [18:43] lets you as the user sort of not have to
+- [18:46] think too hard about okay how do I
+- [18:47] determine what a reward is because you
+- [18:50] can just sort of throw this at it and
+- [18:51] and it for most tasks in fact every task
+- [18:53] we've tried it seems to work really
+- [18:55] well.
+- [18:58] >> Cool. Yeah. So
+- [19:01] I guess before we get into serverless
+- [19:03] RL,
+- [19:04] should we talk about just like what we
+- [19:08] struggled with doing all this without
+- [19:11] things like serverless RL? Um you want
+- [19:14] to just talk through some of those?
+- [19:15] >> Yeah, well I'll talk through it really
+- [19:17] quick. Um I think people are going to
+- [19:19] have I I want to sh save a lot of this
+- [19:21] time for the uh the questions.
+- [19:23] >> Um so um yeah, Daniel's here trying to
+- [19:26] get us to sell our product. like I just
+- [19:28] want to like talk about cool technology.
+- [19:31] >> That's fair.
+- [19:33] >> Really cool technology. I'm very excited
+- [19:34] about it. Um so so anyway, ruler is one
+- [19:39] uh like one solving the problem of okay,
+- [19:42] how do I figure out what a good or bad
+- [19:43] run looks like? Um I would say like as a
+- [19:46] general northstar, what we're very
+- [19:47] focused on as the open pipe team um now
+- [19:50] at Core Reef is making all this stuff as
+- [19:52] easy to use as possible. um which it
+- [19:55] historically has not been at all easy to
+- [19:56] use for many different reasons. Um so
+- [19:58] anyway, yes, this reward thing is one of
+- [20:00] them. Um you know, I didn't even talk
+- [20:02] about kind of our framework ART, but
+- [20:03] this is all part of if if you look up
+- [20:05] ART, um it's our open source
+- [20:07] reinforcement learning framework. I
+- [20:08] think it's the easiest way to actually
+- [20:10] successfully do um RL runs. Um fully
+- [20:13] open source. You can run it on your own
+- [20:15] GPUs. Um but we found that like as
+- [20:18] people were experimenting with this,
+- [20:19] actually running it on your own GPUs was
+- [20:21] itself a source of friction. um
+- [20:23] especially for people coming more from
+- [20:25] the AI engineer side um not the not the
+- [20:28] ML train or even people who had trained
+- [20:30] models like with simpler things like SFT
+- [20:32] because with RL um it's actually quite a
+- [20:35] complex training loop because you have
+- [20:37] to be in every sing every time you're
+- [20:38] updating the model you're starting by
+- [20:40] okay I have to um you know generate a
+- [20:43] bunch of of runs using my existing model
+- [20:45] and then score all of them and then use
+- [20:48] those scores and sort of the the sort of
+- [20:50] trajectory the the traces from that run
+- [20:53] um to update the model weights. Um and
+- [20:55] it turns out doing that is like actually
+- [20:57] hard to do efficiently um for for a lot
+- [21:00] of reasons. Um and also just like
+- [21:02] painful to like get the hardware because
+- [21:03] you need like training GPUs and also
+- [21:05] separately you need um the GPUs to uh to
+- [21:08] to do the rollouts or like actually run
+- [21:10] your model as you're going. Um, and you
+- [21:12] can use the same GPUs for both, but then
+- [21:14] it gets a little bit tricky because you,
+- [21:16] you know, these are typically like
+- [21:17] different software stacks and you, you
+- [21:19] know, there if you're sharing the same
+- [21:20] GPU memory for both of them, you have to
+- [21:22] be able to like load and unload it,
+- [21:23] otherwise you you run out of memory. So,
+- [21:25] there were actually like a lot of just
+- [21:26] like practical infrastructure headaches
+- [21:29] in making this work. Um, and as we
+- [21:32] worked with customers, uh, and just like
+- [21:34] users of the open source problem
+- [21:35] project, uh, we ran into this and
+- [21:37] frankly we ourselves ran into this as
+- [21:38] well, uh, just like doing research on
+- [21:40] our own projects. So um so that was the
+- [21:43] impetus for um our most recent launch uh
+- [21:46] from a few weeks ago called serverless
+- [21:48] RL. Um so serverless RL is uh I think I
+- [21:53] mean I'm I'm biased here but I think a
+- [21:54] very elegant uh solution to this
+- [21:57] problem. Um what it does is it lets you
+- [22:01] offload to to our servers to our GPUs
+- [22:04] the actual like model training and model
+- [22:06] inference while everything else lives in
+- [22:10] your own codebase on your um you know on
+- [22:13] on your laptop or your server wherever
+- [22:15] you're you're running your your training
+- [22:16] load um loop. And the reason this is
+- [22:20] important as opposed to you know just
+- [22:21] having doing everything on our side um
+- [22:24] is because actually the um you know the
+- [22:29] way that the environment your agent is
+- [22:30] running in can be very very diverse
+- [22:32] right like I gave the example of this
+- [22:33] email one well that one probably needs
+- [22:34] to connect to say your Gmail inbox or
+- [22:37] you know whatever email inbox you're
+- [22:38] using via um via API um you know it may
+- [22:42] rely on say you know some local like
+- [22:44] vector database you have that it can
+- [22:46] query and write things to and read
+- [22:47] things Um um so and and just the the
+- [22:50] sort of tools available and like the
+- [22:52] infrastructure back in those tools is
+- [22:54] incredibly diverse um across all the
+- [22:57] different types of environments you
+- [22:58] might want to run. And so um so it's
+- [23:01] it's best for you to manage that
+- [23:02] infrastructure and set it up and you
+- [23:04] know if you're trying to make an agent
+- [23:05] that automates your own codebase you you
+- [23:07] probably want your own kind of like
+- [23:08] production codebase available for the
+- [23:10] agent to be able to hit those APIs and
+- [23:11] do things. So um because of that um all
+- [23:16] that stuff runs on your side. Same thing
+- [23:18] with setting rewards, right? So if
+- [23:20] you're using ruler then the reward is
+- [23:22] fairly simple. Um if you're not using
+- [23:24] ruler, the code you use to decide if an
+- [23:27] agent run is good or bad um can be like
+- [23:30] very complex and it's and it's very very
+- [23:32] task specific. And so, you know, you
+- [23:34] want to have the freedom to play with
+- [23:35] those and experiment with those and um
+- [23:38] so um so that all runs on your side and
+- [23:41] all that runs on our side is the actual
+- [23:42] training and the actual inference. And
+- [23:43] so um it's uh yeah, it's it's very
+- [23:46] convenient. Um we have lots of examples.
+- [23:48] uh you just um and uh and oh and by the
+- [23:51] way it's actually cheaper to do this um
+- [23:53] than to run it yourself as well
+- [23:54] typically um because you end up with uh
+- [23:58] we can actually get much better GPU
+- [24:00] utilization which is like a pretty
+- [24:02] tricky thing to get with RL especially
+- [24:04] if you're interacting with outside
+- [24:05] systems because if you think about it if
+- [24:07] say something like an email agent right
+- [24:09] like your model is producing a response
+- [24:11] and then you're using that response to
+- [24:13] like go out and like hit some API and
+- [24:16] get the answer back Um and uh and during
+- [24:18] that time, you know, your your model's
+- [24:20] not using and then later on if you're
+- [24:22] doing ruler say you're sitting there at
+- [24:24] the end waiting for your judge model to
+- [24:25] like think about it and come back with
+- [24:27] scores and during that your GPU is not
+- [24:28] doing anything. So you can end up with
+- [24:30] pretty poor GPU utilization in this
+- [24:32] case. Um whereas if you use us uh use
+- [24:36] our our shared service for this since
+- [24:39] we've got like bunches of different
+- [24:40] users multi we're multiplexing jobs from
+- [24:42] like many different users all at the
+- [24:43] same time um we end up with like much
+- [24:45] higher average utilization which means
+- [24:46] basically like we're not paying for idle
+- [24:48] GPUs uh as as much as you most likely
+- [24:50] would be uh on your own. So for those
+- [24:53] reasons it's cheaper um and also just
+- [24:54] like more convenient. You don't have to
+- [24:55] worry about it. So anyway, there's
+- [24:57] there's my pitch for serverless RL. Um I
+- [24:58] actually think it's really cool. Um but
+- [25:01] uh but but yeah, you can find out more
+- [25:03] on our on our blog.
+- [25:05] >> Cool. I I think one of one of the most
+- [25:07] compelling pain points from our own
+- [25:09] team, Kyle, is one of our engineers who
+- [25:12] just goes like when he wakes up in the
+- [25:14] morning and his training job, you know,
+- [25:16] died. He just goes, "I'm just sad." You
+- [25:18] know,
+- [25:20] we're trying to make you not as sad for
+- [25:22] anyone running this type of stuff.
+- [25:25] >> Yes. Exactly. And and that's that's a
+- [25:26] great point because like these things
+- [25:29] they are complex systems and yeah the
+- [25:31] GPU can go down and have like an error
+- [25:33] can just like run out of memory because
+- [25:34] you had a sequence too long or
+- [25:35] something. So if you use serless RL then
+- [25:37] that's like not your problem. It's our
+- [25:39] problem and we just make sure it keeps
+- [25:40] running.
+- [25:42] >> Shall we get into some of these?
+- [25:44] >> Yes questions. Kyle,
+- [25:46] >> let's do it. Okay. Looks like we've
+- [25:47] started getting questions. Please keep
+- [25:49] posting your questions as we go. We're
+- [25:50] going to get through as many as we can.
+- [25:52] Um, I wish that we had a way to sort by
+- [25:55] reactions. Maybe
+- [25:57] you want to Yeah. You want to tell me as
+- [25:58] we go, Daniel?
+- [25:59] >> Yeah. Yeah. Let's start with uh
+- [26:03] fellow Daniel goes, "Uh, what what is
+- [26:07] what is your take on the car Carpathy
+- [26:09] interview and and how are you thinking
+- [26:11] through that?"
+- [26:12] >> Okay, awesome. So Daniel is referring to
+- [26:15] an interview on the Doresh podcast that
+- [26:17] came out last week I believe um with
+- [26:20] Andre Karpathy who is you know very
+- [26:22] well-known practitioner um you know one
+- [26:25] of one of the co-founders of OpenAI led
+- [26:28] uh led the self-driving effort at Tesla
+- [26:30] for quite a while. So um very very uh
+- [26:33] credentialed guy and just like a smart
+- [26:35] guy. Um he um you know he in this
+- [26:40] interview he said hey like you know
+- [26:41] everyone's super excited about RL right
+- [26:42] now. Um but like you know it doesn't it
+- [26:46] doesn't actually work that well. Um he's
+- [26:47] I mean he's like basically like there's
+- [26:49] going to be more stuff we need. Um I
+- [26:52] totally agree with that. Like that's
+- [26:53] that's like been our experience I think
+- [26:56] to get I mean the context he was talking
+- [26:57] about this in. And so anyway, that sort
+- [26:59] of like kicked off kind of like this
+- [27:00] this I don't know like Twitter um kind
+- [27:03] of like argument about whether this is
+- [27:05] this is true or not. I mean um I think I
+- [27:08] think like I agree. I think most people
+- [27:10] using this stuff agree. It's like
+- [27:11] frankly I don't think RL is going to get
+- [27:13] us to like on its own the fully
+- [27:15] autonomous employee who just like does
+- [27:18] everything like a human and you would
+- [27:20] choose instead of a human. Um I don't
+- [27:22] think we're there. Um you know and I
+- [27:24] think that probably we we'll need to
+- [27:25] figure out some new breakthroughs to get
+- [27:26] there. I think if what you're trying to
+- [27:29] do is deploy an agent in kind of like a
+- [27:32] very scoped area to do a specific type
+- [27:35] of task to be like an assistant for
+- [27:36] humans um RL is much better at getting
+- [27:40] you a capable agent of doing that than
+- [27:42] anything else we've tried so far which
+- [27:43] by the way is also something he's like
+- [27:45] yeah like RL really sucks is just like
+- [27:47] sucks less than like you know all the
+- [27:48] other stuff we've had so far which which
+- [27:50] I think is is um a fair take. Um anyway
+- [27:54] yeah so that's that that's my take at
+- [27:55] least. Yeah, I think per per the whole
+- [27:58] like in context out of context uh you
+- [28:01] know AI situation the the in context of
+- [28:04] what he was saying was it just sucks
+- [28:07] less than everything else that exists
+- [28:10] not that it inherently you know sucks
+- [28:13] generically. So I I think that's
+- [28:15] important for people who just watch that
+- [28:17] first 30 seconds of what he was saying.
+- [28:20] Uh cool. Uh next,
+- [28:23] uh how so
+- [28:26] let's let's do this one. This is more of
+- [28:29] a generic uh like resource question,
+- [28:31] Kyle,
+- [28:32] >> but what are the like best
+- [28:35] >> high signal and this this is also from
+- [28:37] Daniel, but got a lot of up votes. What
+- [28:39] are the best high signal like low noise
+- [28:42] sources to stay up to date with with all
+- [28:44] of these RL advancements and preferably
+- [28:47] like not needing a PhD in this?
+- [28:51] >> Okay, that's a good question. Um, yes,
+- [28:54] if you're not like obsessively curating
+- [28:56] your your your Twitter followers list,
+- [28:59] um, uh, for people who are high single
+- [29:01] and low noise, um, I would say probably
+- [29:05] so so there's there's there's this guy
+- [29:07] named Nathan Lambert. um who has a
+- [29:10] newsletter called interconnects. Um I
+- [29:12] think it's weekly. Um but he puts out uh
+- [29:16] I I find it very high signal. Um you
+- [29:18] know it's it's usually sort of a uh you
+- [29:21] know like a summary of things that I've
+- [29:22] already seen, but he also has like very
+- [29:24] very thoughtful takes on it. So um if I
+- [29:26] were just following one information
+- [29:27] source to figure out what is and isn't
+- [29:29] working and someone who has somewhat
+- [29:31] less of a motivated agenda than most
+- [29:33] people in in this space, um I mean he's
+- [29:36] he's you know still has his projects.
+- [29:38] he's he's excited about, but um I find
+- [29:40] it like a pretty good source of
+- [29:41] information.
+- [29:45] >> Awesome. Uh this one's by Alex Duffy. Um
+- [29:50] what's the best way to run short RL runs
+- [29:53] to figure out kind of the best parameter
+- [29:55] data mix leads? Uh like what what leads
+- [29:59] to best results before doing a much
+- [30:02] larger training run?
+- [30:04] >> Okay, that's a good question. So there
+- [30:06] was actually a great paper that came out
+- [30:08] I think also last week um from the the
+- [30:10] team at Meta or one of the teams at Meta
+- [30:13] um called Scale RL um which maybe we can
+- [30:15] search for and post here. Um it's uh I
+- [30:20] mean basically they spent like 5 million
+- [30:22] bucks like doing a bunch of runs uh and
+- [30:24] and but what they were trying their goal
+- [30:26] I mean they had two goals I think from
+- [30:28] the paper. Uh one was to sort of like
+- [30:30] try some very specific different uh you
+- [30:33] know algorithmic changes. um they didn't
+- [30:35] really play with the data mix at all.
+- [30:36] But um they did do algorithmic changes.
+- [30:38] They tried different models. They tried
+- [30:41] uh yeah like just um different different
+- [30:43] ways of kind of like using async uh you
+- [30:47] know off policy RL to uh be more um
+- [30:50] compute efficient and anyway but so so
+- [30:53] one of the thing was like a bunch of
+- [30:53] like very specific interventions and
+- [30:55] figure out hey which of these work. Um
+- [30:57] the other thing though that they were
+- [30:59] trying to do was establish kind of a
+- [31:00] concept of scaling laws and say like hey
+- [31:02] is there a way to estimate based on
+- [31:03] small training runs um or you know early
+- [31:06] on in a training run where you're going
+- [31:08] to asmtote out at and they had a lot of
+- [31:10] success with that. So that's what I
+- [31:12] would recommend is um they kind of they
+- [31:14] they share their code of uh basically
+- [31:16] like how they they fit these sigmoid
+- [31:18] curves on on rewards
+- [31:20] um based on like early results and they
+- [31:22] were very predictive of later results as
+- [31:24] well. So, um, so that's what I' I'd
+- [31:27] recommend is probably just like using,
+- [31:29] uh, those same like sigmoid fitting, uh,
+- [31:32] approach that they did.
+- [31:36] Um, yeah, let's see what's next.
+- [31:40] >> I found some I found Nathan's post about
+- [31:43] scale RL. That way we can
+- [31:45] >> Perfect. Yeah, double that up.
+- [31:47] >> Double that up. Um, I saw this one to
+- [31:51] uh, let me see if I can find it again.
+- [31:53] Oh, from Benjamin White. Uh, so from
+- [31:55] your empirical studies on RL versus SFT,
+- [31:59] uh, do you have any experiments or
+- [32:01] recommendations on first doing an
+- [32:03] initial SFT step before, uh, kind of
+- [32:06] running a your main RL run?
+- [32:10] >> Yeah. No, that's a great question. Um, I
+- [32:12] think if you talk to different people on
+- [32:13] the Open Pipe team, you'll probably get
+- [32:15] different answers than mine, but I'll
+- [32:17] share my like very opinionated answer.
+- [32:19] Um I don't see a huge advantage for sort
+- [32:23] of an SFT warm-up um or SFT bootstrap
+- [32:26] phase. Um so so what what people will do
+- [32:29] sometimes and and what a lot of people
+- [32:30] will recommend is um when you're
+- [32:32] starting with your small model you you
+- [32:34] get some nice strong data um you do SFT
+- [32:37] using that data um to to sort of like
+- [32:40] get it started get it in the right or
+- [32:41] you know path and then from that that
+- [32:44] sort of like now um somewhat more
+- [32:47] oriented model I guess you could say or
+- [32:48] line model you do RL on top of that to
+- [32:50] make it stronger. Um that's pretty
+- [32:52] typical like a lot of people do that.
+- [32:54] Um, so I would say like the the sort of
+- [32:56] like standard answer would be like yeah
+- [32:57] that that can often make sense. When
+- [33:00] I've tried I've like generally not
+- [33:02] gotten stronger final results um from
+- [33:04] doing that as opposed to just doing the
+- [33:07] RL um for for slightly longer. Um so
+- [33:12] anyway um yeah I mean like I I could
+- [33:14] imagine regimes where it's like oh it's
+- [33:16] just like so terrible to start that it
+- [33:18] can just never get any reward. Maybe
+- [33:20] some SFT will help. But if you're in
+- [33:21] that bad of a place, then like usually
+- [33:24] even if you do the SFT plus RL, you're
+- [33:25] probably not going to get to a good
+- [33:26] enough place that you're um actually you
+- [33:29] actually have something useful. That's
+- [33:30] my take. Um yeah, like I I could still
+- [33:33] be proven wrong. I haven't done like
+- [33:35] enough uh experiments here to like know
+- [33:37] that's always true, but that's been my
+- [33:39] experience when when I have done it.
+- [33:41] >> Cool. Uh Carlos
+- [33:44] Costa says curious to hear about RL for
+- [33:47] vision tasks um like segmentation and
+- [33:50] image classification. You want to talk
+- [33:52] about what's coming on art maybe?
+- [33:55] >> Yeah. So I mean yeah we're we're
+- [33:57] actively adding support to art for RL on
+- [34:00] you know vision language models um for
+- [34:03] you know when you're talking about
+- [34:04] segmentation things like that that
+- [34:05] sounds like almost uh you know like a
+- [34:07] pure um just vision model. I uh yeah I
+- [34:12] mean I have I'm sure people are
+- [34:14] experimenting with RL for that. I think
+- [34:16] it's like I think it's not as hot an
+- [34:18] area as language models just you know
+- [34:20] candidly like it's not something that as
+- [34:21] many researchers are working on and
+- [34:23] maybe it's also like slightly more
+- [34:24] connect disconnected from my bubble so
+- [34:25] I'm not fully up to date on what people
+- [34:27] are doing there. Um I would imagine it
+- [34:29] would work fine but uh but it's not
+- [34:31] something that like I've seen any
+- [34:32] specific results on. I can speak to.
+- [34:35] Ted Spar says, "Uh, when might we start
+- [34:38] seeing online RL in production? Do you
+- [34:40] want to talk about like cursor tab and
+- [34:42] things like that?"
+- [34:44] >> Um, yeah. So, I mean, yes, uh, there has
+- [34:48] been, um, one, uh, so, okay, backing up,
+- [34:52] online RL is this concept of, you know,
+- [34:54] sometimes people talk talk about, uh,
+- [34:56] continual learning. I guess continual
+- [34:57] learning could refer to other things as
+- [34:58] well, but it definitely would refer to
+- [35:00] this. Um but it's this concept uh that
+- [35:04] um you uh as as you are your your agent
+- [35:09] or your model is being used um it is uh
+- [35:12] you know getting feedback on its on how
+- [35:15] it's doing and then improving over time.
+- [35:16] Um this is like a super powerful
+- [35:18] concept. Um super exciting. It's
+- [35:20] something that I am personally very
+- [35:21] excited about, very bullish on. uh and I
+- [35:23] think will be very very effective and
+- [35:25] and we've kind of got some um customers
+- [35:27] that we've been playing around with as
+- [35:29] precursors. Um as far as I'm aware, it's
+- [35:33] either not at all or extremely rarely
+- [35:36] actually deployed um in production uh at
+- [35:38] least that that people are willing to
+- [35:39] talk about. So, so Daniel mentioned
+- [35:41] there was there was a blog post maybe a
+- [35:42] month or so or maybe a couple months
+- [35:44] back um from cursor about specifically
+- [35:47] on their their tab model um where you
+- [35:50] know it suggests text where your cursor
+- [35:52] is. Um but I think you know they're a
+- [35:55] little bit unclear on the details. I I
+- [35:56] think that the blog post they were even
+- [35:57] just not even talking about the tab
+- [35:58] model itself. They had like a separate
+- [36:00] classification model that you know
+- [36:02] basically the tab model produces a
+- [36:04] candidate output and then they have like
+- [36:05] a class classification model that
+- [36:07] decides hey should we actually propose
+- [36:10] this you know is there a good chance the
+- [36:11] user would actually accept it or or
+- [36:13] should we not and I think it was just
+- [36:14] actually that classification model they
+- [36:15] were talking about training um with
+- [36:17] online learning um and it's also not
+- [36:20] entirely clear to me that they were
+- [36:20] using RL because it's not always yeah
+- [36:23] like if you have a classification model
+- [36:24] that's not doing any kind of like
+- [36:26] intermediate thinking it's like doesn't
+- [36:28] really sound like an RL So anyway,
+- [36:30] that's like the one example people point
+- [36:31] to as as as doing this. Um, as far as we
+- [36:35] know, none of the big labs are doing it
+- [36:36] um, you know, at least not in a tight
+- [36:38] loop where they're like, you know, you
+- [36:39] know, training their their chat models
+- [36:42] or something like that um, as they're
+- [36:43] going. Um, you know, so um, when will we
+- [36:47] see this happening? Well, there's a few
+- [36:49] pieces that are important. One is just
+- [36:50] purely on the infrastructure side. It's
+- [36:52] kind of uh there hasn't there have not
+- [36:55] been good primitives I would say for
+- [36:57] training and then deploying the model.
+- [36:59] Um that's one of the things that I was
+- [37:00] very excited about with our serverless
+- [37:02] RL thing. I guess just to plug that
+- [37:03] again really quick. Um we dep we
+- [37:05] designed it in such a way like the API
+- [37:07] shape and everything. um as well as the
+- [37:09] sort of like technical implementation
+- [37:10] where as you are training model using
+- [37:12] serverless RL you can at any point just
+- [37:15] like immediately start running
+- [37:16] production inference on that model which
+- [37:18] which means it actually has all of the
+- [37:19] pieces you need um where you could be
+- [37:22] running production inference uh as you
+- [37:24] go um and and just like continually
+- [37:26] learning um but on the uh on the sort of
+- [37:30] like algorithmic side and like okay how
+- [37:32] do you do this in practice in a way
+- [37:34] where you're not sort of like forgetting
+- [37:35] the old stuff and things like that um I
+- [37:37] think there are some tasks or or at
+- [37:39] least like building confidence that you
+- [37:40] can do it. Um where you know the the
+- [37:42] gain is is uh you know outperforming the
+- [37:45] what it you know losses. Um so uh so
+- [37:49] there's definitely still work to do. I
+- [37:50] would expect that in the next certainly
+- [37:53] in the next six months um because this
+- [37:55] is an area that is getting a lot of
+- [37:56] attention from a lot of folks right now
+- [37:57] and I don't think there's any like
+- [37:58] insurmountable technical challenges. um
+- [38:01] we should start seeing uh you know I
+- [38:03] expect in the next six months we'll see
+- [38:04] we'll see a prominent deployment of
+- [38:05] someone doing this successfully um and
+- [38:08] then you know maybe in the six months
+- [38:09] after that it'll be um you know much
+- [38:11] more widely diffused as a as a
+- [38:13] technology. That would be my my best
+- [38:14] guess.
+- [38:16] >> Nice. I I know you're pretty bullish on
+- [38:18] online RL out of out of curiosity. What
+- [38:21] what would be your guess as far as where
+- [38:24] we would see that first? Like what what
+- [38:25] kind of implementation would that look
+- [38:27] like?
+- [38:28] Yeah, I mean I think uh you know
+- [38:30] something like a cursor is a good place
+- [38:32] for it. Somewhere where you see um a
+- [38:35] high level of usage uh and there's you
+- [38:38] know like a relatively clean uh success
+- [38:41] metric of whether it succeeded or not.
+- [38:43] Um so you know I I think code might be a
+- [38:46] good place just because it is the use
+- [38:48] case that has the most usage. Um at
+- [38:50] least besides like you know uh chat and
+- [38:53] and you know like maybe maybe research.
+- [38:55] Um and sometime and and if you if you
+- [38:58] formulate it properly um you know like I
+- [39:01] could imagine something like a cloud
+- [39:03] code or a codeex or AMP or whatever say
+- [39:06] you know explicitly designing um their
+- [39:09] their coding models to first produce a
+- [39:12] set of test cases and say like hey user
+- [39:13] do these test cases look good yes or no
+- [39:15] and then the user says yes those test
+- [39:17] cases look good and then have a second
+- [39:18] phase where it like you know tries to
+- [39:20] build the feature um to pass all the
+- [39:22] test cases and then like sort of doing
+- [39:23] RL in a much tighter loop on okay were
+- [39:26] we able to create clean code that that
+- [39:28] passed all the test cases so so
+- [39:29] something like that might be the first
+- [39:30] place we see it at scale
+- [39:33] >> awesome uh this is a question from
+- [39:35] Rustin Sue uh says wonder why for deep
+- [39:39] research bench you train directly on the
+- [39:41] benchmark questions I'm going to expand
+- [39:43] this question and I I think there's been
+- [39:45] a lot of conversations about like
+- [39:47] training on benchmarks and that being
+- [39:50] like a a false signal so curious your
+- [39:52] thoughts on that
+- [39:53] >> yeah so Um I so yeah that I think it was
+- [39:57] a little bit uh confusing there we um so
+- [40:00] for the deep research bench this is my
+- [40:02] recollection and like for the record I I
+- [40:04] didn't actually work on this project but
+- [40:05] one of one of our engineers did my
+- [40:07] understanding is that for the deep
+- [40:09] research bench itself there is no
+- [40:11] separate training set um there it's just
+- [40:14] kind of like a benchmark um so what we
+- [40:16] did is we and I think there's like a
+- [40:19] hundred or a couple hundred questions
+- [40:20] something like that total so so we we
+- [40:23] basically split it into our own training
+- [40:25] and test set. So we would have some
+- [40:26] training data. So we took off whatever
+- [40:27] it was 60 or 70 questions. We trained on
+- [40:30] those ones. We held out the other 30 and
+- [40:31] didn't train on them and reported
+- [40:32] results on the ones that we held out. Um
+- [40:34] and then also for the other models we
+- [40:36] benchmarked against it. We benchmarked
+- [40:38] them on that held out set which we had
+- [40:40] chosen randomly from from the full set.
+- [40:42] Um so yes, it's it's not a directly
+- [40:44] comparable result to uh to to like
+- [40:48] results on the full set. However, um,
+- [40:50] for what it's worth, you know, for the
+- [40:51] other models that we, uh, that we
+- [40:53] benchmarked on our held out set, you
+- [40:55] know, that there was no like statistical
+- [40:58] bias, I guess I would say, and like, oh,
+- [41:00] the ones we held out were like easier or
+- [41:02] harder. Um, it was just like a random
+- [41:03] subsampling. Um, so yeah, that was the
+- [41:06] best we could do given that we didn't
+- [41:07] have another data set. Um, yeah, that's
+- [41:09] what that that's why we did that.
+- [41:12] >> Yeah. Um, question from Mukin Chadri.
+- [41:17] Uh, and and this is all exciting
+- [41:20] industry stuff. So, so good job keeping
+- [41:22] up to date on everything. How would you
+- [41:24] say that serverless RL differs from
+- [41:26] Tinker and also OpenAI's like APIs for
+- [41:31] for fine-tuning?
+- [41:32] >> Okay, awesome. Good question. So, um,
+- [41:37] those are two actually quite separate
+- [41:38] questions. Um, so, uh, so, so there's,
+- [41:42] um, yes, I guess I have to explain what
+- [41:45] these things are first. So um I'm going
+- [41:47] to talk about Tinker first because I
+- [41:48] think that's actually the more
+- [41:49] interesting one. So um thinking machines
+- [41:51] is uh you know very reinforcement
+- [41:55] learning pill company um started by the
+- [41:58] you know you know former execs at OpenAI
+- [42:01] um and uh and you know prominent people
+- [42:03] who are at anthropic as well um and uh
+- [42:07] they are trying to uh basically build um
+- [42:12] you know like make make reinforcement
+- [42:13] learning work at scale. So, one of the
+- [42:15] the the first actual product they
+- [42:16] released was um about a month ago um and
+- [42:19] it's called Tinker API. And so, what
+- [42:21] this is is it's a relatively low-level
+- [42:23] API. What it lets you do is basically
+- [42:25] they give you an endpoint and say, "Hey,
+- [42:26] you can send us um you know like a set
+- [42:28] of tokens um and you can send and and
+- [42:32] tell us to like train on those tokens
+- [42:34] and you tell us the loss function." Um
+- [42:36] you know, they have a bunch of
+- [42:37] predefined ones you can just kind of
+- [42:38] like pass in a string. They actually
+- [42:39] have this clever way where you can even
+- [42:40] like define your own loss function. Um
+- [42:42] but basically you give them a set of
+- [42:43] tokens you say hey this is the loss
+- [42:45] function they'll train the model and
+- [42:46] then you can also run inference against
+- [42:48] that model so that they designed it very
+- [42:49] much with RL in mind. So once you've
+- [42:52] trained the model you can start running
+- [42:53] inference on it and then you know as as
+- [42:55] you've got those uh tokens you're
+- [42:57] getting out of it you can you can then
+- [42:59] um you know like give them rewards and
+- [43:00] train on it again. It is a significantly
+- [43:04] lower level API um than what server what
+- [43:07] serverless RL is which has pros and
+- [43:09] cons. Um the pro is it gives you a lot
+- [43:10] more flexibility as a researcher. And I
+- [43:12] think that's super cool. In fact, like I
+- [43:13] think we might we probably should expose
+- [43:15] lower level APIs as well. Um very
+- [43:17] similar to the Tinker ones. So um you
+- [43:20] know it lets you if you want to play
+- [43:21] around with um you know like different
+- [43:24] ways of uh you know putting weights on
+- [43:27] your different messages in the group um
+- [43:29] or you know it gives you the
+- [43:31] flexibility. is like, "Oh, you don't
+- [43:32] have to use GRPO. You can use PO. You
+- [43:34] can do all these different things and
+- [43:35] and they don't have to like explicitly
+- [43:38] uh add support to do that because
+- [43:41] they're giving you a low enough level
+- [43:42] API with enough control that kind of you
+- [43:44] can do that." So, as a researcher, I
+- [43:46] think that's really cool. Um the
+- [43:49] downside there is it is significantly
+- [43:50] harder to use if what you're trying to
+- [43:52] do is just like run say gpo on um you
+- [43:55] know like a set of agent traces you end
+- [43:58] up having to do significantly more work
+- [44:00] um to to to get that running
+- [44:02] successfully. So so that's kind of like
+- [44:03] the the trade-off but I do think it's
+- [44:05] pretty cool. Um
+- [44:07] also part of the question there was a uh
+- [44:11] a question about so openai also has
+- [44:12] reinforcement learning APIs they call
+- [44:14] reinforcement f fin fine-tuning RFT. Um
+- [44:17] that one
+- [44:19] I have to be like very diplomatic in how
+- [44:21] I talk about it but it's uh I think it's
+- [44:23] quite bad. Um so uh I think that uh you
+- [44:26] know and I I just don't think anyone
+- [44:28] uses it. um they're operating at a far
+- [44:30] higher level abstraction we have and I
+- [44:32] think it's just much too high to be
+- [44:33] useful where you give them a data set
+- [44:34] but that means that they have to like
+- [44:37] come up with a concept where you can um
+- [44:40] uh basically like you have to somehow
+- [44:43] encode as like JSON like what your what
+- [44:45] your reward function is because they're
+- [44:46] going to be like running it in the back
+- [44:48] end um which is just like a very awkward
+- [44:50] thing to do and and that it doesn't give
+- [44:51] you the flexibility you need to to be
+- [44:53] successful um you can't do anything with
+- [44:55] tool calls you can't do anything with
+- [44:56] multi-turn because again it's all
+- [44:57] happening in the back and they don't
+- [44:58] have access to your tools or anything.
+- [45:00] So, I think it's quite an awkward API.
+- [45:03] Um, I'm I've like chatted with the team
+- [45:05] there several times and I've told them
+- [45:06] that to their face, so I don't feel that
+- [45:08] bad saying it. Um, but uh I do think
+- [45:10] that like, you know, if they want to be
+- [45:11] successful with this, they they probably
+- [45:12] need something that, you know, is is
+- [45:13] sort of like at our level or the the
+- [45:15] Tinker API level. I think that that's um
+- [45:17] the the right shape to um to have
+- [45:20] something that people can use
+- [45:21] successfully.
+- [45:24] >> Yeah. And I I think the complexity here
+- [45:25] and we talked to a lot of customers kind
+- [45:28] of from probably on this call from all
+- [45:30] different ranges of like ML expertise
+- [45:34] um like the different abstractions
+- [45:36] needed for for different like enterprise
+- [45:38] teams. So some teams might just want
+- [45:41] like to be engineers as as they've
+- [45:44] always been and don't really want to
+- [45:46] dive into like the lower level tinker
+- [45:49] like API. So I think that's an important
+- [45:51] distinction is it's also like who's
+- [45:53] using the product and and we see kind of
+- [45:55] that those different users uh bubble up
+- [45:58] on on different parts of the stack
+- [46:00] there. So um cool. Alex Duffy asks what
+- [46:04] are your thoughts on Prime Intellects
+- [46:07] environment hub and verifier?
+- [46:10] >> Cool. So yes um Prime Intellect uh is
+- [46:14] also an RL focused startup. they
+- [46:16] released an environment hub where you
+- [46:17] can kind of like define environments um
+- [46:20] and then you can sort of see other
+- [46:22] environments other people have defined
+- [46:24] uh and train on them. Um I do think I
+- [46:26] think it's I think it's very cool. I'm
+- [46:28] glad they did it. I think it sort of
+- [46:30] remains to be seen uh exactly yeah like
+- [46:35] what what what problem it solves. I
+- [46:36] guess I think I think where I would say
+- [46:39] like the the problem I would say it
+- [46:40] solves perhaps is if you're trying to
+- [46:44] get Frontier models to defi to to train
+- [46:48] against your specific environment so
+- [46:49] that the next version of the big model
+- [46:51] that they're coming out with um you know
+- [46:53] uses like is is really good at using
+- [46:56] your app or something like that um then
+- [46:58] it might be a way to accomplish that if
+- [47:00] if the Frontier Model Labs sort of like
+- [47:02] grab those environments and are training
+- [47:04] on them. um uh you know so far um I
+- [47:09] don't know if they are or not but like I
+- [47:10] think there's I think it's like a
+- [47:11] reasonable bet because like they're
+- [47:12] trying to grab every environment they
+- [47:13] can from like anywhere in the world. Um
+- [47:15] so yeah, I would say that'd be the the
+- [47:17] strongest argument for having kind of
+- [47:19] this open hub. I don't think that
+- [47:21] there's a huge advantage to having a hub
+- [47:24] for like if you as an individual at a
+- [47:27] company are trying to train a model um
+- [47:30] that's for your like your like that an
+- [47:33] agent like at your company can be used
+- [47:35] it's yeah I'm not sure the public hub is
+- [47:36] is going to really solve a problem for
+- [47:38] you there. Um yeah I think there's also
+- [47:40] some like kind of like API limitations
+- [47:42] with verifiers. It doesn't allow for
+- [47:43] multi-turn right now but my
+- [47:44] understanding is like will is working on
+- [47:46] that pretty actively. So so I think that
+- [47:47] limitation will will likely go away
+- [47:49] soon.
+- [47:50] I guess double tapping on environments
+- [47:52] for a second like what do you see as um
+- [47:57] the future of that or or what are you
+- [47:59] thinking through and how do you think
+- [48:01] about like world models that are you
+- [48:04] know talking about similar problems
+- [48:06] there?
+- [48:06] >> Yeah, it's a great question. So um
+- [48:10] I think that so we spent a lot of time
+- [48:12] both training models with reinforcement
+- [48:15] learning talking to customers trying to
+- [48:16] figure out okay who are the right people
+- [48:17] to to you know that this will actually
+- [48:19] help. In my opinion the biggest barrier
+- [48:22] to entry right now um is is actually
+- [48:26] building a custom environment for your
+- [48:28] agent which is something maybe we should
+- [48:29] have talked about earlier but um that's
+- [48:31] kind of like the biggest main barrier.
+- [48:32] So we talked about you know the the sort
+- [48:33] of like infrastructure stuff we've we
+- [48:35] have a good solution for. um even assign
+- [48:38] rewards we have a good solution for. But
+- [48:39] like really for your agent to to learn
+- [48:43] how to be effective in in um on your
+- [48:45] specific task, it needs a highly
+- [48:47] realistic environment with highly
+- [48:48] realistic tools you can work on. And
+- [48:50] right now that is still a very manual
+- [48:52] process where you need a strong domain
+- [48:55] expert in your area um to actually like
+- [48:57] figure out okay how do we you know are
+- [48:59] we are we having it actually run against
+- [49:00] my production codebase? Are we
+- [49:02] simulating that in some way? Um, and a
+- [49:04] lot of these agents are in practice like
+- [49:07] have human in the loop interactions. And
+- [49:08] so it's like okay well now now to train
+- [49:10] we have to simulate that human as well.
+- [49:12] So you need to figure out some way to
+- [49:13] have some other LLM simulate that human
+- [49:15] and do it in a way that is um like
+- [49:17] actually realistic which is a big issue
+- [49:19] because LLMs are pretty bad at you know
+- [49:22] like actually doing what a human would
+- [49:24] do um or at least have the full
+- [49:26] diversity of different ways a human
+- [49:28] might interact. So so I think that's a
+- [49:30] huge challenge right now. um something
+- [49:32] we are working on and thinking about
+- [49:34] very actively. Um I think there's a lot
+- [49:36] of interesting research directions. Uh
+- [49:38] there's there's different kinds of u
+- [49:39] actually like environment free RL that
+- [49:41] we're investigating. Um you know it' be
+- [49:43] really cool. There's this concept of a
+- [49:45] world model which is getting pretty
+- [49:46] popular these days where you're actually
+- [49:48] training a model or in some way um uh
+- [49:52] parameterizing a model so that it uh is
+- [49:55] is
+- [49:57] uh simulating your app's environment
+- [49:59] right where it's uh it's giving the the
+- [50:01] the responses as if they came from your
+- [50:03] API and the question is okay how do you
+- [50:05] make it so that it actually does that in
+- [50:06] a way that's um that's realistic like
+- [50:08] what your real app would look like so
+- [50:09] that the skills the agent's learning
+- [50:11] will then transfer to the real app. Um
+- [50:13] so so yes I think that that's like a
+- [50:15] major outstanding challenge um and and
+- [50:17] and one that uh we're we're very excited
+- [50:20] to work on.
+- [50:21] >> So I know we only have a few minutes
+- [50:22] left but Nicolage Hinsbow asks a
+- [50:25] relevant question that that we've been
+- [50:26] getting asked uh postacquisition.
+- [50:29] Uh what is the future of kind of our
+- [50:32] open-source art framework and are we
+- [50:34] still supporting that and and yeah could
+- [50:37] could you speak on that?
+- [50:38] >> Oh yeah absolutely. So, so yes, art is
+- [50:40] open source. That is that was a big part
+- [50:42] of um you know the discussion uh when we
+- [50:44] when we got acquired by uh by coreweave.
+- [50:47] Um and to be clear it wasn't like we had
+- [50:49] to negotiate to keep it open source.
+- [50:50] They were very excited about that. They
+- [50:51] like wanted you know that they they are
+- [50:53] excited about continuing to contribute
+- [50:54] to open source. Um and we are as well.
+- [50:56] Um so yes that's not going anywhere. Uh
+- [50:58] that's definitely going to be continue
+- [51:00] to be a first- class citizen. You won't
+- [51:02] need to use any core services. the the
+- [51:04] sort of serverless backend serverless RL
+- [51:06] I was talking about is um is actually
+- [51:08] under the hood running a very lightly
+- [51:11] modified version of like the existing
+- [51:13] ART back end and that's the that's the
+- [51:14] architecture we're planning on keeping.
+- [51:16] So it's not like we have any like secret
+- [51:17] proprietary stuff in the stuff we're
+- [51:19] running on our server. Um that's
+- [51:21] different than if you were just like
+- [51:22] running the actual open source project
+- [51:24] on your own computer. Um it's just that
+- [51:27] you it's going to be more efficient. You
+- [51:29] don't have to like worry about the the
+- [51:30] GPU provisioning. So yes, we will we
+- [51:32] will continue maintaining that. Um, and
+- [51:34] and yeah, we're very excited to to keep
+- [51:36] growing the the the community around
+- [51:38] that standard.
+- [51:40] >> Yeah. And then one we'll squeeze in one
+- [51:42] last question because I I like it. Elnas
+- [51:44] Nori says, "In our company, we have
+- [51:46] multiple places where we think we could
+- [51:48] use RL, but what CA categories of
+- [51:50] features are best suited for this, I
+- [51:53] guess, today, and what what's that
+- [51:56] playbook look like?"
+- [51:58] >> Okay, that is a great question. So um
+- [52:00] yes I think uh the envelope um you know
+- [52:03] the answer to this question I I I
+- [52:05] believe will continue expanding right
+- [52:07] now where I see the biggest sweet spot
+- [52:09] is um if you are forced to uh to move to
+- [52:14] an open- source or a smaller model
+- [52:16] anyway then RL can help you get to a
+- [52:19] really really great like strong place
+- [52:20] even better than you started from. So
+- [52:22] usually what does that look like? That's
+- [52:23] that's one of a few reasons. The biggest
+- [52:25] one is latency. So, if you have like if
+- [52:27] if you're doing real-time voice for
+- [52:28] anything, if you're taking calls, um,
+- [52:30] and you're having trouble with making
+- [52:32] that feel and sound natural to your
+- [52:34] users with the latency you get from like
+- [52:36] a large API model, you want to be able
+- [52:38] to run your own model, um, or you know,
+- [52:40] you need you get just the higher token
+- [52:42] per second and, uh, lower time to first
+- [52:44] token from a small model. Um, RL is a
+- [52:46] great way to take that small model and
+- [52:47] make it even stronger than the model you
+- [52:49] were coming from while still getting the
+- [52:50] really nice latency. Um if you have a
+- [52:53] hard constraint that you need to run in
+- [52:54] your own infrastructure maybe for data
+- [52:56] privacy reasons something like that um
+- [52:59] then RL can also help you take that open
+- [53:01] source model in your infrastructure and
+- [53:03] and get really good um performance out
+- [53:05] of it. But yeah, I would say the one we
+- [53:07] see the biggest um kind of like like
+- [53:11] market segment for right now is is those
+- [53:14] uh those those voice agents where you
+- [53:16] know that latency is just a huge is
+- [53:18] hugely important and we can help you
+- [53:20] have a really strong model that's also
+- [53:22] really small um and really fast. Um uh I
+- [53:26] do expect that that envelope is
+- [53:28] increasing over time especially as we as
+- [53:30] we are continuing to train larger models
+- [53:31] and make it easy to train larger models
+- [53:34] um than lots of other use cases uh you
+- [53:37] know just like general purpose agents I
+- [53:39] think um you know it's the the trade-off
+- [53:41] becomes uh much much more exciting much
+- [53:44] more favorable.
+- [53:46] >> Is that something that might happen
+- [53:47] soon?
+- [53:48] >> Extremely soon. Yes.
+- [53:50] >> Okay cool. Well, uh I know we have to
+- [53:52] wrap up here, but I I guess uh final
+- [53:55] word word, Kyle, do you want to just
+- [53:57] talk about best ways to get started? Um
+- [54:00] and then we'll wrap up.
+- [54:02] >> Yeah. Um so,
+- [54:07] a bad way to get started um is uh say,
+- [54:10] "Oh, I have a I have a problem. Let's
+- [54:11] figure out how to use RL for this." Kind
+- [54:13] of like a total green field project.
+- [54:14] What you really want to do is you want
+- [54:15] to you want to start by getting the
+- [54:16] harness set up. You want to start with
+- [54:18] using a prompted date model and get as
+- [54:20] good performance as possible with that.
+- [54:21] That's always where I would say get
+- [54:22] started. Once you have that and then
+- [54:25] ideally you can even push that all the
+- [54:26] way to production. Um once once you're
+- [54:29] at that stage uh then then it's becomes
+- [54:32] a much more tractable problem because if
+- [54:34] you're trying to do RL and you're also
+- [54:35] trying to like figure out oh how do I
+- [54:36] define my tools and how do I like
+- [54:38] actually integrate this agent into like
+- [54:39] you know my my larger processes. um it's
+- [54:42] just a lot uh you know like a lot to
+- [54:44] take on, a lot to like figure out
+- [54:46] mentally at the same time. Um so I would
+- [54:48] I would try and sequence those. Get
+- [54:49] something in production just using a
+- [54:50] proper agent and then um if it's not
+- [54:52] getting you the performance you want,
+- [54:53] put RL on top of it. Um that's that's
+- [54:55] where you you'll likely see the best
+- [54:57] success.
+- [54:58] >> Awesome. Well, thank you everyone for
+- [55:00] joining. I know there's more Weights and
+- [55:02] Biases webinars upcoming I think as soon
+- [55:04] as next week. So follow along there and
+- [55:07] for now uh thank you. Yeah.
+- [55:09] >> Awesome. Hi,
+- [55:11] >> thanks for all the questions.

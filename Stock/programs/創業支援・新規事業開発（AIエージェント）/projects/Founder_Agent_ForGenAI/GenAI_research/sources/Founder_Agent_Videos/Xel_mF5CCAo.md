@@ -1,0 +1,725 @@
+---
+title: "Transcript: Xel_mF5CCAo"
+video_id: "Xel_mF5CCAo"
+video_url: "https://www.youtube.com/watch?v=Xel_mF5CCAo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:27:06"
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI Agents"
+confidence_level: "high"
+---
+
+# Transcript: Xel_mF5CCAo
+
+- URL: https://www.youtube.com/watch?v=Xel_mF5CCAo
+- Retrieved at: 2025-12-30T11:16:54+09:00
+
+## Text
+
+- [00:07] Good afternoon everyone.
+- [00:09] If there's one message I would like you
+- [00:11] to take away from this talk is that eval
+- [00:14] can become a source of joy.
+- [00:18] Yeah. If you consolidate your agents
+- [00:21] tools into an MCP server. Okay. I'll
+- [00:23] explain more.
+- [00:25] Uh I'm Scott Yak from Data Do. What does
+- [00:28] Data do? Right. So, data dog is an
+- [00:31] observability platform. So, you send us
+- [00:33] metrics, traces, logs, and this nice
+- [00:35] telemetry data. We provide the tools to
+- [00:38] help you figure out whether your service
+- [00:39] is running as expected, whether there's
+- [00:41] an outage and how do you fix it. So, we
+- [00:45] have a nice website. You can look at the
+- [00:46] metrics, check on your service, nice,
+- [00:49] there's a nice dashboard to get an
+- [00:50] overall sense of how your website is
+- [00:52] doing, some traffic information. We have
+- [00:54] some really fancy tools to visualize how
+- [00:57] your service is running. So this is all
+- [01:00] very nice but it's a bit intimidating
+- [01:02] for newcomers and we don't just want you
+- [01:04] to know uh to see what's going on with
+- [01:07] your service. We want you to be able to
+- [01:08] act with your service. So the dog builds
+- [01:12] a bunch of agents and we have learned a
+- [01:14] couple of lessons along the way. What we
+- [01:17] learned is that in the process from
+- [01:19] going from demo quality to production
+- [01:21] ready agents, you when you want to
+- [01:24] improve the scores so that you can
+- [01:26] actually accomplish your tasks, you have
+- [01:27] to deal with a whole bunch of failure
+- [01:29] modes. Things like hallucination,
+- [01:32] output formatting, to call failures and
+- [01:35] so on and so forth, right? And the
+- [01:38] answer that everyone is going to tell
+- [01:39] you is that you need evals, right? And I
+- [01:43] agree with that. You definitely need
+- [01:44] evals,
+- [01:46] but they're also a real pain, right? So
+- [01:52] will I like to help with that, right?
+- [01:53] Just evals are still going to be
+- [01:55] painful, but at least we can take away
+- [01:58] some part of it. Tool call failures and
+- [02:02] that's where MCP servers can help.
+- [02:06] Now what are MCP servers? So without MCB
+- [02:10] servers, what you would have to do is
+- [02:12] that for every single agent that you
+- [02:14] build, you have to uh you typically have
+- [02:16] to build the tools to connect to the
+- [02:18] back end. And what usually happens is
+- [02:20] that because each agent is doing
+- [02:21] different things, they need different
+- [02:23] tools. They call the tools differently
+- [02:26] and they expect different things from
+- [02:27] the tools. The tools fail, the tool
+- [02:29] calls fail in different ways. And that
+- [02:31] means that each agent team have their
+- [02:33] own tool uh tool called failure evals
+- [02:36] and that leads to a lot of duplication
+- [02:38] effort.
+- [02:40] What MCP servers allow you to do is that
+- [02:42] you can consolidate all your tools into
+- [02:44] one server. And so these tools can serve
+- [02:47] a whole bunch of different agent teams.
+- [02:50] Uh [snorts] but you could always have
+- [02:51] done that, right? But what's so special
+- [02:53] about MCP servers? Well, the nice thing
+- [02:55] is that um MCP servers can also be
+- [02:58] remote. So not only are they just a
+- [03:01] building block towards or stepping stone
+- [03:03] towards better agents, they also talk
+- [03:06] directly to customers. So the your ids
+- [03:10] like cursor can use your tools directly.
+- [03:13] Third party agents like cloud code can
+- [03:15] use your tools directly and to build an
+- [03:17] agentic experience directly from the
+- [03:19] customer. So what this means is that
+- [03:22] your tools are no longer just a stepping
+- [03:24] stone. It's self a product. And when you
+- [03:28] have a product, you want to come up with
+- [03:30] a good product experience.
+- [03:35] And what we want to get out of this uh
+- [03:37] product is that for our users when they
+- [03:40] connect to our MCP server, the agents
+- [03:43] become data. Power users.
+- [03:48] So to give you a quick sense of what our
+- [03:49] MCP what it's like to connect to MCP
+- [03:51] server. So here's the tab, the agent tab
+- [03:54] from cursor, right? So you might ask a
+- [03:56] question like do you have any are there
+- [03:57] any HTTP errors in service MCP blah blah
+- [04:00] blah okay then cursor is going to talk
+- [04:02] to LM give you some u some feedback and
+- [04:06] then it makes a tool call to our search
+- [04:08] locks tool it chooses search locks then
+- [04:11] it gives the search locks tool gives
+- [04:12] back the results and then it summarizes
+- [04:14] what it found yes I found some HTTP
+- [04:17] errors great right it is acting like a
+- [04:20] power user as a user you didn't really
+- [04:22] need to know data do search lock syntax
+- [04:24] it's Good. Um, so let's see what
+- [04:28] actually is going on in there. So we
+- [04:30] have a better sense of what our MCP
+- [04:32] server actually needs to do.
+- [04:34] So here what just happened. You have the
+- [04:37] user, you have the agent here which is a
+- [04:39] cloud code agent panel. Uh you have the
+- [04:41] MCP server, our data do uh MCP server
+- [04:44] and that's our back end that serves uh
+- [04:47] the search locks tool and in the back.
+- [04:50] So the agent has a really important job
+- [04:51] which is to manage the context window.
+- [04:53] It starts with the system prompt and it
+- [04:56] makes a call to MCP server to list tools
+- [04:59] so that it can fill its context window
+- [05:00] with the tool descriptions and that way
+- [05:02] it knows what tools are available and
+- [05:04] how to call them. Then it receives a
+- [05:07] request from the user and it adds that
+- [05:09] to the s to the context window. It then
+- [05:13] makes a it then calls LLM to decide uh
+- [05:16] to see what to do next. it may decide to
+- [05:18] call a tool and because of the
+- [05:20] information from tool descriptions and
+- [05:22] then it makes a call to the MCP server.
+- [05:25] The MCP server takes that request
+- [05:28] decides what to do with it. Maybe call a
+- [05:30] particular back end, maybe cause that
+- [05:31] other back end. The back end returns the
+- [05:33] results and the MCP server does some
+- [05:35] other uh business logic, maybe it does
+- [05:37] some filtering, maybe it does some
+- [05:38] pageionation, maybe it postprocesses
+- [05:40] some JSON into CSV, whatnot, right? Or
+- [05:43] error handling. and before it passes
+- [05:45] back the response to the agent.
+- [05:49] So now the MCP server uh so MCP server
+- [05:52] gives back the response to the agent.
+- [05:53] The agent loads it back to the context
+- [05:55] window. Now it's part of the context
+- [05:57] window when it decides what to do next.
+- [06:00] It may have it might decide that it
+- [06:02] needs to do something uh it needs to go
+- [06:03] back and ask more questions. So it keeps
+- [06:05] looping or looping until it's complete
+- [06:07] and then when [snorts] it's complete it
+- [06:09] gives you back a result. Yes, I found
+- [06:10] something and returns it back to the
+- [06:12] user. So that is a whole that's the flow
+- [06:14] of the agentic system or most basic
+- [06:17] agent loop.
+- [06:20] So I often get this question what
+- [06:23] exactly is there to do in MCB server?
+- [06:25] Don't you just wrap around the API and
+- [06:27] you prompt the tools and the prompt the
+- [06:29] tool descriptions all that stuff. So yes
+- [06:32] the tool descriptions is a is an
+- [06:33] important part right it tells you it
+- [06:35] tells the agent how to call tools and
+- [06:37] what tools are available. But besides
+- [06:40] that uh it's also important to note that
+- [06:42] the tool call response also gets fed
+- [06:46] into the agent context window and that
+- [06:48] affects what it will call what we will
+- [06:51] do next. And so in the MCP server we
+- [06:54] control the MCP we control the MCP
+- [06:56] server and we because we are in the same
+- [06:59] company we also we also can talk to the
+- [07:01] people who work on the back end to
+- [07:03] influence what comes back out of the to
+- [07:05] call response. So that means that we
+- [07:07] also want to optimize the tool
+- [07:10] implementations.
+- [07:12] So and this is a massive search base,
+- [07:14] right? It's not just the text in the
+- [07:16] tool description. It is the code base of
+- [07:19] your entire back end as well, including
+- [07:21] your MCB server. And how do you optimize
+- [07:24] that? How do you know what to
+- [07:26] prioritize? For that, you need EDOS,
+- [07:28] right? And the thing is that um it's a
+- [07:32] bit so eels for MCB servers are
+- [07:34] different because there's a lot we don't
+- [07:36] control. When you're agent you control
+- [07:38] almost everything. When you are an MCB
+- [07:41] server you control almost nothing. And
+- [07:43] that feeds into our eval philosophy.
+- [07:47] We don't optimize for any particular
+- [07:49] agent. We are agent agnostic and we only
+- [07:52] check the final result. So we don't care
+- [07:54] about which tool it calls. Okay. So I'll
+- [07:57] go into more detail about why we choose
+- [07:59] this as our philosophy for eatals.
+- [08:03] So why agent agnostic right and the
+- [08:06] reason for that is really because of
+- [08:09] helplessness. We don't really know
+- [08:11] enough about the agent which agent needs
+- [08:13] to use us. So we cannot actually
+- [08:15] optimize for any agent. Um a different
+- [08:18] way to look at it is that we want MCB
+- [08:20] server to be ergonomic enough so that
+- [08:21] any agent can use it well not just the
+- [08:24] smart ones. The nice side effect of that
+- [08:27] is that you actually can, you know,
+- [08:30] prioritize simple agents. Um, and what
+- [08:33] that means is that our evals, we don't
+- [08:35] need to use the expensive ones. We use
+- [08:37] the cheaper ones. We use the faster
+- [08:38] ones. And that means that our evals are
+- [08:41] fast and cheap to run. That's nice. Nice
+- [08:44] bonus.
+- [08:47] So why tool agnostic though? So what
+- [08:50] often happens when people make a tool
+- [08:53] called evals for agents is that they'll
+- [08:55] when they when agent reaches a
+- [08:57] particular step they will say okay make
+- [08:59] sure you call this tool and make sure
+- [09:01] you call this tool this way and I think
+- [09:03] there's a better approach than that and
+- [09:06] the reason is that agents are creative
+- [09:08] like there are often a few ways to solve
+- [09:10] the same problem for example if you want
+- [09:13] to check which service went out of
+- [09:14] memory there are probably three
+- [09:16] different three tools in data dot that
+- [09:18] can give you that answer. But if you
+- [09:20] were to force a tool to say, "Okay, you
+- [09:21] have to call search locks then and the
+- [09:23] agent goes ahead and try something
+- [09:25] else." Then you're going to the EDOS are
+- [09:27] going to fail uh like needlessly and you
+- [09:29] have too much stuff to add into your
+- [09:31] EDOS. It becomes brutal.
+- [09:33] And the other thing is that agents are
+- [09:35] surprisingly resourceful. So one thing
+- [09:38] that I've accidentally uh noticed when I
+- [09:40] was using cursor with our MCP server is
+- [09:42] that sometimes if you once I misspelled
+- [09:45] a service name it actually uh zoomed
+- [09:48] out. So it added some wild card tags. It
+- [09:51] removes certain filters. So it
+- [09:53] effectively is zooming out and then it
+- [09:54] sees okay what service names are in your
+- [09:57] are in your logs in the first place and
+- [09:59] it finds one that is actually similar
+- [10:01] enough to the service name that you had
+- [10:03] and then it zooms into that and says
+- [10:05] okay this is we didn't find the exact
+- [10:07] thing you want but this is probably what
+- [10:08] you want like if you are in some you
+- [10:10] know very tight agentic loop with very
+- [10:13] um rigid eels you're probably going to
+- [10:15] mark that as a failure but if you are a
+- [10:18] if you're a human trying to do something
+- [10:20] messing things up once in a That's
+- [10:22] actually a nice experience. So we don't
+- [10:25] want to erase that by overly rigid eels.
+- [10:28] And the other thing is that because we
+- [10:30] are the team that develops the MCP
+- [10:33] server, we want to keep upgrading our
+- [10:35] tools. If we if we make it too hard to
+- [10:39] change our tools, then when we want to
+- [10:41] do big changes, big improvements like
+- [10:44] consolidating five tools to three tools,
+- [10:47] like switching to a different query
+- [10:48] syntax or adding one tool that just
+- [10:50] makes all tools better. If you have
+- [10:53] overly rigid tool um evals, that is
+- [10:57] going to prevent you from making those
+- [10:58] changes in a way that you can see the
+- [11:01] eval scores before and after, right?
+- [11:03] Because once you change those tool once
+- [11:05] you change your tool surface you have to
+- [11:07] rewrite your evals and you don't get an
+- [11:08] apples to apples comparison anymore
+- [11:10] right your tool specific evals become
+- [11:13] too brittle it becomes change detectors
+- [11:15] and you don't want that you want to keep
+- [11:16] improving your MCP server so that it
+- [11:18] just when you connect to it the whole
+- [11:20] experience is just better you don't have
+- [11:22] the user shouldn't have to think about
+- [11:23] the individual tools
+- [11:27] and the effect of that is that eval runs
+- [11:29] are fast right we from the time you
+- [11:33] change your code and you run the eval
+- [11:35] run and you see it in the dashboard
+- [11:38] takes only two minutes. We run it
+- [11:40] locally. It's nice when you see it on
+- [11:43] dashboard it looks like this. uh we have
+- [11:45] it instrumented with data. LLM
+- [11:47] observability and so you can see at a
+- [11:49] glance right which uh which two calls
+- [11:51] failed which two calls succeeded and
+- [11:53] then you can zoom into that one of those
+- [11:55] scenarios and say okay like show me the
+- [11:58] spans of of the of the tool calls the LM
+- [12:01] calls and all that that happened and
+- [12:03] then you this each of these things have
+- [12:06] a trace ID which you can then take a
+- [12:09] take the URL copy it put into your group
+- [12:11] your group Slack and see hey this thing
+- [12:14] failed why did it fail can you help me
+- [12:15] take a
+- [12:16] It's a very nice debugging experience.
+- [12:20] So it makes running evals actually fun.
+- [12:22] Like we change something, you rerun the
+- [12:24] evals, two minutes later you see stuff,
+- [12:27] you can share with your team. You can
+- [12:29] you try something new that makes
+- [12:31] something that didn't work before work.
+- [12:33] You share you can now uh take this trace
+- [12:35] ID, share with your team.
+- [12:38] Our evals now become integrated into the
+- [12:40] dev cycle of our MCP server. And now
+- [12:43] devs want to write EDS, right? If they
+- [12:45] are trying to do something with an MCB
+- [12:47] server that is challenging its existing
+- [12:49] capabilities and the evals don't
+- [12:51] actually capture that new cap new
+- [12:53] possibility they want to write an eval
+- [12:55] so that they can see hey before this
+- [12:57] failed now this passed I did something
+- [12:59] great
+- [13:02] now how does this help agent builders so
+- [13:04] the nice side effect for other people is
+- [13:07] that tool call failures are now handled
+- [13:08] by a central team so the agent builders
+- [13:11] they don't have to handle tool call
+- [13:12] failures with their big end to and eval
+- [13:15] runs right so to call failures are
+- [13:17] handled by this lightweight process
+- [13:18] that's done by a small central team this
+- [13:21] means less work for them
+- [13:24] and another good side effect is that
+- [13:26] let's say you have a few agent teams and
+- [13:28] one of the agent teams give you some
+- [13:30] feedback that hey this tool doesn't
+- [13:31] really work very well maybe your you
+- [13:33] didn't describe it properly then so the
+- [13:36] feedback from your agent team can lead
+- [13:38] to MCP server improvements from your
+- [13:40] developers and that leads to
+- [13:42] improvements to all your agents because
+- [13:44] Now they are using the same MCP server
+- [13:46] with the improved tooling.
+- [13:48] That's very uh motivating for people who
+- [13:50] are building MCB servers.
+- [13:53] But so it was nice to run the MCB server
+- [13:56] but how do you make the EVAL scenarios
+- [13:58] to run in the first place? Right?
+- [14:00] Running EVAL scenarios was never really
+- [14:02] the hard part. The hard part is making
+- [14:05] the eval scenarios. Right? I just told
+- [14:07] you how to do the easy stuff but not how
+- [14:09] to do the hard stuff. Right?
+- [14:12] So let's go through step by step how do
+- [14:14] you actually make a single eval scenario
+- [14:16] for MCB server.
+- [14:18] So first we think okay if you are a
+- [14:21] data.p power user you should know how to
+- [14:24] search for logs you should understand
+- [14:26] log search syntax right. So you look at
+- [14:28] the documentation page you see okay we
+- [14:31] need to understand how to put tags
+- [14:33] service tags basic things. Okay, so show
+- [14:35] me recent logs in a service name full.
+- [14:38] Simple question, reasonable request,
+- [14:40] right? Can you make that an EDL
+- [14:41] scenario? Um, so the the unfortunate
+- [14:45] thing here is that if you call this
+- [14:47] thing, um, your actual answer is a whole
+- [14:49] blob of JSON, right? And if you want to
+- [14:51] put that in if you put that into your
+- [14:53] evals, it's going to be all variables.
+- [14:54] You don't want that. Actually, you can
+- [14:56] just ask it for counts. Uh, because
+- [15:00] you're trying to test whether it
+- [15:01] understands the lock search syntax,
+- [15:03] right? If it knows how to make a count
+- [15:05] and it gets back a specific number,
+- [15:07] chances are it actually knows how to
+- [15:09] call that. It actually understands that
+- [15:11] syntax. Just changing from counts to
+- [15:13] list is pretty trivial.
+- [15:16] So can we make this the case? Uh not yet
+- [15:20] because the word recent is ambiguous. So
+- [15:22] we need to make this more specific,
+- [15:24] right? Recent means before, it could
+- [15:26] mean five minutes before, right? It's
+- [15:28] not like a different LM call might
+- [15:30] decide that it means different things
+- [15:33] and you get a different answer. So this
+- [15:35] needs to be made unambiguous, right? Is
+- [15:38] this okay now? Uh still not yet because
+- [15:40] last hour depends on what time you're
+- [15:42] calling it. So now you need to fix the
+- [15:45] time. There's this little thing called
+- [15:46] time travel uh which you can pass in a
+- [15:49] time stamp into your server and the
+- [15:51] server pretends what time it is now. And
+- [15:53] now finally this is actually
+- [15:54] unambiguous. you can as a human or you
+- [15:57] can help you you can get a script to
+- [15:59] help you generate this get this answer
+- [16:02] uh put this in the eval scenario and
+- [16:04] then no matter when you run it you're
+- [16:06] going to get back the same answer as
+- [16:07] long as the two calls are correct right
+- [16:09] and it also doesn't really matter if the
+- [16:12] if your MCB server uh if your LLM makes
+- [16:16] a different call to a different tool or
+- [16:18] you change your tool surface and you got
+- [16:19] and you just get back the same answer
+- [16:21] it's fine it's still going to pass
+- [16:24] so how many evals else do we need to
+- [16:26] make? So let's go back to our our
+- [16:28] documentation, right? So we have wild
+- [16:30] cards, we have two wild cards, we have
+- [16:33] full text, we have free tax, we have all
+- [16:36] this special u we have all this special
+- [16:39] syntax, we have all these edge cases
+- [16:40] that we need to deal with, right? So we
+- [16:43] need maybe hundreds of eval scenarios
+- [16:45] just to cover such logs. And then we
+- [16:47] have other products too. Not only do we
+- [16:49] have logs, we also have metrics, we have
+- [16:52] traces, right?
+- [16:54] And then not only do you want to make a
+- [16:56] query on one thing, you want to make
+- [16:58] queries across different products. And
+- [17:00] how do you do that? How many evals do
+- [17:01] you need now? Maybe thousands, right?
+- [17:06] And that's going to be several days of
+- [17:08] non-stop ground work just to create eval
+- [17:10] scenarios.
+- [17:13] And what's worse is that if you work for
+- [17:15] a company that has data retention limits
+- [17:16] for your logs, then every time the data
+- [17:19] disappears, you have to repeat this
+- [17:20] whole process all over again. Because
+- [17:23] once the data disappears, your new data
+- [17:25] comes in, then last hour and your now
+- [17:28] time needs to change and the answers are
+- [17:30] all going to change. So you need to do
+- [17:31] this all over again. So is there a
+- [17:33] better way?
+- [17:36] The good news is that you can actually
+- [17:38] generate those emails. You don't have to
+- [17:40] do this by hand. Uh it's a bit
+- [17:42] unintuitive that this is actually
+- [17:44] possible. So I'll walk you through that.
+- [17:48] So if you start with a question, a
+- [17:50] natural language question and you try to
+- [17:52] get the answer, this is not really easy,
+- [17:56] right? If you are trying to if you're
+- [17:57] just using a simple agent that tries to
+- [17:59] make a tool call, this is not easy.
+- [18:02] That's why we're trying to make agents
+- [18:03] in the first place. But if you start
+- [18:05] from a CQ, you kind of know what the
+- [18:07] answer should look like and then you
+- [18:10] turn that from the CQ to the answer.
+- [18:13] That's easy. you just pass that query
+- [18:15] exactly into your API call and then you
+- [18:18] can make a script that just gets that
+- [18:20] answer
+- [18:21] and then to go from a CQ query to the
+- [18:23] question uh it's not so straightforward
+- [18:26] but what you can do is that you can use
+- [18:27] a parser parse this thing convert it
+- [18:29] into a and then from a you traverse the
+- [18:32] the tree for each node you map it to a
+- [18:35] text template and that will lead you to
+- [18:38] a natural language string that preserves
+- [18:41] the semantic meaning of that CQ query
+- [18:44] So this is this is does not this does
+- [18:47] not involve an LLM. This is a
+- [18:50] straightforward um just you can write
+- [18:52] Python to do this thing for you.
+- [18:56] How do you get a seat query in the first
+- [18:57] place? Right? We just made the problem
+- [18:59] uh we just pass the problem to another
+- [19:00] place. So here is where the LLM or the
+- [19:03] coding agent comes in. The coding agent
+- [19:06] with the help of a product documentation
+- [19:07] that Yeah.
+- [19:10] >> Hello anyone? Okay.
+- [19:13] All right. So, with the pro with the
+- [19:15] help of your um your coding agent and
+- [19:18] your product documentation and some
+- [19:21] elbow grease because your coding agent
+- [19:23] is going to look at your is going to
+- [19:25] look at the placeholder service names.
+- [19:28] What's going on? It's going to look at
+- [19:30] the placeholder service names and just
+- [19:32] fill in say API, but it doesn't exist,
+- [19:34] right? You work for this company. You
+- [19:36] know what services actually exist. So
+- [19:38] you have to fill in say from service API
+- [19:42] to service full right. So you still have
+- [19:44] to do that but you can generate a whole
+- [19:46] bunch of seed queries at once
+- [19:49] and with those sequeries
+- [19:52] repeat that for each process for for
+- [19:55] each question to for each CQ query to
+- [19:57] get a question answer pair and then zip
+- [19:59] them up to get labeled eval scenarios.
+- [20:02] So these labelled eval scenarios you can
+- [20:04] put them all into a Python list and you
+- [20:05] can all run them locally.
+- [20:08] So we just went from one docs page to
+- [20:11] 200 something eval scenarios. That's
+- [20:13] pretty nice.
+- [20:16] But we now have a new problem.
+- [20:18] Too many evals. Too many eval scenarios,
+- [20:21] right? If you just so the basic the
+- [20:24] first thing to do that you want to you
+- [20:26] probably would do is that you print them
+- [20:27] to your console log because we're
+- [20:28] running it locally. But then when you
+- [20:30] have 200 eval scenarios and you know
+- [20:33] before your change you got the you got
+- [20:35] 0.7 as a score as average score after
+- [20:38] the change you got 0.71 as your eval
+- [20:40] score. So, was this a no-up or was it
+- [20:43] because something improved and something
+- [20:45] got worse? At a glance, it's not easy to
+- [20:47] see. But what we can do then is uh going
+- [20:52] back to the previous example, you can
+- [20:54] use your LLM to also help you add some
+- [20:56] tags because when you use that process,
+- [21:00] you were referring to the product
+- [21:01] documentation and a product
+- [21:03] documentation probably has some sections
+- [21:06] headers that tell you what capability it
+- [21:08] refers to. So you can add the capability
+- [21:11] tag. Then you can pass these tags along
+- [21:14] to your instrumentation to part into
+- [21:16] your stance that you pass to LM
+- [21:18] observability or your favorite
+- [21:20] observability tool. Then you can group
+- [21:23] them by capability. So at a glance you
+- [21:26] can see what capabilities you're doing
+- [21:28] well at and what capabilities you're not
+- [21:30] doing so well at. So here we can see
+- [21:32] that count to C has the lowest uh
+- [21:35] average metric score. And so if we
+- [21:38] should probably do something about that.
+- [21:40] So as a as a human you look at this
+- [21:42] thing and you think okay I probably need
+- [21:43] to prompt the tune the prompts for my uh
+- [21:47] for my lock search syntax so that I can
+- [21:50] so that I know how to deal with the C.
+- [21:52] Maybe I didn't think about that when I
+- [21:53] was writing the tool. Or
+- [21:56] you can ask cloud code to look at that
+- [21:59] and help you optimize it.
+- [22:02] Because by
+- [22:04] instrumenting this thing and putting it
+- [22:06] into LM observability, LM observability
+- [22:09] being a data do product is also can be
+- [22:12] exposed through our MCP server. So now
+- [22:15] you can ask a coding agent like cloud
+- [22:17] code to point to it and to ask some
+- [22:21] information. So let's start with just
+- [22:22] running the evaluation, right? We got
+- [22:24] the score of like 0.04, a low score. We
+- [22:27] want to improve that.
+- [22:29] So then we can ask the coding agent to
+- [22:31] analyze the edction result with the help
+- [22:33] of the MCP tool for like LM observably
+- [22:36] tool in MCP server.
+- [22:39] So it analyze this thing and now that
+- [22:42] this analysis is in the context window
+- [22:44] of the coding agent you can point the
+- [22:48] coding agent at the piece of code that
+- [22:51] you want to optimize. So in the next uh
+- [22:54] slide I you're looking at the code at a
+- [22:57] diff like the red part is is looking at
+- [23:00] the tool description for our MCP server
+- [23:04] uh for search data.logs box and the red
+- [23:07] part is the one that is is what is going
+- [23:09] to delete and the green part is what is
+- [23:10] going to improve. It's going to add you
+- [23:12] can see that it is trying to um it's
+- [23:15] trying to deal with the with this IP
+- [23:17] addresses now
+- [23:20] so you can optimize the code and then
+- [23:23] rerun restart restart the server and
+- [23:24] then rerun the evaluation and get a
+- [23:26] higher score. So you can repeat this
+- [23:28] process again and that's the
+- [23:30] selfoptimization loop. So to recap what
+- [23:33] I just showed you. So we generated 200
+- [23:35] something label eval scenarios. You can
+- [23:38] run evals locally in two minutes. You
+- [23:41] can visualize results on the dashboard.
+- [23:44] You can analyze the failure patterns on
+- [23:46] a dashboard or you can do it with the
+- [23:47] help of a coding agent. And you can
+- [23:50] point the code at the place where you
+- [23:52] want to optimize
+- [23:54] whether we the business logic be the
+- [23:57] prompt the tool description or somewhere
+- [23:58] deeper in the back end to optimize the
+- [24:01] code based on what we just put into the
+- [24:02] context window.
+- [24:06] So as a recap,
+- [24:09] there's a huge search space that we can
+- [24:11] optimize by being as MCP server
+- [24:14] developers.
+- [24:16] And with all this automatically
+- [24:18] generated evals, they can become a
+- [24:20] source of joy not just for uh MCP server
+- [24:23] developers, but also for all the agent
+- [24:25] builders that built on top of our MCP
+- [24:27] server. But the first thing you have to
+- [24:29] do is to consolidate your agents tools
+- [24:32] into an MCP server.
+- [24:35] Thank you.
+- [24:37] [applause]
+- [24:46] >> Thank you, Scott. Uh, we have time for
+- [24:48] two questions.
+- [25:00] Uh, very nice presentation. Thank you
+- [25:02] very much. Uh I'm wondering if you are
+- [25:04] experimenting also in fixing the issues
+- [25:07] that data do finds in a similar manner
+- [25:09] using MCP server then feeding that to
+- [25:12] cloud code and then fixing the issue
+- [25:14] automatically.
+- [25:15] >> Wait, can you can you repeat what are
+- [25:17] you feeding into the thing?
+- [25:19] >> Uh basically how you are fixing the
+- [25:21] evils.
+- [25:22] >> You can also use MCP server for data dog
+- [25:24] to see the issues that data do found and
+- [25:27] then automatically fix by using MCP
+- [25:29] server and cloud code. Are you
+- [25:30] experimenting with this or
+- [25:32] >> we I definitely plan to uh yeah this is
+- [25:35] a very some of this stuff is b coded uh
+- [25:37] it happened in a pretty short amount of
+- [25:39] time
+- [25:39] >> okay yeah we are looking forward we are
+- [25:42] users and it's just amazing tool thanks
+- [25:45] >> thank you
+- [25:46] >> thank you
+- [25:48] >> we've got time for one more if anyone
+- [25:50] has a question
+- [25:54] >> yeah okay
+- [25:55] >> you mentioned um at a point where you
+- [25:59] need the back end to return different
+- [26:01] type of response so that agent can
+- [26:04] handle them better.
+- [26:05] >> Okay.
+- [26:06] >> Can you be more specific?
+- [26:08] >> Ah yes. So the thing is that the our
+- [26:11] tool surface is not the same as our API
+- [26:14] surface, right? When you have an API,
+- [26:18] people expect it to be stable, right?
+- [26:20] People build code on it. They don't
+- [26:21] change it very much. Every time you
+- [26:23] change API, you break anyone who hasn't
+- [26:24] like updated their their binaries. But
+- [26:26] with MCP, you can change your tool
+- [26:29] description uh every time because
+- [26:31] they're going to have to call the list
+- [26:32] services every time they restart their
+- [26:34] they initialize uh and restart their
+- [26:36] agent. So you can actually you it's more
+- [26:38] forgiving. You can change your tool
+- [26:40] service more often. So what we can do is
+- [26:42] that we can we can actually have a
+- [26:45] different API. We can have a different
+- [26:47] um interface um compared to our API. So
+- [26:50] for example, what we can do is that we
+- [26:52] can do some spelling correction. We can
+- [26:54] do some checking before it reaches the
+- [26:57] API call. We can perhaps if we think
+- [26:59] that this is a clustering query instead
+- [27:02] of a list query, we can actually just
+- [27:04] call the the clustering API instead of
+- [27:06] calling the list API.

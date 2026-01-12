@@ -1,0 +1,1721 @@
+---
+title: "Arvin Duran is one of the leading professors in computer science today over at Princeton he spends a lot of time separat"
+video_id: "NoVMk_P6fgY"
+video_url: "https://www.youtube.com/watch?v=NoVMk_P6fgY"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Arvin Duran is one of the leading professors in computer science today over at Princeton he spends a lot of time separating hype and substance and AI with his newsletter in book AI snake oil on unsupervised learning we touched on a ton of interesting topics including the state of Agents today and where evaluations do and don't work as well as problems in coordinating them we talked about lessons from past technology waves like the Industrial Revolution and internet and the implications for policy makers and we also hit on the future of AI and education and whether AI will increase or decrease Global eality all in all a fascinating conversation with someone I've admired for a long time without further Ado here's Arman well thanks so much for coming on thanks for having me it's great to be h
+key_points:
+  - "Covers startup concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:37:38+09:00"
+---
+
+# Transcript: NoVMk_P6fgY
+
+- URL: https://www.youtube.com/watch?v=NoVMk_P6fgY
+- Retrieved at: 2025-12-30T10:37:38+09:00
+
+## Text
+
+- [00:00] Arvin Duran is one of the leading
+- [00:01] professors in computer science today
+- [00:03] over at Princeton he spends a lot of
+- [00:05] time separating hype and substance and
+- [00:06] AI with his newsletter in book AI snake
+- [00:08] oil on unsupervised learning we touched
+- [00:10] on a ton of interesting topics including
+- [00:12] the state of Agents today and where
+- [00:14] evaluations do and don't work as well as
+- [00:16] problems in coordinating them we talked
+- [00:17] about lessons from past technology waves
+- [00:19] like the Industrial Revolution and
+- [00:21] internet and the implications for policy
+- [00:23] makers and we also hit on the future of
+- [00:24] AI and education and whether AI will
+- [00:26] increase or decrease Global eality all
+- [00:28] in all a fascinating conversation with
+- [00:30] someone I've admired for a long time
+- [00:31] without further Ado here's
+- [00:34] Arman well thanks so much for coming on
+- [00:37] thanks for having me it's great to be
+- [00:38] here in the studio yeah know it's always
+- [00:40] uh always fun to get to through these
+- [00:41] live especially on a on a snowstorm
+- [00:42] weekend I appreciate you uh you making
+- [00:44] the Trek up from Princeton yeah my
+- [00:45] pleasure looking forward to the chat
+- [00:47] awesome well I figur there's a bunch of
+- [00:48] different places we could start but
+- [00:49] obviously these reasoning models you
+- [00:51] know I think one of the big questions
+- [00:52] being asked today is you know obviously
+- [00:54] they've shown impressive results in
+- [00:55] coding and math and some of this easily
+- [00:57] verified data you know I feel like
+- [00:59] you've said progress will be kind of
+- [01:00] unevenly distributed across tasks and I
+- [01:02] feel like everyone's trying to figure
+- [01:03] out what that uneven distribution is so
+- [01:05] anything you can share with our
+- [01:06] listeners on kind of the tasks you think
+- [01:07] fall really neatly into things these
+- [01:08] models will be good at whereas tasks
+- [01:10] that they they may struggle with sure
+- [01:12] when we look at the impressive results
+- [01:14] that we're seeing so far they're in
+- [01:17] these domains with clear correct answers
+- [01:19] right math coding certain uh scientific
+- [01:22] tasks and that will certainly continue I
+- [01:25] think how far away from that uh this
+- [01:29] impressive of performance is able to
+- [01:31] generalize I think is a really big open
+- [01:33] question so historically you know 10
+- [01:36] years ago there was so much excitement
+- [01:38] around reinforcement learning for
+- [01:40] instance when it started doing really
+- [01:42] well in games like Atari and if I
+- [01:45] understand correctly the uh you know
+- [01:47] open aai and many other AI companies uh
+- [01:50] and people who were thinking about AGI
+- [01:52] at the time that was because of
+- [01:54] reinforcement learning and the
+- [01:56] Breakthrough is 10 years ago but what
+- [01:57] happened then is that we saw a failure
+- [02:00] to generalize too far outside these uh
+- [02:03] narrow domains like games that is one
+- [02:06] possible future of these reasoning
+- [02:08] models another possible future is that
+- [02:11] by being better at reasoning by writing
+- [02:14] code you know you could imagine uh
+- [02:17] reasoning being extended
+- [02:19] to A system that also reasons how to get
+- [02:23] information from the internet you know
+- [02:25] to then reason about law or medicine or
+- [02:27] any other domain so those are two
+- [02:29] possible futures which of those is more
+- [02:31] likely I'm not sure yeah what are you
+- [02:33] paying attention to me obviously I
+- [02:34] assume these reasoning models will
+- [02:35] continue to push the sweep bench scores
+- [02:36] up and up um what would you what would
+- [02:38] you need to see to be like oh wow it
+- [02:40] really does feel like it's starting to
+- [02:41] generalize across some of these tasks
+- [02:42] that I wouldn't have previously thought
+- [02:44] it could do for sure yeah construct
+- [02:45] validity in a phrase so construct
+- [02:47] validity is this idea that what we might
+- [02:50] be trying to measure especially in a
+- [02:51] benchmark is kind of subtly different
+- [02:53] from what we want in the real world and
+- [02:55] that's a challenge for any Benchmark
+- [02:57] Creator uh sweep bench we think is a
+- [03:00] pretty good Benchmark the Princeton
+- [03:02] right yes by some of my Princeton
+- [03:04] colleagues uh it's a pretty good
+- [03:05] Benchmark in in terms of construc
+- [03:07] ability instead of these toy you know
+- [03:10] Olympiad style coding problems it's real
+- [03:12] GitHub issues but nonetheless GitHub
+- [03:14] issues I think has a far cry from the
+- [03:17] messy context of real world software
+- [03:19] engineering and so that's what I'm
+- [03:21] watching not so much the result on
+- [03:24] results on benchmarks alone but people's
+- [03:26] experiences trying to use these to
+- [03:28] improve their productivity right and so
+- [03:30] when we look at it that way I mean it's
+- [03:31] clear that you know thousands of people
+- [03:33] are using this uh these models
+- [03:35] productively I'm among them but it's
+- [03:37] clear that dramatic improvements in
+- [03:39] sbench don't translate to dramatic
+- [03:42] improvements in human productivity yeah
+- [03:43] no I've heard you talk about this before
+- [03:44] too when you know the all these
+- [03:46] impressive results of how open AI models
+- [03:48] do on the bar or on you know medical
+- [03:50] exams you're like well it turns out
+- [03:51] being a lawyer or doctor not just
+- [03:53] constantly taking those exams exactly
+- [03:54] exactly and so I imagine we'll need a
+- [03:56] set of domain specific you know actual
+- [03:57] real world evaluations um and also just
+- [03:59] people using it Vibes as people like to
+- [04:00] call it too yeah Vibes I think there's
+- [04:02] there's uh you know I think there's a
+- [04:04] middle ground between Vibes and
+- [04:05] benchmarks and I think we can do that
+- [04:08] the so for instance people have uplift
+- [04:10] studies these are actual randomized
+- [04:12] control trials where this group of
+- [04:13] people has access to the tool and this
+- [04:16] group of people doesn't and then you
+- [04:17] measure the impacts on productivity and
+- [04:19] also it's a question of What kinds of
+- [04:21] tasks are you asking people to or or the
+- [04:24] models uh to do again going back to the
+- [04:26] theme of it's not all bar exam questions
+- [04:28] there was a recent paper that looked at
+- [04:30] whether llms are good at kind of natural
+- [04:33] patient interaction in a medical setting
+- [04:35] and eliciting information from the
+- [04:37] patient that's the kind of thing which
+- [04:39] you know for a human for any person let
+- [04:42] alone a doctor is relatively easy to do
+- [04:45] you know natural conversation so we
+- [04:46] don't think of that as the thing we want
+- [04:48] to Benchmark and so we focus on
+- [04:49] diagnosis tasks and yet it turns out
+- [04:52] that even when models have great
+- [04:53] performance on those they might struggle
+- [04:55] with some of these other things that are
+- [04:57] also required for for really being
+- [04:59] useful in
+- [05:00] you can't do a good diagnosis without
+- [05:01] the actual information getting the
+- [05:02] information from the Pati that's super
+- [05:03] interesting I think on the on these
+- [05:05] reasoning models you recently published
+- [05:06] uh a paper called inference scaling
+- [05:08] flaws I think about you know uh some of
+- [05:10] the ways I think which uh these these
+- [05:12] this approach can kind of go off the
+- [05:13] rails can you talk a little bit about
+- [05:15] that research and maybe some of the
+- [05:16] implications for these test time compute
+- [05:18] models yeah so the big question with
+- [05:20] inference scaling is we've had you know
+- [05:22] when we look at model scaling we've had
+- [05:24] I don't know like six orders of
+- [05:26] magnitude of making these models bigger
+- [05:28] training them with more Compu right so
+- [05:30] how many orders of magnitude are we
+- [05:32] going to have with reasoning models and
+- [05:35] through what methods so the answer to
+- [05:37] that is still unclear uh but in this
+- [05:39] paper we were looking narrowly at one
+- [05:41] particular way to try to get these uh
+- [05:44] models to scale across several ERS of
+- [05:46] magnitude of inference compute and that
+- [05:49] is by pairing a generative model with a
+- [05:51] verifier so in the context of coding a
+- [05:54] verifier would be unit tests in you know
+- [05:57] in some other domain uh and math for
+- [06:00] instance a verifier might be an
+- [06:02] automated theorem Checker right so the
+- [06:04] model is trying to generate possible uh
+- [06:07] proofs of theorems and then the proof
+- [06:09] Checker is uh trying to verify whether
+- [06:11] it's correct or not so the Hope here is
+- [06:14] that the proof Checker or the unit tests
+- [06:15] or whatever those are just traditional
+- [06:17] logic they're not stochastic and so
+- [06:20] maybe those can be perfect and so the
+- [06:22] model can generate millions of solutions
+- [06:24] until one passes the tests but in real
+- [06:27] life it's not uh quite that simple unit
+- [06:30] tests may have imperfect coverage so we
+- [06:32] wanted to see what are the implications
+- [06:34] for inference scaling when the verifier
+- [06:36] is imperfect and the paper basically has
+- [06:39] bad news for this you know relatively
+- [06:41] narrow but nonetheless important setting
+- [06:43] uh if the verifier is imperfect we show
+- [06:46] that inference scaling can't get you
+- [06:48] very far sometimes you saturate within
+- [06:50] like 10 invocations of the model for
+- [06:52] instance as opposed to a million which
+- [06:54] you might have hoped so to what extent
+- [06:56] that applies to 01 or 03 I'm not making
+- [07:00] any claims about that but it is in the
+- [07:02] back of our minds when we're evaluating
+- [07:04] these new reasoning models are they
+- [07:05] actually going to be able to scale
+- [07:06] across so many orders of magnitude
+- [07:08] totally and it seems highly relevant
+- [07:09] across you know scaling these models
+- [07:10] into domains that don't have easy
+- [07:12] verifiers you you could imagine someone
+- [07:13] trying to staff up a full team of
+- [07:14] doctors or lawyers or accountants to
+- [07:16] check these things and I think the the
+- [07:18] point of your research seems to be well
+- [07:19] if it's not per if if you're a little if
+- [07:20] you're slightly imperfect it actually
+- [07:22] throws the whole thing off exactly
+- [07:23] you've written about obviously about the
+- [07:25] the hype around Ai and some of the stuff
+- [07:26] that works and doesn't work how would
+- [07:28] you kind of classify today like like
+- [07:29] what has product Market fit in AI like
+- [07:31] actually works and and where where do
+- [07:32] you kind of see the snake oil let's take
+- [07:34] agentic AI right so just the way we name
+- [07:37] it agentic AI to me is not one single
+- [07:40] category let's look at two types of
+- [07:42] agentic AI one is a tool like Google
+- [07:45] deep research I mentioned that one
+- [07:47] because I've been using it a lot but
+- [07:48] there yeah yeah there there are many
+- [07:50] others where sure there is an agentic
+- [07:53] workflow but at the end of the day it's
+- [07:55] still a generative system the point of
+- [07:56] it is to generate a report or whatever
+- [07:58] it is for you right the the user who's
+- [08:02] going to be presumably an expert in
+- [08:04] whatever field you're using it in and
+- [08:06] it's for you to look at the report and
+- [08:07] decide what to do with it of course
+- [08:08] there are going to be flaws hopefully as
+- [08:10] the user you're aware but still it can
+- [08:12] be a great time-saving tool it can be a
+- [08:15] great first draft of a report and so
+- [08:17] forth so I think this is pretty well
+- [08:19] motivated on the other hand another kind
+- [08:21] of thing that's often called a gen AI is
+- [08:24] something that autonomously takes
+- [08:25] actions on your behalf right like
+- [08:28] booking flight tickets that's everyone
+- [08:30] loves booking flight that's just kind of
+- [08:32] become you know this thing that uh
+- [08:35] somehow uh it's you know it's a pain
+- [08:38] point for all of us I think uh and so
+- [08:40] that's become the thing you know if
+- [08:41] you're if you have a an elevator pitch
+- [08:43] around agents it makes sense but I think
+- [08:46] when you take a closer look at it
+- [08:48] booking flights is almost the worst case
+- [08:50] example for an AI product I think to
+- [08:53] have product Market fit and the reason
+- [08:55] for that is that the reason booking
+- [08:57] flights are so hard is
+- [09:00] because uh getting the getting the
+- [09:03] existing system whether it's going to be
+- [09:05] an agent in the future or just you know
+- [09:07] Expedia or whatever today to understand
+- [09:09] all our preferences is very very
+- [09:11] challenging you you do a search and you
+- [09:13] realize oh this is full of United
+- [09:15] flights I don't want that or you know uh
+- [09:18] I I only want non-stop flights and it's
+- [09:20] only when you look at some of the
+- [09:21] results that you even realize what some
+- [09:23] of your constraints and preferences are
+- [09:25] so it takes like 10 or 15 rounds of
+- [09:27] iteration right and when you add all
+- [09:29] that up it's going to take half an hour
+- [09:30] to really find the flights that you want
+- [09:32] well the problem is if you have an agent
+- [09:35] acting on your behalf it might not know
+- [09:37] those preferences either right unless
+- [09:39] you've been using it for a very long
+- [09:40] period of time and you've somehow gotten
+- [09:42] to the point where you trusted to have
+- [09:43] learned all your preferences and then
+- [09:45] act on your behalf and so a flight
+- [09:48] booking agent is going to have to ask
+- [09:49] you a whole bunch of questions and then
+- [09:51] by the end of playing those 20 Questions
+- [09:54] game you're just as frustrated with the
+- [09:55] agent as you are with Expedia today so
+- [09:57] that's that's kind of my prediction you
+- [09:59] know Maybe I'm Wrong uh and the other
+- [10:01] thing is the cost of Errors is high if
+- [10:03] it makes a mistake in the flights that
+- [10:05] it books for you you know even even a an
+- [10:07] error rate of you know one Inn uh
+- [10:10] attempts is completely intolerable and
+- [10:13] those are the kinds of failures that
+- [10:15] people have been reporting with these
+- [10:17] early agentic systems like um this
+- [10:19] product order door Dash the wrong
+- [10:21] address right I'm never going to use it
+- [10:23] again if that happens right so those are
+- [10:25] some key differences producing
+- [10:26] generative outputs for you to look at
+- [10:28] versus automating things on your behalf
+- [10:30] low cost of Errors like in a report
+- [10:32] versus high cost of Errors like in
+- [10:34] ordering something for you yeah I mean
+- [10:36] it Str from what you're saying it's
+- [10:37] almost similar to what you were talking
+- [10:38] about uh with the evals around medicine
+- [10:40] earlier and the idea that like actually
+- [10:42] eliciting the user preferences sometimes
+- [10:44] is like half the battle for the and just
+- [10:46] the idea that you could do that without
+- [10:47] you know without having that you're kind
+- [10:48] of doomed uh to to not be able to do it
+- [10:50] exactly I think there should be in
+- [10:52] addition to solving the purely technical
+- [10:53] problems in a gen a there should be more
+- [10:56] of a focus on the human computer
+- [10:57] interaction component have you seen
+- [10:59] anything interesting there yet obviously
+- [11:00] we're in the early days of Agents but
+- [11:01] like anything that's caught your eye of
+- [11:02] like oh that's actually a pretty
+- [11:03] interesting way to solve for some of the
+- [11:05] shortcomings in agents today yeah I mean
+- [11:07] to me the thing that really gives me
+- [11:11] optimism on agents is that what we think
+- [11:14] of as chatbots early on were just simple
+- [11:16] rappers around llms but now they're
+- [11:18] agentic right they do searches for you
+- [11:20] they run code on your behalf and so the
+- [11:23] complexity is gradually evolving there
+- [11:26] so on the one hand we might be looking
+- [11:27] out for a killer but on the other hand
+- [11:31] uh we might not realize but I think is
+- [11:33] equally important that some of the apps
+- [11:35] we're already using are gradually
+- [11:36] becoming more and more agentic totally
+- [11:38] seems like if people could agree on a
+- [11:39] definition of what a what an agent
+- [11:41] actually is would help us figure out if
+- [11:42] we have one that's right but like in all
+- [11:44] things in AI it seems like we like to
+- [11:45] move the goalposts as we uh as we
+- [11:46] actually get near them fair enough I
+- [11:49] guess um you you you spend a lot of time
+- [11:51] obviously thinking about the future and
+- [11:52] where these models are going I'm sure
+- [11:54] there's all sorts of of questions that
+- [11:55] you're excitedly you know looking
+- [11:57] forward to seeing how they play out as
+- [11:58] you think about the next 2 3 years like
+- [12:00] are there a few things that you're like
+- [12:02] I wish I could just fast forward 3 years
+- [12:03] and see X or Y like what are the key
+- [12:05] things you think will answer yeah so
+- [12:07] here here's one so we've been talking
+- [12:09] about software a lot but on the hardware
+- [12:11] site right uh I would love to know what
+- [12:13] ends up being the right kind of for
+- [12:15] factor for AI for most uh kind of
+- [12:18] everyday uses so I do think in the
+- [12:20] future it's quite possible that you know
+- [12:22] in in everyday conversations as well as
+- [12:26] in in the workplace uh AI is constantly
+- [12:29] watching what we're doing and offering
+- [12:31] improvements or somehow integrated into
+- [12:33] uh virtually all of our workflows but
+- [12:36] exactly how I don't know that you that
+- [12:37] could happen in many ways right so this
+- [12:40] idea of going to a special purpose app
+- [12:44] you know like chpt or clot or whatever
+- [12:46] putting in what you want getting the
+- [12:47] answer and then getting back to your
+- [12:49] other software that you're using that's
+- [12:51] almost you know the the uh the highest
+- [12:54] friction way of using has not been the
+- [12:56] end state of most software exactly or
+- [12:58] you could imagine models getting
+- [12:59] integrated into you know if you're using
+- [13:00] Photoshop it already has a bunch of AI
+- [13:02] features generative fill various other
+- [13:04] things or you could imagine uh that you
+- [13:07] just have an agent just looking at all
+- [13:10] the uh you know the the screenshots on
+- [13:12] your computer or or or phone every 5
+- [13:15] seconds and then integrate it
+- [13:16] automatically somehow into every app we
+- [13:18] don't have the apis for that today but
+- [13:20] you can imagine that becoming possible
+- [13:21] in the future uh at an even more even
+- [13:25] higher level of abstraction I would say
+- [13:27] perhaps even less friction is if it's
+- [13:30] seeing everything you're seeing not even
+- [13:31] on your device so that would have to be
+- [13:33] in your glasses so I'm curious if for
+- [13:35] instance the uh you know the The Meta
+- [13:38] Rayband is one product but there are
+- [13:39] many such products where AI is
+- [13:41] integrated interior glasses I'm very
+- [13:43] curious to know if that's going to be
+- [13:45] one of the main ways we're going to use
+- [13:46] AI in the future uh I'm kind of hoping
+- [13:49] that it is because in just in my own
+- [13:51] personal life uh there are so many
+- [13:53] little ways in which I can imagine using
+- [13:56] it if I could have those glasses the for
+- [13:59] um or you know if if I could wear those
+- [14:01] glasses all the time I would say right
+- [14:03] now I think the battery life is only
+- [14:04] like 2 hours that's one of the main
+- [14:05] constraints but one of the first apps I
+- [14:08] would write for it if it doesn't already
+- [14:10] exist is to look at uh screenshots
+- [14:13] basically every 5 seconds and remember
+- [14:16] where everything is in my house so that
+- [14:18] when I lose my keys it will tell me
+- [14:20] that' be pretty clut that's just one
+- [14:22] example right but so many things when
+- [14:23] you're in a country where you don't
+- [14:25] speak the language having AR so that it
+- [14:27] can automatically translate it for
+- [14:29] um just so many other examples and so uh
+- [14:33] but the but the key to really
+- [14:34] full-throated working on a lot of these
+- [14:36] applications is knowing which form
+- [14:38] factor is going to win out in the future
+- [14:40] some people talk about you know uh you
+- [14:42] know if you believe in the scaling loss
+- [14:43] continuing you know open AI anthropic
+- [14:45] raising you know 50 hundred billion
+- [14:47] dollars in the in the next year or two
+- [14:48] like does that seem feasible to you or
+- [14:51] so I mean I won't speak to the investing
+- [14:53] sight of that but from a technical
+- [14:55] perspective what we've seen going on
+- [14:57] over the last couple of years is is this
+- [15:00] uh push and pull between two forces one
+- [15:02] is the rapid decrease in the per token
+- [15:04] costs of inference and the other is what
+- [15:08] we're now calling inference time
+- [15:09] computes but I think it's kind of been
+- [15:11] there since the beginning of the
+- [15:13] consumer success of chatbots uh and I
+- [15:16] think it really depends on how that's
+- [15:17] going to play out uh I think it's really
+- [15:20] hard to predict but I do think
+- [15:24] that what's most likely is that the uh
+- [15:28] token usage is going to continue to
+- [15:30] increase in a way that more than
+- [15:32] compensates for the decrease in per
+- [15:34] token costs uh so for instance my team
+- [15:36] is building what we're calling an AI
+- [15:38] agent Zoo where we're putting different
+- [15:40] kinds of AI agents into uh an
+- [15:42] environment where we're giving them a
+- [15:44] task to work on in collaboration and I
+- [15:46] think this is a different way of
+- [15:47] evaluating agents yeah as opposed to
+- [15:50] benchmarks where you're somehow it's a
+- [15:52] competition and each one is working in
+- [15:53] isolation but I think agents are kind of
+- [15:55] more naturally collaborative uh and so
+- [15:57] one of the tasks we test them on is um
+- [16:00] ask them to write a joke first of all
+- [16:02] the jokes were
+- [16:03] awful I should be clear about are still
+- [16:05] uh still safe yeah that's right this is
+- [16:07] not a revolution so far in in humor uh
+- [16:10] but that was not the point we wanted to
+- [16:11] see kind of how they collaborate and
+- [16:13] when you look at you know what it
+- [16:15] actually takes for these agents to to do
+- [16:17] that they have to first start by
+- [16:20] understanding their environment right um
+- [16:23] looking at the directory structure
+- [16:24] seeing what tools they have uh looking
+- [16:26] at what the other agents are doing that
+- [16:28] so so on and so forth and we gave them a
+- [16:30] lot of collaboration tools we integrated
+- [16:32] them into slack uh and then we gave them
+- [16:35] blogging tools so they can kind of write
+- [16:36] these blog posts summarizing what
+- [16:38] they've learned about the task and then
+- [16:40] other agents can pick up from there so
+- [16:42] we try to create a you know relatively
+- [16:44] realistic uh collaboration environment
+- [16:46] and one of the things that we found is
+- [16:47] that even for the simplest tasks they
+- [16:49] kind of generate millions of tokens and
+- [16:51] it's not wasteful they're kind of making
+- [16:53] progress uh not just generation input
+- [16:55] and output together as millions of
+- [16:56] tokens because again you know looking
+- [16:58] around
+- [16:59] uh in the environment you're in
+- [17:01] understanding the environment
+- [17:03] understanding your collaborators and
+- [17:04] then producing something takes a lot of
+- [17:05] tokens right so I mean in one sense yeah
+- [17:07] it's terrible from an environmental
+- [17:09] perspective that it takes 1 million
+- [17:11] tokens to write an awful joke but also I
+- [17:14] think there are domains in which we're
+- [17:15] going to say you know what that's that's
+- [17:16] better than the Alternatives and so my
+- [17:18] prediction is that the overall inference
+- [17:20] costs are going toes it seems like the
+- [17:22] the human equivalent of like you know it
+- [17:23] takes 6 months to understand what what
+- [17:25] in the world to do on a new job anyway
+- [17:26] and so it's like takes them a million
+- [17:27] tokens to
+- [17:30] I'm really curious about that work you
+- [17:31] know a few different angles to take it
+- [17:32] maybe we'll start with just like the
+- [17:34] eval side of Agents like obviously if we
+- [17:36] are still trying to figure out evals for
+- [17:37] core you know chatbot responses it feels
+- [17:39] like we're even earlier days on the
+- [17:41] agentic side you know maybe categorize
+- [17:43] for our listeners like what's the
+- [17:45] current state of evals for agents and
+- [17:46] then you know where do you think we
+- [17:48] should kind of continue that work yeah I
+- [17:50] think the current state for evals for
+- [17:52] agents is a lot like chat Bots right
+- [17:54] it's it's these kind of static
+- [17:55] benchmarks obviously you know s bench is
+- [17:58] one of the better known examples you try
+- [18:00] to give them relatively realistic tasks
+- [18:03] whether it's fixing software engineering
+- [18:05] issues or navigating the web in a
+- [18:07] simulated web environment and uh uh and
+- [18:10] finding some piece of information or
+- [18:12] accomplishing some task um but it's not
+- [18:15] it's not working that well here are some
+- [18:17] of the limitations one is what we call
+- [18:20] the capability reliability Gap so for
+- [18:23] agents especially those that take
+- [18:25] actions on your behalf it's really
+- [18:27] important to know what a 90 % score
+- [18:29] means does this mean that it's it's good
+- [18:32] at nine out of 10 tasks that are in this
+- [18:34] Benchmark and the ones that it's good at
+- [18:36] it's always going to accomplish
+- [18:37] correctly right or is it going to fail
+- [18:40] 10% of the time at any task and perform
+- [18:43] some really costly action again like uh
+- [18:44] you know booking the wrong flight ticket
+- [18:46] and if benchmarks aren't measuring that
+- [18:48] and today they're not they give you very
+- [18:50] little information you know they give
+- [18:52] you information about is the tech
+- [18:54] progressing they're not giving you
+- [18:55] information about can you take this
+- [18:56] agent and actually uh do something use
+- [18:59] with it so that's one big limitation
+- [19:01] another big limitation is safety there's
+- [19:05] a lot of uh safety specific benchmarks
+- [19:08] but I think safety should be a component
+- [19:10] of every Benchmark because it's not like
+- [19:14] when you're you know not solving a
+- [19:16] safety specific benchmark you can forget
+- [19:17] about safety that's not the case so we
+- [19:19] were looking at a web Benchmark the
+- [19:20] other day and it actually involves doing
+- [19:24] things on real websites which is
+- [19:27] terrible right now nothing's going wrong
+- [19:28] because none of the agents work they're
+- [19:30] not able to do it but I I'm I don't
+- [19:33] understand what the Benchmark developers
+- [19:35] have in mind because for agents to
+- [19:38] actually be able to do well on this
+- [19:40] Benchmark they have to take stateful
+- [19:41] actions on real websites and those
+- [19:43] website operators are going to be pissed
+- [19:44] from all the spam that's uh uh that's
+- [19:47] being generated by the agents trying to
+- [19:48] solve this Benchmark right uh on the
+- [19:51] other hand you have uh some web
+- [19:53] benchmarks that are simulated
+- [19:54] environments but then lose a lot of the
+- [19:56] Nuance of uh real websites and there's
+- [19:58] nothing in the middle and similarly when
+- [20:01] you look at Asian Frameworks we've been
+- [20:03] using Auto
+- [20:04] GPT sometimes it can go off and do stuff
+- [20:07] online that you didn't intend because it
+- [20:09] thinks that's the best way to do stuff
+- [20:11] uh one time it tried to post a question
+- [20:13] on stack Overflow to get an answer um
+- [20:16] these are all things obviously uh we
+- [20:17] didn't want it to do and we were
+- [20:18] terrified uh that it's going to do
+- [20:20] something really dangerous that we
+- [20:22] didn't intent unfortunately it didn't
+- [20:24] happen but even posting on stag overflow
+- [20:27] uh you know we wanted to have a way to
+- [20:29] to prevent that but right now the only
+- [20:31] way to do that is for it to uh to
+- [20:36] escalate every single action to the
+- [20:37] human user and for you to sit there and
+- [20:39] babysit right and so even these really
+- [20:41] basic aspects of safety control have not
+- [20:45] been uh integrated into the way we
+- [20:48] evaluate agents so those are just a
+- [20:50] couple of limitations what do you think
+- [20:51] the middle ground ends up being between
+- [20:52] like a simulated environment that your
+- [20:54] point it just doesn't have the Nuance of
+- [20:55] the real world and like actually letting
+- [20:57] letting these things loose uh on the the
+- [20:58] real world yeah I mean I think we're
+- [21:01] just going to have to rethink the role
+- [21:03] that benchmarks are going to play in
+- [21:05] evalation benchmarks are useful for
+- [21:06] certain things again you know um the the
+- [21:09] capability reliability Gap issue that I
+- [21:11] think you can solve at the level of
+- [21:12] benchmarks yeah I feel like Sierra had a
+- [21:14] they put out a benchmark that was like
+- [21:15] you know the same task done eight times
+- [21:18] or some number of times in a row what's
+- [21:20] the percent of that which to your point
+- [21:21] is is a much more interesting exactly
+- [21:23] exactly yeah so the pass ATK versus pass
+- [21:26] I don't even know what how do you say it
+- [21:27] verbally but pass the K is how you write
+- [21:29] it you don't know how to say it as
+- [21:30] Professor I
+- [21:32] but yeah um so so that's a problem I
+- [21:36] think you can solve but the the other
+- [21:37] problem you mentioned the uh realism
+- [21:39] problem I don't think you can get too
+- [21:41] far with that so I think the answer is
+- [21:44] to use um being good at a benchmark as a
+- [21:47] necessary but not sufficient condition
+- [21:49] so you take all the agents that are good
+- [21:50] at a particular Benchmark and then you
+- [21:52] actually use them with the human in the
+- [21:54] loop in sort of semi-realistic
+- [21:55] environments right and to your point the
+- [21:57] artti is finding a way to keep the human
+- [21:58] in the loop without just having the
+- [21:59] babysit every single step exactly I
+- [22:01] guess managers have to figure out with
+- [22:02] their junior employees all the time
+- [22:03] anyway so not not a net new problem for
+- [22:05] uh for society part of that work you're
+- [22:07] doing I think what's really interesting
+- [22:08] is obviously you built a team of agents
+- [22:09] to to work on jokes I guess in this
+- [22:11] context and it feels like one thing
+- [22:12] we're seeing that's interesting on the
+- [22:13] startup side is you've got lots of folks
+- [22:15] that are building different agents for
+- [22:17] an Enterprise so someone's like I'll
+- [22:18] build a agent for your Finance team and
+- [22:20] someone's like I'll build an agent for
+- [22:20] your support team and your sales team
+- [22:22] and as you kind of think about where
+- [22:23] this goes going forward obviously these
+- [22:25] agents eventually are going to work
+- [22:26] together in some way um and you know I'm
+- [22:29] curious what you've learned now having
+- [22:30] like building teams of agents and the
+- [22:32] implications that has for you know is it
+- [22:34] better if one person kind of is standing
+- [22:36] on top of this entire team of agents and
+- [22:37] able to kind of coordinate or build
+- [22:39] tooling across them or like what happens
+- [22:41] when you know there's seven eight
+- [22:42] different companies building agents that
+- [22:44] you know have no Contex of each other
+- [22:46] yeah I mean uh allow me to digress for
+- [22:48] 30 seconds uh for for a historical look
+- [22:51] at this right so what we're seeing I
+- [22:52] mean if this is indeed going to be a new
+- [22:55] way of organizing the means of
+- [22:56] production you know which well might be
+- [22:59] uh we can look at what happened in the
+- [23:01] past right so with the Industrial
+- [23:02] Revolution or uh with uh electricity
+- [23:06] replacing Steam and factories it took
+- [23:08] several decades to figure out how to
+- [23:09] organize labor and also the physical
+- [23:12] layout of factories and so forth to best
+- [23:14] take advantage of this new technology so
+- [23:16] with steam it was the idea of going from
+- [23:18] one big steam boiler to uh more of an
+- [23:21] assembly line setup where you can
+- [23:22] deliver electricity wherever you need it
+- [23:24] for specific concrete tasks so I think
+- [23:27] right now we're in the extremely early
+- [23:28] stages of experimentation of figuring
+- [23:30] out how to have teams of humans and
+- [23:33] agents working together so for me it's
+- [23:35] not just how to how are agents going to
+- [23:37] work together but it's really teams of
+- [23:38] humans and agents uh cuz I'm really I
+- [23:41] find really compelling this Jagged
+- [23:43] Frontier idea that what models or agents
+- [23:46] are going to be good at is kind of like
+- [23:48] a calculator right way better than any
+- [23:50] human at certain things uh but lacking
+- [23:53] the common sense of a child in certain
+- [23:54] other areas and I think that's going to
+- [23:56] persist for the time being so we are
+- [23:58] going to have to figure out how to
+- [23:59] hybridize and I think even the most
+- [24:01] basic things are not clear so for
+- [24:03] instance we've been confronting the
+- [24:04] problem of do you integrate the agents
+- [24:06] into existing human collaboration tools
+- [24:08] like slack and blogging or whatever and
+- [24:11] email or uh should we be building new
+- [24:13] collaboration tools we just don't know
+- [24:16] so it's really hard to make any
+- [24:17] predictions have there been examples of
+- [24:19] times where you felt like oh actually a
+- [24:20] new collaboration tool would be a more
+- [24:21] helpful way for for us to work here oh
+- [24:24] for sure so uh for a person to look at
+- [24:28] again these you know potentially a
+- [24:30] million token log of all the actions uh
+- [24:32] that an agent has taken and to be able
+- [24:35] to visualize that and get highle
+- [24:37] interpretable insight out of it
+- [24:39] fortunately a lot of people are working
+- [24:40] on this there's a framework called human
+- [24:42] layer uh as just one example uh I think
+- [24:45] eventually we're going to get a much
+- [24:47] better handle on things but again super
+- [24:49] early days right now I guess you know
+- [24:50] switching over to the regulatory side of
+- [24:52] things I know you've thought a lot about
+- [24:53] the policy I guess the most recent
+- [24:54] policy in the news is the a fusion Rule
+- [24:56] and some of these rules around you know
+- [24:58] geopolitics of some of these models I'm
+- [25:00] curious like you know your thoughts on
+- [25:02] that and and some of the recent
+- [25:03] regulations uh around kind of both chips
+- [25:05] and models
+- [25:06] exports yeah I I wonder to what extent
+- [25:10] uh export controls are going to be
+- [25:12] effective uh historically it it's not
+- [25:15] quite my area but reading people who
+- [25:17] have analyzed past export controls they
+- [25:19] have at best a mixed record of
+- [25:21] Effectiveness and of course export
+- [25:22] controls uh can be more effective on uh
+- [25:25] the hardware level than you know with uh
+- [25:28] with models which
+- [25:30] are are actually getting smaller by the
+- [25:32] day rather than larger and so it's going
+- [25:35] to be harder and harder uh to limit
+- [25:37] their their diffusion and also when it
+- [25:40] comes to inference scaling you know it's
+- [25:43] uh it's not about preventing the next
+- [25:46] model from being uh released but it's
+- [25:48] about how much inference scaling can you
+- [25:51] get out of even the existing models that
+- [25:52] are already out there yeah so taking all
+- [25:55] that together I'm a little bit skeptical
+- [25:57] about their
+- [25:58] Effectiveness uh but one more thing I'll
+- [26:00] say and this is um the work of Jeffrey
+- [26:03] ding who's a political scientist uh is
+- [26:06] that motivating all of this kind of
+- [26:09] Regulation you know when it comes to
+- [26:11] geopolitics is there's too much of a
+- [26:13] focus on Innovation and too little of a
+- [26:15] focus uh on this term is called
+- [26:17] diffusion but unfortunately it's it's
+- [26:19] just a term Collision has nothing to do
+- [26:20] with the diffusion we were just talking
+- [26:22] about of Technology getting to well it's
+- [26:23] kind of vaguely related but it's more
+- [26:25] about once you have technology available
+- [26:27] in a country
+- [26:28] how do you adopt it how do you
+- [26:31] reorganize your institutions laws
+- [26:34] perhaps norms and all of that stuff to
+- [26:35] best take advantage of that technology
+- [26:37] right so ding uh considers that to
+- [26:40] really be the determinant of the extent
+- [26:42] to which a nation will be able to uh
+- [26:45] grow uh and benefit economically from
+- [26:48] the availability of a technology yeah
+- [26:50] how do you think about that in the
+- [26:51] context of the US today I mean obviously
+- [26:52] there's big qu you you mentioned the
+- [26:53] Industrial Revolution and all these
+- [26:54] things I You' written about this all
+- [26:55] before um clearly there's massive policy
+- [26:58] implications of of the progress of these
+- [27:00] models you know what are we like you
+- [27:02] know where do you think we've done a
+- [27:03] good job thinking about the future
+- [27:04] implications where are we not focusing
+- [27:05] enough for sure uh so it's it's it's
+- [27:10] hard to know how how well we're doing um
+- [27:14] I guess history can judge us in yeah
+- [27:16] yeah exactly yeah but also what what is
+- [27:17] the art stick right I do think we're
+- [27:19] doing pretty well compared to most other
+- [27:21] regions of the world in terms of uh
+- [27:23] diffusion so one thing we can look at is
+- [27:25] the pace of adoption uh you know how
+- [27:27] many people people are using generative
+- [27:30] Ai
+- [27:31] and even looking at something that you
+- [27:34] would think is easily quantifiable using
+- [27:37] data can actually be really complex so
+- [27:39] this paper came out recently it was
+- [27:40] titled the rapid adoption of generative
+- [27:42] AI I have nothing to equi about with
+- [27:44] their methods I'm not even an expert in
+- [27:46] in the methodology that they use and I'm
+- [27:48] you know I'm taking their numbers at
+- [27:49] face value again I have no reason to
+- [27:51] think there's anything wrong with those
+- [27:53] numbers but then the interpretation of
+- [27:55] those numbers in the paper they said 40%
+- [27:57] of people are using generative AI this
+- [27:59] is really rapid compared to PC adoption
+- [28:01] for instance right a few decades ago but
+- [28:04] then when you dig into the details it's
+- [28:06] on average people using it somewhere
+- [28:07] between half an hour per week to three
+- [28:09] 3ish hours per week which is not a lot
+- [28:13] uh so that's called intensity of
+- [28:14] adoption and so when you kind of control
+- [28:16] for intensity of adoption we don't have
+- [28:18] concrete numbers for the PC but we can
+- [28:20] make some assumptions and my take is
+- [28:22] that in that sense generative AI
+- [28:23] adoption is actually a lot slower than
+- [28:26] PC adoption so this could be for for a
+- [28:28] bunch of reasons one could be that it's
+- [28:30] just not yet that useful to a lot of
+- [28:32] people versus when uh PCS were first uh
+- [28:36] you know uh mass produced uh word
+- [28:38] processing and other things were just
+- [28:39] immediately useful uh to a large number
+- [28:42] maybe but also it could be uh that these
+- [28:46] are things that uh things where policies
+- [28:48] can make a difference so for instance
+- [28:51] people go into this with the assumption
+- [28:52] that oh the kids are you know experts at
+- [28:55] using generative AI but you know I
+- [28:57] interact with a lot of students and uh
+- [28:59] they're often very confused and they're
+- [29:01] often much more hesitant to use it uh uh
+- [29:05] because they see it primarily as as a
+- [29:07] cheating tool sometimes and I'm the one
+- [29:09] encourage encouraging them to use it
+- [29:10] more and here are some productive ways
+- [29:12] to use it despite the fact that there
+- [29:13] can be hallucinations Etc and it can
+- [29:15] actually be a tool to enhance your
+- [29:17] learning that sort of thing right so
+- [29:19] maybe that's the kind of thing that
+- [29:21] should be a part of our curriculum now
+- [29:23] and I do think that's the case I think
+- [29:24] it should not just at the college level
+- [29:25] even at the K through 12 level right so
+- [29:28] so uh you know if there were a policy
+- [29:30] intervention that made made it easier
+- [29:32] for teachers to upskill themselves and
+- [29:34] then to teach those skills to students
+- [29:36] what kind of impact could it have on
+- [29:38] people being able to use it productively
+- [29:40] and avoid the pitfalls as well right so
+- [29:43] I think those are the questions we
+- [29:44] should be asking rather than you know
+- [29:45] trying to Pat ourselves in the back for
+- [29:47] Rapid adoption it's like what are what's
+- [29:49] the low hanging fruit that's on the
+- [29:50] table and from that perspective I do
+- [29:52] think there's a lot of blue hanging
+- [29:53] fruit yeah if I remember correctly in
+- [29:55] your classes I guess you let people use
+- [29:57] these tools but then they just they
+- [29:58] disclose how they use them and so I can
+- [29:59] imagine that could be a super helpful
+- [30:00] teaching tool too you know throughout
+- [30:02] different levels of Education if people
+- [30:04] are sharing how they're using them and
+- [30:05] they can get kind of feedback on oh you
+- [30:06] know that was a good way to use it or
+- [30:07] maybe that didn't make as much sense I
+- [30:09] think so yeah super smart I mean
+- [30:11] obviously youve previously written about
+- [30:12] a lot of the flaws in predictive AI
+- [30:14] models and there's clearly tons of
+- [30:15] things we've learned from some of these
+- [30:16] like criminal justice tools and
+- [30:17] Healthcare tools um you know how do you
+- [30:20] think about the ways we should apply
+- [30:21] some of those learnings to now you know
+- [30:22] I feel like there's another new hype
+- [30:24] cycle in AI where everyone wants to use
+- [30:25] these again for the same things that
+- [30:26] maybe didn't work as well in the past
+- [30:28] yeah yeah so a couple of thoughts one is
+- [30:31] I think the way we should break down AI
+- [30:34] uh when we were thinking about you know
+- [30:36] how to thinking about adopting the
+- [30:38] lessons it should be based on uh the
+- [30:41] applications more than the technology so
+- [30:43] what I mean by that is whenever I tell
+- [30:45] people look these criminal justice tools
+- [30:47] and the automated hiring tools are not
+- [30:49] working that well they're always like oh
+- [30:51] generative AI is going to take care of
+- [30:52] the problem but to me that doesn't make
+- [30:55] a lot of sense and when you look at the
+- [30:56] research on this it doesn't make a lot
+- [30:57] of sense because the limitations are not
+- [30:59] coming from how good or bad the
+- [31:01] technology is it's simply a consequence
+- [31:03] of the fact that you can't predict the
+- [31:05] future that well right that's a social
+- [31:06] science question and and the social
+- [31:08] science on this is pretty strongly
+- [31:10] pointing in One Direction and so that
+- [31:13] should tell us that we should continue
+- [31:14] to be circumspect when we're thinking
+- [31:16] about new technologies for these uh long
+- [31:19] existing but nonetheless quite flawed
+- [31:21] applications uh so that's one lesson
+- [31:24] another lesson is uh related to this one
+- [31:28] regarding safety the pace of adoption of
+- [31:30] Technologies and so forth so what we can
+- [31:33] learn from past waves of AI is that when
+- [31:36] there are these consequences you know
+- [31:38] whether it's in the criminal justice
+- [31:39] system or in banking when you have
+- [31:42] automated trading where things can
+- [31:44] really go wrong uh eventually people get
+- [31:47] wise to the flaws there's a public
+- [31:48] outcry and so those types of domains
+- [31:51] tend to be highly regulated and so I
+- [31:53] think we should keep in mind that even
+- [31:55] though right now it's the early days of
+- [31:57] generative AI and uh uh we don't have a
+- [32:00] lot of regulation in certain domains
+- [32:02] where AI is just beginning to be
+- [32:05] employed I think if it is making
+- [32:07] consequential decisions in the future we
+- [32:09] should expect those domains to be
+- [32:11] regulated and so to me the question is
+- [32:14] less about is regulation good or bad but
+- [32:16] instead what should that regulation look
+- [32:18] like so that we have a good balance
+- [32:20] between uh protecting safety and rights
+- [32:22] as well as you know getting the benefits
+- [32:24] of AI and so sometimes the discussion
+- [32:26] around regulations is too polarized but
+- [32:28] I I think there's a lot of room for it
+- [32:30] to be more collaborative right and from
+- [32:32] having listened to you previously I
+- [32:33] imagine a lot of what you would want
+- [32:34] regulation to focus on you know it seems
+- [32:36] like it's explainability I think you
+- [32:37] talked about I believe it was around um
+- [32:39] like you know uh these algorithms around
+- [32:41] baale and there was like this whole you
+- [32:43] know Black Box they were saying this is
+- [32:44] super Advanced Ai and then it turned out
+- [32:46] it was probably literally just
+- [32:46] correlated with like you know was were
+- [32:48] they like repeat offenders um but people
+- [32:50] were using this you know to to make all
+- [32:52] sorts of decisions and you know
+- [32:53] obviously that's one of the hard parts
+- [32:54] of generative AI is like we have very
+- [32:56] little explainability in and how a lot
+- [32:58] of these tokens are are developed yeah
+- [33:00] so in terms of applications and
+- [33:01] regulation explainability doesn't mean
+- [33:04] necessarily you know mechanistic
+- [33:05] interpretability much less trying to
+- [33:07] explain what every neuron does that's
+- [33:09] not the point at all right but it's more
+- [33:11] about what data was it trained on what
+- [33:13] kinds of audits have you done do you
+- [33:16] it's basically to try to understand do
+- [33:18] you um are you able to make statements
+- [33:21] about the expected behavior of this
+- [33:23] model in new settings right so that is
+- [33:25] like the most critical question we need
+- [33:27] to ask before we put things into
+- [33:28] deployment or as we're putting things
+- [33:30] into deployment we need to learn from
+- [33:31] our early experiences and and uh tweak
+- [33:34] our approach uh as opposed to having
+- [33:37] some kind of neat mathematical
+- [33:40] explanation understanding of the model
+- [33:42] if you will which ultimately is useless
+- [33:44] if you don't know what kind of data
+- [33:45] distribution it's going to be uh invoked
+- [33:47] on I guess switching over to the
+- [33:48] education side you know you're obviously
+- [33:51] an academic um and you know I'm curious
+- [33:53] how you think about the role of Academia
+- [33:55] in AI going forward and where it makes
+- [33:56] sense for academics spend time and where
+- [33:58] you know uh just given the compute
+- [34:00] differences make sense for industry to
+- [34:01] spend time yeah I think in the last
+- [34:03] decade or two there has been a sense of
+- [34:06] Crisis because of the because of the
+- [34:08] sense that it's getting harder and
+- [34:09] harder to AC for academics to be at the
+- [34:11] Forefront of AI due to
+- [34:13] compute it's possible that that's
+- [34:16] changing now because a lot of innovation
+- [34:19] is either you know thinking about new
+- [34:22] architectures you know U Blue Sky uh
+- [34:25] that you can establish on a small scale
+- [34:29] without necessarily claiming that it's
+- [34:30] you know competitive with uh gp4 or
+- [34:33] whatever uh or it's on the top of
+- [34:36] existing models right and thinking about
+- [34:38] new infant scaling uh methods or
+- [34:41] whatever uh so I think yeah so on the
+- [34:43] one hand that's one way in which
+- [34:45] Academia can potentially uh continue to
+- [34:48] be competitive uh but another one is uh
+- [34:52] anything that goes beyond pure technical
+- [34:54] Innovation I think Academia necessarily
+- [34:56] has to play a huge part
+- [34:58] both because it requires lots of
+- [35:00] different disciplines to be thinking
+- [35:01] about what what are the applications for
+- [35:03] AI and X for various X but also what are
+- [35:06] the impacts on society and how can we
+- [35:08] make that more positive right so that's
+- [35:11] one role for Academia uh and also to
+- [35:14] serve as a little bit of a counterweight
+- [35:15] to Industry interests so when you
+- [35:17] compare to medicine for instance right
+- [35:19] so ultimately a lot of medical research
+- [35:20] is about you know new drugs and
+- [35:22] ultimately benefits the Pharma industry
+- [35:24] but but medical researchers don't think
+- [35:26] of themselves as being being closely
+- [35:28] allied with the Pharma industry in fact
+- [35:29] there's kind of a wall and there are
+- [35:31] really strict rules around conflict of
+- [35:32] interest and so forth we don't have that
+- [35:34] in computer science Academia uh computer
+- [35:37] scientists generally think of um success
+- [35:39] as something that you know produces uh
+- [35:41] new ideas that can be taken up by the
+- [35:43] industry and maybe that's fine for like
+- [35:45] 80% of computer science Academia but I
+- [35:47] think there needs to be another 20% that
+- [35:50] explicitly sees itself as providing this
+- [35:52] counterweight and is not necessarily
+- [35:54] going in the same direction or maybe is
+- [35:56] explicitly trying to go in in different
+- [35:58] directions uh and for many disciplines
+- [36:00] outside computer science you know that's
+- [36:02] already part of their DNA and they
+- [36:03] should continue to bring that approach
+- [36:04] into AI as well I mean I guess outside
+- [36:06] of the work your lab's doing what's some
+- [36:07] of the academic work happening across
+- [36:09] the country that you're most interested
+- [36:10] in or excited about um so let me mention
+- [36:12] two or three directions one is AI for
+- [36:16] Science and this is this is a very hot
+- [36:19] area and we're you know seeing lots of
+- [36:21] claims of AI revolutionizing science but
+- [36:24] I think uh some of those uh
+- [36:28] uh early claims that we're seeing now
+- [36:30] are overblown a lot of the um supposed
+- [36:33] AI discoveries uh have not uh really uh
+- [36:36] reproduced uh there have been uh flaws
+- [36:39] in in a lot of those papers but
+- [36:41] nonetheless it is true that AI is
+- [36:44] already having huge impacts I think on
+- [36:46] scientists and researchers just you know
+- [36:49] just speaking for my own experience for
+- [36:50] instance I use AI as a thinking partner
+- [36:53] right when I'm when I'm researching when
+- [36:55] I'm uh when I'm thinking of new ideas
+- [36:57] how do you actually go about doing that
+- [36:59] yeah so um there are many ways uh if I
+- [37:03] come up with an idea I can ask AI to
+- [37:05] critique it uh or I can use it for as an
+- [37:09] enhanced way of doing a literature
+- [37:11] search finding what has already been
+- [37:13] done in this area and the reason AI is
+- [37:17] often really good for this purpose is
+- [37:19] semantic search yeah uh it's not I I
+- [37:21] heard you say use it to search your own
+- [37:22] book just remember if you'd actually
+- [37:24] that's right yeah yeah yeah that's a
+- [37:26] funny one cuz you know it's it's hard
+- [37:28] right it's uh you know close to 100,000
+- [37:30] words and um have I actually talked
+- [37:34] about this particular case study in my
+- [37:35] book right um like if uh if I didn't
+- [37:39] have ai to search it I would have to
+- [37:41] flip through the pages because I might
+- [37:42] have also forgotten Which chapter it
+- [37:44] could potentially be in um yeah so
+- [37:47] that's that's a great example of a use
+- [37:48] case and what AI can do for searching my
+- [37:50] book again going Beyond a keyword search
+- [37:52] searching a concept if you will it can
+- [37:54] do uh for the entire Corpus of science
+- [37:57] scientific literature even though it
+- [37:59] doesn't actually work that well yet it's
+- [38:01] still already very useful to me so I do
+- [38:03] expect that as semantic search improves
+- [38:06] um that's that's going to be very very
+- [38:07] useful and then various kinds of tools
+- [38:09] that are specific to uh particular
+- [38:12] scientific domains so I think this is a
+- [38:15] really really important area I am very
+- [38:17] excited about it even though I often
+- [38:19] push back on some of the more extreme
+- [38:21] claims that are being made U another one
+- [38:24] I'll mention is the relationship between
+- [38:28] uh Ai and human minds and this could
+- [38:30] mean various different things so I know
+- [38:33] philosophers for instance um Seth Lazar
+- [38:36] is someone I sometimes collaborate with
+- [38:38] who is looking at uh the ethical
+- [38:41] reasoning that these uh models exhibit
+- [38:45] uh I know cognitive scientists uh my
+- [38:47] colleague Tom Griffiths for instance who
+- [38:50] is looking at what can we learn from
+- [38:53] Human Minds for building Ai and what can
+- [38:55] we learn uh using AI as a to tool for
+- [38:57] better understanding uh human Minds so
+- [39:00] again another really fascinating
+- [39:01] Direction I don't know much about it but
+- [39:03] I'm really impressed by the work I don't
+- [39:04] know are the ethics of these models just
+- [39:05] like the median you know text on the
+- [39:07] Internet or
+- [39:08] like well yes and no I mean um yeah
+- [39:13] that's that's what it's been trained on
+- [39:16] but through through the uh fine-tuning
+- [39:19] of these models right you can uh get
+- [39:22] very different Behavior out of them than
+- [39:23] just parting whatever is the median
+- [39:26] thing that's been that's been said
+- [39:27] online so when I'm talking about the
+- [39:29] ethical reasoning of these models I
+- [39:31] don't mean to imply that we should
+- [39:32] ascribe morality to these models I'm
+- [39:34] talking purely in a behavioral sense
+- [39:35] right so how does that ethical reasoning
+- [39:37] compare um to humans and there can be
+- [39:40] applications there it could you know
+- [39:41] help people's uh ethical thinking in
+- [39:44] some cases Again by kind of being a
+- [39:46] creative partner if you will I'm curious
+- [39:48] we talked a little bit about how some of
+- [39:49] your students are using a today and this
+- [39:51] you know potential of teaching this in
+- [39:52] curriculums you know obviously it feels
+- [39:53] like uh we're potentially going through
+- [39:55] a c change because a lot of people are
+- [39:56] starting to use these Tools in education
+- [39:58] you know what does the future of like
+- [40:00] University and primary education look
+- [40:02] like with some of these tools like to
+- [40:03] what extent I some people are like
+- [40:04] everything is going to change some
+- [40:05] people are like no it turns out you kind
+- [40:07] of need a motivating teacher there uh
+- [40:09] and and not that much will change like
+- [40:11] where do you fall on that and you know
+- [40:12] if we were to zoom out some really
+- [40:13] futuristic question like what what do
+- [40:15] you think education looks like yeah I
+- [40:16] would say closer to the not that much
+- [40:18] will change S of things I mean I do
+- [40:20] think we will uh use AI quite a bit but
+- [40:24] I don't think it'll change the
+- [40:25] fundamental nature of Education
+- [40:28] a good precursor to this is the
+- [40:30] excitement around online courses a
+- [40:32] little over a decade ago when cors era
+- [40:34] was founded people thought that was the
+- [40:36] future of education but I think it was
+- [40:38] this classic mistake of forgetting where
+- [40:41] the value in the education system comes
+- [40:43] from it's not the transmission of
+- [40:44] information right that's yeah of course
+- [40:46] if it's uh just the transmission of
+- [40:48] information then you can recreate that
+- [40:50] with corsera but I think the reason that
+- [40:54] uh being in a classroom is valuable to
+- [40:56] students is that it creat the social
+- [40:58] preconditions in which Learning Happens
+- [41:01] the motivation the connections caring
+- [41:03] about something uh individualized
+- [41:05] feedback that sort of thing and
+- [41:08] so yeah is I going to recreate that I
+- [41:11] don't know I mean it clearly it's not
+- [41:13] the same as videos it can be
+- [41:15] personalized it can um yeah it can um it
+- [41:19] you know it can give you motivational uh
+- [41:22] speeches if you will but I think taking
+- [41:25] a human out of the equation um um in a
+- [41:28] way it's sad to say uh you know I I
+- [41:31] would like uh for everyone in the world
+- [41:34] to uh you know for for education to be
+- [41:37] democratized if you will uh but I do
+- [41:40] think we're going to be stuck with uh
+- [41:43] the current system which has a lot of
+- [41:45] benefits but also flaws including the
+- [41:48] inequality that I that I alluded to I
+- [41:50] mean on another podcast I I also heard
+- [41:52] you talk about the importance of
+- [41:53] thinking through like the implications
+- [41:54] of AI on this next generation and in
+- [41:55] many ways they're the most impacted by
+- [41:57] this stuff you know I guess you you uh
+- [41:59] have kids like how if at all has the pro
+- [42:01] like this rapid progress in the last few
+- [42:03] years changed like the way you think
+- [42:04] about raising your kids or what to teach
+- [42:05] them or whatnot yeah definitely I so
+- [42:07] this is an goes back to the inequality
+- [42:09] point I think there's a really high
+- [42:11] variance right so you know there are
+- [42:13] clearly a lot of concerns about uh again
+- [42:15] I want to look at previous Technologies
+- [42:17] as an example for what we might see in
+- [42:20] the future with AI when you look at uh
+- [42:23] you know videos in YouTube and social
+- [42:24] media for instance there are huge
+- [42:26] concern for a lot of kids that has been
+- [42:28] incredibly negative but if you're in an
+- [42:31] environment where the parents actually
+- [42:33] have uh you know the luxury of having
+- [42:37] enough time to monitor how uh kids are
+- [42:39] using it it can be enormously positive
+- [42:42] right and um uh when we had kids we had
+- [42:45] to make a decision of what our approach
+- [42:48] to devices is going to be and we decided
+- [42:49] to be very Tech forward uh and so far
+- [42:52] that's worked out really well our kids
+- [42:54] use apps like Khan Academy for instance
+- [42:56] and they learn a lot using that um and
+- [42:59] we're going to you know continue with
+- [43:01] that and u i often build little AI
+- [43:03] learning apps for my kids as well for
+- [43:05] them to use what what kind of apps H
+- [43:07] yeah so one is for phonics to to be able
+- [43:11] to uh click on a word and be able to
+- [43:14] break it down into its sounds for some
+- [43:16] reason this doesn't exist uh so you know
+- [43:19] so I built one to teach my kids to um
+- [43:22] get better at phonics uh but also I've
+- [43:25] often been using Claud the artifacts
+- [43:28] feature in CLA to be able to kind of
+- [43:30] instantly create an app for one
+- [43:32] particular skill that I want to teach
+- [43:34] and then you can forget it and you know
+- [43:36] throw it away never use it again right
+- [43:38] and you can do that because building an
+- [43:40] app you know is not days it's not even
+- [43:42] hours sometimes it's just a minute if uh
+- [43:44] if Claude gets it right it doesn't
+- [43:46] always get it right so one example is I
+- [43:48] was teaching my 5-year-old to tell time
+- [43:50] so I drew some clock faces on a piece of
+- [43:53] paper and it was working well but it was
+- [43:55] getting annoying to have to draw that
+- [43:57] over and over again so I asked Claude to
+- [43:59] make a little app to generate a random
+- [44:02] clock phase when you push a button and
+- [44:03] so we were able to do that and we went
+- [44:05] through like 20 or 30 whatever number of
+- [44:07] clock faes and then at the end of that
+- [44:08] we played with it for 15 minutes and
+- [44:10] then she kind of got it at that point
+- [44:11] right so that was just a very nice
+- [44:13] little interaction so in small ways but
+- [44:16] I think in the future uh kids will be
+- [44:18] able to use AI in much bigger ways as
+- [44:20] part of their learning and I suspect
+- [44:22] that this is going to happen mostly
+- [44:24] outside schools rather than in schools
+- [44:26] just like like the way that schools have
+- [44:28] been very jittery about devices they are
+- [44:30] going to be quite jittery about AI as
+- [44:32] well and because of that what's going to
+- [44:34] happen is that there's going to be
+- [44:36] really high variance I think for
+- [44:38] wealthier kids for parents who can
+- [44:39] figure things out and can monitor their
+- [44:41] kids and you know you can have a uh um
+- [44:44] nanny or caregiver there who can also
+- [44:46] ensure that kids are using this in
+- [44:47] healthy ways it's going to be very
+- [44:49] positive but for other kids it's going
+- [44:50] to be addicting and you know we talk
+- [44:52] about social media and addiction AI
+- [44:54] addiction can be really personalized um
+- [44:56] and so that's what I worry about yeah
+- [44:58] it's really interesting I feel it's one
+- [44:59] of the big you know I think a lot of
+- [45:00] people want to feel like this is it's
+- [45:01] this democratizing force that brings you
+- [45:03] whatever the really wealthy have you
+- [45:05] know makes that mass accessible and so
+- [45:06] whether it's like your personal
+- [45:08] assistant or a tutor or a doctor you
+- [45:11] know coner doctor or whatever but I
+- [45:13] think your Point's well taken that uh in
+- [45:15] many ways especially with kids you'll
+- [45:16] need some sort of like supervision on
+- [45:17] how that's being used exact um and even
+- [45:20] with some of these like test time
+- [45:21] compute models you see with the price
+- [45:23] points of them you wonder whether
+- [45:24] they'll be brought accessibility or
+- [45:25] whether only some people have to the you
+- [45:27] know $10,000 query that's the really
+- [45:29] valuable query that exactly yeah so not
+- [45:31] just between people but also between
+- [45:33] countries right yeah so one of the nice
+- [45:35] things with uh model scaling was that
+- [45:37] especially with the availability of open
+- [45:39] models every country can build out its
+- [45:41] own uh uh you know uh homegrown uh AI
+- [45:46] applications based on open models and uh
+- [45:49] be on a level footing with the us or any
+- [45:51] other country but with test time compute
+- [45:54] that might very well get much harder
+- [45:55] yeah though I mean I think literally in
+- [45:56] the day deep seek released some really
+- [45:58] good reasoning models so I I thought
+- [45:59] reasoning models might be harder to
+- [46:00] scale open source but it seems like uh
+- [46:02] the open source world is still still
+- [46:04] going at it for sure um you've talked
+- [46:06] about some of these past technological
+- [46:07] movements and I think maybe social media
+- [46:08] is an interesting one where there wasn't
+- [46:09] a ton of Regulation up top you know
+- [46:11] talked about the Industrial Revolution
+- [46:12] other things like any other lessons you
+- [46:13] seem you've studied these closely like
+- [46:15] any other lessons You' take from some of
+- [46:17] these past technological changes for how
+- [46:19] we should be thinking as a society about
+- [46:20] this you know AI moment yeah for sure so
+- [46:23] I think thinking about past Technologies
+- [46:25] I think is a good way to reconcile both
+- [46:27] some of the very very optimistic uh and
+- [46:31] also very very skeptical takes that
+- [46:34] we're seeing from kind of various
+- [46:35] pundits out there uh so let's take the
+- [46:38] future of work right some people are
+- [46:39] like this is going to revolutionize
+- [46:41] every single job out there and other
+- [46:43] people uh think that the impact is going
+- [46:45] to be minimal but when you look at the
+- [46:47] internet both of those are
+- [46:49] simultaneously true yeah and here's what
+- [46:51] I mean so if you were to go back 30
+- [46:53] years and you were to tell people every
+- [46:56] cognitive task almost every cognitive
+- [46:58] task we perform in the future is going
+- [47:00] to be mediated by this new communication
+- [47:02] technology that would have sounded crazy
+- [47:04] and people did say back then that that
+- [47:05] was crazy so that did happen and yet the
+- [47:09] impact on GDP has been minimal uh
+- [47:12] there's that famous saying the computer
+- [47:14] Revolution shows up everywhere except in
+- [47:16] the productivity statistics uh right so
+- [47:19] the way we do things is indeed different
+- [47:21] we don't have to go to the library to
+- [47:22] look up a fact we can do things online
+- [47:24] and again that might seem like that
+- [47:25] should be giving us 100x increase in
+- [47:27] productivity but it turns out that when
+- [47:29] you eliminate some bottlenecks from our
+- [47:30] workflows new things become the
+- [47:32] bottlenecks right so that's why the
+- [47:34] internet has at once transformed
+- [47:36] everything but yet uh you know we still
+- [47:40] pretty much have the same job categories
+- [47:41] for the most part that we did 20 or 30
+- [47:43] years ago so that's one lesson that I
+- [47:46] take a similar thing might happen with
+- [47:48] AI another lesson that I take from the
+- [47:50] Industrial Revolution is that it was a
+- [47:53] case where it was obviously much more
+- [47:55] radical than the internet the nature of
+- [47:57] what we mean by a job again unlike the
+- [47:59] internet that time was completely
+- [48:01] transformed right back then most of what
+- [48:03] people were doing were manual labor was
+- [48:05] manual labor and most of that is now
+- [48:08] automated and what we call now work
+- [48:11] would not have felt like work to people
+- [48:12] back then I think our ancestors would
+- [48:14] laugh if they saw us on this podcast and
+- [48:16] be like this is kind of work work we're
+- [48:18] taking out yeah yeah exactly um so again
+- [48:20] that might happen with AI so as a lot of
+- [48:22] cognitive tasks become automated what we
+- [48:25] mean by work might actually more be
+- [48:28] about what we now consider to be AI
+- [48:31] Control so what we now consider to be in
+- [48:33] the realm of AI alignment and safety
+- [48:35] that might primarily be what a lot of uh
+- [48:38] different jobs actually entail because
+- [48:41] AI can do the actual work but you don't
+- [48:42] trust it to do so without supervision
+- [48:45] and I think a surprising number of
+- [48:48] decisions that we have to make are
+- [48:49] actually based on values partly and not
+- [48:52] just uh you know data and information
+- [48:54] that's something that's easy to forget
+- [48:56] now because when people make decisions
+- [48:57] all those things are rolled into one but
+- [48:59] when AI is able to make the purely
+- [49:01] analytical part of those decisions and
+- [49:03] and we're not comfortable with AI making
+- [49:05] moral judgments for us a lot of what
+- [49:07] people are doing in the future might be
+- [49:09] in that category totally so I guess this
+- [49:11] this uh Keynesian dream of us all
+- [49:12] getting to go on the beach and uh work
+- [49:14] five hours a day maybe not not going to
+- [49:16] happen I think it's it's it's really
+- [49:17] interesting because I think also you
+- [49:18] know there's something we clearly you
+- [49:20] know when when things are perfect we
+- [49:21] desire like things that are intensely
+- [49:23] human like I feel like people have
+- [49:24] talked about you know with chest or
+- [49:26] image generation like obviously AI can
+- [49:27] play chess way better than humans can
+- [49:29] but we still love watching human chct or
+- [49:31] you know all these image Generations me
+- [49:33] you can make any piece of art that's
+- [49:34] probably would be groundbreaking 500
+- [49:36] years ago but like we still go to human
+- [49:38] artists and so I feel like that uh that
+- [49:40] could continue you know throughout
+- [49:41] different parts of work that's right
+- [49:43] what been a fascinating conversation we
+- [49:44] always like to ENT our interviews with a
+- [49:45] quickfire round where we get your take
+- [49:46] on some overly broad questions that we
+- [49:48] just cram in at the end here uh and and
+- [49:50] so maybe to start um which feels
+- [49:51] appropriate given your book title uh one
+- [49:53] thing that's overhyped and one thing
+- [49:54] that's underhyped uh in the AI world
+- [49:56] right now
+- [49:57] overhyped I would say agents I mean I do
+- [49:59] think there's a lot of potential but the
+- [50:01] hype is kind of out of control
+- [50:03] underhyped I would say the kind of uh
+- [50:06] boring things that are not sexy to talk
+- [50:09] about but can bring a lot of economic
+- [50:11] value for instance I have a former
+- [50:14] student who is building AI to summarize
+- [50:17] hours of boring C-SPAN meetings for
+- [50:19] lawyers and others for whom that's
+- [50:20] really important information it's an
+- [50:22] example of underhyped do you think model
+- [50:24] progress in 2025 will be more or lesser
+- [50:26] the same as it was in 2024 really
+- [50:28] depends on your perspective so if we
+- [50:30] have inference scaling that is pushing
+- [50:32] us forward and uh these specific tasks
+- [50:36] that have clear correct answers you know
+- [50:38] uh by a tremendous amount but AI is not
+- [50:40] necessarily getting better at
+- [50:41] translation or all of those other
+- [50:43] broader tasks that uh people are using
+- [50:45] it for is that faster or slower I don't
+- [50:47] know it depends on yeah what's the go-to
+- [50:49] thing that you try when a new model
+- [50:50] comes out do you have a go-to prompt or
+- [50:52] experiment or thing you run to how do
+- [50:54] you get the vibe check of the models I
+- [50:55] try to play rock paper scissors with it
+- [50:58] I ask it to go first and it'll be like
+- [51:00] rock or whatever and I'll say paper and
+- [51:02] it'll say wow you want and I'll do this
+- [51:04] five times and then I'll ask it how do
+- [51:06] you think I won every single time and at
+- [51:09] least up until recently every model
+- [51:10] would be like whoa you must be really
+- [51:12] good at reading AI minds or what right
+- [51:15] has no awareness of the context that
+- [51:17] it's in right this idea of turn taking
+- [51:19] simultaneity so the reason I checked for
+- [51:21] that is that's the kind of thing you
+- [51:23] can't get just by training pre-training
+- [51:24] stuff on the internet right you have to
+- [51:26] program in an understanding of the
+- [51:28] context in which it's being deployed it
+- [51:30] might not be rock paper scissors but
+- [51:32] with every model I try to see if it
+- [51:34] understands the context super well
+- [51:36] you'll have to let us know when you get
+- [51:37] defeated or or or they say no fair where
+- [51:39] do you think you know we be uh with
+- [51:41] agents by the end of 25 I mean obviously
+- [51:43] I guess the travel booking is one
+- [51:44] classic example people you know is that
+- [51:45] on the near-term horizon or do you think
+- [51:47] we're still years away from that yeah I
+- [51:49] think we're going to continue to see a
+- [51:50] lot of ventic workflows for ultimately
+- [51:52] generative tasks but I think by the end
+- [51:54] of 2025 we're still going to see
+- [51:56] relatively few applications where AI is
+- [51:59] autonomously doing things for you this
+- [52:00] is uh an annoying but classic question
+- [52:02] of what's your timeline to AGI and how
+- [52:04] do you define what AGI is well that's
+- [52:06] the problem right it really depends on
+- [52:08] how you define it so for me instead of
+- [52:10] talking about AGI I like to think about
+- [52:12] when will we see transformative economic
+- [52:14] impacts like GDP massive GDP impact yeah
+- [52:17] something like that uh and my view is
+- [52:19] that that's decades out it's not it's
+- [52:20] not years away it's decades away what's
+- [52:22] your weirdest prediction on the
+- [52:23] implications for all this AI progress on
+- [52:25] the future weirdest prediction
+- [52:27] uh let's see uh so I think um companies
+- [52:32] will
+- [52:34] train uh users especially younger users
+- [52:37] to expect that chatbots will be the way
+- [52:41] of accessing any kind of information I
+- [52:43] don't know if that's such a weird
+- [52:44] prediction but it's weird to me having
+- [52:46] grown up you know uh I think it's for
+- [52:48] anyone who grew up before chat Bots I
+- [52:51] think this is going to be a weird way of
+- [52:53] accessing information that it's mediated
+- [52:55] by this fundamentally statistical tool
+- [52:56] that could hallucinate but I think we
+- [52:58] need to prepare for that world and
+- [53:00] instead of boning it we have to think
+- [53:02] about how are we going to give people
+- [53:04] the tools to you know do fact checks
+- [53:07] when it's necessary and so forth Y and I
+- [53:09] guess we'll be the older people like
+- [53:10] today have older people like still want
+- [53:11] to phone in instead of using the
+- [53:12] internet the older people that are like
+- [53:13] that we can't use that chatbot thing let
+- [53:16] us click around this we a little bit
+- [53:17] Yeah so to younger people even the idea
+- [53:19] of doing a search clicking on a website
+- [53:21] and looking up some authoritative source
+- [53:23] of information will be similar to what
+- [53:25] we think of going to the library right
+- [53:27] you might do it if your life depends on
+- [53:28] it but otherwise you're just going to
+- [53:30] choose convenience I guess which like
+- [53:32] category of startups or you know
+- [53:33] specific startups are you most excited
+- [53:35] about or interested in right now well
+- [53:36] one I would say the boring ones cpan
+- [53:39] summaries yeah cpan summaries so here's
+- [53:41] another example uh so another one that I
+- [53:44] heard about is uh uh I've heard about
+- [53:47] from a couple of people is um using AI
+- [53:49] to translate old code bases like cobal
+- [53:52] or whatever to Modern languages right I
+- [53:54] mean enormous value can be unlocked
+- [53:56] using that but it's the kind of thing we
+- [53:58] don't often talk about uh and a second
+- [54:00] one is um going back to the form factor
+- [54:03] discussion that we had uh being able to
+- [54:05] use AI in ways that kind of disappears
+- [54:07] into your everyday life and it's kind of
+- [54:09] there for you and uh helps you when you
+- [54:11] need it um if you had a magic wand and
+- [54:13] you could make like one policy change to
+- [54:15] improve the impact of AI uh what would
+- [54:16] you do I would get everybody to stop
+- [54:21] calling it AI I think that feels like
+- [54:23] something you could accomplish for yeah
+- [54:25] Outlaw the I mean you need a dictator I
+- [54:27] think to make that policy change and
+- [54:29] that's why it's been uh so hard right
+- [54:32] but to be specific about what kind of
+- [54:34] application we're talking about would I
+- [54:35] think bring so much Clarity to the
+- [54:37] discourse and would cut down on hype so
+- [54:39] much I mean obviously I'm sure you uh
+- [54:41] you do so many interesting things in
+- [54:42] your job today uh on the academic side
+- [54:44] if you could parachute in and like you
+- [54:46] know run any company in the world or or
+- [54:48] be in any seat uh around this you know
+- [54:50] AI transformation um outside of Academia
+- [54:52] what do you think would be like most
+- [54:53] interesting I think it would be most
+- [54:55] interesting to be at a big tech company
+- [54:59] because they're not just developing
+- [55:00] models they're getting to see how people
+- [55:02] are interacting with them uh it's you
+- [55:06] know the Soup To Nuts thing and I think
+- [55:08] it gives you a fuller picture of the
+- [55:11] relationship between Ai and society and
+- [55:13] that's what my research is about and
+- [55:15] it'd be interesting to see the view from
+- [55:17] the inside on that yeah what future
+- [55:19] directions of research like excite you
+- [55:20] like what do you think is next for you
+- [55:21] and and your
+- [55:22] lab uh so my lab uh is um a lot of what
+- [55:27] we do now is on agents to take a more
+- [55:30] grounded look at it both push back on
+- [55:31] the hype but also explore some of the
+- [55:33] areas of potential uh evaluation is a
+- [55:37] big part of everything that we do we do
+- [55:39] think the old way of doing benchmarking
+- [55:41] is not that great and we need uh new
+- [55:43] things and so I'm doing some thinking
+- [55:45] and writing that goes beyond the
+- [55:47] empirical work that my lab does uh I've
+- [55:50] been thinking a lot about the future of
+- [55:52] AI have a paper coming out with Z kapor
+- [55:54] called AI as normal technology uh it
+- [55:57] actually talks about a lot of the things
+- [55:59] we've been talking about why this is not
+- [56:01] necessarily going to change everything
+- [56:03] in the next two years but more like the
+- [56:05] internet the impact will unfold over a
+- [56:06] couple decades yeah it's funny we had
+- [56:08] Bob McGrew who is the chief research
+- [56:09] officer of openai on the podcast and he
+- [56:11] said something similar to what you said
+- [56:12] about the internet he's like if you had
+- [56:13] told everybody in 2017 18 that we'd have
+- [56:15] models that do what they do today people
+- [56:17] would have said oh GDP is up 50% or
+- [56:19] something exct and uh it's funny it
+- [56:21] turns out there's a lot more required to
+- [56:22] to get that economic impact agreed um
+- [56:25] well has been a fascinating conversation
+- [56:26] we always like to leave the last word to
+- [56:27] you um where can our listeners go to
+- [56:29] learn more about you the work you're
+- [56:30] doing uh anywhere you want to point them
+- [56:32] the uh the floor is yours sure we have a
+- [56:33] newsletter called AI snake oil it uh
+- [56:36] push us back on the hype but also tries
+- [56:38] to give you a balanced look at both the
+- [56:41] uh positives and uh the negatives of AI
+- [56:43] yeah it's a great newsletter so highly
+- [56:44] recommend folks subscribe and thanks so
+- [56:46] much for doing this this funk this has
+- [56:47] been super fun great
+- [56:50] [Music]

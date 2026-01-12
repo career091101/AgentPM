@@ -1,0 +1,221 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=oEgiCgQwi-A"
+video_id: "oEgiCgQwi-A"
+video_url: "https://www.youtube.com/watch?v=oEgiCgQwi-A"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=oEgiCgQwi-A
+  - Retrieved at: 2025-12-30T16:17:23+09:00
+  - [00:00] Okay, so today uh I just wanted to share
+key_points:
+  - "- [00:17] just to make it short, how this should"
+  - "- [02:58] exchanges one because we don't need to"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: oEgiCgQwi-A
+
+- URL: https://www.youtube.com/watch?v=oEgiCgQwi-A
+- Retrieved at: 2025-12-30T16:17:23+09:00
+
+## Text
+
+- [00:00] Okay, so today uh I just wanted to share
+- [00:02] a bit about uh something I've been
+- [00:03] thinking about for a while that I've
+- [00:05] been wanting to do. And now that we got
+- [00:07] the Gemini flash model, Gemini 3 flash
+- [00:09] model, I thought I just want to try it
+- [00:11] out. So this is like a smaller prototype
+- [00:14] version of this this simulation. But
+- [00:17] just to make it short, how this should
+- [00:19] work is that we have three agents now.
+- [00:22] Uh all is running on Gemini 3. So one is
+- [00:26] Jack that works at the daily grind.
+- [00:28] That's a coffee shop. We have Claude
+- [00:29] that works at Bean there. And we have
+- [00:33] Erica. She's the customer of both coffee
+- [00:35] shops, right? So, she can talk to both
+- [00:39] agents. The agents, Jack and Claude,
+- [00:42] cannot talk to each other because they
+- [00:44] are in different locations. Uh, but
+- [00:47] she's a bit of like this gossip girl.
+- [00:49] So, she also spills information she had
+- [00:53] with uh Claude here. she tells Jack
+- [00:56] about and they both kind of are
+- [00:57] interested in her. So, this is like a
+- [01:00] small social experiment simulation,
+- [01:03] right? And what I wanted to really do
+- [01:06] was to generate this mental images
+- [01:08] because we can kind of record the inner
+- [01:10] monologue of the agents and from that
+- [01:14] inner monologue, we want to create
+- [01:16] mental images like when you have a
+- [01:18] thought in your head, you also visualize
+- [01:20] it. That was what I wanted to try to do.
+- [01:23] So, I just wanted to show you kind of
+- [01:24] the demo I have for today and hopefully
+- [01:27] next week I kind of have the full
+- [01:28] version and yeah, let's just take a
+- [01:31] quick look at it. Uh, I don't have so
+- [01:32] much time today, so I think this is
+- [01:34] perfect. So, another thing I wanted to
+- [01:35] implement was of course memory. So, I
+- [01:37] thought I could take talk a bit about
+- [01:39] the memory setup I have for this. I'm
+- [01:42] just going to go quickly through it
+- [01:43] here. So, if we go to where did I put
+- [01:47] that? Was it in tools? I think uh I
+- [01:51] can't remember. Here it is. memory
+- [01:53] service and we have mental memory
+- [01:55] service, right? So for the images, I
+- [01:59] wanted to create a mental uh mental a
+- [02:03] memory too. So I thought of like a
+- [02:05] sliding window so each agent can
+- [02:08] remember their five last images they or
+- [02:11] feelings or mental images so they can
+- [02:14] load this into context. Uh but I wanted
+- [02:17] a bigger memory for the conversations.
+- [02:19] So here we have like a bigger uh window
+- [02:22] where we can share the previous
+- [02:24] conversations. So the thing is that uh
+- [02:28] the agents only remember their
+- [02:30] conversations with Erica and Erica with
+- [02:33] both right because she can talk to both.
+- [02:35] So that is kind of the setup we have for
+- [02:37] the conversation. I think we're just
+- [02:39] going to run it and then you can kind of
+- [02:41] see how this works. So if we do mpm web
+- [02:44] because I created like a web UI for
+- [02:45] this. I mean mpm run web of course. So
+- [02:49] if we go to our local host now you can
+- [02:51] see this is kind of the setup. Coffee
+- [02:54] shop simulation. So yeah we're just
+- [02:57] going to keep it like this. Turns three
+- [02:58] exchanges one because we don't need to
+- [03:00] run this anymore. So when I start this
+- [03:02] now uh we're going to go through what
+- [03:04] happened. So you can see we are at the
+- [03:05] bean there coffee shop. Morning Claude.
+- [03:08] You look like you had a much more
+- [03:09] graceful start to your day uh than I
+- [03:12] thought for sure. Uh composed me. I let
+- [03:15] out a short quiet laugh and you can see
+- [03:17] we are talking and you can see yeah
+- [03:20] there's a lot of talk here and then we
+- [03:22] get Claude's thoughts here right beneath
+- [03:25] a cool professional exterior I'm
+- [03:27] actually hyper aware of how much my
+- [03:29] confidence is calculated to performance
+- [03:31] to keep you back coming to my counter my
+- [03:34] secret hope is to see right through the
+- [03:36] bravo and realize this is calibration
+- [03:38] and you can see him this is his dream
+- [03:41] he's dreaming of her on the closed sign
+- [03:44] they are kind of in love, right? And
+- [03:46] Erica's thoughts is that Claude talks
+- [03:49] about being perfectly calibrated, but
+- [03:51] but my own heart is hammering so hard
+- [03:54] against my ribs that I'm terrified
+- [03:55] you'll hear it. And this is what she is
+- [03:58] imagining at the coffee shop. In Erica's
+- [04:01] daydream, the bustling coffee shops fade
+- [04:03] into a Okay. And now we are visiting the
+- [04:07] daily grind. Morning, Jack. Yeah, there
+- [04:09] are some bugs here. Uh oh, Erica, good
+- [04:12] morning. And you can see why is he
+- [04:14] talking so much. Uh and then we get
+- [04:17] Jack's thoughts like this is his inner
+- [04:19] monologue. Uh he is also kind of
+- [04:22] dreaming of the same because he also
+- [04:24] likes her. And then we get Erica's
+- [04:27] thought. Oh, she's kind of thinking of
+- [04:29] the same, right? That's not bad. She's
+- [04:31] playing both sides.
+- [04:33] And yeah, Erica imagines Jack looking
+- [04:36] locking the coffee shop a dirt early
+- [04:39] pulling into the warm glow of espresso
+- [04:41] machine light to confess that he has
+- [04:44] been okay. Yeah, we don't need to go
+- [04:46] more into that. And yeah, we have to fix
+- [04:48] this. But this is just an experiment,
+- [04:50] right? Because we want to keep the
+- [04:52] conversation going, but now we're just
+- [04:54] going to do it three times with no uh
+- [04:56] context, right? And yeah, it's probably
+- [04:58] going to be the same, right? They are
+- [05:00] kind of in love. So this is kind of the
+- [05:04] start I had
+- [05:06] and I plan to work more on this. So what
+- [05:09] I want to do, what I really want to do
+- [05:11] is generate more agents and we don't
+- [05:14] have to have this visual. We can do it
+- [05:15] headless, right? So basically I want to
+- [05:18] run like a big simulation where there
+- [05:19] are more people involved. So this is
+- [05:21] more like a social experiment, right?
+- [05:24] And we want to keep track of all the
+- [05:26] interactions. Maybe we can summarize
+- [05:28] this. We can keep some of the images and
+- [05:31] stuff like that. Maybe create some more
+- [05:33] interactions between different agents
+- [05:36] and I think it's just a fun project. I
+- [05:38] want to bit more uh work a bit more on
+- [05:40] uh but this was just an example uh what
+- [05:43] I wanted to do. So the big idea uh today
+- [05:46] is that I wanted to kind of turn the the
+- [05:50] thoughts or like the inner monologue of
+- [05:52] the agents into images. So, we are using
+- [05:56] the model we are using for this is a
+- [05:58] pretty cool model. You should check out
+- [06:00] and it's super cheap. It's the said
+- [06:02] image model. So, it's like a turbo
+- [06:05] model. It's pretty fast. Gemini is
+- [06:07] pretty fast. So, I totally can run like
+- [06:09] loads of these simulations, right? If
+- [06:11] you wanted to. So, we can run it again,
+- [06:13] right? But now we don't have any. We
+- [06:16] haven't put on the memory here, right?
+- [06:18] Or you can see maybe we have twice in
+- [06:20] one morning. Erica. Yeah, we did that
+- [06:22] here. you're really making the rounds
+- [06:24] today. So, you can see we have now we
+- [06:26] have the memory loaded. Okay, so we kind
+- [06:28] of get the same point. Uh, but the point
+- [06:30] today was that I just wanted to share
+- [06:32] something I've been working on. I think
+- [06:33] this simulation thing is a bit
+- [06:35] interesting, but I haven't really found
+- [06:37] anything like good use case for it yet.
+- [06:40] Uh, but I'm going to keep exploring this
+- [06:42] mental images. I think this is pretty
+- [06:45] interesting and see where I can go from
+- [06:47] this. Probably the next version of this,
+- [06:49] uh, it's not going to be like this. This
+- [06:51] is just an example I set up just to see
+- [06:53] if it works. H it's probably going to be
+- [06:55] something bigger, right? With more
+- [06:57] agents, more interactions. So yeah, I
+- [07:00] just wanted to share this uh short video
+- [07:02] today, but uh yeah, I've been busy
+- [07:04] today, but I thought I just do a quick
+- [07:05] update on this. And maybe this gave you
+- [07:08] some inspiration of simulations you can
+- [07:10] run some social experiments. It could be
+- [07:12] anything, right? And the model we're
+- [07:14] using is the said image model and with
+- [07:16] Gemini 3 flash, which is a really good
+- [07:18] model, by the way. Uh it's very fast so
+- [07:21] you can do these things on the fly even
+- [07:23] though we are lagging a bit behind the
+- [07:24] API here but uh it kind of works anyway.
+- [07:27] So yeah just a short video today. Maybe
+- [07:30] some gave you some inspiration and I'll
+- [07:31] see you again

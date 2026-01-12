@@ -1,0 +1,455 @@
+---
+title: "Today, we're diving deep into one of the hottest topics in AI right now."
+video_id: "OKwDzKY_WN8"
+video_url: "https://www.youtube.com/watch?v=OKwDzKY_WN8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Today, we're diving deep into one of the hottest topics in AI right now
+  Building actual agents in Python
+  Not just chatbots to respond to your queries, but autonomous systems with memory, goals, and the ability to take actions in the world
+key_points:
+  - "is the professional agentic AI certification"
+  - "is the professional generative AI LLM certification focused on fine-tuning and optimizing large language models for realworld use"
+  - "every agent needs an LLM backbone"
+  - "thing that you need for any AI agent and LLM, which acts as the backbone"
+  - "you need prompt templates and a reasoning strategy"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:40:29+09:00"
+---
+
+# Transcript: OKwDzKY_WN8
+
+- URL: https://www.youtube.com/watch?v=OKwDzKY_WN8
+- Retrieved at: 2025-12-30T10:40:29+09:00
+
+## Text
+
+- [00:00] Today, we're diving deep into one of the
+- [00:02] hottest topics in AI right now. Building
+- [00:05] actual agents in Python. Not just
+- [00:07] chatbots to respond to your queries, but
+- [00:10] autonomous systems with memory, goals,
+- [00:12] and the ability to take actions in the
+- [00:14] world. We're talking about personal
+- [00:16] assistants that schedule your meetings,
+- [00:18] research bots that gather information,
+- [00:21] development tools that can fix your
+- [00:22] code, web scrapers that can gather data,
+- [00:25] and much, much more. Now, this will not
+- [00:27] be a step-by-step coding tutorial.
+- [00:30] Instead, I'm going to give you a
+- [00:31] strategic overview of the landscape so
+- [00:33] you can choose the right tools for your
+- [00:35] specific project. But before we jump in,
+- [00:38] I want to give a quick thank you to
+- [00:39] Nvidia for sponsoring this video. Nvidia
+- [00:42] just launched two brand new
+- [00:44] certifications that I think are game
+- [00:46] changers if you're working with AI. The
+- [00:48] first is the professional agentic AI
+- [00:50] certification. This one proves you can
+- [00:53] actually design and deploy advanced
+- [00:54] multi- aent systems. And the second is
+- [00:57] the professional generative AI LLM
+- [00:59] certification focused on fine-tuning and
+- [01:02] optimizing large language models for
+- [01:04] realworld use. These certifications
+- [01:07] aren't just a piece of paper. They're
+- [01:08] backed by NVIDIA and actually provide
+- [01:11] realworld value. Whether you're a
+- [01:13] student, developer, are already working
+- [01:15] in the field, NVIDIA certifications are
+- [01:17] a great way to validate your skills and
+- [01:19] stand out in a crowded job market. And
+- [01:21] here's the great thing. You can get 20%
+- [01:23] off any certification exam with the code
+- [01:25] tech with Tim 20. I'll leave the link in
+- [01:28] the description so you can sign up and
+- [01:29] start leveling up your AI career. So,
+- [01:31] big thank you to Nvidia for sponsoring
+- [01:33] this video. Now, let's get into it and
+- [01:35] start by understanding the core blocks
+- [01:37] of any AI agent. Now, think of this like
+- [01:40] your mental checklist when you're
+- [01:41] planning your agent architecture. Going
+- [01:44] to go through all of the things that are
+- [01:45] probably going to make up every AI
+- [01:47] agent. Now, first, every agent needs an
+- [01:49] LLM backbone. LLM stands for large
+- [01:52] language model and this is the brain of
+- [01:54] your agent that handles understanding
+- [01:56] language and generating responses. Now
+- [01:59] you've probably heard of some popular
+- [02:00] options like OpenAI's GPT4 which powers
+- [02:03] chat GPT or Entropics Claude. There are
+- [02:06] also many open- source options like
+- [02:08] models that come from Olama that you can
+- [02:10] run locally on your own computer. Now
+- [02:12] think of the LLM as the reasoning engine
+- [02:15] that powers everything else. It's what
+- [02:17] enables your agent to understand tasks,
+- [02:19] make decisions, and communicate in
+- [02:21] natural language. So, that's the first
+- [02:23] thing that you need for any AI agent and
+- [02:25] LLM, which acts as the backbone. Now,
+- [02:28] second, you need prompt templates and a
+- [02:30] reasoning strategy. Prompt templates are
+- [02:33] pre-esigned text structures that help
+- [02:34] guide your LLM's responses. Think of
+- [02:37] these as the questions or instructions
+- [02:39] that you give to your AI to get useful
+- [02:41] answers. Now, a good prompt template
+- [02:43] clearly explains the task, provides
+- [02:46] context, and specifies the format that
+- [02:48] you want for the particular response.
+- [02:50] Now, as for reasoning strategies,
+- [02:52] there's several popular approaches, and
+- [02:53] we'll get into them in more detail later
+- [02:55] in the video. First though, we have
+- [02:57] react, which stands for reasoning and
+- [02:59] then action or act. It's where the agent
+- [03:02] thinks through a problem step by step
+- [03:03] before taking action. Imagine it like a
+- [03:06] person thinking, hm, I need to find the
+- [03:08] weather. First, I'll go access the
+- [03:09] weather API. Then, I'll look up the
+- [03:11] user's location, and so on and so forth.
+- [03:14] Next, we have plan and execute. This is
+- [03:17] similar, but it separates the planning
+- [03:19] phase from the execution phase. Lastly,
+- [03:21] we have reflection, and this is a newer
+- [03:23] approach that encourages the agent to
+- [03:25] reflect on its previous actions to
+- [03:27] improve its future performance. Now,
+- [03:29] after prompts and reasoning, the third
+- [03:31] thing that our agent needs is tools and
+- [03:33] actions that it can use to interact with
+- [03:36] the world. Now, without tools, your
+- [03:37] agent is just a chatbot. It can talk,
+- [03:40] but it can't really do anything. Tools
+- [03:42] give your agent the ability to take
+- [03:44] actions beyond just generating text.
+- [03:46] This can include web access so it can
+- [03:48] search for information online, file
+- [03:50] operations like reading or writing
+- [03:52] files, code execution like running
+- [03:54] Python code or doing calculations, and
+- [03:57] API calls like connecting to services
+- [03:59] like Google Cloud or Slack. Now, think
+- [04:01] of tools as like the hands of your
+- [04:03] agent. They let it reach out and
+- [04:05] actually do things in the digital world.
+- [04:08] Now, after tools, every agent needs
+- [04:10] memory and state management. Without
+- [04:12] memory, your agent would be like a
+- [04:14] goldfish, forgetting everything as soon
+- [04:16] as the conversation moves on. Now,
+- [04:18] memory systems store information from
+- [04:20] past interactions so your agent can
+- [04:23] maintain context over time. Now, the
+- [04:25] simplest form of this is something like
+- [04:27] buffer memory, which just keeps a record
+- [04:29] of the recent conversation history. More
+- [04:31] advanced systems use vector search
+- [04:33] capabilities to store and retrieve
+- [04:35] relevant information from a larger
+- [04:37] knowledge base. And some agents use JSON
+- [04:40] to store and keep track of structured
+- [04:42] data like user preferences or a task
+- [04:44] status. Now that's memory. And finally,
+- [04:47] at the heart of every AI agent is the
+- [04:49] control loop. This is the
+- [04:51] decision-making processes that determine
+- [04:53] what the agent does next. The control
+- [04:55] loop continuously cycles through
+- [04:57] observing the current state, deciding
+- [05:00] what action to take based on goals and
+- [05:02] available tools, executing that action,
+- [05:04] observing the result, and then repeating
+- [05:06] the process. It's like a thought process
+- [05:09] of your agent. Now, these are the five
+- [05:11] components, the backbone, prompt
+- [05:14] templates, reasoning strategies, tools,
+- [05:16] and actions, memory, and state
+- [05:18] management, and finally, the control
+- [05:20] loop that form the foundation of any AI
+- [05:23] agent. And by understanding each piece,
+- [05:25] you'll be better equipped to choose the
+- [05:26] right frameworks and design patterns for
+- [05:29] your specific project. So now what I
+- [05:31] want to do is dive into actual Python
+- [05:33] frameworks that make building these
+- [05:35] agents much easier. So let's get into
+- [05:37] them. All right, so now that we
+- [05:39] understand the core building blocks,
+- [05:41] let's break down the most popular Python
+- [05:43] frameworks for building AI agents. And
+- [05:45] I've actually used all of these, so I
+- [05:46] can really speak to them well. Now,
+- [05:48] first up is Langchain, a modular Python
+- [05:51] framework that's become the go-to for
+- [05:53] building LLM applications with tools,
+- [05:56] memory, chains, and agents. You should
+- [05:58] consider Langchain when you want full
+- [06:00] programmatic control. When you're
+- [06:02] building agents that need to call APIs,
+- [06:05] perform reasoning tasks, or maintain
+- [06:07] memory, and when you're comfortable
+- [06:08] working with Python logic to connect
+- [06:10] everything together. It's extremely
+- [06:12] flexible, but there is a little bit of a
+- [06:14] learning curve, and you do need to know
+- [06:16] some Python. Now, next on my list is
+- [06:18] Langraph. This is essentially a stateful
+- [06:21] graph-based framework built on top of
+- [06:23] Langchain. Think of it as a structured
+- [06:25] way to model your agent workflows,
+- [06:27] giving you a lot more control. Now, you
+- [06:29] should use Langraphph when you want
+- [06:30] precise control over how your agent
+- [06:33] moves through tasks or states when
+- [06:35] you're building complex multi-step or
+- [06:37] multi- aent workflows or when you need
+- [06:39] asynchronous or branching logic like
+- [06:42] retry mechanics or conditional paths.
+- [06:44] Now, it's great for more complex agent
+- [06:46] architectures that need clear state
+- [06:48] management, but it is a little bit
+- [06:50] overkill for a basic agent. So, if you
+- [06:52] want to go with something basic, go with
+- [06:53] Lang Chain. If you want much more
+- [06:55] control and something that has a lot of
+- [06:57] different paths it needs to follow, then
+- [06:59] go with Langraph. And of course, I have
+- [07:01] tutorials on both of these on the
+- [07:02] channel. Now, for those of you that
+- [07:04] prefer a more visual approach, there is
+- [07:06] another tool called Langflow. This is
+- [07:08] pretty much a visual lang chain that
+- [07:10] lets you drag and drop components to
+- [07:12] build agents and workflows with minimal
+- [07:15] coding. Now, this is perfect when you
+- [07:16] want to prototype something quickly
+- [07:18] without knowing lang chain or lang graph
+- [07:20] and when you prefer a visual nodebased
+- [07:23] interface. It's also great when you're
+- [07:24] experimenting with different chain
+- [07:26] configurations and you want to iterate
+- [07:28] quickly without writing a bunch of code.
+- [07:30] Now, this is an excellent tool for
+- [07:31] beginners or for quick proof of concept
+- [07:33] and of course I have tutorials on this
+- [07:35] on the channel. Now, when it comes to
+- [07:37] connecting your agents with data, Llama
+- [07:39] Index is another standout framework.
+- [07:41] It's designed specifically to connect
+- [07:43] external data sources like PDFs,
+- [07:46] websites, and databases to LLM with
+- [07:48] powerful indexing, retrieval, and query
+- [07:51] routing capabilities. So you should
+- [07:53] consider Llama Index when your agent
+- [07:55] needs to retrieve context from private
+- [07:57] data, when you want to build a rag
+- [07:59] retrieval augmented generation system,
+- [08:02] or when you need to structure fine-tuned
+- [08:04] access to files, APIs, or databases.
+- [08:07] Now, it's the go-to solution for
+- [08:09] datacentric AI agent applications. So if
+- [08:12] you're using a lot of data, then check
+- [08:13] out Llama Index. Now, for more complex
+- [08:16] scenarios involving multiple agents, you
+- [08:18] can check out something like Crew AI.
+- [08:20] Now, this offers a teamwork framework
+- [08:22] where you can define different roles,
+- [08:24] assign tasks, and enable collaboration.
+- [08:27] This is ideal when your use case
+- [08:28] requires multiple agents that are
+- [08:30] working together, and when you want
+- [08:32] agents to follow structured roles and
+- [08:34] task flows or when you're building
+- [08:36] simulations of team workflows. Now, this
+- [08:38] is particularly strong for multi-roll
+- [08:40] processes like writing, coding, and
+- [08:43] research projects where different
+- [08:44] specialized agents need to coordinate
+- [08:46] together. Now, of course, there are a
+- [08:48] lot of other tools and frameworks that
+- [08:49] you can use, but these are the ones that
+- [08:51] I'm familiar with and that really are
+- [08:53] the most popular and definitely are
+- [08:55] going to get you where you need to go
+- [08:56] when it comes to building advanced AI
+- [08:58] agents. Now, beyond these frameworks,
+- [09:00] there are several additional tools that
+- [09:02] are worth mentioning that will help you
+- [09:04] when you're writing Python code. Now,
+- [09:06] number one is Streamlin. This offers a
+- [09:08] fast way to build web interfaces for
+- [09:10] your agents. It's extremely simple to
+- [09:12] use and it's my go-to for user
+- [09:14] interfaces for AI applications. Next, we
+- [09:17] have data stacks and Chroma DB. These
+- [09:20] both provide vector database solutions
+- [09:22] for storing and retrieving embeddings,
+- [09:24] and they're good for building in rack.
+- [09:26] And of course, we have libraries like
+- [09:27] pandas, for example, which are essential
+- [09:29] for data manipulation and analysis
+- [09:31] within your agent workflow. So, consider
+- [09:34] picking up some of these tools and
+- [09:35] learning some additional Python modules
+- [09:37] because they go really nicely with the
+- [09:39] frameworks I mentioned before. Anyways,
+- [09:41] let's now explore some common design
+- [09:43] patterns for AI agents with practical
+- [09:46] examples to help you understand and how
+- [09:48] to use each one. Now, first let's talk
+- [09:51] about the react pattern which stands for
+- [09:53] reasoning and then action. Now, this
+- [09:55] originated in academic research and has
+- [09:57] become the standard approach for tooling
+- [10:00] agents. In React, your agent first
+- [10:03] thinks through what it knows and what it
+- [10:04] needs to find out. It then selects an
+- [10:07] appropriate action, observes the result,
+- [10:09] and repeats that for what it needs to
+- [10:11] do. So, for example, if it was asked to
+- [10:13] find the population of Tokyo and compare
+- [10:15] it to New York, a React agent would
+- [10:17] first reason, I need the population data
+- [10:20] for two cities. It would then decide to
+- [10:22] search for Tokyo's population, observe
+- [10:24] the result, search for New York's
+- [10:26] population, observe the result, and then
+- [10:28] finally compare at the numbers. Now,
+- [10:30] this pattern excels when your agent
+- [10:32] needs to use tools strategically and
+- [10:34] explore information in a methodical way.
+- [10:37] Next, we have the plan and execute
+- [10:39] pattern. Now, this takes a more
+- [10:41] structured approach by dividing work
+- [10:43] between two specialized components.
+- [10:46] First, you have a planner agent. This
+- [10:48] develops a comprehensive step-by-step
+- [10:50] plan to achieve a particular goal. Then
+- [10:52] you have an executor agent which
+- [10:54] meticulously follows each step handling
+- [10:57] any complications that arrive during the
+- [10:59] implementation. Now think of this like
+- [11:01] an architect drawing a blueprint before
+- [11:03] the construction begins. So this pattern
+- [11:05] shines for complex tasks where mistakes
+- [11:08] will be costly. For example, if you're
+- [11:10] writing complex Python script with
+- [11:12] multiple API integrations, the planner
+- [11:15] might first outline all of the necessary
+- [11:16] imports, function definitions, and API
+- [11:19] calls, well, the executor would write
+- [11:21] all of the actual code following this
+- [11:23] blueprint. Now, this separation of
+- [11:25] concerns leads to more reliable outcomes
+- [11:27] for sophisticated tasks, and it's
+- [11:29] definitely something worth considering.
+- [11:31] Next, we have the multi- aent
+- [11:33] collaboration. Now, this expands on
+- [11:35] these foundations by creating teams of
+- [11:37] specialized agents that work together on
+- [11:39] complex problems. So, rather than having
+- [11:41] one agent handle everything, you assign
+- [11:44] specific roles based on different
+- [11:46] expertise. For instance, a coding
+- [11:48] project might involve a project manager
+- [11:50] agent that defines requirements, a
+- [11:52] solutions architect that designs the
+- [11:54] overall structure, and then multiple
+- [11:56] developer agents that write the code,
+- [11:58] and maybe a QA agent that tests this for
+- [12:01] bugs. Now these agents communicate with
+- [12:03] each other passing information and
+- [12:05] results between them as the project
+- [12:07] progresses. Now this approach mimics
+- [12:09] human team dynamics and works
+- [12:11] exceptionally well for projects
+- [12:12] requiring diverse skills and
+- [12:14] perspectives. Can be hard to set up but
+- [12:16] when done well it works very well. Next
+- [12:19] we have retrieval augmented generation
+- [12:21] or rag. Now this has become an essential
+- [12:24] pattern for knowledge inensive
+- [12:26] applications. Now in rag before your
+- [12:28] agent generates a response it first
+- [12:30] searches a knowledge base could be
+- [12:32] something like documents websites maybe
+- [12:34] a database for relevant information.
+- [12:37] This is to inform its answer. So for
+- [12:39] example if you're building a customer
+- [12:41] support agent the rag pattern would
+- [12:43] enable it to search through product
+- [12:44] documentation previous support tickets
+- [12:47] maybe information about the company
+- [12:49] before answering a customer's question.
+- [12:51] Now, this dramatically improves the
+- [12:53] accuracy by grounding the responses in
+- [12:55] factual information rather than relying
+- [12:58] solely on the LLM's internal knowledge
+- [13:00] which could be out ofd or just not
+- [13:02] relevant to the particular problem. Now,
+- [13:04] rag is very valuable when you're working
+- [13:06] with domain specific information,
+- [13:09] proprietary data, or rapidly changing
+- [13:11] knowledge that might not be in the
+- [13:13] existing LLM training data. So, how do
+- [13:16] you actually choose your stack and your
+- [13:18] architecture? Well, my advice is to
+- [13:20] start simple. One agent, one clear goal,
+- [13:23] no complex memory requirements, and as
+- [13:26] you understand the problem better, you
+- [13:28] can scale up by adding tools, memory
+- [13:30] systems, planning capabilities,
+- [13:32] team-based approaches, etc. Now, in
+- [13:34] terms of your choice of framework, you
+- [13:36] should be guided by your priorities. If
+- [13:38] you need full control, go with Langchain
+- [13:40] or Langraph. If collaboration between
+- [13:42] agents is key, then use something like
+- [13:44] Crew AI. And if you need to demo
+- [13:46] something quickly, you could use
+- [13:48] Streamlit and something like Langflow to
+- [13:50] get something up and running quickly.
+- [13:51] Lastly, if something like Privacy is a
+- [13:53] major concern, then definitely consider
+- [13:55] using some local models with tools like
+- [13:58] Olama, for example, which allow you to
+- [14:00] run models locally on your own computer,
+- [14:02] assuming that you have sufficient
+- [14:04] hardware. Now, the beauty of this field
+- [14:06] is that it's evolving rapidly with new
+- [14:08] tools and patterns every single day. So
+- [14:10] what matters most is understanding the
+- [14:12] fundamental building blocks and the
+- [14:14] trade-offs between different approaches.
+- [14:16] So start with a clear problem statement.
+- [14:18] Choose the simplest stack that addresses
+- [14:20] your needs and iterate from there. All
+- [14:23] right guys, so that's going to wrap up
+- [14:24] this video. I know that was a lot of
+- [14:26] information, but I wanted to provide a
+- [14:28] high-level kind of structured guide that
+- [14:30] goes over the key components of AI
+- [14:32] agents, some important frameworks that
+- [14:34] you might want to be aware of, and then
+- [14:36] of course the different design patterns
+- [14:37] so you have somewhere to start and you
+- [14:39] understand what's possible in this
+- [14:41] field. If you enjoyed the video, make
+- [14:43] sure to leave a like, subscribe to the
+- [14:45] channel, and I will see you in the next
+- [14:46] one.
+- [14:49] [Music]

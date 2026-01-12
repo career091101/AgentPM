@@ -1,0 +1,363 @@
+---
+title: "YouTube Video: 8izATKqcF-8"
+video_id: "8izATKqcF-8"
+video_url: "https://www.youtube.com/watch?v=8izATKqcF-8"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Business Strategy"
+summary: |
+  Before we dive in, I just want to wish everyone happy holidays and hope you're having a great time wherever you're watching from. But today, we're uncovering some major new updates to Cloud Code. For ...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Business"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 8izATKqcF-8
+
+- URL: https://www.youtube.com/watch?v=8izATKqcF-8
+- Retrieved at: 2025-12-30T09:49:24+09:00
+
+## Text
+
+- [00:00] Before we dive in, I just want to wish
+- [00:02] everyone happy holidays and hope you're
+- [00:04] having a great time wherever you're
+- [00:06] watching from. But today, we're
+- [00:07] uncovering some major new updates to
+- [00:09] Cloud Code. For those who do not know
+- [00:11] what Cloud Code is, it's enthropic
+- [00:13] aentic coding tool that lives directly
+- [00:15] inside your terminal. And it's already
+- [00:17] been really solid for executing routine
+- [00:19] coding tasks as well as handling complex
+- [00:22] code bases. Now, things just leveled up
+- [00:25] cuz ever since Gemini 3.0 launch. The
+- [00:28] Google team has rapidly evolved their
+- [00:30] own CLI tool with many features like
+- [00:32] multi- aent support and LSPs. And that
+- [00:36] pressure pushed Enthropic to actually
+- [00:38] move faster with their development. And
+- [00:40] as a result, Claude Code now supports a
+- [00:43] ton of new powerful features, including
+- [00:45] LSP, which stands for language server
+- [00:47] protocol. You have asynchronous
+- [00:49] background agents so that you can run
+- [00:51] multiple agents at once, higher limits,
+- [00:54] and so much more. So with that said,
+- [00:56] let's dive straight in. To start off,
+- [00:58] Cloud Code now has introduced a huge new
+- [01:01] update, native LSP support, which stands
+- [01:04] for language server protocol. In the
+- [01:06] most recent change log, Cloud Code had
+- [01:08] added an LSP tool that unlocks real code
+- [01:11] intelligent features like go to
+- [01:13] definition, finding references, hovering
+- [01:16] through documentation, and having
+- [01:17] real-time diagnostic. This is honestly a
+- [01:20] massive leap forward for Cloud Code cuz
+- [01:23] this extension where you can access
+- [01:25] through the plugins is where it supports
+- [01:27] LSP and it means that Claude can tap
+- [01:30] into the same signals your editor uses
+- [01:33] to understand a codebase. What happened
+- [01:35] before was that Claude would had to read
+- [01:37] through multiple files, run type
+- [01:39] checkers, and stick everything together
+- [01:41] with the error messages to figure out
+- [01:43] what was actually broken. But now with
+- [01:46] LSP, pod gets instant diagnostics and it
+- [01:49] knows exactly where errors are and it
+- [01:52] can jump directly to definitions and see
+- [01:54] type information in real time. This is
+- [01:57] also something that works better for
+- [01:59] teams cuz you can package your LSP
+- [02:01] configurations into a plug-in and
+- [02:03] publish it into your internal
+- [02:05] marketplace. So instead of having each
+- [02:07] developer configure things individually,
+- [02:10] you can set it up for the whole team
+- [02:12] basically through this configuration.
+- [02:14] You need to make sure that you are on
+- [02:16] the latest Cloud Code version, which is
+- [02:18] version 2.0.55.
+- [02:20] And to access it, once you have
+- [02:22] configured your plugin, you can then
+- [02:24] access it using the /plugin command. And
+- [02:27] then you're going to be able to access
+- [02:28] all of the LSPs that you had configured
+- [02:31] and created. Before we dive in, allow me
+- [02:34] to introduce today's video sponsor,
+- [02:36] Verda. If you're tired of US
+- [02:38] hyperscalers and want a true European
+- [02:41] alternative, Verda, formerly known as
+- [02:43] Data Crunch, is the cloud you need. New
+- [02:46] name, new logo, but the same mission.
+- [02:48] It's a privacy first Europe based cloud
+- [02:51] that's built specifically for AI
+- [02:53] workloads. Your data stays secure,
+- [02:56] compliant, and fully in Europe. There's
+- [02:58] no crossber uncertainty, no vague
+- [03:01] promises. Verda keeps it transparent
+- [03:04] where pricing is up to 90% cheaper than
+- [03:07] traditional hyperscalers. And this is
+- [03:10] with no hidden fees and complete
+- [03:12] visibility. What's nice is that Verda
+- [03:14] gives you an easy selfservice access to
+- [03:16] the latest Nvidia GPUs, including their
+- [03:19] B200 as well as the B300 with setups
+- [03:24] with high-speed GPU VMs, the Infinib
+- [03:27] band clusters, and bare metal systems or
+- [03:30] fully managed AI services. All of this
+- [03:33] is optimized for AI at scale. And you're
+- [03:36] never on your own. You have direct
+- [03:38] support from AI infrastructure engineers
+- [03:40] that help you optimize and scale your
+- [03:43] workloads quickly. Plus, Verta runs on
+- [03:46] 100% renewable energy, combining high
+- [03:48] performance AI compute with
+- [03:50] sustainability. Also, here is an
+- [03:53] exclusive offer for World of AI viewers.
+- [03:55] You can use the code World of AI25 to
+- [03:58] get $25 in free compute credits, which
+- [04:01] I'll leave a link to in the description
+- [04:02] below. No upfront payments, no credit
+- [04:04] cards required. Use the link in the
+- [04:06] description below to claim that. That's
+- [04:08] Verda, the European transparent,
+- [04:10] sustainable AI infrastructure that's
+- [04:13] built for builders like you. Next is
+- [04:16] where Santa Claus is here cuz the
+- [04:18] Enthropic team is gifting all Pro and
+- [04:21] Max plans two times their usual usage
+- [04:24] limit through New Year's Eve. This is
+- [04:26] where you have more usage than your
+- [04:28] usual amount, and you're going to be
+- [04:30] able to do a lot more within Cloud Code.
+- [04:33] Another nice quality of life update is
+- [04:35] where you can now add context window
+- [04:37] information directly to your status
+- [04:39] line. You can use the status line
+- [04:41] command and you can customize what shows
+- [04:43] up. For example, you can ask cloud to
+- [04:45] add a progress bar that shows how much
+- [04:47] of the context window you're currently
+- [04:49] using in real time. This will be super
+- [04:51] useful because you can immediately see
+- [04:53] when you're getting close to your
+- [04:55] context limit instead of finding out
+- [04:56] after responses start getting cut off or
+- [04:59] degraded. It's a small feature, but it
+- [05:01] gives you more visibility and control
+- [05:03] when you're working with longer coding
+- [05:05] sessions. Also, if you are to use the
+- [05:07] /stats command within this session of my
+- [05:10] account, you're going to be able to get
+- [05:12] a good overview of how much usage you
+- [05:15] had in different sections of the year,
+- [05:18] and it will also showcase the amount of
+- [05:20] sessions you had, current uh streak, as
+- [05:22] well as active days. This is just a good
+- [05:24] way to get a good idea of your usage
+- [05:27] with cloud code. Next is probably one of
+- [05:29] the biggest features a part of this
+- [05:30] video and this is where cloud code now
+- [05:32] has the ability to run agents
+- [05:34] asynchronously where once you have a
+- [05:37] agent working on a main task you can
+- [05:40] deploy a sub agent to tackle another
+- [05:42] task asynchronously. How it functions is
+- [05:45] really easy. You first initiate a task
+- [05:48] with cloud code and you can just request
+- [05:50] it to to do any task and if you want to
+- [05:53] have another sub agent working in the
+- [05:55] background then you can press Ctrl +B
+- [05:58] and this will move to a sub agent
+- [06:00] executing a task and it's going to be
+- [06:02] allowed to communicate and share
+- [06:04] information simultaneously to the main
+- [06:07] agent.
+- [06:09] Now, as I was reading through the latest
+- [06:11] change lock, I had noticed that they had
+- [06:14] reintroduced Ultrathink. Now, for those
+- [06:16] who do not know, Ultraink is a special
+- [06:19] trigger word that you can actually
+- [06:22] access while you're using Cloud Code.
+- [06:25] This is essentially to tell Cloud Code
+- [06:27] to use its maximum available reasoning
+- [06:29] budget, meaning the system spends a bit
+- [06:31] more compute and tokens thinking deeply
+- [06:34] about your problem before responding.
+- [06:36] And this is something that I really love
+- [06:38] to use because it is especially useful
+- [06:40] for hard problems when you want better
+- [06:42] quality as well and when you want it to
+- [06:45] create architectures working with
+- [06:47] unfamiliar code bases or intricate
+- [06:49] logical issues. So if I have to tell it
+- [06:52] to build a calendar app, it is going to
+- [06:54] spend more time and it is going to be
+- [06:56] able to exceed the reasoning budget to
+- [06:59] get the best generation out of cloud
+- [07:02] code. And just take a look at the
+- [07:04] calendar app that it generated. Now,
+- [07:06] this is something that is really
+- [07:07] qualitative and you can see that thanks
+- [07:09] to the ultra think mode, it was able to
+- [07:12] reason and exceed the reasoning budget
+- [07:14] to generate a better looking app
+- [07:16] obviously, but with more features and
+- [07:18] more creativity that is going to allow
+- [07:21] you to use this app in a better fashion.
+- [07:24] Obviously, it spends more, but still
+- [07:26] you're going to get the best generation
+- [07:27] out of it. Looks like cloud code is now
+- [07:29] on Chrome. So you can now test code
+- [07:32] directly in the browser. So you can
+- [07:34] validate your work directly from the
+- [07:36] terminal to your Chrome browser. Clot
+- [07:38] can even see client side errors through
+- [07:41] console logs making debugging much
+- [07:43] faster. So you can try this out using
+- [07:45] the / Chrome command. This probably
+- [07:47] doesn't even affect you, but I want to
+- [07:49] cover it cuz my channel is a newest
+- [07:51] channel. And you can actually now run
+- [07:53] claude code tasks directly from your
+- [07:55] cloud Android app. You can run research
+- [07:57] previews. You can start a task from your
+- [07:59] phone and then let them run in the
+- [08:01] cloud. You can review merge the results
+- [08:04] afterwards. This is a pretty helpful
+- [08:06] feature if you use these tools off of
+- [08:08] your phone. So, it's now supported for
+- [08:10] Android. And if you want to get started,
+- [08:11] you can download it now. Today a really
+- [08:14] really subtle new feature is if you are
+- [08:16] to use altp you're going to be able to
+- [08:19] select models directly and you can now
+- [08:22] use this paper cut so that it is going
+- [08:24] to allow you to easily switch to
+- [08:26] different models mid prompt. Now, if you
+- [08:28] remember two months ago, Claude had
+- [08:30] introduced code skills or claude code
+- [08:33] skills and essentially it acts like a
+- [08:35] smarter coding assistant by loading
+- [08:37] reusable task specific modules and that
+- [08:40] could include instructions, scripts,
+- [08:42] resources. Instead of guessing how to do
+- [08:44] something from a prompt, Claude can pull
+- [08:47] through different skills that it already
+- [08:49] has to consistently handle specialized
+- [08:51] tasks like analyzing data, generating
+- [08:54] images with certain models, or following
+- [08:56] team workflows. And essentially, it is
+- [08:59] so that you work a bit smarter, faster,
+- [09:02] and more reliably with pre-custom
+- [09:04] plugins or skills you can say. But
+- [09:07] what's new is that Claude recently
+- [09:09] expanded agent skills into an open
+- [09:11] standard and it is something that kind
+- [09:14] of reminds me of MCPs. This ecosystem is
+- [09:17] going to let skills be shared and used
+- [09:19] across cloud apps, cloud code and
+- [09:21] through the API and it enables a partner
+- [09:24] build skill from marketplaces or other
+- [09:26] tools. Skills is now supported with
+- [09:29] different source of bite management and
+- [09:31] partner directories. So, it makes it
+- [09:33] super easy to deploy them with various
+- [09:36] sorts of workflows and teams. There's
+- [09:39] also a new cloud code integration with
+- [09:41] Slack. And this is where you can now
+- [09:43] delegate tasks from Slack directly to
+- [09:46] Claude, moving context from
+- [09:47] conversations straight to coding
+- [09:49] sessions seamlessly, which is a really
+- [09:52] helpful feature for teams who work off
+- [09:54] of Slack. And this way, you can easily
+- [09:57] have a better workflow running. Also, a
+- [10:00] new guey dropped. It's called AutoCloud.
+- [10:02] I'm not sponsored by them or anything.
+- [10:04] It's just something that I saw could be
+- [10:06] beneficial. It reminds me of Vancanban
+- [10:08] board and you can essentially have
+- [10:11] multiple tasks running asynchronously
+- [10:13] with this new feature that they launched
+- [10:15] and it is going to showcase a UI of it
+- [10:17] running in different areas. It is a
+- [10:20] standalone app. I'm not affiliated with
+- [10:22] them. It just looks like a really
+- [10:24] helpful app that you can use
+- [10:25] autonomously with Cloud Code. Now,
+- [10:27] there's a lot more features to this new
+- [10:29] Cloud Code update. You can see that they
+- [10:31] have been meticulously updating a lot of
+- [10:34] features in the background. Like the
+- [10:36] asynchronous update was something that
+- [10:38] not everyone actually knows about. This
+- [10:40] was something that you would only know
+- [10:42] about it if you were to read the change
+- [10:44] log. So I highly recommend that you read
+- [10:46] through all of these new small features.
+- [10:48] I also recommend that you follow this
+- [10:50] user here. He is one of the uh community
+- [10:53] members at Cloud Code and he has been
+- [10:56] showcasing a lot of new features on a
+- [10:59] daily basis. may not be big, but these
+- [11:01] are small updates that showcase what you
+- [11:04] can do with cloud code and with these
+- [11:05] new features. If you like this video and
+- [11:08] would love to support the channel, you
+- [11:10] can consider donating to my channel
+- [11:12] through the super thanks option below.
+- [11:14] Or you can consider joining our private
+- [11:16] Discord where you can access multiple
+- [11:18] subscriptions to different AI tools for
+- [11:20] free on a monthly basis, plus daily AI
+- [11:23] news and exclusive content, plus a lot
+- [11:25] more. But that's basically it guys for
+- [11:28] today's video on cloud code. I hope you
+- [11:30] enjoyed today's video and got some sort
+- [11:32] of value out of it. If I had missed
+- [11:34] anything, please leave it in the
+- [11:35] description below so then I can create a
+- [11:37] condensed report for other viewers to
+- [11:39] actually see what I had missed and that
+- [11:41] way they can catch up on the things that
+- [11:43] I hadn't mentioned throughout today's
+- [11:45] video. I'll leave all these links there
+- [11:46] in the description below. But with that
+- [11:48] thought, guys, thank you guys so much
+- [11:49] for watching. Make sure you subscribe to
+- [11:51] the second channel, join the newsletter,
+- [11:52] join our Discord, follow me on Twitter,
+- [11:55] and lastly, make sure you guys
+- [11:56] subscribe, turn on notification bell,
+- [11:57] like this video, and please take a look
+- [11:59] at our previous videos. Also, another
+- [12:01] note, happy holidays. Please stay safe,
+- [12:04] have a lot of fun, guys. Make sure you
+- [12:05] guys are not trapped indoors. Try to
+- [12:08] spend some time with family as well as
+- [12:10] getting away from the screens. But with
+- [12:11] that thought, guys, have an amazing day,
+- [12:13] spread positivity, and I'll see you guys
+- [12:14] really shortly. He suffers.

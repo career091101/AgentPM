@@ -1,0 +1,2493 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=lglldcu24ok"
+video_id: "lglldcu24ok"
+video_url: "https://www.youtube.com/watch?v=lglldcu24ok"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=lglldcu24ok
+  - Retrieved at: 2025-12-30T16:07:33+09:00
+  - [00:00] We're back on unsupervised learning with
+key_points:
+  - "- [01:02] mid-in something something bad should"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: lglldcu24ok
+
+- URL: https://www.youtube.com/watch?v=lglldcu24ok
+- Retrieved at: 2025-12-30T16:07:33+09:00
+
+## Text
+
+- [00:00] We're back on unsupervised learning with
+- [00:01] another part of our recurring series
+- [00:03] with Ari from Datlogy and Rob from
+- [00:04] Radical where we hit on the big
+- [00:06] questions in AI today. We talked about
+- [00:07] Andre Carpathy's recent comments about
+- [00:09] agents and how they're overhyped in the
+- [00:11] short term as well as whether we're in a
+- [00:12] bubble today. We talked about OpenAI,
+- [00:15] all the things they've shipped from Sora
+- [00:16] to the apps SDK to the browser and a
+- [00:19] bunch of other things. We talked about
+- [00:21] the comput deals that have been struck
+- [00:22] and getting reactions to those as well
+- [00:24] as potential acquisition targets for
+- [00:26] Apple. And then finally, we hit on the
+- [00:28] AI app ecosystem. and what's interesting
+- [00:29] and not as interesting from an investing
+- [00:31] perspective. It's just a ton of fun to
+- [00:32] get to do this with two good friends who
+- [00:34] are so smart in the AI space. I think
+- [00:35] folks will really enjoy it. Without
+- [00:37] further ado, here's our conversation.
+- [00:40] >> Guys, this is awesome. I'm so glad we're
+- [00:41] uh we're doing this again.
+- [00:42] >> We're running it back.
+- [00:43] >> Yeah. Really excited to get to do it
+- [00:45] again and in person this time.
+- [00:46] >> Yeah, this time in person always way
+- [00:47] better. That way we can get, you know,
+- [00:49] like uh you know, super dramatic
+- [00:51] reactions to to especially bad takes.
+- [00:54] You know, you can stand up, you can kind
+- [00:55] of like, you know, toward the other
+- [00:57] person. What's the over under until one
+- [00:59] of us like storms out of the room?
+- [01:01] >> Hopefully, if the questions are good, by
+- [01:02] mid-in something something bad should
+- [01:04] have uh been said. I think to to kick it
+- [01:06] off, I feel like the the dominant
+- [01:07] question of the last few weeks, really
+- [01:09] the last few months has been, you know,
+- [01:11] are we in a bubble? And and there always
+- [01:12] seems to be some net new data point uh
+- [01:14] that people used to react to that. But
+- [01:15] the latest uh is is another podcast
+- [01:18] appearance from uh from Andre Carpathy
+- [01:20] where he said some really interesting
+- [01:22] things. Uh you know, I'll read some of
+- [01:24] the quotes that I found compelling. Uh,
+- [01:26] you know, I think it's probably best
+- [01:27] summarized by him saying, you know,
+- [01:28] look, overall, the models are not there.
+- [01:30] I feel like the industry is making too
+- [01:32] big of a jump and is trying to pretend
+- [01:33] like this is amazing and and it's not.
+- [01:35] It's slop. Uh, you know, he also said
+- [01:37] it'll take at least a decade until AI
+- [01:39] can meaningfully automate entire jobs
+- [01:40] like an employee or intern that you'd
+- [01:42] hire to work with. Uh, and so obviously
+- [01:44] a pretty different narrative than some
+- [01:45] of the stuff we've been hearing out of
+- [01:46] the labs. Curious both of you, what was
+- [01:48] your reaction to uh to what Andre was
+- [01:50] saying? I think, you know, I would start
+- [01:51] by saying um I think it's it's still a
+- [01:54] pretty hypy like Andre Carvati is still
+- [01:57] pretty hypy on AI. I I think it's kind
+- [01:59] of wild that saying like oh like AGI
+- [02:01] will get here in 10 years and we'll be
+- [02:03] able to fully automate all work in 10
+- [02:04] years means there's a bubble. Like
+- [02:06] that's a crazy statement. Like if you
+- [02:08] had told me that 5 years ago, you know,
+- [02:10] with high confidence in 15 years we
+- [02:12] would automate all work. Like that would
+- [02:13] be the biggest technological advancement
+- [02:15] ever. Um, so maybe it's a more a
+- [02:17] commentary on how ridiculously overhyped
+- [02:20] um, things have been, but you know, my
+- [02:22] take on this generally is that like yes,
+- [02:25] there's absolutely some overhyping going
+- [02:27] on. I think, you know, we talk to people
+- [02:29] who think that they have two years to
+- [02:31] make money before nobody makes money
+- [02:33] anymore because everything is fully
+- [02:35] automated. Like that's obviously not
+- [02:36] true. If nothing else, like it takes a
+- [02:38] million years for anything to actually
+- [02:40] disseminate through the enterprise. Um
+- [02:41] and like just enterprises and big
+- [02:43] companies are slow and it will take a
+- [02:45] long time to actually um see the real
+- [02:47] world impacts in a lot of these cases
+- [02:48] just because of that pace. Um so you
+- [02:52] know my take is yeah there are some
+- [02:54] people overhyping things but there's
+- [02:55] like still very very real substance
+- [02:57] going on here. Um if we stop making
+- [03:00] models better today like they just we
+- [03:02] this is fixed this is all we can ever
+- [03:03] do. Um we would still see a massive
+- [03:06] massive transformation throughout the
+- [03:08] economy. This is putting a splash of
+- [03:09] water on some of the really overhypy
+- [03:11] stuff, sure, but there's still real
+- [03:12] substance um where we are in a way that
+- [03:15] is like very different, for example,
+- [03:16] than the dot bubble.
+- [03:17] >> 10 years to uh to to AGI is pretty uh
+- [03:20] pretty exciting, but obviously there's,
+- [03:22] you know, concerns in the short term
+- [03:23] that, you know, are we overshooting with
+- [03:25] the the amount of capital uh being put
+- [03:27] into some of these data centers? And I
+- [03:29] think, you know, what's not clear is
+- [03:30] right now, do you kind of need uh, you
+- [03:34] know, enterprise agents and the ability
+- [03:35] to replace work to justify like this
+- [03:38] latest level of of of reported capex
+- [03:40] spend? We could be headed on this
+- [03:41] incredible long-term path. And if some
+- [03:43] of the stuff doesn't show up in the
+- [03:44] short term, kind of unclear uh if if
+- [03:47] we'll see the revenues needed to justify
+- [03:48] this next wave of uh of capex
+- [03:50] investment.
+- [03:51] >> I loved the Andre Karpathy interview. I
+- [03:52] thought it was great. Um, to Ari's
+- [03:54] point, like I I think it was quite
+- [03:56] optimistic. Like I think if you listen
+- [03:57] to the interview, he's not he's not like
+- [03:59] bearish on AI. He's not saying AI is a
+- [04:01] bubble. I think it just was like a very
+- [04:03] refreshing, balanced, candid take on the
+- [04:07] areas in which AI still falls down and
+- [04:09] like the very real challenges that still
+- [04:10] need to be met. And you know, we're not
+- [04:13] at least right now in this fast takeoff
+- [04:15] scenario where like AGI is going to be
+- [04:16] here in 6 months. And it's, you know, I
+- [04:18] think it was it was helpful to hear
+- [04:19] someone of his stature like openly
+- [04:21] acknowledge that and say it. In terms of
+- [04:22] the question of being in a bubble, like
+- [04:25] it's it has kind of felt to me like a
+- [04:27] bubble for at least the past like two or
+- [04:29] three years in some ways. And so I do
+- [04:32] think that there are a lot of elements
+- [04:33] of a bubble that are happening now, but
+- [04:36] I don't know if that like I don't know
+- [04:38] if it's necessarily the most interesting
+- [04:39] observation. Like I would almost go so
+- [04:41] far as to say that whenever there's a
+- [04:44] really transformative new paradigm
+- [04:46] shifting technology, a bubble is
+- [04:48] inevitable because people get so excited
+- [04:51] about imagining the long-term potential
+- [04:53] and dream the dream and kind of get
+- [04:55] ahead of themselves. And you know the
+- [04:57] financial cycle kind of decouples from
+- [04:59] the technology cycle and I think we've
+- [05:01] seen this play out with you know
+- [05:02] basically every major technology of our
+- [05:05] lifetimes and before our lifetimes. are
+- [05:07] from the VC and startup perspective,
+- [05:09] there are a lot of uh echoes of the 2020
+- [05:13] 2021 ZERP era which we both live through
+- [05:15] like just in terms of how quickly rounds
+- [05:17] are getting done and the crazy
+- [05:18] valuations and so forth like all of that
+- [05:20] is real. The one last point which you
+- [05:21] touched on, Jacob, which I think is
+- [05:23] worth is worth acknowledging is like
+- [05:26] where it gets potentially a little bit
+- [05:27] more serious is when you start
+- [05:29] introducing more and more leverage into
+- [05:31] the system. And I do think that that has
+- [05:33] started to happen just recently in the
+- [05:35] context of this like massive capex
+- [05:38] buildout of AI data centers. Um, and
+- [05:40] there are there is just like more and
+- [05:42] more debt that's being taken on uh and
+- [05:44] bigger and bigger capital commitments
+- [05:46] that are being made. I'm curious, Ari,
+- [05:48] you know, in the research cure
+- [05:49] community, obviously there's some very
+- [05:50] loud voices from the labs always being
+- [05:52] like, "Agent, this is the year of
+- [05:53] agents, like the stuff all works." And
+- [05:54] Andre, it it kind of felt like was
+- [05:56] saying a little bit of the quiet part
+- [05:57] out loud, but is that is that a correct
+- [05:59] characterization?
+- [05:59] >> Yeah, I think that's true for many of
+- [06:01] the folks that that I I chat with. Um,
+- [06:03] also just like generally social media
+- [06:05] will, you know, incentivize extreme
+- [06:07] takes and will amplify extreme takes
+- [06:10] over general moderate takes. Um, so
+- [06:12] saying, "Hey, we're one year away." That
+- [06:14] that's going to be really compelling.
+- [06:15] there's still a lot of work to be done
+- [06:17] to get especially on these specialized
+- [06:19] domains really accurate performance um
+- [06:22] of these models like I agree with Andre
+- [06:24] completely this will happen like we we
+- [06:26] are the trend line is incredibly
+- [06:28] positive um but when we go to things
+- [06:30] like these giant data center buildouts
+- [06:32] you know it does give me a bit of pause
+- [06:34] um one reason honestly is just that I
+- [06:36] think constraints breed innovation um
+- [06:39] and I'm not sure if the strategy of just
+- [06:41] throw more compute infinitely is the
+- [06:43] right one I think if as one example
+- [06:45] we've seen that just like naively
+- [06:47] scaling models up to really big scales
+- [06:49] like GPT4.5 like Llama Behemoth
+- [06:52] >> didn't work that well the answer was
+- [06:54] instead to go toes which are a lot more
+- [06:56] efficient in in a lot of ways um we see
+- [06:58] what DeepS was able to do with you know
+- [07:01] GPUs that were not as powerful uh as you
+- [07:03] know what we what what Nvidia is
+- [07:05] producing right now um I think those
+- [07:07] constraints are actually important um
+- [07:08] and I think there's a lot of ways to
+- [07:11] make AI a lot better without necessarily
+- [07:14] needing to invest, you know, half a
+- [07:16] trillion dollars uh in data center
+- [07:19] infrastructure. I
+- [07:19] >> mean, it feels like the entire data
+- [07:20] center buildout today, you're betting,
+- [07:22] you know, what what are the use cases
+- [07:23] that really work? I mean, almost all the
+- [07:24] revenue, right, is from either a
+- [07:25] consumer chatbot uh or from uh coding. I
+- [07:29] I think the, you know, part of the
+- [07:30] reason people are hyping agents is you
+- [07:31] kind of maybe those two have endless
+- [07:33] room to run and they'll find great ways
+- [07:35] to monetize Sora and Vibes and all these
+- [07:36] other things. And so those two alone can
+- [07:38] justify this massive data center
+- [07:40] buildout. But there's certainly this
+- [07:41] feeling I think that you'll need to see
+- [07:43] pretty large enterprise agent revenue to
+- [07:45] you know justify this level of spend.
+- [07:46] >> Although even in consumer right there's
+- [07:48] a question of actually getting people to
+- [07:49] pay for these models. um like there you
+- [07:51] know there's an interesting analysis of
+- [07:52] trying to reverse engineer OpenAI's
+- [07:54] revenue and that there's actually a very
+- [07:55] small fraction uh of ChachiP customers
+- [07:57] that are paying and like I'll say
+- [07:58] personally in my family um you know the
+- [08:00] normies in in our life that aren't
+- [08:02] obsessed living on you know living in
+- [08:04] the AI news landscape they use PT
+- [08:07] constantly and like they don't pay for
+- [08:09] it and and I've asked them like why not
+- [08:11] and and they say like do I need to they
+- [08:14] don't understand what a thinking model
+- [08:15] is for or any of this stuff they're just
+- [08:16] like
+- [08:17] >> they don't understand the amount of
+- [08:18] capex we put into these data centers
+- [08:20] like you have to pay for it to justify
+- [08:21] for the data centers. Come on. Um so you
+- [08:24] know I I do wonder whether the
+- [08:26] subscriptionbased model like will scale
+- [08:28] beyond a certain uh a certain sub a sub
+- [08:31] subset of the population.
+- [08:32] >> They've been super you know active I
+- [08:34] think at dev day most recently you know
+- [08:35] introducing this apps SDK and then also
+- [08:37] you know I think uh introducing kind of
+- [08:39] checkout through chat GPT and you know
+- [08:41] there's certainly a way to monetize the
+- [08:43] the commerce side of the some of these
+- [08:44] things. It's just incredible to watch
+- [08:46] the velocity with which OpenAI shifts.
+- [08:48] Like it really is impressive. Um you I
+- [08:51] think the the apps SDK and and the
+- [08:53] browser are like just the latest
+- [08:54] examples of this. The Atlas launch was
+- [08:57] fascinating to see just because it's
+- [08:59] interesting to watch the like it's
+- [09:01] almost like a back to the future moment
+- [09:02] with browsers and the browser wars from
+- [09:04] the 1990s. Like for like 20 or 25 years,
+- [09:07] browsers were kind of static and
+- [09:09] irrelevant and all of a sudden there's
+- [09:10] so much innovation happening again with
+- [09:12] a browser and so many ways you can tweak
+- [09:15] uh and add new AI native functionality.
+- [09:18] Obviously perplexity has their version
+- [09:20] comet and and you know there are other
+- [09:22] startups that are innovating around
+- [09:23] this. Um and I was just playing around
+- [09:25] with Atlas yesterday and like it's it's
+- [09:27] an awesome product like I I would expect
+- [09:29] that I will stop using my like
+- [09:31] traditional Google Chrome browser and
+- [09:33] start using an AI native browser. Yeah,
+- [09:34] I think that's another interesting
+- [09:35] access, right? Like you basically do
+- [09:37] everything from your in your daily life
+- [09:39] in something that's associated with one
+- [09:41] of the model providers and then it makes
+- [09:43] it easier to monetize the the aspects
+- [09:45] that are not actually the answer engine
+- [09:47] itself. Um right so then it makes
+- [09:49] shopping make a lot more sense. Um I
+- [09:51] think I think the question you know will
+- [09:52] be can you actually get people to switch
+- [09:54] on to entirely new browsers. Um like
+- [09:57] Chrome is very sticky uh for a reason,
+- [09:59] right? It's very hard to to get people
+- [10:00] to switch. So, you know, can you
+- [10:02] actually do that or will that just
+- [10:03] benefit um to the folks that have the
+- [10:05] most distribution which are going to be
+- [10:07] Google and Apple primarily, right?
+- [10:08] >> Yeah. And I think also maybe on the app
+- [10:10] side, it's like will some of these other
+- [10:12] companies play nice. I mean, you're kind
+- [10:13] of being obiated to like uh in you know,
+- [10:16] and obviously I know that you still go
+- [10:17] to interact in the Canva experience or
+- [10:19] Zillow or whatever the ones they were
+- [10:20] showing, but it's easy enough for them
+- [10:22] to decide which app they show you uh and
+- [10:24] switch those out. And so, you know, I do
+- [10:26] wonder whether, you know, you take an uh
+- [10:28] a company like Uber, it's like they you
+- [10:30] could say the strength of Uber is just
+- [10:32] like the logistics network of like the
+- [10:33] fact that they will have cars at good
+- [10:35] prices and like they should be fine if
+- [10:37] they're, you know, uh if if Chad should
+- [10:39] choose them every time. At the same
+- [10:40] time, I think they love having this
+- [10:42] consumer front end that you go to. You
+- [10:44] weren't thinking about maybe ordering
+- [10:45] delivery while you were getting your
+- [10:46] food or cering something and basically
+- [10:49] having that, you know, front-end
+- [10:50] relationship with you. I have a feeling
+- [10:51] this is part of why um Mark Zuckerberg
+- [10:54] has been spending so much on AI and AI
+- [10:57] talent is that you know I he really
+- [10:59] missed out on getting a platform in
+- [11:01] mobile. And I think that really burned
+- [11:03] Meta and Facebook in a lot of ways, most
+- [11:05] notably when Apple did the AT change to
+- [11:06] make it harder to attribute whether a
+- [11:09] user um bought an app because of an ad
+- [11:11] that was shown through a Meta property.
+- [11:13] Um and you know that costs Meta many
+- [11:15] many many tens of billions of dollars.
+- [11:17] Um, in some ways, if you don't own the
+- [11:20] platform around this, it's a bit of an
+- [11:21] existential threat to your business,
+- [11:22] right? Like that's very scary for
+- [11:24] Shopify if all of shopping happens
+- [11:26] through chat GPT or through Gemini or
+- [11:28] these various things. Um, so I have a
+- [11:30] feeling that like a big part of why Mark
+- [11:32] is willing to invest so deeply. Um, is
+- [11:34] because he's a bit traumatized by not
+- [11:36] having owned a platform in the first
+- [11:38] place. Um, and now he's trying to make
+- [11:40] sure and I think Oculus was a lot of the
+- [11:41] same thing. He wanted to make sure to
+- [11:42] own the platform for AR and and VR. Um,
+- [11:45] and
+- [11:46] >> they're doing the same thing with
+- [11:46] glasses.
+- [11:47] >> And now the same thing in glasses, which
+- [11:48] I think honestly is where you're gonna
+- [11:49] like now, now that these are coming out,
+- [11:51] this is where the metaverse spending was
+- [11:52] always going. Um, and and I think it's
+- [11:54] gonna be quite cool. But yeah, for for a
+- [11:56] lot of companies, I think it's a big
+- [11:57] threat uh to not kind of own this
+- [11:59] ecosystem. I think there's also the
+- [12:01] threat, right, that the big models uh
+- [12:03] players will actually cut off your
+- [12:06] access if you start to compete with them
+- [12:08] in a big way, right? So thinking about
+- [12:09] like Enthropic and Windsurf that would
+- [12:11] be terrifying to me if I were building
+- [12:13] an app that was completely reliant on
+- [12:15] one of these models and then as soon as
+- [12:16] there's a hint of maybe you're competing
+- [12:17] with them they then can cut off access
+- [12:19] for you.
+- [12:20] >> There is this very strong friend of me
+- [12:21] dynamic where like you don't not want to
+- [12:23] be working with OpenAI but you are
+- [12:25] risking being sidelined and marginalized
+- [12:27] if you do and uh yeah I think it'll be
+- [12:29] very interesting to watch it play out.
+- [12:30] >> Yeah, it's amazing how incentivized
+- [12:32] everyone is in the ecosystem for there
+- [12:34] to be like as many players as possible.
+- [12:36] Like obviously you've seen OpenAI and
+- [12:38] the infrastructure deals they're doing
+- [12:39] like trying to make sure they're not
+- [12:40] just relying on Nvidia long term and
+- [12:42] then certainly Nvidia very incentivized
+- [12:44] to make sure there's as many different
+- [12:45] model providers out there as possible
+- [12:46] like nobody wants there to be a world
+- [12:48] where you know one model is so much
+- [12:49] better or one consumer front end is like
+- [12:51] the place that people go and I think we
+- [12:53] see that differentiation is not going to
+- [12:54] happen at the model layer anymore right
+- [12:56] like the open source models are now very
+- [12:58] competitive with closour models
+- [13:00] especially for most of the use cases
+- [13:01] that real people actually care about
+- [13:03] most people don't care about solving AIM
+- [13:05] like that that's not relevant to all but
+- [13:07] a very very small handful of of the
+- [13:08] world. Um so if now you have commodity
+- [13:11] models that are that that are just as
+- [13:14] good or most things as the closed source
+- [13:17] models then the only place to
+- [13:18] differentiate is the ecosystem that you
+- [13:20] build around the model itself. Um and
+- [13:22] going to kind of that that sticky
+- [13:23] scaffolding the memory aspect of things
+- [13:25] which I think will be a very sticky
+- [13:26] aspect. I think that's why you're seeing
+- [13:28] all of these folks rush to try to
+- [13:30] capture this um because it's
+- [13:32] existential. The other big news the last
+- [13:33] month has been Sora and the video models
+- [13:35] more generally and OpenAI just continues
+- [13:37] to to be in the zeitgeist in such an
+- [13:39] impressive way. I mean I feel like
+- [13:40] Google was first with like these very
+- [13:41] impressive uh video models they had and
+- [13:43] then open kind of found a fun like you
+- [13:45] know obviously great models but also
+- [13:46] like a very fun consumer experience uh
+- [13:48] and the ability to insert yourself into
+- [13:50] it. Um you know Meta was also doing the
+- [13:52] a similar product with Vibes like
+- [13:54] curious your reaction to one just the
+- [13:56] progress we've had in video models over
+- [13:58] the last 3 six months and then where it
+- [14:00] kind of feels like all the stuff's
+- [14:01] headed. Yeah, I honestly it's been
+- [14:03] amazing to see the how good Sore 2 is,
+- [14:05] how good V3 is. Um, and yeah, just the
+- [14:09] the the pace of improvement continues to
+- [14:11] be really amazing. I do I I think we
+- [14:14] have like relatively recently crossed
+- [14:16] the threshold where um video generation
+- [14:19] is effectively
+- [14:21] uh you know near or at parody in terms
+- [14:24] of um realistic appearance which is um
+- [14:28] which is crazy big picture. you really
+- [14:30] saturated that Will Smith spaghetti. Uh
+- [14:33] >> yeah, yeah, that that happened. It feels
+- [14:36] like it happened like in the in the
+- [14:37] blink of an eye. But I feel like for
+- [14:39] years, one of the big concerns that
+- [14:41] people have had or or sort of like
+- [14:43] doomsday type scenarios, downside
+- [14:45] scenarios of AI is is this concept of
+- [14:47] deep fakes and like the, you know, the
+- [14:50] line between reality and fiction
+- [14:53] blurring beyond recognition because you
+- [14:55] can produce something that looks like
+- [14:57] it's real and it's not real and it's
+- [14:59] impossible to know what is and isn't
+- [15:00] real. And you can imagine scenarios of
+- [15:02] like videos of politicians saying
+- [15:03] certain things, ruining their careers or
+- [15:05] all sorts of things. if you can just uh
+- [15:08] you know instantly generate content kind
+- [15:10] of at at will and I think we're like
+- [15:12] there for I can remember like eight or
+- [15:14] nine years ago in in the late 2010s a
+- [15:16] lot of handring around deep fakes but
+- [15:18] like the technology just wasn't nearly
+- [15:19] good enough and I think we have finally
+- [15:21] gotten to that point um and I think we
+- [15:25] haven't yet really seen it like uh
+- [15:27] trickle out all the way through society
+- [15:28] obviously there have been like early uh
+- [15:31] early experimentations with Sora that
+- [15:33] have been fun and like Sam Alman
+- [15:34] stealing GPUs from a Best Buy which is a
+- [15:36] great one. But like it is I mean it is
+- [15:38] kind of mindblowing and exciting but
+- [15:40] also you know reason for pause to think
+- [15:43] about like what will the world look like
+- [15:45] when you genuinely just can't tell that
+- [15:47] any given piece of content any video any
+- [15:49] image any piece of audio is real or not.
+- [15:51] Um and I I do think like a lot of
+- [15:53] there's a lot of downsides. There
+- [15:55] obviously are a lot of exciting upsides
+- [15:56] too. Like you guys probably saw that um
+- [15:59] Open Eye is producing like a feature
+- [16:01] length feature film that's going to
+- [16:03] debut at Con next year which they're
+- [16:05] doing in like 9 months for under $30
+- [16:07] million as a like it usually takes
+- [16:09] several years and way bigger budgets to
+- [16:11] make these films. So like there's a lot
+- [16:13] of exciting opportunities and ways in
+- [16:15] which this like this is going to empower
+- [16:16] creatives. But I think just like having
+- [16:19] crossed that Rubicon of like the like
+- [16:21] the true indistinguishability between AI
+- [16:24] generated videos and real life videos I
+- [16:26] think will be like there there will be a
+- [16:28] lot of fallout from it.
+- [16:29] >> Yeah. Piggy back on the deep fake thing.
+- [16:31] Um I was definitely one of these people
+- [16:32] that had been very very concerned about
+- [16:34] deep fakes more so than almost any other
+- [16:37] near-term impact uh of of AI. Um
+- [16:41] I'm really pleasantly surprised that it
+- [16:43] hasn't been a major problem yet.
+- [16:45] >> Um like the most people can't
+- [16:47] distinguish images or videos already.
+- [16:50] like you know um you you look on on on
+- [16:52] on Facebook and there are all these
+- [16:54] groups where people are just posting you
+- [16:55] know AI generated images and like a
+- [16:58] bunch of of you know generally older
+- [16:59] people are completely fooled by these
+- [17:01] things you know like like there they've
+- [17:03] been at the stage of technology where
+- [17:04] they can do this effectively for a while
+- [17:06] and like certainly state actors have
+- [17:08] access to these models they know how to
+- [17:10] do this um and yet we haven't seen it
+- [17:13] really be a big problem um I'm really
+- [17:16] surprised by that and perhaps heartened
+- [17:18] maybe I'm speaking too soon and like in
+- [17:20] in a year this will be a really big
+- [17:22] problem but um I would have expected
+- [17:23] this to already have been a bigger
+- [17:25] problem than is you also get some like
+- [17:26] weird in between cases like I've seen
+- [17:28] now people um making AI generated videos
+- [17:32] where they show a politician saying
+- [17:33] something that they did actually say but
+- [17:36] there wasn't a video of
+- [17:38] >> so you make a video version of someone
+- [17:40] you know saying something that they gave
+- [17:41] a quote in a newspaper and it's like
+- [17:44] should that like should that be fully
+- [17:46] fake it's somewhere in between you know
+- [17:48] it's it's not misattributing
+- [17:49] a comment to someone that they didn't
+- [17:51] say.
+- [17:51] >> I mean, I feel like another part of the
+- [17:52] discourse around these video models has
+- [17:54] just been like slop has become like the
+- [17:56] word of uh of the past few weeks. Um
+- [17:59] there was obviously some negative
+- [18:00] reactions to the meta launch um
+- [18:03] >> around like you know uh kind of feeling
+- [18:05] with a lot of these things were just
+- [18:06] like mindless uh you know consumption
+- [18:08] and I think Sam Alman put it eloquently
+- [18:10] where he said you know one man's slop
+- [18:12] might be another man's treasure. I think
+- [18:13] it's just an inevitable consequence of
+- [18:14] having a a transformative tool, right?
+- [18:16] Like ultimately AI is like the best
+- [18:19] hammer that you could ever build, right?
+- [18:21] And hammers are are awesome because you
+- [18:23] can use hammers to to build things. You
+- [18:25] can use hammers to build houses and and
+- [18:26] and really do amazing things for people.
+- [18:28] Um you can also use hammers to crack
+- [18:30] people's skulls. Um like any tool that
+- [18:33] and any new technology, there are ways
+- [18:34] that you can use it for good. There are
+- [18:36] ways you can use it for bad. most of the
+- [18:38] uses I would say are neither good nor
+- [18:40] bad but are are just kind of neutral and
+- [18:43] people enjoy right so so I think like
+- [18:45] the AI slop like it will I imagine
+- [18:49] people will get really into it um and it
+- [18:51] it will be really sticky right it's like
+- [18:52] if if you imagine Tik Tok is actually
+- [18:54] going and now looking through the it its
+- [18:56] library of content to try to find
+- [18:57] something that matches you most versus
+- [18:59] saying hey let's generate exactly what
+- [19:01] you think you will like the like the
+- [19:02] most that's probably going to be more
+- [19:04] effective once it gets to a certain
+- [19:05] point um is
+- [19:07] where I would necessarily want all all
+- [19:09] of the time and energy to go. Like no,
+- [19:11] I'd ra I'd probably rather it go towards
+- [19:12] solving disease um or, you know, bu
+- [19:15] building better tools that enable us to
+- [19:17] to to do good things for humanity. Um
+- [19:19] but I think it's also just an inevitable
+- [19:21] consequence of any new technology that
+- [19:23] we're going to find ways to use it that
+- [19:24] are mostly time wasters. And that's what
+- [19:26] most people in the world, I think, want
+- [19:28] with with these sorts of things.
+- [19:30] >> Yeah. I I I like Sam's quote actually
+- [19:32] what one man's slop is another man's
+- [19:33] treasure. I do I do think that the it's
+- [19:36] just as Ari said it's just inevitable
+- [19:38] that when the generation of any sort of
+- [19:41] content whether it's written content or
+- [19:44] videos or images the cost goes to
+- [19:46] basically zero and the time goes to zero
+- [19:48] like there's going to be way more of it
+- [19:49] and like that that's going to happen
+- [19:51] inevitably but like I don't know I think
+- [19:52] like even before the era of generative
+- [19:54] AI like a lot of what was on your
+- [19:56] Twitter feed or your Facebook feed like
+- [19:58] you could you know rightly characterize
+- [20:00] as like human generated slop that's also
+- [20:02] like not that profound or meaningful and
+- [20:04] I think like you know that's maybe more
+- [20:06] more a criticism of social media
+- [20:08] overall. Um so I do I do think that like
+- [20:11] there's a lot of societal reckoning that
+- [20:13] will need to happen around like now that
+- [20:15] we can just endlessly produce all this
+- [20:17] content all this code all you know
+- [20:19] written essays books videos etc. How do
+- [20:22] we like I think there's a huge um effort
+- [20:24] around curation that will be necessary
+- [20:27] and like filtering and deciding what
+- [20:29] content you want to see. I think one
+- [20:30] interesting question like one of the
+- [20:31] areas that um and also Karpathy talked
+- [20:33] about this and what he's spending all
+- [20:34] this time on which I think is awesome.
+- [20:36] Um one of the most exciting areas for
+- [20:38] AI's usage and kind of making the world
+- [20:39] better I think is you know having an
+- [20:41] infinitely patient infinitely
+- [20:43] intelligent tutor in your pocket at any
+- [20:45] given time in particular I think this is
+- [20:47] going to be so impactful for people
+- [20:49] people in in lower income countries. So
+- [20:51] one question I kind of have is like how
+- [20:54] can we make it so that you know
+- [20:56] edutainment is more entertaining through
+- [20:59] AI and I think that would be a really
+- [21:01] cool thing and I I wonder if that's sort
+- [21:02] of some of the ways we can guide this
+- [21:05] towards uh you know more productive
+- [21:06] outcomes for society. Your point earlier
+- [21:08] was well taken that like when you have a
+- [21:09] technology like this it gets used in a
+- [21:11] bunch of different ways and I think
+- [21:12] actually in in in some ways the initial
+- [21:14] uh you know manifestation of it in chat
+- [21:16] GBT was uh in its best way can can be
+- [21:19] like kind of a bicycle for the mind type
+- [21:20] thing where you're like really uh you
+- [21:22] know accelerating uh the way you're
+- [21:24] learning about things and and getting uh
+- [21:26] access to things. The like potential of
+- [21:28] just you know scrolling endlessly
+- [21:29] through random AI generated videos feels
+- [21:31] like one of the first more like doomy or
+- [21:34] or not so clearly positive versions. And
+- [21:36] even within these creator applications,
+- [21:37] I feel like there's uh, you know,
+- [21:39] there's this this battle almost between
+- [21:42] uh, you know, the Sora approach which is
+- [21:44] like you're still kind of like creating
+- [21:46] things and it's like, you know, social
+- [21:47] in some way cuz it's about you or people
+- [21:49] in your own life. Most consumer apps
+- [21:51] traditionally people want to just be
+- [21:53] consumers. They don't really want to be
+- [21:54] creators. They want to just sit there
+- [21:55] and like observe a lot of stuff or
+- [21:56] listen to a lot of things. Um, and I
+- [21:58] think there's a lot of people who are
+- [22:00] very inspired to build consumer apps
+- [22:01] where lots of people are creating and
+- [22:03] uh, you know, I I'll be really
+- [22:05] interested to see whether, you know,
+- [22:07] it's just a human nature. If you give
+- [22:08] people like the greatest creative tools
+- [22:09] out there, do most people want to make
+- [22:11] their short form videos or something or
+- [22:13] like I'm actually just fine watching
+- [22:15] Rob's really good at it and like he
+- [22:16] makes some pretty good ones and like,
+- [22:18] you know, is from a normative
+- [22:19] perspective like does it really matter?
+- [22:20] It's a very interesting question that
+- [22:21] you asked, Jacob, and I feel like that
+- [22:23] question is like kind of a microcosm of
+- [22:25] the broader question that people always
+- [22:27] grapple with in the context of uh super
+- [22:30] intelligent AI that can do everything
+- [22:32] better than humans can do and therefore
+- [22:33] humans don't have to work anymore. And
+- [22:35] you know, work is no longer necessary to
+- [22:37] to kind of generate the resources you
+- [22:39] need to survive. And the question of
+- [22:41] like is that a good thing or a bad
+- [22:42] thing? Is it a good thing for people to
+- [22:44] just like go to the beach and spend time
+- [22:45] with their family? And if they want to
+- [22:47] create, they can create. And if they
+- [22:48] want to learn, they can learn. or if
+- [22:50] they don't want to, they can just play
+- [22:51] video games and that's fine too. Like
+- [22:52] I'm a little bit more in the latter camp
+- [22:54] that I think it's okay uh if some people
+- [22:57] don't want to use these tools to create
+- [22:59] and they like get enjoyment out of them
+- [23:01] just by consumption.
+- [23:02] >> Yeah. I mean I thought one thing that
+- [23:03] was most interesting about the dialogue
+- [23:04] around all this when the meta stuff came
+- [23:05] out is it felt like there was almost an
+- [23:07] an appeal to you know this small subset
+- [23:09] of researchers that are you know
+- [23:11] compelling enough to work on these
+- [23:12] problems of like do you really want to
+- [23:13] be working on that? like is you know
+- [23:15] there's some you could work anywhere
+- [23:16] like is that uh is is is that the kind
+- [23:19] of thing you want to work on? I also
+- [23:20] think it doesn't really matter to be
+- [23:21] honest like okay all the top researchers
+- [23:23] that are working on these products say
+- [23:24] hey I'm not going to work on these like
+- [23:26] I'm only going to work on on things that
+- [23:27] you know really benefit society maybe it
+- [23:29] slows them slows it down by like 6
+- [23:31] months like this is all inevitable at
+- [23:34] this point I think also a lot of like
+- [23:35] the safety like ideas of like pausing
+- [23:37] I'm generally not uh someone who's super
+- [23:39] concerned about that but it also just
+- [23:40] like it's not realistic like you can't
+- [23:42] you can't pause any of these things they
+- [23:44] are happening you can maybe slow them
+- [23:46] down very very slightly but there are so
+- [23:49] many groups that know how to do this at
+- [23:50] this point. It's going to happen no
+- [23:52] matter what. we're talking about
+- [23:53] obviously this this AGI future and maybe
+- [23:55] going to the beach and then you see
+- [23:56] headlines that feel uh a little bit
+- [23:58] divorced from that one recently uh that
+- [24:00] I was very excited to get your thoughts
+- [24:01] on Ari because you're you're our data
+- [24:02] expert um is I feel like that's been
+- [24:04] making waves that open AI is like hiring
+- [24:06] these bankers and paying them to to
+- [24:07] train models and I think people feel
+- [24:09] this juxosition of like wait a second
+- [24:11] you say you're like two years away from
+- [24:12] AGI and then at the same time like you
+- [24:14] know we have we have bankers coming like
+- [24:16] you're focused on like Excel models um
+- [24:18] and and kind of like uh marry that those
+- [24:21] two for me I'm curious curious, you
+- [24:23] know, uh maybe first is that data
+- [24:26] gathering exercise in your mind is it
+- [24:28] like crucial to just improve models
+- [24:29] overall? Is it like really is the way to
+- [24:31] think about it? Hey, it just makes them
+- [24:32] better in finance tasks. And in general,
+- [24:34] we've seen a trend in kind of the data
+- [24:36] acquisition from more general purpose to
+- [24:38] much more specialized, right? And we've
+- [24:40] also seen that the the folks who
+- [24:42] actually do the data acquisition that
+- [24:43] are better at targeting specialized
+- [24:45] talent have gotten more business
+- [24:47] relative to the folks that are better at
+- [24:49] just getting generic um talent. Uh so
+- [24:52] you know this is I think just one
+- [24:53] example of a trend that's been happening
+- [24:55] for the last couple years already moving
+- [24:56] towards more specialized use cases. Um I
+- [24:59] think the question is right where's the
+- [25:00] economically valuable work that is
+- [25:02] within reach of AI right now. Obviously
+- [25:04] softwarebased approaches um are a lot
+- [25:07] closer right now than physical world um
+- [25:10] based jobs. Um and then uh finance is
+- [25:13] obviously a place where there's a lot of
+- [25:15] value for this. But there isn't actually
+- [25:16] very much of this data that exists on
+- [25:18] the public internet. You know, the
+- [25:19] public internet's like a very biased
+- [25:20] sample of all the data in the world. One
+- [25:22] thing that I'm kind of fond of saying
+- [25:23] oftentimes is that the vast vast
+- [25:25] majority of data um in the world uh is
+- [25:28] private. It's not public. It's not on
+- [25:29] the public internet. And that's relevant
+- [25:31] for a lot of these specialized use
+- [25:33] cases. And by default, OpenAI doesn't
+- [25:35] have access to to that data because most
+- [25:37] enterprises are very very reticent about
+- [25:39] sharing that data with anybody and are
+- [25:41] especially reticent about sharing it
+- [25:43] with the Frontier Labs for worries that
+- [25:44] they're going to train on that data and
+- [25:46] then use it to serve other customers or
+- [25:47] undermine their their their core
+- [25:49] business. Um, so you know, I actually
+- [25:51] think it's it's not particularly
+- [25:53] striking. Like it's kind of of course
+- [25:54] they're doing that. Of course they're
+- [25:56] trying to get data that's on these very
+- [25:57] specialized tasks. Whether or not that
+- [25:59] will have some generalization to making
+- [26:02] models better more broadly. Um we have
+- [26:04] seen this happen for you know some sorts
+- [26:07] of data in particular math and code
+- [26:08] tends to be really good at encouraging
+- [26:10] reasoning more generally. Um so you
+- [26:13] might see that with with with these
+- [26:14] sorts of finance tasks. I feel like
+- [26:15] we'll be able to answer the age-old
+- [26:16] question of like is banking a good first
+- [26:18] job out of school. Do those skills of
+- [26:20] building models generalize to to other
+- [26:22] things?
+- [26:23] >> I would guess probably not in the in the
+- [26:25] near future.
+- [26:27] And and like honestly that's actually
+- [26:28] one of my biggest worries um with with
+- [26:30] with AI is more that you know when you
+- [26:32] have bankers who are you know in their
+- [26:34] late 40s early 50s say they did
+- [26:37] everything right they went to a great
+- [26:39] school they worked really hard you know
+- [26:41] they they did all the things that you're
+- [26:43] supposed to do to to have a successful
+- [26:44] life and get a highpaying job. Um you
+- [26:47] know I don't think all of them are going
+- [26:48] to go out of work but and I don't think
+- [26:49] it's going to happen in a year. I think
+- [26:50] it's going to take a long time, but
+- [26:52] eventually a lot of those folks will go
+- [26:54] out of work and there'll be a narrower
+- [26:55] set of folks that um are able to do the
+- [26:58] same amount of work just relying on AI.
+- [26:59] And then I think it'll actually probably
+- [27:01] create new jobs where there are new
+- [27:03] things that you can use to build on top
+- [27:04] of AI where you still want humans
+- [27:06] involved. Um but those jobs will require
+- [27:08] a very different skill set than the jobs
+- [27:10] for the bankers in their late 40s and
+- [27:11] early 50s who are going to be out of
+- [27:13] work. Um, and you know, that's I think
+- [27:15] to me one of the scariest kind of
+- [27:16] medium-term implications of AI when you
+- [27:18] have all of those folks who are now
+- [27:19] dissatisfied um, and feel like they did
+- [27:22] everything right and got screwed anyway.
+- [27:24] I think the risk is actually much more
+- [27:25] at the junior level, right? I actually
+- [27:26] think, you know, if you're automating
+- [27:28] Excel modeling, uh, you know, I don't
+- [27:29] think, uh, a senior banker spends too
+- [27:31] much of their time like in the weeds of
+- [27:33] cell C137, like they're much more, you
+- [27:35] know, they're doing the relationship
+- [27:36] side of things. And I think even the the
+- [27:38] CEO of Goldman was like, look, these
+- [27:40] models can do 95% of an S1 now. and like
+- [27:42] it's really the extra that 5% on top of
+- [27:45] it. I think you'll give them a lot more
+- [27:46] leverage first. I don't worry as much
+- [27:48] for the 40 50-y olds as I do for like
+- [27:49] the 22 year olds that like need that
+- [27:51] kind of training or or traditionally
+- [27:53] have had that kind of training to get
+- [27:54] into the spot where the 40 and 50 year
+- [27:56] olds are. The reason I'm a little bit
+- [27:57] less worried about junior folks is that
+- [27:59] they are much more open to learning new
+- [28:01] things.
+- [28:01] >> Yeah.
+- [28:02] >> Right. So like one of the things that
+- [28:04] was really surprising to me is that job
+- [28:06] retraining programs generally don't
+- [28:08] work. um you'd think that they would
+- [28:10] really work and like if you if you look
+- [28:11] at a lot of the studies of like the the
+- [28:13] job retraining programs that happened
+- [28:14] after the financial crisis for example
+- [28:16] to try to get auto workers uh to learn
+- [28:18] new skills like it it didn't work very
+- [28:20] well at all. Um so I think when you're
+- [28:21] young when you're you know under 30 it's
+- [28:23] easy okay this isn't working you pick up
+- [28:25] a new skill you learn how to use AI well
+- [28:27] and then you're able to do something
+- [28:28] new. um you know and obviously there are
+- [28:30] people that are older who are always you
+- [28:32] know lifelong learners and always want
+- [28:34] to be learning new things but I think on
+- [28:35] average willingness to learn new tasks
+- [28:38] goes down with age maybe the reason the
+- [28:40] finance headline struck a chord I agree
+- [28:41] with you it's not all that surprising
+- [28:42] it's like where all the the data
+- [28:44] purchasing has been done over the last
+- [28:45] year it's just again this justosition
+- [28:47] with um it feeling like man this might
+- [28:49] be you know a decade long process to get
+- [28:51] to these enterprise agents and if we
+- [28:53] were on the cusp of of of having all of
+- [28:54] them maybe we wouldn't need to go into
+- [28:56] like each specific area Um, and then I
+- [28:59] think also back to this question of of
+- [29:00] the capex build, if if you know, you
+- [29:03] think about each of these verticals and
+- [29:04] and the push to uh to build models in
+- [29:06] them, you know, does it end up
+- [29:08] justifying the overall spend? Because I
+- [29:09] think they'll in my mind almost
+- [29:11] inevitably be a layer in between OpenAI
+- [29:14] and the other foundation model companies
+- [29:15] and financial firms. I don't think the
+- [29:16] financial firms will really use the
+- [29:18] model out of the box. I think it will be
+- [29:19] like mediated through rogo or some of
+- [29:21] these other application companies. And
+- [29:22] so
+- [29:23] >> he excuse me, excuse me.
+- [29:26] And so I guess like you know uh is when
+- [29:30] you're sitting at at a $500 billion
+- [29:32] valuation to like each of these you know
+- [29:34] coding has been coding and consumer are
+- [29:36] like the two best end markets and I
+- [29:38] wonder yeah I find it's a massive market
+- [29:40] healthcare legal these other ones
+- [29:41] certainly are are they enough to to like
+- [29:44] continue to move the needle both on as
+- [29:45] these companies continue to grow into
+- [29:47] you know more valuations they want but
+- [29:49] also you know the the assumptions behind
+- [29:51] the capex spend. Yeah, I mean I think
+- [29:52] this this kind of comes back to the
+- [29:54] question to the bubble discussion of
+- [29:55] like is there
+- [29:57] >> everything does.
+- [29:57] >> Yeah. Is there enough are there enough
+- [29:59] use cases? I think the answer in the
+- [30:01] fullness of time will certainly be yes.
+- [30:03] Like I have very little doubt about
+- [30:04] that. But I think you're pointing out
+- [30:06] Jacob that like the near-term timeline
+- [30:07] is a lot more uncertain. Like that it
+- [30:09] may not be the case that AI could
+- [30:11] create, you know, many many many
+- [30:12] billions of dollars of value across
+- [30:14] finance and law and healthcare in the
+- [30:16] next 12 to 18 months. And if that's the
+- [30:18] case, like might nearer term security
+- [30:21] prices and share prices go up and down?
+- [30:23] >> Even if it can just automate honestly a
+- [30:25] fraction of all the knowledge work, like
+- [30:27] it it can create this amount of value.
+- [30:29] Um, you know, especially over a a
+- [30:31] multi-year time span.
+- [30:32] >> And we're that this is still us just
+- [30:34] focusing on like white collar knowledge
+- [30:37] digital work. I think there's also like
+- [30:40] a a much bigger portion of the economy
+- [30:42] in the world GDP is physical related
+- [30:44] work and robotics obviously is trailing
+- [30:47] behind language models and and you know
+- [30:49] purely digital models but the
+- [30:51] application of cutting edge AI to
+- [30:53] robotics is improving very quickly and
+- [30:55] so you know a lot of these data centers
+- [30:58] that are being built out can and will be
+- [30:59] used to train the next generation of
+- [31:01] robotics models and the next after that
+- [31:02] and I think that you know again on the
+- [31:05] on the right time horizon that opens up
+- [31:06] just so much more creation.
+- [31:07] >> I mean, if robotics models hit in the
+- [31:08] next few years, we're underbuilding data
+- [31:10] centers automatically. So,
+- [31:12] >> Yep.
+- [31:12] >> And I think that's the thing, right? You
+- [31:13] don't have to make not too many things
+- [31:15] have to go right before it's all
+- [31:17] justified. Um, and it's not everything
+- [31:19] that has to go right in order to justify
+- [31:21] it. I mean, I think ultimately the real
+- [31:23] the real key will be
+- [31:25] >> can you really monetize this effectively
+- [31:27] um to all the consumers. Even if you can
+- [31:29] do that, it justifies it. Um, and then
+- [31:32] if you can actually make the penetration
+- [31:33] into the enterprise um, for this highv
+- [31:35] value work, I think it can it can very
+- [31:37] easily justify. One thing I'd love both
+- [31:39] your thoughts on is actually like the
+- [31:40] Google Anthropic relationship because
+- [31:41] it's like so interesting to me. You
+- [31:43] know, we talked about this last time
+- [31:44] like Google's cooking like they've got a
+- [31:46] great team. They're building great
+- [31:47] models. Everyone's saying Gemini 3 is
+- [31:49] going to be really good. Um, they've
+- [31:50] obviously, you know, invested a ton into
+- [31:52] Anthropic in the past and I think
+- [31:53] there's been these reports in the last
+- [31:54] few days that they're planning to invest
+- [31:55] a bunch more. What do you guys make of
+- [31:57] that?
+- [31:57] >> My two cents, I'm curious what Ari
+- [31:58] thinks. My interpretation of the recent
+- [32:01] rumors around the Google Anthropic like
+- [32:03] deepening of ties was much more that it
+- [32:05] was it was about TPUs and about Google
+- [32:08] Cloud and about like striking a deal for
+- [32:10] Anthropic to you to shift a lot of its
+- [32:14] compute spend to TPUs. And I think
+- [32:16] Google like really wants to build out
+- [32:18] its cloud business and make TPUs like a
+- [32:20] a viable alternative to Nvidia's GPUs.
+- [32:22] Um, I do think and I'm curious to Ari
+- [32:25] what you think and and Jacob any
+- [32:26] thoughts, but I I I don't think that
+- [32:28] Google like I do think that Google has a
+- [32:30] lot of confidence in its own homegrown
+- [32:32] models and is not thinking like oh maybe
+- [32:34] we'll need to lean on Anthropic. I think
+- [32:35] it is much more about the hardware.
+- [32:37] >> Yeah, I'm inclined to agree. I also
+- [32:38] think it's just a hedge on both sides,
+- [32:40] right? Like Anthropic wants to diversify
+- [32:42] its compute infrastructure so it's not
+- [32:44] reliant on Amazon for everything. Um
+- [32:46] Google already owns I think 10% uh of
+- [32:48] Enthropic, maybe a bit more. um and now
+- [32:52] gets a lot of the upside from anthropic.
+- [32:54] Also like Google's gone is going I think
+- [32:56] Gemini's like long-term my assumption is
+- [32:58] going to be built into the phone. It's a
+- [33:00] local it's a local model. That's where
+- [33:02] the distribution comes in advantage.
+- [33:03] They integrate it very tightly with
+- [33:05] Gmail and G Suite and calendar and it
+- [33:07] becomes your chief of staff and all of
+- [33:08] that sort of stuff. that just seems very
+- [33:10] kind of direct uh line of sight um for
+- [33:13] Google and Gemini whereas Enthropic's
+- [33:14] focusing more on going to developers and
+- [33:16] the coding use cases which I think you
+- [33:18] know Google cares about but I would
+- [33:19] guess they care about less so I think
+- [33:21] there's also a bit of a complimentary um
+- [33:23] aspect to this um so honestly I think
+- [33:25] it's a very smart deal on on it's a very
+- [33:28] smart idea on both sides and then I
+- [33:29] agree with Rob like Google's looking at
+- [33:31] at Nvidia's you know massive uh
+- [33:34] concentrated demand um and TPUs are
+- [33:37] really good people really like TPUs
+- [33:38] there are challenges with getting
+- [33:40] everything to work well on on TPUs, but
+- [33:41] if you're doing one of the things that
+- [33:43] TPUs are really good at, they're
+- [33:45] awesome. Um, so selling that and
+- [33:47] actually productionizing it makes a lot
+- [33:49] of sense. And honestly, it's kind of
+- [33:50] cool to see Google now starting to think
+- [33:52] about entirely new revenue streams. Um,
+- [33:54] which they didn't for a long time and
+- [33:56] like they're hitting it now, right, with
+- [33:57] Whimo really is hitting hard obviously.
+- [33:59] Um, and I have would have no trouble
+- [34:02] imagining that that selling TPUs becomes
+- [34:04] extremely lucrative. Yeah. um for
+- [34:06] Google. I mean, it feels like there's
+- [34:07] just like lots of hedging on all sides
+- [34:08] where again, everyone's incentivized to
+- [34:10] have multiple options here. Nobody wants
+- [34:11] to be single threaded. Y
+- [34:13] >> you keep flipping over cards every 3 six
+- [34:15] months and you see, you know, what the
+- [34:16] next generation model capabilities are,
+- [34:17] the next generation of chips. Uh and the
+- [34:20] more options you can keep to have, I
+- [34:22] mean, obviously, uh I think Google's
+- [34:23] pretty directly competitive with OpenAI
+- [34:25] at this point. And so, I think why not
+- [34:27] have, you know, it seems like Gemini
+- [34:29] models are going well, but you never
+- [34:30] know. And it's interesting to see this
+- [34:32] the a lot of like frenemies in the
+- [34:34] ecosystem. A lot of like deals that it's
+- [34:36] like unclear are these like actually you
+- [34:38] know set in stone or they more just like
+- [34:40] optionality in the future. There's some
+- [34:41] serious chess being played.
+- [34:42] >> Totally. Yep.
+- [34:43] >> Obviously there's been a ton of these
+- [34:44] announcements over the last you know 3
+- [34:46] months you know OpenAI and insert any
+- [34:48] company that stock is then up 30%. Uh
+- [34:50] right after uh but obviously AMD you
+- [34:52] know Nvidia Broadcom like of all these
+- [34:55] you know announcements between the info
+- [34:56] players the model players any strike you
+- [34:58] guys and and what do you make of the
+- [34:59] whole thing? I mean, I've been
+- [35:01] incredibly impressed with OpenAI and Sam
+- [35:03] Alman's deal making in recent months.
+- [35:04] Like, they have struck a flurry of
+- [35:07] deals. I think exactly as you described
+- [35:08] it, Jacob, like it is about maximizing
+- [35:11] optionality. I think the way those deals
+- [35:13] were structured um has done a great job
+- [35:15] of like almost making OpenAI like too
+- [35:18] big or too interconnected to fail. Um,
+- [35:20] which I think is was like brilliantly
+- [35:22] executed by them. I think the the
+- [35:24] Broadcom deal I think is interesting for
+- [35:26] another reason. It's and it's less about
+- [35:29] this like um you know the circularity of
+- [35:33] investment and Nvidia giving open AI
+- [35:35] money to spend on GPU chips and so
+- [35:36] forth. I think it's more it seems like
+- [35:38] it points in the direction of um
+- [35:41] customized silicon being more and more
+- [35:43] relevant and maybe even like customized
+- [35:46] silicon for each new model um as like as
+- [35:49] the uh windows for developing new chips
+- [35:52] and then taping them out and then using
+- [35:53] them gets uh more compressed. Uh it's
+- [35:55] interesting to think about a world where
+- [35:57] like do you are you able to kind of like
+- [35:58] co-create the silicon and the models and
+- [36:01] you know have new generations of chips
+- [36:03] pretty quickly. I think that's the
+- [36:05] direction OpenAI wants to go in and I
+- [36:07] think they found a good partner in
+- [36:08] Broadcom and and I think it in large
+- [36:10] part goes back to the the the theme that
+- [36:12] we've been talking about which is like
+- [36:13] OpenAI feels uneasy being so dependent
+- [36:15] on Nvidia and would prefer to own its
+- [36:17] own destiny on the silicon front. So I
+- [36:19] think that one is is a really
+- [36:20] interesting one to watch. Yeah,
+- [36:22] >> I very much like uh you know Rob's point
+- [36:24] about by opening eye tying itself to
+- [36:26] many other companies, they are kind of
+- [36:28] making themselves too big to fail in
+- [36:29] some ways. Um I think there's definitely
+- [36:31] something to that. Um and you know that
+- [36:33] that makes these deals I think make a
+- [36:35] lot of sense. Um I think the other thing
+- [36:36] is you know fundamentally you're making
+- [36:38] a bet that OpenAI will have access to
+- [36:40] enough capital to be able to pay off
+- [36:42] these deals when they come due. Um
+- [36:45] >> and Sam Alman is very good at finding
+- [36:48] capital. Um so you know to some extent
+- [36:50] even if you're just betting on Sam
+- [36:52] Alman's ability to to raise more capital
+- [36:54] such that he'll be able to you know keep
+- [36:56] it going um then these deals can can
+- [36:59] make sense. I guess shifting gears to
+- [37:00] the application landscape wanted to get
+- [37:02] your guys thoughts on uh a few things. I
+- [37:04] think last time we we didn't hit on vibe
+- [37:05] coding which has obviously been one of
+- [37:07] the use cases that seems to be growing
+- [37:09] super fast. Um, obviously there's been a
+- [37:11] lot of of folks, you know, beginning
+- [37:13] that you've had lovable and uh, Replet
+- [37:15] and Bolt kind of grow really fast and
+- [37:16] then Figma's kind of entered the space
+- [37:17] with their make product and you've had
+- [37:19] uh, cursor kind of like begin to
+- [37:20] introduce some things here as well.
+- [37:22] Curious both of you like what do you
+- [37:23] think happens to this vibe coding space
+- [37:25] long term? It's kind of interesting to
+- [37:26] see uh, you know, talking to to some of
+- [37:29] the folks on the team at Dtology um,
+- [37:31] some of the IC's feel like they've
+- [37:32] become managers uh, they're just like
+- [37:34] managing a swarm of agents uh, now uh,
+- [37:36] and and that's become their job. Um I I
+- [37:38] I think one thing that that we've seen
+- [37:40] you is you definitely still need quite a
+- [37:41] lot of human oversight to get good
+- [37:43] results out of these and like you know
+- [37:44] Andre Karpathy was saying the same thing
+- [37:46] in his podcast right that he likes it
+- [37:47] for autocomplete um and less actually
+- [37:49] for chatting with the model and asking
+- [37:51] it to do something. Uh I think that's
+- [37:53] consistent with what our experience um
+- [37:54] has generally been is like that's where
+- [37:56] it can kind of really accelerate um
+- [37:58] things. Uh but I I I do expect that we
+- [38:01] will see some like big security
+- [38:03] vulnerabilities uh you know especially
+- [38:05] in like mid-stage companies um that are
+- [38:08] going to come out of vibe coding uh and
+- [38:11] there is still a gap but this is clearly
+- [38:13] where most of the frontier labs focus is
+- [38:16] right now is how do you get these to
+- [38:18] longer time horizons um they've already
+- [38:20] improved dramatically in the last year
+- [38:22] or two. Uh I expect we'll continue to
+- [38:25] see um you know more and more
+- [38:27] reliability here especially as we start
+- [38:29] shifting to more kind of specialized
+- [38:30] coding models uh that are really good at
+- [38:32] coding and therefore are going to
+- [38:33] hallucinate less uh because they're a
+- [38:35] little bit less general purpose.
+- [38:36] >> Yeah.
+- [38:37] >> What what's your take on vibe coding
+- [38:38] Jacob? I feel like you can like
+- [38:40] bifurcate the use cases into like
+- [38:43] there's two visions and one of them I
+- [38:44] think I believe in way more which is
+- [38:45] that uh you know it's just a far more
+- [38:47] effective like prototype or mockup and
+- [38:50] like why put something as a mockup if
+- [38:52] you can literally get a you know 90% as
+- [38:54] good version just to show people and
+- [38:55] it's going to kind of change the way
+- [38:57] that you start the process of creation
+- [38:59] and that's obviously a very lucrative
+- [39:00] opportunity the idea of like vibe coding
+- [39:02] an app straight to production. I mean,
+- [39:04] you know, to your point, there's there's
+- [39:05] security side, but there's also just
+- [39:06] like so much of software is maintenance
+- [39:08] and like, okay, who actually knows how
+- [39:10] to keep this thing and it broke in this
+- [39:11] way like a year or two later? Like, who
+- [39:13] knows how to do that? And um to the
+- [39:15] extent that you've had no involvement
+- [39:16] whatsoever in creating it, I'm not sure
+- [39:18] it actually ends up saving that much
+- [39:20] money or time in the in the long term on
+- [39:22] the application side. Um, but we'll see.
+- [39:24] I don't know. These models keep getting
+- [39:25] a lot better. So,
+- [39:26] >> it makes reviewing code a much more
+- [39:27] important skill set. Yes. um like it's
+- [39:29] always been an important skill set, but
+- [39:31] like you know there's always this like
+- [39:32] idea that you know code's going to be
+- [39:34] read far more often than it's going to
+- [39:35] be written. Uh like that's even more
+- [39:37] true probably uh now than it ever was.
+- [39:40] Uh and you know I think hiring people
+- [39:42] who are really good at monitoring these
+- [39:45] models and and kind of building
+- [39:46] intuitions for where they go off the
+- [39:48] rails and how you can defend against
+- [39:49] that. Uh that skill set I think is
+- [39:51] becoming increasingly valuable.
+- [39:52] >> Yeah.
+- [39:53] >> Yeah. I I do think though like as time
+- [39:55] goes by like all these things that we're
+- [39:57] describing are things that AI will be
+- [40:00] better at than humans eventually. Like
+- [40:02] code review is something that is already
+- [40:04] being automated and will become
+- [40:05] increasingly automated. Debugging and
+- [40:07] maintenance of code bases like all of
+- [40:10] that will can eventually be done by uh
+- [40:12] AI. And so like coding is kind of an
+- [40:14] interesting it's kind of like the first
+- [40:15] beach head use case that's like so
+- [40:17] clearly an amazing killer app for LLMs.
+- [40:20] and were like grappling with this
+- [40:22] process of like okay how do how do
+- [40:24] humans transi trans transition their
+- [40:25] role get leverage from AI figure out the
+- [40:28] best ways for them to plug in but also
+- [40:30] like like over time gradually become
+- [40:33] less and less relevant and more obsolete
+- [40:35] for a lot of these pieces and so I do
+- [40:37] think like that journey will continue
+- [40:38] and coding will probably be like the
+- [40:40] first use case where we see it play out
+- [40:42] but you know I would expect similar
+- [40:44] things to happen in other in other
+- [40:45] spaces
+- [40:46] >> I guess you know I feel like the the
+- [40:47] anthropic first cursor question is
+- [40:48] everyone's like favorite you know where
+- [40:50] where does is the value end up
+- [40:51] occurring? Curious for both of you like
+- [40:53] obviously there's it seems like there's
+- [40:54] going to be a tremendous amount of
+- [40:55] enterprise value created in coding uh
+- [40:57] you know we could put cognition in there
+- [40:59] too like who do you think ultimately
+- [41:00] ends up uh winning the majority of the
+- [41:02] space?
+- [41:02] >> I mean if I if I had to pick one I would
+- [41:04] say anthropic I just I I think that the
+- [41:07] companies like Curser face so much
+- [41:09] platform risk. They've built an amazing
+- [41:11] product people love using. I know
+- [41:12] they're now trying to build their own
+- [41:14] models. Um, you know, I'm not super
+- [41:16] optimistic about cursor's model building
+- [41:18] capabilities relative to anthropics. Um,
+- [41:21] and Anthropic has obviously made
+- [41:23] building coding applications a huge
+- [41:25] priority with cloud code and so forth.
+- [41:26] So I cursor is amazing company. The
+- [41:28] growth is incredible. The team is
+- [41:30] amazing. The product is amazing. But um,
+- [41:32] I do think ultimately they they have a
+- [41:34] pretty scary reliance on the underlying
+- [41:37] models from Anthropic.
+- [41:39] >> Whoever has the best coding model on a
+- [41:41] given day will win on that day. Um I
+- [41:44] think engineers have no loyalty uh to
+- [41:47] any of these models. Um you know people
+- [41:50] on the team switch constantly. Everybody
+- [41:52] was using cloud code on the team two
+- [41:55] months ago and now most people are using
+- [41:56] codeex. Um and if cloud gets much better
+- [42:00] again everyone's going to switch back to
+- [42:02] cloud.
+- [42:02] >> If you were running is there a way to
+- [42:03] make it sticky? Like if you were running
+- [42:04] codeex or cloud code like is there
+- [42:06] something you could do? I I mean you
+- [42:08] think you have to get something about
+- [42:09] like memory of the codebase but the
+- [42:11] problem and like your interactions with
+- [42:12] it really kind of becoming sticky but
+- [42:14] the problem is as the models get better
+- [42:15] and better at analyzing inspecting code
+- [42:17] bases then that memory becomes less
+- [42:20] important and then it starts to get
+- [42:21] towards this question where if you're
+- [42:22] building a company that's reliant upon
+- [42:24] this how can you take the memory aspects
+- [42:26] that would be locked into codeex or to
+- [42:28] claude and instead take those out of
+- [42:30] codeex and claude and just provide that
+- [42:32] as part of the context and now you can
+- [42:34] switch your entire pipeline between
+- [42:36] models really easily. Um, so you know,
+- [42:39] Google always likes to say like our
+- [42:40] competition is just a click away. Um, I
+- [42:42] feel like this is especially true in the
+- [42:44] coding landscape. Um, in a way that it's
+- [42:46] not true in a lot of uh places. And I
+- [42:48] think even already you see that even in
+- [42:50] enterprises um, a lot of engineers have
+- [42:52] access to more than one of these uh,
+- [42:53] models. Um, so
+- [42:56] long term it's it's very hard to
+- [42:58] actually kind of imagine get building a
+- [42:59] durable moat and advantage here. Um,
+- [43:02] because especially engineers are the
+- [43:04] folks who always want to try the new
+- [43:05] technology. they always want to go and
+- [43:06] and and do the best thing. They're
+- [43:08] they're not the sort of folks who say,
+- [43:09] "Oh, this is good enough. I just want to
+- [43:11] stay with this kind of as a community
+- [43:13] generally." Um, in a lot of other fields
+- [43:15] that is the case, right? In healthcare,
+- [43:16] if you deploy something that's, you
+- [43:18] know, doing transcription, doctors
+- [43:20] aren't going to want to learn a new
+- [43:21] tool. Um, engineers will. Uh, so I'm
+- [43:25] really unsure where the long-term
+- [43:26] durability um comes here. Uh and I do
+- [43:30] think this is a particularly big risk uh
+- [43:32] to the ids um you know to cursor and
+- [43:34] bolt and lovable etc. Like obviously
+- [43:38] anthropic would rather just capture that
+- [43:39] or opening I would would rather capture
+- [43:41] that and in many ways it's kind of
+- [43:42] similar to like Apple putting Apple
+- [43:44] Music on the same app store as Spotify.
+- [43:46] Apple doesn't have to pay the 30% fee.
+- [43:49] Um Anthropic doesn't have to pay the
+- [43:52] it's probably roughly actually in the 30
+- [43:54] like but they don't have to pay the fee
+- [43:55] of using the their own models. They get
+- [43:56] to pay at a cost. That's a huge durable
+- [43:59] structural advantage over these folks.
+- [44:01] So my guess is probably what you'll see
+- [44:02] is that the the big model labs will be
+- [44:05] able to undercut the idees by quite a
+- [44:08] bit with respect to cost. Um and that
+- [44:10] will be meaningful but then between the
+- [44:12] different models um and then also the
+- [44:14] open source models that are quen cod is
+- [44:16] already pretty good. Uh it's hard to
+- [44:19] imagine kind of people really sticking
+- [44:20] with one for a long time. For me I guess
+- [44:23] another thing I'm curious for your take
+- [44:24] on where you know uh we're in San
+- [44:26] Francisco now. We're we're kind of
+- [44:27] releasing this like AI64 app report I
+- [44:30] believe tomorrow and you look at some of
+- [44:31] the best applications and even you know
+- [44:32] nearly half of them are all here in in
+- [44:34] San Francisco as well. Uh I guess begs
+- [44:36] the question for both of you like how do
+- [44:38] you can you build a great AI company
+- [44:39] outside San Francisco like how do you
+- [44:41] think about the uh the the geographic uh
+- [44:44] focus of the industry today?
+- [44:46] Um, I think definitely you can uh there
+- [44:48] are different pros and cons uh about it
+- [44:51] and I'm sure Rob will have uh some nice
+- [44:53] insights here. Uh, you know, as Radical
+- [44:55] is primarily based in Toronto, although
+- [44:56] Rob's in the Bay. Um, but
+- [44:59] look, being in the Bay means that you
+- [45:01] have access to a larger talent pool,
+- [45:03] which is is really nice. Um, you're in
+- [45:05] the center, the zeitgeist, you know, all
+- [45:07] the folks that you want to talk to are
+- [45:08] local. That that's really helpful. On
+- [45:10] the flip side, the talent's much more
+- [45:12] expensive in the bay and you're going to
+- [45:14] face a lot more competition. Like as a
+- [45:16] startup, it's it's very hard
+- [45:17] realistically to compete against the
+- [45:19] liquid comp offers that come out of
+- [45:20] OpenAI, Anthropic, Meta, Google, etc.
+- [45:23] Um, you know, if you're based in
+- [45:25] Toronto,
+- [45:26] there's less talent than there is in the
+- [45:28] Bay Area. was still a lot because of the
+- [45:30] Vector Institute and and and University
+- [45:32] of Toronto or in Zurich where there's
+- [45:33] ETH. You know, you go to one of these
+- [45:35] places where there's a really strong um
+- [45:37] feeder university uh for AI. Uh and you
+- [45:41] you will have less competition for the
+- [45:42] talent that's there even though there's
+- [45:44] a little bit less talent.
+- [45:45] >> Yeah. I mean, like my somewhat
+- [45:46] tongue-in-cheek answer is like yes, you
+- [45:48] definitely can build an AI company
+- [45:50] outside of SF, but why would you? Um and
+- [45:53] like of course sometimes like there are
+- [45:55] very real reasons why you know people
+- [45:57] are rooted in certain places but I just
+- [45:58] think there's uh there's so much
+- [46:02] happening in SF and it's such it's so
+- [46:04] ground zero for everything in the world
+- [46:07] of AI in terms of the capital here the
+- [46:09] talent here just like the general
+- [46:11] zeitgeist and information flow and um
+- [46:14] you know you you learn things sooner in
+- [46:16] the bay before they trickle out to other
+- [46:19] geographies and so I think like you know
+- [46:21] obviously talent is dispersed globally.
+- [46:24] Um, but I do think that like there's
+- [46:26] pretty compelling reasons no matter
+- [46:28] where you're from and where you start
+- [46:29] your company to relocate to the bay as
+- [46:31] you're growing. And to Ari's point, like
+- [46:33] there are definitely trade-offs with uh
+- [46:35] cost of labor. Um, I think there there
+- [46:37] are a lot of companies that have found
+- [46:39] clever ways to, you know, have some
+- [46:41] teams, research teams located in other
+- [46:43] parts of the world, but still have a big
+- [46:45] um go to market presence in in San
+- [46:47] Francisco. Um, and I think like if
+- [46:49] you're not going to be headquartered in
+- [46:51] San Francisco, I think like you almost
+- [46:54] certainly as an startup should at least
+- [46:55] have a presence and an office here. Um,
+- [46:57] I just think it is like things move more
+- [47:00] quickly here and being a being embedded
+- [47:03] deeply into this ecosystem is so
+- [47:04] important.
+- [47:04] >> The osmosis that happens as you're like,
+- [47:07] you know, just rubbing shoulders with
+- [47:08] everyone. It's it's just so clear.
+- [47:10] There's this really tight feedback loop.
+- [47:12] I mean, I think there was like that uh
+- [47:14] that funny example of the cursor team
+- [47:15] like Ubering down to XAI HQ or something
+- [47:18] when like their new model wasn't working
+- [47:20] super well on Cursor and they like
+- [47:22] resolved it in like you know 30 minutes.
+- [47:24] But I I think certainly just the the
+- [47:26] kind of like uh exchange of ideas
+- [47:28] between the cutting edge apps who are
+- [47:30] pushing the model companies in a bunch
+- [47:31] of different ways and have all sorts of
+- [47:32] interesting evals and ways they fail and
+- [47:33] the model companies themselves and who
+- [47:35] are pushing things and uh I think that
+- [47:37] that sharing of of information is just
+- [47:39] really helpful to stay on the frontier
+- [47:40] of of all these capabilities.
+- [47:42] >> I think it also I think it's also a bit
+- [47:44] of a double-edged sword and in the sense
+- [47:45] that it's really great to be in the
+- [47:47] zeitgeist. It also I think makes it
+- [47:48] harder to actually go heads down and
+- [47:49] build. I mean another part of of of
+- [47:51] putting together this report that I
+- [47:53] thought was interesting and was curious
+- [47:54] to ask you about Ari is you know
+- [47:55] everyone's always asking about moes in
+- [47:57] in startups and you know trying to come
+- [47:58] up with a list and uh one of my
+- [48:00] colleagues was like well data moes like
+- [48:01] that should be a thing and you know it's
+- [48:03] always been always been unclear to me
+- [48:04] the extent to which that exists uh for
+- [48:06] for an AI startup but I figured no
+- [48:07] better person to have an opinion on this
+- [48:09] than you. Um I would say generally not.
+- [48:12] Uh I mean ultimately what is a data mode
+- [48:13] right? It means you have access to a
+- [48:15] data set that is that nobody else has
+- [48:18] access to or a very limited set of
+- [48:20] people have access to and that is
+- [48:22] particularly relevant for the use cases
+- [48:23] that you're targeting. Um if that is the
+- [48:26] case your data is incredibly valuable.
+- [48:28] Um and this is very true of lots of
+- [48:30] large enterprises that have lots of
+- [48:31] relevant data that they've been
+- [48:32] collecting for you know decades in many
+- [48:34] cases that's extremely problem specific
+- [48:36] and relevant to their use cases. But
+- [48:38] startups usually don't have that sort of
+- [48:40] data on a large enterprise side. I'm
+- [48:42] always struck like how few examples it
+- [48:43] takes to you know effectively fine-tune
+- [48:46] or DRL or whatever it is like do you
+- [48:48] actually think you know the enterprise
+- [48:49] that has 100,000 examples versus you
+- [48:52] know 2,000 that the startup has does it
+- [48:54] actually make that big a difference?
+- [48:55] >> I think it does on specialized tasks. So
+- [48:57] I think that's where it becomes really
+- [48:59] important right and if you talk to most
+- [49:00] folks in the enterprise you haven't seen
+- [49:02] these models deployed in most of these
+- [49:04] mission critical use cases. And it's not
+- [49:05] because they're at 95 and they need to
+- [49:07] be at 99.999. They're at like 50 in a
+- [49:11] lot of cases. They're quite far from
+- [49:12] being good. So I think there are
+- [49:13] particular use cases where you see RL
+- [49:15] being really impactful um and really
+- [49:17] making a big impact. And obviously
+- [49:18] there's a a a large push towards this
+- [49:21] idea. Hey, we can just use LM as judge
+- [49:22] and now we have verifiers and we can
+- [49:24] apply it to anything. Um but but it's
+- [49:26] often a lot trickier than that to
+- [49:27] actually get it to really work. I mean,
+- [49:29] one thing that I think uh I liked from
+- [49:30] from Andre Karpath's uh interview was
+- [49:34] talking about how uh LLM's judge often
+- [49:37] times they have flaws in that they will
+- [49:40] reward something that they shouldn't
+- [49:41] like a long string of u of numbers. Um
+- [49:44] and it it's very hard to actually fully
+- [49:46] eliminate those. You can eliminate one,
+- [49:48] but it's kind of like a game of
+- [49:49] whack-a-ole. Um whereas you do one like
+- [49:51] then the system will optimize and find
+- [49:53] some other way around it. Um so I I do
+- [49:55] think there's a massive uh benefit uh
+- [49:57] from actually you know having this
+- [49:59] relevant data. And if you think about it
+- [50:00] another big aspect of this is that if
+- [50:02] you use a general purpose model um for a
+- [50:04] specialized task one it's going to
+- [50:05] hallucinate more because in many cases
+- [50:07] hallucinations are a byproduct of of
+- [50:09] generality. Um and two it's going to be
+- [50:11] a lot more expensive to deploy uh than a
+- [50:14] a model that was specialized. Um, so I
+- [50:17] think we're we're going to see a lot
+- [50:18] more of this and increasingly I think
+- [50:20] lots of enterprises are recognizing,
+- [50:21] okay, now we can actually start to do
+- [50:22] this and start to get kind of close this
+- [50:24] gap on accuracy. Um, so so yeah, I
+- [50:26] actually do think there's a big data
+- [50:28] mode in enterprises. In startups, I
+- [50:30] think it's a lot harder. It it would be
+- [50:31] knowhow um or something like that. And
+- [50:33] and you know that can can work as a mode
+- [50:35] and it can be hard as a mode in various
+- [50:36] ways. One thing I was uh excited to get
+- [50:38] your thoughts on from from the Kapathy
+- [50:40] interview was obviously he makes so many
+- [50:42] comparisons to the human brain and
+- [50:44] you're you're a neurophyd like you're
+- [50:45] perfectly qualified here but you know
+- [50:47] some of my favorite parts were talking
+- [50:48] about how you know we don't like RL our
+- [50:50] way to reasoning we do with in the
+- [50:52] physical world like you see you know
+- [50:53] babies put about just about everything
+- [50:54] in their mouth and you know try a bunch
+- [50:56] of different things before they figure
+- [50:57] out how to walk some some effective
+- [50:59] environment there but you know Annie
+- [51:00] said in some sense that's not surprising
+- [51:02] right I mean it's it's we're building
+- [51:03] these models in very different ways than
+- [51:04] the human brain has developed uh
+- [51:06] I don't have a more specific question
+- [51:08] than just I'd love to hear you a very
+- [51:10] smart neuroi person riff on some of the
+- [51:12] things he was talking about.
+- [51:13] >> Yeah. So unfortunately I actually don't
+- [51:16] think we have that much to learn from
+- [51:17] the brain beyond high levels high level
+- [51:19] thoughts. I I really wanted to believe
+- [51:21] this and actually like kind of my in
+- [51:23] when I when I changed fields from
+- [51:24] neuroscience to to ML um the way I
+- [51:27] thought about it was very much like oh
+- [51:28] we know how to think about how the brain
+- [51:29] works. This will surely this will be so
+- [51:31] useful for for building better models.
+- [51:34] Um the reality is that the brain has a
+- [51:36] very different set of constraints than
+- [51:37] our models does. Mo do most notably the
+- [51:40] brain has to be extremely energy
+- [51:41] efficient. Um so it has to run on
+- [51:43] roughly you know 20 watts. Um which is
+- [51:46] nothing compared
+- [51:48] >> a little bit less than some of the uh
+- [51:49] the data center sizes we're talking
+- [51:50] about.
+- [51:51] >> Exactly. Um and there's also some
+- [51:53] interesting there's actually a really
+- [51:54] cool paper a while back showing that
+- [51:55] there's a hard trade-off between the
+- [51:57] time scale of a of of a system and the
+- [51:59] amount of energy it uses. So like the
+- [52:00] brain functions on roughly a millisecond
+- [52:02] time scale which is like not that fast.
+- [52:04] Um and if you want it to go faster you
+- [52:06] need to use exponentially more energy.
+- [52:07] So there's like an evolutionary reason
+- [52:08] why we ended up kind of uh at a
+- [52:11] particular speed of of of processing. Um
+- [52:14] I think the places where uh this analogy
+- [52:18] you know can be helpful is is starting
+- [52:21] to look at it as a as a proof positive
+- [52:23] that we can do this so much more
+- [52:24] efficiently. Um, I I definitely agree
+- [52:27] that, you know, a lot of what we see
+- [52:29] that humans are able to do is baked in
+- [52:31] through evolution and and through kind
+- [52:33] of building this like very compact
+- [52:34] system of DNA that can then build this
+- [52:36] very large emergence property system of
+- [52:38] the brain. Um, that's really incredible.
+- [52:41] Um, and I think we see a really clear
+- [52:42] analogy here. I I like the the analogy
+- [52:45] of pre-training is the same as kind of
+- [52:46] evolution. Um, I think that really holds
+- [52:48] quite a bit of water. And what we see is
+- [52:50] that RL only works if the base model is
+- [52:53] good enough. And all it's really doing
+- [52:55] is refining the outputs of the base
+- [52:57] model. And you can even in many cases do
+- [52:58] this without RL at all. Um like there
+- [53:00] was a nice paper from Enthropic showing
+- [53:02] how you could do this without RL. Um and
+- [53:03] increasingly there are more and more
+- [53:04] papers showing that you know RL isn't
+- [53:06] the key. It's actually having the right
+- [53:08] prior in there. So having the human
+- [53:10] brain as evidence that hey you can build
+- [53:12] something that you know from birth can
+- [53:14] already start absorbing these sorts of
+- [53:16] contexts and can do it in a much more
+- [53:17] efficient way shows us that there are
+- [53:19] much better ways uh to do this and in
+- [53:21] general I'm a a huge fan more like just
+- [53:22] across the board of rather than just
+- [53:25] saying throw more at it um just hey RL
+- [53:27] is not that efficient just like throw
+- [53:28] more compute at it um but actually
+- [53:31] thinking how do we actually increase the
+- [53:32] efficiency of these systems like you you
+- [53:34] look at Grock 4 and they you know made a
+- [53:35] big deal about the fact that that half
+- [53:36] of the compute was spent on RL But the
+- [53:39] marginal gain of that additional half of
+- [53:41] compute was terrible. Like the the the
+- [53:43] ratio of kind of performance per dollar
+- [53:45] on the pre-training side was so much
+- [53:47] higher than the ratio of performance per
+- [53:48] dollar on the RL side. Um so as we start
+- [53:51] to invest more in the in these sorts of
+- [53:53] approaches, finding ways to actually
+- [53:54] make them more efficient to actually get
+- [53:56] better propagation of signals um and
+- [53:58] reward signals in particular is is a
+- [54:01] hugely important problem for us to
+- [54:02] solve. Before we wrap, I'd love to take
+- [54:04] uh you know a step back and ask you some
+- [54:06] overly broad like zoom out questions for
+- [54:07] uh for for both of you. Um and so maybe
+- [54:10] to start uh Rob, I'll start with you.
+- [54:12] Like reflecting on the last two years of
+- [54:14] AI investing or being in the AI
+- [54:15] ecosystem in your case, Ari, uh what
+- [54:18] surprised you the most?
+- [54:20] >> It's a good question. Um on the AI
+- [54:23] investing front, I guess I'd say a
+- [54:25] couple things. One is just like how
+- [54:27] wrong the like thin rapper meme was in
+- [54:32] retrospect and in retrospect it should
+- [54:34] have been obvious that like the there's
+- [54:36] so much value to be created at the
+- [54:38] application layer. I think there was
+- [54:39] like you know rewinding the clock 2
+- [54:41] years. I think there was just like so
+- [54:43] much fixation and obsession with the
+- [54:44] models and like there's a remember
+- [54:46] there's a phase where like everyone was
+- [54:48] really focused on like how many
+- [54:49] parameters does a given model have and
+- [54:50] there's just like like so much obsession
+- [54:52] about the model layer and anything built
+- [54:54] on top of the model layer is oh it's
+- [54:56] just a thin wrapper that's going to get
+- [54:57] destroyed. um when in reality like
+- [55:00] obviously that's where a huge amount of
+- [55:01] the value is going to end up acrewing
+- [55:02] because that's where the rubber actually
+- [55:04] hits the road in terms of um these
+- [55:06] products being deployed into actual
+- [55:08] people's lives. Um you know there's now
+- [55:11] a like a newer question which is like
+- [55:14] how much of that application layer value
+- [55:16] can the labs move up the stack and
+- [55:18] capture versus new startups. But I think
+- [55:20] the like the whole orient the whole sort
+- [55:22] of dismissal of applications built on
+- [55:24] top of the foundation models as thin
+- [55:26] rappers was like
+- [55:27] >> just I think a total like whiff by the
+- [55:30] entire VC community.
+- [55:31] >> I actually think a lot of it could be
+- [55:33] attributed to like a single company
+- [55:34] which is I think Jasper people were so
+- [55:37] scared by like the rapid rise and then
+- [55:39] you fall even though look Jasper I think
+- [55:41] is still around and still uh doing some
+- [55:43] things but I think there was such a
+- [55:44] concern that that would happen to so
+- [55:46] many other AI apps. I'm not sure it's
+- [55:48] happened to any since then.
+- [55:49] >> Yeah.
+- [55:50] >> Um and it will like there's no way all
+- [55:51] these things will work. Um but it's it's
+- [55:54] interesting how that was one of the
+- [55:55] first uh out of the gate that people
+- [55:57] that got a lot of publicity and I think
+- [55:58] scared off a lot of people from
+- [55:59] investing in the app layer early.
+- [56:01] >> Yeah, that's a really good point. I do
+- [56:02] think people o overly rotated on that
+- [56:04] one example and and probably the
+- [56:06] pendulum swung too far. Um the other
+- [56:09] point just from the investing
+- [56:10] perspective that I that has been
+- [56:11] surprising I think took all of us by
+- [56:13] surprise is uh but again maybe should
+- [56:15] have been more obvious in retrospect is
+- [56:17] just like how important the the physical
+- [56:19] infrastructure underlying AI is and I
+- [56:21] think like two years ago very few
+- [56:23] investors were thinking about it but you
+- [56:25] know in theory you could have even gone
+- [56:26] back to like 2020 when the scaling law
+- [56:29] paper was published and like if you
+- [56:31] really take scaling to its logical
+- [56:32] extreme like it makes sense that that
+- [56:34] that would lead you to devoting like as
+- [56:37] much physical resources and energy and
+- [56:39] real estate as you can to scaling these
+- [56:41] models bigger and bigger. But um I think
+- [56:43] like for a long time we sort of just
+- [56:45] abstracted away the physical inputs
+- [56:47] underlying AI and and now obviously
+- [56:49] that's kind of like the center of
+- [56:51] attention in terms of where the money is
+- [56:53] flowing.
+- [56:53] >> What about for you Ari?
+- [56:55] >> I think one of the things uh that's been
+- [56:57] surprising to me is not that open models
+- [56:59] have converged for the most part in many
+- [57:01] cases with closed models. I think that
+- [57:03] was something that I always expected to
+- [57:04] to generally happen at least on the vast
+- [57:06] majority of tasks. Um but in particular
+- [57:08] the success of Chinese models um I think
+- [57:11] is not something that that I necessarily
+- [57:12] would have predicted and and and
+- [57:14] especially the amount of innovation that
+- [57:17] these teams are doing. Um Deepseek drops
+- [57:20] a new paper. It's a must readad for the
+- [57:22] entire community. And I think this is
+- [57:23] also a place where the public perception
+- [57:25] is is very very off from the insider
+- [57:28] perspective. I think the public
+- [57:30] perspective is still very much China
+- [57:32] steals American IP. Um, and that
+- [57:34] everything China is doing is because
+- [57:36] they have spies inside of OpenAI and
+- [57:38] Anthropic and and that's how they're
+- [57:39] they're they're producing such great
+- [57:40] models. Um, that's just patently false.
+- [57:42] like they might have spies, I don't
+- [57:43] know, but like um the fact that they
+- [57:46] need to in order to build great models,
+- [57:48] they're out innovating in a lot of ways,
+- [57:50] you know, and like I think uh forcing
+- [57:52] China to buy H20s in the long run, I
+- [57:54] think is going to be viewed as a very
+- [57:56] stupid decision in hindsight because it
+- [57:59] catalyzed China to now build its own uh
+- [58:01] AI infrastructure and move off of Nvidia
+- [58:03] sooner than it would have otherwise. Um
+- [58:06] and I said it earlier in the episode,
+- [58:07] constraints breed innovation. Um, and
+- [58:09] we've seen that absolutely they figured
+- [58:11] out ways to make things so much more
+- [58:12] dramatically efficient. And and
+- [58:14] honestly, that's one thing that I I'm
+- [58:15] really disappointed in the American AI
+- [58:17] ecosystem. I think that again the the
+- [58:19] answer has just been throw money at the
+- [58:22] problem. Um, and that will fix it. And
+- [58:24] like look, if you have access to
+- [58:26] effectively infinite capital, maybe that
+- [58:28] does make sense as a strategy. Maybe
+- [58:29] that's the faster route. Um, but I don't
+- [58:32] think that's the the best route. I I
+- [58:34] think a much better route is to, you
+- [58:35] know, think really deeply about where
+- [58:37] the bottlenecks are in these systems.
+- [58:38] Like scaling laws are terrible by power
+- [58:41] laws suck. Like every time you 10x the
+- [58:43] data or compute, you get a diminishing
+- [58:44] return. You just, you can't do that
+- [58:46] forever. It it's not a surprise that
+- [58:48] things like 4.5 didn't work super well
+- [58:50] if you just naively kind of extrapolate
+- [58:52] this out. Um there have to be better
+- [58:54] ways for us to do this. Um and I think
+- [58:57] that the most exciting work in that
+- [58:59] direction of making these models most
+- [59:01] efficient is coming not just from like
+- [59:03] one Chinese lab but from like 10 Chinese
+- [59:05] labs. Uh I don't think I would have
+- [59:07] called that.
+- [59:08] >> Why isn't it happening in in like US
+- [59:10] academia where they have you know
+- [59:11] compute constraints as well?
+- [59:12] >> Well, one big thing is that the comput
+- [59:14] academia are much more severe. So
+- [59:17] there's there's a goldilock zone that
+- [59:19] you need. Um and honestly it's one thing
+- [59:21] that just very much worries me like I
+- [59:22] feel like this is 1960 again. We're in
+- [59:24] the space race. Um, and rather than, you
+- [59:27] know, deepening our investment in the
+- [59:30] academic infrastructure, we're cutting
+- [59:31] uh our investments uh in academic
+- [59:33] infrastructure. China is directly
+- [59:34] funding a lot of universities, you know,
+- [59:36] with compute to be able to build these
+- [59:38] models. We're pulling uh compute from
+- [59:40] many, you know, resources from many
+- [59:42] universities. Um that's scary to me. Uh
+- [59:44] in the long term, I think we need to
+- [59:46] really be investing. I think that's why
+- [59:47] you see uh you know Nvidia in particular
+- [59:49] really trying very hard to build up a
+- [59:51] more robust um open model ecosystem uh
+- [59:54] in the west.
+- [59:55] >> Well, what I was going to say actually
+- [59:56] very similar to what you were saying
+- [59:57] Rob, I mean clearly from the investing
+- [59:58] standpoint, the lesson of the last two
+- [60:00] years was apps was a great place to
+- [60:01] invest. And I think everyone's now
+- [60:02] rushing into them now having realized,
+- [60:04] man, I wish I'd done even more in 23 and
+- [60:06] 24. you know, a a cousin maybe to the,
+- [60:09] you know, the uh fear of them all being
+- [60:12] rappers was also this idea that
+- [60:13] incumbents were really well positioned
+- [60:15] to to do some of this. And and I think
+- [60:16] I've been surprised on, you know, on on
+- [60:19] the relative lack of success of a lot of
+- [60:21] incumbents. I mean, GitHub copilot was
+- [60:22] in a really good place to capture
+- [60:24] coding, uh, Salesforce in in customer
+- [60:26] support, um, some of the other use
+- [60:28] cases. And I think what maybe now is is
+- [60:31] more clear is that building AI products
+- [60:33] is just like so different than
+- [60:35] traditional product management. I think
+- [60:36] honestly even the relationship these
+- [60:38] companies have with their end customers
+- [60:39] is very different. If I think about like
+- [60:41] traditional software companies like you
+- [60:43] know they they go preview their road map
+- [60:45] with their customers like we're going to
+- [60:46] do this next quarter this the quarter
+- [60:48] after their customers expect things to
+- [60:50] be like super you know reliable and and
+- [60:52] rolled out to to their whole employee
+- [60:53] base and then I think about some of my
+- [60:54] AI portfolio companies. They're
+- [60:56] basically throwing like 30 things at the
+- [60:58] wall. 25 of them don't work. Three of
+- [61:00] them are kind of interesting and like
+- [61:01] two really hit. But their customers also
+- [61:04] that's what their customers expect. They
+- [61:05] love, their customers love it. They're
+- [61:07] taking 30 kind of halfbaked but like
+- [61:09] maybe could work ideas, throwing them
+- [61:11] off. Like that's exactly what they want
+- [61:12] that vendor to do. And so I almost
+- [61:14] wonder whether or in retrospect it's
+- [61:16] like these newer companies are so much
+- [61:18] better positioned to be just like the
+- [61:20] thought and experimentation partner to a
+- [61:22] lot of these enterprises uh than I would
+- [61:24] have expected. I would have thought the
+- [61:25] incumbents would have had the trust to
+- [61:26] to be doing that. But it's both very
+- [61:28] different way to build product and also
+- [61:29] a different kind of relationship with
+- [61:30] those end customers.
+- [61:32] >> One comment on the rapper thing. I I I I
+- [61:34] also agree that that certainly that
+- [61:36] story got a lot more play than maybe it
+- [61:37] should have in hindsight. At the same
+- [61:39] time, I don't think that story is fully
+- [61:40] written yet.
+- [61:40] >> No, totally. And in particular, I think
+- [61:43] we're going to see in the coming years a
+- [61:45] a pretty big bifurcation um between
+- [61:48] which rapper companies survive and which
+- [61:50] rapper companies do not. Um and I I I
+- [61:52] think that my guess is that the rapper
+- [61:54] companies that are much more vertical
+- [61:55] specific will do a lot better than the
+- [61:57] rapper companies that are a lot more
+- [61:59] generic. Like the reason I think Jasper
+- [62:01] was particularly hit right at the
+- [62:02] beginning was
+- [62:04] >> it was for writing which is what
+- [62:06] ChachiBT was really good at from the
+- [62:08] get-go. Um as you you can see where all
+- [62:11] the Frontier Labs are going with their
+- [62:13] road maps with this pretty clearly.
+- [62:14] There are a lot of rapper companies that
+- [62:16] I think are in direct line of sight uh
+- [62:18] of those various products and I I do
+- [62:20] expect that many of them will get hurt
+- [62:22] uh fairly hard. Um but like I I I am
+- [62:25] less confident that you know OpenAI is
+- [62:27] going to go after lots of individual
+- [62:28] verticals. So, it's like there's this
+- [62:30] this Goldilock zone that you need to hit
+- [62:31] here in like a minmax problem of it
+- [62:32] needs to be in a big enough market that
+- [62:35] it's interesting and it's it's worth
+- [62:36] building something, but it can't be too
+- [62:38] big because if it's too big, then it's
+- [62:40] obviously something that you know, one
+- [62:42] of the the major players is is going to
+- [62:44] go after. Um, and you know, some of them
+- [62:46] and especially when you start to think
+- [62:47] about the distribution advantages uh
+- [62:49] that some of them has, uh, you know,
+- [62:50] that starts to to really be a question.
+- [62:52] So, um, I'm curious to see how this will
+- [62:54] continue to evolve uh, over the the next
+- [62:56] couple years. But I I I I do think some
+- [62:59] rapper companies will be in trouble.
+- [63:01] >> Yeah. No, it's funny that the Goldilock
+- [63:02] zone is now a 50 to$undred billion
+- [63:04] dollar opportunity. It's probably too
+- [63:05] small for your $500 billion ambitious
+- [63:08] company. Also, I want to hit Rob.
+- [63:09] Obviously, you do some great writing and
+- [63:11] and one of my favorite pieces you'd
+- [63:12] written in the past was just speculating
+- [63:13] on all these potential acquisitions that
+- [63:15] might happen. It feels like there's more
+- [63:17] and more, you know, momentum behind god,
+- [63:20] Apple needs to do something. Um, and
+- [63:22] they're they're the last player not to
+- [63:23] really have a defined strategy. uh to
+- [63:26] make you kind of speculate here, what
+- [63:27] what do you think they would go buy?
+- [63:29] >> Yeah, I mean the challenge is that Apple
+- [63:31] is just not, you know, they're not super
+- [63:33] inquisitive in general and when they do
+- [63:34] buy, they don't they don't do big splash
+- [63:36] acquisitions and and so, you know, we'll
+- [63:38] see how willing they are to like break
+- [63:40] out of that very entrenched habit. But I
+- [63:43] guess if like if I were to sort of
+- [63:45] conceptually speculate, what would what
+- [63:46] would make sense for them to to sort of
+- [63:49] supercharge their AI aspirations?
+- [63:52] because obviously they've been very
+- [63:53] slowm moving and a lagard relative to
+- [63:55] other hyperscalers. I think like there's
+- [63:57] a couple categories I could en envision.
+- [63:59] I think one is like compared to other
+- [64:03] hyperscalers like certainly like Google
+- [64:05] Meta you know Microsoft and its
+- [64:07] relationship with open AI Apple doesn't
+- [64:09] have a super deep bench of cutting edge
+- [64:11] AI talent. They don't have like really a
+- [64:14] really deep really cracked like LMJ jar
+- [64:16] of AI team. And so I could I could see
+- [64:18] it making sense for them to just do like
+- [64:20] a almost like a Google Deep Mind type
+- [64:23] acquisition where they just get this
+- [64:25] like brain trust of top AI folks cuz
+- [64:27] there really aren't that many of them in
+- [64:28] the world still. And so um you know in
+- [64:31] term like in terms of what company that
+- [64:32] is like you know someone like a
+- [64:35] reflection or like a Mistral you know at
+- [64:38] this point both of those companies
+- [64:39] valuations are so high like maybe
+- [64:40] they're priced out but sort of like a
+- [64:42] you know similar caliber talent that
+- [64:44] maybe hasn't raised as much money. Um
+- [64:47] and there aren't a ton of these like
+- [64:48] top-notch AI teams out there that are
+- [64:51] independent but there are some. Um so I
+- [64:54] think that's that's one category I can
+- [64:55] imagine. And then a second category
+- [64:57] would be like a real killer application
+- [64:59] that they could add to the iPhone
+- [65:01] ecosystem that already has like a huge
+- [65:04] user base. So I think like the obvious
+- [65:06] example here is Perplexity. And there
+- [65:07] were rumors over the past year that
+- [65:09] Apple was, you know, was thinking pretty
+- [65:10] seriously about buying Perplexity. I
+- [65:12] think they're probably priced out of
+- [65:14] that one too at this point just given
+- [65:15] the valuations at at which Perplexity
+- [65:17] has raised. But I think like if there is
+- [65:19] another consumer mobile application like
+- [65:22] that that just catches fire and has a
+- [65:24] lot of user love and user loyalty like I
+- [65:27] could see an acquisition like that
+- [65:28] making sense.
+- [65:29] >> Yeah.
+- [65:29] >> One comment on the Apple uh direction
+- [65:31] that that that I think is interesting.
+- [65:33] Um I think Apple has such a huge
+- [65:35] opportunity here. Um, and like I I think
+- [65:38] if they can execute, this can actually
+- [65:40] really be a major moment for Apple cuz I
+- [65:42] think there's a narrative that is very
+- [65:45] makes a ton of sense for Apple, which
+- [65:46] is, hey, you have an ondevice model
+- [65:48] that's entirely private that's, you
+- [65:50] know, going to know you very well, but
+- [65:52] you don't have to worry about any
+- [65:54] anything with respect to privacy or
+- [65:55] sending to the cloud um, any of that
+- [65:57] that just like makes very much a lot of
+- [65:58] sense for Apple. And if you think about
+- [65:59] one of Apple's big challenges over the
+- [66:01] last decade, it's that as the
+- [66:04] improvement in each successive iPhone
+- [66:06] cycle diminished. The incentive to buy a
+- [66:10] new phone has proportionally diminished
+- [66:12] as well. And you see people now using
+- [66:13] phones for 5 years plus, right? Whereas
+- [66:16] even even kind of people who love tech
+- [66:18] using phones for a very long time. And
+- [66:20] what we've seen is that Apple's uh
+- [66:22] revenue growth has shifted to a lot of
+- [66:24] the services uh sort of businesses,
+- [66:25] right? to growing Apple Music and and
+- [66:27] and and Apple TV and things like that.
+- [66:29] Um well, if Apple's new value prop is,
+- [66:33] hey, we have really strong models that
+- [66:35] are fully private, that are fully local
+- [66:37] on your device, now there's a huge
+- [66:39] incentive to buy a new iPhone because
+- [66:42] each successive iPhone is going to be
+- [66:44] able to support a more powerful model.
+- [66:46] Um the hardware improvements really
+- [66:48] matter.
+- [66:48] >> So now hardware improvements matter a
+- [66:49] lot again. Um and that's a huge
+- [66:52] opportunity for Apple in particular. Uh
+- [66:54] so if they can you know work this out
+- [66:57] and build a really great ondevice model
+- [67:00] um I I think it could actually be really
+- [67:02] uh a supercharge for them with respect
+- [67:04] to their revenue growth beyond the model
+- [67:07] itself by just really um putting a huge
+- [67:09] incentive to grow better hardware.
+- [67:11] There's a lot of discussion around like
+- [67:12] what's the what is the new consumer
+- [67:15] hardware form factor going to be for AI.
+- [67:17] Like I think it could end up being the
+- [67:19] iPhone. Like they they have such great
+- [67:20] distribution already and so I I think
+- [67:22] they're they are still in a very good
+- [67:24] position despite the fact that they move
+- [67:25] very slow.
+- [67:26] >> Like also people still use Siri and like
+- [67:28] you know Siri is is is is not very good
+- [67:30] but it's the default. So that's what
+- [67:32] everybody uses. Um they don't need to
+- [67:34] have a model that is competitive with
+- [67:36] the best models out there. they need to
+- [67:38] have a model that's good enough for most
+- [67:39] people and that'll be a massive upgrade
+- [67:41] for what most people are used to. Um,
+- [67:44] you know, so I think they they can get
+- [67:45] there. I also will note Apple does have
+- [67:47] a number of really talented researchers
+- [67:49] um in in the machine learning research
+- [67:50] group which incidentally is actually one
+- [67:52] of the most open uh groups in uh all of
+- [67:55] industry. Uh this is a group led by
+- [67:56] Sammy Benjio and they have a number of
+- [67:58] really talented folks there. Um that
+- [67:59] said, I think those folks tend to be
+- [68:01] more science-minded uh than product
+- [68:03] minded. Um, and I think they're they're
+- [68:05] kind of siloed from a lot of the rest of
+- [68:07] Apple and and and that kind of
+- [68:08] structural disadvantage makes it harder,
+- [68:09] I think, for them to contribute. I'm
+- [68:11] really interested in that point you just
+- [68:12] made of like do, you know, they just
+- [68:13] need a good model, not necessarily like
+- [68:14] state-of-the-art. I think this is this
+- [68:15] is a question I'm curious for both your
+- [68:17] thoughts on of like uh is it good, you
+- [68:19] know, the price they'd have to pay to be
+- [68:21] state-of-the-art versus 6 months behind
+- [68:22] state-of-the-art. So different, right?
+- [68:24] And it's interesting. You see a company
+- [68:25] like Meta, they're paying up because
+- [68:27] they've decided like they want to take a
+- [68:28] shot at being state-of-the-art. Does
+- [68:29] Apple need a state-of-the-art model?
+- [68:30] Does Meta need a state-of-the-art model?
+- [68:32] I think the question you have to ask is
+- [68:33] what use cases are enabled by the
+- [68:35] difference between the state-of-the-art
+- [68:37] model and the six-month lagging model.
+- [68:39] Um, and how relevant are those use cases
+- [68:41] to the user base that you want to
+- [68:43] support? And I think the answer already
+- [68:46] is like pretty minimally. Like most
+- [68:48] consumers don't need a really powerful
+- [68:50] reasoning model for basically anything.
+- [68:52] Um, there will be a small subset of
+- [68:54] folks that'll really use reasoning, but
+- [68:56] the vast majority of people are are not
+- [68:58] going to be using it for that. They're
+- [68:59] going to ask for a summary of a movie or
+- [69:01] they're going to ask for like really
+- [69:03] basic things that models are already
+- [69:04] really good at or they're going to want
+- [69:05] to talk to it as a companion. You know,
+- [69:07] they they chat with it like a therapist
+- [69:08] or things like that. Models are already
+- [69:10] plenty good at these sorts of things.
+- [69:12] >> Yeah, I I I really like the way Ari
+- [69:14] framed it that like it really does come
+- [69:16] down to what are the commercial use
+- [69:18] cases and end markets that you care
+- [69:19] about. And so I think like for Google I
+- [69:22] think they do need to be at the frontier
+- [69:24] because so much of what they they're
+- [69:25] building and they're offering v via
+- [69:27] search and Gmail and calendar and and
+- [69:30] kind of managing people's personal
+- [69:31] productivities can benefit so much from
+- [69:34] having the latest and greatest
+- [69:35] technologies. I I don't think Apple
+- [69:37] probably needs state-of-the-art massive
+- [69:39] frontier models. I think to AR's point
+- [69:41] like efficiency and and edge models
+- [69:43] matter a lot more. And then a company
+- [69:45] like Meta like I I also don't think it's
+- [69:47] clear that they need to have frontier
+- [69:49] models. I think maybe what you'll see is
+- [69:51] that like different groups will end up
+- [69:54] specializing in different directions
+- [69:55] that are more relevant to them. So maybe
+- [69:57] Meta ends up going super hard on
+- [69:58] multimodal and ends up pushing the
+- [70:00] frontier on video models because that's
+- [70:02] so central to what they're building. But
+- [70:04] like does MSL really need to be building
+- [70:07] state-of-the-art cutting edge language
+- [70:08] models um that are you know that
+- [70:11] continue to stay on par with OpenAI and
+- [70:13] anthropic? It's not totally clear to me
+- [70:15] that that necessarily makes sense.
+- [70:16] >> Yeah, I kind of disagree though because
+- [70:18] I feel like there's a a probability
+- [70:19] distribution of like what these models
+- [70:21] capabilities will be in a few years. And
+- [70:22] there's a chance that there's some consu
+- [70:25] some killer consumer features that are
+- [70:26] unlocked by these models getting
+- [70:28] state-of-the-art and whether it's uh you
+- [70:30] know computer use or the ability to like
+- [70:31] more effectively reason across your
+- [70:33] entire life. And to the extent that uh
+- [70:35] Meta Apple are competing to be like that
+- [70:37] homepage for your like day-to-day life,
+- [70:39] there is some chance that the
+- [70:41] improvement in the underlying models
+- [70:43] that for 6 months they don't have that
+- [70:44] and someone else does. And I wonder if
+- [70:45] that's enough to to switch people over
+- [70:47] or whether these things are so sticky
+- [70:49] that hey, okay, sure, Chachi had that
+- [70:51] for 3 6 months and the iPhone gets it 6
+- [70:53] months later, no harm, no foul. But
+- [70:54] there's clearly this is all
+- [70:56] improbabilities and I think those those
+- [70:57] companies probably uh will end up being
+- [71:00] like it's worth it just to make sure
+- [71:01] there's not some moment where we are
+- [71:03] behind on some major major capability.
+- [71:05] >> I mean just like rolling that out for a
+- [71:06] second, right? So let's imagine that
+- [71:07] there's like a a really great computer
+- [71:10] use model that Open Eye puts out where
+- [71:12] you have to download the Open Eye app in
+- [71:13] order to get really great computer use,
+- [71:15] you know, on Mac. Um and say Apple
+- [71:17] deploys something that's, you know, 50%
+- [71:20] as good a year later. Um, most people
+- [71:24] will not have downloaded the chatbt app
+- [71:27] in in in that interim and actually
+- [71:29] really started to use it. I think there
+- [71:30] will be a subset of folks that will do
+- [71:32] that, but most people's first exposure
+- [71:34] to that will be when it it ships with
+- [71:36] Mac OS by default and it's like an Apple
+- [71:38] branded product. I think especially
+- [71:40] Apple has an advantage here over
+- [71:41] Microsoft because people love Apple. Um,
+- [71:43] what people when when when Windows says,
+- [71:45] "Hey, try Copilot," most people are
+- [71:47] like, "No, I don't want that." Um, but
+- [71:50] when when when when if if Apple says,
+- [71:53] "Hey, look at this magical Mac OS, you
+- [71:55] know, Apple intelligence and and it's
+- [71:57] reasonably good and it can do things,
+- [71:59] most regular people are going to love
+- [72:01] that and they're going to go to the
+- [72:02] thing that's that's easy and sticky and
+- [72:04] then when they upgrade their Mac, if
+- [72:05] it's good enough, they're going to
+- [72:06] continue to use it." Like, it's still
+- [72:07] very surprising to me how many people
+- [72:09] use Apple Maps. Um, you know, but they
+- [72:11] do. Uh, and that's where most of the
+- [72:14] market growth is going to be. it's going
+- [72:15] to be in, you know, folks that are not
+- [72:17] clued in tightly to the AI ecosystem.
+- [72:20] Um, and I I think in general this is
+- [72:21] actually this going back to the SF
+- [72:23] thing, this can be a downside of being
+- [72:24] in the SF bubble, right? You you're only
+- [72:26] exposed to people who are very upto-date
+- [72:28] about this, who are thinking about this,
+- [72:30] who have very willingness to try new
+- [72:31] products. Um, and that's not actually
+- [72:33] representative of the rest of the world.
+- [72:35] My last question for you guys is just uh
+- [72:38] you know outside of running your company
+- [72:39] uh and running your investing like what
+- [72:41] are some of the larger just AI related
+- [72:42] questions that you found yourself
+- [72:44] pondering over over the last few weeks
+- [72:45] and and things that are kind of in the
+- [72:47] back of your mind that you you know
+- [72:48] continually find yourself returning to?
+- [72:50] >> I mean I this I brought this up on the
+- [72:52] last podcast as well but I'll just
+- [72:53] continue continue to be hypn
+- [72:56] pumping lately. You're a big BCI guy.
+- [72:57] >> Yeah. Yeah. I got to keep the BCI train
+- [73:00] rolling. I but I do I I mean and there's
+- [73:02] just so many interesting intersections
+- [73:04] between the human brain and AI and like
+- [73:06] Ari was talking conceptually about like
+- [73:08] what can we learn from human cognition
+- [73:10] and the way the brain is structured to
+- [73:12] to building artificial neural networks
+- [73:13] but I also think it's just a fascinating
+- [73:15] question from an interface perspective
+- [73:17] and we're talking about Apple and
+- [73:19] iPhones and you know potentially other
+- [73:21] hardware form factors but it does to me
+- [73:23] it seems like it's just a matter of time
+- [73:24] until you know you're able to directly
+- [73:28] connect and interface with AI by using
+- [73:30] your brain and using your thoughts. Um,
+- [73:33] and I did the more time I've spent in
+- [73:34] this space over the past year, the more
+- [73:37] convinced I've become that that moment
+- [73:38] is coming sooner than most people think.
+- [73:40] So, I think there's a lot of really
+- [73:42] fascinating research and innovation
+- [73:43] happening in the BCI space. I think this
+- [73:46] dichotomy between invasive BCI, where
+- [73:48] you need to do surgery, which obviously
+- [73:50] like increases the barrier to entry a
+- [73:51] lot, versus non-invasive BCI, which can
+- [73:53] be more consumer type products. um and
+- [73:56] how much is possible non-invasively
+- [73:58] versus you know for what use cases do
+- [73:59] you need to put it put electronics
+- [74:01] inside the skull. Um, I think there's a
+- [74:03] lot still to figure out there, but I do
+- [74:05] think that this in the next 18 to 36
+- [74:09] months, I think this will become a much
+- [74:10] more mainstream topic of conversation.
+- [74:13] >> Certainly, if you keep plugging on the
+- [74:14] podcast,
+- [74:15] >> that's my hope.
+- [74:17] >> Um, I will note as a founder, it's hard
+- [74:20] to think about much else in AI, Liz,
+- [74:22] especially independent of how it relates
+- [74:24] directly to daty. Um but you know, one
+- [74:27] of the aspects that that we already
+- [74:28] touched on here a bit that I I've been
+- [74:29] thinking a lot about is um how do we
+- [74:32] continue to find the efficient way to
+- [74:34] continue to scale things, right? How do
+- [74:36] we do this in a way where we we don't
+- [74:38] just think about what enables the next,
+- [74:40] you know, the next improvement, but how
+- [74:42] can we actually get a sustainable
+- [74:43] scaling access that we can continue to
+- [74:45] do in a way that doesn't require us to,
+- [74:47] you know, build many many new nuclear
+- [74:50] power plants um or or or things like
+- [74:52] that. Um I I think there's a lot that we
+- [74:54] can do here and finding ways we can do
+- [74:55] that better is I think really exciting
+- [74:57] and I think another big aspect of this
+- [74:59] is also as we see increasingly the value
+- [75:02] of um you know methods for customizing
+- [75:04] models like RL um how can we make that
+- [75:07] more effective um through better models
+- [75:10] like how do you actually build models
+- [75:11] that are really good for RL um we know
+- [75:14] that there's a tremendous amount of
+- [75:16] variability here
+- [75:18] realistically it all comes down to what
+- [75:20] data you show the model it in in free
+- [75:22] training, which is true of most things.
+- [75:24] Um, but kind of figuring out how do you
+- [75:26] actually link this and how do you think
+- [75:27] about you know the model building
+- [75:29] process holistically rather than kind of
+- [75:31] as separate steps uh I think is a really
+- [75:33] exciting direction.
+- [75:34] >> Yeah, I feel like mine's far lamer by
+- [75:36] comparison, but uh you know if you if
+- [75:38] you'd asked me a year ago like what are
+- [75:39] the AI app categories that are working I
+- [75:41] would have said you know coding support
+- [75:43] healthcare legal probably the big four.
+- [75:45] If you asked me that today, I'd say
+- [75:46] probably those those same four. And so I
+- [75:48] wonder whether, you know, we're just
+- [75:49] talking about a diffusion issue and like
+- [75:51] there actually are a lot of with this
+- [75:52] current set of model capabilities, a ton
+- [75:54] of other great, you know, industries
+- [75:55] that will be disrupted in a bunch of
+- [75:57] different ways. Uh or whether actually
+- [76:00] we need some sort of improvement in
+- [76:01] models or, you know, some of this uh
+- [76:03] specific uh data that goes into these
+- [76:05] models to make better before like the
+- [76:07] next wave of of companies comes. Um,
+- [76:09] it's it's interesting that that in in a
+- [76:11] space that is moving so fast that that
+- [76:13] actually has stayed somewhat static over
+- [76:15] the last year.
+- [76:16] >> Totally.
+- [76:17] >> Absolutely.
+- [76:18] >> All right, Rob, this is such a blast. I
+- [76:20] I really It's just so fun to get to do
+- [76:21] this. I really appreciate you both
+- [76:22] taking the time.
+- [76:23] >> Thanks for having us.
+- [76:24] >> Yeah, thanks for having us back again
+- [76:25] and and to do it in person this time.
+- [76:28] [Music]

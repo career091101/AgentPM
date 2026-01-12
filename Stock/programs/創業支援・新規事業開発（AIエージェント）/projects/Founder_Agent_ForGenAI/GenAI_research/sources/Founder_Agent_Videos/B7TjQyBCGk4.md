@@ -1,0 +1,483 @@
+---
+title: "YouTube Video: B7TjQyBCGk4"
+video_id: "B7TjQyBCGk4"
+video_url: "https://www.youtube.com/watch?v=B7TjQyBCGk4"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+  - "Tutorial"
+summary: |
+  are you tired of manually coding every app yourself do you wish an AI could do all the work for you automatically well now it can with the release of DEA a local open source e agine that can literally...
+key_points:
+  - "back that was introduced as the first AI"
+  - "two ways the first is of course by using"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: B7TjQyBCGk4
+
+- URL: https://www.youtube.com/watch?v=B7TjQyBCGk4
+- Retrieved at: 2025-12-30T09:58:58+09:00
+
+## Text
+
+- [00:00] are you tired of manually coding every
+- [00:01] app yourself do you wish an AI could do
+- [00:04] all the work for you automatically well
+- [00:06] now it can with the release of DEA a
+- [00:08] local open source e agine that can
+- [00:10] literally work for you just write an
+- [00:12] instruction press enter and see thei
+- [00:14] agine start to work automatically by
+- [00:16] writing a precise plan on how to execute
+- [00:18] the task then bring the web by itself
+- [00:20] and Gathering informations before
+- [00:22] automatically writing the code and
+- [00:24] creating local project files in your
+- [00:26] computer folder that you can then run
+- [00:28] and admire the result results and all of
+- [00:31] that running on your local computer yeah
+- [00:33] that's pretty cool en hum when we scare
+- [00:36] your air overload and oh man this is
+- [00:38] just amazing now as you saw in the intro
+- [00:41] defa is an open source AI software that
+- [00:43] can literally build any apps or programs
+- [00:46] you want just by giving it an
+- [00:47] instruction now you might have heard of
+- [00:49] this AI tool called Devon a few weeks
+- [00:51] back that was introduced as the first AI
+- [00:53] software engineer where you inputed
+- [00:55] instruction and it would then write an
+- [00:57] action plan then go online and gather
+- [00:59] information
+- [01:00] before doing the rest of the task
+- [01:02] automatically and it looked pretty
+- [01:04] amazing but unfortunately Devon is a
+- [01:06] third party software while Deva is an
+- [01:09] open-source EI tool that tries to mimic
+- [01:12] what Deon can do but this time running
+- [01:14] locally on your computer where you can
+- [01:16] even use local large language models
+- [01:19] like the Lama 3 Model that just came out
+- [01:22] and the way it looks and works really
+- [01:23] gives us a glimpse of how an AGI agent
+- [01:26] might work in the near future so even
+- [01:28] though it's still a work in progress
+- [01:30] this is some seriously heavy amazing
+- [01:32] stuff and so to install this you have
+- [01:35] two ways the first is of course by using
+- [01:36] the one click installer that is
+- [01:38] available for M supporters so just
+- [01:40] download the installer onto your
+- [01:41] computer then double click it then after
+- [01:43] the installation is done you're going to
+- [01:44] place the launcher devb file inside the
+- [01:47] DEA folder go inside and then run the
+- [01:49] launcher so that in the end it should
+- [01:51] give you a local host URL and if you
+- [01:53] press control and left click the wavei
+- [01:55] will open automatically in your browser
+- [01:57] simple as that you really don't have to
+- [01:58] do anything and def installation is
+- [02:01] actually pretty complex and it took me a
+- [02:02] while to make it work so believe me what
+- [02:04] I say that the one click installer is
+- [02:06] definitely super practical and the
+- [02:08] second way to install this is of course
+- [02:09] the manual way so first make sure that
+- [02:11] you have python G for Windows and not.
+- [02:14] GS installed so then you're going to
+- [02:16] open a command promp window and type
+- [02:17] Powershell c irm b.
+- [02:21] Shinall PS1 IEX then you're going to
+- [02:24] press enter this will basically download
+- [02:26] an install butn then you can close the
+- [02:28] window next you're going to Lo the Deva
+- [02:30] repository so you're going to go to the
+- [02:32] Deva GitHub page click on code then
+- [02:34] you're going to click on the S icon to
+- [02:35] copy this entire name then back in your
+- [02:37] computer in an empty folder you're going
+- [02:39] to click on the folder path type CMD
+- [02:41] press enter this will BR the command
+- [02:43] promp window and then here you're going
+- [02:44] to type get clone and then you're going
+- [02:46] to paste the URL of the repository and
+- [02:48] then you're going to press enter and
+- [02:49] this will clone the Deva repository onto
+- [02:51] your computer by creating this small
+- [02:53] Deva folder so the next we're going to
+- [02:55] go inside that folder so you're going to
+- [02:56] type CG Deva then once we are inside
+- [02:58] we're going to create a virtual
+- [02:59] environment with this command line then
+- [03:01] next we're going to activate the
+- [03:03] environment now once the environment is
+- [03:04] activated we're going to install pytorch
+- [03:06] with this huge command line once this is
+- [03:09] done we're going to install requirements
+- [03:10] with this command PP install SLR
+- [03:13] requirements.txt okay so the next we're
+- [03:15] going to install Play rate with this
+- [03:16] command so then we're going to install
+- [03:18] npm so then once this is done we're
+- [03:20] going to go inside the UI folder with
+- [03:22] the CD UI command then you're going to
+- [03:24] type bur install and bur add Vite and
+- [03:27] finally once this is done it's was over
+- [03:30] to start de you need to run two
+- [03:32] different parts the front end and the
+- [03:34] back end now for the front end once you
+- [03:36] are inside the UI folder you're going to
+- [03:38] run Bun Run start then press enter which
+- [03:41] after a few seconds should give you a
+- [03:43] local URL but this is not over because
+- [03:46] now we need to run the back end so we
+- [03:48] are back inside the DEA folder then once
+- [03:50] again you're going to click on the
+- [03:51] folder path type CMD press enter so then
+- [03:54] here you're going to activate the
+- [03:55] environment and then you're going to run
+- [03:56] the Deva py file and once you see the
+- [03:58] message Deva is and running you can open
+- [04:00] the Local Host URL and now DEA is
+- [04:03] finally ready to be used okay so now we
+- [04:05] can finally have some fun or is it
+- [04:08] because indeed unfortunately we're not
+- [04:10] exactly 100% done because to be able to
+- [04:13] use like a bunch of different models
+- [04:15] ranging from clo to Gro to CH GPT and to
+- [04:18] be able to serve the web we need to add
+- [04:21] our own API keys but do wor it's
+- [04:23] actually really simple you only need to
+- [04:25] do it once and after that you are good
+- [04:28] so once again if you want to find the
+- [04:29] API I Keys settings all you need to do
+- [04:31] is just click on this little settings
+- [04:33] icon and we can finally start completing
+- [04:35] a few of these fields now depending the
+- [04:38] type of models that you want to use you
+- [04:39] will here enter the API key
+- [04:41] corresponding to the model but the two
+- [04:43] fields that you always need to complete
+- [04:45] is the Google search and the Google
+- [04:47] search engine ID because otherwise
+- [04:49] without that you won't be able to go
+- [04:51] online but once again it's actually
+- [04:53] really easy and really fast and I'm
+- [04:54] going to show you how so for the first
+- [04:56] Google search field you're going to go
+- [04:58] to this URL developer . google.com
+- [05:00] custom search V1 introduction then right
+- [05:03] here you'll see like a get a key button
+- [05:05] you're going to click on this then
+- [05:06] you're going to enter your project name
+- [05:08] then click yes click next okay so then
+- [05:10] after a few seconds you will get here
+- [05:12] the ability to show the key so if you
+- [05:13] click on this little button you will
+- [05:15] have here your API key that you can copy
+- [05:17] make sure that you actually save this
+- [05:19] key somewhere else on your computer for
+- [05:20] example so that you don't have to look
+- [05:22] for it and then inside Deva you're going
+- [05:24] to click on edit and then you're going
+- [05:25] to erase this entire field and then
+- [05:27] paste your API right here and there you
+- [05:29] go that's it's already one field done so
+- [05:31] the next field we have Google search
+- [05:32] engine ID and for this you need to go to
+- [05:35] this URL programmable Search engine.
+- [05:37] google.com control panel /all where here
+- [05:40] you're going to click on add to add a
+- [05:42] new search engine then you're going to
+- [05:43] name DEA or something else here you're
+- [05:46] going to select search the entire web
+- [05:48] and then enable image search click I'm
+- [05:50] not a robot if you're not a robot and
+- [05:52] then finally click create and once this
+- [05:54] is done you're going to go back to all
+- [05:55] engines select your search engine and
+- [05:58] then here you will see your search
+- [05:59] engine Eng ID then click on this little
+- [06:01] icon to copy this entire ID so then once
+- [06:03] again back in DEA you're going to erase
+- [06:05] this entire field paste your API and
+- [06:08] there you go so once you have filled
+- [06:09] those Google search Fields now it's kind
+- [06:11] of up to you to decide which model you
+- [06:13] really want to use do you want to use
+- [06:15] the Clone model do you want to use the C
+- [06:17] GPT model the giny the gro etc etc now
+- [06:20] definitely the two models that I
+- [06:22] recommend that work the best are the
+- [06:23] close model API and the open AI apis
+- [06:26] basically the more powerful the model
+- [06:28] the better the result results so
+- [06:30] basically once again on both of these
+- [06:32] platforms just create a new secret key
+- [06:34] or a new API key and then put in the
+- [06:36] field corresponding to the model so once
+- [06:38] this is done you're going to click on
+- [06:39] Save and now finally we can have some
+- [06:42] fun and the way you start is very simple
+- [06:44] first you're going to create a new
+- [06:45] project so you're going to click on the
+- [06:47] little arrow then click new project here
+- [06:49] you're going to input the project name
+- [06:51] so for example let's say that I want a
+- [06:53] select game so then I'm going to press
+- [06:55] okay so then here under select search
+- [06:57] engine you're going to select Google and
+- [06:59] then under select model you can finally
+- [07:01] select the model that you want to use so
+- [07:03] if you have a clo API key you can use
+- [07:05] between the clo three oppus Sonet and
+- [07:08] Hau so the oppus is the most powerful
+- [07:10] while the Hau is the least powerful but
+- [07:12] they're still really really good then
+- [07:14] you can also choose a Google Model A Gro
+- [07:16] model a mistra Model A local model or a
+- [07:19] CH GPT model so like for this example
+- [07:21] I'm just going to use the GPT 3.5 turbo
+- [07:23] so the next you're going to enter your
+- [07:24] project you're going to enter what you
+- [07:26] want Deva to create for you so it Mak it
+- [07:28] about a simple SN game in Python so then
+- [07:31] if I press enter just like in the intro
+- [07:33] is going to create a plan of what he is
+- [07:35] going to do then it's going to browse
+- [07:37] the web to research some information you
+- [07:39] can basically see like what websites he
+- [07:41] uses for the information which is
+- [07:43] actually really really cool and after it
+- [07:45] has research or the information it needs
+- [07:47] to make the project is going to start
+- [07:50] writing the code automatically and
+- [07:51] finally the project will be created and
+- [07:53] to have access to that project you're
+- [07:55] going to go and send the data folder
+- [07:57] then projects and then you will see here
+- [07:58] a new folder called snake and once you
+- [08:00] go inside you will see three different
+- [08:02] files sometimes it's only two but very
+- [08:05] usually with python project you will see
+- [08:06] like a main.py file and the
+- [08:08] requirements.txt file and to open the
+- [08:11] project you can either do it manually or
+- [08:13] if you are one of my PCT supporters you
+- [08:15] will have access to the project
+- [08:16] launcher. bat file which is really just
+- [08:18] a simple bat file then you can just copy
+- [08:20] and then paste ins sign each one of your
+- [08:22] projects folder and if you launch it the
+- [08:24] project will then launch automatically
+- [08:26] and if you want to do it manually the
+- [08:28] first time that you want to launch the
+- [08:29] project project you're going to click on
+- [08:30] the folder path type CMD press enter
+- [08:33] here you're going to install the
+- [08:34] requirements from the text file and then
+- [08:36] to launch the python project you're
+- [08:37] going to type Python man. py and then
+- [08:40] press enter and there you go the simple
+- [08:42] snake game is finally ready to be played
+- [08:45] so as you can see each time that I
+- [08:47] basically eat this Red Cube my snake
+- [08:50] becomes bigger and of course the more I
+- [08:52] eat the longer the snake gets and what's
+- [08:54] really great is that if you want to make
+- [08:55] any changes to the game you can go back
+- [08:58] in s DEA and ask for some changes so for
+- [09:01] example let's say that I want uh to make
+- [09:03] this snake game faster and to change the
+- [09:05] background color to light blue for
+- [09:07] example basically Diva will
+- [09:08] automatically update the game code and
+- [09:10] update the files because now if you
+- [09:12] relaunch the project all the changes
+- [09:14] have been implementated correctly okay
+- [09:16] I'm maybe not a fan of the uh you know
+- [09:18] background but you know it was just a
+- [09:20] test to show you that you know basically
+- [09:22] it just works so obviously it's still a
+- [09:24] work in progress It's not perfect but
+- [09:26] it's still pretty cool and if you're
+- [09:28] asking is there a way way to actually
+- [09:30] use DEA with local models running on
+- [09:32] your computer for free well the answer
+- [09:35] is yes and no what I mean by that is
+- [09:39] that yes you can actually use local
+- [09:41] models and I'm going to show you how to
+- [09:42] do it but as of right now not only you
+- [09:44] need to install another version of DEA
+- [09:47] at least as of right now as I'm making
+- [09:49] this video but you also need to
+- [09:51] understand that the model that you
+- [09:52] choose needs to be powerful enough and
+- [09:54] smart enough to do your task so that the
+- [09:56] project is done successfully now the
+- [09:58] problem is that currently a lot of local
+- [10:00] models have kind of like the same
+- [10:02] problem the same issues where each time
+- [10:04] that you want to use it it gives you
+- [10:06] like this invalid response from the
+- [10:08] model trying again error again and again
+- [10:10] and again so that in the end basically
+- [10:12] you get absolutely no answer in return
+- [10:15] but I'm actually going to show you how
+- [10:16] to solve this now to be able to use
+- [10:18] local models with DEA you actually need
+- [10:20] to install another version of DEA where
+- [10:22] the local model bgs have been solved
+- [10:24] although probably by the time that you
+- [10:26] watch this video the changes will
+- [10:27] already be merged into the main Deva
+- [10:29] repository but if you are watching this
+- [10:32] video right now like today these changes
+- [10:35] have not been implemented already so for
+- [10:37] this you need to actually install this
+- [10:39] version of DEA with this particular
+- [10:41] Branch to be able to use the local
+- [10:43] models correctly now you can of course
+- [10:45] either do it yourself manually or if you
+- [10:47] are one of my P supporters you can just
+- [10:49] use the DEA Auto installer or Lama fixb
+- [10:52] file to install that version of DEA
+- [10:54] automatically and once you do and you
+- [10:56] have installed this new version of DEA
+- [10:58] we need to install a super amazing cool
+- [11:00] piece of tech called ol Lama now I was
+- [11:03] thinking of making a separate video on
+- [11:04] this because it's kind of like the
+- [11:06] easiest way to run ANM on your computer
+- [11:08] but since there isn't a lot to say I
+- [11:10] ended up not making the video after all
+- [11:13] so I'm actually really happy to be able
+- [11:14] to talk about this and show you how it
+- [11:16] works because it's actually really super
+- [11:18] cool so basically if you want to install
+- [11:20] all Lama you can just click in the
+- [11:22] description down below then click on
+- [11:24] download download for Windows then
+- [11:26] you're going to run the x file and
+- [11:27] install all Lama and once this is done
+- [11:29] you're going to click on models and
+- [11:31] search a model that you want to download
+- [11:33] and use so like for example the latest L
+- [11:35] 3 Model that was just released to be
+- [11:37] able to download and use Lama 3 on your
+- [11:40] computer with all Lama all you need to
+- [11:41] do is open a command promp window copy
+- [11:44] this new command then paste it then it's
+- [11:47] going to download the L 3 Model to your
+- [11:48] computer and then it's going to start
+- [11:50] the model automatically and yeah um what
+- [11:53] you see right here is actually Lama 3
+- [11:55] running on my computer inside the
+- [11:57] command Pro window so if i s like hi uh
+- [12:00] very simply and very fast the Lama 3
+- [12:02] Model is going to respond what's up my
+- [12:04] dude and yeah I mean there you go simple
+- [12:07] as that and if you want to use like
+- [12:09] another model you can just again go back
+- [12:11] to this list and let's say for example
+- [12:13] that I want to use the latest 33 model
+- [12:17] open sourced by Microsoft which
+- [12:19] apparently is a very good model once
+- [12:21] again just click on this link open a
+- [12:22] Comm promp window type this command then
+- [12:24] press enter it's going to start
+- [12:26] downloading the model and after a few
+- [12:27] minutes once the model is downloaded the
+- [12:29] model will start automatically and you
+- [12:31] can start to use it right now okay so
+- [12:33] now that this is done now that we have
+- [12:35] downloaded a few AMA models how do we
+- [12:37] use this inside DEA so once again you're
+- [12:40] going to launch the new DEA version if
+- [12:42] you did everything correctly you should
+- [12:44] now see all Lama available meaning that
+- [12:47] all Lama was downloaded and installed
+- [12:49] correctly now go back to the web UI and
+- [12:51] once you have entered the Google search
+- [12:53] and Google search engine ID in the apis
+- [12:56] key section now you can create a new
+- [12:58] project select Google gole for the
+- [12:59] search engine and then finally select a
+- [13:01] model if you scroll down you will see
+- [13:03] under all Lama all the models that you
+- [13:05] downloaded previously now obviously
+- [13:08] depending on how powerful the model is
+- [13:10] the final result will be more or less
+- [13:13] good so like for example if I choose
+- [13:14] like L 3 so if I ask something you like
+- [13:16] an app in Python that generates secure
+- [13:18] random passwords and if I press enter
+- [13:21] once again it will work pretty much the
+- [13:22] same way as if we were using a cloud
+- [13:25] model like it to create a step-by-step
+- [13:27] plan then it's going to search the web
+- [13:28] for information then it's going to write
+- [13:30] the code and now if you go to data then
+- [13:32] projects you will see like this main py
+- [13:35] file but now if I run it I did get like
+- [13:37] a random generated password with a bunch
+- [13:40] of different characters uppercase and
+- [13:42] lowercase letters that I can use for a
+- [13:44] bunch of websites so yeah I mean it's
+- [13:46] not fancy but at least it works and once
+- [13:49] again everything was done locally this
+- [13:51] was done with a local model running on
+- [13:53] my local computer inside an open source
+- [13:56] local tool I mean yeah that's pretty
+- [13:58] cool and it's still working project so
+- [14:00] as everybody says it is the worst
+- [14:02] version it will ever be so I really
+- [14:04] cannot wait once this becomes even
+- [14:06] better so yeah really super cool oh and
+- [14:08] also do not forget that I provide
+- [14:10] priority support for my Pat supporters
+- [14:12] so if you have any questions whatsoever
+- [14:14] do not hesitate to send me a DM and I
+- [14:16] will try to answer your question as soon
+- [14:17] as possible the link for the patreon
+- [14:19] will be in the description down below
+- [14:20] and yeah there you go this was the vaa
+- [14:22] and local open source tool that is
+- [14:24] aiming to become the next AI software
+- [14:27] engineer and although it's still a
+- [14:28] working progress the way it works and
+- [14:30] looks can really give us a glimpse to
+- [14:32] the Future on how future AGI agents will
+- [14:35] work so that once AGI is here we can
+- [14:38] just sit back and relax so yeah
+- [14:42] definitely try this out and have some
+- [14:44] fun and there we out it folks thank you
+- [14:45] guys so much for watching don't forget
+- [14:47] to subscribe and smash the like button
+- [14:48] for the YouTube algorithm thank you also
+- [14:50] so much to my P supporters for
+- [14:52] supporting my videos you guys are
+- [14:53] absolutely awesome you people are
+- [14:54] literally the reason why I'm able to
+- [14:56] make these videos so thank you so much
+- [14:58] and I'll see you guys next time time
+- [14:59] bye-bye

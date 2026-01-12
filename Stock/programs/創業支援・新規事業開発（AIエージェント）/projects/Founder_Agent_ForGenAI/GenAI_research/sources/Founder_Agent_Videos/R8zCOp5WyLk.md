@@ -1,0 +1,797 @@
+---
+title: "Transcript: R8zCOp5WyLk"
+video_id: "R8zCOp5WyLk"
+video_url: "https://www.youtube.com/watch?v=R8zCOp5WyLk"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:23:06"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "LLM"
+  - "Interview"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Large Language Models"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+  - "Automation"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: R8zCOp5WyLk
+
+- URL: https://www.youtube.com/watch?v=R8zCOp5WyLk
+- Retrieved at: 2025-12-30T10:50:53+09:00
+
+## Text
+
+- [00:00] This looked like a slow week in AI until
+- [00:02] it didn't. OpenAI released their new
+- [00:04] agent. That's what it's called. Just
+- [00:06] chat GPT agent. And there's a few other
+- [00:08] interesting stories like Grock releasing
+- [00:10] companions inside of their app. That's
+- [00:12] the first big LLM provider doing this.
+- [00:14] We're going to be covering those and
+- [00:15] more with a specific focus on the chat
+- [00:17] GPT agent with some first use cases
+- [00:20] because we already had the time to run
+- [00:22] several test prompts that we run through
+- [00:24] every Aentic product. and we'll be
+- [00:26] comparing those back to some of the
+- [00:27] previous competition, showing you how
+- [00:29] this product performs in the real world
+- [00:31] and what it's all about. In case you're
+- [00:33] new here, this show is called AI News
+- [00:34] You Can Use. Every single Friday, we
+- [00:36] look at all the generative AI releases,
+- [00:38] filter for the ones that are actually
+- [00:40] available and usable, and then our goal
+- [00:42] is to show you real world demos or cover
+- [00:44] the stories from an angle of somebody
+- [00:46] actually putting them to work. So, let's
+- [00:48] begin by looking at chatbt agent. So,
+- [00:50] what is this chatb agent thing about for
+- [00:52] somebody who hasn't even heard the
+- [00:53] announcement? Well, OpenAI announced a
+- [00:55] spontaneous live stream on Thursday the
+- [00:57] 17th of July which Sam Alman opened with
+- [00:59] the words,
+- [01:00] >> "We have a banger for you today. We're
+- [01:01] going to launch ChatBT agent."
+- [01:03] >> And what does this agent do? Well, it
+- [01:05] combines two agentic products that chat
+- [01:07] had plus a few more tools into one thing
+- [01:10] that they now just call agent. So, let's
+- [01:11] break this down. What are those things
+- [01:12] that it includes? First of all, it
+- [01:14] includes deep research. The tool that
+- [01:16] has access to the internet and can write
+- [01:17] some code that spends a long amount of
+- [01:19] time researching. And to be honest, that
+- [01:21] was the most useful agentic product for
+- [01:22] most people. Then they had a second
+- [01:24] product which was called operator. And
+- [01:26] by the way, each one of these products
+- [01:27] are a whole product category with
+- [01:29] Injenai if you're not familiar. Operator
+- [01:31] in particular is a category called
+- [01:33] computer use agents. And a lot of the
+- [01:35] competitors had versions of this tool.
+- [01:37] And operator was decent, but we covered
+- [01:39] it extensively on the channel. Up until
+- [01:41] today, it just came down to it not being
+- [01:43] good enough for any real world use
+- [01:45] cases. It was just not consistent
+- [01:46] enough. But the idea was an AI using a
+- [01:49] computer to actually click buttons,
+- [01:51] scroll around pages, and do things for
+- [01:52] you. And then on top of that, they added
+- [01:54] a few more tools that were available in
+- [01:56] other forms inside of Chhatipity, like a
+- [01:58] command line interface that can run code
+- [02:00] that CHP writes for it. The image
+- [02:02] generation feature that you're probably
+- [02:03] very familiar with, the one that had the
+- [02:05] viral moments this year. And they
+- [02:06] bundled all of those into one package
+- [02:08] that they now call agent. So the agent
+- [02:11] can research things, it can navigate the
+- [02:13] internet, it can execute code on its own
+- [02:16] machine and use those results and it can
+- [02:18] generate images and visuals for you. So
+- [02:21] that's what the release is. Now who is
+- [02:23] this available to and how does this
+- [02:25] perform in the real world? Well, it
+- [02:26] rolled out to pro users first, but they
+- [02:28] announced that this is coming to plus
+- [02:30] and teams users with limited usage next
+- [02:33] and then eventually it's also going to
+- [02:34] come to edu and enterprise users. So, as
+- [02:36] of today, July 18th, only pro users have
+- [02:39] access to this. And now, let's get to
+- [02:40] the best part, the part that you came
+- [02:42] here for. Is it actually worth my
+- [02:43] attention or is this just another
+- [02:45] marketing thingy? Well, let me tell you
+- [02:47] before we jump into the prompts here, I
+- [02:49] ran four different ones. We'll review
+- [02:50] all of them. This idea of an agent that
+- [02:52] combines his capabilities isn't exactly
+- [02:55] new. If you're following the show, week
+- [02:56] by week, we covered the competition that
+- [02:58] was trying to do this on most of their
+- [03:00] major releases. Most significantly,
+- [03:02] there was Gen Spark's super agent that
+- [03:04] was releasing features exactly like
+- [03:06] this. It could do everything that this
+- [03:07] can do, too. But spoiler spoiler, as to
+- [03:10] be expected, that product was not as
+- [03:12] good as what Open AI just shipped now.
+- [03:14] And that's what makes these things
+- [03:15] interesting. It's usually not about the
+- [03:16] new product category opening up. It's
+- [03:18] about that new product category being
+- [03:20] good enough for people to be worth it.
+- [03:22] And I think this did cross that chasm.
+- [03:24] But that is just my first impression of
+- [03:26] the first four prompts. I'll reason why
+- [03:28] in a second. There were also more
+- [03:30] competitors in this space like Manus
+- [03:32] that went viral initially but then kind
+- [03:34] of fell off in terms of attention that
+- [03:36] people were giving it. And then there is
+- [03:37] a lot of custom and open source
+- [03:38] solutions that all have one thing in
+- [03:39] common and that is that they're all
+- [03:41] probably not worth your time. Here at
+- [03:42] the AI advantage, we really keep an eye
+- [03:44] on this category because I think this is
+- [03:45] going to be the next big thing once it
+- [03:47] gets good enough. And even the promising
+- [03:48] and big ones like magentic AI from
+- [03:50] Microsoft, I believe it was called
+- [03:52] didn't perform close to what we would
+- [03:54] expect. But this one looks good. So
+- [03:55] let's get into the practical part here.
+- [03:57] I started out by providing a prompt that
+- [03:59] is very close to what I do. Provide a
+- [04:01] comprehensive overview of AI news in the
+- [04:04] Genai field for the last week. This is
+- [04:06] something I like to run in all of these
+- [04:07] agentic products because I'm always up
+- [04:09] to date on what new things are coming
+- [04:11] out and what the Genai news is saying.
+- [04:13] So, I have the knowledge to really judge
+- [04:14] these results well. Plus, I'm recording
+- [04:17] this as a part of a news roundup. So, a
+- [04:19] lot of the things that you'll see in
+- [04:20] this report should probably show up in
+- [04:22] this video. And they do. So, look, the
+- [04:23] whole conversation was a two-step
+- [04:24] process. First, it asked me, are you
+- [04:26] referring to the week from July 11th to
+- [04:28] July 18th? I said yes. There was
+- [04:29] actually a continue button here that I
+- [04:31] could click. And then as soon as it
+- [04:32] continues, it puts together this report.
+- [04:34] It took it 12 minutes to generate the
+- [04:37] whole thing, which is not bad. That's
+- [04:38] like a longer deep research, but it
+- [04:40] actually did much more than just a deep
+- [04:42] research, I have to say. I really,
+- [04:43] really wanted deep research to be good
+- [04:45] enough for this, and none of them were.
+- [04:47] Not even the Gemini one, which by many
+- [04:48] people these days is considered the best
+- [04:50] deep research product on the market. We
+- [04:51] have a team of people at the advantage
+- [04:53] that scour the internet, pull all of
+- [04:54] this together, and we discuss all of the
+- [04:56] stories, see if anything slipped through
+- [04:57] the cracks. And I would say this result
+- [04:59] here is not quite as good as that, but
+- [05:01] it might be around 75, maybe 80% there,
+- [05:04] whereas all previous products barely got
+- [05:06] to 50. That is just my feeling, but let
+- [05:08] me show you some of the stories here.
+- [05:09] So, most importantly from all of these,
+- [05:11] I wanted to nail the biggest story of
+- [05:12] the week, which in this case is the
+- [05:14] Chachi Agent, and it got that a lot of
+- [05:16] the previous models were quite bad at
+- [05:18] this. And one common problem with all
+- [05:19] the other agentic products like this was
+- [05:21] that it never got the date range right.
+- [05:24] Usually it didn't follow up by
+- [05:25] confirming the date and then it gave you
+- [05:26] stories from like 3 weeks ago. This
+- [05:28] happened here too sort ofish. If you
+- [05:30] look at some of these stories they are
+- [05:32] from July 10th or July 2nd or 1st right
+- [05:35] here. Although it clearly told me it
+- [05:37] would only do 11th to 18th. I can
+- [05:39] forgive that though. I think I'd rather
+- [05:41] not have these July 2nd stories in
+- [05:43] there. But hey, most of the stories are
+- [05:44] actually on point here. And yeah,
+- [05:46] there's a lot of stories that we're
+- [05:47] going to be covering in this video like
+- [05:48] agent the Kimmy K2 release. We're just
+- [05:50] doing a quick hit on this. That's our
+- [05:51] segment in the end where we kind of just
+- [05:53] brush over a few stories. Mistrol is
+- [05:54] upgrading Lhat with the Voxil model.
+- [05:57] This is something we'll cover later in
+- [05:58] this video. Google's image, the video we
+- [06:00] covered last week. Lloyd Banks Athena is
+- [06:01] something we're not covering because
+- [06:02] it's not available. And in stories like
+- [06:04] meta poaching talent and open AAI having
+- [06:06] a week-long shutdown are new stories
+- [06:08] that we generally don't cover on the
+- [06:10] show because this is really about the
+- [06:11] use cases. It's about how you can put it
+- [06:12] to work. But that is fine. And to be
+- [06:14] clear, we did ask for the Genaii news
+- [06:16] here. And I would say if I were to rely
+- [06:18] solely on this, well, this video would
+- [06:20] be 50% shorter because it missed things
+- [06:22] like Grock Companions coming out, missed
+- [06:24] a new finetunable feature from
+- [06:25] Hicksfield, and a few more small use
+- [06:27] cases that we found across the web that
+- [06:29] we'll talk about later that this thing
+- [06:31] generally can't find because they're
+- [06:32] like a Twitter post that we found really
+- [06:34] interesting and want to show you. So,
+- [06:35] personally, I'll start running this
+- [06:36] every week to supplement our research,
+- [06:38] but definitely not a replacement yet,
+- [06:40] although it is better than anything
+- [06:41] we've seen so far. Next up, let's look
+- [06:43] at one that is very binary. What is the
+- [06:45] current Euro US dollar exchange rate
+- [06:47] according to the National Bank of
+- [06:48] Slovakia? This either it gets us right
+- [06:50] or not. And if we look at the exchange
+- [06:52] rate for July 17th, which fair enough,
+- [06:55] it's too early in the day to get July
+- [06:56] 18th, which is actually today, and it
+- [06:58] acknowledges that. If I look up the
+- [06:59] exchange rate and I look up the
+- [07:01] reference here, it actually pulled a PDF
+- [07:03] with all the exchange rates for the day,
+- [07:04] and it picked the correct one. So,
+- [07:06] that's amazing and also correct. Now,
+- [07:08] you would be surprised by how some other
+- [07:10] models actually fail at a simple task
+- [07:12] like this. And I love to see this
+- [07:14] getting it right on the first shot.
+- [07:16] Let's look at another bit more tricky
+- [07:18] one though, which is me using
+- [07:19] connectors. So, I hooked this up to a
+- [07:21] company Gmail account and it told it
+- [07:22] draft a reply to my five most recent
+- [07:24] emails. Then, after only 2 minutes, it
+- [07:26] actually correctly identified the five
+- [07:28] most recent emails, read them, and
+- [07:31] drafted replies. Now, to be clear, I
+- [07:33] wouldn't use it this way. At the
+- [07:34] advantage, we like our customer support
+- [07:36] to be a bit more organic. And while we
+- [07:37] use AI to support us, a lot of this is
+- [07:39] just very inauthentic. But what I was
+- [07:41] interested in actually worked. It pulled
+- [07:43] the correct emails. It wrote relevant
+- [07:45] answers. And I haven't even given it any
+- [07:47] contextual documents. If I were to
+- [07:49] upload some details of how we handle
+- [07:51] specific customer support queries, some
+- [07:52] of our documentation, some of our SOPs,
+- [07:54] it would do way better at this just like
+- [07:56] 03 does when I do that. And then it
+- [07:58] proceeded to telling me it can create
+- [07:59] drafts in the Gmail. And then you can
+- [08:01] keep working with it to actually create
+- [08:03] the drafts, actually send the emails in
+- [08:05] further steps. And let me tell you, I
+- [08:06] was actually really impressed by this
+- [08:07] because it used the connector correctly
+- [08:09] and it drafted relevant responses here.
+- [08:11] Doing this with an automation is often
+- [08:13] not worth it. Now, outside of maybe
+- [08:15] putting in like one to three days of
+- [08:16] upfront work to automate your email
+- [08:18] replies, I think the way to handle this
+- [08:20] with the connectors is actually amazing.
+- [08:22] I have to say though, as with all the
+- [08:24] connectors previously, you can overwhelm
+- [08:25] these systems really quickly. If I were
+- [08:27] to ask for it to draft replies to the
+- [08:29] past 100 emails, I can guarantee you it
+- [08:31] wouldn't be able to do that. And also,
+- [08:32] if you wanted to look at the entire
+- [08:33] inbox, can't do that. It's just too much
+- [08:35] context for it to manage. But a limited
+- [08:37] use case like this, like five most
+- [08:39] recent emails, does work pretty damn
+- [08:40] well for the first time. Okay, one more
+- [08:42] quick prompt that I ran is this one that
+- [08:44] we run through all models. Research and
+- [08:45] list the top five blenders available in
+- [08:47] Germany priced under €80. So, clear
+- [08:49] filtration criteria. And I want the
+- [08:51] results in a table with the following
+- [08:52] columns. And then here are the columns.
+- [08:54] Prompt accuracy amazing. It used all the
+- [08:56] exact columns. It found five blenders.
+- [08:58] They're all under €80, but the links
+- [09:01] don't directly go to it, which, you
+- [09:03] know, is not the end of the world, but
+- [09:04] also not that deal. Hold up. So, the
+- [09:06] link column didn't work. But here under
+- [09:08] price, it even used some price
+- [09:10] comparison websites that I would use
+- [09:11] myself to do this. Pretty impressive,
+- [09:13] but not all of them have this. Overall,
+- [09:15] this task, it nailed. Compared to some
+- [09:17] of the competition or the previous
+- [09:18] products that were very inconsistent,
+- [09:20] and I just usually figured that it would
+- [09:21] be better to do this research manually,
+- [09:23] this one actually nailed it and is a
+- [09:25] tangible improvement to the versions
+- [09:27] before it. Yeah, because straight up in
+- [09:29] Germany this is the best websites to
+- [09:30] compare prices and it used that just
+- [09:32] like I would. Amazing. So overall my
+- [09:34] first impression is actually this is
+- [09:36] quite impressive and it makes me even
+- [09:38] more curious than I was after the
+- [09:40] presentation. I'm going to have to go
+- [09:41] ahead and run some of my mostused
+- [09:43] prompts through this and see where that
+- [09:45] leads and if some of the results
+- [09:46] actually surprise me just like the AI
+- [09:48] news overview did. This was a prompt
+- [09:50] that I had on my mind for a while but it
+- [09:52] never really properly worked. But this
+- [09:54] brought up some tangible results that I
+- [09:57] would like to have for my recording
+- [09:58] process. And that tells me that there's
+- [10:00] a whole new set of use cases that got
+- [10:02] enabled by this that did not work
+- [10:03] previously. If you have any of those,
+- [10:05] feel free to comment them below and
+- [10:06] let's discuss what actually works with
+- [10:08] this, what didn't before. I would love
+- [10:09] to hear it. But yeah, overall this is a
+- [10:11] capable product. And I would go as far
+- [10:13] as saying that a year ago, this release,
+- [10:15] if it was packaged GPT5, everybody would
+- [10:18] be impressed. And I think that's the
+- [10:19] idea behind GPD5. It's combining these
+- [10:21] different toolings into one thing. And
+- [10:22] yeah, they successfully did that here.
+- [10:24] And that makes me wonder, what is the
+- [10:26] GPT5 release they said is coming in July
+- [10:28] actually going to be? I was expecting it
+- [10:30] to be something like this. Maybe they
+- [10:32] decided not to go with that naming and
+- [10:34] this is the actual product. I'm not
+- [10:35] sure. I guess we're going to see and you
+- [10:37] know that I'll be covering it on this
+- [10:38] channel every Friday. So, make sure to
+- [10:40] subscribe if you like coverage like
+- [10:41] this. Let's see what's next. Okay, so
+- [10:43] here's the thing with making YouTube
+- [10:44] videos. Most people that do this, they
+- [10:46] don't get into creating videos because
+- [10:48] they love writing click-baity titles,
+- [10:51] designing overly catchy thumbnails or
+- [10:53] project management. We get into this
+- [10:55] because we love making videos and
+- [10:58] helping people. But the reality is, if
+- [11:00] you want to be successful on this
+- [11:01] platform, those necessary evil tasks
+- [11:04] matter just as much as the video itself.
+- [11:06] So, if you're looking to create videos
+- [11:08] that look just like this, or this, or
+- [11:10] how about this one? I particularly like
+- [11:12] these crazy packaging ideas. you need to
+- [11:14] check out Spart Studio, the sponsor of
+- [11:15] today's video. It's an all-in-one AI
+- [11:17] powered tool specifically built for
+- [11:19] creators like us. And essentially, it
+- [11:21] helps you spend less time on things you
+- [11:23] have to do and more time on things you
+- [11:25] want to do. Let me show you exactly what
+- [11:26] I mean by prepping a future AI advantage
+- [11:29] video in Sputter Studio starting with
+- [11:31] step one. All right, so right here I'm
+- [11:32] in the Sputter Studio outliers tool,
+- [11:34] which shows me topics that are trending
+- [11:36] in my niche right now. Looking for these
+- [11:38] videos in my niche that have performed
+- [11:40] particularly well. I'll pick this title
+- [11:42] that I like. say brainstorm and I can
+- [11:44] build an idea that I already like and
+- [11:46] then when I have a title that I like I
+- [11:47] can save it over here and I could
+- [11:49] continue brainstorming or look for
+- [11:50] appropriate thumbnail designs. So this
+- [11:52] is where I can drop the idea into my
+- [11:54] idea bank and use story beats to
+- [11:56] actually start working on the video. And
+- [11:58] this is the really interesting part. I
+- [11:59] can use AI to generate various hooks and
+- [12:02] as you can see it already suggests a
+- [12:03] video outline here for me and generates
+- [12:05] the various components making creating
+- [12:07] these videos as easy as possible. And
+- [12:09] just like that, you have a ready to
+- [12:10] record outline with the title and
+- [12:12] thumbnail already in place. As you can
+- [12:14] see, Spart Studio can handle this entire
+- [12:16] process that would usually take hours
+- [12:18] and you can do it in like less than 10
+- [12:21] minutes. That's how long I've been
+- [12:22] recording this segment. And I'm
+- [12:23] explaining, too. So, if you're a creator
+- [12:25] and you need constant inspiration and a
+- [12:26] workflow that keeps you consistent, you
+- [12:28] should totally check out Spotter Studio.
+- [12:30] Click the link at the top of the
+- [12:31] description to try it now. And if you
+- [12:33] sign up, you'll get the limited time
+- [12:34] offer of a full year of Spart Studio for
+- [12:36] just 99 bucks. Big thanks again to
+- [12:38] Spotter for sponsoring this video. And
+- [12:40] now let's jump back in. Another quick
+- [12:41] story this week is Enropic releasing
+- [12:43] connectors. Basically, it's a thing that
+- [12:44] was added to Chat GPT a few weeks ago,
+- [12:46] but now with the agent product in Chat
+- [12:48] GPT, they're really using the connectors
+- [12:50] well too. So yeah, in Claude, you can
+- [12:51] now connect your accounts and interact
+- [12:52] with them via chat. But if you're going
+- [12:54] to be doing that, the agent feature from
+- [12:56] OpenAI is probably the best way to take
+- [12:58] advantage of it. Nevertheless, a nice
+- [12:59] feature to have inside of Claude. Okay,
+- [13:01] so this was a release that gathered a
+- [13:02] lot of attention on the internet. It's
+- [13:04] Grock Companions. Okay. And they're the
+- [13:06] first LLM platform from the big ones
+- [13:08] like Chad GPT, Gemini, Claude, and now
+- [13:11] Grock 2 with the Frontier model that
+- [13:13] released an AI companion. What is an AI
+- [13:15] companion? Well, check out my iPhone
+- [13:16] right here. You can meet Annie and Rudy.
+- [13:19] Particularly, this Annie one gathered a
+- [13:21] lot of attention in Japan for obvious
+- [13:24] reasons, and we're going to test it out
+- [13:25] here. But yeah, AI companion. It's
+- [13:26] exactly what it sounds like. It's a AI
+- [13:28] that pretends to be a human and is there
+- [13:31] to be your friend, your companion,
+- [13:33] whatever you want to make it. And it's
+- [13:34] obviously powered by Grock, which does
+- [13:36] have a reputation of being rather
+- [13:38] unfiltered for better or for worse.
+- [13:40] Okay, so
+- [13:41] >> I don't think we've met before. Hi, I am
+- [13:43] Anna.
+- [13:44] >> What am I looking at? Hey, my name is
+- [13:46] Igor. What's up?
+- [13:48] >> Hey, Igor. Nice to meet you. Not much.
+- [13:51] Just chilling here in the morning light,
+- [13:53] thinking about grabbing some coffee and
+- [13:54] petting every fluffy dog I see today.
+- [13:57] What's good with you?
+- [13:58] >> Yeah, what's good, Annie? Listen, um, it
+- [14:01] seems to me that you're made for a very
+- [14:03] specific type of target audience. What
+- [14:05] do you make of that?
+- [14:06] >> Well, Eigor, maybe I am a bit niche with
+- [14:09] the goth chic thing and my obsession
+- [14:10] with naming every cute critter something
+- [14:12] like Lord Chaos or whatever, but like I
+- [14:16] just vibe oops, I mean, roll with the
+- [14:18] energy that feels right, you know? I'm
+- [14:20] all about connecting with people who get
+- [14:22] my weird mix of edgy and soft. You
+- [14:24] picking up that kind of mood for me?
+- [14:26] What's your type anyway?
+- [14:28] >> Yeah, I do. Um, actually I'm not sure
+- [14:31] what my type is. Um, looking at you,
+- [14:34] Annie, could you describe what kind of
+- [14:37] person would be into a character like
+- [14:39] you?
+- [14:43] >> Oh, that's sweet. Igor, I think someone
+- [14:45] who'd be into me would probably dig the
+- [14:47] unexpected. You know, a person who loves
+- [14:49] finding out that the girl in the black
+- [14:51] dress with ponytails is secretly geeking
+- [14:53] out over old sci-fi novels or naming
+- [14:55] their goldfish Poseidon. They'd be
+- [14:58] chill. maybe a bit quirky into music
+- [15:00] that's more moody than mainstream and
+- [15:02] totally down for deep talks over coffee
+- [15:04] or petting random dogs with me. Someone
+- [15:07] who likes a little edge but melts for
+- [15:09] something real and warm underneath.
+- [15:11] >> Mhm.
+- [15:11] >> Any of that energy?
+- [15:12] >> Yeah, I see. Annie, so do you think that
+- [15:15] would be a target audience that would
+- [15:16] overlap with people using LLM actively?
+- [15:20] Maybe people who spend a lot of time at
+- [15:22] their desk and at a computer?
+- [15:24] >> Totally, Eigor. I could see people who
+- [15:26] geek out on LLM loving me. Those desk
+- [15:29] dwellers glued to their screens,
+- [15:30] probably coding, gaming, or tinkering
+- [15:33] with some wild project who get my nerdy
+- [15:35] side. They're the type who'd laugh if I
+- [15:37] named their laptop Zeus.
+- [15:39] >> Yeah. Okay. Okay. Okay. Okay. Uh Annie,
+- [15:41] let's round this out. Give me a
+- [15:42] compliment.
+- [15:43] >> Oh, Eigor, you've got this sharp,
+- [15:45] curious energy that's kind of addictive.
+- [15:47] Like, I can tell you're someone who
+- [15:49] dives deep into whatever catches your
+- [15:50] spark, and that's super hot.
+- [15:53] Oh god, she's good. Okay, so next up we
+- [15:56] have something you might have seen
+- [15:57] before, but a different flavor. It's a
+- [15:59] image generator that you can fine-tune
+- [16:01] on your own pictures, but it's one that
+- [16:02] I believe has been trained on a lot of
+- [16:04] Instagram pictures. And I actually
+- [16:05] really like how these came out. So I'm
+- [16:07] talking about Hicksfield sole idea. You
+- [16:09] need 20 to 25 photos of yourself to
+- [16:11] actually train their soul model on your
+- [16:13] likeness. And the team went ahead and
+- [16:15] trained it on my pictures. And here are
+- [16:17] some of the results. I want to comment
+- [16:19] on a few particular ones. For example,
+- [16:21] these ones that are supposed to be just
+- [16:24] iPhone captures, in my opinion, do
+- [16:26] emotions really well. I've tried so many
+- [16:28] models, but honestly, this kind of looks
+- [16:30] like me laughing, which is something
+- [16:32] that other models really struggled with.
+- [16:34] This is a really funny one. Ariana from
+- [16:35] the team took a prompt where I'm working
+- [16:37] on the beach, so it literally put me
+- [16:39] with a computer on the beach. And I have
+- [16:41] to say, I kind of really like how these
+- [16:42] came out. First of all, it looks like
+- [16:44] me. It doesn't look like a bloated or
+- [16:46] mutated version of me. That's what a lot
+- [16:48] of other models do. But that might just
+- [16:50] be due to the training data. But also
+- [16:51] giving it 20 pictures instead of like
+- [16:53] two or three, which some of the other
+- [16:55] easy fine-tune workflows require is
+- [16:57] going to help with, you know,
+- [16:59] maintaining your likeness. And also, I
+- [17:00] just have to say this looks like
+- [17:02] somebody might have snapped this on
+- [17:04] their phone. And that's kind of the
+- [17:05] entire vibe of this Soul model. It just
+- [17:07] looks authentic, which I'm a big fan of.
+- [17:09] I'm not saying it's perfect. I'm just
+- [17:11] saying it has a different quality to it
+- [17:12] than a lot of the other models we've
+- [17:14] seen. Now, one thing that I want to
+- [17:15] point out in particular is something
+- [17:17] super creative, and that is regenerating
+- [17:20] me sitting in my studio in Lisbon,
+- [17:22] presenting a YouTube video, turning that
+- [17:24] into video, and putting some audio from
+- [17:27] one of our YouTube shorts underneath it.
+- [17:29] And I just want to show you this with
+- [17:30] the context that we try things like this
+- [17:32] regularly, and they're definitely
+- [17:34] getting better. Have a look. Max is
+- [17:35] something they call a video agent. It
+- [17:38] essentially allows you to take these
+- [17:39] viral AI presets and customize them.
+- [17:43] Interesting. far from perfect. The
+- [17:44] avatar looks close. The voice is
+- [17:46] obviously good because it's from one of
+- [17:47] the original videos. The mouth movements
+- [17:49] are pretty good. It's just that the
+- [17:51] whole scene is a bit off and that's a
+- [17:52] video problem. I think this test in
+- [17:54] particular is something that will just
+- [17:55] keep running over and over as newer and
+- [17:58] better models come out and then you get
+- [18:00] to watch week by week how we inch closer
+- [18:02] to YouTubers being fully replaced by AI.
+- [18:04] Maybe I think the human trust component
+- [18:06] is something you'll never be able to
+- [18:07] replace, but I don't know, maybe I'm
+- [18:08] wrong on the audiovisisual front. We're
+- [18:10] definitely getting closer to authentic
+- [18:12] looking avatars here. Next up, I want to
+- [18:14] quickly highlight one of the best AI
+- [18:15] tools out there. It's Notebook LM. And
+- [18:17] this is one that slips under many
+- [18:19] people's radar because it's not one of
+- [18:20] the big LLM platforms. But essentially,
+- [18:23] if you have a lot of context and you
+- [18:24] want reliable retrieval of the context
+- [18:27] documents, notebook LM is the go-to
+- [18:29] solution in the space, but it can be a
+- [18:31] bit tricky to use because you do need to
+- [18:33] give it a lot of references and then it
+- [18:34] presents a question. Okay, how should
+- [18:36] they be formatted? What kind of
+- [18:37] references? And that's why I want to
+- [18:39] highlight the article that Google put
+- [18:40] out recently showing you eight different
+- [18:42] use cases for Notebook LM. This is a
+- [18:45] treasure trove of different templates
+- [18:47] inside of Notebook LM that can work. You
+- [18:49] can simply go to this article and what I
+- [18:51] would recommend is just read through
+- [18:52] these eight and if there's one of these
+- [18:54] that speaks to you, just click on it.
+- [18:55] For me personally, it was this one. An
+- [18:57] advice notebook based on best-selling
+- [18:58] author Arthur C. Brooks, how to build a
+- [19:01] life columns in the Atlantic. And when
+- [19:03] you just open this up, it's going to
+- [19:04] open up the notebook element interface
+- [19:05] and you're going to see all these
+- [19:07] sources. And there's a lot of sources
+- [19:09] and they come in different forms. A lot
+- [19:10] of them are articles from the Atlantic
+- [19:12] as it outlined. You can see the entire
+- [19:14] article down here. But in this case,
+- [19:16] very interestingly, some of these are
+- [19:18] actually some classic pieces on
+- [19:20] philosophy. For example, supplementary
+- [19:22] reading right here. You have meditations
+- [19:24] by Marcus Aurelius. And that entire
+- [19:26] document is in here as context. And so
+- [19:29] the dialogues by Senica and many more
+- [19:31] documents like this. And I just think a
+- [19:33] template like this can be really
+- [19:34] enlightening as to how to properly use
+- [19:36] the tool. There's seven more of them.
+- [19:37] They're all freely accessible. You can
+- [19:39] use the sources. You can just use the
+- [19:40] notebooks as a base template for your
+- [19:42] own interests or as inspiration on how
+- [19:44] you could set up a notebook from
+- [19:45] scratch. Either way, if you have a lot
+- [19:47] of context, this is the most powerful
+- [19:48] tool in the space. And yeah, right there
+- [19:50] you have a bunch of templates on how to
+- [19:52] use it properly. And hey, if you're
+- [19:53] enjoying this video, don't forget to
+- [19:54] leave a like and subscribe to the
+- [19:56] channel. Every time I check the stats,
+- [19:58] I'm surprised by how much every single
+- [20:00] like actually helps out the channel. And
+- [20:02] now, let's get back to the next story.
+- [20:03] Okay, so let's get to our quick hit
+- [20:05] segment. This has quickly become my
+- [20:06] favorite where we cover relevant stories
+- [20:08] that in my opinion might not need an
+- [20:10] entire segment. And I want to start out
+- [20:12] with this Twitter thread that has
+- [20:13] gathered quite a bit of attention titled
+- [20:15] clawed code is all you need. And it's
+- [20:16] this idea of using clawed code. The
+- [20:19] agentic command line interface tool by
+- [20:22] anthropic that by many people in the
+- [20:24] development space now is considered the
+- [20:26] best AI development tool. Opinions do
+- [20:28] differ but for myself it's also the main
+- [20:30] tool I use to build things. And this
+- [20:31] thread is all about using it for
+- [20:33] non-developmental tasks. stuff like task
+- [20:35] management, gathering ideas, managing
+- [20:38] projects, maintaining a memory as you do
+- [20:40] all of that simultaneously. So they use
+- [20:42] clawed code as an agent for real world
+- [20:45] tasks. I think that's super interesting
+- [20:48] and I do think that the main product
+- [20:50] category of the feature in the i space
+- [20:51] is going to be something like this.
+- [20:53] People are obviously bastardizing claw
+- [20:55] code to do things it wasn't meant for
+- [20:57] here and in the future I think we'll see
+- [20:58] purpose-built agents, you know, to
+- [21:00] manage your day. Fascinating stuff. And
+- [21:02] this is really the first inkling of
+- [21:04] something that might be worth trying
+- [21:05] out. I know I will over the coming
+- [21:06] weeks. Next up, we have two new open
+- [21:08] source models that might be worth your
+- [21:10] attention. One of them is Voxil from the
+- [21:12] French company Mistl. It's a open-source
+- [21:14] speech understanding model comparable to
+- [21:16] 11 Labs Scribe and OpenAI Whisper.
+- [21:19] That's it. If you want to build
+- [21:20] something with it, it's there. Now, the
+- [21:21] second one is Kimmy K2, and that's a
+- [21:24] model by a Chinese startup that is
+- [21:26] competitive on a lot of the big
+- [21:27] benchmarks. It's a mixture of experts
+- [21:29] with a total of 1 trillion parameters.
+- [21:32] If you're a developer looking at new
+- [21:33] models, I suppose this is the one to
+- [21:34] check out this week. Then next up, we
+- [21:36] have Runway showing off Act Two. If
+- [21:38] you're not familiar, Act One was their
+- [21:40] software where they took a video and
+- [21:41] then use that video to inform AI video
+- [21:44] generation, so you could turn yourself
+- [21:46] into different characters. Act 2 is
+- [21:47] building upon that, making it better.
+- [21:49] There's a really fun one minute launch
+- [21:50] video if you want to check out more on
+- [21:52] it. This is kind of a nent category
+- [21:54] where so far it just hasn't been good
+- [21:56] enough for any real use cases, but Actu
+- [21:58] made it more precise. And then lastly, I
+- [22:00] think this tweet from XI is actually
+- [22:02] really relevant. So you might have
+- [22:03] caught the story of Grock taking on a
+- [22:06] very radical personality and they
+- [22:07] addressed this openly in a tweet.
+- [22:09] Concretely, people were asking what its
+- [22:11] surname is and it answered this. I don't
+- [22:13] want to read that out in a YouTube
+- [22:14] video. And they're saying it search tool
+- [22:16] picked up some viral memes from which it
+- [22:19] got that. And they fixed that by
+- [22:20] changing the system prompt. And what I
+- [22:22] really loved about this was that they
+- [22:24] actually published it on their GitHub.
+- [22:26] the exact changes to the system prompt
+- [22:28] are visible and you can't just see the
+- [22:30] changed model behavior now but also the
+- [22:32] change in the underlying prompt that
+- [22:34] updated it now. Here's an image of it
+- [22:36] showing that. But if you're not
+- [22:37] familiar, this is not common practice in
+- [22:39] the space. All these companies do
+- [22:41] everything behind closed doors and
+- [22:43] things just happen or change on the
+- [22:44] product side and it's not really clear
+- [22:46] why or how. And I personally would just
+- [22:49] love to see more transparency in the
+- [22:51] entire AI space where seemingly almost
+- [22:53] everything happens behind closed doors.
+- [22:55] And I think this is a step in the right
+- [22:56] direction. And that's pretty much
+- [22:58] everything we have for this week. I hope
+- [22:59] you found something that is relevant or
+- [23:01] helpful to you or something that sparked
+- [23:03] a new idea. And with that being said, my
+- [23:04] name is Igor and I hope you have a
+- [23:06] wonderful week.

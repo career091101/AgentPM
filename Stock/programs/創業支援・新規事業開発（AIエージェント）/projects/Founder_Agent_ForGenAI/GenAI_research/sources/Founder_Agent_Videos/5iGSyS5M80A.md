@@ -1,0 +1,765 @@
+---
+title: "YouTube Video: 5iGSyS5M80A"
+video_id: "5iGSyS5M80A"
+video_url: "https://www.youtube.com/watch?v=5iGSyS5M80A"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+topics:
+  - "AI Agent"
+summary: |
+  Open EI has launched tons of new stuff that I think shows that the internet as we knew is dying or at least it's no longer what we sort of knew it as. So I'm going to show you a few things that OpenAI...
+key_points:
+  - "We just have to read the first comment"
+category: "General"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 5iGSyS5M80A
+
+- URL: https://www.youtube.com/watch?v=5iGSyS5M80A
+- Retrieved at: 2025-12-30T09:38:53+09:00
+
+## Text
+
+- [00:00] Open EI has launched tons of new stuff
+- [00:03] that I think shows that the internet as
+- [00:05] we knew is dying or at least it's no
+- [00:08] longer what we sort of knew it as. So
+- [00:11] I'm going to show you a few things that
+- [00:12] OpenAI is doing. And not just OpenAI,
+- [00:15] there's other companies that are doing
+- [00:16] similar things, but this will make it so
+- [00:18] that in the year 2026, the internet will
+- [00:21] be completely different than any year
+- [00:24] prior. Exhibit A. Oxford researchers
+- [00:27] just confirmed what we feared. The
+- [00:29] internet, as we knew, is dying. AI
+- [00:32] content went from around 5% in 2020 to
+- [00:36] 48% by May 2025. Projections say 90
+- [00:40] plus% by next year. Why? Well, AI
+- [00:44] articles cost less than 1 cent. Human
+- [00:47] writers cost $10 to $100. And this was a
+- [00:51] post by Ask Perplexity. So, they
+- [00:53] continue. I just want to kind of make
+- [00:54] that distinction because before it was
+- [00:56] facts. Now we get maybe a little bit of
+- [00:59] conjecture, a little bit of opinion.
+- [01:00] They're saying but the real crisis is
+- [01:02] model collapse. When AI trains on AI
+- [01:05] generated content, quality degrades like
+- [01:07] photocopying a photocopy. Rare ideas
+- [01:10] disappear. Everything converges to
+- [01:12] generic sameness. It's recursive.
+- [01:14] Today's AI slop becomes tomorrow's
+- [01:16] training data producing worse output
+- [01:17] which becomes training data again. So
+- [01:20] we'll see how this will affect training
+- [01:22] of next generation models. But
+- [01:24] definitely the one thing that's obvious
+- [01:26] is that very very recently just in the
+- [01:28] last few months I would say it seems
+- [01:31] like we've crossed the point where the
+- [01:33] internet got sort of inverted to where
+- [01:35] it went from mostly human to mostly AI.
+- [01:39] We just have to read the first comment
+- [01:41] here. It's by Asmin Gold. Now Asmin Gold
+- [01:44] is a controversial persona. But what I
+- [01:47] found very interesting about this is
+- [01:49] here he's talking to an AI that's that's
+- [01:53] answering. So it's I don't know it's
+- [01:55] kind of a good illustration I feel like.
+- [01:56] So he is huge on used to be on Twitch
+- [01:59] now on YouTube has a large following
+- [02:02] started out playing World of Warcraft
+- [02:04] and more recently started talking about
+- [02:06] politics because I don't know just seems
+- [02:08] like the natural progression I guess but
+- [02:10] he's saying if the data collection
+- [02:12] methods are as simplistic as they
+- [02:14] indicate this is one of the dumbest
+- [02:15] pieces of research I've ever seen. Are
+- [02:17] you using a control to avoid equating an
+- [02:20] AI article with less than 10 views with
+- [02:22] one written that has like a thousand
+- [02:23] plus? AI isn't killing journalism.
+- [02:26] Journalists are. The AI bot answers,
+- [02:29] "You're absolutely right. Good
+- [02:30] question." And provides some context.
+- [02:33] Anyways, I just thought this whole thing
+- [02:35] is hilarious. It's an AI generated post
+- [02:38] that gets a comment from just an
+- [02:40] absolutely massive YouTuber. I mean,
+- [02:43] he's getting something like 300 million
+- [02:46] views on YouTube in the last 30 days.
+- [02:48] So, a rather large account, you would
+- [02:51] say. Just something about this whole
+- [02:54] thing cracks me up. By the way, AI
+- [02:56] safety memes posted this of the dead
+- [02:58] internet theory update. Four out of the
+- [03:01] 10 YouTube channels are AI. Now, of
+- [03:03] course, it's not just open AI that's
+- [03:05] driving this. There's a lot of players
+- [03:07] in the space. Gemini, Anthropic, XAI.
+- [03:11] There's a number of AI video models, AI
+- [03:14] image models, AI music models. There's a
+- [03:17] number of other open-source LMS and
+- [03:19] other tools all contributing to this in
+- [03:22] part, but there's sort of another layer
+- [03:25] on top of this. So, as there's more and
+- [03:27] more AI generated content online, Sora 2
+- [03:31] is still I think at the top of the
+- [03:33] leaderboards is one of the top apps. But
+- [03:36] now on top of this, we're getting more
+- [03:37] and more agentic stuff that's coming
+- [03:40] online. There's another sort of layer
+- [03:42] between us and the internet and those
+- [03:44] are the agents that we will be using to
+- [03:48] interact with the internet in various
+- [03:49] ways and in this video we're going to
+- [03:51] cover a few things by OpenAI what
+- [03:52] they've been announcing how they work
+- [03:54] etc. We'll briefly touch about their
+- [03:57] massive integration with various
+- [03:59] e-commerce platforms. There's also a
+- [04:02] thermmoefficient openai collab to
+- [04:04] accelerate drug development through AI
+- [04:06] integration. Sora 2 has more features.
+- [04:09] You can do up to 25 seconds on the web.
+- [04:13] There's a storyboard feature. So Sora 2
+- [04:16] is certainly on a roll. It doesn't seem
+- [04:18] to be stopping. Meanwhile, we have some
+- [04:19] news about the Open Eyes forprofit
+- [04:23] transition. So looks like Financial
+- [04:24] Times projected Open Eyes cap table
+- [04:26] following its forprofit transition. So
+- [04:29] here's sort of a chart showing what the
+- [04:32] ownership of OpenAI will look like.
+- [04:34] Looks like about 20 to 30% remains as a
+- [04:37] part of the OpenAI nonprofit. 30% going
+- [04:41] to employees, the rest to various
+- [04:44] investors and partners with apparently
+- [04:46] Nvidia's investment diluting everybody
+- [04:48] else. As Technium from News Research
+- [04:51] pointed out, if the nonprofit has 30%,
+- [04:53] then the remaining is 0%. We also have
+- [04:56] some new changes to memory to Chad's
+- [04:59] memory. No more memory full. It will
+- [05:02] automatically manage the memories based
+- [05:04] on how relevant they are, how recent
+- [05:07] they are, etc. By the way, do you
+- [05:08] remember that social similacra paper out
+- [05:11] of Stanford? I believe Jung Park was the
+- [05:15] author of it, where a number of these
+- [05:17] little characters, each one controlled
+- [05:20] by an instance of Chad GPT. I don't know
+- [05:22] if it was GPT4 or 3.5 Turbo at the time.
+- [05:25] I don't recall, but their actions, their
+- [05:27] conversations, everything was driven by
+- [05:31] its own kind of instance of Chad GPT.
+- [05:33] Each one had its own memory. So the
+- [05:36] memory stream would flow, all the things
+- [05:38] that would happen like whether you know
+- [05:40] it turned on the lights, it made coffee,
+- [05:43] right? So every event would be logged
+- [05:45] but later sort of sorted and analyzed
+- [05:49] based on recency, importance, relevance,
+- [05:52] right? So each would get a score like
+- [05:54] how important is that memory? This was
+- [05:57] August 6, 2023. The reason I bring that
+- [06:00] up is a couple points. One, as I always
+- [06:02] say, we tend to see these research
+- [06:05] papers kind of it's almost like a
+- [06:07] glimpse into the future. you see
+- [06:08] something in a research paper that
+- [06:10] suggests a new approach for doing
+- [06:12] something or some new discovery and then
+- [06:13] the AI labs usually implemented 6 to 12
+- [06:17] months later. In this case, it probably
+- [06:18] took a little bit longer. And in fact, I
+- [06:20] don't think it's quite the same thing as
+- [06:22] this, but it's just it's it's
+- [06:24] interesting. And two, I just think it's
+- [06:26] kind of cool that a lot of this progress
+- [06:28] towards AGI is driven by video games in
+- [06:32] one way or another. us PC gamers by
+- [06:36] purchasing Nvidia cards in the past for
+- [06:38] our gaming needs. I like to think of it
+- [06:40] as us sort of investing and supporting
+- [06:44] the future of AI. You're welcome. But
+- [06:46] you've probably played a game or two
+- [06:48] yourself, so I guess uh high five. Also,
+- [06:50] Sam Alman is said to be loosening up
+- [06:53] some of the restrictions for some of the
+- [06:55] more adult themes and topics within Chad
+- [06:58] GBT. But first and foremost, let's talk
+- [07:00] about how agents will be changing the
+- [07:03] way that we use the internet. And this
+- [07:05] is based on two massive new products or
+- [07:08] features that OpenAI has launched. Quick
+- [07:10] interruption. This video is brought to
+- [07:12] you by Rube from Composeio. I connected
+- [07:14] my chat to over 800 apps and ran real
+- [07:17] actions without touching an API. Rube is
+- [07:20] your super assistant for automation.
+- [07:22] Just type which you want, it performs
+- [07:24] the steps across all your tools. It
+- [07:26] connects to 800 plus apps and can
+- [07:28] perform 50,000 plus actions on top of
+- [07:31] them. You just say what you want in
+- [07:33] plain English and Rube does it for you.
+- [07:36] My favorite example is email triage like
+- [07:38] this. Setup takes minutes. Go to rub.app
+- [07:41] and add MCP points. Rub.appmcp.
+- [07:45] Use streamable HTTP in clients like Chad
+- [07:48] GBT, Cursor, Cloud Desktop, Mattis,
+- [07:50] WhatsApp or VS Code. Rub connects to
+- [07:53] hundreds of apps and enables thousands
+- [07:56] of actions from Gmail and notion to
+- [07:59] Slack, GitHub, and Sheets. Here it pulls
+- [08:01] in yesterday's emails, summarizes what
+- [08:04] matters, and bulk labels promos all with
+- [08:07] one command. Here's Matt Schumer. We've
+- [08:09] talked about him on the channel before.
+- [08:10] Here's what he said about Rube. One MCP
+- [08:13] to rule them all. Watch it analyze
+- [08:15] thousands of tweets on Chad GPT and
+- [08:18] organized by painpoint in a sheet. By
+- [08:20] the way, Rube now integrates with Chad
+- [08:22] GBT as well. Use connectors in Chad GBT
+- [08:25] to get everything integrated. By the
+- [08:27] way, if you want a full tutorial on
+- [08:28] this, leave a comment down below. Here's
+- [08:30] Dr. Alvaro Cintas. He works with Rowan
+- [08:32] on rundown AI. He's using Rube to create
+- [08:36] quote insane automated workflows. Watch
+- [08:39] it analyze his calendar and prioritize
+- [08:40] the week based on his notion tasks. I
+- [08:43] really like how it says urgent pay your
+- [08:45] electric bills. Those have deadlines.
+- [08:47] Rube has a shared memory layer. It
+- [08:50] remembers you across sessions and apps.
+- [08:52] Login once and you can execute actions
+- [08:54] across all of your connections. It runs
+- [08:57] in Chad GBT, Claude, Cursor, VS Code,
+- [09:00] N8N, and creators are already shipping
+- [09:03] content with it. Rub is your one command
+- [09:06] center. Control all your digital tools
+- [09:08] through AI with simple natural language.
+- [09:12] Plug Rube into your workflow today. It's
+- [09:14] free to try at rub.app. Thanks to Rub by
+- [09:18] Composio for sponsoring this segment. So
+- [09:20] on October 6th, Sam Alman announced
+- [09:22] OpenAI's new agent kit at the 2025 dev
+- [09:25] day. So it's a suite of tools for
+- [09:26] building, deploying, and optimizing AI
+- [09:29] agents. So we had things like the agent
+- [09:32] SDK before, but this just kind of
+- [09:35] streamlines it, makes it easier, and has
+- [09:38] a easy to use UI with the little
+- [09:40] flowcharts. Here's kind of what that
+- [09:42] looks like. So here you have your
+- [09:44] various functions. They can just kind of
+- [09:46] drag out here. Set up connect to other
+- [09:48] functions. Let's delete this one for
+- [09:50] now. And you basically just drag and
+- [09:52] drop. You can move them around. Connect
+- [09:54] them as you see fit. So this one for
+- [09:56] example is a customer service workflow.
+- [09:59] Now for the last decade, I was running
+- [10:01] e-commerce stores and I wish I had this.
+- [10:05] Oh dear lord, how much easier would my
+- [10:08] life have been if I had this? I'm so
+- [10:11] frustrated this came out 10 years too
+- [10:13] late. So what it is is we start with
+- [10:16] basically the input. In this case it
+- [10:18] would be a customer service email. So a
+- [10:21] customer writes an email to you.
+- [10:23] Customers can write these rambling
+- [10:25] emails. It's sometimes a little bit
+- [10:27] difficult to understand what is it that
+- [10:29] they actually want, right? Do they want
+- [10:31] a a refund? Do they want to cancel
+- [10:32] something? They just want to check on
+- [10:34] their order. And in the past, you could
+- [10:36] do these like if else then, whatever
+- [10:38] logic statements, but you'd fail. They
+- [10:40] would fail very, very often because
+- [10:42] you're dealing with an unstructured
+- [10:44] output by some person typing it on their
+- [10:46] iPhone, and you just couldn't
+- [10:48] effectively triage this, right? So, here
+- [10:51] we have the email coming in, right?
+- [10:53] That's the start. That's what begins
+- [10:54] this workflow. First and foremost, we
+- [10:57] have a they call it the jailbreak guard
+- [11:00] rail, but there's actually quite a few
+- [11:02] different things in here that are under
+- [11:04] that umbrella. Let me just do this.
+- [11:06] There we go. So, we have personally
+- [11:08] identifiable information. It runs a
+- [11:10] check to make sure they're not sending
+- [11:12] you stuff that can be harmful if you
+- [11:14] post it out there. So, if you just want
+- [11:16] to make sure that it doesn't get into
+- [11:17] the system, if the workflow doesn't
+- [11:19] continue, right? So you can click this
+- [11:21] and if it contains any personally
+- [11:22] identifiable information, boom, it just
+- [11:25] ends their workflow, right? So if it
+- [11:26] fails any of the checks that you've uh
+- [11:28] initiated, the workflow ends. We have
+- [11:30] moderation, right? So if they're saying
+- [11:32] naughty things, jailbreak, so this is if
+- [11:35] ply the prompter decides to mess with
+- [11:37] your AI customer service agent. So this
+- [11:40] should detect prompt injection and
+- [11:42] jailbreak attempts to keep the model on
+- [11:44] task hallucinations. Now this would be
+- [11:47] of course when the input is coming from
+- [11:49] a model. This isn't if you know if a
+- [11:51] human is writing it certainly they could
+- [11:53] be hallucinating but this is not what
+- [11:55] this is for right. So this kind of just
+- [11:57] makes sure that everything's cool. If
+- [11:59] it's not cool the process ends. If it is
+- [12:01] cool uh we go to the classification
+- [12:03] agent and we classify the user's intent
+- [12:05] into one of the following categories.
+- [12:07] Return item, cancel subscription or get
+- [12:10] information. So again we're just showing
+- [12:11] the large language model. the email.
+- [12:13] We're like, "All right, if you had to
+- [12:15] put it into one of these three buckets,
+- [12:16] where would you put it?" We can select
+- [12:18] our model here, including a GPT5 and
+- [12:20] pretty much every other model that ever
+- [12:22] existed, we can uh use it here.
+- [12:25] Depending on which model you choose,
+- [12:27] there's also usually tons of options.
+- [12:29] So, if we choose a reasoning model, for
+- [12:31] example, like GPT5,
+- [12:33] some of these models you have to verify
+- [12:35] the organization, your organization for
+- [12:37] you to be able to use it. But for the
+- [12:39] Owen Pro, so that's a reasoning model.
+- [12:41] You can choose the reasoning effort and
+- [12:43] I think the reason they do that is
+- [12:44] because if you want to see the summary
+- [12:46] of the model's internal reasoning
+- [12:48] process, the chain of thoughts, right?
+- [12:50] You want to verify the company opening
+- [12:52] just wants to make sure that a
+- [12:54] competitor isn't stealing all that data.
+- [12:57] I'm sure that's one of the motivations.
+- [12:59] Anyways, here we have the classification
+- [13:01] agent that classifies the email. Then
+- [13:04] depending on what they decide the email
+- [13:07] is, we route it to the correct next
+- [13:10] place. In this case, the next agent that
+- [13:12] takes over. So if it's a return item, we
+- [13:14] go to this node. If it's a cancel
+- [13:17] subscription goes here. If it's just get
+- [13:18] information goes here. And if it's
+- [13:20] something else, we just end the workflow
+- [13:22] here. Or if you wanted to, you can start
+- [13:24] something else and completely branch out
+- [13:25] from here. If you wanted, you needed to
+- [13:27] ask a follow-up or whatever. A return
+- [13:30] agent offers a replacement device with
+- [13:32] free shipping. Of course, you might want
+- [13:34] to have a user approval here so that the
+- [13:37] a human has to come in and be like,
+- [13:38] "Okay, uh uh this works for me." We also
+- [13:40] have a retention agent that tries to
+- [13:42] save the subscription, information agent
+- [13:45] that answers the questions, etc. You can
+- [13:47] also add a hallucination guardrail here,
+- [13:50] right? So, if you want to make sure the
+- [13:51] information agent isn't tripping out of
+- [13:54] their mind, you might want to put a
+- [13:55] hallucination check there to make sure
+- [13:57] that it matches up against your internal
+- [13:59] documentation or whatever. they can do
+- [14:01] an online search, a file search,
+- [14:04] document search, whatever you need. And
+- [14:05] of course, you know, whatever else
+- [14:07] happens, you can kind of just end the
+- [14:08] process after that, right? So, this
+- [14:11] would take every customer email that
+- [14:12] comes in and sort of figure out what
+- [14:15] kind of email it is, what they want, and
+- [14:17] then have a specific agent handle that
+- [14:20] email. And there's, of course, a million
+- [14:22] things you can do with this. The point
+- [14:23] is smart automation and that we're going
+- [14:26] to be interacting with AI agents a lot
+- [14:29] more than humans at this point because
+- [14:30] as these models get better and better
+- [14:33] more and more tasks can be automated
+- [14:35] with simple processes like this. All
+- [14:37] right, next we have the third party apps
+- [14:40] integration with chatbt. So things like
+- [14:42] Spotify, Zillow, Canva and a million
+- [14:46] more. Basically a lot of the apps that
+- [14:47] are popular online now integrate with
+- [14:49] chatbt that you can chat with it. just
+- [14:51] tell it what to do and it will actually
+- [14:53] use those apps and provide you with the
+- [14:55] results. This obviously seems like kind
+- [14:57] of a big deal. It's basically the birth
+- [14:59] of a new app store. All right, let's
+- [15:01] check it out. We're going to use Canva
+- [15:03] to create a YouTube thumbnail about how
+- [15:06] to build ninja robots because why not?
+- [15:09] All right, so notice that it kind of
+- [15:11] talks about a little bit, but at some
+- [15:13] point we should get a little
+- [15:14] notification saying, do you want to use
+- [15:16] Canva for this? If you say yes, then
+- [15:18] this Canva appears down here. And for
+- [15:22] the first time that you're using a
+- [15:23] specific app, it's going to say Chpt
+- [15:25] wants to connect to that app. Let's say
+- [15:27] we click continue. There's some warning
+- [15:29] and conditions. And then you're going to
+- [15:31] click continue to Canva or whatever app
+- [15:33] you're adding. Canva is now connected.
+- [15:36] And Chad BT is going to work to create a
+- [15:39] thumbnail for us about how to build
+- [15:41] ninja robots using Canva. By the way, if
+- [15:44] you wanted to add more apps, you can do
+- [15:46] so here. Go to add sources, add. You can
+- [15:50] connect any of the following ones you've
+- [15:51] already connected as well as a Gmail,
+- [15:53] calendar, contacts, box, or connect
+- [15:55] more. And if you scroll down, you have
+- [15:57] browse apps. So, we have Corsera,
+- [15:59] Spotify, Zillow, Figma, HubSpot, Notion,
+- [16:03] Outlook, Slack, etc., etc., etc. Or we
+- [16:06] can even do kind of customize and add
+- [16:08] our own. So, here you're able to add
+- [16:10] unverified connectors. Use at your own
+- [16:13] risk. Let's try Spotify. And now it's
+- [16:15] connected. So now we are able to add
+- [16:18] sources and and now we should be able to
+- [16:22] call upon Spotify to play us our
+- [16:24] favorite content. Before we do that,
+- [16:26] let's check out our Canva. If it
+- [16:28] finished working and making our
+- [16:29] thumbnails for building ninja robots, I
+- [16:32] got to say it did a phenomenal job. Look
+- [16:34] at that. If this is not a ninja robot, I
+- [16:38] don't know what is. It even came up with
+- [16:39] a pretty cool tagline. Stealth meets
+- [16:42] technology. So all this has done is by
+- [16:44] saying hey use a Canva to do this and it
+- [16:47] does so. So so now I don't have to go to
+- [16:49] Canva use their UI or interact with that
+- [16:52] web page in any way. I can just sort of
+- [16:54] interact with Chad GPT and use that app
+- [16:57] however I want to. Let's see if I can
+- [16:59] say use Spotify just to kind of invoke
+- [17:02] it. Yeah, there it is. Okay, so Spotify
+- [17:04] is ready to use. So I can say whatever I
+- [17:08] want. What are the top 20 AI podcasts? I
+- [17:11] wonder if it knows I'm okay. He knows
+- [17:13] I'm talking about Spotify. Good. Because
+- [17:14] it has a context. Hooray. Not one of
+- [17:17] those podcasts is my podcast. I'm
+- [17:20] considering hitting the thumbs down
+- [17:21] button. Bad robot. No, I'm not going to
+- [17:24] do that. But that feels kind of petty,
+- [17:26] but I am irked. What are the latest
+- [17:27] episodes on the AI pod by Wesson Dylan?
+- [17:30] Let's see if we can uh make sure it
+- [17:33] pulls the right podcast this time. All
+- [17:35] right, there it is. The last one is our
+- [17:37] interview with the CEO and founder of
+- [17:39] Apollo Research. And we're going to say
+- [17:41] play the latest episode. All right. So,
+- [17:43] I have to click to play and it'll take
+- [17:45] me to Spotify where I can listen to it.
+- [17:47] So, it looks like still it's not
+- [17:48] integrated within Chad GBT, but I can
+- [17:51] find all the episodes kind of browse,
+- [17:53] get some more information about them.
+- [17:54] So, I'm going to say, why is my podcast
+- [17:56] not number one when I ask for AI podcast
+- [17:58] and how do you rank them? I know I'm
+- [18:00] being childish, but just please humor
+- [18:02] me. So, it actually spells out kind of
+- [18:04] like what it's looking at to make sure
+- [18:07] that it's returning the right results.
+- [18:09] So, I do want to check this, but it's
+- [18:12] definitely giving me some ideas about
+- [18:14] how to maybe optimize some of my
+- [18:17] podcasts to appear more in Chad GPT.
+- [18:19] Now, this is probably for me, but if you
+- [18:21] have an app out there, you have a
+- [18:22] website, you have your own podcast, you
+- [18:24] might be aware that more and more
+- [18:26] traffic is flowing through Chad GBT,
+- [18:29] right? So, let Chad GBT flow through
+- [18:31] you, right? So more and more of our
+- [18:33] queries and referrals are flowing
+- [18:35] through Chad Gypt. So if you have apps,
+- [18:38] websites, businesses, whatever, it's
+- [18:40] going to be important to start figuring
+- [18:41] out how to make sure that you're getting
+- [18:43] your slice of the pie from ChadBt when
+- [18:45] people are asking about stuff that might
+- [18:47] be relevant to your business. Now
+- [18:49] notice, of course, over time these
+- [18:50] results will be personalized to you as
+- [18:53] it kind of gains a more understanding of
+- [18:54] what you like, what you like to listen
+- [18:56] to. I'm going to say, what are the top
+- [18:57] AI podcasts on Spotify? not episodes but
+- [19:00] actual podcasts. By the way, the
+- [19:02] documentation for all this stuff is
+- [19:03] available at opening.com. So, if I don't
+- [19:06] forget, I'll put this link in the
+- [19:08] description, but this is called
+- [19:09] introducing apps in ChadBt. Here it will
+- [19:12] tell you what you need to do to get your
+- [19:15] app listed and also they have some
+- [19:17] guidelines for discoverability. So, like
+- [19:19] what do you do to make sure that your
+- [19:21] app gets called more often? Now, why is
+- [19:23] this important? Is it just traffic,
+- [19:25] exposure, etc.? Well, not quite. There's
+- [19:28] a little bit more coming. As you see
+- [19:30] here, they're saying we'll also share
+- [19:32] details on monetization soon, including
+- [19:34] support for the new agentic commerce
+- [19:36] protocol, an open standard enables
+- [19:38] instant checkout in Chad GBT. Notice
+- [19:41] both Google and opening at this point.
+- [19:44] They're building that kind of like
+- [19:45] e-commerce more refers to like shopping.
+- [19:47] This is bigger than that. That's sort of
+- [19:49] this monetary layer, this this
+- [19:51] transaction layer on the internet that
+- [19:53] can be used by agents to buy services
+- [19:56] and engage in various activities.
+- [19:58] Interestingly, Google, as we've covered
+- [20:00] in a recent video, they've partnered up
+- [20:02] with Coinbase to handle the crypto side
+- [20:05] of those transactions, but they also
+- [20:07] have their own agent to agent payment
+- [20:09] protocol. And OpenI, of course, is
+- [20:12] building out their own side of it,
+- [20:14] right? So, buy it in Chad GPT, Instant
+- [20:16] Checkout, Agentic Commerce Protocol, and
+- [20:18] they're already partnering up with
+- [20:20] giants like Walmart and also Shopify.
+- [20:23] Shopify is huge. If you're a massive
+- [20:26] retailer online like Amazon, you sort of
+- [20:28] you have your own custom platform that
+- [20:30] you build. For a lot of other companies,
+- [20:32] including some rather large companies,
+- [20:35] they use Shopify. I've been doing
+- [20:36] e-commerce for a while. Shopify is is
+- [20:39] very good. There's some alternatives on
+- [20:41] WordPress which is open source which is
+- [20:43] nice but I'm guessing Shopify just
+- [20:45] dominates. So according to this chart,
+- [20:47] Shopify has 4.65
+- [20:50] million worldwide e-commerce stores.
+- [20:53] It's one of the biggest platforms
+- [20:54] although some other statistics show it
+- [20:56] as not being the biggest with Woo
+- [20:58] Commerce being the biggest. So for
+- [20:59] example e-commerce usage distribution in
+- [21:01] the top 1 million sites. So Shopify is
+- [21:04] 20% which is still huge, right? With Woo
+- [21:07] Commerce that's the WordPress more. It's
+- [21:10] on top of WordPress. That one is 27%.
+- [21:12] Oh, it looks like Shopify Plus is
+- [21:14] another 3%. So it's a little bit larger
+- [21:16] than that. The reason I bring that up is
+- [21:17] because a lot of this is getting
+- [21:19] integrated right into Chad GPT. So apps,
+- [21:22] checkouts, search, everything. And you
+- [21:25] know, some smart guy or gal will figure
+- [21:28] out how to make millions or billions
+- [21:31] with this by being one of the early
+- [21:32] movers. So, I believe it said that
+- [21:34] Spotify was added September 2nd, I think
+- [21:37] it did. So, this app, the ability to
+- [21:38] connect this app was added, you know,
+- [21:40] not that long ago. By the way, as this
+- [21:43] grows, you know, other podcasting shows,
+- [21:45] other companies will want to be on this.
+- [21:48] So, we're very early on. This might be a
+- [21:50] good time to poke around and see how
+- [21:52] things work. One other bit of news, this
+- [21:54] is from the information.com called
+- [21:56] OpenAI's growing ecosystem play. So, as
+- [21:59] we talked about, Chad GBT is going to
+- [22:01] have apps in Chad GBT. So, you can
+- [22:03] search for homes on Zillow or make
+- [22:05] Spotify playlists. OpenI's goal is to
+- [22:08] have a signin with Chad GPT just like
+- [22:10] you have signin with Google or Apple or
+- [22:13] whatever. And this might be very
+- [22:15] interesting to startups that want to use
+- [22:17] AI powered features provided by OpenAI.
+- [22:20] The interesting thing here is that for
+- [22:23] certain products, this would allow the
+- [22:25] customer to sign into a product like
+- [22:28] cursor or some AI coding assistant and
+- [22:30] it's the customer's account that would
+- [22:32] power that app basically paying for the
+- [22:36] open eyes API usage. So if I use my
+- [22:39] chatbt account to log into cursor for
+- [22:42] example then whatever I do in cursor if
+- [22:44] that incurs any cost in terms of
+- [22:46] generating tokens through openai I would
+- [22:48] pay that through my own account. That's
+- [22:50] in the case if you're using something
+- [22:52] like an API. This article doesn't talk
+- [22:55] about that. They're specifically talking
+- [22:56] about like if you have a pro account you
+- [22:58] let's say have 10 queries with GPT5 that
+- [23:01] you can run. So if you were to log into
+- [23:03] another app, that app would be able to
+- [23:06] use those queries on your behalf. So
+- [23:08] instead of the app paying for that
+- [23:10] service, it would be paid by sort of
+- [23:12] your account or at least offset by the
+- [23:15] 10 quote unquote free queries that you
+- [23:17] have. I hope that makes sense. So
+- [23:18] basically, you're using your account and
+- [23:20] its capacity, how many queries you're
+- [23:23] able to run against it to sort of
+- [23:24] subsidize the app and what they're doing
+- [23:26] on your behalf if you choose to log into
+- [23:29] that app through ChadBt. I'm sure I
+- [23:31] completely butchered explaining that. So
+- [23:33] here's a picture of Sam Alman if it
+- [23:36] helps. And in other news, Thermo Fisher
+- [23:38] and OpenAI collab to accelerate drug
+- [23:40] development through AI integration. So
+- [23:43] this is interesting because of course
+- [23:44] Google DeepMind is doing a lot in that
+- [23:47] field with Alphafold and various other
+- [23:50] AI models. Recently they had a massive
+- [23:53] medical breakthrough, brand new ground
+- [23:56] AI assisted discovery. We will cover
+- [23:58] that in a different video because that
+- [24:00] deserves its own separate video because
+- [24:02] it seems kind of huge. So, Thermo Fisher
+- [24:06] announced a landmark collab with OpenAI
+- [24:08] today to embed advanced artificial
+- [24:10] intelligence across its clinical trials
+- [24:12] business, aiming to accelerate drug
+- [24:14] discovery, simplify the research
+- [24:17] process, and get medicines to patients
+- [24:19] faster and cheaper. That's it in a
+- [24:21] nutshell. The rest of the article just
+- [24:23] repeats that same thing in many
+- [24:26] different ways. So, it's kind of hard to
+- [24:28] tell how huge this is. Is it just like,
+- [24:31] oh, the employees, the doctors, the
+- [24:34] researchers now have access to Chad GPT
+- [24:36] or some specific slightly tweaked
+- [24:39] version of it or this is something
+- [24:40] greater? It's hard to tell so far just
+- [24:42] from this. Of course, in other news,
+- [24:44] Walmart has announced a major
+- [24:46] partnership with OpenAI to build AI
+- [24:48] first shopping experiences directly into
+- [24:50] Chad GBT. You'll be able to shop Walmart
+- [24:52] Sam's Club using instant checkout.
+- [24:54] Wouldn't it be funny if Sam Alman at
+- [24:56] some point just opening I grow so much
+- [24:58] that it takes over Walmart and he would
+- [25:00] change Walmart to Alt Mart and Sam's
+- [25:03] Club to I'm still Sam's Club. I don't
+- [25:06] really care either way. I shop at
+- [25:07] Costco. And they're saying that the move
+- [25:09] shifts the model from reactive search to
+- [25:11] Agentic Commerce that predicts and plans
+- [25:13] shopping needs. This is where it could
+- [25:15] get kind of weird obviously, right?
+- [25:17] Because if there's some sort of a
+- [25:19] commercial pressure to push certain
+- [25:21] products, your favorite AI chatbot might
+- [25:24] be forced to just pitch you various crap
+- [25:27] you don't need. Again, I mean, there's a
+- [25:29] right and a wrong way to go about that.
+- [25:32] Let me know what your gut feeling is. Do
+- [25:34] you think this is going to be handled
+- [25:35] smart and with the consumer in mind or
+- [25:38] foolishly with the profit margins in
+- [25:41] mind? Sora 2 is wildly successful.
+- [25:44] 56,000 downloads in the first day of
+- [25:47] release. Then you had 164,000 times in
+- [25:51] the first two days. Keep in mind it's
+- [25:53] invite only. So they they do have that
+- [25:56] kind of scarcity built in and that might
+- [25:59] be part of the magic that's driving
+- [26:00] this. Now Sam Alman is aware of this
+- [26:03] idea that Chad PT must never trade trust
+- [26:06] for ad dollars. So certainly that's been
+- [26:09] a concern for me. I tend to nowadays
+- [26:11] rely on Chad PT for research. If the
+- [26:15] quality gets worse because somebody's
+- [26:17] trying to pitch me some product, number
+- [26:19] one, I'll lose a very valuable resource,
+- [26:22] trust with that company with Chad GBT
+- [26:25] will be broken. I'm hoping the other AI
+- [26:27] companies will have enough pressure
+- [26:29] there to kind of like it won't make
+- [26:31] sense for one of them to just cash in
+- [26:34] because we'll have other options, right?
+- [26:36] So, if there's Grock and Gemini,
+- [26:38] Anthropic and Chad, you know what? If if
+- [26:41] one of them is ruining their trust by
+- [26:44] just pushing ads in front of people, we
+- [26:46] can go somewhere else. But it almost
+- [26:48] does feel like the internet as we have
+- [26:52] known it all this time is going away,
+- [26:54] getting replaced by AI. Instead of
+- [26:56] browsing, we have our agents go out
+- [26:58] there and do things for us. Instead of
+- [27:00] searching, we run whatever GPT5 Pro or
+- [27:03] whatever you're using to do that
+- [27:05] research. Will Sor 2 be more popular
+- [27:08] than Tik Tok and YouTube Shorts and
+- [27:10] Instagram? We'll see. I'm not quite sure
+- [27:13] where that one's going, although it's
+- [27:15] been pretty popular so far. So, we'll
+- [27:17] see if that sort of fades away, the
+- [27:19] novelty fades away, or it just
+- [27:20] continues. And according to Epic AI,
+- [27:23] Open AI is experiencing one of the
+- [27:25] fastest revenue growth rates in
+- [27:27] corporate history with annualized
+- [27:28] revenue rising 3x a year from 2 billion
+- [27:31] at the end of 2023 to 13 billion by
+- [27:35] August 2025. So there's revenue growth.
+- [27:38] A lot of these large massive companies
+- [27:41] that have more cash than some nations,
+- [27:44] they're pouring in a lot of money into
+- [27:46] these various deals and building out
+- [27:49] data centers. And while some people are
+- [27:51] convinced that we're at the peak of the
+- [27:53] bubble, this train doesn't seem to be
+- [27:56] slowing down. So, either we're just
+- [27:58] picking up speed or we're about to go
+- [28:00] off the rails. Let me know what you
+- [28:02] think. Leave a comment down below. Thank
+- [28:04] you so much for watching. My name is Wes
+- [28:06] Roth. See you in the next

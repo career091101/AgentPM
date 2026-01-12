@@ -1,0 +1,1019 @@
+---
+title: "OpenAI Agent Platform Tutorial"
+video_id: "g93XqSRxcAs"
+video_url: "https://www.youtube.com/watch?v=g93XqSRxcAs"
+speaker: "Tim"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "MCP"
+  - "Programming"
+  - "Tutorial"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Today I'm having a look at OpenAI's new
+  agent builder. This was released a few
+  weeks ago. It's pretty cool. You can
+key_points:
+  - "agent builder. This was released a few"
+  - "weeks ago. It's pretty cool. You can"
+  - "share with you my thoughts because while"
+  - "it is really interesting, there are a"
+  - "agent builder. So, this is the interface"
+  - "this. I just have an example agent that"
+  - "here. And you can see that you have all"
+  - "And you can connect these together kind"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: g93XqSRxcAs
+
+- URL: https://www.youtube.com/watch?v=g93XqSRxcAs
+- Language: en
+- Retrieved at: 2025-12-30T13:03:48+09:00
+
+## Text
+
+- [00:00] Today I'm having a look at OpenAI's new
+- [00:02] agent builder. This was released a few
+- [00:04] weeks ago. It's pretty cool. You can
+- [00:06] create some really interesting agents.
+- [00:08] I've been messing around with it, seeing
+- [00:09] what it's capable of and building a few
+- [00:11] agents of my own. I want to give you
+- [00:13] kind of a quick demo/ tutorial and then
+- [00:15] share with you my thoughts because while
+- [00:17] it is really interesting, there are a
+- [00:18] lot of limitations that I don't see many
+- [00:20] people talking about. Anyways, let's
+- [00:22] dive into it and have a look at the
+- [00:23] agent builder. So, this is the interface
+- [00:25] for the new agent builder. Looks like
+- [00:28] this. I just have an example agent that
+- [00:29] I was working on previously up on screen
+- [00:31] here. And you can see that you have all
+- [00:33] of these different blocks kind of like
+- [00:34] Scratch or like a drag and drop editor.
+- [00:36] And you can connect these together kind
+- [00:38] of just by dragging them through. You
+- [00:40] can click in, you can view all of the
+- [00:41] different options. And they have things
+- [00:43] like MCP connectors where you can
+- [00:44] connect directly to, you know, Google
+- [00:46] Drive or Shopify or you can bring in
+- [00:48] your own MCP server like this. Now,
+- [00:50] while that's pretty cool, it is fairly
+- [00:52] limited in terms of the external
+- [00:54] connections right now. But regardless,
+- [00:56] you can still create some pretty
+- [00:57] interesting flows like the one that I
+- [00:58] have right here. Now, I'm going to get
+- [01:00] into this flow. I'm going to show you an
+- [01:01] example of an agent that I've built and
+- [01:03] kind of how to do that and how to
+- [01:04] connect the different blocks. However, I
+- [01:06] want to quickly go over a lot of the
+- [01:07] things that OpenAI has released recently
+- [01:10] because it wasn't just this agent
+- [01:12] builder. Now, this is the original
+- [01:13] announcement back on October 6, about a
+- [01:15] month from when I'm filming this video.
+- [01:17] And you can see that they actually were
+- [01:19] introducing agent kit. Now, I guess
+- [01:21] that's what they're calling all of these
+- [01:23] kind of tools combined together. So, for
+- [01:25] example, that includes the agent
+- [01:27] builder, the connector registry, and
+- [01:29] then chatkit, which is kind of I guess
+- [01:31] like an add-on to the agent builder,
+- [01:33] which allows you to use these
+- [01:34] interesting widgets. So, you can have
+- [01:36] like forms, displays, list views,
+- [01:38] whatever. You can actually make your own
+- [01:40] widgets. So, you can display the data
+- [01:42] coming back from your agent in kind of a
+- [01:45] prettier, you know, more usable way.
+- [01:47] Now, what's worth noting here is that
+- [01:48] before this release, OpenAI had the
+- [01:50] responses API as well as the agents SDK,
+- [01:53] which was a more developer kind of
+- [01:55] centric way of building AI agents and
+- [01:57] communicating with OpenAI. You've
+- [01:59] probably used it or seen it used before,
+- [02:01] and this is just adding tools that make
+- [02:03] it easier to build those agents. Now,
+- [02:05] with that said, there's a lot of moving
+- [02:07] pieces here. There's a lot of tools that
+- [02:08] OpenAI now has. And to be honest, I'm
+- [02:10] pretty confused by all of the ones that
+- [02:12] they have and how they work together. A
+- [02:14] lot of their documentation is currently
+- [02:16] not working or not up to date. I read
+- [02:18] through a lot of it before preparing for
+- [02:19] this video. So, while all of this stuff
+- [02:21] is cool, it is still very early days and
+- [02:23] I hope that they fix it soon because
+- [02:25] there's a lot of stuff I wanted to do
+- [02:26] that I just couldn't figure out how to
+- [02:28] do in a relatively short period of time
+- [02:30] because of how confusing some of these
+- [02:32] tools are. Anyways, that's kind of the
+- [02:33] new release. I'll also just quickly show
+- [02:35] you that chatkit is kind of this more
+- [02:37] developer focused, you know, add-on to
+- [02:40] this agent builder. So, while you can
+- [02:42] build your custom agent and you can mess
+- [02:43] around with it in the browser and you
+- [02:45] don't really need to know how to code,
+- [02:46] if you want to use something like
+- [02:47] Chatkit and have these really fancy
+- [02:49] widgets, which I'll show you in a
+- [02:50] second, you do need to have a little bit
+- [02:52] of developer experience here and embed
+- [02:54] these directly in your front end with
+- [02:56] some kind of flow like this. Again, I'll
+- [02:58] have a look at that in a second, but
+- [02:59] just letting you know that while it
+- [03:00] seems cool with the agent builder, if
+- [03:02] you really want this to work kind of
+- [03:04] like in a production setting, you
+- [03:06] definitely need to know how to code. And
+- [03:07] there is a lot of configuration and
+- [03:09] setup that is not that easy to do. And
+- [03:11] just to give you a quick idea of what I
+- [03:12] mean here, if I go to the chatkit Python
+- [03:14] SDK, you can see it doesn't even have a
+- [03:17] readme file here. It just has this like
+- [03:18] random Apache license that we're having
+- [03:20] a look at. Pretty much a brand new repo
+- [03:22] with like kind of no activity and
+- [03:24] nothing going on. And this is what
+- [03:25] they're expecting you to look at to
+- [03:27] learn how to use the SDK. So yeah, it's
+- [03:29] uh you know, early days here for a lot
+- [03:31] of the developer or more advanced tools.
+- [03:33] Anyways, let's go back into the agent
+- [03:34] builder. Let me show you this agent that
+- [03:36] I built and kind of how you could
+- [03:37] replicate the same. And you'll notice
+- [03:38] here that OpenAI is really pushing
+- [03:40] towards building kind of agentic tools
+- [03:42] and allowing developers to build AI
+- [03:44] agents. And that's because as we advance
+- [03:46] more with AI, it's a lot less about just
+- [03:49] LLMs and how well they can reason, but
+- [03:51] more so about the actions that they can
+- [03:53] actually take. Now, that's exactly where
+- [03:55] today's sponsor as well comes in, and
+- [03:57] that's Rube.app. Now, think of Rube as
+- [04:00] your AI's chief of staff. Not just a
+- [04:02] notetaker, but a command center. Once
+- [04:04] you connect it, Rub sits inside of your
+- [04:06] existing AI tools, whether you're using
+- [04:08] chat GPT, claude, cursor, or even VS
+- [04:11] Code, and it gives them the power to use
+- [04:13] real apps securely and autonomously. Now
+- [04:16] look here, I can connect this directly
+- [04:17] inside of chat GPT. It also works inside
+- [04:19] of the agent builder, and it's built by
+- [04:21] Composeio and it acts as a universal
+- [04:24] action layer across more than 600
+- [04:26] applications. So things like Gmail,
+- [04:28] Notion, Slack, Salesforce, even your
+- [04:30] calendar. You just authenticate one time
+- [04:32] and from then on your AI can execute
+- [04:34] full workflows in plain English. So
+- [04:36] instead of prompting something like
+- [04:38] summarize my emails, you can go all the
+- [04:40] way. Find all unread emails from the
+- [04:42] past week, summarize the key points in
+- [04:44] notion, and message my team on Slack if
+- [04:46] any need follow-up. Rube automatically
+- [04:48] handles the right tool connections,
+- [04:50] authenticates securely, and executes
+- [04:52] each step in the optimal order, all
+- [04:54] within your chat. It also has memory. So
+- [04:57] that means it learns how you work, who
+- [04:58] to ping, how you name things, when you
+- [05:00] prefer summaries, etc. Now, it's the
+- [05:03] first real unified action layer that
+- [05:05] I've seen that actually feels like a
+- [05:06] natural extension of your AI. It's free
+- [05:09] right now while it's in beta. So, if you
+- [05:11] want to turn your LLM into something
+- [05:12] that can actually do things, go try it
+- [05:14] out at the link in the description.
+- [05:16] Anyways, let's get back into it here and
+- [05:18] have a look at these agents that you can
+- [05:20] build with the agent builder. Okay, so
+- [05:22] in terms of the agent builder, let me
+- [05:23] give you a demo of one of the ones that
+- [05:24] I've built so far so you can see kind of
+- [05:26] what's possible and then we'll go into a
+- [05:28] blank flow and I'll show you kind of the
+- [05:29] basics of connecting and some of the
+- [05:31] limitations that it does have. So what
+- [05:33] I'll do is I'll just press on preview
+- [05:34] right here. And from here I'm able to
+- [05:36] test my workflow. So the flow that I set
+- [05:38] up here is that I want to use multiple
+- [05:40] agents to help me generate an outline
+- [05:42] for a YouTube video. So my idea is that
+- [05:44] first I want to generate kind of like a
+- [05:46] viral YouTube video title. I want to
+- [05:48] select which title that I want to
+- [05:49] generate the outline for and then I want
+- [05:51] to have the model go ahead and generate
+- [05:53] a full outline and let me revise it
+- [05:55] based on my feedback. So you can see
+- [05:56] that that's kind of everything that's
+- [05:58] happening here. So the first thing I'll
+- [05:59] do is I'll just tell it you know I want
+- [06:01] to generate a YouTube video for open AI
+- [06:08] new [snorts]
+- [06:08] AI agent builder. Okay. So I just tell
+- [06:11] it that and then we can see we can
+- [06:13] actually watch it run through this flow.
+- [06:14] goes into the if statement, goes here to
+- [06:16] the video title generator and then
+- [06:18] starts generating our titles. Now, we
+- [06:20] just got the output, but you'll notice
+- [06:21] here that it actually used a tool that I
+- [06:23] gave it. So, it was searching the web,
+- [06:25] kind of looking for information on the
+- [06:27] OpenAI agent builder, and then what it
+- [06:29] did is it generated a bunch of titles in
+- [06:31] this JSON format and displayed it using
+- [06:33] one of the new chat widgets. Now, this
+- [06:35] widget that you see here comes from
+- [06:37] chatkit. Again, we'll talk about in a
+- [06:38] second, but that's how I'm able to
+- [06:39] display this in kind of a nice format.
+- [06:41] Unfortunately, pressing on these doesn't
+- [06:44] work directly inside of the preview. In
+- [06:46] order to interact with the widgets, you
+- [06:47] need to connect this to your own backend
+- [06:49] server and set up honestly quite a bit
+- [06:51] of code so that you can actually track
+- [06:52] the state and kind of register the
+- [06:54] events and what are being pressed with
+- [06:56] these various widgets. But regardless,
+- [06:58] what I can do now is pick one of these.
+- [06:59] So maybe something like I built three
+- [07:00] agents, right? And then I can approve
+- [07:02] this. So it says, would you like to
+- [07:03] select one of these titles or do you
+- [07:05] want to try again? If I press try again,
+- [07:07] then we can generate more titles. If
+- [07:09] not, I'll press approve. And then it's
+- [07:11] going to wait for me to actually select
+- [07:13] the title that I want. So now I can just
+- [07:14] paste in the title. You know, I built
+- [07:16] three agents with agent kit. You'll see
+- [07:18] now that in this if statement, it's
+- [07:20] going to go to this next agent where it
+- [07:21] tries to parse out the title from the
+- [07:23] text that I provided. And then what it
+- [07:25] starts to do is ask, okay, do you want
+- [07:27] to generate, you know, an outline for
+- [07:29] this video? So in this case, three
+- [07:30] agents. I'm going to go ahead and press
+- [07:32] on approve for that. And then what it's
+- [07:34] going to do is start generating this
+- [07:36] outline for me. Now, the way you set up
+- [07:38] the flows here is not super intuitive.
+- [07:40] And to be honest, I wish they had a lot
+- [07:42] more blocks and options because for
+- [07:44] example, you know, I can't just press on
+- [07:46] one of these things and have it be
+- [07:47] selected. So the only way I can kind of
+- [07:49] like select an option from my agent if
+- [07:51] I'm using this type of mode where I'm
+- [07:53] not trying to write a bunch of custom
+- [07:54] code is if I type it in, right? Which is
+- [07:56] why I need to kind of do this repeated
+- [07:57] step of typing in this title when really
+- [08:00] I should be able to just like press it
+- [08:01] and have the outline generated. So,
+- [08:03] there's a few weird things like that you
+- [08:04] that you'll notice with the uh kind of
+- [08:06] flow as we start building one. But
+- [08:08] you'll see that what it's done now is
+- [08:09] generated this outline for me. So, 12 to
+- [08:11] 14 minutes blah blah blah kind of gives
+- [08:13] me the outline of the video. And then if
+- [08:15] I want, I can start chatting with it and
+- [08:17] revising the outline. And if that's the
+- [08:19] case, we would go into kind of this top
+- [08:21] loop up here because of how I've set up
+- [08:23] the if statements. Now, the interesting
+- [08:24] thing about this agent builder is that
+- [08:26] it does allow you to persist state. So
+- [08:28] you'll notice that I have these kind of
+- [08:30] set state blocks here where anytime I do
+- [08:32] something or make a decision, I can
+- [08:34] change the state which then will adjust
+- [08:36] what's going to happen in the next run.
+- [08:38] So for example, you know, we go and we
+- [08:40] generate a title and then I set the
+- [08:42] state saying, okay, we've already
+- [08:43] generated a bunch of title ideas. Then
+- [08:46] when we select a title, I set the state
+- [08:48] to indicate what title we've selected.
+- [08:50] And when I generate an outline, I save
+- [08:51] that outline in the state. By having
+- [08:53] that different state, I'm now able to
+- [08:55] redirect the agent to go into different
+- [08:57] paths and kind of use different AI
+- [08:59] agents so that it can do something
+- [09:01] different based on the current step that
+- [09:02] we're on in this flow. Now, a lot of
+- [09:04] other AI agent builders actually do this
+- [09:06] a lot better in my opinion, but at least
+- [09:08] for a first stab at, you know, OpenAI's
+- [09:10] agent builder, this is pretty good and
+- [09:12] the state is very useful because it's
+- [09:13] persisted. Anyways, that's just a quick
+- [09:15] example of something that I personally
+- [09:17] built here in the agent builder when I
+- [09:18] was kind of learning this and messing
+- [09:19] around with it. Now, what I want to do
+- [09:21] is get into a blank flow and kind of
+- [09:23] show you how you can create your own. Go
+- [09:24] through some of the blocks and talk
+- [09:26] about how to connect them because it's
+- [09:27] not extremely intuitive. So, if you go
+- [09:29] into the Asian builder, you can just do
+- [09:31] that by searching, you know, agent
+- [09:32] builder OpenAI. And if you have an
+- [09:34] account, you're able to sign in and
+- [09:35] access it right here. You'll notice that
+- [09:37] kind of in the main window, you actually
+- [09:39] have a bunch of different options. So,
+- [09:40] you now have stuff for, for example,
+- [09:42] creating audio, right? Or getting text
+- [09:44] to speech. You can do image generation
+- [09:46] here. I haven't messed with that too
+- [09:47] much. You can have different assistants
+- [09:49] which work quite a bit different than
+- [09:50] the agent flow there. You can view your
+- [09:52] usage. These do use a lot of tokens so
+- [09:55] just be careful. In my case, I think I
+- [09:56] used like 10 bucks the other day messing
+- [09:58] around with it. You can view your logs,
+- [10:00] your storage batches, all of that kind
+- [10:02] of stuff. And something interesting here
+- [10:04] is that while the agent builder does
+- [10:06] support vector search, so it allows you
+- [10:08] to actually search through vector
+- [10:09] databases and find information, in order
+- [10:11] to do that, you need to use a built-in
+- [10:14] vector search with OpenAI. So you would
+- [10:16] have to create your own vector store or
+- [10:17] upload your own files here to be able to
+- [10:20] pull that data in directly natively in
+- [10:22] the agent builder. Now you can do this
+- [10:24] from code which I'll show you in a
+- [10:25] second. Uh but it is obviously easier in
+- [10:28] this kind of flow. So if you come to the
+- [10:30] agent builder you'll see that there's a
+- [10:31] bunch of different templates. You can
+- [10:32] have a look at them. I don't find them
+- [10:34] that useful to be honest with you. So
+- [10:36] what I've been doing is just creating a
+- [10:37] new empty agent and kind of going from
+- [10:39] here. So, now that I've made a new
+- [10:40] agent, I'll just build like a quick flow
+- [10:42] and show you kind of how to connect it
+- [10:43] and some of the options that are worth
+- [10:45] going over. But also note that you can
+- [10:47] use this directly from the agents SDK.
+- [10:50] So, for example, you can actually just
+- [10:52] copy all of the code right here. And
+- [10:54] this is a kind of textbased
+- [10:56] representation of the agent that you've
+- [10:58] built. So, you see we have, you know, a
+- [11:00] new agent, we have a workflow. In order
+- [11:02] to run the workflow, we keep track of
+- [11:03] the conversation history and then we run
+- [11:05] the agent. And if I were to go here and
+- [11:07] add like another kind of I don't know
+- [11:10] connection and then we go up here to
+- [11:12] code and we look at the agents SDK,
+- [11:13] you'll see it automatically adds the
+- [11:15] code for the guardrail. So if you want
+- [11:17] to do something more advanced, you can
+- [11:19] do that by going directly into the code
+- [11:21] and modifying that or just running it
+- [11:23] natively with the SDKs on your own
+- [11:25] computer. Again, that's going to take a
+- [11:27] lot longer, but you can do that. Now,
+- [11:29] you also have the option here of
+- [11:30] embedding this using Chatkit. This is a
+- [11:32] little bit easier than running all of
+- [11:33] the code here. What this allows you to
+- [11:35] do is essentially rely on OpenAI servers
+- [11:38] to kind of host your agent. And what you
+- [11:40] can do is you can embed kind of the chat
+- [11:42] window and all of the widgets directly
+- [11:44] on your own front end. And then you can
+- [11:47] essentially send the request to the
+- [11:49] OpenAI backend, deal with the agent, and
+- [11:51] then get all of the feedback on your
+- [11:52] front end. Like I said before, does
+- [11:54] require a little bit of setup there, but
+- [11:56] this allows you to have a lot more
+- [11:57] customization and to actually interact
+- [12:00] with the widgets and create some more
+- [12:02] complex flows. If you guys want a full
+- [12:03] tutorial on this aimed at developers,
+- [12:05] I'm happy to do that in the future. So,
+- [12:07] just let me know. But I wanted to just
+- [12:08] let you know that it does have these
+- [12:10] features and you can get more advanced
+- [12:11] as a developer if you want to. You're
+- [12:13] not limited just to this kind of visual
+- [12:15] flow builder. Anyways, let's start
+- [12:17] building something quite simple. So, if
+- [12:18] we start going through some of the
+- [12:19] nodes, you'll notice that you always
+- [12:21] need to start with a start node. Now,
+- [12:23] from this start node, you're able to
+- [12:24] have various state variables and you can
+- [12:26] define them at the beginning or you can
+- [12:28] leave them undefined. So, for example,
+- [12:29] we could have something like the user's
+- [12:31] name, right? And we can just leave that
+- [12:32] as an undefined value to begin. We can
+- [12:35] have an object. We can have a list. And
+- [12:37] with this state, because it persists
+- [12:38] between the different runs of the agent,
+- [12:40] you can create some more complex flows
+- [12:42] where you for example like ask the user
+- [12:44] for their name. After you get their
+- [12:45] name, you ask them, you know, what they
+- [12:46] want to order, something along those
+- [12:48] lines. So to show you an example of that
+- [12:50] flow, we can have some agent right here.
+- [12:52] We can call this like name collection.
+- [12:55] From here, what we're able to do is give
+- [12:57] it a system prompt. So that's what this
+- [12:59] instruction is right here. And we can
+- [13:01] say something like you
+- [13:04] need to let's say ask a user for their
+- [13:09] name find their name and return it. If
+- [13:15] there is no name
+- [13:18] then return null or something. Okay
+- [13:21] great. So you can give it kind of the
+- [13:23] system prompt explaining what it needs
+- [13:24] to do. If you want to add context to
+- [13:26] this prompt you can directly do that by
+- [13:27] just passing in the context. Now what I
+- [13:30] suggest doing is keeping this as the
+- [13:31] instruction prompt and then pressing
+- [13:32] this plus button here which gives you
+- [13:34] the user prompt. So this one is the
+- [13:36] instructions. Then from here you can add
+- [13:37] an assistant or user prompt. So here
+- [13:39] what we can do is just add the context
+- [13:41] which is this. So this is the from the
+- [13:43] start node whatever the user typed in
+- [13:45] the workflow.input as text and now what
+- [13:48] will happen is it will read through this
+- [13:49] message use these instructions try to
+- [13:51] pull out the name. Now from here you can
+- [13:53] choose things like if you want to
+- [13:54] include this in the chat history you can
+- [13:56] of course pick your model. You can just
+- [13:57] leave it on GPT5. You can put the amount
+- [13:59] of reasoning that it should do,
+- [14:00] especially if it needs to plan like a
+- [14:02] larger task. In this case, it's minimal
+- [14:04] because we just want to get the name.
+- [14:05] And then if you want, you can directly
+- [14:07] add tools here. So, in terms of adding
+- [14:09] tools to the agent here, this really
+- [14:11] only works well if you're going to run
+- [14:13] this in your own environment and you're
+- [14:15] going to have your own backend setup.
+- [14:16] The way that the tool calls work is that
+- [14:18] if you use a function for example, you
+- [14:20] have to write in the definition for how
+- [14:22] this function should be called and then
+- [14:24] the agent will essentially generate a
+- [14:26] tool call that you would need to
+- [14:28] manually handle yourself on the back
+- [14:30] end. So if I just generate something
+- [14:32] like you know tool that gets weather or
+- [14:37] something so you can just generate it
+- [14:38] with AI it will create this kind of tool
+- [14:40] spec for us here but it won't actually
+- [14:43] perform the action for that tool. So if
+- [14:45] you have a look at this spec here, we
+- [14:46] define what the tool call should look
+- [14:48] like and how this function should be
+- [14:50] called. But if the model generates a
+- [14:52] tool call, we don't know what the actual
+- [14:54] function is, right, for getting the
+- [14:55] weather. So we would have to actually
+- [14:56] implement that ourselves on our server
+- [14:59] to actually get the weather and then
+- [15:00] return that back to the model. So while
+- [15:02] it's interesting, it does require a lot
+- [15:04] of kind of developer intervention. So if
+- [15:06] you want to use some of those tools,
+- [15:07] keep that in mind. This requires you to
+- [15:08] actually go into the code, write the
+- [15:10] tool yourself, and kind of intercept the
+- [15:12] tool call from the model and then handle
+- [15:13] that. Now, if you want to use, for
+- [15:15] example, a client tool, same thing. You
+- [15:17] can write a client tool, and in this
+- [15:19] case, it will be triggered directly on
+- [15:20] your front end, whereas the other tools
+- [15:22] are going to be triggered on your back
+- [15:23] end if you're hosting this agent. Now,
+- [15:25] there's a bunch of other stuff here. I
+- [15:26] won't go into all of the settings, but
+- [15:27] this so far should collect the name. And
+- [15:30] then what we can do is we can change the
+- [15:32] output format. So, for the output
+- [15:34] format, we have a few options. Text is
+- [15:35] the default. We also have JSON and
+- [15:38] widget. Now this is extremely useful
+- [15:39] because a lot of times you want these
+- [15:41] models to return something structured
+- [15:43] that's consistent. So in our case we
+- [15:45] just want it to return a name. So what
+- [15:46] we can do is we can have output format
+- [15:48] which is JSON and we can go here and
+- [15:50] define the schema that we want it to
+- [15:52] return. So we can go to add property
+- [15:54] here and we can do something like name
+- [15:56] and then we can give a description and
+- [15:57] say the name the user entered like that.
+- [16:01] Right? And then we can go to another
+- [16:02] property and we can do something like a
+- [16:03] boolean and say name found and we'll say
+- [16:07] if a name was detected. So now what will
+- [16:11] happen if we spell this correctly is the
+- [16:13] model will return only this information
+- [16:15] to us. So we'll give us an object that
+- [16:17] contains this name field and this name
+- [16:19] found field and we can then use that to
+- [16:21] kind of figure out what to do next in
+- [16:22] our flow. So I'm going to update this
+- [16:24] here. We now have the response schema
+- [16:26] and what we could do now is we could go
+- [16:28] into something like an if statement,
+- [16:30] right? So I can now put this into an if
+- [16:32] statement and I can start writing some
+- [16:33] conditions. So I can do something like
+- [16:35] if and we'll have the case. So for the
+- [16:37] case name we'll say name found and then
+- [16:40] the condition is we can look at the
+- [16:42] output that came from this agent. We can
+- [16:44] look for example if the name was found.
+- [16:45] So we can say if the name was found was
+- [16:47] equal to true like that then we can do
+- [16:49] something and then we can have another
+- [16:51] case which is an else if or we can just
+- [16:53] leave it as else. So here we're going to
+- [16:55] say if the name was found then what we
+- [16:57] can do is we can go into maybe another
+- [16:59] agent and we can ask the user to do
+- [17:00] something otherwise we could just end
+- [17:03] right and we can bring in this end node.
+- [17:05] So if we put in the end node we'll just
+- [17:06] immediately terminate it right there.
+- [17:08] Otherwise, we can go into this agent and
+- [17:09] we'll just say something like answer the
+- [17:13] user's
+- [17:15] question and always let's see like this
+- [17:19] always refer to them by name and then
+- [17:23] we're going to put the name in here so
+- [17:24] we can add the context which is their
+- [17:26] name. Perfect. And then that's kind of
+- [17:28] all that we need. And then what we could
+- [17:29] do after this is we can go and we can
+- [17:31] end. So that's a very simple flow. If
+- [17:34] you want to test the flow, you can go to
+- [17:36] the preview and you can say something
+- [17:38] like, "Hey, how are you? My name is
+- [17:42] Tim." Okay, so let's wait for this to
+- [17:45] run and let's see what happens. So,
+- [17:46] we're going into the name collection. It
+- [17:48] says the name is Tim. The name was
+- [17:49] found. And then we go into the if
+- [17:51] statement. We go into this agent. And
+- [17:52] then from the agent here, it says, "Hi,
+- [17:54] Tim. I'm doing well. Thanks for asking.
+- [17:55] How can I help you today?" So, it didn't
+- [17:57] prompt us here to actually type
+- [17:58] something in again. It just went
+- [17:59] directly into this agent and kind of
+- [18:01] executed that um instruction. And that's
+- [18:03] the thing that I don't really like about
+- [18:04] this is that I can't kind of enter
+- [18:06] another text string later on. I need to
+- [18:09] restart the flow in order to do that. So
+- [18:11] because of this limitation where you
+- [18:13] can't really provide new input in the
+- [18:15] middle of the flow, it means that you
+- [18:17] need to build these agents in a certain
+- [18:19] way so that they can kind of run again
+- [18:21] from the beginning but go down a
+- [18:23] separate path based on the current
+- [18:25] state. Now, this is really only a
+- [18:27] limitation when you're doing it inside
+- [18:28] of the agent builder like I am right
+- [18:30] here. If you use custom code, then you
+- [18:33] can inject current state by using things
+- [18:35] like widgets, which again I keep saying,
+- [18:36] but I will show you in a minute. But for
+- [18:38] now, let me show you the pattern that
+- [18:40] I've been using so that this agent
+- [18:41] actually makes sense because the idea is
+- [18:43] we want to ask the user, okay, like
+- [18:44] what's your name? And then we want to
+- [18:46] use their name throughout the rest of
+- [18:47] the flow in future conversation. So what
+- [18:50] we have right now doesn't really make
+- [18:51] sense because we ask the user their
+- [18:53] name, but then if they don't have any
+- [18:54] question in that text, when we go to
+- [18:56] this next agent, it doesn't really do
+- [18:58] anything for us. So we need to move
+- [18:59] things around a little bit where rather
+- [19:02] than us kind of doing this if else right
+- [19:04] now, we actually do it at the beginning.
+- [19:06] So let me just kind of disconnect these
+- [19:08] agents here and we're going to put the
+- [19:11] if like this and we're going to pretty
+- [19:13] much just change everything. So
+- [19:15] essentially what we're going to do here
+- [19:17] is we're going to start by adding some
+- [19:18] state. So if we go to start, we have the
+- [19:21] name, right? Okay, so that's good. So
+- [19:22] the state's already there. And now what
+- [19:24] we're going to do is we're going to say
+- [19:26] okay if the and this is going to be
+- [19:29] name. So we're going to say if the
+- [19:31] state.name does not equal null which
+- [19:34] means it's not empty essentially. So we
+- [19:36] have some name that means we found the
+- [19:39] name. So if we found the name we're
+- [19:41] going to connect it to this agent like
+- [19:44] this. Otherwise, what we're going to do
+- [19:46] is we're going to go to this name
+- [19:47] collection agent. And then after the
+- [19:49] agent collects the name, we're going to
+- [19:51] use this set state block where in the
+- [19:54] set state, we're going to say that we
+- [19:56] want to assign to the variable name. And
+- [19:58] what we want to assign is the name like
+- [20:01] this. Okay. So, we're going to say all
+- [20:02] right, we go to the name collection
+- [20:04] agent. We get the name. If there is some
+- [20:06] name, right, we assign that as the
+- [20:08] string. Okay. And then we can go to end.
+- [20:11] Now, there's other ways that we can do
+- [20:13] this that makes it actually work a
+- [20:14] little bit better. So, in fact, let's
+- [20:15] change this a bit just so I can show you
+- [20:16] how this works. So, rather than just
+- [20:18] storing the name, we're also going to
+- [20:19] have a boolean and we'll say name
+- [20:22] found like that. And by default, we can
+- [20:25] make this equal to false. So, now in our
+- [20:28] if we can actually make this a little
+- [20:29] bit more clear and rather than
+- [20:30] state.name, we can say name_found
+- [20:33] like that. So, we can say if the
+- [20:35] name.found is true, then what we're
+- [20:37] going to do is go to this agent right
+- [20:39] here where we'll create the user.
+- [20:40] Otherwise, what we can do is go here and
+- [20:43] then we can set state and we can set
+- [20:44] multiple things. So, we can set the name
+- [20:46] as well as we can set if the name is
+- [20:48] found and we can assign this the value
+- [20:50] of true. Okay, so we just have two sets
+- [20:53] here inside of this set state and then
+- [20:55] we end. And then here, let's make sure
+- [20:56] the name is correct. It is. So, now we
+- [20:59] have the if else at the beginning. So,
+- [21:01] if we go and we preview and say, hey, my
+- [21:04] name is Tim. Okay. And just wait one
+- [21:08] second. And now you saw we went into the
+- [21:10] name collection where it says okay you
+- [21:11] know the name is Tim the name found is
+- [21:13] true. Now if I type like hey how are
+- [21:16] you? We should see that we go into this
+- [21:19] top agent here which we do because the
+- [21:21] name state was found and was already
+- [21:23] set. So that's kind of how we do this
+- [21:25] with the state. So now we get the
+- [21:26] response from the agent where it asks us
+- [21:28] how it can help us. So that's kind of
+- [21:30] the pattern that you're typically going
+- [21:31] to use is you're going to set the state
+- [21:32] and then here you'll check for the state
+- [21:34] at the beginning and then you can go
+- [21:35] down a different path if that's the flow
+- [21:37] that you want to follow. Now where this
+- [21:39] gets even more interesting is when you
+- [21:41] can start integrating widgets. So for
+- [21:43] example you saw that when we collect the
+- [21:45] um kind of name it doesn't really give
+- [21:47] us any output right what it does is it
+- [21:49] gives us this JSON but it's showing that
+- [21:51] JSON in the chat which doesn't really
+- [21:52] look very nice. So what we can do is we
+- [21:54] can actually just uncheck this so we're
+- [21:56] no longer displaying the response in the
+- [21:57] chat. And then what we can do is we can
+- [21:59] kind of add another agent in here where
+- [22:01] we can maybe greet the user before we
+- [22:03] move them to the next stage. So we can
+- [22:05] just connect another agent for this
+- [22:07] agent. We can just call this greeter or
+- [22:10] something. Going to say greet the user
+- [22:13] with the name. Okay. And then we're
+- [22:15] going to add the context which is name
+- [22:18] and a random fact. Okay. So now we can
+- [22:22] actually just output some text and we
+- [22:24] can see that. However, if we want, we
+- [22:26] can make this even more interesting by
+- [22:28] integrating what's called a widget. So,
+- [22:30] rather than going output format to JSON
+- [22:32] or text, we can use widget, which comes
+- [22:34] from checkin. Now, if we select widget
+- [22:36] here, what we're able to do is add a
+- [22:38] widget. And in order to add a widget, we
+- [22:40] need to create one. So, I'm going to go
+- [22:42] to this create button right here. And it
+- [22:44] brings me to this new page, which is
+- [22:45] called the widget builder. Now, from the
+- [22:47] widget builder, we can look at existing
+- [22:49] widgets. You can see these are examples
+- [22:50] of like chat widgets which is a way to
+- [22:53] return data in kind of a nice format. So
+- [22:55] you can see that we have like this
+- [22:57] weather format, right? We have this date
+- [22:59] format or calendar format. So what we're
+- [23:01] able to do is create these custom
+- [23:03] widgets, tell the model, hey, we want to
+- [23:05] output the text in this widget format
+- [23:07] and the model automatically returns data
+- [23:09] that can populate these widgets. So for
+- [23:12] example, here's a widget that I actually
+- [23:13] made. It's like this kind of YouTube
+- [23:15] outline widget. I'm not using it right
+- [23:16] now, but it's one that I set up. We have
+- [23:19] this suggested videos widget. You
+- [23:21] already saw this in the first example.
+- [23:23] So you can make these widgets whatever
+- [23:24] you want. Now there's also existing
+- [23:26] components that you can use to kind of
+- [23:28] build these widgets out. You can style
+- [23:29] them. You can have charts. But what's
+- [23:31] really interesting is that you can just
+- [23:33] use AI to make the widget. So for
+- [23:35] example, I can just ask something like I
+- [23:37] want a widget that displays what the
+- [23:39] user's name is and a random fact. It
+- [23:41] should be colorful and fun. Okay. So I'm
+- [23:44] going to go here and press enter. and
+- [23:46] then it will just generate a widget for
+- [23:48] us which we can download upload back
+- [23:50] into the agent builder and then we can
+- [23:52] output text in that widget format. Okay,
+- [23:54] so it's been a minute. You can see here
+- [23:55] that it's now generated a widget. We
+- [23:57] have like a dark theme one as well as a
+- [23:59] light theme one. And what we're able to
+- [24:00] do is see the schema for the widget
+- [24:02] which is the information that our model
+- [24:04] would need to pass in in order to
+- [24:06] generate this widget. Uh this is the
+- [24:07] default information. Sorry, this is the
+- [24:09] schema. My bad. And you can see what it
+- [24:11] looks like, right? So this is the code
+- [24:13] and then this is the widget itself. Now,
+- [24:14] what you're able to do here is simply
+- [24:16] download the widget. So, you can just
+- [24:17] press download. I'm going to save it
+- [24:18] into my widgets here. And then what we
+- [24:21] can do is go back to the agent builder
+- [24:23] and we can simply upload it. So, go to
+- [24:25] widgets. I'll select the widget that I
+- [24:27] created. It shows us what it looks like.
+- [24:29] We can view the code for it. And now
+- [24:31] what we'll do is close. And now, if we
+- [24:34] run our flow, we should be able to see
+- [24:35] this widget. So, I'm going to say, hey,
+- [24:37] my name is Tim. Notice, by the way, you
+- [24:39] can also see the state variables here on
+- [24:41] the first run. And you can modify those.
+- [24:43] And I'm going to press enter. So you can
+- [24:45] see it now greets us. It says hi Tim. It
+- [24:47] says here's a fun fact. And then it
+- [24:48] gives us a random fun fact. And if we
+- [24:50] say what is the weather or something the
+- [24:53] weather today. Okay. And we just go
+- [24:55] ahead and press enter. It should now go
+- [24:57] into the other agent because it already
+- [24:58] has our name. And then it should give us
+- [25:00] the answer. So let's give this a second.
+- [25:02] It's reasoning blah blah blah. Looking
+- [25:03] up the weather and says I can help you
+- [25:05] with that. You know tell me the zip code
+- [25:06] whatever. Okay. Anyways, there you go.
+- [25:09] That is a simple example of building the
+- [25:10] agent. Now, of course, there is a lot of
+- [25:12] other tools that I didn't yet go into,
+- [25:14] right? For example, we have user
+- [25:15] approval. With the user approval, it's
+- [25:17] pretty straightforward. It just allows
+- [25:18] the user to either do approve or reject.
+- [25:21] You cannot change the name of these
+- [25:22] buttons. That's it. So, you can just
+- [25:24] have one flow that you go off of if you
+- [25:26] want to approve something, one that you
+- [25:27] go off of if you want to reject
+- [25:28] something. And this is kind of the one
+- [25:30] way that the user can intervene in kind
+- [25:32] of the middle of the uh flow. But that's
+- [25:35] pretty much it. Let me just delete this
+- [25:37] one. You also have the wall loop. Um,
+- [25:39] this allows you to keep looping based on
+- [25:40] some condition as you can see here.
+- [25:42] However, this is pretty tricky to use.
+- [25:44] So, I wouldn't suggest it unless you
+- [25:46] really need that flow. You have notes,
+- [25:48] right? So, you can just put a note and
+- [25:49] says, you know, check this, whatever,
+- [25:51] right? If you want to notify kind of
+- [25:53] what's going on in there. And then you
+- [25:55] have the file search. This only works
+- [25:57] inside of a vector ID created with
+- [26:00] OpenAI. So, you can create your own
+- [26:01] vector store, upload data in there, and
+- [26:03] then search for results. But again, you
+- [26:05] need to do that directly in OpenAI,
+- [26:07] which is makes it just not that useful.
+- [26:09] You have guard rails. What guardrails
+- [26:12] allows you to do is kind of sanitize
+- [26:13] text before it goes through your flow.
+- [26:16] So, we can make sure there's no
+- [26:17] identifiable information. We can check
+- [26:19] for moderation, jailbreaks,
+- [26:20] hallucinations, etc. We can go in here
+- [26:22] and kind of add all of this different
+- [26:24] information and change all of the
+- [26:26] settings here so that we can kind of
+- [26:28] make sure that our agent is safe and
+- [26:29] it's not allowing users to try to hack
+- [26:31] it or, you know, ask for things that
+- [26:33] they shouldn't be asking for. And to do
+- [26:35] that, you would just connect that
+- [26:36] directly to the start node. So, let's
+- [26:38] just delete this, right? And then the
+- [26:40] guardrail can go into the next flow. And
+- [26:42] from here, you can actually just have it
+- [26:44] kind of quit immediately, right? So, for
+- [26:46] example, if we do this and then we fail,
+- [26:48] we can just go directly to an end block
+- [26:50] where now we won't go through the rest
+- [26:51] of the flow because the guard rails
+- [26:53] failed. So, that's pretty cool feature.
+- [26:55] That's interesting that they added that.
+- [26:56] And then you have MCP. Now, for MCP, you
+- [27:00] can natively connect to some of these
+- [27:01] tools like Gmail, Google Calendar,
+- [27:03] Google Drive, etc. However, when you do
+- [27:05] this, it's not very easy to connect. So
+- [27:08] if you press this button that says get
+- [27:10] access token, it brings you to this
+- [27:12] crazy page where you essentially need to
+- [27:14] do this kind of manual setup where you
+- [27:16] you know authorize the API to access a
+- [27:19] certain set of features and then you
+- [27:21] need to exchange this token for this
+- [27:23] access token and then provide this in
+- [27:25] here which expires in a few days and
+- [27:27] overall it is not very friendly which is
+- [27:29] why I did not show it in this video. Now
+- [27:32] same thing for some of the other
+- [27:33] connections uh you know PayPal etc. you
+- [27:35] need these all these access tokens which
+- [27:37] are not easy to access and then you have
+- [27:39] the server where you can you know put in
+- [27:41] a server like the notion MCP server for
+- [27:43] example however the only way that this
+- [27:46] authentication works is using either
+- [27:48] custom headers or an access token and
+- [27:50] API key and it doesn't support an OOTH
+- [27:53] flow which is how most of these MCP
+- [27:55] servers authenticate. So, I'm not going
+- [27:57] to dive into this too much, but
+- [27:58] essentially, yes, you can add MCP
+- [28:00] servers here, but it only works if
+- [28:01] they're an HTTP MCP server and if they
+- [28:05] do authentication using some kind of API
+- [28:07] key or custom header, not if they use an
+- [28:09] OOTH flow, which now is kind of
+- [28:11] standard. Um, which is very unfortunate
+- [28:13] because if they did implement the OOTH
+- [28:15] flow, which means like you can kind of
+- [28:16] sign in, it will grab the token for you,
+- [28:18] then it would make this a lot more
+- [28:19] useful. But all of the MCP servers that
+- [28:21] I wanted to use, I just cannot use from
+- [28:24] this agent builder tool because of how
+- [28:26] they want the connection to be handled.
+- [28:27] Uh which is quite unfortunate. Now
+- [28:29] that's pretty much it. There are a few
+- [28:30] other interesting tools. For example,
+- [28:32] like you can evaluate your agent and you
+- [28:34] can test it with multiple different uh
+- [28:36] what do you call it? Um kind of flows
+- [28:37] here. You can see how long it takes to
+- [28:40] run inside of these different steps. You
+- [28:42] can actually have a greater you it's
+- [28:44] funny you can use like a GPT model to
+- [28:46] grade your own GPT models and you can
+- [28:48] see how well that's performing. And if
+- [28:49] you get outside of these workflows here,
+- [28:52] you can go in and you can actually look
+- [28:53] at, for example, fine-tuning where you
+- [28:55] can fine-tune models and you can have
+- [28:57] this evaluation where you can evaluate
+- [28:59] different kind of data sets in your
+- [29:01] agent. So you can actually name a new
+- [29:03] data set, right? And then you can
+- [29:04] connect this to an agent and you can run
+- [29:06] through and test how it performs on
+- [29:08] those different data sets. Pretty cool.
+- [29:09] They added a lot of interesting stuff
+- [29:10] here, but to be honest, it only becomes
+- [29:12] useful if you're going to actually
+- [29:14] integrate this with your code. So while
+- [29:16] yeah, we can build these cool agents. We
+- [29:17] can mess around with them in the preview
+- [29:19] window. If you want in any
+- [29:21] interactability, if you want to be able
+- [29:22] to pause the flow, if you want to change
+- [29:24] the state dynamically, you are going to
+- [29:26] need to write some code to do that.
+- [29:27] Because for example, if we go back to
+- [29:29] the widget builder, right, and we just
+- [29:30] go to the gallery, you'll see that all
+- [29:32] of these widgets have like buttons like
+- [29:34] add to calendar, discard, we have forms,
+- [29:36] right? You know, where we can enter all
+- [29:38] of this data. But this only works and we
+- [29:41] can only use these um kind of inputs if
+- [29:43] we connect this to our own backend which
+- [29:46] is not made that clear by OpenAI and is
+- [29:48] really limiting when you're using the
+- [29:50] agent builder in this kind of you know
+- [29:52] UI mode as opposed to if I can go back
+- [29:54] to it the the code mode. So I guess I
+- [29:56] got out of it but that's fine. Anyways I
+- [29:58] think with that said guys I'm going to
+- [29:59] wrap up the video for now. I wanted to
+- [30:01] give a quick tutorial show you some of
+- [30:02] the limitations as well as the
+- [30:03] capabilities of this tool. Overall I
+- [30:05] think it's really cool. I think OpenAI
+- [30:07] has the possibility to make this the
+- [30:09] best agent builder out there. Right now,
+- [30:11] I would say that it's pretty limiting,
+- [30:13] especially from a drag and drop
+- [30:15] perspective. If you want full control
+- [30:17] here, you do need to write some code and
+- [30:19] integrate it. And I am planning on doing
+- [30:21] that in the future story and making a
+- [30:23] full tutorial on how to do that. So, if
+- [30:25] you're interested in that type of video,
+- [30:26] leave a comment down below and let me
+- [30:28] know. And I'm sure I'll be covering this
+- [30:30] more on the channel in the future.
+- [30:31] Anyways, if you guys enjoyed, make sure
+- [30:32] to leave a like, subscribe, and I will
+- [30:34] see you in the next one.
+- [30:37] [music]

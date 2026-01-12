@@ -1,0 +1,339 @@
+---
+title: "YouTube Video: 1choivCbZDg"
+video_id: "1choivCbZDg"
+video_url: "https://www.youtube.com/watch?v=1choivCbZDg"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "Tutorial"
+topics:
+  - "AI Agent"
+  - "Tutorial"
+summary: |
+  Looks like the Google team doesn't actually sleep because they just dropped a new AI super agent that you can access completely for free. And this is something that lets you create AI workflows to aut...
+key_points:
+  - "動画トランスクリプトの内容を参照"
+category: "Tutorial"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 1choivCbZDg
+
+- URL: https://www.youtube.com/watch?v=1choivCbZDg
+- Retrieved at: 2025-12-30T09:18:41+09:00
+
+## Text
+
+- [00:00] Looks like the Google team doesn't
+- [00:02] actually sleep because they just dropped
+- [00:04] a new AI super agent that you can access
+- [00:07] completely for free. And this is
+- [00:09] something that lets you create AI
+- [00:11] workflows to automate and build almost
+- [00:13] anything. Let me introduce Super Gems
+- [00:16] inside Gemini. Super Gems is something
+- [00:19] that was just launched today and it is
+- [00:21] created by merging Opal workflows
+- [00:23] directly inside the Gemini gems manager.
+- [00:26] This means that you can now build AI
+- [00:28] workflows using a guided workflow
+- [00:31] builder that automatically generates the
+- [00:33] prompts, the steps, and even the UI for
+- [00:35] you. You get instant previews, and you
+- [00:38] can share your workflows publicly with a
+- [00:40] simple link. And if you already use
+- [00:42] Opal, you can actually have it so that
+- [00:45] you can migrate your existing apps that
+- [00:47] are automatically then sent over to my
+- [00:50] gems from the labs. And if you're
+- [00:52] wondering what Opel is, it is Google's
+- [00:54] tool that was designed to build AI
+- [00:56] powered mini apps, but now instead of
+- [00:58] using it separately, you can run it
+- [01:00] within the Super AI agent directly
+- [01:03] within the Gemini web app as an
+- [01:05] experimental super gem. For example,
+- [01:07] just take a look at this recipe genie
+- [01:09] app that was built using super gems. You
+- [01:12] can transform your bridge leftovers into
+- [01:14] fullon meals. You simply just describe
+- [01:16] ingredients or even upload an image and
+- [01:18] it'll use the Gemini models multimodal
+- [01:21] capabilities so that GEMS can instantly
+- [01:24] generate a personalized recipe for you.
+- [01:26] What's cool is that this isn't just a
+- [01:28] responsive in chat app. It's an mini app
+- [01:31] that lets you basically edit, customize,
+- [01:34] and iterate on recipes directly inside
+- [01:37] the workflow. This is a great example of
+- [01:39] how Super Gems can turn Gemini into not
+- [01:42] just a chatbot, but into an interactive
+- [01:45] AI application builder. All you need to
+- [01:47] do is head over to the Gemini app, which
+- [01:50] you can access on the phone as well as
+- [01:52] through your desktop. And once you sign
+- [01:54] in with the Google account, you can
+- [01:56] click on the expand menu button, which
+- [01:59] is where you will see gems. If you click
+- [02:01] on this, you're going to be able to now
+- [02:03] access Super Gems. And this is where
+- [02:05] Opal is now integrated inside Superjems
+- [02:08] so that you can share and create various
+- [02:11] sorts of automations, many apps, as well
+- [02:13] as workflows to automate different sorts
+- [02:15] of things. Have you met the new model
+- [02:18] everyone's talking about? Nano Banana
+- [02:20] Pro. I thought I'd seen it all until I
+- [02:22] tried Pro inside Love Art. Suddenly,
+- [02:24] every doodle, mark, and brush stroke
+- [02:26] made sense. If you want to pro smart,
+- [02:29] you pro on Love Art. Love art isn't just
+- [02:32] an AI. It's your full-time design agent
+- [02:35] where you can generate images, videos,
+- [02:37] 3D assets, and edit everything with
+- [02:40] Photoshop level precision. With Nanab
+- [02:42] Banana Pro integrated, every output
+- [02:45] becomes a fully editable design file.
+- [02:47] The Nano Banana model gives smarter
+- [02:50] visuals, perfect multilingual text,
+- [02:52] character consistency for up to five
+- [02:54] people, mixing up to 14 images, and 2K
+- [02:58] to 4K resolution. Pair it with love art,
+- [03:00] that's next level. batch generation,
+- [03:03] natural language editing, and logical
+- [03:06] workflows. With Love Art, you get batch
+- [03:08] generation, natural language editing,
+- [03:10] and logical workflows. You can simply
+- [03:12] type something like change this color or
+- [03:14] give me five variants, and Love Art
+- [03:16] handles it. You have a touchedit feature
+- [03:18] that lets you click and change any part
+- [03:20] of your image, edit elements instantly
+- [03:23] with different layers. And with every
+- [03:25] nanobano model image, you can change the
+- [03:28] foreground, background, object text,
+- [03:31] which is all fully editable. You can
+- [03:33] isolate layers, recolor, swap
+- [03:35] characters, batch generate brand
+- [03:38] systems, or turn tutorials into clean
+- [03:40] visual cards in seconds. This is the
+- [03:43] capability of Love Art and thanks to
+- [03:45] them for sponsoring today's video. Use
+- [03:47] the link in the description below and
+- [03:49] experience Nano Banana Pro inside Love
+- [03:51] Art. If you want to promart, you've got
+- [03:54] to pro on Love Art. And the great thing
+- [03:57] is that there are a lot of other
+- [03:59] templates that you can readily access
+- [04:01] from marketing all the way to claimation
+- [04:04] explorer, learning from YouTube videos.
+- [04:06] There's many different mini apps that
+- [04:08] have been created with super gems. And I
+- [04:11] know this might be confusing, but
+- [04:13] essentially gems are different
+- [04:15] customized variants of the Gemini model.
+- [04:18] They're basically predefined AI chat
+- [04:21] bots off of the Gemini models where you
+- [04:23] can customize an existing template or
+- [04:26] create a new one from scratch, which you
+- [04:28] can do by simply clicking on new gem.
+- [04:30] You can provide a name for the AI agent.
+- [04:33] And in this case, once it's created, all
+- [04:35] your gems live in one place where you
+- [04:37] can create them anytime or start
+- [04:39] chatting with them immediately so that
+- [04:41] you can use it to execute different
+- [04:43] sorts of tasks.
+- [04:45] So for example, if I'm creating a gem, I
+- [04:48] can give it a name like a YouTube
+- [04:50] research gem and its job is to basically
+- [04:52] summarize and extract insights from
+- [04:54] YouTube content. It can summarize key
+- [04:56] points from video transcripts, extract
+- [04:59] actionable takeaways relevant to your
+- [05:01] niche, whether that's marketing tactics,
+- [05:03] SEO tips or tech trends, generating
+- [05:06] research reports as well as creating
+- [05:08] summaries on the title, descriptions,
+- [05:10] tags, extracting all these contents.
+- [05:12] Now, you can also provide knowledge to
+- [05:14] help the AI agent with better context
+- [05:17] relevance and you can actually now save
+- [05:20] this so that you can use it whenever you
+- [05:21] want. But now you can ask it questions
+- [05:24] on anything. So after saving the gem I
+- [05:26] can ask it anything like tell me more
+- [05:29] about my video on open code and I can
+- [05:33] provide the URL and it is going to be
+- [05:35] able to now do deep research with the
+- [05:38] Gemini model and this is based off of
+- [05:40] the gems that I created and you can see
+- [05:42] that it is able to go into the
+- [05:44] transcript and get key insights off of
+- [05:47] the video and this is just a simple AI
+- [05:49] agent that I created with the textual
+- [05:52] prompt directly within super agents
+- [05:54] manager.
+- [05:55] And you can see that it also gives me a
+- [05:57] structured research summary. Gives me
+- [06:00] timestamps as to what I'm talking about
+- [06:02] in each and every step of this video.
+- [06:04] And overall, it gives me the content
+- [06:06] planning suggestion like the title which
+- [06:08] you had requested, the topic cluster as
+- [06:11] well as the video description tags. In
+- [06:13] the same manner, you can create various
+- [06:15] sorts of gem managers. Think of it like
+- [06:18] an AI coding agent that is associated
+- [06:21] with the Gemini models. And you can
+- [06:24] create something like a coding partner,
+- [06:25] a learning coach, or a various sorts of
+- [06:27] chatbots that can help you in various
+- [06:29] ways. You can even play chess with the
+- [06:32] language model, which is actually pretty
+- [06:33] interesting. So in this case, you can
+- [06:36] ask it, let's play chess. I start with
+- [06:38] E4. You can directly talk to the AI
+- [06:40] model with this specific AI gem and you
+- [06:44] can actually tell it where you want to
+- [06:46] move, what sort of next step you want to
+- [06:48] play and it will actually respond and
+- [06:50] play with this graph that it has
+- [06:52] generated. In my opinion, that is
+- [06:54] something that is super simple that you
+- [06:56] anyone can actually create with any
+- [06:58] platform. But the new gems feature is
+- [07:01] where you have the ability to create
+- [07:03] more predefined gems with more features.
+- [07:06] You can describe the mini AI agent that
+- [07:09] you want to create. Like for example,
+- [07:11] analyzing a meeting transcript and
+- [07:13] drafting an email after each meeting
+- [07:16] like the key action items is an mini app
+- [07:19] that you can actually create with the
+- [07:20] front end. And this is where it is being
+- [07:23] built directly within the Gemini app.
+- [07:25] You can configure it like how you would
+- [07:28] with Opel where you have different nodes
+- [07:30] that have different predefined uh
+- [07:33] actions and you can basically edit this
+- [07:35] by opening the advanced editor where you
+- [07:38] can open up Opal and you can actually
+- [07:40] configure each and every node further.
+- [07:42] So in this case this is the meeting app
+- [07:44] that it created. It's a really simple
+- [07:46] meeting app and you can see that this is
+- [07:49] the user flow where it starts off with
+- [07:51] the user input where you paste in your
+- [07:53] meeting transcript. The second node is
+- [07:56] processing the meeting transcript and
+- [07:58] this is the system prompt that was
+- [08:00] developed by the uh the gem agent and
+- [08:03] you can then see that it generates a
+- [08:05] draft email and it is able to automate
+- [08:08] this whole process with this node. You
+- [08:10] can add in different nodes to automate
+- [08:12] different processes. You can add in
+- [08:15] configurations to the overall uh
+- [08:17] configuration of how it's being
+- [08:19] outputed. You can even add assets like
+- [08:22] uploading files, adding a drive, a
+- [08:24] YouTube link, text, or even drawings.
+- [08:28] So, for example, this is our app. I can
+- [08:30] click start and I can paste in my
+- [08:32] meeting transcript over here. This is a
+- [08:34] long transcript of a call and I can send
+- [08:37] this in to the Gemini agent, which is
+- [08:39] where it is going to process and
+- [08:41] generate a summary email based off of
+- [08:43] the transcript of our call. And you can
+- [08:46] see that it will now generate that email
+- [08:49] where it has created the meeting summary
+- [08:51] as well as the action items. And now it
+- [08:53] can draft up an email. You can download
+- [08:56] the file or even share the output. This
+- [08:59] is a really simple app that it created
+- [09:01] based off of a single prompt with the
+- [09:03] super gem agent. Essentially with super
+- [09:06] gems combined with Opal, you're going to
+- [09:08] be able to create various sorts of AI
+- [09:10] agents with enhanced capabilities,
+- [09:13] especially with it being powered by the
+- [09:15] Gemini models. With the ability to use
+- [09:18] any of its multimodal capabilities from
+- [09:21] VO3 to something like its nano banana
+- [09:24] model to generate visuals, this is a
+- [09:26] flow where it can create any sort of
+- [09:29] game based off of the prompt that you
+- [09:32] give it. And this is something that is
+- [09:34] generating a game based in New York with
+- [09:37] a sci-fi theme. It gives you the
+- [09:39] pretense. It even generates a video
+- [09:41] which is really cool with the V3 model.
+- [09:44] And this is just a simple cool little
+- [09:46] app that was built. But it showcases how
+- [09:48] it uses different multimodal uh models
+- [09:51] and how it's able to use this flow to
+- [09:53] generate whatever you had requested
+- [09:56] based off that prompt. If you like this
+- [09:58] video and would love to support the
+- [10:00] channel, you can consider donating to my
+- [10:02] channel through the super thanks option
+- [10:04] below. Or you can consider joining our
+- [10:06] private Discord where you can access
+- [10:08] multiple subscriptions to different AI
+- [10:10] tools for free on a monthly basis, plus
+- [10:13] daily AI news and exclusive content,
+- [10:16] plus a lot more. Overall, this new super
+- [10:19] gem update is something that I believe
+- [10:21] they're working on to create an
+- [10:23] alternative to Nathan, Zapier, and many
+- [10:25] of these automation platforms. And
+- [10:28] sooner or later, they are going to be
+- [10:29] tapping into that cuz it's Google. They
+- [10:31] have the funding. They have all the
+- [10:33] resources they need to do something like
+- [10:35] that. And I believe they will dominate
+- [10:37] in that field in the near future because
+- [10:40] it's Google. They got everything they
+- [10:41] need. And I believe Opel is their next
+- [10:44] step in achieving that. This is
+- [10:46] something that I would recommend that
+- [10:48] you start using. It's really easy to set
+- [10:51] up. It's not a typical automation tool
+- [10:54] that you would use like many of the
+- [10:56] other ones that are out there, but it is
+- [10:58] something that is early in that step
+- [11:00] where it can automate basic things for
+- [11:02] you and help you build many apps in
+- [11:05] different ways. But this is something
+- [11:07] that is completely free and I'll leave a
+- [11:09] link to this in the description below so
+- [11:11] that you can easily get started as well
+- [11:13] as to Opel. You can obviously use Opal
+- [11:16] separately, but this is something that
+- [11:18] is now integrated with Super Gems. But
+- [11:20] that's basically it, guys. Hope you
+- [11:22] enjoyed today's video and got some sort
+- [11:23] of value out of it. I'll leave all these
+- [11:25] links in the description below. Make
+- [11:26] sure you go ahead and subscribe to the
+- [11:28] second channel, join the newsletter,
+- [11:29] join Discord, follow us on Twitter, and
+- [11:31] lastly, make sure guys subscribe, turn
+- [11:32] on notification bell, like this video,
+- [11:34] and please take a look at our previous
+- [11:35] videos cuz there is a lot of content
+- [11:37] that you will truly benefit from. But
+- [11:38] with that thought, guys, have an amazing
+- [11:40] day. Spread positivity, and I'll see you
+- [11:42] guys really shortly. He suffers.

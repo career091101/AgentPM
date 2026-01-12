@@ -1,0 +1,831 @@
+---
+title: "if you building AI products probably a great amount of time is actually not programming but literally staring at the scr"
+video_id: "MGkByeDm-90"
+video_url: "https://www.youtube.com/watch?v=MGkByeDm-90"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  if you building AI products probably a great amount of time is actually not programming but literally staring at the screen and waiting for lar model to finish off task and pray to lar model God that everything goes well but quite often it doesn't there are millions of different cases where your large range Modo system just didn't work or say something stupid and this problem becomes bigger and bigger in later stage after the large L Modo system goes into production majority of my time actually starts spending on evaluating monitoring testing because real world cases are really Dynamic and unpredictable quite often when we build a system there are few task case in our mind that we are building towards but once it goes into wild customer will tell all sorts of different requests different w
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:33:12+09:00"
+---
+
+# Transcript: MGkByeDm-90
+
+- URL: https://www.youtube.com/watch?v=MGkByeDm-90
+- Retrieved at: 2025-12-30T10:33:12+09:00
+
+## Text
+
+- [00:03] if you building AI products probably a
+- [00:06] great amount of time is actually not
+- [00:07] programming but literally staring at the
+- [00:09] screen and waiting for lar model to
+- [00:11] finish off task and pray to lar model
+- [00:14] God that everything goes well but quite
+- [00:16] often it doesn't there are millions of
+- [00:18] different cases where your large range
+- [00:19] Modo system just didn't work or say
+- [00:21] something stupid and this problem
+- [00:23] becomes bigger and bigger in later stage
+- [00:25] after the large L Modo system goes into
+- [00:27] production majority of my time actually
+- [00:29] starts spending on evaluating monitoring
+- [00:31] testing because real world cases are
+- [00:33] really Dynamic and unpredictable quite
+- [00:36] often when we build a system there are
+- [00:37] few task case in our mind that we are
+- [00:39] building towards but once it goes into
+- [00:41] wild customer will tell all sorts of
+- [00:43] different requests different ways like I
+- [00:45] was building a meeting scheduler agent
+- [00:47] where I was expecting requests where
+- [00:49] people say things like let's meet
+- [00:50] tomorrow 9:00 p.m. s time but in reality
+- [00:53] the case would be much more complicated
+- [00:55] where people would say I'm basing UK but
+- [00:57] travel to Singapore next week and B
+- [00:59] China the week after once your L modor
+- [01:01] system actually put into your customer's
+- [01:03] hand it is almost guaranteed to break or
+- [01:05] perform really weirdly in certain cases
+- [01:08] and this is when you want to start
+- [01:09] iterating the system and iteration of
+- [01:11] large range Modo system is extremely
+- [01:13] timec consuming because there are lots
+- [01:15] of different combination of things cuz
+- [01:16] large L model is not deterministic which
+- [01:18] means the result will be slightly
+- [01:20] different every time and there are all
+- [01:21] sorts different combination of different
+- [01:23] settings like the prop itself the model
+- [01:26] you're using the temperature and how you
+- [01:28] break down the flow if you're building a
+- [01:29] agent do you use function calling agent
+- [01:31] or use react framework and most of the
+- [01:33] time your large L model system is not
+- [01:35] just one large Lage model call but a
+- [01:37] flow of different lar model steps or
+- [01:39] agent who can autonomously decide what
+- [01:41] to do next with different tools so the
+- [01:43] biggest challenge is when you change one
+- [01:45] thing you don't really have a good
+- [01:46] confidence that it is actually going to
+- [01:48] improve the system for all the cases
+- [01:50] like you might put a special PR as
+- [01:51] banded solution to solve a specific edge
+- [01:54] cases that you just capture but this
+- [01:56] prpt might actually make large Range
+- [01:57] model pay too much attention to this
+- [01:59] spefic spefic part of task but start
+- [02:01] ignoring some other parts of prompt so
+- [02:03] to gain real confidence you do want to
+- [02:04] test system in many different type of
+- [02:06] cases and that's why live L model system
+- [02:08] evaluation is such a big topic it
+- [02:10] basically means how can you build a
+- [02:11] system to evaluate the performance of a
+- [02:14] large L mode system against the certain
+- [02:16] tasks so that you will have a benchmark
+- [02:18] to know if your new version actually
+- [02:20] improved and most importantly help you
+- [02:22] find the optimal combination of all the
+- [02:23] different settings and system design for
+- [02:26] the specific task that you try to
+- [02:27] complete and there are huge amount of
+- [02:29] public EV valuation or on the Internet
+- [02:31] which is useful in some way where it
+- [02:32] give you a overall idea about which
+- [02:34] model is probably the best in certain
+- [02:36] type of General task but quite often it
+- [02:38] is not that useful because the task they
+- [02:41] test is not exactly the task you want so
+- [02:43] most time I can't really trust the
+- [02:44] result from those public evaluation that
+- [02:47] people are sharing because I know almost
+- [02:48] certain when I test different models
+- [02:50] with my own system the rank will be
+- [02:52] totally different that's why it's
+- [02:53] important to actually build your own
+- [02:55] custom evaluation process most rful one
+- [02:58] that everyone is doing is is human
+- [03:00] evaluation which means you basically
+- [03:01] look at a log of the large Range model
+- [03:03] system output and just eyeball the
+- [03:05] result to see whether it is good or not
+- [03:07] and if you are a bit more sophisticated
+- [03:09] you probably will set up some logging
+- [03:10] system like Les miss or phix to have
+- [03:12] better interface to log and review every
+- [03:14] single step in those SL Range model
+- [03:16] system in most of cases human evaluation
+- [03:18] is still the must have and best thing to
+- [03:20] do especially while you're building the
+- [03:22] system but the problem is once your
+- [03:23] system goes into production the volume
+- [03:25] of different cases to Monitor and
+- [03:27] evaluate is so big so it's almost
+- [03:30] impossible for you to do human
+- [03:31] evaluation on every single case anymore
+- [03:34] otherwise either you or the system going
+- [03:35] to break that's why the concept of use
+- [03:37] large Lage model as evalu interesting
+- [03:40] and important and the idea here is
+- [03:42] pretty simple instead of getting human
+- [03:44] ibing the result to decide if the system
+- [03:46] is delivering good result or not we can
+- [03:48] build a large L model evaluate complete
+- [03:50] same evaluation task so that it can
+- [03:52] handle huge amount of volume and scale
+- [03:54] very well and sometimes the evaluator
+- [03:56] can not only be just large Range model
+- [03:59] can also be code to write down some hard
+- [04:01] code rules and do heric evaluation like
+- [04:03] if the code generated has Arrow or if
+- [04:05] the answer or exactly match Mass formul
+- [04:08] so such a automated evaluation system is
+- [04:10] critical to launch any production level
+- [04:12] lar Lang model system but it is not
+- [04:14] always clear how to build such system
+- [04:16] especially how can you build such large
+- [04:18] L model evaluator that almost as good as
+- [04:21] human to decide if a system is
+- [04:22] performing well or not that's why today
+- [04:24] I want to share a bit about how can you
+- [04:26] build such a large L model evaluation
+- [04:28] system so you can really speed up the
+- [04:30] creation speed and increase the level of
+- [04:32] confidence for both you and your
+- [04:34] customers but before we dive into this I
+- [04:36] know many of you are going through a
+- [04:38] career change or looking at starting
+- [04:40] your own AI career but have you ever
+- [04:42] thought about how to leverage AI to land
+- [04:44] on your next dream job so hopspot did a
+- [04:46] research about how the new generation of
+- [04:49] job Seeker are utilizing different AI
+- [04:50] tools or platforms to streamline their
+- [04:52] workflow and to be much more effective
+- [04:54] add job hunting process and they share a
+- [04:56] collection of all sorts of different AI
+- [04:58] platforms and St UPS in this job hunting
+- [05:01] Market from how to script and collect
+- [05:03] all the job information using AI to find
+- [05:05] ones that suit you the best to craft a
+- [05:08] standout application that catch the eyes
+- [05:10] of recruiter and hiring manager using AI
+- [05:12] as well as simulating the interview
+- [05:14] process with AI so people can feel
+- [05:16] confident even before jumping on the
+- [05:17] actual interview to even salary
+- [05:19] estimation to get a good understanding
+- [05:21] of how much it actually works so this
+- [05:23] was quite a refresh for me to understand
+- [05:25] two things one is all the possible ways
+- [05:27] that you can already utilize AI to help
+- [05:29] you land on next dream job and second it
+- [05:31] is also a good way for me to understand
+- [05:33] what does AI stack look like for the job
+- [05:35] market which definitely inspired me a
+- [05:37] few different business idea that we can
+- [05:38] potentially build help job Seekers so I
+- [05:40] definitely recommend you to download
+- [05:42] this free report about how people are
+- [05:44] land on dream job using AI you can click
+- [05:46] on the link in the description below to
+- [05:48] download this report for free now let's
+- [05:50] back to how do you build a evaluation
+- [05:52] system so there are few steps you will
+- [05:54] need to choose a metrix that is most
+- [05:56] important to your system and then you'll
+- [05:58] build a valuator that that can actually
+- [06:00] provide evaluation result based on this
+- [06:02] metrics and thir is optional but really
+- [06:04] important you will also want to prepare
+- [06:06] a golden data set that you can use to
+- [06:08] really test and recalibrate your
+- [06:10] evaluator to making sure it can deliver
+- [06:12] the human level performance and after
+- [06:14] that you can start testing different
+- [06:16] system variations and compare the
+- [06:18] performance so firstly choose the right
+- [06:21] metrix for your larange model system
+- [06:23] this is the first and most important
+- [06:24] step so you want to choose a metrix that
+- [06:26] you really care and most time the way I
+- [06:28] look at it is after doing some eyeball
+- [06:30] testing I start getting sense about
+- [06:32] which part of system can often break
+- [06:34] those are normally the ones that want to
+- [06:35] design some kind of metrics around it to
+- [06:37] be able to get a benchmark and evaluate
+- [06:39] against for example if you're building a
+- [06:41] rack system two parts you probably care
+- [06:43] the most one is a retrieval whether your
+- [06:45] system actually retriev the relevant
+- [06:48] knowledge base at first place and second
+- [06:50] is Generation does a large damage model
+- [06:52] actually generate a result based on the
+- [06:54] information provided or did actually
+- [06:56] hallucinate and if those two are most
+- [06:58] important things then you can design
+- [07:00] some metrics around those two things so
+- [07:01] you probably have metrics of contextual
+- [07:03] relevance where input will be the user
+- [07:05] quray as well as a retriev documents so
+- [07:08] that we can decide is the retrieve
+- [07:09] knowledge actually relevant to the
+- [07:11] question second part will be
+- [07:12] faithfulness to test is a gener answer
+- [07:15] actually granted by the data that it
+- [07:17] retrieve or did they actually
+- [07:18] hallucinate different system can have
+- [07:20] really different metrics for example if
+- [07:22] you are building a customer support
+- [07:24] chatbot where even though the majority
+- [07:25] of system are very similar to a rack
+- [07:27] system but you probably in this case
+- [07:29] also care about the realtime ux cuz you
+- [07:32] can almost always adding more kind of
+- [07:34] steps in the flow to improve the
+- [07:35] retrieval relevancy as well as
+- [07:37] generation quality but you actually
+- [07:39] don't want to sacrifice the user
+- [07:40] experience and getting user just waiting
+- [07:42] for a long time then you probably put a
+- [07:43] latency metrix as well which is how long
+- [07:46] does the whole system to generate result
+- [07:48] for the cury if I'm building a research
+- [07:50] agent I probably care about couple
+- [07:52] things one is this agent able to do as
+- [07:54] much of research possible to gather all
+- [07:57] the information relevant and second is
+- [07:59] whether the final report generat are
+- [08:01] actually grounded by the information
+- [08:02] collector and if you're building a kid
+- [08:04] tutorial app you probably have some
+- [08:06] special metrics is the answer provided
+- [08:08] age appropriate so the key Point here is
+- [08:11] that the metric is very diverse and it
+- [08:13] should really look at which part of the
+- [08:14] system that often break or unstable and
+- [08:17] you really care and design a metric
+- [08:19] around it and when you design metric
+- [08:21] there probably different things you'll
+- [08:22] be thinking about for example you might
+- [08:24] put a numeric metrix like getting large
+- [08:26] L model to provide a numeric evaluation
+- [08:29] for from 1 to 5 or you just getting a
+- [08:32] model to generate a binary
+- [08:33] classification is the answer correct not
+- [08:35] and the large Range model can only up
+- [08:37] output correct or incorrect you can even
+- [08:39] get large Range model to generate two
+- [08:41] different outputs as well as some
+- [08:43] combination but from my experience the
+- [08:45] large L model is not really great at
+- [08:47] numeric evaluation it often fail to give
+- [08:50] very precise or Parada based evaluation
+- [08:52] but when we get lar model to do binary
+- [08:55] or even multi output it is actually
+- [08:57] performing really well so I often almost
+- [08:59] go for the classification or binary type
+- [09:01] of evaluation when I use aary model and
+- [09:04] after you choose the metrics the next
+- [09:06] step is actually build a evaluator so
+- [09:08] you want to build a evaluator system
+- [09:10] that can actually evaluate the
+- [09:11] performance of large Range model system
+- [09:13] just like human to do that you will need
+- [09:15] to decide two things one is what will be
+- [09:17] the data input that this evaluator
+- [09:19] should get the input can be as simple as
+- [09:22] a user query plus the output of the
+- [09:24] large L model system we can also include
+- [09:26] some reference data set if you are
+- [09:28] preparing a data set that with a
+- [09:30] predefined list of task that has ground
+- [09:31] trues so the evaluator can use that to
+- [09:34] compare on the other side the input can
+- [09:36] also be the result of specific step like
+- [09:38] knowledge retrieval instead of the whole
+- [09:40] large L model system then the evaluator
+- [09:42] basic need to generate output which is
+- [09:44] evaluation metrics that you defined
+- [09:46] earlier so if you're building a rack
+- [09:47] system where you want to measure the
+- [09:49] retrieval accuracy then you will have
+- [09:51] evaluator that the input will be the
+- [09:53] user query as well as a retrieve data
+- [09:55] and the evaluator will take this to
+- [09:57] input and generate output which is r
+- [09:59] classification that can either be
+- [10:01] relevant or irrelevant actual evaluator
+- [10:03] here most likely be a prompt template
+- [10:05] that you have designed like for this one
+- [10:07] it can be simple as you are comparing a
+- [10:09] reference Tex to a question and try to
+- [10:11] determine if the reference Tex contain
+- [10:13] the information relevant to answer the
+- [10:14] question and here's a question this
+- [10:16] reference text and now compare this two
+- [10:18] result and output only relevant or
+- [10:21] irrelevant you can give very specific
+- [10:22] description about what this relevant
+- [10:24] means and what this irrelevant means on
+- [10:25] the other side if you're not building a
+- [10:27] rack but actually agent that should
+- [10:29] follow specific process then the input
+- [10:31] can be the system prompt that you give
+- [10:33] agent that contain specific soop or
+- [10:35] process that it should follow plus the
+- [10:37] full chat history that agent generated
+- [10:40] it can give those three different things
+- [10:41] to the evaluator and output the metrix
+- [10:43] to be whether the agent actually follow
+- [10:45] the instruction that it was given and
+- [10:47] second whether the agent actually
+- [10:49] complete task and sometimes you can even
+- [10:51] get a to Output reason as well so you
+- [10:53] can understand better if the agent is
+- [10:55] not following the instruction which part
+- [10:57] did it Miss if I'm building a comy
+- [10:59] search agent where I want to test
+- [11:00] whether agent has ability to gather as
+- [11:02] much information as possible then input
+- [11:05] can be the company and list of data
+- [11:06] point is should research about as well
+- [11:08] as the final result that agent generated
+- [11:10] pass on all those things to the large L
+- [11:12] model evaluator and output if all
+- [11:14] information gathered is yes or no and
+- [11:16] this is a problem that I used for this
+- [11:17] evaluator it will basically pass on all
+- [11:19] those inputs and then say evaluate
+- [11:21] result from the research system decide
+- [11:23] if the system found answer to all data
+- [11:25] point per the answer can only be yes or
+- [11:27] no so how you design evaluator prompt
+- [11:30] really depends on the metrix you pick up
+- [11:32] at first place and the real question
+- [11:34] here is how can you making sure this
+- [11:35] evaluator prompt actually give accurate
+- [11:37] evaluation just like you do so that you
+- [11:39] can have confidence in the result
+- [11:41] provided so that's where the third step
+- [11:43] is quite important to prepare a golden
+- [11:45] data set so this basically means you can
+- [11:47] prepare a list of testing case which
+- [11:50] including both input and output as well
+- [11:52] as what is a correct evaluation result
+- [11:54] for example once you have this data set
+- [11:57] then we can basically still run
+- [11:58] evaluation by taking the input output
+- [12:00] and generate evaluation result but then
+- [12:02] you can compare this evaluation result
+- [12:04] to the correct evaluation result and
+- [12:06] decide if this evaluation is correct so
+- [12:08] you're pretty much creating evaluation
+- [12:10] system for the evaluator itself you can
+- [12:12] run multiple different cases on this
+- [12:14] evaluator with your golden data set to
+- [12:16] get understanding about how accurate
+- [12:18] this eval is and the question here is
+- [12:20] how do you get this golden data set so
+- [12:22] there are couple of different ways the
+- [12:23] most straightfor ways would be manually
+- [12:25] curate data so you can just create
+- [12:27] probably a small set like 20 50 or
+- [12:29] hundreds of those manually create data
+- [12:31] sets where you can just give the correct
+- [12:33] evaluation result as a reference but on
+- [12:35] the other side after your system going
+- [12:37] to production you will actually start
+- [12:39] getting a huge amount of real user lock
+- [12:41] and with system like LMI or Phenix you
+- [12:44] can also go to those system look at user
+- [12:46] log and manually annotate your
+- [12:48] evaluation output as well and that's why
+- [12:50] in system like chbt they will give you
+- [12:52] some sumbs up and some down button to
+- [12:54] provide feedback if you're just getting
+- [12:56] started you can even try to use large
+- [12:58] Range model to generate some data set as
+- [13:00] well for example if you're building a
+- [13:01] rack system where you want to really
+- [13:03] push the retrieval accuracy you can
+- [13:06] actually get large model to generate a
+- [13:07] bunch of different cases by loading
+- [13:09] website and gener list of questionable
+- [13:11] and output result but no matter how you
+- [13:14] get this golden data set the idea here
+- [13:16] is you can evaluate your evaluator
+- [13:18] iterated it to a point where the result
+- [13:20] is pretty accurate so that in the end
+- [13:22] you can actually put a life and start
+- [13:24] testing against different variations of
+- [13:26] your system and compare the results
+- [13:28] between different system in terms of the
+- [13:29] metrics you define the latency and cost
+- [13:32] and that's pretty much it this process
+- [13:34] might sound a bit curious but in reality
+- [13:36] it's actually very easy to set up with
+- [13:38] system like L and phix I'm going to give
+- [13:40] you a quick example of how can I create
+- [13:42] a evaluation system for a researcher
+- [13:44] agent that I just created so I want to
+- [13:46] show you example of how I build a
+- [13:48] evaluation system of a web research
+- [13:50] agent that I built before all the
+- [13:52] details and source code in a different
+- [13:53] video so you can check out if you want
+- [13:55] to dive deeper and the key things I
+- [13:57] really care and want to test a lot is
+- [13:59] about the research agents's ability to
+- [14:01] gather as much information as possible
+- [14:03] from different data source so the
+- [14:04] metrics I Define here is the info
+- [14:06] Gathering whether the agent actually
+- [14:07] found all the necessary information that
+- [14:09] user requests from internet so I'm going
+- [14:11] to show you a step-by-step example of
+- [14:13] how I set it up and how I use that to
+- [14:15] compare the performance of using the old
+- [14:17] GPT model versus the new GPT 40 where
+- [14:19] they actually deliver better performance
+- [14:21] with cheaper cost so to set up there are
+- [14:22] really four steps first we want to use
+- [14:25] assistant to actually log the user
+- [14:27] request to your large model system and
+- [14:29] there are multiple different platforms
+- [14:30] you can use com like L Smith or there
+- [14:33] also open source version like phix where
+- [14:35] you can host yourself and once you set
+- [14:37] this up you can start all the user
+- [14:39] requests and build a data set out of it
+- [14:42] by annotating result and then we're
+- [14:43] going to create the evaluator to deliver
+- [14:46] the evaluation result so that we can
+- [14:48] start evaluating against different
+- [14:50] models and variations and compare the
+- [14:52] result so that's it but firstly the
+- [14:54] setup of logging system and the one I'm
+- [14:56] going to Showcase is SL Miss and the
+- [14:58] reason I I choose that is because they
+- [15:00] kind of have the both evaluation logging
+- [15:02] and annotation kind of connect together
+- [15:05] which make this process a lot easier so
+- [15:07] I'm going to go back to my agent scrier
+- [15:09] project that I did last time which is
+- [15:11] basically agent that can receive a
+- [15:13] website URL as well as a few research
+- [15:16] topics and then this agent will go to
+- [15:18] the company website to research all the
+- [15:20] possible information there and if
+- [15:22] nothing found it also go to poate
+- [15:24] internet to find more information and as
+- [15:26] I mentioned before I've demonstrated the
+- [15:28] source code another video which you can
+- [15:30] check out if you want to learn more but
+- [15:32] this is basically the agent I created
+- [15:33] before and as you can see here actually
+- [15:36] didn't set up any tracking and to setup
+- [15:38] tracking is actually very
+- [15:39] straightforward so the way lens miss or
+- [15:42] any other logging system works is
+- [15:44] basically you can add some special
+- [15:45] decorator to the function that you want
+- [15:47] to track by adding this add Tris B
+- [15:50] before your function and they also
+- [15:52] provide some help function to
+- [15:53] automatically track all the large range
+- [15:55] REM model core as well so all we need to
+- [15:57] do is just add this tras bow cre to
+- [15:59] every single function that we want to
+- [16:01] track the first step is we want to
+- [16:02] install lmus if you haven't installed
+- [16:05] that yet you can just do pip install L
+- [16:07] Smith in your comen line after that you
+- [16:09] will need to create API key and then
+- [16:11] copy API key to your file one for L
+- [16:14] chain API key and also you will need to
+- [16:17] turn on this lanching Trac in V2 to be
+- [16:19] true so that it will start tracking and
+- [16:21] if you want you can also Define a
+- [16:23] specific Ling project that you want to
+- [16:25] log all the information and at the four
+- [16:27] all the data will automatically go to to
+- [16:29] default project if you haven't specified
+- [16:31] yet and once you did that we can go back
+- [16:33] to our researcher. P file and firstly
+- [16:35] import two libraries from last miss one
+- [16:38] is traceable another is rap open a so I
+- [16:41] want to replace this open a. Cline to be
+- [16:43] rap open a. Cline so all the lar ler
+- [16:46] Modoc code will automatically be loging
+- [16:47] LM and then for every single function
+- [16:50] that we want to track we can add add
+- [16:52] trable decorator so for the scripting
+- [16:54] function I can add this add traceable
+- [16:57] and you can define a couple things and
+- [16:58] one R type it can be tool it can also be
+- [17:01] large L model basically the purpose of
+- [17:03] round type is identify them differently
+- [17:05] in the lens myth so some of will be
+- [17:07] large langage model some will be tools
+- [17:09] and at default will be Chang as you can
+- [17:11] see here each lck here has a different
+- [17:13] name this is name that you would Define
+- [17:15] here we can basically do add trow round
+- [17:18] type equal to Tool and name equal to
+- [17:20] script I'm going to do the same same for
+- [17:22] the internet search function so just
+- [17:24] before this function I will add this
+- [17:26] Trace round type equal to Tool and name
+- [17:28] equal to internet search same thing for
+- [17:30] update data also add to this chat
+- [17:33] completion request as well to track this
+- [17:35] agent chat completion for this help
+- [17:37] function where it is to log the
+- [17:39] information in my command line I don't
+- [17:41] really need to track this so skip it
+- [17:43] memory optimization I also want to track
+- [17:45] it so I just add decorator traceable
+- [17:47] name equal to optimize memory as well as
+- [17:50] call agent and same thing for the two
+- [17:52] different steps tro name equal to number
+- [17:55] one website domain research and the
+- [17:57] number two internet search in the end
+- [17:59] the last one traceable for run research
+- [18:02] that's pretty much it after I set up all
+- [18:04] those traceable next time when I run
+- [18:06] this researcher agent it should
+- [18:08] automatically log information into L
+- [18:10] Smith I can open Terminal to python
+- [18:12] researcher. py I can say start running
+- [18:15] okay so the agent has finished running
+- [18:16] on my end now if I switch back to LMI
+- [18:19] you can see this new session show up
+- [18:21] already and if I click on that you can
+- [18:23] see the four traits of every single
+- [18:25] steps agent did to complete this task so
+- [18:27] firstly there will be a WR research
+- [18:29] which is top level function that we
+- [18:31] tracked here and then the first stage is
+- [18:33] website domain research which is one of
+- [18:35] the first stag that we track here called
+- [18:37] number one website domain research and
+- [18:40] inside that you can see every time when
+- [18:41] a certain function has been called it
+- [18:43] will be automatically tracked from the
+- [18:45] agent chat completion and optimized
+- [18:47] memory I can also click on the top level
+- [18:49] number one website domain research to
+- [18:51] say the output of the first stage is
+- [18:53] that it didn't find any information on
+- [18:56] the website domain from Discord that's
+- [18:58] why trigger the second stage of the
+- [19:00] internet search in the end it found the
+- [19:02] result for every single field eventually
+- [19:05] so that's pretty much it from this point
+- [19:07] every single time when a user have a
+- [19:09] research task the information will be
+- [19:11] automatically logged into the system
+- [19:12] from there you can actually start
+- [19:14] creating a data set that can be used for
+- [19:16] evaluating the system so you can see
+- [19:18] there are two options here one is add to
+- [19:21] data set and another is add to NQ so n
+- [19:24] Play basically allow you to give your
+- [19:25] human evaluation result to create that
+- [19:27] golden data set set probably you won't
+- [19:29] see any metrics here yet because you
+- [19:31] haven't really connect any metric to
+- [19:34] this project but once you set up you can
+- [19:35] actually give your human evaluation but
+- [19:38] on the other side you can just add this
+- [19:39] to data set as well so data set is
+- [19:42] basically a collection of different
+- [19:44] cases that you want to test including
+- [19:46] both input and output you can create a
+- [19:47] new data set let's say grab scraping
+- [19:50] research agent click crate and you can
+- [19:53] also make change to the input and output
+- [19:56] here as well if you want and then click
+- [19:58] submit then this testing data set has
+- [20:00] been added for you to test later and if
+- [20:03] I switch back to data set tab you will
+- [20:05] see this new data set called Web
+- [20:06] scraping research agent if you click
+- [20:09] inside this one example here from your
+- [20:12] user lck and you can basically just
+- [20:13] repeat this process to look at all the
+- [20:15] user lock and pick up the good ones that
+- [20:17] you want to use for testing later
+- [20:19] because for each one of those data set
+- [20:21] you can actually create evaluators so
+- [20:23] lesm miss do provide some U for you to
+- [20:25] create a new evaluator you can choose
+- [20:27] some of the template that they already
+- [20:29] have but you can also create your own
+- [20:30] but I'm going to show you how can you
+- [20:32] create in the code direct so in our case
+- [20:34] as I mentioned before the key things I
+- [20:36] want to test is does this agent system
+- [20:39] collect as much information as possible
+- [20:41] for all data points that it requested
+- [20:44] and for that purpose I will just create
+- [20:45] evaluator to test just that whether all
+- [20:48] data point user request has been
+- [20:49] collected so I'll flip back to our
+- [20:52] python code and first they import two
+- [20:54] new libraries one is evaluate this will
+- [20:56] allow us to run evaluation let's say you
+- [20:59] have a few example in your data set the
+- [21:01] evaluate function will basically run
+- [21:03] your latest lar model system against
+- [21:06] this data sets and do the evaluation and
+- [21:09] we also import lens mist of schemas to
+- [21:11] import Rong and example so Rong means
+- [21:14] the actual output from your L model
+- [21:16] system example is where you can get the
+- [21:18] reference information from the example
+- [21:20] data in your data set and then our first
+- [21:22] create a function called research evolve
+- [21:24] with inputs so first we will try to get
+- [21:26] a few inputs from the test data sets one
+- [21:29] is entity name website data points those
+- [21:31] are basically the input variables we
+- [21:33] have in the testing data set which is
+- [21:36] website entity name and data points to
+- [21:38] search and then I'll do the wrong
+- [21:40] research function that we create above
+- [21:42] and return the data points as output
+- [21:45] then we're going to create the actual
+- [21:46] evaluator so evaluator I'm going to
+- [21:48] create is all data collected check and
+- [21:51] we have two input one is a wrong and
+- [21:53] another is example so we need a wrong to
+- [21:55] get actual output from the lar model
+- [21:58] system with be and example will allow us
+- [22:00] to get the reference output as well as
+- [22:02] test case inputs so we'll get all those
+- [22:05] relevant data company data points result
+- [22:07] and gr choose which is reference output
+- [22:10] then we will put together a system prop
+- [22:12] like this so I basically just pass it on
+- [22:14] both the research task the result from
+- [22:16] our research system as well as reference
+- [22:19] result from the human researcher and ask
+- [22:21] it to evaluate if all the information
+- [22:24] has been collected it can be either yes
+- [22:26] or no and then I basically use a model
+- [22:28] to do this evaluation and here I did
+- [22:31] actually use the same model that I was
+- [22:32] using for the large L model system which
+- [22:35] normally is not the best practice most
+- [22:37] of the time you do want to use a
+- [22:38] different model to do the evaluation but
+- [22:41] in my case I'm actually not testing the
+- [22:42] model itself I'm actually testing the
+- [22:44] output of the whole agent system so I
+- [22:46] still use the same model just for
+- [22:48] convenience and in the end I would do a
+- [22:50] transformation if all information found
+- [22:52] is yes then our set score to be one
+- [22:55] otherwise our set score to be zero the
+- [22:57] reason I do this is because in L Smith
+- [22:59] what the Matrix that number will be able
+- [23:01] to give us a overall score across all
+- [23:04] the test case for example in this
+- [23:06] specific one one out of four case
+- [23:08] actually succeed and all the out three
+- [23:10] cases fell so it gave me a average score
+- [23:13] 0.25 so this quite useful to get a
+- [23:15] summary of the experiment and in the end
+- [23:17] I will output key to be only INF for
+- [23:19] Fone and score to be a score we output
+- [23:22] and so far I couldn't find a Best
+- [23:24] practice about how to Output multiple
+- [23:26] different Matrix cuz unless seems like
+- [23:29] one evaluator can only output one score
+- [23:31] but if there any other good ways please
+- [23:33] comment below and let me know in the end
+- [23:35] I'm going to start a evaluate where I
+- [23:38] will put a system function that we going
+- [23:40] to run to first par the data Cent name
+- [23:43] which is the one that we create here the
+- [23:45] evaluator point to the function that we
+- [23:47] create above and experiment prefix as
+- [23:50] well as metadata and that's pretty much
+- [23:51] it so first I do want to run a quick
+- [23:53] benchmark test with the model I was used
+- [23:56] before which jpd for Turbo and I will
+- [23:59] open the terminal and run the script so
+- [24:01] you can see the agent start running
+- [24:03] which will take a while but if I flip
+- [24:05] back to LM miss you can see that there's
+- [24:07] a new experiment show up here called GPD
+- [24:10] 4 Turbo and if I click inside you can
+- [24:12] see all those two sessions are running
+- [24:15] in real time and showing us how much
+- [24:17] token it consumed and how much money it
+- [24:19] cost on large motorite and if I click on
+- [24:22] this view Trace button it will show me
+- [24:24] the four Trace up to this point now you
+- [24:26] can see that the evaluation has finished
+- [24:28] if I switch back to the lens Miss so
+- [24:31] result you can see from our very small
+- [24:33] testing cases is one case succeed one
+- [24:36] case fa and I can click on The View
+- [24:38] Trace button to see the result so test
+- [24:41] is basically I ask agent to search three
+- [24:43] piece of data about Discord about a
+- [24:46] certain company one is whether this
+- [24:47] company provide catering to the
+- [24:49] employees how many employees do they
+- [24:51] have and what different office locations
+- [24:53] are and the result is that the agent
+- [24:55] didn't really find whether the company
+- [24:57] provide catering but it does find the
+- [24:59] number of employees as well as office
+- [25:02] location the other case is the same list
+- [25:04] of dat points but different company
+- [25:06] safety culture and this time it
+- [25:08] successfully find the company actually
+- [25:10] offer in House Catering to the crew for
+- [25:13] breakfast lunch and snacks and there are
+- [25:16] roughly 696 employees and six office in
+- [25:19] total across those locations and you can
+- [25:22] see evaluation result also reflect that
+- [25:24] so the safety culture all info find is
+- [25:26] one versus Discord all info fun with
+- [25:29] zero and if you want you can actually
+- [25:31] click inside and copy paste whole input
+- [25:33] so now we have this Benchmark about the
+- [25:35] GPD terrible performance with our system
+- [25:38] as well as latency and token cost and
+- [25:40] you can see that a roughly cost from $1
+- [25:43] to 1.6 so let's say now we want to test
+- [25:47] whether new model gb4 actually improve
+- [25:49] the performance and ideally with cheaper
+- [25:51] cost as well so I can just move up and
+- [25:54] change the GPT model to GPT 40 and run
+- [25:57] this test again so GPD 40 test also
+- [26:00] finished and if I go back to the last
+- [26:03] miss you can see this new one called GPD
+- [26:05] 40 experiment if I click inside great so
+- [26:08] both of them actually succeed if I click
+- [26:10] on the first Discord one I can see they
+- [26:12] actually find some specific information
+- [26:14] for every single piece of information we
+- [26:16] need and I believe the overall cost to
+- [26:18] complete task is going to be lower as
+- [26:20] well cuz we can click on this add button
+- [26:22] and compare with another experiment we
+- [26:24] did in this case it would be gpq for
+- [26:25] Turbo so you can actually compare side
+- [26:27] by side with the similar cost for
+- [26:29] Discord case the gbd 40 actually cost a
+- [26:32] little bit lower but completed task
+- [26:35] successfully and for cic culture test
+- [26:37] case they both complete tasks but gbd4
+- [26:40] turbo complete task with much less cost
+- [26:43] and if you want you can even do another
+- [26:45] task with let's say GPD 3.5 turbo let's
+- [26:48] change the model as well as Max token
+- [26:51] all right GPD 3.5 also finished and
+- [26:53] actually finished really fast the
+- [26:55] question now is did it actually complete
+- [26:57] task so so if we go back you can see
+- [26:59] that GPT 3.5 just completely Miss Mark
+- [27:04] even though it's extremely cheap and
+- [27:06] again we can add a comparison with all
+- [27:08] the other two variation we just did to
+- [27:10] do this pop you probably need at least
+- [27:13] 20 or 30 different test case but you can
+- [27:15] see how powerful this one will be for
+- [27:17] your iteration process you can just
+- [27:19] change some combination and run the
+- [27:21] experiment to get understanding about
+- [27:23] what's the real performance of your
+- [27:24] latest iteration across multiple
+- [27:26] different testing data set and if you
+- [27:28] know any other interesting evaluation
+- [27:30] system or best practice please comment
+- [27:32] below I'd love to try out as well I will
+- [27:34] continue posting interesting AI
+- [27:36] knowledge and projects I'm doing so if
+- [27:38] you enjoy this video please can
+- [27:39] subscribe I will see you next time thank
+- [27:41] you

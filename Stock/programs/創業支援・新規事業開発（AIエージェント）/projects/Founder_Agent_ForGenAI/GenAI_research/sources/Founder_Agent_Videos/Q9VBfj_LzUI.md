@@ -1,0 +1,339 @@
+---
+title: "Transcript: Q9VBfj_LzUI"
+video_id: "Q9VBfj_LzUI"
+video_url: "https://www.youtube.com/watch?v=Q9VBfj_LzUI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:11:50"
+tags:
+  - "AI"
+topics:
+  - "General AI Discussion"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "AI"
+confidence_level: "high"
+---
+
+# Transcript: Q9VBfj_LzUI
+
+- URL: https://www.youtube.com/watch?v=Q9VBfj_LzUI
+- Retrieved at: 2025-12-30T10:47:04+09:00
+
+## Text
+
+- [00:03] In this video, we'll talk about
+- [00:05] operators. In fact, before this also we
+- [00:07] have worked with the operators like
+- [00:09] addition, subtraction. But let's see
+- [00:11] what else we can do. Now, in this video,
+- [00:13] we'll focus on arithmetic operators and
+- [00:15] relational operators. There are multiple
+- [00:17] options which you can perform. In fact,
+- [00:19] with string also or list, we are able to
+- [00:22] fetch values. Those are also operations.
+- [00:24] But then if we talk about arithmetic and
+- [00:26] relational, they are to be different and
+- [00:28] we going to see that here. So let's
+- [00:30] create two variables here. So I will say
+- [00:32] a is equal to 3 and b is equal to two.
+- [00:36] Simple variable, simple values. And I
+- [00:39] want to perform some operations on them.
+- [00:42] So of course I can add these two values,
+- [00:44] store it somewhere. But let's say we
+- [00:46] don't want to store it anywhere. I can
+- [00:47] simply say a + b. Now what we are doing
+- [00:50] is we are trying to add these two value.
+- [00:53] A which is three, two, b which is two.
+- [00:56] And then when you click on enter, you
+- [00:58] get the value five. As simple as that.
+- [01:00] Now apart from addition, we can also do
+- [01:03] other operations like a minus b which is
+- [01:05] subtraction. Then a multiplied by b
+- [01:07] which is multiplication and a divided by
+- [01:11] b which is the division. Okay. So you
+- [01:13] can perform all these operations here.
+- [01:15] Now we have also talked about double
+- [01:17] slash before which will give you the
+- [01:19] quotient not the point value. And if you
+- [01:21] want to get the remainder, you can use
+- [01:23] mod to get the remainder which is one in
+- [01:26] this case. So these are the simple
+- [01:27] operations which you have. Now what else
+- [01:30] we can do? So let's say I want to add a
+- [01:33] and I want to increment the value by
+- [01:34] two. So the value of a is three at this
+- [01:37] case and I want to increment the value
+- [01:39] by two. The way you can do that is by
+- [01:41] saying a is equal to a + 2. As simple as
+- [01:44] that. And of course this will also give
+- [01:46] you five. So the current value of a is
+- [01:48] five. Makes sense, right? But there's a
+- [01:51] trick here. This is the plus operation
+- [01:53] or you can say addition. Uh but also we
+- [01:56] have used one more operator here which
+- [01:57] is equal to, right? Which is the
+- [01:59] assignment operator. Now this is not the
+- [02:01] first time we are doing this. In in fact
+- [02:03] in the first two lines also we are
+- [02:05] assigning them right. So three is
+- [02:07] assigned to A, two is assigned to B. So
+- [02:09] that's your assignment operator. Okay.
+- [02:11] But then if you want to perform this
+- [02:13] operation where if you can see we are
+- [02:15] incrementing A itself. So can't we just
+- [02:18] use some shortcuts and yes we do have
+- [02:20] shortcuts we can say a plus so we want
+- [02:22] to increment a but but how much so if to
+- [02:25] say two so we are increment the value of
+- [02:28] a by two this is a shortcut also called
+- [02:30] assignment operator uh or in some
+- [02:33] languages we call shorthand if that
+- [02:35] makes sense even this works if you say a
+- [02:38] this is seven now so of course a was
+- [02:40] five and now we incrementing by two so
+- [02:42] this is seven in some languages we also
+- [02:46] use a ++ ++ which doesn't work here. You
+- [02:48] can see we caught an error. But you can
+- [02:51] use this short end and if you if you
+- [02:52] want to increment just by one you can
+- [02:55] say a + equal to 1 even that works. If
+- [02:58] you check the value of a it is eight
+- [02:59] now. So let me clear it. So that's how
+- [03:01] you can work with the arithmetic
+- [03:03] operators and assignment operators. In
+- [03:05] fact for assignment this is a fun thing
+- [03:07] about Python or amazing thing about
+- [03:10] Python is if you want to assign values
+- [03:12] to two variables uh let's say X and Y.
+- [03:14] Okay. So if I want to x value assign the
+- [03:16] value of of six to x I can do like this.
+- [03:18] And if I want to assign five to y then I
+- [03:20] have to say enter and on the new line I
+- [03:22] have to say y equal to 5. Can't we just
+- [03:25] assign those values in one line? And
+- [03:27] python says yes hold my cup. I should
+- [03:29] have said something else but I'm not
+- [03:32] sure who is watching this video. So x
+- [03:35] comma y or 6a 5. So what we're doing is
+- [03:38] we are assigning the value of six to x
+- [03:41] and five to y. And if I say enter, let's
+- [03:45] check the value of x. Let's check the
+- [03:46] value of y. And they have been assigned.
+- [03:49] So that's how basically you can work
+- [03:50] with the assignment operator. And you
+- [03:52] can assign two values. Now if you go
+- [03:54] back here, the operation which we have
+- [03:55] performed which is a + b, a minus b,
+- [03:58] those are called uh this plus minus here
+- [04:00] called binary operators. Now why they
+- [04:02] are binary is because we got two
+- [04:04] operants, right? A and b and we got one
+- [04:06] operator. So this one operator working
+- [04:08] with two operants. But what if you have
+- [04:11] a single operent? In this case we can
+- [04:13] let's say the value of a is 8 and I want
+- [04:17] to negate it. I want to make it minus.
+- [04:20] So you can say minus a. It will minus 8.
+- [04:22] Now this operator here which is minus is
+- [04:25] applicable only for one operent. So that
+- [04:27] is called a unary operator. Okay. Uh but
+- [04:30] again the value of a is still 8. It's
+- [04:32] just that we are printing it the minus
+- [04:34] 8. Uh but if you really want to make it
+- [04:36] minus 8 the value of a you can say a
+- [04:40] equal to minus a. If that makes sense.
+- [04:42] Now a itself becomes minus 8. So that's
+- [04:44] the arithmetic and assignment operator.
+- [04:47] Let's talk about the relation operators.
+- [04:49] Now here let's say I got the value of a
+- [04:51] as four and the value of b is let's say
+- [04:55] three. So we got two variables and two
+- [04:57] values. I can compare them. Okay. Now
+- [04:59] when you compare these two values, you
+- [05:01] can do that with the help of less than
+- [05:02] equal to or less than or greater than
+- [05:04] equal to or just less than or just
+- [05:06] greater than or not equal to. And when
+- [05:09] you do that the result type would be
+- [05:12] boolean. And we have talked about
+- [05:14] boolean before. Uh let me show you what
+- [05:15] I'm talking about. So if I want to check
+- [05:17] if a is greater than b and in this case
+- [05:19] yes a is greater than b it will return
+- [05:21] true. If I say a less than b it will
+- [05:24] return false. So this operations results
+- [05:26] in a boolean value. Okay. And not just
+- [05:29] less than greater than we can also try
+- [05:32] you know in maths we do less than equal
+- [05:35] to using this symbol. Here we can't we
+- [05:37] don't have that symbol on the keyboard.
+- [05:39] So we have to say less than equal to B.
+- [05:42] And when you say enter it is false. It
+- [05:44] is not less than and not not even equal
+- [05:46] to. But what I will do is I will just
+- [05:47] make the value of B as four. Now A and B
+- [05:50] both are four. And if I do the same
+- [05:52] operation again it says true. Now it is
+- [05:55] not less than but it is equal to. So at
+- [05:57] least one of the conditions should be
+- [05:58] true. Uh we can also check for A is
+- [06:01] greater than equal to B. Now it is not
+- [06:03] greater but it is equal to. So it will
+- [06:05] return true. So that's how we can work
+- [06:07] with the division operators. Also we
+- [06:09] have one more. I want to check if
+- [06:11] they're not equal to. So or maybe equal
+- [06:13] to. So you can say a equal to equal to
+- [06:16] b. So it will check if they are equal.
+- [06:18] Now why not single equal to? That the
+- [06:20] way we do it in maths is because single
+- [06:23] equal to is for the assignment. Right?
+- [06:25] So if you say this, this is assignment.
+- [06:27] And if you want to compare, we have to
+- [06:29] use double equal to. And when you say
+- [06:31] enter, it returns true. What if you want
+- [06:33] to check if they're not equal? In that
+- [06:35] case, you have to say not equal B. So
+- [06:38] this exclamation means not. And when you
+- [06:41] say enter, it says false. It's because
+- [06:43] they are same. So that's how we can work
+- [06:45] with the arithmetic assignment and
+- [06:48] relational operators. Now let's talk
+- [06:50] about logical operators. First of all,
+- [06:53] why do we need them? So let's go back to
+- [06:54] the previous example. We got the value
+- [06:57] of A as four and B as four. Okay, both
+- [07:00] are same. uh we should have changed it
+- [07:02] right so let's make it b as five of
+- [07:05] course doesn't matter but so we got two
+- [07:07] values now a is four b is five and now I
+- [07:10] want to check if a is less than 10 and I
+- [07:13] want so of course this will be true and
+- [07:16] b is greater than one and this is also
+- [07:19] true so both are true makes sense but I
+- [07:23] want to combine them okay so I want to
+- [07:25] check them in one line so based on these
+- [07:27] two values I want to do something you
+- [07:29] know so in programming basically ally
+- [07:31] when you say your software can think
+- [07:32] your computer can think it's because of
+- [07:34] these things right where you decide your
+- [07:36] path based on what result you get in
+- [07:39] terms of true or false example should I
+- [07:41] take the umbrella outside when I'm going
+- [07:43] it depends upon if it is raining of
+- [07:45] course I have to take the umbrella or
+- [07:46] maybe it's a rainy season I will take
+- [07:47] the umbrella or maybe I'm not even going
+- [07:50] to the office I'm going to play cricket
+- [07:52] so why do I need an umbrella I want to
+- [07:54] enjoy the rain while playing cricket so
+- [07:56] these are the conditions which you check
+- [07:58] in the same way we got two conditions
+- [07:59] here right and I want to combine them.
+- [08:01] So maybe it is if it is Sunday and if
+- [08:04] I'm not going to office if it is Sunday
+- [08:06] and if it is raining doesn't matter I
+- [08:08] will not take the umbrella. So I will
+- [08:09] take the umbrella only when it is Monday
+- [08:11] or weekday and it's a rainy season. So
+- [08:15] if the both scenario is true then only I
+- [08:17] will take the umbrella. I'm lazy I know.
+- [08:20] Uh but here if I how do I combine this?
+- [08:22] So the way you do that is very simple.
+- [08:24] You just keep that in one line. So first
+- [08:27] condition, second condition on the same
+- [08:29] line and you say enter and your Python
+- [08:31] is not happy. Python says what you
+- [08:33] doing? This is not how it works. Uh oh,
+- [08:36] maybe it says we don't do that here.
+- [08:38] Anyway, so if you want to combine these
+- [08:41] two conditions, this is not how you do
+- [08:42] it. You have to put something in
+- [08:44] between. That's how the syntax works. So
+- [08:46] take this take these two conditions and
+- [08:48] in between you say and. Okay, like in
+- [08:51] English we do that. So this condition
+- [08:54] and this condition if both are true
+- [08:57] return true as simple as that right? So
+- [09:00] that's how you combine two conditions.
+- [09:02] If it is that simple, why we are making
+- [09:04] the entire video on it? Because there's
+- [09:06] a trick. Let's say uh I instead of using
+- [09:10] and if I use or because we also use that
+- [09:13] in English sometimes we say and sometime
+- [09:15] we say or of course we don't use that in
+- [09:18] the same place based on different
+- [09:19] scenarios we use them but here also it
+- [09:21] returns true then which one you should
+- [09:23] use that depends upon how and and odd
+- [09:25] works. Now first of all if you are
+- [09:28] coming from mathematical background you
+- [09:29] might have seen this before. There's
+- [09:30] something called a truth table. Now see
+- [09:32] this condition is true and this
+- [09:35] condition is also true. So when you when
+- [09:37] you do a and operation on true and true
+- [09:40] you get true. This is true and this is
+- [09:44] true and when you do odd operation on
+- [09:46] true and true you get true. But what
+- [09:48] about the other scenarios? Example I
+- [09:50] will make this as greater than 10. Now B
+- [09:53] is not greater than 10. Okay. And in
+- [09:54] this scenario this will return true. But
+- [09:57] if you do the same thing with and it
+- [10:00] will return false. So yeah things are
+- [10:01] different. It's not same because this is
+- [10:03] true and this is false. Still still your
+- [10:06] or says true. This is true and this is
+- [10:10] false and says false. Now to understand
+- [10:13] this more we have to look at the truth
+- [10:14] table. Now let's look at the truth table
+- [10:16] for and first. Now let's say we got two
+- [10:18] inputs A and B. Let's not use A and B.
+- [10:21] Let's say use something else. So
+- [10:22] condition one C1 C2. So we got two
+- [10:24] conditions and in these two conditions
+- [10:27] both are true then you will get true. We
+- [10:29] are talking about and here. So and means
+- [10:32] both are true then true. If the first
+- [10:33] one is true, second is false, it will be
+- [10:35] false. Let's say in the third one, first
+- [10:37] one is false, second is true, it will be
+- [10:40] false. And if both are false, it will be
+- [10:43] false. That's how and works. So only
+- [10:46] place where you get the true in the
+- [10:47] output is if both are true. On the other
+- [10:49] hand, if you talk about or operations,
+- [10:51] if both the conditions are true, of
+- [10:53] course, you will get true. If one of
+- [10:55] them is true also, you will get true. So
+- [10:57] let's say true false it is true false
+- [10:59] true it is true false false is false so
+- [11:02] the only way you will get false is both
+- [11:05] should be false example let's use or
+- [11:08] here and let's make this both as greater
+- [11:11] than 10 then you will get false because
+- [11:13] both are false so this is how and or
+- [11:15] works but also we got one more which is
+- [11:18] not so let's say uh I got result which
+- [11:22] is true okay so of course if you print
+- [11:25] result it will be true if to say not
+- [11:27] result. Of course, you can't use
+- [11:29] exclamation here. That's only for the
+- [11:31] relational operators. But if you talk
+- [11:32] about logical operators, we have to say
+- [11:34] not. Now, what not will do is not will
+- [11:36] just reverse it. It will say false. So,
+- [11:38] result was true. If you say not result,
+- [11:40] it is false. It will just reverse the
+- [11:43] condition or the output. So, those are
+- [11:46] your logical operators. So, that's it
+- [11:49] from this video. See you in the next
+- [11:50] part.

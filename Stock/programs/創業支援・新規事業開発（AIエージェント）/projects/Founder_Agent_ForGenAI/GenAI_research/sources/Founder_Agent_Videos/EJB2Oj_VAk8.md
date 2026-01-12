@@ -1,0 +1,675 @@
+---
+title: "Welcome Val, chief AI officer of Weta."
+video_id: "EJB2Oj_VAk8"
+video_url: "https://www.youtube.com/watch?v=EJB2Oj_VAk8"
+speaker: "I"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Welcome Val, chief AI officer of Weta
+  >> Yes, you know, we've we've done one of these in San Francisco, so it's great to actually see you here in New York City
+  Uh, obviously, thanks for for making this this event possible
+key_points:
+  - "of all in terms of things you'd like to put into perspective because you're seeing a a lot of uh customers"
+  - "year, certainly by 2027"
+  - "foundational model builders in this market that are enabling so much else"
+category: "Startup"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:11:53+09:00"
+---
+
+# Transcript: EJB2Oj_VAk8
+
+- URL: https://www.youtube.com/watch?v=EJB2Oj_VAk8
+- Retrieved at: 2025-12-30T10:11:53+09:00
+
+## Text
+
+- [00:00] Welcome Val, chief AI officer of Weta.
+- [00:04] >> Yes, you know, we've we've done one of
+- [00:06] these in San Francisco, so it's great to
+- [00:08] actually see you here in New York City.
+- [00:10] Uh, obviously, thanks for for making
+- [00:12] this this event possible. Um, Val, uh,
+- [00:15] you're pro probably too modest to talk
+- [00:17] about all your your exploits as kind of
+- [00:19] a leader in Kubernetes and uh, the
+- [00:21] various protocols and in storage and
+- [00:23] Windows. I can't can't list the number
+- [00:25] of contributions you've made. So, you
+- [00:26] know, I'm I'm just curious like what
+- [00:28] your um reactions are kind of these
+- [00:30] comments. Were they expected? Was there
+- [00:31] anything that provoked you first of all
+- [00:33] in terms of things you'd like to put
+- [00:35] into perspective because you're seeing a
+- [00:37] a lot of uh customers? You've got a lot
+- [00:40] of customers in invested in in GPUs.
+- [00:44] >> Anything provoke you?
+- [00:45] >> I I wouldn't say provoke at all. It's
+- [00:47] inspire more than anything else. I think
+- [00:48] you know Ben and James are very
+- [00:50] representative of the market. There's
+- [00:52] definitely, you know, some some really
+- [00:54] important foundational model builders in
+- [00:55] this market that are enabling so much
+- [00:58] else. And then James, I think, is just a
+- [01:00] super modern, you know, applicator, if
+- [01:03] you will, of all these technologies
+- [01:04] being cloud native and so forth. I
+- [01:06] thought that last question was probably
+- [01:07] the most fascinating one because I'm a
+- [01:09] technologist by nature, but I've been
+- [01:11] focusing so so much lately on unit
+- [01:14] economics and gross margins of this
+- [01:15] business. And I can't escape the whole
+- [01:17] notion that if you remember Travis
+- [01:19] Kalan, who remembers that name?
+- [01:21] >> Yeah.
+- [01:21] >> So, founder of Uber.
+- [01:23] >> Yeah.
+- [01:23] >> Uh you know, famously ousted from Uber
+- [01:25] and then as soon as DH came in, I think
+- [01:28] um surge pricing became a thing, right?
+- [01:30] Like most people might not remember.
+- [01:32] >> I didn't know the surge pricing came in
+- [01:34] under that
+- [01:34] >> more or less. Yeah, that's when the the
+- [01:36] focus on being profitable came in and
+- [01:38] all of a sudden real market rates for
+- [01:41] ride sharing appeared for the first
+- [01:42] time. The same thing is about to happen,
+- [01:44] you know, with AI, particularly with
+- [01:46] inferences. We don't have real market
+- [01:48] rates today. We have subsidized rates
+- [01:50] that's necessary to enable a lot of the
+- [01:53] innovation that's happening right now.
+- [01:55] But sooner or later, you know, certainly
+- [01:57] the trillions of dollars of capex we're
+- [01:59] talking about now and the pretty finite
+- [02:01] energy opex real market rates are going
+- [02:03] to be around, you know, or going to
+- [02:05] appear significantly perhaps next year,
+- [02:07] certainly by 2027. That'll fundamentally
+- [02:10] change this industry and it'll drive an
+- [02:12] even deeper keener focus on efficiency.
+- [02:14] >> Right. Yeah, that that's interesting. So
+- [02:16] maybe we can walk through that that
+- [02:18] first point. I think where you you're
+- [02:20] seeing a token explosion and I think we
+- [02:23] we've heard it from from these two,
+- [02:24] right? There's there's no there's no
+- [02:26] bubble in the terms of desire to have
+- [02:28] the tokens, right? To to that question,
+- [02:30] right? It's it's the economics behind
+- [02:32] the investment to actually generate them
+- [02:33] and whether there's enough use cases,
+- [02:35] but you know what can you walk us
+- [02:37] through your read on on on the tokens
+- [02:40] and where that's going? Agents are big.
+- [02:42] You have a philosophy that actually
+- [02:43] people are moving to agents for
+- [02:45] enterprise application building versus
+- [02:47] vibe coding for example
+- [02:55] is that this is an industry where more
+- [02:57] is more. So more tokens directly equal
+- [03:00] exponentially more business value that's
+- [03:03] been established.
+- [03:04] >> Uh what we haven't figured out yet again
+- [03:06] is how to make that a sustainable thing.
+- [03:07] Right now there's a classic triad in AI
+- [03:11] between accuracy so the the quality of
+- [03:13] the output the quality of the output
+- [03:15] tokens in particular uh latency and
+- [03:17] cost. So accuracy is kind of
+- [03:19] non-negotiable, right? We don't want a
+- [03:21] bad answer to any chat GPT query. We
+- [03:23] certainly don't want a bad answer to,
+- [03:25] you know, building new drugs and and
+- [03:26] models and things of that nature. So
+- [03:28] that's non-negotiable where you have to
+- [03:31] have, you know, a high amount of tokens
+- [03:32] for high accuracy, especially when you
+- [03:35] add cyber security into the mix to add
+- [03:37] guardrail models and quality models. And
+- [03:39] then you you're you're trading off
+- [03:42] essentially latency and cost. That's
+- [03:44] where you have some flexibility is if
+- [03:46] you can tolerate high latency and
+- [03:47] sometimes you can for consumer use cases
+- [03:50] then you can have a lower cost for the
+- [03:51] free tiers and a low cost plus tiers.
+- [03:54] Often now we're seeing that with agents
+- [03:56] um nobody wants to sit around and wait
+- [03:58] hours for a response. Uh these agents
+- [04:01] now don't operate in any singular sense.
+- [04:04] You either have an agent swarm or no
+- [04:06] aentic activity at all. And these swarms
+- [04:09] like they go through what's called
+- [04:10] multiple turns, hundreds if not
+- [04:13] thousands of prompts and responses until
+- [04:15] the swarm sort of, you know, converses
+- [04:18] or convenes on a on an answer. And if
+- [04:21] you have a compound delay in those
+- [04:23] thousand turns, it becomes kind of
+- [04:25] untenable. So right, so latency is
+- [04:27] really really important. And that means
+- [04:29] typically having to pay a high price
+- [04:30] today that's subsidized and that's
+- [04:32] what's going to have to come down over
+- [04:33] time.
+- [04:34] >> Yeah. And I just wanted for the audience
+- [04:35] because you're you're you're you're
+- [04:37] reading the market so quickly. I don't I
+- [04:38] don't know if that that word agent swarm
+- [04:40] is actually fully flooded uh for
+- [04:42] everyone in the room. Anyone heard of
+- [04:44] that term? Just a hands up. Yeah. So so
+- [04:46] good good half of the room. But can
+- [04:47] could you just talk through what an
+- [04:48] agent swarm is?
+- [04:50] >> Absolutely. When you ask when you have a
+- [04:52] simple prompt and chat GPT and a
+- [04:54] response that's not agentic. That's a
+- [04:56] model responding obviously using tools
+- [04:58] like web search now to give you an
+- [05:00] answer.
+- [05:00] >> Yeah. when you ask an agent, you know,
+- [05:02] and and the best canonical example today
+- [05:04] is in software, write me, you know, well
+- [05:07] what's what Anthropic did with their
+- [05:09] claude sonnet 3.5 announcement about a
+- [05:11] week or week and a half ago. I said,
+- [05:13] write me the entire Slack app. Like it's
+- [05:17] a very sophisticated SAS app, super
+- [05:20] sophisticated instant messaging and and
+- [05:22] group chats and all that. So the agent
+- [05:24] went away and it spent 30 hours creating
+- [05:27] a swarm of subtasks and in 30 hours for
+- [05:30] several tens of thousands of dollars I
+- [05:32] think it recreated Slack.
+- [05:34] >> Right?
+- [05:35] >> That was super impressive.
+- [05:36] >> So that that swarm is you've literally
+- [05:38] got a testing agent, you've got a
+- [05:40] security agent, you've got the model,
+- [05:42] all these different it starts with an
+- [05:44] orchestrator agent where the the
+- [05:46] smartest model figures out what does it
+- [05:48] take to build Slack? You know what
+- [05:50] architecture decisions are required?
+- [05:52] what cloud or on-prem decisions are
+- [05:54] required, what are the performance
+- [05:55] considerations, what are the functional
+- [05:57] considerations, what are the privacy and
+- [05:59] security. So the orchestrator figures
+- [06:01] out a bunch of subtasks and then the
+- [06:03] subtasks go off and do the work.
+- [06:05] >> Yeah.
+- [06:06] >> And then that's a swarm of activity,
+- [06:08] hundreds of parallel sessions basically
+- [06:11] parallel users as far as inference is
+- [06:13] concerned and then there's evaluator
+- [06:15] models which judge okay is this task
+- [06:17] complete according to specification? If
+- [06:19] not, try again. Usually there's about
+- [06:21] like 10 final versions of an app in
+- [06:24] these in these agentic swarm systems and
+- [06:27] then they they get voted on by an
+- [06:29] agentic committee and the committee
+- [06:30] decides you know eight don't work one is
+- [06:33] slow and one is fast and efficient and
+- [06:35] it's correct. So that'll be the final
+- [06:37] one.
+- [06:37] >> Yeah. Yeah. And this is accelerated over
+- [06:39] the summer as as people have gotten a
+- [06:41] lot more sophisticated and the agentic
+- [06:43] frameworks have gotten more
+- [06:44] sophisticated to allow this sort of
+- [06:46] thing to happen. Right. So something
+- [06:47] just really real time. We can go into
+- [06:50] this more I think with questions. I just
+- [06:52] want to get through this next next
+- [06:54] question which is reinforcement
+- [06:55] learning. We we really haven't talked
+- [06:57] about this but it's it's one of those
+- [06:58] things that most enterprise users
+- [07:00] presumably all of you from enterprise
+- [07:03] um you know are thinking a way to to
+- [07:05] inject their domain ex experience and
+- [07:08] data um you know questions answers into
+- [07:11] the the model system and reinforcement
+- [07:14] learning is is the new paradigm. How
+- [07:16] does that affect the token economics
+- [07:19] for right
+- [07:20] >> that that is such a pivotal question
+- [07:22] because I like to talk about the seasons
+- [07:24] of AI particularly this year. So early
+- [07:26] this year we went through the reasoning
+- [07:28] season of AI. Reasoning models became
+- [07:29] really popular valuable useful
+- [07:32] ultimately somewhat affordable
+- [07:33] especially with open source models. Then
+- [07:36] the agentic season, you know, came
+- [07:37] around the spring summer of this year.
+- [07:39] And I was a skeptic as I told you in San
+- [07:41] Francisco, right? I was an agent skeptic
+- [07:42] because agents just weren't that good on
+- [07:45] a general basis until around May of this
+- [07:47] year. And then a massive you know
+- [07:49] milestone happened where the context
+- [07:51] windows were large enough the the GPUs
+- [07:53] were available enough and now as of May
+- [07:56] agents can write proper software as as
+- [07:59] you know you were saying it's like 90%
+- [08:01] in some cases of software is is
+- [08:04] generated by coding agents and that's a
+- [08:05] recent phenomenon right that that wasn't
+- [08:07] the case 12 months ago. So this is
+- [08:09] progressing at a just enormous enormous
+- [08:11] phase uh pace and the current season
+- [08:15] we're in right now is the reinforcement
+- [08:17] learning season and why that's
+- [08:19] fascinating is it's not just another
+- [08:21] scaling law. It actually blends a lot of
+- [08:23] elements of training and inference into
+- [08:26] one united workflow unified workflow and
+- [08:29] there's a lot of looping involved. And
+- [08:30] when you talk to some of the folks at
+- [08:32] the leading labs, the open eyes and
+- [08:34] anthropics and geminis of the world,
+- [08:37] they will tell you that reinforcement
+- [08:39] learning is the critical path now is the
+- [08:41] latest and greatest scaling law to this
+- [08:44] mythical milestone we're all trying to
+- [08:46] reach called AGI. Yeah. Artificial
+- [08:48] general intelligence. So it's really
+- [08:49] really critical and what's fascinating
+- [08:51] to me is that you have to apply all the
+- [08:54] best practices of of how you train
+- [08:56] models plus all the best practices of
+- [08:59] how you infer models to be able to
+- [09:01] iterate these thousands of reinforcement
+- [09:03] learning loops and advance the whole
+- [09:05] field.
+- [09:05] >> Okay, great. Um so uh I'm going to put
+- [09:08] you on the spot. We've got maybe you
+- [09:10] know one minute left. um your big
+- [09:12] takeaway so far of the conversations. I
+- [09:14] know we started it uh with a provocation
+- [09:17] but you were inspired and anything else
+- [09:19] in terms of things that you're taking
+- [09:21] away from this this this meeting today
+- [09:23] conversations you had so far. So two
+- [09:25] things right there is no one answer
+- [09:27] here. This is such an emerging field
+- [09:28] right now that going all on prem is the
+- [09:31] right thing for especially model
+- [09:32] builders being cloudnative is absolutely
+- [09:34] the right thing if you want to be a very
+- [09:36] agile responsive innovative business.
+- [09:38] Right? So there's no cookie cutter here.
+- [09:40] You've got to be able to to adapt as
+- [09:42] your business needs to one or the other,
+- [09:44] in some cases both. The economics, you
+- [09:47] know, fundamentally matter here. We are
+- [09:49] definitely in a boom and in a bubble,
+- [09:52] you could say, in some cases, and a lot
+- [09:53] of the underlying economics are being
+- [09:55] subsidized, but that doesn't mean that
+- [09:57] if tokens get more expensive, you're
+- [09:59] going to stop using them or you're going
+- [10:00] to stop using them. Absolutely not.
+- [10:02] You're just going to get very very, you
+- [10:03] know, fine grained in terms of how you
+- [10:05] use them. and and I love the the drill
+- [10:07] down of buy transaction, you know,
+- [10:08] because that's more important than a
+- [10:10] token cost is what does this really cost
+- [10:11] for the unit economics of my business.
+- [10:14] Um, so that's it's one of my key
+- [10:15] takeaways, you know. I think the turnout
+- [10:18] here is really great. The questions have
+- [10:20] been phenomenal so far and just looking
+- [10:21] forward to hearing some of the questions
+- [10:23] and and talking about, you know, how we
+- [10:25] can uh if that time really is up,
+- [10:27] >> how we can continue to advance this this
+- [10:29] fascinating field that that I love being
+- [10:32] part of.
+- [10:32] >> That's great. Okay, let's go to
+- [10:33] questions. Thanks, Val. Yeah. Hi. Uh, hi
+- [10:36] Val. I'm Jonathan Chairman from the
+- [10:37] World Economic Forum. I have a quick
+- [10:39] question about the regulatory framework.
+- [10:40] We're moving this agentic world and the
+- [10:43] AI world is moving very very fast. Um,
+- [10:45] something we see with a lot of our
+- [10:47] European partners is, you know, the US
+- [10:49] is moving very quickly in the space.
+- [10:52] Deregulation is a huge part of that. Um,
+- [10:55] where do you think sort of the the
+- [10:57] ceilings of this regulatory framework
+- [10:59] come in? And are you guys anticipating
+- [11:02] changes to the regulatory framework,
+- [11:04] let's say, if there's a midterm election
+- [11:06] in 2026 or changes in the European
+- [11:08] Parliaments over the next two years that
+- [11:10] could change this rapid growth of AI?
+- [11:14] That's a great question. I think there
+- [11:16] there's been some coverage over the last
+- [11:17] few days around the fact that at least
+- [11:20] for open AI traffic, it's actually kind
+- [11:22] of tailed off in Europe as opposed to
+- [11:24] growing everywhere else in the world.
+- [11:26] And the speculation is that's a direct
+- [11:28] reflection of the fact that there's a
+- [11:29] lot of regulation in Europe, you know,
+- [11:32] of open AI and anthropic and and Google
+- [11:34] and other models. and that all the
+- [11:36] newest features that are really
+- [11:38] exciting, a lot of the agentic features,
+- [11:39] whether they're software development,
+- [11:41] life sciences, you know, personal
+- [11:43] therapy, all the things people use right
+- [11:45] now, the desktop, the computer use
+- [11:47] features just weren't available, still
+- [11:49] aren't available in Europe. So personal
+- [11:51] opinion here really not even speaking
+- [11:52] for the company or the industry but
+- [11:54] observation as a longtime you know tech
+- [11:56] in the industry and tech leader in the
+- [11:58] industry is that this is such a young
+- [12:00] and embriionic industry that regulation
+- [12:03] is premature in general and I think the
+- [12:06] US is doing the right thing here
+- [12:07] indirectly China is obviously doing the
+- [12:09] right thing you've just got to spur the
+- [12:11] innovation right now we are not at a
+- [12:12] Skynet moment yet you know the the the
+- [12:15] dooms doomsday scenarios are
+- [12:17] theoretically possible in the future
+- [12:20] There's an off switch today in
+- [12:21] everything we do with AI literally right
+- [12:23] you can literally pull a plug and it
+- [12:25] just ends. So AI is a contained risk
+- [12:28] right now and we just definitely have to
+- [12:30] enable the innovation. Having said that
+- [12:33] this fundamental con concept of
+- [12:36] recursive self-improvement and
+- [12:38] essentially uh you know exponential
+- [12:40] progress is part of AI. It's the
+- [12:42] progress we've seen in the last 12
+- [12:44] months alone has been phenomenal. So
+- [12:45] will we need more regulation in the
+- [12:47] future? Yes. And it's like any law, how
+- [12:50] you implement it, how you define it is
+- [12:53] the hardest part because it's really
+- [12:54] hard. Some of the laws in place now to
+- [12:56] try and regulate flops or try and
+- [12:59] regulate tokens or try and regulate, you
+- [13:01] know, model parameter sizes, they're
+- [13:04] they're not, you know, be kind. They're
+- [13:06] they're not they're not effective first
+- [13:08] steps here. They they they're they're
+- [13:10] just not getting the the job done.
+- [13:12] >> Sorry, we we got an order here. We got
+- [13:13] we got a question here. So we we were
+- [13:15] going to take away from politics because
+- [13:16] I'm sure I saw a bunch of hands go up
+- [13:18] and we're going to debate this baby. But
+- [13:20] no, let's keep keep on track.
+- [13:21] >> Yeah, thank you Val for sharing. So my
+- [13:23] name is Osin. I'm a financial adviser at
+- [13:25] UBS Per Wealth Management. So here's my
+- [13:28] question. Not all the business model are
+- [13:30] trans transactional basis. For example,
+- [13:32] uh me as an advisor, I don't really care
+- [13:35] like how much how many tokens my analyst
+- [13:38] like used as long as the the investment
+- [13:40] result are good for my client. So uh and
+- [13:43] uh personally I don't know how to
+- [13:45] evaluate what's the what's the marginal
+- [13:46] utility that is actually contributed by
+- [13:49] each of the token uh terms of the
+- [13:52] eventual eventual like result. So what
+- [13:54] do you think can be a great matrix to to
+- [13:57] to to evaluate the performance of each
+- [13:59] of the token uh or maybe is there a
+- [14:02] holistic uh way to evaluate that? Yeah,
+- [14:05] thank you.
+- [14:06] >> Yeah, that's definitely a great
+- [14:07] question. It's it's a very much a case
+- [14:08] by case basis. So it's at what
+- [14:11] granularity do you want to measure those
+- [14:13] unit economics right do you want to
+- [14:14] measure them purely at the inference you
+- [14:16] the token level do you want to measure
+- [14:18] them again at the agentic output level I
+- [14:21] love the the the innovation in business
+- [14:23] models around pay per outcome as opposed
+- [14:26] to pay per use uh and we're going to
+- [14:28] have to figure that out right now it's a
+- [14:29] very risky thing for companies and
+- [14:31] startups who want to do that but I think
+- [14:33] it's essential right now because the the
+- [14:35] per unit costs the variable token costs
+- [14:38] are not sustainable to get the highest
+- [14:40] quality, it becomes really an
+- [14:41] unaffordable thing right now. And so,
+- [14:43] you know, in order to make like the the
+- [14:45] business unit cost to your point, right,
+- [14:47] your your outcome is much more important
+- [14:49] than the supply chain unit economics.
+- [14:52] That's ultimately how we're going to be
+- [14:53] measuring it. And as we're saying, this
+- [14:55] is just a young industry. There's just a
+- [14:57] lot of evolution that that is is going
+- [14:59] to happen right now. uh having worked in
+- [15:01] cloud for 15 years, you know, for the
+- [15:04] last 15 years at least. We're kind of in
+- [15:06] year one or two of a 15-year process at
+- [15:08] least here. Uh and and we will get to a
+- [15:11] level of maturity. Well, some of these
+- [15:12] things will harmonize, but we're not
+- [15:14] there yet.
+- [15:16] >> Okay.
+- [15:17] >> So, real quick, uh full disclosure, I'm
+- [15:19] not Val's brother-in-law. I'm not going
+- [15:21] to see him at Thanks Thanksgiving dinner
+- [15:23] next month, but I'd love to you for you
+- [15:25] to give a shabus plug for your company.
+- [15:26] like I'm I'd like to know what your
+- [15:28] company does, what's your secret sauce,
+- [15:30] what's your discriminating uh
+- [15:32] capabilities, the 90 second two-minute
+- [15:34] uh elevator pitch, please.
+- [15:36] >> Thanks for the question. That's really
+- [15:37] important.
+- [15:38] >> I I do appreciate that. Yeah, check's
+- [15:39] not in the mail. But um so Weta is a
+- [15:43] storage and memory company. And so for
+- [15:45] the world of AI and machine learning, we
+- [15:48] started doing machine learning before
+- [15:50] the chat GPT embionic moment in November
+- [15:52] 2022. Some of the biggest self-driving
+- [15:54] model companies in the world some of the
+- [15:56] biggest you know uh msk memorial
+- [15:58] lancetering just you know drug discovery
+- [16:01] companies in the world have been using
+- [16:02] weta for a long long time we've been a
+- [16:04] high performance storage system very
+- [16:06] very high performance storage system uh
+- [16:08] for those customers the reason I joined
+- [16:10] a year ago was I took a look at the
+- [16:12] actual technical specifications of what
+- [16:13] wa does and I realized we can apply the
+- [16:16] economics of storage to deliver memory
+- [16:19] actual honest to goodness memory
+- [16:21] performance which if you you pack your
+- [16:23] Amazon cart with a SSD and and a dim
+- [16:26] basically for memory. You'll notice
+- [16:27] there's a 10 or 20x perform uh cost
+- [16:30] difference because it's worth that much
+- [16:31] more. So in the world of inference and
+- [16:33] this applies really to not just unit
+- [16:35] economics but reinforcement learning.
+- [16:36] We're able to deliver a memory system at
+- [16:40] the cost of storage and that is one of
+- [16:42] those radical transformations of the
+- [16:44] industry because we talk about abundance
+- [16:46] this duality of abundance and scarcity
+- [16:48] in AI. the abundance of it can change
+- [16:50] our lives fundamentally in the next few
+- [16:51] years of what what AI can do and enable.
+- [16:54] But the scarcity of resources, scarcity
+- [16:56] of GPUs, scarcity of power and we were
+- [16:59] joking earlier on, the most scarce thing
+- [17:01] in the world and the most valuable piece
+- [17:03] of real estate in the world isn't one of
+- [17:05] the condos, $100 million condos up near
+- [17:07] Central Park here. It's actually the
+- [17:09] high bandwidth memory on the GPUs
+- [17:12] themselves on a perunit basis. That is
+- [17:14] insanely expensive. It just went up 10%
+- [17:16] yesterday in the spot market, right? So
+- [17:19] the demand for this is off the charts
+- [17:21] and the ability to augment this memory
+- [17:23] at fundamentally different cost of goods
+- [17:25] is is really my passion around WA
+- [17:27] because it advances the whole field.
+- [17:29] >> Yeah. So yeah, that was the Val's
+- [17:31] threeinut version. I think my my version
+- [17:33] is yeah that real estate on the GPU,
+- [17:35] right? There's very small amount of
+- [17:37] memory, right? That's that's that's
+- [17:39] allowing that GPU to call that
+- [17:40] information. The KV cache that James was
+- [17:42] talking about so important. They figured
+- [17:44] out how to access that, right? And it's
+- [17:46] it's a pretty cool technology. Yeah.
+- [17:47] Right away.
+- [17:48] >> Now I have a mic. Um, thanks for sharing
+- [17:51] your insights. My question is I I
+- [17:52] remember reading either last year or
+- [17:54] earlier this year that models when
+- [17:56] they're trained like the models have
+- [17:58] been trained, especially the generalized
+- [17:59] models have been trained on, you know,
+- [18:01] the internet, the world's data. They've
+- [18:02] been scraping Reddit, Stack Overflow,
+- [18:04] all of this stuff. What happens when we
+- [18:06] run out of data and humans stop
+- [18:08] generating that content? And the
+- [18:10] research I was referring to said that
+- [18:12] models actually collapse on themselves
+- [18:14] when trained on synthetic data.
+- [18:15] >> Really curious to hear your thoughts on
+- [18:17] that.
+- [18:17] >> I love that question because again I was
+- [18:19] definitely there a few months ago. You
+- [18:21] know you can use the word incestuous
+- [18:23] right like the models if they train on
+- [18:24] their own data on their own synthetic
+- [18:26] outputs ultimately just degrade. Uh
+- [18:28] what's happening though not surprisingly
+- [18:30] is what the internet is best at is it's
+- [18:33] turning us you know as users into the
+- [18:35] product in free tiers. So the free tiers
+- [18:38] of all the big labs of chat EPT of
+- [18:40] Anthropic of Google etc are
+- [18:42] fundamentally creating real
+- [18:44] reinforcement learning data you know
+- [18:47] whether it's human feedback or just the
+- [18:48] verifiable rewards of it works what we
+- [18:50] confirm works and what doesn't and that
+- [18:52] is one of the next big sources alongside
+- [18:55] synthetic data that's being better and
+- [18:57] better curated to to not have those
+- [19:00] negative qualities and attributes but we
+- [19:02] are in a phase right now where we are
+- [19:04] the product if we're not paying for it
+- [19:06] and a lot of our interactions with these
+- [19:08] models are literally leading to the
+- [19:11] training data sets for the next versions
+- [19:12] of these models.
+- [19:15] >> Welcome. Yeah, yeah,
+- [19:16] >> I have the microphone. My name is Amy
+- [19:18] Rockefeller. I'm working for a family
+- [19:20] office. So, I have two questions if you
+- [19:22] don't have time to uh to reply them. The
+- [19:25] first is that you've guys talking about
+- [19:27] the token on tokconomics in AI
+- [19:30] inference. From infrastructure
+- [19:32] perspective, how do you see the
+- [19:33] economics of a token in terms of cost
+- [19:35] per token throughout? How do you see
+- [19:37] that reshaping the data platform design?
+- [19:40] The second question I have is more on
+- [19:42] the investment perspective. How do you
+- [19:44] see a capital allocation shifting
+- [19:46] between the AI compute and the data
+- [19:48] infrastructure over the next 12 to 24
+- [19:50] months?
+- [19:51] >> Yeah. The second one, if I can sort of
+- [19:53] give you a quick answer, is easier to
+- [19:54] start with, which is um we've seen an
+- [19:57] enormous amount of capex and opex
+- [19:59] invested in training models over the
+- [20:02] last few years, particularly large
+- [20:03] language models. We're definitely even
+- [20:05] before the era of needing to be
+- [20:07] profitable, seeing a turn this year into
+- [20:10] inference investment. And so a lot of
+- [20:12] analyst opinions, and I'm definitely in
+- [20:14] that camp, is that four out of every
+- [20:16] five dollars used to be focused on
+- [20:18] training up until the beginning of this
+- [20:20] year. Now it's going to be four to five
+- [20:22] dollars focus on inference. And so
+- [20:24] you're going to see a big shift uh in
+- [20:27] terms of just you know whether it's for
+- [20:29] monetization reasons whether it's
+- [20:31] literally to to come up with more
+- [20:32] reinforcement learning data you're going
+- [20:34] to see a big big shift towards inference
+- [20:36] going forward. Uh and and that has lots
+- [20:38] of interesting ramifications but the
+- [20:40] most interesting one perhaps is an
+- [20:42] example of Nvidia pre-announced about a
+- [20:44] month ago. They pre-announced a
+- [20:46] processor called Reuben CPX. And what's
+- [20:50] fascinating is it's not only the first
+- [20:52] dedicated processor from Nvidia to just
+- [20:55] focus on inference. It's the first
+- [20:57] processor to focus on one phase, the
+- [21:00] first phase of inference called prefill,
+- [21:02] which is actually the fundamental
+- [21:04] bottleneck of all a large language model
+- [21:06] AI, you know, transformer models today.
+- [21:08] If you can solve that bottleneck, it's
+- [21:10] something Weta actually does by
+- [21:12] requiring less prefills, then you really
+- [21:15] unlock a whole new, you know,
+- [21:17] possibility of the industry in terms of
+- [21:19] how many tokens we can generate quality
+- [21:21] tokens at a sustainable rate power-wise
+- [21:24] and and and tokconomics wise.
+- [21:25] >> Yeah. Prefill being that context that
+- [21:27] the model has to load in after you load
+- [21:29] the prompt in, right, instead of
+- [21:31] ejecting it. So, yeah, that's a big
+- [21:32] challenge. It's the inner loop of AI and
+- [21:34] if you can solve that inner loop, which
+- [21:36] we haven't until now, then you really
+- [21:38] unlock a whole new era of AI.
+- [21:41] Great stuff, Val. Unfortunately, we're
+- [21:43] out of time. I feel like we could keep
+- [21:44] going.
+- [21:44] >> Absolutely.
+- [21:45] >> Big round of applause for Val.
+- [21:46] >> Thank you. Yeah. Thank you.

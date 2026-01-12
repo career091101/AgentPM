@@ -1,0 +1,735 @@
+---
+title: "Transcript: YoRNgLXzrVo"
+video_id: "YoRNgLXzrVo"
+video_url: "https://www.youtube.com/watch?v=YoRNgLXzrVo"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: "00:29:57"
+tags:
+  - "AI"
+  - "Agents"
+  - "Startup"
+  - "Product Development"
+topics:
+  - "AI Agents"
+  - "Entrepreneurship"
+  - "Product Development"
+  - "Team Building"
+  - "Data"
+summary: |
+  動画の内容を分析中...
+key_points:
+  - "AI and technology discussion"
+  - "Industry insights"
+  - "Future perspectives"
+category: "Startup"
+confidence_level: "high"
+---
+
+# Transcript: YoRNgLXzrVo
+
+- URL: https://www.youtube.com/watch?v=YoRNgLXzrVo
+- Retrieved at: 2025-12-30T11:21:55+09:00
+
+## Text
+
+- [00:00] [applause]
+- [00:05] Welcome to day two of Fully Connected
+- [00:07] London. Quick show of hands. Who was
+- [00:09] here for day one?
+- [00:11] Wow, great. Great to see you return.
+- [00:14] Thank you for coming back. Uh my name is
+- [00:16] Robin Bordulli and I have the distinct
+- [00:18] pleasure of leading the global go to
+- [00:20] market team at Weights and Biases that's
+- [00:22] responsible for helping our customers
+- [00:24] around the globe iterate faster on AI
+- [00:27] and make them successful using our AI
+- [00:30] developer platform. But my role here
+- [00:32] today is actually to be your master of
+- [00:34] ceremonies. Um now putting on an event
+- [00:37] like this is not possible without two
+- [00:40] special groups that we want to thank
+- [00:41] before we get going today. The first is
+- [00:44] our sponsors and we have nine of them
+- [00:46] here today. They're outside. They've got
+- [00:49] booths as well. So, please during the
+- [00:51] breaks take the time to go and learn
+- [00:53] about their offerings. I do actually
+- [00:55] just want to call out one special
+- [00:57] sponsor, Encord. Is Encord in the room.
+- [01:01] They're probably busy outside. So
+- [01:03] they've actually built a couple of
+- [01:04] integrations both with the weights and
+- [01:06] biases AI developer platform as well as
+- [01:09] with the coreweave essential uh cloud
+- [01:11] for AI and they're actually launching
+- [01:14] those integrations today. So if you get
+- [01:15] a chance please uh pass by their booth.
+- [01:20] All right. But the second group I want
+- [01:21] to thank is all of the speakers that we
+- [01:24] have here today. So we've got over 20
+- [01:27] sessions today. So after we break, after
+- [01:30] lunch, we'll be growing into three
+- [01:32] tracks. So unfortunately, you're going
+- [01:34] to have to be, you know, make a
+- [01:36] decision. But the good news is all the
+- [01:38] sessions are being recorded. So you will
+- [01:41] be able to see the two sessions that you
+- [01:42] miss at a future date. Um, so I want to
+- [01:45] say thank you to all of our customer
+- [01:47] speakers because what they're doing
+- [01:49] today is bringing their hard-earned
+- [01:51] lessons for what's worked and what's not
+- [01:54] worked to share with us. And there's
+- [01:56] almost every industry is represented
+- [01:58] today whether it's life sciences,
+- [02:01] whether it's energy, education, the
+- [02:04] government, um automotive. Um so there's
+- [02:08] a lot to learn today. It's going to be a
+- [02:10] great day.
+- [02:12] All right. So we have two keynotes this
+- [02:14] morning. The first is the weights and
+- [02:16] biases and coreweave keynote. And you
+- [02:19] get not one but three speakers for that
+- [02:21] keynote. And then the second keynote,
+- [02:23] Sander from GSK is going to come up and
+- [02:26] talk to us about applying AI into the
+- [02:29] pharmaceutical supply chain. So are we
+- [02:33] ready?
+- [02:36] >> Okay. All right. So what we want to do
+- [02:40] today for the first keynote is talk
+- [02:43] about the past, the present, and the
+- [02:45] future of AI. Now, it it would be remiss
+- [02:49] of me, given my British heritage and our
+- [02:51] location here, not to pepper in a
+- [02:54] Shakespearean quote.
+- [02:56] All right. Anyone been to the Globe?
+- [02:59] All right. So, uh, test if I get the
+- [03:02] quote right? Anyone know which quote I'm
+- [03:04] going to use when we're talking about
+- [03:06] the past, present, and future? Can
+- [03:08] anyone predict that?
+- [03:11] All right. So, the quote is the past is
+- [03:14] prologue. So that was Antonio in the
+- [03:16] Tempest and it was talking about the
+- [03:19] past informs the present which will
+- [03:21] inform the future. So I think it's
+- [03:23] really helpful now and again in this
+- [03:25] crazy crazy market that we're in to
+- [03:28] pause and look back where we've come
+- [03:30] from because that will inform where
+- [03:32] we're going. So I'm going to spend time
+- [03:34] talking about where we've come over the
+- [03:36] last couple of years and then Lucas and
+- [03:38] Camille are going to come up and talk
+- [03:40] about what we're delivering today in the
+- [03:42] present. And then Lucas is going to talk
+- [03:45] about the future about how do we
+- [03:47] continue to match this accelerating rate
+- [03:50] of AI.
+- [03:52] Okay.
+- [03:54] So exponential growth. We all know this.
+- [03:56] We're living this every day. The size of
+- [03:58] the models are growing 10x every 12 to
+- [04:01] 18 months as well as the power
+- [04:02] consumption and the infrastructure
+- [04:04] that's driving those models. So we
+- [04:06] already know this, but this is inputs
+- [04:08] into AI. What we actually really care
+- [04:11] about is the outputs. But the benchmarks
+- [04:13] are saturating faster and faster. So if
+- [04:17] you look at the older benchmarks, right,
+- [04:19] they're now approaching sort of 100%.
+- [04:22] But they've done that over about 5
+- [04:24] years. If you look at some of the newer
+- [04:25] ones like AIM, right, in about a year,
+- [04:28] it's got to 80%. So these benchmarks are
+- [04:32] saturating faster and faster. So does
+- [04:35] that mean AI is starting to work for us
+- [04:37] in the real world? Um, let's look at
+- [04:39] some examples. Hands up. who uses Notion
+- [04:42] at work.
+- [04:44] All right, good, good sampling. For
+- [04:46] those that don't, Notion is a
+- [04:48] collaboration uh and sort of
+- [04:50] knowledgebased application. It's a real
+- [04:53] darling for startups in Silicon Valley.
+- [04:55] Um and so this is an indication of how
+- [04:59] AI is being adopted by their customers.
+- [05:02] So now over 50% of their new customers
+- [05:06] are actually using their AI features and
+- [05:08] it's higher than that for their existing
+- [05:10] base. So this is a this is an example
+- [05:13] where AI is no longer just becoming
+- [05:15] additive, it's actually becoming ambient
+- [05:18] throughout their entire platform.
+- [05:20] Now you're probably going okay yeah but
+- [05:22] that skews towards startups. So that's
+- [05:24] not really representative of what's
+- [05:26] happening in the mainstream. So let's
+- [05:28] look at some examples of other functions
+- [05:30] and other industries that are
+- [05:33] traditionally not early adopters of
+- [05:35] technology.
+- [05:36] So let's have a look in the medicine
+- [05:38] world. Hands up if you know what open
+- [05:41] evidence is.
+- [05:43] Few folks. Yes. Ser. Um, so Open
+- [05:47] Evidence is a a startup in the in the
+- [05:50] US, but what it is is trying to do for
+- [05:52] doctors and health care professionals is
+- [05:55] actually bring all of the peer-reviewed
+- [05:57] research into their daily lives, right?
+- [06:00] How do I actually find out the latest
+- [06:03] research? How do I actually integrate
+- [06:05] that into my daily clinical workflows
+- [06:07] through summarization, through
+- [06:09] reasoning? Um so we've now got to the
+- [06:12] stage where a third of physicians in the
+- [06:14] US are using open evidence. So both the
+- [06:17] number of doctors that are using it as
+- [06:20] well as the intensity of the usage is
+- [06:22] going up. Let's look at look at the
+- [06:24] legal space. So Harvey hands up any
+- [06:28] lawyers in the room that have used
+- [06:29] Harvey? Anyone want to admit to it?
+- [06:32] Okay. Uh so Harvey again very similar
+- [06:35] story over a third of the top 100 law
+- [06:38] firms in the US are now using Harvey in
+- [06:41] their daily workflows as well as the
+- [06:44] individual utilization the intensity of
+- [06:46] that usage going up and the usage has
+- [06:48] shifted from trying to find a fact to
+- [06:51] actually helping them understand
+- [06:53] reasoning and arguments.
+- [06:56] Okay, now we'll talk about one which is
+- [06:59] probably more familiar to people in the
+- [07:00] room but the AI coding boom. So in the
+- [07:03] last year alone this has generated a
+- [07:06] billion dollars of revenue in run rate
+- [07:08] right so about a year ago a little over
+- [07:10] a year ago it was just GitHub and
+- [07:12] co-pilot but the explosion of cursor and
+- [07:16] wind surf and cognition repletable
+- [07:20] generated over a billion dollars right
+- [07:22] this is real and it's happening now
+- [07:26] so the other thing that's happening is
+- [07:27] the length of tasks that AI can now do
+- [07:30] right so context text length has
+- [07:33] increased, the memory capabilities
+- [07:35] increased. Um, and so now the the the
+- [07:39] length of task is sort of approaching an
+- [07:41] hour that AI can can work on. And what
+- [07:45] what that means is that's the equivalent
+- [07:47] to training a classifier. So we're now
+- [07:50] approaching the stage of AI
+- [07:53] working on AI.
+- [07:55] So uh that's quite a leap forward.
+- [07:59] Hands up if you use some form of AI on a
+- [08:02] daily basis at work.
+- [08:06] All right. Definitely more than more
+- [08:08] than half of the room. Uh but we're not
+- [08:10] that too different from enterprise
+- [08:13] workers at large. Right. So in the US
+- [08:16] right now it's about 55% are saying that
+- [08:19] they're using Genai at work on a on a
+- [08:22] regular basis. In the UK it's at 40% uh
+- [08:26] tracking on a uh on a on a similar
+- [08:28] trajectory. Um and I think what's
+- [08:31] happened here is this has gone from
+- [08:32] being sort of shadow IT where people are
+- [08:35] using individual accounts to this now
+- [08:38] being sanctioned by it and becoming
+- [08:40] standardized and used inside of
+- [08:42] enterprises.
+- [08:44] So the questions really flipped from
+- [08:46] should we use AI at work to how many
+- [08:49] different places can we apply AI at
+- [08:52] work?
+- [08:54] All right. So, what I want to do is look
+- [08:56] back a couple of years to just see how
+- [08:59] far we've come in the quality of AI and
+- [09:02] what it can do today. So, I want to show
+- [09:04] is actually a video that was created
+- [09:07] 2023.
+- [09:09] So, you can see this is Will Smith
+- [09:11] trying to eat some pasta. If you look on
+- [09:13] the left hand side, that's that was the
+- [09:16] quality of video in 2023. And now you
+- [09:19] look at it in 2025, right?
+- [09:22] This stuff's hard, but you see how far
+- [09:24] we've come just in a couple of years.
+- [09:28] All right, let's have a look at at music
+- [09:30] generation as well. Uh let's have a look
+- [09:34] at
+- [09:35] 2023.
+- [09:45] >> All right, not bad. Might be your taste
+- [09:47] of music, might not. But let's have a
+- [09:50] look at something that was just
+- [09:52] generated uh a few weeks ago. We were
+- [09:55] trying to ask it to could it generate a
+- [09:57] song for uh for fully connected
+- [10:01] [singing]
+- [10:01] >> connectis.
+- [10:11] [singing]
+- [10:14] >> All right. Now, hands up if you
+- [10:16] preferred the first song.
+- [10:19] All right, hands up if you preferred the
+- [10:21] second song.
+- [10:23] All right, now I think that's a that's a
+- [10:25] question about your taste in genre of
+- [10:26] music, not necessarily quality of music,
+- [10:29] but you get the larger point, right? How
+- [10:31] far we've come in such a short space of
+- [10:33] time, right? The next example is code
+- [10:36] generation, right? If you remember Greg
+- [10:37] Bachmann's uh sort of presentation where
+- [10:40] he showed the demo of uh OpenAI being
+- [10:44] able to generate a simple website. Right
+- [10:47] now think how far we've come in what's
+- [10:50] actually possible with Vibe coding. All
+- [10:53] right, we're going to do a quick sample
+- [10:56] of the audience because I want to get a
+- [10:57] general sense of what the average age of
+- [10:59] the audience is. So I'm going to do some
+- [11:00] rough math. Okay, hands up if you're
+- [11:03] older than 30.
+- [11:06] All right, hands down. Uh, hands up if
+- [11:10] you're younger than 25.
+- [11:13] All right, sprinkling. Okay, so I'm
+- [11:16] guessing that the average age is going
+- [11:17] to be in the sort of 30, 35. We're
+- [11:19] probably in that range. So, what I want
+- [11:21] to do is give a couple of examples of AI
+- [11:24] being used by folks much younger than
+- [11:27] us. So, the first is actually Lucas's
+- [11:30] daughter, our founder's daughter,
+- [11:31] Matilda. This is an example. She's five.
+- [11:35] and she is vibe coding a game.
+- [11:40] Just take that in for a moment. A
+- [11:41] 5-year-old vibe coding a game. So two
+- [11:45] years ago, you could make a simple
+- [11:47] website. Now a 5-year-old can make a
+- [11:50] game. Do you want to see the game?
+- [11:53] >> All right.
+- [11:57] All right. So now I will admit I have
+- [11:59] not played this game. Uh, Lucas, I think
+- [12:02] you've actually played it multiple times
+- [12:04] with Matilda, right?
+- [12:06] >> Do you win or does Matilda win?
+- [12:08] >> I don't even know.
+- [12:10] >> Winning is not actually the purpose of
+- [12:12] the game. The purpose of the game is to
+- [12:14] have fun, for it to be kid-friendly,
+- [12:16] have lots of animals around. Um, but
+- [12:18] anyway, you get the core idea, right?
+- [12:20] What's possible for a 5-year-old to do
+- [12:23] today that a 25-year-old couldn't have
+- [12:26] done two years ago. Right now, if Lucas
+- [12:30] is going to talk about his kid, I
+- [12:32] thought I better talk about my kid as
+- [12:34] well. So, I want to share another
+- [12:36] example. So, this is uh this is my son
+- [12:38] Simon who's a firstear undergrad at
+- [12:41] Trinity College Dublin. Anyone from
+- [12:43] Dublin in the house, couple of folks. Uh
+- [12:46] thank you for such a giving my son such
+- [12:49] a great experience. I have to say if
+- [12:51] you're a young adult and a student,
+- [12:53] Dublin's a great place to be. Um, so
+- [12:55] what I want to show here is, you know,
+- [12:57] he was actually asking my advice. He's
+- [13:00] still naive enough to ask my advice. You
+- [13:03] know, what what he should be thinking
+- [13:04] about at university. And one of the
+- [13:07] things I said is you have to become
+- [13:10] super fluent at using AI, right? That is
+- [13:13] going to be a definitive skill for you
+- [13:16] post university. So, you know, I do a
+- [13:19] number of business calls at home. So,
+- [13:21] he's overheard my booming voice on Zoom
+- [13:23] and he's heard me talk about
+- [13:24] evaluations, evaluations, evaluations
+- [13:27] and the importance of evaluations in
+- [13:29] building safe, reliable
+- [13:32] uh AI. And so he went away and did his
+- [13:35] own evaluation. So he went and evaluated
+- [13:38] six models and he evaluated on five
+- [13:41] tasks to go and work out which model
+- [13:43] performed best for his particular set of
+- [13:46] problems. So he's studying mathematics
+- [13:48] and economics. Here's one examples of
+- [13:51] the task that he's trying to teach that
+- [13:53] he was trying to achieve. Right? I'm
+- [13:55] struggling with the concept of tangent
+- [13:57] planes and multivariable calculus. Could
+- [13:59] you please explain it to me step by step
+- [14:02] and then give me a problem to solve? In
+- [14:05] the explanation, please list any
+- [14:06] prerequisite knowledge I should have
+- [14:08] before studying tangent planes. And you
+- [14:11] can see the score that he gave each of
+- [14:12] the model and he waited that particular
+- [14:14] task sort of 30% as well. So um so
+- [14:19] anyway just a couple of examples of the
+- [14:21] younger generation and how they are
+- [14:23] applying AI to their worlds.
+- [14:28] All right so now I want to talk about
+- [14:29] where we are today. So really we're
+- [14:33] entering the age of reasoning real time
+- [14:36] and rapid learning. Now we can't talk
+- [14:39] about 2025 without talking about this
+- [14:41] bombshell event that happened in
+- [14:43] January. Everyone remember the release
+- [14:46] of Deep Seek R1?
+- [14:49] Everyone remember where you were when it
+- [14:50] came out?
+- [14:52] Did anyone use it on day one?
+- [14:56] Okay, so the reason that it's important
+- [14:58] to just pause and reflect on this event
+- [15:01] is this was a big event not just in the
+- [15:04] technology world but in the financial
+- [15:05] world. What this resulted in was the
+- [15:09] single largest one-day loss of market
+- [15:11] cap for Nvidia because the market
+- [15:15] misinterpreted the implication of this,
+- [15:18] right? The implication of this was
+- [15:20] suddenly we were going to need much less
+- [15:22] infrastructure,
+- [15:23] much less compute because this mo these
+- [15:26] this set of models was so much more
+- [15:29] efficient. Right? However, those market
+- [15:33] commentators didn't know economics,
+- [15:36] right? So, suddenly everyone started to
+- [15:39] learn about Jevans paradox. Who had
+- [15:41] heard who knew about Jevans paradox
+- [15:43] before January 2005?
+- [15:47] Okay, handful of folks in the room,
+- [15:49] right? Anyone know who Jebans was?
+- [15:53] All right. Yes. So, Jebans was uh an
+- [15:57] English economist. So in the late 1800s
+- [16:00] he actually observed in the industrial
+- [16:02] revolution that as it as it be got as we
+- [16:06] uh mined coal more efficiently and as we
+- [16:09] actually found more efficient uses of
+- [16:11] coal with the steam engine and James
+- [16:13] Watts that actually it increased
+- [16:15] consumption right so that's what
+- [16:17] happened here actually as you bring down
+- [16:19] the cost of doing something the usage of
+- [16:22] it expands more than the reduction in
+- [16:26] cost so you actually end up with a net
+- [16:28] increase of usage and that's what
+- [16:31] actually happened right so when the when
+- [16:34] uh Deep Seek R1 released effectively a
+- [16:37] whole set of applications now became
+- [16:39] possible because you reduce the cost
+- [16:41] that did not mean the frontier of
+- [16:43] reasoning didn't continue to advance
+- [16:47] all right so I talked earlier about the
+- [16:50] benchmarks the benchmarks saturating
+- [16:54] but as a result new benchmarks are
+- [16:56] getting created So this one was just
+- [16:59] created a little over a year ago.
+- [17:01] Frontier Math, anyone uses this
+- [17:04] benchmark at work?
+- [17:06] Okay. So Frontier Math is actually
+- [17:08] trying to evaluate
+- [17:10] frontier mathematical reasoning, right?
+- [17:13] So it's trying to uh evaluate
+- [17:15] mathematical creativity, chain of
+- [17:18] thought correctness, um and the ability
+- [17:21] to handle multi-step formal logic,
+- [17:23] right? Imagine if you were Oiler or Gaus
+- [17:28] or Newton, right? Trying to evaluate
+- [17:31] those mathematical brains. And so you
+- [17:34] can see where we are right now. So in a
+- [17:36] little over uh sort of 18 months, we're
+- [17:38] up to sort of in the 20 25% range on
+- [17:42] this benchmark. Um and you can see then
+- [17:45] that uh if you look at if you just
+- [17:47] extrapolated that, you can imagine where
+- [17:50] we're starting to saturate this
+- [17:51] benchmark. Right? So, we're at the
+- [17:54] boundary of starting to have scientific
+- [17:56] breakthroughs from AI. Here's actually
+- [18:00] an example from uh some of our uh
+- [18:03] Asia-Pacific friends. So, this actually
+- [18:05] is from Case, the Korea Advanced
+- [18:07] Institute of Science and Technology,
+- [18:09] where they've actually used AI to
+- [18:11] discover new classes of materials, hyper
+- [18:15] elastic materials, thermmoelectric
+- [18:17] materials. Um so we're starting to use
+- [18:19] AI to advance the boundary of human
+- [18:22] knowledge and scientific understanding.
+- [18:26] All right. Now the other thing that
+- [18:27] happened with the explosion of deepseek
+- [18:30] and the awareness of deepseek is that
+- [18:33] one of their um RL algorithms GRPO
+- [18:37] became popularized and as a result we've
+- [18:39] seen an explosion in reinforcement
+- [18:42] learning and we're starting to see
+- [18:44] companies create custom smaller models
+- [18:47] that are much more efficient and much
+- [18:49] more effective for their particular
+- [18:51] domain as well. So this is a a long-term
+- [18:55] trend.
+- [18:56] And then the other thing we should think
+- [18:58] about is what today looks like the Will
+- [19:02] Smith video of 2023
+- [19:05] and how quickly do we think it's going
+- [19:07] to advance. So this is another weights
+- [19:09] and biases company Odyssey that actually
+- [19:12] builds real time worlds uh models that
+- [19:15] are generating real-time worlds. So
+- [19:17] these worlds are not created ahead of
+- [19:19] time. They are created as on the fly as
+- [19:22] you advance through these worlds. Now,
+- [19:24] if you look at it, it's a little grainy,
+- [19:26] right? It's pretty good quality.
+- [19:30] Um, and it's hard to know what the
+- [19:32] application of this is going to be. I
+- [19:34] don't know. Is it going to be
+- [19:35] architectural? Is it going to be first
+- [19:37] responder training? Who knows, right?
+- [19:40] But imagine how this could advance in
+- [19:43] the next year or so. Similar to the Will
+- [19:46] Smith video advancing as well. So, um,
+- [19:50] anyone using real world in any
+- [19:53] applications they're working on right
+- [19:54] now?
+- [19:56] All right. I bet Oh, Sandra at the back.
+- [20:00] Um, all right. I bet if I asked the
+- [20:02] question next year, we'd see actually uh
+- [20:04] quite a lot of hands being raised.
+- [20:08] All right. Now, we have obviously seen
+- [20:10] an explosion in agents, right? And in
+- [20:13] response to that, there's an explosion
+- [20:15] in all the tools, all the different
+- [20:17] flavors of agents, whether they're
+- [20:19] focused on a particular function like
+- [20:21] sales, whether they're focused in a
+- [20:23] particular industry. It's mind-boggling,
+- [20:25] right? You can't keep track of all of
+- [20:28] this, but it's an indication of the
+- [20:30] explosion of agents. They're showing up
+- [20:33] inside of different environments as
+- [20:35] well. They're showing up inside of IDE.
+- [20:37] They're showing up inside of
+- [20:38] spreadsheets. They're showing up inside
+- [20:40] of browsers. But the question is no
+- [20:42] longer can you build an agent but it's
+- [20:45] can you make them reliable, observable
+- [20:48] and safe. We've definitely shifted this
+- [20:52] year.
+- [20:53] Now one of the other areas we've shifted
+- [20:55] is rather than just having evaluations
+- [20:58] um you know for models is actually
+- [21:01] trying to evaluate the agents
+- [21:03] themselves. So web arena is uh a great
+- [21:06] new arena where uh where where we this
+- [21:09] is being tested and so it's actually you
+- [21:11] can start to see um you know you can
+- [21:14] start to see real world tasks like
+- [21:16] booking a ticket, booking a flight,
+- [21:18] debugging some code, getting evaluated
+- [21:21] and the agents being evaluated. Similar
+- [21:24] pattern for how those agents are
+- [21:26] performing and growing exponentially in
+- [21:29] their in their performance as well. It
+- [21:31] is a little wild that it's harder to
+- [21:33] book a flight than it is to debug code,
+- [21:36] but I think that speaks to while that
+- [21:38] might be easier for us as humans, it's
+- [21:40] harder for agents, right? So,
+- [21:44] fascinating advancement. MCP, who use
+- [21:47] who's using MCP in development today?
+- [21:51] Who's using it in production?
+- [21:54] All right. MCP model context protocol.
+- [21:58] It's becoming the lingua franker for
+- [22:00] agent orchestration.
+- [22:03] Um, and here's actually an example. We
+- [22:05] built our own MCP server so we could
+- [22:08] tool turn weights and biases into a tool
+- [22:11] that was available to agents. So sorry
+- [22:14] that actually
+- [22:17] um so now we've actually got an agent
+- [22:20] that is actually interacting with
+- [22:22] weights and biases generating
+- [22:24] visualizations and reports so that AI
+- [22:27] teams can iterate faster um and bring
+- [22:30] that data into context for them into
+- [22:32] different teams as well.
+- [22:36] All right.
+- [22:38] So here's a battle that is actually
+- [22:40] underway in the market right now. Agent
+- [22:43] experience is the new user experience.
+- [22:47] So actually APIs are becoming more
+- [22:49] important than UIs.
+- [22:52] So um there's actually hands up uh who
+- [22:57] who has a a software platform today that
+- [22:59] they've built a set of APIs
+- [23:02] uh to be used.
+- [23:04] All right. Hands up if you think the
+- [23:06] majority of your API calls are from
+- [23:07] agents.
+- [23:09] Hands up if you think the majority are
+- [23:11] from humans.
+- [23:13] All right. I would expect next year that
+- [23:16] to shift, right? That the the volume is
+- [23:18] actually going to start to be agents are
+- [23:20] going to be the dominant consumers of
+- [23:21] APIs. Um and so you need to think about
+- [23:25] your APIs and what that agent
+- [23:27] experiences. There's actually a news
+- [23:29] story this week that demonstrates this
+- [23:31] battle. So, Amazon's e-commerce business
+- [23:35] has sent a cease and desist letter
+- [23:37] letter to Perplexity asking them to stop
+- [23:41] their users from using their Comet
+- [23:44] browser to purchase on Amazon because
+- [23:47] they actually think it Amazon is
+- [23:49] claiming that degrades the the the
+- [23:52] consumer experience. Perplexity is
+- [23:54] arguing well actually that's their
+- [23:56] preferred experience. They want an agent
+- [23:58] to go off and do the buying for them. So
+- [24:00] they want it to happen through an API,
+- [24:03] not through a UI. So this battle is
+- [24:06] happening today and it's shifting
+- [24:08] consumption.
+- [24:11] All right. So given all of that
+- [24:13] advancement in AI, what are the new
+- [24:16] challenges that everyone in this room is
+- [24:17] facing as you try and move agents into
+- [24:20] production? There's a set of challenges
+- [24:23] which are new and there's a set of
+- [24:25] challenges which predate agents.
+- [24:29] So the thing that is uh that is new is
+- [24:33] that actually agents are very alloring.
+- [24:35] They're very easy to build a fast demo,
+- [24:38] but they're actually hard to
+- [24:40] productionize, right? Because the world
+- [24:44] is unpredictable, right? And [snorts] so
+- [24:48] uh yes, simple task of just actually
+- [24:51] brewing some coffee and pouring some
+- [24:53] coffee. Um lots of things that can go
+- [24:56] wrong. um and often they do. So why are
+- [25:00] agents easy to demo but hard to
+- [25:02] productionize? There's two there's two
+- [25:04] main reasons. The first is that our
+- [25:08] level of expectations
+- [25:10] has radically changed in the last couple
+- [25:12] of years, right? Translation, it used to
+- [25:15] be we would want to translate a word or
+- [25:17] a phrase. We now expect at midnight in
+- [25:20] Tokyo having a late night dinner to take
+- [25:23] a photo of a blurry menu and get an
+- [25:26] instant translation of all the nuance of
+- [25:29] that menu.
+- [25:31] Right? In the research world, we used to
+- [25:34] actually expect I've written a document.
+- [25:36] Can you actually check it for grammar,
+- [25:38] check it for syntax, check it for
+- [25:40] spelling mistakes? Now we're expecting
+- [25:43] AI to comp to generate entire deep deep
+- [25:47] research reports that may have taken an
+- [25:49] analyst many days or many weeks to
+- [25:52] generate before to do that in minutes
+- [25:54] and hours. Then on the coding side, we
+- [25:56] used to go to stack um Stack Overflow
+- [26:00] and just check for bug fixes. Now we're
+- [26:03] expecting AI to fix the code for us. So
+- [26:07] our expectations have dramatically
+- [26:09] changed if we just pause and think about
+- [26:11] how much they've changed, right? And
+- [26:14] then the other part of this is actually
+- [26:15] because we're operating in dynamic
+- [26:17] systems, there's so many ways to break,
+- [26:20] right? So many ways to go wrong. So
+- [26:23] that's what makes it hard putting AI
+- [26:25] into production. All right, so what are
+- [26:28] the old issues that still predate agents
+- [26:31] that make getting AI into production
+- [26:33] hard?
+- [26:35] So the first one is actually the core
+- [26:37] insight that Lucas and Chris and Sean
+- [26:41] founded Weights and Biases on seven plus
+- [26:44] years ago. So I think it was seven years
+- [26:47] ago. Correct me Lucas if I get the date
+- [26:49] wrong. Uh but seven years ago Lucas and
+- [26:52] did an internship at OpenAI to go and
+- [26:55] observe cutting edge machine learning
+- [26:57] research and model development. And he
+- [27:00] came away with this core insight right
+- [27:04] which is the process the workflow for
+- [27:07] developing AI was fundamentally
+- [27:10] different than the workflow for
+- [27:12] developing software right software is
+- [27:16] linear
+- [27:18] AI is experimental most of what you're
+- [27:21] going to do is experiments that fail
+- [27:24] that don't see the light of the day but
+- [27:26] you learn something from it and it
+- [27:28] informs your next experiment.
+- [27:29] experiment. So the workflow is
+- [27:32] fundamentally different and that was the
+- [27:34] founding insight for weights and biases
+- [27:36] which is software developers have great
+- [27:38] tools to build great software.
+- [27:41] At the time ML researchers do not have
+- [27:44] great tools to build ML models.
+- [27:49] Now the other part that's changed
+- [27:50] obviously is way more models to try,
+- [27:52] right? Um there's practically a new
+- [27:55] model coming out every day if not you
+- [27:57] know every week if not every day. So
+- [27:59] trying to keep up to the the rate of
+- [28:01] change is dizzying. So how do I try the
+- [28:05] models and how do I work out which one
+- [28:07] works best for my use case, my domain?
+- [28:11] And so what we're trying to solve and
+- [28:13] what is still the bottleneck is actually
+- [28:16] how do AI teams complete this iteration
+- [28:19] as fast as possible? How do I go from
+- [28:22] prototyping something to iterating on it
+- [28:25] and improving it, deploying it into
+- [28:27] production, fine-tuning it on the new
+- [28:30] data, the new feedback that I get,
+- [28:33] exploring how to improve that,
+- [28:35] redeploying and completing that circle
+- [28:38] as fast as possible. This is still the
+- [28:40] bottleneck and it's still what we are
+- [28:43] singularly focused on helping you
+- [28:45] increase the speed of iteration.
+- [28:48] Now, the more things there are to try,
+- [28:50] the more things you've got to track,
+- [28:52] right? Hands up. Um, who has been in
+- [28:56] their job less than a year?
+- [29:00] All right, so the rate of job change in
+- [29:04] the AI market is staggering, right? Most
+- [29:07] folks, it's sort of in the one to two
+- [29:09] years. What you don't want is one when a
+- [29:12] one of your researchers leaves or part
+- [29:14] of your team leaves and goes somewhere
+- [29:16] else that the IP ups and leaves with
+- [29:19] them. Right? You need a system of
+- [29:21] record, right? In the software world,
+- [29:24] that doesn't tend to happen because the
+- [29:26] code is your IP and it's sitting
+- [29:28] somewhere, right? But in the AI world,
+- [29:31] your learning is your AI, your learning
+- [29:34] uh is your IP. And so you don't want
+- [29:36] that learning to leave with your
+- [29:38] researchers. you want to systematically
+- [29:41] track it as well.
+- [29:43] So with that, it's time to start to uh
+- [29:46] ground ourselves in the in the present
+- [29:48] day. So what I want to do is invite
+- [29:50] Lucas up to take us on the next stage.
+- [29:52] talk about how weights and bias is
+- [29:54] evolving to keep pace with this with
+- [29:57] this acceleration of AI.

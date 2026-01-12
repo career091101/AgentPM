@@ -1,0 +1,4793 @@
+---
+title: "Hey there, hope you're excited because I am very much."
+video_id: "OtJV9SCyfuE"
+video_url: "https://www.youtube.com/watch?v=OtJV9SCyfuE"
+speaker: "very"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  Hey there, hope you're excited because I am very much
+  Welcome to this really long video where we are going to work with building a full stack AI agent application
+  Now I know you are super excited because I am also equally excited to build the AI agents and not just any AI agents full stack AI agents
+key_points:
+  - "part it's absolutely free"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:44:19+09:00"
+---
+
+# Transcript: OtJV9SCyfuE
+
+- URL: https://www.youtube.com/watch?v=OtJV9SCyfuE
+- Retrieved at: 2025-12-30T10:44:19+09:00
+
+## Text
+
+- [00:00] Hey there, hope you're excited because I
+- [00:02] am very much. Welcome to this really
+- [00:05] long video where we are going to work
+- [00:07] with building a full stack AI agent
+- [00:11] application. Now I know you are super
+- [00:13] excited because I am also equally
+- [00:15] excited to build the AI agents and not
+- [00:18] just any AI agents full stack AI agents.
+- [00:21] A lot of people believe that AI agents
+- [00:23] can just run standalone on their own.
+- [00:26] But that is far from the reality and far
+- [00:28] from the production. In any kind of
+- [00:30] production setting, you definitely can
+- [00:33] utilize AI agents, but you need some of
+- [00:35] the groundwork needs to be done. Without
+- [00:37] having the groundwork, without having
+- [00:38] some substantial ground, your AI agents
+- [00:41] cannot do much. You can build toy
+- [00:43] application, but in order to have
+- [00:45] something really needs to be done, you
+- [00:47] need a full stack application. And this
+- [00:49] is exactly I will walk you through in
+- [00:51] this entire uh full stack application.
+- [00:54] I'll walk you through how we will have a
+- [00:55] user. We will store that user in a real
+- [00:58] database. Uh we will set this up into
+- [01:00] production as well. Apart from this we
+- [01:02] will have a smart ticketing system. We
+- [01:04] will create our own tickets and these
+- [01:06] tickets and everything even some of the
+- [01:08] parts of the user uh and user
+- [01:11] registration in our database will be
+- [01:12] done by the agents and the background
+- [01:15] workers as well. Now once the user
+- [01:17] submits a ticket don't worry I'll walk
+- [01:18] you through with the example as well. So
+- [01:21] once a user submits a ticket this ticket
+- [01:23] goes through y and ai agent into the
+- [01:26] gemini. Now feel free to use any other
+- [01:28] LLM models. I just happen to use gemini
+- [01:30] because it's really powerful big context
+- [01:32] window and the most important part it's
+- [01:34] absolutely free. You can absolutely
+- [01:37] within just few lines of code can
+- [01:38] replace it with open AI anthropic or
+- [01:40] whatever you like. So this agent takes
+- [01:42] the ticket, goes to Gemini and then try
+- [01:45] to get more information, more context
+- [01:47] out of this information. Once this
+- [01:49] information is available to us, it gets
+- [01:51] back to us and we store all of this in
+- [01:53] our database. Yeah, if this if this
+- [01:55] sounds interesting, this is interesting.
+- [01:58] This is where you learn a lot about the
+- [02:00] background workers because this doesn't
+- [02:02] needs to happen when user is watching
+- [02:03] it. This needs to happen behind the
+- [02:05] scene. User just needs to see a really
+- [02:08] fast application that is deployed. Now
+- [02:10] once the user agent gets all of this, we
+- [02:12] will learn how the background uh tasks
+- [02:14] are being done as well as we are going
+- [02:16] to learn about the AI agents and we'll
+- [02:18] see a framework which actually actually
+- [02:20] makes our life all easy and is free. So
+- [02:23] everything that we're going to do in
+- [02:25] this entire application is totally free.
+- [02:27] Let me walk you through with the
+- [02:28] application now and we'll see some of
+- [02:30] the behind the scenes as well and then
+- [02:32] we'll start working with that. So let me
+- [02:34] take you onto the screen and by the way
+- [02:36] in case you haven't yet subscribed to
+- [02:37] the channel uh please do subscribe. I am
+- [02:40] very close to hitting a million
+- [02:41] subscriber. I really want to do this now
+- [02:43] quickly. But again, I will keep on
+- [02:45] making the videos regardless of when we
+- [02:47] hit the million. That's not actually the
+- [02:49] goal. My goal is to make your life super
+- [02:51] easy and build a lot of application
+- [02:53] including the AI ones. So hit that
+- [02:55] subscribe and please drop a comment
+- [02:56] section that you're enjoying these kinds
+- [02:58] of full stack application. So let me
+- [03:00] take you up here. So this is what we are
+- [03:02] going to do and we're going to build the
+- [03:04] AI agent uh just like this. So we will
+- [03:06] learn about the automated workflow. We
+- [03:08] are also going to see role based access
+- [03:10] in this application because as I
+- [03:11] mentioned this is not a toy application.
+- [03:14] We will also send the email
+- [03:15] notifications and this is where we are
+- [03:17] going to use background uh workers and
+- [03:19] everything is AI powered for this entire
+- [03:22] application. We are going to use agent
+- [03:24] kit which is agent framework or a
+- [03:27] framework to build AI agent by the
+- [03:29] ingest. We're going to take uh this is
+- [03:32] actually super super good and it
+- [03:34] supports open AI, enthropic and Gemini
+- [03:36] and all open AI compatible models. This
+- [03:39] is where I love this part and it
+- [03:41] integrates with your favorite AI uh
+- [03:43] libraries and product B2B browser base.
+- [03:46] You can just do pretty much everything
+- [03:48] and this is exactly how we are going to
+- [03:49] work through. So I think we can just
+- [03:51] take a look on this diagram itself. So
+- [03:53] this diagram as you can see we're going
+- [03:55] to work something like this. We will
+- [03:56] have our routers. I will walk you
+- [03:58] through with this. Now you can just go
+- [04:00] ahead and build agents. We will build
+- [04:02] two agents for this one. So just like
+- [04:05] here we can see three agents and based
+- [04:07] on the tools they can actually directly
+- [04:08] reply or can use some of the AI model.
+- [04:10] Our AI model happens to be Gemini. I
+- [04:13] will draw much better diagrams for our
+- [04:15] use case but this is how we are going to
+- [04:17] work through again and apart from this
+- [04:20] uh we'll be using inest which is our
+- [04:22] main uh hero of this entire uh
+- [04:25] application and again the best part is
+- [04:27] their pricing. So you don't have to
+- [04:28] worry. Uh we'll be using just the free
+- [04:30] tier which has 50,000 free runs, five
+- [04:33] concurrent steps. We will just have two
+- [04:35] three and we have lot of things. So you
+- [04:36] don't need to worry on that part. Uh
+- [04:38] it's totally free available for free all
+- [04:40] all of this. So we'll be using AI uh and
+- [04:44] the backend workflows. These are the two
+- [04:46] important three things that they mention
+- [04:48] on their website that hey we support AI
+- [04:49] and we also helps you to uh enable the
+- [04:51] backend workflow. So we'll go with that.
+- [04:53] Now I know you're super excited and by
+- [04:55] the way we'll use Gemini but not the
+- [04:57] Gemini like this. We will be using the
+- [04:59] APIs of it and I will walk you through
+- [05:01] how you can build or create an account
+- [05:03] and have the API. It's super simple
+- [05:04] process. Just create an account on a
+- [05:07] studio.google.com and have an API key.
+- [05:09] Just click on this get API. That is all
+- [05:11] it takes. So here is our application. It
+- [05:15] looks really simple, but I will walk you
+- [05:17] through what happens behind the scene in
+- [05:19] this application and you'll be super uh
+- [05:21] happy that you actually watch this video
+- [05:23] and I highly recommend to code along
+- [05:25] with me. There is one issue with me.
+- [05:28] Sometimes I get super excited and want
+- [05:30] to jump into right into the code part or
+- [05:32] explanation part and because of them
+- [05:34] sometimes I don't give the proper demo
+- [05:36] of what I have already built as an
+- [05:38] application or what we are about to
+- [05:39] build together. I'll not do this mistake
+- [05:42] again. I will give you a full
+- [05:44] walkthrough of how application looks
+- [05:45] like. I'm not a guy who usually pays
+- [05:48] huge amount of attention on just the
+- [05:50] landing page. Oh, this looks nice. This
+- [05:52] is super shiny. I don't do that. I
+- [05:54] usually prefer functionality because I
+- [05:56] think that part you can do and
+- [05:57] especially with the help of amazing
+- [05:59] libraries like magic UI, A1080 UI and
+- [06:02] others, hundreds of others you can build
+- [06:04] pretty good landing pages. In this video
+- [06:06] or this segment, I will show you what
+- [06:08] we're about to build and where the AI
+- [06:10] feature of application works on. So tada
+- [06:13] welcome to this part here where we are
+- [06:15] going to see that what this application
+- [06:16] looks like. Don't worry I'll give you
+- [06:18] the full start to end walkthrough as
+- [06:20] well. First of all let's see that what
+- [06:22] happens behind the scene in this
+- [06:23] application. So we can see we have this
+- [06:25] create ticket. I have this ticket
+- [06:27] description. I can submit ticket.
+- [06:29] Anybody can submit a ticket. And we have
+- [06:31] this uh one ticket already up here.
+- [06:33] Notice here this account is the admin
+- [06:34] account. So I can see all the things.
+- [06:36] First of all the first user that we have
+- [06:39] is our admin. This is me. I've logged in
+- [06:41] with one at the rategmail.com. We have
+- [06:44] another user which is two at the
+- [06:45] rategmail.com. The role is moderator.
+- [06:48] You can see it here. We have role-based
+- [06:49] access. This user skill is react and
+- [06:52] fullstack. And we have three at the
+- [06:54] rategmail.com which is also a moderator.
+- [06:57] And this has a skill of Python and
+- [06:58] machine learning. We have a fourth user
+- [07:00] which has the user of role itself. Now I
+- [07:02] can just click on edit on any one of
+- [07:04] them. I can change it from moderator to
+- [07:06] user to admin whatever I wish. And here
+- [07:09] I can actually add uh the skills. So for
+- [07:11] example, React skills are here. I also
+- [07:13] want to add express as a skill. And I
+- [07:15] can just save this and the skills will
+- [07:17] be added to the user. The goal is pretty
+- [07:20] simple. We will have one admin and we
+- [07:22] can have as many moderator as you wish.
+- [07:24] The moderator, the job of moderator is
+- [07:26] simply to answer the questions or
+- [07:28] address whatever the problem user is
+- [07:30] having. So this is the first part of it.
+- [07:33] Now let me show you the interesting
+- [07:34] part. If I click on any existing ticket,
+- [07:37] you're going to see first of all the
+- [07:38] status is in progress. Whenever the
+- [07:40] ticket is created, the status is to-do.
+- [07:43] But through the AI, we change the status
+- [07:45] in progress. We set the priority on this
+- [07:48] again based on AI. And we also track the
+- [07:51] related skills again tracked by AI. And
+- [07:54] uh notice here the helpful notes. These
+- [07:56] notes are generated by AI that what kind
+- [08:00] of problem could be there, how can the
+- [08:02] solution be there, how you can approach
+- [08:04] the solution and how can you provide a
+- [08:06] better solution for it. And this is
+- [08:08] assigned to two at the rategmail.com.
+- [08:10] Why? Because this includes JavaScript
+- [08:12] and React. And if you just see to all
+- [08:16] the users, this two is actually for the
+- [08:19] React and uh JavaScript skills. The
+- [08:22] three is automatically for the skills of
+- [08:25] Python and machine learning. So AI will
+- [08:27] automatically find out that which is the
+- [08:29] moderator which best suits for this
+- [08:32] particular problem set or this
+- [08:33] particular ticket and will assign it to
+- [08:35] the user. That's the power of uh AI and
+- [08:37] pipelines that we are going through. Let
+- [08:39] me go ahead and copy this. So we'll just
+- [08:42] copy this and I will walk you through
+- [08:43] with the start of it. So we'll login
+- [08:46] into incognito mode. We have the login
+- [08:48] and sign up. So feel free to use the
+- [08:49] signup as well. I'll login and I will
+- [08:52] login it with the four at the rate
+- [08:54] uhgmail.com which is a regular user.
+- [08:56] Feel free to create any new user. No
+- [08:57] problem there. So we'll just add uh this
+- [09:00] one. We'll login in and we can see I
+- [09:03] already created a ticket but this time
+- [09:04] something interesting. Let's go up here.
+- [09:06] I will create a ticket and I will say I
+- [09:09] need
+- [09:11] help in Python and I will say I am
+- [09:16] trying to
+- [09:17] run this machine learning project.
+- [09:22] Can
+- [09:24] someone help me in fixing my
+- [09:31] bug
+- [09:33] or fixing my bugs
+- [09:36] and help
+- [09:38] me to put this
+- [09:44] application in production? Pretty
+- [09:47] decent. Not too much information, not
+- [09:49] too less information. And if I submit
+- [09:51] this ticket, you will notice that the
+- [09:53] ticket is created. And here I can see
+- [09:55] this is in the to-do. And if I go back
+- [09:58] onto this tickets, this is in progress.
+- [10:00] So let's go ahead and see what happens.
+- [10:02] This is now automatically in progress. I
+- [10:04] didn't do anything. AI did the thing. So
+- [10:06] let me just move this up here and go
+- [10:08] back onto this and come back here. So
+- [10:11] there we go. We can see I need help in
+- [10:12] Python. So automatically this ticket
+- [10:14] went to AI and click up here. And notice
+- [10:17] here all of this information is filled
+- [10:19] up with the AI AI automatically turned
+- [10:21] this into in progress because this is
+- [10:23] now assigned to look at this three at
+- [10:25] the rategmail.com. So whoever the
+- [10:27] moderator which suits best for this
+- [10:29] particular job based on the skills we
+- [10:32] can actually assign this automatically
+- [10:33] no round robin nothing like that. And
+- [10:35] notice here the helpful notes that uh we
+- [10:37] received the user needs the help in
+- [10:41] debugging and production deployment of a
+- [10:43] machine learning project in Python. This
+- [10:45] requires a detailed understanding of
+- [10:47] project code, its expected functionality
+- [10:49] and the target production environment. A
+- [10:51] moderator should guide the user on
+- [10:53] debugging technique, code review and
+- [10:54] deployment strategies. Useful resources
+- [10:56] include Python debugging tool, common
+- [10:59] machine learning deployment frameworks
+- [11:00] like TensorFlow serving or Docker
+- [11:02] containers, cloud platform deployment.
+- [11:04] Consider providing examples of deploying
+- [11:06] similar project or directing the user
+- [11:08] for relevant
+- [11:10] documentaries. Pretty good. Pretty good.
+- [11:12] And again, the exact same thing. This is
+- [11:14] all done through the AI. We're using
+- [11:16] Gemini for this one. So, I hope this
+- [11:18] time I gave you a much better and
+- [11:21] in-depth uh demo that what our
+- [11:22] application does. And not only that,
+- [11:24] this application actually goes through
+- [11:26] with multiple of the pipelines that we
+- [11:28] are going to learn. This is exactly how
+- [11:29] the agentic AI workflow works. Oh, this
+- [11:32] time I did a better job. So, let's move
+- [11:34] on to the next section
+- [11:36] now. So, this is how the flow of the
+- [11:39] application works. So this is where the
+- [11:41] user tries to sign up. We have a sign
+- [11:44] up. Now in the sign up process, we know
+- [11:47] that we actually goes ahead and sends a
+- [11:49] confirmation email that hey
+- [11:51] congratulation on uh sign up. So a mail
+- [11:53] activity needs to be triggered. Now most
+- [11:56] of the time this mail activity goes into
+- [11:58] the signup controller as well. But we
+- [12:00] don't want to do this because mail
+- [12:01] servers sometimes are busy or may take
+- [12:03] more time. So what we're going to learn
+- [12:05] here is we are going to design a simple
+- [12:07] background
+- [12:09] workers background
+- [12:12] uh
+- [12:13] workers this is almost like cues in case
+- [12:15] you have used SQS or any other Q system
+- [12:18] this is almost like that so we will just
+- [12:21] detach this mailing system from the sign
+- [12:23] up into the background worker. So as
+- [12:25] soon as the user signs up, we will store
+- [12:27] that information in our database. But
+- [12:28] the mailing process goes through this
+- [12:30] background worker. Whenever the
+- [12:32] background workers are free or the mail
+- [12:34] server is free, it's his job. Our signup
+- [12:36] mechanism is all free. So it will just
+- [12:38] uh report us back that hey, we have done
+- [12:40] this. Now, similarly, we will have a
+- [12:42] ticketing system as well. So as soon as
+- [12:44] this ticket is being created, so let's
+- [12:46] just say this uh ticket is
+- [12:49] created. Ticket created. As soon as you
+- [12:52] have this task being done, we are going
+- [12:54] to go ahead and create an AI agent. So
+- [12:56] let's just go ahead and work with this.
+- [12:58] So the way how it works is we go ahead
+- [13:01] and create an AI agent. This agent
+- [13:04] further goes to any of your LLM model.
+- [13:06] Now in this case the LLM that we are
+- [13:09] using happens to be Gemini, but it can
+- [13:11] be any other as well. So imagine so much
+- [13:13] of work is being done. Your ticket is
+- [13:15] being created immediately an AI agent is
+- [13:17] being informed. This AI agent takes you
+- [13:20] to the LLM and this further LLM
+- [13:22] generates a metadata which is quite a
+- [13:24] long and one of the reason that I'm
+- [13:26] using Gemini for this is because the
+- [13:28] context window is pretty insane with
+- [13:30] Gemini and it's dirt cheap. So this LLM
+- [13:34] is going to go ahead and generate the
+- [13:35] metadata. This metadata is given to the
+- [13:38] AI agent again and this AI agent further
+- [13:42] uh goes
+- [13:43] onto the MongoDB. Yes, we're going to be
+- [13:46] using but feel free to change
+- [13:47] this to any database, MongoDB. And this
+- [13:52] AI agent will automatically just place
+- [13:55] everything in our database. And this
+- [13:57] will all happen behind the scene or
+- [13:59] rather I would say background
+- [14:01] information. So imagine this is how the
+- [14:03] real world application works. The ticket
+- [14:05] is being created. User just gets the
+- [14:06] message all right has been created. But
+- [14:08] this whole work can be done behind the
+- [14:10] scene. Now if the work is too much like
+- [14:12] in our case it's a very small task that
+- [14:15] we're giving to Gemini and the speed is
+- [14:17] insane but your task could be much much
+- [14:19] bigger than this maybe you're processing
+- [14:20] images maybe you're processing videos so
+- [14:23] in that case this kind of a workflow is
+- [14:25] required because this AI agent is not
+- [14:28] dependent on how fast the LLM is giving
+- [14:30] the response or the data back to it. It
+- [14:32] will be running in the background
+- [14:34] itself. And that's why I say these kinds
+- [14:36] of things like AI agent, this is how
+- [14:38] professionally applications are being
+- [14:40] done. And not only that, you can
+- [14:41] actually orchestrate your AI agents.
+- [14:44] Those who don't know what orchestration
+- [14:45] is, it means I mean it I need to monitor
+- [14:48] that which things are going wrong, which
+- [14:50] are being failed so that I can work on
+- [14:52] it and more such details. So this is how
+- [14:55] we are going to work with that. All
+- [14:57] right, I hope you are excited because
+- [14:58] I'm very much. Now let me walk you
+- [15:00] through with the text tag that we are
+- [15:01] going to work through. So for this
+- [15:02] entire application for the back end we
+- [15:04] will be using ExpressJS and you will
+- [15:07] learn that how you don't need to just
+- [15:10] use some groundbreaking fresh out of the
+- [15:12] box not being thoroughly tested
+- [15:14] framework you can use your existing
+- [15:15] frameworks whether that's express uh
+- [15:17] fast API fastj whatever you're using you
+- [15:20] can just work with that for the database
+- [15:22] we happen to choose MongoDB uh if you
+- [15:24] request in the comment section I can
+- [15:26] just walk you through the exact same
+- [15:27] thing in uh Postgress as well using
+- [15:30] Prisma drizzle whatever you like because
+- [15:31] the application remains exactly same.
+- [15:34] For the authentication, we are using the
+- [15:35] classic JWT mechanism. We are not using
+- [15:38] any third party for this one. So that
+- [15:39] you can see the process is regular. For
+- [15:42] the background jobs, we are using ingest
+- [15:44] which is the hero of this application.
+- [15:47] For the email system, we are using node
+- [15:49] mailer with the mail trap. Uh this mail
+- [15:51] trap thing can be easily replaced with
+- [15:53] uh send grid or AWS, whatever you want
+- [15:56] to have. Mail trap just allows me to
+- [15:58] quickly test the mail and whatever the
+- [16:00] mail we are shooting and receiving it
+- [16:01] just gives a one inbox so that I can see
+- [16:03] it's very popular for testing in the
+- [16:05] production and for the AI we are using
+- [16:08] Gemini but again this can be used for
+- [16:11] you it can be replaced with any LLMs all
+- [16:14] right so the system uses AI for Gemini
+- [16:17] for determining the skills that's the
+- [16:19] past part one so first of all we are
+- [16:21] going to determine what kind of skills
+- [16:22] are required to solve this ticket then
+- [16:24] we are going to go ahead and categorize
+- [16:26] the ticket based on the skills. So we
+- [16:28] will have an array of skills and it will
+- [16:30] go with that. It also sets the priority.
+- [16:33] It also generates the helpful notes to
+- [16:35] solve this tickets. And you will notice
+- [16:37] that we have to craft this AI response
+- [16:40] in such a way that we are able to
+- [16:42] extract all of this information. Uh your
+- [16:44] information could be more than this,
+- [16:45] could be less than this, but this is a
+- [16:48] general helpful ground where you can
+- [16:50] move forward or backwards. So we will
+- [16:52] have so much of information coming up.
+- [16:54] We will also go ahead and work on the
+- [16:55] eventdriven architecture in this
+- [16:57] application. Why the ingest? Because as
+- [16:59] we have seen just up here that a lot of
+- [17:02] things need to notify you back that hey
+- [17:04] mail was delivered or hey the agent has
+- [17:07] replied successfully and that needs to
+- [17:09] be stored in the database. So this all
+- [17:11] will be based on the event not just user
+- [17:14] has to wait. So user will not wait here.
+- [17:16] It will not keep on looping uh the the
+- [17:19] spinner all of this. We will have the AI
+- [17:22] powered decision maker. We will automate
+- [17:24] everything. We will have the role-based
+- [17:26] access and we will have the email
+- [17:27] notifications as well. So I hope you are
+- [17:29] pretty excited with building this. And
+- [17:31] by the way, we will build the front end
+- [17:32] part of it. Front end is pretty basic. I
+- [17:35] haven't gone much into this part of it.
+- [17:38] Uh like here in the admin, I can just
+- [17:40] see all this admin panel. I can manage
+- [17:41] the users. I can edit their skills. So
+- [17:44] maybe I can edit the skills like React,
+- [17:47] Angular, whatever. I will give you a
+- [17:49] complete walkthrough of this as we go
+- [17:50] through. We have multiple users. I can
+- [17:52] make any users as moderator or user
+- [17:54] whatever you like. We have the whole
+- [17:56] information. Uh for the UI part, I
+- [17:58] haven't done much of the work. I'm just
+- [18:00] using the hero UI and classic VT as on
+- [18:03] the front end to make this a full stack
+- [18:05] application. But this can be easily
+- [18:07] replaced by your favorite framework
+- [18:09] whether that's Nex.js or anything else.
+- [18:11] So all right, I hope you are super
+- [18:13] excited for this application because I
+- [18:15] am very much excited to show you what it
+- [18:18] looks like to build a production-grade
+- [18:20] AI agentpowered full stack application.
+- [18:24] This will be a gamecher for your skills.
+- [18:26] So just drop a comment in the comment
+- [18:29] section that hey this will be helpful
+- [18:30] for us and I will be super excited to
+- [18:32] teach more such things. That is it. Now
+- [18:34] let's go ahead and get started from the
+- [18:36] next section. We will just do a fresh
+- [18:38] installation of the back end first. Yes,
+- [18:40] we are building the back end
+- [18:43] first. All right, so welcome to this
+- [18:46] video where we are going to start the
+- [18:48] backend part of this application. And
+- [18:51] yes, this is super exciting application.
+- [18:53] I'm super pumped up for it. And this is
+- [18:55] one of the best tutorial that you are
+- [18:57] going to ever see on building a full
+- [18:59] stack AI agent. You will understand
+- [19:01] every bit of it and you will understand
+- [19:03] the full flow, logic, everything. I'm
+- [19:06] super excited. Let me take you onto the
+- [19:08] screen first. So this is where our uh VS
+- [19:11] code is and this is a full stack. I will
+- [19:14] push the whole thing on my on my GitHub
+- [19:16] repo as well. Please give it a star as
+- [19:18] well. And let's start by creating a
+- [19:20] backend first and we'll create a first a
+- [19:23] front end after this one. So let's call
+- [19:24] this one as AI uh ticket uh
+- [19:29] assistant and feel free to call it
+- [19:31] anything else. AI ticket assistant is
+- [19:33] something that makes sense for us. I
+- [19:35] will go ahead and open this up and the
+- [19:37] first thing that I'll do is let's
+- [19:39] actually initialize a project here
+- [19:41] first. So open it integrated terminal
+- [19:44] and you really know the basic part npm
+- [19:46] in it. We'll just go with a - y so that
+- [19:49] it just creates this. We have a
+- [19:51] package.json file. The first thing that
+- [19:54] I'll do here is I'll just go ahead and
+- [19:56] say we will have the type of module
+- [20:00] because we want to obviously use module
+- [20:02] for this one. We'll come back and change
+- [20:03] a little bit more up here in some
+- [20:06] minutes. The next thing that I want to
+- [20:08] do is create two files. The first one
+- [20:10] will be env where we'll keep our all
+- [20:12] environment variable. I'll not share
+- [20:14] this file with you. So I will create one
+- [20:16] more with you which will be
+- [20:19] env.ample. In this env sample, I'll
+- [20:22] write all the samples which I really
+- [20:25] want to share. But I'll not show you my
+- [20:26] environment variable file for obvious
+- [20:28] reasons. So first one is going to be
+- [20:33] uri. Feel free to get a local URI or if
+- [20:36] you want to get from the atlas. I'll
+- [20:38] show you that part as well. It's super
+- [20:39] easy. Just a database URL is required.
+- [20:42] After that we'll be needing JWT secret
+- [20:44] because we are using JWT. So that's
+- [20:46] obvious part. We will require some of
+- [20:48] the URLs or some of the values for
+- [20:50] sending the mails as well. A Gemini key
+- [20:52] and app URL as well. So let's go ahead
+- [20:55] and add one by one. First of all will be
+- [20:57] app URL. This is where our front end uh
+- [21:01] will require this. So we'll just give
+- [21:03] this URL that hey where this app or this
+- [21:06] back end is actually running. So that's
+- [21:07] the easy part. And for this one we'll
+- [21:09] just go with
+- [21:12] http/lohost col
+- [21:14] 3000. This is where my uh URL is going
+- [21:17] on. But again we can just go ahead and
+- [21:19] change it later on as well. We will need
+- [21:21] the Gemini key as well. So I'll call
+- [21:23] this one as
+- [21:25] Gemini
+- [21:27] API key. I will show you how you can
+- [21:30] just generate a simple Gemini key.
+- [21:32] That's super easy part. We will need
+- [21:34] couple of mail traps uh URL as well. So
+- [21:37] we'll just go ahead and have I guess
+- [21:39] four of them. Two, three and four. And
+- [21:43] actually all of them starts with mail
+- [21:45] trap and then we will have
+- [21:49] SMTP and after that the value changes.
+- [21:52] So the first one is going to be host.
+- [21:55] The second one is going to be port. I
+- [21:57] will show you how to grab this. This is
+- [21:59] nothing that you have to worry on. User
+- [22:01] and this will be my pass or password.
+- [22:04] We'll just keep as of now them just like
+- [22:07] this. And we'll fill up these values in
+- [22:09] a minute. So I'll just go ahead and copy
+- [22:11] this. We'll paste it in my environment
+- [22:13] variable as well so that I see all of
+- [22:15] the data coming up here. Secret that we
+- [22:17] can fill up with chode. No problem
+- [22:19] there. Uh this Mail trap part I will
+- [22:21] walk you through with this. This is
+- [22:23] actually super easy to grab. So I'll
+- [22:25] just go ahead and sign up on the Mail
+- [22:26] Trap. I already have an account. It's
+- [22:28] totally free. Go ahead and grab it. I
+- [22:31] have this. You will get a one sandbox uh
+- [22:33] to test this. I call this free API
+- [22:35] because I created it last time freshly
+- [22:37] when I was creating my open source
+- [22:39] project. You can just click up here and
+- [22:41] you'll see the SMTP details here. So
+- [22:42] this is all the details that we have
+- [22:44] filled. The host port, username,
+- [22:46] password. Yeah, this much all we need.
+- [22:48] So just copy this up here. Go back here
+- [22:51] in the environment variable. This is
+- [22:52] your host. Uh just copy up here. This is
+- [22:56] your port. Uh this is my username. Paste
+- [23:00] it up here. I'll not paste password in
+- [23:02] front of you. That that's the first
+- [23:04] point. All right. Uh for the Gemini, all
+- [23:07] you got to do is sign up on the
+- [23:10] aisudio.google.com. I'll actually copy
+- [23:12] this and open up in incognito.
+- [23:14] Definitely don't want to go with the
+- [23:16] usage. Oops.
+- [23:18] don't want to go for the usage. I just
+- [23:20] want to show you AI studio. So this is
+- [23:22] the AI studio. Uh all you do is just
+- [23:24] sign in with the Google account. I'm
+- [23:26] pretty sure if you're watching this on
+- [23:27] YouTube, you do have a Google account.
+- [23:28] Just sign up this and that's it. And we
+- [23:31] will get all of this. Even they give you
+- [23:32] some of the example for all of this.
+- [23:34] Nothing. It's just a very simple for the
+- [23:36] first time Google has made it super
+- [23:38] easy. Now after that just click on the
+- [23:40] get API key. And you can see I already
+- [23:42] have this API key. But if you want to
+- [23:44] create a fresh, you can just go ahead
+- [23:46] and create uh click on the create new
+- [23:47] API key and then it will say that hey
+- [23:50] search on the project or create an exist
+- [23:53] API key in the existing project. So I
+- [23:56] can just click on this search and get
+- [23:58] this uh or just with that can I show you
+- [24:01] it a fresh one because a lot of people
+- [24:03] sometimes get worried about how will I
+- [24:05] do it. No worries I'll show you the
+- [24:07] fresh one. I'll create this uh select a
+- [24:11] project for this one. I'll just say
+- [24:13] Gemini API or it will for the first time
+- [24:16] if you're creating this it will give you
+- [24:17] the idea of u just create a fresh
+- [24:20] project. I'll just click on this uh and
+- [24:22] then I will just say create API key in
+- [24:24] existing project. Gemini API is the name
+- [24:26] of this and then I can just simply go
+- [24:29] ahead and copy this and uh paste it. By
+- [24:33] the time you'll be seeing it I have
+- [24:35] actually changed this so no worries on
+- [24:37] that part. I will do this behind the
+- [24:40] scene. I will not show you all the keys
+- [24:42] for safety reasons. All right. So this
+- [24:44] is the basic part of it and that is it.
+- [24:47] Go ahead and fill these details. So
+- [24:49] that's the part one of this. All right.
+- [24:52] So this is what we have. Now let's go
+- [24:53] ahead and see that what we are going to
+- [24:55] need for building this application. The
+- [24:58] first thing that we're going to need
+- [25:00] I'll just go ahead and install this. So
+- [25:03] npm install-d for a dev dependency and
+- [25:06] we will have the nodemon. This makes
+- [25:09] sure that my server is all the time up
+- [25:11] and running. I don't have to stop the
+- [25:13] server started again. And as you can
+- [25:15] see, this gets installed in my dev
+- [25:17] dependency. Now taking you on to uh this
+- [25:20] part. Let's go ahead and see what else
+- [25:22] we are going to need for this one. So
+- [25:24] the first thing we're going to need is
+- [25:26] brypt. You might be wondering why do you
+- [25:29] need brypt? Brypt is responsible for
+- [25:32] encrypting your password. Now encrypting
+- [25:34] is not a correct word. It would be
+- [25:36] rather hashing your password. Encryption
+- [25:38] can be decrypt decrypted but hashing
+- [25:40] cannot be converted back. So we'll need
+- [25:42] brypt for this. This is password
+- [25:44] utility. You'll see this in almost all
+- [25:45] projects. We also need course which
+- [25:48] helps you to make sure that your front
+- [25:50] end can actually talk to your back end
+- [25:52] and sees no course error in the in the
+- [25:55] browser itself. So we'll use this
+- [25:57] utility as well. Apart from this we're
+- [25:59] going to need to load our environment
+- [26:02] variable. Pretty basic. You'll see this
+- [26:03] in almost all the application. The env
+- [26:06] file. Yes. For that we will be needing
+- [26:08] express because all the routing express
+- [26:10] is a routing library in JavaScript in
+- [26:12] the node ecosystem. We'll be using this
+- [26:14] one and we are using MongoDB. So the
+- [26:16] most famous one is mongus that's uh OM
+- [26:21] for making our life easier to talk to
+- [26:24] MongoDB. We will be needing
+- [26:27] uh node mailer as well to send the mail.
+- [26:30] Uh yes we'll be using inest for this one
+- [26:32] but that will help us just processing.
+- [26:34] So this is our core foundation that
+- [26:36] we'll be using. If there is anything
+- [26:38] else, yes, I forgot one which is JSON
+- [26:41] web token. So we'll be working
+- [26:44] everything on the token base. So JSON
+- [26:46] web token is the one. If I'll remember
+- [26:48] anything else, uh that is it. Now for
+- [26:51] the AI part that we're going to use is
+- [26:53] first of all we can just go ahead and
+- [26:55] say
+- [26:56] ingest
+- [26:58] slash agent
+- [27:00] uh kit. You might be wondering, hey
+- [27:02] Tish, how did you know about this that
+- [27:04] we have to put at the rate injust and
+- [27:06] agent kit? Uh, yes, good question. You
+- [27:08] can just simply go on to their agent kit
+- [27:10] and click on the getting started and
+- [27:12] this is where they actually mention this
+- [27:14] npm install at the rate ingest agent
+- [27:16] kit. Yeah, no magic. I just happen to
+- [27:19] remember this. Pretty easy to remember.
+- [27:22] All right. So, apart from this, you'll
+- [27:23] also need the core inest. So, for this,
+- [27:26] you just go ahead and say I need inest.
+- [27:29] That is it. So this whole thing is our
+- [27:33] AI part. So this is our AI agent
+- [27:39] part. This is all that is required for
+- [27:42] this one. And the rest is the core back
+- [27:45] end. Core back end. So just go for this.
+- [27:49] And this is our core back end part. All
+- [27:51] right. Nodemon is just a dev
+- [27:53] dependencies. So this is how everything
+- [27:55] looks like. All right. Hope you got this
+- [27:57] idea. Let's go ahead and install all of
+- [27:59] them.
+- [28:00] So, we're going to go ahead and say npm
+- [28:02] install. We
+- [28:04] need
+- [28:06] brypt. Uh, by the way, you can use
+- [28:09] bryptjs as well. Brypt bryjs. Whatever
+- [28:12] makes you more comfortable, feel free to
+- [28:13] use that. We'll need course. We'll
+- [28:17] need we'll need express
+- [28:20] mongus. Express
+- [28:24] mongus. Node mailer. Node mailer. And we
+- [28:28] need JSON web
+- [28:31] token. Uh what else we need? I guess all
+- [28:35] done for at least the development part.
+- [28:37] Let's go ahead and help it to
+- [28:40] install. All right. And we'll see npm
+- [28:45] install
+- [28:46] inest. That's the core one. And we'll
+- [28:49] need the last one. Let's grab this one.
+- [28:52] So we just need to say, hey, copy this.
+- [28:54] And taking a little time. probably my
+- [28:57] internet is not that great. Anyways,
+- [29:00] we'll just keep it all in the real
+- [29:04] time. All right. So, in the meantime,
+- [29:06] it's getting all right. So, uh no
+- [29:09] worries. Just deprecation. It keeps on
+- [29:11] happening. Nothing to be worried. And
+- [29:13] then we need the agent kit part of it.
+- [29:15] That should be fairly
+- [29:18] small. So, all right. Hopefully, we have
+- [29:21] inest. So I guess you get the idea of
+- [29:23] how the dependencies works and what the
+- [29:25] role they play again repeating that
+- [29:27] brypt is for hashing your password
+- [29:29] course so that we don't get the errors
+- [29:32] because our front end is on different
+- [29:33] URL back end is on different URL env to
+- [29:36] load the environment variable express is
+- [29:38] a routing library or a backend routing a
+- [29:43] lot of things it can do mongus is an OM
+- [29:46] for MongoDB node mailer for sending the
+- [29:48] mails in a easier way and JSON web token
+- [29:51] This is the AI part of it. We'll learn
+- [29:54] how to use them. But this is all what we
+- [29:55] need. All right. Life looks uh fairly
+- [29:59] easy. And now let's go ahead and work on
+- [30:02] uh other things. Now we will usually the
+- [30:04] expectation is you'll create an index
+- [30:06] file and go ahead and change this one as
+- [30:09] uh dev to nodemon index. All right, that
+- [30:12] is okay. That's usually is done. But
+- [30:14] where I want to focus my attention first
+- [30:16] is to bring the models because this is
+- [30:19] how I will define my data structure. So
+- [30:21] let's create a new folder. Call this one
+- [30:23] as models. And inside the models we will
+- [30:26] have two files. The first one being a
+- [30:28] user. In most of my application I call
+- [30:31] this as
+- [30:32] user.mod.js. Uh that just for
+- [30:34] explanation I'll just not do this in
+- [30:37] this one. So user.js as well as we are
+- [30:40] building a ticketing system. So we'll
+- [30:41] call this one as ticket.js. JS for
+- [30:44] ticketating system. First, let's define
+- [30:46] the user part of it. I'll shut up my AI
+- [30:49] otherwise it will bother us. The way how
+- [30:51] we do it is pretty standard and pretty
+- [30:53] simple. We're going to go ahead and say
+- [30:54] we want mongus from mongus. That's the
+- [30:58] part one of it. And then we simply go
+- [31:01] ahead and create a user schema. And this
+- [31:05] user schema will be created by new
+- [31:07] mongus dot schema. This is a method
+- [31:11] which requires an object to be passed
+- [31:12] on. And then we simply say export
+- [31:18] default
+- [31:20] mongus dot model. And the model that we
+- [31:24] want to export is user. The schema that
+- [31:26] it we'll be using is user
+- [31:30] schema. And the best part is I can just
+- [31:32] go ahead and copy this, paste it in the
+- [31:34] tickets, and call this one
+- [31:37] as ticket. Oops. ticket
+- [31:42] schema and copy this ticket schema and
+- [31:45] paste it up here. This one will be
+- [31:48] ticket. That is it. So we've defined our
+- [31:50] two models. Now let's add some values
+- [31:52] inside this. Now the schema I have
+- [31:55] already done a lot of videos on Udemy as
+- [31:57] well. Feel free to define the schema
+- [31:59] however you like. We'll just go with the
+- [32:01] basic one. So we'll have the email. This
+- [32:03] email will be of
+- [32:05] type type
+- [32:08] string string if I can write that string
+- [32:13] required that will be true and we will
+- [32:16] have a unique as well so that all the
+- [32:19] emails are automatically unique. This is
+- [32:21] nothing we are doing. Mongus will take
+- [32:23] care of all of this. We will have the
+- [32:25] password as well which will be of type
+- [32:29] string. What's happening? and required
+- [32:34] to be true. That is it. And we will have
+- [32:38] the role. This is the how we are
+- [32:40] defining the role as a role based
+- [32:41] access. So we will have simply type
+- [32:44] which will be string. And we will say
+- [32:46] default the role of every user will be
+- [32:49] user. We need to upgrade the first admin
+- [32:51] as by going into the database itself.
+- [32:54] But the values are going to be coming up
+- [32:57] from the enum. Enum is just an array. It
+- [33:00] which has multiple things. For example,
+- [33:02] it will have the user. We will have
+- [33:04] another one which is
+- [33:06] modator and we will have admin. There we
+- [33:10] go. Basic role-based access. We will
+- [33:13] also have skills. The skills is going to
+- [33:16] be an array of string. So multiple
+- [33:19] skills can be passed on like react full
+- [33:21] stack whatever you like. You can just go
+- [33:23] ahead and pass on. We will also have a
+- [33:25] created at field. Although we can
+- [33:27] implement the timestamps fully aware of
+- [33:29] it. Feel free to go ahead and add this.
+- [33:31] We'll just go ahead and simply say
+- [33:33] created at which will be of type. Let's
+- [33:35] go with the date and let's also add a
+- [33:38] default value for this one which will be
+- [33:40] date.
+- [33:41] Now date dot now. So there we go. Pretty
+- [33:45] basic schema we have defined pretty
+- [33:47] quickly. Didn't took much of the time.
+- [33:49] That's your user. Now next up is how we
+- [33:51] define the ticket. And again the fields
+- [33:54] are there. Feel free to add whatever you
+- [33:56] wish to have. Obviously, we have to two
+- [33:58] fields are required. Title is going to
+- [34:02] be a
+- [34:04] string. Come
+- [34:06] on. And then we can have the
+- [34:11] description. That's again going to be a
+- [34:13] string. We will have a status should be
+- [34:17] all lower
+- [34:19] case status. And depends on how you work
+- [34:22] with that. We want to provide a default
+- [34:24] status as well. So we'll just go use
+- [34:26] this
+- [34:27] syntax. Type will be string not strung.
+- [34:30] Why I'm writing strung again and again?
+- [34:33] Probably some keyboard is
+- [34:35] misplaced. Default is going to be to-do.
+- [34:40] We can
+- [34:40] define more enums here. But now that you
+- [34:44] know the concept, I guess you can also
+- [34:45] do this. We'll have a field created by
+- [34:48] which will link it up to our another
+- [34:51] model or in this case another document.
+- [34:54] So created by this is going to be
+- [34:56] created for this. The type always
+- [34:58] remains the same which is
+- [35:00] mongus dot
+- [35:03] schema dot types dot object ID. Then you
+- [35:09] have to provide what reference we are
+- [35:11] taking up. We are taking a reference of
+- [35:12] user. So make sure you always pass on
+- [35:15] whatever you're calling your model. So
+- [35:17] in this case we are calling it as user.
+- [35:19] So we are passing a user here. Pretty
+- [35:20] 101 basic. All right. And then we will
+- [35:24] assign this to some user as well. So
+- [35:27] assigned to this digit will be assigned
+- [35:30] to somebody. So we'll just go ahead and
+- [35:32] call this one as type. Same mongus dot
+- [35:37] schema dot types dot object ID. basic no
+- [35:42] big deal. We have to provide a reference
+- [35:45] to this
+- [35:46] one ref and we will say user and by
+- [35:52] default if you want to assign it to
+- [35:53] somebody you can just assign to a
+- [35:55] default user but that's not a good idea.
+- [35:58] In this case we'll ask AI to actually
+- [35:59] assign this. So for the default we'll go
+- [36:01] with the null. Again depends on how
+- [36:03] you're working with this. All right
+- [36:06] let's add few more fields which will be
+- [36:08] filled up by the AI. So no worries on
+- [36:10] our part.
+- [36:12] priority and that will be a simple
+- [36:15] string. There we go. And then we have a
+- [36:19] deadline for this one as well.
+- [36:21] Lowerase deadline. We can assign the
+- [36:25] deadline on our own or can ask even AI
+- [36:27] for doing this. So deadline will be a
+- [36:29] date. Uh do we have helpful notes? Sure,
+- [36:32] we wouldn't. This is the main part. I
+- [36:34] love this
+- [36:37] helpful notes. This is a string. Don't
+- [36:40] do this. Helpful notes. Okay. What else
+- [36:44] you want to have?
+- [36:48] Related skills. So this will be an array
+- [36:52] of string just like this. There we go.
+- [36:55] And at the very end we'll just go ahead
+- [36:57] and have one more field created at.
+- [36:58] Again we can have a time stamp and which
+- [37:01] will give us updated at and created at
+- [37:03] both. But that's for you. I will just go
+- [37:06] ahead and say type is going to be date
+- [37:09] and the default
+- [37:12] default is going to be date. Now date
+- [37:17] now. All right. So there we go. We have
+- [37:19] defined our model and we have added some
+- [37:21] values to it. That's the basic part of
+- [37:23] it. How this can be done. Now the next
+- [37:25] thing that you want to do or probably
+- [37:27] want to do is create a basic index file
+- [37:30] so that we can at least connect the
+- [37:32] database and do all these things and
+- [37:33] build at least an express app. We will
+- [37:35] add more things later on, but at least
+- [37:37] let's go ahead and create a classic
+- [37:39] database connection. We will not go too
+- [37:41] much in the database connection. I
+- [37:43] walked you through quite in depth in my
+- [37:44] Udemy course as well that how complex
+- [37:47] that file can be based on each response
+- [37:49] that database is giving to you. Lots of
+- [37:51] retries and all of that. As of now, I
+- [37:54] think it makes sense to have just a new
+- [37:56] file. Call this one as
+- [37:58] index.js and create a basic uh express
+- [38:02] application. So we're going to go ahead
+- [38:04] and say import express from
+- [38:09] express and then we can just go ahead
+- [38:11] and say const app is going to be express
+- [38:15] just like this and we can have mongus as
+- [38:18] well import mongus from mongus so that
+- [38:22] now our app is ready probably we can use
+- [38:25] the env and course as well because that
+- [38:29] needs to be there so course
+- [38:33] course
+- [38:34] from
+- [38:36] course actually acts act acts as a
+- [38:39] middleware. So all you have to do is app
+- [38:41] dot use and simply have to say
+- [38:45] course. There we go. And just run it
+- [38:47] just like that. You can add more
+- [38:49] features and functionality onto this one
+- [38:51] but that's okay for us. app dot use and
+- [38:54] the most common one is now express.json
+- [38:57] so that we can accept the JSON data. I
+- [39:00] hope that's not too fast because this is
+- [39:01] something that we have done probably
+- [39:03] like so so many time. Uh let's go ahead
+- [39:06] and connect uh the mongus in this one
+- [39:09] and that is it. We can actually listen
+- [39:12] to the app within the mongus. If the
+- [39:14] mongus is successful we will listen
+- [39:15] otherwise we will not listen. Depends on
+- [39:17] how you want to craft your application.
+- [39:19] In this one let's just go ahead and say
+- [39:21] hey mongus I want to just go ahead and
+- [39:24] connect with a database. And the
+- [39:27] connection will happen from
+- [39:29] process.env dot we have to copy this. I
+- [39:33] thank goodness I haven't filled the
+- [39:34] values yes yet. So copy this and paste
+- [39:38] this. So it will get this. Come on move
+- [39:40] on to the next line. I want it to be on
+- [39:42] next line. If this gets connected then
+- [39:46] we're going to follow a simple then or
+- [39:48] we will follow a dot catch just like
+- [39:50] this. If anything goes wrong, we can
+- [39:52] just catch this error and we can say
+- [39:56] console.log or console.error to be a
+- [39:59] little bit fancy and we will
+- [40:02] say db
+- [40:06] error and we can display the error as
+- [40:09] well. You can use back ticks as well if
+- [40:10] you wish. In the then part if everything
+- [40:13] goes right we can fire up a call
+- [40:16] back. The first thing I want to do is
+- [40:18] simply console.log log and
+- [40:22] say
+- [40:23] [Music]
+- [40:25] db connected and probably can use
+- [40:30] some of
+- [40:32] the come on you were giving me this.
+- [40:35] There we go. Yeah, this will look good.
+- [40:38] And then on top of that if it everything
+- [40:40] goes good we can actually now listen to
+- [40:43] any of the port. Usually the port should
+- [40:45] also go into the environment variable
+- [40:48] otherwise how we'll deploy this. So
+- [40:50] let's go ahead and create it up here. So
+- [40:53] const port either we are going to get a
+- [40:56] port from process
+- [41:00] envort or we're going to use 3000. In
+- [41:02] this case we'll use
+- [41:04] 30,00. So let's go ahead and listen on
+- [41:07] to port variable. Oh no, not like that.
+- [41:12] Is it not available to us? Oh, it's all
+- [41:14] uppercase. My bad. We'll listen to the
+- [41:17] port and u if we are listening to the
+- [41:20] port, we can again fire. This is a call
+- [41:21] back hell, but not that
+- [41:23] bad. We can simply go like this and say
+- [41:26] console.log.
+- [41:30] And in this one we can
+- [41:33] say
+- [41:35] server at http col
+- [41:42] slash and we'll say
+- [41:45] localhost. We can add back text and use
+- [41:48] ports but you get the idea. This is
+- [41:50] pretty basic. We'll also add
+- [41:54] a and we'll use this one here.
+- [41:59] And we can actually use MongoDB
+- [42:02] error. I love to have them. At least
+- [42:04] make my makes my developer life a little
+- [42:07] little easier. Uh we expected to have an
+- [42:09] error on this one, but that's okay. Now
+- [42:11] let's just go ahead and set this up in
+- [42:13] the package.json at least. This one will
+- [42:15] be dev. We will have one more command
+- [42:17] because inest also needs to run. But
+- [42:20] we'll talk about the ingest in a minute.
+- [42:22] So we'll just go ahead and say, "Hey
+- [42:24] Nodebon, please run index.js."
+- [42:28] Let's run this. And we are expecting it
+- [42:30] to fail. That's a good thing. npm
+- [42:34] rundev. And there we go. Oh, we saw this
+- [42:38] one. I was expecting this one. Mongus is
+- [42:41] the URI parameter must be a string get
+- [42:43] undefined. So, we know the drill. We
+- [42:45] just need to add an environment
+- [42:46] variable. I'll do that in the next
+- [42:49] video. I'll set up my this part and the
+- [42:51] key part as well. But you got the idea
+- [42:53] that how this needs to be done. So at
+- [42:54] least oops Ctrl C not controll X we got
+- [42:59] the idea uh pretty good stuff a great
+- [43:01] start we have designed our models we
+- [43:03] have designed our environment variables
+- [43:04] we have designed our index.js JS as
+- [43:06] well. All the dependencies are
+- [43:08] installed. In the next one, we can just
+- [43:10] start writing the controller for the
+- [43:12] user itself and walk you through with
+- [43:14] the functionality of it. Let's go ahead
+- [43:16] and move on to the next section
+- [43:19] now. All right. So, let's move on to the
+- [43:21] next part of building this application.
+- [43:24] This is where we actually for the first
+- [43:26] time see the use case of ingest as well
+- [43:29] as we'll see how the background workers
+- [43:31] of inject works. Now, this is a pretty
+- [43:33] straightforward process. You just keep
+- [43:35] on working. whatever you're doing in
+- [43:36] your controller and whenever there is a
+- [43:38] task certain task which might take more
+- [43:40] time maybe the mail servers are busy or
+- [43:43] there is already so much going on in the
+- [43:45] mail queue and you want to process them
+- [43:46] line by line. So for these things these
+- [43:48] background workers are really awesome to
+- [43:50] work on with and in fact any scalable
+- [43:52] application they truly use uh the
+- [43:55] background workers. So let me walk you
+- [43:56] through first with the diagram that what
+- [43:57] we are about to do and then it will be
+- [44:00] much much easier to actually understand
+- [44:02] this. So the steps are pretty simple.
+- [44:04] First of all, let's just say uh we want
+- [44:07] to register a
+- [44:09] user. So let's go just go ahead and
+- [44:11] register a user. In our case, it will be
+- [44:14] in MongoDB. So that is fine. That's our
+- [44:16] first step that we're going through. Now
+- [44:18] during the process, we want to send a
+- [44:20] success
+- [44:21] email. So let's go
+- [44:24] for success email. Now this success
+- [44:28] email depends on couple of things. First
+- [44:30] of all that if we are actually sending
+- [44:32] this as a success email then the most
+- [44:35] important task is a user should be in
+- [44:39] our database. Uh there might be cases
+- [44:42] where things might not go as we planned.
+- [44:45] There is some crash in the database. We
+- [44:47] don't want it but it sometimes happen in
+- [44:49] that case we don't want user to proceed
+- [44:51] with. So user should be in the database
+- [44:53] and both of them should be a separate
+- [44:55] activity. So we want to register a user
+- [44:57] in a separate controller and sending the
+- [44:59] success email should be a separate
+- [45:01] activity. Now this activity can be done
+- [45:03] by AWS or any other. So it doesn't
+- [45:06] really bother the Q system in that. So
+- [45:08] first of all let's see that since this
+- [45:10] is a totally separate activity first
+- [45:12] let's worry on that part. It's a pretty
+- [45:15] simple one. Let's create a new folder
+- [45:17] and feel free to call it as whatever you
+- [45:20] want to call this one as of now. uh you
+- [45:22] can just go ahead and call this as
+- [45:25] utilities libraries whatever makes sense
+- [45:28] to you in our case I'll just call this
+- [45:30] one as utils but again libs is also fine
+- [45:33] so let's call this one as uh libs utils
+- [45:38] utils and we'll be sending a mail so
+- [45:41] let's call this one as
+- [45:43] mailerjs of course so how do we send
+- [45:46] mail we most of the time send mails with
+- [45:49] the help of node mailer which comes from
+- [45:52] the utility that we installed, node
+- [45:53] mailer. But I don't know how to send the
+- [45:55] email. So I'll just go ahead and Google
+- [45:57] it out, which will be node mailer. Let's
+- [46:00] go
+- [46:02] there. Open this up. Oh, light mode.
+- [46:05] Don't want
+- [46:06] that. And we'll just go up here. And
+- [46:09] this is the whole node mailer. So we
+- [46:11] will not use the require syntax. We are
+- [46:13] using the import syntax. But this is all
+- [46:16] that we need. All of the transporter and
+- [46:18] everything. So instead of using it just
+- [46:21] like this uh we want to simply use this
+- [46:23] uh create email let's call it as method
+- [46:25] and then we will export this method
+- [46:27] which will require some of the
+- [46:29] parameters for example this to this
+- [46:31] subject or text or whatever we want to
+- [46:32] go. So we will use exact same
+- [46:34] information but we'll craft this in our
+- [46:36] own method. So sounds super
+- [46:39] easy. We will export this and again
+- [46:41] don't want it to do like that. Come on I
+- [46:45] can do better than this. So we'll just
+- [46:48] go ahead and call this one as send mail
+- [46:51] and this will be an async obviously
+- [46:53] because mails do take time probably much
+- [46:55] more than the database interaction. This
+- [46:58] will expect that you'll pass me a two
+- [47:00] you will pass me a subject whoever is
+- [47:02] using this method and you'll pass me the
+- [47:04] text. Why these three parameters? Good
+- [47:07] question. Because these are the
+- [47:08] parameters that I can reuse this
+- [47:11] function. As soon as the two is being
+- [47:13] changed I can send this email to whoever
+- [47:15] I like. As soon as the subject is
+- [47:16] changed, the same method can be used and
+- [47:19] the text whatever you want to send in
+- [47:20] the plain text. It also supports HTML in
+- [47:23] case you want to accept that as a
+- [47:24] parameter. That's also pretty good. Go
+- [47:26] ahead and do that. I won't be doing
+- [47:29] that. And then we simply run a simple
+- [47:32] try catch. In the try part, we are going
+- [47:34] to create a transport. So this is the
+- [47:36] first part where we create the
+- [47:38] transport. Let's just go ahead and copy
+- [47:40] this and replace the things. So there we
+- [47:42] go. So we created a transport. This will
+- [47:45] all remain same but this will
+- [47:48] change. So we are going to go ahead and
+- [47:50] change this one. This will come from
+- [47:54] process env
+- [47:57] uh this one
+- [47:58] was mail trap something I haven't still
+- [48:02] added so don't worry on that part. Mail
+- [48:05] trap host. Copy this and paste that and
+- [48:10] port and everything will also go like
+- [48:12] this. So I'll just go ahead and copy
+- [48:15] this. Port will be there. The user will
+- [48:18] also come from there. And the password
+- [48:20] will obviously become coming coming from
+- [48:22] there. So this one is
+- [48:25] port. This one is
+- [48:29] user and this one is pass or password.
+- [48:32] Oops, don't want to do
+- [48:34] that. There we go. So all of the values
+- [48:37] are now coming up from our environment
+- [48:39] variable. We'll just keep it as it is.
+- [48:40] You can remove the secure false which is
+- [48:42] true for most of the other ports. In
+- [48:45] this case, we can keep it as it is. But
+- [48:46] as soon as you move it to the
+- [48:47] production, make sure you remove this.
+- [48:49] By default, it is true. So, you don't
+- [48:51] have to worry. The next part is we
+- [48:53] simply create uh this info part. Our
+- [48:55] method is already a sync. So, don't need
+- [48:56] to worry on that part. We can just go
+- [48:58] ahead and grab this part. We'll also
+- [49:00] grab this one. Copy this. And once we
+- [49:04] are done with creating the
+- [49:06] transporter just up here, I want to
+- [49:08] create this. All right. So this is going
+- [49:11] to be from. So instead of doing it like
+- [49:14] this, we will go ahead and say
+- [49:18] ingest uh TMS whatever you want to call
+- [49:21] transport mail service or whatever. We
+- [49:23] can just go ahead and call it as no
+- [49:25] reply from ingest whatever you lock.
+- [49:27] I'll just keep it as it is. No worries
+- [49:29] on that part. Uh the two will be uh to
+- [49:33] itself. So I don't need to say it
+- [49:34] anything. I can just keep it like this
+- [49:36] because the variable name is exactly
+- [49:38] same. The subject can also be exactly
+- [49:41] same and the text can also be exactly
+- [49:44] same because we are taking the parameter
+- [49:46] just like that. I don't think this is
+- [49:48] required now. HTML we are not supporting
+- [49:50] as of now but later on you can just add
+- [49:52] the value. It's just a variable that you
+- [49:53] can simply put this. All right. Uh this
+- [49:57] console log looks good. Mail sent info
+- [49:59] dossage ID looks good because whatever
+- [50:02] the info we are getting we'll get the
+- [50:03] message out of it in the error part. And
+- [50:06] actually we don't want to console log
+- [50:08] just it. We would like to return this
+- [50:10] info as well. Maybe somebody wants to do
+- [50:12] something with it. So that's a good
+- [50:13] idea. In the error part, we're going to
+- [50:15] go ahead and say console dot error. We
+- [50:20] will use it like
+- [50:22] this. And this is an error. So mail
+- [50:28] error. Come on. Mail error.
+- [50:34] error dot message. Pretty cool. And at
+- [50:39] the end, we want to throw this error. So
+- [50:40] we know this. So we'll just go ahead and
+- [50:43] say throw error. That's it. All right.
+- [50:47] So our utility is now defined. So coming
+- [50:49] back on to the diagram. So this success
+- [50:52] email or whatever the email is, our
+- [50:54] email utility is now done.
+- [50:57] So email function is ready. Now this
+- [51:00] function as of now we have this function
+- [51:03] in the express or in our server itself
+- [51:05] but it could be an XJS function it could
+- [51:06] be a cloud function edge function
+- [51:08] doesn't really matter as you can see on
+- [51:10] their website as well if you scroll it a
+- [51:13] little bit they actually mention this uh
+- [51:16] somewhere that you can actually keep
+- [51:19] anything wherever you like. Here it is.
+- [51:22] Runs on serverless servers or both
+- [51:24] wherever you want to like deploy the
+- [51:26] injust function onto your existing
+- [51:27] platform or infra securely invokes your
+- [51:31] job wherever the code runs. So this is
+- [51:33] what we are utilizing. We are keeping
+- [51:34] the function on our own server and we
+- [51:36] want to utilize this. This is exactly
+- [51:38] what we are going through. All right,
+- [51:40] this looks all good so far. Now how do
+- [51:43] we work with the ingest part? That is
+- [51:45] interesting. Let's go ahead and work
+- [51:47] with that. I'll create a new folder for
+- [51:49] ingest.
+- [51:52] It's easier to call it as inject and we
+- [51:54] will have one folder and one file into
+- [51:56] it. Uh first of all let's go with the
+- [51:59] file itself. This will be a simple
+- [52:01] client.js which will invoke our ingest
+- [52:04] and we will have different kind of
+- [52:06] functions into it. So let's create a
+- [52:08] folder and keep all of our functions
+- [52:10] inside it. Surely you can call it
+- [52:12] whatever you like. Now first of all
+- [52:14] let's see the client code. The client
+- [52:16] code as mentioned in inside the ingest
+- [52:18] docs as well but I'll directly give it
+- [52:20] to you directly up here. It's super
+- [52:22] easy. Nothing to worry. The first part
+- [52:24] is inest actually gives you a lot of
+- [52:26] things uh from
+- [52:28] this. And as you can see if if I come
+- [52:31] back here option we can see event
+- [52:33] schemas Gemini AI adapters and ingest
+- [52:36] common handler functions middlewares
+- [52:38] proxy logger. It does a lot of them.
+- [52:41] What we want is directly the ingest
+- [52:42] which is a client used to interact with
+- [52:44] the ingest API by sending the reacting
+- [52:46] to events. So what we want to go with
+- [52:48] this let me give you the diagram. See
+- [52:50] this is our
+- [52:53] ingest. This is our ingest. Now the job
+- [52:57] of the ingest as we saw in the diagrams
+- [52:59] is it's to receive a lot of events. This
+- [53:02] is an event- based architecture. So
+- [53:05] somebody needs to notify that hey this
+- [53:06] event has been triggered. As soon as
+- [53:09] this is notified to this based on the
+- [53:12] type of
+- [53:14] event type of event this can be
+- [53:17] shrinkedked based on the type of
+- [53:20] event from the ingest itself we can
+- [53:22] actually call any function there could
+- [53:24] be hundreds of functions not just one.
+- [53:26] So this is one function this is one and
+- [53:28] this is another one. There could be
+- [53:30] variety of activities or variety of
+- [53:32] functions that can go like this. One of
+- [53:34] such function is actually the mail
+- [53:36] function that we have just designed. So
+- [53:39] this is the mail function that we have
+- [53:41] designed. And through the ingest, we are
+- [53:42] going to go ahead and call this one.
+- [53:44] That is it. All right. So let's design
+- [53:47] the rest of the part. So we're going to
+- [53:48] go ahead and use inest. There we go. And
+- [53:52] in this example, we'll just create a
+- [53:56] instance of it or a client of it and
+- [53:58] we'll just export it. So we'll just call
+- [54:00] it as inest. This will be coming up from
+- [54:04] injust just like this and actually it
+- [54:08] will be an instance. So new inest and
+- [54:10] here only thing we have to pass on is
+- [54:12] the client ID. Now you can actually
+- [54:14] design them by variety of methods but in
+- [54:16] this case because you might be using
+- [54:18] inest for variety of products. This is a
+- [54:21] ticketing system that we are designing.
+- [54:22] So for all the function that we are
+- [54:24] putting up in here, we are going to call
+- [54:26] this one as ticket uh ticketing
+- [54:29] system but feel free to call it whatever
+- [54:31] you like. The name here doesn't really
+- [54:33] matter. Your ingest will keep all of the
+- [54:35] collection of your functions all
+- [54:36] together under this banner or under this
+- [54:38] name. So that's what we do and let's go
+- [54:41] ahead and export this so that we can
+- [54:42] utilize it wherever like that's the part
+- [54:45] one. All right. So this is part one. Now
+- [54:47] inside the function we will have many
+- [54:50] more of such things. But first of all,
+- [54:52] let's just say what happens on sign up.
+- [54:54] I'll name this one as well exactly as on
+- [54:57] signup. On sign
+- [55:01] up js file name doesn't really matter.
+- [55:05] Feel free to call your function whatever
+- [55:06] you like. And what we're going to do is
+- [55:09] export const on user sign up lowerase.
+- [55:16] And what we're going to do is we will
+- [55:18] bring up this ingest that we have
+- [55:20] brought in from the client. And as soon
+- [55:22] as you put up a dot, you can see there
+- [55:24] are so many methods. We can create the
+- [55:26] function right up here. Uh we can event
+- [55:28] logs function ready send signals and all
+- [55:30] of that. What we want to do is now
+- [55:32] create function. All right, that's the
+- [55:34] basics of it. As soon as you create the
+- [55:37] function, you have to provide couple of
+- [55:38] things or couple of parameters onto it.
+- [55:40] You have to send uh first of all the
+- [55:42] trigger. Then we have to send whatever
+- [55:45] is the event of it and couple of more. I
+- [55:49] think I can find that in the docs. I'll
+- [55:51] try that. Found it. Let me just show you
+- [55:54] with the docs as well. So it's directly
+- [55:56] uh in the docs if you go into the ingest
+- [55:59] functions and the function steps. So
+- [56:00] this is where we actually gone through.
+- [56:02] It's in Typescript, Go, Python, wherever
+- [56:04] you want to like. We created this part
+- [56:07] and hold this thing inside a separate uh
+- [56:10] file itself. But it can be done here as
+- [56:12] well.
+- [56:13] Now once this is being done notice here
+- [56:15] we are simply going through with the
+- [56:16] exact same thing in just create
+- [56:18] function. First of all you have to give
+- [56:20] the ID of this exact function. You can
+- [56:22] name this whatever you like or provide
+- [56:24] whatever the id you would like. Then you
+- [56:26] have to mark this as an event. This will
+- [56:28] be utilized that hey whenever we want to
+- [56:29] invoke this particular function we have
+- [56:31] to trigger this event and then whatever
+- [56:33] you want it to happen. So in this case
+- [56:35] we are using the same email. So I'll
+- [56:36] just go ahead and copy this first. Uh
+- [56:39] come up here. ID is going to be
+- [56:41] activation email. Uh we are going to
+- [56:44] call this one as little bit different on
+- [56:48] user signup and apart from this you can
+- [56:52] also provide retries to it. Does it
+- [56:56] mention? Yep. Here it is retries. How
+- [56:58] many retries you want to do? In this
+- [57:00] case I want to do just two but you can
+- [57:02] retry more if you want. In the event
+- [57:04] this is where you mention that hey this
+- [57:06] is what I will call this one as an event
+- [57:09] which will invoke this function I will
+- [57:11] call this one as user slash signup feel
+- [57:13] free to name it whatever you like is
+- [57:15] just a name nothing else nothing more
+- [57:17] then you simply go ahead and use an
+- [57:19] simple a sync just like as they
+- [57:21] mentioned this is a classic a sync and a
+- [57:23] function call back look at this this and
+- [57:27] this so no big deal so we'll just go
+- [57:30] ahead and say this is a sync and it
+- [57:34] takes a parameter. We'll work on this
+- [57:36] one. There we go. As you can see in this
+- [57:39] async, we can see there is an event. But
+- [57:41] if you look it a little bit more, there
+- [57:44] are more things that you can provide
+- [57:45] which is step and step can actually run
+- [57:48] because maybe you don't want to run
+- [57:50] things just like this once. Maybe you
+- [57:52] want to verify with the database that
+- [57:54] how it goes. So if you look at the more
+- [57:56] documentation, you'll see you receive
+- [57:58] event and a step and you can await for
+- [58:00] this step to run. So this is my first
+- [58:02] step and as much as steps you want to go
+- [58:05] with this. So we'll just utilize this
+- [58:06] one. So we will call this one as event
+- [58:09] and we will have the
+- [58:11] step and once we are here we will invoke
+- [58:14] our try catch. I'm a big try catch guy.
+- [58:17] First of all let's grab this one. So
+- [58:19] whoever is invoking the event they can
+- [58:21] pass on some of the data as well. It's
+- [58:23] just a big object. We are going to go
+- [58:25] ahead and extract email out of it. Don't
+- [58:27] worry, I will show you the use usage
+- [58:29] part as well. But right now, just assume
+- [58:31] through this event, you can pass on data
+- [58:33] to this particular event. And this data
+- [58:35] is a big object. It can get as many data
+- [58:39] as you want. We have received this
+- [58:41] email. Now through this, I want to run a
+- [58:43] step function to find the user in my
+- [58:47] database. I want to check it first.
+- [58:49] So let's just say that I will say await
+- [58:54] and then step dot run. You can use this
+- [58:58] step.r run as many time as you wish.
+- [59:00] This step is going to called as get user
+- [59:05] email. Now I have the email but I just
+- [59:08] want to verify whether this is all
+- [59:09] correct or not. That is all what I'm
+- [59:11] doing. And here I can use a sync.
+- [59:18] This is the
+- [59:19] method. There we go. So, I hope you see
+- [59:21] the syntax is pretty clear. You step run
+- [59:24] this. You name this whatever you like
+- [59:26] for your internal reference. So, if
+- [59:27] something fails, you get the log of it.
+- [59:29] And then it's a simple async method. Do
+- [59:32] whatever you want to do inside this one.
+- [59:34] I want to bring in the user which is
+- [59:37] coming up from the models. No
+- [59:41] suggestion. Are we exporting the model?
+- [59:44] Let's just go ahead and see. Yes, we are
+- [59:47] exporting this. So, let's bring it
+- [59:51] up. It should be autoimp importing, but
+- [59:53] no worries. I'll import the user from
+- [59:57] one directory back. One more back.
+- [59:59] Inside the models, we have user uh js.
+- [60:04] All right, this is good. Now, hopefully
+- [60:07] once I have the user, I can just go
+- [60:09] ahead and say find one working now. And
+- [60:13] I would love to find based on email. Now
+- [60:17] if I was able to find this user, first
+- [60:19] of all, this is a database call.
+- [60:23] Await. There we go. If I'm able to find
+- [60:25] that, I'll call this one as user object.
+- [60:29] There we go. All right. If there is no
+- [60:32] user object, then obviously it's a
+- [60:34] problem. If there is no user
+- [60:38] object, then I need to throw a special
+- [60:42] kind of error. by the way throw
+- [60:45] new and this is non retryable error I
+- [60:50] don't want to retry it again and notice
+- [60:52] here this actually comes from ingest
+- [60:54] let's get a little separation so this is
+- [60:56] a non-retriable error this comes from
+- [60:58] inest so if you were not able to find a
+- [61:00] user there is no pro no point in trying
+- [61:04] to find or run this email invocation
+- [61:07] again and again just stop this we'll put
+- [61:09] up a message as well that user no
+- [61:13] longer
+- [61:16] exists in our database. So user doesn't
+- [61:20] exist. Why should I run this? And if
+- [61:22] this is all good, then I would love to
+- [61:25] return the user object. Now this is the
+- [61:27] beauty about these functions. Notice
+- [61:30] here uh we got this one here. We can
+- [61:33] actually store this
+- [61:34] into a variable as well. This whole
+- [61:37] thing call this one as user.
+- [61:41] So we have got this user and we have run
+- [61:44] the step function and we have done this
+- [61:46] whole thing. We are returning the user
+- [61:48] object from the invocation of this
+- [61:50] method. Now let's go ahead and send an
+- [61:53] email as well. This is also going to be
+- [61:55] interesting. Remember we have the user.
+- [61:57] So whenever a step runs, let me show you
+- [62:00] with the diagram that's easier. So in
+- [62:02] case of ingest, you will have many of
+- [62:04] the steps. So you'll have a step
+- [62:06] one just like
+- [62:09] this and you will have step
+- [62:13] two just like this. Now each of the step
+- [62:16] works almost like promises. If you
+- [62:18] remember in the promises whatever you
+- [62:20] return from the step one goes into
+- [62:22] automatically to the step two. Same
+- [62:24] happens here as well. The moment I have
+- [62:26] simply uh returned this user object this
+- [62:29] user object will be passed on to the
+- [62:31] step two. I can just go ahead and
+- [62:32] utilize this. All right. So how we going
+- [62:35] to do this once this step is all done?
+- [62:38] So we have called this one as user step.
+- [62:40] Let's go ahead and call this one. We
+- [62:43] technically don't need to store this
+- [62:45] into a variable. But let's just say no
+- [62:47] no harm in storing that into a variable.
+- [62:50] The next one we want to do is await
+- [62:52] step.run. I want to run
+- [62:54] another mechanism or another function.
+- [62:57] Let's call this one as send welcome
+- [63:00] email. Again, this is important so that
+- [63:02] you can see the errors if anything
+- [63:04] fails. Same
+- [63:07] uh
+- [63:10] sync a sync. Hope I wrote it correct.
+- [63:14] Yep. And arrow functions just like this.
+- [63:18] What do we want to do in this one? In
+- [63:20] this one, first of all, we want to craft
+- [63:22] the subject because our mailer requires
+- [63:25] you to pass on two subject and text.
+- [63:29] So here we are and we simply say our
+- [63:33] subject is going to be feel free to use
+- [63:37] more variables into this one. Welcome to
+- [63:39] the app and we will
+- [63:43] have const
+- [63:47] message is going to be like this. So
+- [63:50] we'll say
+- [63:52] hi and we would like to say couple of
+- [63:55] slash would be good and then we want to
+- [63:57] say thanks
+- [64:01] for signing in or signing up actually
+- [64:06] not signing
+- [64:08] in. We are
+- [64:11] glad to have you. Pretty
+- [64:16] exciting with an exclamation. Looks
+- [64:19] good. Now once this is all done, you
+- [64:21] have created all these methods and
+- [64:23] everything. Let's just go ahead and use
+- [64:24] the method which is send mail. We can
+- [64:27] import that utility again. And we have
+- [64:29] the user and we'll just go ahead and
+- [64:32] call this one as
+- [64:34] email. And we're going to go ahead and
+- [64:36] call
+- [64:37] subject and we'll have the
+- [64:40] message. All right. So finally user is
+- [64:42] being utilized. So we can see we are
+- [64:45] returning the user object. So we have
+- [64:46] the whole user thing is available to us
+- [64:50] and through that user we can extract
+- [64:52] email password don't want to extract
+- [64:54] password uh so email maybe username
+- [64:57] whatever you're extracting you just
+- [64:58] simply use that so thank goodness we we
+- [65:01] can also store this into a variable if
+- [65:05] we are returning something right now we
+- [65:06] are not returning something we are just
+- [65:07] performing an action so this is okay now
+- [65:11] let's just say we want to return
+- [65:12] something out of it so this method when
+- [65:15] finally exits. We are not remember this
+- [65:19] is where we were returning things. So we
+- [65:21] were able to capture this into the user.
+- [65:23] If you return something here at line
+- [65:24] number 20, you won't be able to capture
+- [65:26] this inside a variable which you declare
+- [65:28] for this one. The return that I'm doing
+- [65:31] here is once all of this is uh done and
+- [65:34] run. So I will return just a message
+- [65:36] that says success is true. So that whole
+- [65:40] of my pipeline that we have built is all
+- [65:42] done. Oh now the error part it's super
+- [65:46] easy console
+- [65:48] error and we are going to
+- [65:53] use and we will say error running step
+- [66:02] error
+- [66:03] dot message there error stream is whole
+- [66:07] streamlined and we are going to return a
+- [66:10] success which will be false. So
+- [66:13] congratulation, you have finally learned
+- [66:17] how to write a pipeline. Notice here the
+- [66:19] pipeline one, the pipeline two and so
+- [66:23] on. You can keep on building the
+- [66:25] pipeline. See my goal with these
+- [66:27] tutorial is not to just give you the
+- [66:29] mindlessly creating the projects and
+- [66:31] just follow along. You need to learn the
+- [66:34] engineering side of it. So if I show you
+- [66:35] how to build two segmented pipeline, you
+- [66:37] can build 20 segmented pipeline as well.
+- [66:39] And I'm pretty sure uh we are enjoying
+- [66:41] that part. So this is all it takes. Uh I
+- [66:44] hope you got this part. Now we need to
+- [66:46] write controllers as well. So we'll just
+- [66:48] close everything. If anything goes
+- [66:50] wrong, we can just fix them. But this is
+- [66:52] the whole basics of it. Now let's go
+- [66:54] ahead and write the controllers. We will
+- [66:56] write them definitely in the next
+- [66:57] segment. But we'll be preparing for
+- [67:00] that. Controllers. And we will have one
+- [67:03] controller which will be user.js. So
+- [67:07] let's at least import the stuff that
+- [67:08] we'll be needing. We'll be needing
+- [67:13] Brypt that will be coming up from
+- [67:16] BCrypt. We'll be needing
+- [67:20] JWT JSON web token. And we'll be needing
+- [67:24] user as well. So let's just go ahead and
+- [67:26] import user from one directory
+- [67:30] back. Inside the models, we have
+- [67:33] user.js. Don't want it to bother us. And
+- [67:36] we'll need ingest as well because we
+- [67:38] want to invoke the function here.
+- [67:41] Import. We need to ingest it like
+- [67:44] that. Ingest. Oh, sadly no
+- [67:48] suggestion. One directory back
+- [67:53] inside
+- [67:55] H. No
+- [67:57] idea. Here it is. Ingest. And we have
+- [68:00] this
+- [68:01] client. All right. So the first one that
+- [68:04] we are going to go ahead and write a
+- [68:06] method is simply for the signup. So at
+- [68:09] least let's design this. So export
+- [68:13] const signup this is going to be a sync.
+- [68:17] Again I'm not using those wrapper
+- [68:19] functions so that you don't have to
+- [68:21] write try catch. We will write try
+- [68:22] catch.
+- [68:24] So request
+- [68:28] oops don't do that. request
+- [68:32] response and there we go. All right. So
+- [68:34] this is it. So in the next segment we
+- [68:37] are going to go ahead and write the
+- [68:38] controller and similar way exactly
+- [68:40] similar way I will walk you through that
+- [68:42] how you can write the agents as well.
+- [68:44] Just like we have done the background
+- [68:46] task the agents are also being done
+- [68:48] almost similar but don't you worry I
+- [68:50] will still give you a complete
+- [68:51] walkthrough of it. Let's move on to the
+- [68:53] next section and write the controllers.
+- [68:57] So now let's go ahead and write all the
+- [68:59] controllers for the user. It is super
+- [69:01] easy. It looks very intimidating at
+- [69:04] first but if you have built enough of
+- [69:06] fullstack application that should sound
+- [69:07] super easy to work on. Let me share the
+- [69:09] screen and we'll write them. All right.
+- [69:12] So let's start with the signup user. So
+- [69:14] for the signup uh some information will
+- [69:16] come from the request body. We will
+- [69:18] extract that. So first of all let's see
+- [69:20] that hey what all information is up
+- [69:22] coming up from the request body. Just
+- [69:24] goes like this.
+- [69:28] Okay. Uh, I want to extract email. I
+- [69:31] want to get password. And I also want to
+- [69:34] get skills. If no skills are getting
+- [69:36] passed, I would love to just keep that
+- [69:37] as an empty array. Next up, I would love
+- [69:40] to fire a simple try catch. And inside
+- [69:43] the try catch. First, let's hash the
+- [69:45] password. Hashing the password with
+- [69:47] BCrypt is super easy. You can use
+- [69:48] BCryptJS as well, but the whole point is
+- [69:51] just to hash it. I want to hash the
+- [69:53] password field with the 10 rounds. So
+- [69:56] feel free to use lesser number of
+- [69:58] rounds. And again not here to explain
+- [70:00] what are the rounds. It's how many times
+- [70:02] the algorithm will keep on hashing. And
+- [70:04] we'll call this one as hashed or hashed
+- [70:08] password whatever makes sense. Next up
+- [70:10] is we want to create a user. So let's
+- [70:12] bring the model and then simply use a
+- [70:15] create method on top of it. It requires
+- [70:18] the the objects that you need to pass
+- [70:20] on. object is not a right word
+- [70:22] properties that you want to add. So
+- [70:24] email and
+- [70:27] password is going to be
+- [70:29] hashed. I can write
+- [70:32] that and we need skills as well. So all
+- [70:35] of this is being passed on and just go
+- [70:38] ahead and await this because this is a
+- [70:40] database operation and call this a user
+- [70:42] call it a day. That is it. Now once this
+- [70:45] is all done next we want to fire the
+- [70:47] ingest event. Let's call this one as
+- [70:51] fire inest events. Now this depends on
+- [70:54] you. How do you want to fire that? Maybe
+- [70:57] you want to fire that and just keep on
+- [70:59] doing the stuff. Maybe you want to fire
+- [71:01] them into a separate stuff but want to
+- [71:03] wait it until things are all good. I
+- [71:06] would love to wait it again. It totally
+- [71:07] depends on your use case how you want to
+- [71:09] implement it. I will just go ahead and
+- [71:12] say hey inest I want to send. This is
+- [71:15] how you fire the event. not send signal
+- [71:18] send and you have to pass on an object
+- [71:21] in this first of all give it a name that
+- [71:23] what is the name the event that you want
+- [71:25] to fire up I want to fire fire up user/s
+- [71:28] signup why
+- [71:30] user/signup because if you go into the
+- [71:33] ingest where we wrote the function this
+- [71:35] is exactly the event we are looking up
+- [71:37] for event user/signup it would be better
+- [71:40] to copy and paste this one don't want to
+- [71:42] do any typos in here so there we go
+- [71:45] user/signup once this is done uh then
+- [71:47] you can pass on the data as much data as
+- [71:50] you want to pass on no big deal I want
+- [71:52] to just pass on this email here whatever
+- [71:54] the email I'm receiving so I hope you
+- [71:56] can see the complete flow that inest
+- [71:59] sends an event this is the name of the
+- [72:01] event and it sends the data along with
+- [72:03] it now once the data is being sent this
+- [72:06] is where you receive the data in the
+- [72:07] event so notice here a sync this event
+- [72:10] and step in the event you receive all
+- [72:12] the data we call it as data out of this
+- [72:14] we extract the name I Hope now it is
+- [72:16] making much more sense. Ah this is aha
+- [72:18] moment that oh now I got it what you
+- [72:20] were trying to do. And again this await
+- [72:23] totally depends on you whether you want
+- [72:24] to wait it here or not totally on you.
+- [72:27] Now in my flow I would love to just once
+- [72:29] all done I would love to login the user
+- [72:31] as well. So I'll just take the JWT and I
+- [72:34] will create a signin tokens. So just
+- [72:37] like this and I would pass on first an
+- [72:40] object which will have an underscore ID.
+- [72:43] Feel free to use anything. I'll say user
+- [72:46] dot ID which gets from the MongoDB. I
+- [72:50] will also add role. So user dot whatever
+- [72:53] the role is, I will pass you that as
+- [72:55] well. And then finally go ahead and say
+- [72:59] process
+- [73:06] envir
+- [73:09] secret. So JWT secret. So this is all
+- [73:13] done. Now let's store that into a
+- [73:15] variable. Call this one as
+- [73:19] token. There we go. Now you have JWT
+- [73:22] sign token. Let's return that as a
+- [73:25] response. So
+- [73:26] rest.json and we will return a user as
+- [73:30] well as well as token because we are
+- [73:33] just testing the application in the
+- [73:35] production world. I will not send the
+- [73:36] user just like this. Especially when we
+- [73:38] have password as well. There's no point
+- [73:40] of sending the password here. So again
+- [73:43] you can go ahead and uh simply add
+- [73:45] restriction that I don't need password.
+- [73:47] So you can just ignore that field. I
+- [73:49] have taught that many times. I don't
+- [73:51] want to do this again. Just mentioning
+- [73:53] it because yeah this exists. All right.
+- [73:55] So this is it. Now in the error part
+- [73:58] we'll just go ahead and say res dot
+- [74:00] status because something has happened
+- [74:02] which is wrong on the server side. So
+- [74:04] 500 dot JSON. We will copy paste this
+- [74:08] quite a lot.
+- [74:11] error signup
+- [74:14] failed as well as details or message
+- [74:19] however you want to call this one. So
+- [74:21] this will be error dot
+- [74:24] message. There we go. So all the details
+- [74:28] are being passed on. Let's save this.
+- [74:30] Looks pretty good. This is your signup.
+- [74:32] Since we are here with the signup, let's
+- [74:34] go ahead and copy this much at least and
+- [74:38] have another one which is
+- [74:42] login and there we go. So in the login
+- [74:46] you'll give me the email and password.
+- [74:48] So const email
+- [74:51] and
+- [74:53] password and this will come from
+- [74:55] request.body body and yes but before you
+- [74:58] say yes we could have designed a method
+- [74:59] in the model itself which gives us or
+- [75:02] compare the password and all these
+- [75:03] things usually I prefer that but in this
+- [75:05] case we haven't done that so let's do it
+- [75:09] here all right so first of all let's see
+- [75:12] that the email exist in the database or
+- [75:14] not so user dot find one didn't wrote it
+- [75:19] better find one I just need to find the
+- [75:22] one which is based on email if I got
+- [75:25] this user then I have to check the
+- [75:27] validation whether it is good or not if
+- [75:29] there is no
+- [75:31] user if there is no user then we're
+- [75:35] going to go ahead and simply
+- [75:37] return res dot status of 401 or 404 also
+- [75:43] because didn't found the user the JSON
+- [75:46] will be
+- [75:49] error user not
+- [75:52] found looks okay And if this is all the
+- [75:56] case, we got this one. Then let's match
+- [75:58] whether the passwords are matching or
+- [76:00] not. For this, we will use
+- [76:05] brypt. B crypt. How did I wrote the
+- [76:09] brypt? That's interesting. Uh yeah,
+- [76:13] sometimes I get
+- [76:15] that. All right. So this is the brypt
+- [76:18] that we have. And brypt have to
+- [76:21] compare. Yep. This is the compare. Not
+- [76:23] the compare sync. I would just want to
+- [76:25] compare. I will pass you the password. I
+- [76:28] will also give you the
+- [76:30] user. And you just have to tell me
+- [76:33] whether everything went good or not.
+- [76:36] Const
+- [76:37] is match. There we
+- [76:41] go. Okay. So if everything matches then
+- [76:45] only we'll proceed. But if it doesn't
+- [76:47] match that means invalid credentials. So
+- [76:50] if
+- [76:52] uh there is no is match that means it's
+- [76:58] true. So notice here is match is true.
+- [77:01] So we want to get into this. So true
+- [77:03] will get converted into this one. So we
+- [77:06] are just flipping this. If it is not
+- [77:08] true then only we want to work on that.
+- [77:11] In that case, we simply want to return
+- [77:13] res dot
+- [77:15] status is going to be 401 again with a
+- [77:20] JSON that says
+- [77:23] error
+- [77:27] invalid
+- [77:30] credentials. Good so far. Now all the
+- [77:34] basic validation is done. So let's go
+- [77:36] ahead and create the tokens. We can
+- [77:37] actually borrow this piece of code
+- [77:40] because this is exactly the same that we
+- [77:42] want to
+- [77:43] do. Come back here. Paste this. So we
+- [77:46] have created the token JWT ro everything
+- [77:49] good. Return the user just like that. In
+- [77:53] fact so much so that this part can also
+- [77:55] be
+- [77:56] copied and can be pasted just here. This
+- [78:00] time it will be login failed. The
+- [78:03] details will be error messages. Told you
+- [78:05] it is super simple. Nothing to be
+- [78:07] worried on. And let's go ahead and grab
+- [78:11] one more copy of this. Let's do the log
+- [78:17] out. Log out. Yep. Come back here. So,
+- [78:22] how do you want to log out? We simply
+- [78:24] want to uh there are a lot of ways how
+- [78:27] we can uh log out the user. We want to
+- [78:31] just simply revoke the token. There are
+- [78:33] a lot of ways. Let me show you one of
+- [78:35] such way.
+- [78:37] Now the way we have mechanized this here
+- [78:40] uh it's a different one again a lot of
+- [78:42] people might cry on the YouTube because
+- [78:44] of this hey you haven't shown us the
+- [78:46] proper log out you don't I know this we
+- [78:48] run our own SAS so don't worry on that
+- [78:51] part so logout actually is not like that
+- [78:54] uh logout is a very interesting
+- [78:56] phenomena and especially you need to
+- [78:58] know this that
+- [79:01] JWT is actually
+- [79:04] stateless so As long as somebody has the
+- [79:06] JWT token, he will always be logged in.
+- [79:09] You cannot log him out. Uh the only
+- [79:11] thing that comes up in between of this
+- [79:13] are cookies. So if you have sent the
+- [79:16] server side cookies, all you can do is
+- [79:19] when somebody logs out, you can just
+- [79:21] remove the cookie access. So this whole
+- [79:22] link uh through the cookies, we send the
+- [79:24] JWT token. So through this, you can
+- [79:26] actually go up here and remove this
+- [79:28] cookie part. That is the only thing we
+- [79:31] do. So I'll just go ahead and say so
+- [79:33] this is the part we go ahead and re
+- [79:35] revoke this. This is how the usual
+- [79:37] logout works. Now surely uh if you check
+- [79:39] out our free API which is available we
+- [79:42] have also mentioned that it can be done
+- [79:43] session based and whole other things in
+- [79:45] which you can revoke the session from
+- [79:46] database. A lot can be done. I'm not
+- [79:50] here to go and give you the lectures on
+- [79:52] logout. My main goal is to show you AI
+- [79:54] agents and all of that in this specific
+- [79:56] video but just want to point this thing
+- [79:59] because some people might say that hey
+- [80:01] you don't know how to even show the
+- [80:02] logout. So in this case remember JWT is
+- [80:06] technically stateless. So how we do that
+- [80:09] is first of all let's see at least
+- [80:11] verify whether the user who is trying to
+- [80:12] log out is actually registered or at
+- [80:14] least authenticated or not. So in this
+- [80:17] just grab the headers and we'll simply
+- [80:20] say
+- [80:22] authorization
+- [80:25] authorization and then we want to split
+- [80:27] it. Why we want to split it? That's a
+- [80:30] great question.
+- [80:32] So whenever a request will come it will
+- [80:35] have a header which is
+- [80:38] authorization and in this authorization
+- [80:40] the value will come up something like
+- [80:42] this that says beer space and then the
+- [80:45] token
+- [80:47] value and token values are long uh
+- [80:51] character sets like that. So we want to
+- [80:52] break this because we are just sending
+- [80:54] the token this beer and space is an
+- [80:56] extra. I want to remove this whole thing
+- [80:58] and want to grab just the token that is
+- [81:01] why. So we'll just split this based on
+- [81:04] the space. So as soon as the space goes
+- [81:06] and I want not the zeroth part, the
+- [81:09] first part. So this is this is again
+- [81:12] based on space this is the zeroth part
+- [81:15] and this is the first part. So I'm just
+- [81:17] grabbing this value. So if this value
+- [81:19] exists that means yeah token is there
+- [81:23] and again this is not the only way.
+- [81:24] Token can come up from variety of ways
+- [81:27] and at least we can verify that if there
+- [81:29] is uh no token we can simply
+- [81:34] return res
+- [81:37] uh dot status and we can simply say
+- [81:41] 401 that says JSON just like that and we
+- [81:44] simply can pass on
+- [81:47] error that says
+- [81:50] unauthorized unauthorized hopefully I
+- [81:53] wrote that correct all All right. So
+- [81:55] this is the interesting part. We have
+- [81:56] get the unauthorized. But apart from
+- [81:58] this, we can verify the token as well.
+- [82:01] It's not going to bother much, but let's
+- [82:03] just do that just for fun.
+- [82:05] JWT.verify. I can use this in which I
+- [82:07] can just give you the token. And I can
+- [82:10] give you
+- [82:11] process.v
+- [82:13] dot JWT secret. And based on that, you
+- [82:17] can give me either the error. Error.
+- [82:20] This is fine. Or decoded. I won't be
+- [82:22] doing much with the decoded in this
+- [82:24] because I have nothing to extract as
+- [82:26] information in the logout. If there is
+- [82:31] error then
+- [82:34] uh let's just write like
+- [82:36] this. Why is it going like this? So if
+- [82:38] this is decoded error looks good. It's
+- [82:42] not indenting. Well, it should
+- [82:46] be all right. So let's command Z a
+- [82:49] couple of time.
+- [82:51] All right. So let's go ahead and
+- [82:54] say again go back. All right. JWT
+- [82:58] secret. This is the call back error
+- [83:01] decoded. And if it is all decoded, we'll
+- [83:04] go like this. And we will say if we have
+- [83:08] error or just like error, we can just go
+- [83:12] ahead and say return res dot
+- [83:15] status which is
+- [83:18] 401. And I can say dot JSON which will
+- [83:21] be error again
+- [83:27] unauthorized unauthorized. Save this. Uh
+- [83:30] this is not saving well. Uh at least the
+- [83:32] formatter is not doing good. It should
+- [83:34] be like this or at least like this. I
+- [83:37] would prefer it. Anyways, you got the
+- [83:39] idea. Uh but if it is all good, then we
+- [83:41] can send the response directly. So if it
+- [83:44] is not unauthorized, I can just go ahead
+- [83:45] and say res dot JSON and I can say a
+- [83:55] message log
+- [83:57] out successfully. Technically we are not
+- [84:00] doing anything inside the database.
+- [84:02] Neither we have any mechanism to revoke
+- [84:05] this token. As long as whatever the time
+- [84:06] you have given that token will be valid
+- [84:08] for that time whoever that token will be
+- [84:10] all good. So you need to understand the
+- [84:12] JWT mechanism. This has nothing to fault
+- [84:15] with our own thing. This is how JWT
+- [84:17] works. This is mechanism. This was
+- [84:19] designed like that. Anyways, you got the
+- [84:21] idea of how the logout works. Now let's
+- [84:24] just say we want to update some of the
+- [84:25] user information as well as we want to
+- [84:27] get the user. So before getting the user
+- [84:30] I think instead of writing all this
+- [84:32] logic in multiple places especially this
+- [84:35] logic that hey I'll grab the token I'll
+- [84:38] try to get this information let's write
+- [84:40] a classic middleware so that life is
+- [84:44] easier and why this user is having an
+- [84:49] issue are we having some issues in the
+- [84:52] controller nope having some issues here
+- [84:56] probably
+- [84:58] Not. Oh, this is error is giving us the
+- [85:03] issue JSON error. Let me check this. I
+- [85:07] guess this needs to be an object. So, I
+- [85:09] need to just select this and get it like
+- [85:12] this. Should be all okay. Oh, now it's
+- [85:14] indenting. Well, my bad. I was having an
+- [85:17] issue. Good
+- [85:19] catch. All right. So as I was saying
+- [85:21] that instead of doing these things again
+- [85:23] and again let's go ahead and write a
+- [85:26] controller not controller a middleware
+- [85:28] that will make our life a little easier.
+- [85:30] Let's create a new
+- [85:32] folder
+- [85:34] middle. You can have more than one
+- [85:36] middlewarees or
+- [85:38] middleware. I'll have just one which is
+- [85:40] o.js and we can import that. Only thing
+- [85:44] that we need is JWT from JSON web token.
+- [85:48] We are going to export a
+- [85:52] method
+- [85:53] authent authenticate or is logged in
+- [85:57] whatever you like to call request
+- [85:59] response and the most important part is
+- [86:02] next. All right. So we'll just go ahead
+- [86:06] and call this one as token. How we grab
+- [86:08] the token? Exactly same. If token can
+- [86:10] come up from the cookies as well, go
+- [86:12] ahead and write that logic in the or
+- [86:14] part. We'll say request dot headers.
+- [86:18] Make sure it is headers not header
+- [86:21] authorization. Make sure you write this
+- [86:23] correct otherwise it will be issue.
+- [86:26] We'll optionally split this because it
+- [86:28] might not be there. So let's go ahead
+- [86:30] and split this based on the space. And
+- [86:33] from there we will grab the first part
+- [86:35] not the zerooth part and we are going to
+- [86:39] go ahead and write a simple logic. If
+- [86:41] there is no
+- [86:43] token then we are going to return a
+- [86:46] response with a status of
+- [86:50] 401 and we will say JSON which will like
+- [86:54] this
+- [86:55] error will be same access
+- [87:00] denied no
+- [87:02] token found that's
+- [87:06] okay if there is a token we'll try to
+- [87:09] decode it If we don't find it then the
+- [87:12] error part is good. Let's write the
+- [87:13] error part first. res dot status status
+- [87:17] which will be 401
+- [87:19] again dot JSON
+- [87:24] error
+- [87:26] invalid token. Easy part. Now let's try
+- [87:30] to decode.
+- [87:31] JWT decode. This is how you decode the
+- [87:34] token. But no, we need to verify that
+- [87:36] not decode. My bad. Uh JWT. Verify. Yes,
+- [87:40] that's the method. In this, you pass on
+- [87:42] the token as well as you pass on the
+- [87:44] secret. Process
+- [87:51] env JWT
+- [87:53] secret. Copy that and paste it up here.
+- [87:57] This will verify and will give you
+- [88:01] decoded information. Now you get a big
+- [88:04] object in which everything is available
+- [88:06] for us. Now if you remember we have this
+- [88:09] request object available to us which
+- [88:10] will be passed on to the next request.
+- [88:12] So we will add one more object to it and
+- [88:14] we'll store all of this information here
+- [88:17] all of the information and apart from
+- [88:20] this we'll also invoke the next so that
+- [88:22] it will allow us to pass on the things
+- [88:24] onto the next. Now in every single
+- [88:26] controller wherever we have this request
+- [88:28] if the request passed through this
+- [88:30] authenticated controller that means we
+- [88:32] have this request object and all the
+- [88:34] things are available to us just like in
+- [88:36] the request body. So we'll just come
+- [88:38] back here and we'll say export const.
+- [88:41] Let's just say we want to update the
+- [88:43] user. That's the controller we want to
+- [88:46] write. And we'll see a sync again
+- [88:49] request
+- [88:50] response. And the way we how use the
+- [88:53] controller is through the routing. I
+- [88:55] will show you that as well.
+- [88:58] We'll grab some information from request
+- [89:01] dot
+- [89:06] body and we will see the skills because
+- [89:10] that's the most updated thing update
+- [89:12] thing that we'll be doing and uh we can
+- [89:15] update the user's role and maybe the
+- [89:17] email as well. Maybe admin gets the
+- [89:19] power to update that and then we'll
+- [89:22] simply go with the try catch. We will
+- [89:25] see if the request dot user optionally
+- [89:30] have a role. We want to check for a
+- [89:32] certain role is not equals
+- [89:36] to admin. Then we'll not allow him to
+- [89:40] work on anything. Only admin can update.
+- [89:43] Maybe you want to add moderator as well.
+- [89:44] Just write an or operation that if
+- [89:46] request do user role is not equals to
+- [89:49] moderator. So any one of them is fine.
+- [89:52] Return res dot
+- [89:55] status and we'll go with 403JSON
+- [90:06] error
+- [90:08] forbidden. There we
+- [90:10] go. Okay, that's the path to one. And
+- [90:13] then we want to find a user based on the
+- [90:15] email. So we'll just go ahead and say
+- [90:17] user
+- [90:18] dotfind
+- [90:19] one based on email. This is a database
+- [90:23] operation. So await and hold that into a
+- [90:27] user variable or get user whatever you
+- [90:29] like to call this variable. If you don't
+- [90:32] find the
+- [90:33] user then you simply go ahead and simply
+- [90:36] say return res. I should design a
+- [90:40] autofiller for that
+- [90:42] res.status 401.json
+- [90:45] JSON just like this
+- [90:49] error which will
+- [90:52] be user not found couldn't find the user
+- [90:56] all right assuming that this is all done
+- [90:59] and we are able to find the user let's
+- [91:02] just say we want to await so await
+- [91:04] update the user user dot update
+- [91:08] one for this we have to pass on couple
+- [91:11] of information so the first one is the
+- [91:14] email. So let's go ahead and say how do
+- [91:18] we say it first? Let's enter here and
+- [91:20] then we want to say email. Based on this
+- [91:22] I want to find the user and the new
+- [91:24] information that we want to update is
+- [91:27] skills will be if the skills
+- [91:32] dot
+- [91:35] length then we are going to go ahead and
+- [91:37] say skills. Otherwise, we are going to
+- [91:40] go ahead and say user
+- [91:43] dot
+- [91:45] skills and the role will go as it is.
+- [91:49] All right. So, I hope you got this one
+- [91:51] uh part easy. It's a classic JavaScript
+- [91:53] 101. No big deal here. But again, there
+- [91:56] could be more. Uh I really want to
+- [91:57] update it with all the skills that they
+- [91:59] are mentioning. But again, you can
+- [92:00] extract the array, uh spread it out, all
+- [92:03] the fun stuff that you want to do. That
+- [92:05] is totally on you. I'll not do that that
+- [92:08] much. So, this is all good. You can add
+- [92:10] more things in the update. I know update
+- [92:11] is really complex. I'll just say
+- [92:14] res.json just like this. And we'll put
+- [92:17] up a
+- [92:19] message that
+- [92:21] says user
+- [92:25] updated
+- [92:26] successfully. More than enough for us.
+- [92:29] And for the rest of the part, we'll copy
+- [92:33] paste. Copy. And for the error part,
+- [92:36] we'll come back here, paste it. So rest
+- [92:38] of status and we'll say update
+- [92:41] failed. Looks good. All right. So this
+- [92:44] is update user. Last one but not the
+- [92:47] least is let's get the
+- [92:50] details. Copy this. Shrink this. And
+- [92:55] this one will
+- [92:57] be get
+- [93:02] user. Okay. How does the get user work?
+- [93:05] Directly by try catch. We'll simply say
+- [93:07] if the request dot user dot role is not
+- [93:15] equals
+- [93:17] to
+- [93:19] admin then we want to forbid this but
+- [93:22] this can be used for getting the user or
+- [93:24] search the user based on email and lot
+- [93:26] of other things. So we'll allow this
+- [93:28] functionality only for the admin. That
+- [93:30] is why we are writing this code. But if
+- [93:31] you just want to get the user, you can
+- [93:32] write a separate one for this one.
+- [93:34] Again, depends on you how you want to
+- [93:36] work with that. I don't want other
+- [93:37] people to find other users. Basic stuff.
+- [93:40] Okay. So, if this is not admin, then
+- [93:43] we'll simply go ahead and say return res
+- [93:46] dot
+- [93:48] status will be 403. I'll copy paste this
+- [93:52] time. dot
+- [93:54] JSON and we'll say error which is for
+- [94:00] P
+- [94:02] done. All right, this time I'll copy
+- [94:04] this whole part because I've been using
+- [94:06] this quite a lot. Okay, so this is all
+- [94:09] good. Now we want to find the user. So
+- [94:12] con user is going to be database
+- [94:14] operation. So await user
+- [94:19] dotfind. I want to find all of them. So
+- [94:21] this get user will get the all the
+- [94:24] users. In fact, it would be correct to
+- [94:25] call it as get users. I want to grab all
+- [94:27] the users which are on my platform. But
+- [94:30] I don't want to see their password. So
+- [94:31] I'll just say select and I will just go
+- [94:35] ahead and say remove password. You can
+- [94:38] do that in other places as well. And
+- [94:41] looks good. Now we want to simply say
+- [94:45] return
+- [94:46] and res do. JSON and we'll return all
+- [94:50] the
+- [94:51] users. We should call this as users
+- [94:53] because we are getting many users and in
+- [94:56] this part we'll copy paste. Why did I
+- [94:59] copied that part which I'm not
+- [95:01] using? Anyways, uh there we go. So all
+- [95:05] the controllers are here. We have
+- [95:07] written them. I hope you got the logics
+- [95:10] behind them. We have written everything
+- [95:11] manually and hope this was fun exercise
+- [95:14] for you as well. Now since we have
+- [95:16] written this much let's go ahead and
+- [95:18] write the routes as well controllers are
+- [95:21] done in just middleware a lot we have
+- [95:24] done let's go into a new
+- [95:27] folder routes we will create our routes
+- [95:30] separately not on the same index file
+- [95:33] this one will be all user route so user
+- [95:35] dot
+- [95:36] js first of all express from
+- [95:42] express and then we need to create A
+- [95:46] router will be created
+- [95:49] by express dot router just like this.
+- [95:54] And we need to export this
+- [95:57] router. Export
+- [96:01] default router. So this is a standalone.
+- [96:04] We will have one for the tickets as
+- [96:06] well. Let's go ahead and create that
+- [96:10] also. Ticket.js.
+- [96:14] And we'll just go ahead and copy this
+- [96:17] ticket.js paste this. We'll talk about
+- [96:20] this later surely in the next segment.
+- [96:24] All right. So we have this router. Now
+- [96:25] all we got to do is bring in the
+- [96:27] controllers and keep on updating with
+- [96:29] this. So this router first of all gets
+- [96:31] the route of
+- [96:34] post which will be sign
+- [96:38] up and as soon as somebody says sign up
+- [96:42] we need to get sign
+- [96:46] up should have autoimp imported it
+- [96:50] anyways if it doesn't I'll do it we will
+- [96:53] import multiple things from one
+- [96:56] directory back in the controllers
+- [96:59] user JS. Thank you so much, but I don't
+- [97:02] want you. And now let's try if we
+- [97:06] get sign up. There we go. So this is uh
+- [97:11] signup. We'll have similar one for login
+- [97:14] as
+- [97:17] well. This is the login and we'll have
+- [97:20] the logout as well. Let's keep it as
+- [97:22] post because we're not doing much in the
+- [97:25] logout.
+- [97:30] Okay. And now we need to get with the
+- [97:33] authentications as well. So these are my
+- [97:36] non-authenticated route. Let's go with
+- [97:39] the router. Let's say post because this
+- [97:42] is update
+- [97:44] user slashupdate dash
+- [97:48] user. For this we need to first bring in
+- [97:53] authenticate. No, it's not also
+- [97:55] suggesting
+- [98:00] import
+- [98:03] a will come on this from one directory
+- [98:07] back we are going into the middleares
+- [98:10] and we have just one
+- [98:11] ojs and do we get a suggestion here yep
+- [98:14] authenticate so this is exactly what we
+- [98:17] want copy this go up here and we want to
+- [98:21] authenticate and then we want to call
+- [98:23] update
+- [98:24] user And similar we have one more which
+- [98:27] is just a get
+- [98:30] router.get and we'll call this one as /
+- [98:33] users. I'll grab all the users only. You
+- [98:36] should be authenticated and then you are
+- [98:38] allowed to
+- [98:40] get users. Yep, that's the one. All
+- [98:44] right. So router is all done. Now only
+- [98:46] thing that's remaining is to bring this
+- [98:47] router into your home or in this case
+- [98:50] index.js so that we have it. Uh we'll
+- [98:53] bring it just before
+- [98:55] the MongoDB connection that will make
+- [98:57] sense. So we'll just say app dot use and
+- [99:01] in this we'll say that everything in the
+- [99:04] /
+- [99:06] API/ will be serving up here and we need
+- [99:09] to bring in
+- [99:11] user
+- [99:12] routes. We don't have this. We need to
+- [99:14] import this as a router. All right. So
+- [99:18] we'll just go ahead and say import user
+- [99:22] routes. These are named import. So I can
+- [99:23] name them whatever I like. From dot
+- [99:26] slash
+- [99:28] routes/
+- [99:30] user.js. This should be all it. So this
+- [99:32] is now complete full stack at least that
+- [99:35] we have built. Now next up we have to
+- [99:37] take down the ticketing system as well.
+- [99:39] So we'll be creating the tickets
+- [99:40] controller. Uh first of all we'll create
+- [99:42] some functions so that tickets can also
+- [99:44] be checked. So we'll use the AI for that
+- [99:46] part. Uh make sure you have environment
+- [99:48] variable as Gemini key and all these
+- [99:50] values are filled. I'll fill them later
+- [99:52] on otherwise you'll it will get exposed.
+- [99:54] I don't want to do that. So let's move
+- [99:56] on to the next video and talk about how
+- [99:58] we can inject the AI using inest
+- [100:01] functions. Let's catch up in the next
+- [100:04] section. All right, moving on. In this
+- [100:07] section, we're going to create our first
+- [100:09] AI agents. We're going to learn how we
+- [100:11] can create AI agents that can talk to
+- [100:13] any LLM. Uh the process is exactly same.
+- [100:16] The documentation shows us how we can
+- [100:18] talk to anthropic agent. We'll do it for
+- [100:20] the Gemini. The process is exactly same.
+- [100:23] And then I'll also walk you through how
+- [100:24] you can run those agents. Then the whole
+- [100:26] rest of the process that we create a
+- [100:28] controller and based on any trigger we
+- [100:30] can run whole of this pipeline that will
+- [100:32] remain exactly same. Now another
+- [100:34] interesting concept that comes up into
+- [100:36] this segment is prompting. Uh we have
+- [100:38] discussed quite a lot in our boot camp
+- [100:40] uh of genai. Prompting is an really
+- [100:43] interesting art. uh you will learn tiny
+- [100:45] bit about it in this section as well
+- [100:47] because it is required otherwise we will
+- [100:48] not get required and what we really need
+- [100:51] as an output from the LM we won't be
+- [100:53] getting it but don't worry I'll walk you
+- [100:55] through enough of that uh so that we
+- [100:57] both can actually learn about it so
+- [100:59] first of all uh this is again the agent
+- [101:01] kit by ingest we'll be using this that's
+- [101:03] exactly why we have actually installed
+- [101:05] it and they actually mentioned don't
+- [101:07] have the existing project you can work
+- [101:09] with that we have an existing project so
+- [101:11] the whole process majorly is is where we
+- [101:14] simply says create agent that comes from
+- [101:16] the agent kit and you name the agent
+- [101:19] whatever your agent name is description
+- [101:21] and you provide a system prompt. This is
+- [101:24] the bread and butter of most of the LLMs
+- [101:26] and then you provide what model you want
+- [101:28] to use uh default parameters. We will
+- [101:31] get uh Gemini instead of entropic
+- [101:34] because this agent actually can talk to
+- [101:36] any one of them which you require. Uh so
+- [101:38] for this let's go here and we'll close
+- [101:41] this. Uh just like previously we created
+- [101:43] a utility in which the mailer was there.
+- [101:45] This time we'll create a utility for
+- [101:47] talking to or taking our tickets to the
+- [101:49] AI agent. We'll call this one as AI.js.
+- [101:52] Feel free to give it a better name than
+- [101:54] what I have given here. So we'll just go
+- [101:56] ahead and import two things from uh
+- [102:00] ingest. So ingest agent kit. And as you
+- [102:03] put up the first that we need is create
+- [102:05] agent. But you'll see that we have so
+- [102:08] many of them. Hopefully it suggests us
+- [102:10] better. Uh not doing a good job as of
+- [102:14] now but here it is. So it should be at
+- [102:17] the very top but it's not. So we have
+- [102:19] agent agent result agentic model and all
+- [102:21] of them. Clearly anthropic is here. We
+- [102:24] have Gemini, we have Grock, we have open
+- [102:26] AAI. So all the major popular ones are
+- [102:29] there. Uh the approach is pretty simple.
+- [102:31] Let's go and work with them. So step one
+- [102:34] is to create an agent. We're going to
+- [102:36] follow the exact same thing that they
+- [102:38] have mentioned. So const dB agent create
+- [102:40] agent we will use this. Uh so we'll call
+- [102:42] this one as
+- [102:49] constit and this will be a
+- [102:53] sync we will receive a ticket as a input
+- [102:57] whoever is using this method. So we'll
+- [102:59] work on that whatever what kind of data
+- [103:02] we receive in this one. Not much just
+- [103:03] basics the ticket ID whoever has created
+- [103:05] the ticket some information like that.
+- [103:08] So inside this method we are going to
+- [103:10] create a support
+- [103:13] agent. Now this is where we are
+- [103:15] following. This is the method that we
+- [103:16] have created. This support agent is what
+- [103:18] we are creating from here. All right. So
+- [103:22] the way how it works is simply say
+- [103:24] create agent. Provide the objects that
+- [103:27] you want to provide. So for example in
+- [103:28] this we want to provide a model. The
+- [103:31] model that we are using is Gemini. And
+- [103:33] inside the Gemini, you have to pass on
+- [103:35] the objects like what is the model that
+- [103:38] you want to use? I wish it gives me the
+- [103:40] suggestion. That would be easy. Yes,
+- [103:42] thank goodness. So, we want to use
+- [103:44] Gemini U 1.5. Feel free to use any
+- [103:48] model. We'll go with the Flash 8B, which
+- [103:51] is comparatively faster, not that
+- [103:54] accurate, but we don't need too much
+- [103:56] high accuracy if we are not doing any
+- [103:57] research work here. Uh we also need to
+- [104:00] provide the API key which can come from
+- [104:03] process.env dot don't do this. process
+- [104:15] envi API key copy that and paste it up
+- [104:19] here. So we got the Gemini API API key.
+- [104:21] Now rest is uh how you actually uh name
+- [104:25] it, description it and system it. We
+- [104:27] won't be using description. And that's
+- [104:28] okay for us. But we'll provide a name so
+- [104:31] that it shows up. This will be our AI
+- [104:36] ticket
+- [104:38] triage
+- [104:40] assistant assistant. And here comes the
+- [104:43] most important part which I'll copy
+- [104:45] paste whatever the prompts we are using
+- [104:47] system and we'll just keep it as in the
+- [104:49] back text as of now. I'll replace this
+- [104:51] in a minute. But as you can see this
+- [104:53] thing the system prompt is the most
+- [104:56] interesting prompt. You have to have to
+- [104:58] write really in-depth prompt. Sometimes
+- [105:01] these prompts can go for 200 words, 300
+- [105:03] words or probably even more. So this is
+- [105:05] how you create the support agent. Now
+- [105:07] the next thing is we have to run this
+- [105:09] support agent. All we got to do is take
+- [105:11] this support agent support agent and
+- [105:15] simply say run. While running also we
+- [105:17] have to provide some of these prompts
+- [105:21] because system prompt is already there.
+- [105:23] But when the time we are making a query,
+- [105:25] we have to provide the data and have to
+- [105:27] write a prompt. I'll show you that
+- [105:28] prompt as well in a minute. But this is
+- [105:30] all you do. Now again, this needs to
+- [105:32] await because we will get we will get
+- [105:34] some response and we'll get some
+- [105:36] response like that. So we'll store that
+- [105:38] into a variable and this is it. This is
+- [105:41] all it takes to actually run this. I
+- [105:44] will first fill up these system prompts
+- [105:46] as well as this agent prompt so that we
+- [105:48] can discuss more about let me do go
+- [105:49] ahead and do that. All right. So I have
+- [105:52] given you the prompts. Let me also
+- [105:54] explain you about what happens in this
+- [105:56] prompt. So yeah, it's it's a really long
+- [105:58] one. So first of all, we are preparing
+- [106:00] the system. Any kind of LLM that you
+- [106:02] use, uh, every single LM is a generic
+- [106:05] LLM. No matter what they call it as
+- [106:08] prepared for coding or prepared for
+- [106:10] research, almost every LLM is a generic
+- [106:12] LLM. The way how you make it a specific
+- [106:15] agent or specialized in something by
+- [106:18] giving you the system prompt. This is in
+- [106:22] preparation that what you are you will
+- [106:24] see system prompts like uh something
+- [106:26] like this. So if I just go ahead and
+- [106:28] work with that you might have seen that
+- [106:31] you are a
+- [106:33] uh
+- [106:35] helpful
+- [106:38] assistant in uh coding or in maths
+- [106:42] whatever that is. So these kinds of
+- [106:44] things are actually the system prompts.
+- [106:47] So these are by default there. What's
+- [106:50] interesting is whenever there is a
+- [106:52] question there are two things which is
+- [106:54] the user ask. So this will be my user
+- [106:58] question. So there we go. So this is
+- [107:01] whole of my user question and whatever
+- [107:03] the prompts being replied to you. So
+- [107:06] this is known as agent or whatever the
+- [107:09] lm is saying. So this is a response that
+- [107:11] you get. So agent will give you a
+- [107:13] response. So I hope this is much clear
+- [107:16] now that system prompt is already there.
+- [107:19] This is just getting setting up the
+- [107:20] environment. It's setting up the room.
+- [107:23] Then the user ask a question and then
+- [107:25] agent gives the response back. This is
+- [107:27] how usually LLM works. So we are setting
+- [107:30] up the room with the analyze ticket
+- [107:31] here. So we simply says that hey uh you
+- [107:34] are an expert AI that process the
+- [107:36] technical support tickets. Your job is
+- [107:38] to summarize the issue, estimate its
+- [107:40] priority, provide helpful notes and
+- [107:42] resource link for human moderators, list
+- [107:45] relevant functions and skills. But not
+- [107:47] only that you have to provide more of
+- [107:48] the prompting. If you have studied the
+- [107:50] prompting, zeros short prompting or
+- [107:52] chain of thoughts whatever we need this
+- [107:55] uh respond with only valid JSON do not
+- [107:58] include markdown code fences comments or
+- [108:01] anything. The format must be raw JSON
+- [108:03] object. But there is a problem. Even
+- [108:06] though you have asked it to only give
+- [108:08] you raw JSON, every single time you will
+- [108:10] notice that anytime you ask it for the
+- [108:12] code, it gives you like this. It's very
+- [108:15] difficult to write it in this panel.
+- [108:17] I'll write it here itself. That will be
+- [108:19] easier. So you'll see that they actually
+- [108:22] gives you the response in this format.
+- [108:24] Then they say JSON and then they close
+- [108:26] it and they try to write all documents
+- [108:29] or whatever the code they need to write.
+- [108:30] They actually go ahead and write it up
+- [108:32] here. So this still is a problem. We
+- [108:35] will solve that. But we have mentioned
+- [108:37] here that hey uh respond with only valid
+- [108:41] JSON data. Do not include any markdown.
+- [108:43] But they still will do. Uh the format
+- [108:45] must be raw JSON object. Repeat do not
+- [108:48] wrap your output in markdown or code
+- [108:50] fences. This is the system prompt. Now
+- [108:53] at the time when the agent runs, we
+- [108:55] again provide this that you are a ticket
+- [108:57] triage agent. Only return the strict
+- [108:59] JSON object with no extra text and
+- [109:01] header and markdown. And we are saying
+- [109:03] that hey return me the summary. Return
+- [109:05] me the priority helpful nodes and the
+- [109:09] relatable skills. an array of relevant
+- [109:11] skills required to solve the issue.
+- [109:13] Notice here I have given a helpful
+- [109:15] example. So this is what I'm expecting
+- [109:16] that the AI will return. Is it a
+- [109:18] guaranteed thing? Probably not yet
+- [109:21] still. Uh but we expect that 99% of the
+- [109:24] time it will work. So we'll get an
+- [109:27] object again wrapped up in the JSON and
+- [109:29] then we have to say summary, priority,
+- [109:31] helpful notes and related skills. We're
+- [109:34] expecting we'll get our data like this.
+- [109:35] But still we have to validate this and
+- [109:37] we are providing the ticket information.
+- [109:39] The title of the ticket is this and
+- [109:41] description is this. So this is what we
+- [109:43] are receiving in this ticket. All right.
+- [109:47] Hope that is all good. Now comes up the
+- [109:50] interesting part and the most important
+- [109:51] part that how you will receive that
+- [109:53] data. The data receiving is pretty easy.
+- [109:56] You get the response and in that you get
+- [109:58] a lot of output. The first one we'll get
+- [110:00] with this. So usually there are ratings
+- [110:03] or there are like uh what do you call
+- [110:07] them the support that hey this is my
+- [110:10] first choice this is my second choice
+- [110:11] all of them comes up. So we'll just pick
+- [110:13] up the first one and we'll pick up the
+- [110:14] content. By the way you can just dump
+- [110:16] the response all up here that is also a
+- [110:19] good idea in case you are working with
+- [110:20] the first
+- [110:21] time with this first time. All right and
+- [110:24] then we try run up a try catch. Now
+- [110:27] comes some interesting part. So this is
+- [110:29] where it took us a little bit time. So
+- [110:31] we went on to reaxr and I'll just go
+- [110:33] ahead and change this
+- [110:37] into I'll cut this out. So this is the
+- [110:40] kind of a data we'll get and by the way
+- [110:42] reaxr is one of my still favorite
+- [110:44] website. So we saw that the data that
+- [110:46] we'll get is going to be wrapped up in
+- [110:48] the JSON most of the time and we get
+- [110:50] this object and then this JSON end here.
+- [110:54] So I wrote a simple u reax expression
+- [110:57] just like this. And by the way uh AI
+- [111:00] helped me to write this reax expression.
+- [111:01] I gave it literally this and I want to
+- [111:03] select that. Then I verified it with the
+- [111:05] reax r. So JSON and then all of this
+- [111:07] data. So this is where this whole uh
+- [111:09] reax is coming up. So that I can match
+- [111:11] the whole of the data and can verify
+- [111:13] that okay I'm getting all of this. So
+- [111:16] for all the response what I did is in
+- [111:18] the raw I went up and simply say hey I
+- [111:21] want to match this and then I can put up
+- [111:25] these slashes just like this. And inside
+- [111:27] the slashes, I wrote the same uh script.
+- [111:29] And then I also made it I. By the way,
+- [111:31] in case you don't know this, uh on the
+- [111:34] reaxrar website, they give you all the
+- [111:35] flags for JavaScript. So G for global, I
+- [111:37] for case and sensitivity, uh multi-
+- [111:40] lines if you want to have it, global if
+- [111:42] you want to have G. So all of the values
+- [111:43] are here. Uh definitely this is not a
+- [111:46] reax tutorial, but still you got enough
+- [111:48] of idea and we are going to store that
+- [111:51] into a match. So if we get something
+- [111:54] matching of that, that's great.
+- [111:56] Otherwise we'll just use as it is.
+- [111:58] Probably they haven't given me the data
+- [112:00] in the uh back tick back JSON ending
+- [112:03] with that probably it has done a better
+- [112:05] job and has given me all the data in
+- [112:07] this format only. So we have to take
+- [112:09] care for both of the things. We'll call
+- [112:12] this one as JSON
+- [112:14] string and we'll say hey uh we'll take
+- [112:17] the match and we'll use a conditional
+- [112:20] here. So we'll just take the match just
+- [112:22] like this. If the match has happened uh
+- [112:25] we'll take the first value of it not the
+- [112:26] zeroth. Again you have to read the reax.
+- [112:29] This is classic JavaScript. Otherwise
+- [112:31] we'll just trim this so that all extra
+- [112:33] spaces and everything has gone. And
+- [112:34] we'll just store like that. And once
+- [112:37] this is all done we are going to go
+- [112:39] ahead and
+- [112:40] return JSON dot parse and we'll say JSON
+- [112:45] string. Hopefully now everything is
+- [112:47] converted into JSON. For the error we
+- [112:50] are going to just shrink it down to E
+- [112:53] because we have written already so much
+- [112:55] we have say we will say console.log log.
+- [112:57] You can use error as well which will be
+- [113:01] failed to
+- [113:03] parse JSON from AI
+- [113:08] response and we will go ahead and we can
+- [113:11] use a comma or you can use plus with the
+- [113:14] e
+- [113:15] dot
+- [113:17] message and we will return null from
+- [113:20] here. This is really troublesome. Oh,
+- [113:24] you need to really watch out for this.
+- [113:28] Okay. So this portion here, this is just
+- [113:31] handling the AI response. This is not
+- [113:33] really talking to the AI. Talking to the
+- [113:35] AI is all done here. So whatever you
+- [113:37] want to send, whatever the system we
+- [113:39] want to create, this is all done. Notice
+- [113:41] here how small this is. We are just
+- [113:43] doing couple of lines of creating the
+- [113:45] agent and couple of line to run the
+- [113:47] agent. That is it. And people worry so
+- [113:50] much about it. And that's all what we
+- [113:52] have. Now let's go ahead and export this
+- [113:54] analyze ticket so that people can use it
+- [113:56] outside of this file as well. Export DD
+- [114:01] default analyze ticket. There we go. All
+- [114:05] right. So this is uh part one of how we
+- [114:08] have done this. Now we need to create a
+- [114:10] function so that we can actually go
+- [114:12] ahead and call this just like previously
+- [114:14] we created. So notice here on signup js
+- [114:16] exactly
+- [114:17] same we'll call this one as on ticket
+- [114:20] create. We'll use this one on creation
+- [114:22] of
+- [114:24] ticket on ticket
+- [114:28] create.js. So some of the thing will
+- [114:30] remain exactly
+- [114:32] same and uh probably we'll send an email
+- [114:35] to moderator once we have assigned it.
+- [114:37] I'll walk you through with that part.
+- [114:40] Let's go ahead and let's grab all of
+- [114:42] this. We'll see how much is required,
+- [114:45] how much is not required and all of
+- [114:46] these details as we go further. So first
+- [114:49] of all let's create a function on
+- [114:54] ticket
+- [114:55] created and for this we'll use the
+- [114:58] ingest same create
+- [115:01] function. This is an object. It requires
+- [115:04] couple of parameters which we can bring
+- [115:05] up from on signup. These two nobody
+- [115:09] remembers them at least not me. So this
+- [115:12] time instead of on user signup we will
+- [115:15] say
+- [115:17] on
+- [115:19] ticket created retries 2 is good enough
+- [115:23] and this one is going to be ticket slash
+- [115:28] created. Rest of the stuff remains same.
+- [115:31] We will have an
+- [115:32] async
+- [115:34] method which goes like this. Here we are
+- [115:38] going to receive event. We will have the
+- [115:40] data as well and we want to run multiple
+- [115:42] steps. I hope you see that there is a
+- [115:44] pattern. Once you see this how it
+- [115:46] happens, everything remains super easy.
+- [115:49] So from the event itself, we will
+- [115:51] receive the ticket id that is created in
+- [115:53] our database. So we'll say this is
+- [115:57] ticket ID. We will receive this from
+- [116:00] event.data. Feel free to send as much
+- [116:02] data as you want. Let's first go ahead
+- [116:05] and uh
+- [116:07] fetch the ticket or fetch ticket from
+- [116:13] DB. Okay, how do I fetch uh the ticket
+- [116:17] from the DB? I need to grab the ticket.
+- [116:19] So instead of the user, this is not
+- [116:22] good.
+- [116:24] Import ticket from one directory back.
+- [116:28] One directory back inside the models we
+- [116:31] will have ticket.js.
+- [116:34] JS. Okay. So let's query the ticket that
+- [116:38] hey I want to find a
+- [116:41] ticket. So find by ID. We do have a
+- [116:44] direct access to ID. So we can just we
+- [116:46] don't need even curly braces. We can
+- [116:48] directly give a ticket ID. This is a
+- [116:50] database operation. So await for this
+- [116:52] and call this one as ticket. There we
+- [116:56] go. Super fun. And if we don't have
+- [116:59] ticket uh we have to write that again.
+- [117:02] If we don't have
+- [117:05] ticket then let's
+- [117:09] throw a new non retriable
+- [117:16] error ticket not
+- [117:20] found. Okay. And what we want to do here
+- [117:24] is if all good then we return the ticket
+- [117:27] object.
+- [117:30] And
+- [117:31] uh let's
+- [117:32] say we actually did it really bad. Uh we
+- [117:36] we will do that but let's not return it
+- [117:38] right now. But actually we just in the
+- [117:41] flow we wrote the code but we didn't
+- [117:42] realize we are not following the syntax.
+- [117:44] Uh because this should be the step one
+- [117:46] in case we see this again on sign up. Uh
+- [117:49] this should be like this const user
+- [117:51] await step run then name it and then in
+- [117:53] the async we should actually use this.
+- [117:55] So we did a bad job again. Let's fix
+- [117:58] this. Let's cut this out and we
+- [118:00] definitely can reuse this. So cut this
+- [118:01] out and follow the same syntax again. So
+- [118:04] on sign up. Okay. So this is await step
+- [118:06] run name it. Okay. So await
+- [118:12] await and uh then we have
+- [118:16] step step. Come
+- [118:19] on. Yep. This is the step dot run. We
+- [118:23] have to call it as
+- [118:27] fetch ticket. Then next is a
+- [118:33] async and this will be a call
+- [118:36] back just like this. And here we can
+- [118:40] actually call this one. So instead of
+- [118:41] calling it as ticket, let's call this as
+- [118:43] ticket object and call whole whole of
+- [118:47] this as
+- [118:50] ticket. Just like this. So this will be
+- [118:53] my ticket and what we will do once all
+- [118:55] of this is done here we can just say
+- [118:58] return ticket
+- [119:01] object. So we are throwing this ticket
+- [119:03] object back. So whoever runs this gets a
+- [119:05] ticket and this ticket now has whole of
+- [119:07] the data. Now if this is all good, this
+- [119:10] has run. Now we need to run another
+- [119:14] uh step in which we have to update the
+- [119:17] value. Okay. So how we are going to
+- [119:20] update this? This is interesting. Await
+- [119:22] step run. Let's do this again. It's very
+- [119:25] zoomed in. We will say
+- [119:28] await step dot run. And this time we
+- [119:32] want to run is
+- [119:34] update
+- [119:36] ticket
+- [119:39] status a sync call
+- [119:43] back just like this. All right. So
+- [119:47] here we have more update operations that
+- [119:50] we have to go ahead and do and the
+- [119:53] transactions are not required in this
+- [119:55] case because we are updating only the
+- [119:58] optional
+- [119:59] fields. So what we can do first of all
+- [120:02] we can grab the response as well but
+- [120:05] let's just say we simply say
+- [120:08] await
+- [120:09] ticket dot find by ID and
+- [120:14] update. What we are doing
+- [120:17] is simply get this
+- [120:20] ticket which we have got from above dot
+- [120:23] underscore id. So this is the one and we
+- [120:27] will change the status to
+- [120:31] to-do
+- [120:33] status and the status of the ticket
+- [120:36] we'll change it as to to-do or all
+- [120:39] uppercase. Okay. Uh this is all good and
+- [120:43] it looks okay. Now once we have changed
+- [120:46] the status to to-do this is optional.
+- [120:49] We're just increasing the steps so that
+- [120:51] we can at at least see how multiple
+- [120:53] steps looks run uh when multiple steps
+- [120:55] run how does it looks like. And now it's
+- [120:58] time to utilize the
+- [121:00] AI and we need to call this method
+- [121:02] analyze ticket. So let's go ahead and
+- [121:05] directly call this
+- [121:06] one analyze ticket and in this we'll
+- [121:10] pass on all of the ticket information.
+- [121:13] We will await because the agent will run
+- [121:15] and will take some time and we'll call
+- [121:19] this one as AI response just like this.
+- [121:24] Once we received the AI response now
+- [121:26] it's time to run another step function
+- [121:29] and this time we will do AI processing.
+- [121:31] I hope you can see what I'm doing here.
+- [121:33] await
+- [121:35] step.run. I'm making you more
+- [121:37] comfortable so that you can also build
+- [121:39] your AI agents no matter how many steps
+- [121:41] it takes. AI dash
+- [121:45] processing same as
+- [121:50] sync as sync call
+- [121:53] back. There we go. And here what we want
+- [121:56] to do is now get this data from the AI
+- [121:58] response. We are expecting that we have
+- [122:00] AI response and uh we're getting some
+- [122:03] data out of it. So the first thing that
+- [122:05] I'll do is I'll create this skills as an
+- [122:09] empty array and I'll see in a in a
+- [122:11] minute why we want to do this. Just give
+- [122:13] me a second. First let's check whether
+- [122:16] we have AI response or not. If we have
+- [122:19] AI response then only we want to work
+- [122:21] because remember we are throwing null
+- [122:23] here as well. So checking is super
+- [122:25] important. I will just go ahead and say
+- [122:28] await ticket and go ahead and again find
+- [122:32] by ID and
+- [122:33] update based on ticket dot ID and the
+- [122:40] values that you want to update now are
+- [122:42] going to be first of
+- [122:44] all priority. Now how do we want to work
+- [122:47] with the priority? Now there is a chance
+- [122:50] that the priority that AI is giving me
+- [122:52] back might have low, medium or high. But
+- [122:55] there are chances that it might
+- [122:57] hallucinate. It might give us bad
+- [122:58] result. So we want to check that and
+- [123:01] based on that we want to assign. So
+- [123:02] first of all let's just say this is an
+- [123:04] array. We'll just define the array right
+- [123:06] here. We can do better job but as of now
+- [123:09] it's okay. Medium or there could be
+- [123:15] high. So if uh all of
+- [123:19] this is
+- [123:21] not in dot includes which is simply an
+- [123:24] array methods and where we want to check
+- [123:27] whether it's includes in the AI
+- [123:30] response dot priority although we have
+- [123:34] asked it that it should be there but it
+- [123:35] might not be there. So this is our
+- [123:37] checking do
+- [123:39] something otherwise do something if it
+- [123:41] is there we are going to go ahead and if
+- [123:44] it is not there remember we have put up
+- [123:46] this exclamation if it is not there then
+- [123:48] we will assign it medium if it is there
+- [123:53] then we'll just take your response AI
+- [123:57] response dot whatever the priority you
+- [123:59] are giving me. I hope this is easy. uh
+- [124:01] we are checking if uh the AI response
+- [124:04] that we are getting the priority
+- [124:06] especially the field doesn't have any of
+- [124:08] these three field then we include the
+- [124:10] medium as a priority otherwise we use
+- [124:12] the priority given by the AI so this is
+- [124:14] how you precautionary precautionarily
+- [124:18] add all of this data all right uh once
+- [124:21] this is done rest of the part is super
+- [124:23] easy so we'll have the helpful notes
+- [124:25] just not not like that helpful notes uh
+- [124:29] will be coming up from AI I response dot
+- [124:33] helpful notes. Hopefully they are
+- [124:36] there. Here typescript would be super
+- [124:38] helpful. Status would be
+- [124:42] in progress. We are not asking AI to
+- [124:45] give us status. So we'll hardcode this
+- [124:47] and we'll give related skills. This is
+- [124:50] again interesting part. We will take AI
+- [124:52] response and we will say give us related
+- [124:55] skills and hopefully it is giving us in
+- [124:57] the array
+- [124:58] format. Okay. Uh another thing that we
+- [125:01] want to do once we are done with this we
+- [125:03] still have this in the if statement we
+- [125:05] are still in there we are doing this so
+- [125:09] await this part once this all whole
+- [125:11] thing is done this await part remember
+- [125:13] we still have this AI response available
+- [125:15] in this block I want to fill this array
+- [125:18] with the same thing so this skills array
+- [125:22] will be filled up with AI response
+- [125:25] dot related skills you might be
+- [125:28] wondering why you would want to do that.
+- [125:30] Uh the reason for doing this is so that
+- [125:32] I can come back here and I can
+- [125:35] return return uh this skills not like
+- [125:40] that skills. So as soon as my this step
+- [125:43] function runs I do have this uh skills
+- [125:47] returned but as of now I'm not capturing
+- [125:49] that into any variable. Let's do that.
+- [125:52] So I'll call this one as uh const
+- [125:55] related
+- [125:58] skills equals. The reason why I didn't
+- [126:01] declare the variable name first because
+- [126:02] you need to know that what I'm throwing
+- [126:04] back from here and what we are receiving
+- [126:06] here. This has nothing to do with AI
+- [126:08] processing. We are just it's the flow of
+- [126:10] the code. Now the reason for doing this
+- [126:12] is I want to run another pipeline. Yeah,
+- [126:15] we are going with that. I want to assign
+- [126:18] my moderator as I showed you that the
+- [126:20] moderator if you look at the models that
+- [126:24] each of the user have some of the
+- [126:26] skills and if that sum of the skills
+- [126:29] matches I want to assign him a ticket.
+- [126:33] So that's also interesting part. Let's
+- [126:36] come back here and run another one. And
+- [126:39] we'll call this as
+- [126:41] moderator. Again, this will just be
+- [126:43] nothing.
+- [126:46] Await await.
+- [126:48] Yep. Step dot run. And what do we want
+- [126:52] to run? We want to simply say that
+- [126:55] assign
+- [126:58] modator. And here we are going to go
+- [127:01] ahead and
+- [127:03] say a
+- [127:05] sync call back just like that. Okay. So
+- [127:09] how we are going to assign the moderator
+- [127:11] this is where we have to add a little
+- [127:13] bit of MongoDB pipeline. By the way the
+- [127:15] videos are available in my Udemy course
+- [127:17] pretty rock solid section on MongoDB
+- [127:20] aggregation pipeline. Anyways I will
+- [127:22] just go ahead and come up here and I
+- [127:24] will say let user is going to be equal
+- [127:26] to await user. We didn't brought it. We
+- [127:30] should actually get
+- [127:32] it. Oh, we were having this. We deleted
+- [127:36] it on
+- [127:38] signup. I'll grab the user from here.
+- [127:41] Copy
+- [127:42] this and we'll grab the user. Didn't
+- [127:45] expect it that we'll be needing user as
+- [127:47] well. All right. So, here is a user.
+- [127:50] I'll just say dot find one. We need to
+- [127:53] only find one.
+- [127:56] uh the
+- [127:57] role
+- [127:59] role should be
+- [128:02] moderator. What if we don't find any
+- [128:05] moderator just like in my case uh there
+- [128:07] was just admin. So in that case we'll
+- [128:08] assign if we didn't find any user we'll
+- [128:10] just assign the ticket to the admin
+- [128:12] itself. So based on this so the first
+- [128:15] parameter that we have gone is role
+- [128:16] moderator. Now we need to match the
+- [128:18] skills. This is again a little bit of
+- [128:21] advanced part not too much but little
+- [128:23] bit. We'll use a mechanism which is uh
+- [128:28] suggestion no suggestion element
+- [128:32] match. So in the element match I can use
+- [128:34] the regular expression reax. In the
+- [128:37] world of AI the reax is used quite a
+- [128:39] lot. I thought we got rid of it but nope
+- [128:42] we still actually use it. So we'll just
+- [128:44] go ahead and call this related skills
+- [128:46] dot
+- [128:49] join. And we are going to join them
+- [128:52] based on the
+- [128:54] pipe. And we'll also go ahead and
+- [128:57] provide the options. Remember the
+- [129:00] options we just discussed about global
+- [129:03] case insensitive all of this. So this
+- [129:06] looks
+- [129:07] okay. Not yet super happy with this.
+- [129:10] Probably the color coding can be better.
+- [129:12] But anyways, you got the idea that we
+- [129:14] simply go ahead and provide a role
+- [129:16] moderator. I want to find a user based
+- [129:18] on that. and whoever skills match nearby
+- [129:20] to that. So we are not using any AI or
+- [129:22] any fancy thing classic reax. We're
+- [129:24] matching this. So let's just save
+- [129:27] this looks good now. So this is where we
+- [129:30] actually find the user. If we don't find
+- [129:33] a user, what in that case? That could be
+- [129:35] a case you are correct there. In that
+- [129:38] case, what I want to do is I want to
+- [129:40] update this user with
+- [129:44] await user dot find
+- [129:48] one and I want to find any first one
+- [129:53] whose role is
+- [129:56] admin. So there we go. I have assigned I
+- [129:59] got the user myself. Now all I have to
+- [130:01] do is assign this ticket to this user.
+- [130:04] So in no case uh either this one will
+- [130:06] give me a user or at last at least there
+- [130:08] is one uh user in the application which
+- [130:10] is admin. So we will get that and after
+- [130:13] that we will simply go ahead and say
+- [130:15] await. Let's give this
+- [130:17] ticket find by id and update. I have the
+- [130:22] still access to this id. So I'll just go
+- [130:24] ahead and say ticket dot id and the
+- [130:28] parameter that I want to update is
+- [130:30] assigned to and we will assign it to the
+- [130:34] user but again optionally be very
+- [130:36] cautious here as well dot ID. So we have
+- [130:40] assigned that or we can optionally put a
+- [130:42] null. Uh we probably will not get null
+- [130:44] but anyways and once this is all done
+- [130:47] then we simply go up here and simply say
+- [130:50] return the user. So hopefully this user
+- [130:53] when we return this actually gets
+- [130:56] catched this whole user we are returning
+- [130:58] and we'll able to catch that in the
+- [131:01] moderator and uh just to have a little
+- [131:04] bit more fun I hope you are having it
+- [131:07] also uh once we are here we can actually
+- [131:10] run another pipeline this one is totally
+- [131:12] optional this is like onthe-go thinking
+- [131:14] I can just go ahead and say
+- [131:16] await steprun and I can send an email to
+- [131:20] this guy because we have that
+- [131:21] functionality that you already cooked
+- [131:22] up. So we'll say
+- [131:25] send
+- [131:27] email
+- [131:30] notification. Same stuff
+- [131:34] uh sync call
+- [131:37] back. There we go. Uh in this we will
+- [131:40] say if we have mod durator. Make sure
+- [131:43] you only run if you have moderator
+- [131:44] otherwise we don't want to run this. And
+- [131:46] we are going to go ahead and say await.
+- [131:50] We still have the access to ticket.
+- [131:51] Remember the ticket is available to us.
+- [131:53] And we want to find the ticket uh based
+- [131:55] on id. Uh this
+- [131:59] moderator is here. And we want to get
+- [132:02] the ticket. So to the moderator. So
+- [132:06] moderator is also a user. Let's check
+- [132:08] this. You will also have the same
+- [132:10] confusion. I have the user which we are
+- [132:14] calling it as moderator. But this where
+- [132:16] am I? Where are models? There it is.
+- [132:19] So this has
+- [132:21] email verification is still important.
+- [132:25] So from the ticket can I get from the
+- [132:28] ticket. Okay. But uh I need to get the
+- [132:32] final ticket as well. I'll just keep
+- [132:33] that. But in sending the email, I don't
+- [132:36] need it. H if I have moderator, why am I
+- [132:39] getting tickets? Okay. So I'll just go
+- [132:42] ahead and call
+- [132:43] await send mail. Yep, give me that. And
+- [132:48] in the send email I have first thing I
+- [132:51] have to provide is two. I want to send
+- [132:53] it to moderator dot email. So that part
+- [132:57] is all done. And uh then I want to send
+- [133:01] it ticket
+- [133:08] assigned. Take it assigned. And if you
+- [133:10] want to send any text as well, we have
+- [133:12] to send some of the text. So let's go
+- [133:14] ahead and send uh the text just like
+- [133:18] this. And we just have to send a
+- [133:22] parameter. So we'll just use a back tick
+- [133:24] and we'll
+- [133:26] say a new ticket is assigned to you. If
+- [133:32] you want to send some of the ticket
+- [133:34] information, maybe that's the case. Uh
+- [133:37] we still have the
+- [133:39] ticket. We have the ticket. This whole
+- [133:42] event is giving us the ticket. So we can
+- [133:43] find the ticket by uh just getting this
+- [133:47] ticket and we can have this id of this
+- [133:50] should be
+- [133:51] easy. Let's just say in here we want to
+- [133:53] send it. So
+- [133:56] await I want to grab the ticket. I will
+- [134:01] find by ID and I do have access to this
+- [134:05] ticket dot ID and hopefully this will
+- [134:10] give me a ticket and
+- [134:13] uh I shouldn't be writing it
+- [134:16] here and move this above. Okay. And then
+- [134:21] call this one as final ticket.
+- [134:28] Now I have all the access to
+- [134:29] information. I won't be doing it but I
+- [134:31] just wanted to show you that you still
+- [134:32] can do it. Grab the information of
+- [134:34] ticket. Now you can just do a ticket dot
+- [134:37] whatever you want to access the
+- [134:38] information. And it's just a matter of
+- [134:40] fact that you can just use back. That
+- [134:43] means I can use a dollar. So I can just
+- [134:45] go ahead and say final ticket dot
+- [134:48] whatever the field you want to
+- [134:51] use. Do we have some fields is modified
+- [134:54] is new? No, don't want to use that.
+- [134:57] Where are my
+- [134:59] models? We have the models here. So, so
+- [135:02] ticket uh title at least that we can
+- [135:07] use. Ticket.title. There we go. A new
+- [135:11] ticket was assigned to you and we'll
+- [135:12] just provide the name of it. I think
+- [135:14] that's good enough. We can provide more
+- [135:15] of these information. We can provide
+- [135:17] URLs and whatnot. But I think this is
+- [135:20] good enough. All right. So, this is all
+- [135:23] good. We'll just go out of it. So, we
+- [135:25] have done all of this. And once all this
+- [135:27] is done, we'll just return as success is
+- [135:31] true. So I hope you can see I was able
+- [135:34] to successfully get you into complexity
+- [135:37] of the things. We'll just call this one
+- [135:38] as E or just an
+- [135:40] error. console dot
+- [135:46] error and we'll
+- [135:49] use this one and we'll say
+- [135:54] error don't do this like
+- [135:59] error running steps
+- [136:02] error running the step and we can get
+- [136:04] error message as well error dot message
+- [136:08] and we'll also return a false we have
+- [136:11] done this much. Let's do this one also.
+- [136:13] Success is false. All
+- [136:16] right. A lot a lot we have done. But let
+- [136:19] me just go ahead and give you a walk
+- [136:20] through a tour of
+- [136:22] it.
+- [136:24] So just look at this amount of things
+- [136:27] that we are doing in this one function
+- [136:28] and that's how you do things in
+- [136:30] production and especially the AI agents
+- [136:32] not told you this is not a toy
+- [136:34] project. So notice here first we are
+- [136:37] getting the ticket ID from the event. We
+- [136:39] have the access to this ticket. So
+- [136:40] whatever gets returned back this is a
+- [136:42] ticket and you have access of this
+- [136:43] throughout here. You go ahead and fetch
+- [136:46] the ticket from the database. Then we
+- [136:47] simply run this ticket as updated or
+- [136:49] to-do whatever you want to update. This
+- [136:51] was just for fun. Don't really need this
+- [136:53] portion of it but I wanted to have it.
+- [136:55] Then you go ahead and grab a response
+- [136:57] from the AI. Then you simply go ahead
+- [136:59] and assign relatable skills. So we are
+- [137:01] doing AI processing. Uh we are assigning
+- [137:04] all the skills and metadata all of that.
+- [137:06] But we are also returning back the
+- [137:08] related skills so that we can find a
+- [137:10] moderator based on that. Once we find a
+- [137:12] moderator based on that, we actually not
+- [137:15] only assign the moderator but we also
+- [137:17] send an email to it. So you can see so
+- [137:19] much of processing is being done and you
+- [137:21] don't need to await that into uh when
+- [137:24] the time when the create ticket was
+- [137:25] created you can just keep it doing in
+- [137:27] the behind the scene or in the back end.
+- [137:30] quite a lot in building an AI agent. But
+- [137:33] I hope you now see that it's just a
+- [137:35] development. It's just AI another layer
+- [137:38] that we developers can go ahead and add
+- [137:40] it. It's not really that bad. Hope this
+- [137:42] video has given you confidence that you
+- [137:44] can also go ahead and build AI agents as
+- [137:47] well as can create the AI agent. That is
+- [137:49] my goal for this particular section.
+- [137:52] That is it for this video. Let's catch
+- [137:54] up in the next one.
+- [137:57] All right, let's move on to hopefully
+- [137:59] the last section for building the back
+- [138:01] end for our AI workflow apps, the smart
+- [138:05] ticketing system. So in this uh section,
+- [138:08] we're going to just work with the
+- [138:09] controllers that are related to tickets.
+- [138:11] So for example, creation of the tickets,
+- [138:13] probably getting the tickets updation,
+- [138:15] we are not doing much because that's
+- [138:17] being done by the AI. So we'll just get
+- [138:19] the basics and again if you need
+- [138:21] anything else, it's just the business
+- [138:22] logic. So not a big deal but I'll still
+- [138:24] walk you through with majority of them.
+- [138:26] So here we are onto this u segment or
+- [138:30] this VS code basically. So let's create
+- [138:34] uh fold this up all of them. Don't need
+- [138:36] don't need don't need any of them. Let's
+- [138:39] create a fresh controller and that's
+- [138:41] going to be major bread and butter for
+- [138:43] this application. So we'll call this one
+- [138:45] as ticket.js. We don't need much. First
+- [138:48] of all we need to shut up the AI. We
+- [138:50] need the tickets model as well as the
+- [138:52] ingest. So hopefully it will try to get
+- [138:56] me
+- [138:58] inest. Nope, it doesn't. So let's just
+- [139:01] say I want to import inest from one
+- [139:04] directory back. Inside the ingest, we
+- [139:09] have
+- [139:11] client.js and we can be here inest.
+- [139:15] That's what we need. We also need to
+- [139:17] import the ticket and that will be
+- [139:20] coming up from one directory back models
+- [139:22] and ticket.js. That is it what we need.
+- [139:26] Now we will have multiple of the
+- [139:27] controllers but the most important one
+- [139:29] uh where we are going to use our AI
+- [139:32] workflow is going to be create ticket.
+- [139:33] So let's start from there. Rest are
+- [139:35] pretty easy. Don't need to worry much on
+- [139:36] that. So export const and call this one
+- [139:40] as create ticket.
+- [139:44] We will have a sync if I can write that.
+- [139:49] A sync request. Why are it doing this?
+- [139:52] Request
+- [139:55] response. All right. Now, first of all,
+- [139:58] let's wrap everything inside the try
+- [140:00] catch in itself. Now, we can place the
+- [140:03] request body outside of this as well or
+- [140:06] probably inside. Doesn't really matter
+- [140:08] much. Let's keep it inside. Again,
+- [140:10] there's no big reason behind that. We
+- [140:13] will grab title and
+- [140:16] description and that will all come from
+- [140:19] request
+- [140:20] dobody basic. Okay. Now if we don't have
+- [140:24] this then we'll probably give a message.
+- [140:26] So if we don't have title or if we don't
+- [140:30] have
+- [140:32] description then we will throw up a
+- [140:34] message that return a response that has
+- [140:38] a
+- [140:40] status of 400 or 401. 400 is good. and a
+- [140:46] JSON which says a
+- [140:50] message which will be like this that
+- [140:52] says title and
+- [140:57] description are
+- [141:01] required. Okay, good enough. Now let's
+- [141:04] go ahead and create the ticket with the
+- [141:06] default value. So this is the point
+- [141:08] where we simply create the ticket how we
+- [141:10] should do it. So ticket dot create and
+- [141:13] provide the details. So the step one is
+- [141:15] actually to go ahead and create the
+- [141:16] ticket. I'll provide you the title. I'll
+- [141:20] provide you the
+- [141:21] description and I'll also give you the
+- [141:24] created
+- [141:26] by created by not created at
+- [141:29] created by and I expect that this is
+- [141:33] also being done by the authenticated
+- [141:34] user. If you are an authenticated user
+- [141:37] that means you have request dot user
+- [141:39] dot ID. uh I can store that but it would
+- [141:42] be safer to actually convert that into a
+- [141:45] string that will make our life a little
+- [141:47] easier. Let's call this one as new
+- [141:50] ticket. New ticket take it. There we go.
+- [141:54] Once this is all done then we can
+- [141:57] actually trigger the ingest functions.
+- [141:59] Again await or not await or how do you
+- [142:02] want to make the flow happen totally on
+- [142:03] you. I'll just go ahead and call the
+- [142:06] ingest and I will send an event
+- [142:09] notification for this one. I have to
+- [142:11] send couple of things. Uh the first one
+- [142:13] being uh the name and the data. So the
+- [142:16] name we will just go ahead and borrow
+- [142:18] the name from ingest on ticket created.
+- [142:23] The name we are creating here is not
+- [142:26] this one event the ticket created. Copy
+- [142:29] that and call this one. The next one is
+- [142:32] data. how much data you want to provide.
+- [142:35] So since the ticket is being created,
+- [142:37] the first one is going to be ticket uh
+- [142:40] ID that I want to provide. We can simply
+- [142:42] grab it by new
+- [142:44] ticket dot ID and make sure we still
+- [142:48] convert that into a string. That would
+- [142:50] be easier.
+- [142:52] And uh once we do that we also provide
+- [142:54] the title
+- [142:57] description as well as created
+- [143:00] by
+- [143:02] created by and we can actually override
+- [143:05] that. We don't need to override that as
+- [143:08] technical per se but still we can give
+- [143:10] it like this dot ID dot to string. Again
+- [143:14] whatever you want to do the whole job is
+- [143:17] to provide this created by and looks
+- [143:20] good. Now this is all done. So this is
+- [143:23] our AI pipeline. Super easy. Looks super
+- [143:25] easy right now here. And then we simply
+- [143:28] go ahead and simply say return rest dot
+- [143:31] status which is 2011 because we created
+- [143:34] this dot JSON. And inside in here we'll
+- [143:39] give a
+- [143:41] message that
+- [143:43] says ticket
+- [143:46] created
+- [143:49] and
+- [143:50] processing
+- [143:52] started. Good message. And we will also
+- [143:55] pass on this ticket. Maybe somebody
+- [143:57] wants to process this new ticket
+- [143:58] immediately and want to display that in
+- [144:00] the browser itself. It looks really fast
+- [144:02] that way. Uh so this is good. And we
+- [144:05] will have the error message as well.
+- [144:08] Let's also do this
+- [144:10] console.log and we will say or
+- [144:13] rather console
+- [144:16] error error creating ticket
+- [144:22] error dot
+- [144:24] message and we will return a response
+- [144:27] that says status of 500 because
+- [144:30] something is wrong on our side.json JSON
+- [144:33] goes like this and we say
+- [144:37] message
+- [144:39] internal server
+- [144:43] error. All right, let's save this. So
+- [144:45] this one looks good. Uh no big deal. We
+- [144:48] just have created a fresh new ticket
+- [144:50] here. Next up we are going to do with
+- [144:53] the get ticket and get tickets. Uh by
+- [144:56] the way uh there's a small difference.
+- [144:58] Get tickets gets you all the tickets.
+- [145:00] Get ticket gets you just one ticket.
+- [145:02] Maybe you want to see more details on it
+- [145:04] and surely you can work on more
+- [145:05] controllers like update uh ticket
+- [145:08] individual and all of them. Once you see
+- [145:09] how to fetch one individual ticket then
+- [145:11] you can definitely go ahead and update
+- [145:12] that. So let's say that we want to have
+- [145:16] first of all get tickets. So all of them
+- [145:20] and I guess only admin should be allowed
+- [145:24] to do so. Again we'll see that. So first
+- [145:27] of all we'll just go ahead and say a
+- [145:29] sync request response just like this
+- [145:32] super easy and we'll wrap everything in
+- [145:35] the try catch my favorite thing to do so
+- [145:38] and we'll just say we will first grab
+- [145:40] the user expecting only that the
+- [145:42] authenticated users are here okay next
+- [145:45] thing is if there is role is not user
+- [145:48] then you should not be able to do
+- [145:52] anything you should not be in the
+- [145:53] controller itself because this is uh get
+- [145:56] tickets you are getting all the tickets
+- [145:58] so user should not be getting it
+- [145:59] moderator probably yes they can get all
+- [146:02] the tickets admin should definitely
+- [146:04] depends on how you want to perform this
+- [146:06] operation so if the role is not equals
+- [146:09] to the user for rest of all of them I'll
+- [146:12] allow them to see all the tickets maybe
+- [146:15] moderator maybe want to solve more
+- [146:18] tickets depends on how the flow of this
+- [146:20] works and this is how you grab all the
+- [146:23] tickets I'll just go ahead and say that
+- [146:26] let's store them into a tickets array.
+- [146:29] So let's create this one here.
+- [146:33] Let tickets equals to this
+- [146:36] one. So I can just call this one as
+- [146:39] tickets just like this. And once I have
+- [146:42] this probably I want to also extract
+- [146:45] that who is solving this or who is it
+- [146:48] assigned to. So in here I can use
+- [146:52] populate because I want to populate a
+- [146:54] sub field which is user and for populate
+- [146:57] which of the fields you want to grab. So
+- [146:59] I'll say that I want to
+- [147:01] grab this is my least favorite part of
+- [147:04] this. This should not be string because
+- [147:07] I it is easy to make a mistake here. And
+- [147:11] we also want to
+- [147:12] grab email. And we want to grab probably
+- [147:17] an underscore
+- [147:18] ID. Just like that. Oh, did I made a
+- [147:24] mistake? Yep, it should be. All right. A
+- [147:28] little difficult to catch this one. So,
+- [147:29] assigned to is there. And then we have
+- [147:33] Okay, let's get it up here. So, we have
+- [147:36] this method. you get rid of
+- [147:39] this. All right. So the first part is
+- [147:42] assigned to and the second part is what
+- [147:45] all do I want to grab? This should be
+- [147:47] it. So this is
+- [147:49] email and the second one will be
+- [147:52] underscore ID. I don't know what was
+- [147:55] having it. Okay. Anyways, let's also go
+- [147:58] ahead and say I want to sort
+- [148:01] this and I want to sort it based on
+- [148:04] created
+- [148:06] at and we'll give negative one basic
+- [148:09] nothing much. So if this is the case
+- [148:12] then we got all the tickets and if it's
+- [148:15] not the case uh then that means it's a
+- [148:19] user. So user should also be able to get
+- [148:21] all the tickets. So let's write an else
+- [148:24] case. So this is for not the user and in
+- [148:26] the case for when there is user I'll
+- [148:29] just go ahead and say
+- [148:30] await ticket dot find. So find
+- [148:34] definitely all of them. So let's go with
+- [148:37] that. Uh but not all of them. Now you
+- [148:40] find only the tickets which are created
+- [148:42] by the user. So when the field created
+- [148:45] at not created at created
+- [148:49] by so the tickets that I have created
+- [148:52] you should be able to get them as
+- [148:55] well. So for this I'll just go ahead and
+- [148:58] say
+- [148:59] user dot id. So I'm able to see all of
+- [149:03] the tickets that I have created. So
+- [149:05] that's also good. So in the get tickets
+- [149:08] we can see that the if your role is not
+- [149:11] user you get all the tickets. So
+- [149:13] moderator gets all the ticket, admin
+- [149:15] gets all the ticket. But if you are a
+- [149:17] user and you want to run this
+- [149:19] controller, that means you want to see
+- [149:20] the tickets which you have created. You
+- [149:22] should at least have the access of this.
+- [149:25] All right. And what all the fields you
+- [149:27] want to get. So I'll just go ahead and
+- [149:29] say select. And again, this is not my
+- [149:31] favorite part.
+- [149:33] Title,
+- [149:35] description, as well as status and
+- [149:38] created at. Easy very easy to make a
+- [149:42] mistake in
+- [149:43] this
+- [149:45] sort that will be sorted by created at
+- [149:50] and we'll do negative
+- [149:52] one and we will store all of this into
+- [149:56] tickets the upper array that we have
+- [149:58] defined this one. So in any case the
+- [150:01] tickets will have something once this is
+- [150:04] all done let's go ahead and return this
+- [150:07] back. All right. So, let's go ahead and
+- [150:11] get it up. First of all, let's
+- [150:16] return. Okay. Res status and uh 200.
+- [150:21] Surely we have done something. We have
+- [150:23] got the data. And in the JSON, we'll
+- [150:26] just throw this tickets back. That's it.
+- [150:30] And in the error, we'll definitely have
+- [150:32] to copy
+- [150:33] paste. And here it is. Copy this.
+- [150:39] paste it up here and we'll say that
+- [150:42] error fetching tickets error message
+- [150:46] internal server error. That looks good.
+- [150:48] All right. So, this is getting all the
+- [150:49] tickets. Now, let's just say you want to
+- [150:51] grab one
+- [150:53] ticket. Let's copy you and paste it up
+- [150:58] here. This one will be get ticket. So,
+- [151:01] you'll grab one ticket
+- [151:03] only. Okay. Let's open up the try catch
+- [151:07] before I forget. Nope, not
+- [151:09] here. Try
+- [151:11] catch. And first of all, let's grab the
+- [151:14] user request dot user. We grab the user
+- [151:18] let ticket simple variable. We'll fill
+- [151:20] this up
+- [151:21] eventually. Okay. So if user dot ro
+- [151:28] is not equal to user. So how you want to
+- [151:33] fill the role? Uh in this
+- [151:38] one we are grabbing the one ticket. So
+- [151:41] you should be able to grab any ticket.
+- [151:43] If you're not a user, you should be able
+- [151:44] to grab it based on the ID. If anybody
+- [151:47] else's ID, he should not be able to grab
+- [151:49] my ticket. That's why we are putting up
+- [151:51] a check here that your role should not
+- [151:53] be user because you might grab the ID
+- [151:55] for other people and work like that.
+- [151:58] First of all, ticket dot find by ID and
+- [152:02] I will find them based on ID. So request
+- [152:04] dot params do ID you'll send me in the
+- [152:08] URL itself and based on this I'll just
+- [152:11] populate one more field which is
+- [152:15] on assigned
+- [152:17] to and I'll just move you on to the next
+- [152:21] line because you just gave me an error.
+- [152:24] All right. Assigned
+- [152:27] to and here we will say that I need
+- [152:33] email and I need maybe ID underscore ID.
+- [152:37] If you need more field just go ahead and
+- [152:39] extract that. I'll just leave it here.
+- [152:42] We'll not do any sorting and anything
+- [152:43] because it's just one ticket. So now
+- [152:46] let's go ahead and store that into
+- [152:48] ticket just like that. Okay. So this is
+- [152:51] the case in this and if that's not the
+- [152:55] case you are not user then you should be
+- [152:57] only able to grab the ticket which is
+- [152:59] created by you only. So in the else case
+- [153:02] we can simply say we will grab the
+- [153:05] ticket and we'll find by ID or not the
+- [153:10] ID I think find one because we have
+- [153:13] couple of parameters to pass on with.
+- [153:17] So we will define one which has certain
+- [153:20] parameters to be pulled down. First of
+- [153:22] all it should be created by me only or
+- [153:24] the
+- [153:25] user created by it should be user not
+- [153:31] user yes user dot ID because we have
+- [153:35] extracted the user here not directly
+- [153:37] request do user do ID and one more field
+- [153:40] the ID so it will have an underscore id
+- [153:44] which we'll grab from the URL itself. So
+- [153:46] request dot params do id. So now both
+- [153:49] the parameter needs to be fulfilled. Uh
+- [153:52] I will get the ID from the URL itself
+- [153:54] but it should be created by me only
+- [153:56] because I'm the user. And we will also
+- [153:59] select some of the fields as well. So we
+- [154:02] will do
+- [154:03] select and what else you want to grab
+- [154:07] title
+- [154:09] description and status
+- [154:13] and created at a small typo and it will
+- [154:16] all mess up and we will hold ticket just
+- [154:20] like this. All right. So anyhow the
+- [154:23] ticket gets filled up and gets the
+- [154:25] detail and still if we don't get the
+- [154:28] ticket that's a problem. So if we don't
+- [154:31] have any ticket in both of the cases
+- [154:33] that means we need to work more on it
+- [154:36] probably debug that as of now we can
+- [154:38] just rest dot status 404 couldn't find
+- [154:42] anything and we will get the JSON just
+- [154:45] like this and we can put up a
+- [154:51] message not like that in the
+- [154:54] quotes not found looks good. Okay, if
+- [155:00] this means we need to now return the
+- [155:03] ticket at least I can grab this
+- [155:07] much rest status JSON and in the JSON I
+- [155:10] can simply just provide the
+- [155:14] ticket. There we go. And the error part
+- [155:18] will remain exactly same. So we'll
+- [155:22] just copy this and we will paste it up
+- [155:26] here. Thank goodness the prettier
+- [155:28] actually works. So when I save this all
+- [155:30] the extra spaces everything goes
+- [155:32] otherwise I had to manually fill this
+- [155:33] up. Anyways error creating the ticket
+- [155:36] error fetching ticket the one should be
+- [155:42] tickets minor details but these are
+- [155:46] important. All right so this part is
+- [155:48] done. If you have any other you know the
+- [155:50] drill how you can update them manually
+- [155:52] just get the data. We have seen that we
+- [155:53] have updated the user as well. So I
+- [155:55] think this is good. Let's go ahead and
+- [155:57] now shrink them up. Create ticket, get
+- [156:00] tickets, and get one ticket. Let's
+- [156:03] create the route for them. Routes. We
+- [156:05] have the basic boiler plate already
+- [156:07] ready for us. That's a good sign. And we
+- [156:10] can actually grab a couple of more
+- [156:12] things. Not more. We just need this one.
+- [156:16] Copy this. Paste
+- [156:18] this. And I guess that is it. Do we have
+- [156:22] more?
+- [156:24] We'll grab some of them from here as
+- [156:29] well. But we don't need any field as of
+- [156:31] now. This all will be coming up from
+- [156:36] ticket.js. Okay. Now let's define the
+- [156:38] routes.
+- [156:41] Router.get. And the first one is just
+- [156:43] the homepage where we get all the
+- [156:46] tickets. This will be done after
+- [156:49] authenticate. and we'll just
+- [156:53] get tickets. All the tickets are here.
+- [156:57] Next one is router dot uh get and we
+- [157:01] want to grab a specific ticket. So we'll
+- [157:03] just call a slash colon
+- [157:05] id and that should also be authenticated
+- [157:08] and we'll get one ticket only.
+- [157:12] Get ticket one ticket. And last is
+- [157:17] router.post
+- [157:19] post and on the slash itself only the
+- [157:23] authenticated user can create a ticket.
+- [157:26] So
+- [157:27] create no suggestion create ticket.
+- [157:30] There we go. So pretty easy. We have all
+- [157:33] the things being done. This could be a
+- [157:35] little bit space. There we go. Looks
+- [157:37] beautiful. Now in the index file we just
+- [157:40] need to bring it up. So the step one is
+- [157:44] go
+- [157:45] here and we'll call this one as ticket
+- [157:50] routes that will come from one direct no
+- [157:53] not one directory back in the current
+- [157:55] directory we have
+- [157:57] routes and we have ticket.js JS. All
+- [158:00] right. And this one can be copy pasted
+- [158:03] instead of the O. This will be ticket or
+- [158:07] tickets however you want to go. / APIs/
+- [158:10] tickets and we will have ticket
+- [158:14] routes. Looks easy. All right. So this
+- [158:17] part is all done. Now we have to get one
+- [158:19] more API route where all of our ingest
+- [158:22] will work. Right now they are not
+- [158:23] working. So for this we have to get one
+- [158:26] more middleware. So app dot use. So in
+- [158:29] the app do use we have to put up a route
+- [158:31] where all of our ingest things will be
+- [158:33] working. We'll call this one as slappi/
+- [158:37] ingest ingest and we have to get uh one
+- [158:41] more thing which is
+- [158:43] serve will ingest serve me
+- [158:46] there it should give me
+- [158:49] suggestion. Nah not doing it. This is
+- [158:52] actually coming up from the ingest serve
+- [158:55] should have given me suggestion. We can
+- [158:58] import serve and this comes up from
+- [159:02] ingest but not only just ingest but
+- [159:05] ingest the express. You can see we have
+- [159:07] edge, we have experimental and express.
+- [159:09] Edge is mostly we'll use probably in the
+- [159:11] nextjs or something like that. We are
+- [159:12] just on the express. So this is
+- [159:14] required. So we can see we have the
+- [159:16] serve. Yes, that's the one we need. Once
+- [159:19] we have the serve, then we have to grab
+- [159:20] the client as well. Remember inest
+- [159:23] client that we worked on earlier with
+- [159:25] this, it is exactly same. If you
+- [159:30] forgot, it's somewhere here, not in the
+- [159:34] function. This is the client. So, this
+- [159:35] is the ingest what we need. So, I'll go
+- [159:38] into the index.js again and we'll grab
+- [159:42] this and we're going to grab both of the
+- [159:45] functions as well as ingest. So,
+- [159:49] import
+- [159:52] inest. It's not the capital one, it's
+- [159:54] the lowercase one.
+- [159:58] not going to suggest me. Oh, just
+- [160:00] suggested. We'll go inside the ingest
+- [160:04] and we have client.js. We'll also need
+- [160:06] both of the functions to be imported
+- [160:08] because they are also required in the
+- [160:10] homepage in the middleware at least. So
+- [160:13] we'll see that we will use on
+- [160:16] user no suggestions
+- [160:19] signup that will come from one same
+- [160:22] directory in justest we have functions
+- [160:26] and there we have on signup.js
+- [160:29] JS. All right. Hopefully I called this
+- [160:31] the same. Just to verify again, doesn't
+- [160:33] hurt much. On signup, on user signup,
+- [160:37] copy this. Go on to inject index.js.
+- [160:40] Paste this one here. This is exactly
+- [160:42] what we need. Do the same thing. Go on
+- [160:45] to onreate. Grab this one. Go to
+- [160:50] index.js. Duplicate this. Grab this one.
+- [160:54] This one will be coming up from
+- [160:58] slash on ticket
+- [161:01] create.js. The way how you configure
+- [161:03] this middleware is just like this. We
+- [161:05] have this uh method serve and again this
+- [161:07] is also given in the docs. This is a
+- [161:08] method which which requires you objects.
+- [161:11] And when you pass on this first of all
+- [161:13] pass on the client our client is
+- [161:17] inest. This is the one. And what are all
+- [161:20] the functions you might invoke? So
+- [161:23] function don't do
+- [161:26] this functions. Yeah, this is the one
+- [161:30] and here you pass on array. Just mention
+- [161:33] all of them. So on user signup order
+- [161:35] doesn't really matter in this case. On
+- [161:37] ticket created that is it. So this is
+- [161:39] the piece of code that you have to write
+- [161:41] to make sure that all of them are
+- [161:42] invoking. But we're not done yet. Just
+- [161:45] one last thing. Uh don't you worry on
+- [161:47] that part. It's super easy. So we have a
+- [161:50] package.json. This is where you run the
+- [161:52] nodemon index.js. It will work fine once
+- [161:55] I add my uh environment variables. Since
+- [161:58] we have built the application, we know
+- [162:00] that it works. We also need to have one
+- [162:02] more script. Feel free to name this
+- [162:04] whatever you like. Most of the
+- [162:05] documentation that they use use the
+- [162:08] ingest dev. So this is the ingest dev
+- [162:10] server. And in order to work on this,
+- [162:13] you have to run the script npx because
+- [162:16] we need to install ingest dash cli. You
+- [162:21] can use latest but in the production
+- [162:23] I'll not use the latest definitely. And
+- [162:25] dev uh this is the script you have to
+- [162:27] run and you have to run both of this. So
+- [162:29] this also needs to execute. This also
+- [162:31] needs to execute into a separate server
+- [162:33] and that is it. That is it all it needs.
+- [162:36] So make sure you fill up your
+- [162:37] environment variables. I'll give you the
+- [162:39] this one as well. and I'll fill them up.
+- [162:41] If there is a minor mistake or
+- [162:44] something, it might be just a typo. I'll
+- [162:46] give you the source code entirely which
+- [162:47] we worked on. It works pretty nicely and
+- [162:49] everything. And this is it. All the
+- [162:51] backend part is done. Now all we need to
+- [162:53] do is just the front end part which is
+- [162:54] nothing much more. We just have to catch
+- [162:57] all the fetch request, the API calls.
+- [162:59] That is it. That is all what we have.
+- [163:01] Let's go ahead and catch up in the next
+- [163:04] one. All right. So moving on to the
+- [163:07] front end part. So we have worked on all
+- [163:09] the back end. All the concepts, all the
+- [163:11] logics are done. From here onwards,
+- [163:12] we'll be just handling the APIs. That's
+- [163:15] it. No logic, nothing. Just pure makes
+- [163:17] an API call, get some data, display the
+- [163:19] data. That's it. I had to fix a couple
+- [163:21] of bugs. I will walk you through where
+- [163:23] did I make the mistakes. You also need
+- [163:25] to know about them. So I uh filled up
+- [163:27] all of my environment variables and
+- [163:29] everything. And after that, let me show
+- [163:31] you what it really means. Uh so for the
+- [163:33] front end, we'll be using the classic
+- [163:35] VIT itself. Uh but here comes the
+- [163:37] interesting part. So you need to run
+- [163:40] first of all the server which we
+- [163:42] declared as an inest server. That was
+- [163:44] okay. The only problem that I got is
+- [163:46] first of all I forgot to import the env.
+- [163:49] So I'm pretty sure you might have
+- [163:50] noticed that already. Uh these two line
+- [163:52] of code that is it. Uh this was in the
+- [163:55] index.js and apart from this I'll close
+- [163:57] my environment variables. Don't want you
+- [163:59] to see up. Uh another thing that I saw a
+- [164:02] couple of places error is like it didn't
+- [164:04] included the extension.j js. This one
+- [164:07] also missed the js. So wherever I missed
+- [164:09] the js, that was the problem. Apart from
+- [164:12] that, everything worked uh seamlessly.
+- [164:15] We have built the project. Uh so this
+- [164:17] was the basics of it. I'll just close
+- [164:19] this one. Close others and this one as
+- [164:22] well. So this is the first part of it.
+- [164:25] Uh let's go ahead and create the second
+- [164:27] part of it. I guess I can open up the
+- [164:30] integrated terminal just right up here
+- [164:32] and just start a new one. And uh let's
+- [164:36] see for getting started in the vit uh
+- [164:39] nobody remembers the command. So I'll
+- [164:40] just go ahead and copy this and paste
+- [164:43] this up here. Let's hit enter. What's
+- [164:45] the project name? I'll call this one as
+- [164:47] AI ticket
+- [164:50] uh front
+- [164:51] end. Front end that's seems okay name.
+- [164:56] And we want to use vanilla or react of
+- [164:59] course don't want to write vanillajs in
+- [165:01] this case. uh we'll use the react and
+- [165:03] we'll use the react router. We can use
+- [165:06] tenstack router as well but don't want
+- [165:08] to use it in this tutorial. I'll go with
+- [165:10] the react router. So that would be okay
+- [165:14] and let's go with that. Want to proceed.
+- [165:16] Yes, of course I want to proceed. So
+- [165:19] this is going to take a bit time. Now
+- [165:21] apart from this uh we didn't saw any
+- [165:23] problem or anything. Want to initialize
+- [165:25] a new git repository? Uh no not right
+- [165:28] now. Uh install dependencies with npm.
+- [165:31] Yes, I would love to do that. Hopefully,
+- [165:34] that will make sense. Oh, it's taking a
+- [165:37] bit
+- [165:38] time. Looks like I'm in a habit of using
+- [165:41] bun. That is ridiculously fast. And that
+- [165:44] is it, I guess. Dependencies installed.
+- [165:48] Everything looks okay. I will open this
+- [165:51] up into an integrated terminal. And
+- [165:53] we'll call this one as uh
+- [165:57] simply front end. So let me go ahead and
+- [165:59] change this to front end. That looks
+- [166:02] better
+- [166:03] now. All right. So this is okay. But uh
+- [166:06] this is too much of the things that it
+- [166:09] has given me. I don't want although this
+- [166:11] is bare minimum but it has routes and
+- [166:14] all of these
+- [166:15] things. Just give me a second. I'll do a
+- [166:19] fresh installation. Don't like this one.
+- [166:21] I'll just delete this. And this time
+- [166:23] I'll not create with the this one. So
+- [166:26] I'll just go ahead and say the front
+- [166:28] end. Copy this. Remove this. V latest.
+- [166:32] We'll just go start with this project
+- [166:34] name. AI
+- [166:38] ticket-front. We'll go with React. We'll
+- [166:41] go with classic JavaScript. Yeah, this
+- [166:43] is what I
+- [166:44] want. Where have you added and started
+- [166:47] all of
+- [166:48] this? I guess nowhere. Just give me a
+- [166:51] second. I'll fix this. All right, got
+- [166:53] it. And you might be wondering, hey
+- [166:54] Tish, you are making mistakes. These are
+- [166:57] this is how real world development
+- [166:58] works. Uh so this is being created. I
+- [167:01] can see this is all going on up. I don't
+- [167:03] know why the errors are there. But
+- [167:05] whatever is the reason, we'll just go
+- [167:07] ahead and open up the integrated
+- [167:08] terminal just inside this. Too many
+- [167:10] folders that we have, too many terminals
+- [167:12] that we have. Let's rename this again
+- [167:15] and call it as front
+- [167:19] end. Probably I'll change the colors as
+- [167:21] well. Change
+- [167:24] color magenta. Yeah, that's
+- [167:27] good. Let's do a quick ls. We have
+- [167:29] everything.
+- [167:31] npm install. Everything should be
+- [167:34] installed into this
+- [167:37] one. Looks good already. I don't know
+- [167:39] why this is giving me this red dot. I'll
+- [167:42] probably reload the window. Yeah, that's
+- [167:45] good. All right. So, we have the source
+- [167:47] and everything. We need to now worry on
+- [167:50] the routing part. So for the routing we
+- [167:52] will manually install the React router
+- [167:53] DOM. Let's go on to Google React Router
+- [167:57] DOM and let's see and let's configure.
+- [167:59] It's actually super easy to configure uh
+- [168:02] just like the 10 stack as well. Go to
+- [168:05] the
+- [168:06] docs and we want
+- [168:09] installation and we want to have the
+- [168:12] manual
+- [168:15] installation. All right. Installing data
+- [168:17] mode
+- [168:19] routing
+- [168:23] installation. Let me go ahead and find
+- [168:25] the URL. They have changed the doc
+- [168:29] literally quite a lot. But no worries,
+- [168:31] we'll just have the react router uh DOM
+- [168:34] up here and we'll start with that. Apart
+- [168:36] from this, we'll also go with the uh
+- [168:38] Daisy UI, which is actually pretty fun
+- [168:40] and easy. So, we'll use this one. how to
+- [168:45] use ah why can't you give me things like
+- [168:48] this so let's go ahead and install this
+- [168:51] daisy let's open up the packagejson so
+- [168:53] that we can see what's all going on and
+- [168:56] don't not worried about the dev
+- [168:58] dependency but daisy actually goes in
+- [169:00] the dev dependency and then we have to
+- [169:02] import the tailwind CSS in the appc we
+- [169:05] have to say plug-in daisy ui so let's go
+- [169:08] ahead and say app dot css copy this
+- [169:13] And inside the source we have app
+- [169:16] do.css. Uh probably we can remove all of
+- [169:19] the things we will do that but as of now
+- [169:21] we just need the plug-in to be added.
+- [169:23] And what else we need to do? I want
+- [169:27] vit. So create v temp don't want
+- [169:30] template and we need to install all of
+- [169:32] these things as well. So let's go ahead
+- [169:35] and install this and then we'll actually
+- [169:37] install the plug-in here. I did wrong.
+- [169:41] shouldn't follow the documentation.
+- [169:43] That's how things
+- [169:45] works. All right. And then we have to
+- [169:48] say plugin is going to be tailwind CSS.
+- [169:51] This is inside the vit config. So vit
+- [169:54] config. Plugin is react. Should I add it
+- [169:58] before or after? That's the question. I
+- [170:02] guess I'll add it
+- [170:04] afterwards. Okay.
+- [170:07] So tailwind CSS and we need to import
+- [170:10] the
+- [170:11] Tailwind otherwise it will not
+- [170:15] work. Looks
+- [170:17] good. Apart from this we need style CSS.
+- [170:20] These things needs to be imported and
+- [170:24] configured. So this one technically is
+- [170:28] going to be index.css I
+- [170:30] guess. Let's check let let me quickly go
+- [170:33] ahead and check this. Let's add this
+- [170:36] style CSS. We will have just one file.
+- [170:39] So, let's just copy
+- [170:41] this. All right, enough of looking into
+- [170:43] the docs. Let's configure the things the
+- [170:45] way we want it to be. So, we don't want
+- [170:48] app.t CSS. We'll keep the main. JSX. Uh
+- [170:51] we'll not keep the app.t CSS. So, let's
+- [170:53] go ahead and just remove it. Yeah. Now,
+- [170:57] this is the time where you actually go
+- [170:58] ahead and uh we'll keep the index dot
+- [171:01] CSS. We'll remove everything and we'll
+- [171:03] paste it just like this. just the two
+- [171:05] lines. Main.jsx will come onto this one.
+- [171:08] App will load up here. But we'll not
+- [171:10] load the app. We'll actually use the
+- [171:12] React router DOM. And the app.t JSX
+- [171:15] right now. You'll just go
+- [171:17] away and delete this. Surely this will
+- [171:19] crash the app. But that's okay. I'm fine
+- [171:21] with this. Assets. We don't have
+- [171:24] anything inside the assets. Uh now,
+- [171:26] let's go ahead and install the React
+- [171:27] router DOM as well. In the package.json,
+- [171:30] we don't have React Router DOM. Let's go
+- [171:34] ahead and install this. So, npm
+- [171:38] install react
+- [171:41] router
+- [171:43] DOM should be easy. Now, once we have
+- [171:46] react router DOM, what we can do, the
+- [171:48] easiest way of handling this is go into
+- [171:50] the
+- [171:51] main.jsx and we'll keep the create root
+- [171:54] and all of this these things same
+- [171:57] uh strict mode and create root. But we
+- [171:59] are going to inject the React router DOM
+- [172:01] just right here.
+- [172:04] All right. So, how we're going to
+- [172:06] achieve this part? Let's remove the app
+- [172:08] and we will import the browser router.
+- [172:11] So, let's first go ahead and say browser
+- [172:14] router. Yep, that's the one we want.
+- [172:17] Now, inside the browser router, every
+- [172:18] route will go. So, I'll just have the
+- [172:22] routes. Yep, that's the one. And there
+- [172:25] we go. I need to move this away. So,
+- [172:28] there we go. So each of the routes that
+- [172:31] we are going to have will have the route
+- [172:33] further inside it. So we're going to
+- [172:35] have a route from react router DOM and
+- [172:38] this will be a self-closing one just
+- [172:40] like this. Now inside each of this we
+- [172:43] have to define a path. Yep, that's the
+- [172:46] one. This will be a path of slash. But
+- [172:49] which element we are going to load will
+- [172:51] depend on whether user is logged in or
+- [172:54] not. So we need to have multiple of
+- [172:56] these pages first before we even do
+- [172:58] that. So let's go into the source and
+- [173:01] create a new folder. We'll just create a
+- [173:03] basic pages. Let's call this one as
+- [173:06] pages. And inside the pages, I can open
+- [173:10] up an integrated terminal because that
+- [173:12] will be faster for us. Let's go ahead
+- [173:15] and say touch. And we want to create an
+- [173:19] admin.jsx. We also need
+- [173:22] login.jsx. We need signup.jsx
+- [173:27] JSX and what else? We need a ticket
+- [173:30] page. So,
+- [173:32] ticket.jsx and we need a
+- [173:35] tickets.js. Tickets
+- [173:37] do.jsx. All right. So, all of these
+- [173:40] pages needs to be
+- [173:42] created and we're going to do RFCE in
+- [173:45] all of them. So, this will be admin
+- [173:47] again
+- [173:48] RFCE. This is login.
+- [173:52] You might be thinking we are speedr
+- [173:54] runninging this and you are absolutely
+- [173:56] correct. This is how everybody builds
+- [173:58] front end at least people who love
+- [174:00] backend. All right. So
+- [174:03] index.js. All right. So all of our pages
+- [174:05] are now available for us. Uh so that we
+- [174:08] can actually go and see that what
+- [174:10] element you want to load. So on the home
+- [174:13] path user should be able to see the
+- [174:15] element of tickets. But for this we need
+- [174:18] to create that hey uh somebody needs to
+- [174:20] check whether user is authenticated or
+- [174:22] not. And for that also we need to create
+- [174:25] kind of a bare minimum component which
+- [174:27] will be check O. So let's go ahead and
+- [174:30] say instead of pages let's create one
+- [174:33] more
+- [174:35] file which will be not file actually the
+- [174:39] folder. We'll keep everything inside
+- [174:43] components and we will have one new file
+- [174:46] which is going to be check
+- [174:50] O.jsx. So RFCE. So this is going to be
+- [174:54] the component which will be responsible
+- [174:56] for checking the
+- [174:58] authentication and no it doesn't work
+- [175:00] with
+- [175:02] dashes. Check O. Copy
+- [175:06] this. Paste this. uh it will take the
+- [175:10] children and based on that whether it is
+- [175:12] uh allowing or not we'll do these kinds
+- [175:14] of things. So everything will mount
+- [175:16] inside this. So if you have studied
+- [175:18] react from me or anywhere else you
+- [175:19] pretty much know this part. It's super
+- [175:21] easy. So we're going to load this
+- [175:23] component inside the
+- [175:27] element
+- [175:29] element.
+- [175:31] Nope. Why are you showing the
+- [175:34] error? You don't need this. Yeah, you
+- [175:36] are
+- [175:39] prop element. Yep. So element that we
+- [175:42] are going to load will look like this.
+- [175:44] So we'll have this check
+- [175:47] o. Come
+- [175:51] on. Reload this
+- [175:55] again. Check. It's not going to import
+- [175:58] this automatically. Why are you making
+- [176:00] my life
+- [176:02] harder? Import.
+- [176:05] Check off should be an uppercase
+- [176:13] one. Copy this. Paste this and go into
+- [176:17] main.js. Check oath. Now it will be
+- [176:20] giving us check off. There we go. This
+- [176:23] is going to be just a wrapper. Now the
+- [176:26] magic of this wrapper is that you can
+- [176:28] just pass on a prop here which says
+- [176:31] protected. As of now, it is not doing
+- [176:34] anything but eventually it will do in
+- [176:35] the future. So, don't worry on that
+- [176:37] part. So, protected is
+- [176:39] true. And what component you want to
+- [176:41] load here is going to be
+- [176:46] ticket. All right. This is the
+- [176:50] one. Come on. Bring the
+- [176:52] tickets. Have you brought in the
+- [176:55] tickets? I guess not.
+- [177:00] import tickets. Oh, all of them are
+- [177:04] lowerase. I need to fix this tickets.
+- [177:08] And this is the one that we'll be
+- [177:09] loading. No worries. We'll go and fix
+- [177:12] all of them. These kinds of mistakes you
+- [177:14] need to see. So, admin needs to
+- [177:19] be admin. We'll copy this. Paste this.
+- [177:25] Save this. Login needs to be
+- [177:31] login and sign
+- [177:35] up needs to be sign up.
+- [177:43] Oops. Ticket need to be
+- [177:48] ticket. Tickets also needs to be
+- [177:53] tickets. All right. Now we can come back
+- [177:55] here.
+- [177:57] This can be
+- [177:59] tickets and there we go. So now we load
+- [178:02] this and there will be another route
+- [178:04] just like this. So we can just copy
+- [178:05] paste this. Now hard part is
+- [178:08] done. This will again be
+- [178:11] slash tickets slash colon id. So
+- [178:16] somebody is requesting the id. The
+- [178:18] element is protected is true and we are
+- [178:20] loading is the ticket
+- [178:22] page or rather accurate would
+- [178:27] be ticket. We can just get a single
+- [178:30] ticket or you can go inside
+- [178:32] this and call this as ticket details
+- [178:38] page. This is the refratoring you do on
+- [178:41] the
+- [178:42] go. Copy this. go up into
+- [178:45] this ticket details page ticket details
+- [178:49] page looks better. Now let's go ahead
+- [178:51] and fix up the login routes as well.
+- [178:54] We're going to copy this paste this uh
+- [178:58] we don't need a path like this. We just
+- [179:00] need a
+- [179:01] login and protected is going to be false
+- [179:05] in this
+- [179:06] case and this will be
+- [179:09] simple login. There we go. Looks good.
+- [179:12] Let's go ahead and copy paste for the
+- [179:14] signup. It looked really tough at first,
+- [179:17] but now you're seeing the pattern. Oh,
+- [179:18] this is I know sign up. This will be
+- [179:22] false. And the component that we're
+- [179:26] going to load is sign up. There we go.
+- [179:29] We need one more for admin, I guess.
+- [179:31] Yep, we haven't added the
+- [179:34] admin. So, there we go. We'll just call
+- [179:36] this one as
+- [179:38] /admin. This one needs to be protected.
+- [179:41] So, true.
+- [179:42] And this one will
+- [179:44] be admin. There we go. So all the pages
+- [179:47] are now loaded. I hope you can see the
+- [179:49] similarity what we have done. So we have
+- [179:51] created just the fake pages. They don't
+- [179:53] work as of now. They will eventually.
+- [179:55] And we have created a component which
+- [179:57] also doesn't work but this will be
+- [179:58] responsible for checking our o and in
+- [180:01] the main.js the react router DOM comes
+- [180:03] up and says hey you will have multiple
+- [180:05] of these routes. In each one of them you
+- [180:08] will have the routes. So slash will go
+- [180:09] to the tickets if you are logged in and
+- [180:13] /t/ ID if you are logged in you can only
+- [180:16] go there and we can decide the logic
+- [180:18] that where needs to go or login or
+- [180:20] wherever we will do decide that logic
+- [180:22] part into the check o everything is
+- [180:24] wrapped up with the check off every
+- [180:26] component we load only and only after
+- [180:28] checking the authentication so this is
+- [180:30] the part login you don't need any
+- [180:32] protected for this u signup you don't
+- [180:35] need any protection for that and admin
+- [180:36] you also don't need any protection on
+- [180:38] that part. Now let's go ahead and see
+- [180:41] that how this check off actually works.
+- [180:42] This is super easy again to work. These
+- [180:45] kinds of component usually not usually
+- [180:48] almost always takes a
+- [180:52] children. Children children are nothing
+- [180:54] whenever the children are there it just
+- [180:56] means we are building an outer wrapper
+- [180:58] and somebody needs to render the
+- [180:59] component inside it. We will also
+- [181:01] receive this. I'll copy this otherwise
+- [181:04] I'll make mistake. This protected as
+- [181:06] well or we can call this as protected
+- [181:09] routes as well means one or the same
+- [181:12] thing. We'll call this one as protected
+- [181:14] route. So somebody gives us this
+- [181:17] protected route information based on uh
+- [181:19] true or false. Now here uh we are going
+- [181:23] to use couple of things. First of all
+- [181:24] let's use nate.
+- [181:27] Navigate come on. And this will come up
+- [181:30] from a hook use navigation which comes
+- [181:34] from react router DOM use navigate.
+- [181:38] Through this we will be able to push the
+- [181:40] user onto different pages. We also need
+- [181:42] a
+- [181:43] state because I want to show the loading
+- [181:45] state. We won't be doing any fancy
+- [181:47] animation but still at least text
+- [181:49] message of loading. For this we'll be
+- [181:51] using use state from react itself. The
+- [181:54] default state will be true because you
+- [181:56] are loading right now. After that as
+- [181:58] soon as this component loads so that
+- [182:00] means I want to use use effect hook
+- [182:02] that's what it does the whole job of use
+- [182:05] effect hook is to give you two things
+- [182:07] one what you want to do and when you
+- [182:09] want to do it so this is what you want
+- [182:12] to do this will happen at least one
+- [182:14] times when the component load but if you
+- [182:17] want it to do be done by something else
+- [182:19] just you pass on these dependency array
+- [182:21] or dependency list of when something
+- [182:23] happens so what is that dependency first
+- [182:26] of all if anything changes is in
+- [182:28] navigate I definitely want to change if
+- [182:31] anything changes into protected route I
+- [182:34] definitely want to rerun this checking
+- [182:36] that whether all okay or not so this use
+- [182:40] effect hook what it's going to do is
+- [182:42] first of all it's going to take the
+- [182:44] tokens from the local storage yes as
+- [182:47] soon as user sign up or login we are
+- [182:48] storing that uh token into the local
+- [182:50] storage we're not using cookies it's not
+- [182:52] my favorite way but for this application
+- [182:54] it's okay so we are going to go ahead
+- [182:56] and say local storage dot get
+- [182:59] item and the name of the item is token.
+- [183:03] We will store this into a variable call
+- [183:06] this as
+- [183:07] token. All right. Now once this is done
+- [183:10] we'll check that whether the protected
+- [183:11] is required or not. So
+- [183:13] protected route. So if it is a protected
+- [183:17] route that means it is true. So then we
+- [183:20] need to again do a check it is a
+- [183:21] protected route and you don't have a
+- [183:24] token. If it is a protected route and
+- [183:27] you don't have a token, you should loged
+- [183:29] in. That makes sense. So, we'll just go
+- [183:31] ahead and say navigate where I want you
+- [183:34] to navigate to / login. Log in. All
+- [183:38] right. What else? Else means you have
+- [183:42] the token. So, what we're going to do is
+- [183:44] in that case we're going to go ahead and
+- [183:46] say set loading and we're going to mark
+- [183:49] it as false. No need for login uh
+- [183:51] loading. Now, all right. There could be
+- [183:54] another case that if it is protected
+- [183:56] route and there could be a case if it is
+- [183:58] not the protected
+- [184:00] route. So for example login and stuff
+- [184:03] like that. So in that case we'll again
+- [184:06] check if you have token uh you should
+- [184:10] not access my login page. So these pages
+- [184:12] are something which are not protected
+- [184:15] but you have token that means you have
+- [184:17] already logged in. You should not see my
+- [184:19] sign up or login page. You should be
+- [184:20] redirected back. So in this case I'll
+- [184:23] say navigate back to the slash and
+- [184:25] automatically you'll be on the tickets
+- [184:27] page
+- [184:28] and in the else case we are going to say
+- [184:32] set loading that will be
+- [184:36] false. There we go. So this is my logic.
+- [184:39] Finally I have a state based on which I
+- [184:41] can go ahead and check. So the only job
+- [184:44] that I'll do is I'll remove this one
+- [184:48] because I don't need this. I've done all
+- [184:49] the checking. So if there is a state of
+- [184:52] loading then we are going to go ahead
+- [184:55] and say like this
+- [184:57] return a simple div that says loading.
+- [185:00] Loading always comes with three dots. It
+- [185:03] looks cool and if it is not loading then
+- [185:06] we are going to simply return the
+- [185:09] children. The whole point of returning
+- [185:12] the children is whatever the route you
+- [185:13] provide me whether that's ticket id
+- [185:16] whatever we just load that up. So we
+- [185:18] don't do any kind of uh loading and all
+- [185:20] these things. So notice here how smartly
+- [185:22] we have actually used a state a token
+- [185:25] and based on the redirection we have
+- [185:27] figured out that hey where you should
+- [185:28] go. So this is how it works. This is
+- [185:31] truly the logic of how the
+- [185:33] authentication is being checked and
+- [185:34] again in the world of NexJS we do it
+- [185:36] through the middleware. Here we are
+- [185:38] doing it manually but manually looks
+- [185:40] okay to me and actually looks
+- [185:42] good. All right so this is good. Now all
+- [185:46] we got to do is uh work on on to sign up
+- [185:50] login all of these pages. All right,
+- [185:53] quite good for this section and it was a
+- [185:55] little hicky section but I think you now
+- [185:57] understand how the real world
+- [185:59] development works and this is the
+- [186:00] beautiful part of the entire tutorial.
+- [186:03] Let's catch up in the next section.
+- [186:06] All right. So, one of the part where I
+- [186:08] truly enjoy the AI taking over the
+- [186:11] things is once I've done the logic part
+- [186:12] and when the UI just needs to loop
+- [186:14] through, I sometimes tend to use AI for
+- [186:17] that. But again, no worries on that
+- [186:18] part. I'll still walk you through all
+- [186:19] the details of it. And by the way, in
+- [186:22] case you are worrying that, hey, why
+- [186:23] this is getting too many of the squiggly
+- [186:25] line, it will get it in a minute or so.
+- [186:27] This is because it is expecting we that
+- [186:30] or especially React Router DOM that you
+- [186:32] should be working in the TypeScript. And
+- [186:34] if you open this up, you're going to
+- [186:35] notice this specially types. There is
+- [186:37] somewhere here. This is the types. This
+- [186:40] is something that is going to give you
+- [186:41] red squiggly line. You can totally
+- [186:43] ignore that. That's just your prettier
+- [186:45] or maybe your u any thing that is
+- [186:48] checking just the types for that. So no
+- [186:50] worries on that part. Uh we'll first go
+- [186:52] ahead and close all of this thing
+- [186:54] because we don't need any of them. Let's
+- [186:56] start with the sign up. Uh this is where
+- [186:58] I'll walk you through the details of how
+- [187:00] this is being done. We will do the less
+- [187:02] of the UI part because that's just input
+- [187:05] form and you have to take the value. But
+- [187:06] no worries, it will be available in the
+- [187:08] source code. Don't you get scared of
+- [187:09] that part. All right. So let's see that
+- [187:12] on the front side. Uh we'll bring up the
+- [187:15] use navigate hook. We'll use navi
+- [187:20] navi
+- [187:22] navigate. All right. And now in the
+- [187:26] signup we'll first of all need a form in
+- [187:29] which we'll store the state of email as
+- [187:31] well as password. So this will be our
+- [187:36] form set
+- [187:40] form form and set form. This will be use
+- [187:45] state email which will be initially
+- [187:49] empty. Password will also be the same.
+- [187:52] password will also be the same. All
+- [187:55] right. Uh we'll have the loading state
+- [187:58] as
+- [188:00] well. Loading set loading and that will
+- [188:04] be use state just like that. Initially
+- [188:07] it will be false. Super easy. After that
+- [188:10] we'll have a
+- [188:12] navigate not fate navigate that will
+- [188:16] come up from
+- [188:18] use navi gate. Just like that. There we
+- [188:21] go. So this is the basics preparation of
+- [188:24] it. Uh we will have a method. So anytime
+- [188:26] a form is being changed, we'll create a
+- [188:28] method of handle change which will give
+- [188:30] us an event and based on the event we
+- [188:32] can change it. Pretty basic if you have
+- [188:34] studied anytime React, we always do it
+- [188:36] like this. Handle change which will
+- [188:38] receive an event and based on the event
+- [188:42] I can just go ahead and set the form.
+- [188:45] And what value will I add in the form?
+- [188:47] First of all, I'll spread it out. the
+- [188:50] form then whatever the value is getting
+- [188:52] changed I can find that by e
+- [188:55] dot target dot name will be set
+- [189:00] to e dot target dot value all right uh
+- [189:07] pretty good pretty good okay so this is
+- [189:10] the basic part of it this is going to be
+- [189:13] done now how we're going to handle the
+- [189:15] signup this is where the magic comes up
+- [189:17] and this is where we are going to pretty
+- [189:19] much kind of a copy paste logic. It goes
+- [189:21] up there and we'll say handle sign up
+- [189:25] and for this we are going to go ahead
+- [189:27] and say a
+- [189:29] sync a sync. We'll receive an event and
+- [189:33] we'll just go like this. First of all E
+- [189:37] dot prevent suggestion please. No
+- [189:40] suggestions for me. Prevent default so
+- [189:42] that it doesn't try to submit the form
+- [189:45] anywhere. The set loading needs to be
+- [189:48] true because we are performing something
+- [189:50] and after that my favorite as you know
+- [189:52] try catch block. Now before we go with
+- [189:55] the try catch block we surely can do
+- [189:57] that. We would love to set an
+- [189:59] environment variable here also. So
+- [190:01] inside this create a new file. We'll
+- [190:03] call this one as
+- [190:05] env. And this one will be viterver
+- [190:12] url. Depends on where you are running
+- [190:14] your back end. We'll just say
+- [190:17] http/lohost. You can set up proxies as
+- [190:19] well in case you know about them. 3000/
+- [190:23] API. So this is where the basics of all
+- [190:26] request will go. Make sure you prefix
+- [190:28] this with the vit server. Not server is
+- [190:30] important. Vit underscore is actually
+- [190:32] important. Otherwise you won't be able
+- [190:34] to fetch this one. Now once this is
+- [190:37] being done then all you got to do is you
+- [190:39] can use exios, you can use uh tenstack
+- [190:41] query whatever you wish to have. We'll
+- [190:43] use the classic fetch request in itself.
+- [190:46] So in the fetch we'll use the back tix
+- [190:48] and what we want to do is dollar and we
+- [190:52] want to use this one import dot
+- [190:57] meta
+- [191:04] envirl. This is how you import
+- [191:06] environment variable. We don't load
+- [191:08] anything nothing like that. V doesn't
+- [191:09] work like that. After that we have / we
+- [191:13] have slash signup. That is it. That is
+- [191:16] all it takes. But since this is a post
+- [191:18] request we have to provide more options
+- [191:21] just like that. And the first one is
+- [191:24] going to be method. Yep that's the one.
+- [191:26] And the method that we are using is
+- [191:28] post. We have to set some headers as
+- [191:31] well.
+- [191:33] Headers. And the headers are going to be
+- [191:36] like
+- [191:37] this. Content. content dash type make
+- [191:41] sure you type it very carefully I have
+- [191:43] debugged a lot of application where I do
+- [191:46] typos like this
+- [191:49] application/json this is must have
+- [191:52] required after that we need to send the
+- [191:55] body as well and in the body we will
+- [191:58] take the JSON dot
+- [192:01] stringify the form that is all it takes
+- [192:05] to take this request and once this
+- [192:08] request is going on let's wait for it.
+- [192:10] So await and let's get the response back
+- [192:13] just like that. So once we have the
+- [192:16] response back now we want to fill this
+- [192:18] uh data. So we can just store this as a
+- [192:20] data. Uh what it's going to be giving
+- [192:23] you back you can store that into a state
+- [192:25] as well. That is totally okay. Uh or you
+- [192:28] can store that into the local storage or
+- [192:29] if you're using some state management
+- [192:31] like zustand redux redux toolkit
+- [192:34] whichever is your favorite you can just
+- [192:36] go with that. I will say await
+- [192:41] res.json just like that and we'll store
+- [192:43] that into data just like that. Feel free
+- [192:47] to store that in the state or whatever
+- [192:48] you like. Now what I want to do is I
+- [192:50] want to check whether the response was
+- [192:52] okay. If the response was okay, I would
+- [192:54] like to store that into a local storage.
+- [192:56] Simple for me. I'll say
+- [192:59] rest. If that's the case, I will invoke
+- [193:02] local storage. I will set item. The name
+- [193:06] of the item will be token. The value
+- [193:09] will be data dot token because I know
+- [193:13] the token is going to come up. Another
+- [193:15] thing that we can go ahead and store
+- [193:17] into this
+- [193:18] is we can say user if you want to store
+- [193:22] that and we can say JSON
+- [193:26] dot stringify again and data dot user
+- [193:30] because local storage doesn't store
+- [193:32] JSON. I wish it would uh it would be
+- [193:34] life so much easier but it doesn't and
+- [193:37] we will just go ahead and say navigate
+- [193:39] the user to slash that is it and in the
+- [193:43] else case oh that's important so if
+- [193:47] response is not okay we will just go
+- [193:48] ahead and say alert don't want to use
+- [193:51] alert but we don't want to install
+- [193:52] further packages into this simple
+- [193:54] application so I'll use this one or we
+- [193:58] can simply say signup failed
+- [194:02] And we can actually catch the error just
+- [194:05] like
+- [194:06] this
+- [194:09] alert
+- [194:13] signup. Something went wrong. Hate this
+- [194:16] error but still I put this and in the
+- [194:21] finally block just like this we can say
+- [194:24] set loading to be false. So anyways we
+- [194:29] are setting the loading false. Now after
+- [194:31] this whatever you return is just a
+- [194:33] signup form. I'll give you directly the
+- [194:34] signup form. No worries on that part.
+- [194:37] But this is all the logic. This is all
+- [194:39] the thing that you have to do. Now the
+- [194:41] best part about this is I can come here,
+- [194:43] click here and I can click till here and
+- [194:47] I can copy this. Yeah, literally I can
+- [194:50] copy this whole thing. Go into my login
+- [194:53] form. Just come back here. Just do like
+- [194:57] that. Uh use navigate doesn't exist. No
+- [195:00] worries. I can bring that up. I'll copy
+- [195:03] this and I will bring it up here. So
+- [195:06] here also we are doing the same thing.
+- [195:08] We are actually holding the email and
+- [195:10] password only. We have the loading state
+- [195:12] navigate. So we'll just say set form
+- [195:15] only values. Handle login would be
+- [195:18] better in this case. So I'll just go
+- [195:20] ahead and call this one as handle login.
+- [195:22] Apart from that doesn't really matter
+- [195:24] even if you call it with the same name
+- [195:26] but not a good idea.
+- [195:28] The only thing that changes up is you
+- [195:30] make a request to login. That is it. V
+- [195:35] server URL/ login. We provide the form.
+- [195:39] We do exactly same. We store the local
+- [195:41] storage. We get the user. Everything
+- [195:43] literally is same. Uh in the GitHub
+- [195:46] section, you will find the form as well.
+- [195:48] It's super easy. No big deal there. Just
+- [195:50] goes like that. And this thing is
+- [195:53] actually so much so easy that you can
+- [195:55] now exactly copy paste into the admin as
+- [195:57] well in the ticket as well and in the
+- [195:59] ticket js as well. Uh hope you have
+- [196:01] enjoyed this section. It was pretty
+- [196:03] easy. I will give you a walkthrough of
+- [196:06] rest of the things as well. But this is
+- [196:07] how exactly it takes. No big deal there.
+- [196:09] Just make a request get the data store
+- [196:12] that into your store either zustand or
+- [196:14] whatever you're using or just local
+- [196:16] storage and just take the data loop
+- [196:18] through it. If you don't know how to
+- [196:20] take the data and loop through and
+- [196:21] display things in the React, you're
+- [196:24] watching a wrong tutorial. You should be
+- [196:25] watching my React series where I inepth
+- [196:28] discussed all of these things. Let's
+- [196:30] catch up in the next
+- [196:32] video. All right. So, welcome to the
+- [196:35] final section of this video where I'll
+- [196:37] just give you a walkthrough of what we
+- [196:38] are doing. The process is exactly same.
+- [196:41] Just like we have handled the sign up
+- [196:42] and login, we collected some data in the
+- [196:45] form and then we simply go ahead and
+- [196:46] send this data to the backend API
+- [196:48] request. Get the data and store that
+- [196:50] data in local storage and stand whatever
+- [196:52] you like and this is how we do it. So in
+- [196:54] this video I'll give you a brief
+- [196:55] walkthrough of how we are handling rest
+- [196:57] of the pages because the logic is all
+- [196:59] done. It's just a matter of now don't
+- [197:02] fall into the tutorial hell. Try to do
+- [197:04] things on your own. That's how you learn
+- [197:06] programming. I will give you the whole
+- [197:07] source code as well. I'll still give you
+- [197:09] a walkthrough of what's remaining part
+- [197:10] of it. But I highly recommend to add at
+- [197:12] least one or two feature on your own and
+- [197:14] try to finish this project with more
+- [197:16] features. That is the only way to learn
+- [197:18] programming. Most of the people at this
+- [197:20] point they want everything to be
+- [197:22] finished. Surely it is all finished.
+- [197:23] It's all on the GitHub. But the goal is
+- [197:25] to write code on your own with your own
+- [197:28] thinking. And if you're missing that,
+- [197:29] you are not learning programming to be
+- [197:31] honest. So let me walk you through with
+- [197:33] this. So I'll take you on to the pages
+- [197:35] that we have already done. So notice
+- [197:36] here the signup logic that we have
+- [197:38] written is exactly same. We have the
+- [197:39] handle sign up uh handle change. We have
+- [197:42] the signup part. This is all we have
+- [197:44] seen and written together. All we are
+- [197:45] doing same. After this what's come up is
+- [197:48] this part. So we have handle signup
+- [197:50] which is written on the form. We have
+- [197:52] this input field which has the form
+- [197:55] email as a value and handle change. Same
+- [197:57] goes for the password. And we simply
+- [197:59] submit it. How difficult was it? Now
+- [198:02] surely the form controls and all these
+- [198:04] these things CSS this is not a tutorial
+- [198:06] for this so you get the idea same goes
+- [198:09] for the login as well notice here if I
+- [198:11] come back here it's exactly same handle
+- [198:13] login the input field a copy of the
+- [198:16] input field again same goes there now if
+- [198:19] you want to go ahead and see all the
+- [198:21] tickets again uh we are setting up a
+- [198:23] form to see all the tickets we create a
+- [198:25] method for fetch tickets and we load
+- [198:28] this fetch ticket on the use effect that
+- [198:29] means I want to initially load it as
+- [198:31] soon as The page loads in here. We
+- [198:33] simply send a request on tickets which
+- [198:35] is a get request. It gives me all the
+- [198:37] data. I hold them into a variable and
+- [198:40] then I simply loop through it. If
+- [198:42] looping through the values sounds oh
+- [198:44] this is too much for me then surely you
+- [198:47] need to work a little bit more. This is
+- [198:49] the only piece of code that you should
+- [198:51] be worried. This piece. Yeah. From here
+- [198:54] to here that is it. Look at this. We
+- [198:56] take a link. We simply extract the key.
+- [198:59] Then we simply put the key to some
+- [199:01] variable or some link. Here we simply
+- [199:03] say ticket.title ticket dot description
+- [199:06] created at that is it. Yeah, literally
+- [199:09] that is it. Similarly in the admin page
+- [199:11] whatever the admin endpoints we have
+- [199:13] created we just simply mark for them.
+- [199:15] For example this is o/ users to get all
+- [199:18] the users. We have this handle edit
+- [199:20] click which simply does nothing. Uh it
+- [199:23] just handles the update the roles and
+- [199:25] everything. We have the handle update
+- [199:27] which simply says update user. We send
+- [199:28] the request there, get all of this data
+- [199:31] and that is it. So if this is too much
+- [199:34] for you, uh definitely you should watch
+- [199:36] my series or on my Udemy course. I have
+- [199:38] a full uh in-depth of the react going
+- [199:41] on. This is like too boring, too basics.
+- [199:43] But still, I'm giving you all the pages
+- [199:45] and everything. And once again, I
+- [199:47] mentioned don't worry about this node
+- [199:48] modules. This is just mentioning that
+- [199:50] hey, why are you not using types?
+- [199:51] Because I'm in JavaScript, not in
+- [199:53] Typescript. Don't worry, that's okay. So
+- [199:55] this application is now completely in
+- [199:58] the working format. You also get an idea
+- [200:00] of how it is working, why it is
+- [200:02] happening. We focused entirely in this
+- [200:04] application more on the logical part
+- [200:06] which is the most important part of it.
+- [200:08] Logic simply means how you can build AI
+- [200:11] apps. Not just AI apps, you learned how
+- [200:13] to build the background workers. You
+- [200:15] also learned how to work with the
+- [200:17] agentic frameworks. One of the best
+- [200:19] agentic frameworks that we have. We have
+- [200:21] also learned how we can work multiple
+- [200:23] pipelines of the things and trust me uh
+- [200:26] this such thing whole thing people build
+- [200:29] a course around it and for for a really
+- [200:32] long hours more than 40 30 hours of the
+- [200:35] course but what I've tried down here is
+- [200:37] shrinking down the knowledge as much as
+- [200:39] precise as possible and give you enough
+- [200:41] of the confidence that whenever anything
+- [200:43] task like that comes to you you can
+- [200:45] replicate this code as it is and can
+- [200:46] build enormous application. I will bring
+- [200:49] more such applications and more such
+- [200:51] knowledgeable videos in the future as
+- [200:53] well. So in case you haven't checked out
+- [200:54] my channel, go ahead and check out Hesh
+- [200:56] Code Lab. Subscribe to that and I will
+- [200:58] definitely bring more to that. If you
+- [201:00] happen to speak Hindi as well, go ahead
+- [201:02] and check out my other channel code
+- [201:04] which is also pretty fun. That is it for
+- [201:06] this video. Hope you have enjoyed this.
+- [201:08] Please leave a comment and a thumbs up.
+- [201:10] I really look forward to all the
+- [201:12] comments that comes up. Whenever I wake
+- [201:14] up, I look at them and this actually
+- [201:16] makes my day. So consider this as my
+- [201:18] small feast for this video. That is it
+- [201:20] for this one. Let's catch up in the next
+- [201:22] one.

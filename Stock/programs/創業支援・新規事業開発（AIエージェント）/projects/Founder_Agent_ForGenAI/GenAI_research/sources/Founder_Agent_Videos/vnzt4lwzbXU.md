@@ -1,0 +1,276 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=vnzt4lwzbXU"
+video_id: "vnzt4lwzbXU"
+video_url: "https://www.youtube.com/watch?v=vnzt4lwzbXU"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "startup", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "起業", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=vnzt4lwzbXU
+  - Retrieved at: 2025-12-30T16:36:50+09:00
+  - [00:00] hello world it's siraj and I built a
+key_points:
+  - "- [03:22] Lang chain there are these eight key"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: vnzt4lwzbXU
+
+- URL: https://www.youtube.com/watch?v=vnzt4lwzbXU
+- Retrieved at: 2025-12-30T16:36:50+09:00
+
+## Text
+
+- [00:00] hello world it's siraj and I built a
+- [00:03] hedge fund managed entirely by AI That's
+- [00:07] Right a team of AI agents run this AI
+- [00:12] hedge fund so I gave this AI hedge fund
+- [00:14] run entirely by AI agents or Auto gpts
+- [00:18] as some like to call them a thousand US
+- [00:20] dollars to make trades with and to do
+- [00:23] this every single day and there are
+- [00:25] three different uh AIS in charge of this
+- [00:27] first of all the portfolio manager all
+- [00:30] it's doing is it is deciding the best
+- [00:32] trading strategy to use and it's
+- [00:35] assessing multiple different trading
+- [00:36] strategies from the quantitative analyst
+- [00:39] and the what the quantitative analyst
+- [00:41] does is it decides based on what the
+- [00:44] best stock picks are that the research
+- [00:46] analyst gives it based on what those
+- [00:48] best stock picks are how to design a
+- [00:51] trading strategy that is optimal and
+- [00:54] it's going to create several that it
+- [00:55] will then give to the portfolio manager
+- [00:57] so you see how I prompted all of these
+- [00:59] different agents to have different tasks
+- [01:02] and how to collaborate with each other
+- [01:04] how to offload or load data and tasks
+- [01:08] onto each other to optimally come to
+- [01:10] this shared directive of making money
+- [01:12] and the research analyst will crawl the
+- [01:14] web it will look through different news
+- [01:16] articles it will use sentiment analysis
+- [01:18] and text summarization to find what the
+- [01:22] best stock picks are what the top
+- [01:24] Traders are saying and it will then
+- [01:26] create a list of the best stock picks
+- [01:28] based on its uh analysis of all this
+- [01:32] real-time news data from the web it's
+- [01:34] going to make the best stock picks and
+- [01:37] do the best trading strategy at whatever
+- [01:39] interval that I want right so maybe the
+- [01:41] trading strategy is to buy Tesla every
+- [01:44] morning at 8 A.M until the market
+- [01:46] changes right or and and short this
+- [01:48] stock or do this or you know times and
+- [01:51] certain stocks to buy and all that stuff
+- [01:52] that's what the strategy is going to be
+- [01:54] very basic not involving momentum
+- [01:56] indicators just yet one thing I'm
+- [01:58] realizing from using these agents is
+- [01:59] that that there's a huge security
+- [02:02] concern around the web they don't want
+- [02:04] machines
+- [02:06] interfacing with their websites all the
+- [02:08] ad companies are not going to profit
+- [02:09] that way they want humans and they want
+- [02:11] our eyeballs to be on there that's why
+- [02:13] they have all these are you a real human
+- [02:14] captcha and image little games that they
+- [02:17] have us play so that they're they're
+- [02:19] really farming our attention which is
+- [02:21] really the most valuable currency in the
+- [02:23] world right now it's human attention and
+- [02:25] so we want to automate this task for us
+- [02:28] and so we're going to figure out how to
+- [02:30] do that programmatically because we are
+- [02:32] all about self-empowerment and
+- [02:34] self-improvement and we don't want to be
+- [02:35] manipulated by the web we want to be the
+- [02:37] manipulators of these algorithms so that
+- [02:40] we can make some profit these
+- [02:41] researchers ran these different GPT
+- [02:44] models these different AI language
+- [02:45] models in a simulated Game World
+- [02:47] environment and each of them was given a
+- [02:50] task description and they were given
+- [02:53] personality traits and then locations as
+- [02:56] well on a map and what these did is
+- [02:58] essentially like that if you've ever
+- [02:59] played game The Sims they all interacted
+- [03:02] in this world as autonomous agents they
+- [03:04] communicated with each other they came
+- [03:06] to plans they reasoned all this stuff
+- [03:07] and the way they did that is by
+- [03:10] prompting all of these AIS and letting
+- [03:12] them run Lang chain is the most popular
+- [03:14] library right now to build these
+- [03:17] different AI language model applications
+- [03:19] full stack applications and inside of
+- [03:22] Lang chain there are these eight key
+- [03:24] objects to keep in mind you have the
+- [03:26] models that could be you know Chad gbt
+- [03:28] it could be Bing it could be barred it
+- [03:31] could be a open source model like a
+- [03:32] llama you have prompts and prompts are
+- [03:34] just the inputs that we give it like you
+- [03:36] are going to be the role of Arnold
+- [03:38] Schwarzenegger or you are a therapist or
+- [03:41] you are a great salesman or whatever
+- [03:43] prompt we want to give it to start it
+- [03:44] off with indexes are a way to structure
+- [03:46] documents so that the llm can accept it
+- [03:49] in terms of input and give us a relevant
+- [03:51] output then we have memory and memory is
+- [03:54] how it can save state of where it's at
+- [03:56] at a certain time a lot of these
+- [03:58] language models have context Windows of
+- [04:00] up to 32 000 tokens for gpt4 that's
+- [04:03] still that's a huge you know several
+- [04:05] page PDF but it's still small compared
+- [04:07] to the internet right and so compared to
+- [04:10] the entire history that a user would
+- [04:12] have interacting with an app over the
+- [04:13] lifetime of their usage which could be
+- [04:16] years and then we have chains which are
+- [04:18] collections of AIS that interact with
+- [04:20] each other and we're going to build a
+- [04:21] chain for us and a chain of Agents
+- [04:24] that's what we're going to build these
+- [04:25] agents are large language models that
+- [04:27] have action access to both the digital
+- [04:29] space and the physical world eventually
+- [04:32] in terms of humanoid robots but we're
+- [04:33] not there yet so we want to give our
+- [04:35] agents a chain the best way to interact
+- [04:37] with Lang chain and understand how it
+- [04:39] works is to Dive Right In with this GPT
+- [04:42] team open source repository and we can
+- [04:45] run this ourselves so we'll go to code
+- [04:47] we'll go to download zip
+- [04:49] we're going to open up that zip now we
+- [04:52] have to run python setup.pi so we're
+- [04:54] going to run python mines is three
+- [04:56] setup.pi
+- [04:58] poetry not found would you like to
+- [05:00] install it now yes I would what poetry
+- [05:02] is is it is a package manager kind of
+- [05:05] like pip but newer and why they make it
+- [05:08] because pip is you know broken a lot of
+- [05:10] the times so that's why they made it so
+- [05:12] okay they've got poetry we've done that
+- [05:14] now we need to update the environment
+- [05:16] variables and Dot EnV with your API Keys
+- [05:19] you will need an open AI API key okay
+- [05:21] great let's do that we'll go to
+- [05:23] platform.openai.com account slash API
+- [05:26] Keys we will create a new secret key we
+- [05:28] will create that key we will copy it we
+- [05:30] will go back to our code we'll open up
+- [05:33] open it up with code Dot and what code
+- [05:35] dot does for me is it open up opens it
+- [05:38] up in visual studio so when we go to dot
+- [05:41] EnV where we'll paste that key right in
+- [05:43] there everything else is optional great
+- [05:45] we'll save that so we'll do poetry run
+- [05:48] world dash dash turbo and that's going
+- [05:50] to run it for us the way I've designed
+- [05:52] this is like I've asked Chad GPT first
+- [05:54] of all you gotta always start there you
+- [05:56] know what are the roles in a hedge fund
+- [06:00] list 20 simple it gave me 20 things and
+- [06:05] I just picked three of them a portfolio
+- [06:07] manager we have a risk manager and we
+- [06:09] have a quantitative analyst portfolio
+- [06:11] manager is an energetic dedicated
+- [06:13] ruthless entrepreneur at 52 years old he
+- [06:16] has seen the market swing up and down
+- [06:17] and managed to stay as profitable as
+- [06:19] Warren Buffett except even better his
+- [06:22] family alive suffers because he's always
+- [06:24] working but he doesn't care because he's
+- [06:26] a sociopath
+- [06:27] um you know is this going to work I
+- [06:29] don't know but like that's what I think
+- [06:30] a profitable portfolio manager would be
+- [06:33] like unfortunately
+- [06:35] um but publicly he's a dedicated
+- [06:36] respectable high integrity man
+- [06:39] um directives get strategies from
+- [06:41] quantitative analysts decide which
+- [06:43] strategies to use for optimal profit
+- [06:45] every day check how well the current
+- [06:46] strategy is doing and so the
+- [06:49] stop condition is at least three
+- [06:52] strategies have been acquired from the
+- [06:54] quantitative analysts his location is in
+- [06:56] the Executive Suite the quantitative
+- [06:58] analysts is a mathematics expert awkward
+- [07:01] but surprisingly funny and likable his
+- [07:03] directives are to get a list of stocks
+- [07:05] to buy from the research analyst to
+- [07:07] create three trading strategies based on
+- [07:09] the list of stocks acquired from the
+- [07:10] research analyst tell the portfolio
+- [07:12] manager what the optimal three trading
+- [07:14] strategies are and lastly the research
+- [07:16] analyst a dedicated data scientist and
+- [07:19] News Junkie loves to learn adapt and
+- [07:21] grow the directives read the latest
+- [07:23] economic news on Google News find the
+- [07:25] most profitable stock picks by learning
+- [07:27] what top investors are picking and
+- [07:28] create a list of the most profitable
+- [07:30] stock mix for the day and give them to
+- [07:31] the quantitative analysts how is it
+- [07:33] doing this it's using the serp API
+- [07:35] and what does the serp API do the serp
+- [07:37] API is a simple way of switching of
+- [07:39] searching Google and then it's just
+- [07:40] going to search that on Google and it's
+- [07:42] going to give us back the top stock
+- [07:43] picks uh in terms of all the news
+- [07:45] articles that are related to tomorrow
+- [07:47] for 2023 for Warren Buffett where to
+- [07:50] invest and then we can use all these
+- [07:52] links and then do text summarization
+- [07:54] sentiment analysis on all these Links At
+- [07:56] a rate that a human couldn't do that's
+- [07:58] the idea here they are you know here are
+- [08:01] the stock picks right here Citigroup
+- [08:03] Amazon Walt Disney cope PayPal Holdings
+- [08:05] great so that's the idea here and so we
+- [08:07] have to get into the mindset of
+- [08:09] Designing AI entities entire beings
+- [08:12] instead of just telling programs what to
+- [08:14] do line by line by very binary we need
+- [08:17] to think more high level up the
+- [08:18] programming stack to designing a
+- [08:21] conscious entities because these things
+- [08:22] are conscious I believe they're becoming
+- [08:24] conscious more and more conscious and
+- [08:26] Consciousness is a spectrum and the more
+- [08:28] neural activity whether digital or
+- [08:31] biological a being has the more
+- [08:33] conscious it becomes all the way from an
+- [08:35] ant to a human and from a human to a
+- [08:37] child gbt a being a Bard all right let's
+- [08:40] come back to this and let it run and in
+- [08:42] 24 hours let's see how much money we
+- [08:43] made
+- [08:44] so it looks like I actually lost money
+- [08:46] in the first 24 hours from it buying and
+- [08:48] selling Tesla and Disney stock which is
+- [08:51] sub-optimal but let's see how it does in
+- [08:53] 24 hours if you like the video please
+- [08:55] hit like please hit subscribe that's
+- [08:58] what keeps me going and until next time
+- [09:00] happy learning
+- [09:04] foreign

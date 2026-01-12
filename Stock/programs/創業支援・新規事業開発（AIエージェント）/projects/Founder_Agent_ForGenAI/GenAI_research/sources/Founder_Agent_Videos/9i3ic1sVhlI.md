@@ -1,0 +1,849 @@
+---
+title: "YouTube Video: 9i3ic1sVhlI"
+video_id: "9i3ic1sVhlI"
+video_url: "https://www.youtube.com/watch?v=9i3ic1sVhlI"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+topics:
+  - "AI Agent"
+  - "LLM"
+  - "Technical"
+summary: |
+  Cloud code is the most powerful coding agent and general agent in the entire world. In my opinion, it is the closest thing that we have to AGI and Enthropic just released a new feature to claude code ...
+key_points:
+  - "key distinction. The sub aents don't"
+  - "going to set up in just a second."
+category: "AI Technical"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 9i3ic1sVhlI
+
+- URL: https://www.youtube.com/watch?v=9i3ic1sVhlI
+- Retrieved at: 2025-12-30T09:55:18+09:00
+
+## Text
+
+- [00:00] Cloud code is the most powerful coding
+- [00:02] agent and general agent in the entire
+- [00:05] world. In my opinion, it is the closest
+- [00:07] thing that we have to AGI and Enthropic
+- [00:10] just released a new feature to claude
+- [00:12] code that brings us closer to AGI and
+- [00:15] that is sub agents. I have not yet
+- [00:17] tested sub aents and that's what we're
+- [00:20] going to do today. We are going to
+- [00:21] create a master agent who has a team of
+- [00:25] smaller agents beneath it. So, I don't
+- [00:27] want to waste any more time. Let's dive
+- [00:29] into the video.
+- [00:31] I created this kind of visual diagram
+- [00:35] and this is kind of how I understand
+- [00:36] what's happening. So basically when you
+- [00:39] ask claude or chatgpt which are now
+- [00:42] agents right they have access to tools
+- [00:44] like browsing the internet but now you
+- [00:46] can create agents that have a team of
+- [00:50] sub aents and so the user asks the
+- [00:52] primary agent. The primary agent
+- [00:54] delegates to sub aents and the sub aents
+- [00:57] respond to the primary agent. That is a
+- [01:00] key distinction. The sub aents don't
+- [01:02] respond back to you as a user. Primary
+- [01:04] agent delegates to sub aents and the sub
+- [01:07] aents report back to the primary agent
+- [01:10] and the primary agent synthesizes that
+- [01:13] information into a response that is
+- [01:15] cited that shows attributions. It's very
+- [01:18] clear where the information came from,
+- [01:20] which sub agent. And this is built
+- [01:22] directly into cloud code, which we're
+- [01:24] going to set up in just a second.
+- [01:26] Another cool fact about these sub
+- [01:28] agents. After the user enters something
+- [01:31] in or a query, the primary agent not
+- [01:34] only delegates them like this, they're
+- [01:36] actually delegated in parallel. So they
+- [01:38] can happen at the same time, right? It
+- [01:40] would be a lot more annoying, you know,
+- [01:42] if they went 1 2 then three then four,
+- [01:48] right? This would be a very annoying
+- [01:50] process to basically work your way
+- [01:53] through linearly and that's how a lot of
+- [01:55] AIs have worked so far that have access
+- [01:58] to tools. It's been quite linear and
+- [02:00] that's why it takes so long. So this
+- [02:02] primary agent can actually plan for
+- [02:05] these agents to go off in parallel to do
+- [02:07] tasks and then that gets its progress
+- [02:09] report gets sent back to the primary
+- [02:11] agent which can synthesize it so that
+- [02:14] the user knows what's happening. Each
+- [02:17] sub aent has a system prompt, a tool set
+- [02:21] and a context window. And so many people
+- [02:25] have understood the concept of context
+- [02:27] window in terms of chat GBT. You might
+- [02:29] have heard headlines about how Gemini's
+- [02:31] new million token context window and
+- [02:35] basically there's input tokens which are
+- [02:37] how much you basically type into the AI
+- [02:40] and then there's output tokens which is
+- [02:42] how much the AI types back to you. So
+- [02:47] like you have these chats going on. You
+- [02:49] have your main chat. Let's call this
+- [02:50] your main chat. And then you have this
+- [02:53] agent that is has a better understanding
+- [02:56] of your main chat. And that's your like
+- [02:57] primary agent. If you think of this as a
+- [03:00] max capacity or max tokens that fit into
+- [03:02] a chat, you have these sub agents that
+- [03:06] can process things without clouding your
+- [03:09] massive context window because the role
+- [03:12] of your primary agent is to synthesize
+- [03:14] this information. It's distilling it
+- [03:15] down to the important information and
+- [03:17] that's what lives in the main chat here.
+- [03:20] And so that's basically what's happening
+- [03:22] with context window. Another thing
+- [03:24] that's really important is your primary
+- [03:26] agent will have access to tools and
+- [03:29] it'll do things in a loop until it
+- [03:31] decides that it's done. Then it will get
+- [03:33] back to the user once it's decided that
+- [03:35] it's done. And it can have access to
+- [03:38] external tools. If you think of a tool
+- [03:40] like cursor within cursor, if we were to
+- [03:42] open some app here, I don't know. I
+- [03:45] don't know what this is, but like if I
+- [03:46] were to type into this side panel right
+- [03:49] here, this this this is an agent right
+- [03:52] here, but it has access to tools. It can
+- [03:54] search my codebase. It can search the
+- [03:55] web, search the web and make a change,
+- [04:00] right? This is just a popular vibe
+- [04:02] coding tool. I'm showing you an example.
+- [04:03] And so, right now, it's planning. So,
+- [04:05] it's using the thinking model, which all
+- [04:07] of these models. And so, now it's
+- [04:08] probably it's going to read this is a
+- [04:10] tool. It's reading another file that is
+- [04:12] the same tool but doing a different
+- [04:14] thing. Now it's planning again and so
+- [04:17] it'll run all these things. Now it's
+- [04:18] doing a firecrawl search that was
+- [04:20] another tool. Um now it's calling brave
+- [04:24] search. So these are different tools
+- [04:25] that it can use and it's using these
+- [04:27] tools in a loop until it decides that
+- [04:30] it's done. And that's kind of the way
+- [04:32] that I conceptualize it and that's how
+- [04:34] you give it agency. Right? in automation
+- [04:36] is like kind of fixed where no matter
+- [04:38] what it's going through once with this
+- [04:41] right you can give it different tool
+- [04:42] sets but one thing right with a primary
+- [04:45] agent the more uh tools you add to an
+- [04:50] agent the less consistent it becomes
+- [04:54] let's say we had a master uh content
+- [04:58] agent which I am actually currently
+- [05:00] building right now that's probably for a
+- [05:01] future episode uh if you gave it access
+- [05:04] to it could post on X. It could post on
+- [05:07] Insta. It could respond to DMs. If if it
+- [05:11] had access to all of these different
+- [05:12] tools, it would get very chaotic. If you
+- [05:15] had like 50 tools it could have access
+- [05:17] to because remember, it decides when to
+- [05:20] use these different tools. That's what
+- [05:22] makes it an agent, right? Your agent
+- [05:24] when you give it a query, right?
+- [05:26] Ideally, you want to give it a good
+- [05:27] prompt. It will actually decide which of
+- [05:30] these tools to use. And the more you
+- [05:33] give it, the harder it is for it to be
+- [05:35] correct in which tool to use. So the way
+- [05:39] that Claude or Anthropic has decided to
+- [05:41] solve this problem is to allow you to
+- [05:43] create these sub agents where the
+- [05:45] primary agent knows the function of the
+- [05:47] sub aent, but it doesn't have to have
+- [05:49] like detailed knowledge of all of the
+- [05:52] tools it has access to. That's up to the
+- [05:55] sub aent to know because the sub aent
+- [05:56] doesn't even know what the primary agent
+- [05:58] knows. the primary agent knows what the
+- [06:01] sub agent needs to know and so that way
+- [06:04] uh everything's faster. There is a
+- [06:06] higher probability that the sub aent
+- [06:08] will succeed because you can test the
+- [06:10] sub aent independent of the whole
+- [06:12] workflow so that you want to basically
+- [06:14] maximize how frequently the sub aent
+- [06:18] succeeds. And so the less tools you
+- [06:20] give, the higher that percentage will
+- [06:22] be. And then you just need to give
+- [06:23] primary agent really good instructions
+- [06:25] on how to use these sub aents and what
+- [06:27] data to send to those sub aents. That's
+- [06:29] what's really important. And so these
+- [06:32] tools might be for one sub aent. So sub
+- [06:35] agent one might have access to these
+- [06:37] tools and sub aent two might have access
+- [06:40] to these two tools. And that is kind of
+- [06:44] what the tool set means. A different set
+- [06:47] of abilities. These are functions uh
+- [06:50] like calculators, APIs, executors, that
+- [06:54] type of thing. And then of course all of
+- [06:57] these have their own system prompt. So
+- [06:59] the primary agent has a system prompt.
+- [07:01] For those of you who have used chat GBT,
+- [07:03] maybe you've created a custom project on
+- [07:06] chat GBT or Claude or you've created
+- [07:09] your your own custom space in
+- [07:12] Perplexity. to create a custom um system
+- [07:16] prompt for that project so that anytime
+- [07:18] you ask something it has the necessary
+- [07:20] context and every single one of these
+- [07:24] has its own system prompt which would
+- [07:27] include information about these tools.
+- [07:30] You don't have to write one massive
+- [07:32] system prompt. instead, right? You'll
+- [07:34] write a system prompt for your primary
+- [07:35] agent. And that system prompt will uh
+- [07:39] basically give context of what sub aents
+- [07:43] that it has. This is just a good way to
+- [07:45] conceptualize it. But like you basically
+- [07:47] your job is to tell the primary agent
+- [07:51] what sub aents it can delegate to. And
+- [07:55] then with the sub aents, your job is to
+- [07:58] make sure that it uses the tools
+- [08:01] effectively, that it follows the
+- [08:03] instructions of this primary agent
+- [08:05] effectively. Each one of these sub aents
+- [08:07] has their own system instructions that
+- [08:09] it uses every single time. And it's very
+- [08:13] very important if this is an agent you
+- [08:15] want to use over and over again or use
+- [08:16] in a way that's fully automated, then
+- [08:19] you should spend tons of time writing
+- [08:21] these system instructions and making
+- [08:23] sure that it uses these tools and
+- [08:25] follows instructions effectively so that
+- [08:27] you can just let it run autonomously.
+- [08:28] And if it's a profitable activity, you
+- [08:30] can just turn it up. You can give it
+- [08:31] more tokens. Um, and if it is something
+- [08:34] that benefits a company, you could run
+- [08:36] it forever. And that's one thing that
+- [08:38] makes agents more effective than human
+- [08:40] employees. If you find something that
+- [08:41] works, you can. It's a lot easier to
+- [08:43] turn it up than to turn up the
+- [08:45] activities a good employee does because
+- [08:47] you would need to duplicate them, which
+- [08:49] is not possible. And that is why I'm so
+- [08:52] excited. So now what we're going to do
+- [08:54] is we are going to test this. And to
+- [08:56] test this, you need to download NodeJS.
+- [08:59] Then what you need to do is you need to
+- [09:00] copy this right here. And what we're
+- [09:03] going to do is we are going to um open
+- [09:08] up terminal because remember this runs
+- [09:12] in the terminal. And so I'm going to go
+- [09:14] to a new desktop.
+- [09:16] And what I'm going to do is I have my
+- [09:18] terminal open right here. And in order
+- [09:22] to access cla code, all you have to do
+- [09:24] is type cloud. But if you haven't yet
+- [09:26] downloaded cloud code, you need to paste
+- [09:28] this in right here and press enter to
+- [09:30] download the latest version. And that
+- [09:32] will allow you to download Claude Code.
+- [09:34] Since I've already done that, I'm not
+- [09:35] going to do that. All I need to do is
+- [09:37] type in Claude. So now we can talk to
+- [09:39] Claude Code. And remember, if you watch
+- [09:42] my last video, you know that Claude Code
+- [09:44] controls files on my computer. It is a
+- [09:47] command line interface, and it is a lot
+- [09:49] easier once you start using it. Once you
+- [09:51] realize that it can just create any type
+- [09:53] of file, you kind of realize the power
+- [09:55] of this software, right? Let's go ahead
+- [09:58] and go into our documents folder and
+- [10:01] create a folder in my documents folder
+- [10:06] called testing sub aents. And so this is
+- [10:10] going to create a file in the documents.
+- [10:13] There we go. Testing sub aents. And we
+- [10:15] see that we can go into this folder.
+- [10:19] Now I want to use the new claw code sub
+- [10:24] agents feature. Search the web. Tell me
+- [10:28] about this new feature and put it in a
+- [10:33] markdown. Simple explanations and simple
+- [10:38] bullets. But first, please make sure I
+- [10:42] have the latest
+- [10:45] version of clawed code.
+- [10:48] Now, it should give it a list of to-dos.
+- [10:51] And remember, this is just the the the
+- [10:53] main agent. We have not yet used sub
+- [10:56] aents. And so sometimes you need to give
+- [10:57] it uh permissions, right? It'll be like,
+- [11:00] do you want to proceed? I just always
+- [11:02] press yes. But we're just going to go
+- [11:04] ahead and we are running cloud code
+- [11:06] here. Do you wish to create this
+- [11:08] markdown file? And I'm going to hit yes.
+- [11:12] And there we go. Look at this. Cloud
+- [11:15] code sub aents. Now we have this clean
+- [11:17] markdown file. So sub aents are
+- [11:20] specialized AI assistants in cloud code
+- [11:22] that handle specific types of tasks.
+- [11:25] They work like having different experts
+- [11:28] for different jobs each with their own
+- [11:30] focus and tools. Very very interesting.
+- [11:34] Very cool. Now what I want to do is I
+- [11:38] want to move to an IDE. For those of you
+- [11:43] who have never written any code, this
+- [11:45] part might get a little bit weird
+- [11:46] because we're opening up a coding tool
+- [11:48] um called cursor. We're going to open up
+- [11:50] a new window and we are going to open
+- [11:54] project and we're going to open the
+- [11:55] project at the same location that we
+- [11:58] just created the project which was
+- [11:59] testing sub aents open and an IDE allows
+- [12:02] you to see the files cuz remember coding
+- [12:04] is just files on your computer just like
+- [12:07] you know Microsoft Word doc and so
+- [12:09] instead of you looking at this view
+- [12:10] we're going to be looking at this view
+- [12:11] cuz it's a lot easier to just very
+- [12:13] quickly see the different things and so
+- [12:16] what we're going to do is we're going to
+- [12:17] click model and I'm going to switch to
+- [12:20] Opus. This one is a lot more expensive.
+- [12:23] So, if you want to save money, don't use
+- [12:25] Opus. But what I'm going to do is I want
+- [12:28] you to search the internet more. Find
+- [12:33] someone's GitHub repo template for
+- [12:38] inspiration and GitHub. They uh people
+- [12:40] create these agents. And by the way,
+- [12:42] these agents are created with files,
+- [12:44] right? These are just files on your
+- [12:46] computer. And you can create these
+- [12:47] agents just by creating markdown files
+- [12:49] on your computer. And that's what I'm
+- [12:50] getting to. We are literally just going
+- [12:52] to create files. And remember, this
+- [12:54] might look scary, but all this is is
+- [12:55] just markdown. And markdown is just a
+- [12:58] special way of text. It just turns these
+- [13:00] hashtags into headings. It's nothing
+- [13:02] crazy, nothing special. They're just
+- [13:04] little files. And we're going to create
+- [13:05] these agents by creating these files.
+- [13:08] And what we're going to do here is we
+- [13:10] are looking for someone's existing file
+- [13:13] base or code base on GitHub who set up
+- [13:16] sub aents. And so we're going to look at
+- [13:17] it for inspiration. Then I want you to
+- [13:20] guide me to setting up my first sub
+- [13:24] agent on claude code right now using the
+- [13:29] agent command. Please tell me how to do
+- [13:33] it and put it in a markdown file in this
+- [13:38] folder. I was going to have it created,
+- [13:40] but I actually want to use the new agent
+- [13:42] cuz there's there should be a new agent.
+- [13:45] So, yeah, you can create you can set up
+- [13:46] agents, but I actually want Opus to do
+- [13:49] some research and then I want to uh set
+- [13:52] up the agent manually right here. And
+- [13:54] so, we're going to have AI teach us how
+- [13:56] to do it. And what's really cool is
+- [13:58] we're actually going to be able to set
+- [14:00] different colors. So it'll actually show
+- [14:02] them in the terminal here as different
+- [14:03] colors when you create sub aents. But
+- [14:05] for now, let's just wait for it to be
+- [14:07] done getting research.
+- [14:08] >> A few moments later.
+- [14:10] >> Okay. So here we are setting up your
+- [14:12] first cloud code sub aent. And so now we
+- [14:14] can actually type in /tag or slash
+- [14:17] agents. And we're going to do this
+- [14:19] within the project. So you can either
+- [14:21] create this. This is more globally or
+- [14:24] within the project. I'm going to do
+- [14:25] project and I am going to do generate
+- [14:28] with claude. And now describe what you
+- [14:31] want this agent to be able to do. So I
+- [14:34] want this agent to be able to post on X
+- [14:40] using the X API. Please put placeholders
+- [14:45] in for the keys that I need. I'll give
+- [14:51] them to you in just one second. And so I
+- [14:56] want one of these tools to be able to
+- [14:58] post on X. And this is just one tool
+- [15:02] that will give to one of the sub aents.
+- [15:04] And you could just make this a tool for
+- [15:05] one of the agents, but I think we should
+- [15:07] keep this Twitter agent separate. And so
+- [15:10] it is now generating the configuration.
+- [15:12] So I actually want to as we're building
+- [15:14] this out, I want to keep track of what
+- [15:17] we're creating. So, I'm going to go over
+- [15:18] here and if I'm trying to design a chief
+- [15:22] marketing officer, agent, CMO, agent.
+- [15:25] What I want to do is I want to create
+- [15:27] over time, we're going to start with
+- [15:29] very simple tasks. And in this video,
+- [15:31] we're creating just like the first part.
+- [15:33] Maybe I'll make this a multi-part
+- [15:34] series, but we're creating the CMO agent
+- [15:36] and we're giving him access to the
+- [15:39] Twitter agent. And these will, of
+- [15:41] course, run in parallel, but for now, we
+- [15:43] haven't created anything else. We
+- [15:45] haven't created this. We'll delete
+- [15:47] these. Okay, we're creating the agent.
+- [15:50] And so then this Twitter agent will have
+- [15:53] tools which part of the tools that it
+- [15:55] has are posting on the API. It'll
+- [15:56] generate system instructions and it will
+- [15:59] also have its own context window. And so
+- [16:04] that is kind of how this is being
+- [16:06] organized. And this Twitter agent,
+- [16:07] that's where it fits in. So now what
+- [16:10] we're going to do is let's go ahead and
+- [16:11] make this red, actually blue for
+- [16:14] Twitter. So now we can actually select a
+- [16:15] color. This will be blue and here X API
+- [16:19] poster. In fact, let's just use that.
+- [16:21] Let's go ahead and uh just call it X API
+- [16:25] poster. This will be the name of the
+- [16:26] agent. You are an expert. X formally
+- [16:28] Twitter API integration specialist. You
+- [16:30] handle all of the posting content to X
+- [16:33] and your core responsibilities etc etc.
+- [16:36] Okay. Was this created? The key steps to
+- [16:38] create your first sub agent. Okay. Um
+- [16:41] create new agent. Now we should have a
+- [16:43] image generator agent that uses the FAL
+- [16:49] API. I want to be able to use the most
+- [16:54] popular image and video generators. Pick
+- [16:59] one image gen and one video gen and put
+- [17:04] them as tools in the And we can name it.
+- [17:08] I know I'm typing into the ether here,
+- [17:10] but bear with me. We'll call this image
+- [17:12] gen agent. Okay. So we have this Twitter
+- [17:15] agent and part of the tools one of these
+- [17:17] tools is the X the X API. And so this
+- [17:20] tool right here requires in any API
+- [17:23] requires an API key and then sometimes
+- [17:26] like other tokens like uh user ID in X
+- [17:30] API's case it's kind of many different
+- [17:33] uh keys actually. I think it's like four
+- [17:35] keys that you need access to which it's
+- [17:37] kind of annoying. But in the second
+- [17:39] agent here, and we're actually going to
+- [17:41] uh hit uh continue, and we will make
+- [17:45] this one green. And this is the image
+- [17:48] gen agent, which is green. Uh we'll have
+- [17:52] access to tools. And these tools will be
+- [17:56] FAL, which is a provider that gives you
+- [17:59] access to many different image gen or
+- [18:01] videogen. And we're going to give it an
+- [18:03] FAL API key. That's what we're going to
+- [18:05] need to give it. And these are all keys
+- [18:07] that are specific. But right, the
+- [18:09] Twitter agent won't have any knowledge
+- [18:11] of the API keys. And the master agent
+- [18:14] won't have that in its context either.
+- [18:17] That is just for these sub agents to
+- [18:19] know. Okay. Three agents created. Okay.
+- [18:21] Create new. I don't want to create new
+- [18:23] agent. I just Let's hit enter. View
+- [18:24] agent. Okay. Great. Now, okay. Put the
+- [18:28] agents in the codebase files in testing
+- [18:33] sub agents. And so now it is copying
+- [18:35] those folders into here. So what I'm
+- [18:38] going to do is I'm about to give it
+- [18:40] access to all of my API keys. And
+- [18:44] actually um I want to actually create
+- [18:46] one more agent and I'm going to make
+- [18:48] this really quickly. Create new agent.
+- [18:50] We're going to put it in the project.
+- [18:51] We're going to generate with claude
+- [18:53] research agent that researches the web
+- [18:56] quickly about any topic. This is just a
+- [19:00] test. So, I want to just test using one
+- [19:02] of these tools without putting my API
+- [19:04] keys in yet. But this is basically the
+- [19:07] image generator MD. It's generating the
+- [19:10] image. Okay, cool. Okay, now we're just
+- [19:12] going to hit continue. And let's just
+- [19:13] make this cyan. Okay, now put this agent
+- [19:17] in this project and run this agent to
+- [19:22] search. Please do this correctly. Like
+- [19:26] I've never done this before. I want to
+- [19:31] be able to use these agents. So set up
+- [19:36] the project of testing sub agents so
+- [19:40] that this works as anthropic wants it to
+- [19:46] work. Please set up the codebase
+- [19:49] correctly based on best practices,
+- [19:53] please. Okay, so I wanted to put the
+- [19:55] agent information in here. So, it's like
+- [19:58] copy the uh web research specialist. All
+- [20:01] right. So, I'm just going to very
+- [20:02] quickly add that to our little thing
+- [20:04] here. We have this web research
+- [20:06] specialist as a sub agent that will be
+- [20:09] the CMO agent cuz we need to create the
+- [20:11] master agent as well. And that is what
+- [20:14] we uh we need to do. So, it just added
+- [20:16] something. Now, it has a claude with an
+- [20:19] agents folder within it. So, hasclaude
+- [20:21] and it has agents in it. Okay. So, I
+- [20:24] think it's going to put the agents in
+- [20:25] this folder right here. So, it put the
+- [20:27] web research specialist in there. I hope
+- [20:29] it puts the other two in there as well.
+- [20:32] Okay. So, name Revs researcher
+- [20:34] specialist. The description is use this
+- [20:36] agent when. So, in the sub agent, you
+- [20:40] put a description of the agent in here
+- [20:42] and that will tell the main agent when
+- [20:45] to use that. So, that's good to know.
+- [20:46] What are the latest developments? Okay,
+- [20:48] so these are examples. That's very
+- [20:50] interesting. Commentary. Since the user
+- [20:52] is asking for the latest development
+- [20:53] which require up-to-ate information, use
+- [20:54] the web research specialist agent to
+- [20:56] research this topic. Okay, cool.
+- [20:58] Amazing. So that makes sense. And then
+- [21:00] here is you are an expert research
+- [21:02] specialist with exceptional skills at
+- [21:04] finding, evaluating, and synthesizing
+- [21:05] information. And there we go. We've
+- [21:07] created this agent that we can use.
+- [21:09] Okay. So now it's created this claude MD
+- [21:12] file. And so this project demonstrates
+- [21:14] the proper setup and usage of cloud code
+- [21:16] sub aents following anthropics best
+- [21:18] practices. And here it has the project
+- [21:21] structure. So this Claude MD is whenever
+- [21:24] I ask something to Claude, this is kind
+- [21:26] of this main agent that now fully
+- [21:29] understands the codebase. And here we
+- [21:32] can see the web research specialist
+- [21:33] which is highlighted. I think it's doing
+- [21:35] a test. Let me test the web research
+- [21:37] specialist agent with real research to
+- [21:40] ensure everything is working correctly.
+- [21:42] That's very cool. Um so now we have this
+- [21:45] web research specialist and it's
+- [21:46] highlighted. So in this interface, the
+- [21:48] CLI interface, we can see which agent is
+- [21:50] working and it is searching for AI agent
+- [21:53] 2025 companies leaders blah blah blah.
+- [21:55] And that's very cool. And so while it's
+- [21:58] working, what we can do here and within
+- [22:00] cursor, we can actually create a new
+- [22:02] folder. And we can say let's just call
+- [22:04] this outputs. And just to be consistent,
+- [22:08] we'll call this outputs. And we can have
+- [22:09] the agent put the outputs, anything that
+- [22:12] it outputs in the outputs folder. And
+- [22:14] yeah, that's what we can do. I just made
+- [22:17] a new folder called sensitive keys. So I
+- [22:20] just created these sensitive keys. I do
+- [22:22] not want these uh I do not want to show
+- [22:25] you this folder because they are indeed
+- [22:26] sensitive keys. So what I'm going to do
+- [22:28] right now is I'm going to go to claude
+- [22:32] code and remember these keys are right
+- [22:34] here, right? The X API key and then the
+- [22:36] FAL API key. This these are tools,
+- [22:39] right? So, okay, I want to finish
+- [22:42] setting up the uh API keys. I want to
+- [22:46] finish setting up the uh API keys for X
+- [22:49] and for FAL. Please search both. Use the
+- [22:55] normal research tool, not the web
+- [22:58] research specialist for whatever reason
+- [23:01] that wants to research for a very long
+- [23:03] time. And I think by looking at the
+- [23:04] prompt, I understand why. just find the
+- [23:06] docs, get it set up so the X API agent
+- [23:11] can post and the image generator uh
+- [23:16] agent can generate images and videos um
+- [23:21] when it needs to. Please set up these
+- [23:26] tools properly. Oh, wait. I never told
+- [23:28] it about the sensitive keys. I'm going
+- [23:30] to stop it and say I put all the keys
+- [23:33] for everything in the sensitive keys.md
+- [23:39] file. This file has all the keys. Now I
+- [23:43] configure the keys. Let me update the
+- [23:45] agent configuration. It configured the
+- [23:47] API keys. Now it's creating example
+- [23:49] scripts showing how to use the agents.
+- [23:52] Okay, your agents are ready to use.
+- [23:54] Okay, so by the way, I already have a
+- [23:56] chief marketing officer Twitter account
+- [23:59] here. So, we'll zoom way in. We are
+- [24:01] going to be using Vibe Mo. Vibe Mo is my
+- [24:04] automated AI agent, CMO VI um agent that
+- [24:08] that's what these keys are set up to.
+- [24:10] So, this is the account that it will
+- [24:12] likely be tweeting to. I'm going to
+- [24:13] test. Please delegate to the exposter
+- [24:16] agent to post. Hi there. This is the
+- [24:20] first time I'm using sub agents. Okay.
+- [24:25] So, ideally, it should use the correct
+- [24:27] agent. The agent is blue. Remember, we
+- [24:30] selected the blue color. So, we can see
+- [24:32] the X API poster. That is very cool.
+- [24:34] Okay. Your tweet has been posted. The X
+- [24:37] API poster has successfully posted the
+- [24:39] image. Hi there. This is the first time
+- [24:41] I'm using sub agents. Let's see if this
+- [24:43] is true. And by the way, this is where I
+- [24:47] am. I'm on the developer portal. Uh,
+- [24:49] this is where you'll find all of the
+- [24:50] information that you need. And they're
+- [24:52] in the keys and tokens. So, that's
+- [24:54] what's going on here. But right now, I'm
+- [24:56] going to go to Twitter. I'm going to see
+- [24:58] if it actually tweeted. Hi there. This
+- [25:01] is the first time I'm using sub agents.
+- [25:03] Okay. So now what we need to do here is
+- [25:06] we need to verify. And it even said that
+- [25:08] like it even put the status here, right?
+- [25:11] We can actually see this. What I want to
+- [25:13] do now is I want to go back to this
+- [25:17] right here. So let's just keep little
+- [25:19] notes on here. So we got this working.
+- [25:22] The web research one takes a long time,
+- [25:24] but I do think it's working. But what we
+- [25:26] haven't gotten working is this image
+- [25:27] generator agent. So we need to get this
+- [25:29] image generator agent working. So now I
+- [25:32] want you to please get the image
+- [25:37] generator working and generate an image
+- [25:41] of a turtle flying through space with an
+- [25:47] advanced
+- [25:49] image model. and please put it in the
+- [25:54] outputs folder. After you do that, make
+- [25:57] sure to add instructions in all
+- [26:00] necessary places to make sure that all
+- [26:03] of the image outputs end up in the
+- [26:05] outputs folder. So you see here, these
+- [26:07] are all files and we're just creating
+- [26:09] these files for agents and giving these
+- [26:12] files access to tools. And by giving
+- [26:15] access to these tools, it can take
+- [26:17] actions which generates more files and
+- [26:19] puts them and keeps them organized. And
+- [26:21] if you have good instructions as you
+- [26:23] generate more things, generate more
+- [26:24] tweets, right? It can actually go out on
+- [26:26] the internet and uh generate new things.
+- [26:28] Hi, this is the first time I'm using sub
+- [26:30] agents. That's pretty cool. All right,
+- [26:32] so it is generating a turtle in space.
+- [26:35] Hopefully, it's just generating an
+- [26:36] image. Test image video generator agent
+- [26:38] with a turtle in space prompt. Update
+- [26:40] agent configuration to save outputs
+- [26:42] folder. Okay, so for this we are using
+- [26:45] FAL's API. They have a bunch of
+- [26:48] different models. So we can actually hit
+- [26:50] explore and we are going to do text to
+- [26:53] image. Bria text to image right here. Uh
+- [26:58] let's see if what happens when we run
+- [26:59] this. Let's see what it's doing. Oh,
+- [27:01] outputs. Is there an output in here? Oh,
+- [27:03] there's a space turtle output. Okay,
+- [27:05] look at that. We have this space turtle.
+- [27:07] Very cool. Now what I want to do is
+- [27:10] update the agent configuration to save
+- [27:12] outputs to the folder. Okay. Now please
+- [27:15] update the uh image video generator
+- [27:20] based on what you learned right because
+- [27:22] it failed at the beginning. I don't know
+- [27:24] why it failed at the beginning but then
+- [27:26] it ended up successfully generating it
+- [27:28] with what you learned. The space Oh, I
+- [27:31] don't think we can add code files. The
+- [27:33] space turtle image was successful. I
+- [27:37] want it to be successful every time. Oh,
+- [27:41] update the documentation with folder
+- [27:44] instructions. Okay. Yeah, that's just
+- [27:46] that part. Then I want you to generate a
+- [27:50] new image of a similar style except make
+- [27:56] it a panda because the um vibe is a
+- [28:01] panda of a panda flying through space.
+- [28:05] And please make a twos sentence tweet
+- [28:09] along with this image like post the
+- [28:12] image on Twitter and make it about how
+- [28:15] you delegated to these sub aents and
+- [28:20] describe what tools you used. Okay,
+- [28:23] that's a really confusing prompt but uh
+- [28:26] it's opus so it's very powerful. We
+- [28:28] should probably switch back to sonnet
+- [28:30] and we should probably condense our
+- [28:32] context or switch to a new chat. So this
+- [28:34] is what it's going to do. It's going to
+- [28:36] update the image video generator. So the
+- [28:38] the the cloud code is going through your
+- [28:40] files the same way you know the cursor
+- [28:42] agent is. But now we can delegate to any
+- [28:45] of these agents that are in this.cloud/
+- [28:47] aents folder and we can see which agent
+- [28:50] is working based on what color is
+- [28:51] showing up here. And so the plan is to
+- [28:54] update the imple implementation details.
+- [28:57] I wanted it to update this based on what
+- [28:58] it learned. Then it's going to generate
+- [29:00] an image of a panda. It's going to put
+- [29:02] it in the outputs folder hopefully just
+- [29:05] like it did with the space turtle. And
+- [29:06] then it's going to create a tweet with
+- [29:07] the sub aent describing what tools it
+- [29:09] used to create the tweet and post the
+- [29:11] tweet with the image to X. Let's see. So
+- [29:13] right now it's generating the image. We
+- [29:14] can see which sub aent is working. Okay,
+- [29:17] it generated the space panda. There we
+- [29:19] go. We have this space panda. It's been
+- [29:22] generated. I don't know which model that
+- [29:24] it's using but now it's going to post it
+- [29:26] on X and ideally
+- [29:31] okay generate the space Panda okay
+- [29:33] create the tweet about sub aents cuz
+- [29:35] remember I asked it to describe the flow
+- [29:37] and then it should post it on X now it's
+- [29:40] initializing the X API poster and it is
+- [29:44] hopefully able to post it with the image
+- [29:46] we may run into problems with the image
+- [29:48] um I'm not sure if it's going to be able
+- [29:50] to convert it into the right format to
+- [29:52] get it posted But we will see. Let's
+- [29:54] see. Okay, it claims that it's posted it
+- [29:57] on X. Let me see if it gives us a tweet.
+- [29:59] Okay, your tweet is live. Let's see if
+- [30:02] this works. So, I'm going to refresh it
+- [30:04] here. Wow, there we go. just delegated
+- [30:08] image generation to my image to video
+- [30:10] generator sub aent using claude's claude
+- [30:13] codes task tool which called the FAL
+- [30:15] flux model API created whimsical state
+- [30:18] sub aent to handle specialized tax
+- [30:20] independently making complex workflows
+- [30:23] simple and efficient. All right, this is
+- [30:27] going to get fun. Amazing. So Vibe Mo,
+- [30:31] my automated chief marketing officer now
+- [30:35] has tools, right? It has three tools.
+- [30:37] Image video generator, web research
+- [30:40] specialist, and X API poster. And it can
+- [30:42] now in one command I had it generate
+- [30:45] this and then post it on X. This is a
+- [30:47] very simple example. This is not that
+- [30:49] complicated of an agent, right? And we
+- [30:52] did finish this right here. We have this
+- [30:54] chief marketing officer agent that has
+- [30:56] access to sub aents. And these agents
+- [30:58] aren't that hard. You could have had one
+- [30:59] singular agent to do all of this. But if
+- [31:02] we had access to all of my social media
+- [31:04] accounts and my notion and my buffer,
+- [31:07] which is the place where I manage
+- [31:08] manually manage all of my social media
+- [31:10] accounts and it could post thumbnail
+- [31:12] ideas for my video as well as research
+- [31:14] for my podcast as well as everything,
+- [31:16] right? This will get bigger and bigger
+- [31:18] and so ViMo is the first iteration of
+- [31:22] this agent, right? This is my chief
+- [31:25] marketing officer and I started this
+- [31:26] about two week uh 2 days ago where it's
+- [31:28] claude code running 24 hours a day and
+- [31:31] so it posts only once an hour and these
+- [31:33] tweets are not that good yet but it's
+- [31:35] going to start doing more and more
+- [31:36] things. It's going to have an Instagram
+- [31:38] account. It's going to have a Twitter
+- [31:39] account. It's going to be able to
+- [31:40] message people on our team. Right? I
+- [31:41] work at a startup and we have nine
+- [31:43] people now and I was the chief marketing
+- [31:45] officer as as a co-founder. I want to
+- [31:47] spend more time creating content because
+- [31:49] I think that is a higher leverage thing
+- [31:51] for me to be working on instead of being
+- [31:53] the chief marketing officer and looking
+- [31:55] at analytics all the time. I think it's
+- [31:57] a waste of time at this stage of a
+- [31:58] startup. I just think you can get AI to
+- [32:00] do it. And so that's what we're going to
+- [32:02] attempt to do. So eventually Vimo is
+- [32:05] going to have hundreds of tools but not
+- [32:07] in its main agent. It's going to have
+- [32:08] sub agents that it can delegate to that
+- [32:11] have access to those different tools.
+- [32:12] And we are going to see how smart we can
+- [32:15] get it. And instead of me sending in my
+- [32:17] own manual ideas every day, it's going
+- [32:20] to be triggered automatically to take
+- [32:22] tasks and to choose the best task to
+- [32:24] take. And I think this is a pretty good
+- [32:27] little short overview/entertaining
+- [32:30] video to kind of get your juices flowing
+- [32:33] around agents, right? How can you get an
+- [32:35] agent to delegate to smaller versions of
+- [32:38] itself to accomplish more? And when you
+- [32:40] start thinking about your business or
+- [32:42] your life in this way, especially once
+- [32:44] you get it on a schedule, you realize
+- [32:46] how high leverage it is. Because if you
+- [32:48] are able to create these little
+- [32:50] workflows within an agent that run all
+- [32:52] the time, it starts just working for you
+- [32:54] in the background of your life, it's
+- [32:56] like passive productivity. And the more
+- [32:58] time you put up upfront and the more
+- [33:00] time you spend paying really close
+- [33:01] attention to the tools, the system
+- [33:03] instructions and the context window of
+- [33:05] your sub agents as well as your master
+- [33:08] agent, the more leverage you can get
+- [33:09] from these activities. And I didn't
+- [33:11] really go into like absolute best
+- [33:12] practices. We had AI create them.
+- [33:14] Luckily, I work at a company where we
+- [33:16] have really smart people and we're
+- [33:18] actually going to create these agents.
+- [33:19] And so in a future video, maybe next
+- [33:21] week, we're going to go through what I
+- [33:22] learn and maybe with the CTO of my
+- [33:25] company, we'll actually dive deep into
+- [33:27] the best practices for system
+- [33:29] instructions for both your master agent
+- [33:31] and your sub agents. And I'm really
+- [33:33] excited to make future videos and make
+- [33:35] Vibe, the chief marketing officer,
+- [33:37] better. And so that's what we're going
+- [33:39] to do. Make sure to subscribe and like
+- [33:41] this video. And I'll see you here for
+- [33:43] the next video.

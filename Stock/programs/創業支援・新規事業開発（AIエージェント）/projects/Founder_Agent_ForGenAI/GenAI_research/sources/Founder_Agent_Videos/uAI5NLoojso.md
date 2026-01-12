@@ -1,0 +1,399 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=uAI5NLoojso"
+video_id: "uAI5NLoojso"
+video_url: "https://www.youtube.com/watch?v=uAI5NLoojso"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["PMF", "AI", "machine_learning", "product_development"]
+topics: ["プロダクト開発", "AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=uAI5NLoojso
+  - Retrieved at: 2025-12-30T16:34:00+09:00
+  - [00:00] Vibe coding tools like lovable, cursor,
+key_points:
+  - "- [02:14] matter. You basically need a key that"
+  - "- [02:21] it easy to kind of centralize these keys"
+  - "- [02:32] the key and put it into N. And after"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: uAI5NLoojso
+
+- URL: https://www.youtube.com/watch?v=uAI5NLoojso
+- Retrieved at: 2025-12-30T16:34:00+09:00
+
+## Text
+
+- [00:00] Vibe coding tools like lovable, cursor,
+- [00:02] and bolt allowed people to create apps
+- [00:04] without writing a single line of code.
+- [00:06] But these are all mostly one feature
+- [00:08] apps. Anytime you want to vibe code
+- [00:10] advanced workflows or AI agents,
+- [00:13] everything just breaks. But people are
+- [00:15] starting to realize that you can just
+- [00:16] build agents on these noode workflow
+- [00:19] tools like N8N and plug them into your
+- [00:22] vibecoded apps. These are what I call
+- [00:24] vibecoded agentic apps or VAPS. And
+- [00:27] that's exactly what we're going to be
+- [00:28] building today. We are going to create
+- [00:30] an AI agent workflow on N8. No code
+- [00:33] necessary. Then we will vibe code an app
+- [00:36] from our phone. Then we're going to
+- [00:38] connect the NAN AI agent to our
+- [00:40] vibecoded app. And finally, we'll show
+- [00:42] you the four AI agent templates that you
+- [00:45] can download. Let's dive in. Okay. To do
+- [00:48] this, I brought Muhammad. So, this is a
+- [00:50] full N workflow with an agent. But
+- [00:53] today, I want to show you how to build
+- [00:54] one from scratch. Let's go ahead and go
+- [00:56] home. And to create a new workflow,
+- [00:58] you're just going to hit this button on
+- [00:59] the top right, create workflow. And here
+- [01:02] you're brought to your canvas. So every
+- [01:04] single N workflow starts out with just
+- [01:06] like nothing on it. Just nothing on it.
+- [01:07] We first have to add a trigger. And
+- [01:09] there's a lot of different triggers we
+- [01:11] can choose from, like app events, but
+- [01:13] today we're just going to do a web hook.
+- [01:15] With the web hook, we can hit it
+- [01:16] whenever we want, wherever we want. So
+- [01:19] we can trigger it ourselves. Yeah. So
+- [01:20] we've created this web hook, but it's
+- [01:22] not connected to anything. It's not
+- [01:23] connected to anything. So, let's go
+- [01:24] ahead and connect it to the new Nan tool
+- [01:28] of AI agents. And this this tool right
+- [01:31] here, I do want to add before this, you
+- [01:33] would have to be very technical to
+- [01:35] create an AI agent, right? Like it's
+- [01:37] very hard to create, but this visual
+- [01:38] interface just makes it a lot easier to
+- [01:40] understand. Yes. And it's also really
+- [01:41] fun to make as well. So, what are those
+- [01:43] three little things sticking out of
+- [01:44] them? So, the three little things we
+- [01:46] have chat model, memory, and tool. So,
+- [01:49] let's start with chat model. It has a
+- [01:50] lot of different providers you can
+- [01:52] choose from, but today we're just going
+- [01:53] to stick with Enthropic because the
+- [01:55] Claude model is the best agent model out
+- [01:58] there right now. So before we can get
+- [01:59] started with anything, we're going to
+- [02:00] have to add our own credentials. Here we
+- [02:02] have our own. But in case you don't,
+- [02:04] just go ahead and create a new
+- [02:05] credential. So whenever you want to use
+- [02:08] any API, which is what these are called,
+- [02:10] right? If you want to use OpenAI, if you
+- [02:12] want to use Anthropic, Grock, doesn't
+- [02:14] matter. You basically need a key that
+- [02:16] connects whatever tool you're using this
+- [02:18] into to your account, right? N8N makes
+- [02:21] it easy to kind of centralize these keys
+- [02:23] without having to know how to code. You
+- [02:25] plug it in. Now you have access to clot.
+- [02:26] Yeah, exactly. And if you still need
+- [02:28] help with that, NAN has a lot of docs
+- [02:30] for these. It'll tell you how to find
+- [02:32] the key and put it into N. And after
+- [02:34] that, you're all set. It'll work for
+- [02:35] just not just this workflow, but every
+- [02:37] other workflow you create. Amazing. So
+- [02:39] after you have your credential set up,
+- [02:41] they also have memory, but we'll go over
+- [02:43] that in a future video. And we're going
+- [02:44] to go over to tools. And N has a lot
+- [02:48] over 400 different tools you can give to
+- [02:50] the agent. But as we promised, this does
+- [02:52] take some time to get used to. To make
+- [02:54] it easier on you, we actually created a
+- [02:58] template database, and it's actually
+- [02:59] really easy to use. Yeah. So once you
+- [03:01] head over to the description, there's a
+- [03:02] link with these three templates that you
+- [03:04] can get started. um you just go ahead
+- [03:06] and open them, scroll down and copy this
+- [03:08] JSON. Let's go ahead and get rid of this
+- [03:11] command V and the entire workflow is
+- [03:14] there for you. So the same thing like we
+- [03:16] have the same chat model but now we have
+- [03:18] all these other tools. Yeah, we have
+- [03:20] these five different tools that the AI
+- [03:22] agent will use when it wants to when it
+- [03:24] wants to and reasons to. Yes. So the
+- [03:26] first tool it has gets the date allows
+- [03:28] the AI agent to get the date and time
+- [03:30] and then the second one Google calendar
+- [03:32] allows the agent to create a calendar
+- [03:34] event. We also have a notion tool which
+- [03:36] allows the AI agent to add things to our
+- [03:38] to-do list. And then we also have two
+- [03:41] Slack tools which allow the agent to get
+- [03:43] all the users in Slack and then send a
+- [03:45] message to a specific user. And what's
+- [03:47] cool about agents and what makes it
+- [03:50] different than what many of you guys
+- [03:52] have seen likely with Zapier make these
+- [03:54] aren't just like linear paths, right?
+- [03:56] You have an agent and you have a really
+- [03:58] smart AI agent, right? These cla models
+- [04:02] are built to be agents out of the box.
+- [04:04] They're built to use tools and so we're
+- [04:06] basically giving it access to these
+- [04:07] tools that it can use based on whatever
+- [04:10] our our input is. So how do we actually
+- [04:12] send something into this AI agent? Yeah.
+- [04:15] So going back to the web hook, nan gives
+- [04:17] you a URL and you can paste that into
+- [04:20] any vivecoded app. I've already went
+- [04:22] ahead and built one. We're actually
+- [04:24] going to be building an app just like
+- [04:25] this in just a second, but just to show
+- [04:27] you how it works, you want to just I
+- [04:29] have the web hook set up to the app and
+- [04:32] I'm going to say create a calendar event
+- [04:36] at 700 p.m. today to clean my car. Also
+- [04:41] send a message to Riley saying, "Good
+- [04:45] job on the podcast." And go ahead and
+- [04:48] test the workflow. Go back to the phone
+- [04:50] and let's send it to Nan. Amazing. And
+- [04:53] now the AI agent is reasoning and
+- [04:55] planning its steps on how to complete
+- [04:57] the task. Amazing. So, you sent it in
+- [04:59] from your phone app that you vibe coded
+- [05:01] and now it's thinking about what tools
+- [05:03] it needs to use. It just decided that it
+- [05:05] needed to find people in your Slack. It
+- [05:07] sent a message on Slack and now it's
+- [05:09] adding an event on the calendar. Yeah.
+- [05:10] So, let's let it finish up. Okay.
+- [05:13] Success. So, let's see the results.
+- [05:15] Let's go to the calendar. Clean my car.
+- [05:17] 7 to 8:00 p.m. Amazing. Now, let's go
+- [05:19] check Slack. Let's go check Riley. good
+- [05:22] job on the podcast. Amazing. So, you
+- [05:25] literally were able to build an app on
+- [05:27] your phone and without writing any code
+- [05:29] that we're going to talk about in just a
+- [05:30] second. Then you created this AI agent
+- [05:33] without writing any code on n and then
+- [05:35] you use this web hook so that your phone
+- [05:37] could communicate with this agent and in
+- [05:40] one command you got it to basically
+- [05:42] check your calendar, send a message on
+- [05:44] the calendar and then also message me on
+- [05:46] Slack in one single That's exactly
+- [05:48] right. What I want to do is I want to
+- [05:50] dive into actually building the
+- [05:51] vibecoded app that can connect to any
+- [05:54] N8N agent. So I'm starting off exactly
+- [05:56] where you just were after you pasted the
+- [05:59] template into N8N. And here it is. So we
+- [06:02] have this AI agent right here. And here
+- [06:04] we have the Vibe Code app. So we're
+- [06:06] going to be vibe coding an app on our
+- [06:07] phone, right? Let's go ahead and just
+- [06:09] design the front end of the app first
+- [06:11] before we do any web hooks. So, what I
+- [06:14] want to do here is I'm going to say,
+- [06:16] "Please create an app, a chat interface,
+- [06:19] and I want to be able to chat with uh
+- [06:22] AI." So, use an AI model. I want to be
+- [06:25] able to chat with AI. Make it look
+- [06:27] retro. Have the background be like dark
+- [06:30] blue, have the header text be like neon
+- [06:33] green, and then make the body text
+- [06:35] white. Instead of ever putting anything
+- [06:37] in like a component circle or like a
+- [06:40] rounded rectangle, underline things.
+- [06:42] Okay, that was a long prompt. We can now
+- [06:44] press generate. You try it out on
+- [06:47] cursor, wind surf, try it out on lovable
+- [06:49] if you want to create a web app. I
+- [06:51] actually wanted to make a a mobile app,
+- [06:53] like a native mobile app. So, I'm using
+- [06:54] the vibe code app. So, so it is now
+- [06:57] bundling and so our initial Ooh, that's
+- [07:00] kind of sick actually. Look at that. So,
+- [07:02] this is the app that we've created right
+- [07:04] here. And yeah, retro terminal AI. And
+- [07:10] so,
+- [07:11] um, we can enter a command. I love this.
+- [07:15] Hello there. Send processing. Ooh, and
+- [07:19] the AI works like out of the box. Okay,
+- [07:22] this is actually so sick. Really good
+- [07:24] for one prompt. So, what I actually want
+- [07:25] to first do like right away um is I
+- [07:28] actually want to go home because I want
+- [07:32] to save the AI chat for later. So, what
+- [07:34] I'm going to do is I'm actually just
+- [07:35] going to duplicate this project. So,
+- [07:37] this version I'm going to turn into the
+- [07:39] the web hook one and I'm going to keep
+- [07:40] the AI chat. Now, I want to completely
+- [07:44] change the way that this kind of the
+- [07:46] chat works. It should the the the
+- [07:48] display of it should be the same, but
+- [07:50] instead we're going to hook this up to
+- [07:52] an N8N workflow. And I want to be able
+- [07:55] to send in, how would you word this?
+- [07:59] Send in web hooks. Send in data to a web
+- [08:01] hook or how would you word it? I would
+- [08:03] just say send text to a web hook. I want
+- [08:04] to be able to send text to a web hook.
+- [08:07] Um, and I'm going to give you the web
+- [08:09] hook URL in just a second. Um, I want to
+- [08:12] be able to send in uh data into that web
+- [08:14] hook. I want it to await the response
+- [08:16] from the N8N agent and uh display it on
+- [08:20] the screen. Perfect. Great. And now,
+- [08:22] while it's transcribing, we're going to
+- [08:24] go over to web hook. We're going to
+- [08:25] click on this and we are going to grab
+- [08:28] the test URL, which is right here. We're
+- [08:31] going to copy it and we're going to
+- [08:33] paste that into our app. So, we're going
+- [08:37] to say here is the uh URL for web hook.
+- [08:42] And now we can paste it in. Now, we are
+- [08:46] good to go. Oh, perfect. Amazing. So,
+- [08:50] now our app directly from our phone. And
+- [08:52] remember, you just copied and pasted
+- [08:54] this agent in. And you can customize
+- [08:56] this agent. You're going to have to set
+- [08:57] it up to your own account, but that'll
+- [08:58] take you max like 10 15 minutes. And
+- [09:00] then you can build an app on your phone
+- [09:02] like this. This is our second prompt in
+- [09:04] like four or five minutes. And so like
+- [09:06] we're looking at a total of 30 minutes
+- [09:09] so far. And if this works, knock on
+- [09:11] wood. Um we're gonna have a fully
+- [09:14] vibecoded agentic application or VAP on
+- [09:17] our phone. And keep in mind we have
+- [09:18] written zero lines of code so far. Okay,
+- [09:21] so it's done. It says you may need to
+- [09:22] reload to see the update. I always just
+- [09:24] reload it at the end. So now it still
+- [09:26] has all the old data in here from
+- [09:28] before. Um oh, can we clear? What does
+- [09:31] that do? Oh wait, what the heck? System
+- [09:35] initialize N workflow online ready for
+- [09:38] input. What the hell? That's awesome.
+- [09:41] Okay, so now we're going to send in some
+- [09:43] information. So before we do this,
+- [09:46] remember I passed in my test URL,
+- [09:48] meaning this is really cool because it
+- [09:51] allows you to like really see where
+- [09:54] things go wrong when you're testing,
+- [09:55] right? Um, but the thing that you need
+- [09:57] to do is you literally need to hit test
+- [09:59] every single time there is a like every
+- [10:02] time you use it, right? which is kind of
+- [10:04] annoying, but it allows you to kind of
+- [10:06] see this visual, which I think is the
+- [10:07] coolest part of any an right. There's
+- [10:09] also a production URL that you can hit
+- [10:11] wherever. So, you don't need to test the
+- [10:13] workflow for it to work. You can just be
+- [10:15] anywhere, send it through, and it'll
+- [10:17] work. If you press this button up here,
+- [10:19] that makes it active. If your workflow
+- [10:21] is active with the web hook, you can hit
+- [10:23] it at any time, as many times as you
+- [10:24] want. And if you come back, you hit
+- [10:26] executions, you can see all of the
+- [10:28] executions that happen on that web hook.
+- [10:30] Yes. Which is really cool. Okay.
+- [10:32] Amazing. So now what we're going to do
+- [10:34] is we're going to test and see if this
+- [10:36] works. Please add eating pizza to my
+- [10:41] todo list. Send. Can I come with you?
+- [10:45] Damn it. Okay. So, as you can see here,
+- [10:48] it successfully triggered the web the
+- [10:50] web hook, but it actually didn't the
+- [10:53] data probably wasn't formatted correctly
+- [10:56] for the agent to like ingest it. So, you
+- [10:58] can actually look into this. This is no
+- [11:00] prompt specified. Um, no JSON body text.
+- [11:03] So, I think that just means it got it in
+- [11:05] the wrong format. What's a good fix for
+- [11:07] this? What would you say? It's super
+- [11:08] easy. N shows you the exact JSON key
+- [11:11] that was sent. So, if you go ahead and
+- [11:13] click on the AI agent node, AI agent
+- [11:15] node. Yeah. And then on that left
+- [11:17] sidebar, it shows you the web hook that
+- [11:18] it received. So, you can scroll down to
+- [11:20] the bottom and you should see your
+- [11:22] message, which is body and then message.
+- [11:25] And right now, it is set to body.ext. So
+- [11:28] click on the prompt, the user message.
+- [11:30] The prompt user message. Okay. And we're
+- [11:32] going to go ahead and change that. And
+- [11:34] instead of body.ext, we're going to do
+- [11:35] body message. Okay. So we're going to
+- [11:38] remove this. And then you can go schema,
+- [11:41] right? Yes. You can also just drag it in
+- [11:42] as well. That's super easy. I like doing
+- [11:44] that. It's easier for me for my non I
+- [11:46] don't like to ever type things when I
+- [11:48] don't have to. It's going to be wherever
+- [11:50] whatever we said, right? Please add
+- [11:52] eating pizza to my to-do list, right?
+- [11:55] And so we have this prompt user message,
+- [11:57] right? And it needs to get the thing
+- [11:59] that you said. And so look for the thing
+- [12:00] that you said when it fails. And just
+- [12:02] drag it in. Perfect. There we go. It
+- [12:05] lights up green. Let's go ahead and test
+- [12:07] this. Agent is thinking right now.
+- [12:10] Amazing. I love how workflow executing.
+- [12:12] That looks so good on the phone right
+- [12:14] there. That looks really good. Okay.
+- [12:16] Added something to the calendar. And
+- [12:19] boom. It sent a message on Slack. And
+- [12:21] let's go ahead and check uh the Slack.
+- [12:23] I'll just check the Slack. Muhammad. Uh,
+- [12:26] hey Muhammad. Just wanted to give you a
+- [12:27] heads up. There's a pizza eating session
+- [12:29] scheduled today at 7:17, which it came
+- [12:32] in one minute ago, 7:17 p.m. Pacific
+- [12:35] time in about 3 hours. Hope you can join
+- [12:36] us for delicious pizza. So, yeah. And
+- [12:38] so, it also added it to the calendar.
+- [12:40] And you get the point, right? I
+- [12:42] recommend just like looking up tutorials
+- [12:44] and try to figure out like if you use a
+- [12:46] sauna, if you use a convert kit, right?
+- [12:49] That's another thing that we use. like
+- [12:51] you can automate a ton of things and try
+- [12:54] and use AI to figure out how you can
+- [12:56] create useful agentic workflows because
+- [12:58] not only can you create tools, right?
+- [13:00] Not only can you create these like
+- [13:01] standalone tools, we can take this
+- [13:03] entire we could take the whole workflow
+- [13:06] without the web hook and make it a tool
+- [13:09] that an AI agent could call. Right.
+- [13:11] Right. Yes. That's insane actually.
+- [13:13] Yeah. Like we need to that should be our
+- [13:15] next video. Yeah. And if you guys have
+- [13:16] any suggestions about any type of
+- [13:18] workflows you guys want to see, just let
+- [13:20] us know. I think we can start doing
+- [13:21] them. Yeah, 100%. And we're also
+- [13:24] creating a community. So if you go to
+- [13:26] vaps.ai,
+- [13:28] v a ps.ai,
+- [13:31] you can find our community. And that's
+- [13:33] where we're going to put all of our
+- [13:34] templates. I'll see you in the next one.

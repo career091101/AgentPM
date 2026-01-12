@@ -1,0 +1,241 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=pjF-0dliYhg"
+video_id: "pjF-0dliYhg"
+video_url: "https://www.youtube.com/watch?v=pjF-0dliYhg"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["AI", "machine_learning"]
+topics: ["AI技術"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=pjF-0dliYhg
+  - Retrieved at: 2025-12-30T16:23:14+09:00
+  - [00:00] quick announcement that I'm super
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=pjF-0dliYhg"
+  - "- Retrieved at: 2025-12-30T16:23:14+09:00"
+  - "- [00:00] quick announcement that I'm super"
+  - "- [00:01] excited for. This Sunday, October 26th,"
+  - "- [00:04] at 11:00 a.m. Central time, I'm doing my"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: pjF-0dliYhg
+
+- URL: https://www.youtube.com/watch?v=pjF-0dliYhg
+- Retrieved at: 2025-12-30T16:23:14+09:00
+
+## Text
+
+- [00:00] quick announcement that I'm super
+- [00:01] excited for. This Sunday, October 26th,
+- [00:04] at 11:00 a.m. Central time, I'm doing my
+- [00:06] first ever live AI agent build as a live
+- [00:10] stream. All my other streams in the past
+- [00:12] have been more focused on Q&A. I did
+- [00:14] something kind of similar with NAND in
+- [00:16] the past, but this is the real deal.
+- [00:19] Building a complete AI agent and using
+- [00:21] AI coding assistance. And if you're
+- [00:23] watching this after the stream already
+- [00:25] happened, no worries. I'll have a link
+- [00:26] to the recording in the description. And
+- [00:28] not only will I be showing you how to
+- [00:30] use AI coding assistance to build any AI
+- [00:32] agent, I also have an awesome use case
+- [00:35] for our stream. I teased recently that
+- [00:38] I'm working on this AI agent that I'll
+- [00:40] be showing how I build on my YouTube
+- [00:42] channel. It's your own personal AI
+- [00:44] coach. So, it's an AI agent with a lot
+- [00:46] of advanced rag techniques that's
+- [00:48] trained on all of my YouTube content. I
+- [00:51] want to extend that to more than just
+- [00:53] YouTube later as well. And so it's a
+- [00:55] really practical agent to be a resource
+- [00:57] alongside all of my YouTube content. And
+- [01:00] we're going to be building this from the
+- [01:01] ground up together, which I'm just so
+- [01:03] excited for. So link in the description
+- [01:05] to the live stream. Go over there,
+- [01:07] enable notifications for it. Again,
+- [01:09] that's this Sunday, the 26th, at 11:00
+- [01:11] a.m. Central time. Building our personal
+- [01:13] AI coach for both AI agents and AI
+- [01:16] coding assistants because that's what I
+- [01:18] cover on my channel. And this is going
+- [01:19] to be trained on my YouTube content to
+- [01:22] start. And then I want to expand the
+- [01:23] knowledge base over time to include
+- [01:25] other sources as well. So I got big
+- [01:27] plans for this agent, but I want to
+- [01:29] build it with you live. I think that's
+- [01:30] going to be so exciting. And so there
+- [01:32] are four core technologies that we're
+- [01:35] going to be focusing on in the live
+- [01:36] stream. So just giving you a little bit
+- [01:38] of a teaser for what's coming as we
+- [01:40] build this together. And so starting
+- [01:42] with YouTube, this is obviously going to
+- [01:44] be the primary data source for our rag
+- [01:47] pipeline. So, we'll build a simple yet
+- [01:49] effective rag pipeline together for
+- [01:51] ingesting YouTube videos and we'll
+- [01:54] include the extraction of metadata and
+- [01:56] timestamps. Like, it's not going to be
+- [01:57] extremely trivial and we're going to do
+- [01:59] that so we can have more advanced rag
+- [02:01] tools that I'll talk about in a sec. And
+- [02:03] this is going to work for any YouTube
+- [02:04] channel. So, theoretically, this agent
+- [02:06] that I build, you could turn it into an
+- [02:08] expert for really any content creator.
+- [02:11] Pretty cool. And for the AI agent
+- [02:13] framework, we're going to obviously be
+- [02:14] building in Python. That's what I always
+- [02:16] cover on my channel. And Pyantic AI is
+- [02:19] still my favorite AI agent framework and
+- [02:22] it has been for quite a while. And we'll
+- [02:24] be giving our Pyantic AI agent a few
+- [02:26] different rag tools to query YouTube
+- [02:28] videos. And I'm going to make it so that
+- [02:30] it's going to work for really any large
+- [02:32] language model. So we'll be able to use
+- [02:33] Open Router, Olama, Anthropic, OpenAI,
+- [02:36] all these different providers. I want to
+- [02:38] be very LLM agnostic and I'll be
+- [02:40] focusing a lot on the tools that I give
+- [02:43] to the agent because I want to apply
+- [02:45] some more advanced rag strategies to
+- [02:47] make that a really practical part of the
+- [02:49] stream as well. So applying different
+- [02:51] strategies for ultra accurate retrieval
+- [02:54] and even giving the agent to pull
+- [02:56] transcripts if it needs. So it's more
+- [02:58] like an agentic rag solution where the
+- [03:00] agent gets to reason about how it
+- [03:02] searches through the YouTube transcripts
+- [03:04] and we'll have token streaming with a
+- [03:06] complete front end. like this is going
+- [03:07] to be a full stack application that I've
+- [03:10] got in store for you. And speaking of
+- [03:12] full stack, for our database, we will be
+- [03:14] using a superbase. And so this will be
+- [03:17] where we store all of our YouTube
+- [03:18] videos, including the transcripts and
+- [03:20] the embeddings that we have for rag and
+- [03:22] then metadata as well for more advanced
+- [03:25] rag techniques. being able to do
+- [03:26] metadata filtering and things like that
+- [03:28] to make sure that our rag solution can
+- [03:30] be very precise and then authentication
+- [03:33] for our front-end application because I
+- [03:35] do want to make this something that is
+- [03:36] deployed to the cloud ready for you,
+- [03:38] anyone viewing my YouTube videos to
+- [03:40] leverage at some point. And so obviously
+- [03:42] you'll need authentication for that. And
+- [03:44] then last but not least, something I
+- [03:45] covered pretty recently on my channel is
+- [03:47] a tool for rag called Dockling. And this
+- [03:50] is especially useful for the hybrid
+- [03:52] chunking that they have available. So,
+- [03:55] more on this when we build with Dockling
+- [03:58] together in a couple of days here. But
+- [04:00] this chunking strategy is actually going
+- [04:02] to be super critical for accurate rag
+- [04:04] for a YouTube transcript. So, we'll be
+- [04:06] using Dockling for that local models so
+- [04:08] everything is blazing fast and later I
+- [04:10] can extend this to support uploading
+- [04:12] PDFs for when I expand the different
+- [04:14] sources for the knowledge base. So,
+- [04:16] that's everything going into this agent.
+- [04:18] So, it's going to be super practical,
+- [04:20] super hands-on. It's going to be pretty
+- [04:21] casual and engaging as well, like I
+- [04:23] always like to make my live streams.
+- [04:25] It's going to be a blast. And the goal
+- [04:26] that I have for you, the primary goal is
+- [04:29] to give you a super straightforward
+- [04:31] example of building a pretty practical
+- [04:34] AI agent. I hope this seems really
+- [04:36] practical to you and it's going to be
+- [04:38] using a full AI coding assistant
+- [04:40] workflow. So, of course, we're going to
+- [04:41] be using AI coding assistants. I'll use
+- [04:43] claude code in the stream, but I'll talk
+- [04:45] about how this will work with really any
+- [04:47] AI coding assistant. And then for task
+- [04:49] management and rag, we're going to use
+- [04:51] the good old archon because this is my
+- [04:53] open source tool that I have available
+- [04:54] for you to enhance any AI coding
+- [04:57] workflow. So of course, I wouldn't miss
+- [04:59] including it in everything that we've
+- [05:01] got right now. And by the way, a massive
+- [05:03] reason that I'm doing this live stream
+- [05:05] is cuz I want to celebrate the release
+- [05:07] of the Agentic coding course in Dynamis.
+- [05:10] So, I'll have a link to this in the
+- [05:11] description as well, so you can check it
+- [05:13] out because if you want to master AI
+- [05:16] coding assistance and learn how to build
+- [05:18] reliable, repeatable systems that get
+- [05:21] you results you didn't even know was
+- [05:23] possible with AI coding assistance. This
+- [05:25] is for you. I promise you're not going
+- [05:27] to find anything better. And you got to
+- [05:29] understand, I have to tell you about
+- [05:30] this right now because the first batch
+- [05:32] of the course was released right into
+- [05:34] the Dynamis community literally today.
+- [05:36] So, it's on the forefront of my mind.
+- [05:38] I'm super excited for this. We're going
+- [05:40] to be releasing the course in batches to
+- [05:41] the community over the next month and
+- [05:44] having live workshops to go along with
+- [05:46] these releases. So, it's going to be
+- [05:48] super engaging. I just released the
+- [05:50] module about the core mental models of
+- [05:52] AI coding and principles. Then, we'll
+- [05:54] get into building your own system that
+- [05:57] is optimized for your use case and your
+- [05:59] code bases. And then getting into how
+- [06:01] you can automate your workflows,
+- [06:03] integrate with your applications. We'll
+- [06:05] even get into more advanced things like
+- [06:06] remote AI coding. And then finally
+- [06:08] getting into some more out-of-the-box
+- [06:10] solutions that you can leverage and
+- [06:11] learn from to build your systems like
+- [06:13] the PRP framework, the BMAD method, and
+- [06:15] the GitHub spec kit. So really covering
+- [06:18] the full landscape for AI coding and
+- [06:20] taking your systems to a level that is
+- [06:23] just probably unimaginable for you right
+- [06:25] now. And the core mental model that I
+- [06:27] cover here is that every mistake is an
+- [06:30] opportunity to evolve your system. So
+- [06:32] when AI screws up something in your
+- [06:34] code, instead of just fixing it
+- [06:36] yourself, you fix your system and retry.
+- [06:39] And when you iterate on this over and
+- [06:41] over again, you end up with this system
+- [06:43] that is perfectly crafted for you. And
+- [06:46] that really is your competitive
+- [06:47] advantage. So definitely check out the
+- [06:50] Dynamus Aentic coding course. But with
+- [06:52] that, back to the main announcement for
+- [06:54] this video for the live stream. Again,
+- [06:56] that is this Sunday, the 26th, at 11:00
+- [06:58] a.m. Central time. It's going to be
+- [07:00] super practical, super fun, and we're
+- [07:02] building something that's going to be an
+- [07:03] incredible resource for the channel
+- [07:05] going forward. And so with that, I will
+- [07:07] see you this Sunday for the first ever
+- [07:10] live agent

@@ -1,0 +1,779 @@
+---
+title: "it seems like open AI is working on a new type of agent one of the big AI news this week is that open AI is developing a"
+video_id: "JfM1mr2bCuk"
+video_url: "https://www.youtube.com/watch?v=JfM1mr2bCuk"
+speaker: "true"
+channel: "Unknown"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Startup", "Technology", "Tutorial", "Development"]
+summary: |
+  it seems like open AI is working on a new type of agent one of the big AI news this week is that open AI is developing a new type of agent that can directly control the personal computer device to automate tasks this new type of agent can handle web-based tasks such as Gathering public data about set of companies creating alteries or booking flight ticket it is designed to perform more complex personal and work tasks without needing close provation if this is true it's going to be huge news cuz this is fundamentally different way of building agents unlike how we building agent now normally we would Define a very clear scope of the agent could be manage email and then give agent a list of predefined tasks like Google search send Gmail email access LinkedIn or hpot it normally looks somethin
+key_points:
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+  - "Suitable for learning and reference"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:28:53+09:00"
+---
+
+# Transcript: JfM1mr2bCuk
+
+- URL: https://www.youtube.com/watch?v=JfM1mr2bCuk
+- Retrieved at: 2025-12-30T10:28:53+09:00
+
+## Text
+
+- [00:03] it seems like open AI is working on a
+- [00:05] new type of agent one of the big AI news
+- [00:08] this week is that open AI is developing
+- [00:10] a new type of agent that can directly
+- [00:13] control the personal computer device to
+- [00:15] automate tasks this new type of agent
+- [00:17] can handle web-based tasks such as
+- [00:20] Gathering public data about set of
+- [00:22] companies creating alteries or booking
+- [00:24] flight ticket it is designed to perform
+- [00:26] more complex personal and work tasks
+- [00:28] without needing close provation if this
+- [00:31] is true it's going to be huge news cuz
+- [00:33] this is fundamentally different way of
+- [00:35] building agents unlike how we building
+- [00:37] agent now normally we would Define a
+- [00:39] very clear scope of the agent could be
+- [00:41] manage email and then give agent a list
+- [00:43] of predefined tasks like Google search
+- [00:45] send Gmail email access LinkedIn or hpot
+- [00:49] it normally looks something like this if
+- [00:50] you're using function calling agent the
+- [00:52] limitation of this type of Agents is
+- [00:54] that it is not generic enough every time
+- [00:56] if we want agent to be able to access a
+- [00:58] new website let's say Facebook we have
+- [01:00] to add a new set of tools otherwise
+- [01:02] agent won't be able to do it so to some
+- [01:04] extent it's still kind of similar to how
+- [01:06] we developed software before where humor
+- [01:08] will pre-eng engineer those programs or
+- [01:10] codes that deliver specific results but
+- [01:13] what this new type of agent is doing is
+- [01:15] instead of developing different
+- [01:16] functions for every single new website
+- [01:18] it is trying to access it tries to teach
+- [01:21] agent fundamental skills like how to do
+- [01:23] a mouse click how to scroll withing a
+- [01:25] website or mobile phone how to type and
+- [01:27] when to wait for the website or app to
+- [01:29] be fully loaded so if you want agent to
+- [01:31] perform a task on a brand new website
+- [01:33] you don't need to Dev a new set of tools
+- [01:35] you just try to get learn how to use
+- [01:37] computers and hopefully it can figure
+- [01:39] out how to perform task on any new
+- [01:41] website and the benefit is very clear if
+- [01:43] this works it will be able to handle a
+- [01:45] huge amount of longtail use case in a
+- [01:47] website without building API and point
+- [01:49] for every single one of them and on the
+- [01:51] other side most of the websites don't
+- [01:53] have any API in Point if you try to
+- [01:54] visit a website from your local
+- [01:56] restaurant or gym they probably don't
+- [01:58] have API in Point open for your agent
+- [02:00] call so the ability to simulate real
+- [02:02] human interaction on computer device can
+- [02:05] really unlock those day-to-day use cases
+- [02:07] people can actually have a real personal
+- [02:09] assistant they can complete day-to-day
+- [02:11] task like other food but Grocery and
+- [02:13] many more but this type of agent is
+- [02:15] actually not New Concept some of the
+- [02:16] most Talent teams already working on
+- [02:18] this Pro for a very long time for
+- [02:20] example even last year team from hyper
+- [02:22] rde developed his personal assistant
+- [02:24] which can directly control the web
+- [02:26] browser and complete tasks like book a
+- [02:28] Resturant for you successfully as well
+- [02:30] as open source project like taxi AI
+- [02:32] whereas they develop a Chrome extension
+- [02:34] they allow GPT 4 directly control your
+- [02:36] browser to do basic task like operate on
+- [02:39] GitHub searching and play movie on
+- [02:41] Netflix or even create Google Calendar
+- [02:43] event and earlier this year one of the
+- [02:45] most popular Pur self-operating computer
+- [02:47] which is developed by Josh bicket from
+- [02:49] hyper te it is able to take over not
+- [02:51] only browser but the whole computer and
+- [02:54] be able to simulate real interaction
+- [02:55] like Mouse click Ty to complete pretty
+- [02:57] sophisticated task like a wrer Google
+- [03:00] dog or squeeing website on Hacker News
+- [03:02] Google or GitHub and of course the
+- [03:04] rabbit R1 which claim to be able to
+- [03:07] control people's mobile phone directly
+- [03:09] so this is really not a New Concept but
+- [03:11] I didn't really pay lots of attention to
+- [03:13] it because my impression before was
+- [03:15] those type of agent tend to be quite
+- [03:17] slow and inaccurate it feel like it's
+- [03:19] not ready for production until recently
+- [03:21] I saw a demo from mulon which is another
+- [03:24] web agent team where they showcase demo
+- [03:26] that seem to complete those web task
+- [03:28] extremely faster than where it was last
+- [03:30] year so this got me realize that things
+- [03:32] probably changed a lot past few months
+- [03:35] and got me really interested to
+- [03:36] understand how does those system
+- [03:38] normally work is this technology
+- [03:39] actually ready now and more importantly
+- [03:41] as a AI developer what kind of useful
+- [03:43] things we can build today with this new
+- [03:45] type of agent so I did a bunch of
+- [03:47] research to understand the key
+- [03:49] components and challenges as well as how
+- [03:51] can you use a new open source project
+- [03:54] called Web ql to build a universal AI
+- [03:57] agent that can script through different
+- [03:59] websites and even take actions like
+- [04:01] operating Google sheet paste the
+- [04:03] research results in and do some
+- [04:04] complicated actions like formatting the
+- [04:06] data as well as autom say sending out
+- [04:09] the spreadsheets in slack I'm going to
+- [04:11] unpack all those things for you let's
+- [04:13] get it but before we do I want to tell
+- [04:15] you about today's sponsor hopspot I know
+- [04:17] a lot of people watching this video is
+- [04:19] content creator like me or business
+- [04:20] owner who are trying to find ways to
+- [04:22] leverage AI in your own business and do
+- [04:24] it better and quicker than previously
+- [04:26] possible so I partner with hopspot to
+- [04:29] get this amazing free ebook into your
+- [04:31] hands it is called using generative AI
+- [04:33] to scale your content operation so
+- [04:35] hopspot interviews thousands of
+- [04:37] professionals from marketing and content
+- [04:39] creation where they articulate key
+- [04:41] findings into tools and specific prompts
+- [04:43] that you can use to generate ideas and
+- [04:45] synthesize research and create powerful
+- [04:48] Visual and even get AI to help Market
+- [04:50] your content to get more eyeballs on it
+- [04:52] I found one part particularly useful
+- [04:54] which is how does Google deal with AI
+- [04:56] generated content does it actually pany
+- [04:59] it if so what it is exactly and it was
+- [05:02] extremely useful to me because I
+- [05:03] actually run a side project called
+- [05:05] crafters. where I use AI agent to scrip
+- [05:08] internet find interesting ad projects
+- [05:10] and generate blog posts so this
+- [05:12] information was extremely useful to me
+- [05:14] alongside with many other practical and
+- [05:16] useful tips I think you will find this
+- [05:19] super helpful as well I put the link in
+- [05:21] description below so you can click on
+- [05:22] that to get your free ebook now let's
+- [05:24] back to our AI agent firstly one thing I
+- [05:27] quickly realized is that this type of
+- [05:29] web mobile or desktop agent that can
+- [05:31] direct control the personal computer
+- [05:33] device it's multiple magnitude harder
+- [05:35] than normal function calling agent we
+- [05:37] building and here's why let's say we are
+- [05:38] building a simple inbox manager agent
+- [05:41] who can do action like send out a email
+- [05:43] if we're using normal function calling
+- [05:45] agent all you need to do just quite
+- [05:47] predefine function called send email and
+- [05:49] pass on email content and then task is
+- [05:51] done there's not much room for Arrow
+- [05:53] really however if we try to get a web
+- [05:55] agent to complete the simple task of
+- [05:57] send email it will need to go through m
+- [05:59] four different stamps it'll firstly need
+- [06:01] to open Gmail.com in the web browser
+- [06:03] click search bar search for that
+- [06:05] specific email to reply click on the
+- [06:07] right email from the search result click
+- [06:09] on the reply button type response and
+- [06:11] click Send so it takes a lot more steps
+- [06:14] to complete even simple basic tasks so
+- [06:16] there a lot more room for arrow in this
+- [06:18] process cuz any of those steps agent can
+- [06:20] went wrong and you also need stronger
+- [06:22] memory and reasoning ability because
+- [06:24] agent need to remember what it has been
+- [06:26] done before so it didn't repeat the same
+- [06:28] arrrow again again so in short it is a
+- [06:31] lot more challenge to build but if this
+- [06:32] ability is achieved it is super exciting
+- [06:35] and open up opportunity for multiple
+- [06:36] huge market so how does this system
+- [06:39] actually works a lot of you might have
+- [06:40] question about how can we get agent
+- [06:43] actually simulat the real human inputs
+- [06:45] like clicking scrolling typing well that
+- [06:47] part is actually the easiest part cuz
+- [06:49] there are huge amount of Open Source
+- [06:50] libraries already there like play right
+- [06:52] pop tier appin which is originally
+- [06:54] designed for automated testing so it has
+- [06:56] to simulate the real human interaction
+- [06:59] like scroll clicking typing but now the
+- [07:01] same functionality can be used for
+- [07:02] agents so the development of those basic
+- [07:05] skill and function is pretty easy to do
+- [07:07] with those existing libraries the hard
+- [07:09] part is getting agent to know how and
+- [07:12] when to do those actions accurate
+- [07:14] because most of those language model or
+- [07:15] multimodel are not really trained to
+- [07:18] understand the interface and decide on
+- [07:20] the next step to do and also it's
+- [07:22] generally not great at give very
+- [07:24] specific position and coordinates about
+- [07:26] which your are element to click on so
+- [07:28] how can get agent to really understand
+- [07:31] this user interface humor are saying
+- [07:33] deciding on next action to take to
+- [07:35] achieve that there are three mean common
+- [07:37] ways we either get agent to raise a ro
+- [07:39] interface structure file like HTML or
+- [07:42] XML or we use multimodel model to look
+- [07:44] at the interface screenshot and give
+- [07:46] instruction about what should be done
+- [07:48] next and of course more sophisticated
+- [07:50] team devel mixed mthod to use both
+- [07:52] multimodal ability as well as HTML file
+- [07:55] let's go through each one of them one by
+- [07:56] one the first method is the HTML or XML
+- [07:59] based approach which means we'll try to
+- [08:01] extract the HTML file of each website
+- [08:04] and give those HTML Dom element to the
+- [08:06] agent as context so the agent will be
+- [08:08] able to understand this is structure of
+- [08:10] the website and then decide what to do
+- [08:12] next and the first ever web agent is
+- [08:14] developing exactly same way by 2022
+- [08:17] September which is pre-chat GPT time n
+- [08:19] fman developed a web agent using even
+- [08:22] gpt3 which is extremely small contact
+- [08:24] window and much less cable into
+- [08:27] reasoning but it was tried to complete T
+- [08:29] like buy stuff on Amazon or Book Table
+- [08:31] in certain restaurant or by itself it is
+- [08:33] actually pretty amazing that the level
+- [08:35] of completion that the model like gpt3
+- [08:37] can perform cuz if you compare the
+- [08:39] contact window gpt3 is only 2049
+- [08:42] compared with what we have now gp4 turbo
+- [08:45] is almost 60 times higher with
+- [08:48] 128,000 token contact and why contact
+- [08:50] window is important is because most of
+- [08:52] the HTML file is really messy and full
+- [08:55] of noise as a human if you're reading
+- [08:57] the RO HTML file it's actually very hard
+- [08:59] for you to understand the website
+- [09:01] structure and for the task you're trying
+- [09:02] to achieve probably only one or 5% of
+- [09:05] those HTML file is actually relevant
+- [09:07] that's why the way Nate handling it is
+- [09:09] instead of sending the RO messy HTML
+- [09:12] file it will actually do a lot of clean
+- [09:13] up to extract most R information so if
+- [09:16] you zoom in a little bit you will see
+- [09:18] that the HTML file that it passed onto
+- [09:20] gpt3 looks nothing like original HTML it
+- [09:23] just extract interactive elements like
+- [09:26] links as well as attacks so that it can
+- [09:28] has the context and it also give ID for
+- [09:31] each element so that gbd3 can give back
+- [09:34] comments like start typing in the
+- [09:35] element ID 22 with this content CU those
+- [09:39] Library like playright can actually
+- [09:40] interact with dom elements pretty well
+- [09:43] if you give a specific ID so those
+- [09:45] method that is based on the interface
+- [09:47] structure file like HTML and XML is
+- [09:50] actually the most mature method as long
+- [09:52] as you have a good way to clean up those
+- [09:54] files and only feed the necessary
+- [09:56] contact to agent but it also has its
+- [09:58] limitation for example you won't be able
+- [10:00] to complete task that involve any image
+- [10:02] related ability like capture and on the
+- [10:04] other side some of the website is just
+- [10:06] terribly designed and or have very bad
+- [10:09] code here's another team from agent GPT
+- [10:11] talking about their experience building
+- [10:13] web agent that read HTML file and they
+- [10:15] just have a challenge to get agent
+- [10:17] understand this website for buying
+- [10:19] properties this website has given me
+- [10:21] nightmares uh the the the issues with
+- [10:23] the HTML encodings are just endless like
+- [10:26] for example you see you see this like uh
+- [10:28] placeholder text in this input over here
+- [10:30] it's actually not a placeholder it sets
+- [10:33] dynamically by another element not the
+- [10:35] search box by another element that's
+- [10:37] somewhere else in the documentary so
+- [10:39] that means that when you go and you you
+- [10:41] look at this actual element for the
+- [10:42] search box you don't actually know what
+- [10:44] it is um so that prevents the the the
+- [10:46] language model from understanding uh
+- [10:49] where to to input it its search barriers
+- [10:52] so you sure this HTML and XML based
+- [10:55] approach is most matur so far but it has
+- [10:57] a lot of problems and limitations but
+- [10:59] with the emergence of this new powerful
+- [11:02] multimodel a lot of effort has been
+- [11:04] spent on using Vision as a way for agent
+- [11:06] to understand the interface and give
+- [11:08] instruction about where to interact so
+- [11:11] instead of feeding agent the original
+- [11:12] HML code we can take a screenshot and
+- [11:15] send to multimodel model where it can
+- [11:17] understand reason and also plan what the
+- [11:19] next step should be done then give back
+- [11:21] the instruction to locate specific UI
+- [11:23] element and then use the library we
+- [11:25] mentioned before to do the actual
+- [11:26] interaction and the process is pretty
+- [11:28] simple but turn out the hardest part of
+- [11:30] this approach is locate the exact U
+- [11:32] element to interact with and the best
+- [11:34] way to understand how the second method
+- [11:36] works and involveed is by looking at
+- [11:38] self operating computer project works so
+- [11:40] self operating computer is a project
+- [11:42] aimed to get AI agent to take over your
+- [11:45] computer directly and obviously there's
+- [11:47] no HTML file that we can send to agent
+- [11:49] for your whole computer screen so it is
+- [11:51] designed with multimodel model to Star
+- [11:53] Wars and they went through multiple
+- [11:55] different iterations at the beginning
+- [11:57] the first message they use the inter
+- [11:59] okay the UI an to interact with is by
+- [12:01] taking screenshot and creating gray
+- [12:03] system on top of this image so that gbd
+- [12:05] 4V can take a look at screen decide on
+- [12:08] the button or link that it should try to
+- [12:10] click on and give a proxy coordinates of
+- [12:12] that specific button so this was the
+- [12:14] first version of self-operating computer
+- [12:16] inde did has a quite High error rate cuz
+- [12:18] GB 4V this model is generally not
+- [12:21] designed or trained for this task it is
+- [12:23] very bad at positioning elements a few
+- [12:25] months later the accuracy improved a lot
+- [12:27] by adopting mthod called seta marks so
+- [12:30] seta Mark is a method V by Microsoft
+- [12:32] where they found that even though at
+- [12:34] default gbd 4V is not great at certain
+- [12:36] task like counting objects or
+- [12:38] positioning specific UI element but by
+- [12:40] giving some visual cues like overlay
+- [12:42] some annotation on top of this image gbd
+- [12:45] 4B can complete those Vision task much
+- [12:47] much better and it was quite popular
+- [12:49] method that used for vision task like
+- [12:51] counting objects positioning specific
+- [12:53] button create specific room in your
+- [12:55] floor plan where they will annotate
+- [12:57] screenshots with a set of Mark mthod so
+- [12:59] that gbd 4V can have better guidance and
+- [13:01] give more accurate answer about the
+- [13:03] specific position of certain button and
+- [13:05] this method increased accuracy a lot but
+- [13:07] on the other hand when I talk to Josh
+- [13:09] who a builder behind self operating
+- [13:11] computer he mentioned some interesting
+- [13:13] insights the set of Mark works pretty
+- [13:15] well for website with probably greater
+- [13:17] usability or simple structure but for
+- [13:19] website with more condensed information
+- [13:21] or more complex structure it didn't seem
+- [13:23] to work well for example for hacker use
+- [13:26] because all the information are
+- [13:27] condensed in a very tight space it is
+- [13:29] pretty hard for gbd 4V to pinpoint
+- [13:32] specific position to click on that's why
+- [13:34] he just released a new version trying
+- [13:36] new method use both gbt 4V and OCR model
+- [13:39] if you don't know what OCR is it
+- [13:41] represent for optical character
+- [13:43] recognition it is a very matured AI
+- [13:45] technology that has been used to extract
+- [13:47] text from image and documents and it is
+- [13:50] extremely good at identifying not only
+- [13:52] text and also specific coordination of
+- [13:55] the text so they use this new method
+- [13:57] with a combination of OCR R and
+- [13:59] multimodel model like GPT 4V where GPT
+- [14:01] 4V will read original screenshots and
+- [14:03] output specific command say click on
+- [14:06] this text and then we will use OCR to
+- [14:08] also read this image but explore the
+- [14:10] list of text and its coordination with
+- [14:12] this to combine it's significantly
+- [14:14] increase accuracy by GPD 4V decide on
+- [14:17] the element to click on and OCR to
+- [14:19] provide specific coordinates but one
+- [14:21] thing to note is that OCR is great at
+- [14:23] text but if the user interface has a lot
+- [14:26] of non- text button like bookmark share
+- [14:29] which is very common on mobile phone
+- [14:31] this method didn't work that well but
+- [14:33] they also team from Alibaba where they
+- [14:35] push this mthod further they add a new
+- [14:37] model called clip which specific to
+- [14:38] extract coordinates of those icon so
+- [14:41] both clip and OCR together they were
+- [14:43] able to build mobile agent that can
+- [14:45] directly control your mobile phone into
+- [14:47] complete task like taking notes browsing
+- [14:49] website and YouTube video leave a
+- [14:51] comment which Tik Tok for you or even
+- [14:53] use Google Map to start navigation so it
+- [14:56] was quite impressive progress by using
+- [14:58] multiple models together but ideally I
+- [15:00] think the way to go is obviously we
+- [15:02] don't use multiple models but you
+- [15:04] combine all this ability into one model
+- [15:06] that does this job extremely well and
+- [15:08] there's open source model called cook
+- [15:10] agent which is visual language model
+- [15:12] that designed specifically for
+- [15:15] understanding and interacting with this
+- [15:16] GUI screenshots so it is able to not
+- [15:19] only understand the interface but also
+- [15:21] draw extremely accurate bonding box and
+- [15:24] position of UI element to interact with
+- [15:26] and this model has shown success in many
+- [15:28] different scenario from normal web
+- [15:30] browsing interact with mobile phone as
+- [15:32] well as specific apps I test out their
+- [15:34] web demo with screenshot of capture and
+- [15:37] it is able to identify the actual input
+- [15:39] to interact with to typing the capture
+- [15:41] as well as specific coordinates which is
+- [15:43] extremely accurate as you can see from
+- [15:45] the screenshot so I think a more
+- [15:46] powerful model like cook agent would be
+- [15:48] able to really unlock this type of
+- [15:50] vision based approach and there are new
+- [15:52] research coming up every day in this
+- [15:54] space but overall there are three kind
+- [15:55] of big problems I personally experienced
+- [15:57] a lot of with those web and mobile
+- [15:59] desktop agent why speed as we mentioned
+- [16:02] before the nature of this type of agent
+- [16:04] is going to be less efficient because
+- [16:06] for simple task it has to go through all
+- [16:08] the steps and actions so speed is
+- [16:10] definitely one of the big Challenge and
+- [16:11] second is accuracy which is the exact
+- [16:13] problem that we just went through
+- [16:15] earlier but I'm pretty confident that
+- [16:16] this will be resolved with better model
+- [16:18] and third is Task completion so quite
+- [16:20] often you will observe that those web
+- [16:22] agent just getting into some infinite
+- [16:24] Loop that's most because they kind of
+- [16:26] forget what kind of steps has been taken
+- [16:28] before for so they keep bumping into the
+- [16:30] same problems again and again so I think
+- [16:32] resolving those three things are crucial
+- [16:34] for those have a web or desktop agent to
+- [16:36] have much more increasing adoption but
+- [16:38] with all this limitation today can we
+- [16:40] actually build useful her dos with this
+- [16:42] web agent approach the answer is
+- [16:44] absolutely yes there probably many
+- [16:46] different areas you can look into but
+- [16:47] one part I'm personally quite interested
+- [16:49] in is web scraping so web scraping so
+- [16:51] far has been quite manual process
+- [16:53] because every website structure is
+- [16:55] different and sometimes they change
+- [16:56] update as well so companies actually
+- [16:58] spend a huge amount of resource on
+- [17:00] maintaining the scraper for different
+- [17:01] website that they need to continue
+- [17:03] access and many of those aggregator
+- [17:05] company like hotels.on Skys scanners
+- [17:07] spend huge amount of Dev resource to
+- [17:09] just maintaining the scrier which breaks
+- [17:12] pretty often but with this type of web
+- [17:13] agent who can learn how to access
+- [17:16] websites in a universal way it is almost
+- [17:18] like a universal API that created to
+- [17:21] access any website content and for
+- [17:22] companies who need to script certain
+- [17:24] competitors website recurringly those
+- [17:27] problem of speed accuracy task
+- [17:28] completion will be less a problem since
+- [17:30] the scenario is more predictable the
+- [17:32] only problem we need to overcome is
+- [17:33] getting this part right how to get agent
+- [17:35] to interact with youi accurately there
+- [17:37] are few methods I already mentioned but
+- [17:39] this new project called Web ql they are
+- [17:41] designed specifically to solve the
+- [17:43] problem of find and locate UI elements
+- [17:45] for agent to interact with for example I
+- [17:47] was trying to build a agent that can
+- [17:49] navigate website and typ in capture I
+- [17:51] had a lot of trouble with this website
+- [17:53] because even though GPD 4V can read the
+- [17:56] capture successfully for some reason
+- [17:57] often failed to to allocate the input
+- [17:59] box but with webq basic build a specific
+- [18:02] model that I can just pass on both the
+- [18:04] website as well as the list of items I
+- [18:07] want to allocate in this case it's input
+- [18:08] for the capture as well as submit button
+- [18:11] for the capture then it will return the
+- [18:12] exact Dom element for example this is
+- [18:14] capture input and this is a button for
+- [18:16] submit capture and accuracy is extremely
+- [18:19] high on the other side if I want to
+- [18:20] build a script her to get the latest
+- [18:22] product listing on Amazon then I can do
+- [18:24] the same thing just pass on the list of
+- [18:26] information I want which is the products
+- [18:28] I can even Define array as well so that
+- [18:29] you will know you actually need to
+- [18:31] return list of items and for each item I
+- [18:33] want to know the product name number
+- [18:34] reviews price rating shpping fee after I
+- [18:37] type this thing I can just click on get
+- [18:38] webq then it will return me the list of
+- [18:40] Json file product name or reviews price
+- [18:43] point rating and shipping fee across all
+- [18:45] the product listed here and what's great
+- [18:47] about this is that I can use the same
+- [18:49] query on a totally different e-commerce
+- [18:52] site but it will still be able to return
+- [18:54] exact information I want for product
+- [18:55] name number review price rating and
+- [18:58] shipping fee and this library is pretty
+- [18:59] easy to use I'll quickly show you
+- [19:01] example of how to use this and how can
+- [19:03] you build a web agent with this Library
+- [19:05] they can complete complicated a web task
+- [19:07] to scrip the price release date of Tesla
+- [19:09] from different countries and put the
+- [19:11] search results into a Google sheet and
+- [19:14] in end autom send the data back in slack
+- [19:17] so let's get it firstly our will open
+- [19:19] Visual Studio code which is where we're
+- [19:21] going to implement the scripper to
+- [19:22] firstly install their SDK so I'll do pip
+- [19:25] install web ql and once it's done the
+- [19:27] next thing is I also need to install
+- [19:29] playr and play right is the open source
+- [19:31] library that we're going to use to be
+- [19:32] able to interact with web browser so
+- [19:34] come back here and type in play right
+- [19:36] install Chrome once that part is done
+- [19:38] the last thing is we will need to get
+- [19:40] the web qrl API key so at moment since
+- [19:43] the product is do in beta version it is
+- [19:45] not something you can just sign up and
+- [19:47] get we can probably go to the Discord
+- [19:48] and request access once you get API key
+- [19:51] you can come back here and create EMV
+- [19:53] file put in your web ql AP next let's
+- [19:55] create a file called uh eCommerce
+- [19:58] squer py so we want to create a
+- [20:01] universal squer for any e-commerce
+- [20:03] website it basically have the same flow
+- [20:04] for any e-commerce website it will
+- [20:06] firstly go to the homepage search for
+- [20:09] specific product let's say coffee
+- [20:10] machine click on search button and then
+- [20:13] return all search results it's actually
+- [20:15] very straightforward first they import a
+- [20:16] few libraries we're going to use next we
+- [20:18] want to use play ride to create a web
+- [20:20] driver it basically means it will start
+- [20:22] a browser session so that agent can
+- [20:24] start interacting with the browser data
+- [20:26] and I said headlight to for now so that
+- [20:29] we can actually see the browser next is
+- [20:30] we want to Define what are the UI
+- [20:32] elements that we want webq to return and
+- [20:34] I will basic create a variable let's say
+- [20:36] home quer and I want to return the
+- [20:38] search box and a search button which
+- [20:40] basically any e-commerce website will
+- [20:42] have on homepage and I just pass on name
+- [20:44] search box and search button and then I
+- [20:46] will start get agent working with web ql
+- [20:49] so I will create a homepage session
+- [20:50] query home query this will return actual
+- [20:53] UI elements for search box and search
+- [20:55] button then set for search box I wanted
+- [20:57] to feel in coffee machine after that
+- [20:59] step is done I want I want agent to
+- [21:01] click on the search button so that it
+- [21:03] can jump to the search results for the
+- [21:05] actual scripting and let's just try it
+- [21:06] out I also put a Time sleep there so
+- [21:09] that the browser won't be closed
+- [21:10] immediately and let's do python
+- [21:12] Ecommerce scerp so you can say open
+- [21:14] m.com and start putting coffee machine
+- [21:17] and go to search results and you can see
+- [21:19] the whole Pur has actually happened
+- [21:20] pretty fast and accurate andtime for
+- [21:22] different web task you do want to play
+- [21:24] different query name to making sure
+- [21:25] their model Returns the right results
+- [21:27] and there's actually a Chom extension
+- [21:29] that allow you to do this test pretty
+- [21:31] easily so for example I can go to
+- [21:33] amazon.com.au homepage and then on the
+- [21:35] left side try to type in the search
+- [21:38] query which exactly the same I used in
+- [21:40] the code and click on get web ql and
+- [21:42] then this will return to results if you
+- [21:44] hover it you can see the specific UI
+- [21:46] element in the name you can also make it
+- [21:48] more explicit to indicate whether you
+- [21:50] want to return button or you want to
+- [21:51] return input box and if you go back to
+- [21:53] code this is basically how it work so
+- [21:55] this homepage cury return to UI elements
+- [21:58] in the browser the first one called
+- [22:00] search box which is text input and
+- [22:02] second is search button which is button
+- [22:03] and we first take the get agent to fill
+- [22:05] in coffee machine for the search box and
+- [22:07] then click search button so that's
+- [22:09] pretty much it the next thing we want to
+- [22:10] do is once agent get to search results
+- [22:12] we want to scrip the latest product
+- [22:14] listing so I will go back to the code
+- [22:16] again we'll create a new query called
+- [22:18] search query and I can actually specify
+- [22:20] that product is array so it knows that
+- [22:22] it need to return multiple different
+- [22:24] products and for each product I want to
+- [22:25] name the number of reviews price and
+- [22:27] rate and again I can actually copy this
+- [22:29] query go to this web page paste it in to
+- [22:32] see if they actually return the results
+- [22:34] I want okay great you can see it
+- [22:35] actually returns an array of product
+- [22:38] information from product name number of
+- [22:40] reviews price rating shipping and
+- [22:42] shipping fee so this pretty much confirm
+- [22:44] that the naming convention we have here
+- [22:45] is pretty good so I can go back to the
+- [22:47] code add search results equal to session
+- [22:49] query search query this basically means
+- [22:51] after it go to the search result page
+- [22:54] then run another query to GA perct
+- [22:56] information and I'm going to just print
+- [22:58] the search results so let's open
+- [23:00] Terminal and run
+- [23:03] again okay great so it successfully
+- [23:06] finish the task and return the list of
+- [23:08] the product results so now we can just
+- [23:10] create a quick helper function to save
+- [23:13] this result into a spreadsheet so at top
+- [23:15] I quickly create a function called save
+- [23:17] Json at CSV where it will take the Json
+- [23:19] data as well as file name and in the
+- [23:21] file I predefine list of columns from
+- [23:24] product number reviews price rating I'll
+- [23:26] try to get the product array by doing
+- [23:28] Json data get results get products and
+- [23:31] for each product I will extract those
+- [23:33] four key information pan to the product
+- [23:35] array and write data into a CSV file and
+- [23:38] then let's move down here call the save
+- [23:40] Json as CSV function by passing on
+- [23:43] search result Json data and save the
+- [23:45] file into the CSV and in the end I will
+- [23:48] do session stop to finish session so
+- [23:50] let's draw this
+- [23:56] again
+- [23:58] so now it return results if we go open
+- [24:01] spres you can see the list of product
+- [24:03] price rating and number reviews are all
+- [24:05] here and one thing to knowe that is I
+- [24:07] did experiment with search quy quite a
+- [24:09] bit to making sure it return the right
+- [24:11] results and every time I change it I
+- [24:13] would need to making sure the header
+- [24:14] here also match so with this you
+- [24:16] basically create a universal e-commerce
+- [24:19] product information scripper I can just
+- [24:20] create a few variable set top and use
+- [24:23] this exact script for different
+- [24:25] e-commerce website by just changing the
+- [24:27] URL and maybe the file name and then I
+- [24:29] can run again so for this time you can
+- [24:30] see it open catch.com.au which is
+- [24:32] different e-commerce website and again
+- [24:34] it successfully perform task of search
+- [24:36] for coffee machine and go to the search
+- [24:39] results and once finished again you have
+- [24:41] new file of all the product information
+- [24:43] from this new website so you can
+- [24:45] actually easily spin up this script
+- [24:46] they're running every day on all your
+- [24:48] competit website or try to be the
+- [24:50] aggregator of all the coffee machine
+- [24:52] information this is a quick example of
+- [24:53] how you can use webq to build some
+- [24:56] Universal web scripper but apart from
+- [24:58] this you can also do quite sophisticated
+- [25:00] workflow accurately for here is more
+- [25:02] complicated case like the one we show
+- [25:04] you at the beginning where you can set
+- [25:05] up a script that can extract information
+- [25:08] about different countries Tesla price
+- [25:10] delivery date and specs regard as the
+- [25:13] language they using and it will even
+- [25:15] work for some situation like in UAE
+- [25:18] where the tax is on different order then
+- [25:20] it can go to the Google sheet pting all
+- [25:22] those information and even format it
+- [25:25] properly and then it will go to SL and
+- [25:28] share spreadsheets this example PRI by a
+- [25:30] team to Showcase power I won't go into
+- [25:32] the details of this I will include the
+- [25:34] code in the GitHub link below so you can
+- [25:36] go and check out if you're interested
+- [25:37] but there's a lot of possibilities I
+- [25:39] hope this give you a good idea about
+- [25:41] what kind of powerful web agents you can
+- [25:43] actually build today I hope you enjoy
+- [25:44] this video I'm very excited to see what
+- [25:46] kind of interesting web or mobile agent
+- [25:48] you start building I also have plan to
+- [25:50] build a more Universal web agent still
+- [25:53] use web ql but instead of us predefining
+- [25:55] all those queries maybe we can get agent
+- [25:58] like GPD 4B to look at screenshots
+- [26:00] figure out things to query but use web
+- [26:02] ql to actually interact with the UI
+- [26:04] accurately if this topic interests you
+- [26:06] please comment below let me know and I
+- [26:08] will make a more in-depth video thank
+- [26:10] you and I see you next time

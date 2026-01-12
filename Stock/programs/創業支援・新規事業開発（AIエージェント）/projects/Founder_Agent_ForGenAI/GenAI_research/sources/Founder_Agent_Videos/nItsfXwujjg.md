@@ -1,0 +1,855 @@
+---
+title: "- URL: https://www.youtube.com/watch?v=nItsfXwujjg"
+video_id: "nItsfXwujjg"
+video_url: "https://www.youtube.com/watch?v=nItsfXwujjg"
+speaker: ""
+channel: ""
+date: ""
+duration: ""
+tags: ["hiring", "machine_learning", "entrepreneurship", "marketing", "startup", "PMF", "AI", "investment", "funding", "team_building"]
+topics: ["資金調達", "組織構築", "成長戦略", "プロダクト開発", "起業"]
+summary: |
+  - URL: https://www.youtube.com/watch?v=nItsfXwujjg
+  - Retrieved at: 2025-12-30T16:15:26+09:00
+  - [00:00] Anthropic just killed the manual code
+key_points:
+  - "- URL: https://www.youtube.com/watch?v=nItsfXwujjg"
+  - "- Retrieved at: 2025-12-30T16:15:26+09:00"
+  - "- [00:00] Anthropic just killed the manual code"
+  - "- [00:02] review. The engineers building Claude"
+  - "- [00:04] Code, which itself is nearly 95% written"
+category: "AI技術"
+confidence_level: "high"
+---
+
+
+# Transcript: nItsfXwujjg
+
+- URL: https://www.youtube.com/watch?v=nItsfXwujjg
+- Retrieved at: 2025-12-30T16:15:26+09:00
+
+## Text
+
+- [00:00] Anthropic just killed the manual code
+- [00:02] review. The engineers building Claude
+- [00:04] Code, which itself is nearly 95% written
+- [00:08] by Claude Code, no longer review most of
+- [00:10] their changes line by line. They've
+- [00:12] replaced the human code reviewers with
+- [00:15] AI agents. And they've just open sourced
+- [00:17] their tooling for Cloud Code, so you can
+- [00:19] do it, too. If you're drowning in a sea
+- [00:22] of AI generated code, terrified that
+- [00:25] some security vulnerability is going to
+- [00:26] slip through and land you on the front
+- [00:28] page of hacker news, or you're waiting
+- [00:31] forever in PRJL for your team to get
+- [00:34] back to you with their review, this
+- [00:35] workflow will unlock the biggest blocker
+- [00:38] that most AI native engineers are
+- [00:40] experiencing right now and will bring
+- [00:42] with it massive velocity. It sounds
+- [00:44] radical, honestly, maybe even reckless,
+- [00:47] but listen to exactly how Anthropic CPO
+- [00:50] just described this shift. The team that
+- [00:52] works in the most futuristic way is the
+- [00:55] Cloud Code team, cuz they're using Cloud
+- [00:57] Code to build Cloud Code in a very
+- [00:58] self-improving kind of way. Early on in
+- [01:00] that project, they would do very line by
+- [01:02] line pull request reviews, you know, in
+- [01:04] the way that you would for any other,
+- [01:05] you know, project. And they've just
+- [01:06] realized like Claude is generally right
+- [01:08] and it's producing, you know, pull
+- [01:10] requests that are probably larger than
+- [01:11] most people are going to be able to
+- [01:12] review. So, can you use a different claw
+- [01:14] to review it and then do the human
+- [01:16] almost like acceptance testing more than
+- [01:18] trying to like review line by line?
+- [01:20] >> I heard you describe this as you guys
+- [01:21] are patient zero for this way of
+- [01:24] working.
+- [01:24] >> I honestly could not believe that clip
+- [01:26] when I first watched it and I've sent
+- [01:28] that to a ton of people. If Anthropic,
+- [01:30] the foundation lab known for being the
+- [01:32] most security focused, trust cloud code
+- [01:35] to handle the majority of their reviews,
+- [01:37] then why are you and I stuck spending so
+- [01:39] many hours manually pouring over diffs?
+- [01:42] In this video, I'm breaking down the
+- [01:44] agentic review system that Anthropic
+- [01:46] just opensourced. I will show you step
+- [01:49] by step how I've implemented their
+- [01:51] playbook using slash commands, custom
+- [01:53] sub aents, and the centerpiece fully
+- [01:57] automated GitHub action runners doing
+- [02:00] code review and security audits. By the
+- [02:03] way, I'm Patrick, the CTO and co-founder
+- [02:05] of an Seattlebased AI native startup
+- [02:08] that has had the privilege of working
+- [02:09] with companies like Google, Microsoft,
+- [02:12] Coca-Cola, Nike, and Disney. and we've
+- [02:14] been battle testing cloud code since the
+- [02:17] day of its release back in February. So
+- [02:19] with that, I'm excited to show you
+- [02:21] what's brought a ton of value to our
+- [02:22] team. Let's dive in. All right, so
+- [02:24] kicking things off here, I'm going to
+- [02:26] show you the best of the highle
+- [02:28] frameworks and principles and mental
+- [02:30] models that I've come across. Also,
+- [02:32] please feel free to jump around the
+- [02:34] timeline with the different chapters or
+- [02:36] look at the timestamps in the
+- [02:37] description.
+- [02:41] The biggest problem that we're
+- [02:42] experiencing right now is this shift in
+- [02:45] terms of where the bottleneck is in the
+- [02:47] software development life cycle or in
+- [02:49] our development process. So think of an
+- [02:51] original software development flow
+- [02:53] before these genai agents. You've got an
+- [02:56] engineer or team of engineers developing
+- [02:58] code. You've got a code review process.
+- [03:00] Even if this is just your own solo
+- [03:02] development process, you'll iterate.
+- [03:04] You'll go back and forth. And then when
+- [03:05] everything's looking great, you merge it
+- [03:07] in. Well, introduce these AI agents such
+- [03:10] as cloud code. All of a sudden, the
+- [03:13] amount of code that we're producing has
+- [03:15] gone up a ton. That's great, but that
+- [03:17] means that the code review process also
+- [03:19] has to scale up. And unfortunately, too,
+- [03:21] with these codegen agents, we actually
+- [03:23] need to be more disciplined and more
+- [03:25] diligent in order to catch different
+- [03:27] hallucinations that could be pretty
+- [03:28] subtle when it comes to security issues
+- [03:30] or not matching the patterns in our
+- [03:33] codebase or anything else. You hear
+- [03:34] people say a lot that Claude Code or
+- [03:36] these other agents don't scale or they
+- [03:38] don't do well with bigger code bases.
+- [03:40] What I've seen is that it's not the
+- [03:42] actual fundamental models problem. It's
+- [03:44] the environment that's messy that
+- [03:46] they're putting them in. And that brings
+- [03:48] us to the Anthropic AI code agent review
+- [03:51] flow. And this shows exactly what
+- [03:54] Enthropic just open sourced and where
+- [03:57] that fits into the life cycle. So you'll
+- [03:58] see here we have this same setup, but we
+- [04:01] have this addition of a broken up code
+- [04:03] review step where we first run all those
+- [04:06] automated reviewers and then we just
+- [04:08] have people doing what they do best. So
+- [04:11] with the AI code review process from
+- [04:13] Enthropic, we've got different models
+- [04:15] deployed when it comes to pattern
+- [04:17] matching, fast analysis, and consistent
+- [04:20] analysis. These are three areas where
+- [04:22] these models really excel over people.
+- [04:24] The tasks that we get them are security
+- [04:26] scanning, bug detection, syntax,
+- [04:30] completeness, style guide, adherence, a
+- [04:32] lot of the kind of blocking and tackling
+- [04:34] of what we're looking for in a code
+- [04:36] review. So think of like a llinter but
+- [04:38] on steroids. The nice thing with this is
+- [04:41] it scales to the volume of these large
+- [04:43] PRs and it can check against basic
+- [04:45] acceptance criteria. So what is it that
+- [04:48] we put in our initial issue or spec? So
+- [04:50] I can check and make sure are the UI
+- [04:53] mocks that were handed over are the
+- [04:54] business requirements is all of that
+- [04:56] shaped up in order to get this merged
+- [04:58] in. And then on the other side of things
+- [05:00] we have the human review process. So
+- [05:02] this is the highlevel strategic
+- [05:04] thinking. So thinking through what is
+- [05:06] the core business problem that we're
+- [05:07] trying to solve here. Zooming out. What
+- [05:10] do we actually want to accomplish with
+- [05:12] this PR being merged in? What is the
+- [05:14] acceptance criteria? I.e. what are we
+- [05:17] looking for when it comes to
+- [05:18] architecture, style guides, UI, and UX.
+- [05:21] Like this is actually fit the look and
+- [05:23] feel and we're freed up to look at these
+- [05:25] things and spend more time on that
+- [05:26] because a lot of the blocking tackling
+- [05:28] has already happened by the time that
+- [05:30] we're at this point in the review thanks
+- [05:31] to cloud code. In addition, I found that
+- [05:33] the architectural alignment being able
+- [05:35] to just take a few more cycles to think
+- [05:37] critically about where this is fitting
+- [05:39] into our codebase is extremely helpful.
+- [05:41] And then one really cool benefit of
+- [05:43] using a process like this is the amount
+- [05:46] of learning that we get by actually
+- [05:48] reading through what the code agent was
+- [05:50] iterating back and forth with and the
+- [05:52] review process. And that could happen
+- [05:54] either while we're developing in the
+- [05:56] back and forth or when we're at the
+- [05:58] acceptance side overlooking what the AI
+- [06:00] code review found.
+- [06:04] A really helpful framework I found is
+- [06:06] thinking about things through an inner
+- [06:08] loop and an outer loop. The inner lloop
+- [06:10] is where we are or our team is working
+- [06:13] with cloud code and iterating on the
+- [06:16] pull request that we're about to create.
+- [06:18] And this is all the quick feedback
+- [06:20] iterative working with slash commands
+- [06:22] and working with sub aents in order to
+- [06:24] shape up our PRs to as great of a state
+- [06:27] as possible. But now we have the
+- [06:28] addition of this super powerful
+- [06:30] intelligence that we can fit wherever we
+- [06:32] want into that flow and also learn as we
+- [06:35] have this pair programmer that's working
+- [06:36] with us. And then on the outer loop side
+- [06:38] of things, we are introducing this new
+- [06:42] pipeline where we've got GitHub action
+- [06:44] runners that are going through and again
+- [06:47] doing that first round for us. And this
+- [06:48] outer loop section is where we use the
+- [06:51] claude code headless mode within GitHub
+- [06:53] actions. One of the biggest mental
+- [06:56] shifts that I've made that has been so
+- [06:58] helpful when building out any sort of
+- [07:00] claude code agentic workflow. How can we
+- [07:03] get clawed code to be able to run for
+- [07:06] much longer? Because the more iteration
+- [07:08] cycles, the more times it can go out and
+- [07:10] use a tool or reference context about
+- [07:12] your codebase, the more they can run
+- [07:14] without us needing to be involved and
+- [07:16] have these longer agentic processes that
+- [07:18] scale.
+- [07:22] And in order to pull that off, this idea
+- [07:24] of the orchestration layer is critical.
+- [07:27] This is where you've got clawed code or
+- [07:29] any agent, but what is the environment
+- [07:31] that they live in? What is the the
+- [07:34] context that they have surrounding them?
+- [07:36] I bucketed this into three main areas
+- [07:38] and this is inspired by Sean Grove from
+- [07:40] OpenAI, a talk he gave at the Engineer
+- [07:42] Worlds Fair, but we've got context. So,
+- [07:45] think of that as prompts, as docs, as
+- [07:48] the codebase itself, anything in your
+- [07:50] cloud. MD file in any other context
+- [07:53] about what what is it trying to actually
+- [07:56] accomplish? What are the business
+- [07:57] objectives? Architecture of your entire
+- [07:59] tech stack documents of the different
+- [08:01] services it has to work with and then
+- [08:03] ultimately what is the task at hand.
+- [08:06] Does it have enough context in the issue
+- [08:08] or the ticket that you gave it in order
+- [08:10] to be successful. Think of it like going
+- [08:12] into a new team. You are only as good as
+- [08:15] what you're told and what you're able to
+- [08:17] search around and find out. You can't
+- [08:19] expect a person or an AI agent to be a
+- [08:23] competent senior level engineer if they
+- [08:25] don't have all that context.
+- [08:27] Additionally, they need tools in order
+- [08:29] to go out and search the codebase, do
+- [08:32] web searches, use MCPs like playwright
+- [08:34] in order to get additional context like
+- [08:36] screenshots and to just enable their
+- [08:38] thinking to be at a much higher level.
+- [08:40] And then the third step is the idea of
+- [08:42] validators. So, this is critical to
+- [08:45] allowing these AI agents to understand
+- [08:47] what they're actually trying to
+- [08:49] accomplish and how close they are to
+- [08:50] accomplishing that. I gave the example
+- [08:52] of the screenshot, which is a really
+- [08:54] clear version of that. What does the
+- [08:56] current website look like? What does the
+- [08:57] the finished pixel perfect mock that I'm
+- [08:59] trying to get to look like and allowing
+- [09:02] the model to have access to both. But
+- [09:04] this can also look like architecture
+- [09:06] guidelines, plain code styles, any like
+- [09:09] syntax or other definitions that we have
+- [09:11] in our codebase. One of the most
+- [09:13] powerful versions of this are just
+- [09:15] stating a couple examples of good output
+- [09:17] and bad output. So, as you'll see in the
+- [09:20] sub agents, the slash commands, and the
+- [09:24] GitHub action workers, I'll try to
+- [09:26] include a few examples in each of those
+- [09:28] to really make it clear to the agent
+- [09:30] what it's looking for when it's doing
+- [09:32] code review. So, if you have the
+- [09:34] context, tools, and validators, you'll
+- [09:36] be in an excellent spot.
+- [09:38] All
+- [09:40] right, I'm really excited to show you
+- [09:41] these high leverage mental frameworks
+- [09:43] that have been very very hard one
+- [09:45] insights as I've been exploring and just
+- [09:47] building a bunch within these AI agents
+- [09:50] over the last number of months. So the
+- [09:52] first thing we have here is the
+- [09:54] engineering process encapsulation. The
+- [09:57] idea here is taking your unique styles,
+- [10:01] architecture, and other principles that
+- [10:03] you're employing in your codebase and
+- [10:05] being able to package those up into sub
+- [10:08] aents or slash commands, cloud.md
+- [10:11] configuration or the GitHub action
+- [10:13] runners, which is one of my favorite
+- [10:15] ways to do this because it's totally
+- [10:16] automated or even within MCPs that you
+- [10:19] create and you take the style, the
+- [10:21] architectural principles, the expertise
+- [10:24] around, you know, security or UIUX
+- [10:28] design or whatever the case might be,
+- [10:29] SEO, and you're able to put all that
+- [10:32] knowledge into this little markdown file
+- [10:35] and send that to anybody on your team
+- [10:37] that wants to benefit from that
+- [10:38] knowledge. I don't have to be an expert
+- [10:40] in all of these disciplines. I just need
+- [10:42] to have the markdown files from my team
+- [10:44] members who are that can allow my agent
+- [10:47] to automatically incorporate their
+- [10:49] knowledge in a systematic and automatic
+- [10:51] way. One of the super super cool bits
+- [10:54] with this as well is you don't need to
+- [10:56] have all that knowledge and expertise in
+- [10:58] house. Let's say that you're a solo
+- [10:59] developer and you're really good at
+- [11:01] front end, but you're less great at
+- [11:03] architecture or SEO principles or UIUX
+- [11:07] design. There are some resources which
+- [11:09] I'll show you at the end of the video
+- [11:10] that allow you to just download these
+- [11:12] markdown files from other people that do
+- [11:14] have that expertise and I put a lot of
+- [11:16] time and energy into shaping them up
+- [11:18] into a markdown file that now with the
+- [11:20] magic of these LLMs and these AI agents
+- [11:22] we can just download and use which I
+- [11:24] think is absolutely wild. The ability to
+- [11:26] transfer knowledge that quickly is is so
+- [11:29] cool. A big insight too that I've had
+- [11:30] and one of the reasons I wanted to make
+- [11:32] this video is showing that companies
+- [11:34] like Enthropic are giving us absolute
+- [11:36] gold in some of these open- source
+- [11:38] repositories if we know where to look
+- [11:41] and how to find them. Like in the case
+- [11:42] of Enthropic where they've been working
+- [11:44] with Claude code since the last quarter
+- [11:47] of last year and have all of these
+- [11:49] patterns and principles that they've
+- [11:51] worked out built into the slash commands
+- [11:53] and sub agents and other workflows that
+- [11:55] they're sharing. In addition to the open
+- [11:57] source content with Enthropic, GitHub X
+- [12:00] if you have the algorithm working for
+- [12:01] you with AI content and YouTube are also
+- [12:04] great resources. So you don't need to be
+- [12:06] an expert, you just need to know where
+- [12:07] to find the expertise. These codegen
+- [12:09] agents are quickly becoming bottlenecked
+- [12:11] by manual workflows. In this case, the
+- [12:14] obvious one is code review and I'm
+- [12:16] trying to help you unlock that. But
+- [12:17] think of the product management process,
+- [12:20] understanding what specs you want to
+- [12:22] develop and other parts of the life
+- [12:23] cycle of software development where we
+- [12:25] can employ these agents to help
+- [12:27] eliminate these process bottlenecks. It
+- [12:29] is absolutely critical and so powerful
+- [12:31] to take these frameworks, these markdown
+- [12:34] files from our team members or that we
+- [12:36] find online or from anthropic and then
+- [12:39] to customize them for our specific
+- [12:41] repository or preferences or
+- [12:43] organization. Think of it as starting
+- [12:45] out on this super high baseline instead
+- [12:47] of whatever you're coming up with.
+- [12:49] You're able to work off the the
+- [12:50] shoulders of giants, people that have
+- [12:51] put a lot of thought into these markdown
+- [12:53] files, and then you're able to from
+- [12:54] there customize things to perfectly fit
+- [12:56] what you're looking for. This is where
+- [12:58] frameworks really come in and are
+- [13:00] helpful, such as the OASP top 10 in
+- [13:02] different categories, which is are just
+- [13:04] security principles to go off of. These
+- [13:06] agents will really mirror the
+- [13:07] environment they're in. So, it's also
+- [13:08] important to make sure that your
+- [13:10] codebase is very clean and shaped up and
+- [13:12] of course that you maintain that through
+- [13:14] these automated code review processes.
+- [13:16] And the last pro tip principle here is
+- [13:18] to give these LLMs a role. If you think
+- [13:22] of prompting or writing a cloud file or
+- [13:26] writing a new slash command or any of
+- [13:28] the other workflows I've mentioned, it
+- [13:30] is so critical to give them a specific
+- [13:32] role. So think of something like you're
+- [13:33] a staff level site reliability engineer
+- [13:36] focused on you know X Y and Z. By doing
+- [13:38] that you're helping in the neural net of
+- [13:41] the model kind of push over to the
+- [13:43] parameters or to the circuits the the
+- [13:45] training data that is most relevant to
+- [13:48] what you're trying to accomplish. You
+- [13:50] can tap further into the expertise
+- [13:52] within the model. So, that's just an
+- [13:53] easy way whether you're prompting or
+- [13:55] building MD files to help communicate to
+- [13:57] the agent what you're trying to tap
+- [13:59] into, what kind of expertise, and from
+- [14:01] what perspective to view the work. I
+- [14:03] just want to call out that subscribing
+- [14:05] really helps the channel. Also, liking
+- [14:07] if you're enjoying this video. And as a
+- [14:09] thank you for doing that, in the
+- [14:10] description, I've linked a bunch of free
+- [14:12] examples that I'm about to show you of
+- [14:14] different markdown files for sub
+- [14:15] aent/comands and these security runners.
+- [14:18] You can super easily download these, add
+- [14:20] them to your own repository, and be up
+- [14:23] and running in no time with these exact
+- [14:24] same workflows that have been super
+- [14:26] helpful to us.
+- [14:30] All right, so starting off here, I'm
+- [14:32] going to show you the two default
+- [14:34] slashcomands that are now included with
+- [14:36] Thin Cloud Code. If you update to the
+- [14:38] latest version, you will see these
+- [14:40] without having to do any extra work. And
+- [14:42] those are slash review. If I hit this,
+- [14:46] it'll go ahead and review a pull
+- [14:48] request. If you don't include a pull
+- [14:49] request, it will just look for the last
+- [14:52] couple commits that you've created. So,
+- [14:54] in this case, I'm actually just going to
+- [14:55] run the command, but I'm going to
+- [14:56] include a couple extra keywords here.
+- [14:58] So, I'll just say, please review the
+- [15:00] last three commits. By the way, this is
+- [15:03] Super Whisper, a text to speech platform
+- [15:05] that allows me to take uh what I'm
+- [15:08] saying and have it cleaned up by
+- [15:10] Nvidia's Parakeet local model and then
+- [15:12] GPT 4.1. Currently, I have an affiliate
+- [15:15] link in the description if you're
+- [15:16] interested, but it's been really helpful
+- [15:17] to just fly through a bunch of this
+- [15:19] stuff. All right, so I'll mention that.
+- [15:21] I'll hit enter here, and you can see it
+- [15:24] has just gone ahead and looking for the
+- [15:26] last three commits. By default, it'll
+- [15:28] look for the PR that you're working on
+- [15:30] or that you just created last, but you
+- [15:32] can modify it like I just did in any
+- [15:34] capacity. Just got back to me here with
+- [15:36] this coder view. And this is going
+- [15:39] through some security critical issues,
+- [15:41] uh, strengths, and then other
+- [15:43] improvements. Just for the record, this
+- [15:45] is a fake key that I made for testing.
+- [15:47] So, uh, yeah, don't worry. You can see
+- [15:50] it also gives some specific suggestions
+- [15:52] for what the change. Typically, what
+- [15:54] I'll do with something like this is I'll
+- [15:55] look through and I'll be like, you know
+- [15:56] what, I actually think that, uh, this
+- [15:58] performance thing in the code
+- [16:00] optimization we should use. So, I'll
+- [16:01] just copy that and I just paste it down
+- [16:03] here. A lot of times I won't even say
+- [16:05] anything other than that and we'll go
+- [16:06] through and address those changes. All
+- [16:08] right, so this next one is what
+- [16:10] Enthropic just released which is the
+- [16:12] security review. This one I'm really
+- [16:14] excited about. Again, I could write
+- [16:16] something in here like saying uh ignore
+- [16:19] the fake security key, but I want to go
+- [16:21] ahead and see what it comes up with.
+- [16:23] I'll show you the exact script that it's
+- [16:24] running in a second, but the config file
+- [16:26] is very robust and just knowing that
+- [16:29] Enthropics team put a lot of time and
+- [16:31] energy into thinking through all the
+- [16:33] different security considerations and
+- [16:35] came back with this structure for the
+- [16:37] sub agent and slashcomand is very
+- [16:39] reassuring. Amazing to just be able to
+- [16:41] take that insight and workflow and have
+- [16:44] it right here at my fingertips so that I
+- [16:45] can benefit from all that security
+- [16:47] research.
+- [16:51] While it's running that, I want to show
+- [16:52] you the cloud code action repository
+- [16:54] within Enthropic. So, Enthropic has of
+- [16:57] course a bunch of amazing uh resources
+- [16:59] that I would recommend checking out and
+- [17:01] the examples both in how they format
+- [17:04] things for markdown files in cloud code
+- [17:07] or GitHub action writers etc., but also
+- [17:10] the content of them are amazing
+- [17:12] resources. So, I'd highly recommend
+- [17:13] studying these. As you can see here in
+- [17:15] the cloud code action repository, we
+- [17:17] have a bunch of different workflows.
+- [17:20] They just released the v1 of this which
+- [17:23] allows us to have a very robust API for
+- [17:26] the cloud code SDK which basically means
+- [17:29] taking cloud code and being able to put
+- [17:31] it in any TypeScript, Python or CLI or
+- [17:35] bashtype environment and that is all
+- [17:38] that a GitHub action runner is is it's a
+- [17:40] YAML configuration file that runs in
+- [17:42] GitHub on their own virtual machines and
+- [17:45] will use cloud code in that environment.
+- [17:48] So you can specify what tools and
+- [17:50] permissions and everything else that you
+- [17:51] want and it will automatically use cloud
+- [17:54] code without you having to interact with
+- [17:56] it in a synchronous way. I want to show
+- [17:58] you another repository as well which is
+- [17:59] the cloud code security review. This is
+- [18:02] actually where I grabbed the source code
+- [18:04] for the slash command and how I was able
+- [18:06] to make the GitHub action. I found it
+- [18:08] all within this repository. So you can
+- [18:11] see in the docloud file and commands
+- [18:13] we've got the security review and this
+- [18:15] is what's happening is it's first
+- [18:17] looking for the recently diffed files
+- [18:19] which this workflow alone has been super
+- [18:22] helpful. I've used it for quite a few
+- [18:23] projects and it's going through this
+- [18:25] entire set of criteria to look for and
+- [18:29] audit your security. And what's really
+- [18:32] nice too is there's a whole methodology
+- [18:34] for this structured output as to how to
+- [18:37] show all of this and uh you know how to
+- [18:39] rate like the security uh severity level
+- [18:42] but also it's got a whole workflow for
+- [18:45] excluding different things that are
+- [18:47] false alarms. What I've also created is
+- [18:49] a pragmatic code review. The code review
+- [18:52] basis that Enthropic has. I actually was
+- [18:55] able to find the source code for it in
+- [18:57] one of the repos which I'll show you in
+- [18:58] a second. And then I created a deep
+- [19:00] research report along with our own
+- [19:02] security principles and compiled it all
+- [19:05] into this repository. So you'll see
+- [19:08] we've got the slash command here which
+- [19:10] basically just sets everything up, looks
+- [19:12] at the last commits. You'll recognize
+- [19:14] this from the security uh slash command
+- [19:17] that Enthropic has. And then I just am
+- [19:19] calling a sub agent. The reason I'm
+- [19:21] doing this is to preserve context and to
+- [19:23] give additional configuration because
+- [19:25] sub aents use different context than the
+- [19:28] main thread so you're not eating up your
+- [19:30] 200k tokens which is really helpful
+- [19:33] especially for a review where that
+- [19:35] context doesn't really help the main
+- [19:36] thread. You just want to go off do its
+- [19:38] thing and come back with the executive
+- [19:39] summary of what you're looking for and
+- [19:41] then you can iterate from there. Perfect
+- [19:43] use of a sub a sub sub aent. So you can
+- [19:46] see in the sub agent itself, I'm giving
+- [19:48] a description of what it's doing, a ton
+- [19:50] of different bash commands and other
+- [19:53] MCPs that I'm surfacing just for this
+- [19:55] sub agent. And then I'm going through,
+- [19:57] and again, I've got this linked in the
+- [19:59] description for you as a thank you for
+- [20:00] subscribing. And I am just outlining all
+- [20:04] of these different steps that you can
+- [20:06] reference. And I would highly recommend
+- [20:07] checking it out and downloading it. At
+- [20:09] the bottom here, too, I've got a
+- [20:10] different format for structuring all of
+- [20:13] this, which I find to be more helpful.
+- [20:18] So you might be asking how exactly did I
+- [20:20] figure out all that I want to review in
+- [20:22] here and also how to structure this.
+- [20:25] Well to show you that I will walk
+- [20:27] through the process. So I will first
+- [20:29] start out with a deep research report. I
+- [20:32] as you can see here in chat GPT I've got
+- [20:34] I'll just go ahead and add and then deep
+- [20:36] research and that gives it into the
+- [20:37] research mode. I personally actually use
+- [20:39] Gemini almost entirely for deep research
+- [20:42] reports. one because it uses Google
+- [20:44] instead of Bing and I find that their
+- [20:46] search prowess is just a lot better and
+- [20:48] two they've got a bunch of first-party
+- [20:50] integrations for example with YouTube
+- [20:52] that allow it to just aggregate
+- [20:53] information much better. So in Gemini
+- [20:55] here I've got the deep analysis of code
+- [20:59] review for our specific startup giving a
+- [21:01] bunch of specifics there and asking for
+- [21:03] something that would be lightweight in
+- [21:05] the in the sense of something that a San
+- [21:07] Francisco based you know VC backed early
+- [21:09] stage startup would use. So, we've got
+- [21:11] robust, you know, professional code
+- [21:13] review, but in a way that's very light.
+- [21:14] And I let it create this entire deep
+- [21:16] research report outlining the best
+- [21:18] principles for how to go about a
+- [21:20] framework for code review and in
+- [21:22] specifically what to look for. I then
+- [21:23] took this entire thing and you can see
+- [21:26] all the, you know, usually hundreds of
+- [21:28] different uh sources that it pulled from
+- [21:30] to compile this. I then took it into
+- [21:33] Gemini deep think which is an amazing
+- [21:36] way to use 10 Gemini 2.5 Pros or eight I
+- [21:39] forget exactly uh at the same time that
+- [21:41] go out in parallel they think for a lot
+- [21:43] longer and they come back and aggregate
+- [21:45] the results. So amazing way to distill a
+- [21:47] bunch of information. I fed it that deep
+- [21:49] research report along with a couple
+- [21:51] other things including the exact way
+- [21:54] that anthropic is compiling prompts. So,
+- [21:57] if you go into their cloud code action
+- [21:59] repo, I this took me a while to find,
+- [22:01] but I dug down and I found this source
+- [22:03] create prompt uh TypeScript file and
+- [22:06] what this is doing is it's taking a
+- [22:08] bunch of these different workflows and
+- [22:10] it's compiling the master prompt or
+- [22:12] basically the system prompt that gets
+- [22:14] fed in whenever you are using the agent
+- [22:18] or the code reviewer that run in GitHub
+- [22:20] using the SDK for cloud code. But what's
+- [22:24] most important here is if you scroll
+- [22:25] down, you'll see that there is a whole
+- [22:27] uh process that they use for instructing
+- [22:30] cloud code. Like for example, how does
+- [22:32] it use the to-do list and manage a to-do
+- [22:34] list in the system prompt? Very very
+- [22:36] interesting. How does it gather context?
+- [22:38] All of this. So I went ahead and copied
+- [22:40] a good portion of this as a way to kind
+- [22:43] of show the type of prompting I want in
+- [22:45] the structure that's most helpful for
+- [22:47] the code review process. And I went
+- [22:49] ahead and fed that along with a few more
+- [22:52] details about our startup in the exact
+- [22:54] YAML format which I pulled from one of
+- [22:57] the GitHub actions that they have open
+- [23:00] source which I'll show you in just a
+- [23:01] second here. Between this file and the
+- [23:03] other two I just showed you. It came
+- [23:05] back and it compiled this entire
+- [23:07] security review for me and then I
+- [23:09] modified it a bit to just fit our use
+- [23:11] case specifically. But all the heavy
+- [23:13] lifting was already done. I will go
+- [23:15] ahead and open up the file and that is
+- [23:17] exactly what you are are witnessing
+- [23:19] here. So it's just a cleaned up version
+- [23:20] of that workflow and that saved me a
+- [23:22] tremendous amount of time formatting,
+- [23:24] researching and honestly there were some
+- [23:26] great ideas in here around the code
+- [23:27] review process that I hadn't thought
+- [23:29] about explicitly adding prior to doing
+- [23:31] the deep research report. Going back to
+- [23:33] our security review that we kicked off a
+- [23:35] little earlier, you can see it came back
+- [23:36] with a very concise output. It did
+- [23:39] thankfully pick up on the fake API key
+- [23:42] that I created here. That was just in
+- [23:44] order to test the security prompt. Super
+- [23:46] helpful. Obviously, this is a pretty
+- [23:48] blatant error, but just knowing that
+- [23:49] this is there, especially when I'm
+- [23:51] working on more sensitive parts of the
+- [23:53] codebase, is a huge help.
+- [23:57] I am excited to show you the next outer
+- [24:00] loop portion here, which is all about
+- [24:02] the GitHub action runners. So, you might
+- [24:05] be wondering how do you get these GitHub
+- [24:08] action runners and what exactly did
+- [24:10] Entropic open source here. If you go to
+- [24:12] your terminal, you can easily run
+- [24:14] slashinstall github app. And what that
+- [24:17] will do is if you if I hit enter there,
+- [24:19] it will open up GitHub and it will go
+- [24:21] ahead and create an ooth connection. And
+- [24:23] then what will happen is you'll have a
+- [24:24] PR created in your repository that has
+- [24:27] two configuration files. The cloud code
+- [24:30] YAML, so claw.l and then the code
+- [24:32] review. As well, these are just GitHub
+- [24:35] action runners that are added into the
+- [24:37] github/workflows
+- [24:39] directory. This is what it looks like.
+- [24:41] This is pulling from a much bigger repo,
+- [24:43] but these are all the configurations
+- [24:45] around the Claude code action repository
+- [24:48] that we're just looking at. One pro tip
+- [24:49] that I'd highly recommend is using Opus.
+- [24:52] So, I uncommented this and then just
+- [24:54] added the uh param for this model. If
+- [24:59] you look at the code review, very very
+- [25:01] similar, but we've got a entire prompt
+- [25:04] here. But all I had to do is go in here
+- [25:07] and replace the couple bullet points
+- [25:08] that it gives you by default with that
+- [25:10] prompt that I had distilled in the
+- [25:12] earlier step that I showed you. So,
+- [25:14] super easy to modify. I also added a few
+- [25:17] things such as tracking progress and I
+- [25:19] gave it access to the uh GitHub MCPs
+- [25:23] which are included by default. You can
+- [25:25] add your own custom MCPS as well which
+- [25:27] is really really powerful. But in this
+- [25:29] case, all I needed was the the already
+- [25:31] included GitHub MCP that allows it to
+- [25:34] basically edit comments so that it can
+- [25:35] track in real time and and read other
+- [25:38] comments within my codebase. And then
+- [25:40] you'll see here the security review
+- [25:42] which is also a workflow that has been
+- [25:44] added. All right. So what does this look
+- [25:46] like in practice? As you can see, I've
+- [25:48] got in my personal website here just a
+- [25:50] demo example. I've got a new poll
+- [25:53] request that I created and automatically
+- [25:56] the code reviewer that you just saw, the
+- [25:58] extra configured one went ahead and
+- [26:01] added a comment. As soon as I pushed
+- [26:02] this up and started analyzing the
+- [26:05] security, as you can see, it caught the
+- [26:06] same fake API key that I had earlier. It
+- [26:09] gave me some other suggestions that are
+- [26:11] really helpful and very similar to what
+- [26:13] we saw with the slash command. And then
+- [26:15] you'll also see down here that we've got
+- [26:17] the security action that ran. And what's
+- [26:20] really nice is it went ahead and it
+- [26:22] showed me the exact line and commented
+- [26:23] on that, which is one of the
+- [26:25] configuration details that I added to
+- [26:28] the security runner. And I don't know
+- [26:30] why it uh added both of these. I thought
+- [26:32] that was kind of funny, but it called
+- [26:34] out that one major security issue.
+- [26:36] What's nice with this too is this runner
+- [26:38] will run, but if it doesn't see any
+- [26:39] security problems, it just will will not
+- [26:41] comment anything. Showing you behind the
+- [26:43] scenes, here's a log of this code review
+- [26:47] runner. It's got a lot of analysis that
+- [26:49] it does to kind of gather context before
+- [26:51] we'll go out and for example use the
+- [26:53] GitHub MCP in order to write the comment
+- [26:56] that you saw earlier. Really interesting
+- [26:58] to audit and see exactly what's going
+- [26:59] on.
+- [27:03] Another super helpful pro tip is
+- [27:05] referencing the Cloud Code action
+- [27:07] repository specifically within this
+- [27:10] examples folder. They've got a bunch of
+- [27:12] great formats that you can borrow from.
+- [27:14] These in theory are all YAML files that
+- [27:17] you could pull right into your GitHub uh
+- [27:20] workflows section and just copy right
+- [27:22] from anthropic. So in fact I based some
+- [27:24] of what you saw off of this um
+- [27:27] comprehensive PR here that included the
+- [27:30] comment changes in the GitHub MCP. So I
+- [27:33] just went ahead and borrowed some of the
+- [27:36] exact prompt setup from these and then
+- [27:39] added my own details to the deep
+- [27:41] research workflow. One other powerful
+- [27:43] thing to think about are using other
+- [27:45] agents that others have developed or
+- [27:48] code review processes or GitHub action
+- [27:51] YAML configurations or slash commands
+- [27:53] etc. A couple of the best repositories
+- [27:56] I've found are this uh this agents one
+- [27:59] right here as you can see with over
+- [28:00] 11,000 stars. This went viral on X a
+- [28:03] couple weeks ago and they've got all
+- [28:05] kinds of different, you know, data
+- [28:06] engineer, data scientist, debugger,
+- [28:09] uh, you know, security specialists, like
+- [28:11] all kinds of different, uh, workflows
+- [28:13] that you can borrow from. Sometimes I
+- [28:15] would grab like a couple of these like
+- [28:17] out of this repo and, uh, this other
+- [28:19] repo here. You can see cloud code
+- [28:21] templates with, uh, 5.4K stars. And then
+- [28:24] I can uh aggregate all these together in
+- [28:27] a prompt like I showed you with deep
+- [28:29] think but you could use any LLM to take
+- [28:32] all that synthesize all that together
+- [28:34] pull the best ideas from each of these
+- [28:36] configuration files and then aggregate
+- [28:38] that into one review process for
+- [28:39] example. These are just a few ideas for
+- [28:41] ways that you can leverage the power of
+- [28:44] the knowledge of the workflows that
+- [28:45] other people have created. And then my
+- [28:46] friend Nod created this cloud code
+- [28:48] commands site where you can view and
+- [28:51] download different commands such as this
+- [28:54] amazing one for optimizing prompts Lara
+- [28:56] which is one of my favorites. Just
+- [28:57] borrow from the best of what people have
+- [28:59] developed and aggregate that all into
+- [29:01] your own customized workflow. So, I hope
+- [29:03] that has been super helpful and just
+- [29:05] thinking of being able to build out this
+- [29:07] suite of automations that help us keep
+- [29:09] up with the insanity when it comes to
+- [29:12] the speed and the volume of the output
+- [29:15] that these LLMs can give us and allow us
+- [29:17] to fight the the tricky risk of
+- [29:20] hallucinations and other mistakes
+- [29:22] alongside the the sheer volume of of
+- [29:24] code. If you enjoyed this video, I think
+- [29:26] you would absolutely love this Claude
+- [29:28] code designer video that I created that
+- [29:30] shows how to use a workflow similar to
+- [29:32] this to give Claude Code superpowers
+- [29:35] when it comes to UI to be able to use
+- [29:37] the visual side of its LLM, the vision
+- [29:40] modality in order to iterate to much
+- [29:42] better UIs by using screenshots through
+- [29:44] the Playright MCP. With that, thank you
+- [29:47] so much for watching and please comment
+- [29:49] below if you have any ideas or
+- [29:50] suggestions for future videos you'd like
+- [29:52] to see.

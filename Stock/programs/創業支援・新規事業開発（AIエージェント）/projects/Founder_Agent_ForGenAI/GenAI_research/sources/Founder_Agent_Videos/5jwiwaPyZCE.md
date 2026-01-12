@@ -1,0 +1,394 @@
+---
+title: "YouTube Video: 5jwiwaPyZCE"
+video_id: "5jwiwaPyZCE"
+video_url: "https://www.youtube.com/watch?v=5jwiwaPyZCE"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "YouTube"
+  - "Transcript"
+  - "Startup"
+  - "LLM"
+topics:
+  - "Startup"
+  - "LLM"
+summary: |
+  Thank you for the for the introduction. Um, ideally it was not gonna be me talking today. Um, so I'm here as a replacement forana. I don't want to steal her thunderish. These are her slides. So she's ...
+key_points:
+  - "invoices is quite important."
+category: "General"
+confidence_level: "medium"
+transcript_type: "YouTube Auto-generated"
+language: "en-ja-mixed"
+source: "Founder_Agent_Videos"
+---
+
+
+# Transcript: 5jwiwaPyZCE
+
+- URL: https://www.youtube.com/watch?v=5jwiwaPyZCE
+- Retrieved at: 2025-12-30T09:39:21+09:00
+
+## Text
+
+- [00:00] Thank you for the for the introduction.
+- [00:02] Um,
+- [00:04] ideally it was not gonna be me talking
+- [00:07] today. Um, so I'm here as a replacement
+- [00:09] forana. I don't want to steal her
+- [00:11] thunderish. These are her slides. So
+- [00:14] she's still here with us. Uh,
+- [00:16] >> she's alive.
+- [00:17] >> Yes. Yes, she she is. She is.
+- [00:21] So the idea for today is to think about
+- [00:26] what kind of challenges we face when
+- [00:29] doing what we traditionally call
+- [00:31] knowledge work and how can we use AI to
+- [00:35] solve those challenges.
+- [00:39] And to do that, I I'm going to take this
+- [00:42] example probably to its extreme. Um,
+- [00:46] and think about an invoice.
+- [00:50] We all use invoices in our daily lives.
+- [00:54] Most often when we buy a coffee from our
+- [00:57] local coffee shop and we might proceed
+- [00:59] to throw it away. But for a lot of
+- [01:01] business applications, keeping track of
+- [01:03] invoices is quite important.
+- [01:07] And one use case that we see often and
+- [01:09] often it's the problem of invoice
+- [01:12] reconciliation. That is I have a
+- [01:15] contract that says um this company is
+- [01:18] going to provide these services over
+- [01:19] let's say a year and every month they're
+- [01:21] going to send me an invoice. Now
+- [01:25] most of the time there's humans involved
+- [01:27] in creating invoices. So an invoice
+- [01:30] might not exactly be what I expect in my
+- [01:32] contract. And I want to be able to check
+- [01:35] those invoices to make sure that they
+- [01:37] are what we agreed upon. This is one
+- [01:41] example that we see a lot in the
+- [01:43] industry where we have these lots of
+- [01:46] providers, lot of contracts, lot of
+- [01:48] invoices and we want to make sure that
+- [01:49] all these invoices make sense. So how do
+- [01:52] we approach a problem like this
+- [01:55] um
+- [01:57] with AI?
+- [01:59] And so it's it's not trivial that I can
+- [02:02] just throw the contract, throw the image
+- [02:04] and say, is this correct? Like we we
+- [02:06] would love that to be the case, but
+- [02:08] there are some nuances that make this
+- [02:10] process a little bit harder.
+- [02:13] So let me run through an example on how
+- [02:17] this may work. Here we have uh I have
+- [02:20] uploaded a couple of contracts. I have
+- [02:22] uploaded a couple of invoices. And so
+- [02:25] one of those contracts might specify the
+- [02:28] price or the delivery date for
+- [02:30] particular items,
+- [02:32] but they don't match the invoice. And I
+- [02:34] want to be very quickly be able to
+- [02:36] highlight
+- [02:38] what's going on. So that that's sort of
+- [02:40] what it looks to to do invoice
+- [02:42] reconciliation. And if you're interested
+- [02:44] in looking at a demo uh more closely, we
+- [02:47] are having a demo later today. So do
+- [02:49] come to the to the demo.
+- [02:53] So
+- [02:55] what what makes this problem slightly
+- [02:57] harder than what it seems? Why can I
+- [02:59] just show or throw my contract my
+- [03:02] invoice to judge GVD and ask like is
+- [03:04] this fine? And it turns out that most
+- [03:07] LLMs or textbased we are now getting
+- [03:10] multimodal LLMs but contracts are very
+- [03:13] comp PDFs are very complex structures um
+- [03:17] made for human understanding where
+- [03:19] layouts, images, plots um or are very
+- [03:23] easy for a human to understand but not
+- [03:25] as CC for um an LLM.
+- [03:29] And so
+- [03:32] there's there's a lot of work that needs
+- [03:34] to be done to extract all this
+- [03:38] information from these documents before
+- [03:40] they can be they can fed to an LM. And
+- [03:42] that's a crucial part of getting these
+- [03:44] applications right. Making sure that
+- [03:46] whatever you're feeding your large
+- [03:48] language model, it's exactly what they
+- [03:51] need to solve this problem. And that's
+- [03:53] where Llama index comes in.
+- [03:58] So how how might we solve this problem?
+- [04:01] And this is like a very rough
+- [04:03] approximation. I'm going to show a more
+- [04:04] complete example um in a second. The
+- [04:08] idea is that we might first upload a a
+- [04:11] contract and then that contract is pors.
+- [04:14] And so if I I do this every day, so I'm
+- [04:16] very familiar with this, but the idea is
+- [04:18] that we have a PDF and we're going to
+- [04:20] extract text from that. And we often end
+- [04:24] up with a markdown representation which
+- [04:26] is basically plain text of that
+- [04:27] contract. That's what I mean by parsing.
+- [04:30] Um for this particular application I
+- [04:33] might need to find specific clauses on
+- [04:36] that contract. Um and contracts might be
+- [04:40] very large. So I need to do look up of
+- [04:43] different parts of the text. This can be
+- [04:46] achieved for example using rag. And so
+- [04:48] for these particular applications once
+- [04:50] we parse this contract once we have this
+- [04:53] text representation of the contract we
+- [04:55] are going to throw it into an index uh
+- [04:59] into a vector database. We have llama
+- [05:01] index uh in lama cloud for this and we
+- [05:05] have the first step of this process
+- [05:07] ready which is processing the contract.
+- [05:12] And again, contracts that look like this
+- [05:15] might have um an address somewhere on
+- [05:18] the top. It might have a table. Again,
+- [05:20] these are complex structures that are
+- [05:22] easy for humans, but not necessarily so
+- [05:25] much for lens.
+- [05:27] And this is how a contract that sparse
+- [05:30] might look like. You can see the table
+- [05:32] there at the end. I can is how nice.
+- [05:35] Then again here
+- [05:40] once we have the contract then the next
+- [05:42] step it's the invoice. What do I need?
+- [05:45] What might I do with the invoice? First
+- [05:48] step is always parsing again. Uh we need
+- [05:51] to get all this information as text so
+- [05:53] that we can do more interesting things
+- [05:55] with it. Um but for invoice we actually
+- [05:58] need a lot more details. We need to know
+- [06:01] for example the name of the company and
+- [06:04] we need to find the name of the company
+- [06:05] that invoice. We might need to get all
+- [06:07] the line items and exactly what was the
+- [06:09] amount for each line item. Um
+- [06:13] so for this we have a
+- [06:16] a product called pars that I'm going to
+- [06:18] mention in a second
+- [06:20] that allows us to basically solve this
+- [06:22] step at once.
+- [06:25] So what is llama index and what do we
+- [06:30] do? Um
+- [06:34] we provide at the very core level
+- [06:40] these building blocks that are necessary
+- [06:42] for doing knowledge work with AI pores
+- [06:48] extract classification of documents. All
+- [06:51] these are essential tools that you will
+- [06:53] need eventually if you're building
+- [06:55] applications that involve documents.
+- [06:59] You might know us better for our open
+- [07:01] source framework
+- [07:03] um that builds upon these tools to build
+- [07:06] complex AI um applications and AI
+- [07:09] agents. And we are starting to release
+- [07:14] agent templates
+- [07:16] um that allow you to very quickly
+- [07:18] prototype u complex agentic applications
+- [07:22] that use documents as their main input
+- [07:25] and transform them into whatever you
+- [07:27] need to build. for example, in
+- [07:29] reconciliation. So the idea is that the
+- [07:31] example that I show,
+- [07:34] you should be able to get started with
+- [07:35] one of the templates and in a very few
+- [07:38] minutes get up and running with a
+- [07:39] properly agenda application that
+- [07:42] ingests real documents.
+- [07:47] So about
+- [07:49] the core building blocks, I think that
+- [07:53] llama is is really
+- [07:56] something special. It's the building
+- [07:59] block that allows you to go from PDF to
+- [08:01] text. Um, and there is a lot of
+- [08:04] optimization behind the scenes to make
+- [08:06] sure that we understand layouts, that we
+- [08:09] understand images, that we understand
+- [08:12] tables, that we understand charts. And
+- [08:14] so, regardless of how complex your
+- [08:17] document is, there's a good chance that
+- [08:20] you're going to get much better results
+- [08:21] by parsing it first and then using an
+- [08:24] LM.
+- [08:27] Now if what you need is structure
+- [08:29] output. For example, for an invoice I
+- [08:31] need line items like what was charged,
+- [08:33] how much was it, when was it, then I
+- [08:36] usually want a JSON output for my task.
+- [08:40] And here is where extract shines.
+- [08:42] Extracts allow you to specify a schema.
+- [08:46] These are the things that I want to get.
+- [08:48] and
+- [08:50] ingests your document, parses it behind
+- [08:53] the scenes and then gives you the
+- [08:55] structure output that is essentially
+- [08:57] what you want.
+- [08:59] And so here you can see we have a
+- [09:02] feeling from Nvidia.
+- [09:04] I might only care about certain specific
+- [09:06] fields and so I can just specify that as
+- [09:08] a schema and I get that um those values
+- [09:11] only.
+- [09:13] And it's very easy to get started. You
+- [09:15] can build your own schemas, but we have
+- [09:17] a a few that are prefilled for you to
+- [09:20] use. We also have a mode that
+- [09:22] automatically suggests a schema for you.
+- [09:25] So again, it's very easy to to get
+- [09:27] started.
+- [09:29] If you're a developer, you can also go
+- [09:31] the programming route and you can do
+- [09:33] this by specifying a py schema here. The
+- [09:37] key is that these descriptions field
+- [09:40] here are what the LM will use behind the
+- [09:43] scenes to understand what's going on.
+- [09:45] And so they're really really important
+- [09:48] and so if you skim on this results might
+- [09:52] not be as good
+- [09:55] but again it's just a couple of lines to
+- [09:57] get sorted. Uh also if you go the code
+- [10:00] route um we are going to share the
+- [10:02] slides after the talk but there is a
+- [10:04] couple of QR codes um here. This one
+- [10:07] takes you to tutorial on how to use
+- [10:09] extract for these feelings.
+- [10:14] Um now
+- [10:16] if you want to build
+- [10:19] AI applications,
+- [10:21] agentic applications at some point you
+- [10:24] might need to start putting all these
+- [10:25] building blocks together. And so
+- [10:28] in the ideal world, we just write agents
+- [10:32] or function agents where we specify a
+- [10:34] list of tools and
+- [10:37] the agent automatically knows what tool
+- [10:40] to call in what order to get the right
+- [10:42] output and that works great. In
+- [10:45] practice, we sometimes have specific
+- [10:49] logic that we want to make sure is
+- [10:51] executed in the right order and some of
+- [10:53] those decisions will be agentic. We
+- [10:56] might have agents that solves particular
+- [10:59] tasks, but we want a specific flow um of
+- [11:04] our application. And here is where agent
+- [11:06] workflows shine. One of our core
+- [11:10] open-source contributions is the idea of
+- [11:12] agent workflows that allow you to
+- [11:16] build any application specifying
+- [11:19] different steps and how those steps
+- [11:21] connect. Um the idea is that this is
+- [11:24] event driven. is built for agents. Most
+- [11:27] of our agent abstractions are built on
+- [11:30] top of this. Um, and this is a great way
+- [11:34] to build agenda applications. This is
+- [11:36] what a the simplest workflow might look
+- [11:40] like. We can define steps. These steps
+- [11:43] just print and do nothing. And then
+- [11:46] steps communicate by specifying events.
+- [11:49] So first step emits an event. Step two
+- [11:52] wait expects that event. And so when it
+- [11:54] sees it's firing from this, we'll
+- [11:56] execute. And this way you can build a
+- [11:59] very distributed application by specifi
+- [12:02] specifying when this thing should run.
+- [12:04] This is really useful when you're
+- [12:07] processing documents where a task might
+- [12:10] take a minute for example and this other
+- [12:12] task needs to fire only when this is
+- [12:14] done. Uh this manages all that for you
+- [12:18] uh without uh been blocking.
+- [12:22] And so we also have tools to visualize
+- [12:25] some of the workflows. And so if you run
+- [12:27] this workflow, you might get a
+- [12:29] visualization such as this one.
+- [12:34] Back to our invoice reconciler. If I
+- [12:37] were to implement this as a workflow,
+- [12:40] this is what this workflow might look
+- [12:42] like. I have a step that uploads a file.
+- [12:45] Um, I might have a classification step
+- [12:47] that we have a classification model that
+- [12:49] decide if this is an invoice or a
+- [12:52] contract. If it's an invoice, I might
+- [12:54] emit an invoice event and I'm going to
+- [12:57] sort of start the workflow that deals
+- [12:59] with invoices. So, I'm going to parse
+- [13:01] the invoice. I'm going to
+- [13:06] extract it. Um, I'm going to go back to
+- [13:10] the contract and I'm going to reconcile
+- [13:13] it. If I have a contract, I'm going to
+- [13:16] get the name from the contract. I'm
+- [13:18] going to index that contract. I'm going
+- [13:20] to say that contract was indexed.
+- [13:23] And when I'm reconciling an invoice
+- [13:26] here, basically what I have it's the
+- [13:28] extracted invoice. I have the extracted
+- [13:31] contract and I'm going to use a
+- [13:34] structure output lm. This is not
+- [13:36] necessarily an agent. Uh and say this is
+- [13:39] what my output should look like. um from
+- [13:43] the PORs invoice and from the PORs
+- [13:46] contract try to find if there are any
+- [13:48] discrepancies and this step could be as
+- [13:51] complex as as you want it to be.
+- [13:56] We are also building tools to make it as
+- [13:58] easy as possible to deploy agent. So if
+- [14:00] you build an agentic application with a
+- [14:02] workflow, we want to make sure that you
+- [14:04] can deploy it very fast. And so in this
+- [14:07] case we developed a tool called llama
+- [14:11] that is the one that has all these
+- [14:13] agentic templates. So if you type lacl
+- [14:16] in it this will
+- [14:19] very quickly um allow you to generate
+- [14:23] one of these templates and then you can
+- [14:26] deploy it you can run it locally but you
+- [14:28] also get all the code. So if you
+- [14:31] actually want to make any changes to the
+- [14:33] application, you want to change the
+- [14:34] schema, you want to change the UI, uh
+- [14:37] everything is there um for you to to
+- [14:41] customize.
+- [14:45] We are going to be doing a demo of
+- [14:49] exactly this and how this works and how
+- [14:51] you can get started deploying an agent
+- [14:53] on the demo later. So I think it's 5:30
+- [14:56] demo booth is over there.
+- [14:59] Um,
+- [15:01] finally
+- [15:02] we wrote a paper on how to use lama
+- [15:06] index with weight and biases. You can
+- [15:10] find the link to that blog here uh if
+- [15:13] you're interested.
+- [15:15] I say we is was but again I'm still in
+- [15:18] her talk so I I get to do this again. Uh
+- [15:24] if you're interested in how
+- [15:28] when to use pores, when to use extract,
+- [15:31] um what is OCR and why we might need
+- [15:33] pors and not just OCR and a document,
+- [15:36] these are two interesting blog posts
+- [15:38] that will be linked with the talk. Uh if
+- [15:43] you're interested in getting started
+- [15:44] with agents, this is your main QR code
+- [15:47] that will take you to
+- [15:49] the demo how to properly build these
+- [15:51] applications.
+- [15:56] And this is it. We are, as I mentioned,
+- [16:01] we have our demo and we have swag. So,
+- [16:06] if you're interested in one of these
+- [16:07] very cute hats or have any questions
+- [16:10] about Llama Agents, happy to approach me
+- [16:13] or Mutasa there, just search for the
+- [16:15] hats and we're happy to exchange uh one
+- [16:18] of these hats for your time.
+- [16:21] All right.
+- [16:23] Thank you.

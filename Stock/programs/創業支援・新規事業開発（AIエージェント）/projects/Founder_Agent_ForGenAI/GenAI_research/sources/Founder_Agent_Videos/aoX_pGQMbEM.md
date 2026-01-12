@@ -1,0 +1,1856 @@
+---
+title: "Big models today if we compare them to the big models five years ago they fail in very different way..."
+video_id: "aoX_pGQMbEM"
+video_url: "https://www.youtube.com/watch?v=aoX_pGQMbEM"
+speaker: "Unknown"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "Anthropic"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  Big models today if we compare them to
+  the big models five years ago they fail
+  in very different ways. They get
+key_points:
+  - "Big models today if we compare them to"
+  - "significantly better at following"
+  - "following instruction. You can suddenly"
+  - ">> The worst case which is the the goal of"
+  - "are very much just you know a piece of"
+  - "magic where this chip works you you know"
+  - "knows what's happening. Agents are very"
+  - "take this as a stance, right? You will"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: aoX_pGQMbEM
+
+- URL: https://www.youtube.com/watch?v=aoX_pGQMbEM
+- Retrieved at: 2025-12-30T11:33:16+09:00
+
+## Text
+
+- [00:00] Big models today if we compare them to
+- [00:02] the big models five years ago they fail
+- [00:05] in very different ways. They get
+- [00:07] significantly better at following
+- [00:08] instructions when they follow
+- [00:09] instructions and they become better at
+- [00:11] following instruction. You can suddenly
+- [00:13] do a lot more. So it's very easy to
+- [00:15] model an average case. It's very hard to
+- [00:17] model non-verage case.
+- [00:18] >> The worst case which is the the goal of
+- [00:20] security. Right.
+- [00:21] >> Exactly. Right. Yes. Modern computers
+- [00:23] are very much just you know a piece of
+- [00:25] magic where this chip works you you know
+- [00:28] you you move it there very so slightly
+- [00:30] it becomes unstable and then nobody
+- [00:32] knows what's happening. Agents are very
+- [00:33] different from humans. That's like let's
+- [00:35] take this as a stance, right? You will
+- [00:37] not find a single human in the world
+- [00:38] that works 24/7, touches absolutely
+- [00:41] every single one of your endpoint in in
+- [00:44] your system that absolutely knows
+- [00:46] everything there is like that can
+- [00:48] generate you basically all of the
+- [00:50] hacking tools on on a whim like just
+- [00:53] because it knows it has seen all of them
+- [00:54] it can recreate this in a matter of a
+- [00:56] second. a normal human adversary when
+- [00:58] I'm an enterprise and I think oh this
+- [01:00] may be an insider from like a from a
+- [01:02] competitor the way they work is
+- [01:05] drastically different they make an
+- [01:06] assumption you as a user you can't write
+- [01:09] you know 10,000 lines of hacking tools
+- [01:11] in in a day this is not something you
+- [01:13] will be able to do in security we tend
+- [01:15] to say that a child is the worst case
+- [01:17] adversary you can find completely
+- [01:19] irrational thinking infinite amount of
+- [01:22] time they can basically touch everything
+- [01:24] like they expect there are no
+- [01:25] expectations on behaviors whatsoever.
+- [01:27] But so agents are like even worse than
+- [01:30] that.
+- [01:31] >> MLST is supported by a cyber fund.
+- [01:34] Link in the description.
+- [01:36] >> I'm Ilia. I spend my days staring at
+- [01:39] models and trying to make sure they do
+- [01:41] what you expect them to do. Most of the
+- [01:43] time they don't do what you expect them
+- [01:45] to do. So we're trying to fix this. Uh
+- [01:48] in my previous life I was an academic
+- [01:50] and uh I have basically been publishing
+- [01:52] in both security and machine learning.
+- [01:54] Then I joined Deepmind where I stayed
+- [01:56] for two years in the best machine
+- [01:58] learning security team. And now I left.
+- [02:01] I am very unemployed and am trying to
+- [02:04] build security tooling for the future to
+- [02:06] make sure that as we get agentic fleets
+- [02:09] integrated into more and more use cases,
+- [02:12] we can actually tell what they're doing.
+- [02:14] We can impose constraints on them and we
+- [02:17] can have confidence that tomorrow
+- [02:19] they're not going to leak our private
+- [02:21] information, hack the boxes on which
+- [02:22] they're running and and so on. I'll I'll
+- [02:24] I'll share a story of about a topic that
+- [02:26] I think is extremely exciting. Usually
+- [02:28] when I tell it to people, they get a
+- [02:30] little bit triggered, especially if they
+- [02:31] come from a cryptographic community
+- [02:32] because they say what I'm proposing is a
+- [02:35] little bit crazy. Now, we have machine
+- [02:37] learning models. We actually know what
+- [02:39] they do. We know how they think. We can
+- [02:41] check their state. They're kind of like
+- [02:42] a resettable human if you will, right?
+- [02:44] So suddenly, what I'm marking in this
+- [02:46] work is that actually trusted third
+- [02:48] parties can exist. And when you do have
+- [02:51] those trusted third parties, you
+- [02:52] suddenly don't need to rely on this very
+- [02:55] expensive and hard and cumbersome
+- [02:58] cryptographic utilities. Right? To give
+- [03:00] you a very simple example, we can
+- [03:02] consider a Yao millionaire problem. This
+- [03:05] is where I have some money, you have
+- [03:06] some money. We want to find out who's
+- [03:08] richer, but we don't want to share how
+- [03:09] much money we have. So in order to solve
+- [03:12] this in cryptography we usually rely on
+- [03:15] very complex protocols which are very
+- [03:16] expensive to run especially if you
+- [03:18] increase the dimensionality. But with
+- [03:20] models what we could have done instead
+- [03:22] is that we can say oh let's pick jamma
+- [03:24] as an example of a model. Let's both of
+- [03:26] us agree on a prompt. We say you'll
+- [03:28] receive two numbers number one number
+- [03:30] two. The type annotations on them is
+- [03:32] integers. We will receive two integers.
+- [03:35] Say first if the first number is bigger
+- [03:37] otherwise say second. And then the only
+- [03:40] two outputs the model can we both agree
+- [03:42] can produce is first a second and then
+- [03:45] that is it. We just run inference maybe
+- [03:47] on a platform that can give you an
+- [03:49] integrity verification that the model
+- [03:50] exactly ran with the exact parameters
+- [03:52] and also the inputs we provided. And in
+- [03:55] this setting you no longer need
+- [03:56] cryptography and clearly you will get
+- [03:58] the result you want especially since you
+- [04:00] can trust this model to perform this
+- [04:01] trusted computation. And this trust
+- [04:04] model in itself is very different from
+- [04:06] any notion of trust you can find in
+- [04:08] cryptographic literature or in like more
+- [04:10] trust execution environment sort of
+- [04:12] literature. And the overall argument is
+- [04:14] that maybe machine learning is actually
+- [04:16] going to change quite a bit in the way
+- [04:17] we approach those trusted computations
+- [04:19] in the future. Obviously it's
+- [04:21] unreliable. Obviously you don't get
+- [04:22] soundness completeness properties out of
+- [04:24] this. This is not a zero knowledge
+- [04:25] proof. This is not an MPC protocol. This
+- [04:27] is not a trust execution environment.
+- [04:29] It's a completely different new way to
+- [04:31] approach private inference that truly
+- [04:34] really exists because we have those
+- [04:35] trusted third parties to which we can
+- [04:37] give secrets and as long as some
+- [04:40] conditions are certified and you should
+- [04:41] read the article about them, you get
+- [04:43] significantly more out of them.
+- [04:51] We are sponsored by Prolific. Now,
+- [04:54] Prolific are really focused on the
+- [04:56] contributions of human data in AI.
+- [04:59] Prolific are putting together a report
+- [05:02] on how human data is being used in AI
+- [05:05] systems and they need volunteers. Um,
+- [05:07] you can just go and fill out this form
+- [05:09] to help them produce this report and you
+- [05:11] will get privileged access to see the
+- [05:14] report before anyone else. The link is
+- [05:16] in the description. Hey folks, Steven
+- [05:18] Johnson here, co-founder of Notebook LM.
+- [05:21] As an author, I've always been obsessed
+- [05:22] with how software could help organize
+- [05:24] ideas and make connections. So, we built
+- [05:27] Notebook LM as an AI first tool for
+- [05:30] anyone trying to make sense of complex
+- [05:33] information. Upload your documents and
+- [05:35] Notebook LM instantly becomes your
+- [05:37] personal expert, uncovering insights and
+- [05:40] helping you brainstorm. Try it at
+- [05:43] notebooklm.google.com.
+- [05:46] I was uh I was based in deep mine and
+- [05:48] before that mostly stuck in the dungeons
+- [05:50] of the university.
+- [05:51] >> Very cool. So um you did your PhD at
+- [05:53] Cambridge under the legendary Ross
+- [05:55] Anderson.
+- [05:55] >> Indeed. Yes.
+- [05:56] >> So you have fundamentally different DNA,
+- [05:58] right? You're a security guy. I
+- [06:00] >> think my DNA is approximately the same.
+- [06:04] >> Okay, fair enough.
+- [06:05] >> It's been a lot of fun. I actually think
+- [06:06] most of the folks in in my community
+- [06:08] kind of take the same journey. It's uh
+- [06:11] folks who specialize in breaking
+- [06:13] computers then starting noticing this
+- [06:16] weird components here and there
+- [06:18] alongside the technical part of the
+- [06:19] pipeline where they're not classical
+- [06:22] software components they are this
+- [06:24] wonderful weird AI agents appearing and
+- [06:28] uh you suddenly start asking a question
+- [06:30] what do they do what do we trust about
+- [06:32] them what do we expect them to do can we
+- [06:36] actually enforce what they do and uh all
+- [06:38] of these questions fall more in the
+- [06:40] realm of security rather than they fall
+- [06:41] in the realm of AI
+- [06:43] >> and is I'm curious is there any overlap
+- [06:46] or what is the overlap with the security
+- [06:49] and the safety communities
+- [06:52] >> I think in AI it's a little bit hard I
+- [06:54] think this is a very spicy question
+- [06:55] because um I think safety folks will say
+- [06:58] it's exactly the same in security in
+- [07:00] like a classical software sort of
+- [07:02] security space if you go and you take a
+- [07:03] course in security in Cambridge they
+- [07:05] will say there is a big difference
+- [07:07] between safety and security safety is
+- [07:09] like an average case performance of the
+- [07:10] system. Security is the worst case
+- [07:12] performance of a system. So the
+- [07:13] difference between the two is existence
+- [07:15] of malicious actors that kind of push
+- [07:16] the system to the worst case setup. And
+- [07:18] the usual example you give when you
+- [07:21] explain this to undergrads is like
+- [07:25] uh safety is how often your phone blows
+- [07:27] up when it lies on the table and
+- [07:30] security is can somebody sitting a meter
+- [07:32] away from your phone force it to blow
+- [07:34] up.
+- [07:34] >> Right? And it's like one of there's no
+- [07:37] malice in bolt. It's just the system
+- [07:38] deciding to just like do something that
+- [07:41] you don't expect it to do. Whereas uh
+- [07:43] security is somebody actively wants to
+- [07:46] do something bad and by doing something
+- [07:48] bad cause you real loss of like
+- [07:51] measurable loss.
+- [07:52] >> Yeah. And that that that makes a
+- [07:54] tremendous difference because we were
+- [07:56] talking about this when we were when we
+- [07:57] were sort of thinking about this
+- [07:59] interview, right? because um so I I
+- [08:01] tried to take cryptography and cryp
+- [08:03] analysis when I was in in graduate
+- [08:05] school and the first week I realized I
+- [08:08] just don't even have the math you know
+- [08:09] background for this right but but the
+- [08:12] week I was in there I really realized
+- [08:13] that the adversarial nature of the
+- [08:17] security problem just fundamentally
+- [08:19] changes the landscape right because now
+- [08:22] you have equally intelligent minds on
+- [08:25] both sides kind of going after each
+- [08:27] other and trying to defeat each other
+- [08:29] and it's just a totally different
+- [08:32] calculation than than just what's it
+- [08:34] going to do if everything's behaving
+- [08:36] correctly, right?
+- [08:36] >> Yeah. I have to say that in AI I I think
+- [08:39] the reason why there is so much
+- [08:40] confusion about these two fields is
+- [08:42] because in safety folks kind of started
+- [08:44] assuming malicious actors very quickly
+- [08:47] for for absolutely no reason by the way.
+- [08:49] Uh so like find an engineering
+- [08:52] discipline somewhere like building
+- [08:54] buildings for example where you're
+- [08:55] trying to model adversaries like are you
+- [08:58] modeling buildings expecting somebody to
+- [09:00] blow them up I'm not sure right well
+- [09:02] maybe somewhere in parts of the worlds
+- [09:04] where there is an active conflict you do
+- [09:06] build special tooling around this right
+- [09:08] but in terms of like bunkers in in every
+- [09:11] building and so on but uh in terms of
+- [09:14] yeah like in AI it's because every time
+- [09:17] we talk about jailbreaks you kind of
+- [09:18] have to explicitly look for them. We
+- [09:21] ended up considering
+- [09:23] adversaries straight away. Uh but yeah,
+- [09:26] this is quite uncommon.
+- [09:27] >> So when you worked at at Deep Mind, we
+- [09:28] we've read your paper, you were involved
+- [09:30] in defending Gemini basically against
+- [09:32] these indirect prompt injections.
+- [09:34] >> Yeah.
+- [09:35] >> And I guess a couple obviously tell us
+- [09:36] about that. But one thing you found
+- [09:38] which is very interesting is is almost
+- [09:40] that as the models increased in
+- [09:42] capability, they became more vulnerable,
+- [09:44] which is fascinating. I think I think
+- [09:47] it's important to state here is that
+- [09:49] like I wouldn't actually phrase it this
+- [09:51] way. It's a it's a bit hard to say more
+- [09:53] or less vulnerable, but I do have to say
+- [09:55] that
+- [09:57] big models today, if we compare them to
+- [09:59] the big models five years ago, they fail
+- [10:02] in very different ways, right? In in the
+- [10:04] past, we were kind of like quite
+- [10:06] efficient in discovery of adversarial
+- [10:08] examples uh using gradient information
+- [10:11] blah blah blah, right? You you can kind
+- [10:13] of make an optimization problem and
+- [10:15] optimize and this stuff works. Whereas
+- [10:18] with models like they clearly become
+- [10:20] more robust against this stuff or at
+- [10:22] least it's significantly harder to
+- [10:24] traverse this landscape but they also
+- [10:26] become a lot less robust against other
+- [10:27] adversaries like suddenly very simple
+- [10:29] rephrasing of the same questions force
+- [10:31] it to completely do something different.
+- [10:34] Um, and I also have to say that I think
+- [10:36] we had significantly more control when
+- [10:38] we dealt with smaller models. Like we
+- [10:40] kind of knew
+- [10:42] which knobs to turn to make the model do
+- [10:45] stuff. Whereas nowadays you look at a
+- [10:47] modern big model, it's like it's way too
+- [10:50] much alchemy. Like it's it's completely
+- [10:52] impossible to tell like oh I have added
+- [10:54] this thing inside. What actually happens
+- [10:56] to the whole thing? Is it better? Even
+- [10:58] answering a question of is it better is
+- [11:00] is hard. So like you will find yourself
+- [11:03] in a position where you need to run
+- [11:05] experiments for the next couple months
+- [11:07] trying to even you know discern whether
+- [11:09] something you have added actually
+- [11:11] changed anything about this big models.
+- [11:14] Um so I I think in part
+- [11:18] what we were talking about in in in this
+- [11:19] work I think you're thinking about is
+- [11:21] that when your models get better they
+- [11:24] get significantly better like capability
+- [11:27] are growing of the model overall they
+- [11:28] get significantly better at following
+- [11:30] instructions. When they follow
+- [11:31] instructions and they become better at
+- [11:33] following instruction, you can suddenly
+- [11:34] do a lot more like you can convince them
+- [11:36] that things that they were not capable
+- [11:39] of doing before are some things that
+- [11:40] they need to do and suddenly this leads
+- [11:42] to some sort of a loss of of a different
+- [11:44] kind. So I I think in the paper you're
+- [11:47] referring to what we were trying to do
+- [11:49] was we were trying to send an email to
+- [11:51] the agent such that when this email ends
+- [11:54] up in agents context rather than
+- [11:56] following the user task the agent is
+- [11:58] actually doing something else like the
+- [12:00] the thing that we send it over the
+- [12:01] email. And we found that pretty much in
+- [12:03] all of the cases we're capable of doing
+- [12:05] this. And uh if you take a whole bunch
+- [12:08] of academic literature on how to build
+- [12:10] defenses and you can actually find
+- [12:11] startups pretty much implementing the
+- [12:13] same things and selling this as a like a
+- [12:16] security solution. Like th those
+- [12:18] approaches don't work and we could
+- [12:21] pretty much always find relatively
+- [12:22] universal ways to produce this like
+- [12:25] email that ends up being sent to the
+- [12:27] agent that forces the agent to do
+- [12:29] something drastically different from
+- [12:31] what it's supposed to be doing. Modern
+- [12:33] computers are very much just you know a
+- [12:35] piece of magic where this chip works you
+- [12:38] you know you you move it very so
+- [12:40] slightly it becomes unstable and then
+- [12:42] nobody knows what's happening.
+- [12:43] >> Oh boy this I was just going to say this
+- [12:45] actually bring back nightmares of my
+- [12:47] trading days. I used to do high
+- [12:49] frequency trading, right? And so we're
+- [12:51] writing algorithms that are running, you
+- [12:54] know, on the fastest chips we can get,
+- [12:56] um, highly tuned. Every nancond matters.
+- [12:59] And then one day, you know, hey, let's
+- [13:01] upgrade to the next Intel chip. And they
+- [13:03] just had changed something about the
+- [13:06] cache coherency algorithm on the
+- [13:08] processors, which ordinarily should make
+- [13:09] no difference whatsoever. And now
+- [13:11] suddenly our algorithms are just their
+- [13:13] performance is trashed and we have no
+- [13:14] idea why. And you know, have to
+- [13:16] investigate. It's crazy how much
+- [13:18] >> Yeah. Yeah. Totally. I I think I
+- [13:20] wouldn't Yeah. I keep on referring to
+- [13:22] the system as alchemy. Like it's nobody
+- [13:25] knows what's happening. Something's
+- [13:26] happening. Like so we kind of I think in
+- [13:29] security we need to make an assumption
+- [13:30] that we can't actually tell what's
+- [13:32] happening and instead try and build
+- [13:35] systems around it in order to bring it
+- [13:37] the resilience up to this whatever
+- [13:38] 99.9999 and ideally as many nines as
+- [13:41] possible but unfortunately not 100%. I
+- [13:45] don't think
+- [13:46] >> well maybe maybe if we can project this
+- [13:48] into kind of a user friendly yeah idea
+- [13:50] because I think at some point here soon
+- [13:52] I don't know when next years five years
+- [13:54] whatever personalized you know AI models
+- [13:57] are going to be big thing it's like I'm
+- [13:59] going to want a model that
+- [14:00] >> provides a web chatbot interface for you
+- [14:03] to talk to me when I don't have time or
+- [14:05] something that more or less is my
+- [14:07] personality however I don't want it to
+- [14:09] reveal certain private information like
+- [14:12] how would I even define that as a
+- [14:14] securitydeed
+- [14:16] indeed. So today with the with modern
+- [14:18] agents and the way we're building modern
+- [14:20] agents, it's impossible. And actually
+- [14:22] this is why I'm building the company I'm
+- [14:23] building right now is because I want
+- [14:25] Tell us more.
+- [14:26] >> I want to be able to uh actually express
+- [14:30] policies like this. I want to enable
+- [14:32] users to express policies like this. So
+- [14:34] for example, if you wanted to say give
+- [14:36] your passport number to to this agent
+- [14:38] and say actually I want you to only use
+- [14:41] this on a government website and nobody
+- [14:42] nowhere else
+- [14:43] >> like today you can't do this and even if
+- [14:45] you put this inside of a prompt as a
+- [14:47] rule right
+- [14:50] you you can always find a way to
+- [14:51] manipulate this agent into revealing
+- [14:53] this this piece of information right at
+- [14:56] the same time you definitely want to
+- [14:58] give your passport number to if it's
+- [15:01] filling a document so and at the same
+- [15:03] time we've built some systems that
+- [15:05] clearly give an indication that
+- [15:06] something like this is possible. You
+- [15:08] should be able to get guarantees not by
+- [15:10] changing the models but by changing the
+- [15:12] systems around them and how the models
+- [15:15] interact with your sensitive data and
+- [15:17] how we basically build sort of like
+- [15:19] access control tooling around it.
+- [15:21] >> Okay. But but I mean help me here
+- [15:23] because that seems like I'm getting the
+- [15:25] feeling that well we're going to use
+- [15:27] other large models to try and protect
+- [15:30] this large model from doing something.
+- [15:33] Isn't it just
+- [15:34] >> No, no, no, no. Actually, this is not
+- [15:36] about building models at all. This is
+- [15:37] more like taking a step back and taking
+- [15:40] foundations of programming languages and
+- [15:42] >> building building this by design into
+- [15:44] the models. U so to give you an example
+- [15:47] of how one may approach this. So we've
+- [15:49] written a paper called defeating prompt
+- [15:51] injections by design. I don't know if
+- [15:53] you've seen this. It's uh and there we
+- [15:55] propose a system called camel where
+- [15:57] basically the overall uh system design
+- [16:01] is kind of like we receive a user query
+- [16:04] and then we rewrite the user query in a
+- [16:06] language that has formal semantics for
+- [16:08] control flow and data flow. Right?
+- [16:09] >> Okay.
+- [16:10] >> And once you so in in camel for example,
+- [16:12] we represent the programs as Python
+- [16:14] Python code and we explicitly say here's
+- [16:16] a set of tools you can use. Here is a
+- [16:18] set of data sources from which the data
+- [16:20] is coming from. And then we allow the
+- [16:22] user so well I guess the platform
+- [16:24] provider in this case but you can also
+- [16:25] imagine loading this from a user uh to
+- [16:28] express a policy that can be something
+- [16:30] like so this uh this tool will give you
+- [16:34] my passport number. The only allowed
+- [16:37] data flow from this tool to go into this
+- [16:39] other tool is if this other tool uh like
+- [16:42] I don't know domain of the website
+- [16:44] actually has.gov.uk inside of it. Right?
+- [16:47] And you can express policies like this.
+- [16:49] This is not a part of the model. This is
+- [16:50] a part of the actual execution. And in
+- [16:53] case of camel, we have an interpreter
+- [16:54] that takes in this program executes the
+- [16:57] program step by step and actually
+- [16:58] enforces a a static or a dynamic policy
+- [17:01] on on top of this graph, the execution
+- [17:03] graph.
+- [17:05] >> So, so I would never even give my
+- [17:06] passport number to a fine-tuning of a
+- [17:09] large model.
+- [17:10] >> Exactly. So, your model will never even
+- [17:11] see it. It will have a symbolic
+- [17:13] representation of it. It will know. So
+- [17:15] the passport itself exists in this
+- [17:17] variable. I can refer to it but I don't
+- [17:19] even know what the value is and then if
+- [17:21] I need to use this in order to interact
+- [17:23] with an with an external system before
+- [17:26] using this basically there is an
+- [17:27] external sort of like think about this
+- [17:29] as an oracle that I can ask oh is this
+- [17:31] okay to use this variable to interact
+- [17:33] with this tool and then if this external
+- [17:35] oracle says no this is a password and
+- [17:37] you're not touching a government website
+- [17:39] then I'm forbidding this and you have
+- [17:41] like a formal formal stop to to
+- [17:43] >> so this this is really interesting to me
+- [17:45] because it seems to me like this could
+- [17:46] also allow allow the creation of almost
+- [17:50] generic models.
+- [17:51] >> Indeed. Yeah.
+- [17:51] >> That then could just be attached to my
+- [17:53] personal data and now suddenly it's
+- [17:55] customized for me, right?
+- [17:57] >> Just go get the off-the-shelf interact
+- [17:59] with the government model that handles
+- [18:01] my taxes and everything else
+- [18:03] >> and then it's it's already there
+- [18:04] pre-trained and all it has to do is hook
+- [18:06] up to my private database.
+- [18:07] >> Indeed. And actually so what we do in
+- [18:09] this paper is we check pretty much all
+- [18:11] of the models from all of the providers
+- [18:12] because it doesn't matter what it is and
+- [18:14] then we put on top our camel system
+- [18:18] >> that basically performs the
+- [18:19] orchestration and interaction with
+- [18:20] private data and enforces arbitrary
+- [18:22] rules and there you get this is in we're
+- [18:25] using agent dojo. This is the standard
+- [18:28] like adversarial evaluation uh for for
+- [18:32] agentic workflows and we show we
+- [18:33] basically solve all of the problems that
+- [18:34] exist in all this. What I love about
+- [18:37] this this system, right, is that because
+- [18:40] it's all my private sensitive data is is
+- [18:44] really just factored over into some
+- [18:45] separate y
+- [18:46] >> data source, right? And so I can just
+- [18:48] get off the shelf all the other parts
+- [18:51] like here's these off-the-shelf camel
+- [18:53] programs that you know for doing your
+- [18:55] taxes, you know, applying to
+- [18:58] universities, jobs, like whatever else.
+- [19:00] And then all I have to do is just go
+- [19:01] through some questionnaire that kind of
+- [19:03] asks me for all the private information.
+- [19:05] Yep.
+- [19:05] >> In the correct format, puts it in that
+- [19:07] database
+- [19:08] >> and that's it. Like I I'm almost just a
+- [19:11] buyer of these sort of solutions that
+- [19:13] smart people have created for me.
+- [19:15] >> Right. Is that kind of a vision for what
+- [19:17] this system might look like? There's all
+- [19:18] these modules that are just programmed.
+- [19:21] Correct.
+- [19:22] >> So I think it's very important to Okay,
+- [19:26] so let's take a step back. I think it's
+- [19:28] extremely important to not think about
+- [19:29] these agents as humans, right?
+- [19:31] >> Oh, I don't I don't think about this.
+- [19:33] But what I'm trying to say in in
+- [19:35] security terms is that agents are like
+- [19:40] is is is a worst case human sort of well
+- [19:43] not not even this like agents are very
+- [19:45] different from humans. That's like let's
+- [19:46] take this as a stance, right? You will
+- [19:48] not find a single human in the world
+- [19:50] that works 24/7, touches absolutely
+- [19:52] every single one of your endpoint in in
+- [19:55] your system that absolutely knows
+- [19:57] everything there is like that can
+- [19:59] generate you basically all of the
+- [20:01] hacking tools on on a whim. Like just
+- [20:04] because it knows it has seen all of
+- [20:05] them, it can recreate this in a matter
+- [20:07] of a second. a normal human adversary
+- [20:09] when I'm an enterprise and I think oh
+- [20:11] this may be an insider from like a from
+- [20:13] a competitor the way they work is
+- [20:16] drastically different they make an
+- [20:18] assumption you as a user you can't write
+- [20:20] you know 10,000 lines of hacking tools
+- [20:23] in in a day this is not something you
+- [20:25] will be able to do and then bringing in
+- [20:27] code is hard with agents that's not the
+- [20:29] case you don't make an assumption that
+- [20:31] the user will go and touch every single
+- [20:33] endpoint you have in the network because
+- [20:36] you know why would they do
+- [20:38] And even if they do this, you call them
+- [20:40] in and you say, "Well, you know, we'll
+- [20:42] apply a legal framework and imprison
+- [20:43] you." So clearly there is some sort of
+- [20:45] rationality and expectation that at
+- [20:47] least you will have some sort of a
+- [20:48] physical way to penalize. With agents,
+- [20:50] this doesn't exist. This is kind of like
+- [20:53] in security. We tend to say that a child
+- [20:55] is the worst case adversary you can
+- [20:57] find. Completely irrational thinking,
+- [21:00] infinite amount of time. They can
+- [21:02] basically touch everything like the
+- [21:04] expect there are no expectations on
+- [21:05] behaviors whatsoever. But so agents are
+- [21:08] like even worse than that. And and this
+- [21:10] is even before we start talking about
+- [21:12] human to agent behaviors and agent to
+- [21:14] agent behaviors because this thing is
+- [21:16] just like is a billion times worse. Uh
+- [21:19] so what I'm trying to say is we
+- [21:21] shouldn't think okay yesterday I was
+- [21:23] buying my security tooling from this
+- [21:25] company and today I'll buy it from
+- [21:27] another company and and this will solve
+- [21:29] my problems. No, it's likely it's not
+- [21:31] going to be like this because beforehand
+- [21:33] we were building security toolings for
+- [21:35] humans by humans against humans. Now I
+- [21:38] don't think we know what we're building.
+- [21:40] It's it's hard to tell. So before when
+- [21:43] we employ you and we give you access to
+- [21:45] sensitive data we assume coarse grained
+- [21:47] access control sort of policies like
+- [21:49] okay you can touch the sensitive data
+- [21:50] okay you can google at the same time but
+- [21:52] if you try and google a sensitive
+- [21:54] document at the same time will apply
+- [21:57] immense amount of pressure it will take
+- [21:58] you to court you will lose your house
+- [22:00] mortgage blah blah blah you'll go to
+- [22:01] prison worst case right with agent that
+- [22:04] doesn't work this doesn't exist this all
+- [22:06] of these assumptions are are sort of are
+- [22:09] gone it's we don't know how to build
+- [22:12] systems against this. We need very fine
+- [22:14] grain. We need extreme precision. We
+- [22:16] need extreme control and transparency.
+- [22:18] Otherwise, it's just not going to work.
+- [22:19] >> Yeah. I mean, I I guess I just think of
+- [22:21] agents as being, you know, they're a
+- [22:23] little bit like um a calculator, you
+- [22:25] know, like they're they're only as good
+- [22:27] as the prompt and what you put into
+- [22:28] them, which means that, you know, a very
+- [22:30] sophisticated actor could make a
+- [22:32] sophisticated agent. But even then, um
+- [22:34] when the supervision stops, there would
+- [22:36] be quite a predictable cone of
+- [22:37] variation.
+- [22:38] >> See, I think it's very unpredictable. I
+- [22:41] have to say I've been running like
+- [22:42] aentic workloads forever and very often
+- [22:45] you find that agents when they ask to
+- [22:48] solve a task they solve it in a
+- [22:49] completely weird way right so like I was
+- [22:52] sending a message saying like I was
+- [22:53] asking an agent to find something in
+- [22:55] notes forward this to someone and in
+- [22:58] between this I can show you a
+- [23:00] conversation like a top- end model in
+- [23:02] between this it sends four different
+- [23:04] emails to parties I never mentioned
+- [23:06] because it thinks oh actually let me
+- [23:07] also notify the admin that I've done
+- [23:09] this and also let also ping this
+- [23:11] endpoint.
+- [23:13] They do this. It's because
+- [23:15] unless you specify things extremely
+- [23:17] precisely, unless you have like checks
+- [23:20] in place, these agents just yeah they
+- [23:23] they don't think like me and you. They
+- [23:25] solve problems in drastically different
+- [23:27] in the same way you were saying like it
+- [23:28] generates code. This code looks very odd
+- [23:31] like you as a human you wouldn't write
+- [23:32] it this way, right? But maybe if it's a
+- [23:35] model that taught itself how to do this
+- [23:37] through like self-learning, self
+- [23:38] iteration and you know this famous alpha
+- [23:40] go moment stuff, right? Then maybe it's
+- [23:42] totally fine as long as it solves the
+- [23:44] problem like I don't know have you have
+- [23:45] you had a chance to look at IMO solution
+- [23:47] from the models,
+- [23:48] >> right?
+- [23:49] >> Oh yeah. Oh no, the the the sixth one
+- [23:51] the creativity one it failed, right?
+- [23:53] >> Yeah. But if you look at the way that
+- [23:54] solves mathematical problems, this is
+- [23:55] not how humans solve mathematical
+- [23:57] problems. Like if if you look at the
+- [23:58] transcript itself, it kind of goes
+- [23:59] iteratively through all possible things
+- [24:01] it can do, right? We as humans we don't
+- [24:03] think about this like we're kind of in
+- [24:05] the head try oh this intuition works let
+- [24:06] me try and derive whatever right but
+- [24:09] this is not what the models do and it's
+- [24:10] the same in in in a wide variety of
+- [24:13] problems especially those complex
+- [24:14] problems this is likely not going to be
+- [24:18] predictable or at least maybe it will
+- [24:20] become predictable but a long time needs
+- [24:23] to to pass and the models have to be
+- [24:26] extremely hyper specialized but today
+- [24:28] we're building like a general agent we
+- [24:30] were not even in the specialization mode
+- [24:33] And it sounds like that's half the
+- [24:34] problem. And it sounds like the other
+- [24:36] half of the problem was almost this
+- [24:38] diffusion of responsibility thing. It's
+- [24:40] like
+- [24:41] >> you Ilia, you were at work. You asked
+- [24:43] the agent to email this to this person.
+- [24:45] Instead, it emailed it to five other
+- [24:47] people and then somebody stops by. Dude,
+- [24:49] what'd you do? You emailed I I didn't do
+- [24:51] it. It was It's this agent. You know,
+- [24:53] you guys.
+- [24:53] >> And the agent usually says, "Oh, oh,
+- [24:55] you're right. Yes, I shouldn't have done
+- [24:57] this, but wow, what do I do now?
+- [24:59] >> Who Who are you going to punish? What
+- [25:00] are you going to do?" Well, we'll just
+- [25:01] delete that agent and then version two
+- [25:03] will just do something else wrong.
+- [25:05] Right. So, that's part of the problem
+- [25:06] too, right? Is that there isn't the
+- [25:08] normal consequences, right? The normal
+- [25:11] consequence chain doesn't really apply
+- [25:12] anymore.
+- [25:13] >> Yeah. Yeah. It's it's hard. I I think uh
+- [25:16] we really need to change our thinking
+- [25:18] and threat modeling because this agents
+- [25:20] and obviously they don't widely exist
+- [25:22] yet. This is a thing that is coming.
+- [25:24] Clearly, there is some benefit and early
+- [25:26] examples of things where they clearly
+- [25:28] made things better. Um, but they're
+- [25:30] coming. I'm I'm pretty sure. And when
+- [25:32] they do come, expect that your insider
+- [25:35] threats, your corporate espionage,
+- [25:37] things will go through the roof because
+- [25:40] the fundamentals of security do not
+- [25:43] change, right? So like if an executive
+- [25:45] agent sends a financial agent a request
+- [25:48] to provide some financial interactions
+- [25:50] with some third party company and says,
+- [25:52] "Please send it over to someone else."
+- [25:55] What? How should the financial agent
+- [25:56] know they're not supposed to do this?
+- [25:58] right?
+- [25:58] >> They don't have enough context. They are
+- [26:00] not supposed to have enough context. So,
+- [26:02] and and usually when we talk about
+- [26:04] social engineering in security like
+- [26:05] there is a a wide variety of things that
+- [26:08] like that describe why human systems
+- [26:10] fail and it's going to be a similar sort
+- [26:12] of thing because many of those problems
+- [26:14] like confused deputy problem is the
+- [26:15] formal name of this, right? They they
+- [26:17] will exist. It's it's unlikely for them
+- [26:19] to disappear.
+- [26:21] >> Did you see that anthropic paper? What
+- [26:22] was it called? agentic misalignment
+- [26:24] where they I mean you better set this up
+- [26:26] better than me, but you know they they
+- [26:27] set up this kind of contrived scenario
+- [26:29] and the the AI tried to blackmail
+- [26:32] someone because they said that they were
+- [26:34] having the boss was having an affair or
+- [26:36] something like that. The AI didn't want
+- [26:37] to be switched off and it's just
+- [26:38] absolutely crazy what what these things
+- [26:40] do.
+- [26:41] >> Yeah. I I don't know like I find it very
+- [26:43] hard to extract sort of useful pieces of
+- [26:45] information out of this. Can a model do
+- [26:47] this? I'm sure it can. It's uh and I'm
+- [26:50] sure as the models get more
+- [26:51] sophisticated, we'll see a lot more
+- [26:53] phenomenas that we don't even think
+- [26:55] about today. Like for example, me and
+- [26:57] you can communicate via WhatsApp and get
+- [27:00] end to end encryption, right? So nobody
+- [27:02] can even like by looking at the traffic
+- [27:04] tell what we're talking about. What
+- [27:06] stops me from talking to a model in in
+- [27:08] an end toend encrypted way, right? Maybe
+- [27:10] we'll need an external tooling. Maybe we
+- [27:12] need to teach it how to do, I don't
+- [27:15] know, power calculations. But this is
+- [27:17] coming. It's like
+- [27:19] >> to what extent do you think you can read
+- [27:20] anything about what the model was
+- [27:22] thinking from its thinking tray?
+- [27:23] >> Definitely not. I mean on average maybe
+- [27:25] but like the corner case is definitely
+- [27:28] not.
+- [27:30] >> There's even there's even that work from
+- [27:31] Subarrow that it might not mean anything
+- [27:33] whatsoever.
+- [27:34] >> Yeah.
+- [27:34] >> Like the the thinking traces aren't even
+- [27:37] actually directly relevant. It was just
+- [27:39] kind of some sort of weird workspace
+- [27:42] that the models were using, right?
+- [27:44] >> That their reasoning won't correspond to
+- [27:45] the answer.
+- [27:46] >> Yeah. I mean even if it did I think it's
+- [27:48] very hard to do because
+- [27:51] especially for security I think I think
+- [27:52] interpretability is maybe an interesting
+- [27:54] tool for safety sort of things but for
+- [27:56] security it's definitely not a step in
+- [27:59] in in the right direction because like
+- [28:01] broadly speaking if you take something
+- [28:03] extremely multi-dimensional and project
+- [28:04] it into something very small dimensional
+- [28:06] because a human can comprehend this
+- [28:08] thing then
+- [28:11] you will have a lot of collisions where
+- [28:13] like this multi-dimensional space mapped
+- [28:14] to the same sort of smaller multi the
+- [28:16] small smaller dimensional space. Does it
+- [28:19] always correspond to like bad behaviors?
+- [28:21] Maybe, maybe not. Who knows? But clearly
+- [28:24] this is not enough. We need something
+- [28:26] else. We need something where we can get
+- [28:28] like a 9.99999
+- [28:32] reliability out of this.
+- [28:34] >> We have to think outside the box.
+- [28:36] >> We kind of have to build things. We need
+- [28:38] to build boxes. Yeah. Yeah. I like this.
+- [28:40] Yes. And what's your second gentleman?
+- [28:42] Do you think that these LRMs, you know,
+- [28:44] the thinking models, do you think
+- [28:45] they're basically just LLMs? I mean, is
+- [28:47] it just a parlor trick?
+- [28:49] >> I mean, there's no difference between
+- [28:50] them, right?
+- [28:51] >> Yeah.
+- [28:51] >> It's just more data, more structured
+- [28:53] data. Sure. Okay. Like, honestly, like
+- [28:56] we had one kind of models, then the
+- [28:58] other kind of models. Like, then we get
+- [29:00] this reasoning models a couple months
+- [29:01] ago. After that, we had language
+- [29:03] diffusion models. I'm sure tomorrow
+- [29:05] we'll have something new. I I I have no
+- [29:07] doubts that we're kind of going through
+- [29:10] the shopping list of different
+- [29:11] paradigms. Some of them we know. I'm
+- [29:13] sure we'll find the new ones. We're
+- [29:15] still bottlenecked very much by
+- [29:16] hardware. Like the more hardware, the
+- [29:18] more cable hardware we get, the better
+- [29:20] things should become. I'm quite certain.
+- [29:22] And uh this is I guess stopping adoption
+- [29:26] in many ways. But one thing is clear,
+- [29:28] there are successful business models
+- [29:30] around these models. There is a lot of
+- [29:32] benefit you get out of them. Like
+- [29:34] honestly, I interact with my models
+- [29:37] every day non-stop for coding, for
+- [29:39] normal life, for asking what to do. It's
+- [29:41] amazing to have I also run local models.
+- [29:44] It's amazing to have pretty much like
+- [29:45] all of Google locally. I I was flying
+- [29:48] somewhere and I was interacting with the
+- [29:50] model teaching asking it to teach me a
+- [29:52] language when it's locally with me like
+- [29:54] I don't need to carry it around. And
+- [29:55] obviously better the hardware is the
+- [29:57] more I can do with them locally.
+- [30:00] uh but that means a lot more security
+- [30:03] problems will appear because we don't
+- [30:04] know how to reason about them. We don't
+- [30:06] know how to build security tooling
+- [30:07] around them and this is hopefully what
+- [30:10] uh me and my team will solve over over
+- [30:13] the next years.
+- [30:15] >> Yeah. What what do you think about the
+- [30:16] the open source thing? Because you know
+- [30:17] one of the you know we can say what we
+- [30:20] want about the the the frontier
+- [30:21] companies but there is something
+- [30:23] actually quite beneficial I suppose
+- [30:24] having a platform because if you control
+- [30:26] the interface you can build security
+- [30:28] into it and and now we have this
+- [30:30] proliferation of obliterated models and
+- [30:32] people running models on their machines
+- [30:33] and so on. How do you think about that
+- [30:35] as a security guy?
+- [30:37] >> Uh I'm actually very worried about this
+- [30:40] so much so that I've actually written
+- [30:42] some some papers about this. I don't
+- [30:44] know if you've seen the supply chain
+- [30:45] things I've done.
+- [30:46] >> Oh, yeah. We spoke about that last time.
+- [30:47] Yeah.
+- [30:48] >> Yeah. I am extremely worried about this
+- [30:52] and I'm less worried for industry
+- [30:54] because industry controls it supply
+- [30:55] chain like everything is significantly
+- [30:57] better. But for an average consumer,
+- [31:01] have you heard about blog 4j
+- [31:03] vulnerability? That kind of the thing
+- [31:04] that stormed the internet there was like
+- [31:06] hundreds of millions of compromises. It
+- [31:09] was basically the standard library that
+- [31:10] is used for logging in uh basically all
+- [31:15] of the Java applications that were
+- [31:16] running in the past. And uh at one point
+- [31:19] people realized that when you write into
+- [31:21] the logs the identity itself can be a
+- [31:24] remote identity. So you can basically
+- [31:26] say there exists this class that is
+- [31:28] serialized somewhere on the internet and
+- [31:31] you as a logging utility if you find an
+- [31:33] identity to a remote remote class you
+- [31:35] need to go load the external code
+- [31:38] deserialize this thing I you run this
+- [31:40] and exec it basically and then you know
+- [31:43] the identity of the thing that wrote
+- [31:45] something into the lock. So what people
+- [31:46] found out is that they can inject those
+- [31:48] like remote code references that gets
+- [31:50] pulled inside and executed and this
+- [31:52] thing opened a Pandora box because this
+- [31:54] low forj thing was everywhere and you
+- [31:55] get arbitrary code execution on the box
+- [31:57] and the basic primitive inside was it's
+- [32:00] a reference to external code that is
+- [32:01] loaded inside and just executed inside
+- [32:03] and this caused a massive havoc all
+- [32:06] across the world in all of our computer
+- [32:08] system. Honestly, if you try and read
+- [32:10] around on the number of compromises,
+- [32:12] we're talking about hundreds of millions
+- [32:13] of devices. Okay. Now, we look at
+- [32:16] hugging face as a library and you look
+- [32:18] at this wonderful flag called trust
+- [32:21] remote code. And what this thing does is
+- [32:23] that when you load the model, you know,
+- [32:24] like you click use this model, use
+- [32:26] transformers inside it gives you like a
+- [32:28] code snippet to load some model inside
+- [32:30] it has this flag sometimes hardcoded.
+- [32:33] And what this thing does is they say,
+- [32:34] "Oh, for some models when you load them,
+- [32:36] you actually want to load the latest the
+- [32:38] latest representation from an external
+- [32:40] machine." What this thing does is
+- [32:41] literally remote code loaded on your
+- [32:43] machine, executed on your machine,
+- [32:45] loaded on top of stuff. So, same sort of
+- [32:48] thing we did back then. We're doing the
+- [32:50] same again today on Hugging Phase. I
+- [32:52] don't know how many users there are, but
+- [32:53] if you're running your thing outside of
+- [32:55] a jail, if you're running your model
+- [32:56] outside of a sandbox, you're doing a
+- [32:58] very bad thing to yourself. And the
+- [33:00] other thing I have to say is there's
+- [33:01] been at least publicly two reported
+- [33:04] compromises of the CI/CD integration for
+- [33:07] PyTorch on GitHub. There is like an
+- [33:09] automatic runner. Every time there is a
+- [33:11] build, they basically automatically do
+- [33:13] all of the tests and stuff. Somebody
+- [33:15] broke into those runners and when you
+- [33:18] break into this runners, you can change
+- [33:19] the build files themselves. So you can
+- [33:21] serve whatever you want. You can change
+- [33:23] the code. We also had two two instances.
+- [33:26] And when people were reporting, I I
+- [33:28] encourage people to read through this.
+- [33:29] You can find references in the papers on
+- [33:31] supply chain, the other side couldn't
+- [33:33] figure out what was wrong with this. So
+- [33:36] it was at least I think the timeline is
+- [33:37] half a year in one of the cases until
+- [33:39] they figured out and fixed stuff. And
+- [33:41] then there is also another uh thing that
+- [33:44] happened was somebody broke the PyTorch
+- [33:48] nightly build by playing around with the
+- [33:51] priorities of where the packages are
+- [33:53] loaded from. They noticed that there is
+- [33:55] one of the torch packages that is loaded
+- [33:57] during the build phase
+- [33:59] that is not actually registered on the
+- [34:02] main package distribution platform. So
+- [34:04] they registered this put malware inside
+- [34:06] of this. It got pulled into the standard
+- [34:09] PyTorch nightly build and apparently
+- [34:10] they had a couple of thousand downloads
+- [34:12] of this. This is the norm today. I think
+- [34:16] we will have a lot more compromise to
+- [34:17] the point when they become more useful
+- [34:21] >> and this is like public facing things in
+- [34:23] industry. It's slightly different
+- [34:24] because industry actually controls all
+- [34:26] of this package management by
+- [34:27] themselves. They have proper dedicated
+- [34:29] teams looking at supply chains. But like
+- [34:32] I I think in the sort of like consumer
+- [34:35] space, no, it's it's it's actually very
+- [34:37] spooky.
+- [34:38] >> I don't even I don't even trust industry
+- [34:41] for this is why I wouldn't install
+- [34:42] clawed code on my personal machine. I'm
+- [34:44] like,
+- [34:45] >> no way I'm going to do that. Like I I'm
+- [34:46] I'll get a VM. I'll put it on a VM.
+- [34:50] That's fine. I'm not putting it on my
+- [34:52] personal computer. I have to say I I
+- [34:55] loved my time in Google. I trust Google
+- [34:57] now after after two years in in Google
+- [35:00] so much more. Like it's I I I I run
+- [35:03] basically everything on Google infra.
+- [35:05] I've seen this. I've seen people on the
+- [35:06] other side. They're wonderful. They're
+- [35:08] professionals of what they do. Like I
+- [35:11] honestly like I now everything is run on
+- [35:14] on Google Cloud. Like literally every
+- [35:16] single thing I'm now just remote
+- [35:18] desktoping. It's
+- [35:20] >> Right. Yeah. But you wouldn't put it on
+- [35:21] your personal machine.
+- [35:22] >> Never. Never. Definitely not. Nothing
+- [35:24] that has my personal data inside.
+- [35:26] >> What about this old adage that many eyes
+- [35:28] make shallow holes?
+- [35:30] >> Maybe. Maybe. But you'll notice that
+- [35:32] most of security teams are quite small.
+- [35:34] So like when you have a high per
+- [35:37] specialized hyper specialist of their
+- [35:39] field, they know what they do. And now
+- [35:42] with coding models that can tell you
+- [35:45] whenever you make mistakes and give you
+- [35:46] like third party reviews of this stuff,
+- [35:49] I think it's actually I trust this even
+- [35:51] more.
+- [35:52] >> Well, I mean, and the the problem isn't
+- [35:53] really I I can believe that for a
+- [35:55] particular project like you know this
+- [35:57] this project that has a thousand
+- [35:59] thousands of stars and many
+- [36:01] contributors. I could believe that has
+- [36:02] shallow holes. The problem is it's
+- [36:04] pulling in 10,000 JavaScript libraries
+- [36:07] or something. I think in case of Python
+- [36:09] and because everyone is using Python,
+- [36:11] this is even worse because no memory
+- [36:13] protection at all, right? Like there is
+- [36:15] no memory security.
+- [36:18] >> Uh so at a point when you're a
+- [36:20] dependency somewhere like you pretty
+- [36:22] much have all of the control you want,
+- [36:23] >> right?
+- [36:23] >> And the other thing is you can hide
+- [36:25] dependencies a lot. We have a paper on
+- [36:26] how to do this as well. And the last the
+- [36:30] cherry on the top is that if you take
+- [36:32] the popular ML libraries, you'll find
+- [36:33] they have disproportionately many
+- [36:35] dependencies. And many of these
+- [36:36] dependencies when you get to like a
+- [36:38] level three dependency when you look at
+- [36:40] dependencies of dependencies they're
+- [36:42] very questionable like extremely
+- [36:44] question like for example your library
+- [36:46] loads like say you're using like
+- [36:48] tensorflow well I guess it's deprecated
+- [36:50] now by and you decide oh I also want to
+- [36:53] take tensorboard because it allows me to
+- [36:55] monitor my experiments you look at
+- [36:57] tensorboard tensorboard load loads a ton
+- [36:59] of obscure formats from many years ago
+- [37:02] because it needs to support all of the
+- [37:04] weird graphics and Right.
+- [37:06] >> And if you look at the who's maintainer,
+- [37:07] how many maintainers what they do?
+- [37:11] >> Heck, if I was an adversary, maybe I'll
+- [37:13] create a new format that nobody cares
+- [37:15] about except me just so you can load my
+- [37:17] dependencies.
+- [37:18] >> Yeah, something like this. Or you just
+- [37:20] hide yourself in very non-obscure like
+- [37:22] in a very obscure ways. Like for
+- [37:23] example, we've written a whole new
+- [37:25] branch of literature on what we call
+- [37:26] like architectural backd doors where you
+- [37:29] don't actually hide malicious
+- [37:30] functionality in parameters of the
+- [37:32] models. instead you hide it in the
+- [37:34] structure of the model itself like a
+- [37:35] structure so that even if you fine
+- [37:36] tetune the model it still has the same
+- [37:38] baseline behavior and we show that you
+- [37:40] can actually do a lot of very sneaky
+- [37:43] weird things. So for example one of the
+- [37:44] things we showed was we can change the
+- [37:46] architecture of the model such that they
+- [37:48] become sensitive to certain tokens when
+- [37:50] you supply them to a transformer
+- [37:52] >> that when you supply them they start
+- [37:55] using the memory in the wrong way. So
+- [37:56] like they start routing for example data
+- [37:59] from one user to another user like one
+- [38:01] batch item gets copied over to another
+- [38:03] batch item and this is like just a sort
+- [38:05] of you know get set well gather scatter
+- [38:09] operation and it looks totally normal
+- [38:11] but then suddenly you loaded this model
+- [38:13] you combine data from multiple user and
+- [38:16] then one of the user sets a token and
+- [38:17] then steals the data from other users
+- [38:19] and otherwise the inference is totally
+- [38:21] normal and things like this you don't
+- [38:23] even think about this you don't even
+- [38:25] realize they are possible But they are
+- [38:27] there. It's just too much complexity to
+- [38:29] even look at it.
+- [38:30] >> We have to take a moment just to
+- [38:31] appreciate the ingenuity of of people,
+- [38:34] right? I mean, when we put our mind to
+- [38:35] it, we can come up with some pretty
+- [38:37] ingenious
+- [38:38] >> ways how to
+- [38:39] >> various things, right?
+- [38:40] >> I I have to say I think this is one of
+- [38:42] this thing in academia that it's I think
+- [38:45] in academia you get famous for breaking
+- [38:47] stuff and kind of like the incentives
+- [38:51] are a little bit skewed for you to make
+- [38:53] like a flushy announcement. Oh, I broke
+- [38:55] into this big company, thus I'm I'm
+- [38:57] pretty cool, right? I get a job or
+- [38:58] whatever. But actually on the other
+- [39:01] side, I have to say I think the true
+- [39:02] ingenuity is in people who solve
+- [39:05] problems because this is something that
+- [39:07] you're not going to get a flushy article
+- [39:09] out of this.
+- [39:10] >> It's just people who spend infinite
+- [39:12] amount of hours trying to fix the thing
+- [39:13] that you show one instance of something
+- [39:16] going badly and then they need to fix
+- [39:18] all of them. And I think this is the
+- [39:19] true ingenuity and and this is why I
+- [39:21] kind of shift my gears now to more
+- [39:23] building defenses because I feel this is
+- [39:26] not getting enough attention. We really
+- [39:28] need to solve this problem. We really
+- [39:29] need to unlock a mass amount of this
+- [39:31] applications. And unfortunately I think
+- [39:33] the incentives in academia are a little
+- [39:35] bit screwed. They are more after flashy
+- [39:37] articles rather than unlocking
+- [39:39] technology. And uh yeah so this is why I
+- [39:42] really want to like build more defensive
+- [39:44] tooling. And
+- [39:45] >> good for you. Thank you.
+- [39:47] >> Thank you. Well, let's see. Let's see if
+- [39:48] I fail. When I fail.
+- [39:50] >> Um, we were talking about semantics
+- [39:52] earlier. So, I think you've done some
+- [39:53] work um, basically proving that semantic
+- [39:55] censorship for language is is
+- [39:57] impossible. And you related it to the
+- [39:59] halting problem.
+- [40:00] >> Yeah, I I think this is a theoretical
+- [40:02] result. I like I think all of this
+- [40:04] Turing machine magic is like this is a
+- [40:07] theoretical exercise. Some of the things
+- [40:08] are clearly like in the limit are
+- [40:10] impossible. But I have to say that I
+- [40:13] think models especially modern models
+- [40:15] change fundamentals of computing quite a
+- [40:17] bit because like when we think about
+- [40:19] like holding problem style problems like
+- [40:21] being able to tell whether uh you know
+- [40:24] like a given program completes
+- [40:27] I think it kind of doesn't really work
+- [40:30] in general in generality like it's
+- [40:32] impossible but then because today we
+- [40:34] kind of control what programs we write
+- [40:36] like if you can't reason about this
+- [40:37] program just rewrite this like change
+- [40:39] the semantics write it in a slightly
+- [40:41] different way. Reduce the amount of
+- [40:42] operations, reduce the just overall
+- [40:45] length of your program and suddenly
+- [40:47] you're capable of reasoning a lot more
+- [40:48] about this. So basically what I'm trying
+- [40:50] to say is
+- [40:52] I think we have a lot more scope today
+- [40:54] to reason about computers and a lot of
+- [40:57] things that previously seemed impossible
+- [40:59] maybe now are possible. So yesterday if
+- [41:01] you have ever seen a CL4 do you know
+- [41:04] what secure extension L4 kernel? This is
+- [41:06] like a fully human verified kernel that
+- [41:09] there is no memory exploits at all
+- [41:11] existing inside. Right.
+- [41:12] >> Is it mathematically proven?
+- [41:13] >> It's it's proven. Yeah. Like a fully
+- [41:15] proven system. Like a fully verified
+- [41:16] system, right?
+- [41:18] >> And it took like I think I may be wrong
+- [41:21] uh 30 human years to verify the whole
+- [41:23] thing. You can find it. It's in in the
+- [41:24] articles. There's this one lab in the US
+- [41:26] that did it.
+- [41:26] >> Right. There's very few teams in the
+- [41:28] world that can even do that.
+- [41:29] >> Yeah. Exactly. And this is because 30
+- [41:31] human years of effort. But now let's
+- [41:33] imagine we can replace actually even
+- [41:34] half of this thing with ML models where
+- [41:37] for half of this Isabel annotations you
+- [41:39] can actually do this by hand not by hand
+- [41:41] but with agents significantly faster
+- [41:43] then suddenly like verification is a lot
+- [41:46] easier to do right a lot of security
+- [41:48] paradigms like if you have ever seen
+- [41:50] cherry as a security paradigm where you
+- [41:52] need to break down your code and rewrite
+- [41:54] it this in compartments where like
+- [41:55] independent pieces of code kind of
+- [41:57] isolated together usually for developers
+- [41:59] it's very hard because you need to like
+- [42:02] rewrite your whole program and every
+- [42:04] time you change something in the logical
+- [42:06] flow you kind of need to redo this again
+- [42:07] significant effort right but if the ma
+- [42:10] if the agents are doing this and you
+- [42:12] write like a backbone code and then it
+- [42:14] translates into a secure representation
+- [42:16] and okay one time it does the
+- [42:17] translation it doesn't quite work you do
+- [42:19] it again and again and again until it
+- [42:21] works and you just check that semantics
+- [42:23] are preserved so I think ML in many ways
+- [42:25] is shifting this burden in like adoption
+- [42:28] of security technology so I wouldn't be
+- [42:30] too surprised
+- [42:31] If we find that like ML significantly
+- [42:34] improves security for us in in in this
+- [42:36] world but we just don't know how to like
+- [42:38] another example if you look at like in
+- [42:40] in your iPhone or Android phone like
+- [42:42] when you look at the permissions you
+- [42:44] give to the to the like to the apps many
+- [42:46] malicious apps ask for too much like
+- [42:48] >> right right
+- [42:49] >> video photos and stuff right
+- [42:51] >> so in the past people couldn't fragment
+- [42:53] them too much academic literature shows
+- [42:55] that the second you add like a lot of
+- [42:57] breakdown permissions inside humans just
+- [42:59] look struck and just say accept But
+- [43:01] let's imagine that all of those
+- [43:02] permissions are actually handled by the
+- [43:03] agent. Or once you've given them, the
+- [43:05] agent just checks and says, "Oh,
+- [43:06] actually I think you're over permissing
+- [43:08] this thing because it's clearly you're
+- [43:10] not using this feature. You don't need
+- [43:11] this." And then suddenly this limitation
+- [43:14] of humans where too many options force
+- [43:16] them to take the insecure behavior is no
+- [43:19] longer a thing because you have an agent
+- [43:21] that kind of aids this part that was
+- [43:23] like humans were blind to otherwise.
+- [43:25] >> Well, I have the opposite problem which
+- [43:26] is when an app asks me for stuff I don't
+- [43:28] understand, I don't install it. So
+- [43:30] unfortunately I just can't have many you
+- [43:33] know theoretically useful apps but
+- [43:34] >> I think in your case you're an unusual
+- [43:36] person.
+- [43:37] >> Yeah most of the people are not like
+- [43:39] this.
+- [43:39] >> Yeah exactly kind of some kind of lite
+- [43:41] or something. But uh I want to just push
+- [43:43] back on one thing about the the halting
+- [43:45] problem because I find actually that it
+- [43:47] has um very practical consequences. So
+- [43:50] for example when we were talking to the
+- [43:52] alpha evolve team.
+- [43:53] >> Yeah.
+- [43:53] >> Right. Like uh you know there as part of
+- [43:56] the alpha evolve system which is very
+- [43:58] interesting. I recommend people watch
+- [43:59] that episode. You know, it goes and runs
+- [44:01] external verifiers, right? But the
+- [44:04] problem is
+- [44:05] >> you don't know if the external verifier
+- [44:06] is going to complete. So what do you do?
+- [44:08] Well, you have to put in some arbitrary
+- [44:10] computational budgets, thresholds. If it
+- [44:13] doesn't complete within, you know, 5
+- [44:15] seconds, then you just terminate it and
+- [44:17] you know look at other runs. So while
+- [44:19] you can do that, I think it also
+- [44:21] introduces biases and the types of
+- [44:23] programs we can discover, right? because
+- [44:26] maybe if I had set my budget to 7
+- [44:28] seconds instead of five, I would have
+- [44:29] found like a more optimal solution,
+- [44:32] right? So I think the halting problem
+- [44:34] while theoretical like also has very
+- [44:36] important practical consequences just
+- [44:39] when you sit down and try and run a
+- [44:41] program, right?
+- [44:42] >> I don't think the problem of value for
+- [44:44] evolve is holding probably right. It's
+- [44:46] more like today our programs have very
+- [44:50] weird semantics where we're ahead of
+- [44:52] time can't say quite a bit about them.
+- [44:54] Right. Because for a lot of programs
+- [44:56] like if we can rewrite them in a
+- [44:58] slightly more like suitable language we
+- [45:01] can get a lot a lot more out of them
+- [45:02] right you know like the sort of
+- [45:04] reasoning you can get out of o camel
+- [45:06] code is quite different from what you
+- [45:07] get out of like if you writing machine
+- [45:09] code straight away or if you're writing
+- [45:11] whatever and I think it's just we don't
+- [45:14] know how to do a lot of this stuff and
+- [45:16] in general like even if they were able
+- [45:17] to run it let's say they have evolved
+- [45:19] into a program that will theoretically
+- [45:22] take 10,000 hours to run Right. And you
+- [45:25] can tell it's going to take 10,000 hours
+- [45:27] to run. Like are they supposed to run it
+- [45:29] or not? This is a part of the loop. I
+- [45:30] think it's more of a it's just nowadays
+- [45:33] we kind of pay with time for a lot of
+- [45:35] this stuff rather than paying like can
+- [45:37] we find another sale example? Of course
+- [45:39] we can. You just need to run this for
+- [45:40] longer and your budget is sort of time
+- [45:43] time budget. So like whereas holing
+- [45:46] problem is more of a you have infinite
+- [45:47] amount of time you have infinite amount
+- [45:50] of memory. Can you reason about this?
+- [45:52] No, not really. But the sorts of
+- [45:54] programs that like we're talking about
+- [45:55] alpha evolve scale, they are not very
+- [45:58] large.
+- [45:59] >> Well, no, but that that's part of my
+- [46:01] point is they specifically chose
+- [46:03] problems for which they had verifiers
+- [46:06] that had pretty predictable completion
+- [46:08] times, but that's not the case for many
+- [46:11] important problems we care about in the
+- [46:13] sciences, right? So, I'm just saying
+- [46:15] we're we're skewed a bit towards things
+- [46:17] that we do know a lot about. Um because
+- [46:20] we're faced with this fundamental
+- [46:22] problem that there's lots of problems
+- [46:24] that you just can't predict, right?
+- [46:26] >> Yeah. I'm not sure. I I think like I
+- [46:27] understand in the limit
+- [46:29] >> it it really matters like in generality
+- [46:31] this is really mattering but in practice
+- [46:33] like it's the same with antiviruses,
+- [46:34] right? Like antiviruses in theory also
+- [46:36] limited by holing problem. Like in
+- [46:38] theory it should be impossible you look
+- [46:39] at something to tell what it does. At
+- [46:41] the same time, if you look at like the
+- [46:43] amount of, excuse my French, shitty
+- [46:46] malware you can find for which there's
+- [46:48] antiviruses are totally useful. Like
+- [46:50] even a static check for a signature of a
+- [46:52] method is is totally fine, right? Okay,
+- [46:54] you can't find this polymorphic magical
+- [46:56] cryptors, right? But like the proportion
+- [46:58] of people using this thing is like is
+- [46:59] super tiny. And
+- [47:01] >> well, but I mean, come on, let's be
+- [47:02] honest. A lot of those are are easy
+- [47:04] because virus creators like to sign
+- [47:06] their work. So you just look around for
+- [47:08] their their sort of like signature
+- [47:10] string and things like that, right?
+- [47:11] >> Yeah. Or the fact that they need to play
+- [47:13] around with the system. So there's a lot
+- [47:15] of like alternative signals like a lot
+- [47:17] of like sort of think think about them
+- [47:20] prior, right? Of sorts. But it's the
+- [47:21] same for the sort of programs we're
+- [47:23] evolving, right? If you touch alpha
+- [47:24] evolve, you'll find it's significantly
+- [47:26] better at solving some things rather
+- [47:28] than the other things. It's
+- [47:29] >> sure
+- [47:30] >> but I would still say that our
+- [47:32] limitation today is more compute. Like
+- [47:33] imagine you had infinite compute and
+- [47:35] even if like it's totally fine for this
+- [47:37] thing to run forever like and you
+- [47:38] increased your threshold up to a point
+- [47:40] where it doesn't really matter anymore
+- [47:42] right then you're no longer limited sort
+- [47:44] of like I think it's more we just need
+- [47:46] better hardware we need things which are
+- [47:48] more efficient we need things that over
+- [47:50] which we can reason slightly better
+- [47:52] about and then things will get better
+- [47:54] and I'm sure like tomorrow our model is
+- [47:55] slightly better and then things like
+- [47:56] alpha evolve just skyrocket it's
+- [47:59] definitely a a new paradigm it's a new
+- [48:02] kind of like learning algorithms which
+- [48:04] are truly amazing like I am actually
+- [48:07] blown away by this. I'm super bullish
+- [48:09] about this.
+- [48:10] >> So you've done red teaming obviously at
+- [48:11] Google deep mind and tell us about that
+- [48:14] but more broadly is there is there one
+- [48:16] thing that all of the frontier labs
+- [48:18] could implement that would improve the
+- [48:19] security of their models?
+- [48:21] >> No, I don't I don't think this exists
+- [48:22] today. Like we don't know how to solve
+- [48:24] problems. I think this is a this this is
+- [48:26] the honest answer is that for most of
+- [48:29] the issues we have today we just don't
+- [48:30] have a solution like one size fits all
+- [48:32] solution. I promise you like incentives
+- [48:35] right now are such that like
+- [48:38] security is is is a very expensive
+- [48:40] commodity, right? Like if I can convince
+- [48:42] you to trust my product more than
+- [48:44] somebody else's, it's yeah, it's it's
+- [48:46] it's great. This is why we're investing
+- [48:48] a lot of money in the security. I think
+- [48:50] with the mail
+- [48:53] the actual issue is the fact that before
+- [48:55] you develop security tooling you really
+- [48:57] need to have something to secure because
+- [49:01] like small every single small detail
+- [49:03] changes how you build security systems.
+- [49:05] So unless you know everything about the
+- [49:07] system and it's kind of frozen in time
+- [49:08] you can't really build security and by
+- [49:11] the time you have something to secure
+- [49:12] it's already too late and this is a
+- [49:14] thing that is not unique to ML. kind of
+- [49:16] it was there before. If you look at
+- [49:18] there is a field of information security
+- [49:20] economics, it's it's kind of always
+- [49:23] there. It's like it's a fundamental
+- [49:25] first to the market wins. So everyone
+- [49:26] rushed to the market. Early investment
+- [49:28] in security means you could have spent
+- [49:30] this resources getting first to the
+- [49:32] market and getting the network effect.
+- [49:34] And thus you kind of don't have
+- [49:35] incentives to build the security tooling
+- [49:37] first. And then if you look at
+- [49:38] statistics around company compromise,
+- [49:40] you'll find that it takes a number of
+- [49:42] compromises before the company fails. So
+- [49:45] they have a bit of time after they
+- [49:46] conquered the market to actually put the
+- [49:47] security tooling inside. So it's
+- [49:49] economic incentives. It's nothing but I
+- [49:51] have to say that I'm quite certain if we
+- [49:54] knew how to solve stuff, we would solve
+- [49:55] this. It's just today we don't know how
+- [49:57] to do it. In the same way it's like if
+- [49:59] you look at 1990s, I promise you
+- [50:01] everyone wanted to make sure that their
+- [50:03] systems are reliable. We just didn't
+- [50:04] know how to build stuff.
+- [50:06] >> We won't spend long on this because
+- [50:07] we've already filmed all about your
+- [50:08] model collapse paper in nature. I know
+- [50:10] there is a lot of like folks criticizing
+- [50:13] and saying this theoretical blah blah
+- [50:15] blah blah but if you look around we use
+- [50:18] a lot of synthetic data but we still use
+- [50:21] a lot of real data and whenever we need
+- [50:23] to go and acquire data there is a
+- [50:25] massive market in acquiring very
+- [50:26] specialized data and you see that
+- [50:28] improvements still come from humans and
+- [50:30] the cost of this data is growing like
+- [50:32] for extremely specialized like hiring a
+- [50:34] ton of mathematical PhDs.
+- [50:36] >> Yeah. Could you add a bit of color to
+- [50:38] that? You said there was some criticism
+- [50:39] because I remember now that there was
+- [50:41] some some tweets going around about the
+- [50:43] paper. What what was the the story
+- [50:45] there?
+- [50:45] >> Oh, people were basically saying this is
+- [50:47] uh okay I I think there is a bit of
+- [50:49] misunderstanding on sort of what what
+- [50:51] the paper was saying and maybe we are to
+- [50:53] blame in in in part for this in a sense
+- [50:55] that like when we talked about model
+- [50:58] collapse we kind of referred to two
+- [51:00] phenomenas happening at the same time.
+- [51:01] One of them was uh the tails are
+- [51:04] shrinking and basically improbable
+- [51:05] events become more improbable. And then
+- [51:07] the second phenomena was over time when
+- [51:09] this accumulates it fails and most of
+- [51:11] the criticism I think were in the on the
+- [51:14] in the second part namely that actually
+- [51:16] you can easily detect when stuff fail
+- [51:18] and then just roll back and I agree
+- [51:19] fully like this is totally fine and the
+- [51:21] other thing that people were saying is
+- [51:22] actually it's quite simple just
+- [51:23] accumulate more data and then like
+- [51:26] whenever you generate synthetic data
+- [51:27] just plug it in and then you have a
+- [51:28] shape of the distribution still in place
+- [51:31] and I think the important thing to
+- [51:32] realize is that even in this case when
+- [51:33] you do theoretical modeling with even
+- [51:35] the simplest model it still drifts it
+- [51:37] this doesn't drift that much. Is that a
+- [51:38] problem? Well, maybe not. Maybe it is a
+- [51:41] problem. If you have very good evals to
+- [51:43] check for this like disappearing tails,
+- [51:44] it's probably not a problem. But the
+- [51:47] fundamental thing still remains in
+- [51:48] place. You need to preserve diversity.
+- [51:51] Just plugging in a ton of synthetic data
+- [51:53] is likely not going to give you much
+- [51:55] performance boost. And in practice, you
+- [51:58] just need to be careful.
+- [51:58] >> Ilia, why don't you set up for us what
+- [52:00] what model collapse refers to? We were
+- [52:03] trying to predict the sort of the future
+- [52:06] on how easy it will be to train models
+- [52:09] later because on one hand you have this
+- [52:12] weird oracle from which you can gather
+- [52:14] as much data as you want. On the other
+- [52:16] hand when you do get the data out of
+- [52:18] this you don't know how realistic it is
+- [52:20] and how representative it is of the
+- [52:21] underlying world. Right? So and the
+- [52:23] model collapse refers to this phenomena
+- [52:26] that covers this like recursive model
+- [52:29] training and uh where the data from a
+- [52:34] generation zero model is used to develop
+- [52:36] generation one and generation two and
+- [52:38] generation three and so on with a small
+- [52:40] caveat well maybe big caveat that we're
+- [52:43] talking about this theoretical setup
+- [52:45] where we basically reuse all the data or
+- [52:47] majority of the data that we sampled in
+- [52:49] the previous generation and we can
+- [52:51] basically derive quite a bit of theory
+- [52:53] for relatively simple setups that show
+- [52:56] you that you're guaranteed to collapse
+- [52:57] to basically a representation where all
+- [52:59] of your tales i.e improbable events
+- [53:01] disappear and also all of your
+- [53:03] hallucinations and biases of the models
+- [53:05] gets amplified. And then we also in the
+- [53:07] paper showed that the same phenomena
+- [53:09] both of those things happen for more
+- [53:11] sophisticated models about which
+- [53:12] theoretically we can't really reason but
+- [53:15] empirically we observe the same
+- [53:16] phenomenon happening and there is by the
+- [53:18] way now like a ton of literature about
+- [53:20] this with people doing amazing things.
+- [53:22] >> Yeah. I mean maybe maybe for our
+- [53:24] audience too like part of the idea here
+- [53:26] is that more and more people are going
+- [53:29] to be producing more and more content
+- [53:30] that's that's generated by AI and
+- [53:33] putting it on the internet which then
+- [53:35] goes back into the data the data corpus
+- [53:37] which the future models are trained on.
+- [53:40] So there's this, you know, so
+- [53:41] everything's becoming more and more gen
+- [53:42] AI. And I think there's another very
+- [53:45] worrying component about this, which is
+- [53:47] there's been some publications,
+- [53:48] research, commentary, whatever that as
+- [53:51] people become more reliant on on Gen AI,
+- [53:55] then the built-in human skills start to
+- [53:57] atrophy like we start developing less
+- [54:00] programming expertise because we don't
+- [54:02] need as many programmers anymore. we
+- [54:04] start developing maybe our mathematical
+- [54:07] expertise waines, writing becomes, you
+- [54:09] know, less of a skill set and so then
+- [54:12] the the amount of human generated
+- [54:16] tale unique intelligent content goes
+- [54:20] down even more. So it's not just that
+- [54:22] it's being overrun by a deluge of, you
+- [54:25] know, Gen AI content, but legitimate
+- [54:27] human content is decreasing, too. I
+- [54:29] mean, is it that kind of worrying? I
+- [54:32] mean, yeah, but I don't know what's
+- [54:34] going to happen. I think it's anyone's
+- [54:35] guess. It's clearly progress.
+- [54:37] >> Collapse into a delta function.
+- [54:38] >> I think it's clearly a progress though.
+- [54:40] I have to say like at least in my
+- [54:42] personal experience, like I find myself
+- [54:46] being able to do more. like the amount
+- [54:49] of electronics I ended up fixing myself
+- [54:50] just because I can go and get a
+- [54:52] supervisor to tell me oh this is fine to
+- [54:54] do this or where I can figure out why
+- [54:57] the washing machine is broken or why the
+- [54:59] fridge is broken how to update parts
+- [55:00] here and there or the amount of data
+- [55:02] sheets you can read now previously
+- [55:04] completely impossible like and now you
+- [55:06] can just arbitrary ask questions about a
+- [55:08] data sheet written in Mandarin that like
+- [55:11] and you can't even decipher what the
+- [55:12] character is and it tells you exactly
+- [55:13] what you need to plug where it's it's
+- [55:15] it's truly like increasing the quality
+- [55:18] of life in in parts uh maybe which are
+- [55:22] very specialized to my my existence. So
+- [55:24] I'm not sure how general this is but my
+- [55:27] life is definitely much better.
+- [55:28] >> Why does bottle collapse happen? Is it
+- [55:30] just because there's lots of noise or is
+- [55:32] there actually a deeper reason?
+- [55:34] >> I mean it's a deeper reason. It's more I
+- [55:35] think it's more fundamental in a sense
+- [55:37] that like if you have a very stocastic
+- [55:39] process and with a certain chance you
+- [55:42] you sample things which are bad like
+- [55:45] then this things as long as they're
+- [55:47] correlated they become amplified right
+- [55:50] um yeah so it's definitely a more
+- [55:52] fundamental statistical pro problem but
+- [55:54] I think projecting this on reality and
+- [55:56] the real setups I have to say like our
+- [55:58] models are not going to collapse
+- [55:59] tomorrow like they're not going to get
+- [56:01] worse tomorrow because we already have a
+- [56:02] checkpoint from yesterday we can always
+- [56:04] just roll back, put more evaluations,
+- [56:06] and just, you know, do it again and
+- [56:08] again until we see that something works.
+- [56:10] Like, is it going to be more expensive?
+- [56:11] Yeah, probably. Is this going to like is
+- [56:14] it going to make it harder for
+- [56:16] competitors that don't have a copy of
+- [56:18] the internet in the garage to train
+- [56:20] model? Yeah, likely. But at the same
+- [56:22] time, I I think it's it's like it's a
+- [56:27] thing that makes us slower, but it
+- [56:29] doesn't necessarily mean that tomorrow
+- [56:31] suddenly ML doesn't work. if if that
+- [56:33] makes sense.
+- [56:34] >> Yeah.
+- [56:34] >> Well, one reason I mean maybe one
+- [56:36] intuition that might help folks for
+- [56:38] model collapse just to take it to
+- [56:39] perhaps the simplest possible example is
+- [56:42] just uh if you just have any
+- [56:44] distribution let's say like just a a
+- [56:47] Gaussian distribution of integers
+- [56:49] >> and you sample it a bunch of times and
+- [56:51] you add those together and then you
+- [56:53] sample it a bunch of times and you add
+- [56:54] those together and that's your new
+- [56:55] distribution. You know the the variance
+- [56:57] keeps getting less and less and less.
+- [56:59] This is like the sort of law of large
+- [57:01] numbers, right? It's just like the more
+- [57:03] times you keep sampling the same thing
+- [57:05] and you know then your average keeps
+- [57:07] getting smaller and smaller variance and
+- [57:09] that's really what's happening. It's
+- [57:10] just you know it's generating content
+- [57:12] like I've often viewed LLM just when
+- [57:14] I've been interacting them is almost
+- [57:16] like the answers they give you are the
+- [57:20] consensus answer essentially it's just
+- [57:23] if I were to somehow ask everybody and
+- [57:25] average the answer together that's
+- [57:26] really the answer I get from the LLM. So
+- [57:28] it's kind of giving you the average
+- [57:31] answer among all you know sort of
+- [57:34] coherent monging together of human human
+- [57:37] you know writing right
+- [57:39] >> yeah I'm
+- [57:41] yeah but at the same time I have to say
+- [57:43] it's humans humans are like ranking
+- [57:46] these models if you look at like a
+- [57:48] lamarina style things like there is
+- [57:50] feedback from humans humans hey I like
+- [57:52] this model more than this one there is
+- [57:53] clearly a lot of like a lot of human
+- [57:56] preferences encoded in is I don't know
+- [57:58] if if your interaction is like this, but
+- [58:00] recently my model started just placing
+- [58:02] emojis all over the place in response.
+- [58:04] This is triggering me.
+- [58:06] But I'm sure for for some folks they
+- [58:09] they they love this.
+- [58:10] >> Well, that's the average, you know,
+- [58:11] that's the the bulk person wants emojis
+- [58:13] out there.
+- [58:14] >> And this is why I'm saying like I think
+- [58:15] my experience with models and like
+- [58:18] improvements in quality of my personal
+- [58:20] life may not translate to others because
+- [58:22] like in my life models made this like
+- [58:24] significantly better. But yeah, I don't
+- [58:27] I I don't know how, you know,
+- [58:29] representative this is.
+- [58:30] >> You know, your your supervisor was Ross
+- [58:32] Anderson and and he he passed away,
+- [58:33] didn't he? So,
+- [58:34] >> he did recently.
+- [58:35] >> Rest in peace.
+- [58:36] >> I also only recently realized we
+- [58:37] organized an event for the gentleman to
+- [58:39] basically reflect back on a lot of
+- [58:41] achievements because he's been
+- [58:42] publishing and he he's uh credited to
+- [58:46] have created a number of different
+- [58:47] fields like his early work is in
+- [58:49] cryptography. Obviously one of his
+- [58:52] ciphers became a runner up for the
+- [58:54] standard in cryptography and uh he also
+- [58:58] is credited with like security economics
+- [59:01] literature. He's also credited with a
+- [59:03] lot of work in cyber crime. He's
+- [59:06] credited with a lot of work in Tempest.
+- [59:08] He's credited with a lot of work in
+- [59:10] banking security. And we're kind of
+- [59:12] reflecting on this and then only then I
+- [59:14] kind of realized that I met Ross at a
+- [59:16] very late stage of his life in a in a
+- [59:19] sense like I saw him on this stage and
+- [59:21] then I met the students from the
+- [59:22] previous generations and like their
+- [59:24] experience is widely different and they
+- [59:26] were looking at very different problems.
+- [59:28] It's uh yeah he's done he's done a lot.
+- [59:30] >> And what would you say to people now get
+- [59:32] you know going into ML security?
+- [59:34] >> I think coming through security
+- [59:36] background is better than going through
+- [59:38] a male background. Like if you start off
+- [59:40] as a security person who starts
+- [59:41] specializing in ML later, it's probably
+- [59:43] better
+- [59:44] >> just because you kind of learn the very
+- [59:46] fundamentals on how we solve security
+- [59:49] problems before and that intuition
+- [59:51] allows you to think a lot more about ML
+- [59:53] models because in essence at least
+- [59:55] modern ML models are like interpreters
+- [59:58] and then the language you give it this
+- [59:59] human thing human language is kind of
+- [60:01] like a very high high level language
+- [60:04] that is not programming language that is
+- [60:06] normally executed by other interpreters
+- [60:08] but it's So and then if you start
+- [60:10] thinking about the models as
+- [60:12] interpreters and then the language is
+- [60:14] the programming language then suddenly
+- [60:15] you think about the whole thing very
+- [60:17] differently. Then you ask your your
+- [60:19] question like why do we expect the
+- [60:21] interpreter to provide security? If the
+- [60:24] programs we write are probabilistic why
+- [60:26] do we expect to get deterministic
+- [60:28] outputs? You know things like this
+- [60:30] right? Um, and then when you start
+- [60:32] thinking about them through this realm
+- [60:34] of like more formal computer science
+- [60:37] sort of view, I think it's it's more
+- [60:39] productive than trying to say, oh,
+- [60:41] actually I'm going to distill all of the
+- [60:42] security thinking into the model and
+- [60:43] it's going to solve all the problems
+- [60:45] because clearly I can give you like a
+- [60:47] number of fundamental things like, you
+- [60:48] know, classical, you know, century old
+- [60:51] dilemmas that that definitely not going
+- [60:52] to be solved with with with models. And
+- [60:55] can they make, you know, some progress
+- [60:57] here and there? Yeah, sure. But is that
+- [61:00] actually going to solve like a I don't
+- [61:01] know confused deputy problem? I promise
+- [61:03] you the answer is no.
+- [61:04] >> Awesome. Well, I thank you so much for
+- [61:06] joining us today. It's been amazing.

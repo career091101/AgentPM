@@ -1,0 +1,277 @@
+---
+title: "Hello all, my name is Krishna and welcome to my YouTube channel."
+video_id: "Bk9sYapiow8"
+video_url: "https://www.youtube.com/watch?v=Bk9sYapiow8"
+speaker: "Krishna"
+channel: "YouTube"
+date: ""
+duration: ""
+tags: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+topics: ["AI", "Agents", "RAG", "LLM", "Technology", "Tutorial", "Development"]
+summary: |
+  Hello all, my name is Krishna and welcome to my YouTube channel
+  So guys, I am super excited to start a new series and this series will be specifically on agentic rag and its various types
+  Now as you all know rag is one of the most important technology right now in every companies there is a huge amount of demand because now companies are focusing more on automating their workflows and rag using rag is one of the most fundamental use cases that many people are implementing
+key_points:
+  - "series and this was the next series that I had actually planned already"
+  - "Covers ai agents concepts and applications"
+  - "Discusses AI, Agents, RAG"
+category: "AI Agents"
+confidence_level: "medium"
+source: "Founder_Agent_Videos"
+retrieved_at: "2025-12-30T10:04:24+09:00"
+---
+
+# Transcript: Bk9sYapiow8
+
+- URL: https://www.youtube.com/watch?v=Bk9sYapiow8
+- Retrieved at: 2025-12-30T10:04:24+09:00
+
+## Text
+
+- [00:00] Hello all, my name is Krishna and
+- [00:02] welcome to my YouTube channel. So guys,
+- [00:04] I am super excited to start a new series
+- [00:07] and this series will be specifically on
+- [00:09] agentic rag and its various types. Now
+- [00:13] as you all know rag is one of the most
+- [00:15] important technology right now in every
+- [00:18] companies there is a huge amount of
+- [00:20] demand because now companies are
+- [00:22] focusing more on automating their
+- [00:23] workflows and rag using rag is one of
+- [00:26] the most fundamental use cases that many
+- [00:29] people are implementing. This
+- [00:30] information I usually get from all the
+- [00:32] interviews from all the students who
+- [00:34] have actually attended. I keep on asking
+- [00:36] them for various feedbacks and reviews
+- [00:38] like how should I probably go ahead with
+- [00:40] the next series and this was the next
+- [00:42] series that I had actually planned
+- [00:44] already. I have covered traditional rag
+- [00:46] system. I've also uploaded a crash
+- [00:47] course on 2 hours crash course on it
+- [00:50] which you can actually go ahead and
+- [00:51] watch. Now quickly let me go ahead and
+- [00:54] share my screen and let me talk about
+- [00:56] like what all things we will be
+- [00:58] discussing in agentic rag. how we will
+- [01:00] be covering them which all different
+- [01:01] types of agentic rag we will be covering
+- [01:04] by which frameworks we'll be using each
+- [01:06] and everything I'll be discussing about
+- [01:07] and I'll also show you some of the code
+- [01:09] samples like how I have actually
+- [01:11] prepared because this series uh will be
+- [01:14] definitely an amazing series so let me
+- [01:16] quickly go ahead and share my screen
+- [01:18] over here so here uh if you go ahead and
+- [01:20] search for complete rack cash course
+- [01:23] with languin in 2 hours here uh we have
+- [01:27] focused more on traditional rack systems
+- [01:29] but now we are moving one step ahead
+- [01:31] where we are going to just focus on
+- [01:33] agentic rag and its type. So uh how we
+- [01:36] are going to cover what all things we
+- [01:38] are basically going to cover over here.
+- [01:40] Now agentic rag types complete road map
+- [01:43] from basic to advanced. Okay before I go
+- [01:45] ahead there is one quick announcement
+- [01:47] since currently uh you have an amazing
+- [01:51] festive season. So on all our live
+- [01:54] courses we are providing 20% off. Use
+- [01:57] code AI20 and you should be able to
+- [02:00] probably take up any course by and we
+- [02:03] are trying to provide 20% off over here
+- [02:05] because many people were requesting for
+- [02:07] it. Okay. So any of the courses that you
+- [02:09] really want to go ahead and explore from
+- [02:11] AI leaders to professional and this is
+- [02:13] the recent course that we are coming up
+- [02:15] with that is ultimate rag boot camp.
+- [02:17] Okay. And this particular boot camp will
+- [02:19] be quite amazing. We are going to go
+- [02:20] ahead and take this live classes for
+- [02:22] four to five months and this is probably
+- [02:24] the last boot camp for 2025. Now let me
+- [02:27] go ahead and show you the entire road
+- [02:28] map how we are going to cover up this
+- [02:30] specific series. So our learning journey
+- [02:33] will start with very simple projects
+- [02:36] like wherein we will be using routing
+- [02:38] based track for understanding core
+- [02:40] concepts. Then we'll try to add
+- [02:42] intelligence okay wherein we are going
+- [02:44] to use multi-step reasoning for complex
+- [02:46] queries. Then we are going to optimize
+- [02:48] it with adaptive rag. Then we are going
+- [02:50] to ensure quality by using self
+- [02:53] self-reflective and corrective rags.
+- [02:55] Okay. Then finally we are also going to
+- [02:57] go ahead and scale it up by using
+- [02:59] hierarchal systems for enterprise needs.
+- [03:01] Right. So we also say it as hieral rag.
+- [03:04] So here uh is the recommended path you
+- [03:06] know. Um here we have just written week
+- [03:09] 1 2 one one right? But uh my pace of
+- [03:13] recording the video will be much more
+- [03:14] faster only if you make sure to reach
+- [03:17] the target of 1,000 likes for every
+- [03:19] video that I upload. Right? Because this
+- [03:21] definitely takes a lot of efforts. So
+- [03:23] I'm requesting you to do that. Okay? So
+- [03:26] quickly first of all we will be focusing
+- [03:28] on um aentic rag and then we will also
+- [03:31] be focusing on routing based agentic
+- [03:33] rag. Here uh the foundational pattern
+- [03:35] where an agent intelligently route
+- [03:36] queries to appropriate specialized
+- [03:39] knowledge base or retrievers. Perfect
+- [03:41] starting point for learning agentic rag.
+- [03:43] Okay, here it is basically suitable for
+- [03:45] all these particular use cases. Then we
+- [03:47] go with the next step that is multi-step
+- [03:49] reasoning rag. And here we are going to
+- [03:51] go ahead and decompose complex questions
+- [03:53] into sub questions. Retrieve information
+- [03:55] iteratively for each and synthesize
+- [03:58] comprehensive answers. So here again we
+- [04:00] will go ahead and develop this
+- [04:01] completely from scratch so that you
+- [04:03] should be able to understand it and one
+- [04:05] of the most common frameworks that we
+- [04:06] are specifically going to use is lang
+- [04:08] graph. Okay. So lang graph we are going
+- [04:10] to specifically use because it is very
+- [04:12] very much helpful for creating agentic
+- [04:14] capabilities rag. Okay. Now coming to
+- [04:17] the third one that is adaptive rag. As
+- [04:20] we said right we will be adding more
+- [04:22] intelligence right and how what is
+- [04:24] adaptive rag? What is the architecture
+- [04:26] of adaptive rag and where all different
+- [04:28] kind of use cases we can specifically
+- [04:30] use? We will be discussing about that.
+- [04:32] Okay. Then we come to the
+- [04:33] self-reflective rag. Inside this we are
+- [04:36] going to make sure to uh evaluate each
+- [04:39] and every output that is basically
+- [04:40] generated by the LLM. We'll identify the
+- [04:43] gap and we'll iteratively improve the
+- [04:45] best information. Okay. Then uh we go
+- [04:47] with react agentic act. React is one of
+- [04:50] the most popular um architecture that is
+- [04:54] specifically used. It combines reasoning
+- [04:56] and acting in an interl manner. Right?
+- [04:59] So we will try to understand how does a
+- [05:00] reactive react agentic rag basically
+- [05:03] works and finally we go ahead with
+- [05:05] corrective and then hierarchal agent
+- [05:07] rag. So this will be the series. This
+- [05:09] will be the quick comparison. You can
+- [05:11] see over here how quickly we can
+- [05:12] actually do it. how much retrieval it
+- [05:15] basically takes you know what is the
+- [05:17] speed which is faster which is medium
+- [05:19] for different kind of use cases you
+- [05:21] definitely require different kind of
+- [05:23] rags okay so this is the brief road map
+- [05:25] that how we are going to specifically
+- [05:27] cover uh the entire rag okay now coming
+- [05:30] to the next thing is that how the coding
+- [05:32] pattern will be how we are going to go
+- [05:34] ahead and create it so this is just one
+- [05:36] example of multi-agent hierarch
+- [05:38] hierarchy so this is uh basically multi
+- [05:41] multi- aent hierarchy drag and here you
+- [05:44] can see that how we will implement
+- [05:45] something like this. The main important
+- [05:47] thing is that creating workflows. So
+- [05:49] let's say that in this particular
+- [05:50] example this is the workflow that we
+- [05:52] have created right we'll explain about
+- [05:54] this we'll step by step uh decide our
+- [05:57] state information each and every node
+- [05:59] along with the node definition will be
+- [06:00] created with the help of lang graph.
+- [06:02] Similarly we'll go ahead and see
+- [06:04] multi-step agentic rag. So here you can
+- [06:06] see how beautifully the workflow is and
+- [06:08] based on this workflow we'll try to
+- [06:10] understand it. Then you also have
+- [06:11] self-reflective life. So all the
+- [06:13] materials are ready. I just need to go
+- [06:15] ahead and record it and explain it. So
+- [06:17] retrieve, generate, reflect, finalize,
+- [06:20] refine. How do we basically why do we
+- [06:22] use self-reflective lag like that? And I
+- [06:24] hope you have also heard about react
+- [06:26] agent. So this is the react agent and if
+- [06:28] you could just go ahead and see the
+- [06:29] react agent workflow, it looks something
+- [06:31] like this wherein we have reasoning
+- [06:33] acting and then we probably keep on
+- [06:35] iterating this unless and until we get
+- [06:37] the right output. Okay. Then you also
+- [06:40] have the route agent. So here you'll be
+- [06:42] able to see this is the route agent and
+- [06:43] we'll take different different data
+- [06:45] sets. We'll we'll also create our own
+- [06:46] custom data set. Uh we'll think about
+- [06:49] the use cases. The use cases will be
+- [06:51] defined in this specific manner. Okay.
+- [06:53] So that you will be able to understand
+- [06:55] it. So that is the pattern that we are
+- [06:56] going to follow for this particular
+- [06:58] series and it'll be quite interesting
+- [07:00] because we will take only one
+- [07:02] architecture at a time and then we will
+- [07:05] try to implement it completely from
+- [07:06] scratch using langraph. Okay. So that
+- [07:09] will be the pattern that we are going to
+- [07:10] follow over here now. Uh the other thing
+- [07:12] is that uh please make sure that before
+- [07:14] you come to this particular series right
+- [07:17] uh there are some prerequisite you
+- [07:18] really need to be good at Python you
+- [07:20] need to know what is exactly traditional
+- [07:22] rag. So here I have already uploaded
+- [07:24] this amazing 2 hours course that is more
+- [07:26] than sufficient to start with the
+- [07:27] traditional rag if you are able to
+- [07:29] understand over here you'll understand
+- [07:30] about vector databases you'll understand
+- [07:32] about retrieval you'll understand about
+- [07:34] tools. So all those things have been
+- [07:36] covered over here in this specific
+- [07:37] video, right? And then final
+- [07:39] announcement, yes, you have 20% off on
+- [07:43] all our courses uh live courses. You can
+- [07:46] go ahead and check it out. All the
+- [07:47] information will be given in the
+- [07:48] description of this particular video.
+- [07:50] Now as I said there's a lot of effort
+- [07:53] you know from past one week I have been
+- [07:55] coding coding coding and created all
+- [07:57] this definite tracks and at the end of
+- [07:59] the day we also going to create an
+- [08:00] amazing end to- end project right
+- [08:02] modular coding and all right so this
+- [08:04] really takes a lot of effort so uh
+- [08:06] appreciate that try to share with most
+- [08:08] of your friends hit a like I know it
+- [08:11] won't take a second for you but
+- [08:12] definitely this will motivate me a lot
+- [08:14] so yes this was it from my side in the
+- [08:16] next video we will first of all start
+- [08:19] with a simple agentic rag and then we'll
+- [08:22] talk about routing agent, we'll talk
+- [08:24] about react agent and all. So, thank
+- [08:25] you. This was it from my side and I
+- [08:27] think every 2 days I will upload a
+- [08:29] video. If you achieve the target
+- [08:31] quickly, every day the video will be
+- [08:32] uploaded. Thank you. This was it from my
+- [08:34] side. I'll see you in the next video.
+- [08:35] Bye-bye. Take care.

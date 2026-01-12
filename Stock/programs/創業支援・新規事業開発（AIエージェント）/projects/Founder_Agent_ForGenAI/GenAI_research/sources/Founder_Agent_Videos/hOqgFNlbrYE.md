@@ -1,0 +1,1126 @@
+---
+title: "If you're using Claude Code by just typing in prompts as though it's another ChachiBeT, you're missi..."
+video_id: "hOqgFNlbrYE"
+video_url: "https://www.youtube.com/watch?v=hOqgFNlbrYE"
+speaker: "Patrick"
+channel: "Unknown"
+date: ""
+duration: ""
+tags:
+  - "AI"
+  - "Agents"
+  - "LLM"
+  - "OpenAI"
+  - "Anthropic"
+  - "Automation"
+  - "Programming"
+  - "Tutorial"
+  - "Startup"
+topics:
+  - "AI Agents"
+  - "LLM Development"
+  - "Prompt Engineering"
+  - "Tool Integration"
+  - "Workflow Automation"
+summary: |
+  If you're using Claude Code by just
+  typing in prompts as though it's another
+  ChachiBeT, you're missing 90% of its
+key_points:
+  - "ChachiBeT, you're missing 90% of its"
+  - "that power is critical. And I think what"
+  - "capabilities. My name is Patrick, a CTO"
+  - "February. Earlier this week, I spoke to"
+  - "of cloud code. We will cover a range of"
+  - "what we feel are the most valuable"
+  - "what is good and what is bad output and"
+  - "three of our talks so you can reference"
+category: "AI Agent Development"
+confidence_level: "high"
+---
+
+# Transcript: hOqgFNlbrYE
+
+- URL: https://www.youtube.com/watch?v=hOqgFNlbrYE
+- Retrieved at: 2025-12-30T15:48:37+09:00
+
+## Text
+
+- [00:00] If you're using Claude Code by just
+- [00:02] typing in prompts as though it's another
+- [00:04] ChachiBeT, you're missing 90% of its
+- [00:06] value. Claude Code comes off deceptively
+- [00:09] as just another lightweight command line
+- [00:11] tool. But really, under the hood, it's
+- [00:14] much more than that. It's the first in
+- [00:16] the coming wave of highly powered AI
+- [00:18] agents. Understanding how to harness
+- [00:20] that power is critical. And I think what
+- [00:22] might be holding you back from being
+- [00:24] fully blown away by Cloud Code's
+- [00:26] capabilities. My name is Patrick, a CTO
+- [00:28] and co-founder of an AI native startup
+- [00:31] who's been using Claude code since
+- [00:32] February. Earlier this week, I spoke to
+- [00:35] a group of founders in Seattle alongside
+- [00:37] my friends Anod and Galen about the core
+- [00:40] principles to employ and the tactical
+- [00:43] frameworks and tools to get the most out
+- [00:45] of cloud code. We will cover a range of
+- [00:48] what we feel are the most valuable
+- [00:49] topics, including using MCPS to give
+- [00:52] eyes to Claude code, using the double
+- [00:54] escape method and resume method in order
+- [00:56] to fork Claude code context and spin up
+- [00:59] multiple instances. One of my favorites
+- [01:01] and extremely helpful automated code
+- [01:03] review, a quick state of the union of
+- [01:05] the top codegen tools including Codeex
+- [01:09] and others, the my developer prompting
+- [01:11] trick that Galen demos towards the end
+- [01:12] of the talk. That was actually one of my
+- [01:14] biggest takeaways. how we structure
+- [01:16] validation steps to ensure Claude knows
+- [01:18] what is good and what is bad output and
+- [01:20] many others. In the description, I've
+- [01:22] greatly detailed each section and the
+- [01:24] topics that we spoke through. So, if
+- [01:26] you're already familiar with the topic,
+- [01:27] I'd highly recommend just skipping
+- [01:29] through to what's interesting and
+- [01:30] relevant as there's a lot of good gems
+- [01:32] in there in my unbiased opinion. And
+- [01:34] I've also linked the slides from all
+- [01:36] three of our talks so you can reference
+- [01:38] that. I hope this helps you unlock the
+- [01:39] next level out of cloud code. And with
+- [01:41] that, here's a nod to kick us off. This
+- [01:43] is the main question that I get asked uh
+- [01:45] quite a lot. What's the difference
+- [01:47] between cloud code and cursor? I think
+- [01:49] it sums up to this. Cloud code is really
+- [01:51] good at multi-step processing. So you
+- [01:54] have a large task you want to get done.
+- [01:56] It can break it down into subtasks,
+- [01:58] execute them one by one. I use it for
+- [02:00] starting projects constantly. I post new
+- [02:03] project like every every other couple of
+- [02:05] days. It's just because I'm able to
+- [02:07] create a really really good spec, really
+- [02:09] good planning document, which I'll get
+- [02:10] into later. give it to cloud code and I
+- [02:12] just let cloud code run freely which is
+- [02:15] probably not great to do but you know
+- [02:16] there's no stakes to like these random
+- [02:18] side projects and it's really good at
+- [02:19] doing that and it's again because of
+- [02:21] that reflective loop um if there's a lot
+- [02:24] of complexity this is what I mentioned
+- [02:26] just a minute before where you have to
+- [02:28] pull in a lot of things from different
+- [02:29] files it's good at doing that as well
+- [02:32] and if you have a very long running
+- [02:33] process I tend to prefer cloud code
+- [02:36] cursor is still really good though at
+- [02:39] specific solving specific problems
+- [02:41] addressing very specific files or lines
+- [02:43] of code because you can select those
+- [02:45] things very easily. Let's go into the
+- [02:46] cloud MD file. So this file is your main
+- [02:48] context file. So when you run /init and
+- [02:52] we'll get into what that means in a sec,
+- [02:54] it will generate an overview of your
+- [02:56] codebase. It'll go through all your
+- [02:58] files, figure out how everything is set
+- [02:59] up, make detailed notes about, you know,
+- [03:01] the startup processes, where everything
+- [03:03] is located. And uh I like the quote from
+- [03:07] the documentation which is that your
+- [03:08] cloudmd files become a part of clause
+- [03:10] prompts. I mean that's what literally
+- [03:11] happens. Um so they should be refined
+- [03:14] like any frequently used prompt. So
+- [03:16] effectively you have to think of it like
+- [03:17] a readme for specifically built for
+- [03:19] claude code. The init function is great
+- [03:21] but I have my own set of commands that I
+- [03:24] run where I ask it to go through every
+- [03:27] file and first of all extract the file
+- [03:28] structure and the folder structure. Then
+- [03:30] for each of those folders I have a new
+- [03:32] cloud MD file. So in each subfolder I
+- [03:35] have a cloud MD file and effectively you
+- [03:38] can create detailed notes for every
+- [03:40] single detailed readme you know for
+- [03:41] every single subfolder to the point
+- [03:44] where you can track every single
+- [03:46] function and file and then when quad
+- [03:48] needs to do an operation it's no longer
+- [03:49] you know gpping like crazy you can have
+- [03:51] it just look at those cloud MD files as
+- [03:53] long as they're updated it will
+- [03:56] drastically reduce you know how much
+- [03:58] cognitive load it's over it's it's
+- [03:59] taking on yeah
+- [04:01] >> so the cloud MD file is it more like a
+- [04:03] me or is it more like uh the cursor you
+- [04:06] know rules file like how do I
+- [04:08] >> it's kind of a mix it's more like the
+- [04:10] pro it's like a you know cursor rules
+- [04:11] are effectively prompts that go into
+- [04:13] cursor right so it's but it's also a
+- [04:14] read me of your entire codebase so it
+- [04:16] can act as both but here's a good
+- [04:17] example of what I have in my actual
+- [04:18] cloud files right so I have this is like
+- [04:21] the the main you know uh I have a back
+- [04:24] end and a front end so I say okay here's
+- [04:26] how it's set up I have my front end has
+- [04:28] this kind of setup my back end has this
+- [04:29] kind of setup um and I have it cover the
+- [04:33] front end structure which actually then
+- [04:35] also has a much more detailed list in
+- [04:37] the frontend folder itself. Then I have
+- [04:40] my backend structure which is in the
+- [04:41] backend folder uh but you know in more
+- [04:43] detail but I can extract extract those
+- [04:46] up into my you know project folder or
+- [04:50] company folder. So it's easy for me to
+- [04:52] also see but also easy for like if I
+- [04:54] have to run thing cross code uh codebase
+- [04:57] or cross repo it's a lot easier to
+- [04:58] manage them and some other MD files that
+- [05:01] are not as uh talked about I feel but
+- [05:04] are very useful are things like the
+- [05:07] change log if you have a good change log
+- [05:10] it's easy for cloud to over time realize
+- [05:12] what were the changes that were made and
+- [05:14] why. So every time you make a change,
+- [05:16] just ask it to update the change log
+- [05:17] separately from the cloud MD file. And
+- [05:19] that just gives you a gives it a good
+- [05:21] understanding of okay, here's why I
+- [05:23] changed it and here's why we shouldn't
+- [05:24] go back to doing this. I use a plan MD
+- [05:26] file for every new project that I start
+- [05:28] or every new task that I start. It's
+- [05:30] effectively the list of things that I
+- [05:31] actually want to get done in a single
+- [05:33] document. All right. Now, here's the one
+- [05:35] major thing that I want to touch upon
+- [05:37] that I think is really interesting. You
+- [05:39] can attach cloud code into your GitHub
+- [05:41] repo. This basically replaces well
+- [05:45] effectively it is Devon but using your
+- [05:47] you know your your anthropic key. It's
+- [05:49] super easy to set up. You just run this
+- [05:51] command. They automate everything for
+- [05:53] you. It's really there is no hassle. Um
+- [05:57] and then you can go in and create an
+- [05:59] issue. Like I had some project I wanted
+- [06:02] to do is I was all right create this
+- [06:03] component for the library and I tag
+- [06:05] Claude like I would tag some developer.
+- [06:08] And it goes in it creates the issue. It
+- [06:12] creates this to-do list, this checklist,
+- [06:14] executes that, and later when I actually
+- [06:17] am like, you know, hey, this was like
+- [06:19] not that great, I can just tag it again
+- [06:22] in the same in the PR like I would with
+- [06:24] an actual developer, and it'll go
+- [06:25] through and do that again. I can do way
+- [06:28] more things using this process than I
+- [06:31] can just on my own uh computer running
+- [06:34] one agent or even multiple agents at the
+- [06:35] same time. It's extremely convenient.
+- [06:38] Um, it also has cloud code has builtin
+- [06:41] commands like review PR comments that
+- [06:44] allow you to effectively automate the
+- [06:46] review process from your console. You
+- [06:48] know, fetching the comments so that you
+- [06:49] can then it can then operate in your
+- [06:51] local environment. These commands are
+- [06:53] built. I I would really recommend
+- [06:54] exploring them. And I could just run 30
+- [06:58] different commands at the same time. I
+- [06:59] use cloud code to say here's a list of
+- [07:02] all the features I want to build.
+- [07:04] generate PRs for every single one of
+- [07:06] these and make sure you tag Claude at
+- [07:08] Claude at the end of it so that it will
+- [07:10] you know spin off the job and it was
+- [07:12] able to do that. This is my phone like
+- [07:13] by the time I got home it was all
+- [07:14] complete. It was just amazing.
+- [07:16] >> This did with the integration with
+- [07:18] GitHub or on the CLI.
+- [07:20] >> No from the CLI you can integrate it
+- [07:22] into GitHub. Yeah. So it's effectively
+- [07:24] an app that running that's running there
+- [07:26] but it is the cloud code bot. And now
+- [07:28] we'll get to commands. This is a this is
+- [07:30] what a command is. command is just a
+- [07:32] prompt. It's just a prompt that you can
+- [07:34] save in a file, share amongst projects,
+- [07:37] share amongst your team. You can develop
+- [07:39] these like very comprehensive
+- [07:41] step-by-step things and you can actually
+- [07:43] run it just like you would the PR the
+- [07:46] install GitHub that were built in from
+- [07:47] cloud. You can you can write your own.
+- [07:49] And why this is great is because you
+- [07:51] might have specific things you want your
+- [07:52] team to know or somebody on your team is
+- [07:54] just a claude expert or a or AI prompt
+- [07:56] expert. They write something amazing.
+- [07:58] You can now share that with the entire
+- [08:00] team. super easy to use. You should
+- [08:02] really look into using commands which
+- [08:04] allow you to create these comprehensive
+- [08:06] workflows just using a prompt that
+- [08:08] claude can then easily follow. This is
+- [08:11] for example the codebase analyze prompt
+- [08:14] that I can use to set up my really
+- [08:16] really comprehensive uh analysis in a
+- [08:18] cloud MD file. And you can see like it's
+- [08:20] super long but it works. I even made a
+- [08:22] GitHub action that can then be run you
+- [08:26] know right right from your GitHub uh uh
+- [08:28] interface. And these are this is just
+- [08:31] all the commands that I that I've
+- [08:32] collected. Anyway, here's the uh website
+- [08:35] and cure code if you're interested. I've
+- [08:36] just made it really easy to add this.
+- [08:38] Disclaimer is that I made this. Um but I
+- [08:40] really do believe it's a really good way
+- [08:42] to share those ideas. You can also
+- [08:43] launch sub agents. If you're just
+- [08:45] starting off with cloud code, don't even
+- [08:46] think about this, but just like you can
+- [08:47] basically run two things at the same
+- [08:48] time. It's pretty cool.
+- [08:49] >> So the analyzer command was a command
+- [08:51] you were talking about to generate the
+- [08:52] code MD files.
+- [08:54] >> That's one I use to make a more
+- [08:55] comprehensive cloud MD file. It can just
+- [08:57] be to analyze the codebase in general.
+- [08:58] Hey everybody, my name is Patrick. I
+- [09:01] have been using Cloud Code since it came
+- [09:03] out back in February 24th, uh, which
+- [09:06] feels like forever ago, but it's been
+- [09:08] amazing to see just the constant
+- [09:10] evolution of new features. One of the
+- [09:12] coolest things I feel like with cloud
+- [09:14] code is how the anthropic team very
+- [09:16] obviously works closely together on the
+- [09:18] ML and AI side. So the actual machine
+- [09:21] learning researchers that are doing the
+- [09:23] post-raining and the fine-tuning and
+- [09:25] everything uh along with the actual
+- [09:27] product team. So you see this close
+- [09:28] coupling with claude code that I think
+- [09:31] really sets it apart from any other
+- [09:32] experience. I was just listening to the
+- [09:34] Klein founders on the latent space
+- [09:36] podcast. Excellent recommendation by the
+- [09:38] way that podcast episode and just the
+- [09:40] podcast overall. And they were talking
+- [09:42] about how Opus 4 and Sonnet 4 just so
+- [09:45] badly want to use bash commands uh to GP
+- [09:49] around as as Anad was speaking to. So
+- [09:52] there's a there's a whole realm of uh
+- [09:54] preferred bits of what Opus 4 and Sonnet
+- [09:57] 4 try to do that fit really really well
+- [09:59] with cloud code given that the
+- [10:01] application and machine learning teams
+- [10:03] are are speaking closely together. So
+- [10:05] that's one reason why cloud code is is
+- [10:08] fantastic to use. But I'll speak a
+- [10:10] little bit to the the fundamentals of
+- [10:14] cloud code. So what makes this more
+- [10:17] exciting and interesting and like thus
+- [10:19] all the hype recently over a cursor or
+- [10:21] other platform? From my perspective, the
+- [10:24] biggest pieces here are we're we're
+- [10:26] actually we're doing much more than just
+- [10:28] codegen. We're really working with one
+- [10:30] of the first in production
+- [10:33] um like agentic tools that can do
+- [10:35] multi-step processing on the order of
+- [10:38] roughly an hour or so. You can think a
+- [10:40] lot broader than just codegen in terms
+- [10:42] of applications for this, which I'll get
+- [10:44] to a few of my favorite non-coding
+- [10:46] workflows in a second here. But I think
+- [10:48] just feeling the character, the nature,
+- [10:51] uh what helps these agents run for
+- [10:53] longer and to get more accurate towards
+- [10:55] what we're actually trying to execute
+- [10:56] with them. All of these factors are
+- [10:59] really really helpful lessons for us to
+- [11:00] be learning and internalizing now as
+- [11:02] we're building agentic workflows in
+- [11:04] other domains in our own products or
+- [11:06] using tools such as Gemini to summarize
+- [11:10] YouTube videos or whatever other
+- [11:11] workflows we might have. So that's one
+- [11:13] amazing part of cloud code. Cloud is
+- [11:14] also fine-tuned for as I mentioned tools
+- [11:17] that cloud code takes great advantage
+- [11:20] of. So you've got the bash type
+- [11:22] commands. So, being able to GP your
+- [11:24] codebase and use the GH or GitHub CLI
+- [11:27] tool, but we also have the native
+- [11:29] tooling. So, web search, uh, file
+- [11:32] search. One of the my favorite bits is
+- [11:35] this to-do list. Back in the day, I'd
+- [11:37] always create these PRDs, which is still
+- [11:39] a helpful workflow, but for most things,
+- [11:41] I can just defer to cloud code doing the
+- [11:43] uh shift tab tab to get it into planning
+- [11:45] mode, think through and iterate on the
+- [11:48] the spec of what we're trying to
+- [11:50] accomplish, and then allow it to create
+- [11:51] a little to-do list to kind of keep it
+- [11:53] on track, especially when it's handing
+- [11:54] off between different steps and using
+- [11:57] sub agents to summarize different parts
+- [11:59] of the codebase or think through and do
+- [12:01] research. Being able to pull that back
+- [12:03] and keep grounded in a to-do list, even
+- [12:05] its little like six bullet to-do list is
+- [12:08] super super helpful. A few other tools
+- [12:11] such as its ability to reflect on what
+- [12:13] it's outputting is a absolute game
+- [12:15] changer. I see this happen quite a bit
+- [12:17] where it'll work through something be
+- [12:18] like, "Wait a second, this actually
+- [12:20] isn't the best approach to this or this
+- [12:22] assumption was mistaken." And that
+- [12:24] ability, as you can imagine, when you're
+- [12:25] trying to let it run on a task and come
+- [12:27] back in 15 minutes or whatever to verify
+- [12:30] the output is super helpful. It's just
+- [12:32] one less touch point and usually
+- [12:33] multiple less touch points that you're
+- [12:35] having to go in and babysit the model
+- [12:36] for in addition to the output just being
+- [12:38] much better with that reflection piece.
+- [12:40] So there's a number of reasons why that
+- [12:42] pairing of Opus 4 specifically, but
+- [12:44] Sonet 4 as well with cloud code is a
+- [12:46] really incredible and productive
+- [12:48] workflow.
+- [12:50] One note too, uh, when you're using
+- [12:52] cloud code, if you run forward
+- [12:54] slashmodel, you can choose sonnet versus
+- [12:56] opus. So, just in case you're not aware
+- [12:58] of that, the default is sonnet. Opus is
+- [13:00] four times more expensive, but if you're
+- [13:02] on the max plan, it's uh, which is a
+- [13:04] hundred or $200 a month plan, which I'd
+- [13:05] highly recommend. The amount of
+- [13:07] inference we get is ridiculous. I mean,
+- [13:08] I would I would estimate if I'm fully
+- [13:10] using cloud in a month, it's, you know,
+- [13:11] in the order of three to 5k in terms of
+- [13:14] like API cost, but it's $200 a month
+- [13:16] flat. So I don't know how long this is
+- [13:18] going to be along around or if they're
+- [13:19] going to try to water it down like
+- [13:20] cursor or others. So I wanted to mention
+- [13:22] the different types of agents to just
+- [13:24] give a quick overview. We've got of
+- [13:26] course chatbased agents which we're all
+- [13:27] familiar with chatbt gemini etc. We also
+- [13:30] have these CLI and IDE based agents
+- [13:33] cloud code of course being an example
+- [13:35] cursor windsurf uh the brand new Cairo
+- [13:37] or Kro from u AWS or Amazon client etc.
+- [13:42] And then we have background agents which
+- [13:44] are just starting to kind of roll out
+- [13:46] over the last couple months. So Codeex
+- [13:47] which also has a CLI tool but of course
+- [13:49] they've got uh with OpenAI's pro plan at
+- [13:52] least you can kick off agentic processes
+- [13:54] that will run anywhere from one to four
+- [13:56] different instances of 03. And then I
+- [13:59] would also loop the GitHub integration
+- [14:01] which I won't belabor since Anod talked
+- [14:03] about it but it's incredible. One of our
+- [14:05] friends Sam just walked me through this
+- [14:07] absolutely mind-blowing workflow that
+- [14:09] he's got. He basically took the
+- [14:11] integration that you can build with
+- [14:12] cloud code with GitHub and then he uh
+- [14:15] modified the YAML file because basically
+- [14:17] what it's doing is it's just creating a
+- [14:18] YAML file that's a GitHub action
+- [14:20] configuration file and then you can add
+- [14:22] additional details. So you can modify
+- [14:24] the prompt that it's running. You can
+- [14:26] might I would highly recommend uncomment
+- [14:28] the uh the model it uses so that you can
+- [14:30] use opus instead of sonnet the default
+- [14:32] which is it's it's in there as a
+- [14:33] default. You just have to uncomment it.
+- [14:35] With this you can add additional
+- [14:36] parameters. For example, basically
+- [14:38] sneaking in MCPs into your config file
+- [14:41] and also give it permission to use
+- [14:43] different bash tooling and then give it
+- [14:44] access to other configuration files like
+- [14:46] markdown files. So all this to say just
+- [14:49] through that GitHub integration there's
+- [14:51] a lot you can really squeeze out of it
+- [14:52] to essentially create as Anad was saying
+- [14:54] a Devon type experience but with much
+- [14:56] more control and with better models.
+- [14:58] What's also so cool about this is as
+- [15:00] Anod was saying, you can embed any
+- [15:02] process that you have internally around
+- [15:04] uh like amazing ways to go about code
+- [15:07] review and uh also based on the user
+- [15:09] that's submitting the PR, you can uh you
+- [15:12] you could change things up as well. So
+- [15:14] you could really get these parts of your
+- [15:16] workflow embodied within these commands
+- [15:19] or these uh these runners. And that's
+- [15:21] one thing I love about cloud code and
+- [15:23] also MCPs is being able to encapsulate
+- [15:25] these different workflows that we have
+- [15:27] internally which even just as one dev
+- [15:30] it's helpful but across the team
+- [15:31] incredibly helpful to embody that uh
+- [15:34] that knowledge and that uh ability to be
+- [15:36] super productive and hand that off to
+- [15:38] less junior folks that don't have to
+- [15:39] understand all the underlying details.
+- [15:42] So we have background agents. Again,
+- [15:44] GitHub integration being what I would
+- [15:46] consider part of that. And then kind of
+- [15:47] connected but separately uh a little bit
+- [15:50] more advanced is our agent swarms. These
+- [15:52] are really cool. It's basically spinning
+- [15:54] off a bunch of containers.
+- [15:56] Um codeex is essentially this where you
+- [15:58] can go from one to four. If you have
+- [16:00] four of them running at the same time,
+- [16:01] you've got all these agents running and
+- [16:02] then they're um coming up with a
+- [16:04] solution and then you can compare either
+- [16:07] manually or through uh LLM as judge. My
+- [16:10] friend Sam was walking me through this
+- [16:12] workflow as I was mentioning where he's
+- [16:13] got three Opus instances that kick off
+- [16:16] and then they've got acceptance criteria
+- [16:17] that they can look at for what good code
+- [16:19] looks like, different style guides,
+- [16:21] examples of of of uh like API
+- [16:24] documentation and um API spec standards
+- [16:27] and it will compare outputs against that
+- [16:29] and an LLM will choose which version of
+- [16:31] those, you know, three outputs it likes
+- [16:33] the best and then we'll automatically
+- [16:35] merge that in, you know, build a CI/CD
+- [16:36] pip pipeline and then he can review it
+- [16:38] at that point. So you can get pretty
+- [16:39] sophisticated with the swarm idea.
+- [16:41] That's a more basic version. And then at
+- [16:43] the AI engineer worlds fair that a few
+- [16:44] of us went to down in SF about a month
+- [16:46] ago, uh we saw examples of I mean
+- [16:49] hundreds of these containers, you know,
+- [16:50] being kicked off. Now of course that's
+- [16:52] uh would bankrupt me with Opus 4, but
+- [16:55] it's it's exciting to think about. Then
+- [16:57] of course non-engineering agents as well
+- [16:59] such as uh Manis and Deep Research and
+- [17:01] others we're familiar with. my favorite
+- [17:03] cloud code in the CLI and also in
+- [17:06] headless mode. They've got an SDK for
+- [17:09] TypeScript, Python, and then of course
+- [17:11] just uh in the CLI as well. You've got
+- [17:13] this little intelligence that you can,
+- [17:15] you know, pipe things into in your
+- [17:16] terminal. You can put it in your build
+- [17:18] pipeline. You can have it review and
+- [17:20] build all kinds of different stuff
+- [17:23] that's like right where you're at or
+- [17:25] within your application. And I think
+- [17:27] kind of thinking about cloud code not as
+- [17:29] just a code gen tool but as this agent
+- [17:31] that you can deploy in a bunch of
+- [17:33] different contexts is really powerful. I
+- [17:35] also love Gemini CLI very similar to
+- [17:38] cloud code doesn't have the magic but
+- [17:40] for other tasks. One of one of the
+- [17:42] coolest ones I found was somebody using
+- [17:44] Gemini to basically watch uh a YouTube
+- [17:47] video which they can see one frame a
+- [17:49] second and they have of course a
+- [17:50] transcript as well through Google's uh
+- [17:52] first-party integration with their
+- [17:53] YouTube uh tool. I do this all the time.
+- [17:55] Even before I watch like a hour talk,
+- [17:57] I'll just summarize it.
+- [17:58] Domini.google.com and we'll basically
+- [18:01] get a sense of what it's talking about.
+- [18:02] Or if I like for this talk, there was
+- [18:04] one detail I remembered from a a a
+- [18:06] claude talk, but I didn't want to go
+- [18:07] through the entire hour to try to find
+- [18:08] it. I just quickly asked like, "Hey, I
+- [18:09] remember this point like roughly
+- [18:10] speaking, where is the time code for
+- [18:12] this?" And it pulled it up. Super
+- [18:14] helpful. And and this is just one
+- [18:15] workflow with YouTube, but super
+- [18:16] helpful. Another cool one though is with
+- [18:18] the Gemini CLI, you can take a tutorial
+- [18:21] and then have it try to execute and
+- [18:22] build that locally on your computer if
+- [18:25] it's something that would be doable from
+- [18:27] like a command line or using you know
+- [18:28] different tooling that you're exposed to
+- [18:29] it. So very versatile. Okay. So what
+- [18:31] agents need for great uh performance
+- [18:34] context. Context is everything. Context
+- [18:37] truly is everything. As you guys
+- [18:38] probably know, prompt engineering just
+- [18:40] got rebranded to context engineering.
+- [18:42] given that what we fit into the model,
+- [18:45] what we give them, the analogy I I
+- [18:47] pulled from, I believe it was the
+- [18:48] anthropic CPO, uh, who's also the
+- [18:50] Instagram founder, but the way he was
+- [18:52] talking about it is imagine your cloud
+- [18:54] code. You wake up, you're in this box,
+- [18:55] and all you have is what some person
+- [18:58] just handed you, i.e. the prompt. It's
+- [19:00] going to be extremely hard to to do
+- [19:02] anything productive with that if you've
+- [19:04] got limited context, limited tooling. So
+- [19:06] giving the context of the codebase,
+- [19:09] architectural style, what our preferred
+- [19:11] libraries are, different like UI mocks
+- [19:13] and style guides. I mean anything that
+- [19:15] can help it understand like examples of
+- [19:17] of good output and bad output, what it
+- [19:19] needs to do along with evaluate
+- [19:22] the output. So again, examples of good
+- [19:24] and bad llinters are are super helpful.
+- [19:27] I mean, I I just have it run eslint
+- [19:28] every time it's doing anything because
+- [19:30] that uh just saves me a ton of time. You
+- [19:32] just want to keep that agentic loop
+- [19:33] going as as long as you can and give it
+- [19:35] as much uh feedback in real time as
+- [19:36] possible. Any standards so uh like you
+- [19:39] know around commits and branch naming
+- [19:41] for example acceptance criteria
+- [19:43] automated tests and then also tools. So
+- [19:45] different MCPS are the easiest way to
+- [19:48] expose these but also the built-in web
+- [19:50] search and bash uh GitHub CLI. There's a
+- [19:54] lot of other tools you can give these
+- [19:55] models to perform and uh do much better.
+- [19:58] There's a lot beyond engineering too
+- [20:00] that these agents are great at. Second
+- [20:01] brain uh which is basically like a
+- [20:04] methodology around personal knowledge
+- [20:05] management and like note-taking which
+- [20:07] can be really helpful along with
+- [20:09] different computer administrative tasks.
+- [20:11] So like naming screenshots based off the
+- [20:12] content and what's in there organizing
+- [20:14] files automatically of course you know
+- [20:15] pipe oper operator. There's a uh MCP for
+- [20:18] blender which is really fun to create 3D
+- [20:20] models. I haven't used it myself but
+- [20:22] I've seen some amazing demos. Getting
+- [20:23] close to time so I'll just really
+- [20:25] quickly go through the rest of the
+- [20:26] slides here. Different types of MCPs
+- [20:28] that can be really helpful. These are
+- [20:29] the main categories of uh functioning
+- [20:31] the type of MCP. These are some of the
+- [20:33] best registries of MCPS where you can
+- [20:35] find them.
+- [20:36] >> There's like behaviors with React that
+- [20:38] are terrible for users that end up
+- [20:40] happening when you kind of just throw a
+- [20:44] lot of code together.
+- [20:45] >> Yeah.
+- [20:46] >> Um and fixing it is hard. And I figured
+- [20:48] there's some way to do it if you have
+- [20:50] some MCP that's going to load it and
+- [20:52] then kind of output, you know, the
+- [20:54] progress to some format that's going to
+- [20:56] be read by by an LLM. I don't know what
+- [20:58] that is yet.
+- [20:59] >> You know, I don't have a good solution
+- [21:00] to this. One thought though is maybe
+- [21:02] having it input break points to get it
+- [21:03] to kind of pause at different UI states
+- [21:05] and then take a screenshot is maybe one
+- [21:07] interesting approach just to throw out
+- [21:09] there. But uh great question. All right,
+- [21:11] I I'm I'm out of time. Uh unfortunately,
+- [21:15] uh I'll share these slides though.
+- [21:16] There's there's a lot of stuff in here
+- [21:17] that I'm really passionate about, but I
+- [21:18] want to make sure we have we have time
+- [21:19] here. So big picture, I can't believe we
+- [21:23] didn't cover this yet. This is what you
+- [21:24] want to do every time you are using
+- [21:27] claude code on the command line. How
+- [21:28] many of you actually use cloud code?
+- [21:29] Have used it. You've all used it. Okay.
+- [21:31] So, you know this. So hopefully I'll
+- [21:34] give you something a little more
+- [21:35] interesting, but explore plan execute.
+- [21:38] If you jump straight to execute, I do
+- [21:39] this sometimes. I'm like this this is
+- [21:41] going to be so easy. Claude is dumb and
+- [21:43] it will screw it up. Um I actually find
+- [21:46] that Sonnet 4 with thinking hard is
+- [21:48] better than Opus for a lot of tasks and
+- [21:51] it's faster. Um, so but you know your
+- [21:55] tax comp task complexity may be
+- [21:57] different than mine. So my goal is to
+- [21:59] make here is to make claude spend tokens
+- [22:03] to build up context. You can read the
+- [22:05] markdown file. I don't mine's never up
+- [22:07] to date or it reads it and it starts you
+- [22:09] know imagine you read 300 lines and
+- [22:11] someone's and about like how someone's
+- [22:13] codebase works and they're like now
+- [22:14] build this. You're going to mess
+- [22:16] something up. So prepare to work on
+- [22:19] this. Claude starts with an idea of what
+- [22:21] it's going to work on and it's like okay
+- [22:23] it's just like you like all of you
+- [22:25] you're like okay you start reading and
+- [22:27] then you're like okay I know how to
+- [22:28] build this and you stop reading and
+- [22:30] you're like I'm ready to build if you're
+- [22:32] like read the code it will read a little
+- [22:33] bit more but if you're like prepared to
+- [22:35] discuss how our front end works will
+- [22:39] spend 50,000 tokens over seven minutes
+- [22:42] just being like okay and then it'll give
+- [22:44] you a nice overview of how it works and
+- [22:46] when you do that cloud is much smarter
+- [22:48] and if it If the overview is wrong,
+- [22:52] escape escape or slashcle. Start over.
+- [22:55] Don't try to correct. You can try to
+- [22:56] correct it. I do it sometimes. Sometimes
+- [22:58] it works. But you're just basically
+- [22:59] chewing through tokens in your context
+- [23:01] window trying to push back on somebody
+- [23:03] who on a bad contractor. Just fire the
+- [23:06] contractor, get a new one.
+- [23:07] >> If it is wrong, what else can you put in
+- [23:09] there to make it right the second time?
+- [23:10] You just like rerun it. See?
+- [23:11] >> Just rerun it. It's gonna reuse a bunch
+- [23:13] of sub aents. It's going to get it
+- [23:14] right. It's going to be right nine out
+- [23:16] of 10en times. This is a great like this
+- [23:19] is a great gambling game and you just
+- [23:22] when you lose you're not like oh why did
+- [23:24] I lose you're like no I win almost all
+- [23:26] the time I make just markdown files I
+- [23:28] have claude write them so like talk
+- [23:31] about how our architecture works for you
+- [23:33] know and then make a checklist of like
+- [23:35] this is what we're working on this is
+- [23:36] like an old one obviously don't write
+- [23:38] any code uh this is like maybe if you
+- [23:40] have a PR consider the next one review
+- [23:42] relevant but I actually think this is a
+- [23:43] lot better we're going to work on the
+- [23:44] document identification part of the app
+- [23:46] dig and read relevant files, prepare to
+- [23:47] discuss the ins and outs of how it
+- [23:49] works. Sometimes I'll follow up with
+- [23:50] questions just to make sure it actually
+- [23:52] has the context. Um, and often I will
+- [23:55] double escape to remove that from the
+- [23:57] context if I think it's doing a good job
+- [23:59] just because I burn like I don't want to
+- [24:01] I like a lot of room in the context
+- [24:02] window. So double escape. How many of
+- [24:04] you use double escape with cloud? Okay,
+- [24:07] you should use all you should use this
+- [24:08] all the time. So I just spent seven
+- [24:10] minutes building up context. this
+- [24:13] person's this this contractor is really
+- [24:15] good at this. I can double escape and
+- [24:17] just fork the conversation. Like I can
+- [24:19] have it do a bunch of work, double
+- [24:21] escape and go back to this same point
+- [24:23] where they have all this context. Saves
+- [24:26] me money and time like mostly like I
+- [24:28] won't get kicked out of my max plans as
+- [24:30] soon as
+- [24:32] mostly just like I don't have to sit
+- [24:33] there and wait and maybe get the get a
+- [24:35] bad gamble. If you get a smart cloud,
+- [24:36] you should keep it and reuse it over and
+- [24:38] over and over. Um so this is what it
+- [24:41] looks like. You double escape and you
+- [24:43] can just go back to any previous
+- [24:44] conversation. This is a crazy branching
+- [24:47] multiverse. So you can open up a new
+- [24:48] tab. You just built up a bunch of
+- [24:50] context. Open up a new tab. Hit resume
+- [24:52] and you get all that context in the new
+- [24:54] tab in terminal. So you can do like five
+- [24:55] terminals all with all of that exact
+- [24:58] amazing front end or backend or API
+- [25:00] context. You can you can ask a couple of
+- [25:03] questions and start there. Whatever you
+- [25:05] wherever you want. Just don't do this
+- [25:07] and then start like having it write
+- [25:09] three different things on the front end.
+- [25:10] Go. Do you prefer like git work trees or
+- [25:13] just different directories or how do you
+- [25:14] go back?
+- [25:15] >> I prefer to not work on more than two
+- [25:18] tasks at a time because my brain gets
+- [25:21] fried. I end up with 15 tabs open. I go
+- [25:24] back to a tab. I'm like, wait, what's
+- [25:25] that tab? And I'm like, oh my god, I
+- [25:27] cannot make this decision right now.
+- [25:28] This is like, why did I even start down
+- [25:29] this path? I just have like two work
+- [25:31] trees, which is just like your entire
+- [25:32] git library like in a parallel case. And
+- [25:36] I will just like merge them into master.
+- [25:38] I just keep them open. They're just
+- [25:39] sitting there because I don't care. Uh I
+- [25:41] don't use get appropriately.
+- [25:44] Um
+- [25:45] so plan I don't use plan mode. The the
+- [25:48] three or four times I've tried it like
+- [25:50] didn't do as good a plan as me asking it
+- [25:52] to do a plan. I like to think hardest.
+- [25:54] This is where you really have to think.
+- [25:55] Claude needs to think hard to plan. Um
+- [25:58] so this is my generic instructions. I
+- [26:02] really like this. Write the function
+- [26:04] names in one to three sentences about
+- [26:05] what they do. write the test names five
+- [26:07] to 10 words like about the behavior they
+- [26:09] cover, but really the short overview if
+- [26:12] like because Claude's default for plan
+- [26:13] is often like here's a bunch of code
+- [26:16] that I'm going to write and you're like
+- [26:18] no I want you to think higher level than
+- [26:20] that. I want you to tell me conceptually
+- [26:22] what you're doing because when you start
+- [26:24] doing code like that you're starting to
+- [26:26] get into the weeds and you're not
+- [26:27] thinking architecturally. So this is
+- [26:30] like a this is a different example I
+- [26:31] have like I actually have built up this
+- [26:33] whole system for adding new PDF types.
+- [26:35] So, I have like a like a whole system
+- [26:37] where I like basically take a PDF and I
+- [26:40] throw out a Gemini, but I have different
+- [26:41] types and I have different verifications
+- [26:42] I want run on them. I just have it read
+- [26:44] a couple of guides and then I just let
+- [26:47] this run. So, there's no context on
+- [26:49] this. I can just put this into GitHub
+- [26:50] and then I go to cloud and I'm like, do
+- [26:53] gh issue 140.
+- [26:56] Close it when you're done. And then I
+- [26:58] just hit like auto accept. Goodbye. Risk
+- [27:00] based planning. If it's small, don't
+- [27:02] overthink. Just write the code. medium
+- [27:04] to large, you've got to break it into
+- [27:05] like testable, deployable PRs. Um, and
+- [27:08] that's I think of this in terms of
+- [27:09] context windows, you know, and that's
+- [27:11] like about a PR sized for me. It's about
+- [27:13] a PR- sized chunk of work. Um, and then
+- [27:16] high-risisk I'd take I think you should
+- [27:18] take three shots at the plan, two or
+- [27:19] three shots. Um, you should really work
+- [27:21] over it like with Claude. I'm not making
+- [27:23] the plan again. Like I'm just looking at
+- [27:25] its plan and I'm like this smells bad.
+- [27:27] Like this is a terrible like if an
+- [27:28] engineer came to me, you are an
+- [27:30] engineer. You come to me with this. Like
+- [27:31] I'm like this is really complicated.
+- [27:34] It's going to be like you're going to
+- [27:36] screw it up. It's going to mess up the
+- [27:37] codebase. So
+- [27:40] once I've done the plan, I open up a new
+- [27:42] tab, pull up that same amazing context,
+- [27:45] but don't dive into the plan. Don't
+- [27:47] don't don't get like once once it's made
+- [27:49] the plan, it's not going to critique
+- [27:50] itself. But if you go back to the
+- [27:52] amazing context and you're like, "Yo, my
+- [27:54] developer came up with this plan to do
+- [27:57] this." Claude's like, "Yeah, all right.
+- [28:00] let me tell you about this plan. I'm
+- [28:02] with you. I'm on your team, not on your
+- [28:04] developers team. If you're like, I came
+- [28:06] up with this plan, it'll like tell you a
+- [28:07] lot of nice stuff. It'll be like, great
+- [28:08] job. You did a great plan. Here's a
+- [28:11] couple little things you might do
+- [28:12] differently. But this case, it's going
+- [28:14] to be like, yeah, your developer, you
+- [28:16] know, like I don't know, I wouldn't have
+- [28:18] done it that way. Um, and try to get
+- [28:21] specific. If you're just like they made
+- [28:22] this plan, it's like it's not going to
+- [28:23] do a good job. But so ask the questions
+- [28:25] you would ask yourself.
+- [28:27] Um,
+- [28:29] so get feedback on the plan. You can
+- [28:30] make have two clouds make the plan. Um,
+- [28:34] you can have a third cloud decide
+- [28:36] between them. Um, I tend to put them
+- [28:39] into markdown and have cloud work on
+- [28:40] them and then I have it break them up
+- [28:41] into PR sized chunks and then we
+- [28:45] execute. and those PR size chunks, you
+- [28:47] might as well use that same context that
+- [28:48] you've already built up because it's so
+- [28:51] valuable to have those 50,000 tokens
+- [28:53] about your database or sorry your your
+- [28:55] app in the in the context window. It's
+- [28:58] going to write much better code than if
+- [29:00] you just like bring up a blank claude
+- [29:02] with 200 lines of the cloud MD. So pull
+- [29:05] up that 50,000 token context window. Say
+- [29:09] work on PR1. This is my example prompt.
+- [29:12] Think hard. Write elegant code that
+- [29:13] completes this. This is a real big one.
+- [29:16] It loves backwards compatibility, which
+- [29:18] I don't.
+- [29:20] I'm like, "No." I And like it's like,
+- [29:21] "And we'll have graceful fallbacks." And
+- [29:23] I'm like, "No, that's just junk that
+- [29:25] will break." And then it will gracefully
+- [29:28] fall back. When you say that, that means
+- [29:29] to me that the app is going to silently
+- [29:32] fail and I will not know about it
+- [29:34] because it will just start leaning on
+- [29:36] some old code that you should be
+- [29:38] deleting. Um, this is you can tell where
+- [29:40] I get frustrated with cloud. Um, so I
+- [29:44] try to this is a little overkill like
+- [29:45] the testing and sometime but I think
+- [29:47] linting compiling and and writing
+- [29:49] corresponding tests is good for really
+- [29:51] simple stuff. I actually just say like
+- [29:53] do TDD and it writes the test. It writes
+- [29:55] the failing test. It writes the code
+- [29:57] that makes the test pass and it does a
+- [29:59] great job. It's really good. TDD is
+- [30:01] terrible. When I did code I remember
+- [30:03] trying it for like a week and being like
+- [30:05] hate TDD. This is just like this
+- [30:08] is worse than writing tests. Um, so I
+- [30:11] like thinking hard or think for this.
+- [30:13] Um, I write have Claude write lots of
+- [30:15] scripts to check its own work. So like I
+- [30:19] gave it a script to call Gemini with
+- [30:20] PDFs or I had it write that script and
+- [30:22] now I'm like test to make sure that like
+- [30:24] when you verify like you created a new
+- [30:26] markdown file that verifies PDFs, make
+- [30:28] sure it actually works and it verifies
+- [30:30] with this one. Or if you need to view a
+- [30:32] PDF file, Cloud's terrible at that. It
+- [30:34] can't do it. Ask Gemini or ask Unstruct.
+- [30:38] It will give you a markdown file. go,
+- [30:39] you know, look at that. Then you can
+- [30:41] read it and understand what's going on
+- [30:42] and you can like figure out what what to
+- [30:44] do. This is a big question to watch or
+- [30:45] not to watch. Do you like because Claude
+- [30:47] will make in my case like one out of 10
+- [30:51] to 20 times it's going to start copying
+- [30:53] code and just doing some dumb stuff and
+- [30:56] I'm not going to look at the commit. I'm
+- [30:58] going to watch it as it goes pretty much
+- [30:59] or I'm not going to watch it at all. I'm
+- [31:01] going to be like commit it. It works.
+- [31:02] It's good. Um, so I've seen 200 lines of
+- [31:05] copied code go through. I have a weird
+- [31:08] config that's in five different places
+- [31:10] in my app and I'm just like every time
+- [31:11] like Claude, could we just can we just
+- [31:13] put this config into one place and it's
+- [31:15] like oh yeah here's a plan and I'm like
+- [31:17] all right to your stupid like this okay
+- [31:19] this is harder than it looks I guess. Um
+- [31:22] return true was a 3.7 problem. You will
+- [31:24] not get that anymore. Um but usually if
+- [31:28] you just hit go like you kind of get a
+- [31:30] feel for it. I have a feel for it now
+- [31:31] where I'm like this is an easy enough
+- [31:33] thing for claw just to do. go shift tab,
+- [31:36] you know, puts it on to autocomplete.
+- [31:38] Um, I don't know if you all have heard
+- [31:41] how this came to be like why we have
+- [31:44] amazing coding agents now, but it's
+- [31:46] because of RL and it's because once the
+- [31:50] models once you're once you move up the
+- [31:51] tech tree enough where models can write
+- [31:53] good compilable code, you can actually
+- [31:56] then start to have give them coding
+- [31:58] problems and then and figure out if like
+- [32:00] basically they have to be able to create
+- [32:02] the solution like 80% of the time or
+- [32:04] tasks like the way that they did
+- [32:06] thinking was they were just like write a
+- [32:07] bunch of stuff and at the end if you get
+- [32:10] the right answer you get a cookie and
+- [32:13] we're going to reward that circuit and
+- [32:15] if you don't you don't get a cookie
+- [32:17] right and if it like so we got to like
+- [32:19] GPT4 and claude 35 level models and you
+- [32:22] could start actually like turning
+- [32:23] thinking on but because the models were
+- [32:25] good enough to get all the way through
+- [32:27] but
+- [32:29] uh the problem is like you're creating
+- [32:31] software engineering problems and you're
+- [32:33] just like and they're verifiable. So
+- [32:35] like write this code, does it compile?
+- [32:37] Does it answer the right question at the
+- [32:39] end? Very easy to test back, right? But
+- [32:43] does does that make for good edits? No.
+- [32:45] That makes for really good writing fresh
+- [32:47] new codes, new methods. Claude prefers
+- [32:51] that. I don't know if you've all noticed
+- [32:52] that, but you're like in my case, you're
+- [32:55] probably if you're editing stuff like
+- [32:56] cursor style, it doesn't matter. But in
+- [32:58] my case, I'm like, write this. Edit the
+- [33:01] code. figure out where you can edit
+- [33:03] because you really have to prompt that
+- [33:04] because Claude is still really tuned
+- [33:06] into like, okay, I'm gonna write some
+- [33:08] new code. This is gonna be fun. We're
+- [33:10] going to do a new method, guys. Uh, so,
+- [33:13] uh, sorry, it got cut off here, but
+- [33:14] yeah, Cloud37 was like over RLED on just
+- [33:17] like completing tasks and they dialed
+- [33:19] that back. That's where the ret return
+- [33:21] true came from. But we still have this
+- [33:23] problem where claude is like just trying
+- [33:26] to finish like it's trying to finish
+- [33:27] tasks and get its cookie by writing new
+- [33:30] code, not by editing or elegantly
+- [33:32] integrating code.
+- [33:35] Uh so then I go back to the developer
+- [33:37] thing, right? I lean on the developer.
+- [33:38] Uh so I go back to that the planner. So
+- [33:41] I have my planner tab open and I'm just
+- [33:43] like, yo, my developer just finished
+- [33:44] step two. Give them lowlevel like
+- [33:48] feedback and highle feedback. If you
+- [33:50] don't say that, it's like they did a
+- [33:51] great job. Um,
+- [33:54] so and then I get feedback and then I go
+- [33:56] back to the developer and I'm like,
+- [33:57] "Hey, I got this feedback. What do you
+- [33:58] think?" And it's like, "It's good
+- [34:00] feedback. Yeah, I'll do it." Um, and
+- [34:02] this is the problem with like Claude, I
+- [34:04] don't know if you've hit the slashre on
+- [34:06] cloud zone code. It's like this code's
+- [34:08] great. Review doesn't cloud likes cla's
+- [34:11] code. Um,
+- [34:13] I use this sometimes, but uh, prepare.
+- [34:15] So I'm like at the end as I'm running
+- [34:17] out of my context window or we're
+- [34:18] finishing up the poll request like pay
+- [34:21] like I say to Claude like tell some give
+- [34:24] the next you're not working on the next
+- [34:26] step of this give advice to the next
+- [34:27] developer put it in the markdown file
+- [34:30] and cloud is usually like you you're off
+- [34:31] to an excellent start here
+- [34:34] but uh it can be helpful
+- [34:37] uh context window management I'm sure do
+- [34:40] you all get this? I like I never compact
+- [34:43] anymore. Compact is a waste of time. it
+- [34:45] generates like a page and a half and it
+- [34:48] tells Claude to read four files and
+- [34:49] you're like you you end up with a very
+- [34:51] like kind of off offkilter dumb cloud.
+- [34:54] Uh so I just try to rewind. I try once I
+- [34:56] get to 5% I'm like document what you've
+- [34:59] done and we're rewinding back to 40%.
+- [35:01] And we're going to like and I'm going to
+- [35:02] be like here's what here's what I've
+- [35:04] done so far. Continue.
+- [35:06] >> Sorry. So you rewind instead of fighting
+- [35:09] with
+- [35:10] >> Yeah. I hate compact. I hate And yeah,
+- [35:12] starting with clear.
+- [35:13] >> Yeah. Yeah, I mean you could use clear
+- [35:15] but then you don't have any context and
+- [35:17] so I like and you can use resume to get
+- [35:19] that context back or double escape so
+- [35:22] like why not use I mean it is more
+- [35:25] expensive because you're you already
+- [35:26] have all that like you're I don't know
+- [35:28] that you're actually getting charged for
+- [35:29] you only get new tokens right so you're
+- [35:31] not getting charged it's much more
+- [35:32] expensive for them but for us it's just
+- [35:35] new tokens so it's great
+- [35:37] >> um so you jump straight to execution go
+- [35:40] ahead
+- [35:41] >> oh yeah yeah um other tips and tricks. I
+- [35:45] get merge. That's the problem with work
+- [35:46] trees is I'm like, "All right, we're
+- [35:48] going to do this over here. We're going
+- [35:49] to do this over here." And then we're
+- [35:50] merge them. And I'm like, "Oh, Jesus."
+- [35:52] Now we have a merge conflict. I'm just
+- [35:54] like, "Cloud, there's deal with git."
+- [35:57] And it's like, "Okay." And it gets it
+- [35:59] right every time. I'm like, "Oh, this is
+- [36:00] should I like trust it?" And I'm like,
+- [36:02] "I don't know." Every time it works. Uh
+- [36:06] I skip the ceremony for simple tasks.
+- [36:08] Just like do it.
+- [36:10] Um, Claude loves to be enterprise ready.
+- [36:13] Just you have to fight that because like
+- [36:15] it's, you know, built by an enterprise
+- [36:16] for enterprises. So, um, so this is one
+- [36:19] of my like if if it gave me a plan
+- [36:20] that's too bulky, I love I love this and
+- [36:23] it's just like totally right and it cuts
+- [36:25] it in half and it makes it a much better
+- [36:27] plan for me. Um, explore plan, execute,
+- [36:31] resume my developer.
+- [36:34] Um, and then Claude made up this joke at
+- [36:37] the end for me. I didn't add this, but I
+- [36:40] like it.
+- [36:43] It's a good one. All right, so that's my
+- [36:46] talk.
+- [36:49] I hope you found our talks helpful. And
+- [36:50] if you did, I'm sure you would enjoy one
+- [36:52] of these two videos on how to become AI
+- [36:55] native as a software engineer and a
+- [36:57] founder, specifically within codegen
+- [36:59] tools like cloud code. And with that,
+- [37:02] don't forget to subscribe for more
+- [37:03] content like this. Thank you.
